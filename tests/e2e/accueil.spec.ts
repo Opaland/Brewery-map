@@ -1,22 +1,14 @@
 import { expect, test } from '@playwright/test'
+import { sansTuiles, TUILE_OSM } from './reseau'
+
+test.beforeEach(async ({ page }) => {
+  await sansTuiles(page)
+})
 
 test.describe('la page d’accueil', () => {
-  test('dit ce qu’elle est, et qu’elle n’est pas encore finie', async ({ page }) => {
+  test('se présente', async ({ page }) => {
     await page.goto('/')
     await expect(page.getByRole('heading', { name: 'Mousse de Poche', level: 1 })).toBeVisible()
-    await expect(page.getByTestId('etat-construction')).toBeVisible()
-  })
-
-  test('nomme les quatre catégories de vente', async ({ page }) => {
-    await page.goto('/')
-    for (const libelle of [
-      'Acheter et consommer sur place',
-      'Acheter seulement',
-      'Pas de vente',
-      'À confirmer',
-    ]) {
-      await expect(page.getByRole('listitem').filter({ hasText: libelle })).toBeVisible()
-    }
   })
 
   test('porte la mention sanitaire dans le pied de page', async ({ page }) => {
@@ -28,13 +20,20 @@ test.describe('la page d’accueil', () => {
     await expect(mention).toBeVisible()
   })
 
-  test('ne fait aucune requête vers un autre domaine', async ({ page }) => {
+  test('ne contacte aucun autre hôte que les tuiles OpenStreetMap', async ({ page }) => {
     const ailleurs: string[] = []
     page.on('request', (r) => {
-      if (!r.url().startsWith('http://localhost:4173')) ailleurs.push(r.url())
+      const url = r.url()
+      if (url.startsWith('http://localhost:4173') || url.startsWith('data:')) return
+      if (TUILE_OSM.test(url)) return
+      ailleurs.push(url)
     })
     await page.goto('/')
-    await page.waitForLoadState('networkidle')
+    await page.getByTestId('recherche').fill('lyon')
+    await expect(page.getByTestId('carte').locator('canvas')).toBeVisible()
+    // Une absence se constate sur une fenêtre de temps : `networkidle` n'est
+    // jamais atteint ici, MapLibre retentant les tuiles coupées.
+    await page.waitForTimeout(2000)
     expect(ailleurs).toEqual([])
   })
 })

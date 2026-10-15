@@ -20,7 +20,7 @@ durée se relève sur l'horodatage des commits.
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
 | S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
-| S2 | 500 k | 2 h | — | à venir |
+| S2 | 500 k | 2 h | voir §S2 | en cours |
 | S3 | 500 k | 2 h | — | à venir |
 | S4 | 500 k | 2 h | — | à venir |
 | S5 | 375 k | 1 h 30 | — | à venir |
@@ -113,11 +113,23 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 6. **Durée estimée.** 2 h.
 7. **Exclus.** Fiche détaillée, types de bière, hors-ligne, clustering si
    les mesures ne le justifient pas.
-8. **Risques et dépendances.** **Bloquant : `data/breweries.json` n'existe
-   dans aucun dépôt accessible (audit du 15/10).** Sans lui, S2 ne commence
-   pas. Le sens de certains champs (`d`, `km`, `note`) est inconnu tant que
-   le fichier n'est pas lu.
-9. **État final et restes.** —
+8. **Risques et dépendances.** Levé : `data/breweries.json` fourni le 15/10.
+   Décisions de Cédric au go : distances calculées par l'application,
+   marqueurs groupés.
+9. **État final et restes.** *(en cours)* Mesures et constats relevés :
+   - **Web Worker non retenu** : `rechercher` sur les 166 lignes coûte
+     0,33 ms par appel (Node, conteneur 4 cœurs, 2 000 appels après 200 de
+     chauffe, le 15/10). Sur un téléphone ancien, l'écart n'est pas mesuré ;
+     même à 20 fois plus lent, on resterait sous une image (16 ms) — c'est
+     une estimation, pas une mesure.
+   - **Raté du jour, attrapé par une capture et non par un test** : la carte
+     s'affichait sans aucun marqueur (couche de texte sans police, puis
+     worker MapLibre introuvable après bundling) alors que le test « la carte
+     se dessine » était vert — il ne regardait que le canvas (§1bis). Les
+     tests comptent maintenant les marqueurs ; ils ont été vus rouges sur ce
+     défaut réel (attendu 44, reçu 0).
+   - Tests vus rouges sans leur correctif : distance sans lire `km` ; repli
+     sans WebGL ; aucun hôte tiers hors tuiles OSM.
 
 ## S3 — Fiches et types de bière
 

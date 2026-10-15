@@ -25,7 +25,7 @@
     "vite.config.ts",
     "playwright.config.ts",
     "build",
-    "src/core/schema.ts",
+    "src/core",
     "tests"
   ]
 }

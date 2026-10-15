@@ -5,10 +5,9 @@ import { z } from 'zod'
  *
  * ## D'où vient chaque règle
  *
- * La forme a été relevée sur les cinquante premières lignes du fichier, collées
- * par Cédric le 15/10 (le collage s'arrêtait à la cinquante-et-unième). Rien
- * n'a été inventé : chaque contrainte ci-dessous correspond à ce que ces
- * lignes montrent toutes.
+ * La forme a été relevée sur le fichier fourni par Cédric le 15/10 (166
+ * lignes, toutes conformes). Rien n'a été inventé : chaque contrainte
+ * ci-dessous correspond à ce que ces lignes montrent toutes.
  *
  * - `note` est un **texte de justification**, pas une note chiffrée. Le cahier
  *   des charges parle d'une « note et origine de cette note » : l'écart est
@@ -18,22 +17,14 @@ import { z } from 'zod'
  * - `src` est vide **seulement en catégorie 0** (« Aucune source fiable
  *   lue ») : une catégorie de vente affirmée sans source est refusée.
  * - `km` est une distance déjà calculée depuis Brignais. L'application
- *   calculera la sienne (S2) ; le champ est validé, pas encore lu.
+ *   calcule la sienne (`core/distance.ts`, décision de Cédric du 15/10) ; le
+ *   champ reste validé mais n'est lu nulle part.
  *
  * Le schéma est `strict` : un champ non décrit fait échouer la validation,
  * pour qu'aucun champ ne traverse l'application sans que personne l'ait lu.
  */
 
-/**
- * Les quatre catégories de vente. Les codes suivent le prompt v2 de Cédric :
- * 0 est « À confirmer », une catégorie à part entière et non une erreur.
- */
-export const CATEGORIES = {
-  0: 'À confirmer',
-  1: 'Acheter et consommer sur place',
-  2: 'Acheter seulement',
-  3: 'Pas de vente',
-} as const
+export { CATEGORIES } from './categories'
 
 export const categorieSchema = z.union([
   z.literal(0),
@@ -130,6 +121,7 @@ export const brasserieSchema = z
 export const brasseriesSchema = z.array(brasserieSchema)
 
 export type Brasserie = z.infer<typeof brasserieSchema>
+export type Categorie = z.infer<typeof categorieSchema>
 
 /**
  * Valide un contenu de fichier et rend un message lisible par ligne fautive.

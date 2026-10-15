@@ -15,14 +15,17 @@ chacun demande une décision ou une vérification de source.
 | D3 | Toutes les coordonnées sont `commune`. | 166/166 | S3 (affichage) ; S5 (curation) |
 | D4 | 101 brasseries « À confirmer » (cat 0), dont 58 sans source. | cat 0 : 101 ; `src` vide : 58 | S5, deux lots de 25 au plus |
 | D5 | Aucun type de bière renseigné. | `beers` vide : 166/166 | S5 ; le filtre par type sera vide avant (ordre de coupe n° 2) |
-| D6 | `km` diffère de plus de 2 km de la distance à vol d'oiseau depuis Brignais pour deux lignes. | Brasserie Solstice 93 (calculé 96,2) ; Brasserie Kiltin' 93 (calculé 90,0) | S2 — l'application calcule ses distances ; `km` à garder ou retirer ? |
-| D7 | Deux brasseries partagent exactement les mêmes coordonnées. | Le Brass'in et Single Track (même adresse, la note l'explique) | S2 — marqueurs superposés sur la carte |
+| D6 | `km` diffère de plus de 2 km de la distance à vol d'oiseau depuis Brignais pour deux lignes. | Brasserie Solstice 93 (calculé 96,2) ; Brasserie Kiltin' 93 (calculé 90,0) | **Tranché le 15/10** : l'application calcule ses distances (`core/distance.ts`) ; `km` reste dans le fichier, validé, jamais lu. Le retirer = modifier `data/`, à décider par Cédric. |
+| D7 | Deux brasseries partagent exactement les mêmes coordonnées. | Le Brass'in et Single Track (même adresse, la note l'explique) | **Tranché le 15/10** : marqueurs groupés ; ces deux-là restent un groupe « 2 » à tout zoom (test e2e). |
 | D8 | Une source est une page d'accueil générique avec une vente « déduite ». | Ninkasi Brignais (`https://www.ninkasi.fr/`, conf faible) | S5 |
 
 ## Fonctionnel
 
-- Clustering cartographique : seulement si une mesure le justifie (ordre de
-  coupe n° 3).
+- Le point de départ (Brignais) est masqué par le groupe qui contient les
+  brasseries de Brignais au zoom d'ouverture (constaté sur capture le 15/10).
+  Il réapparaît en zoomant. À traiter si une revue de persona le juge gênant.
+- La carte (MapLibre) pèse 282 ko gzip, chargée à part de la liste (mesuré
+  au build du 15/10). Mesure Lighthouse en S6.
 - Scripts de garde de Sentiers non repris (`listes`, `textes`, `chemins`) :
   à reprendre si un raté de la même famille se produit ici.
 
