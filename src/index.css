@@ -1,0 +1,81 @@
+/*
+  Jetons repris de Sentiers (docs/DESIGN_SYSTEM.md) : surfaces, encre, états,
+  espacements, rayons, tailles de texte, et leurs valeurs sombres. Les couleurs
+  de balisage, propres à la randonnée, ne sont pas reprises.
+*/
+:root {
+  color-scheme: light dark;
+  --papier: #faf7f2;
+  --encre: #1e2b23;
+  --encre-douce: #5a6b5d;
+  --gris-vert-clair: #e7e9e4;
+  --blanc-carte: #fff;
+  --attention-fond: #fdf6e3;
+  --attention-bord: #d9a400;
+  --erreur-fond: #fdecec;
+  --erreur-bord: #c8102e;
+  --bleu-position: #1d6fa5;
+  --espace-2: 4px;
+  --espace-4: 8px;
+  --espace-6: 12px;
+  --espace-7: 16px;
+  --espace-8: 24px;
+  --rayon-md: 6px;
+  --font-sans: system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --texte-secondaire: 0.85rem;
+  --texte-corps: 0.9375rem;
+  --texte-vedette: 1.35rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #161c18;
+    --encre: #e9ede8;
+    --encre-douce: #a9b4a9;
+    --gris-vert-clair: #33403a;
+    --blanc-carte: #1f2723;
+    --attention-fond: #332c16;
+    --erreur-fond: #3a1e20;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--font-sans);
+  font-size: var(--texte-corps);
+  line-height: 1.5;
+}
+
+a { color: inherit; }
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 var(--espace-7);
+}
+
+.entete h1 { font-size: var(--texte-vedette); margin: var(--espace-8) 0 var(--espace-2); }
+.sous-titre { margin: 0; color: var(--encre-douce); }
+.contenu { flex: 1; }
+
+.avertissement {
+  background: var(--attention-fond);
+  border-left: 4px solid var(--attention-bord);
+  border-radius: var(--rayon-md);
+  padding: var(--espace-6) var(--espace-7);
+}
+
+.pied {
+  border-top: 1px solid var(--gris-vert-clair);
+  margin-top: var(--espace-8);
+  padding: var(--espace-6) 0;
+  font-size: var(--texte-secondaire);
+  color: var(--encre-douce);
+}
