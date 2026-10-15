@@ -1,4 +1,4 @@
-import { lazy, Suspense, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -31,6 +31,19 @@ export function App() {
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
   const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
+  const [enLigne, setEnLigne] = useState(() => navigator.onLine)
+
+  useEffect(() => {
+    const maj = () => {
+      setEnLigne(navigator.onLine)
+    }
+    window.addEventListener('online', maj)
+    window.addEventListener('offline', maj)
+    return () => {
+      window.removeEventListener('online', maj)
+      window.removeEventListener('offline', maj)
+    }
+  }, [])
 
   const resultats = useMemo(
     () =>
@@ -65,6 +78,13 @@ export function App() {
           Les brasseries artisanales autour de Brignais, et ce qu’on peut y faire.
         </p>
       </header>
+
+      {!enLigne && (
+        <p className="bandeau-hors-ligne" role="status" data-testid="hors-ligne">
+          Hors connexion : toutes les fiches restent consultables. La carte n’affiche que les
+          zones déjà vues.
+        </p>
+      )}
 
       <section className="filtres" aria-label="Rechercher et filtrer">
         <label className="champ">

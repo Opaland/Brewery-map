@@ -1,0 +1,17 @@
+{
+  "name": "Mousse de Poche — brasseries artisanales",
+  "short_name": "Mousse de Poche",
+  "description": "Les brasseries artisanales autour de vous, et ce qu'on peut y faire. Votre position reste dans votre téléphone.",
+  "lang": "fr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#1e2b23",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
