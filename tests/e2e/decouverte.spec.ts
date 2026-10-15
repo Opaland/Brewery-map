@@ -33,6 +33,14 @@ test.describe('trouver une brasserie (Marie)', () => {
     await expect(page.getByTestId('compte')).toHaveText('1 brasserie à moins de 30 km')
   })
 
+  test('« À confirmer » dit pourquoi, dans la liste même', async ({ page }) => {
+    await page.goto('/')
+    await page.getByTestId('recherche').fill('oullins')
+    await expect(lignes(page).first()).toContainText(
+      'Pourquoi : Aucune source fiable lue pour cette brasserie.',
+    )
+  })
+
   test('par son nom, sans accent ni majuscule', async ({ page }) => {
     await page.goto('/')
     await regler(page, 100)

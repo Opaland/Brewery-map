@@ -201,6 +201,7 @@ a { color: inherit; }
 
 .ligne-nom { font-weight: 600; }
 .ligne-lieu { color: var(--encre-douce); font-size: var(--texte-secondaire); }
+.ligne-note { font-size: var(--texte-secondaire); }
 
 .badge {
   display: inline-flex;

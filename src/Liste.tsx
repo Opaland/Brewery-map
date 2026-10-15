@@ -30,6 +30,16 @@ export function Liste({ resultats, selection, onChoisir }: Props) {
               <span className="pastille" aria-hidden="true" />
               {CATEGORIES[brasserie.cat]}
             </span>
+            {/*
+              Le texte de justification du fichier, en entier : en catégorie 0
+              c'est la raison du « À confirmer » (CLAUDE.md §0) ; ailleurs, il
+              dit souvent quand le lieu accueille (revue Cédric S1). Pas
+              tronqué — un texte coupé cache justement la réserve.
+            */}
+            <span className="ligne-note">
+              {brasserie.cat === 0 ? 'Pourquoi : ' : ''}
+              {brasserie.note}
+            </span>
           </button>
         </li>
       ))}

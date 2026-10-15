@@ -187,9 +187,12 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
                 map.easeTo({ center: [lon, lat], zoom })
                 return
               }
-              // Même endroit : zoomer ne les séparerait pas. La première est
-              // choisie ; dans la liste, les autres sont juste à côté (même
-              // distance).
+              // Zoom maximal atteint sans séparation. Avec un rayon de groupe
+              // de 36 px (≈ 240 m au zoom 14), seules des coordonnées
+              // identiques en sont là : les paires voisines du fichier sont
+              // toutes à plus de 640 m (mesuré le 15/10). La première est
+              // choisie ; les autres, à la même distance, la suivent dans la
+              // liste.
               void source.getClusterLeaves(idGroupe, 1, 0).then((feuilles) => {
                 const nom: unknown = feuilles[0]?.properties?.['nom']
                 if (typeof nom === 'string') surChoix.current(nom)
@@ -263,7 +266,13 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
     carte.current?.fitBounds(emprise(origine, rayonKm), { duration: 300 })
   }, [prete, origine, rayonKm])
 
-  // La brasserie choisie est marquée, et la carte la centre.
+  // La brasserie choisie est marquée, et la carte la centre — une fois, au
+  // choix. Dépendre aussi des résultats recentrait la carte à chaque frappe
+  // dans la recherche (revue adverse du 15/10).
+  const resultatsCourants = useRef(resultats)
+  useEffect(() => {
+    resultatsCourants.current = resultats
+  }, [resultats])
   useEffect(() => {
     if (!prete) return
     for (const m of marqueurs.current.values()) {
@@ -272,13 +281,13 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
       el.setAttribute('aria-pressed', String(el.dataset['nom'] === selection))
     }
     if (selection === null) return
-    const trouvee = resultats.find((r) => r.brasserie.n === selection)
+    const trouvee = resultatsCourants.current.find((r) => r.brasserie.n === selection)
     if (!trouvee) return
     carte.current?.easeTo({
       center: [trouvee.brasserie.lon, trouvee.brasserie.lat],
       zoom: Math.max(carte.current.getZoom(), 11),
     })
-  }, [prete, selection, resultats])
+  }, [prete, selection])
 
   if (erreur !== null) {
     return (

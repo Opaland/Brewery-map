@@ -62,7 +62,7 @@ export function App() {
             onChange={(e) => {
               setTexte(e.target.value)
             }}
-            placeholder="ex. Oullins, Ninkasi…"
+            placeholder="ex. Lyon, Oullins, Ninkasi…"
             data-testid="recherche"
           />
         </label>

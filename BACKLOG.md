@@ -24,6 +24,10 @@ chacun demande une décision ou une vérification de source.
 - Le point de départ (Brignais) est masqué par le groupe qui contient les
   brasseries de Brignais au zoom d'ouverture (constaté sur capture le 15/10).
   Il réapparaît en zoomant. À traiter si une revue de persona le juge gênant.
+- Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
+  la carte (revue adverse S2).
+- Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe
+  dans les données au 15/10 (revue adverse S2).
 - La carte (MapLibre) pèse 282 ko gzip, chargée à part de la liste (mesuré
   au build du 15/10). Mesure Lighthouse en S6.
 - Scripts de garde de Sentiers non repris (`listes`, `textes`, `chemins`) :

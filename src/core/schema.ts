@@ -118,7 +118,22 @@ export const brasserieSchema = z
     path: ['conf'],
   })
 
-export const brasseriesSchema = z.array(brasserieSchema)
+/**
+ * Les noms sont uniques : l'application choisit une brasserie par son nom
+ * (liste, carte, clé React). Vrai des 166 lignes au 15/10 ; la règle le
+ * garde pour la suite (revue adverse du 15/10).
+ */
+export const brasseriesSchema = z.array(brasserieSchema).superRefine((lignes, ctx) => {
+  const vus = new Map<string, number>()
+  lignes.forEach((b, i) => {
+    const avant = vus.get(b.n)
+    if (avant !== undefined) {
+      ctx.addIssue({ code: 'custom', path: [i, 'n'], message: `nom déjà utilisé ligne ${String(avant)}` })
+    } else {
+      vus.set(b.n, i)
+    }
+  })
+})
 
 export type Brasserie = z.infer<typeof brasserieSchema>
 export type Categorie = z.infer<typeof categorieSchema>

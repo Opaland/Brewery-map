@@ -66,3 +66,21 @@ describe('rechercher', () => {
     expect(rechercher(TOUTES, { ...base, categories: [] })).toEqual([])
   })
 })
+
+describe('rechercher — formes courantes d’un nom', () => {
+  const avec = (n: string, c: string): Brasserie => ({ ...TOUTES[0], n, c })
+  const ninkasi = avec('Ninkasi Saint-Étienne', 'Saint-Étienne')
+  const stephanoise = avec('Brasserie Stéphanoise', 'Saint-Étienne')
+  const brassin = avec("Le Brass'in", 'Fontaines-sur-Saône')
+  const lot = [ninkasi, stephanoise, brassin]
+  const noms = (texte: string) => rechercher(lot, { ...base, texte }).map((r) => r.brasserie.n)
+
+  it('« st » vaut « saint »', () => {
+    expect(noms('ninkasi st etienne')).toEqual(['Ninkasi Saint-Étienne'])
+  })
+
+  it('un nom à apostrophe se trouve aussi collé', () => {
+    expect(noms('brassin')).toEqual(["Le Brass'in"])
+    expect(noms("brass'in")).toEqual(["Le Brass'in"])
+  })
+})

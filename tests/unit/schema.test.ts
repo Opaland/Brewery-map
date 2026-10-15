@@ -59,3 +59,10 @@ describe('le schéma d’une brasserie', () => {
     if (!verdict.ok) expect(verdict.erreurs[0]).toMatch(/^1\.lat : /)
   })
 })
+
+describe('le fichier entier', () => {
+  it('refuse deux brasseries du même nom : la sélection se fait par nom', () => {
+    const verdict = validerBrasseries([valide, { ...valide, c: 'Ailleurs' }])
+    expect(verdict.ok ? [] : verdict.erreurs).toEqual(['1.n : nom déjà utilisé ligne 0'])
+  })
+})
