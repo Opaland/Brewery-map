@@ -25,7 +25,7 @@ durée se relève sur l'horodatage des commits.
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
-| S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
+| S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -401,7 +401,7 @@ n'a pas été mesurée.
 
 ---
 
-## S6 — Horaires *(en cours)*
+## S6 — Horaires *(terminé le 15/10 — code ; données absentes)*
 
 1. **Objectif.** Savoir si c'est ouvert tel jour quand une source le dit —
    et l'entendre clairement quand elle ne le dit pas.
@@ -433,3 +433,6 @@ n'a pas été mesurée.
      « (le lendemain) » ; chevauchements et désordre refusés ; `ouvertLe`
      tient compte de la nature ; tableau avec `<caption>`.
    - Rien n'est encore saisi : aucune ligne n'a d'horaires structurés.
+   - PR #6 verte puis mergée (`31568e8`) ; run sur `main` : porte,
+     déploiement, sonde verts ; le JS publié contient le texte sans
+     horaires.
