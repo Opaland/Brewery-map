@@ -19,7 +19,7 @@ durée se relève sur l'horodatage des commits.
 
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
-| S1 | 375 k | 1 h 30 | ≈ 230 k (audit compris) | suspendu : Pages à activer, merge |
+| S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
 | S2 | 500 k | 2 h | — | à venir |
 | S3 | 500 k | 2 h | — | à venir |
 | S4 | 500 k | 2 h | — | à venir |
@@ -59,7 +59,13 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    GitHub Actions) dans les réglages du dépôt — action de Cédric. La sonde de
    la page publiée ne tourne que dans le workflow : Chromium ne sort pas du
    conteneur (mesuré sur Sentiers le 27/08).
-9. **État final et restes.** **Suspendu — en attente de Cédric** (15/10).
+9. **État final et restes.** **Terminé le 15/10.** PR #1 mergée
+   (`31cbd21`) ; run « CI et déploiement » n° 5 sur `main` : porte,
+   déploiement et sonde `page-publiee` verts. Page
+   https://opaland.github.io/Brewery-map/ : 200, titre attendu, les deux
+   assets en 200 (relevé `curl` depuis le conteneur).
+
+   *Historique — suspendu le 15/10 en attente de Cédric :*
    - Fait et vérifié : porte locale verte (lint, `tsc -b`, 14 tests
      unitaires, build, 4 e2e + 1 sautée) ; build rouge sur ligne invalide,
      vu rouge sans la validation ; les 166 lignes réelles passent le schéma ;

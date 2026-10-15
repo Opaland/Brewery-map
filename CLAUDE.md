@@ -161,9 +161,9 @@ logique ou de sécurité ; pas pour une curation déjà relue par Cédric.
 
 À lire après un `/clear`. Tenu à jour à chaque fin de tâche.
 
-- **Sprint actif : S1 — Socle** (voir `docs/SPRINTS.md`).
+- **S1 terminé le 15/10** (page publiée : https://opaland.github.io/Brewery-map/).
+- **Sprint suivant : S2 — Carte et découverte**, pas encore démarré : attend le go de Cédric.
 - Données : `data/breweries.json` versionné tel que fourni par Cédric le
   15/10 (166 lignes, toutes valides au schéma). Non encore lu par
   l'application.
-- Reste à faire en S1 : voir la rubrique « État final » de S1.
 - Suite : `BACKLOG.md`.
