@@ -33,6 +33,8 @@ chacun demande une décision ou une vérification de source.
   curation (Animus : portable, et la brasserie a déménagé).
 - Les cinq numéros d'exemple de S4 attendent l'accord de Cédric
   (SPRINTS.md, S4).
+- Types de bière : saison, triple/dubbel, porter, NEIPA, lambic/gose restent
+  sous « Autre » et ne se filtrent pas séparément (revue métier S5).
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
   la carte (revue adverse S2).
 - Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe

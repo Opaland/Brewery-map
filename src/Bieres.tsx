@@ -33,7 +33,8 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
               ) : (
                 <a href={lien.url} target="_blank" rel="noopener noreferrer">
                   {nom}
-                  {lien.nature === 'annuaire' && ' (fiche d’annuaire)'}
+                  {lien.nature === 'annuaire' &&
+                    ' (page de la brasserie dans un annuaire, pas de cette bière)'}
                 </a>
               )}
               {type !== undefined && biere.libelle === undefined && (

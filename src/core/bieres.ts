@@ -11,13 +11,18 @@ export type TypeDeBiere = Biere['type']
  */
 export const TYPES_BIERE = [
   { type: 'blonde', libelle: 'Blonde', explication: 'claire et légère' },
-  { type: 'blanche', libelle: 'Blanche', explication: 'au blé, trouble et rafraîchissante' },
-  { type: 'ipa', libelle: 'IPA', explication: 'très houblonnée, plus amère' },
+  // Ajoutée après la revue métier S5 : le style le plus courant tombait
+  // sous « Autre ».
+  { type: 'lager', libelle: 'Lager / Pils', explication: 'blonde nette et désaltérante' },
+  { type: 'blanche', libelle: 'Blanche', explication: 'au blé, souvent trouble et rafraîchissante' },
+  { type: 'ipa', libelle: 'IPA', explication: 'très houblonnée, souvent amère' },
   { type: 'ambree', libelle: 'Ambrée', explication: 'cuivrée, notes de caramel' },
   { type: 'brune', libelle: 'Brune', explication: 'foncée, notes torréfiées' },
   { type: 'stout', libelle: 'Stout', explication: 'noire, café et chocolat' },
   { type: 'sour', libelle: 'Sour', explication: 'acidulée, souvent fruitée' },
-  { type: 'sans-alcool', libelle: 'Sans alcool', explication: 'moins de 0,5 % d’alcool' },
+  // Pas de seuil chiffré : il varie selon les pays et les époques (revue
+  // métier S5). L'étiquette fait foi.
+  { type: 'sans-alcool', libelle: 'Sans alcool', explication: 'pas ou très peu d’alcool' },
   { type: 'autre', libelle: 'Autre', explication: 'un style précisé sur la fiche' },
 ] as const satisfies readonly { type: TypeDeBiere; libelle: string; explication: string }[]
 

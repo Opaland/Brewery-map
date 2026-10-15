@@ -29,6 +29,7 @@
     "src/core",
     "src/Contact.tsx",
     "src/Bieres.tsx",
+    "src/FiltreType.tsx",
     "tests"
   ]
 }

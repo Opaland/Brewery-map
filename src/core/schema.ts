@@ -47,6 +47,7 @@ export const precisionSchema = z.enum(['address', 'commune'])
 
 export const typeDeBiereSchema = z.enum([
   'blonde',
+  'lager',
   'blanche',
   'ipa',
   'ambree',

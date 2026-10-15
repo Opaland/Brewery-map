@@ -23,8 +23,8 @@ durée se relève sur l'horodatage des commits.
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
-| S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | code mergé (#4), page publiée à vérifier |
-| S5 | 180 k | — | voir §S5 | en cours |
+| S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
+| S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -325,7 +325,7 @@ n'a pas été mesurée.
 
 ---
 
-## S4 — Contact *(en cours)*
+## S4 — Contact *(terminé le 15/10 — code ; données en attente)*
 
 1. **Objectif.** Joindre la brasserie depuis sa fiche : appeler, ouvrir son
    site, sa page Untappd — ou savoir que ce n'est pas renseigné.
@@ -357,7 +357,11 @@ n'a pas été mesurée.
      test des liens externes qui ne dépend plus de l'ordre des attributs et
      compte tous les liens http. Documenté et inscrit au BACKLOG : numéros
      d'outre-mer non gérés (aucun dans le fichier).
-   - Porte : 51 tests unitaires, 23 e2e. Reste : CI, merge, page publiée.
+   - Porte : 51 tests unitaires, 23 e2e. PR #4 verte puis mergée
+     (`f44ef5b`) ; run sur `main` : porte, déploiement, sonde verts ; le JS
+     publié contient « Téléphone : non renseigné ».
+   - **Critère d'usage non atteint** (§10) : personne n'est appelable tant
+     que les numéros d'exemple n'ont pas l'accord de Cédric.
 
 ---
 
@@ -377,4 +381,17 @@ n'a pas été mesurée.
 5. **Données.** Aucune brasserie n'a de bière au 15/10 : la fiche dit « non
    référencés », le filtre dit qu'il est vide. Les types se rempliront par
    la curation (S12 et suivants), avec l'accord de Cédric.
-6. **État final et restes.** *(à la clôture)*
+6. **État final et restes.** Revues faites (code 22 k, métier 22 k).
+   - **Revue métier (Karim)** — bloquant hors code : aucune bière ni fiche
+     d'annuaire dans le fichier ; **le critère n'est pas atteint sur les
+     données réelles** (§10), seulement prouvé par les tests. Corrigé : le
+     lien d'annuaire dit « page de la brasserie dans un annuaire, pas de
+     cette bière » ; type « Lager / Pils » ajouté ; explications nuancées
+     (blanche « souvent trouble », IPA « souvent amère », sans alcool sans
+     seuil chiffré) et relues mot pour mot par un test. Restent sous
+     « Autre » : saison, triple, porter, NEIPA… (BACKLOG).
+   - **Revue code** — corrigé : le menu du filtre, jamais rendu faute de
+     données, est sorti dans `FiltreType.tsx` et son rendu rempli est
+     testé ; le nombre par type dit « au total » ; le test e2e « sans
+     bière » prend une brasserie sans bière dans les données au lieu de la
+     coder en dur.

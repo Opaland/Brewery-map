@@ -28,9 +28,9 @@ describe('les bières de la fiche', () => {
     })
     expect(html).toContain('<a href="https://caribrew.example/ipa"')
     expect(html).toContain('>IPA</a>')
-    expect(html).toContain('Blonde (fiche d’annuaire)</a>')
-    expect(html).toContain('Saison (fiche d’annuaire)</a>')
-    expect(html).toContain(' — très houblonnée, plus amère')
+    expect(html).toContain('Blonde (page de la brasserie dans un annuaire, pas de cette bière)</a>')
+    expect(html).toContain('Saison (page de la brasserie dans un annuaire, pas de cette bière)</a>')
+    expect(html).toContain(' — très houblonnée, souvent amère')
   })
 
   it('sans annuaire, une bière sans page dit « non référencé »', () => {

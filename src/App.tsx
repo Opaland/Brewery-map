@@ -1,10 +1,11 @@
 import { lazy, Suspense, useMemo, useState } from 'react'
-import { compterTypes, TYPES_BIERE, type TypeDeBiere } from './core/bieres'
+import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { BRIGNAIS } from './core/distance'
 import { rechercher } from './core/recherche'
 import type { Categorie } from './core/schema'
+import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
@@ -23,7 +24,6 @@ export const RAYON_MAX_KM = 100
 
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
-const TYPES_PRESENTS = TYPES_BIERE.filter((t) => (NB_PAR_TYPE.get(t.type) ?? 0) > 0)
 
 export function App() {
   const [texte, setTexte] = useState('')
@@ -115,35 +115,7 @@ export function App() {
           ))}
         </fieldset>
 
-        {/*
-          Le filtre par type ne propose que les types qu'au moins une brasserie
-          déclare. Tant qu'aucune n'en déclare, il le dit au lieu d'offrir des
-          choix qui videraient la liste (S5).
-        */}
-        {TYPES_PRESENTS.length === 0 ? (
-          <p className="champ-aide" data-testid="type-absent">
-            Filtre par type de bière : aucune brasserie n’a encore ses types
-            référencés. Il se remplira avec la vérification des fiches.
-          </p>
-        ) : (
-          <label className="champ">
-            <span>Type de bière</span>
-            <select
-              value={type ?? ''}
-              onChange={(e) => {
-                setType(e.target.value === '' ? undefined : (e.target.value as TypeDeBiere))
-              }}
-              data-testid="type"
-            >
-              <option value="">Tous les types</option>
-              {TYPES_PRESENTS.map((t) => (
-                <option key={t.type} value={t.type}>
-                  {t.libelle} — {t.explication} ({NB_PAR_TYPE.get(t.type)})
-                </option>
-              ))}
-            </select>
-          </label>
-        )}
+        <FiltreType nbParType={NB_PAR_TYPE} valeur={type} onChange={setType} />
       </section>
 
       <p className="compte" role="status" data-testid="compte">
