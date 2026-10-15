@@ -94,6 +94,10 @@ a { color: inherit; }
   --cat-2: #1d5f9a; /* acheter seulement */
   --cat-3: #5f6368; /* pas de vente */
   --cat-0: #a35200; /* à confirmer */
+  /* Texte posé sur un aplat --cat-1 (bouton « Appeler »). Blanc sur
+     #2e7d32 : 5,1:1 (calcul WCAG fait le 15/10) ; en sombre l'aplat
+     s'éclaircit, le texte doit foncer. */
+  --texte-sur-cat-1: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,6 +106,7 @@ a { color: inherit; }
     --cat-2: #7fb6e8;
     --cat-3: #b0b4b8;
     --cat-0: #f0a050;
+    --texte-sur-cat-1: #10240f;
   }
 }
 
@@ -264,3 +269,31 @@ a { color: inherit; }
 .fiche dd { margin: 0; }
 .fiche a { display: inline-block; min-height: 44px; line-height: 44px; }
 .fiche-aide { display: block; color: var(--encre-douce); font-size: var(--texte-secondaire); }
+
+.fiche-contact { margin-bottom: var(--espace-6); display: grid; gap: var(--espace-4); }
+.fiche-contact p { margin: 0; }
+.bouton-appeler {
+  display: block;
+  text-align: center;
+  min-height: 48px;
+  line-height: 48px;
+  border-radius: var(--rayon-md);
+  background: var(--cat-1);
+  color: var(--texte-sur-cat-1);
+  font-weight: 600;
+  text-decoration: none;
+}
+.fiche-liens { display: flex; flex-wrap: wrap; gap: var(--espace-7); }
+
+/* Lu par les lecteurs d'écran, invisible à l'œil (motif usuel « sr-only »). */
+.lecteur-seul {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

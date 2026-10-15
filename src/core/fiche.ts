@@ -73,3 +73,17 @@ export function libelleVerification(iso: string | undefined): string {
   if (iso === undefined) return 'non renseignée'
   return DATE.format(new Date(`${iso}T00:00:00Z`))
 }
+
+/** « 04 72 50 88 53 » → « tel:+33472508853 » : le format que tous les téléphones composent. */
+export function lienTelephone(tel: string): string {
+  return `tel:+33${tel.replace(/ /g, '').slice(1)}`
+}
+
+/**
+ * Un numéro français cité dans la justification (`note`). Deux lignes du
+ * fichier en contiennent un (revue métier S4) : la fiche ne doit pas dire
+ * « non renseigné » juste au-dessus.
+ */
+export function citeUnNumero(texte: string): boolean {
+  return /\b0[1-9](?:[ .]?\d{2}){4}\b/.test(texte)
+}

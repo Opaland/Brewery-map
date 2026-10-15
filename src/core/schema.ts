@@ -76,6 +76,42 @@ export const lienSchema = z.string().refine(
   { message: 'lien http(s) attendu' },
 )
 
+/** Un lien vers une page d'untappd.com (ou www.untappd.com), rien d'autre. */
+const lienUntappdSchema = lienSchema.refine(
+  (valeur) => /^(www\.)?untappd\.com$/.test(new URL(valeur).hostname),
+  { message: 'lien untappd.com attendu' },
+)
+
+/**
+ * Comment joindre la brasserie (S4). Chaque contact porte sa source et sa
+ * date : un numéro sans origine ne passe pas. Seul un numéro que la
+ * brasserie publie elle-même pour ses clients y entre (plan v2).
+ */
+export const contactSchema = z
+  .object({
+    /**
+     * Numéro français en paires : « 04 72 50 88 53 ». Les 08 (numéros
+     * spéciaux, souvent surtaxés) sont refusés : pas un bouton « Appeler »
+     * vers un numéro payant (revue code S4). **Métropole seulement** : le
+     * lien `tel:+33…` serait faux pour l'outre-mer (+590, +262…) ; aucune
+     * brasserie du fichier n'y est (BACKLOG).
+     */
+    tel: z
+      .string()
+      .regex(/^0[1-79]( \d{2}){4}$/, 'numéro attendu au format « 04 72 50 88 53 », hors 08')
+      .optional(),
+    site: lienSchema.optional(),
+    untappd: lienUntappdSchema.optional(),
+    /** La page où ces informations ont été lues. */
+    source: lienSchema,
+    verifieLe: z.iso.date(),
+  })
+  .strict()
+  // Un contact vide afficherait « coordonnées lues le … » sur rien.
+  .refine((c) => c.tel !== undefined || c.site !== undefined || c.untappd !== undefined, {
+    message: 'un contact donne au moins un téléphone, un site ou un lien Untappd',
+  })
+
 export const biereSchema = z
   .object({
     type: typeDeBiereSchema,
@@ -113,6 +149,7 @@ export const brasserieSchema = z
      * curation (S11 et suivants), jamais devinée.
      */
     verifieLe: z.iso.date().optional(),
+    contact: contactSchema.optional(),
   })
   .strict()
   .refine((b) => b.cat === 0 || b.src !== '', {

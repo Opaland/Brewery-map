@@ -61,3 +61,25 @@ curation, jamais devinée.
 
 Présente dans le fichier, **jamais lue** : l'application calcule la sienne
 (décision de Cédric, 15/10 ; BACKLOG D6).
+
+## Contact (`contact`, facultatif — S4)
+
+```json
+"contact": {
+  "tel": "04 72 50 88 53",
+  "site": "https://…",
+  "untappd": "https://untappd.com/…",
+  "source": "https://… (la page où tout cela a été lu)",
+  "verifieLe": "2026-10-15"
+}
+```
+
+- `source` et `verifieLe` sont **obligatoires** : un numéro sans origine ne
+  passe pas le schéma.
+- `tel` : numéro français écrit en paires ; la fiche en fait un bouton
+  « Appeler » (`tel:+33…`). Seul un numéro que la brasserie publie pour ses
+  clients y entre ; quand une page en affiche plusieurs, on retient celui du
+  lieu d'accueil et on le dit.
+- `untappd` : une page d'untappd.com, rien d'autre. On lie, on ne recopie ni
+  notes ni avis.
+- Absent : la fiche dit « Téléphone : non renseigné. »
