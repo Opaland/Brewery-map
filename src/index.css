@@ -367,3 +367,5 @@ a { color: inherit; }
 
 /* Couleur du texte : l'or de --attention-bord mesurait 2,27:1 sur blanc, sous les 3:1 de WCAG 1.4.11 (revue S9). */
 .ligne-favori { color: var(--encre); }
+
+.fiche-signaler { margin: var(--espace-6) 0 0; }

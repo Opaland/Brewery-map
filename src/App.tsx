@@ -12,6 +12,7 @@ import {
   type Preferences,
 } from './core/preferences'
 import { favorisCaches, rechercher } from './core/recherche'
+import { lienAjout } from './core/signalement'
 import type { Categorie } from './core/schema'
 import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
@@ -312,6 +313,13 @@ export function App({ stockage }: { stockage: Stockage }) {
         </p>
         <p data-testid="mention-alcool">
           L’abus d’alcool est dangereux pour la santé, à consommer avec modération.
+        </p>
+        <p data-testid="signaler-absente">
+          Une brasserie manque ?{' '}
+          <a href={lienAjout()} target="_blank" rel="noopener noreferrer">
+            La signaler
+          </a>{' '}
+          (sur GitHub, compte gratuit nécessaire, signalement public).
         </p>
         <p>
           <a href="https://github.com/Opaland/Brewery-map">Code source</a>

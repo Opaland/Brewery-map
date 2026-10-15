@@ -63,6 +63,9 @@ test.describe('trouver une brasserie (Marie)', () => {
 
   test('la liste va de la plus proche à la plus lointaine', async ({ page }) => {
     await page.goto('/')
+    // allTextContents n'attend rien : depuis S9 la liste se rend après la
+    // lecture d'IndexedDB, et une lecture trop tôt rendait [] (vu en suite).
+    await expect(page.locator('.ligne-lieu').first()).toBeVisible()
     const distances = (await page.locator('.ligne-lieu').allTextContents()).map((t) => {
       const m = /≈ (\d+) km|moins de 1 km/.exec(t)
       return m?.[1] === undefined ? 0 : Number(m[1])

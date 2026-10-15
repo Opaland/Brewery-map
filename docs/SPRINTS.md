@@ -28,7 +28,8 @@ durée se relève sur l'horodatage des commits.
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
 | S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
-| S9 | 180 k | — | non relevé précisément (revues : 77 k) | code prêt, PR à ouvrir |
+| S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
+| S10 | 180 k | — | non relevé précisément | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -525,7 +526,7 @@ sprints avec revue + revue globale »).
      zoom 14, une tuile couvre environ 1,7 km de côté à la latitude de Lyon (40 075 km × cos 45,9° ÷ 2¹⁴) — c'est le
      prix d'une carte en ligne, dit à l'écran, pas supprimé.
 
-## S9 — Favoris et préférences *(terminé le 15/10 — code ; page publiée à sonder)*
+## S9 — Favoris et préférences *(terminé le 15/10)*
 
 1. **Objectif.** Retrouver d'une visite à l'autre ses brasseries préférées
    et ses réglages, sans compte et sans que rien parte de l'appareil.
@@ -576,4 +577,31 @@ sprints avec revue + revue globale »).
    - **Reste** (BACKLOG) : deux onglets s'écrasent ; bouton favori dans la
      fiche seulement ; longueur du bloc de filtres ; message des favoris
      cachés sans limite.
+
+## S10 — Signaler une erreur *(en cours)*
+
+1. **Objectif.** Une brasserie, ou un client, corrige une fiche sans
+   serveur : un lien ouvre une issue GitHub préremplie.
+2. **Périmètre.** `core/signalement.ts` : `lienSignalement(brasserie)`
+   (titre, fiche telle qu'affichée, trois questions : ce qui est faux, la
+   bonne information, une source) et `lienAjout()` (brasserie absente).
+   Les fonctions ne reçoivent que la ligne du fichier : ni distance, ni
+   départ, ni favoris ne peuvent partir. Lien dans la fiche et au pied de
+   page, `noreferrer`, avec ce que cela implique dit avant le geste
+   (compte GitHub, signalement public).
+3. **Critères de sortie.** Aucun paramètre hors `title` et `body` ; ni
+   position ni distance dans le lien (test e2e vu rouge avec la distance
+   injectée) ; longueur mesurée ; revues code et métier faites et
+   corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Une brasserie.
+5. **Vu en route.**
+   - Le premier test e2e de fuite était creux : `decodeURIComponent` laisse
+     les « + » des espaces, la distance « 12,3 km » n'y était jamais
+     trouvée. Vu passer avec la distance injectée, corrigé (lecture par
+     `URL`), vu rouge ensuite.
+   - Un test de S2 lisait la liste sans attendre (`allTextContents`) ;
+     depuis S9 le rendu suit la lecture d'IndexedDB : il échouait en suite
+     complète seulement. Il attend désormais la première ligne.
+   - Longueur mesurée : 929 caractères au plus sur les 166 lignes.
+6. **État final et restes.** *(à la clôture)*
 
