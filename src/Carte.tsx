@@ -114,6 +114,9 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
   const carte = useRef<CarteMapLibre | null>(null)
   const marqueurs = useRef(new Map<string, Marker>())
   const [prete, setPrete] = useState(false)
+  // Le fond de carte n'a pas pu charger (hors connexion, serveur de tuiles
+  // indisponible) : on le dit, au lieu d'un fond vide sans explication.
+  const [fondAbsent, setFondAbsent] = useState(false)
   const [erreur, setErreur] = useState<string | null>(() =>
     webglDisponible() ? null : CARTE_IMPOSSIBLE,
   )
@@ -219,6 +222,13 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
       }
     }
 
+    map.on('error', (e) => {
+      if ((e as { sourceId?: string }).sourceId === 'osm') setFondAbsent(true)
+    })
+    map.on('sourcedata', (e) => {
+      if (e.sourceId === 'osm' && e.tile !== undefined) setFondAbsent(false)
+    })
+
     map.on('load', () => {
       map.addSource('brasseries', {
         type: 'geojson',
@@ -297,12 +307,21 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
     )
   }
   return (
-    <div
-      ref={conteneur}
-      className="carte"
-      role="region"
-      aria-label="Carte des brasseries (la liste contient les mêmes informations)"
-      data-testid="carte"
-    />
+    <div className="carte-cadre">
+      <div
+        ref={conteneur}
+        className="carte"
+        role="region"
+        aria-label="Carte des brasseries (la liste contient les mêmes informations)"
+        data-testid="carte"
+      />
+      {fondAbsent && (
+        <p className="carte-fond-absent" role="status" data-testid="fond-absent">
+          Fond de carte incomplet ou indisponible. Les brasseries restent placées, et la liste
+          est complète. Hors connexion, seules les zones déjà affichées sur cet appareil
+          restent visibles.
+        </p>
+      )}
+    </div>
   )
 }

@@ -1,4 +1,4 @@
-import { lazy, Suspense, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -31,6 +31,33 @@ export function App() {
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
   const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
+  const [enLigne, setEnLigne] = useState(() => navigator.onLine)
+  // Prête hors ligne quand un service worker est actif : l'installation est
+  // tout ou rien (public/sw.js), donc actif veut dire précache complet.
+  const [pretHorsLigne, setPretHorsLigne] = useState(false)
+
+  useEffect(() => {
+    if (!('serviceWorker' in navigator)) return
+    let vivant = true
+    void navigator.serviceWorker.ready.then(() => {
+      if (vivant) setPretHorsLigne(true)
+    })
+    return () => {
+      vivant = false
+    }
+  }, [])
+
+  useEffect(() => {
+    const maj = () => {
+      setEnLigne(navigator.onLine)
+    }
+    window.addEventListener('online', maj)
+    window.addEventListener('offline', maj)
+    return () => {
+      window.removeEventListener('online', maj)
+      window.removeEventListener('offline', maj)
+    }
+  }, [])
 
   const resultats = useMemo(
     () =>
@@ -65,6 +92,13 @@ export function App() {
           Les brasseries artisanales autour de Brignais, et ce qu’on peut y faire.
         </p>
       </header>
+
+      {!enLigne && (
+        <p className="bandeau-hors-ligne" role="status" data-testid="hors-ligne">
+          Hors connexion : toutes les fiches restent consultables. La carte n’affiche que les
+          zones déjà vues.
+        </p>
+      )}
 
       <section className="filtres" aria-label="Rechercher et filtrer">
         <label className="champ">
@@ -147,6 +181,12 @@ export function App() {
       </div>
 
       <footer className="pied">
+        <p data-testid="etat-hors-ligne">
+          {pretHorsLigne
+            ? 'Prête pour une utilisation hors connexion sur cet appareil.'
+            : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}{' '}
+          Pour l’installer : menu du navigateur, puis « Ajouter à l’écran d’accueil ».
+        </p>
         <p>
           Distances à vol d’oiseau. Les positions sont celles du centre de la commune
           (à environ 2 km près), pas l’adresse exacte.

@@ -37,6 +37,8 @@ chacun demande une décision ou une vérification de source.
   sous « Autre » et ne se filtrent pas séparément (revue métier S5).
 - Filtre « ouvert samedi » (ou « ouvert maintenant », Hugo S19) : `ouvertLe`
   existe (S6) mais aucune donnée ne le nourrit encore.
+- Carte : le repli « fond de carte incomplet ou indisponible » s'allume sur
+  une seule tuile en échec et peut clignoter (revue code S7).
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
   la carte (revue adverse S2).
 - Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe

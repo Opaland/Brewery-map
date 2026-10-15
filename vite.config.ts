@@ -1,6 +1,7 @@
 /// <reference types="vitest/config" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { precacheServiceWorker } from './build/precache-sw.ts'
 import { validerDonnees } from './build/valider-donnees.ts'
 
 export default defineConfig({
@@ -8,7 +9,7 @@ export default defineConfig({
   // Repris de Sentiers, où ce réglage évite par construction le piège du
   // chemin de base GitHub Pages.
   base: './',
-  plugins: [react(), validerDonnees()],
+  plugins: [react(), validerDonnees(), precacheServiceWorker()],
   test: {
     include: ['tests/unit/**/*.test.ts'],
     environment: 'node',

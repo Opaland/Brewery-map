@@ -25,7 +25,8 @@ durée se relève sur l'horodatage des commits.
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
-| S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
+| S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
+| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -210,13 +211,13 @@ données (CLAUDE.md §0).
 | S5 | Types de bière : liens produit → annuaire → « non référencé » ; filtre par type expliqué en mots simples. | Karim |
 | S6 | Horaires structurés quand une source les donne ; « ouvert samedi ? » sans jamais déduire. | Cédric |
 | S7 | PWA installable, `sw.js` maison, fiches consultables hors ligne, repli de carte sans tuiles. | Bernard |
-| S8 | « Autour de moi » sur action explicite ; la position reste dans le navigateur, et l'écran le dit. | Léa |
+| S8 | Point de départ au choix : Brignais, « autour de moi » (sur action, la position reste dans le navigateur, et l'écran le dit) ou une commune des données — demande de Cédric du 15/10 : « pouvoir faire plus loin que Brignais ». | Léa |
 | S9 | Préférences et favoris dans IndexedDB, sur l'appareil seulement. | Marie |
 | S10 | « Signaler une erreur » : issue GitHub préremplie, sans backend ni donnée personnelle. | Une brasserie |
 | S11 | Outillage de curation : agent `verificateur-de-brasserie` (lecture seule), skill `lot-de-curation`, champ `verifieLe`, diff lisible. | Une brasserie |
 | S12 | Curation, lot 1 : 25 « À confirmer » les plus proches — statut, téléphone, site, Untappd, horaires. | Cédric |
 | S13 | Curation, lot 2 : les 25 suivants. | Marie |
-| S14 | Nouvelles brasseries : comparer OSM (`craft=brewery`) et data.gouv.fr au fichier, proposer les ajouts. | Cédric |
+| S14 | Nouvelles brasseries : comparer OSM (`craft=brewery`) et data.gouv.fr au fichier, proposer les ajouts — y compris au-delà des 100 km de Brignais où s'arrête le fichier (demande du 15/10). | Cédric |
 | S15 | Veille : une tâche planifiée revérifie chaque mois les fiches les plus anciennes et les nouveautés, et ouvre une PR de **proposition**. | Une brasserie |
 | S16 | Curation, lot 3. | Karim |
 | S17 | Curation, lot 4 (les 101 « À confirmer » sont alors tous revus au moins une fois). | Bernard |
@@ -401,7 +402,7 @@ n'a pas été mesurée.
 
 ---
 
-## S6 — Horaires *(en cours)*
+## S6 — Horaires *(terminé le 15/10 — code ; données absentes)*
 
 1. **Objectif.** Savoir si c'est ouvert tel jour quand une source le dit —
    et l'entendre clairement quand elle ne le dit pas.
@@ -433,3 +434,49 @@ n'a pas été mesurée.
      « (le lendemain) » ; chevauchements et désordre refusés ; `ouvertLe`
      tient compte de la nature ; tableau avec `<caption>`.
    - Rien n'est encore saisi : aucune ligne n'a d'horaires structurés.
+   - PR #6 verte puis mergée (`31568e8`) ; run sur `main` : porte,
+     déploiement, sonde verts ; le JS publié contient le texte sans
+     horaires.
+
+---
+
+## S7 — PWA et hors ligne *(en cours)*
+
+Enchaînement des sprints demandé par Cédric le 15/10 (« enchaîne les
+sprints avec revue + revue globale »).
+
+1. **Objectif.** Installer l'application et consulter toutes les fiches
+   sans réseau ; dire clairement ce qui manque hors ligne.
+2. **Périmètre.** `public/sw.js` écrit à la main (repris et allégé de
+   Sentiers) : précache de tous les fichiers construits (liste et empreinte
+   injectées au build par `build/precache-sw.ts`, qui échoue si un marqueur
+   reste), réseau d'abord pour l'application, cache d'abord pour les tuiles
+   OSM (600 au plus), ménage des seuls anciens caches d'application ;
+   manifeste et icônes ; bandeau « hors connexion » ; repli « fond de carte
+   indisponible ».
+3. **Critères de sortie.** Le cache contient chaque fichier précaché (test
+   qui interroge `caches.match`, vu rouge quand l'installation ne précache
+   rien) ; manifeste installable (icônes 192 et 512 servies) ; bandeau et
+   repli testés ; revues code et métier faites et corrigées ; porte verte ;
+   page publiée sondée.
+4. **Persona juge.** Bernard.
+5. **Non mesuré.** L'installation réelle sur un téléphone, et Lighthouse
+   (S20). `context.setOffline` ne coupe pas les requêtes du service worker :
+   aucun test ne prétend « recharger hors ligne ».
+6. **État final et restes.** Revues faites (code 25 k, métier 24 k),
+   corrections appliquées le 15/10 :
+   - **Revue code** — corrigé : précache « tout ou rien » (`Promise.all`)
+     relu sans cache HTTP (`cache: 'reload'`) — un fichier en échec laissait
+     s'installer un cache partiel puis effaçait l'ancien ; plus de
+     `skipWaiting` — un onglet ouvert sur l'ancienne version perdait sa
+     carte ; le test vise le cache de la version courante et un fichier que
+     seule l'installation peut y mettre (icône masquable), vu rouge sans
+     précache. Restant : le repli « fond indisponible » peut clignoter sur
+     une seule tuile en échec (BACKLOG).
+   - **Revue métier (Bernard)** — corrigé : l'écran dit « Prête pour une
+     utilisation hors connexion » une fois le précache fini, sinon « gardez
+     la page ouverte avec du réseau » ; une ligne explique comment
+     installer ; le repli ne promet plus des « zones déjà vues » à la
+     première visite. Mesuré : 1,85 Mo d'assets non compressés (dont 1 Mo
+     pour la carte, 0,5 Mo pour son worker) ; temps en 4G faible non
+     mesuré (S20).

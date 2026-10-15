@@ -26,6 +26,10 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:4173',
     trace: 'on-first-retry',
+    // Le service worker intercepte les requêtes et court-circuiterait les
+    // `page.route` des tests (leçon de Sentiers) : bloqué par défaut, permis
+    // dans le seul fichier qui l'exerce (tests/e2e/hors-ligne.spec.ts).
+    serviceWorkers: 'block',
     ...(process.env.PW_CHROMIUM_PATH
       ? { launchOptions: { executablePath: process.env.PW_CHROMIUM_PATH } }
       : {}),
