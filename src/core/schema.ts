@@ -113,6 +113,37 @@ export const contactSchema = z
     message: 'un contact donne au moins un téléphone, un site ou un lien Untappd',
   })
 
+const HEURE = /^([01]\d|2[0-3]):[0-5]\d$/
+
+/** Un créneau [ouverture, fermeture], au format 24 h, dans le bon ordre. */
+const creneauSchema = z
+  .tuple([z.string().regex(HEURE), z.string().regex(HEURE)])
+  .refine(([debut, fin]) => debut < fin, { message: 'créneau à l’envers' })
+
+/** Un jour : ses créneaux ; `[]` = fermé ; absent = non précisé par la source. */
+const jourSchema = z.array(creneauSchema).optional()
+
+/**
+ * Horaires structurés (S6) — **seulement quand une source les donne**,
+ * jamais déduits du texte `note`. `nature` dit ce qu'ils couvrent : l'accueil
+ * du public (bar, dégustation) ou la vente seule. Source et date
+ * obligatoires.
+ */
+export const horairesSchema = z
+  .object({
+    nature: z.enum(['accueil', 'vente']),
+    lun: jourSchema,
+    mar: jourSchema,
+    mer: jourSchema,
+    jeu: jourSchema,
+    ven: jourSchema,
+    sam: jourSchema,
+    dim: jourSchema,
+    source: lienSchema,
+    verifieLe: z.iso.date(),
+  })
+  .strict()
+
 export const biereSchema = z
   .object({
     type: typeDeBiereSchema,
@@ -151,6 +182,7 @@ export const brasserieSchema = z
      */
     verifieLe: z.iso.date().optional(),
     contact: contactSchema.optional(),
+    horaires: horairesSchema.optional(),
   })
   .strict()
   .refine((b) => b.cat === 0 || b.src !== '', {

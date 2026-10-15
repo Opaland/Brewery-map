@@ -35,6 +35,8 @@ chacun demande une décision ou une vérification de source.
   (SPRINTS.md, S4).
 - Types de bière : saison, triple/dubbel, porter, NEIPA, lambic/gose restent
   sous « Autre » et ne se filtrent pas séparément (revue métier S5).
+- Filtre « ouvert samedi » (ou « ouvert maintenant », Hugo S19) : `ouvertLe`
+  existe (S6) mais aucune donnée ne le nourrit encore.
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
   la carte (revue adverse S2).
 - Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe

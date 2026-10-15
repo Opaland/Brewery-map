@@ -30,6 +30,7 @@
     "src/Contact.tsx",
     "src/Bieres.tsx",
     "src/FiltreType.tsx",
+    "src/Horaires.tsx",
     "tests"
   ]
 }
