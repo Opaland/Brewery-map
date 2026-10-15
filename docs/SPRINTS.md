@@ -20,7 +20,7 @@ durée se relève sur l'horodatage des commits.
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
 | S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
-| S2 | 500 k | 2 h | ≈ 175 k (dont revues : 59 k) | critères tenus ; CI de la PR et page publiée à vérifier |
+| S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3 | 500 k | 2 h | — | à venir |
 | S4 | 500 k | 2 h | — | à venir |
 | S5 | 375 k | 1 h 30 | — | à venir |
@@ -121,7 +121,11 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    `decouverte.spec.ts` trouve une brasserie par commune sans toucher la
    carte ; les quatre catégories sont nommées en clair et filtrent ; porte
    verte (lint, `tsc -b`, 31 tests unitaires, build, 16 e2e + 1 sauté).
-   Reste : CI verte sur la PR, puis sonde de la page publiée après merge.
+   **Terminé le 15/10** : PR #2 verte puis mergée (`11b03ca`) ; run
+   « CI et déploiement » sur `main` : porte, déploiement et sonde
+   `page-publiee` verts. Relevé `curl` sur la page publiée : page, CSS, JS
+   principal, morceau `Carte` et worker MapLibre en 200 ; les données
+   (« Soucieu-en-Jarrest ») sont dans le JS servi.
 
    **Revue de persona — Marie** (agent `relecteur-de-persona`, 22 k tokens) :
    aucun bloquant. Gênants : « À confirmer » sans raison dans la liste (101
