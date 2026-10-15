@@ -120,7 +120,14 @@ export function App() {
           />
         </Suspense>
         <div ref={listeRef} className="liste-conteneur">
-          <Liste resultats={resultats} selection={selection} onChoisir={setSelection} />
+          <Liste
+            resultats={resultats}
+            selection={selection}
+            onChoisir={(nom) => {
+              // Un second toucher sur la ligne ouverte la referme.
+              setSelection((avant) => (avant === nom ? null : nom))
+            }}
+          />
         </div>
       </div>
 

@@ -107,6 +107,12 @@ export const brasserieSchema = z
     coordPrecision: precisionSchema,
     beers: z.array(biereSchema),
     directoryUrl: lienSchema.optional(),
+    /**
+     * Date de la dernière vérification (AAAA-MM-JJ). Absente des 166 lignes
+     * fournies : la fiche dit alors « non renseignée ». Remplie par la
+     * curation (S11 et suivants), jamais devinée.
+     */
+    verifieLe: z.iso.date().optional(),
   })
   .strict()
   .refine((b) => b.cat === 0 || b.src !== '', {

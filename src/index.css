@@ -194,7 +194,7 @@ a { color: inherit; }
   cursor: pointer;
 }
 
-.ligne[aria-pressed='true'] {
+.ligne[aria-expanded='true'] {
   border-color: var(--encre);
   box-shadow: 0 0 0 2px var(--encre);
 }
@@ -247,3 +247,20 @@ a { color: inherit; }
   background: #fff;
   border: 3px solid #1e2b23;
 }
+
+.ligne-note-titre { font-weight: 600; }
+
+.fiche {
+  border: 1px solid var(--encre);
+  border-top: none;
+  border-radius: 0 0 var(--rayon-md) var(--rayon-md);
+  background: var(--blanc-carte);
+  padding: var(--espace-6);
+  margin-top: calc(-1 * var(--espace-2));
+}
+.fiche dl { margin: 0; display: grid; gap: var(--espace-2); }
+.fiche dt { font-weight: 600; font-size: var(--texte-secondaire); margin-top: var(--espace-4); }
+.fiche dt:first-child { margin-top: 0; }
+.fiche dd { margin: 0; }
+.fiche a { display: inline-block; min-height: 44px; line-height: 44px; }
+.fiche-aide { display: block; color: var(--encre-douce); font-size: var(--texte-secondaire); }

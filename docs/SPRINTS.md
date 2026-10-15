@@ -21,7 +21,8 @@ durée se relève sur l'horodatage des commits.
 |---|---:|---:|---:|---|
 | S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
-| S3–S6 (plan v1) | 1 625 k | 6 h 30 | — | **remplacés** par le plan v2 ci-dessous, à valider |
+| S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
+| S3 | 180 k | — | voir §S3 | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -163,7 +164,11 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    - Tests vus rouges sans leur correctif : distance sans lire `km` ; repli
      sans WebGL ; aucun hôte tiers hors tuiles OSM.
 
-## Plan v2 — 20 sprints de plus (S3 → S22), proposé le 15/10, **à valider**
+## Plan v2 — 20 sprints de plus (S3 → S22), **validé par Cédric le 15/10**
+
+Budget validé : ≈ 4,6 M tokens pour tout le projet. Untappd confirmé.
+Décisions S3 : confiance affichée « élevée » pour `solide` ; `note` affichée
+comme « Ce que dit la source ».
 
 Demandé par Cédric le 15/10 : au moins 20 sprints, une revue **code** et une
 revue **métier** après chaque sprint, corrigées dans le sprint, d'autres
@@ -264,6 +269,26 @@ ce n'est pas encore mesuré.
 | Revue globale, livraison | S21, S22 (2) | 200 k | 400 k |
 | **Total S3–S22** | 20 | | **≈ 4,2 M** |
 
-Soit environ 4,6 M pour tout le projet, contre 2,5 M validés : **à valider
-par Cédric**. Durée : non estimable de façon fiable — la durée de S1 et S2
+Soit environ 4,6 M pour tout le projet (2,5 M validés au départ) : **validé
+le 15/10**. Durée : non estimable de façon fiable — la durée de S1 et S2
 n'a pas été mesurée.
+
+---
+
+## S3 — Fiche détaillée *(en cours)*
+
+1. **Objectif.** Une fiche qui dit ce qui est établi, d'où ça vient, et ce
+   qui ne l'est pas.
+2. **Périmètre.** Fiche dépliée sous sa ligne : adresse, source cliquable
+   (ou « aucune source »), date de vérification (ou « non renseignée »),
+   confiance et son sens, précision de la position ; justification titrée
+   « Ce que dit la source » ; champ `verifieLe` au schéma ;
+   `docs/DONNEES.md`.
+3. **Critères de sortie.** Aucune valeur absente remplacée par une valeur
+   inventée (tests) ; tests vus rouges sans la fiche ; revues code et métier
+   faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Cédric.
+5. **Budget.** 180 k tokens.
+6. **Exclus.** Téléphone, site, Untappd (S4), types de bière (S5), horaires
+   structurés (S6).
+7. **État final et restes.** *(à la clôture)*
