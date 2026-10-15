@@ -26,7 +26,7 @@ durée se relève sur l'horodatage des commits.
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
-| S7 | 180 k | — | voir §S7 | en cours |
+| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -463,4 +463,20 @@ sprints avec revue + revue globale »).
 5. **Non mesuré.** L'installation réelle sur un téléphone, et Lighthouse
    (S20). `context.setOffline` ne coupe pas les requêtes du service worker :
    aucun test ne prétend « recharger hors ligne ».
-6. **État final et restes.** *(à la clôture)*
+6. **État final et restes.** Revues faites (code 25 k, métier 24 k),
+   corrections appliquées le 15/10 :
+   - **Revue code** — corrigé : précache « tout ou rien » (`Promise.all`)
+     relu sans cache HTTP (`cache: 'reload'`) — un fichier en échec laissait
+     s'installer un cache partiel puis effaçait l'ancien ; plus de
+     `skipWaiting` — un onglet ouvert sur l'ancienne version perdait sa
+     carte ; le test vise le cache de la version courante et un fichier que
+     seule l'installation peut y mettre (icône masquable), vu rouge sans
+     précache. Restant : le repli « fond indisponible » peut clignoter sur
+     une seule tuile en échec (BACKLOG).
+   - **Revue métier (Bernard)** — corrigé : l'écran dit « Prête pour une
+     utilisation hors connexion » une fois le précache fini, sinon « gardez
+     la page ouverte avec du réseau » ; une ligne explique comment
+     installer ; le repli ne promet plus des « zones déjà vues » à la
+     première visite. Mesuré : 1,85 Mo d'assets non compressés (dont 1 Mo
+     pour la carte, 0,5 Mo pour son worker) ; temps en 4G faible non
+     mesuré (S20).

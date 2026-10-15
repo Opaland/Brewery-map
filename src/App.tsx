@@ -32,6 +32,20 @@ export function App() {
   const [selection, setSelection] = useState<string | null>(null)
   const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
   const [enLigne, setEnLigne] = useState(() => navigator.onLine)
+  // Prête hors ligne quand un service worker est actif : l'installation est
+  // tout ou rien (public/sw.js), donc actif veut dire précache complet.
+  const [pretHorsLigne, setPretHorsLigne] = useState(false)
+
+  useEffect(() => {
+    if (!('serviceWorker' in navigator)) return
+    let vivant = true
+    void navigator.serviceWorker.ready.then(() => {
+      if (vivant) setPretHorsLigne(true)
+    })
+    return () => {
+      vivant = false
+    }
+  }, [])
 
   useEffect(() => {
     const maj = () => {
@@ -167,6 +181,12 @@ export function App() {
       </div>
 
       <footer className="pied">
+        <p data-testid="etat-hors-ligne">
+          {pretHorsLigne
+            ? 'Prête pour une utilisation hors connexion sur cet appareil.'
+            : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}{' '}
+          Pour l’installer : menu du navigateur, puis « Ajouter à l’écran d’accueil ».
+        </p>
         <p>
           Distances à vol d’oiseau. Les positions sont celles du centre de la commune
           (à environ 2 km près), pas l’adresse exacte.

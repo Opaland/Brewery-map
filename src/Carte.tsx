@@ -317,8 +317,9 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
       />
       {fondAbsent && (
         <p className="carte-fond-absent" role="status" data-testid="fond-absent">
-          Fond de carte indisponible (pas de réseau ?). Les brasseries restent placées, et la
-          liste est complète. Les zones déjà vues s’affichent hors connexion.
+          Fond de carte incomplet ou indisponible. Les brasseries restent placées, et la liste
+          est complète. Hors connexion, seules les zones déjà affichées sur cet appareil
+          restent visibles.
         </p>
       )}
     </div>

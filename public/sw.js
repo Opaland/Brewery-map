@@ -5,8 +5,10 @@
   Ce qu'il garantit, et ce qu'il ne garantit pas :
   - l'application et **toutes les fiches** (les données sont dans le JS)
     sont précachées à l'installation : elles s'ouvrent sans réseau ;
-  - les tuiles OSM déjà vues restent en cache (600 au plus) ; celles jamais
-    vues ne peuvent pas s'afficher hors ligne — l'interface le dit ;
+  - les tuiles OSM déjà affichées sur l'appareil restent en cache (600 au
+    plus, choix de stockage tranché au jugement : de l'ordre de quelques
+    méga-octets, sans mesure) ; celles jamais affichées ne peuvent pas
+    s'afficher hors ligne — l'interface le dit ;
   - aucune requête vers un tiers n'est faite par lui, hors les tuiles que la
     carte demande déjà.
 */
@@ -23,12 +25,29 @@ self.__PRECACHE__ = []
 
 const OPTIONS_MATCH = { ignoreVary: true }
 
+/*
+  Tout ou rien (revue code S7) : un seul fichier en échec fait échouer
+  l'installation, et l'ancien service worker — avec son cache complet —
+  reste en place. `Promise.allSettled` laissait s'installer un cache partiel,
+  puis l'activation effaçait l'ancien : plus de hors ligne, sans que rien ne
+  le dise.
+
+  `cache: 'reload'` : chaque fichier est relu au serveur, pas dans le cache
+  HTTP du navigateur, qui pourrait rendre un `index.html` d'avant le
+  déploiement pointant vers d'anciens fichiers.
+
+  Pas de `skipWaiting` : le nouveau service worker attend que les onglets
+  ouverts sur l'ancienne version se ferment. Les activer de force cassait la
+  carte de ces onglets, qui demandaient un fichier haché que le serveur
+  n'avait plus.
+*/
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_APP)
-      await Promise.allSettled(self.__PRECACHE__.map((url) => cache.add(url)))
-      await self.skipWaiting()
+      await Promise.all(
+        self.__PRECACHE__.map((url) => cache.add(new Request(url, { cache: 'reload' }))),
+      )
     })(),
   )
 })
