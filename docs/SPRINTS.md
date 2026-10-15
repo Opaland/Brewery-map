@@ -23,6 +23,7 @@ durée se relève sur l'horodatage des commits.
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
+| S4 | 180 k | — | voir §S4 | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -320,3 +321,26 @@ n'a pas été mesurée.
    - Vérifié sans défaut : `hoteDeSource` ne peut pas lever sur une source
      validée ; `z.iso.date()` refuse les dates que `new Date` décalerait ;
      exhaustivité des libellés imposée par le typage ; ids uniques.
+
+---
+
+## S4 — Contact *(en cours)*
+
+1. **Objectif.** Joindre la brasserie depuis sa fiche : appeler, ouvrir son
+   site, sa page Untappd — ou savoir que ce n'est pas renseigné.
+2. **Périmètre.** Schéma `contact` (tel, site, untappd, source, verifieLe ;
+   source et date obligatoires) ; bloc contact en tête de fiche ; bouton
+   « Appeler » (`tel:+33…`) ; liens externes sans référent ; « non
+   renseigné » sinon ; docs/DONNEES.md.
+3. **Critères de sortie.** Un numéro sans source refusé par le schéma
+   (test) ; rendu du contact testé (avec et sans) ; aucun numéro inventé
+   (e2e) ; revues code et métier faites et corrigées ; porte verte ; page
+   publiée sondée.
+4. **Persona juge.** Cédric.
+5. **Données.** Cinq numéros d'exemple relevés le 15/10 sur les sites
+   officiels (Nomade Brewery, GreDam, Brasserie Kachmar, Microbrasserie de
+   Montchat, Brasserie Stéphanoise). **Leur écriture dans `data/` a été
+   refusée par le contrôle de permissions de la session** — conforme à la
+   règle §0 : elles attendent l'accord explicite de Cédric, ligne par ligne.
+   Le code est livré sans elles ; la fiche dit « non renseigné » partout.
+6. **État final et restes.** *(à la clôture)*

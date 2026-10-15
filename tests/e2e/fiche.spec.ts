@@ -61,6 +61,14 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
   })
 
+  test('sans contact sourcé, pas de numéro inventé', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await ligne(page, /Caribrew/).click()
+    const contact = page.getByTestId('fiche').getByTestId('fiche-contact')
+    await expect(contact).toHaveText('Téléphone : non renseigné.')
+    await expect(contact.getByRole('link')).toHaveCount(0)
+  })
+
   test('sans source, elle le dit, sans rien inventer', async ({ page }) => {
     await page.getByTestId('recherche').fill('oullins')
     await ligne(page, /Bulles d'Orge/).click()

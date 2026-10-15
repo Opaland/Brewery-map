@@ -11,6 +11,7 @@ import {
 } from './core/fiche'
 import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
+import { Contact } from './Contact'
 
 interface Props {
   resultats: readonly Resultat[]
@@ -28,6 +29,7 @@ function Fiche({ brasserie }: { brasserie: Brasserie }) {
   const hote = hoteDeSource(brasserie.src)
   return (
     <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
+      <Contact brasserie={brasserie} />
       <dl>
         <dt>Adresse</dt>
         <dd>{brasserie.addr}</dd>

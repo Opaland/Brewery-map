@@ -14,6 +14,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "jsx": "react-jsx",
 
     "strict": true,
     "noUnusedLocals": true,
@@ -26,6 +27,7 @@
     "playwright.config.ts",
     "build",
     "src/core",
+    "src/Contact.tsx",
     "tests"
   ]
 }
