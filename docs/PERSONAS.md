@@ -25,7 +25,9 @@ sur place, avec des horaires d'accueil confirmés, notamment le samedi.
 accueille du public.
 
 *Constats du 15/10/2026 (fin de S1).* Voir `docs/SPRINTS.md`, S1, « État
-final ».
+final ». En bref : la catégorie 1 ne dit pas quand le lieu accueille ; 16
+des 36 lignes en catégorie 1 ne citent pas le samedi, et l'une est fermée
+d'octobre à mai.
 
 ## Marie, 28 ans — juge S2
 

@@ -19,7 +19,7 @@ durée se relève sur l'horodatage des commits.
 
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
-| S1 | 375 k | 1 h 30 | voir §S1 | en cours |
+| S1 | 375 k | 1 h 30 | ≈ 230 k (audit compris) | suspendu : Pages à activer, merge |
 | S2 | 500 k | 2 h | — | à venir |
 | S3 | 500 k | 2 h | — | à venir |
 | S4 | 500 k | 2 h | — | à venir |
@@ -59,7 +59,35 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    GitHub Actions) dans les réglages du dépôt — action de Cédric. La sonde de
    la page publiée ne tourne que dans le workflow : Chromium ne sort pas du
    conteneur (mesuré sur Sentiers le 27/08).
-9. **État final et restes.** *(à remplir à la clôture)*
+9. **État final et restes.** **Suspendu — en attente de Cédric** (15/10).
+   - Fait et vérifié : porte locale verte (lint, `tsc -b`, 14 tests
+     unitaires, build, 4 e2e + 1 sautée) ; build rouge sur ligne invalide,
+     vu rouge sans la validation ; les 166 lignes réelles passent le schéma ;
+     sonde de la page publiée vue verte (racine) et rouge (sous-chemin
+     inexistant) contre `vite preview` ; hook de porte vu refuser un commit
+     cassé. PR #1 ouverte.
+   - Reste, et qui le débloque : activer GitHub Pages (Source : GitHub
+     Actions) dans les réglages du dépôt — **Cédric** ; CI verte sur la PR ;
+     merge — **Cédric** ; sonde de la page publiée verte dans le workflow.
+   - Consommé : audit ≈ 118 k tokens + S1 ≈ 112 k au moment de la PR, soit
+     ≈ 230 k sur 375 k (relevé sur le compteur par tour, voir « Budget »).
+     Durée : non mesurée de façon fiable (pas d'horodatage de début).
+   - **Revue de persona — Cédric** (faite en ligne, sans agent, pour tenir
+     le budget ; constats vérifiés par lecture du code et du fichier) :
+     - *Bloquant, attendu en S1* : la page publiée n'affiche aucune
+       brasserie ; elle le dit (`etat-construction`, testé dans
+       `accueil.spec.ts`).
+     - *Bloquant à venir (S2/S3)* : la catégorie 1 « Acheter et consommer
+       sur place » ne dit pas **quand**. Sur les 36 lignes en catégorie 1, 16
+       ne mentionnent pas le samedi dans `note`, et 4 reposent sur une vente
+       « déduite » ou « non vérifiée » (Ninkasi Brignais, La Chénou, Ninkasi
+       Saint-Étienne, L'Agrivoise). Exemple : Bière bio des Monts d'Or est
+       en catégorie 1, mais sa note dit « fermée d'octobre à mai ». Le
+       15/10, Cédric s'y rendrait pour rien. → S3 : afficher `note` en
+       entier sur la fiche et sur la liste, sans le résumer ;
+       BACKLOG D1.
+     - *Vérifié sans obstacle* : la mention sanitaire est dans le pied de
+       page (testé) ; les quatre catégories sont nommées en clair (testé).
 
 ## S2 — Carte et découverte
 
