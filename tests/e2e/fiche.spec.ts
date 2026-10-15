@@ -97,6 +97,15 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
   })
 
+  test('sans horaires vérifiés, la fiche renvoie à la source', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await ligne(page, /Caribrew/).click()
+    await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toContainText(
+      'aucun horaire vérifié jour par jour',
+    )
+    await expect(page.getByTestId('fiche').locator('table')).toHaveCount(0)
+  })
+
   test('sans source, elle le dit, sans rien inventer', async ({ page }) => {
     await page.getByTestId('recherche').fill('oullins')
     await ligne(page, /Bulles d'Orge/).click()

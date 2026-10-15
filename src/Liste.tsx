@@ -13,6 +13,7 @@ import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
 import { Bieres } from './Bieres'
 import { Contact } from './Contact'
+import { Horaires } from './Horaires'
 
 interface Props {
   resultats: readonly Resultat[]
@@ -31,6 +32,7 @@ function Fiche({ brasserie }: { brasserie: Brasserie }) {
   return (
     <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
       <Contact brasserie={brasserie} />
+      <Horaires brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
       <dl>
         <dt>Adresse</dt>

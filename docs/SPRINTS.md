@@ -24,7 +24,8 @@ durée se relève sur l'horodatage des commits.
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
-| S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | en cours |
+| S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
+| S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -365,7 +366,7 @@ n'a pas été mesurée.
 
 ---
 
-## S5 — Types de bière *(en cours)*
+## S5 — Types de bière *(terminé le 15/10 — code ; données absentes)*
 
 1. **Objectif.** Dire quelles bières une brasserie propose, avec un lien
    quand il existe, et filtrer par type en mots simples.
@@ -395,3 +396,40 @@ n'a pas été mesurée.
      testé ; le nombre par type dit « au total » ; le test e2e « sans
      bière » prend une brasserie sans bière dans les données au lieu de la
      coder en dur.
+   - PR #5 verte puis mergée (`22d673e`) ; run sur `main` : porte,
+     déploiement, sonde verts ; le JS publié contient la section bières.
+
+---
+
+## S6 — Horaires *(en cours)*
+
+1. **Objectif.** Savoir si c'est ouvert tel jour quand une source le dit —
+   et l'entendre clairement quand elle ne le dit pas.
+2. **Périmètre.** Schéma `horaires` (nature accueil ou vente, créneaux par
+   jour, `[]` = fermé, absent = non précisé, source et date obligatoires) ;
+   `ouvertLe` (oui / non / inconnu) ; tableau des sept jours dans la fiche ;
+   sinon « pas d'horaires vérifiés jour par jour, appelez avant de vous
+   déplacer ».
+3. **Critères de sortie.** Créneau mal écrit ou à l'envers refusé ; rien
+   déduit du texte `note` (test) ; rendu testé avec et sans ; revues code
+   et métier faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Cédric.
+5. **Données.** Aucune ligne n'a d'horaires structurés ; ils viendront de la
+   curation, avec l'accord de Cédric. Le filtre « ouvert samedi » n'est pas
+   livré tant qu'il n'y a pas de données pour le nourrir (BACKLOG).
+6. **État final et restes.** Revues faites (code 23 k, métier 26 k) ; le
+   format a été refait d'après elles, le 15/10 :
+   - **Revue métier (Cédric)** — bloquant : le format ne savait pas dire
+     « fermée d'octobre à mai », « sur rendez-vous », « en saison » (sept
+     cas réels) ; une fois saisi, le tableau aurait fait autorité sur la
+     phrase qui le contredit. **Corrigé** : `remarque` affichée « À savoir »
+     au-dessus du tableau, et `ouvertLe` répond « sous réserve » quand elle
+     existe (test vu rouge sans) ; un bloc par nature (accueil, vente) pour
+     Caribrew, Single Track, Ninkasi ; « heures-non-precisees » pour
+     « mar-sam » sans heures ; le texte sans horaires renvoie à « Ce que dit
+     la source » au lieu de doubler l'avertissement.
+   - **Revue code** — corrigé : créneaux qui passent minuit acceptés
+     (Platypus « 17h-1h », Brasserie des Roches, du Merle) et affichés
+     « (le lendemain) » ; chevauchements et désordre refusés ; `ouvertLe`
+     tient compte de la nature ; tableau avec `<caption>`.
+   - Rien n'est encore saisi : aucune ligne n'a d'horaires structurés.
