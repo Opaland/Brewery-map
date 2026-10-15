@@ -320,3 +320,7 @@ a { color: inherit; }
 .fiche-horaires table { border-collapse: collapse; margin: var(--espace-2) 0; }
 .fiche-horaires th { text-align: left; font-weight: 400; padding-right: var(--espace-7); }
 .fiche-horaires td, .fiche-horaires th { padding-top: var(--espace-1); padding-bottom: var(--espace-1); }
+
+.horaires-bloc + .horaires-bloc { margin-top: var(--espace-6); }
+.horaires-remarque { background: var(--attention-fond); border-left: 3px solid var(--attention-bord); padding: var(--espace-4) var(--espace-6); }
+.fiche-horaires caption { text-align: left; font-weight: 600; padding-bottom: var(--espace-2); }

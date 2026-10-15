@@ -101,7 +101,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('recherche').fill('caribrew')
     await ligne(page, /Caribrew/).click()
     await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toContainText(
-      'pas d’horaires vérifiés jour par jour',
+      'aucun horaire vérifié jour par jour',
     )
     await expect(page.getByTestId('fiche').locator('table')).toHaveCount(0)
   })

@@ -115,21 +115,48 @@ export const contactSchema = z
 
 const HEURE = /^([01]\d|2[0-3]):[0-5]\d$/
 
-/** Un créneau [ouverture, fermeture], au format 24 h, dans le bon ordre. */
+/**
+ * Un créneau [ouverture, fermeture], au format 24 h. Une fermeture plus tôt
+ * que l'ouverture veut dire **le lendemain** : « 17h-1h » s'écrit
+ * ["17:00", "01:00"], « 17h-0h » ["17:00", "00:00"] (Platypus, Brasserie des
+ * Roches — revue code S6). Seul le créneau nul est refusé.
+ */
 const creneauSchema = z
   .tuple([z.string().regex(HEURE), z.string().regex(HEURE)])
-  .refine(([debut, fin]) => debut < fin, { message: 'créneau à l’envers' })
+  .refine(([debut, fin]) => debut !== fin, { message: 'créneau nul' })
 
-/** Un jour : ses créneaux ; `[]` = fermé ; absent = non précisé par la source. */
-const jourSchema = z.array(creneauSchema).optional()
+/** Un créneau qui passe minuit ne peut être que le dernier de la journée. */
+const passeMinuit = ([debut, fin]: readonly [string, string]) => fin <= debut
 
 /**
- * Horaires structurés (S6) — **seulement quand une source les donne**,
- * jamais déduits du texte `note`. `nature` dit ce qu'ils couvrent : l'accueil
- * du public (bar, dégustation) ou la vente seule. Source et date
- * obligatoires.
+ * Un jour : ses créneaux, dans l'ordre et sans chevauchement ; `[]` = fermé ;
+ * « heures-non-precisees » = ouvert, la source ne dit pas à quelle heure ;
+ * absent = la source ne dit rien de ce jour.
  */
-export const horairesSchema = z
+const jourSchema = z
+  .union([
+    z.array(creneauSchema).refine(
+      (cr) =>
+        cr.every((c, i) => {
+          const suivant = cr[i + 1]
+          if (suivant === undefined) return true
+          return !passeMinuit(c) && c[1] <= suivant[0]
+        }),
+      { message: 'créneaux dans le désordre ou qui se chevauchent' },
+    ),
+    z.literal('heures-non-precisees'),
+  ])
+  .optional()
+
+/**
+ * Un bloc d'horaires (S6) — **seulement quand une source les donne**, jamais
+ * déduits du texte `note`. `nature` dit ce qu'il couvre : l'accueil du
+ * public (bar, dégustation) ou la vente seule ; une brasserie peut avoir les
+ * deux (Caribrew : vente en semaine, brewpub jeudi-samedi). `remarque` porte
+ * ce que les créneaux ne savent pas dire (« fermée d'octobre à mai », « sur
+ * rendez-vous »), affichée au-dessus du tableau (revue métier S6).
+ */
+const blocHorairesSchema = z
   .object({
     nature: z.enum(['accueil', 'vente']),
     lun: jourSchema,
@@ -139,10 +166,18 @@ export const horairesSchema = z
     ven: jourSchema,
     sam: jourSchema,
     dim: jourSchema,
+    remarque: z.string().trim().min(1).optional(),
     source: lienSchema,
     verifieLe: z.iso.date(),
   })
   .strict()
+
+export const horairesSchema = z
+  .array(blocHorairesSchema)
+  .min(1)
+  .refine((blocs) => new Set(blocs.map((b) => b.nature)).size === blocs.length, {
+    message: 'un seul bloc par nature (accueil, vente)',
+  })
 
 export const biereSchema = z
   .object({
