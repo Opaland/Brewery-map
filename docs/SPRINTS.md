@@ -20,11 +20,9 @@ durée se relève sur l'horodatage des commits.
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
 | S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
-| S2 | 500 k | 2 h | ≈ 175 k (dont revues : 59 k) | critères tenus ; CI de la PR et page publiée à vérifier |
-| S3 | 500 k | 2 h | — | à venir |
-| S4 | 500 k | 2 h | — | à venir |
-| S5 | 375 k | 1 h 30 | — | à venir |
-| S6 | 250 k | 1 h | — | à venir |
+| S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
+| S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
+| S3 | 180 k | — | ≈ 95 k (dont revues : 56 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -121,7 +119,11 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    `decouverte.spec.ts` trouve une brasserie par commune sans toucher la
    carte ; les quatre catégories sont nommées en clair et filtrent ; porte
    verte (lint, `tsc -b`, 31 tests unitaires, build, 16 e2e + 1 sauté).
-   Reste : CI verte sur la PR, puis sonde de la page publiée après merge.
+   **Terminé le 15/10** : PR #2 verte puis mergée (`11b03ca`) ; run
+   « CI et déploiement » sur `main` : porte, déploiement et sonde
+   `page-publiee` verts. Relevé `curl` sur la page publiée : page, CSS, JS
+   principal, morceau `Carte` et worker MapLibre en 200 ; les données
+   (« Soucieu-en-Jarrest ») sont dans le JS servi.
 
    **Revue de persona — Marie** (agent `relecteur-de-persona`, 22 k tokens) :
    aucun bloquant. Gênants : « À confirmer » sans raison dans la liste (101
@@ -162,72 +164,157 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    - Tests vus rouges sans leur correctif : distance sans lire `km` ; repli
      sans WebGL ; aucun hôte tiers hors tuiles OSM.
 
-## S3 — Fiches et types de bière
+## Plan v2 — 20 sprints de plus (S3 → S22), **validé par Cédric le 15/10**
+
+Budget validé : ≈ 4,6 M tokens pour tout le projet. Untappd confirmé.
+Décisions S3 : confiance affichée « élevée » pour `solide` ; `note` affichée
+comme « Ce que dit la source ».
+
+Demandé par Cédric le 15/10 : au moins 20 sprints, une revue **code** et une
+revue **métier** après chaque sprint, corrigées dans le sprint, d'autres
+personnages si besoin, et trois besoins nouveaux — le téléphone de la
+brasserie, un lien vers sa page Untappd *(« un tape » compris comme Untappd,
+à confirmer)*, et la reconfirmation des « À confirmer » quand une brasserie
+apparaît ou change de statut.
+
+Ce plan remplace S3–S6 du plan v1, dont le contenu est repris et réparti.
+Le cahier des charges limitait le projet à six sprints pour éviter un
+périmètre sans fin : ce changement est une décision de Cédric, notée ici
+comme telle.
+
+### La règle commune à chaque sprint
+
+1. Développement sur `src/core` en TDD ; porte verte avant chaque commit.
+2. **Revue code** : agent `relecteur-adverse` sur le diff du sprint.
+3. **Revue métier** : agent `relecteur-de-persona` avec **la** persona du
+   sprint (deux au plus).
+4. **Correction dans le sprint** de ce que les deux revues trouvent ; ce qui
+   ne tient pas dans le sprint va dans `BACKLOG.md`, nommé.
+5. PR, CI verte, merge (autonomie accordée le 15/10), sonde de la page
+   publiée. Le sprint est **terminé** seulement là.
+6. Le sprint suivant attend le go de Cédric — sauf s'il décide d'enchaîner.
+
+**Aucune ligne de `data/` ne change sans son accord écrit, ligne par ligne**,
+y compris dans une PR verte : l'autonomie dans les PR ne couvre pas les
+données (CLAUDE.md §0).
+
+### Les sprints
+
+| # | Objectif en une phrase | Persona juge |
+|---|---|---|
+| S3 | Une fiche détaillée : source cliquable, date de vérification, confiance expliquée, précision des coordonnées, justification en entier. | Cédric |
+| S4 | Contact : schéma `tel`, `site`, `untappd` ; bouton « Appeler » (`tel:`), lien site, lien Untappd ; « non renseigné » sinon. | Cédric |
+| S5 | Types de bière : liens produit → annuaire → « non référencé » ; filtre par type expliqué en mots simples. | Karim |
+| S6 | Horaires structurés quand une source les donne ; « ouvert samedi ? » sans jamais déduire. | Cédric |
+| S7 | PWA installable, `sw.js` maison, fiches consultables hors ligne, repli de carte sans tuiles. | Bernard |
+| S8 | « Autour de moi » sur action explicite ; la position reste dans le navigateur, et l'écran le dit. | Léa |
+| S9 | Préférences et favoris dans IndexedDB, sur l'appareil seulement. | Marie |
+| S10 | « Signaler une erreur » : issue GitHub préremplie, sans backend ni donnée personnelle. | Une brasserie |
+| S11 | Outillage de curation : agent `verificateur-de-brasserie` (lecture seule), skill `lot-de-curation`, champ `verifieLe`, diff lisible. | Une brasserie |
+| S12 | Curation, lot 1 : 25 « À confirmer » les plus proches — statut, téléphone, site, Untappd, horaires. | Cédric |
+| S13 | Curation, lot 2 : les 25 suivants. | Marie |
+| S14 | Nouvelles brasseries : comparer OSM (`craft=brewery`) et data.gouv.fr au fichier, proposer les ajouts. | Cédric |
+| S15 | Veille : une tâche planifiée revérifie chaque mois les fiches les plus anciennes et les nouveautés, et ouvre une PR de **proposition**. | Une brasserie |
+| S16 | Curation, lot 3. | Karim |
+| S17 | Curation, lot 4 (les 101 « À confirmer » sont alors tous revus au moins une fois). | Bernard |
+| S18 | Accessibilité : lecteur d'écran, clavier, contrastes et cibles de 44 px **mesurés**. | Inès *(nouvelle)* |
+| S19 | « Y aller » : lien vers une application de navigation avec la **destination seule**, jamais l'origine. | Hugo *(nouveau)* |
+| S20 | Performance et téléphones anciens : Lighthouse sur le build de production, poids de la carte. | Bernard |
+| S21 | Revue globale de l'application, et ses corrections. | toutes |
+| S22 | Livraison : README, licence, attributions, captures, GIF, post LinkedIn. | toutes |
+
+### Comment les « À confirmer » se reconfirment
+
+Il n'y a pas de serveur : rien ne peut « écouter » une brasserie qui change.
+La reconfirmation est donc **périodique et proposée**, jamais automatique :
+
+1. **Signalement** (S10) : une brasserie ou un visiteur ouvre une issue
+   préremplie ; elle entre dans la file du lot suivant.
+2. **Découverte** (S14) : comparaison entre OSM, data.gouv.fr et le fichier ;
+   les brasseries absentes du fichier deviennent des propositions d'ajout,
+   en « À confirmer » tant qu'aucune source ne dit plus.
+3. **Veille** (S15) : chaque mois, une session planifiée revérifie les fiches
+   dont `verifieLe` est le plus ancien, plus les signalements ouverts, et
+   ouvre une PR qui **propose** les changements, chacun avec sa source et sa
+   date.
+4. **Décision** : Cédric accepte ou refuse ligne par ligne ; seules les
+   lignes acceptées entrent dans `data/`.
+
+### Ce qui est vérifié, et ce qui ne l'est pas, sur l'accès au web (15/10)
+
+- **Sites officiels : lisibles.** WebFetch sur la page TapRoom de Nomade
+  Brewery rend le téléphone et les horaires. La page porte **deux numéros**
+  (la brasserie et un food truck) : l'agent devra dire lequel il retient et
+  pourquoi.
+- **Overpass (OSM) : 503** à l'essai du 15/10. Peut-être passager ; à
+  réessayer en S14, sinon S14 est bloqué et le sera écrit.
+- **Untappd** : `robots.txt` n'interdit que `/brewery-claims` aux robots.
+  On **lie** vers une page Untappd vérifiée ; on ne recopie ni notes ni avis.
+- **Téléphones** : seulement un numéro que la brasserie publie elle-même
+  pour ses clients, avec sa source. Un numéro de portable trouvé ailleurs
+  (une note du fichier en cite un, Brasserie Animus) n'est pas repris sans
+  l'accord de Cédric.
+
+### Budget proposé
+
+Mesuré : S1 ≈ 245 k tokens (audit compris), S2 ≈ 185 k dont 59 k pour les
+deux revues. Les sprints de curation coûteront plus (25 pages lues par lot) ;
+ce n'est pas encore mesuré.
+
+| Type | Sprints | Par sprint (estimé) | Total |
+|---|---|---:|---:|
+| Fonctionnalité | S3–S10, S18–S20 (11) | 180 k | 1 980 k |
+| Outillage, découverte, veille | S11, S14, S15 (3) | 200 k | 600 k |
+| Curation (lot de 25) | S12, S13, S16, S17 (4) | 300 k | 1 200 k |
+| Revue globale, livraison | S21, S22 (2) | 200 k | 400 k |
+| **Total S3–S22** | 20 | | **≈ 4,2 M** |
+
+Soit environ 4,6 M pour tout le projet (2,5 M validés au départ) : **validé
+le 15/10**. Durée : non estimable de façon fiable — la durée de S1 et S2
+n'a pas été mesurée.
+
+---
+
+## S3 — Fiche détaillée *(en cours)*
 
 1. **Objectif.** Une fiche qui dit ce qui est établi, d'où ça vient, et ce
    qui ne l'est pas.
-2. **Périmètre.** Fiche détaillée ; source cliquable et date de
-   vérification ; confiance (critères écrits dans `docs/DONNEES.md`) ;
-   précision des coordonnées ; types de bière avec lien ou « non référencé » ;
-   filtres catégorie et type.
+2. **Périmètre.** Fiche dépliée sous sa ligne : adresse, source cliquable
+   (ou « aucune source »), date de vérification (ou « non renseignée »),
+   confiance et son sens, précision de la position ; justification titrée
+   « Ce que dit la source » ; champ `verifieLe` au schéma ;
+   `docs/DONNEES.md`.
 3. **Critères de sortie.** Aucune valeur absente remplacée par une valeur
-   fictive (test) ; « À confirmer » affiche sa raison ; un lien de bière n'est
-   jamais une page d'accueil quand une page produit est connue ; porte verte.
-4. **Persona juge.** Karim.
-5. **Budget.** 500 k tokens, 2 h.
-6. **Durée estimée.** 2 h.
-7. **Exclus.** Curation de nouvelles données.
-8. **Risques.** Peu de données de bière avant S5 : le filtre peut être pauvre.
-9. **État final et restes.** —
+   inventée (tests) ; tests vus rouges sans la fiche ; revues code et métier
+   faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Cédric.
+5. **Budget.** 180 k tokens.
+6. **Exclus.** Téléphone, site, Untappd (S4), types de bière (S5), horaires
+   structurés (S6).
+7. **État final et restes.** *(revues faites, corrections appliquées ; CI,
+   merge et page publiée restent à vérifier)*
 
-## S4 — PWA et confidentialité
+   **Revue métier — Cédric** (agent, 27 k tokens) : aucun bloquant.
+   - **Corrigé** : la définition de « élevée » promettait des horaires, ce
+     que cinq lignes `solide` démentent ; nouvelle définition sans horaires,
+     et un avertissement sous chaque confiance (« la confiance ne garantit
+     pas les horaires »), testé.
+   - **Données, non modifiées** (§0) : trois lignes en catégorie 1
+     contredites par leur propre justification (Val d'Ainan, L'Etincelle,
+     Bière bio des Monts d'Or) → BACKLOG D9, priorité du lot S12 ;
+     justifications datées → D10.
+   - Fraîcheur : `verifieLe` absent partout, la fiche le dit ; rempli par la
+     curation.
 
-1. **Objectif.** Consulter les fiches sans réseau et utiliser « autour de
-   moi » sans que la position sorte du navigateur.
-2. **Périmètre.** `public/sw.js` écrit à la main et précaché au build
-   (méthode Sentiers, décision du 15/10) ; manifeste ; repli explicite quand
-   les tuiles manquent ; géolocalisation sur action ; préférences dans
-   IndexedDB ; texte de confidentialité visible.
-3. **Critères de sortie.** Test hors ligne qui interroge le cache
-   (`caches.match`) et a été vu rouge sans l'entrée de précache ; test qui
-   vérifie qu'aucune requête ne contient les coordonnées de l'utilisateur ;
-   refus de géolocalisation → application utilisable ; porte verte.
-4. **Personas juges.** Bernard et Léa.
-5. **Budget.** 500 k tokens, 2 h.
-6. **Durée estimée.** 2 h.
-7. **Exclus.** Fond de carte hors ligne complet.
-8. **Risques.** `context.setOffline` ne s'applique pas au service worker
-   (CLAUDE.md §1).
-9. **État final et restes.** —
-
-## S5 — Curation et correction
-
-1. **Objectif.** Deux lots de 25 brasseries vérifiés et proposés à Cédric
-   sous forme de diff, plus un lien « Signaler une erreur ».
-2. **Périmètre.** Agent `verificateur-de-brasserie` (lecture seule) ; skill
-   `lot-de-curation` ; lien d'issue GitHub prérempli sans donnée personnelle.
-3. **Critères de sortie.** Chaque proposition a source, date et statut de
-   preuve ; aucune ligne de `data/` modifiée sans accord explicite ; porte
-   verte.
-4. **Persona juge.** Une brasserie.
-5. **Budget.** 375 k tokens, 1 h 30.
-6. **Durée estimée.** 1 h 30.
-7. **Exclus.** Plus de deux lots.
-8. **Risques.** Accès web : `curl` vers Overpass et data.gouv.fr échoue
-   depuis le conteneur (audit du 15/10) ; WebFetch non testé.
-9. **État final et restes.** —
-
-## S6 — Livraison
-
-1. **Objectif.** Vérifier chaque case du §8 du cahier des charges, ou dire
-   pourquoi elle est bloquée.
-2. **Périmètre.** Accessibilité, Lighthouse sur le build de production,
-   revue globale, README, licence et attributions, captures, GIF, post.
-3. **Critères de sortie.** Chaque case du §8 cochée avec sa preuve ou
-   signalée bloquée avec sa cause.
-4. **Personas juges.** Toutes.
-5. **Budget.** 250 k tokens, 1 h.
-6. **Durée estimée.** 1 h.
-7. **Exclus.** Toute nouvelle fonctionnalité.
-8. **Risques.** Lighthouse dans le conteneur : à mesurer.
-9. **État final et restes.** —
+   **Revue code** (agent, 29 k tokens) : aucun bloquant.
+   - **Corrigé** : choisie depuis la carte, la fiche pouvait s'ouvrir hors
+     champ (on faisait défiler le bouton, pas la ligne dépliée) ; test
+     ajouté.
+   - **Corrigé** : le test de la fiche reposait sur `toBeVisible` et
+     `toContainText`, que §1bis déconseille ; il demande maintenant ce qui
+     est peint (`elementFromPoint`) et lit le libellé seul.
+   - Choix documenté dans le code : la carte ouvre toujours, seule la liste
+     referme.
+   - Vérifié sans défaut : `hoteDeSource` ne peut pas lever sur une source
+     validée ; `z.iso.date()` refuse les dates que `new Date` décalerait ;
+     exhaustivité des libellés imposée par le typage ; ids uniques.

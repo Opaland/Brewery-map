@@ -161,9 +161,14 @@ logique ou de sécurité ; pas pour une curation déjà relue par Cédric.
 
 À lire après un `/clear`. Tenu à jour à chaque fin de tâche.
 
-- **S1 terminé le 15/10** (page publiée : https://opaland.github.io/Brewery-map/).
-- **Sprint suivant : S2 — Carte et découverte**, pas encore démarré : attend le go de Cédric.
+- **S1 et S2 terminés le 15/10** (page publiée : https://opaland.github.io/Brewery-map/).
+- **Plan v2 validé le 15/10** : 20 sprints de plus (S3 → S22), budget ≈ 4,6 M,
+  revue code + revue métier corrigées dans chaque sprint (`docs/SPRINTS.md`).
+- **Sprint actif : S3 — Fiche détaillée.**
+- Décision de Cédric (15/10) : **autonome dans les PR** — une PR verte et
+  sans conflit se merge sans attendre, et le déploiement se vérifie après.
+  Le démarrage d'un sprint reste soumis à son go.
 - Données : `data/breweries.json` versionné tel que fourni par Cédric le
-  15/10 (166 lignes, toutes valides au schéma). Non encore lu par
-  l'application.
+  15/10 (166 lignes, toutes valides au schéma), lu par l'application depuis
+  S2, jamais modifié.
 - Suite : `BACKLOG.md`.

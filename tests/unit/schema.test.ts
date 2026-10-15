@@ -66,3 +66,11 @@ describe('le fichier entier', () => {
     expect(verdict.ok ? [] : verdict.erreurs).toEqual(['1.n : nom déjà utilisé ligne 0'])
   })
 })
+
+describe('la date de vérification', () => {
+  it('accepte une date ISO, refuse le reste', () => {
+    expect(erreursDe({ ...valide, verifieLe: '2026-10-15' })).toEqual([])
+    expect(erreursDe({ ...valide, verifieLe: '15/10/2026' })).not.toEqual([])
+    expect(erreursDe({ ...valide, verifieLe: '2026-13-40' })).not.toEqual([])
+  })
+})

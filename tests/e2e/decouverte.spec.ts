@@ -97,9 +97,9 @@ test.describe('trouver une brasserie (Marie)', () => {
   test('choisir une ligne la marque comme choisie', async ({ page }) => {
     await page.goto('/')
     const premiere = lignes(page).first().getByRole('button')
-    await expect(premiere).toHaveAttribute('aria-pressed', 'false')
+    await expect(premiere).toHaveAttribute('aria-expanded', 'false')
     await premiere.click()
-    await expect(premiere).toHaveAttribute('aria-pressed', 'true')
+    await expect(premiere).toHaveAttribute('aria-expanded', 'true')
   })
 })
 
@@ -169,7 +169,7 @@ test.describe('la carte (marqueurs groupés)', () => {
     await expect(page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')).toHaveCount(0)
     // Zoomer ne les sépare pas : le clic choisit la première, la liste montre l'autre.
     await groupe.click()
-    await expect(lignes(page).getByRole('button', { pressed: true })).toHaveCount(1)
+    await expect(lignes(page).getByRole('button', { expanded: true })).toHaveCount(1)
   })
 
   test('choisir un marqueur choisit la ligne de la liste', async ({ page }) => {
@@ -179,9 +179,10 @@ test.describe('la carte (marqueurs groupés)', () => {
     await expect(point).toHaveCount(1)
     await point.click()
     await expect(lignes(page).getByRole('button', { name: /Bulles d'Orge/ })).toHaveAttribute(
-      'aria-pressed',
+      'aria-expanded',
       'true',
     )
+    await expect(page.getByTestId('fiche')).toBeVisible()
     await expect(point).toHaveAttribute('aria-pressed', 'true')
   })
 })

@@ -1,0 +1,94 @@
+import { expect, test, type Page } from '@playwright/test'
+import { sansTuiles } from './reseau'
+
+/**
+ * La fiche est-elle **peinte**, et pas seulement présente ? `toBeVisible`
+ * accepte un élément écrêté par un ancêtre qui défile (CLAUDE.md §1bis,
+ * revue code S3). On demande donc ce qui est au centre de l'élément, après
+ * l'avoir amené à l'écran.
+ */
+async function estPeint(page: Page, testId: string): Promise<boolean> {
+  const el = page.getByTestId(testId)
+  await el.scrollIntoViewIfNeeded()
+  return el.evaluate((cible) => {
+    const r = cible.getBoundingClientRect()
+    const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+    return vu !== null && cible.contains(vu)
+  })
+}
+
+const ligne = (page: Page, nom: RegExp) =>
+  page.getByTestId('liste').getByRole('button', { name: nom })
+
+test.beforeEach(async ({ page }) => {
+  await sansTuiles(page)
+  await page.goto('/')
+})
+
+test.describe('la fiche détaillée (Cédric)', () => {
+  test('dit d’où vient l’information, et avec quelle confiance', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await ligne(page, /Caribrew/).click()
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche).toBeVisible()
+
+    const lien = fiche.getByTestId('fiche-source').getByRole('link')
+    await expect(lien).toHaveText('montsdulyonnaistourisme.fr')
+    await expect(lien).toHaveAttribute(
+      'href',
+      'https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/',
+    )
+    await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
+
+    await expect.poll(() => estPeint(page, 'fiche-source')).toBe(true)
+    // Le libellé lui-même, sans l'aide qui le suit (§1bis : `toContainText`
+    // lirait aussi l'aide).
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText(/^élevée/)
+    await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
+      'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.',
+    )
+    await expect(fiche.getByTestId('fiche-precision')).toHaveText(
+      'approximative : centre de la commune, à environ 2 km près',
+    )
+    await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
+    await expect(fiche).toContainText("4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest")
+  })
+
+  test('la justification est titrée « Ce que dit la source »', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await expect(ligne(page, /Caribrew/)).toContainText(
+      'Ce que dit la source : Vente directe lun-ven 8h-18h',
+    )
+  })
+
+  test('sans source, elle le dit, sans rien inventer', async ({ page }) => {
+    await page.getByTestId('recherche').fill('oullins')
+    await ligne(page, /Bulles d'Orge/).click()
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche.getByTestId('fiche-source')).toHaveText(
+      'Aucune source lue pour cette brasserie.',
+    )
+    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveCount(0)
+    await expect(fiche.getByTestId('fiche-confiance')).toContainText('non évaluée')
+  })
+
+  test('choisie sur la carte, sa fiche s’ouvre et vient à l’écran', async ({ page }) => {
+    await page.getByTestId('recherche').fill('oullins')
+    await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').click()
+    await expect(page.getByTestId('fiche')).toHaveCount(1)
+    await expect.poll(() => page.getByTestId('fiche').evaluate((el) => {
+      const r = el.getBoundingClientRect()
+      return r.top < window.innerHeight && r.bottom > 0
+    })).toBe(true)
+  })
+
+  test('un second toucher referme la fiche', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    const bouton = ligne(page, /Caribrew/)
+    await bouton.click()
+    await expect(page.getByTestId('fiche')).toBeVisible()
+    await bouton.click()
+    await expect(page.getByTestId('fiche')).toHaveCount(0)
+    await expect(bouton).toHaveAttribute('aria-expanded', 'false')
+  })
+})
