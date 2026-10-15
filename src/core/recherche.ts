@@ -1,4 +1,5 @@
 import { distanceKm, type Point } from './distance'
+import type { TypeDeBiere } from './bieres'
 import type { Brasserie, Categorie } from './schema'
 
 export interface Criteres {
@@ -7,6 +8,8 @@ export interface Criteres {
   /** Mots à trouver dans le nom ou la commune ; vide = tout. */
   texte: string
   categories: readonly Categorie[]
+  /** Un type de bière proposé ; absent = tous. */
+  type?: TypeDeBiere
 }
 
 export interface Resultat {
@@ -69,6 +72,7 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
   const resultats: Resultat[] = []
   for (const brasserie of brasseries) {
     if (!categories.has(brasserie.cat)) continue
+    if (criteres.type !== undefined && !brasserie.beers.some((b) => b.type === criteres.type)) continue
     if (mots.length > 0) {
       const texte = cible(brasserie)
       if (!mots.every((mot) => trouve(texte, mot))) continue

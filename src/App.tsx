@@ -1,9 +1,11 @@
 import { lazy, Suspense, useMemo, useState } from 'react'
+import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { BRIGNAIS } from './core/distance'
 import { rechercher } from './core/recherche'
 import type { Categorie } from './core/schema'
+import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
@@ -20,15 +22,26 @@ const Carte = lazy(() => import('./Carte'))
 const RAYON_INITIAL_KM = 30
 export const RAYON_MAX_KM = 100
 
+/** Combien de brasseries proposent chaque type : calculé une fois. */
+const NB_PAR_TYPE = compterTypes(BRASSERIES)
+
 export function App() {
   const [texte, setTexte] = useState('')
   const [rayonKm, setRayonKm] = useState(RAYON_INITIAL_KM)
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
+  const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
 
   const resultats = useMemo(
-    () => rechercher(BRASSERIES, { origine: BRIGNAIS, rayonKm, texte, categories }),
-    [rayonKm, texte, categories],
+    () =>
+      rechercher(BRASSERIES, {
+        origine: BRIGNAIS,
+        rayonKm,
+        texte,
+        categories,
+        ...(type === undefined ? {} : { type }),
+      }),
+    [rayonKm, texte, categories, type],
   )
 
   const basculer = (cat: Categorie) => {
@@ -101,6 +114,8 @@ export function App() {
             </label>
           ))}
         </fieldset>
+
+        <FiltreType nbParType={NB_PAR_TYPE} valeur={type} onChange={setType} />
       </section>
 
       <p className="compte" role="status" data-testid="compte">

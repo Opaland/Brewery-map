@@ -1,5 +1,9 @@
 import { expect, test, type Page } from '@playwright/test'
+import { readFileSync } from 'node:fs'
+import type { Brasserie } from '../../src/core/schema'
 import { sansTuiles } from './reseau'
+
+const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 
 /**
  * La fiche est-elle **peinte**, et pas seulement présente ? `toBeVisible`
@@ -74,6 +78,22 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await ligne(page, /Brasserie Animus/).click()
     await expect(page.getByTestId('fiche').getByTestId('fiche-contact')).toHaveText(
       'Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.',
+    )
+  })
+
+  test('sans bière référencée, la fiche le dit', async ({ page }) => {
+    // Une brasserie sans bière, prise dans les données réelles plutôt que
+    // codée en dur : le test ne casse pas le jour où Caribrew en reçoit une
+    // (revue code S5).
+    const sansBiere = DONNEES.find((b) => b.beers.length === 0 && b.n === 'Caribrew')
+      ?? DONNEES.find((b) => b.beers.length === 0)
+    test.skip(sansBiere === undefined, 'toutes les brasseries ont des bières')
+    const nom = (sansBiere as Brasserie).n
+    await page.getByTestId('rayon').fill('100')
+    await page.getByTestId('recherche').fill(nom)
+    await ligne(page, new RegExp(nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).first().click()
+    await expect(page.getByTestId('fiche').getByTestId('fiche-bieres')).toHaveText(
+      'Types de bière : non référencés pour l’instant.',
     )
   })
 
