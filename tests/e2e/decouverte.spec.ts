@@ -30,7 +30,7 @@ test.describe('trouver une brasserie (Marie)', () => {
     await expect(lignes(page)).toHaveCount(1)
     await expect(lignes(page).first()).toContainText("Bulles d'Orge")
     await expect(lignes(page).first()).toContainText('Oullins (69)')
-    await expect(page.getByTestId('compte')).toHaveText('1 brasserie à moins de 30 km')
+    await expect(page.getByTestId('compte')).toHaveText('1 brasserie à moins de 30 km de Brignais')
   })
 
   test('« À confirmer » dit pourquoi, dans la liste même', async ({ page }) => {

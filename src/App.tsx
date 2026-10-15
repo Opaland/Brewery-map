@@ -2,11 +2,12 @@ import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
-import { BRIGNAIS } from './core/distance'
+import { communesConnues, libelleOrigine, ORIGINE_DEFAUT, type Origine } from './core/origine'
 import { rechercher } from './core/recherche'
 import type { Categorie } from './core/schema'
 import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
+import { PointDeDepart } from './PointDeDepart'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
 // retarde pas la liste, qui suffit seule à trouver une brasserie.
@@ -24,10 +25,12 @@ export const RAYON_MAX_KM = 100
 
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
+const COMMUNES = communesConnues(BRASSERIES)
 
 export function App() {
   const [texte, setTexte] = useState('')
   const [rayonKm, setRayonKm] = useState(RAYON_INITIAL_KM)
+  const [origine, setOrigine] = useState<Origine>(ORIGINE_DEFAUT)
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
   const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
@@ -62,13 +65,13 @@ export function App() {
   const resultats = useMemo(
     () =>
       rechercher(BRASSERIES, {
-        origine: BRIGNAIS,
+        origine: origine.point,
         rayonKm,
         texte,
         categories,
         ...(type === undefined ? {} : { type }),
       }),
-    [rayonKm, texte, categories, type],
+    [origine, rayonKm, texte, categories, type],
   )
 
   const basculer = (cat: Categorie) => {
@@ -89,7 +92,7 @@ export function App() {
       <header className="entete">
         <h1>Mousse de Poche</h1>
         <p className="sous-titre">
-          Les brasseries artisanales autour de Brignais, et ce qu’on peut y faire.
+          Les brasseries artisanales autour de vous, et ce qu’on peut y faire.
         </p>
       </header>
 
@@ -101,6 +104,8 @@ export function App() {
       )}
 
       <section className="filtres" aria-label="Rechercher et filtrer">
+        <PointDeDepart origine={origine} communes={COMMUNES} onChange={setOrigine} />
+
         <label className="champ">
           <span>Nom ou commune</span>
           <input
@@ -116,7 +121,7 @@ export function App() {
 
         <label className="champ">
           <span>
-            Distance maximale depuis Brignais : <strong>{rayonKm} km</strong>
+            Distance maximale depuis {libelleOrigine(origine)} : <strong>{rayonKm} km</strong>
           </span>
           <input
             type="range"
@@ -155,14 +160,15 @@ export function App() {
       <p className="compte" role="status" data-testid="compte">
         {resultats.length === 0
           ? 'Aucune brasserie ne correspond.'
-          : `${String(resultats.length)} brasserie${resultats.length > 1 ? 's' : ''} à moins de ${String(rayonKm)} km`}
+          : `${String(resultats.length)} brasserie${resultats.length > 1 ? 's' : ''} à moins de ${String(rayonKm)} km de ${libelleOrigine(origine)}`}
       </p>
 
       <div className="vues">
         <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
           <Carte
             resultats={resultats}
-            origine={BRIGNAIS}
+            origine={origine.point}
+            libelleOrigine={libelleOrigine(origine)}
             rayonKm={rayonKm}
             selection={selection}
             onChoisir={choisirDepuisLaCarte}

@@ -24,6 +24,8 @@ setWorkerUrl(urlDuWorker)
 interface Props {
   resultats: readonly Resultat[]
   origine: Point
+  /** Pour le nom accessible du repère de départ. */
+  libelleOrigine: string
   rayonKm: number
   selection: string | null
   onChoisir: (nom: string) => void
@@ -109,10 +111,18 @@ function bouton(classe: string, libelle: string, texte = ''): HTMLButtonElement 
   return el
 }
 
-export default function Carte({ resultats, origine, rayonKm, selection, onChoisir }: Props) {
+export default function Carte({
+  resultats,
+  origine,
+  libelleOrigine,
+  rayonKm,
+  selection,
+  onChoisir,
+}: Props) {
   const conteneur = useRef<HTMLDivElement>(null)
   const carte = useRef<CarteMapLibre | null>(null)
   const marqueurs = useRef(new Map<string, Marker>())
+  const repere = useRef<Marker | null>(null)
   const [prete, setPrete] = useState(false)
   // Le fond de carte n'a pas pu charger (hors connexion, serveur de tuiles
   // indisponible) : on le dit, au lieu d'un fond vide sans explication.
@@ -154,9 +164,11 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
 
     const origineEl = document.createElement('div')
     origineEl.className = 'marqueur-origine'
-    origineEl.setAttribute('aria-label', 'Brignais, point de départ')
     origineEl.setAttribute('role', 'img')
-    new Marker({ element: origineEl }).setLngLat([origine.lon, origine.lat]).addTo(map)
+    origineEl.dataset['testid'] = 'repere-depart'
+    repere.current = new Marker({ element: origineEl })
+      .setLngLat([origine.lon, origine.lat])
+      .addTo(map)
 
     /**
      * Les marqueurs visibles, recalculés depuis ce que le regroupement de
@@ -270,11 +282,13 @@ export default function Carte({ resultats, origine, rayonKm, selection, onChoisi
     void carte.current?.getSource<GeoJSONSource>('brasseries')?.setData(versGeoJSON(resultats))
   }, [prete, resultats])
 
-  // Le cadre suit le rayon.
+  // Le repère et le cadre suivent le point de départ et le rayon.
   useEffect(() => {
+    repere.current?.setLngLat([origine.lon, origine.lat])
+    repere.current?.getElement().setAttribute('aria-label', `Point de départ : ${libelleOrigine}`)
     if (!prete) return
     carte.current?.fitBounds(emprise(origine, rayonKm), { duration: 300 })
-  }, [prete, origine, rayonKm])
+  }, [prete, origine, libelleOrigine, rayonKm])
 
   // La brasserie choisie est marquée, et la carte la centre — une fois, au
   // choix. Dépendre aussi des résultats recentrait la carte à chaque frappe

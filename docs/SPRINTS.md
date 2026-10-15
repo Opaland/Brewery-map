@@ -26,7 +26,8 @@ durée se relève sur l'horodatage des commits.
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
-| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
+| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
+| S8 | 180 k | — | non relevé précisément (revues comprises) | code prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -440,7 +441,7 @@ n'a pas été mesurée.
 
 ---
 
-## S7 — PWA et hors ligne *(en cours)*
+## S7 — PWA et hors ligne *(terminé le 15/10)*
 
 Enchaînement des sprints demandé par Cédric le 15/10 (« enchaîne les
 sprints avec revue + revue globale »).
@@ -480,3 +481,45 @@ sprints avec revue + revue globale »).
      première visite. Mesuré : 1,85 Mo d'assets non compressés (dont 1 Mo
      pour la carte, 0,5 Mo pour son worker) ; temps en 4G faible non
      mesuré (S20).
+
+---
+
+## S8 — Point de départ et « autour de moi » *(terminé le 15/10 — code)*
+
+1. **Objectif.** Compter les distances depuis Brignais, depuis sa position
+   (sur action) ou depuis une commune des données — « plus loin que
+   Brignais », demande de Cédric du 15/10.
+2. **Périmètre.** `core/origine.ts` (Brignais, position, commune ; la
+   position d'une commune est la moyenne de ses brasseries, dite
+   « centre approché ») ; `PointDeDepart.tsx` : bouton « Autour de moi »
+   (géolocalisation demandée au toucher seulement, refus et erreurs dits,
+   rien ne change alors), choix d'une commune sans recherche en ligne,
+   retour à Brignais ; texte de confidentialité exact (la position ne part
+   nulle part ; la carte charge les images de la zone affichée) ; repère
+   et cadre de la carte qui suivent le départ.
+3. **Critères de sortie.** Aucune requête ne contient la position (test vu
+   rouge avec une fuite injectée) ; refus → application utilisable ;
+   départ depuis une commune testé ; revues code et métier faites et
+   corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Léa.
+5. **Limite.** Les données s'arrêtent à 100 km de Brignais : partir de
+   plus loin ne montre que ce qui est dans le fichier ; l'élargir est S14.
+6. **État final et restes.** Revues faites, corrections appliquées le
+   15/10 :
+   - **Revue code** — corrigé : le test de fuite ne cherchait que les
+     chiffres « 45.93 » et ne pouvait voir ni une tuile ni une fuite écrite
+     autrement ; il est devenu une liste blanche (l'application, `data:`,
+     des tuiles OSM z/x/y au zoom 14 au plus), **vu rouge** avec un
+     `fetch` injecté qui emportait la latitude ; le texte minimisait ce
+     que voit le serveur de tuiles ; Brignais recopié en dur remplacé par
+     `ORIGINE_DEFAUT` ; rechoisir la même commune ne recadre plus la
+     carte ; les communes sont regroupées par commune **et** département
+     (deux « Saint-Martin » restent deux, ordre stable).
+   - **Revue métier (Léa)** — corrigé : le texte de confidentialité est
+     lu **avant** le bouton (testé sur l'ordre du document) et dit tout :
+     les coordonnées ne sont envoyées à personne, mais les images de la
+     carte chargées auprès d'OpenStreetMap révèlent la zone, à quelques
+     kilomètres près, et l'adresse IP ; partir d'une commune l'évite.
+   - **Reste** : les données s'arrêtent à 100 km de Brignais (S14) ; le
+     zoom 14, une tuile couvre environ 1,7 km de côté à la latitude de Lyon (40 075 km × cos 45,9° ÷ 2¹⁴) — c'est le
+     prix d'une carte en ligne, dit à l'écran, pas supprimé.

@@ -350,3 +350,17 @@ a { color: inherit; }
 .horaires-bloc + .horaires-bloc { margin-top: var(--espace-6); }
 .horaires-remarque { background: var(--attention-fond); border-left: 3px solid var(--attention-bord); padding: var(--espace-4) var(--espace-6); }
 .fiche-horaires caption { text-align: left; font-weight: 600; padding-bottom: var(--espace-2); }
+
+.depart { border: 1px solid var(--gris-vert-clair); border-radius: var(--rayon-md); padding: var(--espace-4) var(--espace-6); margin: 0; display: grid; gap: var(--espace-4); }
+.depart legend { font-weight: 600; }
+.depart-actions { display: flex; flex-wrap: wrap; gap: var(--espace-4); }
+.depart-actions button {
+  font: inherit;
+  min-height: 44px;
+  padding: 0 var(--espace-7);
+  border-radius: var(--rayon-md);
+  border: 1px solid var(--encre);
+  background: var(--blanc-carte);
+  color: var(--encre);
+  cursor: pointer;
+}
