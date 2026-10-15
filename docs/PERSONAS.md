@@ -75,3 +75,23 @@ Veut corriger sa fiche.
 préremplie, sans backend, sans donnée personnelle dans l'URL.
 
 *Pas encore de constat.*
+
+## Inès — juge S18 *(proposée le 15/10, plan v2)*
+
+Utilise un lecteur d'écran.
+
+**Critère.** Trouver une brasserie, lire sa fiche et appeler, au clavier et
+au lecteur d'écran seuls, sans dépendre de la carte.
+
+*Pas encore de constat. Personnage ajouté au plan v2 ; ses besoins sont ceux
+de WCAG, pas ceux d'une personne rencontrée.*
+
+## Hugo — juge S19 *(proposé le 15/10, plan v2)*
+
+À vélo, en sortie le week-end, décide en route.
+
+**Critère.** Savoir si c'est ouvert maintenant et lancer l'itinéraire vers la
+brasserie, sans que sa position parte ailleurs que dans l'application de
+navigation qu'il choisit.
+
+*Pas encore de constat. Personnage ajouté au plan v2, sans entretien.*
