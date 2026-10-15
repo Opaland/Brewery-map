@@ -2,14 +2,20 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { App } from './App'
+import { ouvrirStockage } from './stockage'
 
+// Les réglages gardés sont lus avant le premier rendu : sinon la carte se
+// cadrerait sur les réglages par défaut, puis sauterait (S9). La promesse
+// ne rejette jamais : sans IndexedDB, l'application part sans rien garder.
 const racine = document.getElementById('root')
 if (racine) {
-  createRoot(racine).render(
-    <StrictMode>
-      <App />
-    </StrictMode>,
-  )
+  void ouvrirStockage().then((stockage) => {
+    createRoot(racine).render(
+      <StrictMode>
+        <App stockage={stockage} />
+      </StrictMode>,
+    )
+  })
 }
 
 // Le service worker n'est enregistré qu'en production : en développement, il

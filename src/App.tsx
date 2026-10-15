@@ -2,38 +2,41 @@ import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
-import { communesConnues, libelleOrigine, ORIGINE_DEFAUT, type Origine } from './core/origine'
-import { rechercher } from './core/recherche'
+import { communesConnues, libelleOrigine, type Origine } from './core/origine'
+import {
+  basculerFavori,
+  origineDesPreferences,
+  PREFERENCES_DEFAUT,
+  RAYON,
+  versStockage,
+  type Preferences,
+} from './core/preferences'
+import { favorisCaches, rechercher } from './core/recherche'
 import type { Categorie } from './core/schema'
 import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
+import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
+import type { Stockage } from './stockage'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
 // retarde pas la liste, qui suffit seule à trouver une brasserie.
 const Carte = lazy(() => import('./Carte'))
 
-/**
- * Rayon affiché à l'ouverture : 30 km. Choix de présentation tranché au
- * jugement (CLAUDE.md §2) — il ne change aucun calcul, la personne le règle
- * jusqu'à 100 km. Écartés : 100 km (les 166 lignes d'un coup, la plus
- * lointaine à 99,8 km) et 10 km (trop peu pour « près de Lyon » depuis
- * Brignais).
- */
-const RAYON_INITIAL_KM = 30
-export const RAYON_MAX_KM = 100
-
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
 const COMMUNES = communesConnues(BRASSERIES)
 
-export function App() {
+export function App({ stockage }: { stockage: Stockage }) {
+  const ini = stockage.initiales
   const [texte, setTexte] = useState('')
-  const [rayonKm, setRayonKm] = useState(RAYON_INITIAL_KM)
-  const [origine, setOrigine] = useState<Origine>(ORIGINE_DEFAUT)
-  const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
+  const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
+  const [origine, setOrigine] = useState<Origine>(() => origineDesPreferences(ini.depart, COMMUNES))
+  const [categories, setCategories] = useState<readonly Categorie[]>(ini.categories)
   const [selection, setSelection] = useState<string | null>(null)
-  const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
+  const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
+  const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
+  const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
   const [enLigne, setEnLigne] = useState(() => navigator.onLine)
   // Prête hors ligne quand un service worker est actif : l'installation est
   // tout ou rien (public/sw.js), donc actif veut dire précache complet.
@@ -62,6 +65,23 @@ export function App() {
     }
   }, [])
 
+  // Chaque changement est gardé sur l'appareil (S9). Le texte tapé et la
+  // fiche ouverte ne le sont pas : ce sont des gestes, pas des réglages.
+  useEffect(() => {
+    const p: Preferences = versStockage({
+      version: 1,
+      rayonKm,
+      categories: [...categories],
+      ...(type === undefined ? {} : { type }),
+      depart: origine,
+      favoris: [...favoris],
+      favorisSeulement,
+    })
+    stockage.garder(p)
+  }, [stockage, rayonKm, categories, type, origine, favoris, favorisSeulement])
+
+  const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
+
   const resultats = useMemo(
     () =>
       rechercher(BRASSERIES, {
@@ -70,9 +90,24 @@ export function App() {
         texte,
         categories,
         ...(type === undefined ? {} : { type }),
+        ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
       }),
-    [origine, rayonKm, texte, categories, type],
+    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris],
   )
+
+  const caches = favorisSeulement ? favorisCaches(BRASSERIES, favoris, resultats) : []
+
+  const toutEffacer = () => {
+    void stockage.effacer().then(() => {
+      const d = PREFERENCES_DEFAUT
+      setRayonKm(d.rayonKm)
+      setCategories(d.categories)
+      setType(d.type)
+      setOrigine(origineDesPreferences(d.depart, COMMUNES))
+      setFavoris(d.favoris)
+      setFavorisSeulement(d.favorisSeulement)
+    })
+  }
 
   const basculer = (cat: Categorie) => {
     setCategories((avant) =>
@@ -125,9 +160,9 @@ export function App() {
           </span>
           <input
             type="range"
-            min={5}
-            max={RAYON_MAX_KM}
-            step={5}
+            min={RAYON.min}
+            max={RAYON.max}
+            step={RAYON.pas}
             value={rayonKm}
             onChange={(e) => {
               setRayonKm(Number(e.target.value))
@@ -155,6 +190,14 @@ export function App() {
         </fieldset>
 
         <FiltreType nbParType={NB_PAR_TYPE} valeur={type} onChange={setType} />
+
+        <MesFavoris
+          nbFavoris={favoris.length}
+          seulement={favorisSeulement}
+          onSeulement={setFavorisSeulement}
+          stockageDisponible={stockage.disponible}
+          onEffacer={toutEffacer}
+        />
       </section>
 
       <p className="compte" role="status" data-testid="compte">
@@ -162,6 +205,12 @@ export function App() {
           ? 'Aucune brasserie ne correspond.'
           : `${String(resultats.length)} brasserie${resultats.length > 1 ? 's' : ''} à moins de ${String(rayonKm)} km de ${libelleOrigine(origine)}`}
       </p>
+      {caches.length > 0 && (
+        <p className="champ-aide" data-testid="favoris-caches">
+          {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
+          par la distance ou les filtres : {caches.join(', ')}.
+        </p>
+      )}
 
       <div className="vues">
         <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
@@ -178,6 +227,10 @@ export function App() {
           <Liste
             resultats={resultats}
             selection={selection}
+            favoris={ensembleFavoris}
+            onBasculerFavori={(nom) => {
+              setFavoris((avant) => basculerFavori(avant, nom))
+            }}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))

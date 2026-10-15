@@ -27,7 +27,8 @@ durée se relève sur l'horodatage des commits.
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
 | S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
-| S8 | 180 k | — | non relevé précisément (revues comprises) | code prêt, PR à ouvrir |
+| S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
+| S9 | 180 k | — | non relevé précisément | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -484,7 +485,7 @@ sprints avec revue + revue globale »).
 
 ---
 
-## S8 — Point de départ et « autour de moi » *(terminé le 15/10 — code)*
+## S8 — Point de départ et « autour de moi » *(terminé le 15/10)*
 
 1. **Objectif.** Compter les distances depuis Brignais, depuis sa position
    (sur action) ou depuis une commune des données — « plus loin que
@@ -523,3 +524,26 @@ sprints avec revue + revue globale »).
    - **Reste** : les données s'arrêtent à 100 km de Brignais (S14) ; le
      zoom 14, une tuile couvre environ 1,7 km de côté à la latitude de Lyon (40 075 km × cos 45,9° ÷ 2¹⁴) — c'est le
      prix d'une carte en ligne, dit à l'écran, pas supprimé.
+
+## S9 — Favoris et préférences *(en cours)*
+
+1. **Objectif.** Retrouver d'une visite à l'autre ses brasseries préférées
+   et ses réglages, sans compte et sans que rien parte de l'appareil.
+2. **Périmètre.** `core/preferences.ts` (schéma Zod de ce qui est gardé,
+   relu tout ou rien ; la position n'est **jamais** gardée : « autour de
+   moi » redevient Brignais) ; `stockage.ts` (IndexedDB, une clé ; repli
+   sans stockage, dit à l'écran) ; favoris par nom, bouton dans la fiche,
+   étoile sur la ligne ; « seulement mes favoris » ; favoris cachés par la
+   distance ou les filtres nommés ; « Effacer favoris et réglages ».
+3. **Critères de sortie.** Favori et réglages retrouvés après
+   rechargement ; position absente du stockage ; sans IndexedDB
+   l'application marche et le dit ; tests vus rouges par mutation ; revues
+   code et métier faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Marie.
+5. **Vu en route.** Les tests e2e ont rougi au hasard : un rechargement
+   partait avant la fin de l'écriture IndexedDB. Ils attendent désormais que
+   le stockage contienne la valeur voulue (35/35 sur cinq passages). Une
+   ligne ouverte porte maintenant deux boutons : un test de S2 qui visait
+   « le » bouton de la ligne a été précisé.
+6. **État final et restes.** *(à la clôture)*
+
