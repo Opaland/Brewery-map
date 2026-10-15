@@ -56,7 +56,7 @@ a { color: inherit; }
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
+  max-width: 44rem;
   margin: 0 auto;
   padding: 0 var(--espace-7);
 }
@@ -78,4 +78,172 @@ a { color: inherit; }
   padding: var(--espace-6) 0;
   font-size: var(--texte-secondaire);
   color: var(--encre-douce);
+}
+
+/*
+  Couleurs des catégories de vente. Nommées par l'usage (DESIGN_SYSTEM de
+  Sentiers). Les marqueurs de la carte sont du HTML et prennent les mêmes
+  classes `cat-N` : une seule source (CLAUDE.md §4ter).
+
+  Jamais seules : chaque pastille est accompagnée de son libellé en clair.
+  Contraste visé : 3:1 contre le papier (WCAG 1.4.11, élément graphique),
+  non encore mesuré par un test — S6.
+*/
+:root {
+  --cat-1: #2e7d32; /* acheter et consommer sur place */
+  --cat-2: #1d5f9a; /* acheter seulement */
+  --cat-3: #5f6368; /* pas de vente */
+  --cat-0: #a35200; /* à confirmer */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cat-1: #7bc67e;
+    --cat-2: #7fb6e8;
+    --cat-3: #b0b4b8;
+    --cat-0: #f0a050;
+  }
+}
+
+.filtres {
+  display: grid;
+  gap: var(--espace-6);
+  margin: var(--espace-7) 0;
+}
+
+.champ { display: grid; gap: var(--espace-2); }
+
+.champ input[type='search'] {
+  font: inherit;
+  padding: var(--espace-4) var(--espace-6);
+  min-height: 44px;
+  border: 1px solid var(--encre-douce);
+  border-radius: var(--rayon-md);
+  background: var(--blanc-carte);
+  color: var(--encre);
+}
+
+.champ input[type='range'] { min-height: 44px; width: 100%; }
+
+.categories {
+  border: 1px solid var(--gris-vert-clair);
+  border-radius: var(--rayon-md);
+  padding: var(--espace-4) var(--espace-6);
+  margin: 0;
+  display: grid;
+  gap: var(--espace-2);
+}
+
+.case {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-4);
+  min-height: 44px;
+}
+
+.case input { width: 22px; height: 22px; margin: 0; }
+
+.pastille {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.cat-0 .pastille { background: var(--cat-0); }
+.cat-1 .pastille { background: var(--cat-1); }
+.cat-2 .pastille { background: var(--cat-2); }
+.cat-3 .pastille { background: var(--cat-3); }
+
+.compte { font-weight: 600; margin: var(--espace-4) 0; }
+
+.vues { display: grid; gap: var(--espace-7); }
+
+.carte {
+  height: 45vh;
+  min-height: 260px;
+  border-radius: var(--rayon-md);
+  overflow: hidden;
+  border: 1px solid var(--gris-vert-clair);
+}
+
+.carte-attente, .carte-absente {
+  display: grid;
+  place-items: center;
+  padding: var(--espace-7);
+  text-align: center;
+  color: var(--encre-douce);
+  background: var(--blanc-carte);
+}
+
+.liste { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--espace-4); }
+
+.ligne {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  display: grid;
+  gap: var(--espace-2);
+  padding: var(--espace-6);
+  min-height: 44px;
+  border: 1px solid var(--gris-vert-clair);
+  border-radius: var(--rayon-md);
+  background: var(--blanc-carte);
+  cursor: pointer;
+}
+
+.ligne[aria-pressed='true'] {
+  border-color: var(--encre);
+  box-shadow: 0 0 0 2px var(--encre);
+}
+
+.ligne-nom { font-weight: 600; }
+.ligne-lieu { color: var(--encre-douce); font-size: var(--texte-secondaire); }
+.ligne-note { font-size: var(--texte-secondaire); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espace-4);
+  font-size: var(--texte-secondaire);
+}
+
+@media (min-width: 900px) {
+  .page { max-width: 72rem; }
+  .vues { grid-template-columns: 1fr 1fr; align-items: start; }
+  .carte { height: 70vh; position: sticky; top: var(--espace-7); }
+}
+
+/* Marqueurs de la carte : des boutons HTML (voir `Carte.tsx`, en-tête). */
+.marqueur {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  padding: 0;
+  cursor: pointer;
+}
+.marqueur.cat-0 { background: var(--cat-0); }
+.marqueur.cat-1 { background: var(--cat-1); }
+.marqueur.cat-2 { background: var(--cat-2); }
+.marqueur.cat-3 { background: var(--cat-3); }
+.marqueur[aria-pressed='true'] { outline: 3px solid var(--encre); outline-offset: 2px; }
+
+.marqueur-groupe {
+  width: 34px;
+  height: 34px;
+  background: #1e2b23;
+  color: #fff;
+  font: 600 0.85rem var(--font-sans);
+}
+
+.marqueur-origine {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #1e2b23;
 }

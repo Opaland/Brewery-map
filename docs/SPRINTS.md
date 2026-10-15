@@ -19,8 +19,8 @@ durée se relève sur l'horodatage des commits.
 
 | Sprint | Budget tokens | Durée cible | Consommé (relevé) | État |
 |---|---:|---:|---:|---|
-| S1 | 375 k | 1 h 30 | ≈ 230 k (audit compris) | suspendu : Pages à activer, merge |
-| S2 | 500 k | 2 h | — | à venir |
+| S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
+| S2 | 500 k | 2 h | ≈ 175 k (dont revues : 59 k) | critères tenus ; CI de la PR et page publiée à vérifier |
 | S3 | 500 k | 2 h | — | à venir |
 | S4 | 500 k | 2 h | — | à venir |
 | S5 | 375 k | 1 h 30 | — | à venir |
@@ -59,7 +59,13 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
    GitHub Actions) dans les réglages du dépôt — action de Cédric. La sonde de
    la page publiée ne tourne que dans le workflow : Chromium ne sort pas du
    conteneur (mesuré sur Sentiers le 27/08).
-9. **État final et restes.** **Suspendu — en attente de Cédric** (15/10).
+9. **État final et restes.** **Terminé le 15/10.** PR #1 mergée
+   (`31cbd21`) ; run « CI et déploiement » n° 5 sur `main` : porte,
+   déploiement et sonde `page-publiee` verts. Page
+   https://opaland.github.io/Brewery-map/ : 200, titre attendu, les deux
+   assets en 200 (relevé `curl` depuis le conteneur).
+
+   *Historique — suspendu le 15/10 en attente de Cédric :*
    - Fait et vérifié : porte locale verte (lint, `tsc -b`, 14 tests
      unitaires, build, 4 e2e + 1 sautée) ; build rouge sur ligne invalide,
      vu rouge sans la validation ; les 166 lignes réelles passent le schéma ;
@@ -107,11 +113,54 @@ Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 6. **Durée estimée.** 2 h.
 7. **Exclus.** Fiche détaillée, types de bière, hors-ligne, clustering si
    les mesures ne le justifient pas.
-8. **Risques et dépendances.** **Bloquant : `data/breweries.json` n'existe
-   dans aucun dépôt accessible (audit du 15/10).** Sans lui, S2 ne commence
-   pas. Le sens de certains champs (`d`, `km`, `note`) est inconnu tant que
-   le fichier n'est pas lu.
-9. **État final et restes.** —
+8. **Risques et dépendances.** Levé : `data/breweries.json` fourni le 15/10.
+   Décisions de Cédric au go : distances calculées par l'application,
+   marqueurs groupés.
+9. **État final et restes.** Critères de sortie tenus en local le 15/10 :
+   les 166 lignes passent le schéma (et l'unicité des noms, ajoutée) ;
+   `decouverte.spec.ts` trouve une brasserie par commune sans toucher la
+   carte ; les quatre catégories sont nommées en clair et filtrent ; porte
+   verte (lint, `tsc -b`, 31 tests unitaires, build, 16 e2e + 1 sauté).
+   Reste : CI verte sur la PR, puis sonde de la page publiée après merge.
+
+   **Revue de persona — Marie** (agent `relecteur-de-persona`, 22 k tokens) :
+   aucun bloquant. Gênants : « À confirmer » sans raison dans la liste (101
+   lignes sur 166) → **corrigé**, la raison (`note`) s'affiche, test vu
+   rouge sans elle ; « Lyon » absent de l'exemple de recherche → **corrigé** ;
+   distances comptées depuis Brignais alors qu'elle pense « près de Lyon » →
+   **laissé** : l'origine par défaut est fixée par le cahier des charges,
+   « autour de moi » arrive en S4. Non prouvé : les cibles de 44 px (aucun
+   test ne les mesure → S6).
+
+   **Revue adverse** (agent `relecteur-adverse`, 37 k tokens) :
+   - « st etienne » ne trouvait pas « Saint-Étienne », « brassin » ne
+     trouvait pas « Le Brass'in » → **corrigé** (alias st/ste, forme collée
+     des apostrophes), tests vus rouges avant ;
+   - la carte se recentrait à chaque frappe → **corrigé** ;
+   - rien n'imposait l'unicité des noms, dont dépend la sélection →
+     **ajouté au schéma**, test vu rouge avant ;
+   - un groupe qui ne se sépare pas au zoom max n'ouvre que sa première
+     brasserie → **non atteignable avec ces données** : seules les
+     coordonnées identiques restent groupées (paires voisines toutes à
+     plus de 640 m, rayon de groupe ≈ 240 m au zoom 14), écrit dans le
+     code ;
+   - une brasserie choisie à l'intérieur d'un groupe n'a pas de retour
+     visuel sur la carte → BACKLOG.
+
+   Mesures et constats relevés :
+   - **Web Worker non retenu** : `rechercher` sur les 166 lignes coûte
+     0,33 ms par appel (Node, conteneur 4 cœurs, 2 000 appels après 200 de
+     chauffe, le 15/10). Sur un téléphone ancien, l'écart n'est pas mesuré ;
+     même à 20 fois plus lent, on resterait sous une image (16 ms) — c'est
+     une estimation, pas une mesure.
+   - **Raté du jour, attrapé par une capture et non par un test** : la carte
+     s'affichait sans aucun marqueur (couche de texte sans police, puis
+     worker MapLibre introuvable après bundling) alors que le test « la carte
+     se dessine » était vert — il ne regardait que le canvas (§1bis). Les
+     tests comptent maintenant les marqueurs ; ils ont été vus rouges sur ce
+     défaut réel (attendu 44, reçu 0).
+   - Tests vus rouges sans leur correctif : distance sans lire `km` ; repli
+     sans WebGL ; aucun hôte tiers hors tuiles OSM.
 
 ## S3 — Fiches et types de bière
 
