@@ -106,7 +106,7 @@ test.describe('trouver une brasserie (Marie)', () => {
 
   test('choisir une ligne la marque comme choisie', async ({ page }) => {
     await page.goto('/')
-    const premiere = lignes(page).first().getByRole('button')
+    const premiere = lignes(page).first().locator('button.ligne')
     await expect(premiere).toHaveAttribute('aria-expanded', 'false')
     await premiere.click()
     await expect(premiere).toHaveAttribute('aria-expanded', 'true')

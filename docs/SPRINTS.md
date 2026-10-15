@@ -27,7 +27,8 @@ durée se relève sur l'horodatage des commits.
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
 | S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
-| S8 | 180 k | — | non relevé précisément (revues comprises) | code prêt, PR à ouvrir |
+| S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
+| S9 | 180 k | — | non relevé précisément (revues : 77 k) | code prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -484,7 +485,7 @@ sprints avec revue + revue globale »).
 
 ---
 
-## S8 — Point de départ et « autour de moi » *(terminé le 15/10 — code)*
+## S8 — Point de départ et « autour de moi » *(terminé le 15/10)*
 
 1. **Objectif.** Compter les distances depuis Brignais, depuis sa position
    (sur action) ou depuis une commune des données — « plus loin que
@@ -523,3 +524,56 @@ sprints avec revue + revue globale »).
    - **Reste** : les données s'arrêtent à 100 km de Brignais (S14) ; le
      zoom 14, une tuile couvre environ 1,7 km de côté à la latitude de Lyon (40 075 km × cos 45,9° ÷ 2¹⁴) — c'est le
      prix d'une carte en ligne, dit à l'écran, pas supprimé.
+
+## S9 — Favoris et préférences *(terminé le 15/10 — code ; page publiée à sonder)*
+
+1. **Objectif.** Retrouver d'une visite à l'autre ses brasseries préférées
+   et ses réglages, sans compte et sans que rien parte de l'appareil.
+2. **Périmètre.** `core/preferences.ts` (schéma Zod de ce qui est gardé,
+   relu tout ou rien ; la position n'est **jamais** gardée : « autour de
+   moi » redevient Brignais) ; `stockage.ts` (IndexedDB, une clé ; repli
+   sans stockage, dit à l'écran) ; favoris par nom, bouton dans la fiche,
+   étoile sur la ligne ; « seulement mes favoris » ; favoris cachés par la
+   distance ou les filtres nommés ; « Effacer favoris et réglages ».
+3. **Critères de sortie.** Favori et réglages retrouvés après
+   rechargement ; position absente du stockage ; sans IndexedDB
+   l'application marche et le dit ; tests vus rouges par mutation ; revues
+   code et métier faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Marie.
+5. **Vu en route.** Les tests e2e ont rougi au hasard : un rechargement
+   partait avant la fin de l'écriture IndexedDB. Ils attendent désormais que
+   le stockage contienne la valeur voulue (35/35 sur cinq passages). Une
+   ligne ouverte porte maintenant deux boutons : un test de S2 qui visait
+   « le » bouton de la ligne a été précisé.
+6. **État final et restes.** Revues faites, corrections appliquées le
+   15/10 :
+   - **Revue code** — corrigé :
+     - « Effacer » n'effaçait rien : l'effet de sauvegarde réécrivait
+       aussitôt les valeurs par défaut, et le test attendait cette
+       réécriture. On n'écrit plus que ce qui diffère de ce qui est gardé ;
+       le test exige un stockage **vide** (vu rouge en remettant l'écriture
+       systématique).
+     - Le test « la position n'est jamais gardée » lisait l'écriture
+       d'avant le clic : il passait avec la position stockée. Un réglage
+       témoin changé après le clic le fait attendre la bonne écriture
+       (vu rouge 3 fois sur 3 avec la position stockée).
+     - Relecture tout ou rien : un seul champ périmé coûtait tous les
+       favoris. Relecture champ par champ ; favoris dédoublonnés plutôt que
+       perdus ; rien n'est réécrit au simple chargement.
+     - Favoris disparus des données : dits, et retirables d'un bouton.
+     - Focus perdu en retirant un favori en mode « seulement » : posé sur
+       le compte, qui annonce le retrait.
+     - `aria-pressed` avec un libellé qui change : retiré, le libellé dit
+       l'action.
+     - `indexedDB.open` sans réponse donnait une page blanche : repli sans
+       stockage après 2 s (seuil de présentation, justifié dans
+       `stockage.ts`) ; fermeture sur `versionchange`.
+   - **Revue métier (Marie)** — corrigé : la ligne de compte dit « Seulement
+     vos favoris » et, si la liste est vide, comment en sortir ; effacer se
+     confirme ; l'étoile prend la couleur du texte (l'or mesurait 2,27:1 sur
+     blanc, sous les 3:1 de WCAG 1.4.11) ; un message dit chaque ajout,
+     retrait et effacement.
+   - **Reste** (BACKLOG) : deux onglets s'écrasent ; bouton favori dans la
+     fiche seulement ; longueur du bloc de filtres ; message des favoris
+     cachés sans limite.
+

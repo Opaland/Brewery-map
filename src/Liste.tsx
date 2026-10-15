@@ -19,6 +19,8 @@ interface Props {
   resultats: readonly Resultat[]
   selection: string | null
   onChoisir: (nom: string) => void
+  favoris: ReadonlySet<string>
+  onBasculerFavori: (nom: string) => void
 }
 
 const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`
@@ -27,10 +29,27 @@ const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`
  * La fiche détaillée, dépliée sous sa ligne. Pas de fenêtre par-dessus : sur
  * un téléphone, la liste reste le fil, et le retour est le même geste.
  */
-function Fiche({ brasserie }: { brasserie: Brasserie }) {
+function Fiche({
+  brasserie,
+  favori,
+  onBasculerFavori,
+}: {
+  brasserie: Brasserie
+  favori: boolean
+  onBasculerFavori: () => void
+}) {
   const hote = hoteDeSource(brasserie.src)
   return (
     <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
+      <div className="depart-actions">
+        {/*
+          Le libellé dit l'action, sans `aria-pressed` : les deux ensemble
+          s'annonçaient « Retirer…, activé », contradictoire (revue code S9).
+        */}
+        <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
+          {favori ? '★ Retirer de mes favoris' : '☆ Ajouter à mes favoris'}
+        </button>
+      </div>
       <Contact brasserie={brasserie} />
       <Horaires brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
@@ -68,7 +87,7 @@ function Fiche({ brasserie }: { brasserie: Brasserie }) {
   )
 }
 
-export function Liste({ resultats, selection, onChoisir }: Props) {
+export function Liste({ resultats, selection, onChoisir, favoris, onBasculerFavori }: Props) {
   const liste = useRef<HTMLOListElement>(null)
 
   // La ligne choisie et sa fiche dépliée sont amenées à l'écran — depuis la
@@ -89,6 +108,7 @@ export function Liste({ resultats, selection, onChoisir }: Props) {
     >
       {resultats.map(({ brasserie, distanceKm }) => {
         const ouverte = selection === brasserie.n
+        const favori = favoris.has(brasserie.n)
         return (
           <li key={brasserie.n} className={ouverte ? 'ouverte' : undefined}>
             <button
@@ -101,7 +121,16 @@ export function Liste({ resultats, selection, onChoisir }: Props) {
                 onChoisir(brasserie.n)
               }}
             >
-              <span className="ligne-nom">{brasserie.n}</span>
+              <span className="ligne-nom">
+                {brasserie.n}
+                {favori && (
+                  <span className="ligne-favori" data-testid="marque-favori">
+                    {' '}
+                    <span aria-hidden="true">★</span>
+                    <span className="lecteur-seul">(favori)</span>
+                  </span>
+                )}
+              </span>
               <span className="ligne-lieu">
                 {brasserie.c} ({brasserie.d}) · {formaterDistance(distanceKm)}
               </span>
@@ -124,7 +153,15 @@ export function Liste({ resultats, selection, onChoisir }: Props) {
                 {brasserie.note}
               </span>
             </button>
-            {ouverte && <Fiche brasserie={brasserie} />}
+            {ouverte && (
+              <Fiche
+                brasserie={brasserie}
+                favori={favori}
+                onBasculerFavori={() => {
+                  onBasculerFavori(brasserie.n)
+                }}
+              />
+            )}
           </li>
         )
       })}

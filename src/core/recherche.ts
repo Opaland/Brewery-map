@@ -10,6 +10,8 @@ export interface Criteres {
   categories: readonly Categorie[]
   /** Un type de bière proposé ; absent = tous. */
   type?: TypeDeBiere
+  /** Ne garder que ces noms (« mes favoris seulement », S9) ; absent = tous. */
+  seulement?: ReadonlySet<string>
 }
 
 export interface Resultat {
@@ -72,6 +74,7 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
   const resultats: Resultat[] = []
   for (const brasserie of brasseries) {
     if (!categories.has(brasserie.cat)) continue
+    if (criteres.seulement !== undefined && !criteres.seulement.has(brasserie.n)) continue
     if (criteres.type !== undefined && !brasserie.beers.some((b) => b.type === criteres.type)) continue
     if (mots.length > 0) {
       const texte = cible(brasserie)
@@ -82,4 +85,19 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
     resultats.push({ brasserie, distanceKm: d })
   }
   return resultats.sort((a, b) => a.distanceKm - b.distanceKm)
+}
+
+/**
+ * Les favoris encore dans les données que les filtres en cours cachent : la
+ * liste le dit, plutôt que de laisser croire qu'un favori a disparu (S9).
+ * Un favori absent des données n'est pas compté ici.
+ */
+export function favorisCaches(
+  brasseries: readonly Brasserie[],
+  favoris: readonly string[],
+  resultats: readonly Resultat[],
+): string[] {
+  const connus = new Set(brasseries.map((b) => b.n))
+  const montres = new Set(resultats.map((r) => r.brasserie.n))
+  return favoris.filter((f) => connus.has(f) && !montres.has(f))
 }

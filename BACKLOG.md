@@ -48,6 +48,19 @@ chacun demande une décision ou une vérification de source.
 - Scripts de garde de Sentiers non repris (`listes`, `textes`, `chemins`) :
   à reprendre si un raté de la même famille se produit ici.
 
+- Favoris (S9) : deux onglets ouverts s'écrasent — chacun réécrit l'objet
+  entier depuis sa mémoire ; un favori ajouté dans l'un disparaît si l'autre
+  écrit ensuite (revue code S9, déduit du code, non exercé).
+- Favoris (S9) : le bouton n'est que dans la fiche dépliée ; l'étoile de la
+  ligne n'est pas un bouton. À juger avec Inès (S18) : un second bouton par
+  ligne double le nombre d'arrêts au clavier (revue Marie S9).
+- Filtres : le bloc s'allonge à chaque sprint (départ, recherche, distance,
+  catégories, type, favoris) et repousse la liste ; hauteur non mesurée sur
+  téléphone — à mesurer en S18/S20 (revue Marie S9).
+- Favoris cachés : le message liste tous les noms sans limite et ne dit pas
+  quel filtre les cache ; hors du mode « seulement », un favori hors rayon
+  n'est pas signalé (revue Marie S9).
+
 ## Lots de curation non faits
 
 *(rempli en S5)*
