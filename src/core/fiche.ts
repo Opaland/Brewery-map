@@ -23,19 +23,31 @@ export function libelleConfiance(conf: Brasserie['conf']): string {
 }
 
 /**
- * Ce que chaque niveau veut dire. Définition **proposée le 15/10 à partir des
- * textes du fichier**, à valider par Cédric : elle décrit la qualité de la
- * preuve, pas une probabilité (cahier des charges §1.3). Voir docs/DONNEES.md.
+ * Ce que chaque niveau veut dire. Définition **proposée à partir des textes du
+ * fichier**, à valider par Cédric : elle décrit la qualité de la preuve sur la
+ * catégorie, pas une probabilité (cahier des charges §1.3). Voir
+ * docs/DONNEES.md.
+ *
+ * Corrigée le 15/10 après la revue métier de S3 : la première version disait
+ * « avec des horaires » pour `solide`, ce que cinq lignes du fichier
+ * démentent (« heures non précisées », « horaires non publiés »…). Aucun
+ * niveau ne parle donc des horaires : ils ne sont que dans la justification.
  */
 export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
-  solide:
-    'Une source qui décrit directement le lieu (site de la brasserie, office de tourisme) dit ce qu’on peut y faire, avec des horaires.',
-  moyenne:
-    'Une source cite la vente ou l’accueil, mais sans tout préciser (horaires partiels, source secondaire).',
+  solide: 'La source décrit précisément ce qu’on peut faire sur place.',
+  moyenne: 'La source cite la vente ou l’accueil, avec des réserves ou des manques.',
   faible:
-    'La catégorie est déduite ou repose sur une source ancienne ou indirecte : à vérifier avant de se déplacer.',
+    'La catégorie est déduite, probable, ou tirée d’une source ancienne ou indirecte.',
   '': 'Aucune source n’établit ce qu’on peut y faire.',
 }
+
+/**
+ * Affiché sous toute confiance : elle porte sur la catégorie, jamais sur les
+ * horaires. La revue métier de S3 a montré qu’« élevée » pouvait être lu
+ * comme « ouvert samedi, c’est sûr ».
+ */
+export const AVERTISSEMENT_HORAIRES =
+  'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.'
 
 export function libellePrecision(precision: Brasserie['coordPrecision']): string {
   return precision === 'commune'

@@ -1,6 +1,22 @@
 import { expect, test, type Page } from '@playwright/test'
 import { sansTuiles } from './reseau'
 
+/**
+ * La fiche est-elle **peinte**, et pas seulement présente ? `toBeVisible`
+ * accepte un élément écrêté par un ancêtre qui défile (CLAUDE.md §1bis,
+ * revue code S3). On demande donc ce qui est au centre de l'élément, après
+ * l'avoir amené à l'écran.
+ */
+async function estPeint(page: Page, testId: string): Promise<boolean> {
+  const el = page.getByTestId(testId)
+  await el.scrollIntoViewIfNeeded()
+  return el.evaluate((cible) => {
+    const r = cible.getBoundingClientRect()
+    const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+    return vu !== null && cible.contains(vu)
+  })
+}
+
 const ligne = (page: Page, nom: RegExp) =>
   page.getByTestId('liste').getByRole('button', { name: nom })
 
@@ -24,7 +40,13 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
     await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
 
-    await expect(fiche.getByTestId('fiche-confiance')).toContainText('élevée')
+    await expect.poll(() => estPeint(page, 'fiche-source')).toBe(true)
+    // Le libellé lui-même, sans l'aide qui le suit (§1bis : `toContainText`
+    // lirait aussi l'aide).
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText(/^élevée/)
+    await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
+      'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.',
+    )
     await expect(fiche.getByTestId('fiche-precision')).toHaveText(
       'approximative : centre de la commune, à environ 2 km près',
     )
@@ -48,6 +70,16 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
     await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveCount(0)
     await expect(fiche.getByTestId('fiche-confiance')).toContainText('non évaluée')
+  })
+
+  test('choisie sur la carte, sa fiche s’ouvre et vient à l’écran', async ({ page }) => {
+    await page.getByTestId('recherche').fill('oullins')
+    await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').click()
+    await expect(page.getByTestId('fiche')).toHaveCount(1)
+    await expect.poll(() => page.getByTestId('fiche').evaluate((el) => {
+      const r = el.getBoundingClientRect()
+      return r.top < window.innerHeight && r.bottom > 0
+    })).toBe(true)
   })
 
   test('un second toucher referme la fiche', async ({ page }) => {

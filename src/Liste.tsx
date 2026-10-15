@@ -1,6 +1,8 @@
+import { useEffect, useRef } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
 import {
+  AVERTISSEMENT_HORAIRES,
   hoteDeSource,
   libelleConfiance,
   libellePrecision,
@@ -48,6 +50,9 @@ function Fiche({ brasserie }: { brasserie: Brasserie }) {
         <dd data-testid="fiche-confiance">
           {libelleConfiance(brasserie.conf)}
           <span className="fiche-aide">{SENS_CONFIANCE[brasserie.conf]}</span>
+          <span className="fiche-aide" data-testid="fiche-avertissement">
+            {AVERTISSEMENT_HORAIRES}
+          </span>
         </dd>
 
         <dt>Position sur la carte</dt>
@@ -58,8 +63,24 @@ function Fiche({ brasserie }: { brasserie: Brasserie }) {
 }
 
 export function Liste({ resultats, selection, onChoisir }: Props) {
+  const liste = useRef<HTMLOListElement>(null)
+
+  // La ligne choisie et sa fiche dépliée sont amenées à l'écran — depuis la
+  // carte surtout. Viser le bouton seul laissait la fiche, rendue juste
+  // après, hors champ sur un petit écran (revue code S3).
+  useEffect(() => {
+    if (selection === null) return
+    const ligne = liste.current?.querySelector('li.ouverte')
+    ligne?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+  }, [selection])
+
   return (
-    <ol className="liste" aria-label="Brasseries, de la plus proche à la plus lointaine" data-testid="liste">
+    <ol
+      ref={liste}
+      className="liste"
+      aria-label="Brasseries, de la plus proche à la plus lointaine"
+      data-testid="liste"
+    >
       {resultats.map(({ brasserie, distanceKm }) => {
         const ouverte = selection === brasserie.n
         return (

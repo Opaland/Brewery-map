@@ -1,4 +1,4 @@
-import { lazy, Suspense, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useMemo, useState } from 'react'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { BRIGNAIS } from './core/distance'
@@ -25,7 +25,6 @@ export function App() {
   const [rayonKm, setRayonKm] = useState(RAYON_INITIAL_KM)
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
-  const listeRef = useRef<HTMLDivElement>(null)
 
   const resultats = useMemo(
     () => rechercher(BRASSERIES, { origine: BRIGNAIS, rayonKm, texte, categories }),
@@ -38,10 +37,11 @@ export function App() {
     )
   }
 
+  // La carte choisit toujours (pas de bascule) : re-toucher un marqueur
+  // laisse sa fiche ouverte. C'est la liste qui referme. La mise à l'écran
+  // de la fiche est faite par la liste elle-même.
   const choisirDepuisLaCarte = (nom: string) => {
     setSelection(nom)
-    const element = listeRef.current?.querySelector(`[data-nom="${CSS.escape(nom)}"]`)
-    element?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
   }
 
   return (
@@ -119,7 +119,7 @@ export function App() {
             onChoisir={choisirDepuisLaCarte}
           />
         </Suspense>
-        <div ref={listeRef} className="liste-conteneur">
+        <div className="liste-conteneur">
           <Liste
             resultats={resultats}
             selection={selection}

@@ -22,7 +22,7 @@ durée se relève sur l'horodatage des commits.
 | S1 | 375 k | 1 h 30 | ≈ 245 k (audit compris) | **terminé** le 15/10 |
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
-| S3 | 180 k | — | voir §S3 | en cours |
+| S3 | 180 k | — | ≈ 95 k (dont revues : 56 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -291,4 +291,30 @@ n'a pas été mesurée.
 5. **Budget.** 180 k tokens.
 6. **Exclus.** Téléphone, site, Untappd (S4), types de bière (S5), horaires
    structurés (S6).
-7. **État final et restes.** *(à la clôture)*
+7. **État final et restes.** *(revues faites, corrections appliquées ; CI,
+   merge et page publiée restent à vérifier)*
+
+   **Revue métier — Cédric** (agent, 27 k tokens) : aucun bloquant.
+   - **Corrigé** : la définition de « élevée » promettait des horaires, ce
+     que cinq lignes `solide` démentent ; nouvelle définition sans horaires,
+     et un avertissement sous chaque confiance (« la confiance ne garantit
+     pas les horaires »), testé.
+   - **Données, non modifiées** (§0) : trois lignes en catégorie 1
+     contredites par leur propre justification (Val d'Ainan, L'Etincelle,
+     Bière bio des Monts d'Or) → BACKLOG D9, priorité du lot S12 ;
+     justifications datées → D10.
+   - Fraîcheur : `verifieLe` absent partout, la fiche le dit ; rempli par la
+     curation.
+
+   **Revue code** (agent, 29 k tokens) : aucun bloquant.
+   - **Corrigé** : choisie depuis la carte, la fiche pouvait s'ouvrir hors
+     champ (on faisait défiler le bouton, pas la ligne dépliée) ; test
+     ajouté.
+   - **Corrigé** : le test de la fiche reposait sur `toBeVisible` et
+     `toContainText`, que §1bis déconseille ; il demande maintenant ce qui
+     est peint (`elementFromPoint`) et lit le libellé seul.
+   - Choix documenté dans le code : la carte ouvre toujours, seule la liste
+     referme.
+   - Vérifié sans défaut : `hoteDeSource` ne peut pas lever sur une source
+     validée ; `z.iso.date()` refuse les dates que `new Date` décalerait ;
+     exhaustivité des libellés imposée par le typage ; ids uniques.

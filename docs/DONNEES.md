@@ -20,16 +20,22 @@ Une catégorie 1 à 3 exige une source (`src` non vide) : le schéma le vérifie
 Qualité de la preuve, **pas une probabilité**. Le fichier dit `solide`,
 l'interface dit « élevée » (décision de Cédric, 15/10).
 
-| Valeur | Affiché | Sens — *définition proposée le 15/10, à valider par Cédric* |
+| Valeur | Affiché | Sens — *définition proposée, à valider par Cédric* |
 |---|---|---|
-| `solide` | élevée | une source qui décrit directement le lieu (site de la brasserie, office de tourisme) dit ce qu'on peut y faire, avec des horaires |
-| `moyenne` | moyenne | une source cite la vente ou l'accueil sans tout préciser (horaires partiels, source secondaire) |
-| `faible` | faible | catégorie déduite, ou source ancienne ou indirecte : à vérifier avant de se déplacer |
+| `solide` | élevée | la source décrit précisément ce qu'on peut faire sur place |
+| `moyenne` | moyenne | la source cite la vente ou l'accueil, avec des réserves ou des manques |
+| `faible` | faible | catégorie déduite, probable, ou tirée d'une source ancienne ou indirecte |
 | *(vide)* | non évaluée | catégorie 0 uniquement : aucune preuve retenue |
 
-La définition est tirée de la lecture des textes `note` du fichier : les
-lignes `faible` disent « déduite » ou « non vérifiée », les lignes `solide`
-citent des horaires. Elle n'a pas été donnée par l'auteur du fichier.
+**La confiance porte sur la catégorie, jamais sur les horaires.** La fiche
+le dit sous chaque confiance. La première définition (15/10) disait « avec
+des horaires » pour `solide` ; la revue métier de S3 a trouvé cinq lignes
+`solide` qui le démentent (L'Ours qui brasse « heures non précisées », Pleine
+Lune « horaires non publiés », Les Bières du Temps, Chambaran, Archimalt).
+Elle a été corrigée le jour même.
+
+La définition est tirée de la lecture des textes `note` ; elle n'a pas été
+donnée par l'auteur du fichier.
 
 ## Justification (`note`)
 
