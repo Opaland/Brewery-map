@@ -28,6 +28,7 @@
     "build",
     "src/core",
     "src/Contact.tsx",
+    "src/Bieres.tsx",
     "tests"
   ]
 }

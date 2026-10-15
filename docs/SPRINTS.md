@@ -23,7 +23,8 @@ durée se relève sur l'horodatage des commits.
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
-| S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | en cours |
+| S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | code mergé (#4), page publiée à vérifier |
+| S5 | 180 k | — | voir §S5 | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -357,3 +358,23 @@ n'a pas été mesurée.
      compte tous les liens http. Documenté et inscrit au BACKLOG : numéros
      d'outre-mer non gérés (aucun dans le fichier).
    - Porte : 51 tests unitaires, 23 e2e. Reste : CI, merge, page publiée.
+
+---
+
+## S5 — Types de bière *(en cours)*
+
+1. **Objectif.** Dire quelles bières une brasserie propose, avec un lien
+   quand il existe, et filtrer par type en mots simples.
+2. **Périmètre.** Section « Ses bières » dans la fiche : lien vers la page
+   de la bière, sinon fiche d'annuaire de la brasserie, sinon « non
+   référencé » ; chaque type expliqué (« IPA — très houblonnée, plus
+   amère ») ; filtre par type qui ne propose que les types présents, et le
+   dit quand il n'y en a aucun.
+3. **Critères de sortie.** Ordre des liens testé ; types affichés et schéma
+   d'accord (test) ; filtre testé ; aucune bière inventée ; revues code et
+   métier faites et corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Karim.
+5. **Données.** Aucune brasserie n'a de bière au 15/10 : la fiche dit « non
+   référencés », le filtre dit qu'il est vide. Les types se rempliront par
+   la curation (S12 et suivants), avec l'accord de Cédric.
+6. **État final et restes.** *(à la clôture)*

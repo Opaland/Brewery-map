@@ -88,6 +88,16 @@ test.describe('trouver une brasserie (Marie)', () => {
     await expect(lignes(page).filter({ hasNotText: 'Pas de vente' })).toHaveCount(0)
   })
 
+  test('le filtre par type dit qu’il est vide plutôt que de vider la liste', async ({ page }) => {
+    const nbAvecBieres = DONNEES.filter((b) => b.beers.length > 0).length
+    test.skip(nbAvecBieres > 0, 'des types sont référencés : ce cas ne se présente plus')
+    await page.goto('/')
+    await expect(page.getByTestId('type-absent')).toContainText(
+      'aucune brasserie n’a encore ses types référencés',
+    )
+    await expect(page.getByTestId('type')).toHaveCount(0)
+  })
+
   test('dit quand rien ne correspond', async ({ page }) => {
     await page.goto('/')
     await page.getByTestId('recherche').fill('zzzz')

@@ -77,6 +77,14 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
   })
 
+  test('sans bière référencée, la fiche le dit', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await ligne(page, /Caribrew/).click()
+    await expect(page.getByTestId('fiche').getByTestId('fiche-bieres')).toHaveText(
+      'Types de bière : non référencés pour l’instant.',
+    )
+  })
+
   test('sans source, elle le dit, sans rien inventer', async ({ page }) => {
     await page.getByTestId('recherche').fill('oullins')
     await ligne(page, /Bulles d'Orge/).click()

@@ -297,3 +297,20 @@ a { color: inherit; }
   white-space: nowrap;
   border: 0;
 }
+
+.fiche-bieres { margin-bottom: var(--espace-6); }
+.fiche-bieres p { margin: 0; }
+.fiche-bieres ul { margin: var(--espace-2) 0 0; padding-left: var(--espace-8); }
+.fiche-bieres li { min-height: 32px; }
+.fiche-titre { font-weight: 600; }
+.fiche-aide-inline { color: var(--encre-douce); font-size: var(--texte-secondaire); }
+.champ-aide { margin: 0; color: var(--encre-douce); font-size: var(--texte-secondaire); }
+.champ select {
+  font: inherit;
+  min-height: 44px;
+  padding: var(--espace-4);
+  border: 1px solid var(--encre-douce);
+  border-radius: var(--rayon-md);
+  background: var(--blanc-carte);
+  color: var(--encre);
+}

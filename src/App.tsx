@@ -1,4 +1,5 @@
 import { lazy, Suspense, useMemo, useState } from 'react'
+import { compterTypes, TYPES_BIERE, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { BRIGNAIS } from './core/distance'
@@ -20,15 +21,27 @@ const Carte = lazy(() => import('./Carte'))
 const RAYON_INITIAL_KM = 30
 export const RAYON_MAX_KM = 100
 
+/** Combien de brasseries proposent chaque type : calculé une fois. */
+const NB_PAR_TYPE = compterTypes(BRASSERIES)
+const TYPES_PRESENTS = TYPES_BIERE.filter((t) => (NB_PAR_TYPE.get(t.type) ?? 0) > 0)
+
 export function App() {
   const [texte, setTexte] = useState('')
   const [rayonKm, setRayonKm] = useState(RAYON_INITIAL_KM)
   const [categories, setCategories] = useState<readonly Categorie[]>(ORDRE_CATEGORIES)
   const [selection, setSelection] = useState<string | null>(null)
+  const [type, setType] = useState<TypeDeBiere | undefined>(undefined)
 
   const resultats = useMemo(
-    () => rechercher(BRASSERIES, { origine: BRIGNAIS, rayonKm, texte, categories }),
-    [rayonKm, texte, categories],
+    () =>
+      rechercher(BRASSERIES, {
+        origine: BRIGNAIS,
+        rayonKm,
+        texte,
+        categories,
+        ...(type === undefined ? {} : { type }),
+      }),
+    [rayonKm, texte, categories, type],
   )
 
   const basculer = (cat: Categorie) => {
@@ -101,6 +114,36 @@ export function App() {
             </label>
           ))}
         </fieldset>
+
+        {/*
+          Le filtre par type ne propose que les types qu'au moins une brasserie
+          déclare. Tant qu'aucune n'en déclare, il le dit au lieu d'offrir des
+          choix qui videraient la liste (S5).
+        */}
+        {TYPES_PRESENTS.length === 0 ? (
+          <p className="champ-aide" data-testid="type-absent">
+            Filtre par type de bière : aucune brasserie n’a encore ses types
+            référencés. Il se remplira avec la vérification des fiches.
+          </p>
+        ) : (
+          <label className="champ">
+            <span>Type de bière</span>
+            <select
+              value={type ?? ''}
+              onChange={(e) => {
+                setType(e.target.value === '' ? undefined : (e.target.value as TypeDeBiere))
+              }}
+              data-testid="type"
+            >
+              <option value="">Tous les types</option>
+              {TYPES_PRESENTS.map((t) => (
+                <option key={t.type} value={t.type}>
+                  {t.libelle} — {t.explication} ({NB_PAR_TYPE.get(t.type)})
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
       </section>
 
       <p className="compte" role="status" data-testid="compte">
