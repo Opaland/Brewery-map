@@ -26,7 +26,8 @@ durée se relève sur l'horodatage des commits.
 | S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données en attente) |
 | S5 | 180 k | — | ≈ 90 k (dont revues : 44 k) | **terminé** le 15/10 (code ; données absentes) |
 | S6 | 180 k | — | ≈ 110 k (dont revues : 49 k) | **terminé** le 15/10 (code ; données absentes) |
-| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | en cours |
+| S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | code mergé (#7), page publiée à vérifier |
+| S8 | 180 k | — | voir §S8 | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -480,3 +481,27 @@ sprints avec revue + revue globale »).
      première visite. Mesuré : 1,85 Mo d'assets non compressés (dont 1 Mo
      pour la carte, 0,5 Mo pour son worker) ; temps en 4G faible non
      mesuré (S20).
+
+---
+
+## S8 — Point de départ et « autour de moi » *(en cours)*
+
+1. **Objectif.** Compter les distances depuis Brignais, depuis sa position
+   (sur action) ou depuis une commune des données — « plus loin que
+   Brignais », demande de Cédric du 15/10.
+2. **Périmètre.** `core/origine.ts` (Brignais, position, commune ; la
+   position d'une commune est la moyenne de ses brasseries, dite
+   « centre approché ») ; `PointDeDepart.tsx` : bouton « Autour de moi »
+   (géolocalisation demandée au toucher seulement, refus et erreurs dits,
+   rien ne change alors), choix d'une commune sans recherche en ligne,
+   retour à Brignais ; texte de confidentialité exact (la position ne part
+   nulle part ; la carte charge les images de la zone affichée) ; repère
+   et cadre de la carte qui suivent le départ.
+3. **Critères de sortie.** Aucune requête ne contient la position (test vu
+   rouge avec une fuite injectée) ; refus → application utilisable ;
+   départ depuis une commune testé ; revues code et métier faites et
+   corrigées ; porte verte ; page publiée sondée.
+4. **Persona juge.** Léa.
+5. **Limite.** Les données s'arrêtent à 100 km de Brignais : partir de
+   plus loin ne montre que ce qui est dans le fichier ; l'élargir est S14.
+6. **État final et restes.** *(à la clôture)*
