@@ -48,10 +48,11 @@ test.describe('les favoris (Marie)', () => {
     const n = nom ?? ''
     await ligne(page, n).click()
     await page.getByTestId('bouton-favori').click()
-    await expect(page.getByTestId('bouton-favori')).toHaveAttribute('aria-pressed', 'true')
+    await expect(page.getByTestId('bouton-favori')).toHaveText('★ Retirer de mes favoris')
     await expect(ligne(page, n).getByTestId('marque-favori')).toHaveCount(1)
     await page.getByTestId('favoris-seulement').check()
     await expect(page.locator('button.ligne')).toHaveCount(1)
+    await expect(page.getByTestId('compte')).toContainText('Seulement vos favoris : 1')
     await attendreGarde(page, { favoris: [n], favorisSeulement: true })
 
     await page.reload()
@@ -80,7 +81,7 @@ test.describe('les favoris (Marie)', () => {
     await premiere.click()
     await page.getByTestId('bouton-favori').click()
     await page.getByTestId('bouton-favori').click()
-    await expect(page.getByTestId('bouton-favori')).toHaveAttribute('aria-pressed', 'false')
+    await expect(page.getByTestId('bouton-favori')).toHaveText('☆ Ajouter à mes favoris')
     await expect(page.getByTestId('marque-favori')).toHaveCount(0)
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (0)')
   })
@@ -103,7 +104,11 @@ test.describe('les réglages gardés', () => {
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
-    await attendreGarde(page, { depart: { type: 'brignais' } })
+    // Un réglage témoin changé après le clic : quand il est écrit, l'état
+    // « autour de moi » l'est aussi. Sans lui, le test lisait l'écriture
+    // d'avant le clic et passait avec la position stockée (revue code S9).
+    await page.getByTestId('rayon').fill('55')
+    await attendreGarde(page, { rayonKm: 55, depart: { type: 'brignais' } })
     expect(JSON.stringify(await lireGarde(page))).not.toMatch(/45\.9|4\.72/)
     await page.reload()
     await expect(page.getByTestId('compte')).toContainText('de Brignais')
@@ -114,13 +119,106 @@ test.describe('les réglages gardés', () => {
     await page.getByTestId('rayon').fill('80')
     await page.locator('button.ligne').first().click()
     await page.getByTestId('bouton-favori').click()
+    await attendreGarde(page, { rayonKm: 80 })
     await page.getByTestId('tout-effacer').click()
+    // Un toucher seul n'efface rien : il faut confirmer.
+    await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (1)')
+    await page.getByTestId('confirmer-effacer').click()
     await expect(page.getByTestId('compte')).toContainText('30 km de Brignais')
+    await expect(page.getByTestId('annonce')).toHaveText(/effacés de cet appareil/)
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (0)')
-    await attendreGarde(page, { rayonKm: 30, favoris: [] })
+    // Effacé veut dire absent, pas réécrit avec les valeurs par défaut.
+    await page.waitForTimeout(500)
+    expect(await lireGarde(page)).toBeUndefined()
     await page.reload()
     await expect(page.getByTestId('compte')).toContainText('30 km de Brignais')
   })
+})
+
+test.describe('un stockage qui ne correspond plus aux données', () => {
+  const ecrireGarde = (page: Page, valeur: unknown) =>
+    page.evaluate(
+      (v) =>
+        new Promise<void>((resolve, reject) => {
+          const req = indexedDB.open('mousse-de-poche', 1)
+          req.onupgradeneeded = () => {
+            req.result.createObjectStore('reglages')
+          }
+          req.onerror = () => {
+            reject(new Error('ouverture'))
+          }
+          req.onsuccess = () => {
+            const tx = req.result.transaction('reglages', 'readwrite')
+            tx.objectStore('reglages').put(v, 'preferences')
+            tx.oncomplete = () => {
+              req.result.close()
+              resolve()
+            }
+          }
+        }),
+      valeur,
+    )
+
+  test('un champ périmé ne coûte pas les favoris', async ({ page }) => {
+    await page.goto('/')
+    const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''
+    await ecrireGarde(page, {
+      version: 1,
+      rayonKm: 40,
+      categories: [0, 1, 2, 3],
+      type: 'style-retire',
+      depart: { type: 'brignais' },
+      favoris: [nom],
+      favorisSeulement: false,
+    })
+    await page.reload()
+    await expect(page.getByTestId('compte')).toContainText('40 km de Brignais')
+    await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (1)')
+    // Relire n'est pas réécrire : le stockage reste tel quel tant que rien ne change.
+    await page.waitForTimeout(500)
+    expect(await lireGarde(page)).toMatchObject({ type: 'style-retire', favoris: [nom] })
+  })
+
+  test('un favori disparu des données est dit, et se retire', async ({ page }) => {
+    await page.goto('/')
+    await ecrireGarde(page, {
+      version: 1,
+      rayonKm: 30,
+      categories: [0, 1, 2, 3],
+      depart: { type: 'brignais' },
+      favoris: ['Brasserie disparue'],
+      favorisSeulement: true,
+    })
+    await page.reload()
+    await expect(page.getByTestId('favoris-orphelins')).toContainText('Brasserie disparue')
+    await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (0)')
+    await expect(page.getByTestId('compte')).toContainText('pas encore de favori')
+    await page.getByTestId('retirer-orphelins').click()
+    await expect(page.getByTestId('favoris-orphelins')).toHaveCount(0)
+    await attendreGarde(page, { favoris: [] })
+  })
+})
+
+test('« seulement mes favoris » sans favori dit comment revoir la liste', async ({ page }) => {
+  await page.goto('/')
+  await page.getByTestId('favoris-seulement').check()
+  await expect(page.getByTestId('compte')).toContainText('Décochez « Afficher seulement mes favoris »')
+})
+
+test('retirer un favori en mode « seulement » : le focus va au compte, qui le dit', async ({
+  page,
+}) => {
+  await page.goto('/')
+  const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''
+  await ligne(page, nom).click()
+  await page.getByTestId('bouton-favori').click()
+  await page.getByTestId('favoris-seulement').check()
+  await page.getByTestId('bouton-favori').focus()
+  await page.keyboard.press('Enter')
+  await expect(page.getByTestId('annonce')).toHaveText(`« ${nom} » retirée de vos favoris.`)
+  await expect
+    .poll(() => page.evaluate(() => document.activeElement?.getAttribute('data-testid')))
+    .toBe('compte')
 })
 
 test('sans IndexedDB, l’application marche et dit que rien n’est gardé', async ({ page }) => {

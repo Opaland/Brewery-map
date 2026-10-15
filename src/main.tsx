@@ -5,8 +5,9 @@ import { App } from './App'
 import { ouvrirStockage } from './stockage'
 
 // Les réglages gardés sont lus avant le premier rendu : sinon la carte se
-// cadrerait sur les réglages par défaut, puis sauterait (S9). La promesse
-// ne rejette jamais : sans IndexedDB, l'application part sans rien garder.
+// cadrerait sur les réglages par défaut, puis sauterait (S9). `ouvrirStockage`
+// ne rejette pas et répond en 2 s au plus (`DELAI_OUVERTURE_MS`) : sans
+// IndexedDB, ou s'il ne répond pas, l'application part sans rien garder.
 const racine = document.getElementById('root')
 if (racine) {
   void ouvrirStockage().then((stockage) => {

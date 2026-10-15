@@ -23,6 +23,14 @@ describe('relire les préférences gardées', () => {
     expect(lirePreferences({ version: 99 })).toEqual(PREFERENCES_DEFAUT)
   })
 
+  it('un champ périmé ne coûte que lui-même : les favoris restent (revue code S9)', () => {
+    const base = versStockage(PREFERENCES_DEFAUT)
+    const p = lirePreferences({ ...base, rayonKm: 40, type: 'sour_inconnu', favoris: ['Nomade Brewery'] })
+    expect(p.favoris).toEqual(['Nomade Brewery'])
+    expect(p.rayonKm).toBe(40)
+    expect(p.type).toBeUndefined()
+  })
+
   it('un contenu valide est relu tel quel', () => {
     const gardees = {
       version: 1,
@@ -38,8 +46,8 @@ describe('relire les préférences gardées', () => {
 
   it('un rayon hors de la réglette est refusé, pas deviné', () => {
     const base = versStockage(PREFERENCES_DEFAUT)
-    expect(lirePreferences({ ...base, rayonKm: 150 })).toEqual(PREFERENCES_DEFAUT)
-    expect(lirePreferences({ ...base, rayonKm: 33 })).toEqual(PREFERENCES_DEFAUT)
+    expect(lirePreferences({ ...base, rayonKm: 150 }).rayonKm).toBe(PREFERENCES_DEFAUT.rayonKm)
+    expect(lirePreferences({ ...base, rayonKm: 33 }).rayonKm).toBe(PREFERENCES_DEFAUT.rayonKm)
   })
 })
 
@@ -56,7 +64,7 @@ describe('la position ne se garde jamais (Léa, S8)', () => {
   it('une position écrite à la main dans le stockage est refusée', () => {
     const base = versStockage(PREFERENCES_DEFAUT)
     const triche = { ...base, depart: { type: 'position', lat: 45.9, lon: 4.7 } }
-    expect(lirePreferences(triche)).toEqual(PREFERENCES_DEFAUT)
+    expect(lirePreferences(triche).depart).toEqual({ type: 'brignais' })
   })
 })
 
@@ -82,8 +90,8 @@ describe('les favoris', () => {
     expect(basculerFavori(un, 'Nomade Brewery')).toEqual([])
   })
 
-  it('des favoris en double dans le stockage sont refusés', () => {
+  it('des favoris en double ou illisibles sont nettoyés, pas perdus', () => {
     const base = versStockage(PREFERENCES_DEFAUT)
-    expect(lirePreferences({ ...base, favoris: ['A', 'A'] })).toEqual(PREFERENCES_DEFAUT)
+    expect(lirePreferences({ ...base, favoris: ['A', 'A', 3, '', 'B'] }).favoris).toEqual(['A', 'B'])
   })
 })

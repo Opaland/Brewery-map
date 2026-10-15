@@ -1,7 +1,8 @@
 import { z } from 'zod'
 import { ORDRE_CATEGORIES } from './categories'
 import { ORIGINE_DEFAUT, origineDeCommune, type CommuneConnue, type Origine } from './origine'
-import { categorieSchema, typeDeBiereSchema } from './schema'
+import type { TypeDeBiere } from './bieres'
+import { categorieSchema, typeDeBiereSchema, type Categorie } from './schema'
 
 /**
  * Ce que l'application garde sur l'appareil (S9) : réglages de recherche et
@@ -30,25 +31,30 @@ export type DepartGarde = z.infer<typeof departSchema>
 
 const sansDoublon = (liste: readonly unknown[]) => new Set(liste).size === liste.length
 
-const preferencesSchema = z
-  .object({
-    version: z.literal(1),
-    rayonKm: z
-      .number()
-      .int()
-      .min(RAYON.min)
-      .max(RAYON.max)
-      .refine((r) => r % RAYON.pas === 0),
-    categories: z.array(categorieSchema).refine(sansDoublon),
-    type: typeDeBiereSchema.optional(),
-    depart: departSchema,
-    /** Par nom : les noms sont uniques (`brasseriesSchema`). */
-    favoris: z.array(z.string().min(1)).refine(sansDoublon),
-    favorisSeulement: z.boolean(),
-  })
-  .strict()
+const CHAMPS = {
+  rayonKm: z
+    .number()
+    .int()
+    .min(RAYON.min)
+    .max(RAYON.max)
+    .refine((r) => r % RAYON.pas === 0),
+  categories: z.array(categorieSchema).refine(sansDoublon),
+  type: typeDeBiereSchema.optional(),
+  depart: departSchema,
+  /** Par nom : les noms sont uniques (`brasseriesSchema`). */
+  favoris: z.array(z.string().min(1)).refine(sansDoublon),
+  favorisSeulement: z.boolean(),
+}
 
-export type Preferences = z.infer<typeof preferencesSchema>
+export interface Preferences {
+  version: 1
+  rayonKm: number
+  categories: Categorie[]
+  type?: TypeDeBiere
+  depart: DepartGarde
+  favoris: string[]
+  favorisSeulement: boolean
+}
 
 export const PREFERENCES_DEFAUT: Preferences = {
   version: 1,
@@ -59,14 +65,36 @@ export const PREFERENCES_DEFAUT: Preferences = {
   favorisSeulement: false,
 }
 
+const lire = <S extends z.ZodType>(schema: S, valeur: unknown, defaut: z.infer<S>): z.infer<S> => {
+  const r = schema.safeParse(valeur)
+  return r.success ? r.data : defaut
+}
+
 /**
- * Relit ce qui a été gardé. Tout ou rien : un contenu qui ne passe pas le
- * schéma (version ancienne, stockage abîmé ou modifié à la main) rend les
- * réglages par défaut, plutôt qu'un mélange deviné champ par champ.
+ * Relit ce qui a été gardé, **champ par champ** : un champ illisible (type
+ * de bière retiré des données, valeur écrite par une autre version, stockage
+ * abîmé) reprend sa valeur par défaut, et lui seul. Revue code S9 : relu
+ * tout ou rien, un seul champ périmé coûtait tous les favoris. Rien n'est
+ * deviné : un champ vaut ce qui était gardé, ou son défaut. Les favoris en
+ * double sont dédoublonnés plutôt que perdus.
  */
 export function lirePreferences(brut: unknown): Preferences {
-  const r = preferencesSchema.safeParse(brut)
-  return r.success ? r.data : PREFERENCES_DEFAUT
+  if (typeof brut !== 'object' || brut === null) return PREFERENCES_DEFAUT
+  const g = brut as Record<string, unknown>
+  const d = PREFERENCES_DEFAUT
+  const favoris = Array.isArray(g.favoris)
+    ? [...new Set(g.favoris.filter((f): f is string => typeof f === 'string' && f !== ''))]
+    : d.favoris
+  const type = lire(CHAMPS.type, g.type, undefined)
+  return {
+    version: 1,
+    rayonKm: lire(CHAMPS.rayonKm, g.rayonKm, d.rayonKm),
+    categories: lire(CHAMPS.categories, g.categories, d.categories),
+    ...(type === undefined ? {} : { type }),
+    depart: lire(CHAMPS.depart, g.depart, d.depart),
+    favoris,
+    favorisSeulement: lire(CHAMPS.favorisSeulement, g.favorisSeulement, d.favorisSeulement),
+  }
 }
 
 /** La forme gardée : le départ y perd toujours ses coordonnées. */

@@ -12,6 +12,17 @@ const BASE = 'mousse-de-poche'
 const MAGASIN = 'reglages'
 const CLE = 'preferences'
 
+/**
+ * Au-delà, on part sans stockage plutôt que de laisser une page blanche :
+ * `indexedDB.open` peut ne jamais répondre (revue code S9, cas connu de
+ * vieux Safari). 2 s : seuil de présentation tranché au jugement (§2) — il
+ * ne change aucun calcul, seulement si les réglages gardés sont relus. Une
+ * ouverture normale prend quelques millisecondes ; écartés : 500 ms (risque
+ * de perdre les réglages sur un vieux téléphone chargé) et 5 s (une page
+ * blanche aussi longue fait croire à une panne).
+ */
+const DELAI_OUVERTURE_MS = 2000
+
 export interface Stockage {
   disponible: boolean
   initiales: Preferences
@@ -26,7 +37,12 @@ function ouvrir(): Promise<IDBDatabase> {
       req.result.createObjectStore(MAGASIN)
     }
     req.onsuccess = () => {
-      resolve(req.result)
+      const db = req.result
+      // Une version plus récente ouverte dans un autre onglet : on cède.
+      db.onversionchange = () => {
+        db.close()
+      }
+      resolve(db)
     }
     req.onerror = () => {
       reject(req.error ?? new Error('IndexedDB indisponible'))
@@ -61,8 +77,17 @@ export async function ouvrirStockage(): Promise<Stockage> {
   let db: IDBDatabase
   let brut: unknown
   try {
-    db = await ouvrir()
-    brut = await requete(db, 'readonly', (m) => m.get(CLE))
+    const lecture = (async () => {
+      const d = await ouvrir()
+      const b: unknown = await requete<unknown>(d, 'readonly', (m) => m.get(CLE))
+      return { d, b }
+    })()
+    const delai = new Promise<never>((_, reject) => {
+      setTimeout(() => {
+        reject(new Error('IndexedDB ne répond pas'))
+      }, DELAI_OUVERTURE_MS)
+    })
+    ;({ d: db, b: brut } = await Promise.race([lecture, delai]))
   } catch {
     return SANS_STOCKAGE
   }

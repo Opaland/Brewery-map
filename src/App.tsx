@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -26,6 +26,32 @@ const Carte = lazy(() => import('./Carte'))
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
 const COMMUNES = communesConnues(BRASSERIES)
+const NOMS = new Set(BRASSERIES.map((b) => b.n))
+
+/**
+ * La ligne de compte. En mode « seulement mes favoris », elle le dit — la
+ * case est gardée d'une visite à l'autre et peut être oubliée (revue Marie
+ * S9) ; une liste vide dit comment en sortir.
+ */
+function texteDuCompte(
+  n: number,
+  rayonKm: number,
+  origine: string,
+  favorisSeulement: boolean,
+  nbFavoris: number,
+): string {
+  const ou = `à moins de ${String(rayonKm)} km de ${origine}`
+  if (!favorisSeulement) {
+    return n === 0 ? 'Aucune brasserie ne correspond.' : `${String(n)} brasserie${n > 1 ? 's' : ''} ${ou}`
+  }
+  if (nbFavoris === 0) {
+    return 'Vous n’avez pas encore de favori. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.'
+  }
+  if (n === 0) {
+    return 'Aucun de vos favoris ne correspond. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.'
+  }
+  return `Seulement vos favoris : ${String(n)} ${ou}`
+}
 
 export function App({ stockage }: { stockage: Stockage }) {
   const ini = stockage.initiales
@@ -37,6 +63,9 @@ export function App({ stockage }: { stockage: Stockage }) {
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
+  /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
+  const [annonce, setAnnonce] = useState('')
+  const compte = useRef<HTMLParagraphElement>(null)
   const [enLigne, setEnLigne] = useState(() => navigator.onLine)
   // Prête hors ligne quand un service worker est actif : l'installation est
   // tout ou rien (public/sw.js), donc actif veut dire précache complet.
@@ -67,6 +96,10 @@ export function App({ stockage }: { stockage: Stockage }) {
 
   // Chaque changement est gardé sur l'appareil (S9). Le texte tapé et la
   // fiche ouverte ne le sont pas : ce sont des gestes, pas des réglages.
+  // On n'écrit que ce qui diffère de ce qui est déjà gardé (revue code S9) :
+  // écrire au montage réécrivait les valeurs par défaut juste après un
+  // effacement, et figeait un stockage relu en partie.
+  const dejaGarde = useRef(JSON.stringify(versStockage(ini)))
   useEffect(() => {
     const p: Preferences = versStockage({
       version: 1,
@@ -77,6 +110,9 @@ export function App({ stockage }: { stockage: Stockage }) {
       favoris: [...favoris],
       favorisSeulement,
     })
+    const texte = JSON.stringify(p)
+    if (texte === dejaGarde.current) return
+    dejaGarde.current = texte
     stockage.garder(p)
   }, [stockage, rayonKm, categories, type, origine, favoris, favorisSeulement])
 
@@ -96,17 +132,42 @@ export function App({ stockage }: { stockage: Stockage }) {
   )
 
   const caches = favorisSeulement ? favorisCaches(BRASSERIES, favoris, resultats) : []
+  // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
+  // dit et retirable, plutôt que compté en silence (revue code S9).
+  const orphelins = favoris.filter((f) => !NOMS.has(f))
+  const nbFavorisConnus = favoris.length - orphelins.length
+
+  const basculerUnFavori = (nom: string) => {
+    const retrait = favoris.includes(nom)
+    setFavoris((avant) => basculerFavori(avant, nom))
+    setAnnonce(retrait ? `« ${nom} » retirée de vos favoris.` : `« ${nom} » ajoutée à vos favoris.`)
+    // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
+    // focus dedans : on le pose sur le compte, qui dit ce qui s'est passé.
+    if (retrait && favorisSeulement) compte.current?.focus()
+  }
 
   const toutEffacer = () => {
-    void stockage.effacer().then(() => {
-      const d = PREFERENCES_DEFAUT
-      setRayonKm(d.rayonKm)
-      setCategories(d.categories)
-      setType(d.type)
-      setOrigine(origineDesPreferences(d.depart, COMMUNES))
-      setFavoris(d.favoris)
-      setFavorisSeulement(d.favorisSeulement)
-    })
+    stockage
+      .effacer()
+      .then(() => {
+        const d = PREFERENCES_DEFAUT
+        // Le stockage est vide : remettre les défauts ne doit pas le réécrire.
+        dejaGarde.current = JSON.stringify(versStockage(d))
+        setRayonKm(d.rayonKm)
+        setCategories(d.categories)
+        setType(d.type)
+        setOrigine(origineDesPreferences(d.depart, COMMUNES))
+        setFavoris(d.favoris)
+        setFavorisSeulement(d.favorisSeulement)
+        setAnnonce('Favoris et réglages effacés de cet appareil.')
+      })
+      .catch(() => {
+        setAnnonce('L’effacement a échoué : rien n’a changé. Réessayez.')
+      })
+  }
+
+  const retirerOrphelins = () => {
+    setFavoris((avant) => avant.filter((f) => NOMS.has(f)))
   }
 
   const basculer = (cat: Categorie) => {
@@ -192,7 +253,9 @@ export function App({ stockage }: { stockage: Stockage }) {
         <FiltreType nbParType={NB_PAR_TYPE} valeur={type} onChange={setType} />
 
         <MesFavoris
-          nbFavoris={favoris.length}
+          nbFavoris={nbFavorisConnus}
+          orphelins={orphelins}
+          onRetirerOrphelins={retirerOrphelins}
           seulement={favorisSeulement}
           onSeulement={setFavorisSeulement}
           stockageDisponible={stockage.disponible}
@@ -200,10 +263,9 @@ export function App({ stockage }: { stockage: Stockage }) {
         />
       </section>
 
-      <p className="compte" role="status" data-testid="compte">
-        {resultats.length === 0
-          ? 'Aucune brasserie ne correspond.'
-          : `${String(resultats.length)} brasserie${resultats.length > 1 ? 's' : ''} à moins de ${String(rayonKm)} km de ${libelleOrigine(origine)}`}
+      <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
+        {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
+        {texteDuCompte(resultats.length, rayonKm, libelleOrigine(origine), favorisSeulement, nbFavorisConnus)}
       </p>
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
@@ -228,9 +290,7 @@ export function App({ stockage }: { stockage: Stockage }) {
             resultats={resultats}
             selection={selection}
             favoris={ensembleFavoris}
-            onBasculerFavori={(nom) => {
-              setFavoris((avant) => basculerFavori(avant, nom))
-            }}
+            onBasculerFavori={basculerUnFavori}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))

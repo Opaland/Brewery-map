@@ -42,13 +42,12 @@ function Fiche({
   return (
     <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
       <div className="depart-actions">
-        <button
-          type="button"
-          aria-pressed={favori}
-          onClick={onBasculerFavori}
-          data-testid="bouton-favori"
-        >
-          {favori ? '★ Dans mes favoris (retirer)' : '☆ Ajouter à mes favoris'}
+        {/*
+          Le libellé dit l'action, sans `aria-pressed` : les deux ensemble
+          s'annonçaient « Retirer…, activé », contradictoire (revue code S9).
+        */}
+        <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
+          {favori ? '★ Retirer de mes favoris' : '☆ Ajouter à mes favoris'}
         </button>
       </div>
       <Contact brasserie={brasserie} />
