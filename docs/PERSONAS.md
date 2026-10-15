@@ -16,7 +16,7 @@ sprint qui la concerne ne sert pas à prioriser (leçon de Sentiers, issue
 
 ---
 
-## Cédric — juge S1
+## Cédric — juge S1, puis S3, S4, S6, S12, S14 (plan v2)
 
 Père de famille, week-end avec de jeunes enfants. Veut un lieu où consommer
 sur place, avec des horaires d'accueil confirmés, notamment le samedi.
@@ -29,7 +29,7 @@ final ». En bref : la catégorie 1 ne dit pas quand le lieu accueille ; 16
 des 36 lignes en catégorie 1 ne citent pas le samedi, et l'une est fermée
 d'octobre à mai.
 
-## Marie, 28 ans — juge S2
+## Marie, 28 ans — juge S2, puis S9, S13 (plan v2)
 
 Curieuse, téléphone seul. Cherche « une brasserie sympa près de Lyon », ne
 connaît ni IPA ni sour.
@@ -39,7 +39,7 @@ milieu ; la liste suffit sans la carte.
 
 *Pas encore de constat.*
 
-## Bernard, 62 ans — juge S4
+## Bernard, 62 ans — juge S7, S17, S20 (plan v2)
 
 Téléphone ancien, 4G parfois faible.
 
@@ -48,7 +48,7 @@ l'interface reste utilisable quand le fond de carte ne l'est pas.
 
 *Pas encore de constat.*
 
-## Karim — juge S3
+## Karim — juge S5, S16 (plan v2)
 
 Amateur de bière. Filtre par type et veut la page de la bière.
 
@@ -58,7 +58,7 @@ Amateur de bière. Filtre par type et veut la page de la bière.
 *Pas encore de constat. Fait connu : aucune ligne de `data/breweries.json`
 ne porte de type de bière au 15/10 (BACKLOG D5).*
 
-## Léa — juge S4
+## Léa — juge S8 (plan v2)
 
 Attentive à la vie privée.
 
@@ -67,7 +67,7 @@ local, ce qui passe par le réseau.
 
 *Pas encore de constat.*
 
-## Une brasserie — juge S5
+## Une brasserie — juge S10, S11, S15 (plan v2)
 
 Veut corriger sa fiche.
 
