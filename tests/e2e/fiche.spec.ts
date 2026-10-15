@@ -69,6 +69,14 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(contact.getByRole('link')).toHaveCount(0)
   })
 
+  test('un numéro cité dans la source n’est pas contredit par « non renseigné »', async ({ page }) => {
+    await page.getByTestId('recherche').fill('animus')
+    await ligne(page, /Brasserie Animus/).click()
+    await expect(page.getByTestId('fiche').getByTestId('fiche-contact')).toHaveText(
+      'Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.',
+    )
+  })
+
   test('sans source, elle le dit, sans rien inventer', async ({ page }) => {
     await page.getByTestId('recherche').fill('oullins')
     await ligne(page, /Bulles d'Orge/).click()

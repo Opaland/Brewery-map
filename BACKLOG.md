@@ -26,6 +26,13 @@ chacun demande une décision ou une vérification de source.
 - Le point de départ (Brignais) est masqué par le groupe qui contient les
   brasseries de Brignais au zoom d'ouverture (constaté sur capture le 15/10).
   Il réapparaît en zoomant. À traiter si une revue de persona le juge gênant.
+- Contact : numéros d'outre-mer non gérés (le lien `tel:+33…` serait faux ;
+  revue code S4). Aucune brasserie du fichier n'y est.
+- Contact : Brasserie Animus et Pleine Lune citent un numéro dans leur
+  justification ; à vérifier et à proposer en `contact` lors d'un lot de
+  curation (Animus : portable, et la brasserie a déménagé).
+- Les cinq numéros d'exemple de S4 attendent l'accord de Cédric
+  (SPRINTS.md, S4).
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
   la carte (revue adverse S2).
 - Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe

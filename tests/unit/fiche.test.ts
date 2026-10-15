@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { hoteDeSource, libelleConfiance, libellePrecision, libelleVerification } from '../../src/core/fiche'
+import { citeUnNumero, hoteDeSource, libelleConfiance, libellePrecision, libelleVerification } from '../../src/core/fiche'
 
 describe('libelleConfiance', () => {
   it('dit « élevée » pour « solide » (décision de Cédric, 15/10)', () => {
@@ -42,5 +42,14 @@ describe('libelleVerification', () => {
 
   it('ne la remplace jamais par une date inventée', () => {
     expect(libelleVerification(undefined)).toBe('non renseignée')
+  })
+})
+
+describe('citeUnNumero', () => {
+  it('reconnaît les deux numéros cités dans le fichier, et rien d’autre', () => {
+    expect(citeUnNumero('Horaires non publiés (tél. 04 75 85 47 19).')).toBe(true)
+    expect(citeUnNumero('Contact : 06 95 10 82 98.')).toBe(true)
+    expect(citeUnNumero('Ouvert depuis 2022, sam 15h-22h.')).toBe(false)
+    expect(citeUnNumero('1932 route de Villefranche, 69480 Anse')).toBe(false)
   })
 })

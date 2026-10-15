@@ -36,6 +36,17 @@ describe('le contact', () => {
     expect(erreurs({ ...valide, contact: { ...contact, tel: '00 72 50 88 53' } })).not.toEqual([])
   })
 
+  it('refuse les numéros spéciaux en 08 (souvent surtaxés)', () => {
+    expect(erreurs({ ...valide, contact: { ...contact, tel: '08 99 12 34 56' } })).not.toEqual([])
+    expect(erreurs({ ...valide, contact: { ...contact, tel: '09 81 94 27 79' } })).toEqual([])
+  })
+
+  it('refuse un contact qui ne contient aucun moyen de joindre', () => {
+    expect(
+      erreurs({ ...valide, contact: { source: contact.source, verifieLe: contact.verifieLe } }),
+    ).not.toEqual([])
+  })
+
   it('n’accepte comme lien Untappd qu’une page d’untappd.com', () => {
     expect(
       erreurs({ ...valide, contact: { ...contact, untappd: 'https://untappd.fake.com/x' } }),

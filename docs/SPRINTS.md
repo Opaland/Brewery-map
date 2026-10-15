@@ -23,7 +23,7 @@ durée se relève sur l'horodatage des commits.
 | S2 | 500 k | 2 h | ≈ 185 k (dont revues : 59 k) | **terminé** le 15/10 |
 | S3–S6 (plan v1) | — | — | — | remplacés par le plan v2 (validé le 15/10) |
 | S3 | 180 k | — | ≈ 110 k (dont revues : 56 k) | **terminé** le 15/10 |
-| S4 | 180 k | — | voir §S4 | en cours |
+| S4 | 180 k | — | ≈ 95 k (dont revues : 44 k) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -343,4 +343,17 @@ n'a pas été mesurée.
    refusée par le contrôle de permissions de la session** — conforme à la
    règle §0 : elles attendent l'accord explicite de Cédric, ligne par ligne.
    Le code est livré sans elles ; la fiche dit « non renseigné » partout.
-6. **État final et restes.** *(à la clôture)*
+6. **État final et restes.** Revues faites (code 24 k, métier 20 k
+   tokens), corrections appliquées le 15/10 :
+   - **Revue métier (Cédric)** — bloquant hors code : aucune ligne n'a de
+     contact, il ne peut appeler personne tant que les exemples ne sont pas
+     acceptés. Corrigé : deux justifications citent un numéro (Animus,
+     Pleine Lune) ; la fiche ne dit plus « non renseigné » mais « la source
+     en cite un, non revérifié » (e2e sur Animus) ; « Page Untappd » devient
+     « Untappd (avis sur les bières) ».
+   - **Revue code** — corrigé : 08 (numéros spéciaux) refusés ; contact
+     vide refusé ; nom de la brasserie ajouté au nom accessible des liens ;
+     test des liens externes qui ne dépend plus de l'ordre des attributs et
+     compte tous les liens http. Documenté et inscrit au BACKLOG : numéros
+     d'outre-mer non gérés (aucun dans le fichier).
+   - Porte : 51 tests unitaires, 23 e2e. Reste : CI, merge, page publiée.

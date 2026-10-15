@@ -78,3 +78,12 @@ export function libelleVerification(iso: string | undefined): string {
 export function lienTelephone(tel: string): string {
   return `tel:+33${tel.replace(/ /g, '').slice(1)}`
 }
+
+/**
+ * Un numéro français cité dans la justification (`note`). Deux lignes du
+ * fichier en contiennent un (revue métier S4) : la fiche ne doit pas dire
+ * « non renseigné » juste au-dessus.
+ */
+export function citeUnNumero(texte: string): boolean {
+  return /\b0[1-9](?:[ .]?\d{2}){4}\b/.test(texte)
+}

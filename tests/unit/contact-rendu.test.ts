@@ -36,10 +36,27 @@ describe('le bloc contact', () => {
     expect(html).toContain('href="https://untappd.com/NomadeBrewery/beer"')
     expect(html).toContain('Coordonnées lues le 15 octobre 2026 sur')
     expect(html).toContain('>nomadebiere.fr</a>')
-    // Chaque lien externe part sans référent.
-    const externes = html.match(/target="_blank"[^>]*/g) ?? []
+    // Chaque lien http(s) part dans un nouvel onglet et sans référent —
+    // compté sur tous les liens, pas seulement ceux qui ont déjà `target`
+    // (revue code S4), et quel que soit l'ordre des attributs.
+    const liens = html.match(/<a [^>]*>/g) ?? []
+    const externes = liens.filter((a) => /href="https?:/.test(a))
     expect(externes.length).toBe(3)
-    for (const e of externes) expect(e).toContain('rel="noopener noreferrer"')
+    for (const a of externes) {
+      expect(a).toContain('target="_blank"')
+      expect(a).toContain('rel="noopener noreferrer"')
+    }
+    // Le nom de la brasserie est dans le nom accessible des liens.
+    expect(html).toContain('Site de la brasserie<span class="lecteur-seul"> Caribrew</span>')
+    expect(html).toContain('Untappd (avis sur les bières)<span class="lecteur-seul"> Caribrew</span>')
+  })
+
+  it('un numéro cité dans la justification est signalé, pas ignoré', () => {
+    const html = rendu({ ...base, note: 'Horaires non publiés (tél. 04 75 85 47 19).' })
+    expect(html).toContain(
+      'Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.',
+    )
+    expect(html).not.toContain('tel:')
   })
 
   it('un contact sans téléphone le dit, sans bouton', () => {
