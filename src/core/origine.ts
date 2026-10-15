@@ -15,36 +15,40 @@ import type { Brasserie } from './schema'
 export type Origine =
   | { type: 'brignais'; point: Point }
   | { type: 'position'; point: Point }
-  | { type: 'commune'; nom: string; point: Point }
+  | { type: 'commune'; cle: string; nom: string; point: Point }
 
 export const ORIGINE_DEFAUT: Origine = { type: 'brignais', point: BRIGNAIS }
 
 export interface CommuneConnue {
+  /** Commune et département : deux communes homonymes ne se confondent pas. */
+  cle: string
   nom: string
   point: Point
 }
 
 /** Les communes du fichier, une fois chacune, dans l'ordre alphabétique français. */
 export function communesConnues(brasseries: readonly Brasserie[]): CommuneConnue[] {
-  const groupes = new Map<string, Point[]>()
+  const groupes = new Map<string, { nom: string; points: Point[] }>()
   for (const b of brasseries) {
-    const liste = groupes.get(b.c) ?? []
-    liste.push({ lat: b.lat, lon: b.lon })
-    groupes.set(b.c, liste)
+    const cle = `${b.c}|${b.d}`
+    const groupe = groupes.get(cle) ?? { nom: b.c, points: [] }
+    groupe.points.push({ lat: b.lat, lon: b.lon })
+    groupes.set(cle, groupe)
   }
   return [...groupes.entries()]
-    .map(([nom, points]) => ({
+    .map(([cle, { nom, points }]) => ({
+      cle,
       nom,
       point: {
         lat: points.reduce((s, p) => s + p.lat, 0) / points.length,
         lon: points.reduce((s, p) => s + p.lon, 0) / points.length,
       },
     }))
-    .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'))
+    .sort((a, b) => a.nom.localeCompare(b.nom, 'fr') || a.cle.localeCompare(b.cle))
 }
 
 export function origineDeCommune(c: CommuneConnue): Origine {
-  return { type: 'commune', nom: c.nom, point: c.point }
+  return { type: 'commune', cle: c.cle, nom: c.nom, point: c.point }
 }
 
 export function libelleOrigine(o: Origine): string {

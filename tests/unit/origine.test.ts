@@ -13,6 +13,14 @@ describe('les communes de départ', () => {
     expect(c.map((x) => x.nom)).toEqual(['Lyon 1er', 'Oullins', 'Soucieu-en-Jarrest'])
   })
 
+  it('deux communes homonymes de départements différents restent deux', () => {
+    const lot = [
+      { ...TOUTES[0], c: 'Saint-Martin', d: '69' },
+      { ...TOUTES[1], c: 'Saint-Martin', d: '42' },
+    ]
+    expect(communesConnues(lot).map((x) => x.cle)).toEqual(['Saint-Martin|42', 'Saint-Martin|69'])
+  })
+
   it('la position d’une commune est la moyenne de ses brasseries — approchée, et dit comme tel', () => {
     const lot = [
       { ...TOUTES[1], lat: 45.0, lon: 4.0 },

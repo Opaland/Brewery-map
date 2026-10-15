@@ -1,5 +1,11 @@
 import { useState } from 'react'
-import { libelleOrigine, origineDeCommune, type CommuneConnue, type Origine } from './core/origine'
+import {
+  libelleOrigine,
+  ORIGINE_DEFAUT,
+  origineDeCommune,
+  type CommuneConnue,
+  type Origine,
+} from './core/origine'
 
 interface Props {
   origine: Origine
@@ -43,11 +49,24 @@ export function PointDeDepart({ origine, communes, onChange }: Props) {
     )
   }
 
-  const valeurCommune = origine.type === 'commune' ? origine.nom : ''
+  const valeurCommune = origine.type === 'commune' ? origine.cle : ''
 
   return (
     <fieldset className="depart" data-testid="depart">
       <legend>Point de départ : {libelleOrigine(origine)}</legend>
+      {/*
+        Avant le bouton, pour être lu avant le geste (revue Léa S8). Exact sur
+        ce qui part : pas les coordonnées, mais les images de la carte, qui
+        désignent la zone où l'on est (revue code S8 : à quelques kilomètres
+        près, zoom 14 au plus).
+      */}
+      <p className="champ-aide" data-testid="confidentialite">
+        « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
+        les distances : vos coordonnées ne sont envoyées à personne. Mais la carte se
+        centre alors sur vous et charge auprès d’OpenStreetMap les images de cette zone :
+        ce serveur voit donc la zone où vous êtes, à quelques kilomètres près, et votre
+        adresse IP — comme pour toute carte en ligne. Pour l’éviter, partez d’une commune.
+      </p>
       <div className="depart-actions">
         <button type="button" onClick={autourDeMoi} disabled={enCours} data-testid="autour-de-moi">
           {enCours ? 'Localisation…' : 'Autour de moi'}
@@ -57,7 +76,7 @@ export function PointDeDepart({ origine, communes, onChange }: Props) {
             type="button"
             onClick={() => {
               setMessage(null)
-              onChange({ type: 'brignais', point: { lat: 45.6745, lon: 4.7545 } })
+              onChange(ORIGINE_DEFAUT)
             }}
             data-testid="revenir-brignais"
           >
@@ -70,8 +89,9 @@ export function PointDeDepart({ origine, communes, onChange }: Props) {
         <select
           value={valeurCommune}
           onChange={(e) => {
-            const c = communes.find((x) => x.nom === e.target.value)
-            if (c) {
+            const c = communes.find((x) => x.cle === e.target.value)
+            // Rechoisir la même commune ne recadre pas la carte (revue code S8).
+            if (c && c.cle !== valeurCommune) {
               setMessage(null)
               onChange(origineDeCommune(c))
             }
@@ -82,7 +102,7 @@ export function PointDeDepart({ origine, communes, onChange }: Props) {
             Choisir une commune…
           </option>
           {communes.map((c) => (
-            <option key={c.nom} value={c.nom}>
+            <option key={c.cle} value={c.cle}>
               {c.nom}
             </option>
           ))}
@@ -93,11 +113,7 @@ export function PointDeDepart({ origine, communes, onChange }: Props) {
           {message}
         </p>
       )}
-      <p className="champ-aide" data-testid="confidentialite">
-        « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
-        les distances : elle n’est envoyée à personne. La carte, elle, charge auprès
-        d’OpenStreetMap les images de la zone affichée — comme toute carte en ligne.
-      </p>
+
     </fieldset>
   )
 }

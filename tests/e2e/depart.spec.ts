@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { expect, test } from '@playwright/test'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles } from './reseau'
+import { sansTuiles, TUILE_OSM } from './reseau'
 
 const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 /** Une position d'essai à Anse : loin de Brignais, proche de brasseries réelles. */
@@ -35,23 +35,43 @@ test.describe('« autour de moi » (Léa)', () => {
     await expect(page.getByTestId('compte')).toContainText('de votre position')
   })
 
-  test('la position ne part dans aucune requête', async ({ page }) => {
+  /*
+    Liste blanche plutôt que recherche des chiffres (revue code S8 : la regex
+    sur « 45.93 » ne pouvait voir ni une tuile ni une fuite écrite autrement).
+    Tout ce qui part est soit l'application, soit une tuile OSM z/x/y sans
+    paramètre, au zoom 14 au plus — ce que dit le texte de confidentialité.
+  */
+  test('après « autour de moi », rien ne part hors l’application et les tuiles', async ({
+    page,
+  }) => {
     const urls: string[] = []
     page.on('request', (r) => urls.push(r.url()))
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
     await page.waitForTimeout(1500)
-    const fuites = urls.filter((u) => /45[.,]93|4[.,]72/.test(u))
-    expect(fuites).toEqual([])
-    expect(urls.length).toBeGreaterThan(3)
+    const tiers = urls.filter(
+      (u) => !u.startsWith('http://localhost:4173/') && !u.startsWith('data:'),
+    )
+    const horsTuiles = tiers.filter((u) => !TUILE_OSM.test(u))
+    expect(horsTuiles).toEqual([])
+    const zooms = tiers.map((u) => Number(new URL(u).pathname.split('/')[1]))
+    expect(zooms.length).toBeGreaterThan(0)
+    expect(Math.max(...zooms)).toBeLessThanOrEqual(14)
   })
 
   test('l’écran dit ce qui reste dans le téléphone, et ce qui part', async ({ page }) => {
     await page.goto('/')
     const texte = page.getByTestId('confidentialite')
-    await expect(texte).toContainText('elle n’est envoyée à personne')
-    await expect(texte).toContainText('OpenStreetMap')
+    await expect(texte).toContainText('vos coordonnées ne sont envoyées à personne')
+    await expect(texte).toContainText('la zone où vous êtes, à quelques kilomètres près')
+    // Lu avant le geste : le texte précède le bouton dans le document.
+    const avant = await page.evaluate(() => {
+      const t = document.querySelector('[data-testid="confidentialite"]')
+      const b = document.querySelector('[data-testid="autour-de-moi"]')
+      return t !== null && b !== null && (t.compareDocumentPosition(b) & 4) !== 0
+    })
+    expect(avant).toBe(true)
   })
 
   test('revenir à Brignais', async ({ page }) => {
@@ -82,7 +102,7 @@ test.describe('localisation refusée', () => {
 test('partir d’une commune des données, plus loin que Brignais', async ({ page }) => {
   await sansTuiles(page)
   await page.goto('/')
-  await page.getByTestId('commune-depart').selectOption('Tarare')
+  await page.getByTestId('commune-depart').selectOption({ label: 'Tarare' })
   await expect(page.getByTestId('depart').locator('legend')).toHaveText(
     'Point de départ : Tarare (centre approché)',
   )

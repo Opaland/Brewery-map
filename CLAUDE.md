@@ -164,7 +164,7 @@ logique ou de sécurité ; pas pour une curation déjà relue par Cédric.
 - **S1 à S6 terminés le 15/10** (S4–S6 : code livré, données de contact, bières et horaires encore absentes) (page publiée : https://opaland.github.io/Brewery-map/).
 - **Plan v2 validé le 15/10** : 20 sprints de plus (S3 → S22), budget ≈ 4,6 M,
   revue code + revue métier corrigées dans chaque sprint (`docs/SPRINTS.md`).
-- **Sprint suivant : S7 — PWA et hors ligne**, attend le go de Cédric.
+- **S7 terminé, S8 livré le 15/10** ; enchaînement S9 → S22 demandé par Cédric (« enchaîne les sprints avec revue + revue globale »).
 - **En attente de Cédric** : accord sur 5 numéros d'exemple (SPRINTS.md, S4) et permission d'écrire dans `data/` (refusée par le contrôle de la session le 15/10).
 - Décision de Cédric (15/10) : **autonome dans les PR** — une PR verte et
   sans conflit se merge sans attendre, et le déploiement se vérifie après.
