@@ -1327,7 +1327,14 @@ sprints avec revue + revue globale »).
      100 km » : Villefranche-d'Allier y figurait, à plus de 100 km.
    - **Repli de confidentialité.** Il a retrouvé son triangle (`display:
      list-item`).
-3. **Non fait** (BACKLOG) :
+3. **Revue adverse** (48 k), deux trouvailles mesurées, corrigées, tests vus
+   rouges :
+   - **Bloquant** — le compte collant couvrait le focus clavier (WCAG
+     2.4.11) : une case sur Pixel 7, cinq contrôles à 320 px. Sa hauteur,
+     suivie par `ResizeObserver`, devient `scroll-padding-bottom` ;
+   - à 320 px, la liste des communes s'ouvrait sous le compte : l'option
+     active est amenée à l'écran.
+4. **Non fait** (BACKLOG) :
    - « Confiance : faible » donne la définition, pas quoi en faire. C'est une
      question de formulation, à proposer à Cédric.
    - Les liens de la fiche étirent leur ligne à 44 px.

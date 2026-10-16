@@ -77,3 +77,50 @@ test.describe('ordinateur', () => {
     expect(haut).toBeLessThan(800)
   })
 })
+
+test.describe('le compte collant ne cache aucun focus (WCAG 2.4.11, revue adverse)', () => {
+  for (const viewport of [
+    { width: 412, height: 839 },
+    { width: 320, height: 568 },
+  ]) {
+    test(`au clavier, ${String(viewport.width)}×${String(viewport.height)}`, async ({ page }) => {
+      await page.setViewportSize(viewport)
+      const caches: string[] = []
+      for (let i = 0; i < 40; i++) {
+        await page.keyboard.press('Tab')
+        // Mesure une fois le défilement fini (CLAUDE.md §1bis).
+        await page.waitForTimeout(30)
+        const cache = await page.evaluate(() => {
+          const f = document.activeElement
+          const c = document.querySelector('[data-testid="compte"]')
+          if (!(f instanceof HTMLElement) || c === null || c.contains(f)) return null
+          const r = f.getBoundingClientRect()
+          if (r.bottom <= 0 || r.top >= window.innerHeight) return null
+          const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+          return vu !== null && c.contains(vu) ? (f.dataset['testid'] ?? f.tagName) : null
+        })
+        if (cache !== null) caches.push(cache)
+      }
+      expect(caches).toEqual([])
+    })
+  }
+})
+
+test('à 320 px, l’option active des communes est peinte, pas sous le compte (revue adverse)', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 568 })
+  const champ = page.getByTestId('commune-depart')
+  await champ.fill('lyon')
+  await expect(page.getByRole('option').nth(1)).toBeAttached()
+  const peinte = () =>
+    page.evaluate(() => {
+      const o = document.querySelector('[role="option"][aria-selected="true"]')
+      if (o === null) return false
+      const r = o.getBoundingClientRect()
+      const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+      return vu !== null && o.contains(vu)
+    })
+  await expect.poll(peinte).toBe(true)
+  await champ.press('ArrowDown')
+  await champ.press('ArrowDown')
+  await expect.poll(peinte).toBe(true)
+})

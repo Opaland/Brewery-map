@@ -41,6 +41,10 @@
 
 * { box-sizing: border-box; }
 
+/* Le bas de l'écran est pris par le compte collant (voir `.compte`) : le
+   focus et les défilements automatiques s'arrêtent au-dessus. */
+html { scroll-padding-bottom: var(--hauteur-compte, 0px); }
+
 body {
   margin: 0;
   background: var(--papier);
