@@ -30,6 +30,10 @@ test.describe('chercher une commune de départ, partout en France', () => {
     // Aucune brasserie du fichier à moins de 30 km de Lille : le compte dit
     // d'où et jusqu'où.
     await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Lille (59).')
+    // Et où chercher : la plus proche, et ce que couvre le fichier (revue globale S22).
+    const ailleurs = page.getByTestId('plus-proche')
+    await expect(ailleurs).toContainText('La plus proche du fichier :')
+    await expect(ailleurs).toContainText('Le fichier couvre 9 départements : 01, 07, 26, 38, 42, 43, 69, 71, 73.')
   })
 
   test('« Chercher dans toute la France » élargit sur demande', async ({ page }) => {
@@ -40,7 +44,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await expect(page.getByTestId('commune-statut')).toContainText('en France')
   })
 
-  test('la commune tapée ne quitte pas le téléphone', async ({ page }) => {
+  test('le texte tapé ne quitte pas le téléphone ; rien ne part chez un tiers', async ({ page }) => {
     const urls: string[] = []
     page.on('request', (r) => urls.push(r.url()))
     await page.goto('/')
@@ -162,4 +166,15 @@ test.describe('une localisation tardive n’écrase pas une commune choisie (rev
       'Point de départ : Tarare (69)',
     )
   })
+})
+
+test('une nouvelle version s’annonce, avec un bouton pour recharger (revue globale S22)', async ({ page }) => {
+  await page.goto('/')
+  await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+  await expect(page.getByTestId('mise-a-jour')).toHaveCount(0)
+  // Ce que fait `surveillerMiseAJour` quand une version attend (le service
+  // worker est bloqué dans ces tests ; sa partie est testée en unitaire).
+  await page.evaluate(() => window.dispatchEvent(new Event('mousse:nouvelle-version')))
+  await expect(page.getByTestId('mise-a-jour')).toContainText('nouvelle version')
+  await expect(page.getByTestId('recharger-version')).toBeVisible()
 })

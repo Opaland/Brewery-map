@@ -221,11 +221,13 @@ export default function Carte({
                 return
               }
               // Zoom maximal atteint sans séparation. Avec un rayon de groupe
-              // de 36 px (≈ 240 m au zoom 14), seules des coordonnées
-              // identiques en sont là : les paires voisines du fichier sont
-              // toutes à plus de 640 m (mesuré le 15/10). La première est
-              // choisie ; les autres, à la même distance, la suivent dans la
-              // liste.
+              // de 36 px (≈ 240 m au zoom 14), des points très proches
+              // peuvent en être là. Mesuré le 16/10 (revue globale S22) : Le
+              // Brass'in et Single Track ont les mêmes coordonnées ; La Beer
+              // Fabrique et Tom & Co sont à 136 m (vus séparés au zoom
+              // maximal, par une sonde). « Plus de 640 m », écrit le 15/10,
+              // était faux. La première est choisie ; les autres, à la même
+              // distance, la suivent dans la liste.
               void source.getClusterLeaves(idGroupe, 1, 0).then((feuilles) => {
                 const nom: unknown = feuilles[0]?.properties?.['nom']
                 if (typeof nom === 'string') surChoix.current(nom)
@@ -260,6 +262,13 @@ export default function Carte({
     })
 
     map.on('load', () => {
+      // Le lien d'attribution d'OSM quittait l'application, PWA comprise,
+      // dans la même fenêtre (revue globale S22) : un nouvel onglet, sans
+      // adresse d'origine, comme les autres liens sortants.
+      for (const a of conteneur.current?.querySelectorAll('.maplibregl-ctrl-attrib a') ?? []) {
+        a.setAttribute('target', '_blank')
+        a.setAttribute('rel', 'noopener noreferrer')
+      }
       map.addSource('brasseries', {
         type: 'geojson',
         data: versGeoJSON([]),

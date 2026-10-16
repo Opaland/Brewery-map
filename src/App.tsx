@@ -11,12 +11,14 @@ import {
   versStockage,
   type Preferences,
 } from './core/preferences'
-import { favorisCaches, rechercher, rechercherPartout } from './core/recherche'
+import { favorisCaches, plusProche, rechercher, rechercherPartout } from './core/recherche'
+import { formaterDistance } from './core/distance'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Categorie } from './core/schema'
 import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
 import { Installer } from './Installer'
+import { MiseAJour } from './MiseAJour'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
@@ -30,6 +32,8 @@ const NB_PAR_TYPE = compterTypes(BRASSERIES)
 const NB_RENSEIGNEES = BRASSERIES.filter((b) => b.beers.length > 0).length
 const COMMUNES = communesConnues(BRASSERIES)
 const NOMS = new Set(BRASSERIES.map((b) => b.n))
+/** Les départements du fichier, pour dire où il s'arrête (revue globale S22). */
+const DEPARTEMENTS = [...new Set(BRASSERIES.map((b) => b.d))].sort()
 
 /**
  * La ligne de compte. En mode « seulement mes favoris », elle le dit — la
@@ -223,6 +227,7 @@ export function App({ stockage }: { stockage: Stockage }) {
         <Installer />
       </header>
 
+      <MiseAJour />
       {!enLigne && (
         <p className="bandeau-hors-ligne" role="status" data-testid="hors-ligne">
           Hors connexion : toutes les fiches restent consultables. La carte n’affiche que les
@@ -244,7 +249,9 @@ export function App({ stockage }: { stockage: Stockage }) {
         />
 
         <label className="champ">
-          <span>Nom ou commune</span>
+          {/* « Chercher une brasserie » : à côté du champ de départ, « Nom ou
+              commune » se confondait avec lui (revue globale S22). */}
+          <span>Chercher une brasserie (nom ou commune)</span>
           <input
             type="search"
             value={texte}
@@ -324,6 +331,19 @@ export function App({ stockage }: { stockage: Stockage }) {
           rechercherPartout({ texte }),
         )}
       </p>
+      {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
+          couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
+      {resultats.length === 0 && !favorisSeulement && !rechercherPartout({ texte }) && (
+        <p className="champ-aide" data-testid="plus-proche">
+          {(() => {
+            const p = plusProche(BRASSERIES, origine.point)
+            return p === undefined
+              ? ''
+              : `La plus proche du fichier : ${p.brasserie.n} (${p.brasserie.c}), à ${formaterDistance(p.distanceKm)}. `
+          })()}
+          Le fichier couvre {DEPARTEMENTS.length} départements : {DEPARTEMENTS.join(', ')}.
+        </p>
+      )}
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
           {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
@@ -366,7 +386,7 @@ export function App({ stockage }: { stockage: Stockage }) {
       <footer className="pied">
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
-            ? 'Prête pour une utilisation hors connexion sur cet appareil.'
+            ? 'Prête pour une utilisation hors connexion sur cet appareil : fiches, liste et carte déjà vue. Chercher une commune de départ demande le réseau la première fois.'
             : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}
         </p>
         <p>

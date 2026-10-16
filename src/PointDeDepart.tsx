@@ -132,14 +132,21 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
         désignent la zone où l'on est (revue code S8 : à quelques kilomètres
         près, zoom 14 au plus).
       */}
-      <p className="champ-aide" data-testid="confidentialite">
-        « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
-        les distances : vos coordonnées ne sont envoyées à personne, et seul le choix
-        « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point
-        de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap
-        les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres
-        près, et votre adresse IP — comme pour toute carte en ligne.
-      </p>
+      <details className="confidentialite">
+        {/* Replié derrière une phrase courte : en entier, il remplissait le
+            premier écran et repoussait la liste à 2,2 écrans (revue globale
+            S22). La phrase visible dit déjà l'essentiel, avant le bouton. */}
+        <summary>Votre position reste dans ce téléphone. Ce qui part sur le réseau</summary>
+        <p className="champ-aide" data-testid="confidentialite">
+          « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
+          les distances : vos coordonnées ne sont envoyées à personne, et seul le choix
+          « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point
+          de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap
+          les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres
+          près, et votre adresse IP — comme pour toute carte en ligne. Choisir une commune
+          fait aussi demander à ce site la liste des communes de sa région.
+        </p>
+      </details>
       <div className="depart-actions">
         <button type="button" onClick={autourDeMoi} disabled={enCours} data-testid="autour-de-moi">
           {enCours ? 'Localisation…' : 'Autour de moi'}

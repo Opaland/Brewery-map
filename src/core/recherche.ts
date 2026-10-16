@@ -71,15 +71,37 @@ function trouve(texte: string, mot: string): boolean {
  * Une seule fonction, lue par la recherche et par le compte (CLAUDE.md §4).
  */
 export function rechercherPartout(criteres: Pick<Criteres, 'texte'>): boolean {
-  return criteres.texte.trim() !== ''
+  return motsCherches(criteres.texte).length > 0
+}
+
+/**
+ * Les mots tapés, sous forme comparable. Une ponctuation seule n'en donne
+ * aucun : elle ne cherche rien et ne lève pas le rayon (revue globale S22).
+ * L'apostrophe tapée est collée : « brass'in » cherche « brassin », que
+ * `cible` contient. La séparer en ferait un mot « in » trouvé partout.
+ */
+function motsCherches(texte: string): string[] {
+  return normaliser(texte.replace(APOSTROPHES, ''))
+    .split(' ')
+    .filter((m) => m !== '')
+}
+
+/**
+ * La brasserie du fichier la plus proche du départ, quels que soient les
+ * filtres : quand rien n'est à portée (depuis Lille), l'écran dit où est la
+ * plus proche plutôt que « aucune » (revue globale S22).
+ */
+export function plusProche(brasseries: readonly Brasserie[], origine: Point): Resultat | undefined {
+  let meilleure: Resultat | undefined
+  for (const brasserie of brasseries) {
+    const d = distanceKm(origine, brasserie)
+    if (meilleure === undefined || d < meilleure.distanceKm) meilleure = { brasserie, distanceKm: d }
+  }
+  return meilleure
 }
 
 export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres): Resultat[] {
-  // L'apostrophe tapée est collée : « brass'in » cherche « brassin », que
-  // `cible` contient. La séparer en ferait un mot « in » trouvé partout.
-  const mots = normaliser(criteres.texte.replace(APOSTROPHES, ''))
-    .split(' ')
-    .filter((m) => m !== '')
+  const mots = motsCherches(criteres.texte)
   const categories = new Set(criteres.categories)
   const resultats: Resultat[] = []
   for (const brasserie of brasseries) {
@@ -91,7 +113,7 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
       if (!mots.every((mot) => trouve(texte, mot))) continue
     }
     const d = distanceKm(criteres.origine, brasserie)
-    if (!rechercherPartout(criteres) && d > criteres.rayonKm) continue
+    if (mots.length === 0 && d > criteres.rayonKm) continue
     resultats.push({ brasserie, distanceKm: d })
   }
   return resultats.sort((a, b) => a.distanceKm - b.distanceKm)

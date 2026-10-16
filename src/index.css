@@ -379,6 +379,7 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 /* Rien de choisi : le bloc s'annonce comme la première étape (S21). */
 .depart-a-choisir { border: 2px solid var(--encre); }
 .depart-a-choisir legend { font-size: 1.1em; }
+.confidentialite summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: var(--encre-douce); }
 
 /* La recherche de commune (S21) : une liste sous le champ, cibles de 44 px. */
 .choix-commune { display: grid; gap: var(--espace-2); }
@@ -419,3 +420,16 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 .ligne-favori { color: var(--encre); }
 
 .fiche-signaler { margin: var(--espace-6) 0 0; }
+
+/* Nouvelle version prête (revue globale S22). */
+.bandeau-mise-a-jour {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-4);
+  padding: var(--espace-4) var(--espace-6);
+  border: 2px solid var(--encre);
+  border-radius: var(--rayon-md);
+  margin: var(--espace-4) 0;
+}
+.bandeau-mise-a-jour button { min-height: 44px; }

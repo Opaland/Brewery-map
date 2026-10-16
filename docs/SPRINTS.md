@@ -1225,3 +1225,41 @@ sprints avec revue + revue globale »).
      - avec un nom tapé, la carte reste cadrée sur le rayon ;
      - une commune choisie fait demander au serveur de la page les fichiers
        de ses départements voisins (c'est un choix, pas la position).
+
+## S22 — Revue globale de l'application *(terminé le 16/10)*
+
+1. **Pourquoi.** Plan v2 : une revue de l'application entière, pas des
+   diffs (`/revue-globale`), puis ses corrections.
+2. **Revues.** Personas (Cédric, Marie, Hugo, Léa, Inès) 84 k ; revue
+   adverse du code entier 133 k.
+3. **Corrigé.**
+   - Service worker : une réponse 404 ou 500 du réseau remplaçait la copie
+     gardée ; elle sert désormais de repli, comme une coupure (test unitaire
+     qui exécute `sw.js`, vu rouge).
+   - Nouvelle version : rien ne prévenait, l'ancienne restait servie. Un
+     bandeau « Une nouvelle version de Mousse de Poche est prête » avec un bouton qui l'active
+     et recharge ; jamais de rechargement sans ce geste.
+   - Recherche : un texte fait de ponctuation seule (« - ») levait le rayon
+     (« toutes distances ») sans rien chercher ; les deux recherches lisent
+     désormais les mêmes mots (`motsCherches`, test vu rouge).
+   - Zone vide (Lille) : l'écran dit la brasserie la plus proche du fichier,
+     à quelle distance, et les 9 départements qu'il couvre.
+   - Haut de page : le texte de confidentialité est replié derrière
+     « Votre position reste dans ce téléphone. Ce qui part sur le réseau » ;
+     il dit aussi qu'une commune choisie fait demander au site la liste des
+     communes de sa région. La liste commence à 1,98 écran (Pixel 7, mesuré
+     le 16/10) au lieu de 2,2 : mieux, pas assez (BACKLOG).
+   - Deux champs confondus : « Chercher une brasserie (nom ou commune) »
+     face à « Ou partir d'une commune, partout en France ».
+   - Pied de page hors ligne : dit ce qui marche sans réseau, et que la
+     recherche de commune le demande la première fois.
+   - Liens d'attribution de la carte (OpenStreetMap) : nouvel onglet, sans
+     adresse d'origine (test).
+   - Deux commentaires faux corrigés (Carte : « 640 m » ; signalement : la
+     longueur maximale de l'URL, 1 446).
+4. **Mesuré sans défaut.** Porte complète : lint, `tsc -b`, 223 tests
+   unitaires, build, 83 e2e (1 sauté : la page publiée, hors CI).
+5. **Reste** (BACKLOG) : cadrage de la carte après un nom tapé ; communes
+   indisponibles hors ligne avant une première recherche ; pas de CSP ;
+   haut de page encore long ; aucun essai sur un vrai téléphone ; les trous
+   de données (téléphones, horaires, bières) attendent les lots de Cédric.

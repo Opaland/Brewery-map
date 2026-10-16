@@ -198,6 +198,16 @@ chacun demande une décision ou une vérification de source.
   l'affirme pour toute précision `commune`, mais 25 communes ont plusieurs
   points distincts dans le fichier. À vérifier d'où viennent ces points.
 
+- Revue globale S22 — restes :
+  - la liste commence encore à 1,98 écran sur téléphone (Pixel 7, mesuré le
+    16/10) : le bloc de départ et les filtres pourraient se replier ;
+  - avec un nom de brasserie tapé, la carte reste cadrée sur le rayon ;
+  - la recherche de commune ne marche hors ligne qu'après une première
+    recherche en ligne (fichiers gardés à la lecture, pas d'avance) ;
+  - pas de Content-Security-Policy (GitHub Pages ne pose pas d'en-tête ;
+    une balise `<meta>` serait possible) ;
+  - rien n'est essayé sur un vrai téléphone.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

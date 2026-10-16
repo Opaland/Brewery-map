@@ -146,7 +146,11 @@ test.describe('sans carte', () => {
     await page.goto('/')
     await versLaCarte(page)
     const carte = page.getByTestId('carte')
-    await expect(carte.getByRole('link', { name: 'contributeurs OpenStreetMap' })).toBeVisible()
+    const attribution = carte.getByRole('link', { name: 'contributeurs OpenStreetMap' })
+    await expect(attribution).toBeVisible()
+    // Nouvel onglet, sans adresse d'origine (revue globale S22).
+    await expect(attribution).toHaveAttribute('target', '_blank')
+    await expect(attribution).toHaveAttribute('rel', 'noopener noreferrer')
   })
 })
 
