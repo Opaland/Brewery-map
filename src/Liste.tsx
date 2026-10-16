@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
 import {
@@ -10,6 +10,7 @@ import {
   SENS_CONFIANCE,
 } from './core/fiche'
 import { estDeOsm, noteDeLigne, siteOsm } from './core/osm-france'
+import { lienDeFiche } from './core/partage'
 import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
 import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
@@ -39,6 +40,47 @@ export const AIDE_SIGNALEMENT = `Ouvre GitHub dans un nouvel onglet, avec la fic
 const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`
 
 /**
+ * Partager une fiche (S27) : le menu de partage du téléphone, ou le lien
+ * copié. Le lien ne porte que le nom (`core/partage.ts`).
+ */
+function BoutonPartager({ nom }: { nom: string }) {
+  const [etat, setEtat] = useState<'' | 'copie' | 'echec'>('')
+  const partager = () => {
+    const url = lienDeFiche(window.location.href, nom)
+    if (typeof navigator.share === 'function') {
+      // Refermer le menu de partage rejette la promesse : rien à dire.
+      navigator.share({ title: `${nom} — Mousse de Poche`, url }).catch(() => undefined)
+      return
+    }
+    // Certains navigateurs (page non sécurisée, vue intégrée) n'ont pas de
+    // presse-papiers : l'écran le dit, sans erreur (revue S27).
+    const pressePapiers = (navigator as { clipboard?: Clipboard }).clipboard
+    if (pressePapiers === undefined) {
+      setEtat('echec')
+      return
+    }
+    pressePapiers.writeText(url).then(
+      () => {
+        setEtat('copie')
+      },
+      () => {
+        setEtat('echec')
+      },
+    )
+  }
+  return (
+    <>
+      <button type="button" onClick={partager} data-testid="bouton-partager">
+        Partager
+      </button>
+      <span className="fiche-aide" role="status" data-testid="partage-etat">
+        {etat === 'copie' ? 'Lien copié.' : etat === 'echec' ? 'Copie impossible ici.' : ''}
+      </span>
+    </>
+  )
+}
+
+/**
  * La fiche détaillée, dépliée sous sa ligne. Pas de fenêtre par-dessus : sur
  * un téléphone, la liste reste le fil, et le retour est le même geste.
  */
@@ -64,6 +106,7 @@ function Fiche({
         <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
           {favori ? '★ Retirer de mes favoris' : '☆ Ajouter à mes favoris'}
         </button>
+        <BoutonPartager nom={brasserie.n} />
       </div>
       <Contact brasserie={brasserie} />
       {/* Les horaires avant l'itinéraire : savoir si c'est ouvert avant d'y
@@ -108,9 +151,27 @@ function Fiche({
         <dt>Vérifiée le</dt>
         <dd data-testid="fiche-verification">{libelleVerification(brasserie.verifieLe)}</dd>
 
+        {brasserie.fermee !== undefined && (
+          <>
+            <dt>Fermée</dt>
+            <dd data-testid="fiche-fermee">
+              Selon{' '}
+              <a href={brasserie.fermee.source} target="_blank" rel="noopener noreferrer">
+                {hoteDeSource(brasserie.fermee.source) ?? 'la source'}
+              </a>
+              , lue le {libelleVerification(brasserie.fermee.verifieLe)}.
+            </dd>
+          </>
+        )}
+
         <dt>Confiance</dt>
         <dd data-testid="fiche-confiance">
           {libelleConfiance(brasserie.conf)}
+          {brasserie.conf === 'faible' && (
+            <span className="fiche-aide" data-testid="fiche-verifier">
+              Vérifiez avant d’y aller : appelez, ou lisez la source.
+            </span>
+          )}
           <span className="fiche-aide">{SENS_CONFIANCE[brasserie.conf]}</span>
           <span className="fiche-aide" data-testid="fiche-avertissement">
             {avertissementHoraires(brasserie)}
@@ -221,6 +282,20 @@ export function Liste({
                   <span className="badge-osm" data-testid="badge-osm">
                     {' '}
                     · OpenStreetMap
+                  </span>
+                )}
+                {/* Décision #39 : la confiance faible dit quoi faire, dès la ligne. */}
+                {brasserie.conf === 'faible' && (
+                  <span className="badge-verifier" data-testid="badge-verifier">
+                    {' '}
+                    · vérifiez avant d’y aller
+                  </span>
+                )}
+                {/* Décision #35 : une fiche fermée ne paraît que cherchée par son nom. */}
+                {brasserie.fermee !== undefined && (
+                  <span className="badge-fermee" data-testid="badge-fermee">
+                    {' '}
+                    · fermée
                   </span>
                 )}
               </span>

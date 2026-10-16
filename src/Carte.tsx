@@ -11,7 +11,7 @@ import {
 import type { FeatureCollection } from 'geojson'
 import urlDuWorker from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import { CATEGORIES } from './core/categories'
+import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import type { Point } from './core/distance'
 import { empriseDesPoints, type Emprise } from './core/emprise'
 import type { Resultat } from './core/recherche'
@@ -378,6 +378,24 @@ export default function Carte({
         aria-label="Carte des brasseries (la liste contient les mêmes informations)"
         data-testid="carte"
       />
+      {/* La légende, visible sans ouvrir de fiche (S27 ; idée vue sur Open
+          Brewery Map). Les couleurs sont celles des marqueurs. */}
+      <ul className="legende-carte" aria-label="Légende de la carte" data-testid="legende-carte">
+        {ORDRE_CATEGORIES.map((cat) => (
+          <li key={cat} className={`cat-${String(cat)}`}>
+            <span className="pastille" aria-hidden="true" />
+            {CATEGORIES[cat]}
+          </li>
+        ))}
+        <li>
+          <span className="pastille pastille-groupe" aria-hidden="true" />
+          Plusieurs brasseries
+        </li>
+        <li>
+          <span className="pastille pastille-depart" aria-hidden="true" />
+          Point de départ
+        </li>
+      </ul>
       {fondAbsent && (
         <p className="carte-fond-absent" role="status" data-testid="fond-absent">
           Fond de carte incomplet ou indisponible. Les brasseries restent placées, et la liste

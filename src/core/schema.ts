@@ -232,6 +232,13 @@ export const brasserieObjetSchema = z
     verifieLe: z.iso.date().optional(),
     contact: contactSchema.optional(),
     horaires: horairesSchema.optional(),
+    /**
+     * Fermée (décision #35, `docs/DECISIONS.md`) : la source qui le dit, et
+     * quand on l'a lue. Une fiche fermée sort de la liste par défaut et
+     * reste trouvable par son nom. Marquer une fiche fermée est une ligne de
+     * `data/` : un lot, accepté par Cédric (CLAUDE.md §0).
+     */
+    fermee: z.object({ source: lienSchema, verifieLe: z.iso.date() }).strict().optional(),
   })
   .strict()
 

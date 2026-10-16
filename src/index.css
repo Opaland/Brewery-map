@@ -264,6 +264,8 @@ a { color: inherit; }
 .ligne-distance { color: var(--encre); font-size: var(--texte-corps); font-weight: 600; }
 .ligne-note { font-size: var(--texte-secondaire); }
 .badge-osm { color: var(--encre-douce); }
+.badge-verifier { color: var(--encre-douce); font-style: italic; }
+.badge-fermee { font-weight: 700; }
 
 .badge {
   display: inline-flex;
@@ -472,3 +474,31 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
   margin: var(--espace-4) 0;
 }
 .bandeau-mise-a-jour button { min-height: 44px; }
+
+/* Un lien qui a l'allure d'un bouton : Ma tournée (S27). */
+.bouton-lien {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--espace-6);
+  border: 1px solid var(--encre);
+  border-radius: var(--rayon-md);
+  color: var(--encre);
+  text-decoration: none;
+  font-weight: 600;
+}
+.tournee { display: grid; gap: var(--espace-2); }
+
+/* Légende de la carte (S27). */
+.legende-carte {
+  list-style: none;
+  margin: var(--espace-2) 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-2) var(--espace-6);
+  font-size: var(--texte-secondaire);
+}
+.legende-carte li { display: inline-flex; align-items: center; gap: var(--espace-2); }
+.pastille-groupe { background: #1e2b23; }
+.pastille-depart { background: #fff; border: 3px solid #1e2b23; box-sizing: border-box; }

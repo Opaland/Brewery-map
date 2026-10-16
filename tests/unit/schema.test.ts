@@ -74,3 +74,15 @@ describe('la date de vérification', () => {
     expect(erreursDe({ ...valide, verifieLe: '2026-13-40' })).not.toEqual([])
   })
 })
+
+describe('statut « fermée » (décision #35, S27)', () => {
+  const ligne = LIGNES_REELLES[0]
+  it('accepté avec sa source et sa date', () => {
+    const v = validerBrasseries([{ ...ligne, fermee: { source: 'https://untappd.com/b', verifieLe: '2026-10-16' } }])
+    expect(v.ok).toBe(true)
+  })
+  it('refusé sans source', () => {
+    const v = validerBrasseries([{ ...ligne, fermee: { verifieLe: '2026-10-16' } }])
+    expect(v.ok).toBe(false)
+  })
+})

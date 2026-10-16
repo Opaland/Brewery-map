@@ -23,6 +23,11 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
           à la brasserie.
         </p>
       )}
+      {/* Idée vue sur la carte des distilleries écossaises : « vérifiez
+          auprès de la distillerie avant de partir » (veille, S27). */}
+      <p className="fiche-aide" data-testid="verifier-avant">
+        Vérifiez avant de partir que la brasserie est ouverte et vous accueille.
+      </p>
       <ul className="fiche-liens">
         {liensItineraire(brasserie, plateformeDe(navigator.userAgent)).map((l) => (
           <li key={l.appli}>
