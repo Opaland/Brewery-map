@@ -61,6 +61,15 @@ chacun demande une décision ou une vérification de source.
   quel filtre les cache ; hors du mode « seulement », un favori hors rayon
   n'est pas signalé (revue Marie S9).
 
+- Signalement (S10) : **décision de Cédric** — une voie hors GitHub (une
+  adresse de courriel dédiée ?) pour une brasserie sans compte. Aucune
+  adresse n'est inventée ; l'écran dit qu'il n'y a pas d'autre moyen pour
+  l'instant (revue métier S10).
+- Signalement (S10) : le texte recopié dans l'issue (nom, adresse, source)
+  n'a pas de longueur maximale au schéma ; le test de longueur ne garde que
+  les lignes présentes (revue code S10, risque théorique : 929 caractères au
+  plus mesurés pour 2 000 retenus).
+
 ## Lots de curation non faits
 
 *(rempli en S5)*
