@@ -269,7 +269,7 @@ export function ficheDuSignalement(titre: string, brasseries: readonly Brasserie
  * Le numéro proposé figure-t-il sur la page lue ? Contrôle mécanique de
  * l'extrait (revue code S11 : seule une source sur cinq était rouverte à la
  * main). Entre les chiffres du numéro, un séparateur au plus (espace, point,
- * tiret, espace insécable) ; « +33 4 » vaut « 04 » ; un chiffre collé avant
+ * tiret, espace insécable) ; « +33 4 » et « +33 (0)4 » valent « 04 » ; un chiffre collé avant
  * ou après fait échouer, pour ne pas lire un numéro dans un autre. Les
  * séparateurs ne sont pas retirés de toute la page : « 91 1932 Route » y
  * collait le numéro de rue au numéro (vu sur la page de Kachmar, 16/10).
@@ -278,5 +278,5 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const [premier = '', ...reste] = tel.replace(/\D/g, '').slice(1)
   const sep = '[\\s.\\-\\u2013\\u00a0]?'
   const corps = [premier, ...reste].join(sep)
-  return new RegExp(`(?<![\\d+])(?:0|\\+33\\s?|0033\\s?)${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+  return new RegExp(`(?<![\\d+])(?:0|(?:\\+33|0033)\\s?(?:\\(0\\)\\s?)?)${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
 }

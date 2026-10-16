@@ -277,6 +277,8 @@ describe('un numéro proposé se lit sur sa source (revue code S11)', () => {
       '+33 4 72 50 88 53',
       // Vu sur la page de Brasserie Kachmar (16/10) : le numéro de rue suit.
       'Tél : 04 72 50 88 53 1932 Route de Villefranche',
+      // Vu sur la page de Brasserie Georges (16/10).
+      'Tel : +33 (0)4 72 50 88 53',
     ]) {
       expect(numeroSurLaPage('04 72 50 88 53', page)).toBe(true)
     }
