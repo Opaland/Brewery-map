@@ -17,7 +17,11 @@ import {
   plusProche,
   rechercher,
   rechercherPartout,
+  compterParDepartement,
 } from './core/recherche'
+import { libelleDepartement } from './core/departements'
+import { ficheDuLien } from './core/partage'
+import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Brasserie, Categorie } from './core/schema'
@@ -52,11 +56,16 @@ function texteDuCompte(
   favorisSeulement: boolean,
   nbFavoris: number,
   partout: boolean,
+  departement?: string,
 ): string {
-  // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon.
-  const ou = partout
-    ? `toutes distances, comptées depuis ${origine}`
-    : `à moins de ${String(rayonKm)} km de ${origine}`
+  // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon ;
+  // un département choisi (S27) le dit.
+  const ou =
+    departement !== undefined
+      ? `dans le département ${libelleDepartement(departement)}, distances depuis ${origine}`
+      : partout
+        ? `toutes distances, comptées depuis ${origine}`
+        : `à moins de ${String(rayonKm)} km de ${origine}`
   if (!favorisSeulement) {
     // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
     // disait pas que le fichier s'arrête loin de là (S21).
@@ -80,7 +89,10 @@ export function App({
   couche?: { brasseries: readonly Brasserie[]; extrait: string } | null
 }) {
   const ini = stockage.initiales
-  const [texte, setTexte] = useState('')
+  // Une fiche partagée (S27, `#fiche=…`) : son nom dans la recherche, et la
+  // fiche ouverte — trouvée à toute distance, comme un nom tapé.
+  const [ficheOuverte] = useState(() => ficheDuLien(window.location.hash))
+  const [texte, setTexte] = useState(ficheOuverte ?? '')
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
   const [origine, setOrigine] = useState<Origine>(() => origineDesPreferences(ini.depart, COMMUNES))
   // « Autour de moi » gardé mais pas encore relocalisé (permission non
@@ -93,11 +105,12 @@ export function App({
     setOrigine(o)
   }
   const [categories, setCategories] = useState<readonly Categorie[]>(ini.categories)
-  const [selection, setSelection] = useState<string | null>(null)
+  const [selection, setSelection] = useState<string | null>(ficheOuverte ?? null)
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
   const [avecOsm, setAvecOsm] = useState(ini.avecOsm)
+  const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   const [annonce, setAnnonce] = useState('')
   const compte = useRef<HTMLParagraphElement>(null)
@@ -225,6 +238,11 @@ export function App({
   // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
   const cherchees = avecOsm ? toutes : BRASSERIES
 
+  const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
+  // Un département qui n'a plus de brasserie (couche OSM décochée) tombe :
+  // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
+  const departement =
+    departementChoisi !== undefined && parDepartement.has(departementChoisi) ? departementChoisi : undefined
   const resultats = useMemo(
     () =>
       rechercher(cherchees, {
@@ -234,10 +252,18 @@ export function App({
         categories,
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
+        ...(departement === undefined ? {} : { departement }),
       }),
-    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris],
+    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, departement],
   )
 
+  // Ma tournée (S27) : les favoris encore présents, de proche en proche.
+  const tournee = useMemo(() => {
+    const etapes = toutes.filter((b) => ensembleFavoris.has(b.n) && b.fermee === undefined)
+    const ordre = ordonnerTournee(etapes, origine.point)
+    return { etapes: ordre.map((b) => b.n), lien: lienTournee(ordre), total: etapes.length }
+  }, [toutes, ensembleFavoris, origine])
+  const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).
@@ -379,6 +405,28 @@ export function App({
           />
         </label>
 
+        {/* Parcourir un département (S27 ; idée vue sur biere-tourisme.fr) :
+            découvrir une région sans donner sa position. */}
+        <label className="champ">
+          <span>Ou parcourir un département</span>
+          <select
+            value={departement ?? ''}
+            onChange={(e) => {
+              setDepartement(e.target.value === '' ? undefined : e.target.value)
+            }}
+            data-testid="departement"
+          >
+            <option value="">Non : autour du point de départ</option>
+            {[...parDepartement.entries()]
+              .sort(([a], [b]) => a.localeCompare(b))
+              .map(([code, n]) => (
+                <option key={code} value={code}>
+                  {libelleDepartement(code)} ({n})
+                </option>
+              ))}
+          </select>
+        </label>
+
         <fieldset className="categories">
           <legend>Ce qu’on peut y faire</legend>
           {ORDRE_CATEGORIES.map((cat) => (
@@ -427,6 +475,7 @@ export function App({
           onSeulement={setFavorisSeulement}
           stockageDisponible={stockage.disponible}
           onEffacer={toutEffacer}
+          tournee={tournee}
         />
       </section>
 
@@ -438,12 +487,13 @@ export function App({
           libelleOrigine(origine),
           favorisSeulement,
           nbFavorisConnus,
-          rechercherPartout({ texte }),
+          partout,
+          departement,
         )}
       </p>
       {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
           couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
-      {resultats.length === 0 && !favorisSeulement && !rechercherPartout({ texte }) && (
+      {resultats.length === 0 && !favorisSeulement && !partout && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
             const p = plusProche(cherchees, origine.point)
@@ -489,7 +539,7 @@ export function App({
       <div className="vues">
         <CarteDifferee
           resultats={resultats}
-          cadrerSurResultats={rechercherPartout({ texte }) && resultats.length > 0}
+          cadrerSurResultats={partout && resultats.length > 0}
           origine={origine.point}
           libelleOrigine={libelleOrigine(origine)}
           rayonKm={rayonKm}

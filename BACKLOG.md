@@ -204,6 +204,14 @@ chacun demande une décision ou une vérification de source.
   - « Confiance : faible » donne la définition, pas quoi en faire (« vérifiez
     avant d'y aller ») : formulation à proposer à Cédric ;
 
+- S27 — restes de la revue adverse :
+  - un favori **fermé** est dit « caché par la distance ou les filtres »,
+    sans la vraie raison ; la tournée l'écarte sans le dire ;
+  - après un lien partagé, le nom reste dans le champ de recherche : rien
+    ne dit de l'effacer pour revenir à la liste autour du départ ;
+  - les nombres du menu des départements ignorent les catégories cochées et
+    le type de bière.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

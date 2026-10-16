@@ -1472,3 +1472,51 @@ l'appli ».
    - **un doublon manqué** (« L'écume du Guier » / « Guiers ») : le pluriel
      ne distingue plus.
    - Lien ODbL en pied de page ; texte du filtre type précisé.
+
+## S27 — Les meilleures idées de la veille *(16/10)*
+
+1. **Pourquoi.** Cédric : « recherche si une application existe déjà ou
+   proche (vin, whisky…) et prends les meilleures idées ». La veille est
+   dans `docs/VEILLE-CONCURRENCE.md` ; deux décisions de `docs/DECISIONS.md`
+   (#35, #39) s'y ajoutent.
+2. **Fait** (tests : `tests/e2e/idees.spec.ts`, `tests/unit/tournee`,
+   `partage`, `departements`, `recherche`, `schema`).
+   - **Parcourir un département**, idée vue sur biere-tourisme.fr. Un menu
+     liste les départements avec le nombre de brasseries de chacun (noms du
+     COG via Etalab). Choisir un département montre toutes ses brasseries, à
+     toute distance.
+   - **Ma tournée**, idée des circuits de distilleries et de la route du
+     cidre. Les favoris sont rangés de proche en proche depuis le départ,
+     dans le téléphone, puis ouverts d'un lien dans Google Maps. Le lien
+     porte quatre étapes au plus, la limite des navigateurs de téléphone
+     selon la documentation de Google lue le 16/10. Il n'a pas d'`origin` :
+     Google part de la position de l'appareil s'il y a accès, et ce site ne
+     l'envoie pas.
+   - **Légende de la carte**, sous la carte, idée vue sur Open Brewery Map.
+   - **« Vérifiez avant de partir »** près de « Y aller », idée vue sur la
+     carte de la Scotch Whisky Association. Pour une confiance faible,
+     « vérifiez avant d'y aller » s'affiche dès la ligne et dans la fiche
+     (décision #39).
+   - **Statut « fermée »** au schéma, facultatif, avec sa source et sa date
+     (décision #35). Une fiche fermée sort de la liste et ne se trouve plus
+     que par son nom. Aucune ligne de `data/` ne l'a encore.
+   - **Partager une fiche** : le menu de partage du téléphone, ou le lien
+     copié. Le lien `#fiche=Nom` ouvre la fiche, même hors du rayon. Il ne
+     porte que le nom, dans le fragment, que le navigateur n'envoie pas au
+     serveur. C'est le levier marketing n° 1 (`docs/MARKETING.md`).
+   - **« Corriger sur OpenStreetMap »** : fait en S25.
+3. **Revue adverse** (45 k). Deux défauts reproduits, corrigés et testés :
+   - **département « fantôme »** : un département qui n'avait que des fiches
+     OSM restait actif, invisible, quand on décochait la couche OSM. Il
+     tombe désormais.
+   - **« Partager » sans presse-papiers** (vue intégrée, page non sécurisée) :
+     l'erreur n'était pas rattrapée. L'écran dit « Copie impossible ici. ».
+
+   Un troisième point, lu dans le code : les fiches fermées comptaient dans
+   le nombre affiché par département. Elles n'y comptent plus.
+4. **Restes** (BACKLOG) :
+   - un favori fermé est dit « caché par la distance ou les filtres » ;
+     aucune ligne n'est encore fermée ;
+   - le texte prérempli par un lien partagé reste dans le champ de
+     recherche ;
+   - les nombres par département ignorent les catégories cochées.

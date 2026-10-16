@@ -12,6 +12,8 @@ export interface Criteres {
   type?: TypeDeBiere
   /** Ne garder que ces noms (« mes favoris seulement », S9) ; absent = tous. */
   seulement?: ReadonlySet<string>
+  /** Un département (« 73 ») : ses brasseries, à toute distance (S27). */
+  departement?: string
 }
 
 export interface Resultat {
@@ -74,8 +76,9 @@ function trouve(texte: string, mot: string): boolean {
  * « Ninkasi » depuis Brest doit le trouver. Le compte le dit (`App.tsx`).
  * Une seule fonction, lue par la recherche et par le compte (CLAUDE.md §4).
  */
-export function rechercherPartout(criteres: Pick<Criteres, 'texte'>): boolean {
-  return motsCherches(criteres.texte).length > 0
+/** Un nom tapé ou un département choisi cherche à toute distance. */
+export function rechercherPartout(criteres: Pick<Criteres, 'texte' | 'departement'>): boolean {
+  return motsCherches(criteres.texte).length > 0 || criteres.departement !== undefined
 }
 
 /**
@@ -112,12 +115,15 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
     if (!categories.has(brasserie.cat)) continue
     if (criteres.seulement !== undefined && !criteres.seulement.has(brasserie.n)) continue
     if (criteres.type !== undefined && !brasserie.beers.some((b) => b.type === criteres.type)) continue
+    if (criteres.departement !== undefined && brasserie.d !== criteres.departement) continue
+    // Fermée (décision #35) : hors de la liste, sauf cherchée par son nom.
+    if (brasserie.fermee !== undefined && mots.length === 0) continue
     if (mots.length > 0) {
       const texte = cible(brasserie)
       if (!mots.every((mot) => trouve(texte, mot))) continue
     }
     const d = distanceKm(criteres.origine, brasserie)
-    if (mots.length === 0 && d > criteres.rayonKm) continue
+    if (!rechercherPartout(criteres) && d > criteres.rayonKm) continue
     resultats.push({ brasserie, distanceKm: d })
   }
   return resultats.sort((a, b) => a.distanceKm - b.distanceKm)
@@ -147,4 +153,12 @@ export function listeCourte(noms: readonly string[], max = 5): string {
   if (noms.length <= max) return noms.join(', ')
   const reste = noms.length - max
   return `${noms.slice(0, max).join(', ')} et ${String(reste)} autre${reste > 1 ? 's' : ''}`
+}
+
+/** Le nombre de brasseries par département, pour les parcourir (S27). */
+export function compterParDepartement(brasseries: readonly Brasserie[]): Map<string, number> {
+  const compte = new Map<string, number>()
+  // Les fermées ne comptent pas : la liste ne les montre pas (revue S27).
+  for (const b of brasseries) if (b.fermee === undefined) compte.set(b.d, (compte.get(b.d) ?? 0) + 1)
+  return compte
 }

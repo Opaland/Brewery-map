@@ -11,6 +11,8 @@ interface Props {
   /** Vrai quand ce navigateur ne laisse rien garder (navigation privée…). */
   stockageDisponible: boolean
   onEffacer: () => void
+  /** Ma tournée (S27) : les étapes dans l'ordre, et le lien qui les ouvre. */
+  tournee?: { etapes: readonly string[]; lien: string; total: number }
 }
 
 /**
@@ -25,6 +27,7 @@ export function MesFavoris({
   onSeulement,
   stockageDisponible,
   onEffacer,
+  tournee,
 }: Props) {
   // Effacer se confirme : un toucher de travers ne doit pas coûter tous les
   // favoris (revue Marie S9).
@@ -47,6 +50,28 @@ export function MesFavoris({
         <p className="champ-aide">
           Touchez une brasserie de la liste, puis « Ajouter à mes favoris ».
         </p>
+      )}
+      {/* Ma tournée (S27 ; idée vue sur les circuits des distilleries
+          écossaises et la route du cidre). */}
+      {tournee !== undefined && tournee.etapes.length >= 2 && (
+        <div className="tournee" data-testid="tournee">
+          <p className="champ-aide">
+            Ma tournée :{' '}
+            {tournee.etapes.join(' → ')}
+            {tournee.total > tournee.etapes.length
+              ? ` (les ${String(tournee.etapes.length)} plus proches sur ${String(tournee.total)} : Google Maps n'en ouvre pas plus d'un coup sur téléphone)`
+              : ''}
+            .
+          </p>
+          <a className="bouton-lien" href={tournee.lien} target="_blank" rel="noopener noreferrer" data-testid="tournee-lien">
+            Ouvrir la tournée dans Google Maps
+          </a>
+          <p className="fiche-aide">
+            L’ordre se calcule dans ce téléphone, de proche en proche depuis votre départ. Le
+            lien ne contient que les brasseries ; Google Maps part de votre position s’il
+            y a accès. Vérifiez avant de partir que chacune vous accueille.
+          </p>
+        </div>
       )}
       {orphelins.length > 0 && (
         <div className="champ-aide" data-testid="favoris-orphelins">

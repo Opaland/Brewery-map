@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { BRIGNAIS } from '../../src/core/distance'
 import {
+  compterParDepartement,
   favorisCaches,
   listeCourte,
   normaliser,
@@ -152,5 +153,50 @@ describe('listeCourte (S24 : favoris cachés, liste bornée)', () => {
   it('au-delà : les cinq premiers, et le compte du reste', () => {
     expect(listeCourte(['A', 'B', 'C', 'D', 'E', 'F', 'G'])).toBe('A, B, C, D, E et 2 autres')
     expect(listeCourte(['A', 'B', 'C', 'D', 'E', 'F'])).toBe('A, B, C, D, E et 1 autre')
+  })
+})
+
+describe('parcourir par département (S27, idée vue sur biere-tourisme.fr)', () => {
+  const reelles = LIGNES_REELLES as unknown as Brasserie[]
+  const savoie = { ...reelles[0], n: 'En Savoie', c: 'Chambéry', d: '73', lat: 45.57, lon: 5.92 }
+  const toutes = [...reelles, savoie]
+  it('un département : toutes ses brasseries, à toute distance', () => {
+    const r = rechercher(toutes, {
+      origine: BRIGNAIS,
+      rayonKm: 5,
+      texte: '',
+      categories: [0, 1, 2, 3],
+      departement: '73',
+    })
+    expect(r.length).toBeGreaterThan(0)
+    expect(r.every((x) => x.brasserie.d === '73')).toBe(true)
+    expect(r.some((x) => x.distanceKm > 5)).toBe(true)
+    expect(rechercherPartout({ texte: '', departement: '73' })).toBe(true)
+  })
+
+  it('le compte par département', () => {
+    const c = compterParDepartement(toutes)
+    expect(c.get('73')).toBe(toutes.filter((b) => b.d === '73').length)
+  })
+})
+
+describe('une brasserie fermée (décision #35)', () => {
+  const reelles = LIGNES_REELLES as unknown as Brasserie[]
+  const fermee = { ...reelles[0], n: 'Porte Close', fermee: { source: 'https://exemple.fr', verifieLe: '2026-10-16' } }
+  const criteres = { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: [0, 1, 2, 3] as const }
+
+  it('sort de la liste par défaut', () => {
+    expect(rechercher([fermee], { ...criteres, categories: [0, 1, 2, 3] }).map((r) => r.brasserie.n)).toEqual([])
+  })
+  it('reste trouvable par son nom', () => {
+    expect(rechercher([fermee], { ...criteres, categories: [0, 1, 2, 3], texte: 'porte close' })).toHaveLength(1)
+  })
+})
+
+describe('compte par département sans les fermées (revue S27)', () => {
+  it('une fermée ne compte pas', () => {
+    const r = (LIGNES_REELLES as unknown as Brasserie[])[0]
+    const fermee = { ...r, n: 'Close', fermee: { source: 'https://exemple.fr', verifieLe: '2026-10-16' } }
+    expect(compterParDepartement([r, fermee]).get(r.d)).toBe(1)
   })
 })
