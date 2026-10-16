@@ -96,7 +96,7 @@ test.describe('trouver une brasserie (Marie)', () => {
     test.skip(nbAvecBieres > 0, 'des types sont référencés : ce cas ne se présente plus')
     await page.goto('/')
     await expect(page.getByTestId('type-absent')).toContainText(
-      'aucune brasserie n’a encore ses types référencés',
+      'aucun encore référencé',
     )
     await expect(page.getByTestId('type')).toHaveCount(0)
   })

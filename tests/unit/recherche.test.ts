@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import { BRIGNAIS } from '../../src/core/distance'
-import { favorisCaches, normaliser, plusProche, rechercher, rechercherPartout } from '../../src/core/recherche'
+import {
+  favorisCaches,
+  listeCourte,
+  normaliser,
+  plusProche,
+  rechercher,
+  rechercherPartout,
+} from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -15,6 +22,11 @@ const base = {
 }
 
 describe('normaliser', () => {
+  it('décompose les ligatures : « baroeul » trouve Marcq-en-Barœul (S24)', () => {
+    expect(normaliser('Marcq-en-Barœul')).toBe('marcq en baroeul')
+    expect(normaliser('ÆSIR Cœur')).toBe('aesir coeur')
+  })
+
   it('ignore la casse, les accents et les tirets', () => {
     expect(normaliser('Soucieu-en-Jarrest')).toBe(normaliser('soucieu en jarrest'))
     expect(normaliser('Vénissieux')).toBe('venissieux')
@@ -130,5 +142,15 @@ describe('quand rien n’est à portée (revue globale S22)', () => {
     expect(p?.brasserie.n).toBe(TOUTES[toutes.indexOf(Math.min(...toutes))]?.n)
     expect(p?.distanceKm).toBeGreaterThan(400)
     expect(plusProche([], lille)).toBeUndefined()
+  })
+})
+
+describe('listeCourte (S24 : favoris cachés, liste bornée)', () => {
+  it('jusqu’à cinq noms : tous', () => {
+    expect(listeCourte(['A', 'B'])).toBe('A, B')
+  })
+  it('au-delà : les cinq premiers, et le compte du reste', () => {
+    expect(listeCourte(['A', 'B', 'C', 'D', 'E', 'F', 'G'])).toBe('A, B, C, D, E et 2 autres')
+    expect(listeCourte(['A', 'B', 'C', 'D', 'E', 'F'])).toBe('A, B, C, D, E et 1 autre')
   })
 })

@@ -83,24 +83,19 @@ chacun demande une décision ou une vérification de source.
   une seule tuile en échec et peut clignoter (revue code S7).
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
   la carte (revue adverse S2).
-- Recherche : les ligatures (œ, æ) ne sont pas décomposées ; aucune n'existe
-  dans les données au 15/10 (revue adverse S2).
 - La carte (MapLibre) pèse 282 ko gzip, chargée à part de la liste (mesuré
   au build du 15/10). Mesure Lighthouse en S6.
 - Scripts de garde de Sentiers non repris (`listes`, `textes`, `chemins`) :
   à reprendre si un raté de la même famille se produit ici.
 
-- Favoris (S9) : deux onglets ouverts s'écrasent — chacun réécrit l'objet
-  entier depuis sa mémoire ; un favori ajouté dans l'un disparaît si l'autre
-  écrit ensuite (revue code S9, déduit du code, non exercé).
 - Favoris (S9) : le bouton n'est que dans la fiche dépliée ; l'étoile de la
   ligne n'est pas un bouton. À juger avec Inès (S18) : un second bouton par
   ligne double le nombre d'arrêts au clavier (revue Marie S9).
 - Filtres : le bloc s'allonge à chaque sprint (départ, recherche, distance,
   catégories, type, favoris) et repousse la liste ; hauteur non mesurée sur
   téléphone — à mesurer en S18/S20 (revue Marie S9).
-- Favoris cachés : le message liste tous les noms sans limite et ne dit pas
-  quel filtre les cache ; hors du mode « seulement », un favori hors rayon
+- Favoris cachés : la liste est bornée à cinq noms depuis S24 ; elle ne dit
+  pas quel filtre les cache ; hors du mode « seulement », un favori hors rayon
   n'est pas signalé (revue Marie S9).
 
 - Signalement (S10) : **décision de Cédric** — une voie hors GitHub (une
@@ -201,19 +196,13 @@ chacun demande une décision ou une vérification de source.
 - Revue globale S22 — restes :
   - la liste commence encore à 1,98 écran sur téléphone (Pixel 7, mesuré le
     16/10) : le bloc de départ et les filtres pourraient se replier ;
-  - avec un nom de brasserie tapé, la carte reste cadrée sur le rayon ;
   - la recherche de commune ne marche hors ligne qu'après une première
     recherche en ligne (fichiers gardés à la lecture, pas d'avance) ;
-  - pas de Content-Security-Policy (GitHub Pages ne pose pas d'en-tête ;
-    une balise `<meta>` serait possible) ;
   - rien n'est essayé sur un vrai téléphone.
 
 - Revue UI/UX du 16/10 — restes :
   - « Confiance : faible » donne la définition, pas quoi en faire (« vérifiez
     avant d'y aller ») : formulation à proposer à Cédric ;
-  - `.fiche a` étire chaque lien à 44 px de hauteur de ligne ; une marge
-    intérieure garderait la cible sans espacer la fiche ;
-  - le cartouche d'attribution OSM reste clair en thème sombre.
 
 ## Lots de curation non faits
 

@@ -22,7 +22,7 @@ const rendu = (n: [TypeDeBiere, number][]) =>
 describe('le filtre par type', () => {
   it('vide : il le dit, sans menu', () => {
     const html = rendu([])
-    expect(html).toContain('aucune brasserie n’a encore ses types référencés')
+    expect(html).toContain('aucun encore référencé')
     expect(html).not.toContain('<select')
   })
 

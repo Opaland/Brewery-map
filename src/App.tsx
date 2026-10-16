@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -11,7 +11,13 @@ import {
   versStockage,
   type Preferences,
 } from './core/preferences'
-import { favorisCaches, plusProche, rechercher, rechercherPartout } from './core/recherche'
+import {
+  favorisCaches,
+  listeCourte,
+  plusProche,
+  rechercher,
+  rechercherPartout,
+} from './core/recherche'
 import { formaterDistance } from './core/distance'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Categorie } from './core/schema'
@@ -161,6 +167,41 @@ export function App({ stockage }: { stockage: Stockage }) {
     stockage.garder(p)
   }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement])
 
+  // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
+  // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
+  // code S9, fait en S24). Les favoris passent d'un onglet à l'autre ; le
+  // reste des réglages suit le dernier onglet touché.
+  const canal = useRef<BroadcastChannel | null>(null)
+  const favorisPartages = useRef(JSON.stringify(favoris))
+  // Le canal s'ouvre une fois ; il appelle la remise à zéro par une référence.
+  const remettreAZeroRef = useRef<() => void>(() => undefined)
+  useEffect(() => {
+    if (typeof BroadcastChannel === 'undefined') return
+    const c = new BroadcastChannel('mousse-de-poche-favoris')
+    c.onmessage = (e: MessageEvent<unknown>) => {
+      const m = e.data as { type?: unknown; favoris?: unknown } | null
+      if (m?.type === 'effacer') {
+        remettreAZeroRef.current()
+        return
+      }
+      if (m?.type !== 'favoris' || !Array.isArray(m.favoris)) return
+      const recus = m.favoris.filter((x): x is string => typeof x === 'string')
+      favorisPartages.current = JSON.stringify(recus)
+      setFavoris(recus)
+    }
+    canal.current = c
+    return () => {
+      c.close()
+      canal.current = null
+    }
+  }, [])
+  useEffect(() => {
+    const texte = JSON.stringify(favoris)
+    if (texte === favorisPartages.current) return
+    favorisPartages.current = texte
+    canal.current?.postMessage({ type: 'favoris', favoris: [...favoris] })
+  }, [favoris])
+
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
 
   const resultats = useMemo(
@@ -191,20 +232,34 @@ export function App({ stockage }: { stockage: Stockage }) {
     if (retrait && favorisSeulement) compte.current?.focus()
   }
 
+  /**
+   * Les réglages par défaut, sans réécrire le stockage (vide). Sert à
+   * l'effacement ici et à celui fait dans un autre onglet : sans cela,
+   * l'autre onglet réécrivait ses réglages et défaisait l'effacement (revue
+   * adverse S24).
+   */
+  const remettreAZero = useCallback(() => {
+    const d = PREFERENCES_DEFAUT
+    dejaGarde.current = JSON.stringify(versStockage(d))
+    favorisPartages.current = JSON.stringify(d.favoris)
+    setRayonKm(d.rayonKm)
+    setCategories(d.categories)
+    setType(d.type)
+    setOrigine(origineDesPreferences(d.depart, COMMUNES))
+    setAutourEnAttente(false)
+    setFavoris(d.favoris)
+    setFavorisSeulement(d.favorisSeulement)
+  }, [])
+  useEffect(() => {
+    remettreAZeroRef.current = remettreAZero
+  }, [remettreAZero])
+
   const toutEffacer = () => {
     stockage
       .effacer()
       .then(() => {
-        const d = PREFERENCES_DEFAUT
-        // Le stockage est vide : remettre les défauts ne doit pas le réécrire.
-        dejaGarde.current = JSON.stringify(versStockage(d))
-        setRayonKm(d.rayonKm)
-        setCategories(d.categories)
-        setType(d.type)
-        setOrigine(origineDesPreferences(d.depart, COMMUNES))
-        setAutourEnAttente(false)
-        setFavoris(d.favoris)
-        setFavorisSeulement(d.favorisSeulement)
+        remettreAZero()
+        canal.current?.postMessage({ type: 'effacer' })
         setAnnonce('Favoris et réglages effacés de cet appareil.')
       })
       .catch(() => {
@@ -364,7 +419,7 @@ export function App({ stockage }: { stockage: Stockage }) {
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
           {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
-          par la distance ou les filtres : {caches.join(', ')}.
+          par la distance ou les filtres : {listeCourte(caches)}.
         </p>
       )}
 
@@ -375,6 +430,7 @@ export function App({ stockage }: { stockage: Stockage }) {
       <div className="vues">
         <CarteDifferee
           resultats={resultats}
+          cadrerSurResultats={rechercherPartout({ texte }) && resultats.length > 0}
           origine={origine.point}
           libelleOrigine={libelleOrigine(origine)}
           rayonKm={rayonKm}

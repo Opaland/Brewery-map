@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { mouvementReduit } from './mouvement'
 import {
   Map as CarteMapLibre,
@@ -13,6 +13,7 @@ import urlDuWorker from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { CATEGORIES } from './core/categories'
 import type { Point } from './core/distance'
+import { empriseDesPoints, type Emprise } from './core/emprise'
 import type { Resultat } from './core/recherche'
 import type { Categorie } from './core/schema'
 
@@ -28,6 +29,11 @@ interface Props {
   /** Pour le nom accessible du repère de départ. */
   libelleOrigine: string
   rayonKm: number
+  /**
+   * Un nom est tapé (S24) : la carte se cadre sur les brasseries trouvées,
+   * à toute distance, plutôt que sur le rayon qu'elles ignorent.
+   */
+  cadrerSurResultats?: boolean
   selection: string | null
   onChoisir: (nom: string) => void
 }
@@ -133,6 +139,7 @@ export default function Carte({
   origine,
   libelleOrigine,
   rayonKm,
+  cadrerSurResultats = false,
   selection,
   onChoisir,
 }: Props) {
@@ -309,13 +316,27 @@ export default function Carte({
     void carte.current?.getSource<GeoJSONSource>('brasseries')?.setData(versGeoJSON(resultats))
   }, [prete, resultats])
 
-  // Le repère et le cadre suivent le point de départ et le rayon.
+  // Comparé par valeur : `resultats` change d'identité à chaque favori
+  // touché, et la carte quittait la brasserie choisie (revue adverse S24).
+  const cleDuCadre = useMemo(
+    () =>
+      cadrerSurResultats
+        ? JSON.stringify(empriseDesPoints(resultats.map(({ brasserie: b }) => ({ lat: b.lat, lon: b.lon }))) ?? null)
+        : 'null',
+    [cadrerSurResultats, resultats],
+  )
+  const cadreDesResultats = useMemo(() => JSON.parse(cleDuCadre) as Emprise | null, [cleDuCadre])
+
+  // Le repère et le cadre suivent le point de départ et le rayon — ou, avec
+  // un nom tapé, les brasseries trouvées.
   useEffect(() => {
     repere.current?.setLngLat([origine.lon, origine.lat])
     repere.current?.getElement().setAttribute('aria-label', `Point de départ : ${libelleOrigine}`)
     if (!prete) return
-    carte.current?.fitBounds(emprise(origine, rayonKm), { duration: mouvementReduit() ? 0 : 300 })
-  }, [prete, origine, libelleOrigine, rayonKm])
+    carte.current?.fitBounds(cadreDesResultats ?? emprise(origine, rayonKm), {
+      duration: mouvementReduit() ? 0 : 300,
+    })
+  }, [prete, origine, libelleOrigine, rayonKm, cadreDesResultats])
 
   // La brasserie choisie est marquée, et la carte la centre — une fois, au
   // choix. Dépendre aussi des résultats recentrait la carte à chaque frappe

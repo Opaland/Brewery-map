@@ -47,7 +47,7 @@ test('les boutons de zoom font 44 px', async ({ page }) => {
 
 test('le texte de confidentialité montre qu’il se déplie', async ({ page }) => {
   const affichage = await page
-    .locator('.confidentialite summary')
+    .locator('[data-testid="depart"] .confidentialite summary')
     .evaluate((s) => getComputedStyle(s).display)
   expect(affichage).toBe('list-item')
 })
@@ -123,4 +123,39 @@ test('à 320 px, l’option active des communes est peinte, pas sous le compte (
   await champ.press('ArrowDown')
   await champ.press('ArrowDown')
   await expect.poll(peinte).toBe(true)
+})
+
+test('un nom tapé cadre la carte sur ce qu’il trouve, même hors du rayon (S24)', async ({ page }) => {
+  await page.getByTestId('rayon').fill('5')
+  await page.getByTestId('recherche').fill('tom & co')
+  await versLaCarte(page)
+  const marqueur = page.locator('.maplibregl-marker.marqueur[aria-label^="Tom & Co"]')
+  // Peint dans le cadre de la carte (CLAUDE.md §1bis), pas seulement présent.
+  await expect
+    .poll(async () => {
+      const m = await marqueur.boundingBox()
+      const c = await page.getByTestId('carte').boundingBox()
+      if (m === null || c === null) return false
+      const x = m.x + m.width / 2
+      const y = m.y + m.height / 2
+      return x > c.x && x < c.x + c.width && y > c.y && y < c.y + c.height
+    })
+    .toBe(true)
+})
+
+test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ page }) => {
+  await page.getByTestId('recherche').fill('tom')
+  await versLaCarte(page)
+  await page.locator('button.ligne').first().click()
+  const repere = page.locator('.marqueur-origine')
+  // La carte s'est posée sur la brasserie choisie.
+  await page.waitForTimeout(800)
+  const avant = await repere.boundingBox()
+  await page.getByTestId('bouton-favori').click()
+  await page.waitForTimeout(800)
+  const apres = await repere.boundingBox()
+  // À l'arrondi du sous-pixel près : un recadrage déplace le repère de
+  // centaines de pixels (mesuré : 140 et 243 px).
+  expect(Math.abs((apres?.x ?? 1e6) - (avant?.x ?? 0))).toBeLessThanOrEqual(2)
+  expect(Math.abs((apres?.y ?? 1e6) - (avant?.y ?? 0))).toBeLessThanOrEqual(2)
 })
