@@ -1417,11 +1417,14 @@ l'appli ».
      - 438 avec un code postal étranger ;
      - 142 avec un pays étranger ;
      - 358 à plus de 10 km de toute commune ;
-     - 46 déjà dans le fichier (même nom dans la même commune, ou nom voisin
+     - 30 à l'étranger selon Nominatim, parmi ceux à commune déduite (revue
+       adverse : Orval, Westvleteren, Birtel… rattachés à une commune
+       française voisine) ;
+     - 47 déjà dans le fichier (même nom dans la même commune, ou nom voisin
        à moins de 20 km : sur les 55 paires de noms voisins mesurées, toutes
        celles à moins de 20 km étaient la même brasserie) ;
-     - 14 dessinés deux fois.
-   - **1 024 gardées**, dont 668 dont la commune est déduite de la position :
+     - 13 dessinés deux fois.
+   - **994 gardées**, dont 638 dont la commune est déduite de la position :
      c'est dit sur la fiche. 84 sont dans les 9 départements du fichier :
      des lieux que le fichier n'a pas, gardés.
 4. **Fait.**
@@ -1455,3 +1458,17 @@ l'appli ».
 6. **Décisions** : `docs/DECISIONS.md`, et les recommandations ligne par
    ligne des lots dans `curation/RECOMMANDATIONS.md`. Le lot S14 (119 fiches
    OSM) est recommandé au refus : 106 sont déjà dans la couche.
+7. **Revue adverse** (73 k), cinq trouvailles, toutes corrigées :
+   - **28 brasseries étrangères** avaient une commune française déduite
+     (Orval à « Margny ») : le pays de chaque point à commune déduite est lu
+     par Nominatim (cache `outils/cache/pays-osm.json`), 30 sont écartés ;
+   - **« Y aller » envoyait une rue sans commune** : il va au point OSM, et
+     l'adresse affichée reçoit sa commune, dite déduite ;
+   - **couche absente** : l'écran ne le disait pas ; il le dit, avec un
+     bouton « Recharger la page » (test : morceau refusé) ;
+   - **page blanche possible** : au plus 3 s d'attente (test : morceau jamais
+     servi). Le morceau est préchargé dès le HTML (`modulepreload`) : le
+     premier écran attendait 600 ms de plus en 4G lente simulée ;
+   - **un doublon manqué** (« L'écume du Guier » / « Guiers ») : le pluriel
+     ne distingue plus.
+   - Lien ODbL en pied de page ; texte du filtre type précisé.
