@@ -8,13 +8,14 @@ import type { Brasserie } from './schema'
  * - `brignais` : le point par défaut du cahier des charges ;
  * - `position` : la position du navigateur, demandée sur action, jamais
  *   envoyée nulle part ;
- * - `commune` : une commune **des données**, sans recherche en ligne — sa
- *   position est la moyenne de celles de ses brasseries (elles-mêmes au
- *   centre de la commune, BACKLOG D3).
+ * - `commune` : depuis S21, toute commune de France
+ *   (`public/communes-france.json`, son point Wikidata) ; avant, une commune
+ *   des données, à la moyenne de ses brasseries. La clé est « nom|département ».
  */
 export type Origine =
   | { type: 'brignais'; point: Point }
-  | { type: 'position'; point: Point }
+  /** `pres` : la commune la plus proche, calculée dans le téléphone (S21). */
+  | { type: 'position'; point: Point; pres?: string }
   | { type: 'commune'; cle: string; nom: string; point: Point }
 
 export const ORIGINE_DEFAUT: Origine = { type: 'brignais', point: BRIGNAIS }
@@ -56,8 +57,9 @@ export function libelleOrigine(o: Origine): string {
     case 'brignais':
       return 'Brignais'
     case 'position':
-      return 'votre position'
+      return o.pres === undefined ? 'votre position' : `votre position (près de ${o.pres})`
     case 'commune':
-      return `${o.nom} (centre approché)`
+      // Le département départage les homonymes : « Château (71) » (S21).
+      return `${o.nom} (${o.cle.split('|')[1] ?? ''})`
   }
 }

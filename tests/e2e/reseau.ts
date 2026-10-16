@@ -31,3 +31,12 @@ export async function versLaCarte(page: Page): Promise<void> {
     .toBeGreaterThan(0)
   await expect(carte).toBeVisible()
 }
+
+/**
+ * Choisir une commune de départ (S21) : la taper, puis toucher la ligne
+ * proposée. Remplace l'ancienne liste déroulante.
+ */
+export async function choisirCommune(page: Page, texte: string, libelle: string): Promise<void> {
+  await page.getByTestId('commune-depart').fill(texte)
+  await page.getByRole('option', { name: libelle, exact: true }).click()
+}

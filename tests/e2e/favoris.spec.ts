@@ -1,5 +1,5 @@
 import { expect, test, type Page } from '@playwright/test'
-import { sansTuiles } from './reseau'
+import { choisirCommune, sansTuiles } from './reseau'
 
 /** Ce que l'application a gardé dans IndexedDB, lu tel quel. */
 const lireGarde = (page: Page) =>
@@ -91,26 +91,59 @@ test.describe('les réglages gardés', () => {
   test('distance et commune de départ se retrouvent au retour', async ({ page }) => {
     await page.goto('/')
     await page.getByTestId('rayon').fill('55')
-    await page.getByTestId('depart').locator('select').selectOption({ label: 'Tarare' })
+    await choisirCommune(page, 'tarare', 'Tarare (69)')
     await expect(page.getByTestId('compte')).toContainText('55 km de Tarare')
     await attendreGarde(page, { rayonKm: 55, depart: { type: 'commune' } })
     await page.reload()
     await expect(page.getByTestId('compte')).toContainText('55 km de Tarare')
   })
 
-  test('« autour de moi » n’est jamais gardé : ni rétabli, ni écrit', async ({ page, context }) => {
+  test('« autour de moi » se garde comme choix, jamais la position ; au retour, elle est redemandée sans fenêtre', async ({
+    page,
+    context,
+  }) => {
     await context.grantPermissions(['geolocation'])
     await context.setGeolocation({ latitude: 45.9367, longitude: 4.7208 })
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
     // Un réglage témoin changé après le clic : quand il est écrit, l'état
-    // « autour de moi » l'est aussi. Sans lui, le test lisait l'écriture
-    // d'avant le clic et passait avec la position stockée (revue code S9).
+    // « autour de moi » l'est aussi (revue code S9).
     await page.getByTestId('rayon').fill('55')
-    await attendreGarde(page, { rayonKm: 55, depart: { type: 'brignais' } })
+    // Retour de Cédric du 16/10 (« il faut redemander ») : le choix se garde,
+    // les coordonnées jamais.
+    await attendreGarde(page, { rayonKm: 55, depart: { type: 'autour' } })
     expect(JSON.stringify(await lireGarde(page))).not.toMatch(/45\.9|4\.72/)
     await page.reload()
+    // La permission étant déjà donnée, la position revient sans geste.
+    await expect(page.getByTestId('compte')).toContainText('de votre position')
+  })
+
+  test('« autour de moi » gardé, sans permission : rien n’est demandé à l’ouverture', async ({
+    page,
+    context,
+  }) => {
+    await context.grantPermissions(['geolocation'])
+    await context.setGeolocation({ latitude: 45.9367, longitude: 4.7208 })
+    await page.goto('/')
+    await page.getByTestId('autour-de-moi').click()
+    await page.getByTestId('rayon').fill('55')
+    await attendreGarde(page, { rayonKm: 55, depart: { type: 'autour' } })
+    await context.clearPermissions()
+    await page.reload()
+    await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+    await page.waitForTimeout(1000)
+    // Aucune demande partie : ni erreur de localisation, ni bouton en cours.
+    await expect(page.getByTestId('localisation-erreur')).toHaveCount(0)
+    await expect(page.getByTestId('autour-de-moi')).toHaveText('Autour de moi')
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText('Par où commencer ?')
+    // Le choix n'est pas perdu pour autant (revue code S21 : il était effacé
+    // du stockage à l'ouverture), et l'écran dit comment le reprendre.
+    await expect(page.getByTestId('depart-reprendre')).toHaveText(
+      'La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la reprendre.',
+    )
+    await page.waitForTimeout(800)
+    expect(await lireGarde(page)).toMatchObject({ depart: { type: 'autour' } })
     await expect(page.getByTestId('compte')).toContainText('de Brignais')
   })
 

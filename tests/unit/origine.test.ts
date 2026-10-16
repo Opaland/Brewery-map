@@ -29,7 +29,8 @@ describe('les communes de départ', () => {
     const o = origineDeCommune(communesConnues(lot)[0])
     expect(o.point.lat).toBeCloseTo(45.1, 6)
     expect(o.point.lon).toBeCloseTo(4.1, 6)
-    expect(libelleOrigine(o)).toBe('Lyon 1er (centre approché)')
+    // Le département départage les homonymes (« Château (71) », S21).
+    expect(libelleOrigine(o)).toBe('Lyon 1er (69)')
   })
 })
 
@@ -37,5 +38,16 @@ describe('libelleOrigine', () => {
   it('nomme le point de départ', () => {
     expect(libelleOrigine({ type: 'brignais', point: BRIGNAIS })).toBe('Brignais')
     expect(libelleOrigine({ type: 'position', point: { lat: 45, lon: 4 } })).toBe('votre position')
+  })
+})
+
+describe('« votre position », près de quelle commune (S21)', () => {
+  it('nomme la commune la plus proche quand elle est connue', async () => {
+    const { libelleOrigine } = await import('../../src/core/origine')
+    const point = { lat: 45.76, lon: 4.78 }
+    expect(libelleOrigine({ type: 'position', point })).toBe('votre position')
+    expect(libelleOrigine({ type: 'position', point, pres: 'Tassin-la-Demi-Lune' })).toBe(
+      'votre position (près de Tassin-la-Demi-Lune)',
+    )
   })
 })

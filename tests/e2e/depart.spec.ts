@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { expect, test } from '@playwright/test'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
+import { choisirCommune, sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
 
 const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 /** Une position d'essai à Anse : loin de Brignais, proche de brasseries réelles. */
@@ -20,12 +20,12 @@ test.describe('« autour de moi » (Léa)', () => {
 
   test('rien n’est demandé au chargement ; tout part du toucher du bouton', async ({ page }) => {
     await page.goto('/')
-    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : Brignais',
-    )
+    // Rien de choisi : le bloc propose de commencer (demande de Cédric du 16/10).
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText('Par où commencer ?')
     await page.getByTestId('autour-de-moi').click()
+    // La commune la plus proche, calculée dans le téléphone (S21).
     await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : votre position',
+      'Point de départ : votre position (près de Anse)',
     )
     const attendue = premiere({ lat: ANSE.latitude, lon: ANSE.longitude })
     expect(attendue).toBeDefined()
@@ -67,7 +67,11 @@ test.describe('« autour de moi » (Léa)', () => {
     await page.goto('/')
     const texte = page.getByTestId('confidentialite')
     await expect(texte).toContainText('vos coordonnées ne sont envoyées à personne')
-    await expect(texte).toContainText('la zone où vous êtes, à quelques kilomètres près')
+    await expect(texte).toContainText('seul le choix « Autour de moi » est gardé, pas la position')
+    // Une commune choisie fait aussi charger les images de sa zone (revue Léa S21).
+    await expect(texte).toContainText('votre position ou la commune choisie')
+    await expect(texte).toContainText('voit donc cette zone, à quelques kilomètres près')
+    await expect(page.getByTestId('stockage-texte')).not.toContainText('jamais gardé')
     // Lu avant le geste : le texte précède le bouton dans le document.
     const avant = await page.evaluate(() => {
       const t = document.querySelector('[data-testid="confidentialite"]')
@@ -81,9 +85,7 @@ test.describe('« autour de moi » (Léa)', () => {
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await page.getByTestId('revenir-brignais').click()
-    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : Brignais',
-    )
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText('Par où commencer ?')
   })
 })
 
@@ -95,19 +97,19 @@ test.describe('localisation refusée', () => {
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('localisation-erreur')).toContainText('Rien n’a changé')
-    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : Brignais',
-    )
+    // Comment réautoriser, dit tout de suite (retour de Cédric du 16/10).
+    await expect(page.getByTestId('localisation-erreur')).toContainText('réglages du navigateur')
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText('Par où commencer ?')
     await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
   })
 })
 
-test('partir d’une commune des données, plus loin que Brignais', async ({ page }) => {
+test('partir d’une commune, plus loin que Brignais', async ({ page }) => {
   await sansTuiles(page)
   await page.goto('/')
-  await page.getByTestId('commune-depart').selectOption({ label: 'Tarare' })
+  await choisirCommune(page, 'tarare', 'Tarare (69)')
   await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-    'Point de départ : Tarare (centre approché)',
+    'Point de départ : Tarare (69)',
   )
   await expect(page.getByTestId('liste').getByRole('listitem').first()).toContainText(
     'Ninkasi Fabriques',

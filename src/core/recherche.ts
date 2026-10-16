@@ -33,13 +33,13 @@ export function normaliser(texte: string): string {
     .trim()
 }
 
-const APOSTROPHES = /['’]/gu
+export const APOSTROPHES = /['’]/gu
 
 /**
  * Abréviations d'usage en toponymie française. Une liste fermée, pas un
  * seuil : elle ne change que les mots tapés, jamais les données.
  */
-const ABREVIATIONS: Readonly<Record<string, string>> = { st: 'saint', ste: 'sainte' }
+export const ABREVIATIONS: Readonly<Record<string, string>> = { st: 'saint', ste: 'sainte' }
 
 /**
  * Le texte où chercher : la forme normale, plus la forme où les apostrophes
@@ -64,6 +64,16 @@ function trouve(texte: string, mot: string): boolean {
  * Web Worker n'apporterait que de la complexité (mesure dans docs/SPRINTS.md,
  * S2).
  */
+/**
+ * Un nom ou une commune tapés cherchent partout, sans le rayon (demande de
+ * Cédric du 16/10 : « Je veux pouvoir chercher partout ») : chercher
+ * « Ninkasi » depuis Brest doit le trouver. Le compte le dit (`App.tsx`).
+ * Une seule fonction, lue par la recherche et par le compte (CLAUDE.md §4).
+ */
+export function rechercherPartout(criteres: Pick<Criteres, 'texte'>): boolean {
+  return criteres.texte.trim() !== ''
+}
+
 export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres): Resultat[] {
   // L'apostrophe tapée est collée : « brass'in » cherche « brassin », que
   // `cible` contient. La séparer en ferait un mot « in » trouvé partout.
@@ -81,7 +91,7 @@ export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres)
       if (!mots.every((mot) => trouve(texte, mot))) continue
     }
     const d = distanceKm(criteres.origine, brasserie)
-    if (d > criteres.rayonKm) continue
+    if (!rechercherPartout(criteres) && d > criteres.rayonKm) continue
     resultats.push({ brasserie, distanceKm: d })
   }
   return resultats.sort((a, b) => a.distanceKm - b.distanceKm)

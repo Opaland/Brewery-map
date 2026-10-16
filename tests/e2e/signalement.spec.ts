@@ -30,7 +30,7 @@ test.describe('« Signaler une erreur » (Une brasserie)', () => {
     expect(new URL(depuisBrignais).searchParams.get('title')).toContain(nom)
 
     await page.getByTestId('autour-de-moi').click()
-    await expect(page.getByTestId('compte')).toContainText('de votre position')
+    await expect(page.getByTestId('compte')).toContainText('depuis votre position')
     expect(await lienDe(nom)).toBe(depuisBrignais)
   })
 
