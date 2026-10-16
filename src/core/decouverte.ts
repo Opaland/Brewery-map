@@ -105,8 +105,14 @@ export function coeurDuNom(nom: string): string {
 }
 
 export interface CandidatClasse extends CandidatOsm {
-  /** `present` : un nom du fichier a le même cœur, ou le contient, ou y est contenu. */
-  statut: 'present' | 'nouveau'
+  /**
+   * `present` : un nom du fichier a exactement le même cœur, et c'est la fiche
+   * la plus proche du point ; `ambigu` : même cœur mais une autre fiche plus
+   * proche, ou l'un contient l'autre sans être égal — « Brasserie des Cuves » (Sassenage) et
+   * « Les Cuves de la Madeleine » (Ambierle, 167 km), vu le 16/10 : proposé
+   * en ajout, avec un avertissement ; `nouveau` : aucun nom proche.
+   */
+  statut: 'present' | 'ambigu' | 'nouveau'
   fiche?: string
   plusProche?: { n: string; km: number }
 }
@@ -123,7 +129,12 @@ export function classerCandidats(
     if (vus.has(c.osm)) continue
     vus.add(c.osm)
     const k = coeurDuNom(c.nom)
-    const meme = k === '' ? undefined : coeurs.find((f) => f.coeur !== '' && (f.coeur === k || ` ${f.coeur} `.includes(` ${k} `) || ` ${k} `.includes(` ${f.coeur} `)))
+    const egal = k === '' ? undefined : coeurs.find((f) => f.coeur === k)
+    const contenu =
+      k === '' || egal !== undefined
+        ? undefined
+        : coeurs.find((f) => f.coeur !== '' && (` ${f.coeur} `.includes(` ${k} `) || ` ${k} `.includes(` ${f.coeur} `)))
+    const meme = egal ?? contenu
     let plusProche: { n: string; km: number } | undefined
     for (const b of brasseries) {
       const km = distanceKm(c, b)
@@ -131,7 +142,12 @@ export function classerCandidats(
     }
     resultat.push({
       ...c,
-      statut: meme === undefined ? 'nouveau' : 'present',
+      // Même cœur ne suffit pas : la fiche de même nom doit aussi être la plus
+      // proche du point OSM. « La Fabrique » de Montélimar n'est pas « La Beer
+      // Fabrique » de Lyon (137 km, vu le 16/10). Critère de structure, pas un
+      // seuil de distance (CLAUDE.md §2).
+      statut:
+        egal !== undefined && plusProche?.n === egal.n ? 'present' : meme !== undefined ? 'ambigu' : 'nouveau',
       ...(meme === undefined ? {} : { fiche: meme.n }),
       ...(plusProche === undefined ? {} : { plusProche }),
     })

@@ -75,6 +75,24 @@ describe('classer les candidats', () => {
     expect(c.fiche).toBe('Caribrew')
   })
 
+  it('un nom qui n’en contient qu’un autre est « ambigu », pas « déjà dans le fichier » (lot S14)', () => {
+    // Vu sur la collecte du 16/10 : « Brasserie des Cuves » (Sassenage) rapprochée
+    // des « Cuves de la Madeleine » (Ambierle), à 167 km.
+    const lot = [...TOUTES, { ...TOUTES[0], n: 'Les Cuves de la Madeleine' }]
+    const [c] = classerCandidats([candidat('Brasserie des Cuves')], lot)
+    expect(c.statut).toBe('ambigu')
+    expect(c.fiche).toBe('Les Cuves de la Madeleine')
+  })
+
+  it('même cœur de nom mais une autre fiche plus proche : « ambigu » (lot S14)', () => {
+    // Vu le 16/10 : « Brasserie Artisanale La Fabrique » (Montélimar) et
+    // « La Beer Fabrique » (Lyon), même cœur « fabrique », 137 km.
+    const loin = { ...TOUTES[1], n: 'La Beer Fabrique', lat: 46.5, lon: 5.5 }
+    const [c] = classerCandidats([candidat('Brasserie Artisanale La Fabrique')], [...TOUTES, loin])
+    expect(c.statut).toBe('ambigu')
+    expect(c.fiche).toBe('La Beer Fabrique')
+  })
+
   it('un nom inconnu est « nouveau », avec la fiche la plus proche et sa distance', () => {
     const [c] = classerCandidats([candidat('Virage 7')], TOUTES)
     expect(c.statut).toBe('nouveau')

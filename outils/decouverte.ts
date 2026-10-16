@@ -75,24 +75,43 @@ const brasseries = (() => {
   return v.brasseries
 })()
 
+/**
+ * `--depuis curation/osm-<date>.json` : refaire le lot à partir des candidats
+ * déjà lus, sans réinterroger Nominatim (la date de lecture est la leur).
+ */
+const depuis = process.argv[2] === '--depuis' ? process.argv[3] : undefined
+let lu = AUJOURDHUI
 const candidats: CandidatOsm[] = []
-for (let sud = CADRE.sud; sud < CADRE.nord; sud += PAS) {
-  for (let ouest = CADRE.ouest; ouest < CADRE.est; ouest += PAS) {
-    for (const r of await chercher(sud, ouest, sud + PAS, ouest + PAS)) {
-      const c = candidatDepuisNominatim(r as Parameters<typeof candidatDepuisNominatim>[0])
-      if (c !== null && ARA.has(c.departement)) candidats.push(c)
+if (depuis !== undefined) {
+  const brut = JSON.parse(readFileSync(depuis, 'utf8')) as { lu: string; requetes: number; candidats: CandidatOsm[] }
+  lu = brut.lu
+  requetes = brut.requetes
+  for (const { osm, nom, lat, lon, commune, departement, adresse, site } of brut.candidats) {
+    candidats.push({ osm, nom, lat, lon, commune, departement, adresse, ...(site === undefined ? {} : { site }) })
+  }
+} else {
+  for (let sud = CADRE.sud; sud < CADRE.nord; sud += PAS) {
+    for (let ouest = CADRE.ouest; ouest < CADRE.est; ouest += PAS) {
+      for (const r of await chercher(sud, ouest, sud + PAS, ouest + PAS)) {
+        const c = candidatDepuisNominatim(r as Parameters<typeof candidatDepuisNominatim>[0])
+        if (c !== null && ARA.has(c.departement)) candidats.push(c)
+      }
     }
   }
 }
 
 const classes = classerCandidats(candidats, brasseries)
+const kmEntre = (c: CandidatOsm, nom: string) => {
+  const f = brasseries.find((b) => b.n === nom)
+  return f === undefined ? '?' : `${distanceKm(c, f).toFixed(1).replace('.', ',')} km`
+}
 writeFileSync(
-  `curation/osm-${AUJOURDHUI}.json`,
-  `${JSON.stringify({ source: 'nominatim.openstreetmap.org, q=brewery, craft=brewery', lu: AUJOURDHUI, requetes, candidats: classes }, null, 1)}\n`,
+  `curation/osm-${lu}.json`,
+  `${JSON.stringify({ source: 'nominatim.openstreetmap.org, q=brewery, craft=brewery', lu, requetes, candidats: classes }, null, 1)}\n`,
 )
 
 const nouveaux = classes
-  .filter((c) => c.statut === 'nouveau')
+  .filter((c) => c.statut !== 'present')
   .sort((a, b) => distanceKm(BRIGNAIS, a) - distanceKm(BRIGNAIS, b))
 const lot: Lot = {
   lot: 's14-decouverte',
@@ -100,12 +119,17 @@ const lot: Lot = {
   revues: [],
   ajouts: nouveaux.map((c) => ({
     fiche: ajoutDepuisOsm(c),
-    verifieLe: AUJOURDHUI,
+    verifieLe: lu,
     sources: [`https://www.openstreetmap.org/${c.osm}`],
     extrait: [`name=${c.nom}`, 'craft=brewery', `adresse=${c.adresse}`, ...(c.site === undefined ? [] : [`website=${c.site}`])].join(' ; '),
-    ...(c.plusProche === undefined
-      ? {}
-      : { choix: `Fiche du fichier la plus proche : ${c.plusProche.n}, à ${c.plusProche.km.toFixed(1).replace('.', ',')} km.` }),
+    choix: [
+      ...(c.statut === 'ambigu' && c.fiche !== undefined
+        ? [`Nom proche d'une fiche du fichier : « ${c.fiche} », à ${kmEntre(c, c.fiche)} — même brasserie ? Sinon, à ajouter.`]
+        : []),
+      ...(c.plusProche === undefined
+        ? []
+        : [`Fiche du fichier la plus proche : ${c.plusProche.n}, à ${c.plusProche.km.toFixed(1).replace('.', ',')} km.`]),
+    ].join(' '),
   })),
 }
 const v = lireLot(lot, AUJOURDHUI)
@@ -113,5 +137,6 @@ if (!v.ok) throw new Error(`lot invalide :\n${v.erreurs.join('\n')}`)
 writeFileSync('curation/s14-decouverte.json', `${JSON.stringify(lot, null, 1)}\n`)
 console.log(
   `${String(requetes)} requêtes ; ${String(classes.length)} brasseries OSM en ARA ; ` +
-    `${String(classes.length - nouveaux.length)} déjà dans le fichier ; ${String(nouveaux.length)} nouvelles.`,
+    `${String(classes.length - nouveaux.length)} déjà dans le fichier ; ${String(nouveaux.length)} proposées ` +
+    `(dont ${String(classes.filter((c) => c.statut === 'ambigu').length)} au nom proche d'une fiche).`,
 )
