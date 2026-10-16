@@ -63,8 +63,10 @@ function Fiche({
         </button>
       </div>
       <Contact brasserie={brasserie} />
-      <YAller brasserie={brasserie} />
+      {/* Les horaires avant l'itinéraire : savoir si c'est ouvert avant d'y
+          aller (revue Hugo S19). */}
       <Horaires brasserie={brasserie} />
+      <YAller brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
       <dl>
         <dt>Adresse</dt>

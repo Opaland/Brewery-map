@@ -1,5 +1,12 @@
 import { hoteDeSource, libelleVerification } from './core/fiche'
-import { formaterCreneaux, formaterHeure, JOURS, ouvertMaintenant, type Bloc } from './core/horaires'
+import {
+  formaterCreneaux,
+  formaterHeure,
+  heureDeParis,
+  JOURS,
+  ouvertMaintenant,
+  type Bloc,
+} from './core/horaires'
 import type { Brasserie } from './core/schema'
 
 const TITRE: Record<Bloc['nature'], string> = {
@@ -18,7 +25,9 @@ const NATURE: Record<Bloc['nature'], string> = {
  */
 function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
   const m = ouvertMaintenant([bloc], maintenant, bloc.nature)
-  const debut = `Maintenant (${NATURE[bloc.nature]}) : `
+  // L'heure de référence est écrite : une fiche restée ouverte ne prétend
+  // pas dire « maintenant » une heure plus tard (revue code S19).
+  const debut = `À ${formaterHeure(heureDeParis(maintenant))} (heure de Paris), ${NATURE[bloc.nature]} : `
   const jusqua = m.jusqua === undefined ? '' : ` jusqu’à ${formaterHeure(m.jusqua)}`
   const texte = {
     ouvert: `ouvert${jusqua}, d’après les horaires publiés.`,

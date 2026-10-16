@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { destination, liensItineraire } from '../../src/core/itineraire'
+import { destination, liensItineraire, plateformeDe } from '../../src/core/itineraire'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -21,8 +21,18 @@ describe('la destination', () => {
     })
   })
 
-  it('sinon, le point de la commune — jamais présenté comme l’adresse', () => {
+  it('sinon, le point de la fiche — jamais présenté comme l’adresse', () => {
     expect(destination(communeSeule)).toEqual({ mode: 'commune', lat: 45.71, lon: 4.81 })
+  })
+
+  it('une rue sans code postal est une adresse (4 fiches réelles, revue code S19)', () => {
+    for (const addr of [
+      '520 route de Combe Boiron, Saint-Maurice-sur-Dargoire',
+      'Casino JOA, Montrond-les-Bains',
+      '15 chemin de Pontardieu, Saint-Agrève',
+    ]) {
+      expect(destination({ ...base, c: 'Chabanière', addr })).toEqual({ mode: 'adresse', adresse: addr })
+    }
   })
 })
 
@@ -40,13 +50,33 @@ const PERMIS: Record<string, readonly string[]> = {
 }
 
 describe('les liens « Y aller »', () => {
-  it('proposent quatre applications, dans cet ordre', () => {
+  it('proposent quatre applications, dans cet ordre, quand l’appareil est inconnu', () => {
     expect(liensItineraire(avecAdresse).map((l) => l.appli)).toEqual([
       'Google Maps',
       'Plans (Apple)',
       'Waze',
       'Autre application (Android)',
     ])
+  })
+
+  it('ne montrent pas un lien qui ne marche pas sur ce téléphone (revue Hugo S19)', () => {
+    // iPhone : pas de `geo:` ; Android : Plans (Apple) n'est qu'une page web.
+    expect(liensItineraire(avecAdresse, 'ios').map((l) => l.appli)).toEqual([
+      'Plans (Apple)',
+      'Google Maps',
+      'Waze',
+    ])
+    expect(liensItineraire(avecAdresse, 'android').map((l) => l.appli)).toEqual([
+      'Google Maps',
+      'Waze',
+      'Autre application',
+    ])
+  })
+
+  it('reconnaît le téléphone à son agent, sans rien envoyer', () => {
+    expect(plateformeDe('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)')).toBe('ios')
+    expect(plateformeDe('Mozilla/5.0 (Linux; Android 14; Pixel 7)')).toBe('android')
+    expect(plateformeDe('Mozilla/5.0 (X11; Linux x86_64)')).toBe('autre')
   })
 
   it('ne portent que la destination, pour chaque fiche réelle', () => {
@@ -82,18 +112,8 @@ describe('les liens « Y aller »', () => {
     expect(google.searchParams.get('destination')).toBe('45.71,4.81')
     expect(apple.searchParams.get('daddr')).toBe('45.71,4.81')
     expect(waze.searchParams.get('ll')).toBe('45.71,4.81')
-    expect(geo.href.startsWith('geo:45.71,4.81?q=')).toBe(true)
-  })
-})
-
-describe('deCommune', () => {
-  it('accorde « de » au nom de la commune', async () => {
-    const { deCommune } = await import('../../src/core/itineraire')
-    expect(deCommune('Brignais')).toBe('de Brignais')
-    expect(deCommune('Oullins')).toBe('d’Oullins')
-    expect(deCommune('Échirolles')).toBe('d’Échirolles')
-    expect(deCommune('Le Grand-Serre')).toBe('du Grand-Serre')
-    expect(deCommune('Les Abrets')).toBe('des Abrets')
-    expect(deCommune('La Ravoire')).toBe('de La Ravoire')
+    // Sans libellé : un nom à parenthèses (« La Gaudine (Brasserie de la
+    // Semène) ») cassait le `q=lat,lon(nom)` (revue code S19).
+    expect(geo.href).toBe('geo:45.71,4.81?q=45.71,4.81')
   })
 })

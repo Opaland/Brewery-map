@@ -87,6 +87,11 @@ function aParis(instant: Date): { jour: CleJour; hhmm: string } {
   return { jour: ABREGE[val('weekday')] ?? 'lun', hhmm: `${val('hour')}:${val('minute')}` }
 }
 
+/** « HH:MM » à Paris, pour dire l'heure à laquelle l'état a été calculé. */
+export function heureDeParis(instant: Date): string {
+  return aParis(instant).hhmm
+}
+
 /**
  * Ouvert à cet instant, pour telle nature (S19, Hugo) ? Seulement d'après les
  * créneaux publiés : « inconnu » dès que la source ne dit rien du jour, ou

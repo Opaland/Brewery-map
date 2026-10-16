@@ -1,11 +1,11 @@
-import { deCommune, destination, liensItineraire } from './core/itineraire'
+import { destination, liensItineraire, plateformeDe } from './core/itineraire'
 import type { Brasserie } from './core/schema'
 
 /**
  * « Y aller » (S19, persona Hugo) : l'application de navigation est au choix
  * de la personne, et le lien n'emporte que la destination
  * (`src/core/itineraire.ts`). Sans adresse, l'écran dit où mène vraiment
- * l'itinéraire : au centre de la commune.
+ * l'itinéraire : au point de la carte, approximatif.
  */
 export function YAller({ brasserie }: { brasserie: Brasserie }) {
   const d = destination(brasserie)
@@ -14,12 +14,12 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
       <p className="fiche-titre">Y aller</p>
       {d.mode === 'commune' && (
         <p className="fiche-aide" data-testid="y-aller-commune">
-          Adresse inconnue : l’itinéraire mène au centre {deCommune(brasserie.c)}, pas à la
-          brasserie.
+          Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas
+          à la brasserie.
         </p>
       )}
       <ul className="fiche-liens">
-        {liensItineraire(brasserie).map((l) => (
+        {liensItineraire(brasserie, plateformeDe(navigator.userAgent)).map((l) => (
           <li key={l.appli}>
             <a href={l.url} target="_blank" rel="noopener noreferrer">
               {l.appli}

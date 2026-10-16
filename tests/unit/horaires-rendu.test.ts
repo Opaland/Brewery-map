@@ -57,26 +57,26 @@ describe('« Maintenant » (S19, Hugo)', () => {
 
   it('dit ouvert et jusqu’à quand, d’après les horaires publiés', () => {
     const html = renduA({ ...base, horaires: [accueil] }, samedi18h)
-    expect(html).toContain('Maintenant (accueil du public) : ouvert jusqu’à 22 h, d’après les horaires publiés.')
+    expect(html).toContain('À 18 h (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.')
   })
 
   it('fermé un jour sans créneau ; rien d’affirmé un jour que la source ne dit pas', () => {
     expect(renduA({ ...base, horaires: [accueil] }, new Date('2026-10-18T12:00:00Z'))).toContain(
-      'Maintenant (accueil du public) : fermé, d’après les horaires publiés.',
+      'À 14 h (heure de Paris), accueil du public : fermé, d’après les horaires publiés.',
     )
     expect(renduA({ ...base, horaires: [accueil] }, new Date('2026-10-19T12:00:00Z'))).toContain(
-      'Maintenant (accueil du public) : la source ne dit pas les heures de ce jour.',
+      'À 14 h (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.',
     )
   })
 
   it('sous réserve quand une remarque nuance les créneaux', () => {
     const html = renduA({ ...base, horaires: [{ ...accueil, remarque: 'En juillet et août seulement' }] }, samedi18h)
     expect(html).toContain(
-      'Maintenant (accueil du public) : ouvert jusqu’à 22 h selon les créneaux, sous réserve de la remarque ci-dessous.',
+      'À 18 h (heure de Paris), accueil du public : ouvert jusqu’à 22 h selon les créneaux, sous réserve de la remarque ci-dessous.',
     )
   })
 
-  it('sans horaires, aucun « maintenant »', () => {
-    expect(renduA(base, samedi18h)).not.toContain('Maintenant')
+  it('sans horaires, aucun état affirmé', () => {
+    expect(renduA(base, samedi18h)).not.toContain('heure de Paris')
   })
 })

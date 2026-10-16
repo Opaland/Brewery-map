@@ -132,12 +132,44 @@ describe('ouvertMaintenant', () => {
     expect(ouvertMaintenant(nuit, a('2026-10-18T01:00:00Z')).etat).toBe('ferme')
   })
 
+  it('cas limites de minuit et de fin de créneau (revue code S19)', () => {
+    // Fin à l'instant exact : fermé. Samedi 22 h Paris = 20:00Z.
+    expect(ouvertMaintenant(h, a('2026-10-17T20:00:00Z')).etat).toBe('ferme')
+    // « 00:00 » en fin = minuit : ouvert à 23 h 59.
+    const jusquaMinuit = [{ ...accueil, sam: [['20:00', '00:00']] }] as unknown as Horaires
+    expect(ouvertMaintenant(jusquaMinuit, a('2026-10-17T21:59:00Z'))).toEqual({ etat: 'ouvert', jusqua: '00:00' })
+    // Dimanche soir → lundi : la veille d'un lundi est le dimanche.
+    const dimanche = [{ ...accueil, dim: [['20:00', '02:00']], lun: [] }] as unknown as Horaires
+    expect(ouvertMaintenant(dimanche, a('2026-10-18T20:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '02:00' })
+    expect(ouvertMaintenant(dimanche, a('2026-10-18T23:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '02:00' })
+    expect(ouvertMaintenant(dimanche, a('2026-10-19T00:00:00Z')).etat).toBe('ferme')
+    // La veille « heures non précisées » ne déborde pas sur le jour.
+    const vagueVeille = [{ ...accueil, sam: 'heures-non-precisees', dim: [] }] as unknown as Horaires
+    expect(ouvertMaintenant(vagueVeille, a('2026-10-17T23:00:00Z')).etat).toBe('ferme')
+  })
+
   it('« sous réserve » quand une remarque accompagne les horaires (saison, rendez-vous)', () => {
     const saison = [{ ...accueil, remarque: 'En juillet et août seulement' }] as unknown as Horaires
     expect(ouvertMaintenant(saison, a('2026-10-17T16:00:00Z'))).toEqual({
       etat: 'sous-reserve',
       jusqua: '22:00',
     })
+  })
+
+  it('cas limites de minuit et de fin de créneau (revue code S19)', () => {
+    // Fin à l'instant exact : fermé. Samedi 22 h Paris = 20:00Z.
+    expect(ouvertMaintenant(h, a('2026-10-17T20:00:00Z')).etat).toBe('ferme')
+    // « 00:00 » en fin = minuit : ouvert à 23 h 59.
+    const jusquaMinuit = [{ ...accueil, sam: [['20:00', '00:00']] }] as unknown as Horaires
+    expect(ouvertMaintenant(jusquaMinuit, a('2026-10-17T21:59:00Z'))).toEqual({ etat: 'ouvert', jusqua: '00:00' })
+    // Dimanche soir → lundi : la veille d'un lundi est le dimanche.
+    const dimanche = [{ ...accueil, dim: [['20:00', '02:00']], lun: [] }] as unknown as Horaires
+    expect(ouvertMaintenant(dimanche, a('2026-10-18T20:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '02:00' })
+    expect(ouvertMaintenant(dimanche, a('2026-10-18T23:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '02:00' })
+    expect(ouvertMaintenant(dimanche, a('2026-10-19T00:00:00Z')).etat).toBe('ferme')
+    // La veille « heures non précisées » ne déborde pas sur le jour.
+    const vagueVeille = [{ ...accueil, sam: 'heures-non-precisees', dim: [] }] as unknown as Horaires
+    expect(ouvertMaintenant(vagueVeille, a('2026-10-17T23:00:00Z')).etat).toBe('ferme')
   })
 
   it('« heures non précisées » ne dit pas si c’est ouvert à cette heure', () => {

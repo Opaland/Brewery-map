@@ -14,13 +14,15 @@ describe('« Y aller » dans la fiche (S19, Hugo)', () => {
     expect(html.match(/<a /g)).toHaveLength(4)
     expect(html.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(4)
     expect(html).toContain('Google Maps')
-    expect(html).not.toContain('centre de la commune')
+    expect(html).not.toContain('Adresse inconnue')
   })
 
-  it('sans adresse, il dit que l’itinéraire mène au centre de la commune', () => {
+  it('sans adresse, il dit où mène l’itinéraire : le point approximatif de la carte', () => {
+    // « Centre de la commune » n'est pas établi pour toutes (revue code S19) :
+    // la fiche dit ce que dit la précision, « à environ 2 km près ».
     const html = rendu({ ...base, c: 'Oullins', addr: 'Oullins' })
     expect(html).toContain(
-      'Adresse inconnue : l’itinéraire mène au centre d’Oullins, pas à la brasserie.',
+      'Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas à la brasserie.',
     )
   })
 

@@ -29,7 +29,8 @@ test.describe('« Y aller » (Hugo)', () => {
     await page.goto('/')
     await page.getByTestId('rayon').fill('100')
     const depuisBrignais = await liensDe(page, 'Caribrew')
-    expect(depuisBrignais).toHaveLength(4)
+    // Le Pixel 7 émulé est un Android : trois liens, sans Plans (Apple).
+    expect(depuisBrignais).toHaveLength(3)
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
     expect(await liensDe(page, 'Caribrew')).toEqual(depuisBrignais)
@@ -39,18 +40,18 @@ test.describe('« Y aller » (Hugo)', () => {
     await page.goto('/')
     await liensDe(page, 'Caribrew')
     const liens = page.getByTestId('fiche-y-aller').getByRole('link')
-    await expect(liens).toHaveCount(4)
+    await expect(liens).toHaveCount(3)
     for (const lien of await liens.all()) {
       await expect(lien).toHaveAttribute('target', '_blank')
       await expect(lien).toHaveAttribute('rel', /noreferrer/)
     }
   })
 
-  test('sans adresse, la fiche dit que l’itinéraire mène au centre de la commune', async ({ page }) => {
+  test('sans adresse, la fiche dit que l’itinéraire mène au point approximatif', async ({ page }) => {
     await page.goto('/')
     await liensDe(page, 'Bulles d\'Orge')
     await expect(page.getByTestId('y-aller-commune')).toHaveText(
-      'Adresse inconnue : l’itinéraire mène au centre d’Oullins, pas à la brasserie.',
+      'Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas à la brasserie.',
     )
   })
 })
