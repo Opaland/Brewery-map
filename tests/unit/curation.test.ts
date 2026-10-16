@@ -172,6 +172,18 @@ describe('le diff lisible, pour la décision de Cédric', () => {
     expect(texte).toContain('vérifiée le 2026-10-16')
   })
 
+  it('nomme les catégories en clair, pas seulement par leur code (revue S12)', () => {
+    const cat = { lot: 'x', propositions: [{ ...proposition, changements: { cat: 2 as const, conf: 'faible' as const, src: 'https://exemple.fr/contact' } }] }
+    expect(diffLisible(TOUTES, cat)).toContain('cat : 0 (À confirmer) → 2 (Acheter seulement)')
+  })
+
+  it('garde la numérotation du lot quand on n’en montre qu’une partie (revue S12)', () => {
+    const deux = { lot: 'x', propositions: [proposition, { ...proposition, n: TOUTES[0].n }] }
+    const texte = diffLisible(TOUTES, deux, new Set([2]))
+    expect(texte).toContain(`### 2. ${TOUTES[0].n}`)
+    expect(texte).not.toContain('### 1.')
+  })
+
   it('montre le choix du vérificateur et le signalement d’origine quand il y en a', () => {
     const avecChoix = {
       lot: 'x',
@@ -206,7 +218,7 @@ describe('le diff ne cache rien (revue code S11)', () => {
     expect(texte).toContain('contact.site : https://exemple.fr/ → (vide)')
   })
 
-  it('montre un tableau élément par élément, pas en bloc', () => {
+  it('montre un tableau élément par élément, et un jour d’horaires comme la fiche l’affiche', () => {
     const horaires = {
       ...proposition,
       changements: {
@@ -217,7 +229,8 @@ describe('le diff ne cache rien (revue code S11)', () => {
     }
     const texte = diffLisible(TOUTES, { lot: 'x', propositions: [horaires] })
     expect(texte).toContain('horaires.0.nature : (vide) → accueil')
-    expect(texte).toContain('horaires.0.sam.0.0 : (vide) → 15:00')
+    // Un jour se lit comme sur la fiche, en une ligne (revue métier S12).
+    expect(texte).toContain('horaires.0.sam : (vide) → 15 h – 20 h')
   })
 })
 
@@ -277,6 +290,15 @@ describe('un numéro proposé se lit sur sa source (revue code S11)', () => {
       '+33 4 72 50 88 53',
       // Vu sur la page de Brasserie Kachmar (16/10) : le numéro de rue suit.
       'Tél : 04 72 50 88 53 1932 Route de Villefranche',
+      // Vu sur la page de Brasserie Georges (16/10).
+      'Tel : +33 (0)4 72 50 88 53',
+      // Écritures mesurées par la revue code S12.
+      '+33-4-72-50-88-53',
+      '+33.4.72.50.88.53',
+      '(+33)4 72 50 88 53',
+      '00 33 4 72 50 88 53',
+      '04  72 50 88 53',
+      '+330472508853',
     ]) {
       expect(numeroSurLaPage('04 72 50 88 53', page)).toBe(true)
     }

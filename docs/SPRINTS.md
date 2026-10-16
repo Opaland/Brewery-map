@@ -30,7 +30,8 @@ durée se relève sur l'horodatage des commits.
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
-| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | code prêt, PR à ouvrir |
+| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
+| S12 | 300 k | — | agents 167 k + revues 92 k | lot prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -688,4 +689,68 @@ sprints avec revue + revue globale »).
    - **Reste** (BACKLOG) : prévenir une brasserie que son numéro est repris
      (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
      juger par lui.
+
+## S12 — Curation, lot 1 *(terminé le 16/10 — lot en attente de Cédric)*
+
+1. **Objectif.** Les 25 « À confirmer » les plus proches de Brignais
+   revérifiés, sous forme de **propositions** que Cédric accepte ou refuse
+   numéro par numéro. Aucune ligne de `data/` dans ce sprint.
+2. **Périmètre.** `outils/curation.ts lot 25` ; aucune issue de
+   signalement ouverte le 16/10 (liste vide) ; cinq agents
+   `verificateur-de-brasserie` en parallèle, 5 fiches chacun ; statut,
+   contact, horaires. Les types de bière sont hors de ce lot, pour tenir le
+   coût.
+3. **Critères de sortie.** Lot valide au schéma ; `controler` sans écart ;
+   une source sur cinq rouverte à la main ; diff et empreinte présentés à
+   Cédric dans une PR sans `data/` ; revue métier (Cédric) faite.
+4. **Persona juge.** Cédric : peut-il décider sur le diff seul ?
+5. **Budget.** Mesuré en S11 : 88 k pour vérifier 5 fiches. 25 fiches
+   coûteraient donc ≈ 440 k, au-dessus des 300 k estimés mais sous le
+   double (600 k), seuil d'arrêt de CLAUDE.md §9. Dit avant de lancer, et
+   le coût réel sera relevé. **Réel : 167 k** pour les cinq agents
+   (34 + 30 + 32 + 36 + 36 k) : beaucoup de fiches n'avaient aucune page à
+   lire.
+6. **Résultat du lot** (`curation/s12-lot-1`, empreinte finale `2587f92b8457`) :
+   - **4 propositions** : La Canute Lyonnaise (téléphone de commande pro,
+     mobile), Malting Pot (catégorie 1 en confiance moyenne, contact,
+     horaires lun–sam), Brasserie Animus (note corrigée : adresse de
+     Grigny publiée ; mobile), Brasserie Georges (contact, horaires du
+     restaurant).
+   - **21 fiches sans proposition** : 16 sans aucune page trouvée à leur
+     nom (Bulles d'Orge, Brasserie Krüger, Coldie Brewery, Brasserie
+     Demi-Lune, Maltazar, Autour de la Bière, Les Aubépines, Brasserie des
+     Monts du Lyonnais, FFAKE Brasserie, Misso, Brasserie du Mont Popey,
+     Hoodo, Brasserie 767, La Voie Maltée, L'Agarithe, Les Roches
+     Précieuses) ; 5 avec des pistes qui ne suffisent pas (DWYN Brewing,
+     La Fabrique du Faubourg, Platypus Brewpub, La Dame de Malt, Brasserie
+     des Roches) — détail au BACKLOG.
+   - `controler` sans écart ; Malting Pot relu à la main (catégorie, et
+     horaires du bloc Lyon 7 de la page Adresses).
+   - Vu en route : le contrôle ne lisait pas « +33 (0)4 … » (page de
+     Georges) ; cas réel ajouté au test, vu rouge, corrigé.
+7. **État final et restes.** Revues faites (métier Cédric 45 k, code
+   47 k), corrections appliquées le 16/10. **Le lot final compte 3
+   propositions, en attente de Cédric** ; `data/` inchangé.
+   - **Revue métier (Cédric)** — corrigé :
+     - Georges : les horaires du restaurant auraient paru « Horaires
+       d'accueil du public » sous « À confirmer » — retirés, téléphone et
+       site seuls ;
+     - Animus : acceptée seule, la fiche aurait gardé l'adresse et la
+       position de Vaugneray à côté d'une note sur Grigny — **retirée du
+       lot** jusqu'à une procédure de déplacement (BACKLOG) ;
+     - Canute : le mobile est une ligne de commande pro, qui deviendrait
+       un bouton « Appeler » — site seul, le numéro devient une question ;
+     - Malting Pot : la remarque dit « services du midi et du soir » ;
+     - outil : « 1 3 » au lieu de « 1,3 » n'appliquait que la 1 sans un mot
+       (refusé désormais, testé) ; la simulation renumérotait (numéros du
+       lot gardés) ; catégories nommées en clair ; un jour d'horaires lu en
+       une ligne, comme sur la fiche.
+   - **Revue code** — corrigé : la remarque de Georges portait un bandeau
+     « Fête des Lumières » daté de décembre 2025, absent de l'extrait
+     (retiré avec les horaires) ; écritures de numéros encore refusées
+     (`+33-4-…`, `(+33)4`, `00 33`, deux espaces, `+330…`) : acceptées,
+     testées. Constaté sans effet : une parenthèse mal placée (« +33 (04 … »)
+     passe parce que « 04 … » est bien sur la page.
+   - **Reste** : le rendu exact de la fiche (badge, titres) n'est pas encore
+     dans le diff (BACKLOG).
 

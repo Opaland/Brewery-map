@@ -1,0 +1,129 @@
+{
+ "lot": "s12-lot-1",
+ "propositions": [
+  {
+   "n": "La Canute Lyonnaise",
+   "changements": {
+    "contact": {
+     "site": "https://www.lacanutelyonnaise.fr/",
+     "source": "https://www.lacanutelyonnaise.fr/revendeurs/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.lacanutelyonnaise.fr/revendeurs/"
+   ],
+   "extrait": "Par appel ou SMS au 06 24 11 06 71 du lundi au vendredi de 9h à 17h",
+   "choix": "Site seul (revue métier S12). Le 06 24 11 06 71 de l'extrait n'est pas proposé : c'est la ligne de commande des professionnels (minimum en cartons et fûts, franco, paiement à 30 jours, « espace pro »), et la fiche en ferait un bouton « Appeler » pour un parent. Question à Cédric : faut-il le reprendre malgré tout ? Catégorie laissée à 0 : la page Dégustations ne cite qu'une visite guidée de groupe (15 € par personne, à partir de 10 personnes) ; les horaires « du mardi au vendredi de 9h à 17h » sont ceux du retrait des commandes pro."
+  },
+  {
+   "n": "Malting Pot",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "src": "https://www.malting-pot.com",
+    "note": "Brewpub : « des bières brassées sur place et une cuisine du monde faite maison » ; bouteilles « disponible à emporter dans les établissements ». La page d'accueil vise tous les établissements (Part-Dieu, Lyon 7, Oullins), pas Lyon 7 en particulier.",
+    "contact": {
+     "tel": "09 70 95 27 78",
+     "site": "https://www.malting-pot.com",
+     "source": "https://www.malting-pot.com/adresses",
+     "verifieLe": "2026-10-16"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "mar": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "remarque": "Services du midi et du soir (brewpub avec cuisine). Dimanche : la source ne le mentionne pas.",
+      "source": "https://www.malting-pot.com/adresses",
+      "verifieLe": "2026-10-16"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.malting-pot.com",
+    "https://www.malting-pot.com/adresses"
+   ],
+   "extrait": "Accueil : « des bières brassées sur place et une cuisine du monde faite maison » ; « une gamme bouteille en 33cl et 75cl disponible à emporter dans les établissements et chez les meilleurs cavistes lyonnais ». Page Adresses, Lyon 7 (Guillotière) : « 263 Gdr de la Guillotière 69007 LYON » ; « 09 70 95 27 78 » ; « LUNDI AU SAMEDI » ; « MIDI 12H À 14H / SOIR 17H À MINUIT ».",
+   "choix": "Confiance « moyenne » et pas « solide » : la page d'accueil parle des « établissements » au pluriel et ne décrit pas la consommation sur place à Lyon 7 en particulier. Catégorie 1 retenue parce que le site se présente comme un brewpub avec cuisine et une adresse à horaires midi et soir : lecture à valider. « 17H À MINUIT » écrit [17:00, 00:00]. L'adresse précise (263 Grande rue de la Guillotière) n'est pas proposée pour addr. Aucun Untappd cherché ni trouvé."
+  },
+  {
+   "n": "Brasserie Georges",
+   "changements": {
+    "contact": {
+     "tel": "04 72 56 54 54",
+     "site": "https://www.brasseriegeorges.com",
+     "source": "https://www.brasseriegeorges.com/contact",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.brasseriegeorges.com/contact",
+    "https://www.brasseriegeorges.com"
+   ],
+   "extrait": "« Tel : +33 (0)4 72 56 54 54 »",
+   "choix": "Téléphone et site seuls (revue métier S12). Les horaires du restaurant (11h30–23h, vendredi et samedi jusqu'à 0h15) ne sont pas proposés : sous un badge « À confirmer », la fiche les afficherait comme « Horaires d'accueil du public », alors que rien n'établit qu'on y boive la bière de la brasserie (brassée par la Fabrique du Faubourg). Catégorie laissée à 0 : le site ne dit pas si la bière se vend à emporter (« La boutique » renvoie 404). Le bandeau « Fête des Lumières » de la page est daté de décembre 2025 : écarté. Seul numéro publié ; pas d'Untappd trouvé."
+  }
+ ]
+}

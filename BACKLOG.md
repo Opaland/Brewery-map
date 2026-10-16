@@ -83,6 +83,36 @@ chacun demande une décision ou une vérification de source.
   s11-exemples-s4) suivent la règle « publié pour ses clients » ; s'ils sont
   personnels, seul Cédric peut le juger (revue métier S11).
 
+- Curation S12, **décisions de Cédric** (pistes lues, non proposées) :
+  - Platypus Brewpub : horaires lus seulement sur des annuaires
+    (Privateaser, Schlouk Map : lun–mer 17h–minuit, jeu–sam jusqu'à 1h),
+    contredits sur le lundi par un troisième ; téléphone 09 83 50 85 00
+    affiché par Schlouk Map seulement. Un annuaire peut-il servir de source ?
+  - Brasserie des Roches : mobile 06 72 22 73 77 publié par l'office de
+    tourisme, pas par la brasserie ; horaires de l'office (vendredi 18h–1h,
+    janvier–juillet) sans nature (accueil ou vente).
+  - La Dame de Malt : seule source, le catalogue d'un grossiste
+    (Dauphi-Bières) ; une photo montre un panneau « vente de bière ».
+  - DWYN Brewing : site en 503 et Untappd en 404 le 16/10 ; à rouvrir.
+  - La Fabrique du Faubourg : brasse les Bières Georges à Vénissieux ;
+    aucune page sur l'accueil ou la vente.
+- Curation : **changer la commune ou la position** d'une fiche (Brasserie
+  Animus a déménagé de Vaugneray à Grigny) n'est pas possible par
+  proposition depuis S11 ; il faut une procédure à part (nouvelle position
+  lue, `km` recalculé), à décider.
+- Curation : 16 fiches n'ont aucune page à leur nom (liste dans
+  SPRINTS.md §S12) ; la recherche web des agents n'ouvre ni Facebook, ni
+  Instagram, ni Google Maps. Piste : les demander aux brasseries voisines,
+  ou les passer « à retirer ? » avec l'accord de Cédric.
+
+- Curation : le diff ne montre pas encore la fiche telle qu'elle
+  s'affichera (badge de catégorie, titre « Horaires d'accueil du public »,
+  bouton « Appeler ») ; Cédric doit le reconstituer (revue métier S12).
+- Curation S12 : Brasserie Animus retirée du lot (mobile 06 95 10 82 98
+  publié sur sa page Contact, note à corriger) en attendant la procédure de
+  déplacement ; La Canute Lyonnaise : faut-il reprendre le 06 24 11 06 71,
+  ligne de commande des professionnels ?
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

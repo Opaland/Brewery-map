@@ -1,5 +1,7 @@
 import { z } from 'zod'
+import { CATEGORIES } from './categories'
 import { distanceKm, type Point } from './distance'
+import { formaterCreneaux } from './horaires'
 import {
   brasserieObjetSchema,
   lienSchema,
@@ -159,8 +161,16 @@ export function appliquerLot(
  * d'horaires comparé en JSON était illisible, et sensible à l'ordre des
  * clés). Un tableau vide garde une ligne « [] ».
  */
+const JOUR_D_HORAIRES = /^horaires\.\d+\.(lun|mar|mer|jeu|ven|sam|dim)$/
+
 function aplatir(valeur: unknown, chemin: string, sortie: Map<string, string>): void {
   const sous = (cle: string) => (chemin === '' ? cle : `${chemin}.${cle}`)
+  // Un jour d'horaires se lit comme sur la fiche, en une ligne (revue métier
+  // S12 : « horaires.0.lun.1.1 : 00:00 » ne se décide pas).
+  if (JOUR_D_HORAIRES.test(chemin)) {
+    sortie.set(chemin, formaterCreneaux(valeur as Parameters<typeof formaterCreneaux>[0]))
+    return
+  }
   if (Array.isArray(valeur) && valeur.length > 0) {
     valeur.forEach((v: unknown, i) => {
       aplatir(v, sous(String(i)), sortie)
@@ -174,15 +184,27 @@ function aplatir(valeur: unknown, chemin: string, sortie: Map<string, string>): 
   sortie.set(chemin, typeof valeur === 'string' ? valeur : JSON.stringify(valeur))
 }
 
-const lisible = (v: string | undefined) => (v === undefined || v === '' ? '(vide)' : v)
+/** Une valeur pour un humain ; une catégorie porte son libellé (revue S12). */
+function lisible(v: string | undefined, chemin: string): string {
+  if (v === undefined || v === '') return '(vide)'
+  if (chemin === 'cat' && v in CATEGORIES) return `${v} (${CATEGORIES[Number(v) as keyof typeof CATEGORIES]})`
+  return v
+}
 
 /**
  * Le lot en Markdown, une section numérotée par proposition : chaque champ
  * qui change avec son avant et son après, les sources, l'extrait lu, la
  * date. C'est ce que Cédric lit pour répondre « j'accepte 1, 3, 4 ».
  */
-export function diffLisible(brasseries: readonly Brasserie[], lot: Lot): string {
-  const sections = lot.propositions.map((p, i) => {
+export function diffLisible(
+  brasseries: readonly Brasserie[],
+  lot: Lot,
+  seulement?: ReadonlySet<number>,
+): string {
+  // Les numéros restent ceux du lot complet, même quand on n'en montre
+  // qu'une partie : « j'accepte 1, 3 » vise ce que Cédric a lu (revue S12).
+  const sections = lot.propositions.flatMap((p, i) => {
+    if (seulement !== undefined && !seulement.has(i + 1)) return []
     const titre = `### ${String(i + 1)}. ${p.n}`
     const avantFiche = brasseries.find((b) => b.n === p.n)
     if (avantFiche === undefined) return `${titre}\n\n**Aucune fiche de ce nom dans les données.**`
@@ -195,7 +217,9 @@ export function diffLisible(brasseries: readonly Brasserie[], lot: Lot): string 
     const chemins = [...new Set([...avant.keys(), ...apres.keys()])].filter(
       (c) => avant.get(c) !== apres.get(c),
     )
-    const lignes = chemins.map((c) => `- ${c} : ${lisible(avant.get(c))} → ${lisible(apres.get(c))}`)
+    const lignes = chemins.map(
+      (c) => `- ${c} : ${lisible(avant.get(c), c)} → ${lisible(apres.get(c), c)}`,
+    )
     return [
       titre,
       '',
@@ -269,14 +293,18 @@ export function ficheDuSignalement(titre: string, brasseries: readonly Brasserie
  * Le numéro proposé figure-t-il sur la page lue ? Contrôle mécanique de
  * l'extrait (revue code S11 : seule une source sur cinq était rouverte à la
  * main). Entre les chiffres du numéro, un séparateur au plus (espace, point,
- * tiret, espace insécable) ; « +33 4 » vaut « 04 » ; un chiffre collé avant
+ * tiret, espace insécable) ; « +33 4 », « +33 (0)4 », « (+33)4 », « 00 33 4 »
+ * valent « 04 » ; un chiffre collé avant
  * ou après fait échouer, pour ne pas lire un numéro dans un autre. Les
  * séparateurs ne sont pas retirés de toute la page : « 91 1932 Route » y
  * collait le numéro de rue au numéro (vu sur la page de Kachmar, 16/10).
  */
 export function numeroSurLaPage(tel: string, page: string): boolean {
   const [premier = '', ...reste] = tel.replace(/\D/g, '').slice(1)
-  const sep = '[\\s.\\-\\u2013\\u00a0]?'
+  // Uniquement des séparateurs : jamais une lettre, donc jamais un numéro
+  // recomposé à travers du texte. Jusqu'à deux (« 04  72 », revue S12).
+  const sep = '[\\s.\\-\\u2013\\u00a0]{0,2}'
   const corps = [premier, ...reste].join(sep)
-  return new RegExp(`(?<![\\d+])(?:0|\\+33\\s?|0033\\s?)${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+  const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
+  return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
 }

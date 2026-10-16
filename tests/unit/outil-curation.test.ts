@@ -37,7 +37,13 @@ afterEach(() => {
 
 const empreinte = () => /Empreinte du lot : ([0-9a-f]{12})/.exec(lancer('diff', LOT).sortie)?.[1] ?? ''
 
-describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue code S11)', () => {
+/*
+  Chaque lancement démarre tsx (≈ 0,65 s mesuré le 16/10) ; le test des
+  numéros en fait sept : 4,7 s pour la limite de 5 s par défaut de Vitest,
+  dépassée une fois en suite complète. 30 s : marge de présentation, sans
+  effet sur ce qui est vérifié.
+*/
+describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue code S11)', { timeout: 30_000 }, () => {
   it('sans --ecrire, rien n’est écrit', () => {
     const avant = donnees()
     expect(lancer('appliquer', LOT, '1').code).toBe(0)
@@ -55,6 +61,8 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     for (const n of ['0x1', '1.0', '1e0', ' 2', '1,,2', '']) {
       expect(lancer('appliquer', LOT, n).code).toBe(2)
     }
+    // « 1 3 » au lieu de « 1,3 » n'appliquait que la 1, sans un mot (revue S12).
+    expect(lancer('appliquer', LOT, '1', '3').code).toBe(2)
   })
 
   it('avec la bonne empreinte, seule la fiche acceptée change', () => {
