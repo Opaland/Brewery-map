@@ -26,6 +26,7 @@
     "vite.config.ts",
     "playwright.config.ts",
     "build",
+    "outils",
     "src/core",
     "src/Contact.tsx",
     "src/Bieres.tsx",
