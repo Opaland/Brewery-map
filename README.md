@@ -4,16 +4,64 @@ Les brasseries artisanales autour de vous, et ce qu'on peut y faire :
 acheter et boire sur place, acheter seulement, rien de tout ça, ou « à
 confirmer » quand aucune source ne l'établit.
 
-**État : en construction (sprint 2 sur 6).** On peut déjà chercher une
-brasserie par nom ou par commune, régler la distance depuis Brignais (jusqu'à
-100 km), filtrer par ce qu'on peut y faire, et la retrouver sur la liste ou
-sur la carte. Pas encore de fiche détaillée ni de mode hors ligne. Le plan est
-dans [`docs/SPRINTS.md`](docs/SPRINTS.md).
+**Ouvrir l'application : <https://opaland.github.io/Brewery-map/>**
+— sur téléphone, elle s'installe comme une application et reste
+consultable hors connexion.
 
-Fond de carte : © contributeurs [OpenStreetMap](https://www.openstreetmap.org/copyright)
-(ODbL). Les distances sont calculées dans le navigateur.
+<p>
+  <img src="docs/captures/parcours.gif" alt="Une commune tapée (Villefranche-sur-Saône), la liste se recalcule, une fiche s'ouvre" width="300">
+</p>
 
-Application 100 % côté client : pas de serveur, pas de télémétrie.
+## Ce qu'elle fait
+
+- **166 brasseries** de 9 départements (01, 07, 26, 38, 42, 43, 69, 71, 73),
+  sur une liste et une carte.
+- **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
+  les 34 960 communes de France ; les distances se comptent depuis là.
+- **Filtrer** par distance, par ce qu'on peut y faire, par type de bière ;
+  chercher une brasserie par son nom, à toute distance.
+- **Une fiche par brasserie** : ce que dit la source et avec quelle
+  confiance, l'adresse, « Y aller » (Google Maps, Waze, Plans d'Apple, autre
+  application), et ce qui n'est pas connu, dit tel quel.
+- **Favoris**, gardés sur l'appareil.
+- **Signaler une erreur**, par une issue GitHub préremplie.
+
+Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
+Aujourd'hui, aucune fiche n'a encore de téléphone, d'horaires vérifiés ni de
+bières référencées : les propositions attendent la relecture
+(`curation/`).
+
+## Ce qui reste dans le téléphone
+
+Application 100 % côté client : pas de serveur, pas de compte, pas de
+télémétrie. La position sert à calculer les distances dans le navigateur et
+n'est envoyée à personne. Ce qui part sur le réseau : les images de la carte
+(OpenStreetMap voit la zone affichée), et, quand on choisit une commune, la
+liste des communes de sa région, demandée à ce site. Le détail est dans
+l'application, sous « Votre position reste dans ce téléphone ».
+
+## Captures
+
+| Téléphone | Fiche | Carte, thème sombre |
+| --- | --- | --- |
+| <img src="docs/captures/telephone-accueil.png" alt="Accueil sur téléphone : par où commencer, recherche, filtres" width="240"> | <img src="docs/captures/telephone-fiche.png" alt="Une fiche détaillée : téléphone non renseigné, Y aller, source, confiance" width="240"> | <img src="docs/captures/telephone-carte-sombre.png" alt="La carte en thème sombre, avec le compte des brasseries à moins de 30 km" width="240"> |
+
+Les captures sont refaites par `npx tsx outils/captures.ts` (voir l'en-tête
+du fichier).
+
+## Sources et licences
+
+- **Code** : licence MIT (`LICENSE`).
+- **Brasseries** (`data/breweries.json`) : fichier fourni par Cédric le
+  15/10/2026 ; chaque fiche cite sa source. Licence de réutilisation : **à
+  préciser par Cédric**.
+- **Communes** : Code officiel géographique de l'INSEE, via le paquet
+  `@etalab/decoupage-administratif` 6.0.0 (données sous Licence Ouverte
+  d'Etalab) ; leur point tiré de Wikidata (CC0). Fabriqué par
+  `outils/communes.ts`.
+- **Fond de carte** : © contributeurs
+  [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), servi
+  par les tuiles d'OpenStreetMap ; rendu par MapLibre GL JS (BSD-3).
 
 ## Développer
 
@@ -25,11 +73,9 @@ PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test   # conteneur
 ```
 
 Le build échoue si `data/breweries.json` ne respecte pas le schéma
-(`src/core/schema.ts`).
+(`src/core/schema.ts`). Les règles du projet sont dans `CLAUDE.md`, le
+plan et le bilan de chaque sprint dans [`docs/SPRINTS.md`](docs/SPRINTS.md),
+les données dans [`docs/DONNEES.md`](docs/DONNEES.md), ce qui reste dans
+[`BACKLOG.md`](BACKLOG.md).
 
 L'abus d'alcool est dangereux pour la santé, à consommer avec modération.
-
-## Licence
-
-Code sous licence MIT (voir `LICENSE`). Les licences des données seront
-précisées avec leur intégration.
