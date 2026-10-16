@@ -36,6 +36,7 @@ durée se relève sur l'horodatage des commits.
 | S14 | 200 k | — | revues 115 k (code non relevé) | terminé (#14) ; lot en attente de Cédric |
 | S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
+| S17 | 300 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -946,3 +947,14 @@ sprints avec revue + revue globale »).
      même question que Georges en S12) ; la commune de Paille (le site dit
      Lournand, la fiche Château).
 
+## S17 — Curation, lot 4 *(en cours)*
+
+1. **Objectif.** Les 26 derniers « À confirmer » jamais revus : après ce
+   lot, chacun des 101 l'a été au moins une fois.
+2. **Périmètre.** `lot 30` (26 fiches restantes) ; six agents ; aucun
+   signalement ouvert le 16/10. Les leçons de S16 sont données aux agents :
+   type de bière lu dans la description, catalogue complet, aucun fait
+   absent des pages dans `choix`.
+3. **Persona juge.** Bernard : ce qu'il voit d'une fiche encore « À
+   confirmer » une fois tout revu.
+4. **État final et restes.** *(à la clôture)*
