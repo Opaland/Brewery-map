@@ -361,3 +361,59 @@ describe('les fiches déjà revues, lues dans curation/ (revue code S13)', () =>
     }
   })
 })
+
+describe('les ajouts de fiches (S14)', () => {
+  const nouvelle: Brasserie = {
+    ...A_CONFIRMER,
+    n: 'Virage 7',
+    c: 'Lozanne',
+    note: 'Listée dans OpenStreetMap comme brasserie (craft=brewery, node/1) ; rien d’autre n’est vérifié.',
+    coordPrecision: 'address',
+  }
+  const ajout = {
+    fiche: nouvelle,
+    verifieLe: '2026-10-16',
+    sources: ['https://www.openstreetmap.org/node/1'],
+    extrait: 'name=Virage 7 ; craft=brewery',
+  }
+  const avecAjout: Lot = { lot: 'x', propositions: [proposition], ajouts: [ajout] }
+
+  it('un ajout se numérote après les propositions, et ne s’applique qu’accepté', () => {
+    expect(lireLot(avecAjout, AUJOURDHUI).ok).toBe(true)
+    const sans = appliquerLot(TOUTES, avecAjout, new Set([1]))
+    expect(sans.ok && sans.brasseries).toHaveLength(TOUTES.length)
+    const avec = appliquerLot(TOUTES, avecAjout, new Set([2]))
+    expect(avec.ok && avec.brasseries.map((b) => b.n)).toEqual([...TOUTES.map((b) => b.n), 'Virage 7'])
+    expect(avec.ok ? avec.brasseries.at(-1)?.verifieLe : undefined).toBe('2026-10-16')
+  })
+
+  it('un ajout qui reprend un nom du fichier est refusé, et le refus cite le numéro du lot', () => {
+    const doublon = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, n: TOUTES[0].n } }] }
+    const r = appliquerLot(TOUTES, doublon, new Set([2]))
+    expect(r.ok).toBe(false)
+    // « 4.n : nom déjà utilisé » ne disait rien à Cédric (revues S14).
+    expect(r.ok ? '' : r.erreurs.join('\n')).toContain(`proposition 2 (${TOUTES[0].n})`)
+  })
+
+  it('un ajout porte une fiche entière et valide, sans date à part', () => {
+    const invalide = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, cat: 1 } }] }
+    expect(lireLot(invalide, AUJOURDHUI).ok).toBe(false)
+    const datee = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, verifieLe: '2020-01-01' } }] }
+    expect(lireLot(datee, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('le diff montre un ajout comme une fiche nouvelle, numérotée après les propositions', () => {
+    const texte = diffLisible(TOUTES, avecAjout)
+    expect(texte).toContain('### 2. Virage 7 — fiche nouvelle')
+    expect(texte).toContain('- c : (vide) → Lozanne')
+    expect(texte).toContain('- cat : (vide) → 0 (À confirmer)')
+  })
+
+  it('les fiches ajoutées comptent parmi les fiches revues', () => {
+    const r = revuesDesFichiers(
+      [{ nom: 'a.json', contenu: { ...avecAjout, revues: [NOM] } }],
+      new Set(TOUTES.map((b) => b.n)),
+    )
+    expect(r.ok && [...r.revues].sort()).toEqual([NOM])
+  })
+})

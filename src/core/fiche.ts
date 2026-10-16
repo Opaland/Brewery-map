@@ -50,9 +50,9 @@ export const AVERTISSEMENT_HORAIRES =
   'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.'
 
 export function libellePrecision(precision: Brasserie['coordPrecision']): string {
-  return precision === 'commune'
-    ? 'approximative : centre de la commune, à environ 2 km près'
-    : 'à l’adresse vérifiée'
+  if (precision === 'commune') return 'approximative : centre de la commune, à environ 2 km près'
+  if (precision === 'osm') return 'point placé sur OpenStreetMap, non vérifié sur place'
+  return 'à l’adresse vérifiée'
 }
 
 /** Le site de la source, lisible (« nomadebiere.fr »), ou null s'il n'y en a pas. */

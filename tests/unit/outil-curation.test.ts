@@ -63,6 +63,10 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     }
     // « 1 3 » au lieu de « 1,3 » n'appliquait que la 1, sans un mot (revue S12).
     expect(lancer('appliquer', LOT, '1', '3').code).toBe(2)
+    // Plages écrites par Cédric (S14) : « 1-3 » oui ; « 3-1 », « 1-», « -2 » non.
+    expect(lancer('appliquer', LOT, '1-3').code).toBe(0)
+    for (const n of ['3-1', '1-', '-2', '1--3']) expect(lancer('appliquer', LOT, n).code).toBe(2)
+    expect(lancer('appliquer', LOT, '1-999999999').code).toBe(2)
   })
 
   it('avec la bonne empreinte, seule la fiche acceptée change', () => {

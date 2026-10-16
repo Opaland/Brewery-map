@@ -1,0 +1,2481 @@
+{
+ "source": "nominatim.openstreetmap.org, q=brewery, craft=brewery",
+ "lu": "2026-10-16",
+ "requetes": 66,
+ "candidats": [
+  {
+   "osm": "node/13227343955",
+   "nom": "La Rochebière",
+   "lat": 44.5202232,
+   "lon": 4.3072732,
+   "commune": "Largentière",
+   "departement": "07",
+   "adresse": "Impasse Zone du Ginestet, 07110 Largentière",
+   "site": "https://la-rochebiere.fr",
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 50.69184403391894
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13937935301",
+   "nom": "La Fa’briquette",
+   "lat": 44.3456437,
+   "lon": 4.366481,
+   "commune": "Vagnas",
+   "departement": "07",
+   "adresse": "10 Rue de l’École, 07150 Vagnas",
+   "site": "https://www.brasserie-lafabriquette.fr",
+   "etiquettes": {
+    "opening_hours": "Mo, We-Su 14:00-18:30; Tu 10:30-13:00, 14:00-18:30"
+   },
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 66.3815148603755
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13072108394",
+   "nom": "Lou Cabistou",
+   "lat": 44.3931559,
+   "lon": 4.5015725,
+   "commune": "Saint-Remèze",
+   "departement": "07",
+   "adresse": "Route de Vallon, 07700 Saint-Remèze",
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 58.50429676264317
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13125588440",
+   "nom": "Brasserie Artisanale La Fabrique",
+   "lat": 44.5349835,
+   "lon": 4.7384873,
+   "commune": "Montélimar",
+   "departement": "26",
+   "adresse": "110A Route de Châteauneuf, 26200 Montélimar",
+   "etiquettes": {
+    "opening_hours": "Mo off; Tu-Sa 10:00-20:30; Su off"
+   },
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 42.41968539899006
+   },
+   "statut": "ambigu",
+   "fiche": "La Bonne Fabrique"
+  },
+  {
+   "osm": "way/829374816",
+   "nom": "La vieille mule",
+   "lat": 44.5267063,
+   "lon": 4.9859677,
+   "commune": "Le Poët-Laval",
+   "departement": "26",
+   "adresse": "Route de Dieulefit, 26160 Le Poët-Laval",
+   "site": "https://www.lavieillemule.com/",
+   "plusProche": {
+    "n": "Brasserie de la Pleine Lune",
+    "km": 41.737065458370175
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/4756665335",
+   "nom": "Brasserie la Croix d'or",
+   "lat": 44.362283,
+   "lon": 4.6940744,
+   "commune": "Pierrelatte",
+   "departement": "26",
+   "adresse": "Avenue de Provence, 26700 Pierrelatte",
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 61.05345328168339
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/7352560827",
+   "nom": "Brasserie Bergoïata",
+   "lat": 44.3708997,
+   "lon": 4.6439232,
+   "commune": "Bourg-Saint-Andéol",
+   "departement": "07",
+   "adresse": "Avenue Jean Jaurès, 07700 Bourg-Saint-Andéol",
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 59.946021907952975
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/2118315994",
+   "nom": "Brasserie de l'Etoile",
+   "lat": 44.2759722,
+   "lon": 5.2759856,
+   "commune": "Buis-les-Baronnies",
+   "departement": "26",
+   "adresse": "Place du Quinconce, 26170 Buis-les-Baronnies",
+   "plusProche": {
+    "n": "Brasserie de la Pleine Lune",
+    "km": 72.50082521692381
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/615387760",
+   "nom": "Bivouak",
+   "lat": 44.3399795,
+   "lon": 5.2659222,
+   "commune": "Sainte-Jalle",
+   "departement": "26",
+   "adresse": "D 108, 26110 Sainte-Jalle",
+   "plusProche": {
+    "n": "Brasserie de la Pleine Lune",
+    "km": 65.4571647018268
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/12768455883",
+   "nom": "Les 3 caves",
+   "lat": 44.9125159,
+   "lon": 2.4438872,
+   "commune": "Aurillac",
+   "departement": "15",
+   "adresse": "Rue de Lalue, 15000 Aurillac",
+   "plusProche": {
+    "n": "Brasserie Vellavia",
+    "km": 114.90499704461243
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/898123607",
+   "nom": "Brasserie Volane",
+   "lat": 44.655422,
+   "lon": 4.3684253,
+   "commune": "Vals-les-Bains",
+   "departement": "07",
+   "adresse": "7 Avenue Claude Expilly, 07600 Vals-les-Bains",
+   "plusProche": {
+    "n": "La Grange du Seigneur",
+    "km": 35.50685562529494
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6837153696",
+   "nom": "Brasserie L'Ale Ouët",
+   "lat": 44.6869222,
+   "lon": 4.2844916,
+   "commune": "Chirols",
+   "departement": "07",
+   "adresse": "Route de la Plaine du Fez, 07380 Chirols",
+   "plusProche": {
+    "n": "L'Agrivoise",
+    "km": 36.64152087443993
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/8939615919",
+   "nom": "Drac",
+   "lat": 44.6370472,
+   "lon": 4.2546058,
+   "commune": "Jaujac",
+   "departement": "07",
+   "adresse": "Place Saint-Bonnet, 07380 Jaujac",
+   "etiquettes": {
+    "opening_hours": "Tu,Fr 10:00-12:30, We-Sa,PH 17:00-19:00"
+   },
+   "plusProche": {
+    "n": "L'Agrivoise",
+    "km": 42.60394133101907
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/5635690114",
+   "nom": "L'Agrivoise",
+   "lat": 45.0153024,
+   "lon": 4.3865902,
+   "commune": "Saint-Agrève",
+   "departement": "07",
+   "adresse": "Chemin de Pontardieu, 07320 Saint-Agrève",
+   "plusProche": {
+    "n": "L'Agrivoise",
+    "km": 1.2436231121734953
+   },
+   "statut": "present",
+   "fiche": "L'Agrivoise"
+  },
+  {
+   "osm": "node/14133015102",
+   "nom": "Mazesté",
+   "lat": 45.0460589,
+   "lon": 4.2445528,
+   "commune": "Mazet-Saint-Voy",
+   "departement": "43",
+   "adresse": "2 Chemin de la Vaysse, 43520 Mazet-Saint-Voy",
+   "site": "http://mazeste.fr",
+   "etiquettes": {
+    "opening_hours": "Fr 18:00-23:30; Sa 10:00-12:00; Sa 18:00-23:30"
+   },
+   "plusProche": {
+    "n": "Manev'Ale",
+    "km": 1.2243906099640396
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/889170773",
+   "nom": "Brasserie de la Pleine Lune",
+   "lat": 44.8994153,
+   "lon": 5.0080445,
+   "commune": "Chabeuil",
+   "departement": "26",
+   "adresse": "Rue Gustave Eiffel, 26120 Chabeuil",
+   "site": "https://www.brasserie-pleinelune.fr/",
+   "etiquettes": {
+    "shop": "alcohol",
+    "opening_hours": "Mo 14:00-20:00; Tu,We 10:00-21:00; Th,Fr 10:00-23:00; Sa 10:00-22:00"
+   },
+   "plusProche": {
+    "n": "Ferme-brasserie Déluge",
+    "km": 0.7183466944397043
+   },
+   "statut": "present",
+   "fiche": "Brasserie de la Pleine Lune"
+  },
+  {
+   "osm": "way/68332734",
+   "nom": "3:6:9 Bière Craft",
+   "lat": 44.8839393,
+   "lon": 4.8497107,
+   "commune": "Soyons",
+   "departement": "07",
+   "adresse": "Chemin du Vivier, 07130 Soyons",
+   "plusProche": {
+    "n": "Brasserie de Roche Colombe",
+    "km": 6.4364221664117105
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6868204364",
+   "nom": "Brasserie Hildegarde",
+   "lat": 45.0156672,
+   "lon": 4.8693112,
+   "commune": "Pont-de-l'Isère",
+   "departement": "26",
+   "adresse": "730 Route de Lyon, 26600 Pont-de-l'Isère",
+   "plusProche": {
+    "n": "Brasserie Hildegarde",
+    "km": 6.438065081101222
+   },
+   "statut": "homonyme",
+   "fiche": "Brasserie Hildegarde"
+  },
+  {
+   "osm": "node/5939247511",
+   "nom": "Auberge de Longue Vie",
+   "lat": 45.097581,
+   "lon": 4.6976128,
+   "commune": "Saint-Victor",
+   "departement": "07",
+   "adresse": "Route de Corsas, 07410 Saint-Victor",
+   "plusProche": {
+    "n": "Brasserie Longue Vie",
+    "km": 5.452825751084627
+   },
+   "statut": "ambigu",
+   "fiche": "Brasserie Longue Vie"
+  },
+  {
+   "osm": "node/12048874761",
+   "nom": "Brasserie Longue Vie",
+   "lat": 45.0974693,
+   "lon": 4.696989,
+   "commune": "Saint-Victor",
+   "departement": "07",
+   "adresse": "Chemin de Laumache, 07410 Saint-Victor",
+   "site": "https://longue-vie.fr/",
+   "plusProche": {
+    "n": "Brasserie Longue Vie",
+    "km": 5.4285170325741845
+   },
+   "statut": "present",
+   "fiche": "Brasserie Longue Vie"
+  },
+  {
+   "osm": "node/13076354249",
+   "nom": "Tarz",
+   "lat": 45.086247,
+   "lon": 5.3388931,
+   "commune": "Saint-André-en-Royans",
+   "departement": "38",
+   "adresse": "Rue du Bourg, 38680 Saint-André-en-Royans",
+   "etiquettes": {
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Domaine du Bélier Rouge",
+    "km": 6.057238991295936
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/3731778122",
+   "nom": "La Tarz",
+   "lat": 45.0862479,
+   "lon": 5.338926,
+   "commune": "Saint-André-en-Royans",
+   "departement": "38",
+   "adresse": "Rue du Bourg, 38680 Saint-André-en-Royans",
+   "plusProche": {
+    "n": "Domaine du Bélier Rouge",
+    "km": 6.058453933257322
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/72740368",
+   "nom": "Brasserie Après l'Orage",
+   "lat": 44.7584502,
+   "lon": 5.3571599,
+   "commune": "Die",
+   "departement": "26",
+   "adresse": "795 Chemin de Chandillon, 26150 Die",
+   "site": "https://apreslorage.fr/",
+   "etiquettes": {
+    "opening_hours": "Mo-Fr 09:00-19:00"
+   },
+   "plusProche": {
+    "n": "Brasserie de la Pleine Lune",
+    "km": 31.167100511104223
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6528350586",
+   "nom": "O' Saint-Paul",
+   "lat": 45.0594729,
+   "lon": 5.1078732,
+   "commune": "Saint-Paul-lès-Romans",
+   "departement": "26",
+   "adresse": "21A Avenue des Pins, 26750 Saint-Paul-lès-Romans",
+   "plusProche": {
+    "n": "Brasserie Romanaise (Bière Jacquemart)",
+    "km": 4.706985506179453
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/522015980",
+   "nom": "Brasserie du Slalom",
+   "lat": 44.9713193,
+   "lon": 5.4132329,
+   "commune": "La Chapelle-en-Vercors",
+   "departement": "26",
+   "adresse": "Avenue des Sources, 26420 La Chapelle-en-Vercors",
+   "site": "https://www.brasserie-du-slalom.fr",
+   "etiquettes": {
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Domaine du Bélier Rouge",
+    "km": 20.088116111000453
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9956628805",
+   "nom": "La Bascule",
+   "lat": 44.6941272,
+   "lon": 5.4867211,
+   "commune": "Châtillon-en-Diois",
+   "departement": "26",
+   "adresse": "Impasse des Chaussières, 26410 Châtillon-en-Diois",
+   "plusProche": {
+    "n": "Brasserie de la Pleine Lune",
+    "km": 43.6309922726333
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9366608484",
+   "nom": "Bière de l'Oisans",
+   "lat": 45.0550621,
+   "lon": 6.0294478,
+   "commune": "Le Bourg-d'Oisans",
+   "departement": "38",
+   "adresse": "27 Avenue de la République, 38520 Le Bourg-d'Oisans",
+   "site": "https://bieresdeloisans.fr/",
+   "etiquettes": {
+    "opening_hours": "Tu-Fr 15:00-19:00; Sa 09:00-13:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Solstice",
+    "km": 24.962265158052023
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6928795915",
+   "nom": "La Brasserie du Mont Aiguille",
+   "lat": 44.8299644,
+   "lon": 5.6052361,
+   "commune": "Clelles",
+   "departement": "38",
+   "adresse": "D 7, 38930 Clelles",
+   "site": "https://www.brasseriedumontaiguille.fr/",
+   "plusProche": {
+    "n": "Brasserie Les Dameuses",
+    "km": 32.24805326998279
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11898294497",
+   "nom": "La Matheysine",
+   "lat": 44.9332528,
+   "lon": 5.8256179,
+   "commune": "Nantes-en-Rattier",
+   "departement": "38",
+   "adresse": "Rue de La Fuma, 38350 Nantes-en-Rattier",
+   "site": "https://www.brasseriematheysine.fr/",
+   "plusProche": {
+    "n": "Brasserie Les Dameuses",
+    "km": 23.918353959760886
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/4221229812",
+   "nom": "Brasserie du Haut Buech (BHB)",
+   "lat": 44.6757333,
+   "lon": 5.75744,
+   "commune": "Lus-la-Croix-Haute",
+   "departement": "26",
+   "adresse": "26620 Lus-la-Croix-Haute",
+   "site": "https://bhbbrasserieartisanale.blogspot.com/",
+   "etiquettes": {
+    "opening_hours": "Mo-Th 16:00-17:00",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Les Dameuses",
+    "km": 49.55145082995401
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/927596016",
+   "nom": "Brasserie 360",
+   "lat": 45.1305481,
+   "lon": 2.4118908,
+   "commune": "Saint-Martin-Valmeroux",
+   "departement": "15",
+   "adresse": "Rue des Céréales, 15140 Saint-Martin-Valmeroux",
+   "site": "https://www.brasserie360.fr",
+   "plusProche": {
+    "n": "Brasserie Vellavia",
+    "km": 116.28866232821952
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13810536073",
+   "nom": "Brasserie du Sancy",
+   "lat": 45.5109343,
+   "lon": 2.9316495,
+   "commune": "Besse-et-Saint-Anastaise",
+   "departement": "63",
+   "adresse": "Grand Mèze, 63610 Besse-et-Saint-Anastaise",
+   "plusProche": {
+    "n": "Miellerie Gachet",
+    "km": 83.2684420775147
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13012188555",
+   "nom": "Brasserie des Estives",
+   "lat": 45.225178,
+   "lon": 2.9345214,
+   "commune": "Allanche",
+   "departement": "15",
+   "adresse": "Rue de la Pierre Grosse, 15160 Allanche",
+   "site": "https://brasseriedesestives.com/",
+   "plusProche": {
+    "n": "Brasserie de l'Emblavez",
+    "km": 75.51929834473589
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/4343465583",
+   "nom": "La Brasserie Stéphanoise",
+   "lat": 45.4160182,
+   "lon": 4.3908239,
+   "commune": "Saint-Étienne",
+   "departement": "42",
+   "adresse": "Rue de l'Égalerie, 42100 Saint-Étienne",
+   "etiquettes": {
+    "shop": "alcohol",
+    "opening_hours": "Fr-Sa 14:00-18:30"
+   },
+   "plusProche": {
+    "n": "Ninkasi Saint-Étienne",
+    "km": 1.3160124217547127
+   },
+   "statut": "present",
+   "fiche": "Brasserie Stéphanoise"
+  },
+  {
+   "osm": "node/9723624824",
+   "nom": "Phylum Fungi",
+   "lat": 45.4460292,
+   "lon": 4.3879088,
+   "commune": "Saint-Étienne",
+   "departement": "42",
+   "adresse": "4 Rue Francis de Pressensé, 42000 Saint-Étienne",
+   "etiquettes": {
+    "opening_hours": "Fr 16:00-18:00"
+   },
+   "plusProche": {
+    "n": "L'Ours qui brasse",
+    "km": 0.5744996291122598
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/8928658771",
+   "nom": "Brasserie de la Semène",
+   "lat": 45.3394009,
+   "lon": 4.4141596,
+   "commune": "Saint-Genest-Malifaux",
+   "departement": "42",
+   "adresse": "Rue Louis Jacquemin, 42660 Saint-Genest-Malifaux",
+   "plusProche": {
+    "n": "La Gaudine (Brasserie de la Semène)",
+    "km": 2.0075711774828817
+   },
+   "statut": "ambigu",
+   "fiche": "La Gaudine (Brasserie de la Semène)"
+  },
+  {
+   "osm": "way/643827357",
+   "nom": "Brasserie de la Loire",
+   "lat": 45.5100943,
+   "lon": 4.2367918,
+   "commune": "Saint-Just-Saint-Rambert",
+   "departement": "42",
+   "adresse": "29 Chemin du Béchet, 42170 Saint-Just-Saint-Rambert",
+   "etiquettes": {
+    "shop": "brewery"
+   },
+   "plusProche": {
+    "n": "Brasserie de la Loire",
+    "km": 2.151401487693961
+   },
+   "statut": "present",
+   "fiche": "Brasserie de la Loire"
+  },
+  {
+   "osm": "node/3034324702",
+   "nom": "La Brasserie des Plantes",
+   "lat": 45.3028185,
+   "lon": 4.2753141,
+   "commune": "Saint-Didier-en-Velay",
+   "departement": "43",
+   "adresse": "Grand Place, 43140 Saint-Didier-en-Velay",
+   "plusProche": {
+    "n": "Brasserie Beauseigne",
+    "km": 4.23234361941367
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/2725880047",
+   "nom": "Vienne Brewing Company",
+   "lat": 45.525762,
+   "lon": 4.874727,
+   "commune": "Vienne",
+   "departement": "38",
+   "adresse": "Rue de la Chaîne, 38200 Vienne",
+   "plusProche": {
+    "n": "DWYN Brewing",
+    "km": 10.56649703863293
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11270901233",
+   "nom": "Brasserie des Dauphins",
+   "lat": 45.4412703,
+   "lon": 5.0048914,
+   "commune": "Cour-et-Buis",
+   "departement": "38",
+   "adresse": "Chemin du Grand Quartier, 38122 Cour-et-Buis",
+   "plusProche": {
+    "n": "Brasserie de la Sanne",
+    "km": 13.953864598561658
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/10140476976",
+   "nom": "Brasserie des Roches",
+   "lat": 45.5521501,
+   "lon": 4.8612163,
+   "commune": "Seyssuel",
+   "departement": "38",
+   "adresse": "420 Chemin de Montrozier, 38200 Seyssuel",
+   "site": "https://www.brasseriedesroches.fr",
+   "plusProche": {
+    "n": "Brasserie Krüger",
+    "km": 7.659820606179356
+   },
+   "statut": "homonyme",
+   "fiche": "Brasserie des Roches"
+  },
+  {
+   "osm": "node/7784568139",
+   "nom": "Brasserie du Loup Blanc",
+   "lat": 45.1741356,
+   "lon": 4.8893076,
+   "commune": "Saint-Barthélemy-de-Vals",
+   "departement": "26",
+   "adresse": "Impasse du Vernais, 26240 Saint-Barthélemy-de-Vals",
+   "etiquettes": {
+    "amenity": "bar",
+    "opening_hours": "We-Fr 17:00-19:00"
+   },
+   "plusProche": {
+    "n": "Brasserie des Sarments",
+    "km": 7.56685329679995
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/5939247507",
+   "nom": "Free Mousse",
+   "lat": 45.1212944,
+   "lon": 4.7061865,
+   "commune": "Saint-Victor",
+   "departement": "07",
+   "adresse": "Chemin de Petit Berger, 07410 Saint-Victor",
+   "plusProche": {
+    "n": "Brasserie Longue Vie",
+    "km": 4.6056474845411906
+   },
+   "statut": "ambigu",
+   "fiche": "Brasserie Free Mousse"
+  },
+  {
+   "osm": "way/312322647",
+   "nom": "La Tit'Mousse",
+   "lat": 45.4203725,
+   "lon": 4.691753,
+   "commune": "Pélussin",
+   "departement": "42",
+   "adresse": "4 Rue de l'Europe, 42410 Pélussin",
+   "site": "https://latitmousse.fr/",
+   "plusProche": {
+    "n": "Brasserie des Roches",
+    "km": 9.375650467216023
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/5095193371",
+   "nom": "La brasserie du Pilat",
+   "lat": 45.3184424,
+   "lon": 4.6307158,
+   "commune": "Saint-Julien-Molin-Molette",
+   "departement": "42",
+   "adresse": "D 8.7, 42220 Saint-Julien-Molin-Molette",
+   "site": "https://www.brasseriedupilat.com/",
+   "plusProche": {
+    "n": "Brasserie du Pilat",
+    "km": 5.600567174583028
+   },
+   "statut": "present",
+   "fiche": "Brasserie du Pilat"
+  },
+  {
+   "osm": "way/138335054",
+   "nom": "Ferme de la Quintillière - Bière Busard",
+   "lat": 45.5902103,
+   "lon": 4.6359812,
+   "commune": "Chabanière",
+   "departement": "69",
+   "adresse": "520 Route de Comte Boiron, 69440 Chabanière",
+   "site": "http://www.fermedelaquintilliere.com/bieres-busard/",
+   "etiquettes": {
+    "opening_hours": "We 16:30-19:30"
+   },
+   "plusProche": {
+    "n": "La Bière des Loups",
+    "km": 2.0028991988364084
+   },
+   "statut": "ambigu",
+   "fiche": "Ferme de la Quintillière"
+  },
+  {
+   "osm": "node/5109474454",
+   "nom": "La Bi'nche",
+   "lat": 45.351674,
+   "lon": 5.3374739,
+   "commune": "Saint-Étienne-de-Saint-Geoirs",
+   "departement": "38",
+   "adresse": "Route de l'Aéroport, 38590 Saint-Étienne-de-Saint-Geoirs",
+   "plusProche": {
+    "n": "Brasserie de Chambaran",
+    "km": 3.9511480220987107
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/5323467632",
+   "nom": "Brasserie des Faux Semblables",
+   "lat": 45.5358525,
+   "lon": 5.3793461,
+   "commune": "Saint-Victor-de-Cessieu",
+   "departement": "38",
+   "adresse": "57 Chemin de Vallin - la Forêt, 38110 Saint-Victor-de-Cessieu",
+   "plusProche": {
+    "n": "Bière des Frères Clavel",
+    "km": 4.299143901507468
+   },
+   "statut": "homonyme",
+   "fiche": "Brasserie des Faux Semblables"
+  },
+  {
+   "osm": "node/9154020202",
+   "nom": "Brasserie Thetys",
+   "lat": 45.5698979,
+   "lon": 5.461313,
+   "commune": "Saint-Clair-de-la-Tour",
+   "departement": "38",
+   "adresse": "Rue des Cordes, 38110 Saint-Clair-de-la-Tour",
+   "site": "https://brasserie-thetys.com/",
+   "plusProche": {
+    "n": "Brasserie des Faux Semblables",
+    "km": 0.5498094933739754
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/5705298290",
+   "nom": "Les Bières du Temps",
+   "lat": 45.4550217,
+   "lon": 5.291694,
+   "commune": "Champier",
+   "departement": "38",
+   "adresse": "85 Allée des Acacias, 38260 Champier",
+   "site": "https://www.lesbieresdutemps.com/",
+   "etiquettes": {
+    "opening_hours": "Fr 16:00-19:00; Sa 10:00-12:30, 15:00-18:00; We 10:00-12:30, 15:00-19:00"
+   },
+   "plusProche": {
+    "n": "Les Bières du Temps",
+    "km": 8.327370982071514
+   },
+   "statut": "present",
+   "fiche": "Les Bières du Temps"
+  },
+  {
+   "osm": "node/9205148848",
+   "nom": "Brewhouse",
+   "lat": 45.1922869,
+   "lon": 5.7303756,
+   "commune": "Grenoble",
+   "departement": "38",
+   "adresse": "2 Rue Pierre Duclot, 38000 Grenoble",
+   "etiquettes": {
+    "opening_hours": "Tu-We 17:00-24:00; Th 17:00-01:00; Fr 15:00-01:00; Sa-Su 16:00-01:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Dr D. Brewpub",
+    "km": 0.6239534800720683
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/181203951",
+   "nom": "Brasserie Distillerie du Mont Blanc",
+   "lat": 45.591761,
+   "lon": 5.8883421,
+   "commune": "La Motte-Servolex",
+   "departement": "73",
+   "adresse": "Avenue René Cassin, 73290 La Motte-Servolex",
+   "plusProche": {
+    "n": "Brasserie du Mont Blanc",
+    "km": 1.9169454607979002
+   },
+   "statut": "ambigu",
+   "fiche": "Brasserie du Mont Blanc"
+  },
+  {
+   "osm": "way/292684260",
+   "nom": "Brasserie La Barbue",
+   "lat": 45.543872,
+   "lon": 5.9592691,
+   "commune": "La Ravoire",
+   "departement": "73",
+   "adresse": "Rue Archimède, 73490 La Ravoire",
+   "plusProche": {
+    "n": "La Barbue",
+    "km": 3.1534364950965443
+   },
+   "statut": "present",
+   "fiche": "La Barbue"
+  },
+  {
+   "osm": "way/165389547",
+   "nom": "Brasserie du Merle",
+   "lat": 45.5728655,
+   "lon": 6.0311335,
+   "commune": "Puygros",
+   "departement": "73",
+   "adresse": "14,16 Route du Boyat, 73190 Puygros",
+   "site": "http://brasseriedumerle.fr/",
+   "etiquettes": {
+    "opening_hours": "We 16:00-22:00"
+   },
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 2.51856433803927
+   },
+   "statut": "present",
+   "fiche": "Brasserie du Merle"
+  },
+  {
+   "osm": "node/5901138391",
+   "nom": "Brasserie Grésiv'Ale",
+   "lat": 45.4296273,
+   "lon": 5.9833504,
+   "commune": "Barraux",
+   "departement": "38",
+   "adresse": "Chemin des Gites, 38530 Barraux",
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 2.26534429490989
+   },
+   "statut": "present",
+   "fiche": "Brasserie Grésiv'ale"
+  },
+  {
+   "osm": "way/61400110",
+   "nom": "Mandrin",
+   "lat": 45.1844203,
+   "lon": 5.7747153,
+   "commune": "Saint-Martin-d'Hères",
+   "departement": "38",
+   "adresse": "Rue du Champ Roman, 38400 Saint-Martin-d'Hères",
+   "site": "https://mandrin.biz/",
+   "etiquettes": {
+    "amenity": "pub",
+    "shop": "alcohol",
+    "opening_hours": "We,Fr 14:00-18:00; Sa 10:00-13:00,15:00-18:00",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie du Dauphiné",
+    "km": 1.2457519335333342
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11163082026",
+   "nom": "La bonne fabrique (brasserie et atelier bois)",
+   "lat": 45.2595304,
+   "lon": 5.7773517,
+   "commune": "Le Sappey-en-Chartreuse",
+   "departement": "38",
+   "adresse": "Route du Col de Porte, 38700 Le Sappey-en-Chartreuse",
+   "plusProche": {
+    "n": "La Bonne Fabrique",
+    "km": 1.9435918289690028
+   },
+   "statut": "ambigu",
+   "fiche": "La Bonne Fabrique"
+  },
+  {
+   "osm": "node/12212783479",
+   "nom": "L’Antre 2 Bières",
+   "lat": 45.4129272,
+   "lon": 5.745616,
+   "commune": "Entre-deux-Guiers",
+   "departement": "38",
+   "adresse": "10 ZI Chartreuse Guiers, 38380 Entre-deux-Guiers",
+   "site": "https://antre2bieres.fr",
+   "plusProche": {
+    "n": "Brasserie de Chartreuse",
+    "km": 3.8402694913815973
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/41406746",
+   "nom": "L'Antre 2 Bières",
+   "lat": 45.3871894,
+   "lon": 5.7351725,
+   "commune": "Saint-Laurent-du-Pont",
+   "departement": "38",
+   "adresse": "Place Aristide Briand, 38380 Saint-Laurent-du-Pont",
+   "plusProche": {
+    "n": "Brasserie de Chartreuse",
+    "km": 3.0938692588911034
+   },
+   "statut": "doublon",
+   "fiche": "L’Antre 2 Bières"
+  },
+  {
+   "osm": "way/84828231",
+   "nom": "Brasserie des Cuves",
+   "lat": 45.2062029,
+   "lon": 5.6812121,
+   "commune": "Sassenage",
+   "departement": "38",
+   "adresse": "Impasse du Charmant Som, 38360 Sassenage",
+   "plusProche": {
+    "n": "Brasserie des Cuves",
+    "km": 1.1168640364163938
+   },
+   "statut": "present",
+   "fiche": "Brasserie des Cuves"
+  },
+  {
+   "osm": "node/9905372699",
+   "nom": "La Furieuse",
+   "lat": 45.2068137,
+   "lon": 5.6802547,
+   "commune": "Sassenage",
+   "departement": "38",
+   "adresse": "Rue de la Maladière, 38360 Sassenage",
+   "plusProche": {
+    "n": "Brasserie des Cuves",
+    "km": 1.1043208133518885
+   },
+   "statut": "present",
+   "fiche": "Brasserie La Furieuse"
+  },
+  {
+   "osm": "node/14152557690",
+   "nom": "Brasserie des cuves",
+   "lat": 45.2061558,
+   "lon": 5.6812696,
+   "commune": "Sassenage",
+   "departement": "38",
+   "adresse": "Impasse du Charmant Som, 38360 Sassenage",
+   "site": "www.brasseriedescuves.fr",
+   "plusProche": {
+    "n": "Brasserie des Cuves",
+    "km": 1.1171945766159201
+   },
+   "statut": "doublon",
+   "fiche": "Brasserie des Cuves"
+  },
+  {
+   "osm": "node/8377692238",
+   "nom": "La Maiz'",
+   "lat": 45.3971709,
+   "lon": 5.6066953,
+   "commune": "Saint-Nicolas-de-Macherin",
+   "departement": "38",
+   "adresse": "104 Chemin du Lavoir, 38500 Saint-Nicolas-de-Macherin",
+   "site": "http://lamaiz.fr",
+   "plusProche": {
+    "n": "Brasserie de l'Ours Barbu",
+    "km": 3.8414259356219658
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/218919148",
+   "nom": "La Dauphine",
+   "lat": 45.4592115,
+   "lon": 5.6426795,
+   "commune": "Saint-Geoire-en-Valdaine",
+   "departement": "38",
+   "adresse": "Voie de la Martinette, 38620 Saint-Geoire-en-Valdaine",
+   "site": "http://www.la-dauphine.fr",
+   "plusProche": {
+    "n": "Brasserie du Val d'Ainan (La Dauphine)",
+    "km": 1.2587208975319062
+   },
+   "statut": "ambigu",
+   "fiche": "Brasserie du Val d'Ainan (La Dauphine)"
+  },
+  {
+   "osm": "way/165706832",
+   "nom": "Micro-brasserie Noisigotte",
+   "lat": 45.4146034,
+   "lon": 5.853378,
+   "commune": "Saint-Pierre-d'Entremont",
+   "departement": "38",
+   "adresse": "96 Chemin du Rocher, 38380 Saint-Pierre-d'Entremont",
+   "plusProche": {
+    "n": "La Marmotte Masquée",
+    "km": 9.955673618628662
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/787169310",
+   "nom": "Brasserie de la Dent de Crolles",
+   "lat": 45.3109431,
+   "lon": 5.8871937,
+   "commune": "Saint-Hilaire",
+   "departement": "38",
+   "adresse": "Chemin de Prébois, 38660 Saint-Hilaire",
+   "site": "https://brasserie-dentdecrolles.fr/",
+   "plusProche": {
+    "n": "La Marmotte Masquée",
+    "km": 7.256232585385493
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6659874286",
+   "nom": "L'écume du Guier",
+   "lat": 45.5386303,
+   "lon": 5.7087855,
+   "commune": "Domessin",
+   "departement": "73",
+   "adresse": "Rue du Chef-Lieu, 73330 Domessin",
+   "etiquettes": {
+    "shop": "alcohol"
+   },
+   "plusProche": {
+    "n": "L'Écume du Guiers",
+    "km": 5.005116364104858
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/14054524469",
+   "nom": "Brasserie des Neiges Maurienne",
+   "lat": 45.2792335,
+   "lon": 6.3455646,
+   "commune": "Saint-Jean-de-Maurienne",
+   "departement": "73",
+   "adresse": "261 Rue Saint-Antoine, 73300 Saint-Jean-de-Maurienne",
+   "etiquettes": {
+    "opening_hours": "Tu-Fr 09:30-12:00,14:00-18:00; Sa 09:30-12:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 34.081486810752814
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/8542143945",
+   "nom": "Brasserie Galibier",
+   "lat": 45.1664166,
+   "lon": 6.4260109,
+   "commune": "Valloire",
+   "departement": "73",
+   "adresse": "Rue de la Bonne Eau, 73450 Valloire",
+   "site": "https://www.valloire.net/degustation/brasserie-galibier-valloire/",
+   "etiquettes": {
+    "shop": "alcohol"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 46.828868080811155
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9157511087",
+   "nom": "Les funambules",
+   "lat": 45.4705361,
+   "lon": 6.1271215,
+   "commune": "Rotherens",
+   "departement": "73",
+   "adresse": "689 Route des Bons Prés, 73110 Rotherens",
+   "site": "https://www.microbrasserielesfunambules.fr/",
+   "plusProche": {
+    "n": "Brasserie Quardin",
+    "km": 11.159354359236648
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/10539043798",
+   "nom": "Brasserie du Grand Pic",
+   "lat": 45.4520778,
+   "lon": 6.2960803,
+   "commune": "Épierre",
+   "departement": "73",
+   "adresse": "80 Rue des Moulins, 73220 Épierre",
+   "site": "https://brasseriegrandpic.com/",
+   "plusProche": {
+    "n": "Brasserie Quardin",
+    "km": 24.174770597132454
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/181948095",
+   "nom": "L'Étoile des Neiges",
+   "lat": 45.3792557,
+   "lon": 6.5043034,
+   "commune": "Saint-Martin-de-Belleville",
+   "departement": "73",
+   "adresse": "Rue Georges Cumin, 73440 Saint-Martin-de-Belleville",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 41.42100087006764
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/181942942",
+   "nom": "La Voûte",
+   "lat": 45.380015,
+   "lon": 6.5046352,
+   "commune": "Saint-Martin-de-Belleville",
+   "departement": "73",
+   "adresse": "Place des Belleville, 73440 Saint-Martin-de-Belleville",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 41.43021837794261
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/181947968",
+   "nom": "Le Capricorne",
+   "lat": 45.3249865,
+   "lon": 6.537747,
+   "commune": "Saint-Martin-de-Belleville",
+   "departement": "73",
+   "adresse": "Avenue de la Croisette, 73440 Saint-Martin-de-Belleville",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 45.47509502210975
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/181943199",
+   "nom": "Le Medzé-ry",
+   "lat": 45.3285336,
+   "lon": 6.5335043,
+   "commune": "Saint-Martin-de-Belleville",
+   "departement": "73",
+   "adresse": "Rue des Blanchots, 73440 Saint-Martin-de-Belleville",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 45.038614885866416
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/7365991540",
+   "nom": "Brasserie Artisanale d'Oé",
+   "lat": 45.2275704,
+   "lon": 6.7408647,
+   "commune": "Aussois",
+   "departement": "73",
+   "adresse": "9 Rue de l'Artisanat, 73500 Aussois",
+   "site": "https://www.brasseriedoe.com/",
+   "etiquettes": {
+    "opening_hours": "Tu 18:00-19:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 64.16921882712407
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/14097432469",
+   "nom": "La Peiserote",
+   "lat": 45.546098,
+   "lon": 6.7561149,
+   "commune": "Peisey-Nancroix",
+   "departement": "73",
+   "adresse": "Rue de l'École des Mines, 73210 Peisey-Nancroix",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 58.91502472728899
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/196320681",
+   "nom": "Brasserie l'Antidote",
+   "lat": 45.443067,
+   "lon": 6.6403161,
+   "commune": "Bozel",
+   "departement": "73",
+   "adresse": "719 Rue Émile Machet, 73120 Bozel",
+   "plusProche": {
+    "n": "Brasserie Quardin",
+    "km": 50.589309518938094
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/46799920",
+   "nom": "Le Rendez-Vous",
+   "lat": 45.2962772,
+   "lon": 6.5811528,
+   "commune": "Saint-Martin-de-Belleville",
+   "departement": "73",
+   "adresse": "Rue de la Moraine, 73440 Saint-Martin-de-Belleville",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Grésiv'ale",
+    "km": 49.72984211499127
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11608083502",
+   "nom": "Brassin Versant - Bière de Granier",
+   "lat": 45.5721995,
+   "lon": 6.6514634,
+   "commune": "Aime-la-Plagne",
+   "departement": "73",
+   "adresse": "77 Route des Roches et Noyeray, 73210 Aime-la-Plagne",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 50.71434688385498
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9934130694",
+   "nom": "L'Artense",
+   "lat": 45.6089302,
+   "lon": 2.6950984,
+   "commune": "Saint-Sauves-d'Auvergne",
+   "departement": "63",
+   "adresse": "Rue de Clermont-Ferrand, 63950 Saint-Sauves-d'Auvergne",
+   "site": "http://lartensebrasserie.fr",
+   "plusProche": {
+    "n": "La Canaille",
+    "km": 101.67075613888069
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13061456701",
+   "nom": "Dark Lab",
+   "lat": 45.8299201,
+   "lon": 2.8954972,
+   "commune": "Les Roches",
+   "departement": "63",
+   "adresse": "Route de la Via Bore, 63230 Les Roches",
+   "site": "http://dark-lab.fr",
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 84.66844924866867
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13702345820",
+   "nom": "Brasserie des Montagnes",
+   "lat": 45.7762727,
+   "lon": 2.7573296,
+   "commune": "Gelles",
+   "departement": "63",
+   "adresse": "Chemin de Rocher, 63740 Gelles",
+   "site": "https://www.brasseriedesmontagnes.fr/",
+   "plusProche": {
+    "n": "La Canaille",
+    "km": 95.64681129604432
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/1804850834",
+   "nom": "Bières le Plan B",
+   "lat": 45.7671785,
+   "lon": 3.0829262,
+   "commune": "Clermont-Ferrand",
+   "departement": "63",
+   "adresse": "Avenue de la Libération, 63000 Clermont-Ferrand",
+   "site": "http://www.bieres-leplanb.com/",
+   "etiquettes": {
+    "shop": "beverages",
+    "opening_hours": "Th,Fr 17:00-19:00; Sa 10:00-12:30"
+   },
+   "plusProche": {
+    "n": "La Canaille",
+    "km": 70.37425056717672
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11310220269",
+   "nom": "Kazan CraftBeer",
+   "lat": 45.7757899,
+   "lon": 3.0660892,
+   "commune": "Chamalières",
+   "departement": "63",
+   "adresse": "3 Rue du Pont de la Gravière, 63400 Chamalières",
+   "etiquettes": {
+    "opening_hours": "Tu-We 09:30-18:00; Th-Fr 09:30-23:00; Sa 09:30-12:30"
+   },
+   "plusProche": {
+    "n": "La Canaille",
+    "km": 71.71506734654473
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/2665151591",
+   "nom": "Brasserie La Canaille",
+   "lat": 45.7340186,
+   "lon": 3.9695243,
+   "commune": "Sail-sous-Couzan",
+   "departement": "42",
+   "adresse": "1 Montée des Curistes, 42890 Sail-sous-Couzan",
+   "site": "https://www.brasserielacanaille.com",
+   "etiquettes": {
+    "shop": "beverages",
+    "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-23:00; Sa 16:00-21:00"
+   },
+   "plusProche": {
+    "n": "La Canaille",
+    "km": 1.893807833254045
+   },
+   "statut": "present",
+   "fiche": "La Canaille"
+  },
+  {
+   "osm": "node/6369991923",
+   "nom": "Sarl Hugo Bar",
+   "lat": 46.0388033,
+   "lon": 4.0575689,
+   "commune": "Roanne",
+   "departement": "42",
+   "adresse": "96 Place Victor Hugo, 42300 Roanne",
+   "plusProche": {
+    "n": "Brasserie Challit",
+    "km": 4.697521659742601
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/4041646051",
+   "nom": "La Farlodoise",
+   "lat": 45.6346248,
+   "lon": 4.3990103,
+   "commune": "Chazelles-sur-Lyon",
+   "departement": "42",
+   "adresse": "3 Avenue du 8 Mai, 42140 Chazelles-sur-Lyon",
+   "site": "http://www.lafarlodoise.fr",
+   "etiquettes": {
+    "amenity": "bar",
+    "opening_hours": "We-Fr 09:00-12:30, 15:00-19:30; Sa 09:00-19:30; Tu 15:00-19:30"
+   },
+   "plusProche": {
+    "n": "Brasserie 767",
+    "km": 1.3629059616834416
+   },
+   "statut": "present",
+   "fiche": "La Farlodoise"
+  },
+  {
+   "osm": "node/11359140324",
+   "nom": "La limaille",
+   "lat": 46.0205912,
+   "lon": 4.0913264,
+   "commune": "Le Coteau",
+   "departement": "42",
+   "adresse": "Rue Adrienne Picard, 42120 Le Coteau",
+   "plusProche": {
+    "n": "Brasserie Challit",
+    "km": 3.3136020152208
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/7816207070",
+   "nom": "BIM",
+   "lat": 45.6112454,
+   "lon": 4.0658822,
+   "commune": "Montbrison",
+   "departement": "42",
+   "adresse": "2 Rue de Feurs, 42600 Montbrison",
+   "site": "https://www.brasseriebim.com/",
+   "plusProche": {
+    "n": "BIM Brasserie Indépendante Montbrisonnaise",
+    "km": 0.38577835816960904
+   },
+   "statut": "ambigu",
+   "fiche": "BIM Brasserie Indépendante Montbrisonnaise"
+  },
+  {
+   "osm": "node/9012551612",
+   "nom": "Brasserie les Bulles Foréziennes",
+   "lat": 45.7655333,
+   "lon": 4.1685562,
+   "commune": "Cleppé",
+   "departement": "42",
+   "adresse": "745 Route de Sainte-Foy, 42110 Cleppé",
+   "site": "https://www.bullesforeziennes.fr",
+   "etiquettes": {
+    "opening_hours": "Mo-Fr 09:00-18:00"
+   },
+   "plusProche": {
+    "n": "La Germanoise",
+    "km": 13.86680669437292
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9968514317",
+   "nom": "La Part des Autres",
+   "lat": 45.8934787,
+   "lon": 4.2443507,
+   "commune": "Saint-Just-la-Pendue",
+   "departement": "42",
+   "adresse": "153 Rue des Écoles, 42540 Saint-Just-la-Pendue",
+   "site": "https://lapartdesautres.com/",
+   "etiquettes": {
+    "opening_hours": "Tu-We 11:00-14:00; Th 11:00-14:00, 17:30-23:00; Fr 11:00-14:00, 17:30-00:00; Sa 11:00-15:00, 17:30-00:00; Su 11:00-15:00"
+   },
+   "plusProche": {
+    "n": "La Part des Autres",
+    "km": 2.44098750922745
+   },
+   "statut": "present",
+   "fiche": "La Part des Autres"
+  },
+  {
+   "osm": "way/437963435",
+   "nom": "La Part des Autres",
+   "lat": 45.9213481,
+   "lon": 4.3028844,
+   "commune": "Machézal",
+   "departement": "42",
+   "adresse": "Allée des Platanes, 42114 Machézal",
+   "site": "https://lapartdesautres.com/",
+   "plusProche": {
+    "n": "La Part des Autres",
+    "km": 4.261348458516257
+   },
+   "statut": "doublon",
+   "fiche": "La Part des Autres"
+  },
+  {
+   "osm": "node/5984999103",
+   "nom": "Ninkasi",
+   "lat": 45.8931919,
+   "lon": 4.4395278,
+   "commune": "Tarare",
+   "departement": "69",
+   "adresse": "1 Avenue Édouard Herriot, 69170 Tarare",
+   "site": "https://www.ninkasi.fr/lieux/tarare.html",
+   "etiquettes": {
+    "opening_hours": "Tu-We 11:00-15:00; Th 11:00-23:00; Fr-Sa 11:00-01:00"
+   },
+   "plusProche": {
+    "n": "Ninkasi Fabriques",
+    "km": 0.4851717347451943
+   },
+   "statut": "ambigu",
+   "fiche": "Ninkasi Fabriques"
+  },
+  {
+   "osm": "node/7891342421",
+   "nom": "Beer Fabrique",
+   "lat": 45.7690781,
+   "lon": 4.8341736,
+   "commune": "Lyon",
+   "departement": "69",
+   "adresse": "Rue Saint-Polycarpe, 69001 Lyon",
+   "plusProche": {
+    "n": "Tom & Co",
+    "km": 0.13709352854006637
+   },
+   "statut": "present",
+   "fiche": "La Beer Fabrique"
+  },
+  {
+   "osm": "node/6954907667",
+   "nom": "Funky Monky",
+   "lat": 45.7610886,
+   "lon": 4.8317449,
+   "commune": "Lyon",
+   "departement": "69",
+   "adresse": "Rue de l'Ancienne Préfecture, 69002 Lyon",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "opening_hours": "09:00-03:00",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Platypus Brewpub",
+    "km": 0.5817937453186072
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13200279683",
+   "nom": "Brasserie Kachmar",
+   "lat": 45.9545954,
+   "lon": 4.7154015,
+   "commune": "Anse",
+   "departement": "69",
+   "adresse": "Route de Villefranche, 69480 Anse",
+   "site": "https://www.brasserie-kachmar.fr",
+   "etiquettes": {
+    "opening_hours": "Sa 10:00-18:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Kachmar",
+    "km": 2.0331843207675155
+   },
+   "statut": "present",
+   "fiche": "Brasserie Kachmar"
+  },
+  {
+   "osm": "node/6067436077",
+   "nom": "Microbrasserie Caribrew",
+   "lat": 45.6848393,
+   "lon": 4.7679948,
+   "commune": "Brignais",
+   "departement": "69",
+   "adresse": "108 Rue Barthélemy Thimonnier, 69530 Brignais",
+   "site": "https://microbrasseriecaribrew.fr",
+   "plusProche": {
+    "n": "Ninkasi Brignais",
+    "km": 1.6459674616002615
+   },
+   "statut": "ambigu",
+   "fiche": "Caribrew"
+  },
+  {
+   "osm": "node/10690528103",
+   "nom": "La Bière du Berger",
+   "lat": 45.632796,
+   "lon": 4.6048781,
+   "commune": "Saint-André-la-Côte",
+   "departement": "69",
+   "adresse": "Route de Fontbénite, 69440 Saint-André-la-Côte",
+   "site": "https://labiereduberger.wordpress.com/",
+   "plusProche": {
+    "n": "La Soyeuse",
+    "km": 2.9360868485009197
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9502816456",
+   "nom": "Karnotzet",
+   "lat": 45.6490016,
+   "lon": 4.7305128,
+   "commune": "Taluyers",
+   "departement": "69",
+   "adresse": "Chemin du Bois Manié, 69440 Taluyers",
+   "plusProche": {
+    "n": "Autour de la Bière (Taluyers)",
+    "km": 2.049736419657855
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6821847386",
+   "nom": "Microbrasserie La Chénou",
+   "lat": 45.6561714,
+   "lon": 4.7134753,
+   "commune": "Orliénas",
+   "departement": "69",
+   "adresse": "96 Route des Côteaux du Lyonnais, 69530 Orliénas",
+   "site": "http://lachenou.fr/",
+   "etiquettes": {
+    "opening_hours": "We-Fr 16:00-21:00; Sa 09:30-21:00"
+   },
+   "plusProche": {
+    "n": "Caribrew",
+    "km": 2.387544982574084
+   },
+   "statut": "ambigu",
+   "fiche": "La Chénou"
+  },
+  {
+   "osm": "node/7950028324",
+   "nom": "L'Affoleuse",
+   "lat": 46.0078339,
+   "lon": 4.6386297,
+   "commune": "Denicé",
+   "departement": "69",
+   "adresse": "Impasse de Montromand, 69640 Denicé",
+   "site": "https://laffoleuse.net/",
+   "plusProche": {
+    "n": "L'Affoleuse",
+    "km": 2.91527702130055
+   },
+   "statut": "present",
+   "fiche": "L'Affoleuse"
+  },
+  {
+   "osm": "node/11729944892",
+   "nom": "Virage 7",
+   "lat": 45.8305948,
+   "lon": 4.6132644,
+   "commune": "L'Arbresle",
+   "departement": "69",
+   "adresse": "Rue Claude Terrasse, 69210 L'Arbresle",
+   "site": "https://www.virage-sept.fr/",
+   "etiquettes": {
+    "opening_hours": "Th, Fr 16:30-19:00"
+   },
+   "plusProche": {
+    "n": "Domaine du Manchot",
+    "km": 8.67347741731762
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11594867014",
+   "nom": "La Soyeuse",
+   "lat": 45.6591463,
+   "lon": 4.6324335,
+   "commune": "Rontalon",
+   "departement": "69",
+   "adresse": "Route de Fondrieu, 69510 Rontalon",
+   "site": "https://www.lasoyeuse.fr/",
+   "etiquettes": {
+    "opening_hours": "Mo-Tu 15:30-19:00; We 09:00-12:00,15:00-21:00; We 15:00-21:00 \"Bar\""
+   },
+   "plusProche": {
+    "n": "Caribrew",
+    "km": 4.2999746075320235
+   },
+   "statut": "present",
+   "fiche": "La Soyeuse"
+  },
+  {
+   "osm": "way/150069038",
+   "nom": "Terre de Bières",
+   "lat": 45.9775515,
+   "lon": 4.7288346,
+   "commune": "Limas",
+   "departement": "69",
+   "adresse": "Rue de l'Écossais, 69400 Limas",
+   "site": "https://www.terredebieres.fr/",
+   "plusProche": {
+    "n": "Terre de Bières",
+    "km": 1.6436548340617299
+   },
+   "statut": "homonyme",
+   "fiche": "Terre de Bières"
+  },
+  {
+   "osm": "node/259977338",
+   "nom": "Grand Café de la Mairie",
+   "lat": 45.7776037,
+   "lon": 4.9193147,
+   "commune": "Vaulx-en-Velin",
+   "departement": "69",
+   "adresse": "rue Émile Zola, 69120 Vaulx-en-Velin",
+   "plusProche": {
+    "n": "Microbrasserie de Montchat",
+    "km": 3.3807069400677756
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/12112532052",
+   "nom": "Bee King",
+   "lat": 45.6872644,
+   "lon": 4.9443623,
+   "commune": "Saint-Priest",
+   "departement": "69",
+   "adresse": "Route d'Heyrieux, 69800 Saint-Priest",
+   "site": "https://www.beeking.fr/",
+   "etiquettes": {
+    "opening_hours": "Th, Sa, Su"
+   },
+   "plusProche": {
+    "n": "La Fabrique du Faubourg",
+    "km": 4.605977559608962
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/137303487",
+   "nom": "La Mousse du Hérisson",
+   "lat": 45.7707617,
+   "lon": 4.7072778,
+   "commune": "Sainte-Consorce",
+   "departement": "69",
+   "adresse": "Rue du Grand Chêne, 69280 Sainte-Consorce",
+   "site": "https://www.facebook.com/lamousseduherisson/",
+   "plusProche": {
+    "n": "Brasserie Demi-Lune",
+    "km": 3.760021872421589
+   },
+   "statut": "present",
+   "fiche": "La Mousse du Hérisson"
+  },
+  {
+   "osm": "node/1083416094",
+   "nom": "Brasserie des Ursulines",
+   "lat": 45.7259075,
+   "lon": 5.2532784,
+   "commune": "Crémieu",
+   "departement": "38",
+   "adresse": "Côte Chausson, 38460 Crémieu",
+   "site": "https://biere-les-ursulines.com/",
+   "plusProche": {
+    "n": "Brasserie des Ursulines",
+    "km": 0.4157538427451696
+   },
+   "statut": "present",
+   "fiche": "Brasserie des Ursulines"
+  },
+  {
+   "osm": "node/11847786363",
+   "nom": "Brasserie \"Le Berliet\"",
+   "lat": 45.9034232,
+   "lon": 5.2003796,
+   "commune": "Meximieux",
+   "departement": "01",
+   "adresse": "36A Impasse de la Leppe, 01800 Meximieux",
+   "site": "https://www.facebook.com/profile.php?id=61558488170776",
+   "plusProche": {
+    "n": "Malt Emoi",
+    "km": 1.3753355952543245
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/8371233698",
+   "nom": "Brasserie Malt Emoi",
+   "lat": 45.9231295,
+   "lon": 5.187844,
+   "commune": "Meximieux",
+   "departement": "01",
+   "adresse": "L'Essard, 01800 Meximieux",
+   "site": "https://www.malt-emoi.fr/",
+   "plusProche": {
+    "n": "Malt Emoi",
+    "km": 2.595798558356551
+   },
+   "statut": "present",
+   "fiche": "Malt Emoi"
+  },
+  {
+   "osm": "node/3299319777",
+   "nom": "Le Mel'in",
+   "lat": 45.6059061,
+   "lon": 5.8905201,
+   "commune": "Chambéry",
+   "departement": "73",
+   "adresse": "Rue du Pré Pagnon, 73000 Chambéry",
+   "plusProche": {
+    "n": "Brasserie du Mont Blanc",
+    "km": 1.9660131686566875
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/14032095781",
+   "nom": "Saubadia",
+   "lat": 45.6267848,
+   "lon": 5.8933092,
+   "commune": "Voglans",
+   "departement": "73",
+   "adresse": "Rue Centrale, 73420 Voglans",
+   "site": "https://b-a-s.fr",
+   "etiquettes": {
+    "shop": "alcohol"
+   },
+   "plusProche": {
+    "n": "Brasserie B.A.S. (Sabaudia)",
+    "km": 1.0632834618418585
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6655491144",
+   "nom": "Brasserie Les Rois Malts",
+   "lat": 45.6578077,
+   "lon": 5.9119601,
+   "commune": "Drumettaz-Clarafond",
+   "departement": "73",
+   "adresse": "242 Allée des Érables, 73420 Drumettaz-Clarafond",
+   "site": "https://www.lesroismalts.fr/",
+   "etiquettes": {
+    "shop": "alcohol"
+   },
+   "plusProche": {
+    "n": "Brasserie des Cimes",
+    "km": 3.4356074822801324
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/12294231064",
+   "nom": "Micro Brasserie la Virgule",
+   "lat": 45.9054431,
+   "lon": 5.6817086,
+   "commune": "Champagne-en-Valromey",
+   "departement": "01",
+   "adresse": "Chemin de Pré Monsieur, 01260 Champagne-en-Valromey",
+   "plusProche": {
+    "n": "Ferme-Brasserie de Belmonthé",
+    "km": 0.6176447255027968
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/12294229332",
+   "nom": "La Gevrinoise - Brasserie artisanale",
+   "lat": 45.8024619,
+   "lon": 5.6572383,
+   "commune": "Andert-et-Condon",
+   "departement": "01",
+   "adresse": "Chemin de la Bergerie, 01300 Andert-et-Condon",
+   "site": "https://www.la-gevrinoise.fr/",
+   "plusProche": {
+    "n": "Les Croqueurs de Lune",
+    "km": 9.316210411778508
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9399667864",
+   "nom": "Brasserie de Chanaz",
+   "lat": 45.8094533,
+   "lon": 5.7937708,
+   "commune": "Chanaz",
+   "departement": "73",
+   "adresse": "136 Route du Canal, 73310 Chanaz",
+   "site": "https://www.brasserie-de-chanaz.fr/",
+   "etiquettes": {
+    "opening_hours": "Mo-Fr 08:00-12:30; 14:00 - 17:00"
+   },
+   "plusProche": {
+    "n": "Brasserie de Chanaz",
+    "km": 1.3280419049313013
+   },
+   "statut": "present",
+   "fiche": "Brasserie de Chanaz"
+  },
+  {
+   "osm": "way/62717373",
+   "nom": "Les Brasseurs Savoyards",
+   "lat": 45.8202204,
+   "lon": 6.0039144,
+   "commune": "Alby-sur-Chéran",
+   "departement": "74",
+   "adresse": "645 Rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 8.08638976063747
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9248410706",
+   "nom": "Les brasseurs savoyards",
+   "lat": 45.8202482,
+   "lon": 6.0038601,
+   "commune": "Alby-sur-Chéran",
+   "departement": "74",
+   "adresse": "645 Rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 8.085815253082629
+   },
+   "statut": "doublon",
+   "fiche": "Les Brasseurs Savoyards"
+  },
+  {
+   "osm": "way/185089438",
+   "nom": "Brasserie Caquot",
+   "lat": 45.785601,
+   "lon": 5.953616,
+   "commune": "Entrelacs",
+   "departement": "73",
+   "adresse": "Rue du Clergeon, 73410 Entrelacs",
+   "etiquettes": {
+    "amenity": "bar"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 2.6267133727843572
+   },
+   "statut": "present",
+   "fiche": "Brasserie Caquot"
+  },
+  {
+   "osm": "node/6166335749",
+   "nom": "La petite fabrique",
+   "lat": 45.9196847,
+   "lon": 6.1246257,
+   "commune": "Annecy",
+   "departement": "74",
+   "adresse": "7 Boulevard Bellevue, 74000 Annecy",
+   "site": "https://www.artmalte.com/",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 22.561448085535684
+   },
+   "statut": "ambigu",
+   "fiche": "La Beer Fabrique"
+  },
+  {
+   "osm": "node/12384165644",
+   "nom": "Bombardos",
+   "lat": 45.8976015,
+   "lon": 6.1061567,
+   "commune": "Annecy",
+   "departement": "74",
+   "adresse": "D 3508, 74960 Annecy",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 19.779258081719995
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/1024946038",
+   "nom": "Petite Bière Dezaillons",
+   "lat": 45.610465,
+   "lon": 6.1157356,
+   "commune": "Aillon-le-Jeune",
+   "departement": "73",
+   "adresse": "Route des Ginets, 73340 Aillon-le-Jeune",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 10.236667354710468
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/7562350358",
+   "nom": "La Baujue",
+   "lat": 45.7194958,
+   "lon": 6.1071794,
+   "commune": "Lescheraines",
+   "departement": "73",
+   "adresse": "Route de Saint-Martin, 73340 Lescheraines",
+   "site": "http://www.labaujue.com/",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 14.478063450863885
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11123927661",
+   "nom": "Bières Du Galta",
+   "lat": 45.6523444,
+   "lon": 6.3792484,
+   "commune": "Grignon",
+   "departement": "73",
+   "adresse": "870 Route départementale 925, 73200 Grignon",
+   "site": "https://www.bieresdugalta.fr",
+   "etiquettes": {
+    "opening_hours": "Tu-Sa 12:00-19:00"
+   },
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 30.999160653193318
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/12803724069",
+   "nom": "Stories",
+   "lat": 45.9202288,
+   "lon": 6.8667212,
+   "commune": "Chamonix-Mont-Blanc",
+   "departement": "74",
+   "adresse": "Avenue Ravanel le Rouge, 74400 Chamonix-Mont-Blanc",
+   "etiquettes": {
+    "amenity": "bar"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 74.29106054919652
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/278074798",
+   "nom": "Micro Brasserie de Chamonix",
+   "lat": 45.927335,
+   "lon": 6.875752,
+   "commune": "Chamonix-Mont-Blanc",
+   "departement": "74",
+   "adresse": "Route du Bouchet, 74400 Chamonix-Mont-Blanc",
+   "etiquettes": {
+    "amenity": "pub",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 75.15136149506414
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9511111887",
+   "nom": "Les Névés",
+   "lat": 45.6115256,
+   "lon": 6.7692862,
+   "commune": "Bourg-Saint-Maurice",
+   "departement": "73",
+   "adresse": "84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 60.068239739678496
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/11084024884",
+   "nom": "Brasserie du Petit st Bernard",
+   "lat": 45.6116191,
+   "lon": 6.7693161,
+   "commune": "Bourg-Saint-Maurice",
+   "departement": "73",
+   "adresse": "84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice",
+   "site": "https://brasseriepsb.com/fr/",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 60.07137218327511
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/797390082",
+   "nom": "Outer Range Brewing Co.",
+   "lat": 45.943483,
+   "lon": 6.6289748,
+   "commune": "Sallanches",
+   "departement": "74",
+   "adresse": "531 Rue du Capitaine Bulle, 74700 Sallanches",
+   "site": "https://outerrangealps.com/",
+   "etiquettes": {
+    "opening_hours": "Mo-Su 13:00-23:00"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 57.350070486242764
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/6328825664",
+   "nom": "Le Bistrot des Quais",
+   "lat": 45.9362774,
+   "lon": 6.6290247,
+   "commune": "Sallanches",
+   "departement": "74",
+   "adresse": "Quai de l'Hôtel de Ville, 74700 Sallanches",
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 57.08735314044259
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/10000388698",
+   "nom": "La Birra Menta",
+   "lat": 45.6853368,
+   "lon": 6.564274,
+   "commune": "Beaufort",
+   "departement": "73",
+   "adresse": "146 Route du Planay, 73270 Beaufort",
+   "plusProche": {
+    "n": "Brasserie du Merle",
+    "km": 45.81956208159091
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/246557762",
+   "nom": "Le Postillon",
+   "lat": 45.8953733,
+   "lon": 6.6443978,
+   "commune": "Combloux",
+   "departement": "74",
+   "adresse": "Route de Sallanches, 74920 Combloux",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 56.921765372651194
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/246557753",
+   "nom": "Châlet d'Emilie",
+   "lat": 45.8888365,
+   "lon": 6.6219363,
+   "commune": "Combloux",
+   "departement": "74",
+   "adresse": "Route de la Cry-Cuchet, 74920 Combloux",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 55.05836474342108
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/157667497",
+   "nom": "La p'tite ravine",
+   "lat": 45.8756561,
+   "lon": 6.6023831,
+   "commune": "Demi-Quartier",
+   "departement": "74",
+   "adresse": "Chemin de Nivolet à Cuchet, 74120 Demi-Quartier",
+   "etiquettes": {
+    "amenity": "restaurant",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie Caquot",
+    "km": 53.24492270228322
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/150209158",
+   "nom": "Brasserie des Sagnes",
+   "lat": 46.138661,
+   "lon": 2.860796,
+   "commune": "Menat",
+   "departement": "63",
+   "adresse": "Route de l’Ouche, 63560 Menat",
+   "site": "https://brasserie-des-sagnes.eproshopping.fr/",
+   "etiquettes": {
+    "shop": "alcohol"
+   },
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 82.6816926059004
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9459121056",
+   "nom": "Café Rétro",
+   "lat": 46.5400533,
+   "lon": 3.3434913,
+   "commune": "Moulins",
+   "departement": "03",
+   "adresse": "McDrive, 03000 Moulins",
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 68.16333694536125
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/10865053092",
+   "nom": "Back in Malt",
+   "lat": 46.3133272,
+   "lon": 3.4016133,
+   "commune": "Varennes-sur-Allier",
+   "departement": "03",
+   "adresse": "21 Rue du Quatre Septembre, 03150 Varennes-sur-Allier",
+   "site": "https://www.brasseriebackinmalt.fr/",
+   "etiquettes": {
+    "opening_hours": "Fr 17:00-19:00"
+   },
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 48.239521155146356
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/391271892",
+   "nom": "Brew Vernet",
+   "lat": 46.1874285,
+   "lon": 3.2713446,
+   "commune": "Broût-Vernet",
+   "departement": "03",
+   "adresse": "9 Rue de la Croix Rouge, 03110 Broût-Vernet",
+   "site": "https://brasserie-brewvernet.fr/",
+   "etiquettes": {
+    "opening_hours": "17:00-19:00"
+   },
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 52.139748769583164
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/7568278437",
+   "nom": "Brasserie du jugement dernier",
+   "lat": 46.1303702,
+   "lon": 3.1930492,
+   "commune": "Mazerier",
+   "departement": "03",
+   "adresse": "15 Allée Madame de Sévigné, 03800 Mazerier",
+   "site": "https://jugementdernier.beer/",
+   "plusProche": {
+    "n": "Les Cuves de la Madeleine",
+    "km": 57.09079368001779
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/10929096211",
+   "nom": "Brasserie du pèreSaint'Oy",
+   "lat": 46.5326954,
+   "lon": 3.7682053,
+   "commune": "Diou",
+   "departement": "03",
+   "adresse": "1 Chemin du Cluziaud, 03290 Diou",
+   "site": "https://www.lasaintoy.fr/",
+   "etiquettes": {
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 10:00-12:00"
+   },
+   "plusProche": {
+    "n": "Les Brasseurs du Sornin",
+    "km": 51.84777007105005
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/13788368998",
+   "nom": "Les Deux Branches",
+   "lat": 46.1871932,
+   "lon": 4.2457844,
+   "commune": "Maizilly",
+   "departement": "42",
+   "adresse": "Rue de l’Auberge, 42750 Maizilly",
+   "etiquettes": {
+    "opening_hours": "Fr 17:00-19:00"
+   },
+   "plusProche": {
+    "n": "Les Brasseurs du Sornin",
+    "km": 11.608309783081987
+   },
+   "statut": "present",
+   "fiche": "Les Deux Branches"
+  },
+  {
+   "osm": "way/311319863",
+   "nom": "Les Brasseurs du Sornin",
+   "lat": 46.1328853,
+   "lon": 4.1079466,
+   "commune": "Pouilly-sous-Charlieu",
+   "departement": "42",
+   "adresse": "Rue de Roanne, 42720 Pouilly-sous-Charlieu",
+   "site": "https://www.sornin.com/",
+   "plusProche": {
+    "n": "Les Brasseurs du Sornin",
+    "km": 0.6760805606756488
+   },
+   "statut": "present",
+   "fiche": "Les Brasseurs du Sornin"
+  },
+  {
+   "osm": "node/14087207290",
+   "nom": "Microbrasserie Ancan",
+   "lat": 46.2670358,
+   "lon": 4.8916732,
+   "commune": "Crottet",
+   "departement": "01",
+   "adresse": "Place de la Samiane, 01290 Crottet",
+   "plusProche": {
+    "n": "Brasserie de la Pérouze",
+    "km": 5.79010772002799
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/138474252",
+   "nom": "Brasserie L'étincelle",
+   "lat": 46.1432955,
+   "lon": 5.6153316,
+   "commune": "Nantua",
+   "departement": "01",
+   "adresse": "9002 Route de Genève, 01130 Nantua",
+   "site": "https://www.brasserie-letincelle.fr/",
+   "etiquettes": {
+    "opening_hours": "We 16:00-19:00; Fr 16:00-20:00"
+   },
+   "plusProche": {
+    "n": "Mac Never's and Co.",
+    "km": 5.0865397114266795
+   },
+   "statut": "ambigu",
+   "fiche": "L'Etincelle"
+  },
+  {
+   "osm": "way/158604347",
+   "nom": "Brasserie BE HERE Factory",
+   "lat": 46.2052521,
+   "lon": 6.2780553,
+   "commune": "Ville-la-Grand",
+   "departement": "74",
+   "adresse": "20 Rue du Bois de la Rose, 74100 Ville-la-Grand",
+   "site": "https://www.be-here.fr/",
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 38.639191314006396
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/78492082",
+   "nom": "Brasserie du Mont Salève",
+   "lat": 46.1217315,
+   "lon": 6.0928915,
+   "commune": "Neydens",
+   "departement": "74",
+   "adresse": "151 Rue du Jura, 74160 Neydens",
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 22.707221271452504
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/9021286942",
+   "nom": "Brasserie Gessienne",
+   "lat": 46.2831541,
+   "lon": 6.0916981,
+   "commune": "Maconnex",
+   "departement": "01",
+   "adresse": "Rue de Perruet, 01210 Maconnex",
+   "site": "https://www.brasseriegessienne.fr/",
+   "etiquettes": {
+    "shop": "beverages",
+    "opening_hours": "Sa 15:00-19:00; Fr 17:00-19:00",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 30.313634884671842
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/63593358",
+   "nom": "La Brasserie des Voirons",
+   "lat": 46.1918442,
+   "lon": 6.317018,
+   "commune": "Lucinges",
+   "departement": "74",
+   "adresse": "5 Place de la Vignule, 74380 Lucinges",
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 41.11865052771227
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/823063300",
+   "nom": "La Ringale",
+   "lat": 46.2878572,
+   "lon": 6.4458803,
+   "commune": "Cervens",
+   "departement": "74",
+   "adresse": "120 Impasse des Artisans, 74550 Cervens",
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 53.92424961263037
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "node/8923062535",
+   "nom": "Brasserie artisanale du Léman",
+   "lat": 46.3349642,
+   "lon": 6.4892882,
+   "commune": "Allinges",
+   "departement": "74",
+   "adresse": "670 Route des Blaves, 74200 Allinges",
+   "site": "https://www.biere-leman.com",
+   "etiquettes": {
+    "opening_hours": "Mo 14:00-18:00; Tu-Fr 09:00-18:00"
+   },
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 59.11887337164576
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/798744550",
+   "nom": "Bières Du Faucigny",
+   "lat": 46.1404696,
+   "lon": 6.3901932,
+   "commune": "Viuz-en-Sallaz",
+   "departement": "74",
+   "adresse": "Rue de l'Industrie, 74250 Viuz-en-Sallaz",
+   "site": "https://www.bieres-du-faucigny.fr",
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 45.7107585286909
+   },
+   "statut": "nouveau"
+  },
+  {
+   "osm": "way/66975401",
+   "nom": "L'hexagone",
+   "lat": 46.4002946,
+   "lon": 6.5866376,
+   "commune": "Évian-les-Bains",
+   "departement": "74",
+   "adresse": "Avenue Marc Francina, 74500 Évian-les-Bains",
+   "etiquettes": {
+    "amenity": "pub",
+    "microbrewery": "yes"
+   },
+   "plusProche": {
+    "n": "Brasserie 3B (Bassin Bellegardien)",
+    "km": 69.09075839761451
+   },
+   "statut": "nouveau"
+  }
+ ]
+}

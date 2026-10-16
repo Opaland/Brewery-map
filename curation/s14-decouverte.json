@@ -1,0 +1,2744 @@
+{
+ "lot": "s14-decouverte",
+ "propositions": [],
+ "revues": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Microbrasserie Caribrew",
+    "c": "Brignais",
+    "d": "69",
+    "lat": 45.6848393,
+    "lon": 4.7679948,
+    "km": 1.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "108 Rue Barthélemy Thimonnier, 69530 Brignais",
+    "src": "https://www.openstreetmap.org/node/6067436077",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6067436077"
+   ],
+   "extrait": "name=Microbrasserie Caribrew ; craft=brewery ; adresse=108 Rue Barthélemy Thimonnier, 69530 Brignais ; website=https://microbrasseriecaribrew.fr",
+   "choix": "Nom proche de la fiche « Caribrew » (Soucieu-en-Jarrest, à 6,6 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Ninkasi Brignais, à 1,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Karnotzet",
+    "c": "Taluyers",
+    "d": "69",
+    "lat": 45.6490016,
+    "lon": 4.7305128,
+    "km": 3.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin du Bois Manié, 69440 Taluyers",
+    "src": "https://www.openstreetmap.org/node/9502816456",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9502816456"
+   ],
+   "extrait": "name=Karnotzet ; craft=brewery ; adresse=Chemin du Bois Manié, 69440 Taluyers",
+   "choix": "Fiche la plus proche : Autour de la Bière (Taluyers), à 2,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie La Chénou",
+    "c": "Orliénas",
+    "d": "69",
+    "lat": 45.6561714,
+    "lon": 4.7134753,
+    "km": 3.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "96 Route des Côteaux du Lyonnais, 69530 Orliénas",
+    "src": "https://www.openstreetmap.org/node/6821847386",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6821847386"
+   ],
+   "extrait": "name=Microbrasserie La Chénou ; craft=brewery ; adresse=96 Route des Côteaux du Lyonnais, 69530 Orliénas ; website=http://lachenou.fr/ ; opening_hours=We-Fr 16:00-21:00; Sa 09:30-21:00",
+   "choix": "Nom proche de la fiche « La Chénou » (Saint-Laurent-d'Agny, à 3,5 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Caribrew, à 2,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Funky Monky",
+    "c": "Lyon",
+    "d": "69",
+    "lat": 45.7610886,
+    "lon": 4.8317449,
+    "km": 11.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de l'Ancienne Préfecture, 69002 Lyon",
+    "src": "https://www.openstreetmap.org/node/6954907667",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6954907667"
+   ],
+   "extrait": "name=Funky Monky ; craft=brewery ; adresse=Rue de l'Ancienne Préfecture, 69002 Lyon ; amenity=restaurant ; opening_hours=09:00-03:00 ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Platypus Brewpub, à 0,6 km."
+  },
+  {
+   "fiche": {
+    "n": "La Bière du Berger",
+    "c": "Saint-André-la-Côte",
+    "d": "69",
+    "lat": 45.632796,
+    "lon": 4.6048781,
+    "km": 12.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Fontbénite, 69440 Saint-André-la-Côte",
+    "src": "https://www.openstreetmap.org/node/10690528103",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/10690528103"
+   ],
+   "extrait": "name=La Bière du Berger ; craft=brewery ; adresse=Route de Fontbénite, 69440 Saint-André-la-Côte ; website=https://labiereduberger.wordpress.com/",
+   "choix": "Fiche la plus proche : La Soyeuse, à 2,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Ferme de la Quintillière - Bière Busard",
+    "c": "Chabanière",
+    "d": "69",
+    "lat": 45.5902103,
+    "lon": 4.6359812,
+    "km": 13.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "520 Route de Comte Boiron, 69440 Chabanière",
+    "src": "https://www.openstreetmap.org/way/138335054",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/138335054"
+   ],
+   "extrait": "name=Ferme de la Quintillière - Bière Busard ; craft=brewery ; adresse=520 Route de Comte Boiron, 69440 Chabanière ; website=http://www.fermedelaquintilliere.com/bieres-busard/ ; opening_hours=We 16:30-19:30",
+   "choix": "Nom proche de la fiche « Ferme de la Quintillière » (Chabanière, à 3,0 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : La Bière des Loups, à 2,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Bee King",
+    "c": "Saint-Priest",
+    "d": "69",
+    "lat": 45.6872644,
+    "lon": 4.9443623,
+    "km": 14.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route d'Heyrieux, 69800 Saint-Priest",
+    "src": "https://www.openstreetmap.org/node/12112532052",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12112532052"
+   ],
+   "extrait": "name=Bee King ; craft=brewery ; adresse=Route d'Heyrieux, 69800 Saint-Priest ; website=https://www.beeking.fr/ ; opening_hours=Th, Sa, Su",
+   "choix": "Fiche la plus proche : La Fabrique du Faubourg, à 4,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Grand Café de la Mairie",
+    "c": "Vaulx-en-Velin",
+    "d": "69",
+    "lat": 45.7776037,
+    "lon": 4.9193147,
+    "km": 17.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "rue Émile Zola, 69120 Vaulx-en-Velin",
+    "src": "https://www.openstreetmap.org/node/259977338",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/259977338"
+   ],
+   "extrait": "name=Grand Café de la Mairie ; craft=brewery ; adresse=rue Émile Zola, 69120 Vaulx-en-Velin",
+   "choix": "Fiche la plus proche : Microbrasserie de Montchat, à 3,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Vienne Brewing Company",
+    "c": "Vienne",
+    "d": "38",
+    "lat": 45.525762,
+    "lon": 4.874727,
+    "km": 19,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de la Chaîne, 38200 Vienne",
+    "src": "https://www.openstreetmap.org/node/2725880047",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/2725880047"
+   ],
+   "extrait": "name=Vienne Brewing Company ; craft=brewery ; adresse=Rue de la Chaîne, 38200 Vienne",
+   "choix": "Fiche la plus proche : DWYN Brewing, à 10,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Virage 7",
+    "c": "L'Arbresle",
+    "d": "69",
+    "lat": 45.8305948,
+    "lon": 4.6132644,
+    "km": 20.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue Claude Terrasse, 69210 L'Arbresle",
+    "src": "https://www.openstreetmap.org/node/11729944892",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11729944892"
+   ],
+   "extrait": "name=Virage 7 ; craft=brewery ; adresse=Rue Claude Terrasse, 69210 L'Arbresle ; website=https://www.virage-sept.fr/ ; opening_hours=Th, Fr 16:30-19:00",
+   "choix": "Fiche la plus proche : Domaine du Manchot, à 8,7 km."
+  },
+  {
+   "fiche": {
+    "n": "La Tit'Mousse",
+    "c": "Pélussin",
+    "d": "42",
+    "lat": 45.4203725,
+    "lon": 4.691753,
+    "km": 28.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "4 Rue de l'Europe, 42410 Pélussin",
+    "src": "https://www.openstreetmap.org/way/312322647",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/312322647"
+   ],
+   "extrait": "name=La Tit'Mousse ; craft=brewery ; adresse=4 Rue de l'Europe, 42410 Pélussin ; website=https://latitmousse.fr/",
+   "choix": "Fiche la plus proche : Brasserie des Roches, à 9,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Dauphins",
+    "c": "Cour-et-Buis",
+    "d": "38",
+    "lat": 45.4412703,
+    "lon": 5.0048914,
+    "km": 32.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin du Grand Quartier, 38122 Cour-et-Buis",
+    "src": "https://www.openstreetmap.org/node/11270901233",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11270901233"
+   ],
+   "extrait": "name=Brasserie des Dauphins ; craft=brewery ; adresse=Chemin du Grand Quartier, 38122 Cour-et-Buis",
+   "choix": "Fiche la plus proche : Brasserie de la Sanne, à 14,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Ninkasi",
+    "c": "Tarare",
+    "d": "69",
+    "lat": 45.8931919,
+    "lon": 4.4395278,
+    "km": 34.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "1 Avenue Édouard Herriot, 69170 Tarare",
+    "src": "https://www.openstreetmap.org/node/5984999103",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/5984999103"
+   ],
+   "extrait": "name=Ninkasi ; craft=brewery ; adresse=1 Avenue Édouard Herriot, 69170 Tarare ; website=https://www.ninkasi.fr/lieux/tarare.html ; opening_hours=Tu-We 11:00-15:00; Th 11:00-23:00; Fr-Sa 11:00-01:00",
+   "choix": "Nom proche de la fiche « Ninkasi Fabriques » (Tarare, à 0,5 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Ninkasi Fabriques, à 0,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Phylum Fungi",
+    "c": "Saint-Étienne",
+    "d": "42",
+    "lat": 45.4460292,
+    "lon": 4.3879088,
+    "km": 38.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "4 Rue Francis de Pressensé, 42000 Saint-Étienne",
+    "src": "https://www.openstreetmap.org/node/9723624824",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9723624824"
+   ],
+   "extrait": "name=Phylum Fungi ; craft=brewery ; adresse=4 Rue Francis de Pressensé, 42000 Saint-Étienne ; opening_hours=Fr 16:00-18:00",
+   "choix": "Fiche la plus proche : L'Ours qui brasse, à 0,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie \"Le Berliet\"",
+    "c": "Meximieux",
+    "d": "01",
+    "lat": 45.9034232,
+    "lon": 5.2003796,
+    "km": 42.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "36A Impasse de la Leppe, 01800 Meximieux",
+    "src": "https://www.openstreetmap.org/node/11847786363",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11847786363"
+   ],
+   "extrait": "name=Brasserie \"Le Berliet\" ; craft=brewery ; adresse=36A Impasse de la Leppe, 01800 Meximieux ; website=https://www.facebook.com/profile.php?id=61558488170776",
+   "choix": "Fiche la plus proche : Malt Emoi, à 1,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Semène",
+    "c": "Saint-Genest-Malifaux",
+    "d": "42",
+    "lat": 45.3394009,
+    "lon": 4.4141596,
+    "km": 45.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue Louis Jacquemin, 42660 Saint-Genest-Malifaux",
+    "src": "https://www.openstreetmap.org/node/8928658771",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/8928658771"
+   ],
+   "extrait": "name=Brasserie de la Semène ; craft=brewery ; adresse=Rue Louis Jacquemin, 42660 Saint-Genest-Malifaux",
+   "choix": "Nom proche de la fiche « La Gaudine (Brasserie de la Semène) » (Saint-Genest-Malifaux, à 2,0 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : La Gaudine (Brasserie de la Semène), à 2,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie les Bulles Foréziennes",
+    "c": "Cleppé",
+    "d": "42",
+    "lat": 45.7655333,
+    "lon": 4.1685562,
+    "km": 46.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "745 Route de Sainte-Foy, 42110 Cleppé",
+    "src": "https://www.openstreetmap.org/node/9012551612",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9012551612"
+   ],
+   "extrait": "name=Brasserie les Bulles Foréziennes ; craft=brewery ; adresse=745 Route de Sainte-Foy, 42110 Cleppé ; website=https://www.bullesforeziennes.fr ; opening_hours=Mo-Fr 09:00-18:00",
+   "choix": "Fiche la plus proche : La Germanoise, à 13,9 km."
+  },
+  {
+   "fiche": {
+    "n": "BIM",
+    "c": "Montbrison",
+    "d": "42",
+    "lat": 45.6112454,
+    "lon": 4.0658822,
+    "km": 54,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "2 Rue de Feurs, 42600 Montbrison",
+    "src": "https://www.openstreetmap.org/node/7816207070",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7816207070"
+   ],
+   "extrait": "name=BIM ; craft=brewery ; adresse=2 Rue de Feurs, 42600 Montbrison ; website=https://www.brasseriebim.com/",
+   "choix": "Nom proche de la fiche « BIM Brasserie Indépendante Montbrisonnaise » (Montbrison, à 0,4 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : BIM Brasserie Indépendante Montbrisonnaise, à 0,4 km."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie des Plantes",
+    "c": "Saint-Didier-en-Velay",
+    "d": "43",
+    "lat": 45.3028185,
+    "lon": 4.2753141,
+    "km": 55.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Grand Place, 43140 Saint-Didier-en-Velay",
+    "src": "https://www.openstreetmap.org/node/3034324702",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/3034324702"
+   ],
+   "extrait": "name=La Brasserie des Plantes ; craft=brewery ; adresse=Grand Place, 43140 Saint-Didier-en-Velay",
+   "choix": "Fiche la plus proche : Brasserie Beauseigne, à 4,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Thetys",
+    "c": "Saint-Clair-de-la-Tour",
+    "d": "38",
+    "lat": 45.5698979,
+    "lon": 5.461313,
+    "km": 56.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue des Cordes, 38110 Saint-Clair-de-la-Tour",
+    "src": "https://www.openstreetmap.org/node/9154020202",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9154020202"
+   ],
+   "extrait": "name=Brasserie Thetys ; craft=brewery ; adresse=Rue des Cordes, 38110 Saint-Clair-de-la-Tour ; website=https://brasserie-thetys.com/",
+   "choix": "Fiche la plus proche : Brasserie des Faux Semblables, à 0,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Loup Blanc",
+    "c": "Saint-Barthélemy-de-Vals",
+    "d": "26",
+    "lat": 45.1741356,
+    "lon": 4.8893076,
+    "km": 56.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Impasse du Vernais, 26240 Saint-Barthélemy-de-Vals",
+    "src": "https://www.openstreetmap.org/node/7784568139",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7784568139"
+   ],
+   "extrait": "name=Brasserie du Loup Blanc ; craft=brewery ; adresse=Impasse du Vernais, 26240 Saint-Barthélemy-de-Vals ; amenity=bar ; opening_hours=We-Fr 17:00-19:00",
+   "choix": "OSM la décrit aussi comme : amenity=bar — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie des Sarments, à 7,6 km."
+  },
+  {
+   "fiche": {
+    "n": "La Bi'nche",
+    "c": "Saint-Étienne-de-Saint-Geoirs",
+    "d": "38",
+    "lat": 45.351674,
+    "lon": 5.3374739,
+    "km": 57.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de l'Aéroport, 38590 Saint-Étienne-de-Saint-Geoirs",
+    "src": "https://www.openstreetmap.org/node/5109474454",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/5109474454"
+   ],
+   "extrait": "name=La Bi'nche ; craft=brewery ; adresse=Route de l'Aéroport, 38590 Saint-Étienne-de-Saint-Geoirs",
+   "choix": "Fiche la plus proche : Brasserie de Chambaran, à 4,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Free Mousse",
+    "c": "Saint-Victor",
+    "d": "07",
+    "lat": 45.1212944,
+    "lon": 4.7061865,
+    "km": 61.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de Petit Berger, 07410 Saint-Victor",
+    "src": "https://www.openstreetmap.org/node/5939247507",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/5939247507"
+   ],
+   "extrait": "name=Free Mousse ; craft=brewery ; adresse=Chemin de Petit Berger, 07410 Saint-Victor",
+   "choix": "Nom proche de la fiche « Brasserie Free Mousse » (Saint-Jean-de-Muzols, à 9,5 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Brasserie Longue Vie, à 4,6 km."
+  },
+  {
+   "fiche": {
+    "n": "La limaille",
+    "c": "Le Coteau",
+    "d": "42",
+    "lat": 46.0205912,
+    "lon": 4.0913264,
+    "km": 64.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue Adrienne Picard, 42120 Le Coteau",
+    "src": "https://www.openstreetmap.org/node/11359140324",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11359140324"
+   ],
+   "extrait": "name=La limaille ; craft=brewery ; adresse=Rue Adrienne Picard, 42120 Le Coteau",
+   "choix": "Fiche la plus proche : Brasserie Challit, à 3,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Auberge de Longue Vie",
+    "c": "Saint-Victor",
+    "d": "07",
+    "lat": 45.097581,
+    "lon": 4.6976128,
+    "km": 64.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Corsas, 07410 Saint-Victor",
+    "src": "https://www.openstreetmap.org/node/5939247511",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/5939247511"
+   ],
+   "extrait": "name=Auberge de Longue Vie ; craft=brewery ; adresse=Route de Corsas, 07410 Saint-Victor",
+   "choix": "Nom proche de la fiche « Brasserie Longue Vie » (Saint-Victor, à 5,5 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Brasserie Longue Vie, à 5,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Ancan",
+    "c": "Crottet",
+    "d": "01",
+    "lat": 46.2670358,
+    "lon": 4.8916732,
+    "km": 66.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Place de la Samiane, 01290 Crottet",
+    "src": "https://www.openstreetmap.org/node/14087207290",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/14087207290"
+   ],
+   "extrait": "name=Microbrasserie Ancan ; craft=brewery ; adresse=Place de la Samiane, 01290 Crottet",
+   "choix": "Fiche la plus proche : Brasserie de la Pérouze, à 5,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Sarl Hugo Bar",
+    "c": "Roanne",
+    "d": "42",
+    "lat": 46.0388033,
+    "lon": 4.0575689,
+    "km": 67.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "96 Place Victor Hugo, 42300 Roanne",
+    "src": "https://www.openstreetmap.org/node/6369991923",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6369991923"
+   ],
+   "extrait": "name=Sarl Hugo Bar ; craft=brewery ; adresse=96 Place Victor Hugo, 42300 Roanne",
+   "choix": "Fiche la plus proche : Brasserie Challit, à 4,7 km."
+  },
+  {
+   "fiche": {
+    "n": "La Gevrinoise - Brasserie artisanale",
+    "c": "Andert-et-Condon",
+    "d": "01",
+    "lat": 45.8024619,
+    "lon": 5.6572383,
+    "km": 71.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de la Bergerie, 01300 Andert-et-Condon",
+    "src": "https://www.openstreetmap.org/node/12294229332",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12294229332"
+   ],
+   "extrait": "name=La Gevrinoise - Brasserie artisanale ; craft=brewery ; adresse=Chemin de la Bergerie, 01300 Andert-et-Condon ; website=https://www.la-gevrinoise.fr/",
+   "choix": "Fiche la plus proche : Les Croqueurs de Lune, à 9,3 km."
+  },
+  {
+   "fiche": {
+    "n": "La Dauphine",
+    "c": "Saint-Geoire-en-Valdaine",
+    "d": "38",
+    "lat": 45.4592115,
+    "lon": 5.6426795,
+    "km": 73.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Voie de la Martinette, 38620 Saint-Geoire-en-Valdaine",
+    "src": "https://www.openstreetmap.org/way/218919148",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/218919148"
+   ],
+   "extrait": "name=La Dauphine ; craft=brewery ; adresse=Voie de la Martinette, 38620 Saint-Geoire-en-Valdaine ; website=http://www.la-dauphine.fr",
+   "choix": "Nom proche de la fiche « Brasserie du Val d'Ainan (La Dauphine) » (Saint-Geoire-en-Valdaine, à 1,3 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Brasserie du Val d'Ainan (La Dauphine), à 1,3 km."
+  },
+  {
+   "fiche": {
+    "n": "La Maiz'",
+    "c": "Saint-Nicolas-de-Macherin",
+    "d": "38",
+    "lat": 45.3971709,
+    "lon": 5.6066953,
+    "km": 73.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "104 Chemin du Lavoir, 38500 Saint-Nicolas-de-Macherin",
+    "src": "https://www.openstreetmap.org/node/8377692238",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/8377692238"
+   ],
+   "extrait": "name=La Maiz' ; craft=brewery ; adresse=104 Chemin du Lavoir, 38500 Saint-Nicolas-de-Macherin ; website=http://lamaiz.fr",
+   "choix": "Fiche la plus proche : Brasserie de l'Ours Barbu, à 3,8 km."
+  },
+  {
+   "fiche": {
+    "n": "O' Saint-Paul",
+    "c": "Saint-Paul-lès-Romans",
+    "d": "26",
+    "lat": 45.0594729,
+    "lon": 5.1078732,
+    "km": 73.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "21A Avenue des Pins, 26750 Saint-Paul-lès-Romans",
+    "src": "https://www.openstreetmap.org/node/6528350586",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6528350586"
+   ],
+   "extrait": "name=O' Saint-Paul ; craft=brewery ; adresse=21A Avenue des Pins, 26750 Saint-Paul-lès-Romans",
+   "choix": "Fiche la plus proche : Brasserie Romanaise (Bière Jacquemart), à 4,7 km."
+  },
+  {
+   "fiche": {
+    "n": "L'écume du Guier",
+    "c": "Domessin",
+    "d": "73",
+    "lat": 45.5386303,
+    "lon": 5.7087855,
+    "km": 75.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue du Chef-Lieu, 73330 Domessin",
+    "src": "https://www.openstreetmap.org/node/6659874286",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6659874286"
+   ],
+   "extrait": "name=L'écume du Guier ; craft=brewery ; adresse=Rue du Chef-Lieu, 73330 Domessin ; shop=alcohol",
+   "choix": "OSM la décrit aussi comme : shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : L'Écume du Guiers, à 5,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Micro Brasserie la Virgule",
+    "c": "Champagne-en-Valromey",
+    "d": "01",
+    "lat": 45.9054431,
+    "lon": 5.6817086,
+    "km": 76.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de Pré Monsieur, 01260 Champagne-en-Valromey",
+    "src": "https://www.openstreetmap.org/node/12294231064",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12294231064"
+   ],
+   "extrait": "name=Micro Brasserie la Virgule ; craft=brewery ; adresse=Chemin de Pré Monsieur, 01260 Champagne-en-Valromey",
+   "choix": "Fiche la plus proche : Ferme-Brasserie de Belmonthé, à 0,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Tarz",
+    "c": "Saint-André-en-Royans",
+    "d": "38",
+    "lat": 45.086247,
+    "lon": 5.3388931,
+    "km": 79.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue du Bourg, 38680 Saint-André-en-Royans",
+    "src": "https://www.openstreetmap.org/node/13076354249",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13076354249"
+   ],
+   "extrait": "name=Tarz ; craft=brewery ; adresse=Rue du Bourg, 38680 Saint-André-en-Royans ; microbrewery=yes",
+   "choix": "Fiche la plus proche : Domaine du Bélier Rouge, à 6,1 km."
+  },
+  {
+   "fiche": {
+    "n": "La Tarz",
+    "c": "Saint-André-en-Royans",
+    "d": "38",
+    "lat": 45.0862479,
+    "lon": 5.338926,
+    "km": 79.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue du Bourg, 38680 Saint-André-en-Royans",
+    "src": "https://www.openstreetmap.org/node/3731778122",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/3731778122"
+   ],
+   "extrait": "name=La Tarz ; craft=brewery ; adresse=Rue du Bourg, 38680 Saint-André-en-Royans",
+   "choix": "Fiche la plus proche : Domaine du Bélier Rouge, à 6,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Mazesté",
+    "c": "Mazet-Saint-Voy",
+    "d": "43",
+    "lat": 45.0460589,
+    "lon": 4.2445528,
+    "km": 80.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "2 Chemin de la Vaysse, 43520 Mazet-Saint-Voy",
+    "src": "https://www.openstreetmap.org/node/14133015102",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/14133015102"
+   ],
+   "extrait": "name=Mazesté ; craft=brewery ; adresse=2 Chemin de la Vaysse, 43520 Mazet-Saint-Voy ; website=http://mazeste.fr ; opening_hours=Fr 18:00-23:30; Sa 10:00-12:00; Sa 18:00-23:30",
+   "choix": "Fiche la plus proche : Manev'Ale, à 1,2 km."
+  },
+  {
+   "fiche": {
+    "n": "L’Antre 2 Bières",
+    "c": "Entre-deux-Guiers",
+    "d": "38",
+    "lat": 45.4129272,
+    "lon": 5.745616,
+    "km": 82.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "10 ZI Chartreuse Guiers, 38380 Entre-deux-Guiers",
+    "src": "https://www.openstreetmap.org/node/12212783479",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12212783479"
+   ],
+   "extrait": "name=L’Antre 2 Bières ; craft=brewery ; adresse=10 ZI Chartreuse Guiers, 38380 Entre-deux-Guiers ; website=https://antre2bieres.fr",
+   "choix": "Fiche la plus proche : Brasserie de Chartreuse, à 3,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie L'étincelle",
+    "c": "Nantua",
+    "d": "01",
+    "lat": 46.1432955,
+    "lon": 5.6153316,
+    "km": 84.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "9002 Route de Genève, 01130 Nantua",
+    "src": "https://www.openstreetmap.org/way/138474252",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/138474252"
+   ],
+   "extrait": "name=Brasserie L'étincelle ; craft=brewery ; adresse=9002 Route de Genève, 01130 Nantua ; website=https://www.brasserie-letincelle.fr/ ; opening_hours=We 16:00-19:00; Fr 16:00-20:00",
+   "choix": "Nom proche de la fiche « L'Etincelle » (Belleydoux, à 9,1 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Mac Never's and Co., à 5,1 km."
+  },
+  {
+   "fiche": {
+    "n": "3:6:9 Bière Craft",
+    "c": "Soyons",
+    "d": "07",
+    "lat": 44.8839393,
+    "lon": 4.8497107,
+    "km": 88.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin du Vivier, 07130 Soyons",
+    "src": "https://www.openstreetmap.org/way/68332734",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/68332734"
+   ],
+   "extrait": "name=3:6:9 Bière Craft ; craft=brewery ; adresse=Chemin du Vivier, 07130 Soyons",
+   "choix": "Fiche la plus proche : Brasserie de Roche Colombe, à 6,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Distillerie du Mont Blanc",
+    "c": "La Motte-Servolex",
+    "d": "73",
+    "lat": 45.591761,
+    "lon": 5.8883421,
+    "km": 88.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue René Cassin, 73290 La Motte-Servolex",
+    "src": "https://www.openstreetmap.org/way/181203951",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/181203951"
+   ],
+   "extrait": "name=Brasserie Distillerie du Mont Blanc ; craft=brewery ; adresse=Avenue René Cassin, 73290 La Motte-Servolex",
+   "choix": "Nom proche de la fiche « Brasserie du Mont Blanc » (La Motte-Servolex, à 1,9 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Brasserie du Mont Blanc, à 1,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Mel'in",
+    "c": "Chambéry",
+    "d": "73",
+    "lat": 45.6059061,
+    "lon": 5.8905201,
+    "km": 88.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue du Pré Pagnon, 73000 Chambéry",
+    "src": "https://www.openstreetmap.org/node/3299319777",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/3299319777"
+   ],
+   "extrait": "name=Le Mel'in ; craft=brewery ; adresse=Rue du Pré Pagnon, 73000 Chambéry",
+   "choix": "Fiche la plus proche : Brasserie du Mont Blanc, à 2,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Saubadia",
+    "c": "Voglans",
+    "d": "73",
+    "lat": 45.6267848,
+    "lon": 5.8933092,
+    "km": 88.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue Centrale, 73420 Voglans",
+    "src": "https://www.openstreetmap.org/node/14032095781",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/14032095781"
+   ],
+   "extrait": "name=Saubadia ; craft=brewery ; adresse=Rue Centrale, 73420 Voglans ; website=https://b-a-s.fr ; shop=alcohol",
+   "choix": "OSM la décrit aussi comme : shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie B.A.S. (Sabaudia), à 1,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Rois Malts",
+    "c": "Drumettaz-Clarafond",
+    "d": "73",
+    "lat": 45.6578077,
+    "lon": 5.9119601,
+    "km": 90,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "242 Allée des Érables, 73420 Drumettaz-Clarafond",
+    "src": "https://www.openstreetmap.org/node/6655491144",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6655491144"
+   ],
+   "extrait": "name=Brasserie Les Rois Malts ; craft=brewery ; adresse=242 Allée des Érables, 73420 Drumettaz-Clarafond ; website=https://www.lesroismalts.fr/ ; shop=alcohol",
+   "choix": "OSM la décrit aussi comme : shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie des Cimes, à 3,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Micro-brasserie Noisigotte",
+    "c": "Saint-Pierre-d'Entremont",
+    "d": "38",
+    "lat": 45.4146034,
+    "lon": 5.853378,
+    "km": 90.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "96 Chemin du Rocher, 38380 Saint-Pierre-d'Entremont",
+    "src": "https://www.openstreetmap.org/way/165706832",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/165706832"
+   ],
+   "extrait": "name=Micro-brasserie Noisigotte ; craft=brewery ; adresse=96 Chemin du Rocher, 38380 Saint-Pierre-d'Entremont",
+   "choix": "Fiche la plus proche : La Marmotte Masquée, à 10,0 km."
+  },
+  {
+   "fiche": {
+    "n": "La bonne fabrique (brasserie et atelier bois)",
+    "c": "Le Sappey-en-Chartreuse",
+    "d": "38",
+    "lat": 45.2595304,
+    "lon": 5.7773517,
+    "km": 92.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route du Col de Porte, 38700 Le Sappey-en-Chartreuse",
+    "src": "https://www.openstreetmap.org/node/11163082026",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11163082026"
+   ],
+   "extrait": "name=La bonne fabrique (brasserie et atelier bois) ; craft=brewery ; adresse=Route du Col de Porte, 38700 Le Sappey-en-Chartreuse",
+   "choix": "Nom proche de la fiche « La Bonne Fabrique » (Le Sappey-en-Chartreuse, à 1,9 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : La Bonne Fabrique, à 1,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Brewhouse",
+    "c": "Grenoble",
+    "d": "38",
+    "lat": 45.1922869,
+    "lon": 5.7303756,
+    "km": 93.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "2 Rue Pierre Duclot, 38000 Grenoble",
+    "src": "https://www.openstreetmap.org/node/9205148848",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9205148848"
+   ],
+   "extrait": "name=Brewhouse ; craft=brewery ; adresse=2 Rue Pierre Duclot, 38000 Grenoble ; opening_hours=Tu-We 17:00-24:00; Th 17:00-01:00; Fr 15:00-01:00; Sa-Su 16:00-01:00",
+   "choix": "Fiche la plus proche : Brasserie Dr D. Brewpub, à 0,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Slalom",
+    "c": "La Chapelle-en-Vercors",
+    "d": "26",
+    "lat": 44.9713193,
+    "lon": 5.4132329,
+    "km": 93.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue des Sources, 26420 La Chapelle-en-Vercors",
+    "src": "https://www.openstreetmap.org/way/522015980",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/522015980"
+   ],
+   "extrait": "name=Brasserie du Slalom ; craft=brewery ; adresse=Avenue des Sources, 26420 La Chapelle-en-Vercors ; website=https://www.brasserie-du-slalom.fr ; microbrewery=yes",
+   "choix": "Fiche la plus proche : Domaine du Bélier Rouge, à 20,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Mandrin",
+    "c": "Saint-Martin-d'Hères",
+    "d": "38",
+    "lat": 45.1844203,
+    "lon": 5.7747153,
+    "km": 96.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue du Champ Roman, 38400 Saint-Martin-d'Hères",
+    "src": "https://www.openstreetmap.org/way/61400110",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/61400110"
+   ],
+   "extrait": "name=Mandrin ; craft=brewery ; adresse=Rue du Champ Roman, 38400 Saint-Martin-d'Hères ; website=https://mandrin.biz/ ; amenity=pub ; shop=alcohol ; opening_hours=We,Fr 14:00-18:00; Sa 10:00-13:00,15:00-18:00 ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=pub, shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie du Dauphiné, à 1,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Dent de Crolles",
+    "c": "Saint-Hilaire",
+    "d": "38",
+    "lat": 45.3109431,
+    "lon": 5.8871937,
+    "km": 97.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de Prébois, 38660 Saint-Hilaire",
+    "src": "https://www.openstreetmap.org/way/787169310",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/787169310"
+   ],
+   "extrait": "name=Brasserie de la Dent de Crolles ; craft=brewery ; adresse=Chemin de Prébois, 38660 Saint-Hilaire ; website=https://brasserie-dentdecrolles.fr/",
+   "choix": "Fiche la plus proche : La Marmotte Masquée, à 7,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Les Brasseurs Savoyards",
+    "c": "Alby-sur-Chéran",
+    "d": "74",
+    "lat": 45.8202204,
+    "lon": 6.0039144,
+    "km": 98.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "645 Rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+    "src": "https://www.openstreetmap.org/way/62717373",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/62717373"
+   ],
+   "extrait": "name=Les Brasseurs Savoyards ; craft=brewery ; adresse=645 Rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+   "choix": "Fiche la plus proche : Brasserie Caquot, à 8,1 km."
+  },
+  {
+   "fiche": {
+    "n": "La Baujue",
+    "c": "Lescheraines",
+    "d": "73",
+    "lat": 45.7194958,
+    "lon": 6.1071794,
+    "km": 105.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Saint-Martin, 73340 Lescheraines",
+    "src": "https://www.openstreetmap.org/node/7562350358",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7562350358"
+   ],
+   "extrait": "name=La Baujue ; craft=brewery ; adresse=Route de Saint-Martin, 73340 Lescheraines ; website=http://www.labaujue.com/",
+   "choix": "Fiche la plus proche : Brasserie Caquot, à 14,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Petite Bière Dezaillons",
+    "c": "Aillon-le-Jeune",
+    "d": "73",
+    "lat": 45.610465,
+    "lon": 6.1157356,
+    "km": 106.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route des Ginets, 73340 Aillon-le-Jeune",
+    "src": "https://www.openstreetmap.org/way/1024946038",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/1024946038"
+   ],
+   "extrait": "name=Petite Bière Dezaillons ; craft=brewery ; adresse=Route des Ginets, 73340 Aillon-le-Jeune",
+   "choix": "Fiche la plus proche : Brasserie du Merle, à 10,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Bombardos",
+    "c": "Annecy",
+    "d": "74",
+    "lat": 45.8976015,
+    "lon": 6.1061567,
+    "km": 107.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "D 3508, 74960 Annecy",
+    "src": "https://www.openstreetmap.org/node/12384165644",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12384165644"
+   ],
+   "extrait": "name=Bombardos ; craft=brewery ; adresse=D 3508, 74960 Annecy",
+   "choix": "Fiche la plus proche : Brasserie Caquot, à 19,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Les funambules",
+    "c": "Rotherens",
+    "d": "73",
+    "lat": 45.4705361,
+    "lon": 6.1271215,
+    "km": 109.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "689 Route des Bons Prés, 73110 Rotherens",
+    "src": "https://www.openstreetmap.org/node/9157511087",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9157511087"
+   ],
+   "extrait": "name=Les funambules ; craft=brewery ; adresse=689 Route des Bons Prés, 73110 Rotherens ; website=https://www.microbrasserielesfunambules.fr/",
+   "choix": "Fiche la plus proche : Brasserie Quardin, à 11,2 km."
+  },
+  {
+   "fiche": {
+    "n": "La petite fabrique",
+    "c": "Annecy",
+    "d": "74",
+    "lat": 45.9196847,
+    "lon": 6.1246257,
+    "km": 109.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "7 Boulevard Bellevue, 74000 Annecy",
+    "src": "https://www.openstreetmap.org/node/6166335749",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6166335749"
+   ],
+   "extrait": "name=La petite fabrique ; craft=brewery ; adresse=7 Boulevard Bellevue, 74000 Annecy ; website=https://www.artmalte.com/",
+   "choix": "Nom proche de la fiche « La Beer Fabrique » (Lyon 1er, à 101,5 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : Brasserie Caquot, à 22,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Après l'Orage",
+    "c": "Die",
+    "d": "26",
+    "lat": 44.7584502,
+    "lon": 5.3571599,
+    "km": 112.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "795 Chemin de Chandillon, 26150 Die",
+    "src": "https://www.openstreetmap.org/way/72740368",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/72740368"
+   ],
+   "extrait": "name=Brasserie Après l'Orage ; craft=brewery ; adresse=795 Chemin de Chandillon, 26150 Die ; website=https://apreslorage.fr/ ; opening_hours=Mo-Fr 09:00-19:00",
+   "choix": "Fiche la plus proche : Brasserie de la Pleine Lune, à 31,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Mont Salève",
+    "c": "Neydens",
+    "d": "74",
+    "lat": 46.1217315,
+    "lon": 6.0928915,
+    "km": 114.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "151 Rue du Jura, 74160 Neydens",
+    "src": "https://www.openstreetmap.org/way/78492082",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/78492082"
+   ],
+   "extrait": "name=Brasserie du Mont Salève ; craft=brewery ; adresse=151 Rue du Jura, 74160 Neydens",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 22,7 km."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie du Mont Aiguille",
+    "c": "Clelles",
+    "d": "38",
+    "lat": 44.8299644,
+    "lon": 5.6052361,
+    "km": 115.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "D 7, 38930 Clelles",
+    "src": "https://www.openstreetmap.org/node/6928795915",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6928795915"
+   ],
+   "extrait": "name=La Brasserie du Mont Aiguille ; craft=brewery ; adresse=D 7, 38930 Clelles ; website=https://www.brasseriedumontaiguille.fr/",
+   "choix": "Fiche la plus proche : Brasserie Les Dameuses, à 32,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie L'Ale Ouët",
+    "c": "Chirols",
+    "d": "07",
+    "lat": 44.6869222,
+    "lon": 4.2844916,
+    "km": 115.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de la Plaine du Fez, 07380 Chirols",
+    "src": "https://www.openstreetmap.org/node/6837153696",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6837153696"
+   ],
+   "extrait": "name=Brasserie L'Ale Ouët ; craft=brewery ; adresse=Route de la Plaine du Fez, 07380 Chirols",
+   "choix": "Fiche la plus proche : L'Agrivoise, à 36,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Volane",
+    "c": "Vals-les-Bains",
+    "d": "07",
+    "lat": 44.655422,
+    "lon": 4.3684253,
+    "km": 117.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "7 Avenue Claude Expilly, 07600 Vals-les-Bains",
+    "src": "https://www.openstreetmap.org/way/898123607",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/898123607"
+   ],
+   "extrait": "name=Brasserie Volane ; craft=brewery ; adresse=7 Avenue Claude Expilly, 07600 Vals-les-Bains",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 35,5 km."
+  },
+  {
+   "fiche": {
+    "n": "La Matheysine",
+    "c": "Nantes-en-Rattier",
+    "d": "38",
+    "lat": 44.9332528,
+    "lon": 5.8256179,
+    "km": 117.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de La Fuma, 38350 Nantes-en-Rattier",
+    "src": "https://www.openstreetmap.org/node/11898294497",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11898294497"
+   ],
+   "extrait": "name=La Matheysine ; craft=brewery ; adresse=Rue de La Fuma, 38350 Nantes-en-Rattier ; website=https://www.brasseriematheysine.fr/",
+   "choix": "Fiche la plus proche : Brasserie Les Dameuses, à 23,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Bière de l'Oisans",
+    "c": "Le Bourg-d'Oisans",
+    "d": "38",
+    "lat": 45.0550621,
+    "lon": 6.0294478,
+    "km": 121.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "27 Avenue de la République, 38520 Le Bourg-d'Oisans",
+    "src": "https://www.openstreetmap.org/node/9366608484",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9366608484"
+   ],
+   "extrait": "name=Bière de l'Oisans ; craft=brewery ; adresse=27 Avenue de la République, 38520 Le Bourg-d'Oisans ; website=https://bieresdeloisans.fr/ ; opening_hours=Tu-Fr 15:00-19:00; Sa 09:00-13:00",
+   "choix": "Fiche la plus proche : Brasserie Solstice, à 25,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Drac",
+    "c": "Jaujac",
+    "d": "07",
+    "lat": 44.6370472,
+    "lon": 4.2546058,
+    "km": 121.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Place Saint-Bonnet, 07380 Jaujac",
+    "src": "https://www.openstreetmap.org/node/8939615919",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/8939615919"
+   ],
+   "extrait": "name=Drac ; craft=brewery ; adresse=Place Saint-Bonnet, 07380 Jaujac ; opening_hours=Tu,Fr 10:00-12:30, We-Sa,PH 17:00-19:00",
+   "choix": "Fiche la plus proche : L'Agrivoise, à 42,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du pèreSaint'Oy",
+    "c": "Diou",
+    "d": "03",
+    "lat": 46.5326954,
+    "lon": 3.7682053,
+    "km": 122,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "1 Chemin du Cluziaud, 03290 Diou",
+    "src": "https://www.openstreetmap.org/node/10929096211",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/10929096211"
+   ],
+   "extrait": "name=Brasserie du pèreSaint'Oy ; craft=brewery ; adresse=1 Chemin du Cluziaud, 03290 Diou ; website=https://www.lasaintoy.fr/ ; opening_hours=Mo-Fr 08:30-18:00; Sa 10:00-12:00",
+   "choix": "Fiche la plus proche : Les Brasseurs du Sornin, à 51,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Grand Pic",
+    "c": "Épierre",
+    "d": "73",
+    "lat": 45.4520778,
+    "lon": 6.2960803,
+    "km": 122.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "80 Rue des Moulins, 73220 Épierre",
+    "src": "https://www.openstreetmap.org/node/10539043798",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/10539043798"
+   ],
+   "extrait": "name=Brasserie du Grand Pic ; craft=brewery ; adresse=80 Rue des Moulins, 73220 Épierre ; website=https://brasseriegrandpic.com/",
+   "choix": "Fiche la plus proche : Brasserie Quardin, à 24,2 km."
+  },
+  {
+   "fiche": {
+    "n": "La Bascule",
+    "c": "Châtillon-en-Diois",
+    "d": "26",
+    "lat": 44.6941272,
+    "lon": 5.4867211,
+    "km": 123.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Impasse des Chaussières, 26410 Châtillon-en-Diois",
+    "src": "https://www.openstreetmap.org/node/9956628805",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9956628805"
+   ],
+   "extrait": "name=La Bascule ; craft=brewery ; adresse=Impasse des Chaussières, 26410 Châtillon-en-Diois",
+   "choix": "Fiche la plus proche : Brasserie de la Pleine Lune, à 43,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Gessienne",
+    "c": "Maconnex",
+    "d": "01",
+    "lat": 46.2831541,
+    "lon": 6.0916981,
+    "km": 123.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de Perruet, 01210 Maconnex",
+    "src": "https://www.openstreetmap.org/node/9021286942",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9021286942"
+   ],
+   "extrait": "name=Brasserie Gessienne ; craft=brewery ; adresse=Rue de Perruet, 01210 Maconnex ; website=https://www.brasseriegessienne.fr/ ; shop=beverages ; opening_hours=Sa 15:00-19:00; Fr 17:00-19:00 ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : shop=beverages — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 30,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Bières Du Galta",
+    "c": "Grignon",
+    "d": "73",
+    "lat": 45.6523444,
+    "lon": 6.3792484,
+    "km": 126.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "870 Route départementale 925, 73200 Grignon",
+    "src": "https://www.openstreetmap.org/node/11123927661",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11123927661"
+   ],
+   "extrait": "name=Bières Du Galta ; craft=brewery ; adresse=870 Route départementale 925, 73200 Grignon ; website=https://www.bieresdugalta.fr ; opening_hours=Tu-Sa 12:00-19:00",
+   "choix": "Fiche la plus proche : Brasserie du Merle, à 31,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Back in Malt",
+    "c": "Varennes-sur-Allier",
+    "d": "03",
+    "lat": 46.3133272,
+    "lon": 3.4016133,
+    "km": 126.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "21 Rue du Quatre Septembre, 03150 Varennes-sur-Allier",
+    "src": "https://www.openstreetmap.org/node/10865053092",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/10865053092"
+   ],
+   "extrait": "name=Back in Malt ; craft=brewery ; adresse=21 Rue du Quatre Septembre, 03150 Varennes-sur-Allier ; website=https://www.brasseriebackinmalt.fr/ ; opening_hours=Fr 17:00-19:00",
+   "choix": "Fiche la plus proche : Les Cuves de la Madeleine, à 48,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale La Fabrique",
+    "c": "Montélimar",
+    "d": "26",
+    "lat": 44.5349835,
+    "lon": 4.7384873,
+    "km": 126.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "110A Route de Châteauneuf, 26200 Montélimar",
+    "src": "https://www.openstreetmap.org/node/13125588440",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13125588440"
+   ],
+   "extrait": "name=Brasserie Artisanale La Fabrique ; craft=brewery ; adresse=110A Route de Châteauneuf, 26200 Montélimar ; opening_hours=Mo off; Tu-Sa 10:00-20:30; Su off",
+   "choix": "Nom proche de la fiche « La Bonne Fabrique » (Le Sappey-en-Chartreuse, à 116,7 km) : même brasserie ? Sinon, à ajouter. Fiche la plus proche : La Grange du Seigneur, à 42,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brew Vernet",
+    "c": "Broût-Vernet",
+    "d": "03",
+    "lat": 46.1874285,
+    "lon": 3.2713446,
+    "km": 128.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "9 Rue de la Croix Rouge, 03110 Broût-Vernet",
+    "src": "https://www.openstreetmap.org/way/391271892",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/391271892"
+   ],
+   "extrait": "name=Brew Vernet ; craft=brewery ; adresse=9 Rue de la Croix Rouge, 03110 Broût-Vernet ; website=https://brasserie-brewvernet.fr/ ; opening_hours=17:00-19:00",
+   "choix": "Fiche la plus proche : Les Cuves de la Madeleine, à 52,1 km."
+  },
+  {
+   "fiche": {
+    "n": "La vieille mule",
+    "c": "Le Poët-Laval",
+    "d": "26",
+    "lat": 44.5267063,
+    "lon": 4.9859677,
+    "km": 128.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Dieulefit, 26160 Le Poët-Laval",
+    "src": "https://www.openstreetmap.org/way/829374816",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/829374816"
+   ],
+   "extrait": "name=La vieille mule ; craft=brewery ; adresse=Route de Dieulefit, 26160 Le Poët-Laval ; website=https://www.lavieillemule.com/",
+   "choix": "Fiche la plus proche : Brasserie de la Pleine Lune, à 41,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Bières le Plan B",
+    "c": "Clermont-Ferrand",
+    "d": "63",
+    "lat": 45.7671785,
+    "lon": 3.0829262,
+    "km": 130.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue de la Libération, 63000 Clermont-Ferrand",
+    "src": "https://www.openstreetmap.org/node/1804850834",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/1804850834"
+   ],
+   "extrait": "name=Bières le Plan B ; craft=brewery ; adresse=Avenue de la Libération, 63000 Clermont-Ferrand ; website=http://www.bieres-leplanb.com/ ; shop=beverages ; opening_hours=Th,Fr 17:00-19:00; Sa 10:00-12:30",
+   "choix": "OSM la décrit aussi comme : shop=beverages — un café, un bar ou une enseigne ? Fiche la plus proche : La Canaille, à 70,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du jugement dernier",
+    "c": "Mazerier",
+    "d": "03",
+    "lat": 46.1303702,
+    "lon": 3.1930492,
+    "km": 131,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "15 Allée Madame de Sévigné, 03800 Mazerier",
+    "src": "https://www.openstreetmap.org/node/7568278437",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7568278437"
+   ],
+   "extrait": "name=Brasserie du jugement dernier ; craft=brewery ; adresse=15 Allée Madame de Sévigné, 03800 Mazerier ; website=https://jugementdernier.beer/",
+   "choix": "Fiche la plus proche : Les Cuves de la Madeleine, à 57,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Kazan CraftBeer",
+    "c": "Chamalières",
+    "d": "63",
+    "lat": 45.7757899,
+    "lon": 3.0660892,
+    "km": 131.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "3 Rue du Pont de la Gravière, 63400 Chamalières",
+    "src": "https://www.openstreetmap.org/node/11310220269",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11310220269"
+   ],
+   "extrait": "name=Kazan CraftBeer ; craft=brewery ; adresse=3 Rue du Pont de la Gravière, 63400 Chamalières ; opening_hours=Tu-We 09:30-18:00; Th-Fr 09:30-23:00; Sa 09:30-12:30",
+   "choix": "Fiche la plus proche : La Canaille, à 71,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Neiges Maurienne",
+    "c": "Saint-Jean-de-Maurienne",
+    "d": "73",
+    "lat": 45.2792335,
+    "lon": 6.3455646,
+    "km": 131.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "261 Rue Saint-Antoine, 73300 Saint-Jean-de-Maurienne",
+    "src": "https://www.openstreetmap.org/node/14054524469",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/14054524469"
+   ],
+   "extrait": "name=Brasserie des Neiges Maurienne ; craft=brewery ; adresse=261 Rue Saint-Antoine, 73300 Saint-Jean-de-Maurienne ; opening_hours=Tu-Fr 09:30-12:00,14:00-18:00; Sa 09:30-12:00",
+   "choix": "Fiche la plus proche : Brasserie Grésiv'ale, à 34,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie BE HERE Factory",
+    "c": "Ville-la-Grand",
+    "d": "74",
+    "lat": 46.2052521,
+    "lon": 6.2780553,
+    "km": 131.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "20 Rue du Bois de la Rose, 74100 Ville-la-Grand",
+    "src": "https://www.openstreetmap.org/way/158604347",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/158604347"
+   ],
+   "extrait": "name=Brasserie BE HERE Factory ; craft=brewery ; adresse=20 Rue du Bois de la Rose, 74100 Ville-la-Grand ; website=https://www.be-here.fr/",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 38,6 km."
+  },
+  {
+   "fiche": {
+    "n": "La Rochebière",
+    "c": "Largentière",
+    "d": "07",
+    "lat": 44.5202232,
+    "lon": 4.3072732,
+    "km": 133.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Impasse Zone du Ginestet, 07110 Largentière",
+    "src": "https://www.openstreetmap.org/node/13227343955",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13227343955"
+   ],
+   "extrait": "name=La Rochebière ; craft=brewery ; adresse=Impasse Zone du Ginestet, 07110 Largentière ; website=https://la-rochebiere.fr",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 50,7 km."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie des Voirons",
+    "c": "Lucinges",
+    "d": "74",
+    "lat": 46.1918442,
+    "lon": 6.317018,
+    "km": 133.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "5 Place de la Vignule, 74380 Lucinges",
+    "src": "https://www.openstreetmap.org/way/63593358",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/63593358"
+   ],
+   "extrait": "name=La Brasserie des Voirons ; craft=brewery ; adresse=5 Place de la Vignule, 74380 Lucinges",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 41,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Haut Buech (BHB)",
+    "c": "Lus-la-Croix-Haute",
+    "d": "26",
+    "lat": 44.6757333,
+    "lon": 5.75744,
+    "km": 136.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "26620 Lus-la-Croix-Haute",
+    "src": "https://www.openstreetmap.org/node/4221229812",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/4221229812"
+   ],
+   "extrait": "name=Brasserie du Haut Buech (BHB) ; craft=brewery ; adresse=26620 Lus-la-Croix-Haute ; website=https://bhbbrasserieartisanale.blogspot.com/ ; opening_hours=Mo-Th 16:00-17:00 ; microbrewery=yes",
+   "choix": "Fiche la plus proche : Brasserie Les Dameuses, à 49,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Bières Du Faucigny",
+    "c": "Viuz-en-Sallaz",
+    "d": "74",
+    "lat": 46.1404696,
+    "lon": 6.3901932,
+    "km": 136.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de l'Industrie, 74250 Viuz-en-Sallaz",
+    "src": "https://www.openstreetmap.org/way/798744550",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/798744550"
+   ],
+   "extrait": "name=Bières Du Faucigny ; craft=brewery ; adresse=Rue de l'Industrie, 74250 Viuz-en-Sallaz ; website=https://www.bieres-du-faucigny.fr",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 45,7 km."
+  },
+  {
+   "fiche": {
+    "n": "L'Étoile des Neiges",
+    "c": "Saint-Martin-de-Belleville",
+    "d": "73",
+    "lat": 45.3792557,
+    "lon": 6.5043034,
+    "km": 140.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue Georges Cumin, 73440 Saint-Martin-de-Belleville",
+    "src": "https://www.openstreetmap.org/way/181948095",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/181948095"
+   ],
+   "extrait": "name=L'Étoile des Neiges ; craft=brewery ; adresse=Rue Georges Cumin, 73440 Saint-Martin-de-Belleville ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 41,4 km."
+  },
+  {
+   "fiche": {
+    "n": "La Voûte",
+    "c": "Saint-Martin-de-Belleville",
+    "d": "73",
+    "lat": 45.380015,
+    "lon": 6.5046352,
+    "km": 140.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Place des Belleville, 73440 Saint-Martin-de-Belleville",
+    "src": "https://www.openstreetmap.org/way/181942942",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/181942942"
+   ],
+   "extrait": "name=La Voûte ; craft=brewery ; adresse=Place des Belleville, 73440 Saint-Martin-de-Belleville ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 41,4 km."
+  },
+  {
+   "fiche": {
+    "n": "La Birra Menta",
+    "c": "Beaufort",
+    "d": "73",
+    "lat": 45.6853368,
+    "lon": 6.564274,
+    "km": 140.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "146 Route du Planay, 73270 Beaufort",
+    "src": "https://www.openstreetmap.org/node/10000388698",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/10000388698"
+   ],
+   "extrait": "name=La Birra Menta ; craft=brewery ; adresse=146 Route du Planay, 73270 Beaufort",
+   "choix": "Fiche la plus proche : Brasserie du Merle, à 45,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Galibier",
+    "c": "Valloire",
+    "d": "73",
+    "lat": 45.1664166,
+    "lon": 6.4260109,
+    "km": 142.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de la Bonne Eau, 73450 Valloire",
+    "src": "https://www.openstreetmap.org/node/8542143945",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/8542143945"
+   ],
+   "extrait": "name=Brasserie Galibier ; craft=brewery ; adresse=Rue de la Bonne Eau, 73450 Valloire ; website=https://www.valloire.net/degustation/brasserie-galibier-valloire/ ; shop=alcohol",
+   "choix": "OSM la décrit aussi comme : shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 46,8 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Sancy",
+    "c": "Besse-et-Saint-Anastaise",
+    "d": "63",
+    "lat": 45.5109343,
+    "lon": 2.9316495,
+    "km": 143,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Grand Mèze, 63610 Besse-et-Saint-Anastaise",
+    "src": "https://www.openstreetmap.org/node/13810536073",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13810536073"
+   ],
+   "extrait": "name=Brasserie du Sancy ; craft=brewery ; adresse=Grand Mèze, 63610 Besse-et-Saint-Anastaise",
+   "choix": "Fiche la plus proche : Miellerie Gachet, à 83,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Lou Cabistou",
+    "c": "Saint-Remèze",
+    "d": "07",
+    "lat": 44.3931559,
+    "lon": 4.5015725,
+    "km": 143.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Vallon, 07700 Saint-Remèze",
+    "src": "https://www.openstreetmap.org/node/13072108394",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13072108394"
+   ],
+   "extrait": "name=Lou Cabistou ; craft=brewery ; adresse=Route de Vallon, 07700 Saint-Remèze",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 58,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Medzé-ry",
+    "c": "Saint-Martin-de-Belleville",
+    "d": "73",
+    "lat": 45.3285336,
+    "lon": 6.5335043,
+    "km": 143.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue des Blanchots, 73440 Saint-Martin-de-Belleville",
+    "src": "https://www.openstreetmap.org/way/181943199",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/181943199"
+   ],
+   "extrait": "name=Le Medzé-ry ; craft=brewery ; adresse=Rue des Blanchots, 73440 Saint-Martin-de-Belleville ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 45,0 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Capricorne",
+    "c": "Saint-Martin-de-Belleville",
+    "d": "73",
+    "lat": 45.3249865,
+    "lon": 6.537747,
+    "km": 144.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue de la Croisette, 73440 Saint-Martin-de-Belleville",
+    "src": "https://www.openstreetmap.org/way/181947968",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/181947968"
+   ],
+   "extrait": "name=Le Capricorne ; craft=brewery ; adresse=Avenue de la Croisette, 73440 Saint-Martin-de-Belleville ; amenity=restaurant ; cuisine=pizza ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 45,5 km."
+  },
+  {
+   "fiche": {
+    "n": "La p'tite ravine",
+    "c": "Demi-Quartier",
+    "d": "74",
+    "lat": 45.8756561,
+    "lon": 6.6023831,
+    "km": 145,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de Nivolet à Cuchet, 74120 Demi-Quartier",
+    "src": "https://www.openstreetmap.org/way/157667497",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/157667497"
+   ],
+   "extrait": "name=La p'tite ravine ; craft=brewery ; adresse=Chemin de Nivolet à Cuchet, 74120 Demi-Quartier ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Caquot, à 53,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bergoïata",
+    "c": "Bourg-Saint-Andéol",
+    "d": "07",
+    "lat": 44.3708997,
+    "lon": 4.6439232,
+    "km": 145.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue Jean Jaurès, 07700 Bourg-Saint-Andéol",
+    "src": "https://www.openstreetmap.org/node/7352560827",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7352560827"
+   ],
+   "extrait": "name=Brasserie Bergoïata ; craft=brewery ; adresse=Avenue Jean Jaurès, 07700 Bourg-Saint-Andéol",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 59,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Café Rétro",
+    "c": "Moulins",
+    "d": "03",
+    "lat": 46.5400533,
+    "lon": 3.3434913,
+    "km": 145.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "McDrive, 03000 Moulins",
+    "src": "https://www.openstreetmap.org/node/9459121056",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9459121056"
+   ],
+   "extrait": "name=Café Rétro ; craft=brewery ; adresse=McDrive, 03000 Moulins",
+   "choix": "Fiche la plus proche : Les Cuves de la Madeleine, à 68,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Dark Lab",
+    "c": "Les Roches",
+    "d": "63",
+    "lat": 45.8299201,
+    "lon": 2.8954972,
+    "km": 145.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de la Via Bore, 63230 Les Roches",
+    "src": "https://www.openstreetmap.org/node/13061456701",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13061456701"
+   ],
+   "extrait": "name=Dark Lab ; craft=brewery ; adresse=Route de la Via Bore, 63230 Les Roches ; website=http://dark-lab.fr",
+   "choix": "Fiche la plus proche : Les Cuves de la Madeleine, à 84,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie la Croix d'or",
+    "c": "Pierrelatte",
+    "d": "26",
+    "lat": 44.362283,
+    "lon": 4.6940744,
+    "km": 146,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue de Provence, 26700 Pierrelatte",
+    "src": "https://www.openstreetmap.org/node/4756665335",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/4756665335"
+   ],
+   "extrait": "name=Brasserie la Croix d'or ; craft=brewery ; adresse=Avenue de Provence, 26700 Pierrelatte",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 61,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Châlet d'Emilie",
+    "c": "Combloux",
+    "d": "74",
+    "lat": 45.8888365,
+    "lon": 6.6219363,
+    "km": 146.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de la Cry-Cuchet, 74920 Combloux",
+    "src": "https://www.openstreetmap.org/way/246557753",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/246557753"
+   ],
+   "extrait": "name=Châlet d'Emilie ; craft=brewery ; adresse=Route de la Cry-Cuchet, 74920 Combloux ; amenity=restaurant ; opening_hours=Mo-Su 10:00-18:00 ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Caquot, à 55,1 km."
+  },
+  {
+   "fiche": {
+    "n": "La Ringale",
+    "c": "Cervens",
+    "d": "74",
+    "lat": 46.2878572,
+    "lon": 6.4458803,
+    "km": 147.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "120 Impasse des Artisans, 74550 Cervens",
+    "src": "https://www.openstreetmap.org/way/823063300",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/823063300"
+   ],
+   "extrait": "name=La Ringale ; craft=brewery ; adresse=120 Impasse des Artisans, 74550 Cervens",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 53,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Brassin Versant - Bière de Granier",
+    "c": "Aime-la-Plagne",
+    "d": "73",
+    "lat": 45.5721995,
+    "lon": 6.6514634,
+    "km": 148,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "77 Route des Roches et Noyeray, 73210 Aime-la-Plagne",
+    "src": "https://www.openstreetmap.org/node/11608083502",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11608083502"
+   ],
+   "extrait": "name=Brassin Versant - Bière de Granier ; craft=brewery ; adresse=77 Route des Roches et Noyeray, 73210 Aime-la-Plagne",
+   "choix": "Fiche la plus proche : Brasserie du Merle, à 50,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Bistrot des Quais",
+    "c": "Sallanches",
+    "d": "74",
+    "lat": 45.9362774,
+    "lon": 6.6290247,
+    "km": 148.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Quai de l'Hôtel de Ville, 74700 Sallanches",
+    "src": "https://www.openstreetmap.org/node/6328825664",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/6328825664"
+   ],
+   "extrait": "name=Le Bistrot des Quais ; craft=brewery ; adresse=Quai de l'Hôtel de Ville, 74700 Sallanches",
+   "choix": "Fiche la plus proche : Brasserie Caquot, à 57,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Outer Range Brewing Co.",
+    "c": "Sallanches",
+    "d": "74",
+    "lat": 45.943483,
+    "lon": 6.6289748,
+    "km": 148.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "531 Rue du Capitaine Bulle, 74700 Sallanches",
+    "src": "https://www.openstreetmap.org/node/797390082",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/797390082"
+   ],
+   "extrait": "name=Outer Range Brewing Co. ; craft=brewery ; adresse=531 Rue du Capitaine Bulle, 74700 Sallanches ; website=https://outerrangealps.com/ ; opening_hours=Mo-Su 13:00-23:00",
+   "choix": "Fiche la plus proche : Brasserie Caquot, à 57,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Rendez-Vous",
+    "c": "Saint-Martin-de-Belleville",
+    "d": "73",
+    "lat": 45.2962772,
+    "lon": 6.5811528,
+    "km": 148.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de la Moraine, 73440 Saint-Martin-de-Belleville",
+    "src": "https://www.openstreetmap.org/way/46799920",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/46799920"
+   ],
+   "extrait": "name=Le Rendez-Vous ; craft=brewery ; adresse=Rue de la Moraine, 73440 Saint-Martin-de-Belleville ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Grésiv'ale, à 49,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Le Postillon",
+    "c": "Combloux",
+    "d": "74",
+    "lat": 45.8953733,
+    "lon": 6.6443978,
+    "km": 148.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de Sallanches, 74920 Combloux",
+    "src": "https://www.openstreetmap.org/way/246557762",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/246557762"
+   ],
+   "extrait": "name=Le Postillon ; craft=brewery ; adresse=Route de Sallanches, 74920 Combloux ; amenity=restaurant ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=restaurant — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Caquot, à 56,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie l'Antidote",
+    "c": "Bozel",
+    "d": "73",
+    "lat": 45.443067,
+    "lon": 6.6403161,
+    "km": 149.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "719 Rue Émile Machet, 73120 Bozel",
+    "src": "https://www.openstreetmap.org/way/196320681",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/196320681"
+   ],
+   "extrait": "name=Brasserie l'Antidote ; craft=brewery ; adresse=719 Rue Émile Machet, 73120 Bozel",
+   "choix": "Fiche la plus proche : Brasserie Quardin, à 50,6 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Estives",
+    "c": "Allanche",
+    "d": "15",
+    "lat": 45.225178,
+    "lon": 2.9345214,
+    "km": 150.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de la Pierre Grosse, 15160 Allanche",
+    "src": "https://www.openstreetmap.org/node/13012188555",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13012188555"
+   ],
+   "extrait": "name=Brasserie des Estives ; craft=brewery ; adresse=Rue de la Pierre Grosse, 15160 Allanche ; website=https://brasseriedesestives.com/",
+   "choix": "Fiche la plus proche : Brasserie de l'Emblavez, à 75,5 km."
+  },
+  {
+   "fiche": {
+    "n": "La Fa’briquette",
+    "c": "Vagnas",
+    "d": "07",
+    "lat": 44.3456437,
+    "lon": 4.366481,
+    "km": 150.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "10 Rue de l’École, 07150 Vagnas",
+    "src": "https://www.openstreetmap.org/node/13937935301",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13937935301"
+   ],
+   "extrait": "name=La Fa’briquette ; craft=brewery ; adresse=10 Rue de l’École, 07150 Vagnas ; website=https://www.brasserie-lafabriquette.fr ; opening_hours=Mo, We-Su 14:00-18:30; Tu 10:30-13:00, 14:00-18:30",
+   "choix": "Fiche la plus proche : La Grange du Seigneur, à 66,4 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie artisanale du Léman",
+    "c": "Allinges",
+    "d": "74",
+    "lat": 46.3349642,
+    "lon": 6.4892882,
+    "km": 152.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "670 Route des Blaves, 74200 Allinges",
+    "src": "https://www.openstreetmap.org/node/8923062535",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/8923062535"
+   ],
+   "extrait": "name=Brasserie artisanale du Léman ; craft=brewery ; adresse=670 Route des Blaves, 74200 Allinges ; website=https://www.biere-leman.com ; opening_hours=Mo 14:00-18:00; Tu-Fr 09:00-18:00",
+   "choix": "Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 59,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Bivouak",
+    "c": "Sainte-Jalle",
+    "d": "26",
+    "lat": 44.3399795,
+    "lon": 5.2659222,
+    "km": 153.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "D 108, 26110 Sainte-Jalle",
+    "src": "https://www.openstreetmap.org/way/615387760",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/615387760"
+   ],
+   "extrait": "name=Bivouak ; craft=brewery ; adresse=D 108, 26110 Sainte-Jalle",
+   "choix": "Fiche la plus proche : Brasserie de la Pleine Lune, à 65,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Sagnes",
+    "c": "Menat",
+    "d": "63",
+    "lat": 46.138661,
+    "lon": 2.860796,
+    "km": 155.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route de l’Ouche, 63560 Menat",
+    "src": "https://www.openstreetmap.org/way/150209158",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/150209158"
+   ],
+   "extrait": "name=Brasserie des Sagnes ; craft=brewery ; adresse=Route de l’Ouche, 63560 Menat ; website=https://brasserie-des-sagnes.eproshopping.fr/ ; shop=alcohol",
+   "choix": "OSM la décrit aussi comme : shop=alcohol — un café, un bar ou une enseigne ? Fiche la plus proche : Les Cuves de la Madeleine, à 82,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Montagnes",
+    "c": "Gelles",
+    "d": "63",
+    "lat": 45.7762727,
+    "lon": 2.7573296,
+    "km": 155.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Chemin de Rocher, 63740 Gelles",
+    "src": "https://www.openstreetmap.org/node/13702345820",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/13702345820"
+   ],
+   "extrait": "name=Brasserie des Montagnes ; craft=brewery ; adresse=Chemin de Rocher, 63740 Gelles ; website=https://www.brasseriedesmontagnes.fr/",
+   "choix": "Fiche la plus proche : La Canaille, à 95,6 km."
+  },
+  {
+   "fiche": {
+    "n": "La Peiserote",
+    "c": "Peisey-Nancroix",
+    "d": "73",
+    "lat": 45.546098,
+    "lon": 6.7561149,
+    "km": 156.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de l'École des Mines, 73210 Peisey-Nancroix",
+    "src": "https://www.openstreetmap.org/node/14097432469",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/14097432469"
+   ],
+   "extrait": "name=La Peiserote ; craft=brewery ; adresse=Rue de l'École des Mines, 73210 Peisey-Nancroix",
+   "choix": "Fiche la plus proche : Brasserie du Merle, à 58,9 km."
+  },
+  {
+   "fiche": {
+    "n": "Les Névés",
+    "c": "Bourg-Saint-Maurice",
+    "d": "73",
+    "lat": 45.6115256,
+    "lon": 6.7692862,
+    "km": 156.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice",
+    "src": "https://www.openstreetmap.org/node/9511111887",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9511111887"
+   ],
+   "extrait": "name=Les Névés ; craft=brewery ; adresse=84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice",
+   "choix": "Même adresse que le n° 111 (« Brasserie du Petit st Bernard ») : un seul lieu ? Fiche la plus proche : Brasserie du Merle, à 60,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Petit st Bernard",
+    "c": "Bourg-Saint-Maurice",
+    "d": "73",
+    "lat": 45.6116191,
+    "lon": 6.7693161,
+    "km": 156.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice",
+    "src": "https://www.openstreetmap.org/node/11084024884",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/11084024884"
+   ],
+   "extrait": "name=Brasserie du Petit st Bernard ; craft=brewery ; adresse=84 Rue de l'Edelweiss, 73700 Bourg-Saint-Maurice ; website=https://brasseriepsb.com/fr/",
+   "choix": "Même adresse que le n° 110 (« Les Névés ») : un seul lieu ? Fiche la plus proche : Brasserie du Merle, à 60,1 km."
+  },
+  {
+   "fiche": {
+    "n": "L'Artense",
+    "c": "Saint-Sauves-d'Auvergne",
+    "d": "63",
+    "lat": 45.6089302,
+    "lon": 2.6950984,
+    "km": 160.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de Clermont-Ferrand, 63950 Saint-Sauves-d'Auvergne",
+    "src": "https://www.openstreetmap.org/node/9934130694",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/9934130694"
+   ],
+   "extrait": "name=L'Artense ; craft=brewery ; adresse=Rue de Clermont-Ferrand, 63950 Saint-Sauves-d'Auvergne ; website=http://lartensebrasserie.fr",
+   "choix": "Fiche la plus proche : La Canaille, à 101,7 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de l'Etoile",
+    "c": "Buis-les-Baronnies",
+    "d": "26",
+    "lat": 44.2759722,
+    "lon": 5.2759856,
+    "km": 160.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Place du Quinconce, 26170 Buis-les-Baronnies",
+    "src": "https://www.openstreetmap.org/node/2118315994",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/2118315994"
+   ],
+   "extrait": "name=Brasserie de l'Etoile ; craft=brewery ; adresse=Place du Quinconce, 26170 Buis-les-Baronnies",
+   "choix": "Fiche la plus proche : Brasserie de la Pleine Lune, à 72,5 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale d'Oé",
+    "c": "Aussois",
+    "d": "73",
+    "lat": 45.2275704,
+    "lon": 6.7408647,
+    "km": 162.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "9 Rue de l'Artisanat, 73500 Aussois",
+    "src": "https://www.openstreetmap.org/node/7365991540",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/7365991540"
+   ],
+   "extrait": "name=Brasserie Artisanale d'Oé ; craft=brewery ; adresse=9 Rue de l'Artisanat, 73500 Aussois ; website=https://www.brasseriedoe.com/ ; opening_hours=Tu 18:00-19:00",
+   "choix": "Fiche la plus proche : Brasserie Grésiv'ale, à 64,2 km."
+  },
+  {
+   "fiche": {
+    "n": "L'hexagone",
+    "c": "Évian-les-Bains",
+    "d": "74",
+    "lat": 46.4002946,
+    "lon": 6.5866376,
+    "km": 162.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue Marc Francina, 74500 Évian-les-Bains",
+    "src": "https://www.openstreetmap.org/way/66975401",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/66975401"
+   ],
+   "extrait": "name=L'hexagone ; craft=brewery ; adresse=Avenue Marc Francina, 74500 Évian-les-Bains ; amenity=pub ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=pub — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie 3B (Bassin Bellegardien), à 69,1 km."
+  },
+  {
+   "fiche": {
+    "n": "Stories",
+    "c": "Chamonix-Mont-Blanc",
+    "d": "74",
+    "lat": 45.9202288,
+    "lon": 6.8667212,
+    "km": 166,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Avenue Ravanel le Rouge, 74400 Chamonix-Mont-Blanc",
+    "src": "https://www.openstreetmap.org/node/12803724069",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12803724069"
+   ],
+   "extrait": "name=Stories ; craft=brewery ; adresse=Avenue Ravanel le Rouge, 74400 Chamonix-Mont-Blanc ; amenity=bar",
+   "choix": "OSM la décrit aussi comme : amenity=bar — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Caquot, à 74,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Micro Brasserie de Chamonix",
+    "c": "Chamonix-Mont-Blanc",
+    "d": "74",
+    "lat": 45.927335,
+    "lon": 6.875752,
+    "km": 166.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Route du Bouchet, 74400 Chamonix-Mont-Blanc",
+    "src": "https://www.openstreetmap.org/node/278074798",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/278074798"
+   ],
+   "extrait": "name=Micro Brasserie de Chamonix ; craft=brewery ; adresse=Route du Bouchet, 74400 Chamonix-Mont-Blanc ; amenity=pub ; microbrewery=yes",
+   "choix": "OSM la décrit aussi comme : amenity=pub — un café, un bar ou une enseigne ? Fiche la plus proche : Brasserie Caquot, à 75,2 km."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie 360",
+    "c": "Saint-Martin-Valmeroux",
+    "d": "15",
+    "lat": 45.1305481,
+    "lon": 2.4118908,
+    "km": 192.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue des Céréales, 15140 Saint-Martin-Valmeroux",
+    "src": "https://www.openstreetmap.org/way/927596016",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/way/927596016"
+   ],
+   "extrait": "name=Brasserie 360 ; craft=brewery ; adresse=Rue des Céréales, 15140 Saint-Martin-Valmeroux ; website=https://www.brasserie360.fr",
+   "choix": "Fiche la plus proche : Brasserie Vellavia, à 116,3 km."
+  },
+  {
+   "fiche": {
+    "n": "Les 3 caves",
+    "c": "Aurillac",
+    "d": "15",
+    "lat": 44.9125159,
+    "lon": 2.4438872,
+    "km": 199.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.",
+    "addr": "Rue de Lalue, 15000 Aurillac",
+    "src": "https://www.openstreetmap.org/node/12768455883",
+    "coordPrecision": "osm",
+    "beers": []
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.openstreetmap.org/node/12768455883"
+   ],
+   "extrait": "name=Les 3 caves ; craft=brewery ; adresse=Rue de Lalue, 15000 Aurillac",
+   "choix": "Fiche la plus proche : Brasserie Vellavia, à 114,9 km."
+  }
+ ]
+}

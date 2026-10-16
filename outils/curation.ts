@@ -67,10 +67,23 @@ function lot(chemin: string | undefined) {
   return { lot: l.lot, empreinte: empreinte(texte) }
 }
 
-/** « 1,3,4 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni espaces (revue code S11). */
-function numeros(texte: string | undefined): number[] {
-  if (texte === undefined || !/^\d+(,\d+)*$/.test(texte)) sortir('numéros acceptés attendus, ex. « 1,3,4 »', 2)
-  return texte.split(',').map(Number)
+/**
+ * « 1,3,4 » ou « 1-12,15 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni
+ * espaces (revue code S11) ; une plage va du plus petit au plus grand (S14 :
+ * un lot de découverte compte des dizaines de fiches).
+ */
+function numeros(texte: string | undefined, total: number): number[] {
+  const morceau = '\\d+(?:-\\d+)?'
+  if (texte === undefined || !new RegExp(`^${morceau}(?:,${morceau})*$`).test(texte)) {
+    sortir('numéros acceptés attendus, ex. « 1,3,4 » ou « 1-12,15 »', 2)
+  }
+  return texte.split(',').flatMap((m) => {
+    const [debut = 0, fin = debut] = m.split('-').map(Number)
+    if (fin < debut) sortir(`plage à l'envers : « ${m} »`, 2)
+    // Bornée au lot : « 1-999999999 » saturait la mémoire (revue code S14).
+    if (fin > total) sortir(`« ${m} » dépasse le lot, qui compte ${String(total)} numéros`, 2)
+    return Array.from({ length: fin - debut + 1 }, (_, i) => debut + i)
+  })
 }
 
 async function controler(chemin: string | undefined) {
@@ -96,6 +109,14 @@ async function controler(chemin: string | undefined) {
       console.log(`${String(i + 1)}. ${p.n} — ${tel} sur ${source} : ${trouve ? 'trouvé' : 'ABSENT'}`)
       if (!trouve) echecs++
     }
+  }
+  // Tout accepter doit passer : sinon « controler » rassurait quand
+  // « appliquer 1-131 » échouait (revue métier S14).
+  const total = l.propositions.length + (l.ajouts ?? []).length
+  const tout = appliquerLot(donnees(), l, new Set(Array.from({ length: total }, (_, i) => i + 1)))
+  if (!tout.ok) {
+    console.log(`Tout accepter échouerait :\n${tout.erreurs.join('\n')}`)
+    echecs += tout.erreurs.length
   }
   sortir(echecs === 0 ? 'Contrôle sans écart.' : `${String(echecs)} écart(s) : à revoir avant de présenter le lot.`, echecs === 0 ? 0 : 1)
 }
@@ -137,7 +158,7 @@ if (commande === 'lot') {
   await controler(args[0])
 } else if (commande === 'appliquer') {
   const { lot: l, empreinte: e } = lot(args[0])
-  const acceptes = numeros(args[1])
+  const acceptes = numeros(args[1], l.propositions.length + (l.ajouts ?? []).length)
   // Tout argument en trop est une erreur : « 1 3 » n'appliquait que la 1 (revue S12).
   const options = args.slice(2)
   const ecrire = options[0] === '--ecrire' && options.length <= 2
