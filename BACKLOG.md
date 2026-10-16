@@ -132,6 +132,12 @@ chacun demande une décision ou une vérification de source.
     la note « site bloqué » est à revoir), Graine 2 Bulles (403), Casino de
     Montrond (403), page « Où nous trouver » de Brasserie de la Loire.
 
+- Liste : la confiance (élevée, moyenne, faible) n'apparaît que dans la
+  fiche dépliée ; sur la ligne, le badge et le filtre de catégorie sont les
+  mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
+- Horaires : le schéma n'a pas de saisons ; les horaires d'été des
+  Ursulines sont dans la remarque (lot S13).
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

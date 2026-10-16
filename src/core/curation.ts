@@ -322,3 +322,49 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
   return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
 }
+
+/**
+ * Les fiches déjà revues, d'après les fichiers de `curation/` : le champ
+ * `revues` de chaque lot (ou, à défaut, ses propositions) et
+ * `curation/revues.json` ({ "<lot>": [noms…] }, clés « _… » ignorées) pour
+ * les lots d'avant ce champ. **Échoue en nommant le fichier** sur un contenu
+ * mal formé ou un nom absent des données : ignorer sans bruit faisait
+ * revenir une fiche au lot suivant (revue code S13).
+ */
+export function revuesDesFichiers(
+  fichiers: readonly { nom: string; contenu: unknown }[],
+  noms: ReadonlySet<string>,
+): { ok: true; revues: Set<string> } | { ok: false; erreurs: string[] } {
+  const revues = new Set<string>()
+  const erreurs: string[] = []
+  const listeDeNoms = z.array(z.string().min(1))
+  const ajouter = (fichier: string, liste: readonly string[]) => {
+    for (const n of liste) {
+      if (noms.has(n)) revues.add(n)
+      else erreurs.push(`${fichier} : « ${n} » n'est pas une fiche de data/`)
+    }
+  }
+  for (const { nom, contenu } of fichiers) {
+    if (nom === 'revues.json') {
+      const r = z.record(z.string(), z.unknown()).safeParse(contenu)
+      if (!r.success) {
+        erreurs.push(`${nom} : objet { "<lot>": [noms…] } attendu`)
+        continue
+      }
+      for (const [cle, valeur] of Object.entries(r.data)) {
+        if (cle.startsWith('_')) continue
+        const l = listeDeNoms.safeParse(valeur)
+        if (l.success) ajouter(nom, l.data)
+        else erreurs.push(`${nom} : « ${cle} » n'est pas une liste de noms`)
+      }
+      continue
+    }
+    const l = lotSchema.safeParse(contenu)
+    if (!l.success) {
+      erreurs.push(`${nom} : lot invalide (${l.error.issues.map((i) => i.message).join(' ; ')})`)
+      continue
+    }
+    ajouter(nom, l.data.revues ?? l.data.propositions.map((p) => p.n))
+  }
+  return erreurs.length > 0 ? { ok: false, erreurs } : { ok: true, revues }
+}

@@ -37,6 +37,7 @@ import {
   lireLot,
   lotSuivant,
   numeroSurLaPage,
+  revuesDesFichiers,
 } from '../src/core/curation'
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
@@ -101,28 +102,31 @@ async function controler(chemin: string | undefined) {
 
 const [commande, ...args] = process.argv.slice(2)
 
-/** Les fiches déjà revues par les lots de `curation/`, avec ou sans proposition. */
-function dejaRevues(): Set<string> {
-  const noms = new Set<string>()
+/** Les fiches déjà revues par les lots de `curation/` ; échoue en nommant le fichier fautif. */
+function dejaRevues(brasseries: readonly { n: string }[]): Set<string> {
   let fichiers: string[]
   try {
     fichiers = readdirSync('curation').filter((f) => f.endsWith('.json'))
   } catch {
-    return noms
+    return new Set()
   }
-  for (const f of fichiers) {
-    const brut = JSON.parse(readFileSync(`curation/${f}`, 'utf8')) as Record<string, unknown>
-    // curation/revues.json : { "<lot>": [noms…] } pour les lots d'avant le champ « revues ».
-    const listes = f === 'revues.json' ? Object.values(brut) : [brut.revues, (brut.propositions as { n: string }[] | undefined)?.map((p) => p.n)]
-    for (const l of listes) if (Array.isArray(l)) for (const n of l) if (typeof n === 'string') noms.add(n)
-  }
-  return noms
+  const lus = fichiers.map((nom) => {
+    try {
+      return { nom, contenu: JSON.parse(readFileSync(`curation/${nom}`, 'utf8')) as unknown }
+    } catch (e) {
+      return sortir(`curation/${nom} : JSON illisible (${String(e)})`, 1)
+    }
+  })
+  const r = revuesDesFichiers(lus, new Set(brasseries.map((b) => b.n)))
+  if (!r.ok) sortir(`fiches déjà revues illisibles :\n${r.erreurs.join('\n')}`, 1)
+  return r.revues
 }
 
 if (commande === 'lot') {
   const taille = Number(args[0] ?? '25')
   if (!Number.isInteger(taille) || taille < 1) sortir('taille entière attendue', 2)
-  sortir(lotSuivant(donnees(), taille, BRIGNAIS, dejaRevues()).join('\n'), 0)
+  const d = donnees()
+  sortir(lotSuivant(d, taille, BRIGNAIS, dejaRevues(d)).join('\n'), 0)
 } else if (commande === 'signalement') {
   const n = ficheDuSignalement(args[0] ?? '', donnees())
   sortir(n ?? 'aucune fiche : titre retouché ou fiche inconnue, à rattacher à la main', n === null ? 1 : 0)

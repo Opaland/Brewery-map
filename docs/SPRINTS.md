@@ -32,7 +32,7 @@ durée se relève sur l'horodatage des commits.
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
 | S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
-| S13 | 300 k | — | en cours | en cours |
+| S13 | 300 k | — | agents 157 k + revues 78 k | lot prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -755,16 +755,43 @@ sprints avec revue + revue globale »).
    - **Reste** : le rendu exact de la fiche (badge, titres) n'est pas encore
      dans le diff (BACKLOG).
 
-## S13 — Curation, lot 2 *(en cours)*
+## S13 — Curation, lot 2 *(terminé le 16/10 — lot en attente de Cédric)*
 
 1. **Objectif.** Les 25 « À confirmer » suivants, en propositions.
 2. **Vu avant de lancer.** `lot 25` aurait rendu les **mêmes** 25 fiches
    qu'en S12 : une fiche revue sans proposition ne laisse aucune trace dans
    `data/`. Corrigé : champ `revues` d'un lot (il contient les fiches
    proposées, testé) et `curation/revues.json` pour S12, dont le fichier
-   n'est pas touché (son empreinte est celle que Cédric lit). Il reste 76
-   « À confirmer » jamais revus.
+   n'est pas touché (son empreinte est celle que Cédric lit). Après S12 et
+   S13, il reste **51** « À confirmer » jamais revus (101 − 50, mesuré).
 3. **Persona juge.** Marie : ce qu'une proposition ferait afficher se
    comprend-il sans le vocabulaire du milieu ?
-4. **État final et restes.** *(à la clôture)*
+4. **Résultat du lot** (`curation/s13-lot-2`, empreinte `eefa6ea1e0d6`) : 25
+   fiches revues par cinq agents (157 k), **3 propositions** — L'Affoleuse
+   (catégorie 1 moyenne, téléphone, vendredi 15h–19h30), Brasserie des
+   Ursulines (catégorie 1 moyenne, téléphone, horaires hors été et été en
+   remarque), La Mousse du Guiers (catégorie 1 **faible**, mobile, horaires
+   de la brasserie dans la note). 22 fiches sans proposition ; pistes et
+   fiches à déplacer au BACKLOG. Chaque extrait relu mot pour mot sur la
+   page brute ; `controler` sans écart.
+5. **État final et restes.** Revues faites (métier Marie 41 k, code 37 k),
+   corrections appliquées le 16/10. **Lot en attente de Cédric** ; `data/`
+   inchangé.
+   - **Revue métier (Marie)** — corrigé : « en semaine » disait lundi à
+     vendredi alors que le vendredi est ouvert (« du lundi au jeudi ») ; la
+     remarque dit « pas d'ouverture sans rendez-vous » ; Ursulines sans
+     horaire ni téléphone alors que le site les publie (page « Horaire » et
+     page Contact lues, proposées) ; La Mousse du Guiers : source indirecte
+     → confiance **faible** (définition de `DONNEES.md`), et la note ne
+     promet plus des horaires qu'elle ne donne pas.
+   - **Revue code** — corrigé : la page Contact de La Mousse du Guiers
+     publie des horaires que la proposition disait absents (dans la note,
+     nature non dite) ; le test du champ `revues` survivait à `every` →
+     `some` (cas à deux propositions, vu rouge) ; la lecture des fiches
+     déjà revues ignorait un contenu mal formé et un nom mal écrit :
+     `revuesDesFichiers` (cœur, testée, vue rouge) échoue en nommant le
+     fichier.
+   - **Reste** (décision de Cédric) : sur la liste, un badge de confiance
+     faible ou moyenne ressemble à un badge élevé — la réserve n'est que
+     dans la fiche dépliée (revue métier S13, BACKLOG).
 

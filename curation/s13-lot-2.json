@@ -6,7 +6,7 @@
    "changements": {
     "cat": 1,
     "conf": "moyenne",
-    "note": "Le site cite une « vente à la ferme / bar guinguette » ouverte le vendredi de 15h à 19h30 ; les produits vendus ne sont pas détaillés. Visites en semaine sur rendez-vous.",
+    "note": "Le site cite une « vente à la ferme / bar guinguette » ouverte le vendredi de 15h à 19h30 ; les produits vendus ne sont pas détaillés. Du lundi au jeudi, seulement sur rendez-vous.",
     "src": "https://laffoleuse.net/",
     "contact": {
      "tel": "04 74 62 86 05",
@@ -23,7 +23,7 @@
         "19:30"
        ]
       ],
-      "remarque": "Du lundi au jeudi (8h-17h) : visites sur rendez-vous, en téléphonant avant.",
+      "remarque": "Du lundi au jeudi : pas d'ouverture sans rendez-vous (téléphoner avant, entre 8h et 17h). Le week-end : la source n'en dit rien.",
       "source": "https://laffoleuse.net/",
       "verifieLe": "2026-10-16"
      }
@@ -41,42 +41,85 @@
    "changements": {
     "cat": 1,
     "conf": "moyenne",
-    "note": "Le site de la brasserie dit qu'on peut acheter des bouteilles à emporter ou des fûts, et déguster sur place les bières de la brasserie. Horaires non lus.",
+    "note": "Le site de la brasserie dit qu'on peut acheter des bouteilles à emporter ou des fûts, et déguster sur place les bières de la brasserie. Le lundi (et le mardi hors été), vente à emporter seulement.",
     "src": "https://www.biere-les-ursulines.com/",
     "contact": {
+     "tel": "04 74 83 60 35",
      "site": "https://www.biere-les-ursulines.com/",
-     "source": "https://www.biere-les-ursulines.com/",
+     "source": "https://biere-les-ursulines.com/contact/",
      "verifieLe": "2026-10-16"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [],
+      "mar": [],
+      "mer": [
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "19:30"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "20:00"
+       ]
+      ],
+      "dim": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Horaires hors été (mi-septembre à mi-juin). L'été : mardi 16h–19h, mercredi 16h–19h30, jeudi 16h–21h, vendredi 15h–21h, samedi 10h–13h et 15h–21h, dimanche 15h–19h30. Le lundi toute l'année, et le mardi hors été : vente à emporter seulement, heures non précisées. Plus tard les soirs d'animation.",
+      "source": "https://biere-les-ursulines.com/horaire/",
+      "verifieLe": "2026-10-16"
+     }
+    ]
    },
    "verifieLe": "2026-10-16",
    "sources": [
-    "https://www.biere-les-ursulines.com/"
+    "https://www.biere-les-ursulines.com/",
+    "https://biere-les-ursulines.com/horaire/",
+    "https://biere-les-ursulines.com/contact/"
    ],
-   "extrait": "« acheter des bouteilles à emporter ou des fûts de bières de notre fabrication » ; « déguster et savourer sur place les bières de notre fabrication » ; « 4 côte chausson – 38460 Crémieu »",
-   "choix": "Confiance moyenne et non solide : aucun horaire lu (la page Horaires du site n'a pas été ouverte). Aucun téléphone sur l'accueil, donc aucun proposé. La mention « contacter avant de venir (accès étroit) » de l'ancienne note n'a pas été retrouvée sur le site officiel : retirée. Pas d'Untappd trouvé. Extrait relu mot pour mot sur la page brute."
+   "extrait": "Accueil : « acheter des bouteilles à emporter ou des fûts de bières de notre fabrication » ; « déguster et savourer sur place les bières de notre fabrication ». Page Horaire : « ETE (mi juin mi sept) Reste de l'année Lundi Vente à emporter uniquement Vente à emporter uniquement Mardi 16h – 19h Vente à emporter uniquement Mercredi 16h – 19h30 16h – 18h30 Jeudi 16h – 21h 16h – 19h30 Vendredi 15h – 21h * 16h – 19h30 * Samedi 10h – 13h & 15h – 21h * 15h – 20h * Dimanche 15h – 19h30 15h – 19h * Plus tard pour les animations ». Page Contact : « Par Téléphone : 04 74 83 60 35 (rép. 24H/24) ».",
+   "choix": "Horaires : le schéma n'a qu'un bloc par nature et pas de saisons ; la colonne « reste de l'année » (saison actuelle) est en créneaux, l'été dans la remarque. Lundi et mardi (hors été) mis « fermé » pour l'accueil parce que la page n'y offre que la vente à emporter, sans heures : jugement à valider. Les astérisques de la page (vendredi à dimanche) ne sont pas expliqués, sauf « plus tard pour les animations ». Confiance moyenne : la source est la brasserie, mais la consommation n'est décrite que par « déguster et savourer sur place ». La mention « contacter avant de venir (accès étroit) » de l'ancienne note n'a pas été retrouvée sur le site : retirée. Pages Horaire et Contact relues sur la page brute (revue métier S13)."
   },
   {
    "n": "La Mousse du Guiers",
    "changements": {
     "cat": 1,
-    "conf": "moyenne",
-    "note": "Fiche de l'office de tourisme (Savoie Mont Blanc) : vente sur place, boutique, dégustation individuelle gratuite, visites sur demande. Horaires donnés par cette fiche sans dire s'ils valent pour l'accueil ou pour la vente.",
+    "conf": "faible",
+    "note": "Selon la fiche de l'office de tourisme (en anglais, mise à jour en 2024) : vente sur place, boutique et dégustation gratuite, sans visite guidée. Le site de la brasserie donne 10h–12h et 14h–19h sauf le dimanche, et conseille de téléphoner avant pour s'assurer qu'elle est présente.",
     "src": "https://savoie-mont-blanc.com/en/local-produces/microbrewery-la-mousse-du-guiers-5023674",
     "contact": {
      "tel": "06 88 18 49 16",
      "site": "https://brasserie-du-guiers.jimdoweb.com/",
-     "source": "https://brasserie-du-guiers.jimdoweb.com/",
+     "source": "https://brasserie-du-guiers.jimdoweb.com/contact/",
      "verifieLe": "2026-10-16"
     }
    },
    "verifieLe": "2026-10-16",
    "sources": [
     "https://savoie-mont-blanc.com/en/local-produces/microbrewery-la-mousse-du-guiers-5023674",
-    "https://brasserie-du-guiers.jimdoweb.com/"
+    "https://brasserie-du-guiers.jimdoweb.com/contact/"
    ],
-   "extrait": "Savoie Mont Blanc : « Sales on site », « Shop », « Sale on the markets », « Individual tasting (free of charge) », « Unguided individual tours on request ». Site de la brasserie, rubrique Contact : « La Mousse du Guiers … 41-51 rue du 8 Mai 1945, Place des Tilleuls, 73240 Saint Genix Sur Guiers … 06 88 18 49 16 ».",
-   "choix": "Confiance moyenne et non solide : la catégorie repose sur une fiche d'office de tourisme (indirecte, mise à jour en 2024), le site de la brasserie ne parle ni de vente ni de dégustation. « Consommer sur place » est lu dans une dégustation individuelle gratuite : à juger. Téléphone : seul numéro publié par la brasserie, un mobile, sans dire à quoi il sert ; à refuser si l'on préfère. Horaires de l'office (« daily 10 am-12 pm, 2 pm-7 pm ») écartés : nature non dite. Le site « la-mousse-du-guiers.fr » cité par l'office n'a pas été ouvert. Extraits relus sur les pages brutes."
+   "extrait": "Savoie Mont Blanc : « Sales on site », « Shop », « Sale on the markets », « Individual tasting (free of charge) », « Unguided individual tours on request ». Site de la brasserie, page Contact : « Téléphone: 06 88 18 49 16 Horaires : 10h-12h / 14h-19h sauf le Dimanche En cas d'absence nous téléphoner ou prendre RDV. Il est préférable de s'assurer par téléphone que nous sommes présents. »",
+   "choix": "Catégorie 1 par la définition de DONNEES.md (« vente et consommation sur place » ; une dégustation ouverte compte), en confiance FAIBLE : la vente et la dégustation ne sont lues que sur une fiche d'office de tourisme, indirecte (revues S13). Les horaires de la page Contact de la brasserie ne disent pas s'ils valent pour l'accueil ou la vente, et invitent à téléphoner avant : mis dans la note, pas en créneaux. Le téléphone est celui que la page Contact donne pour s'assurer de la présence de la brasserie. Le site « la-mousse-du-guiers.fr » cité par l'office n'a pas été ouvert. Pages relues brutes."
   }
  ],
  "revues": [

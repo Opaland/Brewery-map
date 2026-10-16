@@ -8,6 +8,7 @@ import {
   lireLot,
   lotSuivant,
   numeroSurLaPage,
+  revuesDesFichiers,
   type Lot,
 } from '../../src/core/curation'
 import { BRIGNAIS } from '../../src/core/distance'
@@ -255,6 +256,11 @@ describe('le lot suivant', () => {
   it('un lot dit toutes les fiches revues, et elles contiennent celles qu’il propose', () => {
     expect(lireLot({ ...lot, revues: [NOM, 'Autre'] }, AUJOURDHUI).ok).toBe(true)
     expect(lireLot({ ...lot, revues: ['Autre'] }, AUJOURDHUI).ok).toBe(false)
+    // Deux propositions, une seule dans « revues » : refusé (revue code S13,
+    // « every » remplacé par « some » survivait).
+    const deux = { lot: 'x', propositions: [proposition, { ...proposition, n: 'Autre' }] }
+    expect(lireLot({ ...deux, revues: [NOM] }, AUJOURDHUI).ok).toBe(false)
+    expect(lireLot({ ...deux, revues: [NOM, 'Autre'] }, AUJOURDHUI).ok).toBe(true)
   })
 
   it('coupe à la taille demandée', () => {
@@ -316,5 +322,42 @@ describe('un numéro proposé se lit sur sa source (revue code S11)', () => {
   it('ne le trouve pas s’il n’y est pas, même à un chiffre près', () => {
     expect(numeroSurLaPage('04 72 50 88 53', 'Foodtruck : 04 70 50 88 53')).toBe(false)
     expect(numeroSurLaPage('04 72 50 88 53', '')).toBe(false)
+  })
+})
+
+describe('les fiches déjà revues, lues dans curation/ (revue code S13)', () => {
+  const noms = new Set(TOUTES.map((b) => b.n))
+  const lotJson = { lot: 'x', propositions: [proposition], revues: [NOM, TOUTES[0].n] }
+
+  it('réunit les « revues » des lots et de revues.json', () => {
+    const r = revuesDesFichiers(
+      [
+        { nom: 'a.json', contenu: lotJson },
+        { nom: 'revues.json', contenu: { '_lisez-moi': 'texte', s12: [TOUTES[1].n] } },
+      ],
+      noms,
+    )
+    expect(r.ok && [...r.revues].sort()).toEqual([NOM, TOUTES[0].n, TOUTES[1].n].sort())
+  })
+
+  it('un lot sans « revues » compte ses propositions', () => {
+    const r = revuesDesFichiers([{ nom: 'a.json', contenu: { lot: 'x', propositions: [proposition] } }], noms)
+    expect(r.ok && [...r.revues]).toEqual([NOM])
+  })
+
+  it('échoue en nommant le fichier : contenu mal formé, ou nom absent des données', () => {
+    const cas: unknown[] = [
+      { 'revues.json': { s12: 'oops' } },
+      { 'a.json': { ...lotJson, revues: 'une chaîne' } },
+      { 'a.json': null },
+      { 'revues.json': { s12: ['Brasserie qui n’existe pas'] } },
+      { 'a.json': { ...lotJson, revues: [NOM, 'Faute de frappe'] } },
+    ]
+    for (const c of cas) {
+      const [nom, contenu] = Object.entries(c as Record<string, unknown>)[0] ?? ['', null]
+      const r = revuesDesFichiers([{ nom, contenu }], noms)
+      expect(r.ok).toBe(false)
+      expect(r.ok ? '' : r.erreurs.join('\n')).toContain(nom)
+    }
   })
 })
