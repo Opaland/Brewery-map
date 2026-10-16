@@ -26,6 +26,7 @@ const Carte = lazy(() => import('./Carte'))
 
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
+const NB_RENSEIGNEES = BRASSERIES.filter((b) => b.beers.length > 0).length
 const COMMUNES = communesConnues(BRASSERIES)
 const NOMS = new Set(BRASSERIES.map((b) => b.n))
 
@@ -251,7 +252,13 @@ export function App({ stockage }: { stockage: Stockage }) {
           ))}
         </fieldset>
 
-        <FiltreType nbParType={NB_PAR_TYPE} valeur={type} onChange={setType} />
+        <FiltreType
+          nbParType={NB_PAR_TYPE}
+          nbRenseignees={NB_RENSEIGNEES}
+          nbFiches={BRASSERIES.length}
+          valeur={type}
+          onChange={setType}
+        />
 
         <MesFavoris
           nbFavoris={nbFavorisConnus}

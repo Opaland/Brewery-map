@@ -12,6 +12,8 @@ const rendu = (n: [TypeDeBiere, number][]) =>
   renderToStaticMarkup(
     createElement(FiltreType, {
       nbParType: new Map(n),
+      nbRenseignees: 4,
+      nbFiches: 166,
       valeur: undefined,
       onChange: () => undefined,
     }),
@@ -24,16 +26,18 @@ describe('le filtre par type', () => {
     expect(html).not.toContain('<select')
   })
 
-  it('rempli : seulement les types présents, avec un total dit comme tel', () => {
+  it('rempli : seulement les types présents, comptés en fiches renseignées (revue métier S16)', () => {
     const html = rendu([
       ['ipa', 3],
       ['stout', 1],
       ['blonde', 0],
     ])
     expect(html).toMatch(/<option value=""[^>]*>Tous les types<\/option>/)
-    expect(html).toContain('IPA — très houblonnée, souvent amère (3 brasseries au total)')
-    expect(html).toContain('Stout — noire, café et chocolat (1 brasserie au total)')
+    expect(html).toContain('IPA — très houblonnée, souvent amère (3 fiches renseignées)')
+    expect(html).toContain('Stout — noire, café et chocolat (1 fiche renseignée)')
     expect(html).not.toContain('value="blonde"')
+    expect(html).toContain('Bières renseignées sur 4 fiches sur 166')
+    expect(html).not.toContain('au total')
   })
 })
 

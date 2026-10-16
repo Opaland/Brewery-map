@@ -38,4 +38,20 @@ describe('les bières de la fiche', () => {
     expect(html).toContain('Stout <span class="fiche-aide-inline">(non référencé)</span>')
     expect(html).not.toContain('href')
   })
+
+  it('une bière nommée montre aussi son type, sauf « autre » (revue métier S16, Karim)', () => {
+    const html = rendu({
+      ...base,
+      beers: [
+        { type: 'blonde', libelle: 'Cluny 4' },
+        { type: 'autre', libelle: 'Baye (rouge)' },
+      ],
+    })
+    expect(html).toContain(
+      'Cluny 4 · Blonde <span class="fiche-aide-inline">(non référencé)</span>',
+    )
+    expect(html).toContain(' — claire et légère')
+    expect(html).toContain('Baye (rouge) <span class="fiche-aide-inline">(non référencé)</span>')
+    expect(html).not.toContain('Baye (rouge) · ')
+  })
 })
