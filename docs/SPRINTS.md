@@ -38,6 +38,7 @@ durée se relève sur l'horodatage des commits.
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
 | S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
 | S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
+| S19 | 180 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -1058,3 +1059,23 @@ sprints avec revue + revue globale »).
      de téléphone : données, pas code, CLAUDE.md §10) ; aucun lecteur
      d'écran réel n'a servi — longueur du nom des lignes, « ≈ », annonces à
      chaque frappe : à écouter avec une vraie personne.
+
+## S19 — « Y aller » et « ouvert maintenant » *(en cours)*
+
+1. **Objectif.** Le critère de Hugo : savoir si c'est ouvert maintenant, et
+   lancer l'itinéraire sans que sa position parte ailleurs que dans
+   l'application de navigation qu'il choisit.
+2. **Périmètre.**
+   - `src/core/itineraire.ts` : la destination est l'adresse écrite quand
+     elle porte un code postal (94 fiches sur 166), sinon le point de la
+     commune (les 166 positions sont des centres de commune) — et la fiche le
+     dit. Quatre liens : Google Maps, Plans (Apple), Waze, `geo:` (Android).
+     Le test énumère les paramètres permis de chaque lien : aucun départ ne
+     peut s'y glisser ; en e2e, les liens sont identiques avec ou sans
+     « autour de moi » (vu rouge sur un paramètre ajouté).
+   - `ouvertMaintenant` : à l'heure de Paris, créneaux qui passent minuit,
+     « sous réserve » si une remarque nuance, « inconnu » quand la source ne
+     dit rien du jour. Affiché dans les horaires, d'après les créneaux
+     publiés seulement.
+3. **Persona juge.** Hugo.
+4. **État final et restes.** *(à la clôture)*

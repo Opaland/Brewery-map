@@ -15,6 +15,7 @@ import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalem
 import { Bieres } from './Bieres'
 import { Contact } from './Contact'
 import { Horaires } from './Horaires'
+import { YAller } from './YAller'
 import { mouvementReduit } from './mouvement'
 
 interface Props {
@@ -62,6 +63,7 @@ function Fiche({
         </button>
       </div>
       <Contact brasserie={brasserie} />
+      <YAller brasserie={brasserie} />
       <Horaires brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
       <dl>

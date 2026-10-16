@@ -32,6 +32,7 @@
     "src/Bieres.tsx",
     "src/FiltreType.tsx",
     "src/Horaires.tsx",
+    "src/YAller.tsx",
     "tests"
   ]
 }

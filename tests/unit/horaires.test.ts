@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { formaterCreneaux, JOURS, ouvertLe } from '../../src/core/horaires'
+import { formaterCreneaux, JOURS, ouvertLe, ouvertMaintenant, type Horaires } from '../../src/core/horaires'
 import { validerBrasseries, type Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -96,5 +96,58 @@ describe('formaterCreneaux', () => {
 
   it('les sept jours, du lundi au dimanche', () => {
     expect(JOURS.map((j) => j.cle)).toEqual(['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'])
+  })
+})
+
+/**
+ * « Ouvert maintenant » (S19, Hugo), à l'heure de Paris, quel que soit le
+ * fuseau du téléphone. Les instants sont écrits en UTC : samedi 17/10/2026
+ * à 18 h à Paris = 16:00Z (heure d'été) ; samedi 19/12/2026 à 18 h = 17:00Z.
+ */
+describe('ouvertMaintenant', () => {
+  const h = [accueil] as unknown as Horaires
+  const a = (iso: string) => new Date(iso)
+
+  it('ouvert, avec l’heure de fermeture du créneau en cours', () => {
+    expect(ouvertMaintenant(h, a('2026-10-17T16:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '22:00' })
+  })
+
+  it('à l’heure de Paris, en été comme en hiver', () => {
+    // 21:30Z = 23 h 30 à Paris en octobre (fermé), 22 h 30 en décembre (fermé aussi) ;
+    // 20:30Z = 22 h 30 en octobre (fermé), 21 h 30 en décembre (ouvert).
+    expect(ouvertMaintenant(h, a('2026-10-17T20:30:00Z')).etat).toBe('ferme')
+    expect(ouvertMaintenant(h, a('2026-12-19T20:30:00Z'))).toEqual({ etat: 'ouvert', jusqua: '22:00' })
+  })
+
+  it('fermé un jour sans créneau, inconnu un jour que la source ne dit pas', () => {
+    expect(ouvertMaintenant(h, a('2026-10-18T12:00:00Z')).etat).toBe('ferme')
+    expect(ouvertMaintenant(h, a('2026-10-19T12:00:00Z')).etat).toBe('inconnu')
+    expect(ouvertMaintenant(undefined, a('2026-10-17T16:00:00Z')).etat).toBe('inconnu')
+  })
+
+  it('un créneau qui passe minuit couvre le début du jour suivant', () => {
+    const nuit = [{ ...accueil, sam: [['20:00', '02:00']], dim: [] }] as unknown as Horaires
+    // Dimanche 18/10 à 1 h à Paris = samedi 17/10 à 23:00Z.
+    expect(ouvertMaintenant(nuit, a('2026-10-17T23:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '02:00' })
+    expect(ouvertMaintenant(nuit, a('2026-10-18T01:00:00Z')).etat).toBe('ferme')
+  })
+
+  it('« sous réserve » quand une remarque accompagne les horaires (saison, rendez-vous)', () => {
+    const saison = [{ ...accueil, remarque: 'En juillet et août seulement' }] as unknown as Horaires
+    expect(ouvertMaintenant(saison, a('2026-10-17T16:00:00Z'))).toEqual({
+      etat: 'sous-reserve',
+      jusqua: '22:00',
+    })
+  })
+
+  it('« heures non précisées » ne dit pas si c’est ouvert à cette heure', () => {
+    const vague = [{ ...accueil, sam: 'heures-non-precisees' }] as unknown as Horaires
+    expect(ouvertMaintenant(vague, a('2026-10-17T16:00:00Z')).etat).toBe('inconnu')
+  })
+
+  it('lit la nature demandée, l’accueil par défaut', () => {
+    const vente = [{ ...accueil, nature: 'vente' }] as unknown as Horaires
+    expect(ouvertMaintenant(vente, a('2026-10-17T16:00:00Z')).etat).toBe('inconnu')
+    expect(ouvertMaintenant(vente, a('2026-10-17T16:00:00Z'), 'vente').etat).toBe('ouvert')
   })
 })
