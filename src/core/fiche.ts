@@ -45,9 +45,17 @@ export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
  * Affiché sous toute confiance : elle porte sur la catégorie, jamais sur les
  * horaires. La revue métier de S3 a montré qu’« élevée » pouvait être lu
  * comme « ouvert samedi, c’est sûr ».
+ *
+ * « Appelez » seulement si un numéro est connu, au contact ou cité dans la
+ * note : sinon la seule action proposée était impossible (revue métier S17,
+ * Bernard).
  */
-export const AVERTISSEMENT_HORAIRES =
-  'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.'
+export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): string {
+  const debut = 'La confiance ne garantit pas les horaires : lisez ce que dit la source'
+  return b.contact?.tel !== undefined || citeUnNumero(b.note)
+    ? `${debut}, et appelez en cas de doute.`
+    : `${debut}. Aucun téléphone n’est encore connu pour les vérifier.`
+}
 
 export function libellePrecision(precision: Brasserie['coordPrecision']): string {
   if (precision === 'commune') return 'approximative : centre de la commune, à environ 2 km près'

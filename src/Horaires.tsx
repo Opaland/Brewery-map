@@ -48,8 +48,8 @@ export function Horaires({ brasserie }: { brasserie: Brasserie }) {
   if (blocs === undefined) {
     return (
       <p className="fiche-horaires" data-testid="fiche-horaires">
-        Horaires : aucun horaire vérifié jour par jour. Seuls ceux cités dans « Ce que
-        dit la source », plus haut, sont connus.
+        Horaires : aucun horaire vérifié jour par jour. S’il y en a de connus, ils sont
+        cités dans « Ce que dit la source », plus haut.
       </p>
     )
   }

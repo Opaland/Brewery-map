@@ -49,7 +49,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     // lirait aussi l'aide).
     await expect(fiche.getByTestId('fiche-confiance')).toHaveText(/^élevée/)
     await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
-      'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.',
+      // Caribrew n'a aucun numéro connu : pas d'« appelez » (revue métier S17).
+      'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
     )
     await expect(fiche.getByTestId('fiche-precision')).toHaveText(
       'approximative : centre de la commune, à environ 2 km près',

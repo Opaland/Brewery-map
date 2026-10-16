@@ -1,0 +1,410 @@
+{
+ "lot": "s17-lot-4",
+ "propositions": [
+  {
+   "n": "La Grange du Seigneur",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "src": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+    "note": "Le site de la brasserie (Libertane) annonce « un point de vente sur place, ainsi qu'un bar (licence III) avec terrasse; ouverts toute l'année », mais ne donne des heures que pour juillet et août (du mardi au dimanche, 15h-19h) ; « tout le reste de l'année sur rendez-vous ». Page sans date ; la fiche de l'office de tourisme (mise à jour le 09/04/2024) dit la même chose.",
+    "contact": {
+     "tel": "06 36 48 24 35",
+     "site": "http://www.brasserie-libertane.fr/",
+     "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+     "verifieLe": "2026-10-16"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "dim": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "En juillet et août seulement ; le reste de l'année, sur rendez-vous. La page donne ces heures pour le point de vente et le bar ensemble.",
+      "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+      "verifieLe": "2026-10-16"
+     }
+    ],
+    "beers": [
+     {
+      "type": "lager",
+      "libelle": "Libertane Lager blonde",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-lager-blonde/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Libertane Blonde",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-blonde/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Libertane Ambrée",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambree/"
+     },
+     {
+      "type": "brune",
+      "libelle": "Libertane Brune",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-brune/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Envie de Printemps (au miel de châtaignier)",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/envie-de-printemps/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche d'été (à la fleur de sureau)",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/blanche-dete/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Libertane Ambrune Triple (triple)",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambrune-triple/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Libertane Dorée Triple (triple)",
+      "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-doree-triple/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-lager-blonde/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-blonde/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambree/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-brune/",
+    "http://www.brasserie-libertane.fr/nos-bieres/envie-de-printemps/",
+    "http://www.brasserie-libertane.fr/nos-bieres/blanche-dete/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambrune-triple/",
+    "http://www.brasserie-libertane.fr/nos-bieres/libertane-doree-triple/",
+    "https://geotrek.auvergnerhonealpes-tourisme.com/api/fr/touristiccontents/22142/la-grange-du-seigneur-brasserie-artisanale.pdf?portal=4"
+   ],
+   "extrait": "« Tél. 06 36 48 24 35 » ; « La brasserie de la Grange du Seigneur vous accueille toute l'année pour découvrir sa gamme de bières Libertane » ; « Nous vous proposons un point de vente sur place, ainsi qu'un bar (licence III) avec terrasse; ouverts toute l'année. En JUILLET et AOUT : Du mardi au dimanche de 15h00 à 19h00 » ; « Ouverture tout le reste de l'année sur rendez-vous. » ; « Bière de type lager : blonde de fermentation basse » ; « Libertane Blonde Bière blonde de fermentation haute » ; « Libertane Ambrée Bière ambrée de fermentation haute » ; « Libertane Brune Bière brune de fermentation haute » ; « Envie de Printemps Bière blonde de fermentation haute au miel de châtaignier » ; « Blanche d'été Bière blanche à la fleur de sureau » ; « Libertane Ambrune Triple Bière Triple gourmande et charpentée, elle présente la robe d'une brune mais ses arômes la rapprochent plutôt d'une ambrée » ; « Libertane Dorée Triple Une Triple chaleureuse et puissante, sa robe dorée » ; office de tourisme : « Fiche mise à jour par Rhône Crussol Tourisme le 09/04/2024 »",
+   "choix": "Refait après la revue du lot : le site de la brasserie, donné pour en panne au premier passage, répond ; il remplace la fiche de l'office comme source. Catégorie 1 (« point de vente sur place, ainsi qu'un bar ») en confiance moyenne et non élevée : « ouverts toute l'année » mais « le reste de l'année sur rendez-vous », et la page n'est pas datée — à toi de choisir élevée si cela te suffit. Horaires en « vente » : la page les donne pour le point de vente et le bar ensemble (dit dans la remarque). Téléphone : le seul que publie la brasserie, un mobile ; l'office donne aussi un fixe, 04 75 58 01 08, écarté. Les huit bières du site, chacune avec sa page : type tiré de la description ; la Lager blonde en « lager » (« Bière de type lager ») ; les deux triples en « autre » (Ambrune : robe brune, arômes d'ambrée ; Dorée : robe dorée)."
+  },
+  {
+   "n": "Brasserie du Mont Blanc",
+   "changements": {
+    "contact": {
+     "tel": "04 79 62 96 76",
+     "site": "https://www.brasserie-montblanc.com",
+     "source": "https://www.brasserie-montblanc.com/contact",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.brasserie-montblanc.com/contact"
+   ],
+   "extrait": "« Entreprise / Location de tireuse 04 79 62 23 99 » ; « Bar / Restaurant / Vente à emporter 04 79 62 96 76 128 Av. René Cassin 73290 La Motte-Servolex »",
+   "choix": "Deux numéros sur la page Contact : 04 79 62 23 99 (« Entreprise / Location de tireuse ») et 04 79 62 96 76 (« Bar / Restaurant / Vente à emporter », même adresse que la fiche). Le second est retenu : c'est celui du lieu ouvert aux clients. Horaires non proposés : « du lundi au vendredi de 10h00 à 22h00 » couvre ensemble bar, restaurant et vente à emporter. Catégorie laissée à 0 : la page ne dit pas que la bière de la brasserie s'y boit ou s'y vend ; à toi de dire si « Bar / Restaurant / Vente à emporter » à l'adresse de la brasserie suffit pour une catégorie 1. Bières : des noms sans description (Cristal, Blonde, Blanche…), rien n'est déduit."
+  },
+  {
+   "n": "Brasserie La Furieuse",
+   "changements": {
+    "contact": {
+     "site": "https://lafurieuse.com/",
+     "source": "https://www.grenoble-tourisme.com/en/catalog/detail/brasserie-la-furieuse-5579070/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.grenoble-tourisme.com/en/catalog/detail/brasserie-la-furieuse-5579070/"
+   ],
+   "extrait": "« Visit our website » (lien de la page vers https://lafurieuse.com/)",
+   "choix": "Site trouvé par le lien de la fiche de l'office de tourisme de Grenoble. Téléphone non retenu : « +33 4 76 26 11 64 » est publié par l'office, pas par la brasserie. Horaires non retenus : « Monday, Tuesday, Wednesday, Thursday and Friday between 9 am and 6 pm », sans dire accueil ou vente. Bières non proposées : pas de phrase de description relue."
+  },
+  {
+   "n": "La Marmotte Masquée",
+   "changements": {
+    "contact": {
+     "site": "https://lamarmottemasquee.fr",
+     "source": "https://www.chartreuse-tourisme.com/en/offers/brasserie-la-marmotte-masquee-saint-pierre-de-chartreuse-en-2715901/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.chartreuse-tourisme.com/en/offers/brasserie-la-marmotte-masquee-saint-pierre-de-chartreuse-en-2715901/"
+   ],
+   "extrait": "« lamarmottemasquee.fr » ; « Updated on 24 April 2026 at 15:12 »",
+   "choix": "Site donné par la fiche de l'office de tourisme de Chartreuse (mise à jour le 24/04/2026). Téléphones de l'office (deux mobiles) non retenus : publiés par l'office, pas par la brasserie. Horaires non retenus : « Monday to Friday, 09:00 to 17:00 » avec « Warning: Unsecured hours », sans dire accueil ou vente. Le site de la brasserie ne donne ni téléphone, ni horaires, ni liste de bières (gamme dite éphémère)."
+  },
+  {
+   "n": "P'tit Labo (Brasserie de Grenoble)",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "src": "https://www.grenoble-tourisme.com/en/catalog/detail/ptitlabo-6043800/",
+    "note": "L'office de tourisme de Grenoble décrit une « certified organic craft beer factory, selling its production on site in a bar/restaurant located at 46 rue d'Alembert », avec bière « on draught, in 75cl returnable bottles and kegs ». Page d'office de tourisme, sans site de la brasserie lu ni date affichée : confiance moyenne."
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.grenoble-tourisme.com/en/catalog/detail/ptitlabo-6043800/"
+   ],
+   "extrait": "« Le PTITLABO is a certified organic craft beer factory, selling its production on site in a bar/restaurant located at 46 rue d'Alembert » ; « Beers are sold on draught, in 75cl returnable bottles and kegs. »",
+   "choix": "Catégorie 1 en confiance moyenne : la vente sur place est écrite par l'office de tourisme de Grenoble (en anglais), pas par la brasserie, et la page n'est pas datée. Corrigé après la revue du lot : Privateaser, d'abord cité en appui, ne montre qu'une carte de bar (« Bouteille de bière 5,75 € ») sans dire que la bière est celle de la brasserie ; retiré des sources. Téléphone écarté : « +33 7 49 15 81 60 » est publié par l'office, pas par la brasserie. Horaires écartés : l'office ne dit pas accueil ou vente. Aucun type de bière lu."
+  },
+  {
+   "n": "Brasserie Caquot",
+   "changements": {
+    "contact": {
+     "tel": "09 82 32 88 71",
+     "site": "https://brasseriecaquot.fr/",
+     "source": "https://brasseriecaquot.fr/",
+     "verifieLe": "2026-10-16"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Bière à la verveine",
+      "url": "https://brasseriecaquot.fr/biere-a-la-verveine/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Bière blonde (Golden Ale)",
+      "url": "https://brasseriecaquot.fr/biere-blonde/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Bière blanche (Witbier)",
+      "url": "https://brasseriecaquot.fr/biere-blanche/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Bière Rousse IPA",
+      "url": "https://brasseriecaquot.fr/biere-rousse-ipa/"
+     },
+     {
+      "type": "lager",
+      "libelle": "FuzZzy (Indian Pale Lager)",
+      "url": "https://brasseriecaquot.fr/biere-de-lete-fuzzy/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Aix Riviera (bière de soif)",
+      "url": "https://brasseriecaquot.fr/biere-aix-riviera/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://brasseriecaquot.fr/",
+    "https://brasseriecaquot.fr/biere-a-la-verveine/",
+    "https://brasseriecaquot.fr/biere-blonde/",
+    "https://brasseriecaquot.fr/biere-blanche/",
+    "https://brasseriecaquot.fr/biere-rousse-ipa/",
+    "https://brasseriecaquot.fr/biere-de-lete-fuzzy/",
+    "https://brasseriecaquot.fr/biere-aix-riviera/"
+   ],
+   "extrait": "« Tel : 09 82 32 88 71 » ; verveine : « Type : Blonde » ; « Cette bière blonde aromatisée suggère des arômes mentholés et herbacés. » ; « Type : Golden Ale La bière blonde dorée de l’ours est la bière historique de la Brasserie Caquot. » ; « Type : Witbier La bière blanche de l’Ours se distingue des blanches traditionnelles par la couleur dorée de sa robe. » ; « Composée de 9 malts différents, elle révèle une amertume tout en rondeur » ; « le choix s’est porté sur une Lager » ; « cette Indian Pale Lager » ; Aix Riviera : « Type : Blonde » ; « cette bière de soif repose sur un assemblage léger de céréales et houblons. »",
+   "choix": "Les six bières du menu « Nos bières » du site, chacune avec sa page. Types : chaque page porte une ligne « Type : … » — « Blonde » pour la verveine et l'Aix Riviera, « Golden Ale » pour la blonde (« bière blonde dorée »), « Witbier » pour la blanche ; Rousse IPA en « ipa » par son nom (la page dit « bière rousse », pas un type du schéma) ; FuzZzy en « lager » (« une Lager », « Indian Pale Lager »), dite éphémère par sa page. Corrigé après la revue du lot : l'Aix Riviera avait été mise en « autre » à tort, sa page dit « Type : Blonde ». Téléphone : le seul du site, fixe. Catégorie laissée à 0 : le site parle de vente en ligne et de points de vente, pas de vente sur place. Pas d'Untappd lu."
+  },
+  {
+   "n": "Brasserie Dr D. Brewpub",
+   "changements": {
+    "src": "https://untappd.com/Drdbrewpub",
+    "note": "Fermée selon Untappd : la page de « Dr D. » (Grenoble, Brew Pub) dit « This brewery is no longer in business. », sans date. Aucune adresse, aucun horaire ni site officiel lu."
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://untappd.com/Drdbrewpub"
+   ],
+   "extrait": "« Dr D. Grenoble, Auvergne-Rhône-Alpes France Brew Pub » ; « This brewery is no longer in business. »",
+   "choix": "La page Untappd dit la brasserie fermée, sans date. Catégorie laissée à 0 : la fiche ne peut pas dire « fermée » (le schéma n'a pas ce statut) ; à toi de dire s'il faut la retirer du fichier, ce que les propositions ne savent pas faire."
+  },
+  {
+   "n": "Brasserie Maltobar",
+   "changements": {
+    "note": "Brassage arrêté selon le site de la brasserie (« Nous arrêtons pour le moment l'activité brassage de bière », « Nos équipements sont partis au pays basque »), sans date lue. La fiche de l'office de tourisme de Grenoble, non datée, donne encore une ouverture le mercredi et le vendredi de 15h à 19h : rien ne dit qu'elle soit à jour."
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "http://maltobar.fr/",
+    "https://www.grenoble-tourisme.com/en/catalog/detail/maltobar-6043803/"
+   ],
+   "extrait": "« Malto finito !!! Nous arrêtons pour le moment l'activité brassage de bière pour nous concentrer sur Le Commun Des Mortels et les ateliers de brassage. » ; « Nos équipements sont partis au pays basque » ; office de tourisme : « All year round, every Wednesday and Friday between 3 pm and 7 pm. »",
+   "choix": "Catégorie laissée à 0, rien n'est établi. Aucune date n'est lue sur maltobar.fr (la page dit seulement que les bières reviendront un jour). Le téléphone +33 6 50 22 19 92 vient de la page de l'office de tourisme, pas de la brasserie, et c'est un mobile : écarté. Les horaires de l'office (« All year round, every Wednesday and Friday between 3 pm and 7 pm. ») ne disent pas s'il s'agit de la vente ou de l'accueil, et le site officiel dit que l'activité est arrêtée : pas de bloc horaires. La note commence par « Brassage arrêté » : le badge reste « À confirmer » (le schéma n'a pas de statut « fermée »), la raison doit se lire en premier."
+  },
+  {
+   "n": "La Bonne Fabrique",
+   "changements": {
+    "note": "Le site annonce la vente de bières en bouteille le vendredi soir sur le marché de la place du Sappey et à l'épicerie du Sappey ; vente à la brasserie et dégustation non citées. Ouvert du lundi au vendredi de 9h à 17h et le samedi de 9h à 12h selon la fiche de l'office de tourisme de Grenoble, sans dire vente ou accueil. Site : celui du lieu associatif qui héberge la brasserie (labonnefabrique.fr)."
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "http://www.labonnefabrique.fr/brasserie",
+    "https://www.grenoble-tourisme.com/en/catalog/activity/brasserie-la-bonne-fabrique-4967702/"
+   ],
+   "extrait": "« Vous pouvez retrouver nos bière en bouteille les vendredi soir sur le marché de la place du Sappey, et à l’épicerie du Sappey » ; office de tourisme : « from Monday to Friday between 9 am and 5 pm. On Saturday between 9 am and 12 pm. »",
+   "choix": "Seule la note change. Catégorie laissée à 0 : le marché et l'épicerie sont des ventes hors du lieu. Le site n'est pas proposé comme « site de la brasserie » : c'est celui du lieu associatif qui l'héberge (revue du lot) ; il est nommé dans la note. Aucun téléphone publié par la brasserie (seules des adresses e-mail) ; le seul numéro lu, 04 76 42 41 41, est celui de l'office : écarté. Horaires : le site et l'office se contredisent et ne disent pas vente ou accueil : pas de bloc."
+  },
+  {
+   "n": "La Barbue",
+   "changements": {
+    "contact": {
+     "tel": "07 86 21 71 23",
+     "source": "https://brasserielabarbue.fr/",
+     "verifieLe": "2026-10-16",
+     "site": "https://brasserielabarbue.fr/"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "La Patronne (Pale Ale, robe dorée)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "La Gloutonne"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La Baronne"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Vermillonne (Red Ale, robe rubis)"
+     },
+     {
+      "type": "stout",
+      "libelle": "L’Oursonne (au miel de châtaignier)"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://brasserielabarbue.fr/"
+   ],
+   "extrait": "« Ou par téléphone : 07 86 21 71 23 » ; « La Patronne Une Pale Ale à la robe dorée » ; « La Gloutonne IPA détonnante et désaltérante » ; « La Baronne Une Blanche aux fleurs de sureaux » ; « La Vermillonne Une Red Ale à la robe rubis » ; « Un Stout au miel de châtaignier, à la robe noire aux reflets rubis »",
+   "choix": "Seul numéro publié, un mobile. Les cinq bières de la page. Types : Gloutonne, Baronne, Oursonne par le style écrit (IPA, Blanche, Stout) ; Patronne et Vermillonne en « autre » : « dorée » et « rubis » ne sont pas des mots du catalogue, rien n'est rapproché (blonde ? ambrée ?) — à toi de dire si « Pale Ale à la robe dorée » vaut blonde. Horaires non proposés : « Heures d’ouverture Lundi, Mardi, Jeudi & Vendredi De 9h à 16h » sans dire vente ou accueil. Catégorie laissée à 0 : la page ne parle ni de boutique ni de dégustation. Le nom s'écrit « L ‘Oursonne » sur la page, libellé redressé."
+  },
+  {
+   "n": "Brasserie Quardin",
+   "changements": {
+    "contact": {
+     "tel": "04 79 28 12 04",
+     "source": "https://brasseriequardin.fr/",
+     "verifieLe": "2026-10-16",
+     "site": "https://brasseriequardin.fr/"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde (Pale Ale)"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche (Wheat Ale)"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée (Amber Ale)"
+     },
+     {
+      "type": "brune",
+      "libelle": "Brune (Porter)"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Moût de Roussane (au moût de raisin)"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Moût de Mondeuse (au moût de raisin)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "I.P.A."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://brasseriequardin.fr/"
+   ],
+   "extrait": "« 04 79 28 12 04 06 85 60 14 58 » ; « Blonde : ( 5% - 22 IBU – 10 EBC ) Pale Ale Cette bière blonde est légère et équilibrée. » ; « Blanche : (4.5% - 15 IBU – 8 EBC ) Wheat Ale La blanche est une bière légère et tout en finesse. » ; « Ambrée : ( 5,5% - 28 IBU – 41 EBC ) Amber Ale Cette ambrée révèle des arômes de caramel » ; « Brune : ( 5.5% - 28 IBU – 81 EBC ) Porter Assez légère » ; « Moût de Roussane : ( 7% ) Blonde au moût de raisin » ; « Moût de Mondeuse : ( 5.5% ) Blonde au moût de raisin » ; « I.P.A. : ( 5.5% - 40 IBU – 12 EBC ) India Pale Ale »",
+   "choix": "Deux numéros publiés : le fixe 04 79 28 12 04 est retenu, le mobile 06 85 60 14 58 écarté. Les sept bières de « Notre gamme ». Blonde, Blanche, Ambrée : le mot de couleur est dans la description ; Brune : pas de couleur dans la description, type pris dans l'en-tête « Brune » (style « Porter », proche du stout : à toi de dire) ; les deux moûts : « Blonde au moût de raisin » ; I.P.A. : « India Pale Ale ». Catégorie laissée à 0 et aucun horaire : la page n'en parle pas."
+  },
+  {
+   "n": "Brasserie Two Dudes",
+   "changements": {
+    "contact": {
+     "tel": "06 88 81 61 39",
+     "site": "http://www.twodudes-brasserie.com",
+     "source": "http://www.twodudes-brasserie.com",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "http://www.twodudes-brasserie.com"
+   ],
+   "extrait": "« Brasserie / Pierre 06 88 81 61 39 Cuisine / Amandine 06 89 88 72 03 » ; « 811 Route des Vignobles 71680 Crêches-sur-Saône »",
+   "choix": "ATTENTION, adresse : le site de la brasserie dit « 811 Route des Vignobles 71680 Crêches-sur-Saône », la fiche dit Tournus (ZA du Pas Fleury, d'après l'annuaire blanot.fr). Le contact proposé est celui de la brasserie, mais le point sur la carte serait à Tournus ; la commune ne se corrige pas par proposition — à toi de dire laquelle est la bonne (déménagement ?). Le site officiel affiche deux mobiles : « Brasserie (Pierre) » et « Cuisine (Amandine) ». Celui libellé Brasserie est retenu ; le numéro de la cuisine est écarté. Aucune catégorie : ni vente, ni dégustation, ni horaires, ni liste de bières sur la page lue (la page « Nos Bières » n'a pas été ouverte). La note actuelle (« consommation sur place probable ») reste une déduction non établie, inchangée."
+  }
+ ],
+ "revues": [
+  "La Grange du Seigneur",
+  "Mac Never's and Co.",
+  "Brasserie du Mont Blanc",
+  "Ferme-brasserie Déluge",
+  "Brasserie B.A.S. (Sabaudia)",
+  "Brasserie La Furieuse",
+  "La Marmotte Masquée",
+  "Brasserie Kiltin'",
+  "Brasserie La Dourbie",
+  "Brasserie Coup de Mousse",
+  "P'tit Labo (Brasserie de Grenoble)",
+  "Brasserie Caquot",
+  "Brasserie du Marrel",
+  "Brasserie Dr D. Brewpub",
+  "La Montagnarde",
+  "Brasserie Maltobar",
+  "La Bonne Fabrique",
+  "Brasserie 3B (Bassin Bellegardien)",
+  "Brasserie Les Dameuses",
+  "Une Petite Mousse",
+  "Brasserie Vellavia",
+  "Brasserie Solstice",
+  "La Barbue",
+  "Brasserie Quardin",
+  "Brasserie Grésiv'ale",
+  "Brasserie Two Dudes"
+ ]
+}

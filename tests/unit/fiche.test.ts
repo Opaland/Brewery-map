@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { citeUnNumero, hoteDeSource, libelleConfiance, libellePrecision, libelleVerification } from '../../src/core/fiche'
+import {
+  avertissementHoraires,
+  citeUnNumero,
+  hoteDeSource,
+  libelleConfiance,
+  libellePrecision,
+  libelleVerification,
+} from '../../src/core/fiche'
 
 describe('libelleConfiance', () => {
   it('dit « élevée » pour « solide » (décision de Cédric, 15/10)', () => {
@@ -55,5 +62,17 @@ describe('citeUnNumero', () => {
     expect(citeUnNumero('Contact : 06 95 10 82 98.')).toBe(true)
     expect(citeUnNumero('Ouvert depuis 2022, sam 15h-22h.')).toBe(false)
     expect(citeUnNumero('1932 route de Villefranche, 69480 Anse')).toBe(false)
+  })
+})
+
+describe('avertissementHoraires', () => {
+  const sans = { note: 'Aucune source fiable lue pour cette brasserie.' }
+  it('ne dit « appelez » que si un numéro est connu (revue métier S17, Bernard)', () => {
+    expect(avertissementHoraires(sans)).toBe(
+      'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
+    )
+    const contact = { tel: '04 78 33 84 95', source: 'https://x.fr', verifieLe: '2026-10-16' }
+    expect(avertissementHoraires({ ...sans, contact })).toContain('et appelez en cas de doute.')
+    expect(avertissementHoraires({ note: 'Contact : 06 95 10 82 98.' })).toContain('et appelez en cas de doute.')
   })
 })
