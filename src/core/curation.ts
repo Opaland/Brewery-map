@@ -76,8 +76,17 @@ export const lotSchema = z
   .object({
     lot: z.string().min(1),
     propositions: z.array(propositionSchema),
+    /**
+     * Toutes les fiches revues par ce lot, avec ou sans proposition : le lot
+     * suivant les passe (S13 — sans cela, les fiches revues sans résultat,
+     * que `data/` ne garde pas, revenaient au lot suivant).
+     */
+    revues: z.array(z.string().min(1)).optional(),
   })
   .strict()
+  .refine((l) => l.revues === undefined || l.propositions.every((p) => l.revues?.includes(p.n)), {
+    message: 'chaque fiche proposée figure dans « revues »',
+  })
 
 export type Proposition = z.infer<typeof propositionSchema>
 export type Lot = z.infer<typeof lotSchema>
@@ -244,9 +253,14 @@ export function diffLisible(
  * la vérification la plus ancienne ; à égalité, la plus proche de l'origine.
  * Ordre du plan v2 (SPRINTS.md : « les 25 À confirmer les plus proches »).
  */
-export function lotSuivant(brasseries: readonly Brasserie[], taille: number, origine: Point): string[] {
+export function lotSuivant(
+  brasseries: readonly Brasserie[],
+  taille: number,
+  origine: Point,
+  dejaRevues: ReadonlySet<string> = new Set(),
+): string[] {
   return brasseries
-    .filter((b) => b.cat === 0)
+    .filter((b) => b.cat === 0 && !dejaRevues.has(b.n))
     .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', d: distanceKm(origine, b) }))
     .sort((a, b) => a.verifie.localeCompare(b.verifie) || a.d - b.d)
     .slice(0, taille)

@@ -248,6 +248,15 @@ describe('le lot suivant', () => {
     expect(lotSuivant(lignes, 25, BRIGNAIS)).toEqual(['Près', 'Moyen', 'Loin'])
   })
 
+  it('passe les fiches déjà revues dans un lot, même sans proposition (S13)', () => {
+    expect(lotSuivant(lignes, 25, BRIGNAIS, new Set(['Près']))).toEqual(['Moyen', 'Loin'])
+  })
+
+  it('un lot dit toutes les fiches revues, et elles contiennent celles qu’il propose', () => {
+    expect(lireLot({ ...lot, revues: [NOM, 'Autre'] }, AUJOURDHUI).ok).toBe(true)
+    expect(lireLot({ ...lot, revues: ['Autre'] }, AUJOURDHUI).ok).toBe(false)
+  })
+
   it('coupe à la taille demandée', () => {
     expect(lotSuivant(lignes, 2, BRIGNAIS)).toEqual(['Près', 'Moyen'])
   })
