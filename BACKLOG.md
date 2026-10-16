@@ -76,6 +76,13 @@ chacun demande une décision ou une vérification de source.
   bloc `accueil`, avec l'extrait. La même page porte aussi un « 04 70 50 88
   53 » sous les foodtrucks, à la même adresse : écarté.
 
+- Curation : **décision de Cédric** — prévenir une brasserie quand son
+  numéro est repris sur la carte (revue métier S11). Aucun canal n'existe
+  hors des issues.
+- Curation : les mobiles seuls publiés (Kachmar, Montchat, lot
+  s11-exemples-s4) suivent la règle « publié pour ses clients » ; s'ils sont
+  personnels, seul Cédric peut le juger (revue métier S11).
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

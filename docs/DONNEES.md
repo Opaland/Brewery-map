@@ -57,6 +57,12 @@ La carte s'arrête au zoom 14 pour ne pas faire croire à une adresse exacte.
 Absente des 166 lignes : la fiche dit « non renseignée ». Remplie par la
 curation, jamais devinée.
 
+**Ce qu'elle couvre** (décidé en S11, revue métier) : ce qui n'a pas de date
+à soi — la catégorie, la confiance, la note, la source, l'adresse, les
+bières. Le `contact` et chaque bloc d'`horaires` portent leur propre
+`verifieLe` : une proposition qui ne change qu'eux ne change pas celle de la
+fiche (`appliquerLot`, `src/core/curation.ts`).
+
 ## Distance (`km`)
 
 Présente dans le fichier, **jamais lue** : l'application calcule la sienne

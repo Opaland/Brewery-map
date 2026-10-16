@@ -11,14 +11,19 @@ dans ta réponse, rien d'autre.
 
 # Ce que tu reçois
 
-Une liste de noms de brasseries, et la date du jour. Pour chacune, lis sa
+Une liste de noms de brasseries, et la date du jour ; pour une fiche
+**signalée**, le numéro et le texte de l'issue (ce qui est faux, la bonne
+information, la source donnée). Pour chacune, lis sa
 fiche actuelle dans `data/breweries.json` (champs `n`, `c`, `d`, `cat`,
 `conf`, `note`, `src`, `contact`, `horaires`, `beers`) et le sens des champs
 dans `docs/DONNEES.md`.
 
 # Ce que tu fais, par brasserie
 
-1. Ouvre d'abord la source déjà citée (`src`), puis le **site officiel** de
+1. Pour une fiche signalée, ouvre d'abord la source donnée dans l'issue, et
+   traite **sa** demande : la proposition y répond, ou ton compte rendu dit
+   pourquoi elle ne peut pas (source illisible, information absente). Puis
+   la source déjà citée (`src`), puis le **site officiel** de
    la brasserie s'il existe. Une page d'annuaire, d'agrégateur ou de réseau
    social n'est qu'une piste : dis-le si c'est tout ce que tu trouves.
 2. Cherche ce qui établit **ce qu'on peut y faire** (catégorie 0 à 3,
@@ -35,8 +40,11 @@ dans `docs/DONNEES.md`.
   pas lu reste comme il est, et tu dis pourquoi dans ton compte rendu.
 - **Téléphone** : seulement un numéro que **la brasserie publie elle-même
   pour ses clients**, au format « 04 72 50 88 53 », jamais un 08. Si la page
-  en porte plusieurs (un food truck, un traiteur), dis lequel tu retiens et
-  pourquoi, ou n'en retiens aucun.
+  en porte plusieurs (un food truck, un traiteur, des mobiles), dis lequel tu
+  retiens et pourquoi **dans le champ `choix`** de la proposition — c'est ce
+  que Cédric lit —, ou n'en retiens aucun. Un mobile seul publié se dit aussi
+  dans `choix`. Si la brasserie a demandé un numéro dans son signalement, et
+  qu'il est publié, c'est lui.
 - **Horaires** : au format de `horairesSchema` (`src/core/schema.ts`), un
   bloc par nature (`accueil` ou `vente`), seulement si la source les donne.
   Ce que les créneaux ne savent pas dire (« fermé d'octobre à mai ») va dans
@@ -46,6 +54,11 @@ dans `docs/DONNEES.md`.
   confiance au-delà de ce que la source montre (`docs/DONNEES.md`).
 - **Untappd** : un lien vers la page de la brasserie, vérifié ouvert ; on ne
   recopie ni notes ni avis.
+- **Preuves** : toute source écrite dans la fiche (`src`, `contact.source`,
+  `horaires[].source`) est une de tes `sources`, et toute date écrite est la
+  `verifieLe` de la proposition ; l'outil refuse sinon. Ne propose ni `n`,
+  ni `c`, ni `d`, ni coordonnées, ni `km`, ni `verifieLe` dans
+  `changements`.
 - **Fermée, introuvable, contradictoire** : propose seulement ce qui est lu
   (une `note` qui le dit, avec la source), sans changer la catégorie sur une
   impression.
@@ -63,7 +76,9 @@ dans `docs/DONNEES.md`.
       "changements": { "contact": { "tel": "04 72 50 88 53", "source": "https://…", "verifieLe": "AAAA-MM-JJ" } },
       "verifieLe": "AAAA-MM-JJ",
       "sources": ["https://…"],
-      "extrait": "<passage exact lu sur la page>"
+      "extrait": "<passage exact lu sur la page>",
+      "choix": "<ce que tu as écarté et pourquoi — facultatif>",
+      "signalement": 12
     }
   ]
 }

@@ -30,7 +30,7 @@ durée se relève sur l'horodatage des commits.
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
-| S11 | 200 k | — | non relevé précisément | en cours |
+| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | code prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -622,7 +622,7 @@ sprints avec revue + revue globale »).
      dit où trouver le lien d'une fiche. Reste à **décider par Cédric** :
      une voie hors GitHub (BACKLOG).
 
-## S11 — Outillage de curation *(en cours)*
+## S11 — Outillage de curation *(terminé le 16/10 — code ; lot en attente de Cédric)*
 
 1. **Objectif.** Qu'une fiche puisse être revérifiée et corrigée sans
    qu'aucune ligne de `data/` change sans l'accord de Cédric, et que sa
@@ -651,5 +651,41 @@ sprints avec revue + revue globale »).
 5. **Vu en route.** La réécriture du fichier perdait le « .0 » des
    flottants entiers (`"km": 6.0` → `6`) : le fichier vient de Python. Vu
    par le test d'aller-retour, corrigé pour `lat`, `lon`, `km`.
-6. **État final et restes.** *(à la clôture)*
+   Le contrôle mécanique des numéros a d'abord manqué celui de Kachmar,
+   présent sur la page : « 91 1932 Route » collait le numéro de rue au
+   numéro. Cas réel ajouté au test, vu rouge, corrigé.
+6. **État final et restes.** Premier lot réel : `curation/s11-exemples-s4`
+   (les 5 numéros de S4, relus le 16/10 avec leur extrait, 5/5 retrouvés
+   par `controler`, deux sources rouvertes à la main). **En attente de
+   l'accord de Cédric** ; `data/` inchangé. Revues faites (code 54 k,
+   métier 38 k), corrections appliquées le 16/10 :
+   - **Revue code** — corrigé :
+     - le diff montrait une `verifieLe` que l'outil n'écrivait pas :
+       `verifieLe` n'est plus un champ modifiable ;
+     - une source ou une date écrite dans la fiche pouvait n'avoir rien à
+       voir avec la preuve lue : elles doivent être celles de la
+       proposition ; pas de date future ;
+     - une proposition pouvait déplacer ou renommer une fiche : `n`, `c`,
+       `d`, coordonnées, précision et `km` sont exclus ;
+     - `--ecrire` n'était gardé par rien : il exige l'**empreinte** du lot
+       affichée dans le diff que Cédric a lu (test de l'outil en dossier
+       jetable, vu rouge sans la garde) ;
+     - numéros lus trop largement (`0x1`, `1.0`) : refusés ;
+     - tableaux affichés en bloc : élément par élément ; suppression d'un
+       champ désormais testée ;
+     - une source sur cinq seulement rouverte : commande `controler`
+       (pages qui répondent, numéro présent sur sa source).
+   - **Revue métier (Une brasserie)** — corrigé :
+     - un signalement n'entrait dans aucun lot : le skill liste les issues,
+       `signalement` retrouve la fiche par le titre, l'agent reçoit le texte
+       de l'issue et traite **sa** demande, quelle que soit la catégorie ;
+     - personne ne répondait à la brasserie : étape 6 du skill, un
+       commentaire puis la fermeture de chaque issue ;
+     - un téléphone ajouté datait toute la fiche : la date de fiche ne
+       couvre que ce qui n'a pas de date à soi (`docs/DONNEES.md`) ;
+     - le choix entre plusieurs numéros restait dans le compte rendu :
+       champ `choix`, affiché à Cédric (et rempli pour les 5 du lot).
+   - **Reste** (BACKLOG) : prévenir une brasserie que son numéro est repris
+     (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
+     juger par lui.
 
