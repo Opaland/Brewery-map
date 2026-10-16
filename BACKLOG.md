@@ -208,6 +208,13 @@ chacun demande une décision ou une vérification de source.
     une balise `<meta>` serait possible) ;
   - rien n'est essayé sur un vrai téléphone.
 
+- Revue UI/UX du 16/10 — restes :
+  - « Confiance : faible » donne la définition, pas quoi en faire (« vérifiez
+    avant d'y aller ») : formulation à proposer à Cédric ;
+  - `.fiche a` étire chaque lien à 44 px de hauteur de ligne ; une marge
+    intérieure garderait la cible sans espacer la fiche ;
+  - le cartouche d'attribution OSM reste clair en thème sombre.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

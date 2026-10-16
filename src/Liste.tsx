@@ -45,10 +45,12 @@ function Fiche({
   brasserie,
   favori,
   onBasculerFavori,
+  onRefermer,
 }: {
   brasserie: Brasserie
   favori: boolean
   onBasculerFavori: () => void
+  onRefermer: () => void
 }) {
   const hote = hoteDeSource(brasserie.src)
   return (
@@ -104,6 +106,13 @@ function Fiche({
         </a>
         <span className="fiche-aide">{AIDE_SIGNALEMENT}</span>
       </p>
+      {/* La fiche dépasse un écran : refermer sans remonter jusqu'à sa ligne
+          (revue UI/UX du 16/10, 1 073 px pour 839). */}
+      <div className="depart-actions fiche-refermer">
+        <button type="button" onClick={onRefermer} data-testid="refermer-fiche">
+          Refermer la fiche
+        </button>
+      </div>
     </div>
   )
 }
@@ -169,7 +178,8 @@ export function Liste({
                   parties du nom lu (revue Inès S18). */}
               <span className="lecteur-seul">, </span>
               <span className="ligne-lieu">
-                {brasserie.c} ({brasserie.d}) · {formaterDistance(distanceKm)}
+                {brasserie.c} ({brasserie.d}) ·{' '}
+                <span className="ligne-distance">{formaterDistance(distanceKm)}</span>
               </span>
               <span className="lecteur-seul">, </span>
               <span className={`badge cat-${String(brasserie.cat)}`}>
@@ -198,6 +208,14 @@ export function Liste({
                 favori={favori}
                 onBasculerFavori={() => {
                   onBasculerFavori(brasserie.n)
+                }}
+                onRefermer={() => {
+                  // Le focus et l'écran reviennent sur la ligne : on reprend
+                  // la liste là où on l'avait laissée.
+                  const ligne = liste.current?.querySelector<HTMLButtonElement>('li.ouverte > .ligne')
+                  onChoisir(brasserie.n)
+                  ligne?.focus({ preventScroll: true })
+                  ligne?.scrollIntoView({ block: 'nearest' })
                 }}
               />
             )}

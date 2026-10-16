@@ -89,6 +89,23 @@ export function App({ stockage }: { stockage: Stockage }) {
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   const [annonce, setAnnonce] = useState('')
   const compte = useRef<HTMLParagraphElement>(null)
+
+  // Le compte collé au bas de l'écran couvrait le focus clavier (WCAG
+  // 2.4.11, revue adverse UI/UX : une case sur Pixel 7, cinq contrôles à
+  // 320 px). Sa hauteur, qui varie avec le retour à la ligne, devient la
+  // marge de défilement du bas : le navigateur amène le focus au-dessus.
+  useEffect(() => {
+    const p = compte.current
+    if (p === null || typeof ResizeObserver === 'undefined') return
+    const racine = document.documentElement
+    const suivre = new ResizeObserver(() => {
+      racine.style.setProperty('--hauteur-compte', `${String(p.offsetHeight)}px`)
+    })
+    suivre.observe(p)
+    return () => {
+      suivre.disconnect()
+    }
+  }, [])
   const [enLigne, setEnLigne] = useState(() => navigator.onLine)
   // Prête hors ligne quand un service worker est actif : l'installation est
   // tout ou rien (public/sw.js), donc actif veut dire précache complet.

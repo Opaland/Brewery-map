@@ -88,6 +88,15 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   // L'option active reste dans la liste quand celle-ci rétrécit (revue code S21).
   const actif = Math.min(active, Math.max(resultats.length - 1, 0))
 
+  // L'option active reste à l'écran : sur un petit écran, la liste s'ouvrait
+  // sous le pli et sous le compte collant (revue adverse UI/UX, 320 px). Le
+  // défilement respecte la marge du bas (`scroll-padding-bottom`).
+  const montree = ouvert && texte.trim().length >= 2 && resultats.length > 0
+  useEffect(() => {
+    if (!montree) return
+    document.getElementById(`${id}-option-${String(actif)}`)?.scrollIntoView({ block: 'nearest' })
+  }, [montree, actif, id])
+
   const choisir = (c: CommuneFrance) => {
     onChoisir(c)
     setTexte('')
@@ -109,7 +118,11 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
     else if (resultats.length === 0) statut = 'Aucune commune ne correspond.'
     else
       statut = `${String(resultats.length)} commune${resultats.length > 1 ? 's' : ''} ${
-        chercherPartout || depuisPosition ? 'en France' : `à moins de ${String(RAYON_PRES_KM)} km`
+        chercherPartout || depuisPosition
+          ? 'en France'
+          : // Les départements à moins de 100 km, pas chaque commune : la
+            // Villefranche de l'Allier en est, à 150 km (vu en S23).
+            `dans les départements à moins de ${String(RAYON_PRES_KM)} km`
       }.`
   }
 
