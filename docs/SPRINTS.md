@@ -29,7 +29,8 @@ durée se relève sur l'horodatage des commits.
 | S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
-| S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | code prêt, PR à ouvrir |
+| S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
+| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | code prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -578,7 +579,7 @@ sprints avec revue + revue globale »).
      fiche seulement ; longueur du bloc de filtres ; message des favoris
      cachés sans limite.
 
-## S10 — Signaler une erreur *(terminé le 16/10 — code ; page publiée à sonder)*
+## S10 — Signaler une erreur *(terminé le 16/10)*
 
 1. **Objectif.** Une brasserie, ou un client, corrige une fiche sans
    serveur : un lien ouvre une issue GitHub préremplie.
@@ -620,4 +621,71 @@ sprints avec revue + revue globale »).
      information » ; consigne de preuve pour la brasserie ; le pied de page
      dit où trouver le lien d'une fiche. Reste à **décider par Cédric** :
      une voie hors GitHub (BACKLOG).
+
+## S11 — Outillage de curation *(terminé le 16/10 — code ; lot en attente de Cédric)*
+
+1. **Objectif.** Qu'une fiche puisse être revérifiée et corrigée sans
+   qu'aucune ligne de `data/` change sans l'accord de Cédric, et que sa
+   décision tienne en « j'accepte 1, 3, 4 ».
+2. **Périmètre.**
+   - `core/curation.ts` : schéma d'une proposition (fiche visée, champs
+     changés, date, sources, **extrait lu**) ; `appliquerLot` (seuls les
+     numéros acceptés, résultat revalidé par `validerBrasseries`, autres
+     lignes intactes) ; `diffLisible` (avant → après par champ) ;
+     `lotSuivant` ; `formaterDonnees` (format exact du fichier).
+   - `outils/curation.ts` (`npx tsx`) : `lot`, `diff`, `appliquer`
+     (n'écrit qu'avec `--ecrire`).
+   - Agent `verificateur-de-brasserie` (lecture seule, rend du JSON) et
+     skill `lot-de-curation` (de la sélection à la PR de proposition).
+   - `schema.ts` : l'objet nu `brasserieObjetSchema`, que Zod accepte de
+     découper (il refuse `pick`/`omit` sur un schéma raffiné).
+   - `tsx` ajouté aux dépendances de développement (4.19.2) : aucun
+     exécuteur TypeScript n'était installé. Le lockfile ne fait qu'ajouter
+     des paquets (vérifié : aucun retiré, aucune version changée).
+3. **Critères de sortie.** Tests vus rouges par mutation sur les gardes
+   (revalidation, champ inconnu ou vide, double acceptation) ; réécriture
+   du fichier réel à l'octet près ; un premier lot réel passé par l'outil ;
+   revues code et métier faites et corrigées ; porte verte.
+4. **Persona juge.** Une brasserie (sa correction arrive-t-elle jusqu'à la
+   fiche, et comment le saurait-elle ?).
+5. **Vu en route.** La réécriture du fichier perdait le « .0 » des
+   flottants entiers (`"km": 6.0` → `6`) : le fichier vient de Python. Vu
+   par le test d'aller-retour, corrigé pour `lat`, `lon`, `km`.
+   Le contrôle mécanique des numéros a d'abord manqué celui de Kachmar,
+   présent sur la page : « 91 1932 Route » collait le numéro de rue au
+   numéro. Cas réel ajouté au test, vu rouge, corrigé.
+6. **État final et restes.** Premier lot réel : `curation/s11-exemples-s4`
+   (les 5 numéros de S4, relus le 16/10 avec leur extrait, 5/5 retrouvés
+   par `controler`, deux sources rouvertes à la main). **En attente de
+   l'accord de Cédric** ; `data/` inchangé. Revues faites (code 54 k,
+   métier 38 k), corrections appliquées le 16/10 :
+   - **Revue code** — corrigé :
+     - le diff montrait une `verifieLe` que l'outil n'écrivait pas :
+       `verifieLe` n'est plus un champ modifiable ;
+     - une source ou une date écrite dans la fiche pouvait n'avoir rien à
+       voir avec la preuve lue : elles doivent être celles de la
+       proposition ; pas de date future ;
+     - une proposition pouvait déplacer ou renommer une fiche : `n`, `c`,
+       `d`, coordonnées, précision et `km` sont exclus ;
+     - `--ecrire` n'était gardé par rien : il exige l'**empreinte** du lot
+       affichée dans le diff que Cédric a lu (test de l'outil en dossier
+       jetable, vu rouge sans la garde) ;
+     - numéros lus trop largement (`0x1`, `1.0`) : refusés ;
+     - tableaux affichés en bloc : élément par élément ; suppression d'un
+       champ désormais testée ;
+     - une source sur cinq seulement rouverte : commande `controler`
+       (pages qui répondent, numéro présent sur sa source).
+   - **Revue métier (Une brasserie)** — corrigé :
+     - un signalement n'entrait dans aucun lot : le skill liste les issues,
+       `signalement` retrouve la fiche par le titre, l'agent reçoit le texte
+       de l'issue et traite **sa** demande, quelle que soit la catégorie ;
+     - personne ne répondait à la brasserie : étape 6 du skill, un
+       commentaire puis la fermeture de chaque issue ;
+     - un téléphone ajouté datait toute la fiche : la date de fiche ne
+       couvre que ce qui n'a pas de date à soi (`docs/DONNEES.md`) ;
+     - le choix entre plusieurs numéros restait dans le compte rendu :
+       champ `choix`, affiché à Cédric (et rempli pour les 5 du lot).
+   - **Reste** (BACKLOG) : prévenir une brasserie que son numéro est repris
+     (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
+     juger par lui.
 

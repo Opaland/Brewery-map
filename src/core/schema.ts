@@ -192,7 +192,13 @@ export const biereSchema = z
     message: 'un type « autre » doit porter un libellé',
   })
 
-export const brasserieSchema = z
+/**
+ * L'objet nu, sans les règles croisées : sert à décrire une partie d'une
+ * fiche (une proposition de curation, S11), que Zod refuse de découper sur
+ * un schéma raffiné. Les règles croisées s'appliquent ensuite à la fiche
+ * entière, par `brasserieSchema`.
+ */
+export const brasserieObjetSchema = z
   .object({
     n: z.string().trim().min(1),
     c: z.string().trim().min(1),
@@ -220,6 +226,8 @@ export const brasserieSchema = z
     horaires: horairesSchema.optional(),
   })
   .strict()
+
+export const brasserieSchema = brasserieObjetSchema
   .refine((b) => b.cat === 0 || b.src !== '', {
     message: 'une catégorie de vente affirmée (1 à 3) exige une source',
     path: ['src'],
