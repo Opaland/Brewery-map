@@ -1,6 +1,6 @@
 import AxeBuilder from '@axe-core/playwright'
 import { expect, test, type Page } from '@playwright/test'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /**
  * Accessibilité (S18, persona Inès) : ce qui se mesure se mesure
@@ -58,6 +58,7 @@ for (const schema of ['light', 'dark'] as const) {
 
 test('les marqueurs de la carte ont un nom lisible au lecteur d’écran', async ({ page }) => {
   await ouvrir(page)
+  await versLaCarte(page)
   const marqueurs = page.locator('.maplibregl-marker')
   // Le repère de départ arrive le premier : attendre les brasseries, sinon
   // le test passe sur le seul repère (vu au test de mutation, §1).
@@ -126,6 +127,7 @@ async function ciblesTropPetites(page: Page, min: number, minCarte: number) {
  * fois.
  */
 async function carteChargee(page: Page) {
+  await versLaCarte(page)
   await expect(page.getByRole('button', { name: 'Zoomer', exact: true })).toBeVisible()
   await expect.poll(() => page.locator('.maplibregl-marker.marqueur').count()).toBeGreaterThan(0)
 }
@@ -164,6 +166,7 @@ test('au clavier, chaque arrêt montre où est le focus, carte et pied compris (
   page,
 }) => {
   await ouvrir(page)
+  await versLaCarte(page)
   await expect(page.getByRole('button', { name: 'Zoomer', exact: true })).toBeVisible()
   await expect.poll(() => page.locator('.maplibregl-marker.marqueur').count()).toBeGreaterThan(0)
   const invisibles: string[] = []
@@ -306,6 +309,7 @@ test('un lien évite la carte et mène à la liste', async ({ page }) => {
 
 test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page }) => {
   await ouvrir(page)
+  await versLaCarte(page)
   const seul = page.locator('.maplibregl-marker.marqueur:not(.marqueur-groupe)').first()
   await expect(seul).toBeVisible()
   const nom = await seul.getAttribute('data-nom')
@@ -318,6 +322,7 @@ test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page })
 
 test('la carte parle français ; la distance dit son unité', async ({ page }) => {
   await ouvrir(page)
+  await versLaCarte(page)
   await expect(page.getByRole('button', { name: 'Zoomer', exact: true })).toBeVisible()
   await expect(page.getByRole('button', { name: 'Dézoomer', exact: true })).toBeVisible()
   await expect(page.getByRole('region', { name: 'Carte interactive' })).toHaveCount(1)

@@ -1,4 +1,4 @@
-import type { Page } from '@playwright/test'
+import { expect, type Page } from '@playwright/test'
 
 /** Seul hôte tiers autorisé : les tuiles OpenStreetMap. */
 export const TUILE_OSM = /^https:\/\/tile\.openstreetmap\.org\/\d+\/\d+\/\d+\.png$/
@@ -9,4 +9,15 @@ export const TUILE_OSM = /^https:\/\/tile\.openstreetmap\.org\/\d+\/\d+\/\d+\.pn
  */
 export async function sansTuiles(page: Page): Promise<void> {
   await page.route(TUILE_OSM, (route) => route.abort())
+}
+
+/**
+ * La carte ne se charge qu'à l'approche de l'écran (S20) : un test qui en a
+ * besoin y va, comme la personne qui fait défiler. Attend la carte montée, ou
+ * son repli sans WebGL.
+ */
+export async function versLaCarte(page: Page): Promise<void> {
+  const attente = page.getByTestId('carte-en-attente')
+  if ((await attente.count()) > 0) await attente.scrollIntoViewIfNeeded()
+  await expect(page.locator('[data-testid="carte"], [data-testid="carte-absente"]')).toBeVisible()
 }

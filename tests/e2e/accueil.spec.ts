@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { sansTuiles, TUILE_OSM } from './reseau'
+import { sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
 
 test.beforeEach(async ({ page }) => {
   await sansTuiles(page)
@@ -29,6 +29,7 @@ test.describe('la page d’accueil', () => {
       ailleurs.push(url)
     })
     await page.goto('/')
+    await versLaCarte(page)
     await page.getByTestId('recherche').fill('lyon')
     await expect(page.getByTestId('carte').locator('canvas')).toBeVisible()
     // Une absence se constate sur une fenêtre de temps : `networkidle` n'est

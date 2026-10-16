@@ -14,6 +14,7 @@ import {
 import { favorisCaches, rechercher } from './core/recherche'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Categorie } from './core/schema'
+import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
@@ -306,16 +307,18 @@ export function App({ stockage }: { stockage: Stockage }) {
         Aller à la liste des brasseries
       </a>
       <div className="vues">
-        <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
-          <Carte
-            resultats={resultats}
-            origine={origine.point}
-            libelleOrigine={libelleOrigine(origine)}
-            rayonKm={rayonKm}
-            selection={selection}
-            onChoisir={choisirDepuisLaCarte}
-          />
-        </Suspense>
+        <CarteDifferee>
+          <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
+            <Carte
+              resultats={resultats}
+              origine={origine.point}
+              libelleOrigine={libelleOrigine(origine)}
+              rayonKm={rayonKm}
+              selection={selection}
+              onChoisir={choisirDepuisLaCarte}
+            />
+          </Suspense>
+        </CarteDifferee>
         <div className="liste-conteneur">
           <h2 id="titre-liste" className="lecteur-seul" tabIndex={-1}>
             Brasseries

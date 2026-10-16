@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { expect, test } from '@playwright/test'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /**
  * Hors ligne (Bernard). `context.setOffline` ne s'applique pas aux requêtes
@@ -51,6 +51,7 @@ test.describe('sans réseau, l’interface le dit', () => {
 
   test('fond de carte absent : la carte le dit, la liste reste', async ({ page }) => {
     await page.goto('/')
+    await versLaCarte(page)
     await expect(page.getByTestId('fond-absent')).toContainText(
       'Fond de carte incomplet ou indisponible',
     )
