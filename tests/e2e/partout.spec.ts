@@ -21,19 +21,47 @@ test.describe('chercher une commune de départ, partout en France', () => {
     expect(demandes.some((p) => p.endsWith('/communes/69.json'))).toBe(true)
   })
 
-  test('rien à 100 km (Lille depuis Brignais) : toute la France', async ({ page }) => {
+  test('toute la France : depuis Porcelette (57), des brasseries, à confirmer (S25)', async ({ page }) => {
+    // Le cas de Cédric du 16/10 : « Aucune brasserie à moins de 30 km de
+    // Porcelette ». Depuis S25, la couche OpenStreetMap répond.
     await page.goto('/')
-    await choisirCommune(page, 'lille', 'Lille (59)')
-    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : Lille (59)',
-    )
-    // Aucune brasserie du fichier à moins de 30 km de Lille : le compte dit
-    // d'où et jusqu'où.
-    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Lille (59).')
-    // Et où chercher : la plus proche, et ce que couvre le fichier (revue globale S22).
+    await choisirCommune(page, 'porcelette', 'Porcelette (57)')
+    await expect(page.getByTestId('compte')).toContainText('brasseries à moins de 30 km de Porcelette (57)')
+    await page.locator('button.ligne').first().click()
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveText('openstreetmap.org')
+    await expect(page.locator('button.ligne').first()).toContainText('Repérée sur OpenStreetMap')
+    // Distincte sans ouvrir la fiche ; la fiche dit où corriger, et où mène « Y aller ».
+    await expect(page.locator('button.ligne').first().getByTestId('badge-osm')).toHaveText('· OpenStreetMap')
+    await expect(fiche.getByTestId('corriger-osm')).toContainText('corriger à la source')
+    await expect(fiche.getByTestId('y-aller-osm')).toContainText('point placé sur OpenStreetMap')
+    await expect(fiche.getByTestId('fiche-note-osm')).toContainText('rien d’autre n’est vérifié')
+  })
+
+  test('décocher la couche OpenStreetMap la retire, et le choix est gardé (revue persona S25)', async ({
+    page,
+  }) => {
+    await page.goto('/')
+    await choisirCommune(page, 'porcelette', 'Porcelette (57)')
+    await expect(page.getByTestId('badge-osm').first()).toBeVisible()
+    await page.getByTestId('avec-osm').uncheck()
+    await expect(page.getByTestId('badge-osm')).toHaveCount(0)
+    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Porcelette (57).')
+    await page.reload()
+    await expect(page.getByTestId('avec-osm')).not.toBeChecked()
+  })
+
+  test('rien dans le rayon (Mende, 10 km) : la plus proche, et d’où viennent les fiches', async ({ page }) => {
+    await page.goto('/')
+    await choisirCommune(page, 'mende', 'Mende (48)')
+    await page.getByTestId('rayon').fill('10')
+    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 10 km de Mende (48).')
     const ailleurs = page.getByTestId('plus-proche')
-    await expect(ailleurs).toContainText('La plus proche du fichier :')
-    await expect(ailleurs).toContainText('Le fichier couvre 9 départements : 01, 07, 26, 38, 42, 43, 69, 71, 73.')
+    await expect(ailleurs).toContainText('La plus proche :')
+    await expect(ailleurs).toContainText(
+      'Les fiches vérifiées couvrent 9 départements : 01, 07, 26, 38, 42, 43, 69, 71, 73 ; ailleurs,',
+    )
+    await expect(ailleurs).toContainText('brasseries repérées sur OpenStreetMap, à confirmer.')
   })
 
   test('« Chercher dans toute la France » élargit sur demande', async ({ page }) => {

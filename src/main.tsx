@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { App } from './App'
+import { brasseriesOsm } from './osmFrance'
 import { ouvrirStockage } from './stockage'
 import { surveillerMiseAJour } from './miseAJour'
 
@@ -11,10 +12,13 @@ import { surveillerMiseAJour } from './miseAJour'
 // IndexedDB, ou s'il ne répond pas, l'application part sans rien garder.
 const racine = document.getElementById('root')
 if (racine) {
-  void ouvrirStockage().then((stockage) => {
+  // La couche « toute la France » (S25) se charge en même temps : arrivée
+  // après l'écran, elle faisait bouger la liste sous le doigt. Sans elle
+  // (connexion), l'application part avec les fiches vérifiées seules.
+  void Promise.all([ouvrirStockage(), brasseriesOsm().catch(() => null)]).then(([stockage, couche]) => {
     createRoot(racine).render(
       <StrictMode>
-        <App stockage={stockage} />
+        <App stockage={stockage} couche={couche} />
       </StrictMode>,
     )
   })

@@ -14,8 +14,9 @@ consultable hors connexion.
 
 ## Ce qu'elle fait
 
-- **166 brasseries** de 9 départements (01, 07, 26, 38, 42, 43, 69, 71, 73),
-  sur une liste et une carte.
+- **Toute la France** : 166 fiches vérifiées dans 9 départements (01, 07, 26,
+  38, 42, 43, 69, 71, 73), et 1 024 brasseries repérées sur OpenStreetMap
+  ailleurs, affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
   les 34 960 communes de France ; les distances se comptent depuis là.
 - **Filtrer** par distance, par ce qu'on peut y faire, par type de bière ;
@@ -59,6 +60,10 @@ du fichier).
   `@etalab/decoupage-administratif` 6.0.0 (données sous Licence Ouverte
   d'Etalab) ; leur point tiré de Wikidata (CC0). Fabriqué par
   `outils/communes.ts`.
+- **Brasseries hors des fiches vérifiées** (`src/donnees-osm/brasseries-osm.json`) :
+  © contributeurs OpenStreetMap, licence ODbL, extraites par
+  `outils/osm-france.ts` (`craft=brewery`). Seul le fait d'être repérée comme
+  brasserie vient d'OSM : rien d'autre n'est vérifié.
 - **Fond de carte** : © contributeurs
   [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL), servi
   par les tuiles d'OpenStreetMap ; rendu par MapLibre GL JS (BSD-3).

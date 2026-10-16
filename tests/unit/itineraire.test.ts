@@ -117,3 +117,21 @@ describe('les liens « Y aller »', () => {
     expect(geo.href).toBe('geo:45.71,4.81?q=45.71,4.81')
   })
 })
+
+describe('une fiche OpenStreetMap (revue persona S25)', () => {
+  const osm: Brasserie = {
+    ...base,
+    n: 'Karnotzet',
+    c: 'Brignais',
+    addr: '80 rue des moulins',
+    lat: 45.649,
+    lon: 4.73051,
+    coordPrecision: 'osm',
+  }
+
+  it('va toujours au point posé sur OSM, jamais à une adresse sans commune', () => {
+    expect(destination(osm)).toEqual({ mode: 'osm', lat: 45.649, lon: 4.73051 })
+    const google = liensItineraire(osm, 'android').find((l) => l.appli === 'Google Maps')
+    expect(google?.url).toContain('destination=45.649,4.73051')
+  })
+})
