@@ -90,6 +90,11 @@ export function App({ stockage }: { stockage: Stockage }) {
     }
     window.addEventListener('online', maj)
     window.addEventListener('offline', maj)
+    // L'état initial est lu au rendu, l'écoute s'attache après : un passage
+    // hors ligne entre les deux était perdu, et le bandeau ne venait jamais
+    // (échec intermittent de hors-ligne.spec.ts en S17 et S18). On relit
+    // donc l'état une fois l'écoute en place.
+    maj()
     return () => {
       window.removeEventListener('online', maj)
       window.removeEventListener('offline', maj)
@@ -181,8 +186,13 @@ export function App({ stockage }: { stockage: Stockage }) {
   // La carte choisit toujours (pas de bascule) : re-toucher un marqueur
   // laisse sa fiche ouverte. C'est la liste qui referme. La mise à l'écran
   // de la fiche est faite par la liste elle-même.
+  // Le focus suit sur la ligne ouverte : sinon le choix fait à la carte ne
+  // s'entendait pas, la fiche s'ouvrant loin dans l'ordre de lecture (revue
+  // Inès S18). Un compteur, pour qu'un même marqueur re-touché refocalise.
+  const [focaliser, setFocaliser] = useState(0)
   const choisirDepuisLaCarte = (nom: string) => {
     setSelection(nom)
+    setFocaliser((n) => n + 1)
   }
 
   return (
@@ -201,7 +211,13 @@ export function App({ stockage }: { stockage: Stockage }) {
         </p>
       )}
 
-      <section className="filtres" aria-label="Rechercher et filtrer">
+      <main>
+      <section className="filtres" aria-labelledby="titre-filtres">
+        {/* Titres pour naviguer au lecteur d'écran, invisibles à l'œil : la
+            page n'en avait qu'un, le h1 (revue Inès S18). */}
+        <h2 id="titre-filtres" className="lecteur-seul">
+          Rechercher et filtrer
+        </h2>
         <PointDeDepart origine={origine} communes={COMMUNES} onChange={setOrigine} />
 
         <label className="champ">
@@ -230,6 +246,9 @@ export function App({ stockage }: { stockage: Stockage }) {
             onChange={(e) => {
               setRayonKm(Number(e.target.value))
             }}
+            // La valeur lue avec son unité : « 30 » seul ne disait pas quoi
+            // (revue Inès S18).
+            aria-valuetext={`${String(rayonKm)} km`}
             data-testid="rayon"
           />
         </label>
@@ -282,6 +301,10 @@ export function App({ stockage }: { stockage: Stockage }) {
         </p>
       )}
 
+      <h2 className="lecteur-seul">Carte</h2>
+      <a className="evitement" href="#titre-liste">
+        Aller à la liste des brasseries
+      </a>
       <div className="vues">
         <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
           <Carte
@@ -294,9 +317,13 @@ export function App({ stockage }: { stockage: Stockage }) {
           />
         </Suspense>
         <div className="liste-conteneur">
+          <h2 id="titre-liste" className="lecteur-seul" tabIndex={-1}>
+            Brasseries
+          </h2>
           <Liste
             resultats={resultats}
             selection={selection}
+            focaliser={focaliser}
             favoris={ensembleFavoris}
             onBasculerFavori={basculerUnFavori}
             onChoisir={(nom) => {
@@ -306,6 +333,7 @@ export function App({ stockage }: { stockage: Stockage }) {
           />
         </div>
       </div>
+      </main>
 
       <footer className="pied">
         <p data-testid="etat-hors-ligne">
@@ -333,7 +361,7 @@ export function App({ stockage }: { stockage: Stockage }) {
           (sur GitHub, compte gratuit nécessaire, signalement public). {SANS_COMPTE}{' '}
           {SUITE_SIGNALEMENT}
         </p>
-        <p>
+        <p className="pied-lien">
           <a href="https://github.com/Opaland/Brewery-map">Code source</a>
         </p>
       </footer>

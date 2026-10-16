@@ -62,6 +62,9 @@ test.describe('sans réseau, l’interface le dit', () => {
     context,
   }) => {
     await page.goto('/')
+    // L'application montée d'abord : couper le réseau avant revenait à
+    // tester la course entre le rendu et l'écoute, pas le bandeau (S18).
+    await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
     await expect(page.getByTestId('hors-ligne')).toHaveCount(0)
     await context.setOffline(true)
     await expect(page.getByTestId('hors-ligne')).toContainText('toutes les fiches restent consultables')

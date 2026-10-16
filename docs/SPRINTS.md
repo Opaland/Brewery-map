@@ -37,6 +37,7 @@ durée se relève sur l'horodatage des commits.
 | S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
 | S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
+| S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -995,3 +996,65 @@ sprints avec revue + revue globale »).
    - **Reste, décisions de Cédric** : les 12 propositions ; un statut
      « fermée » (BACKLOG) ; les communes de Two Dudes, La Montagnarde,
      Vellavia et Kiltin'.
+
+## S18 — Accessibilité *(terminé le 16/10)*
+
+1. **Objectif.** Que le parcours d'Inès (trouver une brasserie, lire sa
+   fiche, appeler, au clavier et au lecteur d'écran, sans la carte) soit
+   **mesuré**, pas supposé.
+2. **Périmètre.** `tests/e2e/accessibilite.spec.ts` :
+   - axe-core 4.13.0 (`@axe-core/playwright`, version de plus de deux
+     semaines), règles WCAG 2.2 A et AA, thèmes clair et sombre, liste et
+     fiche ouverte ;
+   - cibles : 44 px hors carte (WCAG 2.5.5, choisi par le plan v2), 24 px
+     dans la carte (WCAG 2.5.8 ; exception « equivalent » : la liste fait ce
+     que fait un marqueur) ; un lien dans une phrase est exempté (« inline ») ;
+   - focus visible à chaque arrêt du clavier, carte comprise (WCAG 2.4.7) ;
+   - contraste des pastilles de catégorie, 3:1 (WCAG 1.4.11), deux thèmes ;
+   - nom des marqueurs pour le lecteur d'écran ;
+   - le parcours d'Inès au clavier seul.
+   Chaque test vu rouge sur une régression injectée — deux ne l'étaient
+   pas au premier passage, vus par la revue code et corrigés (ci-dessous).
+   Le premier état mesuré : aucune violation axe hors carte ; « Code
+   source » (82×16) et l'attribution de la carte (169×15) trop petits,
+   corrigés.
+3. **Persona juge.** Inès.
+4. **État final et restes.** 17 tests d'accessibilité, tous vus rouges.
+   Revues faites (Inès 62 k, code 53 k), corrections appliquées le 16/10.
+   - **Revue métier (Inès)** — corrigé, chaque point par un test vu rouge :
+     - un seul titre dans la page, pas de `<main>` : une région principale
+       et trois titres (Rechercher et filtrer, Carte, Brasseries), lus
+       seulement au lecteur d'écran ;
+     - quinze arrêts de carte avant la liste : un lien « Aller à la liste
+       des brasseries », caché jusqu'au focus ;
+     - choisir un marqueur n'annonçait rien : le focus va sur la ligne
+       ouverte ;
+     - « Map », « Zoom in » dans une page en français : textes de MapLibre
+       traduits ;
+     - le curseur lu « 30 » : « 30 km » ;
+     - le nom d'une ligne lu d'une traite : des virgules invisibles marquent
+       les pauses ;
+     - les animations ignoraient « réduire les mouvements » : défilement et
+       carte sans animation quand il est demandé (non testé : rien de
+       mesurable dans un test sans regarder l'animation) ;
+     - 320 px de large (zoom 400 %) : aucun débordement (WCAG 1.4.10).
+   - **Revue code** — corrigé :
+     - le test du focus acceptait l'ombre permanente des marqueurs comme
+       focus : l'ombre ne compte que si elle diffère sans le focus ; il
+       vérifie aussi avoir traversé marqueurs, liste et pied ;
+     - les marqueurs étaient sautés par la mesure des cibles (10 px
+       passaient) : mesurés, après attente de leur rendu — la mesure
+       passait aussi parce qu'elle était prise avant (§1bis) ;
+     - « dans une phrase » était un écart de 10 caractères au jugé : le
+       paragraphe doit contenir d'autres mots ;
+     - toutes les pastilles mesurées sur leur fond réel ; grand écran
+       (1280 × 800) ajouté.
+   - **Vu en route** : le bandeau hors connexion manquait parfois (S17,
+     S18) — l'écoute de `offline` s'attachait après la lecture de l'état ;
+     l'état est relu à l'abonnement, et le test attend l'application
+     montée. Cause déduite du code ; l'échec n'a pas été reproduit à la
+     demande (60 répétitions vertes après correction).
+   - **Reste** : « Appeler » n'est atteignable sur aucune fiche (aucune n'a
+     de téléphone : données, pas code, CLAUDE.md §10) ; aucun lecteur
+     d'écran réel n'a servi — longueur du nom des lignes, « ≈ », annonces à
+     chaque frappe : à écouter avec une vraie personne.

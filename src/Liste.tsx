@@ -15,10 +15,13 @@ import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalem
 import { Bieres } from './Bieres'
 import { Contact } from './Contact'
 import { Horaires } from './Horaires'
+import { mouvementReduit } from './mouvement'
 
 interface Props {
   resultats: readonly Resultat[]
   selection: string | null
+  /** Change à chaque choix fait sur la carte : le focus va sur la ligne. */
+  focaliser?: number
   onChoisir: (nom: string) => void
   favoris: ReadonlySet<string>
   onBasculerFavori: (nom: string) => void
@@ -101,17 +104,30 @@ function Fiche({
   )
 }
 
-export function Liste({ resultats, selection, onChoisir, favoris, onBasculerFavori }: Props) {
+export function Liste({
+  resultats,
+  selection,
+  focaliser = 0,
+  onChoisir,
+  favoris,
+  onBasculerFavori,
+}: Props) {
   const liste = useRef<HTMLOListElement>(null)
 
   // La ligne choisie et sa fiche dépliée sont amenées à l'écran — depuis la
   // carte surtout. Viser le bouton seul laissait la fiche, rendue juste
-  // après, hors champ sur un petit écran (revue code S3).
+  // après, hors champ sur un petit écran (revue code S3). Sans animation si
+  // la personne a demandé moins de mouvement.
   useEffect(() => {
     if (selection === null) return
     const ligne = liste.current?.querySelector('li.ouverte')
-    ligne?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+    ligne?.scrollIntoView({ block: 'nearest', behavior: mouvementReduit() ? 'auto' : 'smooth' })
   }, [selection])
+
+  useEffect(() => {
+    if (focaliser === 0) return
+    liste.current?.querySelector<HTMLButtonElement>('li.ouverte > .ligne')?.focus({ preventScroll: true })
+  }, [focaliser])
 
   return (
     <ol
@@ -145,13 +161,18 @@ export function Liste({ resultats, selection, onChoisir, favoris, onBasculerFavo
                   </span>
                 )}
               </span>
+              {/* Les virgules invisibles : des pauses à l'écoute entre les
+                  parties du nom lu (revue Inès S18). */}
+              <span className="lecteur-seul">, </span>
               <span className="ligne-lieu">
                 {brasserie.c} ({brasserie.d}) · {formaterDistance(distanceKm)}
               </span>
+              <span className="lecteur-seul">, </span>
               <span className={`badge cat-${String(brasserie.cat)}`}>
                 <span className="pastille" aria-hidden="true" />
                 {CATEGORIES[brasserie.cat]}
               </span>
+              <span className="lecteur-seul">, </span>
               {/*
                 Le texte de justification du fichier, en entier : en catégorie 0
                 c'est la raison du « À confirmer » (CLAUDE.md §0) ; ailleurs, il

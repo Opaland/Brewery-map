@@ -79,6 +79,11 @@ a { color: inherit; }
   font-size: var(--texte-secondaire);
   color: var(--encre-douce);
 }
+/* Un lien seul sur sa ligne n'est pas « dans une phrase » : 44 px (WCAG
+   2.5.5, mesuré par tests/e2e/accessibilite.spec.ts). */
+.pied-lien a { display: inline-block; min-height: 44px; line-height: 44px; }
+/* Le lien d'attribution de la carte : 24 px (WCAG 2.5.8, même test). */
+.maplibregl-ctrl-attrib a { display: inline-block; min-height: 24px; line-height: 24px; }
 
 /*
   Couleurs des catégories de vente. Nommées par l'usage (DESIGN_SYSTEM de
@@ -86,8 +91,8 @@ a { color: inherit; }
   classes `cat-N` : une seule source (CLAUDE.md §4ter).
 
   Jamais seules : chaque pastille est accompagnée de son libellé en clair.
-  Contraste visé : 3:1 contre le papier (WCAG 1.4.11, élément graphique),
-  non encore mesuré par un test — S6.
+  Contraste : 3:1 au moins contre le fond (WCAG 1.4.11, élément graphique),
+  mesuré dans les deux thèmes par tests/e2e/accessibilite.spec.ts (S18).
 */
 :root {
   --cat-1: #2e7d32; /* acheter et consommer sur place */
@@ -310,6 +315,19 @@ a { color: inherit; }
   text-decoration: none;
 }
 .fiche-liens { display: flex; flex-wrap: wrap; gap: var(--espace-7); }
+
+/* Lien d'évitement de la carte : caché jusqu'au focus, puis peint au-dessus
+   (revue Inès S18 : quinze arrêts de carte avant la liste). */
+.evitement {
+  position: absolute;
+  left: -10000px;
+  min-height: 44px;
+  line-height: 44px;
+  padding: 0 var(--espace-6);
+  background: var(--papier);
+  color: var(--encre);
+}
+.evitement:focus { position: static; display: inline-block; }
 
 /* Lu par les lecteurs d'écran, invisible à l'œil (motif usuel « sr-only »). */
 .lecteur-seul {
