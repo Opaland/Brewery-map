@@ -32,7 +32,8 @@ durée se relève sur l'horodatage des commits.
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
 | S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
-| S13 | 300 k | — | agents 157 k + revues 78 k | lot prêt, PR à ouvrir |
+| S13 | 300 k | — | agents 157 k + revues 78 k | terminé (#13) ; lot en attente de Cédric |
+| S14 | 200 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -755,7 +756,7 @@ sprints avec revue + revue globale »).
    - **Reste** : le rendu exact de la fiche (badge, titres) n'est pas encore
      dans le diff (BACKLOG).
 
-## S13 — Curation, lot 2 *(terminé le 16/10 — lot en attente de Cédric)*
+## S13 — Curation, lot 2 *(terminé le 16/10 — mergé (#13), page publiée sondée ; lot en attente de Cédric)*
 
 1. **Objectif.** Les 25 « À confirmer » suivants, en propositions.
 2. **Vu avant de lancer.** `lot 25` aurait rendu les **mêmes** 25 fiches
@@ -794,4 +795,39 @@ sprints avec revue + revue globale »).
    - **Reste** (décision de Cédric) : sur la liste, un badge de confiance
      faible ou moyenne ressemble à un badge élevé — la réserve n'est que
      dans la fiche dépliée (revue métier S13, BACKLOG).
+
+## S14 — Découverte de brasseries absentes *(en cours)*
+
+1. **Objectif.** Proposer les brasseries qu'OpenStreetMap connaît et que
+   le fichier n'a pas, **y compris au-delà des 100 km de Brignais**
+   (demande de Cédric du 15/10), en fiches « À confirmer » à décider ligne
+   par ligne.
+2. **Accès au réseau, mesuré le 16/10.**
+   - Overpass (prévu au plan) : `overpass-api.de` coupé par le proxy de
+     sortie de l'environnement ; deux miroirs (kumi.systems,
+     private.coffee) rendent la même page d'erreur Apache de 646 octets ;
+     mail.ru en 504. Inutilisable.
+   - API publique des entreprises (`recherche-entreprises.api.gouv.fr`) :
+     connexion refusée. Inutilisable.
+   - WebFetch atteint Overpass, mais rend un résumé écrit par un petit
+     modèle : des coordonnées recopiées par un modèle ne sont pas des
+     données (CLAUDE.md §0). Écarté.
+   - **Nominatim** (`nominatim.openstreetmap.org`) répond : point exact,
+     objet OSM, type `craft=brewery`. Retenu, à une requête par seconde.
+3. **Périmètre.**
+   - `core/decouverte.ts` : lecture d'un résultat Nominatim (rien de
+     deviné : sans nom, commune ou code postal, ou en Corse, écarté) ;
+     rapprochement par le cœur du nom (mots génériques retirés, liste
+     fermée, chaque rapprochement montré) ; fiche proposée « À confirmer »,
+     note qui dit l'origine OSM, point de l'objet (`address`), `km` depuis
+     Brignais.
+   - Lot : champ `ajouts` (fiche entière, valide au schéma, sources,
+     extrait), numérotés après les propositions, ajoutés en fin de fichier
+     s'ils sont acceptés ; plages « 1-12 » acceptées par l'outil.
+   - `outils/decouverte.ts` : tuiles d'un demi-degré sur la région,
+     coupées en quatre au-delà de 50 résultats ; candidats bruts gardés
+     (`curation/osm-<date>.json`) ; lot `curation/s14-decouverte.json`.
+4. **Persona juge.** Cédric : la carte ne doit pas se remplir de points
+   qu'il ne pourrait pas garantir.
+5. **État final et restes.** *(à la clôture)*
 

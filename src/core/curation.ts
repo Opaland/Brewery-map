@@ -4,6 +4,7 @@ import { distanceKm, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
 import {
   brasserieObjetSchema,
+  brasserieSchema,
   lienSchema,
   validerBrasseries,
   type Brasserie,
@@ -53,6 +54,26 @@ export const propositionSchema = z
   .strict()
 
 /**
+ * Une fiche nouvelle (S14, découverte) : entière, valide au schéma une fois
+ * datée de `verifieLe`, avec ses sources et l'extrait lu. Elle n'entre dans
+ * `data/` qu'acceptée, comme une proposition, et se numérote après elles.
+ */
+export const ajoutSchema = z
+  .object({
+    fiche: brasserieObjetSchema.omit({ verifieLe: true }),
+    verifieLe: z.iso.date(),
+    sources: z.array(lienSchema).min(1),
+    extrait: z.string().trim().min(1),
+    choix: z.string().trim().min(1).optional(),
+  })
+  .strict()
+  .refine((a) => brasserieSchema.safeParse({ ...a.fiche, verifieLe: a.verifieLe }).success, {
+    message: 'la fiche ajoutée ne passe pas le schéma d’une brasserie',
+  })
+
+export type Ajout = z.infer<typeof ajoutSchema>
+
+/**
  * Ce qui s'écrit dans la fiche comme preuve doit être la preuve lue (revue
  * code S11) : toute source écrite (`src`, `contact.source`,
  * `horaires[].source`) est une des `sources` de la proposition, et toute
@@ -82,6 +103,7 @@ export const lotSchema = z
      * que `data/` ne garde pas, revenaient au lot suivant).
      */
     revues: z.array(z.string().min(1)).optional(),
+    ajouts: z.array(ajoutSchema).optional(),
   })
   .strict()
   .refine((l) => l.revues === undefined || l.propositions.every((p) => l.revues?.includes(p.n)), {
@@ -132,8 +154,10 @@ export function appliquerLot(
   acceptees: ReadonlySet<number>,
 ): { ok: true; brasseries: Brasserie[] } | { ok: false; erreurs: string[] } {
   const erreurs: string[] = []
+  const ajouts = lot.ajouts ?? []
+  const total = lot.propositions.length + ajouts.length
   for (const numero of acceptees) {
-    if (!Number.isInteger(numero) || numero < 1 || numero > lot.propositions.length) {
+    if (!Number.isInteger(numero) || numero < 1 || numero > total) {
       erreurs.push(`proposition ${String(numero)} : n'existe pas dans le lot`)
     }
   }
@@ -150,12 +174,17 @@ export function appliquerLot(
   })
   if (erreurs.length > 0) return { ok: false, erreurs }
 
-  const resultat = brasseries.map((b) => {
+  const modifiees = brasseries.map((b) => {
     const p = parNom.get(b.n)
     if (p === undefined) return b
     const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
     return { ...b, ...p.changements, ...(dateeFiche ? { verifieLe: p.verifieLe } : {}) }
   })
+  // Les ajouts acceptés vont en fin de fichier : aucune ligne existante ne bouge.
+  const nouvelles = ajouts
+    .filter((_, i) => acceptees.has(lot.propositions.length + i + 1))
+    .map((a) => ({ ...a.fiche, verifieLe: a.verifieLe }))
+  const resultat = [...modifiees, ...nouvelles]
   const v = validerBrasseries(resultat)
   if (!v.ok) return { ok: false, erreurs: v.erreurs }
   // Validé : le résultat est un tableau de fiches. On rend nos objets, pas la
@@ -243,7 +272,27 @@ export function diffLisible(
         : ['', `Signalement : https://github.com/Opaland/Brewery-map/issues/${String(p.signalement)}`]),
     ].join('\n')
   })
-  return [`## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)`, ...sections].join(
+  const base = lot.propositions.length
+  const sectionsAjouts = (lot.ajouts ?? []).flatMap((a, i) => {
+    const numero = base + i + 1
+    if (seulement !== undefined && !seulement.has(numero)) return []
+    const champs = new Map<string, string>()
+    aplatir({ ...a.fiche, verifieLe: a.verifieLe }, '', champs)
+    return [
+      [
+        `### ${String(numero)}. ${a.fiche.n} — fiche nouvelle`,
+        '',
+        ...[...champs].map(([c, v]) => `- ${c} : (vide) → ${lisible(v, c)}`),
+        '',
+        `Sources (vérifiée le ${a.verifieLe}) : ${a.sources.join(' ; ')}`,
+        '',
+        `Extrait lu : « ${a.extrait} »`,
+        ...(a.choix === undefined ? [] : ['', `Choix du vérificateur : ${a.choix}`]),
+      ].join('\n'),
+    ]
+  })
+  const titre = `## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)${(lot.ajouts ?? []).length > 0 ? `, ${String((lot.ajouts ?? []).length)} fiche(s) nouvelle(s)` : ''}`
+  return [titre, ...sections, ...sectionsAjouts].join(
     '\n\n',
   )
 }

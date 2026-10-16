@@ -67,10 +67,21 @@ function lot(chemin: string | undefined) {
   return { lot: l.lot, empreinte: empreinte(texte) }
 }
 
-/** « 1,3,4 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni espaces (revue code S11). */
+/**
+ * « 1,3,4 » ou « 1-12,15 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni
+ * espaces (revue code S11) ; une plage va du plus petit au plus grand (S14 :
+ * un lot de découverte compte des dizaines de fiches).
+ */
 function numeros(texte: string | undefined): number[] {
-  if (texte === undefined || !/^\d+(,\d+)*$/.test(texte)) sortir('numéros acceptés attendus, ex. « 1,3,4 »', 2)
-  return texte.split(',').map(Number)
+  const morceau = '\\d+(?:-\\d+)?'
+  if (texte === undefined || !new RegExp(`^${morceau}(?:,${morceau})*$`).test(texte)) {
+    sortir('numéros acceptés attendus, ex. « 1,3,4 » ou « 1-12,15 »', 2)
+  }
+  return texte.split(',').flatMap((m) => {
+    const [debut = 0, fin = debut] = m.split('-').map(Number)
+    if (fin < debut) sortir(`plage à l'envers : « ${m} »`, 2)
+    return Array.from({ length: fin - debut + 1 }, (_, i) => debut + i)
+  })
 }
 
 async function controler(chemin: string | undefined) {
