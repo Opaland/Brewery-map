@@ -30,7 +30,8 @@ durée se relève sur l'horodatage des commits.
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
-| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | code prêt, PR à ouvrir |
+| S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
+| S12 | 300 k | — | en cours (prévision : ≈ 440 k, voir §S12) | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -688,4 +689,24 @@ sprints avec revue + revue globale »).
    - **Reste** (BACKLOG) : prévenir une brasserie que son numéro est repris
      (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
      juger par lui.
+
+## S12 — Curation, lot 1 *(en cours)*
+
+1. **Objectif.** Les 25 « À confirmer » les plus proches de Brignais
+   revérifiés, sous forme de **propositions** que Cédric accepte ou refuse
+   numéro par numéro. Aucune ligne de `data/` dans ce sprint.
+2. **Périmètre.** `outils/curation.ts lot 25` ; aucune issue de
+   signalement ouverte le 16/10 (liste vide) ; cinq agents
+   `verificateur-de-brasserie` en parallèle, 5 fiches chacun ; statut,
+   contact, horaires. Les types de bière sont hors de ce lot, pour tenir le
+   coût.
+3. **Critères de sortie.** Lot valide au schéma ; `controler` sans écart ;
+   une source sur cinq rouverte à la main ; diff et empreinte présentés à
+   Cédric dans une PR sans `data/` ; revue métier (Cédric) faite.
+4. **Persona juge.** Cédric : peut-il décider sur le diff seul ?
+5. **Budget.** Mesuré en S11 : 88 k pour vérifier 5 fiches. 25 fiches
+   coûteraient donc ≈ 440 k, au-dessus des 300 k estimés mais sous le
+   double (600 k), seuil d'arrêt de CLAUDE.md §9. Dit avant de lancer, et
+   le coût réel sera relevé.
+6. **État final et restes.** *(à la clôture)*
 
