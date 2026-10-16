@@ -49,6 +49,9 @@ for (const schema of ['light', 'dark'] as const) {
     page,
   }) => {
     await ouvrir(page, schema)
+    // La carte comprise : chargée à l'approche (S20), elle n'était plus
+    // balayée sur téléphone (revue code S20).
+    await carteChargee(page)
     expect(await violations(page)).toEqual([])
     await ligne(page, /Caribrew/).click()
     await expect(page.getByTestId('fiche')).toBeVisible()

@@ -17,7 +17,17 @@ export async function sansTuiles(page: Page): Promise<void> {
  * son repli sans WebGL.
  */
 export async function versLaCarte(page: Page): Promise<void> {
-  const attente = page.getByTestId('carte-en-attente')
-  if ((await attente.count()) > 0) await attente.scrollIntoViewIfNeeded()
-  await expect(page.locator('[data-testid="carte"], [data-testid="carte-absente"]')).toBeVisible()
+  const carte = page.locator('[data-testid="carte"], [data-testid="carte-absente"]')
+  // On boucle sur l'état voulu (CLAUDE.md §6ter) : l'attente peut ne pas être
+  // encore rendue, ou déjà remplacée (grand écran) ; « compter puis faire
+  // défiler » tombait entre les deux (échecs intermittents, S20).
+  await expect
+    .poll(async () => {
+      await page.evaluate(() => {
+        document.querySelector('[data-testid="carte-en-attente"]')?.scrollIntoView()
+      })
+      return carte.count()
+    })
+    .toBeGreaterThan(0)
+  await expect(carte).toBeVisible()
 }
