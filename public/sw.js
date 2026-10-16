@@ -36,11 +36,18 @@ const OPTIONS_MATCH = { ignoreVary: true }
   HTTP du navigateur, qui pourrait rendre un `index.html` d'avant le
   déploiement pointant vers d'anciens fichiers.
 
-  Pas de `skipWaiting` : le nouveau service worker attend que les onglets
-  ouverts sur l'ancienne version se ferment. Les activer de force cassait la
-  carte de ces onglets, qui demandaient un fichier haché que le serveur
-  n'avait plus.
+  Pas de `skipWaiting` d'office : le nouveau service worker attend que les
+  onglets ouverts sur l'ancienne version se ferment. Les activer de force
+  cassait la carte de ces onglets, qui demandaient un fichier haché que le
+  serveur n'avait plus. Il s'active quand la personne le demande : le
+  bandeau « Nouvelle version » de la page envoie « activer » (revue globale
+  S22 : sans cela, une application installée gardait l'ancienne version
+  sans rien dire).
 */
+self.addEventListener('message', (event) => {
+  if (event.data === 'activer') void self.skipWaiting()
+})
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
@@ -71,19 +78,31 @@ function estTuile(url) {
   return url.hostname === 'tile.openstreetmap.org'
 }
 
+/*
+  Le réseau d'abord ; le cache si le réseau échoue **ou répond une erreur**
+  (404, 5xx, portail captif). Revue globale S22 : un 404 était rendu tel
+  quel alors que le cache avait le fichier — après un déploiement, la carte
+  d'un onglet resté ouvert demandait un fichier haché que le serveur n'avait
+  plus, et tombait.
+*/
 async function reseauPuisCache(request, secours) {
   const cache = await caches.open(CACHE_APP)
+  const enCache = async () =>
+    (await cache.match(request, OPTIONS_MATCH)) ??
+    (secours ? await cache.match(secours, OPTIONS_MATCH) : undefined)
+  let reponse
   try {
-    const reponse = await fetch(request)
-    if (reponse && reponse.ok) await cache.put(request, reponse.clone())
-    return reponse
+    reponse = await fetch(request)
   } catch (erreur) {
-    const enCache =
-      (await cache.match(request, OPTIONS_MATCH)) ??
-      (secours ? await cache.match(secours, OPTIONS_MATCH) : undefined)
-    if (enCache) return enCache
+    const garde = await enCache()
+    if (garde) return garde
     throw erreur
   }
+  if (reponse && reponse.ok) {
+    await cache.put(request, reponse.clone())
+    return reponse
+  }
+  return (await enCache()) ?? reponse
 }
 
 async function limiterTuiles(cache) {

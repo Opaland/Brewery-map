@@ -9,12 +9,16 @@ import type { Point } from './core/distance'
 
 /**
  * Les communes de France, chargées depuis l'application elle-même (même
- * origine : la commune tapée ne quitte pas le téléphone, CLAUDE.md §0).
+ * origine). Le texte tapé ne part nulle part ; les fichiers demandés, eux,
+ * disent au serveur de la page la région du départ choisi — jamais celle
+ * d'une position (alors, seul le fichier entier, le même pour tous). Le
+ * texte de confidentialité le dit (revue globale S22).
  *
  * Deux temps (demande de Cédric du 16/10) : les départements à moins de
  * 100 km du départ d'abord (quelques Ko, recherche quasi instantanée), le
  * fichier entier (≈ 470 Ko compressé) seulement pour chercher plus loin.
- * Le service worker garde chaque fichier une fois lu : hors ligne ensuite.
+ * Le service worker garde chaque fichier une fois lu, jusqu'à la version
+ * suivante de l'application : hors ligne ensuite, pas avant.
  */
 const BASE = `${import.meta.env.BASE_URL}communes/`
 export const RAYON_PRES_KM = 100

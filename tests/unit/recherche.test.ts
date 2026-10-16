@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { BRIGNAIS } from '../../src/core/distance'
-import { favorisCaches, normaliser, rechercher, rechercherPartout } from '../../src/core/recherche'
+import { favorisCaches, normaliser, plusProche, rechercher, rechercherPartout } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -40,6 +40,12 @@ describe('rechercher', () => {
     expect(loin).toContain('Tom & Co')
     expect(rechercherPartout({ texte: 'tom' })).toBe(true)
     expect(rechercherPartout({ texte: '  ' })).toBe(false)
+    // Une ponctuation seule ne cherche rien : elle ne lève pas le rayon
+    // (revue globale S22 : « - » donnait 166 brasseries « toutes distances »).
+    for (const texte of ['-', "'", ' . ']) expect(rechercherPartout({ texte })).toBe(false)
+    expect(rechercher(TOUTES, { ...base, rayonKm: 5, texte: '-' })).toHaveLength(
+      rechercher(TOUTES, { ...base, rayonKm: 5, texte: '' }).length,
+    )
   })
 
   it('exclut ce qui est au-delà du rayon', () => {
@@ -112,5 +118,17 @@ describe('favoris cachés par les autres filtres', () => {
     const favoris = ['Tom & Co', 'Caribrew', 'Disparue']
     const resultats = rechercher(TOUTES, { ...base, rayonKm: 10 })
     expect(favorisCaches(TOUTES, favoris, resultats)).toEqual(['Tom & Co'])
+  })
+})
+
+describe('quand rien n’est à portée (revue globale S22)', () => {
+  it('nomme la brasserie la plus proche du départ, et sa distance', () => {
+    const lille = { lat: 50.633, lon: 3.059 }
+    const p = plusProche(TOUTES, lille)
+    expect(p).toBeDefined()
+    const toutes = TOUTES.map((b) => Math.hypot(b.lat - lille.lat, b.lon - lille.lon))
+    expect(p?.brasserie.n).toBe(TOUTES[toutes.indexOf(Math.min(...toutes))]?.n)
+    expect(p?.distanceKm).toBeGreaterThan(400)
+    expect(plusProche([], lille)).toBeUndefined()
   })
 })

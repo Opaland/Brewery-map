@@ -29,7 +29,8 @@ export const SANS_COMPTE = 'Pas de compte GitHub ? Il n’y a pas d’autre moye
 /**
  * Garde-fou de test, pas une limite connue de GitHub (non mesurée) :
  * 2 000 caractères, sous les 2 083 d'Internet Explorer, valeur prudente
- * d'usage pour un lien. Mesuré le 15/10 : 929 au plus sur les 166 lignes.
+ * d'usage pour un lien. Mesuré le 16/10 : 1 446 au plus sur les 166 lignes
+ * (929 le 15/10, avant le texte sur la suite donnée au signalement).
  */
 export const LONGUEUR_MAX_URL = 2000
 

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { App } from './App'
 import { ouvrirStockage } from './stockage'
+import { surveillerMiseAJour } from './miseAJour'
 
 // Les réglages gardés sont lus avant le premier rendu : sinon la carte se
 // cadrerait sur les réglages par défaut, puis sauterait (S9). `ouvrirStockage`
@@ -23,6 +24,6 @@ if (racine) {
 // servirait des fichiers périmés. Aucun module tiers : `public/sw.js`.
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    void navigator.serviceWorker.register('./sw.js')
+    void navigator.serviceWorker.register('./sw.js').then(surveillerMiseAJour)
   })
 }
