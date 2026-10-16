@@ -1300,3 +1300,36 @@ sprints avec revue + revue globale »).
    garde dans `surveillerMiseAJour`). Un navigateur réel n'était pas touché.
 5. **Reste** : l'installation réelle sur un téléphone, et la publication du
    post, sont à faire par Cédric.
+
+## Revue UI/UX globale *(16/10, demandée par Cédric après S23)*
+
+1. **Revue.** Marie (téléphone, découvre) et Hugo (à vélo) sur le build
+   servi, téléphone clair et sombre, puis ordinateur 1280×800 (64 k). Deux
+   défauts relevés pendant les captures de S23 s'y ajoutent.
+2. **Corrigé** (`tests/e2e/uiux.spec.ts`, chaque test vu rouge sans sa
+   correction).
+   - **Compte trop loin du réglage.** Le compte était 400 px sous le
+     curseur, hors de l'écran. Il est maintenant collé au bas de l'écran tant
+     qu'il est plus bas : on règle et on lit aussitôt le résultat. Le test
+     demande ce qui est peint (`elementFromPoint`).
+   - **Ordinateur.** Aucune brasserie dans le premier écran : la première
+     ligne était à 1 081 px pour 800. Au-delà de 900 px, les filtres passent
+     sur deux colonnes de texte, dans l'ordre du document. Première ligne à
+     728 px, et toujours dans l'écran après le choix d'un départ.
+   - **Zoom de la carte.** 29 px mesurés, maintenant 44 px.
+   - **Fiche plus haute qu'un écran** (1 073 px pour 839). Un bouton
+     « Refermer la fiche » en bas rend le focus et l'écran à sa ligne.
+   - **Distance de la ligne.** Elle était en petit gris ; elle passe à la
+     taille du texte, en encre pleine.
+   - **Couture entre la ligne ouverte et sa fiche.** Même bord de 2 px, coins
+     du bas droits.
+   - **Statut des communes.** Il dit « dans les départements à moins de
+     100 km » : Villefranche-d'Allier y figurait, à plus de 100 km.
+   - **Repli de confidentialité.** Il a retrouvé son triangle (`display:
+     list-item`).
+3. **Non fait** (BACKLOG) :
+   - « Confiance : faible » donne la définition, pas quoi en faire. C'est une
+     question de formulation, à proposer à Cédric.
+   - Les liens de la fiche étirent leur ligne à 44 px.
+   - Sur téléphone, la liste commence encore à près de 2 écrans. Le compte
+     collant en ôte la gêne principale.

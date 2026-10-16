@@ -83,6 +83,9 @@ a { color: inherit; }
    2.5.5, mesuré par tests/e2e/accessibilite.spec.ts). */
 .pied-lien a { display: inline-block; min-height: 44px; line-height: 44px; }
 /* Le lien d'attribution de la carte : 24 px (WCAG 2.5.8, même test). */
+/* Zoom à 44 px, comme le reste de l'interface : à une main (revue UI/UX du
+   16/10, Hugo ; 29 px mesurés). */
+.carte .maplibregl-ctrl-group button { width: 44px; height: 44px; }
 .maplibregl-ctrl-attrib a { display: inline-block; min-height: 24px; line-height: 24px; }
 
 /*
@@ -166,7 +169,18 @@ a { color: inherit; }
 .cat-2 .pastille { background: var(--cat-2); }
 .cat-3 .pastille { background: var(--cat-3); }
 
-.compte { font-weight: 600; margin: var(--espace-4) 0; }
+/* Collé au bas de l'écran tant qu'il est plus bas : on règle la distance ou
+   une case et on lit aussitôt combien il en reste, sans défiler (revue UI/UX
+   du 16/10, Marie : le compte était à 400 px sous le curseur). */
+.compte {
+  font-weight: 600;
+  margin: var(--espace-4) 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  padding: var(--espace-4) 0;
+  background: var(--papier);
+}
 
 .vues { display: grid; gap: var(--espace-7); }
 
@@ -230,12 +244,20 @@ a { color: inherit; }
 }
 
 .ligne[aria-expanded='true'] {
-  border-color: var(--encre);
-  box-shadow: 0 0 0 2px var(--encre);
+  /* Ligne et fiche forment une seule carte : même bord de 2 px, coins du
+     bas droits ; l'ancien contour débordant laissait une encoche contre la
+     fiche (revue UI/UX du 16/10). Le padding compense le bord épaissi. */
+  border: 2px solid var(--encre);
+  border-bottom-width: 1px;
+  padding: calc(var(--espace-6) - 1px) calc(var(--espace-6) - 1px) var(--espace-6);
+  border-radius: var(--rayon-md) var(--rayon-md) 0 0;
 }
 
 .ligne-nom { font-weight: 600; }
 .ligne-lieu { color: var(--encre-douce); font-size: var(--texte-secondaire); }
+/* La distance décide, à vélo surtout : à la taille du texte, en encre pleine
+   (revue UI/UX du 16/10, Hugo). */
+.ligne-distance { color: var(--encre); font-size: var(--texte-corps); font-weight: 600; }
 .ligne-note { font-size: var(--texte-secondaire); }
 
 .badge {
@@ -247,6 +269,13 @@ a { color: inherit; }
 
 @media (min-width: 900px) {
   .page { max-width: 72rem; }
+  /* Sur ordinateur, le départ à gauche, les filtres à droite : la liste
+     commençait sous le premier écran (revue UI/UX du 16/10). */
+  /* En colonnes de texte, pas en grille : l'ordre de lecture et de
+     tabulation reste celui du document, et aucun trou ne se forme sous le
+     bloc de départ. */
+  .filtres { display: block; columns: 2; column-gap: var(--espace-7); }
+  .page .filtres > * { break-inside: avoid; margin: 0 0 var(--espace-6); }
   .vues { grid-template-columns: 1fr 1fr; align-items: start; }
   .carte-cadre { position: sticky; top: var(--espace-7); }
   .carte { height: 70vh; }
@@ -287,7 +316,7 @@ a { color: inherit; }
 .ligne-note-titre { font-weight: 600; }
 
 .fiche {
-  border: 1px solid var(--encre);
+  border: 2px solid var(--encre);
   border-top: none;
   border-radius: 0 0 var(--rayon-md) var(--rayon-md);
   background: var(--blanc-carte);
@@ -379,7 +408,9 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 /* Rien de choisi : le bloc s'annonce comme la première étape (S21). */
 .depart-a-choisir { border: 2px solid var(--encre); }
 .depart-a-choisir legend { font-size: 1.1em; }
-.confidentialite summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: var(--encre-douce); }
+/* `display: list-item` garde le triangle qui dit « se déplie » ; `flex` le
+   retirait (vu sur les captures de S23). */
+.confidentialite summary { display: list-item; padding: 10px 0; min-height: 44px; cursor: pointer; color: var(--encre-douce); }
 
 /* La recherche de commune (S21) : une liste sous le champ, cibles de 44 px. */
 .choix-commune { display: grid; gap: var(--espace-2); }
@@ -420,6 +451,7 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 .ligne-favori { color: var(--encre); }
 
 .fiche-signaler { margin: var(--espace-6) 0 0; }
+.fiche-refermer { margin-top: var(--espace-6); }
 
 /* Nouvelle version prête (revue globale S22). */
 .bandeau-mise-a-jour {

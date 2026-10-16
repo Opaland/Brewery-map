@@ -109,7 +109,11 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
     else if (resultats.length === 0) statut = 'Aucune commune ne correspond.'
     else
       statut = `${String(resultats.length)} commune${resultats.length > 1 ? 's' : ''} ${
-        chercherPartout || depuisPosition ? 'en France' : `à moins de ${String(RAYON_PRES_KM)} km`
+        chercherPartout || depuisPosition
+          ? 'en France'
+          : // Les départements à moins de 100 km, pas chaque commune : la
+            // Villefranche de l'Allier en est, à 150 km (vu en S23).
+            `dans les départements à moins de ${String(RAYON_PRES_KM)} km`
       }.`
   }
 
