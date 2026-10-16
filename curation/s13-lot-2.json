@@ -1,0 +1,109 @@
+{
+ "lot": "s13-lot-2",
+ "propositions": [
+  {
+   "n": "L'Affoleuse",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site cite une « vente à la ferme / bar guinguette » ouverte le vendredi de 15h à 19h30 ; les produits vendus ne sont pas détaillés. Visites en semaine sur rendez-vous.",
+    "src": "https://laffoleuse.net/",
+    "contact": {
+     "tel": "04 74 62 86 05",
+     "site": "https://laffoleuse.net/",
+     "source": "https://laffoleuse.net/",
+     "verifieLe": "2026-10-16"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "15:00",
+        "19:30"
+       ]
+      ],
+      "remarque": "Du lundi au jeudi (8h-17h) : visites sur rendez-vous, en téléphonant avant.",
+      "source": "https://laffoleuse.net/",
+      "verifieLe": "2026-10-16"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://laffoleuse.net/"
+   ],
+   "extrait": "« vente à la ferme / bar guinguette le vendredi de 15h à 19h30 et du lundi au jeudi (8h-17h) sur RDV en nous téléphonant avant pour être sûr de notre disponibilité » ; Contact : « 3 impasse de Montromand », « 69640 Denicé », « 04 74 62 86 05 »",
+   "choix": "Catégorie 1 en confiance moyenne seulement : la page nomme une vente à la ferme et un bar guinguette, sans dire noir sur blanc que la bière y est vendue et servie. Le vendredi est classé « accueil » parce que la page lie ce créneau au bar guinguette autant qu'à la vente : jugement à valider. Lundi–jeudi sur rendez-vous, mis en remarque plutôt qu'en créneaux. Seul numéro publié (fixe). Pas d'Untappd (Facebook seulement). Extrait relu mot pour mot sur la page brute."
+  },
+  {
+   "n": "Brasserie des Ursulines",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie dit qu'on peut acheter des bouteilles à emporter ou des fûts, et déguster sur place les bières de la brasserie. Horaires non lus.",
+    "src": "https://www.biere-les-ursulines.com/",
+    "contact": {
+     "site": "https://www.biere-les-ursulines.com/",
+     "source": "https://www.biere-les-ursulines.com/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.biere-les-ursulines.com/"
+   ],
+   "extrait": "« acheter des bouteilles à emporter ou des fûts de bières de notre fabrication » ; « déguster et savourer sur place les bières de notre fabrication » ; « 4 côte chausson – 38460 Crémieu »",
+   "choix": "Confiance moyenne et non solide : aucun horaire lu (la page Horaires du site n'a pas été ouverte). Aucun téléphone sur l'accueil, donc aucun proposé. La mention « contacter avant de venir (accès étroit) » de l'ancienne note n'a pas été retrouvée sur le site officiel : retirée. Pas d'Untappd trouvé. Extrait relu mot pour mot sur la page brute."
+  },
+  {
+   "n": "La Mousse du Guiers",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Fiche de l'office de tourisme (Savoie Mont Blanc) : vente sur place, boutique, dégustation individuelle gratuite, visites sur demande. Horaires donnés par cette fiche sans dire s'ils valent pour l'accueil ou pour la vente.",
+    "src": "https://savoie-mont-blanc.com/en/local-produces/microbrewery-la-mousse-du-guiers-5023674",
+    "contact": {
+     "tel": "06 88 18 49 16",
+     "site": "https://brasserie-du-guiers.jimdoweb.com/",
+     "source": "https://brasserie-du-guiers.jimdoweb.com/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://savoie-mont-blanc.com/en/local-produces/microbrewery-la-mousse-du-guiers-5023674",
+    "https://brasserie-du-guiers.jimdoweb.com/"
+   ],
+   "extrait": "Savoie Mont Blanc : « Sales on site », « Shop », « Sale on the markets », « Individual tasting (free of charge) », « Unguided individual tours on request ». Site de la brasserie, rubrique Contact : « La Mousse du Guiers … 41-51 rue du 8 Mai 1945, Place des Tilleuls, 73240 Saint Genix Sur Guiers … 06 88 18 49 16 ».",
+   "choix": "Confiance moyenne et non solide : la catégorie repose sur une fiche d'office de tourisme (indirecte, mise à jour en 2024), le site de la brasserie ne parle ni de vente ni de dégustation. « Consommer sur place » est lu dans une dégustation individuelle gratuite : à juger. Téléphone : seul numéro publié par la brasserie, un mobile, sans dire à quoi il sert ; à refuser si l'on préfère. Horaires de l'office (« daily 10 am-12 pm, 2 pm-7 pm ») écartés : nature non dite. Le site « la-mousse-du-guiers.fr » cité par l'office n'a pas été ouvert. Extraits relus sur les pages brutes."
+  }
+ ],
+ "revues": [
+  "L'Affoleuse",
+  "Brasserie des Ursulines",
+  "Brasserie du Casino de Montrond",
+  "Malt Emoi",
+  "La Margau",
+  "Brasserie de la Loire",
+  "Brasserie de la Sanne",
+  "La Gaudine (Brasserie de la Semène)",
+  "Brasserie Graine 2 Bulles",
+  "La Cadole",
+  "Mozel'âne",
+  "Bière des Frères Clavel",
+  "Brasserie du Chartreux",
+  "Brasserie des Faux Semblables",
+  "Brasserie Longue Vie",
+  "Miellerie Gachet",
+  "La Strol",
+  "La Poulette des Ebaudis",
+  "La Mousse du Guiers",
+  "Brasserie Rhôdanienne",
+  "Brasserie des Utopies",
+  "Brasserie Peteukrane",
+  "Les Ateliers du Dauphiné",
+  "Brasserie Polack",
+  "Brasserie Hildegarde"
+ ]
+}
