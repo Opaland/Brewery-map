@@ -137,6 +137,18 @@ chacun demande une décision ou une vérification de source.
   mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
 - Horaires : le schéma n'a pas de saisons ; les horaires d'été des
   Ursulines sont dans la remarque (lot S13).
+- **e2e instable, cause inconnue** (16/10, S17) : `hors-ligne.spec.ts:60`
+  (bandeau hors connexion, mobile) a échoué une fois en suite complète,
+  sans message relevé ; ni la suite relancée ni 130 répétitions ne l'ont
+  reproduit. À capturer (trace) s'il revient, pas à relancer.
+- **Brasserie fermée** (revue métier S17, Bernard) : le schéma n'a pas de
+  statut « fermée ». Dr D. Brewpub (Untappd : « no longer in business ») et
+  Maltobar (brassage arrêté) resteraient « À confirmer », la raison en tête
+  de note. Retirer la fiche, ou un statut à ajouter ? Décision de Cédric.
+- Lot S17, pistes non suivies : `curation/s17-lot-4-sans-proposition.md`
+  (La Dourbie, Grésiv'ale à rouvrir ; communes à confirmer pour La
+  Montagnarde, Vellavia, Kiltin', Two Dudes). Horaires d'été de La Grange du
+  Seigneur : saisons dans la remarque, comme les Ursulines.
 
 ## Lots de curation non faits
 

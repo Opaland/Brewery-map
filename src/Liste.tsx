@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
 import {
-  AVERTISSEMENT_HORAIRES,
+  avertissementHoraires,
   hoteDeSource,
   libelleConfiance,
   libellePrecision,
@@ -84,7 +84,7 @@ function Fiche({
           {libelleConfiance(brasserie.conf)}
           <span className="fiche-aide">{SENS_CONFIANCE[brasserie.conf]}</span>
           <span className="fiche-aide" data-testid="fiche-avertissement">
-            {AVERTISSEMENT_HORAIRES}
+            {avertissementHoraires(brasserie)}
           </span>
         </dd>
 

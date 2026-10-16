@@ -36,7 +36,7 @@ durée se relève sur l'horodatage des commits.
 | S14 | 200 k | — | revues 115 k (code non relevé) | terminé (#14) ; lot en attente de Cédric |
 | S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
-| S17 | 300 k | — | en cours | en cours |
+| S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -947,7 +947,7 @@ sprints avec revue + revue globale »).
      même question que Georges en S12) ; la commune de Paille (le site dit
      Lournand, la fiche Château).
 
-## S17 — Curation, lot 4 *(en cours)*
+## S17 — Curation, lot 4 *(terminé le 16/10 ; lot en attente de Cédric)*
 
 1. **Objectif.** Les 26 derniers « À confirmer » jamais revus : après ce
    lot, chacun des 101 l'a été au moins une fois.
@@ -957,4 +957,41 @@ sprints avec revue + revue globale »).
    absent des pages dans `choix`.
 3. **Persona juge.** Bernard : ce qu'il voit d'une fiche encore « À
    confirmer » une fois tout revu.
-4. **État final et restes.** *(à la clôture)*
+4. **État final et restes.** 26 fiches revues : `lot 200` ne rend plus
+   rien, les 101 « À confirmer » ont tous été revus une fois. 12
+   propositions (`curation/s17-lot-4.md`, empreinte `b977dc4582d3`) : deux
+   catégories 1 (La Grange du Seigneur, P'tit Labo), 6 téléphones, 26
+   bières typées sur 4 fiches, deux fermetures dites en tête de note (Dr D.,
+   Maltobar). Les 14 fiches sans proposition sont expliquées une à une dans
+   `curation/s17-lot-4-sans-proposition.md`. Budget dépassé de 14 %
+   (≈ 342 k pour 300 k), sous le seuil d'arrêt.
+   - **Revue métier (Bernard, 50 k)** — corrigé :
+     - « appelez en cas de doute » s'affichait sur les 166 fiches, dont
+       aucune n'a de téléphone : l'avertissement ne le dit plus que si un
+       numéro est connu (contact ou note) ; test unitaire vu rouge, e2e mis
+       à jour ;
+     - « Seuls ceux cités dans "Ce que dit la source" sont connus »
+       promettait des horaires à des notes qui n'en citent pas : « S'il y en
+       a de connus, ils sont cités… » ; test vu rouge ;
+     - 14 fiches revues sans un mot sur ce qui avait été cherché : compte
+       rendu par fiche ;
+     - fermetures lisibles seulement en fin de note : « Fermée selon
+       Untappd », « Brassage arrêté » en tête.
+   - **Revue adverse (80 k)** — corrigé :
+     - Two Dudes : le site dit Crêches-sur-Saône, la fiche Tournus ; dit
+       dans le choix, à décider ;
+     - Caquot : l'Aix Riviera, mise en « autre » par ma relecture, est
+       « Type : Blonde » sur sa page — remise en blonde, la preuve citée ;
+     - La Grange du Seigneur : le site de la brasserie, donné pour en panne,
+       répondait ; la proposition est refaite depuis lui (vente et bar sur
+       place, horaires d'été en « vente », mobile publié par la brasserie,
+       huit bières avec leur page) ;
+     - P'tit Labo : Privateaser ne prouvait pas la vente, retiré ; un seul
+       numéro, pas deux ;
+     - Maltobar : la note dit que la fiche de l'office n'est peut-être pas à
+       jour ;
+     - La Bonne Fabrique : le site est celui du lieu associatif, il n'est
+       plus proposé comme « site de la brasserie ».
+   - **Reste, décisions de Cédric** : les 12 propositions ; un statut
+     « fermée » (BACKLOG) ; les communes de Two Dudes, La Montagnarde,
+     Vellavia et Kiltin'.
