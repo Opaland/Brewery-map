@@ -1,7 +1,12 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import type { Brasserie } from '../../src/core/schema'
-import { lienAjout, lienSignalement, LONGUEUR_MAX_URL } from '../../src/core/signalement'
+import {
+  lienAjout,
+  lienSignalement,
+  LONGUEUR_MAX_URL,
+  SUITE_SIGNALEMENT,
+} from '../../src/core/signalement'
 import { LIGNES_REELLES } from './lignes-reelles'
 
 const TOUTES = LIGNES_REELLES as unknown as Brasserie[]
@@ -24,6 +29,12 @@ describe('le lien « Signaler une erreur »', () => {
     expect(corps).toContain(B.n)
     expect(corps).toContain(`${B.c} (${B.d})`)
     expect(corps).toContain(B.addr)
+  })
+
+  it('dit dans l’issue ce qui se passe ensuite : qui décide, sans délai promis (revue S10)', () => {
+    const corps = parametres(lienSignalement(B)).get('body') ?? ''
+    expect(corps).toContain(SUITE_SIGNALEMENT)
+    expect(SUITE_SIGNALEMENT).toMatch(/Aucun délai n’est garanti/)
   })
 
   it('demande ce qui est faux, la bonne information et une source', () => {

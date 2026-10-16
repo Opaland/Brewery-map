@@ -10,34 +10,42 @@ test.beforeEach(async ({ page }) => {
 test.describe('« Signaler une erreur » (Une brasserie)', () => {
   test.use({ geolocation: ANSE, permissions: ['geolocation'] })
 
-  test('la fiche ouvre une issue préremplie, sans la position ni la distance', async ({ page }) => {
+  /*
+    Comparaison structurelle (revue code S10) : chercher des fragments
+    (« ≈ 3 km », « 45.93 ») laissait passer « 3,2 km » ou « 46.0 N ». Le lien
+    d'une même brasserie doit être identique au caractère près, qu'on parte
+    de Brignais ou de sa position : il ne dépend donc pas de la position.
+  */
+  test('le lien d’une fiche est le même avec ou sans « autour de moi »', async ({ page }) => {
+    const lienDe = async (nom: string) => {
+      await page.getByTestId('recherche').fill(nom)
+      const ligne = page.locator(`button.ligne[data-nom="${nom}"]`)
+      if ((await ligne.getAttribute('aria-expanded')) !== 'true') await ligne.click()
+      return (await page.getByTestId('fiche-signaler').getByRole('link').getAttribute('href')) ?? ''
+    }
     await page.goto('/')
+    await page.getByTestId('rayon').fill('100')
+    const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''
+    const depuisBrignais = await lienDe(nom)
+    expect(new URL(depuisBrignais).searchParams.get('title')).toContain(nom)
+
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
-    const premiere = page.locator('button.ligne').first()
-    const nom = (await premiere.getAttribute('data-nom')) ?? ''
-    // La distance telle qu'affichée sur la ligne : elle ne doit pas partir.
-    const lieu = (await premiere.locator('.ligne-lieu').textContent()) ?? ''
-    const distance = lieu.split('·').at(-1)?.trim() ?? ''
-    expect(distance).toMatch(/km|m$/)
-    await premiere.click()
+    expect(await lienDe(nom)).toBe(depuisBrignais)
+  })
 
-    const lien = page.getByTestId('fiche-signaler').getByRole('link')
-    await expect(lien).toHaveText('Signaler une erreur sur cette fiche')
-    await expect(lien).toHaveAttribute('target', '_blank')
-    await expect(lien).toHaveAttribute('rel', /noreferrer/)
-    const href = (await lien.getAttribute('href')) ?? ''
-    const u = new URL(href)
-    expect(u.origin + u.pathname).toBe('https://github.com/Opaland/Brewery-map/issues/new')
-    expect(u.searchParams.get('title')).toContain(nom)
-    // Lu par `URL`, pas par decodeURIComponent : celui-ci laisse les « + »
-    // des espaces, et « 12,3 km » n'était jamais trouvé (vu passer avec la
-    // distance injectée dans le lien, S10).
-    const tout = [...u.searchParams.values()].join('\n')
-    expect(tout).not.toContain('45.93')
-    expect(tout).not.toContain('4.72')
-    expect(tout).not.toContain(distance)
-    expect(tout).not.toMatch(/position/i)
+  test('le lien part dans un nouvel onglet, sans adresse d’origine', async ({ page }) => {
+    await page.goto('/')
+    await page.locator('button.ligne').first().click()
+    for (const lien of [
+      page.getByTestId('fiche-signaler').getByRole('link'),
+      page.getByTestId('signaler-absente').getByRole('link'),
+    ]) {
+      await expect(lien).toHaveAttribute('target', '_blank')
+      await expect(lien).toHaveAttribute('rel', /noreferrer/)
+      const u = new URL((await lien.getAttribute('href')) ?? '')
+      expect(u.origin + u.pathname).toBe('https://github.com/Opaland/Brewery-map/issues/new')
+    }
   })
 
   test('l’écran dit qu’il faut un compte GitHub et que le signalement est public', async ({
@@ -48,6 +56,8 @@ test.describe('« Signaler une erreur » (Une brasserie)', () => {
     const aide = page.getByTestId('fiche-signaler')
     await expect(aide).toContainText('compte GitHub')
     await expect(aide).toContainText('sera public')
+    await expect(aide).toContainText('pas d’autre moyen pour l’instant')
+    await expect(aide).toContainText('Aucun délai n’est garanti')
   })
 
   test('une brasserie absente se signale depuis le pied de page', async ({ page }) => {

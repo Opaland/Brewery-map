@@ -11,7 +11,7 @@ import {
 } from './core/fiche'
 import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
-import { lienSignalement } from './core/signalement'
+import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import { Bieres } from './Bieres'
 import { Contact } from './Contact'
 import { Horaires } from './Horaires'
@@ -29,8 +29,7 @@ interface Props {
  * que la fiche, déjà publique ; `noreferrer` : GitHub ne reçoit pas l'adresse
  * de la page d'où l'on vient.
  */
-export const AIDE_SIGNALEMENT =
-  'Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit). Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris.'
+export const AIDE_SIGNALEMENT = `Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit). ${SANS_COMPTE} Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris. ${SUITE_SIGNALEMENT}`
 
 const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`
 

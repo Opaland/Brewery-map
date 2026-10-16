@@ -29,7 +29,7 @@ durée se relève sur l'horodatage des commits.
 | S7 | 180 k | — | ≈ 110 k (dont revues : 49 k) | terminé, page publiée sondée (porte, déploiement, sonde vertes) |
 | S8 | 180 k | — | non relevé précisément (revues comprises) | terminé, mergé (#8), page publiée sondée |
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
-| S10 | 180 k | — | non relevé précisément | en cours |
+| S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | code prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -578,7 +578,7 @@ sprints avec revue + revue globale »).
      fiche seulement ; longueur du bloc de filtres ; message des favoris
      cachés sans limite.
 
-## S10 — Signaler une erreur *(en cours)*
+## S10 — Signaler une erreur *(terminé le 16/10 — code ; page publiée à sonder)*
 
 1. **Objectif.** Une brasserie, ou un client, corrige une fiche sans
    serveur : un lien ouvre une issue GitHub préremplie.
@@ -602,6 +602,22 @@ sprints avec revue + revue globale »).
    - Un test de S2 lisait la liste sans attendre (`allTextContents`) ;
      depuis S9 le rendu suit la lecture d'IndexedDB : il échouait en suite
      complète seulement. Il attend désormais la première ligne.
-   - Longueur mesurée : 929 caractères au plus sur les 166 lignes.
-6. **État final et restes.** *(à la clôture)*
+   - Longueur mesurée : 929 caractères au plus sur les 166 lignes (avant
+     l'ajout de la suite et des consignes, que le test de longueur couvre).
+6. **État final et restes.** Revues faites (au moins 66 k : 36 k et 30 k
+   comptés après une reprise sur limite d'usage, la première passe non
+   comptée), corrections appliquées le 16/10 :
+   - **Revue code** — corrigé : le test e2e de fuite cherchait encore des
+     fragments (« ≈ 3 km ») et laissait passer « 3,2 km » ou « 46.0 N ». Il
+     compare désormais le lien d'une même fiche depuis Brignais et depuis
+     la position : identique au caractère près. Vu rouge avec la distance à
+     une décimale injectée. Le pied de page est aussi testé (`noreferrer`,
+     nouvel onglet). Reste : longueur des champs recopiés (BACKLOG).
+   - **Revue métier (Une brasserie)** — corrigé : l'écran et l'issue disent
+     ce qui se passe ensuite (l'éditeur décide, sans source rien ne change,
+     aucun délai garanti) ; l'absence d'autre voie que GitHub est dite telle
+     quelle ; exemples sous « Ce qui est faux » et « La bonne
+     information » ; consigne de preuve pour la brasserie ; le pied de page
+     dit où trouver le lien d'une fiche. Reste à **décider par Cédric** :
+     une voie hors GitHub (BACKLOG).
 

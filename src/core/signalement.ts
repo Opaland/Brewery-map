@@ -15,6 +15,18 @@ import type { Brasserie } from './schema'
 const DEPOT = 'https://github.com/Opaland/Brewery-map/issues/new'
 
 /**
+ * Ce qui se passe après l'envoi, dit à l'écran **et** dans l'issue (revue
+ * métier S10). Vrai d'après le processus du plan (SPRINTS.md, « Comment les
+ * À confirmer se reconfirment ») et CLAUDE.md §0 : Cédric décide ligne par
+ * ligne. Aucun délai n'est établi : il n'en est promis aucun.
+ */
+export const SUITE_SIGNALEMENT =
+  'Chaque signalement est lu par l’éditeur de la carte, qui décide de changer ou non la fiche. Sans source qui montre l’information, la fiche ne change pas. Aucun délai n’est garanti.'
+
+/** Dit tel quel faute d'autre voie : aucune adresse de contact n'a été décidée (BACKLOG). */
+export const SANS_COMPTE = 'Pas de compte GitHub ? Il n’y a pas d’autre moyen pour l’instant.'
+
+/**
  * Garde-fou de test, pas une limite connue de GitHub (non mesurée) :
  * 2 000 caractères, sous les 2 083 d'Internet Explorer, valeur prudente
  * d'usage pour un lien. Mesuré le 15/10 : 929 au plus sur les 166 lignes.
@@ -30,9 +42,11 @@ function lien(titre: string, corps: string): string {
 
 const QUESTIONS = [
   '## Ce qui est faux',
+  '(par exemple : « on ne peut pas consommer sur place », « l’adresse a changé »)',
   '',
   '',
   '## La bonne information',
+  '(par exemple : « bar ouvert le samedi de 15 h à 20 h »)',
   '',
   '',
   '## Une source qui le montre',
@@ -40,8 +54,11 @@ const QUESTIONS = [
   '',
   '',
   '## Vous êtes',
-  '- [ ] la brasserie',
+  '- [ ] la brasserie — un lien vers une page de votre site officiel aide à vérifier',
   '- [ ] un client ou une cliente',
+  '',
+  '---',
+  SUITE_SIGNALEMENT,
 ].join('\n')
 
 export function lienSignalement(b: Brasserie): string {
