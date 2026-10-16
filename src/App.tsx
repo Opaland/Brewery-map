@@ -457,6 +457,24 @@ export function App({
             : '.'}
         </p>
       )}
+      {osm.etat === 'echec' && (
+        <div className="champ-aide" role="status" data-testid="osm-absente">
+          <p>
+            Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les
+            fiches vérifiées, dans {DEPARTEMENTS.length} départements, sont là.
+          </p>
+          <div className="depart-actions">
+            <button
+              type="button"
+              onClick={() => {
+                window.location.reload()
+              }}
+            >
+              Recharger la page
+            </button>
+          </div>
+        </div>
+      )}
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
           {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
@@ -508,7 +526,9 @@ export function App({
           leur commune (à environ 2 km près) ; celles d’OpenStreetMap, au point de la carte.
         </p>
         <p data-testid="sources-osm">
-          Brasseries hors des fiches vérifiées : © contributeurs OpenStreetMap, licence ODbL
+          Brasseries hors des fiches vérifiées : ©{' '}
+          <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>, licence
+          ODbL
           {osm.extrait === '' ? '' : `, extrait du ${osm.extrait.slice(0, 10)}`} — repérées comme
           brasseries, rien d’autre n’est vérifié.
         </p>

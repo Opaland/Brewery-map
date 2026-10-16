@@ -15,7 +15,8 @@
  *
  * Usage : `npx tsx outils/osm-france.ts` (réseau requis, une minute ou deux).
  */
-import { readFile, writeFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { CommuneFrance, Rectangle } from '../src/core/communes'
 import { classerCandidats, type CandidatOsm } from '../src/core/decouverte'
@@ -93,6 +94,31 @@ for (const [quoi, rect] of Object.entries(RECTANGLES_REQUETE)) {
   console.log(`${quoi} : ${String(r.elements.length)} éléments`)
 }
 
+/**
+ * Le pays d'un point dont la commune est déduite (sans code postal ni ville),
+ * lu par Nominatim (`reverse`, `zoom=3`). Revue adverse S25 : 28 des 649
+ * premiers étaient à l'étranger (Orval, Westvleteren…), rattachés à une
+ * commune française voisine. Gardé dans `outils/cache/pays-osm.json` : une
+ * requête par point et par lancement au plus, une par seconde (règle
+ * d'usage de Nominatim).
+ */
+const CACHE_PAYS = path.resolve('outils/cache/pays-osm.json')
+const pays: Partial<Record<string, string>> = existsSync(CACHE_PAYS)
+  ? (JSON.parse(await readFile(CACHE_PAYS, 'utf8')) as Record<string, string>)
+  : {}
+async function paysDe(osm: string, lat: number, lon: number): Promise<string> {
+  const deja = pays[osm]
+  if (deja !== undefined) return deja
+  await new Promise((ok) => setTimeout(ok, 1100))
+  const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=3&lat=${String(lat)}&lon=${String(lon)}`
+  const r = await fetch(url, { headers: { 'User-Agent': AGENT } })
+  if (!r.ok) throw new Error(`Nominatim ${String(r.status)} pour ${osm}`)
+  const j = (await r.json()) as { address?: { country_code?: string } }
+  const code = j.address?.country_code ?? '?'
+  pays[osm] = code
+  return code
+}
+
 const exclus = new Map<string, number>()
 const candidats: (CandidatOsm & { deduite: boolean })[] = []
 let plusLoin = 0
@@ -100,6 +126,10 @@ for (const b of lus) {
   const r = rattacher(b, communes, rectangles)
   if ('exclu' in r) {
     exclus.set(r.exclu, (exclus.get(r.exclu) ?? 0) + 1)
+    continue
+  }
+  if (r.deduite && (await paysDe(b.osm, b.lat, b.lon)) !== 'fr') {
+    exclus.set('à l’étranger selon Nominatim', (exclus.get('à l’étranger selon Nominatim') ?? 0) + 1)
     continue
   }
   const proche = communes.reduce((m, c) => Math.min(m, distanceKm(b, { lat: c[2], lon: c[3] })), Infinity)
@@ -136,6 +166,12 @@ for (const c of classes) {
   }
   gardes.push(original)
 }
+
+await mkdir(path.dirname(CACHE_PAYS), { recursive: true })
+await writeFile(
+  CACHE_PAYS,
+  `${JSON.stringify(Object.fromEntries(Object.entries(pays).sort(([a], [b]) => a.localeCompare(b))), null, 1)}\n`,
+)
 
 gardes.sort((a, b) => a.osm.localeCompare(b.osm))
 const uniques = nomsUniques(

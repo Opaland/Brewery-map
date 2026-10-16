@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { politiqueDeSecurite } from './build/csp.ts'
+import { prechargerCoucheOsm } from './build/precharger.ts'
 import { precacheServiceWorker } from './build/precache-sw.ts'
 import { validerDonnees, validerDonneesOsm } from './build/valider-donnees.ts'
 
@@ -10,7 +11,7 @@ export default defineConfig({
   // Repris de Sentiers, où ce réglage évite par construction le piège du
   // chemin de base GitHub Pages.
   base: './',
-  plugins: [react(), validerDonnees(), validerDonneesOsm(), precacheServiceWorker(), politiqueDeSecurite()],
+  plugins: [react(), validerDonnees(), validerDonneesOsm(), precacheServiceWorker(), politiqueDeSecurite(), prechargerCoucheOsm()],
   test: {
     include: ['tests/unit/**/*.test.ts'],
     environment: 'node',

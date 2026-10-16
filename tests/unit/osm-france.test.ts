@@ -203,6 +203,12 @@ describe('dejaDansLeFichier (S25 : un même lieu sous deux noms voisins)', () =>
     expect(dejaDansLeFichier({ nom: 'Microbrasserie Caribrew', lat: 45.67, lon: 4.79 }, fichier)).toBe('Caribrew')
   })
 
+  it('« L’écume du Guier » et « L’Écume du Guiers » : le pluriel près (revue adverse S25)', () => {
+    expect(
+      dejaDansLeFichier({ nom: 'L’écume du Guier', lat: 45.52, lon: 5.75 }, [fiche('L’Écume du Guiers', 45.55, 5.78)]),
+    ).toBe('L’Écume du Guiers')
+  })
+
   it('« Chez Georges » à 400 km de « Brasserie Georges » : une autre', () => {
     expect(dejaDansLeFichier({ nom: 'Chez Georges', lat: 48.2, lon: 7.8 }, fichier)).toBeUndefined()
   })
@@ -245,5 +251,17 @@ describe('affichage d’une fiche OSM (revue persona S25)', () => {
     expect(estDeOsm(b)).toBe(true)
     expect(siteOsm(b)).toBe('https://exemple.fr')
     expect(noteDeLigne(b)).toBe('Repérée sur OpenStreetMap ; rien d’autre n’est vérifié. Commune déduite de sa position.')
+  })
+})
+
+describe('adresse d’une fiche à commune déduite (revue adverse S25)', () => {
+  it('la rue seule reçoit la commune, dite déduite', () => {
+    const [b] = brasseriesDepuisFichierOsm({
+      source: '',
+      licence: '',
+      extrait: '',
+      brasseries: [['La Birra Menta', 'node/5', 'Beaufort', '73', 45.71, 6.57, '146 Route du Planay', '', 1]],
+    })
+    expect(b.addr).toBe('146 Route du Planay, Beaufort (commune déduite)')
   })
 })

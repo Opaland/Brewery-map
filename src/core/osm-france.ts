@@ -230,7 +230,9 @@ export function brasseriesDepuisFichierOsm(f: FichierOsm): BrasserieOsm[] {
     cat: 0,
     conf: '',
     note: deduite === 1 ? NOTE_OSM + NOTE_COMMUNE_DEDUITE : NOTE_OSM,
-    addr: adresse === '' ? c : adresse,
+    // Une rue sans commune se lirait n'importe où : la commune s'ajoute, dite
+    // déduite (revue adverse S25 : 123 adresses sans commune ni code postal).
+    addr: adresse === '' ? c : deduite === 1 ? `${adresse}, ${c} (commune déduite)` : adresse,
     src: `https://www.openstreetmap.org/${osm}`,
     coordPrecision: 'osm',
     beers: [],
@@ -247,6 +249,12 @@ export function brasseriesDepuisFichierOsm(f: FichierOsm): BrasserieOsm[] {
 const RAYON_MEME_BRASSERIE_KM = 20
 
 const contientMot = (a: string, b: string) => ` ${a} `.includes(` ${b} `)
+/** « guiers » et « guier » : le pluriel ne fait pas une autre brasserie (revue adverse S25). */
+const auSingulier = (k: string) =>
+  k
+    .split(' ')
+    .map((m) => (m.length > 3 && m.endsWith('s') ? m.slice(0, -1) : m))
+    .join(' ')
 
 /**
  * Le nom de la fiche du fichier qui est probablement la même brasserie :
@@ -256,10 +264,10 @@ export function dejaDansLeFichier(
   c: { nom: string; lat: number; lon: number },
   fichier: readonly Brasserie[],
 ): string | undefined {
-  const k = coeurDuNom(c.nom)
+  const k = auSingulier(coeurDuNom(c.nom))
   if (k === '') return undefined
   for (const b of fichier) {
-    const kb = coeurDuNom(b.n)
+    const kb = auSingulier(coeurDuNom(b.n))
     if (kb === '' || !(kb === k || contientMot(kb, k) || contientMot(k, kb))) continue
     if (distanceKm(c, b) < RAYON_MEME_BRASSERIE_KM) return b.n
   }

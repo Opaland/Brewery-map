@@ -218,3 +218,21 @@ test('aucune erreur JavaScript au chargement ni en allant à la carte', async ({
   await versLaCarte(page)
   expect(erreurs).toEqual([])
 })
+
+test.describe('sans la couche OpenStreetMap (revue adverse S25)', () => {
+  test('refusée : l’écran le dit, les fiches vérifiées restent', async ({ page }) => {
+    await page.route(/brasseries-osm-.*\.js$/, (r) => r.abort())
+    await page.goto('/')
+    await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+    await expect(page.getByTestId('osm-absente')).toContainText('n’ont pas pu se charger')
+    await expect(page.getByTestId('avec-osm')).toHaveCount(0)
+  })
+
+  test('jamais servie : pas de page blanche, l’écran part sans elle', async ({ page }) => {
+    // La requête reste pendante : aucune réponse, jamais.
+    await page.route(/brasseries-osm-.*\.js$/, () => undefined)
+    await page.goto('/')
+    await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible({ timeout: 6000 })
+    await expect(page.getByTestId('osm-absente')).toBeVisible()
+  })
+})
