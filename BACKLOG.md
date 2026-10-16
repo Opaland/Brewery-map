@@ -113,6 +113,31 @@ chacun demande une décision ou une vérification de source.
   déplacement ; La Canute Lyonnaise : faut-il reprendre le 06 24 11 06 71,
   ligne de commande des professionnels ?
 
+- Curation S13, **décisions de Cédric** (pistes lues, non proposées) :
+  - Fiches dont l'identité, la commune ou l'adresse semble avoir changé
+    (procédure de déplacement à décider) : La Gaudine (Brasserie de la
+    Semène) — point de vente rouvert à Marlhes, nom « La Gaudine » introuvable ;
+    Brasserie de la Sanne — annuaires à Salaise-sur-Sanne ; Brasserie
+    Longue Vie — son lien mène à une brasserie de Saint-Félicien ; Malt
+    Emoi — reprise sous le nom « Brasserie l'Ain Pressure » (résumés de
+    recherche seulement).
+  - Numéros publiés par un annuaire ou un office, pas par la brasserie :
+    Bière des Frères Clavel (06 72 92 89 06), La Margau (04 82 28 37 86),
+    Brasserie Longue Vie (06 72 71 67 45), Brasserie de la Sanne
+    (06 52 50 53 05).
+  - Miellerie Gachet : vente sur les marchés et en point de vente
+    collectif ; catégorie 2 ou non ?
+  - La Cadole : « vente de différents types de bières », sans dire où.
+  - Pages illisibles ou mortes le 16/10 : Mozel'âne (domaine introuvable :
+    la note « site bloqué » est à revoir), Graine 2 Bulles (403), Casino de
+    Montrond (403), page « Où nous trouver » de Brasserie de la Loire.
+
+- Liste : la confiance (élevée, moyenne, faible) n'apparaît que dans la
+  fiche dépliée ; sur la ligne, le badge et le filtre de catégorie sont les
+  mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
+- Horaires : le schéma n'a pas de saisons ; les horaires d'été des
+  Ursulines sont dans la remarque (lot S13).
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

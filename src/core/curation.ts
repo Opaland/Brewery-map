@@ -76,8 +76,17 @@ export const lotSchema = z
   .object({
     lot: z.string().min(1),
     propositions: z.array(propositionSchema),
+    /**
+     * Toutes les fiches revues par ce lot, avec ou sans proposition : le lot
+     * suivant les passe (S13 — sans cela, les fiches revues sans résultat,
+     * que `data/` ne garde pas, revenaient au lot suivant).
+     */
+    revues: z.array(z.string().min(1)).optional(),
   })
   .strict()
+  .refine((l) => l.revues === undefined || l.propositions.every((p) => l.revues?.includes(p.n)), {
+    message: 'chaque fiche proposée figure dans « revues »',
+  })
 
 export type Proposition = z.infer<typeof propositionSchema>
 export type Lot = z.infer<typeof lotSchema>
@@ -244,9 +253,14 @@ export function diffLisible(
  * la vérification la plus ancienne ; à égalité, la plus proche de l'origine.
  * Ordre du plan v2 (SPRINTS.md : « les 25 À confirmer les plus proches »).
  */
-export function lotSuivant(brasseries: readonly Brasserie[], taille: number, origine: Point): string[] {
+export function lotSuivant(
+  brasseries: readonly Brasserie[],
+  taille: number,
+  origine: Point,
+  dejaRevues: ReadonlySet<string> = new Set(),
+): string[] {
   return brasseries
-    .filter((b) => b.cat === 0)
+    .filter((b) => b.cat === 0 && !dejaRevues.has(b.n))
     .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', d: distanceKm(origine, b) }))
     .sort((a, b) => a.verifie.localeCompare(b.verifie) || a.d - b.d)
     .slice(0, taille)
@@ -307,4 +321,50 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const corps = [premier, ...reste].join(sep)
   const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
   return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+}
+
+/**
+ * Les fiches déjà revues, d'après les fichiers de `curation/` : le champ
+ * `revues` de chaque lot (ou, à défaut, ses propositions) et
+ * `curation/revues.json` ({ "<lot>": [noms…] }, clés « _… » ignorées) pour
+ * les lots d'avant ce champ. **Échoue en nommant le fichier** sur un contenu
+ * mal formé ou un nom absent des données : ignorer sans bruit faisait
+ * revenir une fiche au lot suivant (revue code S13).
+ */
+export function revuesDesFichiers(
+  fichiers: readonly { nom: string; contenu: unknown }[],
+  noms: ReadonlySet<string>,
+): { ok: true; revues: Set<string> } | { ok: false; erreurs: string[] } {
+  const revues = new Set<string>()
+  const erreurs: string[] = []
+  const listeDeNoms = z.array(z.string().min(1))
+  const ajouter = (fichier: string, liste: readonly string[]) => {
+    for (const n of liste) {
+      if (noms.has(n)) revues.add(n)
+      else erreurs.push(`${fichier} : « ${n} » n'est pas une fiche de data/`)
+    }
+  }
+  for (const { nom, contenu } of fichiers) {
+    if (nom === 'revues.json') {
+      const r = z.record(z.string(), z.unknown()).safeParse(contenu)
+      if (!r.success) {
+        erreurs.push(`${nom} : objet { "<lot>": [noms…] } attendu`)
+        continue
+      }
+      for (const [cle, valeur] of Object.entries(r.data)) {
+        if (cle.startsWith('_')) continue
+        const l = listeDeNoms.safeParse(valeur)
+        if (l.success) ajouter(nom, l.data)
+        else erreurs.push(`${nom} : « ${cle} » n'est pas une liste de noms`)
+      }
+      continue
+    }
+    const l = lotSchema.safeParse(contenu)
+    if (!l.success) {
+      erreurs.push(`${nom} : lot invalide (${l.error.issues.map((i) => i.message).join(' ; ')})`)
+      continue
+    }
+    ajouter(nom, l.data.revues ?? l.data.propositions.map((p) => p.n))
+  }
+  return erreurs.length > 0 ? { ok: false, erreurs } : { ok: true, revues }
 }

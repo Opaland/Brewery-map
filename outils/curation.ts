@@ -28,7 +28,7 @@
  *     S11).
  */
 import { createHash } from 'node:crypto'
-import { readFileSync, writeFileSync } from 'node:fs'
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import {
   appliquerLot,
   diffLisible,
@@ -37,6 +37,7 @@ import {
   lireLot,
   lotSuivant,
   numeroSurLaPage,
+  revuesDesFichiers,
 } from '../src/core/curation'
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
@@ -101,10 +102,31 @@ async function controler(chemin: string | undefined) {
 
 const [commande, ...args] = process.argv.slice(2)
 
+/** Les fiches déjà revues par les lots de `curation/` ; échoue en nommant le fichier fautif. */
+function dejaRevues(brasseries: readonly { n: string }[]): Set<string> {
+  let fichiers: string[]
+  try {
+    fichiers = readdirSync('curation').filter((f) => f.endsWith('.json'))
+  } catch {
+    return new Set()
+  }
+  const lus = fichiers.map((nom) => {
+    try {
+      return { nom, contenu: JSON.parse(readFileSync(`curation/${nom}`, 'utf8')) as unknown }
+    } catch (e) {
+      return sortir(`curation/${nom} : JSON illisible (${String(e)})`, 1)
+    }
+  })
+  const r = revuesDesFichiers(lus, new Set(brasseries.map((b) => b.n)))
+  if (!r.ok) sortir(`fiches déjà revues illisibles :\n${r.erreurs.join('\n')}`, 1)
+  return r.revues
+}
+
 if (commande === 'lot') {
   const taille = Number(args[0] ?? '25')
   if (!Number.isInteger(taille) || taille < 1) sortir('taille entière attendue', 2)
-  sortir(lotSuivant(donnees(), taille, BRIGNAIS).join('\n'), 0)
+  const d = donnees()
+  sortir(lotSuivant(d, taille, BRIGNAIS, dejaRevues(d)).join('\n'), 0)
 } else if (commande === 'signalement') {
   const n = ficheDuSignalement(args[0] ?? '', donnees())
   sortir(n ?? 'aucune fiche : titre retouché ou fiche inconnue, à rattacher à la main', n === null ? 1 : 0)
