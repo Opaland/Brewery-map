@@ -77,6 +77,24 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     expect(r.sortie.trim().split('\n')).toHaveLength(3)
   })
 
+  it('la découverte n’écrase jamais un lot existant, en attente de Cédric (revue code S15)', () => {
+    mkdirSync(join(dossier, 'curation'))
+    const brut = join(dossier, 'curation', 'osm-2026-10-16.json')
+    copyFileSync(join(RACINE, 'curation', 'osm-2026-10-16.json'), brut)
+    const decouvrir = (...a: string[]) => {
+      try {
+        execFileSync(TSX, [join(RACINE, 'outils', 'decouverte.ts'), '--depuis', brut, ...a], { cwd: dossier, stdio: 'pipe' })
+        return 0
+      } catch (e) {
+        return (e as { status: number }).status
+      }
+    }
+    expect(decouvrir('--lot', 'essai')).toBe(0)
+    const premier = readFileSync(join(dossier, 'curation', 'essai.json'), 'utf8')
+    expect(decouvrir('--lot', 'essai')).not.toBe(0)
+    expect(readFileSync(join(dossier, 'curation', 'essai.json'), 'utf8')).toBe(premier)
+  })
+
   it('avec la bonne empreinte, seule la fiche acceptée change', () => {
     const e = empreinte()
     expect(e).toMatch(/^[0-9a-f]{12}$/)

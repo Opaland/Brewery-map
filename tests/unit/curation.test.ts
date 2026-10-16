@@ -263,18 +263,29 @@ describe('le lot suivant', () => {
     expect(lireLot({ ...deux, revues: [NOM, 'Autre'] }, AUJOURDHUI).ok).toBe(true)
   })
 
-  it('veille (S15) : toutes catégories, la vérification la plus ancienne d’abord', () => {
+  it('mode normal : une fiche revue reste passée, même datée (revue code S15)', () => {
+    const datee = { ...pres, verifieLe: '2026-02-01' }
+    expect(lotSuivant([datee, moyen], 25, BRIGNAIS, new Set(['Près']))).toEqual(['Moyen'])
+  })
+
+  it('veille (S15) : les catégories 1 à 3 seulement, jamais datées d’abord, catégorie 1 en tête', () => {
+    // Les « À confirmer » restent au lot normal : pas de doublon entre les deux
+    // (revue métier S15). Sans date, l'ordre est la catégorie (1 : consommer sur
+    // place, le critère de Cédric), puis la distance ; ensuite la date.
+    const achat = TOUTES.find((b) => b.cat === 2)
+    if (achat === undefined) throw new Error('il faut une catégorie 2')
     const verifiee = { ...vendue, n: 'Vendue vérifiée', verifieLe: '2026-01-01' }
     const recente = { ...vendue, n: 'Vendue récente', verifieLe: '2026-10-01' }
     const jamais = { ...vendue, n: 'Vendue jamais vérifiée' }
-    const noms = lotSuivant([recente, verifiee, jamais, pres], 25, BRIGNAIS, new Set(), { toutes: true })
-    // Jamais vérifiées d'abord, par distance (Près à 0,5 km, la vendue à Lyon 1er), puis par date.
-    expect(noms).toEqual(['Près', 'Vendue jamais vérifiée', 'Vendue vérifiée', 'Vendue récente'])
+    const achatProche = { ...achat, n: 'Achat proche', lat: pres.lat, lon: pres.lon }
+    const noms = lotSuivant([recente, verifiee, achatProche, jamais, pres], 25, BRIGNAIS, new Set(), { toutes: true })
+    expect(noms).toEqual(['Vendue jamais vérifiée', 'Achat proche', 'Vendue vérifiée', 'Vendue récente'])
   })
 
   it('veille : une fiche revue sans résultat est passée, une fiche datée revient à son tour', () => {
-    const datee = { ...pres, verifieLe: '2026-02-01' }
-    expect(lotSuivant([datee, moyen], 25, BRIGNAIS, new Set(['Près', 'Moyen']), { toutes: true })).toEqual(['Près'])
+    const datee = { ...vendue, n: 'Datée', verifieLe: '2026-02-01' }
+    const sansDate = { ...vendue, n: 'Sans date' }
+    expect(lotSuivant([datee, sansDate], 25, BRIGNAIS, new Set(['Datée', 'Sans date']), { toutes: true })).toEqual(['Datée'])
   })
 
   it('coupe à la taille demandée', () => {

@@ -322,12 +322,23 @@ export function lotSuivant(
   dejaRevues: ReadonlySet<string> = new Set(),
   { toutes = false }: { toutes?: boolean } = {},
 ): string[] {
-  // `toutes` (veille, S15) : toutes catégories ; une fiche revue sans
-  // résultat reste passée, une fiche datée revient quand son tour arrive.
+  // Mode normal : les « À confirmer » jamais revus ; une fiche revue est
+  // passée, même datée (revue code S15).
+  // Veille (`toutes`, S15) : les catégories 1 à 3, qui affirment quelque
+  // chose et peuvent vieillir — les « À confirmer » restent au mode normal,
+  // sans doublon. Une fiche revue sans résultat est passée ; une fiche datée
+  // revient à son tour.
+  const retenue = (b: Brasserie) =>
+    toutes ? b.cat !== 0 && !(dejaRevues.has(b.n) && b.verifieLe === undefined) : b.cat === 0 && !dejaRevues.has(b.n)
+  // Sans date, la veille prend la catégorie 1 d'abord (« acheter et consommer
+  // sur place », le critère de Cédric), puis 2 et 3 : ordre de présentation
+  // tranché au jugement (CLAUDE.md §2) ; écarté : la distance seule, qui
+  // revoyait toujours les mêmes fiches proches (revue métier S15).
+  const rangCategorie = (b: Brasserie) => (toutes ? b.cat : 0)
   return brasseries
-    .filter((b) => (toutes || b.cat === 0) && !(dejaRevues.has(b.n) && b.verifieLe === undefined))
-    .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', d: distanceKm(origine, b) }))
-    .sort((a, b) => a.verifie.localeCompare(b.verifie) || a.d - b.d)
+    .filter(retenue)
+    .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', rang: rangCategorie(b), d: distanceKm(origine, b) }))
+    .sort((a, b) => a.verifie.localeCompare(b.verifie) || a.rang - b.rang || a.d - b.d)
     .slice(0, taille)
     .map((x) => x.n)
 }
