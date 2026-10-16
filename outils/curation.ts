@@ -1,10 +1,10 @@
 /**
  * L'outil de curation (S11), en ligne de commande :
  *
- *   npx tsx outils/curation.ts lot 25
+ *   npx tsx outils/curation.ts lot 25 [--veille]
  *     Les 25 fiches « À confirmer » à revoir ensuite (jamais vérifiées
  *     d'abord, puis les plus anciennes ; à égalité, les plus proches de
- *     Brignais).
+ *     Brignais). Avec --veille (S15) : toutes catégories.
  *
  *   npx tsx outils/curation.ts signalement "Signalement : Nom (Commune)"
  *     La fiche visée par le titre d'une issue de signalement (S10).
@@ -127,7 +127,8 @@ const [commande, ...args] = process.argv.slice(2)
 function dejaRevues(brasseries: readonly { n: string }[]): Set<string> {
   let fichiers: string[]
   try {
-    fichiers = readdirSync('curation').filter((f) => f.endsWith('.json'))
+    // Les candidats OSM bruts (`osm-<date>.json`, S14) ne sont pas des lots.
+    fichiers = readdirSync('curation').filter((f) => f.endsWith('.json') && !f.startsWith('osm-'))
   } catch {
     return new Set()
   }
@@ -147,7 +148,8 @@ if (commande === 'lot') {
   const taille = Number(args[0] ?? '25')
   if (!Number.isInteger(taille) || taille < 1) sortir('taille entière attendue', 2)
   const d = donnees()
-  sortir(lotSuivant(d, taille, BRIGNAIS, dejaRevues(d)).join('\n'), 0)
+  const veille = args.includes('--veille')
+  sortir(lotSuivant(d, taille, BRIGNAIS, dejaRevues(d), { toutes: veille }).join('\n'), 0)
 } else if (commande === 'signalement') {
   const n = ficheDuSignalement(args[0] ?? '', donnees())
   sortir(n ?? 'aucune fiche : titre retouché ou fiche inconnue, à rattacher à la main', n === null ? 1 : 0)

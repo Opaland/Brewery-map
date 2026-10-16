@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process'
-import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, rmSync } from 'node:fs'
+import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
@@ -67,6 +67,14 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     expect(lancer('appliquer', LOT, '1-3').code).toBe(0)
     for (const n of ['3-1', '1-', '-2', '1--3']) expect(lancer('appliquer', LOT, n).code).toBe(2)
     expect(lancer('appliquer', LOT, '1-999999999').code).toBe(2)
+  })
+
+  it('« lot » ignore les candidats OSM bruts rangés dans curation/ (vu en S15 : il refusait de tourner)', () => {
+    mkdirSync(join(dossier, 'curation'))
+    writeFileSync(join(dossier, 'curation', 'osm-2026-10-16.json'), JSON.stringify({ source: 'x', lu: '2026-10-16', requetes: 1, candidats: [] }))
+    const r = lancer('lot', '3')
+    expect(r.code).toBe(0)
+    expect(r.sortie.trim().split('\n')).toHaveLength(3)
   })
 
   it('avec la bonne empreinte, seule la fiche acceptée change', () => {

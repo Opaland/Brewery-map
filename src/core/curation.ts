@@ -320,9 +320,12 @@ export function lotSuivant(
   taille: number,
   origine: Point,
   dejaRevues: ReadonlySet<string> = new Set(),
+  { toutes = false }: { toutes?: boolean } = {},
 ): string[] {
+  // `toutes` (veille, S15) : toutes catégories ; une fiche revue sans
+  // résultat reste passée, une fiche datée revient quand son tour arrive.
   return brasseries
-    .filter((b) => b.cat === 0 && !dejaRevues.has(b.n))
+    .filter((b) => (toutes || b.cat === 0) && !(dejaRevues.has(b.n) && b.verifieLe === undefined))
     .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', d: distanceKm(origine, b) }))
     .sort((a, b) => a.verifie.localeCompare(b.verifie) || a.d - b.d)
     .slice(0, taille)

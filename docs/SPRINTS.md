@@ -33,7 +33,8 @@ durée se relève sur l'horodatage des commits.
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
 | S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
 | S13 | 300 k | — | agents 157 k + revues 78 k | terminé (#13) ; lot en attente de Cédric |
-| S14 | 200 k | — | revues 115 k (code non relevé) | lot prêt, PR à ouvrir |
+| S14 | 200 k | — | revues 115 k (code non relevé) | terminé (#14) ; lot en attente de Cédric |
+| S15 | 200 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -796,7 +797,7 @@ sprints avec revue + revue globale »).
      faible ou moyenne ressemble à un badge élevé — la réserve n'est que
      dans la fiche dépliée (revue métier S13, BACKLOG).
 
-## S14 — Découverte de brasseries absentes *(terminé le 16/10 — lot en attente de Cédric)*
+## S14 — Découverte de brasseries absentes *(terminé le 16/10 — mergé (#14) ; lot en attente de Cédric)*
 
 1. **Objectif.** Proposer les brasseries qu'OpenStreetMap connaît et que
    le fichier n'a pas, **y compris au-delà des 100 km de Brignais**
@@ -865,4 +866,25 @@ sprints avec revue + revue globale »).
      liste (revue métier S14) ; les 4 homonymes (déménagement, second site
      ou autre brasserie ?). Overpass et l'API des entreprises restent
      injoignables depuis l'environnement.
+
+## S15 — Veille mensuelle *(en cours)*
+
+1. **Objectif.** Que les fiches se revérifient chaque mois sans que rien ne
+   change sans Cédric : signalements, fiches les plus anciennes, nouvelles
+   brasseries OSM, en une PR de propositions.
+2. **Périmètre.** `lotSuivant(…, { toutes })` et `lot --veille` (toutes
+   catégories, la vérification la plus ancienne d'abord ; une fiche revue
+   sans résultat reste passée, une fiche datée revient à son tour) ; skill
+   `veille` ; `docs/VEILLE.md` avec le message exact de la tâche.
+3. **Ce qui attend Cédric.** L'**armement** de la tâche planifiée (le 1er
+   du mois, une session neuve, une PR à décider) : une action hors de la
+   session, qui se répète seule. Rien n'est armé sans son accord.
+4. **Vu en route.** Depuis S14, `lot` refusait de tourner sur `main` : le
+   fichier brut `curation/osm-2026-10-16.json` était lu comme un lot
+   (la lecture stricte de S13 l'a fait échouer bruyamment, comme voulu).
+   Les fichiers `osm-*` sont désormais passés ; test de l'outil en dossier
+   jetable, vu rouge.
+5. **Persona juge.** Une brasserie : son signalement est-il repris chaque
+   mois, et le sait-elle ?
+6. **État final et restes.** *(à la clôture)*
 

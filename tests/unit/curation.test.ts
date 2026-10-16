@@ -263,6 +263,20 @@ describe('le lot suivant', () => {
     expect(lireLot({ ...deux, revues: [NOM, 'Autre'] }, AUJOURDHUI).ok).toBe(true)
   })
 
+  it('veille (S15) : toutes catégories, la vérification la plus ancienne d’abord', () => {
+    const verifiee = { ...vendue, n: 'Vendue vérifiée', verifieLe: '2026-01-01' }
+    const recente = { ...vendue, n: 'Vendue récente', verifieLe: '2026-10-01' }
+    const jamais = { ...vendue, n: 'Vendue jamais vérifiée' }
+    const noms = lotSuivant([recente, verifiee, jamais, pres], 25, BRIGNAIS, new Set(), { toutes: true })
+    // Jamais vérifiées d'abord, par distance (Près à 0,5 km, la vendue à Lyon 1er), puis par date.
+    expect(noms).toEqual(['Près', 'Vendue jamais vérifiée', 'Vendue vérifiée', 'Vendue récente'])
+  })
+
+  it('veille : une fiche revue sans résultat est passée, une fiche datée revient à son tour', () => {
+    const datee = { ...pres, verifieLe: '2026-02-01' }
+    expect(lotSuivant([datee, moyen], 25, BRIGNAIS, new Set(['Près', 'Moyen']), { toutes: true })).toEqual(['Près'])
+  })
+
   it('coupe à la taille demandée', () => {
     expect(lotSuivant(lignes, 2, BRIGNAIS)).toEqual(['Près', 'Moyen'])
   })
