@@ -57,6 +57,8 @@ const CHAMPS = {
   /** Par nom : les noms sont uniques (`brasseriesSchema`). */
   favoris: z.array(z.string().min(1)).refine(sansDoublon),
   favorisSeulement: z.boolean(),
+  /** Les brasseries repérées sur OpenStreetMap, montrées ou non (S25). */
+  avecOsm: z.boolean(),
 }
 
 export interface Preferences {
@@ -67,6 +69,7 @@ export interface Preferences {
   depart: DepartGarde
   favoris: string[]
   favorisSeulement: boolean
+  avecOsm: boolean
 }
 
 export const PREFERENCES_DEFAUT: Preferences = {
@@ -76,6 +79,7 @@ export const PREFERENCES_DEFAUT: Preferences = {
   depart: { type: 'brignais' },
   favoris: [],
   favorisSeulement: false,
+  avecOsm: true,
 }
 
 const lire = <S extends z.ZodType>(schema: S, valeur: unknown, defaut: z.infer<S>): z.infer<S> => {
@@ -107,6 +111,7 @@ export function lirePreferences(brut: unknown): Preferences {
     depart: lire(CHAMPS.depart, g.depart, d.depart),
     favoris,
     favorisSeulement: lire(CHAMPS.favorisSeulement, g.favorisSeulement, d.favorisSeulement),
+    avecOsm: lire(CHAMPS.avecOsm, g.avecOsm, d.avecOsm),
   }
 }
 

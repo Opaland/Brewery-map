@@ -1,11 +1,20 @@
 import { readFileSync } from 'node:fs'
 import { expect, test, type Page } from '@playwright/test'
 import { BRIGNAIS } from '../../src/core/distance'
+import { brasseriesDepuisFichierOsm, type FichierOsm } from '../../src/core/osm-france'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
 import { sansTuiles, versLaCarte } from './reseau'
 
-const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
+const FICHIER = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
+// Toute la France (S25) : la couche OpenStreetMap s'ajoute au fichier, par
+// la même conversion que l'application.
+const DONNEES = [
+  ...FICHIER,
+  ...brasseriesDepuisFichierOsm(
+    JSON.parse(readFileSync('src/donnees-osm/brasseries-osm.json', 'utf8')) as FichierOsm,
+  ),
+]
 
 /** Ce que le cœur calcule pour un rayon, toutes catégories : la référence. */
 function attendus(rayonKm: number): number {

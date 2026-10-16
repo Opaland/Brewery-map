@@ -11,6 +11,8 @@ import type { Brasserie } from './schema'
 export type Destination =
   | { mode: 'adresse'; adresse: string }
   | { mode: 'commune'; lat: number; lon: number }
+  /** Le point posé sur OpenStreetMap par un contributeur (S25). */
+  | { mode: 'osm'; lat: number; lon: number }
 
 /**
  * Une adresse est un `addr` qui dit plus que le nom de la commune : 68 fiches
@@ -21,6 +23,10 @@ export type Destination =
  * « Montagny ») ; l'écran dit que ce n'est pas l'adresse.
  */
 export function destination(b: Brasserie): Destination {
+  // Une fiche OSM : son point, posé sur la carte par un contributeur, plutôt
+  // qu'une adresse souvent sans commune (« 80 rue des moulins », 123 cas au
+  // 16/10), qu'un service de guidage placerait n'importe où (revue S25).
+  if (b.coordPrecision === 'osm') return { mode: 'osm', lat: b.lat, lon: b.lon }
   return b.addr.trim() !== b.c.trim()
     ? { mode: 'adresse', adresse: b.addr }
     : { mode: 'commune', lat: b.lat, lon: b.lon }
@@ -46,7 +52,7 @@ export interface LienItineraire {
 
 export function liensItineraire(b: Brasserie, plateforme: Plateforme = 'autre'): LienItineraire[] {
   const d = destination(b)
-  const point = d.mode === 'commune' ? `${String(d.lat)},${String(d.lon)}` : ''
+  const point = d.mode === 'adresse' ? '' : `${String(d.lat)},${String(d.lon)}`
   const q = d.mode === 'adresse' ? encodeURIComponent(d.adresse) : point
   const google = { appli: 'Google Maps', url: `https://www.google.com/maps/dir/?api=1&destination=${q}` }
   const apple = { appli: 'Plans (Apple)', url: `https://maps.apple.com/?daddr=${q}` }

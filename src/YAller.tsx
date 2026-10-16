@@ -12,6 +12,11 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
   return (
     <div className="fiche-y-aller" data-testid="fiche-y-aller">
       <p className="fiche-titre">Y aller</p>
+      {d.mode === 'osm' && (
+        <p className="fiche-aide" data-testid="y-aller-osm">
+          L’itinéraire mène au point placé sur OpenStreetMap, non vérifié sur place.
+        </p>
+      )}
       {d.mode === 'commune' && (
         <p className="fiche-aide" data-testid="y-aller-commune">
           Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas

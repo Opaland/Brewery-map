@@ -1393,3 +1393,82 @@ l'appli ».
      elle se remet à zéro.
 4. **Décidé sans corriger** : le cartouche d'attribution OSM reste clair en
    thème sombre, parce que les tuiles le restent aussi.
+
+## S25 — Toute la France *(16/10)*
+
+1. **Pourquoi.** Cédric, le 16/10 : « Aucune brasserie à moins de 30 km de
+   Porcelette (57)… → ouvrir toute la France ».
+2. **La décision.** Le fichier de Cédric ne grandit pas sans son accord, ligne
+   par ligne (CLAUDE.md §0). Une **couche à part** s'y ajoute donc :
+   `src/donnees-osm/brasseries-osm.json`, les brasseries OpenStreetMap
+   (`craft=brewery`, ODbL). Chacune est affichée « À confirmer » : OSM dit
+   qu'une brasserie existe, pas ce qu'on peut y faire. Cédric peut la
+   retirer d'un mot.
+3. **Les données** (`outils/osm-france.ts`, extrait OSM du 16/10).
+   - Lecture sur `overpass.openstreetmap.fr` : le serveur principal coupe la
+     connexion depuis l'environnement, et le miroir n'a pas les zones, d'où
+     des rectangles.
+   - 2 132 éléments lus. Écartés :
+     - 52 sans nom ;
+     - 38 restaurants ou cafés sans rien qui dise qu'on y brasse
+       (« Tutti Pizza », « Le Gambetta ») — et La Singulière, vraie
+       brasserie étiquetée bar : perte acceptée, dite dans le code ;
+     - 20 dont le nom dit « ancienne », « incertaine » ou « fermée » ;
+     - 438 avec un code postal étranger ;
+     - 142 avec un pays étranger ;
+     - 358 à plus de 10 km de toute commune ;
+     - 30 à l'étranger selon Nominatim, parmi ceux à commune déduite (revue
+       adverse : Orval, Westvleteren, Birtel… rattachés à une commune
+       française voisine) ;
+     - 47 déjà dans le fichier (même nom dans la même commune, ou nom voisin
+       à moins de 20 km : sur les 55 paires de noms voisins mesurées, toutes
+       celles à moins de 20 km étaient la même brasserie) ;
+     - 13 dessinés deux fois.
+   - **994 gardées**, dont 638 dont la commune est déduite de la position :
+     c'est dit sur la fiche. 84 sont dans les 9 départements du fichier :
+     des lieux que le fichier n'a pas, gardés.
+4. **Fait.**
+   - La couche est chargée en même temps que les réglages, avant le premier
+     écran. Arrivée après, elle faisait bouger la liste sous le doigt (vu en
+     test).
+   - Elle est dans son propre morceau (`brasseries-osm-*.js`), précaché comme
+     le reste.
+   - Le build refuse un fichier invalide, un nom en double, ou un nom repris
+     du fichier (`validerDonneesOsm`). Vu rouge en remplaçant un nom par
+     « Ninkasi Brignais ».
+   - Pied de page : attribution ODbL et date de l'extrait. La zone vide
+     (Mende, 10 km) dit la plus proche, puis d'où viennent les fiches.
+   - Tests : `tests/unit/osm-france.test.ts` (15, mutations vues rouges sur
+     les codes postaux étrangers et la limite de 10 km) ; le cas de Cédric,
+     Porcelette, en e2e.
+5. **Revue de persona** (Cédric, Hugo ; 77 k). Huit trouvailles :
+   - **restaurants « brasserie »** : écartés (voir plus haut) ;
+   - **rien ne distinguait une fiche OSM** d'une fiche vérifiée : badge
+     « · OpenStreetMap » sur la ligne, note courte dans la liste, note
+     entière dans la fiche ;
+   - **pas de moyen de masquer la couche** : une case « Inclure les … brasseries
+     repérées sur OpenStreetMap », gardée dans les réglages ;
+   - **« Y aller » parlait d'un point « à 2 km près »** : une fiche OSM va au
+     point posé sur la carte, et le dit ;
+   - **le site connu d'OSM était jeté** : affiché, validé http(s) au build ;
+   - **noms bruts** : « A;B » coupé au premier, doublons sans tenir compte de
+     la casse à moins d'1 km ;
+   - **signalement** : une fiche OSM dit aussi où la corriger à la source ;
+   - les 84 fiches dans les départements du fichier : gardées, voir plus haut.
+6. **Décisions** : `docs/DECISIONS.md`, et les recommandations ligne par
+   ligne des lots dans `curation/RECOMMANDATIONS.md`. Le lot S14 (119 fiches
+   OSM) est recommandé au refus : 106 sont déjà dans la couche.
+7. **Revue adverse** (73 k), cinq trouvailles, toutes corrigées :
+   - **28 brasseries étrangères** avaient une commune française déduite
+     (Orval à « Margny ») : le pays de chaque point à commune déduite est lu
+     par Nominatim (cache `outils/cache/pays-osm.json`), 30 sont écartés ;
+   - **« Y aller » envoyait une rue sans commune** : il va au point OSM, et
+     l'adresse affichée reçoit sa commune, dite déduite ;
+   - **couche absente** : l'écran ne le disait pas ; il le dit, avec un
+     bouton « Recharger la page » (test : morceau refusé) ;
+   - **page blanche possible** : au plus 3 s d'attente (test : morceau jamais
+     servi). Le morceau est préchargé dès le HTML (`modulepreload`) : le
+     premier écran attendait 600 ms de plus en 4G lente simulée ;
+   - **un doublon manqué** (« L'écume du Guier » / « Guiers ») : le pluriel
+     ne distingue plus.
+   - Lien ODbL en pied de page ; texte du filtre type précisé.

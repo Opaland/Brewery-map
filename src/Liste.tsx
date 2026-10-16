@@ -9,6 +9,7 @@ import {
   libelleVerification,
   SENS_CONFIANCE,
 } from './core/fiche'
+import { estDeOsm, noteDeLigne, siteOsm } from './core/osm-france'
 import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
 import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
@@ -71,8 +72,27 @@ function Fiche({
       <YAller brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
       <dl>
+        {/* La note entière d'une fiche OSM, que la ligne abrège (S25). */}
+        {estDeOsm(brasserie) && (
+          <>
+            <dt>Pourquoi « À confirmer »</dt>
+            <dd data-testid="fiche-note-osm">{brasserie.note}</dd>
+          </>
+        )}
+
         <dt>Adresse</dt>
         <dd>{brasserie.addr}</dd>
+
+        {siteOsm(brasserie) !== undefined && (
+          <>
+            <dt>Site indiqué par OpenStreetMap</dt>
+            <dd data-testid="fiche-site-osm">
+              <a href={siteOsm(brasserie)} target="_blank" rel="noopener noreferrer">
+                {hoteDeSource(siteOsm(brasserie) ?? '') ?? 'site'}
+              </a>
+            </dd>
+          </>
+        )}
 
         <dt>Source</dt>
         <dd data-testid="fiche-source">
@@ -106,6 +126,17 @@ function Fiche({
         </a>
         <span className="fiche-aide">{AIDE_SIGNALEMENT}</span>
       </p>
+      {/* Une fiche OSM se corrige d'abord à la source, pour tout le monde
+          (revue persona S25 ; idée vue sur OpenBeerMap, veille S27). */}
+      {estDeOsm(brasserie) && (
+        <p className="fiche-aide" data-testid="corriger-osm">
+          Elle vient d’OpenStreetMap : vous pouvez aussi la corriger à la source, sur{' '}
+          <a href={brasserie.src} target="_blank" rel="noopener noreferrer">
+            openstreetmap.org
+          </a>{' '}
+          (compte OpenStreetMap gratuit).
+        </p>
+      )}
       {/* La fiche dépasse un écran : refermer sans remonter jusqu'à sa ligne
           (revue UI/UX du 16/10, 1 073 px pour 839). */}
       <div className="depart-actions fiche-refermer">
@@ -185,6 +216,13 @@ export function Liste({
               <span className={`badge cat-${String(brasserie.cat)}`}>
                 <span className="pastille" aria-hidden="true" />
                 {CATEGORIES[brasserie.cat]}
+                {/* Distincte du vérifié sans ouvrir la fiche (revue persona S25). */}
+                {estDeOsm(brasserie) && (
+                  <span className="badge-osm" data-testid="badge-osm">
+                    {' '}
+                    · OpenStreetMap
+                  </span>
+                )}
               </span>
               <span className="lecteur-seul">, </span>
               {/*
@@ -199,7 +237,7 @@ export function Liste({
                 <span className="ligne-note-titre">
                   {brasserie.cat === 0 ? 'Pourquoi : ' : 'Ce que dit la source : '}
                 </span>
-                {brasserie.note}
+                {noteDeLigne(brasserie)}
               </span>
             </button>
             {ouverte && (

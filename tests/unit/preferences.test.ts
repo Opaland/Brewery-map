@@ -40,6 +40,7 @@ describe('relire les préférences gardées', () => {
       depart: { type: 'commune', cle: 'Oullins|69' },
       favoris: ['Nomade Brewery'],
       favorisSeulement: true,
+      avecOsm: false,
     }
     expect(lirePreferences(gardees)).toEqual(gardees)
   })
@@ -117,5 +118,13 @@ describe('les favoris', () => {
   it('des favoris en double ou illisibles sont nettoyés, pas perdus', () => {
     const base = versStockage(PREFERENCES_DEFAUT)
     expect(lirePreferences({ ...base, favoris: ['A', 'A', 3, '', 'B'] }).favoris).toEqual(['A', 'B'])
+  })
+})
+
+describe('inclure la couche OpenStreetMap (revue persona S25)', () => {
+  it('par défaut oui ; gardé non, relu non ; illisible, le défaut', () => {
+    expect(lirePreferences({}).avecOsm).toBe(true)
+    expect(lirePreferences({ avecOsm: false }).avecOsm).toBe(false)
+    expect(lirePreferences({ avecOsm: 'non' }).avecOsm).toBe(true)
   })
 })

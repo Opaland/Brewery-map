@@ -16,7 +16,8 @@ chaque fiche dit d'où vient l'information et avec quelle confiance.
 Ce qu'elle fait aujourd'hui :
 📍 partir de sa position ou de n'importe quelle commune de France
    [34 960 communes, `public/communes-france.json`] ;
-🗺️ 166 brasseries sur une liste et une carte [`data/breweries.json`] ;
+🗺️ toute la France : 166 fiches vérifiées, et 994 brasseries repérées sur
+   OpenStreetMap, « à confirmer » [`data/breweries.json`, `src/donnees-osm/`] ;
 🧭 « Y aller » vers Google Maps, Waze ou Plans d’Apple ;
 ⭐ des favoris, gardés sur le téléphone ;
 📶 consultable hors connexion, installable comme une application.

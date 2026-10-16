@@ -263,6 +263,7 @@ a { color: inherit; }
    (revue UI/UX du 16/10, Hugo). */
 .ligne-distance { color: var(--encre); font-size: var(--texte-corps); font-weight: 600; }
 .ligne-note { font-size: var(--texte-secondaire); }
+.badge-osm { color: var(--encre-douce); }
 
 .badge {
   display: inline-flex;

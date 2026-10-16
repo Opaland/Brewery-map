@@ -1,4 +1,7 @@
+import { readFile } from 'node:fs/promises'
+import path from 'node:path'
 import type { Plugin } from 'vite'
+import { validerFichierOsm } from '../src/core/osm-france.ts'
 import { validerBrasseries } from '../src/core/schema.ts'
 
 /**
@@ -33,6 +36,34 @@ export function validerDonnees(motif: RegExp = MOTIF_DONNEES): Plugin {
         const extrait = verdict.erreurs.slice(0, 20).join('\n  ')
         const reste = verdict.erreurs.length > 20 ? `\n  … et ${String(verdict.erreurs.length - 20)} autres` : ''
         this.error(`${id} : ${String(verdict.erreurs.length)} erreur(s) de schéma\n  ${extrait}${reste}`)
+      }
+      return null
+    },
+  }
+}
+
+export const MOTIF_OSM = /[\\/]src[\\/]donnees-osm[\\/]brasseries-osm\.json$/
+
+/**
+ * Le même garde pour la couche OpenStreetMap (S25) : son schéma, des noms
+ * uniques, aucun nom repris du fichier de Cédric.
+ */
+export function validerDonneesOsm(motif: RegExp = MOTIF_OSM): Plugin {
+  return {
+    name: 'mousse-valider-donnees-osm',
+    enforce: 'pre',
+    async transform(code, id) {
+      if (!motif.test(id.split('?')[0] ?? id)) return null
+      let contenu: unknown
+      try {
+        contenu = JSON.parse(code)
+      } catch (e) {
+        this.error(`${id} : JSON illisible — ${String(e)}`)
+      }
+      const fichier = JSON.parse(await readFile(path.resolve('data/breweries.json'), 'utf-8')) as { n: string }[]
+      const verdict = validerFichierOsm(contenu, new Set(fichier.map((b) => b.n)))
+      if (!verdict.ok) {
+        this.error(`${id} : ${String(verdict.erreurs.length)} erreur(s)\n  ${verdict.erreurs.slice(0, 20).join('\n  ')}`)
       }
       return null
     },

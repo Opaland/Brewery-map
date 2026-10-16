@@ -53,8 +53,8 @@ export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChang
       </select>
       <span className="champ-aide" data-testid="type-part">
         Bières renseignées sur {nbRenseignees} fiche
-        {nbRenseignees > 1 ? 's' : ''} sur {nbFiches} : les autres brasseries n’apparaissent pas
-        avec ce filtre.
+        {nbRenseignees > 1 ? 's' : ''} sur {nbFiches} vérifiées : les autres, et celles
+        d’OpenStreetMap, n’apparaissent pas avec ce filtre.
       </span>
     </label>
   )

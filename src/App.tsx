@@ -20,7 +20,7 @@ import {
 } from './core/recherche'
 import { formaterDistance } from './core/distance'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
-import type { Categorie } from './core/schema'
+import type { Brasserie, Categorie } from './core/schema'
 import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
 import { Installer } from './Installer'
@@ -37,7 +37,6 @@ import type { Stockage } from './stockage'
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
 const NB_RENSEIGNEES = BRASSERIES.filter((b) => b.beers.length > 0).length
 const COMMUNES = communesConnues(BRASSERIES)
-const NOMS = new Set(BRASSERIES.map((b) => b.n))
 /** Les départements du fichier, pour dire où il s'arrête (revue globale S22). */
 const DEPARTEMENTS = [...new Set(BRASSERIES.map((b) => b.d))].sort()
 
@@ -73,7 +72,13 @@ function texteDuCompte(
   return `Seulement vos favoris : ${String(n)} ${ou}`
 }
 
-export function App({ stockage }: { stockage: Stockage }) {
+export function App({
+  stockage,
+  couche = null,
+}: {
+  stockage: Stockage
+  couche?: { brasseries: readonly Brasserie[]; extrait: string } | null
+}) {
   const ini = stockage.initiales
   const [texte, setTexte] = useState('')
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
@@ -92,6 +97,7 @@ export function App({ stockage }: { stockage: Stockage }) {
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
+  const [avecOsm, setAvecOsm] = useState(ini.avecOsm)
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   const [annonce, setAnnonce] = useState('')
   const compte = useRef<HTMLParagraphElement>(null)
@@ -160,12 +166,13 @@ export function App({ stockage }: { stockage: Stockage }) {
       depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
       favoris: [...favoris],
       favorisSeulement,
+      avecOsm,
     })
     const texte = JSON.stringify(p)
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
     stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement])
+  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm])
 
   // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
   // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
@@ -204,9 +211,23 @@ export function App({ stockage }: { stockage: Stockage }) {
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
 
+  // Toute la France (S25) : la couche OpenStreetMap, chargée avant l'écran
+  // (`main.tsx`), ou absente si elle n'a pas pu se charger.
+  const osm = useMemo(
+    () =>
+      couche === null
+        ? { etat: 'echec' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
+        : { etat: 'pret' as const, ...couche },
+    [couche],
+  )
+  const toutes = useMemo(() => [...BRASSERIES, ...osm.brasseries], [osm.brasseries])
+  // Ce qui est cherché : sans la couche OSM si la personne l'a décochée
+  // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
+  const cherchees = avecOsm ? toutes : BRASSERIES
+
   const resultats = useMemo(
     () =>
-      rechercher(BRASSERIES, {
+      rechercher(cherchees, {
         origine: origine.point,
         rayonKm,
         texte,
@@ -214,13 +235,15 @@ export function App({ stockage }: { stockage: Stockage }) {
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
       }),
-    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris],
+    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris],
   )
 
-  const caches = favorisSeulement ? favorisCaches(BRASSERIES, favoris, resultats) : []
+  const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).
-  const orphelins = favoris.filter((f) => !NOMS.has(f))
+  // Pas avant la couche OSM : un favori qui en vient passerait pour disparu.
+  const nomsConnus = useMemo(() => new Set(toutes.map((b) => b.n)), [toutes])
+  const orphelins = osm.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
 
   const basculerUnFavori = (nom: string) => {
@@ -249,6 +272,7 @@ export function App({ stockage }: { stockage: Stockage }) {
     setAutourEnAttente(false)
     setFavoris(d.favoris)
     setFavorisSeulement(d.favorisSeulement)
+    setAvecOsm(d.avecOsm)
   }, [])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
@@ -268,7 +292,7 @@ export function App({ stockage }: { stockage: Stockage }) {
   }
 
   const retirerOrphelins = () => {
-    setFavoris((avant) => avant.filter((f) => NOMS.has(f)))
+    setFavoris((avant) => avant.filter((f) => nomsConnus.has(f)))
   }
 
   const basculer = (cat: Categorie) => {
@@ -371,6 +395,20 @@ export function App({ stockage }: { stockage: Stockage }) {
               {CATEGORIES[cat]}
             </label>
           ))}
+          {osm.etat === 'pret' && (
+            <label className="case">
+              <input
+                type="checkbox"
+                checked={avecOsm}
+                onChange={(e) => {
+                  setAvecOsm(e.target.checked)
+                }}
+                data-testid="avec-osm"
+              />
+              Inclure les {osm.brasseries.length} brasseries repérées sur OpenStreetMap (non
+              vérifiées)
+            </label>
+          )}
         </fieldset>
 
         <FiltreType
@@ -408,13 +446,34 @@ export function App({ stockage }: { stockage: Stockage }) {
       {resultats.length === 0 && !favorisSeulement && !rechercherPartout({ texte }) && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
-            const p = plusProche(BRASSERIES, origine.point)
+            const p = plusProche(cherchees, origine.point)
             return p === undefined
               ? ''
-              : `La plus proche du fichier : ${p.brasserie.n} (${p.brasserie.c}), à ${formaterDistance(p.distanceKm)}. `
+              : `La plus proche : ${p.brasserie.n} (${p.brasserie.c}), à ${formaterDistance(p.distanceKm)}. `
           })()}
-          Le fichier couvre {DEPARTEMENTS.length} départements : {DEPARTEMENTS.join(', ')}.
+          Les fiches vérifiées couvrent {DEPARTEMENTS.length} départements : {DEPARTEMENTS.join(', ')}
+          {osm.etat === 'pret'
+            ? ` ; ailleurs, ${String(osm.brasseries.length)} brasseries repérées sur OpenStreetMap, à confirmer.`
+            : '.'}
         </p>
+      )}
+      {osm.etat === 'echec' && (
+        <div className="champ-aide" role="status" data-testid="osm-absente">
+          <p>
+            Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les
+            fiches vérifiées, dans {DEPARTEMENTS.length} départements, sont là.
+          </p>
+          <div className="depart-actions">
+            <button
+              type="button"
+              onClick={() => {
+                window.location.reload()
+              }}
+            >
+              Recharger la page
+            </button>
+          </div>
+        </div>
       )}
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
@@ -463,8 +522,15 @@ export function App({ stockage }: { stockage: Stockage }) {
             : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}
         </p>
         <p>
-          Distances à vol d’oiseau. Les positions sont celles du centre de la commune
-          (à environ 2 km près), pas l’adresse exacte.
+          Distances à vol d’oiseau. Les fiches vérifiées sont souvent placées au centre de
+          leur commune (à environ 2 km près) ; celles d’OpenStreetMap, au point de la carte.
+        </p>
+        <p data-testid="sources-osm">
+          Brasseries hors des fiches vérifiées : ©{' '}
+          <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>, licence
+          ODbL
+          {osm.extrait === '' ? '' : `, extrait du ${osm.extrait.slice(0, 10)}`} — repérées comme
+          brasseries, rien d’autre n’est vérifié.
         </p>
         <p data-testid="sources-communes">
           Communes : Code officiel géographique de l’INSEE (Licence ouverte, via le paquet
