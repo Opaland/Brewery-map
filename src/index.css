@@ -316,6 +316,19 @@ a { color: inherit; }
 }
 .fiche-liens { display: flex; flex-wrap: wrap; gap: var(--espace-7); }
 
+/* Lien d'évitement de la carte : caché jusqu'au focus, puis peint au-dessus
+   (revue Inès S18 : quinze arrêts de carte avant la liste). */
+.evitement {
+  position: absolute;
+  left: -10000px;
+  min-height: 44px;
+  line-height: 44px;
+  padding: 0 var(--espace-6);
+  background: var(--papier);
+  color: var(--encre);
+}
+.evitement:focus { position: static; display: inline-block; }
+
 /* Lu par les lecteurs d'écran, invisible à l'œil (motif usuel « sr-only »). */
 .lecteur-seul {
   position: absolute;

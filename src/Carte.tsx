@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { mouvementReduit } from './mouvement'
 import {
   Map as CarteMapLibre,
   Marker,
@@ -102,6 +103,22 @@ function emprise(origine: Point, rayonKm: number): [[number, number], [number, n
   ]
 }
 
+/**
+ * Les textes de MapLibre lus au lecteur d'écran, en français : la page est
+ * en `lang="fr"` et Inès entendait « Map », « Zoom in » (revue Inès S18).
+ */
+const CARTE_EN_FRANCAIS: Record<string, string> = {
+  'Map.Title': 'Carte interactive',
+  'Marker.Title': 'Repère',
+  'NavigationControl.ZoomIn': 'Zoomer',
+  'NavigationControl.ZoomOut': 'Dézoomer',
+  'NavigationControl.ResetBearing': 'Remettre le nord en haut',
+  'AttributionControl.ToggleAttribution': 'Afficher ou masquer les crédits',
+  'CooperativeGesturesHandler.WindowsHelpText': 'Ctrl + molette pour zoomer la carte',
+  'CooperativeGesturesHandler.MacHelpText': '⌘ + molette pour zoomer la carte',
+  'CooperativeGesturesHandler.MobileHelpText': 'Deux doigts pour déplacer la carte',
+}
+
 function bouton(classe: string, libelle: string, texte = ''): HTMLButtonElement {
   const el = document.createElement('button')
   el.type = 'button'
@@ -149,6 +166,7 @@ export default function Carte({
         maxZoom: ZOOM_MAX,
         attributionControl: { compact: false },
         cooperativeGestures: true,
+        locale: CARTE_EN_FRANCAIS,
       })
     } catch {
       // WebGL annoncé mais refusé à la création : même repli, signalé après
@@ -199,7 +217,7 @@ export default function Carte({
           el.addEventListener('click', () => {
             void source.getClusterExpansionZoom(idGroupe).then((zoom) => {
               if (zoom <= ZOOM_MAX && zoom > map.getZoom()) {
-                map.easeTo({ center: [lon, lat], zoom })
+                map.easeTo({ center: [lon, lat], zoom, ...(mouvementReduit() ? { duration: 0 } : {}) })
                 return
               }
               // Zoom maximal atteint sans séparation. Avec un rayon de groupe
@@ -287,7 +305,7 @@ export default function Carte({
     repere.current?.setLngLat([origine.lon, origine.lat])
     repere.current?.getElement().setAttribute('aria-label', `Point de départ : ${libelleOrigine}`)
     if (!prete) return
-    carte.current?.fitBounds(emprise(origine, rayonKm), { duration: 300 })
+    carte.current?.fitBounds(emprise(origine, rayonKm), { duration: mouvementReduit() ? 0 : 300 })
   }, [prete, origine, libelleOrigine, rayonKm])
 
   // La brasserie choisie est marquée, et la carte la centre — une fois, au
@@ -310,6 +328,7 @@ export default function Carte({
     carte.current?.easeTo({
       center: [trouvee.brasserie.lon, trouvee.brasserie.lat],
       zoom: Math.max(carte.current.getZoom(), 11),
+      ...(mouvementReduit() ? { duration: 0 } : {}),
     })
   }, [prete, selection])
 

@@ -3,6 +3,42 @@
 Ce qui n'est pas dans le sprint actif. Rien d'ici ne se développe avant la
 publication, sauf décision explicite de Cédric.
 
+## Demande de Cédric du 16/10 — « dans un prochain sprint »
+
+Ce qu'il a écrit, découpé ; rien n'est commencé, chaque sprint attend son go.
+
+1. **Partir de n'importe quelle commune de France.** Plus de commune par
+   défaut ni de liste déroulante : un champ de recherche sur toutes les
+   communes. Piste : le Code officiel géographique de l'INSEE, ou le jeu
+   « communes » d'Etalab (data.gouv.fr), avec coordonnées, **embarqué dans
+   l'application** (environ 35 000 communes, poids à mesurer) plutôt qu'une
+   API interrogée à chaque frappe : la commune tapée ne quitte pas le
+   navigateur (CLAUDE.md §0) et la recherche marche hors ligne. Question :
+   que montre l'écran avant le premier choix (aucune distance ?).
+2. **Le mode PWA.** Il existe depuis S6 : manifeste, installation,
+   service worker, fiches consultables hors ligne (`tests/e2e/hors-ligne.spec.ts`).
+   À préciser par Cédric : ce qui lui manque (bouton « Installer » visible ?
+   icône ? mise à jour ?).
+3. **Coordonnées depuis l'open data** (téléphone, adresse, site). Pistes :
+   OpenStreetMap (étiquettes `phone`, `website`, `opening_hours`), la base
+   SIRENE (adresse du siège, pas le téléphone ; l'API des entreprises était
+   injoignable depuis l'environnement le 16/10). Elles passent par des lots
+   de propositions comme le reste — **sauf si Cédric change la règle du
+   §0** (accord ligne par ligne) pour ces champs : à lui de dire.
+4. **La vraie position de chaque brasserie.** 101 fiches ont la position du
+   centre de leur commune. Piste : géocoder l'adresse avec la Base Adresse
+   Nationale (api-adresse.data.gouv.fr) et proposer les coordonnées en lot
+   (précision `address`), adresse par adresse.
+5. **Chaque mois : nouvelles brasseries, changements, fermetures, par
+   région.** La veille (S15) produit déjà le lot du mois, non armée. Il
+   manque : un statut « fermée » dans le schéma (question déjà posée), et
+   **à l'écran une icône qui ouvre les nouveautés du mois, classées par
+   région puis par commune**. Ce qui s'affiche serait ce que Cédric a
+   accepté, jamais une proposition non lue.
+
+Ordre proposé : 4 et 3 (données, en lots), 1 (recherche de commune), 5
+(statut « fermée » puis écran des nouveautés), 2 selon sa réponse.
+
 ## Constats sur `data/breweries.json` (relevés le 15/10, sans modification)
 
 Relevés par lecture du fichier fourni (166 lignes). **Aucun n'a été corrigé** :
@@ -137,10 +173,9 @@ chacun demande une décision ou une vérification de source.
   mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
 - Horaires : le schéma n'a pas de saisons ; les horaires d'été des
   Ursulines sont dans la remarque (lot S13).
-- **e2e instable, cause inconnue** (16/10, S17) : `hors-ligne.spec.ts:60`
-  (bandeau hors connexion, mobile) a échoué une fois en suite complète,
-  sans message relevé ; ni la suite relancée ni 130 répétitions ne l'ont
-  reproduit. À capturer (trace) s'il revient, pas à relancer.
+- **e2e instable `hors-ligne.spec.ts:60`** (S17, S18) : cause trouvée en
+  S18 (écoute de `offline` attachée après la lecture de l'état), corrigée
+  dans l'application et le test. Si l'échec revient, la cause était autre.
 - **Brasserie fermée** (revue métier S17, Bernard) : le schéma n'a pas de
   statut « fermée ». Dr D. Brewpub (Untappd : « no longer in business ») et
   Maltobar (brassage arrêté) resteraient « À confirmer », la raison en tête
