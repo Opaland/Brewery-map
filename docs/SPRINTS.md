@@ -38,6 +38,7 @@ durée se relève sur l'horodatage des commits.
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
 | S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
 | S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
+| S19 | 180 k | — | revues 71 k (le reste non relevé) | terminé |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -1058,3 +1059,48 @@ sprints avec revue + revue globale »).
      de téléphone : données, pas code, CLAUDE.md §10) ; aucun lecteur
      d'écran réel n'a servi — longueur du nom des lignes, « ≈ », annonces à
      chaque frappe : à écouter avec une vraie personne.
+
+## S19 — « Y aller » et « ouvert maintenant » *(terminé le 16/10)*
+
+1. **Objectif.** Le critère de Hugo : savoir si c'est ouvert maintenant, et
+   lancer l'itinéraire sans que sa position parte ailleurs que dans
+   l'application de navigation qu'il choisit.
+2. **Périmètre.**
+   - `src/core/itineraire.ts` : la destination est l'adresse écrite quand
+     `addr` dit plus que le nom de la commune (98 fiches sur 166), sinon le
+     point de la fiche, placé à environ 2 km près — et la fiche le dit. Quatre liens : Google Maps, Plans (Apple), Waze, `geo:` (Android).
+     Le test énumère les paramètres permis de chaque lien : aucun départ ne
+     peut s'y glisser ; en e2e, les liens sont identiques avec ou sans
+     « autour de moi » (vu rouge sur un paramètre ajouté).
+   - `ouvertMaintenant` : à l'heure de Paris, créneaux qui passent minuit,
+     « sous réserve » si une remarque nuance, « inconnu » quand la source ne
+     dit rien du jour. Affiché dans les horaires, d'après les créneaux
+     publiés seulement.
+3. **Persona juge.** Hugo.
+4. **État final et restes.** Revues faites (Hugo 28 k, code 44 k),
+   corrections appliquées le 16/10.
+   - **Revue métier (Hugo)** — corrigé :
+     - deux liens sur quatre ne marchaient pas sur son téléphone (`geo:` sur
+       iPhone, Plans d'Apple sur Android) : la liste suit l'appareil, lu
+       dans l'agent du navigateur sans rien envoyer ; quatre liens quand on
+       ne sait pas ;
+     - « Y aller » venait avant les horaires : les horaires d'abord ;
+     - quatre fiches avec une rue sans code postal étaient dites « adresse
+       inconnue » : toute `addr` qui dit plus que la commune est une adresse
+       (98 fiches ; 68 restent sans adresse).
+   - **Revue code** — corrigé :
+     - « centre de la commune » n'est pas établi pour toutes les fiches (25
+       communes ont plusieurs points) : l'écran dit « le point de la carte, à
+       environ 2 km près » ;
+     - le `geo:` portait le nom entre parenthèses, cassé par un nom qui en
+       contient : sans libellé, URL testée en entier ;
+     - « Maintenant » restait figé sur une fiche ouverte : l'heure de
+       référence est écrite (« À 18 h (heure de Paris) ») ;
+     - cinq mutations de `ouvertMaintenant` survivaient : cas de minuit, de
+       fin à l'instant exact, du dimanche vers lundi ajoutés ; trois tombent,
+       deux sont équivalentes (un `geo` chaîne parcourue lettre à lettre, un
+       créneau dont le début égale la fin).
+   - **Reste** : Hugo ne peut pas savoir ce qui est ouvert maintenant —
+     aucune fiche de `data/` n'a d'horaires structurés (données, pas code,
+     CLAUDE.md §10) ; pas d'indicateur dans la liste (BACKLOG). Sur un vrai
+     iPhone et un vrai Android, l'ouverture des liens n'est pas vérifiée.

@@ -315,6 +315,11 @@ a { color: inherit; }
   text-decoration: none;
 }
 .fiche-liens { display: flex; flex-wrap: wrap; gap: var(--espace-7); }
+/* Un lien court (« Waze ») reste une cible de 44 px (WCAG 2.5.5, S19). */
+.fiche-liens a { min-width: 44px; }
+ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
+.fiche-y-aller { margin-bottom: var(--espace-6); }
+.fiche-y-aller p { margin: 0; }
 
 /* Lien d'évitement de la carte : caché jusqu'au focus, puis peint au-dessus
    (revue Inès S18 : quinze arrêts de carte avant la liste). */

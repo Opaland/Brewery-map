@@ -46,3 +46,37 @@ describe('les horaires de la fiche', () => {
     expect(html.indexOf('À savoir :')).toBeLessThan(html.indexOf('<table'))
   })
 })
+
+describe('« Maintenant » (S19, Hugo)', () => {
+  // Samedi 17/10/2026, 18 h à Paris.
+  const samedi18h = new Date('2026-10-17T16:00:00Z')
+  // Le texte lu, sans les balises (le début est en gras).
+  const renduA = (b: Brasserie, maintenant: Date) =>
+    renderToStaticMarkup(createElement(Horaires, { brasserie: b, maintenant })).replace(/<[^>]+>/g, '')
+  const accueil = { nature: 'accueil' as const, sam: [['15:00', '22:00'] as [string, string]], dim: [], ...src }
+
+  it('dit ouvert et jusqu’à quand, d’après les horaires publiés', () => {
+    const html = renduA({ ...base, horaires: [accueil] }, samedi18h)
+    expect(html).toContain('À 18 h (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.')
+  })
+
+  it('fermé un jour sans créneau ; rien d’affirmé un jour que la source ne dit pas', () => {
+    expect(renduA({ ...base, horaires: [accueil] }, new Date('2026-10-18T12:00:00Z'))).toContain(
+      'À 14 h (heure de Paris), accueil du public : fermé, d’après les horaires publiés.',
+    )
+    expect(renduA({ ...base, horaires: [accueil] }, new Date('2026-10-19T12:00:00Z'))).toContain(
+      'À 14 h (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.',
+    )
+  })
+
+  it('sous réserve quand une remarque nuance les créneaux', () => {
+    const html = renduA({ ...base, horaires: [{ ...accueil, remarque: 'En juillet et août seulement' }] }, samedi18h)
+    expect(html).toContain(
+      'À 18 h (heure de Paris), accueil du public : ouvert jusqu’à 22 h selon les créneaux, sous réserve de la remarque ci-dessous.',
+    )
+  })
+
+  it('sans horaires, aucun état affirmé', () => {
+    expect(renduA(base, samedi18h)).not.toContain('heure de Paris')
+  })
+})

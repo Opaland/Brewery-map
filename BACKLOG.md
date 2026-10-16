@@ -185,6 +185,13 @@ chacun demande une décision ou une vérification de source.
   Montagnarde, Vellavia, Kiltin', Two Dudes). Horaires d'été de La Grange du
   Seigneur : saisons dans la remarque, comme les Ursulines.
 
+- **Ouvert maintenant dans la liste** (revue Hugo S19) : l'état n'est que
+  dans la fiche ; un indicateur ou un filtre dans la liste attend des
+  horaires structurés (aucune fiche n'en a au 16/10).
+- **« Centre de la commune »** (revue code S19) : `libellePrecision`
+  l'affirme pour toute précision `commune`, mais 25 communes ont plusieurs
+  points distincts dans le fichier. À vérifier d'où viennent ces points.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

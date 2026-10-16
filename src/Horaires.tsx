@@ -1,5 +1,12 @@
 import { hoteDeSource, libelleVerification } from './core/fiche'
-import { formaterCreneaux, JOURS, type Bloc } from './core/horaires'
+import {
+  formaterCreneaux,
+  formaterHeure,
+  heureDeParis,
+  JOURS,
+  ouvertMaintenant,
+  type Bloc,
+} from './core/horaires'
 import type { Brasserie } from './core/schema'
 
 const TITRE: Record<Bloc['nature'], string> = {
@@ -7,9 +14,39 @@ const TITRE: Record<Bloc['nature'], string> = {
   vente: 'Horaires de vente',
 }
 
-function Tableau({ bloc }: { bloc: Bloc }) {
+const NATURE: Record<Bloc['nature'], string> = {
+  accueil: 'accueil du public',
+  vente: 'vente',
+}
+
+/**
+ * L'état à l'instant de l'ouverture de la fiche (S19, Hugo) : d'après les
+ * créneaux publiés, jamais affirmé quand la source ne dit rien du jour.
+ */
+function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
+  const m = ouvertMaintenant([bloc], maintenant, bloc.nature)
+  // L'heure de référence est écrite : une fiche restée ouverte ne prétend
+  // pas dire « maintenant » une heure plus tard (revue code S19).
+  const debut = `À ${formaterHeure(heureDeParis(maintenant))} (heure de Paris), ${NATURE[bloc.nature]} : `
+  const jusqua = m.jusqua === undefined ? '' : ` jusqu’à ${formaterHeure(m.jusqua)}`
+  const texte = {
+    ouvert: `ouvert${jusqua}, d’après les horaires publiés.`,
+    'sous-reserve': `ouvert${jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.`,
+    ferme: 'fermé, d’après les horaires publiés.',
+    inconnu: 'la source ne dit pas les heures de ce jour.',
+  }[m.etat]
+  return (
+    <p className="horaires-maintenant" data-testid="horaires-maintenant">
+      <strong>{debut}</strong>
+      {texte}
+    </p>
+  )
+}
+
+function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
   return (
     <div className="horaires-bloc">
+      <Maintenant bloc={bloc} maintenant={maintenant} />
       {bloc.remarque !== undefined && (
         <p className="horaires-remarque" data-testid="horaires-remarque">
           <strong>À savoir :</strong> {bloc.remarque}
@@ -43,7 +80,14 @@ function Tableau({ bloc }: { bloc: Bloc }) {
  * tableau. Sinon, la fiche le dit et renvoie à la justification, sans la
  * réinterpréter.
  */
-export function Horaires({ brasserie }: { brasserie: Brasserie }) {
+export function Horaires({
+  brasserie,
+  maintenant = new Date(),
+}: {
+  brasserie: Brasserie
+  /** L'instant de référence ; les tests le fixent. */
+  maintenant?: Date
+}) {
   const blocs = brasserie.horaires
   if (blocs === undefined) {
     return (
@@ -56,7 +100,7 @@ export function Horaires({ brasserie }: { brasserie: Brasserie }) {
   return (
     <div className="fiche-horaires" data-testid="fiche-horaires">
       {blocs.map((b) => (
-        <Tableau key={b.nature} bloc={b} />
+        <Tableau key={b.nature} bloc={b} maintenant={maintenant} />
       ))}
     </div>
   )
