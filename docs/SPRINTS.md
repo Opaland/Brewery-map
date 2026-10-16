@@ -707,6 +707,26 @@ sprints avec revue + revue globale »).
 5. **Budget.** Mesuré en S11 : 88 k pour vérifier 5 fiches. 25 fiches
    coûteraient donc ≈ 440 k, au-dessus des 300 k estimés mais sous le
    double (600 k), seuil d'arrêt de CLAUDE.md §9. Dit avant de lancer, et
-   le coût réel sera relevé.
-6. **État final et restes.** *(à la clôture)*
+   le coût réel sera relevé. **Réel : 167 k** pour les cinq agents
+   (34 + 30 + 32 + 36 + 36 k) : beaucoup de fiches n'avaient aucune page à
+   lire.
+6. **Résultat du lot** (`curation/s12-lot-1`, empreinte `92e30aa5f218`) :
+   - **4 propositions** : La Canute Lyonnaise (téléphone de commande pro,
+     mobile), Malting Pot (catégorie 1 en confiance moyenne, contact,
+     horaires lun–sam), Brasserie Animus (note corrigée : adresse de
+     Grigny publiée ; mobile), Brasserie Georges (contact, horaires du
+     restaurant).
+   - **21 fiches sans proposition** : 16 sans aucune page trouvée à leur
+     nom (Bulles d'Orge, Brasserie Krüger, Coldie Brewery, Brasserie
+     Demi-Lune, Maltazar, Autour de la Bière, Les Aubépines, Brasserie des
+     Monts du Lyonnais, FFAKE Brasserie, Misso, Brasserie du Mont Popey,
+     Hoodo, Brasserie 767, La Voie Maltée, L'Agarithe, Les Roches
+     Précieuses) ; 5 avec des pistes qui ne suffisent pas (DWYN Brewing,
+     La Fabrique du Faubourg, Platypus Brewpub, La Dame de Malt, Brasserie
+     des Roches) — détail au BACKLOG.
+   - `controler` sans écart ; Malting Pot relu à la main (catégorie, et
+     horaires du bloc Lyon 7 de la page Adresses).
+   - Vu en route : le contrôle ne lisait pas « +33 (0)4 … » (page de
+     Georges) ; cas réel ajouté au test, vu rouge, corrigé.
+7. **État final et restes.** *(à la clôture)*
 
