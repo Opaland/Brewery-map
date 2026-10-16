@@ -37,6 +37,7 @@ durée se relève sur l'horodatage des commits.
 | S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
 | S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
 | S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
+| S18 | 180 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -995,3 +996,25 @@ sprints avec revue + revue globale »).
    - **Reste, décisions de Cédric** : les 12 propositions ; un statut
      « fermée » (BACKLOG) ; les communes de Two Dudes, La Montagnarde,
      Vellavia et Kiltin'.
+
+## S18 — Accessibilité *(en cours)*
+
+1. **Objectif.** Que le parcours d'Inès (trouver une brasserie, lire sa
+   fiche, appeler, au clavier et au lecteur d'écran, sans la carte) soit
+   **mesuré**, pas supposé.
+2. **Périmètre.** `tests/e2e/accessibilite.spec.ts` :
+   - axe-core 4.13.0 (`@axe-core/playwright`, version de plus de deux
+     semaines), règles WCAG 2.2 A et AA, thèmes clair et sombre, liste et
+     fiche ouverte ;
+   - cibles : 44 px hors carte (WCAG 2.5.5, choisi par le plan v2), 24 px
+     dans la carte (WCAG 2.5.8 ; exception « equivalent » : la liste fait ce
+     que fait un marqueur) ; un lien dans une phrase est exempté (« inline ») ;
+   - focus visible à chaque arrêt du clavier, carte comprise (WCAG 2.4.7) ;
+   - contraste des pastilles de catégorie, 3:1 (WCAG 1.4.11), deux thèmes ;
+   - nom des marqueurs pour le lecteur d'écran ;
+   - le parcours d'Inès au clavier seul.
+   Chaque test vu rouge sur une régression injectée. Le premier état
+   mesuré : aucune violation axe hors carte ; « Code source » (82×16) et
+   l'attribution de la carte (169×15) trop petits, corrigés.
+3. **Persona juge.** Inès.
+4. **État final et restes.** *(à la clôture)*

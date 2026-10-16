@@ -333,7 +333,7 @@ export function App({ stockage }: { stockage: Stockage }) {
           (sur GitHub, compte gratuit nécessaire, signalement public). {SANS_COMPTE}{' '}
           {SUITE_SIGNALEMENT}
         </p>
-        <p>
+        <p className="pied-lien">
           <a href="https://github.com/Opaland/Brewery-map">Code source</a>
         </p>
       </footer>
