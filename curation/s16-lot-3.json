@@ -1,0 +1,294 @@
+{
+ "lot": "s16-lot-3",
+ "propositions": [
+  {
+   "n": "Les Brasseurs du Sornin",
+   "changements": {
+    "contact": {
+     "tel": "04 77 60 82 28",
+     "site": "https://www.sornin.com",
+     "source": "https://www.sornin.com/contact/",
+     "verifieLe": "2026-10-16"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Charliendine"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Sornin"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Pierre blanche"
+     },
+     {
+      "type": "brune",
+      "libelle": "Trouille"
+     },
+     {
+      "type": "autre",
+      "libelle": "Baye (fruitée)"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Perle verte"
+     },
+     {
+      "type": "autre",
+      "libelle": "Salvegarde (médiévale)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Égyptienne (fruitée)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Baie des loups (fruitée)"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Cluny 4"
+     },
+     {
+      "type": "autre",
+      "libelle": "Shore break (fruitée)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Castagne (fruitée)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Lutine (fruitée)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Croix perdue (triple)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Bec rose (fruitée)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Potion 17 (médiévale)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Grand Béréby (NEIPA)"
+     },
+     {
+      "type": "sans-alcool",
+      "libelle": "Double zéro"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche de Pastille"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.sornin.com/contact/",
+    "https://www.sornin.com/boissons/"
+   ],
+   "extrait": "Page contact : « 04 77 60 82 28 ». Page Boissons, en-têtes de la brasserie : « Charliendine Cette bière blonde de haute fermentation » ; « Bière ambrée ! Sornin » ; « Bière blanche ! Pierre blanche » ; « Bière brune ! Trouille » ; « Bière fruitée ! Baye » ; « Bière blonde ! Perle verte » ; « Bière médiévale ! Salvegarde » ; « Bière fruitée ! Égyptienne » ; « Bière fruitée ! Baie des loups » ; « Bière blonde ! Cluny 4 » ; « Bière fruitée ! Shore break » ; « Bière fruitée ! Castagne » ; « Bière Fruitée ! Lutine » ; « Bière triple ! Croix perdue » ; « Bière fruitée ! Bec rose » ; « Bière médiévale ! Potion 17 » ; « Bière NEIPA ! Grand Béréby » ; « Bière sans alcool ! Double zéro » ; « Bière blanche ! Blanche de Pastille ».",
+   "choix": "Types lus dans les en-têtes de la page Boissons (« Bière blonde ! Cluny 4 »), relus mot pour mot sur la page brute (revue de lot : l'agent avait classé « ambrées » trois bières que la brasserie dit « fruitées », et omis la brune, la sans-alcool et une blanche). Correspondance : blonde, ambrée, blanche, brune, sans alcool → le type du même nom ; NEIPA → ipa (libellé « (NEIPA) ») ; fruitée, médiévale, triple → « autre », le style dans le libellé. Pas de lien : la page n'a pas de page par bière. Horaires non proposés : la page Contact donne des heures sans dire si c'est la vente ou l'accueil. Catégorie laissée à 0 : le site ne parle ni de vente sur place ni de dégustation. Téléphone : seul numéro du site."
+  },
+  {
+   "n": "Brasserie Kokine",
+   "changements": {
+    "contact": {
+     "tel": "06 63 40 68 35",
+     "site": "https://www.kokine-bieres.com/",
+     "source": "https://www.kokine-bieres.com/contact",
+     "verifieLe": "2026-10-16"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde Ale"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche aux châtaignes"
+     },
+     {
+      "type": "autre",
+      "libelle": "Motueka Pale Ale"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Cashmere IPA"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.kokine-bieres.com/contact",
+    "https://www.kokine-bieres.com/nos-bieres"
+   ],
+   "extrait": "Page contact : « 06 63 40 68 35 » ; « 385 Montée des Écoles » « 07570 Désaignes ». Page Nos bières : « Notre brasserie propose toute une gamme de bières de 50 cl. » ; Blonde Ale : « La bière blonde est douce et fruitée » ; Blanche aux châtaignes : « La bière blanche d'Ardèche » ; Motueka Pale Ale : « De style américain » ; Cashmere IPA : « L'IPA exotique ».",
+   "choix": "Le seul numéro publié (page Contact, lien « Nous appeler ») est un mobile. Horaires écartés : « ouverte le lundi, le mardi, le jeudi et le vendredi, de 09 h à 18 h » sans dire accueil ou vente. Catégorie laissée à 0 : « Fabrication et vente » et un click and collect, mais aucune vente ni dégustation sur place lue. Motueka Pale Ale en « autre » : le texte dit « De style américain », sans type du schéma. Pas de page par bière. Extraits relus mot pour mot sur les pages brutes."
+  },
+  {
+   "n": "La Valentinoise",
+   "changements": {
+    "cat": 1,
+    "conf": "faible",
+    "src": "https://www.valence-romans-tourisme.com/en/les-voyageurs-vous-parlent/la-valentinoise-local-beer-valence/",
+    "note": "Témoignage d'un voyageur publié par l'office de tourisme (source indirecte, non datée) : une enseigne à la brasserie indique « bière artisanale, vente et dégustation », et le brasseur accueille au comptoir. Aucun horaire ni téléphone publié par la brasserie lue."
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.valence-romans-tourisme.com/en/les-voyageurs-vous-parlent/la-valentinoise-local-beer-valence/"
+   ],
+   "extrait": "bière artisanale, vente et dégustation",
+   "choix": "Catégorie 1 en confiance FAIBLE : la seule source est un témoignage de voyageur publié par l'office de tourisme (indirect, non daté), qui rapporte l'enseigne « bière artisanale, vente et dégustation ». À refuser si un témoignage ne suffit pas. Aucun téléphone ni horaire publié par la brasserie. Extrait relu sur la page brute."
+  },
+  {
+   "n": "Brasserie de Cluny",
+   "changements": {
+    "contact": {
+     "tel": "06 11 73 56 25",
+     "site": "https://www.brasseriedecluny.fr/",
+     "untappd": "https://untappd.com/BrasserieDeCluny",
+     "source": "https://www.brasseriedecluny.fr/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.brasseriedecluny.fr/",
+    "https://untappd.com/BrasserieDeCluny"
+   ],
+   "extrait": "Un petit coup de fil pour s'assurer qu'on est bien là, prêts à vous recevoir à la brasserie",
+   "choix": "Mobile, seul numéro publié par la brasserie, avec l'invitation à appeler avant de venir. Page Untappd ouverte. Catégorie non proposée : le site ne dit rien de la vente ni de la dégustation sur place. Bières (sept sur le site) non proposées : pas de passage lu mot pour mot."
+  },
+  {
+   "n": "Brasserie Paille",
+   "changements": {
+    "contact": {
+     "tel": "06 62 23 33 98",
+     "site": "https://brasseriepaille.fr",
+     "source": "https://brasseriepaille.fr",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://brasseriepaille.fr"
+   ],
+   "extrait": "06 62 23 33 98",
+   "choix": "Mobile publié par la brasserie sur son site. ATTENTION : le site dit « brassée sur place à Lournand » alors que la fiche dit Château — la commune ne se corrige pas par proposition (à décider par Cédric). Catégorie non proposée : le site ne parle ni de vente ni de dégustation."
+  },
+  {
+   "n": "Brasserie de l'Ours Barbu",
+   "changements": {
+    "contact": {
+     "tel": "06 38 60 44 05",
+     "site": "https://www.brasseriedeloursbarbu.fr/",
+     "source": "https://www.brasseriedeloursbarbu.fr/en/contactus",
+     "verifieLe": "2026-10-16"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "American IPA"
+     },
+     {
+      "type": "autre",
+      "libelle": "Belgian Ale"
+     },
+     {
+      "type": "autre",
+      "libelle": "English Porter"
+     },
+     {
+      "type": "autre",
+      "libelle": "Weissbier"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://www.brasseriedeloursbarbu.fr/en/contactus",
+    "https://www.brasseriedeloursbarbu.fr/en"
+   ],
+   "extrait": "+33 638 60 44 05 ; « Beside the 4 permanent beers - American IPA, Belgian Ale, English Porter and Weissbier - » « our range also includes 2 seasonal recipes »",
+   "choix": "Mobile (écrit « +33 638 60 44 05 »), seul numéro publié, page Contact. Bières : les 4 permanentes ; « American IPA » → ipa, les trois autres en « autre » (Belgian Ale, English Porter, Weissbier ne sont pas des types du schéma, rien n'est déduit). Pas de page par bière. Catégorie laissée à 0. Extraits relus mot pour mot."
+  },
+  {
+   "n": "Brasserie du Bugey",
+   "changements": {
+    "contact": {
+     "tel": "06 67 36 43 36",
+     "site": "https://la-biere-du-plateau.webnode.fr/",
+     "source": "https://la-biere-du-plateau.webnode.fr/contactez-nous/",
+     "verifieLe": "2026-10-16"
+    }
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://la-biere-du-plateau.webnode.fr/contactez-nous/"
+   ],
+   "extrait": "« 06.67.36.43.36 » ; « Merci de nous contacter avant de nous rendre visite ! »",
+   "choix": "Mobile du brasseur, seul numéro publié, page Contactez-nous ; le site est celui de la brasserie (« La Brasserie du Bugey est une petite brasserie artisanale créée en 2017 »). Catégorie laissée à 0 : la vente renvoie vers un autre site. Aucune bière typée."
+  },
+  {
+   "n": "Brasserie Kan Mêm",
+   "changements": {
+    "note": "Dégustation individuelle gratuite, ouverte le vendredi de 17h à 19h (annuaire touristique) ; vente non mentionnée, catégorie non tranchée.",
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Source indirecte (annuaire touristique), à confirmer auprès de la brasserie. Visites guidées sur demande.",
+      "source": "https://en.ardeche-guide.com/producer/micro-brasserie-kan-mem-5116835/",
+      "verifieLe": "2026-10-16"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-16",
+   "sources": [
+    "https://en.ardeche-guide.com/producer/micro-brasserie-kan-mem-5116835/"
+   ],
+   "extrait": "« Opening All year round, every Friday between 5 pm and 7 pm. » ; « Individual tasting (free of charge) » ; « Guided individual tours on request »",
+   "choix": "Seule source : un annuaire touristique (en anglais) ; ni site ni page lisible de la brasserie. Horaires mis en « accueil » parce que la source parle de dégustation et de visite — sur une fiche qui reste « À confirmer », ils s'afficheraient « Horaires d'accueil du public » : à refuser si cela ne suffit pas (même question qu'en S12 pour Georges). Catégorie laissée à 0 : la vente n'est pas mentionnée. Téléphone de l'annuaire écarté. Extraits relus mot pour mot."
+  }
+ ],
+ "revues": [
+  "Brasserie des 2 Roches",
+  "Les Brasseurs du Sornin",
+  "Brasserie de la Pérouze",
+  "Brasserie La Couleuvre",
+  "Brasserie du Revermont (Les Deux Frères)",
+  "Brasserie Kan Mêm",
+  "Terre de Possibles",
+  "Brasserie de l'Ours Barbu",
+  "Domaine du Bélier Rouge",
+  "Brasserie du Bugey",
+  "Ferme-Brasserie de Belmonthé",
+  "Brasserie Haarddrëch",
+  "Brasserie Kokine",
+  "Les Cuves de la Madeleine",
+  "Brasserie de Chartreuse",
+  "Brasserie Rohner",
+  "Manev'Ale",
+  "Les Croqueurs de Lune",
+  "Brasserie de Chanaz",
+  "Les Bières Hoffmann (Brasseurs du Grand Colombier)",
+  "La Valentinoise",
+  "Brasserie du Vercors (Biercors)",
+  "Brasserie de Cluny",
+  "Brasserie de Roche Colombe",
+  "Brasserie Paille"
+ ]
+}
