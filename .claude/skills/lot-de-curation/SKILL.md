@@ -33,7 +33,9 @@ vérifiés ; à égalité, les plus proches de Brignais.
 Lancer l'agent `verificateur-de-brasserie` par paquets de 5 fiches au plus
 (un paquet par agent, en parallèle), avec le nom du lot, la date du jour et,
 pour une fiche signalée, **le numéro et le texte de l'issue**. Recopier
-chaque bloc JSON rendu dans `curation/<lot>.json`, en un seul lot.
+chaque bloc JSON rendu dans `curation/<lot>.json`, en un seul lot, avec le
+champ `revues` : **toutes** les fiches revues, avec ou sans proposition
+(sinon elles reviennent au lot suivant, vu en S13).
 
 ## 3. Valider, sans rien croire
 

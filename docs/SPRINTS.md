@@ -31,7 +31,8 @@ durée se relève sur l'horodatage des commits.
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
-| S12 | 300 k | — | agents 167 k + revues 92 k | lot prêt, PR à ouvrir |
+| S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
+| S13 | 300 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -690,7 +691,7 @@ sprints avec revue + revue globale »).
      (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
      juger par lui.
 
-## S12 — Curation, lot 1 *(terminé le 16/10 — lot en attente de Cédric)*
+## S12 — Curation, lot 1 *(terminé le 16/10 — mergé (#12), page publiée sondée ; lot en attente de Cédric)*
 
 1. **Objectif.** Les 25 « À confirmer » les plus proches de Brignais
    revérifiés, sous forme de **propositions** que Cédric accepte ou refuse
@@ -753,4 +754,17 @@ sprints avec revue + revue globale »).
      passe parce que « 04 … » est bien sur la page.
    - **Reste** : le rendu exact de la fiche (badge, titres) n'est pas encore
      dans le diff (BACKLOG).
+
+## S13 — Curation, lot 2 *(en cours)*
+
+1. **Objectif.** Les 25 « À confirmer » suivants, en propositions.
+2. **Vu avant de lancer.** `lot 25` aurait rendu les **mêmes** 25 fiches
+   qu'en S12 : une fiche revue sans proposition ne laisse aucune trace dans
+   `data/`. Corrigé : champ `revues` d'un lot (il contient les fiches
+   proposées, testé) et `curation/revues.json` pour S12, dont le fichier
+   n'est pas touché (son empreinte est celle que Cédric lit). Il reste 76
+   « À confirmer » jamais revus.
+3. **Persona juge.** Marie : ce qu'une proposition ferait afficher se
+   comprend-il sans le vocabulaire du milieu ?
+4. **État final et restes.** *(à la clôture)*
 
