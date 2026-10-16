@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { BRIGNAIS } from '../../src/core/distance'
-import { favorisCaches, normaliser, rechercher } from '../../src/core/recherche'
+import { favorisCaches, normaliser, rechercher, rechercherPartout } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -33,6 +33,13 @@ describe('rechercher', () => {
     const premier = rechercher(faux, base)[0]
     // Caribrew, référence Python (haversine, R = 6371 km) : 5,339 km.
     expect(premier.distanceKm).toBeCloseTo(5.339, 2)
+  })
+
+  it('un nom tapé cherche partout, au-delà du rayon (demande de Cédric du 16/10)', () => {
+    const loin = rechercher(TOUTES, { ...base, rayonKm: 5, texte: 'tom' }).map((r) => r.brasserie.n)
+    expect(loin).toContain('Tom & Co')
+    expect(rechercherPartout({ texte: 'tom' })).toBe(true)
+    expect(rechercherPartout({ texte: '  ' })).toBe(false)
   })
 
   it('exclut ce qui est au-delà du rayon', () => {

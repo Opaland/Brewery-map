@@ -376,6 +376,33 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 
 .depart { border: 1px solid var(--gris-vert-clair); border-radius: var(--rayon-md); padding: var(--espace-4) var(--espace-6); margin: 0; display: grid; gap: var(--espace-4); }
 .depart legend { font-weight: 600; }
+/* Rien de choisi : le bloc s'annonce comme la première étape (S21). */
+.depart-a-choisir { border: 2px solid var(--encre); }
+.depart-a-choisir legend { font-size: 1.1em; }
+
+/* La recherche de commune (S21) : une liste sous le champ, cibles de 44 px. */
+.choix-commune { display: grid; gap: var(--espace-2); }
+.choix-commune-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--gris-vert-clair);
+  border-radius: var(--rayon-md);
+  background: var(--blanc-carte);
+}
+.choix-commune-liste li { min-height: 44px; display: flex; align-items: center; padding: 0 var(--espace-6); cursor: pointer; }
+.choix-commune-liste li.active { background: var(--gris-vert-clair); }
+.choix-commune-dep { color: var(--encre-douce); margin-left: var(--espace-2); }
+.lien-bouton {
+  justify-self: start;
+  min-height: 44px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .depart-actions { display: flex; flex-wrap: wrap; gap: var(--espace-4); }
 .depart-actions button {
   font: inherit;

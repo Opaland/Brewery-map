@@ -32,7 +32,7 @@ test.describe('« Y aller » (Hugo)', () => {
     // Le Pixel 7 émulé est un Android : trois liens, sans Plans (Apple).
     expect(depuisBrignais).toHaveLength(3)
     await page.getByTestId('autour-de-moi').click()
-    await expect(page.getByTestId('compte')).toContainText('de votre position')
+    await expect(page.getByTestId('compte')).toContainText('depuis votre position')
     expect(await liensDe(page, 'Caribrew')).toEqual(depuisBrignais)
   })
 

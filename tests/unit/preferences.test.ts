@@ -51,20 +51,30 @@ describe('relire les préférences gardées', () => {
   })
 })
 
-describe('la position ne se garde jamais (Léa, S8)', () => {
-  it('« autour de moi » est gardé comme Brignais, sans coordonnées', () => {
+describe('la position ne se garde jamais (Léa, S8) — le choix « autour de moi », si (S21)', () => {
+  it('« autour de moi » est gardé comme un choix, sans coordonnées', () => {
+    // Retour de Cédric du 16/10 : « il faut redemander » à chaque ouverture.
+    // Le choix se garde ; les coordonnées, jamais.
     const p = versStockage({
       ...PREFERENCES_DEFAUT,
       depart: { type: 'position', point: { lat: 45.9367, lon: 4.7208 } },
     })
-    expect(p.depart).toEqual({ type: 'brignais' })
+    expect(p.depart).toEqual({ type: 'autour' })
     expect(JSON.stringify(p)).not.toMatch(/45\.93|4\.72/)
   })
 
   it('une position écrite à la main dans le stockage est refusée', () => {
     const base = versStockage(PREFERENCES_DEFAUT)
-    const triche = { ...base, depart: { type: 'position', lat: 45.9, lon: 4.7 } }
-    expect(lirePreferences(triche).depart).toEqual({ type: 'brignais' })
+    for (const depart of [
+      { type: 'position', lat: 45.9, lon: 4.7 },
+      { type: 'autour', lat: 45.9, lon: 4.7 },
+    ]) {
+      expect(lirePreferences({ ...base, depart }).depart).toEqual({ type: 'brignais' })
+    }
+  })
+
+  it('« autour de moi » gardé repart de Brignais, le temps de relocaliser', () => {
+    expect(origineDesPreferences({ type: 'autour' }, COMMUNES)).toEqual(ORIGINE_DEFAUT)
   })
 })
 
@@ -73,6 +83,20 @@ describe('retrouver le point de départ gardé', () => {
     const o = origineDesPreferences({ type: 'commune', cle: 'Oullins|69' }, COMMUNES)
     expect(o.type).toBe('commune')
     expect(o.type === 'commune' ? o.nom : '').toBe('Oullins')
+  })
+
+  it('une commune de France choisie se garde avec son point, et se retrouve telle quelle (S21)', () => {
+    const brest = { type: 'commune', cle: 'Brest|29', nom: 'Brest', point: { lat: 48.39, lon: -4.486 } } as const
+    const p = versStockage({ ...PREFERENCES_DEFAUT, depart: brest })
+    expect(p.depart).toEqual({ type: 'commune', cle: 'Brest|29', nom: 'Brest', lat: 48.39, lon: -4.486 })
+    expect(lirePreferences(p).depart).toEqual(p.depart)
+    expect(origineDesPreferences(p.depart, COMMUNES)).toEqual(brest)
+  })
+
+  it('un point de commune hors de la Terre est refusé', () => {
+    const base = versStockage(PREFERENCES_DEFAUT)
+    const faux = { type: 'commune', cle: 'X|01', nom: 'X', lat: 200, lon: 4 }
+    expect(lirePreferences({ ...base, depart: faux }).depart).toEqual({ type: 'brignais' })
   })
 
   it('une commune disparue des données ramène à Brignais', () => {

@@ -19,13 +19,26 @@ import { categorieSchema, typeDeBiereSchema, type Categorie } from './schema'
 export const RAYON = { min: 5, max: 100, pas: 5, initial: 30 } as const
 
 /**
- * Le départ gardé. **Jamais la position** : « autour de moi » se redemande à
- * chaque visite, et le stockage n'en garde aucune trace (Léa, S8). Une
- * commune se garde par sa clé, et se retrouve dans les données au retour.
+ * Le départ gardé. **Jamais la position** (Léa, S8) : depuis S21, le *choix*
+ * « autour de moi » se garde (`autour`, sans rien d'autre), parce qu'il
+ * fallait le redemander à chaque ouverture (retour de Cédric du 16/10) ; la
+ * position est redemandée au navigateur, sans fenêtre si elle est déjà
+ * permise. Une commune de France se garde avec son nom et son point, une
+ * donnée publique (`public/communes-france.json`) ; une commune gardée par
+ * une version d'avant S21 (clé seule) se retrouve dans les données.
  */
 const departSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('brignais') }).strict(),
-  z.object({ type: z.literal('commune'), cle: z.string().min(1) }).strict(),
+  z.object({ type: z.literal('autour') }).strict(),
+  z
+    .object({
+      type: z.literal('commune'),
+      cle: z.string().min(1),
+      nom: z.string().min(1).optional(),
+      lat: z.number().min(-90).max(90).optional(),
+      lon: z.number().min(-180).max(180).optional(),
+    })
+    .strict(),
 ])
 export type DepartGarde = z.infer<typeof departSchema>
 
@@ -97,12 +110,17 @@ export function lirePreferences(brut: unknown): Preferences {
   }
 }
 
-/** La forme gardée : le départ y perd toujours ses coordonnées. */
+/** La forme gardée : une position y devient le seul choix `autour`, sans coordonnées. */
 export function versStockage(
   p: Omit<Preferences, 'depart'> & { depart: Origine | DepartGarde },
 ): Preferences {
-  const depart: DepartGarde =
-    p.depart.type === 'commune' ? { type: 'commune', cle: p.depart.cle } : { type: 'brignais' }
+  const d = p.depart
+  let depart: DepartGarde
+  if (d.type === 'position' || d.type === 'autour') depart = { type: 'autour' }
+  else if (d.type === 'commune' && 'point' in d)
+    depart = { type: 'commune', cle: d.cle, nom: d.nom, lat: d.point.lat, lon: d.point.lon }
+  else if (d.type === 'commune') depart = d
+  else depart = { type: 'brignais' }
   return { ...p, depart }
 }
 
@@ -111,7 +129,10 @@ export function origineDesPreferences(
   depart: DepartGarde,
   communes: readonly CommuneConnue[],
 ): Origine {
-  if (depart.type === 'brignais') return ORIGINE_DEFAUT
+  if (depart.type !== 'commune') return ORIGINE_DEFAUT
+  if (depart.nom !== undefined && depart.lat !== undefined && depart.lon !== undefined) {
+    return { type: 'commune', cle: depart.cle, nom: depart.nom, point: { lat: depart.lat, lon: depart.lon } }
+  }
   const c = communes.find((x) => x.cle === depart.cle)
   return c === undefined ? ORIGINE_DEFAUT : origineDeCommune(c)
 }

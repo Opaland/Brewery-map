@@ -39,6 +39,12 @@ Ce qu'il a écrit, découpé ; rien n'est commencé, chaque sprint attend son go
 Ordre proposé : 4 et 3 (données, en lots), 1 (recherche de commune), 5
 (statut « fermée » puis écran des nouveautés), 2 selon sa réponse.
 
+**Suite (16/10)** : 1 et 2 faits en S21 (recherche de communes, bouton
+« Installer », localisation). Pour 3 (open data), Cédric : « fais ce que tu
+penses être le mieux » → des lots de propositions comme le reste (§0),
+regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
+Restent 3, 4 et 5.
+
 ## Constats sur `data/breweries.json` (relevés le 15/10, sans modification)
 
 Relevés par lecture du fichier fourni (166 lignes). **Aucun n'a été corrigé** :

@@ -11,11 +11,12 @@ import {
   versStockage,
   type Preferences,
 } from './core/preferences'
-import { favorisCaches, rechercher } from './core/recherche'
+import { favorisCaches, rechercher, rechercherPartout } from './core/recherche'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Categorie } from './core/schema'
 import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
+import { Installer } from './Installer'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
@@ -41,10 +42,17 @@ function texteDuCompte(
   origine: string,
   favorisSeulement: boolean,
   nbFavoris: number,
+  partout: boolean,
 ): string {
-  const ou = `à moins de ${String(rayonKm)} km de ${origine}`
+  // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon.
+  const ou = partout
+    ? `toutes distances, comptées depuis ${origine}`
+    : `à moins de ${String(rayonKm)} km de ${origine}`
   if (!favorisSeulement) {
-    return n === 0 ? 'Aucune brasserie ne correspond.' : `${String(n)} brasserie${n > 1 ? 's' : ''} ${ou}`
+    // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
+    // disait pas que le fichier s'arrête loin de là (S21).
+    if (n === 0) return partout ? 'Aucune brasserie ne correspond.' : `Aucune brasserie ${ou}.`
+    return `${String(n)} brasserie${n > 1 ? 's' : ''} ${ou}`
   }
   if (nbFavoris === 0) {
     return 'Vous n’avez pas encore de favori. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.'
@@ -202,6 +210,7 @@ export function App({ stockage }: { stockage: Stockage }) {
         <p className="sous-titre">
           Les brasseries artisanales autour de vous, et ce qu’on peut y faire.
         </p>
+        <Installer />
       </header>
 
       {!enLigne && (
@@ -218,7 +227,11 @@ export function App({ stockage }: { stockage: Stockage }) {
         <h2 id="titre-filtres" className="lecteur-seul">
           Rechercher et filtrer
         </h2>
-        <PointDeDepart origine={origine} communes={COMMUNES} onChange={setOrigine} />
+        <PointDeDepart
+          origine={origine}
+          onChange={setOrigine}
+          relocaliser={ini.depart.type === 'autour'}
+        />
 
         <label className="champ">
           <span>Nom ou commune</span>
@@ -292,7 +305,14 @@ export function App({ stockage }: { stockage: Stockage }) {
 
       <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
         {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
-        {texteDuCompte(resultats.length, rayonKm, libelleOrigine(origine), favorisSeulement, nbFavorisConnus)}
+        {texteDuCompte(
+          resultats.length,
+          rayonKm,
+          libelleOrigine(origine),
+          favorisSeulement,
+          nbFavorisConnus,
+          rechercherPartout({ texte }),
+        )}
       </p>
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
@@ -337,8 +357,7 @@ export function App({ stockage }: { stockage: Stockage }) {
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
             ? 'Prête pour une utilisation hors connexion sur cet appareil.'
-            : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}{' '}
-          Pour l’installer : menu du navigateur, puis « Ajouter à l’écran d’accueil ».
+            : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}
         </p>
         <p>
           Distances à vol d’oiseau. Les positions sont celles du centre de la commune

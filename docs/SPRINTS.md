@@ -40,6 +40,7 @@ durée se relève sur l'horodatage des commits.
 | S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
 | S19 | 180 k | — | revues 71 k (le reste non relevé) | terminé |
 | S20 | 180 k | — | revues 86 k (le reste non relevé) | terminé |
+| S21 | 180 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -237,8 +238,9 @@ données (CLAUDE.md §0).
 | S18 | Accessibilité : lecteur d'écran, clavier, contrastes et cibles de 44 px **mesurés**. | Inès *(nouvelle)* |
 | S19 | « Y aller » : lien vers une application de navigation avec la **destination seule**, jamais l'origine. | Hugo *(nouveau)* |
 | S20 | Performance et téléphones anciens : Lighthouse sur le build de production, poids de la carte. | Bernard |
-| S21 | Revue globale de l'application, et ses corrections. | toutes |
-| S22 | Livraison : README, licence, attributions, captures, GIF, post LinkedIn. | toutes |
+| S21 | Partout en France *(ajouté le 16/10, retours de Cédric)* : commune de départ cherchée partout (fin de la liste déroulante), 100 km d'abord ; « Autour de moi » proposé d'emblée, qui marche et se souvient ; bouton « Installer ». | Léa, Cédric |
+| S22 | Revue globale de l'application, et ses corrections. | toutes |
+| S23 | Livraison : README, licence, attributions, captures, GIF, post LinkedIn. | toutes |
 
 ### Comment les « À confirmer » se reconfirment
 
@@ -1149,3 +1151,42 @@ sprints avec revue + revue globale »).
      défilement n'est pas mesuré, ni sur un vrai vieux téléphone ; à la
      première visite, le service worker précache tout, carte comprise (le
      poids de 101 Kio est celui de l'ouverture, pas de la visite entière).
+
+## S21 — Partout en France *(en cours ; ajouté le 16/10)*
+
+1. **Pourquoi.** Retours de Cédric du 16/10, sur son téléphone : pas de
+   lien pour installer ; la localisation (« la carte ne suit pas », « message
+   refusé », « rien ne se passe », « il faut redemander ») ; « surtout il
+   reste la liste déroulante » ; « Je veux pouvoir chercher partout » ;
+   proposer d'emblée « autour de moi » ou sa commune ; chercher d'abord à
+   100 km, toute la France sinon. Le plan est décalé : revue globale en S22,
+   livraison en S23.
+2. **Données.** `outils/communes.ts` fait `public/communes-france.json`
+   (34 960 communes ; 469 Ko compressé) et `public/communes/<dép>.json`
+   (3 Ko pour le Rhône) : les communes actuelles du paquet
+   `@etalab/decoupage-administratif` 6.0.0 (COG de l'INSEE), leur point
+   tiré de Wikidata (CC0) par le code INSEE — `geo.api.gouv.fr` est
+   injoignable depuis l'environnement. 9 communes sans point dans Wikidata,
+   écartées et nommées par l'outil ; aucun point à plus de 150 km du centre
+   de son département (vérifié). Ces fichiers ne sont pas `data/` (la règle
+   du §0 porte sur les brasseries).
+3. **Fait.**
+   - Champ « Ou partir d'une commune, partout en France » (motif ARIA
+     combobox) à la place de la liste : départements à moins de 100 km
+     chargés d'avance, la plus proche d'abord ; rien près (Lille depuis
+     Lyon) ou « Chercher dans toute la France » : le fichier entier. Même
+     origine : la commune tapée ne part nulle part (test).
+   - Tant que rien n'est choisi, le bloc s'appelle « Par où commencer ? ».
+   - « Autour de moi » : un essai précis (position d'au plus une minute,
+     au lieu de dix), puis un essai moins exigeant ; la précision dite
+     au-delà d'1 km ; « près de … » (commune la plus proche, calculée dans
+     le téléphone) ; après un refus, comment réautoriser ; le *choix* se
+     garde (jamais la position) et, au retour, la position est redemandée
+     sans fenêtre si le navigateur l'a déjà permise.
+   - Un nom tapé cherche les brasseries à toute distance ; le compte le dit.
+     À zéro, le compte dit d'où et jusqu'où.
+   - Bouton « Installer l'application » (Android, Chrome) ; le geste de
+     Safari sur iPhone.
+   Chaque test nouveau vu rouge sur une mutation.
+4. **Personas juges.** Léa (S8, la position) et Cédric (ses retours).
+5. **État final et restes.** *(à la clôture)*

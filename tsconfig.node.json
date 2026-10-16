@@ -33,6 +33,7 @@
     "src/FiltreType.tsx",
     "src/Horaires.tsx",
     "src/YAller.tsx",
+    "src/localisation.ts",
     "tests"
   ]
 }
