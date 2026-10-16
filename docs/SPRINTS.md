@@ -35,7 +35,7 @@ durée se relève sur l'horodatage des commits.
 | S13 | 300 k | — | agents 157 k + revues 78 k | terminé (#13) ; lot en attente de Cédric |
 | S14 | 200 k | — | revues 115 k (code non relevé) | terminé (#14) ; lot en attente de Cédric |
 | S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
-| S16 | 300 k | — | en cours | en cours |
+| S16 | 300 k | — | agents ≈ 222 k + revues 101 k (dépassement de 8 %) | terminé ; lot en attente de Cédric |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -906,7 +906,7 @@ sprints avec revue + revue globale »).
      que sur signalement).
    - **Reste** : l'armement (Cédric) ; une voie hors GitHub (BACKLOG).
 
-## S16 — Curation, lot 3 *(en cours)*
+## S16 — Curation, lot 3 *(terminé le 16/10 ; lot en attente de Cédric)*
 
 1. **Objectif.** Les 25 « À confirmer » suivants, en propositions, **avec
    les types de bière** quand la brasserie les liste elle-même (persona
@@ -916,5 +916,33 @@ sprints avec revue + revue globale »).
    contact, horaires, bières (type lu dans le texte de la brasserie, jamais
    déduit du nom ; lien vers la page de la bière sur son site, sinon aucun).
 3. **Persona juge.** Karim.
-4. **État final et restes.** *(à la clôture)*
+4. **État final et restes.** 25 fiches revues, 8 propositions
+   (`curation/s16-lot-3.md`, empreinte `aa5a27525065`) : 6 téléphones,
+   32 bières typées sur 3 fiches (Sornin 24, Kokine 4, Ours Barbu 4 ;
+   aucune page par bière), une catégorie 1 en confiance faible (La
+   Valentinoise), des horaires « accueil » d'après un annuaire (Kan Mêm).
+   Revues faites (métier Karim 52 k, code 49 k), corrections appliquées le
+   16/10. Budget dépassé de 8 % (≈ 323 k pour 300 k), sous le seuil d'arrêt.
+   - **Revue métier (Karim)** — corrigé :
+     - la fiche montrait « Cluny 4 » sans dire que c'est une blonde : une
+       bière nommée affiche son type (« Cluny 4 · Blonde ») et son
+       explication, sauf « autre », dont le libellé porte le style ; test
+       unitaire vu rouge. Pas d'e2e : aucune ligne de `data/` n'a de bière ;
+     - le filtre disait « 3 brasseries au total », comme si trois brasseries
+       seulement brassaient une IPA : il dit « 3 fiches renseignées », et
+       sous le menu combien de fiches sur 166 ont leurs bières ;
+     - Sornin : le type venait du seul en-tête (« Bière fruitée ! Castagne »
+       pour une bière que la description dit ambrée) et l'Eduenne et les
+       quatre cervoises manquaient ; catalogue refait (24 bières), type tiré
+       de la description, sinon de l'en-tête, chaque phrase citée et relue
+       sur la page brute ; deux arbitrages posés à Cédric (Trouille brune,
+       Grand Béréby IPA).
+   - **Autres points des revues** — corrigé : Weissbier en « blanche » (traduction
+     littérale, dite dans le choix) ; « click and collect » absent des
+     pages, retiré ; La Valentinoise « non datée » alors que la page dit
+     « Modified on Feb. 16, 2024 », corrigé.
+   - **Reste, décisions de Cédric** : les 8 propositions ; des horaires
+     « accueil » tirés d'un annuaire sur une fiche « À confirmer » (Kan Mêm,
+     même question que Georges en S12) ; la commune de Paille (le site dit
+     Lournand, la fiche Château).
 

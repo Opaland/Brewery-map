@@ -3,6 +3,9 @@ import { TYPES_BIERE, type TypeDeBiere } from './core/bieres'
 interface Props {
   /** Nombre de brasseries par type, sur tout le fichier. */
   nbParType: ReadonlyMap<TypeDeBiere, number>
+  /** Fiches dont les bières sont renseignées, et fiches en tout. */
+  nbRenseignees: number
+  nbFiches: number
   valeur: TypeDeBiere | undefined
   onChange: (type: TypeDeBiere | undefined) => void
 }
@@ -12,17 +15,18 @@ interface Props {
  * brasserie déclare. Tant qu'aucune n'en déclare, il le dit au lieu d'offrir
  * des choix qui videraient la liste.
  *
- * Le nombre affiché est un total sur tout le fichier, et le libellé le dit :
- * avec un rayon ou une catégorie, la liste peut en montrer moins (revue code
- * S5).
+ * Le nombre affiché compte les fiches renseignées, et le libellé le dit :
+ * « 3 brasseries au total » laissait croire que seules trois brasseries
+ * brassent une IPA, quand les autres fiches n'ont simplement rien de
+ * renseigné (revue métier S16). La part renseignée est dite sous le menu.
  */
-export function FiltreType({ nbParType, valeur, onChange }: Props) {
+export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChange }: Props) {
   const presents = TYPES_BIERE.filter((t) => (nbParType.get(t.type) ?? 0) > 0)
   if (presents.length === 0) {
     return (
       <p className="champ-aide" data-testid="type-absent">
-        Filtre par type de bière : aucune brasserie n’a encore ses types référencés. Il
-        se remplira avec la vérification des fiches.
+        Filtre par type de bière : aucune brasserie n’a encore ses types référencés. Il se remplira
+        avec la vérification des fiches.
       </p>
     )
   }
@@ -42,11 +46,17 @@ export function FiltreType({ nbParType, valeur, onChange }: Props) {
           const n = nbParType.get(t.type) ?? 0
           return (
             <option key={t.type} value={t.type}>
-              {t.libelle} — {t.explication} ({n} brasserie{n > 1 ? 's' : ''} au total)
+              {t.libelle} — {t.explication} ({n} fiche{n > 1 ? 's' : ''} renseignée
+              {n > 1 ? 's' : ''})
             </option>
           )
         })}
       </select>
+      <span className="champ-aide" data-testid="type-part">
+        Bières renseignées sur {nbRenseignees} fiche
+        {nbRenseignees > 1 ? 's' : ''} sur {nbFiches} : les autres brasseries n’apparaissent pas
+        avec ce filtre.
+      </span>
     </label>
   )
 }

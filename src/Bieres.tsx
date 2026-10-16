@@ -22,7 +22,16 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
       <ul>
         {brasserie.beers.map((biere, i) => {
           const type = LIBELLE.get(biere.type)
-          const nom = biere.libelle ?? type?.libelle ?? biere.type
+          // Le nom de la bière ne dit pas son style : le type suit, sauf
+          // « autre », dont le libellé porte déjà le style (revue métier S16).
+          const montrerType =
+            type !== undefined && (biere.libelle === undefined || biere.type !== 'autre')
+          const nom =
+            biere.libelle === undefined
+              ? (type?.libelle ?? biere.type)
+              : montrerType
+                ? `${biere.libelle} · ${type.libelle}`
+                : biere.libelle
           const lien = lienDeBiere(biere, brasserie)
           return (
             <li key={`${biere.type}-${String(i)}`}>
@@ -37,9 +46,7 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
                     ' (page de la brasserie dans un annuaire, pas de cette bière)'}
                 </a>
               )}
-              {type !== undefined && biere.libelle === undefined && (
-                <span className="fiche-aide-inline"> — {type.explication}</span>
-              )}
+              {montrerType && <span className="fiche-aide-inline"> — {type.explication}</span>}
             </li>
           )
         })}
