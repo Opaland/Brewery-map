@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -14,6 +14,7 @@ import {
 import { favorisCaches, rechercher } from './core/recherche'
 import { lienAjout, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import type { Categorie } from './core/schema'
+import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
@@ -22,7 +23,6 @@ import type { Stockage } from './stockage'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
 // retarde pas la liste, qui suffit seule à trouver une brasserie.
-const Carte = lazy(() => import('./Carte'))
 
 /** Combien de brasseries proposent chaque type : calculé une fois. */
 const NB_PAR_TYPE = compterTypes(BRASSERIES)
@@ -306,16 +306,14 @@ export function App({ stockage }: { stockage: Stockage }) {
         Aller à la liste des brasseries
       </a>
       <div className="vues">
-        <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
-          <Carte
-            resultats={resultats}
-            origine={origine.point}
-            libelleOrigine={libelleOrigine(origine)}
-            rayonKm={rayonKm}
-            selection={selection}
-            onChoisir={choisirDepuisLaCarte}
-          />
-        </Suspense>
+        <CarteDifferee
+          resultats={resultats}
+          origine={origine.point}
+          libelleOrigine={libelleOrigine(origine)}
+          rayonKm={rayonKm}
+          selection={selection}
+          onChoisir={choisirDepuisLaCarte}
+        />
         <div className="liste-conteneur">
           <h2 id="titre-liste" className="lecteur-seul" tabIndex={-1}>
             Brasseries

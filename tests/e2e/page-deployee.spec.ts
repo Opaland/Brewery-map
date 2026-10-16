@@ -35,6 +35,12 @@ test.describe('la page publiée', () => {
       page.getByRole('heading', { name: 'Mousse de Poche', level: 1 }),
     ).toBeVisible({ timeout: 20_000 })
     await expect(page.getByTestId('mention-alcool')).toBeVisible()
+    // La carte ne se charge qu'à l'approche (S20) : la sonde y va, sinon son
+    // chunk publié ne serait plus jamais demandé ici.
+    await page.getByTestId('carte-en-attente').scrollIntoViewIfNeeded()
+    await expect(
+      page.locator('[data-testid="carte"], [data-testid="carte-absente"]'),
+    ).toBeVisible({ timeout: 20_000 })
     expect(echecs, `requêtes en échec : ${echecs.join(' | ')}`).toEqual([])
     expect(erreurs, `erreurs JavaScript : ${erreurs.join(' | ')}`).toEqual([])
   })

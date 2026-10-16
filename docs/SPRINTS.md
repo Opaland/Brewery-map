@@ -39,6 +39,7 @@ durée se relève sur l'horodatage des commits.
 | S17 | 300 k | — | agents 211 k + revues 131 k (dépassement de 14 %) | terminé ; lot en attente de Cédric |
 | S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
 | S19 | 180 k | — | revues 71 k (le reste non relevé) | terminé |
+| S20 | 180 k | — | revues 86 k (le reste non relevé) | terminé |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -1104,3 +1105,47 @@ sprints avec revue + revue globale »).
      aucune fiche de `data/` n'a d'horaires structurés (données, pas code,
      CLAUDE.md §10) ; pas d'indicateur dans la liste (BACKLOG). Sur un vrai
      iPhone et un vrai Android, l'ouverture des liens n'est pas vérifiée.
+
+## S20 — Performance et téléphones anciens *(terminé le 16/10)*
+
+1. **Objectif.** Que la page s'ouvre vite sur un vieux téléphone en 4G
+   faible (persona Bernard), **mesuré**.
+2. **Mesure de départ** (16/10, Lighthouse 13.5.0 lancé par `npx`, mobile
+   simulé : 150 ms de latence, 1,6 Mbit/s, processeur ralenti 4×, sur
+   `vite preview` du build de production) : performance 64, accessibilité
+   100, bonnes pratiques 100 ; premier affichage 2,3 s, plus grand affichage
+   3,3 s, blocage du fil principal 1 640 ms, interactif à 6,1 s, poids
+   389 Kio. Cause : le chunk de la carte (MapLibre) prenait 3,8 s du fil
+   principal dès l'ouverture, alors que la carte commence sous l'écran
+   (1 289 px pour 839 px de haut sur le Pixel 7 des tests).
+3. **Fait.** `src/CarteDifferee.tsx` : la carte se charge à 300 px de
+   l'écran. Mesure après (trois passages identiques) : performance 100 ;
+   1,4 s, 1,7 s, blocage 10 ms, interactif à 1,7 s, poids 101 Kio. Le coût
+   de la carte n'a pas disparu : il arrive quand on fait défiler jusqu'à
+   elle. Test `tests/e2e/performance.spec.ts` (le chunk n'est pas demandé au
+   chargement), vu rouge avec la carte chargée d'emblée ; les tests qui
+   supposaient la carte chargée y vont désormais (`versLaCarte`, appelé à
+   quinze endroits, plus les deux balayages axe sur téléphone après la revue
+   code) ; la sonde de déploiement aussi.
+4. **Persona juge.** Bernard.
+5. **État final et restes.** Revues faites (Bernard 31 k, code 56 k),
+   corrections appliquées le 16/10.
+   - **Les deux revues, bloquant** — si le chunk de la carte ne venait pas
+     (4G faible, fichier disparu après un déploiement), React démontait
+     toute la page, liste comprise, au moment où Bernard la lisait. Une
+     frontière d'erreur n'efface plus que la carte et dit « La carte n'a pas
+     pu se charger (connexion ?) », avec « Recharger la page » : un nouvel
+     import ne suffit pas, le navigateur garde en mémoire l'échec d'un import
+     dynamique (vu au test). Test qui coupe le chunk, vu rouge.
+   - **Revue code** — les balayages axe sur téléphone ne voyaient plus la
+     carte : ils y vont ; le décompte de SPRINTS.md corrigé.
+   - **Vu en route** : `versLaCarte` comptait puis faisait défiler, et
+     tombait entre les deux (attente pas encore rendue, ou déjà remplacée sur
+     grand écran) : il boucle sur l'état voulu (§6ter) ; trois suites
+     complètes vertes d'affilée.
+   - **Texte d'attente** : « Carte : elle se charge quand vous faites
+     défiler jusqu'ici. »
+   - **Reste** : Lighthouse ne fait pas défiler — le coût de la carte au
+     défilement n'est pas mesuré, ni sur un vrai vieux téléphone ; à la
+     première visite, le service worker précache tout, carte comprise (le
+     poids de 101 Kio est celui de l'ouverture, pas de la visite entière).

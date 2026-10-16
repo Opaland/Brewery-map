@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { expect, test } from '@playwright/test'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles, TUILE_OSM } from './reseau'
+import { sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
 
 const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 /** Une position d'essai à Anse : loin de Brignais, proche de brasseries réelles. */
@@ -49,6 +49,9 @@ test.describe('« autour de moi » (Léa)', () => {
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await expect(page.getByTestId('compte')).toContainText('de votre position')
+    // La carte, chargée à l'approche (S20), demande ses tuiles autour de la
+    // position : le test doit l'y voir faire.
+    await versLaCarte(page)
     await page.waitForTimeout(1500)
     const tiers = urls.filter(
       (u) => !u.startsWith('http://localhost:4173/') && !u.startsWith('data:'),

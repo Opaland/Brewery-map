@@ -8,6 +8,8 @@ import type { Brasserie } from './schema'
  * le bundle sans avoir passé `validerBrasseries` : le plugin
  * `build/valider-donnees.ts` fait échouer `vite build` sinon, et
  * `tests/unit/donnees.test.ts` vérifie le même fichier avec le même schéma.
- * Valider une seconde fois à l'exécution ferait embarquer Zod pour rien.
+ * Le revalider à chaque ouverture ne prouverait rien de plus : le fichier ne
+ * change pas entre le build et l'écran. (Zod est tout de même embarqué depuis
+ * S9, pour relire les réglages gardés dans le téléphone, `preferences.ts`.)
  */
 export const BRASSERIES = brute as unknown as readonly Brasserie[]

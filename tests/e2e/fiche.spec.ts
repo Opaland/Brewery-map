@@ -1,7 +1,7 @@
 import { expect, test, type Page } from '@playwright/test'
 import { readFileSync } from 'node:fs'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 
@@ -119,6 +119,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
   })
 
   test('choisie sur la carte, sa fiche s’ouvre et vient à l’écran', async ({ page }) => {
+    await versLaCarte(page)
     await page.getByTestId('recherche').fill('oullins')
     await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').click()
     await expect(page.getByTestId('fiche')).toHaveCount(1)

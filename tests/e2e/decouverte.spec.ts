@@ -3,7 +3,7 @@ import { expect, test, type Page } from '@playwright/test'
 import { BRIGNAIS } from '../../src/core/distance'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 
@@ -137,12 +137,14 @@ test.describe('sans carte', () => {
       } as typeof origine
     })
     await page.goto('/')
+    await versLaCarte(page)
     await expect(page.getByTestId('carte-absente')).toContainText('La liste contient toutes les brasseries')
     await expect(lignes(page)).toHaveCount(attendus(30))
   })
 
   test('avec WebGL, la carte porte l’attribution OSM', async ({ page }) => {
     await page.goto('/')
+    await versLaCarte(page)
     const carte = page.getByTestId('carte')
     await expect(carte.getByRole('link', { name: 'contributeurs OpenStreetMap' })).toBeVisible()
   })
@@ -168,6 +170,7 @@ test.describe('la carte (marqueurs groupés)', () => {
 
   test('chaque brasserie de la liste est sur la carte', async ({ page }) => {
     await page.goto('/')
+    await versLaCarte(page)
     await expect.poll(() => totalSurLaCarte(page)).toBe(attendus(30))
     await regler(page, 10)
     await expect.poll(() => totalSurLaCarte(page)).toBe(attendus(10))
@@ -175,6 +178,7 @@ test.describe('la carte (marqueurs groupés)', () => {
 
   test('deux brasseries au même endroit restent un groupe « 2 »', async ({ page }) => {
     await page.goto('/')
+    await versLaCarte(page)
     await page.getByTestId('recherche').fill('fontaines')
     await expect(lignes(page)).toHaveCount(2)
     const groupe = page.getByTestId('carte').locator('.marqueur-groupe')
@@ -187,6 +191,7 @@ test.describe('la carte (marqueurs groupés)', () => {
 
   test('choisir un marqueur choisit la ligne de la liste', async ({ page }) => {
     await page.goto('/')
+    await versLaCarte(page)
     await page.getByTestId('recherche').fill('oullins')
     const point = page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')
     await expect(point).toHaveCount(1)
