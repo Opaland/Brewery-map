@@ -153,6 +153,8 @@ test.describe('les réglages gardés', () => {
     await page.locator('button.ligne').first().click()
     await page.getByTestId('bouton-favori').click()
     await attendreGarde(page, { rayonKm: 80 })
+    // Replié depuis S24 : on l'ouvre, comme la personne.
+    await page.getByTestId('stockage-details').locator('summary').click()
     await page.getByTestId('tout-effacer').click()
     // Un toucher seul n'efface rien : il faut confirmer.
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (1)')
@@ -266,4 +268,47 @@ test('sans IndexedDB, l’application marche et dit que rien n’est gardé', as
   await expect(page.locator('button.ligne').first()).toBeVisible()
   await expect(page.getByTestId('stockage-texte')).toContainText('ne permet pas de garder')
   await expect(page.getByTestId('tout-effacer')).toHaveCount(0)
+})
+
+test('deux onglets : un favori ajouté dans chacun, les deux restent (S24)', async ({ context, page }) => {
+  await page.goto('/')
+  const autre = await context.newPage()
+  await autre.goto('/')
+  const ajouter = async (p: typeof page, rang: number) => {
+    const ligneP = p.locator('button.ligne').nth(rang)
+    await ligneP.click()
+    await p.getByTestId('bouton-favori').click()
+    await expect(p.getByTestId('bouton-favori')).toHaveText('★ Retirer de mes favoris')
+    return (await ligneP.getAttribute('data-nom')) ?? ''
+  }
+  const premier = await ajouter(page, 0)
+  const second = await ajouter(autre, 1)
+  // Un troisième onglet relit ce qui est gardé.
+  const relu = await context.newPage()
+  await relu.goto('/')
+  for (const nom of [premier, second]) {
+    await expect(relu.locator(`button.ligne[data-nom="${nom}"]`).getByTestId('marque-favori')).toHaveCount(1)
+  }
+})
+
+test('deux onglets : « tout effacer » dans l’un n’est pas défait par l’autre (revue S24)', async ({
+  context,
+  page,
+}) => {
+  await page.goto('/')
+  await page.locator('button.ligne').first().click()
+  await page.getByTestId('bouton-favori').click()
+  const autre = await context.newPage()
+  await autre.goto('/')
+  await autre.getByTestId('rayon').fill('80')
+  await page.getByTestId('stockage-details').locator('summary').click()
+  await page.getByTestId('tout-effacer').click()
+  await page.getByTestId('confirmer-effacer').click()
+  await expect(page.getByTestId('annonce')).toContainText('effacés')
+  // L'autre onglet suit : ses réglages reviennent aux défauts, sans réécrire.
+  await expect(autre.getByTestId('rayon')).toHaveValue('30')
+  const relu = await context.newPage()
+  await relu.goto('/')
+  await expect(relu.getByTestId('rayon')).toHaveValue('30')
+  await expect(relu.getByTestId('marque-favori')).toHaveCount(0)
 })

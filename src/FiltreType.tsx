@@ -25,8 +25,7 @@ export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChang
   if (presents.length === 0) {
     return (
       <p className="champ-aide" data-testid="type-absent">
-        Filtre par type de bière : aucune brasserie n’a encore ses types référencés. Il se remplira
-        avec la vérification des fiches.
+        Types de bière : aucun encore référencé, le filtre viendra avec la vérification des fiches.
       </p>
     )
   }

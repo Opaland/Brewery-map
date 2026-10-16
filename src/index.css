@@ -331,7 +331,9 @@ a { color: inherit; }
 .fiche dt { font-weight: 600; font-size: var(--texte-secondaire); margin-top: var(--espace-4); }
 .fiche dt:first-child { margin-top: 0; }
 .fiche dd { margin: 0; }
-.fiche a { display: inline-block; min-height: 44px; line-height: 44px; }
+/* Cible de 44 px par la boîte, pas par la hauteur de ligne : un lien sur
+   deux lignes ne s'étire plus à 88 px (revue UI/UX du 16/10, fait en S24). */
+.fiche a { display: inline-flex; align-items: center; min-height: 44px; }
 .fiche-aide { display: block; color: var(--encre-douce); font-size: var(--texte-secondaire); }
 
 .fiche-contact { margin-bottom: var(--espace-6); display: grid; gap: var(--espace-4); }

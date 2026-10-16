@@ -63,46 +63,66 @@ export function MesFavoris({
           </div>
         </div>
       )}
-      <p className="champ-aide" data-testid="stockage-texte">
-        {stockageDisponible
-          ? 'Vos favoris et vos réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur l’a déjà permise.'
-          : 'Ce navigateur ne permet pas de garder vos favoris et réglages (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.'}
-      </p>
-      {stockageDisponible && (
-        <div className="depart-actions">
-          {confirmer ? (
-            <>
+      {/* Replié derrière une phrase : déplié, ce bloc faisait 294 px avant la
+          liste sur téléphone (S24). Sans stockage, l'avertissement reste
+          visible : il change ce que la personne doit savoir. */}
+      {stockageDisponible ? (
+        <details
+          className="confidentialite"
+          data-testid="stockage-details"
+          // Refermé, il ne garde pas « Oui, tout effacer » prêt à un toucher
+          // (revue adverse S24).
+          onToggle={(e) => {
+            if (!e.currentTarget.open) setConfirmer(false)
+          }}
+        >
+          <summary>Gardés sur cet appareil seulement</summary>
+          <p className="champ-aide" data-testid="stockage-texte">
+            Vos favoris et vos réglages (distance, départ, filtres) sont gardés sur cet appareil
+            seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est
+            gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur
+            l’a déjà permise.
+          </p>
+          <div className="depart-actions">
+            {confirmer ? (
+              <>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setConfirmer(false)
+                    onEffacer()
+                  }}
+                  data-testid="confirmer-effacer"
+                >
+                  Oui, tout effacer
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setConfirmer(false)
+                  }}
+                >
+                  Annuler
+                </button>
+              </>
+            ) : (
               <button
                 type="button"
                 onClick={() => {
-                  setConfirmer(false)
-                  onEffacer()
+                  setConfirmer(true)
                 }}
-                data-testid="confirmer-effacer"
+                data-testid="tout-effacer"
               >
-                Oui, tout effacer
+                Effacer favoris et réglages
               </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setConfirmer(false)
-                }}
-              >
-                Annuler
-              </button>
-            </>
-          ) : (
-            <button
-              type="button"
-              onClick={() => {
-                setConfirmer(true)
-              }}
-              data-testid="tout-effacer"
-            >
-              Effacer favoris et réglages
-            </button>
-          )}
-        </div>
+            )}
+          </div>
+        </details>
+      ) : (
+        <p className="champ-aide" data-testid="stockage-texte">
+          Ce navigateur ne permet pas de garder vos favoris et réglages (navigation privée, ou
+          stockage bloqué) : ils seront oubliés en fermant la page.
+        </p>
       )}
     </fieldset>
   )

@@ -29,6 +29,10 @@ export function normaliser(texte: string): string {
     .normalize('NFD')
     .replace(/\p{M}/gu, '')
     .toLowerCase()
+    // NFD ne décompose pas les ligatures : « baroeul » doit trouver
+    // Marcq-en-Barœul, comme on l'écrit au clavier (S24).
+    .replace(/œ/gu, 'oe')
+    .replace(/æ/gu, 'ae')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim()
 }
@@ -132,4 +136,15 @@ export function favorisCaches(
   const connus = new Set(brasseries.map((b) => b.n))
   const montres = new Set(resultats.map((r) => r.brasserie.n))
   return favoris.filter((f) => connus.has(f) && !montres.has(f))
+}
+
+/**
+ * Des noms, bornés à cinq : la liste des favoris cachés grandissait sans
+ * limite (revue Marie S9, fait en S24). Cinq tiennent sur deux lignes de
+ * téléphone — seuil de présentation (CLAUDE.md §2).
+ */
+export function listeCourte(noms: readonly string[], max = 5): string {
+  if (noms.length <= max) return noms.join(', ')
+  const reste = noms.length - max
+  return `${noms.slice(0, max).join(', ')} et ${String(reste)} autre${reste > 1 ? 's' : ''}`
 }

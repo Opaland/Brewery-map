@@ -73,7 +73,7 @@ test.describe('« autour de moi » (Léa)', () => {
     await expect(texte).toContainText('voit donc cette zone, à quelques kilomètres près')
     await expect(page.getByTestId('stockage-texte')).not.toContainText('jamais gardé')
     // Replié, le texte s'annonce par une phrase visible avant le bouton (revue globale S22).
-    await expect(page.locator('.confidentialite summary')).toHaveText(
+    await expect(page.locator('[data-testid="depart"] .confidentialite summary')).toHaveText(
       'Votre position reste dans ce téléphone. Ce qui part sur le réseau',
     )
     await expect(texte).toContainText('fait aussi demander à ce site la liste des communes de sa région')

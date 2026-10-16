@@ -1340,3 +1340,56 @@ sprints avec revue + revue globale »).
    - Les liens de la fiche étirent leur ligne à 44 px.
    - Sur téléphone, la liste commence encore à près de 2 écrans. Le compte
      collant en ôte la gêne principale.
+
+## Plan v3 — après S23 *(demande de Cédric du 16/10)*
+
+« Termine le développement en agentic de cette PWA ; une fois tous les
+sprints faits, un audit applicatif avec Playwright, puis un sprint correctif ;
+ensuite cherche les applications proches (vin, whisky…) et prends les
+meilleures idées. » Puis : « ouvrir toute la France », « pour les issues
+bloquées, regarde si des personas ou toi-même ne peut pas décider », et à
+la fin « revue UI/UX, changement de design system, comment marketer
+l'appli ».
+
+| Sprint | Contenu | Estimation |
+|---|---|---|
+| S24 | Finitions du BACKLOG (code seul) | 300 k |
+| S25 | Toute la France : couche OpenStreetMap à part de `data/` | 500 k |
+| Décisions | Ce que les personas ou l'agent peuvent trancher, tracé | 200 k |
+| Audit | Audit applicatif (Playwright, axe, Lighthouse, sécurité, hors ligne) | 300 k |
+| S26 | Correctif de l'audit | 300 k |
+| S27 | Les meilleures idées de la veille (`docs/VEILLE-CONCURRENCE.md`) | 400 k |
+| S28 | Revue UI/UX, design system, marketing | 500 k |
+
+## S24 — Finitions *(terminé le 16/10)*
+
+1. **Pourquoi.** Les restes du BACKLOG qui ne demandent ni données ni
+   décision de Cédric.
+2. **Fait** (chaque test vu rouge sans sa correction) :
+   - **Content-Security-Policy** en `<meta>`, posée au build (`build/csp.ts`).
+     Seuls ce site et les tuiles OpenStreetMap sont permis.
+     `tests/e2e/securite.spec.ts` vérifie qu'une ressource tierce est
+     bloquée, et que tout le parcours (commune, fiche, carte) passe sans
+     violation. Avec les vraies tuiles : 4 tuiles chargées, 0 violation.
+     Zod essayait `Function('')`, ce que la politique refuse :
+     `z.config({ jitless: true })` (lu dans la source de Zod :
+     `jit && allowsEval.value`).
+   - **Ligatures** : « baroeul » trouve Marcq-en-Barœul (5 communes ont une
+     ligature).
+   - **Un nom tapé cadre la carte sur ce qu'il trouve**, même hors du rayon
+     (`empriseDesPoints`). Le cadre est comparé par valeur : toucher un
+     favori ne recadre plus.
+   - **Favoris entre onglets** (`BroadcastChannel`) : un favori ajouté dans
+     chacun de deux onglets reste. « Tout effacer » dans l'un remet l'autre à
+     zéro sans réécrire le stockage.
+   - **Liste des favoris cachés** bornée à cinq noms (`listeCourte`).
+   - **Haut de page** : le texte de stockage et « Effacer » sont repliés
+     (294 px), et la note du filtre type est raccourcie.
+   - Les liens de la fiche ne s'étirent plus (`inline-flex`).
+3. **Revue adverse** (52 k) : trois trouvailles, toutes corrigées.
+   - « Tout effacer » était défait par l'autre onglet : corrigé, test.
+   - Toucher un favori recadrait la carte : corrigé, test.
+   - La confirmation d'effacement restait prête une fois le bloc refermé :
+     elle se remet à zéro.
+4. **Décidé sans corriger** : le cartouche d'attribution OSM reste clair en
+   thème sombre, parce que les tuiles le restent aussi.
