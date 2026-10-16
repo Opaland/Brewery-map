@@ -5,7 +5,6 @@
    "n": "La Canute Lyonnaise",
    "changements": {
     "contact": {
-     "tel": "06 24 11 06 71",
      "site": "https://www.lacanutelyonnaise.fr/",
      "source": "https://www.lacanutelyonnaise.fr/revendeurs/",
      "verifieLe": "2026-10-16"
@@ -16,7 +15,7 @@
     "https://www.lacanutelyonnaise.fr/revendeurs/"
    ],
    "extrait": "Par appel ou SMS au 06 24 11 06 71 du lundi au vendredi de 9h à 17h",
-   "choix": "Le numéro est un MOBILE, et c'est la ligne de commande de la page « Nous trouver / revendeurs », qui s'adresse aux professionnels (minimum de commande en cartons et fûts, franco, paiement à 30 jours, « espace pro »). Le site n'affiche aucun autre numéro (pages Contact et Dégustations : formulaire seulement). À Cédric de juger si ce numéro vaut « téléphone pour les clients » ; sinon, ne pas appliquer. Écartés : les horaires « du mardi au vendredi de 9h à 17h au 75 chemin d'Yvours » (retrait de commandes pro, pas un accueil public) ; la catégorie reste 0 (la page Dégustations cite une visite guidée avec dégustation à 15 € par personne, à partir de 10 personnes, mais aucune vente aux particuliers) ; aucun Untappd trouvé."
+   "choix": "Site seul (revue métier S12). Le 06 24 11 06 71 de l'extrait n'est pas proposé : c'est la ligne de commande des professionnels (minimum en cartons et fûts, franco, paiement à 30 jours, « espace pro »), et la fiche en ferait un bouton « Appeler » pour un parent. Question à Cédric : faut-il le reprendre malgré tout ? Catégorie laissée à 0 : la page Dégustations ne cite qu'une visite guidée de groupe (15 € par personne, à partir de 10 personnes) ; les horaires « du mardi au vendredi de 9h à 17h » sont ceux du retrait des commandes pro."
   },
   {
    "n": "Malting Pot",
@@ -94,7 +93,7 @@
         "00:00"
        ]
       ],
-      "remarque": "Dimanche : la source ne le mentionne pas.",
+      "remarque": "Services du midi et du soir (brewpub avec cuisine). Dimanche : la source ne le mentionne pas.",
       "source": "https://www.malting-pot.com/adresses",
       "verifieLe": "2026-10-16"
      }
@@ -109,25 +108,6 @@
    "choix": "Confiance « moyenne » et pas « solide » : la page d'accueil parle des « établissements » au pluriel et ne décrit pas la consommation sur place à Lyon 7 en particulier. Catégorie 1 retenue parce que le site se présente comme un brewpub avec cuisine et une adresse à horaires midi et soir : lecture à valider. « 17H À MINUIT » écrit [17:00, 00:00]. L'adresse précise (263 Grande rue de la Guillotière) n'est pas proposée pour addr. Aucun Untappd cherché ni trouvé."
   },
   {
-   "n": "Brasserie Animus",
-   "changements": {
-    "note": "La brasserie a déménagé à Grigny : la page Contact publie « 63 rue André Sabatier, 69520 Grigny » ; vente sur place non précisée.",
-    "contact": {
-     "tel": "06 95 10 82 98",
-     "site": "https://www.brasserieanimus.com",
-     "source": "https://www.brasserieanimus.com/contact",
-     "verifieLe": "2026-10-16"
-    }
-   },
-   "verifieLe": "2026-10-16",
-   "sources": [
-    "https://www.brasserieanimus.com/la-brasserie",
-    "https://www.brasserieanimus.com/contact"
-   ],
-   "extrait": "Page La brasserie : « nouveau lieu de brassage à Grigny ». Page Contact : « 63 rue André Sabatier », « 69520 Grigny », « 06 95 10 82 98 », « brasserieanimus@gmail.com ».",
-   "choix": "Le 06 95 10 82 98, déjà cité dans la note, est publié par la brasserie sur sa page Contact, sans libellé, sous l'adresse : un mobile seul, à décider. La note est corrigée (elle disait « adresse non publiée »). addr et c portent encore Vaugneray : la commune ne peut pas changer par proposition (S11), l'adresse et la position sont à revoir par Cédric. Catégorie laissée à 0 : aucune page lue ne dit si l'on peut acheter ou boire sur place."
-  },
-  {
    "n": "Brasserie Georges",
    "changements": {
     "contact": {
@@ -135,65 +115,15 @@
      "site": "https://www.brasseriegeorges.com",
      "source": "https://www.brasseriegeorges.com/contact",
      "verifieLe": "2026-10-16"
-    },
-    "horaires": [
-     {
-      "nature": "accueil",
-      "lun": [
-       [
-        "11:30",
-        "23:00"
-       ]
-      ],
-      "mar": [
-       [
-        "11:30",
-        "23:00"
-       ]
-      ],
-      "mer": [
-       [
-        "11:30",
-        "23:00"
-       ]
-      ],
-      "jeu": [
-       [
-        "11:30",
-        "23:00"
-       ]
-      ],
-      "ven": [
-       [
-        "11:30",
-        "00:15"
-       ]
-      ],
-      "sam": [
-       [
-        "11:30",
-        "00:15"
-       ]
-      ],
-      "dim": [
-       [
-        "11:30",
-        "23:00"
-       ]
-      ],
-      "remarque": "Horaires du restaurant. Vendredi, samedi et veille de jour férié : 11h30 à 00h15. Ouvert 11h00 à 00h15 pendant la Fête des Lumières.",
-      "source": "https://www.brasseriegeorges.com/contact",
-      "verifieLe": "2026-10-16"
-     }
-    ]
+    }
    },
    "verifieLe": "2026-10-16",
    "sources": [
     "https://www.brasseriegeorges.com/contact",
     "https://www.brasseriegeorges.com"
    ],
-   "extrait": "« Tel : +33 (0)4 72 56 54 54 » ; « Tous les jours: 11h30 à 23h00 (service continu) » ; « Vendredi, Samedi et veille de jour férié: 11h30 à 00h15 » ; accueil : « Ouvert 7jours/7 ».",
-   "choix": "Catégorie laissée à 0 : le site ne dit pas si la bière est vendue à emporter (« La boutique » renvoie 404) ni si elle est brassée sur place (la note dit : Fabrique du Faubourg). Ce sont les horaires du restaurant, mis en « accueil » : à juger, une fiche « À confirmer » afficherait alors des horaires d'accueil. Seul numéro publié. Pas d'Untappd trouvé."
+   "extrait": "« Tel : +33 (0)4 72 56 54 54 »",
+   "choix": "Téléphone et site seuls (revue métier S12). Les horaires du restaurant (11h30–23h, vendredi et samedi jusqu'à 0h15) ne sont pas proposés : sous un badge « À confirmer », la fiche les afficherait comme « Horaires d'accueil du public », alors que rien n'établit qu'on y boive la bière de la brasserie (brassée par la Fabrique du Faubourg). Catégorie laissée à 0 : le site ne dit pas si la bière se vend à emporter (« La boutique » renvoie 404). Le bandeau « Fête des Lumières » de la page est daté de décembre 2025 : écarté. Seul numéro publié ; pas d'Untappd trouvé."
   }
  ]
 }

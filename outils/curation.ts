@@ -116,6 +116,10 @@ if (commande === 'lot') {
 } else if (commande === 'appliquer') {
   const { lot: l, empreinte: e } = lot(args[0])
   const acceptes = numeros(args[1])
+  // Tout argument en trop est une erreur : « 1 3 » n'appliquait que la 1 (revue S12).
+  const options = args.slice(2)
+  const ecrire = options[0] === '--ecrire' && options.length <= 2
+  if (options.length > 0 && !ecrire) sortir('après les numéros, seulement « --ecrire <empreinte> » ; numéros séparés par des virgules', 2)
   const r = appliquerLot(donnees(), l, new Set(acceptes))
   if (!r.ok) sortir(`refusé :\n${r.erreurs.join('\n')}`, 1)
   const i = args.indexOf('--ecrire')
@@ -124,8 +128,7 @@ if (commande === 'lot') {
     writeFileSync(DONNEES, formaterDonnees(r.brasseries))
     sortir(`${DONNEES} écrit : proposition(s) ${acceptes.join(', ')} du lot ${l.lot} (${e}).`, 0)
   }
-  const retenu = { ...l, propositions: l.propositions.filter((_, j) => acceptes.includes(j + 1)) }
-  sortir(`${diffLisible(donnees(), retenu)}\n\n(rien n'est écrit : --ecrire ${e}, après l'accord de Cédric)`, 0)
+  sortir(`${diffLisible(donnees(), l, new Set(acceptes))}\n\n(rien n'est écrit : --ecrire ${e}, après l'accord de Cédric)`, 0)
 } else {
   sortir(
     'usage : lot [taille] | signalement "<titre>" | diff <lot> | controler <lot> | appliquer <lot> <1,2,…> [--ecrire <empreinte>]',

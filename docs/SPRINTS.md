@@ -31,7 +31,7 @@ durée se relève sur l'horodatage des commits.
 | S9 | 180 k | — | non relevé précisément (revues : 77 k) | terminé, mergé (#9), page publiée sondée |
 | S10 | 180 k | — | non relevé précisément (revues : ≥ 66 k) | terminé, mergé (#10), page publiée sondée |
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
-| S12 | 300 k | — | en cours (prévision : ≈ 440 k, voir §S12) | en cours |
+| S12 | 300 k | — | agents 167 k + revues 92 k | lot prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -690,7 +690,7 @@ sprints avec revue + revue globale »).
      (décision de Cédric) ; mobiles seuls publiés (Kachmar, Montchat) à
      juger par lui.
 
-## S12 — Curation, lot 1 *(en cours)*
+## S12 — Curation, lot 1 *(terminé le 16/10 — lot en attente de Cédric)*
 
 1. **Objectif.** Les 25 « À confirmer » les plus proches de Brignais
    revérifiés, sous forme de **propositions** que Cédric accepte ou refuse
@@ -710,7 +710,7 @@ sprints avec revue + revue globale »).
    le coût réel sera relevé. **Réel : 167 k** pour les cinq agents
    (34 + 30 + 32 + 36 + 36 k) : beaucoup de fiches n'avaient aucune page à
    lire.
-6. **Résultat du lot** (`curation/s12-lot-1`, empreinte `92e30aa5f218`) :
+6. **Résultat du lot** (`curation/s12-lot-1`, empreinte finale `2587f92b8457`) :
    - **4 propositions** : La Canute Lyonnaise (téléphone de commande pro,
      mobile), Malting Pot (catégorie 1 en confiance moyenne, contact,
      horaires lun–sam), Brasserie Animus (note corrigée : adresse de
@@ -728,5 +728,29 @@ sprints avec revue + revue globale »).
      horaires du bloc Lyon 7 de la page Adresses).
    - Vu en route : le contrôle ne lisait pas « +33 (0)4 … » (page de
      Georges) ; cas réel ajouté au test, vu rouge, corrigé.
-7. **État final et restes.** *(à la clôture)*
+7. **État final et restes.** Revues faites (métier Cédric 45 k, code
+   47 k), corrections appliquées le 16/10. **Le lot final compte 3
+   propositions, en attente de Cédric** ; `data/` inchangé.
+   - **Revue métier (Cédric)** — corrigé :
+     - Georges : les horaires du restaurant auraient paru « Horaires
+       d'accueil du public » sous « À confirmer » — retirés, téléphone et
+       site seuls ;
+     - Animus : acceptée seule, la fiche aurait gardé l'adresse et la
+       position de Vaugneray à côté d'une note sur Grigny — **retirée du
+       lot** jusqu'à une procédure de déplacement (BACKLOG) ;
+     - Canute : le mobile est une ligne de commande pro, qui deviendrait
+       un bouton « Appeler » — site seul, le numéro devient une question ;
+     - Malting Pot : la remarque dit « services du midi et du soir » ;
+     - outil : « 1 3 » au lieu de « 1,3 » n'appliquait que la 1 sans un mot
+       (refusé désormais, testé) ; la simulation renumérotait (numéros du
+       lot gardés) ; catégories nommées en clair ; un jour d'horaires lu en
+       une ligne, comme sur la fiche.
+   - **Revue code** — corrigé : la remarque de Georges portait un bandeau
+     « Fête des Lumières » daté de décembre 2025, absent de l'extrait
+     (retiré avec les horaires) ; écritures de numéros encore refusées
+     (`+33-4-…`, `(+33)4`, `00 33`, deux espaces, `+330…`) : acceptées,
+     testées. Constaté sans effet : une parenthèse mal placée (« +33 (04 … »)
+     passe parce que « 04 … » est bien sur la page.
+   - **Reste** : le rendu exact de la fiche (badge, titres) n'est pas encore
+     dans le diff (BACKLOG).
 
