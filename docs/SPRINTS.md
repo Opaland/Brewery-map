@@ -1263,3 +1263,40 @@ sprints avec revue + revue globale »).
    indisponibles hors ligne avant une première recherche ; pas de CSP ;
    haut de page encore long ; aucun essai sur un vrai téléphone ; les trous
    de données (téléphones, horaires, bières) attendent les lots de Cédric.
+
+## S23 — Livraison *(terminé le 16/10)*
+
+1. **Pourquoi.** Plan v2 : README, licence, attributions, captures, GIF,
+   post LinkedIn.
+2. **Fait.**
+   - `README.md` refait : il disait « sprint 2 sur 6 » et « pas de mode hors
+     ligne ». Il donne maintenant le lien de la page, ce qu'elle fait, ce qui
+     reste dans le téléphone, les captures, puis les sources et licences.
+     Chaque chiffre a été recompté sur les fichiers : 166 brasseries, 9
+     départements, 34 960 communes, 0 fiche avec téléphone, horaires ou
+     bières.
+   - Licences : code MIT (`LICENSE`, inchangé) ; communes sous Licence
+     Ouverte (COG de l'INSEE via Etalab, paquet MIT) et CC0 (Wikidata) ;
+     fond de carte OpenStreetMap sous ODbL ; MapLibre sous BSD-3 (lu dans
+     `node_modules`). **La licence de `data/breweries.json` reste à décider
+     par Cédric** : aucune n'est inventée.
+   - `outils/captures.ts` produit les captures et le GIF depuis le build
+     (téléphone clair et sombre : accueil, fiche, carte ; ordinateur ;
+     parcours « une commune tapée, une fiche ouverte »), dans
+     `docs/captures/` (3,3 Mo).
+   - `docs/LINKEDIN.md` est un brouillon que Cédric publiera s'il le veut.
+     Chaque chiffre renvoie à sa mesure.
+3. **Vu en faisant les captures** (corrigé dans la revue UI/UX qui suit) :
+   - la recherche de commune annonce « 3 communes à moins de 100 km » en
+     comptant Villefranche-d'Allier (03), à plus de 100 km de Brignais. Les
+     départements sont chargés à 100 km, leurs communes non filtrées.
+   - « Votre position reste dans ce téléphone. Ce qui part sur le réseau »
+     n'a pas de marque visible de dépliage.
+4. **`main` rouge après S22** (sonde de la page publiée, 16/10) : « Cannot
+   read properties of undefined (reading 'waiting') ». Le bandeau de
+   nouvelle version supposait un enregistrement du service worker ; Playwright,
+   service worker bloqué, rend `undefined`. La suite locale ne lisait pas les
+   erreurs JavaScript : un test le fait désormais (vu rouge, puis vert avec la
+   garde dans `surveillerMiseAJour`). Un navigateur réel n'était pas touché.
+5. **Reste** : l'installation réelle sur un téléphone, et la publication du
+   post, sont à faire par Cédric.

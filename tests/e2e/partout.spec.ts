@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { choisirCommune, sansTuiles } from './reseau'
+import { choisirCommune, sansTuiles, versLaCarte } from './reseau'
 
 /**
  * S21 — retours de Cédric du 16/10 : « Je veux pouvoir chercher partout »,
@@ -177,4 +177,16 @@ test('une nouvelle version s’annonce, avec un bouton pour recharger (revue glo
   await page.evaluate(() => window.dispatchEvent(new Event('mousse:nouvelle-version')))
   await expect(page.getByTestId('mise-a-jour')).toContainText('nouvelle version')
   await expect(page.getByTestId('recharger-version')).toBeVisible()
+})
+
+test('aucune erreur JavaScript au chargement ni en allant à la carte', async ({ page }) => {
+  // La sonde de la page publiée l'a vue avant la suite locale (main, 16/10) :
+  // ici, avec le service worker bloqué, `register()` rend `undefined`.
+  const erreurs: string[] = []
+  page.on('pageerror', (e) => erreurs.push(e.message))
+  await page.goto('/')
+  await page.waitForLoadState('load')
+  await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+  await versLaCarte(page)
+  expect(erreurs).toEqual([])
 })
