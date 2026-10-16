@@ -12,10 +12,11 @@
  * l'environnement le 16/10 (SPRINTS.md §S14).
  *
  * Écrit `curation/osm-AAAA-MM-JJ.json` (les candidats lus, pour la
- * provenance), `curation/s14-decouverte.json` (le lot), son résumé et la
+ * provenance), `curation/<lot>.json` (le lot, `--lot`, défaut
+ * s14-decouverte), son résumé et la
  * liste de ce qui n'est pas proposé. N'écrit jamais `data/`.
  */
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import type { Lot } from '../src/core/curation'
 import { appliquerLot, lireLot } from '../src/core/curation'
 import {
@@ -85,7 +86,23 @@ const brasseries = (() => {
  * `--depuis curation/osm-<date>.json` : refaire le lot à partir des candidats
  * déjà lus, sans réinterroger Nominatim (la date de lecture est la leur).
  */
-const depuis = process.argv[2] === '--depuis' ? process.argv[3] : undefined
+const argument = (nom: string) => {
+  const i = process.argv.indexOf(nom)
+  return i === -1 ? undefined : process.argv[i + 1]
+}
+const depuis = argument('--depuis')
+/**
+ * `--lot <nom>` : le nom du lot et de ses fichiers (défaut : s14-decouverte).
+ * Un lot existant n'est **jamais** écrasé — il peut attendre la décision de
+ * Cédric, sur une empreinte qu'il a lue (revue code S15) — sauf
+ * `--remplacer`, à la demande de Cédric seulement.
+ */
+const NOM = argument('--lot') ?? 's14-decouverte'
+const PREFIXE = NOM.replace(/-decouverte$/, '')
+if (existsSync(`curation/${NOM}.json`) && !process.argv.includes('--remplacer')) {
+  console.error(`curation/${NOM}.json existe déjà : choisir un autre --lot (il attend peut-être la décision de Cédric).`)
+  process.exit(1)
+}
 let lu = AUJOURDHUI
 const candidats: CandidatOsm[] = []
 if (depuis !== undefined) {
@@ -144,7 +161,7 @@ function signaux(c: CandidatClasse, rang: number): string[] {
 }
 
 const lot: Lot = {
-  lot: 's14-decouverte',
+  lot: NOM,
   propositions: [],
   revues: [],
   ajouts: proposes.map((c, i) => ({
@@ -167,17 +184,17 @@ if (!v.ok) throw new Error(`lot invalide :\n${v.erreurs.join('\n')}`)
 // ajouts reprenaient un nom du fichier, et « 1-131 » était refusé).
 const tout = appliquerLot(brasseries, lot, new Set(lot.ajouts?.map((_, i) => i + 1)))
 if (!tout.ok) throw new Error(`le lot ne s'appliquerait pas en entier :\n${tout.erreurs.join('\n')}`)
-writeFileSync('curation/s14-decouverte.json', `${JSON.stringify(lot, null, 1)}\n`)
+writeFileSync(`curation/${NOM}.json`, `${JSON.stringify(lot, null, 1)}\n`)
 
 // Le résumé : une ligne par fiche proposée, ce que Cédric lit d'abord.
 const ligne = (c: CandidatClasse, i: number) =>
   `| ${String(i + 1)} | ${c.nom} | ${c.commune} (${c.departement}) | ${km(BRIGNAIS, c)} | ${c.statut === 'ambigu' ? '⚠ nom proche' : ''}${c.etiquettes?.amenity !== undefined || c.etiquettes?.shop !== undefined || c.etiquettes?.brand !== undefined ? ' ⚠ café/bar/enseigne ?' : ''} | ${c.site === undefined ? '' : 'oui'} |`
 writeFileSync(
-  'curation/s14-decouverte-resume.md',
+  `curation/${NOM}-resume.md`,
   [
-    `# Lot s14-decouverte — résumé (${String(proposes.length)} fiches nouvelles)`,
+    `# Lot ${NOM} — résumé (${String(proposes.length)} fiches nouvelles)`,
     '',
-    `Lu le ${lu} sur nominatim.openstreetmap.org (${String(requetes)} requêtes). Chaque fiche entrerait en « À confirmer », avec l'objet OSM pour source ; rien d'autre n'est vérifié. Détail, sources et empreinte : \`curation/s14-decouverte.md\`. Réponse attendue : « j'accepte 1-12, 15, … ».`,
+    `Lu le ${lu} sur nominatim.openstreetmap.org (${String(requetes)} requêtes). Chaque fiche entrerait en « À confirmer », avec l'objet OSM pour source ; rien d'autre n'est vérifié. Détail, sources et empreinte : \`curation/${NOM}.md\`. Réponse attendue : « j'accepte 1-12, 15, … ».`,
     '',
     '| N° | Nom (OSM) | Commune | Depuis Brignais | Signal | Site |',
     '|---:|---|---|---:|---|---|',
@@ -207,9 +224,9 @@ const ecartes = (statut: CandidatClasse['statut'], titre: string, explication: s
   ]
 }
 writeFileSync(
-  'curation/s14-rapprochements.md',
+  `curation/${PREFIXE}-rapprochements.md`,
   [
-    "# Lot s14 — brasseries OSM non proposées en ajout",
+    `# Lot ${NOM} — brasseries OSM non proposées en ajout`,
     '',
     `Lu le ${lu} (\`curation/osm-${lu}.json\`). Une ligne douteuse se signale : la brasserie passe alors en ajout.`,
     '',
