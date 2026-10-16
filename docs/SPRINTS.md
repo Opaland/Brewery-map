@@ -34,7 +34,8 @@ durée se relève sur l'horodatage des commits.
 | S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
 | S13 | 300 k | — | agents 157 k + revues 78 k | terminé (#13) ; lot en attente de Cédric |
 | S14 | 200 k | — | revues 115 k (code non relevé) | terminé (#14) ; lot en attente de Cédric |
-| S15 | 200 k | — | revues 68 k | prêt, PR à ouvrir ; armement en attente |
+| S15 | 200 k | — | revues 68 k | terminé (#15) ; armement en attente |
+| S16 | 300 k | — | en cours | en cours |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -867,7 +868,7 @@ sprints avec revue + revue globale »).
      ou autre brasserie ?). Overpass et l'API des entreprises restent
      injoignables depuis l'environnement.
 
-## S15 — Veille mensuelle *(terminé le 16/10 — armement en attente de Cédric)*
+## S15 — Veille mensuelle *(terminé le 16/10 — mergé (#15) ; armement en attente de Cédric)*
 
 1. **Objectif.** Que les fiches se revérifient chaque mois sans que rien ne
    change sans Cédric : signalements, fiches les plus anciennes, nouvelles
@@ -904,4 +905,16 @@ sprints avec revue + revue globale »).
      fiches vendues) et la limite (une fiche revue sans résultat ne revient
      que sur signalement).
    - **Reste** : l'armement (Cédric) ; une voie hors GitHub (BACKLOG).
+
+## S16 — Curation, lot 3 *(en cours)*
+
+1. **Objectif.** Les 25 « À confirmer » suivants, en propositions, **avec
+   les types de bière** quand la brasserie les liste elle-même (persona
+   Karim : des types justes, un lien vers la bière, sinon « non
+   référencé »).
+2. **Périmètre.** `lot 25` (fiches jamais revues) ; cinq agents ; statut,
+   contact, horaires, bières (type lu dans le texte de la brasserie, jamais
+   déduit du nom ; lien vers la page de la bière sur son site, sinon aucun).
+3. **Persona juge.** Karim.
+4. **État final et restes.** *(à la clôture)*
 
