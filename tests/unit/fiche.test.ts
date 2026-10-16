@@ -14,6 +14,10 @@ describe('libelleConfiance', () => {
 })
 
 describe('libellePrecision', () => {
+  it('un point OpenStreetMap n’est pas une adresse vérifiée (revue code S14)', () => {
+    expect(libellePrecision('osm')).toBe('point placé sur OpenStreetMap, non vérifié sur place')
+  })
+
   it('avoue l’approximation communale', () => {
     expect(libellePrecision('commune')).toBe(
       'approximative : centre de la commune, à environ 2 km près',

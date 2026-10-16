@@ -387,9 +387,12 @@ describe('les ajouts de fiches (S14)', () => {
     expect(avec.ok ? avec.brasseries.at(-1)?.verifieLe : undefined).toBe('2026-10-16')
   })
 
-  it('un ajout qui reprend un nom du fichier est refusé', () => {
+  it('un ajout qui reprend un nom du fichier est refusé, et le refus cite le numéro du lot', () => {
     const doublon = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, n: TOUTES[0].n } }] }
-    expect(appliquerLot(TOUTES, doublon, new Set([2])).ok).toBe(false)
+    const r = appliquerLot(TOUTES, doublon, new Set([2]))
+    expect(r.ok).toBe(false)
+    // « 4.n : nom déjà utilisé » ne disait rien à Cédric (revues S14).
+    expect(r.ok ? '' : r.erreurs.join('\n')).toContain(`proposition 2 (${TOUTES[0].n})`)
   })
 
   it('un ajout porte une fiche entière et valide, sans date à part', () => {

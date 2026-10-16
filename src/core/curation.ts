@@ -186,7 +186,20 @@ export function appliquerLot(
     .map((a) => ({ ...a.fiche, verifieLe: a.verifieLe }))
   const resultat = [...modifiees, ...nouvelles]
   const v = validerBrasseries(resultat)
-  if (!v.ok) return { ok: false, erreurs: v.erreurs }
+  if (!v.ok) {
+    // Une erreur sur une ligne ajoutée cite le numéro du lot, pas le rang
+    // dans le fichier (« 169.n » ne disait rien à Cédric, revues S14).
+    const numerosAjoutes = ajouts
+      .map((a, i) => ({ a, numero: lot.propositions.length + i + 1 }))
+      .filter(({ numero }) => acceptees.has(numero))
+    const lisibles = v.erreurs.map((e) => {
+      const m = /^(\d+)\.(.*)$/.exec(e)
+      const rang = m === null ? -1 : Number(m[1]) - modifiees.length
+      const ajout = numerosAjoutes[rang]
+      return ajout === undefined || m === null ? e : `proposition ${String(ajout.numero)} (${ajout.a.fiche.n}) : ${m[2] ?? ''}`
+    })
+    return { ok: false, erreurs: lisibles }
+  }
   // Validé : le résultat est un tableau de fiches. On rend nos objets, pas la
   // sortie de Zod, qui réordonnerait les clés : à l'écriture, rien ne change
   // hors des fiches acceptées, pas même l'ordre des champs.

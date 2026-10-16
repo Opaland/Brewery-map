@@ -12,13 +12,19 @@
  * l'environnement le 16/10 (SPRINTS.md §S14).
  *
  * Écrit `curation/osm-AAAA-MM-JJ.json` (les candidats lus, pour la
- * provenance) et `curation/s14-decouverte.json` (le lot). N'écrit jamais
- * `data/`.
+ * provenance), `curation/s14-decouverte.json` (le lot), son résumé et la
+ * liste de ce qui n'est pas proposé. N'écrit jamais `data/`.
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import type { Lot } from '../src/core/curation'
-import { lireLot } from '../src/core/curation'
-import { ajoutDepuisOsm, candidatDepuisNominatim, classerCandidats, type CandidatOsm } from '../src/core/decouverte'
+import { appliquerLot, lireLot } from '../src/core/curation'
+import {
+  ajoutDepuisOsm,
+  candidatDepuisNominatim,
+  classerCandidats,
+  type CandidatClasse,
+  type CandidatOsm,
+} from '../src/core/decouverte'
 import { BRIGNAIS, distanceKm } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 
@@ -86,8 +92,12 @@ if (depuis !== undefined) {
   const brut = JSON.parse(readFileSync(depuis, 'utf8')) as { lu: string; requetes: number; candidats: CandidatOsm[] }
   lu = brut.lu
   requetes = brut.requetes
-  for (const { osm, nom, lat, lon, commune, departement, adresse, site } of brut.candidats) {
-    candidats.push({ osm, nom, lat, lon, commune, departement, adresse, ...(site === undefined ? {} : { site }) })
+  for (const { osm, nom, lat, lon, commune, departement, adresse, site, etiquettes } of brut.candidats) {
+    candidats.push({
+      osm, nom, lat, lon, commune, departement, adresse,
+      ...(site === undefined ? {} : { site }),
+      ...(etiquettes === undefined ? {} : { etiquettes }),
+    })
   }
 } else {
   for (let sud = CADRE.sud; sud < CADRE.nord; sud += PAS) {
@@ -101,42 +111,116 @@ if (depuis !== undefined) {
 }
 
 const classes = classerCandidats(candidats, brasseries)
-const kmEntre = (c: CandidatOsm, nom: string) => {
-  const f = brasseries.find((b) => b.n === nom)
-  return f === undefined ? '?' : `${distanceKm(c, f).toFixed(1).replace('.', ',')} km`
-}
 writeFileSync(
   `curation/osm-${lu}.json`,
   `${JSON.stringify({ source: 'nominatim.openstreetmap.org, q=brewery, craft=brewery', lu, requetes, candidats: classes }, null, 1)}\n`,
 )
 
-const nouveaux = classes
-  .filter((c) => c.statut !== 'present')
+const km = (a: { lat: number; lon: number }, b: { lat: number; lon: number }) =>
+  `${distanceKm(a, b).toFixed(1).replace('.', ',')} km`
+const fiche = (n: string) => brasseries.find((b) => b.n === n)
+
+const proposes = classes
+  .filter((c) => c.statut === 'nouveau' || c.statut === 'ambigu')
   .sort((a, b) => distanceKm(BRIGNAIS, a) - distanceKm(BRIGNAIS, b))
+
+/** Ce que Cédric doit savoir avant de décider, en phrases (revue métier S14). */
+function signaux(c: CandidatClasse, rang: number): string[] {
+  const s: string[] = []
+  const f = c.fiche === undefined ? undefined : fiche(c.fiche)
+  if (c.statut === 'ambigu' && f !== undefined) {
+    s.push(`Nom proche de la fiche « ${f.n} » (${f.c}, à ${km(c, f)}) : même brasserie ? Sinon, à ajouter.`)
+  }
+  const memeAdresse = proposes.findIndex((o, j) => j !== rang && o.adresse === c.adresse && /^\d/.test(c.adresse))
+  const autre = memeAdresse === -1 ? undefined : proposes.at(memeAdresse)
+  if (autre !== undefined) s.push(`Même adresse que le n° ${String(memeAdresse + 1)} (« ${autre.nom} ») : un seul lieu ?`)
+  const e = c.etiquettes ?? {}
+  const decrit = (['amenity', 'shop', 'brand'] as const).filter((k) => k in e)
+  if (decrit.length > 0) {
+    s.push(`OSM la décrit aussi comme : ${decrit.map((k) => `${k}=${e[k] ?? ''}`).join(', ')} — un café, un bar ou une enseigne ?`)
+  }
+  if (c.plusProche !== undefined) s.push(`Fiche la plus proche : ${c.plusProche.n}, à ${c.plusProche.km.toFixed(1).replace('.', ',')} km.`)
+  return s
+}
+
 const lot: Lot = {
   lot: 's14-decouverte',
   propositions: [],
   revues: [],
-  ajouts: nouveaux.map((c) => ({
+  ajouts: proposes.map((c, i) => ({
     fiche: ajoutDepuisOsm(c),
     verifieLe: lu,
     sources: [`https://www.openstreetmap.org/${c.osm}`],
-    extrait: [`name=${c.nom}`, 'craft=brewery', `adresse=${c.adresse}`, ...(c.site === undefined ? [] : [`website=${c.site}`])].join(' ; '),
-    choix: [
-      ...(c.statut === 'ambigu' && c.fiche !== undefined
-        ? [`Nom proche d'une fiche du fichier : « ${c.fiche} », à ${kmEntre(c, c.fiche)} — même brasserie ? Sinon, à ajouter.`]
-        : []),
-      ...(c.plusProche === undefined
-        ? []
-        : [`Fiche du fichier la plus proche : ${c.plusProche.n}, à ${c.plusProche.km.toFixed(1).replace('.', ',')} km.`]),
-    ].join(' '),
+    extrait: [
+      `name=${c.nom}`,
+      'craft=brewery',
+      `adresse=${c.adresse}`,
+      ...(c.site === undefined ? [] : [`website=${c.site}`]),
+      ...Object.entries(c.etiquettes ?? {}).map(([k, v]) => `${k}=${v}`),
+    ].join(' ; '),
+    choix: signaux(c, i).join(' '),
   })),
 }
 const v = lireLot(lot, AUJOURDHUI)
 if (!v.ok) throw new Error(`lot invalide :\n${v.erreurs.join('\n')}`)
+// Tout accepter doit passer avant que le lot soit présenté (revues S14 : 7
+// ajouts reprenaient un nom du fichier, et « 1-131 » était refusé).
+const tout = appliquerLot(brasseries, lot, new Set(lot.ajouts?.map((_, i) => i + 1)))
+if (!tout.ok) throw new Error(`le lot ne s'appliquerait pas en entier :\n${tout.erreurs.join('\n')}`)
 writeFileSync('curation/s14-decouverte.json', `${JSON.stringify(lot, null, 1)}\n`)
+
+// Le résumé : une ligne par fiche proposée, ce que Cédric lit d'abord.
+const ligne = (c: CandidatClasse, i: number) =>
+  `| ${String(i + 1)} | ${c.nom} | ${c.commune} (${c.departement}) | ${km(BRIGNAIS, c)} | ${c.statut === 'ambigu' ? '⚠ nom proche' : ''}${c.etiquettes?.amenity !== undefined || c.etiquettes?.shop !== undefined || c.etiquettes?.brand !== undefined ? ' ⚠ café/bar/enseigne ?' : ''} | ${c.site === undefined ? '' : 'oui'} |`
+writeFileSync(
+  'curation/s14-decouverte-resume.md',
+  [
+    `# Lot s14-decouverte — résumé (${String(proposes.length)} fiches nouvelles)`,
+    '',
+    `Lu le ${lu} sur nominatim.openstreetmap.org (${String(requetes)} requêtes). Chaque fiche entrerait en « À confirmer », avec l'objet OSM pour source ; rien d'autre n'est vérifié. Détail, sources et empreinte : \`curation/s14-decouverte.md\`. Réponse attendue : « j'accepte 1-12, 15, … ».`,
+    '',
+    '| N° | Nom (OSM) | Commune | Depuis Brignais | Signal | Site |',
+    '|---:|---|---|---:|---|---|',
+    ...proposes.map(ligne),
+    '',
+  ].join('\n'),
+)
+
+// Ce qui n'est pas proposé, et pourquoi.
+const ecartes = (statut: CandidatClasse['statut'], titre: string, explication: string) => {
+  const liste = classes.filter((c) => c.statut === statut)
+  return [
+    `## ${titre} (${String(liste.length)})`,
+    '',
+    explication,
+    '',
+    '| OSM (objet) | Commune OSM | En cause | Commune | Distance |',
+    '|---|---|---|---|---:|',
+    ...liste.map((c) => {
+      const f = c.fiche === undefined ? undefined : fiche(c.fiche)
+      const o = classes.find((x) => x.nom === c.fiche)
+      const cible = f ?? o
+      const commune = f?.c ?? o?.commune ?? ''
+      return `| ${c.nom} ([${c.osm}](https://www.openstreetmap.org/${c.osm})) | ${c.commune} | ${c.fiche ?? ''} | ${commune} | ${cible === undefined ? '' : km(c, cible)} |`
+    }),
+    '',
+  ]
+}
+writeFileSync(
+  'curation/s14-rapprochements.md',
+  [
+    "# Lot s14 — brasseries OSM non proposées en ajout",
+    '',
+    `Lu le ${lu} (\`curation/osm-${lu}.json\`). Une ligne douteuse se signale : la brasserie passe alors en ajout.`,
+    '',
+    ...ecartes('present', 'Déjà dans le fichier', 'Même cœur de nom (mots génériques retirés) qu’une fiche **de la même commune**.'),
+    ...ecartes('homonyme', 'Homonymes ailleurs — à vérifier', 'Exactement le même nom qu’une fiche d’une **autre** commune : déménagement, second site ou autre brasserie ? Le fichier refuse deux fiches de même nom.'),
+    ...ecartes('doublon', 'Doublons dans OSM', 'Même nom, casse comprise, qu’un autre objet OSM déjà retenu.'),
+  ].join('\n'),
+)
+
+const compte = (st: CandidatClasse['statut']) => String(classes.filter((c) => c.statut === st).length)
 console.log(
-  `${String(requetes)} requêtes ; ${String(classes.length)} brasseries OSM en ARA ; ` +
-    `${String(classes.length - nouveaux.length)} déjà dans le fichier ; ${String(nouveaux.length)} proposées ` +
-    `(dont ${String(classes.filter((c) => c.statut === 'ambigu').length)} au nom proche d'une fiche).`,
+  `${String(requetes)} requêtes ; ${String(classes.length)} brasseries OSM en ARA : ${String(proposes.length)} proposées ` +
+    `(dont ${compte('ambigu')} au nom proche), ${compte('present')} déjà dans le fichier, ${compte('homonyme')} homonymes, ${compte('doublon')} doublons.`,
 )

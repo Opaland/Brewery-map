@@ -42,8 +42,11 @@ export const confianceSchema = z.enum(['solide', 'moyenne', 'faible', ''])
 /**
  * `commune` : coordonnées du centre de la commune, à environ 2 km près.
  * Ne jamais les présenter comme l'emplacement de l'établissement.
+ * `osm` : point placé par un contributeur d'OpenStreetMap (S14, fiches
+ * découvertes), ni une adresse vérifiée, ni un centre de commune ; pour un
+ * bâtiment (« way »), Nominatim en donne le centre.
  */
-export const precisionSchema = z.enum(['address', 'commune'])
+export const precisionSchema = z.enum(['address', 'commune', 'osm'])
 
 export const typeDeBiereSchema = z.enum([
   'blonde',

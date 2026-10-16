@@ -33,7 +33,7 @@ durée se relève sur l'horodatage des commits.
 | S11 | 200 k | — | non relevé précisément (revues : 92 k ; vérification du lot : 88 k) | mergé (#11), lot en attente de Cédric |
 | S12 | 300 k | — | agents 167 k + revues 92 k | terminé (#12) ; lot en attente de Cédric |
 | S13 | 300 k | — | agents 157 k + revues 78 k | terminé (#13) ; lot en attente de Cédric |
-| S14 | 200 k | — | en cours | en cours |
+| S14 | 200 k | — | revues 115 k (code non relevé) | lot prêt, PR à ouvrir |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -796,7 +796,7 @@ sprints avec revue + revue globale »).
      faible ou moyenne ressemble à un badge élevé — la réserve n'est que
      dans la fiche dépliée (revue métier S13, BACKLOG).
 
-## S14 — Découverte de brasseries absentes *(en cours)*
+## S14 — Découverte de brasseries absentes *(terminé le 16/10 — lot en attente de Cédric)*
 
 1. **Objectif.** Proposer les brasseries qu'OpenStreetMap connaît et que
    le fichier n'a pas, **y compris au-delà des 100 km de Brignais**
@@ -829,5 +829,40 @@ sprints avec revue + revue globale »).
      (`curation/osm-<date>.json`) ; lot `curation/s14-decouverte.json`.
 4. **Persona juge.** Cédric : la carte ne doit pas se remplir de points
    qu'il ne pourrait pas garantir.
-5. **État final et restes.** *(à la clôture)*
+5. **Résultat** (lu le 16/10, 66 requêtes) : 153 brasseries OSM en
+   Auvergne-Rhône-Alpes. **119 fiches nouvelles proposées** (lot
+   `curation/s14-decouverte`, empreinte `9e17904c31bc` ; résumé en tableau
+   `s14-decouverte-resume.md`), dont 14 au nom proche d'une fiche et 21
+   qu'OSM décrit aussi comme café, bar ou enseigne — signalées. Non
+   proposées (`s14-rapprochements.md`) : 26 déjà dans le fichier, 4
+   homonymes d'une fiche d'une autre commune, 4 doublons dans OSM. Une
+   bonne part est à plus de 100 km de Brignais : elles ne se voient qu'en
+   partant d'une commune (S8).
+6. **État final et restes.** Revues faites (métier Cédric 61 k, code
+   54 k), corrections appliquées le 16/10. **Lot en attente de Cédric** ;
+   `data/` inchangé.
+   - **Revues (Cédric et code)** — corrigé :
+     - 7 ajouts reprenaient exactement le nom d'une fiche : « 1-131 »
+       était refusé, avec des numéros de ligne du fichier. Rapprochement
+       refait : même cœur **et même commune** = déjà là (la fiche « la plus
+       proche » ne valait rien, les fiches étant au centre de leur
+       commune) ; même nom ailleurs = homonyme, écarté et listé ; doublons
+       OSM (casse comprise) écartés ; l'outil vérifie que tout accepter
+       passe avant d'écrire le lot, et `controler` aussi ; un refus cite le
+       numéro du lot ;
+     - l'avertissement « nom proche » citait parfois la mauvaise fiche (à
+       93 km au lieu de la même commune) : même commune d'abord ;
+     - rien ne signalait un café : étiquettes OSM `amenity`, `shop`,
+       `brand`, `cuisine`, `opening_hours` gardées et montrées ; même
+       adresse que deux propositions, signalée ;
+     - « à l'adresse vérifiée » pour un point OSM : nouvelle précision
+       `osm` (« point placé sur OpenStreetMap, non vérifié sur place ») ;
+     - note sans jargon, l'objet OSM en source de la fiche ;
+     - 3 000 lignes sans résumé : tableau d'une ligne par fiche ;
+     - « 1-999999999 » saturait la mémoire : plage bornée au lot.
+   - **Reste, décisions de Cédric** : accepter ou non des fiches « À
+     confirmer » qui feraient passer leur part de 61 % à environ 70 % de la
+     liste (revue métier S14) ; les 4 homonymes (déménagement, second site
+     ou autre brasserie ?). Overpass et l'API des entreprises restent
+     injoignables depuis l'environnement.
 

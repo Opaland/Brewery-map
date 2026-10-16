@@ -20,7 +20,16 @@ export interface CandidatOsm {
   departement: string
   adresse: string
   site?: string
+  /**
+   * Les étiquettes OSM qui disent ce qu'est le lieu au-delà de « brasserie »
+   * (un café, un bar, une enseigne…), recopiées telles quelles pour que
+   * Cédric les voie (revue métier S14).
+   */
+  etiquettes?: Record<string, string>
 }
+
+/** Étiquettes gardées : celles qui décrivent le lieu ; liste fermée, montrée telle quelle. */
+const ETIQUETTES = ['amenity', 'shop', 'brand', 'cuisine', 'opening_hours', 'microbrewery'] as const
 
 interface NominatimBrut {
   osm_type?: unknown
@@ -56,6 +65,11 @@ export function candidatDepuisNominatim(r: NominatimBrut): CandidatOsm | null {
   if (!Number.isFinite(lat) || !Number.isFinite(lon) || typeof r.osm_id !== 'number') return null
   const rue = [texte(a.house_number), texte(a.road)].filter((x) => x !== undefined).join(' ')
   const site = texte(r.extratags?.website)
+  const etiquettes: Record<string, string> = {}
+  for (const e of ETIQUETTES) {
+    const v = texte(r.extratags?.[e])
+    if (v !== undefined) etiquettes[e] = v
+  }
   return {
     osm: `${type}/${String(r.osm_id)}`,
     nom,
@@ -65,6 +79,7 @@ export function candidatDepuisNominatim(r: NominatimBrut): CandidatOsm | null {
     departement: cp.slice(0, 2),
     adresse: `${rue === '' ? '' : `${rue}, `}${cp} ${commune}`,
     ...(site === undefined ? {} : { site }),
+    ...(Object.keys(etiquettes).length === 0 ? {} : { etiquettes }),
   }
 }
 
@@ -106,16 +121,31 @@ export function coeurDuNom(nom: string): string {
 
 export interface CandidatClasse extends CandidatOsm {
   /**
-   * `present` : un nom du fichier a exactement le même cœur, et c'est la fiche
-   * la plus proche du point ; `ambigu` : même cœur mais une autre fiche plus
-   * proche, ou l'un contient l'autre sans être égal — « Brasserie des Cuves » (Sassenage) et
-   * « Les Cuves de la Madeleine » (Ambierle, 167 km), vu le 16/10 : proposé
-   * en ajout, avec un avertissement ; `nouveau` : aucun nom proche.
+   * - `present` : même cœur de nom qu'une fiche **de la même commune** — pas
+   *   proposé (les fiches sont au centre de leur commune : la plus proche du
+   *   point n'est pas forcément la bonne, revues S14) ;
+   * - `homonyme` : exactement le même nom qu'une fiche d'une autre commune —
+   *   pas proposé (le schéma refuse deux fiches de même nom), à vérifier ;
+   * - `doublon` : même nom, casse comprise, qu'un candidat déjà vu — pas
+   *   proposé ;
+   * - `ambigu` : même cœur ailleurs, ou un nom qui contient l'autre — proposé,
+   *   avec la fiche en cause nommée ;
+   * - `nouveau` : aucun nom proche.
    */
-  statut: 'present' | 'ambigu' | 'nouveau'
+  statut: 'present' | 'homonyme' | 'doublon' | 'ambigu' | 'nouveau'
+  /** La fiche (ou le candidat, pour un doublon) en cause. */
   fiche?: string
   plusProche?: { n: string; km: number }
 }
+
+/** « Lyon » (OSM) et « Lyon 1er » (fichier) : même commune. */
+function memeCommune(a: string, b: string): boolean {
+  const x = normaliser(a)
+  const y = normaliser(b)
+  return x === y || x.startsWith(`${y} `) || y.startsWith(`${x} `)
+}
+
+const contient = (a: string, b: string) => ` ${a} `.includes(` ${b} `)
 
 /** Chaque objet OSM une fois, avec son statut et la fiche la plus proche. */
 export function classerCandidats(
@@ -123,43 +153,56 @@ export function classerCandidats(
   brasseries: readonly Brasserie[],
 ): CandidatClasse[] {
   const vus = new Set<string>()
-  const coeurs = brasseries.map((b) => ({ n: b.n, coeur: coeurDuNom(b.n) }))
+  const nomsVus = new Map<string, string>()
+  const fiches = brasseries.map((b) => ({ b, coeur: coeurDuNom(b.n), nom: normaliser(b.n) }))
   const resultat: CandidatClasse[] = []
   for (const c of candidats) {
     if (vus.has(c.osm)) continue
     vus.add(c.osm)
-    const k = coeurDuNom(c.nom)
-    const egal = k === '' ? undefined : coeurs.find((f) => f.coeur === k)
-    const contenu =
-      k === '' || egal !== undefined
-        ? undefined
-        : coeurs.find((f) => f.coeur !== '' && (` ${f.coeur} `.includes(` ${k} `) || ` ${k} `.includes(` ${f.coeur} `)))
-    const meme = egal ?? contenu
     let plusProche: { n: string; km: number } | undefined
     for (const b of brasseries) {
       const km = distanceKm(c, b)
       if (plusProche === undefined || km < plusProche.km) plusProche = { n: b.n, km }
     }
-    resultat.push({
-      ...c,
-      // Même cœur ne suffit pas : la fiche de même nom doit aussi être la plus
-      // proche du point OSM. « La Fabrique » de Montélimar n'est pas « La Beer
-      // Fabrique » de Lyon (137 km, vu le 16/10). Critère de structure, pas un
-      // seuil de distance (CLAUDE.md §2).
-      statut:
-        egal !== undefined && plusProche?.n === egal.n ? 'present' : meme !== undefined ? 'ambigu' : 'nouveau',
-      ...(meme === undefined ? {} : { fiche: meme.n }),
-      ...(plusProche === undefined ? {} : { plusProche }),
-    })
+    const base = { ...c, ...(plusProche === undefined ? {} : { plusProche }) }
+    const nom = normaliser(c.nom)
+    const dejaVu = nomsVus.get(nom)
+    if (dejaVu !== undefined) {
+      resultat.push({ ...base, statut: 'doublon', fiche: dejaVu })
+      continue
+    }
+    nomsVus.set(nom, c.nom)
+    const k = coeurDuNom(c.nom)
+    // La fiche en cause : même commune d'abord, puis la plus proche du point.
+    const rang = (f: (typeof fiches)[number]) => [memeCommune(f.b.c, c.commune) ? 0 : 1, distanceKm(c, f.b)] as const
+    const meilleure = (liste: typeof fiches) =>
+      [...liste].sort((x, y) => {
+        const [a1, a2] = rang(x)
+        const [b1, b2] = rang(y)
+        return a1 - b1 || a2 - b2
+      })[0]
+    const egales = k === '' ? [] : fiches.filter((f) => f.coeur === k)
+    const egaleIci = egales.find((f) => memeCommune(f.b.c, c.commune))
+    const homonyme = fiches.find((f) => f.nom === nom)
+    const proches =
+      k === '' ? [] : fiches.filter((f) => f.coeur !== '' && f.coeur !== k && (contient(f.coeur, k) || contient(k, f.coeur)))
+    if (egaleIci !== undefined) resultat.push({ ...base, statut: 'present', fiche: egaleIci.b.n })
+    else if (homonyme !== undefined) resultat.push({ ...base, statut: 'homonyme', fiche: homonyme.b.n })
+    else {
+      const enCause = meilleure([...egales, ...proches])
+      resultat.push(
+        enCause === undefined ? { ...base, statut: 'nouveau' } : { ...base, statut: 'ambigu', fiche: enCause.b.n },
+      )
+    }
   }
   return resultat
 }
 
 /**
- * La fiche proposée pour un candidat : « À confirmer », sans source de vente
- * (OSM dit qu'une brasserie existe, pas ce qu'on peut y faire), la raison dans
- * la note, le point OSM (`address` : c'est l'objet, pas le centre de la
- * commune). `km` depuis Brignais, au dixième comme le fichier.
+ * La fiche proposée pour un candidat : « À confirmer » (OSM dit qu'une
+ * brasserie existe, pas ce qu'on peut y faire), la raison dans la note, le
+ * point OSM (`osm` : ni adresse vérifiée, ni centre de commune). `km` depuis
+ * Brignais, au dixième comme le fichier.
  */
 export function ajoutDepuisOsm(c: CandidatOsm): Brasserie {
   return {
@@ -171,10 +214,12 @@ export function ajoutDepuisOsm(c: CandidatOsm): Brasserie {
     km: Math.round(distanceKm(BRIGNAIS, c) * 10) / 10,
     cat: 0,
     conf: '',
-    note: `Listée dans OpenStreetMap comme brasserie (craft=brewery, ${c.osm}) ; rien d'autre n'est vérifié : ni la vente, ni l'accueil, ni l'activité.`,
+    note: 'Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.',
     addr: c.adresse,
-    src: '',
-    coordPrecision: 'address',
+    // La catégorie 0 accepte une source : c'est l'objet OSM, que la fiche
+    // affiche comme telle (revue métier S14 : le numéro sortait de la note).
+    src: `https://www.openstreetmap.org/${c.osm}`,
+    coordPrecision: 'osm',
     beers: [],
   }
 }
