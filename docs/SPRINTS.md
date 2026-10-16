@@ -1292,5 +1292,11 @@ sprints avec revue + revue globale »).
      départements sont chargés à 100 km, leurs communes non filtrées.
    - « Votre position reste dans ce téléphone. Ce qui part sur le réseau »
      n'a pas de marque visible de dépliage.
-4. **Reste** : l'installation réelle sur un téléphone, et la publication du
+4. **`main` rouge après S22** (sonde de la page publiée, 16/10) : « Cannot
+   read properties of undefined (reading 'waiting') ». Le bandeau de
+   nouvelle version supposait un enregistrement du service worker ; Playwright,
+   service worker bloqué, rend `undefined`. La suite locale ne lisait pas les
+   erreurs JavaScript : un test le fait désormais (vu rouge, puis vert avec la
+   garde dans `surveillerMiseAJour`). Un navigateur réel n'était pas touché.
+5. **Reste** : l'installation réelle sur un téléphone, et la publication du
    post, sont à faire par Cédric.

@@ -7,7 +7,11 @@ export const EVENEMENT_NOUVELLE_VERSION = 'mousse:nouvelle-version'
 
 let activationDemandee = false
 
-export function surveillerMiseAJour(reg: ServiceWorkerRegistration): void {
+export function surveillerMiseAJour(reg: ServiceWorkerRegistration | undefined): void {
+  // Un navigateur rend toujours un enregistrement ; Playwright, service
+  // worker bloqué, rend `undefined` — l'erreur a fait rougir la sonde de la
+  // page publiée le 16/10 (test « aucune erreur JavaScript », partout.spec).
+  if (reg === undefined) return
   // Une version qui attend ne s'annonce que s'il y a déjà une version en
   // service : à la première visite, il n'y a rien à remplacer.
   const annoncer = () => {
