@@ -8,12 +8,23 @@ import { ABREVIATIONS, APOSTROPHES, normaliser } from './recherche'
  */
 export type CommuneFrance = readonly [nom: string, dep: string, lat: number, lon: number]
 
+/**
+ * Le département d'un code postal : les deux premiers chiffres, trois outre-mer
+ * (97x) ; en Corse, 200 et 201 pour la Corse-du-Sud (2A), 202 à 206 pour la
+ * Haute-Corse (2B) — « 20000 » ne désignait aucun département (revue code S21).
+ */
+function departementDuCodePostal(cp: string): string {
+  if (cp.startsWith('97')) return cp.slice(0, 3)
+  if (cp.startsWith('20')) return cp < '20200' ? '2A' : '2B'
+  return cp.slice(0, 2)
+}
+
 /** Ce qui est tapé, séparé en mots du nom et en indice de département. */
 function lire(texte: string): { mots: string[]; dep: string | undefined } {
   const mots: string[] = []
   let dep: string | undefined
   for (const mot of normaliser(texte.replace(APOSTROPHES, '')).split(' ')) {
-    if (/^\d{5}$/.test(mot)) dep = mot.startsWith('97') ? mot.slice(0, 3) : mot.slice(0, 2)
+    if (/^\d{5}$/.test(mot)) dep = departementDuCodePostal(mot)
     else if (/^(\d{2,3}|2a|2b)$/.test(mot)) dep = mot.toUpperCase()
     else if (mot !== '') mots.push(ABREVIATIONS[mot] ?? mot)
   }
@@ -33,7 +44,6 @@ export interface CommuneIndexee {
   commune: CommuneFrance
   forme: string
   sansApostrophe: string
-  colle: string
 }
 
 /**
@@ -43,12 +53,7 @@ export interface CommuneIndexee {
 export function indexerCommunes(liste: readonly CommuneFrance[]): CommuneIndexee[] {
   return liste.map((commune) => {
     const sansApostrophe = normaliser(commune[0].replace(APOSTROPHES, ''))
-    return {
-      commune,
-      forme: ` ${normaliser(commune[0])}`,
-      sansApostrophe,
-      colle: sansApostrophe.replace(/ /g, ''),
-    }
+    return { commune, forme: ` ${normaliser(commune[0])}`, sansApostrophe }
   })
 }
 
@@ -66,8 +71,7 @@ export function chercherCommunes(
 ): CommuneFrance[] {
   const { mots, dep } = lire(texte)
   const debut = mots.join(' ')
-  const colle = debut.replace(/ /g, '')
-  if (colle.length < 2) return []
+  if (debut.replace(/ /g, '').length < 2) return []
   const premiers: CommuneFrance[] = []
   const autres: CommuneFrance[] = []
   // Près du départ, il faut tout parcourir pour garder les plus proches ;
@@ -75,7 +79,10 @@ export function chercherCommunes(
   const plafond = depuis === undefined ? max : Infinity
   for (const c of index) {
     if (dep !== undefined && c.commune[1] !== dep) continue
-    if (c.forme.startsWith(` ${debut}`) || c.sansApostrophe.startsWith(debut) || c.colle.startsWith(colle)) {
+    // « labergement » trouve « L'Abergement » par la forme sans apostrophe ;
+    // une forme où tous les mots étaient collés faisait trouver
+    // « Saint-Étienne » par « sainte » (revue code S21).
+    if (c.forme.startsWith(` ${debut}`) || c.sansApostrophe.startsWith(debut)) {
       premiers.push(c.commune)
       if (premiers.length >= plafond) break
     } else if (autres.length < plafond && mots.every((m) => c.forme.includes(` ${m}`))) {

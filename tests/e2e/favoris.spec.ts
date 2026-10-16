@@ -137,6 +137,13 @@ test.describe('les réglages gardés', () => {
     await expect(page.getByTestId('localisation-erreur')).toHaveCount(0)
     await expect(page.getByTestId('autour-de-moi')).toHaveText('Autour de moi')
     await expect(page.getByTestId('depart').locator('legend')).toHaveText('Par où commencer ?')
+    // Le choix n'est pas perdu pour autant (revue code S21 : il était effacé
+    // du stockage à l'ouverture), et l'écran dit comment le reprendre.
+    await expect(page.getByTestId('depart-reprendre')).toHaveText(
+      'La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la reprendre.',
+    )
+    await page.waitForTimeout(800)
+    expect(await lireGarde(page)).toMatchObject({ depart: { type: 'autour' } })
     await expect(page.getByTestId('compte')).toContainText('de Brignais')
   })
 

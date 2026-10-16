@@ -6,6 +6,13 @@ import { communesDeFrance, communesProches, RAYON_PRES_KM } from './communesFran
 interface Props {
   /** D'où chercher d'abord : le départ actuel. */
   depuis: Point
+  /**
+   * Le départ est la position de la personne : rien ne se charge qui en
+   * dépende. Les fichiers par département désigneraient sa zone au serveur
+   * de la page (revues S21) ; le fichier entier, le même pour tous, sert
+   * alors, rangé du plus proche au plus loin.
+   */
+  depuisPosition: boolean
   onChoisir: (c: CommuneFrance) => void
 }
 
@@ -21,7 +28,7 @@ type Etat = 'attente' | 'pret' | 'echec'
  * l'affichage ; si rien n'y répond (Lille depuis Lyon), ou sur demande, toute
  * la France.
  */
-export function ChoixCommune({ depuis, onChoisir }: Props) {
+export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   const id = useId()
   const [texte, setTexte] = useState('')
   const [proches, setProches] = useState<CommuneIndexee[]>([])
@@ -34,7 +41,7 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
 
   useEffect(() => {
     let vivant = true
-    communesProches(depuis).then(
+    ;(depuisPosition ? communesDeFrance() : communesProches(depuis)).then(
       (index) => {
         if (!vivant) return
         setProches(index)
@@ -47,7 +54,7 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
     return () => {
       vivant = false
     }
-  }, [depuis])
+  }, [depuis, depuisPosition])
 
   const pres = useMemo(() => chercherCommunes(proches, texte, 8, depuis), [proches, texte, depuis])
   // Rien près du départ, ou demandé : toute la France.
@@ -71,12 +78,15 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
     }
   }, [chercherPartout, toutes, texte])
 
-  const resultats = useMemo(() => {
+  const resultatsBruts = useMemo(() => {
     if (!chercherPartout || toutes === null) return pres
     const loin = chercherCommunes(toutes, texte, 8)
     const deja = new Set(pres.map((c) => `${c[0]}|${c[1]}`))
     return [...pres, ...loin.filter((c) => !deja.has(`${c[0]}|${c[1]}`))].slice(0, 8)
   }, [chercherPartout, toutes, pres, texte])
+  const resultats = resultatsBruts
+  // L'option active reste dans la liste quand celle-ci rétrécit (revue code S21).
+  const actif = Math.min(active, Math.max(resultats.length - 1, 0))
 
   const choisir = (c: CommuneFrance) => {
     onChoisir(c)
@@ -99,7 +109,7 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
     else if (resultats.length === 0) statut = 'Aucune commune ne correspond.'
     else
       statut = `${String(resultats.length)} commune${resultats.length > 1 ? 's' : ''} ${
-        chercherPartout ? 'en France' : `à moins de ${String(RAYON_PRES_KM)} km`
+        chercherPartout || depuisPosition ? 'en France' : `à moins de ${String(RAYON_PRES_KM)} km`
       }.`
   }
 
@@ -113,7 +123,7 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
           aria-expanded={montrer && resultats.length > 0}
           aria-controls={idListe}
           aria-autocomplete="list"
-          aria-activedescendant={montrer && resultats.length > 0 ? idOption(active) : undefined}
+          aria-activedescendant={montrer && resultats.length > 0 ? idOption(actif) : undefined}
           value={texte}
           placeholder="ex. Lyon, Annecy, Lille…"
           autoComplete="off"
@@ -126,12 +136,12 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
             if (e.key === 'ArrowDown' && resultats.length > 0) {
               e.preventDefault()
               setOuvert(true)
-              setActive((a) => (a + 1) % resultats.length)
+              setActive((actif + 1) % resultats.length)
             } else if (e.key === 'ArrowUp' && resultats.length > 0) {
               e.preventDefault()
-              setActive((a) => (a - 1 + resultats.length) % resultats.length)
+              setActive((actif - 1 + resultats.length) % resultats.length)
             } else if (e.key === 'Enter' && montrer) {
-              const c = resultats[active]
+              const c = resultats[actif]
               if (c !== undefined) {
                 e.preventDefault()
                 choisir(c)
@@ -153,8 +163,8 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
               key={`${c[0]}|${c[1]}`}
               id={idOption(i)}
               role="option"
-              aria-selected={i === active}
-              className={i === active ? 'active' : undefined}
+              aria-selected={i === actif}
+              className={i === actif ? 'active' : undefined}
               onMouseDown={(e) => {
                 // Garde le focus dans le champ jusqu'au choix.
                 e.preventDefault()
@@ -168,7 +178,7 @@ export function ChoixCommune({ depuis, onChoisir }: Props) {
           ))}
         </ul>
       )}
-      {montrer && !chercherPartout && etatProches === 'pret' && (
+      {montrer && !chercherPartout && !depuisPosition && etatProches === 'pret' && (
         <button
           type="button"
           className="lien-bouton"

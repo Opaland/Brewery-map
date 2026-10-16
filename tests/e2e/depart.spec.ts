@@ -67,7 +67,11 @@ test.describe('« autour de moi » (Léa)', () => {
     await page.goto('/')
     const texte = page.getByTestId('confidentialite')
     await expect(texte).toContainText('vos coordonnées ne sont envoyées à personne')
-    await expect(texte).toContainText('la zone où vous êtes, à quelques kilomètres près')
+    await expect(texte).toContainText('seul le choix « Autour de moi » est gardé, pas la position')
+    // Une commune choisie fait aussi charger les images de sa zone (revue Léa S21).
+    await expect(texte).toContainText('votre position ou la commune choisie')
+    await expect(texte).toContainText('voit donc cette zone, à quelques kilomètres près')
+    await expect(page.getByTestId('stockage-texte')).not.toContainText('jamais gardé')
     // Lu avant le geste : le texte précède le bouton dans le document.
     const avant = await page.evaluate(() => {
       const t = document.querySelector('[data-testid="confidentialite"]')

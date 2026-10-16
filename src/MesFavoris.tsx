@@ -65,7 +65,7 @@ export function MesFavoris({
       )}
       <p className="champ-aide" data-testid="stockage-texte">
         {stockageDisponible
-          ? 'Vos favoris et vos réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. « Autour de moi » n’est jamais gardé : il se redemande à chaque visite.'
+          ? 'Vos favoris et vos réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur l’a déjà permise.'
           : 'Ce navigateur ne permet pas de garder vos favoris et réglages (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.'}
       </p>
       {stockageDisponible && (

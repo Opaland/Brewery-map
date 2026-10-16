@@ -50,7 +50,7 @@ export function Installer() {
         <button
           type="button"
           onClick={() => {
-            void invitation.prompt()
+            invitation.prompt().catch(() => undefined)
             void invitation.userChoice.then(({ outcome }) => {
               if (outcome === 'accepted') setInstallee(true)
               setInvitation(null)
@@ -69,7 +69,7 @@ export function Installer() {
   return (
     <p className="champ-aide installer" data-testid="installer-geste">
       {plateformeDe(navigator.userAgent) === 'ios'
-        ? 'Pour l’installer sur iPhone : bouton Partager de Safari, puis « Sur l’écran d’accueil ».'
+        ? 'Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».'
         : 'Pour l’installer : menu du navigateur, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».'}
     </p>
   )

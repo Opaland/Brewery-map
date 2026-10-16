@@ -65,6 +65,16 @@ describe('le vrai fichier des communes', () => {
     }
   })
 
+  it('les codes postaux corses (20xxx) désignent 2A ou 2B (revue code S21)', () => {
+    expect(chercherCommunes(index, 'ajaccio 20000', 1)[0]?.slice(0, 2)).toEqual(['Ajaccio', '2A'])
+    expect(chercherCommunes(index, 'bastia 20200', 1)[0]?.slice(0, 2)).toEqual(['Bastia', '2B'])
+  })
+
+  it('« ste » cherche « Sainte », pas « Saint-Étienne » (revue code S21)', () => {
+    const premiere = chercherCommunes(index, 'ste', 1)[0]?.[0] ?? ''
+    expect(premiere.startsWith('Sainte')).toBe(true)
+  })
+
   it('trouve des communes de partout, loin de Brignais', () => {
     expect(chercherCommunes(index, 'brest', 1)[0]?.[0]).toBe('Brest')
     expect(chercherCommunes(index, 'ajaccio', 1)[0]?.[1]).toBe('2A')

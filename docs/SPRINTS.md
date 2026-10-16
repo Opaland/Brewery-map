@@ -40,7 +40,7 @@ durée se relève sur l'horodatage des commits.
 | S18 | 180 k | — | revues 115 k (le reste non relevé) | terminé |
 | S19 | 180 k | — | revues 71 k (le reste non relevé) | terminé |
 | S20 | 180 k | — | revues 86 k (le reste non relevé) | terminé |
-| S21 | 180 k | — | en cours | en cours |
+| S21 | 180 k | — | revues 139 k (le reste non relevé) | terminé |
 
 Une tâche qui dépasse deux fois son estimation s'arrête et se signale.
 
@@ -1152,7 +1152,7 @@ sprints avec revue + revue globale »).
      première visite, le service worker précache tout, carte comprise (le
      poids de 101 Kio est celui de l'ouverture, pas de la visite entière).
 
-## S21 — Partout en France *(en cours ; ajouté le 16/10)*
+## S21 — Partout en France *(terminé le 16/10 ; ajouté le 16/10)*
 
 1. **Pourquoi.** Retours de Cédric du 16/10, sur son téléphone : pas de
    lien pour installer ; la localisation (« la carte ne suit pas », « message
@@ -1189,4 +1189,39 @@ sprints avec revue + revue globale »).
      Safari sur iPhone.
    Chaque test nouveau vu rouge sur une mutation.
 4. **Personas juges.** Léa (S8, la position) et Cédric (ses retours).
-5. **État final et restes.** *(à la clôture)*
+5. **État final et restes.** Revues faites (Léa et Cédric 64 k, code 75 k),
+   corrections appliquées le 16/10, chaque test nouveau vu rouge.
+   - **Bloquant, les deux revues** — après « Autour de moi », les fichiers des
+     départements à moins de 100 km de la personne étaient demandés : le
+     serveur de la page voyait sa zone (Brest → 22, 29, 56). Avec une
+     position pour départ, seul le fichier entier, le même pour tous, est
+     demandé (« près de » et recherche, rangée par distance). Test : rien
+     de `/communes/<dép>.json` après le geste, vu rouge.
+   - **Bloquant, revue Léa** — `MesFavoris` disait « Autour de moi n'est
+     jamais gardé » : texte refait ; celui de confidentialité dit aussi
+     qu'une commune choisie fait charger les images de sa zone.
+   - **Revue code** :
+     - le choix « autour » était effacé du stockage dès l'ouverture sans
+       permission : il est gardé tant qu'aucun autre choix n'est fait, et
+       l'écran dit « touchez Autour de moi pour la reprendre » ;
+     - une localisation tardive écrasait une commune choisie entre-temps :
+       le dernier geste l'emporte (test avec un GPS retardé de 3 s) ;
+     - les codes postaux corses (20xxx) ne trouvaient rien : 2A, 2B ;
+     - « ste » trouvait « Saint-Étienne » : la forme collée est retirée ;
+     - anciens résultats pendant un rechargement : le champ est remonté à
+       chaque nouveau départ ; l'option active reste dans la liste ;
+     - le test « flèche puis Entrée » n'appuyait sur aucune flèche : il le
+       fait, `aria-activedescendant` vérifié ;
+     - l'outil : `ORDER BY` (deux lancements, sortie identique au hachage
+       près), attente sur 429, arrêt sur une erreur définitive ;
+     - sources des communes nommées en pied de page (INSEE, Licence
+       ouverte ; Wikidata, CC0).
+   - **Reste** :
+     - rien n'est essayé sur un vrai téléphone (installation réelle,
+       permission « demander à chaque fois », délais du GPS) ;
+     - « la carte ne suit pas » : la carte se recentre à chaque départ,
+       mais ne suit pas en continu un déplacement (pas de `watchPosition`)
+       — à demander à Cédric si c'est ce qu'il voulait ;
+     - avec un nom tapé, la carte reste cadrée sur le rayon ;
+     - une commune choisie fait demander au serveur de la page les fichiers
+       de ses départements voisins (c'est un choix, pas la position).

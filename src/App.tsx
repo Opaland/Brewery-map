@@ -68,6 +68,15 @@ export function App({ stockage }: { stockage: Stockage }) {
   const [texte, setTexte] = useState('')
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
   const [origine, setOrigine] = useState<Origine>(() => origineDesPreferences(ini.depart, COMMUNES))
+  // « Autour de moi » gardé mais pas encore relocalisé (permission non
+  // donnée, GPS lent) : l'écran part de Brignais, le stockage garde le choix
+  // tant que la personne n'en a pas fait d'autre. Sans cela, l'ouverture
+  // réécrivait « Brignais » et le choix était perdu (revue code S21).
+  const [autourEnAttente, setAutourEnAttente] = useState(ini.depart.type === 'autour')
+  const choisirOrigine = (o: Origine) => {
+    setAutourEnAttente(false)
+    setOrigine(o)
+  }
   const [categories, setCategories] = useState<readonly Categorie[]>(ini.categories)
   const [selection, setSelection] = useState<string | null>(null)
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
@@ -121,7 +130,7 @@ export function App({ stockage }: { stockage: Stockage }) {
       rayonKm,
       categories: [...categories],
       ...(type === undefined ? {} : { type }),
-      depart: origine,
+      depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
       favoris: [...favoris],
       favorisSeulement,
     })
@@ -129,7 +138,7 @@ export function App({ stockage }: { stockage: Stockage }) {
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
     stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, favoris, favorisSeulement])
+  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement])
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
 
@@ -172,6 +181,7 @@ export function App({ stockage }: { stockage: Stockage }) {
         setCategories(d.categories)
         setType(d.type)
         setOrigine(origineDesPreferences(d.depart, COMMUNES))
+        setAutourEnAttente(false)
         setFavoris(d.favoris)
         setFavorisSeulement(d.favorisSeulement)
         setAnnonce('Favoris et réglages effacés de cet appareil.')
@@ -229,7 +239,7 @@ export function App({ stockage }: { stockage: Stockage }) {
         </h2>
         <PointDeDepart
           origine={origine}
-          onChange={setOrigine}
+          onChange={choisirOrigine}
           relocaliser={ini.depart.type === 'autour'}
         />
 
@@ -362,6 +372,10 @@ export function App({ stockage }: { stockage: Stockage }) {
         <p>
           Distances à vol d’oiseau. Les positions sont celles du centre de la commune
           (à environ 2 km près), pas l’adresse exacte.
+        </p>
+        <p data-testid="sources-communes">
+          Communes : Code officiel géographique de l’INSEE (Licence ouverte, via le paquet
+          d’Etalab), points tirés de Wikidata (CC0).
         </p>
         <p data-testid="mention-alcool">
           L’abus d’alcool est dangereux pour la santé, à consommer avec modération.

@@ -52,16 +52,23 @@ test.describe('chercher une commune de départ, partout en France', () => {
     expect(urls.filter((u) => /lille/i.test(u))).toEqual([])
   })
 
-  test('au clavier : flèche puis Entrée', async ({ page }) => {
+  test('au clavier : flèches puis Entrée', async ({ page }) => {
     await page.goto('/')
     const champ = page.getByTestId('commune-depart')
-    await champ.fill('brign')
-    await expect(page.getByRole('option').first()).toBeVisible()
+    await champ.fill('bri')
+    const options = page.getByRole('option')
+    await expect(options.nth(1)).toBeVisible()
     await expect(champ).toHaveAttribute('aria-expanded', 'true')
+    // La flèche déplace l'option active, annoncée par aria-activedescendant.
+    await champ.press('ArrowDown')
+    const deuxieme = (await options.nth(1).getAttribute('id')) ?? ''
+    await expect(champ).toHaveAttribute('aria-activedescendant', deuxieme)
+    await expect(options.nth(1)).toHaveAttribute('aria-selected', 'true')
+    await champ.press('ArrowUp')
+    await expect(options.nth(0)).toHaveAttribute('aria-selected', 'true')
+    const nom = (await options.nth(0).textContent()) ?? ''
     await champ.press('Enter')
-    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
-      'Point de départ : Brignais (69)',
-    )
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText(`Point de départ : ${nom}`)
   })
 })
 
@@ -103,8 +110,56 @@ test.describe('installer l’application', () => {
     test('l’écran dit le geste de Safari', async ({ page }) => {
       await page.goto('/')
       await expect(page.getByTestId('installer-geste')).toHaveText(
-        'Pour l’installer sur iPhone : bouton Partager de Safari, puis « Sur l’écran d’accueil ».',
+        'Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».',
       )
     })
+  })
+})
+
+test.describe('« Autour de moi » ne demande rien qui dépende de la position (revues S21)', () => {
+  const BREST = { latitude: 48.39, longitude: -4.486 }
+  test.use({ geolocation: BREST, permissions: ['geolocation'] })
+
+  test('ni fichier de département, ni texte : seulement le fichier commun à tous', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+    // Les fichiers du départ par défaut (Brignais), les mêmes pour tous,
+    // partent à l'ouverture : on attend qu'ils soient passés, pour ne compter
+    // que ce que la localisation déclenche.
+    await page.waitForLoadState('networkidle')
+    const apres: string[] = []
+    page.on('request', (r) => apres.push(new URL(r.url()).pathname))
+    await page.getByTestId('autour-de-moi').click()
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
+      'Point de départ : votre position (près de Brest)',
+    )
+    await page.getByTestId('commune-depart').fill('quimper')
+    await expect(page.getByRole('option').first()).toHaveText('Quimper (29)')
+    // Les fichiers par département désigneraient la zone de la personne au
+    // serveur de la page ; le fichier entier est le même pour tout le monde.
+    expect(apres.filter((p) => /\/communes\/[^/]+\.json$/.test(p))).toEqual([])
+  })
+})
+
+test.describe('une localisation tardive n’écrase pas une commune choisie (revue code S21)', () => {
+  test.use({ geolocation: { latitude: 45.9367, longitude: 4.7208 }, permissions: ['geolocation'] })
+
+  test('le dernier geste l’emporte', async ({ page }) => {
+    // Le GPS répond en 3 s, comme celui d'un vieux téléphone.
+    await page.addInitScript(() => {
+      const vrai = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation)
+      navigator.geolocation.getCurrentPosition = (ok, ko, o) => {
+        setTimeout(() => {
+          vrai(ok, ko, o)
+        }, 3000)
+      }
+    })
+    await page.goto('/')
+    await page.getByTestId('autour-de-moi').click()
+    await choisirCommune(page, 'tarare', 'Tarare (69)')
+    await page.waitForTimeout(4500)
+    await expect(page.getByTestId('depart').locator('legend')).toHaveText(
+      'Point de départ : Tarare (69)',
+    )
   })
 })

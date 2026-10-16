@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { ChoixCommune } from './ChoixCommune'
 import { communeLaPlusProche } from './core/communes'
 import { libelleOrigine, ORIGINE_DEFAUT, type Origine } from './core/origine'
-import { communesProches } from './communesFrance'
+import { communesDeFrance } from './communesFrance'
 import { avertissementPrecision, localiser } from './localisation'
 
 interface Props {
@@ -28,21 +28,44 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
   const [message, setMessage] = useState<string | null>(null)
   const [precision, setPrecision] = useState<string | null>(null)
   const [enCours, setEnCours] = useState(false)
+  const [reprendre, setReprendre] = useState(false)
   const dejaRelocalise = useRef(false)
+  // Chaque geste prend un numéro ; une réponse de localisation qui arrive
+  // après un autre geste (une commune choisie entre-temps) est ignorée : le
+  // dernier geste l'emporte (revue code S21).
+  const geste = useRef(0)
+
+  const changer = useCallback(
+    (o: Origine) => {
+      geste.current += 1
+      setMessage(null)
+      setPrecision(null)
+      setEnCours(false)
+      setReprendre(false)
+      onChange(o)
+    },
+    [onChange],
+  )
 
   const autourDeMoi = useCallback(() => {
+    geste.current += 1
+    const moi = geste.current
     setEnCours(true)
     setMessage(null)
     setPrecision(null)
+    setReprendre(false)
     localiser('geolocation' in navigator ? navigator.geolocation : undefined).then(
       ({ point, precisionM }) => {
+        if (geste.current !== moi) return
         setEnCours(false)
         setPrecision(avertissementPrecision(precisionM))
         onChange({ type: 'position', point })
-        // « Près de … » : la commune la plus proche, calculée ici, sans rien
-        // demander à personne. Si la liste ne se charge pas, on s'en passe.
-        communesProches(point).then(
+        // « Près de … » : la commune la plus proche, calculée ici. Le fichier
+        // de toute la France, le même pour tous : un fichier choisi selon la
+        // position la dirait au serveur (revues S21). Sans lui, on s'en passe.
+        communesDeFrance().then(
           (index) => {
+            if (geste.current !== moi) return
             const c = communeLaPlusProche(
               index.map((i) => i.commune),
               point,
@@ -53,6 +76,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
         )
       },
       (e: unknown) => {
+        if (geste.current !== moi) return
         setEnCours(false)
         setMessage(e instanceof Error ? e.message : String(e))
       },
@@ -64,13 +88,23 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
     dejaRelocalise.current = true
     // Sans API des permissions (Safari ancien), on ne demande rien : le
     // bouton reste là.
-    if (!('permissions' in navigator)) return
+    // Sans permission déjà donnée (ou sans API des permissions, Safari
+    // ancien), rien n'est demandé : l'écran dit comment reprendre.
+    if (!('permissions' in navigator)) {
+      void Promise.resolve().then(() => {
+        setReprendre(true)
+      })
+      return
+    }
     navigator.permissions
       .query({ name: 'geolocation' })
       .then((p) => {
         if (p.state === 'granted') autourDeMoi()
+        else setReprendre(true)
       })
-      .catch(() => undefined)
+      .catch(() => {
+        setReprendre(true)
+      })
   }, [relocaliser, autourDeMoi])
 
   const rienChoisi = origine.type === 'brignais'
@@ -80,6 +114,12 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
       <legend>
         {rienChoisi ? 'Par où commencer ?' : `Point de départ : ${libelleOrigine(origine)}`}
       </legend>
+      {rienChoisi && reprendre && (
+        <p className="champ-aide" data-testid="depart-reprendre">
+          La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la
+          reprendre.
+        </p>
+      )}
       {rienChoisi && (
         <p className="champ-aide" data-testid="depart-invitation">
           Partez de votre position, ou de votre commune. En attendant, les distances se comptent
@@ -94,10 +134,11 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
       */}
       <p className="champ-aide" data-testid="confidentialite">
         « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
-        les distances : vos coordonnées ne sont envoyées à personne. Mais la carte se
-        centre alors sur vous et charge auprès d’OpenStreetMap les images de cette zone :
-        ce serveur voit donc la zone où vous êtes, à quelques kilomètres près, et votre
-        adresse IP — comme pour toute carte en ligne. Pour l’éviter, partez d’une commune.
+        les distances : vos coordonnées ne sont envoyées à personne, et seul le choix
+        « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point
+        de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap
+        les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres
+        près, et votre adresse IP — comme pour toute carte en ligne.
       </p>
       <div className="depart-actions">
         <button type="button" onClick={autourDeMoi} disabled={enCours} data-testid="autour-de-moi">
@@ -107,9 +148,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
           <button
             type="button"
             onClick={() => {
-              setMessage(null)
-              setPrecision(null)
-              onChange(ORIGINE_DEFAUT)
+              changer(ORIGINE_DEFAUT)
             }}
             data-testid="revenir-brignais"
           >
@@ -127,12 +166,14 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
           {message}
         </p>
       )}
+      {/* Remonté à chaque nouveau départ : rien de l'ancien ne sert pendant
+          le chargement du nouveau (revue code S21). */}
       <ChoixCommune
+        key={`${String(origine.point.lat)},${String(origine.point.lon)}`}
         depuis={origine.point}
+        depuisPosition={origine.type === 'position'}
         onChoisir={([nom, dep, lat, lon]) => {
-          setMessage(null)
-          setPrecision(null)
-          onChange({ type: 'commune', cle: `${nom}|${dep}`, nom, point: { lat, lon } })
+          changer({ type: 'commune', cle: `${nom}|${dep}`, nom, point: { lat, lon } })
         }}
       />
     </fieldset>

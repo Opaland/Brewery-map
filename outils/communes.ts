@@ -33,21 +33,34 @@ const SORTIE = path.resolve('public/communes-france.json')
 const PAR_DEPARTEMENT = path.resolve('public/communes')
 
 async function pointsDuDepartement(dep: string): Promise<Map<string, [number, number]>> {
-  const requete = `SELECT ?insee ?coord WHERE { ?item wdt:P31 wd:Q484170 ; wdt:P374 ?insee ; wdt:P625 ?coord . FILTER(STRSTARTS(?insee, "${dep}")) }`
+  // ORDER BY : une commune à plusieurs points garde toujours le même, d'un
+  // lancement à l'autre (revue code S21).
+  const requete = `SELECT ?insee ?coord WHERE { ?item wdt:P31 wd:Q484170 ; wdt:P374 ?insee ; wdt:P625 ?coord . FILTER(STRSTARTS(?insee, "${dep}")) } ORDER BY ?insee ?coord`
+  return lirePoints(await demander(requete, `le département ${dep}`))
+}
+
+/**
+ * Une requête à Wikidata, réessayée sur un refus passager (429, 5xx) avec
+ * une attente croissante ; une erreur définitive (autre 4xx) s'arrête là.
+ */
+async function demander(requete: string, quoi: string): Promise<string> {
   const url = `https://query.wikidata.org/sparql?query=${encodeURIComponent(requete)}`
-  for (let essai = 1; essai <= 3; essai++) {
+  for (let essai = 1; essai <= 4; essai++) {
     const r = await fetch(url, { headers: { 'User-Agent': AGENT, Accept: 'text/csv' } })
-    if (r.ok) {
-      const points = new Map<string, [number, number]>()
-      for (const ligne of (await r.text()).split('\n').slice(1)) {
-        const m = /^([0-9AB]{5}),Point\(([-\d.]+) ([-\d.]+)\)/.exec(ligne.trim())
-        if (m?.[1] !== undefined && !points.has(m[1])) points.set(m[1], [Number(m[3]), Number(m[2])])
-      }
-      return points
-    }
+    if (r.ok) return r.text()
+    if (r.status !== 429 && r.status < 500) throw new Error(`Wikidata : ${String(r.status)} pour ${quoi}`)
     await new Promise((fin) => setTimeout(fin, 5000 * essai))
   }
-  throw new Error(`Wikidata ne répond pas pour le département ${dep}`)
+  throw new Error(`Wikidata ne répond pas pour ${quoi}`)
+}
+
+function lirePoints(csv: string): Map<string, [number, number]> {
+  const points = new Map<string, [number, number]>()
+  for (const ligne of csv.split('\n').slice(1)) {
+    const m = /^([0-9AB]{5}),Point\(([-\d.]+) ([-\d.]+)\)/.exec(ligne.trim())
+    if (m?.[1] !== undefined && !points.has(m[1])) points.set(m[1], [Number(m[3]), Number(m[2])])
+  }
+  return points
 }
 
 /**
@@ -62,14 +75,9 @@ async function pointsParCode(codes: string[]): Promise<Map<string, [number, numb
       .slice(i, i + 100)
       .map((c) => `"${c}"`)
       .join(' ')
-    const requete = `SELECT ?insee ?coord WHERE { VALUES ?insee { ${valeurs} } ?item wdt:P374 ?insee ; wdt:P625 ?coord . }`
-    const r = await fetch(`https://query.wikidata.org/sparql?query=${encodeURIComponent(requete)}`, {
-      headers: { 'User-Agent': AGENT, Accept: 'text/csv' },
-    })
-    if (!r.ok) throw new Error(`Wikidata : ${String(r.status)} sur la seconde passe`)
-    for (const ligne of (await r.text()).split('\n').slice(1)) {
-      const m = /^([0-9AB]{5}),Point\(([-\d.]+) ([-\d.]+)\)/.exec(ligne.trim())
-      if (m?.[1] !== undefined && !points.has(m[1])) points.set(m[1], [Number(m[3]), Number(m[2])])
+    const requete = `SELECT ?insee ?coord WHERE { VALUES ?insee { ${valeurs} } ?item wdt:P374 ?insee ; wdt:P625 ?coord . } ORDER BY ?insee ?coord`
+    for (const [code, p] of lirePoints(await demander(requete, 'la seconde passe'))) {
+      if (!points.has(code)) points.set(code, p)
     }
     await new Promise((fin) => setTimeout(fin, 1000))
   }
