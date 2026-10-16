@@ -70,6 +70,12 @@ chacun demande une décision ou une vérification de source.
   les lignes présentes (revue code S10, risque théorique : 929 caractères au
   plus mesurés pour 2 000 retenus).
 
+- Curation (lu le 16/10 pendant le lot s11-exemples-s4) : la page TapRoom
+  de Nomade Brewery publie ses horaires (« Mardi-mercredi 12h-22h
+  Jeudi-vendredi 12h-23h30 Samedi 14h30-19h ») ; à proposer en S12 comme
+  bloc `accueil`, avec l'extrait. La même page porte aussi un « 04 70 50 88
+  53 » sous les foodtrucks, à la même adresse : écarté.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

@@ -138,7 +138,7 @@ export function diffLisible(brasseries: readonly Brasserie[], lot: Lot): string 
       `Extrait lu : « ${p.extrait} »`,
     ].join('\n')
   })
-  return [`## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)`, '', ...sections].join(
+  return [`## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)`, ...sections].join(
     '\n\n',
   )
 }
