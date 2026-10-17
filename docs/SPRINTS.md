@@ -2708,9 +2708,10 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 | Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | Pas de vente | À confirmer | Contacts | Horaires |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `dep-37` | 27 | 4 | 1 | 1 | 1 | 1 | 2 | 0 |
+| `dep-37` | 27 | 4 | 1 | 1 | 0 | 2 | 2 | 0 |
 
 - Le quota de recherches web de la session s'est épuisé pendant la lecture. Sept candidats n'ont eu qu'une recherche ; le lot les marque « À relancer ». Le Centre-Val de Loire reprend dans une session suivante (37 à relancer, puis 45, 41, 18, 36, 28).
 - Sans recherche web, rien d'autre de ce département ne peut être lu proprement : la suite de la session va aux stories qui n'en ont pas besoin.
 - `controler` a signalé deux fois un écart fugace (connexion coupée par le proxy), disparu à la relance. Le lot n'est présenté qu'après une relance sans écart.
+- Revue adverse du lot 37 : « pas ouvert au public » n'est pas « pas de vente » (la Pigeonnelle vend des fûts aux particuliers). La fiche passe « à confirmer » ; un type de bière lu sur une page non citée est retiré. Les trois autres fiches sont confirmées sur leur page.
 

@@ -4,7 +4,7 @@ Pour Cédric. Ce lot propose **4 fiches nouvelles**. **Rien n'est écrit dans `d
 n'as pas répondu par les numéros acceptés.
 
 **Décompte** : 27 candidats à lire = 4 proposés + 23 non proposés (tableau ci-dessous).
-Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement », 1 « pas de vente », 1 « à confirmer ».
+Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement », 0 « pas de vente », 2 « à confirmer ».
 
 **Comment le lot a été fait** (circuit de S249, avec S261-S262) :
 - candidats de `outils/departement.ts` ;
@@ -46,16 +46,16 @@ Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement »
 - lat : (vide) → 47.26101
 - lon : (vide) → 1.19636
 - km : (vide) → 324.6
-- cat : (vide) → 3 (Pas de vente)
-- conf : (vide) → moyenne
-- note : (vide) → Brasserie des bières Loirette ; ses installations ne sont pas ouvertes au public. Elle liste ses revendeurs en Indre-et-Loire.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Brasserie des bières Loirette, vendues en bouteilles et en fûts de 20 litres ; ses installations ne sont pas ouvertes au public. Elle liste ses revendeurs en Indre-et-Loire.
 - addr : (vide) → 10 rue de la Ronde, 37460 Céré-la-Ronde
 - src : (vide) → http://www.brasserie-pigeonnelle.fr/
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → blonde
 - beers.1.type : (vide) → ambree
 - beers.2.type : (vide) → blanche
-- beers.3.type : (vide) → stout
+- beers.3.type : (vide) → brune
 - contact.tel : (vide) → 02 47 94 28 22
 - contact.site : (vide) → http://www.brasserie-pigeonnelle.fr/
 - contact.source : (vide) → http://www.brasserie-pigeonnelle.fr/
@@ -66,7 +66,7 @@ Sources (vérifiée le 2026-10-17) : http://www.brasserie-pigeonnelle.fr/ ; http
 
 Extrait lu : « Les installations de la brasserie ne sont pas ouvertes au public. »
 
-Choix du vérificateur : Page Untappd : https://untappd.com/w/brasserie-de-la-pigeonnelle/12116 (non reprise dans le contact, faute de figurer sur la page du site). Le second numéro du site est un mobile. Bières lues sur la page Untappd.
+Choix du vérificateur : Catégorie à confirmer : la page dit le lieu fermé au public, mais elle vend des fûts aux particuliers pour leurs manifestations ; comment on les achète n'est pas dit. Page Untappd : https://untappd.com/w/brasserie-de-la-pigeonnelle/12116 (non reprise dans le contact, faute de figurer sur la page du site). Le second numéro du site est un mobile.
 
 ### 2. Art Is An Ale Brewing — fiche nouvelle
 
@@ -144,4 +144,4 @@ Extrait lu : « Pour la vente directe à la brasserie : accéder à la boutique 
 
 Choix du vérificateur : Seul numéro, un mobile. Bières lues sur la page Untappd.
 
-Empreinte du lot : bf3fb3817d64
+Empreinte du lot : 0d4d88e5ca0c
