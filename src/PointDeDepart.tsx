@@ -148,7 +148,13 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
         </p>
       </details>
       <div className="depart-actions">
-        <button type="button" onClick={autourDeMoi} disabled={enCours} data-testid="autour-de-moi">
+        <button
+          type="button"
+          className="bouton-principal"
+          onClick={autourDeMoi}
+          disabled={enCours}
+          data-testid="autour-de-moi"
+        >
           {enCours ? 'Localisation…' : 'Autour de moi'}
         </button>
         {!rienChoisi && (

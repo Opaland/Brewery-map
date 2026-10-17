@@ -72,6 +72,9 @@ test('m5 — un lien partagé a son titre et sa description ; l’icône répond
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /Mousse de Poche/)
   await expect(page.locator('meta[property="og:description"]')).toHaveAttribute('content', /sans traceur/)
   expect((await request.get('/favicon.ico')).status()).toBe(200)
+  // L'image d'aperçu (S28) : publiée à côté de la page.
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /\/og\.jpg$/)
+  expect((await request.get('/og.jpg')).status()).toBe(200)
 })
 
 test.describe('thème sombre', () => {

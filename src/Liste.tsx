@@ -248,7 +248,7 @@ export function Liste({
           <li key={brasserie.n} className={ouverte ? 'ouverte' : undefined}>
             <button
               type="button"
-              className="ligne"
+              className={`ligne cat-${String(brasserie.cat)}`}
               aria-expanded={ouverte}
               aria-controls={ouverte ? idFiche(brasserie.n) : undefined}
               data-nom={brasserie.n}
