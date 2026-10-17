@@ -14,7 +14,12 @@
    "addr": "Melesse",
    "src": "https://brasseriedrao.com/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriedrao.com/",
+    "source": "https://brasseriedrao.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

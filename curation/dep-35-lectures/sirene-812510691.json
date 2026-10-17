@@ -21,7 +21,14 @@
     {
      "type": "ambree"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.skumenn.com/",
+    "source": "https://www.skumenn.com/brewpub",
+    "tel": "02 23 30 59 80",
+    "untappd": "https://untappd.com/w/brasserie-skumenn/240180",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
@@ -29,6 +36,6 @@
    "https://data.geopf.fr/geocodage/search?q=8+impasse+des+Charmilles%2C+35510+Cesson-S%C3%A9vign%C3%A9&limit=5"
   ],
   "extrait": "passez simplement faire le plein de bière dans notre magasin de vente directe",
-  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80."
+  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas »."
  }
 }

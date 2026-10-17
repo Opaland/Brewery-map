@@ -10,7 +10,11 @@
   "src": "https://www.brasserie-uncle.com",
   "extrait": "10, rue de l’Europe 22680 Binic-Étables-sur-Mer",
   "beers": [],
-  "choix": "SIRENE (David Brewery) déclare Saint-Quay-Portrieux ; même brasserie que le point OSM node/6650042721 (17 rue Duguesclin)."
+  "choix": "SIRENE (David Brewery) déclare Saint-Quay-Portrieux ; même brasserie que le point OSM node/6650042721 (17 rue Duguesclin).",
+  "contact": {
+   "site": "https://www.brasserie-uncle.com/",
+   "source": "https://www.brasserie-uncle.com"
+  }
  },
  {
   "cle": "sirene:831156344",
@@ -23,7 +27,11 @@
   "src": "https://www.lafreheloise.bzh/",
   "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel",
   "beers": [],
-  "choix": "Téléphone publié sur la page : 02 96 86 36 28 (non repris)."
+  "contact": {
+   "site": "https://www.lafreheloise.bzh/",
+   "source": "https://www.lafreheloise.bzh/",
+   "tel": "02 96 86 36 28"
+  }
  },
  {
   "cle": "sirene:834915688",
@@ -40,7 +48,12 @@
     "type": "ipa"
    }
   ],
-  "choix": "Même brasserie que le point OSM node/7489781146 (23b avenue Chateaubriand). L'office de tourisme donne d'autres horaires, « non garantis »."
+  "choix": "Même brasserie que le point OSM node/7489781146 (23b avenue Chateaubriand). L'office de tourisme donne d'autres horaires, « non garantis ».",
+  "contact": {
+   "site": "https://www.brasseriedepaimpol.com/",
+   "source": "https://www.brasseriedepaimpol.com",
+   "tel": "02 56 42 17 68"
+  }
  },
  {
   "cle": "sirene:877660043",
@@ -63,7 +76,11 @@
     "type": "ipa"
    }
   ],
-  "choix": "Même adresse que « Tiens bon la Barre » (sirene:850569997) : lien non établi."
+  "choix": "Même adresse que « Tiens bon la Barre » (sirene:850569997) : lien non établi.",
+  "contact": {
+   "site": "https://brasserienautica.fr/",
+   "source": "https://brasserienautica.fr/contact/"
+  }
  },
  {
   "cle": "sirene:889128823",
@@ -76,7 +93,12 @@
   "src": "https://brasserielariposte.bzh/",
   "extrait": "proposées à la vente à emporter",
   "beers": [],
-  "choix": "La catégorie repose sur deux passages de la même page : « proposées à la vente à emporter » et « à la pression et en bouteilles »."
+  "choix": "La catégorie repose sur deux passages de la même page : « proposées à la vente à emporter » et « à la pression et en bouteilles ».",
+  "contact": {
+   "site": "https://brasserielariposte.bzh/",
+   "source": "https://brasserielariposte.bzh/",
+   "tel": "02 96 74 47 23"
+  }
  },
  {
   "cle": "sirene:901093807",
@@ -125,7 +147,11 @@
     "type": "stout"
    }
   ],
-  "choix": "Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons."
+  "choix": "Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons.",
+  "contact": {
+   "site": "https://www.alchimistes-ivres.com/",
+   "source": "https://www.alchimistes-ivres.com"
+  }
  },
  {
   "cle": "sirene:813329661",
@@ -138,7 +164,11 @@
   "src": "https://kerampont.com/",
   "extrait": "Mardi 18h-22h en mode bar, vente directe et restauration",
   "beers": [],
-  "choix": "Position au centre de Lannion : l'adresse n'est pas relue."
+  "choix": "Position au centre de Lannion : l'adresse n'est pas relue.",
+  "contact": {
+   "site": "https://kerampont.com/",
+   "source": "https://kerampont.com/"
+  }
  },
  {
   "cle": "sirene:481351781",
@@ -171,7 +201,11 @@
     "type": "blanche"
    }
   ],
-  "choix": "Position au centre d'Hémonstoir : l'adresse n'est pas relue."
+  "choix": "Position au centre d'Hémonstoir : l'adresse n'est pas relue.",
+  "contact": {
+   "site": "https://millegoules.com/",
+   "source": "https://millegoules.com/"
+  }
  },
  {
   "cle": "personne:10",
@@ -194,7 +228,11 @@
     "type": "brune"
    }
   ],
-  "choix": "Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur."
+  "choix": "Annuaire seulement. La page Untappd ne donne pas la commune : son rattachement tient à ses bières (Brindzingue, Badadrao, Dam Yan, La Tremeuroise), les mêmes que l'annuaire. Position au centre de Trémeur.",
+  "contact": {
+   "untappd": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+   "source": "https://untappd.com/w/les-brassins-du-lion-d-or/442785"
+  }
  },
  {
   "cle": "sirene:850569997",
@@ -227,7 +265,11 @@
   "src": "http://www.lavilleporteamour.fr",
   "extrait": "Vendredi : 16h - 19h",
   "beers": [],
-  "choix": "Site « en reconstruction ». Position au centre de Plouvara."
+  "choix": "Site « en reconstruction ». Position au centre de Plouvara.",
+  "contact": {
+   "site": "http://www.lavilleporteamour.fr/",
+   "source": "http://www.lavilleporteamour.fr"
+  }
  },
  {
   "cle": "sirene:834449381",
@@ -240,7 +282,11 @@
   "src": "https://www.brasserie-dimezell.bzh/",
   "extrait": "Nos bières sont bien sûr en vente et en dégustation à la brasserie",
   "beers": [],
-  "choix": "Même brasserie que le point OSM node/7491754420. Position au centre de Quessoy."
+  "choix": "Même brasserie que le point OSM node/7491754420. Position au centre de Quessoy.",
+  "contact": {
+   "site": "https://www.brasserie-dimezell.bzh/",
+   "source": "https://www.brasserie-dimezell.bzh/"
+  }
  },
  {
   "cle": "sirene:493163729",
@@ -279,7 +325,11 @@
     "type": "blanche"
    }
   ],
-  "choix": "Position au centre de Trégastel : l'adresse n'est pas relue."
+  "choix": "Position au centre de Trégastel : l'adresse n'est pas relue.",
+  "contact": {
+   "site": "https://www.brasseriedes7iles.com/",
+   "source": "https://www.brasseriedes7iles.com"
+  }
  },
  {
   "cle": "node/13926492186",
@@ -301,7 +351,11 @@
    {
     "type": "ambree"
    }
-  ]
+  ],
+  "contact": {
+   "site": "https://www.brasserielarmateur.fr/",
+   "source": "https://www.brasserielarmateur.fr/"
+  }
  },
  {
   "cle": "node/7489748142",
@@ -314,7 +368,11 @@
   "src": "https://www.kanarfoll.com/",
   "extrait": "Visite et dégustation sur place.",
   "beers": [],
-  "choix": "Même lieu-dit que le Verger de Kernivinen (cidrerie, node/14018305001)."
+  "choix": "Même lieu-dit que le Verger de Kernivinen (cidrerie, node/14018305001).",
+  "contact": {
+   "site": "https://www.kanarfoll.com/",
+   "source": "https://www.kanarfoll.com/"
+  }
  },
  {
   "cle": "node/7489914427",
@@ -327,7 +385,11 @@
   "src": "http://www.la-guernouillette.com/",
   "extrait": "Vente aux particuliers, professionnels",
   "beers": [],
-  "choix": "La page dit « Saint Brieuc Ouest », OSM dit Plérin. Position au centre de Plérin."
+  "choix": "La page dit « Saint Brieuc Ouest », OSM dit Plérin. Position au centre de Plérin.",
+  "contact": {
+   "site": "http://www.la-guernouillette.com/",
+   "source": "http://www.la-guernouillette.com/"
+  }
  },
  {
   "cle": "sirene:803625003",
@@ -360,6 +422,11 @@
     "type": "ipa"
    }
   ],
-  "choix": "Le site ne donne pas d'adresse. Position au centre de Guerlédan."
+  "choix": "Le site ne donne pas d'adresse. Position au centre de Guerlédan.",
+  "contact": {
+   "site": "http://www.brasseriedeguerledan.bzh/",
+   "source": "http://www.brasseriedeguerledan.bzh/",
+   "tel": "02 96 66 20 99"
+  }
  }
 ]

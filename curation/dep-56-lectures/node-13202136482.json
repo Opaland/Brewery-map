@@ -14,7 +14,12 @@
    "addr": "Sarzeau",
    "src": "https://www.microbrasserie-vol56.fr",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.microbrasserie-vol56.fr/",
+    "source": "https://www.microbrasserie-vol56.fr",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

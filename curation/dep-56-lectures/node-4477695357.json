@@ -14,7 +14,12 @@
    "addr": "Lanvaux, 56220 Saint-Gravé",
    "src": "http://www.labambelle.com",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "http://www.labambelle.com/",
+    "source": "http://www.labambelle.com",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

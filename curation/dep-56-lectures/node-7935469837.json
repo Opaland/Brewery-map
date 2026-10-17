@@ -14,7 +14,12 @@
    "addr": "Lann Guilloux, 56480 Saint-Aignan",
    "src": "https://anebrasseur.fr/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://anebrasseur.fr/",
+    "source": "https://anebrasseur.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

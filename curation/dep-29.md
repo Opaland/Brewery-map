@@ -17,9 +17,9 @@ Catégories proposées : 5 « acheter et consommer », 5 « acheter seulement »
 
 **Non lus** : 17 entreprises sans nom (personnes, sans enseigne). En Normandie, aucune n'avait pu être trouvée.
 
-**Untappd** : le lot n'a pas de champ pour les liens ; ceux qu'un agent a ouverts sont cités dans « choix du vérificateur ».
+**Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Téléphones, horaires** : non repris ici (pas de champ dans ce lot). Ceux que les pages publient sont cités dans les notes ou les choix.
+**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -88,13 +88,17 @@ Choix du vérificateur : Annuaire seulement ; le site donné par OSM répondait 
 - beers.2.type : (vide) → blanche
 - beers.3.type : (vide) → ambree
 - beers.4.type : (vide) → ipa
+- contact.tel : (vide) → 02 98 93 00 70
+- contact.site : (vide) → https://brasserie-coreff.com/
+- contact.source : (vide) → https://brasserie-coreff.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserie-coreff.com/ ; https://data.geopf.fr/geocodage/search?q=2+Place+de+la+Gare%2C+29270+Carhaix-Plouguer&limit=5
 
 Extrait lu : « Chaque samedi matin pendant le marché, rendez-vous à l’Ambasad pour les sessions dégustations »
 
-Choix du vérificateur : Coreff a aussi un site à Liffré (35), candidat du lot dep-35. Téléphone publié : 02 98 93 00 70 (non repris, le lot n'a pas de champ contact).
+Choix du vérificateur : Coreff a aussi un site à Liffré (35), candidat du lot dep-35.
 
 ### 3. Brasserie de Bretagne — fiche nouvelle
 
@@ -111,6 +115,9 @@ Choix du vérificateur : Coreff a aussi un site à Liffré (35), candidat du lot
 - src : (vide) → https://www.brasserie-bretagne.fr/visiter-la-brasserie/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.brasserie-bretagne.fr/
+- contact.source : (vide) → https://www.brasserie-bretagne.fr/visiter-la-brasserie/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-bretagne.fr/visiter-la-brasserie/
@@ -157,6 +164,9 @@ Choix du vérificateur : Agrégateur de 2018 seulement ; adresse lue sur la mêm
 - src : (vide) → https://www.distribilh.bzh/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.distribilh.bzh/
+- contact.source : (vide) → https://www.distribilh.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.distribilh.bzh/
@@ -203,13 +213,16 @@ Choix du vérificateur : Bières Térénez. Source : agrégateur de points d'int
 - beers.0.type : (vide) → stout
 - beers.1.type : (vide) → ambree
 - beers.2.type : (vide) → blanche
+- contact.tel : (vide) → 09 81 00 11 08
+- contact.site : (vide) → https://arvarus.bzh/
+- contact.untappd : (vide) → https://untappd.com/Arvarus
+- contact.source : (vide) → https://arvarus.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://arvarus.bzh/
 
 Extrait lu : « chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin »
-
-Choix du vérificateur : Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact).
 
 ### 8. En Bières Inconnues — fiche nouvelle
 
@@ -226,6 +239,9 @@ Choix du vérificateur : Page Untappd ouverte par un agent : https://untappd.com
 - src : (vide) → https://enbieresinconnues.fr/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://enbieresinconnues.fr/
+- contact.source : (vide) → https://enbieresinconnues.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://enbieresinconnues.fr/
@@ -273,6 +289,9 @@ Choix du vérificateur : Page en anglais de l'office de tourisme. Même brasseri
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → blanche
 - beers.1.type : (vide) → blonde
+- contact.site : (vide) → https://www.le-grain-du-ponant.com/
+- contact.source : (vide) → https://www.le-grain-du-ponant.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.le-grain-du-ponant.com/ ; https://data.geopf.fr/geocodage/search?q=7+Rue+de+Pont+Len%2C+29340+Riec-sur-B%C3%A9lon&limit=5
@@ -299,6 +318,9 @@ Choix du vérificateur : Un agent proposait « acheter seulement » : la phrase 
 - beers.1.type : (vide) → ipa
 - beers.2.type : (vide) → blanche
 - beers.3.type : (vide) → stout
+- contact.site : (vide) → https://sklent.bzh/
+- contact.source : (vide) → https://sklent.bzh/contact/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://sklent.bzh/contact/ ; https://data.geopf.fr/geocodage/search?q=1+rue+Ernest+Renan+29800+Landerneau&limit=5
@@ -322,6 +344,9 @@ Choix du vérificateur : Horaires lus par un agent (vendredi 15 h-19 h), non rep
 - src : (vide) → https://brasseriediaoul.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://brasseriediaoul.com/
+- contact.source : (vide) → https://brasseriediaoul.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasseriediaoul.com/
@@ -368,6 +393,9 @@ Choix du vérificateur : Annuaire seulement. SIRENE déclare Plouigneau : lieu a
 - src : (vide) → https://www.microbrasseriepab.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.microbrasseriepab.com/
+- contact.source : (vide) → https://www.microbrasseriepab.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.microbrasseriepab.com/
@@ -393,6 +421,9 @@ Choix du vérificateur : Même brasserie que le point OSM node/12985439390.
 - beers.0.type : (vide) → ipa
 - beers.1.type : (vide) → stout
 - beers.2.type : (vide) → lager
+- contact.site : (vide) → https://fr.kauribrewery.com/
+- contact.source : (vide) → https://fr.kauribrewery.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://fr.kauribrewery.com ; https://data.geopf.fr/geocodage/search?q=67+Lieu-dit+Kervon%2C+29720+Plovan&limit=5
@@ -437,6 +468,9 @@ Choix du vérificateur : Annuaire seulement ; le site ferme-de-trevarn.fr la dit
 - src : (vide) → https://sibin.beer/contact
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.site : (vide) → https://sibin.beer/
+- contact.source : (vide) → https://sibin.beer/contact
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://sibin.beer/contact ; https://data.geopf.fr/geocodage/search?q=4+rue+de+la+Garenne%2C+29830+Plouguin&limit=5
@@ -483,6 +517,10 @@ Choix du vérificateur : Page en anglais de l'office de tourisme ; le site de la
 - src : (vide) → https://www.brasseriekeravale.fr/
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → blonde
+- contact.tel : (vide) → 02 98 29 77 43
+- contact.site : (vide) → https://www.brasseriekeravale.fr/
+- contact.source : (vide) → https://www.brasseriekeravale.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasseriekeravale.fr/ ; https://data.geopf.fr/geocodage/search?q=565+Route+de+Rucat%2C+29680+Roscoff&limit=5
@@ -491,4 +529,4 @@ Extrait lu : « 565 Route de Rucat - Keravel 29680 ROSCOFF »
 
 Choix du vérificateur : Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon).
 
-Empreinte du lot : a9d39e53ee1e
+Empreinte du lot : c871c3655433

@@ -23,7 +23,12 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://lebrasseurbavarois.fr/",
+     "source": "https://lebrasseurbavarois.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -60,7 +65,12 @@
      {
       "type": "brune"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.brasserielembardee.fr/",
+     "source": "https://www.brasserielembardee.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -106,7 +116,12 @@
     "addr": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
     "src": "https://www.brasserie-sainte-colombe.com/",
     "coordPrecision": "address",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-sainte-colombe.com/",
+     "source": "https://www.brasserie-sainte-colombe.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -137,7 +152,14 @@
      {
       "type": "ambree"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 23 30 59 80",
+     "site": "https://www.skumenn.com/",
+     "untappd": "https://untappd.com/w/brasserie-skumenn/240180",
+     "source": "https://www.skumenn.com/brewpub",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -145,7 +167,7 @@
     "https://data.geopf.fr/geocodage/search?q=8+impasse+des+Charmilles%2C+35510+Cesson-S%C3%A9vign%C3%A9&limit=5"
    ],
    "extrait": "passez simplement faire le plein de bière dans notre magasin de vente directe",
-   "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80."
+   "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas »."
   },
   {
    "fiche": {
@@ -194,7 +216,12 @@
      {
       "type": "sour"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.vieuxsinge.com/",
+     "source": "https://www.vieuxsinge.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -289,7 +316,12 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://brasserieminimum.fr/",
+     "source": "https://brasserieminimum.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -320,15 +352,21 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 90 22 87 00",
+     "site": "https://smash.bzh/",
+     "untappd": "https://untappd.com/brasserie_smash",
+     "source": "https://smash.bzh",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://smash.bzh",
     "https://data.geopf.fr/geocodage/search?q=4+bis+Rue+du+Lieutenant+Colonel+Dubois%2C+35000+Rennes&limit=5"
    ],
-   "extrait": "du lundi au vendredi 9h00 - 18h00",
-   "choix": "Page Untappd citée par le site : https://untappd.com/brasserie_smash/ (non reprise). Téléphone publié : 02 90 22 87 00."
+   "extrait": "du lundi au vendredi 9h00 - 18h00"
   },
   {
    "fiche": {
@@ -354,14 +392,19 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://louarn.bzh/",
+     "source": "https://louarn.bzh",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://louarn.bzh"
    ],
    "extrait": "Oui, en boutique à la brasserie et sur les événements.",
-   "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu."
+   "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Une page Untappd « Brasserie Louarn » (Rennes) renvoie à un ancien domaine, détourné : non reprise. Position au centre de Montfort-sur-Meu."
   },
   {
    "fiche": {
@@ -377,7 +420,13 @@
     "addr": "Guichen",
     "src": "https://www.choquemicrobrasserie.fr",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.choquemicrobrasserie.fr/",
+     "untappd": "https://untappd.com/w/choque-microbrasserie/559490",
+     "source": "https://www.choquemicrobrasserie.fr",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -455,7 +504,12 @@
     "addr": "Melesse",
     "src": "https://brasseriedrao.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://brasseriedrao.com/",
+     "source": "https://brasseriedrao.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -478,7 +532,12 @@
     "addr": "Bains-sur-Oust",
     "src": "https://labrasseriedesmarais.wordpress.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://labrasseriedesmarais.wordpress.com/",
+     "source": "https://labrasseriedesmarais.wordpress.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [

@@ -27,7 +27,12 @@
     {
      "type": "brune"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.brasserielembardee.fr/",
+    "source": "https://www.brasserielembardee.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

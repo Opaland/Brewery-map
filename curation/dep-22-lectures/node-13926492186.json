@@ -24,7 +24,12 @@
     {
      "type": "ambree"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.brasserielarmateur.fr/",
+    "source": "https://www.brasserielarmateur.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -14,7 +14,13 @@
    "addr": "Guichen",
    "src": "https://www.choquemicrobrasserie.fr",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.choquemicrobrasserie.fr/",
+    "source": "https://www.choquemicrobrasserie.fr",
+    "untappd": "https://untappd.com/w/choque-microbrasserie/559490",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

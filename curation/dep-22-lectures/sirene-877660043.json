@@ -24,7 +24,12 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://brasserienautica.fr/",
+    "source": "https://brasserienautica.fr/contact/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

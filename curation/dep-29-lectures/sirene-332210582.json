@@ -30,7 +30,13 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://brasserie-coreff.com/",
+    "source": "https://brasserie-coreff.com/",
+    "tel": "02 98 93 00 70",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
@@ -38,6 +44,6 @@
    "https://data.geopf.fr/geocodage/search?q=2+Place+de+la+Gare%2C+29270+Carhaix-Plouguer&limit=5"
   ],
   "extrait": "Chaque samedi matin pendant le marché, rendez-vous à l’Ambasad pour les sessions dégustations",
-  "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35. Téléphone publié : 02 98 93 00 70 (non repris, le lot n'a pas de champ contact)."
+  "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35."
  }
 }

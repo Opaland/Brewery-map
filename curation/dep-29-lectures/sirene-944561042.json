@@ -14,7 +14,12 @@
    "addr": "4 rue de la Garenne, 29830 Plouguin",
    "src": "https://sibin.beer/contact",
    "coordPrecision": "address",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://sibin.beer/",
+    "source": "https://sibin.beer/contact",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

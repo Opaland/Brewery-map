@@ -14,7 +14,12 @@
    "addr": "4 chemin des Tanneurs, 56140 Malestroit",
    "src": "https://microbrasseriebarque.bzh",
    "coordPrecision": "address",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://microbrasseriebarque.bzh/",
+    "source": "https://microbrasseriebarque.bzh",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

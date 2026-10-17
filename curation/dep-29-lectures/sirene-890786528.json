@@ -14,7 +14,12 @@
    "addr": "Kermenguy, 29100 Le Juch",
    "src": "https://brasseriediaoul.com/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriediaoul.com/",
+    "source": "https://brasseriediaoul.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -29,8 +29,8 @@
  */
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
-import { BRIGNAIS, distanceKm } from '../src/core/distance'
 import {
+  ajoutDeLecture,
   assemblerLot,
   positionDuGeocodeur,
   candidatsDuDepartement,
@@ -40,6 +40,7 @@ import {
   type CandidatEnCause,
   type EtablissementSirene,
   type Lecture,
+  type LectureAgent,
 } from '../src/core/candidats'
 import type { CandidatOsm } from '../src/core/decouverte'
 import { validerBrasseries } from '../src/core/schema'
@@ -189,19 +190,6 @@ async function candidats(dep: string): Promise<void> {
   )
 }
 
-interface LectureAgent {
-  cle: string
-  n: string
-  c: string
-  adresse: string | null
-  cat: number
-  conf: string
-  note: string
-  src: string
-  extrait: string
-  beers: unknown[]
-  choix?: string
-}
 
 const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
 
@@ -242,30 +230,9 @@ function lectures(dep: string, fichier: string | undefined): void {
       console.log(`- ${l.cle} (${l.n}) : ni l'adresse ni la commune ne se géocodent dans le ${dep} — non écrite`)
       continue
     }
-    const fiche = {
-      n: l.n,
-      c: l.c,
-      d: dep,
-      lat: pos.lat,
-      lon: pos.lon,
-      km: Math.round(distanceKm(BRIGNAIS, pos) * 10) / 10,
-      cat: l.cat,
-      conf: l.conf,
-      note: l.note,
-      addr: l.adresse ?? l.c,
-      src: l.src,
-      coordPrecision: pos.precision,
-      beers: l.beers,
-    }
-    const ajout = {
-      fiche,
-      verifieLe: aujourdhui,
-      sources: [l.src, ...(source === undefined ? [] : [source])],
-      extrait: l.extrait,
-      ...(l.choix === undefined ? {} : { choix: l.choix }),
-    }
-    writeFileSync(`${dossier}/${l.cle.replace(/[:/]/g, '-')}.json`, `${JSON.stringify({ candidat: l.cle, ajout }, null, 1)}\n`)
-    console.log(`${l.n} : ${pos.precision} (${String(fiche.km)} km de Brignais)`)
+    const lu = ajoutDeLecture(l, dep, pos, source, aujourdhui)
+    writeFileSync(`${dossier}/${l.cle.replace(/[:/]/g, '-')}.json`, `${JSON.stringify(lu, null, 1)}\n`)
+    console.log(`${l.n} : ${pos.precision} (${String(lu.ajout.fiche.km)} km de Brignais)`)
   }
 }
 

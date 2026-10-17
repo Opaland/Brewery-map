@@ -14,7 +14,12 @@
    "addr": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
    "src": "https://www.brasserie-sainte-colombe.com/",
    "coordPrecision": "address",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-sainte-colombe.com/",
+    "source": "https://www.brasserie-sainte-colombe.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -14,7 +14,12 @@
    "addr": "Locoal-Mendon",
    "src": "https://brasserie-gwennili.fr/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-gwennili.fr/",
+    "source": "https://brasserie-gwennili.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

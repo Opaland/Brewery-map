@@ -24,13 +24,19 @@
     {
      "type": "blanche"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://arvarus.bzh/",
+    "source": "https://arvarus.bzh/",
+    "tel": "09 81 00 11 08",
+    "untappd": "https://untappd.com/Arvarus",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
    "https://arvarus.bzh/"
   ],
-  "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin",
-  "choix": "Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact)."
+  "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin"
  }
 }

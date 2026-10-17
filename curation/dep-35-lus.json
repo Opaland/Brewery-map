@@ -45,7 +45,11 @@
    {
     "type": "sour"
    }
-  ]
+  ],
+  "contact": {
+   "site": "https://www.vieuxsinge.com/",
+   "source": "https://www.vieuxsinge.com"
+  }
  },
  {
   "cle": "sirene:921977443",
@@ -65,7 +69,12 @@
     "type": "ipa"
    }
   ],
-  "choix": "Page Untappd citée par le site : https://untappd.com/brasserie_smash/ (non reprise). Téléphone publié : 02 90 22 87 00."
+  "contact": {
+   "site": "https://smash.bzh/",
+   "source": "https://smash.bzh",
+   "tel": "02 90 22 87 00",
+   "untappd": "https://untappd.com/brasserie_smash"
+  }
  },
  {
   "cle": "sirene:984403014",
@@ -150,7 +159,11 @@
     "type": "blanche"
    }
   ],
-  "choix": "Peut-être la « brasserie de Montreuil-sur-Ille » de l'annuaire Gault&Millau, citée pour « Brittany's » (node/6814774338) : lien non établi."
+  "choix": "Peut-être la « brasserie de Montreuil-sur-Ille » de l'annuaire Gault&Millau, citée pour « Brittany's » (node/6814774338) : lien non établi.",
+  "contact": {
+   "site": "https://brasserieminimum.fr/",
+   "source": "https://brasserieminimum.fr/"
+  }
  },
  {
   "cle": "sirene:539513101",
@@ -163,7 +176,11 @@
   "src": "https://www.brasserie-sainte-colombe.com/",
   "extrait": "Bar & Vente Directe : Tous les vendredis 14h - 20h30",
   "beers": [],
-  "choix": "Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe)."
+  "choix": "Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe).",
+  "contact": {
+   "site": "https://www.brasserie-sainte-colombe.com/",
+   "source": "https://www.brasserie-sainte-colombe.com/"
+  }
  },
  {
   "cle": "sirene:981674021",
@@ -186,7 +203,11 @@
     "type": "blanche"
    }
   ],
-  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu."
+  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Une page Untappd « Brasserie Louarn » (Rennes) renvoie à un ancien domaine, détourné : non reprise. Position au centre de Montfort-sur-Meu.",
+  "contact": {
+   "site": "https://louarn.bzh/",
+   "source": "https://louarn.bzh"
+  }
  },
  {
   "cle": "sirene:812510691",
@@ -206,7 +227,13 @@
     "type": "ambree"
    }
   ],
-  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80."
+  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ».",
+  "contact": {
+   "site": "https://www.skumenn.com/",
+   "source": "https://www.skumenn.com/brewpub",
+   "tel": "02 23 30 59 80",
+   "untappd": "https://untappd.com/w/brasserie-skumenn/240180"
+  }
  },
  {
   "cle": "sirene:981794480",
@@ -219,7 +246,12 @@
   "src": "https://www.choquemicrobrasserie.fr",
   "extrait": "Vente à emporter Mardi au Vendredi 10h - 19h + heure de taproom",
   "beers": [],
-  "choix": "Les horaires du taproom sont juste avant sur la page. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
+  "choix": "Les horaires du taproom sont juste avant sur la page. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen.",
+  "contact": {
+   "site": "https://www.choquemicrobrasserie.fr/",
+   "source": "https://www.choquemicrobrasserie.fr",
+   "untappd": "https://untappd.com/w/choque-microbrasserie/559490"
+  }
  },
  {
   "cle": "node/11146069022",
@@ -239,7 +271,11 @@
     "type": "blanche"
    }
   ],
-  "choix": "Même brasserie que sirene:843752312 (Pleugueneuc). OSM la plaçait à Plesder."
+  "choix": "Même brasserie que sirene:843752312 (Pleugueneuc). OSM la plaçait à Plesder.",
+  "contact": {
+   "site": "https://lebrasseurbavarois.fr/",
+   "source": "https://lebrasseurbavarois.fr/"
+  }
  },
  {
   "cle": "node/7491942730",
@@ -265,7 +301,11 @@
   "src": "https://brasseriedrao.com/",
   "extrait": "NOTRE BOUTIQUE EST OUVERTE LE VENDREDI DE 14H À 18H.",
   "beers": [],
-  "choix": "Position au centre de Melesse : l'adresse n'est pas relue."
+  "choix": "Position au centre de Melesse : l'adresse n'est pas relue.",
+  "contact": {
+   "site": "https://brasseriedrao.com/",
+   "source": "https://brasseriedrao.com/"
+  }
  },
  {
   "cle": "way/135589728",
@@ -278,7 +318,11 @@
   "src": "https://labrasseriedesmarais.wordpress.com/",
   "extrait": "La brasserie ne peut pas recevoir de visiteurs pour le moment.",
   "beers": [],
-  "choix": "Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon »."
+  "choix": "Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon ».",
+  "contact": {
+   "site": "https://labrasseriedesmarais.wordpress.com/",
+   "source": "https://labrasseriedesmarais.wordpress.com/"
+  }
  },
  {
   "cle": "node/6820098489",
@@ -303,6 +347,10 @@
    {
     "type": "brune"
    }
-  ]
+  ],
+  "contact": {
+   "site": "https://www.brasserielembardee.fr/",
+   "source": "https://www.brasserielembardee.fr/"
+  }
  }
 ]

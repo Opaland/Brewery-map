@@ -426,6 +426,7 @@ vérifiée ».
 | S258 | Provence-Alpes-Côte d'Azur et Corse |
 | S259 | Outre-mer |
 | S260 | Revue métier de E25 ; la couche OSM ne garde que ce qui n'a pas de fiche |
+| S261 | Les lots départementaux portent les contacts lus (site, Untappd, téléphone) |
 
 ## Compte
 

@@ -14,13 +14,18 @@
    "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
    "src": "https://www.lafreheloise.bzh/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.lafreheloise.bzh/",
+    "source": "https://www.lafreheloise.bzh/",
+    "tel": "02 96 86 36 28",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
    "https://www.lafreheloise.bzh/"
   ],
-  "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel",
-  "choix": "Téléphone publié sur la page : 02 96 86 36 28 (non repris)."
+  "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel"
  }
 }

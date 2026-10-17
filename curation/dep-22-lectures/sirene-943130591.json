@@ -21,7 +21,12 @@
     {
      "type": "blanche"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://millegoules.com/",
+    "source": "https://millegoules.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

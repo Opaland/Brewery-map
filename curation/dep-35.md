@@ -17,9 +17,9 @@ Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement »
 
 **Non lus** : 6 entreprises sans nom (personnes, sans enseigne). En Normandie, aucune n'avait pu être trouvée.
 
-**Untappd** : le lot n'a pas de champ pour les liens ; ceux qu'un agent a ouverts sont cités dans « choix du vérificateur ».
+**Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Téléphones, horaires** : non repris ici (pas de champ dans ce lot). Ceux que les pages publient sont cités dans les notes ou les choix.
+**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -65,6 +65,9 @@ Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement »
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → lager
 - beers.1.type : (vide) → blanche
+- contact.site : (vide) → https://lebrasseurbavarois.fr/
+- contact.source : (vide) → https://lebrasseurbavarois.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://lebrasseurbavarois.fr/ ; https://data.geopf.fr/geocodage/search?q=5+La+Coudraie%2C+35720+Pleugueneuc&limit=5
@@ -91,6 +94,9 @@ Choix du vérificateur : Même brasserie que sirene:843752312 (Pleugueneuc). OSM
 - beers.1.type : (vide) → blanche
 - beers.2.type : (vide) → ambree
 - beers.3.type : (vide) → brune
+- contact.site : (vide) → https://www.brasserielembardee.fr/
+- contact.source : (vide) → https://www.brasserielembardee.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserielembardee.fr/ ; https://data.geopf.fr/geocodage/search?q=3%2F5+rue+Fos+K%C3%A9raly%2C+35300+Foug%C3%A8res&limit=5
@@ -135,6 +141,9 @@ Choix du vérificateur : Annuaire seulement ; adresses contradictoires. Position
 - src : (vide) → https://www.brasserie-sainte-colombe.com/
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.site : (vide) → https://www.brasserie-sainte-colombe.com/
+- contact.source : (vide) → https://www.brasserie-sainte-colombe.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-sainte-colombe.com/ ; https://data.geopf.fr/geocodage/search?q=22+Boulevard+Fran%C3%A7ois+Mitterrand%2C+35150+Corps-Nuds&limit=5
@@ -159,13 +168,18 @@ Choix du vérificateur : Même brasserie que le point OSM node/872324499 (La Lan
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → ipa
 - beers.1.type : (vide) → ambree
+- contact.tel : (vide) → 02 23 30 59 80
+- contact.site : (vide) → https://www.skumenn.com/
+- contact.untappd : (vide) → https://untappd.com/w/brasserie-skumenn/240180
+- contact.source : (vide) → https://www.skumenn.com/brewpub
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.skumenn.com/brewpub ; https://data.geopf.fr/geocodage/search?q=8+impasse+des+Charmilles%2C+35510+Cesson-S%C3%A9vign%C3%A9&limit=5
 
 Extrait lu : « passez simplement faire le plein de bière dans notre magasin de vente directe »
 
-Choix du vérificateur : La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80.
+Choix du vérificateur : La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ».
 
 ### 6. Brasserie de la Bizhhh — fiche nouvelle
 
@@ -207,6 +221,9 @@ Choix du vérificateur : Annuaire en anglais seulement. Position au centre du Rh
 - beers.0.type : (vide) → blanche
 - beers.1.type : (vide) → stout
 - beers.2.type : (vide) → sour
+- contact.site : (vide) → https://www.vieuxsinge.com/
+- contact.source : (vide) → https://www.vieuxsinge.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.vieuxsinge.com ; https://data.geopf.fr/geocodage/search?q=4b+rue+Janig+Corlay%2C+35136+Saint-Jacques-de-la-Lande&limit=5
@@ -280,6 +297,9 @@ Choix du vérificateur : Article de 2022 ; adresse de l'article et de SIRENE dis
 - beers.2.type : (vide) → ambree
 - beers.3.type : (vide) → ipa
 - beers.4.type : (vide) → blanche
+- contact.site : (vide) → https://brasserieminimum.fr/
+- contact.source : (vide) → https://brasserieminimum.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserieminimum.fr/ ; https://data.geopf.fr/geocodage/search?q=20+avenue+Alexis+Rey%2C+35440+Montreuil-sur-Ille&limit=5
@@ -304,13 +324,16 @@ Choix du vérificateur : Peut-être la « brasserie de Montreuil-sur-Ille » de 
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → sour
 - beers.1.type : (vide) → ipa
+- contact.tel : (vide) → 02 90 22 87 00
+- contact.site : (vide) → https://smash.bzh/
+- contact.untappd : (vide) → https://untappd.com/brasserie_smash
+- contact.source : (vide) → https://smash.bzh
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://smash.bzh ; https://data.geopf.fr/geocodage/search?q=4+bis+Rue+du+Lieutenant+Colonel+Dubois%2C+35000+Rennes&limit=5
 
 Extrait lu : « du lundi au vendredi 9h00 - 18h00 »
-
-Choix du vérificateur : Page Untappd citée par le site : https://untappd.com/brasserie_smash/ (non reprise). Téléphone publié : 02 90 22 87 00.
 
 ### 12. Brasserie Louarn — fiche nouvelle
 
@@ -329,13 +352,16 @@ Choix du vérificateur : Page Untappd citée par le site : https://untappd.com/b
 - beers.0.type : (vide) → blonde
 - beers.1.type : (vide) → ipa
 - beers.2.type : (vide) → blanche
+- contact.site : (vide) → https://louarn.bzh/
+- contact.source : (vide) → https://louarn.bzh
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://louarn.bzh
 
 Extrait lu : « Oui, en boutique à la brasserie et sur les événements. »
 
-Choix du vérificateur : Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu.
+Choix du vérificateur : Même brasserie que le point OSM node/4225477240 (Rennes). Une page Untappd « Brasserie Louarn » (Rennes) renvoie à un ancien domaine, détourné : non reprise. Position au centre de Montfort-sur-Meu.
 
 ### 13. Choque microbrasserie — fiche nouvelle
 
@@ -352,6 +378,10 @@ Choix du vérificateur : Même brasserie que le point OSM node/4225477240 (Renne
 - src : (vide) → https://www.choquemicrobrasserie.fr
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.choquemicrobrasserie.fr/
+- contact.untappd : (vide) → https://untappd.com/w/choque-microbrasserie/559490
+- contact.source : (vide) → https://www.choquemicrobrasserie.fr
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.choquemicrobrasserie.fr
@@ -422,6 +452,9 @@ Choix du vérificateur : Page en anglais de l'office de tourisme seulement.
 - src : (vide) → https://brasseriedrao.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://brasseriedrao.com/
+- contact.source : (vide) → https://brasseriedrao.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasseriedrao.com/
@@ -445,6 +478,9 @@ Choix du vérificateur : Position au centre de Melesse : l'adresse n'est pas rel
 - src : (vide) → https://labrasseriedesmarais.wordpress.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://labrasseriedesmarais.wordpress.com/
+- contact.source : (vide) → https://labrasseriedesmarais.wordpress.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://labrasseriedesmarais.wordpress.com/
@@ -453,4 +489,4 @@ Extrait lu : « La brasserie ne peut pas recevoir de visiteurs pour le moment. �
 
 Choix du vérificateur : Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon ».
 
-Empreinte du lot : 258e953b6054
+Empreinte du lot : 06577139c560

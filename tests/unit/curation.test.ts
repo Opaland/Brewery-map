@@ -9,6 +9,8 @@ import {
   lotSuivant,
   numeroSurLaPage,
   extraitSurLaPage,
+  ajoutSchema,
+  contactSurLaPage,
   revuesDesFichiers,
   type Lot,
 } from '../../src/core/curation'
@@ -508,3 +510,83 @@ describe('extraitSurLaPage (S247)', () => {
   })
 })
 
+
+describe('les contacts d’une fiche nouvelle (S261)', () => {
+  // Une vraie ligne du fichier, renommée : valide au schéma par construction.
+  const [ligne] = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]
+  const fiche = Object.fromEntries(Object.entries({ ...ligne, n: 'Brasserie de test S261' }).filter(([k]) => k !== 'verifieLe' && k !== 'contact'))
+  const source = 'https://exemple.fr/contact'
+  const ajout = (contact: Record<string, unknown>, sources = ['https://exemple.fr/', source]) => ({
+    fiche: { ...fiche, contact },
+    verifieLe: '2026-10-17',
+    sources,
+    extrait: 'Lu sur la page.',
+  })
+
+  it('CA2 : un contact lu sur une des sources, à la date de l’ajout, passe', () => {
+    expect(ajoutSchema.safeParse(ajout({ tel: '02 98 93 00 70', source, verifieLe: '2026-10-17' })).success).toBe(true)
+  })
+
+  it('CA2 : un contact dont la source n’est pas une des sources est refusé', () => {
+    const r = ajoutSchema.safeParse(ajout({ tel: '02 98 93 00 70', source: 'https://ailleurs.fr/', verifieLe: '2026-10-17' }))
+    expect(r.success).toBe(false)
+  })
+
+  it('CA2 : un contact daté d’un autre jour que l’ajout est refusé', () => {
+    const r = ajoutSchema.safeParse(ajout({ tel: '02 98 93 00 70', source, verifieLe: '2026-10-16' }))
+    expect(r.success).toBe(false)
+  })
+
+  const lu = (absents: string[], parLaPageMeme: string[] = []) => ({ absents, parLaPageMeme })
+
+  it('CA2 : les horaires d’une fiche nouvelle suivent la même règle que le contact', () => {
+    const horaires = [{ nature: 'vente', ven: [['15:00', '19:00']], source: 'https://ailleurs.fr/', verifieLe: '2026-10-17' }]
+    const a = { ...ajout({ tel: '02 98 93 00 70', source, verifieLe: '2026-10-17' }) }
+    expect(ajoutSchema.safeParse({ ...a, fiche: { ...a.fiche, horaires } }).success).toBe(false)
+    const bonnes = [{ ...horaires[0], source }]
+    expect(ajoutSchema.safeParse({ ...a, fiche: { ...a.fiche, horaires: bonnes } }).success).toBe(true)
+  })
+
+  it('CA3 : le téléphone et le lien Untappd sont cherchés sur la page du contact', () => {
+    const page = '<p>Tél. : +33 (0)2 98 93 00 70</p><a href="https://untappd.com/Arvarus">Untappd</a>'
+    expect(contactSurLaPage({ tel: '02 98 93 00 70', untappd: 'https://untappd.com/Arvarus', source }, page)).toEqual(lu([]))
+  })
+
+  it('CA3 : un téléphone ou un lien absent de la page est un écart', () => {
+    const page = '<p>Tél. : 02 98 93 00 71</p><a href="https://untappd.com/Autre">Untappd</a>'
+    expect(contactSurLaPage({ tel: '02 98 93 00 70', untappd: 'https://untappd.com/Arvarus', source }, page)).toEqual(lu(['tel', 'untappd']))
+  })
+
+  it('CA3 : un lien Untappd plus long que celui de la page, ou la racine d’Untappd, ne passe pas', () => {
+    const page = '<a href="https://untappd.com/Arvarus2">x</a> <a href="https://untappd.com/autre">y</a>'
+    expect(contactSurLaPage({ untappd: 'https://untappd.com/Arvarus', source }, page).absents).toEqual(['untappd'])
+    expect(contactSurLaPage({ untappd: 'https://untappd.com/', source }, page).absents).toEqual(['untappd'])
+  })
+
+  it('CA3 : une page de la brasserie sur Untappd (…/beer) vaut pour la brasserie', () => {
+    const page = '<a href="https://untappd.com/w/brasserie-skumenn/240180/beer">x</a>'
+    expect(contactSurLaPage({ untappd: 'https://untappd.com/w/brasserie-skumenn/240180', source }, page)).toEqual(lu([]))
+  })
+
+  it('CA3 : un lien Untappd lu sur sa propre page vaut, mais se dit « par la page même »', () => {
+    expect(contactSurLaPage({ untappd: 'https://untappd.com/brasserie_smash/', source: 'https://untappd.com/Brasserie_Smash' }, '<title>Smash</title>')).toEqual(
+      lu([], ['untappd']),
+    )
+  })
+
+  it('CA3 : le site vaut si la page lue est sur ce site (dit « par la page même »), ou s’il y est cité par son hôte exact', () => {
+    expect(contactSurLaPage({ site: 'https://exemple.fr/', source: 'https://exemple.fr/contact' }, '')).toEqual(lu([], ['site']))
+    expect(contactSurLaPage({ site: 'https://autre.fr/', source }, '<a href="https://www.autre.fr">site</a>')).toEqual(lu([]))
+    expect(contactSurLaPage({ site: 'https://autre.fr/', source }, '<p>exemple</p>').absents).toEqual(['site'])
+  })
+
+  it('CA3 : un hôte contenu dans un autre, ou cité en paramètre d’une autre adresse, ne vaut pas le site', () => {
+    expect(contactSurLaPage({ site: 'https://bar.fr/', source }, '<a href="https://foobar.fr">x</a>').absents).toEqual(['site'])
+    expect(contactSurLaPage({ site: 'https://bar.fr/', source }, '<a href="https://annuaire.com/r?u=bar.fr">x</a>').absents).toEqual(['site'])
+  })
+
+  it('CA3 : sur une plateforme partagée, la même plateforme ne prouve pas le site', () => {
+    expect(contactSurLaPage({ site: 'https://www.facebook.com/brass', source: 'https://www.facebook.com/autre' }, '').absents).toEqual(['site'])
+    expect(contactSurLaPage({ site: 'https://www.facebook.com/brass', source: 'https://www.facebook.com/brass/about' }, '')).toEqual(lu([], ['site']))
+  })
+})

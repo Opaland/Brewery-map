@@ -27,7 +27,12 @@
     {
      "type": "stout"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://sklent.bzh/",
+    "source": "https://sklent.bzh/contact/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

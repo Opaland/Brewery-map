@@ -24,13 +24,19 @@
     {
      "type": "brune"
     }
-   ]
+   ],
+   "contact": {
+    "untappd": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+    "source": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
-   "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/"
+   "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
+   "https://untappd.com/w/les-brassins-du-lion-d-or/442785"
   ],
   "extrait": "Le Lion d'Or 22250 Trémeur",
-  "choix": "Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur."
+  "choix": "Annuaire seulement. La page Untappd ne donne pas la commune : son rattachement tient à ses bières (Brindzingue, Badadrao, Dam Yan, La Tremeuroise), les mêmes que l'annuaire. Position au centre de Trémeur."
  }
 }

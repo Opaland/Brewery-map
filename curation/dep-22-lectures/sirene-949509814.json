@@ -24,7 +24,12 @@
     {
      "type": "stout"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.alchimistes-ivres.com/",
+    "source": "https://www.alchimistes-ivres.com",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

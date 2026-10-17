@@ -14,7 +14,12 @@
    "addr": "Rue Neuve, 29253 Île-de-Batz",
    "src": "https://www.microbrasseriepab.com/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.microbrasseriepab.com/",
+    "source": "https://www.microbrasseriepab.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

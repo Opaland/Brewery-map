@@ -24,7 +24,12 @@
     {
      "type": "sour"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.vieuxsinge.com/",
+    "source": "https://www.vieuxsinge.com",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -37,6 +37,7 @@ import {
   lireLot,
   lotSuivant,
   numeroSurLaPage,
+  contactSurLaPage,
   revuesDesFichiers,
 } from '../src/core/curation'
 import { BRIGNAIS } from '../src/core/distance'
@@ -124,10 +125,19 @@ async function controler(chemin: string | undefined) {
         const page = r.ok ? await r.text() : ''
         console.log(`${n} — ${url} : ${String(r.status)}`)
         if (!r.ok) echecs++
-        else if (url === a.fiche.src) {
-          const lu = extraitSurLaPage(a.extrait, page)
-          console.log(`${n} — extrait sur ${url} : ${lu ? 'trouvé' : 'ABSENT'}`)
-          if (!lu) echecs++
+        else {
+          if (url === a.fiche.src) {
+            const lu = extraitSurLaPage(a.extrait, page)
+            console.log(`${n} — extrait sur ${url} : ${lu ? 'trouvé' : 'ABSENT'}`)
+            if (!lu) echecs++
+          }
+          // S261 : le contact se relit sur sa propre page.
+          if (a.fiche.contact !== undefined && url === a.fiche.contact.source) {
+            const { absents, parLaPageMeme } = contactSurLaPage(a.fiche.contact, page)
+            const meme = parLaPageMeme.length === 0 ? '' : ` ; ${parLaPageMeme.join(', ')} = la page lue elle-même`
+            console.log(`${n} — contact sur ${url} : ${absents.length === 0 ? 'trouvé' : `ABSENT (${absents.join(', ')})`}${meme}`)
+            echecs += absents.length
+          }
         }
       } catch (e) {
         console.log(`${n} — ${url} : injoignable (${String(e)})`)

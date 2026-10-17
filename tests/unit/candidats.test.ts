@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import {
+  ajoutDeLecture,
   assemblerLot,
   candidatsDuDepartement,
   classerDuDepartement,
@@ -304,5 +305,41 @@ describe('positionDuGeocodeur (S248)', () => {
   it('une réponse vide ou mal formée ne donne rien', () => {
     expect(positionDuGeocodeur({ features: [] }, '76', 'X')).toBeNull()
     expect(positionDuGeocodeur({}, '76', 'X')).toBeNull()
+  })
+})
+
+describe('ajoutDeLecture (S261)', () => {
+  const lecture = {
+    cle: 'sirene:1',
+    n: 'Brasserie de test',
+    c: 'Ploumoguer',
+    adresse: null,
+    cat: 0,
+    conf: '',
+    note: 'Rien d’établi.',
+    src: 'https://exemple.fr/',
+    extrait: 'Brasserie de test',
+    beers: [],
+  }
+  const pos = { lat: 48.4, lon: -4.7, precision: 'commune' as const }
+
+  it('CA1 : le contact lu entre dans la fiche, daté du jour, et sa source parmi les sources', () => {
+    const contact = { tel: '09 81 00 11 08', untappd: 'https://untappd.com/Arvarus', source: 'https://exemple.fr/contact' }
+    const { ajout } = ajoutDeLecture({ ...lecture, contact }, '29', pos, undefined, '2026-10-17')
+    expect(ajout.fiche.contact).toEqual({ ...contact, verifieLe: '2026-10-17' })
+    expect(ajout.sources).toEqual(['https://exemple.fr/', 'https://exemple.fr/contact'])
+  })
+
+  it('CA1 : une source de contact déjà citée ne se répète pas ; la requête du géocodeur suit', () => {
+    const contact = { site: 'https://exemple.fr/', source: 'https://exemple.fr/' }
+    const g = 'https://data.geopf.fr/geocodage/search?q=x'
+    const { ajout } = ajoutDeLecture({ ...lecture, contact }, '29', pos, g, '2026-10-17')
+    expect(ajout.sources).toEqual(['https://exemple.fr/', g])
+  })
+
+  it('CA1 : sans contact, la fiche n’en a pas', () => {
+    const { candidat, ajout } = ajoutDeLecture(lecture, '29', pos, undefined, '2026-10-17')
+    expect(candidat).toBe('sirene:1')
+    expect('contact' in ajout.fiche).toBe(false)
   })
 })

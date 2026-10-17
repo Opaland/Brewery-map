@@ -82,6 +82,12 @@ export const ajoutSchema = z
   .refine((a) => brasserieSchema.safeParse({ ...a.fiche, verifieLe: a.verifieLe }).success, {
     message: 'la fiche ajoutée ne passe pas le schéma d’une brasserie',
   })
+  // Même règle que pour une proposition (S261) : le contact cite une page lue, ce jour-là.
+  .superRefine((a, ctx) => {
+    for (const message of blocsMalPrisDesSources(blocsDates(a.fiche.contact, a.fiche.horaires), a.sources, a.verifieLe)) {
+      ctx.addIssue({ code: 'custom', message })
+    }
+  })
 
 export type Ajout = z.infer<typeof ajoutSchema>
 
@@ -105,10 +111,27 @@ function preuvesCoherentes(p: Proposition): string[] {
   if (p.changements.coordPrecision === 'address' && !p.sources.some((u) => u.startsWith(GEOCODEUR))) {
     erreurs.push('une position « address » cite le géocodeur parmi ses sources')
   }
-  const blocs = [...(contact === undefined ? [] : [{ nom: 'contact', b: contact }]), ...(horaires ?? []).map((b, i) => ({ nom: `horaires.${String(i)}`, b }))]
+  erreurs.push(...blocsMalPrisDesSources(blocsDates(contact, horaires), p.sources, p.verifieLe))
+  return erreurs
+}
+
+type BlocDate = { source: string; verifieLe: string }
+
+function blocsDates(contact: BlocDate | undefined, horaires: readonly BlocDate[] | undefined): { nom: string; b: BlocDate }[] {
+  return [...(contact === undefined ? [] : [{ nom: 'contact', b: contact }]), ...(horaires ?? []).map((b, i) => ({ nom: `horaires.${String(i)}`, b }))]
+}
+
+/**
+ * La garde commune aux propositions et aux fiches nouvelles (S261, CLAUDE.md
+ * §4) : chaque bloc daté (contact, horaires) cite une des sources lues, et
+ * porte la date de la lecture.
+ */
+function blocsMalPrisDesSources(blocs: readonly { nom: string; b: BlocDate }[], sources: readonly string[], verifieLe: string): string[] {
+  const lues = new Set(sources)
+  const erreurs: string[] = []
   for (const { nom, b } of blocs) {
     if (!lues.has(b.source)) erreurs.push(`${nom}.source n’est pas une des sources lues`)
-    if (b.verifieLe !== p.verifieLe) erreurs.push(`${nom}.verifieLe diffère de la date de la proposition`)
+    if (b.verifieLe !== verifieLe) erreurs.push(`${nom}.verifieLe diffère de la date de la lecture`)
   }
   return erreurs
 }
@@ -426,6 +449,59 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const corps = [premier, ...reste].join(sep)
   const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
   return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+}
+
+/**
+ * Les hôtes partagés par des milliers de pages : y être ne dit pas qu'on est
+ * sur le site d'une brasserie (revue adverse S261).
+ */
+const PLATEFORMES = new Set(['facebook.com', 'instagram.com', 'untappd.com', 'linktr.ee', 'sites.google.com'])
+
+type ChampContact = 'tel' | 'site' | 'untappd'
+
+/**
+ * Ce que la page du contact montre de lui (S261).
+ * - `tel` : par `numeroSurLaPage`.
+ * - `site` : la page lue est sur ce site (même hôte ; sur une plateforme
+ *   partagée, même adresse ou en dessous), ou la page cite une adresse de
+ *   cet hôte exact — pas un hôte qui le contient, pas un paramètre.
+ * - `untappd` : la page cite ce lien, ou une page sous lui (`…/beer`) ; ou
+ *   la page lue est ce lien. La racine d'Untappd ne vaut rien.
+ * `absents` : ce qui manque. `parLaPageMeme` : ce qui ne vaut que parce que
+ * c'est la page lue, à dire comme tel (sinon « trouvé » laisserait croire
+ * à une lecture).
+ */
+export function contactSurLaPage(
+  contact: { tel?: string; site?: string; untappd?: string; source: string },
+  page: string,
+): { absents: ChampContact[]; parLaPageMeme: ChampContact[] } {
+  const hote = (u: URL) => u.hostname.toLowerCase().replace(/^www\./, '')
+  const chemin = (u: URL) => u.pathname.toLowerCase().replace(/\/+$/, '')
+  const dessous = (a: URL, b: URL) => hote(a) === hote(b) && (chemin(a) === chemin(b) || chemin(a).startsWith(`${chemin(b)}/`))
+  const source = new URL(contact.source)
+  const cites = [...page.matchAll(/https?:\/\/[^\s"'<>()]+/gi)].flatMap((m) => {
+    try {
+      return [new URL(m[0].replace(/&amp;/g, '&'))]
+    } catch {
+      return []
+    }
+  })
+  const absents: ChampContact[] = []
+  const parLaPageMeme: ChampContact[] = []
+  if (contact.tel !== undefined && !numeroSurLaPage(contact.tel, page)) absents.push('tel')
+  if (contact.site !== undefined) {
+    const site = new URL(contact.site)
+    const surLeSite = PLATEFORMES.has(hote(site)) ? dessous(source, site) : hote(source) === hote(site)
+    if (surLeSite) parLaPageMeme.push('site')
+    else if (!cites.some((u) => (PLATEFORMES.has(hote(site)) ? dessous(u, site) : hote(u) === hote(site)))) absents.push('site')
+  }
+  if (contact.untappd !== undefined) {
+    const lien = new URL(contact.untappd)
+    if (chemin(lien) === '') absents.push('untappd')
+    else if (dessous(source, lien) && chemin(source) === chemin(lien)) parLaPageMeme.push('untappd')
+    else if (!cites.some((u) => dessous(u, lien))) absents.push('untappd')
+  }
+  return { absents, parLaPageMeme }
 }
 
 const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }

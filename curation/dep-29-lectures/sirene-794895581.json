@@ -14,7 +14,12 @@
    "addr": "Lestevennok, 29260 Plouider",
    "src": "https://www.distribilh.bzh/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.distribilh.bzh/",
+    "source": "https://www.distribilh.bzh/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
