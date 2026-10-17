@@ -1,0 +1,574 @@
+[
+ {
+  "cle": "sirene:985241421",
+  "nom": "L'ECUME DES FALAISES",
+  "communes": [
+   "DONVILLE-LES-BAINS",
+   "JULLOUVILLE"
+  ],
+  "departement": "50",
+  "adresses": [
+   "RUE DE LA RAFALE 50350 DONVILLE-LES-BAINS",
+   "16 AVENUE DU GENERAL EISENHOWER 50610 JULLOUVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "985241421",
+  "sirets": [
+   "98524142100017",
+   "98524142100025"
+  ],
+  "osm": [],
+  "lat": 48.854459031,
+  "lon": -1.580994551,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "MICRO BRASSERIE - LES TRAVAILLEURS",
+  "communes": [
+   "BRETTEVILLE-SUR-AY"
+  ],
+  "departement": "50",
+  "adresses": [
+   "10 RUE TRAVERSIERE 50430 BRETTEVILLE-SUR-AY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "GORGES"
+  ],
+  "departement": "50",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "TIREPIED-SUR-SEE"
+  ],
+  "departement": "50",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "CHERBOURG-EN-COTENTIN"
+  ],
+  "departement": "50",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:844927913",
+  "nom": "LES TRAVAILLEURS DE LA MER",
+  "communes": [
+   "LES PIEUX"
+  ],
+  "departement": "50",
+  "adresses": [
+   "23 ROUTE DE CHERBOURG 50340 LES PIEUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "844927913",
+  "sirets": [
+   "84492791300013"
+  ],
+  "osm": [
+   "way/100569088"
+  ],
+  "lat": 49.515533873,
+  "lon": -1.801340122,
+  "site": "https://lestravailleursdelamer.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852728062",
+  "nom": "BRASSERIE DE L'ENCLOS",
+  "communes": [
+   "AVRANCHES"
+  ],
+  "departement": "50",
+  "adresses": [
+   "AMERICAINE 26 T RUE 4EME DIV BLIND AMERICAINE 50300 AVRANCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852728062",
+  "sirets": [
+   "85272806200021"
+  ],
+  "osm": [],
+  "lat": 48.680330413,
+  "lon": -1.353517974,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882377708",
+  "nom": "CAPTAIN JAMES ET SES MOUSSES",
+  "communes": [
+   "AGON-COUTAINVILLE"
+  ],
+  "departement": "50",
+  "adresses": [
+   "26 AVENUE DU PASSOUS 50230 AGON-COUTAINVILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "882377708",
+  "sirets": [
+   "88237770800038"
+  ],
+  "osm": [
+   "node/10286772123"
+  ],
+  "lat": 49.03791201,
+  "lon": -1.594138481,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938622909",
+  "nom": "BRASSERIE NORMANDE",
+  "communes": [
+   "AVRANCHES"
+  ],
+  "departement": "50",
+  "adresses": [
+   "7 AVENUE DE LA GARE 50300 AVRANCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938622909",
+  "sirets": [
+   "93862290900019"
+  ],
+  "osm": [],
+  "lat": 48.6904946848649,
+  "lon": -1.36892373519047,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833567571",
+  "nom": "BRASSERIE PINTE DE SAIRE",
+  "communes": [
+   "SAINT-VAAST-LA-HOUGUE"
+  ],
+  "departement": "50",
+  "adresses": [
+   "10 ZA DU PONT DES BERNES 50550 SAINT-VAAST-LA-HOUGUE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833567571",
+  "sirets": [
+   "83356757100041"
+  ],
+  "osm": [],
+  "lat": 49.592593625,
+  "lon": -1.285636315,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "BRETTEVILLE"
+  ],
+  "departement": "50",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:852448521",
+  "nom": "LA LOUPBAR BRASSERIE",
+  "communes": [
+   "MOYON VILLAGES"
+  ],
+  "departement": "50",
+  "adresses": [
+   "Z.A. DE LA BUSNOUVIERE - MOYON-VILLAGE 830 RTE ROUTE DE L'AUBANNERIE - HALL 1 50420 MOYON VILLAGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852448521",
+  "sirets": [
+   "85244852100017"
+  ],
+  "osm": [],
+  "lat": 49.0018124,
+  "lon": -1.107590262,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:103210282",
+  "nom": "BRASSERIE DE L'IMPASSE",
+  "communes": [
+   "LA HAYE"
+  ],
+  "departement": "50",
+  "adresses": [
+   "24 RUE DE LA CONCORDE 50250 LA HAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "103210282",
+  "sirets": [
+   "10321028200010"
+  ],
+  "osm": [],
+  "lat": 49.2946494662961,
+  "lon": -1.54775380353988,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:441551389",
+  "nom": "BRASSERIE DE LA BAIE",
+  "communes": [
+   "PONTORSON"
+  ],
+  "departement": "50",
+  "adresses": [
+   "ARDEVON 5 LA RENCONTRE 50170 PONTORSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "441551389",
+  "sirets": [
+   "44155138900022"
+  ],
+  "osm": [],
+  "lat": 48.600769509,
+  "lon": -1.473444931,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847925666",
+  "nom": "LA MOUSSETTE",
+  "communes": [
+   "HAUTEVILLE-SUR-MER"
+  ],
+  "departement": "50",
+  "adresses": [
+   "21 RUE DE LA MER 50590 HAUTEVILLE-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847925666",
+  "sirets": [
+   "84792566600038"
+  ],
+  "osm": [],
+  "lat": 48.97002999,
+  "lon": -1.545074968,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897489548",
+  "nom": "BRASSERIE FEE D'ORGE",
+  "communes": [
+   "BREHAL"
+  ],
+  "departement": "50",
+  "adresses": [
+   "RUE DU CLOS DES MARES 50290 BREHAL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "897489548",
+  "sirets": [
+   "89748954800015"
+  ],
+  "osm": [
+   "node/10211767570"
+  ],
+  "lat": 48.90288396,
+  "lon": -1.502805031,
+  "site": "https://feedorge.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931058010",
+  "nom": "BRASSERIE BIFROST",
+  "communes": [
+   "SAINT-LO"
+  ],
+  "departement": "50",
+  "adresses": [
+   "30 RUE MADELEINE DESDEVISES 50000 SAINT-LO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931058010",
+  "sirets": [
+   "93105801000014"
+  ],
+  "osm": [],
+  "lat": 49.1049559798612,
+  "lon": -1.05750599041953,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914926027",
+  "nom": "DODIEDAD",
+  "communes": [
+   "PONTORSON"
+  ],
+  "departement": "50",
+  "adresses": [
+   "4 VERDUN - VESSEY 50170 PONTORSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914926027",
+  "sirets": [
+   "91492602700022"
+  ],
+  "osm": [],
+  "lat": 48.5310170425641,
+  "lon": -1.4398569817293125,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "L'EMBRASSERIE QUERQUEVILLAISE",
+  "communes": [
+   "CHERBOURG-EN-COTENTIN"
+  ],
+  "departement": "50",
+  "adresses": [
+   "QUERQUEVILLE 67 B RUE D AMFREVILLE 50100 CHERBOURG-EN-COTENTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923770598",
+  "nom": "BRASSEURS FLOTTEURS",
+  "communes": [
+   "CHERBOURG-EN-COTENTIN"
+  ],
+  "departement": "50",
+  "adresses": [
+   "191 RUE GAMBETTA 50100 CHERBOURG-EN-COTENTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923770598",
+  "sirets": [
+   "92377059800012"
+  ],
+  "osm": [],
+  "lat": 49.637977398,
+  "lon": -1.626088646,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818774408",
+  "nom": "BRASSERIE COTENTINE",
+  "communes": [
+   "BARNEVILLE-CARTERET"
+  ],
+  "departement": "50",
+  "adresses": [
+   "19 ROUTE DU PONT ROSE 50270 BARNEVILLE-CARTERET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818774408",
+  "sirets": [
+   "81877440800020"
+  ],
+  "osm": [],
+  "lat": 49.384760408,
+  "lon": -1.754288999,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11172791794",
+  "nom": "Le clos d'Urville (cidredie)",
+  "communes": [
+   "Regnéville-sur-Mer"
+  ],
+  "departement": "50",
+  "adresses": [
+   "2 Route de la Campagnette, 50590 Regnéville-sur-Mer"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11172791794"
+  ],
+  "lat": 49.02485,
+  "lon": -1.52294,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4690454089",
+  "nom": "Mobsbys Brasserie Artisanale",
+  "communes": [
+   "Gathemo"
+  ],
+  "departement": "50",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4690454089"
+  ],
+  "lat": 48.78892,
+  "lon": -0.93944,
+  "site": "https://www.mobsbys.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4690460889",
+  "nom": "Brasserie de la Baie",
+  "communes": [
+   "Huisnes-sur-Mer"
+  ],
+  "departement": "50",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4690460889"
+  ],
+  "lat": 48.60058,
+  "lon": -1.47374,
+  "site": "http://www.brasseriedelabaie.com",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE LA BAIE"
+ },
+ {
+  "cle": "node/8984964330",
+  "nom": "The Local Beer",
+  "communes": [
+   "Sainte-Mère-Église"
+  ],
+  "departement": "50",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8984964330"
+  ],
+  "lat": 49.40794,
+  "lon": -1.31724,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9504295805",
+  "nom": "La Renarde qui Brasse",
+  "communes": [
+   "La Feuillie"
+  ],
+  "departement": "50",
+  "adresses": [
+   "38 Rue du Manoir"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9504295805"
+  ],
+  "lat": 49.16129,
+  "lon": -1.47378,
+  "statut": "nouveau"
+ }
+]
