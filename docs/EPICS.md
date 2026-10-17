@@ -28,7 +28,7 @@ Que la première minute soit claire et que la liste soit tout de suite là.
 |---|---|
 | S29 | Filtres secondaires repliés, liste avant la carte, bouton « Carte » dans la barre du compte |
 | S31 | Restes de S27 : favori fermé dit, tournée qui l'écarte le dit, lien partagé qui laisse son nom, compteurs des départements avec les filtres |
-| S32 | Fiche en feuille basculante sur téléphone (dialogue accessible, Échap, focus rendu) |
+| S32 | Aperçu d’une brasserie touchée sur la carte, sur téléphone (remplace la feuille basculante, refusée par une décision écrite : voir `docs/stories/S32.md`) |
 | S33 | Mouvement : mousse dans l'en-tête, retours au toucher ; rien sous « moins d'animations » |
 | S46 | Écran d'accueil d'une phrase à la première visite ; raccourcis de l'application installée |
 | S74 | Carte plein écran sur téléphone, avec retour à la liste |

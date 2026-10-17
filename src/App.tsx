@@ -326,7 +326,13 @@ export function App({
   const tournee = useMemo(() => {
     const etapes = toutes.filter((b) => ensembleFavoris.has(b.n) && b.fermee === undefined)
     const ordre = ordonnerTournee(etapes, origine.point)
-    return { etapes: ordre.map((b) => b.n), lien: lienTournee(ordre), total: etapes.length }
+    return {
+      etapes: ordre.map((b) => b.n),
+      // Pour l'image à partager (S34) : nom et commune, rien du départ.
+      image: ordre.map((b) => ({ nom: b.n, commune: b.c, departement: b.d })),
+      lien: lienTournee(ordre),
+      total: etapes.length,
+    }
   }, [toutes, ensembleFavoris, origine])
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []

@@ -1731,3 +1731,31 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
      liste » alors que son nom le retrouve : reformulée ;
    - **(basse)** le test du type ne prouvait que l'exclusion : une
      brasserie d'essai prouve l'inclusion.
+
+## S32 — Aperçu sur la carte *(17/10)*
+
+1. **Pourquoi.** EPICS.md prévoyait une fiche en feuille basculante. Une
+   décision écrite dans `Liste.tsx` la refuse : « pas de fenêtre
+   par-dessus, la liste reste le fil ». Le vrai besoin vient de S29 : la
+   liste passant avant la carte, toucher un marqueur ramenait la page à la
+   ligne, des milliers de pixels plus haut (`docs/stories/S32.md`).
+2. **Fait.**
+   - Sous 900 px, un marqueur touché montre un aperçu dans la carte : nom,
+     lieu, distance, catégorie, « Voir la fiche » et « Fermer ». Le focus
+     va sur l'aperçu ; Échap le ferme et rend le focus au marqueur.
+   - Sur ordinateur, rien ne change.
+   - Un groupe touché au zoom maximal va droit à la liste.
+3. **Tests vus rouges** : l'aperçu dans la carte à 320 px et 200 % de texte
+   (sans hauteur maximale), et l'aperçu retiré quand la recherche ne le
+   garde plus.
+4. **Revue adverse** (40 k) :
+   - **(moyenne)** à 320 px et 200 %, l'aperçu (371 px) sortait de la carte
+     (288 px) : il a désormais une hauteur maximale et défile en lui-même ;
+   - **(basse)** l'aperçu restait en mémoire quand la recherche ne le
+     gardait plus, et revenait seul ensuite : il est retiré ;
+   - **(basse)** un groupe au zoom maximal ouvrait un aperçu sans marqueur,
+     et « Fermer » perdait le focus : le groupe va à la liste, et le focus
+     revient à la carte faute de marqueur.
+   - L'agent de revue a contourné le contrôle du `dist/` périmé pour lancer
+     ses sondes. Ses mesures portaient sur `Carte.tsx`, inchangé depuis le
+     build. Noté ici ; c'est contraire au §6quater.

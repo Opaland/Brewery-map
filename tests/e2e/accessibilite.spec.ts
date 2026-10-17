@@ -323,9 +323,34 @@ test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page })
   const nom = await seul.getAttribute('data-nom')
   await seul.focus()
   await page.keyboard.press('Enter')
+  // Sur téléphone, l'aperçu prend le focus (S32) ; Échap le ferme et rend
+  // le focus au marqueur ; « Voir la fiche » le porte sur la ligne.
+  await expect(page.locator('#apercu-titre')).toBeFocused()
+  await page.keyboard.press('Escape')
+  await expect(page.getByTestId('apercu-carte')).toHaveCount(0)
+  await expect(seul).toBeFocused()
+  await page.keyboard.press('Enter')
+  await page.getByTestId('apercu-voir-fiche').click()
   const ligneOuverte = page.locator(`.ligne[data-nom="${String(nom)}"]`)
   await expect(ligneOuverte).toHaveAttribute('aria-expanded', 'true')
   await expect(ligneOuverte).toBeFocused()
+})
+
+test.describe('ordinateur : la liste est à côté, pas d’aperçu (S32)', () => {
+  test.use({ viewport: { width: 1280, height: 800 }, isMobile: false, hasTouch: false })
+  test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page }) => {
+    await ouvrir(page)
+    await versLaCarte(page)
+    const seul = page.locator('.maplibregl-marker.marqueur:not(.marqueur-groupe)').first()
+    await expect(seul).toBeVisible()
+    const nom = await seul.getAttribute('data-nom')
+    await seul.focus()
+    await page.keyboard.press('Enter')
+    await expect(page.getByTestId('apercu-carte')).toHaveCount(0)
+    const ligneOuverte = page.locator(`.ligne[data-nom="${String(nom)}"]`)
+    await expect(ligneOuverte).toHaveAttribute('aria-expanded', 'true')
+    await expect(ligneOuverte).toBeFocused()
+  })
 })
 
 test('la carte parle français ; la distance dit son unité', async ({ page }) => {

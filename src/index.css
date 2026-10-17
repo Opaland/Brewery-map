@@ -883,3 +883,32 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   color: var(--encre);
 }
 .evitement:focus { position: static; display: inline-block; margin-bottom: var(--espace-4); }
+
+/* S32 : l'aperçu d'une brasserie touchée sur la carte, sur téléphone.
+   Posé au-dessus du bas de la carte, sans couvrir l'attribution
+   d'OpenStreetMap (ODbL), qui reste lisible dessous. */
+.carte-zone { position: relative; }
+.apercu-carte {
+  position: absolute;
+  left: var(--espace-4);
+  right: var(--espace-4);
+  bottom: 28px;
+  z-index: 3;
+  padding: var(--espace-6) var(--espace-7);
+  background: var(--blanc-carte);
+  color: var(--encre);
+  border-radius: var(--rayon-lg);
+  box-shadow: var(--ombre);
+  /* Jamais plus haut que la carte : à 320 px et 200 % de texte, il en
+     sortait par le haut (371 px pour 288 ; revue adverse S32). Il défile
+     alors en lui-même. */
+  max-height: calc(100% - 36px);
+  overflow-y: auto;
+}
+.apercu-carte h3 { margin: 0; font-family: var(--font-titre); font-size: 1.25rem; line-height: 1.2; }
+.apercu-carte p { margin: var(--espace-2) 0 0; }
+.apercu-carte .depart-actions { margin-top: var(--espace-4); }
+@media (prefers-reduced-motion: no-preference) {
+  .apercu-carte { animation: apercu-entree 160ms ease-out; }
+}
+@keyframes apercu-entree { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }

@@ -199,6 +199,7 @@ test.describe('la carte (marqueurs groupés)', () => {
     await expect(groupe).toHaveText('2')
     await expect(page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')).toHaveCount(0)
     // Zoomer ne les sépare pas : le clic choisit la première, la liste montre l'autre.
+    // Un groupe va droit à la liste, même sur téléphone (revue adverse S32).
     await groupe.click()
     await expect(lignes(page).getByRole('button', { expanded: true })).toHaveCount(1)
   })
@@ -210,6 +211,9 @@ test.describe('la carte (marqueurs groupés)', () => {
     const point = page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')
     await expect(point).toHaveCount(1)
     await point.click()
+    await expect(page.getByTestId('apercu-carte')).toContainText("Bulles d'Orge")
+    await expect(point).toHaveAttribute('aria-pressed', 'true')
+    await page.getByTestId('apercu-voir-fiche').click()
     await expect(lignes(page).getByRole('button', { name: /Bulles d'Orge/ })).toHaveAttribute(
       'aria-expanded',
       'true',

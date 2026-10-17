@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import type { EtapeImage } from './core/image-tournee'
+import { ImageTournee } from './ImageTournee'
 
 interface Props {
   /** Les favoris encore présents dans les données. */
@@ -12,7 +14,7 @@ interface Props {
   stockageDisponible: boolean
   onEffacer: () => void
   /** Ma tournée (S27) : les étapes dans l'ordre, et le lien qui les ouvre. */
-  tournee?: { etapes: readonly string[]; lien: string; total: number }
+  tournee?: { etapes: readonly string[]; image: readonly EtapeImage[]; lien: string; total: number }
 }
 
 /**
@@ -66,10 +68,15 @@ export function MesFavoris({
           <a className="bouton-lien" href={tournee.lien} target="_blank" rel="noopener noreferrer" data-testid="tournee-lien">
             Ouvrir la tournée dans Google Maps
           </a>
+          {/* L'image de la tournée (S34), composée dans ce téléphone. */}
+          <div className="depart-actions">
+            <ImageTournee etapes={tournee.image} />
+          </div>
           <p className="fiche-aide">
             L’ordre se calcule dans ce téléphone, de proche en proche depuis votre départ. Le
             lien ne contient que les brasseries ; Google Maps part de votre position s’il
-            y a accès. Vérifiez avant de partir que chacune vous accueille.
+            y a accès. Vérifiez avant de partir que chacune vous accueille. L’image ne
+            porte que les étapes et leur ordre, jamais votre départ.
           </p>
         </div>
       )}
