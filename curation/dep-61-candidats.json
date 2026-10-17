@@ -1,0 +1,247 @@
+[
+ {
+  "cle": "sirene:818942682",
+  "nom": "CHATEAU DE LA BIERE",
+  "communes": [
+   "LONLAY-L'ABBAYE"
+  ],
+  "departement": "61",
+  "adresses": [
+   "916 CHEMIN DE LA COUVRIE 61700 LONLAY-L'ABBAYE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818942682",
+  "sirets": [
+   "81894268200019"
+  ],
+  "osm": [
+   "way/473969755"
+  ],
+  "lat": 48.6261775694425,
+  "lon": -0.715022009576435,
+  "site": "https://chateau-de-la-biere.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899912091",
+  "nom": "BRASSERIE DES FORGES",
+  "communes": [
+   "JUVIGNY VAL D'ANDAINE"
+  ],
+  "departement": "61",
+  "adresses": [
+   "SEPT FORGE LA VALLEE 61140 JUVIGNY VAL D'ANDAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899912091",
+  "sirets": [
+   "89991209100019"
+  ],
+  "osm": [],
+  "lat": 48.487362571,
+  "lon": -0.539379557,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "SAINT-FRAIMBAULT"
+  ],
+  "departement": "61",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:820950889",
+  "nom": "LA VERTUEUSE SAS",
+  "communes": [
+   "LA CHAPELLE-MONTLIGEON"
+  ],
+  "departement": "61",
+  "adresses": [
+   "ATELIERS BUGUET 26 RUE PRINCIPALE 61400 LA CHAPELLE-MONTLIGEON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820950889",
+  "sirets": [
+   "82095088900023"
+  ],
+  "osm": [],
+  "lat": 48.482700683,
+  "lon": 0.6567885732,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "ROUPERROUX"
+  ],
+  "departement": "61",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:909683955",
+  "nom": "GLOBE BREWER",
+  "communes": [
+   "SAINT-LANGIS-LES-MORTAGNE"
+  ],
+  "departement": "61",
+  "adresses": [
+   "76 RUE DU FAUBOURG SAINT-ELOI 61400 SAINT-LANGIS-LES-MORTAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909683955",
+  "sirets": [
+   "90968395500019"
+  ],
+  "osm": [],
+  "lat": 48.524520025,
+  "lon": 0.5376179498,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833701022",
+  "nom": "BRASSERIE DU PERCHE",
+  "communes": [
+   "L'HOME-CHAMONDOT"
+  ],
+  "departement": "61",
+  "adresses": [
+   "LE MOULIN DE BROTZ 61290 L'HOME-CHAMONDOT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "833701022",
+  "sirets": [
+   "83370102200018"
+  ],
+  "osm": [
+   "node/14206102015"
+  ],
+  "lat": 48.587277536,
+  "lon": 0.7550418503,
+  "site": "http://brasserieduperche.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901347278",
+  "nom": "RONDEBULLE",
+  "communes": [
+   "ALENCON"
+  ],
+  "departement": "61",
+  "adresses": [
+   "15 RUE DU BERCAIL 61000 ALENCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901347278",
+  "sirets": [
+   "90134727800011"
+  ],
+  "osm": [],
+  "lat": 48.430174393,
+  "lon": 0.0879082984,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:492847959",
+  "nom": "BASSE NORMANDIE BI.R",
+  "communes": [
+   "LE MENIL-BERARD"
+  ],
+  "departement": "61",
+  "adresses": [
+   "LE BOURG 61270 LE MENIL-BERARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "492847959",
+  "sirets": [
+   "49284795900011"
+  ],
+  "osm": [],
+  "lat": 48.708431924,
+  "lon": 0.5119003209,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10015287748",
+  "nom": "Brasserie de l’arbre",
+  "communes": [
+   "Bagnoles de l'Orne Normandie"
+  ],
+  "departement": "61",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10015287748"
+  ],
+  "lat": 48.55495,
+  "lon": -0.42379,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12296090080",
+  "nom": "Le Bercail",
+  "communes": [
+   "Alençon"
+  ],
+  "departement": "61",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12296090080"
+  ],
+  "lat": 48.43021,
+  "lon": 0.08812,
+  "statut": "nouveau"
+ }
+]
