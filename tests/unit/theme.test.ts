@@ -46,3 +46,22 @@ b{color:blue}`
     expect(() => themeAuChoix(`@media (prefers-color-scheme: dark) { @supports (x: y) { a { b: c } } }`)).toThrow()
   })
 })
+
+describe('le parseur ne fabrique rien de faux (revue adverse S45)', () => {
+  it('les virgules de :is() restent dans leur sélecteur', () => {
+    const sortie = themeAuChoix(`@media (prefers-color-scheme: dark) {
+  .a:is(.b, .c) { color: red; }
+}`)
+    expect(sortie).toContain(`:root[data-theme='sombre'] .a:is(.b, .c) { color: red; }`)
+  })
+
+  it('« :root » ailleurs qu’en tête, une liste de conditions ou « not » font échouer', () => {
+    expect(() => themeAuChoix(`@media (prefers-color-scheme: dark) { html :root .x { a: b } }`)).toThrow()
+    expect(() => themeAuChoix(`@media screen and (prefers-color-scheme: dark), print { a { b: c } }`)).toThrow()
+    expect(() => themeAuChoix(`@media not all and (prefers-color-scheme: dark) { a { b: c } }`)).toThrow()
+  })
+
+  it('un « @media » dans un commentaire n’est pas lu', () => {
+    expect(themeAuChoix(`/* @media (prefers-color-scheme: dark) { */ a { b: c }`)).toBe(' a { b: c }')
+  })
+})

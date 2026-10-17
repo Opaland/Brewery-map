@@ -1965,3 +1965,28 @@ possible est inférieur à 2 ko. Pas de changement (`docs/stories/S43.md`).
    - **(basse)** une personne qui a encore l'ancien service worker voit
      « communes de départ » dans le pied de page avant l'activation du
      nouveau : noté au BACKLOG.
+
+## S45 — Thème clair, sombre ou comme le téléphone *(17/10)*
+
+1. **Fait** (`docs/stories/S45.md`) :
+   - « Apparence » dans le pied de page, gardée avec les réglages, remise à
+     « comme le téléphone » par « tout effacer » ;
+   - `build/theme.ts`, un plugin Vite, tire des blocs
+     `prefers-color-scheme: dark` les règles du thème forcé : une seule
+     source de couleurs ;
+   - le thème est posé avant le premier rendu par `public/theme-precoce.js`
+     (un fichier, la CSP refusant les scripts en ligne), à partir d'un
+     miroir dans `localStorage`.
+2. **Tests vus rouges** : sans le plugin, les deux tests de couleur ; sans
+   le script du `<head>`, le thème avant le rendu (code de l'application
+   bloqué).
+3. **Revue adverse** (49 k) :
+   - **(moyenne)** le thème choisi ne venait qu'après IndexedDB, d'où un
+     éclair du thème du système : corrigé ;
+   - **(moyenne)** des tests trop faibles : la couleur exacte et « tout
+     effacer » sont maintenant vérifiés ;
+   - **(latent)** le parseur maltraitait `:is(.a, .b)`, `:root` en milieu de
+     sélecteur, les conditions à virgule ou avec `not`, et un `@media` en
+     commentaire. Il les gère, ou fait échouer le build (tests unitaires) ;
+   - **sans régression** en sombre automatique : spécificités vérifiées sur
+     le CSS émis.

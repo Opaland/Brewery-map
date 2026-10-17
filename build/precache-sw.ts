@@ -31,6 +31,7 @@ export function precacheServiceWorker(): Plugin {
         './icon-192.png',
         './icon-512.png',
         './icon-maskable-512.png',
+        './theme-precoce.js',
         // Les communes de France, gardées d'avance (S42) : 469 ko compressé,
         // une fois par version. Sans elles, chercher une commune de départ
         // hors ligne échouait si l'on n'avait jamais cherché en ligne.

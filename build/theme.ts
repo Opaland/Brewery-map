@@ -16,11 +16,31 @@ import type { Plugin } from 'vite'
  */
 const SOMBRE = /\(prefers-color-scheme:\s*dark\)/
 
+/** Les virgules de premier niveau seulement : celles de `:is(.a, .b)` restent. */
+function decouper(selecteurs: string): string[] {
+  const parts: string[] = []
+  let profondeur = 0
+  let courant = ''
+  for (const c of selecteurs) {
+    if (c === '(') profondeur++
+    if (c === ')') profondeur--
+    if (c === ',' && profondeur === 0) {
+      parts.push(courant.trim())
+      courant = ''
+    } else courant += c
+  }
+  parts.push(courant.trim())
+  return parts
+}
+
 function prefixer(selecteurs: string, prefixe: string): string {
-  return selecteurs
-    .split(',')
-    .map((s) => s.trim())
-    .map((s) => (s === ':root' ? prefixe : s.startsWith(':root') ? `${prefixe}${s.slice(5)}` : `${prefixe} ${s}`))
+  return decouper(selecteurs)
+    .map((s) => {
+      if (s === ':root') return prefixe
+      if (/^:root[.:[]/.test(s) || s.startsWith(':root ')) return `${prefixe}${s.slice(5)}`
+      if (s.includes(':root')) throw new Error(`theme : « :root » ailleurs qu'en tête : ${s}`)
+      return `${prefixe} ${s}`
+    })
     .join(', ')
 }
 
@@ -39,7 +59,9 @@ function regles(corps: string): { selecteurs: string; declarations: string }[] {
   return trouvees
 }
 
-export function themeAuChoix(css: string): string {
+export function themeAuChoix(source: string): string {
+  // Sans commentaires : un « @media » écrit dans un commentaire était lu.
+  const css = source.replace(/\/\*[\s\S]*?\*\//g, '')
   let sortie = ''
   let i = 0
   while (i < css.length) {
@@ -59,6 +81,11 @@ export function themeAuChoix(css: string): string {
       sortie += css.slice(debut, fin + 1)
       i = fin + 1
       continue
+    }
+    // Seule la forme « [condition and] (prefers-color-scheme: dark) [and …] »
+    // est comprise : une liste à virgules ou un « not » ferait un double faux.
+    if (condition.includes(',') || /\bnot\b|\bonly\b/.test(condition)) {
+      throw new Error(`theme : condition sombre non comprise : @media ${condition}`)
     }
     const corps = css.slice(accolade + 1, fin)
     const r = regles(corps)
