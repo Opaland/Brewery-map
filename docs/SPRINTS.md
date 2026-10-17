@@ -2160,3 +2160,10 @@ Story d'abord (`docs/stories/S230.md`).
 - `.github/CODEOWNERS` : Cédric pour `data/` et `curation/accords/`.
   **À activer par lui** : protection de `main` exigeant la revue des
   propriétaires de code.
+
+## S233 — Le JavaScript de `public/` linté *(17/10)*
+
+Story d'abord (`docs/stories/S233.md`). `public/sw.js` (globales du service
+worker) et `public/theme-precoce.js` (navigateur) passent au lint. Une
+trouvaille : une variable d'exception inutilisée, retirée (`catch {}`). Vu
+rouge : une variable non déclarée ajoutée à `sw.js` fait échouer le lint.

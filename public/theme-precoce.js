@@ -6,6 +6,6 @@
 try {
   var t = localStorage.getItem('mousse-de-poche-theme')
   if (t === 'clair' || t === 'sombre') document.documentElement.dataset.theme = t
-} catch (e) {
+} catch {
   // Stockage refusé : le thème du système, puis celui gardé, au rendu.
 }
