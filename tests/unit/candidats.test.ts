@@ -4,6 +4,7 @@ import {
   assemblerLot,
   candidatsDuDepartement,
   classerDuDepartement,
+  positionDuGeocodeur,
   prefixePostal,
   publiables,
   type EtablissementSirene,
@@ -250,6 +251,43 @@ describe('assemblerLot, revue adverse S246', () => {
     )
     expect(lot.ajouts?.map((a) => a.fiche.n)).toEqual(['Une'])
     expect(refus.map((r) => r.candidat)).toEqual(['sirene:111', 'sirene:999', 'node/2', 'node/3'])
+  })
+})
+
+describe('positionDuGeocodeur (S248)', () => {
+  // Raté du 17/10 : « 37 rue Louis Blériot, Martin-Église » géocodé à
+  // Bruay-la-Buissière (62). Une position hors du département est refusée.
+  const reponse = (cp: string, type: string, x = 1.15, y = 49.9) => ({
+    features: [{ geometry: { coordinates: [x, y] }, properties: { postcode: cp, type, label: `… ${cp}` } }],
+  })
+
+  it('accepte un numéro de voie dans le département', () => {
+    expect(positionDuGeocodeur(reponse('76200', 'housenumber'), '76')).toEqual({ lat: 49.9, lon: 1.15, precision: 'address' })
+  })
+  it('refuse un résultat d’un autre département', () => {
+    expect(positionDuGeocodeur(reponse('62700', 'housenumber'), '76')).toBeNull()
+  })
+  it('une rue sans numéro n’est pas une position « à l’adresse »', () => {
+    expect(positionDuGeocodeur(reponse('76200', 'street'), '76')).toBeNull()
+  })
+  it('une commune, demandée comme telle, est une position « commune »', () => {
+    expect(positionDuGeocodeur(reponse('76200', 'municipality'), '76', 'commune')).toEqual({ lat: 49.9, lon: 1.15, precision: 'commune' })
+  })
+  it('la Corse : 2A et 2B ont des codes postaux en 20', () => {
+    expect(positionDuGeocodeur(reponse('20000', 'housenumber'), '2A')).not.toBeNull()
+  })
+  it('garde la première réponse qui tombe dans le département (communes homonymes)', () => {
+    const deux = {
+      features: [
+        { geometry: { coordinates: [2.0, 48.6] }, properties: { postcode: '91410', type: 'municipality' } },
+        { geometry: { coordinates: [0.08, 49.33] }, properties: { postcode: '14800', type: 'municipality' } },
+      ],
+    }
+    expect(positionDuGeocodeur(deux, '14', 'commune')).toEqual({ lat: 49.33, lon: 0.08, precision: 'commune' })
+  })
+  it('une réponse vide ou mal formée ne donne rien', () => {
+    expect(positionDuGeocodeur({ features: [] }, '76')).toBeNull()
+    expect(positionDuGeocodeur({}, '76')).toBeNull()
   })
 })
 

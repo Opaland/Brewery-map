@@ -42,9 +42,9 @@ lu sont reprises :
 - n : (vide) → Brasserie Paillette
 - c : (vide) → Saint-Arnoult
 - d : (vide) → 14
-- lat : (vide) → 49.53572
-- lon : (vide) → 0.65978
-- km : (vide) → 527.6
+- lat : (vide) → 49.33065
+- lon : (vide) → 0.08903
+- km : (vide) → 536.5
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
 - note : (vide) → Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.
@@ -77,7 +77,7 @@ Choix du vérificateur : Téléphone de la page en 03 (Oise), sans doute celui d
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/ ; https://data.geopf.fr/geocodage/search?q=4+rue+Andr%C3%A9+Druelle%2C+14130+Le+Breuil-en-Auge&limit=1
+Sources (vérifiée le 2026-10-17) : https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/ ; https://data.geopf.fr/geocodage/search?q=4+rue+Andr%C3%A9+Druelle%2C+14130+Le+Breuil-en-Auge&limit=5
 
 Extrait lu : « Sale to private visitors direct at the brewery »
 
@@ -103,7 +103,7 @@ Choix du vérificateur : Fiche d'office de tourisme seulement. Le site de vente 
 - beers.3.type : (vide) → stout
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.mobsbys.com/contact ; https://data.geopf.fr/geocodage/search?q=2301+route+de+la+Diade%2C+14500+Vire+Normandie&limit=1
+Sources (vérifiée le 2026-10-17) : https://www.mobsbys.com/contact ; https://data.geopf.fr/geocodage/search?q=2301+route+de+la+Diade%2C+14500+Vire+Normandie&limit=5
 
 Extrait lu : « Envie de découvrir la brasserie ? Contactez-nous pour organiser votre visite ou pour commander nos bières. »
 
@@ -132,7 +132,7 @@ Choix du vérificateur : OSM la place à Gathemo (Manche) ; le site donne Vire N
 - beers.6.type : (vide) → blonde
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.biere-lalie.com ; https://data.geopf.fr/geocodage/search?q=400+rue+de+l%27Orne%2C+14570+Saint-R%C3%A9my&limit=1
+Sources (vérifiée le 2026-10-17) : https://www.biere-lalie.com ; https://data.geopf.fr/geocodage/search?q=400+rue+de+l%27Orne%2C+14570+Saint-R%C3%A9my&limit=5
 
 Extrait lu : « BOUTIQUE SUR PLACE Ouverture de la boutique du lundi au vendredi de 9h à 12h30 et de 14h à 18h »
 
@@ -178,7 +178,7 @@ Choix du vérificateur : Styles des bières non lus (page « Les Bières » non 
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.les2terres.fr/ ; https://data.geopf.fr/geocodage/search?q=33+route+de+Trouville%2C+14000+Caen&limit=1
+Sources (vérifiée le 2026-10-17) : https://www.les2terres.fr/ ; https://data.geopf.fr/geocodage/search?q=33+route+de+Trouville%2C+14000+Caen&limit=5
 
 Extrait lu : « LA JJAP 33 Route de Trouville 14000 CAEN »
 
@@ -230,7 +230,7 @@ Choix du vérificateur : Le titre de la page cite Blainville-sur-Orne, le texte 
 - beers.5.type : (vide) → ipa
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://trip-hop.fr ; https://data.geopf.fr/geocodage/search?q=13+quai+des+Remparts%2C+14100+Lisieux&limit=1
+Sources (vérifiée le 2026-10-17) : https://trip-hop.fr ; https://data.geopf.fr/geocodage/search?q=13+quai+des+Remparts%2C+14100+Lisieux&limit=5
 
 Extrait lu : « Notre bar et notre boutique Le Brewpub TRIP-HOP La Boutique TRIP-HOP »
 
@@ -253,7 +253,7 @@ Choix du vérificateur : Bières constantes lues sur le site : La Paz (Blonde Pa
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.explore-calvados.com/?p=33029 ; https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=1
+Sources (vérifiée le 2026-10-17) : https://www.explore-calvados.com/?p=33029 ; https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=5
 
 Extrait lu : « Direct sale on the spot. »
 
@@ -282,4 +282,4 @@ Extrait lu : « brassée dans le Pays d’Auge à Dives-sur-Mer près de Cabourg
 
 Choix du vérificateur : Lien possible avec Brasserie Sagesse (même mobile sur deux fiches) : à éclaircir. Position au centre de la commune.
 
-Empreinte du lot : ea8d49608158
+Empreinte du lot : 83c44ee8a9cc

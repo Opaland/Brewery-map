@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:833701022",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Perche",
+   "c": "L'Home-Chamondot",
+   "d": "61",
+   "lat": 48.60861,
+   "lon": 0.73831,
+   "km": 445.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Site officiel avec rubriques boutique, visite dégustation et libre-service, sans horaires ni adresse lus : catégorie à confirmer.",
+   "addr": "L'Home-Chamondot",
+   "src": "http://brasserieduperche.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://brasserieduperche.com/"
+  ],
+  "extrait": "tirée directement de nos cuves",
+  "choix": "La page « Horaires, menus » n'a pas été trouvée. Position au centre de la commune."
+ }
+}

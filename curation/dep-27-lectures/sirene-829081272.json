@@ -1,0 +1,41 @@
+{
+ "candidat": "sirene:829081272",
+ "ajout": {
+  "fiche": {
+   "n": "Les Deux Amants",
+   "c": "Val-de-Reuil",
+   "d": "27",
+   "lat": 49.24449,
+   "lon": 1.2325,
+   "km": 477,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio ; ni vente sur place ni horaires publiés, catégorie à confirmer.",
+   "addr": "1 voie des Vendaises, 27100 Val-de-Reuil",
+   "src": "https://lesdeuxamants.com/contactez-nous",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "sans-alcool"
+    },
+    {
+     "type": "autre",
+     "libelle": "Triple"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://lesdeuxamants.com/contactez-nous",
+   "https://data.geopf.fr/geocodage/search?q=1+voie+des+Vendaises%2C+27100+Val-de-Reuil&limit=5"
+  ],
+  "extrait": "1 voie des Vendaises 27100 Val-de-Reuil",
+  "choix": "Styles relus sur /nos-bieres : Marcel (Rye IPA), Odile (NEIPA), Lili (sans alcool), Achille (Triple) ; les autres non relus mot pour mot. Téléphone : un mobile (service client), non repris."
+ }
+}

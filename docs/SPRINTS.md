@@ -2463,3 +2463,30 @@ des boutons de zoom. Le test vérifie maintenant trois choses :
 
 Les références visuelles sont refaites par la CI.
 
+## S248 — Orne, Eure, Seine-Maritime : 17 fiches de plus *(17/10)*
+
+Story d'abord (`docs/stories/S248.md`). Il y a 75 candidats, sans aucune
+fuite de personne.
+- Les 57 candidats nommés ont été lus par 7 agents.
+- Les 18 sans nom n'ont pas été lus : aucun des 8 du pilote n'avait été
+  trouvé.
+- Chaque extrait a été relu dans le texte de sa page.
+
+Les lots `dep-61` (3 fiches), `dep-27` (4) et `dep-76` (10) passent
+`controler`.
+
+**Raté trouvé en route, et corrigé** : le géocodeur de l'IGN a placé
+« 37 rue Louis Blériot, Martin-Église » à Bruay-la-Buissière (62). Rien ne
+le refusait, et la position venait d'un script jetable, hors du dépôt.
+- `positionDuGeocodeur` a été écrite test d'abord, et ses deux mutants sont
+  tués. Elle refuse une position hors du département ou sans numéro de
+  voie, et retient la première réponse qui tombe dans le département
+  (communes homonymes).
+- Le géocodage entre dans l'outil (`outils/departement.ts lectures`), et les
+  lectures retenues sont versionnées (`curation/dep-XX-lus.json`).
+- Rejoué sur les lots déjà présentés : la position de Paillette (lot
+  `dep-14`) était celle de Saint-Arnoult en **Seine-Maritime**. Elle est
+  corrigée, et l'empreinte du lot change. Cédric n'avait pas encore décidé.
+
+**Normandie, bilan** : 135 candidats, 36 fiches proposées en 5 lots.
+

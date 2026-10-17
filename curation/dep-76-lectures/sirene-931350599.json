@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:931350599",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Yata",
+   "c": "Lillebonne",
+   "d": "76",
+   "lat": 49.51959,
+   "lon": 0.53493,
+   "km": 531.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de plusieurs styles (blonde, triple, IPA…), d'après Normandie Tourisme ; vente non établie.",
+   "addr": "Lillebonne",
+   "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/"
+  ],
+  "extrait": "We produce different styles of beer",
+  "choix": "Fiche d'office de tourisme seulement. Position au centre de la commune."
+ }
+}

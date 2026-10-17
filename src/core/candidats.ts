@@ -145,6 +145,38 @@ export function prefixePostal(dep: string): string {
   return dep === '2A' || dep === '2B' ? '20' : dep
 }
 
+/**
+ * La position qu'une réponse du géocodeur de l'IGN donne pour une fiche,
+ * ou `null`. Raté du 17/10 (S248) : « 37 rue Louis Blériot, Martin-Église »
+ * est revenu à Bruay-la-Buissière (62), et rien ne le refusait. Une
+ * position hors du département est donc refusée ; « à l'adresse » exige un
+ * numéro de voie (une rue seule n'en est pas une, S247).
+ */
+export function positionDuGeocodeur(
+  reponse: unknown,
+  dep: string,
+  attendu: 'address' | 'commune' = 'address',
+): { lat: number; lon: number; precision: 'address' | 'commune' } | null {
+  type Resultat = { geometry?: { coordinates?: unknown }; properties?: { postcode?: unknown; type?: unknown } }
+  // Le premier résultat qui convient : « Saint-Arnoult » existe dans
+  // plusieurs départements, et le premier rendu n'était pas le bon.
+  const f = ((reponse as { features?: Resultat[] }).features ?? []).find((r) => {
+    const c = r.geometry?.coordinates
+    const cp = r.properties?.postcode
+    return (
+      Array.isArray(c) &&
+      typeof c[0] === 'number' &&
+      typeof c[1] === 'number' &&
+      typeof cp === 'string' &&
+      cp.startsWith(prefixePostal(dep)) &&
+      r.properties?.type === (attendu === 'address' ? 'housenumber' : 'municipality')
+    )
+  })
+  const coord = f?.geometry?.coordinates as [number, number] | undefined
+  if (coord === undefined) return null
+  return { lat: Math.round(coord[1] * 1e5) / 1e5, lon: Math.round(coord[0] * 1e5) / 1e5, precision: attendu }
+}
+
 export type CandidatEnCause = Candidat & {
   statut: CandidatClasse['statut'] | 'nom-a-etablir'
   fiche?: string

@@ -71,7 +71,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://lestravailleursdelamer.com/",
-    "https://data.geopf.fr/geocodage/search?q=23+route+de+Cherbourg%2C+50340+Les+Pieux&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=23+route+de+Cherbourg%2C+50340+Les+Pieux&limit=5"
    ],
    "extrait": "Un espace dédié à la dégustation et à la vente accueille le public.",
    "choix": "Le site écrit aussi « Les Travailleurs de l'Amer » (même adresse ; OSM way/100569088). Blanche : « Brassée avec du froment bio… ». Horaires lus (« Mardi, Mercredi, Vendredi, Samedi : 9h30-13h / 15h – 19h ») sans dire accueil ou vente : non repris en bloc. Un agent avait proposé la catégorie 3, contraire à l'extrait : 1 retenue. Téléphone publié : un mobile, non repris."
@@ -105,7 +105,7 @@
     "c": "Agon-Coutainville",
     "d": "50",
     "lat": 49.03803,
-    "lon": -1.59428,
+    "lon": -1.59427,
     "km": 606.8,
     "cat": 2,
     "conf": "moyenne",
@@ -135,7 +135,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://captain-james.fr",
-    "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=5"
    ],
    "extrait": "De septembre à juin Jeudi, vendredi et samedi: 17H-19H",
    "choix": "Extrait relu sur la page le 17/10. En juillet et août : « Du mardi au samedi: 15H-19H ». Bières lues : la blanche, la blonde, la rousse, la brune, l'IPA."
@@ -182,7 +182,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://en.normandie-tourisme.fr/stores/brasserie-bifrost/",
-    "https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=5"
    ],
    "extrait": "Address 30 rue Madeleine Desdevises 50000 SAINT-LO",
    "choix": "Source d'annuaire seulement. Téléphone de l'annuaire (mobile) non repris."
@@ -210,7 +210,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://brasserie-leopard.fr",
-    "https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+50300+Avranches&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+50300+Avranches&limit=5"
    ],
    "extrait": "Dès le 1er juillet, vous pourrez venir consommer sur place dans un cadre convivial, accompagné de planches apéro.",
    "choix": "Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris."
@@ -234,7 +234,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://lecume-des-falaises.fr",
-    "https://data.geopf.fr/geocodage/search?q=16+avenue+du+G%C3%A9n%C3%A9ral+Eisenhower%2C+50610+Jullouville&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=16+avenue+du+G%C3%A9n%C3%A9ral+Eisenhower%2C+50610+Jullouville&limit=5"
    ],
    "extrait": "Dégustation au bar, vente à emporter en coffrets & cartons de bières bio, fûts pour vos événements.",
    "choix": "Le site nomme neuf bières (Ecume Blonde, Blanche, Ambrée, Triple, APA, Irish Stout…) sans en afficher le style : non reprises. SIRENE déclare aussi un établissement à Donville-les-Bains ; le site donne Jullouville. Téléphone publié : un mobile, non repris."

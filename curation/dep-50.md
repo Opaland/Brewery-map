@@ -109,7 +109,7 @@ Choix du vérificateur : Le menu du site officiel cite un « Taproom » (page «
 - beers.0.type : (vide) → blanche
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://lestravailleursdelamer.com/ ; https://data.geopf.fr/geocodage/search?q=23+route+de+Cherbourg%2C+50340+Les+Pieux&limit=1
+Sources (vérifiée le 2026-10-17) : https://lestravailleursdelamer.com/ ; https://data.geopf.fr/geocodage/search?q=23+route+de+Cherbourg%2C+50340+Les+Pieux&limit=5
 
 Extrait lu : « Un espace dédié à la dégustation et à la vente accueille le public. »
 
@@ -144,7 +144,7 @@ Choix du vérificateur : Source de presse datée (10/07/2021) : à revérifier. 
 - c : (vide) → Agon-Coutainville
 - d : (vide) → 50
 - lat : (vide) → 49.03803
-- lon : (vide) → -1.59428
+- lon : (vide) → -1.59427
 - km : (vide) → 606.8
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
@@ -160,7 +160,7 @@ Choix du vérificateur : Source de presse datée (10/07/2021) : à revérifier. 
 - beers.4.type : (vide) → ipa
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://captain-james.fr ; https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=1
+Sources (vérifiée le 2026-10-17) : https://captain-james.fr ; https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=5
 
 Extrait lu : « De septembre à juin Jeudi, vendredi et samedi: 17H-19H »
 
@@ -206,7 +206,7 @@ Choix du vérificateur : Un extrait de recherche parlait d'un « retrait en bout
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://en.normandie-tourisme.fr/stores/brasserie-bifrost/ ; https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=1
+Sources (vérifiée le 2026-10-17) : https://en.normandie-tourisme.fr/stores/brasserie-bifrost/ ; https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=5
 
 Extrait lu : « Address 30 rue Madeleine Desdevises 50000 SAINT-LO »
 
@@ -229,7 +229,7 @@ Choix du vérificateur : Source d'annuaire seulement. Téléphone de l'annuaire 
 - beers.0.type : (vide) → blonde
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://brasserie-leopard.fr ; https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+50300+Avranches&limit=1
+Sources (vérifiée le 2026-10-17) : https://brasserie-leopard.fr ; https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+50300+Avranches&limit=5
 
 Extrait lu : « Dès le 1er juillet, vous pourrez venir consommer sur place dans un cadre convivial, accompagné de planches apéro. »
 
@@ -252,10 +252,10 @@ Choix du vérificateur : Raison sociale SIRENE : « Brasserie Normande » ; l'en
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://lecume-des-falaises.fr ; https://data.geopf.fr/geocodage/search?q=16+avenue+du+G%C3%A9n%C3%A9ral+Eisenhower%2C+50610+Jullouville&limit=1
+Sources (vérifiée le 2026-10-17) : https://lecume-des-falaises.fr ; https://data.geopf.fr/geocodage/search?q=16+avenue+du+G%C3%A9n%C3%A9ral+Eisenhower%2C+50610+Jullouville&limit=5
 
 Extrait lu : « Dégustation au bar, vente à emporter en coffrets & cartons de bières bio, fûts pour vos événements. »
 
 Choix du vérificateur : Le site nomme neuf bières (Ecume Blonde, Blanche, Ambrée, Triple, APA, Irish Stout…) sans en afficher le style : non reprises. SIRENE déclare aussi un établissement à Donville-les-Bains ; le site donne Jullouville. Téléphone publié : un mobile, non repris.
 
-Empreinte du lot : 5223bfa4af1f
+Empreinte du lot : 2b730daba30b

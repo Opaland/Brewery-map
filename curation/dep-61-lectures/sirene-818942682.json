@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:818942682",
+ "ajout": {
+  "fiche": {
+   "n": "Château de la Bière",
+   "c": "Lonlay-l'Abbaye",
+   "d": "61",
+   "lat": 48.62618,
+   "lon": -0.71502,
+   "km": 527.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie qui propose des visites closes par une dégustation ; lieu et horaires de vente non établis, catégorie à confirmer.",
+   "addr": "916 chemin de la Couvrie, 61700 Lonlay-l'Abbaye",
+   "src": "https://chateau-de-la-biere.com/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://chateau-de-la-biere.com/",
+   "https://data.geopf.fr/geocodage/search?q=916+chemin+de+la+Couvrie%2C+61700+Lonlay-l%27Abbaye&limit=5"
+  ],
+  "extrait": "La visite se clôture par une dégustation de nos produits.",
+  "choix": "Une seconde adresse (Le Fay, Lonlay-l'Abbaye) figure sur la page contact. Téléphone fixe publié : 02 33 38 07 86 (non repris, à décider)."
+ }
+}

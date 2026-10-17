@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:897662409",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Dieppoise",
+   "c": "Martin-Église",
+   "d": "76",
+   "lat": 49.91204,
+   "lon": 1.12112,
+   "km": 543.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de la région de Dieppe ; vente et horaires non lus, catégorie à confirmer.",
+   "addr": "37 rue Louis Blériot, 76200 Martin-Église",
+   "src": "https://www.brasseriedieppoise.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedieppoise.fr/"
+  ],
+  "extrait": "37 Rue Louis Blériot, 76200 Martin-Église",
+  "choix": "Le registre la déclare à Arques-la-Bataille ; le site dit Martin-Église (retenu)."
+ }
+}

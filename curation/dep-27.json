@@ -1,0 +1,153 @@
+{
+ "lot": "dep-27",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de Sutter",
+    "c": "Gisors",
+    "d": "27",
+    "lat": 49.26333,
+    "lon": 1.78556,
+    "km": 457.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site présente une boutique et des visites, mais le passage n'a pas été relu mot pour mot : catégorie à confirmer.",
+    "addr": "15 route de Paris, 27140 Gisors",
+    "src": "https://www.brasseriedesutter.com/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedesutter.com/",
+    "https://data.geopf.fr/geocodage/search?q=15+route+de+Paris%2C+27140+Gisors&limit=5"
+   ],
+   "extrait": "15 Rte de Paris 27140 Gisors",
+   "choix": "Adresse du site différente de celle du registre (19 rue du Grand Champ Fleury). Téléphone 02 34 88 21 43 et horaires vus par résumé seulement : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Insulaire",
+    "c": "Charleval",
+    "d": "27",
+    "lat": 49.37894,
+    "lon": 1.38062,
+    "km": 483.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe en boutique ; visites et dégustations sur réservation seulement.",
+    "addr": "La Remise Paviot, 27380 Charleval",
+    "src": "https://brasserie-insulaire.com/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "autre",
+      "libelle": "Bière de Noël"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blonde"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-insulaire.com/"
+   ],
+   "extrait": "Retrouvez toutes nos bières en vente directe dans notre boutique !",
+   "choix": "Même brasserie que le point OSM de Perriers-sur-Andelle (node/14056913418) ; le site dit Charleval. Bières lues : Beauté Fatale, Gueule d'amour (saison ambrée), Ho ho ho !, Ilandel tropicale (blanche), Kanaka IPA, Kanaka triple (ambrée), Super Kanaka, Teahupoo, Meherio (NEIPA), Whisbeer (stout), La Bandida, Da Rouen. Téléphone : un mobile, non repris."
+  },
+  {
+   "fiche": {
+    "n": "Les Deux Amants",
+    "c": "Val-de-Reuil",
+    "d": "27",
+    "lat": 49.24449,
+    "lon": 1.2325,
+    "km": 477,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio ; ni vente sur place ni horaires publiés, catégorie à confirmer.",
+    "addr": "1 voie des Vendaises, 27100 Val-de-Reuil",
+    "src": "https://lesdeuxamants.com/contactez-nous",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "sans-alcool"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lesdeuxamants.com/contactez-nous",
+    "https://data.geopf.fr/geocodage/search?q=1+voie+des+Vendaises%2C+27100+Val-de-Reuil&limit=5"
+   ],
+   "extrait": "1 voie des Vendaises 27100 Val-de-Reuil",
+   "choix": "Styles relus sur /nos-bieres : Marcel (Rye IPA), Odile (NEIPA), Lili (sans alcool), Achille (Triple) ; les autres non relus mot pour mot. Téléphone : un mobile (service client), non repris."
+  },
+  {
+   "fiche": {
+    "n": "Spore",
+    "c": "Gravigny",
+    "d": "27",
+    "lat": 49.04974,
+    "lon": 1.15941,
+    "km": 462.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie coopérative avec taproom ouvert du jeudi au samedi, 16 h à minuit ; vente à emporter non lue.",
+    "addr": "13 rue de la Mairie, 27930 Gravigny",
+    "src": "https://www.brasserie-spore.com",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-spore.com",
+    "https://data.geopf.fr/geocodage/search?q=13+rue+de+la+Mairie%2C+27930+Gravigny&limit=5"
+   ],
+   "extrait": "jeudi 16h - 00h vendredi 16h - 00h samedi 16h - 00h",
+   "choix": "Téléphone publié : 02 32 62 09 51 (non repris, à décider). Liste des bières non ouverte."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:850829789",
+ "ajout": {
+  "fiche": {
+   "n": "Fabrik2Bulles",
+   "c": "Amfreville-les-Champs",
+   "d": "76",
+   "lat": 49.69595,
+   "lon": 0.81616,
+   "km": 535.4,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Boutique de vente directe et visite avec dégustation, d'après Normandie Tourisme.",
+   "addr": "101 route d'Yvetot, 76560 Amfreville-les-Champs",
+   "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/fabrik2bulles/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.normandie-tourisme.fr/museums-and-heritage-sites/fabrik2bulles/",
+   "https://data.geopf.fr/geocodage/search?q=101+route+d%27Yvetot%2C+76560+Amfreville-les-Champs&limit=5"
+  ],
+  "extrait": "buy them in the direct sales store",
+  "choix": "Le site fabrik2bulles.fr ne répondait pas (503)."
+ }
+}

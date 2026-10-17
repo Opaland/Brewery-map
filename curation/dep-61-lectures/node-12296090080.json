@@ -1,0 +1,26 @@
+{
+ "candidat": "node/12296090080",
+ "ajout": {
+  "fiche": {
+   "n": "Le Bercail",
+   "c": "Alençon",
+   "d": "61",
+   "lat": 48.42963,
+   "lon": 0.09201,
+   "km": 467.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Lieu où l'on boit une bière artisanale brassée sur place, près de la basilique, d'après un guide local ; aucune source de la brasserie.",
+   "addr": "Alençon",
+   "src": "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs"
+  ],
+  "extrait": "Rendez-vous au Bercail pour déguster une bière artisanale qui est brassée sur place",
+  "choix": "Sans doute l'entreprise Rondebulle du registre (15 rue du Bercail), non établi par une source. Position au centre de la commune."
+ }
+}

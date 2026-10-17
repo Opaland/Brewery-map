@@ -1,0 +1,240 @@
+{
+ "lot": "dep-76",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Saint Joseph",
+    "c": "Le Havre",
+    "d": "76",
+    "lat": 49.47939,
+    "lon": 0.1498,
+    "km": 546,
+    "cat": 0,
+    "conf": "",
+    "note": "Boutique de la brasserie selon l'office de tourisme ; ni horaires ni vente sur place établis.",
+    "addr": "2 rue Buffon, 76600 Le Havre",
+    "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-saint-joseph-boutique-le-havre-en-5136752",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.seine-maritime-tourisme.com/en/offers/brasserie-saint-joseph-boutique-le-havre-en-5136752",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+Buffon%2C+76600+Le+Havre&limit=5"
+   ],
+   "extrait": "2 Rue Buffon",
+   "choix": "Même adresse que l'entreprise BE NEWS du registre, lien non établi."
+  },
+  {
+   "fiche": {
+    "n": "Union-B",
+    "c": "Malaunay",
+    "d": "76",
+    "lat": 49.52613,
+    "lon": 1.0451,
+    "km": 510.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie avec bar et boutique ouverts toute l'année, bar d'été et concerts, d'après son site.",
+    "addr": "Malaunay",
+    "src": "https://www.union-b.fr",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.union-b.fr"
+   ],
+   "extrait": "Bar d'hiver et boutique ouverts toute l'année",
+   "choix": "Le site donne l'impasse de la Cressonnière, le registre le 40 rue de la Clérette : position au centre de la commune. Téléphone : un mobile, non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Sainte Beuve",
+    "c": "Le Caule-Sainte-Beuve",
+    "d": "76",
+    "lat": 49.76544,
+    "lon": 1.59508,
+    "km": 512.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Boutique en ligne avec retrait sur place, d'après l'office de tourisme ; vente directe sur place non établie.",
+    "addr": "7 route de l'Église, 76390 Le Caule-Sainte-Beuve",
+    "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+    "https://data.geopf.fr/geocodage/search?q=7+route+de+l%27%C3%89glise%2C+76390+Le+Caule-Sainte-Beuve&limit=5"
+   ],
+   "extrait": "7 route de l'Église",
+   "choix": "Fiche d'office de tourisme seulement."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Ragnar",
+    "c": "Oissel",
+    "d": "76",
+    "lat": 49.34265,
+    "lon": 1.08234,
+    "km": 492.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de production à Oissel ; ventes par cavistes et bars, vente directe non établie.",
+    "addr": "232 rue du Beau Poirier, 76350 Oissel",
+    "src": "https://www.brasserieragnar.com/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserieragnar.com/"
+   ],
+   "extrait": "232 Rue du Beau Poirier",
+   "choix": "Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part."
+  },
+  {
+   "fiche": {
+    "n": "Fabrik2Bulles",
+    "c": "Amfreville-les-Champs",
+    "d": "76",
+    "lat": 49.69595,
+    "lon": 0.81616,
+    "km": 535.4,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Boutique de vente directe et visite avec dégustation, d'après Normandie Tourisme.",
+    "addr": "101 route d'Yvetot, 76560 Amfreville-les-Champs",
+    "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/fabrik2bulles/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://en.normandie-tourisme.fr/museums-and-heritage-sites/fabrik2bulles/",
+    "https://data.geopf.fr/geocodage/search?q=101+route+d%27Yvetot%2C+76560+Amfreville-les-Champs&limit=5"
+   ],
+   "extrait": "buy them in the direct sales store",
+   "choix": "Le site fabrik2bulles.fr ne répondait pas (503)."
+  },
+  {
+   "fiche": {
+    "n": "1989 Brewing",
+    "c": "Saint-Étienne-du-Rouvray",
+    "d": "76",
+    "lat": 49.38527,
+    "lon": 1.0879,
+    "km": 495.9,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bières vendues dans le bar attenant à la brasserie, d'après un article de 2026 ; ni horaires ni site officiel.",
+    "addr": "Saint-Étienne-du-Rouvray",
+    "src": "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop"
+   ],
+   "extrait": "est commercialisée dans le bar attenant à la brasserie",
+   "choix": "Source de presse seulement. Position au centre de la commune."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bakbuk",
+    "c": "Les Authieux-sur-le-Port-Saint-Ouen",
+    "d": "76",
+    "lat": 49.32745,
+    "lon": 1.13487,
+    "km": 488.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie ouverte au public en semaine, de 9 h à 18 h ; la vente sur place se lit sur une page illisible sans JavaScript : catégorie à confirmer.",
+    "addr": "218 rue des Canadiens, 76520 Les Authieux-sur-le-Port-Saint-Ouen",
+    "src": "https://www.brasserie-bakbuk.com/contact",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-bakbuk.com/contact",
+    "https://data.geopf.fr/geocodage/search?q=218+rue+des+Canadiens%2C+76520+Les+Authieux-sur-le-Port-Saint-Ouen&limit=5"
+   ],
+   "extrait": "Ouvert au public de 9h à 18h du lundi au vendredi",
+   "choix": "La page « points de vente » dirait « Vente à emporter à la brasserie » (lu par un agent, pas relu). Le point OSM de Sotteville-lès-Rouen n'est pas confirmé par le site."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie BakPaker",
+    "c": "Saint-Saëns",
+    "d": "76",
+    "lat": 49.67794,
+    "lon": 1.27032,
+    "km": 515.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique ouverte le vendredi de 15 h à 18 h 30, les autres jours sur rendez-vous, d'après son site.",
+    "addr": "Saint-Saëns",
+    "src": "https://www.brasserie-bakpaker.fr/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-bakpaker.fr/"
+   ],
+   "extrait": "Ouverture de la boutique Lundi : Sur RDV toute la semaine :) Mardi : rdv Mercredi : rdv Jeudi : rdv Vendredi : 15h - 18h30",
+   "choix": "ZI des Aulnaies : position au centre de la commune. Styles des bières non affichés."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Dieppoise",
+    "c": "Martin-Église",
+    "d": "76",
+    "lat": 49.91204,
+    "lon": 1.12112,
+    "km": 543.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de la région de Dieppe ; vente et horaires non lus, catégorie à confirmer.",
+    "addr": "37 rue Louis Blériot, 76200 Martin-Église",
+    "src": "https://www.brasseriedieppoise.fr/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedieppoise.fr/"
+   ],
+   "extrait": "37 Rue Louis Blériot, 76200 Martin-Église",
+   "choix": "Le registre la déclare à Arques-la-Bataille ; le site dit Martin-Église (retenu)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Yata",
+    "c": "Lillebonne",
+    "d": "76",
+    "lat": 49.51959,
+    "lon": 0.53493,
+    "km": 531.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de plusieurs styles (blonde, triple, IPA…), d'après Normandie Tourisme ; vente non établie.",
+    "addr": "Lillebonne",
+    "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/"
+   ],
+   "extrait": "We produce different styles of beer",
+   "choix": "Fiche d'office de tourisme seulement. Position au centre de la commune."
+  }
+ ]
+}
