@@ -378,18 +378,6 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 .fiche-y-aller { margin-bottom: var(--espace-6); }
 .fiche-y-aller p { margin: 0; }
 
-/* Lien d'évitement de la carte : caché jusqu'au focus, puis peint au-dessus
-   (revue Inès S18 : quinze arrêts de carte avant la liste). */
-.evitement {
-  position: absolute;
-  left: -10000px;
-  min-height: 44px;
-  line-height: 44px;
-  padding: 0 var(--espace-6);
-  background: var(--papier);
-  color: var(--encre);
-}
-.evitement:focus { position: static; display: inline-block; }
 
 /* Lu par les lecteurs d'écran, invisible à l'œil (motif usuel « sr-only »). */
 .lecteur-seul {
@@ -828,3 +816,70 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   .entete .sous-titre { margin: 0; flex: 1; min-width: 16rem; }
   .categories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* ── S29 : le premier écran sur téléphone ─────────────────────────────── */
+
+/* Les filtres secondaires repliés : le résumé dit ce qu'ils cachent
+   (`core/filtres.ts`). Une cible de 44 px, comme les autres repliés. */
+.plus-de-filtres { border: 1px solid var(--gris-vert-clair); border-radius: var(--rayon-md); padding: 0 var(--espace-6); background: var(--blanc-carte); }
+.plus-de-filtres > summary { display: list-item; min-height: 44px; padding: 12px 0; line-height: 20px; cursor: pointer; font-weight: 600; }
+.plus-de-filtres[open] > summary { margin-bottom: var(--espace-4); }
+.plus-de-filtres-corps { display: grid; gap: var(--espace-6); padding-bottom: var(--espace-6); }
+
+/* Aller de la liste à la carte et retour : sur téléphone seulement. */
+.aller-vers {
+  min-height: 44px;
+  padding: 0 var(--espace-7);
+  margin: 0 0 var(--espace-6);
+  border: 1px solid var(--cuivre);
+  border-radius: 999px;
+  background: var(--blanc-carte);
+  color: var(--cuivre);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (min-width: 900px) {
+  .aller-vers { display: none; }
+  /* La carte reste collée en haut pendant qu'on lit la liste : son
+     conteneur prend toute la hauteur de la rangée. */
+  .carte-conteneur { align-self: stretch; }
+}
+
+/* La barre du compte : c'est elle qui colle en bas (S29), avec le bouton
+   « Carte » ; le compte, dedans, reste la zone annoncée. */
+.barre-compte {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--espace-4);
+  margin: var(--espace-4) 0;
+  background: color-mix(in srgb, var(--papier) 97%, transparent);
+}
+.barre-compte .compte { position: static; margin: 0; flex: 1; min-width: 0; background: transparent; }
+.barre-compte .aller-vers { margin: 0; flex: none; }
+
+/* Sur téléphone, l'en-tête plus serré : chaque pixel gagné rapproche la
+   première brasserie (S29). Titre à 28 px, toujours le plus grand texte. */
+@media (max-width: 899px) {
+  .entete { padding: var(--espace-7) var(--espace-7) var(--espace-6); }
+  .entete .logo { width: 40px; height: 40px; }
+  .entete h1 { font-size: 1.75rem; }
+  .entete .sous-titre { font-size: 0.9375rem; margin-top: var(--espace-2); }
+  .filtres { margin: var(--espace-4) 0; gap: var(--espace-4); }
+}
+
+/* Lien d'évitement vers la carte : caché jusqu'au focus, puis peint (S29 ;
+   avant, il évitait la carte pour mener à la liste, revue Inès S18). */
+.evitement {
+  position: absolute;
+  left: -10000px;
+  min-height: 44px;
+  line-height: 44px;
+  padding: 0 var(--espace-6);
+  background: var(--papier);
+  color: var(--encre);
+}
+.evitement:focus { position: static; display: inline-block; margin-bottom: var(--espace-4); }

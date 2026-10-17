@@ -40,3 +40,19 @@ export async function choisirCommune(page: Page, texte: string, libelle: string)
   await page.getByTestId('commune-depart').fill(texte)
   await page.getByRole('option', { name: libelle, exact: true }).click()
 }
+
+/**
+ * Déplier « Plus de filtres et mes favoris » (S29 : replié sur téléphone).
+ * Ne fait rien s'il est déjà ouvert : on boucle sur l'état voulu (§6ter).
+ */
+export async function ouvrirFiltres(page: Page): Promise<void> {
+  const repli = page.getByTestId('plus-de-filtres')
+  await expect
+    .poll(async () => {
+      if (!(await repli.evaluate((d) => (d as HTMLDetailsElement).open))) {
+        await page.getByTestId('plus-de-filtres-resume').click()
+      }
+      return repli.evaluate((d) => (d as HTMLDetailsElement).open)
+    })
+    .toBe(true)
+}

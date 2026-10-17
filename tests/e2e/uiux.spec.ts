@@ -95,7 +95,8 @@ test.describe('le compte collant ne cache aucun focus (WCAG 2.4.11, revue advers
         await page.waitForTimeout(30)
         const cache = await page.evaluate(() => {
           const f = document.activeElement
-          const c = document.querySelector('[data-testid="compte"]')
+          // La barre collée entière (S29 : le compte et le bouton « Carte »).
+          const c = document.querySelector('.barre-compte')
           if (!(f instanceof HTMLElement) || c === null || c.contains(f)) return null
           const r = f.getBoundingClientRect()
           if (r.bottom <= 0 || r.top >= window.innerHeight) return null
@@ -161,4 +162,55 @@ test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ p
   // centaines de pixels (mesuré : 140 et 243 px).
   expect(Math.abs((apres?.x ?? 1e6) - (avant?.x ?? 0))).toBeLessThanOrEqual(2)
   expect(Math.abs((apres?.y ?? 1e6) - (avant?.y ?? 0))).toBeLessThanOrEqual(2)
+})
+
+test.describe('premier écran sur téléphone (S29)', () => {
+  test('la première brasserie se lit dans le premier écran, au-dessus de la barre (Pixel 7)', async ({ page }) => {
+    await page.evaluate(() => {
+      window.scrollTo(0, 0)
+    })
+    // Au moins 44 px de la ligne au-dessus de la barre collée : son nom se
+    // lit. « Commence dans l'écran » passait avec 12 px visibles (revue
+    // adverse S29). Hauteur d'écran du profil, pas innerHeight (§1bis).
+    const { ligne, barre } = await page.evaluate(() => ({
+      ligne: document.querySelector('button.ligne')?.getBoundingClientRect().top ?? Infinity,
+      barre: document.querySelector('.barre-compte')?.getBoundingClientRect().top ?? 0,
+    }))
+    expect(barre).toBeLessThanOrEqual(839)
+    expect(ligne + 44).toBeLessThanOrEqual(barre)
+  })
+
+  test('dans la liste, le bouton « Carte » reste à l’écran et y mène ; puis « Liste » en revient', async ({ page }) => {
+    await page.evaluate(() => {
+      window.scrollTo(0, 3000)
+    })
+    const bouton = page.getByTestId('vers-carte')
+    // Peint, pas seulement présent (§1bis).
+    await expect
+      .poll(() =>
+        bouton.evaluate((b) => {
+          const r = b.getBoundingClientRect()
+          return document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2) === b
+        }),
+      )
+      .toBe(true)
+    await bouton.click()
+    await expect(page.locator('#titre-carte')).toBeFocused()
+    await expect(bouton).toHaveText('Liste')
+    await bouton.click()
+    await expect(page.locator('#titre-liste')).toBeFocused()
+    await expect(bouton).toHaveText('Carte')
+  })
+
+  test('les filtres repliés disent ce qu’ils cachent', async ({ page }) => {
+    const resume = page.getByTestId('plus-de-filtres-resume')
+    await expect(resume).toHaveText('Plus de filtres et mes favoris')
+    await expect(page.getByTestId('departement')).toBeHidden()
+    await resume.click()
+    await page.getByTestId('departement').selectOption('73')
+    await resume.click()
+    await expect(page.getByTestId('departement')).toBeHidden()
+    await expect(resume).toHaveText('Plus de filtres et mes favoris · 1 filtre actif')
+  })
+
 })

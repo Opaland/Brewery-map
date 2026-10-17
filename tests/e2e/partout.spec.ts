@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { choisirCommune, sansTuiles, versLaCarte } from './reseau'
+import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
 /**
  * S21 — retours de Cédric du 16/10 : « Je veux pouvoir chercher partout »,
@@ -46,6 +46,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await page.goto('/')
     await choisirCommune(page, 'porcelette', 'Porcelette (57)')
     await expect(page.getByTestId('badge-osm').first()).toBeVisible()
+    await ouvrirFiltres(page)
     await page.getByTestId('avec-osm').uncheck()
     await expect(page.getByTestId('badge-osm')).toHaveCount(0)
     await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Porcelette (57).')

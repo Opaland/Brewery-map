@@ -4,7 +4,7 @@ import { BRIGNAIS } from '../../src/core/distance'
 import { brasseriesDepuisFichierOsm, type FichierOsm } from '../../src/core/osm-france'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
-import { sansTuiles, versLaCarte } from './reseau'
+import { ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
 const FICHIER = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brasserie[]
 // Toute la France (S25) : la couche OpenStreetMap s'ajoute au fichier, par
@@ -86,6 +86,7 @@ test.describe('trouver une brasserie (Marie)', () => {
   test('les quatre catégories sont nommées en clair et filtrent', async ({ page }) => {
     await page.goto('/')
     await regler(page, 100)
+    await ouvrirFiltres(page)
     for (const libelle of [
       'Acheter et consommer sur place',
       'Acheter seulement',

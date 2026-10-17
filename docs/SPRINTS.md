@@ -1621,3 +1621,58 @@ rouges avant correction, sauf m2 et m5 (voir 2).
    - mettre la liste avant la carte sur téléphone, avec les filtres repliés ;
    - les trois idées « wow » de la revue : mousse animée dans l'en-tête,
      image de la tournée à partager, fiche en feuille basculante.
+
+## Plan v4 — S29 à S128 *(demandes de Cédric du 17/10)*
+
+« Refais 20 sprints », « enchaîne en agentic », puis « monte à 100 sprints ;
+regarde BMAD pour l'implémentation de l'application ». Les 100 stories, en
+douze epics, sont dans `docs/EPICS.md` ; la méthode, reprise de BMAD et
+adaptée aux règles de ce dépôt, arrive en S30 (`docs/METHODE.md`).
+
+Rien ne touche `data/` sans l'accord de Cédric : les stories de données ne
+livrent que des propositions. Firefox et Safari ne sont pas installés dans le
+conteneur (seul Chromium) : leur essai passe par la CI (S98) ou par un
+humain. **Budget** : environ 150 k par sprint revue comprise, soit 15 M pour
+les cent ; c'est à peu près tout ce qui reste à la session. L'ordre des
+numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
+
+## S29 — Premier écran sur téléphone *(17/10)*
+
+1. **Pourquoi.** Sur téléphone, la première brasserie était à 1 764 px,
+   soit 2,1 écrans (Pixel 7, mesuré le 17/10), derrière le département,
+   les catégories, le type, les favoris, puis la carte.
+2. **Fait.**
+   - Les filtres secondaires sont repliés sous « Plus de filtres et mes
+     favoris ». Le résumé dit combien sont actifs et combien de favoris on
+     a (`core/filtres.ts`). Le repli est ouvert sur ordinateur, et à
+     l'ouverture si un filtre gardé est actif.
+   - La liste passe avant la carte dans le document.
+   - La barre du compte est placée en fin de zone principale : elle reste
+     collée en bas pendant toute la lecture (filtres, liste, carte). Son
+     bouton dit « Carte », ou « Liste » quand la carte est à l'écran, et le
+     focus suit.
+   - Au clavier, un lien d'évitement « Aller à la carte » précède la liste.
+   - L'en-tête et l'espacement des filtres sont plus serrés sous 900 px.
+   - Résultat sur Pixel 7 : la **première ligne est à 746 px**. Au moins
+     44 px en sont lisibles au-dessus de la barre (test), contre 1 764 px
+     avant.
+   - Sur ordinateur, la liste est à gauche et la carte à droite, dans l'ordre
+     du document. La carte reste collée en haut pendant qu'on lit.
+3. **Tests vus rouges** :
+   - la ligne lisible au-dessus de la barre (espacement d'avant remis) ;
+   - le bouton « Carte » à l'écran au milieu de la liste (barre remise avant
+     la liste) ;
+   - le repli ouvert par un filtre gardé (condition retirée).
+4. **Revue adverse** (54 k). Quatre trouvailles :
+   - **(haute)** la barre, placée avant la liste, partait avec le
+     défilement : le bouton « Carte » restait introuvable dans la liste, et
+     la carte était à plus de 9 000 px. Corrigé, voir plus haut ;
+   - **(moyenne)** « première ligne à 827 px » ne laissait que 12 px
+     lisibles, et le test passait à 1 px. Il exige désormais 44 px ;
+   - **(basse)** le repli ne s'ouvrait pas au passage à 900 px de large
+     (tablette tournée). Il s'ouvre maintenant ;
+   - **(basse)** colonnes inversées sur ordinateur : choix assumé (ordre du
+     document), noté ci-dessus.
+   Sans défaut : la synchronisation du repli, le filtre caché qui se dit,
+   le chargement de la carte par le bouton, la largeur à 320 px et à 200 %
+   de texte.

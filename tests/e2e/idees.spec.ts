@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { sansTuiles, versLaCarte } from './reseau'
+import { sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
 /** S27 — les meilleures idées de la veille concurrentielle (docs/VEILLE-CONCURRENCE.md). */
 test.beforeEach(async ({ page }) => {
@@ -9,6 +9,7 @@ test.beforeEach(async ({ page }) => {
 test('parcourir un département : ses brasseries, à toute distance', async ({ page }) => {
   await page.goto('/')
   await page.getByTestId('rayon').fill('5')
+  await ouvrirFiltres(page)
   await page.getByTestId('departement').selectOption('73')
   await expect(page.getByTestId('compte')).toContainText('dans le département 73 · Savoie')
   const lieux = await page.locator('.ligne-lieu').allTextContents()
@@ -23,6 +24,7 @@ test('ma tournée : deux favoris, un lien Google Maps sans le départ', async ({
     await page.getByTestId('bouton-favori').click()
     await page.locator('button.ligne').nth(rang).click()
   }
+  await ouvrirFiltres(page)
   const lien = page.getByTestId('tournee-lien')
   await expect(lien).toBeVisible()
   const url = new URL((await lien.getAttribute('href')) ?? '')
@@ -74,6 +76,7 @@ test('un département qui n’a que des fiches OSM, puis OSM décoché : le choi
   page,
 }) => {
   await page.goto('/')
+  await ouvrirFiltres(page)
   await page.getByTestId('departement').selectOption('02')
   await page.getByTestId('avec-osm').uncheck()
   await expect(page.getByTestId('departement')).toHaveValue('')
