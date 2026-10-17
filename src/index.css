@@ -208,11 +208,16 @@ a { color: inherit; }
 
 .carte-cadre { position: relative; }
 
+/* En haut, à gauche des boutons de zoom (54 px de large) : en bas, la
+   mention « © contributeurs OpenStreetMap » peignait par-dessus la fin du
+   message (S240, capture visuelle). 56 px : la largeur mesurée des boutons
+   et un écart ; seuil de présentation (§2), écarté : remonter le message
+   au-dessus de la mention, dont la hauteur varie avec la largeur. */
 .carte-fond-absent {
   position: absolute;
   left: var(--espace-4);
-  right: var(--espace-4);
-  bottom: var(--espace-8);
+  right: calc(var(--espace-4) + 56px);
+  top: var(--espace-4);
   margin: 0;
   padding: var(--espace-4) var(--espace-6);
   background: var(--blanc-carte);

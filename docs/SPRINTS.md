@@ -2451,3 +2451,15 @@ Le circuit tient. Pour la suite (S248 et après), deux enseignements :
   mécanique de chaque extrait ;
 - les sites en JavaScript restent hors de portée.
 
+## S240 (suite) — Le message de repli de la carte n'est plus recouvert *(17/10)*
+
+Story d'abord (`docs/stories/S240-suite.md`). Le défaut avait été trouvé
+par les tests visuels. Le test, écrit avant le correctif, a été vu rouge
+(« se croisent », à 412 et à 320 px). Le message passe en haut, à gauche
+des boutons de zoom. Le test vérifie maintenant trois choses :
+- les cadres du message et de la mention ne se croisent pas ;
+- les cadres du message et des boutons de zoom non plus ;
+- le bas du message est bien peint (`elementFromPoint`).
+
+Les références visuelles sont refaites par la CI.
+
