@@ -1,0 +1,595 @@
+{
+ "lot": "dep-22",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de Guerlédan",
+    "c": "Guerlédan",
+    "d": "22",
+    "lat": 48.19297,
+    "lon": -2.95112,
+    "km": 648.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brewpub : bar et boutique ouverts du mercredi au dimanche à partir de 16 h 30.",
+    "addr": "Guerlédan",
+    "src": "http://www.brasseriedeguerledan.bzh/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.brasseriedeguerledan.bzh/"
+   ],
+   "extrait": "Bar et boutique ouverts du du Mercredi au Dimanche à partir de 16H30",
+   "choix": "Le site ne donne pas d'adresse. Position au centre de Guerlédan."
+  },
+  {
+   "fiche": {
+    "n": "L'Armateur",
+    "c": "La Roche-Jaudy",
+    "d": "22",
+    "lat": 48.74485,
+    "lon": -3.26242,
+    "km": 694.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale ; le site ne dit ni vente ni dégustation sur place, ni horaires.",
+    "addr": "27 rue de la fontaine, 22450 La Roche-Jaudy",
+    "src": "https://www.brasserielarmateur.fr/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "ambree"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserielarmateur.fr/",
+    "https://data.geopf.fr/geocodage/search?q=27+rue+de+la+fontaine%2C+22450+La+Roche-Jaudy&limit=5"
+   ],
+   "extrait": "La brasserie est située au 27 rue de la fontaine"
+  },
+  {
+   "fiche": {
+    "n": "Brasstillerie KanArFoll",
+    "c": "Perros-Guirec",
+    "d": "22",
+    "lat": 48.81243,
+    "lon": -3.45979,
+    "km": 711,
+    "cat": 0,
+    "conf": "",
+    "note": "Visite et dégustation sur place, boutique ouverte en semaine ; la vente n'est pas dite explicitement.",
+    "addr": "Kerambellec, 22700 Perros-Guirec",
+    "src": "https://www.kanarfoll.com/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.kanarfoll.com/"
+   ],
+   "extrait": "Visite et dégustation sur place.",
+   "choix": "Même lieu-dit que le Verger de Kernivinen (cidrerie, node/14018305001)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale la Guernouillette",
+    "c": "Plérin",
+    "d": "22",
+    "lat": 48.54732,
+    "lon": -2.78248,
+    "km": 653.3,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Vente aux particuliers et aux professionnels, entrée libre ; consommation sur place non établie.",
+    "addr": "Plérin",
+    "src": "http://www.la-guernouillette.com/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.la-guernouillette.com/"
+   ],
+   "extrait": "Vente aux particuliers, professionnels",
+   "choix": "La page dit « Saint Brieuc Ouest », OSM dit Plérin. Position au centre de Plérin."
+  },
+  {
+   "fiche": {
+    "n": "Les Brassins du Lion d'Or",
+    "c": "Trémeur",
+    "d": "22",
+    "lat": 48.35017,
+    "lon": -2.2631,
+    "km": 609.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Nano-brasserie ; ni vente ni horaires lus.",
+    "addr": "Trémeur",
+    "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "brune"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/"
+   ],
+   "extrait": "Le Lion d'Or 22250 Trémeur",
+   "choix": "Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Launay",
+    "c": "Lamballe-Armor",
+    "d": "22",
+    "lat": 48.48218,
+    "lon": -2.49641,
+    "km": 631.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio ; visites guidées par l'office de tourisme. Vente sur place non établie.",
+    "addr": "9 Rue des Prés Jouettes, 22400 Lamballe-Armor",
+    "src": "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/stesf-visite-de-la-brasserie-de-launay-lamballe-armor-fr-5963935/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/stesf-visite-de-la-brasserie-de-launay-lamballe-armor-fr-5963935/",
+    "https://data.geopf.fr/geocodage/search?q=9+Rue+des+Pr%C3%A9s+Jouettes%2C+22400+Lamballe-Armor&limit=5"
+   ],
+   "extrait": "une brasserie artisanale bretonne spécialisée dans la fabrication de bières BIO",
+   "choix": "Même brasserie que le point OSM node/13299563772 ; site officiel injoignable."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Philomenn",
+    "c": "Tréguier",
+    "d": "22",
+    "lat": 48.78509,
+    "lon": -3.23294,
+    "km": 694.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Visites guidées annoncées par l'office de tourisme ; vente sur place non lue, site officiel injoignable (503).",
+    "addr": "Parc Sainte Catherine, 22220 Tréguier",
+    "src": "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A"
+   ],
+   "extrait": "Brasserie Philomenn, Parc Sainte Catherine 22220 Tréguier",
+   "choix": "Agenda de sorties seulement. Même brasserie que le point OSM node/6503738019."
+  },
+  {
+   "fiche": {
+    "n": "La Grobul' Factory",
+    "c": "Mellionnec",
+    "d": "22",
+    "lat": 48.17103,
+    "lon": -3.28738,
+    "km": 670.4,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Micro-brasserie qui vend ses produits sur place, d'après un annuaire de producteurs.",
+    "addr": "Mellionnec",
+    "src": "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html"
+   ],
+   "extrait": "Ce producteur vend ses produits sur place",
+   "choix": "Annuaire seulement ; adresses de l'annuaire et de SIRENE discordantes. Position au centre de Mellionnec."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Kerampont",
+    "c": "Lannion",
+    "d": "22",
+    "lat": 48.74877,
+    "lon": -3.46936,
+    "km": 708.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar, vente directe et restauration le mardi (18 h–22 h) et le jeudi (19 h–22 h), vente directe et bar le vendredi (17 h–19 h).",
+    "addr": "Lannion",
+    "src": "https://kerampont.com/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://kerampont.com/"
+   ],
+   "extrait": "Mardi 18h-22h en mode bar, vente directe et restauration",
+   "choix": "Position au centre de Lannion : l'adresse n'est pas relue."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Régionale de l'Ouest",
+    "c": "Tonquédec",
+    "d": "22",
+    "lat": 48.67671,
+    "lon": -3.39544,
+    "km": 700.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie industrielle ; seul créneau public lu, une visite le 30 mai 2026. Vente sur place non établie.",
+    "addr": "Kerbrunec, 22140 Tonquédec",
+    "src": "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/"
+   ],
+   "extrait": "Brasserie régionale de l'Ouest, Kerbrunec, Tonquédec (22140)",
+   "choix": "Brasserie industrielle (ex-L'Hirondelle) : à Cédric de dire si elle entre dans le périmètre."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Uncle",
+    "c": "Binic-Étables-sur-Mer",
+    "d": "22",
+    "lat": 48.64223,
+    "lon": -2.83541,
+    "km": 661.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Boutique en ligne et location de tireuse ; vente ou dégustation sur place non établie.",
+    "addr": "10 rue de l'Europe, 22680 Binic-Étables-sur-Mer",
+    "src": "https://www.brasserie-uncle.com",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-uncle.com",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27Europe%2C+22680+Binic-%C3%89tables-sur-Mer&limit=5"
+   ],
+   "extrait": "10, rue de l’Europe 22680 Binic-Étables-sur-Mer",
+   "choix": "SIRENE (David Brewery) déclare Saint-Quay-Portrieux ; même brasserie que le point OSM node/6650042721 (17 rue Duguesclin)."
+  },
+  {
+   "fiche": {
+    "n": "La Fréheloise",
+    "c": "Fréhel",
+    "d": "22",
+    "lat": 48.63239,
+    "lon": -2.37299,
+    "km": 631,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site a une rubrique « Boutique – Bar » sans dire ce qu'on y fait ; horaires non lus.",
+    "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
+    "src": "https://www.lafreheloise.bzh/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lafreheloise.bzh/"
+   ],
+   "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel",
+   "choix": "Téléphone publié sur la page : 02 96 86 36 28 (non repris)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Dimezell",
+    "c": "Quessoy",
+    "d": "22",
+    "lat": 48.42589,
+    "lon": -2.6583,
+    "km": 639.1,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bières en vente et en dégustation à la brasserie ; bar du jeudi au samedi à partir de 16 h.",
+    "addr": "Quessoy",
+    "src": "https://www.brasserie-dimezell.bzh/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-dimezell.bzh/"
+   ],
+   "extrait": "Nos bières sont bien sûr en vente et en dégustation à la brasserie",
+   "choix": "Même brasserie que le point OSM node/7491754420. Position au centre de Quessoy."
+  },
+  {
+   "fiche": {
+    "n": "La Bonne Humeur - Brasserie Artisanale de Paimpol",
+    "c": "Paimpol",
+    "d": "22",
+    "lat": 48.76819,
+    "lon": -3.06798,
+    "km": 683.1,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie du mardi au vendredi, de 14 h à 17 h 30 ; consommation sur place non établie.",
+    "addr": "5 rue du Grand Pré, 22500 Paimpol",
+    "src": "https://www.brasseriedepaimpol.com",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedepaimpol.com",
+    "https://data.geopf.fr/geocodage/search?q=5+rue+du+Grand+Pr%C3%A9%2C+22500+Paimpol&limit=5"
+   ],
+   "extrait": "Du mardi au vendredi de 14h à 17h30",
+   "choix": "Même brasserie que le point OSM node/7489781146 (23b avenue Chateaubriand). L'office de tourisme donne d'autres horaires, « non garantis »."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des 7 Îles",
+    "c": "Trégastel",
+    "d": "22",
+    "lat": 48.81613,
+    "lon": -3.51196,
+    "km": 714.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Ouverte au public (17 h–19 h en semaine l'été, samedi toute l'année) ; la page ne dit pas ce qu'on y fait.",
+    "addr": "Trégastel",
+    "src": "https://www.brasseriedes7iles.com",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedes7iles.com"
+   ],
+   "extrait": "Retrouvez-nous à la brasserie",
+   "choix": "Position au centre de Trégastel : l'adresse n'est pas relue."
+  },
+  {
+   "fiche": {
+    "n": "Tiens bon la Barre",
+    "c": "Plouasne",
+    "d": "22",
+    "lat": 48.31169,
+    "lon": -2.01567,
+    "km": 591,
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie d'après un annuaire ; vente et horaires non lus.",
+    "addr": "Plouasne",
+    "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/"
+   ],
+   "extrait": "2 la gare 22830 Plouasne",
+   "choix": "Annuaire seulement. Même adresse que la Brasserie Nautica : peut-être un ancien nom, lien non établi. Position au centre de Plouasne."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de La Ville Porte Amour",
+    "c": "Plouvara",
+    "d": "22",
+    "lat": 48.49461,
+    "lon": -2.9262,
+    "km": 660.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Ouverte le vendredi de 16 h à 19 h et sur rendez-vous (Click & Collect) ; la page ne dit pas ce qu'on y fait.",
+    "addr": "Plouvara",
+    "src": "http://www.lavilleporteamour.fr",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.lavilleporteamour.fr"
+   ],
+   "extrait": "Vendredi : 16h - 19h",
+   "choix": "Site « en reconstruction ». Position au centre de Plouvara."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Nautica",
+    "c": "Plouasne",
+    "d": "22",
+    "lat": 48.30553,
+    "lon": -2.01065,
+    "km": 590.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Boutique en ligne et location de tireuse ; ni vente ni dégustation sur place indiquées.",
+    "addr": "2 ZA la Gare, 22830 Plouasne",
+    "src": "https://brasserienautica.fr/contact/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserienautica.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=2+ZA+la+Gare%2C+22830+Plouasne&limit=5"
+   ],
+   "extrait": "A: 2 ZA la Gare, 22830 Plouasne",
+   "choix": "Même adresse que « Tiens bon la Barre » (sirene:850569997) : lien non établi."
+  },
+  {
+   "fiche": {
+    "n": "La Riposte",
+    "c": "Châtelaudren-Plouagat",
+    "d": "22",
+    "lat": 48.54219,
+    "lon": -2.96978,
+    "km": 665.4,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar de la brasserie (pression et bouteilles) et vente à emporter ; ouvert jeudi 16 h–23 h, vendredi et samedi 16 h–1 h.",
+    "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
+    "src": "https://brasserielariposte.bzh/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserielariposte.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=27+place+de+la+R%C3%A9publique%2C+22170+Ch%C3%A2telaudren-Plouagat&limit=5"
+   ],
+   "extrait": "proposées à la vente à emporter",
+   "choix": "La catégorie repose sur deux passages de la même page : « proposées à la vente à emporter » et « à la pression et en bouteilles »."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Carabo",
+    "c": "Saint-Judoce",
+    "d": "22",
+    "lat": 48.36338,
+    "lon": -1.95356,
+    "km": 589.6,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Ouverte au public le vendredi de 17 h à 19 h ; vente sur place d'après un annuaire de producteurs, consommation non établie.",
+    "addr": "Saint-Judoce",
+    "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html"
+   ],
+   "extrait": "La Brasserie Carabo est ouverte au public tous les vendredis de 17h à 19h",
+   "choix": "Annuaire seulement (site officiel en 503). Deux adresses dans l'annuaire : position au centre de Saint-Judoce."
+  },
+  {
+   "fiche": {
+    "n": "Mille Goules",
+    "c": "Hémonstoir",
+    "d": "22",
+    "lat": 48.15698,
+    "lon": -2.85265,
+    "km": 640,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie ; horaires non publiés.",
+    "addr": "Hémonstoir",
+    "src": "https://millegoules.com/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://millegoules.com/"
+   ],
+   "extrait": "Achetez nos bières directement à la brasserie.",
+   "choix": "Position au centre d'Hémonstoir : l'adresse n'est pas relue."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Alchimistes Ivres",
+    "c": "Broons",
+    "d": "22",
+    "lat": 48.31284,
+    "lon": -2.24349,
+    "km": 606.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Boutique en ligne et visites sur réservation ; la page ne dit pas qu'on achète ou boit à la brasserie.",
+    "addr": "Broons",
+    "src": "https://www.alchimistes-ivres.com",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "lager"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "stout"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.alchimistes-ivres.com"
+   ],
+   "extrait": "Brasserie bière craft fantasy en Bretagne",
+   "choix": "Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons."
+  }
+ ]
+}

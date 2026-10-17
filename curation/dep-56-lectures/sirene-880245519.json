@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:880245519",
+ "ajout": {
+  "fiche": {
+   "n": "Bar Brasserie Artisanale l'Etrille",
+   "c": "Locmariaquer",
+   "d": "56",
+   "lat": 47.58011,
+   "lon": -2.96025,
+   "km": 625.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Bar-buvette avec vente à emporter selon l'office de tourisme ; rien ne dit que la bière est brassée ou vendue sur place.",
+   "addr": "2 Bellevue, 56740 Locmariaquer",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-brasserie-artisanale-letrille-locmariaquer-fr-4386947/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-brasserie-artisanale-letrille-locmariaquer-fr-4386947/",
+   "https://data.geopf.fr/geocodage/search?q=2+Bellevue%2C+56740+Locmariaquer&limit=5"
+  ],
+  "extrait": "Vente à emporter",
+  "choix": "Site brasserieetrille.com injoignable (DNS)."
+ }
+}

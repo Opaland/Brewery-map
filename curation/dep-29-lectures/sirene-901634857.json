@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:901634857",
+ "ajout": {
+  "fiche": {
+   "n": "Kauri Brewery",
+   "c": "Plovan",
+   "d": "29",
+   "lat": 47.93537,
+   "lon": -4.38428,
+   "km": 739,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bières vendues à la brasserie sur rendez-vous, et bar de la brasserie du jeudi au samedi d'avril à septembre.",
+   "addr": "67 Lieu-dit Kervon, 29720 Plovan",
+   "src": "https://fr.kauribrewery.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "lager"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://fr.kauribrewery.com",
+   "https://data.geopf.fr/geocodage/search?q=67+Lieu-dit+Kervon%2C+29720+Plovan&limit=5"
+  ],
+  "extrait": "Disponibles directement à la brasserie sur rendez-vous & au bar de la brasserie du jeudi au samedi d’avril à septembre"
+ }
+}

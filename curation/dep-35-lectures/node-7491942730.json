@@ -1,0 +1,26 @@
+{
+ "candidat": "node/7491942730",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Plouc",
+   "c": "Plerguer",
+   "d": "35",
+   "lat": 48.52696,
+   "lon": -1.83831,
+   "km": 591,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie installée à Plerguer d'après un annuaire ; rien sur la vente ou l'accueil.",
+   "addr": "Plerguer",
+   "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/"
+  ],
+  "extrait": "installée à Plerguer",
+  "choix": "Annuaire seulement ; adresses contradictoires. Position au centre de Plerguer."
+ }
+}

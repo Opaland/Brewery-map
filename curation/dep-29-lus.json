@@ -1,0 +1,320 @@
+[
+ {
+  "cle": "sirene:798819090",
+  "n": "La Brasserie du Bout du Monde",
+  "c": "Rosnoën",
+  "adresse": "6 Terenez 29590 Rosnoën",
+  "cat": 0,
+  "conf": "",
+  "note": "Visites annoncées d'avril à septembre par une fiche de 2018 marquée « état incertain » ; vente sur place non établie, site officiel injoignable (503).",
+  "src": "https://www.cirkwi.com/fr/point-interet/680840-la-brasserie-du-bout-du-monde",
+  "extrait": "Visites : Ouvert d'avril à septembre",
+  "beers": [],
+  "choix": "Bières Térénez. Source : agrégateur de points d'intérêt (2018), seule page lisible."
+ },
+ {
+  "cle": "sirene:848906806",
+  "n": "Merlin Brasserie artisanale",
+  "c": "Penmarch",
+  "adresse": null,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.",
+  "src": "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
+  "extrait": "on tap or to take away at the brewery",
+  "beers": [],
+  "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Position au centre de Penmarch : l'adresse de brassage n'est pas publiée par la brasserie."
+ },
+ {
+  "cle": "sirene:332210582",
+  "n": "Brasserie Coreff",
+  "c": "Carhaix-Plouguer",
+  "adresse": "2 Place de la Gare, 29270 Carhaix-Plouguer",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec dégustations le samedi matin au marché (à l'Ambasad) ; vente à la brasserie non établie.",
+  "src": "https://brasserie-coreff.com/",
+  "extrait": "Chaque samedi matin pendant le marché, rendez-vous à l’Ambasad pour les sessions dégustations",
+  "beers": [
+   {
+    "type": "brune"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35. Téléphone publié : 02 98 93 00 70 (non repris, le lot n'a pas de champ contact)."
+ },
+ {
+  "cle": "sirene:949661300",
+  "n": "MicroBrasserie-Distillerie sOavenn",
+  "c": "Santec",
+  "adresse": "355 rue des Dentelles, 29250 Santec",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Boutique ouverte le vendredi et le samedi de 15 h à 19 h hors saison, d'après l'office de tourisme ; consommation sur place non établie.",
+  "src": "https://www.roscoff-tourisme.com/en/fiche/organismes-et-entreprises/microbrasserie-distillerie-soavenn-santec_TFOORGBRE029V54A41Z/",
+  "extrait": "The shop is open Fridays and Saturdays from 3pm to 7pm",
+  "beers": [],
+  "choix": "Page en anglais de l'office de tourisme ; le site de la brasserie ne donne pas d'horaires."
+ },
+ {
+  "cle": "sirene:891036212",
+  "n": "La Brasserie Graphique",
+  "c": "Carantec",
+  "adresse": "2 Rue du Kélenn, 29660 Carantec",
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie bio ; un annuaire cite une cave à bières, mais ni vente ni dégustation sur place ne sont établies.",
+  "src": "https://fr.gaultmillau.com/fr/artisans/la-brasserie-graphique",
+  "extrait": "Cave à bières",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "choix": "Annuaire seulement. SIRENE déclare Plouigneau : lieu actuel à confirmer (procédure de déménagement en attente)."
+ },
+ {
+  "cle": "sirene:883362469",
+  "n": "Sklent",
+  "c": "Landerneau",
+  "adresse": "1 rue Ernest Renan 29800 Landerneau",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Magasin de vente directe à la brasserie ; aucune consommation sur place lue.",
+  "src": "https://sklent.bzh/contact/",
+  "extrait": "OUVERTURE DU MAGASIN DE VENTE DIRECTE À LA BRASSERIE",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "choix": "Horaires lus par un agent (vendredi 15 h-19 h), non repris."
+ },
+ {
+  "cle": "sirene:901634857",
+  "n": "Kauri Brewery",
+  "c": "Plovan",
+  "adresse": "67 Lieu-dit Kervon, 29720 Plovan",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bières vendues à la brasserie sur rendez-vous, et bar de la brasserie du jeudi au samedi d'avril à septembre.",
+  "src": "https://fr.kauribrewery.com",
+  "extrait": "Disponibles directement à la brasserie sur rendez-vous & au bar de la brasserie du jeudi au samedi d’avril à septembre",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "lager"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:844297267",
+  "n": "En Bières Inconnues",
+  "c": "Brest",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Bières proposées dans les locaux de la brasserie à Brest et chez des revendeurs ; vente ou consommation sur place non établie.",
+  "src": "https://enbieresinconnues.fr/",
+  "extrait": "au sein de nos locaux à Brest et dans les caves, épiceries, bars et restaurant de la région",
+  "beers": [],
+  "choix": "Position au centre de Brest : l'adresse n'est pas relue."
+ },
+ {
+  "cle": "sirene:418671749",
+  "n": "Brasserie de Bretagne",
+  "c": "Concarneau",
+  "adresse": null,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Visite avec dégustation au bar « Le Bek » de la brasserie, et bar-boutique pour les particuliers.",
+  "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+  "extrait": "un moment d'échanges et de dégustation dans notre bar “Le Bek”",
+  "beers": [],
+  "choix": "Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même brasserie que le point OSM way/82190365 (placé à Trégunc). Position au centre de Concarneau."
+ },
+ {
+  "cle": "sirene:944561042",
+  "n": "Brasserie Síbín",
+  "c": "Plouguin",
+  "adresse": "4 rue de la Garenne, 29830 Plouguin",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Accueil à la brasserie pour dégustations, visites et ventes le mardi, le vendredi et le samedi.",
+  "src": "https://sibin.beer/contact",
+  "extrait": "Je vous reçois à la brasserie avec plaisir pour dégustations, visites, rencontres et ventes pendant les horaires",
+  "beers": [],
+  "choix": "Horaires lus sur la page : mardi 14:00–18:00, vendredi 14:00–19:00, samedi 10:00–13:00 / 14:00–18:00 (non repris)."
+ },
+ {
+  "cle": "sirene:902874148",
+  "n": "Brasserie de Trévarn",
+  "c": "Saint-Urbain",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente des produits sur place, d'après un annuaire de producteurs ; consommation sur place non établie.",
+  "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
+  "extrait": "Ce producteur vend ses produits sur place",
+  "beers": [],
+  "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que les points OSM node/5075303526 (Dirinon) et node/7496988886 (Merlin, Plougastel), d'après le site (« Merlin-Mignonne »)."
+ },
+ {
+  "cle": "sirene:839093820",
+  "n": "Brasserie Arvarus",
+  "c": "Ploumoguer",
+  "adresse": "Lieu-dit Messouflin, 29810 Ploumoguer",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Soirées brewpub chaque vendredi de 16 h à 22 h : bières à la pression sur place, bouteilles à emporter.",
+  "src": "https://arvarus.bzh/",
+  "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin",
+  "beers": [
+   {
+    "type": "stout"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact)."
+ },
+ {
+  "cle": "sirene:890786528",
+  "n": "Brasserie Diaoul",
+  "c": "Le Juch",
+  "adresse": "Kermenguy, 29100 Le Juch",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie ouverte le samedi de 10 h à 12 h ; consommation sur place non établie.",
+  "src": "https://brasseriediaoul.com/",
+  "extrait": "NOUS VOUS ACCUEILLONS CHAQUE SAMEDI DE 10H à 12h DANS NOTRE BOUTIQUE",
+  "beers": []
+ },
+ {
+  "cle": "sirene:880678347",
+  "n": "Le Grain du Ponant",
+  "c": "Riec-sur-Bélon",
+  "adresse": "7 Rue de Pont Len, 29340 Riec-sur-Bélon",
+  "cat": 0,
+  "conf": "",
+  "note": "Horaires d'été affichés sous « points de vente et de dégustation », à côté de l'adresse de l'atelier ; la page ne dit pas que ce lieu est l'atelier.",
+  "src": "https://www.le-grain-du-ponant.com/",
+  "extrait": "L'atelier : 7 Rue de Pont Len, 29340 Riec-sur-Bélon",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "choix": "Un agent proposait « acheter seulement » : la phrase ne le dit pas assez pour être retenue."
+ },
+ {
+  "cle": "sirene:421739947",
+  "n": "Brasserie Tri Martolod",
+  "c": "Concarneau",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).",
+  "src": "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
+  "extrait": "Magasin ouvert à l'année de 9h à 12h et de 14h à 18h",
+  "beers": [],
+  "choix": "Agrégateur de 2018 seulement. Position au centre de Concarneau."
+ },
+ {
+  "cle": "sirene:891808883",
+  "n": "Microbrasserie PAB",
+  "c": "Île-de-Batz",
+  "adresse": "Rue Neuve, 29253 Île-de-Batz",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie de l'île de Batz ; la page ne dit pas si l'on peut acheter ou consommer sur place.",
+  "src": "https://www.microbrasseriepab.com/",
+  "extrait": "Rue Neuve, 29253 Ile de Batz - France",
+  "beers": [],
+  "choix": "Même brasserie que le point OSM node/12985439390."
+ },
+ {
+  "cle": "sirene:978805604",
+  "n": "Brasserie Kerav'ale",
+  "c": "Roscoff",
+  "adresse": "565 Route de Rucat, 29680 Roscoff",
+  "cat": 0,
+  "conf": "",
+  "note": "Visites annoncées sur le site, commande en ligne ; vente ou dégustation sur place non établie.",
+  "src": "https://www.brasseriekeravale.fr/",
+  "extrait": "565 Route de Rucat - Keravel 29680 ROSCOFF",
+  "beers": [
+   {
+    "type": "blonde"
+   }
+  ],
+  "choix": "Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon)."
+ },
+ {
+  "cle": "sirene:794895581",
+  "n": "Brasserie D'Istribilh",
+  "c": "Plouider",
+  "adresse": "Lestevennok, 29260 Plouider",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie en activité d'après son site ; vente sur place et horaires non lus.",
+  "src": "https://www.distribilh.bzh/",
+  "extrait": "D'Istribilh, Lestevennok, 29260 Plouider",
+  "beers": []
+ },
+ {
+  "cle": "node/3558601597",
+  "n": "Brasserie An Alarc'h",
+  "c": "La Feuillée",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio de la coopérative Tri Martolod ; vente ou consommation sur place non établie.",
+  "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
+  "extrait": "À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne.",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Annuaire seulement ; le site trimartolod.fr répondait 503. Position au centre de La Feuillée."
+ }
+]

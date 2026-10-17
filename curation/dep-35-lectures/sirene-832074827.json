@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:832074827",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Bizhhh",
+   "c": "Le Rheu",
+   "d": "35",
+   "lat": 48.09789,
+   "lon": -1.79003,
+   "km": 565.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie du Rheu depuis 2017 ; ni adresse, ni horaires, ni vente lus.",
+   "addr": "Le Rheu",
+   "src": "https://tablejourney.com/france/rennes/breweries/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://tablejourney.com/france/rennes/breweries/"
+  ],
+  "extrait": "Brasserie de la Bizhhh has brewed in Le Rheu on the west edge of Rennes since 2017",
+  "choix": "Annuaire en anglais seulement. Position au centre du Rheu."
+ }
+}

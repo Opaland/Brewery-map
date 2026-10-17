@@ -1,0 +1,39 @@
+{
+ "candidat": "sirene:808071484",
+ "ajout": {
+  "fiche": {
+   "n": "Yermat Bier",
+   "c": "Locmiquélic",
+   "d": "56",
+   "lat": 47.72969,
+   "lon": -3.32459,
+   "km": 656.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières vendues dans la boutique attenante à la brasserie ; aucune dégustation lue sur cette page.",
+   "addr": "ZA Kervern, 56570 Locmiquélic",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/"
+  ],
+  "extrait": "les bières sont vendues directement dans la boutique attenante",
+  "choix": "Même brasserie que le point OSM node/9034736574 ; une autre fiche de tourisme dit « Achat, visite et dégustation possible sur place »."
+ }
+}

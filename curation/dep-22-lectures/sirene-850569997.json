@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:850569997",
+ "ajout": {
+  "fiche": {
+   "n": "Tiens bon la Barre",
+   "c": "Plouasne",
+   "d": "22",
+   "lat": 48.31169,
+   "lon": -2.01567,
+   "km": 591,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie d'après un annuaire ; vente et horaires non lus.",
+   "addr": "Plouasne",
+   "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/"
+  ],
+  "extrait": "2 la gare 22830 Plouasne",
+  "choix": "Annuaire seulement. Même adresse que la Brasserie Nautica : peut-être un ancien nom, lien non établi. Position au centre de Plouasne."
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:912126422",
+ "ajout": {
+  "fiche": {
+   "n": "Draenek",
+   "c": "Bain-de-Bretagne",
+   "d": "35",
+   "lat": 47.83621,
+   "lon": -1.68188,
+   "km": 545.8,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente directe à la brasserie le jeudi et le vendredi (10-12 h, 14-18 h), d'après un article de 2022 ; à reconfirmer sur le site.",
+   "addr": "Bain-de-Bretagne",
+   "src": "https://unidivers.fr/biere-draenek/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://unidivers.fr/biere-draenek/"
+  ],
+  "extrait": "10-12h – 14-18h",
+  "choix": "Article de 2022 ; adresse de l'article et de SIRENE discordantes. Position au centre de Bain-de-Bretagne."
+ }
+}

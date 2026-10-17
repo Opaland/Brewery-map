@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:949661300",
+ "ajout": {
+  "fiche": {
+   "n": "MicroBrasserie-Distillerie sOavenn",
+   "c": "Santec",
+   "d": "29",
+   "lat": 48.71125,
+   "lon": -4.01589,
+   "km": 743.1,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Boutique ouverte le vendredi et le samedi de 15 h à 19 h hors saison, d'après l'office de tourisme ; consommation sur place non établie.",
+   "addr": "355 rue des Dentelles, 29250 Santec",
+   "src": "https://www.roscoff-tourisme.com/en/fiche/organismes-et-entreprises/microbrasserie-distillerie-soavenn-santec_TFOORGBRE029V54A41Z/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.roscoff-tourisme.com/en/fiche/organismes-et-entreprises/microbrasserie-distillerie-soavenn-santec_TFOORGBRE029V54A41Z/",
+   "https://data.geopf.fr/geocodage/search?q=355+rue+des+Dentelles%2C+29250+Santec&limit=5"
+  ],
+  "extrait": "The shop is open Fridays and Saturdays from 3pm to 7pm",
+  "choix": "Page en anglais de l'office de tourisme ; le site de la brasserie ne donne pas d'horaires."
+ }
+}

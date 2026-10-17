@@ -1,0 +1,37 @@
+{
+ "candidat": "node/12409587194",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Estran (Grand Coeff)",
+   "c": "Étel",
+   "d": "56",
+   "lat": 47.65813,
+   "lon": -3.19398,
+   "km": 645,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie d'Étel ; la phrase lue renvoie à l'épicerie sans dire ce qu'on y achète.",
+   "addr": "4 rue Victor Hugo, 56410 Étel",
+   "src": "https://beer.grandcoeff.bzh/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://beer.grandcoeff.bzh/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+Victor+Hugo%2C+56410+%C3%89tel&limit=5"
+  ],
+  "extrait": "Si le brasseur n'est pas là, s'adresser à l'épicerie !",
+  "choix": "Même adresse que sirene:897811709 (Étel), probablement la même brasserie."
+ }
+}

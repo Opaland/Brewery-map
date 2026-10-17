@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:901093807",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Carabo",
+   "c": "Saint-Judoce",
+   "d": "22",
+   "lat": 48.36338,
+   "lon": -1.95356,
+   "km": 589.6,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Ouverte au public le vendredi de 17 h à 19 h ; vente sur place d'après un annuaire de producteurs, consommation non établie.",
+   "addr": "Saint-Judoce",
+   "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html"
+  ],
+  "extrait": "La Brasserie Carabo est ouverte au public tous les vendredis de 17h à 19h",
+  "choix": "Annuaire seulement (site officiel en 503). Deux adresses dans l'annuaire : position au centre de Saint-Judoce."
+ }
+}

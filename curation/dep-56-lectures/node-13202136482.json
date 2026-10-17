@@ -1,0 +1,26 @@
+{
+ "candidat": "node/13202136482",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie VOL 56",
+   "c": "Sarzeau",
+   "d": "56",
+   "lat": 47.52045,
+   "lon": -2.75621,
+   "km": 609.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site ne se lit que par son titre ; vente, horaires et bières non lus.",
+   "addr": "Sarzeau",
+   "src": "https://www.microbrasserie-vol56.fr",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.microbrasserie-vol56.fr"
+  ],
+  "extrait": "Microbrasserie VOL 56 | bières artisanales | Sarzeau, France",
+  "choix": "Site en JavaScript. Position au centre de Sarzeau."
+ }
+}

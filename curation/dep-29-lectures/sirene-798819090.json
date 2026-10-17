@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:798819090",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Bout du Monde",
+   "c": "Rosnoën",
+   "d": "29",
+   "lat": 48.2639,
+   "lon": -4.1967,
+   "km": 737.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites annoncées d'avril à septembre par une fiche de 2018 marquée « état incertain » ; vente sur place non établie, site officiel injoignable (503).",
+   "addr": "6 Terenez 29590 Rosnoën",
+   "src": "https://www.cirkwi.com/fr/point-interet/680840-la-brasserie-du-bout-du-monde",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.cirkwi.com/fr/point-interet/680840-la-brasserie-du-bout-du-monde",
+   "https://data.geopf.fr/geocodage/search?q=6+Terenez+29590+Rosno%C3%ABn&limit=5"
+  ],
+  "extrait": "Visites : Ouvert d'avril à septembre",
+  "choix": "Bières Térénez. Source : agrégateur de points d'intérêt (2018), seule page lisible."
+ }
+}

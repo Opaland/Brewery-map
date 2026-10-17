@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:984566414",
+ "ajout": {
+  "fiche": {
+   "n": "La Dinardaise Brasserie",
+   "c": "Dinard",
+   "d": "35",
+   "lat": 48.62072,
+   "lon": -2.07087,
+   "km": 611,
+   "cat": 0,
+   "conf": "",
+   "note": "Bières vendues en caves et boutiques locales et servies dans des cafés de Dinard ; vente à la brasserie non mentionnée.",
+   "addr": "1 Rue des Frères Boussac, 35800 Dinard",
+   "src": "https://www.dinardemeraudetourisme.com/en/fiche/la-dinardaise-brasserie-5V52O3JK",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "brune"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.dinardemeraudetourisme.com/en/fiche/la-dinardaise-brasserie-5V52O3JK",
+   "https://data.geopf.fr/geocodage/search?q=1+Rue+des+Fr%C3%A8res+Boussac%2C+35800+Dinard&limit=5"
+  ],
+  "extrait": "Whether blonde, red or brown",
+  "choix": "Page en anglais de l'office de tourisme seulement."
+ }
+}

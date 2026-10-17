@@ -1,0 +1,36 @@
+{
+ "candidat": "node/13926492186",
+ "ajout": {
+  "fiche": {
+   "n": "L'Armateur",
+   "c": "La Roche-Jaudy",
+   "d": "22",
+   "lat": 48.74485,
+   "lon": -3.26242,
+   "km": 694.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale ; le site ne dit ni vente ni dégustation sur place, ni horaires.",
+   "addr": "27 rue de la fontaine, 22450 La Roche-Jaudy",
+   "src": "https://www.brasserielarmateur.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "ambree"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserielarmateur.fr/",
+   "https://data.geopf.fr/geocodage/search?q=27+rue+de+la+fontaine%2C+22450+La+Roche-Jaudy&limit=5"
+  ],
+  "extrait": "La brasserie est située au 27 rue de la fontaine"
+ }
+}

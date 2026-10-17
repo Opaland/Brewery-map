@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:848906806",
+ "ajout": {
+  "fiche": {
+   "n": "Merlin Brasserie artisanale",
+   "c": "Penmarch",
+   "d": "29",
+   "lat": 47.81147,
+   "lon": -4.34121,
+   "km": 732.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.",
+   "addr": "Penmarch",
+   "src": "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/"
+  ],
+  "extrait": "on tap or to take away at the brewery",
+  "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Position au centre de Penmarch : l'adresse de brassage n'est pas publiée par la brasserie."
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:815113709",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Régionale de l'Ouest",
+   "c": "Tonquédec",
+   "d": "22",
+   "lat": 48.67671,
+   "lon": -3.39544,
+   "km": 700.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie industrielle ; seul créneau public lu, une visite le 30 mai 2026. Vente sur place non établie.",
+   "addr": "Kerbrunec, 22140 Tonquédec",
+   "src": "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/"
+  ],
+  "extrait": "Brasserie régionale de l'Ouest, Kerbrunec, Tonquédec (22140)",
+  "choix": "Brasserie industrielle (ex-L'Hirondelle) : à Cédric de dire si elle entre dans le périmètre."
+ }
+}

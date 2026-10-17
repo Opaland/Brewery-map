@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:831156344",
+ "ajout": {
+  "fiche": {
+   "n": "La Fréheloise",
+   "c": "Fréhel",
+   "d": "22",
+   "lat": 48.63239,
+   "lon": -2.37299,
+   "km": 631,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site a une rubrique « Boutique – Bar » sans dire ce qu'on y fait ; horaires non lus.",
+   "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
+   "src": "https://www.lafreheloise.bzh/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lafreheloise.bzh/"
+  ],
+  "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel",
+  "choix": "Téléphone publié sur la page : 02 96 86 36 28 (non repris)."
+ }
+}

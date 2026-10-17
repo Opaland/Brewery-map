@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:984403014",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Fusion",
+   "c": "Bourgbarré",
+   "d": "35",
+   "lat": 48.00042,
+   "lon": -1.60103,
+   "km": 548,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie récente, canettes et fûts ; un lieu de dégustation est seulement à l'étude.",
+   "addr": "6 Rue des Placis, 35230 Bourgbarré",
+   "src": "https://unidivers.fr/brasserie-fusion-bourgbarre/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://unidivers.fr/brasserie-fusion-bourgbarre/",
+   "https://data.geopf.fr/geocodage/search?q=6+Rue+des+Placis%2C+35230+Bourgbarr%C3%A9&limit=5"
+  ],
+  "extrait": "un projet d'espace de dégustation/taproom est également à l'étude",
+  "choix": "Article d'annuaire local seulement."
+ }
+}

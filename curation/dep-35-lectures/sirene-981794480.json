@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:981794480",
+ "ajout": {
+  "fiche": {
+   "n": "Choque microbrasserie",
+   "c": "Guichen",
+   "d": "35",
+   "lat": 47.96353,
+   "lon": -1.79694,
+   "km": 559.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Taproom du mardi au dimanche et vente à emporter du mardi au vendredi, 10 h-19 h.",
+   "addr": "Guichen",
+   "src": "https://www.choquemicrobrasserie.fr",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.choquemicrobrasserie.fr"
+  ],
+  "extrait": "Vente à emporter",
+  "choix": "La page porte aussi les horaires du taproom. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:943130591",
+ "ajout": {
+  "fiche": {
+   "n": "Mille Goules",
+   "c": "Hémonstoir",
+   "d": "22",
+   "lat": 48.15698,
+   "lon": -2.85265,
+   "km": 640,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie ; horaires non publiés.",
+   "addr": "Hémonstoir",
+   "src": "https://millegoules.com/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://millegoules.com/"
+  ],
+  "extrait": "Achetez nos bières directement à la brasserie.",
+  "choix": "Position au centre d'Hémonstoir : l'adresse n'est pas relue."
+ }
+}

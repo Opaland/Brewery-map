@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:839093820",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Arvarus",
+   "c": "Ploumoguer",
+   "d": "29",
+   "lat": 48.39494,
+   "lon": -4.71058,
+   "km": 777.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Soirées brewpub chaque vendredi de 16 h à 22 h : bières à la pression sur place, bouteilles à emporter.",
+   "addr": "Lieu-dit Messouflin, 29810 Ploumoguer",
+   "src": "https://arvarus.bzh/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "stout"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://arvarus.bzh/"
+  ],
+  "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin",
+  "choix": "Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact)."
+ }
+}

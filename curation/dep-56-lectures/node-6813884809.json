@@ -1,0 +1,31 @@
+{
+ "candidat": "node/6813884809",
+ "ajout": {
+  "fiche": {
+   "n": "Malterie-Brasserie Saint-Georges",
+   "c": "Guern",
+   "d": "56",
+   "lat": 48.02813,
+   "lon": -3.05078,
+   "km": 648.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la propriété ; ouvert le jeudi de 17 h à 19 h ou sur demande, d'après l'office de tourisme.",
+   "addr": "11 Saint-Georges, 56310 Guern",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+   "https://data.geopf.fr/geocodage/search?q=11+Saint-Georges%2C+56310+Guern&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Site officiel en 403."
+ }
+}

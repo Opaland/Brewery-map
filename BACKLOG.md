@@ -218,6 +218,15 @@ chacun demande une décision ou une vérification de source.
 
 *(rempli en S5)*
 
+- **S249, à relancer** : 12 candidats bretons cherchés une fois au plus,
+  le quota de recherches web de la session étant épuisé (listés « À
+  relancer » dans `curation/dep-35.md` et `curation/dep-56.md`).
+- **Contacts des lots départementaux** : `outils/departement.ts lectures`
+  n'a pas de champ contact. Les liens Untappd et téléphones lus en
+  Bretagne (S249) restent dans les notes des lots. Une story est à écrire
+  pour les porter (`contact.untappd`, `contact.tel`), avec la même relecture
+  que les extraits.
+
 - S36 — restes de la revue adverse :
   - deux onglets qui écrivent la même note : le dernier gagne, et le
     curseur de l'autre saute en fin de texte (S104) ;

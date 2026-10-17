@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:832969869",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale L'Âne Doré",
+   "c": "Languidic",
+   "d": "56",
+   "lat": 47.86207,
+   "lon": -3.09224,
+   "km": 644.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Bar-brasserie aux bières artisanales à la pression, selon un agrégateur ; rien de la brasserie elle-même.",
+   "addr": "15 Rue du Commerce, 56440 Languidic",
+   "src": "https://wanderlog.com/place/details/9889947/brasserie-artisanale-lâne-doré--kerazen-bar",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://wanderlog.com/place/details/9889947/brasserie-artisanale-lâne-doré--kerazen-bar",
+   "https://data.geopf.fr/geocodage/search?q=15+Rue+du+Commerce%2C+56440+Languidic&limit=5"
+  ],
+  "extrait": "Brasserie Artisanale L'Âne Doré",
+  "choix": "Agrégateur d'avis seulement (Kerazen Bar)."
+ }
+}

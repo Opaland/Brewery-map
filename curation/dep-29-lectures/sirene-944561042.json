@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:944561042",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Síbín",
+   "c": "Plouguin",
+   "d": "29",
+   "lat": 48.52815,
+   "lon": -4.61402,
+   "km": 776.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Accueil à la brasserie pour dégustations, visites et ventes le mardi, le vendredi et le samedi.",
+   "addr": "4 rue de la Garenne, 29830 Plouguin",
+   "src": "https://sibin.beer/contact",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://sibin.beer/contact",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+de+la+Garenne%2C+29830+Plouguin&limit=5"
+  ],
+  "extrait": "Je vous reçois à la brasserie avec plaisir pour dégustations, visites, rencontres et ventes pendant les horaires",
+  "choix": "Horaires lus sur la page : mardi 14:00–18:00, vendredi 14:00–19:00, samedi 10:00–13:00 / 14:00–18:00 (non repris)."
+ }
+}

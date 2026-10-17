@@ -1,0 +1,308 @@
+[
+ {
+  "cle": "sirene:909420929",
+  "n": "Brasserie Beltane",
+  "c": "Rennes",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie ouverte en 2022 avec un lieu de dégustation annoncé ; source de 2022, rien de plus récent.",
+  "src": "https://unidivers.fr/microbrasserie-beltane-rennes/",
+  "extrait": "accueilleront les consommateurs dans un lieu de dégustation pour une consommation sur place",
+  "beers": [],
+  "choix": "Article de 2022 au futur : catégorie non retenue. Position au centre de Rennes."
+ },
+ {
+  "cle": "sirene:832074827",
+  "n": "Brasserie de la Bizhhh",
+  "c": "Le Rheu",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie du Rheu depuis 2017 ; ni adresse, ni horaires, ni vente lus.",
+  "src": "https://tablejourney.com/france/rennes/breweries/",
+  "extrait": "Brasserie de la Bizhhh has brewed in Le Rheu on the west edge of Rennes since 2017",
+  "beers": [],
+  "choix": "Annuaire en anglais seulement. Position au centre du Rheu."
+ },
+ {
+  "cle": "sirene:833262561",
+  "n": "Brasserie du Vieux Singe",
+  "c": "Saint-Jacques-de-la-Lande",
+  "adresse": "4b rue Janig Corlay, 35136 Saint-Jacques-de-la-Lande",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Magasin ouvert le jeudi de 14 h à 18 h et le vendredi de 10 h à 18 h ; aucune consommation sur place lue.",
+  "src": "https://www.vieuxsinge.com",
+  "extrait": "Le magasin est ouvert le jeudi de 14h à 18h et le vendredi de 10h à 18h en continu.",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "sour"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:921977443",
+  "n": "Brasserie Smash",
+  "c": "Rennes",
+  "adresse": "4 bis Rue du Lieutenant Colonel Dubois, 35000 Rennes",
+  "cat": 0,
+  "conf": "",
+  "note": "Horaires publiés (lundi-vendredi 9 h-18 h) et location de tireuses ; vente ou consommation sur place non dites.",
+  "src": "https://smash.bzh",
+  "extrait": "du lundi au vendredi 9h00 - 18h00",
+  "beers": [
+   {
+    "type": "sour"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Page Untappd citée par le site : https://untappd.com/brasserie_smash/ (non reprise). Téléphone publié : 02 90 22 87 00."
+ },
+ {
+  "cle": "sirene:984403014",
+  "n": "Brasserie Fusion",
+  "c": "Bourgbarré",
+  "adresse": "6 Rue des Placis, 35230 Bourgbarré",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie récente, canettes et fûts ; un lieu de dégustation est seulement à l'étude.",
+  "src": "https://unidivers.fr/brasserie-fusion-bourgbarre/",
+  "extrait": "un projet d'espace de dégustation/taproom est également à l'étude",
+  "beers": [],
+  "choix": "Article d'annuaire local seulement."
+ },
+ {
+  "cle": "sirene:984566414",
+  "n": "La Dinardaise Brasserie",
+  "c": "Dinard",
+  "adresse": "1 Rue des Frères Boussac, 35800 Dinard",
+  "cat": 0,
+  "conf": "",
+  "note": "Bières vendues en caves et boutiques locales et servies dans des cafés de Dinard ; vente à la brasserie non mentionnée.",
+  "src": "https://www.dinardemeraudetourisme.com/en/fiche/la-dinardaise-brasserie-5V52O3JK",
+  "extrait": "Whether blonde, red or brown",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "Page en anglais de l'office de tourisme seulement."
+ },
+ {
+  "cle": "sirene:912126422",
+  "n": "Draenek",
+  "c": "Bain-de-Bretagne",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe à la brasserie le jeudi et le vendredi (10-12 h, 14-18 h), d'après un article de 2022 ; à reconfirmer sur le site.",
+  "src": "https://unidivers.fr/biere-draenek/",
+  "extrait": "10-12h – 14-18h",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Article de 2022 ; adresse de l'article et de SIRENE discordantes. Position au centre de Bain-de-Bretagne."
+ },
+ {
+  "cle": "sirene:914505649",
+  "n": "Brasserie Minimum",
+  "c": "Montreuil-sur-Ille",
+  "adresse": "20 avenue Alexis Rey, 35440 Montreuil-sur-Ille",
+  "cat": 0,
+  "conf": "",
+  "note": "Gamme et boutique en ligne ; le site ne dit pas si l'on peut acheter ou consommer sur place.",
+  "src": "https://brasserieminimum.fr/",
+  "extrait": "Brasserie Minimum, 20 avenue Alexis Rey, 35440 Montreuil sur Ille",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Peut-être la « brasserie de Montreuil-sur-Ille » de l'annuaire Gault&Millau, citée pour « Brittany's » (node/6814774338) : lien non établi."
+ },
+ {
+  "cle": "sirene:539513101",
+  "n": "Brasserie Sainte Colombe",
+  "c": "Corps-Nuds",
+  "adresse": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar et vente directe le vendredi de 14 h à 20 h 30.",
+  "src": "https://www.brasserie-sainte-colombe.com/",
+  "extrait": "Tous les vendredis 14h - 20h30",
+  "beers": [],
+  "choix": "Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe)."
+ },
+ {
+  "cle": "sirene:981674021",
+  "n": "Brasserie Louarn",
+  "c": "Montfort-sur-Meu",
+  "adresse": null,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente en boutique à la brasserie et sur les événements ; horaires sur demande.",
+  "src": "https://louarn.bzh",
+  "extrait": "Oui, en boutique à la brasserie et sur les événements.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu."
+ },
+ {
+  "cle": "sirene:812510691",
+  "n": "Skumenn",
+  "c": "Cesson-Sévigné",
+  "adresse": "8 impasse des Charmilles, 35510 Cesson-Sévigné",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub : bar et cave sur place, magasin de vente directe ; ouvert du mardi au samedi.",
+  "src": "https://www.skumenn.com/brewpub",
+  "extrait": "passez simplement faire le plein de bière dans notre magasin de vente directe",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80."
+ },
+ {
+  "cle": "sirene:981794480",
+  "n": "Choque microbrasserie",
+  "c": "Guichen",
+  "adresse": null,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Taproom du mardi au dimanche et vente à emporter du mardi au vendredi, 10 h-19 h.",
+  "src": "https://www.choquemicrobrasserie.fr",
+  "extrait": "Vente à emporter",
+  "beers": [],
+  "choix": "La page porte aussi les horaires du taproom. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
+ },
+ {
+  "cle": "node/11146069022",
+  "n": "Le Brasseur Bavarois",
+  "c": "Pleugueneuc",
+  "adresse": "5 La Coudraie, 35720 Pleugueneuc",
+  "cat": 0,
+  "conf": "",
+  "note": "Vente en ligne et sur les marchés ; horaires publiés (lundi, mardi, mercredi, vendredi 12 h–19 h) sans dire ce qu'on fait à la brasserie.",
+  "src": "https://lebrasseurbavarois.fr/",
+  "extrait": "5 La Coudraie 35720 Pleugueneuc",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Même brasserie que sirene:843752312 (Pleugueneuc). OSM la plaçait à Plesder."
+ },
+ {
+  "cle": "node/7491942730",
+  "n": "Brasserie Plouc",
+  "c": "Plerguer",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie installée à Plerguer d'après un annuaire ; rien sur la vente ou l'accueil.",
+  "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
+  "extrait": "installée à Plerguer",
+  "beers": [],
+  "choix": "Annuaire seulement ; adresses contradictoires. Position au centre de Plerguer."
+ },
+ {
+  "cle": "way/1000859372",
+  "n": "Ferme-Brasserie Drao",
+  "c": "Melesse",
+  "adresse": null,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique ouverte le vendredi de 14 h à 18 h ; rien sur une consommation sur place.",
+  "src": "https://brasseriedrao.com/",
+  "extrait": "NOTRE BOUTIQUE EST OUVERTE LE VENDREDI DE 14H À 18H.",
+  "beers": [],
+  "choix": "Position au centre de Melesse : l'adresse n'est pas relue."
+ },
+ {
+  "cle": "way/135589728",
+  "n": "La brasserie des Marais",
+  "c": "Bains-sur-Oust",
+  "adresse": null,
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "La brasserie ne reçoit pas de visiteurs pour le moment ; bières vendues chez des revendeurs. Un déménagement est annoncé.",
+  "src": "https://labrasseriedesmarais.wordpress.com/",
+  "extrait": "La brasserie ne peut pas recevoir de visiteurs pour le moment.",
+  "beers": [],
+  "choix": "La commune vient d'OSM ; la page dit seulement « dans les marais de Redon »."
+ },
+ {
+  "cle": "node/6820098489",
+  "n": "Brasserie l'Embardée",
+  "c": "Fougères",
+  "adresse": "3/5 rue Fos Kéraly, 35300 Fougères",
+  "cat": 0,
+  "conf": "",
+  "note": "Bouteilles et fûts listés ; ni vente ni dégustation sur place, ni horaires indiqués.",
+  "src": "https://www.brasserielembardee.fr/",
+  "extrait": "3/5 rue Fos Kéraly, Fougères",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   }
+  ]
+ }
+]

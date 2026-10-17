@@ -1,0 +1,613 @@
+{
+ "lot": "dep-56",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de l'Estran (Grand Coeff)",
+    "c": "Étel",
+    "d": "56",
+    "lat": 47.65813,
+    "lon": -3.19398,
+    "km": 645,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie d'Étel ; la phrase lue renvoie à l'épicerie sans dire ce qu'on y achète.",
+    "addr": "4 rue Victor Hugo, 56410 Étel",
+    "src": "https://beer.grandcoeff.bzh/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "stout"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://beer.grandcoeff.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+Victor+Hugo%2C+56410+%C3%89tel&limit=5"
+   ],
+   "extrait": "Si le brasseur n'est pas là, s'adresser à l'épicerie !",
+   "choix": "Même adresse que sirene:897811709 (Étel), probablement la même brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Déferle Micro-brasserie",
+    "c": "Plouhinec",
+    "d": "56",
+    "lat": 47.70135,
+    "lon": -3.21164,
+    "km": 647.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Lieu de production et de dégustation de bière (guinguette) ; la vente n'est pas précisée.",
+    "addr": "8 le loch, 56680 Plouhinec",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/deferle-microbrasserie-et-guinguette-plouhinec-fr-5722591/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/deferle-microbrasserie-et-guinguette-plouhinec-fr-5722591/",
+    "https://data.geopf.fr/geocodage/search?q=8+le+loch%2C+56680+Plouhinec&limit=5"
+   ],
+   "extrait": "Bienvenue chez Déferle Micro-brasserie, un lieu de production et de dégustation de bière",
+   "choix": "OSM la plaçait à Sainte-Hélène."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie VOL 56",
+    "c": "Sarzeau",
+    "d": "56",
+    "lat": 47.52045,
+    "lon": -2.75621,
+    "km": 609.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site ne se lit que par son titre ; vente, horaires et bières non lus.",
+    "addr": "Sarzeau",
+    "src": "https://www.microbrasserie-vol56.fr",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.microbrasserie-vol56.fr"
+   ],
+   "extrait": "Microbrasserie VOL 56 | bières artisanales | Sarzeau, France",
+   "choix": "Site en JavaScript. Position au centre de Sarzeau."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Bambelle",
+    "c": "Saint-Gravé",
+    "d": "56",
+    "lat": 47.72123,
+    "lon": -2.29872,
+    "km": 583.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie qui distribue dans le département ; rien sur la vente sur place ni les horaires.",
+    "addr": "Lanvaux, 56220 Saint-Gravé",
+    "src": "http://www.labambelle.com",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.labambelle.com"
+   ],
+   "extrait": "dans le département et quelques communes des départements voisins"
+  },
+  {
+   "fiche": {
+    "n": "Malterie-Brasserie Saint-Georges",
+    "c": "Guern",
+    "d": "56",
+    "lat": 48.02813,
+    "lon": -3.05078,
+    "km": 648.3,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Vente à la propriété ; ouvert le jeudi de 17 h à 19 h ou sur demande, d'après l'office de tourisme.",
+    "addr": "11 Saint-Georges, 56310 Guern",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+    "https://data.geopf.fr/geocodage/search?q=11+Saint-Georges%2C+56310+Guern&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Site officiel en 403."
+  },
+  {
+   "fiche": {
+    "n": "L'âne Brasseur",
+    "c": "Saint-Aignan",
+    "d": "56",
+    "lat": 48.1755,
+    "lon": -3.04065,
+    "km": 653.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie artisanale avec gîte d'étape ; ni vente ni horaires sur la page lue.",
+    "addr": "Lann Guilloux, 56480 Saint-Aignan",
+    "src": "https://anebrasseur.fr/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://anebrasseur.fr/"
+   ],
+   "extrait": "Micro-Brasserie Artisanale",
+   "choix": "Téléphone publié : 02 56 62 61 03."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Rhuys (P'tite Mamm)",
+    "c": "Surzur",
+    "d": "56",
+    "lat": 47.56438,
+    "lon": -2.62176,
+    "km": 601,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Visite et dégustation à la brasserie, bar le vendredi soir, d'après l'office de tourisme ; le site annonce la vente directe le jeudi et le vendredi.",
+    "addr": "Surzur",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/"
+   ],
+   "extrait": "Bar le vendredi soir",
+   "choix": "Position au centre de Surzur."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Akène",
+    "c": "Saint-Léry",
+    "d": "56",
+    "lat": 48.09021,
+    "lon": -2.26075,
+    "km": 596.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Petite brasserie depuis 2020 ; bières vendues en épiceries, caves et marchés. Vente sur place non lue.",
+    "addr": "Saint-Léry",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/"
+   ],
+   "extrait": "Petite brasserie produisant des bières au style marqué depuis 2020",
+   "choix": "Fiche de tourisme seulement. Position au centre de Saint-Léry."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Gwennili",
+    "c": "Locoal-Mendon",
+    "d": "56",
+    "lat": 47.69819,
+    "lon": -3.10669,
+    "km": 640.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Vente directe annoncée, sans lieu ni horaires sur la page.",
+    "addr": "Locoal-Mendon",
+    "src": "https://brasserie-gwennili.fr/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-gwennili.fr/"
+   ],
+   "extrait": "En vente directe",
+   "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où. Position au centre de Locoal-Mendon."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de l'Hermine",
+    "c": "Belz",
+    "d": "56",
+    "lat": 47.67316,
+    "lon": -3.16439,
+    "km": 643.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Ses bières sont servies « de la cuve au verre » au restaurant Ivre Mer, à Belz ; le lieu de la brasserie n'est pas établi.",
+    "addr": "Belz",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/"
+   ],
+   "extrait": "les bières bretonnes de la Brasserie de l’Hermine, servies « de la cuve au verre »",
+   "choix": "Page d'un restaurant seulement. Position au centre de Belz."
+  },
+  {
+   "fiche": {
+    "n": "Yermat Bier",
+    "c": "Locmiquélic",
+    "d": "56",
+    "lat": 47.72969,
+    "lon": -3.32459,
+    "km": 656.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières vendues dans la boutique attenante à la brasserie ; aucune dégustation lue sur cette page.",
+    "addr": "ZA Kervern, 56570 Locmiquélic",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/"
+   ],
+   "extrait": "les bières sont vendues directement dans la boutique attenante",
+   "choix": "Même brasserie que le point OSM node/9034736574 ; une autre fiche de tourisme dit « Achat, visite et dégustation possible sur place »."
+  },
+  {
+   "fiche": {
+    "n": "La Belle Joie",
+    "c": "Hennebont",
+    "d": "56",
+    "lat": 47.81016,
+    "lon": -3.26647,
+    "km": 655.3,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Boutique sur le lieu de production et bar attenant (bières à la pression) en horaires after-work.",
+    "addr": "181 rue Maréchal Joffre, 56700 Hennebont",
+    "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "brune"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+    "https://data.geopf.fr/geocodage/search?q=181+rue+Mar%C3%A9chal+Joffre%2C+56700+Hennebont&limit=5"
+   ],
+   "extrait": "Un Bar attenant à la brasserie vous accueillera en horaires after-work",
+   "choix": "La vente se lit sur la même page : « la boutique située directement sur le lieu de production à Hennebont ». Même brasserie que le point OSM node/7494891224 (Kervignac)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Kerpiton",
+    "c": "Loyat",
+    "d": "56",
+    "lat": 48.00213,
+    "lon": -2.42791,
+    "km": 604.2,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Visite, vente et dégustation sur rendez-vous uniquement ; fermée du 15 août au 15 septembre.",
+    "addr": "8 rue des Châtaigniers, 56800 Loyat",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-kerpiton-loyat-fr-4434079/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blanche"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-kerpiton-loyat-fr-4434079/",
+    "https://data.geopf.fr/geocodage/search?q=8+rue+des+Ch%C3%A2taigniers%2C+56800+Loyat&limit=5"
+   ],
+   "extrait": "Visite, vente, discussion et dégustation possible sur rendez-vous uniquement.",
+   "choix": "Un agent proposait « acheter et consommer » : une dégustation de visite n'est pas un bar, d'où « acheter seulement »."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie artisanale L'Âne Doré",
+    "c": "Languidic",
+    "d": "56",
+    "lat": 47.86207,
+    "lon": -3.09224,
+    "km": 644.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Bar-brasserie aux bières artisanales à la pression, selon un agrégateur ; rien de la brasserie elle-même.",
+    "addr": "15 Rue du Commerce, 56440 Languidic",
+    "src": "https://wanderlog.com/place/details/9889947/brasserie-artisanale-lâne-doré--kerazen-bar",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://wanderlog.com/place/details/9889947/brasserie-artisanale-lâne-doré--kerazen-bar",
+    "https://data.geopf.fr/geocodage/search?q=15+Rue+du+Commerce%2C+56440+Languidic&limit=5"
+   ],
+   "extrait": "Brasserie Artisanale L'Âne Doré",
+   "choix": "Agrégateur d'avis seulement (Kerazen Bar)."
+  },
+  {
+   "fiche": {
+    "n": "La Bière de Groix",
+    "c": "Groix",
+    "d": "56",
+    "lat": 47.63796,
+    "lon": -3.46228,
+    "km": 663.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de l'île de Groix ; la fiche classe « vente à la ferme » sans phrase qui la décrive.",
+    "addr": "ZA Le Gripp, 56590 Groix",
+    "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX"
+   ],
+   "extrait": "ZA Le Gripp 56590 ILE DE GROIX",
+   "choix": "SIRENE déclare Locqueltas. Téléphone de la fiche : 09 51 12 41 23."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Barque",
+    "c": "Malestroit",
+    "d": "56",
+    "lat": 47.80836,
+    "lon": -2.3793,
+    "km": 592.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Bières en bouteille et en fût, location de tireuse ; le lieu de vente n'est pas dit.",
+    "addr": "4 chemin des Tanneurs, 56140 Malestroit",
+    "src": "https://microbrasseriebarque.bzh",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://microbrasseriebarque.bzh",
+    "https://data.geopf.fr/geocodage/search?q=4+chemin+des+Tanneurs%2C+56140+Malestroit&limit=5"
+   ],
+   "extrait": "des fûts de 20L sont disponibles à la vente",
+   "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où."
+  },
+  {
+   "fiche": {
+    "n": "Bar Brasserie Artisanale l'Etrille",
+    "c": "Locmariaquer",
+    "d": "56",
+    "lat": 47.58011,
+    "lon": -2.96025,
+    "km": 625.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Bar-buvette avec vente à emporter selon l'office de tourisme ; rien ne dit que la bière est brassée ou vendue sur place.",
+    "addr": "2 Bellevue, 56740 Locmariaquer",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-brasserie-artisanale-letrille-locmariaquer-fr-4386947/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-brasserie-artisanale-letrille-locmariaquer-fr-4386947/",
+    "https://data.geopf.fr/geocodage/search?q=2+Bellevue%2C+56740+Locmariaquer&limit=5"
+   ],
+   "extrait": "Vente à emporter",
+   "choix": "Site brasserieetrille.com injoignable (DNS)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Domani",
+    "c": "Theix-Noyalo",
+    "d": "56",
+    "lat": 47.6304,
+    "lon": -2.64973,
+    "km": 605.2,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Commande en ligne et retrait à la brasserie (Click & Collect) ; consommation sur place non mentionnée.",
+    "addr": "Theix-Noyalo",
+    "src": "https://www.brasserie-domani.fr/",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-domani.fr/"
+   ],
+   "extrait": "Click & Collect directement à la brasserie",
+   "choix": "Position au centre de Theix-Noyalo."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Brume",
+    "c": "Questembert",
+    "d": "56",
+    "lat": 47.6639,
+    "lon": -2.44,
+    "km": 591.6,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bar Horizon sur le site de la brasserie, au pied des cuves, d'après l'office de tourisme.",
+    "addr": "1 Rue Édouard Branly, 56230 Questembert",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+    "https://data.geopf.fr/geocodage/search?q=1+Rue+%C3%89douard+Branly%2C+56230+Questembert&limit=5"
+   ],
+   "extrait": "Passer un moment convivial au pied des cuves dans notre bar HORIZON"
+  },
+  {
+   "fiche": {
+    "n": "Horla",
+    "c": "Grand-Champ",
+    "d": "56",
+    "lat": 47.76232,
+    "lon": -2.85013,
+    "km": 624.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Nano-brasserie bio ; vente ou consommation sur place non établie.",
+    "addr": "Grand-Champ",
+    "src": "https://untappd.com/MicrobrasserieHorla",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "sour"
+     },
+     {
+      "type": "stout"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/MicrobrasserieHorla"
+   ],
+   "extrait": "Grand-Champ, 56 - BZH",
+   "choix": "Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Même brasserie probable que personne:6 (Horla, Grand-Champ). Position au centre de Grand-Champ."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie l'Esk'ale",
+    "c": "Kernascléden",
+    "d": "56",
+    "lat": 48.00633,
+    "lon": -3.32207,
+    "km": 666.4,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Boutique sur le lieu de production, d'après l'office de tourisme ; consommation sur place non établie.",
+    "addr": "25 Rue des Rohan, 56540 Kernascléden",
+    "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/microbrasserie-leskale-kernascleden-fr-5047193/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/microbrasserie-leskale-kernascleden-fr-5047193/",
+    "https://data.geopf.fr/geocodage/search?q=25+Rue+des+Rohan%2C+56540+Kernascl%C3%A9den&limit=5"
+   ],
+   "extrait": "Venez découvrir notre boutique et notre lieu de production",
+   "choix": "Le site de la brasserie ne se lit pas sans JavaScript."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Casse-Grain",
+    "c": "Damgan",
+    "d": "56",
+    "lat": 47.519,
+    "lon": -2.58231,
+    "km": 596.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Visites guidées avec dégustation sur réservation ; vente directe non établie.",
+    "addr": "2 impasse des Lilas, 56750 Damgan",
+    "src": "https://www.damgan-larochebernard-tourisme.com/en/agenda/visite-de-la-brasserie-casse-grain/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.damgan-larochebernard-tourisme.com/en/agenda/visite-de-la-brasserie-casse-grain/",
+    "https://data.geopf.fr/geocodage/search?q=2+impasse+des+Lilas%2C+56750+Damgan&limit=5"
+   ],
+   "extrait": "During friendly guided tours, delve into the behind-the-scenes of brewing",
+   "choix": "Page en anglais de l'office de tourisme."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Lancelot",
+    "c": "Val d'Oust",
+    "d": "56",
+    "lat": 47.87079,
+    "lon": -2.47533,
+    "km": 602,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique ouverte au public toute l'année, du lundi au vendredi (10 h-12 h 30, 13 h 30-17 h) ; rien sur une consommation sur place.",
+    "addr": "7 La Mine, 56460 Val d'Oust",
+    "src": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+    "https://data.geopf.fr/geocodage/search?q=7+La+Mine%2C+56460+Val+d%27Oust&limit=5"
+   ],
+   "extrait": "du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h",
+   "choix": "Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre."
+  }
+ ]
+}
