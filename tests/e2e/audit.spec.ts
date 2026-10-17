@@ -54,10 +54,14 @@ test('m3 — zoomer à fond ne demande pas de tuile plus fine que le zoom 14 («
   await page.goto('/')
   await versLaCarte(page)
   const zoomer = page.getByRole('button', { name: 'Zoomer', exact: true })
-  for (let i = 0; i < 10; i++) {
-    await zoomer.click()
+  // Jusqu'au zoom maximal de la carte : le bouton se désactive alors, parfois
+  // entre la vérification et le clic (vu en CI). `force` ne l'attend pas, et
+  // un bouton désactivé ignore le clic (CLAUDE.md §6ter : l'état final).
+  for (let i = 0; i < 20; i++) {
+    await zoomer.click({ force: true })
     await page.waitForTimeout(150)
   }
+  await expect(zoomer).toBeDisabled()
   await page.waitForTimeout(800)
   expect(niveaux.length).toBeGreaterThan(0)
   expect(Math.max(...niveaux)).toBeLessThanOrEqual(14)
