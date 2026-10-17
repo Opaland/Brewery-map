@@ -487,7 +487,7 @@ Choix du vérificateur : Site brasserieetrille.com injoignable (DNS).
 - contact.verifieLe : (vide) → 2026-10-17
 - horaires.0.nature : (vide) → vente
 - horaires.0.ven : (vide) → 16 h – 19 h
-- horaires.0.remarque : (vide) → Retrait des commandes ; en juillet et août, aussi le samedi de 10 h à 13 h.
+- horaires.0.remarque : (vide) → En juillet et août, aussi le samedi de 10 h à 13 h.
 - horaires.0.source : (vide) → https://www.brasserie-domani.fr/
 - horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
@@ -625,4 +625,4 @@ Extrait lu : « du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h »
 
 Choix du vérificateur : Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre.
 
-Empreinte du lot : 9ad9d9cd2d30
+Empreinte du lot : aa1713fac2de

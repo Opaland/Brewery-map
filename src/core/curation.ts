@@ -510,9 +510,13 @@ const JOURS_DE_LA_SEMAINE = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'] as
 function heureSurLaPage(heure: string, texte: string): boolean {
   const [hh = '', mm = ''] = heure.split(':')
   const h = String(Number(hh))
-  const minutes = mm === '00' ? '(?:00)?' : mm
-  const ecrite = new RegExp(`(?<!\\d)0?${h}\\s*[h:]\\s*${minutes}(?!\\d)`, 'i')
-  const enMots = (heure === '00:00' && /minuit/i.test(texte)) || (heure === '12:00' && /midi/i.test(texte))
+  // « h » seul ou « heure(s) », jamais le début d'un mot (« 12 hectolitres ») ;
+  // l'heure pleine n'est pas suivie d'autres minutes (« 14 h 30 » n'est pas 14:00).
+  const separateur = '(?:heures?(?![a-zà-ÿ])|h(?![a-zà-ÿ])|:)'
+  const minutes = mm === '00' ? '(?:\\s*00)?(?!\\s*\\d)' : `\\s*${mm}(?!\\d)`
+  const ecrite = new RegExp(`(?<!\\d)0?${h}\\s*${separateur}${minutes}`, 'i')
+  // « midi », « minuit » en mots isolés : « Midi-Pyrénées » n'est pas midi.
+  const enMots = (heure === '00:00' && /(?<!\p{L})minuit(?![\p{L}-])/iu.test(texte)) || (heure === '12:00' && /(?<!\p{L})midi(?![\p{L}-])/iu.test(texte))
   return enMots || ecrite.test(texte)
 }
 
@@ -523,11 +527,15 @@ function heureSurLaPage(heure: string, texte: string): boolean {
  * « heures non précisées » ne demande rien.
  */
 export function horairesSurLaPage(bloc: Readonly<Record<string, unknown>>, page: string): string[] {
-  // « 17-22 h » : la première heure de la plage prend le « h » de la seconde.
+  // « 17-22 h », « de 17 à 22h » : la première heure de la plage prend le
+  // « h » de la seconde. Seulement à partir de 6 h : en dessous, c'est une
+  // durée (« visite 2-3 h »), pas une heure d'ouverture (revue adverse S262).
   const texte = page
     .replace(/<[^>]*>/g, ' ')
     .replace(/&nbsp;/g, ' ')
-    .replace(/(?<!\d)(\d{1,2})(\s*[-–]\s*\d{1,2}\s*h)/gi, '$1h$2')
+    .replace(/(?<!\d)(\d{1,2})(\s*(?:[-–]|à)\s*\d{1,2}\s*h(?![a-zà-ÿ]))/gi, (m, debut: string, reste: string) =>
+      Number(debut) >= 6 ? `${debut}h${reste}` : m,
+    )
   const absentes: string[] = []
   for (const jour of JOURS_DE_LA_SEMAINE) {
     const creneaux = bloc[jour]

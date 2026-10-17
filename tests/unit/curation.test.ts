@@ -618,6 +618,21 @@ describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)',
     expect(horairesSurLaPage(bloc({ mar: [['17:00', '22:00']] }), 'Mardi 17 - 22 personnes')).toEqual(['mar 17:00', 'mar 22:00'])
   })
 
+  it('CA2 (revue) : l’heure pleine n’est pas lue dans « 14 h 30 », ni dans un mot en h', () => {
+    expect(horairesSurLaPage(bloc({ ven: [['14:00', '15:00']] }), 'ouvert 14 h 30 ; 15 hectolitres')).toEqual(['ven 14:00', 'ven 15:00'])
+    expect(horairesSurLaPage(bloc({ ven: [['17:00', '20:00']] }), '17 heures à 20 heures')).toEqual([])
+  })
+
+  it('CA2 (revue) : « Midi-Pyrénées » n’est pas midi', () => {
+    expect(horairesSurLaPage(bloc({ sam: [['10:00', '12:00']] }), 'samedi 10h, Midi-Pyrénées')).toEqual(['sam 12:00'])
+    expect(horairesSurLaPage(bloc({ sam: [['10:00', '12:00']] }), 'samedi de 10h à midi')).toEqual([])
+  })
+
+  it('CA2 (revue) : une durée « 2-3 h » ne fabrique pas d’heure ; « de 17 à 22h » se lit', () => {
+    expect(horairesSurLaPage(bloc({ sam: [['02:00', '03:00']] }), 'visite 2-3 h')).toEqual(['sam 02:00'])
+    expect(horairesSurLaPage(bloc({ ven: [['17:00', '22:00']] }), 'vendredi de 17 à 22h')).toEqual([])
+  })
+
   it('CA2 : un jour « heures non précisées » ou fermé ne demande rien', () => {
     expect(horairesSurLaPage(bloc({ mer: 'heures-non-precisees', lun: [] }), '')).toEqual([])
   })

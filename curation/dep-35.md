@@ -186,7 +186,6 @@ Choix du vérificateur : Même brasserie que le point OSM node/872324499 (La Lan
 - horaires.0.ven : (vide) → 11 h 30 – 22 h
 - horaires.0.sam : (vide) → 14 h 30 – 21 h
 - horaires.0.dim : (vide) → fermé
-- horaires.0.remarque : (vide) → Hors événements.
 - horaires.0.source : (vide) → https://www.skumenn.com/brewpub
 - horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
@@ -532,4 +531,4 @@ Extrait lu : « La brasserie ne peut pas recevoir de visiteurs pour le moment. �
 
 Choix du vérificateur : Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon ».
 
-Empreinte du lot : 2a2366331787
+Empreinte du lot : 0341f4e7f97a
