@@ -2704,7 +2704,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 1. **La Muette (85)** : « sur place » ne qualifie que la restauration ; la page ne dit pas que la bière s'y boit. La fiche passe en « acheter seulement ».
 2. **Brasserie Cousin (53)** : l'enseigne porte le nom de famille du brasseur, que la page nomme. Le nom de la personne n'est repris nulle part ; le lot le signale à Cédric.
 
-## S250 (6/…) — Indre-et-Loire : 4 fiches proposées, quota épuisé *(18/10)*
+## S250 (6/…) — Indre-et-Loire : 4 fiches proposées, quota épuisé *(17/10)*
 
 | Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | Pas de vente | À confirmer | Contacts | Horaires |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
