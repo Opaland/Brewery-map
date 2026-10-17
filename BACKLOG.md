@@ -65,6 +65,10 @@ chacun demande une décision ou une vérification de source.
 
 ## Fonctionnel
 
+- Carte sans tuiles : l'attribution « © contributeurs OpenStreetMap » est
+  peinte par-dessus la fin du message « Fond de carte incomplet ou
+  indisponible… » (vu sur la capture `carte` de S240, Pixel 7, 17/10). La
+  personne hors ligne ne lit plus « et la liste est complète ».
 - Le point de départ (Brignais) est masqué par le groupe qui contient les
   brasseries de Brignais au zoom d'ouverture (constaté sur capture le 15/10).
   Il réapparaît en zoomant. À traiter si une revue de persona le juge gênant.

@@ -2284,3 +2284,35 @@ Constaté en relançant les jobs WebKit après la revue de #84 : les tests sur
 écran d'ordinateur et à 320 px, qui ne sont plus sautés, échouent sous
 WebKit. Ils sont ajoutés au tri de `docs/NAVIGATEURS.md`.
 
+## S240 — Tests visuels sur cinq écrans figés *(17/10)*
+
+Story d'abord (`docs/stories/S240.md`). `tests/e2e/visuel.spec.ts` couvre
+cinq écrans : la liste, une fiche, la carte sans tuiles, le carnet et la
+liste à 200 %. Ils sont figés : heure posée, thème clair, animations
+coupées, aucune tuile. La spec ne tourne qu'avec `PW_VISUEL=1`, et la porte
+ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
+
+- **Instable d'abord** (revue adverse) : la barre collée en bas varie de
+  13 à 15 pixels d'une exécution à l'autre sur la même machine (2 rouges sur
+  8). Couper le flou n'y changeait rien (8 rouges sur 10). Elle est masquée
+  dans les captures (ses textes sont tenus par les e2e) : 12 exécutions
+  vertes sur 12.
+- **Le premier « vu rouge » était faux** : la couleur changée
+  (`--encre-douce`, ligne 25) est redéfinie plus bas par le design system
+  v2, et le rouge venait de l'instabilité. Refait sur la couleur appliquée
+  (#5f5447 → #5f5457) : avec la tolérance par défaut de Playwright, 5 verts
+  ; en comparaison exacte, 4 rouges (la carte n'emploie pas cette couleur).
+- **Première trouvaille** : sans tuiles, l'attribution OSM recouvre la fin
+  du message de repli (BACKLOG).
+- La capture d'une fiche seule la faisait passer sous le compte collant.
+  Elle est remplacée par l'écran tel qu'il est vu.
+- **Première exécution en CI (CA5)** : les 5 écrans diffèrent d'environ
+  10 % des pixels (34 421 pour la liste à 200 %). Le rendu du runner n'est
+  pas celui du conteneur. **Décision** : les références sont produites par
+  la CI elle-même (workflow `visuel-references.yml`, committées dans la
+  branche, relues dans le diff), et la comparaison reste exacte. Aucune
+  tolérance n'est inventée. Conséquence : la spec ne se lance plus en local.
+  La preuve du rouge (CA2) a été faite dans le conteneur, avec ses propres
+  références. En CI, seule la stabilité se prouve (job vert sans nouvel
+  essai, sur les références du robot, commit 9321c67, barre masquée).
+

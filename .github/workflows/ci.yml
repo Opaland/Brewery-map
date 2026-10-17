@@ -99,6 +99,41 @@ jobs:
           path: playwright-report/
           retention-days: 7
 
+  # S240 : cinq écrans figés, comparés à des références produites dans le
+  # conteneur de développement. Informatif tant que la première mesure n'a
+  # pas dit si le rendu du runner est le même (docs/stories/S240.md).
+  visuel:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Installer Chromium
+        run: npx playwright install --with-deps chromium
+        timeout-minutes: 10
+      - name: Écrans figés
+        # Sans nouvel essai : un écran instable doit se voir, pas passer en
+        # « flaky » vert (revue adverse S240).
+        run: npx playwright test --reporter=list --retries=0
+        timeout-minutes: 10
+        env:
+          CI: 'true'
+          PW_VISUEL: '1'
+      - name: Différences en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visuel-differences
+          path: test-results/
+          retention-days: 7
+
   deploiement:
     needs: porte
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
