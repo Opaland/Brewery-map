@@ -41,6 +41,9 @@ function projetChoisi(nom = process.env.PW_NAVIGATEUR ?? 'mobile') {
 
 export default defineConfig({
   testDir: 'tests/e2e',
+  // S240 : les écrans figés ne tournent qu'à la demande (job CI à part) ;
+  // la porte ne les lance pas.
+  ...(process.env.PW_VISUEL === '1' ? { testMatch: 'visuel.spec.ts' } : { testIgnore: 'visuel.spec.ts' }),
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,

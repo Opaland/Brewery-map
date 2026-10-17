@@ -2284,3 +2284,22 @@ Constaté en relançant les jobs WebKit après la revue de #84 : les tests sur
 écran d'ordinateur et à 320 px, qui ne sont plus sautés, échouent sous
 WebKit. Ils sont ajoutés au tri de `docs/NAVIGATEURS.md`.
 
+## S240 — Tests visuels sur cinq écrans figés *(17/10)*
+
+Story d'abord (`docs/stories/S240.md`). `tests/e2e/visuel.spec.ts` couvre
+cinq écrans : la liste, une fiche, la carte sans tuiles, le carnet et la
+liste à 200 %. Ils sont figés : heure posée, thème clair, animations
+coupées, aucune tuile. La spec ne tourne qu'avec `PW_VISUEL=1`, et la porte
+ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
+
+- Deux exécutions de suite sont vertes.
+- **Vu vert à tort d'abord** : avec la tolérance par défaut de Playwright,
+  une couleur de texte changée (#5a6b5d → #5a6b6d) passait. La comparaison
+  est maintenant exacte, et le même changement fait échouer la liste.
+- **Première trouvaille** : sans tuiles, l'attribution OSM recouvre la fin
+  du message de repli (BACKLOG).
+- La capture d'une fiche seule la faisait passer sous le compte collant.
+  Elle est remplacée par l'écran tel qu'il est vu.
+- Reste ouvert (CA5) : savoir si le rendu du runner CI est le même que
+  celui du conteneur. La première exécution le dira.
+
