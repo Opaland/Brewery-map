@@ -2230,3 +2230,12 @@ carte s'affiche sous WebKit : elle arrive seulement plus lentement (≈ 1 Mo)
 → `versLaCarte` attend 15 s (attente de test). L'adresse `?raccourci=` lue
 trop tôt → `expect.poll`. La pression simulée à la souris ne donne pas
 `:active` sous WebKit émulé → Chromium seulement, iPhone réel en S96.
+
+## S239 — Mutation outillée *(17/10)*
+
+Story d'abord (`docs/stories/S239.md`). Stryker sur `src/core`, job de nuit
+informatif (`docs/MUTATION.md`). Installé pour le job seulement : son ajout
+désaccordait le verrouillage (`npm ci` cassé, vu en local, rétabli). Les
+mutants statiques sortaient survivants à tort (vérifié à la main) : ignorés.
+Première trouvaille : aucun test ne refusait un fichier de base invalide
+dans la garde de `data/` — test ajouté (66 % au lieu de 58 %).

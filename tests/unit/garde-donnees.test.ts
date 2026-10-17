@@ -48,6 +48,11 @@ describe('la garde de data/ (S230)', () => {
     expect(verifierDonnees(BASE, [], BASE).ok).toBe(true)
   })
 
+  it('un fichier de base qui ne passe pas le schéma est refusé (mutation S239)', () => {
+    const r = verifierDonnees('[{"n":""}]', [], '[]')
+    expect(r).toEqual({ ok: false, erreurs: ['le fichier de base ne passe pas le schéma'] })
+  })
+
   it('sans accord, une ligne changée est refusée', () => {
     const change = BASE.replace(NOM, `${NOM} bis`)
     expect(verifierDonnees(BASE, [], change).ok).toBe(false)
