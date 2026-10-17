@@ -4,7 +4,7 @@ Pour Cédric. Ce lot propose **17 fiches nouvelles**. **Rien n'est écrit dans `
 n'as pas répondu par les numéros acceptés.
 
 **Décompte** : 33 candidats à lire = 17 proposés + 16 non proposés (tableau ci-dessous).
-Catégories proposées : 12 « acheter et consommer », 2 « acheter seulement », 0 « pas de vente », 3 « à confirmer ».
+Catégories proposées : 11 « acheter et consommer », 3 « acheter seulement », 0 « pas de vente », 3 « à confirmer ».
 
 **Comment le lot a été fait** (circuit de S249, avec S261-S262) :
 - candidats de `outils/departement.ts` ;
@@ -13,7 +13,7 @@ Catégories proposées : 12 « acheter et consommer », 2 « acheter seulement �
 - une catégorie que l'extrait ne porte pas est redescendue ; une dégustation liée à une visite n'est pas un bar, une dégustation ouverte au public avec la vente l'est ;
 - positions par `outils/departement.ts lectures`, gardées au département et à la commune (sinon centre de la commune).
 
-**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. Aucun lien Untappd n'a été trouvé pour ce département.
+**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. 1 lien Untappd, relu sur le site de la brasserie.
 
 **Horaires** : repris quand la page les donne jour par jour, avec leur nature (accueil ou vente), chaque heure relue par `controler`. Ceux dont la nature n'est pas dite restent dans les notes.
 
@@ -112,9 +112,9 @@ Choix du vérificateur : Fiche de tourisme en anglais pour la catégorie ; le si
 - lat : (vide) → 46.97376
 - lon : (vide) → -2.24661
 - km : (vide) → 556.5
-- cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → faible
-- note : (vide) → Vente et dégustation de bières à la brasserie, accueil toute l'année.
+- cat : (vide) → 2 (Acheter seulement)
+- conf : (vide) → moyenne
+- note : (vide) → Boutique de la brasserie pour la vente à emporter, ouverte toute l'année ; visites guidées l'été.
 - addr : (vide) → 10 bis rue de Tranchard, 85680 La Guérinière
 - src : (vide) → https://brasserie-noirmoutier.fr
 - coordPrecision : (vide) → address
@@ -130,9 +130,9 @@ Choix du vérificateur : Fiche de tourisme en anglais pour la catégorie ; le si
 
 Sources (vérifiée le 2026-10-17) : https://brasserie-noirmoutier.fr ; https://data.geopf.fr/geocodage/search?q=10+bis+rue+de+Tranchard%2C+85680+La+Gu%C3%A9rini%C3%A8re&limit=5
 
-Extrait lu : « Vente et dégustation de bières artisanales à Noirmoutier »
+Extrait lu : « Pour la vente à emporter, pour vos souvenirs de vacances »
 
-Choix du vérificateur : Horaires non repris : la page en donne deux versions.
+Choix du vérificateur : La dégustation n'est liée qu'aux visites : pas de bar écrit. Horaires non repris : la page en donne deux versions.
 
 ### 4. Brasserie Mortania — fiche nouvelle
 
@@ -193,22 +193,24 @@ Choix du vérificateur : Horaires non repris en bloc : la page en donne deux tab
 - lon : (vide) → -0.91837
 - km : (vide) → 450.3
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → faible
-- note : (vide) → Vente directe et dégustation à la ferme-brasserie.
+- conf : (vide) → moyenne
+- note : (vide) → La Stabul, à la ferme-brasserie : vente directe de bière, restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.
 - addr : (vide) → La Muette, 85390 Bazoges-en-Pareds
-- src : (vide) → https://www.brasserie-la-muette.fr
+- src : (vide) → https://www.brasserie-la-muette.fr/fr/brasserie
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.tel : (vide) → 02 52 66 00 36
 - contact.site : (vide) → https://www.brasserie-la-muette.fr/
-- contact.source : (vide) → https://www.brasserie-la-muette.fr
+- contact.untappd : (vide) → https://untappd.com/nostradaMusse
+- contact.source : (vide) → https://www.brasserie-la-muette.fr/fr/contact
 - contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.brasserie-la-muette.fr
+Sources (vérifiée le 2026-10-17) : https://www.brasserie-la-muette.fr/fr/brasserie ; https://www.brasserie-la-muette.fr/fr/contact
 
-Extrait lu : « Vente directe et dégustation »
+Extrait lu : « LA STABUL : Vente directe de bière et restauration sur place et à emporter »
 
-Choix du vérificateur : La phrase est courte ; les horaires sont dans une image.
+Choix du vérificateur : Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30).
 
 ### 7. Brasserie Garatelle — fiche nouvelle
 
@@ -484,7 +486,7 @@ Choix du vérificateur : Chaîne de restaurants-brasseries : à Cédric de dire 
 - lon : (vide) → -1.66533
 - km : (vide) → 505.2
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.
 - addr : (vide) → 17 rue de la Camamine, 85150 Les Achards
 - src : (vide) → https://www.achards-tourisme.com/en/restaurants/beer-workshop/
@@ -498,4 +500,4 @@ Extrait lu : « to taste on site or to buy in the shop area »
 
 Choix du vérificateur : Page de l'office de tourisme en anglais. La brasserie vient de s'installer aux Achards. Seul numéro, un mobile.
 
-Empreinte du lot : dc551d3bd01c
+Empreinte du lot : 6549ee97f1b5

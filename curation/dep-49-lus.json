@@ -89,9 +89,9 @@
   "n": "La Rombière",
   "c": "Beaupréau-en-Mauges",
   "adresse": null,
-  "cat": 1,
-  "conf": "faible",
-  "note": "Brasserie avec bar, restaurant et magasin, d'après les rubriques du site ; brassage sur place à Beaupréau.",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.",
   "src": "https://www.larombiere.com/",
   "extrait": "Côté bar Côté Resto Le Magasin",
   "beers": [
@@ -111,7 +111,7 @@
     "type": "lager"
    }
   ],
-  "choix": "Société Brasserie Artisanale des Mauges. Le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune.",
+  "choix": "Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune.",
   "contact": {
    "site": "https://www.larombiere.com/",
    "source": "https://www.larombiere.com/"
@@ -154,16 +154,35 @@
   "adresse": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
   "cat": 1,
   "conf": "moyenne",
-  "note": "Espace de dégustation et boutique à la brasserie depuis juillet 2026 ; adresse sur rendez-vous.",
-  "src": "https://la-coale.fr",
-  "extrait": "Depuis juillet 2026, nous proposons également un espace dégustation et une boutique directement à la brasserie",
+  "note": "Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.",
+  "src": "https://la-coale.fr/bar-boutique-la-coale",
+  "extrait": "Vous pouvez venir boire une bière sur place",
   "beers": [],
   "contact": {
    "site": "https://la-coale.fr/",
    "source": "https://la-coale.fr",
    "tel": "02 52 35 29 38",
    "untappd": "https://untappd.com/La_Coale"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "15:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "source": "https://la-coale.fr/bar-boutique-la-coale",
+    "remarque": "Espace dégustation et boutique."
+   }
+  ]
  },
  {
   "cle": "sirene:840613897",

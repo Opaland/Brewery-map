@@ -10,9 +10,9 @@
    "km": 470.5,
    "cat": 1,
    "conf": "moyenne",
-   "note": "Espace de dégustation et boutique à la brasserie depuis juillet 2026 ; adresse sur rendez-vous.",
+   "note": "Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.",
    "addr": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
-   "src": "https://la-coale.fr",
+   "src": "https://la-coale.fr/bar-boutique-la-coale",
    "coordPrecision": "commune",
    "beers": [],
    "contact": {
@@ -21,12 +21,33 @@
     "tel": "02 52 35 29 38",
     "untappd": "https://untappd.com/La_Coale",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "jeu": [
+      [
+       "15:30",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:30",
+       "22:00"
+      ]
+     ],
+     "source": "https://la-coale.fr/bar-boutique-la-coale",
+     "remarque": "Espace dégustation et boutique.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [
+   "https://la-coale.fr/bar-boutique-la-coale",
    "https://la-coale.fr"
   ],
-  "extrait": "Depuis juillet 2026, nous proposons également un espace dégustation et une boutique directement à la brasserie"
+  "extrait": "Vous pouvez venir boire une bière sur place"
  }
 }

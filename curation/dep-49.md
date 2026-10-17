@@ -4,7 +4,7 @@ Pour Cédric. Ce lot propose **11 fiches nouvelles**. **Rien n'est écrit dans `
 n'as pas répondu par les numéros acceptés.
 
 **Décompte** : 30 candidats à lire = 11 proposés + 19 non proposés (tableau ci-dessous).
-Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement », 0 « pas de vente », 2 « à confirmer ».
+Catégories proposées : 3 « acheter et consommer », 5 « acheter seulement », 0 « pas de vente », 3 « à confirmer ».
 
 **Comment le lot a été fait** (circuit de S249, avec S261-S262) :
 - candidats de `outils/departement.ts` ;
@@ -13,7 +13,7 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 - une catégorie que l'extrait ne porte pas est redescendue ; une dégustation liée à une visite n'est pas un bar, une dégustation ouverte au public avec la vente l'est ;
 - positions par `outils/departement.ts lectures`, gardées au département et à la commune (sinon centre de la commune).
 
-**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. Aucun lien Untappd n'a été trouvé pour ce département.
+**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. 2 liens Untappd, relus sur le site de la brasserie.
 
 **Horaires** : repris quand la page les donne jour par jour, avec leur nature (accueil ou vente), chaque heure relue par `controler`. Ceux dont la nature n'est pas dite restent dans les notes.
 
@@ -119,9 +119,9 @@ Choix du vérificateur : Société La Fabrique des Bières d'Anjou. Même brasse
 - lat : (vide) → 47.20387
 - lon : (vide) → -0.98296
 - km : (vide) → 471.2
-- cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → faible
-- note : (vide) → Brasserie avec bar, restaurant et magasin, d'après les rubriques du site ; brassage sur place à Beaupréau.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.
 - addr : (vide) → Beaupréau-en-Mauges
 - src : (vide) → https://www.larombiere.com/
 - coordPrecision : (vide) → commune
@@ -139,7 +139,7 @@ Sources (vérifiée le 2026-10-17) : https://www.larombiere.com/
 
 Extrait lu : « Côté bar Côté Resto Le Magasin »
 
-Choix du vérificateur : Société Brasserie Artisanale des Mauges. Le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune.
+Choix du vérificateur : Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune.
 
 ### 4. Sterne & Mousse — fiche nouvelle
 
@@ -210,9 +210,9 @@ Choix du vérificateur : Fiche de tourisme seulement ; le site donné n'existe p
 - km : (vide) → 470.5
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Espace de dégustation et boutique à la brasserie depuis juillet 2026 ; adresse sur rendez-vous.
+- note : (vide) → Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.
 - addr : (vide) → 355A avenue de la Clercière, 49370 Bécon-les-Granits
-- src : (vide) → https://la-coale.fr
+- src : (vide) → https://la-coale.fr/bar-boutique-la-coale
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
 - contact.tel : (vide) → 02 52 35 29 38
@@ -220,11 +220,17 @@ Choix du vérificateur : Fiche de tourisme seulement ; le site donné n'existe p
 - contact.untappd : (vide) → https://untappd.com/La_Coale
 - contact.source : (vide) → https://la-coale.fr
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.jeu : (vide) → 15 h 30 – 20 h
+- horaires.0.ven : (vide) → 15 h 30 – 22 h
+- horaires.0.remarque : (vide) → Espace dégustation et boutique.
+- horaires.0.source : (vide) → https://la-coale.fr/bar-boutique-la-coale
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://la-coale.fr
+Sources (vérifiée le 2026-10-17) : https://la-coale.fr/bar-boutique-la-coale ; https://la-coale.fr
 
-Extrait lu : « Depuis juillet 2026, nous proposons également un espace dégustation et une boutique directement à la brasserie »
+Extrait lu : « Vous pouvez venir boire une bière sur place »
 
 ### 7. Brasserie Penrose — fiche nouvelle
 
@@ -354,4 +360,4 @@ Extrait lu : « Winery sales »
 
 Choix du vérificateur : Fiche de tourisme seulement ; seul numéro, un mobile.
 
-Empreinte du lot : 3efb4c8f1f39
+Empreinte du lot : 6c190e0d2945

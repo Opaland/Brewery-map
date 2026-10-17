@@ -8,9 +8,9 @@
    "lat": 47.20387,
    "lon": -0.98296,
    "km": 471.2,
-   "cat": 1,
-   "conf": "faible",
-   "note": "Brasserie avec bar, restaurant et magasin, d'après les rubriques du site ; brassage sur place à Beaupréau.",
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.",
    "addr": "Beaupréau-en-Mauges",
    "src": "https://www.larombiere.com/",
    "coordPrecision": "commune",
@@ -42,6 +42,6 @@
    "https://www.larombiere.com/"
   ],
   "extrait": "Côté bar Côté Resto Le Magasin",
-  "choix": "Société Brasserie Artisanale des Mauges. Le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune."
+  "choix": "Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune."
  }
 }

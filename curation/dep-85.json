@@ -119,9 +119,9 @@
     "lat": 46.97376,
     "lon": -2.24661,
     "km": 556.5,
-    "cat": 1,
-    "conf": "faible",
-    "note": "Vente et dégustation de bières à la brasserie, accueil toute l'année.",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de la brasserie pour la vente à emporter, ouverte toute l'année ; visites guidées l'été.",
     "addr": "10 bis rue de Tranchard, 85680 La Guérinière",
     "src": "https://brasserie-noirmoutier.fr",
     "coordPrecision": "address",
@@ -151,8 +151,8 @@
     "https://brasserie-noirmoutier.fr",
     "https://data.geopf.fr/geocodage/search?q=10+bis+rue+de+Tranchard%2C+85680+La+Gu%C3%A9rini%C3%A8re&limit=5"
    ],
-   "extrait": "Vente et dégustation de bières artisanales à Noirmoutier",
-   "choix": "Horaires non repris : la page en donne deux versions."
+   "extrait": "Pour la vente à emporter, pour vos souvenirs de vacances",
+   "choix": "La dégustation n'est liée qu'aux visites : pas de bar écrit. Horaires non repris : la page en donne deux versions."
   },
   {
    "fiche": {
@@ -215,24 +215,27 @@
     "lon": -0.91837,
     "km": 450.3,
     "cat": 1,
-    "conf": "faible",
-    "note": "Vente directe et dégustation à la ferme-brasserie.",
+    "conf": "moyenne",
+    "note": "La Stabul, à la ferme-brasserie : vente directe de bière, restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
     "addr": "La Muette, 85390 Bazoges-en-Pareds",
-    "src": "https://www.brasserie-la-muette.fr",
+    "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
     "coordPrecision": "commune",
     "beers": [],
     "contact": {
+     "tel": "02 52 66 00 36",
      "site": "https://www.brasserie-la-muette.fr/",
-     "source": "https://www.brasserie-la-muette.fr",
+     "untappd": "https://untappd.com/nostradaMusse",
+     "source": "https://www.brasserie-la-muette.fr/fr/contact",
      "verifieLe": "2026-10-17"
     }
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-la-muette.fr"
+    "https://www.brasserie-la-muette.fr/fr/brasserie",
+    "https://www.brasserie-la-muette.fr/fr/contact"
    ],
-   "extrait": "Vente directe et dégustation",
-   "choix": "La phrase est courte ; les horaires sont dans une image."
+   "extrait": "LA STABUL : Vente directe de bière et restauration sur place et à emporter",
+   "choix": "Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30)."
   },
   {
    "fiche": {
@@ -603,7 +606,7 @@
     "lon": -1.66533,
     "km": 505.2,
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.",
     "addr": "17 rue de la Camamine, 85150 Les Achards",
     "src": "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",

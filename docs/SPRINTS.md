@@ -2662,7 +2662,7 @@ Les quatre lots repassent `controler` sans écart.
 
 | Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| `dep-49` | 30 | 11 | 4 | 5 | 2 | 7 | 3 |
+| `dep-49` | 30 | 11 | 3 | 5 | 3 | 7 | 4 |
 
 Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Belle de Maine reste en « acheter seulement » : sa dégustation se fait sur rendez-vous, et la règle écrite en partie 1 s'applique.
 
@@ -2670,8 +2670,18 @@ Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Bell
 
 | Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| `dep-85` | 33 | 17 | 12 | 2 | 3 | 8 | 3 |
+| `dep-85` | 33 | 17 | 11 | 3 | 3 | 8 | 3 |
 
-- Beaucoup de bars de brasserie sur le littoral. Sept de ces fiches reposent sur une fiche de tourisme, en confiance « faible ».
+- Beaucoup de bars de brasserie sur le littoral. Six fiches reposent sur une fiche de tourisme (dont Beer Workshop), une sur un annuaire ; toutes sont en confiance « faible ».
 - Une seconde enseigne 3 Brasseurs est proposée (La Roche-sur-Yon), signalée comme la première.
 - Deux sociétés sont rattachées à leur brasserie par l'adresse seulement (MK Production, SARL Bonnin), et le lot le dit.
+
+### S250 (2-3) — corrections de la revue adverse *(17/10)*
+
+La revue a relu chaque page par curl. Aucune erreur grave ; corrigé :
+1. **La N'O** : « acheter et consommer » n'est pas écrit (la dégustation suit les visites). Elle passe en « acheter seulement », avec l'extrait de la boutique.
+2. **La Muette** : le lot disait les horaires « dans une image » ; ils sont en texte. La catégorie tient maintenant sur la page « Brasserie » (« LA STABUL : Vente directe de bière et restauration sur place et à emporter »). Le téléphone fixe et le lien Untappd (`nostradaMusse`, page Untappd « La Ferme-Brasserie La Muette ») sont repris. Les horaires restent hors bloc : deux pages du site diffèrent pour le vendredi midi.
+3. **La Côale** : la note suggérait un accueil sur rendez-vous ; la page dit le contraire. Source, extrait (« boire une bière sur place ») et horaires du jeudi et du vendredi repris.
+4. **La Rombière** : des titres de rubriques ne prouvent pas la vente. Elle passe « à confirmer ».
+5. **« Aucun lien Untappd »** était écrit en dur dans l'en-tête des lots, faux pour 49 et 85. Le compte vient maintenant des fiches.
+6. **Beer Workshop** passe en confiance « faible », comme les autres fiches de tourisme, et la phrase de la partie 3 est corrigée.

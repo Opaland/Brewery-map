@@ -137,9 +137,9 @@
     "lat": 47.20387,
     "lon": -0.98296,
     "km": 471.2,
-    "cat": 1,
-    "conf": "faible",
-    "note": "Brasserie avec bar, restaurant et magasin, d'après les rubriques du site ; brassage sur place à Beaupréau.",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.",
     "addr": "Beaupréau-en-Mauges",
     "src": "https://www.larombiere.com/",
     "coordPrecision": "commune",
@@ -171,7 +171,7 @@
     "https://www.larombiere.com/"
    ],
    "extrait": "Côté bar Côté Resto Le Magasin",
-   "choix": "Société Brasserie Artisanale des Mauges. Le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune."
+   "choix": "Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune."
   },
   {
    "fiche": {
@@ -273,9 +273,9 @@
     "km": 470.5,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Espace de dégustation et boutique à la brasserie depuis juillet 2026 ; adresse sur rendez-vous.",
+    "note": "Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.",
     "addr": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
-    "src": "https://la-coale.fr",
+    "src": "https://la-coale.fr/bar-boutique-la-coale",
     "coordPrecision": "commune",
     "beers": [],
     "contact": {
@@ -284,13 +284,34 @@
      "untappd": "https://untappd.com/La_Coale",
      "source": "https://la-coale.fr",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "15:30",
+        "20:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:30",
+        "22:00"
+       ]
+      ],
+      "remarque": "Espace dégustation et boutique.",
+      "source": "https://la-coale.fr/bar-boutique-la-coale",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
+    "https://la-coale.fr/bar-boutique-la-coale",
     "https://la-coale.fr"
    ],
-   "extrait": "Depuis juillet 2026, nous proposons également un espace dégustation et une boutique directement à la brasserie"
+   "extrait": "Vous pouvez venir boire une bière sur place"
   },
   {
    "fiche": {

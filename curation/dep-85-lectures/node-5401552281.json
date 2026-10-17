@@ -8,9 +8,9 @@
    "lat": 46.97376,
    "lon": -2.24661,
    "km": 556.5,
-   "cat": 1,
-   "conf": "faible",
-   "note": "Vente et dégustation de bières à la brasserie, accueil toute l'année.",
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la brasserie pour la vente à emporter, ouverte toute l'année ; visites guidées l'été.",
    "addr": "10 bis rue de Tranchard, 85680 La Guérinière",
    "src": "https://brasserie-noirmoutier.fr",
    "coordPrecision": "address",
@@ -40,7 +40,7 @@
    "https://brasserie-noirmoutier.fr",
    "https://data.geopf.fr/geocodage/search?q=10+bis+rue+de+Tranchard%2C+85680+La+Gu%C3%A9rini%C3%A8re&limit=5"
   ],
-  "extrait": "Vente et dégustation de bières artisanales à Noirmoutier",
-  "choix": "Horaires non repris : la page en donne deux versions."
+  "extrait": "Pour la vente à emporter, pour vos souvenirs de vacances",
+  "choix": "La dégustation n'est liée qu'aux visites : pas de bar écrit. Horaires non repris : la page en donne deux versions."
  }
 }

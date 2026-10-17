@@ -252,15 +252,17 @@
   "c": "Bazoges-en-Pareds",
   "adresse": "La Muette, 85390 Bazoges-en-Pareds",
   "cat": 1,
-  "conf": "faible",
-  "note": "Vente directe et dégustation à la ferme-brasserie.",
-  "src": "https://www.brasserie-la-muette.fr",
-  "extrait": "Vente directe et dégustation",
+  "conf": "moyenne",
+  "note": "La Stabul, à la ferme-brasserie : vente directe de bière, restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
+  "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
+  "extrait": "LA STABUL : Vente directe de bière et restauration sur place et à emporter",
   "beers": [],
-  "choix": "La phrase est courte ; les horaires sont dans une image.",
+  "choix": "Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30).",
   "contact": {
    "site": "https://www.brasserie-la-muette.fr/",
-   "source": "https://www.brasserie-la-muette.fr"
+   "source": "https://www.brasserie-la-muette.fr/fr/contact",
+   "tel": "02 52 66 00 36",
+   "untappd": "https://untappd.com/nostradaMusse"
   }
  },
  {
@@ -320,11 +322,11 @@
   "n": "Brasserie La N'O",
   "c": "La Guérinière",
   "adresse": "10 bis rue de Tranchard, 85680 La Guérinière",
-  "cat": 1,
-  "conf": "faible",
-  "note": "Vente et dégustation de bières à la brasserie, accueil toute l'année.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie pour la vente à emporter, ouverte toute l'année ; visites guidées l'été.",
   "src": "https://brasserie-noirmoutier.fr",
-  "extrait": "Vente et dégustation de bières artisanales à Noirmoutier",
+  "extrait": "Pour la vente à emporter, pour vos souvenirs de vacances",
   "beers": [
    {
     "type": "ipa"
@@ -339,7 +341,7 @@
     "type": "blonde"
    }
   ],
-  "choix": "Horaires non repris : la page en donne deux versions.",
+  "choix": "La dégustation n'est liée qu'aux visites : pas de bar écrit. Horaires non repris : la page en donne deux versions.",
   "contact": {
    "site": "https://brasserie-noirmoutier.fr/",
    "source": "https://brasserie-noirmoutier.fr",
@@ -414,7 +416,7 @@
   "c": "Les Achards",
   "adresse": "17 rue de la Camamine, 85150 Les Achards",
   "cat": 1,
-  "conf": "moyenne",
+  "conf": "faible",
   "note": "Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.",
   "src": "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
   "extrait": "to taste on site or to buy in the shop area",
