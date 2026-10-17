@@ -2202,3 +2202,13 @@ Premier passage en CI sur WebKit (profil iPhone 13) : 167 réussis, 13
   page dans le message) et rapport Playwright gardé en CI ;
 - **couche OSM jamais servie** : le chargement de page de WebKit attend la
   requête pendante → le test attend le document.
+
+## S236 — L'étage « composants » des tests *(17/10)*
+
+Story d'abord (`docs/stories/S236.md`). `jsdom` et Testing Library en
+dépendances de développement (aucune alerte ajoutée ; les deux alertes
+modérées de `npm audit` viennent de `tsx`, d'avant). L'environnement se
+choisit par fichier : les tests existants restent en node.
+`tests/composants/ChoixCommune.test.tsx` : clavier (flèche, Entrée, Échap)
+et confidentialité — avec la position pour départ, aucun fichier « par
+département » n'est demandé (vu rouge en forçant l'appel), témoin inverse.
