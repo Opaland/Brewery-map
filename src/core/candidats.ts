@@ -148,28 +148,40 @@ export function prefixePostal(dep: string): string {
 /**
  * La position qu'une réponse du géocodeur de l'IGN donne pour une fiche,
  * ou `null`. Raté du 17/10 (S248) : « 37 rue Louis Blériot, Martin-Église »
- * est revenu à Bruay-la-Buissière (62), et rien ne le refusait. Une
- * position hors du département est donc refusée ; « à l'adresse » exige un
+ * est revenu à Bruay-la-Buissière (62), et rien ne le refusait. Revue
+ * adverse : la commune n'était pas vérifiée (« Sainte-Marguerite » rendait
+ * Sainte-Marguerite-sur-Duclair). Une réponse n'est retenue que dans le
+ * département attendu (lu dans `context`, qui distingue 2A de 2B ; le code
+ * postal à défaut) et dans la commune attendue ; « à l'adresse » exige un
  * numéro de voie (une rue seule n'en est pas une, S247).
  */
 export function positionDuGeocodeur(
   reponse: unknown,
   dep: string,
+  communeAttendue: string,
   attendu: 'address' | 'commune' = 'address',
 ): { lat: number; lon: number; precision: 'address' | 'commune' } | null {
-  type Resultat = { geometry?: { coordinates?: unknown }; properties?: { postcode?: unknown; type?: unknown } }
-  // Le premier résultat qui convient : « Saint-Arnoult » existe dans
-  // plusieurs départements, et le premier rendu n'était pas le bon.
+  type Resultat = {
+    geometry?: { coordinates?: unknown }
+    properties?: { postcode?: unknown; type?: unknown; city?: unknown; context?: unknown }
+  }
+  const departementDe = (p: Resultat['properties']) =>
+    typeof p?.context === 'string'
+      ? p.context.split(',')[0]?.trim()
+      : typeof p?.postcode === 'string' && p.postcode.startsWith(prefixePostal(dep))
+        ? dep
+        : undefined
   const f = ((reponse as { features?: Resultat[] }).features ?? []).find((r) => {
     const c = r.geometry?.coordinates
-    const cp = r.properties?.postcode
+    const p = r.properties
     return (
       Array.isArray(c) &&
       typeof c[0] === 'number' &&
       typeof c[1] === 'number' &&
-      typeof cp === 'string' &&
-      cp.startsWith(prefixePostal(dep)) &&
-      r.properties?.type === (attendu === 'address' ? 'housenumber' : 'municipality')
+      departementDe(p) === dep &&
+      typeof p?.city === 'string' &&
+      commune(p.city) === commune(communeAttendue) &&
+      p.type === (attendu === 'address' ? 'housenumber' : 'municipality')
     )
   })
   const coord = f?.geometry?.coordinates as [number, number] | undefined

@@ -11,7 +11,8 @@
  *     Transforme ce que les agents ont lu (tableau d'objets : cle, n, c,
  *     adresse|null, cat, conf, note, src, extrait, beers, choix) en lectures
  *     `curation/dep-50-lectures/*.json` : position du géocodeur de l'IGN,
- *     refusée hors du département ou sans numéro de voie (S248), sinon
+ *     refusée hors du département ou de la commune, ou sans numéro de voie
+ *     (S248), sinon
  *     centre de la commune ; distance à Brignais calculée.
  *
  *   npx tsx outils/departement.ts assembler 50
@@ -211,7 +212,7 @@ function geocoder(params: Record<string, string>): { url: string; reponse: unkno
     try {
       return { url, reponse: JSON.parse(execFileSync('curl', ['-sS', '-f', '-m', '20', url], { encoding: 'utf8' })) as unknown }
     } catch {
-      execFileSync('sleep', [String(2 * essai)])
+      if (essai < 8) execFileSync('sleep', [String(2 * essai)])
     }
   }
   throw new Error(`géocodeur injoignable : ${url}`)
@@ -230,11 +231,11 @@ function lectures(dep: string, fichier: string | undefined): void {
     let source: string | undefined
     if (l.adresse !== null) {
       const g = geocoder({ q: l.adresse })
-      pos = positionDuGeocodeur(g.reponse, dep, 'address')
+      pos = positionDuGeocodeur(g.reponse, dep, l.c, 'address')
       source = g.url
     }
     if (pos === null) {
-      pos = positionDuGeocodeur(geocoder({ q: l.c, type: 'municipality' }).reponse, dep, 'commune')
+      pos = positionDuGeocodeur(geocoder({ q: l.c, type: 'municipality' }).reponse, dep, l.c, 'commune')
       source = undefined
     }
     if (pos === null) {

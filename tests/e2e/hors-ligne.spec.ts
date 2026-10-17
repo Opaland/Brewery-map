@@ -63,35 +63,39 @@ test.describe('sans réseau, l’interface le dit', () => {
 })
 
 // S240 (suite) : la mention de la carte peignait par-dessus la fin du
-// message de repli (vu sur la capture visuelle du 17/10).
-for (const largeur of [412, 320]) {
-  test(`fond absent, ${String(largeur)} px : le message n’est pas recouvert par la mention`, async ({ page }) => {
+// message de repli ; posé en haut, il cachait ensuite les marqueurs et
+// débordait à 200 % (revue adverse S248). Il est donc hors de la carte :
+// on vérifie qu'il ne croise pas la carte, à toutes ces tailles.
+for (const [largeur, texte] of [
+  [412, 100],
+  [320, 100],
+  [320, 200],
+] as const) {
+  test(`fond absent, ${String(largeur)} px, texte ${String(texte)} % : le message ne couvre pas la carte`, async ({ page }) => {
     await page.setViewportSize({ width: largeur, height: 839 })
     await sansTuiles(page)
     await page.goto('/')
+    if (texte !== 100) await page.addStyleTag({ content: `html { font-size: ${String(texte)}% !important; }` })
     await versLaCarte(page)
     const message = page.getByTestId('fond-absent')
     await expect(message).toBeVisible()
-    const mention = page.locator('.maplibregl-ctrl-attrib')
-    await expect(mention).toBeVisible()
-    // Ni la mention, ni les boutons de zoom : déplacer le message ne doit pas
-    // déplacer le chevauchement.
-    for (const autre of [mention, page.locator('.maplibregl-ctrl-top-right')]) {
-      await expect
-        .poll(async () => {
-          const [a, b] = await Promise.all([message.boundingBox(), autre.boundingBox()])
-          if (a === null || b === null) return 'sans cadre'
-          const croise = a.x < b.x + b.width && b.x < a.x + a.width && a.y < b.y + b.height && b.y < a.y + a.height
-          return croise ? 'se croisent' : 'séparés'
-        })
-        .toBe('séparés')
-    }
-    // Ce qui est peint au bas du message est le message lui-même (§1bis).
+    const carte = page.getByTestId('carte')
+    await expect
+      .poll(async () => {
+        const [a, b] = await Promise.all([message.boundingBox(), carte.boundingBox()])
+        if (a === null || b === null) return 'sans cadre'
+        const croise = a.x < b.x + b.width && b.x < a.x + a.width && a.y < b.y + b.height && b.y < a.y + a.height
+        return croise ? 'se croisent' : 'séparés'
+      })
+      .toBe('séparés')
+    // Ce qui est peint aux deux bouts du message est le message (§1bis).
+    await message.scrollIntoViewIfNeeded()
     const peint = await message.evaluate((m) => {
       const r = m.getBoundingClientRect()
-      const x = r.right - 12
-      const y = r.bottom - 8
-      return m.contains(document.elementFromPoint(x, y))
+      return [
+        [r.left + 12, r.top + 8],
+        [r.right - 12, r.bottom - 8],
+      ].every(([x, y]) => m.contains(document.elementFromPoint(x, y)))
     })
     expect(peint).toBe(true)
   })

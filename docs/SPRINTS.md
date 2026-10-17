@@ -2490,3 +2490,22 @@ le refusait, et la position venait d'un script jetable, hors du dépôt.
 
 **Normandie, bilan** : 135 candidats, 36 fiches proposées en 5 lots.
 
+### S248 — corrections de la revue adverse *(17/10)*
+
+1. **La garde du géocodeur ne vérifiait pas la commune.** « Sainte-Marguerite »
+   tombait sur Sainte-Marguerite-sur-Duclair, dans le même département.
+   - Elle exige maintenant la commune attendue (sans accents ni casse).
+   - Elle lit le département dans `context`, ce qui distingue 2A de 2B.
+   - Tests écrits d'abord, et les deux mutants sont tués.
+   - Rejouée sur les 36 fiches, une seule réponse est refusée : Oissel,
+     écrite désormais sous son nom officiel, Oissel-sur-Seine.
+2. **Le message de repli de la carte**, posé en haut, cachait 6 marqueurs
+   sur 9 à 320 px, et débordait du cadre à 200 % de texte. Il passe
+   **sous la carte**, dans le flux. Le test compare maintenant le message à
+   la carte entière, à 412 et à 320 px, et à 200 % de texte. Il a été vu
+   rouge avec l'ancien CSS (3 sur 3), puis vert.
+3. **Catégories qui dépassaient leur extrait** : La Moussette (l'article
+   parle du bar, pas de la brasserie) et Brasserie Léopard (annonce
+   « dès le 1er juillet » sans année) passent en « À confirmer », avec
+   leur raison. Les empreintes des lots changent.
+

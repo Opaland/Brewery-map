@@ -76,7 +76,7 @@
   {
    "fiche": {
     "n": "Brasserie Ragnar",
-    "c": "Oissel",
+    "c": "Oissel-sur-Seine",
     "d": "76",
     "lat": 49.34265,
     "lon": 1.08234,
@@ -84,7 +84,7 @@
     "cat": 0,
     "conf": "",
     "note": "Brasserie de production à Oissel ; ventes par cavistes et bars, vente directe non établie.",
-    "addr": "232 rue du Beau Poirier, 76350 Oissel",
+    "addr": "232 rue du Beau Poirier, 76350 Oissel-sur-Seine",
     "src": "https://www.brasserieragnar.com/",
     "coordPrecision": "commune",
     "beers": []
@@ -94,7 +94,7 @@
     "https://www.brasserieragnar.com/"
    ],
    "extrait": "232 Rue du Beau Poirier",
-   "choix": "Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part."
+   "choix": "Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part. Commune écrite sous son nom officiel actuel (Oissel-sur-Seine), celui du géocodeur ; le site écrit Oissel."
   },
   {
    "fiche": {

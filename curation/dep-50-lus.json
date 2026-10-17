@@ -64,12 +64,12 @@
   "n": "Brasserie Léopard",
   "c": "Avranches",
   "adresse": "7 avenue de la Gare, 50300 Avranches",
-  "cat": 1,
-  "conf": "faible",
-  "note": "Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue.",
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue : catégorie à confirmer.",
   "src": "https://brasserie-leopard.fr",
   "extrait": "Dès le 1er juillet, vous pourrez venir consommer sur place dans un cadre convivial, accompagné de planches apéro.",
-  "choix": "Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris.",
+  "choix": "Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris. Revue adverse : une annonce sans année ne fonde pas une catégorie ; la 1 serait possible si l'ouverture est confirmée.",
   "beers": [
    {
     "type": "blonde"
@@ -81,12 +81,12 @@
   "n": "La Moussette",
   "c": "Hauteville-sur-Mer",
   "adresse": null,
-  "cat": 1,
-  "conf": "faible",
-  "note": "Bar-bistrot avec terrasse au marché qui sert sa bière brassée tout près, d'après un article de 2021 ; ni horaires ni adresse lus.",
+  "cat": 0,
+  "conf": "",
+  "note": "Petit bar qui sert sa bière éponyme, brassée à quelques centaines de mètres, d'après un article de 2021 ; la brasserie elle-même (vente, accueil) n'est pas décrite : catégorie à confirmer.",
   "src": "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
   "extrait": "bière éponyme brassée à quelques hectomètres de là",
-  "choix": "Source de presse datée (10/07/2021) : à revérifier. Position au centre de la commune.",
+  "choix": "Revue adverse : la catégorie 1 dépassait l'extrait, qui parle du bar et non de la brasserie. Source de presse datée (10/07/2021). Position au centre de la commune.",
   "beers": []
  },
  {

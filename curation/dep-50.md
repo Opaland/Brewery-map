@@ -123,9 +123,9 @@ Choix du vérificateur : Le site écrit aussi « Les Travailleurs de l'Amer » (
 - lat : (vide) → 48.97076
 - lon : (vide) → -1.54595
 - km : (vide) → 599.6
-- cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → faible
-- note : (vide) → Bar-bistrot avec terrasse au marché qui sert sa bière brassée tout près, d'après un article de 2021 ; ni horaires ni adresse lus.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Petit bar qui sert sa bière éponyme, brassée à quelques centaines de mètres, d'après un article de 2021 ; la brasserie elle-même (vente, accueil) n'est pas décrite : catégorie à confirmer.
 - addr : (vide) → Hauteville-sur-Mer
 - src : (vide) → https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html
 - coordPrecision : (vide) → commune
@@ -136,7 +136,7 @@ Sources (vérifiée le 2026-10-17) : https://www.tendanceouest.com/actualite-384
 
 Extrait lu : « bière éponyme brassée à quelques hectomètres de là »
 
-Choix du vérificateur : Source de presse datée (10/07/2021) : à revérifier. Position au centre de la commune.
+Choix du vérificateur : Revue adverse : la catégorie 1 dépassait l'extrait, qui parle du bar et non de la brasserie. Source de presse datée (10/07/2021). Position au centre de la commune.
 
 ### 5. Captain James — fiche nouvelle
 
@@ -220,9 +220,9 @@ Choix du vérificateur : Source d'annuaire seulement. Téléphone de l'annuaire 
 - lat : (vide) → 48.68982
 - lon : (vide) → -1.36185
 - km : (vide) → 570.8
-- cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → faible
-- note : (vide) → Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue : catégorie à confirmer.
 - addr : (vide) → 7 avenue de la Gare, 50300 Avranches
 - src : (vide) → https://brasserie-leopard.fr
 - coordPrecision : (vide) → address
@@ -233,7 +233,7 @@ Sources (vérifiée le 2026-10-17) : https://brasserie-leopard.fr ; https://data
 
 Extrait lu : « Dès le 1er juillet, vous pourrez venir consommer sur place dans un cadre convivial, accompagné de planches apéro. »
 
-Choix du vérificateur : Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris.
+Choix du vérificateur : Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris. Revue adverse : une annonce sans année ne fonde pas une catégorie ; la 1 serait possible si l'ouverture est confirmée.
 
 ### 9. L'Écume des Falaises — fiche nouvelle
 
@@ -258,4 +258,4 @@ Extrait lu : « Dégustation au bar, vente à emporter en coffrets & cartons de 
 
 Choix du vérificateur : Le site nomme neuf bières (Ecume Blonde, Blanche, Ambrée, Triple, APA, Irish Stout…) sans en afficher le style : non reprises. SIRENE déclare aussi un établissement à Donville-les-Bains ; le site donne Jullouville. Téléphone publié : un mobile, non repris.
 
-Empreinte du lot : 2b730daba30b
+Empreinte du lot : 4fd401c03435

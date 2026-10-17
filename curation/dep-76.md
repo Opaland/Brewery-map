@@ -109,7 +109,7 @@ Choix du vérificateur : Fiche d'office de tourisme seulement.
 ### 4. Brasserie Ragnar — fiche nouvelle
 
 - n : (vide) → Brasserie Ragnar
-- c : (vide) → Oissel
+- c : (vide) → Oissel-sur-Seine
 - d : (vide) → 76
 - lat : (vide) → 49.34265
 - lon : (vide) → 1.08234
@@ -117,7 +117,7 @@ Choix du vérificateur : Fiche d'office de tourisme seulement.
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
 - note : (vide) → Brasserie de production à Oissel ; ventes par cavistes et bars, vente directe non établie.
-- addr : (vide) → 232 rue du Beau Poirier, 76350 Oissel
+- addr : (vide) → 232 rue du Beau Poirier, 76350 Oissel-sur-Seine
 - src : (vide) → https://www.brasserieragnar.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
@@ -127,7 +127,7 @@ Sources (vérifiée le 2026-10-17) : https://www.brasserieragnar.com/
 
 Extrait lu : « 232 Rue du Beau Poirier »
 
-Choix du vérificateur : Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part.
+Choix du vérificateur : Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part. Commune écrite sous son nom officiel actuel (Oissel-sur-Seine), celui du géocodeur ; le site écrit Oissel.
 
 ### 5. Fabrik2Bulles — fiche nouvelle
 
@@ -267,4 +267,4 @@ Extrait lu : « We produce different styles of beer »
 
 Choix du vérificateur : Fiche d'office de tourisme seulement. Position au centre de la commune.
 
-Empreinte du lot : f6f9cb311ae8
+Empreinte du lot : 20c26d20cc56
