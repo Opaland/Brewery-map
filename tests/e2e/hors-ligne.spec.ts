@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { expect, test } from './position'
+import { absentsDuCache, promessePrecache } from './precache'
 import { sansTuiles, versLaCarte } from './reseau'
 
 /**
@@ -12,30 +13,15 @@ test.describe('le service worker', () => {
   test.use({ serviceWorkers: 'allow' })
 
   test('précache l’application entière, données comprises', async ({ page }) => {
-    const sw = readFileSync('dist/sw.js', 'utf8')
-    const liste = JSON.parse(/self\.__PRECACHE__ = (\[[^\]]*\])/.exec(sw)?.[1] ?? '[]') as string[]
+    const { fichiers: liste, empreinte } = promessePrecache(readFileSync('dist/sw.js', 'utf8'))
     expect(liste.length).toBeGreaterThan(8)
     expect(liste.some((f) => /\/assets\/Carte-.*\.js$/.test(f))).toBe(true)
-
-    const empreinte = /const EMPREINTE = '([a-f0-9]+)'/.exec(sw)?.[1]
     expect(empreinte).toBeDefined()
 
     await page.goto('/')
-    await page.evaluate(() => navigator.serviceWorker.ready)
-    // Dans le cache de CETTE version, pas « n'importe quel cache » (revue
-    // code S7) ; et l'icône masquable, que la page ne demande jamais, ne
-    // peut y être que par l'installation.
-    const manquants = await page.evaluate(
-      async ({ fichiers, nom }) => {
-        const cache = await caches.open(nom)
-        const absents: string[] = []
-        for (const f of fichiers) {
-          if (!(await cache.match(new URL(f, location.href).href))) absents.push(f)
-        }
-        return absents
-      },
-      { fichiers: liste, nom: `mousse-app-${empreinte ?? ''}` },
-    )
+    // L'icône masquable, que la page ne demande jamais, ne peut être dans le
+    // cache que par l'installation.
+    const manquants = await absentsDuCache(page, liste, empreinte ?? '')
     expect(liste).toContain('./icon-maskable-512.png')
     // Les communes, d'avance (S42) : hors ligne sans recherche préalable.
     expect(liste).toEqual(expect.arrayContaining(['./communes-france.json', './communes/departements.json']))

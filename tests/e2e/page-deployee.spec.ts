@@ -1,4 +1,7 @@
+import { readFileSync } from 'node:fs'
+import { POLITIQUE } from '../../build/csp'
 import { expect, test } from './position'
+import { absentsDuCache, promessePrecache } from './precache'
 
 /**
  * La page réellement publiée, et non celle qu'on vient de construire.
@@ -43,5 +46,52 @@ test.describe('la page publiée', () => {
     ).toBeVisible({ timeout: 20_000 })
     expect(echecs, `requêtes en échec : ${echecs.join(' | ')}`).toEqual([])
     expect(erreurs, `erreurs JavaScript : ${erreurs.join(' | ')}`).toEqual([])
+  })
+
+  // S241 : le parcours, sur la page servie par Pages. Une fiche qui a une
+  // source, choisie dans les données : « fiche-source » est rendu même sans
+  // source (« Aucune source lue… », 58 fiches sur 166), et la première ligne
+  // pouvait en être une (revue adverse S241).
+  test('une fiche s’ouvre, avec sa source et « Y aller »', async ({ page }) => {
+    const avecSource = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as { n: string; src?: string }[]).find(
+      (b) => b.src !== undefined && b.src !== '',
+    )
+    expect(avecSource, 'une fiche avec source dans les données').toBeDefined()
+    const { n, src } = avecSource as { n: string; src: string }
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    await page.getByTestId('recherche').fill(n)
+    const ligne = page.locator(`button.ligne[data-nom="${n}"]`)
+    await expect(ligne).toBeVisible({ timeout: 20_000 })
+    await ligne.click()
+    await expect(ligne).toHaveAttribute('aria-expanded', 'true')
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveAttribute('href', src)
+    await expect(fiche.getByTestId('fiche-y-aller')).toBeVisible()
+  })
+
+  // S241 : la CSP servie est celle qu'on teste en local (securite.spec.ts).
+  test('la politique de sécurité publiée est celle du build', async ({ page }) => {
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    const publiee = await page
+      .locator('meta[http-equiv="Content-Security-Policy"]')
+      .getAttribute('content')
+    expect(publiee).toBe(POLITIQUE)
+  })
+})
+
+// S241 : hors ligne publié. Le service worker est permis ici seulement ; on
+// interroge le cache lui-même (setOffline ne le touche pas, CLAUDE.md §1).
+test.describe('la page publiée, hors ligne', () => {
+  test.skip(!URL_PUBLIEE, 'MOUSSE_URL non défini : sonde de déploiement sautée')
+  test.use({ serviceWorkers: 'allow' })
+
+  test('le service worker publié précache tout ce qu’il promet', async ({ page }) => {
+    const sw = await page.request.get(new URL('sw.js', URL_PUBLIEE).href)
+    expect(sw.status(), 'sw.js publié').toBe(200)
+    const { fichiers, empreinte } = promessePrecache(await sw.text())
+    expect(fichiers.length).toBeGreaterThan(8)
+    expect(empreinte).toBeDefined()
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    expect(await absentsDuCache(page, fichiers, empreinte ?? '')).toEqual([])
   })
 })
