@@ -221,9 +221,10 @@ chacun demande une décision ou une vérification de source.
 - **S249, à relancer** : 12 candidats bretons cherchés une fois au plus,
   le quota de recherches web de la session étant épuisé (listés « À
   relancer » dans `curation/dep-35.md` et `curation/dep-56.md`).
-- **Après S261** : les horaires des lots départementaux (même chemin que
-  le contact) ; relire les lots normands (S247-S248) pour leurs contacts ;
-  le lien Untappd de Louarn, à rattacher par une page qui le cite.
+- **Après S261-S262** : relire les lots normands (S247-S248) pour leurs
+  contacts et horaires ; le lien Untappd de Louarn, à rattacher par une
+  page qui le cite ; `horairesSurLaPage` ne lit pas l'anglais (« 3pm »,
+  sOavenn).
 
 - S36 — restes de la revue adverse :
   - deux onglets qui écrivent la même note : le dernier gagne, et le

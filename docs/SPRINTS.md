@@ -2604,3 +2604,32 @@ champ pour eux.
 Tests vus rouges avant le correctif (8), puis verts. Mutations : la garde des
 horaires retirée, ou l'ancienne comparaison par sous-chaîne remise, et un
 test échoue chaque fois. Les quatre lots repassent `controler` sans écart.
+
+## S262 — Les lots départementaux portent les horaires lus *(17/10)*
+
+`docs/stories/S262.md`. C'est le même chemin que le contact (S261).
+- `ajoutDeLecture` porte les blocs d'horaires, datés du jour, et leurs
+  sources.
+- `horairesSurLaPage` cherche chaque heure de chaque créneau sur la page du
+  bloc. Il reconnaît « 14h », « 14:00 », « 14 h 30 », « minuit » et les
+  plages « 17-22 h ». Une heure lue dans un autre nombre ne compte pas.
+- Il contrôle la présence des heures, pas leur sens : un jour interverti
+  passerait. C'est dit dans le code, et la relecture humaine reste.
+- Lots bretons : 17 fiches, 18 blocs, tous trouvés par `controler`. Les
+  empreintes changent.
+
+### S262 — corrections de la revue adverse *(17/10)*
+
+1. **Faux positifs du contrôle d'heure** : quatre écritures faisaient lire une heure qui n'était pas sur la page.
+   - « 14 h 30 » valait 14:00.
+   - « 12 hectolitres » valait 12:00.
+   - « Midi-Pyrénées » valait midi.
+   - Une durée « visite 2-3 h » fabriquait 02:00.
+
+   Le « h » ne compte plus quand il ouvre un mot, l'heure pleine n'est plus suivie d'autres minutes, « midi » et « minuit » doivent être des mots isolés, et une plage ne se normalise qu'à partir de 6 h. « de 17 à 22h » se lit maintenant. Les tests ont été écrits d'abord et vus rouges (3), puis verts.
+2. **Deux remarques sans appui sur leur page** :
+   - Skumenn : « Hors événements. » est retiré.
+   - Domani : « Retrait des commandes » est retiré ; le samedi d'été reste.
+3. **Le verdict de la story disait plus que le contrôle** (« retrouvés heure par heure ») : c'est un contrôle de présence, et le verdict le dit maintenant. Les blocs ont été relus un par un par la revue.
+
+Les quatre lots repassent `controler` sans écart.

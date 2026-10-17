@@ -343,3 +343,30 @@ describe('ajoutDeLecture (S261)', () => {
     expect('contact' in ajout.fiche).toBe(false)
   })
 })
+
+describe('ajoutDeLecture : les horaires (S262)', () => {
+  const lecture = {
+    cle: 'sirene:2',
+    n: 'Brasserie de test',
+    c: 'Plouguin',
+    adresse: null,
+    cat: 1,
+    conf: 'moyenne',
+    note: 'Bar le vendredi.',
+    src: 'https://exemple.fr/',
+    extrait: 'Bar le vendredi',
+    beers: [],
+  }
+  const pos = { lat: 48.5, lon: -4.6, precision: 'commune' as const }
+
+  it('CA1 : les blocs lus entrent dans la fiche, datés du jour, et leurs sources parmi les sources', () => {
+    const horaires = [{ nature: 'accueil' as const, ven: [['16:00', '22:00']] as [string, string][], source: 'https://exemple.fr/horaires' }]
+    const { ajout } = ajoutDeLecture({ ...lecture, horaires }, '29', pos, undefined, '2026-10-17')
+    expect(ajout.fiche.horaires).toEqual([{ ...horaires[0], verifieLe: '2026-10-17' }])
+    expect(ajout.sources).toEqual(['https://exemple.fr/', 'https://exemple.fr/horaires'])
+  })
+
+  it('CA1 : sans horaires, la fiche n’en a pas', () => {
+    expect('horaires' in ajoutDeLecture(lecture, '29', pos, undefined, '2026-10-17').ajout.fiche).toBe(false)
+  })
+})

@@ -1,0 +1,2137 @@
+[
+ {
+  "cle": "sirene:882854912",
+  "nom": "BRASSERIE TEMPLIER",
+  "communes": [
+   "VILLENEUVE-EN-RETZ"
+  ],
+  "departement": "44",
+  "adresses": [
+   "17 ALL DU PETIT BOIS, FRESNAY-EN-RETZ 44580 VILLENEUVE-EN-RETZ",
+   "SAINT-CYR-EN-RETZ - LA SORINIERE 106 RTE DE MACHECOUL 44580 VILLENEUVE-EN-RETZ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "882854912",
+  "sirets": [
+   "88285491200012",
+   "88285491200020"
+  ],
+  "osm": [
+   "node/13265875699"
+  ],
+  "lat": 47.022736076,
+  "lon": -1.87815634,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:939314746",
+  "nom": "LA COUTUME",
+  "communes": [
+   "PLESSE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "14 ROUTE DE SAVENAY 44630 PLESSE",
+   "44 LA VILLE DINAIS 44630 PLESSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "939314746",
+  "sirets": [
+   "93931474600016",
+   "93931474600040"
+  ],
+  "osm": [],
+  "lat": 47.5373124091607,
+  "lon": -1.88879112575342,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888746112",
+  "nom": "BRASSERIE DE MONTLUC",
+  "communes": [
+   "CORDEMAIS",
+   "SAINT-ETIENNE-DE-MONTLUC"
+  ],
+  "departement": "44",
+  "adresses": [
+   "21 RUE DE LA GARE 44360 CORDEMAIS",
+   "RUE DE LA CLOSE 44360 SAINT-ETIENNE-DE-MONTLUC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "888746112",
+  "sirets": [
+   "88874611200018",
+   "88874611200026"
+  ],
+  "osm": [
+   "way/923913781"
+  ],
+  "lat": 47.302297364,
+  "lon": -1.845760694,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898907233",
+  "nom": "TOUMELIN",
+  "communes": [
+   "CARQUEFOU",
+   "THOUARE-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 B ROUTE DES PELLERINES 44470 CARQUEFOU",
+   "LOCAL A 808 RUE DES ETANGS 44470 THOUARE-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898907233",
+  "sirets": [
+   "89890723300016",
+   "89890723300040"
+  ],
+  "osm": [],
+  "lat": 47.308067479,
+  "lon": -1.466898865,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921007340",
+  "nom": "UMAMI - BRASSERIE",
+  "communes": [
+   "LA CHAPELLE-SUR-ERDRE",
+   "THOUARE-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "15 RUE KEPLER 44240 LA CHAPELLE-SUR-ERDRE",
+   "52 RUE DE BELLEVUE 44470 THOUARE-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921007340",
+  "sirets": [
+   "92100734000026",
+   "92100734000034"
+  ],
+  "osm": [],
+  "lat": 47.263738431,
+  "lon": -1.551671587,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:809531908",
+  "nom": "BACA",
+  "communes": [
+   "BATZ-SUR-MER"
+  ],
+  "departement": "44",
+  "adresses": [
+   "26 T RUE DE DREZEGUY ZA PRAD VELIN 44740 BATZ-SUR-MER",
+   "60 RUE DE CASSE CAILLOU 44740 BATZ-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809531908",
+  "sirets": [
+   "80953190800030",
+   "80953190800048"
+  ],
+  "osm": [],
+  "lat": 47.281695741,
+  "lon": -2.472093724,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:933357519",
+  "nom": "BRASSERIE WILL'S",
+  "communes": [
+   "REMOUILLE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "6 RUE DES PECHEURS 44140 REMOUILLE",
+   "7 RUE DES GENETS 44140 REMOUILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "933357519",
+  "sirets": [
+   "93335751900018",
+   "93335751900034"
+  ],
+  "osm": [],
+  "lat": 47.058282293955,
+  "lon": -1.37435146717701,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848843116",
+  "nom": "SAS L'OLIFANT",
+  "communes": [
+   "GRANDCHAMP-DES-FONTAINES",
+   "ANCENIS-SAINT-GEREON"
+  ],
+  "departement": "44",
+  "adresses": [
+   "2 RUE MARIE CURIE 44119 GRANDCHAMP-DES-FONTAINES",
+   "148 RUE FERDINAND DE LESSEPS 44150 ANCENIS-SAINT-GEREON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848843116",
+  "sirets": [
+   "84884311600031",
+   "84884311600049"
+  ],
+  "osm": [],
+  "lat": 47.374628612,
+  "lon": -1.645559931,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853089290",
+  "nom": "BRASSERIE LA NAZAIRIENNE",
+  "communes": [
+   "SAINT-NAZAIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 ROUTE DE QUELMER 44600 SAINT-NAZAIRE",
+   "34 RUE DE L'ETOILE DU MATIN 44600 SAINT-NAZAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853089290",
+  "sirets": [
+   "85308929000011",
+   "85308929000037"
+  ],
+  "osm": [],
+  "lat": 47.273818875,
+  "lon": -2.261187583,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978022267",
+  "nom": "BRASSERIE DU DOMAINE DE LA HOUBLETTE",
+  "communes": [
+   "LEGE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "5 RUE DE LA CHARRIE 44650 LEGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978022267",
+  "sirets": [
+   "97802226700014"
+  ],
+  "osm": [],
+  "lat": 46.892739167,
+  "lon": -1.595473589,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818226938",
+  "nom": "BRASSERIES DE L'ATLANTIQUE",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "PARCELLES IK 152 ET K 154 (LOT DE 23 BOULEVARD DE CHANTENAY 44100 NANTES",
+   "PARCELLE IK 153 23 BOULEVARD DE CHANTENAY 44100 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818226938",
+  "sirets": [
+   "81822693800020",
+   "81822693800038"
+  ],
+  "osm": [],
+  "lat": 47.1964178968069,
+  "lon": -1.58876823083164,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929005494",
+  "nom": "BRASSERIE LA SOUPAPE",
+  "communes": [
+   "VERTOU",
+   "THOUARE-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "114 ROUTE DE LA GARE 44120 VERTOU",
+   "808 RUE DES ETANGS 44470 THOUARE-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929005494",
+  "sirets": [
+   "92900549400018",
+   "92900549400026"
+  ],
+  "osm": [],
+  "lat": 47.183137479,
+  "lon": -1.475898262,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:999533912",
+  "nom": "LA TURBULENTE",
+  "communes": [
+   "LA TURBALLE",
+   "GUERANDE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "10 PLACE DU MARCHE 44420 LA TURBALLE",
+   "33 RUE DE LA MAISONNEUVE 44350 GUERANDE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "999533912",
+  "sirets": [
+   "99953391200013",
+   "99953391200021"
+  ],
+  "osm": [
+   "node/14089238015"
+  ],
+  "lat": 47.349182730701,
+  "lon": -2.51296911224701,
+  "site": "https://leplanb-laturballe.fr/presentation-2/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883842643",
+  "nom": "CRAWL",
+  "communes": [
+   "THOUARE-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "5 RUE DU POINT DU JOUR 44470 THOUARE-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883842643",
+  "sirets": [
+   "88384264300016"
+  ],
+  "osm": [],
+  "lat": 47.264982015,
+  "lon": -1.444919754,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889755005",
+  "nom": "GIPSY BEER",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 RUE DU MARCHE COMMUN 44300 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889755005",
+  "sirets": [
+   "88975500500010"
+  ],
+  "osm": [],
+  "lat": 47.2524276059407,
+  "lon": -1.49969227812913,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-LUMINE-DE-COUTAIS"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:952435931",
+  "nom": "L'OURS JACK BRASSE MICRO-BRASSERIE",
+  "communes": [
+   "SAINTE-PAZANNE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZA LES BERTHAUDIERES 1 T IMPASSE DU CLOS NEUF 44680 SAINTE-PAZANNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952435931",
+  "sirets": [
+   "95243593100045"
+  ],
+  "osm": [],
+  "lat": 47.1107649768985,
+  "lon": -1.80328480877092,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948352562",
+  "nom": "BRASSERIE LA ZED",
+  "communes": [
+   "SAINT-JOACHIM"
+  ],
+  "departement": "44",
+  "adresses": [
+   "6 CHEMIN DE NEPY 44720 SAINT-JOACHIM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948352562",
+  "sirets": [
+   "94835256200011"
+  ],
+  "osm": [],
+  "lat": 47.375573101,
+  "lon": -2.18711543,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831523998",
+  "nom": "BRASSERIE LA CONVIVIALE",
+  "communes": [
+   "CHATEAU-THEBAUD"
+  ],
+  "departement": "44",
+  "adresses": [
+   "21 T RUE DES CHATAIGNIERS 44690 CHATEAU-THEBAUD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831523998",
+  "sirets": [
+   "83152399800035"
+  ],
+  "osm": [],
+  "lat": 47.099648527,
+  "lon": -1.452851267,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838342723",
+  "nom": "AEROFAB MICRO BRASSERIE",
+  "communes": [
+   "SAUTRON"
+  ],
+  "departement": "44",
+  "adresses": [
+   "18 RUE DU MOULIN 44880 SAUTRON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838342723",
+  "sirets": [
+   "83834272300023"
+  ],
+  "osm": [],
+  "lat": 47.257675684,
+  "lon": -1.660845693,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:817715238",
+  "nom": "PLAN BIERE",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "24 RUE BELLIER 44000 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "817715238",
+  "sirets": [
+   "81771523800025"
+  ],
+  "osm": [],
+  "lat": 47.2219492754378,
+  "lon": -1.52768840201461,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809686116",
+  "nom": "SAS BRASSERIE SAN ROCE - JD",
+  "communes": [
+   "JANS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "QUILLEVRANT 44170 JANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809686116",
+  "sirets": [
+   "80968611600017"
+  ],
+  "osm": [],
+  "lat": 47.62218827,
+  "lon": -1.587114647,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901940874",
+  "nom": "X'PRESSION",
+  "communes": [
+   "SAINT-PHILBERT-DE-GRAND-LIEU"
+  ],
+  "departement": "44",
+  "adresses": [
+   "14 RUE DE L'INDUSTRIE 44310 SAINT-PHILBERT-DE-GRAND-LIEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901940874",
+  "sirets": [
+   "90194087400026"
+  ],
+  "osm": [],
+  "lat": 47.0505717680174,
+  "lon": -1.63200114060019,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899996987",
+  "nom": "BREW KNOT",
+  "communes": [
+   "BOUAYE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "82 RUE JEAN-JACQUES AUDUBON 44830 BOUAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899996987",
+  "sirets": [
+   "89999698700017"
+  ],
+  "osm": [],
+  "lat": 47.156026809,
+  "lon": -1.675583907,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840060222",
+  "nom": "TETE HAUTE",
+  "communes": [
+   "LE CELLIER"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZI LES RELANDIERES NORD 44850 LE CELLIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840060222",
+  "sirets": [
+   "84006022200048"
+  ],
+  "osm": [
+   "way/171221997"
+  ],
+  "lat": 47.320562691298,
+  "lon": -1.38146762180026,
+  "site": "https://www.tete-haute.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981989056",
+  "nom": "BRASSERIE LEON FRERES",
+  "communes": [
+   "MACHECOUL-SAINT-MEME"
+  ],
+  "departement": "44",
+  "adresses": [
+   "34 LA PETITE BOUCARDIERE 44270 MACHECOUL-SAINT-MEME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981989056",
+  "sirets": [
+   "98198905600016"
+  ],
+  "osm": [],
+  "lat": 47.007454544,
+  "lon": -1.815258991,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835077181",
+  "nom": "LA MAISNIE SANITAS",
+  "communes": [
+   "MOISDON-LA-RIVIERE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 LD LA MENULIERE 44520 MOISDON-LA-RIVIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "835077181",
+  "sirets": [
+   "83507718100021"
+  ],
+  "osm": [],
+  "lat": 47.619525527,
+  "lon": -1.322799333,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "SAINT-NAZAIRE"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:419512322",
+  "nom": "LA BRASSERIE DU BOUFFAY",
+  "communes": [
+   "CARQUEFOU"
+  ],
+  "departement": "44",
+  "adresses": [
+   "54 RUE DES MONCEAUX 44470 CARQUEFOU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "419512322",
+  "sirets": [
+   "41951232200027"
+  ],
+  "osm": [
+   "node/1776401875"
+  ],
+  "lat": 47.310418272,
+  "lon": -1.507444141,
+  "site": "https://www.brasserie-du-bouffay.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884570607",
+  "nom": "OUEST COAST BREWERY",
+  "communes": [
+   "CHEIX-EN-RETZ"
+  ],
+  "departement": "44",
+  "adresses": [
+   "7 RUE DES LANDES 44640 CHEIX-EN-RETZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884570607",
+  "sirets": [
+   "88457060700033"
+  ],
+  "osm": [],
+  "lat": 47.1866770877605,
+  "lon": -1.80842196899369,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:106799661",
+  "nom": "LA GOULEYANTE",
+  "communes": [
+   "PETIT-MARS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "248 CHEMIN DES VIGNES 44390 PETIT-MARS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "106799661",
+  "sirets": [
+   "10679966100017"
+  ],
+  "osm": [
+   "node/9815501172"
+  ],
+  "lat": 47.3992589072229,
+  "lon": -1.45749791087335,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:445280019",
+  "nom": "BRASSERIE DE LA COTE DE JADE",
+  "communes": [
+   "PORNIC"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZONE INDUSTRIELLE DE LA BLAVETIERE 13 RUE HENRI BECQUEREL 44210 PORNIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "445280019",
+  "sirets": [
+   "44528001900024"
+  ],
+  "osm": [],
+  "lat": 47.11435787,
+  "lon": -2.063178761,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832995716",
+  "nom": "BRASSERIE DE LA B",
+  "communes": [
+   "PORNICHET"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZONE ARTISANALE DU HECQUEUX 7 AV DU COURTIL RIEL 44380 PORNICHET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832995716",
+  "sirets": [
+   "83299571600020"
+  ],
+  "osm": [],
+  "lat": 47.258483167,
+  "lon": -2.316907498,
+  "statut": "ambigu",
+  "fiche": "Brasserie B.A.S. (Sabaudia)"
+ },
+ {
+  "cle": "sirene:833135742",
+  "nom": "BRASSERIE VESTIBULE",
+  "communes": [
+   "MESQUER"
+  ],
+  "departement": "44",
+  "adresses": [
+   "120 RUE DES ARTISANS 44420 MESQUER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "833135742",
+  "sirets": [
+   "83313574200033"
+  ],
+  "osm": [
+   "node/13920988115"
+  ],
+  "lat": 47.39301343,
+  "lon": -2.458731136,
+  "site": "https://brasserievestibule.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822771481",
+  "nom": "BRASSERIE BELLE COUR",
+  "communes": [
+   "MAISDON-SUR-SEVRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "21 LES CROIX 44690 MAISDON-SUR-SEVRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822771481",
+  "sirets": [
+   "82277148100030"
+  ],
+  "osm": [],
+  "lat": 47.1067882207811,
+  "lon": -1.38777193769527,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827892431",
+  "nom": "BRASSERIE BELLOUFF",
+  "communes": [
+   "VERTOU"
+  ],
+  "departement": "44",
+  "adresses": [
+   "25 AVENUE DE LA VERTONNE 44120 VERTOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827892431",
+  "sirets": [
+   "82789243100012"
+  ],
+  "osm": [],
+  "lat": 47.180548175844,
+  "lon": -1.47954398277908,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LA PLANCHE"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SAINT-SEBASTIEN-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:844122622",
+  "nom": "BRASSERIE BOUYER",
+  "communes": [
+   "SAINT-NAZAIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "27 RUE JACQUES DAGUERRE 44600 SAINT-NAZAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844122622",
+  "sirets": [
+   "84412262200021"
+  ],
+  "osm": [],
+  "lat": 47.2960654415935,
+  "lon": -2.29291528221216,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852236546",
+  "nom": "BRASSERIE CALI",
+  "communes": [
+   "JOUE-SUR-ERDRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "21 RUE DU BOCAGE 44440 JOUE-SUR-ERDRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852236546",
+  "sirets": [
+   "85223654600010"
+  ],
+  "osm": [],
+  "lat": 47.496037297,
+  "lon": -1.420782695,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892111873",
+  "nom": "BRASSERIE ARTISANALE DAMRAZ",
+  "communes": [
+   "HERBIGNAC"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZA LE PRE GOVELLIN 44410 HERBIGNAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892111873",
+  "sirets": [
+   "89211187300014"
+  ],
+  "osm": [],
+  "lat": 47.443979054,
+  "lon": -2.320368724,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:101035954",
+  "nom": "MICRO BRASSERIE UFO",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "494 ROUTE DE SAINT JOSEPH - 44300 NANT 2 RUE JEAN MARIE POTIRON 44300 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "101035954",
+  "sirets": [
+   "10103595400011"
+  ],
+  "osm": [],
+  "lat": 47.2700801233746,
+  "lon": -1.51901523066473,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878916527",
+  "nom": "O'MALT",
+  "communes": [
+   "OUDON"
+  ],
+  "departement": "44",
+  "adresses": [
+   "7 B RUE DES ARTISANS 44521 OUDON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "878916527",
+  "sirets": [
+   "87891652700038"
+  ],
+  "osm": [
+   "node/7385727057"
+  ],
+  "lat": 47.3569340489479,
+  "lon": -1.29951696475344,
+  "site": "https://www.omalt.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894409325",
+  "nom": "LA MAISON BLANCHE",
+  "communes": [
+   "MACHECOUL-SAINT-MEME"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZONE DE LA SEIGLERIE 2 1 RUE THOMAS EDISON 44270 MACHECOUL-SAINT-MEME"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "894409325",
+  "sirets": [
+   "89440932500012"
+  ],
+  "osm": [
+   "way/72125603"
+  ],
+  "lat": 46.979175229,
+  "lon": -1.800228574,
+  "site": "https://www.brasserielamaisonblanche.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:752932715",
+  "nom": "LES BIERES DE CHARLOTTE",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "121 RUE GENERAL BUAT 44000 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "752932715",
+  "sirets": [
+   "75293271500010"
+  ],
+  "osm": [],
+  "lat": 47.2253996520295,
+  "lon": -1.54388654665947,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902503739",
+  "nom": "SOCIETE CARIO HALBERT",
+  "communes": [
+   "GUENROUET"
+  ],
+  "departement": "44",
+  "adresses": [
+   "19 RUE DU MOULIN DE LA JUSTICE 44530 GUENROUET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902503739",
+  "sirets": [
+   "90250373900010"
+  ],
+  "osm": [],
+  "lat": 47.518543439,
+  "lon": -1.96618888,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922601919",
+  "nom": "BRASSERIE SOMA",
+  "communes": [
+   "LE LOROUX-BOTTEREAU"
+  ],
+  "departement": "44",
+  "adresses": [
+   "SAINTE RADEGONDE 44430 LE LOROUX-BOTTEREAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922601919",
+  "sirets": [
+   "92260191900017"
+  ],
+  "osm": [],
+  "lat": 47.259150833,
+  "lon": -1.271345532,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923121263",
+  "nom": "LA BRASSERIE COMMUNALE EXTRAORDINAIRE",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "121 RUE GENERAL BUAT 44000 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923121263",
+  "sirets": [
+   "92312126300027"
+  ],
+  "osm": [],
+  "lat": 47.2253996520295,
+  "lon": -1.54388654665947,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:434377784",
+  "nom": "BRASSERIE ARTISANALE DE LA DIVATTE",
+  "communes": [
+   "DIVATTE-SUR-LOIRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "LD LE NORESTIER 44450 DIVATTE-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "434377784",
+  "sirets": [
+   "43437778400013"
+  ],
+  "osm": [],
+  "lat": 47.280368722,
+  "lon": -1.373658797,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912037173",
+  "nom": "BRASSERIE LORC'H",
+  "communes": [
+   "NOZAY"
+  ],
+  "departement": "44",
+  "adresses": [
+   "CARRIERS 1 B BD DU PT. VERSAILLES-POLE DES 44170 NOZAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912037173",
+  "sirets": [
+   "91203717300016"
+  ],
+  "osm": [],
+  "lat": 47.568382007,
+  "lon": -1.63091596,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911474906",
+  "nom": "BRASSERIE RV",
+  "communes": [
+   "CHAUVE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZONE ARTISANALE DE BEL AIR 1 B RUE DES CHARMES 44320 CHAUVE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911474906",
+  "sirets": [
+   "91147490600029"
+  ],
+  "osm": [],
+  "lat": 47.151770679,
+  "lon": -1.992902125,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905326906",
+  "nom": "BRASSERIE BRASSE COULEE",
+  "communes": [
+   "LA CHEVROLIERE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "12 RUE CERES 44118 LA CHEVROLIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "905326906",
+  "sirets": [
+   "90532690600013"
+  ],
+  "osm": [],
+  "lat": 47.0892869921874,
+  "lon": -1.60394001094697,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908224348",
+  "nom": "DEUX BELIERS",
+  "communes": [
+   "BASSE-GOULAINE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "65 RUE DE L'ATLANTIQUE 44115 BASSE-GOULAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908224348",
+  "sirets": [
+   "90822434800023"
+  ],
+  "osm": [],
+  "lat": 47.185884993,
+  "lon": -1.449641485,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830866042",
+  "nom": "LES BRASSEURS DE L'IMPOSSIBLE",
+  "communes": [
+   "REZE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "4 RUE DU SEIL 44400 REZE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830866042",
+  "sirets": [
+   "83086604200039"
+  ],
+  "osm": [
+   "node/6495364347"
+  ],
+  "lat": 47.1948293178533,
+  "lon": -1.55697065428724,
+  "site": "http://www.brasserienautile.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:513221713",
+  "nom": "BRASSERIE PLORMEL",
+  "communes": [
+   "VIEILLEVIGNE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZA BEAUSOLEIL 4 RUE GUTENBERG 44116 VIEILLEVIGNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "513221713",
+  "sirets": [
+   "51322171300037"
+  ],
+  "osm": [
+   "node/9998994373"
+  ],
+  "lat": 46.970195965,
+  "lon": -1.415614034,
+  "site": "https://www.brasserieplormel.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989984091",
+  "nom": "LITTLE FOREST SOLUTIONS",
+  "communes": [
+   "LE CELLIER"
+  ],
+  "departement": "44",
+  "adresses": [
+   "103 ROUTE DE SAINT-MARS 44850 LE CELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989984091",
+  "sirets": [
+   "98998409100011"
+  ],
+  "osm": [],
+  "lat": 47.3511634839389,
+  "lon": -1.36744494935174,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979379740",
+  "nom": "LES BRASSEURS EN ERDRE",
+  "communes": [
+   "LA CHAPELLE-SUR-ERDRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "5 T RUE FRANCOIS CLOUET 44240 LA CHAPELLE-SUR-ERDRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979379740",
+  "sirets": [
+   "97937974000017"
+  ],
+  "osm": [],
+  "lat": 47.2999488080381,
+  "lon": -1.55073822727451,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853003937",
+  "nom": "NANTES BEER CLUB",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "54 RUE DE LA DISTILLERIE 44000 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853003937",
+  "sirets": [
+   "85300393700010"
+  ],
+  "osm": [],
+  "lat": 47.2249852352692,
+  "lon": -1.55695513566297,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882658016",
+  "nom": "MICRO-BRASSERIE BREWEN",
+  "communes": [
+   "SAINT-BREVIN-LES-PINS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "ZONE DE LA GUERCHE CHEMIN DES PINLUETTES 44250 SAINT-BREVIN-LES-PINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882658016",
+  "sirets": [
+   "88265801600010"
+  ],
+  "osm": [],
+  "lat": 47.241312169,
+  "lon": -2.152391473,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881765812",
+  "nom": "FERME BRASSERIE SAINT CHARLES",
+  "communes": [
+   "PLESSE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "LIEU-DIT SAINT CHARLES SAINT CHARLES 44630 PLESSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881765812",
+  "sirets": [
+   "88176581200014"
+  ],
+  "osm": [],
+  "lat": 47.515491311,
+  "lon": -1.882775053,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881148936",
+  "nom": "LES PAPAS BRASSEURS",
+  "communes": [
+   "SAINT-HILAIRE-DE-CLISSON"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 RUE DES MONTY 44190 SAINT-HILAIRE-DE-CLISSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881148936",
+  "sirets": [
+   "88114893600027"
+  ],
+  "osm": [],
+  "lat": 47.070062467742,
+  "lon": -1.30167689044267,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893439430",
+  "nom": "DTC BREWING",
+  "communes": [
+   "SAINT-MARS-DE-COUTAIS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "8 LES NOES 44680 SAINT-MARS-DE-COUTAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893439430",
+  "sirets": [
+   "89343943000016"
+  ],
+  "osm": [],
+  "lat": 47.053671618,
+  "lon": -1.763491784,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "LA GOULEYANTE",
+  "communes": [
+   "PETIT-MARS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "8 RUE DE LA BUTTE 44390 PETIT-MARS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "doublon",
+  "fiche": "LA GOULEYANTE"
+ },
+ {
+  "cle": "sirene:499948743",
+  "nom": "BC2",
+  "communes": [
+   "BOUGUENAIS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "27 RUE DE L'AERONAUTIQUE 44340 BOUGUENAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "499948743",
+  "sirets": [
+   "49994874300046"
+  ],
+  "osm": [],
+  "lat": 47.164359957,
+  "lon": -1.586027558,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINT-JOACHIM"
+  ],
+  "departement": "44",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:8",
+  "nom": "BRASSERIE D'ICI L'AURORE",
+  "communes": [
+   "SAINT-HILAIRE-DE-CHALEONS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "LA PRISE 44680 SAINT-HILAIRE-DE-CHALEONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838712842",
+  "nom": "BRASSERIE NAO",
+  "communes": [
+   "VIGNEUX-DE-BRETAGNE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "2 RUE ALBERT DE DION 44360 VIGNEUX-DE-BRETAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838712842",
+  "sirets": [
+   "83871284200015"
+  ],
+  "osm": [],
+  "lat": 47.30488697,
+  "lon": -1.753021695,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:913957288",
+  "nom": "T & B",
+  "communes": [
+   "COUERON"
+  ],
+  "departement": "44",
+  "adresses": [
+   "LA CROIX GICQUIAU 44220 COUERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913957288",
+  "sirets": [
+   "91395728800016"
+  ],
+  "osm": [],
+  "lat": 47.24312425,
+  "lon": -1.672664645,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:915240667",
+  "nom": "LA DEVIATION",
+  "communes": [
+   "RIAILLE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "165 RUE D'ANJOU 44440 RIAILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "915240667",
+  "sirets": [
+   "91524066700013"
+  ],
+  "osm": [],
+  "lat": 47.5169806041173,
+  "lon": -1.28928971950025,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812106466",
+  "nom": "BUBAR",
+  "communes": [
+   "NANTES"
+  ],
+  "departement": "44",
+  "adresses": [
+   "5 RUE LOUIS BLANC 44200 NANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812106466",
+  "sirets": [
+   "81210646600012"
+  ],
+  "osm": [],
+  "lat": 47.2067715692949,
+  "lon": -1.55483949189734,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929977411",
+  "nom": "GLOBE",
+  "communes": [
+   "BATZ-SUR-MER"
+  ],
+  "departement": "44",
+  "adresses": [
+   "12 ROUTE DU POULGOT 44740 BATZ-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929977411",
+  "sirets": [
+   "92997741100024"
+  ],
+  "osm": [],
+  "lat": 47.2715443242233,
+  "lon": -2.44384380126648,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922363452",
+  "nom": "LA BRASSERIE CLAVIER",
+  "communes": [
+   "SAINT-BREVIN-LES-PINS"
+  ],
+  "departement": "44",
+  "adresses": [
+   "4 ROUTE DES PESSAIS 44250 SAINT-BREVIN-LES-PINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922363452",
+  "sirets": [
+   "92236345200017"
+  ],
+  "osm": [],
+  "lat": 47.2382247096047,
+  "lon": -2.15302828099187,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:817637077",
+  "nom": "BRASSERIE ARTISANALE PHILMORE",
+  "communes": [
+   "LA CHAPELLE-SUR-ERDRE"
+  ],
+  "departement": "44",
+  "adresses": [
+   "15 RUE KEPLER 44240 LA CHAPELLE-SUR-ERDRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "817637077",
+  "sirets": [
+   "81763707700022"
+  ],
+  "osm": [],
+  "lat": 47.263738431,
+  "lon": -1.551671587,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921659413",
+  "nom": "IGGDRASIL",
+  "communes": [
+   "CONQUEREUIL"
+  ],
+  "departement": "44",
+  "adresses": [
+   "32 LE PETIT PONT VEIX 44290 CONQUEREUIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921659413",
+  "sirets": [
+   "92165941300014"
+  ],
+  "osm": [],
+  "lat": 47.615185981,
+  "lon": -1.726131021,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:994139863",
+  "nom": "TAP 5",
+  "communes": [
+   "VERTOU"
+  ],
+  "departement": "44",
+  "adresses": [
+   "1 AVENUE DE LA VERTONNE 44120 VERTOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "994139863",
+  "sirets": [
+   "99413986300025"
+  ],
+  "osm": [],
+  "lat": 47.1845946012689,
+  "lon": -1.49100222317421,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10840277210",
+  "nom": "Brasserie de l'Ouche",
+  "communes": [
+   "Joué-sur-Erdre"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10840277210"
+  ],
+  "lat": 47.49358,
+  "lon": -1.42065,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12159763921",
+  "nom": "Les Brassés",
+  "communes": [
+   "Nantes"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12159763921"
+  ],
+  "lat": 47.22186,
+  "lon": -1.52766,
+  "site": "https://lesbrasses.fr/bieres_bios_atelier_les_brasses/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13474471734",
+  "nom": "Brasserie La Beluette",
+  "communes": [
+   "La Chapelle-sur-Erdre"
+  ],
+  "departement": "44",
+  "adresses": [
+   "5ter Rue François Clouet, 44240 La Chapelle-sur-Erdre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13474471734"
+  ],
+  "lat": 47.29972,
+  "lon": -1.55082,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3392551911",
+  "nom": "L'Incontournable",
+  "communes": [
+   "Mésanger"
+  ],
+  "departement": "44",
+  "adresses": [
+   "235 Avenue des Chênes, 44522 Mésanger"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3392551911"
+  ],
+  "lat": 47.43212,
+  "lon": -1.2275,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3557670116",
+  "nom": "La Brasserie Ordinaire",
+  "communes": [
+   "Nantes"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3557670116"
+  ],
+  "lat": 47.22541,
+  "lon": -1.54385,
+  "site": "http://www.lesbieresdecharlotte.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4466324237",
+  "nom": "Papybot'",
+  "communes": [
+   "Châteaubriant"
+  ],
+  "departement": "44",
+  "adresses": [
+   "4"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4466324237"
+  ],
+  "lat": 47.72026,
+  "lon": -1.37626,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6395824709",
+  "nom": "Brasserie La ConviviAle",
+  "communes": [
+   "Le Bignon"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6395824709"
+  ],
+  "lat": 47.10052,
+  "lon": -1.45075,
+  "site": "https://www.brasserielaconviviale.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LA CONVIVIALE"
+ },
+ {
+  "cle": "node/6813865426",
+  "nom": "Brasserie San Roce",
+  "communes": [
+   "Jans"
+  ],
+  "departement": "44",
+  "adresses": [
+   "Quillevrant, 44170 Jans"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6813865426"
+  ],
+  "lat": 47.62377,
+  "lon": -1.58629,
+  "site": "https://brasseriesanroce.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7245053538",
+  "nom": "Brasserie Will's",
+  "communes": [
+   "Le Cellier"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7245053538"
+  ],
+  "lat": 47.31521,
+  "lon": -1.30251,
+  "site": "http://www.brasserie-wills.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE WILL'S"
+ },
+ {
+  "cle": "node/7391878540",
+  "nom": "Brasserie Artisanale Philmore",
+  "communes": [
+   "Rezé"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7391878540"
+  ],
+  "lat": 47.19164,
+  "lon": -1.55504,
+  "site": "http://philmore.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE ARTISANALE PHILMORE"
+ },
+ {
+  "cle": "node/7492071434",
+  "nom": "Brasserie La Hulotte",
+  "communes": [
+   "Sautron"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7492071434"
+  ],
+  "lat": 47.25772,
+  "lon": -1.66083,
+  "site": "https://www.brasserie-lahulotte.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8261974279",
+  "nom": "Atelier HASY-Veracruz",
+  "communes": [
+   "Saint-Nazaire"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8261974279"
+  ],
+  "lat": 47.27864,
+  "lon": -2.21097,
+  "site": "https://www.bveracruz.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8646292311",
+  "nom": "Les Gorgées de bière",
+  "communes": [
+   "Gorges"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8646292311"
+  ],
+  "lat": 47.10664,
+  "lon": -1.33373,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9860631079",
+  "nom": "Le Petit Brassin",
+  "communes": [
+   "Remouillé"
+  ],
+  "departement": "44",
+  "adresses": [
+   "44140"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9860631079"
+  ],
+  "lat": 47.05996,
+  "lon": -1.38209,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9959951923",
+  "nom": "Brasserie du Cadran",
+  "communes": [
+   "Le Cellier"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9959951923"
+  ],
+  "lat": 47.31318,
+  "lon": -1.32195,
+  "site": "https://www.brasserieducadran.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/65505066",
+  "nom": "3 Brasseurs (Saint-Sébastien-sur-Loire)",
+  "communes": [
+   "Saint-Sébastien-sur-Loire"
+  ],
+  "departement": "44",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/65505066"
+  ],
+  "lat": 47.19127,
+  "lon": -1.48922,
+  "site": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+  "statut": "ambigu",
+  "fiche": "Brasserie de la Loire"
+ }
+]

@@ -14,7 +14,21 @@
    "addr": "Saint-Judoce",
    "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "source": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+     "remarque": "Autre créneau sur demande.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

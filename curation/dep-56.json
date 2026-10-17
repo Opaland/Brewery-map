@@ -138,6 +138,20 @@
      {
       "type": "blonde"
      }
+    ],
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Ou sur demande.",
+      "source": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+      "verifieLe": "2026-10-17"
+     }
     ]
    },
    "verifieLe": "2026-10-17",
@@ -503,7 +517,21 @@
      "site": "https://www.brasserie-domani.fr/",
      "source": "https://www.brasserie-domani.fr/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "En juillet et août, aussi le samedi de 10 h à 13 h.",
+      "source": "https://www.brasserie-domani.fr/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -638,6 +666,64 @@
      },
      {
       "type": "blanche"
+     }
+    ],
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "remarque": "Toute l'année.",
+      "source": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+      "verifieLe": "2026-10-17"
      }
     ]
    },

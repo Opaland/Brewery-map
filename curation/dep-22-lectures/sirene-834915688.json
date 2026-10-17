@@ -24,7 +24,38 @@
     "source": "https://www.brasseriedepaimpol.com",
     "tel": "02 56 42 17 68",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "mar": [
+      [
+       "14:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "17:30"
+      ]
+     ],
+     "source": "https://www.brasseriedepaimpol.com",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

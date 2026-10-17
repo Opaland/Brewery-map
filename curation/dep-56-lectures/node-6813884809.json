@@ -18,6 +18,20 @@
     {
      "type": "blonde"
     }
+   ],
+   "horaires": [
+    {
+     "nature": "vente",
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "source": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+     "remarque": "Ou sur demande.",
+     "verifieLe": "2026-10-17"
+    }
    ]
   },
   "verifieLe": "2026-10-17",

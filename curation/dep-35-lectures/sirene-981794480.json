@@ -20,7 +20,81 @@
     "source": "https://www.choquemicrobrasserie.fr",
     "untappd": "https://untappd.com/w/choque-microbrasserie/559490",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mar": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "source": "https://www.choquemicrobrasserie.fr",
+     "remarque": "Taproom.",
+     "verifieLe": "2026-10-17"
+    },
+    {
+     "nature": "vente",
+     "mar": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "source": "https://www.choquemicrobrasserie.fr",
+     "remarque": "Vente à emporter, et aux heures du taproom.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

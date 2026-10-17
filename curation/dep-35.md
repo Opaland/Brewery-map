@@ -19,7 +19,7 @@ Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement »
 
 **Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
+**Horaires** (S262) : repris quand la page les donne en clair, jour par jour, et chaque heure relue par `controler`. Ceux d'une page qui ne les donne qu'en partie, ou « non garantis », restent dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -144,6 +144,11 @@ Choix du vérificateur : Annuaire seulement ; adresses contradictoires. Position
 - contact.site : (vide) → https://www.brasserie-sainte-colombe.com/
 - contact.source : (vide) → https://www.brasserie-sainte-colombe.com/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.ven : (vide) → 14 h – 20 h 30
+- horaires.0.remarque : (vide) → Bar et vente directe.
+- horaires.0.source : (vide) → https://www.brasserie-sainte-colombe.com/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-sainte-colombe.com/ ; https://data.geopf.fr/geocodage/search?q=22+Boulevard+Fran%C3%A7ois+Mitterrand%2C+35150+Corps-Nuds&limit=5
@@ -173,6 +178,16 @@ Choix du vérificateur : Même brasserie que le point OSM node/872324499 (La Lan
 - contact.untappd : (vide) → https://untappd.com/w/brasserie-skumenn/240180
 - contact.source : (vide) → https://www.skumenn.com/brewpub
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.lun : (vide) → fermé
+- horaires.0.mar : (vide) → 11 h 30 – 14 h, 16 h – 21 h
+- horaires.0.mer : (vide) → 11 h 30 – 14 h, 16 h – 21 h
+- horaires.0.jeu : (vide) → 11 h 30 – 14 h, 16 h – 22 h
+- horaires.0.ven : (vide) → 11 h 30 – 22 h
+- horaires.0.sam : (vide) → 14 h 30 – 21 h
+- horaires.0.dim : (vide) → fermé
+- horaires.0.source : (vide) → https://www.skumenn.com/brewpub
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.skumenn.com/brewpub ; https://data.geopf.fr/geocodage/search?q=8+impasse+des+Charmilles%2C+35510+Cesson-S%C3%A9vign%C3%A9&limit=5
@@ -224,6 +239,11 @@ Choix du vérificateur : Annuaire en anglais seulement. Position au centre du Rh
 - contact.site : (vide) → https://www.vieuxsinge.com/
 - contact.source : (vide) → https://www.vieuxsinge.com
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.jeu : (vide) → 14 h – 18 h
+- horaires.0.ven : (vide) → 10 h – 18 h
+- horaires.0.source : (vide) → https://www.vieuxsinge.com
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.vieuxsinge.com ; https://data.geopf.fr/geocodage/search?q=4b+rue+Janig+Corlay%2C+35136+Saint-Jacques-de-la-Lande&limit=5
@@ -382,6 +402,24 @@ Choix du vérificateur : Même brasserie que le point OSM node/4225477240 (Renne
 - contact.untappd : (vide) → https://untappd.com/w/choque-microbrasserie/559490
 - contact.source : (vide) → https://www.choquemicrobrasserie.fr
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.mar : (vide) → 17 h – 22 h
+- horaires.0.mer : (vide) → 17 h – 22 h
+- horaires.0.jeu : (vide) → 17 h – 22 h
+- horaires.0.ven : (vide) → 16 h – 23 h
+- horaires.0.sam : (vide) → 16 h – 23 h
+- horaires.0.dim : (vide) → 16 h – 21 h
+- horaires.0.remarque : (vide) → Taproom.
+- horaires.0.source : (vide) → https://www.choquemicrobrasserie.fr
+- horaires.0.verifieLe : (vide) → 2026-10-17
+- horaires.1.nature : (vide) → vente
+- horaires.1.mar : (vide) → 10 h – 19 h
+- horaires.1.mer : (vide) → 10 h – 19 h
+- horaires.1.jeu : (vide) → 10 h – 19 h
+- horaires.1.ven : (vide) → 10 h – 19 h
+- horaires.1.remarque : (vide) → Vente à emporter, et aux heures du taproom.
+- horaires.1.source : (vide) → https://www.choquemicrobrasserie.fr
+- horaires.1.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.choquemicrobrasserie.fr
@@ -455,6 +493,10 @@ Choix du vérificateur : Page en anglais de l'office de tourisme seulement.
 - contact.site : (vide) → https://brasseriedrao.com/
 - contact.source : (vide) → https://brasseriedrao.com/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.ven : (vide) → 14 h – 18 h
+- horaires.0.source : (vide) → https://brasseriedrao.com/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasseriedrao.com/
@@ -489,4 +531,4 @@ Extrait lu : « La brasserie ne peut pas recevoir de visiteurs pour le moment. �
 
 Choix du vérificateur : Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon ».
 
-Empreinte du lot : 06577139c560
+Empreinte du lot : 0341f4e7f97a

@@ -504,6 +504,49 @@ export function contactSurLaPage(
   return { absents, parLaPageMeme }
 }
 
+const JOURS_DE_LA_SEMAINE = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'] as const
+
+/** Une heure « 14:30 » telle qu'une page l'écrit : « 14h30 », « 14:30 », « 14 h 30 » ; « 14h » ou « 14h00 » pour l'heure pleine ; « minuit », « midi ». */
+function heureSurLaPage(heure: string, texte: string): boolean {
+  const [hh = '', mm = ''] = heure.split(':')
+  const h = String(Number(hh))
+  // « h » seul ou « heure(s) », jamais le début d'un mot (« 12 hectolitres ») ;
+  // l'heure pleine n'est pas suivie d'autres minutes (« 14 h 30 » n'est pas 14:00).
+  const separateur = '(?:heures?(?![a-zà-ÿ])|h(?![a-zà-ÿ])|:)'
+  const minutes = mm === '00' ? '(?:\\s*00)?(?!\\s*\\d)' : `\\s*${mm}(?!\\d)`
+  const ecrite = new RegExp(`(?<!\\d)0?${h}\\s*${separateur}${minutes}`, 'i')
+  // « midi », « minuit » en mots isolés : « Midi-Pyrénées » n'est pas midi.
+  const enMots = (heure === '00:00' && /(?<!\p{L})minuit(?![\p{L}-])/iu.test(texte)) || (heure === '12:00' && /(?<!\p{L})midi(?![\p{L}-])/iu.test(texte))
+  return enMots || ecrite.test(texte)
+}
+
+/**
+ * Les heures d'un bloc d'horaires que sa page ne montre pas (S262), sous la
+ * forme « ven 22:00 ». Contrôle de présence, pas de sens : il attrape une
+ * heure inventée ou mal recopiée, pas un jour interverti. Un jour fermé ou
+ * « heures non précisées » ne demande rien.
+ */
+export function horairesSurLaPage(bloc: Readonly<Record<string, unknown>>, page: string): string[] {
+  // « 17-22 h », « de 17 à 22h » : la première heure de la plage prend le
+  // « h » de la seconde. Seulement à partir de 6 h : en dessous, c'est une
+  // durée (« visite 2-3 h »), pas une heure d'ouverture (revue adverse S262).
+  const texte = page
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/(?<!\d)(\d{1,2})(\s*(?:[-–]|à)\s*\d{1,2}\s*h(?![a-zà-ÿ]))/gi, (m, debut: string, reste: string) =>
+      Number(debut) >= 6 ? `${debut}h${reste}` : m,
+    )
+  const absentes: string[] = []
+  for (const jour of JOURS_DE_LA_SEMAINE) {
+    const creneaux = bloc[jour]
+    if (!Array.isArray(creneaux)) continue
+    for (const heure of new Set((creneaux as [string, string][]).flat())) {
+      if (!heureSurLaPage(heure, texte)) absentes.push(`${jour} ${heure}`)
+    }
+  }
+  return absentes
+}
+
 const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }
 
 /** Le texte lu d'une page : sans balises, entités décodées, sans accents ni casse, espaces réduits. */

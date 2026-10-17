@@ -49,7 +49,25 @@
   "contact": {
    "site": "https://www.vieuxsinge.com/",
    "source": "https://www.vieuxsinge.com"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.vieuxsinge.com"
+   }
+  ]
  },
  {
   "cle": "sirene:921977443",
@@ -180,7 +198,20 @@
   "contact": {
    "site": "https://www.brasserie-sainte-colombe.com/",
    "source": "https://www.brasserie-sainte-colombe.com/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "14:00",
+      "20:30"
+     ]
+    ],
+    "source": "https://www.brasserie-sainte-colombe.com/",
+    "remarque": "Bar et vente directe."
+   }
+  ]
  },
  {
   "cle": "sirene:981674021",
@@ -233,7 +264,57 @@
    "source": "https://www.skumenn.com/brewpub",
    "tel": "02 23 30 59 80",
    "untappd": "https://untappd.com/w/brasserie-skumenn/240180"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:30",
+      "21:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.skumenn.com/brewpub"
+   }
+  ]
  },
  {
   "cle": "sirene:981794480",
@@ -251,7 +332,79 @@
    "site": "https://www.choquemicrobrasserie.fr/",
    "source": "https://www.choquemicrobrasserie.fr",
    "untappd": "https://untappd.com/w/choque-microbrasserie/559490"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "dim": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.choquemicrobrasserie.fr",
+    "remarque": "Taproom."
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.choquemicrobrasserie.fr",
+    "remarque": "Vente à emporter, et aux heures du taproom."
+   }
+  ]
  },
  {
   "cle": "node/11146069022",
@@ -305,7 +458,19 @@
   "contact": {
    "site": "https://brasseriedrao.com/",
    "source": "https://brasseriedrao.com/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasseriedrao.com/"
+   }
+  ]
  },
  {
   "cle": "way/135589728",
