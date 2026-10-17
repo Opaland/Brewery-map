@@ -389,3 +389,40 @@ test('sur grand écran aussi : axe et cibles (1280 × 800)', async ({ page }) =>
   expect(await violations(page)).toEqual([])
   expect(await ciblesTropPetites(page, CIBLE, CIBLE_CARTE)).toEqual([])
 })
+
+/**
+ * S47 — seconde passe : les écrans venus depuis S29, dépliés, en clair et en
+ * sombre (CLAUDE.md §6quinquies : ce qui est replié par défaut est ce
+ * qu'une sonde oublie). Axe, et les cibles de 44 px.
+ */
+for (const schema of ['light', 'dark'] as const) {
+  test(`écrans nouveaux dépliés : axe et cibles (thème ${schema === 'light' ? 'clair' : 'sombre'}, S47)`, async ({
+    page,
+  }) => {
+    await ouvrir(page, schema)
+    // Plus de filtres, le carnet, la sauvegarde, « Quoi de neuf ? », l'apparence.
+    await page.getByTestId('plus-de-filtres-resume').click()
+    await page.getByTestId('stockage-details').locator('summary').click()
+    await page.getByTestId('quoi-de-neuf').locator('summary').click()
+    // Une fiche avec une visite et une note.
+    await ligne(page, /Caribrew/).click()
+    await page.getByTestId('bouton-visite').click()
+    await page.getByTestId('ma-note').fill('note')
+    expect(await violations(page)).toEqual([])
+    expect(await ciblesTropPetites(page, CIBLE, CIBLE_CARTE)).toEqual([])
+    // L'aperçu de la carte.
+    await page.getByTestId('recherche').fill('oullins')
+    await carteChargee(page)
+    await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').first().click()
+    await expect(page.getByTestId('apercu-carte')).toBeVisible()
+    expect(await violations(page)).toEqual([])
+    expect(await ciblesTropPetites(page, CIBLE, CIBLE_CARTE)).toEqual([])
+  })
+}
+
+test('thème forcé à l’inverse du système : axe sans violation (S47)', async ({ page }) => {
+  await ouvrir(page, 'light')
+  await page.getByTestId('theme-sombre').check()
+  await ligne(page, /Caribrew/).click()
+  expect(await violations(page)).toEqual([])
+})

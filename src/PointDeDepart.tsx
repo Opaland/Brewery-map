@@ -14,6 +14,12 @@ interface Props {
    * fenêtre de permission sans geste (Léa, S8).
    */
   relocaliser?: boolean
+  /**
+   * Demander la position tout de suite, fenêtre comprise : la personne a
+   * touché le raccourci « Autour de moi » de l'application installée (S46),
+   * c'est son geste. Sans lui, rien n'était demandé (revue adverse S46).
+   */
+  demander?: boolean
 }
 
 /**
@@ -24,7 +30,7 @@ interface Props {
  * distances **dans le téléphone** et n'est envoyée nulle part ; ce qui part
  * sur le réseau est dit tel quel (les images de la carte).
  */
-export function PointDeDepart({ origine, onChange, relocaliser = false }: Props) {
+export function PointDeDepart({ origine, onChange, relocaliser = false, demander = false }: Props) {
   const [message, setMessage] = useState<string | null>(null)
   const [precision, setPrecision] = useState<string | null>(null)
   const [enCours, setEnCours] = useState(false)
@@ -82,6 +88,12 @@ export function PointDeDepart({ origine, onChange, relocaliser = false }: Props)
       },
     )
   }, [onChange])
+
+  useEffect(() => {
+    if (!demander || dejaRelocalise.current) return
+    dejaRelocalise.current = true
+    autourDeMoi()
+  }, [demander, autourDeMoi])
 
   useEffect(() => {
     if (!relocaliser || dejaRelocalise.current) return

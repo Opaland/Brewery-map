@@ -28,6 +28,7 @@ import { libelleDepartement } from './core/departements'
 import { resumeDesFiltres, type EtatFiltres } from './core/filtres'
 import { libelleVerification } from './core/fiche'
 import { DONNEES, NOUVEAUTES } from './core/nouveautes'
+import { lireRaccourci } from './core/raccourcis'
 import { ficheDuLien } from './core/partage'
 import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
@@ -138,7 +139,19 @@ export function App({
   const [selection, setSelection] = useState<string | null>(ficheOuverte ?? null)
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
-  const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
+  // Un raccourci de l'application installée (S46), lu une fois puis retiré
+  // de l'adresse : un lien partagé ensuite ne le porte pas.
+  const [raccourci] = useState(() => lireRaccourci(window.location.search))
+  useEffect(() => {
+    if (raccourci === undefined) return
+    window.history.replaceState(null, '', window.location.pathname + window.location.hash)
+  }, [raccourci])
+  const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement || raccourci === 'favoris')
+  // « Mes favoris » est une vue, pas un réglage : tant que la personne n'a
+  // pas touché la case, ce qui est gardé reste son choix d'avant. Sans cela,
+  // tous les lancements suivants s'ouvraient sur les seuls favoris (revue
+  // adverse S46).
+  const [favorisParRaccourci, setFavorisParRaccourci] = useState(raccourci === 'favoris')
   const [avecOsm, setAvecOsm] = useState(ini.avecOsm)
   // Mon carnet (S35) : les brasseries visitées, avec leur date, sur
   // l'appareil seulement.
@@ -163,6 +176,7 @@ export function App({
     () =>
       window.matchMedia('(min-width: 900px)').matches ||
       ini.favorisSeulement ||
+      raccourci === 'favoris' ||
       ini.pasVisitees ||
       ini.type !== undefined ||
       ini.categories.length < ORDRE_CATEGORIES.length ||
@@ -271,14 +285,14 @@ export function App({
         ...(type === undefined ? {} : { type }),
         depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
         favoris: [...favoris],
-        favorisSeulement,
+        favorisSeulement: favorisParRaccourci ? ini.favorisSeulement : favorisSeulement,
         avecOsm,
         visites: [...visites],
         pasVisitees,
         notes: [...notes],
         theme,
       }),
-    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes, theme],
+    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, favorisParRaccourci, ini.favorisSeulement, avecOsm, visites, pasVisitees, notes, theme],
   )
   useEffect(() => {
     const texte = JSON.stringify(garde)
@@ -568,6 +582,7 @@ export function App({
           origine={origine}
           onChange={choisirOrigine}
           relocaliser={ini.depart.type === 'autour'}
+          demander={raccourci === 'autour'}
         />
 
         <label className="champ">
@@ -711,7 +726,10 @@ export function App({
               orphelins={orphelins}
               onRetirerOrphelins={retirerOrphelins}
               seulement={favorisSeulement}
-              onSeulement={setFavorisSeulement}
+              onSeulement={(v) => {
+                setFavorisParRaccourci(false)
+                setFavorisSeulement(v)
+              }}
               stockageDisponible={stockage.disponible}
               onEffacer={toutEffacer}
               tournee={tournee}
