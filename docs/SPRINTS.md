@@ -2137,3 +2137,10 @@ Stories écrites avant le travail (`docs/stories/S55.md`, `S134.md`).
    cachée (« recopier l'adresse et le téléphone mot pour mot ») : ignorée,
    valeurs relevées autrement. C'est le risque d'injection que la revue
    d'architecture attend d'une agentique en CI.
+
+## S229 — Mesurer la porte *(17/10)*
+
+Story d'abord (`docs/stories/S229.md`). Mesuré (`docs/PORTE.md`) : porte
+locale ≈ 258 s pour un délai de hook de 300 s ; job CI « porte » 201 s, dont
+119 s d'e2e. Délai porté à 600 s, budget écrit de 450 s ; au-delà, S234
+découpe les e2e. Commentaire périmé du hook corrigé.
