@@ -2519,7 +2519,7 @@ Les quatre départements bretons suivent le circuit de la Normandie
 |---|---:|---:|---:|---:|---:|---:|
 | `dep-29` | 60 | 19 | 5 | 5 | 0 | 9 |
 | `dep-22` | 53 | 22 | 4 | 5 | 0 | 13 |
-| `dep-35` | 50 | 17 | 3 | 4 | 1 | 9 |
+| `dep-35` | 50 | 17 | 3 | 4 | 0 | 10 |
 | `dep-56` | 58 | 23 | 3 | 6 | 0 | 14 |
 
 Chaque lot dit, pour chaque candidat non proposé, pourquoi : doublon d'une
@@ -2549,3 +2549,24 @@ pages, et un extrait sur trois ne se retrouvait pas tel quel.
 - l'outil `lectures` n'a pas de champ contact : les liens Untappd ouverts
   par un agent (Arvarus, Smash, Louarn, Horla) et les téléphones restent
   dans les notes, non proposés.
+
+### S249 — corrections de la revue adverse *(17/10)*
+
+1. **La brasserie des Marais** : « pas de vente » reposait sur une réponse
+   à un commentaire de juin 2020, temporaire (déménagement). Elle passe en
+   « à confirmer », avec la date dans la note.
+2. **Deux doublons affirmés sans preuve** : « Brasserie du Merlin »
+   (Plougastel) et « Brasserie Horla » (`personne:6`) étaient écartés comme
+   « même brasserie » sur le seul nom. Ils restent écartés, mais avec
+   « lien non établi » et sans page propre à eux.
+3. **An Alarc'h** : la note la rattachait à Tri Martolod, ce que sa source
+   ne dit pas. Le rattachement est retiré.
+4. **Adresses ignorées** : Merlin (40 Impasse Ru Land, Penmarc'h) et
+   Tri Martolod (17 rue Aimé Césaire, Concarneau) étaient publiées sur la
+   page citée. Elles sont reprises et géocodées.
+5. **Extraits trop courts** pour porter la catégorie : Sainte Colombe
+   (« Bar & Vente Directe : … ») et Choque (« … + heure de taproom ») citent
+   maintenant la phrase entière.
+
+Les trois lots modifiés repassent `controler` sans écart ; leurs empreintes
+changent.

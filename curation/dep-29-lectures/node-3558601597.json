@@ -10,7 +10,7 @@
    "km": 718.2,
    "cat": 0,
    "conf": "",
-   "note": "Brasserie bio de la coopérative Tri Martolod ; vente ou consommation sur place non établie.",
+   "note": "Brasserie bio ; vente ou consommation sur place non établie.",
    "addr": "La Feuillée",
    "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
    "coordPrecision": "commune",
@@ -25,6 +25,6 @@
    "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h"
   ],
   "extrait": "À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne.",
-  "choix": "Annuaire seulement ; le site trimartolod.fr répondait 503. Position au centre de La Feuillée."
+  "choix": "Annuaire seulement ; le site donné par OSM répondait 503. Position au centre de La Feuillée."
  }
 }

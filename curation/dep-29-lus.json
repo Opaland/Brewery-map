@@ -16,14 +16,14 @@
   "cle": "sirene:848906806",
   "n": "Merlin Brasserie artisanale",
   "c": "Penmarch",
-  "adresse": null,
+  "adresse": "40 Impasse Ru Land, 29760 Penmarch",
   "cat": 1,
   "conf": "faible",
   "note": "Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.",
   "src": "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
   "extrait": "on tap or to take away at the brewery",
   "beers": [],
-  "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Position au centre de Penmarch : l'adresse de brassage n'est pas publiée par la brasserie."
+  "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Adresse de la boutique de Penmarc'h, ouverte en saison, d'après la même page (« Brewed in Penmarc'h »)."
  },
  {
   "cle": "sirene:332210582",
@@ -188,7 +188,7 @@
   "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
   "extrait": "Ce producteur vend ses produits sur place",
   "beers": [],
-  "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que les points OSM node/5075303526 (Dirinon) et node/7496988886 (Merlin, Plougastel), d'après le site (« Merlin-Mignonne »)."
+  "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que le point OSM node/5075303526 (Dirinon), d'après le site. Le site porte aussi « Merlin-Mignonne », sans citer Plougastel : le point « Brasserie du Merlin » (node/7496988886) n'est pas relié."
  },
  {
   "cle": "sirene:839093820",
@@ -249,14 +249,14 @@
   "cle": "sirene:421739947",
   "n": "Brasserie Tri Martolod",
   "c": "Concarneau",
-  "adresse": null,
+  "adresse": "17 Rue Aimé Césaire, 29900 Concarneau",
   "cat": 2,
   "conf": "faible",
   "note": "Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).",
   "src": "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
   "extrait": "Magasin ouvert à l'année de 9h à 12h et de 14h à 18h",
   "beers": [],
-  "choix": "Agrégateur de 2018 seulement. Position au centre de Concarneau."
+  "choix": "Agrégateur de 2018 seulement ; adresse lue sur la même page."
  },
  {
   "cle": "sirene:891808883",
@@ -307,7 +307,7 @@
   "adresse": null,
   "cat": 0,
   "conf": "",
-  "note": "Brasserie bio de la coopérative Tri Martolod ; vente ou consommation sur place non établie.",
+  "note": "Brasserie bio ; vente ou consommation sur place non établie.",
   "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
   "extrait": "À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne.",
   "beers": [
@@ -315,6 +315,6 @@
     "type": "ipa"
    }
   ],
-  "choix": "Annuaire seulement ; le site trimartolod.fr répondait 503. Position au centre de La Feuillée."
+  "choix": "Annuaire seulement ; le site donné par OSM répondait 503. Position au centre de La Feuillée."
  }
 ]

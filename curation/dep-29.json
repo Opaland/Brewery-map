@@ -12,7 +12,7 @@
     "km": 718.2,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie bio de la coopérative Tri Martolod ; vente ou consommation sur place non établie.",
+    "note": "Brasserie bio ; vente ou consommation sur place non établie.",
     "addr": "La Feuillée",
     "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
     "coordPrecision": "commune",
@@ -27,7 +27,7 @@
     "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h"
    ],
    "extrait": "À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne.",
-   "choix": "Annuaire seulement ; le site trimartolod.fr répondait 503. Position au centre de La Feuillée."
+   "choix": "Annuaire seulement ; le site donné par OSM répondait 503. Position au centre de La Feuillée."
   },
   {
    "fiche": {
@@ -97,23 +97,24 @@
     "n": "Brasserie Tri Martolod",
     "c": "Concarneau",
     "d": "29",
-    "lat": 47.89174,
-    "lon": -3.89602,
-    "km": 702.8,
+    "lat": 47.90229,
+    "lon": -3.90628,
+    "km": 703.9,
     "cat": 2,
     "conf": "faible",
     "note": "Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).",
-    "addr": "Concarneau",
+    "addr": "17 Rue Aimé Césaire, 29900 Concarneau",
     "src": "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
-    "coordPrecision": "commune",
+    "coordPrecision": "address",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod"
+    "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
+    "https://data.geopf.fr/geocodage/search?q=17+Rue+Aim%C3%A9+C%C3%A9saire%2C+29900+Concarneau&limit=5"
    ],
    "extrait": "Magasin ouvert à l'année de 9h à 12h et de 14h à 18h",
-   "choix": "Agrégateur de 2018 seulement. Position au centre de Concarneau."
+   "choix": "Agrégateur de 2018 seulement ; adresse lue sur la même page."
   },
   {
    "fiche": {
@@ -222,23 +223,24 @@
     "n": "Merlin Brasserie artisanale",
     "c": "Penmarch",
     "d": "29",
-    "lat": 47.81147,
-    "lon": -4.34121,
-    "km": 732.2,
+    "lat": 47.81959,
+    "lon": -4.37649,
+    "km": 734.9,
     "cat": 1,
     "conf": "faible",
     "note": "Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.",
-    "addr": "Penmarch",
+    "addr": "40 Impasse Ru Land, 29760 Penmarch",
     "src": "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
-    "coordPrecision": "commune",
+    "coordPrecision": "address",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/"
+    "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
+    "https://data.geopf.fr/geocodage/search?q=40+Impasse+Ru+Land%2C+29760+Penmarch&limit=5"
    ],
    "extrait": "on tap or to take away at the brewery",
-   "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Position au centre de Penmarch : l'adresse de brassage n'est pas publiée par la brasserie."
+   "choix": "Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Adresse de la boutique de Penmarc'h, ouverte en saison, d'après la même page (« Brewed in Penmarc'h »)."
   },
   {
    "fiche": {
@@ -441,7 +443,7 @@
     "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html"
    ],
    "extrait": "Ce producteur vend ses produits sur place",
-   "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que les points OSM node/5075303526 (Dirinon) et node/7496988886 (Merlin, Plougastel), d'après le site (« Merlin-Mignonne »)."
+   "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que le point OSM node/5075303526 (Dirinon), d'après le site. Le site porte aussi « Merlin-Mignonne », sans citer Plougastel : le point « Brasserie du Merlin » (node/7496988886) n'est pas relié."
   },
   {
    "fiche": {

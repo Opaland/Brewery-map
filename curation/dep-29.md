@@ -36,11 +36,11 @@ Catégories proposées : 5 « acheter et consommer », 5 « acheter seulement »
 | Cidrerie Avalaouer (`node/14040277193`) | nom de cidrerie, aucune page trouvée |
 | Brasserie de Trévarn (`node/5075303526`) | même brasserie que la fiche proposée « Brasserie de Trévarn » |
 | Brasserie Kerav'ale, Cidrerie Rosko (`node/5589940922`) | même brasserie que la fiche proposée « Brasserie Kerav'ale » |
-| Brasserie du Merlin (`node/7496988886`) | même brasserie que la fiche proposée « Brasserie de Trévarn » (devenue Merlin-Mignonne, d'après son site) |
+| Brasserie du Merlin (`node/7496988886`) | aucune page de cette brasserie à Plougastel ; le site de Trévarn porte « Merlin-Mignonne » sans citer Plougastel : lien non établi |
 | Merlin (`node/7511124744`) | même brasserie que la fiche proposée « Merlin Brasserie artisanale » |
 | Brasserie Penhors (`node/872593106`) | site officiel en 503 ; aucune page de la brasserie lue |
 | Brasserie Britt (`way/82190365`) | même brasserie que la fiche proposée « Brasserie de Bretagne » (bière Britt) |
-| Mise en Biere, Hops And Cheese, Brasserie Penn Sardin, la Maree Brasse - LMB, ISM 29, Brasserie Chiendent, Brasserie du Menez Hom, Brasserie Artisanale la Pinte du Raz, Brasserie el Doctor, Brasserie Roi de Pik, Brasserie de Cornouaille, da Bep Lec'h - Toutes Directions, Aubinouse Picobrasserie, Kerc'heiz, Brasserie Lokorn, la Brasserie Des Maouts, Brasserie L'urbaine, Brasserie de la Pieuvre, L'amer D'iroise, Brasserie ar vu Vihan, SARL Brasserie da Gousket, Brasserie O'taquet, Kailhou, Penn ar Batz, Beg ar Mor, Brasserie dubau | introuvables en ligne |
+| Mise en Biere, Hops And Cheese, Brasserie Penn Sardin, La Maree Brasse - LMB, ISM 29, Brasserie Chiendent, Brasserie du Menez Hom, Brasserie Artisanale la Pinte du Raz, Brasserie el Doctor, Brasserie Roi de Pik, Brasserie de Cornouaille, Da Bep Lec'h - Toutes Directions, Aubinouse Picobrasserie, Kerc'heiz, Brasserie Lokorn, La Brasserie Des Maouts, Brasserie L'urbaine, Brasserie de la Pieuvre, L'amer D'iroise, Brasserie ar vu Vihan, SARL Brasserie da Gousket, Brasserie O'taquet, Kailhou, Penn ar Batz, Beg ar Mor, Brasserie dubau | introuvables en ligne |
 
 ## Les fiches proposées
 
@@ -56,7 +56,7 @@ Catégories proposées : 5 « acheter et consommer », 5 « acheter seulement »
 - km : (vide) → 718.2
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie bio de la coopérative Tri Martolod ; vente ou consommation sur place non établie.
+- note : (vide) → Brasserie bio ; vente ou consommation sur place non établie.
 - addr : (vide) → La Feuillée
 - src : (vide) → https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h
 - coordPrecision : (vide) → commune
@@ -67,7 +67,7 @@ Sources (vérifiée le 2026-10-17) : https://fr.gaultmillau.com/fr/artisans/bras
 
 Extrait lu : « À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne. »
 
-Choix du vérificateur : Annuaire seulement ; le site trimartolod.fr répondait 503. Position au centre de La Feuillée.
+Choix du vérificateur : Annuaire seulement ; le site donné par OSM répondait 503. Position au centre de La Feuillée.
 
 ### 2. Brasserie Coreff — fiche nouvelle
 
@@ -124,23 +124,23 @@ Choix du vérificateur : Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même bra
 - n : (vide) → Brasserie Tri Martolod
 - c : (vide) → Concarneau
 - d : (vide) → 29
-- lat : (vide) → 47.89174
-- lon : (vide) → -3.89602
-- km : (vide) → 702.8
+- lat : (vide) → 47.90229
+- lon : (vide) → -3.90628
+- km : (vide) → 703.9
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → faible
 - note : (vide) → Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).
-- addr : (vide) → Concarneau
+- addr : (vide) → 17 Rue Aimé Césaire, 29900 Concarneau
 - src : (vide) → https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod
-- coordPrecision : (vide) → commune
+- coordPrecision : (vide) → address
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod
+Sources (vérifiée le 2026-10-17) : https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod ; https://data.geopf.fr/geocodage/search?q=17+Rue+Aim%C3%A9+C%C3%A9saire%2C+29900+Concarneau&limit=5
 
 Extrait lu : « Magasin ouvert à l'année de 9h à 12h et de 14h à 18h »
 
-Choix du vérificateur : Agrégateur de 2018 seulement. Position au centre de Concarneau.
+Choix du vérificateur : Agrégateur de 2018 seulement ; adresse lue sur la même page.
 
 ### 5. Brasserie D'Istribilh — fiche nouvelle
 
@@ -239,23 +239,23 @@ Choix du vérificateur : Position au centre de Brest : l'adresse n'est pas relue
 - n : (vide) → Merlin Brasserie artisanale
 - c : (vide) → Penmarch
 - d : (vide) → 29
-- lat : (vide) → 47.81147
-- lon : (vide) → -4.34121
-- km : (vide) → 732.2
+- lat : (vide) → 47.81959
+- lon : (vide) → -4.37649
+- km : (vide) → 734.9
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → faible
 - note : (vide) → Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.
-- addr : (vide) → Penmarch
+- addr : (vide) → 40 Impasse Ru Land, 29760 Penmarch
 - src : (vide) → https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/
-- coordPrecision : (vide) → commune
+- coordPrecision : (vide) → address
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/
+Sources (vérifiée le 2026-10-17) : https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/ ; https://data.geopf.fr/geocodage/search?q=40+Impasse+Ru+Land%2C+29760+Penmarch&limit=5
 
 Extrait lu : « on tap or to take away at the brewery »
 
-Choix du vérificateur : Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Position au centre de Penmarch : l'adresse de brassage n'est pas publiée par la brasserie.
+Choix du vérificateur : Page en anglais de l'office de tourisme. Même brasserie que le point OSM node/7511124744. Adresse de la boutique de Penmarc'h, ouverte en saison, d'après la même page (« Brewed in Penmarc'h »).
 
 ### 10. Le Grain du Ponant — fiche nouvelle
 
@@ -420,7 +420,7 @@ Sources (vérifiée le 2026-10-17) : https://www.jours-de-marche.fr/producteur-l
 
 Extrait lu : « Ce producteur vend ses produits sur place »
 
-Choix du vérificateur : Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que les points OSM node/5075303526 (Dirinon) et node/7496988886 (Merlin, Plougastel), d'après le site (« Merlin-Mignonne »).
+Choix du vérificateur : Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que le point OSM node/5075303526 (Dirinon), d'après le site. Le site porte aussi « Merlin-Mignonne », sans citer Plougastel : le point « Brasserie du Merlin » (node/7496988886) n'est pas relié.
 
 ### 17. Brasserie Síbín — fiche nouvelle
 
@@ -491,4 +491,4 @@ Extrait lu : « 565 Route de Rucat - Keravel 29680 ROSCOFF »
 
 Choix du vérificateur : Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon).
 
-Empreinte du lot : de07bceec943
+Empreinte du lot : a9d39e53ee1e

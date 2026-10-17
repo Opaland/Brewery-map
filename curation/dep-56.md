@@ -28,7 +28,7 @@ Catégories proposées : 3 « acheter et consommer », 6 « acheter seulement »
 | La Dilettante (`sirene:812439511`) | site en 429 (trop de requêtes) : rien de lu |
 | Brasserie Triskell (`sirene:953851268`) | registre d'entreprises seulement : ni site ni point de vente |
 | Brasserie de L'estran (`sirene:897811709`) | même adresse que la fiche proposée « Brasserie de l'Estran (Grand Coeff) » |
-| Brasserie Horla (`personne:6`) | même nom et même commune que la fiche proposée « Horla », autre adresse : probablement la même |
+| Brasserie Horla (`personne:6`) | aucune page à son nom et à son adresse ; même nom que la fiche proposée « Horla », autre adresse : lien non établi |
 | Brasserie la Tete Dure (`sirene:832824148`) | fermée en 2026 d'après un annuaire |
 | Little Joy Kombucha (`node/14247438701`) | kombucha, pas de bière |
 | Brasserie Lancelot (`node/6419074234`) | même brasserie que la fiche proposée « Brasserie Lancelot » |
@@ -38,8 +38,8 @@ Catégories proposées : 3 « acheter et consommer », 6 « acheter seulement »
 | Yermat bier (`node/9034736574`) | même brasserie que la fiche proposée « Yermat Bier » |
 | L'Estaminet du Champ Commun (`way/160691018`) | la fiche d'office de tourisme ne se lit pas (page générique) et le site répond 404 |
 | Brasserie de Quiberon (`way/66430165`) | bâtiment du cadastre de 2010, aucune brasserie à cette adresse |
-| Brasserie Larmorienne, Brasserie le 90, Brasserie Artisanale de Languidic, Les Barbots, Brasserie Tralala, Brasserie la Morgat, Microbrasserie Tempete, la Lylwenn, Micro-brasserie Seal, Octa Microbrasserie, SARL Treho, Brasserie Roy | introuvables en ligne |
-| Brasserie Heol, Brasserie de L'eclaircie, P.A.E.C, la Brasserie Des Amis, Les Heretiks, Micro Brasserie Kerblei, Microbrasserie Loch'ale, Brasserie LMD, Kerscot SAS, Brasserie Artisanale Spoumig | non trouvés, mais cherchés une fois au plus : le quota de recherches de la session était épuisé. **À relancer** |
+| Brasserie Larmorienne, Brasserie le 90, Brasserie Artisanale de Languidic, Les Barbots, Brasserie Tralala, Brasserie la Morgat, Microbrasserie Tempete, La Lylwenn, Micro-brasserie Seal, Octa Microbrasserie, SARL Treho, Brasserie Roy | introuvables en ligne |
+| Brasserie Heol, Brasserie de L'eclaircie, P.A.E.C, La Brasserie Des Amis, Les Heretiks, Micro Brasserie Kerblei, Microbrasserie Loch'ale, Brasserie LMD, Kerscot SAS, Brasserie Artisanale Spoumig | non trouvés, mais cherchés une fois au plus : le quota de recherches de la session était épuisé. **À relancer** |
 
 ## Les fiches proposées
 
@@ -510,7 +510,7 @@ Sources (vérifiée le 2026-10-17) : https://untappd.com/MicrobrasserieHorla
 
 Extrait lu : « Grand-Champ, 56 - BZH »
 
-Choix du vérificateur : Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Même brasserie probable que personne:6 (Horla, Grand-Champ). Position au centre de Grand-Champ.
+Choix du vérificateur : Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ.
 
 ### 21. Microbrasserie l'Esk'ale — fiche nouvelle
 
@@ -582,4 +582,4 @@ Extrait lu : « du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h »
 
 Choix du vérificateur : Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre.
 
-Empreinte du lot : 527e6c7d8045
+Empreinte du lot : 71369308286c

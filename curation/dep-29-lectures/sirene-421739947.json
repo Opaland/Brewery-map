@@ -5,22 +5,23 @@
    "n": "Brasserie Tri Martolod",
    "c": "Concarneau",
    "d": "29",
-   "lat": 47.89174,
-   "lon": -3.89602,
-   "km": 702.8,
+   "lat": 47.90229,
+   "lon": -3.90628,
+   "km": 703.9,
    "cat": 2,
    "conf": "faible",
    "note": "Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).",
-   "addr": "Concarneau",
+   "addr": "17 Rue Aimé Césaire, 29900 Concarneau",
    "src": "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
-   "coordPrecision": "commune",
+   "coordPrecision": "address",
    "beers": []
   },
   "verifieLe": "2026-10-17",
   "sources": [
-   "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod"
+   "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
+   "https://data.geopf.fr/geocodage/search?q=17+Rue+Aim%C3%A9+C%C3%A9saire%2C+29900+Concarneau&limit=5"
   ],
   "extrait": "Magasin ouvert à l'année de 9h à 12h et de 14h à 18h",
-  "choix": "Agrégateur de 2018 seulement. Position au centre de Concarneau."
+  "choix": "Agrégateur de 2018 seulement ; adresse lue sur la même page."
  }
 }

@@ -4,7 +4,7 @@ Pour Cédric. Ce lot propose **17 fiches nouvelles**. **Rien n'est écrit dans `
 n'as pas répondu par les numéros acceptés.
 
 **Décompte** : 50 candidats à lire = 17 proposés + 33 non proposés (tableau ci-dessous).
-Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement », 1 « pas de vente », 9 « à confirmer ».
+Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement », 0 « pas de vente », 10 « à confirmer ».
 
 **Comment le lot a été fait** (le circuit de la Normandie, S247-S248) :
 - candidats de `outils/departement.ts` ;
@@ -42,7 +42,7 @@ Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement »
 | Brasserie de la Paumell (`node/6813936276`) | site officiel en 403, aucune autre source |
 | La Détente (`node/7073876519`) | site en 404, aucune autre trace |
 | Brasserie Sainte-Colombe (`node/872324499`) | même brasserie que la fiche proposée « Brasserie Sainte Colombe » |
-| Brasserie la Trink, Brasserie Bosco SARL, Brasserie Athanor, Yamas, Fenn, Compoz, la Chapellerie, la Biclounerie, Brasserie Sauvage, Bretagne Brewshop, Trisk'ale, Brasserie Perraut, Brasserie Brittany's, Tiens bon la Barre | introuvables en ligne |
+| Brasserie la Trink, Brasserie Bosco SARL, Brasserie Athanor, Yamas, Fenn, Compoz, La Chapellerie, La Biclounerie, Brasserie Sauvage, Bretagne Brewshop, Trisk'ale, Brasserie Perraut, Brasserie Brittany's, Tiens bon la Barre | introuvables en ligne |
 | EURL Guyader, Old Hop | non trouvés, mais cherchés une fois au plus : le quota de recherches de la session était épuisé. **À relancer** |
 
 ## Les fiches proposées
@@ -139,7 +139,7 @@ Choix du vérificateur : Annuaire seulement ; adresses contradictoires. Position
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-sainte-colombe.com/ ; https://data.geopf.fr/geocodage/search?q=22+Boulevard+Fran%C3%A7ois+Mitterrand%2C+35150+Corps-Nuds&limit=5
 
-Extrait lu : « Tous les vendredis 14h - 20h30 »
+Extrait lu : « Bar & Vente Directe : Tous les vendredis 14h - 20h30 »
 
 Choix du vérificateur : Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe).
 
@@ -356,9 +356,9 @@ Choix du vérificateur : Même brasserie que le point OSM node/4225477240 (Renne
 
 Sources (vérifiée le 2026-10-17) : https://www.choquemicrobrasserie.fr
 
-Extrait lu : « Vente à emporter »
+Extrait lu : « Vente à emporter Mardi au Vendredi 10h - 19h + heure de taproom »
 
-Choix du vérificateur : La page porte aussi les horaires du taproom. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen.
+Choix du vérificateur : Les horaires du taproom sont juste avant sur la page. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen.
 
 ### 14. Brasserie Fusion — fiche nouvelle
 
@@ -438,9 +438,9 @@ Choix du vérificateur : Position au centre de Melesse : l'adresse n'est pas rel
 - lat : (vide) → 47.7123
 - lon : (vide) → -2.07228
 - km : (vide) → 567.6
-- cat : (vide) → 3 (Pas de vente)
-- conf : (vide) → moyenne
-- note : (vide) → La brasserie ne reçoit pas de visiteurs pour le moment ; bières vendues chez des revendeurs. Un déménagement est annoncé.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → En juin 2020, la brasserie répondait à une lectrice qu'elle ne pouvait pas recevoir de visiteurs, en plein déménagement ; rien de plus récent.
 - addr : (vide) → Bains-sur-Oust
 - src : (vide) → https://labrasseriedesmarais.wordpress.com/
 - coordPrecision : (vide) → commune
@@ -451,6 +451,6 @@ Sources (vérifiée le 2026-10-17) : https://labrasseriedesmarais.wordpress.com/
 
 Extrait lu : « La brasserie ne peut pas recevoir de visiteurs pour le moment. »
 
-Choix du vérificateur : La commune vient d'OSM ; la page dit seulement « dans les marais de Redon ».
+Choix du vérificateur : Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon ».
 
-Empreinte du lot : e7bde2ef6aa1
+Empreinte du lot : 258e953b6054

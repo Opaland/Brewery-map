@@ -161,7 +161,7 @@
   "conf": "faible",
   "note": "Bar et vente directe le vendredi de 14 h à 20 h 30.",
   "src": "https://www.brasserie-sainte-colombe.com/",
-  "extrait": "Tous les vendredis 14h - 20h30",
+  "extrait": "Bar & Vente Directe : Tous les vendredis 14h - 20h30",
   "beers": [],
   "choix": "Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe)."
  },
@@ -217,9 +217,9 @@
   "conf": "moyenne",
   "note": "Taproom du mardi au dimanche et vente à emporter du mardi au vendredi, 10 h-19 h.",
   "src": "https://www.choquemicrobrasserie.fr",
-  "extrait": "Vente à emporter",
+  "extrait": "Vente à emporter Mardi au Vendredi 10h - 19h + heure de taproom",
   "beers": [],
-  "choix": "La page porte aussi les horaires du taproom. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
+  "choix": "Les horaires du taproom sont juste avant sur la page. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
  },
  {
   "cle": "node/11146069022",
@@ -272,13 +272,13 @@
   "n": "La brasserie des Marais",
   "c": "Bains-sur-Oust",
   "adresse": null,
-  "cat": 3,
-  "conf": "moyenne",
-  "note": "La brasserie ne reçoit pas de visiteurs pour le moment ; bières vendues chez des revendeurs. Un déménagement est annoncé.",
+  "cat": 0,
+  "conf": "",
+  "note": "En juin 2020, la brasserie répondait à une lectrice qu'elle ne pouvait pas recevoir de visiteurs, en plein déménagement ; rien de plus récent.",
   "src": "https://labrasseriedesmarais.wordpress.com/",
   "extrait": "La brasserie ne peut pas recevoir de visiteurs pour le moment.",
   "beers": [],
-  "choix": "La commune vient d'OSM ; la page dit seulement « dans les marais de Redon »."
+  "choix": "Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon »."
  },
  {
   "cle": "node/6820098489",

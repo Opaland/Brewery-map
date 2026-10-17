@@ -8,9 +8,9 @@
    "lat": 47.7123,
    "lon": -2.07228,
    "km": 567.6,
-   "cat": 3,
-   "conf": "moyenne",
-   "note": "La brasserie ne reçoit pas de visiteurs pour le moment ; bières vendues chez des revendeurs. Un déménagement est annoncé.",
+   "cat": 0,
+   "conf": "",
+   "note": "En juin 2020, la brasserie répondait à une lectrice qu'elle ne pouvait pas recevoir de visiteurs, en plein déménagement ; rien de plus récent.",
    "addr": "Bains-sur-Oust",
    "src": "https://labrasseriedesmarais.wordpress.com/",
    "coordPrecision": "commune",
@@ -21,6 +21,6 @@
    "https://labrasseriedesmarais.wordpress.com/"
   ],
   "extrait": "La brasserie ne peut pas recevoir de visiteurs pour le moment.",
-  "choix": "La commune vient d'OSM ; la page dit seulement « dans les marais de Redon »."
+  "choix": "Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon »."
  }
 }
