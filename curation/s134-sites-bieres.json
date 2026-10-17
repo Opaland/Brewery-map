@@ -1,0 +1,1129 @@
+{
+ "lot": "s134-sites-bieres",
+ "propositions": [
+  {
+   "n": "Brasserie Challit",
+   "changements": {
+    "beers": [
+     {
+      "type": "blanche",
+      "url": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+     },
+     {
+      "type": "blonde",
+      "url": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+     },
+     {
+      "type": "ambree",
+      "url": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+     },
+     {
+      "type": "brune",
+      "url": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+     },
+     {
+      "type": "ipa",
+      "url": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+     }
+    ],
+    "contact": {
+     "site": "https://bieresicsas.jimdofree.com/",
+     "tel": "07 83 42 28 15",
+     "source": "https://bieresicsas.jimdofree.com/la-brasserie",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://bieresicsas.jimdofree.com/la-brasserie",
+    "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/"
+   ],
+   "extrait": "Site : téléphone « 07.83.422.815 » (résumé de l'outil). Office de tourisme (résumé de l'outil, en anglais) : cinq bières permanentes « white, blond, amber, brown, and IPA ».",
+   "choix": "Le site officiel (bieresicsas.jimdofree.com) ne nomme aucune bière : les 5 types viennent de la fiche de l'office de tourisme (annuaire), pas du site de la brasserie, et l'extrait est un résumé en anglais, à relire. Mobile seul publié (07 83 42 28 15), retenu faute d'autre numéro. Bière de printemps, one shot et bière de vendange écartées (pas de style écrit)."
+  },
+  {
+   "n": "La Mousse du Guiers",
+   "changements": {
+    "contact": {
+     "site": "https://brasserie-du-guiers.jimdoweb.com/",
+     "tel": "06 88 18 49 16",
+     "source": "https://brasserie-du-guiers.jimdoweb.com/",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-du-guiers.jimdoweb.com/"
+   ],
+   "extrait": "« 41-51 rue du 8 Mai 1945 », « Place des Tilleuls », « 73240 Saint Genix Sur Guiers », « 06 88 18 49 16 » (résumé de l'outil).",
+   "choix": "Mobile seul publié, retenu (contact de la brasserie, Jean Michel Goovaerts). Bières non proposées : la page liste « la blonde », « l'ambrée », « la brune », « la blanche à la menthe », « la bière spéciale 1 », « la bière de Noël » mais sans style écrit ; je ne déduis pas d'après le nom."
+  },
+  {
+   "n": "Brasserie Saint-Clair (La Bressane)",
+   "changements": {
+    "contact": {
+     "site": "https://brasserie-saint-clair.com",
+     "tel": "04 74 23 22 97",
+     "source": "https://brasserie-saint-clair.com",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-saint-clair.com"
+   ],
+   "extrait": "« 893 route de Pont d'Ain, ZAC de Noirefontaine, 01250 Montagnat », « 04 74 23 22 97 » (résumé de l'outil).",
+   "choix": "Site renvoyé par la fiche de l'office de tourisme d'Ain-tourisme. Même numéro fixe publié par les deux. Bières non proposées : le site ne cite que « Blonde » dans une légende d'image, aucune gamme détaillée."
+  },
+  {
+   "n": "Brasserie Free Mousse",
+   "changements": {
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "Free-Skette",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Free-Meuse",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Free-Pouille",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "brune",
+      "libelle": "Free-Ken",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Free-Son (Bière Blonde Triple de fermentation haute)",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Free-Style",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Free-M' (Session)",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Free-Leuse",
+      "url": "https://www.freemousse.fr/nos-bieres/description/"
+     }
+    ],
+    "contact": {
+     "site": "https://freemousse.fr",
+     "tel": "04 75 06 58 78",
+     "source": "https://freemousse.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://freemousse.fr",
+    "https://www.freemousse.fr/nos-bieres/description/"
+   ],
+   "extrait": "Page bières (résumé de l'outil) : « Bière Blanche de fermentation haute », « Bière Blonde de fermentation haute », « Bière Ambrée de fermentation haute », « Bière Brune de fermentation haute », « Bière Blonde Triple de fermentation haute », « Bière Blonde INDIA PALE ALE », « Bière Blonde Session INDIA PALE ALE », « Bière Ambrée de fermentation haute » (Free-Leuse). Accueil : « 1 chemin des îles, 07300 Saint-Jean-de-Muzols », « 04 75 06 58 78 ».",
+   "choix": "La gamme compte 9 bières ; la 9e, « La Grape - FREE » (« Bière Blonde INDIA PALE ALE PAMPLEMOUSSE »), est écartée pour tenir les 8 maximum. Le numéro vient du site de la brasserie."
+  },
+  {
+   "n": "Brasserie Grange Noire",
+   "changements": {
+    "contact": {
+     "tel": "04 37 61 04 05",
+     "site": "https://www.grangenoire.com",
+     "source": "https://www.grangenoire.com/la-brasserie",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Globalement inoffensive (Pale Ale)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Le triangle des bermudes (English IPA)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "autre",
+      "libelle": "Le p'tit Brùnaidh (Peated Scotch Ale)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "stout",
+      "libelle": "Le cabinet de curiosités (Dry Stout)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "autre",
+      "libelle": "Gose of the baies (Gose aux baies de sichuan et baies roses)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Les cercles de l'Atlantide (Double Dry Hop IPA, sans gluten)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "sour",
+      "libelle": "Cydonia (Sour au coing barriquée bourbon)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     },
+     {
+      "type": "ambree",
+      "libelle": "RED GRIOTTE (Ambrée à la griotte et au piment ancho)",
+      "url": "https://www.grangenoire.com/nos-bieres"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.grangenoire.com/la-brasserie",
+    "https://www.grangenoire.com/nos-bieres"
+   ],
+   "extrait": "« 10 route de Chamagnat », « le Mortaray, 01450 Saint-Alban » ; « 04.37.61.04.05 » pour « la vente directe, les visites et dégustations » ; Nos bières : « Pale Ale », « English IPA (Old School IPA) », « Peated Scotch Ale », « Dry Stout », « Gose aux baies de sichuan et baies roses », « Double Dry Hop IPA (sans gluten) », « Sour au coing barriquée bourbon », « Ambrée à la griotte et au piment ancho ». (Extraits issus du résumé de l'outil de lecture, pas d'un texte brut.)",
+   "choix": "Téléphone : seul numéro publié sur la page, donné par la brasserie pour ses clients (vente directe, visites, dégustations sur rendez-vous), reformaté en « 04 37 61 04 05 ». Bières : la page en liste 13, j'en retiens 8, dont les 4 de la gamme permanente (Pale Ale, English IPA, Scotch Ale, Stout) ; écartées : AGRAPPE MOI SI TU PEUX (NEIPA), LACHE MOI LA GRAPPE, Les larmes de Freya, Rouge du Bugey, la Percée. Attention : la fiche dit commune Poncin, mais la brasserie publie Saint-Alban (01450), ce qui explique le décalage de localisation."
+  },
+  {
+   "n": "Les Brasseurs du Sornin",
+   "changements": {
+    "contact": {
+     "tel": "04 77 60 82 28",
+     "site": "https://www.sornin.com",
+     "source": "https://www.sornin.com",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Perle verte (Bière blonde)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Sornin (Bière ambrée)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Pierre blanche (Bière blanche)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "brune",
+      "libelle": "Trouille (Bière brune)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Grand Béréby (Bière NEIPA)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Croix perdue (Bière triple)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "sans-alcool",
+      "libelle": "Double zéro (Bière sans alcool)",
+      "url": "https://www.sornin.com/boissons/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Eduenne (Bière blonde)",
+      "url": "https://www.sornin.com/boissons/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.sornin.com"
+   ],
+   "extrait": "« 400 Rue de Roanne, 42720 Pouilly-sous-Charlieu » ; « 04 77 60 82 28 » ; page boissons : « Bière ambrée ! » (Sornin), « Bière blanche ! » (Pierre blanche), « Bière brune ! » (Trouille), « Bière blonde ! » (Perle verte, Eduenne), « Bière NEIPA ! » (Grand Béréby), « Bière triple ! » (Croix perdue), « Bière sans alcool ! » (Double zéro). (Extraits issus du résumé de l'outil de lecture.)",
+   "choix": "Le catalogue compte environ 24 références, j'en retiens 8 dont le style est écrit en titre. Écartées : les « bières fruitées » et « médiévales » (style non classable sans déduire), les cervoises, Charliendine (style lu seulement dans le texte : « blonde de haute fermentation »). Téléphone : unique numéro publié sur le site officiel, avec l'adresse et l'e-mail de la brasserie. La page d'accueil sornin.com et la page /boissons/ ont été lues via le résumé de l'outil."
+  },
+  {
+   "n": "Brasserie de l'Ours Barbu",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasseriedeloursbarbu.fr/en",
+     "tel": "06 38 60 44 05",
+     "source": "https://www.brasseriedeloursbarbu.fr/en",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "url": "https://www.brasseriedeloursbarbu.fr/en"
+     },
+     {
+      "type": "autre",
+      "libelle": "Belgian Ale",
+      "url": "https://www.brasseriedeloursbarbu.fr/en"
+     },
+     {
+      "type": "brune",
+      "url": "https://www.brasseriedeloursbarbu.fr/en"
+     },
+     {
+      "type": "blanche",
+      "url": "https://www.brasseriedeloursbarbu.fr/en"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedeloursbarbu.fr/en"
+   ],
+   "extrait": "4 permanent beers - American IPA, Belgian Ale, English Porter and Weissbier",
+   "choix": "Le site est celui de la brasserie (page /en ouverte, et la page d'accueil donne le même contenu). Les extraits viennent du résumé de l'outil WebFetch, pas d'un texte brut. Téléphone : la page affiche « +33 638 60 44 05 » dans l'en-tête et le pied de page. C'est un mobile, seul numéro publié, repris au format 06 38 60 44 05. Bières : la page ne donne que les styles, pas de noms de bières. J'ai donc écrit des types sans nom. American IPA devient ipa, English Porter devient brune, Weissbier devient blanche, et Belgian Ale devient autre avec le libellé « Belgian Ale ». Les « 2 recettes saisonnières » ne sont ni nommées ni stylées, je les ai écartées. Rien n'est proposé sur la catégorie : aucune vente ni dégustation sur place n'est mentionnée, la fiche reste en catégorie 0."
+  },
+  {
+   "n": "Brasserie Kokine",
+   "changements": {
+    "contact": {
+     "site": "https://www.kokine-bieres.com/",
+     "tel": "06 63 40 68 35",
+     "source": "https://www.kokine-bieres.com/contact",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde Ale",
+      "url": "https://www.kokine-bieres.com/nos-bieres"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche aux châtaignes",
+      "url": "https://www.kokine-bieres.com/nos-bieres"
+     },
+     {
+      "type": "autre",
+      "libelle": "Motueka Pale Ale (pale ale, style américain)",
+      "url": "https://www.kokine-bieres.com/nos-bieres"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Cashmere IPA",
+      "url": "https://www.kokine-bieres.com/nos-bieres"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.kokine-bieres.com/contact",
+    "https://www.kokine-bieres.com/nos-bieres"
+   ],
+   "extrait": "385 Montée des Écoles, 07570 Désaignes ; 06 63 40 68 35 (page contact). Page « Nos bières » : Blonde Ale « La bière blonde » ; Blanche aux châtaignes « La bière blanche d'Ardèche » ; Motueka Pale Ale « De style américain » ; Cashmere IPA « L'IPA exotique ».",
+   "choix": "Le seul numéro publié sur le site est un mobile (06 63 40 68 35), donné sur la page contact et par le lien « Nous appeler » de l'accueil. Je le retiens parce que c'est le seul, et c'est celui de la brasserie. « Motueka Pale Ale » est classée « autre », car la pale ale n'a pas de type propre. J'ai laissé la catégorie à 0 : la vente et la dégustation ne sont pas lues. Je n'ai écarté aucune bière."
+  },
+  {
+   "n": "Brasserie Paille",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde",
+      "url": "https://brasseriepaille.fr"
+     },
+     {
+      "type": "blanche",
+      "url": "https://brasseriepaille.fr"
+     },
+     {
+      "type": "ipa",
+      "url": "https://brasseriepaille.fr"
+     },
+     {
+      "type": "ambree",
+      "url": "https://brasseriepaille.fr"
+     }
+    ],
+    "contact": {
+     "site": "https://brasseriepaille.fr",
+     "tel": "06 62 23 33 98",
+     "source": "https://brasseriepaille.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriepaille.fr"
+   ],
+   "extrait": "blonde, Blanche, IPA et rousse élaborées avec un savoir-faire artisanal et des ingrédients de qualité. / Lournand / 06 62 23 33 98 (résumé de l'outil)",
+   "choix": "Tél. : mobile publié sur le site, seul numéro (le 03 85 59 05 34 de la page cluny-tourisme est celui de l'office de tourisme, écarté). Le site ne nomme aucune bière : types seulement, sans libellé ; « rousse » classée ambree. Les créations éphémères sont ignorées."
+  },
+  {
+   "n": "Brasserie des Cuves",
+   "changements": {
+    "contact": {
+     "site": "https://brasseriedescuves.fr",
+     "tel": "04 57 93 60 27",
+     "source": "https://brasseriedescuves.fr",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ambree",
+      "libelle": "La Belle Noiseuse",
+      "url": "https://brasseriedescuves.fr"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriedescuves.fr"
+   ],
+   "extrait": "La Belle Noiseuse : « L'ambrée aux notes de noix » ; « 5 rue de la Maladière 38360 Sassenage » ; « 04 57 93 60 27 »",
+   "choix": "Téléphone : numéro fixe publié sur le site officiel de la brasserie, c'est le seul. Bières : une seule retenue, la Belle Noiseuse, car la brasserie écrit « l'ambrée ». Les autres n'ont qu'un slogan (« Douce, parfumée et festive » pour la Blonde de Sassenage, etc.). Écartées : Happy'A IPA (« Fruitée, fruitée, fruitée »), WIPA et L'Alpache Lager (« Tout en douceur »), dont le style ne ressort que du nom. Les autres sont Rousse, Blanche et Noire de Sassenage, Brassin d'hiver, La Frise de Grenoble et Sacrebleue. Cédric peut ajouter les trois premières (ipa, ipa, lager) s'il accepte le style lu dans le nom."
+  },
+  {
+   "n": "Brasserie La Furieuse",
+   "changements": {
+    "contact": {
+     "site": "https://lafurieuse.com",
+     "tel": "04 76 26 11 64",
+     "source": "https://lafurieuse.com/contact",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "La Furie",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La Futée",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La Furtive",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "ipa",
+      "libelle": "La Fusée",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "ipa",
+      "libelle": "La Furax",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "sans-alcool",
+      "libelle": "Fugazi",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "blonde",
+      "libelle": "La Full",
+      "url": "https://lafurieuse.com"
+     },
+     {
+      "type": "lager",
+      "libelle": "Fuß",
+      "url": "https://lafurieuse.com"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lafurieuse.com",
+    "https://lafurieuse.com/contact"
+   ],
+   "extrait": "LA FURIE : « BLONDE – PALE ALE » ; LA FUTÉE : « AMBRÉE – MILD BROWN ALE » ; LA FURTIVE : « BLANCHE – WEIZENBIER » ; LA FUSÉE : « SESSION IPA » ; LA FURAX : « I.P.A – INDIA PALE ALE » ; FUGAZI : « BIERE SANS ALCOOL » ; LA FULL : « Blonde Ale Bio » ; FUß : « BLONDE MUNICH HELLES ». Page contact : « 7, rue de la Maladière, 38360 Sassenage – France » ; « Tél : 04 76 26 11 64 »",
+   "choix": "Téléphone : le fixe « Tél : 04 76 26 11 64 », publié sur la page contact du site officiel. J'ai écarté le « Portable : 06 37 69 00 23 », publié sur la même page. Bières : 8 retenues sur 14 (7 permanentes, plus Fuß). Écartées : Diffuse (New England IPA), Sulfureuse (tripel belge), Fusion (rye IPA), O'Fury (Irish red ale), Fuño (wheat stout), Sur la Bûche (brune aux épices) et deux séries limitées sans nom. Fuß est classée lager parce que « Munich Helles » est un helles. Page d'accueil du site pour les bières."
+  },
+  {
+   "n": "La Marmotte Masquée",
+   "changements": {
+    "contact": {
+     "site": "https://lamarmottemasquee.fr",
+     "source": "https://lamarmottemasquee.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lamarmottemasquee.fr"
+   ],
+   "extrait": "« Notre gamme est 100% éphémeres. » ; la brasserie est décrite « au cœur du massif de Chartreuse, en Isère »",
+   "choix": "Site officiel ouvert. Pas de bières : la gamme est éphémère et aucune n'est listée avec son style. Pas de téléphone : les deux numéros que je connais (06 22 14 08 27 et 06 25 40 80 91) viennent de la fiche de l'office de tourisme, pas du site de la brasserie, et ce sont des mobiles."
+  },
+  {
+   "n": "Brasserie La Dourbie",
+   "changements": {
+    "contact": {
+     "site": "https://la-dourbie.fr",
+     "source": "https://la-dourbie.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde Belge",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Bière Ambrée",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "brune",
+      "libelle": "Bière Brune",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Blonde I.P.A.",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Bière Blanche",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Blonde Fumée (fumée au bois de hêtre)",
+      "url": "https://la-dourbie.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Fontainoise (Pale Ale)",
+      "url": "https://la-dourbie.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://la-dourbie.fr/"
+   ],
+   "extrait": "Blonde Belge (7 %) ; Bière Ambrée (7 %) ; Bière Brune (7 %) ; Blonde I.P.A. (7 %) : « India Pale Ale » ; Bière Blanche (6 %) ; Blonde Fumée (7 %) : « subtle smokiness from beech wood » ; La Fontainoise (4,5 %) : « light, refreshing Pale Ale » ; pied de page : « Grenoble (France) »",
+   "choix": "Aucun téléphone ni adresse sur le site (lien Contact renvoyant à l'accueil). Écartée : la « Bière Éphémère », sans style. Le style de La Fontainoise est « Pale Ale » (type autre)."
+  },
+  {
+   "n": "Brasserie Caquot",
+   "changements": {
+    "contact": {
+     "site": "https://brasseriecaquot.fr/",
+     "tel": "09 82 32 88 71",
+     "source": "https://brasseriecaquot.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "url": "https://brasseriecaquot.fr/"
+     },
+     {
+      "type": "blanche",
+      "url": "https://brasseriecaquot.fr/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Rousse IPA",
+      "url": "https://brasseriecaquot.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Verveine (blonde aromatisée)",
+      "url": "https://brasseriecaquot.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Aix Riviera (bière de soif)",
+      "url": "https://brasseriecaquot.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriecaquot.fr/"
+   ],
+   "extrait": "Nous contacter 10 Rue du Clergeon, 73410 Entrelacs Tel : 09 82 32 88 71 / « La bière blonde dorée de l'ours est la bière historique de la Brasserie Caquot. » / « Cette bière blonde aromatisée suggère des arômes mentholés et herbacés. » / « La bière blanche de l'Ours se distingue des blanches traditionnelles par la couleur dorée de sa robe. » / Bière Rousse IPA : « Composée de 9 malts différents, elle révèle une amertume tout en rondeur et générosité. » / « cette bière de soif repose sur un assemblage léger de céréales et houblons. »",
+   "choix": "Téléphone : le 09 82 32 88 71 est le seul numéro de la page « Nous contacter ». Écartée : la bière FuzZzy (éphémère d'été), dont aucun style n'est écrit. Le style « blonde aromatisée » de la Verveine est mis en `autre` pour garder le mot « aromatisée »."
+  },
+  {
+   "n": "Brasserie Teddy Beer",
+   "changements": {
+    "contact": {
+     "site": "https://brasserieteddybeer.fr/",
+     "tel": "06 76 80 12 47",
+     "source": "https://brasserieteddybeer.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Tranquille Achille (pale ale)",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Bear o'clock (rousse d'inspiration écossaise)",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Pirate de l'espoir (blanche IPA)",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "sans-alcool",
+      "libelle": "Yogi Beer",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "stout",
+      "libelle": "Complètement Stout",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Ô Miel (blonde au miel)",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "stout",
+      "libelle": "La dernière bière (impérial stout)",
+      "url": "https://brasserieteddybeer.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Cyclobulle (barley wine)",
+      "url": "https://brasserieteddybeer.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserieteddybeer.fr/"
+   ],
+   "extrait": "Samuel : 06 76 80 12 47 / « Bière blonde rafraîchissante de type Pale Ale » / « Bière rousse d'inspiration écossaise » / « Bière blanche IPA » / « Bière sans alcool » / « Bière noire de type stout (d'inspiration irlandaise) » / « Bière blonde au miel » / « Bière de type Impérial Stout » / « Bière de style anglais « Barley wine » » (extraits du résumé de l'outil)",
+   "choix": "Téléphone : mobile, le seul publié, au nom de « Samuel » ; à Cédric de juger s'il le garde. Beers : la page en liste 11, limité à 8 ; écartés L'ours de Noël (saisonnière) et les deux versions vieillies en tonneau, qui doublonnent La dernière bière et Cyclobulle. « Blanche IPA » classée ipa (toutes IPA) et « rousse » classée ambree, selon la consigne. La page précise que les descriptions peuvent ne pas être à jour."
+  },
+  {
+   "n": "Brasserie Maltobar",
+   "changements": {
+    "contact": {
+     "site": "https://maltobar.fr/",
+     "source": "https://maltobar.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "note": "Le site officiel annonce l'arrêt du brassage « pour le moment » ; le matériel est parti au Pays basque. Les horaires de dégustation de la source d'origine (mer et ven 15h-19h) sont donc à vérifier. Source : https://maltobar.fr/"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://maltobar.fr/"
+   ],
+   "extrait": "« Malto finito !!! Nous arrêtons pour le moment l'activité brassage de bière »",
+   "choix": "Aucune bière proposée : la page n'en liste aucune. La catégorie n'est pas changée, car la page ne dit pas si le lieu est fermé, seulement que le brassage est en pause (le site renvoie vers Le Commun Des Mortels et des ateliers de brassage). Le téléphone +33 6 50 22 19 92 ne figure que sur la fiche d'office de tourisme, pas sur le site : écarté."
+  },
+  {
+   "n": "Brasserie du Dauphiné",
+   "changements": {
+    "contact": {
+     "tel": "04 38 37 19 67",
+     "site": "https://brasseriedudauphine.fr",
+     "source": "https://brasseriedudauphine.fr/face-nord/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Face Nord Blonde",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Face Nord IPA",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Face Nord Rousse",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Face Nord Blanche",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Face Nord NEIPA",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Face Nord Verte (boisson alcoolisée à base de bière aromatisée à la Chartreuse Verte)",
+      "url": "https://brasseriedudauphine.fr/face-nord/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriedudauphine.fr/face-nord/"
+   ],
+   "extrait": "Face Nord blonde est une bière légère au corps fin et désaltérant. / Bière blonde houblonnée aux notes florales et d'agrumes. [IPA] / Face Nord Rousse est une bière ambrée douce aux notes de céréales grillées et de noisette. / Douce et légère, cette blanche brassée à l'eau des Alpes et au malt de froment / Face Nord NEIPA est une bière blonde trouble et houblonnée. / Face Nord Verte est une boisson alcoolisée à base de bière, aromatisée à la Chartreuse Verte douce et légère.",
+   "choix": "Tel : 04 38 37 19 67 est lu sur la page d'accueil du site officiel (« +33 (0)4 38 37 19 67 »). La source du contact est pourtant la page Face Nord ; si Cédric préfère, la source peut être la page d'accueil https://brasseriedudauphine.fr (alors à ajouter dans sources). Je n'ai pas lu la gamme Mandrin : sa page /mandrin/ renvoie 404, et /nos-bieres/ ne donne que des noms tirés des fichiers image, sans style écrit. Le style de la Face Nord IPA est « bière blonde houblonnée », le nom de la bière dit IPA ; à relire si Cédric veut être strict."
+  },
+  {
+   "n": "L'Etincelle",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserie-letincelle.fr/",
+     "source": "https://www.brasserie-letincelle.fr/bieres/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Micro Pale Ale (bière légère aux notes citronnées)",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Aurore",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Mosaïc",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Lumière Blanche",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Azimut",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Contre-Jour (bière noire légère et chocolatée)",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Super Nova (bière houblonnée et fruitée)",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Verveine",
+      "url": "https://www.brasserie-letincelle.fr/bieres/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-letincelle.fr/bieres/"
+   ],
+   "extrait": "Aurore (4,7°): Bière blonde aux arômes céréaliers et notes florales / Mosaïc (5°): Bière blonde aux arômes d'agrumes avec une amertume fruitée / Lumière Blanche (4.4°): Bière blanche au gingembre, rafraîchissante, acidulée, arômes citronnés et épicés / Azimut (5°): Bière ambrée avec des notes toastées et un houblonnage délicat / Contre-Jour (5.6°): Bière noire légère et chocolatée, arômes de café équilibrés / Super Nova (7°): Bière houblonnée et fruitée, amertume prononcée / Verveine (4.8°): Bière blanche à la verveine cultivée localement",
+   "choix": "La page ne donne aucun style formel (IPA, stout). Je m'en tiens aux mots de la brasserie : « noire » et « houblonnée » vont donc en autre, pas en stout ni en ipa. Huit bières au plus : j'ai écarté Ghapa (blonde au poivre de Timur), IS Whisky (éphémère) et les boissons sans alcool (Limonade, Cola). Tel : 04 74 77 01 07 et 06 38 35 94 02 ne figurent que sur la fiche de tourisme du Haut-Bugey, pas sur le site de la brasserie lu. Je n'en retiens aucun. La fiche porte la commune Belleydoux, mais la brasserie est à Nantua (voir adresses) : la localisation est probablement à corriger par Cédric."
+  },
+  {
+   "n": "Brasserie Motueka",
+   "changements": {
+    "contact": {
+     "site": "https://brasseriemotueka.fr/",
+     "tel": "07 68 86 84 62",
+     "source": "https://brasseriemotueka.fr/index.php/brasserie-artisanale-puy-en-velay/",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriemotueka.fr/index.php/brasserie-artisanale-puy-en-velay/"
+   ],
+   "extrait": "07 68 86 84 62 (extrait du résumé de l'outil) ; « La brasserie artisanale Motueka de Brives Charensac propose 2 gammes fixes et quelques bières de saison ou expérimentales ! »",
+   "choix": "Le numéro est un mobile, seul numéro publié par la brasserie sur son site. Aucune bière proposée : le site ne cite que « l'Ale Tester » et « la Pample », sans style, et la boutique en ligne est vide."
+  },
+  {
+   "n": "La Barbue",
+   "changements": {
+    "contact": {
+     "site": "https://brasserielabarbue.fr/",
+     "tel": "07 86 21 71 23",
+     "source": "https://brasserielabarbue.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "La Patronne (Pale Ale)",
+      "url": "https://brasserielabarbue.fr/"
+     },
+     {
+      "type": "ipa",
+      "url": "https://brasserielabarbue.fr/"
+     },
+     {
+      "type": "blanche",
+      "url": "https://brasserielabarbue.fr/"
+     },
+     {
+      "type": "ambree",
+      "url": "https://brasserielabarbue.fr/"
+     },
+     {
+      "type": "stout",
+      "url": "https://brasserielabarbue.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserielabarbue.fr/"
+   ],
+   "extrait": "La Patronne : Pale Ale à 4,5 % ; La Gloutonne : IPA à 6,7 % ; La Baronne : Blanche à 4 % ; La Vermillonne : Red Ale à 5,6 % ; L'Oursonne : Stout au miel de châtaignier à 6 % ; 330 rue Archimède, ZI de l'Albanne, 73490 La Ravoire ; 07 86 21 71 23 (extraits du résumé de l'outil)",
+   "choix": "Le numéro est un mobile, seul numéro publié sur le site. Correspondances : La Gloutonne (IPA) en ipa, La Baronne (Blanche) en blanche, La Vermillonne (Red Ale) en ambree, L'Oursonne (Stout au miel) en stout, La Patronne (Pale Ale) en autre."
+  },
+  {
+   "n": "Brasserie Quardin",
+   "changements": {
+    "contact": {
+     "site": "https://brasseriequardin.fr/",
+     "tel": "04 79 28 12 04",
+     "source": "https://brasseriequardin.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Blonde (Pale Ale)",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "blanche",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "ambree",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "brune",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Moût de Roussane (blonde au moût de raisin)",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "autre",
+      "libelle": "Moût de Mondeuse (blonde au moût de raisin)",
+      "url": "https://brasseriequardin.fr/"
+     },
+     {
+      "type": "ipa",
+      "url": "https://brasseriequardin.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriequardin.fr/"
+   ],
+   "extrait": "BRASSERIE QUARDIN, SCEA La Gerbelle, 26 chemin de la tour de Montagny, 73800 Chignin ; téléphones « 04 79 28 12 04 » et « 06 85 60 14 58 » ; styles : Blonde, Pale Ale ; Blanche, Wheat Ale ; Ambrée, Amber Ale ; Brune, Porter ; Moût de Roussane, Blonde au moût de raisin ; Moût de Mondeuse, Blonde au moût de raisin ; I.P.A., India Pale Ale (extraits du résumé de l'outil)",
+   "choix": "J'ai retenu le fixe 04 79 28 12 04 et écarté le mobile 06 85 60 14 58. Correspondances : Blanche (Wheat Ale) en blanche, Ambrée (Amber Ale) en ambree, Brune (Porter) en brune, I.P.A. en ipa."
+  },
+  {
+   "n": "Brasserie Grésiv'ale",
+   "changements": {
+    "contact": {
+     "site": "https://gresivale.fr/",
+     "tel": "06 40 16 86 05",
+     "source": "https://gresivale.fr/contact",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://gresivale.fr/contact"
+   ],
+   "extrait": "Chemin des Gîtes, Barraux ; téléphone 0640168605 (extrait du résumé de l'outil, numéro publié sans espaces)",
+   "choix": "Le numéro est un mobile, seul numéro publié sur la page contact. Aucune bière proposée : le site donne les noms (La Tchoukar Dorée, Ambrée, Blonde, Blanche, Trois Grains, Zen, Rouss'IPA) sans style écrit. Les styles déduits des noms sont écartés."
+  },
+  {
+   "n": "Brasserie Two Dudes",
+   "changements": {
+    "contact": {
+     "site": "https://www.twodudes-brasserie.com/",
+     "tel": "06 88 81 61 39",
+     "source": "https://www.twodudes-brasserie.com/bieres",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "lager",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     },
+     {
+      "type": "autre",
+      "libelle": "#17 Phase I (APA)",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     },
+     {
+      "type": "ambree",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     },
+     {
+      "type": "ipa",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     },
+     {
+      "type": "brune",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     },
+     {
+      "type": "autre",
+      "libelle": "#27 Prosit (Hefeweizen)",
+      "url": "https://www.twodudes-brasserie.com/bieres"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.twodudes-brasserie.com/bieres"
+   ],
+   "extrait": "Classiques : Lager (#13 Fresh is Best), APA (#17 Phase I), amber ales (#18 Not So Nonne, #25 Bad Santa), IPA (#22 Little Mumbaï), Porter (#21 Black Bull), Hefeweizen (#27 Prosit) ; Brasserie (Pierre) : 06 88 81 61 39 ; Cuisine (Amandine) : 06 89 88 72 03 (extraits du résumé de l'outil)",
+   "choix": "J'ai retenu le mobile de la brasserie (Pierre) et écarté celui de la cuisine (Amandine). Les bières « Funkys » et « Barriquées » sont écartées : le résumé ne donne pas leurs noms. Not So Nonne et Bad Santa (amber ales) sont deux entrées ambree. Black Bull (Porter) est en brune. La brasserie est désormais à Crêches-sur-Saône, voir l'adresse ci-dessous."
+  },
+  {
+   "n": "Rivière d'Ain",
+   "changements": {
+    "contact": {
+     "site": "https://rivieredain.fr/",
+     "tel": "04 74 39 01 88",
+     "source": "https://rivieredain.fr/",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/RiviereDAin"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://rivieredain.fr/",
+    "https://rivieredain.fr/bieres/"
+   ],
+   "extrait": "Page /bieres/ (résumé de l'outil) : « Bière blanche » (Thou), « Bière blonde », « Bière ambrée », « Bière rousse », « Bière brune », « Bière blanche ». Accueil : « 5 rue Samuel Péry, 01640 Jujurieux », « 00 33 (0)4 74 39 01 88 ».",
+   "choix": "Téléphone publié par la brasserie sous la forme « 00 33 (0)4 74 39 01 88 », ramené au format français 04 74 39 01 88. Rousse classée ambree (règle de la consigne). Extraits issus du résumé de l'outil, pas du texte brut. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "Les Deux Branches",
+   "changements": {
+    "contact": {
+     "site": "https://lesdeuxbranches.fr",
+     "source": "https://lesdeuxbranches.fr/bieres/",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/LesDeuxBranches"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lesdeuxbranches.fr/bieres/"
+   ],
+   "extrait": "Bières permanentes : « Dark Hedges » style « stouts irlandaises », « Graines de Lune » style « HefeWeizen », « Major Oak » style « Saison », « Sequoyah » style « American IPA ». (Extraits issus du résumé de l'outil de lecture.)",
+   "choix": "Les quatre bières permanentes dont le style est écrit. Pollen : style non précisé, écartée. Les bières éphémères (Trident IPA, Imperial OMS, etc.) sont écartées car elles tournent. Pas de téléphone : le site n'en publie aucun ; le 06 25 11 73 27 ne figure que sur la fiche loiretourisme (annuaire), je ne le retiens pas. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "L'Agrivoise",
+   "changements": {
+    "contact": {
+     "site": "https://lagrivoise.fr/",
+     "tel": "04 75 30 70 76",
+     "source": "https://lagrivoise.fr/formulaire/",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/LAgrivoise"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lagrivoise.fr/formulaire/"
+   ],
+   "extrait": "15 chemin de Pontardieu, 07320 Saint-Agrève — 04 75 30 70 76 (bas de la page « Contact »). Accueil : « L'Agrivoise est une brasserie artisanale, indépendante & biologique qui produit des bières de caractère. »",
+   "choix": "Le téléphone est un fixe publié par la brasserie sur son site. Aucune bière proposée : les pages /les-bieres/ et /commander/ ne donnent aucun style écrit. Seuls des noms de fichiers d'images (votrecoteblonde, terredumilieu, lenoirvousvasibien, lesechappees) apparaissent, et je ne les déduis pas. Les noms et styles des autres bières (Asociale, Sous les Pavés…) viennent de Gault&Millau, un annuaire, que je n'ai pas ouvert moi-même. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "Brasserie de Cluny",
+   "changements": {
+    "contact": {
+     "site": "http://www.brasseriedecluny.fr/",
+     "tel": "06 11 73 56 25",
+     "source": "http://www.brasseriedecluny.fr/",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/BrasserieDeCluny"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.brasseriedecluny.fr/"
+   ],
+   "extrait": "Le Nière, Château 71250 / 06 11 73 56 25 / Les fondamentaux : Pale Ale, Amber Ale, Blanche, IPA ; Les spéciales : Smoked Red Ale (extrait issu du résumé de l'outil, pas du texte brut)",
+   "choix": "Tél. : mobile publié par la brasserie sur son site (06 11 73 56 25), seul numéro. Écartées : Tardif de Bourgogne et Fleur de Sureau (style non écrit). Smoked Red Ale mise en autre pour garder « fumée » (Cédric peut la passer en ambree). La page conseille d'appeler avant de venir. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "Brasserie des Cimes",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserie-des-cimes.com",
+     "source": "https://www.brasserie-des-cimes.com",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/BrasserieDesCimes"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-des-cimes.com"
+   ],
+   "extrait": "Tableau de la gamme (nom, style, degré) : Cime – Blonde – 5,2 % ; IPA – Blonde – 5 % ; Aiguille Blanche – Blanche – 5 % ; Imperial Stout – Noire – 9 % ; Piste noire – Ambrée – 5,9 % ; L'Abominable – Brune – 6 % ; Hors piste – Blonde – 6,5 % ; Yeti – Blonde – 8 %. « installée depuis fin 1998 dans la ville thermale d'Aix-les-Bains »",
+   "choix": "Téléphone : aucun sur le site lu. Le 04 79 88 16 80 vient de la fiche de l'office de tourisme, pas du site de la brasserie. 8 bières retenues sur 14. Écartées : Bière d'hiver (ambrée), NEIPA, RYE IPA, Mousse Framboise, Mousse Châtaigne et Mousse Génépi (« Mousse » n'est pas un style de mon énumération). Pour « IPA », le tableau dit « Blonde » mais le nom dit IPA : j'ai mis ipa. Pour « Imperial Stout », le tableau dit « Noire » mais le nom dit Stout : j'ai mis stout. Cédric peut préférer blonde et brune respectivement. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "Brasserie du Mont Blanc",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserie-montblanc.com",
+     "tel": "04 79 62 96 76",
+     "source": "https://www.brasserie-montblanc.com/contact",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/MontBlanc"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-montblanc.com",
+    "https://www.brasserie-montblanc.com/contact"
+   ],
+   "extrait": "Page contact : « Bar, restaurant et vente à emporter : 04 79 62 96 76, lundi au vendredi 10h-22h » ; « 128 Av. René Cassin, 73290 La Motte-Servolex ». Accueil : « Bières désaltérantes : La Blanche, Cristal IPA » ; « Découvrez notre nouvelle NEIPA, la bière idéale pour l'été »",
+   "choix": "Cédric décide du téléphone : la page contact publie deux fixes, 04 79 62 23 99 (entreprise et location de bière, lundi-vendredi 9h-12h / 14h-17h) et 04 79 62 96 76 (bar, restaurant, vente à emporter, lundi-vendredi 10h-22h). J'ai retenu celui du bar parce qu'il s'adresse au public. Il peut préférer le premier, ou aucun. Les libellés de la page contact sont en anglais dans le résumé de l'outil, la traduction est la mienne. Bières : seules Cristal IPA et NEIPA portent un style dans leur nom, écrit par la brasserie. La Blanche, La Rousse, Triple épices, La Verte, La Bleue et La Violette n'ont aucun style écrit sur la page. Cédric peut ajouter blanche et ambrée s'il accepte le nom comme style. Ces deux types sont écartés ici, ainsi que la Verte au génépi. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  },
+  {
+   "n": "Brasserie Archimalt",
+   "changements": {
+    "contact": {
+     "site": "https://www.archimalt.fr",
+     "source": "https://www.archimalt.fr/nos-bi%C3%A8res/notre-gamme/",
+     "verifieLe": "2026-10-17",
+     "untappd": "https://untappd.com/Archimalt"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.archimalt.fr/nos-bi%C3%A8res/notre-gamme/"
+   ],
+   "extrait": "Bière blonde douce et maltée. / Bière type IPA anglaise, légère en alcool. / Bière ambrée brassée avec 10 malts différents au bon goût de céréales. / Bière dorée infusée au poivre du Sichuan (cueilli à Méry - Savoie) / Bière ambrée infusée à la fève de tonka.",
+   "choix": "La « Blanche à l'hibiscus » est écrite « à venir » (« Elle arrive très bientôt »), je ne la retiens pas. « Dorée » n'est pas « blonde » : je l'ai mise en autre. Pas de tel : 04 79 65 91 90 n'apparaît que dans un résumé de recherche (annuaire de tourisme). Ni la page d'accueil, ni /contact/, ni /localisation/ ne le montrent, donc je ne le propose pas. ; le lien Untappd de S53 est repris dans ce contact : accepter les deux lots ne le perd pas. Les bières restent celles de S53 (Untappd)."
+  }
+ ],
+ "revues": [
+  "Brasserie 3B (Bassin Bellegardien)",
+  "Brasserie Archimalt",
+  "Brasserie B.A.S. (Sabaudia)",
+  "Brasserie CCB",
+  "Brasserie Caquot",
+  "Brasserie Challit",
+  "Brasserie Coup de Mousse",
+  "Brasserie Dr D. Brewpub",
+  "Brasserie Free Mousse",
+  "Brasserie Grange Noire",
+  "Brasserie Grésiv'ale",
+  "Brasserie Haarddrëch",
+  "Brasserie Hildegarde",
+  "Brasserie Irvoy",
+  "Brasserie Kan Mêm",
+  "Brasserie Kiltin'",
+  "Brasserie Kokine",
+  "Brasserie Kura",
+  "Brasserie L'Attract'Yves",
+  "Brasserie La Couleuvre",
+  "Brasserie La Dourbie",
+  "Brasserie La Furieuse",
+  "Brasserie Les Dameuses",
+  "Brasserie Maltobar",
+  "Brasserie Motueka",
+  "Brasserie Paille",
+  "Brasserie Peteukrane",
+  "Brasserie Polack",
+  "Brasserie Quardin",
+  "Brasserie Rhôdanienne",
+  "Brasserie Rohner",
+  "Brasserie Romanaise (Bière Jacquemart)",
+  "Brasserie Saint-Clair (La Bressane)",
+  "Brasserie Solstice",
+  "Brasserie Teddy Beer",
+  "Brasserie Two Dudes",
+  "Brasserie Vellavia",
+  "Brasserie de Chanaz",
+  "Brasserie de Chartreuse",
+  "Brasserie de Cluny",
+  "Brasserie de Roche Colombe",
+  "Brasserie de l'Emblavez",
+  "Brasserie de l'Ours Barbu",
+  "Brasserie de la Pleine Lune",
+  "Brasserie de la Pérouze",
+  "Brasserie des 2 Roches",
+  "Brasserie des Cimes",
+  "Brasserie des Cuves",
+  "Brasserie des Utopies",
+  "Brasserie du Bugey",
+  "Brasserie du Dauphiné",
+  "Brasserie du Marrel",
+  "Brasserie du Merle",
+  "Brasserie du Mont Blanc",
+  "Brasserie du Revermont (Les Deux Frères)",
+  "Brasserie du Val d'Ainan (La Dauphine)",
+  "Brasserie du Vercors (Biercors)",
+  "Domaine du Bélier Rouge",
+  "Ferme-Brasserie de Belmonthé",
+  "Ferme-brasserie Déluge",
+  "L'Agrivoise",
+  "L'Etincelle",
+  "L'Écume du Guiers",
+  "La Barbue",
+  "La Bonne Fabrique",
+  "La Grange du Seigneur",
+  "La Marmotte Masquée",
+  "La Montagnarde",
+  "La Mousse du Guiers",
+  "La Poulette des Ebaudis",
+  "La Strol",
+  "La Valentinoise",
+  "Les Ateliers du Dauphiné",
+  "Les Bières Hoffmann (Brasseurs du Grand Colombier)",
+  "Les Brasseurs du Sornin",
+  "Les Croqueurs de Lune",
+  "Les Cuves de la Madeleine",
+  "Les Deux Branches",
+  "Mac Never's and Co.",
+  "Manev'Ale",
+  "P'tit Labo (Brasserie de Grenoble)",
+  "RUN'HARD",
+  "Rivière d'Ain",
+  "Terre de Possibles",
+  "Two Hats Brewing",
+  "Une Petite Mousse"
+ ]
+}

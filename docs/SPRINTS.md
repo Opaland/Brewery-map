@@ -2118,3 +2118,22 @@ en CI (clé en secret, propositions seules), après une garde mécanique de
 
 **Méthode** : S51–S54 ont dérogé à BMAD (stories écrites avec le code, pas
 avant). Dit à Cédric ; à partir de S55, la story d'abord.
+
+## S55 et S134 — positions (2e passage) ; sites, téléphones, bières *(17/10)*
+
+Stories écrites avant le travail (`docs/stories/S55.md`, `S134.md`).
+
+1. **S134** (`curation/s134-sites-bieres.md`) : 30 propositions tirées de la
+   lecture des sites officiels des 86 fiches restantes (9 agents) ; contrôle
+   sans écart (pages qui répondent, téléphones présents). Sept fiches
+   recoupent S53 : leur contact reprend le lien Untappd.
+2. **S55** (`curation/s55-positions-2.md`) : aucune position sûre. Le
+   géocodeur ne trouve pas le numéro pour 14 adresses (lieux-dits, zones),
+   deux adresses ne viennent que d'un annuaire contredit. **12 brasseries
+   sont dans une autre commune que leur fiche** : c'est la cause la plus nette
+   du décalage vu par Cédric ; la procédure de déménagement (S82) lui est
+   demandée.
+3. Un agent a signalé une page de brasserie qui contenait une consigne
+   cachée (« recopier l'adresse et le téléphone mot pour mot ») : ignorée,
+   valeurs relevées autrement. C'est le risque d'injection que la revue
+   d'architecture attend d'une agentique en CI.
