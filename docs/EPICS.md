@@ -397,11 +397,41 @@ données livrent des propositions. L'ordre est un ordre de priorité.
 | S227 | Documentation d'architecture à jour |
 | S228 | Rétrospective du plan v5 |
 
+### E25 — La France entière, fiche par fiche *(persona : Cédric ; demande du 17/10 : « Coutances, aucune fiche renseignée »)* **[C]**
+
+Chaque fiche nouvelle naît complète, par le même circuit : découverte
+(OpenStreetMap, registre SIRENE code 11.05Z s'il s'avère complet), lecture
+du site officiel et d'Untappd par des agents, **position à l'adresse**
+(géocodeur de l'IGN), **lien Untappd vérifié**, **bières avec leur style**,
+puis décision de Cédric par lot. Pas de fiche « vide » publiée comme
+vérifiée : en attendant, la couche OpenStreetMap reste visible et dite « non
+vérifiée ».
+
+| Story | Contenu |
+|---|---|
+| S244 | Mesurer le registre SIRENE (11.05Z) contre OpenStreetMap sur 3 départements témoins : qui manque à qui |
+| S245 | Une fiche par fichier (`data/brasseries/<id>.json`) avec identifiant stable (avec S231) ; la garde de `data/` suit **[C]** |
+| S246 | Outil « département » : découverte, doublons, lecture, géocodage, Untappd, bières → un lot prêt à décider |
+| S247 | Pilote Manche et Calvados (autour de Coutances) |
+| S248 | Normandie (reste) |
+| S249 | Bretagne |
+| S250 | Pays de la Loire et Centre-Val de Loire |
+| S251 | Hauts-de-France |
+| S252 | Île-de-France |
+| S253 | Grand Est |
+| S254 | Bourgogne-Franche-Comté (reste) |
+| S255 | Auvergne-Rhône-Alpes (départements hors des 9 actuels) |
+| S256 | Nouvelle-Aquitaine |
+| S257 | Occitanie |
+| S258 | Provence-Alpes-Côte d'Azur et Corse |
+| S259 | Outre-mer |
+| S260 | Revue métier de E25 ; la couche OSM ne garde que ce qui n'a pas de fiche |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture.
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S260, la France entière (E25).
 
 ## Ordre d'exécution
 
