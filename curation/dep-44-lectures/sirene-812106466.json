@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:812106466",
+ "ajout": {
+  "fiche": {
+   "n": "BUBAR",
+   "c": "Nantes",
+   "d": "44",
+   "lat": 47.20668,
+   "lon": -1.55507,
+   "km": 512.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Se présente comme « microbrasserie, bar et cave » sur une plateforme de réservation ; rien de la brasserie elle-même.",
+   "addr": "14 rue Louis Blanc, 44200 Nantes",
+   "src": "https://www.privateaser.com/lieu/46007-bubar-microbrasserie-bar-et-cave",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.privateaser.com/lieu/46007-bubar-microbrasserie-bar-et-cave",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+Louis+Blanc%2C+44200+Nantes&limit=5"
+  ],
+  "extrait": "BUBAR - Microbrasserie, Bar et Cave 14 Rue Louis Blanc, 44200 Nantes",
+  "choix": "Plateforme de réservation seulement ; SIRENE déclare le 5 rue Louis Blanc."
+ }
+}

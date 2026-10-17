@@ -1,0 +1,42 @@
+{
+ "candidat": "personne:8",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie D'ici l'Aurore",
+   "c": "Saint-Hilaire-de-Chaléons",
+   "d": "44",
+   "lat": 47.10151,
+   "lon": -1.87044,
+   "km": 532.1,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente directe de la brasserie au marché hebdomadaire de la Ferme à Cultures, le mardi en fin de journée.",
+   "addr": "Saint-Hilaire-de-Chaléons",
+   "src": "https://www.atlantic-loire-valley.com/objet_touristique/232314",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/objet_touristique/232314"
+  ],
+  "extrait": "Directly from the brewery at the weekly market at the Ferme à Cultures",
+  "choix": "Fiche de tourisme en anglais seulement (horaires en « pm », non repris). Position au centre de la commune."
+ }
+}

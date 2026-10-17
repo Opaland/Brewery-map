@@ -1,0 +1,44 @@
+{
+ "candidat": "sirene:894409325",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Maison Blanche",
+   "c": "Machecoul-Saint-Même",
+   "d": "44",
+   "lat": 47.0054,
+   "lon": -1.81545,
+   "km": 525.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie ouverte au public ; le site ne dit ni vente ni dégustation sur place.",
+   "addr": "Machecoul-Saint-Même",
+   "src": "https://www.brasserielamaisonblanche.com/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.brasserielamaisonblanche.com/",
+    "source": "https://www.brasserielamaisonblanche.com/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserielamaisonblanche.com/"
+  ],
+  "extrait": "La brasserie est ouverte au public curieux à Machecoul !",
+  "choix": "Seuls numéros publiés : deux mobiles, non repris. Position au centre de la commune."
+ }
+}

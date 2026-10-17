@@ -1,0 +1,107 @@
+{
+ "candidat": "sirene:445280019",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Côte de Jade",
+   "c": "Pornic",
+   "d": "44",
+   "lat": 47.11479,
+   "lon": -2.06298,
+   "km": 546.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Magasin d'usine ouvert toute l'année ; dégustation lors des visites seulement.",
+   "addr": "13 rue Henri Becquerel, 44210 Pornic",
+   "src": "http://www.biere-pornic.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "brune"
+    }
+   ],
+   "contact": {
+    "site": "http://www.biere-pornic.com/",
+    "source": "http://www.biere-pornic.com",
+    "tel": "02 40 82 87 16",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "lun": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "source": "http://www.biere-pornic.com",
+     "remarque": "Magasin d'usine ; aussi le samedi selon la saison (voir la page).",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.biere-pornic.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+Henri+Becquerel%2C+44210+Pornic&limit=5"
+  ],
+  "extrait": "Notre magasin d’usine est ouvert toute l’année",
+  "choix": "Bières Brigantine."
+ }
+}

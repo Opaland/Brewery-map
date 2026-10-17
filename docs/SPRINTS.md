@@ -2633,3 +2633,19 @@ test échoue chaque fois. Les quatre lots repassent `controler` sans écart.
 3. **Le verdict de la story disait plus que le contrôle** (« retrouvés heure par heure ») : c'est un contrôle de présence, et le verdict le dit maintenant. Les blocs ont été relus un par un par la revue.
 
 Les quatre lots repassent `controler` sans écart.
+
+## S250 (1/…) — Loire-Atlantique : 32 fiches proposées *(17/10)*
+
+`docs/stories/S250.md`. C'est le premier département des Pays de la Loire, traité seul pour tenir dans le quota de recherches.
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-44` | 85 | 32 | 9 | 11 | 12 | 17 | 9 |
+
+- Les agents ont lu en 13 paquets de 7. Chaque extrait a été relu dans le texte brut de sa page, et 6 phrases trop faibles ont été remplacées.
+- Trois catégories sont redescendues :
+  - La Déviation et la Divatte : une dégustation de visite n'est pas un bar.
+  - Vestibule : la page dit « ouverte » sans dire pour quoi.
+- Les doublons entre SIRENE et OSM ont été fusionnés : Les Brassés, San Roce, Philmore.
+- **Défaut du contrôle, corrigé** : les entités typographiques des CMS (`&rsquo;`) n'étaient pas décodées. Un extrait juste était donc dit « ABSENT ». La correction a un test, vu rouge.
+- Restent pour Cédric : une chaîne (3 Brasseurs) et deux brasseries à la même adresse (AERoFAB et La Hulotte), dites dans le lot.

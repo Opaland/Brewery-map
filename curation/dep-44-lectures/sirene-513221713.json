@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:513221713",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Plormel",
+   "c": "Vieillevigne",
+   "d": "44",
+   "lat": 46.9702,
+   "lon": -1.41561,
+   "km": 495.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique en ligne ; aucune mention de vente ou de dégustation sur place.",
+   "addr": "4 rue Gutenberg, 44116 Vieillevigne",
+   "src": "https://www.brasserieplormel.com/contact",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    }
+   ],
+   "contact": {
+    "site": "https://www.brasserieplormel.com/",
+    "source": "https://www.brasserieplormel.com/contact",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserieplormel.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+Gutenberg%2C+44116+Vieillevigne&limit=5"
+  ],
+  "extrait": "Brasserie Plormel 4 rue Gutenberg ZA Beausoleil 44116 Vieillevigne",
+  "choix": "Le numéro du siège est écrit « 228 076 499 », non relu par le contrôle : non repris."
+ }
+}

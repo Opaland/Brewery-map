@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:830866042",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Nautile",
+   "c": "Rezé",
+   "d": "44",
+   "lat": 47.19477,
+   "lon": -1.55696,
+   "km": 512.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique en ligne avec retrait chez Cold Crash à Rezé ; la page ne dit ni vente ni dégustation à la brasserie.",
+   "addr": "4 rue du Seil, 44400 Rezé",
+   "src": "http://www.brasserienautile.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.brasserienautile.com/",
+    "source": "http://www.brasserienautile.com/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.brasserienautile.com/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+du+Seil%2C+44400+Rez%C3%A9&limit=5"
+  ],
+  "extrait": "retrait possible chez Cold Crash à Rezé"
+ }
+}

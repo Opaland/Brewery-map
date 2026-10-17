@@ -1,0 +1,27 @@
+{
+ "candidat": "node/10840277210",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Ouche",
+   "c": "Joué-sur-Erdre",
+   "d": "44",
+   "lat": 47.49372,
+   "lon": -1.42077,
+   "km": 513.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Dégustation et vente directe à la brasserie, ouverte toute l'année, d'après l'office de tourisme.",
+   "addr": "269 rue des Prairies, 44440 Joué-sur-Erdre",
+   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-de-l-ouche",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-de-l-ouche",
+   "https://data.geopf.fr/geocodage/search?q=269+rue+des+Prairies%2C+44440+Jou%C3%A9-sur-Erdre&limit=5"
+  ],
+  "extrait": "Tasting and direct sales at the brewery.",
+  "choix": "Fiche de tourisme en anglais seulement. Seul numéro : un mobile."
+ }
+}

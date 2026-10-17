@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:901940874",
+ "ajout": {
+  "fiche": {
+   "n": "X'Pression",
+   "c": "Saint-Philbert-de-Grand-Lieu",
+   "d": "44",
+   "lat": 47.05091,
+   "lon": -1.63253,
+   "km": 513.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la propriété et salle de dégustation pour groupes, d'après l'office de tourisme ; le site ne le dit pas.",
+   "addr": "14 rue de l'Industrie, 44310 Saint-Philbert-de-Grand-Lieu",
+   "src": "https://www.atlantic-loire-valley.com/objet_touristique/192561",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/objet_touristique/192561",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+de+l%27Industrie%2C+44310+Saint-Philbert-de-Grand-Lieu&limit=5"
+  ],
+  "extrait": "Winery sales",
+  "choix": "Fiche de tourisme en anglais. Seul numéro publié par le site : un mobile, non repris."
+ }
+}

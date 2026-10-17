@@ -509,6 +509,12 @@ describe('extraitSurLaPage (S247)', () => {
   it('un extrait vide ne prouve rien', () => {
     expect(extraitSurLaPage('  ', '<p>tout</p>')).toBe(false)
   })
+  it('lit les entités typographiques et confond apostrophes et tirets typographiques (S250)', () => {
+    const page = '<p>Ouverte toute l&rsquo;ann&eacute;e (17h &#8211; 20h) &laquo;&nbsp;Bar&nbsp;&raquo; &ndash; cave</p>'
+    expect(extraitSurLaPage('Ouverte toute l’année (17h – 20h)', page)).toBe(true)
+    expect(extraitSurLaPage("Ouverte toute l'année (17h - 20h)", page)).toBe(true)
+    expect(extraitSurLaPage('« Bar » - cave', page)).toBe(true)
+  })
 })
 
 

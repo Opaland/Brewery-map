@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:892111873",
+ "ajout": {
+  "fiche": {
+   "n": "Damraz",
+   "c": "Herbignac",
+   "d": "44",
+   "lat": 47.45207,
+   "lon": -2.31381,
+   "km": 575.1,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie avec taproom et boutique ; on y vient déguster les bières.",
+   "addr": "Herbignac",
+   "src": "https://www.damraz.fr",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "brune"
+    }
+   ],
+   "contact": {
+    "site": "https://www.damraz.fr/",
+    "source": "https://www.damraz.fr",
+    "tel": "09 75 76 96 05",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.damraz.fr"
+  ],
+  "extrait": "dégustez une de nos bières artisanales bien fraîches",
+  "choix": "La boutique n'est citée que dans le menu du site. Adresse non publiée sur le site : position au centre d'Herbignac."
+ }
+}

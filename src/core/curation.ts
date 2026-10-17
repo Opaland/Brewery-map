@@ -547,7 +547,25 @@ export function horairesSurLaPage(bloc: Readonly<Record<string, unknown>>, page:
   return absentes
 }
 
-const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }
+// Les entités typographiques des CMS courants (WordPress écrit « l&rsquo;année ») :
+// sans elles, un extrait juste était dit absent (Vestibule, S250).
+const ENTITES: Record<string, string> = {
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  apos: "'",
+  nbsp: ' ',
+  rsquo: '\u2019',
+  lsquo: '\u2018',
+  rdquo: '\u201d',
+  ldquo: '\u201c',
+  laquo: '«',
+  raquo: '»',
+  ndash: '\u2013',
+  mdash: '\u2014',
+  hellip: '…',
+}
 
 /** Le texte lu d'une page : sans balises, entités décodées, sans accents ni casse, espaces réduits. */
 function texteComparable(t: string): string {
@@ -558,7 +576,8 @@ function texteComparable(t: string): string {
       .replace(/&#x([0-9a-f]+);/gi, (_, n: string) => String.fromCodePoint(parseInt(n, 16)))
       .replace(/&([a-z]+)acute;|&([a-z]+)grave;|&([a-z]+)circ;|&([a-z]+)uml;|&([a-z]+)cedil;/gi, (_m, ...g: (string | undefined)[]) => g.find((x) => x !== undefined) ?? '')
       .replace(/&([a-z]+);/gi, (m, n: string) => ENTITES[n.toLowerCase()] ?? m)
-      .replace(/[\u2018\u2019]/g, "'"),
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/[\u2013\u2014]/g, '-'),
   )
     .replace(/\s+/g, ' ')
     .trim()

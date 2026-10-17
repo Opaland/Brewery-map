@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:818226938",
+ "ajout": {
+  "fiche": {
+   "n": "Little Atlantique Brewery",
+   "c": "Nantes",
+   "d": "44",
+   "lat": 47.19692,
+   "lon": -1.58936,
+   "km": 514.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Micro-brasserie, bar à bières et restaurant ; commande en ligne avec retrait.",
+   "addr": "23 boulevard de Chantenay, 44100 Nantes",
+   "src": "https://little-atlantique-brewery.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://little-atlantique-brewery.fr/",
+    "source": "https://little-atlantique-brewery.fr",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://little-atlantique-brewery.fr",
+   "https://data.geopf.fr/geocodage/search?q=23+boulevard+de+Chantenay%2C+44100+Nantes&limit=5"
+  ],
+  "extrait": "Micro-brasserie, bar à bières & restaurant à Nantes",
+  "choix": "La vente à emporter n'est dite que par le « Click and Collect » du site."
+ }
+}
