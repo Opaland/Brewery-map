@@ -10,11 +10,14 @@ test.beforeEach(async ({ page }) => {
 })
 
 test.describe('chercher une commune de départ, partout en France', () => {
-  test('près du départ : réponse sans charger toute la France', async ({ page }) => {
+  test('près du départ, nom exact : réponse sans charger toute la France', async ({ page }) => {
+    // Depuis l'audit S26 (M2), un nom sans correspondance exacte près du
+    // départ élargit aussi à la France (« Lyon » depuis Paris) ; un nom exact
+    // trouvé près reste servi par les départements voisins seuls.
     const demandes: string[] = []
     page.on('request', (r) => demandes.push(new URL(r.url()).pathname))
     await page.goto('/')
-    await page.getByTestId('commune-depart').fill('brign')
+    await page.getByTestId('commune-depart').fill('brignais')
     await expect(page.getByRole('option').first()).toHaveText('Brignais (69)')
     await expect(page.getByTestId('commune-statut')).toContainText('à moins de 100 km')
     expect(demandes.some((p) => p.endsWith('/communes-france.json'))).toBe(false)

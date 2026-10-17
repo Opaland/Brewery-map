@@ -129,6 +129,9 @@ a { color: inherit; }
 }
 
 .champ { display: grid; gap: var(--espace-2); }
+/* Un champ peut rétrécir : sans cela, à 200 % de texte, la recherche et la
+   commune gardaient 492 px et la page défilait de côté (audit S26, M1). */
+.champ input, .champ select { min-width: 0; max-width: 100%; }
 
 .champ input[type='search'] {
   font: inherit;
@@ -269,6 +272,7 @@ a { color: inherit; }
 
 .badge {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: var(--espace-4);
   font-size: var(--texte-secondaire);
@@ -500,5 +504,6 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
   font-size: var(--texte-secondaire);
 }
 .legende-carte li { display: inline-flex; align-items: center; gap: var(--espace-2); }
-.pastille-groupe { background: #1e2b23; }
+/* Bord blanc comme le marqueur : visible aussi en thème sombre (audit S26, m2 : 1,17:1). */
+.pastille-groupe { background: #1e2b23; border: 2px solid #fff; box-sizing: border-box; }
 .pastille-depart { background: #fff; border: 3px solid #1e2b23; box-sizing: border-box; }

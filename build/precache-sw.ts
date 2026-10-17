@@ -27,6 +27,7 @@ export function precacheServiceWorker(): Plugin {
         './index.html',
         './manifest.webmanifest',
         './icon.svg',
+        './favicon.ico',
         './icon-192.png',
         './icon-512.png',
         './icon-maskable-512.png',

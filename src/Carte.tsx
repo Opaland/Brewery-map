@@ -56,7 +56,11 @@ const STYLE: StyleSpecification = {
       type: 'raster',
       tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
       tileSize: 256,
-      maxzoom: 19,
+      // Au plus le zoom 14 (tuiles d'environ 1,7 km de côté vers 45° de latitude),
+      // agrandies au-delà : le texte de confidentialité promet « à quelques
+      // kilomètres près », et zoomer sur sa position demandait des tuiles de
+      // moins d'un kilomètre (audit S26, m3).
+      maxzoom: 14,
       attribution:
         '© <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>',
     },

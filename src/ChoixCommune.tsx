@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useState } from 'react'
 import { chercherCommunes, type CommuneFrance, type CommuneIndexee } from './core/communes'
+import { normaliser } from './core/recherche'
 import type { Point } from './core/distance'
 import { communesDeFrance, communesProches, RAYON_PRES_KM } from './communesFrance'
 
@@ -57,8 +58,11 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   }, [depuis, depuisPosition])
 
   const pres = useMemo(() => chercherCommunes(proches, texte, 8, depuis), [proches, texte, depuis])
-  // Rien près du départ, ou demandé : toute la France.
-  const chercherPartout = partout || (etatProches !== 'attente' && pres.length === 0)
+  // Rien près du départ, ou rien qui porte exactement le nom tapé (depuis
+  // Paris, « Lyon » ne trouvait que Lyons-la-Forêt : audit S26, M2), ou
+  // demandé : toute la France.
+  const exacte = pres.some((c) => normaliser(c[0]) === normaliser(texte))
+  const chercherPartout = partout || (etatProches !== 'attente' && (pres.length === 0 || !exacte))
 
   useEffect(() => {
     if (!chercherPartout || toutes !== null || texte.trim().length < 2) return
@@ -82,7 +86,10 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
     if (!chercherPartout || toutes === null) return pres
     const loin = chercherCommunes(toutes, texte, 8)
     const deja = new Set(pres.map((c) => `${c[0]}|${c[1]}`))
-    return [...pres, ...loin.filter((c) => !deja.has(`${c[0]}|${c[1]}`))].slice(0, 8)
+    const tous = [...pres, ...loin.filter((c) => !deja.has(`${c[0]}|${c[1]}`))]
+    // Le nom exact d'abord, d'où qu'il soit : « Lyon » avant Lyons-la-Forêt.
+    const cible = normaliser(texte)
+    return [...tous.filter((c) => normaliser(c[0]) === cible), ...tous.filter((c) => normaliser(c[0]) !== cible)].slice(0, 8)
   }, [chercherPartout, toutes, pres, texte])
   const resultats = resultatsBruts
   // L'option active reste dans la liste quand celle-ci rétrécit (revue code S21).

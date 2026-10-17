@@ -57,7 +57,11 @@ test('le statut des communes ne dit pas « à moins de 100 km » de communes plu
 }) => {
   await page.getByTestId('commune-depart').fill('villefranche')
   await expect(page.getByRole('option', { name: "Villefranche-d'Allier (03)" })).toBeVisible()
-  await expect(page.getByTestId('commune-statut')).toContainText('dans les départements à moins de 100 km')
+  // Depuis l'audit S26 (M2), aucun nom exact près du départ : la recherche
+  // s'élargit à la France, et le statut le dit ; jamais « à moins de 100 km »
+  // pour Villefranche-d'Allier.
+  await expect(page.getByTestId('commune-statut')).toContainText('en France')
+  await expect(page.getByTestId('commune-statut')).not.toContainText('à moins de 100 km')
 })
 
 test.describe('ordinateur', () => {

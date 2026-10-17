@@ -1520,3 +1520,55 @@ l'appli ».
    - le texte prérempli par un lien partagé reste dans le champ de
      recherche ;
    - les nombres par département ignorent les catégories cochées.
+
+## Audit applicatif *(16–17/10)*
+
+Demande de Cédric : « un audit applicatif sur la PWA avec Playwright MCP ».
+Aucun serveur MCP Playwright n'était disponible dans la session. L'audit a
+donc été fait avec Playwright en direct (même moteur Chromium), axe 4.13 et
+Lighthouse 13.5, sur la page publiée. Rapport complet : `docs/AUDIT.md`.
+
+- **Lighthouse** : mobile 99 / 100 / 100 / 100, bureau 100 / 100 / 100 / 100.
+- **axe** : 0 violation sur 5 des 7 états ; dans les 2 autres, seuls des
+  marqueurs de carte sont signalés, couverts par l'exception « équivalent ».
+- **Réseau** : 0 requête sur 215 ne contient la position.
+- **Hors ligne** : réseau réellement coupé, service worker compris ; liste,
+  fiche, couche France et onglet neuf marchent.
+- **Trouvailles** : 0 bloquant, 2 majeures, 5 mineures, 9 pour information.
+
+## S26 — Correctif de l'audit *(17/10)*
+
+Tests : `tests/e2e/audit.spec.ts` et `tests/unit/mise-a-jour.test.ts`, tous vus
+rouges avant correction, sauf m2 et m5 (voir 2).
+
+1. **Corrigé.**
+   - **M1 — à 200 % de texte, la page défilait de côté** (544 px pour 320).
+     Les champs peuvent désormais rétrécir et les badges passer à la ligne.
+     Le test de reflow de S18 était creux : il comparait `scrollWidth` à
+     `clientWidth`, qui s'élargit au contenu sur téléphone. Il compare
+     maintenant à la largeur de l'écran. La leçon est ajoutée à CLAUDE.md
+     §1bis.
+   - **M2 — depuis Paris, « Lyon » ne proposait pas Lyon.** Sans nom exact
+     près du départ, la recherche s'élargit à la France, et le nom exact
+     passe en tête.
+     - **Ce que ça coûte** : le fichier de toute la France (≈ 470 Ko,
+       gardé ensuite) se charge plus tôt.
+     - **Ce qui ne change pas** : un nom exact trouvé près du départ reste
+       servi par les départements voisins seuls (test S21 adapté).
+   - **m1 — « Recharger » restait sans effet dans un second onglet** : si plus
+     rien n'attend, la page se recharge.
+   - **m2 — la pastille « Plusieurs brasseries » était invisible en thème
+     sombre** (contraste 1,17:1) : elle a maintenant un bord blanc.
+   - **m3 — la confidentialité promet « à quelques kilomètres près »**, mais
+     zoomer demandait des tuiles de moins d'un kilomètre. Les tuiles
+     s'arrêtent au zoom 14 (environ 1,7 km de côté vers 45° de latitude) et
+     sont agrandies au-delà.
+   - **m5** : balises de partage (Open Graph, Twitter) ajoutées, et
+     `favicon.ico`, précaché.
+2. **Tests sans rouge observé.**
+   - m2 : le test vérifie que la pastille a un bord blanc. Il ne mesure pas
+     le contraste lui-même.
+   - m5 : écrit avec sa correction, pas vu rouge avant.
+3. **Reporté en S28** (refonte visuelle) :
+   - m4 : sur téléphone, la liste commence à 2,3 écrans ;
+   - l'image de partage (`og:image`).

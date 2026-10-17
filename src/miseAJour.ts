@@ -36,6 +36,10 @@ export function surveillerMiseAJour(reg: ServiceWorkerRegistration | undefined):
 export function activerNouvelleVersion(): void {
   activationDemandee = true
   void navigator.serviceWorker.getRegistration().then((reg) => {
-    reg?.waiting?.postMessage('activer')
+    const attente = reg?.waiting
+    // Plus rien n'attend : un autre onglet l'a déjà activée. Le bouton ne
+    // restait sans effet ; recharger suffit (audit S26, m1).
+    if (attente === null || attente === undefined) window.location.reload()
+    else attente.postMessage('activer')
   })
 }
