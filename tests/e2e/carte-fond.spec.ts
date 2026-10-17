@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { TUILE_OSM, versLaCarte } from './reseau'
 
 /** S41 — le repli « fond de carte indisponible » ne clignote plus. */

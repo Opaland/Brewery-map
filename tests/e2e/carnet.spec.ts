@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { ouvrirFiltres, sansTuiles } from './reseau'
 
 /** S35 — mon carnet : les brasseries visitées, sur l'appareil. */

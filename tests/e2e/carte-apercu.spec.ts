@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles, versLaCarte } from './reseau'
 
 /** S32 — sur téléphone, un marqueur touché montre un aperçu dans la carte. */

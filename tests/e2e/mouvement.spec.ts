@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles } from './reseau'
 
 /** S33 — un peu de mouvement, jamais imposé. */

@@ -152,6 +152,15 @@ après chaque publication ; un déploiement vert sans elle ne prouve rien.
 Le code peut être fini quand le critère ne l'est pas (une case du §8 qui
 demande une preuve humaine, une page publiée non sondée). Le dire.
 
+## 10bis. La story avant le code, toujours (méthode BMAD adaptée)
+
+Raté du 17/10 : S51 à S54 ont été codés avant que leur story existe, et une
+story commune a couvert deux sprints ; la revue a ensuite trouvé quatre
+défauts que des critères écrits d'avance auraient posés. Depuis, à la
+demande de Cédric (« appliquer la méthode BMAD de façon permanente ») :
+**aucun code d'un sprint avant son fichier `docs/stories/Sxx.md`**, critères
+et preuves compris (`/preparer-story`, `docs/METHODE.md`).
+
 ## 11. La revue adverse se calibre (repris d'ÉtapeForge §11)
 
 Un agent `relecteur-adverse` coûte 50 k à 200 k tokens par passage

@@ -1,5 +1,5 @@
 import jsQR from 'jsqr'
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles } from './reseau'
 
 /** S38 — l'affichette de comptoir : ce que dit la fiche, et un QR qui l'ouvre. */
