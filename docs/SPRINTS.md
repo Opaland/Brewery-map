@@ -2017,3 +2017,19 @@ Axe et cibles de 44 px sur tous les écrans venus depuis S29, dépliés, en
 clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
 à l'inverse du système : **aucune violation**. Des tests le gardent
 (`docs/stories/S47.md`).
+
+## S48 — Interface en anglais (1/3) : le socle *(17/10)*
+
+1. **Fait** (`docs/stories/S48.md`) :
+   - `src/i18n.ts` : `t()`, dont la clé est le texte français lui-même ;
+     la langue est choisie au démarrage, et l'anglais reste éteint
+     (`ANGLAIS_PRET`) tant que tout n'est pas traduit ;
+   - un dictionnaire, `src/textes/en.ts`, de 76 entrées pour l'écran
+     principal ;
+   - `tests/unit/i18n.test.ts` lit tous les appels `t('…')` du code. Il
+     exige leur traduction, refuse une traduction orpheline et compare les
+     paramètres. Les textes passés par une constante (« Quoi de neuf ? »,
+     signalement) y sont listés ;
+   - les tests de bout en bout tournent en français (`locale: 'fr-FR'`).
+2. **Vu rouge** : 67 clés manquantes avant le dictionnaire.
+3. **Revue adverse** : avec S49, sur l'ensemble de la traduction.

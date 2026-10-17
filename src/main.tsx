@@ -6,12 +6,16 @@ import { brasseriesOsm } from './osmFrance'
 import { ouvrirStockage } from './stockage'
 import { surveillerMiseAJour } from './miseAJour'
 import { appliquerTheme } from './theme'
+import { choisirLangue, langueDe } from './i18n'
 
 // Les réglages gardés sont lus avant le premier rendu : sinon la carte se
 // cadrerait sur les réglages par défaut, puis sauterait (S9). `ouvrirStockage`
 // ne rejette pas et répond en 2 s au plus (`DELAI_OUVERTURE_MS`) : sans
 // IndexedDB, ou s'il ne répond pas, l'application part sans rien garder.
 const DELAI_COUCHE_MS = 3000
+
+// La langue de l'interface, avant tout rendu (S48).
+choisirLangue(langueDe(navigator.languages))
 
 const racine = document.getElementById('root')
 if (racine) {
