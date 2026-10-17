@@ -95,3 +95,15 @@ brasserie, sans que sa position parte ailleurs que dans l'application de
 navigation qu'il choisit.
 
 *Pas encore de constat. Personnage ajouté au plan v2, sans entretien.*
+
+## Emma — juge S48 à S50 *(proposée le 17/10, plan v4)*
+
+Visiteuse étrangère, ne lit pas le français ; son téléphone est en anglais.
+De passage à Lyon ou en Savoie pour quelques jours.
+
+**Critère.** Trouver une brasserie où acheter ou boire près d'elle, et
+comprendre ce qui est vérifié et ce qui ne l'est pas, sans lire le français
+— les citations des sources mises à part, qui restent telles quelles.
+
+*Pas encore de constat. Personnage ajouté au plan v4, sans entretien ; ses
+besoins sont supposés, pas observés.*

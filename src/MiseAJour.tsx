@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useEffect, useState } from 'react'
 import { activerNouvelleVersion, EVENEMENT_NOUVELLE_VERSION } from './miseAJour'
 
@@ -16,9 +17,9 @@ export function MiseAJour() {
   if (!prete) return null
   return (
     <div className="bandeau-mise-a-jour" role="status" data-testid="mise-a-jour">
-      <span>Une nouvelle version de Mousse de Poche est prête.</span>
+      <span>{t('Une nouvelle version de Mousse de Poche est prête.')}</span>
       <button type="button" onClick={activerNouvelleVersion} data-testid="recharger-version">
-        Recharger
+        {t('Recharger')}
       </button>
     </div>
   )

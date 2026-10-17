@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useRef, useState } from 'react'
 import { dateDuJour, type Preferences } from './core/preferences'
 import { lireSauvegarde, reunir, TAILLE_MAX, versSauvegarde } from './core/sauvegarde'
@@ -33,19 +34,19 @@ export function Sauvegarde({
     setTimeout(() => {
       URL.revokeObjectURL(url)
     }, 60_000)
-    setEtat('Sauvegarde enregistrée dans vos téléchargements. Gardez-la, ou ouvrez-la sur votre autre appareil.')
+    setEtat(t('Sauvegarde enregistrée dans vos téléchargements. Gardez-la, ou ouvrez-la sur votre autre appareil.'))
   }
 
   const ouvrir = async (f: File) => {
     // La taille d'abord : lire 300 Mo avant de refuser figeait la page
     // (revue adverse S37).
     if (f.size > TAILLE_MAX) {
-      setEtat('Ce fichier est trop gros pour une sauvegarde (plus de 1 Mo).')
+      setEtat(t('Ce fichier est trop gros pour une sauvegarde (plus de 1 Mo).'))
       return
     }
     const lecture = lireSauvegarde(await f.text())
     if (!lecture.ok) {
-      setEtat(lecture.raison)
+      setEtat(t(lecture.raison))
       return
     }
     const { preferences, ajouts } = reunir(actuelles, lecture.preferences)
@@ -53,21 +54,19 @@ export function Sauvegarde({
     const n = ajouts.favoris + ajouts.visites + ajouts.notes
     setEtat(
       n === 0
-        ? 'Sauvegarde lue : rien de nouveau, tout était déjà sur cet appareil.'
-        : `Sauvegarde ajoutée : ${String(ajouts.favoris)} favori(s), ${String(ajouts.visites)} visite(s) et ${String(ajouts.notes)} note(s) en plus. Rien n’a été effacé ; vos réglages restent ceux de cet appareil.`,
+        ? t('Sauvegarde lue : rien de nouveau, tout était déjà sur cet appareil.')
+        : t('Sauvegarde ajoutée : {favoris} favori(s), {visites} visite(s) et {notes} note(s) en plus. Rien n’a été effacé ; vos réglages restent ceux de cet appareil.', ajouts),
     )
   }
 
   return (
     <div className="sauvegarde" data-testid="sauvegarde">
       <p className="champ-aide">
-        Changer d’appareil : enregistrez une sauvegarde (un fichier), puis ouvrez-la sur l’autre.
-        Elle s’ajoute à ce qui s’y trouve, sans rien effacer. Elle ne contient jamais votre
-        position.
+        {t('Changer d’appareil : enregistrez une sauvegarde (un fichier), puis ouvrez-la sur l’autre. Elle s’ajoute à ce qui s’y trouve, sans rien effacer. Elle ne contient jamais votre position.')}
       </p>
       <div className="depart-actions">
         <button type="button" onClick={enregistrer} data-testid="enregistrer-sauvegarde">
-          Enregistrer une sauvegarde
+          {t('Enregistrer une sauvegarde')}
         </button>
         <button
           type="button"
@@ -76,7 +75,7 @@ export function Sauvegarde({
           }}
           data-testid="ouvrir-sauvegarde"
         >
-          Ouvrir une sauvegarde
+          {t('Ouvrir une sauvegarde')}
         </button>
         <input
           ref={choix}

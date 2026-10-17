@@ -1,4 +1,5 @@
 import { TYPES_BIERE, type TypeDeBiere } from './core/bieres'
+import { t } from './i18n'
 
 interface Props {
   /** Nombre de brasseries par type, sur tout le fichier. */
@@ -21,40 +22,46 @@ interface Props {
  * renseigné (revue métier S16). La part renseignée est dite sous le menu.
  */
 export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChange }: Props) {
-  const presents = TYPES_BIERE.filter((t) => (nbParType.get(t.type) ?? 0) > 0)
+  const presents = TYPES_BIERE.filter((ty) => (nbParType.get(ty.type) ?? 0) > 0)
   if (presents.length === 0) {
     return (
       <p className="champ-aide" data-testid="type-absent">
-        Types de bière : aucun encore référencé, le filtre viendra avec la vérification des fiches.
+        {t('Types de bière : aucun encore référencé, le filtre viendra avec la vérification des fiches.')}
       </p>
     )
   }
   return (
     <label className="champ">
-      <span>Type de bière</span>
+      <span>{t('Type de bière')}</span>
       <select
         value={valeur ?? ''}
         onChange={(e) => {
-          const choisi = presents.find((t) => t.type === e.target.value)
+          const choisi = presents.find((ty) => ty.type === e.target.value)
           onChange(choisi?.type)
         }}
         data-testid="type"
       >
-        <option value="">Tous les types</option>
-        {presents.map((t) => {
-          const n = nbParType.get(t.type) ?? 0
+        <option value="">{t('Tous les types')}</option>
+                {presents.map((ty) => {
+          const n = nbParType.get(ty.type) ?? 0
+          const part = n > 1 ? t('{n} fiches renseignées', { n }) : t('{n} fiche renseignée', { n })
           return (
-            <option key={t.type} value={t.type}>
-              {t.libelle} — {t.explication} ({n} fiche{n > 1 ? 's' : ''} renseignée
-              {n > 1 ? 's' : ''})
+            <option key={ty.type} value={ty.type}>
+              {t(ty.libelle)} — {t(ty.explication)} ({part})
             </option>
           )
         })}
       </select>
       <span className="champ-aide" data-testid="type-part">
-        Bières renseignées sur {nbRenseignees} fiche
-        {nbRenseignees > 1 ? 's' : ''} sur {nbFiches} vérifiées : les autres, et celles
-        d’OpenStreetMap, n’apparaissent pas avec ce filtre.
+                {nbRenseignees > 1
+          ? t(
+              'Bières renseignées sur {n} fiches sur {total} vérifiées : les autres, et celles d’OpenStreetMap, n’apparaissent pas avec ce filtre.',
+              { n: nbRenseignees, total: nbFiches },
+            )
+          : t(
+              'Bières renseignées sur {n} fiche sur {total} vérifiées : les autres, et celles d’OpenStreetMap, n’apparaissent pas avec ce filtre.',
+              { n: nbRenseignees, total: nbFiches },
+            )}
       </span>
     </label>
   )

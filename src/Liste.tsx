@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useEffect, useRef, useState } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
@@ -9,7 +10,7 @@ import {
   libelleVerification,
   SENS_CONFIANCE,
 } from './core/fiche'
-import { estDeOsm, noteDeLigne, siteOsm } from './core/osm-france'
+import { estDeOsm, noteDeFiche, noteDeLigne, siteOsm } from './core/osm-france'
 import { lienDeFiche } from './core/partage'
 import { NOTE_MAX } from './core/preferences'
 import type { Resultat } from './core/recherche'
@@ -46,6 +47,10 @@ interface Props {
  */
 export const AIDE_SIGNALEMENT = `Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit). ${SANS_COMPTE} Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris. ${SUITE_SIGNALEMENT}`
 
+/** La même aide, dans la langue de l'interface (S49). */
+const aideSignalement = () =>
+  `${t('Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit).')} ${t(SANS_COMPTE)} ${t('Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris.')} ${t(SUITE_SIGNALEMENT)}`
+
 const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`
 
 /**
@@ -80,10 +85,10 @@ function BoutonPartager({ nom }: { nom: string }) {
   return (
     <>
       <button type="button" onClick={partager} data-testid="bouton-partager">
-        Partager
+        {t('Partager')}
       </button>
       <span className="fiche-aide" role="status" data-testid="partage-etat">
-        {etat === 'copie' ? 'Lien copié.' : etat === 'echec' ? 'Copie impossible ici.' : ''}
+        {etat === 'copie' ? t('Lien copié.') : etat === 'echec' ? t('Copie impossible ici.') : ''}
       </span>
     </>
   )
@@ -123,19 +128,19 @@ function Fiche({
           s'annonçaient « Retirer…, activé », contradictoire (revue code S9).
         */}
         <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
-          {favori ? '★ Retirer de mes favoris' : '☆ Ajouter à mes favoris'}
+          {favori ? t('★ Retirer de mes favoris') : t('☆ Ajouter à mes favoris')}
         </button>
         {/* Mon carnet (S35) : le jour seulement, gardé sur l'appareil. */}
         <button type="button" onClick={onBasculerVisite} data-testid="bouton-visite">
           {visite === undefined
-            ? 'J’y suis allé·e'
-            : `✓ Visitée le ${libelleVerification(visite)} — retirer du carnet`}
+            ? t('J’y suis allé·e')
+            : t('✓ Visitée le {date} — retirer du carnet', { date: libelleVerification(visite) })}
         </button>
         <BoutonPartager nom={brasserie.n} />
       </div>
       {/* Ma note (S36) : pour soi, gardée à la saisie, jamais envoyée. */}
       <label className="champ fiche-note">
-        <span>Ma note (sur cet appareil seulement)</span>
+        <span>{t('Ma note (sur cet appareil seulement)')}</span>
         <textarea
           value={note}
           maxLength={NOTE_MAX}
@@ -143,7 +148,7 @@ function Fiche({
           onChange={(e) => {
             onEcrireNote(e.target.value)
           }}
-          placeholder="ex. la blanche était excellente"
+          placeholder={t('ex. la blanche était excellente')}
           data-testid="ma-note"
         />
       </label>
@@ -157,29 +162,29 @@ function Fiche({
         {/* La note entière d'une fiche OSM, que la ligne abrège (S25). */}
         {estDeOsm(brasserie) && (
           <>
-            <dt>Pourquoi « À confirmer »</dt>
-            <dd data-testid="fiche-note-osm">{brasserie.note}</dd>
+            <dt>{t('Pourquoi « À confirmer »')}</dt>
+            <dd data-testid="fiche-note-osm">{noteDeFiche(brasserie)}</dd>
           </>
         )}
 
-        <dt>Adresse</dt>
+        <dt>{t('Adresse')}</dt>
         <dd>{brasserie.addr}</dd>
 
         {siteOsm(brasserie) !== undefined && (
           <>
-            <dt>Site indiqué par OpenStreetMap</dt>
+            <dt>{t('Site indiqué par OpenStreetMap')}</dt>
             <dd data-testid="fiche-site-osm">
               <a href={siteOsm(brasserie)} target="_blank" rel="noopener noreferrer">
-                {hoteDeSource(siteOsm(brasserie) ?? '') ?? 'site'}
+                {hoteDeSource(siteOsm(brasserie) ?? '') ?? t('site')}
               </a>
             </dd>
           </>
         )}
 
-        <dt>Source</dt>
+        <dt>{t('Source')}</dt>
         <dd data-testid="fiche-source">
           {hote === null ? (
-            'Aucune source lue pour cette brasserie.'
+            t('Aucune source lue pour cette brasserie.')
           ) : (
             <a href={brasserie.src} target="_blank" rel="noopener noreferrer">
               {hote}
@@ -187,68 +192,68 @@ function Fiche({
           )}
         </dd>
 
-        <dt>Vérifiée le</dt>
+        <dt>{t('Vérifiée le')}</dt>
         <dd data-testid="fiche-verification">{libelleVerification(brasserie.verifieLe)}</dd>
 
         {brasserie.fermee !== undefined && (
           <>
-            <dt>Fermée</dt>
+            <dt>{t('Fermée')}</dt>
             <dd data-testid="fiche-fermee">
-              Selon{' '}
+              {t('Selon')}{' '}
               <a href={brasserie.fermee.source} target="_blank" rel="noopener noreferrer">
-                {hoteDeSource(brasserie.fermee.source) ?? 'la source'}
+                {hoteDeSource(brasserie.fermee.source) ?? t('la source')}
               </a>
-              , lue le {libelleVerification(brasserie.fermee.verifieLe)}.
+              {t(', lue le {date}.', { date: libelleVerification(brasserie.fermee.verifieLe) })}
             </dd>
           </>
         )}
 
-        <dt>Confiance</dt>
+        <dt>{t('Confiance')}</dt>
         <dd data-testid="fiche-confiance">
           {libelleConfiance(brasserie.conf)}
           {brasserie.conf === 'faible' && (
             <span className="fiche-aide" data-testid="fiche-verifier">
-              Vérifiez avant d’y aller : appelez, ou lisez la source.
+              {t('Vérifiez avant d’y aller : appelez, ou lisez la source.')}
             </span>
           )}
-          <span className="fiche-aide">{SENS_CONFIANCE[brasserie.conf]}</span>
+          <span className="fiche-aide">{t(SENS_CONFIANCE[brasserie.conf])}</span>
           <span className="fiche-aide" data-testid="fiche-avertissement">
             {avertissementHoraires(brasserie)}
           </span>
         </dd>
 
-        <dt>Position sur la carte</dt>
+        <dt>{t('Position sur la carte')}</dt>
         <dd data-testid="fiche-precision">{libellePrecision(brasserie.coordPrecision)}</dd>
       </dl>
       <p className="fiche-signaler" data-testid="fiche-signaler">
         <a href={lienSignalement(brasserie)} target="_blank" rel="noopener noreferrer">
-          Signaler une erreur sur cette fiche
+          {t('Signaler une erreur sur cette fiche')}
         </a>
-        <span className="fiche-aide">{AIDE_SIGNALEMENT}</span>
+        <span className="fiche-aide">{aideSignalement()}</span>
       </p>
       {/* Une fiche OSM se corrige d'abord à la source, pour tout le monde
           (revue persona S25 ; idée vue sur OpenBeerMap, veille S27). */}
       {estDeOsm(brasserie) && (
         <p className="fiche-aide" data-testid="corriger-osm">
-          Elle vient d’OpenStreetMap : vous pouvez aussi la corriger à la source, sur{' '}
+          {t('Elle vient d’OpenStreetMap : vous pouvez aussi la corriger à la source, sur')}{' '}
           <a href={brasserie.src} target="_blank" rel="noopener noreferrer">
             openstreetmap.org
           </a>{' '}
-          (compte OpenStreetMap gratuit).
+          {t('(compte OpenStreetMap gratuit).')}
         </p>
       )}
       {/* L'affichette de comptoir (S38) : pour la brasserie elle-même. */}
       <p className="fiche-aide">
         <button type="button" className="bouton-lien" onClick={onImprimer} data-testid="imprimer-affichette">
-          Imprimer une affichette avec QR code
+          {t('Imprimer une affichette avec QR code')}
         </button>{' '}
-        Pour le comptoir de la brasserie : ce que dit cette fiche, et un QR code qui l’ouvre.
+        {t('Pour le comptoir de la brasserie : ce que dit cette fiche, et un QR code qui l’ouvre.')}
       </p>
       {/* La fiche dépasse un écran : refermer sans remonter jusqu'à sa ligne
           (revue UI/UX du 16/10, 1 073 px pour 839). */}
       <div className="depart-actions fiche-refermer">
         <button type="button" onClick={onRefermer} data-testid="refermer-fiche">
-          Refermer la fiche
+          {t('Refermer la fiche')}
         </button>
       </div>
     </div>
@@ -289,7 +294,7 @@ export function Liste({
     <ol
       ref={liste}
       className="liste"
-      aria-label="Brasseries, de la plus proche à la plus lointaine"
+      aria-label={t('Brasseries, de la plus proche à la plus lointaine')}
       data-testid="liste"
     >
       {resultats.map(({ brasserie, distanceKm }) => {
@@ -314,21 +319,21 @@ export function Liste({
                   <span className="ligne-favori" data-testid="marque-favori">
                     {' '}
                     <span aria-hidden="true">★</span>
-                    <span className="lecteur-seul">(favori)</span>
+                    <span className="lecteur-seul">{t('(favori)')}</span>
                   </span>
                 )}
                 {notes.has(brasserie.n) && (
                   <span className="ligne-visite" data-testid="marque-note">
                     {' '}
                     <span aria-hidden="true">✎</span>
-                    <span className="lecteur-seul">(avec ma note)</span>
+                    <span className="lecteur-seul">{t('(avec ma note)')}</span>
                   </span>
                 )}
                 {visite !== undefined && (
                   <span className="ligne-visite" data-testid="marque-visite">
                     {' '}
                     <span aria-hidden="true">✓</span>
-                    <span className="lecteur-seul">(visitée le {libelleVerification(visite)})</span>
+                    <span className="lecteur-seul">{t('(visitée le {date})', { date: libelleVerification(visite) })}</span>
                   </span>
                 )}
               </span>
@@ -342,7 +347,7 @@ export function Liste({
               <span className="lecteur-seul">, </span>
               <span className={`badge cat-${String(brasserie.cat)}`}>
                 <span className="pastille" aria-hidden="true" />
-                {CATEGORIES[brasserie.cat]}
+                {t(CATEGORIES[brasserie.cat])}
                 {/* Distincte du vérifié sans ouvrir la fiche (revue persona S25). */}
                 {estDeOsm(brasserie) && (
                   <span className="badge-osm" data-testid="badge-osm">
@@ -354,14 +359,14 @@ export function Liste({
                 {brasserie.conf === 'faible' && (
                   <span className="badge-verifier" data-testid="badge-verifier">
                     {' '}
-                    Vérifiez avant d’y aller.
+                    {t('Vérifiez avant d’y aller.')}
                   </span>
                 )}
                 {/* Décision #35 : une fiche fermée ne paraît que cherchée par son nom. */}
                 {brasserie.fermee !== undefined && (
                   <span className="badge-fermee" data-testid="badge-fermee">
                     {' '}
-                    · fermée
+                    · {t('fermée')}
                   </span>
                 )}
               </span>
@@ -376,7 +381,7 @@ export function Liste({
               */}
               <span className="ligne-note">
                 <span className="ligne-note-titre">
-                  {brasserie.cat === 0 ? 'Pourquoi : ' : 'Ce que dit la source : '}
+                  {brasserie.cat === 0 ? t('Pourquoi : ') : t('Ce que dit la source : ')}
                 </span>
                 {noteDeLigne(brasserie)}
               </span>

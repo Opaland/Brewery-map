@@ -34,7 +34,9 @@ export default defineConfig({
       ? { launchOptions: { executablePath: process.env.PW_CHROMIUM_PATH } }
       : {}),
   },
-  projects: [{ name: 'mobile', use: { ...devices['Pixel 7'] } }],
+  // En français : le profil Pixel 7 parle anglais par défaut, et l'interface
+  // suivra la langue du navigateur dès S50 (les tests anglais la posent).
+  projects: [{ name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } }],
   ...(CIBLE === undefined
     ? {
         webServer: {

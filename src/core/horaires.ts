@@ -1,3 +1,4 @@
+import { langueCourante, t } from '../i18n'
 import type { Brasserie } from './schema'
 
 export type Horaires = NonNullable<Brasserie['horaires']>
@@ -39,18 +40,20 @@ export function ouvertLe(
 
 /** « 15:00 » → « 15 h », « 09:30 » → « 9 h 30 », « 00:00 » → « minuit ». */
 export function formaterHeure(hhmm: string): string {
-  if (hhmm === '00:00') return 'minuit'
+    if (hhmm === '00:00') return t('minuit')
+  // En anglais, l'heure sur 24 h telle qu'elle est écrite : « 15:00 ».
+  if (langueCourante() === 'en') return hhmm
   const [h = '0', m = '00'] = hhmm.split(':')
   return m === '00' ? `${String(Number(h))} h` : `${String(Number(h))} h ${m}`
 }
 
 export function formaterCreneaux(jour: Jour): string {
-  if (jour === undefined) return 'non précisé'
-  if (jour === 'heures-non-precisees') return 'ouvert, heures non précisées'
-  if (jour.length === 0) return 'fermé'
+  if (jour === undefined) return t('non précisé')
+  if (jour === 'heures-non-precisees') return t('ouvert, heures non précisées')
+  if (jour.length === 0) return t('fermé')
   return jour
     .map(([d, f]) => {
-      const lendemain = f <= d && f !== '00:00' ? ' (le lendemain)' : ''
+      const lendemain = f <= d && f !== '00:00' ? t(' (le lendemain)') : ''
       return `${formaterHeure(d)} – ${formaterHeure(f)}${lendemain}`
     })
     .join(', ')

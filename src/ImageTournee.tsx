@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useState } from 'react'
 import { planTournee, type EtapeImage } from './core/image-tournee'
 
@@ -25,20 +26,20 @@ async function dessiner(etapes: readonly EtapeImage[]): Promise<Blob> {
     document.fonts.load("700 56px 'Fraunces Variable'"),
     document.fonts.load("400 38px 'Inter Variable'"),
   ]).catch(() => undefined)
-  for (const t of plan.textes) {
+  for (const ligne of plan.textes) {
     const famille =
-      t.role === 'lieu' || t.role === 'adresse'
+      ligne.role === 'lieu' || ligne.role === 'adresse'
         ? "'Inter Variable', Arial, sans-serif"
         : "'Fraunces Variable', Georgia, serif"
     // Mesuré, pas compté : la taille baisse jusqu'à tenir dans la largeur.
-    let taille = t.taille
-    ctx.font = `${t.gras ? '700' : '400'} ${String(taille)}px ${famille}`
-    while (ctx.measureText(t.texte).width > t.largeurMax && taille > 20) {
+    let taille = ligne.taille
+    ctx.font = `${ligne.gras ? '700' : '400'} ${String(taille)}px ${famille}`
+    while (ctx.measureText(ligne.texte).width > ligne.largeurMax && taille > 20) {
       taille -= 2
-      ctx.font = `${t.gras ? '700' : '400'} ${String(taille)}px ${famille}`
+      ctx.font = `${ligne.gras ? '700' : '400'} ${String(taille)}px ${famille}`
     }
-    ctx.fillStyle = t.role === 'lieu' || t.role === 'adresse' ? '#f6e6d6' : '#ffffff'
-    ctx.fillText(t.texte, t.x, t.y, t.largeurMax)
+    ctx.fillStyle = ligne.role === 'lieu' || ligne.role === 'adresse' ? '#f6e6d6' : '#ffffff'
+    ctx.fillText(ligne.texte, ligne.x, ligne.y, ligne.largeurMax)
   }
   return new Promise((resolve, reject) => {
     canvas.toBlob((b) => {
@@ -71,7 +72,7 @@ export function ImageTournee({ etapes }: { etapes: readonly EtapeImage[] }) {
       const fichier = new File([await dessiner(etapes)], 'tournee.png', { type: 'image/png' })
       if (typeof navigator.canShare === 'function' && navigator.canShare({ files: [fichier] })) {
         try {
-          await navigator.share({ files: [fichier], title: 'Ma tournée — Mousse de Poche' })
+          await navigator.share({ files: [fichier], title: t('Ma tournée — Mousse de Poche') })
           setEtat('partagee')
           return
         } catch (e) {
@@ -99,15 +100,15 @@ export function ImageTournee({ etapes }: { etapes: readonly EtapeImage[] }) {
         }}
         data-testid="tournee-image"
       >
-        {enCours ? 'Image en préparation…' : 'Partager en image'}
+        {enCours ? t('Image en préparation…') : t('Partager en image')}
       </button>
       <span className="champ-aide" role="status" data-testid="tournee-image-etat">
         {etat === 'partagee'
-          ? 'Image remise au menu de partage.'
+          ? t('Image remise au menu de partage.')
           : etat === 'telecharge'
-            ? 'Image enregistrée dans vos téléchargements.'
+            ? t('Image enregistrée dans vos téléchargements.')
             : etat === 'echec'
-              ? 'L’image n’a pas pu être créée ici.'
+              ? t('L’image n’a pas pu être créée ici.')
               : ''}
       </span>
     </>

@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 import type { TypeDeBiere } from './bieres'
 import { ORDRE_CATEGORIES } from './categories'
 import type { Categorie } from './schema'
@@ -32,8 +33,8 @@ export function filtresActifs(f: EtatFiltres): string[] {
 
 export function resumeDesFiltres(f: EtatFiltres, nbFavoris: number): string {
   const n = filtresActifs(f).length
-  const morceaux = ['Plus de filtres et mes favoris']
-  if (n > 0) morceaux.push(n === 1 ? '1 filtre actif' : `${String(n)} filtres actifs`)
-  if (nbFavoris > 0) morceaux.push(nbFavoris === 1 ? '1 favori' : `${String(nbFavoris)} favoris`)
+    const morceaux = [t('Plus de filtres et mes favoris')]
+  if (n > 0) morceaux.push(n === 1 ? t('1 filtre actif') : t('{n} filtres actifs', { n }))
+  if (nbFavoris > 0) morceaux.push(nbFavoris === 1 ? t('1 favori') : t('{n} favoris', { n: nbFavoris }))
   return morceaux.join(' · ')
 }

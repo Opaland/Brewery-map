@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 import type { Brasserie } from './schema'
 
 /**
@@ -55,7 +56,7 @@ export function liensItineraire(b: Brasserie, plateforme: Plateforme = 'autre'):
   const point = d.mode === 'adresse' ? '' : `${String(d.lat)},${String(d.lon)}`
   const q = d.mode === 'adresse' ? encodeURIComponent(d.adresse) : point
   const google = { appli: 'Google Maps', url: `https://www.google.com/maps/dir/?api=1&destination=${q}` }
-  const apple = { appli: 'Plans (Apple)', url: `https://maps.apple.com/?daddr=${q}` }
+  const apple = { appli: t('Plans (Apple)'), url: `https://maps.apple.com/?daddr=${q}` }
   const waze = {
     appli: 'Waze',
     url:
@@ -67,6 +68,6 @@ export function liensItineraire(b: Brasserie, plateforme: Plateforme = 'autre'):
   // libellé « (nom) » : un nom à parenthèses le cassait (revue code S19).
   const geo = d.mode === 'adresse' ? `geo:0,0?q=${q}` : `geo:${point}?q=${point}`
   if (plateforme === 'ios') return [apple, google, waze]
-  if (plateforme === 'android') return [google, waze, { appli: 'Autre application', url: geo }]
-  return [google, apple, waze, { appli: 'Autre application (Android)', url: geo }]
+  if (plateforme === 'android') return [google, waze, { appli: t('Autre application'), url: geo }]
+  return [google, apple, waze, { appli: t('Autre application (Android)'), url: geo }]
 }

@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import type { Point } from './core/distance'
 
 /**
@@ -84,5 +85,8 @@ export async function localiser(geo: Geolocation | undefined): Promise<Localisat
 export function avertissementPrecision(precisionM: number): string | null {
   if (precisionM <= 1000) return null
   const km = Math.round(precisionM / 1000)
-  return `Position approximative : le téléphone la donne à environ ${String(km)} km près. Les distances et la carte peuvent être décalées d’autant.`
+    return t(
+    'Position approximative : le téléphone la donne à environ {km} km près. Les distances et la carte peuvent être décalées d’autant.',
+    { km },
+  )
 }

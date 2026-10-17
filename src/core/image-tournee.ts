@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 /**
  * L'image de « Ma tournée » (S34), décrite comme un plan de dessin : une
  * liste de textes placés. Le dessin sur un canvas est dans `ImageTournee`
@@ -54,7 +55,7 @@ export function couper(texte: string, max: number): string {
 export function planTournee(etapes: readonly EtapeImage[]): PlanImage {
   const max = (x: number) => LARGEUR - MARGE - x
   const textes: TexteImage[] = [
-    { texte: 'Ma tournée', x: MARGE, y: 200, taille: 88, gras: true, largeurMax: max(MARGE), role: 'titre' },
+    { texte: t('Ma tournée'), x: MARGE, y: 200, taille: 88, gras: true, largeurMax: max(MARGE), role: 'titre' },
   ]
   let y = 360
   etapes.forEach((e, i) => {

@@ -29,6 +29,7 @@ import { resumeDesFiltres, type EtatFiltres } from './core/filtres'
 import { libelleVerification } from './core/fiche'
 import { DONNEES, NOUVEAUTES } from './core/nouveautes'
 import { lireRaccourci } from './core/raccourcis'
+import { t } from './i18n'
 import { ficheDuLien } from './core/partage'
 import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
@@ -77,34 +78,36 @@ function texteDuCompte(
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
   if (n === 0 && pasVisitees) {
-    return 'Toutes celles qui correspondent sont dans votre carnet. Décochez « Seulement les brasseries pas encore visitées » pour les revoir.'
+    return t('Toutes celles qui correspondent sont dans votre carnet. Décochez « Seulement les brasseries pas encore visitées » pour les revoir.')
   }
   // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon ;
   // un département choisi (S27) le dit.
   const ou =
     departement !== undefined
-      ? `dans le département ${libelleDepartement(departement)}, distances depuis ${origine}`
+      ? t('dans le département {dep}, distances depuis {origine}', { dep: libelleDepartement(departement), origine })
       : partout
-        ? `toutes distances, comptées depuis ${origine}`
-        : `à moins de ${String(rayonKm)} km de ${origine}`
+        ? t('toutes distances, comptées depuis {origine}', { origine })
+        : t('à moins de {km} km de {origine}', { km: rayonKm, origine })
   if (!favorisSeulement) {
     // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
     // disait pas que le fichier s'arrête loin de là (S21).
     // Un département choisi qui ne garde rien dit que ce sont les filtres
     // (revue adverse S31 : le menu annonce « (0) », le compte ne disait pas pourquoi).
     if (n === 0 && departement !== undefined) {
-      return `Aucune brasserie dans le département ${libelleDepartement(departement)} avec ces filtres : décochez-en dans « Plus de filtres ».`
+      return t('Aucune brasserie dans le département {dep} avec ces filtres : décochez-en dans « Plus de filtres ».', {
+        dep: libelleDepartement(departement),
+      })
     }
-    if (n === 0) return partout ? 'Aucune brasserie ne correspond.' : `Aucune brasserie ${ou}.`
-    return `${String(n)} brasserie${n > 1 ? 's' : ''} ${ou}`
+    if (n === 0) return partout ? t('Aucune brasserie ne correspond.') : t('Aucune brasserie {ou}.', { ou })
+    return n > 1 ? t('{n} brasseries {ou}', { n, ou }) : t('{n} brasserie {ou}', { n, ou })
   }
   if (nbFavoris === 0) {
-    return 'Vous n’avez pas encore de favori. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.'
+    return t('Vous n’avez pas encore de favori. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.')
   }
   if (n === 0) {
-    return 'Aucun de vos favoris ne correspond. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.'
+    return t('Aucun de vos favoris ne correspond. Décochez « Afficher seulement mes favoris » pour revoir toutes les brasseries.')
   }
-  return `Seulement vos favoris : ${String(n)} ${ou}`
+  return t('Seulement vos favoris : {n} {ou}', { n, ou })
 }
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
@@ -456,7 +459,7 @@ export function App({
   const basculerUnFavori = (nom: string) => {
     const retrait = favoris.includes(nom)
     setFavoris((avant) => basculerFavori(avant, nom))
-    setAnnonce(retrait ? `« ${nom} » retirée de vos favoris.` : `« ${nom} » ajoutée à vos favoris.`)
+    setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }))
     // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
     // focus dedans : on le pose sur le compte, qui dit ce qui s'est passé.
     if (retrait && favorisSeulement) compte.current?.focus()
@@ -497,17 +500,17 @@ export function App({
       .then(() => {
         remettreAZero()
         canal.current?.postMessage({ type: 'effacer' })
-        setAnnonce('Favoris, carnet, notes et réglages effacés de cet appareil.')
+        setAnnonce(t('Favoris, carnet, notes et réglages effacés de cet appareil.'))
       })
       .catch(() => {
-        setAnnonce('L’effacement a échoué : rien n’a changé. Réessayez.')
+        setAnnonce(t('L’effacement a échoué : rien n’a changé. Réessayez.'))
       })
   }
 
   const basculerUneVisite = (nom: string) => {
     const retrait = visites.some((v) => v.nom === nom)
     setVisites((avant) => basculerVisite(avant, nom, dateDuJour(new Date())))
-    setAnnonce(retrait ? `« ${nom} » retirée de votre carnet.` : `« ${nom} » notée comme visitée.`)
+    setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }))
   }
 
   const retirerOrphelins = () => {
@@ -557,17 +560,14 @@ export function App({
           </svg>
           <h1>Mousse de Poche</h1>
         </div>
-        <p className="sous-titre">
-          Les brasseries artisanales autour de vous, et ce qu’on peut y faire.
-        </p>
+        <p className="sous-titre">{t('Les brasseries artisanales autour de vous, et ce qu’on peut y faire.')}</p>
         <Installer />
       </header>
 
       <MiseAJour />
       {!enLigne && (
         <p className="bandeau-hors-ligne" role="status" data-testid="hors-ligne">
-          Hors connexion : toutes les fiches restent consultables. La carte n’affiche que les
-          zones déjà vues.
+          {t('Hors connexion : toutes les fiches restent consultables. La carte n’affiche que les zones déjà vues.')}
         </p>
       )}
 
@@ -576,7 +576,7 @@ export function App({
         {/* Titres pour naviguer au lecteur d'écran, invisibles à l'œil : la
             page n'en avait qu'un, le h1 (revue Inès S18). */}
         <h2 id="titre-filtres" className="lecteur-seul">
-          Rechercher et filtrer
+          {t('Rechercher et filtrer')}
         </h2>
         <PointDeDepart
           origine={origine}
@@ -588,14 +588,14 @@ export function App({
         <label className="champ">
           {/* « Chercher une brasserie » : à côté du champ de départ, « Nom ou
               commune » se confondait avec lui (revue globale S22). */}
-          <span>Chercher une brasserie (nom ou commune)</span>
+          <span>{t('Chercher une brasserie (nom ou commune)')}</span>
           <input
             type="search"
             value={texte}
             onChange={(e) => {
               setTexte(e.target.value)
             }}
-            placeholder="ex. Lyon, Oullins, Ninkasi…"
+            placeholder={t('ex. Lyon, Oullins, Ninkasi…')}
             data-testid="recherche"
           />
         </label>
@@ -604,7 +604,7 @@ export function App({
             départ (revue S27, fait en S31). */}
         {lienPartage && ficheOuverte !== undefined && texte === ficheOuverte && (
           <div className="champ-aide" data-testid="lien-partage-aide">
-            <p>Fiche ouverte depuis un lien partagé.</p>
+            <p>{t('Fiche ouverte depuis un lien partagé.')}</p>
             <div className="depart-actions">
               <button
                 type="button"
@@ -621,7 +621,7 @@ export function App({
                 }}
                 data-testid="effacer-recherche"
               >
-                Voir les brasseries autour du départ
+                {t('Voir les brasseries autour du départ')}
               </button>
             </div>
           </div>
@@ -629,7 +629,7 @@ export function App({
 
         <label className="champ">
           <span>
-            Distance maximale depuis {libelleOrigine(origine)} : <strong>{rayonKm} km</strong>
+            {t('Distance maximale depuis {origine} :', { origine: libelleOrigine(origine) })} <strong>{rayonKm} km</strong>
           </span>
           <input
             type="range"
@@ -662,7 +662,7 @@ export function App({
             {/* Parcourir un département (S27 ; idée vue sur biere-tourisme.fr) :
                 découvrir une région sans donner sa position. */}
             <label className="champ">
-              <span>Ou parcourir un département</span>
+              <span>{t('Ou parcourir un département')}</span>
               <select
                 value={departement ?? ''}
                 onChange={(e) => {
@@ -670,7 +670,7 @@ export function App({
                 }}
                 data-testid="departement"
               >
-                <option value="">Non : autour du point de départ</option>
+                <option value="">{t('Non : autour du point de départ')}</option>
                 {[...parDepartement.entries()]
                   .sort(([a], [b]) => a.localeCompare(b))
                   .map(([code]) => (
@@ -682,7 +682,7 @@ export function App({
             </label>
 
             <fieldset className="categories">
-              <legend>Ce qu’on peut y faire</legend>
+              <legend>{t('Ce qu’on peut y faire')}</legend>
               {ORDRE_CATEGORIES.map((cat) => (
                 <label key={cat} className={`case cat-${String(cat)}`}>
                   <input
@@ -694,7 +694,7 @@ export function App({
                     data-testid={`categorie-${String(cat)}`}
                   />
                   <span className="pastille" aria-hidden="true" />
-                  {CATEGORIES[cat]}
+                  {t(CATEGORIES[cat])}
                 </label>
               ))}
               {osm.etat === 'pret' && (
@@ -707,8 +707,7 @@ export function App({
                     }}
                     data-testid="avec-osm"
                   />
-                  Inclure les {osm.brasseries.length} brasseries repérées sur OpenStreetMap (non
-                  vérifiées)
+                  {t('Inclure les {n} brasseries repérées sur OpenStreetMap (non vérifiées)', { n: osm.brasseries.length })}
                 </label>
               )}
             </fieldset>
@@ -760,20 +759,18 @@ export function App({
           {(() => {
             const p = plusProche(cherchees, origine.point)
             return p === undefined
-              ? ''
-              : `La plus proche : ${p.brasserie.n} (${p.brasserie.c}), à ${formaterDistance(p.distanceKm)}. `
+              ? '' : `${t('La plus proche : {nom} ({commune}), à {distance}.', { nom: p.brasserie.n, commune: p.brasserie.c, distance: formaterDistance(p.distanceKm) })} `
           })()}
-          Les fiches vérifiées couvrent {DEPARTEMENTS.length} départements : {DEPARTEMENTS.join(', ')}
+          {t('Les fiches vérifiées couvrent {n} départements : {liste}', { n: DEPARTEMENTS.length, liste: DEPARTEMENTS.join(', ') })}
           {osm.etat === 'pret'
-            ? ` ; ailleurs, ${String(osm.brasseries.length)} brasseries repérées sur OpenStreetMap, à confirmer.`
+            ? t(' ; ailleurs, {n} brasseries repérées sur OpenStreetMap, à confirmer.', { n: osm.brasseries.length })
             : '.'}
         </p>
       )}
       {osm.etat === 'echec' && (
         <div className="champ-aide" role="status" data-testid="osm-absente">
           <p>
-            Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les
-            fiches vérifiées, dans {DEPARTEMENTS.length} départements, sont là.
+            {t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: DEPARTEMENTS.length })}
           </p>
           <div className="depart-actions">
             <button
@@ -782,22 +779,26 @@ export function App({
                 window.location.reload()
               }}
             >
-              Recharger la page
+              {t('Recharger la page')}
             </button>
           </div>
         </div>
       )}
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
-          {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
-          par la distance ou les filtres : {listeCourte(caches)}.
+          {caches.length === 1
+            ? t('Un favori est caché par la distance ou les filtres : {liste}.', { liste: listeCourte(caches) })
+            : t('{n} favoris sont cachés par la distance ou les filtres : {liste}.', {
+                n: caches.length,
+                liste: listeCourte(caches),
+              })}
         </p>
       )}
       {fermes.length > 0 && (
         <p className="champ-aide" data-testid="favoris-fermes">
           {fermes.length === 1
-            ? `Un favori est fermé : ${fermes[0]}. Il ne paraît plus dans la liste autour du départ ni dans la tournée ; son nom tapé dans la recherche rouvre sa fiche.`
-            : `${String(fermes.length)} favoris sont fermés : ${listeCourte(fermes)}. Ils ne paraissent plus dans la liste autour du départ ni dans la tournée ; leur nom tapé dans la recherche rouvre leur fiche.`}
+            ? t('Un favori est fermé : {nom}. Il ne paraît plus dans la liste autour du départ ni dans la tournée ; son nom tapé dans la recherche rouvre sa fiche.', { nom: fermes[0] ?? '' })
+            : t('{n} favoris sont fermés : {liste}. Ils ne paraissent plus dans la liste autour du départ ni dans la tournée ; leur nom tapé dans la recherche rouvre leur fiche.', { n: fermes.length, liste: listeCourte(fermes) })}
         </p>
       )}
 
@@ -808,7 +809,7 @@ export function App({
       <div className="vues">
         <div className="liste-conteneur">
           <h2 id="titre-liste" className="lecteur-seul" tabIndex={-1}>
-            Brasseries
+            {t('Brasseries')}
           </h2>
           {/* Au clavier, la carte est après toute la liste : un lien
               d'évitement, peint au focus, y mène tout de suite. */}
@@ -820,7 +821,7 @@ export function App({
               allerA('titre-carte')
             }}
           >
-            Aller à la carte
+            {t('Aller à la carte')}
           </a>
           <Liste
             resultats={resultats}
@@ -845,7 +846,7 @@ export function App({
         </div>
         <div className="carte-conteneur">
           <h2 id="titre-carte" className="lecteur-seul" tabIndex={-1} ref={titreCarte}>
-            Carte
+            {t('Carte')}
           </h2>
           <CarteDifferee
             resultats={resultats}
@@ -875,7 +876,7 @@ export function App({
             departement,
             pasVisitees,
           )}
-          {pasVisitees && resultats.length > 0 ? ' (pas encore visitées)' : ''}
+          {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
         </p>
         {resultats.length > 0 && (
           <button
@@ -886,7 +887,7 @@ export function App({
             }}
             data-testid="vers-carte"
           >
-            {carteEnVue ? 'Liste' : 'Carte'}
+            {carteEnVue ? t('Liste') : t('Carte')}
           </button>
         )}
       </div>
@@ -906,12 +907,12 @@ export function App({
       <footer className="pied">
         {/* Le thème au choix (S45) : gardé avec les réglages. */}
         <fieldset className="theme-choix" data-testid="theme">
-          <legend>Apparence</legend>
+          <legend>{t('Apparence')}</legend>
           {(
             [
-              ['auto', 'Comme le téléphone'],
-              ['clair', 'Claire'],
-              ['sombre', 'Sombre'],
+              ['auto', t('Comme le téléphone')],
+              ['clair', t('Claire')],
+              ['sombre', t('Sombre')],
             ] as const
           ).map(([valeur, libelle]) => (
             <label key={valeur} className="case">
@@ -930,53 +931,49 @@ export function App({
         </fieldset>
         {/* « Quoi de neuf ? » (S44) : l'application, et les fiches. */}
         <details className="quoi-de-neuf" data-testid="quoi-de-neuf">
-          <summary>Quoi de neuf ?</summary>
-          <p>{DONNEES.phrase}</p>
+          <summary>{t('Quoi de neuf ?')}</summary>
+          <p>{t(DONNEES.phrase)}</p>
           <ul>
             {NOUVEAUTES.map((n) => (
               <li key={n.texte}>
-                <time dateTime={n.date}>{libelleVerification(n.date)}</time> — {n.texte}
+                <time dateTime={n.date}>{libelleVerification(n.date)}</time> — {t(n.texte)}
               </li>
             ))}
           </ul>
         </details>
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
-            ? 'Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.'
-            : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}
+            ? t('Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.')
+            : t('Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.')}
         </p>
         <p>
-          Distances à vol d’oiseau. Les fiches vérifiées sont souvent placées au centre de
-          leur commune (à environ 2 km près) ; celles d’OpenStreetMap, au point de la carte.
+          {t('Distances à vol d’oiseau. Les fiches vérifiées sont souvent placées au centre de leur commune (à environ 2 km près) ; celles d’OpenStreetMap, au point de la carte.')}
         </p>
         <p data-testid="sources-osm">
-          Brasseries hors des fiches vérifiées : ©{' '}
-          <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>, licence
-          ODbL
-          {osm.extrait === '' ? '' : `, extrait du ${osm.extrait.slice(0, 10)}`} — repérées comme
-          brasseries, rien d’autre n’est vérifié.
+          {t('Brasseries hors des fiches vérifiées :')} ©{' '}
+          <a href="https://www.openstreetmap.org/copyright">{t('contributeurs OpenStreetMap')}</a>, {t('licence ODbL')}
+          {osm.extrait === '' ? '' : t(', extrait du {date}', { date: osm.extrait.slice(0, 10) })}{' '}
+          {t('— repérées comme brasseries, rien d’autre n’est vérifié.')}
         </p>
         <p data-testid="sources-communes">
-          Communes : Code officiel géographique de l’INSEE (Licence ouverte, via le paquet
-          d’Etalab), points tirés de Wikidata (CC0).
+          {t('Communes : Code officiel géographique de l’INSEE (Licence ouverte, via le paquet d’Etalab), points tirés de Wikidata (CC0).')}
         </p>
         <p data-testid="mention-alcool">
-          L’abus d’alcool est dangereux pour la santé, à consommer avec modération.
+          {t('L’abus d’alcool est dangereux pour la santé, à consommer avec modération.')}
         </p>
         <p data-testid="signaler-erreur-aide">
-          Une erreur sur une fiche ? Ouvrez-la dans la liste, puis « Signaler une erreur sur
-          cette fiche ».
+          {t('Une erreur sur une fiche ? Ouvrez-la dans la liste, puis « Signaler une erreur sur cette fiche ».')}
         </p>
         <p data-testid="signaler-absente">
-          Une brasserie manque ?{' '}
+          {t('Une brasserie manque ?')}{' '}
           <a href={lienAjout()} target="_blank" rel="noopener noreferrer">
-            La signaler
+            {t('La signaler')}
           </a>{' '}
-          (sur GitHub, compte gratuit nécessaire, signalement public). {SANS_COMPTE}{' '}
-          {SUITE_SIGNALEMENT}
+          {t('(sur GitHub, compte gratuit nécessaire, signalement public).')} {t(SANS_COMPTE)}{' '}
+          {t(SUITE_SIGNALEMENT)}
         </p>
         <p className="pied-lien">
-          <a href="https://github.com/Opaland/Brewery-map">Code source</a>
+          <a href="https://github.com/Opaland/Brewery-map">{t('Code source')}</a>
         </p>
       </footer>
     </div>

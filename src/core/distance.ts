@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 export interface Point {
   lat: number
   lon: number
@@ -33,5 +34,5 @@ export function distanceKm(a: Point, b: Point): number {
  * qui n'existe pas. Choix de présentation (CLAUDE.md §2).
  */
 export function formaterDistance(km: number): string {
-  return km < 1 ? 'moins de 1 km' : `≈ ${String(Math.round(km))} km`
+  return km < 1 ? t('moins de 1 km') : `≈ ${String(Math.round(km))} km`
 }

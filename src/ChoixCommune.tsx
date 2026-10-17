@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useEffect, useId, useMemo, useState } from 'react'
 import { chercherCommunes, type CommuneFrance, type CommuneIndexee } from './core/communes'
 import { normaliser } from './core/recherche'
@@ -117,26 +118,26 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
 
   let statut = ''
   if (montrer) {
-    if (chercherPartout && toutes === null && !echecToutes) statut = 'Recherche dans toute la France…'
+    if (chercherPartout && toutes === null && !echecToutes) statut = t('Recherche dans toute la France…')
     else if (chercherPartout && echecToutes)
-      statut = 'La liste de toutes les communes n’a pas pu se charger (connexion ?).'
+      statut = t('La liste de toutes les communes n’a pas pu se charger (connexion ?).')
     else if (etatProches === 'echec' && !chercherPartout)
-      statut = 'Les communes proches n’ont pas pu se charger (connexion ?).'
-    else if (resultats.length === 0) statut = 'Aucune commune ne correspond.'
+      statut = t('Les communes proches n’ont pas pu se charger (connexion ?).')
+    else if (resultats.length === 0) statut = t('Aucune commune ne correspond.')
     else
-      statut = `${String(resultats.length)} commune${resultats.length > 1 ? 's' : ''} ${
+      statut = `${resultats.length > 1 ? t('{n} communes', { n: resultats.length }) : t('{n} commune', { n: resultats.length })} ${
         chercherPartout || depuisPosition
-          ? 'en France'
+          ? t('en France')
           : // Les départements à moins de 100 km, pas chaque commune : la
             // Villefranche de l'Allier en est, à 150 km (vu en S23).
-            `dans les départements à moins de ${String(RAYON_PRES_KM)} km`
+            t('dans les départements à moins de {km} km', { km: RAYON_PRES_KM })
       }.`
   }
 
   return (
     <div className="choix-commune">
       <label className="champ">
-        <span>Ou partir d’une commune, partout en France</span>
+        <span>{t('Ou partir d’une commune, partout en France')}</span>
         <input
           type="search"
           role="combobox"
@@ -145,7 +146,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
           aria-autocomplete="list"
           aria-activedescendant={montrer && resultats.length > 0 ? idOption(actif) : undefined}
           value={texte}
-          placeholder="ex. Lyon, Annecy, Lille…"
+          placeholder={t('ex. Lyon, Annecy, Lille…')}
           autoComplete="off"
           onChange={(e) => {
             setTexte(e.target.value)
@@ -177,7 +178,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
         {statut}
       </p>
       {montrer && resultats.length > 0 && (
-        <ul className="choix-commune-liste" role="listbox" id={idListe} aria-label="Communes">
+        <ul className="choix-commune-liste" role="listbox" id={idListe} aria-label={t('Communes')}>
           {resultats.map((c, i) => (
             <li
               key={`${c[0]}|${c[1]}`}
@@ -207,7 +208,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
           }}
           data-testid="chercher-partout"
         >
-          Chercher « {texte.trim()} » dans toute la France
+          {t('Chercher « {texte} » dans toute la France', { texte: texte.trim() })}
         </button>
       )}
     </div>

@@ -1,3 +1,4 @@
+import { langueCourante, t } from './i18n'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { mouvementReduit } from './mouvement'
 import {
@@ -50,7 +51,12 @@ interface Props {
  * le canvas. Les marqueurs sont donc des boutons HTML, vérifiables et
  * atteignables au clavier.
  */
-const STYLE: StyleSpecification = {
+/**
+ * Le style de la carte. Une fonction, pas une constante : l'attribution suit
+ * la langue choisie au démarrage (revue adverse S50), qu'une constante de
+ * module aurait figée avant `choisirLangue`.
+ */
+const style = (): StyleSpecification => ({
   version: 8,
   sources: {
     osm: {
@@ -63,11 +69,11 @@ const STYLE: StyleSpecification = {
       // moins d'un kilomètre (audit S26, m3).
       maxzoom: 14,
       attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>',
+                `© <a href="https://www.openstreetmap.org/copyright">${t('contributeurs OpenStreetMap')}</a>`,
     },
   },
   layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
-}
+})
 
 /**
  * Zoom maximal : 14. Toutes les positions sont communales (≈ 2 km, BACKLOG
@@ -80,8 +86,8 @@ const STYLE: StyleSpecification = {
  */
 const ZOOM_MAX = 14
 
-const CARTE_IMPOSSIBLE =
-  'La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.'
+const carteImpossible = () =>
+  t('La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.')
 
 /** WebGL est-il là ? Sans lui, MapLibre ne dessine rien : la liste suffit, et on le dit. */
 function webglDisponible(): boolean {
@@ -157,7 +163,7 @@ export default function Carte({
   // indisponible) : on le dit, au lieu d'un fond vide sans explication.
   const [fondAbsent, setFondAbsent] = useState(false)
   const [erreur, setErreur] = useState<string | null>(() =>
-    webglDisponible() ? null : CARTE_IMPOSSIBLE,
+    webglDisponible() ? null : carteImpossible(),
   )
   // Sur téléphone, un marqueur touché montre un aperçu dans la carte (S32) :
   // depuis S29, la liste est au-dessus, et choisir la ligne y ramenait la
@@ -212,18 +218,19 @@ export default function Carte({
     try {
       map = new CarteMapLibre({
         container: conteneur.current,
-        style: STYLE,
+        style: style(),
         bounds: emprise(origine, rayonKm),
         maxZoom: ZOOM_MAX,
         attributionControl: { compact: false },
         cooperativeGestures: true,
-        locale: CARTE_EN_FRANCAIS,
+        // En anglais, les textes d'origine de MapLibre (S49).
+        locale: langueCourante() === 'fr' ? CARTE_EN_FRANCAIS : {},
       })
     } catch {
       // WebGL annoncé mais refusé à la création : même repli, signalé après
       // le rendu en cours plutôt que pendant.
       void Promise.resolve().then(() => {
-        setErreur(CARTE_IMPOSSIBLE)
+        setErreur(carteImpossible())
       })
       return
     }
@@ -264,7 +271,7 @@ export default function Carte({
         let el: HTMLButtonElement
         if (typeof idGroupe === 'number') {
           const n = Number(p['point_count'])
-          el = bouton('marqueur marqueur-groupe', `${String(n)} brasseries ici, voir le détail`, String(n))
+          el = bouton('marqueur marqueur-groupe', t('{n} brasseries ici, voir le détail', { n }), String(n))
           el.dataset['groupe'] = String(idGroupe)
           el.dataset['libelle'] = el.getAttribute('aria-label') ?? ''
           el.addEventListener('click', () => {
@@ -290,7 +297,7 @@ export default function Carte({
         } else {
           const nom = String(p['nom'])
           const cat = Number(p['cat']) as Categorie
-          el = bouton(`marqueur cat-${String(cat)}`, `${nom} — ${CATEGORIES[cat]}`)
+          el = bouton(`marqueur cat-${String(cat)}`, `${nom} — ${t(CATEGORIES[cat])}`)
           el.dataset['nom'] = nom
           el.setAttribute('aria-pressed', String(choisie.current === nom))
           el.addEventListener('click', () => {
@@ -389,7 +396,7 @@ export default function Carte({
   // un nom tapé, les brasseries trouvées.
   useEffect(() => {
     repere.current?.setLngLat([origine.lon, origine.lat])
-    repere.current?.getElement().setAttribute('aria-label', `Point de départ : ${libelleOrigine}`)
+    repere.current?.getElement().setAttribute('aria-label', t('Point de départ : {origine}', { origine: libelleOrigine }))
     if (!prete) return
     carte.current?.fitBounds(cadreDesResultats ?? emprise(origine, rayonKm), {
       duration: mouvementReduit() ? 0 : 300,
@@ -427,7 +434,7 @@ export default function Carte({
             if (cibleCourante.current !== cible) return
             const dedans = feuilles.some((f) => f.properties?.['nom'] === cible)
             el.classList.toggle('contient-choisie', dedans)
-            el.setAttribute('aria-label', dedans ? `${libelle}, dont « ${cible} », choisie` : libelle)
+            el.setAttribute('aria-label', dedans ? t('{libelle}, dont « {nom} », choisie', { libelle, nom: cible }) : libelle)
           })
           .catch(() => undefined)
       }
@@ -466,7 +473,7 @@ export default function Carte({
           ref={conteneur}
           className="carte"
           role="region"
-          aria-label="Carte des brasseries (la liste contient les mêmes informations)"
+          aria-label={t('Carte des brasseries (la liste contient les mêmes informations)')}
           data-testid="carte"
         />
         {vue !== undefined && (
@@ -486,7 +493,7 @@ export default function Carte({
             </p>
             <p className={`badge cat-${String(vue.brasserie.cat)}`}>
               <span className="pastille" aria-hidden="true" />
-              {CATEGORIES[vue.brasserie.cat]}
+              {t(CATEGORIES[vue.brasserie.cat])}
               {estDeOsm(vue.brasserie) ? ' · OpenStreetMap' : ''}
             </p>
             <div className="depart-actions">
@@ -499,10 +506,10 @@ export default function Carte({
                 }}
                 data-testid="apercu-voir-fiche"
               >
-                Voir la fiche
+                {t('Voir la fiche')}
               </button>
               <button type="button" onClick={fermerApercu} data-testid="apercu-fermer">
-                Fermer
+                {t('Fermer')}
               </button>
             </div>
           </section>
@@ -510,27 +517,25 @@ export default function Carte({
       </div>
       {/* La légende, visible sans ouvrir de fiche (S27 ; idée vue sur Open
           Brewery Map). Les couleurs sont celles des marqueurs. */}
-      <ul className="legende-carte" aria-label="Légende de la carte" data-testid="legende-carte">
+      <ul className="legende-carte" aria-label={t('Légende de la carte')} data-testid="legende-carte">
         {ORDRE_CATEGORIES.map((cat) => (
           <li key={cat} className={`cat-${String(cat)}`}>
             <span className="pastille" aria-hidden="true" />
-            {CATEGORIES[cat]}
+            {t(CATEGORIES[cat])}
           </li>
         ))}
         <li>
           <span className="pastille pastille-groupe" aria-hidden="true" />
-          Plusieurs brasseries
+          {t('Plusieurs brasseries')}
         </li>
         <li>
           <span className="pastille pastille-depart" aria-hidden="true" />
-          Point de départ
+          {t('Point de départ')}
         </li>
       </ul>
       {fondAbsent && (
         <p className="carte-fond-absent" role="status" data-testid="fond-absent">
-          Fond de carte incomplet ou indisponible. Les brasseries restent placées, et la liste
-          est complète. Hors connexion, seules les zones déjà affichées sur cet appareil
-          restent visibles.
+          {t('Fond de carte incomplet ou indisponible. Les brasseries restent placées, et la liste est complète. Hors connexion, seules les zones déjà affichées sur cet appareil restent visibles.')}
         </p>
       )}
     </div>

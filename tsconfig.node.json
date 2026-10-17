@@ -35,6 +35,8 @@
     "src/YAller.tsx",
     "src/localisation.ts",
     "src/miseAJour.ts",
+    "src/i18n.ts",
+    "src/textes",
     "tests"
   ]
 }

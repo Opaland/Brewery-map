@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useEffect, useState } from 'react'
 import { plateformeDe } from './core/itineraire'
 
@@ -58,10 +59,10 @@ export function Installer() {
           }}
           data-testid="bouton-installer"
         >
-          Installer l’application
+          {t('Installer l’application')}
         </button>
         <span className="champ-aide">
-          Une icône sur l’écran d’accueil ; les fiches restent lisibles sans réseau.
+          {t('Une icône sur l’écran d’accueil ; les fiches restent lisibles sans réseau.')}
         </span>
       </div>
     )
@@ -70,11 +71,11 @@ export function Installer() {
   // à chaque visite (revue UI/UX S28).
   return (
     <details className="installer-repli">
-      <summary>Installer l’application</summary>
+      <summary>{t('Installer l’application')}</summary>
       <p className="champ-aide installer" data-testid="installer-geste">
         {plateformeDe(navigator.userAgent) === 'ios'
-          ? 'Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».'
-          : 'Pour l’installer : menu du navigateur, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».'}
+          ? t('Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».')
+          : t('Pour l’installer : menu du navigateur, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».')}
       </p>
     </details>
   )
