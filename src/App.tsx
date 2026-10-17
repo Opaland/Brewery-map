@@ -13,6 +13,7 @@ import {
 } from './core/preferences'
 import {
   favorisCaches,
+  favorisFermes,
   listeCourte,
   plusProche,
   rechercher,
@@ -70,6 +71,11 @@ function texteDuCompte(
   if (!favorisSeulement) {
     // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
     // disait pas que le fichier s'arrête loin de là (S21).
+    // Un département choisi qui ne garde rien dit que ce sont les filtres
+    // (revue adverse S31 : le menu annonce « (0) », le compte ne disait pas pourquoi).
+    if (n === 0 && departement !== undefined) {
+      return `Aucune brasserie dans le département ${libelleDepartement(departement)} avec ces filtres : décochez-en dans « Plus de filtres ».`
+    }
     if (n === 0) return partout ? 'Aucune brasserie ne correspond.' : `Aucune brasserie ${ou}.`
     return `${String(n)} brasserie${n > 1 ? 's' : ''} ${ou}`
   }
@@ -94,6 +100,7 @@ export function App({
   // fiche ouverte — trouvée à toute distance, comme un nom tapé.
   const [ficheOuverte] = useState(() => ficheDuLien(window.location.hash))
   const [texte, setTexte] = useState(ficheOuverte ?? '')
+  const [lienPartage, setLienPartage] = useState(ficheOuverte !== undefined)
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
   const [origine, setOrigine] = useState<Origine>(() => origineDesPreferences(ini.depart, COMMUNES))
   // « Autour de moi » gardé mais pas encore relocalisé (permission non
@@ -285,6 +292,18 @@ export function App({
   const cherchees = avecOsm ? toutes : BRASSERIES
 
   const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
+  // Les nombres du menu suivent les filtres en cours (revue S27, fait en
+  // S31). Un département à 0 reste dans le menu : le retirer aurait fait
+  // tomber le choix au premier filtre décoché.
+  const parDepartementFiltre = useMemo(
+    () =>
+      compterParDepartement(cherchees, {
+        categories,
+        ...(type === undefined ? {} : { type }),
+        ...(favorisSeulement ? { seulement: new Set(favoris) } : {}),
+      }),
+    [cherchees, categories, type, favorisSeulement, favoris],
+  )
   // Un département qui n'a plus de brasserie (couche OSM décochée) tombe :
   // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
   const departement =
@@ -311,6 +330,7 @@ export function App({
   }, [toutes, ensembleFavoris, origine])
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []
+  const fermes = useMemo(() => favorisFermes(cherchees, favoris), [cherchees, favoris])
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).
   // Pas avant la couche OSM : un favori qui en vient passerait pour disparu.
@@ -447,6 +467,33 @@ export function App({
             data-testid="recherche"
           />
         </label>
+        {/* Arrivée par un lien partagé : le nom reste dans la recherche, et
+            rien ne disait de l'effacer pour revenir à la liste autour du
+            départ (revue S27, fait en S31). */}
+        {lienPartage && ficheOuverte !== undefined && texte === ficheOuverte && (
+          <div className="champ-aide" data-testid="lien-partage-aide">
+            <p>Fiche ouverte depuis un lien partagé.</p>
+            <div className="depart-actions">
+              <button
+                type="button"
+                onClick={() => {
+                  setTexte('')
+                  setSelection(null)
+                  setLienPartage(false)
+                  // Le lien quitte l'adresse : recharger ne rouvre plus la
+                  // fiche (revue adverse S31).
+                  window.history.replaceState(null, '', window.location.pathname + window.location.search)
+                  // Le bouton disparaît : le focus va au compte, qui dit la
+                  // nouvelle liste (revue adverse S31 ; il tombait en haut).
+                  compte.current?.focus()
+                }}
+                data-testid="effacer-recherche"
+              >
+                Voir les brasseries autour du départ
+              </button>
+            </div>
+          </div>
+        )}
 
         <label className="champ">
           <span>
@@ -494,9 +541,9 @@ export function App({
                 <option value="">Non : autour du point de départ</option>
                 {[...parDepartement.entries()]
                   .sort(([a], [b]) => a.localeCompare(b))
-                  .map(([code, n]) => (
+                  .map(([code]) => (
                     <option key={code} value={code}>
-                      {libelleDepartement(code)} ({n})
+                      {libelleDepartement(code)} ({parDepartementFiltre.get(code) ?? 0})
                     </option>
                   ))}
               </select>
@@ -594,6 +641,13 @@ export function App({
         <p className="champ-aide" data-testid="favoris-caches">
           {caches.length === 1 ? 'Un favori est caché' : `${String(caches.length)} favoris sont cachés`}{' '}
           par la distance ou les filtres : {listeCourte(caches)}.
+        </p>
+      )}
+      {fermes.length > 0 && (
+        <p className="champ-aide" data-testid="favoris-fermes">
+          {fermes.length === 1
+            ? `Un favori est fermé : ${fermes[0]}. Il ne paraît plus dans la liste autour du départ ni dans la tournée ; son nom tapé dans la recherche rouvre sa fiche.`
+            : `${String(fermes.length)} favoris sont fermés : ${listeCourte(fermes)}. Ils ne paraissent plus dans la liste autour du départ ni dans la tournée ; leur nom tapé dans la recherche rouvre leur fiche.`}
         </p>
       )}
 

@@ -1676,3 +1676,58 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    Sans défaut : la synchronisation du repli, le filtre caché qui se dit,
    le chargement de la carte par le bouton, la largeur à 320 px et à 200 %
    de texte.
+
+## S30 — La méthode BMAD, adaptée *(17/10)*
+
+1. **Pourquoi.** Cédric : « regarde BMAD pour l'implémentation de
+   l'application ».
+2. **Lu.** Le README de BMAD-METHOD, la branche V6.12, trois pages de la
+   documentation et les notes de version 6.11 (sources dans
+   `docs/METHODE.md`). Le dépôt n'a pas pu être parcouru en entier depuis
+   le conteneur (403) : ce qui n'a pas été lu est marqué « non vérifié ».
+3. **Décidé.** On n'installe pas BMAD : la v7 est en alpha, et son
+   installeur écrirait dans `.claude/`, à côté des hooks et des agents. On
+   reprend ses formats :
+   - `docs/PRD.md` : exigences numérotées et invariants du §0. Le cahier
+     des charges v3 n'est pas dans le dépôt ; Cédric doit le verser, ou
+     valider ce résumé ;
+   - `docs/ARCHITECTURE.md` ;
+   - `docs/EPICS.md` : 12 epics, 100 stories ;
+   - `docs/stories/MODELE.md`, avec critères d'acceptation reliés aux tests,
+     définition de terminé et porte qualité ;
+   - le skill `/preparer-story`, pour le rôle de Scrum Master.
+4. **Conflits réglés en faveur de CLAUDE.md** (`docs/METHODE.md` §4) :
+   - les données ne sont que des propositions ;
+   - aucun objectif chiffré non mesuré ;
+   - aucune API qui recevrait la position ;
+   - le budget passe avant l'autonomie.
+
+## S31 — Restes de S27 *(17/10)*
+
+1. **Fait** (story : `docs/stories/S31.md`) :
+   - `passeLesFiltres`, une seule garde (catégories, type, « seulement mes
+     favoris »), lue par la recherche et par le compte des départements
+     (§4) ;
+   - les nombres du menu des départements suivent les filtres. Un
+     département à 0 reste dans le menu, et le compte dit alors que ce sont
+     les filtres ;
+   - un favori fermé n'est plus dit « caché par les filtres ». Il est nommé
+     comme fermé, écarté de la liste et de la tournée, et retrouvable par
+     son nom ;
+   - après un lien partagé, un bouton « Voir les brasseries autour du
+     départ » efface la recherche, retire `#fiche=` de l'adresse et pose le
+     focus sur le compte.
+2. **Tests vus rouges** : `favorisCaches` (fermée comptée comme cachée) et
+   le compte filtré, en unitaire ; le menu filtré en e2e (ancien compte
+   remis).
+3. **Revue adverse** (34 k) :
+   - **(moyenne)** le focus tombait en haut de la page après le bouton :
+     corrigé ;
+   - **(moyenne)** `#fiche=` restait dans l'adresse, et recharger rouvrait la
+     fiche : corrigé ;
+   - **(basse)** un département à 0 choisi laissait une liste vide sans
+     raison : le compte la dit ;
+   - **(basse)** la phrase du favori fermé disait « n'apparaît plus dans la
+     liste » alors que son nom le retrouve : reformulée ;
+   - **(basse)** le test du type ne prouvait que l'exclusion : une
+     brasserie d'essai prouve l'inclusion.

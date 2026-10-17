@@ -3,6 +3,7 @@ import { BRIGNAIS } from '../../src/core/distance'
 import {
   compterParDepartement,
   favorisCaches,
+  favorisFermes,
   listeCourte,
   normaliser,
   plusProche,
@@ -198,5 +199,33 @@ describe('compte par département sans les fermées (revue S27)', () => {
     const r = (LIGNES_REELLES as unknown as Brasserie[])[0]
     const fermee = { ...r, n: 'Close', fermee: { source: 'https://exemple.fr', verifieLe: '2026-10-16' } }
     expect(compterParDepartement([r, fermee]).get(r.d)).toBe(1)
+  })
+})
+
+describe('restes de S27 (S31)', () => {
+  const reelles = LIGNES_REELLES as unknown as Brasserie[]
+  const ouverte = reelles[0]
+  const close = { ...reelles[1], n: 'Porte Close', fermee: { source: 'https://exemple.fr', verifieLe: '2026-10-16' } }
+
+  it('un favori fermé n’est pas « caché par les filtres » : il est fermé', () => {
+    const favoris = [ouverte.n, close.n]
+    const resultats = rechercher([ouverte, close], { origine: BRIGNAIS, rayonKm: 1000, texte: '', categories: [0, 1, 2, 3] })
+    expect(favorisCaches([ouverte, close], favoris, resultats)).toEqual([])
+    expect(favorisFermes([ouverte, close], favoris)).toEqual(['Porte Close'])
+  })
+
+  it('les nombres des départements suivent les catégories, le type et « seulement mes favoris »', () => {
+    const d = ouverte.d
+    const memeDep = reelles.filter((b) => b.d === d)
+    const cat = memeDep[0].cat
+    expect(compterParDepartement(reelles, { categories: [cat] }).get(d)).toBe(memeDep.filter((b) => b.cat === cat).length)
+    // Aucune fiche réelle n'a de bière : une brasserie d'essai en a une, pour
+    // prouver qu'elle est comptée, pas seulement que les autres sont exclues
+    // (revue adverse S31).
+    const houblon: Brasserie = { ...ouverte, n: 'Houblon d’essai', beers: [{ type: 'ipa' }] }
+    expect(compterParDepartement([...reelles, houblon], { categories: [0, 1, 2, 3], type: 'ipa' }).get(d)).toBe(1)
+    expect(
+      compterParDepartement(reelles, { categories: [0, 1, 2, 3], seulement: new Set([ouverte.n]) }).get(d),
+    ).toBe(1)
   })
 })

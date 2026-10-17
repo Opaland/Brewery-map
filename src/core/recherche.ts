@@ -107,14 +107,27 @@ export function plusProche(brasseries: readonly Brasserie[], origine: Point): Re
   return meilleure
 }
 
+/** Les filtres qui ne dépendent ni du lieu ni du texte. */
+export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement'>
+
+/**
+ * Une brasserie passe-t-elle les catégories, le type et « seulement mes
+ * favoris » ? Une seule garde, lue par la recherche et par le compte des
+ * départements (CLAUDE.md §4) : le menu comptait sans les filtres (revue
+ * S27, fait en S31).
+ */
+export function passeLesFiltres(brasserie: Brasserie, f: Filtres): boolean {
+  if (!f.categories.includes(brasserie.cat)) return false
+  if (f.seulement !== undefined && !f.seulement.has(brasserie.n)) return false
+  if (f.type !== undefined && !brasserie.beers.some((b) => b.type === f.type)) return false
+  return true
+}
+
 export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres): Resultat[] {
   const mots = motsCherches(criteres.texte)
-  const categories = new Set(criteres.categories)
   const resultats: Resultat[] = []
   for (const brasserie of brasseries) {
-    if (!categories.has(brasserie.cat)) continue
-    if (criteres.seulement !== undefined && !criteres.seulement.has(brasserie.n)) continue
-    if (criteres.type !== undefined && !brasserie.beers.some((b) => b.type === criteres.type)) continue
+    if (!passeLesFiltres(brasserie, criteres)) continue
     if (criteres.departement !== undefined && brasserie.d !== criteres.departement) continue
     // Fermée (décision #35) : hors de la liste, sauf cherchée par son nom.
     if (brasserie.fermee !== undefined && mots.length === 0) continue
@@ -139,9 +152,17 @@ export function favorisCaches(
   favoris: readonly string[],
   resultats: readonly Resultat[],
 ): string[] {
-  const connus = new Set(brasseries.map((b) => b.n))
+  // Une fermée n'est pas « cachée par les filtres » : elle est fermée, et
+  // `favorisFermes` le dit (revue S27, fait en S31).
+  const connus = new Set(brasseries.filter((b) => b.fermee === undefined).map((b) => b.n))
   const montres = new Set(resultats.map((r) => r.brasserie.n))
   return favoris.filter((f) => connus.has(f) && !montres.has(f))
+}
+
+/** Les favoris dont la brasserie est fermée (S31). */
+export function favorisFermes(brasseries: readonly Brasserie[], favoris: readonly string[]): string[] {
+  const fermees = new Set(brasseries.filter((b) => b.fermee !== undefined).map((b) => b.n))
+  return favoris.filter((f) => fermees.has(f))
 }
 
 /**
@@ -156,9 +177,16 @@ export function listeCourte(noms: readonly string[], max = 5): string {
 }
 
 /** Le nombre de brasseries par département, pour les parcourir (S27). */
-export function compterParDepartement(brasseries: readonly Brasserie[]): Map<string, number> {
+export function compterParDepartement(
+  brasseries: readonly Brasserie[],
+  filtres?: Filtres,
+): Map<string, number> {
   const compte = new Map<string, number>()
-  // Les fermées ne comptent pas : la liste ne les montre pas (revue S27).
-  for (const b of brasseries) if (b.fermee === undefined) compte.set(b.d, (compte.get(b.d) ?? 0) + 1)
+  for (const b of brasseries) {
+    // Les fermées ne comptent pas : la liste ne les montre pas (revue S27).
+    if (b.fermee !== undefined) continue
+    if (filtres !== undefined && !passeLesFiltres(b, filtres)) continue
+    compte.set(b.d, (compte.get(b.d) ?? 0) + 1)
+  }
   return compte
 }
