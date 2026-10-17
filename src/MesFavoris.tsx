@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import type { EtapeImage } from './core/image-tournee'
 import { ImageTournee } from './ImageTournee'
 
@@ -19,6 +19,8 @@ interface Props {
   nbVisites: number
   pasVisitees: boolean
   onPasVisitees: (v: boolean) => void
+  /** Ce qui suit l'effacement dans le repli « gardés sur cet appareil » (S37 : la sauvegarde). */
+  children?: ReactNode
 }
 
 /**
@@ -37,6 +39,7 @@ export function MesFavoris({
   nbVisites,
   pasVisitees,
   onPasVisitees,
+  children,
 }: Props) {
   // Effacer se confirme : un toucher de travers ne doit pas coûter tous les
   // favoris (revue Marie S9).
@@ -129,8 +132,9 @@ export function MesFavoris({
         >
           <summary>Gardés sur cet appareil seulement</summary>
           <p className="champ-aide" data-testid="stockage-texte">
-            Vos favoris, votre carnet de visites (le nom et le jour, rien d’autre) et vos
-            réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est
+            Vos favoris, votre carnet de visites (le nom et le jour, rien d’autre), vos notes
+            et vos réglages (distance, départ, filtres) sont gardés sur cet appareil
+            seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est
             gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur
             l’a déjà permise.
           </p>
@@ -164,14 +168,15 @@ export function MesFavoris({
                 }}
                 data-testid="tout-effacer"
               >
-                Effacer favoris, carnet et réglages
+                Effacer favoris, carnet, notes et réglages
               </button>
             )}
           </div>
+          {children}
         </details>
       ) : (
         <p className="champ-aide" data-testid="stockage-texte">
-          Ce navigateur ne permet pas de garder vos favoris, votre carnet et vos réglages
+          Ce navigateur ne permet pas de garder vos favoris, votre carnet, vos notes et vos réglages
           (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.
         </p>
       )}

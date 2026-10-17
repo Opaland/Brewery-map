@@ -70,6 +70,15 @@ const CHAMPS = {
 const visiteSchema = z.object({ nom: z.string().min(1), date: z.iso.date() }).strict()
 export type Visite = z.infer<typeof visiteSchema>
 
+/**
+ * Une note personnelle (S36) : pour soi, sur l'appareil. 500 caractères au
+ * plus — de quoi « la blanche était excellente, fermé le lundi en vrai » ;
+ * borne de présentation et de stockage (§2), pas un calcul.
+ */
+export const NOTE_MAX = 500
+const noteSchema = z.object({ nom: z.string().min(1), texte: z.string() }).strict()
+export type Note = z.infer<typeof noteSchema>
+
 export interface Preferences {
   version: 1
   rayonKm: number
@@ -81,6 +90,7 @@ export interface Preferences {
   avecOsm: boolean
   visites: Visite[]
   pasVisitees: boolean
+  notes: Note[]
 }
 
 export const PREFERENCES_DEFAUT: Preferences = {
@@ -93,6 +103,7 @@ export const PREFERENCES_DEFAUT: Preferences = {
   avecOsm: true,
   visites: [],
   pasVisitees: false,
+  notes: [],
 }
 
 const lire = <S extends z.ZodType>(schema: S, valeur: unknown, defaut: z.infer<S>): z.infer<S> => {
@@ -127,7 +138,45 @@ export function lirePreferences(brut: unknown): Preferences {
     avecOsm: lire(CHAMPS.avecOsm, g.avecOsm, d.avecOsm),
     visites: lireVisites(g.visites),
     pasVisitees: lire(CHAMPS.pasVisitees, g.pasVisitees, d.pasVisitees),
+    notes: lireNotes(g.notes),
   }
+}
+
+/** Note par note : une illisible ou vide tombe seule ; une trop longue est coupée. */
+function lireNotes(brut: unknown): Note[] {
+  if (!Array.isArray(brut)) return []
+  const vues = new Set<string>()
+  const notes: Note[] = []
+  for (const n of brut) {
+    const r = noteSchema.safeParse(n)
+    if (!r.success || r.data.texte === '' || vues.has(r.data.nom)) continue
+    vues.add(r.data.nom)
+    notes.push({ nom: r.data.nom, texte: couperNote(r.data.texte) })
+  }
+  return notes
+}
+
+/**
+ * Coupe à `NOTE_MAX` unités, sans laisser une moitié d'emoji (revue
+ * adverse S36 : `slice` laissait un « \ud83d » seul).
+ */
+function couperNote(texte: string): string {
+  if (texte.length <= NOTE_MAX) return texte
+  const coupe = texte.slice(0, NOTE_MAX)
+  return /[\ud800-\udbff]$/.test(coupe) ? coupe.slice(0, -1) : coupe
+}
+
+/**
+ * Écrire, remplacer ou retirer la note d'une brasserie. Seul un champ vidé
+ * la retire : une espace tapée sur tout le texte sélectionné l'effaçait
+ * (revue adverse S36).
+ */
+export function ecrireNote(notes: readonly Note[], nom: string, texte: string): Note[] {
+  const autres = notes.filter((n) => n.nom !== nom)
+  if (texte === '') return autres
+  const nouvelle = { nom, texte: couperNote(texte) }
+  const i = notes.findIndex((n) => n.nom === nom)
+  return i === -1 ? [...notes, nouvelle] : notes.map((n) => (n.nom === nom ? nouvelle : n))
 }
 
 /** Visite par visite : une illisible tombe seule ; un nom en double garde la première. */

@@ -7,6 +7,7 @@ import {
   basculerFavori,
   basculerVisite,
   dateDuJour,
+  ecrireNote,
   lirePreferences,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
@@ -37,6 +38,7 @@ import { MiseAJour } from './MiseAJour'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
+import { Sauvegarde } from './Sauvegarde'
 import type { Stockage } from './stockage'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
@@ -99,6 +101,7 @@ function texteDuCompte(
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
 const lireVisitesRecues = (brut: unknown) => lirePreferences({ visites: brut }).visites
+const lireNotesRecues = (brut: unknown) => lirePreferences({ notes: brut }).notes
 
 export function App({
   stockage,
@@ -134,6 +137,8 @@ export function App({
   // l'appareil seulement.
   const [visites, setVisites] = useState(ini.visites)
   const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
+  // Mes notes (S36) : une par brasserie, pour soi, sur l'appareil.
+  const [notes, setNotes] = useState(ini.notes)
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
   // Sur téléphone, les filtres secondaires sont repliés (S29 : la première
   // brasserie était à 2,1 écrans). Ouverts sur ordinateur, où ils tiennent
@@ -240,24 +245,31 @@ export function App({
   // écrire au montage réécrivait les valeurs par défaut juste après un
   // effacement, et figeait un stockage relu en partie.
   const dejaGarde = useRef(JSON.stringify(versStockage(ini)))
+  // Ce qui est gardé, calculé une fois : écrit par l'effet ci-dessous, et
+  // enregistré tel quel par la sauvegarde (S37).
+  const garde: Preferences = useMemo(
+    () =>
+      versStockage({
+        version: 1,
+        rayonKm,
+        categories: [...categories],
+        ...(type === undefined ? {} : { type }),
+        depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
+        favoris: [...favoris],
+        favorisSeulement,
+        avecOsm,
+        visites: [...visites],
+        pasVisitees,
+        notes: [...notes],
+      }),
+    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes],
+  )
   useEffect(() => {
-    const p: Preferences = versStockage({
-      version: 1,
-      rayonKm,
-      categories: [...categories],
-      ...(type === undefined ? {} : { type }),
-      depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
-      favoris: [...favoris],
-      favorisSeulement,
-      avecOsm,
-      visites: [...visites],
-      pasVisitees,
-    })
-    const texte = JSON.stringify(p)
+    const texte = JSON.stringify(garde)
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
-    stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees])
+    stockage.garder(garde)
+  }, [stockage, garde])
 
   // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
   // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
@@ -266,6 +278,7 @@ export function App({
   const canal = useRef<BroadcastChannel | null>(null)
   const favorisPartages = useRef(JSON.stringify(favoris))
   const visitesPartagees = useRef(JSON.stringify(visites))
+  const notesPartagees = useRef(JSON.stringify(notes))
   // Le canal s'ouvre une fois ; il appelle la remise à zéro par une référence.
   const remettreAZeroRef = useRef<() => void>(() => undefined)
   useEffect(() => {
@@ -280,6 +293,12 @@ export function App({
       // Le carnet passe d'un onglet à l'autre comme les favoris : un onglet
       // resté ouvert réécrivait l'objet entier et effaçait les visites de
       // l'autre (revue adverse S35).
+      if (m?.type === 'notes') {
+        const recues = lireNotesRecues((m as { notes?: unknown }).notes)
+        notesPartagees.current = JSON.stringify(recues)
+        setNotes(recues)
+        return
+      }
       if (m?.type === 'visites') {
         const recues = lireVisitesRecues((m as { visites?: unknown }).visites)
         visitesPartagees.current = JSON.stringify(recues)
@@ -309,9 +328,16 @@ export function App({
     visitesPartagees.current = texte
     canal.current?.postMessage({ type: 'visites', visites: [...visites] })
   }, [visites])
+  useEffect(() => {
+    const texte = JSON.stringify(notes)
+    if (texte === notesPartagees.current) return
+    notesPartagees.current = texte
+    canal.current?.postMessage({ type: 'notes', notes: [...notes] })
+  }, [notes])
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
   const datesDeVisite = useMemo(() => new Map(visites.map((v) => [v.nom, v.date])), [visites])
+  const textesDeNote = useMemo(() => new Map(notes.map((n) => [n.nom, n.texte])), [notes])
   const exclure = useMemo(
     () => (pasVisitees ? new Set(visites.map((v) => v.nom)) : undefined),
     [pasVisitees, visites],
@@ -417,6 +443,7 @@ export function App({
     dejaGarde.current = JSON.stringify(versStockage(d))
     favorisPartages.current = JSON.stringify(d.favoris)
     visitesPartagees.current = JSON.stringify(d.visites)
+    notesPartagees.current = JSON.stringify(d.notes)
     setRayonKm(d.rayonKm)
     setCategories(d.categories)
     setType(d.type)
@@ -427,6 +454,7 @@ export function App({
     setAvecOsm(d.avecOsm)
     setVisites(d.visites)
     setPasVisitees(d.pasVisitees)
+    setNotes(d.notes)
   }, [])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
@@ -438,7 +466,7 @@ export function App({
       .then(() => {
         remettreAZero()
         canal.current?.postMessage({ type: 'effacer' })
-        setAnnonce('Favoris, carnet et réglages effacés de cet appareil.')
+        setAnnonce('Favoris, carnet, notes et réglages effacés de cet appareil.')
       })
       .catch(() => {
         setAnnonce('L’effacement a échoué : rien n’a changé. Réessayez.')
@@ -673,7 +701,19 @@ export function App({
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}
               pasVisitees={pasVisitees}
               onPasVisitees={setPasVisitees}
-            />
+            >
+              {/* Changer d'appareil (S37) : un fichier, aucun serveur. Replié
+                  avec ce qui est gardé : ouvert, il repoussait la liste sous
+                  le premier écran d'ordinateur (porte, 904 px pour 800). */}
+              <Sauvegarde
+                actuelles={garde}
+                onReprendre={(p) => {
+                  setFavoris(p.favoris)
+                  setVisites(p.visites)
+                  setNotes(p.notes)
+                }}
+              />
+            </MesFavoris>
           </div>
         </details>
       </section>
@@ -755,6 +795,10 @@ export function App({
             onBasculerFavori={basculerUnFavori}
             visites={datesDeVisite}
             onBasculerVisite={basculerUneVisite}
+            notes={textesDeNote}
+            onEcrireNote={(nom, texte) => {
+              setNotes((avant) => ecrireNote(avant, nom, texte))
+            }}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))

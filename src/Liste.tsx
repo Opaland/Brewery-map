@@ -11,6 +11,7 @@ import {
 } from './core/fiche'
 import { estDeOsm, noteDeLigne, siteOsm } from './core/osm-france'
 import { lienDeFiche } from './core/partage'
+import { NOTE_MAX } from './core/preferences'
 import type { Resultat } from './core/recherche'
 import type { Brasserie } from './core/schema'
 import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
@@ -31,6 +32,9 @@ interface Props {
   /** Mon carnet (S35) : nom → date de la visite (AAAA-MM-JJ). */
   visites?: ReadonlyMap<string, string>
   onBasculerVisite?: (nom: string) => void
+  /** Mes notes (S36) : nom → texte. */
+  notes?: ReadonlyMap<string, string>
+  onEcrireNote?: (nom: string, texte: string) => void
 }
 
 /**
@@ -93,6 +97,8 @@ function Fiche({
   onBasculerFavori,
   visite,
   onBasculerVisite,
+  note,
+  onEcrireNote,
   onRefermer,
 }: {
   brasserie: Brasserie
@@ -100,6 +106,8 @@ function Fiche({
   onBasculerFavori: () => void
   visite: string | undefined
   onBasculerVisite: () => void
+  note: string
+  onEcrireNote: (texte: string) => void
   onRefermer: () => void
 }) {
   const hote = hoteDeSource(brasserie.src)
@@ -121,6 +129,20 @@ function Fiche({
         </button>
         <BoutonPartager nom={brasserie.n} />
       </div>
+      {/* Ma note (S36) : pour soi, gardée à la saisie, jamais envoyée. */}
+      <label className="champ fiche-note">
+        <span>Ma note (sur cet appareil seulement)</span>
+        <textarea
+          value={note}
+          maxLength={NOTE_MAX}
+          rows={2}
+          onChange={(e) => {
+            onEcrireNote(e.target.value)
+          }}
+          placeholder="ex. la blanche était excellente"
+          data-testid="ma-note"
+        />
+      </label>
       <Contact brasserie={brasserie} />
       {/* Les horaires avant l'itinéraire : savoir si c'est ouvert avant d'y
           aller (revue Hugo S19). */}
@@ -231,6 +253,8 @@ export function Liste({
   onBasculerFavori,
   visites = new Map<string, string>(),
   onBasculerVisite = () => undefined,
+  notes = new Map<string, string>(),
+  onEcrireNote = () => undefined,
 }: Props) {
   const liste = useRef<HTMLOListElement>(null)
 
@@ -279,6 +303,13 @@ export function Liste({
                     {' '}
                     <span aria-hidden="true">★</span>
                     <span className="lecteur-seul">(favori)</span>
+                  </span>
+                )}
+                {notes.has(brasserie.n) && (
+                  <span className="ligne-visite" data-testid="marque-note">
+                    {' '}
+                    <span aria-hidden="true">✎</span>
+                    <span className="lecteur-seul">(avec ma note)</span>
                   </span>
                 )}
                 {visite !== undefined && (
@@ -348,6 +379,10 @@ export function Liste({
                 visite={visite}
                 onBasculerVisite={() => {
                   onBasculerVisite(brasserie.n)
+                }}
+                note={notes.get(brasserie.n) ?? ''}
+                onEcrireNote={(texte) => {
+                  onEcrireNote(brasserie.n, texte)
                 }}
                 onRefermer={() => {
                   // Le focus et l'écran reviennent sur la ligne : on reprend

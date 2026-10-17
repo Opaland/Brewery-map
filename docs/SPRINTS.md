@@ -1834,3 +1834,53 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    - **(basse)** l'annonce d'effacement omettait le carnet.
    - Le reste de S33 : un test injecte un élément animé, pour prouver la
      garde « moins d'animations » en permanence.
+
+## S36 — Mes notes *(17/10)*
+
+1. **Fait** (`docs/stories/S36.md`) :
+   - « Ma note (sur cet appareil seulement) » dans la fiche, gardée à la
+     saisie, 500 caractères au plus ;
+   - la ligne signale une note (✎, lu « avec ma note ») ;
+   - les notes passent d'un onglet à l'autre ;
+   - « tout effacer » les vide ;
+   - jamais dans un lien : signalement et lien copié vérifiés.
+2. **Revue adverse** (36 k) :
+   - **(basse)** une espace tapée sur tout le texte effaçait la note : seul
+     un champ vide la retire (vu rouge) ;
+   - **(basse)** la coupe à 500 pouvait laisser une moitié d'emoji
+     (vu rouge) ;
+   - **(moyenne)** une note n'était visible que dans la fiche ouverte : la
+     ligne la signale.
+   - **Reportés au BACKLOG** :
+     - le curseur saute quand l'autre onglet écrit la même note (S104) ;
+     - les notes et visites orphelines ne sont pas listées (S103) ;
+     - l'écriture à chaque frappe n'est pas mesurée sur un téléphone lent
+       (S111).
+
+## S37 — Sauvegarder et transférer son carnet *(17/10)*
+
+1. **Fait** (`docs/stories/S37.md`) :
+   - « Enregistrer une sauvegarde » produit un fichier JSON compact :
+     favoris, carnet, notes et réglages, **sans le départ**. « Ouvrir une
+     sauvegarde » le relit champ par champ ;
+   - la sauvegarde **s'ajoute** à ce qui est sur l'appareil, sans rien
+     effacer ; l'appareil garde ses notes, ses visites et ses réglages ;
+   - aucune requête réseau, ni à l'enregistrement ni à l'ouverture
+     (test sur deux contextes) ;
+   - le bloc est replié dans « Gardés sur cet appareil seulement ». Ouvert,
+     il repoussait la liste sous le premier écran d'ordinateur (la porte
+     l'a vu : 904 px pour 800).
+2. **Revue adverse** (45 k) :
+   - **(moyenne)** la taille était comptée en caractères : elle l'est en
+     octets (vu rouge) ;
+   - **(moyenne)** un fichier de 300 Mo était lu en entier avant d'être
+     refusé : la taille est vérifiée d'abord ;
+   - **(moyenne)** 60 000 favoris fabriqués étaient acceptés : 5 000 au
+     plus par liste (vu rouge) ;
+   - **(moyenne)** une commune de départ partait dans le fichier (nom et
+     point) : le départ ne voyage plus ;
+   - **(test)** l'absence de requête n'était vérifiée qu'à
+     l'enregistrement : elle l'est aussi à l'ouverture.
+   - **Non traité** : une note ou une visite différente des deux côtés
+     n'est pas reprise et ce n'est pas dit. C'est la règle de CA3, notée au
+     BACKLOG.
