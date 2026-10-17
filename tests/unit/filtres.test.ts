@@ -35,3 +35,11 @@ describe('filtres repliés (S29)', () => {
     expect(filtresActifs({ ...aucun, categories: [...ORDRE_CATEGORIES].reverse() })).toEqual([])
   })
 })
+
+describe('pas encore visitées (S35)', () => {
+  it('se nomme parmi les filtres actifs', () => {
+    expect(
+      filtresActifs({ categories: [...ORDRE_CATEGORIES], favorisSeulement: false, sansOsm: false, pasVisitees: true }),
+    ).toEqual(['pas encore visitées'])
+  })
+})

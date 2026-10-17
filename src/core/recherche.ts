@@ -12,6 +12,8 @@ export interface Criteres {
   type?: TypeDeBiere
   /** Ne garder que ces noms (« mes favoris seulement », S9) ; absent = tous. */
   seulement?: ReadonlySet<string>
+  /** Écarter ces noms (« pas encore visitées », S35) ; absent = aucun. */
+  exclure?: ReadonlySet<string>
   /** Un département (« 73 ») : ses brasseries, à toute distance (S27). */
   departement?: string
 }
@@ -108,7 +110,7 @@ export function plusProche(brasseries: readonly Brasserie[], origine: Point): Re
 }
 
 /** Les filtres qui ne dépendent ni du lieu ni du texte. */
-export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement'>
+export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement' | 'exclure'>
 
 /**
  * Une brasserie passe-t-elle les catégories, le type et « seulement mes
@@ -119,6 +121,7 @@ export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement'>
 export function passeLesFiltres(brasserie: Brasserie, f: Filtres): boolean {
   if (!f.categories.includes(brasserie.cat)) return false
   if (f.seulement !== undefined && !f.seulement.has(brasserie.n)) return false
+  if (f.exclure?.has(brasserie.n) === true) return false
   if (f.type !== undefined && !brasserie.beers.some((b) => b.type === f.type)) return false
   return true
 }

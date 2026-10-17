@@ -15,6 +15,10 @@ interface Props {
   onEffacer: () => void
   /** Ma tournée (S27) : les étapes dans l'ordre, et le lien qui les ouvre. */
   tournee?: { etapes: readonly string[]; image: readonly EtapeImage[]; lien: string; total: number }
+  /** Mon carnet (S35) : combien de visites, et le filtre « pas encore visitées ». */
+  nbVisites: number
+  pasVisitees: boolean
+  onPasVisitees: (v: boolean) => void
 }
 
 /**
@@ -30,6 +34,9 @@ export function MesFavoris({
   stockageDisponible,
   onEffacer,
   tournee,
+  nbVisites,
+  pasVisitees,
+  onPasVisitees,
 }: Props) {
   // Effacer se confirme : un toucher de travers ne doit pas coûter tous les
   // favoris (revue Marie S9).
@@ -47,6 +54,17 @@ export function MesFavoris({
           data-testid="favoris-seulement"
         />
         Afficher seulement mes favoris ({nbFavoris})
+      </label>
+      <label className="case">
+        <input
+          type="checkbox"
+          checked={pasVisitees}
+          onChange={(e) => {
+            onPasVisitees(e.target.checked)
+          }}
+          data-testid="pas-visitees"
+        />
+        Seulement les brasseries pas encore visitées ({nbVisites} visitée{nbVisites > 1 ? 's' : ''})
       </label>
       {nbFavoris === 0 && (
         <p className="champ-aide">
@@ -111,8 +129,8 @@ export function MesFavoris({
         >
           <summary>Gardés sur cet appareil seulement</summary>
           <p className="champ-aide" data-testid="stockage-texte">
-            Vos favoris et vos réglages (distance, départ, filtres) sont gardés sur cet appareil
-            seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est
+            Vos favoris, votre carnet de visites (le nom et le jour, rien d’autre) et vos
+            réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est
             gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur
             l’a déjà permise.
           </p>
@@ -146,15 +164,15 @@ export function MesFavoris({
                 }}
                 data-testid="tout-effacer"
               >
-                Effacer favoris et réglages
+                Effacer favoris, carnet et réglages
               </button>
             )}
           </div>
         </details>
       ) : (
         <p className="champ-aide" data-testid="stockage-texte">
-          Ce navigateur ne permet pas de garder vos favoris et réglages (navigation privée, ou
-          stockage bloqué) : ils seront oubliés en fermant la page.
+          Ce navigateur ne permet pas de garder vos favoris, votre carnet et vos réglages
+          (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.
         </p>
       )}
     </fieldset>

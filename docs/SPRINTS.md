@@ -1803,3 +1803,34 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
      « jamais votre départ ».
 3. **Non vérifié** : le partage de fichiers sur iPhone et Firefox. Seul
    Chromium est installé.
+
+## S35 — Mon carnet : les brasseries visitées *(17/10)*
+
+1. **Fait** (`docs/stories/S35.md`) :
+   - « J'y suis allé·e » dans la fiche note la visite du jour. La ligne
+     montre ✓, lu « visitée le … » au lecteur d'écran ;
+   - la case « Seulement les brasseries pas encore visitées » passe par
+     la même garde que les autres filtres ;
+   - les visites sont gardées comme `{ nom, date }`, rien d'autre, et
+     relues une par une ;
+   - « tout effacer » vide aussi le carnet ;
+   - le carnet passe d'un onglet à l'autre, comme les favoris.
+2. **Tests vus rouges** :
+   - en unitaire, une visite illisible tombe seule (avec « tout ou rien »,
+     le test échoue) ;
+   - en e2e, deux onglets gardent leurs deux visites (le partage entre
+     onglets retiré, le test échoue).
+3. **Revue adverse** (43 k) :
+   - **(haute)** un onglet resté ouvert réécrivait l'objet entier et
+     effaçait les visites de l'autre : le canal porte maintenant le
+     carnet ;
+   - **(moyenne)** CA5 et CA6 citaient des fichiers qui ne les testaient
+     pas : des tests réels sont écrits. Le lien copié est lu, et la date
+     n'y figure pas ;
+   - **(basse)** liste vide sous « pas encore visitées » : le compte dit
+     que c'est le carnet ;
+   - **(basse)** le nombre de visites comptait des brasseries invisibles
+     (couche OSM décochée) : il ne compte que celles qu'on peut voir ;
+   - **(basse)** l'annonce d'effacement omettait le carnet.
+   - Le reste de S33 : un test injecte un élément animé, pour prouver la
+     garde « moins d'animations » en permanence.

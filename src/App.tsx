@@ -5,6 +5,9 @@ import { BRASSERIES } from './core/donnees'
 import { communesConnues, libelleOrigine, type Origine } from './core/origine'
 import {
   basculerFavori,
+  basculerVisite,
+  dateDuJour,
+  lirePreferences,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
   RAYON,
@@ -59,7 +62,13 @@ function texteDuCompte(
   nbFavoris: number,
   partout: boolean,
   departement?: string,
+  pasVisitees = false,
 ): string {
+  // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
+  // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
+  if (n === 0 && pasVisitees) {
+    return 'Toutes celles qui correspondent sont dans votre carnet. Décochez « Seulement les brasseries pas encore visitées » pour les revoir.'
+  }
   // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon ;
   // un département choisi (S27) le dit.
   const ou =
@@ -87,6 +96,9 @@ function texteDuCompte(
   }
   return `Seulement vos favoris : ${String(n)} ${ou}`
 }
+
+/** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
+const lireVisitesRecues = (brut: unknown) => lirePreferences({ visites: brut }).visites
 
 export function App({
   stockage,
@@ -118,6 +130,10 @@ export function App({
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
   const [avecOsm, setAvecOsm] = useState(ini.avecOsm)
+  // Mon carnet (S35) : les brasseries visitées, avec leur date, sur
+  // l'appareil seulement.
+  const [visites, setVisites] = useState(ini.visites)
+  const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
   // Sur téléphone, les filtres secondaires sont repliés (S29 : la première
   // brasserie était à 2,1 écrans). Ouverts sur ordinateur, où ils tiennent
@@ -127,6 +143,7 @@ export function App({
     () =>
       window.matchMedia('(min-width: 900px)').matches ||
       ini.favorisSeulement ||
+      ini.pasVisitees ||
       ini.type !== undefined ||
       ini.categories.length < ORDRE_CATEGORIES.length ||
       (couche !== null && !ini.avecOsm),
@@ -233,12 +250,14 @@ export function App({
       favoris: [...favoris],
       favorisSeulement,
       avecOsm,
+      visites: [...visites],
+      pasVisitees,
     })
     const texte = JSON.stringify(p)
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
     stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm])
+  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees])
 
   // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
   // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
@@ -246,6 +265,7 @@ export function App({
   // reste des réglages suit le dernier onglet touché.
   const canal = useRef<BroadcastChannel | null>(null)
   const favorisPartages = useRef(JSON.stringify(favoris))
+  const visitesPartagees = useRef(JSON.stringify(visites))
   // Le canal s'ouvre une fois ; il appelle la remise à zéro par une référence.
   const remettreAZeroRef = useRef<() => void>(() => undefined)
   useEffect(() => {
@@ -255,6 +275,15 @@ export function App({
       const m = e.data as { type?: unknown; favoris?: unknown } | null
       if (m?.type === 'effacer') {
         remettreAZeroRef.current()
+        return
+      }
+      // Le carnet passe d'un onglet à l'autre comme les favoris : un onglet
+      // resté ouvert réécrivait l'objet entier et effaçait les visites de
+      // l'autre (revue adverse S35).
+      if (m?.type === 'visites') {
+        const recues = lireVisitesRecues((m as { visites?: unknown }).visites)
+        visitesPartagees.current = JSON.stringify(recues)
+        setVisites(recues)
         return
       }
       if (m?.type !== 'favoris' || !Array.isArray(m.favoris)) return
@@ -274,8 +303,19 @@ export function App({
     favorisPartages.current = texte
     canal.current?.postMessage({ type: 'favoris', favoris: [...favoris] })
   }, [favoris])
+  useEffect(() => {
+    const texte = JSON.stringify(visites)
+    if (texte === visitesPartagees.current) return
+    visitesPartagees.current = texte
+    canal.current?.postMessage({ type: 'visites', visites: [...visites] })
+  }, [visites])
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
+  const datesDeVisite = useMemo(() => new Map(visites.map((v) => [v.nom, v.date])), [visites])
+  const exclure = useMemo(
+    () => (pasVisitees ? new Set(visites.map((v) => v.nom)) : undefined),
+    [pasVisitees, visites],
+  )
 
   // Toute la France (S25) : la couche OpenStreetMap, chargée avant l'écran
   // (`main.tsx`), ou absente si elle n'a pas pu se charger.
@@ -301,8 +341,9 @@ export function App({
         categories,
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: new Set(favoris) } : {}),
+        ...(exclure === undefined ? {} : { exclure }),
       }),
-    [cherchees, categories, type, favorisSeulement, favoris],
+    [cherchees, categories, type, favorisSeulement, favoris, exclure],
   )
   // Un département qui n'a plus de brasserie (couche OSM décochée) tombe :
   // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
@@ -317,9 +358,10 @@ export function App({
         categories,
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
+        ...(exclure === undefined ? {} : { exclure }),
         ...(departement === undefined ? {} : { departement }),
       }),
-    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, departement],
+    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement],
   )
 
   // Ma tournée (S27) : les favoris encore présents, de proche en proche.
@@ -341,12 +383,16 @@ export function App({
   // dit et retirable, plutôt que compté en silence (revue code S9).
   // Pas avant la couche OSM : un favori qui en vient passerait pour disparu.
   const nomsConnus = useMemo(() => new Set(toutes.map((b) => b.n)), [toutes])
+  // Le carnet compte ce qu'on peut voir : une visite d'une brasserie OSM,
+  // couche décochée, ne gonfle pas le nombre (revue adverse S35).
+  const nomsCherches = useMemo(() => new Set(cherchees.map((b) => b.n)), [cherchees])
   const orphelins = osm.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
   const etatFiltres: EtatFiltres = {
     categories,
     favorisSeulement,
     sansOsm: osm.etat === 'pret' && !avecOsm,
+    pasVisitees,
     ...(departement === undefined ? {} : { departement }),
     ...(type === undefined ? {} : { type }),
   }
@@ -370,6 +416,7 @@ export function App({
     const d = PREFERENCES_DEFAUT
     dejaGarde.current = JSON.stringify(versStockage(d))
     favorisPartages.current = JSON.stringify(d.favoris)
+    visitesPartagees.current = JSON.stringify(d.visites)
     setRayonKm(d.rayonKm)
     setCategories(d.categories)
     setType(d.type)
@@ -378,6 +425,8 @@ export function App({
     setFavoris(d.favoris)
     setFavorisSeulement(d.favorisSeulement)
     setAvecOsm(d.avecOsm)
+    setVisites(d.visites)
+    setPasVisitees(d.pasVisitees)
   }, [])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
@@ -389,11 +438,17 @@ export function App({
       .then(() => {
         remettreAZero()
         canal.current?.postMessage({ type: 'effacer' })
-        setAnnonce('Favoris et réglages effacés de cet appareil.')
+        setAnnonce('Favoris, carnet et réglages effacés de cet appareil.')
       })
       .catch(() => {
         setAnnonce('L’effacement a échoué : rien n’a changé. Réessayez.')
       })
+  }
+
+  const basculerUneVisite = (nom: string) => {
+    const retrait = visites.some((v) => v.nom === nom)
+    setVisites((avant) => basculerVisite(avant, nom, dateDuJour(new Date())))
+    setAnnonce(retrait ? `« ${nom} » retirée de votre carnet.` : `« ${nom} » notée comme visitée.`)
   }
 
   const retirerOrphelins = () => {
@@ -615,6 +670,9 @@ export function App({
               stockageDisponible={stockage.disponible}
               onEffacer={toutEffacer}
               tournee={tournee}
+              nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}
+              pasVisitees={pasVisitees}
+              onPasVisitees={setPasVisitees}
             />
           </div>
         </details>
@@ -695,6 +753,8 @@ export function App({
             focaliser={focaliser}
             favoris={ensembleFavoris}
             onBasculerFavori={basculerUnFavori}
+            visites={datesDeVisite}
+            onBasculerVisite={basculerUneVisite}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))
@@ -731,7 +791,9 @@ export function App({
             nbFavorisConnus,
             partout,
             departement,
+            pasVisitees,
           )}
+          {pasVisitees && resultats.length > 0 ? ' (pas encore visitées)' : ''}
         </p>
         {resultats.length > 0 && (
           <button

@@ -28,6 +28,9 @@ interface Props {
   onChoisir: (nom: string) => void
   favoris: ReadonlySet<string>
   onBasculerFavori: (nom: string) => void
+  /** Mon carnet (S35) : nom → date de la visite (AAAA-MM-JJ). */
+  visites?: ReadonlyMap<string, string>
+  onBasculerVisite?: (nom: string) => void
 }
 
 /**
@@ -88,11 +91,15 @@ function Fiche({
   brasserie,
   favori,
   onBasculerFavori,
+  visite,
+  onBasculerVisite,
   onRefermer,
 }: {
   brasserie: Brasserie
   favori: boolean
   onBasculerFavori: () => void
+  visite: string | undefined
+  onBasculerVisite: () => void
   onRefermer: () => void
 }) {
   const hote = hoteDeSource(brasserie.src)
@@ -105,6 +112,12 @@ function Fiche({
         */}
         <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
           {favori ? '★ Retirer de mes favoris' : '☆ Ajouter à mes favoris'}
+        </button>
+        {/* Mon carnet (S35) : le jour seulement, gardé sur l'appareil. */}
+        <button type="button" onClick={onBasculerVisite} data-testid="bouton-visite">
+          {visite === undefined
+            ? 'J’y suis allé·e'
+            : `✓ Visitée le ${libelleVerification(visite)} — retirer du carnet`}
         </button>
         <BoutonPartager nom={brasserie.n} />
       </div>
@@ -216,6 +229,8 @@ export function Liste({
   onChoisir,
   favoris,
   onBasculerFavori,
+  visites = new Map<string, string>(),
+  onBasculerVisite = () => undefined,
 }: Props) {
   const liste = useRef<HTMLOListElement>(null)
 
@@ -244,6 +259,7 @@ export function Liste({
       {resultats.map(({ brasserie, distanceKm }) => {
         const ouverte = selection === brasserie.n
         const favori = favoris.has(brasserie.n)
+        const visite = visites.get(brasserie.n)
         return (
           <li key={brasserie.n} className={ouverte ? 'ouverte' : undefined}>
             <button
@@ -263,6 +279,13 @@ export function Liste({
                     {' '}
                     <span aria-hidden="true">★</span>
                     <span className="lecteur-seul">(favori)</span>
+                  </span>
+                )}
+                {visite !== undefined && (
+                  <span className="ligne-visite" data-testid="marque-visite">
+                    {' '}
+                    <span aria-hidden="true">✓</span>
+                    <span className="lecteur-seul">(visitée le {libelleVerification(visite)})</span>
                   </span>
                 )}
               </span>
@@ -321,6 +344,10 @@ export function Liste({
                 favori={favori}
                 onBasculerFavori={() => {
                   onBasculerFavori(brasserie.n)
+                }}
+                visite={visite}
+                onBasculerVisite={() => {
+                  onBasculerVisite(brasserie.n)
                 }}
                 onRefermer={() => {
                   // Le focus et l'écran reviennent sur la ligne : on reprend
