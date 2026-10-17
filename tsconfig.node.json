@@ -34,6 +34,7 @@
     "src/Horaires.tsx",
     "src/YAller.tsx",
     "src/ChoixCommune.tsx",
+    "src/crochets.ts",
     "src/communesFrance.ts",
     "src/localisation.ts",
     "src/miseAJour.ts",

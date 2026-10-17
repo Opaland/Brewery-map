@@ -2212,3 +2212,21 @@ choisit par fichier : les tests existants restent en node.
 `tests/composants/ChoixCommune.test.tsx` : clavier (flèche, Entrée, Échap)
 et confidentialité — avec la position pour départ, aucun fichier « par
 département » n'est demandé (vu rouge en forçant l'appel), témoin inverse.
+
+## S237 (1/n) — `App.tsx` découpé en crochets *(17/10)*
+
+Story d'abord (`docs/stories/S237.md`). Sortis dans `src/crochets.ts` :
+`useConnexion`, `useCarteEnVue`, `useHauteurBarre`,
+`useCarnetEntreOnglets`. `App.tsx` passe de 982 à 855 lignes, sans
+changement visible (suite e2e entière à la porte). Le carnet entre onglets
+a son test de composant (deux onglets montés, favori, visite, note,
+effacement, pas d'écho) : vu rouge sans l'envoi des favoris, et sans la
+mémoire anti-écho.
+
+## S234 (3/3) — WebKit, deuxième passage *(17/10)*
+
+173 réussis, 2 échecs, 4 instables. Le test de diagnostic prouve que la
+carte s'affiche sous WebKit : elle arrive seulement plus lentement (≈ 1 Mo)
+→ `versLaCarte` attend 15 s (attente de test). L'adresse `?raccourci=` lue
+trop tôt → `expect.poll`. La pression simulée à la souris ne donne pas
+`:active` sous WebKit émulé → Chromium seulement, iPhone réel en S96.

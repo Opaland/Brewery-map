@@ -27,6 +27,11 @@ export async function versLaCarte(page: Page): Promise<void> {
         document.querySelector('[data-testid="carte-en-attente"]')?.scrollIntoView()
       })
       return carte.count()
+    }, {
+      // Le morceau de la carte (≈ 1 Mo) arrive plus lentement sous WebKit en
+      // CI : 5 s par défaut ne suffisaient pas (S234). Attente de test, pas
+      // un seuil de l'application.
+      timeout: 15_000,
     })
     .toBeGreaterThan(0)
   await expect(carte).toBeVisible()

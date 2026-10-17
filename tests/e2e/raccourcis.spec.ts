@@ -29,7 +29,7 @@ test.describe('« Autour de moi »', () => {
   test('le raccourci part de la position, puis l’adresse redevient propre', async ({ page }) => {
     await page.goto('/?raccourci=autour')
     await expect(page.getByTestId('compte')).toContainText('de votre position')
-    expect(await page.evaluate(() => window.location.search)).toBe('')
+    await expect.poll(() => page.evaluate(() => window.location.search)).toBe('')
   })
 })
 

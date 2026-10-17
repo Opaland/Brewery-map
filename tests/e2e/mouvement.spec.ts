@@ -53,7 +53,11 @@ test.describe('« moins d’animations » demandé', () => {
   })
 })
 
-test('toucher une ligne l’enfonce un peu', async ({ page }) => {
+test('toucher une ligne l’enfonce un peu', async ({ page, browserName }) => {
+  // Sous WebKit émulé, la pression simulée à la souris ne donne pas `:active` ;
+  // sur un vrai iPhone, c'est l'écoute des touchers (main.tsx) qui le donne —
+  // à vérifier à la main (S96).
+  test.skip(browserName !== 'chromium', 'pression simulée sans `:active` sous WebKit émulé (S234)')
   await page.goto('/')
   const ligne = page.locator('button.ligne').first()
   const boite = await ligne.boundingBox()
