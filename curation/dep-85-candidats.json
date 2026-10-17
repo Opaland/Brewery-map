@@ -1,0 +1,855 @@
+[
+ {
+  "cle": "sirene:811993393",
+  "nom": "LA BRASSERIE DE L'ILE DE NOIRMOUTIER",
+  "communes": [
+   "LA GUERINIERE",
+   "AUBIGNY-LES CLOUZEAUX"
+  ],
+  "departement": "85",
+  "adresses": [
+   "ZA LES MANDELIERS 10 RUE DE TRANCHARD 85680 LA GUERINIERE",
+   "ZONE D'ACTIVITE DE LA TIGNONNIERE RUE DE LA GITE 85430 AUBIGNY-LES CLOUZEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "811993393",
+  "sirets": [
+   "81199339300032",
+   "81199339300040"
+  ],
+  "osm": [],
+  "lat": 46.973553266,
+  "lon": -2.245795992,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:482145885",
+  "nom": "MELUSINE",
+  "communes": [
+   "CHANVERRIE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "LA BARBOIRE 85130 CHANVERRIE",
+   "CHAMBRETAUD 9 RUE DES CHOUANS (LA VERRIE) 85500 CHANVERRIE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "482145885",
+  "sirets": [
+   "48214588500018",
+   "48214588500026"
+  ],
+  "osm": [
+   "node/7082485555"
+  ],
+  "lat": 46.91790058,
+  "lon": -0.956684678,
+  "site": "https://www.brasserie-melusine.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849290952",
+  "nom": "BRASSERIE LA COOPINE",
+  "communes": [
+   "LA ROCHE-SUR-YON",
+   "LUCON"
+  ],
+  "departement": "85",
+  "adresses": [
+   "12 BOULEVARD REAUMUR 85000 LA ROCHE-SUR-YON",
+   "11 ROUTE DE SAINTE-GEMME 85400 LUCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849290952",
+  "sirets": [
+   "84929095200019",
+   "84929095200027"
+  ],
+  "osm": [],
+  "lat": 46.667940815,
+  "lon": -1.439459791,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978022267",
+  "nom": "BRASSERIE DU DOMAINE DE LA HOUBLETTE",
+  "communes": [
+   "CHALLANS"
+  ],
+  "departement": "85",
+  "adresses": [
+   "34 CHEMIN DE LA VERONNIERE 85300 CHALLANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978022267",
+  "sirets": [
+   "97802226700022"
+  ],
+  "osm": [],
+  "lat": 46.8275670959813,
+  "lon": -1.81936089696671,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948990189",
+  "nom": "L'ECO PAIN",
+  "communes": [
+   "BOURNEZEAU"
+  ],
+  "departement": "85",
+  "adresses": [
+   "73 RUE ARCHEREAU 85480 BOURNEZEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948990189",
+  "sirets": [
+   "94899018900029"
+  ],
+  "osm": [],
+  "lat": 46.628860022,
+  "lon": -1.15992802,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921918124",
+  "nom": "MICROBRASSERIE LA TORCHE",
+  "communes": [
+   "MONTAIGU-VENDEE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "184 RUE JOSEPH GAILLARD 85600 MONTAIGU-VENDEE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921918124",
+  "sirets": [
+   "92191812400014"
+  ],
+  "osm": [],
+  "lat": 46.983252043,
+  "lon": -1.321212979,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850400805",
+  "nom": "LES FOUS BRASSANT",
+  "communes": [
+   "L'ILE-D'YEU"
+  ],
+  "departement": "85",
+  "adresses": [
+   "21 ROUTE DES ROCHES COUGNERES 85350 L'ILE-D'YEU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850400805",
+  "sirets": [
+   "85040080500014"
+  ],
+  "osm": [
+   "way/151834375"
+  ],
+  "lat": 46.715613004,
+  "lon": -2.362505995,
+  "site": "https://lesfousbrassant.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE MORTANIA",
+  "communes": [
+   "MORTAGNE-SUR-SEVRE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "GALERIE BELLEVUE ALLEE DES PEUPLIERS 85290 MORTAGNE-SUR-SEVRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BEAUFOU"
+  ],
+  "departement": "85",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:829049501",
+  "nom": "MK PRODUCTION",
+  "communes": [
+   "APREMONT"
+  ],
+  "departement": "85",
+  "adresses": [
+   "LD LA THEBAULTIERE 85220 APREMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829049501",
+  "sirets": [
+   "82904950100036"
+  ],
+  "osm": [],
+  "lat": 46.742292669,
+  "lon": -1.758017912,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850969130",
+  "nom": "SMEELE",
+  "communes": [
+   "LUCON"
+  ],
+  "departement": "85",
+  "adresses": [
+   "9023 ROUTE DE LA ROCHE SUR YON 85400 LUCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850969130",
+  "sirets": [
+   "85096913000010"
+  ],
+  "osm": [],
+  "lat": 46.472706852,
+  "lon": -1.178061683,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849104724",
+  "nom": "BRASSERIE DU MARSOUIN",
+  "communes": [
+   "BRETIGNOLLES-SUR-MER"
+  ],
+  "departement": "85",
+  "adresses": [
+   "ZA PEUBLE 21 RUE GUTENBERG 85470 BRETIGNOLLES-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849104724",
+  "sirets": [
+   "84910472400018"
+  ],
+  "osm": [],
+  "lat": 46.6359256517765,
+  "lon": -1.83782002875087,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920573052",
+  "nom": "BRASSERIE PLUME",
+  "communes": [
+   "CHATEAUNEUF"
+  ],
+  "departement": "85",
+  "adresses": [
+   "4 LES LOGES 85710 CHATEAUNEUF"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920573052",
+  "sirets": [
+   "92057305200015"
+  ],
+  "osm": [],
+  "lat": 46.9075470335629,
+  "lon": -1.90943186008539,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818253700",
+  "nom": "SARL BONNIN",
+  "communes": [
+   "MAILLE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "6 RUE SAINT-NICOLAS 85420 MAILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818253700",
+  "sirets": [
+   "81825370000020"
+  ],
+  "osm": [],
+  "lat": 46.3437310137805,
+  "lon": -0.788470066795357,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827897562",
+  "nom": "GARATELLE BRASSERIE BIO DU PAYS DES OLONNES",
+  "communes": [
+   "VAIRE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "10 RUE DE LA NOUETTE 85150 VAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827897562",
+  "sirets": [
+   "82789756200019"
+  ],
+  "osm": [],
+  "lat": 46.605095254,
+  "lon": -1.762797185,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840088876",
+  "nom": "BRASSERIE OPE",
+  "communes": [
+   "LES SABLES D'OLONNE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "28 T ALL ALAIN GAUTIER 85100 LES SABLES D'OLONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840088876",
+  "sirets": [
+   "84008887600015"
+  ],
+  "osm": [],
+  "lat": 46.520127015,
+  "lon": -1.785383989,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983070608",
+  "nom": "TABERNAUDE BREW CO",
+  "communes": [
+   "L'ILE-D'YEU"
+  ],
+  "departement": "85",
+  "adresses": [
+   "PORT JOINVILLE 3 RUE DES QUAIS 85350 L'ILE-D'YEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983070608",
+  "sirets": [
+   "98307060800010"
+  ],
+  "osm": [],
+  "lat": 46.727109867,
+  "lon": -2.350222682,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838018182",
+  "nom": "LA FABRIK",
+  "communes": [
+   "LA ROCHE-SUR-YON"
+  ],
+  "departement": "85",
+  "adresses": [
+   "36 RUE DE MONTREAL 85000 LA ROCHE-SUR-YON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838018182",
+  "sirets": [
+   "83801818200017"
+  ],
+  "osm": [],
+  "lat": 46.656776076,
+  "lon": -1.447085692,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838758829",
+  "nom": "BRASSERIE DES CHATS NOIRS",
+  "communes": [
+   "ROCHE SUR YON (LA)"
+  ],
+  "departement": "85",
+  "adresses": [
+   "NOIRON - D160 - LA CHAUVIERE RTE DE CHOLET 85000 ROCHE SUR YON (LA)"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838758829",
+  "sirets": [
+   "83875882900033"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880004338",
+  "nom": "BRASSERIE ZIA",
+  "communes": [
+   "CHAUCHE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "VGE ARTISANAL DE LA MOTHE 8 RUE SAINT-GABRIEL 85140 CHAUCHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880004338",
+  "sirets": [
+   "88000433800013"
+  ],
+  "osm": [],
+  "lat": 46.825860065,
+  "lon": -1.26973043,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "RIVES DE L'YON"
+  ],
+  "departement": "85",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:432156222",
+  "nom": "MELUSINE",
+  "communes": [
+   "CHANVERRIE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "Z A E LA BARBOIRE 85130 CHANVERRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "432156222",
+  "sirets": [
+   "43215622200015"
+  ],
+  "osm": [],
+  "lat": 46.916345334,
+  "lon": -0.948209587,
+  "statut": "doublon",
+  "fiche": "MELUSINE"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "JARD-SUR-MER"
+  ],
+  "departement": "85",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:811639129",
+  "nom": "BRASSERIE LE BROUHAHA",
+  "communes": [
+   "LA FERRIERE"
+  ],
+  "departement": "85",
+  "adresses": [
+   "1 CHEMIN DU GRAND VERGER 85280 LA FERRIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "811639129",
+  "sirets": [
+   "81163912900022"
+  ],
+  "osm": [],
+  "lat": 46.7122666030356,
+  "lon": -1.30826110163826,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "LES PINEAUX"
+  ],
+  "departement": "85",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:518319983",
+  "nom": "FERME-BRASSERIE LA MUETTE",
+  "communes": [
+   "BAZOGES-EN-PAREDS"
+  ],
+  "departement": "85",
+  "adresses": [
+   "LA MUETTE 85390 BAZOGES-EN-PAREDS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "518319983",
+  "sirets": [
+   "51831998300012"
+  ],
+  "osm": [],
+  "lat": 46.680546517,
+  "lon": -0.969618257,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11089223507",
+  "nom": "Les Brasseurs de la Vie",
+  "communes": [
+   "Saint-Gilles-Croix-de-Vie"
+  ],
+  "departement": "85",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11089223507"
+  ],
+  "lat": 46.69292,
+  "lon": -1.90015,
+  "statut": "ambigu",
+  "fiche": "Brasserie Longue Vie"
+ },
+ {
+  "cle": "node/11740791455",
+  "nom": "Brasserie Les Coureurs de Lune",
+  "communes": [
+   "La Ferrière"
+  ],
+  "departement": "85",
+  "adresses": [
+   "85280 La Ferrière"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11740791455",
+   "node/11740811003"
+  ],
+  "lat": 46.69227,
+  "lon": -1.36587,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11740796277",
+  "nom": "Le Grand Duc",
+  "communes": [
+   "Apremont"
+  ],
+  "departement": "85",
+  "adresses": [
+   "85220 Apremont"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11740796277"
+  ],
+  "lat": 46.74242,
+  "lon": -1.75762,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4485264669",
+  "nom": "La Cibulle",
+  "communes": [
+   "Maillé"
+  ],
+  "departement": "85",
+  "adresses": [
+   "7 Rue de la Poste, 85420 Maillé"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4485264669"
+  ],
+  "lat": 46.34237,
+  "lon": -0.78809,
+  "site": "https://www.lacibulle.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5401552281",
+  "nom": "Brasserie La N'O",
+  "communes": [
+   "La Guérinière"
+  ],
+  "departement": "85",
+  "adresses": [
+   "12 Rue de Tranchard, 85680 La Guérinière"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5401552281"
+  ],
+  "lat": 46.97407,
+  "lon": -2.24666,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6423215348",
+  "nom": "Brasserie des Chats Noirs",
+  "communes": [
+   "Landeronde"
+  ],
+  "departement": "85",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6423215348"
+  ],
+  "lat": 46.64132,
+  "lon": -1.53968,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DES CHATS NOIRS"
+ },
+ {
+  "cle": "node/6507849378",
+  "nom": "Au P'tit Bouchon",
+  "communes": [
+   "Challans"
+  ],
+  "departement": "85",
+  "adresses": [
+   "5 Rue Gallieni"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6507849378"
+  ],
+  "lat": 46.8484,
+  "lon": -1.87787,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1003170882",
+  "nom": "3 Brasseurs (Mouilleron-le-Captif)",
+  "communes": [
+   "Mouilleron-le-Captif"
+  ],
+  "departement": "85",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1003170882"
+  ],
+  "lat": 46.69899,
+  "lon": -1.43054,
+  "site": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/107960895",
+  "nom": "Beer Workshop",
+  "communes": [
+   "La Mothe-Achard"
+  ],
+  "departement": "85",
+  "adresses": [
+   "17 Rue de la Camamine, 85150 La Mothe-Achard"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/107960895"
+  ],
+  "lat": 46.60291,
+  "lon": -1.6658,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/110396966",
+  "nom": "Chez Tata",
+  "communes": [
+   "La Chaize-le-Vicomte"
+  ],
+  "departement": "85",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/110396966"
+  ],
+  "lat": 46.66704,
+  "lon": -1.32987,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1151931377",
+  "nom": "Bocage bières boisssons",
+  "communes": [
+   "Les Châteliers-Châteaumur"
+  ],
+  "departement": "85",
+  "adresses": [
+   "4 Rue du Progrès, 85700 Les Châteliers-Châteaumur"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1151931377"
+  ],
+  "lat": 46.85155,
+  "lon": -0.82019,
+  "site": "https://www.bocagebieresboissons.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/182460501",
+  "nom": "L'Atelier",
+  "communes": [
+   "Luçon"
+  ],
+  "departement": "85",
+  "adresses": [
+   "16A Boulevard Michel Phélippon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/182460501"
+  ],
+  "lat": 46.45796,
+  "lon": -1.1795,
+  "site": "https://latelier-restaurant-lucon.fr/",
+  "statut": "nouveau"
+ }
+]
