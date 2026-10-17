@@ -6,15 +6,15 @@
    "changements": {
     "lat": 45.677612,
     "lon": 4.769167,
-    "coordPrecision": "address",
-    "addr": "2 A Route de Lyon, 69530 Brignais"
+    "coordPrecision": "address"
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
     "https://data.geopf.fr/geocodage/search?limit=1&q=2%20A%20Route%20de%20Lyon%2C%2069530%20Brignais"
    ],
-   "extrait": "Adresse lue : « 2 A Route de Lyon69530, Brignais » (https://www.ninkasi.fr/lieux/ninkasi-brignais/). Géoplateforme (BAN) : « 2a Route de Lyon 69530 Brignais », numéro trouvé (score 0.793)."
+   "extrait": "Adresse lue : « 2 A Route de Lyon69530, Brignais » (https://www.ninkasi.fr/lieux/ninkasi-brignais/). Géoplateforme (BAN) : « 2a Route de Lyon 69530 Brignais », numéro trouvé (score 0.793).",
+   "choix": "l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
   },
   {
    "n": "Caribrew",
@@ -313,8 +313,7 @@
    "changements": {
     "lat": 45.979583,
     "lon": 4.726651,
-    "coordPrecision": "address",
-    "addr": "Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône"
+    "coordPrecision": "address"
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -322,30 +321,29 @@
     "https://data.geopf.fr/geocodage/search?limit=1&q=Parc%20Avenue%2C%20592%20Boulevard%20Albert%20Camus%2C%20B%C3%A2timent%20G%2C%2069400%20Villefranche-sur-Sa%C3%B4ne"
    ],
    "extrait": "Adresse lue : « Parc Avenue, 592 Boulevard Albert Camus Bâtiment G, 69400 Villefranche-sur-Saône » (https://www.terredebieres.fr/). Géoplateforme (BAN) : « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », numéro trouvé (score 0.634).",
-   "choix": "score faible (0.634) : comparer l'adresse trouvée, « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », à l'adresse demandée, « Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône » ; refuser si ce n'est pas la même rue"
+   "choix": "score faible (0.634) : comparer l'adresse trouvée, « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », à l'adresse demandée, « Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
   },
   {
    "n": "L'Affoleuse",
    "changements": {
     "lat": 46.007949,
     "lon": 4.639198,
-    "coordPrecision": "address",
-    "addr": "3 impasse de Montromand, 69640 Denicé"
+    "coordPrecision": "address"
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://laffoleuse.net/contact",
     "https://data.geopf.fr/geocodage/search?limit=1&q=3%20impasse%20de%20Montromand%2C%2069640%20Denic%C3%A9"
    ],
-   "extrait": "Adresse lue : « 3 impasse de Montromand, 69640 Denicé, phone 04 74 62 86 05 » (https://laffoleuse.net/contact). Géoplateforme (BAN) : « 3 Impasse de Montromand 69640 Denicé », numéro trouvé (score 0.945)."
+   "extrait": "Adresse lue : « 3 impasse de Montromand, 69640 Denicé, phone 04 74 62 86 05 » (https://laffoleuse.net/contact). Géoplateforme (BAN) : « 3 Impasse de Montromand 69640 Denicé », numéro trouvé (score 0.945).",
+   "choix": "l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
   },
   {
    "n": "Brasserie Stéphanoise",
    "changements": {
     "lat": 45.416064,
     "lon": 4.391308,
-    "coordPrecision": "address",
-    "addr": "11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne"
+    "coordPrecision": "address"
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -353,15 +351,14 @@
     "https://data.geopf.fr/geocodage/search?limit=1&q=11bis%20rue%20Buffon%2C%20Quartier%20Bellevue%2C%20site%20Mosser%2C%2042100%20Saint-%C3%89tienne"
    ],
    "extrait": "Adresse lue : « 11bis rue Buffon Quartier Bellevue site Mosser 42100 - Saint-Étienne (site officiel, résumé de l'outil) » (https://www.labrasseriestephanoise.com/). Géoplateforme (BAN) : « 11bis Rue Buffon 42100 Saint-Étienne », numéro trouvé (score 0.505).",
-   "choix": "score faible (0.505) : comparer l'adresse trouvée, « 11bis Rue Buffon 42100 Saint-Étienne », à l'adresse demandée, « 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne » ; refuser si ce n'est pas la même rue"
+   "choix": "score faible (0.505) : comparer l'adresse trouvée, « 11bis Rue Buffon 42100 Saint-Étienne », à l'adresse demandée, « 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
   },
   {
    "n": "Ninkasi Saint-Étienne",
    "changements": {
     "lat": 45.453711,
     "lon": 4.389186,
-    "coordPrecision": "address",
-    "addr": "Sam Center, 11 rue Barrouin, 42000 Saint-Étienne"
+    "coordPrecision": "address"
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -369,7 +366,7 @@
     "https://data.geopf.fr/geocodage/search?limit=1&q=Sam%20Center%2C%2011%20rue%20Barrouin%2C%2042000%20Saint-%C3%89tienne"
    ],
    "extrait": "Adresse lue : « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne (site officiel du réseau, résumé de l'outil) » (https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/). Géoplateforme (BAN) : « 11 Rue Barrouin 42000 Saint-Étienne », numéro trouvé (score 0.68).",
-   "choix": "score faible (0.68) : comparer l'adresse trouvée, « 11 Rue Barrouin 42000 Saint-Étienne », à l'adresse demandée, « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne » ; refuser si ce n'est pas la même rue"
+   "choix": "score faible (0.68) : comparer l'adresse trouvée, « 11 Rue Barrouin 42000 Saint-Étienne », à l'adresse demandée, « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
   },
   {
    "n": "Brasserie des Ursulines",

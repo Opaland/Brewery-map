@@ -38,7 +38,10 @@ const changementsSchema = brasserieObjetSchema
     (c) => [c.lat, c.lon, c.coordPrecision].every((v) => v === undefined) || [c.lat, c.lon, c.coordPrecision].every((v) => v !== undefined),
     { message: 'une position se propose entière : lat, lon et coordPrecision' },
   )
-  .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche au centre de sa commune' })
+    .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche au centre de sa commune' })
+  // « osm » est la précision des fiches venues d'OpenStreetMap (S14, S25), pas
+  // une position qu'un vérificateur affirme (revue adverse S54).
+  .refine((c) => c.coordPrecision !== 'osm', { message: '« osm » est réservé aux fiches venues d’OpenStreetMap' })
 
 export const propositionSchema = z
   .object({
@@ -88,11 +91,19 @@ export type Ajout = z.infer<typeof ajoutSchema>
  * date écrite est sa `verifieLe`. Sinon Cédric jugerait sur une page et la
  * fiche en citerait une autre.
  */
+/** Le géocodeur de la Géoplateforme (IGN, Base Adresse Nationale). */
+export const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
+
 function preuvesCoherentes(p: Proposition): string[] {
   const erreurs: string[] = []
   const lues = new Set(p.sources)
   const { src, contact, horaires } = p.changements
-  if (src !== undefined && src !== '' && !lues.has(src)) erreurs.push('src n’est pas une des sources lues')
+    if (src !== undefined && src !== '' && !lues.has(src)) erreurs.push('src n’est pas une des sources lues')
+  // Une position « à l'adresse » vient du géocodeur de l'IGN (S52) : sa
+  // requête est une des sources, pour que la position se rejoue.
+  if (p.changements.coordPrecision === 'address' && !p.sources.some((u) => u.startsWith(GEOCODEUR))) {
+    erreurs.push('une position « address » cite le géocodeur parmi ses sources')
+  }
   const blocs = [...(contact === undefined ? [] : [{ nom: 'contact', b: contact }]), ...(horaires ?? []).map((b, i) => ({ nom: `horaires.${String(i)}`, b }))]
   for (const { nom, b } of blocs) {
     if (!lues.has(b.source)) erreurs.push(`${nom}.source n’est pas une des sources lues`)

@@ -12,7 +12,7 @@ Géoplateforme de l'IGN (Base Adresse Nationale), et seulement quand le
 numéro de rue est trouvé dans la bonne commune. `km` est recalculé ; la date
 de vérification de la fiche ne change pas (sa catégorie n'a pas été revue).
 
-**18 propositions portent une réserve** (« Choix du vérificateur ») : score
+**20 propositions portent une réserve** (« Choix du vérificateur ») : score
 faible du géocodeur, ou adresse lue sur un annuaire. À regarder d'abord.
 
 **Pour décider** : réponds « j'accepte 1, 3, 4… », ou « j'accepte tout sauf
@@ -64,13 +64,14 @@ procédure à décider, S82).
 
 - lat : 45.676 → 45.677612
 - lon : 4.751 → 4.769167
-- addr : Brignais → 2 A Route de Lyon, 69530 Brignais
 - coordPrecision : commune → address
 - déplacement sur la carte : 1,4 km
 
 Sources (vérifiée le 2026-10-17) : https://www.ninkasi.fr/lieux/ninkasi-brignais/ ; https://data.geopf.fr/geocodage/search?limit=1&q=2%20A%20Route%20de%20Lyon%2C%2069530%20Brignais
 
 Extrait lu : « Adresse lue : « 2 A Route de Lyon69530, Brignais » (https://www.ninkasi.fr/lieux/ninkasi-brignais/). Géoplateforme (BAN) : « 2a Route de Lyon 69530 Brignais », numéro trouvé (score 0.793). »
+
+Choix du vérificateur : l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part
 
 ### 2. Caribrew
 
@@ -319,7 +320,6 @@ Extrait lu : « Adresse lue : « 1932 Route de Villefranche69480 Anse » (https:
 
 - lat : 45.9908 → 45.979583
 - lon : 4.7194 → 4.726651
-- addr : 592 bd Albert Camus, 69400 Villefranche-sur-Saône → Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône
 - coordPrecision : commune → address
 - déplacement sur la carte : 1,4 km
 
@@ -327,13 +327,12 @@ Sources (vérifiée le 2026-10-17) : https://www.terredebieres.fr/ ; https://dat
 
 Extrait lu : « Adresse lue : « Parc Avenue, 592 Boulevard Albert Camus Bâtiment G, 69400 Villefranche-sur-Saône » (https://www.terredebieres.fr/). Géoplateforme (BAN) : « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », numéro trouvé (score 0.634). »
 
-Choix du vérificateur : score faible (0.634) : comparer l'adresse trouvée, « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », à l'adresse demandée, « Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône » ; refuser si ce n'est pas la même rue
+Choix du vérificateur : score faible (0.634) : comparer l'adresse trouvée, « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », à l'adresse demandée, « Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part
 
 ### 24. L'Affoleuse
 
 - lat : 45.997 → 46.007949
 - lon : 4.673 → 4.639198
-- addr : Denicé → 3 impasse de Montromand, 69640 Denicé
 - coordPrecision : commune → address
 - déplacement sur la carte : 2,9 km
 
@@ -341,11 +340,12 @@ Sources (vérifiée le 2026-10-17) : https://laffoleuse.net/contact ; https://da
 
 Extrait lu : « Adresse lue : « 3 impasse de Montromand, 69640 Denicé, phone 04 74 62 86 05 » (https://laffoleuse.net/contact). Géoplateforme (BAN) : « 3 Impasse de Montromand 69640 Denicé », numéro trouvé (score 0.945). »
 
+Choix du vérificateur : l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part
+
 ### 25. Brasserie Stéphanoise
 
 - lat : 45.4397 → 45.416064
 - lon : 4.3872 → 4.391308
-- addr : 11 bis rue Buffon, 42100 Saint-Étienne → 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne
 - coordPrecision : commune → address
 - déplacement sur la carte : 2,6 km
 
@@ -353,13 +353,12 @@ Sources (vérifiée le 2026-10-17) : https://www.labrasseriestephanoise.com/ ; h
 
 Extrait lu : « Adresse lue : « 11bis rue Buffon Quartier Bellevue site Mosser 42100 - Saint-Étienne (site officiel, résumé de l'outil) » (https://www.labrasseriestephanoise.com/). Géoplateforme (BAN) : « 11bis Rue Buffon 42100 Saint-Étienne », numéro trouvé (score 0.505). »
 
-Choix du vérificateur : score faible (0.505) : comparer l'adresse trouvée, « 11bis Rue Buffon 42100 Saint-Étienne », à l'adresse demandée, « 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne » ; refuser si ce n'est pas la même rue
+Choix du vérificateur : score faible (0.505) : comparer l'adresse trouvée, « 11bis Rue Buffon 42100 Saint-Étienne », à l'adresse demandée, « 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part
 
 ### 26. Ninkasi Saint-Étienne
 
 - lat : 45.42775 → 45.453711
 - lon : 4.3886 → 4.389186
-- addr : Saint-Étienne → Sam Center, 11 rue Barrouin, 42000 Saint-Étienne
 - coordPrecision : commune → address
 - déplacement sur la carte : 2,9 km
 
@@ -367,7 +366,7 @@ Sources (vérifiée le 2026-10-17) : https://www.ninkasi.fr/lieux/ninkasi-saint-
 
 Extrait lu : « Adresse lue : « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne (site officiel du réseau, résumé de l'outil) » (https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/). Géoplateforme (BAN) : « 11 Rue Barrouin 42000 Saint-Étienne », numéro trouvé (score 0.68). »
 
-Choix du vérificateur : score faible (0.68) : comparer l'adresse trouvée, « 11 Rue Barrouin 42000 Saint-Étienne », à l'adresse demandée, « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne » ; refuser si ce n'est pas la même rue
+Choix du vérificateur : score faible (0.68) : comparer l'adresse trouvée, « 11 Rue Barrouin 42000 Saint-Étienne », à l'adresse demandée, « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part
 
 ### 27. Brasserie des Ursulines
 
@@ -904,4 +903,4 @@ Sources (vérifiée le 2026-10-17) : https://data.geopf.fr/geocodage/search?limi
 
 Extrait lu : « Adresse de la fiche : « 37 chemin des gîtes, 38530 Barraux ». Géoplateforme (BAN) : « 37 Chemin des Gîtes 38530 Barraux », numéro trouvé (score 0.952). »
 
-Empreinte du lot : d9a586a73d3d
+Empreinte du lot : 83956b462c32

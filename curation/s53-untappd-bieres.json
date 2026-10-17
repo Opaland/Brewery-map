@@ -16,8 +16,8 @@
       "url": "https://untappd.com/b/la-canute-lyonnaise-tete-d-or/1128473"
      },
      {
-      "type": "autre",
-      "libelle": "Confluence (Belgian Blonde)",
+      "type": "blonde",
+      "libelle": "Confluence",
       "url": "https://untappd.com/b/la-capsule-lyonnaise-confluence/1126170"
      },
      {
@@ -287,7 +287,7 @@
       "url": "https://untappd.com/b/la-loupiote-blonde-loustic/2733740"
      },
      {
-      "type": "lager",
+      "type": "ambree",
       "libelle": "Ambrée - Loubarde",
       "url": "https://untappd.com/b/la-loupiote-ambree-loubarde/2718984"
      },
@@ -323,7 +323,7 @@
     "https://untappd.com/Brasserie_Loupiote"
    ],
    "extrait": "La Loupiote — Irigny, Auvergne-Rhône-Alpes France. Bières : IPA - L'Outrance : IPA - Other ; Blonde - Loustic : Pilsner - Czech / Bohemian ; Ambrée - Loubarde : Lager - Amber / Red ; Blanche - Louange : Wheat Beer - Witbier / Blanche ; Douceur Tropicale : IPA - New England / Hazy ; Triple - Loufoque : Belgian Tripel ; Ambrée IPA : IPA - American ; Black IPA : IPA - Black / Cascadian Dark Ale",
-   "choix": "ATTENTION : Untappd place La Loupiote à Irigny, et la fiche la met à Saint-Genis-l'Argentière (175 route de Lyon). Je n'ai pas pu expliquer l'écart. Je retiens la page parce que quatre noms de bières (L'Outrance, Loustic, Louange, Loufoque) sont les mêmes que sur la source de la fiche (marechal-fraicheur.fr, vu dans les résultats de recherche), mais c'est un recoupement, pas une preuve. À valider avant d'accepter. Liste de 28 bières, 8 retenues ; Black IPA, Loup-Reed, L'Enjoleuse et Hoppy Sour écartées. Loubarde, « Lager - Amber / Red », est rangée en ambrée par la règle Amber/Red. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+   "choix": "ATTENTION : Untappd place La Loupiote à Irigny, et la fiche la met à Saint-Genis-l'Argentière (175 route de Lyon). Je n'ai pas pu expliquer l'écart. Je retiens la page parce que quatre noms de bières (L'Outrance, Loustic, Louange, Loufoque) sont les mêmes que sur la source de la fiche (marechal-fraicheur.fr, vu dans les résultats de recherche), mais c'est un recoupement, pas une preuve. À valider avant d'accepter. Liste de 28 bières, 8 retenues ; Black IPA, Loup-Reed, L'Enjoleuse et Hoppy Sour écartées. « Lager - Amber / Red » (Loubarde) est rangée en ambrée. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
   },
   {
    "n": "Single Track",
@@ -408,8 +408,8 @@
       "url": "https://untappd.com/b/brasserie-dulion-triple-grain/1291940"
      },
      {
-      "type": "autre",
-      "libelle": "Avant Garde (Belgian Blonde)",
+      "type": "blonde",
+      "libelle": "Avant Garde",
       "url": "https://untappd.com/b/brasserie-dulion-avant-garde/1041607"
      },
      {
@@ -721,7 +721,7 @@
       "url": "https://untappd.com/b/brasserie-de-la-sanne-surieuse-triple/3017583"
      },
      {
-      "type": "lager",
+      "type": "ambree",
       "libelle": "'Til the End",
       "url": "https://untappd.com/b/brasserie-de-la-sanne-til-the-end/4450000"
      },
@@ -924,8 +924,8 @@
       "url": "https://untappd.com/b/brasserie-amalthee-mystic-berry/6322398"
      },
      {
-      "type": "autre",
-      "libelle": "Lunaire (Wheat Beer - American Pale Wheat)",
+      "type": "blanche",
+      "libelle": "Lunaire",
       "url": "https://untappd.com/b/brasserie-amalthee-lunaire/5775200"
      },
      {
@@ -1385,8 +1385,8 @@
       "url": "https://untappd.com/b/la-voie-maltee-coup-de-soleil/1613420"
      },
      {
-      "type": "autre",
-      "libelle": "Habemus Papam (Wheat Beer - Dunkelweizen)",
+      "type": "blanche",
+      "libelle": "Habemus Papam",
       "url": "https://untappd.com/b/la-voie-maltee-habemus-papam-ou-pas/2416654"
      }
     ]
@@ -1413,8 +1413,8 @@
       "url": "https://untappd.com/b/riviere-d-ain-thou-double-blanche/1521376"
      },
      {
-      "type": "autre",
-      "libelle": "Rivière d'Ain Blonde (Belgian Blonde)",
+      "type": "blonde",
+      "libelle": "Rivière d'Ain Blonde",
       "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-blonde/1542033"
      },
      {
@@ -1491,8 +1491,8 @@
       "url": "https://untappd.com/b/les-deux-branches-sequoyah/4343066"
      },
      {
-      "type": "autre",
-      "libelle": "Graines de Lune (Wheat Beer - Hopfenweisse)",
+      "type": "blanche",
+      "libelle": "Graines de Lune",
       "url": "https://untappd.com/b/les-deux-branches-graines-de-lune/3771276"
      },
      {
@@ -1544,7 +1544,7 @@
       "url": "https://untappd.com/b/two-hats-brewing-lager/2948551"
      },
      {
-      "type": "lager",
+      "type": "ambree",
       "libelle": "Fest",
       "url": "https://untappd.com/b/two-hats-brewing-fest/3985450"
      },
@@ -2099,7 +2099,7 @@
       "url": "https://untappd.com/b/la-mousse-du-herisson-blanche-framboise-bio/4114659"
      },
      {
-      "type": "lager",
+      "type": "ambree",
       "libelle": "Ambrée Bio",
       "url": "https://untappd.com/b/la-mousse-du-herisson-ambree-bio/3969966"
      },

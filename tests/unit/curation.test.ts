@@ -111,10 +111,21 @@ describe('ce qu’une proposition ne peut pas changer (revue code S11)', () => {
 
 describe('proposer une position (S52, Cédric le 17/10 : « la localisation ne correspond pas à l’adresse »)', () => {
   const POSITION = { lat: 45.7, lon: 4.8, coordPrecision: 'address' as const }
-  const deplacement = { ...proposition, changements: POSITION }
+  const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?limit=1&q=1%20rue%20Exemple'
+  const deplacement = { ...proposition, changements: POSITION, sources: [GEOCODEUR] }
 
   it('accepte les trois ensemble : latitude, longitude, précision', () => {
     expect(lireLot({ lot: 'x', propositions: [deplacement] }, AUJOURDHUI).ok).toBe(true)
+  })
+
+  it('refuse « osm » : cette précision est réservée aux fiches venues d’OpenStreetMap (revue adverse S54)', () => {
+    const osm = { ...proposition, changements: { ...POSITION, coordPrecision: 'osm' } }
+    expect(lireLot({ lot: 'x', propositions: [osm] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('« address » exige le géocodeur parmi les sources lues (revue adverse S54)', () => {
+    const sansGeocodeur = { ...deplacement, sources: ['https://example.com/'] }
+    expect(lireLot({ lot: 'x', propositions: [sansGeocodeur] }, AUJOURDHUI).ok).toBe(false)
   })
 
   it('refuse de ramener une fiche au centre de sa commune', () => {

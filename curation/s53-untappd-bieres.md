@@ -33,6 +33,18 @@ si elles sont encore brassées.
 contact dans les deux, le dernier appliqué l'emporte. Je fusionnerai à
 l'application.
 
+**Rangement des styles Untappd** : le style affiché par Untappd décide, pas
+le nom de la bière (`typeDuStyleUntappd`, `src/core/bieres.ts`, testé). Une
+« Blonde » au style Pale Ale reste « autre », avec son style dans le libellé ;
+une « Ambrée » au style Brown Ale est une brune. Les listes lues sur un site
+officiel suivent le style écrit par la brasserie.
+
+**Une décision pour toi, sur les dates** : la règle de S11 veut que la date
+« Vérifiée le » de la fiche couvre aussi ses bières. Accepter des bières
+date donc la fiche du 17/10 (39 fiches), alors que sa catégorie n'a pas été
+revue (revue adverse). Deux choix : garder la règle, ou dire que les bières,
+comme le contact, ne datent pas la fiche. Je n'ai rien changé sans toi.
+
 **Pour décider** : « j'accepte 1, 3, 4… » ou « tout sauf … ».
 
 ## Lot s53-untappd-bieres — 42 proposition(s)
@@ -43,8 +55,8 @@ l'application.
 - beers.0.type : (vide) → autre
 - beers.0.libelle : (vide) → Tête d'Or (Pale Ale - American)
 - beers.0.url : (vide) → https://untappd.com/b/la-canute-lyonnaise-tete-d-or/1128473
-- beers.1.type : (vide) → autre
-- beers.1.libelle : (vide) → Confluence (Belgian Blonde)
+- beers.1.type : (vide) → blonde
+- beers.1.libelle : (vide) → Confluence
 - beers.1.url : (vide) → https://untappd.com/b/la-capsule-lyonnaise-confluence/1126170
 - beers.2.type : (vide) → ambree
 - beers.2.libelle : (vide) → X Rousse
@@ -219,7 +231,7 @@ Choix du vérificateur : Le site officiel a été ouvert (adresse « 237 route d
 - beers.1.type : (vide) → lager
 - beers.1.libelle : (vide) → Blonde - Loustic
 - beers.1.url : (vide) → https://untappd.com/b/la-loupiote-blonde-loustic/2733740
-- beers.2.type : (vide) → lager
+- beers.2.type : (vide) → ambree
 - beers.2.libelle : (vide) → Ambrée - Loubarde
 - beers.2.url : (vide) → https://untappd.com/b/la-loupiote-ambree-loubarde/2718984
 - beers.3.type : (vide) → blanche
@@ -245,7 +257,7 @@ Sources (vérifiée le 2026-10-17) : https://untappd.com/Brasserie_Loupiote
 
 Extrait lu : « La Loupiote — Irigny, Auvergne-Rhône-Alpes France. Bières : IPA - L'Outrance : IPA - Other ; Blonde - Loustic : Pilsner - Czech / Bohemian ; Ambrée - Loubarde : Lager - Amber / Red ; Blanche - Louange : Wheat Beer - Witbier / Blanche ; Douceur Tropicale : IPA - New England / Hazy ; Triple - Loufoque : Belgian Tripel ; Ambrée IPA : IPA - American ; Black IPA : IPA - Black / Cascadian Dark Ale »
 
-Choix du vérificateur : ATTENTION : Untappd place La Loupiote à Irigny, et la fiche la met à Saint-Genis-l'Argentière (175 route de Lyon). Je n'ai pas pu expliquer l'écart. Je retiens la page parce que quatre noms de bières (L'Outrance, Loustic, Louange, Loufoque) sont les mêmes que sur la source de la fiche (marechal-fraicheur.fr, vu dans les résultats de recherche), mais c'est un recoupement, pas une preuve. À valider avant d'accepter. Liste de 28 bières, 8 retenues ; Black IPA, Loup-Reed, L'Enjoleuse et Hoppy Sour écartées. Loubarde, « Lager - Amber / Red », est rangée en ambrée par la règle Amber/Red. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées
+Choix du vérificateur : ATTENTION : Untappd place La Loupiote à Irigny, et la fiche la met à Saint-Genis-l'Argentière (175 route de Lyon). Je n'ai pas pu expliquer l'écart. Je retiens la page parce que quatre noms de bières (L'Outrance, Loustic, Louange, Loufoque) sont les mêmes que sur la source de la fiche (marechal-fraicheur.fr, vu dans les résultats de recherche), mais c'est un recoupement, pas une preuve. À valider avant d'accepter. Liste de 28 bières, 8 retenues ; Black IPA, Loup-Reed, L'Enjoleuse et Hoppy Sour écartées. « Lager - Amber / Red » (Loubarde) est rangée en ambrée. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées
 
 ### 8. Single Track
 
@@ -296,8 +308,8 @@ Choix du vérificateur : La page affiche 0 check-in sur 4 semaines et aucune bi�
 - beers.2.type : (vide) → autre
 - beers.2.libelle : (vide) → Triple 3 céréales (Belgian Tripel)
 - beers.2.url : (vide) → https://untappd.com/b/brasserie-dulion-triple-grain/1291940
-- beers.3.type : (vide) → autre
-- beers.3.libelle : (vide) → Avant Garde (Belgian Blonde)
+- beers.3.type : (vide) → blonde
+- beers.3.libelle : (vide) → Avant Garde
 - beers.3.url : (vide) → https://untappd.com/b/brasserie-dulion-avant-garde/1041607
 - beers.4.type : (vide) → blanche
 - beers.4.libelle : (vide) → Epeautre #02
@@ -493,7 +505,7 @@ Choix du vérificateur : La page Untappd donne Marlhes, la fiche dit Saint-Genes
 - beers.3.type : (vide) → autre
 - beers.3.libelle : (vide) → Surieuse Triple (Belgian Tripel)
 - beers.3.url : (vide) → https://untappd.com/b/brasserie-de-la-sanne-surieuse-triple/3017583
-- beers.4.type : (vide) → lager
+- beers.4.type : (vide) → ambree
 - beers.4.libelle : (vide) → 'Til the End
 - beers.4.url : (vide) → https://untappd.com/b/brasserie-de-la-sanne-til-the-end/4450000
 - beers.5.type : (vide) → autre
@@ -623,8 +635,8 @@ Choix du vérificateur : Le site ne donne pas de style séparé : le nom de la b
 - beers.5.type : (vide) → autre
 - beers.5.libelle : (vide) → Mystic Berry (Fruit Beer)
 - beers.5.url : (vide) → https://untappd.com/b/brasserie-amalthee-mystic-berry/6322398
-- beers.6.type : (vide) → autre
-- beers.6.libelle : (vide) → Lunaire (Wheat Beer - American Pale Wheat)
+- beers.6.type : (vide) → blanche
+- beers.6.libelle : (vide) → Lunaire
 - beers.6.url : (vide) → https://untappd.com/b/brasserie-amalthee-lunaire/5775200
 - beers.7.type : (vide) → autre
 - beers.7.libelle : (vide) → Demenciel (Belgian Tripel)
@@ -916,8 +928,8 @@ Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus
 - beers.6.type : (vide) → autre
 - beers.6.libelle : (vide) → Coup De Soleil (Farmhouse Ale - Sahti)
 - beers.6.url : (vide) → https://untappd.com/b/la-voie-maltee-coup-de-soleil/1613420
-- beers.7.type : (vide) → autre
-- beers.7.libelle : (vide) → Habemus Papam (Wheat Beer - Dunkelweizen)
+- beers.7.type : (vide) → blanche
+- beers.7.libelle : (vide) → Habemus Papam
 - beers.7.url : (vide) → https://untappd.com/b/la-voie-maltee-habemus-papam-ou-pas/2416654
 - contact.untappd : (vide) → https://untappd.com/LaVoieMaltee
 - contact.source : (vide) → https://untappd.com/LaVoieMaltee
@@ -935,8 +947,8 @@ Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus
 - beers.0.type : (vide) → blanche
 - beers.0.libelle : (vide) → Thou Double Blanche
 - beers.0.url : (vide) → https://untappd.com/b/riviere-d-ain-thou-double-blanche/1521376
-- beers.1.type : (vide) → autre
-- beers.1.libelle : (vide) → Rivière d'Ain Blonde (Belgian Blonde)
+- beers.1.type : (vide) → blonde
+- beers.1.libelle : (vide) → Rivière d'Ain Blonde
 - beers.1.url : (vide) → https://untappd.com/b/riviere-d-ain-riviere-d-ain-blonde/1542033
 - beers.2.type : (vide) → ambree
 - beers.2.libelle : (vide) → Rivière d'Ain Ambrée
@@ -984,8 +996,8 @@ Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus
 - beers.4.type : (vide) → ipa
 - beers.4.libelle : (vide) → Sequoyah
 - beers.4.url : (vide) → https://untappd.com/b/les-deux-branches-sequoyah/4343066
-- beers.5.type : (vide) → autre
-- beers.5.libelle : (vide) → Graines de Lune (Wheat Beer - Hopfenweisse)
+- beers.5.type : (vide) → blanche
+- beers.5.libelle : (vide) → Graines de Lune
 - beers.5.url : (vide) → https://untappd.com/b/les-deux-branches-graines-de-lune/3771276
 - beers.6.type : (vide) → ipa
 - beers.6.libelle : (vide) → Éphémère #9 - Talus DDH IPA
@@ -1018,7 +1030,7 @@ Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus
 - beers.3.type : (vide) → lager
 - beers.3.libelle : (vide) → Lager
 - beers.3.url : (vide) → https://untappd.com/b/two-hats-brewing-lager/2948551
-- beers.4.type : (vide) → lager
+- beers.4.type : (vide) → ambree
 - beers.4.libelle : (vide) → Fest
 - beers.4.url : (vide) → https://untappd.com/b/two-hats-brewing-fest/3985450
 - beers.5.type : (vide) → ambree
@@ -1373,7 +1385,7 @@ Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus
 - beers.1.type : (vide) → blanche
 - beers.1.libelle : (vide) → Blanche Framboise Bio
 - beers.1.url : (vide) → https://untappd.com/b/la-mousse-du-herisson-blanche-framboise-bio/4114659
-- beers.2.type : (vide) → lager
+- beers.2.type : (vide) → ambree
 - beers.2.libelle : (vide) → Ambrée Bio
 - beers.2.url : (vide) → https://untappd.com/b/la-mousse-du-herisson-ambree-bio/3969966
 - beers.3.type : (vide) → blonde
@@ -1401,4 +1413,4 @@ Extrait lu : « La Mousse du Hérisson — Sainte-Consorce, Auvergne-Rhône-Alpe
 
 Choix du vérificateur : Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées
 
-Empreinte du lot : 9ad2d2caddca
+Empreinte du lot : 14b780a52ef2

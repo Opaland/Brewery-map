@@ -2097,3 +2097,24 @@ Les données n'entrent que par lot accepté (CLAUDE.md §0).
    proposées et expliquées. Les fiches sont aujourd'hui à 1,9 km (médiane)
    de leur adresse.
 5. **En attente de Cédric** : ses réponses sur S53 et S54.
+
+**Revue adverse S51–S54** (4 trouvailles, corrigées) :
+- cinq positions de S54 changeaient aussi `addr`, ce qui datait la fiche
+  contre ce que disait le lot : `addr` retiré de S54 (positions seules) ;
+- une position « osm » ou « address » passait sans preuve : « osm » est
+  refusé dans une proposition, « address » exige la requête du géocodeur
+  parmi les sources (tests vus rouges) ;
+- des bières rangées contre leur style Untappd (« Lager - Amber / Red » en
+  lager, « Belgian Blonde » en autre) : la règle devient une fonction
+  nommée et testée, `typeDuStyleUntappd` (20 cas, vus rouges), et 10 bières
+  sont reclassées ;
+- S53 date 39 fiches par leurs bières (règle S11) : non changé, posé à
+  Cédric dans le lot.
+
+**Revue d'architecture** (Cédric, 17/10) : `docs/REVUE-ARCHITECTURE.md`.
+Recommandation : rester en JSON versionné + IndexedDB ; l'agentique d'abord
+en CI (clé en secret, propositions seules), après une garde mécanique de
+`data/`. Quinze stories ajoutées (S229–S243), exécutées avant S56.
+
+**Méthode** : S51–S54 ont dérogé à BMAD (stories écrites avec le code, pas
+avant). Dit à Cédric ; à partir de S55, la story d'abord.

@@ -49,3 +49,27 @@ export function compterTypes(brasseries: readonly Brasserie[]): Map<TypeDeBiere,
   }
   return n
 }
+
+/**
+ * Le type d'une bière d'après le style qu'Untappd affiche (S53). Le style
+ * décide, jamais le nom : une « Ambrée » au style Brown Ale est une brune,
+ * une « Blonde » au style Pale Ale reste « autre ». Ordre des règles : la
+ * plus précise d'abord (« Lager - Amber / Red » est une ambrée, « Lager -
+ * IPL » une lager). Tout style sans règle tombe en « autre », et le lot
+ * recopie alors le style dans le libellé.
+ */
+const REGLES_UNTAPPD: readonly (readonly [RegExp, TypeDeBiere])[] = [
+  [/Non-Alcoholic|Low Alcohol/i, 'sans-alcool'],
+  [/^IPA\b/, 'ipa'],
+  [/^Stout\b/, 'stout'],
+  [/^Sour\b|Gose|Berliner|Lambic/, 'sour'],
+  [/^Wheat Beer\b|Witbier|Weizen|Hefeweizen/, 'blanche'],
+  [/Amber|^Red Ale\b/, 'ambree'],
+  [/^Brown Ale\b|^Porter\b/, 'brune'],
+  [/^Lager\b|^Pilsner\b|Helles|Kellerbier/, 'lager'],
+  [/Blonde|^Golden\b/, 'blonde'],
+]
+
+export function typeDuStyleUntappd(style: string): TypeDeBiere {
+  return REGLES_UNTAPPD.find(([motif]) => motif.test(style))?.[1] ?? 'autre'
+}

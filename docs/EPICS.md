@@ -41,6 +41,31 @@ S129 à S132.
 | S53 | Lot Untappd et bières, les 166 fiches, en 17 paquets lus par des agents (page Untappd vérifiée, styles affichés par Untappd) **[C]** |
 | S54 | Lot de positions : adresses publiées par les brasseries, géocodées à l'adresse ; points OSM rapprochés **[C]** |
 
+## Priorité 2 : la revue d'architecture (17/10) — après S55, avant S56
+
+Cédric, le 17/10 : « revues techniques avec des architectes logiciels », « une
+bonne base sur l'automatisation des tests ». Rapport : `docs/REVUE-ARCHITECTURE.md`.
+Numérotées après S228 pour ne rien renuméroter ; **exécutées avant S56**, dans
+cet ordre. Elles absorbent des doublons du plan (indiqués).
+
+| Story | Contenu |
+|---|---|
+| S229 | Mesurer la porte (local, CI), corriger le commentaire périmé du hook, budgets écrits |
+| S230 | Garde mécanique de `data/` : job CI rouge sans accord de Cédric portant l'empreinte du diff ; CODEOWNERS — prérequis de toute agentique |
+| S231 | Identifiant stable par fiche **[C]** ; favoris, visites, notes, liens passent à l'`id` (migration testée) |
+| S232 | Fixture « aucune requête ne contient la position » sur tous les e2e |
+| S233 | Lint de `public/*.js` ; fin de la liste manuelle de `tsconfig.node.json` |
+| S234 | Firefox et WebKit en CI (remplace S98, S209) |
+| S235 | Budgets de poids et Lighthouse en CI (remplace S77, S190, S210) |
+| S236 | Étage « composants » : jsdom + Testing Library, `ChoixCommune`, `MesFavoris` |
+| S237 | Découper `App.tsx` en hooks testables, sans changement visible |
+| S238 | Stockage local versionné, migration testée |
+| S239 | Mutation outillée (Stryker) sur `src/core`, job de nuit (remplace S129) |
+| S240 | Tests visuels sur 5 écrans figés (remplace S124) |
+| S241 | Sonde publiée étendue (remplace S213) |
+| S242 | Veille en GitHub Actions avec clé Anthropic en secret, propositions seules en PR — décision **[C]** |
+| S243 | Triage des signalements en CI, sans droit d'écriture **[C]** |
+
 ## E1 — Premier écran et navigation sur téléphone *(persona : Marie)*
 
 Que la première minute soit claire et que la liste soit tout de suite là.
@@ -376,7 +401,7 @@ données livrent des propositions. L'ordre est un ordre de priorité.
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout.
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture.
 
 ## Ordre d'exécution
 
