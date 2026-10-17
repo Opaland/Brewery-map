@@ -1,0 +1,40 @@
+{
+ "candidat": "sirene:883362469",
+ "ajout": {
+  "fiche": {
+   "n": "Sklent",
+   "c": "Landerneau",
+   "d": "29",
+   "lat": 48.45237,
+   "lon": -4.24169,
+   "km": 747.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Magasin de vente directe à la brasserie ; aucune consommation sur place lue.",
+   "addr": "1 rue Ernest Renan 29800 Landerneau",
+   "src": "https://sklent.bzh/contact/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://sklent.bzh/contact/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+Ernest+Renan+29800+Landerneau&limit=5"
+  ],
+  "extrait": "OUVERTURE DU MAGASIN DE VENTE DIRECTE À LA BRASSERIE",
+  "choix": "Horaires lus par un agent (vendredi 15 h-19 h), non repris."
+ }
+}

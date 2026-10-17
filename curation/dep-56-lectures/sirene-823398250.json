@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:823398250",
+ "ajout": {
+  "fiche": {
+   "n": "La Belle Joie",
+   "c": "Hennebont",
+   "d": "56",
+   "lat": 47.81016,
+   "lon": -3.26647,
+   "km": 655.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Boutique sur le lieu de production et bar attenant (bières à la pression) en horaires after-work.",
+   "addr": "181 rue Maréchal Joffre, 56700 Hennebont",
+   "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "brune"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+   "https://data.geopf.fr/geocodage/search?q=181+rue+Mar%C3%A9chal+Joffre%2C+56700+Hennebont&limit=5"
+  ],
+  "extrait": "Un Bar attenant à la brasserie vous accueillera en horaires after-work",
+  "choix": "La vente se lit sur la même page : « la boutique située directement sur le lieu de production à Hennebont ». Même brasserie que le point OSM node/7494891224 (Kervignac)."
+ }
+}

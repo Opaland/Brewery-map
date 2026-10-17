@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:838433852",
+ "ajout": {
+  "fiche": {
+   "n": "La Bière de Groix",
+   "c": "Groix",
+   "d": "56",
+   "lat": 47.63796,
+   "lon": -3.46228,
+   "km": 663.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de l'île de Groix ; la fiche classe « vente à la ferme » sans phrase qui la décrive.",
+   "addr": "ZA Le Gripp, 56590 Groix",
+   "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX"
+  ],
+  "extrait": "ZA Le Gripp 56590 ILE DE GROIX",
+  "choix": "SIRENE déclare Locqueltas. Téléphone de la fiche : 09 51 12 41 23."
+ }
+}

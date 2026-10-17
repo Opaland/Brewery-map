@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:418671749",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Bretagne",
+   "c": "Concarneau",
+   "d": "29",
+   "lat": 47.89174,
+   "lon": -3.89602,
+   "km": 702.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Visite avec dégustation au bar « Le Bek » de la brasserie, et bar-boutique pour les particuliers.",
+   "addr": "Concarneau",
+   "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-bretagne.fr/visiter-la-brasserie/"
+  ],
+  "extrait": "un moment d'échanges et de dégustation dans notre bar “Le Bek”",
+  "choix": "Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même brasserie que le point OSM way/82190365 (placé à Trégunc). Position au centre de Concarneau."
+ }
+}

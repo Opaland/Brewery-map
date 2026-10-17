@@ -1,0 +1,37 @@
+{
+ "candidat": "sirene:891036212",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Graphique",
+   "c": "Carantec",
+   "d": "29",
+   "lat": 48.66902,
+   "lon": -3.91476,
+   "km": 734.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie bio ; un annuaire cite une cave à bières, mais ni vente ni dégustation sur place ne sont établies.",
+   "addr": "2 Rue du Kélenn, 29660 Carantec",
+   "src": "https://fr.gaultmillau.com/fr/artisans/la-brasserie-graphique",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://fr.gaultmillau.com/fr/artisans/la-brasserie-graphique",
+   "https://data.geopf.fr/geocodage/search?q=2+Rue+du+K%C3%A9lenn%2C+29660+Carantec&limit=5"
+  ],
+  "extrait": "Cave à bières",
+  "choix": "Annuaire seulement. SIRENE déclare Plouigneau : lieu actuel à confirmer (procédure de déménagement en attente)."
+ }
+}

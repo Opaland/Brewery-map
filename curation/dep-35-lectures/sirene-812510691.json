@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:812510691",
+ "ajout": {
+  "fiche": {
+   "n": "Skumenn",
+   "c": "Cesson-Sévigné",
+   "d": "35",
+   "lat": 48.1054,
+   "lon": -1.62327,
+   "km": 554.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub : bar et cave sur place, magasin de vente directe ; ouvert du mardi au samedi.",
+   "addr": "8 impasse des Charmilles, 35510 Cesson-Sévigné",
+   "src": "https://www.skumenn.com/brewpub",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "ambree"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.skumenn.com/brewpub",
+   "https://data.geopf.fr/geocodage/search?q=8+impasse+des+Charmilles%2C+35510+Cesson-S%C3%A9vign%C3%A9&limit=5"
+  ],
+  "extrait": "passez simplement faire le plein de bière dans notre magasin de vente directe",
+  "choix": "La boisson sur place se lit sur la même page : « Bar / Cave de nos cuves à votre verre il n’y a qu’un pas ». Téléphone publié : 02 23 30 59 80."
+ }
+}

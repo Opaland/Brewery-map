@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:949509814",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Alchimistes Ivres",
+   "c": "Broons",
+   "d": "22",
+   "lat": 48.31284,
+   "lon": -2.24349,
+   "km": 606.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique en ligne et visites sur réservation ; la page ne dit pas qu'on achète ou boit à la brasserie.",
+   "addr": "Broons",
+   "src": "https://www.alchimistes-ivres.com",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "lager"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.alchimistes-ivres.com"
+  ],
+  "extrait": "Brasserie bière craft fantasy en Bretagne",
+  "choix": "Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons."
+ }
+}

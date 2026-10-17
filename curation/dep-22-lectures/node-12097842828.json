@@ -1,0 +1,33 @@
+{
+ "candidat": "node/12097842828",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Guerlédan",
+   "c": "Guerlédan",
+   "d": "22",
+   "lat": 48.19297,
+   "lon": -2.95112,
+   "km": 648.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub : bar et boutique ouverts du mercredi au dimanche à partir de 16 h 30.",
+   "addr": "Guerlédan",
+   "src": "http://www.brasseriedeguerledan.bzh/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.brasseriedeguerledan.bzh/"
+  ],
+  "extrait": "Bar et boutique ouverts du du Mercredi au Dimanche à partir de 16H30",
+  "choix": "Le site ne donne pas d'adresse. Position au centre de Guerlédan."
+ }
+}

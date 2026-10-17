@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:941261323",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Casse-Grain",
+   "c": "Damgan",
+   "d": "56",
+   "lat": 47.519,
+   "lon": -2.58231,
+   "km": 596.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites guidées avec dégustation sur réservation ; vente directe non établie.",
+   "addr": "2 impasse des Lilas, 56750 Damgan",
+   "src": "https://www.damgan-larochebernard-tourisme.com/en/agenda/visite-de-la-brasserie-casse-grain/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.damgan-larochebernard-tourisme.com/en/agenda/visite-de-la-brasserie-casse-grain/",
+   "https://data.geopf.fr/geocodage/search?q=2+impasse+des+Lilas%2C+56750+Damgan&limit=5"
+  ],
+  "extrait": "During friendly guided tours, delve into the behind-the-scenes of brewing",
+  "choix": "Page en anglais de l'office de tourisme."
+ }
+}

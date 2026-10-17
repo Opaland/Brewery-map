@@ -1,0 +1,1735 @@
+[
+ {
+  "cle": "sirene:798819090",
+  "nom": "LA BRASSERIE DU BOUT DU MONDE",
+  "communes": [
+   "ROSNOEN",
+   "LE FAOU",
+   "PONT-DE-BUIS-LES-QUIMERCH"
+  ],
+  "departement": "29",
+  "adresses": [
+   "6 RUE DU FAOU 29590 ROSNOEN",
+   "ZA DE QUIELLA 29590 LE FAOU",
+   "3 ZA DE KERGAERIC 29590 PONT-DE-BUIS-LES-QUIMERCH"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "798819090",
+  "sirets": [
+   "79881909000019",
+   "79881909000035",
+   "79881909000043"
+  ],
+  "osm": [
+   "node/7496917443"
+  ],
+  "lat": 48.264219162,
+  "lon": -4.194288045,
+  "site": "https://www.terenez.bzh",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848906806",
+  "nom": "MERLIN",
+  "communes": [
+   "PENMARCH",
+   "PONT-L'ABBE"
+  ],
+  "departement": "29",
+  "adresses": [
+   "40 IMPASSE RU LAND 29760 PENMARCH",
+   "42 IMPASSE RU LAND 29760 PENMARCH",
+   "18 T PLACE GAMBETTA 29120 PONT-L'ABBE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848906806",
+  "sirets": [
+   "84890680600015",
+   "84890680600023",
+   "84890680600031"
+  ],
+  "osm": [],
+  "lat": 47.819592979,
+  "lon": -4.376494035,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888716149",
+  "nom": "BRASSERIE DE CEZON",
+  "communes": [
+   "LANDEDA",
+   "LANNILIS"
+  ],
+  "departement": "29",
+  "adresses": [
+   "101 KERVERDI 29870 LANDEDA",
+   "PELLAN 29870 LANNILIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "888716149",
+  "sirets": [
+   "88871614900016",
+   "88871614900024"
+  ],
+  "osm": [
+   "node/10975182051"
+  ],
+  "lat": 48.583035753,
+  "lon": -4.579755525,
+  "site": "https://brasseriecezon.toctok.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:332210582",
+  "nom": "COREFF",
+  "communes": [
+   "CARHAIX-PLOUGUER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "2 PLACE DE LA GARE 29270 CARHAIX-PLOUGUER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "332210582",
+  "sirets": [
+   "33221058200042"
+  ],
+  "osm": [
+   "way/144466527"
+  ],
+  "lat": 48.2776550306959,
+  "lon": -3.56301895336091,
+  "site": "https://brasserie-coreff.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942565110",
+  "nom": "MISE EN BIERE",
+  "communes": [
+   "BREST",
+   "PLOUARZEL"
+  ],
+  "departement": "29",
+  "adresses": [
+   "50 RUE DU FORESTOU HUELLA 29200 BREST",
+   "30 RUE DE LA FORGE 29810 PLOUARZEL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "942565110",
+  "sirets": [
+   "94256511000015",
+   "94256511000023"
+  ],
+  "osm": [
+   "way/42959616"
+  ],
+  "lat": 48.3934795913239,
+  "lon": -4.46427853945956,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830609137",
+  "nom": "HOPS AND CHEESE",
+  "communes": [
+   "CONCARNEAU",
+   "SAINT-YVI"
+  ],
+  "departement": "29",
+  "adresses": [
+   "8 PLACE DU GENERAL DE GAULLE 29900 CONCARNEAU",
+   "GORREQUER 29140 SAINT-YVI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830609137",
+  "sirets": [
+   "83060913700013",
+   "83060913700021"
+  ],
+  "osm": [],
+  "lat": 47.871886026,
+  "lon": -3.919028066,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:940861735",
+  "nom": "BRASSERIE PENN SARDIN",
+  "communes": [
+   "DOUARNENEZ"
+  ],
+  "departement": "29",
+  "adresses": [
+   "31 RUE LAMARTINE 29100 DOUARNENEZ",
+   "91 AVENUE DE LA GARE 29100 DOUARNENEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "940861735",
+  "sirets": [
+   "94086173500014",
+   "94086173500022"
+  ],
+  "osm": [],
+  "lat": 48.0881810464998,
+  "lon": -4.30896885980904,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949661300",
+  "nom": "SOAVENN",
+  "communes": [
+   "SANTEC"
+  ],
+  "departement": "29",
+  "adresses": [
+   "50 RUELLE DES PLUVIERS 29250 SANTEC",
+   "355 RUE DES DENTELLES 29250 SANTEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949661300",
+  "sirets": [
+   "94966130000010",
+   "94966130000028"
+  ],
+  "osm": [],
+  "lat": 48.709192188,
+  "lon": -4.033566175,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891036212",
+  "nom": "LA BRASSERIE GRAPHIQUE",
+  "communes": [
+   "PLOUIGNEAU",
+   "CARANTEC"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZA DE KERVANON 175 A RUE DES BOURDAINES 29610 PLOUIGNEAU",
+   "2 RUE DU KELENN 29660 CARANTEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891036212",
+  "sirets": [
+   "89103621200035",
+   "89103621200043"
+  ],
+  "osm": [],
+  "lat": 48.573987004,
+  "lon": -3.721613808,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "PLOUNEOUR-BRIGNOGAN-PLAGES"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:882274335",
+  "nom": "LA MAREE BRASSE - LMB",
+  "communes": [
+   "LOCUNOLE"
+  ],
+  "departement": "29",
+  "adresses": [
+   "LIEU DIT KERFLATRES 29310 LOCUNOLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882274335",
+  "sirets": [
+   "88227433500026"
+  ],
+  "osm": [],
+  "lat": 47.921730113,
+  "lon": -3.476017984,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883362469",
+  "nom": "SKLENT",
+  "communes": [
+   "LANDERNEAU"
+  ],
+  "departement": "29",
+  "adresses": [
+   "1 RUE ERNEST RENAN 29800 LANDERNEAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "883362469",
+  "sirets": [
+   "88336246900040"
+  ],
+  "osm": [
+   "node/11288786294"
+  ],
+  "lat": 48.4521685580269,
+  "lon": -4.24148281121492,
+  "site": "https://sklent.bzh/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978557023",
+  "nom": "ISM 29",
+  "communes": [
+   "REDENE"
+  ],
+  "departement": "29",
+  "adresses": [
+   "1 BERLUHEC 29300 REDENE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978557023",
+  "sirets": [
+   "97855702300014"
+  ],
+  "osm": [],
+  "lat": 47.84261158,
+  "lon": -3.514734562,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE CHIENDENT",
+  "communes": [
+   "BANNALEC"
+  ],
+  "departement": "29",
+  "adresses": [
+   "RUMEROU 29380 BANNALEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "PLOUGUIN"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "PONT-CROIX"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:812144855",
+  "nom": "LA BRASSERIE DU BARIL",
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [
+   "4 RUE CHAMPLAIN 29200 BREST"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "812144855",
+  "sirets": [
+   "81214485500010"
+  ],
+  "osm": [
+   "node/7489729814"
+  ],
+  "lat": 48.381957534,
+  "lon": -4.529223467,
+  "site": "http://www.brasseriedubaril.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:915207302",
+  "nom": "BRASSERIE DU MENEZ HOM",
+  "communes": [
+   "DINEAULT"
+  ],
+  "departement": "29",
+  "adresses": [
+   "28 B RUE DU CHAP 29150 DINEAULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "915207302",
+  "sirets": [
+   "91520730200018"
+  ],
+  "osm": [],
+  "lat": 48.218965143,
+  "lon": -4.162685837,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901634857",
+  "nom": "KAURI BREWERY",
+  "communes": [
+   "PLOVAN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "67 LD KERVON 29720 PLOVAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "901634857",
+  "sirets": [
+   "90163485700014"
+  ],
+  "osm": [
+   "node/12789013325"
+  ],
+  "lat": 47.935369015,
+  "lon": -4.384278972,
+  "site": "https://fr.kauribrewery.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839806577",
+  "nom": "S.A.S. SEITEK",
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [
+   "PORT DE PLAISANCE 490 RUE ALAIN COLAS 29200 BREST"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839806577",
+  "sirets": [
+   "83980657700012"
+  ],
+  "osm": [],
+  "lat": 48.390620006,
+  "lon": -4.443800014,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "ROSCANVEL"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:844297267",
+  "nom": "EN BIERES INCONNUES",
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZAC DES CAPUCINS 25 RUE DE PONTANIOU 195 BELVEDERE CESARIA EVORA 29000 BREST"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "844297267",
+  "sirets": [
+   "84429726700016"
+  ],
+  "osm": [
+   "way/910137900"
+  ],
+  "lat": 48.389297371,
+  "lon": -4.497166495,
+  "site": "https://enbieresinconnues.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:418671749",
+  "nom": "BRASSERIE DE BRETAGNE",
+  "communes": [
+   "CONCARNEAU"
+  ],
+  "departement": "29",
+  "adresses": [
+   "7 RUE VICTOR SCHOELCHER 29900 CONCARNEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "418671749",
+  "sirets": [
+   "41867174900038"
+  ],
+  "osm": [],
+  "lat": 47.9054713243229,
+  "lon": -3.90579053668092,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE ARTISANALE LA PINTE DU RAZ",
+  "communes": [
+   "PONT CROIX"
+  ],
+  "departement": "29",
+  "adresses": [
+   "TOULBROEN 29790 PONT CROIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911740736",
+  "nom": "BRASSERIE EL DOCTOR",
+  "communes": [
+   "DOUARNENEZ"
+  ],
+  "departement": "29",
+  "adresses": [
+   "5 IMPASSE AL LANN 29100 DOUARNENEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911740736",
+  "sirets": [
+   "91174073600010"
+  ],
+  "osm": [],
+  "lat": 48.091172437,
+  "lon": -4.342285864,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:944561042",
+  "nom": "SIBIN",
+  "communes": [
+   "PLOUGUIN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZA KER EOL II 4 RUE DE LA GARENNE 29830 PLOUGUIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "944561042",
+  "sirets": [
+   "94456104200010"
+  ],
+  "osm": [
+   "node/14127970242"
+  ],
+  "lat": 48.5279453641658,
+  "lon": -4.61432805368494,
+  "site": "https://sibin.beer/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:935032672",
+  "nom": "BRASSERIE ROI DE PIK",
+  "communes": [
+   "QUIMPER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "463 ROUTE DE ROSPORDEN 29000 QUIMPER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "935032672",
+  "sirets": [
+   "93503267200021"
+  ],
+  "osm": [],
+  "lat": 47.9795219373139,
+  "lon": -4.01871278515981,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823396577",
+  "nom": "BRASSERIE DE CORNOUAILLE",
+  "communes": [
+   "CONCARNEAU"
+  ],
+  "departement": "29",
+  "adresses": [
+   "27 CHEMIN DE KERLEAN 29900 CONCARNEAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "823396577",
+  "sirets": [
+   "82339657700012"
+  ],
+  "osm": [
+   "node/6495414313"
+  ],
+  "lat": 47.891501572,
+  "lon": -3.929799335,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:982696619",
+  "nom": "DA BEP LEC'H - TOUTES DIRECTIONS",
+  "communes": [
+   "SAINT-MARTIN-DES-CHAMPS"
+  ],
+  "departement": "29",
+  "adresses": [
+   "14 ALLEE SAINT FRANCOIS 29600 SAINT-MARTIN-DES-CHAMPS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "982696619",
+  "sirets": [
+   "98269661900013"
+  ],
+  "osm": [],
+  "lat": 48.587415557,
+  "lon": -3.838401373,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": "AUBINOUSE PICOBRASSERIE",
+  "communes": [
+   "PLOBANNALEC-LESCONIL"
+  ],
+  "departement": "29",
+  "adresses": [
+   "71 RUE PAUL LANGEVIN 29740 PLOBANNALEC-LESCONIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "DOUARNENEZ"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:881719330",
+  "nom": "BRASSERIE ARTISANALE BROC'H",
+  "communes": [
+   "BERRIEN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZONE ARTISANALE DE TREUSQUILLY 29690 BERRIEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881719330",
+  "sirets": [
+   "88171933000014"
+  ],
+  "osm": [],
+  "lat": 48.405405771,
+  "lon": -3.742282219,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "PLOUESCAT"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:902874148",
+  "nom": "BRASSERIE DE TREVARN",
+  "communes": [
+   "SAINT-URBAIN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "TREVARN 29800 SAINT-URBAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902874148",
+  "sirets": [
+   "90287414800023"
+  ],
+  "osm": [],
+  "lat": 48.381681147,
+  "lon": -4.247241181,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921247680",
+  "nom": "KERC'HEIZ",
+  "communes": [
+   "PLOUGONVELIN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "13 RTE GORREQUEAR 29217 PLOUGONVELIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921247680",
+  "sirets": [
+   "92124768000017"
+  ],
+  "osm": [],
+  "lat": 48.338264826,
+  "lon": -4.721186188,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920451044",
+  "nom": "BRASSERIE LOKORN",
+  "communes": [
+   "LOCRONAN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "3 T VEN DU PRIEURE 29180 LOCRONAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920451044",
+  "sirets": [
+   "92045104400019"
+  ],
+  "osm": [],
+  "lat": 48.097314238,
+  "lon": -4.210544858,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909779753",
+  "nom": "LA BRASSERIE DES MAOUTS",
+  "communes": [
+   "OUESSANT"
+  ],
+  "departement": "29",
+  "adresses": [
+   "LD TY CRANN 29242 OUESSANT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "909779753",
+  "sirets": [
+   "90977975300013"
+  ],
+  "osm": [
+   "node/12118230721"
+  ],
+  "lat": 48.469445196,
+  "lon": -5.069494566,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "PLOUVIEN"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:14",
+  "nom": null,
+  "communes": [
+   "OUESSANT"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:832192744",
+  "nom": "BRASSERIE L'URBAINE",
+  "communes": [
+   "BREST"
+  ],
+  "departement": "29",
+  "adresses": [
+   "11 B RUE KERFAUTRAS 29200 BREST"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832192744",
+  "sirets": [
+   "83219274400023"
+  ],
+  "osm": [],
+  "lat": 48.398452533,
+  "lon": -4.477856975,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:15",
+  "nom": "BRASSERIE DE L'IMPRIMERIE",
+  "communes": [
+   "BANNALEC"
+  ],
+  "departement": "29",
+  "adresses": [
+   "74 B RUE DE QUIMPERLE 29380 BANNALEC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/7492282740"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:16",
+  "nom": null,
+  "communes": [
+   "PLOVAN"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:951117449",
+  "nom": "BRASSERIE TEMPETE",
+  "communes": [
+   "PLOGONNEC"
+  ],
+  "departement": "29",
+  "adresses": [
+   "CASTEL NEVEZ 29180 PLOGONNEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951117449",
+  "sirets": [
+   "95111744900011"
+  ],
+  "osm": [],
+  "lat": 48.054887962,
+  "lon": -4.15385292,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:943370163",
+  "nom": "BRASSERIE DE LA PIEUVRE",
+  "communes": [
+   "QUIMPER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "2 ALLEE FRANCOIS BAZIN 29000 QUIMPER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "943370163",
+  "sirets": [
+   "94337016300017"
+  ],
+  "osm": [],
+  "lat": 47.979102081972,
+  "lon": -4.02997814982954,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839093820",
+  "nom": "BRASSERIE ARVARUS",
+  "communes": [
+   "PLOUMOGUER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "LA FERME DE MESSOUFLIN 29810 PLOUMOGUER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "839093820",
+  "sirets": [
+   "83909382000018"
+  ],
+  "osm": [
+   "node/12771857099"
+  ],
+  "lat": 48.402939196,
+  "lon": -4.738784009,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978184240",
+  "nom": "L'AMER D'IROISE",
+  "communes": [
+   "PLOGOFF"
+  ],
+  "departement": "29",
+  "adresses": [
+   "2 IMPASSE DU STEIR 29770 PLOGOFF"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978184240",
+  "sirets": [
+   "97818424000015"
+  ],
+  "osm": [],
+  "lat": 48.034296121,
+  "lon": -4.641363707,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890786528",
+  "nom": "BRASSERIE DIAOUL",
+  "communes": [
+   "LE JUCH"
+  ],
+  "departement": "29",
+  "adresses": [
+   "KERMENGUY 29100 LE JUCH"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890786528",
+  "sirets": [
+   "89078652800012"
+  ],
+  "osm": [],
+  "lat": 48.050337648,
+  "lon": -4.286664068,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880678347",
+  "nom": "LE GRAIN DU PONANT",
+  "communes": [
+   "RIEC-SUR-BELON"
+  ],
+  "departement": "29",
+  "adresses": [
+   "7 RUE DE PONT-LEN 29340 RIEC-SUR-BELON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "880678347",
+  "sirets": [
+   "88067834700019"
+  ],
+  "osm": [
+   "way/126538756"
+  ],
+  "lat": 47.837137692,
+  "lon": -3.700228919,
+  "site": "https://www.le-grain-du-ponant.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:421739947",
+  "nom": "BRASSERIE TRI MARTOLOD",
+  "communes": [
+   "CONCARNEAU"
+  ],
+  "departement": "29",
+  "adresses": [
+   "Z.A. DE COLGUEN 29900 CONCARNEAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "421739947",
+  "sirets": [
+   "42173994700040"
+  ],
+  "osm": [
+   "node/6813781760"
+  ],
+  "lat": 47.904455552,
+  "lon": -3.905091262,
+  "site": "https://www.trimartolod.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:17",
+  "nom": null,
+  "communes": [
+   "LANGOLEN"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:18",
+  "nom": null,
+  "communes": [
+   "ILE-MOLENE"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:891808883",
+  "nom": "PENN AR BATZ - LA PAB",
+  "communes": [
+   "ILE-DE-BATZ"
+  ],
+  "departement": "29",
+  "adresses": [
+   "RUE NEUVE 29253 ILE-DE-BATZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891808883",
+  "sirets": [
+   "89180888300013"
+  ],
+  "osm": [],
+  "lat": 48.745419522,
+  "lon": -4.01108404,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978805604",
+  "nom": "BRASSERIE KERAV'ALE",
+  "communes": [
+   "ROSCOFF"
+  ],
+  "departement": "29",
+  "adresses": [
+   "KERAVEL 29680 ROSCOFF"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978805604",
+  "sirets": [
+   "97880560400011"
+  ],
+  "osm": [],
+  "lat": 48.700127533,
+  "lon": -3.998171791,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:19",
+  "nom": null,
+  "communes": [
+   "TOURCH"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:20",
+  "nom": "SIBIN",
+  "communes": [
+   "PLOUGUIN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "KERSCAVEN BIHAN 29830 PLOUGUIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "doublon",
+  "fiche": "SIBIN"
+ },
+ {
+  "cle": "personne:21",
+  "nom": "BRASSERIE AR VU VIHAN",
+  "communes": [
+   "CHATEAULIN"
+  ],
+  "departement": "29",
+  "adresses": [
+   "LD MI ROUTE AVENUE LOUISON BOBET 29150 CHATEAULIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/7497079302"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914607643",
+  "nom": "SARL BRASSERIE DA GOUSKET",
+  "communes": [
+   "SAINT-THEGONNEC LOC-EGUINER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZI DE LA GARE 29410 SAINT-THEGONNEC LOC-EGUINER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914607643",
+  "sirets": [
+   "91460764300014"
+  ],
+  "osm": [],
+  "lat": 48.51975376,
+  "lon": -3.946060819,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:794895581",
+  "nom": "D'ISTRIBILH",
+  "communes": [
+   "PLOUIDER"
+  ],
+  "departement": "29",
+  "adresses": [
+   "5 LESTEVENNOC 29260 PLOUIDER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "794895581",
+  "sirets": [
+   "79489558100013"
+  ],
+  "osm": [
+   "way/54022033"
+  ],
+  "lat": 48.608640966,
+  "lon": -4.331312242,
+  "site": "https://www.distribilh.bzh/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:22",
+  "nom": null,
+  "communes": [
+   "LE FOLGOET"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:902339290",
+  "nom": "PLIJADUR",
+  "communes": [
+   "DOUARNENEZ"
+  ],
+  "departement": "29",
+  "adresses": [
+   "ZONE INDUSTRIELLE DE POULDAVID 5 RUE DU PONT DINOU 29100 DOUARNENEZ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "902339290",
+  "sirets": [
+   "90233929000014"
+  ],
+  "osm": [
+   "node/13107621946"
+  ],
+  "lat": 48.0796529211475,
+  "lon": -4.33221924333255,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:23",
+  "nom": null,
+  "communes": [
+   "DOUARNENEZ"
+  ],
+  "departement": "29",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:878128990",
+  "nom": "BRASSERIE O'TAQUET",
+  "communes": [
+   "CROZON"
+  ],
+  "departement": "29",
+  "adresses": [
+   "TAL AR GROAS 2 ROUTE DE LANVEOC 29160 CROZON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878128990",
+  "sirets": [
+   "87812899000016"
+  ],
+  "osm": [],
+  "lat": 48.249067955,
+  "lon": -4.418844246,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12985439390",
+  "nom": "PAB",
+  "communes": [
+   "Île-de-Batz"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12985439390"
+  ],
+  "lat": 48.74558,
+  "lon": -4.01327,
+  "site": "https://www.microbrasseriepab.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13019452501",
+  "nom": "Kailhou",
+  "communes": [
+   "Ouessant"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13019452501"
+  ],
+  "lat": 48.45955,
+  "lon": -5.09162,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14040277193",
+  "nom": "Cidrerie Avalaouer",
+  "communes": [
+   "Hanvec"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14040277193"
+  ],
+  "lat": 48.33155,
+  "lon": -4.16924,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3558601597",
+  "nom": "Brasserie An Alarc'h",
+  "communes": [
+   "La Feuillée"
+  ],
+  "departement": "29",
+  "adresses": [
+   "Kroaz An Herry, 29690 La Feuillée"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3558601597"
+  ],
+  "lat": 48.3802,
+  "lon": -3.84354,
+  "site": "https://www.trimartolod.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5075303526",
+  "nom": "Brasserie de Trévarn",
+  "communes": [
+   "Dirinon"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5075303526"
+  ],
+  "lat": 48.38221,
+  "lon": -4.24658,
+  "site": "https://ferme-de-trevarn.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE TREVARN"
+ },
+ {
+  "cle": "node/5589940922",
+  "nom": "Brasserie Kerav'ale, Cidrerie Rosko",
+  "communes": [
+   "Saint-Pol-de-Léon"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5589940922"
+  ],
+  "lat": 48.69749,
+  "lon": -4.00075,
+  "site": "https://www.brasseriekeravale.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7496988886",
+  "nom": "Brasserie du Merlin",
+  "communes": [
+   "Plougastel-Daoulas"
+  ],
+  "departement": "29",
+  "adresses": [
+   "145 Rue Van Gogh, 29470 Plougastel-Daoulas"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7496988886"
+  ],
+  "lat": 48.36928,
+  "lon": -4.3724,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7511124744",
+  "nom": "Merlin",
+  "communes": [
+   "Penmarc'h"
+  ],
+  "departement": "29",
+  "adresses": [
+   "40 Impasse Ru Land, 29760 Penmarc'h"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7511124744"
+  ],
+  "lat": 47.8197,
+  "lon": -4.37644,
+  "statut": "ambigu",
+  "fiche": "MERLIN"
+ },
+ {
+  "cle": "node/872593106",
+  "nom": "Brasserie Penhors",
+  "communes": [
+   "Pouldreuzic"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/872593106"
+  ],
+  "lat": 47.94581,
+  "lon": -4.36929,
+  "site": "http://brasserie-penhors.com/fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9954771298",
+  "nom": "Penn ar Batz",
+  "communes": [
+   "Île-de-Batz"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9954771298"
+  ],
+  "lat": 48.74516,
+  "lon": -4.01088,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/53692716",
+  "nom": "Beg ar Mor",
+  "communes": [
+   "Landunvez"
+  ],
+  "departement": "29",
+  "adresses": [
+   "4 Rue du Port"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/53692716"
+  ],
+  "lat": 48.55191,
+  "lon": -4.69889,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/82190365",
+  "nom": "Brasserie Britt",
+  "communes": [
+   "Trégunc"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/82190365"
+  ],
+  "lat": 47.85915,
+  "lon": -3.87087,
+  "site": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/89856670",
+  "nom": "Brasserie dubau",
+  "communes": [
+   "Quimperlé"
+  ],
+  "departement": "29",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/89856670"
+  ],
+  "lat": 47.87953,
+  "lon": -3.53615,
+  "statut": "nouveau"
+ }
+]

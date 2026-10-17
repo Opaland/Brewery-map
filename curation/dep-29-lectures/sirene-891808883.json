@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:891808883",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie PAB",
+   "c": "Île-de-Batz",
+   "d": "29",
+   "lat": 48.74549,
+   "lon": -4.01297,
+   "km": 744.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie de l'île de Batz ; la page ne dit pas si l'on peut acheter ou consommer sur place.",
+   "addr": "Rue Neuve, 29253 Île-de-Batz",
+   "src": "https://www.microbrasseriepab.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.microbrasseriepab.com/"
+  ],
+  "extrait": "Rue Neuve, 29253 Ile de Batz - France",
+  "choix": "Même brasserie que le point OSM node/12985439390."
+ }
+}

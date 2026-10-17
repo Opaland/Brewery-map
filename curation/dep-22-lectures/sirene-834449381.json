@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:834449381",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Dimezell",
+   "c": "Quessoy",
+   "d": "22",
+   "lat": 48.42589,
+   "lon": -2.6583,
+   "km": 639.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bières en vente et en dégustation à la brasserie ; bar du jeudi au samedi à partir de 16 h.",
+   "addr": "Quessoy",
+   "src": "https://www.brasserie-dimezell.bzh/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-dimezell.bzh/"
+  ],
+  "extrait": "Nos bières sont bien sûr en vente et en dégustation à la brasserie",
+  "choix": "Même brasserie que le point OSM node/7491754420. Position au centre de Quessoy."
+ }
+}

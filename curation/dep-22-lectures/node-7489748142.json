@@ -1,0 +1,26 @@
+{
+ "candidat": "node/7489748142",
+ "ajout": {
+  "fiche": {
+   "n": "Brasstillerie KanArFoll",
+   "c": "Perros-Guirec",
+   "d": "22",
+   "lat": 48.81243,
+   "lon": -3.45979,
+   "km": 711,
+   "cat": 0,
+   "conf": "",
+   "note": "Visite et dégustation sur place, boutique ouverte en semaine ; la vente n'est pas dite explicitement.",
+   "addr": "Kerambellec, 22700 Perros-Guirec",
+   "src": "https://www.kanarfoll.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.kanarfoll.com/"
+  ],
+  "extrait": "Visite et dégustation sur place.",
+  "choix": "Même lieu-dit que le Verger de Kernivinen (cidrerie, node/14018305001)."
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:802177170",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Hermine",
+   "c": "Belz",
+   "d": "56",
+   "lat": 47.67316,
+   "lon": -3.16439,
+   "km": 643.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Ses bières sont servies « de la cuve au verre » au restaurant Ivre Mer, à Belz ; le lieu de la brasserie n'est pas établi.",
+   "addr": "Belz",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/"
+  ],
+  "extrait": "les bières bretonnes de la Brasserie de l’Hermine, servies « de la cuve au verre »",
+  "choix": "Page d'un restaurant seulement. Position au centre de Belz."
+ }
+}

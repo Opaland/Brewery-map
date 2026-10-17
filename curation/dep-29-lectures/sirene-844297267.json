@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:844297267",
+ "ajout": {
+  "fiche": {
+   "n": "En Bières Inconnues",
+   "c": "Brest",
+   "d": "29",
+   "lat": 48.40644,
+   "lon": -4.49773,
+   "km": 763.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Bières proposées dans les locaux de la brasserie à Brest et chez des revendeurs ; vente ou consommation sur place non établie.",
+   "addr": "Brest",
+   "src": "https://enbieresinconnues.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://enbieresinconnues.fr/"
+  ],
+  "extrait": "au sein de nos locaux à Brest et dans les caves, épiceries, bars et restaurant de la région",
+  "choix": "Position au centre de Brest : l'adresse n'est pas relue."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:909464836",
+ "ajout": {
+  "fiche": {
+   "n": "Horla",
+   "c": "Grand-Champ",
+   "d": "56",
+   "lat": 47.76232,
+   "lon": -2.85013,
+   "km": 624.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Nano-brasserie bio ; vente ou consommation sur place non établie.",
+   "addr": "Grand-Champ",
+   "src": "https://untappd.com/MicrobrasserieHorla",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "sour"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://untappd.com/MicrobrasserieHorla"
+  ],
+  "extrait": "Grand-Champ, 56 - BZH",
+  "choix": "Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
+ }
+}

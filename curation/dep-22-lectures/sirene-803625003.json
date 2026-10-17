@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:803625003",
+ "ajout": {
+  "fiche": {
+   "n": "La Grobul' Factory",
+   "c": "Mellionnec",
+   "d": "22",
+   "lat": 48.17103,
+   "lon": -3.28738,
+   "km": 670.4,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Micro-brasserie qui vend ses produits sur place, d'après un annuaire de producteurs.",
+   "addr": "Mellionnec",
+   "src": "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html"
+  ],
+  "extrait": "Ce producteur vend ses produits sur place",
+  "choix": "Annuaire seulement ; adresses de l'annuaire et de SIRENE discordantes. Position au centre de Mellionnec."
+ }
+}

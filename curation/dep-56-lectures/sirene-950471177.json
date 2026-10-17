@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:950471177",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lancelot",
+   "c": "Val d'Oust",
+   "d": "56",
+   "lat": 47.87079,
+   "lon": -2.47533,
+   "km": 602,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique ouverte au public toute l'année, du lundi au vendredi (10 h-12 h 30, 13 h 30-17 h) ; rien sur une consommation sur place.",
+   "addr": "7 La Mine, 56460 Val d'Oust",
+   "src": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+   "https://data.geopf.fr/geocodage/search?q=7+La+Mine%2C+56460+Val+d%27Oust&limit=5"
+  ],
+  "extrait": "du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h",
+  "choix": "Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre."
+ }
+}

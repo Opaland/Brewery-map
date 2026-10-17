@@ -1,0 +1,26 @@
+{
+ "candidat": "node/7489914427",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale la Guernouillette",
+   "c": "Plérin",
+   "d": "22",
+   "lat": 48.54732,
+   "lon": -2.78248,
+   "km": 653.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente aux particuliers et aux professionnels, entrée libre ; consommation sur place non établie.",
+   "addr": "Plérin",
+   "src": "http://www.la-guernouillette.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.la-guernouillette.com/"
+  ],
+  "extrait": "Vente aux particuliers, professionnels",
+  "choix": "La page dit « Saint Brieuc Ouest », OSM dit Plérin. Position au centre de Plérin."
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "candidat": "personne:10",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brassins du Lion d'Or",
+   "c": "Trémeur",
+   "d": "22",
+   "lat": 48.35017,
+   "lon": -2.2631,
+   "km": 609.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Nano-brasserie ; ni vente ni horaires lus.",
+   "addr": "Trémeur",
+   "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/"
+  ],
+  "extrait": "Le Lion d'Or 22250 Trémeur",
+  "choix": "Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur."
+ }
+}

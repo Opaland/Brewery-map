@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:481351781",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Launay",
+   "c": "Lamballe-Armor",
+   "d": "22",
+   "lat": 48.48218,
+   "lon": -2.49641,
+   "km": 631.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio ; visites guidées par l'office de tourisme. Vente sur place non établie.",
+   "addr": "9 Rue des Prés Jouettes, 22400 Lamballe-Armor",
+   "src": "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/stesf-visite-de-la-brasserie-de-launay-lamballe-armor-fr-5963935/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/stesf-visite-de-la-brasserie-de-launay-lamballe-armor-fr-5963935/",
+   "https://data.geopf.fr/geocodage/search?q=9+Rue+des+Pr%C3%A9s+Jouettes%2C+22400+Lamballe-Armor&limit=5"
+  ],
+  "extrait": "une brasserie artisanale bretonne spécialisée dans la fabrication de bières BIO",
+  "choix": "Même brasserie que le point OSM node/13299563772 ; site officiel injoignable."
+ }
+}

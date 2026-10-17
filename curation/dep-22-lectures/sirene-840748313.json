@@ -1,0 +1,39 @@
+{
+ "candidat": "sirene:840748313",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des 7 Îles",
+   "c": "Trégastel",
+   "d": "22",
+   "lat": 48.81613,
+   "lon": -3.51196,
+   "km": 714.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Ouverte au public (17 h–19 h en semaine l'été, samedi toute l'année) ; la page ne dit pas ce qu'on y fait.",
+   "addr": "Trégastel",
+   "src": "https://www.brasseriedes7iles.com",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedes7iles.com"
+  ],
+  "extrait": "Retrouvez-nous à la brasserie",
+  "choix": "Position au centre de Trégastel : l'adresse n'est pas relue."
+ }
+}

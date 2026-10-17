@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:851084483",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de La Ville Porte Amour",
+   "c": "Plouvara",
+   "d": "22",
+   "lat": 48.49461,
+   "lon": -2.9262,
+   "km": 660.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Ouverte le vendredi de 16 h à 19 h et sur rendez-vous (Click & Collect) ; la page ne dit pas ce qu'on y fait.",
+   "addr": "Plouvara",
+   "src": "http://www.lavilleporteamour.fr",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.lavilleporteamour.fr"
+  ],
+  "extrait": "Vendredi : 16h - 19h",
+  "choix": "Site « en reconstruction ». Position au centre de Plouvara."
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:833262561",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Vieux Singe",
+   "c": "Saint-Jacques-de-la-Lande",
+   "d": "35",
+   "lat": 48.06658,
+   "lon": -1.69935,
+   "km": 557.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Magasin ouvert le jeudi de 14 h à 18 h et le vendredi de 10 h à 18 h ; aucune consommation sur place lue.",
+   "addr": "4b rue Janig Corlay, 35136 Saint-Jacques-de-la-Lande",
+   "src": "https://www.vieuxsinge.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "sour"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.vieuxsinge.com",
+   "https://data.geopf.fr/geocodage/search?q=4b+rue+Janig+Corlay%2C+35136+Saint-Jacques-de-la-Lande&limit=5"
+  ],
+  "extrait": "Le magasin est ouvert le jeudi de 14h à 18h et le vendredi de 10h à 18h en continu."
+ }
+}

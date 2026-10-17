@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:981674021",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Louarn",
+   "c": "Montfort-sur-Meu",
+   "d": "35",
+   "lat": 48.1264,
+   "lon": -1.95447,
+   "km": 577.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente en boutique à la brasserie et sur les événements ; horaires sur demande.",
+   "addr": "Montfort-sur-Meu",
+   "src": "https://louarn.bzh",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://louarn.bzh"
+  ],
+  "extrait": "Oui, en boutique à la brasserie et sur les événements.",
+  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu."
+ }
+}

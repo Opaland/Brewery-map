@@ -1,0 +1,26 @@
+{
+ "candidat": "node/7935469837",
+ "ajout": {
+  "fiche": {
+   "n": "L'âne Brasseur",
+   "c": "Saint-Aignan",
+   "d": "56",
+   "lat": 48.1755,
+   "lon": -3.04065,
+   "km": 653.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie artisanale avec gîte d'étape ; ni vente ni horaires sur la page lue.",
+   "addr": "Lann Guilloux, 56480 Saint-Aignan",
+   "src": "https://anebrasseur.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://anebrasseur.fr/"
+  ],
+  "extrait": "Micro-Brasserie Artisanale",
+  "choix": "Téléphone publié : 02 56 62 61 03."
+ }
+}

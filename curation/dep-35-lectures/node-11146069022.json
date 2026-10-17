@@ -1,0 +1,34 @@
+{
+ "candidat": "node/11146069022",
+ "ajout": {
+  "fiche": {
+   "n": "Le Brasseur Bavarois",
+   "c": "Pleugueneuc",
+   "d": "35",
+   "lat": 48.42528,
+   "lon": -1.91334,
+   "km": 590.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Vente en ligne et sur les marchés ; horaires publiés (lundi, mardi, mercredi, vendredi 12 h–19 h) sans dire ce qu'on fait à la brasserie.",
+   "addr": "5 La Coudraie, 35720 Pleugueneuc",
+   "src": "https://lebrasseurbavarois.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://lebrasseurbavarois.fr/",
+   "https://data.geopf.fr/geocodage/search?q=5+La+Coudraie%2C+35720+Pleugueneuc&limit=5"
+  ],
+  "extrait": "5 La Coudraie 35720 Pleugueneuc",
+  "choix": "Même brasserie que sirene:843752312 (Pleugueneuc). OSM la plaçait à Plesder."
+ }
+}

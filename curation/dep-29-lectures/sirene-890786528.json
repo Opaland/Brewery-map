@@ -1,0 +1,25 @@
+{
+ "candidat": "sirene:890786528",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Diaoul",
+   "c": "Le Juch",
+   "d": "29",
+   "lat": 48.05774,
+   "lon": -4.26438,
+   "km": 734.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la brasserie ouverte le samedi de 10 h à 12 h ; consommation sur place non établie.",
+   "addr": "Kermenguy, 29100 Le Juch",
+   "src": "https://brasseriediaoul.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasseriediaoul.com/"
+  ],
+  "extrait": "NOUS VOUS ACCUEILLONS CHAQUE SAMEDI DE 10H à 12h DANS NOTRE BOUTIQUE"
+ }
+}

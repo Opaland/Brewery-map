@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:908884422",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Brume",
+   "c": "Questembert",
+   "d": "56",
+   "lat": 47.6639,
+   "lon": -2.44,
+   "km": 591.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar Horizon sur le site de la brasserie, au pied des cuves, d'après l'office de tourisme.",
+   "addr": "1 Rue Édouard Branly, 56230 Questembert",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+   "https://data.geopf.fr/geocodage/search?q=1+Rue+%C3%89douard+Branly%2C+56230+Questembert&limit=5"
+  ],
+  "extrait": "Passer un moment convivial au pied des cuves dans notre bar HORIZON"
+ }
+}

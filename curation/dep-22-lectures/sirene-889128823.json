@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:889128823",
+ "ajout": {
+  "fiche": {
+   "n": "La Riposte",
+   "c": "Châtelaudren-Plouagat",
+   "d": "22",
+   "lat": 48.54219,
+   "lon": -2.96978,
+   "km": 665.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar de la brasserie (pression et bouteilles) et vente à emporter ; ouvert jeudi 16 h–23 h, vendredi et samedi 16 h–1 h.",
+   "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
+   "src": "https://brasserielariposte.bzh/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserielariposte.bzh/",
+   "https://data.geopf.fr/geocodage/search?q=27+place+de+la+R%C3%A9publique%2C+22170+Ch%C3%A2telaudren-Plouagat&limit=5"
+  ],
+  "extrait": "proposées à la vente à emporter",
+  "choix": "La catégorie repose sur deux passages de la même page : « proposées à la vente à emporter » et « à la pression et en bouteilles »."
+ }
+}

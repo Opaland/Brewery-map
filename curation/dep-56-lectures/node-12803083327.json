@@ -1,0 +1,27 @@
+{
+ "candidat": "node/12803083327",
+ "ajout": {
+  "fiche": {
+   "n": "Déferle Micro-brasserie",
+   "c": "Plouhinec",
+   "d": "56",
+   "lat": 47.70135,
+   "lon": -3.21164,
+   "km": 647.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Lieu de production et de dégustation de bière (guinguette) ; la vente n'est pas précisée.",
+   "addr": "8 le loch, 56680 Plouhinec",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/deferle-microbrasserie-et-guinguette-plouhinec-fr-5722591/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/deferle-microbrasserie-et-guinguette-plouhinec-fr-5722591/",
+   "https://data.geopf.fr/geocodage/search?q=8+le+loch%2C+56680+Plouhinec&limit=5"
+  ],
+  "extrait": "Bienvenue chez Déferle Micro-brasserie, un lieu de production et de dégustation de bière",
+  "choix": "OSM la plaçait à Sainte-Hélène."
+ }
+}

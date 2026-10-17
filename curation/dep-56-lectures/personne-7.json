@@ -1,0 +1,26 @@
+{
+ "candidat": "personne:7",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Gwennili",
+   "c": "Locoal-Mendon",
+   "d": "56",
+   "lat": 47.69819,
+   "lon": -3.10669,
+   "km": 640.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Vente directe annoncée, sans lieu ni horaires sur la page.",
+   "addr": "Locoal-Mendon",
+   "src": "https://brasserie-gwennili.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserie-gwennili.fr/"
+  ],
+  "extrait": "En vente directe",
+  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où. Position au centre de Locoal-Mendon."
+ }
+}

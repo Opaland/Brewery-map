@@ -2509,3 +2509,64 @@ le refusait, et la position venait d'un script jetable, hors du dépôt.
    « dès le 1er juillet » sans année) passent en « À confirmer », avec
    leur raison. Les empreintes des lots changent.
 
+
+## S249 — Bretagne : 81 fiches proposées en 4 lots *(17/10)*
+
+Les quatre départements bretons suivent le circuit de la Normandie
+(`docs/stories/S249.md`).
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | Pas de vente | À confirmer |
+|---|---:|---:|---:|---:|---:|---:|
+| `dep-29` | 60 | 19 | 5 | 5 | 0 | 9 |
+| `dep-22` | 53 | 22 | 4 | 5 | 0 | 13 |
+| `dep-35` | 50 | 17 | 3 | 4 | 0 | 10 |
+| `dep-56` | 58 | 23 | 3 | 6 | 0 | 14 |
+
+Chaque lot dit, pour chaque candidat non proposé, pourquoi : doublon d'une
+fiche proposée, site injoignable, en JavaScript, fermé, pas une brasserie,
+ou introuvable. Les quatre passent `controler` sans écart.
+
+**Ce que la relecture a changé** : l'outil de lecture des agents résume les
+pages, et un extrait sur trois ne se retrouvait pas tel quel.
+- Chaque extrait a été cherché dans le texte brut de sa page ; ceux qui
+  manquaient ont été remplacés par la phrase réelle, ou la fiche écartée
+  (Cézon et Torr Penn injoignables, Dinan derrière une porte d'âge en
+  JavaScript, L'Ombre sans texte, deux pages en 404).
+- **Six catégories redescendues**, parce que la phrase de la page ne les
+  porte pas : Grain du Ponant, Alchimistes Ivres, Barque, Gwennili et Akène
+  (« acheter seulement » → « à confirmer ») ; Kerpiton (une dégustation de
+  visite n'est pas un bar : « acheter et consommer » → « acheter
+  seulement »).
+- **Confiances relevées** à « moyenne » quand la phrase vient du site de la
+  brasserie : Bonne Humeur, Drao, Guerlédan.
+- Les doublons entre SIRENE et OSM sont fusionnés sous une seule fiche (16).
+
+**Écarts à la story, dits ici** :
+- les paquets faisaient 10 candidats, non 7 ;
+- le quota de recherches web de la session s'est épuisé pendant les
+  paquets 14 à 23 : 12 candidats n'ont été cherchés qu'une fois au plus,
+  marqués « À relancer » dans leur lot (BACKLOG) ;
+- l'outil `lectures` n'a pas de champ contact : les liens Untappd ouverts
+  par un agent (Arvarus, Smash, Louarn, Horla) et les téléphones restent
+  dans les notes, non proposés.
+
+### S249 — corrections de la revue adverse *(17/10)*
+
+1. **La brasserie des Marais** : « pas de vente » reposait sur une réponse
+   à un commentaire de juin 2020, temporaire (déménagement). Elle passe en
+   « à confirmer », avec la date dans la note.
+2. **Deux doublons affirmés sans preuve** : « Brasserie du Merlin »
+   (Plougastel) et « Brasserie Horla » (`personne:6`) étaient écartés comme
+   « même brasserie » sur le seul nom. Ils restent écartés, mais avec
+   « lien non établi » et sans page propre à eux.
+3. **An Alarc'h** : la note la rattachait à Tri Martolod, ce que sa source
+   ne dit pas. Le rattachement est retiré.
+4. **Adresses ignorées** : Merlin (40 Impasse Ru Land, Penmarc'h) et
+   Tri Martolod (17 rue Aimé Césaire, Concarneau) étaient publiées sur la
+   page citée. Elles sont reprises et géocodées.
+5. **Extraits trop courts** pour porter la catégorie : Sainte Colombe
+   (« Bar & Vente Directe : … ») et Choque (« … + heure de taproom ») citent
+   maintenant la phrase entière.
+
+Les trois lots modifiés repassent `controler` sans écart ; leurs empreintes
+changent.

@@ -1,0 +1,25 @@
+{
+ "candidat": "sirene:794895581",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie D'Istribilh",
+   "c": "Plouider",
+   "d": "29",
+   "lat": 48.60276,
+   "lon": -4.29711,
+   "km": 757.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie en activité d'après son site ; vente sur place et horaires non lus.",
+   "addr": "Lestevennok, 29260 Plouider",
+   "src": "https://www.distribilh.bzh/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.distribilh.bzh/"
+  ],
+  "extrait": "D'Istribilh, Lestevennok, 29260 Plouider"
+ }
+}

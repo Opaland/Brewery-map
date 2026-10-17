@@ -1,0 +1,25 @@
+{
+ "candidat": "node/4477695357",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Bambelle",
+   "c": "Saint-Gravé",
+   "d": "56",
+   "lat": 47.72123,
+   "lon": -2.29872,
+   "km": 583.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie qui distribue dans le département ; rien sur la vente sur place ni les horaires.",
+   "addr": "Lanvaux, 56220 Saint-Gravé",
+   "src": "http://www.labambelle.com",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.labambelle.com"
+  ],
+  "extrait": "dans le département et quelques communes des départements voisins"
+ }
+}

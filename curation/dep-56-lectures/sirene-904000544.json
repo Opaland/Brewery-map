@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:904000544",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Domani",
+   "c": "Theix-Noyalo",
+   "d": "56",
+   "lat": 47.6304,
+   "lon": -2.64973,
+   "km": 605.2,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Commande en ligne et retrait à la brasserie (Click & Collect) ; consommation sur place non mentionnée.",
+   "addr": "Theix-Noyalo",
+   "src": "https://www.brasserie-domani.fr/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-domani.fr/"
+  ],
+  "extrait": "Click & Collect directement à la brasserie",
+  "choix": "Position au centre de Theix-Noyalo."
+ }
+}

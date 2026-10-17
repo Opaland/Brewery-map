@@ -1,0 +1,26 @@
+{
+ "candidat": "personne:4",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Rhuys (P'tite Mamm)",
+   "c": "Surzur",
+   "d": "56",
+   "lat": 47.56438,
+   "lon": -2.62176,
+   "km": 601,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Visite et dégustation à la brasserie, bar le vendredi soir, d'après l'office de tourisme ; le site annonce la vente directe le jeudi et le vendredi.",
+   "addr": "Surzur",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/"
+  ],
+  "extrait": "Bar le vendredi soir",
+  "choix": "Position au centre de Surzur."
+ }
+}

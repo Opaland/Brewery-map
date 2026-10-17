@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:909420929",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Beltane",
+   "c": "Rennes",
+   "d": "35",
+   "lat": 48.1109,
+   "lon": -1.68365,
+   "km": 559,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie ouverte en 2022 avec un lieu de dégustation annoncé ; source de 2022, rien de plus récent.",
+   "addr": "Rennes",
+   "src": "https://unidivers.fr/microbrasserie-beltane-rennes/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://unidivers.fr/microbrasserie-beltane-rennes/"
+  ],
+  "extrait": "accueilleront les consommateurs dans un lieu de dégustation pour une consommation sur place",
+  "choix": "Article de 2022 au futur : catégorie non retenue. Position au centre de Rennes."
+ }
+}

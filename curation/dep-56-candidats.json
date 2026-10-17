@@ -1,0 +1,1370 @@
+[
+ {
+  "cle": "sirene:812439511",
+  "nom": "LA DILETTANTE",
+  "communes": [
+   "SAINT-NOLFF",
+   "SAINT-AVE"
+  ],
+  "departement": "56",
+  "adresses": [
+   "ZA DE KERBOULARD 56250 SAINT-NOLFF",
+   "2 RUE MAX JACOB 56890 SAINT-AVE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "812439511",
+  "sirets": [
+   "81243951100021",
+   "81243951100039"
+  ],
+  "osm": [
+   "node/6813343497"
+  ],
+  "lat": 47.6923887615155,
+  "lon": -2.64052736265471,
+  "site": "https://www.brasserieladilettante.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LORIENT"
+  ],
+  "departement": "56",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:802177170",
+  "nom": "BRASSERIE DE L'HERMINE",
+  "communes": [
+   "PLOUHINEC",
+   "BELZ"
+  ],
+  "departement": "56",
+  "adresses": [
+   "ZA DU BISCONTE 56680 PLOUHINEC",
+   "RUE DU SUROIT 56550 BELZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "802177170",
+  "sirets": [
+   "80217717000023",
+   "80217717000031"
+  ],
+  "osm": [],
+  "lat": 47.694872087,
+  "lon": -3.220077278,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980768352",
+  "nom": "BRASSERIE LARMORIENNE",
+  "communes": [
+   "LARMOR-PLAGE",
+   "PLOEMEUR"
+  ],
+  "departement": "56",
+  "adresses": [
+   "18 RUE DES LILAS 56260 LARMOR-PLAGE",
+   "37 RUE DU DIVIT 56270 PLOEMEUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980768352",
+  "sirets": [
+   "98076835200018",
+   "98076835200034"
+  ],
+  "osm": [],
+  "lat": 47.711521999,
+  "lon": -3.378063689,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:950471177",
+  "nom": "BRASSERIE LANCELOT",
+  "communes": [
+   "VAL D'OUST",
+   "GUEGON"
+  ],
+  "departement": "56",
+  "adresses": [
+   "LE ROC ST ANDRE SITE DE LA MINE D'OR 56460 VAL D'OUST",
+   "ETS GUEGON - PA CARADEC SUD ZONE ARTISANALE LA CRX BLANCHE 56120 GUEGON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "950471177",
+  "sirets": [
+   "95047117700028",
+   "95047117700044"
+  ],
+  "osm": [],
+  "lat": 47.871407428,
+  "lon": -2.475163899,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894327873",
+  "nom": "BRASSERIE LE 90",
+  "communes": [
+   "BIGNAN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "4 RUE DE LA RESISTANCE 56500 BIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894327873",
+  "sirets": [
+   "89432787300010"
+  ],
+  "osm": [],
+  "lat": 47.87906171,
+  "lon": -2.772857178,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:532319381",
+  "nom": "BRASSERIE ARTISANALE DE LANGUIDIC",
+  "communes": [
+   "LANGUIDIC"
+  ],
+  "departement": "56",
+  "adresses": [
+   "KERDANIEL 56440 LANGUIDIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "532319381",
+  "sirets": [
+   "53231938100010"
+  ],
+  "osm": [],
+  "lat": 47.870546629,
+  "lon": -3.100761232,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:109998203",
+  "nom": "LES BARBOTS",
+  "communes": [
+   "PLOUAY"
+  ],
+  "departement": "56",
+  "adresses": [
+   "3 MANEDU 56240 PLOUAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "109998203",
+  "sirets": [
+   "10999820300011"
+  ],
+  "osm": [],
+  "lat": 47.90239797945895,
+  "lon": -3.2847909377655773,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832969869",
+  "nom": "L'ANE DORE",
+  "communes": [
+   "LANGUIDIC"
+  ],
+  "departement": "56",
+  "adresses": [
+   "15 RUE DU COMMERCE 56440 LANGUIDIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832969869",
+  "sirets": [
+   "83296986900029"
+  ],
+  "osm": [],
+  "lat": 47.862184379,
+  "lon": -3.092402813,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949974638",
+  "nom": "BRASSERIE TRALALA",
+  "communes": [
+   "LOCMARIA"
+  ],
+  "departement": "56",
+  "adresses": [
+   "TY-SEVENO 56360 LOCMARIA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949974638",
+  "sirets": [
+   "94997463800015"
+  ],
+  "osm": [],
+  "lat": 47.300506463,
+  "lon": -3.124812138,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823398250",
+  "nom": "LA BELLE JOIE",
+  "communes": [
+   "HENNEBONT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "181 RUE MARECHAL JOFFRE 56700 HENNEBONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823398250",
+  "sirets": [
+   "82339825000022"
+  ],
+  "osm": [],
+  "lat": 47.8104034966,
+  "lon": -3.2666180775125,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953755881",
+  "nom": "BRASSERIE LA MORGAT",
+  "communes": [
+   "LE PALAIS"
+  ],
+  "departement": "56",
+  "adresses": [
+   "56360 PORT SALIO 56360 LE PALAIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "953755881",
+  "sirets": [
+   "95375588100018"
+  ],
+  "osm": [
+   "way/63480698"
+  ],
+  "lat": 47.328458646,
+  "lon": -3.142616375,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953851268",
+  "nom": "BRASSERIE TRISKELL",
+  "communes": [
+   "EVELLYS"
+  ],
+  "departement": "56",
+  "adresses": [
+   "REMUNGOL BRET 56500 EVELLYS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953851268",
+  "sirets": [
+   "95385126800011"
+  ],
+  "osm": [],
+  "lat": 47.949898899,
+  "lon": -2.908384458,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:937812865",
+  "nom": "BRASSERIE HEOL",
+  "communes": [
+   "SENE"
+  ],
+  "departement": "56",
+  "adresses": [
+   "23 RUE D'ALSACE 56860 SENE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "937812865",
+  "sirets": [
+   "93781286500015"
+  ],
+  "osm": [],
+  "lat": 47.6505985618651,
+  "lon": -2.71547461638277,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:915386858",
+  "nom": "BRASSERIE DE L'ECLAIRCIE",
+  "communes": [
+   "GRAND-CHAMP"
+  ],
+  "departement": "56",
+  "adresses": [
+   "14 RUE LAENNEC 56390 GRAND-CHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "915386858",
+  "sirets": [
+   "91538685800012"
+  ],
+  "osm": [],
+  "lat": 47.755585467,
+  "lon": -2.860014171,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:939903068",
+  "nom": "P.A.E.C",
+  "communes": [
+   "SARZEAU"
+  ],
+  "departement": "56",
+  "adresses": [
+   "ZA KEROLLAIRE 9 RUE STIBIDEN 56370 SARZEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "939903068",
+  "sirets": [
+   "93990306800012"
+  ],
+  "osm": [],
+  "lat": 47.518155472513,
+  "lon": -2.78213974576316,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838019784",
+  "nom": "LA BRASSERIE DES AMIS",
+  "communes": [
+   "BIGNAN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "KERBIGUET 56500 BIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838019784",
+  "sirets": [
+   "83801978400019"
+  ],
+  "osm": [],
+  "lat": 47.869793531,
+  "lon": -2.777407669,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:990246399",
+  "nom": "LES HERETIKS",
+  "communes": [
+   "PLOERMEL"
+  ],
+  "departement": "56",
+  "adresses": [
+   "89 RUE DU VAL 56800 PLOERMEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "990246399",
+  "sirets": [
+   "99024639900010"
+  ],
+  "osm": [],
+  "lat": 47.9384950523316,
+  "lon": -2.39902106612424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "MICRO BRASSERIE KERBLEI",
+  "communes": [
+   "BADEN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "5 RUE DE KERNAVALO 56870 BADEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880245519",
+  "nom": "EURL ETRILLE",
+  "communes": [
+   "LOCMARIAQUER"
+  ],
+  "departement": "56",
+  "adresses": [
+   "LIEU DIT BELLEVUE 56740 LOCMARIAQUER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880245519",
+  "sirets": [
+   "88024551900017"
+  ],
+  "osm": [],
+  "lat": 47.580476815,
+  "lon": -2.96004478,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "MESLAN"
+  ],
+  "departement": "56",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE DE RHUYS",
+  "communes": [
+   "SURZUR"
+  ],
+  "departement": "56",
+  "adresses": [
+   "4 B ZA DE LANNE BORNE 56450 SURZUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911796522",
+  "nom": "MICROBRASSERIE LOCH'ALE",
+  "communes": [
+   "AURAY"
+  ],
+  "departement": "56",
+  "adresses": [
+   "33 RUE ALAIN GERBAULT 56400 AURAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911796522",
+  "sirets": [
+   "91179652200017"
+  ],
+  "osm": [],
+  "lat": 47.6606023242666,
+  "lon": -3.00437911066666,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914812805",
+  "nom": "MICROBRASSERIE L'ESK'ALE",
+  "communes": [
+   "KERNASCLEDEN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "25 RUE DES ROHAN 56540 KERNASCLEDEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914812805",
+  "sirets": [
+   "91481280500010"
+  ],
+  "osm": [],
+  "lat": 48.006218674,
+  "lon": -3.32328729,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832653356",
+  "nom": "BRASSERIE KERPITON",
+  "communes": [
+   "LOYAT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "KERPITON 8 RUE DES CHATAIGNIERS 56800 LOYAT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832653356",
+  "sirets": [
+   "83265335600010"
+  ],
+  "osm": [
+   "node/7489736738"
+  ],
+  "lat": 48.002919843,
+  "lon": -2.427936065,
+  "site": "https://www.brasseriekerpiton.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838771483",
+  "nom": "BRASSERIE BARQUE !",
+  "communes": [
+   "MALESTROIT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "4 CHEMIN DES TANNEURS 56140 MALESTROIT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "838771483",
+  "sirets": [
+   "83877148300016"
+  ],
+  "osm": [
+   "node/6484561666"
+  ],
+  "lat": 47.808197531,
+  "lon": -2.379472241,
+  "site": "https://microbrasseriebarque.bzh",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:104409800",
+  "nom": "MICROBRASSERIE TEMPETE",
+  "communes": [
+   "LORIENT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "11 RUE FRANCOIS TOULLEC 56100 LORIENT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "104409800",
+  "sirets": [
+   "10440980000018"
+  ],
+  "osm": [],
+  "lat": 47.732570048461,
+  "lon": -3.37955037483612,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897811709",
+  "nom": "BRASSERIE DE L'ESTRAN",
+  "communes": [
+   "ETEL"
+  ],
+  "departement": "56",
+  "adresses": [
+   "4 RUE VICTOR HUGO 56410 ETEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897811709",
+  "sirets": [
+   "89781170900020"
+  ],
+  "osm": [],
+  "lat": 47.6579603365146,
+  "lon": -3.19391188601505,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902103530",
+  "nom": "BRASSERIE LMD",
+  "communes": [
+   "VANNES"
+  ],
+  "departement": "56",
+  "adresses": [
+   "3 RUE DE L'ADJUDANT CHOTARD 56000 VANNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902103530",
+  "sirets": [
+   "90210353000017"
+  ],
+  "osm": [],
+  "lat": 47.6552126534035,
+  "lon": -2.76997646194207,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900769381",
+  "nom": "LA LYLWENN",
+  "communes": [
+   "ARZON"
+  ],
+  "departement": "56",
+  "adresses": [
+   "5 B RUE TERRE NEUVAS 56640 ARZON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900769381",
+  "sirets": [
+   "90076938100014"
+  ],
+  "osm": [],
+  "lat": 47.544227556,
+  "lon": -2.882268444,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909464836",
+  "nom": "MICROBRASSERIE HORLA",
+  "communes": [
+   "GRAND-CHAMP"
+  ],
+  "departement": "56",
+  "adresses": [
+   "GUENFROUT RUE LAENNEC 56390 GRAND-CHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909464836",
+  "sirets": [
+   "90946483600024"
+  ],
+  "osm": [],
+  "lat": 47.7555854669611,
+  "lon": -2.86001417132652,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912900388",
+  "nom": "KERSCOT SAS",
+  "communes": [
+   "ILE-AUX-MOINES"
+  ],
+  "departement": "56",
+  "adresses": [
+   "RUE DU DOLMEN 56780 ILE-AUX-MOINES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912900388",
+  "sirets": [
+   "91290038800014"
+  ],
+  "osm": [],
+  "lat": 47.594580386,
+  "lon": -2.848988715,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908884422",
+  "nom": "HORIZON BRASSERIE BRUME",
+  "communes": [
+   "QUESTEMBERT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "1 RUE EDOUARD BRANLY 56230 QUESTEMBERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908884422",
+  "sirets": [
+   "90888442200027"
+  ],
+  "osm": [],
+  "lat": 47.6637742,
+  "lon": -2.440485428,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917578973",
+  "nom": "MICRO-BRASSERIE SEAL",
+  "communes": [
+   "SAINT-PHILIBERT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "32 ZONE D'ACTIVITES DE KERRAN 56470 SAINT-PHILIBERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917578973",
+  "sirets": [
+   "91757897300021"
+  ],
+  "osm": [],
+  "lat": 47.59302898461634,
+  "lon": -2.982657984423776,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983774134",
+  "nom": "OCTA MICROBRASSERIE",
+  "communes": [
+   "QUEVEN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "3 PLACE GENERAL DE GAULLE 56530 QUEVEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983774134",
+  "sirets": [
+   "98377413400016"
+  ],
+  "osm": [],
+  "lat": 47.789714214,
+  "lon": -3.415637004,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838433852",
+  "nom": "LA BIERE DE GROIX",
+  "communes": [
+   "GROIX"
+  ],
+  "departement": "56",
+  "adresses": [
+   "LOCQUELTAS 56590 GROIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838433852",
+  "sirets": [
+   "83843385200012"
+  ],
+  "osm": [],
+  "lat": 47.626022641412,
+  "lon": -3.45074801610722,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:130625320",
+  "nom": "BRASSERIE ARTISANALE SPOUMIG",
+  "communes": [
+   "LA VRAIE-CROIX"
+  ],
+  "departement": "56",
+  "adresses": [
+   "ZA LA HUTTE SAINT PIERRE 56250 LA VRAIE-CROIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "130625320",
+  "sirets": [
+   "13062532000010"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "MICRO BRASSERIE AKENE",
+  "communes": [
+   "SAINT-LERY"
+  ],
+  "departement": "56",
+  "adresses": [
+   "3 RUE DE LA CITADELLE 56430 SAINT-LERY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "BRASSERIE HORLA",
+  "communes": [
+   "GRANDCHAMP"
+  ],
+  "departement": "56",
+  "adresses": [
+   "KERMENO 56390 GRANDCHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879944932",
+  "nom": "SARL TREHO",
+  "communes": [
+   "SAINT-PHILIBERT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "32 ZONE ARTISANALE DE KERRAN 56470 SAINT-PHILIBERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879944932",
+  "sirets": [
+   "87994493200026"
+  ],
+  "osm": [],
+  "lat": 47.593383722,
+  "lon": -2.982085405,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832824148",
+  "nom": "BRASSERIE LA TETE DURE",
+  "communes": [
+   "GUER"
+  ],
+  "departement": "56",
+  "adresses": [
+   "BAT. 2 PARC D'ACTIVITES DU VAL CORIC 5 RUE DU ROCHER 56380 GUER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832824148",
+  "sirets": [
+   "83282414800023"
+  ],
+  "osm": [],
+  "lat": 47.930664042,
+  "lon": -2.122875,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:941261323",
+  "nom": "BRASSERIE CASSE-GRAIN",
+  "communes": [
+   "DAMGAN"
+  ],
+  "departement": "56",
+  "adresses": [
+   "2 IMP DES LILAS 56750 DAMGAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941261323",
+  "sirets": [
+   "94126132300021"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:808071484",
+  "nom": "YERMAT BIER, BRASSERIE RIVE GAUCHE",
+  "communes": [
+   "LOCMIQUELIC"
+  ],
+  "departement": "56",
+  "adresses": [
+   "RUE DES ARTISANS ZA DE KERVERN 56570 LOCMIQUELIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "808071484",
+  "sirets": [
+   "80807148400030"
+  ],
+  "osm": [],
+  "lat": 47.731180296,
+  "lon": -3.320719438,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "GWENNILI",
+  "communes": [
+   "LOCOAL-MENDON"
+  ],
+  "departement": "56",
+  "adresses": [
+   "LE CLOZO 56550 LOCOAL-MENDON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904000544",
+  "nom": "BRASSERIE DOMANI",
+  "communes": [
+   "THEIX-NOYALO"
+  ],
+  "departement": "56",
+  "adresses": [
+   "5188 RTE DE SURZUR 56450 THEIX-NOYALO"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "904000544",
+  "sirets": [
+   "90400054400018"
+  ],
+  "osm": [
+   "node/13712266887"
+  ],
+  "lat": 47.608564005,
+  "lon": -2.675694179,
+  "site": "https://maisondomani.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802748186",
+  "nom": "BRASSERIE ROY",
+  "communes": [
+   "MALESTROIT"
+  ],
+  "departement": "56",
+  "adresses": [
+   "RUE DE CHATEUBRIAND 56140 MALESTROIT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "802748186",
+  "sirets": [
+   "80274818600037"
+  ],
+  "osm": [],
+  "lat": 47.81503572,
+  "lon": -2.373610867,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12409587194",
+  "nom": "Brasserie de l’Estran - Grand Coeff",
+  "communes": [
+   "Étel"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12409587194"
+  ],
+  "lat": 47.6578,
+  "lon": -3.19405,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12803083327",
+  "nom": "La Déferle",
+  "communes": [
+   "Sainte-Hélène"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12803083327"
+  ],
+  "lat": 47.70141,
+  "lon": -3.21089,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13202136482",
+  "nom": "Microbrasserie VOL 56",
+  "communes": [
+   "Sarzeau"
+  ],
+  "departement": "56",
+  "adresses": [
+   "9 rue Stibiden, 56370 Sarzeau"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13202136482"
+  ],
+  "lat": 47.51825,
+  "lon": -2.78195,
+  "site": "https://www.microbrasserie-vol56.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14247438701",
+  "nom": "Little Joy Kombucha",
+  "communes": [
+   "Séné"
+  ],
+  "departement": "56",
+  "adresses": [
+   "8 Jacques Cartier"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14247438701"
+  ],
+  "lat": 47.64746,
+  "lon": -2.70789,
+  "site": "https://littlejoybrewingco.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4477695357",
+  "nom": "Brasserie La Bambelle",
+  "communes": [
+   "Saint-Gravé"
+  ],
+  "departement": "56",
+  "adresses": [
+   "56220 Saint-Gravé"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4477695357"
+  ],
+  "lat": 47.72899,
+  "lon": -2.28873,
+  "site": "http://www.labambelle.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6419074234",
+  "nom": "Brasserie Lancelot",
+  "communes": [
+   "Le Roc-Saint-André"
+  ],
+  "departement": "56",
+  "adresses": [
+   "Site de la Mine, 56460 Le Roc-Saint-André"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6419074234"
+  ],
+  "lat": 47.87119,
+  "lon": -2.47547,
+  "site": "https://brasserie-lancelot.bzh/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LANCELOT"
+ },
+ {
+  "cle": "node/6511166960",
+  "nom": "La Croisette",
+  "communes": [
+   "Arzon"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6511166960"
+  ],
+  "lat": 47.54402,
+  "lon": -2.89079,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6813884809",
+  "nom": "Malterie-Brasserie Saint-Georges",
+  "communes": [
+   "Guern"
+  ],
+  "departement": "56",
+  "adresses": [
+   "11 Saint-Georges, 56310 Guern"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6813884809"
+  ],
+  "lat": 48.02811,
+  "lon": -3.05072,
+  "site": "https://www.brasseriesaintgeorges.fr/",
+  "statut": "ambigu",
+  "fiche": "Brasserie Georges"
+ },
+ {
+  "cle": "node/7350368846",
+  "nom": "Brasserie de la Presqu'ile de Quiberon",
+  "communes": [
+   "Saint-Pierre-Quiberon"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7350368846"
+  ],
+  "lat": 47.50749,
+  "lon": -3.12801,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7494891224",
+  "nom": "Brasserie La Belle Joie",
+  "communes": [
+   "Kervignac"
+  ],
+  "departement": "56",
+  "adresses": [
+   "3 Rue Antonin Careme, 56700 Kervignac"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7494891224"
+  ],
+  "lat": 47.791,
+  "lon": -3.24078,
+  "site": "https://www.labellejoie.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7935469837",
+  "nom": "L'âne Brasseur",
+  "communes": [
+   "Saint-Aignan"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7935469837"
+  ],
+  "lat": 48.19265,
+  "lon": -3.02997,
+  "site": "https://anebrasseur.fr/",
+  "statut": "ambigu",
+  "fiche": "Mozel'âne"
+ },
+ {
+  "cle": "node/9034736574",
+  "nom": "Yermat bier",
+  "communes": [
+   "Locmiquélic"
+  ],
+  "departement": "56",
+  "adresses": [
+   "Rue de Kenvern, 56570 Locmiquélic"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9034736574"
+  ],
+  "lat": 47.73123,
+  "lon": -3.32075,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/160691018",
+  "nom": "L'Estaminet du Champ Commun",
+  "communes": [
+   "Augan"
+  ],
+  "departement": "56",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/160691018"
+  ],
+  "lat": 47.92018,
+  "lon": -2.28013,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/66430165",
+  "nom": "Brasserie de Quiberon",
+  "communes": [
+   "Quiberon"
+  ],
+  "departement": "56",
+  "adresses": [
+   "9 Boulevard Plein Ouest, 56170 Quiberon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/66430165"
+  ],
+  "lat": 47.48871,
+  "lon": -3.12302,
+  "statut": "nouveau"
+ }
+]

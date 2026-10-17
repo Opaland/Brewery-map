@@ -1,0 +1,26 @@
+{
+ "candidat": "way/1000859372",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme-Brasserie Drao",
+   "c": "Melesse",
+   "d": "35",
+   "lat": 48.21937,
+   "lon": -1.68858,
+   "km": 564.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique ouverte le vendredi de 14 h à 18 h ; rien sur une consommation sur place.",
+   "addr": "Melesse",
+   "src": "https://brasseriedrao.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasseriedrao.com/"
+  ],
+  "extrait": "NOTRE BOUTIQUE EST OUVERTE LE VENDREDI DE 14H À 18H.",
+  "choix": "Position au centre de Melesse : l'adresse n'est pas relue."
+ }
+}

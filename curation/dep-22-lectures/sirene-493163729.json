@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:493163729",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Philomenn",
+   "c": "Tréguier",
+   "d": "22",
+   "lat": 48.78509,
+   "lon": -3.23294,
+   "km": 694.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites guidées annoncées par l'office de tourisme ; vente sur place non lue, site officiel injoignable (503).",
+   "addr": "Parc Sainte Catherine, 22220 Tréguier",
+   "src": "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A"
+  ],
+  "extrait": "Brasserie Philomenn, Parc Sainte Catherine 22220 Tréguier",
+  "choix": "Agenda de sorties seulement. Même brasserie que le point OSM node/6503738019."
+ }
+}

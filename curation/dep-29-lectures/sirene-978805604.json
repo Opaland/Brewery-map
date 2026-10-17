@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:978805604",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Kerav'ale",
+   "c": "Roscoff",
+   "d": "29",
+   "lat": 48.69757,
+   "lon": -3.99977,
+   "km": 741.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites annoncées sur le site, commande en ligne ; vente ou dégustation sur place non établie.",
+   "addr": "565 Route de Rucat, 29680 Roscoff",
+   "src": "https://www.brasseriekeravale.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriekeravale.fr/",
+   "https://data.geopf.fr/geocodage/search?q=565+Route+de+Rucat%2C+29680+Roscoff&limit=5"
+  ],
+  "extrait": "565 Route de Rucat - Keravel 29680 ROSCOFF",
+  "choix": "Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon)."
+ }
+}

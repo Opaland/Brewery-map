@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:880678347",
+ "ajout": {
+  "fiche": {
+   "n": "Le Grain du Ponant",
+   "c": "Riec-sur-Bélon",
+   "d": "29",
+   "lat": 47.8371,
+   "lon": -3.70014,
+   "km": 687.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Horaires d'été affichés sous « points de vente et de dégustation », à côté de l'adresse de l'atelier ; la page ne dit pas que ce lieu est l'atelier.",
+   "addr": "7 Rue de Pont Len, 29340 Riec-sur-Bélon",
+   "src": "https://www.le-grain-du-ponant.com/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.le-grain-du-ponant.com/",
+   "https://data.geopf.fr/geocodage/search?q=7+Rue+de+Pont+Len%2C+29340+Riec-sur-B%C3%A9lon&limit=5"
+  ],
+  "extrait": "L'atelier : 7 Rue de Pont Len, 29340 Riec-sur-Bélon",
+  "choix": "Un agent proposait « acheter seulement » : la phrase ne le dit pas assez pour être retenue."
+ }
+}

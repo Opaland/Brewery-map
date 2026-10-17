@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:539513101",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sainte Colombe",
+   "c": "Corps-Nuds",
+   "d": "35",
+   "lat": 47.98661,
+   "lon": -1.57988,
+   "km": 545.9,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar et vente directe le vendredi de 14 h à 20 h 30.",
+   "addr": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
+   "src": "https://www.brasserie-sainte-colombe.com/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-sainte-colombe.com/",
+   "https://data.geopf.fr/geocodage/search?q=22+Boulevard+Fran%C3%A7ois+Mitterrand%2C+35150+Corps-Nuds&limit=5"
+  ],
+  "extrait": "Bar & Vente Directe : Tous les vendredis 14h - 20h30",
+  "choix": "Même brasserie que le point OSM node/872324499 (La Landelle, Sainte-Colombe)."
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:813329661",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Kerampont",
+   "c": "Lannion",
+   "d": "22",
+   "lat": 48.74877,
+   "lon": -3.46936,
+   "km": 708.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar, vente directe et restauration le mardi (18 h–22 h) et le jeudi (19 h–22 h), vente directe et bar le vendredi (17 h–19 h).",
+   "addr": "Lannion",
+   "src": "https://kerampont.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://kerampont.com/"
+  ],
+  "extrait": "Mardi 18h-22h en mode bar, vente directe et restauration",
+  "choix": "Position au centre de Lannion : l'adresse n'est pas relue."
+ }
+}

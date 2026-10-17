@@ -1,0 +1,37 @@
+{
+ "candidat": "sirene:877660043",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Nautica",
+   "c": "Plouasne",
+   "d": "22",
+   "lat": 48.30553,
+   "lon": -2.01065,
+   "km": 590.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique en ligne et location de tireuse ; ni vente ni dégustation sur place indiquées.",
+   "addr": "2 ZA la Gare, 22830 Plouasne",
+   "src": "https://brasserienautica.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserienautica.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=2+ZA+la+Gare%2C+22830+Plouasne&limit=5"
+  ],
+  "extrait": "A: 2 ZA la Gare, 22830 Plouasne",
+  "choix": "Même adresse que « Tiens bon la Barre » (sirene:850569997) : lien non établi."
+ }
+}

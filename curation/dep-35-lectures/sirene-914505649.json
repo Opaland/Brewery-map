@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:914505649",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Minimum",
+   "c": "Montreuil-sur-Ille",
+   "d": "35",
+   "lat": 48.30748,
+   "lon": -1.67065,
+   "km": 568.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Gamme et boutique en ligne ; le site ne dit pas si l'on peut acheter ou consommer sur place.",
+   "addr": "20 avenue Alexis Rey, 35440 Montreuil-sur-Ille",
+   "src": "https://brasserieminimum.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserieminimum.fr/",
+   "https://data.geopf.fr/geocodage/search?q=20+avenue+Alexis+Rey%2C+35440+Montreuil-sur-Ille&limit=5"
+  ],
+  "extrait": "Brasserie Minimum, 20 avenue Alexis Rey, 35440 Montreuil sur Ille",
+  "choix": "Peut-être la « brasserie de Montreuil-sur-Ille » de l'annuaire Gault&Millau, citée pour « Brittany's » (node/6814774338) : lien non établi."
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:834915688",
+ "ajout": {
+  "fiche": {
+   "n": "La Bonne Humeur - Brasserie Artisanale de Paimpol",
+   "c": "Paimpol",
+   "d": "22",
+   "lat": 48.76819,
+   "lon": -3.06798,
+   "km": 683.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie du mardi au vendredi, de 14 h à 17 h 30 ; consommation sur place non établie.",
+   "addr": "5 rue du Grand Pré, 22500 Paimpol",
+   "src": "https://www.brasseriedepaimpol.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedepaimpol.com",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+du+Grand+Pr%C3%A9%2C+22500+Paimpol&limit=5"
+  ],
+  "extrait": "Du mardi au vendredi de 14h à 17h30",
+  "choix": "Même brasserie que le point OSM node/7489781146 (23b avenue Chateaubriand). L'office de tourisme donne d'autres horaires, « non garantis »."
+ }
+}

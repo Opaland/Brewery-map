@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:902874148",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Trévarn",
+   "c": "Saint-Urbain",
+   "d": "29",
+   "lat": 48.39503,
+   "lon": -4.22509,
+   "km": 744.1,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente des produits sur place, d'après un annuaire de producteurs ; consommation sur place non établie.",
+   "addr": "Saint-Urbain",
+   "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html"
+  ],
+  "extrait": "Ce producteur vend ses produits sur place",
+  "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que le point OSM node/5075303526 (Dirinon), d'après le site. Le site porte aussi « Merlin-Mignonne », sans citer Plougastel : le point « Brasserie du Merlin » (node/7496988886) n'est pas relié."
+ }
+}

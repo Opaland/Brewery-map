@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:838771483",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Barque",
+   "c": "Malestroit",
+   "d": "56",
+   "lat": 47.80836,
+   "lon": -2.3793,
+   "km": 592.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Bières en bouteille et en fût, location de tireuse ; le lieu de vente n'est pas dit.",
+   "addr": "4 chemin des Tanneurs, 56140 Malestroit",
+   "src": "https://microbrasseriebarque.bzh",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://microbrasseriebarque.bzh",
+   "https://data.geopf.fr/geocodage/search?q=4+chemin+des+Tanneurs%2C+56140+Malestroit&limit=5"
+  ],
+  "extrait": "des fûts de 20L sont disponibles à la vente",
+  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où."
+ }
+}

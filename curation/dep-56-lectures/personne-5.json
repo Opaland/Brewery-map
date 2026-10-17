@@ -1,0 +1,26 @@
+{
+ "candidat": "personne:5",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Akène",
+   "c": "Saint-Léry",
+   "d": "56",
+   "lat": 48.09021,
+   "lon": -2.26075,
+   "km": 596.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Petite brasserie depuis 2020 ; bières vendues en épiceries, caves et marchés. Vente sur place non lue.",
+   "addr": "Saint-Léry",
+   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/"
+  ],
+  "extrait": "Petite brasserie produisant des bières au style marqué depuis 2020",
+  "choix": "Fiche de tourisme seulement. Position au centre de Saint-Léry."
+ }
+}
