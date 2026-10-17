@@ -13,7 +13,18 @@ const CIBLE = process.env.MOUSSE_URL
 const PROJETS: Record<string, { name: string; use: Record<string, unknown> }> = {
   mobile: { name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } },
   webkit: { name: 'webkit-iphone', use: { ...devices['iPhone 13'], locale: 'fr-FR' } },
-  firefox: { name: 'firefox', use: { ...devices['Desktop Firefox'], locale: 'fr-FR' } },
+  // Firefox n'émule pas le mobile (`isMobile`) : un écran de téléphone, le
+  // toucher et l'agent de Firefox pour Android, comme dans la vraie vie.
+  firefox: {
+    name: 'firefox-android',
+    use: {
+      browserName: 'firefox',
+      viewport: { width: 412, height: 839 },
+      hasTouch: true,
+      userAgent: 'Mozilla/5.0 (Android 14; Mobile; rv:131.0) Gecko/131.0 Firefox/131.0',
+      locale: 'fr-FR',
+    },
+  },
 }
 
 export default defineConfig({
@@ -44,8 +55,8 @@ export default defineConfig({
   // suivra la langue du navigateur dès S50 (les tests anglais la posent).
   //
   // S234 : `PW_NAVIGATEUR` choisit un autre moteur, en CI seulement (le
-  // conteneur n'a que Chromium) : Safari d'iPhone (WebKit) ou Firefox de
-  // bureau — Firefox n'émule pas le mobile.
+  // conteneur n'a que Chromium) : Safari d'iPhone (WebKit) ou Firefox pour
+  // Android.
   projects: [PROJETS[process.env.PW_NAVIGATEUR ?? 'mobile'] ?? PROJETS.mobile],
   ...(CIBLE === undefined
     ? {

@@ -2239,3 +2239,14 @@ désaccordait le verrouillage (`npm ci` cassé, vu en local, rétabli). Les
 mutants statiques sortaient survivants à tort (vérifié à la main) : ignorés.
 Première trouvaille : aucun test ne refusait un fichier de base invalide
 dans la garde de `data/` — test ajouté (66 % au lieu de 58 %).
+
+## S234 (4/4) — Firefox, premier tri *(17/10)*
+
+134 réussis, 45 échecs, presque tous sur la carte : sans écran en CI,
+Firefox n'a pas WebGL, et la carte dit alors qu'elle ne peut pas
+s'afficher — le bon comportement (`carte-moteurs.spec.ts` réussit). Les
+tests qui ont besoin de la carte dessinée ne portent pas sur ce moteur
+(`versLaCarte` le dit et passe ; sous Chromium, une carte absente échoue).
+Le profil Firefox de bureau devient **Firefox pour Android** (écran de
+téléphone, toucher, agent Android) : les tests du téléphone et de « Y
+aller » (liens Android) s'y appliquent.

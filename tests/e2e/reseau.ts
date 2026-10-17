@@ -1,4 +1,5 @@
-import { expect, type Page } from '@playwright/test'
+import { type Page } from '@playwright/test'
+import { expect, test } from './position'
 
 /** Seul hôte tiers autorisé : les tuiles OpenStreetMap. */
 export const TUILE_OSM = /^https:\/\/tile\.openstreetmap\.org\/\d+\/\d+\/\d+\.png$/
@@ -16,7 +17,7 @@ export async function sansTuiles(page: Page): Promise<void> {
  * besoin y va, comme la personne qui fait défiler. Attend la carte montée, ou
  * son repli sans WebGL.
  */
-export async function versLaCarte(page: Page): Promise<void> {
+export async function versLaCarte(page: Page, options: { sansWebGLAttendu?: boolean } = {}): Promise<void> {
   const carte = page.locator('[data-testid="carte"], [data-testid="carte-absente"]')
   // On boucle sur l'état voulu (CLAUDE.md §6ter) : l'attente peut ne pas être
   // encore rendue, ou déjà remplacée (grand écran) ; « compter puis faire
@@ -35,6 +36,15 @@ export async function versLaCarte(page: Page): Promise<void> {
     })
     .toBeGreaterThan(0)
   await expect(carte).toBeVisible()
+  // S234 : sans WebGL (Firefox sans écran en CI), la carte dit qu'elle ne
+  // peut pas s'afficher — c'est le bon comportement, vérifié par
+  // carte-moteurs.spec.ts. Les tests qui ont besoin de la carte dessinée ne
+  // portent alors pas sur ce moteur ; sous Chromium, la carte doit être là.
+  if (options.sansWebGLAttendu !== true && (await page.getByTestId('carte-absente').count()) > 0) {
+    const moteur = page.context().browser()?.browserType().name()
+    if (moteur === 'chromium') throw new Error('carte absente sous Chromium : WebGL devrait y être')
+    test.skip(true, `pas de WebGL sous ${moteur ?? '?'} en CI : la carte dit qu'elle ne peut pas s'afficher`)
+  }
 }
 
 /**
