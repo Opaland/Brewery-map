@@ -1,0 +1,87 @@
+{
+ "candidat": "sirene:478698525",
+ "ajout": {
+  "fiche": {
+   "n": "La Piautre",
+   "c": "La Ménitré",
+   "d": "49",
+   "lat": 47.40284,
+   "lon": -0.25704,
+   "km": 428.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar-boutique de la brasserie, ouvert du mercredi au samedi ; la guinguette La Dérive, au port Saint-Maur, sert aussi ses bières.",
+   "addr": "La Gare, 49250 La Ménitré",
+   "src": "https://www.lapiautre.fr/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "sour"
+    }
+   ],
+   "contact": {
+    "site": "https://www.lapiautre.fr/",
+    "source": "https://www.lapiautre.fr/",
+    "tel": "02 41 57 62 78",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mer": [
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "source": "https://www.lapiautre.fr/",
+     "remarque": "Bar-boutique.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lapiautre.fr/"
+  ],
+  "extrait": "BAR-BOUTIQUE mercredi / jeudi / vendredi : 14h30 - 18h",
+  "choix": "Société La Fabrique des Bières d'Anjou. Même brasserie que le point OSM node/4278587091."
+ }
+}

@@ -1,0 +1,249 @@
+[
+ {
+  "cle": "sirene:881990006",
+  "n": "Brasserie de Montmirail",
+  "c": "Montmirail",
+  "adresse": "9 rue du Docteur Castaing, 72320 Montmirail",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "BrewPub de la brasserie (licence IV) : bières, cocktails et vente à emporter, du mercredi au dimanche ; un comptoir à Vibraye.",
+  "src": "https://www.brasseriedemontmirail.com/",
+  "extrait": "Vous pouvez acheter à emporter",
+  "beers": [],
+  "choix": "Seul numéro, un mobile. Le comptoir de Vibraye (13 rue de la Rivière) a ses propres horaires, non repris. Même brasserie que le point OSM node/10281244982.",
+  "contact": {
+   "site": "https://www.brasseriedemontmirail.com/",
+   "source": "https://www.brasseriedemontmirail.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "13:00"
+     ]
+    ],
+    "source": "https://www.brasseriedemontmirail.com/",
+    "remarque": "BrewPub de Montmirail."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:827684838",
+  "n": "Brasserie Septante-Deux",
+  "c": "Le Mans",
+  "adresse": "21 rue du Docteur Leroy, 72100 Le Mans",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie et bar : une partie de la bière brassée est servie sur place, aux douze becs pression ; ouvert du lundi au samedi à partir de 17 h.",
+  "src": "https://www.brasserieseptantedeux.com/",
+  "extrait": "Une partie de la bière brassée est servie sur place, en direct des cuves",
+  "beers": [],
+  "choix": "Horaires non repris en bloc : « à partir de 17h », sans heure de fin. Seul numéro sur le site, un mobile ; le guide Le Fooding en donne un autre.",
+  "contact": {
+   "site": "https://www.brasserieseptantedeux.com/",
+   "source": "https://www.brasserieseptantedeux.com/"
+  }
+ },
+ {
+  "cle": "sirene:823204854",
+  "n": "Mage Malte",
+  "c": "Mamers",
+  "adresse": "109 rue Charles Granger, 72600 Mamers",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie bio avec vente directe aux particuliers et tap room, du mercredi au samedi.",
+  "src": "https://mage-malte.com/",
+  "extrait": "Vente directe* et TAP ROOM",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "SIRENE donne une autre adresse (Saint-Rémy-des-Monts) ; le site donne Mamers.",
+  "contact": {
+   "site": "https://mage-malte.com/",
+   "source": "https://mage-malte.com/",
+   "tel": "09 84 19 89 54"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "source": "https://mage-malte.com/",
+    "remarque": "Vente directe et tap room."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:951346634",
+  "n": "Brasserie Bizarre",
+  "c": "Saint-Pavace",
+  "adresse": "71 rue de Tourraine, 72190 Saint-Pavace",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar en jardin le vendredi, food truck le midi, et vente à emporter du lundi au vendredi, d'après l'office de tourisme.",
+  "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre",
+  "extrait": "Takeaway sales are available Monday to Friday from 8am to 6pm.",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; le site de la brasserie est « en création ». Horaires en anglais (« 11am »), non repris en bloc. Même brasserie que le point OSM node/12145075166, placé à Coulaines."
+ },
+ {
+  "cle": "way/1321464054",
+  "n": "Brasserie Jolicoeur",
+  "c": "Laigné-Saint-Gervais",
+  "adresse": null,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie le jeudi et le vendredi ; bières et limonade.",
+  "src": "https://www.bierejolicoeur.com/",
+  "extrait": "Vente directe les jeudis et vendredis de 9h00 à 19h00",
+  "beers": [],
+  "choix": "OSM la place à Saint-Ouen-en-Belin ; le site dit « brassées et embouteillées à Laigné-en-Belin », commune aujourd'hui nommée Laigné-Saint-Gervais (seul nom que connaît le géocodeur de l'IGN). Adresse non publiée : position au centre de la commune.",
+  "contact": {
+   "site": "https://www.bierejolicoeur.com/",
+   "source": "https://www.bierejolicoeur.com/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.bierejolicoeur.com/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:951704774",
+  "n": "La Chaloupe Brasserie",
+  "c": "Le Mans",
+  "adresse": "41 rue d'Alger, 72000 Le Mans",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie, ouverte le mercredi et le samedi matin ; ateliers de brassage et de dégustation, location de tireuse.",
+  "src": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+  "extrait": "Disponibles en bouteilles pour les particuliers et les professionnels",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Seul numéro, un mobile. Les ateliers de dégustation sont sur inscription : pas un bar.",
+  "contact": {
+   "site": "https://www.la-chaloupe-brasserie.fr/",
+   "source": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+    "remarque": "Boutique de la brasserie."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:937917748",
+  "n": "La Feuille Rouge",
+  "c": "Vancé",
+  "adresse": "18 rue Virginie Vaslin, Le Champ du Moulin, 72310 Vancé",
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie ouverte en 2025 ; canettes, et fûts prêtés avec tireuse pour les événements. Rien sur une vente ou un accueil à la brasserie.",
+  "src": "https://lafeuillerouge.com/",
+  "extrait": "Toute la gamme sera disponible en canettes mais également en fûts de 30L",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Seul numéro, un mobile.",
+  "contact": {
+   "site": "https://lafeuillerouge.com/",
+   "source": "https://lafeuillerouge.com/"
+  }
+ }
+]

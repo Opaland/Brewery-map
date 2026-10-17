@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:829049501",
+ "ajout": {
+  "fiche": {
+   "n": "Oiseau de Nuit, Fabrique de bières",
+   "c": "Apremont",
+   "d": "85",
+   "lat": 46.75969,
+   "lon": -1.74372,
+   "km": 514.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar et boutique sur place (bières, coffrets, kits de brassage), sur le site du Grand Duc ; visite le jeudi à 19 h d'avril à septembre.",
+   "addr": "La Thébaultière, 85220 Apremont",
+   "src": "https://atlantic-loire-valley.com/objet_touristique/240088",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://atlantic-loire-valley.com/objet_touristique/240088"
+  ],
+  "extrait": "Beers to taste at the bar or at our partners' premises",
+  "choix": "Fiche de tourisme en anglais. Société MK Production, rattachée par l'adresse seulement. Même brasserie que le point OSM node/11740796277 (« Le Grand Duc »)."
+ }
+}

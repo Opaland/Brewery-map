@@ -1,0 +1,343 @@
+[
+ {
+  "cle": "sirene:920288719",
+  "n": "Brasserie Les Deux Brunes",
+  "c": "Montreuil-Bellay",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété, d'après la fiche de l'office de tourisme ; dégustation ou atelier de brassage à demander.",
+  "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes",
+  "extrait": "Winery sales",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile de la fiche. Même brasserie que le point OSM node/12400982165. Rue sans numéro : position au centre de la commune."
+ },
+ {
+  "cle": "sirene:478698525",
+  "n": "La Piautre",
+  "c": "La Ménitré",
+  "adresse": "La Gare, 49250 La Ménitré",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar-boutique de la brasserie, ouvert du mercredi au samedi ; la guinguette La Dérive, au port Saint-Maur, sert aussi ses bières.",
+  "src": "https://www.lapiautre.fr/",
+  "extrait": "BAR-BOUTIQUE mercredi / jeudi / vendredi : 14h30 - 18h",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sour"
+   }
+  ],
+  "choix": "Société La Fabrique des Bières d'Anjou. Même brasserie que le point OSM node/4278587091.",
+  "contact": {
+   "site": "https://www.lapiautre.fr/",
+   "source": "https://www.lapiautre.fr/",
+   "tel": "02 41 57 62 78"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.lapiautre.fr/",
+    "remarque": "Bar-boutique."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:518580790",
+  "n": "La Rombière",
+  "c": "Beaupréau-en-Mauges",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.",
+  "src": "https://www.larombiere.com/",
+  "extrait": "Côté bar Côté Resto Le Magasin",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "lager"
+   }
+  ],
+  "choix": "Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune.",
+  "contact": {
+   "site": "https://www.larombiere.com/",
+   "source": "https://www.larombiere.com/"
+  }
+ },
+ {
+  "cle": "node/8661921917",
+  "n": "La Belle de Maine",
+  "c": "Bouchemaine",
+  "adresse": "36 rue des Moulins, 49080 Bouchemaine",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Dégustation et vente directe sur rendez-vous, d'après l'office de tourisme d'Angers.",
+  "src": "https://www.destination-angers.com/en/offers/belle-de-maine-craft-brewery-bouchemaine-en-1617144",
+  "extrait": "Open every day by appointment at 06 60 02 62 55, tasting and direct sales.",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais. Dégustation sur rendez-vous : « acheter seulement » en attendant. Seul numéro, un mobile. L'entreprise B.A.B Agro (sirene:752775148) est déclarée à la même adresse.",
+  "contact": {
+   "site": "https://www.belledemaine.fr/",
+   "source": "https://www.belledemaine.fr/"
+  }
+ },
+ {
+  "cle": "sirene:901789701",
+  "n": "La Côale",
+  "c": "Bécon-les-Granits",
+  "adresse": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.",
+  "src": "https://la-coale.fr/bar-boutique-la-coale",
+  "extrait": "Vous pouvez venir boire une bière sur place",
+  "beers": [],
+  "contact": {
+   "site": "https://la-coale.fr/",
+   "source": "https://la-coale.fr",
+   "tel": "02 52 35 29 38",
+   "untappd": "https://untappd.com/La_Coale"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "15:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "source": "https://la-coale.fr/bar-boutique-la-coale",
+    "remarque": "Espace dégustation et boutique."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:840613897",
+  "n": "Sterne & Mousse",
+  "c": "Rochefort-sur-Loire",
+  "adresse": null,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de vente à emporter à la brasserie, le jeudi et le vendredi en fin d'après-midi et le samedi matin d'avril à décembre.",
+  "src": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+  "extrait": "la Sterne boutique est ouverte pour de la vente à emporter",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "choix": "Seul numéro, un mobile. L'adresse de la page de contact est peut-être celle d'un point de vente : position au centre de la commune.",
+  "contact": {
+   "site": "https://sterneetmousse.fr/",
+   "source": "https://sterneetmousse.fr/points-de-vente-biere-bio/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:30",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:30",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "source": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+    "remarque": "Le samedi d'avril à décembre seulement ; fermée les jours fériés."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:909244055",
+  "n": "Brasserie La Papposilène",
+  "c": "Saint-Georges-sur-Loire",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété et dégustation gratuite en salle équipée, d'après l'office de tourisme ; ouverte toute l'année.",
+  "src": "https://atlantic-loire-valley.com/objet_touristique/228240",
+  "extrait": "Winery sales",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; le site donné ne sert plus la brasserie. Adresses de la fiche et de SIRENE discordantes : position au centre de la commune."
+ },
+ {
+  "cle": "sirene:903288827",
+  "n": "Brasserie Penrose",
+  "c": "Angers",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Bières et kombuchas fabriqués à Angers, vendus en ligne ; ni vente ni consommation sur place dites.",
+  "src": "https://www.penrose-angers.fr/",
+  "extrait": "Tous nos produits sont fabriqués à Angers dans notre Brasserie.",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Seul numéro, un mobile. Position au centre d'Angers.",
+  "contact": {
+   "site": "https://www.penrose-angers.fr/",
+   "source": "https://www.penrose-angers.fr/"
+  }
+ },
+ {
+  "cle": "sirene:893581843",
+  "n": "Nuage Craft Beer",
+  "c": "Brissac Loire Aubance",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie près d'Angers, selon l'office de tourisme ; rien sur la vente ni l'accueil.",
+  "src": "https://www.atlantic-loire-valley.com/objet_touristique/228241",
+  "extrait": "Contact BRASSERIE NUAGE CRAFT BEER",
+  "beers": [],
+  "choix": "Fiche de tourisme seulement ; le site donné n'existe pas. Position au centre de la commune."
+ },
+ {
+  "cle": "sirene:912086550",
+  "n": "Brasserie La Bestiole",
+  "c": "Saint-Barthélemy-d'Anjou",
+  "adresse": "8 rue du Patis, 49124 Saint-Barthélemy-d'Anjou",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Taproom à la brasserie, avec vue sur les cuves : toutes les bières en canette et à la pression.",
+  "src": "https://brasserielabestiole.fr/",
+  "extrait": "Toutes les bières y sont disponibles en canette et à la pression.",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sour"
+   }
+  ],
+  "contact": {
+   "site": "https://brasserielabestiole.fr/",
+   "source": "https://brasserielabestiole.fr/",
+   "tel": "02 59 16 55 84",
+   "untappd": "https://untappd.com/Brasserie_La_Bestiole"
+  }
+ },
+ {
+  "cle": "sirene:941974248",
+  "n": "Brasserie Alpaca",
+  "c": "Segré-en-Anjou Bleu",
+  "adresse": "18 ter rue de l'Hommeau, Saint-Martin-du-Bois, 49500 Segré-en-Anjou Bleu",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la ferme le samedi matin, d'après l'office de tourisme.",
+  "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-alpaca",
+  "extrait": "Winery sales",
+  "beers": [],
+  "choix": "Fiche de tourisme seulement ; seul numéro, un mobile.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "source": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-alpaca",
+    "remarque": "Selon l'office de tourisme, pour 2026."
+   }
+  ]
+ }
+]

@@ -1,0 +1,49 @@
+{
+ "candidat": "node/6813865426",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie San Roce",
+   "c": "Jans",
+   "d": "44",
+   "lat": 47.62361,
+   "lon": -1.58629,
+   "km": 530.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Bières bio en bouteilles et à la pression, location de tireuses ; la page ne dit ni vente sur place ni horaires.",
+   "addr": "30 rue Quillevrant, 44170 Jans",
+   "src": "https://brasseriesanroce.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://brasseriesanroce.fr/",
+    "source": "https://brasseriesanroce.fr/",
+    "tel": "02 40 51 72 46",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasseriesanroce.fr/",
+   "https://data.geopf.fr/geocodage/search?q=30+rue+Quillevrant%2C+44170+Jans&limit=5"
+  ],
+  "extrait": "BRASSERIE SAN ROCE 30, rue Quillevrant 44170 JANS",
+  "choix": "Même brasserie que sirene:809686116 (Brasserie San Roce, Jans)."
+ }
+}

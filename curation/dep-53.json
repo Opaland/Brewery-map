@@ -1,0 +1,149 @@
+{
+ "lot": "dep-53",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Cousin",
+    "c": "Pré-en-Pail-Saint-Samson",
+    "d": "53",
+    "lat": 48.45297,
+    "lon": -0.20395,
+    "km": 486.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de Pré-en-Pail, d'après l'office de tourisme ; rien sur la vente ni l'accueil.",
+    "addr": "ZA de la Corniche de Pail, 53140 Pré-en-Pail-Saint-Samson",
+    "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-cousin",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-cousin"
+   ],
+   "extrait": "ZA de la Corniche de Pail 53140 PRE-EN-PAIL-SAINT-SAMSON",
+   "choix": "Fiche de tourisme seulement. Même brasserie que la société sirene:828960948. L'enseigne porte le nom de famille du brasseur, que la page nomme : à toi de dire si elle peut être publiée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie associative de Montflours (BAM)",
+    "c": "Montflours",
+    "d": "53",
+    "lat": 48.16977,
+    "lon": -0.73392,
+    "km": 500.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie coopérative certifiée Nature et Progrès ; la fiche de l'office de tourisme cite une boutique, sans dire quand ni comment on y achète.",
+    "addr": "ZA du Mottay, route de Sacé, 53240 Montflours",
+    "src": "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/"
+   ],
+   "extrait": "Nature et Progrès certified cooperative brewery",
+   "choix": "Fiche de tourisme seulement, qui marque ses horaires « non garantis » ; seul numéro, un mobile."
+  },
+  {
+   "fiche": {
+    "n": "Guibs Beer",
+    "c": "Mayenne",
+    "d": "53",
+    "lat": 48.28454,
+    "lon": -0.62533,
+    "km": 500.6,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie (bouteilles, coffrets, verres) et espace bar et dégustation à la pression, du mercredi au samedi ; bières bio.",
+    "addr": "139 impasse Thomas A Édison, 53100 Mayenne",
+    "src": "https://www.guibsbeer.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.guibsbeer.fr/",
+     "source": "https://www.guibsbeer.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "17:00",
+        "20:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "21:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Bar et boutique.",
+      "source": "https://www.guibsbeer.fr/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.guibsbeer.fr/",
+    "https://data.geopf.fr/geocodage/search?q=139+impasse+Thomas+A+%C3%89dison%2C+53100+Mayenne&limit=5"
+   ],
+   "extrait": "Espace bar et dégustation pour passer un bon moment à déguster une Guibs à la pression",
+   "choix": "Les deux numéros du site sont des mobiles (bar et boutique ; commandes et fûts)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Nico",
+    "c": "Lassay-les-Châteaux",
+    "d": "53",
+    "lat": 48.44806,
+    "lon": -0.50371,
+    "km": 503.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie lancée en 2021 à Lassay-les-Châteaux, bières Courbette, d'après l'office de tourisme ; rien sur la vente ni l'accueil.",
+    "addr": "Lassay-les-Châteaux",
+    "src": "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers",
+    "coordPrecision": "commune",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "brune"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers"
+   ],
+   "extrait": "Brasserie des Nico offers Courbette: blond, white, amber and brown beers",
+   "choix": "Page de tourisme seulement ; ni adresse ni contact. Position au centre de la commune."
+  }
+ ]
+}

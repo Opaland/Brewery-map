@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:809531908",
+ "ajout": {
+  "fiche": {
+   "n": "BACA - Brasserie Artisanale de la Côte d'Amour",
+   "c": "Batz-sur-Mer",
+   "d": "44",
+   "lat": 47.2817,
+   "lon": -2.47209,
+   "km": 581.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Ouverte pour la vente et la dégustation de ses cuvées, d'après l'annuaire Gault&Millau.",
+   "addr": "26 rue du Drézéguy, 44740 Batz-sur-Mer",
+   "src": "https://fr.gaultmillau.com/fr/artisans/baca---brasserie-artisanale-de-la-cote-d-amour",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "sour"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://fr.gaultmillau.com/fr/artisans/baca---brasserie-artisanale-de-la-cote-d-amour",
+   "https://data.geopf.fr/geocodage/search?q=26+rue+du+Dr%C3%A9z%C3%A9guy%2C+44740+Batz-sur-Mer&limit=5"
+  ],
+  "extrait": "est ouverte pour la vente et la dégustation des six cuvées",
+  "choix": "Annuaire seulement ; aucun site de la brasserie trouvé. La dégustation y est ouverte au public avec la vente, sans visite : c'est la règle qui sépare ce cas de la Divatte et de La Déviation (dégustation liée à une visite)."
+ }
+}

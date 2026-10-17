@@ -1,0 +1,79 @@
+{
+ "candidat": "sirene:823204854",
+ "ajout": {
+  "fiche": {
+   "n": "Mage Malte",
+   "c": "Mamers",
+   "d": "72",
+   "lat": 48.35592,
+   "lon": 0.36692,
+   "km": 446.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie bio avec vente directe aux particuliers et tap room, du mercredi au samedi.",
+   "addr": "109 rue Charles Granger, 72600 Mamers",
+   "src": "https://mage-malte.com/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://mage-malte.com/",
+    "source": "https://mage-malte.com/",
+    "tel": "09 84 19 89 54",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mer": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "source": "https://mage-malte.com/",
+     "remarque": "Vente directe et tap room.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://mage-malte.com/",
+   "https://data.geopf.fr/geocodage/search?q=109+rue+Charles+Granger%2C+72600+Mamers&limit=5"
+  ],
+  "extrait": "Vente directe* et TAP ROOM",
+  "choix": "SIRENE donne une autre adresse (Saint-Rémy-des-Monts) ; le site donne Mamers."
+ }
+}

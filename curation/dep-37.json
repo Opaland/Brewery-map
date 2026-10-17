@@ -1,0 +1,145 @@
+{
+ "lot": "dep-37",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de la Pigeonnelle",
+    "c": "Céré-la-Ronde",
+    "d": "37",
+    "lat": 47.26101,
+    "lon": 1.19636,
+    "km": 324.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie des bières Loirette, vendues en bouteilles et en fûts de 20 litres ; ses installations ne sont pas ouvertes au public. Elle liste ses revendeurs en Indre-et-Loire.",
+    "addr": "10 rue de la Ronde, 37460 Céré-la-Ronde",
+    "src": "http://www.brasserie-pigeonnelle.fr/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "brune"
+     }
+    ],
+    "contact": {
+     "tel": "02 47 94 28 22",
+     "site": "http://www.brasserie-pigeonnelle.fr/",
+     "source": "http://www.brasserie-pigeonnelle.fr/",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.brasserie-pigeonnelle.fr/",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+la+Ronde%2C+37460+C%C3%A9r%C3%A9-la-Ronde&limit=5"
+   ],
+   "extrait": "Les installations de la brasserie ne sont pas ouvertes au public.",
+   "choix": "Catégorie à confirmer : la page dit le lieu fermé au public, mais elle vend des fûts aux particuliers pour leurs manifestations ; comment on les achète n'est pas dit. Page Untappd : https://untappd.com/w/brasserie-de-la-pigeonnelle/12116 (non reprise dans le contact, faute de figurer sur la page du site). Le second numéro du site est un mobile."
+  },
+  {
+   "fiche": {
+    "n": "Art Is An Ale Brewing",
+    "c": "Amboise",
+    "d": "37",
+    "lat": 47.41162,
+    "lon": 0.9866,
+    "km": 346.9,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie au pied du château, avec espace de production et bar de dégustation ; vente sur place, visites et initiations au brassage, d'après l'office de tourisme.",
+    "addr": "2 bis rue du Général Foy, 37400 Amboise",
+    "src": "https://www.tourainevaldeloire.com/en/offers/art-is-an-ale-brewing-amboise-en-5153269",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.tourainevaldeloire.com/en/offers/art-is-an-ale-brewing-amboise-en-5153269",
+    "https://data.geopf.fr/geocodage/search?q=2+bis+rue+du+G%C3%A9n%C3%A9ral+Foy%2C+37400+Amboise&limit=5"
+   ],
+   "extrait": "the brewery Art is an ale brewing includes a production area as well as a tasting bar",
+   "choix": "Fiche de tourisme en anglais seulement ; son numéro est publié par l'office, pas par la brasserie. Le site de la brasserie n'a pas été lu."
+  },
+  {
+   "fiche": {
+    "n": "Une Gabare à Husseau",
+    "c": "Montlouis-sur-Loire",
+    "d": "37",
+    "lat": 47.39198,
+    "lon": 0.88751,
+    "km": 352,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Micro-brasserie : vente sur place sur rendez-vous, dégustation gratuite, d'après l'office de tourisme.",
+    "addr": "4 chemin des Rocheroux, Husseau, 37270 Montlouis-sur-Loire",
+    "src": "https://www.tourisme-montlouis-vouvray.com/your-stay/food-drink/local-products-and-shops/detail/degustation-terroir/micro-brasserie-une-gabare/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.tourisme-montlouis-vouvray.com/your-stay/food-drink/local-products-and-shops/detail/degustation-terroir/micro-brasserie-une-gabare/",
+    "https://data.geopf.fr/geocodage/search?q=4+chemin+des+Rocheroux%2C+Husseau%2C+37270+Montlouis-sur-Loire&limit=5"
+   ],
+   "extrait": "Sale on site by appointment.",
+   "choix": "Fiche de tourisme en anglais seulement. Horaires non repris : la même fiche dit « sur rendez-vous » et « tous les jours de 9 h à 19 h »."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Canailles",
+    "c": "Rochecorbon",
+    "d": "37",
+    "lat": 47.41566,
+    "lon": 0.75564,
+    "km": 361.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio de Rochecorbon ; la « vente directe à la brasserie » renvoie à sa boutique en ligne, sans dire qu'on achète sur place.",
+    "addr": "11 place du Lieutenant Ferdinand Lefèvre, 37210 Rochecorbon",
+    "src": "https://www.brasseriedescanailles.fr/contact",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     }
+    ],
+    "contact": {
+     "site": "https://www.brasseriedescanailles.fr/",
+     "untappd": "https://untappd.com/w/brasserie-des-canailles/461563",
+     "source": "https://untappd.com/w/brasserie-des-canailles/461563",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedescanailles.fr/contact",
+    "https://untappd.com/w/brasserie-des-canailles/461563",
+    "https://data.geopf.fr/geocodage/search?q=11+place+du+Lieutenant+Ferdinand+Lef%C3%A8vre%2C+37210+Rochecorbon&limit=5"
+   ],
+   "extrait": "Pour la vente directe à la brasserie : accéder à la boutique en ligne",
+   "choix": "Seul numéro, un mobile. Bières lues sur la page Untappd."
+  }
+ ]
+}

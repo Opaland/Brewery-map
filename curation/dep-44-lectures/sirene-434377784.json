@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:434377784",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Divatte",
+   "c": "Divatte-sur-Loire",
+   "d": "44",
+   "lat": 47.28059,
+   "lon": -1.3733,
+   "km": 501.9,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente directe à la brasserie, et dégustation lors d'une visite commentée, d'après la fiche régionale de tourisme.",
+   "addr": "34 bis le Norestier, La Chapelle-Basse-Mer, 44450 Divatte-sur-Loire",
+   "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-de-la-divatte",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-de-la-divatte",
+   "https://data.geopf.fr/geocodage/search?q=34+bis+le+Norestier%2C+La+Chapelle-Basse-Mer%2C+44450+Divatte-sur-Loire&limit=5"
+  ],
+  "extrait": "Production et ventes directes de bières artisanales",
+  "choix": "Bières Trompe Souris ; le site officiel boucle en redirections. Une dégustation de visite n'est pas un bar : « acheter seulement »."
+ }
+}

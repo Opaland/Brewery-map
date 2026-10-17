@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:983070608",
+ "ajout": {
+  "fiche": {
+   "n": "Tabernaude Brew",
+   "c": "L'Île-d'Yeu",
+   "d": "85",
+   "lat": 46.72706,
+   "lon": -2.35021,
+   "km": 559,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bières brassées sur le port, à boire en terrasse ou à emporter en bouteilles et canettes, d'après l'office de tourisme.",
+   "addr": "3 rue des Quais, 85350 L'Île-d'Yeu",
+   "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/tabernaude-brew",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://atlantic-loire-valley.com/activities/tastings-and-local-products/tabernaude-brew",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+des+Quais%2C+85350+L%27%C3%8Ele-d%27Yeu&limit=5"
+  ],
+  "extrait": "can enjoy them on the terrace or take them away in bottles or cans",
+  "choix": "Fiche de tourisme en anglais seulement."
+ }
+}

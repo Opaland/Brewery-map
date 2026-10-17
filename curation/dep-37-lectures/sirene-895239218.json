@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:895239218",
+ "ajout": {
+  "fiche": {
+   "n": "Une Gabare à Husseau",
+   "c": "Montlouis-sur-Loire",
+   "d": "37",
+   "lat": 47.39198,
+   "lon": 0.88751,
+   "km": 352,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Micro-brasserie : vente sur place sur rendez-vous, dégustation gratuite, d'après l'office de tourisme.",
+   "addr": "4 chemin des Rocheroux, Husseau, 37270 Montlouis-sur-Loire",
+   "src": "https://www.tourisme-montlouis-vouvray.com/your-stay/food-drink/local-products-and-shops/detail/degustation-terroir/micro-brasserie-une-gabare/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.tourisme-montlouis-vouvray.com/your-stay/food-drink/local-products-and-shops/detail/degustation-terroir/micro-brasserie-une-gabare/",
+   "https://data.geopf.fr/geocodage/search?q=4+chemin+des+Rocheroux%2C+Husseau%2C+37270+Montlouis-sur-Loire&limit=5"
+  ],
+  "extrait": "Sale on site by appointment.",
+  "choix": "Fiche de tourisme en anglais seulement. Horaires non repris : la même fiche dit « sur rendez-vous » et « tous les jours de 9 h à 19 h »."
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "candidat": "sirene:908224348",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Deux Béliers",
+   "c": "Basse-Goulaine",
+   "d": "44",
+   "lat": 47.18595,
+   "lon": -1.44996,
+   "km": 504.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières vendues directement à la brasserie, du mardi au samedi.",
+   "addr": "65 rue de l'Atlantique, 44115 Basse-Goulaine",
+   "src": "https://deuxbeliers.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://deuxbeliers.fr/",
+    "source": "https://deuxbeliers.fr/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "lun": [],
+     "mar": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "source": "https://deuxbeliers.fr/contact/",
+     "remarque": "Parfois fermé le samedi.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://deuxbeliers.fr/",
+   "https://deuxbeliers.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=65+rue+de+l%27Atlantique%2C+44115+Basse-Goulaine&limit=5"
+  ],
+  "extrait": "Vous pouvez vous procurer nos bières directement à la Brasserie Deux Béliers (Basse-Goulaine)",
+  "choix": "Seul numéro publié : un mobile, non repris."
+ }
+}

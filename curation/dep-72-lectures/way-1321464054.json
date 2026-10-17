@@ -1,0 +1,50 @@
+{
+ "candidat": "way/1321464054",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Jolicoeur",
+   "c": "Laigné-Saint-Gervais",
+   "d": "72",
+   "lat": 47.87171,
+   "lon": 0.2252,
+   "km": 422.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie le jeudi et le vendredi ; bières et limonade.",
+   "addr": "Laigné-Saint-Gervais",
+   "src": "https://www.bierejolicoeur.com/",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://www.bierejolicoeur.com/",
+    "source": "https://www.bierejolicoeur.com/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "jeu": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "source": "https://www.bierejolicoeur.com/",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.bierejolicoeur.com/"
+  ],
+  "extrait": "Vente directe les jeudis et vendredis de 9h00 à 19h00",
+  "choix": "OSM la place à Saint-Ouen-en-Belin ; le site dit « brassées et embouteillées à Laigné-en-Belin », commune aujourd'hui nommée Laigné-Saint-Gervais (seul nom que connaît le géocodeur de l'IGN). Adresse non publiée : position au centre de la commune."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "way/107960895",
+ "ajout": {
+  "fiche": {
+   "n": "Beer Workshop",
+   "c": "Les Achards",
+   "d": "85",
+   "lat": 46.60352,
+   "lon": -1.66533,
+   "km": 505.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.",
+   "addr": "17 rue de la Camamine, 85150 Les Achards",
+   "src": "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
+   "https://data.geopf.fr/geocodage/search?q=17+rue+de+la+Camamine%2C+85150+Les+Achards&limit=5"
+  ],
+  "extrait": "to taste on site or to buy in the shop area",
+  "choix": "Page de l'office de tourisme en anglais. La brasserie vient de s'installer aux Achards. Seul numéro, un mobile."
+ }
+}

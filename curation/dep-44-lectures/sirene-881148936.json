@@ -1,0 +1,85 @@
+{
+ "candidat": "sirene:881148936",
+ "ajout": {
+  "fiche": {
+   "n": "Les Papas Brasseurs",
+   "c": "Saint-Hilaire-de-Clisson",
+   "d": "44",
+   "lat": 47.07041,
+   "lon": -1.30168,
+   "km": 489.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar et cave de la brasserie, ouverts du mardi au samedi ; fermeture du 1er au 27 août.",
+   "addr": "1 rue des Monty, 44190 Saint-Hilaire-de-Clisson",
+   "src": "https://www.lespapasbrasseurs.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.lespapasbrasseurs.fr/",
+    "source": "https://www.lespapasbrasseurs.fr/",
+    "tel": "02 28 02 66 94",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "lun": [],
+     "mar": [
+      [
+       "11:30",
+       "14:00"
+      ],
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "11:30",
+       "14:00"
+      ],
+      [
+       "16:30",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "11:30",
+       "14:00"
+      ],
+      [
+       "16:30",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "11:30",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "dim": [],
+     "source": "https://www.lespapasbrasseurs.fr/",
+     "remarque": "Bar et cave ; fermeture estivale du 1er au 27 août.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lespapasbrasseurs.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+des+Monty%2C+44190+Saint-Hilaire-de-Clisson&limit=5"
+  ],
+  "extrait": "Bar et cave ouvert du mardi au samedi.",
+  "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30. Elle dit aussi « ouvert du lundi au samedi » alors que son tableau ferme le lundi : le bloc suit le tableau."
+ }
+}

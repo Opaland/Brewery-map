@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:827684838",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Septante-Deux",
+   "c": "Le Mans",
+   "d": "72",
+   "lat": 48.00243,
+   "lon": 0.19619,
+   "km": 432.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et bar : une partie de la bière brassée est servie sur place, aux douze becs pression ; ouvert du lundi au samedi à partir de 17 h.",
+   "addr": "21 rue du Docteur Leroy, 72100 Le Mans",
+   "src": "https://www.brasserieseptantedeux.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserieseptantedeux.com/",
+    "source": "https://www.brasserieseptantedeux.com/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserieseptantedeux.com/",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+du+Docteur+Leroy%2C+72100+Le+Mans&limit=5"
+  ],
+  "extrait": "Une partie de la bière brassée est servie sur place, en direct des cuves",
+  "choix": "Horaires non repris en bloc : « à partir de 17h », sans heure de fin. Seul numéro sur le site, un mobile ; le guide Le Fooding en donne un autre."
+ }
+}

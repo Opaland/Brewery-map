@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:852236546",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cali",
+   "c": "Joué-sur-Erdre",
+   "d": "44",
+   "lat": 47.49596,
+   "lon": -1.42078,
+   "km": 513.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar et restauration sur place, d'après la fiche régionale de tourisme ; la vente à emporter de bière n'est pas dite.",
+   "addr": "21 rue du Bocage, 44440 Joué-sur-Erdre",
+   "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "jeu": [
+      [
+       "18:30",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "18:30",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "18:30",
+       "22:00"
+      ]
+     ],
+     "source": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+     "remarque": "Ouvert aussi les midis du mardi au vendredi.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+du+Bocage%2C+44440+Jou%C3%A9-sur-Erdre&limit=5"
+  ],
+  "extrait": "pour profiter du bar et de la restauration sur place"
+ }
+}

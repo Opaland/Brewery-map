@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:882658016",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Brewen",
+   "c": "Saint-Brevin-les-Pins",
+   "d": "44",
+   "lat": 47.23178,
+   "lon": -2.15665,
+   "km": 556.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Classée « produits locaux (boutique) » par l'office de tourisme, qui annonce des visites ; vente non décrite.",
+   "addr": "9 chemin des Pinluettes, 44250 Saint-Brevin-les-Pins",
+   "src": "https://www.atlantic-loire-valley.com/objet_touristique/238073",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/objet_touristique/238073"
+  ],
+  "extrait": "Local produce (shop)",
+  "choix": "Fiche de tourisme seulement."
+ }
+}

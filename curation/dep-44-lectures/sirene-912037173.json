@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:912037173",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lorc'h",
+   "c": "Nozay",
+   "d": "44",
+   "lat": 47.56811,
+   "lon": -1.63041,
+   "km": 530.9,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente sur place à la boutique, d'après un annuaire de producteurs.",
+   "addr": "1 bis boulevard du Petit Versailles, 44170 Nozay",
+   "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-lorc-h-1749.html",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.jours-de-marche.fr/producteur-local/brasserie-lorc-h-1749.html",
+   "https://data.geopf.fr/geocodage/search?q=1+bis+boulevard+du+Petit+Versailles%2C+44170+Nozay&limit=5"
+  ],
+  "extrait": "Ce producteur vend ses produits sur place.",
+  "choix": "Annuaire seulement ; ses horaires sont écrits de façon ambiguë, non repris."
+ }
+}

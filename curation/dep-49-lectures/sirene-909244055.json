@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:909244055",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Papposilène",
+   "c": "Saint-Georges-sur-Loire",
+   "d": "49",
+   "lat": 47.39698,
+   "lon": -0.75557,
+   "km": 462.8,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la propriété et dégustation gratuite en salle équipée, d'après l'office de tourisme ; ouverte toute l'année.",
+   "addr": "Saint-Georges-sur-Loire",
+   "src": "https://atlantic-loire-valley.com/objet_touristique/228240",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://atlantic-loire-valley.com/objet_touristique/228240"
+  ],
+  "extrait": "Winery sales",
+  "choix": "Fiche de tourisme en anglais seulement ; le site donné ne sert plus la brasserie. Adresses de la fiche et de SIRENE discordantes : position au centre de la commune."
+ }
+}

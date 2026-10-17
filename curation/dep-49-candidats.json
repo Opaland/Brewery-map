@@ -1,0 +1,862 @@
+[
+ {
+  "cle": "sirene:528365125",
+  "nom": "KRONENBOURG SUPPLY COMPANY",
+  "communes": [
+   "SAINT-BARTHELEMY-D'ANJOU"
+  ],
+  "departement": "49",
+  "adresses": [
+   "BOULEVARD DE LA CHANTERIE 49124 SAINT-BARTHELEMY-D'ANJOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "528365125",
+  "sirets": [
+   "52836512500038"
+  ],
+  "osm": [],
+  "lat": 47.483500551,
+  "lon": -0.491547704,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920288719",
+  "nom": "SARL LES DEUX BRUNES",
+  "communes": [
+   "MONTREUIL-BELLAY"
+  ],
+  "departement": "49",
+  "adresses": [
+   "364 RUE DU COHU 49260 MONTREUIL-BELLAY",
+   "RUE DES AMMONITES 49260 MONTREUIL-BELLAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920288719",
+  "sirets": [
+   "92028871900015",
+   "92028871900023"
+  ],
+  "osm": [],
+  "lat": 47.137563056,
+  "lon": -0.10801076,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841532336",
+  "nom": "AKCG",
+  "communes": [
+   "SCEAUX-D'ANJOU",
+   "LE LION D'ANGERS"
+  ],
+  "departement": "49",
+  "adresses": [
+   "5 RUE DU LAVOIR 49330 SCEAUX-D'ANJOU",
+   "16-18 ZONE DE LA SABLONNIE 16 RUE DENIS PAPIN 49220 LE LION D'ANGERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841532336",
+  "sirets": [
+   "84153233600010",
+   "84153233600036"
+  ],
+  "osm": [],
+  "lat": 47.624073732,
+  "lon": -0.60830071,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:478698525",
+  "nom": "LA FABRIQUE DES BIERES D'ANJOU",
+  "communes": [
+   "LA MENITRE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "LA GARE 49250 LA MENITRE",
+   "ROUTE DU PORT SAINT MAUR 49250 LA MENITRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "478698525",
+  "sirets": [
+   "47869852500019",
+   "47869852500027"
+  ],
+  "osm": [],
+  "lat": 47.398676894,
+  "lon": -0.277381421,
+  "statut": "ambigu",
+  "fiche": "La Beer Fabrique"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VAL-DU-LAYON",
+   "CHALONNES-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:108020306",
+  "nom": "BRASSERIE DU DESERTEUR",
+  "communes": [
+   "SAUMUR",
+   "LE PUY-NOTRE-DAME"
+  ],
+  "departement": "49",
+  "adresses": [
+   "9 RUE ARISTIDE BRIAND 49400 SAUMUR",
+   "3 PLACE JULES RAIMBAULT 49260 LE PUY-NOTRE-DAME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "108020306",
+  "sirets": [
+   "10802030600016",
+   "10802030600024"
+  ],
+  "osm": [],
+  "lat": 47.2663227433786,
+  "lon": -0.0754656127300073,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:518580790",
+  "nom": "BRASSERIE ARTISANALE DES MAUGES - L",
+  "communes": [
+   "BEAUPREAU-EN-MAUGES"
+  ],
+  "departement": "49",
+  "adresses": [
+   "BEAUPREAU 69 RUE DE LA LIME 49110 BEAUPREAU-EN-MAUGES",
+   "BEAUPREAU 10 RUE NICOLAS APPERT 49110 BEAUPREAU-EN-MAUGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "518580790",
+  "sirets": [
+   "51858079000021",
+   "51858079000039"
+  ],
+  "osm": [],
+  "lat": 47.208648736,
+  "lon": -0.997140361,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "INGRANDES-LE-FRESNE-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:918978941",
+  "nom": "SO'TIZ & BEN'CRAFT",
+  "communes": [
+   "MAUGES-SUR-LOIRE",
+   "CHALONNES-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "SAINT-LAURENT-DE-LA-PLAINE 9 LA GAUDINIERE 49290 MAUGES-SUR-LOIRE",
+   "ZI L'EPERONNERIE 3 RUE LUCIEN FREMY 49290 CHALONNES-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "918978941",
+  "sirets": [
+   "91897894100014",
+   "91897894100030"
+  ],
+  "osm": [],
+  "lat": 47.308454854,
+  "lon": -0.777409803,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891449266",
+  "nom": "BRASSERIE DES ALLUMETTES",
+  "communes": [
+   "LES PONTS-DE-CE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "28 RUE CHARLES SAURIA 49130 LES PONTS-DE-CE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891449266",
+  "sirets": [
+   "89144926600024"
+  ],
+  "osm": [],
+  "lat": 47.440086417,
+  "lon": -0.503056978,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:752775148",
+  "nom": "B.A.B AGRO",
+  "communes": [
+   "BOUCHEMAINE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "PRUNIERS 36 RUE DES MOULINS 49080 BOUCHEMAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "752775148",
+  "sirets": [
+   "75277514800014"
+  ],
+  "osm": [],
+  "lat": 47.452469765,
+  "lon": -0.610743915,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:950906701",
+  "nom": "TINA",
+  "communes": [
+   "SAUMUR"
+  ],
+  "departement": "49",
+  "adresses": [
+   "495 ROUTE DE MONTSOREAU 49400 SAUMUR"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "950906701",
+  "sirets": [
+   "95090670100012"
+  ],
+  "osm": [
+   "node/11503263515"
+  ],
+  "lat": 47.240879582,
+  "lon": -0.023136083,
+  "site": "https://www.facebook.com/Brasserie.TINA",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931415202",
+  "nom": "LES BRASSEURS BRASSES",
+  "communes": [
+   "SAUMUR"
+  ],
+  "departement": "49",
+  "adresses": [
+   "7 RUE HOCHE 49400 SAUMUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931415202",
+  "sirets": [
+   "93141520200015"
+  ],
+  "osm": [],
+  "lat": 47.253067729,
+  "lon": -0.079519464,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901789701",
+  "nom": "LA COALE",
+  "communes": [
+   "BECON-LES-GRANITS"
+  ],
+  "departement": "49",
+  "adresses": [
+   "AVENUE DE LA CLERCIERE 49370 BECON-LES-GRANITS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901789701",
+  "sirets": [
+   "90178970100025"
+  ],
+  "osm": [],
+  "lat": 47.505591527,
+  "lon": -0.793541708,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840613897",
+  "nom": "STERNE & MOUSSE",
+  "communes": [
+   "ROCHEFORT-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "56 AVENUE D'ANGERS 49190 ROCHEFORT-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840613897",
+  "sirets": [
+   "84061389700015"
+  ],
+  "osm": [
+   "node/6395824703"
+  ],
+  "lat": 47.359691634,
+  "lon": -0.649581844,
+  "site": "https://sterneetmousse.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840768782",
+  "nom": "BRASSERIE LA GOURGANDINE",
+  "communes": [
+   "SAINT-MELAINE-SUR-AUBANCE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "5 RUE DU COTEAU 49610 SAINT-MELAINE-SUR-AUBANCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840768782",
+  "sirets": [
+   "84076878200020"
+  ],
+  "osm": [],
+  "lat": 47.38136126,
+  "lon": -0.498033424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "OMBREE D'ANJOU"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "SEVREMOINE"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:852621705",
+  "nom": "BOISSONS DISTRIBUTION ANGEVINE",
+  "communes": [
+   "ANGERS"
+  ],
+  "departement": "49",
+  "adresses": [
+   "MIN D'ANGERS 12 AVENUE JEAN JOXE 49100 ANGERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852621705",
+  "sirets": [
+   "85262170500031"
+  ],
+  "osm": [],
+  "lat": 47.4860389063076,
+  "lon": -0.541596683494472,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SEGRE-EN-ANJOU BLEU"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:909244055",
+  "nom": "SARL BRASSERIE LA PAPPOSILENE",
+  "communes": [
+   "SAINT-GEORGES-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "14 RUE DU BOEUF COURONNE 49170 SAINT-GEORGES-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909244055",
+  "sirets": [
+   "90924405500010"
+  ],
+  "osm": [],
+  "lat": 47.409434593,
+  "lon": -0.761344372,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "CHALONNES-SUR-LOIRE"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:920754777",
+  "nom": "BRASSERIE SANS FACON",
+  "communes": [
+   "LA SEGUINIERE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "ZONE INDUSTRIELLE DE LA BERGERIE 16 RUE AMPERE 49280 LA SEGUINIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920754777",
+  "sirets": [
+   "92075477700018"
+  ],
+  "osm": [],
+  "lat": 47.074707543,
+  "lon": -0.935464378,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:903288827",
+  "nom": "PENROSE",
+  "communes": [
+   "ANGERS"
+  ],
+  "departement": "49",
+  "adresses": [
+   "138 RUE DE LA CHALOUERE 49100 ANGERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "903288827",
+  "sirets": [
+   "90328882700038"
+  ],
+  "osm": [
+   "node/9124286281"
+  ],
+  "lat": 47.4832019574173,
+  "lon": -0.535087338138912,
+  "site": "https://www.penrose-angers.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893581843",
+  "nom": "NUAGE CRAFT BEER",
+  "communes": [
+   "BRISSAC LOIRE AUBANCE"
+  ],
+  "departement": "49",
+  "adresses": [
+   "SAINT SATURNIN SUR LOIRE 3 IMP DE TOURETTERIE 49250 BRISSAC LOIRE AUBANCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893581843",
+  "sirets": [
+   "89358184300016"
+  ],
+  "osm": [],
+  "lat": 47.383697994,
+  "lon": -0.439796402,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100572668",
+  "nom": "BRASSERIE DU SAINT D'ANJOU",
+  "communes": [
+   "SEGRE-EN-ANJOU BLEU"
+  ],
+  "departement": "49",
+  "adresses": [
+   "2934 ROUTE ANJOU MAINE 49500 SEGRE-EN-ANJOU BLEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100572668",
+  "sirets": [
+   "10057266800026"
+  ],
+  "osm": [],
+  "lat": 47.7220095578642,
+  "lon": -0.708911708388137,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "CHAUDEFONDS-SUR-LAYON"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:912086550",
+  "nom": "BRASSERIE LA BESTIOLE",
+  "communes": [
+   "SAINT-BARTHELEMY-D'ANJOU"
+  ],
+  "departement": "49",
+  "adresses": [
+   "8 RUE DU PATIS 49124 SAINT-BARTHELEMY-D'ANJOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912086550",
+  "sirets": [
+   "91208655000015"
+  ],
+  "osm": [],
+  "lat": 47.473156271,
+  "lon": -0.512421457,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:941974248",
+  "nom": "BRASSERIE ALPACA",
+  "communes": [
+   "SEGRE-EN-ANJOU BLEU"
+  ],
+  "departement": "49",
+  "adresses": [
+   "SAINT MARTIN DU BOIS 18 B RUE DE L'HOMMEAU 49500 SEGRE-EN-ANJOU BLEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941974248",
+  "sirets": [
+   "94197424800010"
+  ],
+  "osm": [],
+  "lat": 47.706028163796,
+  "lon": -0.74040118415366,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "OREE D'ANJOU"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "CORZE"
+  ],
+  "departement": "49",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:494752322",
+  "nom": "BRASSERIE DES FONTAINES",
+  "communes": [
+   "DOUE-EN-ANJOU"
+  ],
+  "departement": "49",
+  "adresses": [
+   "DOUE LA FONTAINE 781 RUE DE LA CROIX GERMAIN 49700 DOUE-EN-ANJOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "494752322",
+  "sirets": [
+   "49475232200029"
+  ],
+  "osm": [],
+  "lat": 47.193883086,
+  "lon": -0.250405952,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853098887",
+  "nom": "BRASSERIE DE MINUIT",
+  "communes": [
+   "CHOLET"
+  ],
+  "departement": "49",
+  "adresses": [
+   "2 RUE DE BLOIS 49300 CHOLET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853098887",
+  "sirets": [
+   "85309888700013"
+  ],
+  "osm": [],
+  "lat": 47.069979011,
+  "lon": -0.856807866,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12400982165",
+  "nom": "Les deux brunes",
+  "communes": [
+   "Montreuil-Bellay"
+  ],
+  "departement": "49",
+  "adresses": [
+   "Rue des Ammonites, ZI de l’Europe"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12400982165"
+  ],
+  "lat": 47.12264,
+  "lon": -0.13901,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13452247636",
+  "nom": "Brasserie Artisanale Belle de Maine",
+  "communes": [
+   "Beaucouzé"
+  ],
+  "departement": "49",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13452247636"
+  ],
+  "lat": 47.45237,
+  "lon": -0.61072,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4278587091",
+  "nom": "La Piautre",
+  "communes": [
+   "La Ménitré"
+  ],
+  "departement": "49",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4278587091"
+  ],
+  "lat": 47.39865,
+  "lon": -0.27741,
+  "site": "https://www.lapiautre.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8144050537",
+  "nom": "La commanderie de l'erabliere",
+  "communes": [
+   "Chemillé-en-Anjou"
+  ],
+  "departement": "49",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8144050537"
+  ],
+  "lat": 47.22092,
+  "lon": -0.73053,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8661921917",
+  "nom": "La Belle de Maine",
+  "communes": [
+   "Bouchemaine"
+  ],
+  "departement": "49",
+  "adresses": [
+   "36 Rue des Moulins, 49080 Bouchemaine"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8661921917"
+  ],
+  "lat": 47.45257,
+  "lon": -0.6108,
+  "site": "https://www.belledemaine.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9419439347",
+  "nom": "Post Mortem",
+  "communes": [
+   "Sèvremoine"
+  ],
+  "departement": "49",
+  "adresses": [
+   "48 Rue d'Anjou, 49230 Sèvremoine"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9419439347"
+  ],
+  "lat": 47.10186,
+  "lon": -1.18658,
+  "site": "https://www.biere-postmortem.fr/",
+  "statut": "nouveau"
+ }
+]

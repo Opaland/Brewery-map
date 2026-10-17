@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:840060222",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tête Haute",
+   "c": "Le Cellier",
+   "d": "44",
+   "lat": 47.33721,
+   "lon": -1.35672,
+   "km": 502.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites avec dégustation au taproom, sur réservation ; horaires publiés sans dire s'il s'agit de vente ou d'accueil.",
+   "addr": "Le Cellier",
+   "src": "https://www.tete-haute.fr/visiter-la-brasserie/",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://www.tete-haute.fr/",
+    "source": "https://www.tete-haute.fr/contact",
+    "tel": "02 40 50 69 75",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.tete-haute.fr/visiter-la-brasserie/",
+   "https://www.tete-haute.fr/contact"
+  ],
+  "extrait": "Après la visite, retour à la taproom pour la dégustation",
+  "choix": "Horaires de la page contact (mercredi-samedi) non repris : leur nature n'est pas dite. Position au centre du Cellier."
+ }
+}

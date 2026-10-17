@@ -1,0 +1,42 @@
+{
+ "candidat": "sirene:915240667",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Déviation",
+   "c": "Riaillé",
+   "d": "44",
+   "lat": 47.51623,
+   "lon": -1.28926,
+   "km": 505,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites avec dégustation tous les vendredis soir ; vente aux particuliers par téléphone. Ni bar ni vente sur place dits.",
+   "addr": "165 rue d'Anjou, 44440 Riaillé",
+   "src": "https://brasserie-ladeviation.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    }
+   ],
+   "contact": {
+    "site": "https://brasserie-ladeviation.fr/",
+    "source": "https://brasserie-ladeviation.fr",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserie-ladeviation.fr",
+   "https://data.geopf.fr/geocodage/search?q=165+rue+d%27Anjou%2C+44440+Riaill%C3%A9&limit=5"
+  ],
+  "extrait": "VISITE ET DÉGUSTATION TOUS LES VENDREDIS SOIRS",
+  "choix": "Un agent proposait « acheter et consommer » : une dégustation de visite n'est pas un bar. Seul numéro : un mobile."
+ }
+}

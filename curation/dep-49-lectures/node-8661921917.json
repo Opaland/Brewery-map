@@ -1,0 +1,46 @@
+{
+ "candidat": "node/8661921917",
+ "ajout": {
+  "fiche": {
+   "n": "La Belle de Maine",
+   "c": "Bouchemaine",
+   "d": "49",
+   "lat": 47.45223,
+   "lon": -0.61088,
+   "km": 455.2,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Dégustation et vente directe sur rendez-vous, d'après l'office de tourisme d'Angers.",
+   "addr": "36 rue des Moulins, 49080 Bouchemaine",
+   "src": "https://www.destination-angers.com/en/offers/belle-de-maine-craft-brewery-bouchemaine-en-1617144",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.belledemaine.fr/",
+    "source": "https://www.belledemaine.fr/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.destination-angers.com/en/offers/belle-de-maine-craft-brewery-bouchemaine-en-1617144",
+   "https://www.belledemaine.fr/",
+   "https://data.geopf.fr/geocodage/search?q=36+rue+des+Moulins%2C+49080+Bouchemaine&limit=5"
+  ],
+  "extrait": "Open every day by appointment at 06 60 02 62 55, tasting and direct sales.",
+  "choix": "Fiche de tourisme en anglais. Dégustation sur rendez-vous : « acheter seulement » en attendant. Seul numéro, un mobile. L'entreprise B.A.B Agro (sirene:752775148) est déclarée à la même adresse."
+ }
+}

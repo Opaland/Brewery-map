@@ -1,0 +1,94 @@
+[
+ {
+  "cle": "sirene:841651524",
+  "n": "Art Is An Ale Brewing",
+  "c": "Amboise",
+  "adresse": "2 bis rue du Général Foy, 37400 Amboise",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie au pied du château, avec espace de production et bar de dégustation ; vente sur place, visites et initiations au brassage, d'après l'office de tourisme.",
+  "src": "https://www.tourainevaldeloire.com/en/offers/art-is-an-ale-brewing-amboise-en-5153269",
+  "extrait": "the brewery Art is an ale brewing includes a production area as well as a tasting bar",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; son numéro est publié par l'office, pas par la brasserie. Le site de la brasserie n'a pas été lu."
+ },
+ {
+  "cle": "sirene:895239218",
+  "n": "Une Gabare à Husseau",
+  "c": "Montlouis-sur-Loire",
+  "adresse": "4 chemin des Rocheroux, Husseau, 37270 Montlouis-sur-Loire",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Micro-brasserie : vente sur place sur rendez-vous, dégustation gratuite, d'après l'office de tourisme.",
+  "src": "https://www.tourisme-montlouis-vouvray.com/your-stay/food-drink/local-products-and-shops/detail/degustation-terroir/micro-brasserie-une-gabare/",
+  "extrait": "Sale on site by appointment.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais seulement. Horaires non repris : la même fiche dit « sur rendez-vous » et « tous les jours de 9 h à 19 h »."
+ },
+ {
+  "cle": "sirene:445122997",
+  "n": "Brasserie de la Pigeonnelle",
+  "c": "Céré-la-Ronde",
+  "adresse": "10 rue de la Ronde, 37460 Céré-la-Ronde",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie des bières Loirette, vendues en bouteilles et en fûts de 20 litres ; ses installations ne sont pas ouvertes au public. Elle liste ses revendeurs en Indre-et-Loire.",
+  "src": "http://www.brasserie-pigeonnelle.fr/",
+  "extrait": "Les installations de la brasserie ne sont pas ouvertes au public.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "Catégorie à confirmer : la page dit le lieu fermé au public, mais elle vend des fûts aux particuliers pour leurs manifestations ; comment on les achète n'est pas dit. Page Untappd : https://untappd.com/w/brasserie-de-la-pigeonnelle/12116 (non reprise dans le contact, faute de figurer sur la page du site). Le second numéro du site est un mobile.",
+  "contact": {
+   "site": "http://www.brasserie-pigeonnelle.fr/",
+   "source": "http://www.brasserie-pigeonnelle.fr/",
+   "tel": "02 47 94 28 22"
+  }
+ },
+ {
+  "cle": "sirene:908508005",
+  "n": "Brasserie des Canailles",
+  "c": "Rochecorbon",
+  "adresse": "11 place du Lieutenant Ferdinand Lefèvre, 37210 Rochecorbon",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio de Rochecorbon ; la « vente directe à la brasserie » renvoie à sa boutique en ligne, sans dire qu'on achète sur place.",
+  "src": "https://www.brasseriedescanailles.fr/contact",
+  "extrait": "Pour la vente directe à la brasserie : accéder à la boutique en ligne",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Seul numéro, un mobile. Bières lues sur la page Untappd.",
+  "contact": {
+   "site": "https://www.brasseriedescanailles.fr/",
+   "source": "https://untappd.com/w/brasserie-des-canailles/461563",
+   "untappd": "https://untappd.com/w/brasserie-des-canailles/461563"
+  }
+ }
+]

@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:948990189",
+ "ajout": {
+  "fiche": {
+   "n": "L'Éco-Pain",
+   "c": "Bournezeau",
+   "d": "85",
+   "lat": 46.62886,
+   "lon": -1.15993,
+   "km": 467.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar avec toutes les bières brassées sur place à la pression, et boutique de bouteilles à emporter, d'après le guide de la Vendée.",
+   "addr": "73 rue Archereau, 85480 Bournezeau",
+   "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bournezeau-23/l-eco-pain-4280.html",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bournezeau-23/l-eco-pain-4280.html",
+   "https://data.geopf.fr/geocodage/search?q=73+rue+Archereau%2C+85480+Bournezeau&limit=5"
+  ],
+  "extrait": "All the craft beers brewed on-site are available on tap at the bar",
+  "choix": "Annuaire en anglais seulement ; ses horaires, notés « 12:00 am », ne sont pas repris."
+ }
+}

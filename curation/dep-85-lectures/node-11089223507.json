@@ -1,0 +1,68 @@
+{
+ "candidat": "node/11089223507",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs de la Vie",
+   "c": "Saint-Gilles-Croix-de-Vie",
+   "d": "85",
+   "lat": 46.6931,
+   "lon": -1.9007,
+   "km": 524.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Micro-brasserie avec bar et boutique, ouverte du jeudi au samedi, et du lundi au samedi en juillet-août.",
+   "addr": "50 rue des Couvreurs, 85800 Saint-Gilles-Croix-de-Vie",
+   "src": "https://www.lesbrasseursdelavie.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "sour"
+    }
+   ],
+   "contact": {
+    "site": "https://www.lesbrasseursdelavie.com/",
+    "source": "https://www.lesbrasseursdelavie.com",
+    "tel": "02 51 55 04 75",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "jeu": [
+      [
+       "11:00",
+       "23:30"
+      ]
+     ],
+     "ven": [
+      [
+       "11:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "20:00"
+      ]
+     ],
+     "source": "https://www.lesbrasseursdelavie.com",
+     "remarque": "En juillet et août : du lundi au samedi, de 11 h à 20 h 30.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lesbrasseursdelavie.com",
+   "https://data.geopf.fr/geocodage/search?q=50+rue+des+Couvreurs%2C+85800+Saint-Gilles-Croix-de-Vie&limit=5"
+  ],
+  "extrait": "Micro-brasserie - Bar - Boutique - Saint-Gilles-Croix-de-Vie (85)"
+ }
+}

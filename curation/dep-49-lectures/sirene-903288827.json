@@ -1,0 +1,35 @@
+{
+ "candidat": "sirene:903288827",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Penrose",
+   "c": "Angers",
+   "d": "49",
+   "lat": 47.46747,
+   "lon": -0.56161,
+   "km": 452.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Bières et kombuchas fabriqués à Angers, vendus en ligne ; ni vente ni consommation sur place dites.",
+   "addr": "Angers",
+   "src": "https://www.penrose-angers.fr/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.penrose-angers.fr/",
+    "source": "https://www.penrose-angers.fr/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.penrose-angers.fr/"
+  ],
+  "extrait": "Tous nos produits sont fabriqués à Angers dans notre Brasserie.",
+  "choix": "Seul numéro, un mobile. Position au centre d'Angers."
+ }
+}

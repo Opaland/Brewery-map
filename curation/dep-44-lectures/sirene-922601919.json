@@ -1,0 +1,45 @@
+{
+ "candidat": "sirene:922601919",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Soma",
+   "c": "Le Loroux-Bottereau",
+   "d": "44",
+   "lat": 47.23447,
+   "lon": -1.32911,
+   "km": 497.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Espace de dégustation dans le chai et vente directe le vendredi après-midi ; guinguette une fois par mois.",
+   "addr": "Sainte-Radegonde, 44430 Le Loroux-Bottereau",
+   "src": "https://www.brasseriesoma.fr/",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriesoma.fr/",
+    "source": "https://www.brasseriesoma.fr/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "ven": [
+      [
+       "15:00",
+       "17:45"
+      ]
+     ],
+     "source": "https://www.brasseriesoma.fr/",
+     "remarque": "Vente directe ; guinguette une fois par mois.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriesoma.fr/"
+  ],
+  "extrait": "un espace de dégustation vous attend au cœur du chai",
+  "choix": "Seul numéro publié : un mobile, non repris."
+ }
+}

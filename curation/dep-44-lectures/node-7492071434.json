@@ -1,0 +1,32 @@
+{
+ "candidat": "node/7492071434",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Hulotte",
+   "c": "Sautron",
+   "d": "44",
+   "lat": 47.25753,
+   "lon": -1.66057,
+   "km": 521.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie et distillerie qui propose des ateliers de brassage ; la vente de bière n'est pas dite.",
+   "addr": "18 rue du Moulin, 44880 Sautron",
+   "src": "https://www.brasserie-lahulotte.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-lahulotte.fr/",
+    "source": "https://www.brasserie-lahulotte.fr",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-lahulotte.fr",
+   "https://data.geopf.fr/geocodage/search?q=18+rue+du+Moulin%2C+44880+Sautron&limit=5"
+  ],
+  "extrait": "Venez vivre une expérience enrichissante et ludique",
+  "choix": "Même adresse qu'AERoFAB : lien non établi. Seul numéro : un mobile."
+ }
+}

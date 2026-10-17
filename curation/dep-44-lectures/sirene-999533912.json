@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:999533912",
+ "ajout": {
+  "fiche": {
+   "n": "La Turbulente",
+   "c": "La Turballe",
+   "d": "44",
+   "lat": 47.34918,
+   "lon": -2.51297,
+   "km": 586.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie du café-épicerie Plan B, en cours de reprise : la page annonce le retour des bières « début 2026 » et la réouverture « au printemps », sans dire si c'est fait.",
+   "addr": "10 place du Marché, 44420 La Turballe",
+   "src": "https://leplanb-laturballe.fr/presentation-2/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://leplanb-laturballe.fr/presentation-2/",
+   "https://data.geopf.fr/geocodage/search?q=10+place+du+March%C3%A9%2C+44420+La+Turballe&limit=5"
+  ],
+  "extrait": "Réouverture de la Brasserie au printemps",
+  "choix": "Page du café qui l'abrite, pas un site de la brasserie."
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:850969130",
+ "ajout": {
+  "fiche": {
+   "n": "Smeele, Fabrique de bière",
+   "c": "Luçon",
+   "d": "85",
+   "lat": 46.47204,
+   "lon": -1.17776,
+   "km": 466,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la fabrique le mercredi, le jeudi et le vendredi, et sur rendez-vous ; bières Polder.",
+   "addr": "10 chemin de Sébastopol, 85400 Luçon",
+   "src": "https://www.smeele.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "stout"
+    }
+   ],
+   "contact": {
+    "site": "https://www.smeele.fr/",
+    "source": "https://www.smeele.fr",
+    "tel": "02 44 39 12 11",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "mer": [
+      [
+       "15:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "20:30"
+      ]
+     ],
+     "source": "https://www.smeele.fr",
+     "remarque": "Et en dehors, sur rendez-vous.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.smeele.fr",
+   "https://data.geopf.fr/geocodage/search?q=10+chemin+de+S%C3%A9bastopol%2C+85400+Lu%C3%A7on&limit=5"
+  ],
+  "extrait": "Vente directe 10 Chemin de Sébastopol, 85400 Luçon",
+  "choix": "SIRENE donne une autre adresse ; une fiche de tourisme donne d'autres horaires."
+ }
+}

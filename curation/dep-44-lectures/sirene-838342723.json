@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:838342723",
+ "ajout": {
+  "fiche": {
+   "n": "AERoFAB",
+   "c": "Sautron",
+   "d": "44",
+   "lat": 47.25753,
+   "lon": -1.66057,
+   "km": 521.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar et boutique à la brasserie, avec les bières brassées sur place, du jeudi au samedi ; un taproom aussi à Nantes.",
+   "addr": "18 rue du Moulin, 44880 Sautron",
+   "src": "https://www.aerofab.fr/bar-sautron",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "sour"
+    }
+   ],
+   "contact": {
+    "site": "https://www.aerofab.fr/",
+    "source": "https://www.aerofab.fr/bar-sautron",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "lun": [],
+     "mar": [],
+     "mer": [],
+     "jeu": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "dim": [],
+     "source": "https://www.aerofab.fr/bar-sautron",
+     "remarque": "Bar et boutique.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.aerofab.fr/bar-sautron",
+   "https://data.geopf.fr/geocodage/search?q=18+rue+du+Moulin%2C+44880+Sautron&limit=5"
+  ],
+  "extrait": "Le bar & la boutique vous propose une large sélection de bières brassées sur place",
+  "choix": "Même adresse que la Brasserie La Hulotte (node/7492071434), ateliers de brassage : lien non établi."
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "candidat": "sirene:902067222",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Nico",
+   "c": "Lassay-les-Châteaux",
+   "d": "53",
+   "lat": 48.44806,
+   "lon": -0.50371,
+   "km": 503.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie lancée en 2021 à Lassay-les-Châteaux, bières Courbette, d'après l'office de tourisme ; rien sur la vente ni l'accueil.",
+   "addr": "Lassay-les-Châteaux",
+   "src": "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers"
+  ],
+  "extrait": "Brasserie des Nico offers Courbette: blond, white, amber and brown beers",
+  "choix": "Page de tourisme seulement ; ni adresse ni contact. Position au centre de la commune."
+ }
+}

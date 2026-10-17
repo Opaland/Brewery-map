@@ -1,0 +1,1017 @@
+[
+ {
+  "cle": "sirene:809531908",
+  "n": "BACA - Brasserie Artisanale de la Côte d'Amour",
+  "c": "Batz-sur-Mer",
+  "adresse": "26 rue du Drézéguy, 44740 Batz-sur-Mer",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Ouverte pour la vente et la dégustation de ses cuvées, d'après l'annuaire Gault&Millau.",
+  "src": "https://fr.gaultmillau.com/fr/artisans/baca---brasserie-artisanale-de-la-cote-d-amour",
+  "extrait": "est ouverte pour la vente et la dégustation des six cuvées",
+  "beers": [
+   {
+    "type": "sour"
+   }
+  ],
+  "choix": "Annuaire seulement ; aucun site de la brasserie trouvé. La dégustation y est ouverte au public avec la vente, sans visite : c'est la règle qui sépare ce cas de la Divatte et de La Déviation (dégustation liée à une visite)."
+ },
+ {
+  "cle": "sirene:848843116",
+  "n": "Brasserie L'Olifant",
+  "c": "Grandchamp-des-Fontaines",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété, ouverte toute l'année, d'après la fiche de l'office de tourisme ; dégustation non décrite.",
+  "src": "https://www.atlantic-loire-valley.com/objet_touristique/20357",
+  "extrait": "Winery sales",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; le site lolifant.fr ne se lit pas sans JavaScript. Adresses de la fiche et de SIRENE discordantes : position au centre de la commune."
+ },
+ {
+  "cle": "sirene:818226938",
+  "n": "Little Atlantique Brewery",
+  "c": "Nantes",
+  "adresse": "23 boulevard de Chantenay, 44100 Nantes",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Micro-brasserie, bar à bières et restaurant ; commande en ligne avec retrait.",
+  "src": "https://little-atlantique-brewery.fr",
+  "extrait": "Micro-brasserie, bar à bières & restaurant à Nantes",
+  "beers": [],
+  "choix": "La vente à emporter n'est dite que par le « Click and Collect » du site.",
+  "contact": {
+   "site": "https://little-atlantique-brewery.fr/",
+   "source": "https://little-atlantique-brewery.fr"
+  }
+ },
+ {
+  "cle": "sirene:999533912",
+  "n": "La Turbulente",
+  "c": "La Turballe",
+  "adresse": "10 place du Marché, 44420 La Turballe",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie du café-épicerie Plan B, en cours de reprise : la page annonce le retour des bières « début 2026 » et la réouverture « au printemps », sans dire si c'est fait.",
+  "src": "https://leplanb-laturballe.fr/presentation-2/",
+  "extrait": "Réouverture de la Brasserie au printemps",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "choix": "Page du café qui l'abrite, pas un site de la brasserie."
+ },
+ {
+  "cle": "sirene:952435931",
+  "n": "L'Ours Jack Brasse",
+  "c": "Sainte-Pazanne",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété le samedi après-midi et le dimanche matin, d'après la fiche de l'office de tourisme.",
+  "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/l-ours-jack-brasse-micro-brasserie",
+  "extrait": "Winery sales",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "lager"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais seulement. Position au centre de Sainte-Pazanne.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "dim": [
+     [
+      "09:00",
+      "13:00"
+     ]
+    ],
+    "source": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/l-ours-jack-brasse-micro-brasserie",
+    "remarque": "Selon l'office de tourisme, pour 2026."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:838342723",
+  "n": "AERoFAB",
+  "c": "Sautron",
+  "adresse": "18 rue du Moulin, 44880 Sautron",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar et boutique à la brasserie, avec les bières brassées sur place, du jeudi au samedi ; un taproom aussi à Nantes.",
+  "src": "https://www.aerofab.fr/bar-sautron",
+  "extrait": "Le bar & la boutique vous propose une large sélection de bières brassées sur place",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "sour"
+   }
+  ],
+  "choix": "Même adresse que la Brasserie La Hulotte (node/7492071434), ateliers de brassage : lien non établi.",
+  "contact": {
+   "site": "https://www.aerofab.fr/",
+   "source": "https://www.aerofab.fr/bar-sautron"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [],
+    "mer": [],
+    "jeu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.aerofab.fr/bar-sautron",
+    "remarque": "Bar et boutique."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:817715238",
+  "n": "Les Brassés",
+  "c": "Nantes",
+  "adresse": "5 mail Pablo Picasso, 44000 Nantes",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar-restaurant aux cinq cuves de brassage, où l'on boit les bières de la maison ; l'atelier de production est rue Bellier.",
+  "src": "https://www.lesbrasses.fr",
+  "extrait": "Avec ses 5 cuves jaunes reconnaissables, c’est l’endroit idéal pour déguster une viande grillée au Josper, savourer une bière en terrasse",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Société Plan Bière (SIRENE, 24 rue Bellier). Même brasserie que le point OSM node/12159763921. La vente à emporter au restaurant n'est pas dite.",
+  "contact": {
+   "site": "https://www.lesbrasses.fr/",
+   "source": "https://www.lesbrasses.fr"
+  }
+ },
+ {
+  "cle": "sirene:901940874",
+  "n": "X'Pression",
+  "c": "Saint-Philbert-de-Grand-Lieu",
+  "adresse": "14 rue de l'Industrie, 44310 Saint-Philbert-de-Grand-Lieu",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété et salle de dégustation pour groupes, d'après l'office de tourisme ; le site ne le dit pas.",
+  "src": "https://www.atlantic-loire-valley.com/objet_touristique/192561",
+  "extrait": "Winery sales",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais. Seul numéro publié par le site : un mobile, non repris."
+ },
+ {
+  "cle": "sirene:840060222",
+  "n": "Brasserie Tête Haute",
+  "c": "Le Cellier",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites avec dégustation au taproom, sur réservation ; horaires publiés sans dire s'il s'agit de vente ou d'accueil.",
+  "src": "https://www.tete-haute.fr/visiter-la-brasserie/",
+  "extrait": "Après la visite, retour à la taproom pour la dégustation",
+  "beers": [],
+  "choix": "Horaires de la page contact (mercredi-samedi) non repris : leur nature n'est pas dite. Position au centre du Cellier.",
+  "contact": {
+   "site": "https://www.tete-haute.fr/",
+   "source": "https://www.tete-haute.fr/contact",
+   "tel": "02 40 50 69 75"
+  }
+ },
+ {
+  "cle": "sirene:419512322",
+  "n": "Brasserie du Bouffay",
+  "c": "Carquefou",
+  "adresse": "54 rue des Monceaux, 44470 Carquefou",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété et salle équipée pour la dégustation, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
+  "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay",
+  "extrait": "Winery sales",
+  "beers": [
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "lager"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais pour la vente.",
+  "contact": {
+   "site": "https://www.brasserie-du-bouffay.com/",
+   "source": "https://www.brasserie-du-bouffay.com/",
+   "tel": "02 40 52 76 16"
+  }
+ },
+ {
+  "cle": "sirene:884570607",
+  "n": "Ouest Coast Brewery",
+  "c": "Cheix-en-Retz",
+  "adresse": "7 rue des Landes, 44640 Cheix-en-Retz",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente sur place, du lundi au samedi, d'après l'office de tourisme de Pornic ; aucun site de la brasserie.",
+  "src": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+  "extrait": "Sales on-site",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais seulement.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "17:30"
+     ]
+    ],
+    "source": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+    "remarque": "Selon l'office de tourisme, pour 2026."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:445280019",
+  "n": "Brasserie de la Côte de Jade",
+  "c": "Pornic",
+  "adresse": "13 rue Henri Becquerel, 44210 Pornic",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Magasin d'usine ouvert toute l'année ; dégustation pendant les visites.",
+  "src": "http://www.biere-pornic.com",
+  "extrait": "Notre magasin d’usine est ouvert toute l’année",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "Bières Brigantine.",
+  "contact": {
+   "site": "http://www.biere-pornic.com/",
+   "source": "http://www.biere-pornic.com",
+   "tel": "02 40 82 87 16"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "source": "http://www.biere-pornic.com",
+    "remarque": "Magasin d'usine ; aussi le samedi selon la saison (voir la page)."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:833135742",
+  "n": "Brasserie Vestibule",
+  "c": "Mesquer",
+  "adresse": "120 rue des Artisans, 44420 Mesquer",
+  "cat": 0,
+  "conf": "",
+  "note": "Ouverte toute l'année le mercredi soir et le samedi matin ; la page ne dit pas ce qu'on y fait.",
+  "src": "https://brasserievestibule.fr/",
+  "extrait": "Ouverte toute l’année le mercredi soir (17h – 20h) et samedi matin (10h30 – 13h)",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "Horaires non repris en bloc : leur nature (vente, accueil) n'est pas dite. Seul numéro : un mobile.",
+  "contact": {
+   "site": "https://brasserievestibule.fr/",
+   "source": "https://brasserievestibule.fr/"
+  }
+ },
+ {
+  "cle": "sirene:852236546",
+  "n": "Brasserie Cali",
+  "c": "Joué-sur-Erdre",
+  "adresse": "21 rue du Bocage, 44440 Joué-sur-Erdre",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar et restauration sur place, d'après la fiche régionale de tourisme ; la vente à emporter de bière n'est pas dite.",
+  "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+  "extrait": "pour profiter du bar et de la restauration sur place",
+  "beers": [],
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "source": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+    "remarque": "Ouvert aussi les midis du mardi au vendredi."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:892111873",
+  "n": "Damraz",
+  "c": "Herbignac",
+  "adresse": null,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie avec taproom et boutique ; on y vient déguster les bières.",
+  "src": "https://www.damraz.fr",
+  "extrait": "dégustez une de nos bières artisanales bien fraîches",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "choix": "La boutique n'est citée que dans le menu du site. Adresse non publiée sur le site : position au centre d'Herbignac.",
+  "contact": {
+   "site": "https://www.damraz.fr/",
+   "source": "https://www.damraz.fr",
+   "tel": "09 75 76 96 05"
+  }
+ },
+ {
+  "cle": "sirene:894409325",
+  "n": "Brasserie La Maison Blanche",
+  "c": "Machecoul-Saint-Même",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie ouverte au public ; le site ne dit ni vente ni dégustation sur place.",
+  "src": "https://www.brasserielamaisonblanche.com/",
+  "extrait": "La brasserie est ouverte au public curieux à Machecoul !",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Seuls numéros publiés : deux mobiles, non repris. Position au centre de la commune.",
+  "contact": {
+   "site": "https://www.brasserielamaisonblanche.com/",
+   "source": "https://www.brasserielamaisonblanche.com/"
+  }
+ },
+ {
+  "cle": "sirene:922601919",
+  "n": "Brasserie Soma",
+  "c": "Le Loroux-Bottereau",
+  "adresse": "Sainte-Radegonde, 44430 Le Loroux-Bottereau",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Espace de dégustation dans le chai et vente directe le vendredi après-midi ; guinguette une fois par mois.",
+  "src": "https://www.brasseriesoma.fr/",
+  "extrait": "un espace de dégustation vous attend au cœur du chai",
+  "beers": [],
+  "choix": "Seul numéro publié : un mobile, non repris.",
+  "contact": {
+   "site": "https://www.brasseriesoma.fr/",
+   "source": "https://www.brasseriesoma.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "17:45"
+     ]
+    ],
+    "source": "https://www.brasseriesoma.fr/",
+    "remarque": "Vente directe ; guinguette une fois par mois."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:434377784",
+  "n": "Brasserie de la Divatte",
+  "c": "Divatte-sur-Loire",
+  "adresse": "34 bis le Norestier, La Chapelle-Basse-Mer, 44450 Divatte-sur-Loire",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe à la brasserie, et dégustation lors d'une visite commentée, d'après la fiche régionale de tourisme.",
+  "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-de-la-divatte",
+  "extrait": "Production et ventes directes de bières artisanales",
+  "beers": [],
+  "choix": "Bières Trompe Souris ; le site officiel boucle en redirections. Une dégustation de visite n'est pas un bar : « acheter seulement »."
+ },
+ {
+  "cle": "sirene:912037173",
+  "n": "Brasserie Lorc'h",
+  "c": "Nozay",
+  "adresse": "1 bis boulevard du Petit Versailles, 44170 Nozay",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente sur place à la boutique, d'après un annuaire de producteurs.",
+  "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-lorc-h-1749.html",
+  "extrait": "Ce producteur vend ses produits sur place.",
+  "beers": [],
+  "choix": "Annuaire seulement ; ses horaires sont écrits de façon ambiguë, non repris."
+ },
+ {
+  "cle": "sirene:908224348",
+  "n": "Brasserie Deux Béliers",
+  "c": "Basse-Goulaine",
+  "adresse": "65 rue de l'Atlantique, 44115 Basse-Goulaine",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières vendues directement à la brasserie, du mardi au samedi.",
+  "src": "https://deuxbeliers.fr/",
+  "extrait": "Vous pouvez vous procurer nos bières directement à la Brasserie Deux Béliers (Basse-Goulaine)",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Seul numéro publié : un mobile, non repris.",
+  "contact": {
+   "site": "https://deuxbeliers.fr/",
+   "source": "https://deuxbeliers.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://deuxbeliers.fr/contact/",
+    "remarque": "Parfois fermé le samedi."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:830866042",
+  "n": "Brasserie Nautile",
+  "c": "Rezé",
+  "adresse": "4 rue du Seil, 44400 Rezé",
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne avec retrait chez Cold Crash à Rezé ; la page ne dit ni vente ni dégustation à la brasserie.",
+  "src": "http://www.brasserienautile.com/",
+  "extrait": "retrait possible chez Cold Crash à Rezé",
+  "beers": [],
+  "contact": {
+   "site": "http://www.brasserienautile.com/",
+   "source": "http://www.brasserienautile.com/"
+  }
+ },
+ {
+  "cle": "sirene:513221713",
+  "n": "Brasserie Plormel",
+  "c": "Vieillevigne",
+  "adresse": "4 rue Gutenberg, 44116 Vieillevigne",
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne ; aucune mention de vente ou de dégustation sur place.",
+  "src": "https://www.brasserieplormel.com/contact",
+  "extrait": "Brasserie Plormel 4 rue Gutenberg ZA Beausoleil 44116 Vieillevigne",
+  "beers": [
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "choix": "Le numéro du siège est écrit « 228 076 499 », non relu par le contrôle : non repris.",
+  "contact": {
+   "site": "https://www.brasserieplormel.com/",
+   "source": "https://www.brasserieplormel.com/contact"
+  }
+ },
+ {
+  "cle": "sirene:882658016",
+  "n": "Microbrasserie Brewen",
+  "c": "Saint-Brevin-les-Pins",
+  "adresse": "9 chemin des Pinluettes, 44250 Saint-Brevin-les-Pins",
+  "cat": 0,
+  "conf": "",
+  "note": "Classée « produits locaux (boutique) » par l'office de tourisme, qui annonce des visites ; vente non décrite.",
+  "src": "https://www.atlantic-loire-valley.com/objet_touristique/238073",
+  "extrait": "Local produce (shop)",
+  "beers": [],
+  "choix": "Fiche de tourisme seulement."
+ },
+ {
+  "cle": "sirene:881148936",
+  "n": "Les Papas Brasseurs",
+  "c": "Saint-Hilaire-de-Clisson",
+  "adresse": "1 rue des Monty, 44190 Saint-Hilaire-de-Clisson",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar et cave de la brasserie, ouverts du mardi au samedi ; fermeture du 1er au 27 août.",
+  "src": "https://www.lespapasbrasseurs.fr/",
+  "extrait": "Bar et cave ouvert du mardi au samedi.",
+  "beers": [],
+  "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30. Elle dit aussi « ouvert du lundi au samedi » alors que son tableau ferme le lundi : le bloc suit le tableau.",
+  "contact": {
+   "site": "https://www.lespapasbrasseurs.fr/",
+   "source": "https://www.lespapasbrasseurs.fr/",
+   "tel": "02 28 02 66 94"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:30",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:30",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:30",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.lespapasbrasseurs.fr/",
+    "remarque": "Bar et cave ; fermeture estivale du 1er au 27 août."
+   }
+  ]
+ },
+ {
+  "cle": "personne:8",
+  "n": "Brasserie D'ici l'Aurore",
+  "c": "Saint-Hilaire-de-Chaléons",
+  "adresse": null,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe de la brasserie au marché hebdomadaire de la Ferme à Cultures, le mardi en fin de journée.",
+  "src": "https://www.atlantic-loire-valley.com/objet_touristique/232314",
+  "extrait": "Directly from the brewery at the weekly market at the Ferme à Cultures",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais seulement (horaires en « pm », non repris). Position au centre de la commune."
+ },
+ {
+  "cle": "sirene:915240667",
+  "n": "Brasserie La Déviation",
+  "c": "Riaillé",
+  "adresse": "165 rue d'Anjou, 44440 Riaillé",
+  "cat": 0,
+  "conf": "",
+  "note": "Visites avec dégustation tous les vendredis soir ; vente aux particuliers par téléphone. Ni bar ni vente sur place dits.",
+  "src": "https://brasserie-ladeviation.fr",
+  "extrait": "VISITE ET DÉGUSTATION TOUS LES VENDREDIS SOIRS",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "choix": "Un agent proposait « acheter et consommer » : une dégustation de visite n'est pas un bar. Seul numéro : un mobile.",
+  "contact": {
+   "site": "https://brasserie-ladeviation.fr/",
+   "source": "https://brasserie-ladeviation.fr"
+  }
+ },
+ {
+  "cle": "sirene:812106466",
+  "n": "BUBAR",
+  "c": "Nantes",
+  "adresse": "14 rue Louis Blanc, 44200 Nantes",
+  "cat": 0,
+  "conf": "",
+  "note": "Se présente comme « microbrasserie, bar et cave » sur une plateforme de réservation ; rien de la brasserie elle-même.",
+  "src": "https://www.privateaser.com/lieu/46007-bubar-microbrasserie-bar-et-cave",
+  "extrait": "BUBAR - Microbrasserie, Bar et Cave 14 Rue Louis Blanc, 44200 Nantes",
+  "beers": [],
+  "choix": "Plateforme de réservation seulement ; SIRENE déclare le 5 rue Louis Blanc."
+ },
+ {
+  "cle": "sirene:817637077",
+  "n": "Brasserie artisanale Philmore",
+  "c": "La Chapelle-sur-Erdre",
+  "adresse": "15 rue Kepler, 44240 La Chapelle-sur-Erdre",
+  "cat": 0,
+  "conf": "",
+  "note": "Café-bar et restaurant à cette adresse selon un annuaire de paiement ; rien sur la vente de ses bières.",
+  "src": "https://ou-utiliser.up.coop/etablissements/brasserie-artisanale-philmore-44240-29ffe54a",
+  "extrait": "Brasserie Artisanale Philmore 15 Rue Kepler 44240 La Chapelle Sur Erdre",
+  "beers": [],
+  "choix": "Annuaire seulement ; son site philmore.fr est à vendre. Même brasserie que le point OSM node/7391878540 (placé à Rezé). L'entreprise « Umami - Brasserie » (sirene:921007340) est déclarée à la même adresse : lien non établi."
+ },
+ {
+  "cle": "node/10840277210",
+  "n": "Brasserie de l'Ouche",
+  "c": "Joué-sur-Erdre",
+  "adresse": "269 rue des Prairies, 44440 Joué-sur-Erdre",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Dégustation et vente directe à la brasserie, ouverte toute l'année, d'après l'office de tourisme.",
+  "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-de-l-ouche",
+  "extrait": "Tasting and direct sales at the brewery.",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement. Seul numéro : un mobile."
+ },
+ {
+  "cle": "node/6813865426",
+  "n": "Brasserie San Roce",
+  "c": "Jans",
+  "adresse": "30 rue Quillevrant, 44170 Jans",
+  "cat": 0,
+  "conf": "",
+  "note": "Bières bio en bouteilles et à la pression, location de tireuses ; la page ne dit ni vente sur place ni horaires.",
+  "src": "https://brasseriesanroce.fr/",
+  "extrait": "BRASSERIE SAN ROCE 30, rue Quillevrant 44170 JANS",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Même brasserie que sirene:809686116 (Brasserie San Roce, Jans).",
+  "contact": {
+   "site": "https://brasseriesanroce.fr/",
+   "source": "https://brasseriesanroce.fr/",
+   "tel": "02 40 51 72 46"
+  }
+ },
+ {
+  "cle": "node/7492071434",
+  "n": "Brasserie La Hulotte",
+  "c": "Sautron",
+  "adresse": "18 rue du Moulin, 44880 Sautron",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie et distillerie qui propose des ateliers de brassage ; la vente de bière n'est pas dite.",
+  "src": "https://www.brasserie-lahulotte.fr",
+  "extrait": "Venez vivre une expérience enrichissante et ludique",
+  "beers": [],
+  "choix": "Même adresse qu'AERoFAB : lien non établi. Seul numéro : un mobile.",
+  "contact": {
+   "site": "https://www.brasserie-lahulotte.fr/",
+   "source": "https://www.brasserie-lahulotte.fr"
+  }
+ },
+ {
+  "cle": "way/65505066",
+  "n": "3 Brasseurs Saint-Sébastien-sur-Loire",
+  "c": "Saint-Sébastien-sur-Loire",
+  "adresse": null,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
+  "src": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+  "extrait": "Vente de bière à emporter",
+  "beers": [],
+  "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « Des bières fièrement fabriquées sur place dans chaque restaurant ». Position au centre de la commune.",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "mar": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "dim": [
+     [
+      "11:30",
+      "22:30"
+     ]
+    ],
+    "source": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+    "remarque": "Restaurant."
+   }
+  ]
+ }
+]

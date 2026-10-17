@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:951346634",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bizarre",
+   "c": "Saint-Pavace",
+   "d": "72",
+   "lat": 48.04014,
+   "lon": 0.19692,
+   "km": 434.9,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar en jardin le vendredi, food truck le midi, et vente à emporter du lundi au vendredi, d'après l'office de tourisme.",
+   "addr": "71 rue de Tourraine, 72190 Saint-Pavace",
+   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre"
+  ],
+  "extrait": "Takeaway sales are available Monday to Friday from 8am to 6pm.",
+  "choix": "Fiche de tourisme en anglais seulement ; le site de la brasserie est « en création ». Horaires en anglais (« 11am »), non repris en bloc. Même brasserie que le point OSM node/12145075166, placé à Coulaines."
+ }
+}

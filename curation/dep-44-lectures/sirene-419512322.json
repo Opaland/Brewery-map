@@ -1,0 +1,50 @@
+{
+ "candidat": "sirene:419512322",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Bouffay",
+   "c": "Carquefou",
+   "d": "44",
+   "lat": 47.31041,
+   "lon": -1.50762,
+   "km": 512.5,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la propriété et salle équipée pour la dégustation, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
+   "addr": "54 rue des Monceaux, 44470 Carquefou",
+   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "lager"
+    }
+   ],
+   "contact": {
+    "site": "https://www.brasserie-du-bouffay.com/",
+    "source": "https://www.brasserie-du-bouffay.com/",
+    "tel": "02 40 52 76 16",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay",
+   "https://www.brasserie-du-bouffay.com/",
+   "https://data.geopf.fr/geocodage/search?q=54+rue+des+Monceaux%2C+44470+Carquefou&limit=5"
+  ],
+  "extrait": "Winery sales",
+  "choix": "Fiche de tourisme en anglais pour la vente."
+ }
+}

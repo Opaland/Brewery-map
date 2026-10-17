@@ -1,0 +1,47 @@
+{
+ "candidat": "node/4485264669",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Cibulle",
+   "c": "Maillé",
+   "d": "85",
+   "lat": 46.34233,
+   "lon": -0.78796,
+   "km": 434.3,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Boutique-bar de la brasserie, ouverte selon la saison ; visite et dégustation sur rendez-vous, d'après l'office de tourisme.",
+   "addr": "7 rue de la Poste, 85420 Maillé",
+   "src": "https://en.vendee-maraispoitevin.com/offers/brasserie-la-cibulle-maille-en-4093785/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.lacibulle.fr/",
+    "source": "https://www.lacibulle.fr/contact",
+    "tel": "02 51 00 39 74",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.vendee-maraispoitevin.com/offers/brasserie-la-cibulle-maille-en-4093785/",
+   "https://www.lacibulle.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Poste%2C+85420+Maill%C3%A9&limit=5"
+  ],
+  "extrait": "The shop/bar is open",
+  "choix": "Fiche de tourisme en anglais pour la catégorie ; le site de la brasserie, derrière une porte d'âge, ne livre que sa page de contact. Horaires saisonniers non repris en bloc."
+ }
+}

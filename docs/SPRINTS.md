@@ -2633,3 +2633,85 @@ test échoue chaque fois. Les quatre lots repassent `controler` sans écart.
 3. **Le verdict de la story disait plus que le contrôle** (« retrouvés heure par heure ») : c'est un contrôle de présence, et le verdict le dit maintenant. Les blocs ont été relus un par un par la revue.
 
 Les quatre lots repassent `controler` sans écart.
+
+## S250 (1/…) — Loire-Atlantique : 32 fiches proposées *(17/10)*
+
+`docs/stories/S250.md`. C'est le premier département des Pays de la Loire, traité seul pour tenir dans le quota de recherches.
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-44` | 85 | 32 | 9 | 11 | 12 | 17 | 9 |
+
+- Les agents ont lu en 13 paquets de 7. Chaque extrait a été relu dans le texte brut de sa page. Les phrases trop faibles ou absentes ont été remplacées par la phrase réelle de la page.
+- Trois catégories sont redescendues :
+  - La Déviation et la Divatte : une dégustation de visite n'est pas un bar.
+  - Vestibule : la page dit « ouverte » sans dire pour quoi.
+- Les doublons entre SIRENE et OSM ont été fusionnés : Les Brassés, San Roce, Philmore.
+- **Défaut du contrôle, corrigé** : les entités typographiques des CMS (`&rsquo;`) n'étaient pas décodées. Un extrait juste était donc dit « ABSENT ». La correction a un test, vu rouge.
+- Restent pour Cédric : une chaîne (3 Brasseurs) et deux brasseries à la même adresse (AERoFAB et La Hulotte), dites dans le lot.
+
+### S250 (1) — corrections de la revue adverse *(17/10)*
+
+- Deux notes disaient plus que leur page :
+  - Côte de Jade : « dégustation lors des visites seulement » ; le « seulement » n'est pas sur la page.
+  - Bouffay : la salle de dégustation était dite « pour groupes ».
+- La règle de catégorie est maintenant écrite dans le lot et dans les choix : une dégustation liée à une visite n'est pas un bar, alors qu'une dégustation ouverte au public avec la vente en est un. C'est ce qui sépare BACA de la Divatte.
+- Papas Brasseurs : la contradiction de la page (« lundi au samedi » contre un tableau qui ferme le lundi) est dite dans le choix.
+
+## S250 (2/…) — Maine-et-Loire : 11 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-49` | 30 | 11 | 3 | 5 | 3 | 7 | 4 |
+
+Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Belle de Maine reste en « acheter seulement » : sa dégustation se fait sur rendez-vous, et la règle écrite en partie 1 s'applique.
+
+## S250 (3/…) — Vendée : 17 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-85` | 33 | 17 | 10 | 4 | 3 | 8 | 3 |
+
+- Beaucoup de bars de brasserie sur le littoral. Six fiches reposent sur une fiche de tourisme (dont Beer Workshop), une sur un annuaire ; toutes sont en confiance « faible ».
+- Une seconde enseigne 3 Brasseurs est proposée (La Roche-sur-Yon), signalée comme la première.
+- Deux sociétés sont rattachées à leur brasserie par l'adresse seulement (MK Production, SARL Bonnin), et le lot le dit.
+
+### S250 (2-3) — corrections de la revue adverse *(17/10)*
+
+La revue a relu chaque page par curl. Aucune erreur grave ; corrigé :
+1. **La N'O** : « acheter et consommer » n'est pas écrit (la dégustation suit les visites). Elle passe en « acheter seulement », avec l'extrait de la boutique.
+2. **La Muette** : le lot disait les horaires « dans une image » ; ils sont en texte. La catégorie tient maintenant sur la page « Brasserie » (« LA STABUL : Vente directe de bière et restauration sur place et à emporter »). Le téléphone fixe et le lien Untappd (`nostradaMusse`, page Untappd « La Ferme-Brasserie La Muette ») sont repris. Les horaires restent hors bloc : deux pages du site diffèrent pour le vendredi midi.
+3. **La Côale** : la note suggérait un accueil sur rendez-vous ; la page dit le contraire. Source, extrait (« boire une bière sur place ») et horaires du jeudi et du vendredi repris.
+4. **La Rombière** : des titres de rubriques ne prouvent pas la vente. Elle passe « à confirmer ».
+5. **« Aucun lien Untappd »** était écrit en dur dans l'en-tête des lots, faux pour 49 et 85. Le compte vient maintenant des fiches.
+6. **Beer Workshop** passe en confiance « faible », comme les autres fiches de tourisme, et la phrase de la partie 3 est corrigée.
+
+## S250 (4-5/…) — Sarthe et Mayenne : 7 et 4 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-72` | 19 | 7 | 4 | 2 | 1 | 6 | 4 |
+| `dep-53` | 9 | 4 | 1 | 0 | 3 | 1 | 1 |
+
+- Mage Malte passe en « acheter et consommer » : la page dit « Vente directe* et TAP ROOM », que le rapport de l'agent n'avait pas vu.
+- Septante-Deux tient sur son propre site (« servie sur place, en direct des cuves »), et non plus sur un guide.
+- Jolicoeur : la commune de Laigné-en-Belin s'appelle aujourd'hui Laigné-Saint-Gervais pour le géocodeur ; la fiche n'était pas écrite. Elle l'est, et le lot le dit.
+- La Mayenne a peu de pages de brasseries : trois fiches sur quatre restent « à confirmer ».
+
+### S250 (4-5) — revue adverse *(17/10)*
+
+Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux trouvailles :
+1. **La Muette (85)** : « sur place » ne qualifie que la restauration ; la page ne dit pas que la bière s'y boit. La fiche passe en « acheter seulement ».
+2. **Brasserie Cousin (53)** : l'enseigne porte le nom de famille du brasseur, que la page nomme. Le nom de la personne n'est repris nulle part ; le lot le signale à Cédric.
+
+## S250 (6/…) — Indre-et-Loire : 4 fiches proposées, quota épuisé *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | Pas de vente | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| `dep-37` | 27 | 4 | 1 | 1 | 0 | 2 | 2 | 0 |
+
+- Le quota de recherches web de la session s'est épuisé pendant la lecture. Sept candidats n'ont eu qu'une recherche ; le lot les marque « À relancer ». Le Centre-Val de Loire reprend dans une session suivante (37 à relancer, puis 45, 41, 18, 36, 28).
+- Sans recherche web, rien d'autre de ce département ne peut être lu proprement : la suite de la session va aux stories qui n'en ont pas besoin.
+- `controler` a signalé deux fois un écart fugace (connexion coupée par le proxy), disparu à la relance. Le lot n'est présenté qu'après une relance sans écart.
+- Revue adverse du lot 37 : « pas ouvert au public » n'est pas « pas de vente » (la Pigeonnelle vend des fûts aux particuliers). La fiche passe « à confirmer » ; un type de bière lu sur une page non citée est retiré. Les trois autres fiches sont confirmées sur leur page.
+

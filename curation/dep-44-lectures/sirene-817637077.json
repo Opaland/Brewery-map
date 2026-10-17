@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:817637077",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale Philmore",
+   "c": "La Chapelle-sur-Erdre",
+   "d": "44",
+   "lat": 47.26361,
+   "lon": -1.55192,
+   "km": 514.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Café-bar et restaurant à cette adresse selon un annuaire de paiement ; rien sur la vente de ses bières.",
+   "addr": "15 rue Kepler, 44240 La Chapelle-sur-Erdre",
+   "src": "https://ou-utiliser.up.coop/etablissements/brasserie-artisanale-philmore-44240-29ffe54a",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://ou-utiliser.up.coop/etablissements/brasserie-artisanale-philmore-44240-29ffe54a",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+Kepler%2C+44240+La+Chapelle-sur-Erdre&limit=5"
+  ],
+  "extrait": "Brasserie Artisanale Philmore 15 Rue Kepler 44240 La Chapelle Sur Erdre",
+  "choix": "Annuaire seulement ; son site philmore.fr est à vendre. Même brasserie que le point OSM node/7391878540 (placé à Rezé). L'entreprise « Umami - Brasserie » (sirene:921007340) est déclarée à la même adresse : lien non établi."
+ }
+}

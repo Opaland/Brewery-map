@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:850400805",
+ "ajout": {
+  "fiche": {
+   "n": "Les Fous Brassant",
+   "c": "L'Île-d'Yeu",
+   "d": "85",
+   "lat": 46.71561,
+   "lon": -2.36251,
+   "km": 559.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brewpub : bières locales vendues sur place et à emporter, terrasse ; ouvert tous les jours d'avril à septembre, du mercredi au samedi à partir de 17 h hors saison.",
+   "addr": "21 rue des Roches Cougnères, 85350 L'Île-d'Yeu",
+   "src": "https://lesfousbrassant.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lesfousbrassant.fr/",
+    "source": "https://lesfousbrassant.fr",
+    "tel": "02 28 11 46 63",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://lesfousbrassant.fr",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+des+Roches+Cougn%C3%A8res%2C+85350+L%27%C3%8Ele-d%27Yeu&limit=5"
+  ],
+  "extrait": "ventes de bières locales sur place et à emporter",
+  "choix": "Horaires non repris en bloc : « à partir de 17h », sans heure de fermeture ; fermeture annuelle de janvier à la Toussaint."
+ }
+}

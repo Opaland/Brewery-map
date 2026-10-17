@@ -1,0 +1,36 @@
+{
+ "candidat": "sirene:817715238",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brassés",
+   "c": "Nantes",
+   "d": "44",
+   "lat": 47.21602,
+   "lon": -1.53389,
+   "km": 511.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar-restaurant aux cinq cuves de brassage, où l'on boit les bières de la maison ; l'atelier de production est rue Bellier.",
+   "addr": "5 mail Pablo Picasso, 44000 Nantes",
+   "src": "https://www.lesbrasses.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.lesbrasses.fr/",
+    "source": "https://www.lesbrasses.fr",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lesbrasses.fr",
+   "https://data.geopf.fr/geocodage/search?q=5+mail+Pablo+Picasso%2C+44000+Nantes&limit=5"
+  ],
+  "extrait": "Avec ses 5 cuves jaunes reconnaissables, c’est l’endroit idéal pour déguster une viande grillée au Josper, savourer une bière en terrasse",
+  "choix": "Société Plan Bière (SIRENE, 24 rue Bellier). Même brasserie que le point OSM node/12159763921. La vente à emporter au restaurant n'est pas dite."
+ }
+}

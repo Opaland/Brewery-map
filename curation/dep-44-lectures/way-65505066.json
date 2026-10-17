@@ -1,0 +1,76 @@
+{
+ "candidat": "way/65505066",
+ "ajout": {
+  "fiche": {
+   "n": "3 Brasseurs Saint-Sébastien-sur-Loire",
+   "c": "Saint-Sébastien-sur-Loire",
+   "d": "44",
+   "lat": 47.19936,
+   "lon": -1.50268,
+   "km": 508.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
+   "addr": "Saint-Sébastien-sur-Loire",
+   "src": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+   "coordPrecision": "commune",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "lun": [
+      [
+       "11:30",
+       "21:30"
+      ]
+     ],
+     "mar": [
+      [
+       "11:30",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "11:30",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "11:30",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "11:30",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:30",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "11:30",
+       "22:30"
+      ]
+     ],
+     "source": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+     "remarque": "Restaurant.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details"
+  ],
+  "extrait": "Vente de bière à emporter",
+  "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « Des bières fièrement fabriquées sur place dans chaque restaurant ». Position au centre de la commune."
+ }
+}

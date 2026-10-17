@@ -1,0 +1,426 @@
+[
+ {
+  "cle": "sirene:482145885",
+  "n": "Brasserie Mélusine",
+  "c": "Chanverrie",
+  "adresse": "ZA La Barboire, Chambretaud, 85500 Chanverrie",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar et boutique de la brasserie, pour acheter ou déguster ses bières ; horaires d'hiver et d'été publiés.",
+  "src": "https://www.brasserie-melusine.com/",
+  "extrait": "dans son Bar/Boutique pour découvrir et/ou déguster des produits 100% Mélusine",
+  "beers": [],
+  "choix": "Horaires non repris en bloc : la page en donne deux tableaux saisonniers (octobre-mars, avril-septembre).",
+  "contact": {
+   "site": "https://www.brasserie-melusine.com/",
+   "source": "https://www.brasserie-melusine.com/",
+   "tel": "02 51 61 51 52"
+  }
+ },
+ {
+  "cle": "sirene:948990189",
+  "n": "L'Éco-Pain",
+  "c": "Bournezeau",
+  "adresse": "73 rue Archereau, 85480 Bournezeau",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar avec toutes les bières brassées sur place à la pression, et boutique de bouteilles à emporter, d'après le guide de la Vendée.",
+  "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bournezeau-23/l-eco-pain-4280.html",
+  "extrait": "All the craft beers brewed on-site are available on tap at the bar",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Annuaire en anglais seulement ; ses horaires, notés « 12:00 am », ne sont pas repris."
+ },
+ {
+  "cle": "sirene:850400805",
+  "n": "Les Fous Brassant",
+  "c": "L'Île-d'Yeu",
+  "adresse": "21 rue des Roches Cougnères, 85350 L'Île-d'Yeu",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brewpub : bières locales vendues sur place et à emporter, terrasse ; ouvert tous les jours d'avril à septembre, du mercredi au samedi à partir de 17 h hors saison.",
+  "src": "https://lesfousbrassant.fr",
+  "extrait": "ventes de bières locales sur place et à emporter",
+  "beers": [],
+  "choix": "Horaires non repris en bloc : « à partir de 17h », sans heure de fermeture ; fermeture annuelle de janvier à la Toussaint.",
+  "contact": {
+   "site": "https://lesfousbrassant.fr/",
+   "source": "https://lesfousbrassant.fr",
+   "tel": "02 28 11 46 63"
+  }
+ },
+ {
+  "cle": "personne:1",
+  "n": "Brasserie Mortania",
+  "c": "Mortagne-sur-Sèvre",
+  "adresse": null,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie artisanale aux céréales locales, avec une salle de dégustation où l'on voit la production, d'après l'office de tourisme.",
+  "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania",
+  "extrait": "tasting room where you can both taste and observe the production process",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile. Rue sans numéro : position au centre de la commune."
+ },
+ {
+  "cle": "sirene:829049501",
+  "n": "Oiseau de Nuit, Fabrique de bières",
+  "c": "Apremont",
+  "adresse": "La Thébaultière, 85220 Apremont",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar et boutique sur place (bières, coffrets, kits de brassage), sur le site du Grand Duc ; visite le jeudi à 19 h d'avril à septembre.",
+  "src": "https://atlantic-loire-valley.com/objet_touristique/240088",
+  "extrait": "Beers to taste at the bar or at our partners' premises",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais. Société MK Production, rattachée par l'adresse seulement. Même brasserie que le point OSM node/11740796277 (« Le Grand Duc »)."
+ },
+ {
+  "cle": "sirene:850969130",
+  "n": "Smeele, Fabrique de bière",
+  "c": "Luçon",
+  "adresse": "10 chemin de Sébastopol, 85400 Luçon",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la fabrique le mercredi, le jeudi et le vendredi, et sur rendez-vous ; bières Polder.",
+  "src": "https://www.smeele.fr",
+  "extrait": "Vente directe 10 Chemin de Sébastopol, 85400 Luçon",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "choix": "SIRENE donne une autre adresse ; une fiche de tourisme donne d'autres horaires.",
+  "contact": {
+   "site": "https://www.smeele.fr/",
+   "source": "https://www.smeele.fr",
+   "tel": "02 44 39 12 11"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "15:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "20:30"
+     ]
+    ],
+    "source": "https://www.smeele.fr",
+    "remarque": "Et en dehors, sur rendez-vous."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:849104724",
+  "n": "Brasserie du Marsouin",
+  "c": "Brétignolles-sur-Mer",
+  "adresse": "21 rue Gutenberg, 85470 Brétignolles-sur-Mer",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+  "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+  "extrait": "BRASSERIE DU MARSOUIN",
+  "beers": [],
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ },
+ {
+  "cle": "sirene:920573052",
+  "n": "Brasserie Plume",
+  "c": "Châteauneuf",
+  "adresse": "4 Les Loges, 85710 Châteauneuf",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+  "src": "https://guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/chateauneuf-35/brasserie-plume-3893.html",
+  "extrait": "4 Les Loges 85710 Chateauneuf",
+  "beers": [],
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ },
+ {
+  "cle": "node/4485264669",
+  "n": "Brasserie La Cibulle",
+  "c": "Maillé",
+  "adresse": "7 rue de la Poste, 85420 Maillé",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Boutique-bar de la brasserie, ouverte selon la saison ; visite et dégustation sur rendez-vous, d'après l'office de tourisme.",
+  "src": "https://en.vendee-maraispoitevin.com/offers/brasserie-la-cibulle-maille-en-4093785/",
+  "extrait": "The shop/bar is open",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Fiche de tourisme en anglais pour la catégorie ; le site de la brasserie, derrière une porte d'âge, ne livre que sa page de contact. Horaires saisonniers non repris en bloc.",
+  "contact": {
+   "site": "https://www.lacibulle.fr/",
+   "source": "https://www.lacibulle.fr/contact",
+   "tel": "02 51 00 39 74"
+  }
+ },
+ {
+  "cle": "sirene:827897562",
+  "n": "Brasserie Garatelle",
+  "c": "Vairé",
+  "adresse": "10 rue des Nouettes, 85150 Vairé",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation.",
+  "src": "https://www.garatelle.fr",
+  "extrait": "Vente en direct de la brasserie",
+  "beers": [],
+  "contact": {
+   "site": "https://www.garatelle.fr/",
+   "source": "https://www.garatelle.fr",
+   "tel": "02 51 90 38 67"
+  }
+ },
+ {
+  "cle": "sirene:840088876",
+  "n": "Opé Brewery",
+  "c": "Les Sables-d'Olonne",
+  "adresse": "28 ter allée Alain Gautier, 85340 Les Sables-d'Olonne",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio des Sables-d'Olonne, avec boutique en ligne ; la vente sur place n'est pas écrite sur la page lue.",
+  "src": "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html",
+  "extrait": "Organic craft brewery in Les Sables d'Olonne, Vendée",
+  "beers": [],
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ },
+ {
+  "cle": "sirene:983070608",
+  "n": "Tabernaude Brew",
+  "c": "L'Île-d'Yeu",
+  "adresse": "3 rue des Quais, 85350 L'Île-d'Yeu",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bières brassées sur le port, à boire en terrasse ou à emporter en bouteilles et canettes, d'après l'office de tourisme.",
+  "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/tabernaude-brew",
+  "extrait": "can enjoy them on the terrace or take them away in bottles or cans",
+  "beers": [],
+  "choix": "Fiche de tourisme en anglais seulement."
+ },
+ {
+  "cle": "sirene:518319983",
+  "n": "Ferme-brasserie La Muette",
+  "c": "Bazoges-en-Pareds",
+  "adresse": "La Muette, 85390 Bazoges-en-Pareds",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "La Stabul, à la ferme-brasserie : vente directe de bière, et restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
+  "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
+  "extrait": "LA STABUL : Vente directe de bière et restauration sur place et à emporter",
+  "beers": [],
+  "choix": "« Sur place » ne qualifie que la restauration : la page ne dit pas que la bière s'y boit, d'où « acheter seulement ». Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30).",
+  "contact": {
+   "site": "https://www.brasserie-la-muette.fr/",
+   "source": "https://www.brasserie-la-muette.fr/fr/contact",
+   "tel": "02 52 66 00 36",
+   "untappd": "https://untappd.com/nostradaMusse"
+  }
+ },
+ {
+  "cle": "node/11089223507",
+  "n": "Les Brasseurs de la Vie",
+  "c": "Saint-Gilles-Croix-de-Vie",
+  "adresse": "50 rue des Couvreurs, 85800 Saint-Gilles-Croix-de-Vie",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Micro-brasserie avec bar et boutique, ouverte du jeudi au samedi, et du lundi au samedi en juillet-août.",
+  "src": "https://www.lesbrasseursdelavie.com",
+  "extrait": "Micro-brasserie - Bar - Boutique - Saint-Gilles-Croix-de-Vie (85)",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "sour"
+   }
+  ],
+  "contact": {
+   "site": "https://www.lesbrasseursdelavie.com/",
+   "source": "https://www.lesbrasseursdelavie.com",
+   "tel": "02 51 55 04 75"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://www.lesbrasseursdelavie.com",
+    "remarque": "En juillet et août : du lundi au samedi, de 11 h à 20 h 30."
+   }
+  ]
+ },
+ {
+  "cle": "node/5401552281",
+  "n": "Brasserie La N'O",
+  "c": "La Guérinière",
+  "adresse": "10 bis rue de Tranchard, 85680 La Guérinière",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie pour la vente à emporter, ouverte toute l'année ; visites guidées l'été.",
+  "src": "https://brasserie-noirmoutier.fr",
+  "extrait": "Pour la vente à emporter, pour vos souvenirs de vacances",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "choix": "La dégustation n'est liée qu'aux visites : pas de bar écrit. Horaires non repris : la page en donne deux versions.",
+  "contact": {
+   "site": "https://brasserie-noirmoutier.fr/",
+   "source": "https://brasserie-noirmoutier.fr",
+   "tel": "02 51 60 40 12"
+  }
+ },
+ {
+  "cle": "way/1003170882",
+  "n": "3 Brasseurs La Roche-sur-Yon",
+  "c": "La Roche-sur-Yon",
+  "adresse": "180 rue Philippe Lebon, 85000 La Roche-sur-Yon",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
+  "src": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+  "extrait": "Vente de bière à emporter",
+  "beers": [],
+  "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « nous brassons nos bières artisanales dans notre microbrasserie ». OSM la plaçait à Mouilleron-le-Captif.",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "11:45",
+      "21:30"
+     ]
+    ],
+    "mar": [
+     [
+      "11:45",
+      "21:30"
+     ]
+    ],
+    "mer": [
+     [
+      "11:45",
+      "21:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:45",
+      "21:30"
+     ]
+    ],
+    "dim": [
+     [
+      "11:45",
+      "21:30"
+     ]
+    ],
+    "ven": [
+     [
+      "11:45",
+      "22:30"
+     ]
+    ],
+    "sam": [
+     [
+      "11:45",
+      "22:30"
+     ]
+    ],
+    "source": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+    "remarque": "Restaurant."
+   }
+  ]
+ },
+ {
+  "cle": "way/107960895",
+  "n": "Beer Workshop",
+  "c": "Les Achards",
+  "adresse": "17 rue de la Camamine, 85150 Les Achards",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.",
+  "src": "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
+  "extrait": "to taste on site or to buy in the shop area",
+  "beers": [],
+  "choix": "Page de l'office de tourisme en anglais. La brasserie vient de s'installer aux Achards. Seul numéro, un mobile."
+ }
+]

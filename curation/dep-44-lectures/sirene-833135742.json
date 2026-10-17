@@ -1,0 +1,42 @@
+{
+ "candidat": "sirene:833135742",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Vestibule",
+   "c": "Mesquer",
+   "d": "44",
+   "lat": 47.39308,
+   "lon": -2.45913,
+   "km": 583.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Ouverte toute l'année le mercredi soir et le samedi matin ; la page ne dit pas ce qu'on y fait.",
+   "addr": "120 rue des Artisans, 44420 Mesquer",
+   "src": "https://brasserievestibule.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "brune"
+    }
+   ],
+   "contact": {
+    "site": "https://brasserievestibule.fr/",
+    "source": "https://brasserievestibule.fr/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserievestibule.fr/",
+   "https://data.geopf.fr/geocodage/search?q=120+rue+des+Artisans%2C+44420+Mesquer&limit=5"
+  ],
+  "extrait": "Ouverte toute l’année le mercredi soir (17h – 20h) et samedi matin (10h30 – 13h)",
+  "choix": "Horaires non repris en bloc : leur nature (vente, accueil) n'est pas dite. Seul numéro : un mobile."
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "candidat": "sirene:884570607",
+ "ajout": {
+  "fiche": {
+   "n": "Ouest Coast Brewery",
+   "c": "Cheix-en-Retz",
+   "d": "44",
+   "lat": 47.18714,
+   "lon": -1.80907,
+   "km": 530.2,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente sur place, du lundi au samedi, d'après l'office de tourisme de Pornic ; aucun site de la brasserie.",
+   "addr": "7 rue des Landes, 44640 Cheix-en-Retz",
+   "src": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "horaires": [
+    {
+     "nature": "vente",
+     "lun": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "17:30"
+      ]
+     ],
+     "source": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+     "remarque": "Selon l'office de tourisme, pour 2026.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+des+Landes%2C+44640+Cheix-en-Retz&limit=5"
+  ],
+  "extrait": "Sales on-site",
+  "choix": "Fiche de tourisme en anglais seulement."
+ }
+}
