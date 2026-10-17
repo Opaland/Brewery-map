@@ -953,3 +953,27 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .fiche-note textarea::placeholder { color: var(--encre-douce); opacity: 1; }
 .fiche-note textarea:focus { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; border-color: var(--cuivre); }
 .fiche-note { margin-bottom: var(--espace-6); }
+
+/* ── S38 : l'affichette de comptoir ───────────────────────────────────── */
+
+/* Invisible à l'écran ; à l'impression, elle seule est peinte. */
+.affichette { display: none; }
+@media print {
+  body.imprime-affichette > *:not(.affichette) { display: none !important; }
+  body.imprime-affichette { background: #fff; }
+  .imprime-affichette .affichette {
+    display: block;
+    color: #000;
+    font-family: 'Inter Variable', Arial, sans-serif;
+    text-align: center;
+    padding: 1cm;
+  }
+  .affichette h2 { font-family: 'Fraunces Variable', Georgia, serif; font-size: 32pt; margin: 0.3cm 0; }
+  .affichette-marque { font-size: 14pt; letter-spacing: 0.05em; text-transform: uppercase; margin: 0; }
+  .affichette-lieu, .affichette-categorie { font-size: 16pt; margin: 0.2cm 0; }
+  .affichette-categorie { font-weight: 700; }
+  .affichette-note { font-size: 11pt; max-width: 15cm; margin: 0.3cm auto; }
+  /* 6 cm : bien au-dessus des 3 cm d'un QR lu à un mètre (CA4). */
+  .affichette-qr { width: 6cm; height: 6cm; display: block; margin: 0.5cm auto; }
+  .affichette-lien { font-size: 9pt; overflow-wrap: anywhere; }
+}

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -40,6 +40,10 @@ import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
 import { Sauvegarde } from './Sauvegarde'
 import type { Stockage } from './stockage'
+
+// L'affichette et son QR (S38) : chargés au premier clic, hors du chemin
+// d'ouverture (revue adverse S38 : ~57 ko de source dans le paquet principal).
+const AffichetteDifferee = lazy(() => import('./Affichette'))
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
 // retarde pas la liste, qui suffit seule à trouver une brasserie.
@@ -137,6 +141,9 @@ export function App({
   // l'appareil seulement.
   const [visites, setVisites] = useState(ini.visites)
   const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
+  // L'affichette à imprimer (S38) : montée le temps de l'impression, avec
+  // un numéro pour qu'un second clic sur la même brasserie réimprime.
+  const [affichette, setAffichette] = useState<{ brasserie: Brasserie; n: number } | null>(null)
   // Mes notes (S36) : une par brasserie, pour soi, sur l'appareil.
   const [notes, setNotes] = useState(ini.notes)
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
@@ -799,6 +806,9 @@ export function App({
             onEcrireNote={(nom, texte) => {
               setNotes((avant) => ecrireNote(avant, nom, texte))
             }}
+            onImprimer={(b) => {
+              setAffichette((avant) => ({ brasserie: b, n: (avant?.n ?? 0) + 1 }))
+            }}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))
@@ -854,6 +864,17 @@ export function App({
       </div>
       </main>
 
+      {affichette !== null && (
+        <Suspense fallback={null}>
+          <AffichetteDifferee
+            key={affichette.n}
+            brasserie={affichette.brasserie}
+            onFin={() => {
+              setAffichette(null)
+            }}
+          />
+        </Suspense>
+      )}
       <footer className="pied">
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne

@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from './zod'
 import { ORDRE_CATEGORIES } from './categories'
 import { ORIGINE_DEFAUT, origineDeCommune, type CommuneConnue, type Origine } from './origine'
 import type { TypeDeBiere } from './bieres'
