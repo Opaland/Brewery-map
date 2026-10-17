@@ -19,7 +19,7 @@ Catégories proposées : 3 « acheter et consommer », 6 « acheter seulement »
 
 **Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
+**Horaires** (S262) : repris quand la page les donne en clair, jour par jour, et chaque heure relue par `controler`. Ceux d'une page qui ne les donne qu'en partie, ou « non garantis », restent dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -161,6 +161,11 @@ Extrait lu : « dans le département et quelques communes des départements vois
 - src : (vide) → https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → blonde
+- horaires.0.nature : (vide) → vente
+- horaires.0.jeu : (vide) → 17 h – 19 h
+- horaires.0.remarque : (vide) → Ou sur demande.
+- horaires.0.source : (vide) → https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/ ; https://data.geopf.fr/geocodage/search?q=11+Saint-Georges%2C+56310+Guern&limit=5
@@ -480,6 +485,11 @@ Choix du vérificateur : Site brasserieetrille.com injoignable (DNS).
 - contact.site : (vide) → https://www.brasserie-domani.fr/
 - contact.source : (vide) → https://www.brasserie-domani.fr/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.ven : (vide) → 16 h – 19 h
+- horaires.0.remarque : (vide) → Retrait des commandes ; en juillet et août, aussi le samedi de 10 h à 13 h.
+- horaires.0.source : (vide) → https://www.brasserie-domani.fr/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-domani.fr/
@@ -598,6 +608,15 @@ Choix du vérificateur : Page en anglais de l'office de tourisme.
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → ipa
 - beers.1.type : (vide) → blanche
+- horaires.0.nature : (vide) → vente
+- horaires.0.lun : (vide) → 10 h – 12 h 30, 13 h 30 – 17 h
+- horaires.0.mar : (vide) → 10 h – 12 h 30, 13 h 30 – 17 h
+- horaires.0.mer : (vide) → 10 h – 12 h 30, 13 h 30 – 17 h
+- horaires.0.jeu : (vide) → 10 h – 12 h 30, 13 h 30 – 17 h
+- horaires.0.ven : (vide) → 10 h – 12 h 30, 13 h 30 – 17 h
+- horaires.0.remarque : (vide) → Toute l'année.
+- horaires.0.source : (vide) → https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014 ; https://data.geopf.fr/geocodage/search?q=7+La+Mine%2C+56460+Val+d%27Oust&limit=5
@@ -606,4 +625,4 @@ Extrait lu : « du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h »
 
 Choix du vérificateur : Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre.
 
-Empreinte du lot : 5acbb9ab8623
+Empreinte du lot : 9ad9d9cd2d30

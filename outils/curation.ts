@@ -38,6 +38,7 @@ import {
   lotSuivant,
   numeroSurLaPage,
   contactSurLaPage,
+  horairesSurLaPage,
   revuesDesFichiers,
 } from '../src/core/curation'
 import { BRIGNAIS } from '../src/core/distance'
@@ -137,6 +138,12 @@ async function controler(chemin: string | undefined) {
             const meme = parLaPageMeme.length === 0 ? '' : ` ; ${parLaPageMeme.join(', ')} = la page lue elle-même`
             console.log(`${n} — contact sur ${url} : ${absents.length === 0 ? 'trouvé' : `ABSENT (${absents.join(', ')})`}${meme}`)
             echecs += absents.length
+          }
+          // S262 : chaque heure d'un bloc d'horaires se relit sur la page du bloc.
+          for (const bloc of (a.fiche.horaires ?? []).filter((b) => b.source === url)) {
+            const absentes = horairesSurLaPage(bloc, page)
+            console.log(`${n} — horaires (${bloc.nature}) sur ${url} : ${absentes.length === 0 ? 'trouvés' : `ABSENTS (${absentes.join(', ')})`}`)
+            echecs += absentes.length
           }
         }
       } catch (e) {

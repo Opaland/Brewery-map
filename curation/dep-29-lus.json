@@ -123,7 +123,19 @@
   "contact": {
    "site": "https://sklent.bzh/",
    "source": "https://sklent.bzh/contact/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://sklent.bzh/contact/"
+   }
+  ]
  },
  {
   "cle": "sirene:901634857",
@@ -200,7 +212,36 @@
   "contact": {
    "site": "https://sibin.beer/",
    "source": "https://sibin.beer/contact"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://sibin.beer/contact",
+    "remarque": "Dégustations, visites et ventes ; sur rendez-vous pour les groupes."
+   }
+  ]
  },
  {
   "cle": "sirene:902874148",
@@ -241,7 +282,20 @@
    "source": "https://arvarus.bzh/",
    "tel": "09 81 00 11 08",
    "untappd": "https://untappd.com/Arvarus"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://arvarus.bzh/",
+    "remarque": "Soirées brewpub."
+   }
+  ]
  },
  {
   "cle": "sirene:890786528",
@@ -257,7 +311,19 @@
   "contact": {
    "site": "https://brasseriediaoul.com/",
    "source": "https://brasseriediaoul.com/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://brasseriediaoul.com/"
+   }
+  ]
  },
  {
   "cle": "sirene:880678347",

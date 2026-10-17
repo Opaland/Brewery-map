@@ -53,7 +53,37 @@
    "site": "https://www.brasseriedepaimpol.com/",
    "source": "https://www.brasseriedepaimpol.com",
    "tel": "02 56 42 17 68"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "source": "https://www.brasseriedepaimpol.com"
+   }
+  ]
  },
  {
   "cle": "sirene:877660043",
@@ -98,7 +128,31 @@
    "site": "https://brasserielariposte.bzh/",
    "source": "https://brasserielariposte.bzh/",
    "tel": "02 96 74 47 23"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "01:00"
+     ]
+    ],
+    "source": "https://brasserielariposte.bzh/"
+   }
+  ]
  },
  {
   "cle": "sirene:901093807",
@@ -111,7 +165,20 @@
   "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
   "extrait": "La Brasserie Carabo est ouverte au public tous les vendredis de 17h à 19h",
   "beers": [],
-  "choix": "Annuaire seulement (site officiel en 503). Deux adresses dans l'annuaire : position au centre de Saint-Judoce."
+  "choix": "Annuaire seulement (site officiel en 503). Deux adresses dans l'annuaire : position au centre de Saint-Judoce.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+    "remarque": "Autre créneau sur demande."
+   }
+  ]
  },
  {
   "cle": "sirene:815113709",
@@ -168,7 +235,32 @@
   "contact": {
    "site": "https://kerampont.com/",
    "source": "https://kerampont.com/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "19:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://kerampont.com/",
+    "remarque": "Bar et vente directe ; restauration le mardi et le jeudi."
+   }
+  ]
  },
  {
   "cle": "sirene:481351781",
@@ -427,6 +519,18 @@
    "site": "http://www.brasseriedeguerledan.bzh/",
    "source": "http://www.brasseriedeguerledan.bzh/",
    "tel": "02 96 66 20 99"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": "heures-non-precisees",
+    "jeu": "heures-non-precisees",
+    "ven": "heures-non-precisees",
+    "sam": "heures-non-precisees",
+    "dim": "heures-non-precisees",
+    "source": "http://www.brasseriedeguerledan.bzh/",
+    "remarque": "Bar et boutique, à partir de 16 h 30 ; heure de fermeture non publiée."
+   }
+  ]
  }
 ]

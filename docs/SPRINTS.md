@@ -2604,3 +2604,16 @@ champ pour eux.
 Tests vus rouges avant le correctif (8), puis verts. Mutations : la garde des
 horaires retirée, ou l'ancienne comparaison par sous-chaîne remise, et un
 test échoue chaque fois. Les quatre lots repassent `controler` sans écart.
+
+## S262 — Les lots départementaux portent les horaires lus *(17/10)*
+
+`docs/stories/S262.md`. C'est le même chemin que le contact (S261).
+- `ajoutDeLecture` porte les blocs d'horaires, datés du jour, et leurs
+  sources.
+- `horairesSurLaPage` cherche chaque heure de chaque créneau sur la page du
+  bloc. Il reconnaît « 14h », « 14:00 », « 14 h 30 », « minuit » et les
+  plages « 17-22 h ». Une heure lue dans un autre nombre ne compte pas.
+- Il contrôle la présence des heures, pas leur sens : un jour interverti
+  passerait. C'est dit dans le code, et la relecture humaine reste.
+- Lots bretons : 17 fiches, 18 blocs, tous trouvés par `controler`. Les
+  empreintes changent.

@@ -29,7 +29,20 @@
      "site": "http://www.brasseriedeguerledan.bzh/",
      "source": "http://www.brasseriedeguerledan.bzh/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": "heures-non-precisees",
+      "jeu": "heures-non-precisees",
+      "ven": "heures-non-precisees",
+      "sam": "heures-non-precisees",
+      "dim": "heures-non-precisees",
+      "remarque": "Bar et boutique, à partir de 16 h 30 ; heure de fermeture non publiée.",
+      "source": "http://www.brasseriedeguerledan.bzh/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -260,7 +273,33 @@
      "site": "https://kerampont.com/",
      "source": "https://kerampont.com/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "19:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Bar et vente directe ; restauration le mardi et le jeudi.",
+      "source": "https://kerampont.com/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -401,7 +440,38 @@
      "site": "https://www.brasseriedepaimpol.com/",
      "source": "https://www.brasseriedepaimpol.com",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "14:00",
+        "17:30"
+       ]
+      ],
+      "mer": [
+       [
+        "14:00",
+        "17:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:00",
+        "17:30"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "17:30"
+       ]
+      ],
+      "source": "https://www.brasseriedepaimpol.com",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -569,7 +639,32 @@
      "site": "https://brasserielariposte.bzh/",
      "source": "https://brasserielariposte.bzh/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "01:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "01:00"
+       ]
+      ],
+      "source": "https://brasserielariposte.bzh/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -593,7 +688,21 @@
     "addr": "Saint-Judoce",
     "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Autre créneau sur demande.",
+      "source": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [

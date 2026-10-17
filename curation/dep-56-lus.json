@@ -30,7 +30,64 @@
     "type": "blanche"
    }
   ],
-  "choix": "Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre."
+  "choix": "Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "source": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+    "remarque": "Toute l'année."
+   }
+  ]
  },
  {
   "cle": "sirene:823398250",
@@ -274,7 +331,20 @@
   "contact": {
    "site": "https://www.brasserie-domani.fr/",
    "source": "https://www.brasserie-domani.fr/"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasserie-domani.fr/",
+    "remarque": "Retrait des commandes ; en juillet et août, aussi le samedi de 10 h à 13 h."
+   }
+  ]
  },
  {
   "cle": "node/12409587194",
@@ -364,7 +434,20 @@
     "type": "blonde"
    }
   ],
-  "choix": "Site officiel en 403."
+  "choix": "Site officiel en 403.",
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+    "remarque": "Ou sur demande."
+   }
+  ]
  },
  {
   "cle": "node/7935469837",

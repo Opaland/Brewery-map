@@ -27,7 +27,20 @@
     "source": "http://www.brasseriedeguerledan.bzh/",
     "tel": "02 96 66 20 99",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mer": "heures-non-precisees",
+     "jeu": "heures-non-precisees",
+     "ven": "heures-non-precisees",
+     "sam": "heures-non-precisees",
+     "dim": "heures-non-precisees",
+     "source": "http://www.brasseriedeguerledan.bzh/",
+     "remarque": "Bar et boutique, à partir de 16 h 30 ; heure de fermeture non publiée.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

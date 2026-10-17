@@ -19,7 +19,20 @@
     "site": "https://brasseriediaoul.com/",
     "source": "https://brasseriediaoul.com/",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ]
+     ],
+     "source": "https://brasseriediaoul.com/",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

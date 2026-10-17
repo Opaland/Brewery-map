@@ -317,12 +317,14 @@ export interface LectureAgent {
   beers: unknown[]
   choix?: string
   contact?: { tel?: string; site?: string; untappd?: string; source: string }
+  /** Les blocs d'horaires lus (S262), sans date : elle est celle de la lecture. */
+  horaires?: ({ nature: 'accueil' | 'vente'; source: string } & Record<string, unknown>)[]
 }
 
 /**
  * La lecture devenue fiche nouvelle, à la position déjà gardée
  * (`positionDuGeocodeur`) : datée du jour, avec ses sources dans l'ordre
- * `src`, page du contact, requête du géocodeur. Non validée ici :
+ * `src`, page du contact, pages des horaires, requête du géocodeur. Non validée ici :
  * `assemblerLot` passe chaque ajout au schéma.
  */
 export function ajoutDeLecture(
@@ -347,8 +349,10 @@ export function ajoutDeLecture(
     coordPrecision: pos.precision,
     beers: l.beers,
     ...(l.contact === undefined ? {} : { contact: { ...l.contact, verifieLe: aujourdhui } }),
+    ...(l.horaires === undefined ? {} : { horaires: l.horaires.map((b) => ({ ...b, verifieLe: aujourdhui })) }),
   }
-  const sources = [...new Set([l.src, ...(l.contact === undefined ? [] : [l.contact.source]), ...(geocodeur === undefined ? [] : [geocodeur])])]
+  const lues = [...(l.contact === undefined ? [] : [l.contact.source]), ...(l.horaires ?? []).map((b) => b.source)]
+  const sources = [...new Set([l.src, ...lues, ...(geocodeur === undefined ? [] : [geocodeur])])]
   return {
     candidat: l.cle,
     ajout: { fiche, verifieLe: aujourdhui, sources, extrait: l.extrait, ...(l.choix === undefined ? {} : { choix: l.choix }) },

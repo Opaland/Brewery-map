@@ -19,7 +19,37 @@
     "site": "https://sibin.beer/",
     "source": "https://sibin.beer/contact",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "source": "https://sibin.beer/contact",
+     "remarque": "Dégustations, visites et ventes ; sur rendez-vous pour les groupes.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -19,7 +19,7 @@ Catégories proposées : 5 « acheter et consommer », 5 « acheter seulement »
 
 **Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
+**Horaires** (S262) : repris quand la page les donne en clair, jour par jour, et chaque heure relue par `controler`. Ceux d'une page qui ne les donne qu'en partie, ou « non garantis », restent dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -218,6 +218,11 @@ Choix du vérificateur : Bières Térénez. Source : agrégateur de points d'int
 - contact.untappd : (vide) → https://untappd.com/Arvarus
 - contact.source : (vide) → https://arvarus.bzh/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.ven : (vide) → 16 h – 22 h
+- horaires.0.remarque : (vide) → Soirées brewpub.
+- horaires.0.source : (vide) → https://arvarus.bzh/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://arvarus.bzh/
@@ -321,6 +326,10 @@ Choix du vérificateur : Un agent proposait « acheter seulement » : la phrase 
 - contact.site : (vide) → https://sklent.bzh/
 - contact.source : (vide) → https://sklent.bzh/contact/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.ven : (vide) → 15 h – 19 h
+- horaires.0.source : (vide) → https://sklent.bzh/contact/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://sklent.bzh/contact/ ; https://data.geopf.fr/geocodage/search?q=1+rue+Ernest+Renan+29800+Landerneau&limit=5
@@ -347,6 +356,10 @@ Choix du vérificateur : Horaires lus par un agent (vendredi 15 h-19 h), non rep
 - contact.site : (vide) → https://brasseriediaoul.com/
 - contact.source : (vide) → https://brasseriediaoul.com/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.sam : (vide) → 10 h – 12 h
+- horaires.0.source : (vide) → https://brasseriediaoul.com/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasseriediaoul.com/
@@ -471,6 +484,13 @@ Choix du vérificateur : Annuaire seulement ; le site ferme-de-trevarn.fr la dit
 - contact.site : (vide) → https://sibin.beer/
 - contact.source : (vide) → https://sibin.beer/contact
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.mar : (vide) → 14 h – 18 h
+- horaires.0.ven : (vide) → 14 h – 19 h
+- horaires.0.sam : (vide) → 10 h – 13 h, 14 h – 18 h
+- horaires.0.remarque : (vide) → Dégustations, visites et ventes ; sur rendez-vous pour les groupes.
+- horaires.0.source : (vide) → https://sibin.beer/contact
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://sibin.beer/contact ; https://data.geopf.fr/geocodage/search?q=4+rue+de+la+Garenne%2C+29830+Plouguin&limit=5
@@ -529,4 +549,4 @@ Extrait lu : « 565 Route de Rucat - Keravel 29680 ROSCOFF »
 
 Choix du vérificateur : Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon).
 
-Empreinte du lot : c871c3655433
+Empreinte du lot : 6941f0365a48

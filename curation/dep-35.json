@@ -121,7 +121,21 @@
      "site": "https://www.brasserie-sainte-colombe.com/",
      "source": "https://www.brasserie-sainte-colombe.com/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "14:00",
+        "20:30"
+       ]
+      ],
+      "remarque": "Bar et vente directe.",
+      "source": "https://www.brasserie-sainte-colombe.com/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -159,7 +173,59 @@
      "untappd": "https://untappd.com/w/brasserie-skumenn/240180",
      "source": "https://www.skumenn.com/brewpub",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [],
+      "mar": [
+       [
+        "11:30",
+        "14:00"
+       ],
+       [
+        "16:00",
+        "21:00"
+       ]
+      ],
+      "mer": [
+       [
+        "11:30",
+        "14:00"
+       ],
+       [
+        "16:00",
+        "21:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "11:30",
+        "14:00"
+       ],
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "11:30",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "21:00"
+       ]
+      ],
+      "dim": [],
+      "remarque": "Hors événements.",
+      "source": "https://www.skumenn.com/brewpub",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -221,7 +287,26 @@
      "site": "https://www.vieuxsinge.com/",
      "source": "https://www.vieuxsinge.com",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.vieuxsinge.com",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -426,7 +511,81 @@
      "untappd": "https://untappd.com/w/choque-microbrasserie/559490",
      "source": "https://www.choquemicrobrasserie.fr",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "dim": [
+       [
+        "16:00",
+        "21:00"
+       ]
+      ],
+      "remarque": "Taproom.",
+      "source": "https://www.choquemicrobrasserie.fr",
+      "verifieLe": "2026-10-17"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Vente à emporter, et aux heures du taproom.",
+      "source": "https://www.choquemicrobrasserie.fr",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -509,7 +668,20 @@
      "site": "https://brasseriedrao.com/",
      "source": "https://brasseriedrao.com/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://brasseriedrao.com/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [

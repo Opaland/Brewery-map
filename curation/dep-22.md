@@ -19,7 +19,7 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 
 **Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
+**Horaires** (S262) : repris quand la page les donne en clair, jour par jour, et chaque heure relue par `controler`. Ceux d'une page qui ne les donne qu'en partie, ou « non garantis », restent dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -65,6 +65,15 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 - contact.site : (vide) → http://www.brasseriedeguerledan.bzh/
 - contact.source : (vide) → http://www.brasseriedeguerledan.bzh/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.mer : (vide) → ouvert, heures non précisées
+- horaires.0.jeu : (vide) → ouvert, heures non précisées
+- horaires.0.ven : (vide) → ouvert, heures non précisées
+- horaires.0.sam : (vide) → ouvert, heures non précisées
+- horaires.0.dim : (vide) → ouvert, heures non précisées
+- horaires.0.remarque : (vide) → Bar et boutique, à partir de 16 h 30 ; heure de fermeture non publiée.
+- horaires.0.source : (vide) → http://www.brasseriedeguerledan.bzh/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : http://www.brasseriedeguerledan.bzh/
@@ -266,6 +275,13 @@ Choix du vérificateur : Annuaire seulement ; adresses de l'annuaire et de SIREN
 - contact.site : (vide) → https://kerampont.com/
 - contact.source : (vide) → https://kerampont.com/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.mar : (vide) → 18 h – 22 h
+- horaires.0.jeu : (vide) → 19 h – 22 h
+- horaires.0.ven : (vide) → 17 h – 19 h
+- horaires.0.remarque : (vide) → Bar et vente directe ; restauration le mardi et le jeudi.
+- horaires.0.source : (vide) → https://kerampont.com/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://kerampont.com/
@@ -393,6 +409,13 @@ Choix du vérificateur : Même brasserie que le point OSM node/7491754420. Posit
 - contact.site : (vide) → https://www.brasseriedepaimpol.com/
 - contact.source : (vide) → https://www.brasseriedepaimpol.com
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → vente
+- horaires.0.mar : (vide) → 14 h – 17 h 30
+- horaires.0.mer : (vide) → 14 h – 17 h 30
+- horaires.0.jeu : (vide) → 14 h – 17 h 30
+- horaires.0.ven : (vide) → 14 h – 17 h 30
+- horaires.0.source : (vide) → https://www.brasseriedepaimpol.com
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasseriedepaimpol.com ; https://data.geopf.fr/geocodage/search?q=5+rue+du+Grand+Pr%C3%A9%2C+22500+Paimpol&limit=5
@@ -527,6 +550,12 @@ Choix du vérificateur : Même adresse que « Tiens bon la Barre » (sirene:8505
 - contact.site : (vide) → https://brasserielariposte.bzh/
 - contact.source : (vide) → https://brasserielariposte.bzh/
 - contact.verifieLe : (vide) → 2026-10-17
+- horaires.0.nature : (vide) → accueil
+- horaires.0.jeu : (vide) → 16 h – 23 h
+- horaires.0.ven : (vide) → 16 h – 1 h (le lendemain)
+- horaires.0.sam : (vide) → 16 h – 1 h (le lendemain)
+- horaires.0.source : (vide) → https://brasserielariposte.bzh/
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserielariposte.bzh/ ; https://data.geopf.fr/geocodage/search?q=27+place+de+la+R%C3%A9publique%2C+22170+Ch%C3%A2telaudren-Plouagat&limit=5
@@ -550,6 +579,11 @@ Choix du vérificateur : La catégorie repose sur deux passages de la même page
 - src : (vide) → https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- horaires.0.nature : (vide) → vente
+- horaires.0.ven : (vide) → 17 h – 19 h
+- horaires.0.remarque : (vide) → Autre créneau sur demande.
+- horaires.0.source : (vide) → https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html
+- horaires.0.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html
@@ -613,4 +647,4 @@ Extrait lu : « Brasserie bière craft fantasy en Bretagne »
 
 Choix du vérificateur : Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons.
 
-Empreinte du lot : 31ac0d8e66b5
+Empreinte du lot : 01a614805b64

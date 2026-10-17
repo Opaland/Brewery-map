@@ -19,7 +19,21 @@
     "site": "https://www.brasserie-sainte-colombe.com/",
     "source": "https://www.brasserie-sainte-colombe.com/",
     "verifieLe": "2026-10-17"
-   }
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "ven": [
+      [
+       "14:00",
+       "20:30"
+      ]
+     ],
+     "source": "https://www.brasserie-sainte-colombe.com/",
+     "remarque": "Bar et vente directe.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
   },
   "verifieLe": "2026-10-17",
   "sources": [

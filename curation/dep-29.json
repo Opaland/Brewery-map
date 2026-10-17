@@ -209,7 +209,21 @@
      "untappd": "https://untappd.com/Arvarus",
      "source": "https://arvarus.bzh/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Soirées brewpub.",
+      "source": "https://arvarus.bzh/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -337,7 +351,20 @@
      "site": "https://sklent.bzh/",
      "source": "https://sklent.bzh/contact/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://sklent.bzh/contact/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -366,7 +393,20 @@
      "site": "https://brasseriediaoul.com/",
      "source": "https://brasseriediaoul.com/",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ]
+      ],
+      "source": "https://brasseriediaoul.com/",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -516,7 +556,37 @@
      "site": "https://sibin.beer/",
      "source": "https://sibin.beer/contact",
      "verifieLe": "2026-10-17"
-    }
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Dégustations, visites et ventes ; sur rendez-vous pour les groupes.",
+      "source": "https://sibin.beer/contact",
+      "verifieLe": "2026-10-17"
+     }
+    ]
    },
    "verifieLe": "2026-10-17",
    "sources": [

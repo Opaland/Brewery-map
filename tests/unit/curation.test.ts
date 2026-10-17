@@ -11,6 +11,7 @@ import {
   extraitSurLaPage,
   ajoutSchema,
   contactSurLaPage,
+  horairesSurLaPage,
   revuesDesFichiers,
   type Lot,
 } from '../../src/core/curation'
@@ -588,5 +589,36 @@ describe('les contacts d’une fiche nouvelle (S261)', () => {
   it('CA3 : sur une plateforme partagée, la même plateforme ne prouve pas le site', () => {
     expect(contactSurLaPage({ site: 'https://www.facebook.com/brass', source: 'https://www.facebook.com/autre' }, '').absents).toEqual(['site'])
     expect(contactSurLaPage({ site: 'https://www.facebook.com/brass', source: 'https://www.facebook.com/brass/about' }, '')).toEqual(lu([], ['site']))
+  })
+})
+
+describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)', () => {
+  const bloc = (jours: Record<string, unknown>) => ({ nature: 'vente' as const, ...jours, source: 'https://exemple.fr/', verifieLe: '2026-10-17' })
+
+  it('CA2 : chaque heure de chaque créneau est cherchée, sous ses écritures courantes', () => {
+    const page = 'Mardi 14h - 18h, vendredi 14:00 – 19:00, samedi 10 h à 12 h 30 et 14h00-18h00'
+    const b = bloc({ mar: [['14:00', '18:00']], ven: [['14:00', '19:00']], sam: [['10:00', '12:30'], ['14:00', '18:00']] })
+    expect(horairesSurLaPage(b, page)).toEqual([])
+  })
+
+  it('CA2 : une heure absente de la page est nommée', () => {
+    expect(horairesSurLaPage(bloc({ ven: [['16:00', '22:00']] }), 'vendredi de 16h à 21h')).toEqual(['ven 22:00'])
+  })
+
+  it('CA2 : une heure n’est pas lue dans un autre nombre (« 114h », « 2014 »)', () => {
+    expect(horairesSurLaPage(bloc({ jeu: [['14:00', '20:00']] }), 'tél. 114h ; en 2014, 20 bières')).toEqual(['jeu 14:00', 'jeu 20:00'])
+  })
+
+  it('CA2 : minuit et une heure du matin se lisent « 0h » ou « minuit », « 1h » ou « 01h »', () => {
+    expect(horairesSurLaPage(bloc({ sam: [['16:00', '01:00']], ven: [['16:00', '00:00']] }), 'ven 16h-minuit, sam 16h-1h')).toEqual([])
+  })
+
+  it('CA2 : une plage « 17-22 h » ou « 17 -22 h » vaut pour ses deux heures', () => {
+    expect(horairesSurLaPage(bloc({ mar: [['17:00', '22:00']], dim: [['16:00', '21:00']] }), 'Mardi 17 -22 h … Dimanche 16-21h')).toEqual([])
+    expect(horairesSurLaPage(bloc({ mar: [['17:00', '22:00']] }), 'Mardi 17 - 22 personnes')).toEqual(['mar 17:00', 'mar 22:00'])
+  })
+
+  it('CA2 : un jour « heures non précisées » ou fermé ne demande rien', () => {
+    expect(horairesSurLaPage(bloc({ mer: 'heures-non-precisees', lun: [] }), '')).toEqual([])
   })
 })

@@ -504,6 +504,41 @@ export function contactSurLaPage(
   return { absents, parLaPageMeme }
 }
 
+const JOURS_DE_LA_SEMAINE = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim'] as const
+
+/** Une heure « 14:30 » telle qu'une page l'écrit : « 14h30 », « 14:30 », « 14 h 30 » ; « 14h » ou « 14h00 » pour l'heure pleine ; « minuit », « midi ». */
+function heureSurLaPage(heure: string, texte: string): boolean {
+  const [hh = '', mm = ''] = heure.split(':')
+  const h = String(Number(hh))
+  const minutes = mm === '00' ? '(?:00)?' : mm
+  const ecrite = new RegExp(`(?<!\\d)0?${h}\\s*[h:]\\s*${minutes}(?!\\d)`, 'i')
+  const enMots = (heure === '00:00' && /minuit/i.test(texte)) || (heure === '12:00' && /midi/i.test(texte))
+  return enMots || ecrite.test(texte)
+}
+
+/**
+ * Les heures d'un bloc d'horaires que sa page ne montre pas (S262), sous la
+ * forme « ven 22:00 ». Contrôle de présence, pas de sens : il attrape une
+ * heure inventée ou mal recopiée, pas un jour interverti. Un jour fermé ou
+ * « heures non précisées » ne demande rien.
+ */
+export function horairesSurLaPage(bloc: Readonly<Record<string, unknown>>, page: string): string[] {
+  // « 17-22 h » : la première heure de la plage prend le « h » de la seconde.
+  const texte = page
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/(?<!\d)(\d{1,2})(\s*[-–]\s*\d{1,2}\s*h)/gi, '$1h$2')
+  const absentes: string[] = []
+  for (const jour of JOURS_DE_LA_SEMAINE) {
+    const creneaux = bloc[jour]
+    if (!Array.isArray(creneaux)) continue
+    for (const heure of new Set((creneaux as [string, string][]).flat())) {
+      if (!heureSurLaPage(heure, texte)) absentes.push(`${jour} ${heure}`)
+    }
+  }
+  return absentes
+}
+
 const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }
 
 /** Le texte lu d'une page : sans balises, entités décodées, sans accents ni casse, espaces réduits. */
