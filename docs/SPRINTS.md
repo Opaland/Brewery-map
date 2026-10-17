@@ -2313,5 +2313,6 @@ ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
   branche, relues dans le diff), et la comparaison reste exacte. Aucune
   tolérance n'est inventée. Conséquence : la spec ne se lance plus en local.
   La preuve du rouge (CA2) a été faite dans le conteneur, avec ses propres
-  références ; elle reste à refaire en CI.
+  références. En CI, seule la stabilité se prouve (job vert sans nouvel
+  essai, sur les références du robot, commit 9321c67, barre masquée).
 
