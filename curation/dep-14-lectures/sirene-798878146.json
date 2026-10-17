@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:798878146",
+ "ajout": {
+  "fiche": {
+   "n": "La JJAP – Les 2 Terres",
+   "c": "Caen",
+   "d": "14",
+   "lat": 49.17638,
+   "lon": -0.33262,
+   "km": 545.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale (Caen et Saint-Romain-de-Colbosc) ; vente ou accueil à Caen non établis, catégorie à confirmer.",
+   "addr": "33 route de Trouville, 14000 Caen",
+   "src": "https://www.les2terres.fr/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.les2terres.fr/",
+   "https://data.geopf.fr/geocodage/search?q=33+route+de+Trouville%2C+14000+Caen&limit=1"
+  ],
+  "extrait": "LA JJAP 33 Route de Trouville 14000 CAEN",
+  "choix": "Même brasserie que « Brasserie JJAP » d'OSM à Mondeville (même site) ; le site ne cite pas Mondeville. Styles lus : Terres Neuvas (triple), Pink Flamingo (triple blanche), La P'tite Yportaise (ambrée), Dark Vados (stout), Surfing'IPA (IPA) — non repris en attendant de savoir lesquelles sont brassées à Caen. Téléphone 02 36 80 11 01 : lieu non précisé, non repris."
+ }
+}

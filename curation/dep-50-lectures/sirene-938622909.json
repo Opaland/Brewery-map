@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:938622909",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Léopard",
+   "c": "Avranches",
+   "d": "50",
+   "lat": 48.68982,
+   "lon": -1.36185,
+   "km": 570.8,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue.",
+   "addr": "7 avenue de la Gare, 50300 Avranches",
+   "src": "https://brasserie-leopard.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserie-leopard.fr",
+   "https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+50300+Avranches&limit=1"
+  ],
+  "extrait": "Dès le 1er juillet, vous pourrez venir consommer sur place dans un cadre convivial, accompagné de planches apéro.",
+  "choix": "Raison sociale SIRENE : « Brasserie Normande » ; l'enseigne Léopard est celle du site. Confiance faible : l'année de l'ouverture sur place n'est pas lue. Horaires du site contredits par un avis : non repris."
+ }
+}

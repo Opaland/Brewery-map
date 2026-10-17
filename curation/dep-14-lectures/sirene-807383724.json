@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:807383724",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des 9 Mondes",
+   "c": "Ranville",
+   "d": "14",
+   "lat": 49.23004,
+   "lon": -0.26688,
+   "km": 546.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Visites guidées avec dégustation et ateliers de brassage ; aucune vente ni horaire lus, catégorie à confirmer.",
+   "addr": "Ranville",
+   "src": "https://www.brasseriedes9mondes.com",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedes9mondes.com"
+  ],
+  "extrait": "Nous organisons aussi des visites guidées de notre brasserie avec dégustation",
+  "choix": "Le titre de la page cite Blainville-sur-Orne, le texte Ranville : Ranville retenu (registre). Position au centre de la commune."
+ }
+}

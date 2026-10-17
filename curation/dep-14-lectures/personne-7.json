@@ -1,0 +1,40 @@
+{
+ "candidat": "personne:7",
+ "ajout": {
+  "fiche": {
+   "n": "Mobsby's",
+   "c": "Vire Normandie",
+   "d": "14",
+   "lat": 48.78902,
+   "lon": -0.93933,
+   "km": 551.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de real ales ; le site propose de commander les bières ou d'organiser une visite sur contact, sans vente sur place établie.",
+   "addr": "2301 route de la Diade, 14500 Vire Normandie",
+   "src": "https://www.mobsbys.com/contact",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "stout"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.mobsbys.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=2301+route+de+la+Diade%2C+14500+Vire+Normandie&limit=1"
+  ],
+  "extrait": "Envie de découvrir la brasserie ? Contactez-nous pour organiser votre visite ou pour commander nos bières.",
+  "choix": "OSM la place à Gathemo (Manche) ; le site donne Vire Normandie (Calvados). Bières lues sur /nos-bieres : Le Coq (Blonde/Golden Ale), Fantaisie de Miel (Blonde/Pale Ale au miel), La Cordiale (Ale ambrée), L'Expérience (Stout). Téléphone : un mobile, non repris."
+ }
+}

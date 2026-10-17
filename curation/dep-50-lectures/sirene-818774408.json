@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:818774408",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cotentine",
+   "c": "Barneville-Carteret",
+   "d": "50",
+   "lat": 49.37918,
+   "lon": -1.77789,
+   "km": 640.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie citée par un guide (ambrées, blondes, blanches, brunes) ; aucune vente ni accueil établis, catégorie à confirmer.",
+   "addr": "19 route du Pont Rose, 50270 Barneville-Carteret",
+   "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine"
+  ],
+  "extrait": "La Brasserie Cotentine poursuit la tradition et propose des ambrées, blondes, blanches et brunes",
+  "choix": "Source de guide seulement ; page Facebook illisible sans compte. Les styles cités sont ceux de la gamme, sans bière nommée : non repris."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:931058010",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bifrost",
+   "c": "Saint-Lô",
+   "d": "50",
+   "lat": 49.10496,
+   "lon": -1.05751,
+   "km": 580.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie connue de l'annuaire touristique régional seulement : ni site, ni vente, ni horaires lus ; catégorie à confirmer.",
+   "addr": "30 rue Madeleine Desdevises, 50000 Saint-Lô",
+   "src": "https://en.normandie-tourisme.fr/stores/brasserie-bifrost/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.normandie-tourisme.fr/stores/brasserie-bifrost/",
+   "https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=1"
+  ],
+  "extrait": "Address 30 rue Madeleine Desdevises 50000 SAINT-LO",
+  "choix": "Source d'annuaire seulement. Téléphone de l'annuaire (mobile) non repris."
+ }
+}

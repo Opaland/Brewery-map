@@ -31,6 +31,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import {
   appliquerLot,
   diffLisible,
+  extraitSurLaPage,
   ficheDuSignalement,
   formaterDonnees,
   lireLot,
@@ -109,6 +110,29 @@ async function controler(chemin: string | undefined) {
       const trouve = numeroSurLaPage(tel, pages.get(source) ?? '')
       console.log(`${String(i + 1)}. ${p.n} — ${tel} sur ${source} : ${trouve ? 'trouvé' : 'ABSENT'}`)
       if (!trouve) echecs++
+    }
+  }
+  // Les fiches nouvelles (S247) : chaque source répond, et l'extrait est
+  // sur la page de `src`. Avant, un lot d'ajouts passait « sans écart »
+  // sans qu'aucune page soit ouverte.
+  const base = l.propositions.length
+  for (const [i, a] of (l.ajouts ?? []).entries()) {
+    const n = `${String(base + i + 1)}. ${a.fiche.n}`
+    for (const url of a.sources) {
+      try {
+        const r = await fetch(url, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 (MousseDePoche-curation)' } })
+        const page = r.ok ? await r.text() : ''
+        console.log(`${n} — ${url} : ${String(r.status)}`)
+        if (!r.ok) echecs++
+        else if (url === a.fiche.src) {
+          const lu = extraitSurLaPage(a.extrait, page)
+          console.log(`${n} — extrait sur ${url} : ${lu ? 'trouvé' : 'ABSENT'}`)
+          if (!lu) echecs++
+        }
+      } catch (e) {
+        console.log(`${n} — ${url} : injoignable (${String(e)})`)
+        echecs++
+      }
     }
   }
   // Tout accepter doit passer : sinon « controler » rassurait quand

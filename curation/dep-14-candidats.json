@@ -1,0 +1,757 @@
+[
+ {
+  "cle": "sirene:798878146",
+  "nom": "LA JJAP",
+  "communes": [
+   "CAEN"
+  ],
+  "departement": "14",
+  "adresses": [
+   "33 ROUTE DE TROUVILLE 14000 CAEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "798878146",
+  "sirets": [
+   "79887814600041"
+  ],
+  "osm": [],
+  "lat": 49.1764783351353,
+  "lon": -0.332204856932544,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917466658",
+  "nom": "BRASSERIE CAVAL",
+  "communes": [
+   "ABLON",
+   "HONFLEUR"
+  ],
+  "departement": "14",
+  "adresses": [
+   "370 ROUTE DE GENNEVILLE 14600 ABLON",
+   "LA FOSSERIE ZA LE PLATEAU 14600 HONFLEUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917466658",
+  "sirets": [
+   "91746665800015",
+   "91746665800023"
+  ],
+  "osm": [],
+  "lat": 49.401346747,
+  "lon": 0.2741652905,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:530995133",
+  "nom": "BRASSERIE LA LIE",
+  "communes": [
+   "SAINT-REMY"
+  ],
+  "departement": "14",
+  "adresses": [
+   "ZONE INDUSTRIELLE DE SAINT REMY 400 RUE DE L'ORNE 14570 SAINT-REMY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "530995133",
+  "sirets": [
+   "53099513300028"
+  ],
+  "osm": [
+   "node/6239953103"
+  ],
+  "lat": 48.940590965,
+  "lon": -0.505883041,
+  "site": "https://www.biere-lalie.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891071235",
+  "nom": "LES CHAMPS QUI MOUSSENT",
+  "communes": [
+   "LIVAROT-PAYS-D'AUGE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "LIVAROT 66 RUE MARCEL GAMBIER 14140 LIVAROT-PAYS-D'AUGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891071235",
+  "sirets": [
+   "89107123500016"
+  ],
+  "osm": [],
+  "lat": 49.00533311,
+  "lon": 0.1474336081,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "NORMANDY BEER FACTORY",
+  "communes": [
+   "MOUEN"
+  ],
+  "departement": "14",
+  "adresses": [
+   "LES RVES DE L'ODON 270 RUE DE L'ODON 14790 MOUEN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/11553079827"
+  ],
+  "site": "https://normandybeerfactory.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942838756",
+  "nom": "EURL LA FORT MIGNONNE",
+  "communes": [
+   "FORMIGNY LA BATAILLE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "933 RUE DU CONNETABLE DE RICHEMONT 14710 FORMIGNY LA BATAILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "942838756",
+  "sirets": [
+   "94283875600016"
+  ],
+  "osm": [],
+  "lat": 49.3405688259247,
+  "lon": -0.896844137058273,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898972682",
+  "nom": "KAP'S",
+  "communes": [
+   "HEROUVILLETTE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "3 RUE DU PUITS DE ROME 14850 HEROUVILLETTE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898972682",
+  "sirets": [
+   "89897268200014"
+  ],
+  "osm": [],
+  "lat": 49.208044351,
+  "lon": -0.274357627,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:918592205",
+  "nom": "DAM BIERE",
+  "communes": [
+   "DIVES-SUR-MER"
+  ],
+  "departement": "14",
+  "adresses": [
+   "ZAC DE LA VIGNERIE AVENUE FRANCOIS MITTERRAND 14160 DIVES-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "918592205",
+  "sirets": [
+   "91859220500028"
+  ],
+  "osm": [],
+  "lat": 49.27640864,
+  "lon": -0.097007387,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909992950",
+  "nom": "BRASSERIE VALDAL",
+  "communes": [
+   "VALDALLIERE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "PIERRES HAM LA FERRIERE 14410 VALDALLIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909992950",
+  "sirets": [
+   "90999295000016"
+  ],
+  "osm": [],
+  "lat": 48.870744621,
+  "lon": -0.726424972,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "NOUES DE SIENNE"
+  ],
+  "departement": "14",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "NONANT"
+  ],
+  "departement": "14",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:101991180",
+  "nom": "BRASSERIE PENDRAGON",
+  "communes": [
+   "OUEZY"
+  ],
+  "departement": "14",
+  "adresses": [
+   "10 RUE JULES RAME 14270 OUEZY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "101991180",
+  "sirets": [
+   "10199118000015"
+  ],
+  "osm": [],
+  "lat": 49.0813864082576,
+  "lon": -0.106412064741828,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE DU CHAOS",
+  "communes": [
+   "SAINT-PIERRE-EN-AUGE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "19 RTE ROUTE DU ROBILLARD  BERVILLE L'O 14170 SAINT-PIERRE-EN-AUGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:988579157",
+  "nom": "L'ARCHE DES LICORNES",
+  "communes": [
+   "LES LOGES-SAULCES"
+  ],
+  "departement": "14",
+  "adresses": [
+   "12 ROUTE DE FOURNEAUX 14700 LES LOGES-SAULCES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "988579157",
+  "sirets": [
+   "98857915700013"
+  ],
+  "osm": [],
+  "lat": 48.8610483835219,
+  "lon": -0.294325553304239,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:103208732",
+  "nom": "LA NORROISE",
+  "communes": [
+   "LISIEUX"
+  ],
+  "departement": "14",
+  "adresses": [
+   "610 RUE EDOUARD BRANLY 14100 LISIEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "103208732",
+  "sirets": [
+   "10320873200018"
+  ],
+  "osm": [],
+  "lat": 49.1458133886855,
+  "lon": 0.263008602154376,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:895341881",
+  "nom": "INOHOP",
+  "communes": [
+   "VAUCELLES"
+  ],
+  "departement": "14",
+  "adresses": [
+   "47 AVENUE DE LA DROME 14400 VAUCELLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "895341881",
+  "sirets": [
+   "89534188100020"
+  ],
+  "osm": [],
+  "lat": 49.2831088662684,
+  "lon": -0.725916961244859,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "CAUMONT-SUR-AURE"
+  ],
+  "departement": "14",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914038443",
+  "nom": "L'ESCALE",
+  "communes": [
+   "BOURGUEBUS"
+  ],
+  "departement": "14",
+  "adresses": [
+   "16 BOULEVARD DE L'EUROPE 14540 BOURGUEBUS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914038443",
+  "sirets": [
+   "91403844300026"
+  ],
+  "osm": [],
+  "lat": 49.1223151436778,
+  "lon": -0.308907926241885,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "FRESNEY-LE-PUCEUX"
+  ],
+  "departement": "14",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "MOBSBY'S BRASSERIE ARTISANALE",
+  "communes": [
+   "VIRE NORMANDIE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "SAINT-GERMAIN-DE-TALLEVENDE-LA-LANDE-V 2301 ROUTE DE LA DIADE 14500 VIRE NORMANDIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839643319",
+  "nom": "LA FORT MIGNONNE BRASSERIE",
+  "communes": [
+   "FORMIGNY LA BATAILLE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "FORMIGNY LA FERME DU LAVOIR 14710 FORMIGNY LA BATAILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "839643319",
+  "sirets": [
+   "83964331900016"
+  ],
+  "osm": [
+   "node/9838393124"
+  ],
+  "lat": 49.341026194,
+  "lon": -0.896635192,
+  "site": "https://www.fortmignonne.bio",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878582360",
+  "nom": "BRASSERIE LA VOIE LACTEE",
+  "communes": [
+   "LIVAROT-PAYS-D'AUGE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "NOTRE DAME DE COURSON 3 ROUTE DES MOUTIERS-HUBERT 14140 LIVAROT-PAYS-D'AUGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878582360",
+  "sirets": [
+   "87858236000029"
+  ],
+  "osm": [],
+  "lat": 48.987871097,
+  "lon": 0.2617161411,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893381558",
+  "nom": "TRIP-HOP",
+  "communes": [
+   "LISIEUX"
+  ],
+  "departement": "14",
+  "adresses": [
+   "13 QUAI DES REMPARTS 14100 LISIEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893381558",
+  "sirets": [
+   "89338155800012"
+  ],
+  "osm": [],
+  "lat": 49.1459029126202,
+  "lon": 0.221775629314926,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": "BRASSERIE DU LAIZON",
+  "communes": [
+   "BONS-TASSILLY"
+  ],
+  "departement": "14",
+  "adresses": [
+   "26 RUE DU 16 AOUT 1944 14420 BONS-TASSILLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835159021",
+  "nom": "THE BREWING COMPANY",
+  "communes": [
+   "SAINT-ANDRE-SUR-ORNE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "ZAC PORTE SUISSE NORMANDE ALLEE DE CINDAIS 14320 SAINT-ANDRE-SUR-ORNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "835159021",
+  "sirets": [
+   "83515902100020"
+  ],
+  "osm": [],
+  "lat": 49.126958197,
+  "lon": -0.377138146,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953139193",
+  "nom": "BEEROUETTE",
+  "communes": [
+   "BRETTEVILLE-SUR-ODON"
+  ],
+  "departement": "14",
+  "adresses": [
+   "ACTIVA PARK KOENIG -2 89 RUE ROLAND GARROS 14760 BRETTEVILLE-SUR-ODON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953139193",
+  "sirets": [
+   "95313919300015"
+  ],
+  "osm": [],
+  "lat": 49.1767747320615,
+  "lon": -0.438638794277092,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:792944688",
+  "nom": "BRASSERIE DE L'ODON",
+  "communes": [
+   "LES MONTS D'AUNAY"
+  ],
+  "departement": "14",
+  "adresses": [
+   "AUNAY SUR ODON 31 B RUE DE VIRE 14260 LES MONTS D'AUNAY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "792944688",
+  "sirets": [
+   "79294468800029"
+  ],
+  "osm": [
+   "node/10350280045"
+  ],
+  "lat": 49.016007101,
+  "lon": -0.637128649,
+  "site": "https://www.brasserie-odon.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:807383724",
+  "nom": "BRASSERIE DES 9 MONDES",
+  "communes": [
+   "RANVILLE"
+  ],
+  "departement": "14",
+  "adresses": [
+   "ZAC PARC D'ACTIVITES DES CAPUCINES LES LONGUES DELLES 14860 RANVILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "807383724",
+  "sirets": [
+   "80738372400018"
+  ],
+  "osm": [
+   "node/6055961590"
+  ],
+  "lat": 49.239824405,
+  "lon": -0.254958422,
+  "site": "https://www.brasseriedes9mondes.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10017827471",
+  "nom": "Brasserie Baya",
+  "communes": [
+   "Vaucelles"
+  ],
+  "departement": "14",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10017827471"
+  ],
+  "lat": 49.28299,
+  "lon": -0.72583,
+  "site": "https://www.brasseriebaya.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10711685040",
+  "nom": "Microbrasserie Coupe Gorge",
+  "communes": [
+   "Saint-Laurent-de-Condel"
+  ],
+  "departement": "14",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10711685040"
+  ],
+  "lat": 49.04234,
+  "lon": -0.41355,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11286480742",
+  "nom": "Brasserie JJAP",
+  "communes": [
+   "Mondeville"
+  ],
+  "departement": "14",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11286480742"
+  ],
+  "lat": 49.17698,
+  "lon": -0.33248,
+  "site": "https://www.les2terres.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13176942306",
+  "nom": "Paillette",
+  "communes": [
+   "Saint-Arnoult"
+  ],
+  "departement": "14",
+  "adresses": [
+   "10 Avenue Ox and Bucks, 14800 Saint-Arnoult"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13176942306"
+  ],
+  "lat": 49.33981,
+  "lon": 0.10096,
+  "site": "https://bierepaillette.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13195282914",
+  "nom": "Beerouette",
+  "communes": [
+   "Carpiquet"
+  ],
+  "departement": "14",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13195282914"
+  ],
+  "lat": 49.17692,
+  "lon": -0.43905,
+  "statut": "ambigu",
+  "fiche": "BEEROUETTE"
+ },
+ {
+  "cle": "node/8432359108",
+  "nom": "Brasserie Sagesse",
+  "communes": [
+   "Le Breuil-en-Auge"
+  ],
+  "departement": "14",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8432359108"
+  ],
+  "lat": 49.22724,
+  "lon": 0.22528,
+  "statut": "nouveau"
+ }
+]

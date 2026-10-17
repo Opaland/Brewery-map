@@ -2393,3 +2393,61 @@ en fusionne 3 :
 - les Travailleurs de la Mer, par l'adresse.
 
 Les 2 autres de S244 étaient des rapprochements de commune sans même nom.
+
+## S247 (1/2) — Pilote Manche : un lot de 9 fiches pour Cédric *(17/10)*
+
+Story d'abord (`docs/stories/S247.md`). Les 26 candidats de la Manche ont
+été lus par 5 agents `verificateur-de-brasserie`. Les positions viennent du
+géocodeur de l'IGN, au numéro de la voie seulement : une rue sans numéro
+donne le centre de la commune.
+
+Le lot `curation/dep-50.{json,md}` (empreinte dans le `.md`) compte
+9 fiches nouvelles :
+- 5 avec une catégorie lue :
+  - Les Travailleurs de la Mer et L'Écume des Falaises, en 1 ;
+  - Captain James, en 2 ;
+  - Léopard et La Moussette, en 1, confiance faible ;
+- 4 « À confirmer » : Fée d'Orge (Bréhal, près de Coutances), Bifrost,
+  Cotentine et Pinte de Saire.
+
+17 candidats ne sont pas proposés, chacun avec sa raison. Aucune page
+Untappd n'a été vérifiée.
+
+**Trouvé en route (§1bis)** : `controler` ne lisait que les propositions et
+répondait « sans écart » sur un lot d'ajouts qu'il n'avait pas ouvert.
+`extraitSurLaPage` a été écrite test d'abord, et ses deux mutants sont
+tués. `controler` rouvre maintenant chaque source d'une fiche nouvelle et y
+cherche l'extrait. Trois extraits n'étaient pas mot pour mot sur leur page :
+ils ont été remplacés par le texte lu. Résultat sur le lot : 9 sur 9.
+
+Un agent avait proposé la catégorie 3 (« Pas de vente ») pour une brasserie
+dont l'extrait dit « dégustation et vente » ; la catégorie 1 a été retenue.
+
+## S247 (2/2) — Calvados : un lot de 10 fiches *(17/10)*
+
+L'outil sort 34 candidats, sans aucune fuite de personne (vérifié). Les
+agents ont lu ces candidats avec un outil qui résume les pages : ils
+l'ont tous dit. Leurs extraits ont donc été relus dans le texte même des
+pages avant d'entrer dans le lot.
+
+`curation/dep-14.{json,md}` compte 10 fiches nouvelles :
+- Trip-Hop (Lisieux) en catégorie 1 ;
+- en catégorie 2 : La Lie, l'Odon, Baya (confiance faible) et Sagesse
+  (confiance faible) ;
+- 5 « À confirmer ».
+
+24 candidats ne sont pas proposés, chacun avec sa raison. Parmi eux, deux
+pages ne se lisent pas sans JavaScript (Valdal, Fort Mignonne). Le
+contrôle donne 10 sur 10.
+
+**Bilan du pilote** :
+- 60 candidats ;
+- 19 fiches proposées ;
+- 0 page Untappd vérifiable (la recherche d'Untappd demande un compte) ;
+- les bières dont le style est lu, sur 6 fiches.
+
+Le circuit tient. Pour la suite (S248 et après), deux enseignements :
+- l'outil de lecture des agents résume les pages, d'où la relecture
+  mécanique de chaque extrait ;
+- les sites en JavaScript restent hors de portée.
+

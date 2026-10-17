@@ -1,0 +1,47 @@
+{
+ "candidat": "sirene:893381558",
+ "ajout": {
+  "fiche": {
+   "n": "Trip-Hop",
+   "c": "Lisieux",
+   "d": "14",
+   "lat": 49.14588,
+   "lon": 0.22179,
+   "km": 514.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie avec bar (brewpub) et boutique, d'après son site.",
+   "addr": "13 quai des Remparts, 14100 Lisieux",
+   "src": "https://trip-hop.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "autre",
+     "libelle": "Rousse"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://trip-hop.fr",
+   "https://data.geopf.fr/geocodage/search?q=13+quai+des+Remparts%2C+14100+Lisieux&limit=1"
+  ],
+  "extrait": "Notre bar et notre boutique Le Brewpub TRIP-HOP La Boutique TRIP-HOP",
+  "choix": "Bières constantes lues sur le site : La Paz (Blonde Pale Ale), Palawan (American IPA), Etna (Blonde Triple), Route 138 (Rousse), Wanaka (Blanche Américaine), Wicklow Mountains (Black IPA). Horaires et téléphone (09 51 82 62 34) donnés par l'office de tourisme : non repris. Adresse : registre et office de tourisme."
+ }
+}

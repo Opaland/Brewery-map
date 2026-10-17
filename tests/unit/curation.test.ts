@@ -8,6 +8,7 @@ import {
   lireLot,
   lotSuivant,
   numeroSurLaPage,
+  extraitSurLaPage,
   revuesDesFichiers,
   type Lot,
 } from '../../src/core/curation'
@@ -491,3 +492,19 @@ describe('les ajouts de fiches (S14)', () => {
     expect(r.ok && [...r.revues].sort()).toEqual([NOM])
   })
 })
+
+describe('extraitSurLaPage (S247)', () => {
+  // Une fiche nouvelle n'avait aucun contrôle : « controler » ne lisait que
+  // les propositions et répondait « sans écart » sur un lot d'ajouts.
+  it('trouve l’extrait malgré les balises, les entités, les accents et les espaces', () => {
+    const page = '<p>D&eacute;gustation au   bar, <b>vente</b> &agrave; emporter</p>'
+    expect(extraitSurLaPage('Dégustation au bar, vente à emporter', page)).toBe(true)
+  })
+  it('ne le trouve pas s’il n’y est pas', () => {
+    expect(extraitSurLaPage('Dégustation au bar', '<p>Vente à emporter</p>')).toBe(false)
+  })
+  it('un extrait vide ne prouve rien', () => {
+    expect(extraitSurLaPage('  ', '<p>tout</p>')).toBe(false)
+  })
+})
+
