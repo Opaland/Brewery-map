@@ -1,0 +1,1267 @@
+[
+ {
+  "cle": "sirene:332210582",
+  "nom": "COREFF",
+  "communes": [
+   "LIFFRE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "ZAC QUARTIER DE SEVAILLES 5 RUE ELINOR OSTROM 35340 LIFFRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "332210582",
+  "sirets": [
+   "33221058200067"
+  ],
+  "osm": [],
+  "lat": 48.224042574126,
+  "lon": -1.49333329476111,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:928469717",
+  "nom": "BRASSERIE LA TRINK",
+  "communes": [
+   "AMANLIS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "LIEU DIT LA TRINCANDIERE 35150 AMANLIS",
+   "LIEU DIT TOUCHE RONDE 35150 AMANLIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928469717",
+  "sirets": [
+   "92846971700013",
+   "92846971700021"
+  ],
+  "osm": [],
+  "lat": 48.003814558,
+  "lon": -1.510041603,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909420929",
+  "nom": "BRASSERIE BELTANE",
+  "communes": [
+   "RENNES"
+  ],
+  "departement": "35",
+  "adresses": [
+   "13 AV DU 41EME REGIMENT D'INFANTERIE 35000 RENNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909420929",
+  "sirets": [
+   "90942092900012"
+  ],
+  "osm": [],
+  "lat": 48.118110972,
+  "lon": -1.687144934,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:807949383",
+  "nom": "BRASSERIE BOSCO SARL",
+  "communes": [
+   "SAINT-MELOIR-DES-ONDES"
+  ],
+  "departement": "35",
+  "adresses": [
+   "LD BELLEVUE 35350 SAINT-MELOIR-DES-ONDES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "807949383",
+  "sirets": [
+   "80794938300028"
+  ],
+  "osm": [],
+  "lat": 48.629910502,
+  "lon": -1.914467082,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "GOVEN"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:823921762",
+  "nom": "BRASSERIE ATHANOR",
+  "communes": [
+   "ARGENTRE-DU-PLESSIS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "10 RUE GUSTAVE EIFFEL 35370 ARGENTRE-DU-PLESSIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823921762",
+  "sirets": [
+   "82392176200022"
+  ],
+  "osm": [],
+  "lat": 48.0533190230049,
+  "lon": -1.16686796756424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "CHANGER D'AIR PARAPENTE",
+  "communes": [
+   "PIPRIAC"
+  ],
+  "departement": "35",
+  "adresses": [
+   "8 LE MENEU 35550 PIPRIAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832074827",
+  "nom": "BRASSERIE DE LA BIZHHH",
+  "communes": [
+   "LE RHEU"
+  ],
+  "departement": "35",
+  "adresses": [
+   "LES LANDES D APIGNE 54 RUE NATIONALE 35650 LE RHEU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832074827",
+  "sirets": [
+   "83207482700029"
+  ],
+  "osm": [
+   "node/6495267125"
+  ],
+  "lat": 48.094928796,
+  "lon": -1.771298558,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833262561",
+  "nom": "BRASSERIE DU VIEUX SINGE",
+  "communes": [
+   "SAINT-JACQUES-DE-LA-LANDE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "RUE JANIG CORLAY 35136 SAINT-JACQUES-DE-LA-LANDE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "833262561",
+  "sirets": [
+   "83326256100016"
+  ],
+  "osm": [
+   "node/6110669743"
+  ],
+  "lat": 48.066603297,
+  "lon": -1.698989013,
+  "site": "https://www.vieuxsinge.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921634523",
+  "nom": "LA RENNEIZH",
+  "communes": [
+   "RENNES"
+  ],
+  "departement": "35",
+  "adresses": [
+   "29 RUE PIERRE LEFEUVRE 35200 RENNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921634523",
+  "sirets": [
+   "92163452300036"
+  ],
+  "osm": [],
+  "lat": 48.090782059,
+  "lon": -1.689655933,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921977443",
+  "nom": "BRASSERIE SMASH",
+  "communes": [
+   "RENNES"
+  ],
+  "departement": "35",
+  "adresses": [
+   "K 4 B RUE DU LT COL DUBOIS 35000 RENNES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "921977443",
+  "sirets": [
+   "92197744300024"
+  ],
+  "osm": [
+   "node/12941704513"
+  ],
+  "lat": 48.107199409,
+  "lon": -1.732679238,
+  "site": "https://smash.bzh",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911911782",
+  "nom": "YAMAS",
+  "communes": [
+   "BREAL-SOUS-MONTFORT"
+  ],
+  "departement": "35",
+  "adresses": [
+   "460 RUE DU PRE MIEL 35310 BREAL-SOUS-MONTFORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911911782",
+  "sirets": [
+   "91191178200025"
+  ],
+  "osm": [],
+  "lat": 48.052693957,
+  "lon": -1.882746971,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "NOUVOITOU"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "NOUVOITOU"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:984403014",
+  "nom": "BRASSERIE FUSION",
+  "communes": [
+   "BOURGBARRE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "6 RUE DES PLACIS 35230 BOURGBARRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984403014",
+  "sirets": [
+   "98440301400017"
+  ],
+  "osm": [],
+  "lat": 48.000559258,
+  "lon": -1.601560472,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:984566414",
+  "nom": "LA DINARDAISE BRASSERIE",
+  "communes": [
+   "DINARD"
+  ],
+  "departement": "35",
+  "adresses": [
+   "1 RUE DES FRERES BOUSSAC 35800 DINARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984566414",
+  "sirets": [
+   "98456641400012"
+  ],
+  "osm": [],
+  "lat": 48.620720026409,
+  "lon": -2.07087494812158,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912994860",
+  "nom": "FENN",
+  "communes": [
+   "RENNES"
+  ],
+  "departement": "35",
+  "adresses": [
+   "24 RUE FRANCIS MARIOTTE 35200 RENNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912994860",
+  "sirets": [
+   "91299486000019"
+  ],
+  "osm": [],
+  "lat": 48.089399568,
+  "lon": -1.666052805,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "FOUGERES"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:912126422",
+  "nom": "DRAENEK",
+  "communes": [
+   "BAIN-DE-BRETAGNE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "PARC D'ACTIVITES INTERCOMMUNAL DE CHAT 6 RUE DE LA SEINE 35470 BAIN-DE-BRETAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912126422",
+  "sirets": [
+   "91212642200027"
+  ],
+  "osm": [],
+  "lat": 47.8514698344016,
+  "lon": -1.69031774841896,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908525207",
+  "nom": "COMPOZ",
+  "communes": [
+   "LA MEZIERE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "PARK EMERAUDE RTE DE MELESSE 35520 LA MEZIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908525207",
+  "sirets": [
+   "90852520700027"
+  ],
+  "osm": [],
+  "lat": 48.219903742,
+  "lon": -1.7456802,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929642973",
+  "nom": "LA CHAPELLERIE",
+  "communes": [
+   "ESSE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "LA TOUCHE PHILIPPE 35150 ESSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929642973",
+  "sirets": [
+   "92964297300010"
+  ],
+  "osm": [],
+  "lat": 47.947642306,
+  "lon": -1.47037682,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914505649",
+  "nom": "MINIMUM",
+  "communes": [
+   "MONTREUIL-SUR-ILLE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "20 AVENUE ALEXIS REY 35440 MONTREUIL-SUR-ILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "914505649",
+  "sirets": [
+   "91450564900022"
+  ],
+  "osm": [
+   "way/49644207"
+  ],
+  "lat": 48.307575646,
+  "lon": -1.670652063,
+  "site": "https://brasserieminimum.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830676615",
+  "nom": "EURL GUYADER",
+  "communes": [
+   "PLELAN-LE-GRAND"
+  ],
+  "departement": "35",
+  "adresses": [
+   "PARC D ACTIVITES DES NOES 2 RUE DES NOES 35380 PLELAN-LE-GRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830676615",
+  "sirets": [
+   "83067661500016"
+  ],
+  "osm": [],
+  "lat": 48.001487925,
+  "lon": -2.085675415,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843752312",
+  "nom": "LE BRASSEUR BAVAROIS",
+  "communes": [
+   "PLEUGUENEUC"
+  ],
+  "departement": "35",
+  "adresses": [
+   "5 LA COUDRAIE 35720 PLEUGUENEUC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843752312",
+  "sirets": [
+   "84375231200010"
+  ],
+  "osm": [],
+  "lat": 48.425280066,
+  "lon": -1.913324466,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850064957",
+  "nom": "CHAT-MALO",
+  "communes": [
+   "LA RICHARDAIS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "20 RUE DES ARTISANS 35780 LA RICHARDAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850064957",
+  "sirets": [
+   "85006495700028"
+  ],
+  "osm": [],
+  "lat": 48.610176782361,
+  "lon": -2.05510459894014,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "MONTREUIL-SUR-ILLE"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:878204346",
+  "nom": "BRASSERIE TORR PENN",
+  "communes": [
+   "ERCE-PRES-LIFFRE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "2 LE PLESSIS 35340 ERCE-PRES-LIFFRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878204346",
+  "sirets": [
+   "87820434600018"
+  ],
+  "osm": [],
+  "lat": 48.252229957,
+  "lon": -1.532337994,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:539513101",
+  "nom": "BRASSERIE SAINTE COLOMBE",
+  "communes": [
+   "CORPS-NUDS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "ZAC DES GRANDS SILLONS 22 BD FRANCOIS MITTERAND 35150 CORPS-NUDS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "539513101",
+  "sirets": [
+   "53951310100029"
+  ],
+  "osm": [],
+  "lat": 47.986643892,
+  "lon": -1.581086823,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE DE LA PAUMELL",
+  "communes": [
+   "VAL-COUESNON"
+  ],
+  "departement": "35",
+  "adresses": [
+   "GUEPILLON 35460 VAL-COUESNON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813329406",
+  "nom": "BRASSERIE D'EMERAUDE",
+  "communes": [
+   "LA RICHARDAIS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "20 RUE DES ARTISANS 35780 LA RICHARDAIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "813329406",
+  "sirets": [
+   "81332940600025"
+  ],
+  "osm": [
+   "way/778951345"
+  ],
+  "lat": 48.610176782361,
+  "lon": -2.05510459894014,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "SAINT-SAUVEUR-DES-LANDES"
+  ],
+  "departement": "35",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:824083422",
+  "nom": "OLD HOP",
+  "communes": [
+   "BALAZE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "1 RUE DE L'ORGERIE 35500 BALAZE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824083422",
+  "sirets": [
+   "82408342200033"
+  ],
+  "osm": [],
+  "lat": 48.163671608,
+  "lon": -1.192465698,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981674021",
+  "nom": "BRASSERIE LOUARN",
+  "communes": [
+   "MONTFORT-SUR-MEU"
+  ],
+  "departement": "35",
+  "adresses": [
+   "ZA DES TARDIVIERES 2 IMPASSE DE L'EMOUSSOIR 35160 MONTFORT-SUR-MEU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "981674021",
+  "sirets": [
+   "98167402100010"
+  ],
+  "osm": [
+   "node/11933316105"
+  ],
+  "lat": 48.137742323,
+  "lon": -1.941327314,
+  "site": "https://louarn.bzh",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852707215",
+  "nom": "LA BICLOUNERIE",
+  "communes": [
+   "NOYAL-SUR-VILAINE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "LA TOUCHE AU VAL 35530 NOYAL-SUR-VILAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852707215",
+  "sirets": [
+   "85270721500012"
+  ],
+  "osm": [],
+  "lat": 48.121794621,
+  "lon": -1.53998584,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812510691",
+  "nom": "BRASSERIE SKUMENN",
+  "communes": [
+   "CESSON-SEVIGNE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "ECOPOLE SUD EST 8 IMPASSE DES CHARMILLES 35510 CESSON-SEVIGNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "812510691",
+  "sirets": [
+   "81251069100023"
+  ],
+  "osm": [
+   "node/9349452771"
+  ],
+  "lat": 48.1054273478431,
+  "lon": -1.62362960152813,
+  "site": "https://www.skumenn.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981794480",
+  "nom": "CHOQUE MICROBRASSERIE",
+  "communes": [
+   "GUICHEN"
+  ],
+  "departement": "35",
+  "adresses": [
+   "74 RUE DE REDON 35580 GUICHEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981794480",
+  "sirets": [
+   "98179448000021"
+  ],
+  "osm": [],
+  "lat": 48.0016840076003,
+  "lon": -1.77704385561083,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898306642",
+  "nom": "BRASSERIE SAUVAGE",
+  "communes": [
+   "SAINT-JACQUES-DE-LA-LANDE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "ZAC AIRLANDE 3 RUE JACQUELINE AURIOL 35136 SAINT-JACQUES-DE-LA-LANDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898306642",
+  "sirets": [
+   "89830664200015"
+  ],
+  "osm": [],
+  "lat": 48.0745166690026,
+  "lon": -1.71801579676488,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849988530",
+  "nom": "BRETAGNE BREWSHOP",
+  "communes": [
+   "BAIN-DE-BRETAGNE"
+  ],
+  "departement": "35",
+  "adresses": [
+   "3 COGNEUF 35470 BAIN-DE-BRETAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849988530",
+  "sirets": [
+   "84998853000036"
+  ],
+  "osm": [],
+  "lat": 47.8286595858415,
+  "lon": -1.69143160111912,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:993290840",
+  "nom": "CM&CO",
+  "communes": [
+   "LA RICHARDAIS"
+  ],
+  "departement": "35",
+  "adresses": [
+   "20 RUE DES ARTISANS 35780 LA RICHARDAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "993290840",
+  "sirets": [
+   "99329084000012"
+  ],
+  "osm": [],
+  "lat": 48.610176782361,
+  "lon": -2.05510459894014,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853719268",
+  "nom": "TRISK'ALE",
+  "communes": [
+   "PLEUMELEUC"
+  ],
+  "departement": "35",
+  "adresses": [
+   "1 RUE DU BAS HOUET 35137 PLEUMELEUC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853719268",
+  "sirets": [
+   "85371926800015"
+  ],
+  "osm": [],
+  "lat": 48.179464865,
+  "lon": -1.920744486,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10147152397",
+  "nom": "Brasserie Perraut",
+  "communes": [
+   "Martigné-Ferchaud"
+  ],
+  "departement": "35",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10147152397"
+  ],
+  "lat": 47.82251,
+  "lon": -1.32232,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11146069022",
+  "nom": "Le Brasseur Bavarois",
+  "communes": [
+   "Plesder"
+  ],
+  "departement": "35",
+  "adresses": [
+   "5 La Coudraie"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11146069022"
+  ],
+  "lat": 48.4254,
+  "lon": -1.91303,
+  "site": "https://lebrasseurbavarois.fr/",
+  "statut": "ambigu",
+  "fiche": "LE BRASSEUR BAVAROIS"
+ },
+ {
+  "cle": "node/13474138001",
+  "nom": "Choque microbrasserie",
+  "communes": [
+   "Bruz"
+  ],
+  "departement": "35",
+  "adresses": [
+   "74 Rue de Redon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13474138001"
+  ],
+  "lat": 48.00173,
+  "lon": -1.77727,
+  "site": "https://www.choquemicrobrasserie.fr",
+  "statut": "ambigu",
+  "fiche": "CHOQUE MICROBRASSERIE"
+ },
+ {
+  "cle": "node/2423228720",
+  "nom": "Les Brassins de Saint-Malo",
+  "communes": [
+   "Saint-Malo"
+  ],
+  "departement": "35",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2423228720"
+  ],
+  "lat": 48.65101,
+  "lon": -2.02459,
+  "site": "http://www.lesbrassinsdesaintmalo.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4225477240",
+  "nom": "Brasserie Louarn",
+  "communes": [
+   "Rennes"
+  ],
+  "departement": "35",
+  "adresses": [
+   "9 Allée Claude Debussy, 35000 Rennes"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4225477240"
+  ],
+  "lat": 48.10071,
+  "lon": -1.64855,
+  "site": "https://www.brasserielouarn.com",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LOUARN"
+ },
+ {
+  "cle": "node/6495311382",
+  "nom": "Brasserie de l'Ombre",
+  "communes": [
+   "Plélan-le-Grand"
+  ],
+  "departement": "35",
+  "adresses": [
+   "2 ter Les Noës, 35380 Plélan-le-Grand"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6495311382"
+  ],
+  "lat": 48.00171,
+  "lon": -2.08588,
+  "site": "http://www.brasseriedelombre.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6776945082",
+  "nom": "Le \"🍸\" galant",
+  "communes": [
+   "Liffré"
+  ],
+  "departement": "35",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6776945082"
+  ],
+  "lat": 48.21096,
+  "lon": -1.51494,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6813936276",
+  "nom": "Brasserie de la Paumell",
+  "communes": [
+   "Saint-Ouen-la-Rouërie"
+  ],
+  "departement": "35",
+  "adresses": [
+   "Le Guépillon, 35460 Saint-Ouen-la-Rouërie"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6813936276"
+  ],
+  "lat": 48.45579,
+  "lon": -1.45535,
+  "site": "https://www.brasseriedelapaumell.bzh/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE LA PAUMELL"
+ },
+ {
+  "cle": "node/6814774338",
+  "nom": "Brasserie Brittany's",
+  "communes": [
+   "Montreuil-sur-Ille"
+  ],
+  "departement": "35",
+  "adresses": [
+   "29 Lotissement les Hauts de l'Ille, 35440 Montreuil-sur-Ille"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6814774338"
+  ],
+  "lat": 48.30346,
+  "lon": -1.66607,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6820098489",
+  "nom": "Brasserie l'Embardée",
+  "communes": [
+   "Fougères"
+  ],
+  "departement": "35",
+  "adresses": [
+   "3 Rue Foskéraly, 35300 Fougères"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6820098489"
+  ],
+  "lat": 48.35354,
+  "lon": -1.20719,
+  "site": "https://www.brasserielembardee.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7073876519",
+  "nom": "La Détente",
+  "communes": [
+   "Vezin-le-Coquet"
+  ],
+  "departement": "35",
+  "adresses": [
+   "69 Rue du Manoir de Servigné, 35132 Vezin-le-Coquet"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7073876519"
+  ],
+  "lat": 48.10417,
+  "lon": -1.73703,
+  "site": "https://la-detente.business.site/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7491942102",
+  "nom": "Tiens bon la Barre",
+  "communes": [
+   "Longaulnay"
+  ],
+  "departement": "35",
+  "adresses": [
+   "44 La Barre, 35190 Longaulnay"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7491942102"
+  ],
+  "lat": 48.30061,
+  "lon": -1.93892,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7491942730",
+  "nom": "Brasserie Plouc",
+  "communes": [
+   "Plerguer"
+  ],
+  "departement": "35",
+  "adresses": [
+   "La Ville Goriou, 35540 Plerguer"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7491942730"
+  ],
+  "lat": 48.53915,
+  "lon": -1.8455,
+  "site": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/872324499",
+  "nom": "Brasserie Sainte-Colombe",
+  "communes": [
+   "Sainte-Colombe"
+  ],
+  "departement": "35",
+  "adresses": [
+   "La Landelle, 35134 Sainte-Colombe"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/872324499"
+  ],
+  "lat": 47.90787,
+  "lon": -1.46545,
+  "site": "https://www.brasserie-sainte-colombe.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE SAINTE COLOMBE"
+ },
+ {
+  "cle": "way/1000859372",
+  "nom": "Drao",
+  "communes": [
+   "Melesse"
+  ],
+  "departement": "35",
+  "adresses": [
+   "46 bis, 35520 Melesse"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1000859372"
+  ],
+  "lat": 48.24407,
+  "lon": -1.67078,
+  "site": "https://brasseriedrao.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/135589728",
+  "nom": "La brasserie des Marais",
+  "communes": [
+   "Bains-sur-Oust"
+  ],
+  "departement": "35",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/135589728"
+  ],
+  "lat": 47.72805,
+  "lon": -2.03323,
+  "site": "https://labrasseriedesmarais.wordpress.com/",
+  "statut": "nouveau"
+ }
+]
