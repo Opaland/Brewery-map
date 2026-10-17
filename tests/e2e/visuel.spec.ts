@@ -18,9 +18,19 @@ const INSTANT = new Date('2026-10-17T15:00:00+02:00')
 
 // Comparaison exacte : la tolérance par défaut de Playwright (0,2 d'écart de
 // couleur par pixel) laissait passer une couleur de texte changée
-// (#5a6b5d → #5a6b6d, vu vert). Les références venant de la même machine
+// (`--encre-douce` #5f5447 → #5f5457 : 5 écrans verts ; en exact, 4 rouges, la
+// carte ne l'emploie pas). Les références venant de la même machine
 // que la comparaison, aucune tolérance n'est nécessaire (S240, §2).
-const EXACT = { threshold: 0, maxDiffPixels: 0 }
+
+/**
+ * La barre collée en bas (compte et bouton « Carte ») est peinte par-dessus
+ * la page qui défile, et le bord droit du bouton varie de 13 à 15 pixels
+ * d'une exécution à l'autre sur la même machine (revue adverse S240 : 2
+ * rouges sur 8 ; couper le flou n'y changeait rien, 8 rouges sur 10). Elle
+ * est masquée dans les écrans pleins ; son texte et sa place sont tenus par
+ * les e2e (uiux.spec.ts, raccourcis.spec.ts).
+ */
+const exact = (page: Page) => ({ threshold: 0, maxDiffPixels: 0, mask: [page.locator('.barre-compte')] })
 
 async function ouvrir(page: Page): Promise<void> {
   await page.clock.setFixedTime(INSTANT)
@@ -33,7 +43,7 @@ async function ouvrir(page: Page): Promise<void> {
 
 test('la liste', async ({ page }) => {
   await ouvrir(page)
-  await expect(page).toHaveScreenshot('liste.png', EXACT)
+  await expect(page).toHaveScreenshot('liste.png', exact(page))
 })
 
 test('une fiche ouverte', async ({ page }) => {
@@ -46,7 +56,7 @@ test('une fiche ouverte', async ({ page }) => {
   await ligneCaribrew.evaluate((e) => {
     e.scrollIntoView({ block: 'start' })
   })
-  await expect(page).toHaveScreenshot('fiche.png', EXACT)
+  await expect(page).toHaveScreenshot('fiche.png', exact(page))
 })
 
 test('la carte sans tuiles', async ({ page }) => {
@@ -54,7 +64,7 @@ test('la carte sans tuiles', async ({ page }) => {
   await versLaCarte(page)
   const carte = page.getByTestId('carte')
   await expect(carte.locator('.maplibregl-marker').first()).toBeVisible()
-  await expect(carte).toHaveScreenshot('carte.png', EXACT)
+  await expect(carte).toHaveScreenshot('carte.png', exact(page))
 })
 
 test('le carnet', async ({ page }) => {
@@ -64,11 +74,11 @@ test('le carnet', async ({ page }) => {
   await page.getByTestId('bouton-favori').click()
   await ouvrirFiltres(page)
   await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (1)')
-  await expect(page.getByTestId('mes-favoris')).toHaveScreenshot('carnet.png', EXACT)
+  await expect(page.getByTestId('mes-favoris')).toHaveScreenshot('carnet.png', exact(page))
 })
 
 test('la liste à 200 % de texte', async ({ page }) => {
   await ouvrir(page)
   await page.addStyleTag({ content: 'html { font-size: 200% !important; }' })
-  await expect(page).toHaveScreenshot('liste-200.png', EXACT)
+  await expect(page).toHaveScreenshot('liste-200.png', exact(page))
 })

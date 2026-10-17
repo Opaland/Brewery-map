@@ -119,7 +119,9 @@ jobs:
         run: npx playwright install --with-deps chromium
         timeout-minutes: 10
       - name: Écrans figés
-        run: npx playwright test --reporter=list
+        # Sans nouvel essai : un écran instable doit se voir, pas passer en
+        # « flaky » vert (revue adverse S240).
+        run: npx playwright test --reporter=list --retries=0
         timeout-minutes: 10
         env:
           CI: 'true'

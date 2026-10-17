@@ -2292,10 +2292,16 @@ liste à 200 %. Ils sont figés : heure posée, thème clair, animations
 coupées, aucune tuile. La spec ne tourne qu'avec `PW_VISUEL=1`, et la porte
 ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
 
-- Deux exécutions de suite sont vertes.
-- **Vu vert à tort d'abord** : avec la tolérance par défaut de Playwright,
-  une couleur de texte changée (#5a6b5d → #5a6b6d) passait. La comparaison
-  est maintenant exacte, et le même changement fait échouer la liste.
+- **Instable d'abord** (revue adverse) : la barre collée en bas varie de
+  13 à 15 pixels d'une exécution à l'autre sur la même machine (2 rouges sur
+  8). Couper le flou n'y changeait rien (8 rouges sur 10). Elle est masquée
+  dans les captures (ses textes sont tenus par les e2e) : 12 exécutions
+  vertes sur 12.
+- **Le premier « vu rouge » était faux** : la couleur changée
+  (`--encre-douce`, ligne 25) est redéfinie plus bas par le design system
+  v2, et le rouge venait de l'instabilité. Refait sur la couleur appliquée
+  (#5f5447 → #5f5457) : avec la tolérance par défaut de Playwright, 5 verts
+  ; en comparaison exacte, 4 rouges (la carte n'emploie pas cette couleur).
 - **Première trouvaille** : sans tuiles, l'attribution OSM recouvre la fin
   du message de repli (BACKLOG).
 - La capture d'une fiche seule la faisait passer sous le compte collant.
