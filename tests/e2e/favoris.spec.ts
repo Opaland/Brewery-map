@@ -1,5 +1,5 @@
 import { expect, test, type Page } from '@playwright/test'
-import { choisirCommune, sansTuiles } from './reseau'
+import { choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
 
 /** Ce que l'application a gardé dans IndexedDB, lu tel quel. */
 const lireGarde = (page: Page) =>
@@ -50,6 +50,7 @@ test.describe('les favoris (Marie)', () => {
     await page.getByTestId('bouton-favori').click()
     await expect(page.getByTestId('bouton-favori')).toHaveText('★ Retirer de mes favoris')
     await expect(ligne(page, n).getByTestId('marque-favori')).toHaveCount(1)
+    await ouvrirFiltres(page)
     await page.getByTestId('favoris-seulement').check()
     await expect(page.locator('button.ligne')).toHaveCount(1)
     await expect(page.getByTestId('compte')).toContainText('Seulement vos favoris : 1')
@@ -70,6 +71,7 @@ test.describe('les favoris (Marie)', () => {
     const nom = (await loin.getAttribute('data-nom')) ?? ''
     await loin.click()
     await page.getByTestId('bouton-favori').click()
+    await ouvrirFiltres(page)
     await page.getByTestId('favoris-seulement').check()
     await rayon.fill('5')
     await expect(page.getByTestId('favoris-caches')).toContainText(nom)
@@ -154,10 +156,13 @@ test.describe('les réglages gardés', () => {
     await page.getByTestId('bouton-favori').click()
     await attendreGarde(page, { rayonKm: 80 })
     // Replié depuis S24 : on l'ouvre, comme la personne.
+    await ouvrirFiltres(page)
     await page.getByTestId('stockage-details').locator('summary').click()
+    await ouvrirFiltres(page)
     await page.getByTestId('tout-effacer').click()
     // Un toucher seul n'efface rien : il faut confirmer.
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (1)')
+    await ouvrirFiltres(page)
     await page.getByTestId('confirmer-effacer').click()
     await expect(page.getByTestId('compte')).toContainText('30 km de Brignais')
     await expect(page.getByTestId('annonce')).toHaveText(/effacés de cet appareil/)
@@ -228,6 +233,7 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
     await expect(page.getByTestId('favoris-orphelins')).toContainText('Brasserie disparue')
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (0)')
     await expect(page.getByTestId('compte')).toContainText('pas encore de favori')
+    await ouvrirFiltres(page)
     await page.getByTestId('retirer-orphelins').click()
     await expect(page.getByTestId('favoris-orphelins')).toHaveCount(0)
     await attendreGarde(page, { favoris: [] })
@@ -236,6 +242,7 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
 
 test('« seulement mes favoris » sans favori dit comment revoir la liste', async ({ page }) => {
   await page.goto('/')
+  await ouvrirFiltres(page)
   await page.getByTestId('favoris-seulement').check()
   await expect(page.getByTestId('compte')).toContainText('Décochez « Afficher seulement mes favoris »')
 })
@@ -247,6 +254,7 @@ test('retirer un favori en mode « seulement » : le focus va au compte, qui le 
   const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''
   await ligne(page, nom).click()
   await page.getByTestId('bouton-favori').click()
+  await ouvrirFiltres(page)
   await page.getByTestId('favoris-seulement').check()
   await page.getByTestId('bouton-favori').focus()
   await page.keyboard.press('Enter')
@@ -301,8 +309,11 @@ test('deux onglets : « tout effacer » dans l’un n’est pas défait par l’
   const autre = await context.newPage()
   await autre.goto('/')
   await autre.getByTestId('rayon').fill('80')
+  await ouvrirFiltres(page)
   await page.getByTestId('stockage-details').locator('summary').click()
+  await ouvrirFiltres(page)
   await page.getByTestId('tout-effacer').click()
+  await ouvrirFiltres(page)
   await page.getByTestId('confirmer-effacer').click()
   await expect(page.getByTestId('annonce')).toContainText('effacés')
   // L'autre onglet suit : ses réglages reviennent aux défauts, sans réécrire.
@@ -311,4 +322,14 @@ test('deux onglets : « tout effacer » dans l’un n’est pas défait par l’
   await relu.goto('/')
   await expect(relu.getByTestId('rayon')).toHaveValue('30')
   await expect(relu.getByTestId('marque-favori')).toHaveCount(0)
+})
+
+test('un filtre gardé ouvre le repli « Plus de filtres » dès l’arrivée (S29)', async ({ page }) => {
+  await page.goto('/')
+  await ouvrirFiltres(page)
+  await page.getByTestId('categorie-0').uncheck()
+  await attendreGarde(page, { categories: [1, 2, 3] })
+  await page.reload()
+  await expect(page.getByTestId('categorie-0')).toBeVisible()
+  await expect(page.getByTestId('plus-de-filtres-resume')).toContainText('1 filtre actif')
 })

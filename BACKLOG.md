@@ -194,8 +194,8 @@ chacun demande une décision ou une vérification de source.
   points distincts dans le fichier. À vérifier d'où viennent ces points.
 
 - Revue globale S22 — restes :
-  - la liste commence encore à 1,98 écran sur téléphone (Pixel 7, mesuré le
-    16/10) : le bloc de départ et les filtres pourraient se replier ;
+  - ~~la liste commence encore à 1,98 écran sur téléphone~~ : fait en S29
+    (première ligne à 827 px sur Pixel 7) ;
   - la recherche de commune ne marche hors ligne qu'après une première
     recherche en ligne (fichiers gardés à la lecture, pas d'avance) ;
   - rien n'est essayé sur un vrai téléphone.
@@ -213,9 +213,7 @@ chacun demande une décision ou une vérification de source.
     le type de bière.
 
 - S28 — proposé par la revue UI/UX, pas fait :
-  - sur téléphone, la liste avant la carte dans le document, et les filtres
-    (catégories, favoris) repliés : la première ligne est encore à 2,1
-    écrans ;
+  - ~~sur téléphone, la liste avant la carte, filtres repliés~~ : fait en S29 ;
   - mousse animée (SVG) dans l'en-tête, arrêtée si l'on demande moins de
     mouvement ;
   - « Partager ma tournée » : une image composée sur un canvas, dans le

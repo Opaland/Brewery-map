@@ -172,11 +172,17 @@ test('au clavier, chaque arrêt montre où est le focus, carte et pied compris (
   await versLaCarte(page)
   await expect(page.getByRole('button', { name: 'Zoomer', exact: true })).toBeVisible()
   await expect.poll(() => page.locator('.maplibregl-marker.marqueur').count()).toBeGreaterThan(0)
+  // Depuis le haut : la carte, venue après la liste (S29), aurait fait
+  // partir la tabulation de là où l'on a défilé.
+  await page.evaluate(() => {
+    window.scrollTo(0, 0)
+    document.querySelector<HTMLElement>('.entete summary, .entete button')?.focus()
+  })
   const invisibles: string[] = []
   const vus = new Set<string>()
-  // Du haut de la page jusqu'au dernier lien du pied : filtres, évitement,
-  // carte et marqueurs, liste, pied.
-  for (let i = 0; i < 150 && !vus.has('Code source'); i++) {
+  // Du haut de la page jusqu'au dernier lien du pied : filtres, liste,
+  // carte et marqueurs, pied (la liste passe avant la carte depuis S29).
+  for (let i = 0; i < 300 && !vus.has('Code source'); i++) {
     await page.keyboard.press('Tab')
     const etat = await focusVisible(page)
     if (etat !== 'visible') invisibles.push(etat)
@@ -285,13 +291,13 @@ test('repères : une région principale et un titre par partie (lecteur d’écr
   await ouvrir(page)
   await expect(page.getByRole('main')).toHaveCount(1)
   const titres = await page.getByRole('heading', { level: 2 }).allTextContents()
-  expect(titres).toEqual(['Rechercher et filtrer', 'Carte', 'Brasseries'])
+  expect(titres).toEqual(['Rechercher et filtrer', 'Brasseries', 'Carte'])
 })
 
-test('un lien évite la carte et mène à la liste', async ({ page }) => {
+test('au clavier, un lien évite la liste et mène à la carte (S29)', async ({ page }) => {
   await ouvrir(page)
-  const eviter = page.getByRole('link', { name: 'Aller à la liste des brasseries' })
-  for (let i = 0; i < 15 && !(await eviter.evaluate((e) => e === document.activeElement)); i++) {
+  const eviter = page.getByRole('link', { name: 'Aller à la carte' })
+  for (let i = 0; i < 30 && !(await eviter.evaluate((e) => e === document.activeElement)); i++) {
     await page.keyboard.press('Tab')
   }
   await expect(eviter).toBeFocused()
@@ -305,9 +311,8 @@ test('un lien évite la carte et mène à la liste', async ({ page }) => {
     )
     .toBe(true)
   await page.keyboard.press('Enter')
-  await page.keyboard.press('Tab')
-  const premiere = page.getByTestId('liste').getByRole('button').first()
-  await expect(premiere).toBeFocused()
+  await expect(page.locator('#titre-carte')).toBeFocused()
+  await expect(page.locator('[data-testid="carte"], [data-testid="carte-absente"]')).toBeVisible()
 })
 
 test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page }) => {

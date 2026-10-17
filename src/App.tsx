@@ -20,6 +20,7 @@ import {
   compterParDepartement,
 } from './core/recherche'
 import { libelleDepartement } from './core/departements'
+import { resumeDesFiltres, type EtatFiltres } from './core/filtres'
 import { ficheDuLien } from './core/partage'
 import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
@@ -111,16 +112,61 @@ export function App({
   const [favorisSeulement, setFavorisSeulement] = useState(ini.favorisSeulement)
   const [avecOsm, setAvecOsm] = useState(ini.avecOsm)
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
+  // Sur téléphone, les filtres secondaires sont repliés (S29 : la première
+  // brasserie était à 2,1 écrans). Ouverts sur ordinateur, où ils tiennent
+  // à côté du départ, et à l'ouverture si l'un d'eux est actif : un filtre
+  // réglé ne se cache pas dès l'arrivée.
+  const [filtresOuverts, setFiltresOuverts] = useState(
+    () =>
+      window.matchMedia('(min-width: 900px)').matches ||
+      ini.favorisSeulement ||
+      ini.type !== undefined ||
+      ini.categories.length < ORDRE_CATEGORIES.length ||
+      (couche !== null && !ini.avecOsm),
+  )
+  // Passé à 900 px de large (tablette tournée), le repli s'ouvre : les
+  // filtres y tiennent à côté du départ (revue adverse S29).
+  useEffect(() => {
+    const large = window.matchMedia('(min-width: 900px)')
+    const suivre = () => {
+      if (large.matches) setFiltresOuverts(true)
+    }
+    large.addEventListener('change', suivre)
+    return () => {
+      large.removeEventListener('change', suivre)
+    }
+  }, [])
+  // La carte à l'écran : le bouton de la barre ramène alors à la liste.
+  const titreCarte = useRef<HTMLHeadingElement>(null)
+  const [carteEnVue, setCarteEnVue] = useState(false)
+  useEffect(() => {
+    const zone = titreCarte.current?.parentElement ?? null
+    if (zone === null || typeof IntersectionObserver === 'undefined') return
+    // « À l'écran » : dans la moitié haute. Seuil de présentation, au jugé
+    // (§2) : plus bas, le bouton changeait alors que la liste remplissait
+    // encore l'écran.
+    const obs = new IntersectionObserver(
+      (entrees) => {
+        setCarteEnVue(entrees.some((e) => e.isIntersecting))
+      },
+      { rootMargin: '0px 0px -50% 0px' },
+    )
+    obs.observe(zone)
+    return () => {
+      obs.disconnect()
+    }
+  }, [])
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   const [annonce, setAnnonce] = useState('')
   const compte = useRef<HTMLParagraphElement>(null)
+  const barre = useRef<HTMLDivElement>(null)
 
   // Le compte collé au bas de l'écran couvrait le focus clavier (WCAG
   // 2.4.11, revue adverse UI/UX : une case sur Pixel 7, cinq contrôles à
   // 320 px). Sa hauteur, qui varie avec le retour à la ligne, devient la
   // marge de défilement du bas : le navigateur amène le focus au-dessus.
   useEffect(() => {
-    const p = compte.current
+    const p = barre.current
     if (p === null || typeof ResizeObserver === 'undefined') return
     const racine = document.documentElement
     const suivre = new ResizeObserver(() => {
@@ -271,6 +317,13 @@ export function App({
   const nomsConnus = useMemo(() => new Set(toutes.map((b) => b.n)), [toutes])
   const orphelins = osm.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
+  const etatFiltres: EtatFiltres = {
+    categories,
+    favorisSeulement,
+    sansOsm: osm.etat === 'pret' && !avecOsm,
+    ...(departement === undefined ? {} : { departement }),
+    ...(type === undefined ? {} : { type }),
+  }
 
   const basculerUnFavori = (nom: string) => {
     const retrait = favoris.includes(nom)
@@ -337,6 +390,13 @@ export function App({
   const choisirDepuisLaCarte = (nom: string) => {
     setSelection(nom)
     setFocaliser((n) => n + 1)
+  }
+
+  /** Mène à la carte ou à la liste : le focus suit, pour le clavier et le lecteur d'écran. */
+  const allerA = (id: string) => {
+    const titre = document.getElementById(id)
+    titre?.parentElement?.scrollIntoView({ block: 'start' })
+    titre?.focus({ preventScroll: true })
   }
 
   return (
@@ -408,92 +468,94 @@ export function App({
           />
         </label>
 
-        {/* Parcourir un département (S27 ; idée vue sur biere-tourisme.fr) :
-            découvrir une région sans donner sa position. */}
-        <label className="champ">
-          <span>Ou parcourir un département</span>
-          <select
-            value={departement ?? ''}
-            onChange={(e) => {
-              setDepartement(e.target.value === '' ? undefined : e.target.value)
-            }}
-            data-testid="departement"
-          >
-            <option value="">Non : autour du point de départ</option>
-            {[...parDepartement.entries()]
-              .sort(([a], [b]) => a.localeCompare(b))
-              .map(([code, n]) => (
-                <option key={code} value={code}>
-                  {libelleDepartement(code)} ({n})
-                </option>
-              ))}
-          </select>
-        </label>
-
-        <fieldset className="categories">
-          <legend>Ce qu’on peut y faire</legend>
-          {ORDRE_CATEGORIES.map((cat) => (
-            <label key={cat} className={`case cat-${String(cat)}`}>
-              <input
-                type="checkbox"
-                checked={categories.includes(cat)}
-                onChange={() => {
-                  basculer(cat)
-                }}
-                data-testid={`categorie-${String(cat)}`}
-              />
-              <span className="pastille" aria-hidden="true" />
-              {CATEGORIES[cat]}
-            </label>
-          ))}
-          {osm.etat === 'pret' && (
-            <label className="case">
-              <input
-                type="checkbox"
-                checked={avecOsm}
+        <details
+          className="plus-de-filtres"
+          open={filtresOuverts}
+          onToggle={(e) => {
+            setFiltresOuverts(e.currentTarget.open)
+          }}
+          data-testid="plus-de-filtres"
+        >
+          <summary data-testid="plus-de-filtres-resume">
+            {resumeDesFiltres(etatFiltres, nbFavorisConnus)}
+          </summary>
+          <div className="plus-de-filtres-corps">
+            {/* Parcourir un département (S27 ; idée vue sur biere-tourisme.fr) :
+                découvrir une région sans donner sa position. */}
+            <label className="champ">
+              <span>Ou parcourir un département</span>
+              <select
+                value={departement ?? ''}
                 onChange={(e) => {
-                  setAvecOsm(e.target.checked)
+                  setDepartement(e.target.value === '' ? undefined : e.target.value)
                 }}
-                data-testid="avec-osm"
-              />
-              Inclure les {osm.brasseries.length} brasseries repérées sur OpenStreetMap (non
-              vérifiées)
+                data-testid="departement"
+              >
+                <option value="">Non : autour du point de départ</option>
+                {[...parDepartement.entries()]
+                  .sort(([a], [b]) => a.localeCompare(b))
+                  .map(([code, n]) => (
+                    <option key={code} value={code}>
+                      {libelleDepartement(code)} ({n})
+                    </option>
+                  ))}
+              </select>
             </label>
-          )}
-        </fieldset>
 
-        <FiltreType
-          nbParType={NB_PAR_TYPE}
-          nbRenseignees={NB_RENSEIGNEES}
-          nbFiches={BRASSERIES.length}
-          valeur={type}
-          onChange={setType}
-        />
+            <fieldset className="categories">
+              <legend>Ce qu’on peut y faire</legend>
+              {ORDRE_CATEGORIES.map((cat) => (
+                <label key={cat} className={`case cat-${String(cat)}`}>
+                  <input
+                    type="checkbox"
+                    checked={categories.includes(cat)}
+                    onChange={() => {
+                      basculer(cat)
+                    }}
+                    data-testid={`categorie-${String(cat)}`}
+                  />
+                  <span className="pastille" aria-hidden="true" />
+                  {CATEGORIES[cat]}
+                </label>
+              ))}
+              {osm.etat === 'pret' && (
+                <label className="case">
+                  <input
+                    type="checkbox"
+                    checked={avecOsm}
+                    onChange={(e) => {
+                      setAvecOsm(e.target.checked)
+                    }}
+                    data-testid="avec-osm"
+                  />
+                  Inclure les {osm.brasseries.length} brasseries repérées sur OpenStreetMap (non
+                  vérifiées)
+                </label>
+              )}
+            </fieldset>
 
-        <MesFavoris
-          nbFavoris={nbFavorisConnus}
-          orphelins={orphelins}
-          onRetirerOrphelins={retirerOrphelins}
-          seulement={favorisSeulement}
-          onSeulement={setFavorisSeulement}
-          stockageDisponible={stockage.disponible}
-          onEffacer={toutEffacer}
-          tournee={tournee}
-        />
+            <FiltreType
+              nbParType={NB_PAR_TYPE}
+              nbRenseignees={NB_RENSEIGNEES}
+              nbFiches={BRASSERIES.length}
+              valeur={type}
+              onChange={setType}
+            />
+
+            <MesFavoris
+              nbFavoris={nbFavorisConnus}
+              orphelins={orphelins}
+              onRetirerOrphelins={retirerOrphelins}
+              seulement={favorisSeulement}
+              onSeulement={setFavorisSeulement}
+              stockageDisponible={stockage.disponible}
+              onEffacer={toutEffacer}
+              tournee={tournee}
+            />
+          </div>
+        </details>
       </section>
 
-      <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
-        {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
-        {texteDuCompte(
-          resultats.length,
-          rayonKm,
-          libelleOrigine(origine),
-          favorisSeulement,
-          nbFavorisConnus,
-          partout,
-          departement,
-        )}
-      </p>
       {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
           couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
       {resultats.length === 0 && !favorisSeulement && !partout && (
@@ -535,24 +597,27 @@ export function App({
         </p>
       )}
 
-      <h2 className="lecteur-seul">Carte</h2>
-      <a className="evitement" href="#titre-liste">
-        Aller à la liste des brasseries
-      </a>
+      {/* Sur téléphone, la liste vient avant la carte (S29) : la carte en
+          premier repoussait la première brasserie de 400 px. Un bouton mène
+          à la carte, un autre en revient ; sur ordinateur, elles sont côte à
+          côte et les boutons s'effacent. */}
       <div className="vues">
-        <CarteDifferee
-          resultats={resultats}
-          cadrerSurResultats={partout && resultats.length > 0}
-          origine={origine.point}
-          libelleOrigine={libelleOrigine(origine)}
-          rayonKm={rayonKm}
-          selection={selection}
-          onChoisir={choisirDepuisLaCarte}
-        />
         <div className="liste-conteneur">
           <h2 id="titre-liste" className="lecteur-seul" tabIndex={-1}>
             Brasseries
           </h2>
+          {/* Au clavier, la carte est après toute la liste : un lien
+              d'évitement, peint au focus, y mène tout de suite. */}
+          <a
+            className="evitement"
+            href="#titre-carte"
+            onClick={(e) => {
+              e.preventDefault()
+              allerA('titre-carte')
+            }}
+          >
+            Aller à la carte
+          </a>
           <Liste
             resultats={resultats}
             selection={selection}
@@ -565,6 +630,50 @@ export function App({
             }}
           />
         </div>
+        <div className="carte-conteneur">
+          <h2 id="titre-carte" className="lecteur-seul" tabIndex={-1} ref={titreCarte}>
+            Carte
+          </h2>
+          <CarteDifferee
+            resultats={resultats}
+            cadrerSurResultats={partout && resultats.length > 0}
+            origine={origine.point}
+            libelleOrigine={libelleOrigine(origine)}
+            rayonKm={rayonKm}
+            selection={selection}
+            onChoisir={choisirDepuisLaCarte}
+          />
+        </div>
+      </div>
+      {/* La barre collée en bas (S29) : le compte, et le bouton qui mène à
+          la carte ou en revient. En fin de zone principale, elle colle
+          pendant toute la lecture, filtres, liste et carte : placée avant la
+          liste, elle partait avec le défilement (revue adverse S29). */}
+      <div className="barre-compte" ref={barre}>
+        <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
+          {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
+          {texteDuCompte(
+            resultats.length,
+            rayonKm,
+            libelleOrigine(origine),
+            favorisSeulement,
+            nbFavorisConnus,
+            partout,
+            departement,
+          )}
+        </p>
+        {resultats.length > 0 && (
+          <button
+            type="button"
+            className="aller-vers"
+            onClick={() => {
+              allerA(carteEnVue ? 'titre-liste' : 'titre-carte')
+            }}
+            data-testid="vers-carte"
+          >
+            {carteEnVue ? 'Liste' : 'Carte'}
+          </button>
+        )}
       </div>
       </main>
 
