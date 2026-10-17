@@ -1990,3 +1990,30 @@ possible est inférieur à 2 ko. Pas de changement (`docs/stories/S43.md`).
      commentaire. Il les gère, ou fait échouer le build (tests unitaires) ;
    - **sans régression** en sombre automatique : spécificités vérifiées sur
      le CSS émis.
+
+## S46 — Raccourcis de l'application installée *(17/10)*
+
+1. **Fait** (`docs/stories/S46.md`) :
+   - « Autour de moi » et « Mes favoris » dans le manifeste. Un test lie le
+     manifeste à la liste que l'application comprend ;
+   - l'adresse est nettoyée après lecture ;
+   - la barre d'état prend le cuivre de l'en-tête (`theme_color` et
+     `<meta>`).
+2. **Écarté** : un écran d'accueil à la première visite. « Par où
+   commencer ? » joue déjà ce rôle, et un écran de plus repousserait la
+   liste.
+3. **Revue adverse** (30 k) :
+   - **(moyenne)** « Mes favoris » devenait permanent : chaque lancement
+     suivant s'ouvrait sur les seuls favoris. C'est maintenant une vue, et
+     le réglage gardé ne change que si la personne touche la case (vu
+     rouge) ;
+   - **(moyenne)** « Autour de moi » ne demandait jamais la position sans
+     permission accordée d'avance. Le raccourci est le geste de la
+     personne : il la demande (vu rouge).
+
+## S47 — Accessibilité, seconde passe *(17/10)*
+
+Axe et cibles de 44 px sur tous les écrans venus depuis S29, dépliés, en
+clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
+à l'inverse du système : **aucune violation**. Des tests le gardent
+(`docs/stories/S47.md`).
