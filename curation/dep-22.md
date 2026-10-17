@@ -177,7 +177,7 @@ Sources (vérifiée le 2026-10-17) : https://www.bieresbretonnes.fr/brasseries/b
 
 Extrait lu : « Le Lion d'Or 22250 Trémeur »
 
-Choix du vérificateur : Annuaire seulement ; lien Untappd relu sur sa page (bières concordantes). Position au centre de Trémeur.
+Choix du vérificateur : Annuaire seulement. La page Untappd ne donne pas la commune : son rattachement tient à ses bières (Brindzingue, Badadrao, Dam Yan, La Tremeuroise), les mêmes que l'annuaire. Position au centre de Trémeur.
 
 ### 6. Brasserie de Launay — fiche nouvelle
 
@@ -613,4 +613,4 @@ Extrait lu : « Brasserie bière craft fantasy en Bretagne »
 
 Choix du vérificateur : Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons.
 
-Empreinte du lot : 60b3dff2eca1
+Empreinte du lot : 31ac0d8e66b5

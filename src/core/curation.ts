@@ -452,26 +452,56 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
 }
 
 /**
- * Ce que la page du contact ne montre pas (S261) : `tel` (par
- * `numeroSurLaPage`), `untappd` (le lien y figure, ou c'est la page Untappd
- * elle-même ; casse et barre finale ignorées), `site` (c'est le même hôte
- * que la page lue, ou la page cite cet hôte). Liste vide : tout est lu.
+ * Les hôtes partagés par des milliers de pages : y être ne dit pas qu'on est
+ * sur le site d'une brasserie (revue adverse S261).
+ */
+const PLATEFORMES = new Set(['facebook.com', 'instagram.com', 'untappd.com', 'linktr.ee', 'sites.google.com'])
+
+type ChampContact = 'tel' | 'site' | 'untappd'
+
+/**
+ * Ce que la page du contact montre de lui (S261).
+ * - `tel` : par `numeroSurLaPage`.
+ * - `site` : la page lue est sur ce site (même hôte ; sur une plateforme
+ *   partagée, même adresse ou en dessous), ou la page cite une adresse de
+ *   cet hôte exact — pas un hôte qui le contient, pas un paramètre.
+ * - `untappd` : la page cite ce lien, ou une page sous lui (`…/beer`) ; ou
+ *   la page lue est ce lien. La racine d'Untappd ne vaut rien.
+ * `absents` : ce qui manque. `parLaPageMeme` : ce qui ne vaut que parce que
+ * c'est la page lue, à dire comme tel (sinon « trouvé » laisserait croire
+ * à une lecture).
  */
 export function contactSurLaPage(
   contact: { tel?: string; site?: string; untappd?: string; source: string },
   page: string,
-): ('tel' | 'site' | 'untappd')[] {
-  const sansWww = (h: string) => h.replace(/^www\./, '')
-  const hote = (u: string) => sansWww(new URL(u).hostname.toLowerCase())
-  const chemin = (u: string) => `${hote(u)}${new URL(u).pathname.replace(/\/+$/, '')}`.toLowerCase()
-  const bas = page.toLowerCase()
-  const absents: ('tel' | 'site' | 'untappd')[] = []
+): { absents: ChampContact[]; parLaPageMeme: ChampContact[] } {
+  const hote = (u: URL) => u.hostname.toLowerCase().replace(/^www\./, '')
+  const chemin = (u: URL) => u.pathname.toLowerCase().replace(/\/+$/, '')
+  const dessous = (a: URL, b: URL) => hote(a) === hote(b) && (chemin(a) === chemin(b) || chemin(a).startsWith(`${chemin(b)}/`))
+  const source = new URL(contact.source)
+  const cites = [...page.matchAll(/https?:\/\/[^\s"'<>()]+/gi)].flatMap((m) => {
+    try {
+      return [new URL(m[0].replace(/&amp;/g, '&'))]
+    } catch {
+      return []
+    }
+  })
+  const absents: ChampContact[] = []
+  const parLaPageMeme: ChampContact[] = []
   if (contact.tel !== undefined && !numeroSurLaPage(contact.tel, page)) absents.push('tel')
-  if (contact.site !== undefined && hote(contact.site) !== hote(contact.source) && !bas.includes(hote(contact.site))) absents.push('site')
-  if (contact.untappd !== undefined && chemin(contact.untappd) !== chemin(contact.source) && !new RegExp(`${chemin(contact.untappd).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`).test(bas)) {
-    absents.push('untappd')
+  if (contact.site !== undefined) {
+    const site = new URL(contact.site)
+    const surLeSite = PLATEFORMES.has(hote(site)) ? dessous(source, site) : hote(source) === hote(site)
+    if (surLeSite) parLaPageMeme.push('site')
+    else if (!cites.some((u) => (PLATEFORMES.has(hote(site)) ? dessous(u, site) : hote(u) === hote(site)))) absents.push('site')
   }
-  return absents
+  if (contact.untappd !== undefined) {
+    const lien = new URL(contact.untappd)
+    if (chemin(lien) === '') absents.push('untappd')
+    else if (dessous(source, lien) && chemin(source) === chemin(lien)) parLaPageMeme.push('untappd')
+    else if (!cites.some((u) => dessous(u, lien))) absents.push('untappd')
+  }
+  return { absents, parLaPageMeme }
 }
 
 const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }

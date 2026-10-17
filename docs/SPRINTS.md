@@ -2588,3 +2588,19 @@ champ pour eux.
   fixes et 6 liens Untappd (Arvarus, Smash, Skumenn, Choque, Horla, Lion
   d'Or). Les quatre lots passent `controler` sans écart. Leurs empreintes
   changent.
+
+### S261 — corrections de la revue adverse *(17/10)*
+
+1. **Le site était accepté trop facilement.**
+   - Un hôte contenu dans un autre passait : `bar.fr` dans `foobar.fr`.
+   - Un hôte cité en paramètre d'une autre adresse passait aussi : un annuaire qui renvoie vers la brasserie.
+   - Sur Facebook, n'importe quelle autre page de la plateforme passait.
+   - Correction : `contactSurLaPage` compare maintenant les hôtes exacts des adresses citées. Sur une plateforme partagée, il exige l'adresse elle-même ou une page en dessous.
+2. **« trouvé » laissait croire à une lecture** quand le site ou le lien Untappd était la page lue elle-même : c'est le cas des 45 sites et de deux liens Untappd. `controler` le dit maintenant (« site = la page lue elle-même »).
+3. **La racine d'Untappd** (`https://untappd.com/`) passait. Elle est refusée. Une page sous le lien de la brasserie (`…/240180/beer`) vaut toujours, et c'est maintenant testé.
+4. **Les horaires** étaient gardés par `ajoutSchema` sans qu'aucun test le prouve. Un test est ajouté ; il a été vu rouge en retirant les horaires de la garde.
+5. **Lion d'Or** : sa page Untappd ne donne pas la commune. Le lot dit sur quoi tient le rattachement : ses quatre bières, les mêmes que celles de l'annuaire.
+
+Tests vus rouges avant le correctif (8), puis verts. Mutations : la garde des
+horaires retirée, ou l'ancienne comparaison par sous-chaîne remise, et un
+test échoue chaque fois. Les quatre lots repassent `controler` sans écart.

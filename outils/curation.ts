@@ -133,8 +133,9 @@ async function controler(chemin: string | undefined) {
           }
           // S261 : le contact se relit sur sa propre page.
           if (a.fiche.contact !== undefined && url === a.fiche.contact.source) {
-            const absents = contactSurLaPage(a.fiche.contact, page)
-            console.log(`${n} — contact sur ${url} : ${absents.length === 0 ? 'trouvé' : `ABSENT (${absents.join(', ')})`}`)
+            const { absents, parLaPageMeme } = contactSurLaPage(a.fiche.contact, page)
+            const meme = parLaPageMeme.length === 0 ? '' : ` ; ${parLaPageMeme.join(', ')} = la page lue elle-même`
+            console.log(`${n} — contact sur ${url} : ${absents.length === 0 ? 'trouvé' : `ABSENT (${absents.join(', ')})`}${meme}`)
             echecs += absents.length
           }
         }
