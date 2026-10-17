@@ -76,7 +76,8 @@ export function MesFavoris({
             L’ordre se calcule dans ce téléphone, de proche en proche depuis votre départ. Le
             lien ne contient que les brasseries ; Google Maps part de votre position s’il
             y a accès. Vérifiez avant de partir que chacune vous accueille. L’image ne
-            porte que les étapes et leur ordre, jamais votre départ.
+            nomme que les étapes, dans l’ordre : elle ne dit pas d’où vous partez, mais la
+            première étape est la plus proche de vous.
           </p>
         </div>
       )}

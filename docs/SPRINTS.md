@@ -1759,3 +1759,47 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    - L'agent de revue a contourné le contrôle du `dist/` périmé pour lancer
      ses sondes. Ses mesures portaient sur `Carte.tsx`, inchangé depuis le
      build. Noté ici ; c'est contraire au §6quater.
+
+## S33 — Du mouvement, sans en imposer *(17/10)*
+
+1. **Fait** (`docs/stories/S33.md`) :
+   - le logo passe en SVG dans la page. Sa mousse monte une fois à
+     l'ouverture (700 ms, sans boucle : WCAG 2.2.2) ;
+   - une ligne touchée s'enfonce un peu ;
+   - sous « moins d'animations », une garde globale coupe toute animation
+     et toute transition, y compris celles qu'un sprint futur oublierait de
+     conditionner.
+2. **Tests vus rouges** : la garde globale. Avec la mousse animée sans
+   condition, le test « rien ne tourne » passe grâce à elle, puis échoue
+   quand on la retire.
+
+## S34 — Ma tournée en image *(17/10)*
+
+1. **Fait** (`docs/stories/S34.md`) :
+   - `core/image-tournee.ts` décrit l'image : titre, étapes numérotées et
+     communes, marque, adresse de l'application. Ni départ, ni distance ;
+   - `ImageTournee` la dessine sur un canvas, dans le téléphone. Elle part
+     par le menu de partage s'il accepte les fichiers, sinon elle se
+     télécharge ;
+   - aucune requête réseau pendant la composition (test).
+2. **Revue adverse** (33 k) :
+   - **(moyenne)** tout refus du partage était avalé, sans repli ni
+     message : seule l'annulation est muette, le reste se replie sur le
+     téléchargement (test) ;
+   - **(moyenne)** les noms étaient coupés au caractère, et 28 « M »
+     dépassaient l'image : chaque texte est désormais mesuré sur le canvas
+     et réduit jusqu'à tenir dans sa largeur ;
+   - **(basse)** deux touchers rapides lançaient deux images : le bouton
+     se désactive pendant la préparation ;
+   - **(basse)** un état périmé restait affiché : il est remis à zéro à
+     chaque toucher ;
+   - **(basse)** le lien de téléchargement était révoqué aussitôt, ce qui
+     risque l'annulation hors de Chromium : il l'est après une minute ;
+   - **(basse)** les graisses de police sont chargées explicitement ;
+   - **(test creux)** un canvas vide passait : le test vérifie maintenant
+     une PNG de plus de 20 ko ;
+   - **(confidentialité)** l'ordre des étapes part de la plus proche de la
+     personne. C'est une fuite faible, désormais dite à l'écran plutôt que
+     « jamais votre départ ».
+3. **Non vérifié** : le partage de fichiers sur iPhone et Firefox. Seul
+   Chromium est installé.

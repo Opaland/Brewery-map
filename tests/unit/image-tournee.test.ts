@@ -26,12 +26,16 @@ describe('image de la tournée (S34)', () => {
     expect(tout).not.toMatch(/départ|km|position|autour/i)
   })
 
-  it('les textes restent dans l’image', () => {
+  it('quatre étapes (le plafond de la tournée) tiennent dans l’image, marges comprises', () => {
     const plan = planTournee([...etapes, ...etapes])
     for (const t of plan.textes) {
-      expect(t.x).toBeGreaterThanOrEqual(0)
-      expect(t.y).toBeLessThanOrEqual(plan.hauteur)
+      expect(t.x).toBeGreaterThanOrEqual(96)
+      expect(t.x + t.largeurMax).toBeLessThanOrEqual(plan.largeur - 96)
+      expect(t.y).toBeLessThanOrEqual(plan.hauteur - 60)
     }
+    const etapesY = plan.textes.filter((t) => t.role === 'lieu').map((t) => t.y)
+    const marque = plan.textes.find((t) => t.role === 'marque')?.y ?? 0
+    expect(Math.max(...etapesY)).toBeLessThan(marque - 60)
   })
 
   it('un nom trop long est coupé, avec des points de suspension', () => {

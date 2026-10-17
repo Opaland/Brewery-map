@@ -912,3 +912,28 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   .apercu-carte { animation: apercu-entree 160ms ease-out; }
 }
 @keyframes apercu-entree { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* ── S33 : du mouvement, sans en imposer ──────────────────────────────── */
+
+/* La mousse du logo monte une fois à l'ouverture, en 700 ms, puis
+   s'arrête : pas de boucle (WCAG 2.2.2). Durée au jugé (§2, présentation). */
+@media (prefers-reduced-motion: no-preference) {
+  .logo .mousse {
+    transform-box: fill-box;
+    transform-origin: 50% 100%;
+    animation: mousse-monte 700ms cubic-bezier(0.2, 0.8, 0.2, 1) 150ms 1 backwards;
+  }
+  /* Un retour au toucher d'une ligne : elle s'enfonce un peu. */
+  .ligne:active { transform: scale(0.99); }
+}
+@keyframes mousse-monte {
+  from { transform: translateY(40%) scaleY(0.3); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+/* « Moins d'animations » : rien ne bouge, nulle part — y compris ce qu'un
+   sprint futur oublierait de garder (CLAUDE.md §6quater : la garde vit là
+   où l'action se produit). */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

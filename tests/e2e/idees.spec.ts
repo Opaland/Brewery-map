@@ -153,6 +153,12 @@ test.describe('ma tournée en image (S34)', () => {
     await page.getByTestId('tournee-image').click()
     const fichier = await telechargement
     expect(fichier.suggestedFilename()).toBe('tournee.png')
+    // Une image dessinée, pas un canvas vide (revue adverse S34) : une PNG
+    // unie de 1080 × 1350 pèse quelques kilo-octets ; avec les textes, bien plus.
+    const chemin = await fichier.path()
+    const { statSync, readFileSync } = await import('node:fs')
+    expect(readFileSync(chemin).subarray(1, 4).toString()).toBe('PNG')
+    expect(statSync(chemin).size).toBeGreaterThan(20_000)
     await expect(page.getByTestId('tournee-image-etat')).toHaveText('Image enregistrée dans vos téléchargements.')
     expect(requetes).toEqual([])
   })
@@ -174,4 +180,24 @@ test.describe('ma tournée en image (S34)', () => {
       .poll(() => page.evaluate(() => (window as unknown as { partages: unknown[] }).partages))
       .toEqual([[['tournee.png', 'image/png']]])
   })
+})
+
+test('un partage refusé (geste expiré) se replie sur le téléchargement (revue adverse S34)', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'canShare', { value: () => true })
+    Object.defineProperty(navigator, 'share', {
+      value: () => Promise.reject(new DOMException('geste expiré', 'NotAllowedError')),
+    })
+  })
+  await page.goto('/')
+  for (const rang of [0, 1]) {
+    await page.locator('button.ligne').nth(rang).click()
+    await page.getByTestId('bouton-favori').click()
+    await page.locator('button.ligne').nth(rang).click()
+  }
+  await ouvrirFiltres(page)
+  const telechargement = page.waitForEvent('download')
+  await page.getByTestId('tournee-image').click()
+  expect((await telechargement).suggestedFilename()).toBe('tournee.png')
+  await expect(page.getByTestId('tournee-image-etat')).toHaveText('Image enregistrée dans vos téléchargements.')
 })
