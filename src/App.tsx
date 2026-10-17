@@ -326,7 +326,13 @@ export function App({
   const tournee = useMemo(() => {
     const etapes = toutes.filter((b) => ensembleFavoris.has(b.n) && b.fermee === undefined)
     const ordre = ordonnerTournee(etapes, origine.point)
-    return { etapes: ordre.map((b) => b.n), lien: lienTournee(ordre), total: etapes.length }
+    return {
+      etapes: ordre.map((b) => b.n),
+      // Pour l'image à partager (S34) : nom et commune, rien du départ.
+      image: ordre.map((b) => ({ nom: b.n, commune: b.c, departement: b.d })),
+      lien: lienTournee(ordre),
+      total: etapes.length,
+    }
   }, [toutes, ensembleFavoris, origine])
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []
@@ -423,7 +429,18 @@ export function App({
     <div className="page">
       <header className="entete">
         <div className="marque">
-          <img className="logo" src="icon.svg" alt="" width={48} height={48} />
+          {/* Le logo en ligne, pour que sa mousse monte une fois à l'ouverture
+              (S33). Décoratif : le titre dit déjà le nom. Mêmes tracés que
+              `public/icon.svg`. */}
+          <svg className="logo" viewBox="0 0 512 512" width={48} height={48} aria-hidden="true" focusable="false">
+            <rect width="512" height="512" rx="96" fill="#1e2b23" />
+            <path d="M150 170h170v210a40 40 0 0 1-40 40h-90a40 40 0 0 1-40-40z" fill="#e8a33d" />
+            <path
+              d="M320 210h40a40 40 0 0 1 40 40v50a40 40 0 0 1-40 40h-40v-30h35a15 15 0 0 0 15-15v-40a15 15 0 0 0-15-15h-35z"
+              fill="#e8a33d"
+            />
+            <path className="mousse" d="M140 175c0-40 30-65 65-60 15-30 70-35 90-5 35-5 55 25 45 65z" fill="#faf7f2" />
+          </svg>
           <h1>Mousse de Poche</h1>
         </div>
         <p className="sous-titre">

@@ -122,6 +122,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await versLaCarte(page)
     await page.getByTestId('recherche').fill('oullins')
     await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').click()
+    // Sur téléphone, l'aperçu d'abord (S32).
+    await page.getByTestId('apercu-voir-fiche').click()
     await expect(page.getByTestId('fiche')).toHaveCount(1)
     await expect.poll(() => page.getByTestId('fiche').evaluate((el) => {
       const r = el.getBoundingClientRect()

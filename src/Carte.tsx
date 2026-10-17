@@ -12,8 +12,9 @@ import type { FeatureCollection } from 'geojson'
 import urlDuWorker from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
-import type { Point } from './core/distance'
+import { formaterDistance, type Point } from './core/distance'
 import { empriseDesPoints, type Emprise } from './core/emprise'
+import { estDeOsm } from './core/osm-france'
 import type { Resultat } from './core/recherche'
 import type { Categorie } from './core/schema'
 
@@ -158,12 +159,45 @@ export default function Carte({
   const [erreur, setErreur] = useState<string | null>(() =>
     webglDisponible() ? null : CARTE_IMPOSSIBLE,
   )
-  const surChoix = useRef(onChoisir)
+  // Sur téléphone, un marqueur touché montre un aperçu dans la carte (S32) :
+  // depuis S29, la liste est au-dessus, et choisir la ligne y ramenait la
+  // page, loin de la carte. Sur ordinateur, la liste est à côté : on choisit.
+  const [apercu, setApercu] = useState<string | null>(null)
+  const titreApercu = useRef<HTMLHeadingElement>(null)
+  // Un groupe au zoom maximal choisit sa première brasserie dans la liste,
+  // où les autres la suivent : un aperçu n'en montrerait qu'une, sans
+  // marqueur à qui rendre le focus (revue adverse S32).
+  const choisirMarqueur = (nom: string, groupe = false) => {
+    if (!groupe && window.matchMedia('(max-width: 899px)').matches) {
+      setApercu(nom)
+      return
+    }
+    onChoisir(nom)
+  }
+  const surChoix = useRef(choisirMarqueur)
   const choisie = useRef(selection)
   useEffect(() => {
-    surChoix.current = onChoisir
+    surChoix.current = choisirMarqueur
     choisie.current = selection
-  }, [onChoisir, selection])
+  })
+  // Le focus va sur l'aperçu ouvert, pour le clavier et le lecteur d'écran.
+  useEffect(() => {
+    if (apercu !== null) titreApercu.current?.focus()
+  }, [apercu])
+  const fermerApercu = () => {
+    const nom = apercu
+    setApercu(null)
+    // Le focus revient au marqueur ; s'il a rejoint un groupe entre-temps,
+    // à la carte elle-même, plutôt qu'en haut de la page.
+    const marqueur = [...marqueurs.current.values()].map((m) => m.getElement()).find((el) => el.dataset['nom'] === nom)
+    ;(marqueur ?? conteneur.current?.querySelector<HTMLElement>('canvas'))?.focus()
+  }
+  // Une recherche qui ne garde plus la brasserie de l'aperçu le retire :
+  // gardé, il revenait seul, sans focus, à la recherche suivante (revue
+  // adverse S32).
+  // Ajusté pendant le rendu, comme le recommande React pour un état qui
+  // dépend d'une prop (plutôt qu'un effet qui rend deux fois).
+  if (apercu !== null && !resultats.some((r) => r.brasserie.n === apercu)) setApercu(null)
 
   // Création, une seule fois.
   useEffect(() => {
@@ -241,7 +275,7 @@ export default function Carte({
               // distance, la suivent dans la liste.
               void source.getClusterLeaves(idGroupe, 1, 0).then((feuilles) => {
                 const nom: unknown = feuilles[0]?.properties?.['nom']
-                if (typeof nom === 'string') surChoix.current(nom)
+                if (typeof nom === 'string') surChoix.current(nom, true)
               })
             })
           })
@@ -349,22 +383,23 @@ export default function Carte({
   useEffect(() => {
     resultatsCourants.current = resultats
   }, [resultats])
+  const cible = apercu ?? selection
   useEffect(() => {
     if (!prete) return
     for (const m of marqueurs.current.values()) {
       const el = m.getElement()
       if (el.dataset['nom'] === undefined) continue
-      el.setAttribute('aria-pressed', String(el.dataset['nom'] === selection))
+      el.setAttribute('aria-pressed', String(el.dataset['nom'] === cible))
     }
-    if (selection === null) return
-    const trouvee = resultatsCourants.current.find((r) => r.brasserie.n === selection)
+    if (cible === null) return
+    const trouvee = resultatsCourants.current.find((r) => r.brasserie.n === cible)
     if (!trouvee) return
     carte.current?.easeTo({
       center: [trouvee.brasserie.lon, trouvee.brasserie.lat],
       zoom: Math.max(carte.current.getZoom(), 11),
       ...(mouvementReduit() ? { duration: 0 } : {}),
     })
-  }, [prete, selection])
+  }, [prete, cible])
 
   if (erreur !== null) {
     return (
@@ -373,15 +408,56 @@ export default function Carte({
       </div>
     )
   }
+  const vue = apercu === null ? undefined : resultats.find((r) => r.brasserie.n === apercu)
   return (
     <div className="carte-cadre">
-      <div
-        ref={conteneur}
-        className="carte"
-        role="region"
-        aria-label="Carte des brasseries (la liste contient les mêmes informations)"
-        data-testid="carte"
-      />
+      <div className="carte-zone">
+        <div
+          ref={conteneur}
+          className="carte"
+          role="region"
+          aria-label="Carte des brasseries (la liste contient les mêmes informations)"
+          data-testid="carte"
+        />
+        {vue !== undefined && (
+          <section
+            className="apercu-carte"
+            aria-labelledby="apercu-titre"
+            data-testid="apercu-carte"
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') fermerApercu()
+            }}
+          >
+            <h3 id="apercu-titre" tabIndex={-1} ref={titreApercu}>
+              {vue.brasserie.n}
+            </h3>
+            <p>
+              {vue.brasserie.c} ({vue.brasserie.d}) · {formaterDistance(vue.distanceKm)}
+            </p>
+            <p className={`badge cat-${String(vue.brasserie.cat)}`}>
+              <span className="pastille" aria-hidden="true" />
+              {CATEGORIES[vue.brasserie.cat]}
+              {estDeOsm(vue.brasserie) ? ' · OpenStreetMap' : ''}
+            </p>
+            <div className="depart-actions">
+              <button
+                type="button"
+                className="bouton-principal"
+                onClick={() => {
+                  setApercu(null)
+                  onChoisir(vue.brasserie.n)
+                }}
+                data-testid="apercu-voir-fiche"
+              >
+                Voir la fiche
+              </button>
+              <button type="button" onClick={fermerApercu} data-testid="apercu-fermer">
+                Fermer
+              </button>
+            </div>
+          </section>
+        )}
+      </div>
       {/* La légende, visible sans ouvrir de fiche (S27 ; idée vue sur Open
           Brewery Map). Les couleurs sont celles des marqueurs. */}
       <ul className="legende-carte" aria-label="Légende de la carte" data-testid="legende-carte">

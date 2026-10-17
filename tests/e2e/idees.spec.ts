@@ -128,3 +128,76 @@ test('les nombres du menu des départements suivent les catégories cochées (S3
   await expect(page.getByTestId('departement')).toHaveValue('73')
   await expect(page.getByTestId('compte')).toContainText('avec ces filtres')
 })
+
+test.describe('ma tournée en image (S34)', () => {
+  const deuxFavoris = async (page: import('@playwright/test').Page) => {
+    await page.goto('/')
+    for (const rang of [0, 1]) {
+      await page.locator('button.ligne').nth(rang).click()
+      await page.getByTestId('bouton-favori').click()
+      await page.locator('button.ligne').nth(rang).click()
+    }
+    await ouvrirFiltres(page)
+  }
+
+  test('sans menu de partage de fichiers, l’image se télécharge, sans requête réseau', async ({ page }) => {
+    await page.addInitScript(() => {
+      Object.defineProperty(navigator, 'canShare', { value: undefined })
+    })
+    await deuxFavoris(page)
+    const requetes: string[] = []
+    page.on('request', (r) => {
+      if (!r.url().startsWith('blob:') && !r.url().startsWith('data:')) requetes.push(r.url())
+    })
+    const telechargement = page.waitForEvent('download')
+    await page.getByTestId('tournee-image').click()
+    const fichier = await telechargement
+    expect(fichier.suggestedFilename()).toBe('tournee.png')
+    // Une image dessinée, pas un canvas vide (revue adverse S34) : une PNG
+    // unie de 1080 × 1350 pèse quelques kilo-octets ; avec les textes, bien plus.
+    const chemin = await fichier.path()
+    const { statSync, readFileSync } = await import('node:fs')
+    expect(readFileSync(chemin).subarray(1, 4).toString()).toBe('PNG')
+    expect(statSync(chemin).size).toBeGreaterThan(20_000)
+    await expect(page.getByTestId('tournee-image-etat')).toHaveText('Image enregistrée dans vos téléchargements.')
+    expect(requetes).toEqual([])
+  })
+
+  test('avec un menu de partage de fichiers, l’image y part', async ({ page }) => {
+    await page.addInitScript(() => {
+      ;(window as unknown as { partages: unknown[] }).partages = []
+      Object.defineProperty(navigator, 'canShare', { value: () => true })
+      Object.defineProperty(navigator, 'share', {
+        value: (d: { files?: File[] }) => {
+          ;(window as unknown as { partages: unknown[] }).partages.push(d.files?.map((f) => [f.name, f.type]))
+          return Promise.resolve()
+        },
+      })
+    })
+    await deuxFavoris(page)
+    await page.getByTestId('tournee-image').click()
+    await expect
+      .poll(() => page.evaluate(() => (window as unknown as { partages: unknown[] }).partages))
+      .toEqual([[['tournee.png', 'image/png']]])
+  })
+})
+
+test('un partage refusé (geste expiré) se replie sur le téléchargement (revue adverse S34)', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'canShare', { value: () => true })
+    Object.defineProperty(navigator, 'share', {
+      value: () => Promise.reject(new DOMException('geste expiré', 'NotAllowedError')),
+    })
+  })
+  await page.goto('/')
+  for (const rang of [0, 1]) {
+    await page.locator('button.ligne').nth(rang).click()
+    await page.getByTestId('bouton-favori').click()
+    await page.locator('button.ligne').nth(rang).click()
+  }
+  await ouvrirFiltres(page)
+  const telechargement = page.waitForEvent('download')
+  await page.getByTestId('tournee-image').click()
+  expect((await telechargement).suggestedFilename()).toBe('tournee.png')
+  await expect(page.getByTestId('tournee-image-etat')).toHaveText('Image enregistrée dans vos téléchargements.')
+})
