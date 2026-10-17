@@ -3,6 +3,8 @@ import { communesConnues, ORIGINE_DEFAUT } from '../../src/core/origine'
 import {
   basculerFavori,
   basculerVisite,
+  ecrireNote,
+  NOTE_MAX,
   dateDuJour,
   lirePreferences,
   origineDesPreferences,
@@ -45,6 +47,7 @@ describe('relire les préférences gardées', () => {
       avecOsm: false,
       visites: [{ nom: 'Caribrew', date: '2026-10-17' }],
       pasVisitees: true,
+      notes: [{ nom: 'Caribrew', texte: 'bien' }],
     }
     expect(lirePreferences(gardees)).toEqual(gardees)
   })
@@ -165,5 +168,45 @@ describe('mon carnet : les visites (S35)', () => {
   it('la date du jour est locale, sans heure', () => {
     expect(dateDuJour(new Date(2026, 9, 17, 23, 59))).toBe('2026-10-17')
     expect(dateDuJour(new Date(2026, 0, 5, 0, 1))).toBe('2026-01-05')
+  })
+})
+
+describe('mes notes (S36)', () => {
+  it('une note s’écrit, se remplace, et se retire quand elle est vidée', () => {
+    const a = ecrireNote([], 'Caribrew', 'La blanche était excellente')
+    expect(a).toEqual([{ nom: 'Caribrew', texte: 'La blanche était excellente' }])
+    expect(ecrireNote(a, 'Caribrew', 'Fermé le lundi en vrai')).toEqual([{ nom: 'Caribrew', texte: 'Fermé le lundi en vrai' }])
+    expect(ecrireNote(a, 'Caribrew', '')).toEqual([])
+    // Une espace sur tout le texte sélectionné ne l'efface pas (revue adverse S36).
+    expect(ecrireNote(a, 'Caribrew', ' ')).toEqual([{ nom: 'Caribrew', texte: ' ' }])
+  })
+
+  it('la coupe à 500 ne laisse pas une moitié d’emoji (revue adverse S36)', () => {
+    const t = ecrireNote([], 'X', `a${'😀'.repeat(300)}`)[0].texte
+    expect(t.length).toBeLessThanOrEqual(500)
+    expect(/[\ud800-\udbff]$/.test(t)).toBe(false)
+  })
+
+  it('au plus 500 caractères', () => {
+    expect(ecrireNote([], 'X', 'a'.repeat(600))[0].texte).toHaveLength(NOTE_MAX)
+    expect(NOTE_MAX).toBe(500)
+  })
+
+  it('relue note par note : une illisible tombe seule, une trop longue est coupée', () => {
+    const p = lirePreferences({
+      favoris: ['A'],
+      notes: [
+        { nom: 'Caribrew', texte: 'bien' },
+        { nom: 'Sans texte' },
+        { nom: 'Longue', texte: 'b'.repeat(700) },
+        { nom: 'Caribrew', texte: 'doublon' },
+        { nom: 'Vide', texte: '' },
+      ],
+    })
+    expect(p.favoris).toEqual(['A'])
+    expect(p.notes).toEqual([
+      { nom: 'Caribrew', texte: 'bien' },
+      { nom: 'Longue', texte: 'b'.repeat(500) },
+    ])
   })
 })

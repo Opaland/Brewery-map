@@ -7,6 +7,7 @@ import {
   basculerFavori,
   basculerVisite,
   dateDuJour,
+  ecrireNote,
   lirePreferences,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
@@ -99,6 +100,7 @@ function texteDuCompte(
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
 const lireVisitesRecues = (brut: unknown) => lirePreferences({ visites: brut }).visites
+const lireNotesRecues = (brut: unknown) => lirePreferences({ notes: brut }).notes
 
 export function App({
   stockage,
@@ -134,6 +136,8 @@ export function App({
   // l'appareil seulement.
   const [visites, setVisites] = useState(ini.visites)
   const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
+  // Mes notes (S36) : une par brasserie, pour soi, sur l'appareil.
+  const [notes, setNotes] = useState(ini.notes)
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
   // Sur téléphone, les filtres secondaires sont repliés (S29 : la première
   // brasserie était à 2,1 écrans). Ouverts sur ordinateur, où ils tiennent
@@ -252,12 +256,13 @@ export function App({
       avecOsm,
       visites: [...visites],
       pasVisitees,
+      notes: [...notes],
     })
     const texte = JSON.stringify(p)
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
     stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees])
+  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes])
 
   // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
   // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
@@ -266,6 +271,7 @@ export function App({
   const canal = useRef<BroadcastChannel | null>(null)
   const favorisPartages = useRef(JSON.stringify(favoris))
   const visitesPartagees = useRef(JSON.stringify(visites))
+  const notesPartagees = useRef(JSON.stringify(notes))
   // Le canal s'ouvre une fois ; il appelle la remise à zéro par une référence.
   const remettreAZeroRef = useRef<() => void>(() => undefined)
   useEffect(() => {
@@ -280,6 +286,12 @@ export function App({
       // Le carnet passe d'un onglet à l'autre comme les favoris : un onglet
       // resté ouvert réécrivait l'objet entier et effaçait les visites de
       // l'autre (revue adverse S35).
+      if (m?.type === 'notes') {
+        const recues = lireNotesRecues((m as { notes?: unknown }).notes)
+        notesPartagees.current = JSON.stringify(recues)
+        setNotes(recues)
+        return
+      }
       if (m?.type === 'visites') {
         const recues = lireVisitesRecues((m as { visites?: unknown }).visites)
         visitesPartagees.current = JSON.stringify(recues)
@@ -309,9 +321,16 @@ export function App({
     visitesPartagees.current = texte
     canal.current?.postMessage({ type: 'visites', visites: [...visites] })
   }, [visites])
+  useEffect(() => {
+    const texte = JSON.stringify(notes)
+    if (texte === notesPartagees.current) return
+    notesPartagees.current = texte
+    canal.current?.postMessage({ type: 'notes', notes: [...notes] })
+  }, [notes])
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
   const datesDeVisite = useMemo(() => new Map(visites.map((v) => [v.nom, v.date])), [visites])
+  const textesDeNote = useMemo(() => new Map(notes.map((n) => [n.nom, n.texte])), [notes])
   const exclure = useMemo(
     () => (pasVisitees ? new Set(visites.map((v) => v.nom)) : undefined),
     [pasVisitees, visites],
@@ -417,6 +436,7 @@ export function App({
     dejaGarde.current = JSON.stringify(versStockage(d))
     favorisPartages.current = JSON.stringify(d.favoris)
     visitesPartagees.current = JSON.stringify(d.visites)
+    notesPartagees.current = JSON.stringify(d.notes)
     setRayonKm(d.rayonKm)
     setCategories(d.categories)
     setType(d.type)
@@ -427,6 +447,7 @@ export function App({
     setAvecOsm(d.avecOsm)
     setVisites(d.visites)
     setPasVisitees(d.pasVisitees)
+    setNotes(d.notes)
   }, [])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
@@ -438,7 +459,7 @@ export function App({
       .then(() => {
         remettreAZero()
         canal.current?.postMessage({ type: 'effacer' })
-        setAnnonce('Favoris, carnet et réglages effacés de cet appareil.')
+        setAnnonce('Favoris, carnet, notes et réglages effacés de cet appareil.')
       })
       .catch(() => {
         setAnnonce('L’effacement a échoué : rien n’a changé. Réessayez.')
@@ -755,6 +776,10 @@ export function App({
             onBasculerFavori={basculerUnFavori}
             visites={datesDeVisite}
             onBasculerVisite={basculerUneVisite}
+            notes={textesDeNote}
+            onEcrireNote={(nom, texte) => {
+              setNotes((avant) => ecrireNote(avant, nom, texte))
+            }}
             onChoisir={(nom) => {
               // Un second toucher sur la ligne ouverte la referme.
               setSelection((avant) => (avant === nom ? null : nom))

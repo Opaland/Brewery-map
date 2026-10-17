@@ -110,3 +110,57 @@ test('tout visité : le compte dit que c’est le filtre « pas encore visitées
   await page.getByTestId('pas-visitees').check()
   await expect(page.getByTestId('compte')).toContainText('Toutes celles qui correspondent sont dans votre carnet.')
 })
+
+test.describe('mes notes (S36)', () => {
+  test('une note s’écrit dans la fiche, se garde et se relit au retour', async ({ page }) => {
+    const ligne = page.locator('button.ligne').first()
+    const nom = (await ligne.getAttribute('data-nom')) ?? ''
+    await ligne.click()
+    const note = page.getByTestId('ma-note')
+    await expect(note).toHaveAccessibleName('Ma note (sur cet appareil seulement)')
+    await note.fill('La blanche était excellente')
+    // La ligne dit qu'il y a une note, sans ouvrir la fiche (revue adverse S36).
+    await expect(page.locator(`button.ligne[data-nom="${nom}"]`)).toHaveAccessibleName(/\(avec ma note\)/)
+    await expect
+      .poll(async () => {
+        await page.reload()
+        await page.locator(`button.ligne[data-nom="${nom}"]`).click()
+        return page.getByTestId('ma-note').inputValue()
+      })
+      .toBe('La blanche était excellente')
+  })
+
+  test('une note ne part pas : ni dans le signalement, ni dans le lien copié', async ({ page, context }) => {
+    await context.grantPermissions(['clipboard-read', 'clipboard-write'])
+    await page.locator('button.ligne').first().click()
+    await page.getByTestId('ma-note').fill('secret-de-bernard')
+    const signaler = await page.getByRole('link', { name: 'Signaler une erreur sur cette fiche' }).getAttribute('href')
+    expect(decodeURIComponent(signaler ?? '')).not.toContain('secret-de-bernard')
+    await page.evaluate(() => {
+      Object.defineProperty(navigator, 'share', { value: undefined, configurable: true })
+    })
+    await page.getByTestId('bouton-partager').click()
+    await expect(page.getByTestId('partage-etat')).toHaveText('Lien copié.')
+    expect(decodeURIComponent(await page.evaluate(() => navigator.clipboard.readText()))).not.toContain(
+      'secret-de-bernard',
+    )
+  })
+
+  test('« tout effacer » efface les notes', async ({ page }) => {
+    const ligne = page.locator('button.ligne').first()
+    await ligne.click()
+    await page.getByTestId('ma-note').fill('à effacer')
+    await ouvrirFiltres(page)
+    await page.getByTestId('stockage-details').locator('summary').click()
+    await expect(page.getByTestId('stockage-texte')).toContainText('vos notes')
+    await page.getByTestId('tout-effacer').click()
+    await page.getByTestId('confirmer-effacer').click()
+    await expect(page.getByTestId('ma-note')).toHaveValue('')
+  })
+
+  test('une note n’excède pas 500 caractères', async ({ page }) => {
+    await page.locator('button.ligne').first().click()
+    await page.getByTestId('ma-note').fill('x'.repeat(600))
+    expect((await page.getByTestId('ma-note').inputValue()).length).toBe(500)
+  })
+})

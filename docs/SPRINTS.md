@@ -1834,3 +1834,25 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    - **(basse)** l'annonce d'effacement omettait le carnet.
    - Le reste de S33 : un test injecte un élément animé, pour prouver la
      garde « moins d'animations » en permanence.
+
+## S36 — Mes notes *(17/10)*
+
+1. **Fait** (`docs/stories/S36.md`) :
+   - « Ma note (sur cet appareil seulement) » dans la fiche, gardée à la
+     saisie, 500 caractères au plus ;
+   - la ligne signale une note (✎, lu « avec ma note ») ;
+   - les notes passent d'un onglet à l'autre ;
+   - « tout effacer » les vide ;
+   - jamais dans un lien : signalement et lien copié vérifiés.
+2. **Revue adverse** (36 k) :
+   - **(basse)** une espace tapée sur tout le texte effaçait la note : seul
+     un champ vide la retire (vu rouge) ;
+   - **(basse)** la coupe à 500 pouvait laisser une moitié d'emoji
+     (vu rouge) ;
+   - **(moyenne)** une note n'était visible que dans la fiche ouverte : la
+     ligne la signale.
+   - **Reportés au BACKLOG** :
+     - le curseur saute quand l'autre onglet écrit la même note (S104) ;
+     - les notes et visites orphelines ne sont pas listées (S103) ;
+     - l'écriture à chaque frappe n'est pas mesurée sur un téléphone lent
+       (S111).

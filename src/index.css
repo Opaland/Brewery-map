@@ -937,3 +937,19 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* S36 : ma note, dans la fiche. Le même habillage que les champs. */
+.fiche-note textarea {
+  font: inherit;
+  padding: var(--espace-4) var(--espace-6);
+  min-height: 44px;
+  border: 1px solid var(--bord-champ);
+  border-radius: var(--rayon-md);
+  background: var(--blanc-carte);
+  color: var(--encre);
+  resize: vertical;
+  max-width: 100%;
+}
+.fiche-note textarea::placeholder { color: var(--encre-douce); opacity: 1; }
+.fiche-note textarea:focus { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; border-color: var(--cuivre); }
+.fiche-note { margin-bottom: var(--espace-6); }

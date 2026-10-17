@@ -217,3 +217,11 @@ chacun demande une décision ou une vérification de source.
 ## Lots de curation non faits
 
 *(rempli en S5)*
+
+- S36 — restes de la revue adverse :
+  - deux onglets qui écrivent la même note : le dernier gagne, et le
+    curseur de l'autre saute en fin de texte (S104) ;
+  - notes et visites d'une brasserie disparue des données : gardées,
+    invisibles, effacées seulement par « tout effacer » (S103) ;
+  - une écriture IndexedDB à chaque frappe d'une note : non mesurée sur un
+    téléphone lent (S111).
