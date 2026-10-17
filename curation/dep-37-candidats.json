@@ -1,0 +1,700 @@
+[
+ {
+  "cle": "sirene:977747260",
+  "nom": "BRASSERIE DE L'AURORE",
+  "communes": [
+   "FONDETTES",
+   "TAUXIGNY-SAINT-BAULD",
+   "PARCAY-MESLAY"
+  ],
+  "departement": "37",
+  "adresses": [
+   "14 CHEMIN DE LA PETRIE 37230 FONDETTES",
+   "541 RUE GILLES DE GENNES 37310 TAUXIGNY-SAINT-BAULD",
+   "13 RUE DES AILES 37210 PARCAY-MESLAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977747260",
+  "sirets": [
+   "97774726000015",
+   "97774726000023",
+   "97774726000031",
+   "97774726000049"
+  ],
+  "osm": [],
+  "lat": 47.4233125361788,
+  "lon": 0.581338401823677,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881402127",
+  "nom": "BASM",
+  "communes": [
+   "DRACHE",
+   "SAINTE-MAURE-DE-TOURAINE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "2 LES MEREAUX 37800 DRACHE",
+   "66 RUE DE LOCHES 37800 SAINTE-MAURE-DE-TOURAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881402127",
+  "sirets": [
+   "88140212700016",
+   "88140212700024"
+  ],
+  "osm": [],
+  "lat": 47.06908195,
+  "lon": 0.6394078254,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "AMBOISE",
+   "VOUVRAY"
+  ],
+  "departement": "37",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:922336003",
+  "nom": "BRASSERIE SHOWTIME",
+  "communes": [
+   "ROCHECORBON",
+   "FONDETTES"
+  ],
+  "departement": "37",
+  "adresses": [
+   "30 RUE SAINT-GEORGES 37210 ROCHECORBON",
+   "7 RUE EDOUARD BRANLY 37230 FONDETTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922336003",
+  "sirets": [
+   "92233600300012",
+   "92233600300020"
+  ],
+  "osm": [],
+  "lat": 47.408111587,
+  "lon": 0.7356532549,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841651524",
+  "nom": "ART IS AN ALE BREWING",
+  "communes": [
+   "AMBOISE",
+   "NAZELLES-NEGRON"
+  ],
+  "departement": "37",
+  "adresses": [
+   "2 B RUE DU GENERAL FOY 37400 AMBOISE",
+   "4 B RUE DES ORMES 37530 NAZELLES-NEGRON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841651524",
+  "sirets": [
+   "84165152400016",
+   "84165152400024"
+  ],
+  "osm": [],
+  "lat": 47.4116853636181,
+  "lon": 0.986548624524244,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:903711273",
+  "nom": "LA FAMILONETTE",
+  "communes": [
+   "GIZEUX"
+  ],
+  "departement": "37",
+  "adresses": [
+   "22 RUE DES ECOLES 37340 GIZEUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "903711273",
+  "sirets": [
+   "90371127300032"
+  ],
+  "osm": [
+   "way/85731992"
+  ],
+  "lat": 47.391199661,
+  "lon": 0.1947961092,
+  "site": "https://lafamilonette.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:103012993",
+  "nom": "LABULLO",
+  "communes": [
+   "LA VILLE-AUX-DAMES"
+  ],
+  "departement": "37",
+  "adresses": [
+   "70 RUE GABRIELLE D'ESTREE 37700 LA VILLE-AUX-DAMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "103012993",
+  "sirets": [
+   "10301299300012"
+  ],
+  "osm": [],
+  "lat": 47.3972514382119,
+  "lon": 0.778204685627945,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909510968",
+  "nom": "LPBC",
+  "communes": [
+   "CHANCAY"
+  ],
+  "departement": "37",
+  "adresses": [
+   "22 RUE DE LA MAIRIE 37210 CHANCAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909510968",
+  "sirets": [
+   "90951096800011"
+  ],
+  "osm": [],
+  "lat": 47.450392912,
+  "lon": 0.8723841703,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:445122997",
+  "nom": "BRASSERIE DE LA PIGEONNELLE",
+  "communes": [
+   "CERE-LA-RONDE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "10 RUE DE LA RONDE 37460 CERE-LA-RONDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "445122997",
+  "sirets": [
+   "44512299700015"
+  ],
+  "osm": [],
+  "lat": 47.261798093,
+  "lon": 1.1958726552,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980879589",
+  "nom": "WABI BREWING",
+  "communes": [
+   "LOCHES"
+  ],
+  "departement": "37",
+  "adresses": [
+   "10 ROUTE DE VAUZELLES 37600 LOCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980879589",
+  "sirets": [
+   "98087958900011"
+  ],
+  "osm": [],
+  "lat": 47.140340325,
+  "lon": 0.9909153935,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LUSSAULT-SUR-LOIRE"
+  ],
+  "departement": "37",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:853317311",
+  "nom": "ASSOCIATION LA PIE",
+  "communes": [
+   "DOLUS-LE-SEC"
+  ],
+  "departement": "37",
+  "adresses": [
+   "1 MONTIFRAY 37310 DOLUS-LE-SEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853317311",
+  "sirets": [
+   "85331731100019"
+  ],
+  "osm": [],
+  "lat": 47.152662118,
+  "lon": 0.8708460671,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "VILLEBOURG"
+  ],
+  "departement": "37",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:882779192",
+  "nom": "BRASSERIE ARTISANALE BIO LA GIRONNETTE",
+  "communes": [
+   "LOCHE-SUR-INDROIS"
+  ],
+  "departement": "37",
+  "adresses": [
+   "LA GIRONNERIE 37460 LOCHE-SUR-INDROIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882779192",
+  "sirets": [
+   "88277919200013"
+  ],
+  "osm": [],
+  "lat": 47.088565511,
+  "lon": 1.1794432374,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908508005",
+  "nom": "BRASSERIE DES CANAILLES",
+  "communes": [
+   "ROCHECORBON"
+  ],
+  "departement": "37",
+  "adresses": [
+   "11 PL FERDINAND LEFEVRE 37210 ROCHECORBON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908508005",
+  "sirets": [
+   "90850800500018"
+  ],
+  "osm": [],
+  "lat": 47.415672437,
+  "lon": 0.755549596,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818496713",
+  "nom": "LA P'TITE MAIZ'",
+  "communes": [
+   "NOTRE-DAME-D'OE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "6 RUE ARISTIDE BRIAND 37390 NOTRE-DAME-D'OE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818496713",
+  "sirets": [
+   "81849671300020"
+  ],
+  "osm": [],
+  "lat": 47.438563477,
+  "lon": 0.6927885103,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981148109",
+  "nom": "HOOPOE",
+  "communes": [
+   "SAINT-PIERRE-DES-CORPS"
+  ],
+  "departement": "37",
+  "adresses": [
+   "23 RUE DE SAINT-GOBAIN 37700 SAINT-PIERRE-DES-CORPS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981148109",
+  "sirets": [
+   "98114810900011"
+  ],
+  "osm": [],
+  "lat": 47.3807410016565,
+  "lon": 0.722269588135701,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983493826",
+  "nom": "BRASSERIE NOVILA",
+  "communes": [
+   "NEUILLE-PONT-PIERRE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "ZAC LES NONGRENIERES 37360 NEUILLE-PONT-PIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983493826",
+  "sirets": [
+   "98349382600017"
+  ],
+  "osm": [],
+  "lat": 47.546057026,
+  "lon": 0.5381977911,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843586462",
+  "nom": "BRAS(SE)FORT",
+  "communes": [
+   "CHINON"
+  ],
+  "departement": "37",
+  "adresses": [
+   "21 RUE VOLTAIRE 37500 CHINON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "843586462",
+  "sirets": [
+   "84358646200015"
+  ],
+  "osm": [
+   "way/62468197"
+  ],
+  "lat": 47.167073885,
+  "lon": 0.2386673233,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "THELEMITE",
+  "communes": [
+   "CHEMILLE SUR DEME"
+  ],
+  "departement": "37",
+  "adresses": [
+   "FERME BRASSERIE FRANCOIS RABELAIS LA VINERDERIE 37370 CHEMILLE SUR DEME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100516384",
+  "nom": "LA BRASSERIE DU TEMPLE",
+  "communes": [
+   "BOURGUEIL"
+  ],
+  "departement": "37",
+  "adresses": [
+   "8 RUE DU POIDS 37140 BOURGUEIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100516384",
+  "sirets": [
+   "10051638400011"
+  ],
+  "osm": [],
+  "lat": 47.2818065686872,
+  "lon": 0.169433952136331,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920802345",
+  "nom": "KAPSYL",
+  "communes": [
+   "CHAMBRAY-LES-TOURS"
+  ],
+  "departement": "37",
+  "adresses": [
+   "19 RUE JEAN PERRIN 37170 CHAMBRAY-LES-TOURS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920802345",
+  "sirets": [
+   "92080234500016"
+  ],
+  "osm": [],
+  "lat": 47.34505517,
+  "lon": 0.728614415,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "PROFESSEUR LACTO",
+  "communes": [
+   "PREUILLY-SUR-CLAISE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "5 RUE CHAUMONT PATIN 37290 PREUILLY-SUR-CLAISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:991053323",
+  "nom": "BRASSERIE DIONYS",
+  "communes": [
+   "LA RICHE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "47 RUE DU GRAND CARROI 37520 LA RICHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "991053323",
+  "sirets": [
+   "99105332300010"
+  ],
+  "osm": [],
+  "lat": 47.383746119329,
+  "lon": 0.643549949870601,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "REUGNY"
+  ],
+  "departement": "37",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:895239218",
+  "nom": "UNE GABARE A HUSSEAU",
+  "communes": [
+   "MONTLOUIS-SUR-LOIRE"
+  ],
+  "departement": "37",
+  "adresses": [
+   "4 CHEMIN DES ROCHEROUX 37270 MONTLOUIS-SUR-LOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "895239218",
+  "sirets": [
+   "89523921800012"
+  ],
+  "osm": [],
+  "lat": 47.3920580744461,
+  "lon": 0.887434964978559,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:925300733",
+  "nom": "LOIRE CRAFT",
+  "communes": [
+   "LE BOULAY"
+  ],
+  "departement": "37",
+  "adresses": [
+   "1 LES PERRONNERIES 37110 LE BOULAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "925300733",
+  "sirets": [
+   "92530073300019"
+  ],
+  "osm": [],
+  "lat": 47.606074712,
+  "lon": 0.8142038207,
+  "statut": "ambigu",
+  "fiche": "Brasserie de la Loire"
+ },
+ {
+  "cle": "node/4174452214",
+  "nom": "Le Chalet",
+  "communes": [
+   "Bléré"
+  ],
+  "departement": "37",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4174452214"
+  ],
+  "lat": 47.32808,
+  "lon": 0.99135,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5823841563",
+  "nom": "Crafty Brewpub (Tours)",
+  "communes": [
+   "Tours"
+  ],
+  "departement": "37",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5823841563"
+  ],
+  "lat": 47.3942,
+  "lon": 0.68643,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/63809771",
+  "nom": "Brasserie de l'Aurore",
+  "communes": [
+   "Cormery"
+  ],
+  "departement": "37",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/63809771"
+  ],
+  "lat": 47.26251,
+  "lon": 0.83398,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE L'AURORE"
+ },
+ {
+  "cle": "way/69792802",
+  "nom": "Brasserie L'Univers",
+  "communes": [
+   "Tours"
+  ],
+  "departement": "37",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/69792802"
+  ],
+  "lat": 47.38963,
+  "lon": 0.68977,
+  "site": "https://www.brasserie-univers.com/",
+  "statut": "nouveau"
+ }
+]
