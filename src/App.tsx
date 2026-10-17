@@ -603,6 +603,7 @@ export function App({
                 setFavorisSeulement(v)
               }}
               stockageDisponible={stockage.disponible}
+              versionFuture={stockage.versionFuture}
               onEffacer={toutEffacer}
               tournee={tournee}
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}

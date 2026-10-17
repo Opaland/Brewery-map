@@ -216,6 +216,29 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
     // ici on laisse à l'écriture le temps de partir, puis on relit.
     await page.waitForTimeout(800)
     expect(await lireGarde(page)).toEqual(futur)
+    // La raison dite est la vraie, et la sauvegarde par fichier reste
+    // offerte (revue adverse S238 : « navigation privée », sans issue).
+    await ouvrirFiltres(page)
+    await expect(page.getByTestId('stockage-texte')).toContainText('Une version plus récente')
+    await expect(page.getByTestId('stockage-texte')).not.toContainText('navigation privée')
+    await expect(page.getByTestId('enregistrer-sauvegarde')).toBeVisible()
+  })
+
+  test('un onglet ouvert avant ne réécrit pas ce qu’une version plus récente garde ensuite (S238)', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.locator('button.ligne').nth(1)).toBeVisible()
+    const noms = await page.locator('button.ligne').evaluateAll((b) => b.slice(0, 2).map((e) => e.getAttribute('data-nom') ?? ''))
+    await ecrireGarde(page, { version: 1, favoris: [noms[0]], rayonKm: 40 })
+    await page.reload()
+    await expect(page.getByTestId('compte')).toContainText('40 km')
+    // Cet onglet a ouvert son stockage en version 1 ; une version plus
+    // récente écrit ensuite, comme depuis une autre fenêtre.
+    const futur = { version: 2, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
+    await ecrireGarde(page, futur)
+    await ligne(page, noms[1] ?? '').click()
+    await page.getByRole('button', { name: /Ajouter à mes favoris/ }).click()
+    await page.waitForTimeout(800)
+    expect(await lireGarde(page)).toEqual(futur)
   })
 
   test('témoin : en version 1, le même geste écrit (S238)', async ({ page }) => {

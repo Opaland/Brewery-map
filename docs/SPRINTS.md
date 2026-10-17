@@ -2221,12 +2221,14 @@ Story d'abord (`docs/stories/S237.md`). Sortis dans `src/crochets.ts` :
 changement visible (suite e2e entière à la porte). Le carnet entre onglets
 a son test de composant (deux onglets montés, favori, visite, note,
 effacement, pas d'écho) : vu rouge sans l'envoi des favoris, et sans la
-mémoire anti-écho.
+mémoire anti-écho des favoris (celles des visites et des notes : voir la
+correction de la revue adverse, plus bas).
 
 ## S234 (3/3) — WebKit, deuxième passage *(17/10)*
 
-173 réussis, 2 échecs, 4 instables. Le test de diagnostic prouve que la
-carte s'affiche sous WebKit : elle arrive seulement plus lentement (≈ 1 Mo)
+173 réussis, 2 échecs, 4 instables. La carte arrive plus lentement sous
+WebKit (≈ 1 Mo) — le test de diagnostic acceptait alors la carte *ou* son
+message, il ne prouvait donc pas qu'elle s'affiche (corrigé plus bas)
 → `versLaCarte` attend 15 s (attente de test). L'adresse `?raccourci=` lue
 trop tôt → `expect.poll`. La pression simulée à la souris ne donne pas
 `:active` sous WebKit émulé → Chromium seulement, iPhone réel en S96.
@@ -2250,3 +2252,22 @@ tests qui ont besoin de la carte dessinée ne portent pas sur ce moteur
 Le profil Firefox de bureau devient **Firefox pour Android** (écran de
 téléphone, toucher, agent Android) : les tests du téléphone et de « Y
 aller » (liens Android) s'y appliquent.
+
+## PR #84 — corrections de la revue adverse *(17/10)*
+
+- **S238** : avec un stockage d'une version plus récente, l'écran disait
+  « navigation privée » et retirait la sauvegarde par fichier. Il dit
+  maintenant la vraie raison, et la sauvegarde reste (`versionFuture`). La
+  garde n'était lue qu'à l'ouverture : un onglet ouvert avant réécrivait ce
+  qu'une version plus récente gardait ensuite. Elle est relue à l'écriture,
+  dans la même transaction (test e2e ajouté).
+- **S237** : la mémoire anti-écho des visites et des notes n'était tenue par
+  aucun test (mutant survivant). Deux tests ajoutés, vus rouges chacun sans
+  sa mémoire.
+- **S234** : `versLaCarte` sautait sur tout message « carte absente » hors
+  Chromium, donc une carte cassée sous WebKit devenait un saut vert. Il ne
+  saute plus que si la page n'a pas WebGL ; `carte-moteurs.spec.ts` exige la
+  carte là où WebGL existe. Trois sauts « écran émulé sur Chromium
+  seulement » retirés (la taille se pose sur tout moteur). Un
+  `PW_NAVIGATEUR` inconnu échoue au lieu de lancer Chromium. Le tri est
+  rassemblé dans `docs/NAVIGATEURS.md`, cité mais absent jusque-là.

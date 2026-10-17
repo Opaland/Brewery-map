@@ -13,6 +13,7 @@ interface Props {
   onSeulement: (v: boolean) => void
   /** Vrai quand ce navigateur ne laisse rien garder (navigation privée…). */
   stockageDisponible: boolean
+  versionFuture: boolean
   onEffacer: () => void
   /** Ma tournée (S27) : les étapes dans l'ordre, et le lien qui les ouvre. */
   tournee?: { etapes: readonly string[]; image: readonly EtapeImage[]; lien: string; total: number }
@@ -35,6 +36,7 @@ export function MesFavoris({
   seulement,
   onSeulement,
   stockageDisponible,
+  versionFuture,
   onEffacer,
   tournee,
   nbVisites,
@@ -169,6 +171,13 @@ export function MesFavoris({
           </div>
           {children}
         </details>
+      ) : versionFuture ? (
+        <div className="confidentialite">
+          <p className="champ-aide" data-testid="stockage-texte">
+            {t('Une version plus récente de Mousse de Poche a gardé vos favoris, votre carnet, vos notes et vos réglages sur cet appareil : cette page les lit sans les modifier. Rechargez-la pour retrouver la dernière version.')}
+          </p>
+          {children}
+        </div>
       ) : (
         <p className="champ-aide" data-testid="stockage-texte">
           {t('Ce navigateur ne permet pas de garder vos favoris, votre carnet, vos notes et vos réglages (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.')}

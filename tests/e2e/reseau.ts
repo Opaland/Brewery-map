@@ -39,12 +39,24 @@ export async function versLaCarte(page: Page, options: { sansWebGLAttendu?: bool
   // S234 : sans WebGL (Firefox sans écran en CI), la carte dit qu'elle ne
   // peut pas s'afficher — c'est le bon comportement, vérifié par
   // carte-moteurs.spec.ts. Les tests qui ont besoin de la carte dessinée ne
-  // portent alors pas sur ce moteur ; sous Chromium, la carte doit être là.
+  // portent alors pas sur ce moteur. Le saut se décide sur WebGL lui-même,
+  // pas sur le message : `carte-absente` s'affiche sur toute erreur de
+  // MapLibre, et un vrai échec de la carte devenait un saut vert (revue
+  // adverse S234).
   if (options.sansWebGLAttendu !== true && (await page.getByTestId('carte-absente').count()) > 0) {
-    const moteur = page.context().browser()?.browserType().name()
+    const moteur = page.context().browser()?.browserType().name() ?? '?'
+    if (await pageAWebGL(page)) throw new Error(`carte absente sous ${moteur} alors que WebGL y est`)
     if (moteur === 'chromium') throw new Error('carte absente sous Chromium : WebGL devrait y être')
-    test.skip(true, `pas de WebGL sous ${moteur ?? '?'} en CI : la carte dit qu'elle ne peut pas s'afficher`)
+    test.skip(true, `pas de WebGL sous ${moteur} en CI : la carte dit qu'elle ne peut pas s'afficher`)
   }
+}
+
+/** La page peut-elle dessiner en WebGL (ce dont MapLibre a besoin) ? */
+export function pageAWebGL(page: Page): Promise<boolean> {
+  return page.evaluate(() => {
+    const c = document.createElement('canvas')
+    return c.getContext('webgl2') !== null || c.getContext('webgl') !== null
+  })
 }
 
 /**

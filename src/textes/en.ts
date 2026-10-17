@@ -117,6 +117,8 @@ export const EN: Readonly<Record<string, string>> = {
   "Oui, tout effacer": "Yes, erase everything",
   "Annuler": "Cancel",
   "Effacer favoris, carnet, notes et réglages": "Erase favourites, logbook, notes and settings",
+  "Une version plus récente de Mousse de Poche a gardé vos favoris, votre carnet, vos notes et vos réglages sur cet appareil : cette page les lit sans les modifier. Rechargez-la pour retrouver la dernière version.":
+    "A newer version of Mousse de Poche saved your favourites, logbook, notes and settings on this device: this page reads them without changing them. Reload it to get the latest version.",
   "Ce navigateur ne permet pas de garder vos favoris, votre carnet, vos notes et vos réglages (navigation privée, ou stockage bloqué) : ils seront oubliés en fermant la page.": "This browser cannot keep your favourites, logbook, notes and settings (private browsing, or storage blocked): they will be forgotten when the page closes.",
   "Partager": "Share",
   "Lien copié.": "Link copied.",

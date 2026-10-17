@@ -147,7 +147,7 @@ export function lirePreferences(brut: unknown): Preferences {
     ? [...new Set(g.favoris.filter((f): f is string => typeof f === 'string' && f !== ''))]
     : d.favoris
   const type = lire(CHAMPS.type, g.type, undefined)
-    return {
+  return {
     version: VERSION_PREFERENCES,
     rayonKm: lire(CHAMPS.rayonKm, g.rayonKm, d.rayonKm),
     categories: lire(CHAMPS.categories, g.categories, d.categories),

@@ -65,9 +65,8 @@ test('le statut des communes ne dit pas « à moins de 100 km » de communes plu
 
 test.describe('ordinateur', () => {
   test.use({ viewport: { width: 1280, height: 800 }, isMobile: false, hasTouch: false })
-  // Un écran d'ordinateur émulé à partir du profil de téléphone : seul
-  // Chromium le change vraiment ; Safari d'iPhone n'a pas d'écran de 1280 (S234).
-  test.skip(({ browserName }) => browserName !== 'chromium', 'écran d’ordinateur émulé sur Chromium seulement')
+  // Sur chaque moteur : la taille d'écran se pose partout, seul `isMobile`
+  // est propre à Chromium (revue adverse S234, le saut disait le contraire).
 
   test('une brasserie est dans le premier écran', async ({ page }) => {
     const haut = await page.locator('button.ligne').first().evaluate((e) => e.getBoundingClientRect().top)
@@ -113,8 +112,7 @@ test.describe('le compte collant ne cache aucun focus (WCAG 2.4.11, revue advers
   }
 })
 
-test('à 320 px, l’option active des communes est peinte, pas sous le compte (revue adverse)', async ({ page, browserName }) => {
-  test.skip(browserName !== 'chromium', 'écran de 320 px émulé sur Chromium seulement (S234)')
+test('à 320 px, l’option active des communes est peinte, pas sous le compte (revue adverse)', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 568 })
   const champ = page.getByTestId('commune-depart')
   await champ.fill('lyon')

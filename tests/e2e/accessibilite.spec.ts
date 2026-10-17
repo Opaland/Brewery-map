@@ -340,7 +340,6 @@ test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page })
 
 test.describe('ordinateur : la liste est à côté, pas d’aperçu (S32)', () => {
   test.use({ viewport: { width: 1280, height: 800 }, isMobile: false, hasTouch: false })
-  test.skip(({ browserName }) => browserName !== 'chromium', 'écran d’ordinateur émulé sur Chromium seulement (S234)')
   test('choisir un marqueur porte le focus sur la ligne ouverte', async ({ page }) => {
     await ouvrir(page)
     await versLaCarte(page)
@@ -385,8 +384,7 @@ test('à 320 px de large (zoom 400 %), rien ne déborde à l’horizontale (WCAG
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320)
 })
 
-test('sur grand écran aussi : axe et cibles (1280 × 800)', async ({ page, browserName }) => {
-  test.skip(browserName !== 'chromium', 'écran d’ordinateur émulé sur Chromium seulement (S234)')
+test('sur grand écran aussi : axe et cibles (1280 × 800)', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 })
   await ouvrir(page)
   await carteChargee(page)

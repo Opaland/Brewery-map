@@ -46,6 +46,34 @@ describe('le carnet entre onglets (S237)', () => {
     expect(a.recu.favoris).not.toHaveBeenCalled()
   })
 
+  // Chaque partie du carnet a sa propre mémoire anti-écho : une par partie,
+  // vue rouge une à une (revue adverse S237 : seuls les favoris l'étaient).
+  it('une visite reçue n’est pas renvoyée (pas d’écho)', async () => {
+    const a = onglet()
+    const b = onglet()
+    const visites = [{ nom: 'Caribrew', date: '2026-10-17' }]
+    a.rerender({ ...VIDE, visites })
+    await waitFor(() => {
+      expect(b.recu.visites).toHaveBeenCalledWith(visites)
+    })
+    b.rerender({ ...VIDE, visites })
+    await new Promise((r) => setTimeout(r, 50))
+    expect(a.recu.visites).not.toHaveBeenCalled()
+  })
+
+  it('une note reçue n’est pas renvoyée (pas d’écho)', async () => {
+    const a = onglet()
+    const b = onglet()
+    const notes = [{ nom: 'Caribrew', texte: 'La blanche.' }]
+    a.rerender({ ...VIDE, notes })
+    await waitFor(() => {
+      expect(b.recu.notes).toHaveBeenCalledWith(notes)
+    })
+    b.rerender({ ...VIDE, notes })
+    await new Promise((r) => setTimeout(r, 50))
+    expect(a.recu.notes).not.toHaveBeenCalled()
+  })
+
   it('l’effacement fait dans un onglet arrive dans l’autre', async () => {
     const a = onglet()
     const b = onglet()
