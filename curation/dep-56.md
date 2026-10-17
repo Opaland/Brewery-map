@@ -17,9 +17,9 @@ Catégories proposées : 3 « acheter et consommer », 6 « acheter seulement »
 
 **Non lus** : 2 entreprises sans nom (personnes, sans enseigne). En Normandie, aucune n'avait pu être trouvée.
 
-**Untappd** : le lot n'a pas de champ pour les liens ; ceux qu'un agent a ouverts sont cités dans « choix du vérificateur ».
+**Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Téléphones, horaires** : non repris ici (pas de champ dans ce lot). Ceux que les pages publient sont cités dans les notes ou les choix.
+**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -62,6 +62,9 @@ Catégories proposées : 3 « acheter et consommer », 6 « acheter seulement »
 - beers.0.type : (vide) → ipa
 - beers.1.type : (vide) → blanche
 - beers.2.type : (vide) → stout
+- contact.site : (vide) → https://beer.grandcoeff.bzh/
+- contact.source : (vide) → https://beer.grandcoeff.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://beer.grandcoeff.bzh/ ; https://data.geopf.fr/geocodage/search?q=4+rue+Victor+Hugo%2C+56410+%C3%89tel&limit=5
@@ -108,6 +111,9 @@ Choix du vérificateur : OSM la plaçait à Sainte-Hélène.
 - src : (vide) → https://www.microbrasserie-vol56.fr
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.microbrasserie-vol56.fr/
+- contact.source : (vide) → https://www.microbrasserie-vol56.fr
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.microbrasserie-vol56.fr
@@ -131,6 +137,9 @@ Choix du vérificateur : Site en JavaScript. Position au centre de Sarzeau.
 - src : (vide) → http://www.labambelle.com
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → http://www.labambelle.com/
+- contact.source : (vide) → http://www.labambelle.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : http://www.labambelle.com
@@ -175,6 +184,9 @@ Choix du vérificateur : Site officiel en 403.
 - src : (vide) → https://anebrasseur.fr/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://anebrasseur.fr/
+- contact.source : (vide) → https://anebrasseur.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://anebrasseur.fr/
@@ -244,6 +256,9 @@ Choix du vérificateur : Fiche de tourisme seulement. Position au centre de Sain
 - src : (vide) → https://brasserie-gwennili.fr/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://brasserie-gwennili.fr/
+- contact.source : (vide) → https://brasserie-gwennili.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserie-gwennili.fr/
@@ -412,6 +427,9 @@ Choix du vérificateur : SIRENE déclare Locqueltas. Téléphone de la fiche : 0
 - src : (vide) → https://microbrasseriebarque.bzh
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.site : (vide) → https://microbrasseriebarque.bzh/
+- contact.source : (vide) → https://microbrasseriebarque.bzh
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://microbrasseriebarque.bzh ; https://data.geopf.fr/geocodage/search?q=4+chemin+des+Tanneurs%2C+56140+Malestroit&limit=5
@@ -459,6 +477,9 @@ Choix du vérificateur : Site brasserieetrille.com injoignable (DNS).
 - coordPrecision : (vide) → commune
 - beers.0.type : (vide) → blonde
 - beers.1.type : (vide) → ipa
+- contact.site : (vide) → https://www.brasserie-domani.fr/
+- contact.source : (vide) → https://www.brasserie-domani.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-domani.fr/
@@ -504,13 +525,16 @@ Extrait lu : « Passer un moment convivial au pied des cuves dans notre bar HORI
 - coordPrecision : (vide) → commune
 - beers.0.type : (vide) → sour
 - beers.1.type : (vide) → stout
+- contact.untappd : (vide) → https://untappd.com/MicrobrasserieHorla
+- contact.source : (vide) → https://untappd.com/MicrobrasserieHorla
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://untappd.com/MicrobrasserieHorla
 
 Extrait lu : « Grand-Champ, 56 - BZH »
 
-Choix du vérificateur : Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ.
+Choix du vérificateur : Page Untappd seulement. Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ.
 
 ### 21. Microbrasserie l'Esk'ale — fiche nouvelle
 
@@ -582,4 +606,4 @@ Extrait lu : « du lundi au vendredi de 10h à 12h30 et de 13h30 à 17h »
 
 Choix du vérificateur : Même brasserie que le point OSM node/6419074234. Brasserie du groupe Agrial (presse) : à Cédric de juger du périmètre.
 
-Empreinte du lot : 71369308286c
+Empreinte du lot : 5acbb9ab8623

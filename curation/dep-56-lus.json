@@ -141,7 +141,11 @@
   "src": "https://microbrasseriebarque.bzh",
   "extrait": "des fûts de 20L sont disponibles à la vente",
   "beers": [],
-  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où."
+  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où.",
+  "contact": {
+   "site": "https://microbrasseriebarque.bzh/",
+   "source": "https://microbrasseriebarque.bzh"
+  }
  },
  {
   "cle": "sirene:909464836",
@@ -161,7 +165,11 @@
     "type": "stout"
    }
   ],
-  "choix": "Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
+  "choix": "Page Untappd seulement. Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ.",
+  "contact": {
+   "untappd": "https://untappd.com/MicrobrasserieHorla",
+   "source": "https://untappd.com/MicrobrasserieHorla"
+  }
  },
  {
   "cle": "sirene:908884422",
@@ -238,7 +246,11 @@
   "src": "https://brasserie-gwennili.fr/",
   "extrait": "En vente directe",
   "beers": [],
-  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où. Position au centre de Locoal-Mendon."
+  "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où. Position au centre de Locoal-Mendon.",
+  "contact": {
+   "site": "https://brasserie-gwennili.fr/",
+   "source": "https://brasserie-gwennili.fr/"
+  }
  },
  {
   "cle": "sirene:904000544",
@@ -258,7 +270,11 @@
     "type": "ipa"
    }
   ],
-  "choix": "Position au centre de Theix-Noyalo."
+  "choix": "Position au centre de Theix-Noyalo.",
+  "contact": {
+   "site": "https://www.brasserie-domani.fr/",
+   "source": "https://www.brasserie-domani.fr/"
+  }
  },
  {
   "cle": "node/12409587194",
@@ -281,7 +297,11 @@
     "type": "stout"
    }
   ],
-  "choix": "Même adresse que sirene:897811709 (Étel), probablement la même brasserie."
+  "choix": "Même adresse que sirene:897811709 (Étel), probablement la même brasserie.",
+  "contact": {
+   "site": "https://beer.grandcoeff.bzh/",
+   "source": "https://beer.grandcoeff.bzh/"
+  }
  },
  {
   "cle": "node/12803083327",
@@ -307,7 +327,11 @@
   "src": "https://www.microbrasserie-vol56.fr",
   "extrait": "Microbrasserie VOL 56 | bières artisanales | Sarzeau, France",
   "beers": [],
-  "choix": "Site en JavaScript. Position au centre de Sarzeau."
+  "choix": "Site en JavaScript. Position au centre de Sarzeau.",
+  "contact": {
+   "site": "https://www.microbrasserie-vol56.fr/",
+   "source": "https://www.microbrasserie-vol56.fr"
+  }
  },
  {
   "cle": "node/4477695357",
@@ -319,7 +343,11 @@
   "note": "Brasserie qui distribue dans le département ; rien sur la vente sur place ni les horaires.",
   "src": "http://www.labambelle.com",
   "extrait": "dans le département et quelques communes des départements voisins",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "http://www.labambelle.com/",
+   "source": "http://www.labambelle.com"
+  }
  },
  {
   "cle": "node/6813884809",
@@ -349,7 +377,11 @@
   "src": "https://anebrasseur.fr/",
   "extrait": "Micro-Brasserie Artisanale",
   "beers": [],
-  "choix": "Téléphone publié : 02 56 62 61 03."
+  "choix": "Téléphone publié : 02 56 62 61 03.",
+  "contact": {
+   "site": "https://anebrasseur.fr/",
+   "source": "https://anebrasseur.fr/"
+  }
  },
  {
   "cle": "personne:5",

@@ -21,7 +21,13 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "http://www.brasseriedeguerledan.bzh/",
+    "source": "http://www.brasseriedeguerledan.bzh/",
+    "tel": "02 96 66 20 99",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

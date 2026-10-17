@@ -21,7 +21,12 @@
     {
      "type": "blanche"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://lebrasseurbavarois.fr/",
+    "source": "https://lebrasseurbavarois.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -21,14 +21,20 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://smash.bzh/",
+    "source": "https://smash.bzh",
+    "tel": "02 90 22 87 00",
+    "untappd": "https://untappd.com/brasserie_smash",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
    "https://smash.bzh",
    "https://data.geopf.fr/geocodage/search?q=4+bis+Rue+du+Lieutenant+Colonel+Dubois%2C+35000+Rennes&limit=5"
   ],
-  "extrait": "du lundi au vendredi 9h00 - 18h00",
-  "choix": "Page Untappd citée par le site : https://untappd.com/brasserie_smash/ (non reprise). Téléphone publié : 02 90 22 87 00."
+  "extrait": "du lundi au vendredi 9h00 - 18h00"
  }
 }

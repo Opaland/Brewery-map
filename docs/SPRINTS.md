@@ -2570,3 +2570,21 @@ pages, et un extrait sur trois ne se retrouvait pas tel quel.
 
 Les trois lots modifiés repassent `controler` sans écart ; leurs empreintes
 changent.
+
+## S261 — Les lots départementaux portent les contacts lus *(17/10)*
+
+`docs/stories/S261.md`. Les liens Untappd et les téléphones lus en Bretagne
+restaient dans les notes : `outils/departement.ts lectures` n'avait pas de
+champ pour eux.
+- `ajoutDeLecture` (`src/core/candidats.ts`) fait d'une lecture une fiche
+  nouvelle, contact compris. Elle est écrite test d'abord.
+- La règle « le contact cite une page lue, ce jour-là » ne valait que pour
+  les propositions. Elle devient une fonction partagée avec les fiches
+  nouvelles (`ajoutSchema`), CLAUDE.md §4.
+- `controler` relit le contact sur sa page (`contactSurLaPage`) : le
+  téléphone par `numeroSurLaPage`, le lien Untappd entier (un lien tronqué
+  ne passe pas).
+- Lots bretons : 47 fiches portent un contact, avec 45 sites, 9 téléphones
+  fixes et 6 liens Untappd (Arvarus, Smash, Skumenn, Choque, Horla, Lion
+  d'Or). Les quatre lots passent `controler` sans écart. Leurs empreintes
+  changent.

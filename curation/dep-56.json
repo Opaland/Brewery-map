@@ -26,7 +26,12 @@
      {
       "type": "stout"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://beer.grandcoeff.bzh/",
+     "source": "https://beer.grandcoeff.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -74,7 +79,12 @@
     "addr": "Sarzeau",
     "src": "https://www.microbrasserie-vol56.fr",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.microbrasserie-vol56.fr/",
+     "source": "https://www.microbrasserie-vol56.fr",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -97,7 +107,12 @@
     "addr": "Lanvaux, 56220 Saint-Gravé",
     "src": "http://www.labambelle.com",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "http://www.labambelle.com/",
+     "source": "http://www.labambelle.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -147,7 +162,12 @@
     "addr": "Lann Guilloux, 56480 Saint-Aignan",
     "src": "https://anebrasseur.fr/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://anebrasseur.fr/",
+     "source": "https://anebrasseur.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -216,7 +236,12 @@
     "addr": "Locoal-Mendon",
     "src": "https://brasserie-gwennili.fr/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie-gwennili.fr/",
+     "source": "https://brasserie-gwennili.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -413,7 +438,12 @@
     "addr": "4 chemin des Tanneurs, 56140 Malestroit",
     "src": "https://microbrasseriebarque.bzh",
     "coordPrecision": "address",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://microbrasseriebarque.bzh/",
+     "source": "https://microbrasseriebarque.bzh",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -468,7 +498,12 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.brasserie-domani.fr/",
+     "source": "https://www.brasserie-domani.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -521,14 +556,19 @@
      {
       "type": "stout"
      }
-    ]
+    ],
+    "contact": {
+     "untappd": "https://untappd.com/MicrobrasserieHorla",
+     "source": "https://untappd.com/MicrobrasserieHorla",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://untappd.com/MicrobrasserieHorla"
    ],
    "extrait": "Grand-Champ, 56 - BZH",
-   "choix": "Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
+   "choix": "Page Untappd seulement. Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
   },
   {
    "fiche": {

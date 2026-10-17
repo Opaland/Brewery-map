@@ -14,7 +14,12 @@
    "addr": "10 rue de l'Europe, 22680 Binic-Étables-sur-Mer",
    "src": "https://www.brasserie-uncle.com",
    "coordPrecision": "address",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-uncle.com/",
+    "source": "https://www.brasserie-uncle.com",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

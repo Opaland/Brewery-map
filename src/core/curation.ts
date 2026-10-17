@@ -82,6 +82,12 @@ export const ajoutSchema = z
   .refine((a) => brasserieSchema.safeParse({ ...a.fiche, verifieLe: a.verifieLe }).success, {
     message: 'la fiche ajoutée ne passe pas le schéma d’une brasserie',
   })
+  // Même règle que pour une proposition (S261) : le contact cite une page lue, ce jour-là.
+  .superRefine((a, ctx) => {
+    for (const message of blocsMalPrisDesSources(blocsDates(a.fiche.contact, a.fiche.horaires), a.sources, a.verifieLe)) {
+      ctx.addIssue({ code: 'custom', message })
+    }
+  })
 
 export type Ajout = z.infer<typeof ajoutSchema>
 
@@ -105,10 +111,27 @@ function preuvesCoherentes(p: Proposition): string[] {
   if (p.changements.coordPrecision === 'address' && !p.sources.some((u) => u.startsWith(GEOCODEUR))) {
     erreurs.push('une position « address » cite le géocodeur parmi ses sources')
   }
-  const blocs = [...(contact === undefined ? [] : [{ nom: 'contact', b: contact }]), ...(horaires ?? []).map((b, i) => ({ nom: `horaires.${String(i)}`, b }))]
+  erreurs.push(...blocsMalPrisDesSources(blocsDates(contact, horaires), p.sources, p.verifieLe))
+  return erreurs
+}
+
+type BlocDate = { source: string; verifieLe: string }
+
+function blocsDates(contact: BlocDate | undefined, horaires: readonly BlocDate[] | undefined): { nom: string; b: BlocDate }[] {
+  return [...(contact === undefined ? [] : [{ nom: 'contact', b: contact }]), ...(horaires ?? []).map((b, i) => ({ nom: `horaires.${String(i)}`, b }))]
+}
+
+/**
+ * La garde commune aux propositions et aux fiches nouvelles (S261, CLAUDE.md
+ * §4) : chaque bloc daté (contact, horaires) cite une des sources lues, et
+ * porte la date de la lecture.
+ */
+function blocsMalPrisDesSources(blocs: readonly { nom: string; b: BlocDate }[], sources: readonly string[], verifieLe: string): string[] {
+  const lues = new Set(sources)
+  const erreurs: string[] = []
   for (const { nom, b } of blocs) {
     if (!lues.has(b.source)) erreurs.push(`${nom}.source n’est pas une des sources lues`)
-    if (b.verifieLe !== p.verifieLe) erreurs.push(`${nom}.verifieLe diffère de la date de la proposition`)
+    if (b.verifieLe !== verifieLe) erreurs.push(`${nom}.verifieLe diffère de la date de la lecture`)
   }
   return erreurs
 }
@@ -426,6 +449,29 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const corps = [premier, ...reste].join(sep)
   const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
   return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+}
+
+/**
+ * Ce que la page du contact ne montre pas (S261) : `tel` (par
+ * `numeroSurLaPage`), `untappd` (le lien y figure, ou c'est la page Untappd
+ * elle-même ; casse et barre finale ignorées), `site` (c'est le même hôte
+ * que la page lue, ou la page cite cet hôte). Liste vide : tout est lu.
+ */
+export function contactSurLaPage(
+  contact: { tel?: string; site?: string; untappd?: string; source: string },
+  page: string,
+): ('tel' | 'site' | 'untappd')[] {
+  const sansWww = (h: string) => h.replace(/^www\./, '')
+  const hote = (u: string) => sansWww(new URL(u).hostname.toLowerCase())
+  const chemin = (u: string) => `${hote(u)}${new URL(u).pathname.replace(/\/+$/, '')}`.toLowerCase()
+  const bas = page.toLowerCase()
+  const absents: ('tel' | 'site' | 'untappd')[] = []
+  if (contact.tel !== undefined && !numeroSurLaPage(contact.tel, page)) absents.push('tel')
+  if (contact.site !== undefined && hote(contact.site) !== hote(contact.source) && !bas.includes(hote(contact.site))) absents.push('site')
+  if (contact.untappd !== undefined && chemin(contact.untappd) !== chemin(contact.source) && !new RegExp(`${chemin(contact.untappd).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`).test(bas)) {
+    absents.push('untappd')
+  }
+  return absents
 }
 
 const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }

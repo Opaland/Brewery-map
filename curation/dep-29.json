@@ -59,7 +59,13 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 98 93 00 70",
+     "site": "https://brasserie-coreff.com/",
+     "source": "https://brasserie-coreff.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -67,7 +73,7 @@
     "https://data.geopf.fr/geocodage/search?q=2+Place+de+la+Gare%2C+29270+Carhaix-Plouguer&limit=5"
    ],
    "extrait": "Chaque samedi matin pendant le marché, rendez-vous à l’Ambasad pour les sessions dégustations",
-   "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35. Téléphone publié : 02 98 93 00 70 (non repris, le lot n'a pas de champ contact)."
+   "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35."
   },
   {
    "fiche": {
@@ -83,7 +89,12 @@
     "addr": "Concarneau",
     "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-bretagne.fr/",
+     "source": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -130,7 +141,12 @@
     "addr": "Lestevennok, 29260 Plouider",
     "src": "https://www.distribilh.bzh/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.distribilh.bzh/",
+     "source": "https://www.distribilh.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -186,14 +202,20 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "09 81 00 11 08",
+     "site": "https://arvarus.bzh/",
+     "untappd": "https://untappd.com/Arvarus",
+     "source": "https://arvarus.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://arvarus.bzh/"
    ],
-   "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin",
-   "choix": "Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact)."
+   "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin"
   },
   {
    "fiche": {
@@ -209,7 +231,12 @@
     "addr": "Brest",
     "src": "https://enbieresinconnues.fr/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://enbieresinconnues.fr/",
+     "source": "https://enbieresinconnues.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -263,7 +290,12 @@
      {
       "type": "blonde"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.le-grain-du-ponant.com/",
+     "source": "https://www.le-grain-du-ponant.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -300,7 +332,12 @@
      {
       "type": "stout"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://sklent.bzh/",
+     "source": "https://sklent.bzh/contact/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -324,7 +361,12 @@
     "addr": "Kermenguy, 29100 Le Juch",
     "src": "https://brasseriediaoul.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://brasseriediaoul.com/",
+     "source": "https://brasseriediaoul.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -380,7 +422,12 @@
     "addr": "Rue Neuve, 29253 Île-de-Batz",
     "src": "https://www.microbrasseriepab.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.microbrasseriepab.com/",
+     "source": "https://www.microbrasseriepab.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -413,7 +460,12 @@
      {
       "type": "lager"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://fr.kauribrewery.com/",
+     "source": "https://fr.kauribrewery.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -459,7 +511,12 @@
     "addr": "4 rue de la Garenne, 29830 Plouguin",
     "src": "https://sibin.beer/contact",
     "coordPrecision": "address",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://sibin.beer/",
+     "source": "https://sibin.beer/contact",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -511,7 +568,13 @@
      {
       "type": "blonde"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 98 29 77 43",
+     "site": "https://www.brasseriekeravale.fr/",
+     "source": "https://www.brasseriekeravale.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [

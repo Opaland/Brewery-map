@@ -52,7 +52,12 @@
     "type": "ipa"
    }
   ],
-  "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35. Téléphone publié : 02 98 93 00 70 (non repris, le lot n'a pas de champ contact)."
+  "choix": "Coreff a aussi un site à Liffré (35), candidat du lot dep-35.",
+  "contact": {
+   "site": "https://brasserie-coreff.com/",
+   "source": "https://brasserie-coreff.com/",
+   "tel": "02 98 93 00 70"
+  }
  },
  {
   "cle": "sirene:949661300",
@@ -114,7 +119,11 @@
     "type": "stout"
    }
   ],
-  "choix": "Horaires lus par un agent (vendredi 15 h-19 h), non repris."
+  "choix": "Horaires lus par un agent (vendredi 15 h-19 h), non repris.",
+  "contact": {
+   "site": "https://sklent.bzh/",
+   "source": "https://sklent.bzh/contact/"
+  }
  },
  {
   "cle": "sirene:901634857",
@@ -136,7 +145,11 @@
    {
     "type": "lager"
    }
-  ]
+  ],
+  "contact": {
+   "site": "https://fr.kauribrewery.com/",
+   "source": "https://fr.kauribrewery.com"
+  }
  },
  {
   "cle": "sirene:844297267",
@@ -149,7 +162,11 @@
   "src": "https://enbieresinconnues.fr/",
   "extrait": "au sein de nos locaux à Brest et dans les caves, épiceries, bars et restaurant de la région",
   "beers": [],
-  "choix": "Position au centre de Brest : l'adresse n'est pas relue."
+  "choix": "Position au centre de Brest : l'adresse n'est pas relue.",
+  "contact": {
+   "site": "https://enbieresinconnues.fr/",
+   "source": "https://enbieresinconnues.fr/"
+  }
  },
  {
   "cle": "sirene:418671749",
@@ -162,7 +179,11 @@
   "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
   "extrait": "un moment d'échanges et de dégustation dans notre bar “Le Bek”",
   "beers": [],
-  "choix": "Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même brasserie que le point OSM way/82190365 (placé à Trégunc). Position au centre de Concarneau."
+  "choix": "Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même brasserie que le point OSM way/82190365 (placé à Trégunc). Position au centre de Concarneau.",
+  "contact": {
+   "site": "https://www.brasserie-bretagne.fr/",
+   "source": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/"
+  }
  },
  {
   "cle": "sirene:944561042",
@@ -175,7 +196,11 @@
   "src": "https://sibin.beer/contact",
   "extrait": "Je vous reçois à la brasserie avec plaisir pour dégustations, visites, rencontres et ventes pendant les horaires",
   "beers": [],
-  "choix": "Horaires lus sur la page : mardi 14:00–18:00, vendredi 14:00–19:00, samedi 10:00–13:00 / 14:00–18:00 (non repris)."
+  "choix": "Horaires lus sur la page : mardi 14:00–18:00, vendredi 14:00–19:00, samedi 10:00–13:00 / 14:00–18:00 (non repris).",
+  "contact": {
+   "site": "https://sibin.beer/",
+   "source": "https://sibin.beer/contact"
+  }
  },
  {
   "cle": "sirene:902874148",
@@ -211,7 +236,12 @@
     "type": "blanche"
    }
   ],
-  "choix": "Page Untappd ouverte par un agent : https://untappd.com/Arvarus (non reprise, le lot n'a pas de champ contact)."
+  "contact": {
+   "site": "https://arvarus.bzh/",
+   "source": "https://arvarus.bzh/",
+   "tel": "09 81 00 11 08",
+   "untappd": "https://untappd.com/Arvarus"
+  }
  },
  {
   "cle": "sirene:890786528",
@@ -223,7 +253,11 @@
   "note": "Boutique de la brasserie ouverte le samedi de 10 h à 12 h ; consommation sur place non établie.",
   "src": "https://brasseriediaoul.com/",
   "extrait": "NOUS VOUS ACCUEILLONS CHAQUE SAMEDI DE 10H à 12h DANS NOTRE BOUTIQUE",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://brasseriediaoul.com/",
+   "source": "https://brasseriediaoul.com/"
+  }
  },
  {
   "cle": "sirene:880678347",
@@ -243,7 +277,11 @@
     "type": "blonde"
    }
   ],
-  "choix": "Un agent proposait « acheter seulement » : la phrase ne le dit pas assez pour être retenue."
+  "choix": "Un agent proposait « acheter seulement » : la phrase ne le dit pas assez pour être retenue.",
+  "contact": {
+   "site": "https://www.le-grain-du-ponant.com/",
+   "source": "https://www.le-grain-du-ponant.com/"
+  }
  },
  {
   "cle": "sirene:421739947",
@@ -269,7 +307,11 @@
   "src": "https://www.microbrasseriepab.com/",
   "extrait": "Rue Neuve, 29253 Ile de Batz - France",
   "beers": [],
-  "choix": "Même brasserie que le point OSM node/12985439390."
+  "choix": "Même brasserie que le point OSM node/12985439390.",
+  "contact": {
+   "site": "https://www.microbrasseriepab.com/",
+   "source": "https://www.microbrasseriepab.com/"
+  }
  },
  {
   "cle": "sirene:978805604",
@@ -286,7 +328,12 @@
     "type": "blonde"
    }
   ],
-  "choix": "Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon)."
+  "choix": "Même brasserie que le point OSM node/5589940922 (placé à Saint-Pol-de-Léon).",
+  "contact": {
+   "site": "https://www.brasseriekeravale.fr/",
+   "source": "https://www.brasseriekeravale.fr/",
+   "tel": "02 98 29 77 43"
+  }
  },
  {
   "cle": "sirene:794895581",
@@ -298,7 +345,11 @@
   "note": "Brasserie en activité d'après son site ; vente sur place et horaires non lus.",
   "src": "https://www.distribilh.bzh/",
   "extrait": "D'Istribilh, Lestevennok, 29260 Plouider",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.distribilh.bzh/",
+   "source": "https://www.distribilh.bzh/"
+  }
  },
  {
   "cle": "node/3558601597",

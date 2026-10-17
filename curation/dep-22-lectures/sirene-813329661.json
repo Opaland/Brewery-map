@@ -14,7 +14,12 @@
    "addr": "Lannion",
    "src": "https://kerampont.com/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://kerampont.com/",
+    "source": "https://kerampont.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

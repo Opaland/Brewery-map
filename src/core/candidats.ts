@@ -1,5 +1,6 @@
 import { ajoutSchema, type Ajout, type Lot } from './curation'
 import { classerCandidats, coeurDuNom, type CandidatClasse, type CandidatOsm } from './decouverte'
+import { BRIGNAIS, distanceKm } from './distance'
 import { normaliser } from './recherche'
 import type { Brasserie } from './schema'
 
@@ -296,4 +297,60 @@ export function assemblerLot(
     ajouts.push(r.data)
   }
   return { lot: { lot: nom, propositions: [], ajouts }, refus }
+}
+
+/**
+ * Ce qu'un vérificateur a lu d'un candidat, relu ensuite par une personne
+ * (`curation/dep-XX-lus.json`, S248). `contact` (S261) : ce que la page
+ * `contact.source` publie — site, lien Untappd, téléphone.
+ */
+export interface LectureAgent {
+  cle: string
+  n: string
+  c: string
+  adresse: string | null
+  cat: number
+  conf: string
+  note: string
+  src: string
+  extrait: string
+  beers: unknown[]
+  choix?: string
+  contact?: { tel?: string; site?: string; untappd?: string; source: string }
+}
+
+/**
+ * La lecture devenue fiche nouvelle, à la position déjà gardée
+ * (`positionDuGeocodeur`) : datée du jour, avec ses sources dans l'ordre
+ * `src`, page du contact, requête du géocodeur. Non validée ici :
+ * `assemblerLot` passe chaque ajout au schéma.
+ */
+export function ajoutDeLecture(
+  l: LectureAgent,
+  dep: string,
+  pos: { lat: number; lon: number; precision: 'address' | 'commune' },
+  geocodeur: string | undefined,
+  aujourdhui: string,
+): { candidat: string; ajout: { fiche: Record<string, unknown>; verifieLe: string; sources: string[]; extrait: string; choix?: string } } {
+  const fiche = {
+    n: l.n,
+    c: l.c,
+    d: dep,
+    lat: pos.lat,
+    lon: pos.lon,
+    km: Math.round(distanceKm(BRIGNAIS, pos) * 10) / 10,
+    cat: l.cat,
+    conf: l.conf,
+    note: l.note,
+    addr: l.adresse ?? l.c,
+    src: l.src,
+    coordPrecision: pos.precision,
+    beers: l.beers,
+    ...(l.contact === undefined ? {} : { contact: { ...l.contact, verifieLe: aujourdhui } }),
+  }
+  const sources = [...new Set([l.src, ...(l.contact === undefined ? [] : [l.contact.source]), ...(geocodeur === undefined ? [] : [geocodeur])])]
+  return {
+    candidat: l.cle,
+    ajout: { fiche, verifieLe: aujourdhui, sources, extrait: l.extrait, ...(l.choix === undefined ? {} : { choix: l.choix }) },
+  }
 }

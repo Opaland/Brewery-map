@@ -21,7 +21,12 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.brasserie-domani.fr/",
+    "source": "https://www.brasserie-domani.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

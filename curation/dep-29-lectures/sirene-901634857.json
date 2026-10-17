@@ -24,7 +24,12 @@
     {
      "type": "lager"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://fr.kauribrewery.com/",
+    "source": "https://fr.kauribrewery.com",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

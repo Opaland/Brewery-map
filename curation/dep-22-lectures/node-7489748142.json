@@ -14,7 +14,12 @@
    "addr": "Kerambellec, 22700 Perros-Guirec",
    "src": "https://www.kanarfoll.com/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.kanarfoll.com/",
+    "source": "https://www.kanarfoll.com/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

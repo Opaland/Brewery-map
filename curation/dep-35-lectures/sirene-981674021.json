@@ -24,13 +24,18 @@
     {
      "type": "blanche"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://louarn.bzh/",
+    "source": "https://louarn.bzh",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
    "https://louarn.bzh"
   ],
   "extrait": "Oui, en boutique à la brasserie et sur les événements.",
-  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Page Untappd ouverte par un agent : https://untappd.com/Brasserie_Louarn (non reprise). Position au centre de Montfort-sur-Meu."
+  "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Une page Untappd « Brasserie Louarn » (Rennes) renvoie à un ancien domaine, détourné : non reprise. Position au centre de Montfort-sur-Meu."
  }
 }

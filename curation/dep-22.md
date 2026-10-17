@@ -17,9 +17,9 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 
 **Non lus** : 8 entreprises sans nom (personnes, sans enseigne). En Normandie, aucune n'avait pu être trouvée.
 
-**Untappd** : le lot n'a pas de champ pour les liens ; ceux qu'un agent a ouverts sont cités dans « choix du vérificateur ».
+**Contacts** (S261) : site officiel, lien Untappd et téléphone fixe, chacun relu sur la page citée (`contact.source`), puis contrôlé par `controler`. Les liens Untappd ne sont repris que s'ils figurent sur le site de la brasserie, ou s'ils sont la page lue. Les mobiles restent une option, citée dans les notes ou les choix.
 
-**Téléphones, horaires** : non repris ici (pas de champ dans ce lot). Ceux que les pages publient sont cités dans les notes ou les choix.
+**Horaires** : non repris ici (story à part). Ceux que les pages publient sont cités dans les notes.
 
 ## Non proposés, et pourquoi
 
@@ -39,7 +39,7 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 | Brasserie Galactique (`way/266226843`) | fermée fin 2025 d'après un annuaire ; son site ne répond plus |
 | Les Sirops du Barbu (`way/293917356`) | producteur de sirops, pas de bière |
 | Brasserie Les Fous (`way/318556892`) | introuvable à Carnoët ; une brasserie « Les Fous » existe à Plourac'h, sans lien établi |
-| Kergromo, Brasserie du Dolmen Tregastel, Biere de la Vallee de la Rance, L'ecume Sauvage, la Tata Juju, la Brasserie du Saint Esprit, Brasserie & Cie, Brasserie Distoufer, Micro-brasserie la Vieille Bourgeoise, Bock a L'ouest, Monsieur Toud, Brasserie Artisanale de Brehat, Brasserie Popop, Plijadur Penn da Benn, La Mousse des Sables, La Bernik, La Nordé | introuvables en ligne |
+| Kergromo, Brasserie du Dolmen Tregastel, Biere de la Vallee de la Rance, L'ecume Sauvage, La Tata Juju, La Brasserie du Saint Esprit, Brasserie & Cie, Brasserie Distoufer, Micro-brasserie la Vieille Bourgeoise, Bock a L'ouest, Monsieur Toud, Brasserie Artisanale de Brehat, Brasserie Popop, Plijadur Penn da Benn, La Mousse des Sables, La Bernik, La Nordé | introuvables en ligne |
 
 ## Les fiches proposées
 
@@ -61,6 +61,10 @@ Catégories proposées : 4 « acheter et consommer », 5 « acheter seulement »
 - coordPrecision : (vide) → commune
 - beers.0.type : (vide) → blonde
 - beers.1.type : (vide) → ipa
+- contact.tel : (vide) → 02 96 66 20 99
+- contact.site : (vide) → http://www.brasseriedeguerledan.bzh/
+- contact.source : (vide) → http://www.brasseriedeguerledan.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : http://www.brasseriedeguerledan.bzh/
@@ -86,6 +90,9 @@ Choix du vérificateur : Le site ne donne pas d'adresse. Position au centre de G
 - beers.0.type : (vide) → blanche
 - beers.1.type : (vide) → ipa
 - beers.2.type : (vide) → ambree
+- contact.site : (vide) → https://www.brasserielarmateur.fr/
+- contact.source : (vide) → https://www.brasserielarmateur.fr/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserielarmateur.fr/ ; https://data.geopf.fr/geocodage/search?q=27+rue+de+la+fontaine%2C+22450+La+Roche-Jaudy&limit=5
@@ -107,6 +114,9 @@ Extrait lu : « La brasserie est située au 27 rue de la fontaine »
 - src : (vide) → https://www.kanarfoll.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.kanarfoll.com/
+- contact.source : (vide) → https://www.kanarfoll.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.kanarfoll.com/
@@ -130,6 +140,9 @@ Choix du vérificateur : Même lieu-dit que le Verger de Kernivinen (cidrerie, n
 - src : (vide) → http://www.la-guernouillette.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → http://www.la-guernouillette.com/
+- contact.source : (vide) → http://www.la-guernouillette.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : http://www.la-guernouillette.com/
@@ -155,13 +168,16 @@ Choix du vérificateur : La page dit « Saint Brieuc Ouest », OSM dit Plérin. 
 - beers.0.type : (vide) → blonde
 - beers.1.type : (vide) → ambree
 - beers.2.type : (vide) → brune
+- contact.untappd : (vide) → https://untappd.com/w/les-brassins-du-lion-d-or/442785
+- contact.source : (vide) → https://untappd.com/w/les-brassins-du-lion-d-or/442785
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
-Sources (vérifiée le 2026-10-17) : https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/
+Sources (vérifiée le 2026-10-17) : https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/ ; https://untappd.com/w/les-brassins-du-lion-d-or/442785
 
 Extrait lu : « Le Lion d'Or 22250 Trémeur »
 
-Choix du vérificateur : Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur.
+Choix du vérificateur : Annuaire seulement ; lien Untappd relu sur sa page (bières concordantes). Position au centre de Trémeur.
 
 ### 6. Brasserie de Launay — fiche nouvelle
 
@@ -247,6 +263,9 @@ Choix du vérificateur : Annuaire seulement ; adresses de l'annuaire et de SIREN
 - src : (vide) → https://kerampont.com/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://kerampont.com/
+- contact.source : (vide) → https://kerampont.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://kerampont.com/
@@ -293,6 +312,9 @@ Choix du vérificateur : Brasserie industrielle (ex-L'Hirondelle) : à Cédric d
 - src : (vide) → https://www.brasserie-uncle.com
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.site : (vide) → https://www.brasserie-uncle.com/
+- contact.source : (vide) → https://www.brasserie-uncle.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-uncle.com ; https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27Europe%2C+22680+Binic-%C3%89tables-sur-Mer&limit=5
@@ -316,13 +338,15 @@ Choix du vérificateur : SIRENE (David Brewery) déclare Saint-Quay-Portrieux ; 
 - src : (vide) → https://www.lafreheloise.bzh/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.tel : (vide) → 02 96 86 36 28
+- contact.site : (vide) → https://www.lafreheloise.bzh/
+- contact.source : (vide) → https://www.lafreheloise.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.lafreheloise.bzh/
 
 Extrait lu : « Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel »
-
-Choix du vérificateur : Téléphone publié sur la page : 02 96 86 36 28 (non repris).
 
 ### 13. Brasserie Dimezell — fiche nouvelle
 
@@ -339,6 +363,9 @@ Choix du vérificateur : Téléphone publié sur la page : 02 96 86 36 28 (non r
 - src : (vide) → https://www.brasserie-dimezell.bzh/
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → https://www.brasserie-dimezell.bzh/
+- contact.source : (vide) → https://www.brasserie-dimezell.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasserie-dimezell.bzh/
@@ -362,6 +389,10 @@ Choix du vérificateur : Même brasserie que le point OSM node/7491754420. Posit
 - src : (vide) → https://www.brasseriedepaimpol.com
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → ipa
+- contact.tel : (vide) → 02 56 42 17 68
+- contact.site : (vide) → https://www.brasseriedepaimpol.com/
+- contact.source : (vide) → https://www.brasseriedepaimpol.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasseriedepaimpol.com ; https://data.geopf.fr/geocodage/search?q=5+rue+du+Grand+Pr%C3%A9%2C+22500+Paimpol&limit=5
@@ -388,6 +419,9 @@ Choix du vérificateur : Même brasserie que le point OSM node/7489781146 (23b a
 - beers.1.type : (vide) → brune
 - beers.2.type : (vide) → ipa
 - beers.3.type : (vide) → blanche
+- contact.site : (vide) → https://www.brasseriedes7iles.com/
+- contact.source : (vide) → https://www.brasseriedes7iles.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.brasseriedes7iles.com
@@ -435,6 +469,9 @@ Choix du vérificateur : Annuaire seulement. Même adresse que la Brasserie Naut
 - src : (vide) → http://www.lavilleporteamour.fr
 - coordPrecision : (vide) → commune
 - beers : (vide) → []
+- contact.site : (vide) → http://www.lavilleporteamour.fr/
+- contact.source : (vide) → http://www.lavilleporteamour.fr
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : http://www.lavilleporteamour.fr
@@ -460,6 +497,9 @@ Choix du vérificateur : Site « en reconstruction ». Position au centre de Plo
 - beers.0.type : (vide) → blanche
 - beers.1.type : (vide) → ambree
 - beers.2.type : (vide) → ipa
+- contact.site : (vide) → https://brasserienautica.fr/
+- contact.source : (vide) → https://brasserienautica.fr/contact/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserienautica.fr/contact/ ; https://data.geopf.fr/geocodage/search?q=2+ZA+la+Gare%2C+22830+Plouasne&limit=5
@@ -483,6 +523,10 @@ Choix du vérificateur : Même adresse que « Tiens bon la Barre » (sirene:8505
 - src : (vide) → https://brasserielariposte.bzh/
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.tel : (vide) → 02 96 74 47 23
+- contact.site : (vide) → https://brasserielariposte.bzh/
+- contact.source : (vide) → https://brasserielariposte.bzh/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://brasserielariposte.bzh/ ; https://data.geopf.fr/geocodage/search?q=27+place+de+la+R%C3%A9publique%2C+22170+Ch%C3%A2telaudren-Plouagat&limit=5
@@ -530,6 +574,9 @@ Choix du vérificateur : Annuaire seulement (site officiel en 503). Deux adresse
 - coordPrecision : (vide) → commune
 - beers.0.type : (vide) → ipa
 - beers.1.type : (vide) → blanche
+- contact.site : (vide) → https://millegoules.com/
+- contact.source : (vide) → https://millegoules.com/
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://millegoules.com/
@@ -555,6 +602,9 @@ Choix du vérificateur : Position au centre d'Hémonstoir : l'adresse n'est pas 
 - beers.0.type : (vide) → lager
 - beers.1.type : (vide) → ipa
 - beers.2.type : (vide) → stout
+- contact.site : (vide) → https://www.alchimistes-ivres.com/
+- contact.source : (vide) → https://www.alchimistes-ivres.com
+- contact.verifieLe : (vide) → 2026-10-17
 - verifieLe : (vide) → 2026-10-17
 
 Sources (vérifiée le 2026-10-17) : https://www.alchimistes-ivres.com
@@ -563,4 +613,4 @@ Extrait lu : « Brasserie bière craft fantasy en Bretagne »
 
 Choix du vérificateur : Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons.
 
-Empreinte du lot : 1c0cf33966ca
+Empreinte du lot : 60b3dff2eca1

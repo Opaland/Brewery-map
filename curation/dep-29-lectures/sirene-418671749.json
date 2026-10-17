@@ -14,7 +14,12 @@
    "addr": "Concarneau",
    "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-bretagne.fr/",
+    "source": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

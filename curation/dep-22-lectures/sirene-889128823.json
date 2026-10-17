@@ -14,7 +14,13 @@
    "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
    "src": "https://brasserielariposte.bzh/",
    "coordPrecision": "address",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://brasserielariposte.bzh/",
+    "source": "https://brasserielariposte.bzh/",
+    "tel": "02 96 74 47 23",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

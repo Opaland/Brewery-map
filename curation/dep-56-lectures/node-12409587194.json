@@ -24,7 +24,12 @@
     {
      "type": "stout"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://beer.grandcoeff.bzh/",
+    "source": "https://beer.grandcoeff.bzh/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

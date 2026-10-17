@@ -21,13 +21,18 @@
     {
      "type": "stout"
     }
-   ]
+   ],
+   "contact": {
+    "untappd": "https://untappd.com/MicrobrasserieHorla",
+    "source": "https://untappd.com/MicrobrasserieHorla",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
    "https://untappd.com/MicrobrasserieHorla"
   ],
   "extrait": "Grand-Champ, 56 - BZH",
-  "choix": "Page Untappd seulement (lien non repris, le lot n'a pas de champ contact). Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
+  "choix": "Page Untappd seulement. Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
  }
 }

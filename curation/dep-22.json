@@ -23,7 +23,13 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 96 66 20 99",
+     "site": "http://www.brasseriedeguerledan.bzh/",
+     "source": "http://www.brasseriedeguerledan.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -56,7 +62,12 @@
      {
       "type": "ambree"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.brasserielarmateur.fr/",
+     "source": "https://www.brasserielarmateur.fr/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -79,7 +90,12 @@
     "addr": "Kerambellec, 22700 Perros-Guirec",
     "src": "https://www.kanarfoll.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.kanarfoll.com/",
+     "source": "https://www.kanarfoll.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -102,7 +118,12 @@
     "addr": "Plérin",
     "src": "http://www.la-guernouillette.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "http://www.la-guernouillette.com/",
+     "source": "http://www.la-guernouillette.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -135,14 +156,20 @@
      {
       "type": "brune"
      }
-    ]
+    ],
+    "contact": {
+     "untappd": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+     "source": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/"
+    "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
+    "https://untappd.com/w/les-brassins-du-lion-d-or/442785"
    ],
    "extrait": "Le Lion d'Or 22250 Trémeur",
-   "choix": "Annuaire seulement. Page Untappd citée par un agent, non reprise. Position au centre de Trémeur."
+   "choix": "Annuaire seulement ; lien Untappd relu sur sa page (bières concordantes). Position au centre de Trémeur."
   },
   {
    "fiche": {
@@ -228,7 +255,12 @@
     "addr": "Lannion",
     "src": "https://kerampont.com/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://kerampont.com/",
+     "source": "https://kerampont.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -274,7 +306,12 @@
     "addr": "10 rue de l'Europe, 22680 Binic-Étables-sur-Mer",
     "src": "https://www.brasserie-uncle.com",
     "coordPrecision": "address",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-uncle.com/",
+     "source": "https://www.brasserie-uncle.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -298,14 +335,19 @@
     "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
     "src": "https://www.lafreheloise.bzh/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "tel": "02 96 86 36 28",
+     "site": "https://www.lafreheloise.bzh/",
+     "source": "https://www.lafreheloise.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.lafreheloise.bzh/"
    ],
-   "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel",
-   "choix": "Téléphone publié sur la page : 02 96 86 36 28 (non repris)."
+   "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel"
   },
   {
    "fiche": {
@@ -321,7 +363,12 @@
     "addr": "Quessoy",
     "src": "https://www.brasserie-dimezell.bzh/",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-dimezell.bzh/",
+     "source": "https://www.brasserie-dimezell.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -348,7 +395,13 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "tel": "02 56 42 17 68",
+     "site": "https://www.brasseriedepaimpol.com/",
+     "source": "https://www.brasseriedepaimpol.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -385,7 +438,12 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.brasseriedes7iles.com/",
+     "source": "https://www.brasseriedes7iles.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -438,7 +496,12 @@
     "addr": "Plouvara",
     "src": "http://www.lavilleporteamour.fr",
     "coordPrecision": "commune",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "site": "http://www.lavilleporteamour.fr/",
+     "source": "http://www.lavilleporteamour.fr",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -471,7 +534,12 @@
      {
       "type": "ipa"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://brasserienautica.fr/",
+     "source": "https://brasserienautica.fr/contact/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -495,7 +563,13 @@
     "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
     "src": "https://brasserielariposte.bzh/",
     "coordPrecision": "address",
-    "beers": []
+    "beers": [],
+    "contact": {
+     "tel": "02 96 74 47 23",
+     "site": "https://brasserielariposte.bzh/",
+     "source": "https://brasserielariposte.bzh/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -549,7 +623,12 @@
      {
       "type": "blanche"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://millegoules.com/",
+     "source": "https://millegoules.com/",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [
@@ -582,7 +661,12 @@
      {
       "type": "stout"
      }
-    ]
+    ],
+    "contact": {
+     "site": "https://www.alchimistes-ivres.com/",
+     "source": "https://www.alchimistes-ivres.com",
+     "verifieLe": "2026-10-17"
+    }
    },
    "verifieLe": "2026-10-17",
    "sources": [

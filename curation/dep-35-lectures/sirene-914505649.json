@@ -30,7 +30,12 @@
     {
      "type": "blanche"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://brasserieminimum.fr/",
+    "source": "https://brasserieminimum.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

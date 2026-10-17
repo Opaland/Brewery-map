@@ -14,7 +14,12 @@
    "addr": "Brest",
    "src": "https://enbieresinconnues.fr/",
    "coordPrecision": "commune",
-   "beers": []
+   "beers": [],
+   "contact": {
+    "site": "https://enbieresinconnues.fr/",
+    "source": "https://enbieresinconnues.fr/",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [

@@ -18,7 +18,13 @@
     {
      "type": "ipa"
     }
-   ]
+   ],
+   "contact": {
+    "site": "https://www.brasseriedepaimpol.com/",
+    "source": "https://www.brasseriedepaimpol.com",
+    "tel": "02 56 42 17 68",
+    "verifieLe": "2026-10-17"
+   }
   },
   "verifieLe": "2026-10-17",
   "sources": [
