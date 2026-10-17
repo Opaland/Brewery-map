@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process'
-import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { copyFileSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
@@ -16,9 +16,11 @@ const LOT = join(RACINE, 'curation', 's11-exemples-s4.json')
 
 let dossier = ''
 
+let parole = ''
 const lancer = (...args: string[]) => {
   try {
-    return { code: 0, sortie: execFileSync(TSX, [OUTIL, ...args], { cwd: dossier, encoding: 'utf8', stdio: 'pipe' }) }
+    const env = { ...process.env, PAROLE_DE_CEDRIC: parole }
+    return { code: 0, sortie: execFileSync(TSX, [OUTIL, ...args], { cwd: dossier, encoding: 'utf8', stdio: 'pipe', env }) }
   } catch (e) {
     const err = e as { status: number; stdout: string; stderr: string }
     return { code: err.status, sortie: err.stdout + err.stderr }
@@ -27,6 +29,7 @@ const lancer = (...args: string[]) => {
 const donnees = () => readFileSync(join(dossier, 'data', 'breweries.json'), 'utf8')
 
 beforeEach(() => {
+  parole = ''
   dossier = mkdtempSync(join(tmpdir(), 'curation-'))
   mkdirSync(join(dossier, 'data'))
   copyFileSync(join(RACINE, 'data', 'breweries.json'), join(dossier, 'data', 'breweries.json'))
@@ -95,11 +98,22 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     expect(readFileSync(join(dossier, 'curation', 'essai.json'), 'utf8')).toBe(premier)
   })
 
-  it('avec la bonne empreinte, seule la fiche acceptée change', () => {
+  it('sans la parole de Cédric, rien n’est écrit (S230)', () => {
+    const avant = donnees()
+    expect(lancer('appliquer', LOT, '2', '--ecrire', empreinte()).code).toBe(1)
+    expect(donnees()).toBe(avant)
+  })
+
+  it('avec la bonne empreinte, seule la fiche acceptée change, et l’accord est enregistré (S230)', () => {
     const e = empreinte()
     expect(e).toMatch(/^[0-9a-f]{12}$/)
     const avant = JSON.parse(donnees()) as Brasserie[]
+    parole = 'j’accepte la 2'
     expect(lancer('appliquer', LOT, '2', '--ecrire', e).code).toBe(0)
+    const fichiers = readdirSync(join(dossier, 'curation', 'accords'))
+    expect(fichiers).toHaveLength(1)
+    const accord = JSON.parse(readFileSync(join(dossier, 'curation', 'accords', fichiers[0] ?? ''), 'utf8')) as Record<string, unknown>
+    expect(accord).toMatchObject({ lot: 's11-exemples-s4', empreinte: e, acceptees: [2], parole: 'j’accepte la 2' })
     const apres = JSON.parse(donnees()) as Brasserie[]
     expect(apres).toHaveLength(avant.length)
     apres.forEach((b, i) => {

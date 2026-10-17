@@ -22,12 +22,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # La garde de data/ relit le fichier du 15/10 dans l'historique (S230).
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - name: Installer les dépendances
         run: npm ci
+      - name: Garde de data/ (aucune ligne sans accord écrit de Cédric)
+        run: npx tsx outils/garde-donnees.ts
       - name: Lint
         run: npm run lint
       - name: Typecheck (tsc -b, pas tsc --noEmit)

@@ -2144,3 +2144,19 @@ Story d'abord (`docs/stories/S229.md`). Mesuré (`docs/PORTE.md`) : porte
 locale ≈ 258 s pour un délai de hook de 300 s ; job CI « porte » 201 s, dont
 119 s d'e2e. Délai porté à 600 s, budget écrit de 450 s ; au-delà, S234
 découpe les e2e. Commentaire périmé du hook corrigé.
+
+## S230 — Garde mécanique de `data/` *(17/10)*
+
+Story d'abord (`docs/stories/S230.md`).
+- `src/core/garde-donnees.ts` : le fichier de données doit être exactement
+  celui du 15/10 auquel on rejoue les accords de Cédric
+  (`curation/accords/`). 7 tests, écrits d'abord ; une garde qui ne compare
+  rien en fait tomber 3.
+- `outils/garde-donnees.ts`, en CI à chaque push et PR (historique cloné).
+  Vu vert sur le fichier actuel, vu rouge sur une copie où une confiance
+  avait changé (rétablie aussitôt, jamais commitée).
+- `appliquer --ecrire` exige `PAROLE_DE_CEDRIC` et écrit l'accord avec les
+  données (test vu rouge sans ce contrôle).
+- `.github/CODEOWNERS` : Cédric pour `data/` et `curation/accords/`.
+  **À activer par lui** : protection de `main` exigeant la revue des
+  propriétaires de code.

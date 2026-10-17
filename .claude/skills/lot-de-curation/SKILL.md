@@ -67,8 +67,15 @@ question pour lui (un autre numéro, un autre lien) : la lui poser.
 
 ```bash
 npx tsx outils/curation.ts appliquer curation/<lot>.json 1,3,4                       # vérifie, n'écrit rien
-npx tsx outils/curation.ts appliquer curation/<lot>.json 1,3,4 --ecrire <empreinte>  # écrit data/breweries.json
+PAROLE_DE_CEDRIC="<ses mots, recopiés>" \
+  npx tsx outils/curation.ts appliquer curation/<lot>.json 1,3,4 --ecrire <empreinte>  # écrit data/ et l'accord
 ```
+
+L'outil écrit aussi `curation/accords/<date>-<lot>.json` (lot, empreinte,
+numéros, date, ses mots). La CI rejoue ces accords sur le fichier du 15/10 et
+refuse toute ligne de `data/` qui n'en vient pas (S230,
+`outils/garde-donnees.ts`). Une PR qui touche `data/` ou
+`curation/accords/` attend la revue de Cédric (CODEOWNERS), même verte.
 
 Les numéros sont **ceux de sa réponse écrite**, recopiés ; rien n'est
 ajouté « parce que c'était évident ». L'empreinte est celle du diff qu'il a

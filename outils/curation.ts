@@ -27,8 +27,7 @@
  *     a lu : si le lot a changé depuis, l'écriture est refusée (revue code
  *     S11).
  */
-import { createHash } from 'node:crypto'
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import {
   appliquerLot,
   diffLisible,
@@ -41,6 +40,8 @@ import {
 } from '../src/core/curation'
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
+
+import { empreinte } from './lots'
 
 const DONNEES = 'data/breweries.json'
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
@@ -56,8 +57,7 @@ function donnees() {
   return v.brasseries
 }
 
-/** Les 12 premiers caractères du SHA-256 du fichier du lot, tel qu'écrit. */
-const empreinte = (texte: string) => createHash('sha256').update(texte).digest('hex').slice(0, 12)
+
 
 function lot(chemin: string | undefined) {
   if (chemin === undefined) sortir('chemin du lot attendu', 2)
@@ -167,11 +167,18 @@ if (commande === 'lot') {
   if (options.length > 0 && !ecrire) sortir('après les numéros, seulement « --ecrire <empreinte> » ; numéros séparés par des virgules', 2)
   const r = appliquerLot(donnees(), l, new Set(acceptes))
   if (!r.ok) sortir(`refusé :\n${r.erreurs.join('\n')}`, 1)
-  const i = args.indexOf('--ecrire')
+    const i = args.indexOf('--ecrire')
   if (i !== -1) {
     if (args[i + 1] !== e) sortir(`empreinte attendue après --ecrire : celle du diff lu par Cédric (lot actuel : ${e})`, 1)
+    // L'accord s'écrit avec les données : la garde de la CI (S230) rejoue les
+    // accords sur le fichier du 15/10 et refuse toute ligne sans accord.
+    const parole = process.env.PAROLE_DE_CEDRIC?.trim() ?? ''
+    if (parole === '') sortir('PAROLE_DE_CEDRIC attendue : ses mots, recopiés (« j’accepte 1, 3 et 4 »)', 1)
+    const accord = { lot: l.lot, empreinte: e, acceptees: acceptes, date: AUJOURDHUI, parole }
+    mkdirSync('curation/accords', { recursive: true })
+    writeFileSync(`curation/accords/${AUJOURDHUI}-${l.lot}.json`, `${JSON.stringify(accord, null, 2)}\n`, { flag: 'wx' })
     writeFileSync(DONNEES, formaterDonnees(r.brasseries))
-    sortir(`${DONNEES} écrit : proposition(s) ${acceptes.join(', ')} du lot ${l.lot} (${e}).`, 0)
+    sortir(`${DONNEES} écrit : proposition(s) ${acceptes.join(', ')} du lot ${l.lot} (${e}), accord enregistré.`, 0)
   }
   sortir(`${diffLisible(donnees(), l, new Set(acceptes))}\n\n(rien n'est écrit : --ecrire ${e}, après l'accord de Cédric)`, 0)
 } else {
