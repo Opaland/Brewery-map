@@ -2649,3 +2649,11 @@ Les quatre lots repassent `controler` sans écart.
 - Les doublons entre SIRENE et OSM ont été fusionnés : Les Brassés, San Roce, Philmore.
 - **Défaut du contrôle, corrigé** : les entités typographiques des CMS (`&rsquo;`) n'étaient pas décodées. Un extrait juste était donc dit « ABSENT ». La correction a un test, vu rouge.
 - Restent pour Cédric : une chaîne (3 Brasseurs) et deux brasseries à la même adresse (AERoFAB et La Hulotte), dites dans le lot.
+
+### S250 (1) — corrections de la revue adverse *(17/10)*
+
+- Deux notes disaient plus que leur page :
+  - Côte de Jade : « dégustation lors des visites seulement » ; le « seulement » n'est pas sur la page.
+  - Bouffay : la salle de dégustation était dite « pour groupes ».
+- La règle de catégorie est maintenant écrite dans le lot et dans les choix : une dégustation liée à une visite n'est pas un bar, alors qu'une dégustation ouverte au public avec la vente en est un. C'est ce qui sépare BACA de la Divatte.
+- Papas Brasseurs : la contradiction de la page (« lundi au samedi » contre un tableau qui ferme le lundi) est dite dans le choix.

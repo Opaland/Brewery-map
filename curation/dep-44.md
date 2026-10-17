@@ -10,7 +10,7 @@ Catégories proposées : 9 « acheter et consommer », 11 « acheter seulement �
 - candidats de `outils/departement.ts` ;
 - lecture par les agents, en paquets de 7 ;
 - chaque extrait relu dans le texte même de la page, puis contrôlé par `controler` (« contrôle sans écart ») ;
-- une catégorie que l'extrait ne porte pas est redescendue ; une dégustation de visite n'est pas un bar ;
+- une catégorie que l'extrait ne porte pas est redescendue ; une dégustation liée à une visite n'est pas un bar, une dégustation ouverte au public avec la vente l'est ;
 - positions par `outils/departement.ts lectures`, gardées au département et à la commune (sinon centre de la commune).
 
 **Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. Aucun lien Untappd n'a été trouvé pour ce département.
@@ -173,7 +173,7 @@ Choix du vérificateur : Fiche de tourisme en anglais seulement (horaires en « 
 - km : (vide) → 512.5
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → faible
-- note : (vide) → Vente à la propriété et salle de dégustation pour groupes, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.
+- note : (vide) → Vente à la propriété et salle équipée pour la dégustation, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.
 - addr : (vide) → 54 rue des Monceaux, 44470 Carquefou
 - src : (vide) → https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay
 - coordPrecision : (vide) → address
@@ -227,7 +227,7 @@ Choix du vérificateur : Bières Trompe Souris ; le site officiel boucle en redi
 - km : (vide) → 546.6
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Magasin d'usine ouvert toute l'année ; dégustation lors des visites seulement.
+- note : (vide) → Magasin d'usine ouvert toute l'année ; dégustation pendant les visites.
 - addr : (vide) → 13 rue Henri Becquerel, 44210 Pornic
 - src : (vide) → http://www.biere-pornic.com
 - coordPrecision : (vide) → address
@@ -308,7 +308,7 @@ Sources (vérifiée le 2026-10-17) : https://fr.gaultmillau.com/fr/artisans/baca
 
 Extrait lu : « est ouverte pour la vente et la dégustation des six cuvées »
 
-Choix du vérificateur : Annuaire seulement ; aucun site de la brasserie trouvé.
+Choix du vérificateur : Annuaire seulement ; aucun site de la brasserie trouvé. La dégustation y est ouverte au public avec la vente, sans visite : c'est la règle qui sépare ce cas de la Divatte et de La Déviation (dégustation liée à une visite).
 
 ### 10. BUBAR — fiche nouvelle
 
@@ -613,7 +613,7 @@ Sources (vérifiée le 2026-10-17) : https://www.lespapasbrasseurs.fr/ ; https:/
 
 Extrait lu : « Bar et cave ouvert du mardi au samedi. »
 
-Choix du vérificateur : La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30.
+Choix du vérificateur : La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30. Elle dit aussi « ouvert du lundi au samedi » alors que son tableau ferme le lundi : le bloc suit le tableau.
 
 ### 21. Microbrasserie Brewen — fiche nouvelle
 
@@ -970,4 +970,4 @@ Extrait lu : « Vente de bière à emporter »
 
 Choix du vérificateur : Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « Des bières fièrement fabriquées sur place dans chaque restaurant ». Position au centre de la commune.
 
-Empreinte du lot : e126a272bb5d
+Empreinte du lot : c2f59cc3f5e5

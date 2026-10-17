@@ -150,7 +150,7 @@
     "km": 512.5,
     "cat": 2,
     "conf": "faible",
-    "note": "Vente à la propriété et salle de dégustation pour groupes, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
+    "note": "Vente à la propriété et salle équipée pour la dégustation, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
     "addr": "54 rue des Monceaux, 44470 Carquefou",
     "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay",
     "coordPrecision": "address",
@@ -221,7 +221,7 @@
     "km": 546.6,
     "cat": 2,
     "conf": "moyenne",
-    "note": "Magasin d'usine ouvert toute l'année ; dégustation lors des visites seulement.",
+    "note": "Magasin d'usine ouvert toute l'année ; dégustation pendant les visites.",
     "addr": "13 rue Henri Becquerel, 44210 Pornic",
     "src": "http://www.biere-pornic.com",
     "coordPrecision": "address",
@@ -386,7 +386,7 @@
     "https://data.geopf.fr/geocodage/search?q=26+rue+du+Dr%C3%A9z%C3%A9guy%2C+44740+Batz-sur-Mer&limit=5"
    ],
    "extrait": "est ouverte pour la vente et la dégustation des six cuvées",
-   "choix": "Annuaire seulement ; aucun site de la brasserie trouvé."
+   "choix": "Annuaire seulement ; aucun site de la brasserie trouvé. La dégustation y est ouverte au public avec la vente, sans visite : c'est la règle qui sépare ce cas de la Divatte et de La Déviation (dégustation liée à une visite)."
   },
   {
    "fiche": {
@@ -816,7 +816,7 @@
     "https://data.geopf.fr/geocodage/search?q=1+rue+des+Monty%2C+44190+Saint-Hilaire-de-Clisson&limit=5"
    ],
    "extrait": "Bar et cave ouvert du mardi au samedi.",
-   "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30."
+   "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30. Elle dit aussi « ouvert du lundi au samedi » alors que son tableau ferme le lundi : le bloc suit le tableau."
   },
   {
    "fiche": {

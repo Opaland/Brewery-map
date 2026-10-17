@@ -14,7 +14,7 @@
     "type": "sour"
    }
   ],
-  "choix": "Annuaire seulement ; aucun site de la brasserie trouvé."
+  "choix": "Annuaire seulement ; aucun site de la brasserie trouvé. La dégustation y est ouverte au public avec la vente, sans visite : c'est la règle qui sépare ce cas de la Divatte et de La Déviation (dégustation liée à une visite)."
  },
  {
   "cle": "sirene:848843116",
@@ -242,7 +242,7 @@
   "adresse": "54 rue des Monceaux, 44470 Carquefou",
   "cat": 2,
   "conf": "faible",
-  "note": "Vente à la propriété et salle de dégustation pour groupes, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
+  "note": "Vente à la propriété et salle équipée pour la dégustation, d'après l'office de tourisme ; le site ne parle que de location de tireuse et de fûts.",
   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-du-bouffay",
   "extrait": "Winery sales",
   "beers": [
@@ -339,7 +339,7 @@
   "adresse": "13 rue Henri Becquerel, 44210 Pornic",
   "cat": 2,
   "conf": "moyenne",
-  "note": "Magasin d'usine ouvert toute l'année ; dégustation lors des visites seulement.",
+  "note": "Magasin d'usine ouvert toute l'année ; dégustation pendant les visites.",
   "src": "http://www.biere-pornic.com",
   "extrait": "Notre magasin d’usine est ouvert toute l’année",
   "beers": [
@@ -748,7 +748,7 @@
   "src": "https://www.lespapasbrasseurs.fr/",
   "extrait": "Bar et cave ouvert du mardi au samedi.",
   "beers": [],
-  "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30.",
+  "choix": "La page donne 11 h ou 11 h 30 pour le vendredi : le bloc retient 11 h 30. Elle dit aussi « ouvert du lundi au samedi » alors que son tableau ferme le lundi : le bloc suit le tableau.",
   "contact": {
    "site": "https://www.lespapasbrasseurs.fr/",
    "source": "https://www.lespapasbrasseurs.fr/",
