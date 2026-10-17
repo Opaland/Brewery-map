@@ -339,8 +339,10 @@ a { color: inherit; }
   border: 3px solid #1e2b23;
   /* Au-dessus des marqueurs : un marqueur de la commune de départ le
      recouvrait en zoomant (S39). Il ne capte pas le toucher, pour que le
-     marqueur dessous reste choisissable. */
-  z-index: 3;
+     marqueur dessous reste choisissable. 1 et pas plus : les contrôles de
+     zoom, l'attribution d'OpenStreetMap et la barre collée sont à 2 (revue
+     adverse S39 : à 3, il se peignait sur eux). */
+  z-index: 1;
   pointer-events: none;
 }
 

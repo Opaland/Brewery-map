@@ -58,3 +58,17 @@ test.describe('une brasserie choisie dans un groupe (S40)', () => {
     await expect(page.getByTestId('carte').locator('.contient-choisie')).toHaveCount(0)
   })
 })
+
+test('le repère reste sous les contrôles de zoom et l’attribution (revue adverse S39)', async ({ page }) => {
+  const z = await page.evaluate(() => {
+    const n = (s: string) => Number(getComputedStyle(document.querySelector(s) as Element).zIndex)
+    return {
+      repere: n('[data-testid="repere-depart"]'),
+      zoom: n('.maplibregl-ctrl-top-right'),
+      attribution: n('.maplibregl-ctrl-bottom-right'),
+    }
+  })
+  expect(z.repere).toBeGreaterThan(0)
+  expect(z.repere).toBeLessThan(z.zoom)
+  expect(z.repere).toBeLessThan(z.attribution)
+})

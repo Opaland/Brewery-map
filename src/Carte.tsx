@@ -404,7 +404,9 @@ export default function Carte({
     resultatsCourants.current = resultats
   }, [resultats])
   const cible = apercu ?? selection
+  const cibleCourante = useRef(cible)
   useEffect(() => {
+    cibleCourante.current = cible
     marquerGroupes.current = () => {
       const source = carte.current?.getSource<GeoJSONSource>('brasseries')
       for (const m of marqueurs.current.values()) {
@@ -417,11 +419,17 @@ export default function Carte({
           el.setAttribute('aria-label', libelle)
           continue
         }
-        void source.getClusterLeaves(Number(id), Infinity, 0).then((feuilles) => {
-          const dedans = feuilles.some((f) => f.properties?.['nom'] === cible)
-          el.classList.toggle('contient-choisie', dedans)
-          el.setAttribute('aria-label', dedans ? `${libelle}, dont « ${cible} », choisie` : libelle)
-        })
+        source
+          .getClusterLeaves(Number(id), Infinity, 0)
+          .then((feuilles) => {
+            // Une réponse arrivée après un autre choix ne marque rien (revue
+            // adverse S40 : refermée aussitôt, la fiche laissait son groupe marqué).
+            if (cibleCourante.current !== cible) return
+            const dedans = feuilles.some((f) => f.properties?.['nom'] === cible)
+            el.classList.toggle('contient-choisie', dedans)
+            el.setAttribute('aria-label', dedans ? `${libelle}, dont « ${cible} », choisie` : libelle)
+          })
+          .catch(() => undefined)
       }
     }
     marquerGroupes.current()
