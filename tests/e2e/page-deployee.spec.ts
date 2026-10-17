@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { POLITIQUE } from '../../build/csp'
 import { expect, test } from './position'
 import { absentsDuCache, promessePrecache } from './precache'
@@ -47,18 +48,24 @@ test.describe('la page publiée', () => {
     expect(erreurs, `erreurs JavaScript : ${erreurs.join(' | ')}`).toEqual([])
   })
 
-  // S241 : le parcours, sur la page servie par Pages.
+  // S241 : le parcours, sur la page servie par Pages. Une fiche qui a une
+  // source, choisie dans les données : « fiche-source » est rendu même sans
+  // source (« Aucune source lue… », 58 fiches sur 166), et la première ligne
+  // pouvait en être une (revue adverse S241).
   test('une fiche s’ouvre, avec sa source et « Y aller »', async ({ page }) => {
+    const avecSource = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as { n: string; src?: string }[]).find(
+      (b) => b.src !== undefined && b.src !== '',
+    )
+    expect(avecSource, 'une fiche avec source dans les données').toBeDefined()
+    const { n, src } = avecSource as { n: string; src: string }
     await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
-    const ligne = page.locator('button.ligne').first()
+    await page.getByTestId('recherche').fill(n)
+    const ligne = page.locator(`button.ligne[data-nom="${n}"]`)
     await expect(ligne).toBeVisible({ timeout: 20_000 })
-    const nom = (await ligne.getAttribute('data-nom')) ?? ''
-    expect(nom).not.toBe('')
     await ligne.click()
+    await expect(ligne).toHaveAttribute('aria-expanded', 'true')
     const fiche = page.getByTestId('fiche')
-    await expect(fiche).toBeVisible()
-    await expect(page.locator('button.ligne[aria-expanded="true"]')).toHaveAttribute('data-nom', nom)
-    await expect(fiche.getByTestId('fiche-source')).toBeVisible()
+    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveAttribute('href', src)
     await expect(fiche.getByTestId('fiche-y-aller')).toBeVisible()
   })
 

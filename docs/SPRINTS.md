@@ -2337,5 +2337,10 @@ Deux premières mutations étaient fausses et ont été refaites :
 - les apostrophes de la CSP sont écrites `&#39;` dans le HTML ;
 - `vite preview` répond 200 avec la page pour un fichier absent.
 
+Revue adverse : le test de la fiche passait sans source (`fiche-source`
+est rendu même vide, 58 fiches sur 166). Il ouvre maintenant une fiche qui
+a une source, choisie dans les données, et compare le lien. Vu rouge sur un
+`dist/` où ce lien change.
+
 Reste CA5 : la sonde verte sur la vraie page, après le merge.
 
