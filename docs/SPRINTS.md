@@ -2300,6 +2300,12 @@ ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
   du message de repli (BACKLOG).
 - La capture d'une fiche seule la faisait passer sous le compte collant.
   Elle est remplacée par l'écran tel qu'il est vu.
-- Reste ouvert (CA5) : savoir si le rendu du runner CI est le même que
-  celui du conteneur. La première exécution le dira.
+- **Première exécution en CI (CA5)** : les 5 écrans diffèrent d'environ
+  10 % des pixels (34 421 pour la liste à 200 %). Le rendu du runner n'est
+  pas celui du conteneur. **Décision** : les références sont produites par
+  la CI elle-même (workflow `visuel-references.yml`, committées dans la
+  branche, relues dans le diff), et la comparaison reste exacte. Aucune
+  tolérance n'est inventée. Conséquence : la spec ne se lance plus en local.
+  La preuve du rouge (CA2) a été faite dans le conteneur, avec ses propres
+  références ; elle reste à refaire en CI.
 

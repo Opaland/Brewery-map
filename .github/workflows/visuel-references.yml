@@ -1,0 +1,54 @@
+# S240 : les références des écrans figés sont produites par la CI elle-même.
+# Celles du conteneur de développement différaient d'environ 10 % des
+# pixels sur le runner (polices, lissage ; mesuré le 17/10). Lancé à la
+# main sur une branche : il refait les captures et les committe dans cette
+# branche, où elles se relisent dans le diff de la PR. Deux déclencheurs :
+# à la main (une fois ce fichier sur main), ou un commit poussé sur une
+# branche dont le message contient « [références visuelles] ».
+name: Références visuelles
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  references:
+    runs-on: ubuntu-latest
+    if: >-
+      github.ref != 'refs/heads/main' &&
+      (github.event_name == 'workflow_dispatch' ||
+       contains(github.event.head_commit.message, '[références visuelles]'))
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Installer Chromium
+        run: npx playwright install --with-deps chromium
+        timeout-minutes: 10
+      - name: Refaire les captures
+        run: npx playwright test --update-snapshots=all --reporter=list
+        timeout-minutes: 10
+        env:
+          CI: 'true'
+          PW_VISUEL: '1'
+      - name: Committer les références
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tests/e2e/visuel.spec.ts-snapshots/
+          if git diff --cached --quiet; then
+            echo 'Références inchangées.'
+          else
+            git commit -m 'S240 : références visuelles produites par la CI'
+            git push
+          fi

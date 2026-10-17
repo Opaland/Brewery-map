@@ -4,9 +4,12 @@ import { ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
 /**
  * S240 : ce qui est peint, sur cinq écrans figés. Hors de la porte
- * (`PW_VISUEL=1` seulement, voir playwright.config.ts) : le rendu dépend de
- * la machine, et la tolérance ne s'invente pas avant la première mesure en
- * CI (docs/stories/S240.md).
+ * (`PW_VISUEL=1` seulement, voir playwright.config.ts).
+ *
+ * Les références sont celles du runner CI (workflow « Références
+ * visuelles ») : produites dans le conteneur, elles différaient d'environ
+ * 10 % des pixels en CI (polices, lissage ; mesuré le 17/10). En local, ce
+ * test échoue donc par construction : on le lance en CI.
  *
  * Figé : heure posée (« ouvert maintenant » et la date du carnet en
  * dépendent), thème clair, animations coupées, aucune tuile.
@@ -15,8 +18,8 @@ const INSTANT = new Date('2026-10-17T15:00:00+02:00')
 
 // Comparaison exacte : la tolérance par défaut de Playwright (0,2 d'écart de
 // couleur par pixel) laissait passer une couleur de texte changée
-// (#5a6b5d → #5a6b6d, vu vert). Une tolérance viendra de la mesure en CI,
-// si le rendu du runner diffère (S240, CLAUDE.md §2).
+// (#5a6b5d → #5a6b6d, vu vert). Les références venant de la même machine
+// que la comparaison, aucune tolérance n'est nécessaire (S240, §2).
 const EXACT = { threshold: 0, maxDiffPixels: 0 }
 
 async function ouvrir(page: Page): Promise<void> {
