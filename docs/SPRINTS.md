@@ -2423,5 +2423,31 @@ ils ont été remplacés par le texte lu. Résultat sur le lot : 9 sur 9.
 Un agent avait proposé la catégorie 3 (« Pas de vente ») pour une brasserie
 dont l'extrait dit « dégustation et vente » ; la catégorie 1 a été retenue.
 
-Reste (CA5) : le Calvados, avec Mobsby's, dont le site donne Vire.
+## S247 (2/2) — Calvados : un lot de 10 fiches *(17/10)*
+
+L'outil sort 34 candidats, sans aucune fuite de personne (vérifié). Les
+agents ont lu ces candidats avec un outil qui résume les pages : ils
+l'ont tous dit. Leurs extraits ont donc été relus dans le texte même des
+pages avant d'entrer dans le lot.
+
+`curation/dep-14.{json,md}` compte 10 fiches nouvelles :
+- Trip-Hop (Lisieux) en catégorie 1 ;
+- en catégorie 2 : La Lie, l'Odon, Baya (confiance faible) et Sagesse
+  (confiance faible) ;
+- 5 « À confirmer ».
+
+24 candidats ne sont pas proposés, chacun avec sa raison. Parmi eux, deux
+pages ne se lisent pas sans JavaScript (Valdal, Fort Mignonne). Le
+contrôle donne 10 sur 10.
+
+**Bilan du pilote** :
+- 60 candidats ;
+- 19 fiches proposées ;
+- 0 page Untappd vérifiable (la recherche d'Untappd demande un compte) ;
+- les bières dont le style est lu, sur 6 fiches.
+
+Le circuit tient. Pour la suite (S248 et après), deux enseignements :
+- l'outil de lecture des agents résume les pages, d'où la relecture
+  mécanique de chaque extrait ;
+- les sites en JavaScript restent hors de portée.
 

@@ -1,0 +1,26 @@
+{
+ "candidat": "node/13176942306",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Paillette",
+   "c": "Saint-Arnoult",
+   "d": "14",
+   "lat": 49.53572,
+   "lon": 0.65978,
+   "km": 527.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.",
+   "addr": "10 ter avenue Ox and Bucks, 14800 Saint-Arnoult",
+   "src": "https://bierepaillette.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://bierepaillette.fr/"
+  ],
+  "extrait": "adresse : 10 ter Av. Ox And Bucks,14800 Saint-Arnoult",
+  "choix": "Téléphone de la page en 03 (Oise), sans doute celui d'un autre site : non repris."
+ }
+}

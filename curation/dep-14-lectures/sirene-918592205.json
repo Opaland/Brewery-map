@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:918592205",
+ "ajout": {
+  "fiche": {
+   "n": "Dam Bière",
+   "c": "Dives-sur-Mer",
+   "d": "14",
+   "lat": 49.28337,
+   "lon": -0.08897,
+   "km": 541.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de « La Bière Deauville », vendue en bars, restaurants et épiceries fines ; aucune vente sur place établie, catégorie à confirmer.",
+   "addr": "Dives-sur-Mer",
+   "src": "https://labieredeauville.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://labieredeauville.com/"
+  ],
+  "extrait": "brassée dans le Pays d’Auge à Dives-sur-Mer près de Cabourg par la Brasserie Dam Bière",
+  "choix": "Lien possible avec Brasserie Sagesse (même mobile sur deux fiches) : à éclaircir. Position au centre de la commune."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "node/8432359108",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sagesse",
+   "c": "Le Breuil-en-Auge",
+   "d": "14",
+   "lat": 49.2273,
+   "lon": 0.22561,
+   "km": 521.4,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente directe aux particuliers à la brasserie, d'après la fiche de Normandie Tourisme ; horaires non publiés.",
+   "addr": "4 rue André Druelle, 14130 Le Breuil-en-Auge",
+   "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+Andr%C3%A9+Druelle%2C+14130+Le+Breuil-en-Auge&limit=1"
+  ],
+  "extrait": "Sale to private visitors direct at the brewery",
+  "choix": "Fiche d'office de tourisme seulement. Le site de vente (brasserie-sagesse.shop) affiche une boutique à Dives-sur-Mer, avec le même mobile que DAM Bière : lien à éclaircir."
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:792944688",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Odon",
+   "c": "Les Monts d'Aunay",
+   "d": "14",
+   "lat": 48.99338,
+   "lon": -0.63264,
+   "km": 548.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique à la brasserie, ouverte le jeudi de 17 h à 19 h (bières bio, coffrets, location de tireuse) ; pas de consommation sur place lue.",
+   "addr": "31 bis route de Vire, 14260 Les Monts d'Aunay",
+   "src": "https://www.brasserie-odon.fr/boutique",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-odon.fr/boutique"
+  ],
+  "extrait": "Ouvert les jeudis de 17h à 19h",
+  "choix": "Styles des bières non lus (page « Les Bières » non ouverte). Le site publie deux mobiles de personnes : non repris."
+ }
+}
