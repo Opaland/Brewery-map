@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { choisirCommune, sansTuiles, versLaCarte } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /** S26 — corrections de l'audit applicatif (docs/AUDIT.md). */
 test.beforeEach(async ({ page }) => {
@@ -29,10 +29,17 @@ for (const largeur of [320, 412]) {
   })
 }
 
-test('M2 — depuis Paris, « Lyon » propose Lyon sans toucher « toute la France »', async ({ page }) => {
+test('M2 — depuis Paris, « Lyon » : le bouton nomme ce qui est cherché, et trouve Lyon', async ({ page }) => {
   await page.goto('/')
-  await choisirCommune(page, 'paris', 'Paris (75)')
-  await page.getByTestId('commune-depart').fill('lyon')
+  // Paris depuis Brignais : une commune proche répond en partie, le bouton
+  // élargit — comme le ferait la personne.
+  await page.getByTestId('commune-depart').fill('paris')
+  await page.getByTestId('chercher-partout').click()
+  await page.getByRole('option', { name: 'Paris (75)', exact: true }).click()
+  await page.getByTestId('commune-depart').pressSequentially('lyon', { delay: 40 })
+  const bouton = page.getByTestId('chercher-partout')
+  await expect(bouton).toHaveText('Chercher « lyon » dans toute la France')
+  await bouton.click()
   await expect(page.getByRole('option', { name: 'Lyon (69)', exact: true })).toBeVisible()
 })
 

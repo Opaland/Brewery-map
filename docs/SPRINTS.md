@@ -1548,13 +1548,17 @@ rouges avant correction, sauf m2 et m5 (voir 2).
      `clientWidth`, qui s'élargit au contenu sur téléphone. Il compare
      maintenant à la largeur de l'écran. La leçon est ajoutée à CLAUDE.md
      §1bis.
-   - **M2 — depuis Paris, « Lyon » ne proposait pas Lyon.** Sans nom exact
-     près du départ, la recherche s'élargit à la France, et le nom exact
-     passe en tête.
-     - **Ce que ça coûte** : le fichier de toute la France (≈ 470 Ko,
-       gardé ensuite) se charge plus tôt.
-     - **Ce qui ne change pas** : un nom exact trouvé près du départ reste
-       servi par les départements voisins seuls (test S21 adapté).
+   - **M2 — depuis Paris, « Lyon » ne proposait pas Lyon** sans toucher
+     « Chercher dans toute la France ».
+     - **Première correction, abandonnée** : élargir à la France dès
+       qu'aucun nom exact n'est proche. La revue adverse a montré que,
+       pendant la frappe, tout préfixe est « non exact » : le fichier de
+       toute la France (1,2 Mo) partait dès la deuxième lettre, et hors
+       ligne le statut annonçait une erreur sous de bons résultats.
+     - **Retenu** : le bouton nomme ce qui est cherché, « Chercher « lyon »
+       dans toute la France », et le nom exact passe en tête une fois
+       l'élargissement fait. Le test de S21 tape désormais lettre par
+       lettre, comme une personne.
    - **m1 — « Recharger » restait sans effet dans un second onglet** : si plus
      rien n'attend, la page se recharge.
    - **m2 — la pastille « Plusieurs brasseries » était invisible en thème
@@ -1569,6 +1573,9 @@ rouges avant correction, sauf m2 et m5 (voir 2).
    - m2 : le test vérifie que la pastille a un bord blanc. Il ne mesure pas
      le contraste lui-même.
    - m5 : écrit avec sa correction, pas vu rouge avant.
-3. **Reporté en S28** (refonte visuelle) :
+3. **Revue adverse** (42 k) : M2 refait (voir plus haut). Le test m3 n'avait
+   pas été vu rouge : il l'a été depuis, en remettant `maxzoom: 19` (tuile
+   de zoom 15 demandée).
+4. **Reporté en S28** (refonte visuelle) :
    - m4 : sur téléphone, la liste commence à 2,3 écrans ;
    - l'image de partage (`og:image`).

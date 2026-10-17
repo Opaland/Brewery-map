@@ -58,11 +58,11 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   }, [depuis, depuisPosition])
 
   const pres = useMemo(() => chercherCommunes(proches, texte, 8, depuis), [proches, texte, depuis])
-  // Rien près du départ, ou rien qui porte exactement le nom tapé (depuis
-  // Paris, « Lyon » ne trouvait que Lyons-la-Forêt : audit S26, M2), ou
-  // demandé : toute la France.
-  const exacte = pres.some((c) => normaliser(c[0]) === normaliser(texte))
-  const chercherPartout = partout || (etatProches !== 'attente' && (pres.length === 0 || !exacte))
+  // Rien près du départ, ou demandé : toute la France. Pas d'élargissement
+  // automatique sur un nom « non exact » : pendant la frappe, tout préfixe
+  // l'est, et le fichier de toute la France (1,2 Mo) partait dès la 2e
+  // lettre (revue adverse S26). Le bouton nomme le texte tapé (audit, M2).
+  const chercherPartout = partout || (etatProches !== 'attente' && pres.length === 0)
 
   useEffect(() => {
     if (!chercherPartout || toutes !== null || texte.trim().length < 2) return
@@ -207,7 +207,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
           }}
           data-testid="chercher-partout"
         >
-          Chercher dans toute la France
+          Chercher « {texte.trim()} » dans toute la France
         </button>
       )}
     </div>
