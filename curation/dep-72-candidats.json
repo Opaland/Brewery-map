@@ -1,0 +1,462 @@
+[
+ {
+  "cle": "sirene:881990006",
+  "nom": "BRASSERIE DISTILLERIE DE MONTMIRAIL",
+  "communes": [
+   "MONTMIRAIL",
+   "VIBRAYE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "9 RUE DU DOCTEUR CASTAING 72320 MONTMIRAIL",
+   "13 RUE DE LA RIVIERE 72320 VIBRAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881990006",
+  "sirets": [
+   "88199000600010",
+   "88199000600028"
+  ],
+  "osm": [],
+  "lat": 48.103136203,
+  "lon": 0.7915833979,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827684838",
+  "nom": "BRASSERIE SEPTANTE DEUX",
+  "communes": [
+   "LE MANS",
+   "ROUILLON"
+  ],
+  "departement": "72",
+  "adresses": [
+   "21 RUE DU DOCTEUR LEROY 72000 LE MANS",
+   "29 AVENUE GEORGES AURIC 72700 ROUILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827684838",
+  "sirets": [
+   "82768483800036",
+   "82768483800044"
+  ],
+  "osm": [],
+  "lat": 48.0024724780489,
+  "lon": 0.196331202115878,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823204854",
+  "nom": "MAGE MALTE",
+  "communes": [
+   "SAINT REMY DES MONTS",
+   "MAMERS"
+  ],
+  "departement": "72",
+  "adresses": [
+   "MONTAUBAN 72600 SAINT REMY DES MONTS",
+   "109 RUE CHARLES GRANGER 72600 MAMERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "823204854",
+  "sirets": [
+   "82320485400017",
+   "82320485400033"
+  ],
+  "osm": [
+   "way/103036921"
+  ],
+  "lat": 48.314819584,
+  "lon": 0.3824845143,
+  "site": "https://mage-malte.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879167690",
+  "nom": "BRASSERIE LUIGGI",
+  "communes": [
+   "LE MANS",
+   "ROUILLON"
+  ],
+  "departement": "72",
+  "adresses": [
+   "20 RUE DU GREFFIER 72000 LE MANS",
+   "29 AV GEORGES AURIC 72700 ROUILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879167690",
+  "sirets": [
+   "87916769000012",
+   "87916769000038"
+  ],
+  "osm": [],
+  "lat": 48.001521743,
+  "lon": 0.1953186174,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951346634",
+  "nom": "BRASSERIE BIZARRE",
+  "communes": [
+   "SAINT-PAVACE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "71 RUE DE TOURAINE 72190 SAINT-PAVACE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951346634",
+  "sirets": [
+   "95134663400011"
+  ],
+  "osm": [],
+  "lat": 48.027315754,
+  "lon": 0.1939943837,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818722308",
+  "nom": "BRASSERIE ARTISANALE BELLE VALLEE",
+  "communes": [
+   "LAIGNE EN BELIN"
+  ],
+  "departement": "72",
+  "adresses": [
+   "LES ARDRIERS 72220 LAIGNE EN BELIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818722308",
+  "sirets": [
+   "81872230800017"
+  ],
+  "osm": [],
+  "lat": 47.855235225,
+  "lon": 0.1999916005,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE BONN'ET ALE",
+  "communes": [
+   "BONNETABLE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "LE PAVILLON 72110 BONNETABLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE BOIS D'BOUT",
+  "communes": [
+   "LE MANS"
+  ],
+  "departement": "72",
+  "adresses": [
+   "87 RUE TOUSSAINT 72000 LE MANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931579668",
+  "nom": "SAS MELIN'CO",
+  "communes": [
+   "LE LUDE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "ZONE DES TOURELLES 2 RUE DES CERISIERS 72800 LE LUDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931579668",
+  "sirets": [
+   "93157966800019"
+  ],
+  "osm": [],
+  "lat": 47.636683022,
+  "lon": 0.1641900198,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951704774",
+  "nom": "LA CHALOUPE BRASSERIE",
+  "communes": [
+   "LE MANS"
+  ],
+  "departement": "72",
+  "adresses": [
+   "41 RUE D'ALGER 72000 LE MANS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "951704774",
+  "sirets": [
+   "95170477400011"
+  ],
+  "osm": [
+   "node/12185022882"
+  ],
+  "lat": 48.001835626,
+  "lon": 0.1934906456,
+  "site": "https://www.la-chaloupe-brasserie.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835338542",
+  "nom": "NEE BULLEUSE : SOIF DE PARTAGE",
+  "communes": [
+   "SEGRIE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "8 RUE PIERREUSE 72170 SEGRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "835338542",
+  "sirets": [
+   "83533854200011"
+  ],
+  "osm": [],
+  "lat": 48.200075447,
+  "lon": 0.0272981468,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "PARCE-SUR-SARTHE"
+  ],
+  "departement": "72",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:832917033",
+  "nom": "BRASSERIE SAINT MARS LA BIERE",
+  "communes": [
+   "SAINT-MARS-LA-BRIERE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "8 CHEMIN DE LA CREPINIERE 72470 SAINT-MARS-LA-BRIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832917033",
+  "sirets": [
+   "83291703300017"
+  ],
+  "osm": [],
+  "lat": 48.031911421,
+  "lon": 0.3803456973,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:937917748",
+  "nom": "LA FEUILLE ROUGE",
+  "communes": [
+   "VANCE"
+  ],
+  "departement": "72",
+  "adresses": [
+   "LE CHAMP DU MOULIN 18 RUE VIRGINIE VASLIN 72310 VANCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "937917748",
+  "sirets": [
+   "93791774800017"
+  ],
+  "osm": [],
+  "lat": 47.833007999019,
+  "lon": 0.64181297006522,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911384089",
+  "nom": "LA PIRATERIE",
+  "communes": [
+   "ECOMMOY"
+  ],
+  "departement": "72",
+  "adresses": [
+   "ZAC LES TRUBERDIERES 72220 ECOMMOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911384089",
+  "sirets": [
+   "91138408900023"
+  ],
+  "osm": [],
+  "lat": 47.818938816,
+  "lon": 0.303522501,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10281244982",
+  "nom": "Brew Pub Artisanat",
+  "communes": [
+   "Montmirail"
+  ],
+  "departement": "72",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10281244982"
+  ],
+  "lat": 48.10314,
+  "lon": 0.79158,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11804983192",
+  "nom": "Planète 9",
+  "communes": [
+   "Rouillon"
+  ],
+  "departement": "72",
+  "adresses": [
+   "28 Avenue Georges Auric, 72700 Rouillon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11804983192"
+  ],
+  "lat": 48.01256,
+  "lon": 0.14886,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12145075166",
+  "nom": "Brasserie Bizarre",
+  "communes": [
+   "Coulaines"
+  ],
+  "departement": "72",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12145075166"
+  ],
+  "lat": 48.02644,
+  "lon": 0.19454,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE BIZARRE"
+ },
+ {
+  "cle": "node/4982865277",
+  "nom": "La Maison des Brasseurs",
+  "communes": [
+   "Sablé-sur-Sarthe"
+  ],
+  "departement": "72",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4982865277"
+  ],
+  "lat": 47.8392,
+  "lon": -0.33036,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1321464054",
+  "nom": "Microbrasserie artisanale Jolicoeur",
+  "communes": [
+   "Saint-Ouen-en-Belin"
+  ],
+  "departement": "72",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1321464054"
+  ],
+  "lat": 47.85433,
+  "lon": 0.1997,
+  "site": "https://www.bierejolicoeur.com/",
+  "statut": "nouveau"
+ }
+]

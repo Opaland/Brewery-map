@@ -1,0 +1,229 @@
+[
+ {
+  "cle": "sirene:512553595",
+  "nom": "BRASSERIE LA P'TITE MOUSSE",
+  "communes": [
+   "SAINT-BERTHEVIN"
+  ],
+  "departement": "53",
+  "adresses": [
+   "120 B BOULEVARD DES LOGES 53940 SAINT-BERTHEVIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "512553595",
+  "sirets": [
+   "51255359500012"
+  ],
+  "osm": [],
+  "lat": 48.058160233,
+  "lon": -0.809793224,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878884535",
+  "nom": "GUIBS BEER",
+  "communes": [
+   "MAYENNE"
+  ],
+  "departement": "53",
+  "adresses": [
+   "139 IMPASSE THOMAS A EDISON 53100 MAYENNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "878884535",
+  "sirets": [
+   "87888453500047"
+  ],
+  "osm": [
+   "node/13322285730"
+  ],
+  "lat": 48.2846654317915,
+  "lon": -0.624654473516295,
+  "site": "https://www.guibsbeer.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828955302",
+  "nom": "LA MONNAIRIE",
+  "communes": [
+   "CHATEAU-GONTIER-SUR-MAYENNE"
+  ],
+  "departement": "53",
+  "adresses": [
+   "AZE 2 RUE DE LA ROBERDERIE 53200 CHATEAU-GONTIER-SUR-MAYENNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828955302",
+  "sirets": [
+   "82895530200017"
+  ],
+  "osm": [],
+  "lat": 47.833393263,
+  "lon": -0.685498117,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828960948",
+  "nom": "BRASSERIE COUSIN",
+  "communes": [
+   "PRE-EN-PAIL-SAINT-SAMSON"
+  ],
+  "departement": "53",
+  "adresses": [
+   "ZA DE LA CORNICHE DE PAIL RUE DE LA PETITE VITESSE 53140 PRE-EN-PAIL-SAINT-SAMSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828960948",
+  "sirets": [
+   "82896094800010"
+  ],
+  "osm": [],
+  "lat": 48.455354078,
+  "lon": -0.202225582,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LA SELLE-CRAONNAISE"
+  ],
+  "departement": "53",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:522760404",
+  "nom": "LA BRASSERIE ASSOCIATIVE DE MONTFLOURS",
+  "communes": [
+   "MONTFLOURS"
+  ],
+  "departement": "53",
+  "adresses": [
+   "ZA DU MOTTAY 53240 MONTFLOURS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "522760404",
+  "sirets": [
+   "52276040400031"
+  ],
+  "osm": [],
+  "lat": 48.173110979,
+  "lon": -0.731413484,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:927790535",
+  "nom": "THE FRENCH FACTORY",
+  "communes": [
+   "CHATEAU-GONTIER-SUR-MAYENNE"
+  ],
+  "departement": "53",
+  "adresses": [
+   "24 RUE DE ROMAINVILLE (AZE) 53200 CHATEAU-GONTIER-SUR-MAYENNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "927790535",
+  "sirets": [
+   "92779053500011"
+  ],
+  "osm": [],
+  "lat": 47.832893181,
+  "lon": -0.691438955,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902067222",
+  "nom": "BRASSERIE DES NICO",
+  "communes": [
+   "LASSAY-LES-CHATEAUX"
+  ],
+  "departement": "53",
+  "adresses": [
+   "1 LA CHEGNARDIERE 53110 LASSAY-LES-CHATEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902067222",
+  "sirets": [
+   "90206722200015"
+  ],
+  "osm": [],
+  "lat": 48.410797744,
+  "lon": -0.487263242,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:992034520",
+  "nom": "BRASSERIE DES TISSERANDS",
+  "communes": [
+   "OLIVET"
+  ],
+  "departement": "53",
+  "adresses": [
+   "8 ROUTE DU GENEST 53410 OLIVET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "992034520",
+  "sirets": [
+   "99203452000013"
+  ],
+  "osm": [],
+  "lat": 48.1208840357331,
+  "lon": -0.91599198990839,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7492030034",
+  "nom": "Brasserie Cousin",
+  "communes": [
+   "Pré-en-Pail"
+  ],
+  "departement": "53",
+  "adresses": [
+   "Rue de la Petite Vitesse, 53140 Pré-en-Pail"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7492030034"
+  ],
+  "lat": 48.45548,
+  "lon": -0.20208,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE COUSIN"
+ }
+]
