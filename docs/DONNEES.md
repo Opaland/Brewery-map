@@ -48,10 +48,16 @@ Aucune note chiffrée n'est affichée tant qu'aucune n'a d'origine identifiable.
 | Valeur | Affiché | Nombre de lignes au 15/10 |
 |---|---|---:|
 | `commune` | approximative : centre de la commune, à environ 2 km près | 166 |
-| `address` | à l'adresse vérifiée | 0 |
+| `address` | à l'adresse vérifiée : géocodée par la Géoplateforme de l'IGN, dont la requête est une des sources (S52) | 0 |
 | `osm` | point placé sur OpenStreetMap, non vérifié sur place | 0 (fiches découvertes en S14, si Cédric les accepte) |
 
 La carte s'arrête au zoom 14 pour ne pas faire croire à une adresse exacte.
+
+## Types de bière lus sur Untappd
+
+Le style affiché par Untappd décide du type, jamais le nom de la bière
+(`typeDuStyleUntappd`, `src/core/bieres.ts`, revue adverse S53). Un style
+sans règle tombe en « autre », et son libellé recopie le style.
 
 ## Date de vérification (`verifieLe`, facultative)
 

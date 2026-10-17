@@ -12,7 +12,7 @@ const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Bieres, { bra
 describe('les bières de la fiche', () => {
   it('sans bière : « non référencés », aucun lien', () => {
     const html = rendu(base)
-    expect(html).toContain('Types de bière : non référencés pour l’instant.')
+    expect(html).toContain('Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.')
     expect(html).not.toContain('href')
   })
 

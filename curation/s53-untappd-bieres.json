@@ -1,0 +1,2235 @@
+{
+ "lot": "s53-untappd-bieres",
+ "propositions": [
+  {
+   "n": "La Canute Lyonnaise",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaCanuteLyonnaise",
+     "source": "https://untappd.com/LaCanuteLyonnaise",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Tête d'Or (Pale Ale - American)",
+      "url": "https://untappd.com/b/la-canute-lyonnaise-tete-d-or/1128473"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Confluence",
+      "url": "https://untappd.com/b/la-capsule-lyonnaise-confluence/1126170"
+     },
+     {
+      "type": "ambree",
+      "libelle": "X Rousse",
+      "url": "https://untappd.com/b/la-canute-lyonnaise-x-rousse/1128474"
+     },
+     {
+      "type": "brune",
+      "libelle": "Vieux Lyon",
+      "url": "https://untappd.com/b/la-capsule-lyonnaise-vieux-lyon/1128472"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La Grange Blanche",
+      "url": "https://untappd.com/b/grange-blanche-la-canute-la-grange-blanche/1625475"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Ficelle",
+      "url": "https://untappd.com/b/la-canute-lyonnaise-ficelle/2205898"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Guillotière",
+      "url": "https://untappd.com/b/la-canute-lyonnaise-guillotiere/1559686"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Gratte-Ciel",
+      "url": "https://untappd.com/b/la-canute-lyonnaise-gratte-ciel/2885579"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaCanuteLyonnaise"
+   ],
+   "extrait": "La Canute Lyonnaise — Pierre-Bénite, Auvergne-Rhône-Alpes France. Bières : Tête d'Or : Pale Ale - American ; Confluence : Belgian Blonde ; X Rousse : Red Ale - American Amber / Red ; Vieux Lyon : Porter - Other ; La Grange Blanche : Wheat Beer - Other ; Ficelle : IPA - Session ; Guillotière : IPA - American ; Gratte-Ciel : IPA - Imperial / Double",
+   "choix": "Hôtel Dieu (Berliner Weisse) et Les Lumières de la Ville (Scotch Ale) écartées pour tenir 8 bières. Porter rangé en brune. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "DWYN Brewing",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/dwyn-brewing",
+     "source": "https://untappd.com/dwyn-brewing",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "sour",
+      "libelle": "Ecume",
+      "url": "https://untappd.com/b/dwyn-brewing-ecume/5548624"
+     },
+     {
+      "type": "sour",
+      "libelle": "Neptune",
+      "url": "https://untappd.com/b/dwyn-brewing-neptune/5548646"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Bermude",
+      "url": "https://untappd.com/b/dwyn-brewing-bermude/5874187"
+     },
+     {
+      "type": "autre",
+      "libelle": "Odyssée (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/dwyn-brewing-odyssee/5518118"
+     },
+     {
+      "type": "sour",
+      "libelle": "Rūyjin",
+      "url": "https://untappd.com/b/dwyn-brewing-ruyjin/5844377"
+     },
+     {
+      "type": "sour",
+      "libelle": "Opora",
+      "url": "https://untappd.com/b/dwyn-brewing-opora/5867404"
+     },
+     {
+      "type": "autre",
+      "libelle": "Calypso (Pale Ale - Other)",
+      "url": "https://untappd.com/b/dwyn-brewing-calypso/5548648"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Éros",
+      "url": "https://untappd.com/b/dwyn-brewing-eros/5858346"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/dwyn-brewing"
+   ],
+   "extrait": "DWYN Brewing — Montagny, Auvergne-Rhône-Alpes France. Bières : Ecume : Sour - Other Gose ; Neptune : Sour - Fruited ; Bermude : IPA - New England / Hazy ; Odyssée : Farmhouse Ale - Saison ; Rūyjin : Sour - Fruited Gose ; Opora : Sour - Fruited Gose ; Calypso : Pale Ale - Other ; Éros : IPA - New England / Hazy",
+   "choix": "Aurora et SMASH BEER'GER ALE écartées pour tenir 8 bières. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Coldie Brewery",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/ColdieBrewery",
+     "source": "https://untappd.com/ColdieBrewery",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/ColdieBrewery"
+   ],
+   "extrait": "Coldie Brewery — Lyon, Auvergne-Rhône-Alpes France. « This brewery is no longer in business. »",
+   "choix": "Untappd dit la brasserie fermée : à Cédric de décider d'un statut « fermée » (décision #35) ; la note n'est pas réécrite ici. ; Untappd dit cette brasserie fermée : à Cédric de décider d'un statut « fermée » (décision #35) ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Tom & Co",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/TomAndCo",
+     "source": "https://untappd.com/TomAndCo",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/TomAndCo"
+   ],
+   "extrait": "Tom & Co. Brasseurs de Lyon — Lyon 1er Arrondissement, Auvergne-Rhône-Alpes France. « This brewery is no longer in business. »",
+   "choix": "La page Untappd existe et c'est la bonne brasserie (même nom, Lyon 1er). Elle affiche « This brewery is no longer in business » et « 0 Beer », donc aucune bière proposée. Cela contredit la note de la fiche (« Vente sur place en bouteilles et growlers ») et la source mesbieres.fr. À toi de voir s'il faut garder le lien et/ou corriger la fiche. Je n'ai pas touché à la catégorie ni à la note. ; Untappd dit cette brasserie fermée : à Cédric de décider d'un statut « fermée » (décision #35) ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Microbrasserie de Montchat",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/w/microbrasserie-de-montchat/484799",
+     "source": "https://untappd.com/w/microbrasserie-de-montchat/484799",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "lager",
+      "libelle": "Vienna",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-vienna/4378708"
+     },
+     {
+      "type": "ipa",
+      "libelle": "French Ipa",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-french-ipa/5077377"
+     },
+     {
+      "type": "lager",
+      "libelle": "Pilsner",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-pilsner/4312851"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple Bock (Bock - Doppelbock)",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-triple-bock/4383440"
+     },
+     {
+      "type": "ipa",
+      "libelle": "NEIPA",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-neipa/4852225"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Golden Ale Belge",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-golden-ale-belge/4293104"
+     },
+     {
+      "type": "ipa",
+      "libelle": "India Pâle Ale",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-india-pale-ale/4346987"
+     },
+     {
+      "type": "autre",
+      "libelle": "Saison (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/microbrasserie-de-montchat-saison/4110501"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/w/microbrasserie-de-montchat/484799"
+   ],
+   "extrait": "Microbrasserie de Montchat — Lyon, Auvergne-Rhône-Alpes France. Bières : Vienna : Lager - Vienna ; French Ipa : IPA - Other ; Pilsner : Pilsner - Czech / Bohemian ; Triple Bock : Bock - Doppelbock ; NEIPA : IPA - New England / Hazy ; Golden Ale Belge : Blonde / Golden Ale - Other ; India Pâle Ale : IPA - Other ; Saison : Farmhouse Ale - Saison",
+   "choix": "La liste Untappd compte 63 bières, j'en retiens 8. Écartées : India Pâle Ale (doublon d'IPA), Bock, Imperial Stout Barriqué, Gose Barriquée. Aucune n'est marquée « hors production ». ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Soyeuse",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaSoyeuse",
+     "site": "https://www.lasoyeuse.fr/",
+     "source": "https://untappd.com/LaSoyeuse",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Soyeuse Tradition Blonde",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-soyeuse-tradition-blonde/336340"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Soyeuse Tradition Ambrée",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-soyeuse-tradition-ambree/235903"
+     },
+     {
+      "type": "autre",
+      "libelle": "Soyeuse Tradition Blonde au Miel (Honey Beer)",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-soyeuse-tradition-blonde-au-miel-de-chataigner/376696"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Grand Cru IPA",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-grand-cru-ipa/2047771"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Tradition Rousse",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-tradition-rousse/899041"
+     },
+     {
+      "type": "blanche",
+      "libelle": "P'tite Soif Blanche",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-p-tite-soif-blanche/2813193"
+     },
+     {
+      "type": "autre",
+      "libelle": "Grand Cru Triple (Belgian Tripel)",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-grand-cru-triple/2536119"
+     },
+     {
+      "type": "autre",
+      "libelle": "P'tite Soif Blonde (Pale Ale - American)",
+      "url": "https://untappd.com/b/ferme-brasserie-la-soyeuse-p-tite-soif-blonde/2201232"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaSoyeuse",
+    "https://www.lasoyeuse.fr/"
+   ],
+   "extrait": "Ferme Brasserie La Soyeuse — Rontalon, Auvergne-Rhône-Alpes France. Bières : Soyeuse Tradition Blonde : Blonde / Golden Ale - Other ; Soyeuse Tradition Ambrée : Red Ale - American Amber / Red ; Soyeuse Tradition Blonde au Miel : Honey Beer ; Grand Cru IPA : IPA - American ; Tradition Rousse : Red Ale - Ambrée ; P'tite Soif Blanche : Wheat Beer - Witbier / Blanche ; Grand Cru Triple : Belgian Tripel ; P'tite Soif Blonde : Pale Ale - American",
+   "choix": "Le site officiel a été ouvert (adresse « 237 route de Fondrieu 69510 Rontalon ») mais ne porte pas de lien Untappd. contact.source est la page Untappd, donc le champ site s'appuie sur une source qui n'est pas Untappd. Retire-le si tu veux une source par champ. 21 bières listées, 8 retenues. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Loupiote",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/Brasserie_Loupiote",
+     "source": "https://untappd.com/Brasserie_Loupiote",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "IPA - L'Outrance",
+      "url": "https://untappd.com/b/la-loupiote-ipa-l-outrance/2971087"
+     },
+     {
+      "type": "lager",
+      "libelle": "Blonde - Loustic",
+      "url": "https://untappd.com/b/la-loupiote-blonde-loustic/2733740"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée - Loubarde",
+      "url": "https://untappd.com/b/la-loupiote-ambree-loubarde/2718984"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche - Louange",
+      "url": "https://untappd.com/b/la-loupiote-blanche-louange/2733737"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Douceur Tropicale",
+      "url": "https://untappd.com/b/la-loupiote-douceur-tropicale/6226915"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple - Loufoque (Belgian Tripel)",
+      "url": "https://untappd.com/b/la-loupiote-triple-loufoque/2763731"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Ambrée IPA",
+      "url": "https://untappd.com/b/la-loupiote-ambree-ipa/2890754"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Black IPA",
+      "url": "https://untappd.com/b/la-loupiote-black-ipa/5568471"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/Brasserie_Loupiote"
+   ],
+   "extrait": "La Loupiote — Irigny, Auvergne-Rhône-Alpes France. Bières : IPA - L'Outrance : IPA - Other ; Blonde - Loustic : Pilsner - Czech / Bohemian ; Ambrée - Loubarde : Lager - Amber / Red ; Blanche - Louange : Wheat Beer - Witbier / Blanche ; Douceur Tropicale : IPA - New England / Hazy ; Triple - Loufoque : Belgian Tripel ; Ambrée IPA : IPA - American ; Black IPA : IPA - Black / Cascadian Dark Ale",
+   "choix": "ATTENTION : Untappd place La Loupiote à Irigny, et la fiche la met à Saint-Genis-l'Argentière (175 route de Lyon). Je n'ai pas pu expliquer l'écart. Je retiens la page parce que quatre noms de bières (L'Outrance, Loustic, Louange, Loufoque) sont les mêmes que sur la source de la fiche (marechal-fraicheur.fr, vu dans les résultats de recherche), mais c'est un recoupement, pas une preuve. À valider avant d'accepter. Liste de 28 bières, 8 retenues ; Black IPA, Loup-Reed, L'Enjoleuse et Hoppy Sour écartées. « Lager - Amber / Red » (Loubarde) est rangée en ambrée. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Single Track",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/w/brasserie-single-track/73973",
+     "source": "https://untappd.com/w/brasserie-single-track/73973",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Blonde (Pale Ale - Belgian)",
+      "url": "https://untappd.com/b/brasserie-single-track-blonde/601481"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée",
+      "url": "https://untappd.com/b/brasserie-single-track-ambree/1093042"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "https://untappd.com/b/brasserie-single-track-blanche/614408"
+     },
+     {
+      "type": "autre",
+      "libelle": "Single Pink (Fruit Beer)",
+      "url": "https://untappd.com/b/brasserie-single-track-single-pink/608244"
+     },
+     {
+      "type": "autre",
+      "libelle": "Single Triple (Belgian Tripel)",
+      "url": "https://untappd.com/b/brasserie-single-track-single-triple/595536"
+     },
+     {
+      "type": "brune",
+      "libelle": "Brune",
+      "url": "https://untappd.com/b/brasserie-single-track-brune/469325"
+     },
+     {
+      "type": "ipa",
+      "libelle": "India Pale Ale",
+      "url": "https://untappd.com/b/brasserie-single-track-india-pale-ale/3559509"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde Poivre + Violette",
+      "url": "https://untappd.com/b/brasserie-single-track-blonde-poivre-violette/2620501"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/w/brasserie-single-track/73973"
+   ],
+   "extrait": "Brasserie Single Track — Fontaines-sur-Saône, Auvergne-Rhône-Alpes France. Bières : Blonde : Pale Ale - Belgian ; Ambrée : Red Ale - American Amber / Red ; Blanche : Wheat Beer - Witbier / Blanche ; Single Pink : Fruit Beer ; Single Triple : Belgian Tripel ; Brune : Brown Ale - Belgian ; India Pale Ale : IPA - American ; Blonde Poivre + Violette : Blonde / Golden Ale - Other",
+   "choix": "La page affiche 0 check-in sur 4 semaines et aucune bière n'est marquée « hors production ». « Encore actives » n'est donc pas démontré, et la liste peut être ancienne. 17 bières listées, 8 retenues. La « Blonde » en « Pale Ale - Belgian » est mise en autre, par la règle de style. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Dulion",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/w/brasserie-dulion/227628",
+     "source": "https://untappd.com/w/brasserie-dulion/227628",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "NEIPA",
+      "url": "https://untappd.com/b/brasserie-dulion-neipa/4301061"
+     },
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://untappd.com/b/brasserie-dulion-ipa/3827427"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple 3 céréales (Belgian Tripel)",
+      "url": "https://untappd.com/b/brasserie-dulion-triple-grain/1291940"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Avant Garde",
+      "url": "https://untappd.com/b/brasserie-dulion-avant-garde/1041607"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Epeautre #02",
+      "url": "https://untappd.com/b/brasserie-dulion-epeautre-02/1384733"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée",
+      "url": "https://untappd.com/b/brasserie-dulion-ambree/4148107"
+     },
+     {
+      "type": "autre",
+      "libelle": "Sarrasin 100% (Other)",
+      "url": "https://untappd.com/b/brasserie-dulion-sarrasin-100/1523347"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "https://untappd.com/b/brasserie-dulion-blanche/5858207"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/w/brasserie-dulion/227628"
+   ],
+   "extrait": "Brasserie Dulion — Rillieux-la-Pape, Auvergne-Rhône-Alpes France. Bières : NEIPA : IPA - Rye ; IPA : IPA - Other ; Triple 3 céréales : Belgian Tripel ; Avant Garde : Belgian Blonde ; Epeautre #02 : Wheat Beer - Witbier / Blanche ; Ambrée : Red Ale - Ambrée ; Sarrasin 100% : Other ; Blanche : Wheat Beer - Witbier / Blanche",
+   "choix": "46 check-ins sur 4 semaines et une bière ajoutée le 29/04/25, donc brasserie active, mais Untappd ne marque aucune bière « hors production ». « Belgian Blonde » est mis en autre (la règle ne cite que Blonde/Golden/Blond Ale) ; mets blonde si tu préfères. Écartées : Chrono IPA, Moisson Brassage Partage x2, Maïs Violet & Myrtilles. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Nomade Brewery",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/NomadeBrewery",
+     "source": "https://untappd.com/NomadeBrewery",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "stout",
+      "libelle": "Invalid Oatmeal Stout",
+      "url": "https://untappd.com/b/nomade-brewery-invalid-oatmeal-stout/2210533"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Shaman IPA",
+      "url": "https://untappd.com/b/nomade-brewery-shaman-ipa/2087696"
+     },
+     {
+      "type": "autre",
+      "libelle": "Saudade Saison (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/nomade-brewery-saudade-saison/2084350"
+     },
+     {
+      "type": "autre",
+      "libelle": "Storm in a Teacup (Earl Grey E.S.B.) (Bitter - Extra Special / Strong (ESB))",
+      "url": "https://untappd.com/b/nomade-brewery-storm-in-a-teacup-earl-grey-e-s-b/1711236"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Nuit Blanche",
+      "url": "https://untappd.com/b/nomade-brewery-nuit-blanche/2165814"
+     },
+     {
+      "type": "autre",
+      "libelle": "Polymorphe (Scotch Ale / Wee Heavy)",
+      "url": "https://untappd.com/b/nomade-brewery-polymorphe/1971256"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Obscured Boundaries",
+      "url": "https://untappd.com/b/nomade-brewery-obscured-boundaries/4008672"
+     },
+     {
+      "type": "ipa",
+      "libelle": "C'est pas moi, c'est le chat",
+      "url": "https://untappd.com/b/nomade-brewery-c-est-pas-moi-c-est-le-chat/2292823"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/NomadeBrewery"
+   ],
+   "extrait": "Nomade Brewery — Genas, Auvergne-Rhône-Alpes France. Bières : Invalid Oatmeal Stout : Stout - Oatmeal ; Shaman IPA : IPA - American ; Saudade Saison : Farmhouse Ale - Saison ; Storm in a Teacup (Earl Grey E.S.B.) : Bitter - Extra Special / Strong (ESB) ; Nuit Blanche : Wheat Beer - Witbier / Blanche ; Polymorphe : Scotch Ale / Wee Heavy ; Obscured Boundaries : IPA - New England / Hazy ; C'est pas moi, c'est le chat : IPA - Session",
+   "choix": "Page brasserie, nom et commune (Genas) concordent. Untappd ne dit pas si une bière est encore produite : les 8 premières de la page, les plus notées. Écartées : Polymorphe (Scotch Ale), IPA Session, d'autres. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Kachmar",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieKachmar",
+     "source": "https://untappd.com/BrasserieKachmar",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Draco DDH IPA",
+      "url": "https://untappd.com/b/brasserie-kachmar-draco-ddh-ipa/4530613"
+     },
+     {
+      "type": "autre",
+      "libelle": "LA BIÈRE DORÉE (Pale Ale - American)",
+      "url": "https://untappd.com/b/brasserie-kachmar-la-biere-doree/3481558"
+     },
+     {
+      "type": "autre",
+      "libelle": "Citra Session 3.7% (Table Beer)",
+      "url": "https://untappd.com/b/brasserie-kachmar-citra-session-3-7/3539111"
+     },
+     {
+      "type": "stout",
+      "libelle": "MORGON STOUT",
+      "url": "https://untappd.com/b/brasserie-kachmar-morgon-stout/3481552"
+     },
+     {
+      "type": "autre",
+      "libelle": "MAAT (Altbier - Traditional)",
+      "url": "https://untappd.com/b/brasserie-kachmar-maat/4618634"
+     },
+     {
+      "type": "sour",
+      "libelle": "Onirik Gose - Experimental Beer Lab Edition",
+      "url": "https://untappd.com/b/brasserie-kachmar-onirik-gose-experimental-beer-lab-edition/3978009"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Alkhayyam",
+      "url": "https://untappd.com/b/brasserie-kachmar-alkhayyam/4526153"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Kashmir Express",
+      "url": "https://untappd.com/b/brasserie-kachmar-kashmir-express/3457492"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasserieKachmar"
+   ],
+   "extrait": "Brasserie Kachmar — Anse, Auvergne-Rhône-Alpes France. Bières : Draco DDH IPA : IPA - Other ; LA BIÈRE DORÉE : Pale Ale - American ; Citra Session 3.7% : Table Beer ; MORGON STOUT : Stout - Irish Dry ; MAAT : Altbier - Traditional ; Onirik Gose - Experimental Beer Lab Edition : Sour - Traditional Gose ; Alkhayyam : Wheat Beer - Witbier / Blanche ; Kashmir Express : IPA - American",
+   "choix": "L'extrait est tiré d'un tableau que WebFetch a reconstitué : les noms et les styles sont ceux de la page, mais ce n'est pas du texte brut. Les 8 bières sont les 8 premières du « Top Beers » (10 affichées sur 49). Untappd n'indique pas ici si elles sont encore actives, donc cette actualité n'est pas vérifiée. J'ai écarté Alma De Santiago Mojito Gose (Sour - Fruited Gose) et Draco II (IPA - Other) pour rester à 8. Les autres bières vues dans le fil d'activité n'ont pas de style affiché, donc je ne les retiens pas. Page canonique selon la page : untappd.com/w/brasserie-kachmar/445702. Le site est ouvert (/la-brasserie), mais il ne porte ni lien Untappd ni liste de bières. Aucun téléphone n'a été lu. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie des Roches",
+   "changements": {
+    "contact": {
+     "site": "http://www.brasseriedesroches.fr/",
+     "source": "http://www.brasseriedesroches.fr/?page_id=45",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "http://www.brasseriedesroches.fr/?page_id=18"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde Ale",
+      "url": "http://www.brasseriedesroches.fr/?page_id=18"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée Ale",
+      "url": "http://www.brasseriedesroches.fr/?page_id=18"
+     },
+     {
+      "type": "stout",
+      "libelle": "Brune Stout",
+      "url": "http://www.brasseriedesroches.fr/?page_id=18"
+     },
+     {
+      "type": "autre",
+      "libelle": "Bière de Noël (à l'orange et aux épices)",
+      "url": "http://www.brasseriedesroches.fr/?page_id=18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.brasseriedesroches.fr/?page_id=45",
+    "http://www.brasseriedesroches.fr/?page_id=18"
+   ],
+   "extrait": "Blanche : « Bière au malt d’orge et de blé, haute fermentation, légère notes d’agrumes. » ; Blonde Ale : « Bière de type ale, haute fermentation, peu amère et ronde en bouche. » ; Ambrée Ale : « Bière ambrée, de type ale, haute fermentation, fruitée et légère. » ; Brune Stout : « Bière haute fermentation, façon Stout. » ; Bière de Noël : « Bière à l’orange et aux épices; gingembre, cannelle. »",
+   "choix": "Aucune page Untappd trouvée : untappd.com/BrasserieDesRoches renvoie 404. Les bières sont lues sur le site officiel (le style est écrit par la brasserie). La page de contact donne un mobile, « 06.72.22.73.77 ». Je ne le propose pas : personne ne l'a demandé et c'est un mobile seul. À Cédric de voir. La liste de la page ne dit pas si ces bières sont encore produites."
+  },
+  {
+   "n": "Terre de Bières",
+   "changements": {
+    "contact": {
+     "site": "https://www.terredebieres.fr/",
+     "source": "https://www.terredebieres.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.terredebieres.fr/"
+   ],
+   "extrait": "« Qu'elles soient Blonde, Blanche, Rousse, Ambrée..., elles sont toutes fabriquées avec passion à notre image. »",
+   "choix": "L'extrait recopie une phrase d'introduction rendue par WebFetch. La liste complète (IPA, NEIPA, triple blonde, brune triple, cuvée caladoise, saisonnières, versions sans alcool) vient d'un résumé de l'outil, pas d'un texte brut. Je ne retiens donc que les types dont la phrase ou le résumé donne le nom clair. L'IPA repose sur le résumé seul. J'ai écarté rousse, brune triple, NEIPA, triple blonde et les saisonnières (non mappables sans libellé de bière lu), et les sans alcool (le résumé ne dit pas qu'elles sont distinctes des autres bières). Aucun nom de bière commercial n'a été lu, donc pas de `libelle` ni d'`url`. Pas de page Untappd : untappd.com/TerreDeBieres renvoie 404."
+  },
+  {
+   "n": "La Gaudine (Brasserie de la Semène)",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasseriedelasemene.fr",
+     "untappd": "https://untappd.com/Brasserie-de-la-Semene",
+     "source": "https://untappd.com/Brasserie-de-la-Semene",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "lager",
+      "libelle": "TROPIC Lager",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-tropic-lager/2818706"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Hammer Hit",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-hammer-hit/3675059"
+     },
+     {
+      "type": "sour",
+      "libelle": "Passion",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-passion/4841441"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Champ'ANAR",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-champ-anar/6625204"
+     },
+     {
+      "type": "lager",
+      "libelle": "JARDIN",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-jardin/4010080"
+     },
+     {
+      "type": "autre",
+      "libelle": "RIPOU (Belgian Tripel)",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-ripou/6505549"
+     },
+     {
+      "type": "ambree",
+      "libelle": "RIOT",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-riot/6505552"
+     },
+     {
+      "type": "ipa",
+      "libelle": "HIPPIE",
+      "url": "https://untappd.com/b/ferme-brasserie-de-la-semene-hippie/6505545"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/Brasserie-de-la-Semene",
+    "https://www.brasseriedelasemene.fr"
+   ],
+   "extrait": "Ferme Brasserie de la Semène — Marlhes, Auvergne-Rhône-Alpes France. Bières : TROPIC Lager : Lager - IPL (India Pale Lager) ; Hammer Hit : IPA - Black / Cascadian Dark Ale ; Passion : Sour - Fruited ; Champ'ANAR : IPA - Brut ; JARDIN : Pilsner - Other ; RIPOU : Belgian Tripel ; RIOT : Red Ale - American Amber / Red ; HIPPIE : IPA - American",
+   "choix": "La page Untappd donne Marlhes, la fiche dit Saint-Genest-Malifaux : la brasserie y a débuté en 2017 puis a déménagé à Marlhes en avril 2025 (selon une fiche tourisme, résumé). Gaudine est une bière de la gamme (Lager - Other sur Untappd). Écarté : Weipa (IPA NEIPA), Gaudine, pour tenir à 8 ; la page annonce 13 bières, 10 affichées. Cédric peut juger que la fiche doit être déplacée à Marlhes. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie de la Sanne",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieDeLaSanne",
+     "source": "https://untappd.com/BrasserieDeLaSanne",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "NEIPA, Let the Hops Guide You To A Better World",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-neipa-let-the-hops-guide-you-to-a-better-world/4464073"
+     },
+     {
+      "type": "blonde",
+      "libelle": "One Shot",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-one-shot/3026103"
+     },
+     {
+      "type": "ipa",
+      "libelle": "In'sanne Summer Ale",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-in-sanne-summer-ale/3156561"
+     },
+     {
+      "type": "autre",
+      "libelle": "Surieuse Triple (Belgian Tripel)",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-surieuse-triple/3017583"
+     },
+     {
+      "type": "ambree",
+      "libelle": "'Til the End",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-til-the-end/4450000"
+     },
+     {
+      "type": "autre",
+      "libelle": "Straight From Hops (Pale Ale - American)",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-straight-from-hops/3744682"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Black Hops",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-black-hops/3017590"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Red Ipa",
+      "url": "https://untappd.com/b/brasserie-de-la-sanne-red-ipa/4343569"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasserieDeLaSanne"
+   ],
+   "extrait": "Brasserie De La Sanne — Salaise-sur-Sanne, Auvergne-Rhône-Alpes France. Bières : NEIPA, Let the Hops Guide You To A Better World : IPA - New England / Hazy ; One Shot : Blonde / Golden Ale - Other ; In'sanne Summer Ale : IPA - Session ; Surieuse Triple : Belgian Tripel ; 'Til the End : Lager - Amber / Red ; Straight From Hops : Pale Ale - American ; Black Hops : IPA - Black / Cascadian Dark Ale ; Red Ipa : IPA - Imperial / Double Milkshake",
+   "choix": "Commune Untappd = Salaise-sur-Sanne, fiche = Saint-Romain-de-Surieu : même nom, communes voisines, et une bière « Surieuse Triple » ; mais je n'ai pas de source qui dise que c'est la même brasserie. À valider par Cédric. 'Til the End classée lager d'après « Lager Amber / Rouge » (ambree possible). Pas d'url de bière lue, donc aucune. Écarté : Red IPA, Voss Kveik IPA, pour tenir à 8. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Stéphanoise",
+   "changements": {
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "La Gambelle",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "blonde",
+      "libelle": "La Manu",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "ipa",
+      "libelle": "La Cafi",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La Quinarelle",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "stout",
+      "libelle": "La Machurée",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "autre",
+      "libelle": "L'A Cha Peu (ginger Ale)",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "autre",
+      "libelle": "L'Ébariole (tourbée)",
+      "url": "https://www.labrasseriestephanoise.com/"
+     },
+     {
+      "type": "stout",
+      "libelle": "La Ratapena (Double stout)",
+      "url": "https://www.labrasseriestephanoise.com/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.labrasseriestephanoise.com/"
+   ],
+   "extrait": "La Gambelle « bière de blé » 5,5 % ; La Manu « blonde ale » 5,5 % ; La Cafi « ipa » 6 % ; La Quinarelle « amber ale » 5,5 % ; La Machurée « stout » 5,5 % ; L'A Cha Peu « ginger Ale » 4,5 % ; L'Ébariole « tourbée » 7 % ; La Ratapena « Double stout » 7,5 % (tableau issu du résumé de l'outil).",
+   "choix": "Aucune page Untappd trouvée (untappd.com/BrasserieStephanoise, Brasserie-Stephanoise, -1 : 404 ; le site n'a pas de lien Untappd). Bières lues sur le site officiel, style écrit par la brasserie. « bière de blé » classé blanche. Écarté pour tenir à 8 : L'Ébariole II et La Ratapena II (vieillies en fût)."
+  },
+  {
+   "n": "Brasserie de la Loire",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "La Saint-Côme",
+      "url": "https://www.brasseriedelaloire.fr/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La Ramberte (blanche aux accents cidrés)",
+      "url": "https://www.brasseriedelaloire.fr/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La 109",
+      "url": "https://www.brasseriedelaloire.fr/"
+     },
+     {
+      "type": "brune",
+      "libelle": "La Gueule Noire",
+      "url": "https://www.brasseriedelaloire.fr/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La Sibère",
+      "url": "https://www.brasseriedelaloire.fr/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La Boulonji (ambrée au pain toasté)",
+      "url": "https://www.brasseriedelaloire.fr/"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriedelaloire.fr/"
+   ],
+   "extrait": "La Saint-Côme : Blonde ; La Ramberte : Blanche aux accents cidrés ; La 109 : Ambrée de caractère ; La Gueule Noire : Brune ; La Sibère : Blanche ; La Boulonji : Ambrée au pain toasté (tableau issu du résumé de l'outil).",
+   "choix": "Pas de page Untappd (untappd.com/BrasserieDeLaLoire et Brasserie-de-la-Loire : 404 ; pas de lien sur le site). Écartées car style non classable sans déduire : La Mosser « Blonde pils », La Messon « Blonde triple multicéréales », La Garipotte, La Pampille, La Gruette, La Récréation d'Anne ; L'Aveille « plus produite »."
+  },
+  {
+   "n": "Brasserie des Ursulines",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde",
+      "url": "https://www.biere-les-ursulines.com"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "https://www.biere-les-ursulines.com"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée",
+      "url": "https://www.biere-les-ursulines.com"
+     },
+     {
+      "type": "brune",
+      "libelle": "Brune",
+      "url": "https://www.biere-les-ursulines.com"
+     },
+     {
+      "type": "ipa",
+      "libelle": "I.P.A",
+      "url": "https://www.biere-les-ursulines.com"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.biere-les-ursulines.com"
+   ],
+   "extrait": "Blanche : 4,2 % ; Blonde : 4,7 % ; Ambrée : 6,2 % ; Brune : 6 % ; I.P.A (Indian Pale Ale) : 6 % (liste issue du résumé de l'outil).",
+   "choix": "Le site ne donne pas de style séparé : le nom de la bière est le style (Blonde, Blanche, Ambrée, Brune, I.P.A). Cédric peut juger que c'est une déduction. Écartées : Be Happy, Dorée, Médiévale, Noël, Printemps (style non dit). Pas de lien Untappd sur le site ; untappd.com/BrasserieDesUrsulines : 404."
+  },
+  {
+   "n": "Brasserie Amalthée",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieAmalthee",
+     "site": "https://brasserieamalthee.fr",
+     "source": "https://untappd.com/BrasserieAmalthee",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Goathik",
+      "url": "https://untappd.com/b/brasserie-amalthee-goathik/5601483"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Equinoxe",
+      "url": "https://untappd.com/b/brasserie-amalthee-equinoxe/5601474"
+     },
+     {
+      "type": "autre",
+      "libelle": "Solaire (Belgian Dubbel)",
+      "url": "https://untappd.com/b/brasserie-amalthee-solaire/5601481"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Nébuleuse",
+      "url": "https://untappd.com/b/brasserie-amalthee-nebuleuse/5953384"
+     },
+     {
+      "type": "autre",
+      "libelle": "Jovi'Ale (Pale Ale - English)",
+      "url": "https://untappd.com/b/brasserie-amalthee-jovi-ale/5601477"
+     },
+     {
+      "type": "autre",
+      "libelle": "Mystic Berry (Fruit Beer)",
+      "url": "https://untappd.com/b/brasserie-amalthee-mystic-berry/6322398"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Lunaire",
+      "url": "https://untappd.com/b/brasserie-amalthee-lunaire/5775200"
+     },
+     {
+      "type": "autre",
+      "libelle": "Demenciel (Belgian Tripel)",
+      "url": "https://untappd.com/b/brasserie-amalthee-demenciel/6508057"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasserieAmalthee",
+    "https://brasserieamalthee.fr"
+   ],
+   "extrait": "Brasserie Amalthée — Belleville-en-Beaujolais, Auvergne-Rhône-Alpes France. Bières : Goathik : IPA - Black / Cascadian Dark Ale ; Equinoxe : IPA - American ; Solaire : Belgian Dubbel ; Nébuleuse : IPA - New England / Hazy ; Jovi'Ale : Pale Ale - English ; Mystic Berry : Fruit Beer ; Lunaire : Wheat Beer - American Pale Wheat ; Demenciel : Belgian Tripel",
+   "choix": "Page Untappd ouverte : même nom, commune Belleville-en-Beaujolais. La recherche web a aussi remonté « 106 ratings, 3.61 », que je n'ai pas recopié. Le résumé de l'outil colle nom et style (« Equinoxe IPA - American »), donc la coupure nom/style est lue par l'outil. Écartés : Goathik (« IPA - Black / Cascadian Dark Ale », mapping ambigu : ipa ou autre ?), Solaire (« Belgian Dubbel » sans séparation claire), et les 3 bières non listées. Aucun lien de bière lu, donc pas d'url. Téléphone non proposé : 07 88 73 45 00 vient de la fiche de l'office de tourisme, pas de la brasserie, et c'est un mobile. Le site brasserieamalthee.fr est ouvert et donne le lien Untappd ci-dessus. ; Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Cadole",
+   "changements": {
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Blonde triple (bière triple blonde, 6,5 %)",
+      "url": "https://www.brasserielacadole.fr/boutique.html"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "https://www.brasserielacadole.fr/boutique.html"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Dark Ale",
+      "url": "https://www.brasserielacadole.fr/boutique.html"
+     },
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://www.brasserielacadole.fr/boutique.html"
+     },
+     {
+      "type": "stout",
+      "libelle": "Stout Caf & Choc",
+      "url": "https://www.brasserielacadole.fr/boutique.html"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserielacadole.fr/boutique.html"
+   ],
+   "extrait": "« Bière triple blonde 6.5% vol, douce et épicée. » ; « Bière de froment, 4.5% Vol, légère avec des parfums d'agrumes. » ; « Dark Ale … Bière Ambrée 7.5%Vol. » ; « IPA … Bière très parfumée fruits éxotiques5.5% Vol. » ; « Stout Caf & Choc … Bière sweet stout 5% Vol sur des parfums de chocolats et café. »",
+   "choix": "Styles écrits par la brasserie sur son site officiel (la page boutique est déjà la `src`). Aucune page Untappd trouvée : untappd.com/BrasserieLaCadole et /LaCadole renvoient 404, et la page boutique n'a pas de lien Untappd (seulement Facebook). Donc pas de champ `untappd`. Le libellé de « Blanche » est le nom lu ; son style (« Bière de froment ») correspond à blanche. L'`url` de chaque bière est la page boutique, faute de page par bière."
+  },
+  {
+   "n": "Brasserie Cabule",
+   "changements": {
+    "beers": [
+     {
+      "type": "ambree",
+      "libelle": "Ambrée Fumée Bio",
+      "url": "https://www.cabule.fr"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde Bio",
+      "url": "https://www.cabule.fr"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rousse Bio (rousse)",
+      "url": "https://www.cabule.fr"
+     },
+     {
+      "type": "brune",
+      "libelle": "Brune Bio",
+      "url": "https://www.cabule.fr"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée au Miel",
+      "url": "https://www.cabule.fr"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "https://www.cabule.fr"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.cabule.fr"
+   ],
+   "extrait": "Brasserie CABULE, 140 impasse des Freesias, 26140 ALBON. « six bières bio artisanales » : Ambrée Fumée Bio, Blonde Bio, Rousse Bio, Brune Bio, Ambrée au Miel, Blanche.",
+   "choix": "Le style n'est que celui qui figure dans le nom de la bière : la page d'accueil n'en écrit pas d'autre. La page de détail cabule.fr/nos-bieres-2/ n'a pas été ouverte. « Rousse » n'est pas dans le mapping, donc `autre`. Téléphone non proposé : le site donne 06 69 42 58 17 et la fiche de tourisme 07 81 01 37 77, deux mobiles différents. Aucun lien Untappd trouvé (untappd.com/Cabule : 404)."
+  },
+  {
+   "n": "La Canaille",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserielacanaille.com",
+     "source": "https://www.brasserielacanaille.com/nos-produits/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "La gavroche"
+     },
+     {
+      "type": "blanche",
+      "libelle": "La canaille"
+     },
+     {
+      "type": "brune",
+      "libelle": "La pétroleuse"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La sauvageonne"
+     },
+     {
+      "type": "lager",
+      "libelle": "L'insoumise"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Chateau Gaillard"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Eugène Varlin"
+     },
+     {
+      "type": "stout",
+      "libelle": "Makhno"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserielacanaille.com/nos-produits/"
+   ],
+   "extrait": "La gavroche : \"Blonde\" ; La canaille : \"Blanche\" ; La pétroleuse : \"Brune\" ; La sauvageonne : \"Ambrée\" ; L'insoumise : \"Blonde Pils\" ; Chateau Gaillard : \"India Pale Ale (IPA)\" ; Eugène Varlin : \"NEIPA\" ; Makhno : \"Imperial Stout\"",
+   "choix": "Page Nos produits du site officiel (styles écrits par la brasserie), pas Untappd : aucun lien Untappd sur le site ni dans la recherche. J'ai retenu 8 bières sur 26, des types simples en priorité. « Blonde Pils » devient lager, sur ma lecture du mot « Pils » ; Cédric peut le ramener à blonde. Écartées : Oberkampf, Place blanche, Herbe de bison et Yuzu, signalées non disponibles sur la page. Écartés aussi : le téléphone, qui n'est pas publié sur ces pages (06 79 22 41 10 et 04 77 97 88 26 ne viennent que de la recherche web), et les horaires. Les noms de bières n'ont pas de page individuelle, donc pas d'`url`."
+  },
+  {
+   "n": "La Germanoise",
+   "changements": {
+    "contact": {
+     "tel": "04 77 62 66 73",
+     "site": "https://www.brasserie-lagermanoise.fr/",
+     "source": "https://www.brasserie-lagermanoise.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Bière Blonde"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Bière Blanche"
+     },
+     {
+      "type": "brune",
+      "libelle": "Bière Brune"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Bière Ambrée"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Bière IPA"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple fermentation (bière triple)"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-lagermanoise.fr/"
+   ],
+   "extrait": "Bière Blonde : blonde de fermentation haute, aux arômes fruités et à une fine note de miel. Bière Blanche : bière de blé légère. Bière Brune : d'esprit sweet stout irlandaise. Bière Ambrée : plus maltée. Triple fermentation (aussi appelée « Bière triple »). Bière IPA : blonde très houblonnée. Téléphone : 04 77 62 66 73",
+   "choix": "Le site ne nomme pas les bières, seulement leurs styles, d'où des libellés génériques. La brune est qualifiée « sweet stout irlandaise » : je l'ai mise en brune d'après son intitulé « Bière Brune », Cédric peut la passer en stout. Le téléphone figure sur la page du site officiel d'après l'outil (un seul numéro, un fixe 04). Je n'ai pas vérifié s'il est publié pour les clients plutôt que pour des pros."
+  },
+  {
+   "n": "Brasserie de Chambaran",
+   "changements": {
+    "contact": {
+     "tel": "09 72 82 66 24",
+     "site": "http://www.labinche.fr/",
+     "source": "http://www.labinche.fr/",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Rousse"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.labinche.fr/",
+    "https://www.alpes-isere.com/en/sit/brasserie-de-chambaran-la-binche-815057/"
+   ],
+   "extrait": "BRASSERIE DE CHAMBARAN - 110 ROUTE DE L'AEROPORT 38590 SAINT ETIENNE DE SAINT GEOIRS ; 09 72 82 66 24 ou 07 83 21 79 03 ; fermentation haute, ni filtrées, ni pasteurisées. Fiche alpes-isere.com : blanche, blonde, rousse, ambrée, plus éphémères Noël, Printemps, Fruits Rouge, Triple, IPA.",
+   "choix": "Deux numéros publiés sur labinche.fr : j'ai retenu le 09 72 82 66 24 (fixe) et écarté le 07 83 21 79 03 (mobile). Seules blonde, blanche et rousse sont retenues. L'ambrée est écartée comme doublon d'ambree. L'IPA, la triple, Noël, Printemps et Fruits rouge sont des éphémères, donc rien ne dit qu'elles sont encore actives. Les types viennent de la fiche alpes-isere.com (la page labinche.fr/nos-bieres n'a que des images sans texte), et aucun nom de bière n'est lisible, d'où des libellés génériques. « Rousse » est mappé sur ambree comme « Red Ale »."
+  },
+  {
+   "n": "BIM Brasserie Indépendante Montbrisonnaise",
+   "changements": {
+    "contact": {
+     "tel": "06 75 14 42 80",
+     "site": "https://www.brasseriebim.com/",
+     "source": "https://www.brasseriebim.com/",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriebim.com/"
+   ],
+   "extrait": "2, rue de Feurs, 42600 Montbrison ; Téléphone : 06.75.14.42.80 ; gamme de 10 bières permanentes (le Cirkwi et rendezvousenforez.com disent 7)",
+   "choix": "Seul numéro publié, et c'est un mobile (06). Cédric décide s'il le garde. Aucun style de bière lu : la page ne donne que « HOPPY », une liqueur de houblon, et aucun style. Pas de bières proposées. Les horaires sont contradictoires entre sources (Cirkwi EN 8h-17h, Cirkwi FR 9h-17h), donc rien proposé."
+  },
+  {
+   "n": "Malting Pot",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/malting-pot",
+     "source": "https://untappd.com/malting-pot",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Lilikoï (Fruit Beer)",
+      "url": "https://untappd.com/b/malting-pot-lilikoi/2311742"
+     },
+     {
+      "type": "autre",
+      "libelle": "Saison Paradis (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/malting-pot-saison-paradis/1902725"
+     },
+     {
+      "type": "sour",
+      "libelle": "Goose Buster 2",
+      "url": "https://untappd.com/b/malting-pot-goose-buster-2/3461212"
+     },
+     {
+      "type": "autre",
+      "libelle": "Quadra Rugissante (Belgian Quadrupel)",
+      "url": "https://untappd.com/b/malting-pot-quadra-rugissante/2724846"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Arizona Dream",
+      "url": "https://untappd.com/b/malting-pot-arizona-dream/1612873"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple Plaisir (Belgian Tripel)",
+      "url": "https://untappd.com/b/malting-pot-triple-plaisir/1838098"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Rye Way To Ale",
+      "url": "https://untappd.com/b/malting-pot-rye-way-to-ale/1951215"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Hoppus Dei",
+      "url": "https://untappd.com/b/malting-pot-hoppus-dei/4486829"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/malting-pot"
+   ],
+   "extrait": "Malting-Pot — Lyon, Auvergne-Rhône-Alpes France. Bières : Lilikoï : Fruit Beer ; Saison Paradis : Farmhouse Ale - Saison ; Goose Buster 2 : Sour - Fruited Gose ; Quadra Rugissante : Belgian Quadrupel ; Arizona Dream : IPA - American ; Triple Plaisir : Belgian Tripel ; Rye Way To Ale : IPA - Rye ; Hoppus Dei : IPA - New England / Hazy",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Fabrique du Faubourg",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaFabriqueDuFaubourg",
+     "source": "https://untappd.com/LaFabriqueDuFaubourg",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Princesse Pale Ale (Pale Ale - English)",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-princesse-pale-ale/4666606"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Neipa",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-neipa/4170726"
+     },
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-ipa/3562345"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Silky Weiss",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-silky-weiss/4229896"
+     },
+     {
+      "type": "brune",
+      "libelle": "Munica Brune²",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-munica-brune2/4560496"
+     },
+     {
+      "type": "autre",
+      "libelle": "More Is Bitter (Bitter - Session / Ordinary)",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-more-is-bitter/4195581"
+     },
+     {
+      "type": "autre",
+      "libelle": "Blonde Original (Pale Ale - English)",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-blonde-original/4737672"
+     },
+     {
+      "type": "autre",
+      "libelle": "Very Good Triple (Belgian Tripel)",
+      "url": "https://untappd.com/b/bieres-georges-la-fabrique-du-faubourg-very-good-triple/4666600"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaFabriqueDuFaubourg"
+   ],
+   "extrait": "Bières Georges • La Fabrique Du Faubourg — Vénissieux, Auvergne-Rhône-Alpes France. Bières : Princesse Pale Ale : Pale Ale - English ; Neipa : IPA - New England / Hazy ; IPA : IPA - American ; Silky Weiss : Wheat Beer - Hefeweizen ; Munica Brune² : Porter - Other ; More Is Bitter : Bitter - Session / Ordinary ; Blonde Original : Pale Ale - English ; Very Good Triple : Belgian Tripel",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Domaine du Manchot",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/DomaineDuManchot",
+     "source": "https://untappd.com/DomaineDuManchot",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "L'Hédoniste",
+      "url": "https://untappd.com/b/domaine-du-manchot-l-hedoniste/2118213"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Caldeira",
+      "url": "https://untappd.com/b/domaine-du-manchot-caldeira/2203671"
+     },
+     {
+      "type": "autre",
+      "libelle": "Bliss (Pale Ale - Other)",
+      "url": "https://untappd.com/b/domaine-du-manchot-bliss/2117748"
+     },
+     {
+      "type": "stout",
+      "libelle": "Dandy",
+      "url": "https://untappd.com/b/domaine-du-manchot-dandy/2496971"
+     },
+     {
+      "type": "autre",
+      "libelle": "#01 KIF-KIF (Spiced / Herbed Beer)",
+      "url": "https://untappd.com/b/domaine-du-manchot-01-kif-kif/2852748"
+     },
+     {
+      "type": "ipa",
+      "libelle": "L'lconoclaste",
+      "url": "https://untappd.com/b/domaine-du-manchot-l-iconoclaste/3833875"
+     },
+     {
+      "type": "autre",
+      "libelle": "#02 BLOSSOM (Spiced / Herbed Beer)",
+      "url": "https://untappd.com/b/domaine-du-manchot-02-blossom/3155575"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Solstice ÉTÉ 2023",
+      "url": "https://untappd.com/b/domaine-du-manchot-solstice-ete-2023/4265237"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/DomaineDuManchot"
+   ],
+   "extrait": "Domaine du Manchot — Lachassagne, Auvergne-Rhône-Alpes France. Bières : L'Hédoniste : IPA - Imperial / Double ; Caldeira : Wheat Beer - Witbier / Blanche ; Bliss : Pale Ale - Other ; Dandy : Stout - Russian Imperial ; #01 KIF-KIF : Spiced / Herbed Beer ; L'lconoclaste : IPA - American ; #02 BLOSSOM : Spiced / Herbed Beer ; Solstice ÉTÉ 2023 : IPA - New England / Hazy",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Voie Maltée",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaVoieMaltee",
+     "source": "https://untappd.com/LaVoieMaltee",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Fenotte",
+      "url": "https://untappd.com/b/la-voie-maltee-fenotte/375108"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche Première Gelée",
+      "url": "https://untappd.com/b/la-voie-maltee-blanche-premiere-gelee/231805"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Am'bressane La Caramelle Liquide",
+      "url": "https://untappd.com/b/la-voie-maltee-am-bressane-la-caramelle-liquide/272836"
+     },
+     {
+      "type": "brune",
+      "libelle": "Reine Claude",
+      "url": "https://untappd.com/b/la-voie-maltee-reine-claude/395020"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Armagedon",
+      "url": "https://untappd.com/b/la-voie-maltee-armagedon/4377223"
+     },
+     {
+      "type": "stout",
+      "libelle": "L'Étoile noire",
+      "url": "https://untappd.com/b/la-voie-maltee-l-etoile-noire/1843593"
+     },
+     {
+      "type": "autre",
+      "libelle": "Coup De Soleil (Farmhouse Ale - Sahti)",
+      "url": "https://untappd.com/b/la-voie-maltee-coup-de-soleil/1613420"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Habemus Papam",
+      "url": "https://untappd.com/b/la-voie-maltee-habemus-papam-ou-pas/2416654"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaVoieMaltee"
+   ],
+   "extrait": "La Voie Maltée — Saint-Jean-de-Thurigneux, Auvergne-Rhône-Alpes France. Bières : Fenotte : Blonde / Golden Ale - Other ; Blanche Première Gelée : Wheat Beer - Witbier / Blanche ; Am'bressane La Caramelle Liquide : Red Ale - Other ; Reine Claude : Brown Ale - Belgian ; Armagedon : IPA - Other ; L'Étoile noire : Stout - Irish Dry ; Coup De Soleil : Farmhouse Ale - Sahti ; Habemus Papam : Wheat Beer - Dunkelweizen",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Rivière d'Ain",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/RiviereDAin",
+     "source": "https://untappd.com/RiviereDAin",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "Thou Double Blanche",
+      "url": "https://untappd.com/b/riviere-d-ain-thou-double-blanche/1521376"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Rivière d'Ain Blonde",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-blonde/1542033"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Rivière d'Ain Ambrée",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-ambree/1601425"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rivière d'Ain Rousse (Farmhouse Ale - Bière de Garde)",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-rousse/1515293"
+     },
+     {
+      "type": "brune",
+      "libelle": "Rivière d'Ain Brune",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-brune/1651596"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Rivière d'Ain Blanche",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-blanche/1542064"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Coq'Ain",
+      "url": "https://untappd.com/b/riviere-d-ain-coq-ain/5474587"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rivière d'Ain Hiver (Winter Ale)",
+      "url": "https://untappd.com/b/riviere-d-ain-riviere-d-ain-hiver/1859755"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/RiviereDAin"
+   ],
+   "extrait": "Rivière d'Ain — Jujurieux, Auvergne-Rhône-Alpes France. Bières : Thou Double Blanche : Wheat Beer - Witbier / Blanche ; Rivière d'Ain Blonde : Belgian Blonde ; Rivière d'Ain Ambrée : Red Ale - Ambrée ; Rivière d'Ain Rousse : Farmhouse Ale - Bière de Garde ; Rivière d'Ain Brune : Brown Ale - Belgian ; Rivière d'Ain Blanche : Wheat Beer - Witbier / Blanche ; Coq'Ain : Blonde / Golden Ale - Other ; Rivière d'Ain Hiver : Winter Ale",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Les Deux Branches",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LesDeuxBranches",
+     "source": "https://untappd.com/LesDeuxBranches",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "BBK : Big Balek Kveik (Farmhouse Ale - Other)",
+      "url": "https://untappd.com/b/les-deux-branches-bbk-big-balek-kveik/4355581"
+     },
+     {
+      "type": "stout",
+      "libelle": "Dark Hedges",
+      "url": "https://untappd.com/b/les-deux-branches-dark-hedges/3737001"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Pollen",
+      "url": "https://untappd.com/b/les-deux-branches-pollen/3771784"
+     },
+     {
+      "type": "autre",
+      "libelle": "Major Oak (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/les-deux-branches-major-oak/3736877"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Sequoyah",
+      "url": "https://untappd.com/b/les-deux-branches-sequoyah/4343066"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Graines de Lune",
+      "url": "https://untappd.com/b/les-deux-branches-graines-de-lune/3771276"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Éphémère #9 - Talus DDH IPA",
+      "url": "https://untappd.com/b/les-deux-branches-ephemere-9-talus-ddh-ipa/4197012"
+     },
+     {
+      "type": "autre",
+      "libelle": "Éphémère #3 - Apricot Appletree Smoked Kveik (Smoked Beer)",
+      "url": "https://untappd.com/b/les-deux-branches-ephemere-3-apricot-appletree-smoked-kveik/3852242"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LesDeuxBranches"
+   ],
+   "extrait": "Les Deux Branches — Maizilly, Auvergne-Rhône-Alpes France. Bières : BBK : Big Balek Kveik : Farmhouse Ale - Other ; Dark Hedges : Stout - Coffee ; Pollen : IPA - Session ; Major Oak : Farmhouse Ale - Saison ; Sequoyah : IPA - American ; Graines de Lune : Wheat Beer - Hopfenweisse ; Éphémère #9 - Talus DDH IPA : IPA - American ; Éphémère #3 - Apricot Appletree Smoked Kveik : Smoked Beer",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Two Hats Brewing",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/TwoHats",
+     "source": "https://untappd.com/TwoHats",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://untappd.com/b/two-hats-brewing-ipa/2706535"
+     },
+     {
+      "type": "autre",
+      "libelle": "Scotch Ale (Scotch Ale / Wee Heavy)",
+      "url": "https://untappd.com/b/two-hats-brewing-scotch-ale/2706515"
+     },
+     {
+      "type": "autre",
+      "libelle": "Blanche (Spiced / Herbed Beer)",
+      "url": "https://untappd.com/b/two-hats-brewing-blanche/2605874"
+     },
+     {
+      "type": "lager",
+      "libelle": "Lager",
+      "url": "https://untappd.com/b/two-hats-brewing-lager/2948551"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Fest",
+      "url": "https://untappd.com/b/two-hats-brewing-fest/3985450"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Amber",
+      "url": "https://untappd.com/b/two-hats-brewing-amber/2706538"
+     },
+     {
+      "type": "autre",
+      "libelle": "Two Hats Saison (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/two-hats-brewing-two-hats-saison/3313736"
+     },
+     {
+      "type": "autre",
+      "libelle": "ESB (Bitter - Extra Special / Strong (ESB))",
+      "url": "https://untappd.com/b/two-hats-brewing-esb/2954680"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/TwoHats"
+   ],
+   "extrait": "Two Hats Brewing — Peyrieu, Auvergne-Rhône-Alpes France. Bières : IPA : IPA - Other ; Scotch Ale : Scotch Ale / Wee Heavy ; Blanche : Spiced / Herbed Beer ; Lager : Lager - Pale ; Fest : Lager - Amber / Red ; Amber : Red Ale - Other ; Two Hats Saison : Farmhouse Ale - Saison ; ESB : Bitter - Extra Special / Strong (ESB)",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "L'Agrivoise",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LAgrivoise",
+     "source": "https://untappd.com/LAgrivoise",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Vue sur l'Amer",
+      "url": "https://untappd.com/b/l-agrivoise-vue-sur-l-amer/84499"
+     },
+     {
+      "type": "autre",
+      "libelle": "Humulupucienne (Pale Ale - American)",
+      "url": "https://untappd.com/b/l-agrivoise-humulupucienne/763047"
+     },
+     {
+      "type": "ipa",
+      "libelle": "L'Asociale",
+      "url": "https://untappd.com/b/l-agrivoise-l-asociale/195915"
+     },
+     {
+      "type": "ipa",
+      "libelle": "L'Amère Noire",
+      "url": "https://untappd.com/b/l-agrivoise-l-amere-noire/1102916"
+     },
+     {
+      "type": "brune",
+      "libelle": "Sous Les Pavés",
+      "url": "https://untappd.com/b/l-agrivoise-sous-les-paves/384881"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Nihilisme Thérapeutique",
+      "url": "https://untappd.com/b/l-agrivoise-nihilisme-therapeutique/1877857"
+     },
+     {
+      "type": "stout",
+      "libelle": "Exil Fiscalov",
+      "url": "https://untappd.com/b/l-agrivoise-exil-fiscalov/459024"
+     },
+     {
+      "type": "autre",
+      "libelle": "Les Échappées : Mosaic Simple Houblon (Pale Ale - English)",
+      "url": "https://untappd.com/b/l-agrivoise-les-echappees-mosaic-simple-houblon/2975431"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LAgrivoise"
+   ],
+   "extrait": "L'Agrivoise — Saint-Agrève, Auvergne-Rhône-Alpes France. Bières : Vue sur l'Amer : IPA - American ; Humulupucienne : Pale Ale - American ; L'Asociale : IPA - Imperial / Double ; L'Amère Noire : IPA - Black / Cascadian Dark Ale ; Sous Les Pavés : Porter - English ; Nihilisme Thérapeutique : IPA - American ; Exil Fiscalov : Stout - Russian Imperial ; Les Échappées : Mosaic Simple Houblon : Pale Ale - English",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie de Cluny",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieDeCluny",
+     "source": "https://untappd.com/BrasserieDeCluny",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Zouaffe IPA",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-india-pale-ale/1669030"
+     },
+     {
+      "type": "autre",
+      "libelle": "Zouaffe Pale Ale (Pale Ale - Australian)",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-pale-ale/1858888"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Zouaffe Ambrée",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-ambree/1580800"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Zouaffe Blanche",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-blanche/2210451"
+     },
+     {
+      "type": "brune",
+      "libelle": "Zouaffe Baltic Porter",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-baltic-porter/2686425"
+     },
+     {
+      "type": "sour",
+      "libelle": "37.2°",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-37-2-deg/2593731"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Zouaffe Endless Summer Ale",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-endless-summer-ale/3399824"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Zouaffe Encore",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-cluny-zouaffe-encore/3628748"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasserieDeCluny"
+   ],
+   "extrait": "Brasserie Artisanale de Cluny — Château, Bourgogne-Franche-Comté France. Bières : Zouaffe IPA : IPA - Other ; Zouaffe Pale Ale : Pale Ale - Australian ; Zouaffe Ambrée : Red Ale - American Amber / Red ; Zouaffe Blanche : Wheat Beer - Witbier / Blanche ; Zouaffe Baltic Porter : Porter - Baltic ; 37.2° : Sour - Other ; Zouaffe Endless Summer Ale : Blonde / Golden Ale - Other ; Zouaffe Encore : Blonde / Golden Ale - Other",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Valentinoise",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaValentinoise",
+     "source": "https://untappd.com/LaValentinoise",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "Blanche Tilleul",
+      "url": "https://untappd.com/b/la-valentinoise-blanche-tilleul/2699943"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde",
+      "url": "https://untappd.com/b/la-valentinoise-blonde/2832441"
+     },
+     {
+      "type": "autre",
+      "libelle": "A.P.A (Pale Ale - American)",
+      "url": "https://untappd.com/b/la-valentinoise-a-p-a/2700001"
+     },
+     {
+      "type": "autre",
+      "libelle": "Cuvée des Dieux 2019 (Grape Ale - Other)",
+      "url": "https://untappd.com/b/la-valentinoise-cuvee-des-dieux-2019/3695908"
+     },
+     {
+      "type": "autre",
+      "libelle": "Écossaise (Smoked Beer)",
+      "url": "https://untappd.com/b/la-valentinoise-ecossaise/2636580"
+     },
+     {
+      "type": "stout",
+      "libelle": "Expresso Stout",
+      "url": "https://untappd.com/b/la-valentinoise-expresso-stout/2815793"
+     },
+     {
+      "type": "brune",
+      "libelle": "Ambrée",
+      "url": "https://untappd.com/b/la-valentinoise-ambree/2636467"
+     },
+     {
+      "type": "autre",
+      "libelle": "Farmhouse BA Pêche/romarin (Farmhouse Ale - Saison)",
+      "url": "https://untappd.com/b/la-valentinoise-farmhouse-ba-peche-romarin/3627514"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaValentinoise"
+   ],
+   "extrait": "La Valentinoise — Valence, Auvergne-Rhône-Alpes France. Bières : Blanche Tilleul : Wheat Beer - Witbier / Blanche ; Blonde : Blonde / Golden Ale - Other ; A.P.A : Pale Ale - American ; Cuvée des Dieux 2019 : Grape Ale - Other ; Écossaise : Smoked Beer ; Expresso Stout : Stout - Coffee ; Ambrée : Brown Ale - American ; Farmhouse BA Pêche/romarin : Farmhouse Ale - Saison",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie du Mont Blanc",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/MontBlanc",
+     "source": "https://untappd.com/MontBlanc",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "La Blanche",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-blanche/6011"
+     },
+     {
+      "type": "ipa",
+      "libelle": "La Cristal IPA",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-cristal-ipa/2541934"
+     },
+     {
+      "type": "ambree",
+      "libelle": "La Rousse",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-rousse/64878"
+     },
+     {
+      "type": "blonde",
+      "libelle": "La Blonde",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-blonde/6012"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Verte (Spiced / Herbed Beer)",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-verte/6013"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Bleue (Fruit Beer)",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-la-bleue/2233144"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Sylvanus Blonde",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-sylvanus-blonde/3040903"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple Épices (Winter Ale)",
+      "url": "https://untappd.com/b/brasserie-du-mont-blanc-triple-epices/897940"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/MontBlanc"
+   ],
+   "extrait": "Brasserie du Mont Blanc — La Motte-Servolex, Auvergne-Rhône-Alpes France. Bières : La Blanche : Wheat Beer - Witbier / Blanche ; La Cristal IPA : IPA - Session ; La Rousse : Red Ale - Ambrée ; La Blonde : Blonde / Golden Ale - Other ; La Verte : Spiced / Herbed Beer ; La Bleue : Fruit Beer ; Sylvanus Blonde : Blonde / Golden Ale - Other ; Triple Épices : Winter Ale",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie de la Pleine Lune",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasseriePleineLune",
+     "source": "https://untappd.com/BrasseriePleineLune",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Aubeloun",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-aubeloun/76979"
+     },
+     {
+      "type": "lager",
+      "libelle": "Lager des Étoiles",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-lager-des-etoiles/1825933"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Lunette",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-lunette/964791"
+     },
+     {
+      "type": "lager",
+      "libelle": "Gens de la Lune",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-gens-de-la-lune/1095212"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Lun'ion - Jacques",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-lun-ion-jacques/333854"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Sylvester Stalune",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-sylvester-stalune/3166688"
+     },
+     {
+      "type": "stout",
+      "libelle": "Lunaski",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-lunaski/1451737"
+     },
+     {
+      "type": "autre",
+      "libelle": "Lune et l'Autre (Pale Ale - American)",
+      "url": "https://untappd.com/b/brasserie-artisanale-de-la-pleine-lune-lune-et-l-autre/346034"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasseriePleineLune"
+   ],
+   "extrait": "Brasserie Artisanale de la Pleine Lune — Chabeuil, Auvergne-Rhône-Alpes France. Bières : Aubeloun : IPA - English ; Lager des Étoiles : Lager - IPL (India Pale Lager) ; Lunette : Wheat Beer - Witbier / Blanche ; Gens de la Lune : Lager - Pale ; Lun'ion - Jacques : IPA - Rye ; Sylvester Stalune : IPA - Imperial / Double ; Lunaski : Stout - Imperial / Double ; Lune et l'Autre : Pale Ale - American",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie des Cimes",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieDesCimes",
+     "source": "https://untappd.com/BrasserieDesCimes",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ambree",
+      "libelle": "Piste Noire",
+      "url": "https://untappd.com/b/brasserie-des-cimes-piste-noire/6051"
+     },
+     {
+      "type": "autre",
+      "libelle": "Yeti (Belgian Strong Golden Ale)",
+      "url": "https://untappd.com/b/brasserie-des-cimes-yeti/892"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Aiguille Blanche",
+      "url": "https://untappd.com/b/brasserie-des-cimes-aiguille-blanche/6049"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Cime",
+      "url": "https://untappd.com/b/brasserie-des-cimes-cime/1490062"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Hors Piste",
+      "url": "https://untappd.com/b/brasserie-des-cimes-hors-piste/402501"
+     },
+     {
+      "type": "brune",
+      "libelle": "L'Abominable",
+      "url": "https://untappd.com/b/brasserie-des-cimes-l-abominable/1477826"
+     },
+     {
+      "type": "lager",
+      "libelle": "Cimoise Blonde",
+      "url": "https://untappd.com/b/brasserie-des-cimes-cimoise-blonde/1774161"
+     },
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://untappd.com/b/brasserie-des-cimes-ipa/2404654"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/BrasserieDesCimes"
+   ],
+   "extrait": "Brasserie des Cimes — Aix-les-Bains, Auvergne-Rhône-Alpes France. Bières : Piste Noire : Red Ale - Other ; Yeti : Belgian Strong Golden Ale ; Aiguille Blanche : Wheat Beer - Witbier / Blanche ; Cime : Blonde / Golden Ale - Other ; Hors Piste : Blonde / Golden Ale - Other ; L'Abominable : Brown Ale - Other ; Cimoise Blonde : Lager - Pale ; IPA : IPA - American",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Irvoy",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/Irvoy",
+     "source": "https://untappd.com/Irvoy",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "APA (Pale Ale - New England / Hazy)",
+      "url": "https://untappd.com/b/irvoy-apa/2126626"
+     },
+     {
+      "type": "stout",
+      "libelle": "Stout",
+      "url": "https://untappd.com/b/irvoy-stout/1507842"
+     },
+     {
+      "type": "autre",
+      "libelle": "Arem Aourek (Specialty Grain)",
+      "url": "https://untappd.com/b/irvoy-arem-aourek/1507826"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Hefeweizen",
+      "url": "https://untappd.com/b/irvoy-hefeweizen/1507817"
+     },
+     {
+      "type": "autre",
+      "libelle": "Ardennes (Pale Ale - Belgian)",
+      "url": "https://untappd.com/b/irvoy-ardennes/1790223"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Gandaïa Bio",
+      "url": "https://untappd.com/b/irvoy-irvoy-gandaia/3859458"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Seance IPA",
+      "url": "https://untappd.com/b/irvoy-seance-ipa/4048763"
+     },
+     {
+      "type": "autre",
+      "libelle": "Mellea (Honey Beer)",
+      "url": "https://untappd.com/b/irvoy-miella/3311061"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/Irvoy"
+   ],
+   "extrait": "Irvoy — Grenoble, Auvergne-Rhône-Alpes France. Bières : APA : Pale Ale - New England / Hazy ; Stout : Stout - English ; Arem Aourek : Specialty Grain ; Hefeweizen : Wheat Beer - Hefeweizen ; Ardennes : Pale Ale - Belgian ; Gandaïa Bio : Blonde / Golden Ale - Other ; Seance IPA : IPA - Session ; Mellea : Honey Beer",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Solstice",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/brasserie-solstice",
+     "source": "https://untappd.com/brasserie-solstice",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "Solstice IPA",
+      "url": "https://untappd.com/b/brasserie-solstice-solstice-ipa/1761622"
+     },
+     {
+      "type": "autre",
+      "libelle": "Solstice Très Spéciale (Farmhouse Ale - Bière de Garde)",
+      "url": "https://untappd.com/b/brasserie-solstice-solstice-tres-speciale/1519438"
+     },
+     {
+      "type": "autre",
+      "libelle": "Solstice Triple (Belgian Tripel)",
+      "url": "https://untappd.com/b/brasserie-solstice-solstice-triple/1729760"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde",
+      "url": "https://untappd.com/b/brasserie-solstice-blonde/1953712"
+     },
+     {
+      "type": "ipa",
+      "libelle": "IPA",
+      "url": "https://untappd.com/b/brasserie-solstice-ipa/1962431"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/brasserie-solstice"
+   ],
+   "extrait": "Brasserie Solstice — Grenoble, Auvergne-Rhône-Alpes France. Bières : Solstice IPA : IPA - English ; Solstice Très Spéciale : Farmhouse Ale - Bière de Garde ; Solstice Triple : Belgian Tripel ; Blonde : Blonde / Golden Ale - Other ; IPA : IPA - American",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "Brasserie Archimalt",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/Archimalt",
+     "source": "https://untappd.com/Archimalt",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "L'Amer Poule",
+      "url": "https://untappd.com/b/archimalt-l-amer-poule/1781971"
+     },
+     {
+      "type": "autre",
+      "libelle": "Bout du Monde (Schwarzbier)",
+      "url": "https://untappd.com/b/archimalt-bout-du-monde/1778320"
+     },
+     {
+      "type": "autre",
+      "libelle": "Trou de l'Enfer (Belgian Tripel)",
+      "url": "https://untappd.com/b/archimalt-trou-de-l-enfer/1782094"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée Lunaire",
+      "url": "https://untappd.com/b/archimalt-ambree-lunaire/3391580"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Maltazar",
+      "url": "https://untappd.com/b/archimalt-maltazar/1781980"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Iceberg",
+      "url": "https://untappd.com/b/archimalt-iceberg/1775441"
+     },
+     {
+      "type": "lager",
+      "libelle": "Pils Electrique",
+      "url": "https://untappd.com/b/archimalt-pils-electrique/2726003"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Loup Blonde",
+      "url": "https://untappd.com/b/archimalt-loup-blonde/1782208"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/Archimalt"
+   ],
+   "extrait": "Archimalt — Saint-Alban-Leysse, Auvergne-Rhône-Alpes France. Bières : L'Amer Poule : IPA - English ; Bout du Monde : Schwarzbier ; Trou de l'Enfer : Belgian Tripel ; Ambrée Lunaire : Red Ale - American Amber / Red ; Maltazar : Red Ale - American Amber / Red ; Iceberg : Wheat Beer - Witbier / Blanche ; Pils Electrique : Pilsner - Czech / Bohemian ; Loup Blonde : Blonde / Golden Ale - Other",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  },
+  {
+   "n": "La Mousse du Hérisson",
+   "changements": {
+    "contact": {
+     "untappd": "https://untappd.com/LaMousseDuHerisson",
+     "source": "https://untappd.com/LaMousseDuHerisson",
+     "verifieLe": "2026-10-17"
+    },
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Bière blonde bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-biere-blonde-bio/3806837"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche Framboise Bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-blanche-framboise-bio/4114659"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Ambrée Bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-ambree-bio/3969966"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Blonde houblonnée bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-blonde-houblonnee-bio/4053617"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche Bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-blanche-bio/4187343"
+     },
+     {
+      "type": "brune",
+      "libelle": "Bière brune bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-biere-brune-bio/4252402"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Bière Rousse Bio",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-biere-rousse-bio/5386922"
+     },
+     {
+      "type": "blonde",
+      "libelle": "La Mousse à Vinc'",
+      "url": "https://untappd.com/b/la-mousse-du-herisson-la-mousse-a-vinc/4610013"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://untappd.com/LaMousseDuHerisson"
+   ],
+   "extrait": "La Mousse du Hérisson — Sainte-Consorce, Auvergne-Rhône-Alpes France. Bières : Bière blonde bio : Blonde / Golden Ale - Other ; Blanche Framboise Bio : Wheat Beer - Witbier / Blanche ; Ambrée Bio : Lager - Amber / Red ; Blonde houblonnée bio : Blonde / Golden Ale - Other ; Blanche Bio : Wheat Beer - Other ; Bière brune bio : Porter - English ; Bière Rousse Bio : Red Ale - Other ; La Mousse à Vinc' : Blonde / Golden Ale - Other",
+   "choix": "Bières : les 8 premières de la page Untappd (les plus notées), style tel qu'affiché par Untappd ; Untappd ne dit pas si elles sont encore brassées"
+  }
+ ],
+ "revues": [
+  "Autour de la Bière",
+  "Autour de la Bière (Taluyers)",
+  "BIM Brasserie Indépendante Montbrisonnaise",
+  "Bière bio des Monts d'Or",
+  "Bière des Frères Clavel",
+  "Brasserie 767",
+  "Brasserie Amalthée",
+  "Brasserie Animus",
+  "Brasserie Archimalt",
+  "Brasserie Beauseigne",
+  "Brasserie Cabule",
+  "Brasserie Demi-Lune",
+  "Brasserie Dulion",
+  "Brasserie Georges",
+  "Brasserie Graine 2 Bulles",
+  "Brasserie Irvoy",
+  "Brasserie Kachmar",
+  "Brasserie Krüger",
+  "Brasserie Longue Vie",
+  "Brasserie Nepo",
+  "Brasserie Solstice",
+  "Brasserie Stéphanoise",
+  "Brasserie de Chambaran",
+  "Brasserie de Cluny",
+  "Brasserie de la Loire",
+  "Brasserie de la Pleine Lune",
+  "Brasserie de la Sanne",
+  "Brasserie des Cimes",
+  "Brasserie des Faux Semblables",
+  "Brasserie des Monts du Lyonnais",
+  "Brasserie des Roches",
+  "Brasserie des Sarments",
+  "Brasserie des Ursulines",
+  "Brasserie du Casino de Montrond",
+  "Brasserie du Chartreux",
+  "Brasserie du Mont Blanc",
+  "Brasserie du Mont Popey",
+  "Brasserie du Pilat",
+  "Bulles d'Orge",
+  "Caribrew",
+  "Coldie Brewery",
+  "DWYN Brewing",
+  "Domaine du Manchot",
+  "FFAKE Brasserie",
+  "Ferme de la Quintillière",
+  "GreDam",
+  "Hoodo",
+  "L'Affoleuse",
+  "L'Agarithe",
+  "L'Agrivoise",
+  "L'Ours qui brasse",
+  "La Beer Fabrique",
+  "La Bière des Loups",
+  "La Cadole",
+  "La Canaille",
+  "La Canute Lyonnaise",
+  "La Chénou",
+  "La Dame de Malt",
+  "La Fabrique du Faubourg",
+  "La Farlodoise",
+  "La Gaudine (Brasserie de la Semène)",
+  "La Germanoise",
+  "La Loupiote",
+  "La Margau",
+  "La Mousse du Hérisson",
+  "La Part des Autres",
+  "La Poule",
+  "La Soyeuse",
+  "La Valentinoise",
+  "La Voie Maltée",
+  "Le Brass'in",
+  "Les Aubépines",
+  "Les Bières du Temps",
+  "Les Deux Branches",
+  "Les Roches Précieuses",
+  "Malt Emoi",
+  "Maltazar",
+  "Malting Pot",
+  "Microbrasserie de Montchat",
+  "Miellerie Gachet",
+  "Misso",
+  "Mozel'âne",
+  "Ninkasi Brignais",
+  "Ninkasi Fabriques",
+  "Ninkasi Saint-Étienne",
+  "Nomade Brewery",
+  "Platypus Brewpub",
+  "Rivière d'Ain",
+  "Single Track",
+  "Terre de Bières",
+  "Tom & Co",
+  "Two Hats Brewing"
+ ]
+}

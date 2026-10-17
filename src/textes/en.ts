@@ -205,7 +205,6 @@ export const EN: Readonly<Record<string, string>> = {
   "Lus le {date} sur": "Read on {date} at",
   ". Ils peuvent avoir changé depuis.": ". They may have changed since.",
   "Horaires : aucun horaire vérifié jour par jour. S’il y en a de connus, ils sont cités dans « Ce que dit la source », plus haut.": "Hours: no day-by-day hours checked. Any known hours are quoted in “What the source says”, above.",
-  "Types de bière : non référencés pour l’instant.": "Beer styles: not listed yet.",
   "Ses bières": "Its beers",
   "(non référencé)": "(not listed)",
   " (page de la brasserie dans un annuaire, pas de cette bière)": " (the brewery’s page in a directory, not this beer’s)",
@@ -300,4 +299,7 @@ export const EN: Readonly<Record<string, string>> = {
   " La commune est déduite de sa position : OpenStreetMap ne la donne pas.": " The town is deduced from its position: OpenStreetMap does not give it.",
   "Mousse de Poche — brasseries artisanales": "Mousse de Poche — craft breweries",
   "Chargement de la carte…": "Loading the map…",
+  "Chercher sur Untappd": "Search on Untappd",
+  "(une recherche par son nom : pas encore de lien vérifié vers sa page ; Untappd peut demander de se connecter)": "(a search by its name: no checked link to its page yet; Untappd may ask you to log in)",
+  "Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.": "Beer styles: not listed yet. The Untappd search, above, may show some.",
 }

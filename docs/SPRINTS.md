@@ -2068,3 +2068,53 @@ clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
    de le lire (§4ter) ; le texte est maintenant un `t('…')` littéral, vu par
    la garde. Manifeste, `<noscript>` et métadonnées restent en français
    (statique) : inscrit au BACKLOG, et en S188.
+
+## S51 à S54 — Les remarques de Cédric du 17/10 *(17/10)*
+
+Cédric : « monte à 200 sprints, en agentic total » ; « lien vers Untappd
+absent » ; « la localisation des brasseries ne correspond pas à l'adresse
+sur la carte » ; « type de bière non affiché ».
+
+**Constat** : le code affiche contacts, Untappd et bières depuis S4–S5 ;
+les 166 fiches n'en ont aucun, et toutes sont au centre de leur commune.
+Les données n'entrent que par lot accepté (CLAUDE.md §0).
+
+1. **S51** : sans lien Untappd vérifié, la fiche offre « Chercher sur
+   Untappd » (le nom seul), dite comme une recherche ; la section des
+   bières y renvoie. Vu rouge : URL concaténée à la main.
+2. **S52** : un lot peut proposer une position entière ; `km` recalculé ;
+   la fiche n'est pas datée ; le diff dit le déplacement. Tests écrits
+   d'abord, vus rouges.
+3. **S53** (`curation/s53-untappd-bieres.md`) : 42 propositions.
+   - 8 agents ont lu 80 fiches. Rendement Untappd faible : la recherche web
+     trouve mal les pages Untappd, et la recherche d'Untappd demande un compte
+     (non contournée).
+   - Une sonde directe des pages untappd.com/<Nom> sur les 166 fiches en a
+     trouvé 17 de plus dans la bonne commune. Chaque page a été relue et ses
+     bières en sont tirées, avec leur style.
+4. **S54** (`curation/s54-positions.md`) : 73 positions à l'adresse
+   (Géoplateforme de l'IGN, numéro trouvé dans la bonne commune), 31 non
+   proposées et expliquées. Les fiches sont aujourd'hui à 1,9 km (médiane)
+   de leur adresse.
+5. **En attente de Cédric** : ses réponses sur S53 et S54.
+
+**Revue adverse S51–S54** (4 trouvailles, corrigées) :
+- cinq positions de S54 changeaient aussi `addr`, ce qui datait la fiche
+  contre ce que disait le lot : `addr` retiré de S54 (positions seules) ;
+- une position « osm » ou « address » passait sans preuve : « osm » est
+  refusé dans une proposition, « address » exige la requête du géocodeur
+  parmi les sources (tests vus rouges) ;
+- des bières rangées contre leur style Untappd (« Lager - Amber / Red » en
+  lager, « Belgian Blonde » en autre) : la règle devient une fonction
+  nommée et testée, `typeDuStyleUntappd` (20 cas, vus rouges), et 10 bières
+  sont reclassées ;
+- S53 date 39 fiches par leurs bières (règle S11) : non changé, posé à
+  Cédric dans le lot.
+
+**Revue d'architecture** (Cédric, 17/10) : `docs/REVUE-ARCHITECTURE.md`.
+Recommandation : rester en JSON versionné + IndexedDB ; l'agentique d'abord
+en CI (clé en secret, propositions seules), après une garde mécanique de
+`data/`. Quinze stories ajoutées (S229–S243), exécutées avant S56.
+
+**Méthode** : S51–S54 ont dérogé à BMAD (stories écrites avec le code, pas
+avant). Dit à Cédric ; à partir de S55, la story d'abord.

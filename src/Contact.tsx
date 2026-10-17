@@ -1,5 +1,6 @@
 import { citeUnNumero, hoteDeSource, libelleVerification, lienTelephone } from './core/fiche'
 import type { Brasserie } from './core/schema'
+import { rechercheUntappd } from './core/untappd'
 import { t } from './i18n'
 
 /**
@@ -13,12 +14,23 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
         ? t('Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.')
     : t('Téléphone : non renseigné.')
   // Le nom de la brasserie, pour qui écoute la liste des liens.
-  const pour = <span className="lecteur-seul"> {brasserie.n}</span>
+    const pour = <span className="lecteur-seul"> {brasserie.n}</span>
+  // Sans lien Untappd vérifié, une recherche, dite comme telle (S51).
+  const chercher = (
+    <p className="fiche-aide" data-testid="chercher-untappd">
+      <a href={rechercheUntappd(brasserie.n)} target="_blank" rel="noopener noreferrer">
+        {t('Chercher sur Untappd')}
+        {pour}
+      </a>{' '}
+      {t('(une recherche par son nom : pas encore de lien vérifié vers sa page ; Untappd peut demander de se connecter)')}
+    </p>
+  )
   if (contact === undefined) {
     return (
-      <p className="fiche-contact" data-testid="fiche-contact">
-        {sansTelephone}
-      </p>
+      <div className="fiche-contact" data-testid="fiche-contact">
+        <p>{sansTelephone}</p>
+        {chercher}
+      </div>
     )
   }
   return (
@@ -42,9 +54,10 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
             {pour}
           </a>
         )}
-      </p>
+            </p>
+      {contact.untappd === undefined && chercher}
       <p className="fiche-aide">
-                {t('Coordonnées lues le {date} sur', { date: libelleVerification(contact.verifieLe) })}{' '}
+        {t('Coordonnées lues le {date} sur', { date: libelleVerification(contact.verifieLe) })}{' '}
         <a href={contact.source} target="_blank" rel="noopener noreferrer">
           {hoteDeSource(contact.source)}
         </a>

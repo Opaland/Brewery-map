@@ -70,14 +70,27 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('recherche').fill('caribrew')
     await ligne(page, /Caribrew/).click()
     const contact = page.getByTestId('fiche').getByTestId('fiche-contact')
-    await expect(contact).toHaveText('Téléphone : non renseigné.')
-    await expect(contact.getByRole('link')).toHaveCount(0)
+        await expect(contact.locator('p').first()).toHaveText('Téléphone : non renseigné.')
+    // Aucun lien d'appel ni de site : seulement la recherche Untappd (S51).
+    await expect(contact.getByRole('link')).toHaveCount(1)
+    await expect(contact.getByRole('link')).toHaveAttribute('href', 'https://untappd.com/search?q=Caribrew&type=brewery')
+  })
+
+  test('sans lien Untappd vérifié, la fiche offre une recherche, dite comme telle (S51)', async ({ page }) => {
+    await page.getByTestId('recherche').fill('caribrew')
+    await ligne(page, /Caribrew/).click()
+    const chercher = page.getByTestId('fiche').getByTestId('chercher-untappd')
+    await expect(chercher).toContainText('Chercher sur Untappd')
+    await expect(chercher).toContainText('pas encore de lien vérifié')
+    const lien = chercher.getByRole('link')
+    await expect(lien).toHaveAttribute('target', '_blank')
+    await expect(lien).toHaveAttribute('rel', /noreferrer/)
   })
 
   test('un numéro cité dans la source n’est pas contredit par « non renseigné »', async ({ page }) => {
     await page.getByTestId('recherche').fill('animus')
     await ligne(page, /Brasserie Animus/).click()
-    await expect(page.getByTestId('fiche').getByTestId('fiche-contact')).toHaveText(
+        await expect(page.getByTestId('fiche').getByTestId('fiche-contact').locator('p').first()).toHaveText(
       'Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.',
     )
   })
@@ -94,7 +107,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('recherche').fill(nom)
     await ligne(page, new RegExp(nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).first().click()
     await expect(page.getByTestId('fiche').getByTestId('fiche-bieres')).toHaveText(
-      'Types de bière : non référencés pour l’instant.',
+      'Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.',
     )
   })
 

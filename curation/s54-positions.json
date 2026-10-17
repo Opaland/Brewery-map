@@ -1,0 +1,1079 @@
+{
+ "lot": "s54-positions",
+ "propositions": [
+  {
+   "n": "Ninkasi Brignais",
+   "changements": {
+    "lat": 45.677612,
+    "lon": 4.769167,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=2%20A%20Route%20de%20Lyon%2C%2069530%20Brignais"
+   ],
+   "extrait": "Adresse lue : « 2 A Route de Lyon69530, Brignais » (https://www.ninkasi.fr/lieux/ninkasi-brignais/). Géoplateforme (BAN) : « 2a Route de Lyon 69530 Brignais », numéro trouvé (score 0.793).",
+   "choix": "l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
+  },
+  {
+   "n": "Caribrew",
+   "changements": {
+    "lat": 45.686542,
+    "lon": 4.703345,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=4%20Parc%20d%27Activit%C3%A9s%20d%27Arbora%2C%20Route%20de%20Brindas%2C%2069510%20Soucieu-en-Jarrest"
+   ],
+   "extrait": "Adresse lue : « 4 Parc d’Activités d'Arbora Route de Brindas 69510 Soucieu-en-Jarrest » (https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/). Géoplateforme (BAN) : « 4 Route de Brindas 69510 Soucieu-en-Jarrest », numéro trouvé (score 0.551).",
+   "choix": "score faible (0.551) : comparer l'adresse trouvée, « 4 Route de Brindas 69510 Soucieu-en-Jarrest », à l'adresse demandée, « 4 Parc d'Activités d'Arbora, Route de Brindas, 69510 Soucieu-en-Jarrest » ; refuser si ce n'est pas la même rue ; adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Autour de la Bière (Taluyers)",
+   "changements": {
+    "lat": 45.63693,
+    "lon": 4.732954,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.autourdelabiere.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=12%20Chemin%20des%20Erables%2C%20ZA%20de%20la%20Ronze%2C%2069440%20Taluyers"
+   ],
+   "extrait": "Adresse lue : « 12 Chemin des Erables, ZA De La Ronze, 69440 TALUYERS, France » (https://www.autourdelabiere.fr/). Géoplateforme (BAN) : « 12 Chemin des Erables 69440 Taluyers », numéro trouvé (score 0.612).",
+   "choix": "score faible (0.612) : comparer l'adresse trouvée, « 12 Chemin des Erables 69440 Taluyers », à l'adresse demandée, « 12 Chemin des Erables, ZA de la Ronze, 69440 Taluyers » ; refuser si ce n'est pas la même rue"
+  },
+  {
+   "n": "Coldie Brewery",
+   "changements": {
+    "lat": 45.745488,
+    "lon": 4.845547,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=82%20rue%20Jaboulay%2C%2069007%20Lyon"
+   ],
+   "extrait": "Adresse de la fiche : « 82 rue Jaboulay, 69007 Lyon ». Géoplateforme (BAN) : « 82 Rue Jaboulay 69007 Lyon », numéro trouvé (score 0.974)."
+  },
+  {
+   "n": "Brasserie Georges",
+   "changements": {
+    "lat": 45.748432,
+    "lon": 4.828264,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasseriegeorges.com",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=30%20Cours%20de%20Verdun%2C%2069002%20Lyon"
+   ],
+   "extrait": "Adresse lue : « 30 Cours de Verdun 69002 Lyon Perrache » (https://www.brasseriegeorges.com). Géoplateforme (BAN) : « 30 Cours de Verdun Perrache 69002 Lyon », numéro trouvé (score 0.671).",
+   "choix": "score faible (0.671) : comparer l'adresse trouvée, « 30 Cours de Verdun Perrache 69002 Lyon », à l'adresse demandée, « 30 Cours de Verdun, 69002 Lyon » ; refuser si ce n'est pas la même rue"
+  },
+  {
+   "n": "Ferme de la Quintillière",
+   "changements": {
+    "lat": 45.590253,
+    "lon": 4.637056,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.fermedelaquintilliere.com/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=520%20route%20de%20Combe%20Boiron%2C%2069440%20Saint-Maurice-sur-Dargoire"
+   ],
+   "extrait": "Adresse lue : « 520, route de Combe Boiron — 69440 Saint Maurice sur Dargoire » (http://www.fermedelaquintilliere.com/). Géoplateforme (BAN) : « 520 Route de Combe Boiron 69440 Chabanière », numéro trouvé (score 0.948)."
+  },
+  {
+   "n": "Platypus Brewpub",
+   "changements": {
+    "lat": 45.746276,
+    "lon": 4.823643,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.privateaser.com/lieu/43617-platypus-brewpub-brasserie-artisanale",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=32%20Cours%20Charlemagne%2C%2069002%20Lyon"
+   ],
+   "extrait": "Adresse lue : « 32 Cours Charlemagne, 69002 Lyon » (https://www.privateaser.com/lieu/43617-platypus-brewpub-brasserie-artisanale). Géoplateforme (BAN) : « 32 Cours Charlemagne 69002 Lyon », numéro trouvé (score 0.971).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie ; annuaire, pas le site de la brasserie"
+  },
+  {
+   "n": "La Beer Fabrique",
+   "changements": {
+    "lat": 45.769044,
+    "lon": 4.834216,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=10%20rue%20Saint-Polycarpe%2C%2069001%20Lyon"
+   ],
+   "extrait": "Adresse de la fiche : « 10 rue Saint-Polycarpe, 69001 Lyon ». Géoplateforme (BAN) : « 10 Rue Saint Polycarpe 69001 Lyon », numéro trouvé (score 0.961)."
+  },
+  {
+   "n": "Tom & Co",
+   "changements": {
+    "lat": 45.769109,
+    "lon": 4.832711,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=5%20rue%20des%20Capucins%2C%2069001%20Lyon"
+   ],
+   "extrait": "Adresse de la fiche : « 5 rue des Capucins, 69001 Lyon ». Géoplateforme (BAN) : « 5 Rue des Capucins 69001 Lyon », numéro trouvé (score 0.966)."
+  },
+  {
+   "n": "Microbrasserie de Montchat",
+   "changements": {
+    "lat": 45.745508,
+    "lon": 4.885456,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://bieredemontchat.com/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=65%20rue%20Trarieux%2C%2069003%20Lyon"
+   ],
+   "extrait": "Adresse lue : « 65 rue Trarieux – 69003 Lyon » (https://bieredemontchat.com/). Géoplateforme (BAN) : « 65 Rue Trarieux 69003 Lyon », numéro trouvé (score 0.977)."
+  },
+  {
+   "n": "La Soyeuse",
+   "changements": {
+    "lat": 45.659236,
+    "lon": 4.63239,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lasoyeuse.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=237%20route%20de%20Fondrieu%2C%2069510%20Rontalon"
+   ],
+   "extrait": "Adresse lue : « FERME-BRASSERIE LA SOYEUSE 237 route de Fondrieu 69510 Rontalon » (https://lasoyeuse.fr/). Géoplateforme (BAN) : « 237 Route de Fondrieu 69510 Rontalon », numéro trouvé (score 0.948)."
+  },
+  {
+   "n": "La Loupiote",
+   "changements": {
+    "lat": 45.71083,
+    "lon": 4.468726,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=175%20route%20de%20Lyon%2C%2069610%20Saint-Genis-l%27Argenti%C3%A8re"
+   ],
+   "extrait": "Adresse de la fiche : « 175 route de Lyon, 69610 Saint-Genis-l'Argentière ». Géoplateforme (BAN) : « 175 Route de Lyon 69610 Saint-Genis-l'Argentière », numéro trouvé (score 0.951)."
+  },
+  {
+   "n": "Brasserie des Roches",
+   "changements": {
+    "lat": 45.451533,
+    "lon": 4.821797,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1167%20all%C3%A9e%20des%20Muriers%2C%2038200%20Chonas-l%27Amballan"
+   ],
+   "extrait": "Adresse de la fiche : « 1167 allée des Muriers, 38200 Chonas-l'Amballan ». Géoplateforme (BAN) : « 1167 Allée des Mûriers 38121 Chonas-l'Amballan », numéro trouvé (score 0.75)."
+  },
+  {
+   "n": "Le Brass'in",
+   "changements": {
+    "lat": 45.83369,
+    "lon": 4.847644,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lebrassin.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=17%20rue%20Pierre%20Carbon%2C%2069270%20Fontaines-sur-Sa%C3%B4ne"
+   ],
+   "extrait": "Adresse lue : « 17 Rue Pierre Carbon — 69270 Fontaines sur Saône » (https://www.lebrassin.fr/). Géoplateforme (BAN) : « 17 Rue Pierre Carbon 69270 Fontaines-sur-Saône », numéro trouvé (score 0.958)."
+  },
+  {
+   "n": "Brasserie Dulion",
+   "changements": {
+    "lat": 45.81713,
+    "lon": 4.874419,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=130%20avenue%20de%20l%27Industrie%2C%2069140%20Rillieux-la-Pape"
+   ],
+   "extrait": "Adresse de la fiche : « 130 avenue de l'Industrie, 69140 Rillieux-la-Pape ». Géoplateforme (BAN) : « 130 Avenue de l'Industrie 69140 Rillieux-la-Pape », numéro trouvé (score 0.965)."
+  },
+  {
+   "n": "Nomade Brewery",
+   "changements": {
+    "lat": 45.731331,
+    "lon": 4.982764,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.nomadebiere.fr/la-taproom/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=388%20rue%20Antoine%20Pinay%2C%2069740%20Genas"
+   ],
+   "extrait": "Adresse lue : « 388 rue Antoine Pinay 69740 GENAS » (https://www.nomadebiere.fr/la-taproom/). Géoplateforme (BAN) : « 388 Rue Antoine Pinay 69740 Genas », numéro trouvé (score 0.96)."
+  },
+  {
+   "n": "Single Track",
+   "changements": {
+    "lat": 45.83369,
+    "lon": 4.847644,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=17%20rue%20Pierre%20Carbon%2C%2069270%20Fontaines-sur-Sa%C3%B4ne"
+   ],
+   "extrait": "Adresse de la fiche : « 17 rue Pierre Carbon, 69270 Fontaines-sur-Saône ». Géoplateforme (BAN) : « 17 Rue Pierre Carbon 69270 Fontaines-sur-Saône », numéro trouvé (score 0.958)."
+  },
+  {
+   "n": "GreDam",
+   "changements": {
+    "lat": 45.858319,
+    "lon": 4.705645,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://gredambrasserie.com/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=20%20chemin%20du%20Pontet%2C%2069380%20Civrieux-d%27Azergues"
+   ],
+   "extrait": "Adresse lue : « Située au 20 chemin du Pontet 69380 Civrieux-D'Azergues, Rhone-Alpes, » (https://gredambrasserie.com/). Géoplateforme (BAN) : « 20 Chemin du Pontet 69380 Civrieux-d'Azergues », numéro trouvé (score 0.951)."
+  },
+  {
+   "n": "Bière bio des Monts d'Or",
+   "changements": {
+    "lat": 45.869667,
+    "lon": 4.819369,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.bieresbio.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=18%20chemin%20des%20Carri%C3%A8res%2C%2069250%20Curis-au-Mont-d%27Or"
+   ],
+   "extrait": "Adresse lue : « 18, Chemin des Carrières, 69250 Curis-au-Mont-d'Or » (https://www.bieresbio.fr/). Géoplateforme (BAN) : « 18 Chemin des Carrières 69250 Curis-au-Mont-d'Or », numéro trouvé (score 0.949).",
+   "choix": "extrait rendu par l'outil de lecture, pas mot pour mot"
+  },
+  {
+   "n": "Domaine du Manchot",
+   "changements": {
+    "lat": 45.927344,
+    "lon": 4.691937,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=28%20chemin%20de%20l%27Audience%2C%2069480%20Lachassagne"
+   ],
+   "extrait": "Adresse de la fiche : « 28 chemin de l'Audience, 69480 Lachassagne ». Géoplateforme (BAN) : « 28 Chemin de l’Audience 69480 Lachassagne », numéro trouvé (score 0.943)."
+  },
+  {
+   "n": "La Farlodoise",
+   "changements": {
+    "lat": 45.634668,
+    "lon": 4.398967,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/brewery-la-farlodoise-chazelles-sur-lyon-en-3621823/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=3%20avenue%20du%208%20Mai%201945%2C%2042140%20Chazelles-sur-Lyon"
+   ],
+   "extrait": "Adresse lue : « Address: 3 Avenue du 8 mai 1945, 42140 Chazelles-sur-Lyon » (https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/brewery-la-farlodoise-chazelles-sur-lyon-en-3621823/). Géoplateforme (BAN) : « 3 Avenue du 8 Mai 1945 42140 Chazelles-sur-Lyon », numéro trouvé (score 0.953).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Brasserie Kachmar",
+   "changements": {
+    "lat": 45.954343,
+    "lon": 4.71512,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-kachmar.fr/la-brasserie",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1932%20Route%20de%20Villefranche%2C%2069480%20Anse"
+   ],
+   "extrait": "Adresse lue : « 1932 Route de Villefranche69480 Anse » (https://www.brasserie-kachmar.fr/la-brasserie). Géoplateforme (BAN) : « 1932 Route de Villefranche 69480 Anse », numéro trouvé (score 0.966)."
+  },
+  {
+   "n": "Terre de Bières",
+   "changements": {
+    "lat": 45.979583,
+    "lon": 4.726651,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.terredebieres.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=Parc%20Avenue%2C%20592%20Boulevard%20Albert%20Camus%2C%20B%C3%A2timent%20G%2C%2069400%20Villefranche-sur-Sa%C3%B4ne"
+   ],
+   "extrait": "Adresse lue : « Parc Avenue, 592 Boulevard Albert Camus Bâtiment G, 69400 Villefranche-sur-Saône » (https://www.terredebieres.fr/). Géoplateforme (BAN) : « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », numéro trouvé (score 0.634).",
+   "choix": "score faible (0.634) : comparer l'adresse trouvée, « 592 Boulevard Albert Camus 69400 Villefranche-sur-Saône », à l'adresse demandée, « Parc Avenue, 592 Boulevard Albert Camus, Bâtiment G, 69400 Villefranche-sur-Saône » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
+  },
+  {
+   "n": "L'Affoleuse",
+   "changements": {
+    "lat": 46.007949,
+    "lon": 4.639198,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://laffoleuse.net/contact",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=3%20impasse%20de%20Montromand%2C%2069640%20Denic%C3%A9"
+   ],
+   "extrait": "Adresse lue : « 3 impasse de Montromand, 69640 Denicé, phone 04 74 62 86 05 » (https://laffoleuse.net/contact). Géoplateforme (BAN) : « 3 Impasse de Montromand 69640 Denicé », numéro trouvé (score 0.945).",
+   "choix": "l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
+  },
+  {
+   "n": "Brasserie Stéphanoise",
+   "changements": {
+    "lat": 45.416064,
+    "lon": 4.391308,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.labrasseriestephanoise.com/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=11bis%20rue%20Buffon%2C%20Quartier%20Bellevue%2C%20site%20Mosser%2C%2042100%20Saint-%C3%89tienne"
+   ],
+   "extrait": "Adresse lue : « 11bis rue Buffon Quartier Bellevue site Mosser 42100 - Saint-Étienne (site officiel, résumé de l'outil) » (https://www.labrasseriestephanoise.com/). Géoplateforme (BAN) : « 11bis Rue Buffon 42100 Saint-Étienne », numéro trouvé (score 0.505).",
+   "choix": "score faible (0.505) : comparer l'adresse trouvée, « 11bis Rue Buffon 42100 Saint-Étienne », à l'adresse demandée, « 11bis rue Buffon, Quartier Bellevue, site Mosser, 42100 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
+  },
+  {
+   "n": "Ninkasi Saint-Étienne",
+   "changements": {
+    "lat": 45.453711,
+    "lon": 4.389186,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=Sam%20Center%2C%2011%20rue%20Barrouin%2C%2042000%20Saint-%C3%89tienne"
+   ],
+   "extrait": "Adresse lue : « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne (site officiel du réseau, résumé de l'outil) » (https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/). Géoplateforme (BAN) : « 11 Rue Barrouin 42000 Saint-Étienne », numéro trouvé (score 0.68).",
+   "choix": "score faible (0.68) : comparer l'adresse trouvée, « 11 Rue Barrouin 42000 Saint-Étienne », à l'adresse demandée, « Sam Center, 11 rue Barrouin, 42000 Saint-Étienne » ; refuser si ce n'est pas la même rue ; l'adresse de la fiche (« addr ») est incomplète : elle n'est pas changée ici (elle daterait la fiche, règle S11) ; à compléter dans un lot à part"
+  },
+  {
+   "n": "Brasserie des Ursulines",
+   "changements": {
+    "lat": 45.725979,
+    "lon": 5.25319,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.biere-les-ursulines.com",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=4%20c%C3%B4te%20Chausson%2C%2038460%20Cr%C3%A9mieu"
+   ],
+   "extrait": "Adresse lue : « 4 côte chausson – 38460 Crémieu (site officiel, résumé de l'outil) » (https://www.biere-les-ursulines.com). Géoplateforme (BAN) : « 4 Côte Chausson 38460 Crémieu », numéro trouvé (score 0.951)."
+  },
+  {
+   "n": "La Margau",
+   "changements": {
+    "lat": 45.523663,
+    "lon": 4.236306,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.rendezvousenforez.com/en/degustation/la-margau-brasserie-artisanale-bonson/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=5b%20rue%20du%20pr%C3%A9%20du%20clerc%2C%2042160%20Bonson"
+   ],
+   "extrait": "Adresse lue : « 5b rue du pré du clerc, 42160 Bonson (office de tourisme Forez, pas le site de la brasserie ; résumé de l'outil) » (https://www.rendezvousenforez.com/en/degustation/la-margau-brasserie-artisanale-bonson/). Géoplateforme (BAN) : « 5B Rue du Pré du Clerc 42160 Bonson », numéro trouvé (score 0.957)."
+  },
+  {
+   "n": "Brasserie de la Loire",
+   "changements": {
+    "lat": 45.510094,
+    "lon": 4.236792,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.loiretourisme.com/en/offers/the-loire-brewery-saint-just-saint-rambert-en-3354722",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=29%20chemin%20du%20B%C3%A9chet%2C%2042170%20Saint-Just-Saint-Rambert"
+   ],
+   "extrait": "Adresse lue : « 29, Chemin du Bechet, 42170 Saint-Just-Saint-Rambert (Loire Tourisme, résumé de l'outil). Le site officiel donne « 29 chemin du Béchet » sans code postal. » (https://www.loiretourisme.com/en/offers/the-loire-brewery-saint-just-saint-rambert-en-3354722). Géoplateforme (BAN) : « 29 Chemin du Béchet 42170 Saint-Just-Saint-Rambert », numéro trouvé (score 0.957).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "La Part des Autres",
+   "changements": {
+    "lat": 45.893982,
+    "lon": 4.244652,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-la-part-des-autres/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=153%20rue%20des%20%C3%89coles%2C%2042540%20Saint-Just-la-Pendue"
+   ],
+   "extrait": "Adresse lue : « 153 rue des Écoles / 42540 Saint-Just-la-Pendue (confirmé par https://www.cybevasion.fr/tourisme-la-part-des-autres-saint-just-la-pendue-l74601.html : « 153 rue des Écoles - 42540 SAINT-JUST LA PENDUE »). Citation issue d'un résumé d'outil. Annuaire/tourisme : le site officiel ne donne que « Au cœur du village de Saint-Just-la-Pendue ». » (https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-la-part-des-autres/). Géoplateforme (BAN) : « 153 Rue des Ecoles 42540 Saint-Just-la-Pendue », numéro trouvé (score 0.954).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Brasserie du Pilat",
+   "changements": {
+    "lat": 45.318314,
+    "lon": 4.63067,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/la-brasserie-du-pilat-saint-julien-molin-molette-en-3352315/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=56%20Zone%20artisanale%20du%20Grand%20Pr%C3%A9%202%2C%2042220%20Saint-Julien-Molin-Molette"
+   ],
+   "extrait": "Adresse lue : « 56 Zone artisanale du Grand Pré 2, 42220 Saint-Julien-Molin-Molette. Citation issue d'un résumé d'outil. Fiche de tourisme : le site officiel brasseriedupilat.com ne donne que « St-Julien-Molin-Molette ». » (https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/la-brasserie-du-pilat-saint-julien-molin-molette-en-3352315/). Géoplateforme (BAN) : « 56 Za du Grand Pre 2 42220 Saint-Julien-Molin-Molette », numéro trouvé (score 0.643).",
+   "choix": "score faible (0.643) : comparer l'adresse trouvée, « 56 Za du Grand Pre 2 42220 Saint-Julien-Molin-Molette », à l'adresse demandée, « 56 Zone artisanale du Grand Pré 2, 42220 Saint-Julien-Molin-Molette » ; refuser si ce n'est pas la même rue ; adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Brasserie Amalthée",
+   "changements": {
+    "lat": 46.107115,
+    "lon": 4.73163,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=12%20rue%20du%20Bois%20Baron%2C%20b%C3%A2t.%204%2C%2069220%20Belleville-en-Beaujolais"
+   ],
+   "extrait": "Adresse de la fiche : « 12 rue du Bois Baron, bât. 4, 69220 Belleville-en-Beaujolais ». Géoplateforme (BAN) : « 12 Rue du Bois Baron 69220 Belleville-en-Beaujolais », numéro trouvé (score 0.779)."
+  },
+  {
+   "n": "Bière des Frères Clavel",
+   "changements": {
+    "lat": 45.488656,
+    "lon": 5.360537,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://nosproduits-ishere.fr/producteur/la-biere-des-freres-clavel/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=28%20chemin%20du%20ferrand%2C%2038690%20Biol"
+   ],
+   "extrait": "Adresse lue : « « 28 chemin du ferrand, 38690 Biol ». Citation issue d'un résumé d'outil. Annuaire de producteurs. » (https://nosproduits-ishere.fr/producteur/la-biere-des-freres-clavel/). Géoplateforme (BAN) : « 28 Chemin du Ferrand 38690 Biol », numéro trouvé (score 0.949).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "BIM Brasserie Indépendante Montbrisonnaise",
+   "changements": {
+    "lat": 45.611213,
+    "lon": 4.065888,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasseriebim.com",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=2%20rue%20de%20Feurs%2C%2042600%20Montbrison"
+   ],
+   "extrait": "Adresse lue : « 2, rue de Feurs, 42600 Montbrison (site officiel, extrait rendu par l'outil de lecture ; Cirkwi donne « 2 Rue de Feurs 42600 Montbrison »). C'est déjà `addr` dans la fiche. » (https://brasseriebim.com). Géoplateforme (BAN) : « 2 Rue de Feurs 42600 Montbrison », numéro trouvé (score 0.959)."
+  },
+  {
+   "n": "La Poule",
+   "changements": {
+    "lat": 46.163362,
+    "lon": 5.007183,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.dombes-tourisme.com/en/offers/brasserie-la-poule-neuville-les-dames-en-2921916/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=113%20route%20de%20Bourg%2C%2001400%20Neuville-les-Dames"
+   ],
+   "extrait": "Adresse lue : « 113, route de Bourg, 01400 Neuville-les-Dames (fiche d'office de tourisme, pas le site de la brasserie ; extrait rendu par l'outil de lecture). Le site bierelapoule.fr est « en travaux ». C'est déjà `addr` dans la fiche. » (https://www.dombes-tourisme.com/en/offers/brasserie-la-poule-neuville-les-dames-en-2921916/). Géoplateforme (BAN) : « 113 Route de Bourg 01400 Neuville-les-Dames », numéro trouvé (score 0.954).",
+   "choix": "adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Brasserie Beauseigne",
+   "changements": {
+    "lat": 45.339422,
+    "lon": 4.31366,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-beauseigne.com/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=2%20rue%20du%20Bas%20Vernay%2C%2043240%20Saint-Just-Malmont"
+   ],
+   "extrait": "Adresse lue : « 2 rue du Bas Vernay, 43240 Sain-Just-Malmont (faute « Sain- » sur le site, corrigée ici ; extrait rendu par l'outil de lecture). C'est déjà `addr` dans la fiche. » (https://brasserie-beauseigne.com/). Géoplateforme (BAN) : « 2 Rue du Bas Vernay 43240 Saint-Just-Malmont », numéro trouvé (score 0.958)."
+  },
+  {
+   "n": "Brasserie de Chambaran",
+   "changements": {
+    "lat": 45.351627,
+    "lon": 5.33749,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "http://www.labinche.fr/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=110%20bis%20route%20de%20l%27a%C3%A9roport%2C%2038590%20Saint-%C3%89tienne-de-Saint-Geoirs"
+   ],
+   "extrait": "Adresse lue : « BRASSERIE DE CHAMBARAN - 110 ROUTE DE L'AEROPORT 38590 SAINT ETIENNE DE SAINT GEOIRS (site officiel ; le « bis » vient de la fiche alpes-isere.com, absent de l'extrait du site). Déjà `addr`. » (http://www.labinche.fr/). Géoplateforme (BAN) : « 110bis Route de l’Aéroport 38590 Saint-Étienne-de-Saint-Geoirs », numéro trouvé (score 0.831)."
+  },
+  {
+   "n": "La Canaille",
+   "changements": {
+    "lat": 45.733902,
+    "lon": 3.969058,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserielacanaille.com",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1%20mont%C3%A9e%20des%20Curistes%2C%2042890%20Sail-sous-Couzan"
+   ],
+   "extrait": "Adresse lue : « 1 montée des curistes à Sail-sous-Couzan (site officiel ; le code postal 42890 n'apparaît que dans le lien Google Maps ; extrait rendu par l'outil de lecture). Déjà `addr`. » (https://www.brasserielacanaille.com). Géoplateforme (BAN) : « 1 Montée des Curistes 42890 Sail-sous-Couzan », numéro trouvé (score 0.943)."
+  },
+  {
+   "n": "Miellerie Gachet",
+   "changements": {
+    "lat": 45.548251,
+    "lon": 3.98155,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.loiretourisme.com/offres/miel-etc-ferme-o-gachet-chazelles-sur-lavieu-fr-3356040/",
+    "https://data.geopf.fr/geocodage/search?limit=1&q=116%20chemin%20de%20la%20miellerie%2C%20lieu-dit%20Le%20Bost%2C%2042560%20Chazelles-sur-Lavieu"
+   ],
+   "extrait": "Adresse lue : « 116 chemin de la miellerie lieu dit le bost, 42560 Chazelles-sur-Lavieu (fiche Loire Tourisme, pas site propre ; extrait rendu par l'outil de lecture). Le « lieu-dit Le Bost » est en plus de l'`addr` actuelle. » (https://www.loiretourisme.com/offres/miel-etc-ferme-o-gachet-chazelles-sur-lavieu-fr-3356040/). Géoplateforme (BAN) : « 116 Chemin de la Miellerie 42560 Chazelles-sur-Lavieu », numéro trouvé (score 0.64).",
+   "choix": "score faible (0.64) : comparer l'adresse trouvée, « 116 Chemin de la Miellerie 42560 Chazelles-sur-Lavieu », à l'adresse demandée, « 116 chemin de la miellerie, lieu-dit Le Bost, 42560 Chazelles-sur-Lavieu » ; refuser si ce n'est pas la même rue ; adresse lue sur un annuaire ou un office de tourisme, pas sur le site de la brasserie"
+  },
+  {
+   "n": "Rivière d'Ain",
+   "changements": {
+    "lat": 46.049628,
+    "lon": 5.388373,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=5%20rue%20Samuel%20P%C3%A9ry%2C%2001640%20Jujurieux"
+   ],
+   "extrait": "Adresse de la fiche : « 5 rue Samuel Péry, 01640 Jujurieux ». Géoplateforme (BAN) : « 5 Rue Samuel Pery 01640 Jujurieux », numéro trouvé (score 0.952)."
+  },
+  {
+   "n": "Brasserie Challit",
+   "changements": {
+    "lat": 46.001237,
+    "lon": 3.955634,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1190%20chemin%20des%20Potiers%2C%2042155%20Lentigny"
+   ],
+   "extrait": "Adresse de la fiche : « 1190 chemin des Potiers, 42155 Lentigny ». Géoplateforme (BAN) : « 1190 Chemin des Pothiers 42155 Lentigny », numéro trouvé (score 0.795)."
+  },
+  {
+   "n": "La Mousse du Guiers",
+   "changements": {
+    "lat": 45.599416,
+    "lon": 5.631528,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=41-51%20rue%20du%208%20Mai%201945%2C%2073240%20Saint-Genix-sur-Guiers"
+   ],
+   "extrait": "Adresse de la fiche : « 41-51 rue du 8 Mai 1945, 73240 Saint-Genix-sur-Guiers ». Géoplateforme (BAN) : « 51 Rue du 8 mai 1945 73240 Saint-Genix-les-Villages », numéro trouvé (score 0.815)."
+  },
+  {
+   "n": "Brasserie Free Mousse",
+   "changements": {
+    "lat": 45.076593,
+    "lon": 4.815939,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1%20chemin%20des%20%C3%8Eles%2C%2007300%20Saint-Jean-de-Muzols"
+   ],
+   "extrait": "Adresse de la fiche : « 1 chemin des Îles, 07300 Saint-Jean-de-Muzols ». Géoplateforme (BAN) : « 1 Chemin des Iles 07300 Saint-Jean-de-Muzols », numéro trouvé (score 0.951)."
+  },
+  {
+   "n": "Brasserie CCB",
+   "changements": {
+    "lat": 45.054266,
+    "lon": 4.929222,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=1000%20route%20de%20Romans%2C%20Les%20Hauches%2C%2026600%20Chanos-Curson"
+   ],
+   "extrait": "Adresse de la fiche : « 1000 route de Romans, Les Hauches, 26600 Chanos-Curson ». Géoplateforme (BAN) : « 1000 Route de Romans 26600 Chanos-Curson », numéro trouvé (score 0.672).",
+   "choix": "score faible (0.672) : comparer l'adresse trouvée, « 1000 Route de Romans 26600 Chanos-Curson », à l'adresse demandée, « 1000 route de Romans, Les Hauches, 26600 Chanos-Curson » ; refuser si ce n'est pas la même rue"
+  },
+  {
+   "n": "Les Brasseurs du Sornin",
+   "changements": {
+    "lat": 46.132917,
+    "lon": 4.108592,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=400%20route%20de%20Roanne%2C%2042720%20Pouilly-sous-Charlieu"
+   ],
+   "extrait": "Adresse de la fiche : « 400 route de Roanne, 42720 Pouilly-sous-Charlieu ». Géoplateforme (BAN) : « 400 Rue de Roanne 42720 Pouilly-sous-Charlieu », numéro trouvé (score 0.763)."
+  },
+  {
+   "n": "Les Deux Branches",
+   "changements": {
+    "lat": 46.187152,
+    "lon": 4.245736,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=236%20rue%20de%20l%27Auberge%2C%2042750%20Maizilly"
+   ],
+   "extrait": "Adresse de la fiche : « 236 rue de l'Auberge, 42750 Maizilly ». Géoplateforme (BAN) : « 236 Rue de l’Auberge 42750 Maizilly », numéro trouvé (score 0.941)."
+  },
+  {
+   "n": "Brasserie de la Pérouze",
+   "changements": {
+    "lat": 46.354087,
+    "lon": 4.982324,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=360%20route%20de%20Boissey%2C%2001380%20B%C3%A2g%C3%A9-Dommartin"
+   ],
+   "extrait": "Adresse de la fiche : « 360 route de Boissey, 01380 Bâgé-Dommartin ». Géoplateforme (BAN) : « 360 Route de Boissey 01380 Bâgé-Dommartin », numéro trouvé (score 0.945)."
+  },
+  {
+   "n": "Brasserie du Val d'Ainan (La Dauphine)",
+   "changements": {
+    "lat": 45.459889,
+    "lon": 5.642282,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=82%20voie%20de%20la%20Martinette%2C%2038620%20Saint-Geoire-en-Valdaine"
+   ],
+   "extrait": "Adresse de la fiche : « 82 voie de la Martinette, 38620 Saint-Geoire-en-Valdaine ». Géoplateforme (BAN) : « 82 Voie de la Martinette 38620 Saint-Geoire-en-Valdaine », numéro trouvé (score 0.948)."
+  },
+  {
+   "n": "Brasserie Romanaise (Bière Jacquemart)",
+   "changements": {
+    "lat": 45.049947,
+    "lon": 5.090126,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=16%20rue%20Claude%20Bernard%2C%2026100%20Romans-sur-Is%C3%A8re"
+   ],
+   "extrait": "Adresse de la fiche : « 16 rue Claude Bernard, 26100 Romans-sur-Isère ». Géoplateforme (BAN) : « 16 Rue Claude Bernard 26100 Romans-sur-Isère », numéro trouvé (score 0.966)."
+  },
+  {
+   "n": "Brasserie L'Attract'Yves",
+   "changements": {
+    "lat": 45.360914,
+    "lon": 5.617048,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=192%20chemin%20des%20Verch%C3%A8res%2C%2038500%20Coublevie"
+   ],
+   "extrait": "Adresse de la fiche : « 192 chemin des Verchères, 38500 Coublevie ». Géoplateforme (BAN) : « 192 Chemin des Verchères 38500 Coublevie », numéro trouvé (score 0.955)."
+  },
+  {
+   "n": "L'Écume du Guiers",
+   "changements": {
+    "lat": 45.538628,
+    "lon": 5.708836,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=125%20rue%20du%20Chef%20Lieu%2C%2073330%20Domessin"
+   ],
+   "extrait": "Adresse de la fiche : « 125 rue du Chef Lieu, 73330 Domessin ». Géoplateforme (BAN) : « 125 Rue du chef lieu 73330 Domessin », numéro trouvé (score 0.957)."
+  },
+  {
+   "n": "La Grange du Seigneur",
+   "changements": {
+    "lat": 44.959641,
+    "lon": 4.736025,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=455%20chemin%20de%20la%20Grange%20du%20Seigneur%2C%2007440%20Champis"
+   ],
+   "extrait": "Adresse de la fiche : « 455 chemin de la Grange du Seigneur, 07440 Champis ». Géoplateforme (BAN) : « 455 Chemin de la Grange du Seigneur 07440 Champis », numéro trouvé (score 0.937)."
+  },
+  {
+   "n": "L'Agrivoise",
+   "changements": {
+    "lat": 45.01518,
+    "lon": 4.386633,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=15%20chemin%20de%20Pontardieu%2C%20Saint-Agr%C3%A8ve"
+   ],
+   "extrait": "Adresse de la fiche : « 15 chemin de Pontardieu, Saint-Agrève ». Géoplateforme (BAN) : « 15 Chemin de Pontardieu 07320 Saint-Agrève », numéro trouvé (score 0.951)."
+  },
+  {
+   "n": "Brasserie du Mont Blanc",
+   "changements": {
+    "lat": 45.591818,
+    "lon": 5.887661,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=128%20avenue%20Ren%C3%A9%20Cassin%2C%2073290%20La%20Motte-Servolex"
+   ],
+   "extrait": "Adresse de la fiche : « 128 avenue René Cassin, 73290 La Motte-Servolex ». Géoplateforme (BAN) : « 128 Avenue rené cassin 73290 La Motte-Servolex », numéro trouvé (score 0.96)."
+  },
+  {
+   "n": "Brasserie de la Pleine Lune",
+   "changements": {
+    "lat": 44.899371,
+    "lon": 5.007961,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=10%20rue%20Gustave%20Eiffel%2C%20ZA%20La%20Grue%2C%2026120%20Chabeuil"
+   ],
+   "extrait": "Adresse de la fiche : « 10 rue Gustave Eiffel, ZA La Grue, 26120 Chabeuil ». Géoplateforme (BAN) : « 10 Rue Gustave Eiffel 26120 Chabeuil », numéro trouvé (score 0.668).",
+   "choix": "score faible (0.668) : comparer l'adresse trouvée, « 10 Rue Gustave Eiffel 26120 Chabeuil », à l'adresse demandée, « 10 rue Gustave Eiffel, ZA La Grue, 26120 Chabeuil » ; refuser si ce n'est pas la même rue"
+  },
+  {
+   "n": "Brasserie Kura",
+   "changements": {
+    "lat": 46.289769,
+    "lon": 4.320105,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=ZA%20la%20Croix-Bouthier%2C%201%20rue%20du%20Montillet%2C%2071800%20Varennes-sous-Dun"
+   ],
+   "extrait": "Adresse de la fiche : « ZA la Croix-Bouthier, 1 rue du Montillet, 71800 Varennes-sous-Dun ». Géoplateforme (BAN) : « 1 route du Montillet 71800 Varennes-sous-Dun », numéro trouvé (score 0.58).",
+   "choix": "score faible (0.58) : comparer l'adresse trouvée, « 1 route du Montillet 71800 Varennes-sous-Dun », à l'adresse demandée, « ZA la Croix-Bouthier, 1 rue du Montillet, 71800 Varennes-sous-Dun » ; refuser si ce n'est pas la même rue"
+  },
+  {
+   "n": "Brasserie des Cuves",
+   "changements": {
+    "lat": 45.206261,
+    "lon": 5.681381,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=5%20rue%20de%20la%20Maladi%C3%A8re%2C%2038360%20Sassenage"
+   ],
+   "extrait": "Adresse de la fiche : « 5 rue de la Maladière, 38360 Sassenage ». Géoplateforme (BAN) : « 5 Rue de la Maladière 38360 Sassenage », numéro trouvé (score 0.958)."
+  },
+  {
+   "n": "Brasserie La Furieuse",
+   "changements": {
+    "lat": 45.206911,
+    "lon": 5.680575,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=7%20rue%20de%20la%20Maladi%C3%A8re%2C%2038360%20Sassenage"
+   ],
+   "extrait": "Adresse de la fiche : « 7 rue de la Maladière, 38360 Sassenage ». Géoplateforme (BAN) : « 7 Rue de la Maladière 38360 Sassenage », numéro trouvé (score 0.958)."
+  },
+  {
+   "n": "La Marmotte Masquée",
+   "changements": {
+    "lat": 45.317145,
+    "lon": 5.789534,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=507%20chemin%20du%20Clot%20Perrier%2C%2038380%20Saint-Pierre-de-Chartreuse"
+   ],
+   "extrait": "Adresse de la fiche : « 507 chemin du Clot Perrier, 38380 Saint-Pierre-de-Chartreuse ». Géoplateforme (BAN) : « 507 Chemin du Clot Perrier 38380 Saint-Pierre-de-Chartreuse », numéro trouvé (score 0.948)."
+  },
+  {
+   "n": "Brasserie des Cimes",
+   "changements": {
+    "lat": 45.707135,
+    "lon": 5.915144,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=152%20avenue%20de%20Saint%20Simond%2C%2073100%20Aix-les-Bains"
+   ],
+   "extrait": "Adresse de la fiche : « 152 avenue de Saint Simond, 73100 Aix-les-Bains ». Géoplateforme (BAN) : « 152 Avenue de Saint Simond 73100 Aix-les-Bains », numéro trouvé (score 0.975)."
+  },
+  {
+   "n": "Brasserie La Dourbie",
+   "changements": {
+    "lat": 45.204067,
+    "lon": 5.687332,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=2%20rue%20Baptiste%20Marcet%2C%2038600%20Fontaine"
+   ],
+   "extrait": "Adresse de la fiche : « 2 rue Baptiste Marcet, 38600 Fontaine ». Géoplateforme (BAN) : « 2 Rue Baptiste Marcet 38600 Fontaine », numéro trouvé (score 0.96)."
+  },
+  {
+   "n": "Brasserie Irvoy",
+   "changements": {
+    "lat": 45.182166,
+    "lon": 5.746305,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=14%20rue%20Claude%20Genin%2C%2038000%20Grenoble"
+   ],
+   "extrait": "Adresse de la fiche : « 14 rue Claude Genin, 38000 Grenoble ». Géoplateforme (BAN) : « 14 Rue Claude Genin 38100 Grenoble », numéro trouvé (score 0.792)."
+  },
+  {
+   "n": "P'tit Labo (Brasserie de Grenoble)",
+   "changements": {
+    "lat": 45.187466,
+    "lon": 5.710979,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=46%20rue%20d%27Alembert%2C%2038000%20Grenoble"
+   ],
+   "extrait": "Adresse de la fiche : « 46 rue d'Alembert, 38000 Grenoble ». Géoplateforme (BAN) : « 46 Rue d'Alembert 38000 Grenoble », numéro trouvé (score 0.98)."
+  },
+  {
+   "n": "Brasserie Solstice",
+   "changements": {
+    "lat": 45.182825,
+    "lon": 5.717794,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=47%20rue%20de%20Turenne%2C%2038000%20Grenoble"
+   ],
+   "extrait": "Adresse de la fiche : « 47 rue de Turenne, 38000 Grenoble ». Géoplateforme (BAN) : « 47 Rue de Turenne 38000 Grenoble », numéro trouvé (score 0.975)."
+  },
+  {
+   "n": "Brasserie Kiltin'",
+   "changements": {
+    "lat": 45.193467,
+    "lon": 5.730897,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=9%20rue%20Chenoise%2C%2038000%20Grenoble"
+   ],
+   "extrait": "Adresse de la fiche : « 9 rue Chenoise, 38000 Grenoble ». Géoplateforme (BAN) : « 9 Rue Chenoise 38000 Grenoble », numéro trouvé (score 0.973)."
+  },
+  {
+   "n": "Brasserie Archimalt",
+   "changements": {
+    "lat": 45.575139,
+    "lon": 5.949677,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=95%20rue%20de%20Bolliet%2C%2073230%20Saint-Alban-Leysse"
+   ],
+   "extrait": "Adresse de la fiche : « 95 rue de Bolliet, 73230 Saint-Alban-Leysse ». Géoplateforme (BAN) : « 95 Rue de Bolliet 73230 Saint-Alban-Leysse », numéro trouvé (score 0.95)."
+  },
+  {
+   "n": "Brasserie Les Dameuses",
+   "changements": {
+    "lat": 45.110875,
+    "lon": 5.665991,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=43%20all%C3%A9e%20des%20Giteaux%2C%2038640%20Claix"
+   ],
+   "extrait": "Adresse de la fiche : « 43 allée des Giteaux, 38640 Claix ». Géoplateforme (BAN) : « 43 Allee des Giteaux 38640 Claix », numéro trouvé (score 0.962)."
+  },
+  {
+   "n": "Une Petite Mousse",
+   "changements": {
+    "lat": 45.143542,
+    "lon": 5.690639,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=32%20rue%20de%20Comboire%2C%20b%C3%A2t.%20H%2C%20%C3%89chirolles"
+   ],
+   "extrait": "Adresse de la fiche : « 32 rue de Comboire, bât. H, Échirolles ». Géoplateforme (BAN) : « 32 Rue de Comboire 38130 Échirolles », numéro trouvé (score 0.732)."
+  },
+  {
+   "n": "Brasserie du Dauphiné",
+   "changements": {
+    "lat": 45.184125,
+    "lon": 5.774585,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=33%20rue%20de%20Champ%20Roman%2C%2038400%20Saint-Martin-d%27H%C3%A8res"
+   ],
+   "extrait": "Adresse de la fiche : « 33 rue de Champ Roman, 38400 Saint-Martin-d'Hères ». Géoplateforme (BAN) : « 33 Rue du Champ Roman 38400 Saint-Martin-d'Hères », numéro trouvé (score 0.812)."
+  },
+  {
+   "n": "Brasserie Motueka",
+   "changements": {
+    "lat": 45.045275,
+    "lon": 3.924978,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=2%20route%20de%20Coubon%2C%2043700%20Brives-Charensac"
+   ],
+   "extrait": "Adresse de la fiche : « 2 route de Coubon, 43700 Brives-Charensac ». Géoplateforme (BAN) : « 2 Route de Coubon 43700 Brives-Charensac », numéro trouvé (score 0.956)."
+  },
+  {
+   "n": "La Barbue",
+   "changements": {
+    "lat": 45.543929,
+    "lon": 5.959488,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=330%20rue%20Archim%C3%A8de%2C%2073490%20La%20Ravoire"
+   ],
+   "extrait": "Adresse de la fiche : « 330 rue Archimède, 73490 La Ravoire ». Géoplateforme (BAN) : « 330 R Archimede 73490 La Ravoire », numéro trouvé (score 0.774)."
+  },
+  {
+   "n": "Brasserie Quardin",
+   "changements": {
+    "lat": 45.528547,
+    "lon": 6.002646,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=26%20chemin%20de%20la%20Tour%20de%20Montagny%2C%2073800%20Chignin"
+   ],
+   "extrait": "Adresse de la fiche : « 26 chemin de la Tour de Montagny, 73800 Chignin ». Géoplateforme (BAN) : « 26 Chemin de la tour de montagny 73800 Chignin », numéro trouvé (score 0.946)."
+  },
+  {
+   "n": "Brasserie Grésiv'ale",
+   "changements": {
+    "lat": 45.429444,
+    "lon": 5.983194,
+    "coordPrecision": "address"
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://data.geopf.fr/geocodage/search?limit=1&q=37%20chemin%20des%20g%C3%AEtes%2C%2038530%20Barraux"
+   ],
+   "extrait": "Adresse de la fiche : « 37 chemin des gîtes, 38530 Barraux ». Géoplateforme (BAN) : « 37 Chemin des Gîtes 38530 Barraux », numéro trouvé (score 0.952)."
+  }
+ ],
+ "revues": [
+  "Ninkasi Brignais",
+  "Caribrew",
+  "Autour de la Bière (Taluyers)",
+  "Coldie Brewery",
+  "Brasserie Georges",
+  "Ferme de la Quintillière",
+  "Platypus Brewpub",
+  "La Beer Fabrique",
+  "Tom & Co",
+  "Microbrasserie de Montchat",
+  "La Soyeuse",
+  "La Loupiote",
+  "Brasserie des Roches",
+  "Le Brass'in",
+  "Brasserie Dulion",
+  "Nomade Brewery",
+  "Single Track",
+  "GreDam",
+  "Bière bio des Monts d'Or",
+  "Domaine du Manchot",
+  "La Farlodoise",
+  "Brasserie Kachmar",
+  "Terre de Bières",
+  "L'Affoleuse",
+  "Brasserie Stéphanoise",
+  "Ninkasi Saint-Étienne",
+  "Brasserie des Ursulines",
+  "La Margau",
+  "Brasserie de la Loire",
+  "La Part des Autres",
+  "Brasserie du Pilat",
+  "Brasserie Amalthée",
+  "Bière des Frères Clavel",
+  "BIM Brasserie Indépendante Montbrisonnaise",
+  "La Poule",
+  "Brasserie Beauseigne",
+  "Brasserie de Chambaran",
+  "La Canaille",
+  "Miellerie Gachet",
+  "Rivière d'Ain",
+  "Brasserie Challit",
+  "La Mousse du Guiers",
+  "Brasserie Free Mousse",
+  "Brasserie CCB",
+  "Les Brasseurs du Sornin",
+  "Les Deux Branches",
+  "Brasserie de la Pérouze",
+  "Brasserie du Val d'Ainan (La Dauphine)",
+  "Brasserie Romanaise (Bière Jacquemart)",
+  "Brasserie L'Attract'Yves",
+  "L'Écume du Guiers",
+  "La Grange du Seigneur",
+  "L'Agrivoise",
+  "Brasserie du Mont Blanc",
+  "Brasserie de la Pleine Lune",
+  "Brasserie Kura",
+  "Brasserie des Cuves",
+  "Brasserie La Furieuse",
+  "La Marmotte Masquée",
+  "Brasserie des Cimes",
+  "Brasserie La Dourbie",
+  "Brasserie Irvoy",
+  "P'tit Labo (Brasserie de Grenoble)",
+  "Brasserie Solstice",
+  "Brasserie Kiltin'",
+  "Brasserie Archimalt",
+  "Brasserie Les Dameuses",
+  "Une Petite Mousse",
+  "Brasserie du Dauphiné",
+  "Brasserie Motueka",
+  "La Barbue",
+  "Brasserie Quardin",
+  "Brasserie Grésiv'ale"
+ ]
+}

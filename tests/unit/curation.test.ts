@@ -65,7 +65,7 @@ describe('lire un lot de propositions', () => {
 })
 
 describe('ce qu’une proposition ne peut pas changer (revue code S11)', () => {
-  it('ni l’identité ni la position d’une fiche : nom, commune, département, coordonnées, km', () => {
+  it('ni l’identité, ni un morceau de position : nom, commune, département, km, coordonnée seule', () => {
     for (const changements of [
       { n: 'Autre' },
       { c: 'Ailleurs' },
@@ -74,6 +74,7 @@ describe('ce qu’une proposition ne peut pas changer (revue code S11)', () => {
       { lon: 4 },
       { km: 3 },
       { coordPrecision: 'address' },
+      { lat: 45, lon: 4 },
     ]) {
       expect(lireLot({ lot: 'x', propositions: [{ ...proposition, changements }] }, AUJOURDHUI).ok).toBe(
         false,
@@ -105,6 +106,54 @@ describe('ce qu’une proposition ne peut pas changer (revue code S11)', () => {
 
   it('pas de vérification datée du futur', () => {
     expect(lireLot(lot, '2026-10-15').ok).toBe(false)
+  })
+})
+
+describe('proposer une position (S52, Cédric le 17/10 : « la localisation ne correspond pas à l’adresse »)', () => {
+  const POSITION = { lat: 45.7, lon: 4.8, coordPrecision: 'address' as const }
+  const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?limit=1&q=1%20rue%20Exemple'
+  const deplacement = { ...proposition, changements: POSITION, sources: [GEOCODEUR] }
+
+  it('accepte les trois ensemble : latitude, longitude, précision', () => {
+    expect(lireLot({ lot: 'x', propositions: [deplacement] }, AUJOURDHUI).ok).toBe(true)
+  })
+
+  it('refuse « osm » : cette précision est réservée aux fiches venues d’OpenStreetMap (revue adverse S54)', () => {
+    const osm = { ...proposition, changements: { ...POSITION, coordPrecision: 'osm' } }
+    expect(lireLot({ lot: 'x', propositions: [osm] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('« address » exige le géocodeur parmi les sources lues (revue adverse S54)', () => {
+    const sansGeocodeur = { ...deplacement, sources: ['https://example.com/'] }
+    expect(lireLot({ lot: 'x', propositions: [sansGeocodeur] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('refuse de ramener une fiche au centre de sa commune', () => {
+    const recul = { ...proposition, changements: { ...POSITION, coordPrecision: 'commune' } }
+    expect(lireLot({ lot: 'x', propositions: [recul] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('recalcule km depuis Brignais : un km périmé ne reste pas dans le fichier', () => {
+    const r = appliquerLot(TOUTES, { lot: 'x', propositions: [deplacement] }, new Set([1]))
+    if (!r.ok) throw new Error(r.erreurs.join('\n'))
+    const fiche = r.brasseries.find((b) => b.n === NOM)
+    expect(fiche?.lat).toBe(45.7)
+    expect(fiche?.lon).toBe(4.8)
+    expect(fiche?.coordPrecision).toBe('address')
+    // 4,53 km de Brignais (45,6745 ; 4,7545) à (45,7 ; 4,8), arrondi au dixième
+    // comme les 166 lignes fournies.
+    expect(fiche?.km).toBe(4.5)
+  })
+
+  it('une position seule ne date pas la fiche : sa catégorie n’a pas été revue', () => {
+    const r = appliquerLot(TOUTES, { lot: 'x', propositions: [deplacement] }, new Set([1]))
+    if (!r.ok) throw new Error(r.erreurs.join('\n'))
+    expect(r.brasseries.find((b) => b.n === NOM)?.verifieLe).toBe(A_CONFIRMER.verifieLe)
+  })
+
+  it('le diff dit de combien la fiche bouge sur la carte', () => {
+    const texte = diffLisible(TOUTES, { lot: 'x', propositions: [deplacement] })
+    expect(texte).toMatch(/déplacement sur la carte : \d+,\d km/)
   })
 })
 

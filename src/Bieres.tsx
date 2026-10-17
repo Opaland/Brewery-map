@@ -13,7 +13,7 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
   if (brasserie.beers.length === 0) {
     return (
       <p className="fiche-bieres" data-testid="fiche-bieres">
-        {t('Types de bière : non référencés pour l’instant.')}
+        {t('Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.')}
       </p>
     )
   }
