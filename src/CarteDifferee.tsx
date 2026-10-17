@@ -59,7 +59,7 @@ export function CarteDifferee(props: PropsCarte) {
   }
   return (
     <LimiteCarte>
-      <Suspense fallback={<div className="carte carte-attente">Chargement de la carte…</div>}>
+      <Suspense fallback={<div className="carte carte-attente">{t('Chargement de la carte…')}</div>}>
         <Carte {...props} />
       </Suspense>
     </LimiteCarte>

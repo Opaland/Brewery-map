@@ -18,7 +18,6 @@ import { NOTE_COMMUNE_DEDUITE, NOTE_OSM } from '../../src/core/osm-france'
  */
 const CLES_PAR_CONSTANTE = [
   ...Object.values(CATEGORIES),
-  'La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.',
   DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT, ...Object.values(RAISONS),
   ...JOURS.map((j) => j.nom),
   ...TYPES_BIERE.flatMap((ty) => [ty.libelle, ty.explication]),

@@ -51,7 +51,12 @@ interface Props {
  * le canvas. Les marqueurs sont donc des boutons HTML, vérifiables et
  * atteignables au clavier.
  */
-const STYLE: StyleSpecification = {
+/**
+ * Le style de la carte. Une fonction, pas une constante : l'attribution suit
+ * la langue choisie au démarrage (revue adverse S50), qu'une constante de
+ * module aurait figée avant `choisirLangue`.
+ */
+const style = (): StyleSpecification => ({
   version: 8,
   sources: {
     osm: {
@@ -64,11 +69,11 @@ const STYLE: StyleSpecification = {
       // moins d'un kilomètre (audit S26, m3).
       maxzoom: 14,
       attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>',
+                `© <a href="https://www.openstreetmap.org/copyright">${t('contributeurs OpenStreetMap')}</a>`,
     },
   },
   layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
-}
+})
 
 /**
  * Zoom maximal : 14. Toutes les positions sont communales (≈ 2 km, BACKLOG
@@ -81,8 +86,8 @@ const STYLE: StyleSpecification = {
  */
 const ZOOM_MAX = 14
 
-export const CARTE_IMPOSSIBLE =
-  'La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.'
+const carteImpossible = () =>
+  t('La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.')
 
 /** WebGL est-il là ? Sans lui, MapLibre ne dessine rien : la liste suffit, et on le dit. */
 function webglDisponible(): boolean {
@@ -158,7 +163,7 @@ export default function Carte({
   // indisponible) : on le dit, au lieu d'un fond vide sans explication.
   const [fondAbsent, setFondAbsent] = useState(false)
   const [erreur, setErreur] = useState<string | null>(() =>
-    webglDisponible() ? null : t(CARTE_IMPOSSIBLE),
+    webglDisponible() ? null : carteImpossible(),
   )
   // Sur téléphone, un marqueur touché montre un aperçu dans la carte (S32) :
   // depuis S29, la liste est au-dessus, et choisir la ligne y ramenait la
@@ -213,7 +218,7 @@ export default function Carte({
     try {
       map = new CarteMapLibre({
         container: conteneur.current,
-        style: STYLE,
+        style: style(),
         bounds: emprise(origine, rayonKm),
         maxZoom: ZOOM_MAX,
         attributionControl: { compact: false },
@@ -225,7 +230,7 @@ export default function Carte({
       // WebGL annoncé mais refusé à la création : même repli, signalé après
       // le rendu en cours plutôt que pendant.
       void Promise.resolve().then(() => {
-        setErreur(t(CARTE_IMPOSSIBLE))
+        setErreur(carteImpossible())
       })
       return
     }

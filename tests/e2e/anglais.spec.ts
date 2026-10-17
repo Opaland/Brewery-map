@@ -53,6 +53,11 @@ test.describe('navigateur en anglais', () => {
     await ligne.click()
     await expect(page.getByTestId('fiche-note-osm')).toContainText('Found on OpenStreetMap (a collaborative map)')
   })
+
+  test('l’attribution de la carte suit la langue (revue adverse S50)', async ({ page }) => {
+    await page.getByTestId('carte-en-attente').scrollIntoViewIfNeeded()
+    await expect(page.locator('.maplibregl-ctrl-attrib')).toContainText('OpenStreetMap contributors')
+  })
 })
 
 test.describe('navigateur dans une autre langue', () => {

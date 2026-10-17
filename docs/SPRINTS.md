@@ -2058,3 +2058,13 @@ clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
 3. **Une sonde jetable** a lu tout l'écran en anglais : elle a trouvé
    « Pourquoi : » / « Ce que dit la source : » sur chaque ligne et la note
    longue des fiches OSM, restés en français. Corrigés.
+4. **Revue adverse S48–S50** (296 entrées relues, écran peint en anglais
+   sur dix états) : deux trouvailles, corrigées —
+   - l'attribution de la carte, constante de module, restait « contributeurs
+     OpenStreetMap » : le style est désormais construit à la création de la
+     carte. Test ajouté, vu rouge sans le correctif ;
+   - « Chargement de la carte… » en dur dans `CarteDifferee.tsx`.
+   Une réserve suivie : le test recopiait le texte d'erreur de la carte au lieu
+   de le lire (§4ter) ; le texte est maintenant un `t('…')` littéral, vu par
+   la garde. Manifeste, `<noscript>` et métadonnées restent en français
+   (statique) : inscrit au BACKLOG, et en S188.

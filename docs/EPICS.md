@@ -1,4 +1,4 @@
-# Epics — S29 à S128
+# Epics — S29 à S228
 
 Demande de Cédric du 17/10 : « refais 20 sprints », puis « monte à 100
 sprints ; regarde BMAD pour l'implémentation ». Ce fichier est la liste
@@ -19,6 +19,27 @@ ordonnée des stories, à la manière des epics de BMAD (voir `docs/METHODE.md`)
 Marques : **[C]** attend une décision de Cédric avant de livrer autre chose
 que des propositions ; **[H]** demande une preuve humaine (vrai téléphone,
 autre navigateur).
+
+## Priorité de Cédric (17/10) — avant tout le reste
+
+Cédric, le 17/10 : « monte à 200 sprints, en agentic total » ; « lien vers
+Untappd absent » ; « la localisation des brasseries ne correspond pas à
+l'adresse sur la carte » ; « type de bière non affiché » ; « regarde sur le
+web comment trouver, il y a pas mal d'infos sur Untappd ».
+
+Constat : les 166 fiches de `data/` sont **toutes** placées au centre de
+leur commune (`coordPrecision: commune`), aucune n'a de contact, de lien
+Untappd ni de bière. Le code sait les afficher (S4, S5) ; les données
+manquent, et elles n'entrent que par lot accepté (CLAUDE.md §0). Les stories
+E6 et E7 passent donc devant, et les anciennes S51 à S54 sont renumérotées
+S129 à S132.
+
+| Story | Contenu |
+|---|---|
+| S51 | Fiche sans lien Untappd vérifié : un lien « Chercher sur Untappd » (le nom seul, jamais la position), dit comme une recherche, pas comme sa page ; même chose pour ses bières |
+| S52 | Procédure de position : un lot peut proposer `lat`, `lon`, `coordPrecision` et `addr` ; `km` recalculé ; le diff dit de combien la fiche bouge. Outil de géocodage (Géoplateforme / BAN) |
+| S53 | Lot Untappd et bières, les 166 fiches, en 17 paquets lus par des agents (page Untappd vérifiée, styles affichés par Untappd) **[C]** |
+| S54 | Lot de positions : adresses publiées par les brasseries, géocodées à l'adresse ; points OSM rapprochés **[C]** |
 
 ## E1 — Premier écran et navigation sur téléphone *(persona : Marie)*
 
@@ -95,7 +116,7 @@ proposée vient de la Base Adresse Nationale, adresse par adresse.
 
 | Story | Contenu |
 |---|---|
-| S54 | Outil de géocodage (BAN, cache, aucune position de la personne en jeu) ; lot 1 |
+| S132 | Lot 1 de positions restantes après S54 *(ex-S54 ; l'outil est fait en S52)* |
 | S55 | Lot 2 de positions |
 | S56 | Lot 3 |
 | S57 | Lot 4 |
@@ -180,9 +201,9 @@ s'affiche qui ne soit établi.
 | Story | Contenu |
 |---|---|
 | S30 | Méthode BMAD adaptée : PRD, architecture, epics, stories, `/preparer-story` |
-| S51 | Mutation sur `src/core` : les tests creux |
-| S52 | Audit applicatif n° 2 |
-| S53 | Correctif de l'audit n° 2 |
+| S129 | Mutation sur `src/core` : les tests creux *(ex-S51)* |
+| S130 | Audit applicatif n° 2 *(ex-S52)* |
+| S131 | Correctif de l'audit n° 2 *(ex-S53)* |
 | S98 | Firefox et WebKit dans la CI (installés là-bas, absents du conteneur) |
 | S124 | Tests visuels de non-régression (captures comparées) |
 | S125 | Revue de sécurité (CSP, liens, dépendances) |
@@ -190,10 +211,172 @@ s'affiche qui ne soit établi.
 | S127 | Captures, README, post de lancement mis à jour |
 | S128 | Rétrospective du plan v4, leçons portées dans CLAUDE.md (seulement des ratés datés) |
 
+## Plan v5 (17/10) — S133 à S228
+
+Demande de Cédric : « monte à 200 sprints ». Même règles ; les stories de
+données livrent des propositions. L'ordre est un ordre de priorité.
+
+### E13 — Les données, fiche par fiche *(persona : Cédric)* **[C]**
+
+| Story | Contenu |
+|---|---|
+| S133 | Lot Untappd et bières, 2e passage : les fiches restées sans proposition, par d'autres sources (site officiel, annuaires) |
+| S134 | Lot de sites officiels (lien `site`), lus et ouverts |
+| S135 | Lot de téléphones publiés par les brasseries |
+| S136 | Lot d'horaires lus sur les sites officiels |
+| S137 | Lot de positions, 2e passage : adresses de siège SIRENE quand la brasserie n'en publie pas |
+| S138 | Lot de fermetures : fiches dont la page dit « fermé définitivement » |
+| S139 | Lot des « À confirmer » de l'Ain |
+| S140 | Lot Ardèche |
+| S141 | Lot Drôme |
+| S142 | Lot Isère |
+| S143 | Lot Loire |
+| S144 | Lot Haute-Loire |
+| S145 | Lot Rhône (hors Lyon) |
+| S146 | Lot Lyon |
+| S147 | Lot Savoie |
+| S148 | Lot Haute-Savoie |
+| S149 | Lot Saône-et-Loire |
+| S150 | Lot Puy-de-Dôme et Allier |
+| S151 | Les découvertes OSM les plus proches de Brignais, proposées en fiches vérifiées |
+| S152 | Revue métier de E13 (persona Cédric) |
+
+### E14 — Les bières *(persona : Karim)*
+
+| Story | Contenu |
+|---|---|
+| S153 | Fiche : les bières groupées par type, la plus récente d'abord |
+| S154 | Filtre par type : compter seulement les fiches renseignées, le dire (déjà) ; plusieurs types à la fois |
+| S155 | Recherche par nom de bière |
+| S156 | « Pale ale », « saison », « triple » : types à ajouter au schéma ? proposition **[C]** |
+| S157 | Lien vers la page Untappd de chaque bière, dit comme tel |
+| S158 | Bière sans alcool : filtre dédié |
+| S159 | Bières de saison : marquées, avec leur source |
+| S160 | Revue de persona Karim sur E14 |
+
+### E15 — La carte, encore *(persona : Hugo)*
+
+| Story | Contenu |
+|---|---|
+| S161 | Marqueur « à l'adresse » et « centre de commune » distincts, légende |
+| S162 | Rayon dessiné sur la carte |
+| S163 | Carte plein écran sur téléphone |
+| S164 | Regroupement des marqueurs : seuil revu avec les vraies positions |
+| S165 | Itinéraire de tournée sur la carte (ordre, sans service tiers) |
+| S166 | Fond de carte hors ligne pour la région, à la demande (poids mesuré) |
+| S167 | Retour à « ma position » d'un geste |
+| S168 | Revue de persona Hugo sur E15 |
+
+### E16 — Tournées *(persona : Léa)*
+
+| Story | Contenu |
+|---|---|
+| S169 | Tournée : réordonner à la main |
+| S170 | Tournée : distance totale, estimée et dite comme telle |
+| S171 | Tournée : export GPX |
+| S172 | Tournée partagée par lien, ouverte sur un autre téléphone |
+| S173 | Tournée : jours où toutes sont ouvertes (si horaires connus) |
+| S174 | Tournées gardées (plusieurs), sur l'appareil |
+| S175 | Revue de persona Léa sur E16 |
+
+### E17 — Pour les brasseries *(persona : une brasserie)*
+
+| Story | Contenu |
+|---|---|
+| S176 | Page « Votre brasserie est sur la carte » : comment la corriger |
+| S177 | Signalement guidé par champ (horaires, téléphone, bières) |
+| S178 | Formulaire sans compte GitHub : étude **[C]** |
+| S179 | Affichette : formats A5 et A6, mesurés |
+| S180 | Kit presse de la brasserie (image de la fiche) |
+| S181 | Revue de persona « une brasserie » sur E17 |
+
+### E18 — Langues *(persona : Emma)*
+
+| Story | Contenu |
+|---|---|
+| S182 | Choix de la langue dans l'interface (pas seulement celle du navigateur) |
+| S183 | Relecture des traductions par une personne anglophone **[H]** |
+| S184 | Allemand |
+| S185 | Italien |
+| S186 | Espagnol |
+| S187 | Lien de fiche partagé : la langue de qui l'ouvre |
+| S188 | Manifest et image de partage traduits |
+| S189 | Revue de persona Emma sur E18 |
+
+### E19 — Hors ligne, performance *(persona : Bernard)*
+
+| Story | Contenu |
+|---|---|
+| S190 | Budget de poids par chunk, tenu par un test |
+| S191 | Couche OSM découpée par région, chargée à la demande |
+| S192 | Démarrage à froid mesuré sur téléphone lent simulé, budget tenu |
+| S193 | Mise à jour des données sans recharger l'application |
+| S194 | Stockage plein : le dire, sans rien perdre |
+| S195 | Revue de persona Bernard sur E19 |
+
+### E20 — Accessibilité, troisième passe *(persona : Inès)*
+
+| Story | Contenu |
+|---|---|
+| S196 | Parcours complet au clavier seul, filmé par un test |
+| S197 | Annonces du lecteur d'écran à chaque changement de liste, mesurées |
+| S198 | Texte à 200 % sur toutes les fiches |
+| S199 | Mouvement réduit : la carte sans animation |
+| S200 | Daltonisme : catégories lisibles sans la couleur |
+| S201 | Revue de persona Inès sur E20 |
+
+### E21 — Veille et nouveautés *(persona : Cédric)*
+
+| Story | Contenu |
+|---|---|
+| S202 | Veille mensuelle armée (après « arme la veille » de Cédric) **[C]** |
+| S203 | Nouvelles brasseries OSM du mois, en propositions |
+| S204 | Brasseries fermées du mois, en propositions |
+| S205 | « Quoi de neuf ? » alimenté par les lots acceptés |
+| S206 | Journal public des changements de données |
+
+### E22 — Qualité et livraison
+
+| Story | Contenu |
+|---|---|
+| S207 | Mutation sur les composants |
+| S208 | Tests de propriété sur la recherche et la distance |
+| S209 | Firefox et WebKit en CI |
+| S210 | Lighthouse en CI, budgets tenus |
+| S211 | Dépendances : mise à jour mensuelle outillée |
+| S212 | CSP stricte revue, rapport de violation local |
+| S213 | Sonde de la page publiée : parcours complet |
+| S214 | Revue de sécurité n° 2 |
+| S215 | Audit applicatif n° 3 |
+| S216 | Correctif de l'audit n° 3 |
+
+### E23 — Faire connaître *(persona : Marie)*
+
+| Story | Contenu |
+|---|---|
+| S217 | Page d'accueil explicative (sans écran d'accueil bloquant) |
+| S218 | Image de partage par fiche |
+| S219 | Données ouvertes : export des fiches vérifiées, licence décidée par Cédric **[C]** |
+| S220 | Captures et README à jour |
+| S221 | Post de lancement, version 2 |
+| S222 | Statistiques sans pistage : décision **[C]** |
+
+### E24 — Fin du plan
+
+| Story | Contenu |
+|---|---|
+| S223 | Revue globale n° 2 |
+| S224 | Correctif de la revue globale |
+| S225 | Revue de toutes les personas |
+| S226 | Dette : BACKLOG trié, chaque ligne décidée |
+| S227 | Documentation d'architecture à jour |
+| S228 | Rétrospective du plan v5 |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
-E11 7 · E12 10 = **100 stories**, S29 à S128.
+E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
+S129 à S228 : **200 sprints** en tout.
 
 ## Ordre d'exécution
 

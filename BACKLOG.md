@@ -231,3 +231,9 @@ chacun demande une décision ou une vérification de source.
 - S42 : avec l'ancien service worker encore actif (mise à jour pas encore
   activée), le pied de page annonce déjà les communes hors ligne. Vérifier
   la présence du fichier dans le cache avant de le dire (revue S42/S44).
+
+- **Anglais (revue adverse S50)** : le manifeste (`name`, `description`,
+  raccourcis, `lang: fr`), le bloc `<noscript>` et les `<meta>` d'`index.html`
+  restent en français : fichiers statiques, servis avant toute langue. Une
+  PWA installée sur un téléphone anglais montre ses raccourcis en français.
+  Story S188.

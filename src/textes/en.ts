@@ -299,4 +299,5 @@ export const EN: Readonly<Record<string, string>> = {
   "Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.": "Found on OpenStreetMap (a collaborative map) as a brewery; nothing else is checked: not sales, not visits, not whether it is still open for business.",
   " La commune est déduite de sa position : OpenStreetMap ne la donne pas.": " The town is deduced from its position: OpenStreetMap does not give it.",
   "Mousse de Poche — brasseries artisanales": "Mousse de Poche — craft breweries",
+  "Chargement de la carte…": "Loading the map…",
 }
