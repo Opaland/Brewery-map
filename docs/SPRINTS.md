@@ -2642,7 +2642,7 @@ Les quatre lots repassent `controler` sans écart.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `dep-44` | 85 | 32 | 9 | 11 | 12 | 17 | 9 |
 
-- Les agents ont lu en 13 paquets de 7. Chaque extrait a été relu dans le texte brut de sa page, et 6 phrases trop faibles ont été remplacées.
+- Les agents ont lu en 13 paquets de 7. Chaque extrait a été relu dans le texte brut de sa page. Les phrases trop faibles ou absentes ont été remplacées par la phrase réelle de la page.
 - Trois catégories sont redescendues :
   - La Déviation et la Divatte : une dégustation de visite n'est pas un bar.
   - Vestibule : la page dit « ouverte » sans dire pour quoi.
