@@ -214,9 +214,9 @@
     "lat": 46.65992,
     "lon": -0.91837,
     "km": 450.3,
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
-    "note": "La Stabul, à la ferme-brasserie : vente directe de bière, restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
+    "note": "La Stabul, à la ferme-brasserie : vente directe de bière, et restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
     "addr": "La Muette, 85390 Bazoges-en-Pareds",
     "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
     "coordPrecision": "commune",
@@ -235,7 +235,7 @@
     "https://www.brasserie-la-muette.fr/fr/contact"
    ],
    "extrait": "LA STABUL : Vente directe de bière et restauration sur place et à emporter",
-   "choix": "Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30)."
+   "choix": "« Sur place » ne qualifie que la restauration : la page ne dit pas que la bière s'y boit, d'où « acheter seulement ». Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30)."
   },
   {
    "fiche": {

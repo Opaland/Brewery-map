@@ -4,7 +4,7 @@ Pour Cédric. Ce lot propose **17 fiches nouvelles**. **Rien n'est écrit dans `
 n'as pas répondu par les numéros acceptés.
 
 **Décompte** : 33 candidats à lire = 17 proposés + 16 non proposés (tableau ci-dessous).
-Catégories proposées : 11 « acheter et consommer », 3 « acheter seulement », 0 « pas de vente », 3 « à confirmer ».
+Catégories proposées : 10 « acheter et consommer », 4 « acheter seulement », 0 « pas de vente », 3 « à confirmer ».
 
 **Comment le lot a été fait** (circuit de S249, avec S261-S262) :
 - candidats de `outils/departement.ts` ;
@@ -192,9 +192,9 @@ Choix du vérificateur : Horaires non repris en bloc : la page en donne deux tab
 - lat : (vide) → 46.65992
 - lon : (vide) → -0.91837
 - km : (vide) → 450.3
-- cat : (vide) → 1 (Acheter et consommer sur place)
+- cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → La Stabul, à la ferme-brasserie : vente directe de bière, restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.
+- note : (vide) → La Stabul, à la ferme-brasserie : vente directe de bière, et restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.
 - addr : (vide) → La Muette, 85390 Bazoges-en-Pareds
 - src : (vide) → https://www.brasserie-la-muette.fr/fr/brasserie
 - coordPrecision : (vide) → commune
@@ -210,7 +210,7 @@ Sources (vérifiée le 2026-10-17) : https://www.brasserie-la-muette.fr/fr/brass
 
 Extrait lu : « LA STABUL : Vente directe de bière et restauration sur place et à emporter »
 
-Choix du vérificateur : Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30).
+Choix du vérificateur : « Sur place » ne qualifie que la restauration : la page ne dit pas que la bière s'y boit, d'où « acheter seulement ». Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30).
 
 ### 7. Brasserie Garatelle — fiche nouvelle
 
@@ -500,4 +500,4 @@ Extrait lu : « to taste on site or to buy in the shop area »
 
 Choix du vérificateur : Page de l'office de tourisme en anglais. La brasserie vient de s'installer aux Achards. Seul numéro, un mobile.
 
-Empreinte du lot : 6549ee97f1b5
+Empreinte du lot : c8a23bab75a1

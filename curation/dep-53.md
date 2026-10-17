@@ -53,7 +53,7 @@ Sources (vérifiée le 2026-10-17) : https://atlantic-loire-valley.com/activitie
 
 Extrait lu : « ZA de la Corniche de Pail 53140 PRE-EN-PAIL-SAINT-SAMSON »
 
-Choix du vérificateur : Fiche de tourisme seulement. Même brasserie que la société sirene:828960948.
+Choix du vérificateur : Fiche de tourisme seulement. Même brasserie que la société sirene:828960948. L'enseigne porte le nom de famille du brasseur, que la page nomme : à toi de dire si elle peut être publiée.
 
 ### 2. Brasserie associative de Montflours (BAM) — fiche nouvelle
 
@@ -138,4 +138,4 @@ Extrait lu : « Brasserie des Nico offers Courbette: blond, white, amber and bro
 
 Choix du vérificateur : Page de tourisme seulement ; ni adresse ni contact. Position au centre de la commune.
 
-Empreinte du lot : a0416b03ae00
+Empreinte du lot : 4d66df8cf7fe

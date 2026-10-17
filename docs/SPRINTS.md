@@ -2670,7 +2670,7 @@ Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Bell
 
 | Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| `dep-85` | 33 | 17 | 11 | 3 | 3 | 8 | 3 |
+| `dep-85` | 33 | 17 | 10 | 4 | 3 | 8 | 3 |
 
 - Beaucoup de bars de brasserie sur le littoral. Six fiches reposent sur une fiche de tourisme (dont Beer Workshop), une sur un annuaire ; toutes sont en confiance « faible ».
 - Une seconde enseigne 3 Brasseurs est proposée (La Roche-sur-Yon), signalée comme la première.
@@ -2697,4 +2697,10 @@ La revue a relu chaque page par curl. Aucune erreur grave ; corrigé :
 - Septante-Deux tient sur son propre site (« servie sur place, en direct des cuves »), et non plus sur un guide.
 - Jolicoeur : la commune de Laigné-en-Belin s'appelle aujourd'hui Laigné-Saint-Gervais pour le géocodeur ; la fiche n'était pas écrite. Elle l'est, et le lot le dit.
 - La Mayenne a peu de pages de brasseries : trois fiches sur quatre restent « à confirmer ».
+
+### S250 (4-5) — revue adverse *(17/10)*
+
+Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux trouvailles :
+1. **La Muette (85)** : « sur place » ne qualifie que la restauration ; la page ne dit pas que la bière s'y boit. La fiche passe en « acheter seulement ».
+2. **Brasserie Cousin (53)** : l'enseigne porte le nom de famille du brasseur, que la page nomme. Le nom de la personne n'est repris nulle part ; le lot le signale à Cédric.
 
