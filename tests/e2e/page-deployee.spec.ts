@@ -1,4 +1,6 @@
+import { POLITIQUE } from '../../build/csp'
 import { expect, test } from './position'
+import { absentsDuCache, promessePrecache } from './precache'
 
 /**
  * La page réellement publiée, et non celle qu'on vient de construire.
@@ -43,5 +45,46 @@ test.describe('la page publiée', () => {
     ).toBeVisible({ timeout: 20_000 })
     expect(echecs, `requêtes en échec : ${echecs.join(' | ')}`).toEqual([])
     expect(erreurs, `erreurs JavaScript : ${erreurs.join(' | ')}`).toEqual([])
+  })
+
+  // S241 : le parcours, sur la page servie par Pages.
+  test('une fiche s’ouvre, avec sa source et « Y aller »', async ({ page }) => {
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    const ligne = page.locator('button.ligne').first()
+    await expect(ligne).toBeVisible({ timeout: 20_000 })
+    const nom = (await ligne.getAttribute('data-nom')) ?? ''
+    expect(nom).not.toBe('')
+    await ligne.click()
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche).toBeVisible()
+    await expect(page.locator('button.ligne[aria-expanded="true"]')).toHaveAttribute('data-nom', nom)
+    await expect(fiche.getByTestId('fiche-source')).toBeVisible()
+    await expect(fiche.getByTestId('fiche-y-aller')).toBeVisible()
+  })
+
+  // S241 : la CSP servie est celle qu'on teste en local (securite.spec.ts).
+  test('la politique de sécurité publiée est celle du build', async ({ page }) => {
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    const publiee = await page
+      .locator('meta[http-equiv="Content-Security-Policy"]')
+      .getAttribute('content')
+    expect(publiee).toBe(POLITIQUE)
+  })
+})
+
+// S241 : hors ligne publié. Le service worker est permis ici seulement ; on
+// interroge le cache lui-même (setOffline ne le touche pas, CLAUDE.md §1).
+test.describe('la page publiée, hors ligne', () => {
+  test.skip(!URL_PUBLIEE, 'MOUSSE_URL non défini : sonde de déploiement sautée')
+  test.use({ serviceWorkers: 'allow' })
+
+  test('le service worker publié précache tout ce qu’il promet', async ({ page }) => {
+    const sw = await page.request.get(new URL('sw.js', URL_PUBLIEE).href)
+    expect(sw.status(), 'sw.js publié').toBe(200)
+    const { fichiers, empreinte } = promessePrecache(await sw.text())
+    expect(fichiers.length).toBeGreaterThan(8)
+    expect(empreinte).toBeDefined()
+    await page.goto(URL_PUBLIEE as string, { timeout: 30_000 })
+    expect(await absentsDuCache(page, fichiers, empreinte ?? '')).toEqual([])
   })
 })

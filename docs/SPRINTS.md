@@ -2316,3 +2316,26 @@ ne la voit pas (0 test listé). Le job CI `visuel` est informatif.
   références. En CI, seule la stabilité se prouve (job vert sans nouvel
   essai, sur les références du robot, commit 9321c67, barre masquée).
 
+## S241 — Sonde publiée étendue *(17/10)*
+
+Story d'abord (`docs/stories/S241.md`). `page-deployee.spec.ts` passe d'un
+test à quatre :
+- l'ouverture d'une fiche, avec sa source et « Y aller » ;
+- la CSP publiée, qui doit être exactement `POLITIQUE` de `build/csp.ts` ;
+- le précache du `sw.js` publié, lu dans le cache de cette version.
+
+La lecture du précache est partagée avec `hors-ligne.spec.ts`
+(`tests/e2e/precache.ts`, §4).
+
+Vu vert en local, `MOUSSE_URL` pointant vers `vite preview`, puis vu rouge
+sur trois `dist/` servis qui le contredisent :
+- l'attribut « Y aller » renommé ;
+- `object-src *` ;
+- un fichier promis jamais mis en cache.
+
+Deux premières mutations étaient fausses et ont été refaites :
+- les apostrophes de la CSP sont écrites `&#39;` dans le HTML ;
+- `vite preview` répond 200 avec la page pour un fichier absent.
+
+Reste CA5 : la sonde verte sur la vraie page, après le merge.
+
