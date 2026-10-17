@@ -239,3 +239,12 @@ test.describe('sans la couche OpenStreetMap (revue adverse S25)', () => {
     await expect(page.getByTestId('osm-absente')).toBeVisible()
   })
 })
+
+test('« Quoi de neuf ? » dit ce qui a changé, et que les fiches n’ont pas changé (S44)', async ({ page }) => {
+  await page.goto('/')
+  const bloc = page.getByTestId('quoi-de-neuf')
+  await bloc.locator('summary').click()
+  await expect(bloc).toContainText('Fiches vérifiées : aucune n’a changé depuis le 15 octobre 2026')
+  await expect(bloc.locator('li').first()).toBeVisible()
+  await expect(bloc.locator('li').first()).toContainText('17 octobre 2026')
+})

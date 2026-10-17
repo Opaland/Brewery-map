@@ -1947,3 +1947,46 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    dans `communesFrance.ts` était redondant ; il est retiré, et le test qui
    le gardait est renommé pour dire ce qu'il garde.
 4. **Revue adverse** : groupée avec S43.
+
+## S43 — Couche OSM : mesurée, inchangée *(17/10)*
+
+La couche est déjà compacte : 994 n-uplets, 47 ko compressés. Le gain
+possible est inférieur à 2 ko. Pas de changement (`docs/stories/S43.md`).
+
+## S44 — « Quoi de neuf ? » *(17/10)*
+
+1. **Fait** : un repli dans le pied de page, avec les nouveautés datées et
+   une phrase sur les fiches. Cette phrase est liée à l'empreinte de
+   `data/breweries.json` par un test : changer une fiche sans la réécrire
+   fait échouer la porte.
+2. **Revue adverse** (groupée avec S42, 36 k) : la phrase est vraie (un
+   seul commit sur `data/`, le 15/10), les dates sont sans décalage, et le
+   précache de S42 est servi compressé, hors ligne compris.
+   - **(basse)** une personne qui a encore l'ancien service worker voit
+     « communes de départ » dans le pied de page avant l'activation du
+     nouveau : noté au BACKLOG.
+
+## S45 — Thème clair, sombre ou comme le téléphone *(17/10)*
+
+1. **Fait** (`docs/stories/S45.md`) :
+   - « Apparence » dans le pied de page, gardée avec les réglages, remise à
+     « comme le téléphone » par « tout effacer » ;
+   - `build/theme.ts`, un plugin Vite, tire des blocs
+     `prefers-color-scheme: dark` les règles du thème forcé : une seule
+     source de couleurs ;
+   - le thème est posé avant le premier rendu par `public/theme-precoce.js`
+     (un fichier, la CSP refusant les scripts en ligne), à partir d'un
+     miroir dans `localStorage`.
+2. **Tests vus rouges** : sans le plugin, les deux tests de couleur ; sans
+   le script du `<head>`, le thème avant le rendu (code de l'application
+   bloqué).
+3. **Revue adverse** (49 k) :
+   - **(moyenne)** le thème choisi ne venait qu'après IndexedDB, d'où un
+     éclair du thème du système : corrigé ;
+   - **(moyenne)** des tests trop faibles : la couleur exacte et « tout
+     effacer » sont maintenant vérifiés ;
+   - **(latent)** le parseur maltraitait `:is(.a, .b)`, `:root` en milieu de
+     sélecteur, les conditions à virgule ou avec `not`, et un `@media` en
+     commentaire. Il les gère, ou fait échouer le build (tests unitaires) ;
+   - **sans régression** en sombre automatique : spécificités vérifiées sur
+     le CSS émis.

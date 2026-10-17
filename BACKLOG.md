@@ -228,3 +228,6 @@ chacun demande une décision ou une vérification de source.
 - S37 : à l'ouverture d'une sauvegarde, une note ou une visite présente
   des deux côtés avec un contenu différent garde celle de l'appareil, sans
   le dire (revue adverse S37).
+- S42 : avec l'ancien service worker encore actif (mise à jour pas encore
+  activée), le pied de page annonce déjà les communes hors ligne. Vérifier
+  la présence du fichier dans le cache avant de le dire (revue S42/S44).

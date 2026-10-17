@@ -5,6 +5,7 @@ import { App } from './App'
 import { brasseriesOsm } from './osmFrance'
 import { ouvrirStockage } from './stockage'
 import { surveillerMiseAJour } from './miseAJour'
+import { appliquerTheme } from './theme'
 
 // Les réglages gardés sont lus avant le premier rendu : sinon la carte se
 // cadrerait sur les réglages par défaut, puis sauterait (S9). `ouvrirStockage`
@@ -32,6 +33,8 @@ if (racine) {
     }),
   ])
   void Promise.all([ouvrirStockage(), couche]).then(([stockage, couche]) => {
+    // Le thème choisi (S45), posé avant le premier rendu : pas d'éclair clair.
+    appliquerTheme(stockage.initiales.theme)
     createRoot(racine).render(
       <StrictMode>
         <App stockage={stockage} couche={couche} />

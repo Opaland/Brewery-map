@@ -167,7 +167,21 @@ logique ou de sécurité ; pas pour une curation déjà relue par Cédric.
 - **S1 à S6 terminés le 15/10** (S4–S6 : code livré, données de contact, bières et horaires encore absentes) (page publiée : https://opaland.github.io/Brewery-map/).
 - **Plan v2 validé le 15/10** : 20 sprints de plus (S3 → S22, devenu S23 avec l'ajout de S21 « Partout en France » le 16/10), budget ≈ 4,6 M,
   revue code + revue métier corrigées dans chaque sprint (`docs/SPRINTS.md`).
-- **Plan v4 (17/10), demandé par Cédric** (« refais 20 sprints », puis « monte à 100 sprints ; regarde BMAD ») : 100 stories S29 → S128 en douze epics (`docs/EPICS.md`) ; méthode BMAD adaptée sans l'installer (`docs/METHODE.md`, `docs/PRD.md`, `docs/ARCHITECTURE.md`) ; une story par sprint dans `docs/stories/`, écrite avant le code par `/preparer-story`. S29 : premier écran sur téléphone. Prochaine story : le plus petit numéro d'EPICS.md sans fichier dans `docs/stories/`.
+- **Plan v4 (17/10), demandé par Cédric** (« refais 20 sprints », puis « monte à 100 sprints ; regarde BMAD ») : 100 stories S29 → S128 en douze epics (`docs/EPICS.md`) ; méthode BMAD adaptée sans l'installer (`docs/METHODE.md`, `docs/PRD.md`, `docs/ARCHITECTURE.md`) ; une story par sprint dans `docs/stories/`, écrite avant le code par `/preparer-story`. Faits le 17/10 :
+  - S29, premier écran sur téléphone ;
+  - S30, la méthode ;
+  - S31, restes de S27 ;
+  - S32, aperçu sur la carte ;
+  - S33, mousse animée ;
+  - S34, tournée en image ;
+  - S35, carnet des visites ;
+  - S36, notes ;
+  - S37, sauvegarde par fichier ;
+  - S38, QR et affichette ;
+  - S39 à S41, la carte ;
+  - S42, communes hors ligne ;
+  - S43, mesuré, sans changement.
+Une PR par sprint ou petit groupe, revue adverse, merge vert, page sondée. Prochaine story : le plus petit numéro d'EPICS.md sans fichier dans `docs/stories/`.
 - **Plan v3 (16–17/10), demandé par Cédric** : S24 finitions ; S25 toute la France (couche OpenStreetMap à part de `data/`, 994 brasseries) ; décisions tranchées (`docs/DECISIONS.md`, `curation/RECOMMANDATIONS.md`) ; audit applicatif (`docs/AUDIT.md`) et S26 correctif ; S27 idées de la veille (`docs/VEILLE-CONCURRENCE.md` : département, tournée, partage d'une fiche, statut fermée) ; S28 design system v2 (`docs/DESIGN.md`), image de partage, `docs/MARKETING.md`, `docs/APPRENDRE.md` ; 40 issues créées (#27–#66).
 - **S7 à S23 terminés (15–16/10), puis revue UI/UX globale (16/10, PR #24 : compte collant sans masquer le focus, filtres en colonnes sur ordinateur, zoom 44 px, « Refermer la fiche »)** ; S23 : README, captures (`outils/captures.ts`), brouillon LinkedIn (`docs/LINKEDIN.md`), licence des données à décider par Cédric ; S22 : revue globale corrigée (repli du service worker sur 404, bandeau de nouvelle version, zone vide guidée) ; S21 : communes de France cherchées (fin de la liste déroulante), localisation refaite, bouton « Installer » ; S18 : accessibilité mesurée (`tests/e2e/accessibilite.spec.ts`) ; S19 : « Y aller » (destination seule) et « ouvert maintenant » ; S20 : carte chargée à l'approche (Lighthouse mobile 64 → 100), frontière d'erreur ; les 101 « À confirmer » ont tous été revus une fois ; la veille (S15) attend « arme la veille » de Cédric ; six lots attendent la décision de Cédric (`curation/s11-exemples-s4.md`, `curation/s12-lot-1.md`, `curation/s13-lot-2.md`, `curation/s14-decouverte-resume.md`, `curation/s16-lot-3.md`, `curation/s17-lot-4.md`) ; enchaînement S9 → S22 demandé par Cédric (« enchaîne les sprints avec revue + revue globale »).
 - **En attente de Cédric** : accord sur 5 numéros d'exemple (SPRINTS.md, S4) et permission d'écrire dans `data/` (refusée par le contrôle de la session le 15/10).

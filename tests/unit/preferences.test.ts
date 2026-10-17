@@ -48,6 +48,7 @@ describe('relire les préférences gardées', () => {
       visites: [{ nom: 'Caribrew', date: '2026-10-17' }],
       pasVisitees: true,
       notes: [{ nom: 'Caribrew', texte: 'bien' }],
+      theme: 'sombre',
     }
     expect(lirePreferences(gardees)).toEqual(gardees)
   })
@@ -208,5 +209,14 @@ describe('mes notes (S36)', () => {
       { nom: 'Caribrew', texte: 'bien' },
       { nom: 'Longue', texte: 'b'.repeat(500) },
     ])
+  })
+})
+
+describe('le thème au choix (S45)', () => {
+  it('automatique par défaut ; une valeur inconnue reprend le défaut, seule', () => {
+    expect(PREFERENCES_DEFAUT.theme).toBe('auto')
+    const p = lirePreferences({ favoris: ['A'], theme: 'violet' })
+    expect(p.theme).toBe('auto')
+    expect(p.favoris).toEqual(['A'])
   })
 })

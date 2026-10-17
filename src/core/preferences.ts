@@ -61,6 +61,8 @@ const CHAMPS = {
   avecOsm: z.boolean(),
   /** « Seulement les pas encore visitées » (S35). */
   pasVisitees: z.boolean(),
+  /** Le thème au choix (S45) : celui du système, ou forcé. */
+  theme: z.enum(['auto', 'clair', 'sombre']),
 }
 
 /**
@@ -91,7 +93,10 @@ export interface Preferences {
   visites: Visite[]
   pasVisitees: boolean
   notes: Note[]
+  theme: Theme
 }
+
+export type Theme = 'auto' | 'clair' | 'sombre'
 
 export const PREFERENCES_DEFAUT: Preferences = {
   version: 1,
@@ -104,6 +109,7 @@ export const PREFERENCES_DEFAUT: Preferences = {
   visites: [],
   pasVisitees: false,
   notes: [],
+  theme: 'auto',
 }
 
 const lire = <S extends z.ZodType>(schema: S, valeur: unknown, defaut: z.infer<S>): z.infer<S> => {
@@ -139,6 +145,7 @@ export function lirePreferences(brut: unknown): Preferences {
     visites: lireVisites(g.visites),
     pasVisitees: lire(CHAMPS.pasVisitees, g.pasVisitees, d.pasVisitees),
     notes: lireNotes(g.notes),
+    theme: lire(CHAMPS.theme, g.theme, d.theme),
   }
 }
 
