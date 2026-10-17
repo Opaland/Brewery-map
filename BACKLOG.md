@@ -225,3 +225,6 @@ chacun demande une décision ou une vérification de source.
     invisibles, effacées seulement par « tout effacer » (S103) ;
   - une écriture IndexedDB à chaque frappe d'une note : non mesurée sur un
     téléphone lent (S111).
+- S37 : à l'ouverture d'une sauvegarde, une note ou une visite présente
+  des deux côtés avec un contenu différent garde celle de l'appareil, sans
+  le dire (revue adverse S37).

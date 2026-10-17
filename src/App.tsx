@@ -38,6 +38,7 @@ import { MiseAJour } from './MiseAJour'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
+import { Sauvegarde } from './Sauvegarde'
 import type { Stockage } from './stockage'
 
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
@@ -244,25 +245,31 @@ export function App({
   // écrire au montage réécrivait les valeurs par défaut juste après un
   // effacement, et figeait un stockage relu en partie.
   const dejaGarde = useRef(JSON.stringify(versStockage(ini)))
+  // Ce qui est gardé, calculé une fois : écrit par l'effet ci-dessous, et
+  // enregistré tel quel par la sauvegarde (S37).
+  const garde: Preferences = useMemo(
+    () =>
+      versStockage({
+        version: 1,
+        rayonKm,
+        categories: [...categories],
+        ...(type === undefined ? {} : { type }),
+        depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
+        favoris: [...favoris],
+        favorisSeulement,
+        avecOsm,
+        visites: [...visites],
+        pasVisitees,
+        notes: [...notes],
+      }),
+    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes],
+  )
   useEffect(() => {
-    const p: Preferences = versStockage({
-      version: 1,
-      rayonKm,
-      categories: [...categories],
-      ...(type === undefined ? {} : { type }),
-      depart: autourEnAttente && origine.type === 'brignais' ? { type: 'autour' } : origine,
-      favoris: [...favoris],
-      favorisSeulement,
-      avecOsm,
-      visites: [...visites],
-      pasVisitees,
-      notes: [...notes],
-    })
-    const texte = JSON.stringify(p)
+    const texte = JSON.stringify(garde)
     if (texte === dejaGarde.current) return
     dejaGarde.current = texte
-    stockage.garder(p)
-  }, [stockage, rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes])
+    stockage.garder(garde)
+  }, [stockage, garde])
 
   // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
   // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
@@ -694,7 +701,19 @@ export function App({
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}
               pasVisitees={pasVisitees}
               onPasVisitees={setPasVisitees}
-            />
+            >
+              {/* Changer d'appareil (S37) : un fichier, aucun serveur. Replié
+                  avec ce qui est gardé : ouvert, il repoussait la liste sous
+                  le premier écran d'ordinateur (porte, 904 px pour 800). */}
+              <Sauvegarde
+                actuelles={garde}
+                onReprendre={(p) => {
+                  setFavoris(p.favoris)
+                  setVisites(p.visites)
+                  setNotes(p.notes)
+                }}
+              />
+            </MesFavoris>
           </div>
         </details>
       </section>

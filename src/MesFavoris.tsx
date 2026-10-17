@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import type { EtapeImage } from './core/image-tournee'
 import { ImageTournee } from './ImageTournee'
 
@@ -19,6 +19,8 @@ interface Props {
   nbVisites: number
   pasVisitees: boolean
   onPasVisitees: (v: boolean) => void
+  /** Ce qui suit l'effacement dans le repli « gardés sur cet appareil » (S37 : la sauvegarde). */
+  children?: ReactNode
 }
 
 /**
@@ -37,6 +39,7 @@ export function MesFavoris({
   nbVisites,
   pasVisitees,
   onPasVisitees,
+  children,
 }: Props) {
   // Effacer se confirme : un toucher de travers ne doit pas coûter tous les
   // favoris (revue Marie S9).
@@ -169,6 +172,7 @@ export function MesFavoris({
               </button>
             )}
           </div>
+          {children}
         </details>
       ) : (
         <p className="champ-aide" data-testid="stockage-texte">

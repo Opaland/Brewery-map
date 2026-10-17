@@ -164,3 +164,61 @@ test.describe('mes notes (S36)', () => {
     expect((await page.getByTestId('ma-note').inputValue()).length).toBe(500)
   })
 })
+
+test.describe('sauvegarder et transférer (S37)', () => {
+  test('enregistrer puis ouvrir sur un autre appareil : tout revient, sans requête réseau', async ({ page, browser }) => {
+    const ligne = page.locator('button.ligne').first()
+    const nom = (await ligne.getAttribute('data-nom')) ?? ''
+    await ligne.click()
+    await page.getByTestId('bouton-favori').click()
+    await page.getByTestId('bouton-visite').click()
+    await page.getByTestId('ma-note').fill('à reprendre')
+    await ouvrirFiltres(page)
+    await page.getByTestId('stockage-details').locator('summary').click()
+    const requetes: string[] = []
+    const noter = (r: { url: () => string }) => {
+      if (!/^(blob|data):/.test(r.url())) requetes.push(r.url())
+    }
+    page.on('request', noter)
+    const telechargement = page.waitForEvent('download')
+    await page.getByTestId('enregistrer-sauvegarde').click()
+    const fichier = await telechargement
+    expect(fichier.suggestedFilename()).toBe('mousse-de-poche-sauvegarde.json')
+    const chemin = await fichier.path()
+    const { readFileSync } = await import('node:fs')
+    const contenu = readFileSync(chemin, 'utf8')
+    // Jamais la position (CLAUDE.md §0).
+    expect(contenu).not.toMatch(/"lat"|"lon"|latitude|position/)
+    expect(requetes).toEqual([])
+
+    // Un autre appareil : un contexte neuf, sans rien de gardé.
+    const autre = await browser.newContext()
+    const p2 = await autre.newPage()
+    await p2.route(/tile\.openstreetmap/, (r) => r.abort())
+    await p2.goto('/')
+    await ouvrirFiltres(p2)
+    await p2.getByTestId('stockage-details').locator('summary').click()
+    // L'ouverture non plus ne demande rien au réseau (revue adverse S37).
+    p2.on('request', noter)
+    await p2.getByTestId('fichier-sauvegarde').setInputFiles(chemin)
+    await expect(p2.getByTestId('sauvegarde-etat')).toContainText('1 favori(s), 1 visite(s) et 1 note(s) en plus')
+    const ligne2 = p2.locator(`button.ligne[data-nom="${nom}"]`)
+    await expect(ligne2.getByTestId('marque-favori')).toHaveCount(1)
+    await expect(ligne2.getByTestId('marque-visite')).toHaveCount(1)
+    expect(requetes).toEqual([])
+    await ligne2.click()
+    await expect(p2.getByTestId('ma-note')).toHaveValue('à reprendre')
+    await autre.close()
+  })
+
+  test('un fichier qui n’est pas une sauvegarde est refusé, avec la raison, sans rien changer', async ({ page }) => {
+    await ouvrirFiltres(page)
+    await page.getByTestId('stockage-details').locator('summary').click()
+    await page.getByTestId('fichier-sauvegarde').setInputFiles({
+      name: 'autre.json',
+      mimeType: 'application/json',
+      buffer: Buffer.from('{"application":"autre"}'),
+    })
+    await expect(page.getByTestId('sauvegarde-etat')).toHaveText('Ce fichier ne vient pas de Mousse de Poche.')
+  })
+})
