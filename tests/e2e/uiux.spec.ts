@@ -8,7 +8,9 @@ test.beforeEach(async ({ page }) => {
   await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
 })
 
-test('le compte se lit depuis le curseur de distance, sans défiler', async ({ page }) => {
+for (const ecran of [undefined, { width: 360, height: 640 }]) {
+test(`le compte se lit depuis le curseur de distance, sans défiler${ecran ? ' (360 × 640, revue adverse S28)' : ''}`, async ({ page }) => {
+  if (ecran) await page.setViewportSize(ecran)
   await page.getByTestId('rayon').scrollIntoViewIfNeeded()
   await page.getByTestId('rayon').fill('15')
   // Peint à l'écran, pas seulement présent (CLAUDE.md §1bis).
@@ -26,6 +28,7 @@ test('le compte se lit depuis le curseur de distance, sans défiler', async ({ p
     .toBe(true)
   await expect(page.getByTestId('compte')).toContainText('15 km')
 })
+}
 
 test('« Refermer la fiche » referme, et rend la main à sa ligne', async ({ page }) => {
   const ligne = page.locator('button.ligne').first()

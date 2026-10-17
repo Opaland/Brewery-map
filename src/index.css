@@ -745,3 +745,86 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   .entete { margin: 0; border-radius: 0 0 var(--rayon-lg) var(--rayon-lg); padding: var(--espace-8); }
   .entete h1 { font-size: 2.5rem; }
 }
+
+/* ── Revue UI/UX S28 : corrections mesurées ───────────────────────────── */
+
+/* 1. Le focus sur l'en-tête cuivré : blanc (6,17:1 au moins), le cuivre vif
+   y faisait 1,51:1. */
+.entete :focus-visible { outline-color: #fff; }
+/* Le texte centré dans ses 44 px : l'anneau de focus ne mord plus le sous-titre. */
+.installer-repli summary { min-height: 44px; display: list-item; padding: 12px 0; margin-top: var(--espace-2); cursor: pointer; font-size: var(--texte-secondaire); line-height: 20px; }
+.entete .installer-repli .champ-aide { color: #fff; margin-top: var(--espace-2); }
+
+/* 3. Le compte, plus discret. Sur un écran bas, il reste collé — décollé, il
+   sortait de l'écran pendant qu'on réglait la distance (revue adverse S28 :
+   921 px pour 640) — mais plus fin et sur une ligne. */
+.compte { font-size: 1rem; background: color-mix(in srgb, var(--papier) 97%, transparent); }
+@media (max-height: 700px) {
+  .compte { font-size: 0.875rem; padding: var(--espace-2) var(--espace-2); line-height: 1.3; }
+}
+/* Le texte d'exemple des champs : 3,75:1 en sombre avec la couleur du
+   navigateur (revue adverse S28) ; l'encre douce, 7:1 et plus. */
+.champ input::placeholder { color: var(--encre-douce); opacity: 1; }
+
+/* 4. La légende reste dans son cadre, même sur deux lignes (« Point de
+   départ : Saint-… ») : flottante, sur toute la largeur. */
+.depart legend, .categories legend { float: left; width: 100%; padding: 0; margin: 0 0 var(--espace-4); }
+.depart legend + *, .categories legend + * { clear: both; }
+
+/* 5. Bord des champs à 3:1 au moins (WCAG 1.4.11) : 3,93:1 et 4,30:1
+   (calcul de la revue). Le focus, le même anneau que partout. */
+:root { --bord-champ: #8c7d6b; }
+@media (prefers-color-scheme: dark) { :root { --bord-champ: #8a7d6d; } }
+.champ input[type='search'], .champ select { border-color: var(--bord-champ); }
+.champ input[type='search']:focus, .champ select:focus { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; border-color: var(--cuivre); }
+
+/* 6 et 7. La bande de catégorie : franche (le bord de 6 px s'effilait dans
+   l'arrondi), et rayée pour « À confirmer », dont l'orange se confondait
+   avec le cuivre de la marque (1,11:1) : un second indice que la couleur. */
+.ligne {
+  border-left-width: 1px;
+  background-image: linear-gradient(var(--bande, transparent), var(--bande, transparent));
+  background-size: 6px 100%;
+  background-repeat: no-repeat;
+  padding-left: calc(var(--espace-7) + 6px);
+}
+.ligne.cat-0 {
+  border-left-color: var(--gris-vert-clair);
+  background-image: repeating-linear-gradient(180deg, var(--cat-0) 0 6px, transparent 6px 10px);
+}
+.ligne.cat-1 { --bande: var(--cat-1); border-left-color: var(--gris-vert-clair); }
+.ligne.cat-2 { --bande: var(--cat-2); border-left-color: var(--gris-vert-clair); }
+.ligne.cat-3 { --bande: var(--cat-3); border-left-color: var(--gris-vert-clair); }
+.ligne[aria-expanded='true'] {
+  border-left: 2px solid var(--cuivre);
+  padding-left: calc(var(--espace-7) + 5px);
+  /* 8. Pas de trait entre la ligne ouverte et sa fiche. */
+  border-bottom-color: transparent;
+}
+.fiche { border-left-width: 2px; margin-top: -1px; }
+.badge-verifier { display: block; }
+
+/* 9. Survol du bouton principal : un cuivre plus sombre (le cuivre vif
+   faisait 4,09:1 sous le blanc), et seulement là où le survol existe. */
+.depart-actions .bouton-principal:hover { background: var(--cuivre); border-color: var(--cuivre); }
+@media (hover: hover) {
+  .depart-actions .bouton-principal:hover { background: #7a3410; border-color: #7a3410; }
+}
+@media (hover: hover) and (prefers-color-scheme: dark) {
+  .depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
+}
+
+/* 10. Les puces en grille régulière de deux colonnes. */
+.categories { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.categories .case { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
+.categories legend, .categories .case:last-child { grid-column: 1 / -1; }
+.categories .case { padding-right: var(--espace-4); }
+
+/* Sur ordinateur, l'en-tête en une bande serrée : la première brasserie
+   doit rester dans le premier écran (test « ordinateur », 1280 × 800). */
+@media (min-width: 900px) {
+  .entete { padding: var(--espace-7) var(--espace-8); display: flex; flex-wrap: wrap; align-items: center; gap: var(--espace-2) var(--espace-8); }
+  .entete h1 { font-size: 2rem; }
+  .entete .sous-titre { margin: 0; flex: 1; min-width: 16rem; }
+  .categories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

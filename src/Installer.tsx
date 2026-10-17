@@ -66,11 +66,16 @@ export function Installer() {
       </div>
     )
   }
+  // Replié derrière une phrase : déplié, il prenait deux lignes de l'en-tête
+  // à chaque visite (revue UI/UX S28).
   return (
-    <p className="champ-aide installer" data-testid="installer-geste">
-      {plateformeDe(navigator.userAgent) === 'ios'
-        ? 'Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».'
-        : 'Pour l’installer : menu du navigateur, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».'}
-    </p>
+    <details className="installer-repli">
+      <summary>Installer l’application</summary>
+      <p className="champ-aide installer" data-testid="installer-geste">
+        {plateformeDe(navigator.userAgent) === 'ios'
+          ? 'Pour l’installer sur iPhone : bouton Partager du navigateur (Safari, ou Chrome et Firefox récents), puis « Sur l’écran d’accueil ».'
+          : 'Pour l’installer : menu du navigateur, puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».'}
+      </p>
+    </details>
   )
 }
