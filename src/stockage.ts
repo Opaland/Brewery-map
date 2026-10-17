@@ -1,4 +1,4 @@
-import { lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
+import { gardeParUneVersionFuture, lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
 
 /**
  * Les préférences dans IndexedDB (S9), sur cet appareil seulement. Une base,
@@ -88,9 +88,12 @@ export async function ouvrirStockage(): Promise<Stockage> {
       }, DELAI_OUVERTURE_MS)
     })
     ;({ d: db, b: brut } = await Promise.race([lecture, delai]))
-  } catch {
+    } catch {
     return SANS_STOCKAGE
   }
+  // Gardé par une version plus récente (S238) : lu, jamais réécrit. L'écran
+  // dit que rien ne sera gardé, ce qui est vrai pour cette version.
+  if (gardeParUneVersionFuture(brut)) return { ...SANS_STOCKAGE, initiales: lirePreferences(brut) }
   return {
     disponible: true,
     initiales: lirePreferences(brut),

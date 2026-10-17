@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "rayonKm": 35,
+  "categories": [1, 2, 3],
+  "type": "ipa",
+  "depart": { "type": "commune", "cle": "Anse|69", "nom": "Anse", "lat": 45.9367, "lon": 4.7208 },
+  "favoris": ["Ninkasi Brignais", "Caribrew"],
+  "favorisSeulement": true,
+  "avecOsm": false,
+  "visites": [{ "nom": "Caribrew", "date": "2026-10-12" }],
+  "pasVisitees": false,
+  "notes": [{ "nom": "Caribrew", "texte": "La blanche était excellente." }],
+  "theme": "sombre"
+}

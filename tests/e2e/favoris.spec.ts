@@ -200,6 +200,35 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
       valeur,
     )
 
+  test('ce qu’une version plus récente a gardé n’est jamais réécrit par celle-ci (S238)', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.locator('button.ligne').nth(1)).toBeVisible()
+    const noms = await page.locator('button.ligne').evaluateAll((b) => b.slice(0, 2).map((e) => e.getAttribute('data-nom') ?? ''))
+    const futur = { version: 2, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
+    await ecrireGarde(page, futur)
+    await page.reload()
+    // Lu pour ce que cette version comprend : le favori est là.
+    await expect(page.getByTestId('compte')).toContainText('40 km')
+    // Un geste qui écrirait : l'objet gardé ne bouge pas.
+    await ligne(page, noms[1] ?? '').click()
+    await page.getByRole('button', { name: /Ajouter à mes favoris/ }).click()
+    // Témoin : la même suite, en version 1, écrit bien (voir le test suivant) ;
+    // ici on laisse à l'écriture le temps de partir, puis on relit.
+    await page.waitForTimeout(800)
+    expect(await lireGarde(page)).toEqual(futur)
+  })
+
+  test('témoin : en version 1, le même geste écrit (S238)', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.locator('button.ligne').nth(1)).toBeVisible()
+    const noms = await page.locator('button.ligne').evaluateAll((b) => b.slice(0, 2).map((e) => e.getAttribute('data-nom') ?? ''))
+    await ecrireGarde(page, { version: 1, favoris: [noms[0]], rayonKm: 40 })
+    await page.reload()
+    await ligne(page, noms[1] ?? '').click()
+    await page.getByRole('button', { name: /Ajouter à mes favoris/ }).click()
+    await attendreGarde(page, { favoris: [noms[0], noms[1]] })
+  })
+
   test('un champ périmé ne coûte pas les favoris', async ({ page }) => {
     await page.goto('/')
     const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''

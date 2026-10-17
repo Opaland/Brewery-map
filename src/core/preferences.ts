@@ -81,8 +81,22 @@ export const NOTE_MAX = 500
 const noteSchema = z.object({ nom: z.string().min(1), texte: z.string() }).strict()
 export type Note = z.infer<typeof noteSchema>
 
+/** La forme gardée que cette version écrit (S238). */
+export const VERSION_PREFERENCES = 1
+
+/**
+ * Gardé par une version plus récente de l'application (S238) : on le lit
+ * pour ce qu'on comprend, mais on ne le réécrit jamais — un onglet resté sur
+ * l'ancienne version effaçait sinon ce que la nouvelle savait garder.
+ */
+export function gardeParUneVersionFuture(brut: unknown): boolean {
+  if (typeof brut !== 'object' || brut === null) return false
+  const v = (brut as Record<string, unknown>).version
+  return typeof v === 'number' && v > VERSION_PREFERENCES
+}
+
 export interface Preferences {
-  version: 1
+  version: typeof VERSION_PREFERENCES
   rayonKm: number
   categories: Categorie[]
   type?: TypeDeBiere
@@ -99,7 +113,7 @@ export interface Preferences {
 export type Theme = 'auto' | 'clair' | 'sombre'
 
 export const PREFERENCES_DEFAUT: Preferences = {
-  version: 1,
+  version: VERSION_PREFERENCES,
   rayonKm: RAYON.initial,
   categories: [...ORDRE_CATEGORIES],
   depart: { type: 'brignais' },
@@ -133,8 +147,8 @@ export function lirePreferences(brut: unknown): Preferences {
     ? [...new Set(g.favoris.filter((f): f is string => typeof f === 'string' && f !== ''))]
     : d.favoris
   const type = lire(CHAMPS.type, g.type, undefined)
-  return {
-    version: 1,
+    return {
+    version: VERSION_PREFERENCES,
     rayonKm: lire(CHAMPS.rayonKm, g.rayonKm, d.rayonKm),
     categories: lire(CHAMPS.categories, g.categories, d.categories),
     ...(type === undefined ? {} : { type }),

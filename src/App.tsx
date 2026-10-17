@@ -14,6 +14,7 @@ import {
   RAYON,
   versStockage,
   type Preferences,
+  VERSION_PREFERENCES,
 } from './core/preferences'
 import {
   favorisCaches,
@@ -282,7 +283,7 @@ export function App({
   const garde: Preferences = useMemo(
     () =>
       versStockage({
-        version: 1,
+        version: VERSION_PREFERENCES,
         rayonKm,
         categories: [...categories],
         ...(type === undefined ? {} : { type }),
