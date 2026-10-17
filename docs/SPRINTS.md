@@ -2704,3 +2704,13 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 1. **La Muette (85)** : « sur place » ne qualifie que la restauration ; la page ne dit pas que la bière s'y boit. La fiche passe en « acheter seulement ».
 2. **Brasserie Cousin (53)** : l'enseigne porte le nom de famille du brasseur, que la page nomme. Le nom de la personne n'est repris nulle part ; le lot le signale à Cédric.
 
+## S250 (6/…) — Indre-et-Loire : 4 fiches proposées, quota épuisé *(18/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | Pas de vente | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| `dep-37` | 27 | 4 | 1 | 1 | 1 | 1 | 2 | 0 |
+
+- Le quota de recherches web de la session s'est épuisé pendant la lecture. Sept candidats n'ont eu qu'une recherche ; le lot les marque « À relancer ». Le Centre-Val de Loire reprend dans une session suivante (37 à relancer, puis 45, 41, 18, 36, 28).
+- Sans recherche web, rien d'autre de ce département ne peut être lu proprement : la suite de la session va aux stories qui n'en ont pas besoin.
+- `controler` a signalé deux fois un écart fugace (connexion coupée par le proxy), disparu à la relance. Le lot n'est présenté qu'après une relance sans écart.
+

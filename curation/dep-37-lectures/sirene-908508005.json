@@ -1,0 +1,44 @@
+{
+ "candidat": "sirene:908508005",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Canailles",
+   "c": "Rochecorbon",
+   "d": "37",
+   "lat": 47.41566,
+   "lon": 0.75564,
+   "km": 361.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio de Rochecorbon ; la « vente directe à la brasserie » renvoie à sa boutique en ligne, sans dire qu'on achète sur place.",
+   "addr": "11 place du Lieutenant Ferdinand Lefèvre, 37210 Rochecorbon",
+   "src": "https://www.brasseriedescanailles.fr/contact",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    }
+   ],
+   "contact": {
+    "site": "https://www.brasseriedescanailles.fr/",
+    "source": "https://untappd.com/w/brasserie-des-canailles/461563",
+    "untappd": "https://untappd.com/w/brasserie-des-canailles/461563",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedescanailles.fr/contact",
+   "https://untappd.com/w/brasserie-des-canailles/461563",
+   "https://data.geopf.fr/geocodage/search?q=11+place+du+Lieutenant+Ferdinand+Lef%C3%A8vre%2C+37210+Rochecorbon&limit=5"
+  ],
+  "extrait": "Pour la vente directe à la brasserie : accéder à la boutique en ligne",
+  "choix": "Seul numéro, un mobile. Bières lues sur la page Untappd."
+ }
+}

@@ -13,7 +13,7 @@ Catégories proposées : 10 « acheter et consommer », 4 « acheter seulement �
 - une catégorie que l'extrait ne porte pas est redescendue ; une dégustation liée à une visite n'est pas un bar, une dégustation ouverte au public avec la vente l'est ;
 - positions par `outils/departement.ts lectures`, gardées au département et à la commune (sinon centre de la commune).
 
-**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. 1 lien Untappd, relu sur le site de la brasserie.
+**Contacts** : site officiel et téléphone fixe, relus sur la page citée. Les mobiles restent une option, citée dans les choix. 1 lien Untappd, relu sur la page citée.
 
 **Horaires** : repris quand la page les donne jour par jour, avec leur nature (accueil ou vente), chaque heure relue par `controler`. Ceux dont la nature n'est pas dite restent dans les notes.
 

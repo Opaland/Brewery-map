@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:445122997",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Pigeonnelle",
+   "c": "Céré-la-Ronde",
+   "d": "37",
+   "lat": 47.26101,
+   "lon": 1.19636,
+   "km": 324.6,
+   "cat": 3,
+   "conf": "moyenne",
+   "note": "Brasserie des bières Loirette ; ses installations ne sont pas ouvertes au public. Elle liste ses revendeurs en Indre-et-Loire.",
+   "addr": "10 rue de la Ronde, 37460 Céré-la-Ronde",
+   "src": "http://www.brasserie-pigeonnelle.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "stout"
+    }
+   ],
+   "contact": {
+    "site": "http://www.brasserie-pigeonnelle.fr/",
+    "source": "http://www.brasserie-pigeonnelle.fr/",
+    "tel": "02 47 94 28 22",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "http://www.brasserie-pigeonnelle.fr/",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+de+la+Ronde%2C+37460+C%C3%A9r%C3%A9-la-Ronde&limit=5"
+  ],
+  "extrait": "Les installations de la brasserie ne sont pas ouvertes au public.",
+  "choix": "Page Untappd : https://untappd.com/w/brasserie-de-la-pigeonnelle/12116 (non reprise dans le contact, faute de figurer sur la page du site). Le second numéro du site est un mobile. Bières lues sur la page Untappd."
+ }
+}
