@@ -10,6 +10,12 @@ import { defineConfig, devices } from '@playwright/test'
  */
 const CIBLE = process.env.MOUSSE_URL
 
+const PROJETS: Record<string, { name: string; use: Record<string, unknown> }> = {
+  mobile: { name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } },
+  webkit: { name: 'webkit-iphone', use: { ...devices['iPhone 13'], locale: 'fr-FR' } },
+  firefox: { name: 'firefox', use: { ...devices['Desktop Firefox'], locale: 'fr-FR' } },
+}
+
 export default defineConfig({
   testDir: 'tests/e2e',
   fullyParallel: true,
@@ -30,13 +36,17 @@ export default defineConfig({
     // `page.route` des tests (leçon de Sentiers) : bloqué par défaut, permis
     // dans le seul fichier qui l'exerce (tests/e2e/hors-ligne.spec.ts).
     serviceWorkers: 'block',
-    ...(process.env.PW_CHROMIUM_PATH
+    ...(process.env.PW_CHROMIUM_PATH && process.env.PW_NAVIGATEUR === undefined
       ? { launchOptions: { executablePath: process.env.PW_CHROMIUM_PATH } }
       : {}),
   },
   // En français : le profil Pixel 7 parle anglais par défaut, et l'interface
   // suivra la langue du navigateur dès S50 (les tests anglais la posent).
-  projects: [{ name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } }],
+  //
+  // S234 : `PW_NAVIGATEUR` choisit un autre moteur, en CI seulement (le
+  // conteneur n'a que Chromium) : Safari d'iPhone (WebKit) ou Firefox de
+  // bureau — Firefox n'émule pas le mobile.
+  projects: [PROJETS[process.env.PW_NAVIGATEUR ?? 'mobile'] ?? PROJETS.mobile],
   ...(CIBLE === undefined
     ? {
         webServer: {
