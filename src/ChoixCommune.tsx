@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useState } from 'react'
 import { chercherCommunes, type CommuneFrance, type CommuneIndexee } from './core/communes'
+import { normaliser } from './core/recherche'
 import type { Point } from './core/distance'
 import { communesDeFrance, communesProches, RAYON_PRES_KM } from './communesFrance'
 
@@ -57,7 +58,10 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   }, [depuis, depuisPosition])
 
   const pres = useMemo(() => chercherCommunes(proches, texte, 8, depuis), [proches, texte, depuis])
-  // Rien près du départ, ou demandé : toute la France.
+  // Rien près du départ, ou demandé : toute la France. Pas d'élargissement
+  // automatique sur un nom « non exact » : pendant la frappe, tout préfixe
+  // l'est, et le fichier de toute la France (1,2 Mo) partait dès la 2e
+  // lettre (revue adverse S26). Le bouton nomme le texte tapé (audit, M2).
   const chercherPartout = partout || (etatProches !== 'attente' && pres.length === 0)
 
   useEffect(() => {
@@ -82,7 +86,10 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
     if (!chercherPartout || toutes === null) return pres
     const loin = chercherCommunes(toutes, texte, 8)
     const deja = new Set(pres.map((c) => `${c[0]}|${c[1]}`))
-    return [...pres, ...loin.filter((c) => !deja.has(`${c[0]}|${c[1]}`))].slice(0, 8)
+    const tous = [...pres, ...loin.filter((c) => !deja.has(`${c[0]}|${c[1]}`))]
+    // Le nom exact d'abord, d'où qu'il soit : « Lyon » avant Lyons-la-Forêt.
+    const cible = normaliser(texte)
+    return [...tous.filter((c) => normaliser(c[0]) === cible), ...tous.filter((c) => normaliser(c[0]) !== cible)].slice(0, 8)
   }, [chercherPartout, toutes, pres, texte])
   const resultats = resultatsBruts
   // L'option active reste dans la liste quand celle-ci rétrécit (revue code S21).
@@ -200,7 +207,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
           }}
           data-testid="chercher-partout"
         >
-          Chercher dans toute la France
+          Chercher « {texte.trim()} » dans toute la France
         </button>
       )}
     </div>

@@ -346,9 +346,10 @@ test('à 320 px de large (zoom 400 %), rien ne déborde à l’horizontale (WCAG
   await ouvrir(page)
   await ligne(page, /Caribrew/).click()
   await expect(page.getByTestId('fiche')).toBeVisible()
-  await expect
-    .poll(() => page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth))
-    .toBe(0)
+  // Contre 320, pas `clientWidth` : sur téléphone, la fenêtre de mise en
+  // page s'élargit au contenu, et la différence restait nulle même quand la
+  // page débordait (vu à l'audit S26 : 544 px pour 320 ; CLAUDE.md §1bis).
+  await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320)
 })
 
 test('sur grand écran aussi : axe et cibles (1280 × 800)', async ({ page }) => {

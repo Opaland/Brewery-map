@@ -47,7 +47,10 @@ a été vu rouge validation retirée ; les trois règles croisées du schéma
 
 `toBeVisible` accepte un élément écrêté par un ancêtre `overflow: hidden` ;
 `toContainText` lit le `textContent`, `display: none` compris ; une mesure
-prise pendant une transition ne dit rien de l'état final. Demander plutôt ce
+prise pendant une transition ne dit rien de l'état final. Sur téléphone,
+`innerWidth` et `clientWidth` s'élargissent au contenu qui déborde : un test
+de reflow les comparait à `scrollWidth` et restait vert à 544 px pour un
+écran de 320 (vu à l'audit du 17/10) — comparer à la largeur posée. Demander plutôt ce
 qui est **peint** (`document.elementFromPoint`) et envelopper toute mesure
 d'un `expect.poll`. **Une assertion qui pourrait passer pour une raison qu'on
 n'a pas voulue n'est pas une assertion.** Une sonde jetable se configure
