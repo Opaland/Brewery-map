@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:920573052",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Plume",
+   "c": "Châteauneuf",
+   "d": "85",
+   "lat": 46.90738,
+   "lon": -1.90913,
+   "km": 529.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+   "addr": "4 Les Loges, 85710 Châteauneuf",
+   "src": "https://guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/chateauneuf-35/brasserie-plume-3893.html",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/chateauneuf-35/brasserie-plume-3893.html",
+   "https://data.geopf.fr/geocodage/search?q=4+Les+Loges%2C+85710+Ch%C3%A2teauneuf&limit=5"
+  ],
+  "extrait": "4 Les Loges 85710 Chateauneuf",
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ }
+}

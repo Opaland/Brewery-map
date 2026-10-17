@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:518319983",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme-brasserie La Muette",
+   "c": "Bazoges-en-Pareds",
+   "d": "85",
+   "lat": 46.65992,
+   "lon": -0.91837,
+   "km": 450.3,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Vente directe et dégustation à la ferme-brasserie.",
+   "addr": "La Muette, 85390 Bazoges-en-Pareds",
+   "src": "https://www.brasserie-la-muette.fr",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-la-muette.fr/",
+    "source": "https://www.brasserie-la-muette.fr",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-la-muette.fr"
+  ],
+  "extrait": "Vente directe et dégustation",
+  "choix": "La phrase est courte ; les horaires sont dans une image."
+ }
+}

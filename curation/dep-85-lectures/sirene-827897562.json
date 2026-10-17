@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:827897562",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Garatelle",
+   "c": "Vairé",
+   "d": "85",
+   "lat": 46.6047,
+   "lon": -1.76234,
+   "km": 512.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation.",
+   "addr": "10 rue des Nouettes, 85150 Vairé",
+   "src": "https://www.garatelle.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.garatelle.fr/",
+    "source": "https://www.garatelle.fr",
+    "tel": "02 51 90 38 67",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.garatelle.fr",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+des+Nouettes%2C+85150+Vair%C3%A9&limit=5"
+  ],
+  "extrait": "Vente en direct de la brasserie"
+ }
+}

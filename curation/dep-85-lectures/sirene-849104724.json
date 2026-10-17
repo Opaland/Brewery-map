@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:849104724",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Marsouin",
+   "c": "Brétignolles-sur-Mer",
+   "d": "85",
+   "lat": 46.63601,
+   "lon": -1.83791,
+   "km": 518.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+   "addr": "21 rue Gutenberg, 85470 Brétignolles-sur-Mer",
+   "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+Gutenberg%2C+85470+Br%C3%A9tignolles-sur-Mer&limit=5"
+  ],
+  "extrait": "BRASSERIE DU MARSOUIN",
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ }
+}

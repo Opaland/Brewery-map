@@ -1,0 +1,46 @@
+{
+ "candidat": "node/5401552281",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La N'O",
+   "c": "La Guérinière",
+   "d": "85",
+   "lat": 46.97376,
+   "lon": -2.24661,
+   "km": 556.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Vente et dégustation de bières à la brasserie, accueil toute l'année.",
+   "addr": "10 bis rue de Tranchard, 85680 La Guérinière",
+   "src": "https://brasserie-noirmoutier.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    }
+   ],
+   "contact": {
+    "site": "https://brasserie-noirmoutier.fr/",
+    "source": "https://brasserie-noirmoutier.fr",
+    "tel": "02 51 60 40 12",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserie-noirmoutier.fr",
+   "https://data.geopf.fr/geocodage/search?q=10+bis+rue+de+Tranchard%2C+85680+La+Gu%C3%A9rini%C3%A8re&limit=5"
+  ],
+  "extrait": "Vente et dégustation de bières artisanales à Noirmoutier",
+  "choix": "Horaires non repris : la page en donne deux versions."
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:840088876",
+ "ajout": {
+  "fiche": {
+   "n": "Opé Brewery",
+   "c": "Les Sables-d'Olonne",
+   "d": "85",
+   "lat": 46.52436,
+   "lon": -1.76585,
+   "km": 511.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio des Sables-d'Olonne, avec boutique en ligne ; la vente sur place n'est pas écrite sur la page lue.",
+   "addr": "28 ter allée Alain Gautier, 85340 Les Sables-d'Olonne",
+   "src": "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html"
+  ],
+  "extrait": "Organic craft brewery in Les Sables d'Olonne, Vendée",
+  "choix": "Annuaire seulement ; seul numéro, un mobile."
+ }
+}

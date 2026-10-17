@@ -1,0 +1,77 @@
+{
+ "candidat": "way/1003170882",
+ "ajout": {
+  "fiche": {
+   "n": "3 Brasseurs La Roche-sur-Yon",
+   "c": "La Roche-sur-Yon",
+   "d": "85",
+   "lat": 46.69912,
+   "lon": -1.43095,
+   "km": 489.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
+   "addr": "180 rue Philippe Lebon, 85000 La Roche-sur-Yon",
+   "src": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "lun": [
+      [
+       "11:45",
+       "21:30"
+      ]
+     ],
+     "mar": [
+      [
+       "11:45",
+       "21:30"
+      ]
+     ],
+     "mer": [
+      [
+       "11:45",
+       "21:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "11:45",
+       "21:30"
+      ]
+     ],
+     "dim": [
+      [
+       "11:45",
+       "21:30"
+      ]
+     ],
+     "ven": [
+      [
+       "11:45",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "11:45",
+       "22:30"
+      ]
+     ],
+     "source": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+     "remarque": "Restaurant.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+   "https://data.geopf.fr/geocodage/search?q=180+rue+Philippe+Lebon%2C+85000+La+Roche-sur-Yon&limit=5"
+  ],
+  "extrait": "Vente de bière à emporter",
+  "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « nous brassons nos bières artisanales dans notre microbrasserie ». OSM la plaçait à Mouilleron-le-Captif."
+ }
+}

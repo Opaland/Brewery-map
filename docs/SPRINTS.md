@@ -2665,3 +2665,13 @@ Les quatre lots repassent `controler` sans écart.
 | `dep-49` | 30 | 11 | 4 | 5 | 2 | 7 | 3 |
 
 Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Belle de Maine reste en « acheter seulement » : sa dégustation se fait sur rendez-vous, et la règle écrite en partie 1 s'applique.
+
+## S250 (3/…) — Vendée : 17 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-85` | 33 | 17 | 12 | 2 | 3 | 8 | 3 |
+
+- Beaucoup de bars de brasserie sur le littoral. Sept de ces fiches reposent sur une fiche de tourisme, en confiance « faible ».
+- Une seconde enseigne 3 Brasseurs est proposée (La Roche-sur-Yon), signalée comme la première.
+- Deux sociétés sont rattachées à leur brasserie par l'adresse seulement (MK Production, SARL Bonnin), et le lot le dit.

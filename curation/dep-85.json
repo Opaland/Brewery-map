@@ -1,0 +1,622 @@
+{
+ "lot": "dep-85",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Les Brasseurs de la Vie",
+    "c": "Saint-Gilles-Croix-de-Vie",
+    "d": "85",
+    "lat": 46.6931,
+    "lon": -1.9007,
+    "km": 524.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Micro-brasserie avec bar et boutique, ouverte du jeudi au samedi, et du lundi au samedi en juillet-août.",
+    "addr": "50 rue des Couvreurs, 85800 Saint-Gilles-Croix-de-Vie",
+    "src": "https://www.lesbrasseursdelavie.com",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "sour"
+     }
+    ],
+    "contact": {
+     "tel": "02 51 55 04 75",
+     "site": "https://www.lesbrasseursdelavie.com/",
+     "source": "https://www.lesbrasseursdelavie.com",
+     "verifieLe": "2026-10-17"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "11:00",
+        "23:30"
+       ]
+      ],
+      "ven": [
+       [
+        "11:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "20:00"
+       ]
+      ],
+      "remarque": "En juillet et août : du lundi au samedi, de 11 h à 20 h 30.",
+      "source": "https://www.lesbrasseursdelavie.com",
+      "verifieLe": "2026-10-17"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.lesbrasseursdelavie.com",
+    "https://data.geopf.fr/geocodage/search?q=50+rue+des+Couvreurs%2C+85800+Saint-Gilles-Croix-de-Vie&limit=5"
+   ],
+   "extrait": "Micro-brasserie - Bar - Boutique - Saint-Gilles-Croix-de-Vie (85)"
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Cibulle",
+    "c": "Maillé",
+    "d": "85",
+    "lat": 46.34233,
+    "lon": -0.78796,
+    "km": 434.3,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Boutique-bar de la brasserie, ouverte selon la saison ; visite et dégustation sur rendez-vous, d'après l'office de tourisme.",
+    "addr": "7 rue de la Poste, 85420 Maillé",
+    "src": "https://en.vendee-maraispoitevin.com/offers/brasserie-la-cibulle-maille-en-4093785/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     }
+    ],
+    "contact": {
+     "tel": "02 51 00 39 74",
+     "site": "https://www.lacibulle.fr/",
+     "source": "https://www.lacibulle.fr/contact",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://en.vendee-maraispoitevin.com/offers/brasserie-la-cibulle-maille-en-4093785/",
+    "https://www.lacibulle.fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Poste%2C+85420+Maill%C3%A9&limit=5"
+   ],
+   "extrait": "The shop/bar is open",
+   "choix": "Fiche de tourisme en anglais pour la catégorie ; le site de la brasserie, derrière une porte d'âge, ne livre que sa page de contact. Horaires saisonniers non repris en bloc."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La N'O",
+    "c": "La Guérinière",
+    "d": "85",
+    "lat": 46.97376,
+    "lon": -2.24661,
+    "km": 556.5,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Vente et dégustation de bières à la brasserie, accueil toute l'année.",
+    "addr": "10 bis rue de Tranchard, 85680 La Guérinière",
+    "src": "https://brasserie-noirmoutier.fr",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "blonde"
+     }
+    ],
+    "contact": {
+     "tel": "02 51 60 40 12",
+     "site": "https://brasserie-noirmoutier.fr/",
+     "source": "https://brasserie-noirmoutier.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://brasserie-noirmoutier.fr",
+    "https://data.geopf.fr/geocodage/search?q=10+bis+rue+de+Tranchard%2C+85680+La+Gu%C3%A9rini%C3%A8re&limit=5"
+   ],
+   "extrait": "Vente et dégustation de bières artisanales à Noirmoutier",
+   "choix": "Horaires non repris : la page en donne deux versions."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Mortania",
+    "c": "Mortagne-sur-Sèvre",
+    "d": "85",
+    "lat": 46.98757,
+    "lon": -0.95836,
+    "km": 462.2,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie artisanale aux céréales locales, avec une salle de dégustation où l'on voit la production, d'après l'office de tourisme.",
+    "addr": "Mortagne-sur-Sèvre",
+    "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania"
+   ],
+   "extrait": "tasting room where you can both taste and observe the production process",
+   "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile. Rue sans numéro : position au centre de la commune."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Mélusine",
+    "c": "Chanverrie",
+    "d": "85",
+    "lat": 46.94886,
+    "lon": -0.98306,
+    "km": 462.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar et boutique de la brasserie, pour acheter ou déguster ses bières ; horaires d'hiver et d'été publiés.",
+    "addr": "ZA La Barboire, Chambretaud, 85500 Chanverrie",
+    "src": "https://www.brasserie-melusine.com/",
+    "coordPrecision": "commune",
+    "beers": [],
+    "contact": {
+     "tel": "02 51 61 51 52",
+     "site": "https://www.brasserie-melusine.com/",
+     "source": "https://www.brasserie-melusine.com/",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-melusine.com/"
+   ],
+   "extrait": "dans son Bar/Boutique pour découvrir et/ou déguster des produits 100% Mélusine",
+   "choix": "Horaires non repris en bloc : la page en donne deux tableaux saisonniers (octobre-mars, avril-septembre)."
+  },
+  {
+   "fiche": {
+    "n": "Ferme-brasserie La Muette",
+    "c": "Bazoges-en-Pareds",
+    "d": "85",
+    "lat": 46.65992,
+    "lon": -0.91837,
+    "km": 450.3,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Vente directe et dégustation à la ferme-brasserie.",
+    "addr": "La Muette, 85390 Bazoges-en-Pareds",
+    "src": "https://www.brasserie-la-muette.fr",
+    "coordPrecision": "commune",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-la-muette.fr/",
+     "source": "https://www.brasserie-la-muette.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.brasserie-la-muette.fr"
+   ],
+   "extrait": "Vente directe et dégustation",
+   "choix": "La phrase est courte ; les horaires sont dans une image."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Garatelle",
+    "c": "Vairé",
+    "d": "85",
+    "lat": 46.6047,
+    "lon": -1.76234,
+    "km": 512.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation.",
+    "addr": "10 rue des Nouettes, 85150 Vairé",
+    "src": "https://www.garatelle.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "02 51 90 38 67",
+     "site": "https://www.garatelle.fr/",
+     "source": "https://www.garatelle.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.garatelle.fr",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+des+Nouettes%2C+85150+Vair%C3%A9&limit=5"
+   ],
+   "extrait": "Vente en direct de la brasserie"
+  },
+  {
+   "fiche": {
+    "n": "Oiseau de Nuit, Fabrique de bières",
+    "c": "Apremont",
+    "d": "85",
+    "lat": 46.75969,
+    "lon": -1.74372,
+    "km": 514.2,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bar et boutique sur place (bières, coffrets, kits de brassage), sur le site du Grand Duc ; visite le jeudi à 19 h d'avril à septembre.",
+    "addr": "La Thébaultière, 85220 Apremont",
+    "src": "https://atlantic-loire-valley.com/objet_touristique/240088",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://atlantic-loire-valley.com/objet_touristique/240088"
+   ],
+   "extrait": "Beers to taste at the bar or at our partners' premises",
+   "choix": "Fiche de tourisme en anglais. Société MK Production, rattachée par l'adresse seulement. Même brasserie que le point OSM node/11740796277 (« Le Grand Duc »)."
+  },
+  {
+   "fiche": {
+    "n": "Opé Brewery",
+    "c": "Les Sables-d'Olonne",
+    "d": "85",
+    "lat": 46.52436,
+    "lon": -1.76585,
+    "km": 511.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio des Sables-d'Olonne, avec boutique en ligne ; la vente sur place n'est pas écrite sur la page lue.",
+    "addr": "28 ter allée Alain Gautier, 85340 Les Sables-d'Olonne",
+    "src": "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html",
+    "coordPrecision": "commune",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html"
+   ],
+   "extrait": "Organic craft brewery in Les Sables d'Olonne, Vendée",
+   "choix": "Annuaire seulement ; seul numéro, un mobile."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Marsouin",
+    "c": "Brétignolles-sur-Mer",
+    "d": "85",
+    "lat": 46.63601,
+    "lon": -1.83791,
+    "km": 518.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+    "addr": "21 rue Gutenberg, 85470 Brétignolles-sur-Mer",
+    "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+    "https://data.geopf.fr/geocodage/search?q=21+rue+Gutenberg%2C+85470+Br%C3%A9tignolles-sur-Mer&limit=5"
+   ],
+   "extrait": "BRASSERIE DU MARSOUIN",
+   "choix": "Annuaire seulement ; seul numéro, un mobile."
+  },
+  {
+   "fiche": {
+    "n": "Les Fous Brassant",
+    "c": "L'Île-d'Yeu",
+    "d": "85",
+    "lat": 46.71561,
+    "lon": -2.36251,
+    "km": 559.7,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brewpub : bières locales vendues sur place et à emporter, terrasse ; ouvert tous les jours d'avril à septembre, du mercredi au samedi à partir de 17 h hors saison.",
+    "addr": "21 rue des Roches Cougnères, 85350 L'Île-d'Yeu",
+    "src": "https://lesfousbrassant.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "02 28 11 46 63",
+     "site": "https://lesfousbrassant.fr/",
+     "source": "https://lesfousbrassant.fr",
+     "verifieLe": "2026-10-17"
+    }
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://lesfousbrassant.fr",
+    "https://data.geopf.fr/geocodage/search?q=21+rue+des+Roches+Cougn%C3%A8res%2C+85350+L%27%C3%8Ele-d%27Yeu&limit=5"
+   ],
+   "extrait": "ventes de bières locales sur place et à emporter",
+   "choix": "Horaires non repris en bloc : « à partir de 17h », sans heure de fermeture ; fermeture annuelle de janvier à la Toussaint."
+  },
+  {
+   "fiche": {
+    "n": "Smeele, Fabrique de bière",
+    "c": "Luçon",
+    "d": "85",
+    "lat": 46.47204,
+    "lon": -1.17776,
+    "km": 466,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la fabrique le mercredi, le jeudi et le vendredi, et sur rendez-vous ; bières Polder.",
+    "addr": "10 chemin de Sébastopol, 85400 Luçon",
+    "src": "https://www.smeele.fr",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "stout"
+     }
+    ],
+    "contact": {
+     "tel": "02 44 39 12 11",
+     "site": "https://www.smeele.fr/",
+     "source": "https://www.smeele.fr",
+     "verifieLe": "2026-10-17"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "15:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "20:30"
+       ]
+      ],
+      "remarque": "Et en dehors, sur rendez-vous.",
+      "source": "https://www.smeele.fr",
+      "verifieLe": "2026-10-17"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.smeele.fr",
+    "https://data.geopf.fr/geocodage/search?q=10+chemin+de+S%C3%A9bastopol%2C+85400+Lu%C3%A7on&limit=5"
+   ],
+   "extrait": "Vente directe 10 Chemin de Sébastopol, 85400 Luçon",
+   "choix": "SIRENE donne une autre adresse ; une fiche de tourisme donne d'autres horaires."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Plume",
+    "c": "Châteauneuf",
+    "d": "85",
+    "lat": 46.90738,
+    "lon": -1.90913,
+    "km": 529.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+    "addr": "4 Les Loges, 85710 Châteauneuf",
+    "src": "https://guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/chateauneuf-35/brasserie-plume-3893.html",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/chateauneuf-35/brasserie-plume-3893.html",
+    "https://data.geopf.fr/geocodage/search?q=4+Les+Loges%2C+85710+Ch%C3%A2teauneuf&limit=5"
+   ],
+   "extrait": "4 Les Loges 85710 Chateauneuf",
+   "choix": "Annuaire seulement ; seul numéro, un mobile."
+  },
+  {
+   "fiche": {
+    "n": "L'Éco-Pain",
+    "c": "Bournezeau",
+    "d": "85",
+    "lat": 46.62886,
+    "lon": -1.15993,
+    "km": 467.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bar avec toutes les bières brassées sur place à la pression, et boutique de bouteilles à emporter, d'après le guide de la Vendée.",
+    "addr": "73 rue Archereau, 85480 Bournezeau",
+    "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bournezeau-23/l-eco-pain-4280.html",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bournezeau-23/l-eco-pain-4280.html",
+    "https://data.geopf.fr/geocodage/search?q=73+rue+Archereau%2C+85480+Bournezeau&limit=5"
+   ],
+   "extrait": "All the craft beers brewed on-site are available on tap at the bar",
+   "choix": "Annuaire en anglais seulement ; ses horaires, notés « 12:00 am », ne sont pas repris."
+  },
+  {
+   "fiche": {
+    "n": "Tabernaude Brew",
+    "c": "L'Île-d'Yeu",
+    "d": "85",
+    "lat": 46.72706,
+    "lon": -2.35021,
+    "km": 559,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bières brassées sur le port, à boire en terrasse ou à emporter en bouteilles et canettes, d'après l'office de tourisme.",
+    "addr": "3 rue des Quais, 85350 L'Île-d'Yeu",
+    "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/tabernaude-brew",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/tabernaude-brew",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+des+Quais%2C+85350+L%27%C3%8Ele-d%27Yeu&limit=5"
+   ],
+   "extrait": "can enjoy them on the terrace or take them away in bottles or cans",
+   "choix": "Fiche de tourisme en anglais seulement."
+  },
+  {
+   "fiche": {
+    "n": "3 Brasseurs La Roche-sur-Yon",
+    "c": "La Roche-sur-Yon",
+    "d": "85",
+    "lat": 46.69912,
+    "lon": -1.43095,
+    "km": 489.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
+    "addr": "180 rue Philippe Lebon, 85000 La Roche-sur-Yon",
+    "src": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "11:45",
+        "21:30"
+       ]
+      ],
+      "mar": [
+       [
+        "11:45",
+        "21:30"
+       ]
+      ],
+      "mer": [
+       [
+        "11:45",
+        "21:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "11:45",
+        "21:30"
+       ]
+      ],
+      "ven": [
+       [
+        "11:45",
+        "22:30"
+       ]
+      ],
+      "sam": [
+       [
+        "11:45",
+        "22:30"
+       ]
+      ],
+      "dim": [
+       [
+        "11:45",
+        "21:30"
+       ]
+      ],
+      "remarque": "Restaurant.",
+      "source": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+      "verifieLe": "2026-10-17"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+    "https://data.geopf.fr/geocodage/search?q=180+rue+Philippe+Lebon%2C+85000+La+Roche-sur-Yon&limit=5"
+   ],
+   "extrait": "Vente de bière à emporter",
+   "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « nous brassons nos bières artisanales dans notre microbrasserie ». OSM la plaçait à Mouilleron-le-Captif."
+  },
+  {
+   "fiche": {
+    "n": "Beer Workshop",
+    "c": "Les Achards",
+    "d": "85",
+    "lat": 46.60352,
+    "lon": -1.66533,
+    "km": 505.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale avec bar et boutique : bières à goûter sur place ou à acheter ; restauration le midi.",
+    "addr": "17 rue de la Camamine, 85150 Les Achards",
+    "src": "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-17",
+   "sources": [
+    "https://www.achards-tourisme.com/en/restaurants/beer-workshop/",
+    "https://data.geopf.fr/geocodage/search?q=17+rue+de+la+Camamine%2C+85150+Les+Achards&limit=5"
+   ],
+   "extrait": "to taste on site or to buy in the shop area",
+   "choix": "Page de l'office de tourisme en anglais. La brasserie vient de s'installer aux Achards. Seul numéro, un mobile."
+  }
+ ]
+}

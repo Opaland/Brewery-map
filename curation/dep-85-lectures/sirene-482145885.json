@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:482145885",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Mélusine",
+   "c": "Chanverrie",
+   "d": "85",
+   "lat": 46.94886,
+   "lon": -0.98306,
+   "km": 462.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar et boutique de la brasserie, pour acheter ou déguster ses bières ; horaires d'hiver et d'été publiés.",
+   "addr": "ZA La Barboire, Chambretaud, 85500 Chanverrie",
+   "src": "https://www.brasserie-melusine.com/",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-melusine.com/",
+    "source": "https://www.brasserie-melusine.com/",
+    "tel": "02 51 61 51 52",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-melusine.com/"
+  ],
+  "extrait": "dans son Bar/Boutique pour découvrir et/ou déguster des produits 100% Mélusine",
+  "choix": "Horaires non repris en bloc : la page en donne deux tableaux saisonniers (octobre-mars, avril-septembre)."
+ }
+}
