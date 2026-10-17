@@ -2181,3 +2181,93 @@ rouge : une variable non déclarée ajoutée à `sw.js` fait échouer le lint.
   `BASE_DE_DONNEES` et un test la lie à l'empreinte de « Quoi de neuf ? ».
 Le relecteur a déclenché par mégarde la porte dans une copie : c'était la
 cause des deux échecs e2e « connexion refusée » du commit S232.
+
+## S234 (2/2) — premier tri des échecs WebKit *(17/10)*
+
+Premier passage en CI sur WebKit (profil iPhone 13) : 167 réussis, 13
+échecs, 3 instables. Tri :
+- **presse-papiers** (3 tests) : WebKit ne connaît pas la permission
+  `clipboard-write` → les tests relèvent ce que l'application copie
+  (`releverCopies`), quel que soit le moteur ;
+- **« Installer » (Android)** : API propre à Chrome → Chromium seulement,
+  raison écrite ;
+- **écrans émulés** (ordinateur 1280, 320 px, premier écran du Pixel 7) :
+  calibrés sur Chromium → restreints, raison écrite. **Constat réel** : sur
+  iPhone 13, la première brasserie passe sous la barre (BACKLOG) ;
+- **ligne qui s'enfonce au toucher** : Safari n'applique `:active` que si
+  la page écoute les touchers → correctif dans `main.tsx` ;
+- **carte** (5 tests) : aucune tuile demandée, ni carte ni message. Possible
+  défaut réel sur Safari, non reproductible ici (pas de WebKit dans le
+  conteneur) → test de diagnostic `carte-moteurs.spec.ts` (erreurs de la
+  page dans le message) et rapport Playwright gardé en CI ;
+- **couche OSM jamais servie** : le chargement de page de WebKit attend la
+  requête pendante → le test attend le document.
+
+## S236 — L'étage « composants » des tests *(17/10)*
+
+Story d'abord (`docs/stories/S236.md`). `jsdom` et Testing Library en
+dépendances de développement (aucune alerte ajoutée ; les deux alertes
+modérées de `npm audit` viennent de `tsx`, d'avant). L'environnement se
+choisit par fichier : les tests existants restent en node.
+`tests/composants/ChoixCommune.test.tsx` : clavier (flèche, Entrée, Échap)
+et confidentialité — avec la position pour départ, aucun fichier « par
+département » n'est demandé (vu rouge en forçant l'appel), témoin inverse.
+
+## S237 (1/n) — `App.tsx` découpé en crochets *(17/10)*
+
+Story d'abord (`docs/stories/S237.md`). Sortis dans `src/crochets.ts` :
+`useConnexion`, `useCarteEnVue`, `useHauteurBarre`,
+`useCarnetEntreOnglets`. `App.tsx` passe de 982 à 855 lignes, sans
+changement visible (suite e2e entière à la porte). Le carnet entre onglets
+a son test de composant (deux onglets montés, favori, visite, note,
+effacement, pas d'écho) : vu rouge sans l'envoi des favoris, et sans la
+mémoire anti-écho des favoris (celles des visites et des notes : voir la
+correction de la revue adverse, plus bas).
+
+## S234 (3/3) — WebKit, deuxième passage *(17/10)*
+
+173 réussis, 2 échecs, 4 instables. La carte arrive plus lentement sous
+WebKit (≈ 1 Mo) — le test de diagnostic acceptait alors la carte *ou* son
+message, il ne prouvait donc pas qu'elle s'affiche (corrigé plus bas)
+→ `versLaCarte` attend 15 s (attente de test). L'adresse `?raccourci=` lue
+trop tôt → `expect.poll`. La pression simulée à la souris ne donne pas
+`:active` sous WebKit émulé → Chromium seulement, iPhone réel en S96.
+
+## S239 — Mutation outillée *(17/10)*
+
+Story d'abord (`docs/stories/S239.md`). Stryker sur `src/core`, job de nuit
+informatif (`docs/MUTATION.md`). Installé pour le job seulement : son ajout
+désaccordait le verrouillage (`npm ci` cassé, vu en local, rétabli). Les
+mutants statiques sortaient survivants à tort (vérifié à la main) : ignorés.
+Première trouvaille : aucun test ne refusait un fichier de base invalide
+dans la garde de `data/` — test ajouté (66 % au lieu de 58 %).
+
+## S234 (4/4) — Firefox, premier tri *(17/10)*
+
+134 réussis, 45 échecs, presque tous sur la carte : sans écran en CI,
+Firefox n'a pas WebGL, et la carte dit alors qu'elle ne peut pas
+s'afficher — le bon comportement (`carte-moteurs.spec.ts` réussit). Les
+tests qui ont besoin de la carte dessinée ne portent pas sur ce moteur
+(`versLaCarte` le dit et passe ; sous Chromium, une carte absente échoue).
+Le profil Firefox de bureau devient **Firefox pour Android** (écran de
+téléphone, toucher, agent Android) : les tests du téléphone et de « Y
+aller » (liens Android) s'y appliquent.
+
+## PR #84 — corrections de la revue adverse *(17/10)*
+
+- **S238** : avec un stockage d'une version plus récente, l'écran disait
+  « navigation privée » et retirait la sauvegarde par fichier. Il dit
+  maintenant la vraie raison, et la sauvegarde reste (`versionFuture`). La
+  garde n'était lue qu'à l'ouverture : un onglet ouvert avant réécrivait ce
+  qu'une version plus récente gardait ensuite. Elle est relue à l'écriture,
+  dans la même transaction (test e2e ajouté).
+- **S237** : la mémoire anti-écho des visites et des notes n'était tenue par
+  aucun test (mutant survivant). Deux tests ajoutés, vus rouges chacun sans
+  sa mémoire.
+- **S234** : `versLaCarte` sautait sur tout message « carte absente » hors
+  Chromium, donc une carte cassée sous WebKit devenait un saut vert. Il ne
+  saute plus que si la page n'a pas WebGL ; `carte-moteurs.spec.ts` exige la
+  carte là où WebGL existe. Trois sauts « écran émulé sur Chromium
+  seulement » retirés (la taille se pose sur tout moteur). Un
+  `PW_NAVIGATEUR` inconnu échoue au lieu de lancer Chromium. Le tri est
+  rassemblé dans `docs/NAVIGATEURS.md`, cité mais absent jusque-là.

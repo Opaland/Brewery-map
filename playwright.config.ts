@@ -10,6 +10,35 @@ import { defineConfig, devices } from '@playwright/test'
  */
 const CIBLE = process.env.MOUSSE_URL
 
+const PROJETS: Partial<Record<string, { name: string; use: Record<string, unknown> }>> = {
+  mobile: { name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } },
+  webkit: { name: 'webkit-iphone', use: { ...devices['iPhone 13'], locale: 'fr-FR' } },
+  // Firefox n'émule pas le mobile (`isMobile`) : un écran de téléphone, le
+  // toucher et l'agent de Firefox pour Android, comme dans la vraie vie.
+  firefox: {
+    name: 'firefox-android',
+    use: {
+      browserName: 'firefox',
+      viewport: { width: 412, height: 839 },
+      hasTouch: true,
+      userAgent: 'Mozilla/5.0 (Android 14; Mobile; rv:131.0) Gecko/131.0 Firefox/131.0',
+      locale: 'fr-FR',
+    },
+  },
+}
+
+/**
+ * Un nom de moteur mal tapé lançait Chromium sans le dire, et le job
+ * « navigateurs » restait vert (revue adverse S234) : on refuse plutôt.
+ */
+function projetChoisi(nom = process.env.PW_NAVIGATEUR ?? 'mobile') {
+  const projet = PROJETS[nom]
+  if (projet === undefined) {
+    throw new Error(`PW_NAVIGATEUR=${nom} inconnu : ${Object.keys(PROJETS).join(', ')}`)
+  }
+  return projet
+}
+
 export default defineConfig({
   testDir: 'tests/e2e',
   fullyParallel: true,
@@ -30,13 +59,17 @@ export default defineConfig({
     // `page.route` des tests (leçon de Sentiers) : bloqué par défaut, permis
     // dans le seul fichier qui l'exerce (tests/e2e/hors-ligne.spec.ts).
     serviceWorkers: 'block',
-    ...(process.env.PW_CHROMIUM_PATH
+    ...(process.env.PW_CHROMIUM_PATH && process.env.PW_NAVIGATEUR === undefined
       ? { launchOptions: { executablePath: process.env.PW_CHROMIUM_PATH } }
       : {}),
   },
   // En français : le profil Pixel 7 parle anglais par défaut, et l'interface
   // suivra la langue du navigateur dès S50 (les tests anglais la posent).
-  projects: [{ name: 'mobile', use: { ...devices['Pixel 7'], locale: 'fr-FR' } }],
+  //
+  // S234 : `PW_NAVIGATEUR` choisit un autre moteur, en CI seulement (le
+  // conteneur n'a que Chromium) : Safari d'iPhone (WebKit) ou Firefox pour
+  // Android.
+  projects: [projetChoisi()],
   ...(CIBLE === undefined
     ? {
         webServer: {

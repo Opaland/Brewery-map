@@ -14,6 +14,11 @@ import { choisirLangue, langueDe, t } from './i18n'
 // IndexedDB, ou s'il ne répond pas, l'application part sans rien garder.
 const DELAI_COUCHE_MS = 3000
 
+// Safari d'iPhone n'applique `:active` au toucher que si la page écoute les
+// touchers (règle connue de Safari iOS ; S234). Non vérifiable en émulation :
+// à constater sur un vrai iPhone (S96).
+document.addEventListener('touchstart', () => undefined, { passive: true })
+
 // La langue de l'interface, avant tout rendu (S48).
 choisirLangue(langueDe(navigator.languages))
 document.title = t('Mousse de Poche — brasseries artisanales')

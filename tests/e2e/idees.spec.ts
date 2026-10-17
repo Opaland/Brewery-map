@@ -1,5 +1,5 @@
 import { expect, test } from './position'
-import { sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
+import { derniereCopie, ouvrirFiltres, releverCopies, sansTuiles, versLaCarte } from './reseau'
 
 /** S27 — les meilleures idées de la veille concurrentielle (docs/VEILLE-CONCURRENCE.md). */
 test.beforeEach(async ({ page }) => {
@@ -57,17 +57,16 @@ test('un lien partagé ouvre la fiche, même hors du rayon', async ({ page }) =>
 })
 
 test.describe('partager sans menu de partage : le lien est copié', () => {
-  test.use({ permissions: ['clipboard-read', 'clipboard-write'] })
-
   test('le lien copié ne porte que le nom', async ({ page }) => {
     await page.addInitScript(() => {
       Object.defineProperty(navigator, 'share', { value: undefined })
     })
     await page.goto('/')
+    await releverCopies(page)
     await page.locator('button.ligne').first().click()
     await page.getByTestId('bouton-partager').click()
     await expect(page.getByTestId('partage-etat')).toHaveText('Lien copié.')
-    const copie = await page.evaluate(() => navigator.clipboard.readText())
+    const copie = await derniereCopie(page)
     expect(copie).toMatch(/^http:\/\/localhost:4173\/#fiche=[^&?]+$/)
   })
 })

@@ -118,7 +118,9 @@ test('un nom de brasserie tapé la trouve à toute distance', async ({ page }) =
 test.describe('installer l’application', () => {
   test('Android, Chrome : un bouton déclenche l’installation proposée par le navigateur', async ({
     page,
+    browserName,
   }) => {
+    test.skip(browserName !== 'chromium', '« beforeinstallprompt » n’existe que dans Chrome (S234)')
     await page.goto('/')
     await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
     // L'événement du navigateur, simulé : Chromium headless ne le donne pas.
@@ -234,7 +236,9 @@ test.describe('sans la couche OpenStreetMap (revue adverse S25)', () => {
   test('jamais servie : pas de page blanche, l’écran part sans elle', async ({ page }) => {
     // La requête reste pendante : aucune réponse, jamais.
     await page.route(/brasseries-osm-.*\.js$/, () => undefined)
-    await page.goto('/')
+    // Le chargement de la page attend aussi la requête pendante sous WebKit :
+    // on attend le document, puis l'écran, comme la personne (S234).
+    await page.goto('/', { waitUntil: 'domcontentloaded' })
     await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible({ timeout: 6000 })
     await expect(page.getByTestId('osm-absente')).toBeVisible()
   })

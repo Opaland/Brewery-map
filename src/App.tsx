@@ -1,4 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCarnetEntreOnglets, useCarteEnVue, useConnexion, useHauteurBarre } from './crochets'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -8,12 +9,12 @@ import {
   basculerVisite,
   dateDuJour,
   ecrireNote,
-  lirePreferences,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
   RAYON,
   versStockage,
   type Preferences,
+  VERSION_PREFERENCES,
 } from './core/preferences'
 import {
   favorisCaches,
@@ -111,8 +112,6 @@ function texteDuCompte(
 }
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
-const lireVisitesRecues = (brut: unknown) => lirePreferences({ visites: brut }).visites
-const lireNotesRecues = (brut: unknown) => lirePreferences({ notes: brut }).notes
 
 export function App({
   stockage,
@@ -197,79 +196,12 @@ export function App({
       large.removeEventListener('change', suivre)
     }
   }, [])
-  // La carte à l'écran : le bouton de la barre ramène alors à la liste.
-  const titreCarte = useRef<HTMLHeadingElement>(null)
-  const [carteEnVue, setCarteEnVue] = useState(false)
-  useEffect(() => {
-    const zone = titreCarte.current?.parentElement ?? null
-    if (zone === null || typeof IntersectionObserver === 'undefined') return
-    // « À l'écran » : dans la moitié haute. Seuil de présentation, au jugé
-    // (§2) : plus bas, le bouton changeait alors que la liste remplissait
-    // encore l'écran.
-    const obs = new IntersectionObserver(
-      (entrees) => {
-        setCarteEnVue(entrees.some((e) => e.isIntersecting))
-      },
-      { rootMargin: '0px 0px -50% 0px' },
-    )
-    obs.observe(zone)
-    return () => {
-      obs.disconnect()
-    }
-  }, [])
+  const { titreCarte, carteEnVue } = useCarteEnVue()
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   const [annonce, setAnnonce] = useState('')
   const compte = useRef<HTMLParagraphElement>(null)
-  const barre = useRef<HTMLDivElement>(null)
-
-  // Le compte collé au bas de l'écran couvrait le focus clavier (WCAG
-  // 2.4.11, revue adverse UI/UX : une case sur Pixel 7, cinq contrôles à
-  // 320 px). Sa hauteur, qui varie avec le retour à la ligne, devient la
-  // marge de défilement du bas : le navigateur amène le focus au-dessus.
-  useEffect(() => {
-    const p = barre.current
-    if (p === null || typeof ResizeObserver === 'undefined') return
-    const racine = document.documentElement
-    const suivre = new ResizeObserver(() => {
-      racine.style.setProperty('--hauteur-compte', `${String(p.offsetHeight)}px`)
-    })
-    suivre.observe(p)
-    return () => {
-      suivre.disconnect()
-    }
-  }, [])
-  const [enLigne, setEnLigne] = useState(() => navigator.onLine)
-  // Prête hors ligne quand un service worker est actif : l'installation est
-  // tout ou rien (public/sw.js), donc actif veut dire précache complet.
-  const [pretHorsLigne, setPretHorsLigne] = useState(false)
-
-  useEffect(() => {
-    if (!('serviceWorker' in navigator)) return
-    let vivant = true
-    void navigator.serviceWorker.ready.then(() => {
-      if (vivant) setPretHorsLigne(true)
-    })
-    return () => {
-      vivant = false
-    }
-  }, [])
-
-  useEffect(() => {
-    const maj = () => {
-      setEnLigne(navigator.onLine)
-    }
-    window.addEventListener('online', maj)
-    window.addEventListener('offline', maj)
-    // L'état initial est lu au rendu, l'écoute s'attache après : un passage
-    // hors ligne entre les deux était perdu, et le bandeau ne venait jamais
-    // (échec intermittent de hors-ligne.spec.ts en S17 et S18). On relit
-    // donc l'état une fois l'écoute en place.
-    maj()
-    return () => {
-      window.removeEventListener('online', maj)
-      window.removeEventListener('offline', maj)
-    }
-  }, [])
+  const barre = useHauteurBarre()
+  const { enLigne, pretHorsLigne } = useConnexion()
 
   // Chaque changement est gardé sur l'appareil (S9). Le texte tapé et la
   // fiche ouverte ne le sont pas : ce sont des gestes, pas des réglages.
@@ -282,7 +214,7 @@ export function App({
   const garde: Preferences = useMemo(
     () =>
       versStockage({
-        version: 1,
+        version: VERSION_PREFERENCES,
         rayonKm,
         categories: [...categories],
         ...(type === undefined ? {} : { type }),
@@ -304,69 +236,12 @@ export function App({
     stockage.garder(garde)
   }, [stockage, garde])
 
-  // Deux onglets ouverts s'écrasaient : chacun réécrivait l'objet entier
-  // depuis sa mémoire, et un favori ajouté dans l'un disparaissait (revue
-  // code S9, fait en S24). Les favoris passent d'un onglet à l'autre ; le
-  // reste des réglages suit le dernier onglet touché.
-  const canal = useRef<BroadcastChannel | null>(null)
-  const favorisPartages = useRef(JSON.stringify(favoris))
-  const visitesPartagees = useRef(JSON.stringify(visites))
-  const notesPartagees = useRef(JSON.stringify(notes))
-  // Le canal s'ouvre une fois ; il appelle la remise à zéro par une référence.
+  // Le carnet passe d'un onglet à l'autre (S24, S35 ; crochet sorti en S237).
   const remettreAZeroRef = useRef<() => void>(() => undefined)
-  useEffect(() => {
-    if (typeof BroadcastChannel === 'undefined') return
-    const c = new BroadcastChannel('mousse-de-poche-favoris')
-    c.onmessage = (e: MessageEvent<unknown>) => {
-      const m = e.data as { type?: unknown; favoris?: unknown } | null
-      if (m?.type === 'effacer') {
-        remettreAZeroRef.current()
-        return
-      }
-      // Le carnet passe d'un onglet à l'autre comme les favoris : un onglet
-      // resté ouvert réécrivait l'objet entier et effaçait les visites de
-      // l'autre (revue adverse S35).
-      if (m?.type === 'notes') {
-        const recues = lireNotesRecues((m as { notes?: unknown }).notes)
-        notesPartagees.current = JSON.stringify(recues)
-        setNotes(recues)
-        return
-      }
-      if (m?.type === 'visites') {
-        const recues = lireVisitesRecues((m as { visites?: unknown }).visites)
-        visitesPartagees.current = JSON.stringify(recues)
-        setVisites(recues)
-        return
-      }
-      if (m?.type !== 'favoris' || !Array.isArray(m.favoris)) return
-      const recus = m.favoris.filter((x): x is string => typeof x === 'string')
-      favorisPartages.current = JSON.stringify(recus)
-      setFavoris(recus)
-    }
-    canal.current = c
-    return () => {
-      c.close()
-      canal.current = null
-    }
-  }, [])
-  useEffect(() => {
-    const texte = JSON.stringify(favoris)
-    if (texte === favorisPartages.current) return
-    favorisPartages.current = texte
-    canal.current?.postMessage({ type: 'favoris', favoris: [...favoris] })
-  }, [favoris])
-  useEffect(() => {
-    const texte = JSON.stringify(visites)
-    if (texte === visitesPartagees.current) return
-    visitesPartagees.current = texte
-    canal.current?.postMessage({ type: 'visites', visites: [...visites] })
-  }, [visites])
-  useEffect(() => {
-    const texte = JSON.stringify(notes)
-    if (texte === notesPartagees.current) return
-    notesPartagees.current = texte
-    canal.current?.postMessage({ type: 'notes', notes: [...notes] })
-  }, [notes])
+  const { annoncerEffacement, tenirPourPartage } = useCarnetEntreOnglets(
+    { favoris, visites, notes },
+    { favoris: setFavoris, visites: setVisites, notes: setNotes, effacement: () => { remettreAZeroRef.current() } },
+  )
 
   const ensembleFavoris = useMemo(() => new Set(favoris), [favoris])
   const datesDeVisite = useMemo(() => new Map(visites.map((v) => [v.nom, v.date])), [visites])
@@ -474,9 +349,7 @@ export function App({
   const remettreAZero = useCallback(() => {
     const d = PREFERENCES_DEFAUT
     dejaGarde.current = JSON.stringify(versStockage(d))
-    favorisPartages.current = JSON.stringify(d.favoris)
-    visitesPartagees.current = JSON.stringify(d.visites)
-    notesPartagees.current = JSON.stringify(d.notes)
+    tenirPourPartage(d)
     setRayonKm(d.rayonKm)
     setCategories(d.categories)
     setType(d.type)
@@ -489,7 +362,7 @@ export function App({
     setPasVisitees(d.pasVisitees)
     setNotes(d.notes)
     setTheme(d.theme)
-  }, [])
+  }, [tenirPourPartage])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
   }, [remettreAZero])
@@ -499,7 +372,7 @@ export function App({
       .effacer()
       .then(() => {
         remettreAZero()
-        canal.current?.postMessage({ type: 'effacer' })
+        annoncerEffacement()
         setAnnonce(t('Favoris, carnet, notes et réglages effacés de cet appareil.'))
       })
       .catch(() => {
@@ -730,6 +603,7 @@ export function App({
                 setFavorisSeulement(v)
               }}
               stockageDisponible={stockage.disponible}
+              versionFuture={stockage.versionFuture}
               onEffacer={toutEffacer}
               tournee={tournee}
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}

@@ -148,7 +148,7 @@ test.describe('sans carte', () => {
       } as typeof origine
     })
     await page.goto('/')
-    await versLaCarte(page)
+    await versLaCarte(page, { sansWebGLAttendu: true })
     await expect(page.getByTestId('carte-absente')).toContainText('La liste contient toutes les brasseries')
     await expect(lignes(page)).toHaveCount(attendus(30))
   })

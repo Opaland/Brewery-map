@@ -237,3 +237,9 @@ chacun demande une décision ou une vérification de source.
   restent en français : fichiers statiques, servis avant toute langue. Une
   PWA installée sur un téléphone anglais montre ses raccourcis en français.
   Story S188.
+
+- **iPhone : la première brasserie sous la barre (S234, mesuré en CI sur
+  WebKit, profil iPhone 13)** : 664 px utiles, la première ligne commence à
+  772 px pour une barre à 619 px. Le test du premier écran est calibré sur le
+  Pixel 7 ; il faut le même pour l'iPhone, et un premier écran plus court
+  (story à préparer, epic E1).

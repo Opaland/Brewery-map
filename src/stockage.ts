@@ -1,4 +1,4 @@
-import { lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
+import { gardeParUneVersionFuture, lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
 
 /**
  * Les préférences dans IndexedDB (S9), sur cet appareil seulement. Une base,
@@ -25,6 +25,8 @@ const DELAI_OUVERTURE_MS = 2000
 
 export interface Stockage {
   disponible: boolean
+  /** Ce qui est gardé vient d'une version plus récente (S238) : lu, jamais réécrit. */
+  versionFuture: boolean
   initiales: Preferences
   garder: (p: Preferences) => void
   effacer: () => Promise<void>
@@ -66,8 +68,28 @@ function requete<T>(db: IDBDatabase, mode: IDBTransactionMode, faire: (m: IDBObj
   })
 }
 
+/**
+ * La garde relue au moment d'écrire, dans la même transaction (CLAUDE.md
+ * §6quater) : un onglet resté ouvert sur cette version ne réécrit pas ce
+ * qu'une version plus récente a gardé entre-temps dans une autre fenêtre
+ * (revue adverse S238 : vérifiée à l'ouverture seulement, elle laissait ce
+ * cas ouvert).
+ */
+function garderSaufVersionFuture(db: IDBDatabase, p: Preferences): void {
+  try {
+    const magasin = db.transaction(MAGASIN, 'readwrite').objectStore(MAGASIN)
+    const lecture = magasin.get(CLE)
+    lecture.onsuccess = () => {
+      if (!gardeParUneVersionFuture(lecture.result)) magasin.put(p, CLE)
+    }
+  } catch {
+    // Base fermée (une version plus récente l'a demandé) : rien n'est écrit.
+  }
+}
+
 const SANS_STOCKAGE: Stockage = {
   disponible: false,
+  versionFuture: false,
   initiales: PREFERENCES_DEFAUT,
   garder: () => undefined,
   effacer: () => Promise.resolve(),
@@ -91,13 +113,17 @@ export async function ouvrirStockage(): Promise<Stockage> {
   } catch {
     return SANS_STOCKAGE
   }
+  // Gardé par une version plus récente (S238) : lu, jamais réécrit. L'écran
+  // le dit pour ce qu'il est (revue adverse S238), pas comme un stockage bloqué.
+  if (gardeParUneVersionFuture(brut)) return { ...SANS_STOCKAGE, versionFuture: true, initiales: lirePreferences(brut) }
   return {
     disponible: true,
+    versionFuture: false,
     initiales: lirePreferences(brut),
     // Une écriture ratée (quota) ne casse pas l'écran : la session continue
     // avec ses réglages en mémoire.
     garder: (p) => {
-      requete(db, 'readwrite', (m) => m.put(p, CLE)).catch(() => undefined)
+      garderSaufVersionFuture(db, p)
     },
     effacer: () => requete(db, 'readwrite', (m) => m.delete(CLE)).then(() => undefined),
   }

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "rayonKm": 20,
+  "categories": [0, 1, 2, 3],
+  "depart": { "type": "commune", "cle": "Anse|69" },
+  "favoris": ["Caribrew"],
+  "favorisSeulement": false
+}

@@ -1,0 +1,38 @@
+name: Mutation (nuit)
+
+# S239 : Stryker sur src/core, chaque nuit et à la demande. Informatif : le
+# rapport liste les mutants survivants (tests creux, CLAUDE.md §6bis) ; il ne
+# bloque rien. Stryker s'installe pour le job seulement (--no-save) : son
+# ajout au fichier de verrouillage cassait `npm ci` (S239).
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mutation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances
+        run: npm ci
+      - name: Installer Stryker (pour ce job seulement)
+        run: npm install --no-save --legacy-peer-deps @stryker-mutator/core@10.0.0 @stryker-mutator/vitest-runner@10.0.0
+      - name: Mutation de src/core
+        run: npx stryker run
+      - name: Garder le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-mutation
+          path: reports/mutation/
+          retention-days: 30

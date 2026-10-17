@@ -14,7 +14,8 @@ export default defineConfig({
   base: './',
   plugins: [themeAuChoixPlugin(), react(), validerDonnees(), validerDonneesOsm(), precacheServiceWorker(), politiqueDeSecurite(), prechargerCoucheOsm()],
   test: {
-    include: ['tests/unit/**/*.test.ts'],
+    // S236 : l'étage « composants » (jsdom, choisi par fichier).
+    include: ['tests/unit/**/*.test.ts', 'tests/composants/**/*.test.tsx'],
     environment: 'node',
   },
 })
