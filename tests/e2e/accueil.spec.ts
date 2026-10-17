@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
 
 test.beforeEach(async ({ page }) => {

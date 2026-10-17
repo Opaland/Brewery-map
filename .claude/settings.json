@@ -9,7 +9,7 @@
             "type": "command",
             "if": "Bash(git commit*)",
             "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/porte-avant-commit.sh\"",
-            "timeout": 300,
+            "timeout": 600,
             "statusMessage": "Porte avant commit : lint, typecheck, tests, build, e2e…"
           },
           {

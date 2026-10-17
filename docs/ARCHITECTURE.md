@@ -22,6 +22,14 @@ La couche OSM est **à part** de `data/`, chargée par import dynamique avant
 le premier rendu (`main.tsx`, attente de 3 s au plus), puis marquée « À
 confirmer ».
 
+### La garde de `data/` (S230)
+
+`data/breweries.json` doit être exactement le fichier fourni le 15/10 (relu
+dans git, empreinte fixée), auquel on rejoue les accords écrits de Cédric
+(`curation/accords/`). `outils/garde-donnees.ts` le vérifie en CI à chaque
+push et chaque PR ; `.github/CODEOWNERS` désigne Cédric pour `data/` et les
+accords.
+
 ## 3. Le code
 
 - **`src/core/`** : la logique pure, sans DOM, en TDD (`tests/unit/`) :

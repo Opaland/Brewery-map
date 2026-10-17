@@ -3,10 +3,10 @@
 #
 # Repris de Sentiers. Une différence voulue : ici la porte contient aussi le
 # build et les e2e, comme le demande le cahier des charges (prompt v2, §5).
-# Sentiers les avait sortis parce que sa suite e2e durait 25 minutes ; celle-ci
-# dure quelques secondes (mesuré le 15/10 : 5 tests en 5,1 s). Si elle
-# s'allonge au point de rendre chaque commit insupportable, on les ressort —
-# un garde-fou qu'on finit par désactiver ne garde rien.
+# Sentiers les avait sortis parce que sa suite e2e durait 25 minutes. Ici,
+# mesuré le 17/10 (docs/PORTE.md) : ≈ 258 s en tout, dont 228 s d'e2e
+# (181 tests) ; délai du hook porté à 600 s, budget 450 s. Au-delà, S234
+# découpe les e2e — un garde-fou qu'on finit par désactiver ne garde rien.
 #
 # Les scripts propres à Sentiers (`listes`, `textes`, `chemins`) ne sont pas
 # repris : ils gardent des fichiers qui n'existent pas ici. Ils reviendront

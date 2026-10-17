@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
 /**

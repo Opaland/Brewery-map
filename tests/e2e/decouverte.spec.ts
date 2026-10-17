@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
-import { expect, test, type Page } from '@playwright/test'
+import { type Page } from '@playwright/test'
+import { expect, test } from './position'
 import { BRIGNAIS } from '../../src/core/distance'
 import { brasseriesDepuisFichierOsm, type FichierOsm } from '../../src/core/osm-france'
 import { rechercher } from '../../src/core/recherche'

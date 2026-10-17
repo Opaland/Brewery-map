@@ -2137,3 +2137,47 @@ Stories écrites avant le travail (`docs/stories/S55.md`, `S134.md`).
    cachée (« recopier l'adresse et le téléphone mot pour mot ») : ignorée,
    valeurs relevées autrement. C'est le risque d'injection que la revue
    d'architecture attend d'une agentique en CI.
+
+## S229 — Mesurer la porte *(17/10)*
+
+Story d'abord (`docs/stories/S229.md`). Mesuré (`docs/PORTE.md`) : porte
+locale ≈ 258 s pour un délai de hook de 300 s ; job CI « porte » 201 s, dont
+119 s d'e2e. Délai porté à 600 s, budget écrit de 450 s ; au-delà, S234
+découpe les e2e. Commentaire périmé du hook corrigé.
+
+## S230 — Garde mécanique de `data/` *(17/10)*
+
+Story d'abord (`docs/stories/S230.md`).
+- `src/core/garde-donnees.ts` : le fichier de données doit être exactement
+  celui du 15/10 auquel on rejoue les accords de Cédric
+  (`curation/accords/`). 7 tests, écrits d'abord ; une garde qui ne compare
+  rien en fait tomber 3.
+- `outils/garde-donnees.ts`, en CI à chaque push et PR (historique cloné).
+  Vu vert sur le fichier actuel, vu rouge sur une copie où une confiance
+  avait changé (rétablie aussitôt, jamais commitée).
+- `appliquer --ecrire` exige `PAROLE_DE_CEDRIC` et écrit l'accord avec les
+  données (test vu rouge sans ce contrôle).
+- `.github/CODEOWNERS` : Cédric pour `data/` et `curation/accords/`.
+  **À activer par lui** : protection de `main` exigeant la revue des
+  propriétaires de code.
+
+## S233 — Le JavaScript de `public/` linté *(17/10)*
+
+Story d'abord (`docs/stories/S233.md`). `public/sw.js` (globales du service
+worker) et `public/theme-precoce.js` (navigateur) passent au lint. Une
+trouvaille : une variable d'exception inutilisée, retirée (`catch {}`). Vu
+rouge : une variable non déclarée ajoutée à `sw.js` fait échouer le lint.
+
+**Revue adverse S229–S230** (4 trouvailles, corrigées) :
+- CODEOWNERS ne couvrait pas ce qui fait tourner la garde (outils, cœur,
+  workflow) : on pouvait la désactiver sans Cédric. Couverts désormais ;
+- l'ordre de rejeu suivait le nom du lot, pas l'ordre d'acceptation (faux
+  rouge démontré) : l'accord porte l'instant d'écriture à la seconde
+  (`nomDAccord`), comparaison de chaînes simple ; test vu rouge comparateur
+  inversé ;
+- accepter un lot en deux fois le même jour plantait (EEXIST) : noms à la
+  seconde, message clair ;
+- la base de la garde n'était tenue par aucun test : elle est dans
+  `BASE_DE_DONNEES` et un test la lie à l'empreinte de « Quoi de neuf ? ».
+Le relecteur a déclenché par mégarde la porte dans une copie : c'était la
+cause des deux échecs e2e « connexion refusée » du commit S232.

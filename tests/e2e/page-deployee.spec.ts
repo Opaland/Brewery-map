@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 
 /**
  * La page réellement publiée, et non celle qu'on vient de construire.

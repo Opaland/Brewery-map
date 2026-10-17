@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles, versLaCarte } from './reseau'
 
 /** S39 — le point de départ reste visible au-dessus des groupes. */

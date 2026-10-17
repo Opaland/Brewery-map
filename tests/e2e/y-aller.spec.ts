@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test'
+import { type Page } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles } from './reseau'
 
 const ANSE = { latitude: 45.9367, longitude: 4.7208 }

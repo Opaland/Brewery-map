@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles } from './reseau'
 
 /** S45 — le thème au choix, clair, sombre ou comme le téléphone. */

@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test'
+import { type Page } from '@playwright/test'
+import { expect, test } from './position'
 import { choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
 
 /** Ce que l'application a gardé dans IndexedDB, lu tel quel. */

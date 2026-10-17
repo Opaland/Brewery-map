@@ -1,4 +1,5 @@
-import { expect, test, type Page } from '@playwright/test'
+import { type Page } from '@playwright/test'
+import { expect, test } from './position'
 import { readFileSync } from 'node:fs'
 import type { Brasserie } from '../../src/core/schema'
 import { sansTuiles, versLaCarte } from './reseau'

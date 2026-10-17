@@ -1,0 +1,16 @@
+# Les données et les accords de Cédric (S230, CLAUDE.md §0) : une PR qui les
+# touche attend sa revue. Effectif quand la protection de `main` exige la
+# revue des propriétaires de code (réglage du dépôt, à activer par Cédric).
+/data/ @Opaland
+/curation/accords/ @Opaland
+# Ce qui fait tourner la garde : la changer, c'est pouvoir la désactiver
+# (revue adverse S230).
+/outils/garde-donnees.ts @Opaland
+/outils/lots.ts @Opaland
+/outils/curation.ts @Opaland
+/src/core/garde-donnees.ts @Opaland
+/src/core/curation.ts @Opaland
+/src/core/schema.ts @Opaland
+/build/valider-donnees.ts @Opaland
+/.github/ @Opaland
+/.claude/hooks/ @Opaland

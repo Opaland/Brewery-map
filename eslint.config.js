@@ -42,6 +42,18 @@ export default tseslint.config(
     },
   },
   {
+    // Le JavaScript écrit à la main et servi tel quel (S233, revue
+    // d'architecture) : le service worker et le script de thème précoce.
+    extends: [js.configs.recommended],
+    files: ['public/sw.js'],
+    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.serviceworker } },
+  },
+  {
+    extends: [js.configs.recommended],
+    files: ['public/theme-precoce.js'],
+    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.browser } },
+  },
+  {
     // Dans les tests, l'assertion non nulle est idiomatique après un toHaveLength.
     files: ['tests/**/*.ts'],
     rules: {

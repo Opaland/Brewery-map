@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
 /** S27 — les meilleures idées de la veille concurrentielle (docs/VEILLE-CONCURRENCE.md). */

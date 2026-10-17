@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './position'
 import { choisirCommune, sansTuiles, versLaCarte } from './reseau'
 
 /** Revue UI/UX globale du 16/10 (après S23) : ce qui a été corrigé. */
