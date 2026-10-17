@@ -229,3 +229,20 @@ describe('restes de S27 (S31)', () => {
     ).toBe(1)
   })
 })
+
+describe('pas encore visitées (S35)', () => {
+  it('écarte les visitées, par la même garde que les autres filtres', () => {
+    const reelles = LIGNES_REELLES as unknown as Brasserie[]
+    const tous = rechercher(reelles, { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: [0, 1, 2, 3] })
+    const visitee = tous[0].brasserie.n
+    const sans = rechercher(reelles, {
+      origine: BRIGNAIS,
+      rayonKm: 100,
+      texte: '',
+      categories: [0, 1, 2, 3],
+      exclure: new Set([visitee]),
+    })
+    expect(sans).toHaveLength(tous.length - 1)
+    expect(sans.some((r) => r.brasserie.n === visitee)).toBe(false)
+  })
+})

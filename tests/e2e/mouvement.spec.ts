@@ -33,6 +33,24 @@ test.describe('« moins d’animations » demandé', () => {
     await page.locator('button.ligne').first().click()
     expect(await page.evaluate(() => document.getAnimations().length)).toBe(0)
   })
+
+  test('la garde globale coupe aussi ce qu’un sprint futur oublierait (revue adverse S33)', async ({ page }) => {
+    // Aujourd'hui, chaque animation est déjà conditionnée : sans élément
+    // animé sans condition, le test précédent passait avec ou sans la garde.
+    // On en injecte un : seule la garde globale peut l'arrêter.
+    await page.emulateMedia({ reducedMotion: 'reduce' })
+    await page.goto('/')
+    await page.addStyleTag({
+      content: '@keyframes sonde { to { opacity: 0.5 } } .sonde-mouvement { animation: sonde 1s infinite; transition: opacity 1s; }',
+    })
+    await page.evaluate(() => {
+      const d = document.createElement('div')
+      d.className = 'sonde-mouvement'
+      d.textContent = 'sonde'
+      document.body.append(d)
+    })
+    expect(await page.evaluate(() => document.getAnimations().length)).toBe(0)
+  })
 })
 
 test('toucher une ligne l’enfonce un peu', async ({ page }) => {

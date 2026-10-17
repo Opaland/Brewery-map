@@ -15,6 +15,8 @@ export interface EtatFiltres {
   favorisSeulement: boolean
   /** La couche OpenStreetMap décochée alors qu'elle est là. */
   sansOsm: boolean
+  /** « Seulement les pas encore visitées » (S35). */
+  pasVisitees?: boolean
 }
 
 export function filtresActifs(f: EtatFiltres): string[] {
@@ -24,6 +26,7 @@ export function filtresActifs(f: EtatFiltres): string[] {
   if (f.type !== undefined) actifs.push('type de bière')
   if (f.favorisSeulement) actifs.push('seulement mes favoris')
   if (f.sansOsm) actifs.push('sans OpenStreetMap')
+  if (f.pasVisitees === true) actifs.push('pas encore visitées')
   return actifs
 }
 

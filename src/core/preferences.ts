@@ -59,7 +59,16 @@ const CHAMPS = {
   favorisSeulement: z.boolean(),
   /** Les brasseries repérées sur OpenStreetMap, montrées ou non (S25). */
   avecOsm: z.boolean(),
+  /** « Seulement les pas encore visitées » (S35). */
+  pasVisitees: z.boolean(),
 }
+
+/**
+ * Une visite du carnet (S35) : le nom et le jour, rien d'autre — ni heure,
+ * ni lieu. `.strict()` : une visite qui porterait autre chose est écartée.
+ */
+const visiteSchema = z.object({ nom: z.string().min(1), date: z.iso.date() }).strict()
+export type Visite = z.infer<typeof visiteSchema>
 
 export interface Preferences {
   version: 1
@@ -70,6 +79,8 @@ export interface Preferences {
   favoris: string[]
   favorisSeulement: boolean
   avecOsm: boolean
+  visites: Visite[]
+  pasVisitees: boolean
 }
 
 export const PREFERENCES_DEFAUT: Preferences = {
@@ -80,6 +91,8 @@ export const PREFERENCES_DEFAUT: Preferences = {
   favoris: [],
   favorisSeulement: false,
   avecOsm: true,
+  visites: [],
+  pasVisitees: false,
 }
 
 const lire = <S extends z.ZodType>(schema: S, valeur: unknown, defaut: z.infer<S>): z.infer<S> => {
@@ -112,7 +125,34 @@ export function lirePreferences(brut: unknown): Preferences {
     favoris,
     favorisSeulement: lire(CHAMPS.favorisSeulement, g.favorisSeulement, d.favorisSeulement),
     avecOsm: lire(CHAMPS.avecOsm, g.avecOsm, d.avecOsm),
+    visites: lireVisites(g.visites),
+    pasVisitees: lire(CHAMPS.pasVisitees, g.pasVisitees, d.pasVisitees),
   }
+}
+
+/** Visite par visite : une illisible tombe seule ; un nom en double garde la première. */
+function lireVisites(brut: unknown): Visite[] {
+  if (!Array.isArray(brut)) return []
+  const vues = new Set<string>()
+  const visites: Visite[] = []
+  for (const v of brut) {
+    const r = visiteSchema.safeParse(v)
+    if (!r.success || vues.has(r.data.nom)) continue
+    vues.add(r.data.nom)
+    visites.push(r.data)
+  }
+  return visites
+}
+
+/** Marquer ou démarquer une visite, à la date donnée (celle du jour). */
+export function basculerVisite(visites: readonly Visite[], nom: string, date: string): Visite[] {
+  return visites.some((v) => v.nom === nom) ? visites.filter((v) => v.nom !== nom) : [...visites, { nom, date }]
+}
+
+/** Le jour local, AAAA-MM-JJ : la date d'une visite, sans heure. */
+export function dateDuJour(d: Date): string {
+  const deux = (n: number) => String(n).padStart(2, '0')
+  return `${String(d.getFullYear())}-${deux(d.getMonth() + 1)}-${deux(d.getDate())}`
 }
 
 /** La forme gardée : une position y devient le seul choix `autour`, sans coordonnées. */

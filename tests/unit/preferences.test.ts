@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { communesConnues, ORIGINE_DEFAUT } from '../../src/core/origine'
 import {
   basculerFavori,
+  basculerVisite,
+  dateDuJour,
   lirePreferences,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
@@ -41,6 +43,8 @@ describe('relire les préférences gardées', () => {
       favoris: ['Nomade Brewery'],
       favorisSeulement: true,
       avecOsm: false,
+      visites: [{ nom: 'Caribrew', date: '2026-10-17' }],
+      pasVisitees: true,
     }
     expect(lirePreferences(gardees)).toEqual(gardees)
   })
@@ -126,5 +130,40 @@ describe('inclure la couche OpenStreetMap (revue persona S25)', () => {
     expect(lirePreferences({}).avecOsm).toBe(true)
     expect(lirePreferences({ avecOsm: false }).avecOsm).toBe(false)
     expect(lirePreferences({ avecOsm: 'non' }).avecOsm).toBe(true)
+  })
+})
+
+describe('mon carnet : les visites (S35)', () => {
+  it('par défaut, aucune visite, et le filtre « pas encore visitées » est coupé', () => {
+    expect(PREFERENCES_DEFAUT.visites).toEqual([])
+    expect(PREFERENCES_DEFAUT.pasVisitees).toBe(false)
+  })
+
+  it('une visite garde un nom et une date du jour, rien d’autre', () => {
+    const v = basculerVisite([], 'Caribrew', '2026-10-17')
+    expect(v).toEqual([{ nom: 'Caribrew', date: '2026-10-17' }])
+    expect(basculerVisite(v, 'Caribrew', '2026-10-18')).toEqual([])
+  })
+
+  it('relu champ par champ : une visite illisible tombe seule, les favoris restent', () => {
+    const p = lirePreferences({
+      favoris: ['A'],
+      visites: [
+        { nom: 'Caribrew', date: '2026-10-17' },
+        { nom: 'Sans date' },
+        { nom: 'Caribrew', date: '2026-10-18' },
+        { nom: 'Avec lieu', date: '2026-10-17', lat: 45 },
+        'texte',
+      ],
+      pasVisitees: 'oui',
+    })
+    expect(p.favoris).toEqual(['A'])
+    expect(p.visites).toEqual([{ nom: 'Caribrew', date: '2026-10-17' }])
+    expect(p.pasVisitees).toBe(false)
+  })
+
+  it('la date du jour est locale, sans heure', () => {
+    expect(dateDuJour(new Date(2026, 9, 17, 23, 59))).toBe('2026-10-17')
+    expect(dateDuJour(new Date(2026, 0, 5, 0, 1))).toBe('2026-01-05')
   })
 })
