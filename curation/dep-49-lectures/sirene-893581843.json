@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:893581843",
+ "ajout": {
+  "fiche": {
+   "n": "Nuage Craft Beer",
+   "c": "Brissac Loire Aubance",
+   "d": "49",
+   "lat": 47.34714,
+   "lon": -0.41356,
+   "km": 436.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie près d'Angers, selon l'office de tourisme ; rien sur la vente ni l'accueil.",
+   "addr": "Brissac Loire Aubance",
+   "src": "https://www.atlantic-loire-valley.com/objet_touristique/228241",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/objet_touristique/228241"
+  ],
+  "extrait": "Contact BRASSERIE NUAGE CRAFT BEER",
+  "choix": "Fiche de tourisme seulement ; le site donné n'existe pas. Position au centre de la commune."
+ }
+}

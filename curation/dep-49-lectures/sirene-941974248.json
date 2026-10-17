@@ -1,0 +1,41 @@
+{
+ "candidat": "sirene:941974248",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Alpaca",
+   "c": "Segré-en-Anjou Bleu",
+   "d": "49",
+   "lat": 47.70642,
+   "lon": -0.74032,
+   "km": 476,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la ferme le samedi matin, d'après l'office de tourisme.",
+   "addr": "18 ter rue de l'Hommeau, Saint-Martin-du-Bois, 49500 Segré-en-Anjou Bleu",
+   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-alpaca",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "source": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-alpaca",
+     "remarque": "Selon l'office de tourisme, pour 2026.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-alpaca",
+   "https://data.geopf.fr/geocodage/search?q=18+ter+rue+de+l%27Hommeau%2C+Saint-Martin-du-Bois%2C+49500+Segr%C3%A9-en-Anjou+Bleu&limit=5"
+  ],
+  "extrait": "Winery sales",
+  "choix": "Fiche de tourisme seulement ; seul numéro, un mobile."
+ }
+}

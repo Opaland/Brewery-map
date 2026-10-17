@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:840613897",
+ "ajout": {
+  "fiche": {
+   "n": "Sterne & Mousse",
+   "c": "Rochefort-sur-Loire",
+   "d": "49",
+   "lat": 47.34866,
+   "lon": -0.65123,
+   "km": 453.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de vente à emporter à la brasserie, le jeudi et le vendredi en fin d'après-midi et le samedi matin d'avril à décembre.",
+   "addr": "Rochefort-sur-Loire",
+   "src": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    }
+   ],
+   "contact": {
+    "site": "https://sterneetmousse.fr/",
+    "source": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "jeu": [
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "source": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+     "remarque": "Le samedi d'avril à décembre seulement ; fermée les jours fériés.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://sterneetmousse.fr/points-de-vente-biere-bio/"
+  ],
+  "extrait": "la Sterne boutique est ouverte pour de la vente à emporter",
+  "choix": "Seul numéro, un mobile. L'adresse de la page de contact est peut-être celle d'un point de vente : position au centre de la commune."
+ }
+}

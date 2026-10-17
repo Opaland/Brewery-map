@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:920288719",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Deux Brunes",
+   "c": "Montreuil-Bellay",
+   "d": "49",
+   "lat": 47.13445,
+   "lon": -0.11596,
+   "km": 407.1,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente à la propriété, d'après la fiche de l'office de tourisme ; dégustation ou atelier de brassage à demander.",
+   "addr": "Montreuil-Bellay",
+   "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes"
+  ],
+  "extrait": "Winery sales",
+  "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile de la fiche. Même brasserie que le point OSM node/12400982165. Rue sans numéro : position au centre de la commune."
+ }
+}

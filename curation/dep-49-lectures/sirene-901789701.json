@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:901789701",
+ "ajout": {
+  "fiche": {
+   "n": "La Côale",
+   "c": "Bécon-les-Granits",
+   "d": "49",
+   "lat": 47.50162,
+   "lon": -0.80138,
+   "km": 470.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Espace de dégustation et boutique à la brasserie depuis juillet 2026 ; adresse sur rendez-vous.",
+   "addr": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
+   "src": "https://la-coale.fr",
+   "coordPrecision": "commune",
+   "beers": [],
+   "contact": {
+    "site": "https://la-coale.fr/",
+    "source": "https://la-coale.fr",
+    "tel": "02 52 35 29 38",
+    "untappd": "https://untappd.com/La_Coale",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://la-coale.fr"
+  ],
+  "extrait": "Depuis juillet 2026, nous proposons également un espace dégustation et une boutique directement à la brasserie"
+ }
+}

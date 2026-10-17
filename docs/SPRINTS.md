@@ -2657,3 +2657,11 @@ Les quatre lots repassent `controler` sans écart.
   - Bouffay : la salle de dégustation était dite « pour groupes ».
 - La règle de catégorie est maintenant écrite dans le lot et dans les choix : une dégustation liée à une visite n'est pas un bar, alors qu'une dégustation ouverte au public avec la vente en est un. C'est ce qui sépare BACA de la Divatte.
 - Papas Brasseurs : la contradiction de la page (« lundi au samedi » contre un tableau qui ferme le lundi) est dite dans le choix.
+
+## S250 (2/…) — Maine-et-Loire : 11 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-49` | 30 | 11 | 4 | 5 | 2 | 7 | 3 |
+
+Les liens Untappd de La Côale et de La Bestiole sont lus sur leur site. La Belle de Maine reste en « acheter seulement » : sa dégustation se fait sur rendez-vous, et la règle écrite en partie 1 s'applique.

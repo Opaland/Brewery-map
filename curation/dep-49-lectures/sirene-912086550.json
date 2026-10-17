@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:912086550",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Bestiole",
+   "c": "Saint-Barthélemy-d'Anjou",
+   "d": "49",
+   "lat": 47.4728,
+   "lon": -0.51197,
+   "km": 449.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Taproom à la brasserie, avec vue sur les cuves : toutes les bières en canette et à la pression.",
+   "addr": "8 rue du Patis, 49124 Saint-Barthélemy-d'Anjou",
+   "src": "https://brasserielabestiole.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "sour"
+    }
+   ],
+   "contact": {
+    "site": "https://brasserielabestiole.fr/",
+    "source": "https://brasserielabestiole.fr/",
+    "tel": "02 59 16 55 84",
+    "untappd": "https://untappd.com/Brasserie_La_Bestiole",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasserielabestiole.fr/",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+du+Patis%2C+49124+Saint-Barth%C3%A9lemy-d%27Anjou&limit=5"
+  ],
+  "extrait": "Toutes les bières y sont disponibles en canette et à la pression."
+ }
+}
