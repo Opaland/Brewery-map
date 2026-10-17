@@ -1,9 +1,6 @@
-import { z } from 'zod'
+import { z } from './zod'
 
-// Sans compilation à la volée : Zod essaie sinon `Function('')`, que la
-// politique de sécurité de la page (`build/csp.ts`, sans 'unsafe-eval')
-// refuse et signale (S24). Les schémas restent les mêmes, un peu plus lents.
-z.config({ jitless: true })
+// Zod est configuré sans compilation à la volée dans `./zod` (S24, S38).
 
 /**
  * Le schéma d'une brasserie, calqué sur `data/breweries.json` tel qu'il est.

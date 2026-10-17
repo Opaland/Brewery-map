@@ -35,6 +35,8 @@ interface Props {
   /** Mes notes (S36) : nom → texte. */
   notes?: ReadonlyMap<string, string>
   onEcrireNote?: (nom: string, texte: string) => void
+  /** L'affichette de comptoir (S38). */
+  onImprimer?: (b: Brasserie) => void
 }
 
 /**
@@ -99,6 +101,7 @@ function Fiche({
   onBasculerVisite,
   note,
   onEcrireNote,
+  onImprimer,
   onRefermer,
 }: {
   brasserie: Brasserie
@@ -108,6 +111,7 @@ function Fiche({
   onBasculerVisite: () => void
   note: string
   onEcrireNote: (texte: string) => void
+  onImprimer: () => void
   onRefermer: () => void
 }) {
   const hote = hoteDeSource(brasserie.src)
@@ -233,6 +237,13 @@ function Fiche({
           (compte OpenStreetMap gratuit).
         </p>
       )}
+      {/* L'affichette de comptoir (S38) : pour la brasserie elle-même. */}
+      <p className="fiche-aide">
+        <button type="button" className="bouton-lien" onClick={onImprimer} data-testid="imprimer-affichette">
+          Imprimer une affichette avec QR code
+        </button>{' '}
+        Pour le comptoir de la brasserie : ce que dit cette fiche, et un QR code qui l’ouvre.
+      </p>
       {/* La fiche dépasse un écran : refermer sans remonter jusqu'à sa ligne
           (revue UI/UX du 16/10, 1 073 px pour 839). */}
       <div className="depart-actions fiche-refermer">
@@ -255,6 +266,7 @@ export function Liste({
   onBasculerVisite = () => undefined,
   notes = new Map<string, string>(),
   onEcrireNote = () => undefined,
+  onImprimer = () => undefined,
 }: Props) {
   const liste = useRef<HTMLOListElement>(null)
 
@@ -383,6 +395,9 @@ export function Liste({
                 note={notes.get(brasserie.n) ?? ''}
                 onEcrireNote={(texte) => {
                   onEcrireNote(brasserie.n, texte)
+                }}
+                onImprimer={() => {
+                  onImprimer(brasserie)
                 }}
                 onRefermer={() => {
                   // Le focus et l'écran reviennent sur la ligne : on reprend

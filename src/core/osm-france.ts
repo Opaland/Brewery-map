@@ -1,7 +1,7 @@
 import { communeLaPlusProche, type CommuneFrance, type Rectangle } from './communes'
 import { coeurDuNom } from './decouverte'
 import { normaliser } from './recherche'
-import { z } from 'zod'
+import { z } from './zod'
 import { BRIGNAIS, distanceKm } from './distance'
 import type { Brasserie } from './schema'
 

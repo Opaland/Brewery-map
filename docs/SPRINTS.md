@@ -1884,3 +1884,32 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    - **Non traité** : une note ou une visite différente des deux côtés
      n'est pas reprise et ce n'est pas dit. C'est la règle de CA3, notée au
      BACKLOG.
+
+## S38 — QR code et affichette par fiche *(17/10)*
+
+1. **Fait** (`docs/stories/S38.md`) :
+   - « Imprimer une affichette avec QR code » dans la fiche. L'affichette
+     montre le nom, la commune, ce que dit la fiche (« À confirmer » compris,
+     avec sa raison), un QR de 6 cm et l'adresse de la fiche ;
+   - le QR est fabriqué dans le navigateur par `qrcode-generator` 2.0.4
+     (MIT, sans dépendance). Il est relu par `jsqr` 1.4.0 (Apache-2.0, en
+     développement seulement) dans les tests unitaires et e2e ;
+   - le QR est chargé au premier clic, dans un morceau à part de 22 ko.
+2. **Revue adverse** (30 k) :
+   - **(haute)** Ctrl+P sans affichette imprimait une page blanche. La règle
+     d'impression ne vaut plus que pendant l'affichette
+     (`body.imprime-affichette`) ;
+   - **(moyenne)** si `afterprint` ne vient pas (iPhone), l'affichette
+     restait montée : la fin se lit aussi sur `matchMedia('print')` ;
+   - **(moyenne)** un second clic sur la même brasserie ne réimprimait pas :
+     un numéro par clic ;
+   - **(moyenne)** le QR alourdissait le paquet principal : il est chargé à
+     la demande.
+3. **Régression attrapée par la porte locale** : ce découpage du paquet a
+   évalué les schémas de `preferences.ts` avant le `z.config({ jitless })`
+   de `schema.ts`. La CSP a signalé un `eval` (test « aucune violation »).
+   Zod est désormais configuré dans un seul module, `core/zod.ts`, dont tout
+   `src/core` importe `z`. Un test unitaire interdit l'import direct de
+   « zod ».
+4. **À dire à Cédric** : une brasserie qui imprime l'affichette montre ce
+   que dit sa fiche aujourd'hui, « À confirmer » compris.

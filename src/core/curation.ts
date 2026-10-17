@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from './zod'
 import { CATEGORIES } from './categories'
 import { distanceKm, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
