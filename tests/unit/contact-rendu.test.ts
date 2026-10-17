@@ -14,10 +14,29 @@ const base = LIGNES_REELLES[0] as unknown as Brasserie
 const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Contact, { brasserie: b }))
 
 describe('le bloc contact', () => {
-  it('sans contact : « non renseigné », aucun lien', () => {
+  it('sans contact : « non renseigné », et seulement la recherche Untappd (S51)', () => {
     const html = rendu(base)
     expect(html).toContain('Téléphone : non renseigné.')
-    expect(html).not.toContain('href')
+    const liens = html.match(/href="[^"]*"/g) ?? []
+    expect(liens).toEqual(['href="https://untappd.com/search?q=Caribrew&amp;type=brewery"'])
+    expect(html).toContain('Chercher sur Untappd')
+  })
+
+  it('un lien Untappd vérifié remplace la recherche (S51)', () => {
+    const html = rendu({
+      ...base,
+      contact: { untappd: 'https://untappd.com/Caribrew', source: 'https://untappd.com/Caribrew', verifieLe: '2026-10-17' },
+    })
+    expect(html).toContain('href="https://untappd.com/Caribrew"')
+    expect(html).not.toContain('Chercher sur Untappd')
+  })
+
+  it('un contact sans Untappd garde la recherche (S51)', () => {
+    const html = rendu({
+      ...base,
+      contact: { site: 'https://www.exemple.fr/', source: 'https://www.exemple.fr/', verifieLe: '2026-10-17' },
+    })
+    expect(html).toContain('Chercher sur Untappd')
   })
 
   it('avec contact : appeler, site, Untappd, et d’où ça vient', () => {

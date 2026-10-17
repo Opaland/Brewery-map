@@ -227,11 +227,12 @@ test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async 
   await expect(page.getByTestId('fiche')).toBeVisible()
 
   // La fiche suit la ligne dans l'ordre du clavier : le favori, puis la
-  // visite (S35), le partage, la source, puis « Signaler ».
+  // visite (S35), le partage, la note, « Chercher sur Untappd » (S51),
+  // « Y aller », la source, puis « Signaler ».
   await page.keyboard.press('Tab')
   await expect(page.getByRole('button', { name: /Ajouter à mes favoris/ })).toBeFocused()
   const signaler = page.getByRole('link', { name: 'Signaler une erreur sur cette fiche' })
-  for (let i = 0; i < 8 && !(await signaler.evaluate((e) => e === document.activeElement)); i++) {
+  for (let i = 0; i < 16 && !(await signaler.evaluate((e) => e === document.activeElement)); i++) {
     await page.keyboard.press('Tab')
   }
   await expect(signaler).toBeFocused()

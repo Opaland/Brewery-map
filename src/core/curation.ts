@@ -1,6 +1,6 @@
 import { z } from './zod'
 import { CATEGORIES } from './categories'
-import { distanceKm, type Point } from './distance'
+import { BRIGNAIS, distanceKm, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
 import {
   brasserieObjetSchema,
@@ -20,17 +20,25 @@ import {
  */
 
 /**
- * Les champs qu'une proposition peut changer. Exclus (revue code S11) :
- * - l'identité et la position (`n`, `c`, `d`, `lat`, `lon`, `coordPrecision`,
- *   `km`) : déplacer une fiche laisserait `km` périmé et n'est prévu par
- *   aucune procédure ;
+  * Les champs qu'une proposition peut changer. Exclus (revue code S11) :
+ * - l'identité (`n`, `c`, `d`) : déménager une fiche dans une autre commune
+ *   n'est prévu par aucune procédure (S82) ;
+ * - `km` : recalculé depuis Brignais quand la position change (S52) ;
+ * - une coordonnée seule : la position (`lat`, `lon`, `coordPrecision`) se
+ *   propose entière, jamais vers le centre de la commune (S52, Cédric le
+ *   17/10 : « la localisation ne correspond pas à l'adresse sur la carte ») ;
  * - `verifieLe` : c'est la date de la proposition qui s'écrit ; un champ à
  *   part affichait une date dans le diff et en écrivait une autre.
  */
 const changementsSchema = brasserieObjetSchema
-  .omit({ n: true, c: true, d: true, lat: true, lon: true, coordPrecision: true, km: true, verifieLe: true })
+  .omit({ n: true, c: true, d: true, km: true, verifieLe: true })
   .partial()
   .refine((c) => Object.keys(c).length > 0, { message: 'une proposition change au moins un champ' })
+  .refine(
+    (c) => [c.lat, c.lon, c.coordPrecision].every((v) => v === undefined) || [c.lat, c.lon, c.coordPrecision].every((v) => v !== undefined),
+    { message: 'une position se propose entière : lat, lon et coordPrecision' },
+  )
+  .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche au centre de sa commune' })
 
 export const propositionSchema = z
   .object({
@@ -136,11 +144,12 @@ export function lireLot(
 /**
  * Les champs qui portent leur propre date de lecture. Changés seuls, ils ne
  * datent pas la fiche : sa « Vérifiée le » couvre ce qui n'a pas de date à
- * soi — statut, confiance, note, source, adresse, bières (docs/DONNEES.md).
+  * soi — statut, confiance, note, source, adresse, bières (docs/DONNEES.md).
+ * Une position seule non plus (S52) : la catégorie n'a pas été revue.
  * Revue métier S11 : un téléphone ajouté faisait lire « vérifiée le 16/10 »
  * sur une catégorie que personne n'avait revue.
  */
-const DATES_PROPRES = new Set(['contact', 'horaires'])
+const DATES_PROPRES = new Set(['contact', 'horaires', 'lat', 'lon', 'coordPrecision'])
 
 /**
  * Le fichier qui résulterait des propositions acceptées (numérotées à partir
@@ -177,8 +186,11 @@ export function appliquerLot(
   const modifiees = brasseries.map((b) => {
     const p = parNom.get(b.n)
     if (p === undefined) return b
-    const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
-    return { ...b, ...p.changements, ...(dateeFiche ? { verifieLe: p.verifieLe } : {}) }
+        const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
+    const { lat, lon } = p.changements
+    // `km` suit la position : arrondi au dixième, comme les lignes fournies.
+    const km = lat === undefined || lon === undefined ? {} : { km: Math.round(distanceKm(BRIGNAIS, { lat, lon }) * 10) / 10 }
+    return { ...b, ...p.changements, ...km, ...(dateeFiche ? { verifieLe: p.verifieLe } : {}) }
   })
   // Les ajouts acceptés vont en fin de fichier : aucune ligne existante ne bouge.
   const nouvelles = ajouts
@@ -268,9 +280,14 @@ export function diffLisible(
     const chemins = [...new Set([...avant.keys(), ...apres.keys()])].filter(
       (c) => avant.get(c) !== apres.get(c),
     )
-    const lignes = chemins.map(
+        const lignes = chemins.map(
       (c) => `- ${c} : ${lisible(avant.get(c), c)} → ${lisible(apres.get(c), c)}`,
     )
+    const { lat, lon } = p.changements
+    if (lat !== undefined && lon !== undefined) {
+      const ecart = distanceKm(avantFiche, { lat, lon })
+      lignes.push(`- déplacement sur la carte : ${ecart.toFixed(1).replace('.', ',')} km`)
+    }
     return [
       titre,
       '',
