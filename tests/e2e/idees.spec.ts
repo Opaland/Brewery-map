@@ -96,3 +96,35 @@ test('ni menu de partage ni presse-papiers : l’écran le dit (revue S27)', asy
   await expect(page.getByTestId('partage-etat')).toHaveText('Copie impossible ici.')
   expect(erreurs).toEqual([])
 })
+
+test('après un lien partagé, un bouton rend la liste autour du départ (S31)', async ({ page }) => {
+  await page.goto('/#fiche=Tom%20%26%20Co')
+  await expect(page.getByTestId('lien-partage-aide')).toContainText('Fiche ouverte depuis un lien partagé.')
+  await page.getByTestId('effacer-recherche').click()
+  await expect(page.getByTestId('recherche')).toHaveValue('')
+  await expect(page.getByTestId('lien-partage-aide')).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toContainText('à moins de 30 km')
+  await expect(page.getByTestId('fiche')).toHaveCount(0)
+  // Le focus ne tombe pas en haut de la page, et le lien quitte l'adresse :
+  // recharger ne rouvre pas la fiche (revue adverse S31).
+  await expect(page.getByTestId('compte')).toBeFocused()
+  expect(await page.evaluate(() => window.location.hash)).toBe('')
+  await page.reload()
+  await expect(page.getByTestId('recherche')).toHaveValue('')
+})
+
+test('les nombres du menu des départements suivent les catégories cochées (S31)', async ({ page }) => {
+  await page.goto('/')
+  await ouvrirFiltres(page)
+  const savoie = page.getByTestId('departement').locator('option[value="73"]')
+  const nombre = async () => Number((await savoie.textContent())?.match(/\((\d+)\)/)?.[1])
+  const avant = await nombre()
+  for (const cat of [1, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+  expect(await nombre()).toBeLessThan(avant)
+  // Toujours dans le menu, même à 0 : le choix ne tombe pas au premier filtre.
+  await page.getByTestId('departement').selectOption('73')
+  await page.getByTestId('categorie-0').uncheck()
+  await expect(savoie).toHaveText(/\(0\)$/)
+  await expect(page.getByTestId('departement')).toHaveValue('73')
+  await expect(page.getByTestId('compte')).toContainText('avec ces filtres')
+})
