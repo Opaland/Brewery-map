@@ -2181,3 +2181,24 @@ rouge : une variable non déclarée ajoutée à `sw.js` fait échouer le lint.
   `BASE_DE_DONNEES` et un test la lie à l'empreinte de « Quoi de neuf ? ».
 Le relecteur a déclenché par mégarde la porte dans une copie : c'était la
 cause des deux échecs e2e « connexion refusée » du commit S232.
+
+## S234 (2/2) — premier tri des échecs WebKit *(17/10)*
+
+Premier passage en CI sur WebKit (profil iPhone 13) : 167 réussis, 13
+échecs, 3 instables. Tri :
+- **presse-papiers** (3 tests) : WebKit ne connaît pas la permission
+  `clipboard-write` → les tests relèvent ce que l'application copie
+  (`releverCopies`), quel que soit le moteur ;
+- **« Installer » (Android)** : API propre à Chrome → Chromium seulement,
+  raison écrite ;
+- **écrans émulés** (ordinateur 1280, 320 px, premier écran du Pixel 7) :
+  calibrés sur Chromium → restreints, raison écrite. **Constat réel** : sur
+  iPhone 13, la première brasserie passe sous la barre (BACKLOG) ;
+- **ligne qui s'enfonce au toucher** : Safari n'applique `:active` que si
+  la page écoute les touchers → correctif dans `main.tsx` ;
+- **carte** (5 tests) : aucune tuile demandée, ni carte ni message. Possible
+  défaut réel sur Safari, non reproductible ici (pas de WebKit dans le
+  conteneur) → test de diagnostic `carte-moteurs.spec.ts` (erreurs de la
+  page dans le message) et rapport Playwright gardé en CI ;
+- **couche OSM jamais servie** : le chargement de page de WebKit attend la
+  requête pendante → le test attend le document.

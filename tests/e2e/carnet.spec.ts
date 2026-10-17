@@ -1,5 +1,5 @@
 import { expect, test } from './position'
-import { ouvrirFiltres, sansTuiles } from './reseau'
+import { derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
 
 /** S35 — mon carnet : les brasseries visitées, sur l'appareil. */
 test.beforeEach(async ({ page }) => {
@@ -86,8 +86,8 @@ test('deux onglets : une visite notée dans chacun, les deux restent (revue adve
   }
 })
 
-test('la date d’une visite ne part ni dans le signalement ni dans le partage (CA6)', async ({ page, context }) => {
-  await context.grantPermissions(['clipboard-read', 'clipboard-write'])
+test('la date d’une visite ne part ni dans le signalement ni dans le partage (CA6)', async ({ page }) => {
+  await releverCopies(page)
   await page.locator('button.ligne').first().click()
   await page.getByTestId('bouton-visite').click()
   const signaler = await page.getByRole('link', { name: 'Signaler une erreur sur cette fiche' }).getAttribute('href')
@@ -98,7 +98,8 @@ test('la date d’une visite ne part ni dans le signalement ni dans le partage (
   })
   await page.getByTestId('bouton-partager').click()
   await expect(page.getByTestId('partage-etat')).toHaveText('Lien copié.')
-  const copie = await page.evaluate(() => navigator.clipboard.readText())
+  const copie = await derniereCopie(page)
+  expect(copie).toContain('#fiche=')
   expect(decodeURIComponent(copie)).not.toMatch(/2026-10-17|17 octobre|visit|carnet/i)
 })
 
@@ -130,8 +131,8 @@ test.describe('mes notes (S36)', () => {
       .toBe('La blanche était excellente')
   })
 
-  test('une note ne part pas : ni dans le signalement, ni dans le lien copié', async ({ page, context }) => {
-    await context.grantPermissions(['clipboard-read', 'clipboard-write'])
+  test('une note ne part pas : ni dans le signalement, ni dans le lien copié', async ({ page }) => {
+    await releverCopies(page)
     await page.locator('button.ligne').first().click()
     await page.getByTestId('ma-note').fill('secret-de-bernard')
     const signaler = await page.getByRole('link', { name: 'Signaler une erreur sur cette fiche' }).getAttribute('href')
@@ -141,7 +142,7 @@ test.describe('mes notes (S36)', () => {
     })
     await page.getByTestId('bouton-partager').click()
     await expect(page.getByTestId('partage-etat')).toHaveText('Lien copié.')
-    expect(decodeURIComponent(await page.evaluate(() => navigator.clipboard.readText()))).not.toContain(
+    expect(decodeURIComponent(await derniereCopie(page))).not.toContain(
       'secret-de-bernard',
     )
   })

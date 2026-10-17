@@ -56,3 +56,28 @@ export async function ouvrirFiltres(page: Page): Promise<void> {
     })
     .toBe(true)
 }
+
+/**
+ * Ce que l'application copie (S234) : relevé à l'appel de
+ * `navigator.clipboard.writeText`, sans lire le presse-papiers — WebKit ne
+ * connaît pas la permission `clipboard-write`. On vérifie ce qui part, pas
+ * le presse-papiers du système.
+ */
+export async function releverCopies(page: Page): Promise<void> {
+  await page.evaluate(() => {
+    const copies: string[] = []
+    ;(window as unknown as { copies: string[] }).copies = copies
+    Object.defineProperty(navigator, 'clipboard', {
+      configurable: true,
+      value: {
+        writeText: (texte: string) => {
+          copies.push(texte)
+          return Promise.resolve()
+        },
+      },
+    })
+  })
+}
+
+export const derniereCopie = (page: Page) =>
+  page.evaluate(() => (window as unknown as { copies: string[] }).copies.at(-1) ?? '')

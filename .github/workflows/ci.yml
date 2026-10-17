@@ -86,11 +86,18 @@ jobs:
         run: npx playwright install --with-deps ${{ matrix.navigateur }}
         timeout-minutes: 10
       - name: Tests e2e sur ${{ matrix.navigateur }}
-        run: npx playwright test --reporter=list
+        run: npx playwright test --reporter=list,html
         timeout-minutes: 30
         env:
           CI: 'true'
           PW_NAVIGATEUR: ${{ matrix.navigateur }}
+      - name: Rapport Playwright en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.navigateur }}
+          path: playwright-report/
+          retention-days: 7
 
   deploiement:
     needs: porte
