@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { ChoixCommune } from './ChoixCommune'
 import { communeLaPlusProche } from './core/communes'
@@ -124,18 +125,16 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
   return (
     <fieldset className={rienChoisi ? 'depart depart-a-choisir' : 'depart'} data-testid="depart">
       <legend>
-        {rienChoisi ? 'Par où commencer ?' : `Point de départ : ${libelleOrigine(origine)}`}
+        {rienChoisi ? t('Par où commencer ?') : t('Point de départ : {origine}', { origine: libelleOrigine(origine) })}
       </legend>
       {rienChoisi && reprendre && (
         <p className="champ-aide" data-testid="depart-reprendre">
-          La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la
-          reprendre.
+          {t('La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la reprendre.')}
         </p>
       )}
       {rienChoisi && (
         <p className="champ-aide" data-testid="depart-invitation">
-          Partez de votre position, ou de votre commune. En attendant, les distances se comptent
-          depuis Brignais.
+          {t('Partez de votre position, ou de votre commune. En attendant, les distances se comptent depuis Brignais.')}
         </p>
       )}
       {/*
@@ -148,15 +147,9 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
         {/* Replié derrière une phrase courte : en entier, il remplissait le
             premier écran et repoussait la liste à 2,2 écrans (revue globale
             S22). La phrase visible dit déjà l'essentiel, avant le bouton. */}
-        <summary>Votre position reste dans ce téléphone. Ce qui part sur le réseau</summary>
+        <summary>{t('Votre position reste dans ce téléphone. Ce qui part sur le réseau')}</summary>
         <p className="champ-aide" data-testid="confidentialite">
-          « Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer
-          les distances : vos coordonnées ne sont envoyées à personne, et seul le choix
-          « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point
-          de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap
-          les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres
-          près, et votre adresse IP — comme pour toute carte en ligne. Choisir une commune
-          fait aussi demander à ce site la liste des communes de sa région.
+          {t('« Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer les distances : vos coordonnées ne sont envoyées à personne, et seul le choix « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres près, et votre adresse IP — comme pour toute carte en ligne. Choisir une commune fait aussi demander à ce site la liste des communes de sa région.')}
         </p>
       </details>
       <div className="depart-actions">
@@ -167,7 +160,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
           disabled={enCours}
           data-testid="autour-de-moi"
         >
-          {enCours ? 'Localisation…' : 'Autour de moi'}
+          {enCours ? t('Localisation…') : t('Autour de moi')}
         </button>
         {!rienChoisi && (
           <button
@@ -177,7 +170,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
             }}
             data-testid="revenir-brignais"
           >
-            Revenir à Brignais
+            {t('Revenir à Brignais')}
           </button>
         )}
       </div>

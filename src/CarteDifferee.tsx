@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import {
   Component,
   lazy,
@@ -52,7 +53,7 @@ export function CarteDifferee(props: PropsCarte) {
   if (!proche) {
     return (
       <div ref={repere} className="carte carte-attente" data-testid="carte-en-attente">
-        Carte : elle se charge quand vous faites défiler jusqu’ici.
+        {t('Carte : elle se charge quand vous faites défiler jusqu’ici.')}
       </div>
     )
   }
@@ -82,8 +83,7 @@ class LimiteCarte extends Component<{ children: ReactNode }, { echec: boolean }>
     return (
       <div className="carte carte-absente" role="note" data-testid="carte-echec">
         <p>
-          La carte n’a pas pu se charger (connexion ?). La liste reste complète, avec les mêmes
-          informations.
+          {t('La carte n’a pas pu se charger (connexion ?). La liste reste complète, avec les mêmes informations.')}
         </p>
         {/* Recharger, pas réimporter : le navigateur garde en mémoire l'échec
             d'un import dynamique et le rendrait tel quel (vu au test, S20). */}
@@ -93,7 +93,7 @@ class LimiteCarte extends Component<{ children: ReactNode }, { echec: boolean }>
             window.location.reload()
           }}
         >
-          Recharger la page
+          {t('Recharger la page')}
         </button>
       </div>
     )

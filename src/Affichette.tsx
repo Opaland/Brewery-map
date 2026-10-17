@@ -13,6 +13,10 @@ import type { Brasserie } from './core/schema'
  * `@media print`). « À confirmer » reste « À confirmer », avec sa raison :
  * l'affichette ne dit rien de plus que la fiche (CLAUDE.md §0).
  *
+ * Elle reste en français quelle que soit la langue de l'interface (S49) :
+ * elle s'affiche au comptoir d'une brasserie française, pas sur l'écran de
+ * qui l'imprime.
+ *
  * Montée, elle s'imprime ; puis elle se démonte (`onFin`). La règle
  * d'impression ne vaut que pendant ce temps (`body.imprime-affichette`) :
  * posée en permanence, Ctrl+P imprimait une page blanche (revue adverse

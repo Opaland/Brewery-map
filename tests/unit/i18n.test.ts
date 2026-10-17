@@ -4,12 +4,17 @@ import { choisirLangue, langueDe, t } from '../../src/i18n'
 import { EN } from '../../src/textes/en'
 import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
 import { SANS_COMPTE, SUITE_SIGNALEMENT } from '../../src/core/signalement'
+import { CATEGORIES } from '../../src/core/categories'
+import { RAISONS } from '../../src/core/sauvegarde'
 
 /**
  * Les textes passés à `t()` par une constante, que la lecture du code ne
  * voit pas : listés ici, et exigés comme les autres.
  */
-const CLES_PAR_CONSTANTE = [DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT]
+const CLES_PAR_CONSTANTE = [
+  ...Object.values(CATEGORIES),
+  'La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.',
+  DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT, ...Object.values(RAISONS)]
 
 /** Les clés de tous les appels `t('…')` ou `t("…")` du code de src/. */
 function clesDuCode(): Set<string> {

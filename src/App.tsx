@@ -694,7 +694,7 @@ export function App({
                     data-testid={`categorie-${String(cat)}`}
                   />
                   <span className="pastille" aria-hidden="true" />
-                  {CATEGORIES[cat]}
+                  {t(CATEGORIES[cat])}
                 </label>
               ))}
               {osm.etat === 'pret' && (

@@ -45,21 +45,29 @@ export function versSauvegarde(p: Preferences, aujourdhui: string): FichierSauve
 /** La taille en octets (UTF-8), pas en unités de texte (revue adverse S37). */
 export const octets = (texte: string) => new TextEncoder().encode(texte).length
 
+/** Les refus de lecture, en français ; l'interface les traduit (S49). */
+export const RAISONS = {
+  tropGros: 'Ce fichier est trop gros pour une sauvegarde (plus de 1 Mo).',
+  illisible: 'Ce fichier n’est pas une sauvegarde lisible (JSON).',
+  etranger: 'Ce fichier ne vient pas de Mousse de Poche.',
+  tropDElements: 'Ce fichier contient bien plus de brasseries que l’application n’en connaît : il n’est pas repris.',
+} as const
+
 export type Lecture = { ok: true; preferences: Preferences } | { ok: false; raison: string }
 
 export function lireSauvegarde(texte: string): Lecture {
   if (octets(texte) > TAILLE_MAX) {
-    return { ok: false, raison: 'Ce fichier est trop gros pour une sauvegarde (plus de 1 Mo).' }
+    return { ok: false, raison: RAISONS.tropGros }
   }
   let brut: unknown
   try {
     brut = JSON.parse(texte)
   } catch {
-    return { ok: false, raison: 'Ce fichier n’est pas une sauvegarde lisible (JSON).' }
+    return { ok: false, raison: RAISONS.illisible }
   }
   const f = brut as Partial<FichierSauvegarde> | null
   if (typeof f !== 'object' || f === null || f.application !== 'mousse-de-poche') {
-    return { ok: false, raison: 'Ce fichier ne vient pas de Mousse de Poche.' }
+    return { ok: false, raison: RAISONS.etranger }
   }
   const preferences = lirePreferences(f.preferences)
   if (
@@ -67,7 +75,7 @@ export function lireSauvegarde(texte: string): Lecture {
     preferences.visites.length > ELEMENTS_MAX ||
     preferences.notes.length > ELEMENTS_MAX
   ) {
-    return { ok: false, raison: 'Ce fichier contient bien plus de brasseries que l’application n’en connaît : il n’est pas repris.' }
+    return { ok: false, raison: RAISONS.tropDElements }
   }
   return { ok: true, preferences }
 }

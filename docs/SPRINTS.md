@@ -2033,3 +2033,12 @@ clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
    - les tests de bout en bout tournent en français (`locale: 'fr-FR'`).
 2. **Vu rouge** : 67 clés manquantes avant le dictionnaire.
 3. **Revue adverse** : avec S49, sur l'ensemble de la traduction.
+
+## S49 — Interface en anglais (2/3) : les composants *(17/10)*
+
+1. **Fait** (`docs/stories/S49.md`) : les quatorze autres composants passent
+   par `t()` ; le dictionnaire compte 225 entrées. Les refus de lecture
+   d'une sauvegarde sont nommés (`RAISONS`). L'affichette reste en
+   français, exprès.
+2. **Vu rouge** : deux traductions retirées, deux clés signalées.
+3. **Revue adverse** : avec S50, sur l'ensemble de la traduction.

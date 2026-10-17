@@ -1,7 +1,8 @@
 import { lienDeBiere, TYPES_BIERE } from './core/bieres'
 import type { Brasserie } from './core/schema'
+import { t } from './i18n'
 
-const LIBELLE = new Map(TYPES_BIERE.map((t) => [t.type, t]))
+const LIBELLE = new Map(TYPES_BIERE.map((ty) => [ty.type, ty]))
 
 /**
  * Les bières de la fiche (S5). Chaque type est un lien quand une page existe
@@ -12,13 +13,13 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
   if (brasserie.beers.length === 0) {
     return (
       <p className="fiche-bieres" data-testid="fiche-bieres">
-        Types de bière : non référencés pour l’instant.
+        {t('Types de bière : non référencés pour l’instant.')}
       </p>
     )
   }
   return (
     <div className="fiche-bieres" data-testid="fiche-bieres">
-      <p className="fiche-titre">Ses bières</p>
+      <p className="fiche-titre">{t('Ses bières')}</p>
       <ul>
         {brasserie.beers.map((biere, i) => {
           const type = LIBELLE.get(biere.type)
@@ -37,13 +38,13 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
             <li key={`${biere.type}-${String(i)}`}>
               {lien === null ? (
                 <>
-                  {nom} <span className="fiche-aide-inline">(non référencé)</span>
+                  {nom} <span className="fiche-aide-inline">{t('(non référencé)')}</span>
                 </>
               ) : (
                 <a href={lien.url} target="_blank" rel="noopener noreferrer">
                   {nom}
                   {lien.nature === 'annuaire' &&
-                    ' (page de la brasserie dans un annuaire, pas de cette bière)'}
+                    t(' (page de la brasserie dans un annuaire, pas de cette bière)')}
                 </a>
               )}
               {montrerType && <span className="fiche-aide-inline"> — {type.explication}</span>}
