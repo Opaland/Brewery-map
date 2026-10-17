@@ -1,0 +1,1369 @@
+[
+ {
+  "cle": "sirene:819615337",
+  "nom": "DAVID BREWERY",
+  "communes": [
+   "SAINT-QUAY-PORTRIEUX",
+   "BINIC-ETABLES-SUR-MER",
+   "SAINT-BRIEUC"
+  ],
+  "departement": "22",
+  "adresses": [
+   "13 RUE DU CLOS DE RUNCLAN 22410 SAINT-QUAY-PORTRIEUX",
+   "10 RUE DE L'EUROPE 22680 BINIC-ETABLES-SUR-MER",
+   "14 RUE DE PARIS 22000 SAINT-BRIEUC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "819615337",
+  "sirets": [
+   "81961533700022",
+   "81961533700048",
+   "81961533700055"
+  ],
+  "osm": [],
+  "lat": 48.65849701835437,
+  "lon": -2.863107985725229,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831156344",
+  "nom": "LA FREHELOISE",
+  "communes": [
+   "FREHEL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "DOMAINE DE LA GRANDE ABBAYE RUE DE LA PIECE MONSIEUR 22240 FREHEL",
+   "CAMPING MUNICIPAL DU PONT DE L'ETANG BOULEVARD DE LA MANCHE - PLEHERE 22240 FREHEL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "831156344",
+  "sirets": [
+   "83115634400028",
+   "83115634400036"
+  ],
+  "osm": [
+   "node/8915666271"
+  ],
+  "lat": 48.628116582,
+  "lon": -2.360356452,
+  "site": "https://www.lafreheloise.bzh/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "PLENEE-JUGON"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:834915688",
+  "nom": "BRASSERIE ARTISANALE DE PAIMPOL",
+  "communes": [
+   "PAIMPOL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "5 RUE DU GRAND PRE 22500 PAIMPOL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834915688",
+  "sirets": [
+   "83491568800032"
+  ],
+  "osm": [],
+  "lat": 48.767948055,
+  "lon": -3.06786464,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LA ROCHE-JAUDY"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:822652533",
+  "nom": "KERGROMO",
+  "communes": [
+   "PLOUHA"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LD KERGROMEAU 22580 PLOUHA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822652533",
+  "sirets": [
+   "82265253300024"
+  ],
+  "osm": [],
+  "lat": 48.660027327,
+  "lon": -2.894969972,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "PLUZUNET"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "FREHEL"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "BRASSERIE DU DOLMEN TREGASTEL",
+  "communes": [
+   "TREGASTEL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "ZA DU DOLMEN 22730 TREGASTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907745160",
+  "nom": "BIERE DE LA VALLEE DE LA RANCE",
+  "communes": [
+   "PLEUDIHEN-SUR-RANCE"
+  ],
+  "departement": "22",
+  "adresses": [
+   "11 RUE LOURMEL 22690 PLEUDIHEN-SUR-RANCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907745160",
+  "sirets": [
+   "90774516000016"
+  ],
+  "osm": [],
+  "lat": 48.491166612,
+  "lon": -1.923456675,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "PLERIN"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:877660043",
+  "nom": "BRASSERIE NAUTICA",
+  "communes": [
+   "PLOUASNE"
+  ],
+  "departement": "22",
+  "adresses": [
+   "2 LA GARE 22830 PLOUASNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "877660043",
+  "sirets": [
+   "87766004300028"
+  ],
+  "osm": [
+   "node/11393879103"
+  ],
+  "lat": 48.306395747,
+  "lon": -2.010362611,
+  "site": "https://brasserienautica.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889128823",
+  "nom": "BRASSERIE LA RIPOSTE",
+  "communes": [
+   "CHATELAUDREN-PLOUAGAT"
+  ],
+  "departement": "22",
+  "adresses": [
+   "27 PL DE LA REPUBLIQUE 22170 CHATELAUDREN-PLOUAGAT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "889128823",
+  "sirets": [
+   "88912882300016"
+  ],
+  "osm": [
+   "node/8269542396"
+  ],
+  "lat": 48.542104113,
+  "lon": -2.969762021,
+  "site": "https://brasserielariposte.bzh/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "PLUSQUELLEC"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:913025896",
+  "nom": "L'ECUME SAUVAGE",
+  "communes": [
+   "TADEN"
+  ],
+  "departement": "22",
+  "adresses": [
+   "401 RUE DE LA TRAMONTANE 22100 TADEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913025896",
+  "sirets": [
+   "91302589600022"
+  ],
+  "osm": [],
+  "lat": 48.472960011122,
+  "lon": -2.04801275836502,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904548252",
+  "nom": "LA TATA JUJU",
+  "communes": [
+   "TREMUSON"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LE PARC LAURENT 22440 TREMUSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904548252",
+  "sirets": [
+   "90454825200017"
+  ],
+  "osm": [],
+  "lat": 48.517713026,
+  "lon": -2.866529718,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901093807",
+  "nom": "LA BRASSERIE CARABO",
+  "communes": [
+   "SAINT-JUDOCE"
+  ],
+  "departement": "22",
+  "adresses": [
+   "2 RUE DU CHARRON 22630 SAINT-JUDOCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901093807",
+  "sirets": [
+   "90109380700013"
+  ],
+  "osm": [],
+  "lat": 48.363792015,
+  "lon": -1.954608957,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829429844",
+  "nom": "LA BRASSERIE DU SAINT ESPRIT",
+  "communes": [
+   "PLEDELIAC"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LE SAINT ESPRIT DES BOIS 6 RUE DES DEPORTES 22270 PLEDELIAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829429844",
+  "sirets": [
+   "82942984400014"
+  ],
+  "osm": [],
+  "lat": 48.4569412349965,
+  "lon": -2.35544684761651,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815113709",
+  "nom": "BRASSERIE REGIONALE DE L'OUEST",
+  "communes": [
+   "TONQUEDEC"
+  ],
+  "departement": "22",
+  "adresses": [
+   "KERBRUNEC 22140 TONQUEDEC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "815113709",
+  "sirets": [
+   "81511370900027"
+  ],
+  "osm": [],
+  "lat": 48.6968396267273,
+  "lon": -3.39909845926118,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949509814",
+  "nom": "BRASSERIE LES ALCHIMISTES IVRES",
+  "communes": [
+   "BROONS"
+  ],
+  "departement": "22",
+  "adresses": [
+   "ZA DU PILAGA 13 RUE DE L'AVENIR 22250 BROONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949509814",
+  "sirets": [
+   "94950981400032"
+  ],
+  "osm": [],
+  "lat": 48.3140440382078,
+  "lon": -2.24542099582719,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983681883",
+  "nom": "BRASSERIE & CIE",
+  "communes": [
+   "PLEUBIAN"
+  ],
+  "departement": "22",
+  "adresses": [
+   "8 RUE DE BOISGELIN 22610 PLEUBIAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983681883",
+  "sirets": [
+   "98368188300010"
+  ],
+  "osm": [],
+  "lat": 48.839275766,
+  "lon": -3.143717067,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844751651",
+  "nom": "BRASSERIE DISTOUFER",
+  "communes": [
+   "GUINGAMP"
+  ],
+  "departement": "22",
+  "adresses": [
+   "44 RUE SAINT MARTIN 22200 GUINGAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844751651",
+  "sirets": [
+   "84475165100010"
+  ],
+  "osm": [],
+  "lat": 48.559324998,
+  "lon": -3.137784905,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850757485",
+  "nom": "LA BRASSERIE DE DINAN",
+  "communes": [
+   "DINAN"
+  ],
+  "departement": "22",
+  "adresses": [
+   "33 AV RENE CASSIN 22100 DINAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850757485",
+  "sirets": [
+   "85075748500014"
+  ],
+  "osm": [
+   "node/7358916159"
+  ],
+  "lat": 48.455138001,
+  "lon": -2.063542502,
+  "site": "https://www.labrasseriededinan.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882627359",
+  "nom": "MICRO-BRASSERIE LA VIEILLE BOURGEOISE",
+  "communes": [
+   "LE VIEUX-BOURG"
+  ],
+  "departement": "22",
+  "adresses": [
+   "2 GUERLIDO 22800 LE VIEUX-BOURG"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882627359",
+  "sirets": [
+   "88262735900012"
+  ],
+  "osm": [],
+  "lat": 48.392309018,
+  "lon": -3.01486,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "TREGASTEL"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:921127080",
+  "nom": "BOCK A L'OUEST",
+  "communes": [
+   "PLAINTEL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "ZONE ARTISANALE LES TINNIERES 22940 PLAINTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921127080",
+  "sirets": [
+   "92112708000015"
+  ],
+  "osm": [],
+  "lat": 48.410488756,
+  "lon": -2.827441126,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900628157",
+  "nom": "MONSIEUR TOUD",
+  "communes": [
+   "LAMBALLE-ARMOR"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LAMBALLE 9 RUE CHARLES CARTEL 22400 LAMBALLE-ARMOR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900628157",
+  "sirets": [
+   "90062815700019"
+  ],
+  "osm": [],
+  "lat": 48.468349203,
+  "lon": -2.515776105,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813329661",
+  "nom": "BRASSERIE KERAMPONT",
+  "communes": [
+   "LANNION"
+  ],
+  "departement": "22",
+  "adresses": [
+   "2 HENT KOZ MONTROULEZ 22300 LANNION"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813329661",
+  "sirets": [
+   "81332966100017"
+  ],
+  "osm": [],
+  "lat": 48.7281915120139,
+  "lon": -3.46546418755564,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "TREGASTEL"
+  ],
+  "departement": "22",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:481351781",
+  "nom": "BRASSERIE DE LAUNAY",
+  "communes": [
+   "LAMBALLE-ARMOR"
+  ],
+  "departement": "22",
+  "adresses": [
+   "9 RUE DES PRES JOUETTES 22400 LAMBALLE-ARMOR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "481351781",
+  "sirets": [
+   "48135178100036"
+  ],
+  "osm": [],
+  "lat": 48.474571342,
+  "lon": -2.466971265,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:943130591",
+  "nom": "MILLE GOULES",
+  "communes": [
+   "HEMONSTOIR"
+  ],
+  "departement": "22",
+  "adresses": [
+   "14 RUE EUGENE LE CLEZIO 22600 HEMONSTOIR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "943130591",
+  "sirets": [
+   "94313059100010"
+  ],
+  "osm": [],
+  "lat": 48.1597561196688,
+  "lon": -2.83552887092035,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": "LES BRASSINS DU LION D'OR",
+  "communes": [
+   "TREMEUR"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LE LION D'OR 22250 TREMEUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850569997",
+  "nom": "TIENS BON LA BARRE",
+  "communes": [
+   "PLOUASNE"
+  ],
+  "departement": "22",
+  "adresses": [
+   "2 LA GARE 22830 PLOUASNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850569997",
+  "sirets": [
+   "85056999700024"
+  ],
+  "osm": [],
+  "lat": 48.306395747,
+  "lon": -2.010362611,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851084483",
+  "nom": "LA VILLE PORTE AMOUR",
+  "communes": [
+   "PLOUVARA"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LD LA VILLE PORTE AMOUR 22170 PLOUVARA"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "851084483",
+  "sirets": [
+   "85108448300011"
+  ],
+  "osm": [
+   "node/7491767353"
+  ],
+  "lat": 48.521039491,
+  "lon": -2.926652252,
+  "site": "http://www.lavilleporteamour.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834449381",
+  "nom": "SARL BRASSERIE MALTERIE DIMEZELL",
+  "communes": [
+   "QUESSOY"
+  ],
+  "departement": "22",
+  "adresses": [
+   "RUE DE L'ESPERANCE 22120 QUESSOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834449381",
+  "sirets": [
+   "83444938100013"
+  ],
+  "osm": [],
+  "lat": 48.449173541,
+  "lon": -2.643271558,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:493163729",
+  "nom": "PHILOMENN",
+  "communes": [
+   "TREGUIER"
+  ],
+  "departement": "22",
+  "adresses": [
+   "SAINTE CATHERINE 22220 TREGUIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "493163729",
+  "sirets": [
+   "49316372900038"
+  ],
+  "osm": [],
+  "lat": 48.781671146,
+  "lon": -3.222719783,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840748313",
+  "nom": "BRASSERIE DES 7 ILES",
+  "communes": [
+   "TREGASTEL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "ZA DU DOLMEN 22730 TREGASTEL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840748313",
+  "sirets": [
+   "84074831300011"
+  ],
+  "osm": [
+   "node/13039830603"
+  ],
+  "lat": 48.816959014,
+  "lon": -3.513013966,
+  "site": "https://www.brasseriedes7iles.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910500693",
+  "nom": "BRASSERIE ARTISANALE DE BREHAT",
+  "communes": [
+   "BREHAT"
+  ],
+  "departement": "22",
+  "adresses": [
+   "LE BOURG 22870 BREHAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910500693",
+  "sirets": [
+   "91050069300015"
+  ],
+  "osm": [],
+  "lat": 48.84539529,
+  "lon": -3.000899145,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912150117",
+  "nom": "BRASSERIE POPOP",
+  "communes": [
+   "PLOUMILLIAU"
+  ],
+  "departement": "22",
+  "adresses": [
+   "9 PLACE DE L'EGLISE 22300 PLOUMILLIAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912150117",
+  "sirets": [
+   "91215011700014"
+  ],
+  "osm": [],
+  "lat": 48.678599229,
+  "lon": -3.523663902,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923843742",
+  "nom": "PLIJADUR PENN DA BENN",
+  "communes": [
+   "PLOUGUIEL"
+  ],
+  "departement": "22",
+  "adresses": [
+   "1 RUE DE L'ANCIENNE GARE 22220 PLOUGUIEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923843742",
+  "sirets": [
+   "92384374200019"
+  ],
+  "osm": [],
+  "lat": 48.795623165,
+  "lon": -3.250629229,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803625003",
+  "nom": "LA GROBUL' FACTORY",
+  "communes": [
+   "MELLIONNEC"
+  ],
+  "departement": "22",
+  "adresses": [
+   "8 ROUTE DES ECOLES 22110 MELLIONNEC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "803625003",
+  "sirets": [
+   "80362500300014"
+  ],
+  "osm": [
+   "node/6495343834",
+   "way/127057664"
+  ],
+  "lat": 48.173964062,
+  "lon": -3.295672963,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:999300999",
+  "nom": "SEZON",
+  "communes": [
+   "LAMBALLE-ARMOR"
+  ],
+  "departement": "22",
+  "adresses": [
+   "30 ROUTE DE JOSPINET 22400 LAMBALLE-ARMOR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "999300999",
+  "sirets": [
+   "99930099900011"
+  ],
+  "osm": [],
+  "lat": 48.5474901590401,
+  "lon": -2.60536501542621,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11792787368",
+  "nom": "La Mousse des Sables",
+  "communes": [
+   "Erquy"
+  ],
+  "departement": "22",
+  "adresses": [
+   "38 Rue de Clairville, 22430 Erquy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11792787368"
+  ],
+  "lat": 48.62958,
+  "lon": -2.4327,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12097842828",
+  "nom": "Brasserie de Guerlédan",
+  "communes": [
+   "Guerlédan"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12097842828"
+  ],
+  "lat": 48.20364,
+  "lon": -2.99127,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12991682971",
+  "nom": "Cidrerie Benoit",
+  "communes": [
+   "Saint-Alban"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12991682971"
+  ],
+  "lat": 48.53099,
+  "lon": -2.5301,
+  "site": "https://www.cidreriebenoit.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13039797308",
+  "nom": "La Bernik",
+  "communes": [
+   "Trégastel"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13039797308"
+  ],
+  "lat": 48.81731,
+  "lon": -3.51326,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13173942793",
+  "nom": "La Brasserie des Alternatives",
+  "communes": [
+   "Saint-Brieuc"
+  ],
+  "departement": "22",
+  "adresses": [
+   "14 Rue Jean Coquelin, 22000 Saint-Brieuc"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13173942793"
+  ],
+  "lat": 48.50884,
+  "lon": -2.78089,
+  "site": "https://www.facebook.com/brasseriealternativesSB",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13299563772",
+  "nom": "Brasserie de Launay",
+  "communes": [
+   "Lamballe"
+  ],
+  "departement": "22",
+  "adresses": [
+   "9 Rue des Près Jouettes, 22400 Lamballe"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13299563772"
+  ],
+  "lat": 48.48207,
+  "lon": -2.49667,
+  "site": "https://www.brasserie-delaunay.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE LAUNAY"
+ },
+ {
+  "cle": "node/13926492182",
+  "nom": "Les Trompettes Pompettes",
+  "communes": [
+   "La Roche-Jaudy"
+  ],
+  "departement": "22",
+  "adresses": [
+   "1, 22450 La Roche-Jaudy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13926492182"
+  ],
+  "lat": 48.71938,
+  "lon": -3.23464,
+  "site": "https://www.facebook.com/people/Les-Trompettes-Pompettes/61588607755068/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13926492186",
+  "nom": "L’Armateur",
+  "communes": [
+   "La Roche-Jaudy"
+  ],
+  "departement": "22",
+  "adresses": [
+   "27 Rue de la Fontaine, 22450 La Roche-Jaudy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13926492186"
+  ],
+  "lat": 48.74489,
+  "lon": -3.26234,
+  "site": "https://www.brasserielarmateur.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14018305001",
+  "nom": "Brasserie du Verger de Kernivinen",
+  "communes": [
+   "Saint-Quay-Perros"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14018305001"
+  ],
+  "lat": 48.79274,
+  "lon": -3.46658,
+  "site": "http://cidre-fermier.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6503738019",
+  "nom": "Philomenn - Brasserie Artisanale Touken",
+  "communes": [
+   "Tréguier"
+  ],
+  "departement": "22",
+  "adresses": [
+   "Parc Sainte-Catherine, 22220 Tréguier"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6503738019"
+  ],
+  "lat": 48.7817,
+  "lon": -3.22277,
+  "site": "http://www.philomenn.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6650042721",
+  "nom": "Brasserie Uncle",
+  "communes": [
+   "Étables-sur-Mer"
+  ],
+  "departement": "22",
+  "adresses": [
+   "17 Rue Duglesclin, 22680 Étables-sur-Mer"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6650042721"
+  ],
+  "lat": 48.64377,
+  "lon": -2.83453,
+  "site": "https://www.brasserie-uncle.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7489748142",
+  "nom": "Brasstillerie KanArFoll",
+  "communes": [
+   "Perros-Guirec"
+  ],
+  "departement": "22",
+  "adresses": [
+   "Route de Kerambellec, 22700 Perros-Guirec"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7489748142"
+  ],
+  "lat": 48.79222,
+  "lon": -3.46685,
+  "site": "https://www.kanarfoll.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7489781146",
+  "nom": "La Bonne Humeur - Brasserie Artisanale de Paimpol",
+  "communes": [
+   "Paimpol"
+  ],
+  "departement": "22",
+  "adresses": [
+   "23b Avenue Chateaubriand, 22500 Paimpol"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7489781146"
+  ],
+  "lat": 48.77535,
+  "lon": -3.04788,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7489856900",
+  "nom": "La Nordé",
+  "communes": [
+   "Plouha"
+  ],
+  "departement": "22",
+  "adresses": [
+   "22580 Plouha"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7489856900"
+  ],
+  "lat": 48.66802,
+  "lon": -2.92594,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7489914427",
+  "nom": "Brasserie Artisanale la Guernouillette",
+  "communes": [
+   "Plérin"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7489914427"
+  ],
+  "lat": 48.51859,
+  "lon": -2.79675,
+  "site": "http://www.la-guernouillette.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7491754420",
+  "nom": "Brasserie Malterie Dimezell",
+  "communes": [
+   "Quessoy"
+  ],
+  "departement": "22",
+  "adresses": [
+   "36 Rue du Pilon, 22120 Quessoy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7491754420"
+  ],
+  "lat": 48.44542,
+  "lon": -2.64386,
+  "site": "https://www.brasserie-dimezell.bzh",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/266226843",
+  "nom": "Brasserie Galactique",
+  "communes": [
+   "Pléguien"
+  ],
+  "departement": "22",
+  "adresses": [
+   "Le Clos de la lande, 22290 Pléguien"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/266226843"
+  ],
+  "lat": 48.63431,
+  "lon": -2.97271,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/293917356",
+  "nom": "Les Sirops du Barbu",
+  "communes": [
+   "Plouër-sur-Rance"
+  ],
+  "departement": "22",
+  "adresses": [
+   "Zone artisanale des Landes, 22490 Plouër-sur-Rance"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/293917356"
+  ],
+  "lat": 48.5326,
+  "lon": -2.01337,
+  "site": "https://www.sirops-du-barbu.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/318556892",
+  "nom": "Brasserie Les Fous",
+  "communes": [
+   "Carnoët"
+  ],
+  "departement": "22",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/318556892"
+  ],
+  "lat": 48.36946,
+  "lon": -3.49886,
+  "statut": "nouveau"
+ }
+]
