@@ -26,6 +26,8 @@ import {
 } from './core/recherche'
 import { libelleDepartement } from './core/departements'
 import { resumeDesFiltres, type EtatFiltres } from './core/filtres'
+import { libelleVerification } from './core/fiche'
+import { DONNEES, NOUVEAUTES } from './core/nouveautes'
 import { ficheDuLien } from './core/partage'
 import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
@@ -876,6 +878,18 @@ export function App({
         </Suspense>
       )}
       <footer className="pied">
+        {/* « Quoi de neuf ? » (S44) : l'application, et les fiches. */}
+        <details className="quoi-de-neuf" data-testid="quoi-de-neuf">
+          <summary>Quoi de neuf ?</summary>
+          <p>{DONNEES.phrase}</p>
+          <ul>
+            {NOUVEAUTES.map((n) => (
+              <li key={n.texte}>
+                <time dateTime={n.date}>{libelleVerification(n.date)}</time> — {n.texte}
+              </li>
+            ))}
+          </ul>
+        </details>
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
             ? 'Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.'

@@ -990,3 +990,8 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .marqueur-groupe.contient-choisie {
   box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--cuivre-vif);
 }
+
+/* S44 : « Quoi de neuf ? », replié dans le pied de page. */
+.quoi-de-neuf summary { display: list-item; min-height: 44px; padding: 12px 0; line-height: 20px; cursor: pointer; font-weight: 600; }
+.quoi-de-neuf ul { padding-left: var(--espace-8); margin: var(--espace-4) 0; }
+.quoi-de-neuf li { margin-bottom: var(--espace-2); }
