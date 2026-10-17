@@ -55,6 +55,11 @@ sauts disaient le contraire, retirés).
 
 C'est pour cela que le job reste informatif. Il ne passera bloquant qu'une fois ces cas rangés :
 
+- WebKit, depuis le retrait des sauts sur la taille d'écran (3435deb) :
+  `uiux.spec.ts:71` et `:76` (une brasserie dans le premier écran à
+  1280 × 800), `uiux.spec.ts:115` (option active peinte à 320 px). Les
+  deux tests à 1280 de `accessibilite.spec.ts` sont instables. L'ancien saut
+  les cachait : ils sont à comprendre, pas à resauter ;
 - WebKit : `depart.spec.ts:44` (après « autour de moi », rien ne part hors
   l'application) ; `performance.spec.ts:38` (carte qui ne se charge pas,
   la liste reste) ; `raccourcis.spec.ts:36` instable ;

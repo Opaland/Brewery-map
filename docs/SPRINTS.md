@@ -2271,3 +2271,16 @@ aller » (liens Android) s'y appliquent.
   seulement » retirés (la taille se pose sur tout moteur). Un
   `PW_NAVIGATEUR` inconnu échoue au lieu de lancer Chromium. Le tri est
   rassemblé dans `docs/NAVIGATEURS.md`, cité mais absent jusque-là.
+
+## S244 — SIRENE contre OpenStreetMap, trois départements *(17/10)*
+
+Story d'abord (`docs/stories/S244.md`). Mesure, sans ligne de `data/`.
+Le code 11.05Z voit 22 établissements dans la Manche, 64 dans le Rhône et
+75 dans le Finistère. La couche OSM en a 8, 7 et 31. Dans la Manche, 17
+établissements n'existent que dans SIRENE, et 3 vraies brasseries que dans
+OSM. Recommandation pour S246 : SIRENE pour trouver, OSM en complément, puis
+chaque candidat est vérifié et décidé par Cédric (`docs/SIRENE.md`).
+Constaté en relançant les jobs WebKit après la revue de #84 : les tests sur
+écran d'ordinateur et à 320 px, qui ne sont plus sautés, échouent sous
+WebKit. Ils sont ajoutés au tri de `docs/NAVIGATEURS.md`.
+
