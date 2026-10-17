@@ -12,20 +12,18 @@ import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { lireLot } from '../src/core/curation'
-import { verifierDonnees, type AccordLu } from '../src/core/garde-donnees'
+import { BASE_DE_DONNEES, verifierDonnees, type AccordLu } from '../src/core/garde-donnees'
 import { empreinte, fichiersDeLots, lireTexte } from './lots'
 
-/** Le commit qui a versé le fichier fourni le 15/10, et son SHA-256. */
-const COMMIT_DE_BASE = '31cbd21001c3ead2735b3a9f3be63f5acc021519'
-const SHA256_DE_BASE = 'f683cca8c5f69ef300b7b13b5fd2d837aea88332523f651945d4a0d65f9933a9'
+
 
 function sortir(message: string, code: number): never {
   ;(code === 0 ? console.log : console.error)(message)
   process.exit(code)
 }
 
-const base = execFileSync('git', ['show', `${COMMIT_DE_BASE}:data/breweries.json`], { encoding: 'utf8' })
-if (createHash('sha256').update(base).digest('hex') !== SHA256_DE_BASE) {
+const base = execFileSync('git', ['show', `${BASE_DE_DONNEES.commit}:data/breweries.json`], { encoding: 'utf8' })
+if (createHash('sha256').update(base).digest('hex') !== BASE_DE_DONNEES.sha256) {
   sortir('le fichier de base relu dans git n’a pas l’empreinte du 15/10', 1)
 }
 

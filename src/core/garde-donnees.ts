@@ -25,8 +25,30 @@ export const accordSchema = z
   })
   .strict()
 
+/**
+ * Le fichier fourni par Cédric le 15/10 : le commit qui l'a versé, et son
+ * SHA-256. Un test vérifie qu'il commence par l'empreinte que « Quoi de
+ * neuf ? » fixe déjà (`nouveautes.ts`) : déplacer la base demande de changer
+ * les deux (revue adverse S230, §4ter).
+ */
+export const BASE_DE_DONNEES = {
+  commit: '31cbd21001c3ead2735b3a9f3be63f5acc021519',
+  sha256: 'f683cca8c5f69ef300b7b13b5fd2d837aea88332523f651945d4a0d65f9933a9',
+} as const
+
+/**
+ * Le nom du fichier d'un accord : l'instant d'écriture, en UTC à la seconde,
+ * puis le lot. L'ordre des noms est l'ordre d'acceptation, même deux fois le
+ * même jour (revue adverse S230 : « 2026-10-17-a » passait avant
+ * « 2026-10-17-b » accepté plus tôt).
+ */
+export function nomDAccord(instant: Date, lot: string): string {
+  const t = instant.toISOString().slice(0, 19).replace(/[-:]/g, '').replace('T', '-')
+  return `${t}-${lot}.json`
+}
+
 export interface AccordLu {
-  /** Le nom du fichier, qui fixe l'ordre : `AAAA-MM-JJ-<lot>.json`. */
+  /** Le nom du fichier (`nomDAccord`), qui fixe l'ordre de rejeu. */
   nom: string
   accord: unknown
   /** Le lot visé, tel qu'il est dans `curation/` aujourd'hui, et son empreinte. */
@@ -42,7 +64,7 @@ export function verifierDonnees(
   if (!v.ok) return { ok: false, erreurs: ['le fichier de base ne passe pas le schéma'] }
   let fiches = v.brasseries
   const erreurs: string[] = []
-  for (const a of [...accords].sort((x, y) => x.nom.localeCompare(y.nom))) {
+  for (const a of [...accords].sort((x, y) => (x.nom < y.nom ? -1 : x.nom > y.nom ? 1 : 0))) {
     const lu = accordSchema.safeParse(a.accord)
     if (!lu.success) {
       erreurs.push(`${a.nom} : accord illisible (${lu.error.issues.map((i) => i.path.join('.')).join(', ')})`)

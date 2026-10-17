@@ -2167,3 +2167,17 @@ Story d'abord (`docs/stories/S233.md`). `public/sw.js` (globales du service
 worker) et `public/theme-precoce.js` (navigateur) passent au lint. Une
 trouvaille : une variable d'exception inutilisée, retirée (`catch {}`). Vu
 rouge : une variable non déclarée ajoutée à `sw.js` fait échouer le lint.
+
+**Revue adverse S229–S230** (4 trouvailles, corrigées) :
+- CODEOWNERS ne couvrait pas ce qui fait tourner la garde (outils, cœur,
+  workflow) : on pouvait la désactiver sans Cédric. Couverts désormais ;
+- l'ordre de rejeu suivait le nom du lot, pas l'ordre d'acceptation (faux
+  rouge démontré) : l'accord porte l'instant d'écriture à la seconde
+  (`nomDAccord`), comparaison de chaînes simple ; test vu rouge comparateur
+  inversé ;
+- accepter un lot en deux fois le même jour plantait (EEXIST) : noms à la
+  seconde, message clair ;
+- la base de la garde n'était tenue par aucun test : elle est dans
+  `BASE_DE_DONNEES` et un test la lie à l'empreinte de « Quoi de neuf ? ».
+Le relecteur a déclenché par mégarde la porte dans une copie : c'était la
+cause des deux échecs e2e « connexion refusée » du commit S232.

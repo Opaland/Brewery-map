@@ -27,7 +27,7 @@
  *     a lu : si le lot a changé depuis, l'écriture est refusée (revue code
  *     S11).
  */
-import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import {
   appliquerLot,
   diffLisible,
@@ -42,6 +42,7 @@ import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 
 import { empreinte } from './lots'
+import { nomDAccord } from '../src/core/garde-donnees'
 
 const DONNEES = 'data/breweries.json'
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
@@ -176,7 +177,9 @@ if (commande === 'lot') {
     if (parole === '') sortir('PAROLE_DE_CEDRIC attendue : ses mots, recopiés (« j’accepte 1, 3 et 4 »)', 1)
     const accord = { lot: l.lot, empreinte: e, acceptees: acceptes, date: AUJOURDHUI, parole }
     mkdirSync('curation/accords', { recursive: true })
-    writeFileSync(`curation/accords/${AUJOURDHUI}-${l.lot}.json`, `${JSON.stringify(accord, null, 2)}\n`, { flag: 'wx' })
+    const fichier = `curation/accords/${nomDAccord(new Date(), l.lot)}`
+    if (existsSync(fichier)) sortir(`${fichier} existe déjà : relancer dans une seconde`, 1)
+    writeFileSync(fichier, `${JSON.stringify(accord, null, 2)}\n`, { flag: 'wx' })
     writeFileSync(DONNEES, formaterDonnees(r.brasseries))
     sortir(`${DONNEES} écrit : proposition(s) ${acceptes.join(', ')} du lot ${l.lot} (${e}), accord enregistré.`, 0)
   }

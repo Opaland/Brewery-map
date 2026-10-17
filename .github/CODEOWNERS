@@ -3,4 +3,14 @@
 # revue des propriétaires de code (réglage du dépôt, à activer par Cédric).
 /data/ @Opaland
 /curation/accords/ @Opaland
-/.github/CODEOWNERS @Opaland
+# Ce qui fait tourner la garde : la changer, c'est pouvoir la désactiver
+# (revue adverse S230).
+/outils/garde-donnees.ts @Opaland
+/outils/lots.ts @Opaland
+/outils/curation.ts @Opaland
+/src/core/garde-donnees.ts @Opaland
+/src/core/curation.ts @Opaland
+/src/core/schema.ts @Opaland
+/build/valider-donnees.ts @Opaland
+/.github/ @Opaland
+/.claude/hooks/ @Opaland
