@@ -1579,3 +1579,45 @@ rouges avant correction, sauf m2 et m5 (voir 2).
 4. **Reporté en S28** (refonte visuelle) :
    - m4 : sur téléphone, la liste commence à 2,3 écrans ;
    - l'image de partage (`og:image`).
+
+## S28 — Design system, revue UI/UX, marketing *(17/10)*
+
+1. **Pourquoi.** Cédric : « revue UI/UX, correction et changement de design
+   system », « la rendre sexy », « comment marketer l'appli ».
+2. **Fait.**
+   - **Design system v2 « cuivre et houblon »** (`docs/DESIGN.md`) :
+     polices hébergées (Fraunces, Inter), jetons clair et sombre, en-tête
+     cuivré avec logo, cartes, puces, barre de compte, fiche animée.
+   - **Image de partage** `public/og.jpg`, fabriquée par
+     `outils/image-partage.ts`, avec `og:image`.
+   - **Captures** refaites.
+   - **Marketing et apprentissage** : `docs/MARKETING.md`, `docs/APPRENDRE.md`.
+3. **Revue UI/UX** (designer, Marie, Inès ; 68 k) : dix trouvailles,
+   corrigées.
+   - Focus de l'en-tête à 1,51:1 : il est désormais blanc.
+   - Bord des champs à 1,30:1 : `--bord-champ`, à 3:1 au moins.
+   - « À confirmer » confondu avec le cuivre : bande rayée.
+   - Bande de catégorie effilée dans l'arrondi : désormais franche.
+   - Survol du bouton principal à 4,09:1 : cuivre plus sombre.
+   - Légende hors de son cadre sur deux lignes : désormais flottante.
+   - Compte qui couvrait 17 % d'un petit écran : il ne colle plus sous
+     700 px de hauteur.
+   - Puces irrégulières : grille de deux colonnes.
+   - Aide d'installation repliée ; trait entre la ligne et sa fiche retiré.
+   - La règle de 200 % de texte, retestée : colonnes et puces rétrécissent.
+4. **Revue adverse** (62 k) :
+   - **régression** : le compte décollé sous 700 px de haut sortait de
+     l'écran pendant qu'on réglait la distance (921 px pour 640). Il reste
+     collé, plus fin ; un test à 360 × 640 couvre ce cas ;
+   - l'anneau de focus du repli « Installer l'application » mordait sur le
+     sous-titre : le texte est recentré dans ses 44 px ;
+   - le texte d'exemple des champs était à 3,75:1 en sombre : il prend
+     l'encre douce ;
+   - le reste a été mesuré sans défaut : polices précachées, CSP tenue, pas
+     de décalage de mise en page au chargement des polices, Lighthouse
+     mobile 96–97 en local, contre 85–98 sur la base, sans écart
+     attribuable. Non vérifié : Firefox et Safari.
+5. **Proposé, pas fait** (BACKLOG) :
+   - mettre la liste avant la carte sur téléphone, avec les filtres repliés ;
+   - les trois idées « wow » de la revue : mousse animée dans l'en-tête,
+     image de la tournée à partager, fiche en feuille basculante.

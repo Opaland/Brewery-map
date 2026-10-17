@@ -342,7 +342,10 @@ export function App({
   return (
     <div className="page">
       <header className="entete">
-        <h1>Mousse de Poche</h1>
+        <div className="marque">
+          <img className="logo" src="icon.svg" alt="" width={48} height={48} />
+          <h1>Mousse de Poche</h1>
+        </div>
         <p className="sous-titre">
           Les brasseries artisanales autour de vous, et ce qu’on peut y faire.
         </p>

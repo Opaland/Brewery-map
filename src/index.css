@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Fraunces Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2-variations');
+}
+
 /*
   Jetons repris de Sentiers (docs/DESIGN_SYSTEM.md) : surfaces, encre, états,
   espacements, rayons, tailles de texte, et leurs valeurs sombres. Les couleurs
@@ -507,3 +522,309 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 /* Bord blanc comme le marqueur : visible aussi en thème sombre (audit S26, m2 : 1,17:1). */
 .pastille-groupe { background: #1e2b23; border: 2px solid #fff; box-sizing: border-box; }
 .pastille-depart { background: #fff; border: 3px solid #1e2b23; box-sizing: border-box; }
+
+/* ════════════════════════════════════════════════════════════════════════
+   Design system v2 « cuivre et houblon » (S28, demande de Cédric du 16/10 :
+   « changement de design system », « la rendre sexy »). Une couche posée sur
+   la première : mêmes classes, mêmes cibles de 44 px, mêmes contrastes
+   mesurés (tests/e2e/accessibilite.spec.ts). Polices hébergées ici (OFL),
+   aucune requête tierce (CSP).
+   ════════════════════════════════════════════════════════════════════════ */
+:root {
+  --papier: #fbf6ee;
+  --encre: #241c14;
+  --encre-douce: #5f5447;
+  --gris-vert-clair: #eadfce;
+  --blanc-carte: #fffdf9;
+  --cuivre: #9c4a17;
+  --cuivre-vif: #c0652a;
+  --cuivre-pale: #f6e6d6;
+  --texte-sur-cuivre: #fff;
+  --houblon: #4f7a2b;
+  --ombre: 0 1px 2px rgba(60, 40, 20, 0.06), 0 6px 18px rgba(60, 40, 20, 0.08);
+  --ombre-forte: 0 2px 4px rgba(60, 40, 20, 0.08), 0 12px 32px rgba(60, 40, 20, 0.14);
+  --rayon-md: 12px;
+  --rayon-lg: 18px;
+  --rayon-pilule: 999px;
+  --font-titre: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter Variable', system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --texte-vedette: 2rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #15110d;
+    --encre: #f3ece2;
+    --encre-douce: #c4b8a7;
+    --gris-vert-clair: #3a3129;
+    --blanc-carte: #1f1a15;
+    --cuivre: #e38a4c;
+    --cuivre-vif: #f0a066;
+    --cuivre-pale: #3a2617;
+    --texte-sur-cuivre: #1a120b;
+    --ombre: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 18px rgba(0, 0, 0, 0.35);
+    --ombre-forte: 0 2px 4px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.45);
+  }
+}
+
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; }
+
+/* L'en-tête : une bande cuivrée, la marque, la promesse. Blanc sur #7a3410
+   et #9c4a17 : 9,4:1 et 6,4:1 (WCAG AA, calcul du 17/10). */
+.entete {
+  margin: 0 calc(-1 * var(--espace-7));
+  padding: var(--espace-8) var(--espace-7) var(--espace-7);
+  background: linear-gradient(135deg, #7a3410 0%, #9c4a17 100%);
+  color: #fff;
+  border-radius: 0 0 var(--rayon-lg) var(--rayon-lg);
+  box-shadow: var(--ombre);
+}
+.entete .marque { display: flex; align-items: center; gap: var(--espace-6); }
+.entete .logo { width: 48px; height: 48px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); flex: none; }
+.entete h1 { font-family: var(--font-titre); font-weight: 700; font-size: var(--texte-vedette); line-height: 1.1; margin: 0; letter-spacing: -0.01em; }
+.entete .sous-titre { color: #fff; opacity: 1; margin-top: var(--espace-4); font-size: 1rem; }
+.entete .champ-aide, .entete a, .entete button { color: #fff; }
+.entete button {
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: var(--rayon-pilule);
+  min-height: 44px;
+  padding: 0 var(--espace-7);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Cartes : départ, catégories, favoris, fiches. */
+.depart, .categories {
+  background: var(--blanc-carte);
+  border: 1px solid var(--gris-vert-clair);
+  border-radius: var(--rayon-lg);
+  box-shadow: var(--ombre);
+  padding: var(--espace-6) var(--espace-7);
+}
+.depart legend, .categories legend { font-family: var(--font-titre); font-weight: 650; font-size: 1.1rem; padding: 0 var(--espace-2); }
+.depart-a-choisir { border: 2px solid var(--cuivre); }
+.depart-a-choisir legend { font-size: 1.25rem; }
+
+/* Boutons : pilules. Le premier geste (« Autour de moi ») en plein. */
+.depart-actions button, .bandeau-mise-a-jour button {
+  border-radius: var(--rayon-pilule);
+  border: 1.5px solid var(--encre);
+  font-weight: 600;
+  transition: background-color 120ms ease, transform 120ms ease;
+}
+.depart-actions button:hover { background: var(--cuivre-pale); }
+.depart-actions button:active { transform: scale(0.98); }
+.depart-actions .bouton-principal {
+  background: var(--cuivre);
+  border-color: var(--cuivre);
+  color: var(--texte-sur-cuivre);
+}
+.depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
+.bouton-lien {
+  border-radius: var(--rayon-pilule);
+  background: var(--cuivre);
+  border-color: var(--cuivre);
+  color: var(--texte-sur-cuivre);
+}
+
+/* Champs. */
+.champ input[type='search'], .champ select {
+  border-radius: var(--rayon-md);
+  border: 1.5px solid var(--gris-vert-clair);
+  background: var(--blanc-carte);
+  box-shadow: inset 0 1px 2px rgba(60, 40, 20, 0.05);
+}
+.champ input[type='search']:focus, .champ select:focus { border-color: var(--cuivre); outline: 3px solid var(--cuivre-pale); outline-offset: 0; }
+.champ > span { font-weight: 600; }
+input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
+
+/* Ce qu'on peut y faire : des puces, pas une colonne de cases (le haut de
+   page sur téléphone, audit S26 m4). La case reste une vraie case. */
+.categories { display: flex; flex-wrap: wrap; gap: var(--espace-4); }
+.categories legend { width: 100%; }
+.categories .case {
+  border: 1.5px solid var(--gris-vert-clair);
+  border-radius: var(--rayon-pilule);
+  padding: 0 var(--espace-6) 0 var(--espace-4);
+  background: var(--papier);
+  font-size: var(--texte-secondaire);
+  font-weight: 500;
+  gap: var(--espace-4);
+}
+.categories .case:has(input:checked) { border-color: var(--cuivre); background: var(--cuivre-pale); }
+.categories .case input { width: 18px; height: 18px; }
+.categories .case:last-child:not(.cat-0):not(.cat-1):not(.cat-2):not(.cat-3) { width: 100%; border-radius: var(--rayon-md); }
+
+/* Le compte : une barre collée, lisible d'un coup d'œil. */
+.compte {
+  font-family: var(--font-titre);
+  font-size: 1.15rem;
+  font-weight: 650;
+  padding: var(--espace-6) var(--espace-2);
+  background: color-mix(in srgb, var(--papier) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid var(--gris-vert-clair);
+}
+
+/* Les lignes : des cartes, une bande de la couleur de leur catégorie. */
+.liste { gap: var(--espace-6); }
+.ligne {
+  border-radius: var(--rayon-lg);
+  border: 1px solid var(--gris-vert-clair);
+  border-left: 6px solid var(--gris-vert-clair);
+  box-shadow: var(--ombre);
+  padding: var(--espace-7);
+  transition: box-shadow 140ms ease, transform 140ms ease;
+}
+.ligne:hover { box-shadow: var(--ombre-forte); }
+.ligne.cat-0 { border-left-color: var(--cat-0); }
+.ligne.cat-1 { border-left-color: var(--cat-1); }
+.ligne.cat-2 { border-left-color: var(--cat-2); }
+.ligne.cat-3 { border-left-color: var(--cat-3); }
+.ligne[aria-expanded='true'] {
+  border: 2px solid var(--cuivre);
+  border-left: 6px solid var(--cuivre);
+  border-bottom-width: 1px;
+  border-radius: var(--rayon-lg) var(--rayon-lg) 0 0;
+  padding: calc(var(--espace-7) - 1px);
+  box-shadow: var(--ombre-forte);
+}
+.ligne-nom { font-family: var(--font-titre); font-size: 1.2rem; font-weight: 650; line-height: 1.25; }
+.ligne-distance {
+  display: inline-block;
+  padding: 0 var(--espace-4);
+  border-radius: var(--rayon-pilule);
+  background: var(--cuivre-pale);
+  color: var(--encre);
+  font-size: var(--texte-secondaire);
+  font-weight: 700;
+}
+.badge { font-weight: 600; }
+
+.fiche {
+  border: 2px solid var(--cuivre);
+  border-left-width: 6px;
+  border-top: none;
+  border-radius: 0 0 var(--rayon-lg) var(--rayon-lg);
+  padding: var(--espace-7);
+  box-shadow: var(--ombre-forte);
+  animation: fiche-ouvre 180ms ease-out;
+}
+.fiche dt { font-family: var(--font-titre); font-size: 0.95rem; letter-spacing: 0.01em; }
+.fiche-titre { font-family: var(--font-titre); font-size: 1.05rem; }
+@keyframes fiche-ouvre {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* La carte : un cadre arrondi, posé. */
+.carte, .carte-attente, .carte-absente { border-radius: var(--rayon-lg); box-shadow: var(--ombre); border-color: var(--gris-vert-clair); }
+.marqueur-groupe { background: #7a3410; }
+.pastille-groupe { background: #7a3410; }
+
+.choix-commune-liste { border-radius: var(--rayon-md); box-shadow: var(--ombre-forte); overflow: hidden; }
+.choix-commune-liste li.active { background: var(--cuivre-pale); }
+
+.pied { border-top-color: var(--gris-vert-clair); }
+
+/* Les colonnes de la grille peuvent rétrécir sous leur contenu : à 200 % de
+   texte, la carte et la liste prenaient 326 px pour 288 (S28, même test que
+   l'audit M1). Un mot trop long se coupe plutôt que de pousser la page. */
+.vues > * { min-width: 0; }
+.ligne, .fiche { min-width: 0; overflow-wrap: anywhere; }
+
+/* Moins d'animations demandé : rien ne bouge. */
+@media (prefers-reduced-motion: reduce) {
+  .fiche { animation: none; }
+  .ligne, .depart-actions button { transition: none; }
+}
+
+@media (min-width: 900px) {
+  .entete { margin: 0; border-radius: 0 0 var(--rayon-lg) var(--rayon-lg); padding: var(--espace-8); }
+  .entete h1 { font-size: 2.5rem; }
+}
+
+/* ── Revue UI/UX S28 : corrections mesurées ───────────────────────────── */
+
+/* 1. Le focus sur l'en-tête cuivré : blanc (6,17:1 au moins), le cuivre vif
+   y faisait 1,51:1. */
+.entete :focus-visible { outline-color: #fff; }
+/* Le texte centré dans ses 44 px : l'anneau de focus ne mord plus le sous-titre. */
+.installer-repli summary { min-height: 44px; display: list-item; padding: 12px 0; margin-top: var(--espace-2); cursor: pointer; font-size: var(--texte-secondaire); line-height: 20px; }
+.entete .installer-repli .champ-aide { color: #fff; margin-top: var(--espace-2); }
+
+/* 3. Le compte, plus discret. Sur un écran bas, il reste collé — décollé, il
+   sortait de l'écran pendant qu'on réglait la distance (revue adverse S28 :
+   921 px pour 640) — mais plus fin et sur une ligne. */
+.compte { font-size: 1rem; background: color-mix(in srgb, var(--papier) 97%, transparent); }
+@media (max-height: 700px) {
+  .compte { font-size: 0.875rem; padding: var(--espace-2) var(--espace-2); line-height: 1.3; }
+}
+/* Le texte d'exemple des champs : 3,75:1 en sombre avec la couleur du
+   navigateur (revue adverse S28) ; l'encre douce, 7:1 et plus. */
+.champ input::placeholder { color: var(--encre-douce); opacity: 1; }
+
+/* 4. La légende reste dans son cadre, même sur deux lignes (« Point de
+   départ : Saint-… ») : flottante, sur toute la largeur. */
+.depart legend, .categories legend { float: left; width: 100%; padding: 0; margin: 0 0 var(--espace-4); }
+.depart legend + *, .categories legend + * { clear: both; }
+
+/* 5. Bord des champs à 3:1 au moins (WCAG 1.4.11) : 3,93:1 et 4,30:1
+   (calcul de la revue). Le focus, le même anneau que partout. */
+:root { --bord-champ: #8c7d6b; }
+@media (prefers-color-scheme: dark) { :root { --bord-champ: #8a7d6d; } }
+.champ input[type='search'], .champ select { border-color: var(--bord-champ); }
+.champ input[type='search']:focus, .champ select:focus { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; border-color: var(--cuivre); }
+
+/* 6 et 7. La bande de catégorie : franche (le bord de 6 px s'effilait dans
+   l'arrondi), et rayée pour « À confirmer », dont l'orange se confondait
+   avec le cuivre de la marque (1,11:1) : un second indice que la couleur. */
+.ligne {
+  border-left-width: 1px;
+  background-image: linear-gradient(var(--bande, transparent), var(--bande, transparent));
+  background-size: 6px 100%;
+  background-repeat: no-repeat;
+  padding-left: calc(var(--espace-7) + 6px);
+}
+.ligne.cat-0 {
+  border-left-color: var(--gris-vert-clair);
+  background-image: repeating-linear-gradient(180deg, var(--cat-0) 0 6px, transparent 6px 10px);
+}
+.ligne.cat-1 { --bande: var(--cat-1); border-left-color: var(--gris-vert-clair); }
+.ligne.cat-2 { --bande: var(--cat-2); border-left-color: var(--gris-vert-clair); }
+.ligne.cat-3 { --bande: var(--cat-3); border-left-color: var(--gris-vert-clair); }
+.ligne[aria-expanded='true'] {
+  border-left: 2px solid var(--cuivre);
+  padding-left: calc(var(--espace-7) + 5px);
+  /* 8. Pas de trait entre la ligne ouverte et sa fiche. */
+  border-bottom-color: transparent;
+}
+.fiche { border-left-width: 2px; margin-top: -1px; }
+.badge-verifier { display: block; }
+
+/* 9. Survol du bouton principal : un cuivre plus sombre (le cuivre vif
+   faisait 4,09:1 sous le blanc), et seulement là où le survol existe. */
+.depart-actions .bouton-principal:hover { background: var(--cuivre); border-color: var(--cuivre); }
+@media (hover: hover) {
+  .depart-actions .bouton-principal:hover { background: #7a3410; border-color: #7a3410; }
+}
+@media (hover: hover) and (prefers-color-scheme: dark) {
+  .depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
+}
+
+/* 10. Les puces en grille régulière de deux colonnes. */
+.categories { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.categories .case { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
+.categories legend, .categories .case:last-child { grid-column: 1 / -1; }
+.categories .case { padding-right: var(--espace-4); }
+
+/* Sur ordinateur, l'en-tête en une bande serrée : la première brasserie
+   doit rester dans le premier écran (test « ordinateur », 1280 × 800). */
+@media (min-width: 900px) {
+  .entete { padding: var(--espace-7) var(--espace-8); display: flex; flex-wrap: wrap; align-items: center; gap: var(--espace-2) var(--espace-8); }
+  .entete h1 { font-size: 2rem; }
+  .entete .sous-titre { margin: 0; flex: 1; min-width: 16rem; }
+  .categories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

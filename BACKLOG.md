@@ -212,6 +212,16 @@ chacun demande une décision ou une vérification de source.
   - les nombres du menu des départements ignorent les catégories cochées et
     le type de bière.
 
+- S28 — proposé par la revue UI/UX, pas fait :
+  - sur téléphone, la liste avant la carte dans le document, et les filtres
+    (catégories, favoris) repliés : la première ligne est encore à 2,1
+    écrans ;
+  - mousse animée (SVG) dans l'en-tête, arrêtée si l'on demande moins de
+    mouvement ;
+  - « Partager ma tournée » : une image composée sur un canvas, dans le
+    téléphone ;
+  - fiche en feuille basculante (« bottom sheet ») sur téléphone.
+
 ## Lots de curation non faits
 
 *(rempli en S5)*

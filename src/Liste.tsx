@@ -248,7 +248,7 @@ export function Liste({
           <li key={brasserie.n} className={ouverte ? 'ouverte' : undefined}>
             <button
               type="button"
-              className="ligne"
+              className={`ligne cat-${String(brasserie.cat)}`}
               aria-expanded={ouverte}
               aria-controls={ouverte ? idFiche(brasserie.n) : undefined}
               data-nom={brasserie.n}
@@ -288,7 +288,7 @@ export function Liste({
                 {brasserie.conf === 'faible' && (
                   <span className="badge-verifier" data-testid="badge-verifier">
                     {' '}
-                    · vérifiez avant d’y aller
+                    Vérifiez avant d’y aller.
                   </span>
                 )}
                 {/* Décision #35 : une fiche fermée ne paraît que cherchée par son nom. */}
