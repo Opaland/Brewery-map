@@ -1,0 +1,44 @@
+{
+ "candidat": "sirene:882377708",
+ "ajout": {
+  "fiche": {
+   "n": "Captain James",
+   "c": "Agon-Coutainville",
+   "d": "50",
+   "lat": 49.03803,
+   "lon": -1.59428,
+   "km": 606.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie (jeudi, vendredi, samedi 17h-19h de septembre à juin ; du mardi au samedi 15h-19h en juillet et août), d'après son site ; dégustation lors des visites seulement.",
+   "addr": "26 avenue du Passous, 50230 Agon-Coutainville",
+   "src": "https://captain-james.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "autre",
+     "libelle": "Rousse"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://captain-james.fr",
+   "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=1"
+  ],
+  "extrait": "De septembre à juin Jeudi, vendredi et samedi: 17H-19H",
+  "choix": "Extrait relu sur la page le 17/10. En juillet et août : « Du mardi au samedi: 15H-19H ». Bières lues : la blanche, la blonde, la rousse, la brune, l'IPA."
+ }
+}

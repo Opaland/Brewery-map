@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:897489548",
+ "ajout": {
+  "fiche": {
+   "n": "Fée d'Orge",
+   "c": "Bréhal",
+   "d": "50",
+   "lat": 48.89603,
+   "lon": -1.53892,
+   "km": 594.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale normande (site officiel), mais le site ne montre ni vente, ni horaires, ni adresse lisibles : catégorie à confirmer.",
+   "addr": "Bréhal",
+   "src": "https://feedorge.com/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://feedorge.com/"
+  ],
+  "extrait": "Brasserie artisanale Fée d’Orge - Bières Normandes - Manche",
+  "choix": "Un extrait de recherche parlait d'un « retrait en boutique » rue du Clos des Mares, non lu sur une page : non repris. Position au centre de la commune."
+ }
+}

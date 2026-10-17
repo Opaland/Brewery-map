@@ -1,3 +1,4 @@
+import { normaliser } from './recherche'
 import { z } from './zod'
 import { CATEGORIES } from './categories'
 import { BRIGNAIS, distanceKm, type Point } from './distance'
@@ -425,6 +426,33 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
   const corps = [premier, ...reste].join(sep)
   const international = `(?:\\(?\\+33\\)?|00${sep}33)${sep}(?:\\(0\\)${sep}|0)?`
   return new RegExp(`(?<![\\d+])(?:0|${international})${corps}(?!\\d)`).test(page.replace(/&nbsp;/g, ' '))
+}
+
+const ENTITES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }
+
+/** Le texte lu d'une page : sans balises, entités décodées, sans accents ni casse, espaces réduits. */
+function texteComparable(t: string): string {
+  return normaliser(
+    t
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&#(\d+);/g, (_, n: string) => String.fromCodePoint(Number(n)))
+      .replace(/&#x([0-9a-f]+);/gi, (_, n: string) => String.fromCodePoint(parseInt(n, 16)))
+      .replace(/&([a-z]+)acute;|&([a-z]+)grave;|&([a-z]+)circ;|&([a-z]+)uml;|&([a-z]+)cedil;/gi, (_m, ...g: (string | undefined)[]) => g.find((x) => x !== undefined) ?? '')
+      .replace(/&([a-z]+);/gi, (m, n: string) => ENTITES[n.toLowerCase()] ?? m)
+      .replace(/[\u2018\u2019]/g, "'"),
+  )
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+/**
+ * L'extrait d'une fiche nouvelle est-il sur la page de sa source (S247) ?
+ * Sans ce contrôle, « controler » ne lisait que les propositions et disait
+ * « sans écart » d'un lot d'ajouts qu'il n'avait pas ouvert.
+ */
+export function extraitSurLaPage(extrait: string, page: string): boolean {
+  const e = texteComparable(extrait)
+  return e !== '' && texteComparable(page).includes(e)
 }
 
 /**

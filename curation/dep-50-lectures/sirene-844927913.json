@@ -1,0 +1,31 @@
+{
+ "candidat": "sirene:844927913",
+ "ajout": {
+  "fiche": {
+   "n": "Les Travailleurs de la Mer",
+   "c": "Les Pieux",
+   "d": "50",
+   "lat": 49.51579,
+   "lon": -1.80148,
+   "km": 650.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Un espace de dégustation et de vente accueille le public, d'après le site de la brasserie (mardi, mercredi, vendredi et samedi).",
+   "addr": "23 route de Cherbourg, 50340 Les Pieux",
+   "src": "https://lestravailleursdelamer.com/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://lestravailleursdelamer.com/",
+   "https://data.geopf.fr/geocodage/search?q=23+route+de+Cherbourg%2C+50340+Les+Pieux&limit=1"
+  ],
+  "extrait": "Un espace dédié à la dégustation et à la vente accueille le public.",
+  "choix": "Le site écrit aussi « Les Travailleurs de l'Amer » (même adresse ; OSM way/100569088). Blanche : « Brassée avec du froment bio… ». Horaires lus (« Mardi, Mercredi, Vendredi, Samedi : 9h30-13h / 15h – 19h ») sans dire accueil ou vente : non repris en bloc. Un agent avait proposé la catégorie 3, contraire à l'extrait : 1 retenue. Téléphone publié : un mobile, non repris."
+ }
+}

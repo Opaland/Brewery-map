@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:847925666",
+ "ajout": {
+  "fiche": {
+   "n": "La Moussette",
+   "c": "Hauteville-sur-Mer",
+   "d": "50",
+   "lat": 48.97076,
+   "lon": -1.54595,
+   "km": 599.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bar-bistrot avec terrasse au marché qui sert sa bière brassée tout près, d'après un article de 2021 ; ni horaires ni adresse lus.",
+   "addr": "Hauteville-sur-Mer",
+   "src": "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html"
+  ],
+  "extrait": "bière éponyme brassée à quelques hectomètres de là",
+  "choix": "Source de presse datée (10/07/2021) : à revérifier. Position au centre de la commune."
+ }
+}

@@ -2393,3 +2393,35 @@ en fusionne 3 :
 - les Travailleurs de la Mer, par l'adresse.
 
 Les 2 autres de S244 étaient des rapprochements de commune sans même nom.
+
+## S247 (1/2) — Pilote Manche : un lot de 9 fiches pour Cédric *(17/10)*
+
+Story d'abord (`docs/stories/S247.md`). Les 26 candidats de la Manche ont
+été lus par 5 agents `verificateur-de-brasserie`. Les positions viennent du
+géocodeur de l'IGN, au numéro de la voie seulement : une rue sans numéro
+donne le centre de la commune.
+
+Le lot `curation/dep-50.{json,md}` (empreinte dans le `.md`) compte
+9 fiches nouvelles :
+- 5 avec une catégorie lue :
+  - Les Travailleurs de la Mer et L'Écume des Falaises, en 1 ;
+  - Captain James, en 2 ;
+  - Léopard et La Moussette, en 1, confiance faible ;
+- 4 « À confirmer » : Fée d'Orge (Bréhal, près de Coutances), Bifrost,
+  Cotentine et Pinte de Saire.
+
+17 candidats ne sont pas proposés, chacun avec sa raison. Aucune page
+Untappd n'a été vérifiée.
+
+**Trouvé en route (§1bis)** : `controler` ne lisait que les propositions et
+répondait « sans écart » sur un lot d'ajouts qu'il n'avait pas ouvert.
+`extraitSurLaPage` a été écrite test d'abord, et ses deux mutants sont
+tués. `controler` rouvre maintenant chaque source d'une fiche nouvelle et y
+cherche l'extrait. Trois extraits n'étaient pas mot pour mot sur leur page :
+ils ont été remplacés par le texte lu. Résultat sur le lot : 9 sur 9.
+
+Un agent avait proposé la catégorie 3 (« Pas de vente ») pour une brasserie
+dont l'extrait dit « dégustation et vente » ; la catégorie 1 a été retenue.
+
+Reste (CA5) : le Calvados, avec Mobsby's, dont le site donne Vire.
+

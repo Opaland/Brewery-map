@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:833567571",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Pinte de Saire",
+   "c": "Saint-Vaast-la-Hougue",
+   "d": "50",
+   "lat": 49.59619,
+   "lon": -1.27116,
+   "km": 627.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie avec estaminet et boutique d'après l'office de tourisme, mais le passage lu a pu être reformulé par l'outil de lecture : catégorie à confirmer.",
+   "addr": "10 ZA du Pont des Bernes, 50550 Saint-Vaast-la-Hougue",
+   "src": "https://brasseriepintedesaire.fr",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://brasseriepintedesaire.fr"
+  ],
+  "extrait": "Visite guidée Les 3 Tontons Taproom Atelier de Brassage",
+  "choix": "Le menu du site officiel cite un « Taproom » (page « estaminet ») ; l'office de tourisme (group.manche-tourism.com) décrit un estaminet et une boutique d'usine, mais son texte n'a pas été lu mot pour mot : pas de catégorie proposée, la 1 serait possible après lecture de la page Taproom. Deux numéros (02 33 42 65 12 à l'office, un mobile sur le site) : aucun repris, à choisir par Cédric."
+ }
+}
