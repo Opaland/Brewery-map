@@ -28,3 +28,7 @@ Le fond de carte hors ligne (S166).
 Verdict : **PASSE**.
 - CA1 et CA2 : vus rouges, puis verts.
 - CA3 : références refaites par la CI (commit du robot).
+- Après la revue adverse de S248, le message est passé sous la carte. La
+  capture `carte` (commit 08efc63) montre maintenant la carte entière, sans
+  rien par-dessus. Le message, hors du cadre capturé, est tenu par le test
+  e2e : il ne croise pas la carte, à 412 et 320 px et à 200 % de texte.
