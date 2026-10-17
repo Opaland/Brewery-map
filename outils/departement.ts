@@ -7,6 +7,14 @@
  *     déjà, et écrit `curation/dep-50-candidats.{json,md}` : les paquets que
  *     les agents `verificateur-de-brasserie` liront (skill lot-de-curation).
  *
+ *   npx tsx outils/departement.ts lectures 50 <fichier.json>
+ *     Transforme ce que les agents ont lu (tableau d'objets : cle, n, c,
+ *     adresse|null, cat, conf, note, src, extrait, beers, choix) en lectures
+ *     `curation/dep-50-lectures/*.json` : position du géocodeur de l'IGN,
+ *     refusée hors du département ou de la commune, ou sans numéro de voie
+ *     (S248), sinon
+ *     centre de la commune ; distance à Brignais calculée.
+ *
  *   npx tsx outils/departement.ts assembler 50
  *     Rassemble les lectures des agents (`curation/dep-50-lectures/*.json`,
  *     chacune `{ candidat, ajout }`) en lot `curation/dep-50.json`, au format
@@ -21,8 +29,10 @@
  */
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { BRIGNAIS, distanceKm } from '../src/core/distance'
 import {
   assemblerLot,
+  positionDuGeocodeur,
   candidatsDuDepartement,
   classerDuDepartement,
   prefixePostal,
@@ -179,6 +189,86 @@ async function candidats(dep: string): Promise<void> {
   )
 }
 
+interface LectureAgent {
+  cle: string
+  n: string
+  c: string
+  adresse: string | null
+  cat: number
+  conf: string
+  note: string
+  src: string
+  extrait: string
+  beers: unknown[]
+  choix?: string
+}
+
+const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
+
+/** Une requête au géocodeur, avec reprise (le mandataire coupe souvent). */
+function geocoder(params: Record<string, string>): { url: string; reponse: unknown } {
+  const url = GEOCODEUR + new URLSearchParams({ ...params, limit: '5' }).toString()
+  for (let essai = 1; essai <= 8; essai++) {
+    try {
+      return { url, reponse: JSON.parse(execFileSync('curl', ['-sS', '-f', '-m', '20', url], { encoding: 'utf8' })) as unknown }
+    } catch {
+      if (essai < 8) execFileSync('sleep', [String(2 * essai)])
+    }
+  }
+  throw new Error(`géocodeur injoignable : ${url}`)
+}
+
+function lectures(dep: string, fichier: string | undefined): void {
+  if (fichier === undefined) {
+    console.error('usage : npx tsx outils/departement.ts lectures <dép.> <fichier.json>')
+    process.exit(2)
+  }
+  const dossier = `curation/dep-${dep}-lectures`
+  mkdirSync(dossier, { recursive: true })
+  const aujourdhui = new Date().toISOString().slice(0, 10)
+  for (const l of JSON.parse(readFileSync(fichier, 'utf8')) as LectureAgent[]) {
+    let pos = null
+    let source: string | undefined
+    if (l.adresse !== null) {
+      const g = geocoder({ q: l.adresse })
+      pos = positionDuGeocodeur(g.reponse, dep, l.c, 'address')
+      source = g.url
+    }
+    if (pos === null) {
+      pos = positionDuGeocodeur(geocoder({ q: l.c, type: 'municipality' }).reponse, dep, l.c, 'commune')
+      source = undefined
+    }
+    if (pos === null) {
+      console.log(`- ${l.cle} (${l.n}) : ni l'adresse ni la commune ne se géocodent dans le ${dep} — non écrite`)
+      continue
+    }
+    const fiche = {
+      n: l.n,
+      c: l.c,
+      d: dep,
+      lat: pos.lat,
+      lon: pos.lon,
+      km: Math.round(distanceKm(BRIGNAIS, pos) * 10) / 10,
+      cat: l.cat,
+      conf: l.conf,
+      note: l.note,
+      addr: l.adresse ?? l.c,
+      src: l.src,
+      coordPrecision: pos.precision,
+      beers: l.beers,
+    }
+    const ajout = {
+      fiche,
+      verifieLe: aujourdhui,
+      sources: [l.src, ...(source === undefined ? [] : [source])],
+      extrait: l.extrait,
+      ...(l.choix === undefined ? {} : { choix: l.choix }),
+    }
+    writeFileSync(`${dossier}/${l.cle.replace(/[:/]/g, '-')}.json`, `${JSON.stringify({ candidat: l.cle, ajout }, null, 1)}\n`)
+    console.log(`${l.n} : ${pos.precision} (${String(fiche.km)} km de Brignais)`)
+  }
+}
+
 function assembler(dep: string): void {
   const dossier = `curation/dep-${dep}-lectures`
   if (!existsSync(dossier)) {
@@ -213,11 +303,12 @@ const args = process.argv.slice(2)
 const commande = args.at(0)
 const dep = args.at(1)
 if (dep === undefined || !/^(\d{2}|2[AB])$/.test(dep)) {
-  console.error('usage : npx tsx outils/departement.ts candidats|assembler <département>')
+  console.error('usage : npx tsx outils/departement.ts candidats|lectures|assembler <département>')
   process.exit(2)
 }
 if (commande === 'candidats') await candidats(dep)
 else if (commande === 'assembler') assembler(dep)
+else if (commande === 'lectures') lectures(dep, args.at(2))
 else {
   console.error(`commande inconnue : ${commande ?? ''}`)
   process.exit(2)

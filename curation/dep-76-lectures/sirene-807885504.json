@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:807885504",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Saint Joseph",
+   "c": "Le Havre",
+   "d": "76",
+   "lat": 49.47939,
+   "lon": 0.1498,
+   "km": 546,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique de la brasserie selon l'office de tourisme ; ni horaires ni vente sur place établis.",
+   "addr": "2 rue Buffon, 76600 Le Havre",
+   "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-saint-joseph-boutique-le-havre-en-5136752",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.seine-maritime-tourisme.com/en/offers/brasserie-saint-joseph-boutique-le-havre-en-5136752",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+Buffon%2C+76600+Le+Havre&limit=5"
+  ],
+  "extrait": "2 Rue Buffon",
+  "choix": "Même adresse que l'entreprise BE NEWS du registre, lien non établi."
+ }
+}

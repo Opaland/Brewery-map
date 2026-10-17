@@ -19,7 +19,7 @@
   "verifieLe": "2026-10-17",
   "sources": [
    "https://en.normandie-tourisme.fr/stores/brasserie-bifrost/",
-   "https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=1"
+   "https://data.geopf.fr/geocodage/search?q=30+rue+Madeleine+Desdevises%2C+50000+Saint-L%C3%B4&limit=5"
   ],
   "extrait": "Address 30 rue Madeleine Desdevises 50000 SAINT-LO",
   "choix": "Source d'annuaire seulement. Téléphone de l'annuaire (mobile) non repris."

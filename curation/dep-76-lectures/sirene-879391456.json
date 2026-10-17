@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:879391456",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bakbuk",
+   "c": "Les Authieux-sur-le-Port-Saint-Ouen",
+   "d": "76",
+   "lat": 49.32745,
+   "lon": 1.13487,
+   "km": 488.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie ouverte au public en semaine, de 9 h à 18 h ; la vente sur place se lit sur une page illisible sans JavaScript : catégorie à confirmer.",
+   "addr": "218 rue des Canadiens, 76520 Les Authieux-sur-le-Port-Saint-Ouen",
+   "src": "https://www.brasserie-bakbuk.com/contact",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-bakbuk.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=218+rue+des+Canadiens%2C+76520+Les+Authieux-sur-le-Port-Saint-Ouen&limit=5"
+  ],
+  "extrait": "Ouvert au public de 9h à 18h du lundi au vendredi",
+  "choix": "La page « points de vente » dirait « Vente à emporter à la brasserie » (lu par un agent, pas relu). Le point OSM de Sotteville-lès-Rouen n'est pas confirmé par le site."
+ }
+}

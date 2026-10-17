@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:841448731",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sainte Beuve",
+   "c": "Le Caule-Sainte-Beuve",
+   "d": "76",
+   "lat": 49.76544,
+   "lon": 1.59508,
+   "km": 512.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Boutique en ligne avec retrait sur place, d'après l'office de tourisme ; vente directe sur place non établie.",
+   "addr": "7 route de l'Église, 76390 Le Caule-Sainte-Beuve",
+   "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+   "https://data.geopf.fr/geocodage/search?q=7+route+de+l%27%C3%89glise%2C+76390+Le+Caule-Sainte-Beuve&limit=5"
+  ],
+  "extrait": "7 route de l'Église",
+  "choix": "Fiche d'office de tourisme seulement."
+ }
+}

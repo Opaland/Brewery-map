@@ -208,18 +208,18 @@ a { color: inherit; }
 
 .carte-cadre { position: relative; }
 
+/* Sous la carte, dans le flux, et non posé dessus : en bas, la mention
+   « © contributeurs OpenStreetMap » le recouvrait (S240) ; en haut, il
+   cachait 6 marqueurs sur 9 à 320 px et débordait du cadre à 200 % de
+   texte (revue adverse S248). Hors de la carte, il ne cache rien. */
 .carte-fond-absent {
-  position: absolute;
-  left: var(--espace-4);
-  right: var(--espace-4);
-  bottom: var(--espace-8);
   margin: 0;
+  margin-top: var(--espace-4);
   padding: var(--espace-4) var(--espace-6);
   background: var(--blanc-carte);
   color: var(--encre);
   border-radius: var(--rayon-md);
   border-left: 3px solid var(--attention-bord);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
   font-size: var(--texte-secondaire);
 }
 

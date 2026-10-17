@@ -1,0 +1,953 @@
+[
+ {
+  "cle": "sirene:798878146",
+  "nom": "LA JJAP",
+  "communes": [
+   "SAINT-ROMAIN-DE-COLBOSC"
+  ],
+  "departement": "76",
+  "adresses": [
+   "4 RUE DU BASSIN 76430 SAINT-ROMAIN-DE-COLBOSC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "798878146",
+  "sirets": [
+   "79887814600033"
+  ],
+  "osm": [
+   "node/12029747232"
+  ],
+  "lat": 49.530923134,
+  "lon": 0.3575228063,
+  "site": "https://www.les2terres.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897662409",
+  "nom": "SAS BRASSERIE DIEPPOISE",
+  "communes": [
+   "ARQUES-LA-BATAILLE",
+   "MARTIN-EGLISE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "IMPASSE BAUDELOT 76880 ARQUES-LA-BATAILLE",
+   "PARC REGIONAL D ACTIVITES EUROCHANNEL 35 RUE LOUIS BLERIOT 76370 MARTIN-EGLISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897662409",
+  "sirets": [
+   "89766240900019",
+   "89766240900035"
+  ],
+  "osm": [],
+  "lat": 49.880517995,
+  "lon": 1.127894784,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879603694",
+  "nom": "LES PILOTES",
+  "communes": [
+   "ARELAUNE-EN-SEINE",
+   "RIVES-EN-SEINE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "LA MAILLERAYE SUR SEINE 277 RUE PASTEUR 76940 ARELAUNE-EN-SEINE",
+   "VILLEQUIER 1 QUAI SAINT-LEGER 76490 RIVES-EN-SEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879603694",
+  "sirets": [
+   "87960369400016",
+   "87960369400024"
+  ],
+  "osm": [],
+  "lat": 49.480010169,
+  "lon": 0.7742772665,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839244795",
+  "nom": "TBS DISTRIBUTION",
+  "communes": [
+   "MONT-SAINT-AIGNAN",
+   "ROUEN"
+  ],
+  "departement": "76",
+  "adresses": [
+   "26 RUE MARECHAL JOFFRE 76130 MONT-SAINT-AIGNAN",
+   "M.I.N - MARCHE D INTERET NATIONAL AV DU CDT BERNARD BICHERAY 76000 ROUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839244795",
+  "sirets": [
+   "83924479500010",
+   "83924479500028"
+  ],
+  "osm": [],
+  "lat": 49.456686841,
+  "lon": 1.0860161359,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878788587",
+  "nom": "1989 BREWING",
+  "communes": [
+   "SAINT-ETIENNE-DU-ROUVRAY"
+  ],
+  "departement": "76",
+  "adresses": [
+   "2 RUE DU CHAMP DES BRUYERES 76800 SAINT-ETIENNE-DU-ROUVRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878788587",
+  "sirets": [
+   "87878858700037"
+  ],
+  "osm": [],
+  "lat": 49.3912541772041,
+  "lon": 1.08355193626952,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952888691",
+  "nom": "L'ONOMATHOPPEE",
+  "communes": [
+   "AMBRUMESNIL",
+   "OFFRANVILLE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "3 LOT LES PINS ROUTE DE L ANCIENNE MA 76550 AMBRUMESNIL",
+   "337 B RUE JACQUES EMILE BLANCHE 76550 OFFRANVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952888691",
+  "sirets": [
+   "95288869100013",
+   "95288869100021"
+  ],
+  "osm": [],
+  "lat": 49.857630951,
+  "lon": 0.9883426714,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853617660",
+  "nom": "LA MOME",
+  "communes": [
+   "MAROMME",
+   "ROUEN"
+  ],
+  "departement": "76",
+  "adresses": [
+   "9 RUE DU MOULIN A POUDRE 76150 MAROMME",
+   "85 RUE GANTERIE 76000 ROUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853617660",
+  "sirets": [
+   "85361766000040",
+   "85361766000057"
+  ],
+  "osm": [],
+  "lat": 49.4848030373277,
+  "lon": 1.04545296534094,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879391456",
+  "nom": "BRASSERIE BAKBUK",
+  "communes": [
+   "LES AUTHIEUX-SUR-LE-PORT-SAINT-OUEN"
+  ],
+  "departement": "76",
+  "adresses": [
+   "ZA DES POINTES 218 RUE DES CANADIENS 76520 LES AUTHIEUX-SUR-LE-PORT-SAINT-OUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879391456",
+  "sirets": [
+   "87939145600032"
+  ],
+  "osm": [],
+  "lat": 49.3274522979642,
+  "lon": 1.1348699806996,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880343181",
+  "nom": "BRASSERIE DE LA POINTE DE BRAY",
+  "communes": [
+   "OSMOY-SAINT-VALERY"
+  ],
+  "departement": "76",
+  "adresses": [
+   "60 ROUTE DES GRANDES VENTES 76660 OSMOY-SAINT-VALERY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880343181",
+  "sirets": [
+   "88034318100017"
+  ],
+  "osm": [],
+  "lat": 49.7937210306855,
+  "lon": 1.31583903551353,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828459909",
+  "nom": "WALKER EXPERIENCE",
+  "communes": [
+   "SAINT-JACQUES-SUR-DARNETAL"
+  ],
+  "departement": "76",
+  "adresses": [
+   "VOIE A 1071 ZONE D'ACTIVITE DE LA BRIQUETERIE 76160 SAINT-JACQUES-SUR-DARNETAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828459909",
+  "sirets": [
+   "82845990900028"
+  ],
+  "osm": [],
+  "lat": 49.440953256,
+  "lon": 1.1821500403,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931350599",
+  "nom": "BRASSERIE YATA",
+  "communes": [
+   "LILLEBONNE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "4 PARC D'ACTIVITES DU MANOIR 76170 LILLEBONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931350599",
+  "sirets": [
+   "93135059900011"
+  ],
+  "osm": [],
+  "lat": 49.509533913,
+  "lon": 0.5366580922,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "ROUEN"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-VAAST-DIEPPEDALLE"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:850829789",
+  "nom": "FABRIK2BULLES",
+  "communes": [
+   "AMFREVILLE-LES-CHAMPS"
+  ],
+  "departement": "76",
+  "adresses": [
+   "101 ROUTE D'YVETOT 76560 AMFREVILLE-LES-CHAMPS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850829789",
+  "sirets": [
+   "85082978900013"
+  ],
+  "osm": [
+   "way/511497025"
+  ],
+  "lat": 49.695799739,
+  "lon": 0.817239846,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "SOTTEVILLE-LES-ROUEN"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "MONTVILLE"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "HENOUVILLE"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:983164260",
+  "nom": "SCAVENGERS CRAFT BEER",
+  "communes": [
+   "OISSEL-SUR-SEINE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "9 RUE DE LA SABLONNIERE 76350 OISSEL-SUR-SEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983164260",
+  "sirets": [
+   "98316426000025"
+  ],
+  "osm": [],
+  "lat": 49.3495478774265,
+  "lon": 1.10475586817905,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:106441744",
+  "nom": "ROARING SUDS BREWERY",
+  "communes": [
+   "PETIT-COURONNE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "1690 RUE ARISTIDE BRIAND 76650 PETIT-COURONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "106441744",
+  "sirets": [
+   "10644174400013"
+  ],
+  "osm": [],
+  "lat": 49.3839248921652,
+  "lon": 1.02049856570482,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893309054",
+  "nom": "BRASSERIE BAKPAKER",
+  "communes": [
+   "SAINT-SAENS"
+  ],
+  "departement": "76",
+  "adresses": [
+   "ZONE INDUSTRIELLE LES AULNAIES 76680 SAINT-SAENS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "893309054",
+  "sirets": [
+   "89330905400029"
+  ],
+  "osm": [
+   "way/283759092"
+  ],
+  "lat": 49.676033268,
+  "lon": 1.2780257843,
+  "site": "https://www.brasserie-bakpaker.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879570422",
+  "nom": "MONOLITH BREWERY",
+  "communes": [
+   "CAILLY"
+  ],
+  "departement": "76",
+  "adresses": [
+   "16 RUE LES BORDS DU CAILLY 76690 CAILLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879570422",
+  "sirets": [
+   "87957042200029"
+  ],
+  "osm": [],
+  "lat": 49.583634303,
+  "lon": 1.236663103,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LA NEUVILLE-CHANT-D'OISEL"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "PETIT-CAUX"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:911420115",
+  "nom": "BE NEWS",
+  "communes": [
+   "LE HAVRE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "BATIMENT 155 2 RUE BUFFON 76600 LE HAVRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911420115",
+  "sirets": [
+   "91142011500014"
+  ],
+  "osm": [],
+  "lat": 49.4793648795887,
+  "lon": 0.14975554626677,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:483803029",
+  "nom": "EAUX DU GLOBE",
+  "communes": [
+   "LES AUTHIEUX-SUR-LE-PORT-SAINT-OUEN"
+  ],
+  "departement": "76",
+  "adresses": [
+   "ZA DES POINTES 218 RUE DES CANADIENS 76520 LES AUTHIEUX-SUR-LE-PORT-SAINT-OUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "483803029",
+  "sirets": [
+   "48380302900048"
+  ],
+  "osm": [],
+  "lat": 49.330961973,
+  "lon": 1.1326871253,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840802219",
+  "nom": "BRASSERIE NORMANDE SEPTANTESIX",
+  "communes": [
+   "CAUDEBEC-LES-ELBEUF"
+  ],
+  "departement": "76",
+  "adresses": [
+   "14 B IMPASSE GUIBERT 76320 CAUDEBEC-LES-ELBEUF"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840802219",
+  "sirets": [
+   "84080221900013"
+  ],
+  "osm": [],
+  "lat": 49.284936913,
+  "lon": 1.0143738871,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841448731",
+  "nom": "BRASSERIE SAINTE BEUVE",
+  "communes": [
+   "LE CAULE-SAINTE-BEUVE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "7 ROUTE DE L'EGLISE 76390 LE CAULE-SAINTE-BEUVE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841448731",
+  "sirets": [
+   "84144873100015"
+  ],
+  "osm": [],
+  "lat": 49.765836997,
+  "lon": 1.5948367436,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834174120",
+  "nom": "UNION-B",
+  "communes": [
+   "MALAUNAY"
+  ],
+  "departement": "76",
+  "adresses": [
+   "40 RUE DE LA CLERETTE 76770 MALAUNAY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "834174120",
+  "sirets": [
+   "83417412000016"
+  ],
+  "osm": [
+   "node/6593943858"
+  ],
+  "lat": 49.5337665806643,
+  "lon": 1.05055579715252,
+  "site": "https://www.union-b.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:990436479",
+  "nom": "LA BULLE BIZARRE",
+  "communes": [
+   "BOIS-GUILLAUME"
+  ],
+  "departement": "76",
+  "adresses": [
+   "23 AVENUE DE NICE 76230 BOIS-GUILLAUME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "990436479",
+  "sirets": [
+   "99043647900010"
+  ],
+  "osm": [],
+  "lat": 49.4567238334078,
+  "lon": 1.09646337563355,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "CANY-BARVILLE"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "PAVILLY"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "LE HAVRE"
+  ],
+  "departement": "76",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:807885504",
+  "nom": "BRASSERIE SAINT JOSEPH",
+  "communes": [
+   "LE HAVRE"
+  ],
+  "departement": "76",
+  "adresses": [
+   "2 RUE BUFFON 76600 LE HAVRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "807885504",
+  "sirets": [
+   "80788550400033"
+  ],
+  "osm": [],
+  "lat": 49.4793648795887,
+  "lon": 0.14975554626677,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850516642",
+  "nom": "RAGNAR",
+  "communes": [
+   "OISSEL"
+  ],
+  "departement": "76",
+  "adresses": [
+   "232 RUE DU BEAU POIRIER 76350 OISSEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850516642",
+  "sirets": [
+   "85051664200038"
+  ],
+  "osm": [],
+  "lat": 49.3549309407393,
+  "lon": 1.11077888048458,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853101632",
+  "nom": "CO-KOT",
+  "communes": [
+   "SAINT-LEGER-DU-BOURG-DENIS"
+  ],
+  "departement": "76",
+  "adresses": [
+   "810 ROUTE DE LYONS 76160 SAINT-LEGER-DU-BOURG-DENIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853101632",
+  "sirets": [
+   "85310163200018"
+  ],
+  "osm": [],
+  "lat": 49.432103261,
+  "lon": 1.1551522839,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7717206105",
+  "nom": "Brasserie Ragnar",
+  "communes": [
+   "Le Houlme"
+  ],
+  "departement": "76",
+  "adresses": [
+   "9 Route d'Houppeville, 76770 Le Houlme"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7717206105"
+  ],
+  "lat": 49.50696,
+  "lon": 1.04165,
+  "site": "https://www.brasserieragnar.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7717324385",
+  "nom": "Monolith Brewery",
+  "communes": [
+   "Le Houlme"
+  ],
+  "departement": "76",
+  "adresses": [
+   "12A Rue Richard Dufour, 76770 Le Houlme"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7717324385"
+  ],
+  "lat": 49.50354,
+  "lon": 1.03903,
+  "site": "https://www.monolithbrewery.com/",
+  "statut": "ambigu",
+  "fiche": "MONOLITH BREWERY"
+ },
+ {
+  "cle": "node/8450204089",
+  "nom": "BrewSociety",
+  "communes": [
+   "Rouen"
+  ],
+  "departement": "76",
+  "adresses": [
+   "Avenue Bernard Bicheray, 76000 Rouen"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8450204089"
+  ],
+  "lat": 49.45076,
+  "lon": 1.04848,
+  "site": "https://brewsociety.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8450223431",
+  "nom": "Brasserie Bakbuk",
+  "communes": [
+   "Sotteville-lès-Rouen"
+  ],
+  "departement": "76",
+  "adresses": [
+   "355 Rue Victor Hugo, 76300 Sotteville-lès-Rouen"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8450223431"
+  ],
+  "lat": 49.40934,
+  "lon": 1.09891,
+  "site": "https://www.brasserie-bakbuk.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE BAKBUK"
+ },
+ {
+  "cle": "node/8450247020",
+  "nom": "Brasserie du Chant du Loup",
+  "communes": [
+   "Canteleu"
+  ],
+  "departement": "76",
+  "adresses": [
+   "19 Route de Duclair, 76380 Canteleu"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8450247020"
+  ],
+  "lat": 49.44073,
+  "lon": 1.02544,
+  "site": "https://brasseriechantduloup.pagesperso-orange.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8450265240",
+  "nom": "Brasserie du Zink",
+  "communes": [
+   "Pavilly"
+  ],
+  "departement": "76",
+  "adresses": [
+   "32 Route de Sainte-Austreberthe, 76570 Pavilly"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8450265240"
+  ],
+  "lat": 49.585,
+  "lon": 0.96251,
+  "site": "https://www.facebook.com/brasserieduzink/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8450265251",
+  "nom": "Brasserie des Marronniers",
+  "communes": [
+   "Calleville-les-Deux-Églises"
+  ],
+  "departement": "76",
+  "adresses": [
+   "103 Rue des Marronniers, 76890 Calleville-les-Deux-Églises"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8450265251"
+  ],
+  "lat": 49.70294,
+  "lon": 1.02845,
+  "site": "https://www.fermedesmarronniers.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9997504575",
+  "nom": "La Brique",
+  "communes": [
+   "Rouen"
+  ],
+  "departement": "76",
+  "adresses": [
+   "128 bis Avenue des Martyrs de la Résistance, 76100 Rouen"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9997504575"
+  ],
+  "lat": 49.41861,
+  "lon": 1.07709,
+  "site": "https://www.facebook.com/brasserielabrique/",
+  "statut": "nouveau"
+ }
+]

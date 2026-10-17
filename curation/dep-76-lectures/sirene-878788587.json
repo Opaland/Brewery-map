@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:878788587",
+ "ajout": {
+  "fiche": {
+   "n": "1989 Brewing",
+   "c": "Saint-Étienne-du-Rouvray",
+   "d": "76",
+   "lat": 49.38527,
+   "lon": 1.0879,
+   "km": 495.9,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bières vendues dans le bar attenant à la brasserie, d'après un article de 2026 ; ni horaires ni site officiel.",
+   "addr": "Saint-Étienne-du-Rouvray",
+   "src": "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop"
+  ],
+  "extrait": "est commercialisée dans le bar attenant à la brasserie",
+  "choix": "Source de presse seulement. Position au centre de la commune."
+ }
+}

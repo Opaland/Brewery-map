@@ -1,0 +1,451 @@
+[
+ {
+  "cle": "sirene:888262011",
+  "nom": "BRASSERIE DE LA CARDAMINE",
+  "communes": [
+   "CAILLY-SUR-EURE",
+   "CLEF VALLEE D'EURE"
+  ],
+  "departement": "27",
+  "adresses": [
+   "2 RUE DES CRESSONNIERES 27490 CAILLY-SUR-EURE",
+   "9 CHE DES HUSSARDS 27490 CLEF VALLEE D'EURE",
+   "14 RUE DE LA MAIRIE 27490 CAILLY-SUR-EURE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888262011",
+  "sirets": [
+   "88826201100016",
+   "88826201100024",
+   "88826201100032"
+  ],
+  "osm": [],
+  "lat": 49.116489743,
+  "lon": 1.2065408327,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:530291228",
+  "nom": "BRASSERIE DE SUTTER / PRODUCTION",
+  "communes": [
+   "GISORS"
+  ],
+  "departement": "27",
+  "adresses": [
+   "19 RUE DU GRAND CHAMP FLEURY 27140 GISORS",
+   "15 ROUTE DE PARIS 27140 GISORS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "530291228",
+  "sirets": [
+   "53029122800027",
+   "53029122800035"
+  ],
+  "osm": [
+   "node/10979240449"
+  ],
+  "lat": 49.276459569,
+  "lon": 1.7814896767,
+  "site": "https://www.brasseriedesutter.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893549741",
+  "nom": "LA BRASSERIE DES COTTEREAUX",
+  "communes": [
+   "GAILLON"
+  ],
+  "departement": "27",
+  "adresses": [
+   "45 ROUTE DE ROUEN 27600 GAILLON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "893549741",
+  "sirets": [
+   "89354974100013"
+  ],
+  "osm": [
+   "node/11029633256"
+  ],
+  "lat": 49.1622710404143,
+  "lon": 1.32500008047798,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948339205",
+  "nom": "MICROBRASSERIE DE L'ANDELLE",
+  "communes": [
+   "PONT-SAINT-PIERRE"
+  ],
+  "departement": "27",
+  "adresses": [
+   "4 RUE DE FONTAINE GUERARD 27360 PONT-SAINT-PIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948339205",
+  "sirets": [
+   "94833920500015"
+  ],
+  "osm": [],
+  "lat": 49.336016079,
+  "lon": 1.274356422,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824751580",
+  "nom": "LA MOUSSE DES TEMPS",
+  "communes": [
+   "BOURG-ACHARD"
+  ],
+  "departement": "27",
+  "adresses": [
+   "255 RUE DE ROUEN 27310 BOURG-ACHARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824751580",
+  "sirets": [
+   "82475158000021"
+  ],
+  "osm": [],
+  "lat": 49.356267421,
+  "lon": 0.8245035933,
+  "statut": "ambigu",
+  "fiche": "Les Bières du Temps"
+ },
+ {
+  "cle": "sirene:927905430",
+  "nom": "MHBS",
+  "communes": [
+   "CHAMBRAY"
+  ],
+  "departement": "27",
+  "adresses": [
+   "3 RUE DES BERCHETTES 27120 CHAMBRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "927905430",
+  "sirets": [
+   "92790543000017"
+  ],
+  "osm": [],
+  "lat": 49.0760469712648,
+  "lon": 1.30521570555288,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "BOURG-ACHARD"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-AUBIN-SUR-QUILLEBEUF"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "FRENEUSE-SUR-RISLE"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:829081272",
+  "nom": "LES DEUX AMANTS",
+  "communes": [
+   "VAL-DE-REUIL"
+  ],
+  "departement": "27",
+  "adresses": [
+   "POLE D'AGRIC. BIO LES HAUTS PRES 1 VOIE DES VENDAISES 27100 VAL-DE-REUIL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "829081272",
+  "sirets": [
+   "82908127200017"
+  ],
+  "osm": [
+   "node/11917657217"
+  ],
+  "lat": 49.243959589,
+  "lon": 1.2316595784,
+  "site": "https://lesdeuxamants.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840523286",
+  "nom": "SPORE",
+  "communes": [
+   "GRAVIGNY"
+  ],
+  "departement": "27",
+  "adresses": [
+   "13 RUE DE LA MAIRIE 27930 GRAVIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840523286",
+  "sirets": [
+   "84052328600010"
+  ],
+  "osm": [],
+  "lat": 49.047967953,
+  "lon": 1.1608960652,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE DE LA VALLEE",
+  "communes": [
+   "VERNON"
+  ],
+  "departement": "27",
+  "adresses": [
+   "62 RUE DE LA VALLEE 27200 VERNON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "DAUBEUF-LA-CAMPAGNE"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:821604626",
+  "nom": "BRASSERIE INSULAIRE",
+  "communes": [
+   "CHARLEVAL"
+  ],
+  "departement": "27",
+  "adresses": [
+   "LE PAVIOT 27380 CHARLEVAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821604626",
+  "sirets": [
+   "82160462600019"
+  ],
+  "osm": [],
+  "lat": 49.399259214,
+  "lon": 1.3708282927,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "RAOULT BIERE CLUB",
+  "communes": [
+   "MANNEVILLE-LA-RAOULT"
+  ],
+  "departement": "27",
+  "adresses": [
+   "325 RUE DU FAVRIL 27210 MANNEVILLE-LA-RAOULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINTE-MARTHE"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "MESNIL-EN-OUCHE"
+  ],
+  "departement": "27",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/14056913418",
+  "nom": "Brasserie insulaire",
+  "communes": [
+   "Perriers-sur-Andelle"
+  ],
+  "departement": "27",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14056913418"
+  ],
+  "lat": 49.39945,
+  "lon": 1.37092,
+  "site": "https://brasserie-insulaire.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE INSULAIRE"
+ },
+ {
+  "cle": "node/3635675915",
+  "nom": "Brasserie Duplessi",
+  "communes": [
+   "Tosny"
+  ],
+  "departement": "27",
+  "adresses": [
+   "13 Rue aux Moines, 27700 Tosny"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3635675915"
+  ],
+  "lat": 49.21871,
+  "lon": 1.3747,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7815296291",
+  "nom": "Brasserie Boujou",
+  "communes": [
+   "Chennebrun"
+  ],
+  "departement": "27",
+  "adresses": [
+   "3 Rue de la Justice, 27820 Chennebrun"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7815296291"
+  ],
+  "lat": 48.67963,
+  "lon": 0.78203,
+  "site": "https://www.brasserie-boujou.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/351562330",
+  "nom": "Auberge Fleurie",
+  "communes": [
+   "Autheuil-Authouillet"
+  ],
+  "departement": "27",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/351562330"
+  ],
+  "lat": 49.09562,
+  "lon": 1.28111,
+  "statut": "nouveau"
+ }
+]

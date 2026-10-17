@@ -1,0 +1,41 @@
+[
+ {
+  "cle": "sirene:818942682",
+  "n": "Château de la Bière",
+  "c": "Lonlay-l'Abbaye",
+  "adresse": "916 chemin de la Couvrie, 61700 Lonlay-l'Abbaye",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui propose des visites closes par une dégustation ; lieu et horaires de vente non établis, catégorie à confirmer.",
+  "src": "https://chateau-de-la-biere.com/",
+  "extrait": "La visite se clôture par une dégustation de nos produits.",
+  "choix": "Une seconde adresse (Le Fay, Lonlay-l'Abbaye) figure sur la page contact. Téléphone fixe publié : 02 33 38 07 86 (non repris, à décider).",
+  "beers": []
+ },
+ {
+  "cle": "sirene:833701022",
+  "n": "Brasserie du Perche",
+  "c": "L'Home-Chamondot",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Site officiel avec rubriques boutique, visite dégustation et libre-service, sans horaires ni adresse lus : catégorie à confirmer.",
+  "src": "http://brasserieduperche.com/",
+  "extrait": "tirée directement de nos cuves",
+  "choix": "La page « Horaires, menus » n'a pas été trouvée. Position au centre de la commune.",
+  "beers": []
+ },
+ {
+  "cle": "node/12296090080",
+  "n": "Le Bercail",
+  "c": "Alençon",
+  "adresse": null,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Lieu où l'on boit une bière artisanale brassée sur place, près de la basilique, d'après un guide local ; aucune source de la brasserie.",
+  "src": "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs",
+  "extrait": "Rendez-vous au Bercail pour déguster une bière artisanale qui est brassée sur place",
+  "choix": "Sans doute l'entreprise Rondebulle du registre (15 rue du Bercail), non établi par une source. Position au centre de la commune.",
+  "beers": []
+ }
+]

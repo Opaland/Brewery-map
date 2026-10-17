@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:840523286",
+ "ajout": {
+  "fiche": {
+   "n": "Spore",
+   "c": "Gravigny",
+   "d": "27",
+   "lat": 49.04974,
+   "lon": 1.15941,
+   "km": 462.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie coopérative avec taproom ouvert du jeudi au samedi, 16 h à minuit ; vente à emporter non lue.",
+   "addr": "13 rue de la Mairie, 27930 Gravigny",
+   "src": "https://www.brasserie-spore.com",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-spore.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+de+la+Mairie%2C+27930+Gravigny&limit=5"
+  ],
+  "extrait": "jeudi 16h - 00h vendredi 16h - 00h samedi 16h - 00h",
+  "choix": "Téléphone publié : 02 32 62 09 51 (non repris, à décider). Liste des bières non ouverte."
+ }
+}

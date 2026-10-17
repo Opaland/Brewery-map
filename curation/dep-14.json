@@ -7,9 +7,9 @@
     "n": "Brasserie Paillette",
     "c": "Saint-Arnoult",
     "d": "14",
-    "lat": 49.53572,
-    "lon": 0.65978,
-    "km": 527.6,
+    "lat": 49.33065,
+    "lon": 0.08903,
+    "km": 536.5,
     "cat": 0,
     "conf": "",
     "note": "Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.",
@@ -44,7 +44,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
-    "https://data.geopf.fr/geocodage/search?q=4+rue+Andr%C3%A9+Druelle%2C+14130+Le+Breuil-en-Auge&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=4+rue+Andr%C3%A9+Druelle%2C+14130+Le+Breuil-en-Auge&limit=5"
    ],
    "extrait": "Sale to private visitors direct at the brewery",
    "choix": "Fiche d'office de tourisme seulement. Le site de vente (brasserie-sagesse.shop) affiche une boutique à Dives-sur-Mer, avec le même mobile que DAM Bière : lien à éclaircir."
@@ -81,7 +81,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.mobsbys.com/contact",
-    "https://data.geopf.fr/geocodage/search?q=2301+route+de+la+Diade%2C+14500+Vire+Normandie&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=2301+route+de+la+Diade%2C+14500+Vire+Normandie&limit=5"
    ],
    "extrait": "Envie de découvrir la brasserie ? Contactez-nous pour organiser votre visite ou pour commander nos bières.",
    "choix": "OSM la place à Gathemo (Manche) ; le site donne Vire Normandie (Calvados). Bières lues sur /nos-bieres : Le Coq (Blonde/Golden Ale), Fantaisie de Miel (Blonde/Pale Ale au miel), La Cordiale (Ale ambrée), L'Expérience (Stout). Téléphone : un mobile, non repris."
@@ -127,7 +127,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.biere-lalie.com",
-    "https://data.geopf.fr/geocodage/search?q=400+rue+de+l%27Orne%2C+14570+Saint-R%C3%A9my&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=400+rue+de+l%27Orne%2C+14570+Saint-R%C3%A9my&limit=5"
    ],
    "extrait": "BOUTIQUE SUR PLACE Ouverture de la boutique du lundi au vendredi de 9h à 12h30 et de 14h à 18h",
    "choix": "Bières lues : Au pré de ma blonde (blonde), L'ambrée du Hameau (ambrée), La Caenette (blanche witbier), Quai des Brunes (brune porter), Conte & Fleurette (rousse IPA), Triple à la mode de Caen (blonde triple), La Suisse Normande (pale ale). Téléphone publié : 09 84 32 54 11 (non repris, à décider). Les mentions légales disent 14750, la page 14570 : 14570 retenu."
@@ -174,7 +174,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.les2terres.fr/",
-    "https://data.geopf.fr/geocodage/search?q=33+route+de+Trouville%2C+14000+Caen&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=33+route+de+Trouville%2C+14000+Caen&limit=5"
    ],
    "extrait": "LA JJAP 33 Route de Trouville 14000 CAEN",
    "choix": "Même brasserie que « Brasserie JJAP » d'OSM à Mondeville (même site) ; le site ne cite pas Mondeville. Styles lus : Terres Neuvas (triple), Pink Flamingo (triple blanche), La P'tite Yportaise (ambrée), Dark Vados (stout), Surfing'IPA (IPA) — non repris en attendant de savoir lesquelles sont brassées à Caen. Téléphone 02 36 80 11 01 : lieu non précisé, non repris."
@@ -241,7 +241,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://trip-hop.fr",
-    "https://data.geopf.fr/geocodage/search?q=13+quai+des+Remparts%2C+14100+Lisieux&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=13+quai+des+Remparts%2C+14100+Lisieux&limit=5"
    ],
    "extrait": "Notre bar et notre boutique Le Brewpub TRIP-HOP La Boutique TRIP-HOP",
    "choix": "Bières constantes lues sur le site : La Paz (Blonde Pale Ale), Palawan (American IPA), Etna (Blonde Triple), Route 138 (Rousse), Wanaka (Blanche Américaine), Wicklow Mountains (Black IPA). Horaires et téléphone (09 51 82 62 34) donnés par l'office de tourisme : non repris. Adresse : registre et office de tourisme."
@@ -265,7 +265,7 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.explore-calvados.com/?p=33029",
-    "https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=1"
+    "https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=5"
    ],
    "extrait": "Direct sale on the spot.",
    "choix": "Même brasserie que « Brasserie Baya » d'OSM (node/10017827471) et que l'entreprise INOHOP du registre : même adresse. Le site (brasseriebaya.fr) dit « Brasserie de Bayeux » et donne 47 avenue de la Drôme 14400 Bayeux / Vaucelles. Bières Baya et La Ruse, sans style. Téléphone du site : 09 77 79 43 48 (non repris, à décider)."

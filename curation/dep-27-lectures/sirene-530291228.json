@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:530291228",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Sutter",
+   "c": "Gisors",
+   "d": "27",
+   "lat": 49.26333,
+   "lon": 1.78556,
+   "km": 457.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site présente une boutique et des visites, mais le passage n'a pas été relu mot pour mot : catégorie à confirmer.",
+   "addr": "15 route de Paris, 27140 Gisors",
+   "src": "https://www.brasseriedesutter.com/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedesutter.com/",
+   "https://data.geopf.fr/geocodage/search?q=15+route+de+Paris%2C+27140+Gisors&limit=5"
+  ],
+  "extrait": "15 Rte de Paris 27140 Gisors",
+  "choix": "Adresse du site différente de celle du registre (19 rue du Grand Champ Fleury). Téléphone 02 34 88 21 43 et horaires vus par résumé seulement : non repris."
+ }
+}

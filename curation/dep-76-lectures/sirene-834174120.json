@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:834174120",
+ "ajout": {
+  "fiche": {
+   "n": "Union-B",
+   "c": "Malaunay",
+   "d": "76",
+   "lat": 49.52613,
+   "lon": 1.0451,
+   "km": 510.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie avec bar et boutique ouverts toute l'année, bar d'été et concerts, d'après son site.",
+   "addr": "Malaunay",
+   "src": "https://www.union-b.fr",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.union-b.fr"
+  ],
+  "extrait": "Bar d'hiver et boutique ouverts toute l'année",
+  "choix": "Le site donne l'impasse de la Cressonnière, le registre le 40 rue de la Clérette : position au centre de la commune. Téléphone : un mobile, non repris."
+ }
+}

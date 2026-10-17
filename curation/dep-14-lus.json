@@ -1,0 +1,187 @@
+[
+ {
+  "cle": "sirene:893381558",
+  "n": "Trip-Hop",
+  "c": "Lisieux",
+  "adresse": "13 quai des Remparts, 14100 Lisieux",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie avec bar (brewpub) et boutique, d'après son site.",
+  "src": "https://trip-hop.fr",
+  "extrait": "Notre bar et notre boutique Le Brewpub TRIP-HOP La Boutique TRIP-HOP",
+  "choix": "Bières constantes lues sur le site : La Paz (Blonde Pale Ale), Palawan (American IPA), Etna (Blonde Triple), Route 138 (Rousse), Wanaka (Blanche Américaine), Wicklow Mountains (Black IPA). Horaires et téléphone (09 51 82 62 34) donnés par l'office de tourisme : non repris. Adresse : registre et office de tourisme.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:530995133",
+  "n": "Brasserie La Lie",
+  "c": "Saint-Rémy",
+  "adresse": "400 rue de l'Orne, 14570 Saint-Rémy",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique sur place, du lundi au vendredi, d'après le site de la brasserie ; pas de consommation sur place lue.",
+  "src": "https://www.biere-lalie.com",
+  "extrait": "BOUTIQUE SUR PLACE Ouverture de la boutique du lundi au vendredi de 9h à 12h30 et de 14h à 18h",
+  "choix": "Bières lues : Au pré de ma blonde (blonde), L'ambrée du Hameau (ambrée), La Caenette (blanche witbier), Quai des Brunes (brune porter), Conte & Fleurette (rousse IPA), Triple à la mode de Caen (blonde triple), La Suisse Normande (pale ale). Téléphone publié : 09 84 32 54 11 (non repris, à décider). Les mentions légales disent 14750, la page 14570 : 14570 retenu.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:792944688",
+  "n": "Brasserie de l'Odon",
+  "c": "Les Monts d'Aunay",
+  "adresse": "31 bis route de Vire, 14260 Les Monts d'Aunay",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique à la brasserie, ouverte le jeudi de 17 h à 19 h (bières bio, coffrets, location de tireuse) ; pas de consommation sur place lue.",
+  "src": "https://www.brasserie-odon.fr/boutique",
+  "extrait": "Ouvert les jeudis de 17h à 19h",
+  "choix": "Styles des bières non lus (page « Les Bières » non ouverte). Le site publie deux mobiles de personnes : non repris.",
+  "beers": []
+ },
+ {
+  "cle": "sirene:895341881",
+  "n": "Baya",
+  "c": "Vaucelles",
+  "adresse": "47 avenue de la Drôme, 14400 Vaucelles",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe sur place et visite sur réservation, d'après la fiche de Calvados Attractivité ; le site de la brasserie n'en parle pas.",
+  "src": "https://www.explore-calvados.com/?p=33029",
+  "extrait": "Direct sale on the spot.",
+  "choix": "Même brasserie que « Brasserie Baya » d'OSM (node/10017827471) et que l'entreprise INOHOP du registre : même adresse. Le site (brasseriebaya.fr) dit « Brasserie de Bayeux » et donne 47 avenue de la Drôme 14400 Bayeux / Vaucelles. Bières Baya et La Ruse, sans style. Téléphone du site : 09 77 79 43 48 (non repris, à décider).",
+  "beers": []
+ },
+ {
+  "cle": "sirene:798878146",
+  "n": "La JJAP – Les 2 Terres",
+  "c": "Caen",
+  "adresse": "33 route de Trouville, 14000 Caen",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale (Caen et Saint-Romain-de-Colbosc) ; vente ou accueil à Caen non établis, catégorie à confirmer.",
+  "src": "https://www.les2terres.fr/",
+  "extrait": "LA JJAP 33 Route de Trouville 14000 CAEN",
+  "choix": "Même brasserie que « Brasserie JJAP » d'OSM à Mondeville (même site) ; le site ne cite pas Mondeville. Styles lus : Terres Neuvas (triple), Pink Flamingo (triple blanche), La P'tite Yportaise (ambrée), Dark Vados (stout), Surfing'IPA (IPA) — non repris en attendant de savoir lesquelles sont brassées à Caen. Téléphone 02 36 80 11 01 : lieu non précisé, non repris.",
+  "beers": []
+ },
+ {
+  "cle": "node/13176942306",
+  "n": "Brasserie Paillette",
+  "c": "Saint-Arnoult",
+  "adresse": "10 ter avenue Ox and Bucks, 14800 Saint-Arnoult",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.",
+  "src": "https://bierepaillette.fr/",
+  "extrait": "adresse : 10 ter Av. Ox And Bucks,14800 Saint-Arnoult",
+  "choix": "Téléphone de la page en 03 (Oise), sans doute celui d'un autre site : non repris.",
+  "beers": []
+ },
+ {
+  "cle": "node/8432359108",
+  "n": "Brasserie Sagesse",
+  "c": "Le Breuil-en-Auge",
+  "adresse": "4 rue André Druelle, 14130 Le Breuil-en-Auge",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe aux particuliers à la brasserie, d'après la fiche de Normandie Tourisme ; horaires non publiés.",
+  "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
+  "extrait": "Sale to private visitors direct at the brewery",
+  "choix": "Fiche d'office de tourisme seulement. Le site de vente (brasserie-sagesse.shop) affiche une boutique à Dives-sur-Mer, avec le même mobile que DAM Bière : lien à éclaircir.",
+  "beers": []
+ },
+ {
+  "cle": "personne:7",
+  "n": "Mobsby's",
+  "c": "Vire Normandie",
+  "adresse": "2301 route de la Diade, 14500 Vire Normandie",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de real ales ; le site propose de commander les bières ou d'organiser une visite sur contact, sans vente sur place établie.",
+  "src": "https://www.mobsbys.com/contact",
+  "extrait": "Envie de découvrir la brasserie ? Contactez-nous pour organiser votre visite ou pour commander nos bières.",
+  "choix": "OSM la place à Gathemo (Manche) ; le site donne Vire Normandie (Calvados). Bières lues sur /nos-bieres : Le Coq (Blonde/Golden Ale), Fantaisie de Miel (Blonde/Pale Ale au miel), La Cordiale (Ale ambrée), L'Expérience (Stout). Téléphone : un mobile, non repris.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "stout"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:807383724",
+  "n": "Brasserie des 9 Mondes",
+  "c": "Ranville",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites guidées avec dégustation et ateliers de brassage ; aucune vente ni horaire lus, catégorie à confirmer.",
+  "src": "https://www.brasseriedes9mondes.com",
+  "extrait": "Nous organisons aussi des visites guidées de notre brasserie avec dégustation",
+  "choix": "Le titre de la page cite Blainville-sur-Orne, le texte Ranville : Ranville retenu (registre). Position au centre de la commune.",
+  "beers": []
+ },
+ {
+  "cle": "sirene:918592205",
+  "n": "Dam Bière",
+  "c": "Dives-sur-Mer",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de « La Bière Deauville », vendue en bars, restaurants et épiceries fines ; aucune vente sur place établie, catégorie à confirmer.",
+  "src": "https://labieredeauville.com/",
+  "extrait": "brassée dans le Pays d’Auge à Dives-sur-Mer près de Cabourg par la Brasserie Dam Bière",
+  "choix": "Lien possible avec Brasserie Sagesse (même mobile sur deux fiches) : à éclaircir. Position au centre de la commune.",
+  "beers": []
+ }
+]

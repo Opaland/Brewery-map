@@ -6,7 +6,7 @@
    "c": "Agon-Coutainville",
    "d": "50",
    "lat": 49.03803,
-   "lon": -1.59428,
+   "lon": -1.59427,
    "km": 606.8,
    "cat": 2,
    "conf": "moyenne",
@@ -36,7 +36,7 @@
   "verifieLe": "2026-10-17",
   "sources": [
    "https://captain-james.fr",
-   "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=1"
+   "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Passous%2C+50230+Agon-Coutainville&limit=5"
   ],
   "extrait": "De septembre à juin Jeudi, vendredi et samedi: 17H-19H",
   "choix": "Extrait relu sur la page le 17/10. En juillet et août : « Du mardi au samedi: 15H-19H ». Bières lues : la blanche, la blonde, la rousse, la brune, l'IPA."

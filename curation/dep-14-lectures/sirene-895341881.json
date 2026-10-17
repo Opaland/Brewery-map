@@ -19,7 +19,7 @@
   "verifieLe": "2026-10-17",
   "sources": [
    "https://www.explore-calvados.com/?p=33029",
-   "https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=1"
+   "https://data.geopf.fr/geocodage/search?q=47+avenue+de+la+Dr%C3%B4me%2C+14400+Vaucelles&limit=5"
   ],
   "extrait": "Direct sale on the spot.",
   "choix": "Même brasserie que « Brasserie Baya » d'OSM (node/10017827471) et que l'entreprise INOHOP du registre : même adresse. Le site (brasseriebaya.fr) dit « Brasserie de Bayeux » et donne 47 avenue de la Drôme 14400 Bayeux / Vaucelles. Bières Baya et La Ruse, sans style. Téléphone du site : 09 77 79 43 48 (non repris, à décider)."

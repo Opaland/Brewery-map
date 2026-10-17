@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:893309054",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie BakPaker",
+   "c": "Saint-Saëns",
+   "d": "76",
+   "lat": 49.67794,
+   "lon": 1.27032,
+   "km": 515.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique ouverte le vendredi de 15 h à 18 h 30, les autres jours sur rendez-vous, d'après son site.",
+   "addr": "Saint-Saëns",
+   "src": "https://www.brasserie-bakpaker.fr/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasserie-bakpaker.fr/"
+  ],
+  "extrait": "Ouverture de la boutique Lundi : Sur RDV toute la semaine :) Mardi : rdv Mercredi : rdv Jeudi : rdv Vendredi : 15h - 18h30",
+  "choix": "ZI des Aulnaies : position au centre de la commune. Styles des bières non affichés."
+ }
+}

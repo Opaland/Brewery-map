@@ -4,6 +4,7 @@ import {
   assemblerLot,
   candidatsDuDepartement,
   classerDuDepartement,
+  positionDuGeocodeur,
   prefixePostal,
   publiables,
   type EtablissementSirene,
@@ -253,3 +254,55 @@ describe('assemblerLot, revue adverse S246', () => {
   })
 })
 
+describe('positionDuGeocodeur (S248)', () => {
+  // Raté du 17/10 : « 37 rue Louis Blériot, Martin-Église » géocodé à
+  // Bruay-la-Buissière (62). Revue adverse : la commune n'était pas vérifiée
+  // (« Sainte-Marguerite » rendait Sainte-Marguerite-sur-Duclair).
+  const res = (city: string, context: string, type: string, x = 1.15, y = 49.9, postcode = '76200') => ({
+    geometry: { coordinates: [x, y] },
+    properties: { city, context, type, postcode },
+  })
+  const rep = (...features: unknown[]) => ({ features })
+
+  it('accepte un numéro de voie de la bonne commune et du bon département', () => {
+    expect(positionDuGeocodeur(rep(res('Martin-Église', '76, Seine-Maritime, Normandie', 'housenumber')), '76', 'Martin-Église')).toEqual({
+      lat: 49.9,
+      lon: 1.15,
+      precision: 'address',
+    })
+  })
+  it('refuse un résultat d’un autre département', () => {
+    expect(positionDuGeocodeur(rep(res('Martin-Église', '62, Pas-de-Calais, Hauts-de-France', 'housenumber')), '76', 'Martin-Église')).toBeNull()
+  })
+  it('refuse une autre commune du même département (noms proches)', () => {
+    const r = rep(res('Sainte-Marguerite-sur-Duclair', '76, Seine-Maritime, Normandie', 'municipality'))
+    expect(positionDuGeocodeur(r, '76', 'Sainte-Marguerite', 'commune')).toBeNull()
+  })
+  it('compare les communes sans accents ni casse', () => {
+    const r = rep(res('Saint-Lô', '50, Manche, Normandie', 'housenumber'))
+    expect(positionDuGeocodeur(r, '50', 'SAINT-LO')).not.toBeNull()
+  })
+  it('une rue sans numéro n’est pas une position « à l’adresse »', () => {
+    expect(positionDuGeocodeur(rep(res('Martin-Église', '76, Seine-Maritime, Normandie', 'street')), '76', 'Martin-Église')).toBeNull()
+  })
+  it('une commune, demandée comme telle, est une position « commune »', () => {
+    const r = rep(res('Martin-Église', '76, Seine-Maritime, Normandie', 'municipality'))
+    expect(positionDuGeocodeur(r, '76', 'Martin-Église', 'commune')).toEqual({ lat: 49.9, lon: 1.15, precision: 'commune' })
+  })
+  it('garde la première réponse qui convient (communes homonymes)', () => {
+    const r = rep(
+      res('Saint-Arnoult', '76, Seine-Maritime, Normandie', 'municipality', 0.66, 49.54),
+      res('Saint-Arnoult', '14, Calvados, Normandie', 'municipality', 0.08, 49.33),
+    )
+    expect(positionDuGeocodeur(r, '14', 'Saint-Arnoult', 'commune')).toEqual({ lat: 49.33, lon: 0.08, precision: 'commune' })
+  })
+  it('la Corse : 2A et 2B se distinguent par le contexte, pas par le code postal', () => {
+    const r = rep(res('Bastia', '2B, Haute-Corse, Corse', 'housenumber', 9.45, 42.7, '20200'))
+    expect(positionDuGeocodeur(r, '2B', 'Bastia')).not.toBeNull()
+    expect(positionDuGeocodeur(r, '2A', 'Bastia')).toBeNull()
+  })
+  it('une réponse vide ou mal formée ne donne rien', () => {
+    expect(positionDuGeocodeur({ features: [] }, '76', 'X')).toBeNull()
+    expect(positionDuGeocodeur({}, '76', 'X')).toBeNull()
+  })
+})

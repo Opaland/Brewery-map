@@ -2451,3 +2451,61 @@ Le circuit tient. Pour la suite (S248 et après), deux enseignements :
   mécanique de chaque extrait ;
 - les sites en JavaScript restent hors de portée.
 
+## S240 (suite) — Le message de repli de la carte n'est plus recouvert *(17/10)*
+
+Story d'abord (`docs/stories/S240-suite.md`). Le défaut avait été trouvé
+par les tests visuels. Le test, écrit avant le correctif, a été vu rouge
+(« se croisent », à 412 et à 320 px). Le message passe en haut, à gauche
+des boutons de zoom. Le test vérifie maintenant trois choses :
+- les cadres du message et de la mention ne se croisent pas ;
+- les cadres du message et des boutons de zoom non plus ;
+- le bas du message est bien peint (`elementFromPoint`).
+
+Les références visuelles sont refaites par la CI.
+
+## S248 — Orne, Eure, Seine-Maritime : 17 fiches de plus *(17/10)*
+
+Story d'abord (`docs/stories/S248.md`). Il y a 75 candidats, sans aucune
+fuite de personne.
+- Les 57 candidats nommés ont été lus par 7 agents.
+- Les 18 sans nom n'ont pas été lus : aucun des 8 du pilote n'avait été
+  trouvé.
+- Chaque extrait a été relu dans le texte de sa page.
+
+Les lots `dep-61` (3 fiches), `dep-27` (4) et `dep-76` (10) passent
+`controler`.
+
+**Raté trouvé en route, et corrigé** : le géocodeur de l'IGN a placé
+« 37 rue Louis Blériot, Martin-Église » à Bruay-la-Buissière (62). Rien ne
+le refusait, et la position venait d'un script jetable, hors du dépôt.
+- `positionDuGeocodeur` a été écrite test d'abord, et ses deux mutants sont
+  tués. Elle refuse une position hors du département ou sans numéro de
+  voie, et retient la première réponse qui tombe dans le département
+  (communes homonymes).
+- Le géocodage entre dans l'outil (`outils/departement.ts lectures`), et les
+  lectures retenues sont versionnées (`curation/dep-XX-lus.json`).
+- Rejoué sur les lots déjà présentés : la position de Paillette (lot
+  `dep-14`) était celle de Saint-Arnoult en **Seine-Maritime**. Elle est
+  corrigée, et l'empreinte du lot change. Cédric n'avait pas encore décidé.
+
+**Normandie, bilan** : 135 candidats, 36 fiches proposées en 5 lots.
+
+### S248 — corrections de la revue adverse *(17/10)*
+
+1. **La garde du géocodeur ne vérifiait pas la commune.** « Sainte-Marguerite »
+   tombait sur Sainte-Marguerite-sur-Duclair, dans le même département.
+   - Elle exige maintenant la commune attendue (sans accents ni casse).
+   - Elle lit le département dans `context`, ce qui distingue 2A de 2B.
+   - Tests écrits d'abord, et les deux mutants sont tués.
+   - Rejouée sur les 36 fiches, une seule réponse est refusée : Oissel,
+     écrite désormais sous son nom officiel, Oissel-sur-Seine.
+2. **Le message de repli de la carte**, posé en haut, cachait 6 marqueurs
+   sur 9 à 320 px, et débordait du cadre à 200 % de texte. Il passe
+   **sous la carte**, dans le flux. Le test compare maintenant le message à
+   la carte entière, à 412 et à 320 px, et à 200 % de texte. Il a été vu
+   rouge avec l'ancien CSS (3 sur 3), puis vert.
+3. **Catégories qui dépassaient leur extrait** : La Moussette (l'article
+   parle du bar, pas de la brasserie) et Brasserie Léopard (annonce
+   « dès le 1er juillet » sans année) passent en « À confirmer », avec
+   leur raison. Les empreintes des lots changent.
+

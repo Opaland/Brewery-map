@@ -1,0 +1,106 @@
+[
+ {
+  "cle": "sirene:840523286",
+  "n": "Spore",
+  "c": "Gravigny",
+  "adresse": "13 rue de la Mairie, 27930 Gravigny",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie coopérative avec taproom ouvert du jeudi au samedi, 16 h à minuit ; vente à emporter non lue.",
+  "src": "https://www.brasserie-spore.com",
+  "extrait": "jeudi 16h - 00h vendredi 16h - 00h samedi 16h - 00h",
+  "choix": "Téléphone publié : 02 32 62 09 51 (non repris, à décider). Liste des bières non ouverte.",
+  "beers": []
+ },
+ {
+  "cle": "sirene:821604626",
+  "n": "Brasserie Insulaire",
+  "c": "Charleval",
+  "adresse": "La Remise Paviot, 27380 Charleval",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe en boutique ; visites et dégustations sur réservation seulement.",
+  "src": "https://brasserie-insulaire.com/",
+  "extrait": "Retrouvez toutes nos bières en vente directe dans notre boutique !",
+  "choix": "Même brasserie que le point OSM de Perriers-sur-Andelle (node/14056913418) ; le site dit Charleval. Bières lues : Beauté Fatale, Gueule d'amour (saison ambrée), Ho ho ho !, Ilandel tropicale (blanche), Kanaka IPA, Kanaka triple (ambrée), Super Kanaka, Teahupoo, Meherio (NEIPA), Whisbeer (stout), La Bandida, Da Rouen. Téléphone : un mobile, non repris.",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière de Noël"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:530291228",
+  "n": "Brasserie de Sutter",
+  "c": "Gisors",
+  "adresse": "15 route de Paris, 27140 Gisors",
+  "cat": 0,
+  "conf": "",
+  "note": "Le site présente une boutique et des visites, mais le passage n'a pas été relu mot pour mot : catégorie à confirmer.",
+  "src": "https://www.brasseriedesutter.com/",
+  "extrait": "15 Rte de Paris 27140 Gisors",
+  "choix": "Adresse du site différente de celle du registre (19 rue du Grand Champ Fleury). Téléphone 02 34 88 21 43 et horaires vus par résumé seulement : non repris.",
+  "beers": []
+ },
+ {
+  "cle": "sirene:829081272",
+  "n": "Les Deux Amants",
+  "c": "Val-de-Reuil",
+  "adresse": "1 voie des Vendaises, 27100 Val-de-Reuil",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; ni vente sur place ni horaires publiés, catégorie à confirmer.",
+  "src": "https://lesdeuxamants.com/contactez-nous",
+  "extrait": "1 voie des Vendaises 27100 Val-de-Reuil",
+  "choix": "Styles relus sur /nos-bieres : Marcel (Rye IPA), Odile (NEIPA), Lili (sans alcool), Achille (Triple) ; les autres non relus mot pour mot. Téléphone : un mobile (service client), non repris.",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sans-alcool"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple"
+   }
+  ]
+ }
+]

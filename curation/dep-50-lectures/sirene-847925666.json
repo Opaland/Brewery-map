@@ -8,9 +8,9 @@
    "lat": 48.97076,
    "lon": -1.54595,
    "km": 599.6,
-   "cat": 1,
-   "conf": "faible",
-   "note": "Bar-bistrot avec terrasse au marché qui sert sa bière brassée tout près, d'après un article de 2021 ; ni horaires ni adresse lus.",
+   "cat": 0,
+   "conf": "",
+   "note": "Petit bar qui sert sa bière éponyme, brassée à quelques centaines de mètres, d'après un article de 2021 ; la brasserie elle-même (vente, accueil) n'est pas décrite : catégorie à confirmer.",
    "addr": "Hauteville-sur-Mer",
    "src": "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
    "coordPrecision": "commune",
@@ -21,6 +21,6 @@
    "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html"
   ],
   "extrait": "bière éponyme brassée à quelques hectomètres de là",
-  "choix": "Source de presse datée (10/07/2021) : à revérifier. Position au centre de la commune."
+  "choix": "Revue adverse : la catégorie 1 dépassait l'extrait, qui parle du bar et non de la brasserie. Source de presse datée (10/07/2021). Position au centre de la commune."
  }
 }
