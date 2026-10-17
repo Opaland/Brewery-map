@@ -2344,3 +2344,52 @@ a une source, choisie dans les données, et compare le lien. Vu rouge sur un
 
 Reste CA5 : la sonde verte sur la vraie page, après le merge.
 
+## S246 — L'outil « département » *(17/10)*
+
+Story d'abord (`docs/stories/S246.md`). Le module `src/core/candidats.ts`
+est écrit test d'abord, et chaque garde a été vue rouge.
+
+**Fusion** :
+- même SIREN ;
+- puis même commune, avec même cœur de nom ou même adresse ;
+- plusieurs points OSM peuvent rejoindre un même candidat.
+
+**Noms** :
+- un entrepreneur individuel sans enseigne n'a pas de nom ;
+- une nature juridique inconnue est traitée comme une personne.
+
+**Classement** : celui de S14, sur la commune où une fiche existe. Un même
+nom dans deux communes est « ambigu », pas un doublon écarté.
+
+**Assemblage** : sont refusés le candidat inconnu, la seconde lecture, le
+nom répété ou déjà dans le fichier, et la lecture invalide.
+
+**Revue adverse, une fuite trouvée avant tout push.** Les 4 candidats sans
+nom publiaient leur SIREN, leur SIRET et leur position à 12 décimales :
+c'est le domicile retiré par ailleurs, et le SIREN retrouve le nom. Une
+personne ne publie plus ni SIREN, ni SIRET, ni position. Sans nom, elle ne
+publie pas non plus son adresse. Sa clé devient `personne:<n>`, et la
+correspondance reste dans le cache ignoré par git. Vérifié sur la Manche :
+aucun SIREN, nom ni latitude d'entrepreneur individuel dans `curation/`.
+
+**Autres corrections de la revue** :
+- page d'erreur de l'API gardée en cache, qui empoisonnait la reprise ;
+- la Corse (codes postaux en 20) ;
+- second point OSM traité comme une autre brasserie ;
+- doublon décidé sur le nom seul ;
+- candidat à deux communes classé sur la première ;
+- `assembler` sans lien avec le candidat ;
+- compteur de requêtes figé dans le message.
+
+**Manche** : 22 établissements SIRENE et 8 points OSM donnent 26
+candidats : 21 nouveaux, 1 ambigu (« Brasserie de la Baie », Pontorson et
+Huisnes-sur-Mer) et 4 à nommer. La relance fait 0 requête à l'API (compte
+réel).
+
+**Écart avec S244.** S244 comptait 5 communs, sur la commune seule. L'outil
+en fusionne 3 :
+- Captain James ;
+- Fée d'Orge ;
+- les Travailleurs de la Mer, par l'adresse.
+
+Les 2 autres de S244 étaient des rapprochements de commune sans même nom.
