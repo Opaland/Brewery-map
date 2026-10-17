@@ -17,8 +17,10 @@ import type { Point } from './core/distance'
  * Deux temps (demande de Cédric du 16/10) : les départements à moins de
  * 100 km du départ d'abord (quelques Ko, recherche quasi instantanée), le
  * fichier entier (≈ 470 Ko compressé) seulement pour chercher plus loin.
- * Le service worker garde chaque fichier une fois lu, jusqu'à la version
- * suivante de l'application : hors ligne ensuite, pas avant.
+ * Le service worker garde d'avance le fichier entier et la liste des
+ * départements (S42) : la recherche marche hors ligne dès l'installation.
+ * Si le fichier d'un département manque, `ChoixCommune` cherche dans le
+ * fichier entier (son repli « rien près du départ »).
  */
 const BASE = `${import.meta.env.BASE_URL}communes/`
 export const RAYON_PRES_KM = 100

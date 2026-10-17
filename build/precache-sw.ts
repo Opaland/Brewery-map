@@ -31,6 +31,11 @@ export function precacheServiceWorker(): Plugin {
         './icon-192.png',
         './icon-512.png',
         './icon-maskable-512.png',
+        // Les communes de France, gardées d'avance (S42) : 469 ko compressé,
+        // une fois par version. Sans elles, chercher une commune de départ
+        // hors ligne échouait si l'on n'avait jamais cherché en ligne.
+        './communes-france.json',
+        './communes/departements.json',
         ...assets.map((nom) => `./assets/${nom}`),
       ]
       const empreinte = createHash('sha256').update(assets.join('\n')).digest('hex').slice(0, 12)

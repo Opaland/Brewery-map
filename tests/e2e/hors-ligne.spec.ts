@@ -37,6 +37,8 @@ test.describe('le service worker', () => {
       { fichiers: liste, nom: `mousse-app-${empreinte ?? ''}` },
     )
     expect(liste).toContain('./icon-maskable-512.png')
+    // Les communes, d'avance (S42) : hors ligne sans recherche préalable.
+    expect(liste).toEqual(expect.arrayContaining(['./communes-france.json', './communes/departements.json']))
     expect(manquants).toEqual([])
     await expect(page.getByTestId('etat-hors-ligne')).toContainText(
       'Prête pour une utilisation hors connexion',
@@ -88,4 +90,12 @@ test('le manifeste rend l’application installable', async ({ request }) => {
     expect(icone, `icône ${taille}`).toBeDefined()
     expect((await request.get(`/${icone?.src ?? ''}`)).status()).toBe(200)
   }
+})
+
+test('sans le fichier d’un département, une commune se trouve par le fichier entier (repli de ChoixCommune, gardé d’avance depuis S42)', async ({ page }) => {
+  await sansTuiles(page)
+  await page.route(/\/communes\/\d[\dAB]\.json$/, (route) => route.abort())
+  await page.goto('/')
+  await page.getByTestId('commune-depart').fill('lyon')
+  await expect(page.getByRole('option', { name: 'Lyon (69)', exact: true })).toBeVisible()
 })

@@ -1913,3 +1913,37 @@ numéros est donc aussi l'ordre de priorité, et l'arrêt du §9 s'applique.
    « zod ».
 4. **À dire à Cédric** : une brasserie qui imprime l'affichette montre ce
    que dit sa fiche aujourd'hui, « À confirmer » compris.
+
+## S39 à S41 — La carte *(17/10)*
+
+1. **S39** : le repère de départ est peint au-dessus des marqueurs
+   (`z-index: 1`) et ne capte pas le toucher. Le constat du 15/10 parlait du
+   zoom d'ouverture ; mesuré le 17/10, il se produit au zoom d'ouverture
+   + 2 (vu rouge).
+2. **S40** : un groupe qui contient la brasserie choisie porte un anneau, et
+   son nom accessible dit « dont « X », choisie ».
+3. **S41** : le repli « fond de carte incomplet » ne s'allume qu'après trois
+   tuiles en échec d'affilée. Une seule tuile perdue le faisait clignoter
+   (vu rouge, `MutationObserver`).
+4. **Revue adverse groupée** (48 k) :
+   - **(moyenne)** à `z-index: 3`, le repère se peignait sur les contrôles
+     de zoom et sur l'attribution OSM : il est à 1, sous les contrôles
+     (test) ;
+   - **(basse)** une réponse tardive de `getClusterLeaves` remarquait un
+     groupe après la fermeture de la fiche : elle est ignorée si le choix a
+     changé, et ses erreurs sont attrapées ;
+   - **non mesuré** : le coût de `getClusterLeaves(…, Infinity)` sur un
+     très grand groupe (S111).
+
+## S42 — Les communes, hors ligne d'avance *(17/10)*
+
+1. **Fait** : le service worker garde d'avance `communes-france.json` et
+   `communes/departements.json`, soit 469 ko compressé une fois par
+   version. Le pied de page ne dit plus « demande le réseau la première
+   fois ».
+2. **Vu rouge** : le test du précache, sans les deux fichiers.
+3. **Trouvé en route** : le repli sur le fichier entier, quand un fichier de
+   département manque, existait déjà dans `ChoixCommune`. Le repli ajouté
+   dans `communesFrance.ts` était redondant ; il est retiré, et le test qui
+   le gardait est renommé pour dire ce qu'il garde.
+4. **Revue adverse** : groupée avec S43.

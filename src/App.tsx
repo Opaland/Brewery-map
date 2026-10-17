@@ -878,7 +878,7 @@ export function App({
       <footer className="pied">
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
-            ? 'Prête pour une utilisation hors connexion sur cet appareil : fiches, liste et carte déjà vue. Chercher une commune de départ demande le réseau la première fois.'
+            ? 'Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.'
             : 'Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.'}
         </p>
         <p>

@@ -174,6 +174,12 @@ export default function Carte({
     }
     onChoisir(nom)
   }
+  /**
+   * Un groupe qui contient la brasserie choisie le montre, et le dit au
+   * lecteur d'écran (S40 ; revue adverse S2 : choisie dans un groupe, elle
+   * n'avait aucun retour sur la carte).
+   */
+  const marquerGroupes = useRef<() => void>(() => undefined)
   const surChoix = useRef(choisirMarqueur)
   const choisie = useRef(selection)
   useEffect(() => {
@@ -259,6 +265,8 @@ export default function Carte({
         if (typeof idGroupe === 'number') {
           const n = Number(p['point_count'])
           el = bouton('marqueur marqueur-groupe', `${String(n)} brasseries ici, voir le détail`, String(n))
+          el.dataset['groupe'] = String(idGroupe)
+          el.dataset['libelle'] = el.getAttribute('aria-label') ?? ''
           el.addEventListener('click', () => {
             void source.getClusterExpansionZoom(idGroupe).then((zoom) => {
               if (zoom <= ZOOM_MAX && zoom > map.getZoom()) {
@@ -297,13 +305,25 @@ export default function Carte({
           actifs.delete(cle)
         }
       }
+      marquerGroupes.current()
     }
 
+    // Le repli ne s'allume qu'après trois tuiles en échec d'affilée, sans
+    // tuile reçue entre elles : une seule tuile perdue l'allumait puis
+    // l'éteignait aussitôt (revue code S7, fait en S41). Trois : seuil de
+    // présentation, au jugé (§2) — une vue de téléphone demande une dizaine
+    // de tuiles, hors connexion toutes échouent.
+    let echecs = 0
     map.on('error', (e) => {
-      if ((e as { sourceId?: string }).sourceId === 'osm') setFondAbsent(true)
+      if ((e as { sourceId?: string }).sourceId !== 'osm') return
+      echecs += 1
+      if (echecs >= 3) setFondAbsent(true)
     })
     map.on('sourcedata', (e) => {
-      if (e.sourceId === 'osm' && e.tile !== undefined) setFondAbsent(false)
+      if (e.sourceId === 'osm' && e.tile !== undefined) {
+        echecs = 0
+        setFondAbsent(false)
+      }
     })
 
     map.on('load', () => {
@@ -384,6 +404,36 @@ export default function Carte({
     resultatsCourants.current = resultats
   }, [resultats])
   const cible = apercu ?? selection
+  const cibleCourante = useRef(cible)
+  useEffect(() => {
+    cibleCourante.current = cible
+    marquerGroupes.current = () => {
+      const source = carte.current?.getSource<GeoJSONSource>('brasseries')
+      for (const m of marqueurs.current.values()) {
+        const el = m.getElement()
+        const id = el.dataset['groupe']
+        if (id === undefined) continue
+        const libelle = el.dataset['libelle'] ?? ''
+        if (cible === null || source === undefined) {
+          el.classList.remove('contient-choisie')
+          el.setAttribute('aria-label', libelle)
+          continue
+        }
+        source
+          .getClusterLeaves(Number(id), Infinity, 0)
+          .then((feuilles) => {
+            // Une réponse arrivée après un autre choix ne marque rien (revue
+            // adverse S40 : refermée aussitôt, la fiche laissait son groupe marqué).
+            if (cibleCourante.current !== cible) return
+            const dedans = feuilles.some((f) => f.properties?.['nom'] === cible)
+            el.classList.toggle('contient-choisie', dedans)
+            el.setAttribute('aria-label', dedans ? `${libelle}, dont « ${cible} », choisie` : libelle)
+          })
+          .catch(() => undefined)
+      }
+    }
+    marquerGroupes.current()
+  }, [cible, prete])
   useEffect(() => {
     if (!prete) return
     for (const m of marqueurs.current.values()) {

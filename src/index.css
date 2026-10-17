@@ -337,6 +337,13 @@ a { color: inherit; }
   border-radius: 50%;
   background: #fff;
   border: 3px solid #1e2b23;
+  /* Au-dessus des marqueurs : un marqueur de la commune de départ le
+     recouvrait en zoomant (S39). Il ne capte pas le toucher, pour que le
+     marqueur dessous reste choisissable. 1 et pas plus : les contrôles de
+     zoom, l'attribution d'OpenStreetMap et la barre collée sont à 2 (revue
+     adverse S39 : à 3, il se peignait sur eux). */
+  z-index: 1;
+  pointer-events: none;
 }
 
 .ligne-note-titre { font-weight: 600; }
@@ -976,4 +983,10 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   /* 6 cm : bien au-dessus des 3 cm d'un QR lu à un mètre (CA4). */
   .affichette-qr { width: 6cm; height: 6cm; display: block; margin: 0.5cm auto; }
   .affichette-lien { font-size: 9pt; overflow-wrap: anywhere; }
+}
+
+/* S40 : un groupe qui contient la brasserie choisie, cerclé comme un
+   marqueur choisi (anneau cuivre, et blanc dessous pour le thème sombre). */
+.marqueur-groupe.contient-choisie {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--cuivre-vif);
 }
