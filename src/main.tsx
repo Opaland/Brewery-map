@@ -6,7 +6,7 @@ import { brasseriesOsm } from './osmFrance'
 import { ouvrirStockage } from './stockage'
 import { surveillerMiseAJour } from './miseAJour'
 import { appliquerTheme } from './theme'
-import { choisirLangue, langueDe } from './i18n'
+import { choisirLangue, langueDe, t } from './i18n'
 
 // Les réglages gardés sont lus avant le premier rendu : sinon la carte se
 // cadrerait sur les réglages par défaut, puis sauterait (S9). `ouvrirStockage`
@@ -16,6 +16,7 @@ const DELAI_COUCHE_MS = 3000
 
 // La langue de l'interface, avant tout rendu (S48).
 choisirLangue(langueDe(navigator.languages))
+document.title = t('Mousse de Poche — brasseries artisanales')
 
 const racine = document.getElementById('root')
 if (racine) {

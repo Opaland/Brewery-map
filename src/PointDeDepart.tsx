@@ -85,7 +85,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
       (e: unknown) => {
         if (geste.current !== moi) return
         setEnCours(false)
-        setMessage(e instanceof Error ? e.message : String(e))
+        setMessage(e instanceof Error ? t(e.message) : String(e))
       },
     )
   }, [onChange])

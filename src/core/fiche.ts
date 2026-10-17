@@ -1,3 +1,4 @@
+import { langueCourante, t } from '../i18n'
 import type { Brasserie } from './schema'
 
 /**
@@ -12,13 +13,13 @@ import type { Brasserie } from './schema'
 export function libelleConfiance(conf: Brasserie['conf']): string {
   switch (conf) {
     case 'solide':
-      return 'élevée'
-    case 'moyenne':
-      return 'moyenne'
-    case 'faible':
-      return 'faible'
+            return t('élevée')
+        case 'moyenne':
+      return t('moyenne')
+        case 'faible':
+      return t('faible')
     case '':
-      return 'non évaluée (aucune preuve retenue)'
+            return t('non évaluée (aucune preuve retenue)')
   }
 }
 
@@ -51,16 +52,17 @@ export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
  * Bernard).
  */
 export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): string {
-  const debut = 'La confiance ne garantit pas les horaires : lisez ce que dit la source'
-  return b.contact?.tel !== undefined || citeUnNumero(b.note)
-    ? `${debut}, et appelez en cas de doute.`
-    : `${debut}. Aucun téléphone n’est encore connu pour les vérifier.`
+    return b.contact?.tel !== undefined || citeUnNumero(b.note)
+    ? t('La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.')
+    : t(
+        'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
+      )
 }
 
 export function libellePrecision(precision: Brasserie['coordPrecision']): string {
-  if (precision === 'commune') return 'approximative : centre de la commune, à environ 2 km près'
-  if (precision === 'osm') return 'point placé sur OpenStreetMap, non vérifié sur place'
-  return 'à l’adresse vérifiée'
+  if (precision === 'commune') return t('approximative : centre de la commune, à environ 2 km près')
+  if (precision === 'osm') return t('point placé sur OpenStreetMap, non vérifié sur place')
+  return t('à l’adresse vérifiée')
 }
 
 /** Le site de la source, lisible (« nomadebiere.fr »), ou null s'il n'y en a pas. */
@@ -69,17 +71,16 @@ export function hoteDeSource(src: string): string | null {
   return new URL(src).hostname.replace(/^www\./, '')
 }
 
-const DATE = new Intl.DateTimeFormat('fr-FR', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric',
-  timeZone: 'UTC',
-})
+const FORMAT_DATE = { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' } as const
+const DATE = {
+  fr: new Intl.DateTimeFormat('fr-FR', FORMAT_DATE),
+  en: new Intl.DateTimeFormat('en-GB', FORMAT_DATE),
+}
 
 /** Date de dernière vérification, ou l'aveu qu'elle manque. */
 export function libelleVerification(iso: string | undefined): string {
-  if (iso === undefined) return 'non renseignée'
-  return DATE.format(new Date(`${iso}T00:00:00Z`))
+  if (iso === undefined) return t('non renseignée')
+  return DATE[langueCourante()].format(new Date(`${iso}T00:00:00Z`))
 }
 
 /** « 04 72 50 88 53 » → « tel:+33472508853 » : le format que tous les téléphones composent. */

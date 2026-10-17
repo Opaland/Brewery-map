@@ -10,7 +10,7 @@ import {
   libelleVerification,
   SENS_CONFIANCE,
 } from './core/fiche'
-import { estDeOsm, noteDeLigne, siteOsm } from './core/osm-france'
+import { estDeOsm, noteDeFiche, noteDeLigne, siteOsm } from './core/osm-france'
 import { lienDeFiche } from './core/partage'
 import { NOTE_MAX } from './core/preferences'
 import type { Resultat } from './core/recherche'
@@ -163,7 +163,7 @@ function Fiche({
         {estDeOsm(brasserie) && (
           <>
             <dt>{t('Pourquoi « À confirmer »')}</dt>
-            <dd data-testid="fiche-note-osm">{brasserie.note}</dd>
+            <dd data-testid="fiche-note-osm">{noteDeFiche(brasserie)}</dd>
           </>
         )}
 
@@ -175,7 +175,7 @@ function Fiche({
             <dt>{t('Site indiqué par OpenStreetMap')}</dt>
             <dd data-testid="fiche-site-osm">
               <a href={siteOsm(brasserie)} target="_blank" rel="noopener noreferrer">
-                {hoteDeSource(siteOsm(brasserie) ?? '') ?? 'site'}
+                {hoteDeSource(siteOsm(brasserie) ?? '') ?? t('site')}
               </a>
             </dd>
           </>
@@ -216,7 +216,7 @@ function Fiche({
               {t('Vérifiez avant d’y aller : appelez, ou lisez la source.')}
             </span>
           )}
-          <span className="fiche-aide">{SENS_CONFIANCE[brasserie.conf]}</span>
+          <span className="fiche-aide">{t(SENS_CONFIANCE[brasserie.conf])}</span>
           <span className="fiche-aide" data-testid="fiche-avertissement">
             {avertissementHoraires(brasserie)}
           </span>
@@ -381,7 +381,7 @@ export function Liste({
               */}
               <span className="ligne-note">
                 <span className="ligne-note-titre">
-                  {brasserie.cat === 0 ? 'Pourquoi : ' : 'Ce que dit la source : '}
+                  {brasserie.cat === 0 ? t('Pourquoi : ') : t('Ce que dit la source : ')}
                 </span>
                 {noteDeLigne(brasserie)}
               </span>

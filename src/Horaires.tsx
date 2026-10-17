@@ -57,7 +57,7 @@ function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
         <tbody>
           {JOURS.map((j) => (
             <tr key={j.cle}>
-              <th scope="row">{j.nom}</th>
+              <th scope="row">{t(j.nom)}</th>
               <td>{formaterCreneaux(bloc[j.cle])}</td>
             </tr>
           ))}

@@ -1,4 +1,5 @@
 import { BRIGNAIS, type Point } from './distance'
+import { t } from '../i18n'
 import type { Brasserie } from './schema'
 
 /**
@@ -57,7 +58,7 @@ export function libelleOrigine(o: Origine): string {
     case 'brignais':
       return 'Brignais'
     case 'position':
-      return o.pres === undefined ? 'votre position' : `votre position (près de ${o.pres})`
+      return o.pres === undefined ? t('votre position') : t('votre position (près de {pres})', { pres: o.pres })
     case 'commune':
       // Le département départage les homonymes : « Château (71) » (S21).
       return `${o.nom} (${o.cle.split('|')[1] ?? ''})`

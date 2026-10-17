@@ -6,6 +6,11 @@ import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
 import { SANS_COMPTE, SUITE_SIGNALEMENT } from '../../src/core/signalement'
 import { CATEGORIES } from '../../src/core/categories'
 import { RAISONS } from '../../src/core/sauvegarde'
+import { JOURS } from '../../src/core/horaires'
+import { TYPES_BIERE } from '../../src/core/bieres'
+import { SENS_CONFIANCE } from '../../src/core/fiche'
+import { MESSAGES_LOCALISATION } from '../../src/localisation'
+import { NOTE_COMMUNE_DEDUITE, NOTE_OSM } from '../../src/core/osm-france'
 
 /**
  * Les textes passés à `t()` par une constante, que la lecture du code ne
@@ -14,7 +19,14 @@ import { RAISONS } from '../../src/core/sauvegarde'
 const CLES_PAR_CONSTANTE = [
   ...Object.values(CATEGORIES),
   'La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.',
-  DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT, ...Object.values(RAISONS)]
+  DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT, ...Object.values(RAISONS),
+  ...JOURS.map((j) => j.nom),
+  ...TYPES_BIERE.flatMap((ty) => [ty.libelle, ty.explication]),
+  ...Object.values(SENS_CONFIANCE),
+  ...Object.values(MESSAGES_LOCALISATION),
+  NOTE_OSM,
+  NOTE_COMMUNE_DEDUITE,
+]
 
 /** Les clés de tous les appels `t('…')` ou `t("…")` du code de src/. */
 function clesDuCode(): Set<string> {

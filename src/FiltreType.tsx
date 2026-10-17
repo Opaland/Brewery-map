@@ -47,7 +47,7 @@ export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChang
           const part = n > 1 ? t('{n} fiches renseignées', { n }) : t('{n} fiche renseignée', { n })
           return (
             <option key={ty.type} value={ty.type}>
-              {ty.libelle} — {ty.explication} ({part})
+              {t(ty.libelle)} — {t(ty.explication)} ({part})
             </option>
           )
         })}

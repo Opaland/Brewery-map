@@ -17,7 +17,7 @@ import { EN } from './textes/en'
  */
 export type Langue = 'fr' | 'en'
 
-export const ANGLAIS_PRET = false
+export const ANGLAIS_PRET = true
 
 /** La langue de l'interface : la première langue du navigateur que l'on sait parler. */
 export function langueDe(langues: readonly string[], anglaisPret: boolean = ANGLAIS_PRET): Langue {

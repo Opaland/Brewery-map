@@ -29,9 +29,11 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
             type !== undefined && (biere.libelle === undefined || biere.type !== 'autre')
           const nom =
             biere.libelle === undefined
-              ? (type?.libelle ?? biere.type)
+                            ? type === undefined
+                ? biere.type
+                : t(type.libelle)
               : montrerType
-                ? `${biere.libelle} · ${type.libelle}`
+                ? `${biere.libelle} · ${t(type.libelle)}`
                 : biere.libelle
           const lien = lienDeBiere(biere, brasserie)
           return (
@@ -47,7 +49,7 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
                     t(' (page de la brasserie dans un annuaire, pas de cette bière)')}
                 </a>
               )}
-              {montrerType && <span className="fiche-aide-inline"> — {type.explication}</span>}
+              {montrerType && <span className="fiche-aide-inline"> — {t(type.explication)}</span>}
             </li>
           )
         })}

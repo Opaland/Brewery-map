@@ -1,3 +1,4 @@
+import { t } from '../i18n'
 import { communeLaPlusProche, type CommuneFrance, type Rectangle } from './communes'
 import { coeurDuNom } from './decouverte'
 import { normaliser } from './recherche'
@@ -210,9 +211,9 @@ export function validerFichierOsm(
   return erreurs.length === 0 ? { ok: true } : { ok: false, erreurs }
 }
 
-const NOTE_OSM =
+export const NOTE_OSM =
   'Repérée sur OpenStreetMap (carte collaborative) comme brasserie ; rien d’autre n’est vérifié : ni la vente, ni l’accueil, ni si elle est encore en activité.'
-const NOTE_COMMUNE_DEDUITE = ' La commune est déduite de sa position : OpenStreetMap ne la donne pas.'
+export const NOTE_COMMUNE_DEDUITE = ' La commune est déduite de sa position : OpenStreetMap ne la donne pas.'
 
 /** Une fiche de la couche OSM : son site, s'il est connu d'OSM (revue persona S25). */
 export type BrasserieOsm = Brasserie & { siteOsm?: string }
@@ -316,12 +317,23 @@ export function siteOsm(b: Brasserie): string | undefined {
 }
 
 /**
+ * La note d'une fiche OSM dans la langue de l'interface (S50) : elle est
+ * écrite par l'application, pas citée d'une source. Ailleurs, la note du
+ * fichier, en français : c'est une citation.
+ */
+export function noteDeFiche(b: Brasserie): string {
+  if (!estDeOsm(b) || !b.note.startsWith(NOTE_OSM)) return b.note
+  return t(NOTE_OSM) + (b.note.endsWith(NOTE_COMMUNE_DEDUITE) ? t(NOTE_COMMUNE_DEDUITE) : '')
+}
+
+/**
  * La note sur la ligne de liste : courte pour une fiche OSM, la même pour
  * toutes (la longue reste dans la fiche) ; ailleurs, la note du fichier.
  * Revue persona S25 : 200 caractères répétés à chaque ligne.
  */
 export function noteDeLigne(b: Brasserie): string {
   if (!estDeOsm(b)) return b.note
-  const courte = 'Repérée sur OpenStreetMap ; rien d’autre n’est vérifié.'
-  return b.note.endsWith(NOTE_COMMUNE_DEDUITE) ? `${courte} Commune déduite de sa position.` : courte
+    return b.note.endsWith(NOTE_COMMUNE_DEDUITE)
+    ? t('Repérée sur OpenStreetMap ; rien d’autre n’est vérifié. Commune déduite de sa position.')
+    : t('Repérée sur OpenStreetMap ; rien d’autre n’est vérifié.')
 }

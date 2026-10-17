@@ -2042,3 +2042,19 @@ clair et en sombre, aperçu de la carte compris, ainsi qu'avec le thème forcé
    français, exprès.
 2. **Vu rouge** : deux traductions retirées, deux clés signalées.
 3. **Revue adverse** : avec S50, sur l'ensemble de la traduction.
+
+## S50 — Interface en anglais (3/3) : les textes du cœur, et l'allumage *(17/10)*
+
+1. **Fait** (`docs/stories/S50.md`) :
+   - les textes écrits par `src/core` passent par `t()` : dates (en-GB),
+     heures (24 h), jours, types de bière, confiance, précision, départ,
+     résumé des filtres, localisation, note des fiches OpenStreetMap ;
+   - le titre de la page se traduit ;
+   - `ANGLAIS_PRET = true` : un navigateur anglais reçoit l'anglais ;
+   - 296 entrées au dictionnaire ;
+   - persona Emma, visiteuse étrangère (`docs/PERSONAS.md`).
+2. **Vu rouge** : anglais éteint, 3 tests sur 4 rouges ; un texte de
+   `Contact.tsx` laissé en français, le test de la fiche rouge.
+3. **Une sonde jetable** a lu tout l'écran en anglais : elle a trouvé
+   « Pourquoi : » / « Ce que dit la source : » sur chaque ligne et la note
+   longue des fiches OSM, restés en français. Corrigés.
