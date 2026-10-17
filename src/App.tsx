@@ -41,6 +41,7 @@ import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
 import { Sauvegarde } from './Sauvegarde'
+import { appliquerTheme } from './theme'
 import type { Stockage } from './stockage'
 
 // L'affichette et son QR (S38) : chargés au premier clic, hors du chemin
@@ -148,6 +149,11 @@ export function App({
   const [affichette, setAffichette] = useState<{ brasserie: Brasserie; n: number } | null>(null)
   // Mes notes (S36) : une par brasserie, pour soi, sur l'appareil.
   const [notes, setNotes] = useState(ini.notes)
+  // Le thème au choix (S45).
+  const [theme, setTheme] = useState(ini.theme)
+  useEffect(() => {
+    appliquerTheme(theme)
+  }, [theme])
   const [departementChoisi, setDepartement] = useState<string | undefined>(undefined)
   // Sur téléphone, les filtres secondaires sont repliés (S29 : la première
   // brasserie était à 2,1 écrans). Ouverts sur ordinateur, où ils tiennent
@@ -270,8 +276,9 @@ export function App({
         visites: [...visites],
         pasVisitees,
         notes: [...notes],
+        theme,
       }),
-    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes],
+    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, avecOsm, visites, pasVisitees, notes, theme],
   )
   useEffect(() => {
     const texte = JSON.stringify(garde)
@@ -464,6 +471,7 @@ export function App({
     setVisites(d.visites)
     setPasVisitees(d.pasVisitees)
     setNotes(d.notes)
+    setTheme(d.theme)
   }, [])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
@@ -878,6 +886,30 @@ export function App({
         </Suspense>
       )}
       <footer className="pied">
+        {/* Le thème au choix (S45) : gardé avec les réglages. */}
+        <fieldset className="theme-choix" data-testid="theme">
+          <legend>Apparence</legend>
+          {(
+            [
+              ['auto', 'Comme le téléphone'],
+              ['clair', 'Claire'],
+              ['sombre', 'Sombre'],
+            ] as const
+          ).map(([valeur, libelle]) => (
+            <label key={valeur} className="case">
+              <input
+                type="radio"
+                name="theme"
+                checked={theme === valeur}
+                onChange={() => {
+                  setTheme(valeur)
+                }}
+                data-testid={`theme-${valeur}`}
+              />
+              {libelle}
+            </label>
+          ))}
+        </fieldset>
         {/* « Quoi de neuf ? » (S44) : l'application, et les fiches. */}
         <details className="quoi-de-neuf" data-testid="quoi-de-neuf">
           <summary>Quoi de neuf ?</summary>

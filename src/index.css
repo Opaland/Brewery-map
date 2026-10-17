@@ -995,3 +995,9 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .quoi-de-neuf summary { display: list-item; min-height: 44px; padding: 12px 0; line-height: 20px; cursor: pointer; font-weight: 600; }
 .quoi-de-neuf ul { padding-left: var(--espace-8); margin: var(--espace-4) 0; }
 .quoi-de-neuf li { margin-bottom: var(--espace-2); }
+
+/* S45 : le thème forcé règle aussi les contrôles natifs du navigateur. */
+:root[data-theme='clair'] { color-scheme: light; }
+:root[data-theme='sombre'] { color-scheme: dark; }
+.theme-choix { border: 0; padding: 0; margin: 0 0 var(--espace-6); display: flex; flex-wrap: wrap; gap: 0 var(--espace-7); }
+.theme-choix legend { font-weight: 600; padding: 0; }
