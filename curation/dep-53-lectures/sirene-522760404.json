@@ -1,0 +1,26 @@
+{
+ "candidat": "sirene:522760404",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie associative de Montflours (BAM)",
+   "c": "Montflours",
+   "d": "53",
+   "lat": 48.16977,
+   "lon": -0.73392,
+   "km": 500.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie coopérative certifiée Nature et Progrès ; la fiche de l'office de tourisme cite une boutique, sans dire quand ni comment on y achète.",
+   "addr": "ZA du Mottay, route de Sacé, 53240 Montflours",
+   "src": "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/",
+   "coordPrecision": "commune",
+   "beers": []
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/"
+  ],
+  "extrait": "Nature et Progrès certified cooperative brewery",
+  "choix": "Fiche de tourisme seulement, qui marque ses horaires « non garantis » ; seul numéro, un mobile."
+ }
+}

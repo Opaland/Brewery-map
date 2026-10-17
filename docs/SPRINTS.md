@@ -2685,3 +2685,16 @@ La revue a relu chaque page par curl. Aucune erreur grave ; corrigé :
 4. **La Rombière** : des titres de rubriques ne prouvent pas la vente. Elle passe « à confirmer ».
 5. **« Aucun lien Untappd »** était écrit en dur dans l'en-tête des lots, faux pour 49 et 85. Le compte vient maintenant des fiches.
 6. **Beer Workshop** passe en confiance « faible », comme les autres fiches de tourisme, et la phrase de la partie 3 est corrigée.
+
+## S250 (4-5/…) — Sarthe et Mayenne : 7 et 4 fiches proposées *(17/10)*
+
+| Lot | À lire | Proposées | Acheter et consommer | Acheter seulement | À confirmer | Contacts | Horaires |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| `dep-72` | 19 | 7 | 4 | 2 | 1 | 6 | 4 |
+| `dep-53` | 9 | 4 | 1 | 0 | 3 | 1 | 1 |
+
+- Mage Malte passe en « acheter et consommer » : la page dit « Vente directe* et TAP ROOM », que le rapport de l'agent n'avait pas vu.
+- Septante-Deux tient sur son propre site (« servie sur place, en direct des cuves »), et non plus sur un guide.
+- Jolicoeur : la commune de Laigné-en-Belin s'appelle aujourd'hui Laigné-Saint-Gervais pour le géocodeur ; la fiche n'était pas écrite. Elle l'est, et le lot le dit.
+- La Mayenne a peu de pages de brasseries : trois fiches sur quatre restent « à confirmer ».
+

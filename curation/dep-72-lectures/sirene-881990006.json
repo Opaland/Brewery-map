@@ -1,0 +1,74 @@
+{
+ "candidat": "sirene:881990006",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Montmirail",
+   "c": "Montmirail",
+   "d": "72",
+   "lat": 48.10314,
+   "lon": 0.79158,
+   "km": 404.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "BrewPub de la brasserie (licence IV) : bières, cocktails et vente à emporter, du mercredi au dimanche ; un comptoir à Vibraye.",
+   "addr": "9 rue du Docteur Castaing, 72320 Montmirail",
+   "src": "https://www.brasseriedemontmirail.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriedemontmirail.com/",
+    "source": "https://www.brasseriedemontmirail.com/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mer": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:00",
+       "13:00"
+      ]
+     ],
+     "source": "https://www.brasseriedemontmirail.com/",
+     "remarque": "BrewPub de Montmirail.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.brasseriedemontmirail.com/",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+du+Docteur+Castaing%2C+72320+Montmirail&limit=5"
+  ],
+  "extrait": "Vous pouvez acheter à emporter",
+  "choix": "Seul numéro, un mobile. Le comptoir de Vibraye (13 rue de la Rivière) a ses propres horaires, non repris. Même brasserie que le point OSM node/10281244982."
+ }
+}

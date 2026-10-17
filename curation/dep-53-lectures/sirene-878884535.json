@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:878884535",
+ "ajout": {
+  "fiche": {
+   "n": "Guibs Beer",
+   "c": "Mayenne",
+   "d": "53",
+   "lat": 48.28454,
+   "lon": -0.62533,
+   "km": 500.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie (bouteilles, coffrets, verres) et espace bar et dégustation à la pression, du mercredi au samedi ; bières bio.",
+   "addr": "139 impasse Thomas A Édison, 53100 Mayenne",
+   "src": "https://www.guibsbeer.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.guibsbeer.fr/",
+    "source": "https://www.guibsbeer.fr/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "mer": [
+      [
+       "17:00",
+       "20:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "21:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "22:00"
+      ]
+     ],
+     "source": "https://www.guibsbeer.fr/",
+     "remarque": "Bar et boutique.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.guibsbeer.fr/",
+   "https://data.geopf.fr/geocodage/search?q=139+impasse+Thomas+A+%C3%89dison%2C+53100+Mayenne&limit=5"
+  ],
+  "extrait": "Espace bar et dégustation pour passer un bon moment à déguster une Guibs à la pression",
+  "choix": "Les deux numéros du site sont des mobiles (bar et boutique ; commandes et fûts)."
+ }
+}

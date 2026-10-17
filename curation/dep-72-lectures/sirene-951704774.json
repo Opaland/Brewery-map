@@ -1,0 +1,56 @@
+{
+ "candidat": "sirene:951704774",
+ "ajout": {
+  "fiche": {
+   "n": "La Chaloupe Brasserie",
+   "c": "Le Mans",
+   "d": "72",
+   "lat": 48.00182,
+   "lon": 0.19351,
+   "km": 432.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la brasserie, ouverte le mercredi et le samedi matin ; ateliers de brassage et de dégustation, location de tireuse.",
+   "addr": "41 rue d'Alger, 72000 Le Mans",
+   "src": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.la-chaloupe-brasserie.fr/",
+    "source": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+    "verifieLe": "2026-10-17"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "mer": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "source": "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+     "remarque": "Boutique de la brasserie.",
+     "verifieLe": "2026-10-17"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://www.la-chaloupe-brasserie.fr/notre-gamme-de-biere/",
+   "https://data.geopf.fr/geocodage/search?q=41+rue+d%27Alger%2C+72000+Le+Mans&limit=5"
+  ],
+  "extrait": "Disponibles en bouteilles pour les particuliers et les professionnels",
+  "choix": "Seul numéro, un mobile. Les ateliers de dégustation sont sur inscription : pas un bar."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "candidat": "sirene:937917748",
+ "ajout": {
+  "fiche": {
+   "n": "La Feuille Rouge",
+   "c": "Vancé",
+   "d": "72",
+   "lat": 47.8267,
+   "lon": 0.65186,
+   "km": 393.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie ouverte en 2025 ; canettes, et fûts prêtés avec tireuse pour les événements. Rien sur une vente ou un accueil à la brasserie.",
+   "addr": "18 rue Virginie Vaslin, Le Champ du Moulin, 72310 Vancé",
+   "src": "https://lafeuillerouge.com/",
+   "coordPrecision": "commune",
+   "beers": [
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://lafeuillerouge.com/",
+    "source": "https://lafeuillerouge.com/",
+    "verifieLe": "2026-10-17"
+   }
+  },
+  "verifieLe": "2026-10-17",
+  "sources": [
+   "https://lafeuillerouge.com/"
+  ],
+  "extrait": "Toute la gamme sera disponible en canettes mais également en fûts de 30L",
+  "choix": "Seul numéro, un mobile."
+ }
+}
