@@ -2,13 +2,27 @@
   "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
   "_commentaire": "S239 : mutation du cœur (CLAUDE.md §6bis). Job de nuit, informatif ; pas de score minimal avant une première mesure (§2).",
   "testRunner": "vitest",
-  "mutate": ["src/core/**/*.ts"],
-  "reporters": ["clear-text", "html", "json"],
-  "htmlReporter": { "fileName": "reports/mutation/index.html" },
-  "jsonReporter": { "fileName": "reports/mutation/mutation.json" },
+  "mutate": [
+    "src/core/**/*.ts"
+  ],
+  "reporters": [
+    "clear-text",
+    "html",
+    "json"
+  ],
+  "htmlReporter": {
+    "fileName": "reports/mutation/index.html"
+  },
+  "jsonReporter": {
+    "fileName": "reports/mutation/mutation.json"
+  },
   "coverageAnalysis": "perTest",
   "ignoreStatic": true,
   "_statiques": "Les mutants du code exécuté au chargement (schémas Zod) ne sont pas réévalués par le lanceur Vitest : comptés à tort comme survivants (vérifié à la main le 17/10 sur garde-donnees.ts). Ignorés ; ces schémas restent couverts par les tests ordinaires.",
   "concurrency": 2,
-  "timeoutMS": 60000
+  "timeoutMS": 60000,
+  "vitest": {
+    "configFile": "vitest.stryker.config.ts"
+  },
+  "_vitest": "Une configuration à part écarte le test des traductions, qui lit le code source et ne reconnaît pas le code instrumenté (vitest.stryker.config.ts)."
 }

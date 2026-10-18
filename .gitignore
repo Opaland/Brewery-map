@@ -5,4 +5,5 @@ playwright-report
 test-results
 *.tsbuildinfo
 reports/
+.stryker-tmp/
 outils/cache/sirene/
