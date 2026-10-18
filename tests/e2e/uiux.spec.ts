@@ -154,9 +154,16 @@ test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ p
   await versLaCarte(page)
   await page.locator('button.ligne').first().click()
   const repere = page.locator('.marqueur-origine')
-  // La carte s'est posée sur la brasserie choisie.
-  await page.waitForTimeout(800)
-  const avant = await repere.boundingBox()
+  // La carte s'est posée sur la brasserie choisie : deux mesures à 200 ms
+  // d'écart qui concordent, plutôt qu'une attente fixe (§1bis, revue S295).
+  let avant = await repere.boundingBox()
+  await expect
+    .poll(async () => {
+      const precedente = avant
+      avant = await repere.boundingBox()
+      return precedente !== null && avant !== null && Math.abs(precedente.x - avant.x) + Math.abs(precedente.y - avant.y) < 1
+    }, { intervals: [200] })
+    .toBe(true)
   await page.getByTestId('bouton-favori').click()
   // Attente voulue : un recadrage de la carte, s'il partait, aurait fini.
   await page.waitForTimeout(800)

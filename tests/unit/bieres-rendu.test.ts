@@ -27,9 +27,9 @@ describe('les bières de la fiche', () => {
       ],
     })
     expect(html).toContain('<a href="https://caribrew.example/ipa"')
-    expect(html).toContain('>IPA</a>')
-    expect(html).toContain('Blonde (page de la brasserie dans un annuaire, pas de cette bière)</a>')
-    expect(html).toContain('Saison (page de la brasserie dans un annuaire, pas de cette bière)</a>')
+    expect(html).toContain('>IPA<span class="lecteur-seul"> (nouvel onglet)</span></a>')
+    expect(html).toContain('Blonde (page de la brasserie dans un annuaire, pas de cette bière)<span class="lecteur-seul"> (nouvel onglet)</span></a>')
+    expect(html).toContain('Saison (page de la brasserie dans un annuaire, pas de cette bière)<span class="lecteur-seul"> (nouvel onglet)</span></a>')
     expect(html).toContain(' — très houblonnée, souvent amère')
   })
 

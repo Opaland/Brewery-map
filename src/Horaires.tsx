@@ -9,6 +9,8 @@ import {
 } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
+import { EnFrancais } from './EnFrancais'
+import { LienExterne } from './LienExterne'
 
 const titre = (nature: Bloc['nature']) =>
   nature === 'accueil' ? t('Horaires d’accueil du public') : t('Horaires de vente')
@@ -49,7 +51,7 @@ function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
       <Maintenant bloc={bloc} maintenant={maintenant} />
       {bloc.remarque !== undefined && (
         <p className="horaires-remarque" data-testid="horaires-remarque">
-          <strong>{t('À savoir :')}</strong> {bloc.remarque}
+          <strong>{t('À savoir :')}</strong> <EnFrancais>{bloc.remarque}</EnFrancais>
         </p>
       )}
       <table>
@@ -65,9 +67,9 @@ function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
       </table>
       <p className="fiche-aide">
                 {t('Lus le {date} sur', { date: libelleVerification(bloc.verifieLe) })}{' '}
-        <a href={bloc.source} target="_blank" rel="noopener noreferrer">
+        <LienExterne href={bloc.source}>
           {hoteDeSource(bloc.source)}
-        </a>
+        </LienExterne>
         {t('. Ils peuvent avoir changé depuis.')}
       </p>
     </div>

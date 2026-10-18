@@ -68,7 +68,7 @@ test.describe('« autour de moi » (Léa)', () => {
   test('l’écran dit ce qui reste dans le téléphone, et ce qui part', async ({ page }) => {
     await page.goto('/')
     const texte = page.getByTestId('confidentialite')
-    await expect(texte).toContainText('vos coordonnées ne sont envoyées à personne')
+    await expect(texte).toContainText('ce site n’envoie vos coordonnées à personne')
     await expect(texte).toContainText('seul le choix « Autour de moi » est gardé, pas la position')
     // Une commune choisie fait aussi charger les images de sa zone (revue Léa S21).
     await expect(texte).toContainText('votre position ou la commune choisie')
@@ -76,9 +76,13 @@ test.describe('« autour de moi » (Léa)', () => {
     await expect(page.getByTestId('stockage-texte')).not.toContainText('jamais gardé')
     // Replié, le texte s'annonce par une phrase visible avant le bouton (revue globale S22).
     await expect(page.locator('[data-testid="depart"] .confidentialite summary')).toHaveText(
-      'Votre position reste dans ce téléphone. Ce qui part sur le réseau',
+      'Votre position reste dans ce téléphone. Voir ce qui part sur le réseau',
     )
-    await expect(texte).toContainText('fait aussi demander à ce site la liste des communes de sa région')
+    await expect(texte).toContainText('Le point de départ fait demander à ce site, dès l’ouverture, la liste des communes de sa région')
+    // Avec « Autour de moi », le fichier de toute la France : rien ne dit la zone (revue adverse S295).
+    await expect(texte).toContainText('celle de toute la France, la même pour tous')
+    await expect(texte).toContainText('Le serveur de cette page (GitHub Pages) voit aussi votre adresse IP')
+    await expect(texte).toContainText('le service de localisation de son éditeur')
     // Lu avant le geste : le texte précède le bouton dans le document.
     const avant = await page.evaluate(() => {
       const t = document.querySelector('[data-testid="confidentialite"]')

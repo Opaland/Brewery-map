@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { hotesTiers, POLITIQUE } from '../../build/csp'
+import { CACHE_TUILES } from '../../src/cacheTuiles'
 import { ELEMENTS_MAX } from '../../src/core/sauvegarde'
 
 /**
@@ -23,5 +24,11 @@ describe('les règles jumelles', () => {
     const osm = (JSON.parse(readFileSync('src/donnees-osm/brasseries-osm.json', 'utf8')) as { brasseries: unknown[] }).brasseries.length
     expect(fiches + osm).toBeGreaterThan(1000)
     expect(ELEMENTS_MAX).toBeGreaterThan(2 * (fiches + osm))
+  })
+
+  it('« Tout effacer » vide le cache que le service worker remplit (S295)', () => {
+    const sw = /const CACHE_TUILES = '([^']+)'/.exec(readFileSync('public/sw.js', 'utf8'))?.[1]
+    // Renommé dans le service worker seul, l'effacement viserait un cache vide.
+    expect(sw).toBe(CACHE_TUILES)
   })
 })

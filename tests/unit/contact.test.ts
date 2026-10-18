@@ -62,4 +62,16 @@ describe('lienTelephone', () => {
     expect(lienTelephone('04 72 50 88 53')).toBe('tel:+33472508853')
     expect(lienTelephone('06 64 34 13 57')).toBe('tel:+33664341357')
   })
+
+  // #47 : le schéma accepte un numéro d'outre-mer ; « +33 » ne l'appelle pas.
+  it('donne à l’outre-mer son indicatif, pas +33', () => {
+    expect(lienTelephone('02 62 12 34 56')).toBe('tel:+262262123456') // La Réunion
+    expect(lienTelephone('02 69 12 34 56')).toBe('tel:+262269123456') // Mayotte
+    expect(lienTelephone('05 90 12 34 56')).toBe('tel:+590590123456') // Guadeloupe
+    expect(lienTelephone('05 94 12 34 56')).toBe('tel:+594594123456') // Guyane
+    expect(lienTelephone('05 96 12 34 56')).toBe('tel:+596596123456') // Martinique
+    // Métropole aux préfixes voisins : inchangée.
+    expect(lienTelephone('02 61 12 34 56')).toBe('tel:+33261123456')
+    expect(lienTelephone('05 56 12 34 56')).toBe('tel:+33556123456')
+  })
 })

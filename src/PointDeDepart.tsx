@@ -147,9 +147,9 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
         {/* Replié derrière une phrase courte : en entier, il remplissait le
             premier écran et repoussait la liste à 2,2 écrans (revue globale
             S22). La phrase visible dit déjà l'essentiel, avant le bouton. */}
-        <summary>{t('Votre position reste dans ce téléphone. Ce qui part sur le réseau')}</summary>
+        <summary>{t('Votre position reste dans ce téléphone. Voir ce qui part sur le réseau')}</summary>
         <p className="champ-aide" data-testid="confidentialite">
-          {t('« Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer les distances : vos coordonnées ne sont envoyées à personne, et seul le choix « Autour de moi » est gardé, pas la position. Mais la carte se centre sur le point de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres près, et votre adresse IP — comme pour toute carte en ligne. Choisir une commune fait aussi demander à ce site la liste des communes de sa région.')}
+          {t('« Autour de moi » utilise votre position seulement dans ce téléphone, pour calculer les distances : ce site n’envoie vos coordonnées à personne, et seul le choix « Autour de moi » est gardé, pas la position. Pour vous situer, le navigateur peut interroger le service de localisation de son éditeur : ce site n’y a pas la main. La carte se centre sur le point de départ — votre position ou la commune choisie — et charge auprès d’OpenStreetMap les images de cette zone : ce serveur voit donc cette zone, à quelques kilomètres près, et votre adresse IP — comme pour toute carte en ligne. Le serveur de cette page (GitHub Pages) voit aussi votre adresse IP, comme tout site ouvert. Le point de départ fait demander à ce site, dès l’ouverture, la liste des communes de sa région — ou, avec « Autour de moi », celle de toute la France, la même pour tous.')}
         </p>
       </details>
       <div className="depart-actions">

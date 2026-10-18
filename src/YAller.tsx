@@ -1,6 +1,7 @@
 import { destination, liensItineraire, plateformeDe } from './core/itineraire'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
+import { LienExterne } from './LienExterne'
 
 /**
  * « Y aller » (S19, persona Hugo) : l'application de navigation est au choix
@@ -20,7 +21,7 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
       )}
       {d.mode === 'commune' && (
         <p className="fiche-aide" data-testid="y-aller-commune">
-                    {t(
+          {t(
             'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
           )}
         </p>
@@ -33,15 +34,15 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
       <ul className="fiche-liens">
         {liensItineraire(brasserie, plateformeDe(navigator.userAgent)).map((l) => (
           <li key={l.appli}>
-            <a href={l.url} target="_blank" rel="noopener noreferrer">
+            <LienExterne href={l.url}>
               {l.appli}
               <span className="lecteur-seul">{t(' : itinéraire vers {nom}', { nom: brasserie.n })}</span>
-            </a>
+            </LienExterne>
           </li>
         ))}
       </ul>
       <p className="fiche-aide">
-                {t(
+        {t(
           'Le lien ne contient que la destination. Votre position, l’application choisie la prend elle-même si vous le lui permettez.',
         )}
       </p>

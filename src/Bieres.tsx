@@ -1,6 +1,7 @@
 import { lienDeBiere, TYPES_BIERE } from './core/bieres'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
+import { LienExterne } from './LienExterne'
 
 const LIBELLE = new Map(TYPES_BIERE.map((ty) => [ty.type, ty]))
 
@@ -43,11 +44,11 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
                   {nom} <span className="fiche-aide-inline">{t('(non référencé)')}</span>
                 </>
               ) : (
-                <a href={lien.url} target="_blank" rel="noopener noreferrer">
+                <LienExterne href={lien.url}>
                   {nom}
                   {lien.nature === 'annuaire' &&
                     t(' (page de la brasserie dans un annuaire, pas de cette bière)')}
-                </a>
+                </LienExterne>
               )}
               {montrerType && <span className="fiche-aide-inline"> — {t(type.explication)}</span>}
             </li>

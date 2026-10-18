@@ -13,13 +13,13 @@ import type { Brasserie } from './schema'
 export function libelleConfiance(conf: Brasserie['conf']): string {
   switch (conf) {
     case 'solide':
-            return t('élevée')
-        case 'moyenne':
+      return t('élevée')
+    case 'moyenne':
       return t('moyenne')
-        case 'faible':
+    case 'faible':
       return t('faible')
     case '':
-            return t('non évaluée (aucune preuve retenue)')
+      return t('non évaluée (aucune preuve retenue)')
   }
 }
 
@@ -52,7 +52,7 @@ export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
  * Bernard).
  */
 export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): string {
-    return b.contact?.tel !== undefined || citeUnNumero(b.note)
+  return b.contact?.tel !== undefined || citeUnNumero(b.note)
     ? t('La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.')
     : t(
         'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
@@ -84,9 +84,23 @@ export function libelleVerification(iso: string | undefined): string {
   return DATE[langueCourante()].format(new Date(`${iso}T00:00:00Z`))
 }
 
+/**
+ * Les départements d'outre-mer ont leur propre indicatif, suivi du numéro
+ * national sans son 0 : « 02 62 12 34 56 » se compose +262 262 12 34 56
+ * (#47). Plan de numérotation de l'ARCEP, fixes et mobiles.
+ */
+const INDICATIFS_OUTRE_MER: Readonly<Record<string, string>> = {
+  '0262': '262', '0269': '262', '0639': '262', '0692': '262', '0693': '262', // La Réunion, Mayotte
+  '0590': '590', '0690': '590', '0691': '590', // Guadeloupe, Saint-Martin, Saint-Barthélemy
+  '0594': '594', '0694': '594', // Guyane
+  '0596': '596', '0696': '596', '0697': '596', // Martinique
+}
+
 /** « 04 72 50 88 53 » → « tel:+33472508853 » : le format que tous les téléphones composent. */
 export function lienTelephone(tel: string): string {
-  return `tel:+33${tel.replace(/ /g, '').slice(1)}`
+  const chiffres = tel.replace(/ /g, '')
+  const indicatif = INDICATIFS_OUTRE_MER[chiffres.slice(0, 4)] ?? '33'
+  return `tel:+${indicatif}${chiffres.slice(1)}`
 }
 
 /**

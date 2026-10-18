@@ -1,4 +1,6 @@
 import { t } from './i18n'
+import { EnFrancais } from './EnFrancais'
+import { LienExterne } from './LienExterne'
 import { useEffect, useRef, useState } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
@@ -41,13 +43,10 @@ interface Props {
 }
 
 /**
- * Ce qu'un signalement implique, dit avant le geste (S10). Le lien n'emporte
- * que la fiche, déjà publique ; `noreferrer` : GitHub ne reçoit pas l'adresse
- * de la page d'où l'on vient.
+ * Ce qu'un signalement implique, dit avant le geste (S10), dans la langue de
+ * l'interface (S49). Le lien n'emporte que la fiche, déjà publique ;
+ * `noreferrer` : GitHub ne reçoit pas l'adresse de la page d'où l'on vient.
  */
-export const AIDE_SIGNALEMENT = `Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit). ${SANS_COMPTE} Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris. ${SUITE_SIGNALEMENT}`
-
-/** La même aide, dans la langue de l'interface (S49). */
 const aideSignalement = () =>
   `${t('Ouvre GitHub dans un nouvel onglet, avec la fiche déjà recopiée. Il faut un compte GitHub (gratuit).')} ${t(SANS_COMPTE)} ${t('Votre signalement sera public, sous votre nom de compte. Seule la fiche est transmise : ni votre position, ni vos favoris.')} ${t(SUITE_SIGNALEMENT)}`
 
@@ -86,6 +85,7 @@ function BoutonPartager({ nom }: { nom: string }) {
     <>
       <button type="button" onClick={partager} data-testid="bouton-partager">
         {t('Partager')}
+        <span className="lecteur-seul"> {nom}</span>
       </button>
       <span className="fiche-aide" role="status" data-testid="partage-etat">
         {etat === 'copie' ? t('Lien copié.') : etat === 'echec' ? t('Copie impossible ici.') : ''}
@@ -120,6 +120,9 @@ function Fiche({
   onRefermer: () => void
 }) {
   const hote = hoteDeSource(brasserie.src)
+  const site = siteOsm(brasserie)
+  // Le nom de la brasserie, pour qui parcourt les boutons sans la ligne (S295, Inès).
+  const pour = <span className="lecteur-seul"> {brasserie.n}</span>
   return (
     <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
       <div className="depart-actions">
@@ -129,12 +132,14 @@ function Fiche({
         */}
         <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
           {favori ? t('★ Retirer de mes favoris') : t('☆ Ajouter à mes favoris')}
+          {pour}
         </button>
         {/* Mon carnet (S35) : le jour seulement, gardé sur l'appareil. */}
         <button type="button" onClick={onBasculerVisite} data-testid="bouton-visite">
           {visite === undefined
             ? t('J’y suis allé·e')
             : t('✓ Visitée le {date} — retirer du carnet', { date: libelleVerification(visite) })}
+          {pour}
         </button>
         <BoutonPartager nom={brasserie.n} />
       </div>
@@ -163,20 +168,22 @@ function Fiche({
         {estDeOsm(brasserie) && (
           <>
             <dt>{t('Pourquoi « À confirmer »')}</dt>
-            <dd data-testid="fiche-note-osm">{noteDeFiche(brasserie)}</dd>
+            <dd>
+              <EnFrancais testid="fiche-note-osm">{noteDeFiche(brasserie)}</EnFrancais>
+            </dd>
           </>
         )}
 
         <dt>{t('Adresse')}</dt>
         <dd>{brasserie.addr}</dd>
 
-        {siteOsm(brasserie) !== undefined && (
+        {site !== undefined && (
           <>
             <dt>{t('Site indiqué par OpenStreetMap')}</dt>
             <dd data-testid="fiche-site-osm">
-              <a href={siteOsm(brasserie)} target="_blank" rel="noopener noreferrer">
-                {hoteDeSource(siteOsm(brasserie) ?? '') ?? t('site')}
-              </a>
+              <LienExterne href={site}>
+                {hoteDeSource(site) ?? t('site')}
+              </LienExterne>
             </dd>
           </>
         )}
@@ -184,11 +191,11 @@ function Fiche({
         <dt>{t('Source')}</dt>
         <dd data-testid="fiche-source">
           {hote === null ? (
-            t('Aucune source lue pour cette brasserie.')
+            t('Aucune source lue pour cette brasserie. Si c’est la vôtre, envoyez le lien de votre site par « Signaler une erreur », plus bas.')
           ) : (
-            <a href={brasserie.src} target="_blank" rel="noopener noreferrer">
+            <LienExterne href={brasserie.src}>
               {hote}
-            </a>
+            </LienExterne>
           )}
         </dd>
 
@@ -200,9 +207,9 @@ function Fiche({
             <dt>{t('Fermée')}</dt>
             <dd data-testid="fiche-fermee">
               {t('Selon')}{' '}
-              <a href={brasserie.fermee.source} target="_blank" rel="noopener noreferrer">
+              <LienExterne href={brasserie.fermee.source}>
                 {hoteDeSource(brasserie.fermee.source) ?? t('la source')}
-              </a>
+              </LienExterne>
               {t(', lue le {date}.', { date: libelleVerification(brasserie.fermee.verifieLe) })}
             </dd>
           </>
@@ -226,9 +233,9 @@ function Fiche({
         <dd data-testid="fiche-precision">{libellePrecision(brasserie.coordPrecision)}</dd>
       </dl>
       <p className="fiche-signaler" data-testid="fiche-signaler">
-        <a href={lienSignalement(brasserie)} target="_blank" rel="noopener noreferrer">
+        <LienExterne href={lienSignalement(brasserie)}>
           {t('Signaler une erreur sur cette fiche')}
-        </a>
+        </LienExterne>
         <span className="fiche-aide">{aideSignalement()}</span>
       </p>
       {/* Une fiche OSM se corrige d'abord à la source, pour tout le monde
@@ -236,9 +243,9 @@ function Fiche({
       {estDeOsm(brasserie) && (
         <p className="fiche-aide" data-testid="corriger-osm">
           {t('Elle vient d’OpenStreetMap : vous pouvez aussi la corriger à la source, sur')}{' '}
-          <a href={brasserie.src} target="_blank" rel="noopener noreferrer">
+          <LienExterne href={brasserie.src}>
             openstreetmap.org
-          </a>{' '}
+          </LienExterne>{' '}
           {t('(compte OpenStreetMap gratuit).')}
         </p>
       )}
@@ -383,7 +390,7 @@ export function Liste({
                 <span className="ligne-note-titre">
                   {brasserie.cat === 0 ? t('Pourquoi : ') : t('Ce que dit la source : ')}
                 </span>
-                {noteDeLigne(brasserie)}
+                <EnFrancais>{noteDeLigne(brasserie)}</EnFrancais>
               </span>
             </button>
             {ouverte && (

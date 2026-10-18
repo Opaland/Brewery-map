@@ -62,6 +62,20 @@ const QUESTIONS = [
   SUITE_SIGNALEMENT,
 ].join('\n')
 
+/** En français, quelle que soit la langue de l'interface : l'issue est lue par Cédric. */
+const CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
+  solide: 'élevée',
+  moyenne: 'moyenne',
+  faible: 'faible',
+  '': 'non évaluée',
+}
+const PRECISION: Readonly<Record<Brasserie['coordPrecision'], string>> = {
+  address: 'à l’adresse vérifiée',
+  centre: 'au centre de la commune selon l’IGN',
+  commune: 'approximatif',
+  osm: 'placé sur OpenStreetMap',
+}
+
 export function lienSignalement(b: Brasserie): string {
   const fiche = [
     '## La fiche telle qu’affichée',
@@ -71,6 +85,11 @@ export function lienSignalement(b: Brasserie): string {
     `- Ce qu’on peut y faire : ${CATEGORIES[b.cat]}`,
     `- Source : ${b.src === '' ? 'aucune' : b.src}`,
     `- Vérifiée le : ${b.verifieLe ?? 'non renseigné'}`,
+    // Ce qu'une brasserie vient le plus souvent corriger : sans ces lignes,
+    // elle devait redire ce que la fiche affiche (S295).
+    `- Confiance : ${CONFIANCE[b.conf]}`,
+    `- Point sur la carte : ${PRECISION[b.coordPrecision]}`,
+    ...(b.fermee === undefined ? [] : [`- Dite fermée, selon : ${b.fermee.source}`]),
   ].join('\n')
   return lien(`Signalement : ${b.n} (${b.c})`, `${fiche}\n\n${QUESTIONS}\n`)
 }

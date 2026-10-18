@@ -68,8 +68,14 @@ chacun demande une décision ou une vérification de source.
 - Le point de départ (Brignais) est masqué par le groupe qui contient les
   brasseries de Brignais au zoom d'ouverture (constaté sur capture le 15/10).
   Il réapparaît en zoomant. À traiter si une revue de persona le juge gênant.
-- Contact : numéros d'outre-mer non gérés (le lien `tel:+33…` serait faux ;
-  revue code S4). Aucune brasserie du fichier n'y est.
+- ~~Contact : numéros d'outre-mer non gérés~~ — fait en S295 (#47) :
+  `lienTelephone` donne son indicatif à l'outre-mer (`tests/unit/contact.test.ts`).
+  Reste Saint-Pierre-et-Miquelon (+508), dont la numérotation nationale n'a
+  pas été vérifiée ; aucune fiche n'y est.
+- « Tout effacer » (S295) : si le stockage et le cache des tuiles échouent
+  l'un sans l'autre, « rien n'a changé » est faux pour celui qui a réussi.
+  Une nouvelle tentative suffit (les deux effacements se rejouent sans
+  effet de bord) ; à dire plus juste si quelqu'un le rencontre.
 - Contact : Brasserie Animus et Pleine Lune citent un numéro dans leur
   justification ; à vérifier et à proposer en `contact` lors d'un lot de
   curation (Animus : portable, et la brasserie a déménagé).
@@ -188,7 +194,8 @@ chacun demande une décision ou une vérification de source.
 
 - **Ouvert maintenant dans la liste** (revue Hugo S19) : l'état n'est que
   dans la fiche ; un indicateur ou un filtre dans la liste attend des
-  horaires structurés (aucune fiche n'en a au 16/10).
+  horaires structurés (48 fiches sur 358 en ont au 18/10 ; revue S295 :
+  à faire en S295 partie 4).
 - ~~**« Centre de la commune »** (revue code S19)~~ : fait en S59. Les points
   ne sont pas des centres (mesure dans `docs/PRECISION.md`) ; la fiche ne le
   promet plus. Reste la question à Cédric : d'où viennent ces points ?
@@ -196,8 +203,9 @@ chacun demande une décision ou une vérification de source.
 - Revue globale S22 — restes :
   - ~~la liste commence encore à 1,98 écran sur téléphone~~ : fait en S29
     (première ligne à 827 px sur Pixel 7) ;
-  - la recherche de commune ne marche hors ligne qu'après une première
-    recherche en ligne (fichiers gardés à la lecture, pas d'avance) ;
+  - ~~la recherche de commune ne marche hors ligne qu'après une première
+    recherche en ligne~~ : fait en S42 (communes précachées,
+    `tests/e2e/hors-ligne.spec.ts`) ;
   - rien n'est essayé sur un vrai téléphone.
 
 - Revue UI/UX du 16/10 — restes :

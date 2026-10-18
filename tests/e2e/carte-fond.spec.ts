@@ -41,3 +41,13 @@ test('toutes les tuiles en échec : le repli s’allume', async ({ page }) => {
   await versLaCarte(page)
   await expect(page.getByTestId('fond-absent')).toBeVisible()
 })
+
+// S295, Bernard : une 4G qui rame n'échoue pas, elle se tait. Les tuiles ne
+// reviennent jamais ; la carte doit le dire quand même.
+test('des tuiles qui n’arrivent jamais : le repli s’allume aussi', async ({ page }) => {
+  await page.route(TUILE_OSM, () => new Promise<void>(() => undefined))
+  await page.goto('/')
+  await versLaCarte(page)
+  await expect(page.getByTestId('fond-absent')).toBeVisible({ timeout: 15_000 })
+  await expect(page.getByTestId('fond-absent')).toContainText('Fond de carte incomplet ou indisponible')
+})

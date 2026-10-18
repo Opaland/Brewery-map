@@ -42,7 +42,7 @@ export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChang
         data-testid="type"
       >
         <option value="">{t('Tous les types')}</option>
-                {presents.map((ty) => {
+        {presents.map((ty) => {
           const n = nbParType.get(ty.type) ?? 0
           const part = n > 1 ? t('{n} fiches renseignées', { n }) : t('{n} fiche renseignée', { n })
           return (
@@ -53,7 +53,7 @@ export function FiltreType({ nbParType, nbRenseignees, nbFiches, valeur, onChang
         })}
       </select>
       <span className="champ-aide" data-testid="type-part">
-                {nbRenseignees > 1
+        {nbRenseignees > 1
           ? t(
               'Bières renseignées sur {n} fiches sur {total} vérifiées : les autres, et celles d’OpenStreetMap, n’apparaissent pas avec ce filtre.',
               { n: nbRenseignees, total: nbFiches },

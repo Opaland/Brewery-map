@@ -1,4 +1,5 @@
 import { t } from './i18n'
+import { LienExterne } from './LienExterne'
 import { useState, type ReactNode } from 'react'
 import type { EtapeImage } from './core/image-tournee'
 import { ImageTournee } from './ImageTournee'
@@ -89,9 +90,9 @@ export function MesFavoris({
               : ''}
             .
           </p>
-          <a className="bouton-lien" href={tournee.lien} target="_blank" rel="noopener noreferrer" data-testid="tournee-lien">
+          <LienExterne className="bouton-lien" href={tournee.lien} testid="tournee-lien">
             {t('Ouvrir la tournée dans Google Maps')}
-          </a>
+          </LienExterne>
           {/* L'image de la tournée (S34), composée dans ce téléphone. */}
           <div className="depart-actions">
             <ImageTournee etapes={tournee.image} />
@@ -133,7 +134,7 @@ export function MesFavoris({
         >
           <summary>{t('Gardés sur cet appareil seulement')}</summary>
           <p className="champ-aide" data-testid="stockage-texte">
-            {t('Vos favoris, votre carnet de visites (le nom et le jour, rien d’autre), vos notes et vos réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur l’a déjà permise.')}
+            {t('Vos favoris, votre carnet de visites (le nom et le jour, rien d’autre), vos notes et vos réglages (distance, départ, filtres) sont gardés sur cet appareil seulement. Ils ne sont envoyés à personne. Pour « Autour de moi », seul ce choix est gardé, jamais la position : elle se redemande au retour, sans fenêtre si le navigateur l’a déjà permise. Le fond de carte déjà vu est gardé ici aussi, pour servir sans connexion ; « Effacer » le retire avec le reste.')}
           </p>
           <div className="depart-actions">
             {confirmer ? (
