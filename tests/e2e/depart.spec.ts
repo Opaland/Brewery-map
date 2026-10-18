@@ -52,6 +52,8 @@ test.describe('« autour de moi » (Léa)', () => {
     // La carte, chargée à l'approche (S20), demande ses tuiles autour de la
     // position : le test doit l'y voir faire.
     await versLaCarte(page)
+    // Attente voulue : les tuiles demandées autour de la position partent dans
+    // cette fenêtre ; une requête tierce y serait relevée.
     await page.waitForTimeout(1500)
     const tiers = urls.filter(
       (u) => !u.startsWith('http://localhost:4173/') && !u.startsWith('data:'),

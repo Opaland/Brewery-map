@@ -59,9 +59,13 @@ test('m3 — zoomer à fond ne demande pas de tuile plus fine que le zoom 14 («
   // un bouton désactivé ignore le clic (CLAUDE.md §6ter : l'état final).
   for (let i = 0; i < 20; i++) {
     await zoomer.click({ force: true })
+    // Attente voulue : la cadence des clics, pas la fin de l'animation ; les
+    // zooms s'enchaînent jusqu'au maximum (revue adverse S278).
     await page.waitForTimeout(150)
   }
   await expect(zoomer).toBeDisabled()
+  // Attente voulue : les dernières tuiles, demandées après le dernier zoom,
+  // partent dans cette fenêtre ; un zoom 15 tardif serait relevé ici.
   await page.waitForTimeout(800)
   expect(niveaux.length).toBeGreaterThan(0)
   expect(Math.max(...niveaux)).toBeLessThanOrEqual(14)

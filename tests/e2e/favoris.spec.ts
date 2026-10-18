@@ -179,6 +179,8 @@ test.describe('les réglages gardés', () => {
     await context.clearPermissions()
     await page.reload()
     await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+    // Attente voulue : une demande de position partie à l'ouverture aurait le
+    // temps d'échouer et de s'afficher (une absence, sur une fenêtre de temps).
     await page.waitForTimeout(1000)
     // Aucune demande partie : ni erreur de localisation, ni bouton en cours.
     await expect(page.getByTestId('localisation-erreur')).toHaveCount(0)
@@ -189,6 +191,8 @@ test.describe('les réglages gardés', () => {
     await expect(page.getByTestId('depart-reprendre')).toHaveText(
       'La dernière fois, vous partiez de votre position : touchez « Autour de moi » pour la reprendre.',
     )
+    // Attente voulue : une réécriture du stockage (qui effacerait « autour »)
+    // aurait le temps de partir avant la relecture.
     await page.waitForTimeout(800)
     expect(await lireGarde(page)).toMatchObject({ depart: { type: 'autour' } })
     await expect(page.getByTestId('compte')).toContainText('de Brignais')
@@ -281,6 +285,8 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
     await ecrireGarde(page, futur)
     await ligne(page, noms[1] ?? '').click()
     await page.getByRole('button', { name: /Ajouter à mes favoris/ }).click()
+    // Attente voulue : on laisse à une écriture fautive le temps de partir,
+    // puis on relit (une absence se constate sur une fenêtre de temps).
     await page.waitForTimeout(800)
     expect(await lireGarde(page)).toEqual(futur)
   })

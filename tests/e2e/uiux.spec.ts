@@ -158,6 +158,7 @@ test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ p
   await page.waitForTimeout(800)
   const avant = await repere.boundingBox()
   await page.getByTestId('bouton-favori').click()
+  // Attente voulue : un recadrage de la carte, s'il partait, aurait fini.
   await page.waitForTimeout(800)
   const apres = await repere.boundingBox()
   // À l'arrondi du sous-pixel près : un recadrage déplace le repère de
