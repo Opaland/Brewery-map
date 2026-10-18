@@ -10,6 +10,7 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import type { Rectangle } from '../src/core/communes'
+import { lireOpeningHours } from '../src/core/opening-hours'
 import { estUnMobile, masquerLesMobiles, rapprocherDuFichier } from '../src/core/osm-etiquettes'
 import type { ElementOverpass } from '../src/core/osm-france'
 import { brasseriesSchema } from '../src/core/schema'
@@ -38,6 +39,12 @@ const uniques = avec.filter((r) => !r.ambigue)
 const compte = (cle: 'tel' | 'site' | 'horaires') => uniques.filter((r) => r.elements.at(0)?.etiquettes[cle] !== undefined).length
 const lien = (osm: string) => `[${osm}](https://www.openstreetmap.org/${osm})`
 const cellule = (v: string | undefined) => (v === undefined ? '—' : `\`${v.replaceAll('|', '\\|')}\``)
+// S63 : ce que la lecture d'`opening_hours` ne sait pas dire sans deviner est signalé.
+const horaires = (v: string | undefined) => {
+  if (v === undefined) return '—'
+  const lu = lireOpeningHours(v)
+  return 'raison' in lu ? `${cellule(v)} (non lu : ${lu.raison.replaceAll('|', '\\|')})` : cellule(v)
+}
 const telephone = (v: string | undefined) => (v === undefined ? '—' : cellule(masquerLesMobiles(v)))
 
 const sansMobiles = rapprochees.map((r) => ({
@@ -74,7 +81,7 @@ writeFileSync(
     '|---|---|---|---|---|',
     ...uniques.map((r) => {
       const e = r.elements.at(0)
-      return e === undefined ? '' : `| ${r.fiche} | ${lien(e.osm)} (${e.nom}) | ${telephone(e.etiquettes.tel)} | ${cellule(e.etiquettes.site)} | ${cellule(e.etiquettes.horaires)} |`
+      return e === undefined ? '' : `| ${r.fiche} | ${lien(e.osm)} (${e.nom}) | ${telephone(e.etiquettes.tel)} | ${cellule(e.etiquettes.site)} | ${horaires(e.etiquettes.horaires)} |`
     }),
     '',
     '## Fiches ambiguës',

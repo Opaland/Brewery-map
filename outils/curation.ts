@@ -113,6 +113,13 @@ async function controler(chemin: string | undefined) {
       console.log(`${String(i + 1)}. ${p.n} — ${tel} sur ${source} : ${trouve ? 'trouvé' : 'ABSENT'}`)
       if (!trouve) echecs++
     }
+    // S63 : les horaires proposés pour une fiche existante se relisent aussi
+    // sur la page de leur bloc ; seuls ceux des fiches nouvelles l'étaient (S262).
+    for (const bloc of p.changements.horaires ?? []) {
+      const absentes = horairesSurLaPage(bloc, pages.get(bloc.source) ?? '')
+      console.log(`${String(i + 1)}. ${p.n} — horaires (${bloc.nature}) sur ${bloc.source} : ${absentes.length === 0 ? 'trouvés' : `ABSENTS (${absentes.join(', ')})`}`)
+      echecs += absentes.length
+    }
   }
   // Les fiches nouvelles (S247) : chaque source répond, et l'extrait est
   // sur la page de `src`. Avant, un lot d'ajouts passait « sans écart »
