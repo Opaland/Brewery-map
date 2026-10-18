@@ -1,4 +1,5 @@
 import { langueCourante, t } from '../i18n'
+import { normaliser } from './recherche'
 import type { Brasserie } from './schema'
 
 /**
@@ -110,4 +111,15 @@ export function lienTelephone(tel: string): string {
  */
 export function citeUnNumero(texte: string): boolean {
   return /\b0[1-9](?:[ .]?\d{2}){4}\b/.test(texte)
+}
+
+/**
+ * L'adresse dit-elle plus que la commune ? 125 fiches sur 358 n'ont pour
+ * adresse que leur commune, parfois précédée du code postal (S295, la fiche
+ * face à la concurrence) : la fiche dit alors « adresse non connue » au lieu
+ * de répéter le nom de la commune.
+ */
+export function adresseDeRue(b: Pick<Brasserie, 'addr' | 'c'>): boolean {
+  const sansCode = b.addr.replace(/\b\d{5}\b/g, ' ')
+  return normaliser(sansCode) !== normaliser(b.c)
 }

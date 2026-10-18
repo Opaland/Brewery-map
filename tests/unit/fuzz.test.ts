@@ -4,7 +4,7 @@ import { ficheDuLien, lienDeFiche } from '../../src/core/partage'
 import { lirePreferences, NOTE_MAX, PREFERENCES_DEFAUT, RAYON, VERSION_PREFERENCES, type Preferences } from '../../src/core/preferences'
 import { ELEMENTS_MAX, lireSauvegarde } from '../../src/core/sauvegarde'
 import { typeDeBiereSchema, type Brasserie } from '../../src/core/schema'
-import { lienSignalement } from '../../src/core/signalement'
+import { lienSignalement, LONGUEUR_MAX_URL } from '../../src/core/signalement'
 
 /**
  * S282 (repris d'ÉtapeForge, `serverFuzz.test.js`) : les portes d'entrée
@@ -198,8 +198,12 @@ describe('le fuzz des entrées non sûres (graine ' + String(GRAINE) + ')', () =
       const b = { n: chaine(h) || 'X', c: chaine(h), d: chaine(h), addr: chaine(h), cat: h.choisir([0, 1, 2, 3]), src: chaine(h), verifieLe: h.suivant() < 0.5 ? undefined : chaine(h) } as unknown as Brasserie
       const u = new URL(lienSignalement(b))
       expect(`${u.origin}${u.pathname}`, `cas ${String(i)}`).toBe('https://github.com/Opaland/Brewery-map/issues/new')
-      // Une demi-paire isolée part en « \ufffd » dans l'URL (encodage UTF-8).
-      expect(u.searchParams.get('body')?.includes(b.n.replace(DEMI_PAIRE, '\ufffd')), `cas ${String(i)}`).toBe(true)
+      // Toujours sous la longueur retenue (#54).
+      expect(u.href.length, `cas ${String(i)}`).toBeLessThanOrEqual(LONGUEUR_MAX_URL)
+      // Le début du nom reste ; une demi-paire isolée part en « \ufffd »
+      // dans l'URL (encodage UTF-8).
+      const debut = Array.from(b.n).slice(0, 7).join('').replace(DEMI_PAIRE, '\ufffd')
+      expect(u.searchParams.get('body')?.includes(debut), `cas ${String(i)}`).toBe(true)
     }
   })
 })

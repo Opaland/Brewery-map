@@ -58,9 +58,13 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
     // S268 : sans adresse vérifiée, au centre IGN de sa commune.
     await expect(fiche.getByTestId('fiche-precision')).toHaveText(
-      'au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie',
+      /^au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie/,
     )
+    // Le sigle est expliqué (S295, Marie).
+    await expect(fiche.getByTestId('fiche-precision')).toContainText('IGN : l’Institut national de l’information géographique')
     await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
+    // « En bref » le dit en français correct (vu sur la capture S295).
+    await expect(fiche.getByTestId('en-bref-categorie')).toContainText('Confiance élevée ; date de vérification non renseignée.')
     await expect(fiche).toContainText("4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest")
   })
 
@@ -106,6 +110,13 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
   })
 
+  test('les mots du métier de la note sont expliqués (S295, Marie)', async ({ page }) => {
+    await ligne(page, /Caribrew/).click()
+    const lexique = page.getByTestId('fiche').getByTestId('fiche-lexique')
+    await expect(lexique).toContainText('« brewpub »')
+    await expect(lexique).toContainText('un bar ou un restaurant qui brasse lui-même la bière qu’il sert')
+  })
+
   test('sans bière référencée, la fiche le dit', async ({ page }) => {
     // Une brasserie sans bière, prise dans les données réelles plutôt que
     // codée en dur : le test ne casse pas le jour où Caribrew en reçoit une
@@ -117,9 +128,10 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('rayon').fill('100')
     await page.getByTestId('recherche').fill(nom)
     await ligne(page, new RegExp(nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).first().click()
-    await expect(page.getByTestId('fiche').getByTestId('fiche-bieres')).toHaveText(
-      'Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.',
-    )
+    const bieres = page.getByTestId('fiche').getByTestId('fiche-bieres')
+    await expect(bieres).toContainText('Types de bière : non référencés pour l’instant.')
+    // Et une piste, à cet endroit même (S295 : « plus haut » ne désignait rien).
+    await expect(bieres.getByRole('link', { name: /^Chercher ses bières sur Untappd/ })).toHaveAttribute('href', /^https:\/\/untappd\.com\/search\?/)
   })
 
   test('sans horaires vérifiés, la fiche renvoie à la source', async ({ page }) => {

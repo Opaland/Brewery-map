@@ -35,8 +35,13 @@ export const TYPES_BIERE = [
 export function lienDeBiere(
   biere: Biere,
   brasserie: Brasserie,
-): { url: string; nature: 'produit' | 'annuaire' } | null {
-  if (biere.url !== undefined) return { url: biere.url, nature: 'produit' }
+): { url: string; nature: 'produit' | 'catalogue' | 'annuaire' } | null {
+  if (biere.url !== undefined) {
+    // Partagée par plusieurs bières de la fiche, l'adresse est la page des
+    // bières de la brasserie, pas celle de cette bière (S295, Karim).
+    const partagee = brasserie.beers.filter((b) => b.url === biere.url).length > 1
+    return { url: biere.url, nature: partagee ? 'catalogue' : 'produit' }
+  }
   if (brasserie.directoryUrl !== undefined) return { url: brasserie.directoryUrl, nature: 'annuaire' }
   return null
 }

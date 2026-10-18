@@ -34,6 +34,10 @@ describe('la destination', () => {
       expect(destination({ ...base, c: 'Chabanière', addr })).toEqual({ mode: 'adresse', adresse: addr })
     }
   })
+  it('le code postal et la commune seuls ne sont pas une adresse (S295 : Brasserie du Bugey)', () => {
+    const bugey = { ...base, c: 'Hauteville-Lompnes', addr: '01110 Hauteville-Lompnes', lat: 45.97, lon: 5.6, coordPrecision: 'commune' as const }
+    expect(destination(bugey)).toEqual({ mode: 'commune', lat: 45.97, lon: 5.6 })
+  })
 })
 
 /**

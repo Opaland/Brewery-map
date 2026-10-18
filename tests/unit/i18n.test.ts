@@ -8,6 +8,7 @@ import { CATEGORIES } from '../../src/core/categories'
 import { RAISONS } from '../../src/core/sauvegarde'
 import { JOURS } from '../../src/core/horaires'
 import { TYPES_BIERE } from '../../src/core/bieres'
+import { LEXIQUE } from '../../src/core/lexique'
 import { SENS_CONFIANCE } from '../../src/core/fiche'
 import { MESSAGES_LOCALISATION } from '../../src/localisation'
 import { NOTE_COMMUNE_DEDUITE, NOTE_OSM } from '../../src/core/osm-france'
@@ -21,6 +22,7 @@ const CLES_PAR_CONSTANTE = [
   DONNEES.phrase, ...NOUVEAUTES.map((n) => n.texte), SANS_COMPTE, SUITE_SIGNALEMENT, ...Object.values(RAISONS),
   ...JOURS.map((j) => j.nom),
   ...TYPES_BIERE.flatMap((ty) => [ty.libelle, ty.explication]),
+  ...LEXIQUE.map((m) => m.sens),
   ...Object.values(SENS_CONFIANCE),
   ...Object.values(MESSAGES_LOCALISATION),
   NOTE_OSM,

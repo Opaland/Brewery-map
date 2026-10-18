@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { formaterCreneaux, JOURS, ouvertLe, ouvertMaintenant, type Horaires } from '../../src/core/horaires'
+import { formaterCreneaux, JOURS, ouvertLe, ouvertMaintenant, etatPourLaListe, phraseProchaine, prochaineOuverture, type Horaires } from '../../src/core/horaires'
 import { validerBrasseries, type Brasserie } from '../../src/core/schema'
+import { choisirLangue } from '../../src/i18n'
 import { LIGNES_REELLES } from './lignes-reelles'
 
 const valide = LIGNES_REELLES[0]
@@ -181,5 +182,78 @@ describe('ouvertMaintenant', () => {
     const vente = [{ ...accueil, nature: 'vente' }] as unknown as Horaires
     expect(ouvertMaintenant(vente, a('2026-10-17T16:00:00Z')).etat).toBe('inconnu')
     expect(ouvertMaintenant(vente, a('2026-10-17T16:00:00Z'), 'vente').etat).toBe('ouvert')
+  })
+})
+
+describe('prochaineOuverture (S295, la fiche face à la concurrence)', () => {
+  const a = (iso: string) => new Date(iso)
+  const semaine = [{ ...accueil, lun: [], mar: [], mer: [] }] as unknown as Horaires
+
+  it('plus tard le même jour', () => {
+    // Samedi 17/10, 12 h à Paris ; ouverture à 15 h.
+    expect(prochaineOuverture(semaine, a('2026-10-17T10:00:00Z'))).toEqual({ etat: 'connue', jour: 'sam', heure: '15:00', dansJours: 0, sousReserve: false })
+  })
+
+  it('quelques jours plus loin, en passant les jours fermés', () => {
+    // Dimanche 18/10 à midi : fermé dimanche, lundi, mardi, mercredi ; jeudi 18 h.
+    expect(prochaineOuverture(semaine, a('2026-10-18T10:00:00Z'))).toEqual({ etat: 'connue', jour: 'jeu', heure: '18:00', dansJours: 4, sousReserve: false })
+  })
+
+  it('n’en déduit rien quand un jour d’avant n’est pas dit par la source', () => {
+    // Samedi 23 h : dimanche fermé, lundi inconnu : peut-être ouvert.
+    const h = [accueil] as unknown as Horaires
+    expect(prochaineOuverture(h, a('2026-10-17T21:00:00Z'))).toEqual({ etat: 'inconnue' })
+    expect(prochaineOuverture(undefined, a('2026-10-17T21:00:00Z'))).toEqual({ etat: 'inconnue' })
+  })
+
+  it('ni quand un jour est ouvert sans heures', () => {
+    const h = [{ ...accueil, dim: 'heures-non-precisees', lun: [], mar: [], mer: [] }] as unknown as Horaires
+    expect(prochaineOuverture(h, a('2026-10-17T21:00:00Z'))).toEqual({ etat: 'inconnue' })
+  })
+
+  it('dit la réserve d’une remarque', () => {
+    const h = [{ ...accueil, lun: [], mar: [], mer: [], remarque: 'sur rendez-vous' }] as unknown as Horaires
+    expect(prochaineOuverture(h, a('2026-10-17T10:00:00Z'))).toMatchObject({ etat: 'connue', sousReserve: true })
+  })
+
+  it('ouvert un seul jour, déjà passé : le même jour, la semaine suivante (revue adverse S295)', () => {
+    const h = [{ ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [['10:00', '12:00']], dim: [] }] as unknown as Horaires
+    // Samedi 17/10, 15 h à Paris.
+    expect(prochaineOuverture(h, a('2026-10-17T13:00:00Z'))).toEqual({ etat: 'connue', jour: 'sam', heure: '10:00', dansJours: 7, sousReserve: false })
+  })
+
+  it('une semaine sans aucun créneau : rien à annoncer', () => {
+    const h = [{ ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [], dim: [] }] as unknown as Horaires
+    expect(prochaineOuverture(h, a('2026-10-17T10:00:00Z'))).toEqual({ etat: 'inconnue' })
+  })
+})
+
+describe('phraseProchaine', () => {
+  const bloc = { ...accueil, lun: [], mar: [], mer: [] } as unknown as Horaires[number]
+  it('dit le jour et l’heure, en mots', () => {
+    expect(phraseProchaine(bloc, new Date('2026-10-17T10:00:00Z'))).toBe('Prochaine ouverture : aujourd’hui à 15 h.')
+    expect(phraseProchaine(bloc, new Date('2026-10-17T21:00:00Z'))).toBe('Prochaine ouverture : jeudi à 18 h.')
+    expect(phraseProchaine(bloc, new Date('2026-10-21T10:00:00Z'))).toBe('Prochaine ouverture : demain à 18 h.')
+  })
+
+  it('en anglais, le jour garde sa majuscule', () => {
+    choisirLangue('en')
+    try {
+      expect(phraseProchaine(bloc, new Date('2026-10-17T21:00:00Z'))).toBe('Next opening: Thursday at 18:00.')
+    } finally {
+      choisirLangue('fr')
+    }
+  })
+})
+
+describe('etatPourLaListe (S295, Hugo)', () => {
+  const a = (iso: string) => new Date(iso)
+  it('dit l’état de l’accueil, ou de la vente, et rien quand la source se tait', () => {
+    expect(etatPourLaListe([accueil] as unknown as Horaires, a('2026-10-17T16:00:00Z'))).toBe('Ouvert au public maintenant')
+    expect(etatPourLaListe([accueil] as unknown as Horaires, a('2026-10-18T12:00:00Z'))).toBe('Fermé au public maintenant')
+    expect(etatPourLaListe([accueil] as unknown as Horaires, a('2026-10-19T12:00:00Z'))).toBeUndefined()
+    expect(etatPourLaListe(undefined, a('2026-10-17T16:00:00Z'))).toBeUndefined()
+    const vente = [{ ...accueil, nature: 'vente', remarque: 'sur rendez-vous' }] as unknown as Horaires
+    expect(etatPourLaListe(vente, a('2026-10-17T16:00:00Z'))).toBe('Vente ouverte maintenant, sous réserve')
   })
 })

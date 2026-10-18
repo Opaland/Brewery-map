@@ -13,7 +13,7 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
   const d = destination(brasserie)
   return (
     <div className="fiche-y-aller" data-testid="fiche-y-aller">
-      <p className="fiche-titre">{t('Y aller')}</p>
+      <h5 className="fiche-titre">{t('Y aller')}</h5>
       {d.mode === 'osm' && (
         <p className="fiche-aide" data-testid="y-aller-osm">
           {t('L’itinéraire mène au point placé sur OpenStreetMap, non vérifié sur place.')}
@@ -24,6 +24,11 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
           {t(
             'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
           )}
+        </p>
+      )}
+      {d.mode !== 'adresse' && (
+        <p className="fiche-aide" data-testid="y-aller-adresse">
+          {t('À vélo ou à pied, cherchez d’abord son adresse exacte, sur son site ou en l’appelant.')}
         </p>
       )}
       {/* Idée vue sur la carte des distilleries écossaises : « vérifiez

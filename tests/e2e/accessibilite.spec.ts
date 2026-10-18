@@ -227,16 +227,32 @@ test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async 
   await expect(bouton).toHaveAttribute('aria-expanded', 'true')
   await expect(page.getByTestId('fiche')).toBeVisible()
 
-  // La fiche suit la ligne dans l'ordre du clavier : le favori, puis la
-  // visite (S35), le partage, la note, « Chercher sur Untappd » (S51),
-  // « Y aller », la source, puis « Signaler ».
+  // La fiche suit la ligne dans l'ordre du clavier (S295) : d'abord
+  // joindre la brasserie, puis les horaires, « Y aller », les bières, la
+  // source, ce qui est pour soi (favori, visite, partage, note), puis
+  // « Signaler ».
   await page.keyboard.press('Tab')
-  await expect(page.getByRole('button', { name: /Ajouter à mes favoris/ })).toBeFocused()
+  await expect.poll(() => page.evaluate(() => document.activeElement?.closest('[data-testid="fiche"]') !== null)).toBe(true)
+  const vus: string[] = []
   const signaler = page.getByRole('link', { name: /^Signaler une erreur sur cette fiche/ })
-  for (let i = 0; i < 16 && !(await signaler.evaluate((e) => e === document.activeElement)); i++) {
+  for (let i = 0; i < 30 && !(await signaler.evaluate((e) => e === document.activeElement)); i++) {
+    vus.push(await page.evaluate(() => document.activeElement?.getAttribute('data-testid') ?? ''))
     await page.keyboard.press('Tab')
   }
   await expect(signaler).toBeFocused()
+  // Le favori est en chemin, après ce qui sert à y aller.
+  expect(vus).toContain('bouton-favori')
+  expect(vus.indexOf('bouton-favori')).toBeGreaterThan(0)
+  // La fiche a ses titres : un lecteur d'écran saute de l'une à l'autre (S295).
+  await expect(page.getByTestId('fiche').getByRole('heading', { level: 4 })).toHaveText([
+    'Joindre la brasserie',
+    'Horaires',
+    'Où',
+    'Ses bières',
+    'D’où vient cette fiche',
+    'Pour moi',
+  ])
+  await expect(page.getByRole('region', { name: 'Fiche de Caribrew' })).toHaveCount(1)
 
   // Échap n'est pas promis : la ligne se referme comme elle s'est ouverte.
   await bouton.focus()

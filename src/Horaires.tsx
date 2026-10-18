@@ -5,9 +5,11 @@ import {
   heureDeParis,
   JOURS,
   ouvertMaintenant,
+  phraseProchaine,
   type Bloc,
 } from './core/horaires'
 import type { Brasserie } from './core/schema'
+import { useMinute } from './crochets'
 import { t } from './i18n'
 import { EnFrancais } from './EnFrancais'
 import { LienExterne } from './LienExterne'
@@ -23,7 +25,7 @@ function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
   const m = ouvertMaintenant([bloc], maintenant, bloc.nature)
   // L'heure de référence est écrite : une fiche restée ouverte ne prétend
   // pas dire « maintenant » une heure plus tard (revue code S19).
-    const heure = formaterHeure(heureDeParis(maintenant))
+  const heure = formaterHeure(heureDeParis(maintenant))
   const debut =
     bloc.nature === 'accueil'
       ? t('À {heure} (heure de Paris), accueil du public : ', { heure })
@@ -34,7 +36,7 @@ function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
     'sous-reserve': t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', {
       jusqua,
     }),
-    ferme: t('fermé, d’après les horaires publiés.'),
+    ferme: `${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(bloc, maintenant)}`,
     inconnu: t('la source ne dit pas les heures de ce jour.'),
   }[m.etat]
   return (
@@ -66,11 +68,13 @@ function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
         </tbody>
       </table>
       <p className="fiche-aide">
-                {t('Lus le {date} sur', { date: libelleVerification(bloc.verifieLe) })}{' '}
+        {t('Lus le {date} sur', { date: libelleVerification(bloc.verifieLe) })}{' '}
         <LienExterne href={bloc.source}>
           {hoteDeSource(bloc.source)}
         </LienExterne>
-        {t('. Ils peuvent avoir changé depuis.')}
+        {/* La période de validité : la fiche d'Occitanie la donne, la nôtre
+            ne la sait pas (S295, la fiche face à la concurrence). */}
+        {t('. Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.')}
       </p>
     </div>
   )
@@ -84,17 +88,19 @@ function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
  */
 export function Horaires({
   brasserie,
-  maintenant = new Date(),
+  maintenant,
 }: {
   brasserie: Brasserie
-  /** L'instant de référence ; les tests le fixent. */
+  /** L'instant de référence ; les tests le fixent. Sinon, l'horloge. */
   maintenant?: Date
 }) {
+  const horloge = useMinute()
+  const instant = maintenant ?? horloge
   const blocs = brasserie.horaires
   if (blocs === undefined) {
     return (
       <p className="fiche-horaires" data-testid="fiche-horaires">
-                {t(
+        {t(
           'Horaires : aucun horaire vérifié jour par jour. S’il y en a de connus, ils sont cités dans « Ce que dit la source », plus haut.',
         )}
       </p>
@@ -103,7 +109,7 @@ export function Horaires({
   return (
     <div className="fiche-horaires" data-testid="fiche-horaires">
       {blocs.map((b) => (
-        <Tableau key={b.nature} bloc={b} maintenant={maintenant} />
+        <Tableau key={b.nature} bloc={b} maintenant={instant} />
       ))}
     </div>
   )

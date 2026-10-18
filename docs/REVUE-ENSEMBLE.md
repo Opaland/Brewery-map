@@ -40,8 +40,8 @@ Les corrections sont livrées en cinq parties, une PR chacune :
 | BE7 | Bernard | m | Le cache des tuiles évince dans l'ordre d'insertion : une zone souvent revue part quand même | `sw.js`, `limiterTuiles` | corrigé (partie 1) : chaque lecture repousse la tuile en fin de file |
 | BE8 | Bernard | m | La mise à jour dépend d'un bandeau à toucher | `sw.js` « activer » | humain (lisibilité du bandeau) |
 | KA1 | Karim | G | Le filtre par type ne voit que 94 fiches sur 358, et aucune fiche OSM | `FiltreType.tsx:58` | données : lots de bières (#15) ; le texte le dit déjà |
-| KA2 | Karim | G | 89 bières ont toutes le même lien, celui de leur brasserie : ce lien n'est pas la page de la bière | comptage | corrigé (partie 3) : un lien commun se dit « page des bières de la brasserie », une seule fois |
-| KA3 | Karim | G | Une bière « non référencée » n'offre aucune piste | `Bieres.tsx:43` | corrigé (partie 3) : la recherche Untappd est rappelée sous les bières |
+| KA2 | Karim | G | 89 bières ont toutes le même lien, celui de leur brasserie : ce lien n'est pas la page de la bière | comptage | corrigé (parties 3 et 4) : un lien commun se dit « page des bières de la brasserie », une seule fois |
+| KA3 | Karim | G | Une bière « non référencée » n'offre aucune piste | `Bieres.tsx:43` | corrigé (parties 3 et 4) : la recherche Untappd est rappelée sous les bières |
 | KA4 | Karim | G | Une bière n'a ni source ni date propres | `schema.ts` | Cédric (dates des bières, règle S11, déjà demandée) |
 | KA5 | Karim | G | Aucun e2e ne prouve « je choisis un type, la liste change » sur les vraies données ; le seul test qui touche au filtre est sauté | `decouverte.spec.ts:107` | corrigé (partie 1) |
 | KA6 | Karim | m | Les options du menu sont longues | `FiltreType.tsx:50` | humain (capture à 320 px) |
@@ -55,12 +55,12 @@ Les corrections sont livrées en cinq parties, une PR chacune :
 | CE6 | Cédric | G | Le suivi est éclaté entre cinq fichiers | — | corrigé (partie 2) : `docs/ETAT.md` |
 | CE7 | Cédric | G | Des décisions anciennes restent ouvertes sans conséquence écrite (#33, #34, #38) | `DECISIONS.md:29-31` | corrigé (partie 2) : la conséquence est écrite, la décision reste à Cédric |
 | CE8 | Cédric | G | Le périmètre est à trancher (industriels, chaînes, bars) | `A-MONTRER.md:99-103` | Cédric |
-| MA1 | Marie | G | Taper « Lyon » dans la recherche garde Brignais comme point de départ | `App.tsx:92` | corrigé (partie 4) : la page propose de compter les distances depuis cette commune |
-| MA2 | Marie | G | Les notes emploient des mots du métier (taproom, brewpub…) sans les expliquer | 27 notes sur 358 | corrigé (partie 4) : un lexique sous la note |
+| MA1 | Marie | G | Taper « Lyon » dans la recherche garde Brignais comme point de départ | `App.tsx:92` | corrigé (parties 3 et 4) : la page propose de compter les distances depuis cette commune |
+| MA2 | Marie | G | Les notes emploient des mots du métier (taproom, brewpub…) sans les expliquer | 27 notes sur 358 | corrigé (parties 3 et 4) : un lexique sous la note |
 | MA3 | Marie | G | Les « À confirmer » se mêlent aux fiches sûres | 18 sur 41 autour de Lyon | Cédric (un tri ou un filtre change ce qui est montré) |
-| MA4 | Marie | G | Le filtre par type vide la liste sans que la raison soit claire | `FiltreType.tsx` | corrigé (partie 3) : le compte le rappelle quand le filtre est actif |
-| MA5 | Marie | G | « Untappd » n'est pas expliqué, et « plus haut » ne désigne rien | `Bieres.tsx:16` | corrigé (partie 3) |
-| MA6 | Marie | G | Le bloc de provenance est en jargon, « IGN » n'est pas expliqué | `fiche.ts:62-67` | corrigé (partie 3) |
+| MA4 | Marie | G | Le filtre par type vide la liste sans que la raison soit claire | `FiltreType.tsx` | corrigé (parties 3 et 4) : le compte le rappelle quand le filtre est actif |
+| MA5 | Marie | G | « Untappd » n'est pas expliqué, et « plus haut » ne désigne rien | `Bieres.tsx:16` | corrigé (parties 3 et 4) |
+| MA6 | Marie | G | Le bloc de provenance est en jargon, « IGN » n'est pas expliqué | `fiche.ts:62-67` | corrigé (parties 3 et 4) |
 | MA7 | Marie | m | Le résumé de confidentialité se coupe en plein milieu | `PointDeDepart.tsx:150` | corrigé (partie 1) |
 | MA8 | Marie | m | « Fiches vérifiées » est trompeur | BACKLOG | Cédric (déjà demandé) |
 | MA9 | Marie | m | Une distance mesurée depuis le centre de la commune est affichée sans réserve sur la ligne | `formaterDistance` | déjà fait : `formaterDistance` écrit « ≈ 4 km » sauf sous 1 km (`src/core/distance.ts`) |
@@ -75,25 +75,25 @@ Les corrections sont livrées en cinq parties, une PR chacune :
 | BR2 | Une brasserie | G | 53 % des fiches sont « À confirmer » | comptage | données (#15) |
 | BR3 | Une brasserie | G | Aucune fiche n'est marquée fermée, pas même Les Roches Précieuses (« radiée ») | `grep fermee` | Cédric (lot « fermées », #35) |
 | BR4 | Une brasserie | G | Les horaires de La Canute datent de 2016 | note | données (#15) |
-| BR5 | Une brasserie | G | Une adresse exacte s'affiche à côté d'un point au centre de la commune | Caribrew | corrigé (partie 3), avec RF4 : un seul bloc « Où » |
+| BR5 | Une brasserie | G | Une adresse exacte s'affiche à côté d'un point au centre de la commune | Caribrew | corrigé (parties 3 et 4), avec RF4 : un seul bloc « Où » |
 | BR6 | Une brasserie | G | Pour Les Roches Précieuses, la commune et l'adresse ne concordent pas | `data/` | Cédric (S55, déménagements) |
 | BR7 | Une brasserie | m | Le signalement ne transmet ni la confiance, ni la précision, ni « fermée » | `signalement.ts:65-76` | corrigé (partie 1) |
 | BR8 | Une brasserie | m | Une fiche sans source ne demande pas le lien du site | `Liste.tsx:187` | corrigé (partie 1) |
 | BR9 | Une brasserie | m | Une note de curation peut se lire comme un jugement | lecture | humain |
 | BR10 | Une brasserie | m | Rien ne dit qu'on peut demander le retrait de sa fiche | grep | Cédric (avec #38) |
 | IN1 | Inès | G | « Appeler » n'a aucune preuve e2e, et le commentaire du test est périmé (47 fiches ont un téléphone) | `accessibilite.spec.ts:203` | corrigé (partie 1) |
-| IN2 | Inès | G | La fiche ouverte n'a aucun titre : la navigation par titres est impossible | `grep '<h[1-6]'` | corrigé (partie 3) |
+| IN2 | Inès | G | La fiche ouverte n'a aucun titre : la navigation par titres est impossible | `grep '<h[1-6]'` | corrigé (parties 3 et 4) |
 | IN3 | Inès | G | Le nom lu d'une ligne est très long (la note entière) | `Liste.tsx:306-388` | humain (lecteur d'écran) ; piste : `aria-describedby` |
 | IN4 | Inès | G | Beaucoup de régions `role="status"` | `App.tsx:747`… | humain (NVDA, VoiceOver) |
 | IN5 | Inès | m | L'ouverture dans un nouvel onglet n'est pas annoncée | `Contact.tsx`, `YAller.tsx` | corrigé (partie 1) |
 | IN6 | Inès | m | « Partager » et « J'y suis allé·e » ne portent pas le nom de la brasserie | `Liste.tsx:134,139` | corrigé (partie 1) |
 | IN7 | Inès, Emma | m | Les extraits de données ne portent pas `lang="fr"` quand l'interface est en anglais | `grep lang=` | corrigé (partie 1) |
 | IN8 | Inès | m | Le combobox de commune n'est prouvé qu'indirectement | `accessibilite.spec.ts` | déjà prouvé : `partout.spec.ts`, « au clavier : flèches puis Entrée », vérifie `aria-expanded`, `aria-activedescendant` et `aria-selected` |
-| HU1 | Hugo | G | « Ouvert maintenant » n'apparaît que dans la fiche, jamais dans la liste | grep | corrigé (partie 4) |
+| HU1 | Hugo | G | « Ouvert maintenant » n'apparaît que dans la fiche, jamais dans la liste | grep | corrigé (parties 3 et 4) |
 | HU2 | Hugo | G | Seules 48 fiches ont des horaires, et le BACKLOG dit encore « aucune » | BACKLOG:191 | corrigé (BACKLOG) ; données (#15) |
 | HU3 | Hugo | G | Hugo comptait 0 téléphone. C'est faux : les numéros sont dans `contact.tel`, 47 fiches en ont (vérifié) | — | rien à faire |
-| HU4 | Hugo | m | L'état « ouvert » ne se recalcule pas quand la fiche reste ouverte | `Horaires.tsx` | corrigé (partie 4) |
-| HU5 | Hugo | m | L'avertissement de position ne propose aucune alternative | `YAller.tsx` | corrigé (partie 3), avec RF4 |
+| HU4 | Hugo | m | L'état « ouvert » ne se recalcule pas quand la fiche reste ouverte | `Horaires.tsx` | corrigé (parties 3 et 4) |
+| HU5 | Hugo | m | L'avertissement de position ne propose aucune alternative | `YAller.tsx` | corrigé (parties 3 et 4), avec RF4 |
 | EM1 | Emma | G | En anglais, la raison d'un « À confirmer » reste en français, sans le signaler | `Liste.tsx:383` | corrigé (partie 1) : « (in French) » et `lang="fr"` |
 | EM3 | Emma | G | La remarque des horaires reste en français | `Horaires.tsx:46` | corrigé (partie 1), même remède |
 | EM4 | Emma | G | Le manifeste et le `<noscript>` restent en français | BACKLOG | BACKLOG (déjà inscrit) |
@@ -147,14 +147,14 @@ vide ; l'état « maintenant », qui dit « la source ne dit rien de ce jour ».
 
 | Id | Proposition | Décision | Raison |
 |---|---|---|---|
-| RF1 | Un bloc « En bref » en tête de fiche : ce qu'on peut y faire, l'état maintenant, où | **on change** (partie 3) | La première chose sous la ligne était une zone de saisie pour soi ; tout est déjà calculé |
-| RF2 | Une rangée d'actions juste dessous : Appeler, Y aller, Site ; Favori, Visitée, Partager et Ma note descendent | **on change** (partie 3) | Le geste utile sur place est d'appeler ou de partir |
-| RF3 | « Prochaine ouverture » quand la fiche est fermée | **on change** (partie 3), en TDD dans `core/horaires.ts` | C'est le « quand » de la question ; un jour non renseigné reste « inconnu » |
-| RF4 | Un seul bloc « Où » : adresse, position et Y aller ; « adresse non connue » quand elle n'est que la commune | **on change** (partie 3) | 125 fiches répétaient la commune comme adresse |
+| RF1 | Un bloc « En bref » en tête de fiche : ce qu'on peut y faire, l'état maintenant, où | **on change** (parties 3 et 4) | La première chose sous la ligne était une zone de saisie pour soi ; tout est déjà calculé |
+| RF2 | Une rangée d'actions juste dessous : Appeler, Y aller, Site ; Favori, Visitée, Partager et Ma note descendent | **on change** (parties 3 et 4) : sous « En bref », « Joindre la brasserie » (Appeler, site) ; favori, carnet, partage et note descendent dans « Pour moi », en fin de fiche | Le geste utile sur place est d'appeler ou de partir |
+| RF3 | « Prochaine ouverture » quand la fiche est fermée | **on change** (parties 3 et 4), en TDD dans `core/horaires.ts` | C'est le « quand » de la question ; un jour non renseigné reste « inconnu » |
+| RF4 | Un seul bloc « Où » : adresse, position et Y aller ; « adresse non connue » quand elle n'est que la commune | **on change** (parties 3 et 4) | 125 fiches répétaient la commune comme adresse |
 | RF5 | « Sur rendez-vous » comme mode d'accès | **Cédric** | Ajout au schéma ; la valeur doit venir de la source |
 | RF6 | Une grille « Sur place » : acheter, boire, visiter, manger, boutique | **Cédric** | Données nouvelles ; une case vide ne doit pas être ambiguë |
-| RF7 | La période de validité des horaires | on change le texte (partie 3) ; la période structurée revient à **Cédric** | — |
-| RF8 | La confiance à côté de la catégorie, avec l'âge de la vérification | **on change** (partie 3) | Elles étaient séparées par toute la fiche |
+| RF7 | La période de validité des horaires | on change le texte (parties 3 et 4) ; la période structurée revient à **Cédric** | — |
+| RF8 | La confiance à côté de la catégorie, avec l'âge de la vérification | **on change** (parties 3 et 4) : la confiance et la date de vérification sous la catégorie, dans « En bref ». L'âge (« il y a 2 jours ») est écarté : une fiche ouverte longtemps le rendrait faux | Elles étaient séparées par toute la fiche |
 | RF9 | « Où trouver ses bières ailleurs » | **Cédric** | Donnée nouvelle |
 | RF10 | Photos de tiers, avis, check-ins, moyens de paiement, réservation, formulaire intégré | **on écarte** | Un serveur tiers verrait la page, une note n'aurait pas d'origine, il faudrait un compte |
 

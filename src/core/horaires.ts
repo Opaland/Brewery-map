@@ -40,7 +40,7 @@ export function ouvertLe(
 
 /** « 15:00 » → « 15 h », « 09:30 » → « 9 h 30 », « 00:00 » → « minuit ». */
 export function formaterHeure(hhmm: string): string {
-    if (hhmm === '00:00') return t('minuit')
+  if (hhmm === '00:00') return t('minuit')
   // En anglais, l'heure sur 24 h telle qu'elle est écrite : « 15:00 ».
   if (langueCourante() === 'en') return hhmm
   const [h = '0', m = '00'] = hhmm.split(':')
@@ -131,4 +131,79 @@ export function ouvertMaintenant(
     if (hhmm >= d && (finDuJour || hhmm < f)) return ouvert(f)
   }
   return { etat: 'ferme' }
+}
+
+export type Prochaine =
+  | { etat: 'connue'; jour: CleJour; heure: string; dansJours: number; sousReserve: boolean }
+  | { etat: 'inconnue' }
+
+/**
+ * La prochaine ouverture d'après les créneaux publiés (S295 : « fermé »
+ * seul ne disait pas quand revenir ; Google Maps le dit). On avance jour
+ * par jour depuis maintenant ; un jour que la source ne dit pas, ou ouvert
+ * sans heures, arrête tout : il pourrait être ouvert, rien ne se déduit au
+ * delà. Une semaine entière sans créneau : rien à annoncer.
+ */
+export function prochaineOuverture(
+  horaires: Horaires | undefined,
+  instant: Date,
+  nature: Bloc['nature'] = 'accueil',
+): Prochaine {
+  const bloc = horaires?.find((b) => b.nature === nature)
+  if (bloc === undefined) return { etat: 'inconnue' }
+  const { jour, hhmm } = aParis(instant)
+  const depart = ORDRE.indexOf(jour)
+  // Jusqu'au même jour de la semaine suivante : ouvert le seul samedi
+  // matin, samedi après-midi doit dire « samedi » (revue adverse S295).
+  for (let n = 0; n <= 7; n++) {
+    const cle = ORDRE[(depart + n) % 7] ?? 'lun'
+    const valeur = bloc[cle]
+    if (valeur === undefined || valeur === 'heures-non-precisees') return { etat: 'inconnue' }
+    const debut = valeur.map(([d]) => d).find((d) => n > 0 || d > hhmm)
+    if (debut !== undefined) return { etat: 'connue', jour: cle, heure: debut, dansJours: n, sousReserve: bloc.remarque !== undefined }
+  }
+  return { etat: 'inconnue' }
+}
+
+/** « Prochaine ouverture : vendredi à 14 h. » — ou rien de déduit (S295, RF3). */
+export function phraseProchaine(bloc: Bloc, instant: Date): string {
+  const p = prochaineOuverture([bloc], instant, bloc.nature)
+  if (p.etat === 'inconnue') return t('La source ne dit pas quand elle rouvre.')
+  const heure = formaterHeure(p.heure)
+  const quand =
+    p.dansJours === 0
+      ? t('aujourd’hui à {heure}', { heure })
+      : p.dansJours === 1
+        ? t('demain à {heure}', { heure })
+        : t('{jour} à {heure}', { jour: nomDuJour(p.jour), heure })
+  return p.sousReserve ? t('Prochaine ouverture : {quand}, sous réserve.', { quand }) : t('Prochaine ouverture : {quand}.', { quand })
+}
+
+
+/**
+ * L'état court de la ligne de liste (S295, Hugo : il fallait ouvrir chaque
+ * fiche pour savoir). L'accueil du public d'abord, sinon la vente ; rien
+ * quand la source ne dit rien de l'instant : la ligne ne devine pas.
+ */
+export function etatPourLaListe(horaires: Horaires | undefined, instant: Date): string | undefined {
+  const bloc = horaires?.find((b) => b.nature === 'accueil') ?? horaires?.[0]
+  if (bloc === undefined) return undefined
+  const m = ouvertMaintenant([bloc], instant, bloc.nature)
+  if (m.etat === 'inconnu') return undefined
+  const ouvert = m.etat !== 'ferme'
+  const texte =
+    bloc.nature === 'accueil'
+      ? ouvert
+        ? t('Ouvert au public maintenant')
+        : t('Fermé au public maintenant')
+      : ouvert
+        ? t('Vente ouverte maintenant')
+        : t('Vente fermée maintenant')
+  return m.etat === 'sous-reserve' ? t('{etat}, sous réserve', { etat: texte }) : texte
+}
+
+/** « samedi » en français, « Saturday » en anglais : les jours anglais prennent une majuscule. */
+function nomDuJour(cle: CleJour): string {
+  const nom = t(JOURS.find((j) => j.cle === cle)?.nom ?? '')
+  return langueCourante() === 'fr' ? nom.toLowerCase() : nom
 }

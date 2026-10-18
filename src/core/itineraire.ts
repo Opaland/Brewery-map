@@ -1,3 +1,4 @@
+import { adresseDeRue } from './fiche'
 import { t } from '../i18n'
 import type { Brasserie } from './schema'
 
@@ -28,7 +29,9 @@ export function destination(b: Brasserie): Destination {
   // qu'une adresse souvent sans commune (« 80 rue des moulins », 123 cas au
   // 16/10), qu'un service de guidage placerait n'importe où (revue S25).
   if (b.coordPrecision === 'osm') return { mode: 'osm', lat: b.lat, lon: b.lon }
-  return b.addr.trim() !== b.c.trim()
+  // La même règle que la fiche (`adresseDeRue`, S295) : « 01110 Hauteville-
+  // Lompnes » n'est pas une adresse, seulement la commune.
+  return adresseDeRue(b)
     ? { mode: 'adresse', adresse: b.addr }
     : { mode: 'commune', lat: b.lat, lon: b.lon }
 }

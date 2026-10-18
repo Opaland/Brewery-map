@@ -187,3 +187,20 @@ export function useCarnetEntreOnglets(
   }, [])
   return { annoncerEffacement, tenirPourPartage }
 }
+
+/**
+ * L'heure, remise à jour chaque minute : une fiche restée ouverte pendant
+ * la pause disait encore « ouvert » passé la fermeture (S295, Hugo).
+ */
+export function useMinute(): Date {
+  const [instant, setInstant] = useState(() => new Date())
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setInstant(new Date())
+    }, 60_000)
+    return () => {
+      window.clearInterval(id)
+    }
+  }, [])
+  return instant
+}
