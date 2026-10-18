@@ -59,6 +59,12 @@ Lancer une fois l'agent `chasseur-de-jumeaux` (S285) : chaque règle écrite
 à deux endroits dit-elle encore la même chose, et qu'est-ce qui les tient
 d'accord ?
 
+### Les workflows et la contribution
+
+Lancer l'agent `relecteur-de-persona` avec chacun des deux angles de
+revue de `docs/PERSONAS.md` (S288) : « le relecteur de workflows », « la
+contributrice externe ».
+
 ### Personas contre le livré
 
 Relire `docs/PERSONAS.md` contre ce qui a été livré.
