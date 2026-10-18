@@ -54,7 +54,7 @@ import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 
 import { empreinte, fichiersDeLots, lireTexte } from './lots'
-import { trierParRegle, type LotNomme } from '../src/core/regle'
+import { sansLesAppliquees, trierParRegle, type LotNomme } from '../src/core/regle'
 import { execFileSync } from 'node:child_process'
 import { nomDAccord } from '../src/core/garde-donnees'
 
@@ -258,9 +258,16 @@ function trier(): void {
         ? [{ nom: l.lot.lot, lot: l.lot, chemin, empreinte: empreinte(texte) }]
         : []
     })
-  const { acceptees, aMontrer } = trierParRegle(lots, donnees())
+  // S272 : ce qu'un accord a déjà fait entrer ne se décide plus.
+  const accords = existsSync('curation/accords')
+    ? readdirSync('curation/accords')
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => JSON.parse(readFileSync(`curation/accords/${f}`, 'utf8')) as { lot: string; empreinte: string; acceptees: number[] })
+    : []
+  const tries = trierParRegle(lots, donnees())
+  const { acceptees, aMontrer, appliquees } = sansLesAppliquees(tries.acceptees, tries.aMontrer, accords, new Map(lots.map((l) => [l.nom, l.empreinte])))
   for (const l of lots) {
-    if (!Object.hasOwn(acceptees, l.nom)) continue
+    if (!Object.hasOwn(acceptees, l.nom) || (acceptees[l.nom] ?? []).length === 0) continue
     const nums = acceptees[l.nom] ?? []
     const sortie = controlerEnSilence(l.chemin)
     // Une sortie sans verdict (plantage, coupure) ou un échec global du lot
@@ -303,6 +310,12 @@ function trier(): void {
       const nums = acceptees[l.nom] ?? []
       return nums.length === 0 ? [] : [`| ${l.nom} | ${l.empreinte} | ${nums.join(', ')} | ${String(nums.length)} |`]
     }),
+    '',
+    `## Déjà dans data/ par un accord (${String(Object.values(appliquees).reduce((s, v) => s + v.length, 0))})`,
+    '',
+    '| Lot | Numéros |',
+    '|---|---|',
+    ...Object.entries(appliquees).map(([lot, nums]) => `| ${lot} | ${nums.join(', ')} |`),
     '',
     `## À montrer à Cédric (${String(aMontrer.length)})`,
     '',
