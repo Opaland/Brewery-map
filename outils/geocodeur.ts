@@ -1,7 +1,9 @@
 import { execFileSync } from 'node:child_process'
 import { curlCompte } from './requetes'
+// La même constante que la règle des positions (`estUneRequeteDeCommune`) :
+// une seule écriture (S285).
+import { GEOCODEUR } from '../src/core/curation'
 
-const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
 
 /** Une requête au géocodeur, avec reprise (le mandataire coupe souvent). */
 export function geocoder(params: Record<string, string>): { url: string; reponse: unknown } {

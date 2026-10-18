@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { CATEGORIES } from './core/categories'
 import { noteDeLigne } from './core/osm-france'
+import { t } from './i18n'
 import { lienDeFiche } from './core/partage'
 import { cheminSvgQr, matriceQr } from './core/qr'
 import type { Brasserie } from './core/schema'
@@ -64,7 +65,7 @@ export default function Affichette({ brasserie, onFin }: { brasserie: Brasserie;
         className="affichette-qr"
         viewBox={`0 0 ${String(m.length)} ${String(m.length)}`}
         role="img"
-        aria-label="QR code de la fiche"
+        aria-label={t('QR code de la fiche')}
         data-testid="affichette-qr"
         shapeRendering="crispEdges"
       >
