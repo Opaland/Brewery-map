@@ -45,11 +45,11 @@ Aucune note chiffrée n'est affichée tant qu'aucune n'a d'origine identifiable.
 
 ## Précision des coordonnées (`coordPrecision`)
 
-| Valeur | Affiché | Lignes au 15/10 | Lignes au 18/10 (après S270) |
+| Valeur | Affiché | Lignes au 15/10 | Lignes au 18/10 (après S271) |
 |---|---|---:|---:|
 | `commune` | approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres. C'est le point d'origine du fichier, généré par une IA (Cédric, 18/10), et non un centre de commune (S59, `docs/PRECISION.md`) | 166 | 13 (sans centre IGN trouvé) |
-| `centre` | au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie (S268, décision de Cédric du 18/10) | 0 | 199 |
-| `address` | à l'adresse vérifiée : géocodée par la Géoplateforme de l'IGN, dont la requête est une des sources (S52) | 0 | 71 |
+| `centre` | au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie (S268, décision de Cédric du 18/10) | 0 | 227 |
+| `address` | à l'adresse vérifiée : géocodée par la Géoplateforme de l'IGN, dont la requête est une des sources (S52) | 0 | 118 |
 | `osm` | point placé sur OpenStreetMap, non vérifié sur place | 0 | 0 (couche à part) |
 
 La carte s'arrête au zoom 14 pour ne pas faire croire à une adresse exacte.

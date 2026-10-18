@@ -3,6 +3,7 @@ import type { CommuneFrance, Rectangle } from '../../src/core/communes'
 import {
   brasseriesDepuisFichierOsm,
   dejaDansLeFichier,
+  equivalencesDesLots,
   estDeOsm,
   noteDeLigne,
   siteOsm,
@@ -308,5 +309,20 @@ describe('retirerCeQuiADesFiches (S269 : une brasserie OSM devenue fiche quitte 
     const r = retirerCeQuiADesFiches({ ...couche, brasseries: [amer, loin] }, [mer])
     expect(r.couche.brasseries.map((b) => b[0])).toEqual(['Autre nom'])
     expect(r.retirees).toEqual([{ osm: 'way/100569088', nom: 'Les Travailleurs de l’Amer', fiche: 'Les Travailleurs de la Mer' }])
+  })
+})
+
+describe('equivalencesDesLots (revue adverse S271 : le lot dit « même brasserie que le point OSM … »)', () => {
+  const ajout = (n: string, choix?: string) => ({ fiche: { n }, ...(choix === undefined ? {} : { choix }) })
+  it('lit les objets OSM qu’un lot dit être la fiche, pour les fiches du fichier seulement', () => {
+    const lots = [
+      { ajouts: [ajout('Brasserie de Montmirail', 'Même brasserie que le point OSM node/10281244982 (« Brew Pub Artisanat »).'), ajout('Autre')] },
+      { ajouts: [ajout('Oiseau de Nuit', 'Même brasserie que le point OSM node/11740796277 (« Le Grand Duc ») ; et way/5 non.'), ajout('Pas dans le fichier', 'Même brasserie que le point OSM node/9')] },
+    ]
+    const r = equivalencesDesLots(lots, new Set(['Brasserie de Montmirail', 'Oiseau de Nuit', 'Autre']))
+    expect([...r]).toEqual([
+      ['node/10281244982', 'Brasserie de Montmirail'],
+      ['node/11740796277', 'Oiseau de Nuit'],
+    ])
   })
 })

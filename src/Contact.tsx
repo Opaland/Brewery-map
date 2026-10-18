@@ -29,7 +29,7 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
   )
   // Sans téléphone vérifié, celui que montre Google Maps, dit comme une
   // recherche (S267). Pas pour une fiche OpenStreetMap : sa commune est
-  // souvent déduite de sa position (601 sur 912 au 18/10, après S270), et la recherche
+  // souvent déduite de sa position (579 sur 878 au 18/10, après S271), et la recherche
   // irait ailleurs (revue adverse S267).
   const telephoneMaps = estDeOsm(brasserie) ? null : (
     <p className="fiche-aide" data-testid="telephone-google-maps">

@@ -114,7 +114,7 @@
     "note": "Vente directe de la brasserie au marché hebdomadaire de la Ferme à Cultures, le mardi en fin de journée.",
     "addr": "Saint-Hilaire-de-Chaléons",
     "src": "https://www.atlantic-loire-valley.com/objet_touristique/232314",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blanche"
@@ -135,7 +135,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.atlantic-loire-valley.com/objet_touristique/232314"
+    "https://www.atlantic-loire-valley.com/objet_touristique/232314",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Hilaire-de-Chal%C3%A9ons&type=municipality&limit=5"
    ],
    "extrait": "Directly from the brewery at the weekly market at the Ferme à Cultures",
    "choix": "Fiche de tourisme en anglais seulement (horaires en « pm », non repris). Position au centre de la commune."
@@ -647,7 +648,7 @@
     "note": "Visites avec dégustation au taproom, sur réservation ; horaires publiés sans dire s'il s'agit de vente ou d'accueil.",
     "addr": "Le Cellier",
     "src": "https://www.tete-haute.fr/visiter-la-brasserie/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "02 40 50 69 75",
@@ -659,7 +660,8 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.tete-haute.fr/visiter-la-brasserie/",
-    "https://www.tete-haute.fr/contact"
+    "https://www.tete-haute.fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=Le+Cellier&type=municipality&limit=5"
    ],
    "extrait": "Après la visite, retour à la taproom pour la dégustation",
    "choix": "Horaires de la page contact (mercredi-samedi) non repris : leur nature n'est pas dite. Position au centre du Cellier."
@@ -677,12 +679,13 @@
     "note": "Vente à la propriété, ouverte toute l'année, d'après la fiche de l'office de tourisme ; dégustation non décrite.",
     "addr": "Grandchamp-des-Fontaines",
     "src": "https://www.atlantic-loire-valley.com/objet_touristique/20357",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.atlantic-loire-valley.com/objet_touristique/20357"
+    "https://www.atlantic-loire-valley.com/objet_touristique/20357",
+    "https://data.geopf.fr/geocodage/search?q=Grandchamp-des-Fontaines&type=municipality&limit=5"
    ],
    "extrait": "Winery sales",
    "choix": "Fiche de tourisme en anglais seulement ; le site lolifant.fr ne se lit pas sans JavaScript. Adresses de la fiche et de SIRENE discordantes : position au centre de la commune."
@@ -831,12 +834,13 @@
     "note": "Classée « produits locaux (boutique) » par l'office de tourisme, qui annonce des visites ; vente non décrite.",
     "addr": "9 chemin des Pinluettes, 44250 Saint-Brevin-les-Pins",
     "src": "https://www.atlantic-loire-valley.com/objet_touristique/238073",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.atlantic-loire-valley.com/objet_touristique/238073"
+    "https://www.atlantic-loire-valley.com/objet_touristique/238073",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Brevin-les-Pins&type=municipality&limit=5"
    ],
    "extrait": "Local produce (shop)",
    "choix": "Fiche de tourisme seulement."
@@ -929,7 +933,7 @@
     "note": "Brasserie avec taproom et boutique ; on y vient déguster les bières.",
     "addr": "Herbignac",
     "src": "https://www.damraz.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blanche"
@@ -956,7 +960,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.damraz.fr"
+    "https://www.damraz.fr",
+    "https://data.geopf.fr/geocodage/search?q=Herbignac&type=municipality&limit=5"
    ],
    "extrait": "dégustez une de nos bières artisanales bien fraîches",
    "choix": "La boutique n'est citée que dans le menu du site. Adresse non publiée sur le site : position au centre d'Herbignac."
@@ -974,7 +979,7 @@
     "note": "Brasserie ouverte au public ; le site ne dit ni vente ni dégustation sur place.",
     "addr": "Machecoul-Saint-Même",
     "src": "https://www.brasserielamaisonblanche.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blanche"
@@ -997,7 +1002,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserielamaisonblanche.com/"
+    "https://www.brasserielamaisonblanche.com/",
+    "https://data.geopf.fr/geocodage/search?q=Machecoul-Saint-M%C3%AAme&type=municipality&limit=5"
    ],
    "extrait": "La brasserie est ouverte au public curieux à Machecoul !",
    "choix": "Seuls numéros publiés : deux mobiles, non repris. Position au centre de la commune."
@@ -1200,7 +1206,7 @@
     "note": "Espace de dégustation dans le chai et vente directe le vendredi après-midi ; guinguette une fois par mois.",
     "addr": "Sainte-Radegonde, 44430 Le Loroux-Bottereau",
     "src": "https://www.brasseriesoma.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.brasseriesoma.fr/",
@@ -1224,7 +1230,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasseriesoma.fr/"
+    "https://www.brasseriesoma.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Le+Loroux-Bottereau&type=municipality&limit=5"
    ],
    "extrait": "un espace de dégustation vous attend au cœur du chai",
    "choix": "Seul numéro publié : un mobile, non repris."
@@ -1242,7 +1249,7 @@
     "note": "Vente à la propriété le samedi après-midi et le dimanche matin, d'après la fiche de l'office de tourisme.",
     "addr": "Sainte-Pazanne",
     "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/l-ours-jack-brasse-micro-brasserie",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -1280,7 +1287,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/l-ours-jack-brasse-micro-brasserie"
+    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/l-ours-jack-brasse-micro-brasserie",
+    "https://data.geopf.fr/geocodage/search?q=Sainte-Pazanne&type=municipality&limit=5"
    ],
    "extrait": "Winery sales",
    "choix": "Fiche de tourisme en anglais seulement. Position au centre de Sainte-Pazanne."
@@ -1329,7 +1337,7 @@
     "note": "Restaurant de la chaîne 3 Brasseurs, avec bières brassées sur place et vente à emporter.",
     "addr": "Saint-Sébastien-sur-Loire",
     "src": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "horaires": [
      {
@@ -1384,7 +1392,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details"
+    "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+    "https://data.geopf.fr/geocodage/search?q=Saint-S%C3%A9bastien-sur-Loire&type=municipality&limit=5"
    ],
    "extrait": "Vente de bière à emporter",
    "choix": "Chaîne de restaurants-brasseries : à Cédric de dire si elle entre dans le périmètre. La même page dit « Des bières fièrement fabriquées sur place dans chaque restaurant ». Position au centre de la commune."

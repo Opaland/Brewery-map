@@ -43,9 +43,10 @@ test('le repère ne capte pas le toucher : un marqueur dessous reste choisissabl
 
 test.describe('une brasserie choisie dans un groupe (S40)', () => {
   test('le groupe qui la contient le montre, et le dit au lecteur d’écran', async ({ page }) => {
-    // « fontaines » : deux brasseries aux mêmes coordonnées, un groupe « 2 »
+    // « fontaines-sur-saone » (« fontaines » trouve aussi Grandchamp-des-
+    // Fontaines depuis S271) : deux brasseries aux mêmes coordonnées, un groupe « 2 »
     // à tout zoom (decouverte.spec.ts).
-    await page.getByTestId('recherche').fill('fontaines')
+    await page.getByTestId('recherche').fill('fontaines-sur-saone')
     await expect(page.locator('button.ligne')).toHaveCount(2)
     const nom = (await page.locator('button.ligne').nth(1).getAttribute('data-nom')) ?? ''
     await page.locator('button.ligne').nth(1).click()

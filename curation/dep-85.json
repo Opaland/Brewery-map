@@ -167,12 +167,13 @@
     "note": "Brasserie artisanale aux céréales locales, avec une salle de dégustation où l'on voit la production, d'après l'office de tourisme.",
     "addr": "Mortagne-sur-Sèvre",
     "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania"
+    "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-mortania",
+    "https://data.geopf.fr/geocodage/search?q=Mortagne-sur-S%C3%A8vre&type=municipality&limit=5"
    ],
    "extrait": "tasting room where you can both taste and observe the production process",
    "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile. Rue sans numéro : position au centre de la commune."
@@ -190,7 +191,7 @@
     "note": "Bar et boutique de la brasserie, pour acheter ou déguster ses bières ; horaires d'hiver et d'été publiés.",
     "addr": "ZA La Barboire, Chambretaud, 85500 Chanverrie",
     "src": "https://www.brasserie-melusine.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "02 51 61 51 52",
@@ -201,7 +202,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-melusine.com/"
+    "https://www.brasserie-melusine.com/",
+    "https://data.geopf.fr/geocodage/search?q=Chanverrie&type=municipality&limit=5"
    ],
    "extrait": "dans son Bar/Boutique pour découvrir et/ou déguster des produits 100% Mélusine",
    "choix": "Horaires non repris en bloc : la page en donne deux tableaux saisonniers (octobre-mars, avril-septembre)."
@@ -219,7 +221,7 @@
     "note": "La Stabul, à la ferme-brasserie : vente directe de bière, et restauration sur place et à emporter, du mercredi au dimanche ; visites et dégustations sur réservation.",
     "addr": "La Muette, 85390 Bazoges-en-Pareds",
     "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "02 52 66 00 36",
@@ -232,7 +234,8 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.brasserie-la-muette.fr/fr/brasserie",
-    "https://www.brasserie-la-muette.fr/fr/contact"
+    "https://www.brasserie-la-muette.fr/fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=Bazoges-en-Pareds&type=municipality&limit=5"
    ],
    "extrait": "LA STABUL : Vente directe de bière et restauration sur place et à emporter",
    "choix": "« Sur place » ne qualifie que la restauration : la page ne dit pas que la bière s'y boit, d'où « acheter seulement ». Horaires non repris en bloc : la page « Brasserie » et la page « Contact » diffèrent pour le vendredi midi (fin à 15 h ou à 15 h 30)."
@@ -279,12 +282,13 @@
     "note": "Bar et boutique sur place (bières, coffrets, kits de brassage), sur le site du Grand Duc ; visite le jeudi à 19 h d'avril à septembre.",
     "addr": "La Thébaultière, 85220 Apremont",
     "src": "https://atlantic-loire-valley.com/objet_touristique/240088",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://atlantic-loire-valley.com/objet_touristique/240088"
+    "https://atlantic-loire-valley.com/objet_touristique/240088",
+    "https://data.geopf.fr/geocodage/search?q=Apremont&type=municipality&limit=5"
    ],
    "extrait": "Beers to taste at the bar or at our partners' premises",
    "choix": "Fiche de tourisme en anglais. Société MK Production, rattachée par l'adresse seulement. Même brasserie que le point OSM node/11740796277 (« Le Grand Duc »)."
@@ -302,12 +306,13 @@
     "note": "Brasserie bio des Sables-d'Olonne, avec boutique en ligne ; la vente sur place n'est pas écrite sur la page lue.",
     "addr": "28 ter allée Alain Gautier, 85340 Les Sables-d'Olonne",
     "src": "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html"
+    "https://www.guide-de-la-vendee.com/en/tourism/discover/visits-and-workshops/les-sables-d-olonne-123/ope-brewery-2845.html",
+    "https://data.geopf.fr/geocodage/search?q=Les+Sables-d%27Olonne&type=municipality&limit=5"
    ],
    "extrait": "Organic craft brewery in Les Sables d'Olonne, Vendée",
    "choix": "Annuaire seulement ; seul numéro, un mobile."

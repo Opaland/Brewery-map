@@ -58,7 +58,7 @@
     "note": "Bar-boutique de la brasserie, ouvert du mercredi au samedi ; la guinguette La Dérive, au port Saint-Maur, sert aussi ses bières.",
     "addr": "La Gare, 49250 La Ménitré",
     "src": "https://www.lapiautre.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blanche"
@@ -124,7 +124,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.lapiautre.fr/"
+    "https://www.lapiautre.fr/",
+    "https://data.geopf.fr/geocodage/search?q=La+M%C3%A9nitr%C3%A9&type=municipality&limit=5"
    ],
    "extrait": "BAR-BOUTIQUE mercredi / jeudi / vendredi : 14h30 - 18h",
    "choix": "Société La Fabrique des Bières d'Anjou. Même brasserie que le point OSM node/4278587091."
@@ -142,7 +143,7 @@
     "note": "Brasserie avec rubriques bar, restaurant et magasin sur son site ; rien sur la page lue ne dit qu'on y achète ou consomme ; brassage sur place à Beaupréau.",
     "addr": "Beaupréau-en-Mauges",
     "src": "https://www.larombiere.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blanche"
@@ -168,7 +169,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.larombiere.com/"
+    "https://www.larombiere.com/",
+    "https://data.geopf.fr/geocodage/search?q=Beaupr%C3%A9au-en-Mauges&type=municipality&limit=5"
    ],
    "extrait": "Côté bar Côté Resto Le Magasin",
    "choix": "Société Brasserie Artisanale des Mauges. Catégorie à confirmer : le site ne donne que les titres de ses rubriques ; ni adresse ni horaires. Position au centre de la commune."
@@ -186,7 +188,7 @@
     "note": "Boutique de vente à emporter à la brasserie, le jeudi et le vendredi en fin d'après-midi et le samedi matin d'avril à décembre.",
     "addr": "Rochefort-sur-Loire",
     "src": "https://sterneetmousse.fr/points-de-vente-biere-bio/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "ipa"
@@ -235,7 +237,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://sterneetmousse.fr/points-de-vente-biere-bio/"
+    "https://sterneetmousse.fr/points-de-vente-biere-bio/",
+    "https://data.geopf.fr/geocodage/search?q=Rochefort-sur-Loire&type=municipality&limit=5"
    ],
    "extrait": "la Sterne boutique est ouverte pour de la vente à emporter",
    "choix": "Seul numéro, un mobile. L'adresse de la page de contact est peut-être celle d'un point de vente : position au centre de la commune."
@@ -253,12 +256,13 @@
     "note": "Brasserie près d'Angers, selon l'office de tourisme ; rien sur la vente ni l'accueil.",
     "addr": "Brissac Loire Aubance",
     "src": "https://www.atlantic-loire-valley.com/objet_touristique/228241",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.atlantic-loire-valley.com/objet_touristique/228241"
+    "https://www.atlantic-loire-valley.com/objet_touristique/228241",
+    "https://data.geopf.fr/geocodage/search?q=Brissac+Loire+Aubance&type=municipality&limit=5"
    ],
    "extrait": "Contact BRASSERIE NUAGE CRAFT BEER",
    "choix": "Fiche de tourisme seulement ; le site donné n'existe pas. Position au centre de la commune."
@@ -276,7 +280,7 @@
     "note": "Espace de dégustation et boutique à la brasserie, ouverts le jeudi et le vendredi depuis juillet 2026 ; guinguette en extérieur de mai à septembre.",
     "addr": "355A avenue de la Clercière, 49370 Bécon-les-Granits",
     "src": "https://la-coale.fr/bar-boutique-la-coale",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "02 52 35 29 38",
@@ -309,7 +313,8 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://la-coale.fr/bar-boutique-la-coale",
-    "https://la-coale.fr"
+    "https://la-coale.fr",
+    "https://data.geopf.fr/geocodage/search?q=B%C3%A9con-les-Granits&type=municipality&limit=5"
    ],
    "extrait": "Vous pouvez venir boire une bière sur place"
   },
@@ -326,7 +331,7 @@
     "note": "Bières et kombuchas fabriqués à Angers, vendus en ligne ; ni vente ni consommation sur place dites.",
     "addr": "Angers",
     "src": "https://www.penrose-angers.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "ipa"
@@ -340,7 +345,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.penrose-angers.fr/"
+    "https://www.penrose-angers.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Angers&type=municipality&limit=5"
    ],
    "extrait": "Tous nos produits sont fabriqués à Angers dans notre Brasserie.",
    "choix": "Seul numéro, un mobile. Position au centre d'Angers."
@@ -358,12 +364,13 @@
     "note": "Vente à la propriété et dégustation gratuite en salle équipée, d'après l'office de tourisme ; ouverte toute l'année.",
     "addr": "Saint-Georges-sur-Loire",
     "src": "https://atlantic-loire-valley.com/objet_touristique/228240",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://atlantic-loire-valley.com/objet_touristique/228240"
+    "https://atlantic-loire-valley.com/objet_touristique/228240",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Georges-sur-Loire&type=municipality&limit=5"
    ],
    "extrait": "Winery sales",
    "choix": "Fiche de tourisme en anglais seulement ; le site donné ne sert plus la brasserie. Adresses de la fiche et de SIRENE discordantes : position au centre de la commune."
@@ -421,12 +428,13 @@
     "note": "Vente à la propriété, d'après la fiche de l'office de tourisme ; dégustation ou atelier de brassage à demander.",
     "addr": "Montreuil-Bellay",
     "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes"
+    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-les-deux-brunes",
+    "https://data.geopf.fr/geocodage/search?q=Montreuil-Bellay&type=municipality&limit=5"
    ],
    "extrait": "Winery sales",
    "choix": "Fiche de tourisme en anglais seulement ; seul numéro, un mobile de la fiche. Même brasserie que le point OSM node/12400982165. Rue sans numéro : position au centre de la commune."
