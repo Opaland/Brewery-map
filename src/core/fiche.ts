@@ -60,7 +60,7 @@ export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): s
 }
 
 export function libellePrecision(precision: Brasserie['coordPrecision']): string {
-  if (precision === 'commune') return t('approximative : centre de la commune, à environ 2 km près')
+  if (precision === 'commune') return t('approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres')
   if (precision === 'osm') return t('point placé sur OpenStreetMap, non vérifié sur place')
   return t('à l’adresse vérifiée')
 }

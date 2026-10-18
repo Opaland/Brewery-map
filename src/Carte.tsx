@@ -76,8 +76,8 @@ const style = (): StyleSpecification => ({
 })
 
 /**
- * Zoom maximal : 14. Toutes les positions sont communales (≈ 2 km, BACKLOG
- * D3) ; zoomer plus près ferait croire à une adresse exacte.
+ * Zoom maximal : 14. Toutes les positions sont approximatives (jusqu'à 14 km
+ * d'écart au centre communal, docs/PRECISION.md) ; zoomer plus près ferait croire à une adresse exacte.
  *
  * Le regroupement reste actif jusqu'à ce zoom (`clusterMaxZoom`), si bien que
  * deux brasseries aux mêmes coordonnées (Le Brass'in et Single Track, BACKLOG

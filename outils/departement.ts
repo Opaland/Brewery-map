@@ -44,6 +44,7 @@ import {
 } from '../src/core/candidats'
 import type { CandidatOsm } from '../src/core/decouverte'
 import { validerBrasseries } from '../src/core/schema'
+import { geocoder } from './geocodeur'
 
 const API = 'https://recherche-entreprises.api.gouv.fr/search'
 const CACHE = 'outils/cache/sirene'
@@ -191,20 +192,6 @@ async function candidats(dep: string): Promise<void> {
 }
 
 
-const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
-
-/** Une requête au géocodeur, avec reprise (le mandataire coupe souvent). */
-function geocoder(params: Record<string, string>): { url: string; reponse: unknown } {
-  const url = GEOCODEUR + new URLSearchParams({ ...params, limit: '5' }).toString()
-  for (let essai = 1; essai <= 8; essai++) {
-    try {
-      return { url, reponse: JSON.parse(execFileSync('curl', ['-sS', '-f', '-m', '20', url], { encoding: 'utf8' })) as unknown }
-    } catch {
-      if (essai < 8) execFileSync('sleep', [String(2 * essai)])
-    }
-  }
-  throw new Error(`géocodeur injoignable : ${url}`)
-}
 
 function lectures(dep: string, fichier: string | undefined): void {
   if (fichier === undefined) {

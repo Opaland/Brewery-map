@@ -26,7 +26,7 @@ import {
  *   n'est prévu par aucune procédure (S82) ;
  * - `km` : recalculé depuis Brignais quand la position change (S52) ;
  * - une coordonnée seule : la position (`lat`, `lon`, `coordPrecision`) se
- *   propose entière, jamais vers le centre de la commune (S52, Cédric le
+ *   propose entière, jamais vers un point communal (S52, Cédric le
  *   17/10 : « la localisation ne correspond pas à l'adresse sur la carte ») ;
  * - `verifieLe` : c'est la date de la proposition qui s'écrit ; un champ à
  *   part affichait une date dans le diff et en écrivait une autre.

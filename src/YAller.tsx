@@ -21,7 +21,7 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
       {d.mode === 'commune' && (
         <p className="fiche-aide" data-testid="y-aller-commune">
                     {t(
-            'Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas à la brasserie.',
+            'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
           )}
         </p>
       )}

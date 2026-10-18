@@ -30,7 +30,8 @@ export function distanceKm(a: Point, b: Point): number {
 
 /**
  * Une distance au kilomètre près, précédée de « ≈ » : les positions sont
- * communales (≈ 2 km, BACKLOG D3), une décimale promettrait une précision
+ * approximatives (jusqu'à 14 km d'écart au
+ * centre communal, docs/PRECISION.md), une décimale promettrait une précision
  * qui n'existe pas. Choix de présentation (CLAUDE.md §2).
  */
 export function formaterDistance(km: number): string {

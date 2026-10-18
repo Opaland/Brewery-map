@@ -19,7 +19,7 @@ export type Destination =
  * Une adresse est un `addr` qui dit plus que le nom de la commune : 68 fiches
  * sur 166 au 16/10 n'ont que ce nom ; les 98 autres ont une rue, un lieu-dit
  * ou un code postal (le code postal seul en oubliait 4, revue code S19).
- * Sans adresse, le point de la fiche — placé à environ 2 km près — plutôt
+ * Sans adresse, le point de la fiche — qui n'est pas l'adresse (docs/PRECISION.md) — plutôt
  * que le nom de la commune, qui a des homonymes (« Château »,
  * « Montagny ») ; l'écran dit que ce n'est pas l'adresse.
  */

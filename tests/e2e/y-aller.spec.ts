@@ -52,7 +52,7 @@ test.describe('« Y aller » (Hugo)', () => {
     await page.goto('/')
     await liensDe(page, 'Bulles d\'Orge')
     await expect(page.getByTestId('y-aller-commune')).toHaveText(
-      'Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas à la brasserie.',
+      'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
     )
   })
 })

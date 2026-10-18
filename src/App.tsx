@@ -821,7 +821,7 @@ export function App({
             : t('Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.')}
         </p>
         <p>
-          {t('Distances à vol d’oiseau. Les fiches vérifiées sont souvent placées au centre de leur commune (à environ 2 km près) ; celles d’OpenStreetMap, au point de la carte.')}
+          {t('Distances à vol d’oiseau, depuis le point de chaque fiche. Pour les fiches vérifiées, ce point n’est pas l’adresse et peut en être à plusieurs kilomètres ; pour celles d’OpenStreetMap, c’est le point de la carte.')}
         </p>
         <p data-testid="sources-osm">
           {t('Brasseries hors des fiches vérifiées :')} ©{' '}

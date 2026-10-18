@@ -189,9 +189,9 @@ chacun demande une décision ou une vérification de source.
 - **Ouvert maintenant dans la liste** (revue Hugo S19) : l'état n'est que
   dans la fiche ; un indicateur ou un filtre dans la liste attend des
   horaires structurés (aucune fiche n'en a au 16/10).
-- **« Centre de la commune »** (revue code S19) : `libellePrecision`
-  l'affirme pour toute précision `commune`, mais 25 communes ont plusieurs
-  points distincts dans le fichier. À vérifier d'où viennent ces points.
+- ~~**« Centre de la commune »** (revue code S19)~~ : fait en S59. Les points
+  ne sont pas des centres (mesure dans `docs/PRECISION.md`) ; la fiche ne le
+  promet plus. Reste la question à Cédric : d'où viennent ces points ?
 
 - Revue globale S22 — restes :
   - ~~la liste commence encore à 1,98 écran sur téléphone~~ : fait en S29
