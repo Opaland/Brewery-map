@@ -36,23 +36,6 @@
    "choix": "Le numéro d'OSM est un mobile : non proposé."
   },
   {
-   "n": "Brasserie Georges",
-   "changements": {
-    "contact": {
-     "site": "https://www.brasseriegeorges.com/",
-     "source": "https://www.brasseriegeorges.com/",
-     "verifieLe": "2026-10-18",
-     "tel": "04 72 56 54 54"
-    }
-   },
-   "verifieLe": "2026-10-18",
-   "sources": [
-    "https://www.brasseriegeorges.com/",
-    "https://www.openstreetmap.org/node/828579675"
-   ],
-   "extrait": "Bonne bière & bonne chère Depuis 1836"
-  },
-  {
    "n": "Ferme de la Quintillière",
    "changements": {
     "contact": {
@@ -85,56 +68,6 @@
    ],
    "extrait": "Brasserie La Farlodoise | Vente directe – Pub – Café concert",
    "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil du site : non proposé."
-  },
-  {
-   "n": "L'Affoleuse",
-   "changements": {
-    "contact": {
-     "site": "https://laffoleuse.net/",
-     "source": "https://laffoleuse.net/",
-     "verifieLe": "2026-10-18",
-     "tel": "04 74 62 86 05"
-    }
-   },
-   "verifieLe": "2026-10-18",
-   "sources": [
-    "https://laffoleuse.net/",
-    "https://www.openstreetmap.org/node/7950028324"
-   ],
-   "extrait": "Contact Brasserie l'Affoleuse 3 impasse de Montromand 69640 Denicé 04 74 62 86 05"
-  },
-  {
-   "n": "Brasserie Stéphanoise",
-   "changements": {
-    "contact": {
-     "site": "https://labrasseriestephanoise.com/",
-     "source": "https://labrasseriestephanoise.com/",
-     "verifieLe": "2026-10-18"
-    }
-   },
-   "verifieLe": "2026-10-18",
-   "sources": [
-    "https://labrasseriestephanoise.com/",
-    "https://www.openstreetmap.org/node/4343465583"
-   ],
-   "extrait": "La Brasserie Stéphanoise | Fabrique de bière artisanale",
-   "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil (porte d'âge) : non proposé."
-  },
-  {
-   "n": "Brasserie des Ursulines",
-   "changements": {
-    "contact": {
-     "site": "https://biere-les-ursulines.com/",
-     "source": "https://biere-les-ursulines.com/",
-     "verifieLe": "2026-10-18"
-    }
-   },
-   "verifieLe": "2026-10-18",
-   "sources": [
-    "https://biere-les-ursulines.com/",
-    "https://www.openstreetmap.org/node/1083416094"
-   ],
-   "extrait": "Les Ursulines – Moments d'Exception"
   },
   {
    "n": "Brasserie de la Loire",
@@ -208,12 +141,8 @@
  "revues": [
   "Caribrew",
   "La Chénou",
-  "Brasserie Georges",
   "Ferme de la Quintillière",
   "La Farlodoise",
-  "L'Affoleuse",
-  "Brasserie Stéphanoise",
-  "Brasserie des Ursulines",
   "Brasserie de la Loire",
   "Les Bières du Temps",
   "Brasserie du Pilat",

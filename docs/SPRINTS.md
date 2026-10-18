@@ -2741,6 +2741,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S61.md`. S62 (« sites ») y est fondue : `contact` est un seul objet, et deux lots s'écraseraient.
 
-- `curation/s61-contacts-osm.md` : 12 propositions (12 sites officiels, 2 téléphones fixes) sur les 45 fiches rapprochées en S60 ; 8 écartées (site en erreur, Facebook, autre établissement, mobile seul) ; 16 en attente d'un lot déjà soumis à Cédric.
-- Chaque site a été ouvert et nomme la brasserie ; chaque téléphone est sur la page ; `controler` sans écart. Aucun mobile.
+- `curation/s61-contacts-osm.md` : 8 propositions (8 sites officiels) sur les 45 fiches rapprochées en S60 ; 8 écartées (site en erreur, Facebook, autre établissement, mobile seul) ; 20 en attente d'un lot déjà soumis à Cédric.
+- Revue adverse : la première version ne lisait que les lots S53 à S134 ; quatre fiches avaient un contact proposé dans S11, S12 ou S13. Accepter les deux lots en aurait écrasé un (un téléphone fixe de la Brasserie Stéphanoise perdu). Tous les lots de `curation/` sont maintenant lus.
+- Chaque site a été ouvert et nomme la brasserie ; `controler` sans écart. Aucun mobile.
 
