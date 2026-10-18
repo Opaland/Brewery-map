@@ -29,6 +29,25 @@ export const POLITIQUE = [
   "form-action 'none'",
 ].join('; ')
 
+/**
+ * Le nom, tel que le dit le texte « Ce qui part sur le réseau »
+ * (`PointDeDepart.tsx`), de chaque service tiers de la politique (S273).
+ * Un hôte ajouté à `POLITIQUE` sans nom, ou dont le nom manque au texte,
+ * fait échouer `tests/composants/transparence.test.tsx`.
+ */
+export const NOMS_DES_HOTES: Readonly<Partial<Record<string, string>>> = {
+  'tile.openstreetmap.org': 'OpenStreetMap',
+}
+
+/** Les hôtes que la politique permet (tout schéma `xxx://`), lus sur elle, sans port ni doublon. */
+export function hotesTiers(politique: string): string[] {
+  const hotes = politique
+    .split(/[;\s]+/)
+    .filter((mot) => /^[a-z][a-z0-9+.-]*:\/\//.test(mot))
+    .map((mot) => new URL(mot).hostname)
+  return [...new Set(hotes)]
+}
+
 export function politiqueDeSecurite(): Plugin {
   return {
     name: 'mousse-csp',

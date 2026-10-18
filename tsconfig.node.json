@@ -38,6 +38,7 @@
     "src/crochets.ts",
     "src/communesFrance.ts",
     "src/localisation.ts",
+    "src/PointDeDepart.tsx",
     "src/miseAJour.ts",
     "src/i18n.ts",
     "src/textes",

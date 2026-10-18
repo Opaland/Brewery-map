@@ -4,6 +4,7 @@ import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { communesConnues, libelleOrigine, type Origine } from './core/origine'
+import { ECRAN_LARGE } from './core/ecran'
 import {
   basculerFavori,
   basculerVisite,
@@ -176,7 +177,7 @@ export function App({
   // réglé ne se cache pas dès l'arrivée.
   const [filtresOuverts, setFiltresOuverts] = useState(
     () =>
-      window.matchMedia('(min-width: 900px)').matches ||
+      window.matchMedia(ECRAN_LARGE).matches ||
       ini.favorisSeulement ||
       raccourci === 'favoris' ||
       ini.pasVisitees ||
@@ -187,7 +188,7 @@ export function App({
   // Passé à 900 px de large (tablette tournée), le repli s'ouvre : les
   // filtres y tiennent à côté du départ (revue adverse S29).
   useEffect(() => {
-    const large = window.matchMedia('(min-width: 900px)')
+    const large = window.matchMedia(ECRAN_LARGE)
     const suivre = () => {
       if (large.matches) setFiltresOuverts(true)
     }
