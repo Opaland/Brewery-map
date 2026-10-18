@@ -158,7 +158,7 @@ proposée vient de la Base Adresse Nationale, adresse par adresse.
 |---|---|
 | S60 | Outil : les étiquettes OSM (`phone`, `website`, `opening_hours`) des fiches vérifiées, rapprochées |
 | S61 | Lot de contacts venus d'OSM |
-| S62 | Lot de sites venus d'OSM |
+| S62 | Lot de sites venus d'OSM — fondu dans S61 (`contact` est un seul objet) |
 | S63 | Lot d'horaires venus d'OSM |
 | S64 | SIRENE : adresses de siège, en propositions (si l'API répond) |
 | S65 | Horaires par saison : proposition de schéma **[C]** |

@@ -2737,3 +2737,10 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - Quatre défauts, chacun mis en test rouge avant correction : un élément partagé par deux fiches et un mobile caché dans une valeur à deux numéros (vus sur le vrai fichier) ; des formes de mobile non masquées et un repli de site perdu (revue adverse).
 - À trancher en S61 : Brasserie des Roches (élément OSM à Seyssuel) et Les Deux Branches (élément sans ville).
 
+## S61 — Lot de contacts venus d'OSM *(18/10)*
+
+`docs/stories/S61.md`. S62 (« sites ») y est fondue : `contact` est un seul objet, et deux lots s'écraseraient.
+
+- `curation/s61-contacts-osm.md` : 12 propositions (12 sites officiels, 2 téléphones fixes) sur les 45 fiches rapprochées en S60 ; 8 écartées (site en erreur, Facebook, autre établissement, mobile seul) ; 16 en attente d'un lot déjà soumis à Cédric.
+- Chaque site a été ouvert et nomme la brasserie ; chaque téléphone est sur la page ; `controler` sans écart. Aucun mobile.
+
