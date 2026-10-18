@@ -22,6 +22,11 @@
  *     affiche ce qui changerait. **N'écrit rien.**
  *
  *   npx tsx outils/curation.ts appliquer curation/lot-XX.json 1,3,4 --ecrire <empreinte>
+ *
+ *   npx tsx outils/curation.ts trier
+ *     S265 : trie tous les lots par la règle de Cédric du 18/10
+ *     (docs/DECISIONS.md) et écrit curation/decision-regle.md. Une
+ *     proposition acceptée que controler ne relit pas sans écart est montrée.
  *     Écrit `data/breweries.json`. **Seulement avec l'accord écrit de Cédric,
  *     numéro par numéro** (CLAUDE.md §0). L'empreinte est celle du diff qu'il
  *     a lu : si le lot a changé depuis, l'écriture est refusée (revue code
@@ -44,7 +49,9 @@ import {
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 
-import { empreinte } from './lots'
+import { empreinte, fichiersDeLots, lireTexte } from './lots'
+import { trierParRegle, type LotNomme } from '../src/core/regle'
+import { execFileSync } from 'node:child_process'
 import { nomDAccord } from '../src/core/garde-donnees'
 
 const DONNEES = 'data/breweries.json'
@@ -170,6 +177,89 @@ async function controler(chemin: string | undefined) {
   sortir(echecs === 0 ? 'Contrôle sans écart.' : `${String(echecs)} écart(s) : à revoir avant de présenter le lot.`, echecs === 0 ? 0 : 1)
 }
 
+/** La sortie de `controler` sur un lot, qu'il passe ou non (il sort en 1 sur un écart). */
+function controlerEnSilence(chemin: string): string {
+  try {
+    return execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { encoding: 'utf8' })
+  } catch (e) {
+    const stdout = (e as { stdout?: unknown }).stdout
+    return typeof stdout === 'string' ? stdout : ''
+  }
+}
+
+/**
+ * S265 : la règle de Cédric appliquée à tous les lots. `controler` est
+ * rejoué sur chaque lot : un numéro qu'il signale (page absente, extrait,
+ * contact ou heure absents) passe de « accepté » à « à montrer ».
+ */
+function trier(): void {
+  const lots: (LotNomme & { chemin: string; empreinte: string })[] = fichiersDeLots()
+    .sort()
+    .flatMap((chemin) => {
+      const texte = lireTexte(chemin)
+      const l = lireLot(JSON.parse(texte), '9999-12-31')
+      return l.ok && (l.lot.propositions.length > 0 || (l.lot.ajouts ?? []).length > 0)
+        ? [{ nom: l.lot.lot, lot: l.lot, chemin, empreinte: empreinte(texte) }]
+        : []
+    })
+  const { acceptees, aMontrer } = trierParRegle(lots, donnees())
+  for (const l of lots) {
+    if (!Object.hasOwn(acceptees, l.nom)) continue
+    const nums = acceptees[l.nom] ?? []
+    const sortie = controlerEnSilence(l.chemin)
+    // Une sortie sans verdict (plantage, coupure) ou un échec global du lot
+    // ne laisse rien accepté : tout le lot est montré (revue adverse S265).
+    const sansVerdict = !/Contrôle sans écart\.|écart\(s\)/.test(sortie)
+    if (sansVerdict || sortie.includes('Tout accepter échouerait')) {
+      const raison = sansVerdict ? 'controler n’a pas rendu de verdict' : 'controler : tout accepter échouerait'
+      for (const k of nums) {
+        const p = l.lot.propositions.at(k - 1)
+        const a = (l.lot.ajouts ?? []).at(k - 1 - l.lot.propositions.length)
+        aMontrer.push({ lot: l.nom, numero: k, n: (k <= l.lot.propositions.length ? p?.n : a?.fiche.n) ?? '?', raison })
+      }
+      acceptees[l.nom] = []
+      continue
+    }
+    const enEcart = new Set(
+      sortie
+        .split('\n')
+        .filter((ligne) => /ABSENT|injoignable|: [45]\d\d$/.test(ligne))
+        .map((ligne) => Number(/^(\d+)\./.exec(ligne)?.[1])),
+    )
+    acceptees[l.nom] = nums.filter((k) => {
+      if (!enEcart.has(k)) return true
+      const p = l.lot.propositions.at(k - 1)
+      const a = (l.lot.ajouts ?? []).at(k - 1 - l.lot.propositions.length)
+      aMontrer.push({ lot: l.nom, numero: k, n: p?.n ?? a?.fiche.n ?? '?', raison: 'controler signale un écart' })
+      return false
+    })
+  }
+  const lignes = [
+    '# Décision par la règle de Cédric (S265)',
+    '',
+    'Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les fiches nouvelles des lots départementaux. Rien n\'est écrit ici : chaque PR qui touche `data/` liste ses lignes.',
+    '',
+    '## Acceptées par la règle',
+    '',
+    '| Lot | Empreinte | Numéros | Nombre |',
+    '|---|---|---|---:|',
+    ...lots.flatMap((l) => {
+      const nums = acceptees[l.nom] ?? []
+      return nums.length === 0 ? [] : [`| ${l.nom} | ${l.empreinte} | ${nums.join(', ')} | ${String(nums.length)} |`]
+    }),
+    '',
+    `## À montrer à Cédric (${String(aMontrer.length)})`,
+    '',
+    '| Lot | N° | Fiche | Raison |',
+    '|---|---:|---|---|',
+    ...aMontrer.map((m) => `| ${m.lot} | ${String(m.numero)} | ${m.n} | ${m.raison} |`),
+    '',
+  ]
+  writeFileSync('curation/decision-regle.md', lignes.join('\n'))
+  const total = Object.values(acceptees).reduce((s, v) => s + v.length, 0)
+  console.log(`${String(total)} acceptées, ${String(aMontrer.length)} à montrer : curation/decision-regle.md`)
+}
+
 const [commande, ...args] = process.argv.slice(2)
 
 /** Les fiches déjà revues par les lots de `curation/` ; échoue en nommant le fichier fautif. */
@@ -232,9 +322,11 @@ if (commande === 'lot') {
     sortir(`${DONNEES} écrit : proposition(s) ${acceptes.join(', ')} du lot ${l.lot} (${e}), accord enregistré.`, 0)
   }
   sortir(`${diffLisible(donnees(), l, new Set(acceptes))}\n\n(rien n'est écrit : --ecrire ${e}, après l'accord de Cédric)`, 0)
+} else if (commande === 'trier') {
+  trier()
 } else {
   sortir(
-    'usage : lot [taille] | signalement "<titre>" | diff <lot> | controler <lot> | appliquer <lot> <1,2,…> [--ecrire <empreinte>]',
+    'usage : lot [taille] | signalement "<titre>" | diff <lot> | controler <lot> | appliquer <lot> <1,2,…> [--ecrire <empreinte>] | trier',
     2,
   )
 }

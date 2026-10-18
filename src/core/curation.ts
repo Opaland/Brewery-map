@@ -455,7 +455,7 @@ export function numeroSurLaPage(tel: string, page: string): boolean {
  * Les hôtes partagés par des milliers de pages : y être ne dit pas qu'on est
  * sur le site d'une brasserie (revue adverse S261).
  */
-const PLATEFORMES = new Set(['facebook.com', 'instagram.com', 'untappd.com', 'linktr.ee', 'sites.google.com'])
+export const PLATEFORMES = new Set(['facebook.com', 'instagram.com', 'untappd.com', 'linktr.ee', 'sites.google.com'])
 
 type ChampContact = 'tel' | 'site' | 'untappd'
 
