@@ -2745,3 +2745,11 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - Revue adverse : la première version ne lisait que les lots S53 à S134 ; quatre fiches avaient un contact proposé dans S11, S12 ou S13. Accepter les deux lots en aurait écrasé un (un téléphone fixe de la Brasserie Stéphanoise perdu). Tous les lots de `curation/` sont maintenant lus.
 - Chaque site a été ouvert et nomme la brasserie ; `controler` sans écart. Aucun mobile.
 
+## S63 — Lot d'horaires venus d'OSM *(18/10)*
+
+`docs/stories/S63.md`.
+
+- `lireOpeningHours` (TDD) lit le cas simple d'`opening_hours` et refuse le reste avec sa raison.
+- `curation/s63-horaires-osm.md` : 6 propositions (7 blocs) sur 17 fiches à horaires OSM ; 11 écartées. Les créneaux sont ceux de la page de la brasserie : deux fois elle contredit OSM.
+- `controler` relit maintenant les horaires des propositions, pas seulement ceux des fiches nouvelles (vu rouge sur un lot faussé).
+

@@ -1,0 +1,270 @@
+{
+ "lot": "s63-horaires-osm",
+ "propositions": [
+  {
+   "n": "Ferme de la Quintillière",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "16:30",
+        "19:30"
+       ]
+      ],
+      "source": "http://www.fermedelaquintilliere.com/bieres-busard/",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://www.fermedelaquintilliere.com/bieres-busard/",
+    "https://www.openstreetmap.org/way/138335054"
+   ],
+   "extrait": "A la brasserie – Ferme de la Quintillière : tous les vendredis soirs, de 16h30 à 19h30.",
+   "choix": "OSM dit le mercredi ; la page de la ferme dit le vendredi : c'est la page qui est reprise."
+  },
+  {
+   "n": "Brasserie Kachmar",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.brasserie-kachmar.fr",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-kachmar.fr",
+    "https://www.openstreetmap.org/node/13200279683"
+   ],
+   "extrait": "La brasserie vous accueille pour la vente en direct tous les samedis de 10h à 18h sans interruption"
+  },
+  {
+   "n": "Les Bières du Temps",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.lesbieresdutemps.com/",
+      "verifieLe": "2026-10-18",
+      "remarque": "Boutique."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.lesbieresdutemps.com/",
+    "https://www.openstreetmap.org/node/5705298290"
+   ],
+   "extrait": "La boutique est ouverte le MERCREDI de 10h à 12h30 et de 16h à 19h le VENDREDI de 16h à 19h le SAMEDI de 10h à 12h30 et de 15h à 18h",
+   "choix": "OSM dit 15 h le mercredi après-midi ; la page dit 16 h : c'est la page qui est reprise."
+  },
+  {
+   "n": "La Canaille",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://www.brasserielacanaille.com",
+      "verifieLe": "2026-10-18",
+      "remarque": "Boutique, vente à emporter."
+     },
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "21:00"
+       ]
+      ],
+      "source": "https://www.brasserielacanaille.com",
+      "verifieLe": "2026-10-18",
+      "remarque": "Bar."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserielacanaille.com",
+    "https://www.openstreetmap.org/node/2665151591"
+   ],
+   "extrait": "Boutique / Vente à emporter Du lundi au jeudi : 9h – 17h Vendredi : 9h – 23h Samedi : 16h – 20h Bar Vendredi : 16h – 23h Samedi : 16h – 21h",
+   "choix": "La note de la fiche (« pas de bar cité », autres horaires) date d'une lecture antérieure ; la page annonce maintenant un bar. La note n'est pas changée ici. Les numéros de réservation de la page sont des mobiles : non repris."
+  },
+  {
+   "n": "Brasserie de la Pleine Lune",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "14:00",
+        "20:00"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "21:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "21:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://www.brasserie-pleinelune.fr/",
+      "verifieLe": "2026-10-18",
+      "remarque": "Bar et boutique de la brasserie."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-pleinelune.fr/",
+    "https://www.openstreetmap.org/way/889170773"
+   ],
+   "extrait": "Horaires d’ouverture Lundi : 14h-20h Mardi et mercredi : 10h-21h Jeudi et vendredi : 10h-23h Samedi : 10h-22h",
+   "choix": "La page présente « Notre Bar/Boutique » ; ces horaires ne sont pas ceux du retrait des tireuses (la page le dit)."
+  },
+  {
+   "n": "L'Etincelle",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.brasserie-letincelle.fr/",
+      "verifieLe": "2026-10-18",
+      "remarque": "« Vente en direct & brewpub », brewpub en terrasse uniquement."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-letincelle.fr/",
+    "https://www.openstreetmap.org/way/138474252"
+   ],
+   "extrait": "Horaires vente en direct & brewpub* Mercredi · 16h-19h Vendredi : 16h-19h *terrasse uniquement",
+   "choix": "La note de la fiche dit « pas de licence pour servir de l'alcool au verre » ; la page parle d'un brewpub en terrasse. Le bloc est donné en « vente » ; la note n'est pas changée ici."
+  }
+ ],
+ "revues": [
+  "Ferme de la Quintillière",
+  "Brasserie Kachmar",
+  "Les Bières du Temps",
+  "La Canaille",
+  "Brasserie de la Pleine Lune",
+  "L'Etincelle"
+ ]
+}
