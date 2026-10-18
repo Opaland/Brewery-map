@@ -357,4 +357,5 @@ export const EN: Readonly<Record<string, string>> = {
   "le tonneau d’où la bière est tirée à la pression": "the keg the beer is drawn from on tap",
   "une grande bouteille qu’on fait remplir à la pression pour l’emporter": "a large bottle filled on tap to take away",
   "commander en ligne, puis passer chercher sa commande": "order online, then pick up your order",
+  "Confiance {niveau} ; date de vérification non renseignée.": "Confidence {niveau}; check date not given.",
 }

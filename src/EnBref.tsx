@@ -22,10 +22,12 @@ export function EnBref({ brasserie, maintenant }: { brasserie: Brasserie; mainte
         {t(CATEGORIES[brasserie.cat])}
         {brasserie.cat !== 0 && (
           <span className="fiche-aide">
-            {t('Confiance {niveau}, fiche vérifiée le {date}.', {
-              niveau: libelleConfiance(brasserie.conf),
-              date: libelleVerification(brasserie.verifieLe),
-            })}
+            {brasserie.verifieLe === undefined
+              ? t('Confiance {niveau} ; date de vérification non renseignée.', { niveau: libelleConfiance(brasserie.conf) })
+              : t('Confiance {niveau}, fiche vérifiée le {date}.', {
+                  niveau: libelleConfiance(brasserie.conf),
+                  date: libelleVerification(brasserie.verifieLe),
+                })}
           </span>
         )}
       </dd>

@@ -63,6 +63,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     // Le sigle est expliqué (S295, Marie).
     await expect(fiche.getByTestId('fiche-precision')).toContainText('IGN : l’Institut national de l’information géographique')
     await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
+    // « En bref » le dit en français correct (vu sur la capture S295).
+    await expect(fiche.getByTestId('en-bref-categorie')).toContainText('Confiance élevée ; date de vérification non renseignée.')
     await expect(fiche).toContainText("4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest")
   })
 
