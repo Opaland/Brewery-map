@@ -15,7 +15,7 @@
     "note": "Brewpub : bar et boutique ouverts du mercredi au dimanche à partir de 16 h 30.",
     "addr": "Guerlédan",
     "src": "http://www.brasseriedeguerledan.bzh/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -46,7 +46,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "http://www.brasseriedeguerledan.bzh/"
+    "http://www.brasseriedeguerledan.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=Guerl%C3%A9dan&type=municipality&limit=5"
    ],
    "extrait": "Bar et boutique ouverts du du Mercredi au Dimanche à partir de 16H30",
    "choix": "Le site ne donne pas d'adresse. Position au centre de Guerlédan."
@@ -102,7 +103,7 @@
     "note": "Visite et dégustation sur place, boutique ouverte en semaine ; la vente n'est pas dite explicitement.",
     "addr": "Kerambellec, 22700 Perros-Guirec",
     "src": "https://www.kanarfoll.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.kanarfoll.com/",
@@ -112,7 +113,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.kanarfoll.com/"
+    "https://www.kanarfoll.com/",
+    "https://data.geopf.fr/geocodage/search?q=Perros-Guirec&type=municipality&limit=5"
    ],
    "extrait": "Visite et dégustation sur place.",
    "choix": "Même lieu-dit que le Verger de Kernivinen (cidrerie, node/14018305001)."
@@ -130,7 +132,7 @@
     "note": "Vente aux particuliers et aux professionnels, entrée libre ; consommation sur place non établie.",
     "addr": "Plérin",
     "src": "http://www.la-guernouillette.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "http://www.la-guernouillette.com/",
@@ -140,7 +142,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "http://www.la-guernouillette.com/"
+    "http://www.la-guernouillette.com/",
+    "https://data.geopf.fr/geocodage/search?q=Pl%C3%A9rin&type=municipality&limit=5"
    ],
    "extrait": "Vente aux particuliers, professionnels",
    "choix": "La page dit « Saint Brieuc Ouest », OSM dit Plérin. Position au centre de Plérin."
@@ -158,7 +161,7 @@
     "note": "Nano-brasserie ; ni vente ni horaires lus.",
     "addr": "Trémeur",
     "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -179,7 +182,8 @@
    "verifieLe": "2026-10-17",
    "sources": [
     "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
-    "https://untappd.com/w/les-brassins-du-lion-d-or/442785"
+    "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+    "https://data.geopf.fr/geocodage/search?q=Tr%C3%A9meur&type=municipality&limit=5"
    ],
    "extrait": "Le Lion d'Or 22250 Trémeur",
    "choix": "Annuaire seulement. La page Untappd ne donne pas la commune : son rattachement tient à ses bières (Brindzingue, Badadrao, Dam Yan, La Tremeuroise), les mêmes que l'annuaire. Position au centre de Trémeur."
@@ -221,12 +225,13 @@
     "note": "Visites guidées annoncées par l'office de tourisme ; vente sur place non lue, site officiel injoignable (503).",
     "addr": "Parc Sainte Catherine, 22220 Tréguier",
     "src": "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A"
+    "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
+    "https://data.geopf.fr/geocodage/search?q=Tr%C3%A9guier&type=municipality&limit=5"
    ],
    "extrait": "Brasserie Philomenn, Parc Sainte Catherine 22220 Tréguier",
    "choix": "Agenda de sorties seulement. Même brasserie que le point OSM node/6503738019."
@@ -244,12 +249,13 @@
     "note": "Micro-brasserie qui vend ses produits sur place, d'après un annuaire de producteurs.",
     "addr": "Mellionnec",
     "src": "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html"
+    "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html",
+    "https://data.geopf.fr/geocodage/search?q=Mellionnec&type=municipality&limit=5"
    ],
    "extrait": "Ce producteur vend ses produits sur place",
    "choix": "Annuaire seulement ; adresses de l'annuaire et de SIRENE discordantes. Position au centre de Mellionnec."
@@ -267,7 +273,7 @@
     "note": "Bar, vente directe et restauration le mardi (18 h–22 h) et le jeudi (19 h–22 h), vente directe et bar le vendredi (17 h–19 h).",
     "addr": "Lannion",
     "src": "https://kerampont.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://kerampont.com/",
@@ -303,7 +309,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://kerampont.com/"
+    "https://kerampont.com/",
+    "https://data.geopf.fr/geocodage/search?q=Lannion&type=municipality&limit=5"
    ],
    "extrait": "Mardi 18h-22h en mode bar, vente directe et restauration",
    "choix": "Position au centre de Lannion : l'adresse n'est pas relue."
@@ -321,12 +328,13 @@
     "note": "Brasserie industrielle ; seul créneau public lu, une visite le 30 mai 2026. Vente sur place non établie.",
     "addr": "Kerbrunec, 22140 Tonquédec",
     "src": "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/"
+    "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/",
+    "https://data.geopf.fr/geocodage/search?q=Tonqu%C3%A9dec&type=municipality&limit=5"
    ],
    "extrait": "Brasserie régionale de l'Ouest, Kerbrunec, Tonquédec (22140)",
    "choix": "Brasserie industrielle (ex-L'Hirondelle) : à Cédric de dire si elle entre dans le périmètre."
@@ -373,7 +381,7 @@
     "note": "Le site a une rubrique « Boutique – Bar » sans dire ce qu'on y fait ; horaires non lus.",
     "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
     "src": "https://www.lafreheloise.bzh/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "02 96 86 36 28",
@@ -384,7 +392,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.lafreheloise.bzh/"
+    "https://www.lafreheloise.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=Fr%C3%A9hel&type=municipality&limit=5"
    ],
    "extrait": "Rue de la Pièce Monsieur Domaine de la Grande Abbaye, 22240 Fréhel"
   },
@@ -401,7 +410,7 @@
     "note": "Bières en vente et en dégustation à la brasserie ; bar du jeudi au samedi à partir de 16 h.",
     "addr": "Quessoy",
     "src": "https://www.brasserie-dimezell.bzh/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.brasserie-dimezell.bzh/",
@@ -411,7 +420,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-dimezell.bzh/"
+    "https://www.brasserie-dimezell.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=Quessoy&type=municipality&limit=5"
    ],
    "extrait": "Nos bières sont bien sûr en vente et en dégustation à la brasserie",
    "choix": "Même brasserie que le point OSM node/7491754420. Position au centre de Quessoy."
@@ -494,7 +504,7 @@
     "note": "Ouverte au public (17 h–19 h en semaine l'été, samedi toute l'année) ; la page ne dit pas ce qu'on y fait.",
     "addr": "Trégastel",
     "src": "https://www.brasseriedes7iles.com",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -517,7 +527,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasseriedes7iles.com"
+    "https://www.brasseriedes7iles.com",
+    "https://data.geopf.fr/geocodage/search?q=Tr%C3%A9gastel&type=municipality&limit=5"
    ],
    "extrait": "Retrouvez-nous à la brasserie",
    "choix": "Position au centre de Trégastel : l'adresse n'est pas relue."
@@ -535,7 +546,7 @@
     "note": "Micro-brasserie d'après un annuaire ; vente et horaires non lus.",
     "addr": "Plouasne",
     "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -547,7 +558,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/"
+    "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/",
+    "https://data.geopf.fr/geocodage/search?q=Plouasne&type=municipality&limit=5"
    ],
    "extrait": "2 la gare 22830 Plouasne",
    "choix": "Annuaire seulement. Même adresse que la Brasserie Nautica : peut-être un ancien nom, lien non établi. Position au centre de Plouasne."
@@ -565,7 +577,7 @@
     "note": "Ouverte le vendredi de 16 h à 19 h et sur rendez-vous (Click & Collect) ; la page ne dit pas ce qu'on y fait.",
     "addr": "Plouvara",
     "src": "http://www.lavilleporteamour.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "http://www.lavilleporteamour.fr/",
@@ -575,7 +587,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "http://www.lavilleporteamour.fr"
+    "http://www.lavilleporteamour.fr",
+    "https://data.geopf.fr/geocodage/search?q=Plouvara&type=municipality&limit=5"
    ],
    "extrait": "Vendredi : 16h - 19h",
    "choix": "Site « en reconstruction ». Position au centre de Plouvara."
@@ -687,7 +700,7 @@
     "note": "Ouverte au public le vendredi de 17 h à 19 h ; vente sur place d'après un annuaire de producteurs, consommation non établie.",
     "addr": "Saint-Judoce",
     "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "horaires": [
      {
@@ -706,7 +719,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html"
+    "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Judoce&type=municipality&limit=5"
    ],
    "extrait": "La Brasserie Carabo est ouverte au public tous les vendredis de 17h à 19h",
    "choix": "Annuaire seulement (site officiel en 503). Deux adresses dans l'annuaire : position au centre de Saint-Judoce."
@@ -724,7 +738,7 @@
     "note": "Vente directe à la brasserie ; horaires non publiés.",
     "addr": "Hémonstoir",
     "src": "https://millegoules.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "ipa"
@@ -741,7 +755,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://millegoules.com/"
+    "https://millegoules.com/",
+    "https://data.geopf.fr/geocodage/search?q=H%C3%A9monstoir&type=municipality&limit=5"
    ],
    "extrait": "Achetez nos bières directement à la brasserie.",
    "choix": "Position au centre d'Hémonstoir : l'adresse n'est pas relue."
@@ -759,7 +774,7 @@
     "note": "Boutique en ligne et visites sur réservation ; la page ne dit pas qu'on achète ou boit à la brasserie.",
     "addr": "Broons",
     "src": "https://www.alchimistes-ivres.com",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "lager"
@@ -779,7 +794,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.alchimistes-ivres.com"
+    "https://www.alchimistes-ivres.com",
+    "https://data.geopf.fr/geocodage/search?q=Broons&type=municipality&limit=5"
    ],
    "extrait": "Brasserie bière craft fantasy en Bretagne",
    "choix": "Un agent proposait « acheter seulement » sur un passage absent de la page. Position au centre de Broons."

@@ -92,12 +92,13 @@
     "note": "Brasserie installée à Plerguer d'après un annuaire ; rien sur la vente ou l'accueil.",
     "addr": "Plerguer",
     "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/"
+    "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
+    "https://data.geopf.fr/geocodage/search?q=Plerguer&type=municipality&limit=5"
    ],
    "extrait": "installée à Plerguer",
    "choix": "Annuaire seulement ; adresses contradictoires. Position au centre de Plerguer."
@@ -247,12 +248,13 @@
     "note": "Brasserie du Rheu depuis 2017 ; ni adresse, ni horaires, ni vente lus.",
     "addr": "Le Rheu",
     "src": "https://tablejourney.com/france/rennes/breweries/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://tablejourney.com/france/rennes/breweries/"
+    "https://tablejourney.com/france/rennes/breweries/",
+    "https://data.geopf.fr/geocodage/search?q=Le+Rheu&type=municipality&limit=5"
    ],
    "extrait": "Brasserie de la Bizhhh has brewed in Le Rheu on the west edge of Rennes since 2017",
    "choix": "Annuaire en anglais seulement. Position au centre du Rheu."
@@ -327,12 +329,13 @@
     "note": "Microbrasserie ouverte en 2022 avec un lieu de dégustation annoncé ; source de 2022, rien de plus récent.",
     "addr": "Rennes",
     "src": "https://unidivers.fr/microbrasserie-beltane-rennes/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://unidivers.fr/microbrasserie-beltane-rennes/"
+    "https://unidivers.fr/microbrasserie-beltane-rennes/",
+    "https://data.geopf.fr/geocodage/search?q=Rennes&type=municipality&limit=5"
    ],
    "extrait": "accueilleront les consommateurs dans un lieu de dégustation pour une consommation sur place",
    "choix": "Article de 2022 au futur : catégorie non retenue. Position au centre de Rennes."
@@ -350,7 +353,7 @@
     "note": "Vente directe à la brasserie le jeudi et le vendredi (10-12 h, 14-18 h), d'après un article de 2022 ; à reconfirmer sur le site.",
     "addr": "Bain-de-Bretagne",
     "src": "https://unidivers.fr/biere-draenek/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -365,7 +368,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://unidivers.fr/biere-draenek/"
+    "https://unidivers.fr/biere-draenek/",
+    "https://data.geopf.fr/geocodage/search?q=Bain-de-Bretagne&type=municipality&limit=5"
    ],
    "extrait": "10-12h – 14-18h",
    "choix": "Article de 2022 ; adresse de l'article et de SIRENE discordantes. Position au centre de Bain-de-Bretagne."
@@ -465,7 +469,7 @@
     "note": "Vente en boutique à la brasserie et sur les événements ; horaires sur demande.",
     "addr": "Montfort-sur-Meu",
     "src": "https://louarn.bzh",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -485,7 +489,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://louarn.bzh"
+    "https://louarn.bzh",
+    "https://data.geopf.fr/geocodage/search?q=Montfort-sur-Meu&type=municipality&limit=5"
    ],
    "extrait": "Oui, en boutique à la brasserie et sur les événements.",
    "choix": "Même brasserie que le point OSM node/4225477240 (Rennes). Une page Untappd « Brasserie Louarn » (Rennes) renvoie à un ancien domaine, détourné : non reprise. Position au centre de Montfort-sur-Meu."
@@ -503,7 +508,7 @@
     "note": "Taproom du mardi au dimanche et vente à emporter du mardi au vendredi, 10 h-19 h.",
     "addr": "Guichen",
     "src": "https://www.choquemicrobrasserie.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.choquemicrobrasserie.fr/",
@@ -588,7 +593,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.choquemicrobrasserie.fr"
+    "https://www.choquemicrobrasserie.fr",
+    "https://data.geopf.fr/geocodage/search?q=Guichen&type=municipality&limit=5"
    ],
    "extrait": "Vente à emporter Mardi au Vendredi 10h - 19h + heure de taproom",
    "choix": "Les horaires du taproom sont juste avant sur la page. Même brasserie que le point OSM node/13474138001 (Bruz). Position au centre de Guichen."
@@ -661,7 +667,7 @@
     "note": "Boutique ouverte le vendredi de 14 h à 18 h ; rien sur une consommation sur place.",
     "addr": "Melesse",
     "src": "https://brasseriedrao.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://brasseriedrao.com/",
@@ -684,7 +690,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://brasseriedrao.com/"
+    "https://brasseriedrao.com/",
+    "https://data.geopf.fr/geocodage/search?q=Melesse&type=municipality&limit=5"
    ],
    "extrait": "NOTRE BOUTIQUE EST OUVERTE LE VENDREDI DE 14H À 18H.",
    "choix": "Position au centre de Melesse : l'adresse n'est pas relue."
@@ -702,7 +709,7 @@
     "note": "En juin 2020, la brasserie répondait à une lectrice qu'elle ne pouvait pas recevoir de visiteurs, en plein déménagement ; rien de plus récent.",
     "addr": "Bains-sur-Oust",
     "src": "https://labrasseriedesmarais.wordpress.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://labrasseriedesmarais.wordpress.com/",
@@ -712,7 +719,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://labrasseriedesmarais.wordpress.com/"
+    "https://labrasseriedesmarais.wordpress.com/",
+    "https://data.geopf.fr/geocodage/search?q=Bains-sur-Oust&type=municipality&limit=5"
    ],
    "extrait": "La brasserie ne peut pas recevoir de visiteurs pour le moment.",
    "choix": "Réponse à un commentaire du 30/06/2020, temporaire : « pas de vente » non retenu. La commune vient d'OSM, d'avant le changement de local ; la page dit seulement « dans les marais de Redon »."

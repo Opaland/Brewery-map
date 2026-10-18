@@ -43,7 +43,7 @@ const date = new Date().toISOString().slice(0, 10)
 const md = [
   '# Précision des points des fiches (S59)',
   '',
-  "> **Depuis S268 (18/10)**, 139 fiches sont au centre de leur commune selon l'IGN (précision `centre`), 14 à l'adresse vérifiée, 13 gardent leur point d'origine (`commune`). La mesure ci-dessous a été faite avant S268, sur les points d'origine du fichier, générés par une IA (Cédric, 18/10) : c'est elle qui a motivé la décision. Relancée aujourd'hui, elle trouverait un écart nul pour les fiches `centre`.",
+  "> **Depuis S268 (18/10)**, une fiche sans adresse vérifiée est au centre de sa commune selon l'IGN (précision `centre`) ; 13 fiches gardent leur point d'origine (`commune`), faute de centre trouvé ; les comptes à jour sont dans `docs/DONNEES.md`. La mesure ci-dessous a été faite avant S268, sur les points d'origine du fichier, générés par une IA (Cédric, 18/10) : c'est elle qui a motivé la décision. Relancée aujourd'hui, elle trouverait un écart nul pour les fiches `centre`.",
   '',
   `Mesuré le ${date} par \`npx tsx outils/precision.ts\` (à relancer pour mettre à jour).`,
   '',

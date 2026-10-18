@@ -4282,5 +4282,2292 @@
   "coordPrecision": "centre",
   "beers": [],
   "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie de Guerlédan",
+  "c": "Guerlédan",
+  "d": "22",
+  "lat": 48.19297,
+  "lon": -2.95112,
+  "km": 648.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub : bar et boutique ouverts du mercredi au dimanche à partir de 16 h 30.",
+  "addr": "Guerlédan",
+  "src": "http://www.brasseriedeguerledan.bzh/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 96 66 20 99",
+   "site": "http://www.brasseriedeguerledan.bzh/",
+   "source": "http://www.brasseriedeguerledan.bzh/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": "heures-non-precisees",
+    "jeu": "heures-non-precisees",
+    "ven": "heures-non-precisees",
+    "sam": "heures-non-precisees",
+    "dim": "heures-non-precisees",
+    "remarque": "Bar et boutique, à partir de 16 h 30 ; heure de fermeture non publiée.",
+    "source": "http://www.brasseriedeguerledan.bzh/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "L'Armateur",
+  "c": "La Roche-Jaudy",
+  "d": "22",
+  "lat": 48.74485,
+  "lon": -3.26242,
+  "km": 694.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale ; le site ne dit ni vente ni dégustation sur place, ni horaires.",
+  "addr": "27 rue de la fontaine, 22450 La Roche-Jaudy",
+  "src": "https://www.brasserielarmateur.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserielarmateur.fr/",
+   "source": "https://www.brasserielarmateur.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasstillerie KanArFoll",
+  "c": "Perros-Guirec",
+  "d": "22",
+  "lat": 48.81243,
+  "lon": -3.45979,
+  "km": 711.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Visite et dégustation sur place, boutique ouverte en semaine ; la vente n'est pas dite explicitement.",
+  "addr": "Kerambellec, 22700 Perros-Guirec",
+  "src": "https://www.kanarfoll.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.kanarfoll.com/",
+   "source": "https://www.kanarfoll.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Artisanale la Guernouillette",
+  "c": "Plérin",
+  "d": "22",
+  "lat": 48.54732,
+  "lon": -2.78248,
+  "km": 653.3,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente aux particuliers et aux professionnels, entrée libre ; consommation sur place non établie.",
+  "addr": "Plérin",
+  "src": "http://www.la-guernouillette.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "http://www.la-guernouillette.com/",
+   "source": "http://www.la-guernouillette.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Les Brassins du Lion d'Or",
+  "c": "Trémeur",
+  "d": "22",
+  "lat": 48.35017,
+  "lon": -2.2631,
+  "km": 609.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Nano-brasserie ; ni vente ni horaires lus.",
+  "addr": "Trémeur",
+  "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-les-brassins-du-lion-dor/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "untappd": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+   "source": "https://untappd.com/w/les-brassins-du-lion-d-or/442785",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de Launay",
+  "c": "Lamballe-Armor",
+  "d": "22",
+  "lat": 48.48218,
+  "lon": -2.49641,
+  "km": 631.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; visites guidées par l'office de tourisme. Vente sur place non établie.",
+  "addr": "9 Rue des Prés Jouettes, 22400 Lamballe-Armor",
+  "src": "https://www.tourismebretagne.com/preparer-mon-sejour/agenda/stesf-visite-de-la-brasserie-de-launay-lamballe-armor-fr-5963935/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Philomenn",
+  "c": "Tréguier",
+  "d": "22",
+  "lat": 48.78509,
+  "lon": -3.23294,
+  "km": 694.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites guidées annoncées par l'office de tourisme ; vente sur place non lue, site officiel injoignable (503).",
+  "addr": "Parc Sainte Catherine, 22220 Tréguier",
+  "src": "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La Grobul' Factory",
+  "c": "Mellionnec",
+  "d": "22",
+  "lat": 48.17103,
+  "lon": -3.28738,
+  "km": 670.4,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Micro-brasserie qui vend ses produits sur place, d'après un annuaire de producteurs.",
+  "addr": "Mellionnec",
+  "src": "https://www.jours-de-marche.fr/producteur-local/la-grobul-factory-244.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Kerampont",
+  "c": "Lannion",
+  "d": "22",
+  "lat": 48.74877,
+  "lon": -3.46936,
+  "km": 708.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar, vente directe et restauration le mardi (18 h–22 h) et le jeudi (19 h–22 h), vente directe et bar le vendredi (17 h–19 h).",
+  "addr": "Lannion",
+  "src": "https://kerampont.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://kerampont.com/",
+   "source": "https://kerampont.com/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "19:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Bar et vente directe ; restauration le mardi et le jeudi.",
+    "source": "https://kerampont.com/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Régionale de l'Ouest",
+  "c": "Tonquédec",
+  "d": "22",
+  "lat": 48.67671,
+  "lon": -3.39544,
+  "km": 700.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie industrielle ; seul créneau public lu, une visite le 30 mai 2026. Vente sur place non établie.",
+  "addr": "Kerbrunec, 22140 Tonquédec",
+  "src": "https://info.fr/journees-choose-france-brasserie-philomenn-treguier-brasserie-regionale-ouest-tonquedec-2026-05/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Uncle",
+  "c": "Binic-Étables-sur-Mer",
+  "d": "22",
+  "lat": 48.64223,
+  "lon": -2.83541,
+  "km": 661.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne et location de tireuse ; vente ou dégustation sur place non établie.",
+  "addr": "10 rue de l'Europe, 22680 Binic-Étables-sur-Mer",
+  "src": "https://www.brasserie-uncle.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-uncle.com/",
+   "source": "https://www.brasserie-uncle.com",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "La Fréheloise",
+  "c": "Fréhel",
+  "d": "22",
+  "lat": 48.63239,
+  "lon": -2.37299,
+  "km": 631.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site a une rubrique « Boutique – Bar » sans dire ce qu'on y fait ; horaires non lus.",
+  "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
+  "src": "https://www.lafreheloise.bzh/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 96 86 36 28",
+   "site": "https://www.lafreheloise.bzh/",
+   "source": "https://www.lafreheloise.bzh/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Dimezell",
+  "c": "Quessoy",
+  "d": "22",
+  "lat": 48.42589,
+  "lon": -2.6583,
+  "km": 639.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bières en vente et en dégustation à la brasserie ; bar du jeudi au samedi à partir de 16 h.",
+  "addr": "Quessoy",
+  "src": "https://www.brasserie-dimezell.bzh/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-dimezell.bzh/",
+   "source": "https://www.brasserie-dimezell.bzh/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "La Bonne Humeur - Brasserie Artisanale de Paimpol",
+  "c": "Paimpol",
+  "d": "22",
+  "lat": 48.76819,
+  "lon": -3.06798,
+  "km": 683.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie du mardi au vendredi, de 14 h à 17 h 30 ; consommation sur place non établie.",
+  "addr": "5 rue du Grand Pré, 22500 Paimpol",
+  "src": "https://www.brasseriedepaimpol.com",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 56 42 17 68",
+   "site": "https://www.brasseriedepaimpol.com/",
+   "source": "https://www.brasseriedepaimpol.com",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "17:30"
+     ]
+    ],
+    "source": "https://www.brasseriedepaimpol.com",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie des 7 Îles",
+  "c": "Trégastel",
+  "d": "22",
+  "lat": 48.81613,
+  "lon": -3.51196,
+  "km": 714.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Ouverte au public (17 h–19 h en semaine l'été, samedi toute l'année) ; la page ne dit pas ce qu'on y fait.",
+  "addr": "Trégastel",
+  "src": "https://www.brasseriedes7iles.com",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasseriedes7iles.com/",
+   "source": "https://www.brasseriedes7iles.com",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Tiens bon la Barre",
+  "c": "Plouasne",
+  "d": "22",
+  "lat": 48.31169,
+  "lon": -2.01567,
+  "km": 591.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie d'après un annuaire ; vente et horaires non lus.",
+  "addr": "Plouasne",
+  "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-tiens-bon-la-barre/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie de La Ville Porte Amour",
+  "c": "Plouvara",
+  "d": "22",
+  "lat": 48.49461,
+  "lon": -2.9262,
+  "km": 660.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Ouverte le vendredi de 16 h à 19 h et sur rendez-vous (Click & Collect) ; la page ne dit pas ce qu'on y fait.",
+  "addr": "Plouvara",
+  "src": "http://www.lavilleporteamour.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "http://www.lavilleporteamour.fr/",
+   "source": "http://www.lavilleporteamour.fr",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Nautica",
+  "c": "Plouasne",
+  "d": "22",
+  "lat": 48.30553,
+  "lon": -2.01065,
+  "km": 590.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne et location de tireuse ; ni vente ni dégustation sur place indiquées.",
+  "addr": "2 ZA la Gare, 22830 Plouasne",
+  "src": "https://brasserienautica.fr/contact/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasserienautica.fr/",
+   "source": "https://brasserienautica.fr/contact/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "La Riposte",
+  "c": "Châtelaudren-Plouagat",
+  "d": "22",
+  "lat": 48.54219,
+  "lon": -2.96978,
+  "km": 665.4,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar de la brasserie (pression et bouteilles) et vente à emporter ; ouvert jeudi 16 h–23 h, vendredi et samedi 16 h–1 h.",
+  "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
+  "src": "https://brasserielariposte.bzh/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 96 74 47 23",
+   "site": "https://brasserielariposte.bzh/",
+   "source": "https://brasserielariposte.bzh/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "01:00"
+     ]
+    ],
+    "source": "https://brasserielariposte.bzh/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Carabo",
+  "c": "Saint-Judoce",
+  "d": "22",
+  "lat": 48.36338,
+  "lon": -1.95356,
+  "km": 589.6,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Ouverte au public le vendredi de 17 h à 19 h ; vente sur place d'après un annuaire de producteurs, consommation non établie.",
+  "addr": "Saint-Judoce",
+  "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Autre créneau sur demande.",
+    "source": "https://www.jours-de-marche.fr/producteur-local/brasserie-carabo-1805.html",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Mille Goules",
+  "c": "Hémonstoir",
+  "d": "22",
+  "lat": 48.15698,
+  "lon": -2.85265,
+  "km": 640.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie ; horaires non publiés.",
+  "addr": "Hémonstoir",
+  "src": "https://millegoules.com/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://millegoules.com/",
+   "source": "https://millegoules.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Les Alchimistes Ivres",
+  "c": "Broons",
+  "d": "22",
+  "lat": 48.31284,
+  "lon": -2.24349,
+  "km": 606.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne et visites sur réservation ; la page ne dit pas qu'on achète ou boit à la brasserie.",
+  "addr": "Broons",
+  "src": "https://www.alchimistes-ivres.com",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.alchimistes-ivres.com/",
+   "source": "https://www.alchimistes-ivres.com",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie An Alarc'h",
+  "c": "La Feuillée",
+  "d": "29",
+  "lat": 48.39103,
+  "lon": -3.85148,
+  "km": 718.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; vente ou consommation sur place non établie.",
+  "addr": "La Feuillée",
+  "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Coreff",
+  "c": "Carhaix-Plouguer",
+  "d": "29",
+  "lat": 48.27766,
+  "lon": -3.56302,
+  "km": 693.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec dégustations le samedi matin au marché (à l'Ambasad) ; vente à la brasserie non établie.",
+  "addr": "2 Place de la Gare, 29270 Carhaix-Plouguer",
+  "src": "https://brasserie-coreff.com/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "brune"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 98 93 00 70",
+   "site": "https://brasserie-coreff.com/",
+   "source": "https://brasserie-coreff.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de Bretagne",
+  "c": "Concarneau",
+  "d": "29",
+  "lat": 47.89174,
+  "lon": -3.89602,
+  "km": 702.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Visite avec dégustation au bar « Le Bek » de la brasserie, et bar-boutique pour les particuliers.",
+  "addr": "Concarneau",
+  "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-bretagne.fr/",
+   "source": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Tri Martolod",
+  "c": "Concarneau",
+  "d": "29",
+  "lat": 47.90229,
+  "lon": -3.90628,
+  "km": 703.9,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Magasin ouvert à l'année de 9 h à 12 h et de 14 h à 18 h, d'après une fiche de 2018 marquée « état incertain » ; site officiel injoignable (503).",
+  "addr": "17 Rue Aimé Césaire, 29900 Concarneau",
+  "src": "https://www.cirkwi.com/fr/point-interet/680843-brasserie-tri-martolod",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie D'Istribilh",
+  "c": "Plouider",
+  "d": "29",
+  "lat": 48.60276,
+  "lon": -4.29711,
+  "km": 757.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie en activité d'après son site ; vente sur place et horaires non lus.",
+  "addr": "Lestevennok, 29260 Plouider",
+  "src": "https://www.distribilh.bzh/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.distribilh.bzh/",
+   "source": "https://www.distribilh.bzh/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "La Brasserie du Bout du Monde",
+  "c": "Rosnoën",
+  "d": "29",
+  "lat": 48.2639,
+  "lon": -4.1967,
+  "km": 737.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites annoncées d'avril à septembre par une fiche de 2018 marquée « état incertain » ; vente sur place non établie, site officiel injoignable (503).",
+  "addr": "6 Terenez 29590 Rosnoën",
+  "src": "https://www.cirkwi.com/fr/point-interet/680840-la-brasserie-du-bout-du-monde",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Arvarus",
+  "c": "Ploumoguer",
+  "d": "29",
+  "lat": 48.39494,
+  "lon": -4.71058,
+  "km": 777.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Soirées brewpub chaque vendredi de 16 h à 22 h : bières à la pression sur place, bouteilles à emporter.",
+  "addr": "Lieu-dit Messouflin, 29810 Ploumoguer",
+  "src": "https://arvarus.bzh/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "stout"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "09 81 00 11 08",
+   "site": "https://arvarus.bzh/",
+   "untappd": "https://untappd.com/Arvarus",
+   "source": "https://arvarus.bzh/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Soirées brewpub.",
+    "source": "https://arvarus.bzh/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "En Bières Inconnues",
+  "c": "Brest",
+  "d": "29",
+  "lat": 48.40644,
+  "lon": -4.49773,
+  "km": 763.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Bières proposées dans les locaux de la brasserie à Brest et chez des revendeurs ; vente ou consommation sur place non établie.",
+  "addr": "Brest",
+  "src": "https://enbieresinconnues.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://enbieresinconnues.fr/",
+   "source": "https://enbieresinconnues.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Merlin Brasserie artisanale",
+  "c": "Penmarch",
+  "d": "29",
+  "lat": 47.81959,
+  "lon": -4.37649,
+  "km": 734.9,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bières à la pression ou à emporter à la brasserie, d'après l'office de tourisme ; boutique à Pont-l'Abbé, horaires dits non garantis.",
+  "addr": "40 Impasse Ru Land, 29760 Penmarch",
+  "src": "https://www.destination-paysbigouden.com/en/stay/where-to-eat-and-drink/merlin-brasserie-artisanale-pont-labbe-en-6096371/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Le Grain du Ponant",
+  "c": "Riec-sur-Bélon",
+  "d": "29",
+  "lat": 47.8371,
+  "lon": -3.70014,
+  "km": 687.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Horaires d'été affichés sous « points de vente et de dégustation », à côté de l'adresse de l'atelier ; la page ne dit pas que ce lieu est l'atelier.",
+  "addr": "7 Rue de Pont Len, 29340 Riec-sur-Bélon",
+  "src": "https://www.le-grain-du-ponant.com/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.le-grain-du-ponant.com/",
+   "source": "https://www.le-grain-du-ponant.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Sklent",
+  "c": "Landerneau",
+  "d": "29",
+  "lat": 48.45237,
+  "lon": -4.24169,
+  "km": 747.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Magasin de vente directe à la brasserie ; aucune consommation sur place lue.",
+  "addr": "1 rue Ernest Renan 29800 Landerneau",
+  "src": "https://sklent.bzh/contact/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://sklent.bzh/",
+   "source": "https://sklent.bzh/contact/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://sklent.bzh/contact/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Diaoul",
+  "c": "Le Juch",
+  "d": "29",
+  "lat": 48.05774,
+  "lon": -4.26438,
+  "km": 734.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie ouverte le samedi de 10 h à 12 h ; consommation sur place non établie.",
+  "addr": "Kermenguy, 29100 Le Juch",
+  "src": "https://brasseriediaoul.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasseriediaoul.com/",
+   "source": "https://brasseriediaoul.com/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://brasseriediaoul.com/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "La Brasserie Graphique",
+  "c": "Carantec",
+  "d": "29",
+  "lat": 48.66902,
+  "lon": -3.91476,
+  "km": 734.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie bio ; un annuaire cite une cave à bières, mais ni vente ni dégustation sur place ne sont établies.",
+  "addr": "2 Rue du Kélenn, 29660 Carantec",
+  "src": "https://fr.gaultmillau.com/fr/artisans/la-brasserie-graphique",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Microbrasserie PAB",
+  "c": "Île-de-Batz",
+  "d": "29",
+  "lat": 48.74549,
+  "lon": -4.01297,
+  "km": 744.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie de l'île de Batz ; la page ne dit pas si l'on peut acheter ou consommer sur place.",
+  "addr": "Rue Neuve, 29253 Île-de-Batz",
+  "src": "https://www.microbrasseriepab.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.microbrasseriepab.com/",
+   "source": "https://www.microbrasseriepab.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Kauri Brewery",
+  "c": "Plovan",
+  "d": "29",
+  "lat": 47.93537,
+  "lon": -4.38428,
+  "km": 739.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bières vendues à la brasserie sur rendez-vous, et bar de la brasserie du jeudi au samedi d'avril à septembre.",
+  "addr": "67 Lieu-dit Kervon, 29720 Plovan",
+  "src": "https://fr.kauribrewery.com",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "lager"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://fr.kauribrewery.com/",
+   "source": "https://fr.kauribrewery.com",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de Trévarn",
+  "c": "Saint-Urbain",
+  "d": "29",
+  "lat": 48.39503,
+  "lon": -4.22509,
+  "km": 744.1,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente des produits sur place, d'après un annuaire de producteurs ; consommation sur place non établie.",
+  "addr": "Saint-Urbain",
+  "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Síbín",
+  "c": "Plouguin",
+  "d": "29",
+  "lat": 48.52815,
+  "lon": -4.61402,
+  "km": 776.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Accueil à la brasserie pour dégustations, visites et ventes le mardi, le vendredi et le samedi.",
+  "addr": "4 rue de la Garenne, 29830 Plouguin",
+  "src": "https://sibin.beer/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://sibin.beer/",
+   "source": "https://sibin.beer/contact",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Dégustations, visites et ventes ; sur rendez-vous pour les groupes.",
+    "source": "https://sibin.beer/contact",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "MicroBrasserie-Distillerie sOavenn",
+  "c": "Santec",
+  "d": "29",
+  "lat": 48.71125,
+  "lon": -4.01589,
+  "km": 743.1,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Boutique ouverte le vendredi et le samedi de 15 h à 19 h hors saison, d'après l'office de tourisme ; consommation sur place non établie.",
+  "addr": "355 rue des Dentelles, 29250 Santec",
+  "src": "https://www.roscoff-tourisme.com/en/fiche/organismes-et-entreprises/microbrasserie-distillerie-soavenn-santec_TFOORGBRE029V54A41Z/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Kerav'ale",
+  "c": "Roscoff",
+  "d": "29",
+  "lat": 48.69757,
+  "lon": -3.99977,
+  "km": 741.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites annoncées sur le site, commande en ligne ; vente ou dégustation sur place non établie.",
+  "addr": "565 Route de Rucat, 29680 Roscoff",
+  "src": "https://www.brasseriekeravale.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 98 29 77 43",
+   "site": "https://www.brasseriekeravale.fr/",
+   "source": "https://www.brasseriekeravale.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Le Brasseur Bavarois",
+  "c": "Pleugueneuc",
+  "d": "35",
+  "lat": 48.42528,
+  "lon": -1.91334,
+  "km": 590.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Vente en ligne et sur les marchés ; horaires publiés (lundi, mardi, mercredi, vendredi 12 h–19 h) sans dire ce qu'on fait à la brasserie.",
+  "addr": "5 La Coudraie, 35720 Pleugueneuc",
+  "src": "https://lebrasseurbavarois.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://lebrasseurbavarois.fr/",
+   "source": "https://lebrasseurbavarois.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie l'Embardée",
+  "c": "Fougères",
+  "d": "35",
+  "lat": 48.3535,
+  "lon": -1.20718,
+  "km": 541.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Bouteilles et fûts listés ; ni vente ni dégustation sur place, ni horaires indiqués.",
+  "addr": "3/5 rue Fos Kéraly, 35300 Fougères",
+  "src": "https://www.brasserielembardee.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserielembardee.fr/",
+   "source": "https://www.brasserielembardee.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Plouc",
+  "c": "Plerguer",
+  "d": "35",
+  "lat": 48.52696,
+  "lon": -1.83831,
+  "km": 591.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie installée à Plerguer d'après un annuaire ; rien sur la vente ou l'accueil.",
+  "addr": "Plerguer",
+  "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Sainte Colombe",
+  "c": "Corps-Nuds",
+  "d": "35",
+  "lat": 47.98661,
+  "lon": -1.57988,
+  "km": 545.9,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar et vente directe le vendredi de 14 h à 20 h 30.",
+  "addr": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
+  "src": "https://www.brasserie-sainte-colombe.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-sainte-colombe.com/",
+   "source": "https://www.brasserie-sainte-colombe.com/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "14:00",
+      "20:30"
+     ]
+    ],
+    "remarque": "Bar et vente directe.",
+    "source": "https://www.brasserie-sainte-colombe.com/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Skumenn",
+  "c": "Cesson-Sévigné",
+  "d": "35",
+  "lat": 48.1054,
+  "lon": -1.62327,
+  "km": 554.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub : bar et cave sur place, magasin de vente directe ; ouvert du mardi au samedi.",
+  "addr": "8 impasse des Charmilles, 35510 Cesson-Sévigné",
+  "src": "https://www.skumenn.com/brewpub",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 23 30 59 80",
+   "site": "https://www.skumenn.com/",
+   "untappd": "https://untappd.com/w/brasserie-skumenn/240180",
+   "source": "https://www.skumenn.com/brewpub",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:30",
+      "21:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.skumenn.com/brewpub",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de la Bizhhh",
+  "c": "Le Rheu",
+  "d": "35",
+  "lat": 48.09789,
+  "lon": -1.79003,
+  "km": 565.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie du Rheu depuis 2017 ; ni adresse, ni horaires, ni vente lus.",
+  "addr": "Le Rheu",
+  "src": "https://tablejourney.com/france/rennes/breweries/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie du Vieux Singe",
+  "c": "Saint-Jacques-de-la-Lande",
+  "d": "35",
+  "lat": 48.06658,
+  "lon": -1.69935,
+  "km": 557.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Magasin ouvert le jeudi de 14 h à 18 h et le vendredi de 10 h à 18 h ; aucune consommation sur place lue.",
+  "addr": "4b rue Janig Corlay, 35136 Saint-Jacques-de-la-Lande",
+  "src": "https://www.vieuxsinge.com",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "sour"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.vieuxsinge.com/",
+   "source": "https://www.vieuxsinge.com",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.vieuxsinge.com",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Beltane",
+  "c": "Rennes",
+  "d": "35",
+  "lat": 48.1109,
+  "lon": -1.68365,
+  "km": 559.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie ouverte en 2022 avec un lieu de dégustation annoncé ; source de 2022, rien de plus récent.",
+  "addr": "Rennes",
+  "src": "https://unidivers.fr/microbrasserie-beltane-rennes/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Draenek",
+  "c": "Bain-de-Bretagne",
+  "d": "35",
+  "lat": 47.83621,
+  "lon": -1.68188,
+  "km": 545.8,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe à la brasserie le jeudi et le vendredi (10-12 h, 14-18 h), d'après un article de 2022 ; à reconfirmer sur le site.",
+  "addr": "Bain-de-Bretagne",
+  "src": "https://unidivers.fr/biere-draenek/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Minimum",
+  "c": "Montreuil-sur-Ille",
+  "d": "35",
+  "lat": 48.30748,
+  "lon": -1.67065,
+  "km": 568.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Gamme et boutique en ligne ; le site ne dit pas si l'on peut acheter ou consommer sur place.",
+  "addr": "20 avenue Alexis Rey, 35440 Montreuil-sur-Ille",
+  "src": "https://brasserieminimum.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasserieminimum.fr/",
+   "source": "https://brasserieminimum.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Smash",
+  "c": "Rennes",
+  "d": "35",
+  "lat": 48.10683,
+  "lon": -1.7331,
+  "km": 562.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Horaires publiés (lundi-vendredi 9 h-18 h) et location de tireuses ; vente ou consommation sur place non dites.",
+  "addr": "4 bis Rue du Lieutenant Colonel Dubois, 35000 Rennes",
+  "src": "https://smash.bzh",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "sour"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 90 22 87 00",
+   "site": "https://smash.bzh/",
+   "untappd": "https://untappd.com/brasserie_smash",
+   "source": "https://smash.bzh",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie Louarn",
+  "c": "Montfort-sur-Meu",
+  "d": "35",
+  "lat": 48.1264,
+  "lon": -1.95447,
+  "km": 577.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente en boutique à la brasserie et sur les événements ; horaires sur demande.",
+  "addr": "Montfort-sur-Meu",
+  "src": "https://louarn.bzh",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://louarn.bzh/",
+   "source": "https://louarn.bzh",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Choque microbrasserie",
+  "c": "Guichen",
+  "d": "35",
+  "lat": 47.96353,
+  "lon": -1.79694,
+  "km": 559.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Taproom du mardi au dimanche et vente à emporter du mardi au vendredi, 10 h-19 h.",
+  "addr": "Guichen",
+  "src": "https://www.choquemicrobrasserie.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.choquemicrobrasserie.fr/",
+   "untappd": "https://untappd.com/w/choque-microbrasserie/559490",
+   "source": "https://www.choquemicrobrasserie.fr",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "dim": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "remarque": "Taproom.",
+    "source": "https://www.choquemicrobrasserie.fr",
+    "verifieLe": "2026-10-17"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Vente à emporter, et aux heures du taproom.",
+    "source": "https://www.choquemicrobrasserie.fr",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Fusion",
+  "c": "Bourgbarré",
+  "d": "35",
+  "lat": 48.00042,
+  "lon": -1.60103,
+  "km": 548.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie récente, canettes et fûts ; un lieu de dégustation est seulement à l'étude.",
+  "addr": "6 Rue des Placis, 35230 Bourgbarré",
+  "src": "https://unidivers.fr/brasserie-fusion-bourgbarre/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La Dinardaise Brasserie",
+  "c": "Dinard",
+  "d": "35",
+  "lat": 48.62072,
+  "lon": -2.07087,
+  "km": 611.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Bières vendues en caves et boutiques locales et servies dans des cafés de Dinard ; vente à la brasserie non mentionnée.",
+  "addr": "1 Rue des Frères Boussac, 35800 Dinard",
+  "src": "https://www.dinardemeraudetourisme.com/en/fiche/la-dinardaise-brasserie-5V52O3JK",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Ferme-Brasserie Drao",
+  "c": "Melesse",
+  "d": "35",
+  "lat": 48.21937,
+  "lon": -1.68858,
+  "km": 564.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique ouverte le vendredi de 14 h à 18 h ; rien sur une consommation sur place.",
+  "addr": "Melesse",
+  "src": "https://brasseriedrao.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasseriedrao.com/",
+   "source": "https://brasseriedrao.com/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasseriedrao.com/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "La brasserie des Marais",
+  "c": "Bains-sur-Oust",
+  "d": "35",
+  "lat": 47.7123,
+  "lon": -2.07228,
+  "km": 567.6,
+  "cat": 0,
+  "conf": "",
+  "note": "En juin 2020, la brasserie répondait à une lectrice qu'elle ne pouvait pas recevoir de visiteurs, en plein déménagement ; rien de plus récent.",
+  "addr": "Bains-sur-Oust",
+  "src": "https://labrasseriedesmarais.wordpress.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://labrasseriedesmarais.wordpress.com/",
+   "source": "https://labrasseriedesmarais.wordpress.com/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de l'Estran (Grand Coeff)",
+  "c": "Étel",
+  "d": "56",
+  "lat": 47.65813,
+  "lon": -3.19398,
+  "km": 645.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie d'Étel ; la phrase lue renvoie à l'épicerie sans dire ce qu'on y achète.",
+  "addr": "4 rue Victor Hugo, 56410 Étel",
+  "src": "https://beer.grandcoeff.bzh/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://beer.grandcoeff.bzh/",
+   "source": "https://beer.grandcoeff.bzh/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Déferle Micro-brasserie",
+  "c": "Plouhinec",
+  "d": "56",
+  "lat": 47.70135,
+  "lon": -3.21164,
+  "km": 647.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Lieu de production et de dégustation de bière (guinguette) ; la vente n'est pas précisée.",
+  "addr": "8 le loch, 56680 Plouhinec",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/deferle-microbrasserie-et-guinguette-plouhinec-fr-5722591/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Microbrasserie VOL 56",
+  "c": "Sarzeau",
+  "d": "56",
+  "lat": 47.52045,
+  "lon": -2.75621,
+  "km": 609.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site ne se lit que par son titre ; vente, horaires et bières non lus.",
+  "addr": "Sarzeau",
+  "src": "https://www.microbrasserie-vol56.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.microbrasserie-vol56.fr/",
+   "source": "https://www.microbrasserie-vol56.fr",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie La Bambelle",
+  "c": "Saint-Gravé",
+  "d": "56",
+  "lat": 47.72123,
+  "lon": -2.29872,
+  "km": 583.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui distribue dans le département ; rien sur la vente sur place ni les horaires.",
+  "addr": "Lanvaux, 56220 Saint-Gravé",
+  "src": "http://www.labambelle.com",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "http://www.labambelle.com/",
+   "source": "http://www.labambelle.com",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Malterie-Brasserie Saint-Georges",
+  "c": "Guern",
+  "d": "56",
+  "lat": 48.02813,
+  "lon": -3.05078,
+  "km": 648.3,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente à la propriété ; ouvert le jeudi de 17 h à 19 h ou sur demande, d'après l'office de tourisme.",
+  "addr": "11 Saint-Georges, 56310 Guern",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Ou sur demande.",
+    "source": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-saint-georges-guern-fr-4435395/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "L'âne Brasseur",
+  "c": "Saint-Aignan",
+  "d": "56",
+  "lat": 48.1755,
+  "lon": -3.04065,
+  "km": 653.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie artisanale avec gîte d'étape ; ni vente ni horaires sur la page lue.",
+  "addr": "Lann Guilloux, 56480 Saint-Aignan",
+  "src": "https://anebrasseur.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://anebrasseur.fr/",
+   "source": "https://anebrasseur.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de Rhuys (P'tite Mamm)",
+  "c": "Surzur",
+  "d": "56",
+  "lat": 47.56438,
+  "lon": -2.62176,
+  "km": 601.0,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Visite et dégustation à la brasserie, bar le vendredi soir, d'après l'office de tourisme ; le site annonce la vente directe le jeudi et le vendredi.",
+  "addr": "Surzur",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Akène",
+  "c": "Saint-Léry",
+  "d": "56",
+  "lat": 48.09021,
+  "lon": -2.26075,
+  "km": 596.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Petite brasserie depuis 2020 ; bières vendues en épiceries, caves et marchés. Vente sur place non lue.",
+  "addr": "Saint-Léry",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Gwennili",
+  "c": "Locoal-Mendon",
+  "d": "56",
+  "lat": 47.69819,
+  "lon": -3.10669,
+  "km": 640.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Vente directe annoncée, sans lieu ni horaires sur la page.",
+  "addr": "Locoal-Mendon",
+  "src": "https://brasserie-gwennili.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasserie-gwennili.fr/",
+   "source": "https://brasserie-gwennili.fr/",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Brasserie de l'Hermine",
+  "c": "Belz",
+  "d": "56",
+  "lat": 47.67316,
+  "lon": -3.16439,
+  "km": 643.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Ses bières sont servies « de la cuve au verre » au restaurant Ivre Mer, à Belz ; le lieu de la brasserie n'est pas établi.",
+  "addr": "Belz",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Yermat Bier",
+  "c": "Locmiquélic",
+  "d": "56",
+  "lat": 47.72969,
+  "lon": -3.32459,
+  "km": 656.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières vendues dans la boutique attenante à la brasserie ; aucune dégustation lue sur cette page.",
+  "addr": "ZA Kervern, 56570 Locmiquélic",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La Belle Joie",
+  "c": "Hennebont",
+  "d": "56",
+  "lat": 47.81016,
+  "lon": -3.26647,
+  "km": 655.3,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Boutique sur le lieu de production et bar attenant (bières à la pression) en horaires after-work.",
+  "addr": "181 rue Maréchal Joffre, 56700 Hennebont",
+  "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Kerpiton",
+  "c": "Loyat",
+  "d": "56",
+  "lat": 48.00213,
+  "lon": -2.42791,
+  "km": 604.2,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Visite, vente et dégustation sur rendez-vous uniquement ; fermée du 15 août au 15 septembre.",
+  "addr": "8 rue des Châtaigniers, 56800 Loyat",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-kerpiton-loyat-fr-4434079/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie artisanale L'Âne Doré",
+  "c": "Languidic",
+  "d": "56",
+  "lat": 47.86207,
+  "lon": -3.09224,
+  "km": 644.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Bar-brasserie aux bières artisanales à la pression, selon un agrégateur ; rien de la brasserie elle-même.",
+  "addr": "15 Rue du Commerce, 56440 Languidic",
+  "src": "https://wanderlog.com/place/details/9889947/brasserie-artisanale-lâne-doré--kerazen-bar",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La Bière de Groix",
+  "c": "Groix",
+  "d": "56",
+  "lat": 47.63796,
+  "lon": -3.46228,
+  "km": 663.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de l'île de Groix ; la fiche classe « vente à la ferme » sans phrase qui la décrive.",
+  "addr": "ZA Le Gripp, 56590 Groix",
+  "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Microbrasserie Barque",
+  "c": "Malestroit",
+  "d": "56",
+  "lat": 47.80836,
+  "lon": -2.3793,
+  "km": 592.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Bières en bouteille et en fût, location de tireuse ; le lieu de vente n'est pas dit.",
+  "addr": "4 chemin des Tanneurs, 56140 Malestroit",
+  "src": "https://microbrasseriebarque.bzh",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://microbrasseriebarque.bzh/",
+   "source": "https://microbrasseriebarque.bzh",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Bar Brasserie Artisanale l'Etrille",
+  "c": "Locmariaquer",
+  "d": "56",
+  "lat": 47.58011,
+  "lon": -2.96025,
+  "km": 625.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Bar-buvette avec vente à emporter selon l'office de tourisme ; rien ne dit que la bière est brassée ou vendue sur place.",
+  "addr": "2 Bellevue, 56740 Locmariaquer",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-brasserie-artisanale-letrille-locmariaquer-fr-4386947/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Domani",
+  "c": "Theix-Noyalo",
+  "d": "56",
+  "lat": 47.6304,
+  "lon": -2.64973,
+  "km": 605.2,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Commande en ligne et retrait à la brasserie (Click & Collect) ; consommation sur place non mentionnée.",
+  "addr": "Theix-Noyalo",
+  "src": "https://www.brasserie-domani.fr/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-domani.fr/",
+   "source": "https://www.brasserie-domani.fr/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "En juillet et août, aussi le samedi de 10 h à 13 h.",
+    "source": "https://www.brasserie-domani.fr/",
+    "verifieLe": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Brume",
+  "c": "Questembert",
+  "d": "56",
+  "lat": 47.6639,
+  "lon": -2.44,
+  "km": 591.6,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bar Horizon sur le site de la brasserie, au pied des cuves, d'après l'office de tourisme.",
+  "addr": "1 Rue Édouard Branly, 56230 Questembert",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Horla",
+  "c": "Grand-Champ",
+  "d": "56",
+  "lat": 47.76232,
+  "lon": -2.85013,
+  "km": 624.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Nano-brasserie bio ; vente ou consommation sur place non établie.",
+  "addr": "Grand-Champ",
+  "src": "https://untappd.com/MicrobrasserieHorla",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "sour"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "untappd": "https://untappd.com/MicrobrasserieHorla",
+   "source": "https://untappd.com/MicrobrasserieHorla",
+   "verifieLe": "2026-10-17"
+  }
+ },
+ {
+  "n": "Microbrasserie l'Esk'ale",
+  "c": "Kernascléden",
+  "d": "56",
+  "lat": 48.00633,
+  "lon": -3.32207,
+  "km": 666.4,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Boutique sur le lieu de production, d'après l'office de tourisme ; consommation sur place non établie.",
+  "addr": "25 Rue des Rohan, 56540 Kernascléden",
+  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/microbrasserie-leskale-kernascleden-fr-5047193/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Casse-Grain",
+  "c": "Damgan",
+  "d": "56",
+  "lat": 47.519,
+  "lon": -2.58231,
+  "km": 596.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites guidées avec dégustation sur réservation ; vente directe non établie.",
+  "addr": "2 impasse des Lilas, 56750 Damgan",
+  "src": "https://www.damgan-larochebernard-tourisme.com/en/agenda/visite-de-la-brasserie-casse-grain/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Lancelot",
+  "c": "Val d'Oust",
+  "d": "56",
+  "lat": 47.87079,
+  "lon": -2.47533,
+  "km": 602.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique ouverte au public toute l'année, du lundi au vendredi (10 h-12 h 30, 13 h 30-17 h) ; rien sur une consommation sur place.",
+  "addr": "7 La Mine, 56460 Val d'Oust",
+  "src": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "remarque": "Toute l'année.",
+    "source": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+    "verifieLe": "2026-10-17"
+   }
+  ]
  }
 ]

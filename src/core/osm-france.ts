@@ -351,12 +351,15 @@ export function noteDeLigne(b: Brasserie): string {
  * sort, sans nouvelle requête Overpass : même nom, ou même brasserie selon
  * `dejaDansLeFichier` (la règle de la génération, S25), ou même site web à
  * moins de 20 km (revue adverse S269 : « Les Travailleurs de l'Amer », point
- * OSM de la fiche « Les Travailleurs de la Mer »). Les retirées sont rendues,
+ * OSM de la fiche « Les Travailleurs de la Mer »), ou objet OSM qu'un lot a
+ * dit être une fiche, sous un nom sans rapport (`memes`, revue adverse S270 :
+ * « Penn ar Batz » est la Microbrasserie PAB). Les retirées sont rendues,
  * pour que l'outil les dise.
  */
 export function retirerCeQuiADesFiches(
   couche: FichierOsm,
   fiches: readonly Brasserie[],
+  memes: ReadonlyMap<string, string> = new Map(),
 ): { couche: FichierOsm; retirees: { osm: string; nom: string; fiche: string }[] } {
   const noms = new Set(fiches.map((b) => b.n))
   const hote = (u: string | undefined) => {
@@ -374,7 +377,10 @@ export function retirerCeQuiADesFiches(
   }
   const retirees: { osm: string; nom: string; fiche: string }[] = []
   const gardees = couche.brasseries.filter(([nom, osm, , , lat, lon, , site]) => {
-    const fiche = noms.has(nom) ? nom : (dejaDansLeFichier({ nom, lat, lon }, fiches) ?? memeSite(site, lat, lon))
+    const dite = memes.get(osm)
+    const fiche = noms.has(nom)
+      ? nom
+      : (dejaDansLeFichier({ nom, lat, lon }, fiches) ?? memeSite(site, lat, lon) ?? (dite !== undefined && noms.has(dite) ? dite : undefined))
     if (fiche === undefined) return true
     retirees.push({ osm, nom, fiche })
     return false

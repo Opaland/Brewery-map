@@ -76,7 +76,7 @@ const style = (): StyleSpecification => ({
 })
 
 /**
- * Zoom maximal : 14. Sauf 14 fiches à l'adresse vérifiée, les positions ne
+ * Zoom maximal : 14. Sauf les fiches à l'adresse vérifiée, les positions ne
  * sont pas des adresses (centre IGN de la commune depuis S268, ou point
  * d'origine du fichier) ; zoomer plus près ferait croire à une adresse exacte.
  *
