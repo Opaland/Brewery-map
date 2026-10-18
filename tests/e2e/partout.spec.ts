@@ -248,7 +248,7 @@ test('« Quoi de neuf ? » dit ce qui a changé, fiches comprises (S44, S266)', 
   await page.goto('/')
   const bloc = page.getByTestId('quoi-de-neuf')
   await bloc.locator('summary').click()
-  await expect(bloc).toContainText('Fiches vérifiées : 44 complétées le 18 octobre 2026')
+  await expect(bloc).toContainText('Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre')
   await expect(bloc.locator('li').first()).toBeVisible()
   await expect(bloc.locator('li').first()).toContainText('18 octobre 2026')
 })

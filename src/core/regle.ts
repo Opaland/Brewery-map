@@ -6,6 +6,8 @@
  * - une proposition est acceptée si chaque source (hors lien OpenStreetMap
  *   et requête du géocodeur) est sur le site officiel de la fiche, si l'une au
  *   moins y est, et si sa confiance n'est pas « faible » ;
+ * - le centre IGN de la commune (S268) est accepté quand ses seules sources
+ *   sont la requête de commune au géocodeur (et le lien OSM d'origine) ;
  * - un téléphone mobile n'est jamais accepté : la règle dit « téléphones
  *   fixes », et un mobile peut être le numéro d'une personne (revue S266 :
  *   14 propositions en écrivaient un) ;
@@ -16,7 +18,7 @@
  * - les fiches nouvelles des lots départementaux sont toutes acceptées ;
  *   celles d'autres lots ne sont pas dans la règle.
  */
-import { PLATEFORMES, type Lot } from './curation'
+import { estUneRequeteDeCommune, PLATEFORMES, type Lot } from './curation'
 import { estUnMobile } from './osm-etiquettes'
 import type { Brasserie } from './schema'
 
@@ -81,6 +83,17 @@ export function trierParRegle(
       if (p.changements.conf === 'faible') return montrer('confiance « faible »')
       const tel = p.changements.contact?.tel
       if (tel !== undefined && estUnMobile(tel)) return montrer('téléphone mobile : peut être le numéro d’une personne')
+      // Le centre IGN de la commune (S268) : la réponse de Cédric du 18/10
+      // (« Centre de commune IGN ») vaut pour toute fiche sans adresse
+      // vérifiée ; la source est la requête de commune, pas le site.
+      const centreIgn =
+        p.changements.coordPrecision === 'centre' &&
+        p.sources.some(estUneRequeteDeCommune) &&
+        p.sources.every((u) => estUneRequeteDeCommune(u) || hote(u) === 'openstreetmap.org')
+      if (centreIgn) {
+        candidates.push({ lot: nom, ordre, numero, n: p.n, verifieLe: p.verifieLe, champs: champs(p.changements) })
+        return
+      }
       const siens = officiels.get(p.n)
       if (siens === undefined) return montrer('aucun site officiel connu pour la fiche')
       const etrangere = p.sources.map(hote).find((h) => h === null || (!NEUTRES.has(h) && !siens.has(h)))

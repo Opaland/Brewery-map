@@ -102,6 +102,11 @@ export type Ajout = z.infer<typeof ajoutSchema>
 /** Le géocodeur de la Géoplateforme (IGN, Base Adresse Nationale). */
 export const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
 
+/** Une requête du centre d'une commune au géocodeur de l'IGN (S268). */
+export function estUneRequeteDeCommune(url: string): boolean {
+  return url.startsWith(GEOCODEUR) && new URL(url).searchParams.get('type') === 'municipality'
+}
+
 function preuvesCoherentes(p: Proposition): string[] {
   const erreurs: string[] = []
   const lues = new Set(p.sources)
@@ -111,6 +116,10 @@ function preuvesCoherentes(p: Proposition): string[] {
   // requête est une des sources, pour que la position se rejoue.
   if (p.changements.coordPrecision === 'address' && !p.sources.some((u) => u.startsWith(GEOCODEUR))) {
     erreurs.push('une position « address » cite le géocodeur parmi ses sources')
+  }
+  // Le centre IGN d'une commune (S268) : une requête de commune au géocodeur.
+  if (p.changements.coordPrecision === 'centre' && !p.sources.some(estUneRequeteDeCommune)) {
+    erreurs.push('une position « centre » cite une requête de commune au géocodeur (type=municipality)')
   }
   erreurs.push(...blocsMalPrisDesSources(blocsDates(contact, horaires), p.sources, p.verifieLe))
   return erreurs

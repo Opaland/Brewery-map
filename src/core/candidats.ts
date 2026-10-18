@@ -358,3 +358,13 @@ export function ajoutDeLecture(
     ajout: { fiche, verifieLe: aujourdhui, sources, extrait: l.extrait, ...(l.choix === undefined ? {} : { choix: l.choix }) },
   }
 }
+
+/**
+ * Le point d'un lot est-il le centre que l'IGN rend pour la commune de la
+ * fiche (S268) ? Même garde que `positionDuGeocodeur` (département et
+ * commune), puis égalité au point près, tel que le lot l'arrondit.
+ */
+export function centreConfirme(reponse: unknown, fiche: { d: string; c: string }, point: { lat: number; lon: number }): boolean {
+  const centre = positionDuGeocodeur(reponse, fiche.d, fiche.c, 'commune')
+  return centre !== null && centre.lat === point.lat && centre.lon === point.lon
+}

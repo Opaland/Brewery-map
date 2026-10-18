@@ -15,6 +15,7 @@ import {
   revuesDesFichiers,
   type Lot,
 } from '../../src/core/curation'
+import { centreConfirme } from '../../src/core/candidats'
 import { BRIGNAIS } from '../../src/core/distance'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
@@ -125,6 +126,14 @@ describe('proposer une position (S52, Cédric le 17/10 : « la localisation ne c
   it('refuse « osm » : cette précision est réservée aux fiches venues d’OpenStreetMap (revue adverse S54)', () => {
     const osm = { ...proposition, changements: { ...POSITION, coordPrecision: 'osm' } }
     expect(lireLot({ lot: 'x', propositions: [osm] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('accepte le centre IGN de la commune, s’il cite une requête de commune au géocodeur (S268)', () => {
+    const MAIRIE = 'https://data.geopf.fr/geocodage/search?q=Maizilly&type=municipality&limit=5'
+    const centre = { ...proposition, changements: { ...POSITION, coordPrecision: 'centre' }, sources: [MAIRIE] }
+    expect(lireLot({ lot: 'x', propositions: [centre] }, AUJOURDHUI).ok).toBe(true)
+    const parAdresse = { ...centre, sources: [GEOCODEUR] }
+    expect(lireLot({ lot: 'x', propositions: [parAdresse] }, AUJOURDHUI).ok).toBe(false)
   })
 
   it('« address » exige le géocodeur parmi les sources lues (revue adverse S54)', () => {
@@ -655,5 +664,24 @@ describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)',
 
   it('CA2 : un jour « heures non précisées » ou fermé ne demande rien', () => {
     expect(horairesSurLaPage(bloc({ mer: 'heures-non-precisees', lun: [] }), '')).toEqual([])
+  })
+})
+
+describe('le centre IGN se relit au géocodeur (S268)', () => {
+  const reponse = {
+    features: [
+      { geometry: { coordinates: [4.31234, 46.18765] }, properties: { type: 'municipality', city: 'Maizilly', context: '42, Loire, Auvergne-Rhône-Alpes' } },
+    ],
+  }
+  const fiche = { d: '42', c: 'Maizilly' }
+
+  it('confirme le point que l’IGN rend pour la commune de la fiche', () => {
+    expect(centreConfirme(reponse, fiche, { lat: 46.18765, lon: 4.31234 })).toBe(true)
+  })
+
+  it('refuse un autre point, une autre commune ou un autre département', () => {
+    expect(centreConfirme(reponse, fiche, { lat: 46.2, lon: 4.31234 })).toBe(false)
+    expect(centreConfirme(reponse, { d: '42', c: 'Montbrison' }, { lat: 46.18765, lon: 4.31234 })).toBe(false)
+    expect(centreConfirme(reponse, { d: '01', c: 'Maizilly' }, { lat: 46.18765, lon: 4.31234 })).toBe(false)
   })
 })

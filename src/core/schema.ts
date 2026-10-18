@@ -49,7 +49,15 @@ export const confianceSchema = z.enum(['solide', 'moyenne', 'faible', ''])
  * découvertes), ni une adresse vérifiée, ni un centre de commune ; pour un
  * bâtiment (« way »), Nominatim en donne le centre.
  */
-export const precisionSchema = z.enum(['address', 'commune', 'osm'])
+/**
+ * Où est le point d'une fiche :
+ * - `address` : à l'adresse, vérifiée au géocodeur de l'IGN (S52) ;
+ * - `centre` : au centre de la commune selon l'IGN (S268, Cédric le 18/10) ;
+ * - `commune` : le point d'origine du fichier, non vérifié (généré par une IA,
+ *   Cédric le 18/10), ou celui d'une fiche nouvelle des lots départementaux ;
+ * - `osm` : posé par un contributeur d'OpenStreetMap.
+ */
+export const precisionSchema = z.enum(['address', 'centre', 'commune', 'osm'])
 
 export const typeDeBiereSchema = z.enum([
   'blonde',

@@ -1,0 +1,1951 @@
+{
+  "lot": "s268-centres",
+  "propositions": [
+    {
+      "n": "Ninkasi Brignais",
+      "changements": {
+        "lat": 45.6747,
+        "lon": 4.75484,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Brignais&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Brignais (69) selon le géocodeur de l'IGN (type=municipality) : 45.6747, 4.75484.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Caribrew",
+      "changements": {
+        "lat": 45.67624,
+        "lon": 4.69271,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Soucieu-en-Jarrest&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Soucieu-en-Jarrest (69) selon le géocodeur de l'IGN (type=municipality) : 45.67624, 4.69271.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Autour de la Bière (Taluyers)",
+      "changements": {
+        "lat": 45.63565,
+        "lon": 4.72635,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Taluyers&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Taluyers (69) selon le géocodeur de l'IGN (type=municipality) : 45.63565, 4.72635.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Chénou",
+      "changements": {
+        "lat": 45.63653,
+        "lon": 4.68404,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Laurent-d%27Agny&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Laurent-d'Agny (69) selon le géocodeur de l'IGN (type=municipality) : 45.63653, 4.68404.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Krüger",
+      "changements": {
+        "lat": 45.64505,
+        "lon": 4.84193,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Solaize&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Solaize (69) selon le géocodeur de l'IGN (type=municipality) : 45.64505, 4.84193.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "DWYN Brewing",
+      "changements": {
+        "lat": 45.62793,
+        "lon": 4.75399,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Montagny&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Montagny (69) selon le géocodeur de l'IGN (type=municipality) : 45.62793, 4.75399.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Demi-Lune",
+      "changements": {
+        "lat": 45.76125,
+        "lon": 4.75677,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Tassin-la-Demi-Lune&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Tassin-la-Demi-Lune (69) selon le géocodeur de l'IGN (type=municipality) : 45.76125, 4.75677.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Animus",
+      "changements": {
+        "lat": 45.72655,
+        "lon": 4.65385,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Vaugneray&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Vaugneray (69) selon le géocodeur de l'IGN (type=municipality) : 45.72655, 4.65385.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Fabrique du Faubourg",
+      "changements": {
+        "lat": 45.7071,
+        "lon": 4.88138,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=V%C3%A9nissieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Vénissieux (69) selon le géocodeur de l'IGN (type=municipality) : 45.7071, 4.88138.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Maltazar",
+      "changements": {
+        "lat": 45.7071,
+        "lon": 4.88138,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=V%C3%A9nissieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Vénissieux (69) selon le géocodeur de l'IGN (type=municipality) : 45.7071, 4.88138.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Autour de la Bière",
+      "changements": {
+        "lat": 45.63574,
+        "lon": 4.63215,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chaussan&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chaussan (69) selon le géocodeur de l'IGN (type=municipality) : 45.63574, 4.63215.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Bière des Loups",
+      "changements": {
+        "lat": 45.63574,
+        "lon": 4.63215,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chaussan&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chaussan (69) selon le géocodeur de l'IGN (type=municipality) : 45.63574, 4.63215.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Aubépines",
+      "changements": {
+        "lat": 45.7727,
+        "lon": 4.69308,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Sainte-Consorce&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Sainte-Consorce (69) selon le géocodeur de l'IGN (type=municipality) : 45.7727, 4.69308.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Monts du Lyonnais",
+      "changements": {
+        "lat": 45.65021,
+        "lon": 4.55455,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Martin-en-Haut&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Martin-en-Haut (69) selon le géocodeur de l'IGN (type=municipality) : 45.65021, 4.55455.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Loupiote",
+      "changements": {
+        "lat": 45.71104,
+        "lon": 4.48984,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Genis-l%27Argenti%C3%A8re&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Genis-l'Argentière (69) selon le géocodeur de l'IGN (type=municipality) : 45.71104, 4.48984.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Roches",
+      "changements": {
+        "lat": 45.46298,
+        "lon": 4.8063,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chonas-l%27Amballan&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chonas-l'Amballan (38) selon le géocodeur de l'IGN (type=municipality) : 45.46298, 4.8063.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Le Brass'in",
+      "changements": {
+        "lat": 45.82561,
+        "lon": 4.85803,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Fontaines-sur-Sa%C3%B4ne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Fontaines-sur-Saône (69) selon le géocodeur de l'IGN (type=municipality) : 45.82561, 4.85803.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Dulion",
+      "changements": {
+        "lat": 45.81839,
+        "lon": 4.89282,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Rillieux-la-Pape&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Rillieux-la-Pape (69) selon le géocodeur de l'IGN (type=municipality) : 45.81839, 4.89282.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "FFAKE Brasserie",
+      "changements": {
+        "lat": 45.81839,
+        "lon": 4.89282,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Rillieux-la-Pape&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Rillieux-la-Pape (69) selon le géocodeur de l'IGN (type=municipality) : 45.81839, 4.89282.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Single Track",
+      "changements": {
+        "lat": 45.82561,
+        "lon": 4.85803,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Fontaines-sur-Sa%C3%B4ne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Fontaines-sur-Saône (69) selon le géocodeur de l'IGN (type=municipality) : 45.82561, 4.85803.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Misso",
+      "changements": {
+        "lat": 45.85556,
+        "lon": 4.7102,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Civrieux-d%27Azergues&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Civrieux-d'Azergues (69) selon le géocodeur de l'IGN (type=municipality) : 45.85556, 4.7102.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Bière bio des Monts d'Or",
+      "changements": {
+        "lat": 45.86901,
+        "lon": 4.82168,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Curis-au-Mont-d%27Or&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Curis-au-Mont-d'Or (69) selon le géocodeur de l'IGN (type=municipality) : 45.86901, 4.82168.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Domaine du Manchot",
+      "changements": {
+        "lat": 45.92754,
+        "lon": 4.68296,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Lachassagne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Lachassagne (69) selon le géocodeur de l'IGN (type=municipality) : 45.92754, 4.68296.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Nepo",
+      "changements": {
+        "lat": 45.87873,
+        "lon": 4.84221,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Neuville-sur-Sa%C3%B4ne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Neuville-sur-Saône (69) selon le géocodeur de l'IGN (type=municipality) : 45.87873, 4.84221.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Mont Popey",
+      "changements": {
+        "lat": 45.85305,
+        "lon": 4.45689,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Forgeux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Forgeux (69) selon le géocodeur de l'IGN (type=municipality) : 45.85305, 4.45689.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Hoodo",
+      "changements": {
+        "lat": 45.85305,
+        "lon": 4.45689,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Forgeux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Forgeux (69) selon le géocodeur de l'IGN (type=municipality) : 45.85305, 4.45689.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Dame de Malt",
+      "changements": {
+        "lat": 45.78746,
+        "lon": 5.10487,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Villette-d%27Anthon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Villette-d'Anthon (38) selon le géocodeur de l'IGN (type=municipality) : 45.78746, 5.10487.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie 767",
+      "changements": {
+        "lat": 45.6261,
+        "lon": 4.37373,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chazelles-sur-Lyon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chazelles-sur-Lyon (42) selon le géocodeur de l'IGN (type=municipality) : 45.6261, 4.37373.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Farlodoise",
+      "changements": {
+        "lat": 45.6261,
+        "lon": 4.37373,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chazelles-sur-Lyon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chazelles-sur-Lyon (42) selon le géocodeur de l'IGN (type=municipality) : 45.6261, 4.37373.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Roches Précieuses",
+      "changements": {
+        "lat": 45.6261,
+        "lon": 4.37373,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chazelles-sur-Lyon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chazelles-sur-Lyon (42) selon le géocodeur de l'IGN (type=municipality) : 45.6261, 4.37373.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Voie Maltée",
+      "changements": {
+        "lat": 45.95887,
+        "lon": 4.90146,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Jean-de-Thurigneux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Jean-de-Thurigneux (01) selon le géocodeur de l'IGN (type=municipality) : 45.95887, 4.90146.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "L'Agarithe",
+      "changements": {
+        "lat": 45.78897,
+        "lon": 4.34189,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Panissi%C3%A8res&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Panissières (42) selon le géocodeur de l'IGN (type=municipality) : 45.78897, 4.34189.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Ninkasi Fabriques",
+      "changements": {
+        "lat": 45.9007,
+        "lon": 4.42977,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Tarare&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Tarare (69) selon le géocodeur de l'IGN (type=municipality) : 45.9007, 4.42977.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "L'Ours qui brasse",
+      "changements": {
+        "lat": 45.4302,
+        "lon": 4.37005,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-%C3%89tienne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Étienne (42) selon le géocodeur de l'IGN (type=municipality) : 45.4302, 4.37005.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Ninkasi Saint-Étienne",
+      "changements": {
+        "lat": 45.4302,
+        "lon": 4.37005,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-%C3%89tienne&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Étienne (42) selon le géocodeur de l'IGN (type=municipality) : 45.4302, 4.37005.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Casino de Montrond",
+      "changements": {
+        "lat": 45.63778,
+        "lon": 4.24001,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Montrond-les-Bains&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Montrond-les-Bains (42) selon le géocodeur de l'IGN (type=municipality) : 45.63778, 4.24001.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Malt Emoi",
+      "changements": {
+        "lat": 45.90413,
+        "lon": 5.19708,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Meximieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Meximieux (01) selon le géocodeur de l'IGN (type=municipality) : 45.90413, 5.19708.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Margau",
+      "changements": {
+        "lat": 45.52311,
+        "lon": 4.22087,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Bonson&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Bonson (42) selon le géocodeur de l'IGN (type=municipality) : 45.52311, 4.22087.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de la Loire",
+      "changements": {
+        "lat": 45.49435,
+        "lon": 4.25113,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Just-Saint-Rambert&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Just-Saint-Rambert (42) selon le géocodeur de l'IGN (type=municipality) : 45.49435, 4.25113.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de la Sanne",
+      "changements": {
+        "lat": 45.38666,
+        "lon": 4.88678,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Romain-de-Surieu&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Romain-de-Surieu (38) selon le géocodeur de l'IGN (type=municipality) : 45.38666, 4.88678.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Gaudine (Brasserie de la Semène)",
+      "changements": {
+        "lat": 45.35337,
+        "lon": 4.42621,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Genest-Malifaux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Genest-Malifaux (42) selon le géocodeur de l'IGN (type=municipality) : 45.35337, 4.42621.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Part des Autres",
+      "changements": {
+        "lat": 45.88657,
+        "lon": 4.24353,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Just-la-Pendue&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Just-la-Pendue (42) selon le géocodeur de l'IGN (type=municipality) : 45.88657, 4.24353.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Bières du Temps",
+      "changements": {
+        "lat": 45.4566,
+        "lon": 5.29134,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Champier&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Champier (38) selon le géocodeur de l'IGN (type=municipality) : 45.4566, 5.29134.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Pilat",
+      "changements": {
+        "lat": 45.31861,
+        "lon": 4.61824,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Julien-Molin-Molette&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Julien-Molin-Molette (42) selon le géocodeur de l'IGN (type=municipality) : 45.31861, 4.61824.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Graine 2 Bulles",
+      "changements": {
+        "lat": 45.2547,
+        "lon": 4.69782,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Dav%C3%A9zieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Davézieux (07) selon le géocodeur de l'IGN (type=municipality) : 45.2547, 4.69782.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Amalthée",
+      "changements": {
+        "lat": 46.12076,
+        "lon": 4.73203,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Belleville-en-Beaujolais&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Belleville-en-Beaujolais (69) selon le géocodeur de l'IGN (type=municipality) : 46.12076, 4.73203.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Cadole",
+      "changements": {
+        "lat": 46.15621,
+        "lon": 4.66517,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Villi%C3%A9-Morgon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Villié-Morgon (69) selon le géocodeur de l'IGN (type=municipality) : 46.15621, 4.66517.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Mozel'âne",
+      "changements": {
+        "lat": 46.05321,
+        "lon": 4.30921,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Thizy-les-Bourgs&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Thizy-les-Bourgs (69) selon le géocodeur de l'IGN (type=municipality) : 46.05321, 4.30921.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Cabule",
+      "changements": {
+        "lat": 45.26366,
+        "lon": 5.10846,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Le+Grand-Serre&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Le Grand-Serre (26) selon le géocodeur de l'IGN (type=municipality) : 45.26366, 5.10846.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Sarments",
+      "changements": {
+        "lat": 45.22251,
+        "lon": 4.77401,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Talencieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Talencieux (07) selon le géocodeur de l'IGN (type=municipality) : 45.22251, 4.77401.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Bière des Frères Clavel",
+      "changements": {
+        "lat": 45.4935,
+        "lon": 5.37401,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Biol&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Biol (38) selon le géocodeur de l'IGN (type=municipality) : 45.4935, 5.37401.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Chartreux",
+      "changements": {
+        "lat": 46.15217,
+        "lon": 4.61394,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Lantigni%C3%A9&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Lantignié (69) selon le géocodeur de l'IGN (type=municipality) : 46.15217, 4.61394.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Poule",
+      "changements": {
+        "lat": 46.15885,
+        "lon": 5.01568,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Neuville-les-Dames&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Neuville-les-Dames (01) selon le géocodeur de l'IGN (type=municipality) : 46.15885, 5.01568.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Faux Semblables",
+      "changements": {
+        "lat": 45.57623,
+        "lon": 5.53551,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=La+B%C3%A2tie-Montgascon&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune La Bâtie-Montgascon (38) selon le géocodeur de l'IGN (type=municipality) : 45.57623, 5.53551.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Longue Vie",
+      "changements": {
+        "lat": 45.10625,
+        "lon": 4.69074,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Victor&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Victor (07) selon le géocodeur de l'IGN (type=municipality) : 45.10625, 4.69074.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Beauseigne",
+      "changements": {
+        "lat": 45.34331,
+        "lon": 4.32174,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Just-Malmont&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Just-Malmont (43) selon le géocodeur de l'IGN (type=municipality) : 45.34331, 4.32174.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Germanoise",
+      "changements": {
+        "lat": 45.8311,
+        "lon": 4.0088,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Germain-Laval&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Germain-Laval (42) selon le géocodeur de l'IGN (type=municipality) : 45.8311, 4.0088.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Miellerie Gachet",
+      "changements": {
+        "lat": 45.5381,
+        "lon": 4.00279,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chazelles-sur-Lavieu&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chazelles-sur-Lavieu (42) selon le géocodeur de l'IGN (type=municipality) : 45.5381, 4.00279.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Strol",
+      "changements": {
+        "lat": 45.29244,
+        "lon": 4.18479,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Monistrol-sur-Loire&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Monistrol-sur-Loire (43) selon le géocodeur de l'IGN (type=municipality) : 45.29244, 4.18479.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Rivière d'Ain",
+      "changements": {
+        "lat": 46.04538,
+        "lon": 5.41295,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Jujurieux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Jujurieux (01) selon le géocodeur de l'IGN (type=municipality) : 46.04538, 5.41295.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Challit",
+      "changements": {
+        "lat": 45.99473,
+        "lon": 3.97383,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Lentigny&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Lentigny (42) selon le géocodeur de l'IGN (type=municipality) : 45.99473, 3.97383.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Mousse du Guiers",
+      "changements": {
+        "lat": 45.60567,
+        "lon": 5.66926,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Genix-les-Villages&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Genix-les-Villages (73) selon le géocodeur de l'IGN (type=municipality) : 45.60567, 5.66926.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Saint-Clair (La Bressane)",
+      "changements": {
+        "lat": 46.17057,
+        "lon": 5.28055,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Montagnat&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Montagnat (01) selon le géocodeur de l'IGN (type=municipality) : 46.17057, 5.28055.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Free Mousse",
+      "changements": {
+        "lat": 45.07754,
+        "lon": 4.79924,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Jean-de-Muzols&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Jean-de-Muzols (07) selon le géocodeur de l'IGN (type=municipality) : 45.07754, 4.79924.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Rhôdanienne",
+      "changements": {
+        "lat": 45.07754,
+        "lon": 4.79924,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Jean-de-Muzols&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Jean-de-Muzols (07) selon le géocodeur de l'IGN (type=municipality) : 45.07754, 4.79924.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie CCB",
+      "changements": {
+        "lat": 45.05662,
+        "lon": 4.92085,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chanos-Curson&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chanos-Curson (26) selon le géocodeur de l'IGN (type=municipality) : 45.05662, 4.92085.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Utopies",
+      "changements": {
+        "lat": 45.05662,
+        "lon": 4.92085,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chanos-Curson&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chanos-Curson (26) selon le géocodeur de l'IGN (type=municipality) : 45.05662, 4.92085.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Hildegarde",
+      "changements": {
+        "lat": 45.05662,
+        "lon": 4.92085,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chanos-Curson&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chanos-Curson (26) selon le géocodeur de l'IGN (type=municipality) : 45.05662, 4.92085.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Grange Noire",
+      "changements": {
+        "lat": 46.08546,
+        "lon": 5.41563,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Poncin&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Poncin (01) selon le géocodeur de l'IGN (type=municipality) : 46.08546, 5.41563.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Ateliers du Dauphiné",
+      "changements": {
+        "lat": 45.4746,
+        "lon": 5.68256,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Bueil&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Bueil (38) selon le géocodeur de l'IGN (type=municipality) : 45.4746, 5.68256.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Peteukrane",
+      "changements": {
+        "lat": 45.4746,
+        "lon": 5.68256,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Bueil&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Bueil (38) selon le géocodeur de l'IGN (type=municipality) : 45.4746, 5.68256.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Polack",
+      "changements": {
+        "lat": 45.4746,
+        "lon": 5.68256,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Bueil&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Bueil (38) selon le géocodeur de l'IGN (type=municipality) : 45.4746, 5.68256.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des 2 Roches",
+      "changements": {
+        "lat": 46.30999,
+        "lon": 4.71201,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Vergisson&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Vergisson (71) selon le géocodeur de l'IGN (type=municipality) : 46.30999, 4.71201.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Brasseurs du Sornin",
+      "changements": {
+        "lat": 46.13853,
+        "lon": 4.13063,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Pouilly-sous-Charlieu&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Pouilly-sous-Charlieu (42) selon le géocodeur de l'IGN (type=municipality) : 46.13853, 4.13063.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Deux Branches",
+      "changements": {
+        "lat": 46.17626,
+        "lon": 4.24112,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Maizilly&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Maizilly (42) selon le géocodeur de l'IGN (type=municipality) : 46.17626, 4.24112.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de la Pérouze",
+      "changements": {
+        "lat": 46.32558,
+        "lon": 4.97493,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=B%C3%A2g%C3%A9-Dommartin&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Bâgé-Dommartin (01) selon le géocodeur de l'IGN (type=municipality) : 46.32558, 4.97493.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Revermont (Les Deux Frères)",
+      "changements": {
+        "lat": 45.6817,
+        "lon": 5.68318,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Peyrieu&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Peyrieu (01) selon le géocodeur de l'IGN (type=municipality) : 45.6817, 5.68318.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Poulette des Ebaudis",
+      "changements": {
+        "lat": 46.269,
+        "lon": 5.09265,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Curtafond&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Curtafond (01) selon le géocodeur de l'IGN (type=municipality) : 46.269, 5.09265.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Two Hats Brewing",
+      "changements": {
+        "lat": 45.6817,
+        "lon": 5.68318,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Peyrieu&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Peyrieu (01) selon le géocodeur de l'IGN (type=municipality) : 45.6817, 5.68318.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie La Couleuvre",
+      "changements": {
+        "lat": 46.35728,
+        "lon": 4.48239,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Dompierre-les-Ormes&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Dompierre-les-Ormes (71) selon le géocodeur de l'IGN (type=municipality) : 46.35728, 4.48239.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Terre de Possibles",
+      "changements": {
+        "lat": 46.35728,
+        "lon": 4.48239,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Dompierre-les-Ormes&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Dompierre-les-Ormes (71) selon le géocodeur de l'IGN (type=municipality) : 46.35728, 4.48239.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Kan Mêm",
+      "changements": {
+        "lat": 45.01279,
+        "lon": 4.70746,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Colombier-le-Jeune&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Colombier-le-Jeune (07) selon le géocodeur de l'IGN (type=municipality) : 45.01279, 4.70746.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Val d'Ainan (La Dauphine)",
+      "changements": {
+        "lat": 45.46476,
+        "lon": 5.63479,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Geoire-en-Valdaine&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Geoire-en-Valdaine (38) selon le géocodeur de l'IGN (type=municipality) : 45.46476, 5.63479.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de l'Ours Barbu",
+      "changements": {
+        "lat": 45.37805,
+        "lon": 5.58545,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Voiron&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Voiron (38) selon le géocodeur de l'IGN (type=municipality) : 45.37805, 5.58545.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Domaine du Bélier Rouge",
+      "changements": {
+        "lat": 45.14654,
+        "lon": 5.34308,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Sauveur&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Sauveur (38) selon le géocodeur de l'IGN (type=municipality) : 45.14654, 5.34308.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Romanaise (Bière Jacquemart)",
+      "changements": {
+        "lat": 45.05159,
+        "lon": 5.04634,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Romans-sur-Is%C3%A8re&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Romans-sur-Isère (26) selon le géocodeur de l'IGN (type=municipality) : 45.05159, 5.04634.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie L'Attract'Yves",
+      "changements": {
+        "lat": 45.3587,
+        "lon": 5.61487,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Coublevie&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Coublevie (38) selon le géocodeur de l'IGN (type=municipality) : 45.3587, 5.61487.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "L'Écume du Guiers",
+      "changements": {
+        "lat": 45.53699,
+        "lon": 5.698,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Domessin&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Domessin (73) selon le géocodeur de l'IGN (type=municipality) : 45.53699, 5.698.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Haarddrëch",
+      "changements": {
+        "lat": 44.94302,
+        "lon": 4.73629,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Alboussi%C3%A8re&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Alboussière (07) selon le géocodeur de l'IGN (type=municipality) : 44.94302, 4.73629.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Grange du Seigneur",
+      "changements": {
+        "lat": 44.95493,
+        "lon": 4.76171,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Champis&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Champis (07) selon le géocodeur de l'IGN (type=municipality) : 44.95493, 4.76171.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Kokine",
+      "changements": {
+        "lat": 44.9866,
+        "lon": 4.49905,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=D%C3%A9saignes&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Désaignes (07) selon le géocodeur de l'IGN (type=municipality) : 44.9866, 4.49905.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Cuves de la Madeleine",
+      "changements": {
+        "lat": 46.10801,
+        "lon": 3.90211,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Ambierle&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Ambierle (42) selon le géocodeur de l'IGN (type=municipality) : 46.10801, 3.90211.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "L'Agrivoise",
+      "changements": {
+        "lat": 44.99805,
+        "lon": 4.40833,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Agr%C3%A8ve&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Agrève (07) selon le géocodeur de l'IGN (type=municipality) : 44.99805, 4.40833.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de Chartreuse",
+      "changements": {
+        "lat": 45.43577,
+        "lon": 5.70857,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Miribel-les-%C3%89chelles&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Miribel-les-Échelles (38) selon le géocodeur de l'IGN (type=municipality) : 45.43577, 5.70857.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de Chanaz",
+      "changements": {
+        "lat": 45.80197,
+        "lon": 5.79699,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chanaz&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chanaz (73) selon le géocodeur de l'IGN (type=municipality) : 45.80197, 5.79699.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Les Croqueurs de Lune",
+      "changements": {
+        "lat": 45.80197,
+        "lon": 5.79699,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chanaz&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chanaz (73) selon le géocodeur de l'IGN (type=municipality) : 45.80197, 5.79699.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de Cluny",
+      "changements": {
+        "lat": 46.42485,
+        "lon": 4.60299,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Ch%C3%A2teau&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Château (71) selon le géocodeur de l'IGN (type=municipality) : 46.42485, 4.60299.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Paille",
+      "changements": {
+        "lat": 46.42485,
+        "lon": 4.60299,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Ch%C3%A2teau&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Château (71) selon le géocodeur de l'IGN (type=municipality) : 46.42485, 4.60299.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de Roche Colombe",
+      "changements": {
+        "lat": 44.92258,
+        "lon": 4.92183,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Valence&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Valence (26) selon le géocodeur de l'IGN (type=municipality) : 44.92258, 4.92183.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Valentinoise",
+      "changements": {
+        "lat": 44.92258,
+        "lon": 4.92183,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Valence&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Valence (26) selon le géocodeur de l'IGN (type=municipality) : 44.92258, 4.92183.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Mac Never's and Co.",
+      "changements": {
+        "lat": 46.12241,
+        "lon": 5.54402,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Maillat&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Maillat (01) selon le géocodeur de l'IGN (type=municipality) : 46.12241, 5.54402.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de l'Emblavez",
+      "changements": {
+        "lat": 45.19312,
+        "lon": 3.91346,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Vorey&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Vorey (43) selon le géocodeur de l'IGN (type=municipality) : 45.19312, 3.91346.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Mont Blanc",
+      "changements": {
+        "lat": 45.60692,
+        "lon": 5.8656,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=La+Motte-Servolex&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune La Motte-Servolex (73) selon le géocodeur de l'IGN (type=municipality) : 45.60692, 5.8656.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie B.A.S. (Sabaudia)",
+      "changements": {
+        "lat": 45.62733,
+        "lon": 5.89064,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Voglans&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Voglans (73) selon le géocodeur de l'IGN (type=municipality) : 45.62733, 5.89064.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie de la Pleine Lune",
+      "changements": {
+        "lat": 44.91169,
+        "lon": 5.00024,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chabeuil&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chabeuil (26) selon le géocodeur de l'IGN (type=municipality) : 44.91169, 5.00024.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Ferme-brasserie Déluge",
+      "changements": {
+        "lat": 44.91169,
+        "lon": 5.00024,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chabeuil&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chabeuil (26) selon le géocodeur de l'IGN (type=municipality) : 44.91169, 5.00024.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Kura",
+      "changements": {
+        "lat": 46.28363,
+        "lon": 4.34056,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Varennes-sous-Dun&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Varennes-sous-Dun (71) selon le géocodeur de l'IGN (type=municipality) : 46.28363, 4.34056.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Cuves",
+      "changements": {
+        "lat": 45.21414,
+        "lon": 5.66199,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Sassenage&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Sassenage (38) selon le géocodeur de l'IGN (type=municipality) : 45.21414, 5.66199.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie La Furieuse",
+      "changements": {
+        "lat": 45.21414,
+        "lon": 5.66199,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Sassenage&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Sassenage (38) selon le géocodeur de l'IGN (type=municipality) : 45.21414, 5.66199.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Marmotte Masquée",
+      "changements": {
+        "lat": 45.33684,
+        "lon": 5.81293,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Pierre-de-Chartreuse&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Pierre-de-Chartreuse (38) selon le géocodeur de l'IGN (type=municipality) : 45.33684, 5.81293.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie des Cimes",
+      "changements": {
+        "lat": 45.6898,
+        "lon": 5.90966,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Aix-les-Bains&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Aix-les-Bains (73) selon le géocodeur de l'IGN (type=municipality) : 45.6898, 5.90966.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie La Dourbie",
+      "changements": {
+        "lat": 45.19509,
+        "lon": 5.68309,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Fontaine&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Fontaine (38) selon le géocodeur de l'IGN (type=municipality) : 45.19509, 5.68309.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Coup de Mousse",
+      "changements": {
+        "lat": 45.58322,
+        "lon": 5.9093,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chamb%C3%A9ry&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chambéry (73) selon le géocodeur de l'IGN (type=municipality) : 45.58322, 5.9093.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "RUN'HARD",
+      "changements": {
+        "lat": 45.58322,
+        "lon": 5.9093,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chamb%C3%A9ry&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chambéry (73) selon le géocodeur de l'IGN (type=municipality) : 45.58322, 5.9093.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Caquot",
+      "changements": {
+        "lat": 45.77854,
+        "lon": 5.92467,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Entrelacs&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Entrelacs (73) selon le géocodeur de l'IGN (type=municipality) : 45.77854, 5.92467.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Teddy Beer",
+      "changements": {
+        "lat": 46.47553,
+        "lon": 4.51225,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Pressy-sous-Dondin&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Pressy-sous-Dondin (71) selon le géocodeur de l'IGN (type=municipality) : 46.47553, 4.51225.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Dr D. Brewpub",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Marrel",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Irvoy",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Maltobar",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "P'tit Labo (Brasserie de Grenoble)",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Solstice",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Kiltin'",
+      "changements": {
+        "lat": 45.18283,
+        "lon": 5.7243,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Grenoble&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Grenoble (38) selon le géocodeur de l'IGN (type=municipality) : 45.18283, 5.7243.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Bonne Fabrique",
+      "changements": {
+        "lat": 45.2571,
+        "lon": 5.77564,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Le+Sappey-en-Chartreuse&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Le Sappey-en-Chartreuse (38) selon le géocodeur de l'IGN (type=municipality) : 45.2571, 5.77564.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Archimalt",
+      "changements": {
+        "lat": 45.58845,
+        "lon": 5.95655,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Alban-Leysse&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Alban-Leysse (73) selon le géocodeur de l'IGN (type=municipality) : 45.58845, 5.95655.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Montagnarde",
+      "changements": {
+        "lat": 45.58845,
+        "lon": 5.95655,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Alban-Leysse&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Alban-Leysse (73) selon le géocodeur de l'IGN (type=municipality) : 45.58845, 5.95655.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "L'Etincelle",
+      "changements": {
+        "lat": 46.25469,
+        "lon": 5.78765,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Belleydoux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Belleydoux (01) selon le géocodeur de l'IGN (type=municipality) : 46.25469, 5.78765.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie 3B (Bassin Bellegardien)",
+      "changements": {
+        "lat": 46.07735,
+        "lon": 5.78025,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Billiat&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Billiat (01) selon le géocodeur de l'IGN (type=municipality) : 46.07735, 5.78025.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Les Dameuses",
+      "changements": {
+        "lat": 45.12526,
+        "lon": 5.66978,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Claix&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Claix (38) selon le géocodeur de l'IGN (type=municipality) : 45.12526, 5.66978.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Une Petite Mousse",
+      "changements": {
+        "lat": 45.14613,
+        "lon": 5.71504,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=%C3%89chirolles&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Échirolles (38) selon le géocodeur de l'IGN (type=municipality) : 45.14613, 5.71504.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Dauphiné",
+      "changements": {
+        "lat": 45.17844,
+        "lon": 5.76322,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Saint-Martin-d%27H%C3%A8res&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Saint-Martin-d'Hères (38) selon le géocodeur de l'IGN (type=municipality) : 45.17844, 5.76322.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Vellavia",
+      "changements": {
+        "lat": 45.07145,
+        "lon": 3.85806,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Polignac&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Polignac (43) selon le géocodeur de l'IGN (type=municipality) : 45.07145, 3.85806.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Motueka",
+      "changements": {
+        "lat": 45.0447,
+        "lon": 3.9223,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Brives-Charensac&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Brives-Charensac (43) selon le géocodeur de l'IGN (type=municipality) : 45.0447, 3.9223.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Barbue",
+      "changements": {
+        "lat": 45.55777,
+        "lon": 5.95805,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=La+Ravoire&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune La Ravoire (73) selon le géocodeur de l'IGN (type=municipality) : 45.55777, 5.95805.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie du Merle",
+      "changements": {
+        "lat": 45.56842,
+        "lon": 6.03416,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Puygros&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Puygros (73) selon le géocodeur de l'IGN (type=municipality) : 45.56842, 6.03416.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Quardin",
+      "changements": {
+        "lat": 45.52221,
+        "lon": 6.00782,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Chignin&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Chignin (73) selon le géocodeur de l'IGN (type=municipality) : 45.52221, 6.00782.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Grésiv'ale",
+      "changements": {
+        "lat": 45.42946,
+        "lon": 5.98657,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Barraux&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Barraux (38) selon le géocodeur de l'IGN (type=municipality) : 45.42946, 5.98657.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "Brasserie Two Dudes",
+      "changements": {
+        "lat": 46.56637,
+        "lon": 4.89683,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Tournus&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Tournus (71) selon le géocodeur de l'IGN (type=municipality) : 46.56637, 4.89683.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    },
+    {
+      "n": "La Mousse du Hérisson",
+      "changements": {
+        "lat": 45.7727,
+        "lon": 4.69308,
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://data.geopf.fr/geocodage/search?q=Sainte-Consorce&type=municipality&limit=5"
+      ],
+      "extrait": "Centre de la commune Sainte-Consorce (69) selon le géocodeur de l'IGN (type=municipality) : 45.7727, 4.69308.",
+      "choix": "Fiche sans adresse vérifiée : placée au centre IGN de sa commune (Cédric, 18/10, docs/DECISIONS.md)."
+    }
+  ]
+}

@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: '324aff47c9dc5376',
+  empreinte: '4ae5f222ee69284b',
   phrase:
-    'Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site.',
+    'Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-18', texte: 'Sans adresse vérifiée, une brasserie est placée au centre de sa commune selon l’IGN, et sa fiche le dit.' },
   { date: '2026-10-18', texte: 'Sites, téléphones, horaires, bières et positions à l’adresse ajoutés à 44 brasseries, relus sur leur propre site.' },
   { date: '2026-10-17', texte: 'Les communes de France se cherchent hors connexion dès l’installation.' },
   { date: '2026-10-17', texte: 'Sur la carte, le point de départ reste visible, et le groupe qui contient la brasserie choisie est cerclé.' },
