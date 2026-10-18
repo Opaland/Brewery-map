@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { BRIGNAIS, distanceKm, formaterDistance } from '../../src/core/distance'
+import { BRIGNAIS, distanceKm, formaterDistance, kmFr } from '../../src/core/distance'
 
 describe('distanceKm (grand cercle, rayon terrestre moyen)', () => {
   it('vaut zéro sur place', () => {
@@ -30,5 +30,12 @@ describe('formaterDistance', () => {
     expect(formaterDistance(5.339)).toBe('≈ 5 km')
     expect(formaterDistance(11.6)).toBe('≈ 12 km')
     expect(formaterDistance(0.4)).toBe('moins de 1 km')
+  })
+})
+
+describe('kmFr (S295)', () => {
+  it('écrit des kilomètres au dixième, avec une virgule', () => {
+    expect(kmFr(2.44)).toBe('2,4')
+    expect(kmFr(10)).toBe('10,0')
   })
 })

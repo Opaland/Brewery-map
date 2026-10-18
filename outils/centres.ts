@@ -12,7 +12,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { positionDuGeocodeur } from '../src/core/candidats'
 import { lireLot } from '../src/core/curation'
-import { distanceKm } from '../src/core/distance'
+import { distanceKm, kmFr } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 import { geocoder } from './geocodeur'
 
@@ -51,7 +51,7 @@ const lu = lireLot(lot, aujourdhui)
 if (!lu.ok) throw new Error(`lot invalide :\n${lu.erreurs.join('\n')}`)
 writeFileSync('curation/s268-centres.json', `${JSON.stringify(lot, null, 2)}\n`)
 
-const km = (x: number) => x.toFixed(1).replace('.', ',')
+const km = kmFr
 const md = [
   '# S268 — Les fiches sans adresse vérifiée au centre IGN de leur commune',
   '',

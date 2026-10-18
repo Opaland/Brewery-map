@@ -473,13 +473,15 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 | S291 | Un protocole de test avec de vraies personnes, sans rien envoyer **[C][H]** | Sentiers `docs/PROTOCOLE_TEST.md` |
 | S292 | « La question en toutes lettres », comprise sur l'appareil, vers les filtres qui existent (étude S99) | Sentiers `docs/IA_LOCALE.md`, `src/core/intention.ts` |
 | S293 | Le premier écran quand le fichier grandit : mesurer, puis choisir (S271 : budget de poids dépassé à 358 fiches) | revue S271 |
-| S294 | Les fiches chargées par département : le premier écran ne porte que les départements proches du point de départ (`docs/PREMIER-ECRAN.md` : LCP 2,64 s à 1 000 fiches, au-delà des 2,5 s des Core Web Vitals) | S293 |
+| S294 | Les fiches chargées par département : le premier écran ne porte que les départements proches du point de départ (`docs/PREMIER-ECRAN.md` : LCP 2,64 s à 1 000 fiches, au-delà des 2,5 s des Core Web Vitals). Condition (revue S295, AR3) : avec « autour de moi », les fichiers demandés ne dépendent pas de la position, prouvé par un e2e ; découpage au build (AR8) | S293 |
+| S295 | La relecture d'ensemble : chaque persona, un lead, un architecte, et la fiche face à la concurrence (`docs/REVUE-ENSEMBLE.md`) | — |
+| S296 | Les bases d'étape de la garde de `data/` (revue d'architecture S295, AR1) | S295 |
 
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit.
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble.
 
 ## Ordre d'exécution
 

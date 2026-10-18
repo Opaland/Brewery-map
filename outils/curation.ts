@@ -42,6 +42,7 @@ import {
   ficheDuSignalement,
   formaterDonnees,
   lireLot,
+  lireNumeros,
   lotSuivant,
   numeroSurLaPage,
   contactSurLaPage,
@@ -56,7 +57,7 @@ import { validerBrasseries } from '../src/core/schema'
 import { empreinte, fichiersDeLots, lireTexte } from './lots'
 import { sansLesAppliquees, trierParRegle, type LotNomme } from '../src/core/regle'
 import { execFileSync } from 'node:child_process'
-import { nomDAccord } from '../src/core/garde-donnees'
+import { accordSchema, nomDAccord } from '../src/core/garde-donnees'
 import { fetchCompte } from './requetes'
 
 const DONNEES = 'data/breweries.json'
@@ -83,23 +84,11 @@ function lot(chemin: string | undefined) {
   return { lot: l.lot, empreinte: empreinte(texte) }
 }
 
-/**
- * « 1,3,4 » ou « 1-12,15 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni
- * espaces (revue code S11) ; une plage va du plus petit au plus grand (S14 :
- * un lot de découverte compte des dizaines de fiches).
- */
+/** Les numéros acceptés écrits par Cédric (`lireNumeros`, testé en pur), ou l'arrêt en code 2. */
 function numeros(texte: string | undefined, total: number): number[] {
-  const morceau = '\\d+(?:-\\d+)?'
-  if (texte === undefined || !new RegExp(`^${morceau}(?:,${morceau})*$`).test(texte)) {
-    sortir('numéros acceptés attendus, ex. « 1,3,4 » ou « 1-12,15 »', 2)
-  }
-  return texte.split(',').flatMap((m) => {
-    const [debut = 0, fin = debut] = m.split('-').map(Number)
-    if (fin < debut) sortir(`plage à l'envers : « ${m} »`, 2)
-    // Bornée au lot : « 1-999999999 » saturait la mémoire (revue code S14).
-    if (fin > total) sortir(`« ${m} » dépasse le lot, qui compte ${String(total)} numéros`, 2)
-    return Array.from({ length: fin - debut + 1 }, (_, i) => debut + i)
-  })
+  const lu = lireNumeros(texte, total)
+  if (!lu.ok) sortir(lu.erreur, 2)
+  return lu.numeros
 }
 
 /**
@@ -263,7 +252,20 @@ function trier(): void {
   const accords = existsSync('curation/accords')
     ? readdirSync('curation/accords')
         .filter((f) => f.endsWith('.json'))
-        .map((f) => JSON.parse(readFileSync(`curation/accords/${f}`, 'utf8')) as { lot: string; empreinte: string; acceptees: number[] })
+        .map((f) => {
+          // Lu par le même schéma que la garde (§4) : un accord mal formé
+          // qu'elle refuse ne doit pas faire sortir des lignes de la liste
+          // « à montrer » (revue lead S295).
+          let brut: unknown
+          try {
+            brut = JSON.parse(readFileSync(`curation/accords/${f}`, 'utf8'))
+          } catch (e) {
+            sortir(`curation/accords/${f} : JSON illisible (${String(e)})`, 1)
+          }
+          const lu = accordSchema.safeParse(brut)
+          if (!lu.success) sortir(`curation/accords/${f} : accord illisible (${lu.error.issues.map((i) => i.message).join(' ; ')})`, 1)
+          return lu.data
+        })
     : []
   const tries = trierParRegle(lots, donnees())
   const { acceptees, aMontrer, appliquees } = sansLesAppliquees(tries.acceptees, tries.aMontrer, accords, new Map(lots.map((l) => [l.nom, l.empreinte])))

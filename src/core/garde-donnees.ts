@@ -1,5 +1,5 @@
 import { z } from './zod'
-import { appliquerLot, formaterDonnees, type Lot } from './curation'
+import { appliquerLot, formaterDonnees, lireLot, type Lot } from './curation'
 import { validerBrasseries } from './schema'
 
 /**
@@ -53,6 +53,55 @@ export interface AccordLu {
   accord: unknown
   /** Le lot visé, tel qu'il est dans `curation/` aujourd'hui, et son empreinte. */
   lot: { lot: Lot; empreinte: string } | undefined
+  /** Absent mais présent dans `curation/` : pourquoi le schéma d'aujourd'hui ne le lit plus. */
+  illisible?: string | undefined
+}
+
+/**
+ * Les lots de `curation/`, par nom (revue d'architecture S295). Un lot que
+ * le schéma d'aujourd'hui ne lit plus est dit **illisible**, avec sa raison :
+ * la garde disait « introuvable », ce qui égarait. Deux fichiers d'un même
+ * nom sont des **doublons** : le dernier lu gagnait sans bruit. Un JSON qui
+ * n'a pas de champ `lot` (candidats OSM bruts, sorties d'outils) n'est pas
+ * un lot.
+ */
+export function indexerLots(
+  fichiers: readonly { chemin: string; texte: string }[],
+  empreinte: (texte: string) => string,
+): {
+  lots: Map<string, { lot: Lot; empreinte: string; chemin: string }>
+  illisibles: Map<string, string>
+  doublons: string[]
+} {
+  const lots = new Map<string, { lot: Lot; empreinte: string; chemin: string }>()
+  const illisibles = new Map<string, string>()
+  const doublons: string[] = []
+  const chemins = new Map<string, string>()
+  for (const { chemin, texte } of fichiers) {
+    let brut: unknown
+    try {
+      brut = JSON.parse(texte)
+    } catch {
+      continue
+    }
+    const nom = typeof brut === 'object' && brut !== null && 'lot' in brut && typeof brut.lot === 'string' ? brut.lot : undefined
+    if (nom === undefined) continue
+    // Un nom déjà vu est un doublon, que l'un des deux soit lisible ou non
+    // (revue adverse S295).
+    const deja = chemins.get(nom)
+    if (deja !== undefined) {
+      doublons.push(`lot « ${nom} » : ${deja} et ${chemin}`)
+      continue
+    }
+    chemins.set(nom, chemin)
+    const l = lireLot(brut, '9999-12-31')
+    if (!l.ok) {
+      illisibles.set(nom, l.erreurs.join(' ; '))
+      continue
+    }
+    lots.set(nom, { lot: l.lot, empreinte: empreinte(texte), chemin })
+  }
+  return { lots, illisibles, doublons }
 }
 
 export function verifierDonnees(
@@ -71,7 +120,11 @@ export function verifierDonnees(
       continue
     }
     if (a.lot === undefined) {
-      erreurs.push(`${a.nom} : lot « ${lu.data.lot} » introuvable dans curation/`)
+      erreurs.push(
+        a.illisible === undefined
+          ? `${a.nom} : lot « ${lu.data.lot} » introuvable dans curation/`
+          : `${a.nom} : lot « ${lu.data.lot} » illisible avec le schéma d’aujourd’hui (${a.illisible})`,
+      )
       continue
     }
     if (a.lot.empreinte !== lu.data.empreinte) {

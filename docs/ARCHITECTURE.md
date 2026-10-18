@@ -1,8 +1,9 @@
 # Architecture
 
-> Format repris de BMAD (`docs/METHODE.md`). Décrit l'état au 17/10/2026
-> (après S29). Une story qui change une frontière ci-dessous met ce fichier
-> à jour.
+> Format repris de BMAD (`docs/METHODE.md`). Décrit l'état au 18/10/2026
+> (après S295, revue lead : le fichier était resté à S29). Une story qui
+> change une frontière ci-dessous met ce fichier à jour ; `/revue-sprint`
+> le demande.
 
 ## 1. En une phrase
 
@@ -32,20 +33,37 @@ accords.
 
 ## 3. Le code
 
-- **`src/core/`** : la logique pure, sans DOM, en TDD (`tests/unit/`) :
-  schéma, recherche, distances, origine, préférences, horaires, fiche,
-  itinéraire, tournée, partage, filtres, curation.
+- **`src/core/`** : la logique pure, sans DOM, en TDD (`tests/unit/`).
+  - L'écran : schéma (`schema.ts`), recherche, distances, origine,
+    préférences, horaires, fiche, bières, itinéraire, tournée, partage,
+    filtres, signalement, sauvegarde, persistance, nouveautés, QR.
+  - La curation : `curation.ts` (lots, `appliquerLot`), `regle.ts` (la
+    règle du 18/10), `garde-donnees.ts`, `candidats.ts`, `decouverte.ts`,
+    `osm-france.ts`, `osm-etiquettes.ts`, `completude.ts` (S295),
+    `requetes.ts`, `sonde.ts`.
 - **`src/*.tsx`** : l'interface React.
   - `App` tient l'état.
-  - `Liste`, `Carte` (MapLibre, chargée à l'approche par `CarteDifferee`),
-    `PointDeDepart`, `MesFavoris`, `FiltreType`, `Installer`, `MiseAJour`.
+  - La liste et la fiche : `Liste`, `Contact`, `Horaires`, `YAller`,
+    `Bieres`, `LienExterne` (tout lien sortant, S295), `EnFrancais` (les
+    textes des fiches quand l'interface est en anglais, S295).
+  - La carte : `Carte` (MapLibre, chargée à l'approche par
+    `CarteDifferee`).
+  - Le reste : `PointDeDepart`, `ChoixCommune`, `MesFavoris`,
+    `FiltreType`, `Sauvegarde`, `Affichette`, `ImageTournee`, `Installer`,
+    `MiseAJour` ; les crochets dans `crochets.ts`.
 - **`src/stockage.ts`** : IndexedDB (`mousse-de-poche`, magasin
-  `reglages`). Il garde les réglages et les favoris ; jamais la position,
-  seulement le choix « autour de moi ». Les favoris passent d'un onglet à
-  l'autre par `BroadcastChannel`.
-- **`public/sw.js`** : le service worker. Le précache est complet ou rien
-  (`build/precache-sw.ts`). Il se replie sur la page en cas de 404 et
-  affiche un bandeau quand une nouvelle version est prête.
+  `reglages`). Il garde les réglages, les favoris, le carnet des visites et
+  les notes ; jamais la position, seulement le choix « autour de moi ». Ils
+  passent d'un onglet à l'autre par `BroadcastChannel`. Le thème a un
+  miroir dans `localStorage` (`src/theme.ts`), lu avant le premier rendu.
+- **`public/sw.js`** : le service worker.
+  - Le précache est complet ou rien (`build/precache-sw.ts`) ; un fichier
+    haché déjà dans un cache précédent est repris sans réseau (S295).
+  - Le réseau d'abord, mais 4 s au plus quand le cache a le fichier
+    (S295) ; repli sur le cache en cas de 404.
+  - Les tuiles : 600 au plus, la moins récemment vue part la première ;
+    « Tout effacer » les retire (`src/cacheTuiles.ts`).
+  - Un bandeau dit qu'une nouvelle version est prête.
 
 ## 4. Les frontières de confidentialité
 
@@ -53,12 +71,23 @@ Ce qui part sur le réseau (vérifié par `tests/e2e/securite.spec.ts` et
 `docs/AUDIT.md`) :
 - **les tuiles** `tile.openstreetmap.org`, au zoom 14 au plus : la zone,
   à quelques kilomètres près ;
-- **la liste des communes d'une région**, demandée à ce site ;
+- **la liste des communes de la région du point de départ**, demandée à ce
+  site ; avec « Autour de moi », le fichier de toute la France, le même
+  pour tous (`src/communesFrance.ts`) ;
 - **les liens sortants** que la personne touche (Y aller, signaler,
   partager) : ils ne portent que la fiche.
 
 Rien d'autre. La politique de sécurité du contenu (`build/csp.ts`) ne
 permet aucun autre hôte.
+
+**Condition posée à S294** (revue d'architecture S295, AR3) : charger les
+fiches par département ne doit rien dire de la position. Avec « Autour de
+moi », l'ensemble et l'ordre des fichiers demandés ne dépendent pas de la
+position (tout par le précache, ou un ordre fixe). Un e2e compare les
+requêtes pour deux positions éloignées et les trouve identiques. La fixture
+`tests/e2e/position.ts` ne cherche que des coordonnées : elle ne verrait
+pas une requête `/donnees/69.json`. Le découpage se fait **au build**
+(AR8) : `data/breweries.json` reste la source relue et gardée.
 
 ## 5. La qualité, mécanique
 
@@ -70,6 +99,8 @@ permet aucun autre hôte.
 - **Les agents** :
   - `relecteur-adverse` ;
   - `relecteur-de-persona` ;
+  - `relecteur-de-promesses` ;
+  - `chasseur-de-jumeaux` ;
   - `verificateur-de-tests` ;
   - `verificateur-de-brasserie`.
 - **Les skills** :

@@ -26,7 +26,7 @@ import {
   type CandidatClasse,
   type CandidatOsm,
 } from '../src/core/decouverte'
-import { BRIGNAIS, distanceKm } from '../src/core/distance'
+import { BRIGNAIS, distanceKm, kmFr } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 import { fetchCompte } from './requetes'
 
@@ -135,7 +135,7 @@ writeFileSync(
 )
 
 const km = (a: { lat: number; lon: number }, b: { lat: number; lon: number }) =>
-  `${distanceKm(a, b).toFixed(1).replace('.', ',')} km`
+  `${kmFr(distanceKm(a, b))} km`
 const fiche = (n: string) => brasseries.find((b) => b.n === n)
 
 const proposes = classes
@@ -157,7 +157,7 @@ function signaux(c: CandidatClasse, rang: number): string[] {
   if (decrit.length > 0) {
     s.push(`OSM la décrit aussi comme : ${decrit.map((k) => `${k}=${e[k] ?? ''}`).join(', ')} — un café, un bar ou une enseigne ?`)
   }
-  if (c.plusProche !== undefined) s.push(`Fiche la plus proche : ${c.plusProche.n}, à ${c.plusProche.km.toFixed(1).replace('.', ',')} km.`)
+  if (c.plusProche !== undefined) s.push(`Fiche la plus proche : ${c.plusProche.n}, à ${kmFr(c.plusProche.km)} km.`)
   return s
 }
 
@@ -182,8 +182,13 @@ const lot: Lot = {
 const v = lireLot(lot, AUJOURDHUI)
 if (!v.ok) throw new Error(`lot invalide :\n${v.erreurs.join('\n')}`)
 // Tout accepter doit passer avant que le lot soit présenté (revues S14 : 7
-// ajouts reprenaient un nom du fichier, et « 1-131 » était refusé).
-const tout = appliquerLot(brasseries, lot, new Set(lot.ajouts?.map((_, i) => i + 1)))
+// ajouts reprenaient un nom du fichier, et « 1-131 » était refusé). Les
+// points restent ceux d'OSM : depuis S295, ils ne peuvent entrer dans data/
+// qu'une fois placés au centre IGN (comme `outils/centres-ajouts.ts` le fait
+// pour les lots départementaux). Le contrôle porte donc sur le reste — noms,
+// schéma — avec une précision qui n'est pas « osm ».
+const sansPointOsm = { ...lot, ajouts: lot.ajouts?.map((a) => ({ ...a, fiche: { ...a.fiche, coordPrecision: 'commune' as const } })) }
+const tout = appliquerLot(brasseries, sansPointOsm, new Set(lot.ajouts?.map((_, i) => i + 1)))
 if (!tout.ok) throw new Error(`le lot ne s'appliquerait pas en entier :\n${tout.erreurs.join('\n')}`)
 writeFileSync(`curation/${NOM}.json`, `${JSON.stringify(lot, null, 1)}\n`)
 

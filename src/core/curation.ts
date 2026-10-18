@@ -1,7 +1,7 @@
 import { normaliser } from './recherche'
 import { z } from './zod'
 import { CATEGORIES } from './categories'
-import { BRIGNAIS, distanceKm, type Point } from './distance'
+import { BRIGNAIS, distanceKm, kmFr, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
 import {
   brasserieObjetSchema,
@@ -219,6 +219,16 @@ export function appliquerLot(
       erreurs.push(`proposition ${String(numero)} : n'existe pas dans le lot`)
     }
   }
+  // Une fiche acceptée n'entre pas avec la précision des points
+  // OpenStreetMap : elle s'afficherait « non vérifiée » (revue
+  // d'architecture S295). Un ajout venu d'OSM se place d'abord au centre IGN
+  // ou à son adresse.
+  ajouts.forEach((a, i) => {
+    const numero = lot.propositions.length + i + 1
+    if (acceptees.has(numero) && a.fiche.coordPrecision === 'osm') {
+      erreurs.push(`proposition ${String(numero)} (${a.fiche.n}) : « osm » est réservé à la couche OpenStreetMap ; la placer au centre IGN ou à son adresse`)
+    }
+  })
   const parNom = new Map<string, Proposition>()
   lot.propositions.forEach((p, i) => {
     if (!acceptees.has(i + 1)) return
@@ -235,7 +245,7 @@ export function appliquerLot(
   const modifiees = brasseries.map((b) => {
     const p = parNom.get(b.n)
     if (p === undefined) return b
-        const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
+    const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
     const { lat, lon } = p.changements
     // `km` suit la position : arrondi au dixième, comme les lignes fournies.
     const km = lat === undefined || lon === undefined ? {} : { km: Math.round(distanceKm(BRIGNAIS, { lat, lon }) * 10) / 10 }
@@ -335,7 +345,7 @@ export function diffLisible(
     const { lat, lon } = p.changements
     if (lat !== undefined && lon !== undefined) {
       const ecart = distanceKm(avantFiche, { lat, lon })
-      lignes.push(`- déplacement sur la carte : ${ecart.toFixed(1).replace('.', ',')} km`)
+      lignes.push(`- déplacement sur la carte : ${kmFr(ecart)} km`)
     }
     return [
       titre,
@@ -658,4 +668,29 @@ export function revuesDesFichiers(
     ajouter(nom, l.data.revues ?? l.data.propositions.map((p) => p.n))
   }
   return erreurs.length > 0 ? { ok: false, erreurs } : { ok: true, revues }
+}
+
+/**
+ * « 1,3,4 » ou « 1-12,15 » et rien d'autre : ni « 0x1 », ni « 1.0 », ni
+ * espaces (revue code S11) ; une plage va du plus petit au plus grand (S14 :
+ * un lot de découverte compte des dizaines de fiches), bornée au lot :
+ * « 1-999999999 » saturait la mémoire (revue code S14). Sortie de
+ * `outils/curation.ts` en S295 pour se tester sans lancer l'outil.
+ */
+export function lireNumeros(
+  texte: string | undefined,
+  total: number,
+): { ok: true; numeros: number[] } | { ok: false; erreur: string } {
+  const morceau = '\\d+(?:-\\d+)?'
+  if (texte === undefined || !new RegExp(`^${morceau}(?:,${morceau})*$`).test(texte)) {
+    return { ok: false, erreur: 'numéros acceptés attendus, ex. « 1,3,4 » ou « 1-12,15 »' }
+  }
+  const numeros: number[] = []
+  for (const m of texte.split(',')) {
+    const [debut = 0, fin = debut] = m.split('-').map(Number)
+    if (fin < debut) return { ok: false, erreur: `plage à l'envers : « ${m} »` }
+    if (fin > total) return { ok: false, erreur: `« ${m} » dépasse le lot, qui compte ${String(total)} numéros` }
+    for (let k = debut; k <= fin; k++) numeros.push(k)
+  }
+  return { ok: true, numeros }
 }

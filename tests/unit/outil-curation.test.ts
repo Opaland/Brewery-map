@@ -41,10 +41,11 @@ afterEach(() => {
 const empreinte = () => /Empreinte du lot : ([0-9a-f]{12})/.exec(lancer('diff', LOT).sortie)?.[1] ?? ''
 
 /*
-  Chaque lancement démarre tsx (≈ 0,65 s mesuré le 16/10) ; le test des
-  numéros en fait sept : 4,7 s pour la limite de 5 s par défaut de Vitest,
-  dépassée une fois en suite complète. 30 s : marge de présentation, sans
-  effet sur ce qui est vérifié.
+  Chaque lancement démarre tsx (≈ 0,65 s mesuré le 16/10). Les règles des
+  numéros sont testées en pur (`lireNumeros`, curation-numeros.test.ts) :
+  ici, un seul cas de chaque sortie suffit à prouver que l'outil s'en sert
+  (revue lead S295 : ce test en lançait treize, 8 s). 30 s : marge de
+  présentation, sans effet sur ce qui est vérifié.
 */
 describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue code S11)', { timeout: 30_000 }, () => {
   it('sans --ecrire, rien n’est écrit', () => {
@@ -61,15 +62,11 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
   })
 
   it('des numéros mal écrits sont refusés, pas interprétés', () => {
-    for (const n of ['0x1', '1.0', '1e0', ' 2', '1,,2', '']) {
-      expect(lancer('appliquer', LOT, n).code).toBe(2)
-    }
+    expect(lancer('appliquer', LOT, '0x1').code).toBe(2)
     // « 1 3 » au lieu de « 1,3 » n'appliquait que la 1, sans un mot (revue S12).
     expect(lancer('appliquer', LOT, '1', '3').code).toBe(2)
-    // Plages écrites par Cédric (S14) : « 1-3 » oui ; « 3-1 », « 1-», « -2 » non.
+    // Une plage écrite par Cédric (S14) passe.
     expect(lancer('appliquer', LOT, '1-3').code).toBe(0)
-    for (const n of ['3-1', '1-', '-2', '1--3']) expect(lancer('appliquer', LOT, n).code).toBe(2)
-    expect(lancer('appliquer', LOT, '1-999999999').code).toBe(2)
   })
 
   it('« lot » ignore les candidats OSM bruts rangés dans curation/ (vu en S15 : il refusait de tourner)', () => {

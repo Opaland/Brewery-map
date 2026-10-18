@@ -37,3 +37,8 @@ export function distanceKm(a: Point, b: Point): number {
 export function formaterDistance(km: number): string {
   return km < 1 ? t('moins de 1 km') : `≈ ${String(Math.round(km))} km`
 }
+
+/** « 2,4 » : des kilomètres au dixième, à la française, pour les outils de curation (S295 : recopié cinq fois). */
+export function kmFr(km: number): string {
+  return km.toFixed(1).replace('.', ',')
+}

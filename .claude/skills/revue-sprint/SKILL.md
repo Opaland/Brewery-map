@@ -31,6 +31,8 @@ soit son contenu a vidé le quota hebdomadaire (CLAUDE.md d'ÉtapeForge §11,
 | Une ligne de `data/` modifiée sans accord écrit ? | `git diff -- data/`, ligne par ligne |
 | Une valeur absente remplacée par une valeur inventée ? | §1.3 |
 | Des coordonnées « commune » présentées comme exactes ? | §2.3 |
+| Une frontière déplacée (module, stockage, réseau) sans `docs/ARCHITECTURE.md` mis à jour ? | Revue lead S295 : le fichier était resté à S29 |
+| `data/` changé sans `curation/A-CHERCHER.md` régénéré ? | `tests/unit/completude.test.ts` le refuse ; le bilan de la PR cite ses chiffres |
 
 Si le sprint écrit ou change une **promesse** (un texte affiché, un
 commentaire « parce que », une phrase de doc avec « jamais », « aucun »,

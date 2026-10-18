@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { BASE_DE_DONNEES, nomDAccord, verifierDonnees } from '../../src/core/garde-donnees'
+import { BASE_DE_DONNEES, indexerLots, nomDAccord, verifierDonnees } from '../../src/core/garde-donnees'
 import { formaterDonnees, type Lot } from '../../src/core/curation'
 import type { Brasserie } from '../../src/core/schema'
 
@@ -118,5 +118,44 @@ describe('la base de la garde ne se déplace pas seule (revue adverse S230)', ()
   // fixée ici en dur, à part, pour qu'un seul changement ne la déplace pas.
   it('son empreinte est celle du fichier du 15/10', () => {
     expect(BASE_DE_DONNEES.sha256.startsWith('f683cca8c5f69ef3')).toBe(true)
+  })
+})
+
+describe('les lots relus par la garde (revue d’architecture S295)', () => {
+  const texte = (l: unknown) => JSON.stringify(l)
+
+  it('un lot que le schéma d’aujourd’hui ne lit plus est dit illisible, pas introuvable', () => {
+    const casse = { ...lot, propositions: [{ ...lot.propositions[0], verifieLe: 'hier' }] }
+    const index = indexerLots([{ chemin: 'curation/essai.json', texte: texte(casse) }], () => 'abcdef012345')
+    expect(index.lots.size).toBe(0)
+    expect(index.illisibles.get('essai')).toMatch(/verifieLe/)
+    const r = verifierDonnees(BASE, [{ nom: 'a.json', accord, lot: undefined, illisible: index.illisibles.get('essai') }], attendu([1]))
+    expect(r.ok).toBe(false)
+    expect(!r.ok && r.erreurs.join()).toMatch(/lot « essai » illisible avec le schéma d’aujourd’hui/)
+    expect(!r.ok && r.erreurs.join()).not.toMatch(/introuvable/)
+  })
+
+  it('deux fichiers d’un même nom de lot sont refusés : le dernier lu gagnait sans bruit', () => {
+    const index = indexerLots([
+      { chemin: 'curation/a.json', texte: texte(lot) },
+      { chemin: 'curation/b.json', texte: texte(lot) },
+    ], () => 'abcdef012345')
+    expect(index.doublons).toEqual(['lot « essai » : curation/a.json et curation/b.json'])
+    // Même quand l'un des deux ne se lit plus.
+    const casse = { ...lot, propositions: [{ ...lot.propositions[0], verifieLe: 'hier' }] }
+    const mixte = indexerLots([
+      { chemin: 'curation/a.json', texte: texte(lot) },
+      { chemin: 'curation/c.json', texte: texte(casse) },
+    ], () => 'abcdef012345')
+    expect(mixte.doublons).toEqual(['lot « essai » : curation/a.json et curation/c.json'])
+  })
+
+  it('un JSON qui n’est pas un lot (candidats OSM bruts) n’est ni lot, ni illisible', () => {
+    const index = indexerLots([
+      { chemin: 'curation/osm.json', texte: '{"elements":[]}' },
+      { chemin: 'curation/rompu.json', texte: '{' },
+    ], () => 'abcdef012345')
+    expect(index.lots.size).toBe(0)
+    expect(index.illisibles.size).toBe(0)
   })
 })

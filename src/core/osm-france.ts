@@ -198,15 +198,26 @@ export type FichierOsm = z.infer<typeof fichierOsmSchema>
 export function validerFichierOsm(
   contenu: unknown,
   nomsDuFichier: ReadonlySet<string>,
+  /**
+   * Les fiches du fichier, pour la règle « même brasserie » (nom voisin, à
+   * moins de `RAYON_MEME_BRASSERIE_KM`) : elle ne tournait que si l'on
+   * pensait à lancer `outils/osm-retirer.ts` (revue d'architecture S295,
+   * §6quater). Le build la passe toujours.
+   */
+  fiches: readonly Pick<Brasserie, 'n' | 'lat' | 'lon'>[] = [],
 ): { ok: true } | { ok: false; erreurs: string[] } {
   const r = fichierOsmSchema.safeParse(contenu)
   if (!r.success) return { ok: false, erreurs: r.error.issues.map((i) => `${i.path.join('.')} : ${i.message}`) }
   const erreurs: string[] = []
   const vus = new Set<string>()
-  for (const [nom, osm] of r.data.brasseries) {
+  for (const ligne of r.data.brasseries) {
+    const [nom, osm] = ligne
     if (nomsDuFichier.has(nom)) erreurs.push(`${osm} : « ${nom} » est déjà un nom du fichier`)
     if (vus.has(nom)) erreurs.push(`${osm} : « ${nom} » est en double`)
     vus.add(nom)
+    const [, , , , lat, lon] = ligne
+    const meme = fiches.find((b) => b.n !== nom && designeLaFiche({ nom, lat, lon }, b))
+    if (meme !== undefined) erreurs.push(`${osm} : « ${nom} » désigne la fiche « ${meme.n} » (npx tsx outils/osm-retirer.ts)`)
   }
   return erreurs.length === 0 ? { ok: true } : { ok: false, erreurs }
 }
