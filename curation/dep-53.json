@@ -15,12 +15,13 @@
     "note": "Brasserie artisanale de Pré-en-Pail, d'après l'office de tourisme ; rien sur la vente ni l'accueil.",
     "addr": "ZA de la Corniche de Pail, 53140 Pré-en-Pail-Saint-Samson",
     "src": "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-cousin",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-cousin"
+    "https://atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-cousin",
+    "https://data.geopf.fr/geocodage/search?q=Pr%C3%A9-en-Pail-Saint-Samson&type=municipality&limit=5"
    ],
    "extrait": "ZA de la Corniche de Pail 53140 PRE-EN-PAIL-SAINT-SAMSON",
    "choix": "Fiche de tourisme seulement. Même brasserie que la société sirene:828960948. L'enseigne porte le nom de famille du brasseur, que la page nomme : à toi de dire si elle peut être publiée."
@@ -38,12 +39,13 @@
     "note": "Brasserie coopérative certifiée Nature et Progrès ; la fiche de l'office de tourisme cite une boutique, sans dire quand ni comment on y achète.",
     "addr": "ZA du Mottay, route de Sacé, 53240 Montflours",
     "src": "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/"
+    "https://www.laval-tourisme.com/en/touristic_sheet/brasserie-associative-de-montflours-bam-montflours-en-5521690/",
+    "https://data.geopf.fr/geocodage/search?q=Montflours&type=municipality&limit=5"
    ],
    "extrait": "Nature et Progrès certified cooperative brewery",
    "choix": "Fiche de tourisme seulement, qui marque ses horaires « non garantis » ; seul numéro, un mobile."
@@ -122,7 +124,7 @@
     "note": "Brasserie lancée en 2021 à Lassay-les-Châteaux, bières Courbette, d'après l'office de tourisme ; rien sur la vente ni l'accueil.",
     "addr": "Lassay-les-Châteaux",
     "src": "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -140,7 +142,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers"
+    "https://www.destination-mayenne.com/en/get-to-know-us/holidaymakers-favourites/local-specialities/craft-beers",
+    "https://data.geopf.fr/geocodage/search?q=Lassay-les-Ch%C3%A2teaux&type=municipality&limit=5"
    ],
    "extrait": "Brasserie des Nico offers Courbette: blond, white, amber and brown beers",
    "choix": "Page de tourisme seulement ; ni adresse ni contact. Position au centre de la commune."

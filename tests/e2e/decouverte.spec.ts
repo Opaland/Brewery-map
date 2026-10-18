@@ -194,7 +194,7 @@ test.describe('la carte (marqueurs groupés)', () => {
   test('deux brasseries au même endroit restent un groupe « 2 »', async ({ page }) => {
     await page.goto('/')
     await versLaCarte(page)
-    await page.getByTestId('recherche').fill('fontaines')
+    await page.getByTestId('recherche').fill('fontaines-sur-saone')
     await expect(lignes(page)).toHaveCount(2)
     const groupe = page.getByTestId('carte').locator('.marqueur-groupe')
     await expect(groupe).toHaveText('2')

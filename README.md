@@ -14,10 +14,10 @@ consultable hors connexion.
 
 ## Ce qu'elle fait
 
-- **Toute la France** : 283 fiches vérifiées dans 18 départements (01, 07,
-  14, 22, 26, 27, 29, 35, 38, 42, 43, 50, 56, 61, 69, 71, 73, 76), et 912
-  brasseries repérées sur OpenStreetMap ailleurs, affichées « À confirmer », sur une liste et une
-  carte.
+- **Toute la France** : 358 fiches vérifiées dans 24 départements (01, 07,
+  14, 22, 26, 27, 29, 35, 37, 38, 42, 43, 44, 49, 50, 53, 56, 61, 69, 71, 72,
+  73, 76, 85), et 878 brasseries repérées sur OpenStreetMap ailleurs,
+  affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
   les 34 960 communes de France ; les distances se comptent depuis là.
 - **Filtrer** par distance, par ce qu'on peut y faire, par type de bière ;
@@ -33,7 +33,8 @@ Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
 139 sont placées au centre de leur commune selon l'IGN, faute d'adresse
-vérifiée ; 36 brasseries de Normandie et 81 de Bretagne sont ajoutées. Les autres
+vérifiée ; 36 brasseries de Normandie, 81 de Bretagne et 75 des Pays de la Loire et
+d'Indre-et-Loire sont ajoutées. Les autres
 propositions attendent sa relecture (`curation/`).
 
 ## Ce qui reste dans le téléphone

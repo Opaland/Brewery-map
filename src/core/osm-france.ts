@@ -387,3 +387,26 @@ export function retirerCeQuiADesFiches(
   })
   return { couche: { ...couche, brasseries: gardees }, retirees }
 }
+
+/**
+ * Les objets OSM qu'un lot dit être une de ses fiches, dans le `choix` d'un
+ * ajout : « Même brasserie que le point OSM node/… » (revue adverse S271 :
+ * deux doublons que `retirerCeQuiADesFiches` ne voyait pas). Seules les
+ * fiches présentes dans le fichier comptent ; seul le premier objet cité
+ * juste après la formule est retenu.
+ */
+export function equivalencesDesLots(
+  lots: readonly { ajouts?: readonly { fiche: { n: string }; choix?: string }[] }[],
+  noms: ReadonlySet<string>,
+): Map<string, string> {
+  const memes = new Map<string, string>()
+  for (const lot of lots) {
+    for (const a of lot.ajouts ?? []) {
+      if (!noms.has(a.fiche.n) || a.choix === undefined) continue
+      for (const m of a.choix.matchAll(/Même brasserie que le point OSM ((?:node|way|relation)\/\d+)/g)) {
+        if (m[1] !== undefined) memes.set(m[1], a.fiche.n)
+      }
+    }
+  }
+  return memes
+}
