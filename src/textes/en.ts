@@ -302,6 +302,8 @@ export const EN: Readonly<Record<string, string>> = {
   " La commune est déduite de sa position : OpenStreetMap ne la donne pas.": " The town is deduced from its position: OpenStreetMap does not give it.",
   "Mousse de Poche — brasseries artisanales": "Mousse de Poche — craft breweries",
   "Chargement de la carte…": "Loading the map…",
+  "Voir son téléphone sur Google Maps": "See its phone number on Google Maps",
+  "(une recherche par son nom et sa commune : vérifiez que c’est la bonne brasserie)": "(a search by its name and town: check it is the right brewery)",
   "Chercher sur Untappd": "Search on Untappd",
   "(une recherche par son nom : pas encore de lien vérifié vers sa page ; Untappd peut demander de se connecter)": "(a search by its name: no checked link to its page yet; Untappd may ask you to log in)",
   "Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.": "Beer styles: not listed yet. The Untappd search, above, may show some.",

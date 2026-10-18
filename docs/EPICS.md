@@ -429,11 +429,54 @@ vérifiée ».
 | S261 | Les lots départementaux portent les contacts lus (site, Untappd, téléphone) |
 | S262 | Les lots départementaux portent les horaires lus |
 
+### E26 — Trancher par la règle de Cédric *(persona : Cédric ; décisions du 18/10, `docs/DECISIONS.md`)*
+
+| Sprint | Story |
+|---|---|
+| S264 | La règle écrite (« site officiel + contrôlé », accord par règle, PR listant ses lignes) |
+| S265 | Le tri des lots par la règle (`curation/decision-regle.md`) |
+| S266 | Les propositions retenues entrent dans `data/` (PR #100) |
+| S267 | Le téléphone que montre Google Maps (Cédric, 18/10 : « pour les téléphones affichent celle dans Google maps ») |
+| S268 | Les fiches sans adresse vérifiée au centre IGN de leur commune ; `libellePrecision` redevient vrai |
+| S269 | Les fiches nouvelles des lots départementaux : Normandie |
+| S270 | Bretagne |
+| S271 | Pays de la Loire et Indre-et-Loire |
+| S272 | La liste « à montrer » présentée à Cédric en une fois |
+
+### E27 — Repris des dépôts frères *(Sentiers, ÉtapeForge ; inventaire du 18/10)*
+
+Chaque ligne cite le fichier du dépôt frère où l'idée a été lue ; elle n'y
+est retenue que si rien dans Mousse de Poche ne la couvre ni ne la prévoit.
+L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md`.
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S273 | Transparence : chaque hôte de la CSP est nommé dans le texte de confidentialité, par un test | Sentiers `tests/e2e/transparence.spec.ts` |
+| S274 | Le point de rupture à 899 et 900 px, une seule règle (CSS, `App.tsx`, `Carte.tsx`) et un test aux deux largeurs | Sentiers `tests/e2e/point-de-rupture.spec.ts` |
+| S275 | Demander au navigateur de garder favoris, carnet et notes (`navigator.storage.persist`), après la première donnée gardée | Sentiers `tests/e2e/stockage.spec.ts` |
+| S276 | Sans JavaScript : le bloc `<noscript>` gardé par un test | Sentiers `tests/e2e/sans-js.spec.ts` |
+| S277 | Une sonde de nuit contre les vrais services (page publiée, tuiles, communes, géocodeur, Overpass), qui nomme l'hôte en panne | ÉtapeForge `.github/workflows/demo-online.yml` ; Sentiers `tests/e2e/reel.spec.ts` |
+| S278 | L'audit de la suite e2e (attentes fixes, assertions nues, identifiants morts) ; les 17 `waitForTimeout` remplacés | Sentiers `scripts/audit-e2e.mjs` |
+| S279 | La liste à dérouler sur un vrai téléphone avant une livraison **[H]** | Sentiers `docs/RELEASE.md` |
+| S280 | Le compte des requêtes par hôte dans les outils de curation | ÉtapeForge `pipeline/apiUsage.js` |
+| S281 | La continuité des services tiers : ce dont on dépend, ce qui casse s'il tombe | ÉtapeForge `docs/CONTINUITE-APIS.md` |
+| S282 | Le fuzz des entrées non sûres (sauvegarde importée, lien partagé, signalement) | ÉtapeForge `test/serverFuzz.test.js` |
+| S283 | `npm audit --audit-level=high` dans la CI | ÉtapeForge `.github/workflows/ci.yml` |
+| S284 | Un agent qui relit les promesses (« jamais », « aucun », « parce que ») | Sentiers `.claude/agents/relecteur-de-promesses.md` |
+| S285 | Un agent qui trouve les règles jumelles et mesure leur désaccord | Sentiers `.claude/agents/chasseur-de-jumeaux.md` |
+| S286 | Un test singe rejouable par graine, hors CI, sans rien envoyer | Sentiers `tests/e2e/monkey.spec.ts` ; ÉtapeForge `scripts/monkey.js` |
+| S287 | Les règles d'écran : recouvrements et débordements à quatre largeurs, en gros texte compris | Sentiers `tests/e2e/regles-d-ecran.spec.ts` |
+| S288 | Deux angles de revue de plus : les workflows CI, le contributeur externe | ÉtapeForge `.claude/agents/revue-personas.md` |
+| S289 | La couverture de `src/core` mesurée ; le seuil, Cédric le décide **[C]** | Sentiers `README.md` § Qualité |
+| S290 | Un plancher de taille de texte, mesuré, décidé et écrit **[C]** | Sentiers `tests/e2e/regles-typographiques.spec.ts` |
+| S291 | Un protocole de test avec de vraies personnes, sans rien envoyer **[C][H]** | Sentiers `docs/PROTOCOLE_TEST.md` |
+| S292 | « La question en toutes lettres », comprise sur l'appareil, vers les filtres qui existent (étude S99) | Sentiers `docs/IA_LOCALE.md`, `src/core/intention.ts` |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S260, la France entière (E25).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27).
 
 ## Ordre d'exécution
 

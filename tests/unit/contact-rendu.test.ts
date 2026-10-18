@@ -14,12 +14,29 @@ const base = LIGNES_REELLES[0] as unknown as Brasserie
 const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Contact, { brasserie: b }))
 
 describe('le bloc contact', () => {
-  it('sans contact : « non renseigné », et seulement la recherche Untappd (S51)', () => {
+  it('sans contact : « non renseigné », le téléphone sur Google Maps (S267) et la recherche Untappd (S51)', () => {
     const html = rendu(base)
     expect(html).toContain('Téléphone : non renseigné.')
     const liens = html.match(/href="[^"]*"/g) ?? []
-    expect(liens).toEqual(['href="https://untappd.com/search?q=Caribrew&amp;type=brewery"'])
+    expect(liens).toEqual([
+      'href="https://www.google.com/maps/search/?api=1&amp;query=Caribrew+Soucieu-en-Jarrest"',
+      'href="https://untappd.com/search?q=Caribrew&amp;type=brewery"',
+    ])
+    expect(html).toContain('Voir son téléphone sur Google Maps')
     expect(html).toContain('Chercher sur Untappd')
+  })
+
+  it('un contact sans téléphone offre aussi Google Maps ; un téléphone vérifié l’en dispense (S267)', () => {
+    const sansTel = rendu({
+      ...base,
+      contact: { site: 'https://www.exemple.fr/', source: 'https://www.exemple.fr/', verifieLe: '2026-10-17' },
+    })
+    expect(sansTel).toContain('Voir son téléphone sur Google Maps')
+    const avecTel = rendu({
+      ...base,
+      contact: { tel: '04 72 50 88 53', source: 'https://www.exemple.fr/', verifieLe: '2026-10-17' },
+    })
+    expect(avecTel).not.toContain('google.com/maps')
   })
 
   it('un lien Untappd vérifié remplace la recherche (S51)', () => {

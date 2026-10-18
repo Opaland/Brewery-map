@@ -1,5 +1,6 @@
 import { citeUnNumero, hoteDeSource, libelleVerification, lienTelephone } from './core/fiche'
 import type { Brasserie } from './core/schema'
+import { rechercheGoogleMaps } from './core/google-maps'
 import { rechercheUntappd } from './core/untappd'
 import { t } from './i18n'
 
@@ -25,10 +26,22 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
       {t('(une recherche par son nom : pas encore de lien vérifié vers sa page ; Untappd peut demander de se connecter)')}
     </p>
   )
+  // Sans téléphone vérifié, celui que montre Google Maps, dit comme une
+  // recherche (S267).
+  const telephoneMaps = (
+    <p className="fiche-aide" data-testid="telephone-google-maps">
+      <a href={rechercheGoogleMaps(brasserie.n, brasserie.c)} target="_blank" rel="noopener noreferrer">
+        {t('Voir son téléphone sur Google Maps')}
+        {pour}
+      </a>{' '}
+      {t('(une recherche par son nom et sa commune : vérifiez que c’est la bonne brasserie)')}
+    </p>
+  )
   if (contact === undefined) {
     return (
       <div className="fiche-contact" data-testid="fiche-contact">
         <p>{sansTelephone}</p>
+        {telephoneMaps}
         {chercher}
       </div>
     )
@@ -41,6 +54,7 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
         </a>
       )}
       {contact.tel === undefined && <p>{sansTelephone}</p>}
+      {contact.tel === undefined && telephoneMaps}
       <p className="fiche-liens">
         {contact.site !== undefined && (
           <a href={contact.site} target="_blank" rel="noopener noreferrer">
