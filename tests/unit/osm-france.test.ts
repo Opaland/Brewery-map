@@ -288,6 +288,16 @@ describe('retirerCeQuiADesFiches (S269 : une brasserie OSM devenue fiche quitte 
     expect(validerFichierOsm(r.couche, new Set(['Brasserie Sagesse', 'Brasserie Ragnar'])).ok).toBe(true)
   })
 
+  it('retire un objet OSM qu’un lot a dit être une fiche, sous un nom sans rapport ; seulement si la fiche est là (revue adverse S270 : « Penn ar Batz », « Microbrasserie PAB »)', () => {
+    const penn: FichierOsm['brasseries'][number] = ['Penn ar Batz', 'node/9954771298', 'Île-de-Batz', '29', 48.745, -4.011, '', '', 0]
+    const pab = fiche('Microbrasserie PAB', 48.745, -4.013)
+    const memes = new Map([['node/9954771298', 'Microbrasserie PAB']])
+    const avec = retirerCeQuiADesFiches({ ...couche, brasseries: [penn] }, [pab], memes)
+    expect(avec.retirees).toEqual([{ osm: 'node/9954771298', nom: 'Penn ar Batz', fiche: 'Microbrasserie PAB' }])
+    const sans = retirerCeQuiADesFiches({ ...couche, brasseries: [penn] }, [], memes)
+    expect(sans.couche.brasseries).toHaveLength(1)
+  })
+
   it('retire aussi la même brasserie sous un autre nom, quand le site est le même (revue adverse S269 : « Les Travailleurs de l’Amer »)', () => {
     const amer: FichierOsm['brasseries'][number] = ['Les Travailleurs de l’Amer', 'way/100569088', 'Les Pieux', '50', 49.51, -1.8, '', 'https://lestravailleursdelamer.com/', 0]
     const loin: FichierOsm['brasseries'][number] = ['Autre nom', 'node/9', 'Paris', '75', 48.85, 2.35, '', 'https://lestravailleursdelamer.com/', 0]

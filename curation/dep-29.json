@@ -15,7 +15,7 @@
     "note": "Brasserie bio ; vente ou consommation sur place non établie.",
     "addr": "La Feuillée",
     "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "ipa"
@@ -24,7 +24,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h"
+    "https://fr.gaultmillau.com/fr/artisans/brasserie-an-alac-h",
+    "https://data.geopf.fr/geocodage/search?q=La+Feuill%C3%A9e&type=municipality&limit=5"
    ],
    "extrait": "À 285 m d'altitude, c'est la brasserie la plus haute de Bretagne.",
    "choix": "Annuaire seulement ; le site donné par OSM répondait 503. Position au centre de La Feuillée."
@@ -88,7 +89,7 @@
     "note": "Visite avec dégustation au bar « Le Bek » de la brasserie, et bar-boutique pour les particuliers.",
     "addr": "Concarneau",
     "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.brasserie-bretagne.fr/",
@@ -98,7 +99,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-bretagne.fr/visiter-la-brasserie/"
+    "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
+    "https://data.geopf.fr/geocodage/search?q=Concarneau&type=municipality&limit=5"
    ],
    "extrait": "un moment d'échanges et de dégustation dans notre bar “Le Bek”",
    "choix": "Bières Britt, Sant Erwann, Dremmwel, Ar-Men. Même brasserie que le point OSM way/82190365 (placé à Trégunc). Position au centre de Concarneau."
@@ -140,7 +142,7 @@
     "note": "Brasserie en activité d'après son site ; vente sur place et horaires non lus.",
     "addr": "Lestevennok, 29260 Plouider",
     "src": "https://www.distribilh.bzh/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.distribilh.bzh/",
@@ -150,7 +152,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.distribilh.bzh/"
+    "https://www.distribilh.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=Plouider&type=municipality&limit=5"
    ],
    "extrait": "D'Istribilh, Lestevennok, 29260 Plouider"
   },
@@ -191,7 +194,7 @@
     "note": "Soirées brewpub chaque vendredi de 16 h à 22 h : bières à la pression sur place, bouteilles à emporter.",
     "addr": "Lieu-dit Messouflin, 29810 Ploumoguer",
     "src": "https://arvarus.bzh/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "stout"
@@ -227,7 +230,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://arvarus.bzh/"
+    "https://arvarus.bzh/",
+    "https://data.geopf.fr/geocodage/search?q=Ploumoguer&type=municipality&limit=5"
    ],
    "extrait": "chaque vendredi de 16h à 22h pour déguster nos bières directement sorties du brassin"
   },
@@ -244,7 +248,7 @@
     "note": "Bières proposées dans les locaux de la brasserie à Brest et chez des revendeurs ; vente ou consommation sur place non établie.",
     "addr": "Brest",
     "src": "https://enbieresinconnues.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://enbieresinconnues.fr/",
@@ -254,7 +258,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://enbieresinconnues.fr/"
+    "https://enbieresinconnues.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Brest&type=municipality&limit=5"
    ],
    "extrait": "au sein de nos locaux à Brest et dans les caves, épiceries, bars et restaurant de la région",
    "choix": "Position au centre de Brest : l'adresse n'est pas relue."
@@ -387,7 +392,7 @@
     "note": "Boutique de la brasserie ouverte le samedi de 10 h à 12 h ; consommation sur place non établie.",
     "addr": "Kermenguy, 29100 Le Juch",
     "src": "https://brasseriediaoul.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://brasseriediaoul.com/",
@@ -410,7 +415,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://brasseriediaoul.com/"
+    "https://brasseriediaoul.com/",
+    "https://data.geopf.fr/geocodage/search?q=Le+Juch&type=municipality&limit=5"
    ],
    "extrait": "NOUS VOUS ACCUEILLONS CHAQUE SAMEDI DE 10H à 12h DANS NOTRE BOUTIQUE"
   },
@@ -461,7 +467,7 @@
     "note": "Microbrasserie de l'île de Batz ; la page ne dit pas si l'on peut acheter ou consommer sur place.",
     "addr": "Rue Neuve, 29253 Île-de-Batz",
     "src": "https://www.microbrasseriepab.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.microbrasseriepab.com/",
@@ -471,7 +477,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.microbrasseriepab.com/"
+    "https://www.microbrasseriepab.com/",
+    "https://data.geopf.fr/geocodage/search?q=%C3%8Ele-de-Batz&type=municipality&limit=5"
    ],
    "extrait": "Rue Neuve, 29253 Ile de Batz - France",
    "choix": "Même brasserie que le point OSM node/12985439390."
@@ -527,12 +534,13 @@
     "note": "Vente des produits sur place, d'après un annuaire de producteurs ; consommation sur place non établie.",
     "addr": "Saint-Urbain",
     "src": "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html"
+    "https://www.jours-de-marche.fr/producteur-local/brasserie-de-trevarn-2390.html",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Urbain&type=municipality&limit=5"
    ],
    "extrait": "Ce producteur vend ses produits sur place",
    "choix": "Annuaire seulement ; le site ferme-de-trevarn.fr la dit à Saint-Urbain. Même brasserie que le point OSM node/5075303526 (Dirinon), d'après le site. Le site porte aussi « Merlin-Mignonne », sans citer Plougastel : le point « Brasserie du Merlin » (node/7496988886) n'est pas relié."

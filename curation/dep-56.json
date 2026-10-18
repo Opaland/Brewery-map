@@ -78,7 +78,7 @@
     "note": "Le site ne se lit que par son titre ; vente, horaires et bières non lus.",
     "addr": "Sarzeau",
     "src": "https://www.microbrasserie-vol56.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://www.microbrasserie-vol56.fr/",
@@ -88,7 +88,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.microbrasserie-vol56.fr"
+    "https://www.microbrasserie-vol56.fr",
+    "https://data.geopf.fr/geocodage/search?q=Sarzeau&type=municipality&limit=5"
    ],
    "extrait": "Microbrasserie VOL 56 | bières artisanales | Sarzeau, France",
    "choix": "Site en JavaScript. Position au centre de Sarzeau."
@@ -106,7 +107,7 @@
     "note": "Brasserie qui distribue dans le département ; rien sur la vente sur place ni les horaires.",
     "addr": "Lanvaux, 56220 Saint-Gravé",
     "src": "http://www.labambelle.com",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "http://www.labambelle.com/",
@@ -116,7 +117,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "http://www.labambelle.com"
+    "http://www.labambelle.com",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Grav%C3%A9&type=municipality&limit=5"
    ],
    "extrait": "dans le département et quelques communes des départements voisins"
   },
@@ -175,7 +177,7 @@
     "note": "Micro-brasserie artisanale avec gîte d'étape ; ni vente ni horaires sur la page lue.",
     "addr": "Lann Guilloux, 56480 Saint-Aignan",
     "src": "https://anebrasseur.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://anebrasseur.fr/",
@@ -185,7 +187,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://anebrasseur.fr/"
+    "https://anebrasseur.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Aignan&type=municipality&limit=5"
    ],
    "extrait": "Micro-Brasserie Artisanale",
    "choix": "Téléphone publié : 02 56 62 61 03."
@@ -203,12 +206,13 @@
     "note": "Visite et dégustation à la brasserie, bar le vendredi soir, d'après l'office de tourisme ; le site annonce la vente directe le jeudi et le vendredi.",
     "addr": "Surzur",
     "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/"
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
+    "https://data.geopf.fr/geocodage/search?q=Surzur&type=municipality&limit=5"
    ],
    "extrait": "Bar le vendredi soir",
    "choix": "Position au centre de Surzur."
@@ -226,12 +230,13 @@
     "note": "Petite brasserie depuis 2020 ; bières vendues en épiceries, caves et marchés. Vente sur place non lue.",
     "addr": "Saint-Léry",
     "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/"
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-akene-saint-lery-fr-5047179/",
+    "https://data.geopf.fr/geocodage/search?q=Saint-L%C3%A9ry&type=municipality&limit=5"
    ],
    "extrait": "Petite brasserie produisant des bières au style marqué depuis 2020",
    "choix": "Fiche de tourisme seulement. Position au centre de Saint-Léry."
@@ -249,7 +254,7 @@
     "note": "Vente directe annoncée, sans lieu ni horaires sur la page.",
     "addr": "Locoal-Mendon",
     "src": "https://brasserie-gwennili.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "site": "https://brasserie-gwennili.fr/",
@@ -259,7 +264,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://brasserie-gwennili.fr/"
+    "https://brasserie-gwennili.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Locoal-Mendon&type=municipality&limit=5"
    ],
    "extrait": "En vente directe",
    "choix": "Un agent proposait « acheter seulement » : la page ne dit pas où. Position au centre de Locoal-Mendon."
@@ -277,12 +283,13 @@
     "note": "Ses bières sont servies « de la cuve au verre » au restaurant Ivre Mer, à Belz ; le lieu de la brasserie n'est pas établi.",
     "addr": "Belz",
     "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/"
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/ivre-mer-belz-fr-6331070/",
+    "https://data.geopf.fr/geocodage/search?q=Belz&type=municipality&limit=5"
    ],
    "extrait": "les bières bretonnes de la Brasserie de l’Hermine, servies « de la cuve au verre »",
    "choix": "Page d'un restaurant seulement. Position au centre de Belz."
@@ -300,7 +307,7 @@
     "note": "Bières vendues dans la boutique attenante à la brasserie ; aucune dégustation lue sur cette page.",
     "addr": "ZA Kervern, 56570 Locmiquélic",
     "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -318,7 +325,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/"
+    "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-artisanale-yermat-bier-locmiquelic-fr-5305460/",
+    "https://data.geopf.fr/geocodage/search?q=Locmiqu%C3%A9lic&type=municipality&limit=5"
    ],
    "extrait": "les bières sont vendues directement dans la boutique attenante",
    "choix": "Même brasserie que le point OSM node/9034736574 ; une autre fiche de tourisme dit « Achat, visite et dégustation possible sur place »."
@@ -428,12 +436,13 @@
     "note": "Brasserie de l'île de Groix ; la fiche classe « vente à la ferme » sans phrase qui la décrive.",
     "addr": "ZA Le Gripp, 56590 Groix",
     "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX"
+    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+    "https://data.geopf.fr/geocodage/search?q=Groix&type=municipality&limit=5"
    ],
    "extrait": "ZA Le Gripp 56590 ILE DE GROIX",
    "choix": "SIRENE déclare Locqueltas. Téléphone de la fiche : 09 51 12 41 23."
@@ -504,7 +513,7 @@
     "note": "Commande en ligne et retrait à la brasserie (Click & Collect) ; consommation sur place non mentionnée.",
     "addr": "Theix-Noyalo",
     "src": "https://www.brasserie-domani.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -535,7 +544,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-domani.fr/"
+    "https://www.brasserie-domani.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Theix-Noyalo&type=municipality&limit=5"
    ],
    "extrait": "Click & Collect directement à la brasserie",
    "choix": "Position au centre de Theix-Noyalo."
@@ -576,7 +586,7 @@
     "note": "Nano-brasserie bio ; vente ou consommation sur place non établie.",
     "addr": "Grand-Champ",
     "src": "https://untappd.com/MicrobrasserieHorla",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "sour"
@@ -593,7 +603,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://untappd.com/MicrobrasserieHorla"
+    "https://untappd.com/MicrobrasserieHorla",
+    "https://data.geopf.fr/geocodage/search?q=Grand-Champ&type=municipality&limit=5"
    ],
    "extrait": "Grand-Champ, 56 - BZH",
    "choix": "Page Untappd seulement. Une autre entreprise « Brasserie Horla » est déclarée à Grand-Champ (personne:6), à une autre adresse : lien non établi. Position au centre de Grand-Champ."
