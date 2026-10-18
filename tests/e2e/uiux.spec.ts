@@ -154,6 +154,9 @@ test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ p
   await versLaCarte(page)
   await page.locator('button.ligne').first().click()
   const repere = page.locator('.marqueur-origine')
+  // Le bouton d'abord à l'écran : depuis S295 il est plus bas dans la
+  // fiche, et le clic ferait défiler la page, ce qui déplace aussi le repère.
+  await page.getByTestId('bouton-favori').scrollIntoViewIfNeeded()
   // La carte s'est posée sur la brasserie choisie : deux mesures à 200 ms
   // d'écart qui concordent, plutôt qu'une attente fixe (§1bis, revue S295).
   let avant = await repere.boundingBox()

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  adresseDeRue,
   avertissementHoraires,
   citeUnNumero,
   hoteDeSource,
@@ -86,5 +87,19 @@ describe('avertissementHoraires', () => {
     const contact = { tel: '04 78 33 84 95', source: 'https://x.fr', verifieLe: '2026-10-16' }
     expect(avertissementHoraires({ ...sans, contact })).toContain('et appelez en cas de doute.')
     expect(avertissementHoraires({ note: 'Contact : 06 95 10 82 98.' })).toContain('et appelez en cas de doute.')
+  })
+})
+
+describe('adresseDeRue (S295 : 125 fiches n’ont que la commune pour adresse)', () => {
+  const b = (addr: string, c = 'Oullins') => ({ addr, c })
+  it('la commune seule, ou son code postal et elle, n’est pas une adresse', () => {
+    expect(adresseDeRue(b('Oullins'))).toBe(false)
+    expect(adresseDeRue(b(' oullins '))).toBe(false)
+    expect(adresseDeRue(b('01110 Hauteville-Lompnes', 'Hauteville-Lompnes'))).toBe(false)
+    expect(adresseDeRue(b('Saint-Étienne', 'Saint-Etienne'))).toBe(false)
+  })
+  it('une rue, un lieu-dit ou une zone d’activités en est une', () => {
+    expect(adresseDeRue(b('12 rue de la Bière, 69600 Oullins'))).toBe(true)
+    expect(adresseDeRue(b('Kermenguy, 29100 Le Juch', 'Le Juch'))).toBe(true)
   })
 })

@@ -27,10 +27,11 @@ export const SUITE_SIGNALEMENT =
 export const SANS_COMPTE = 'Pas de compte GitHub ? Il n’y a pas d’autre moyen pour l’instant.'
 
 /**
- * Garde-fou de test, pas une limite connue de GitHub (non mesurée) :
- * 2 000 caractères, sous les 2 083 d'Internet Explorer, valeur prudente
- * d'usage pour un lien. Mesuré le 16/10 : 1 446 au plus sur les 166 lignes
- * (929 le 15/10, avant le texte sur la suite donnée au signalement).
+ * Pas une limite connue de GitHub (non mesurée) : 2 000 caractères, sous
+ * les 2 083 d'Internet Explorer, valeur prudente d'usage pour un lien.
+ * Mesuré le 16/10 : 1 446 au plus sur les 166 lignes. Tenue par
+ * `lienSignalement` lui-même depuis #54 : une fiche future aux champs longs
+ * ne la dépasse pas non plus.
  */
 export const LONGUEUR_MAX_URL = 2000
 
@@ -76,22 +77,59 @@ const PRECISION: Readonly<Record<Brasserie['coordPrecision'], string>> = {
   osm: 'placé sur OpenStreetMap',
 }
 
+/** Au moins ce nombre de caractères reste d'un champ coupé : assez pour le reconnaître. */
+const COUPE_MIN = 8
+
+/** Coupé par caractères (pas par unités UTF-16 : un emoji n'est pas coupé en deux). */
+function couper(texte: string, longueur: number): string {
+  const car = Array.from(texte)
+  return car.length <= longueur ? texte : `${car.slice(0, longueur - 1).join('')}…`
+}
+
+/**
+ * Le lien tient toujours sous `LONGUEUR_MAX_URL` (#54, revue code S10 : la
+ * garde ne valait que pour les lignes présentes). Trop long, le champ le plus
+ * long est raccourci, puis le suivant, jusqu'à tenir ; un champ garde au
+ * moins `COUPE_MIN` caractères, assez pour reconnaître la fiche.
+ */
 export function lienSignalement(b: Brasserie): string {
-  const fiche = [
-    '## La fiche telle qu’affichée',
-    `- Nom : ${b.n}`,
-    `- Commune : ${b.c} (${b.d})`,
-    `- Adresse : ${b.addr}`,
-    `- Ce qu’on peut y faire : ${CATEGORIES[b.cat]}`,
-    `- Source : ${b.src === '' ? 'aucune' : b.src}`,
-    `- Vérifiée le : ${b.verifieLe ?? 'non renseigné'}`,
-    // Ce qu'une brasserie vient le plus souvent corriger : sans ces lignes,
-    // elle devait redire ce que la fiche affiche (S295).
-    `- Confiance : ${CONFIANCE[b.conf]}`,
-    `- Point sur la carte : ${PRECISION[b.coordPrecision]}`,
-    ...(b.fermee === undefined ? [] : [`- Dite fermée, selon : ${b.fermee.source}`]),
-  ].join('\n')
-  return lien(`Signalement : ${b.n} (${b.c})`, `${fiche}\n\n${QUESTIONS}\n`)
+  // Tous les champs recopiés, y compris ceux que le schéma borne déjà
+  // (département, date) : la garde ne dépend pas de lui.
+  const champs: Record<'n' | 'c' | 'd' | 'addr' | 'src' | 'verifie' | 'fermee', string> = {
+    n: b.n,
+    c: b.c,
+    d: b.d,
+    verifie: b.verifieLe ?? 'non renseigné',
+    addr: b.addr,
+    src: b.src,
+    fermee: b.fermee?.source ?? '',
+  }
+  const construire = () => {
+    const fiche = [
+      '## La fiche telle qu’affichée',
+      `- Nom : ${champs.n}`,
+      `- Commune : ${champs.c} (${champs.d})`,
+      `- Adresse : ${champs.addr}`,
+      `- Ce qu’on peut y faire : ${CATEGORIES[b.cat]}`,
+      `- Source : ${champs.src === '' ? 'aucune' : champs.src}`,
+      `- Vérifiée le : ${champs.verifie}`,
+      // Ce qu'une brasserie vient le plus souvent corriger : sans ces lignes,
+      // elle devait redire ce que la fiche affiche (S295).
+      `- Confiance : ${CONFIANCE[b.conf]}`,
+      `- Point sur la carte : ${PRECISION[b.coordPrecision]}`,
+      ...(b.fermee === undefined ? [] : [`- Dite fermée, selon : ${champs.fermee}`]),
+    ].join('\n')
+    return lien(`Signalement : ${champs.n} (${champs.c})`, `${fiche}\n\n${QUESTIONS}\n`)
+  }
+  let url = construire()
+  while (url.length > LONGUEUR_MAX_URL) {
+    const [cle, valeur] = Object.entries(champs).sort(([, a], [, z]) => Array.from(z).length - Array.from(a).length)[0] ?? ['n', '']
+    const n = Array.from(valeur).length
+    if (n <= COUPE_MIN) break
+    champs[cle as keyof typeof champs] = couper(valeur, Math.max(COUPE_MIN, Math.floor(n * 0.8)))
+    url = construire()
+  }
+  return url
 }
 
 export function lienAjout(): string {

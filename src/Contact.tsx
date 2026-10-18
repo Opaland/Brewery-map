@@ -25,7 +25,7 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
         {t('Chercher sur Untappd')}
         {pour}
       </LienExterne>{' '}
-      {t('(une recherche par son nom : pas encore de lien vérifié vers sa page ; Untappd peut demander de se connecter)')}
+      {t('(Untappd, une application d’avis sur les bières : une recherche par son nom, pas encore de lien vérifié vers sa page ; elle peut demander de se connecter)')}
     </p>
   )
   // Sans téléphone vérifié, celui que montre Google Maps, dit comme une

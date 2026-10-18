@@ -196,10 +196,10 @@ chacun demande une décision ou une vérification de source.
   Montagnarde, Vellavia, Kiltin', Two Dudes). Horaires d'été de La Grange du
   Seigneur : saisons dans la remarque, comme les Ursulines.
 
-- **Ouvert maintenant dans la liste** (revue Hugo S19) : l'état n'est que
-  dans la fiche ; un indicateur ou un filtre dans la liste attend des
-  horaires structurés (48 fiches sur 358 en ont au 18/10 ; revue S295 :
-  à faire en S295 partie 4).
+- ~~**Ouvert maintenant dans la liste** (revue Hugo S19)~~ : fait en S295
+  (`etatPourLaListe`, `tests/e2e/horaires.spec.ts`). Reste un filtre
+  « ouvert maintenant », utile quand plus de 48 fiches sur 358 auront des
+  horaires.
 - ~~**« Centre de la commune »** (revue code S19)~~ : fait en S59. Les points
   ne sont pas des centres (mesure dans `docs/PRECISION.md`) ; la fiche ne le
   promet plus. Reste la question à Cédric : d'où viennent ces points ?

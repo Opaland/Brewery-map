@@ -1,10 +1,13 @@
 import { t } from './i18n'
 import { EnFrancais } from './EnFrancais'
 import { LienExterne } from './LienExterne'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { CATEGORIES } from './core/categories'
 import { formaterDistance } from './core/distance'
+import { etatPourLaListe } from './core/horaires'
+import { motsExpliques } from './core/lexique'
 import {
+  adresseDeRue,
   avertissementHoraires,
   hoteDeSource,
   libelleConfiance,
@@ -20,6 +23,8 @@ import type { Brasserie } from './core/schema'
 import { lienSignalement, SANS_COMPTE, SUITE_SIGNALEMENT } from './core/signalement'
 import { Bieres } from './Bieres'
 import { Contact } from './Contact'
+import { useMinute } from './crochets'
+import { EnBref } from './EnBref'
 import { Horaires } from './Horaires'
 import { YAller } from './YAller'
 import { mouvementReduit } from './mouvement'
@@ -123,46 +128,53 @@ function Fiche({
   const site = siteOsm(brasserie)
   // Le nom de la brasserie, pour qui parcourt les boutons sans la ligne (S295, Inès).
   const pour = <span className="lecteur-seul"> {brasserie.n}</span>
+  const titre = `${idFiche(brasserie.n)}-titre`
+  // S295 (la fiche face à la concurrence, Inès) : d'abord ce qu'on peut y
+  // faire, l'état et le lieu ; puis joindre, quand, où, quoi boire, la
+  // fiabilité ; ce qui est pour soi (favori, carnet, note) ensuite. Chaque
+  // partie a son titre : un lecteur d'écran saute de l'une à l'autre.
   return (
-    <div className="fiche" id={idFiche(brasserie.n)} data-testid="fiche">
-      <div className="depart-actions">
-        {/*
-          Le libellé dit l'action, sans `aria-pressed` : les deux ensemble
-          s'annonçaient « Retirer…, activé », contradictoire (revue code S9).
-        */}
-        <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
-          {favori ? t('★ Retirer de mes favoris') : t('☆ Ajouter à mes favoris')}
-          {pour}
-        </button>
-        {/* Mon carnet (S35) : le jour seulement, gardé sur l'appareil. */}
-        <button type="button" onClick={onBasculerVisite} data-testid="bouton-visite">
-          {visite === undefined
-            ? t('J’y suis allé·e')
-            : t('✓ Visitée le {date} — retirer du carnet', { date: libelleVerification(visite) })}
-          {pour}
-        </button>
-        <BoutonPartager nom={brasserie.n} />
-      </div>
-      {/* Ma note (S36) : pour soi, gardée à la saisie, jamais envoyée. */}
-      <label className="champ fiche-note">
-        <span>{t('Ma note (sur cet appareil seulement)')}</span>
-        <textarea
-          value={note}
-          maxLength={NOTE_MAX}
-          rows={2}
-          onChange={(e) => {
-            onEcrireNote(e.target.value)
-          }}
-          placeholder={t('ex. la blanche était excellente')}
-          data-testid="ma-note"
-        />
-      </label>
+    <section className="fiche" id={idFiche(brasserie.n)} aria-labelledby={titre} data-testid="fiche">
+      <h3 className="lecteur-seul" id={titre}>
+        {t('Fiche de {nom}', { nom: brasserie.n })}
+      </h3>
+      <EnBref brasserie={brasserie} />
+      {/* Les mots du métier de la note, en langue courante (S295, Marie). */}
+      {motsExpliques(brasserie.note).length > 0 && (
+        <dl className="fiche-lexique" data-testid="fiche-lexique">
+          {motsExpliques(brasserie.note).map((m) => (
+            <div key={m.mot}>
+              <dt>{t('« {mot} »', { mot: m.mot })}</dt>
+              <dd>{t(m.sens)}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+      <h4 className="fiche-titre">{t('Joindre la brasserie')}</h4>
       <Contact brasserie={brasserie} />
+      <h4 className="fiche-titre">{t('Horaires')}</h4>
       {/* Les horaires avant l'itinéraire : savoir si c'est ouvert avant d'y
           aller (revue Hugo S19). */}
       <Horaires brasserie={brasserie} />
+      <h4 className="fiche-titre">{t('Où')}</h4>
+      <dl className="fiche-ou">
+        <dt>{t('Adresse')}</dt>
+        <dd data-testid="fiche-adresse">
+          {adresseDeRue(brasserie)
+            ? brasserie.addr
+            : t('non connue : seulement la commune, {commune}.', { commune: brasserie.c })}
+        </dd>
+        <dt>{t('Position sur la carte')}</dt>
+        <dd data-testid="fiche-precision">
+          {libellePrecision(brasserie.coordPrecision)}
+          {brasserie.coordPrecision === 'centre' && (
+            <span className="fiche-aide">{t('IGN : l’Institut national de l’information géographique, qui publie le centre de chaque commune.')}</span>
+          )}
+        </dd>
+      </dl>
       <YAller brasserie={brasserie} />
       <Bieres brasserie={brasserie} />
+      <h4 className="fiche-titre">{t('D’où vient cette fiche')}</h4>
       <dl>
         {/* La note entière d'une fiche OSM, que la ligne abrège (S25). */}
         {estDeOsm(brasserie) && (
@@ -173,9 +185,6 @@ function Fiche({
             </dd>
           </>
         )}
-
-        <dt>{t('Adresse')}</dt>
-        <dd>{brasserie.addr}</dd>
 
         {site !== undefined && (
           <>
@@ -228,10 +237,40 @@ function Fiche({
             {avertissementHoraires(brasserie)}
           </span>
         </dd>
-
-        <dt>{t('Position sur la carte')}</dt>
-        <dd data-testid="fiche-precision">{libellePrecision(brasserie.coordPrecision)}</dd>
       </dl>
+      <h4 className="fiche-titre">{t('Pour moi')}</h4>
+      <div className="depart-actions">
+        {/*
+          Le libellé dit l'action, sans `aria-pressed` : les deux ensemble
+          s'annonçaient « Retirer…, activé », contradictoire (revue code S9).
+        */}
+        <button type="button" onClick={onBasculerFavori} data-testid="bouton-favori">
+          {favori ? t('★ Retirer de mes favoris') : t('☆ Ajouter à mes favoris')}
+          {pour}
+        </button>
+        {/* Mon carnet (S35) : le jour seulement, gardé sur l'appareil. */}
+        <button type="button" onClick={onBasculerVisite} data-testid="bouton-visite">
+          {visite === undefined
+            ? t('J’y suis allé·e')
+            : t('✓ Visitée le {date} — retirer du carnet', { date: libelleVerification(visite) })}
+          {pour}
+        </button>
+        <BoutonPartager nom={brasserie.n} />
+      </div>
+      {/* Ma note (S36) : pour soi, gardée à la saisie, jamais envoyée. */}
+      <label className="champ fiche-note">
+        <span>{t('Ma note (sur cet appareil seulement)')}</span>
+        <textarea
+          value={note}
+          maxLength={NOTE_MAX}
+          rows={2}
+          onChange={(e) => {
+            onEcrireNote(e.target.value)
+          }}
+          placeholder={t('ex. la blanche était excellente')}
+          data-testid="ma-note"
+        />
+      </label>
       <p className="fiche-signaler" data-testid="fiche-signaler">
         <LienExterne href={lienSignalement(brasserie)}>
           {t('Signaler une erreur sur cette fiche')}
@@ -263,7 +302,7 @@ function Fiche({
           {t('Refermer la fiche')}
         </button>
       </div>
-    </div>
+    </section>
   )
 }
 
@@ -281,6 +320,13 @@ export function Liste({
   onImprimer = () => undefined,
 }: Props) {
   const liste = useRef<HTMLOListElement>(null)
+  // L'état « maintenant » de chaque ligne suit l'heure (S295, Hugo).
+  const instant = useMinute()
+  // Une fois par ligne et par minute, pas à chaque rendu (revue adverse S295).
+  const etats = useMemo(
+    () => new Map(resultats.map((r) => [r.brasserie.n, etatPourLaListe(r.brasserie.horaires, instant)])),
+    [resultats, instant],
+  )
 
   // La ligne choisie et sa fiche dépliée sont amenées à l'écran — depuis la
   // carte surtout. Viser le bouton seul laissait la fiche, rendue juste
@@ -351,6 +397,14 @@ export function Liste({
                 {brasserie.c} ({brasserie.d}) ·{' '}
                 <span className="ligne-distance">{formaterDistance(distanceKm)}</span>
               </span>
+              {etats.get(brasserie.n) !== undefined && (
+                <>
+                  <span className="lecteur-seul">, </span>
+                  <span className="ligne-ouvert" data-testid="ligne-ouvert">
+                    {etats.get(brasserie.n)}
+                  </span>
+                </>
+              )}
               <span className="lecteur-seul">, </span>
               <span className={`badge cat-${String(brasserie.cat)}`}>
                 <span className="pastille" aria-hidden="true" />

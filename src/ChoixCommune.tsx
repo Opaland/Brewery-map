@@ -1,5 +1,5 @@
 import { t } from './i18n'
-import { useEffect, useId, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { chercherCommunes, type CommuneFrance, type CommuneIndexee } from './core/communes'
 import { normaliser } from './core/recherche'
 import type { Point } from './core/distance'
@@ -16,6 +16,11 @@ interface Props {
    */
   depuisPosition: boolean
   onChoisir: (c: CommuneFrance) => void
+  /**
+   * Un nom de commune tapé dans la recherche de brasseries, à proposer
+   * comme départ (S295, Marie) ; `n` change à chaque demande.
+   */
+  suggestion?: { texte: string; n: number } | undefined
 }
 
 type Etat = 'attente' | 'pret' | 'echec'
@@ -30,7 +35,7 @@ type Etat = 'attente' | 'pret' | 'echec'
  * l'affichage ; si rien n'y répond (Lille depuis Lyon), ou sur demande, toute
  * la France.
  */
-export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
+export function ChoixCommune({ depuis, depuisPosition, onChoisir, suggestion }: Props) {
   const id = useId()
   const [texte, setTexte] = useState('')
   const [proches, setProches] = useState<CommuneIndexee[]>([])
@@ -40,6 +45,29 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
   const [partout, setPartout] = useState(false)
   const [active, setActive] = useState(0)
   const [ouvert, setOuvert] = useState(false)
+  const champ = useRef<HTMLInputElement>(null)
+
+  // Le texte tapé ailleurs vient ici, et le focus avec : la personne choisit
+  // la commune exacte dans la liste, rien n'est deviné pour elle. L'état
+  // s'ajuste au rendu (motif React « état dérivé d'une prop »), le focus
+  // dans un effet.
+  const n = suggestion?.n
+  const [nVu, setNVu] = useState(n)
+  if (n !== nVu) {
+    setNVu(n)
+    if (suggestion !== undefined) {
+      setTexte(suggestion.texte)
+      setActive(0)
+      setOuvert(true)
+    }
+  }
+  // Seulement après une demande faite pendant que le champ est là : au
+  // remontage (un autre départ), une demande ancienne ne vole pas le focus
+  // (revue adverse S295).
+  const nAuMontage = useRef(n)
+  useEffect(() => {
+    if (n !== undefined && n !== nAuMontage.current) champ.current?.focus()
+  }, [n])
 
   useEffect(() => {
     let vivant = true
@@ -139,6 +167,7 @@ export function ChoixCommune({ depuis, depuisPosition, onChoisir }: Props) {
       <label className="champ">
         <span>{t('Ou partir d’une commune, partout en France')}</span>
         <input
+          ref={champ}
           type="search"
           role="combobox"
           aria-expanded={montrer && resultats.length > 0}

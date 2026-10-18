@@ -21,6 +21,8 @@ interface Props {
    * c'est son geste. Sans lui, rien n'était demandé (revue adverse S46).
    */
   demander?: boolean
+  /** Une commune tapée dans la recherche, proposée comme départ (S295). */
+  suggestion?: { texte: string; n: number } | undefined
 }
 
 /**
@@ -31,7 +33,7 @@ interface Props {
  * distances **dans le téléphone** et n'est envoyée nulle part ; ce qui part
  * sur le réseau est dit tel quel (les images de la carte).
  */
-export function PointDeDepart({ origine, onChange, relocaliser = false, demander = false }: Props) {
+export function PointDeDepart({ origine, onChange, relocaliser = false, demander = false, suggestion }: Props) {
   const [message, setMessage] = useState<string | null>(null)
   const [precision, setPrecision] = useState<string | null>(null)
   const [enCours, setEnCours] = useState(false)
@@ -190,6 +192,7 @@ export function PointDeDepart({ origine, onChange, relocaliser = false, demander
         key={`${String(origine.point.lat)},${String(origine.point.lon)}`}
         depuis={origine.point}
         depuisPosition={origine.type === 'position'}
+        suggestion={suggestion}
         onChoisir={([nom, dep, lat, lon]) => {
           changer({ type: 'commune', cle: `${nom}|${dep}`, nom, point: { lat, lon } })
         }}

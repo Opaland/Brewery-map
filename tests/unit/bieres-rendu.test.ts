@@ -10,10 +10,11 @@ const base = LIGNES_REELLES[0] as unknown as Brasserie
 const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Bieres, { brasserie: b }))
 
 describe('les bières de la fiche', () => {
-  it('sans bière : « non référencés », aucun lien', () => {
+  it('sans bière : « non référencés », et pour seul lien la recherche Untappd (S295)', () => {
     const html = rendu(base)
-    expect(html).toContain('Types de bière : non référencés pour l’instant. La recherche Untappd, plus haut, peut en montrer.')
-    expect(html).not.toContain('href')
+    expect(html).toContain('Types de bière : non référencés pour l’instant.')
+    expect(html.match(/href=/g)).toHaveLength(1)
+    expect(html).toContain('href="https://untappd.com/search?')
   })
 
   it('page produit, fiche d’annuaire, ou « non référencé » — dans cet ordre', () => {
@@ -36,7 +37,16 @@ describe('les bières de la fiche', () => {
   it('sans annuaire, une bière sans page dit « non référencé »', () => {
     const html = rendu({ ...base, beers: [{ type: 'stout' }] })
     expect(html).toContain('Stout <span class="fiche-aide-inline">(non référencé)</span>')
-    expect(html).not.toContain('href')
+    // Une piste pour la trouver ailleurs (S295, Karim).
+    expect(html).toContain('Chercher ses bières sur Untappd')
+    expect(html.match(/href=/g)).toHaveLength(1)
+  })
+
+  it('toutes à la même adresse : un seul lien, la page des bières de la brasserie (S295, Karim)', () => {
+    const page = 'https://caribrew.example/nos-bieres'
+    const html = rendu({ ...base, beers: [{ type: 'ipa', url: page }, { type: 'blonde', url: page }] })
+    expect(html).toContain('La page des bières de la brasserie')
+    expect(html.match(/href=/g)).toHaveLength(1)
   })
 
   it('une bière nommée montre aussi son type, sauf « autre » (revue métier S16, Karim)', () => {

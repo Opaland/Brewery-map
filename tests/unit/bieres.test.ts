@@ -33,6 +33,15 @@ describe('lienDeBiere', () => {
   it('sinon, rien : « non référencé », jamais une page d’accueil inventée', () => {
     expect(lienDeBiere({ type: 'ipa' }, avecBieres('A', []))).toBeNull()
   })
+
+  // S295, Karim : 89 bières partageaient l'adresse de toutes les autres bières
+  // de leur brasserie ; ce lien n'est pas « la page de la bière ».
+  it('une adresse que plusieurs bières de la fiche partagent est la page des bières de la brasserie', () => {
+    const commune = 'https://a.example/nos-bieres'
+    const b = { ...avecBieres('A', []), beers: [{ type: 'ipa', url: commune }, { type: 'blonde', url: commune }, { type: 'stout', url: 'https://a.example/stout' }] } as Brasserie
+    expect(lienDeBiere({ type: 'ipa', url: commune }, b)).toEqual({ url: commune, nature: 'catalogue' })
+    expect(lienDeBiere({ type: 'stout', url: 'https://a.example/stout' }, b)).toEqual({ url: 'https://a.example/stout', nature: 'produit' })
+  })
 })
 
 describe('les types', () => {

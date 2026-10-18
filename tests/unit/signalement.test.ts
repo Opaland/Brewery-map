@@ -73,6 +73,28 @@ describe('le lien « Signaler une erreur »', () => {
     expect(Math.max(...longueurs)).toBeLessThanOrEqual(LONGUEUR_MAX_URL)
   })
 
+  it('tient sous la longueur retenue même aux champs démesurés, en coupant le plus long d’abord (#54)', () => {
+    const long = (x: string, n: number) => x.repeat(n)
+    const b: Brasserie = {
+      ...B,
+      n: `Brasserie ${long('é', 300)}`,
+      addr: long('🍺 rue ', 400),
+      src: `https://exemple.fr/${long('a', 3000)}`,
+      fermee: { source: `https://exemple.fr/${long('z', 3000)}`, verifieLe: '2026-10-01' },
+    }
+    const u = lienSignalement(b)
+    expect(u.length).toBeLessThanOrEqual(LONGUEUR_MAX_URL)
+    const corps = parametres(u).get('body') ?? ''
+    // Le début de chaque champ reste, pour reconnaître la fiche ; la suite donnée aussi.
+    expect(corps).toContain('- Nom : Brasserie é')
+    expect(corps).toContain('- Dite fermée, selon : https://exemple.fr/z')
+    expect(corps).toContain(SUITE_SIGNALEMENT)
+    // Un emoji n'est jamais coupé en deux.
+    expect(corps).not.toMatch(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])/)
+    // Une fiche ordinaire n'est pas touchée.
+    expect(parametres(lienSignalement(B)).get('body')).toContain(`- Adresse : ${B.addr}`)
+  })
+
   it('un nom avec & ou # ne casse pas le lien', () => {
     const p = parametres(lienSignalement({ ...B, n: 'Tom & Co #2' }))
     expect(p.get('title')).toBe(`Signalement : Tom & Co #2 (${B.c})`)

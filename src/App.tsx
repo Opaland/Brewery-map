@@ -22,6 +22,7 @@ import {
   favorisCaches,
   favorisFermes,
   listeCourte,
+  normaliser,
   plusProche,
   rechercher,
   rechercherPartout,
@@ -287,6 +288,11 @@ export function App({
   // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
   const departement =
     departementChoisi !== undefined && parDepartement.has(departementChoisi) ? departementChoisi : undefined
+  const [suggestion, setSuggestion] = useState<{ texte: string; n: number }>()
+  const communeTapee =
+    origine.type === 'brignais' &&
+    normaliser(texte).length >= 3 &&
+    BRASSERIES.some((b) => normaliser(b.c).startsWith(normaliser(texte)))
   const resultats = useMemo(
     () =>
       rechercher(cherchees, {
@@ -461,6 +467,7 @@ export function App({
           onChange={choisirOrigine}
           relocaliser={ini.depart.type === 'autour'}
           demander={raccourci === 'autour'}
+          suggestion={suggestion}
         />
 
         <label className="champ">
@@ -477,6 +484,25 @@ export function App({
             data-testid="recherche"
           />
         </label>
+        {/* « Lyon » tapé ici gardait Brignais comme départ, un nom que la
+            personne ne connaît pas (S295, Marie). Si le texte ressemble à
+            une commune des fiches, on propose d'en partir ; le choix exact
+            se fait dans la liste des communes. */}
+        {communeTapee && (
+          <div className="champ-aide" data-testid="compter-depuis">
+            <p>{t('Les distances sont comptées depuis {origine}.', { origine: libelleOrigine(origine) })}</p>
+            <div className="depart-actions">
+              <button
+                type="button"
+                onClick={() => {
+                  setSuggestion((avant) => ({ texte: texte.trim(), n: (avant?.n ?? 0) + 1 }))
+                }}
+              >
+                {t('Compter depuis « {commune} »', { commune: texte.trim() })}
+              </button>
+            </div>
+          </div>
+        )}
         {/* Arrivée par un lien partagé : le nom reste dans la recherche, et
             rien ne disait de l'effacer pour revenir à la liste autour du
             départ (revue S27, fait en S31). */}
@@ -663,6 +689,17 @@ export function App({
             </button>
           </div>
         </div>
+      )}
+      {/* Près du compte, et pas seulement sous le menu replié : choisir
+          « Blanche » ne garde que les fiches aux bières renseignées, ce que
+          la liste vidée ne disait pas (S295, Marie). */}
+      {type !== undefined && (
+        <p className="champ-aide" data-testid="type-actif">
+          {t('Filtre par type : seules les {n} fiches dont les bières sont renseignées, sur {total}, peuvent apparaître.', {
+            n: NB_RENSEIGNEES,
+            total: BRASSERIES.length,
+          })}
+        </p>
       )}
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
