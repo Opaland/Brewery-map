@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Lot } from '../../src/core/curation'
-import { trierParRegle } from '../../src/core/regle'
+import { sansLesAppliquees, trierParRegle } from '../../src/core/regle'
 
 const J1 = '2026-10-17'
 const J2 = '2026-10-18'
@@ -138,3 +138,26 @@ describe('trierParRegle (S265, règle de Cédric du 18/10)', () => {
   })
 })
 
+
+describe('sansLesAppliquees (S272 : ce qu’un accord a fait entrer ne se décide plus)', () => {
+  it('retire des deux listes les numéros d’un accord à la même empreinte, et les compte ; un accord à une autre empreinte ne compte pas', () => {
+    const r = sansLesAppliquees(
+      { a: [1, 2, 3], b: [1] },
+      [
+        { lot: 'a', numero: 4, n: 'X', raison: 'r' },
+        { lot: 'b', numero: 2, n: 'Y', raison: 'r' },
+      ],
+      [
+        { lot: 'a', empreinte: 'aaaaaaaaaaaa', acceptees: [1, 2, 4] },
+        { lot: 'b', empreinte: 'ancienneeeee', acceptees: [1, 2] },
+      ],
+      new Map([
+        ['a', 'aaaaaaaaaaaa'],
+        ['b', 'bbbbbbbbbbbb'],
+      ]),
+    )
+    expect(r.acceptees).toEqual({ a: [3], b: [1] })
+    expect(r.aMontrer).toEqual([{ lot: 'b', numero: 2, n: 'Y', raison: 'r' }])
+    expect(r.appliquees).toEqual({ a: [1, 2, 4] })
+  })
+})

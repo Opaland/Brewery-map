@@ -140,3 +140,30 @@ export function trierParRegle(
   })
   return { acceptees, aMontrer }
 }
+
+/**
+ * S272 : un numéro qu'un accord a déjà fait entrer dans `data/` (même lot,
+ * même empreinte : `curation/accords/`) ne se décide plus ; il sort des deux
+ * listes, et il est compté à part. Un accord à une autre empreinte (le lot a
+ * changé depuis) ne compte pas : mieux vaut montrer deux fois qu'oublier.
+ */
+export function sansLesAppliquees(
+  acceptees: Readonly<Record<string, readonly number[]>>,
+  aMontrer: readonly AMontrer[],
+  accords: readonly { lot: string; empreinte: string; acceptees: readonly number[] }[],
+  empreintes: ReadonlyMap<string, string>,
+): { acceptees: Record<string, number[]>; aMontrer: AMontrer[]; appliquees: Record<string, number[]> } {
+  const faits = new Map<string, Set<number>>()
+  for (const a of accords) {
+    if (empreintes.get(a.lot) !== a.empreinte) continue
+    const s = faits.get(a.lot) ?? new Set<number>()
+    for (const k of a.acceptees) s.add(k)
+    faits.set(a.lot, s)
+  }
+  const fait = (lot: string, k: number) => faits.get(lot)?.has(k) ?? false
+  return {
+    acceptees: Object.fromEntries(Object.entries(acceptees).map(([lot, nums]) => [lot, nums.filter((k) => !fait(lot, k))])),
+    aMontrer: aMontrer.filter((m) => !fait(m.lot, m.numero)),
+    appliquees: Object.fromEntries([...faits].map(([lot, s]) => [lot, [...s].sort((x, y) => x - y)])),
+  }
+}

@@ -6,27 +6,37 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
-| dep-22 | 01a614805b64 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 | 22 |
-| dep-29 | 6941f0365a48 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 | 19 |
-| dep-35 | 0341f4e7f97a | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
-| dep-37 | 0d4d88e5ca0c | 1, 3, 4 | 3 |
-| dep-44 | c2f59cc3f5e5 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 | 32 |
-| dep-49 | 6c190e0d2945 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 | 11 |
-| dep-53 | 4d66df8cf7fe | 1, 2, 3, 4 | 4 |
-| dep-56 | aa1713fac2de | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 | 23 |
-| dep-72 | 2bd91b73d68c | 1, 2, 3, 4, 5, 6, 7 | 7 |
-| dep-85 | c8a23bab75a1 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
-| s11-exemples-s4 | ba8d79738e17 | 2, 5 | 2 |
-| s12-lot-1 | 2587f92b8457 | 1, 2, 3 | 3 |
-| s13-lot-2 | eefa6ea1e0d6 | 1, 2 | 2 |
-| s134-sites-bieres | 860640c4f586 | 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 21, 24, 25, 26, 28, 29, 30 | 19 |
-| s268-centres | e586684cabc8 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139 | 139 |
-| s53-untappd-bieres | 14b780a52ef2 | 12, 13, 16, 17, 18, 22, 23 | 7 |
-| s54-positions | 83956b462c32 | 5, 6, 10, 11, 16, 18, 22, 23, 24, 25, 27, 34, 37, 38 | 14 |
-| s61-contacts-osm | 4b2ec1121dc7 | 1, 2, 3, 4, 5, 6, 7, 8 | 8 |
-| s63-horaires-osm | 1a3a479c55b8 | 1, 2, 3, 4, 5, 6, 7 | 7 |
 
-## À montrer à Cédric (285)
+## Déjà dans data/ par un accord (393)
+
+| Lot | Numéros |
+|---|---|
+| s11-exemples-s4 | 2, 5 |
+| s12-lot-1 | 1, 2, 3 |
+| s13-lot-2 | 1, 2 |
+| s53-untappd-bieres | 12, 13, 16, 17, 18, 22, 23 |
+| s54-positions | 5, 6, 10, 11, 16, 18, 22, 23, 24, 25, 27, 34, 37, 38 |
+| s134-sites-bieres | 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 21, 24, 25, 26, 28, 29, 30 |
+| s61-contacts-osm | 1, 2, 3, 4, 5, 6, 7, 8 |
+| s63-horaires-osm | 1, 2, 3, 4, 5, 6, 7 |
+| s268-centres | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139 |
+| dep-14 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 |
+| dep-27 | 1, 2, 3, 4 |
+| dep-50 | 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| dep-61 | 1, 2, 3 |
+| dep-76 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 |
+| dep-22 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 |
+| dep-29 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| dep-35 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 |
+| dep-56 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
+| dep-44 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 |
+| dep-49 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| dep-53 | 1, 2, 3, 4 |
+| dep-72 | 1, 2, 3, 4, 5, 6, 7 |
+| dep-85 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 |
+| dep-37 | 1, 2, 3, 4 |
+
+## À montrer à Cédric (248)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -278,40 +288,3 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 71 | La Barbue | aucune source sur le site officiel |
 | s54-positions | 72 | Brasserie Quardin | aucune source sur le site officiel |
 | s54-positions | 73 | Brasserie Grésiv'ale | aucune source sur le site officiel |
-| dep-14 | 1 | Brasserie Paillette | controler : tout accepter échouerait |
-| dep-14 | 2 | Brasserie Sagesse | controler : tout accepter échouerait |
-| dep-14 | 3 | Mobsby's | controler : tout accepter échouerait |
-| dep-14 | 4 | Brasserie La Lie | controler : tout accepter échouerait |
-| dep-14 | 5 | Brasserie de l'Odon | controler : tout accepter échouerait |
-| dep-14 | 6 | La JJAP – Les 2 Terres | controler : tout accepter échouerait |
-| dep-14 | 7 | Brasserie des 9 Mondes | controler : tout accepter échouerait |
-| dep-14 | 8 | Trip-Hop | controler : tout accepter échouerait |
-| dep-14 | 9 | Baya | controler : tout accepter échouerait |
-| dep-14 | 10 | Dam Bière | controler : tout accepter échouerait |
-| dep-27 | 1 | Brasserie de Sutter | controler : tout accepter échouerait |
-| dep-27 | 2 | Brasserie Insulaire | controler : tout accepter échouerait |
-| dep-27 | 3 | Les Deux Amants | controler : tout accepter échouerait |
-| dep-27 | 4 | Spore | controler : tout accepter échouerait |
-| dep-37 | 2 | Art Is An Ale Brewing | controler signale un écart |
-| dep-50 | 1 | Brasserie Cotentine | controler : tout accepter échouerait |
-| dep-50 | 2 | Brasserie Pinte de Saire | controler : tout accepter échouerait |
-| dep-50 | 3 | Les Travailleurs de la Mer | controler : tout accepter échouerait |
-| dep-50 | 4 | La Moussette | controler : tout accepter échouerait |
-| dep-50 | 5 | Captain James | controler : tout accepter échouerait |
-| dep-50 | 6 | Fée d'Orge | controler : tout accepter échouerait |
-| dep-50 | 7 | Brasserie Bifrost | controler : tout accepter échouerait |
-| dep-50 | 8 | Brasserie Léopard | controler : tout accepter échouerait |
-| dep-50 | 9 | L'Écume des Falaises | controler : tout accepter échouerait |
-| dep-61 | 1 | Le Bercail | controler : tout accepter échouerait |
-| dep-61 | 2 | Château de la Bière | controler : tout accepter échouerait |
-| dep-61 | 3 | Brasserie du Perche | controler : tout accepter échouerait |
-| dep-76 | 1 | Brasserie Saint Joseph | controler : tout accepter échouerait |
-| dep-76 | 2 | Union-B | controler : tout accepter échouerait |
-| dep-76 | 3 | Brasserie Sainte Beuve | controler : tout accepter échouerait |
-| dep-76 | 4 | Brasserie Ragnar | controler : tout accepter échouerait |
-| dep-76 | 5 | Fabrik2Bulles | controler : tout accepter échouerait |
-| dep-76 | 6 | 1989 Brewing | controler : tout accepter échouerait |
-| dep-76 | 7 | Brasserie Bakbuk | controler : tout accepter échouerait |
-| dep-76 | 8 | Brasserie BakPaker | controler : tout accepter échouerait |
-| dep-76 | 9 | Brasserie Dieppoise | controler : tout accepter échouerait |
-| dep-76 | 10 | Brasserie Yata | controler : tout accepter échouerait |
