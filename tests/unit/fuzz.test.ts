@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { ficheDuLien, lienDeFiche } from '../../src/core/partage'
-import { lirePreferences, NOTE_MAX, PREFERENCES_DEFAUT, RAYON, type Preferences } from '../../src/core/preferences'
+import { lirePreferences, NOTE_MAX, PREFERENCES_DEFAUT, RAYON, VERSION_PREFERENCES, type Preferences } from '../../src/core/preferences'
 import { ELEMENTS_MAX, lireSauvegarde } from '../../src/core/sauvegarde'
-import type { Brasserie } from '../../src/core/schema'
+import { typeDeBiereSchema, type Brasserie } from '../../src/core/schema'
 import { lienSignalement } from '../../src/core/signalement'
 
 /**
@@ -66,7 +66,20 @@ function presqueValides(h: Hasard): Record<string, unknown> {
     visites: Array.from({ length: h.entier(5) }, () => (juste() ? { nom: h.choisir(['A', 'B']), date: h.choisir(['2026-10-18', '2026-13-01']) } : valeur(h))),
     notes: Array.from({ length: h.entier(5) }, () => (juste() ? { nom: h.choisir(['A', 'B']), texte: chaine(h) } : valeur(h))),
     theme: juste() ? h.choisir(['auto', 'clair', 'sombre']) : valeur(h),
-    depart: juste() ? { type: 'brignais' } : valeur(h),
+    depart: juste()
+      ? h.choisir<unknown>([
+          { type: 'brignais' },
+          { type: 'autour' },
+          // Une position glissée dans « autour » : elle ne doit jamais être gardée (§0).
+          { type: 'autour', lat: 45.67, lon: 4.75 },
+          { type: 'commune', cle: 'lyon', nom: 'Lyon', lat: 45.76, lon: 4.83 },
+          // Une borne fausse à la fois : l'autre, juste, ne doit pas la cacher.
+          { type: 'commune', cle: 'loin', lat: 1e9, lon: 4.8 },
+          { type: 'commune', cle: 'loin', lat: 45.7, lon: -400 },
+          { type: 'commune', cle: '' },
+        ])
+      : valeur(h),
+    type: juste() ? h.choisir(['blonde', 'ipa', 'BLONDE', 'blonde ', '']) : valeur(h),
     [h.choisir(CLES)]: valeur(h),
   }
 }
@@ -76,7 +89,9 @@ const DEMI_PAIRE = /[\ud800-\udbff](?![\udc00-\udfff])|(?<![\ud800-\udbff])[\udc
 const bienForme = (s: string) => !new RegExp(DEMI_PAIRE.source).test(s)
 
 const CLES_PERMISES = new Set(Object.keys(PREFERENCES_DEFAUT).concat('type'))
-const DATE = /^\d{4}-\d{2}-\d{2}$/
+/** Une date du calendrier, lue indépendamment du schéma relu (revue adverse S282). */
+const vraieDate = (d: string) => /^\d{4}-\d{2}-\d{2}$/.test(d) && new Date(`${d}T00:00:00Z`).toISOString().slice(0, 10) === d
+const TYPES = new Set<string>(typeDeBiereSchema.options)
 
 /** Ce que des préférences relues doivent tenir, quoi qu'on leur ait donné. */
 function enDefaut(p: Preferences): string[] {
@@ -85,9 +100,26 @@ function enDefaut(p: Preferences): string[] {
   if (!Number.isInteger(p.rayonKm) || p.rayonKm < RAYON.min || p.rayonKm > RAYON.max || p.rayonKm % RAYON.pas !== 0) d.push(`rayon ${String(p.rayonKm)}`)
   if (p.categories.some((c) => !(ORDRE_CATEGORIES as readonly number[]).includes(c)) || new Set(p.categories).size !== p.categories.length) d.push('catégories')
   if (p.favoris.some((f) => typeof f !== 'string' || f === '') || new Set(p.favoris).size !== p.favoris.length) d.push('favoris')
-  if (p.visites.some((v) => typeof v.nom !== 'string' || v.nom === '' || !DATE.test(v.date))) d.push('visites')
+  if (p.visites.some((v) => typeof v.nom !== 'string' || v.nom === '' || !vraieDate(v.date))) d.push('visites')
   if (new Set(p.visites.map((v) => v.nom)).size !== p.visites.length) d.push('visites en double')
-  if (p.notes.some((n) => n.texte === '' || n.texte.length > NOTE_MAX)) d.push('notes')
+  if (p.notes.some((n) => n.nom === '' || n.texte === '' || n.texte.length > NOTE_MAX)) d.push('notes')
+  if (new Set(p.notes.map((n) => n.nom)).size !== p.notes.length) d.push('notes en double')
+  // Les types disent que ces champs sont bons : on lit ce que la fonction a
+  // vraiment rendu, pas ce que le type promet.
+  const brut = p as unknown as Record<string, unknown>
+  if (brut.version !== VERSION_PREFERENCES) d.push(`version ${JSON.stringify(brut.version)}`)
+  if (brut.type !== undefined && !TYPES.has(brut.type as string)) d.push(`type ${JSON.stringify(brut.type)}`)
+  const dep = p.depart as unknown as Record<string, unknown>
+  if (dep.type === 'brignais' || dep.type === 'autour') {
+    // Jamais de position gardée avec « autour de moi » (CLAUDE.md §0, Léa S8).
+    if (Object.keys(dep).length !== 1) d.push(`départ ${JSON.stringify(dep)}`)
+  } else if (dep.type === 'commune') {
+    const { cle, lat, lon } = dep
+    if (typeof cle !== 'string' || cle === '') d.push('départ sans clé')
+    if (lat !== undefined && (typeof lat !== 'number' || Math.abs(lat) > 90)) d.push('départ : latitude')
+    if (lon !== undefined && (typeof lon !== 'number' || Math.abs(lon) > 180)) d.push('départ : longitude')
+    if (Object.keys(dep).some((k) => !['type', 'cle', 'nom', 'lat', 'lon'].includes(k))) d.push('départ : clé en trop')
+  } else d.push(`départ ${JSON.stringify(dep)}`)
   if (!['auto', 'clair', 'sombre'].includes(p.theme)) d.push('thème')
   return d
 }
@@ -99,8 +131,10 @@ describe('le fuzz des entrées non sûres (graine ' + String(GRAINE) + ')', () =
       const brut = i % 2 === 0 ? valeur(h) : presqueValides(h)
       const p = lirePreferences(brut)
       expect(enDefaut(p), `cas ${String(i)} : ${(JSON.stringify(brut) as string | undefined ?? 'undefined').slice(0, 300)}`).toEqual([])
-      // Relu après un passage par JSON (le stockage, la sauvegarde) : le même.
-      expect(lirePreferences(JSON.parse(JSON.stringify(p))), `cas ${String(i)}`).toEqual(p)
+      // Relu après un passage par JSON (le stockage, la sauvegarde) : le même,
+      // comparé en JSON (une catégorie -0, égale à 0 partout, y devient 0).
+      const json = JSON.stringify(p)
+      expect(JSON.stringify(lirePreferences(JSON.parse(json))), `cas ${String(i)}`).toBe(json)
     }
   })
 
@@ -148,6 +182,10 @@ describe('le fuzz des entrées non sûres (graine ' + String(GRAINE) + ')', () =
       const fragment = h.choisir(['', '#', '#fiche=', '#fiche=%', '#autre=x']) + chaine(h)
       const nom = ficheDuLien(fragment)
       expect(nom === undefined || (typeof nom === 'string' && nom !== ''), `cas ${String(i)}`).toBe(true)
+      // Un fragment mal encodé ne donne pas de nom (revue adverse S282 : le
+      // générateur en faisait trop peu ; ici, un sur deux).
+      const mal = `#fiche=${chaine(h).replace(DEMI_PAIRE, '')}%${h.choisir(['', 'E0', 'zz', 'E0%A4'])}`
+      expect(ficheDuLien(mal), `cas ${String(i)} : ${mal}`).toBe(undefined)
       const nomBienForme = chaine(h).replace(DEMI_PAIRE, '') || 'Brasserie'
       const lien = new URL(lienDeFiche('https://opaland.github.io/Brewery-map/?x=1#y', nomBienForme))
       expect(ficheDuLien(lien.hash), `cas ${String(i)} : ${nomBienForme}`).toBe(nomBienForme)
