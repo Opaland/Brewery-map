@@ -39,12 +39,13 @@
     "note": "Brasserie avec bar et boutique ouverts toute l'année, bar d'été et concerts, d'après son site.",
     "addr": "Malaunay",
     "src": "https://www.union-b.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.union-b.fr"
+    "https://www.union-b.fr",
+    "https://data.geopf.fr/geocodage/search?q=Malaunay&type=municipality&limit=5"
    ],
    "extrait": "Bar d'hiver et boutique ouverts toute l'année",
    "choix": "Le site donne l'impasse de la Cressonnière, le registre le 40 rue de la Clérette : position au centre de la commune. Téléphone : un mobile, non repris."
@@ -86,12 +87,13 @@
     "note": "Brasserie de production à Oissel ; ventes par cavistes et bars, vente directe non établie.",
     "addr": "232 rue du Beau Poirier, 76350 Oissel-sur-Seine",
     "src": "https://www.brasserieragnar.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserieragnar.com/"
+    "https://www.brasserieragnar.com/",
+    "https://data.geopf.fr/geocodage/search?q=Oissel-sur-Seine&type=municipality&limit=5"
    ],
    "extrait": "232 Rue du Beau Poirier",
    "choix": "Même marque que le point OSM du Houlme (adresse non confirmée par le site). Le site cite aussi un bar à Rouen et un à Louviers : lieux distincts, à examiner à part. Commune écrite sous son nom officiel actuel (Oissel-sur-Seine), celui du géocodeur ; le site écrit Oissel."
@@ -133,12 +135,13 @@
     "note": "Bières vendues dans le bar attenant à la brasserie, d'après un article de 2026 ; ni horaires ni site officiel.",
     "addr": "Saint-Étienne-du-Rouvray",
     "src": "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop"
+    "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
+    "https://data.geopf.fr/geocodage/search?q=Saint-%C3%89tienne-du-Rouvray&type=municipality&limit=5"
    ],
    "extrait": "est commercialisée dans le bar attenant à la brasserie",
    "choix": "Source de presse seulement. Position au centre de la commune."
@@ -180,12 +183,13 @@
     "note": "Boutique ouverte le vendredi de 15 h à 18 h 30, les autres jours sur rendez-vous, d'après son site.",
     "addr": "Saint-Saëns",
     "src": "https://www.brasserie-bakpaker.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-bakpaker.fr/"
+    "https://www.brasserie-bakpaker.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Sa%C3%ABns&type=municipality&limit=5"
    ],
    "extrait": "Ouverture de la boutique Lundi : Sur RDV toute la semaine :) Mardi : rdv Mercredi : rdv Jeudi : rdv Vendredi : 15h - 18h30",
    "choix": "ZI des Aulnaies : position au centre de la commune. Styles des bières non affichés."
@@ -203,12 +207,13 @@
     "note": "Brasserie de la région de Dieppe ; vente et horaires non lus, catégorie à confirmer.",
     "addr": "37 rue Louis Blériot, 76200 Martin-Église",
     "src": "https://www.brasseriedieppoise.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasseriedieppoise.fr/"
+    "https://www.brasseriedieppoise.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Martin-%C3%89glise&type=municipality&limit=5"
    ],
    "extrait": "37 Rue Louis Blériot, 76200 Martin-Église",
    "choix": "Le registre la déclare à Arques-la-Bataille ; le site dit Martin-Église (retenu)."
@@ -226,12 +231,13 @@
     "note": "Brasserie de plusieurs styles (blonde, triple, IPA…), d'après Normandie Tourisme ; vente non établie.",
     "addr": "Lillebonne",
     "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/"
+    "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/",
+    "https://data.geopf.fr/geocodage/search?q=Lillebonne&type=municipality&limit=5"
    ],
    "extrait": "We produce different styles of beer",
    "choix": "Fiche d'office de tourisme seulement. Position au centre de la commune."

@@ -6,20 +6,15 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
-| dep-14 | 83c44ee8a9cc | 1, 2, 3, 4, 5, 6, 7, 9, 10 | 9 |
 | dep-22 | 01a614805b64 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 | 22 |
-| dep-27 | 184b032020c8 | 1, 2, 3, 4 | 4 |
 | dep-29 | 6941f0365a48 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 | 19 |
 | dep-35 | 0341f4e7f97a | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
-| dep-37 | 0d4d88e5ca0c | 1, 2, 3, 4 | 4 |
+| dep-37 | 0d4d88e5ca0c | 1, 3, 4 | 3 |
 | dep-44 | c2f59cc3f5e5 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 | 32 |
 | dep-49 | 6c190e0d2945 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 | 11 |
-| dep-50 | 4fd401c03435 | 1, 2, 3, 4, 6, 7, 8, 9 | 8 |
 | dep-53 | 4d66df8cf7fe | 1, 2, 3, 4 | 4 |
 | dep-56 | aa1713fac2de | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 | 23 |
-| dep-61 | fe31aa399dfe | 1, 2, 3 | 3 |
 | dep-72 | 2bd91b73d68c | 1, 2, 3, 4, 5, 6, 7 | 7 |
-| dep-76 | 20c26d20cc56 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 | 10 |
 | dep-85 | c8a23bab75a1 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
 | s11-exemples-s4 | ba8d79738e17 | 2, 5 | 2 |
 | s12-lot-1 | 2587f92b8457 | 1, 2, 3 | 3 |
@@ -31,7 +26,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s61-contacts-osm | 4b2ec1121dc7 | 1, 2, 3, 4, 5, 6, 7, 8 | 8 |
 | s63-horaires-osm | 1a3a479c55b8 | 1, 2, 3, 4, 5, 6, 7 | 7 |
 
-## À montrer à Cédric (250)
+## À montrer à Cédric (285)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -283,5 +278,40 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 71 | La Barbue | aucune source sur le site officiel |
 | s54-positions | 72 | Brasserie Quardin | aucune source sur le site officiel |
 | s54-positions | 73 | Brasserie Grésiv'ale | aucune source sur le site officiel |
-| dep-14 | 8 | Trip-Hop | controler signale un écart |
-| dep-50 | 5 | Captain James | controler signale un écart |
+| dep-14 | 1 | Brasserie Paillette | controler : tout accepter échouerait |
+| dep-14 | 2 | Brasserie Sagesse | controler : tout accepter échouerait |
+| dep-14 | 3 | Mobsby's | controler : tout accepter échouerait |
+| dep-14 | 4 | Brasserie La Lie | controler : tout accepter échouerait |
+| dep-14 | 5 | Brasserie de l'Odon | controler : tout accepter échouerait |
+| dep-14 | 6 | La JJAP – Les 2 Terres | controler : tout accepter échouerait |
+| dep-14 | 7 | Brasserie des 9 Mondes | controler : tout accepter échouerait |
+| dep-14 | 8 | Trip-Hop | controler : tout accepter échouerait |
+| dep-14 | 9 | Baya | controler : tout accepter échouerait |
+| dep-14 | 10 | Dam Bière | controler : tout accepter échouerait |
+| dep-27 | 1 | Brasserie de Sutter | controler : tout accepter échouerait |
+| dep-27 | 2 | Brasserie Insulaire | controler : tout accepter échouerait |
+| dep-27 | 3 | Les Deux Amants | controler : tout accepter échouerait |
+| dep-27 | 4 | Spore | controler : tout accepter échouerait |
+| dep-37 | 2 | Art Is An Ale Brewing | controler signale un écart |
+| dep-50 | 1 | Brasserie Cotentine | controler : tout accepter échouerait |
+| dep-50 | 2 | Brasserie Pinte de Saire | controler : tout accepter échouerait |
+| dep-50 | 3 | Les Travailleurs de la Mer | controler : tout accepter échouerait |
+| dep-50 | 4 | La Moussette | controler : tout accepter échouerait |
+| dep-50 | 5 | Captain James | controler : tout accepter échouerait |
+| dep-50 | 6 | Fée d'Orge | controler : tout accepter échouerait |
+| dep-50 | 7 | Brasserie Bifrost | controler : tout accepter échouerait |
+| dep-50 | 8 | Brasserie Léopard | controler : tout accepter échouerait |
+| dep-50 | 9 | L'Écume des Falaises | controler : tout accepter échouerait |
+| dep-61 | 1 | Le Bercail | controler : tout accepter échouerait |
+| dep-61 | 2 | Château de la Bière | controler : tout accepter échouerait |
+| dep-61 | 3 | Brasserie du Perche | controler : tout accepter échouerait |
+| dep-76 | 1 | Brasserie Saint Joseph | controler : tout accepter échouerait |
+| dep-76 | 2 | Union-B | controler : tout accepter échouerait |
+| dep-76 | 3 | Brasserie Sainte Beuve | controler : tout accepter échouerait |
+| dep-76 | 4 | Brasserie Ragnar | controler : tout accepter échouerait |
+| dep-76 | 5 | Fabrik2Bulles | controler : tout accepter échouerait |
+| dep-76 | 6 | 1989 Brewing | controler : tout accepter échouerait |
+| dep-76 | 7 | Brasserie Bakbuk | controler : tout accepter échouerait |
+| dep-76 | 8 | Brasserie BakPaker | controler : tout accepter échouerait |
+| dep-76 | 9 | Brasserie Dieppoise | controler : tout accepter échouerait |
+| dep-76 | 10 | Brasserie Yata | controler : tout accepter échouerait |

@@ -62,7 +62,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     const ailleurs = page.getByTestId('plus-proche')
     await expect(ailleurs).toContainText('La plus proche :')
     await expect(ailleurs).toContainText(
-      'Les fiches vérifiées couvrent 9 départements : 01, 07, 26, 38, 42, 43, 69, 71, 73 ; ailleurs,',
+      'Les fiches vérifiées couvrent 14 départements : 01, 07, 14, 26, 27, 38, 42, 43, 50, 61, 69, 71, 73, 76 ; ailleurs,',
     )
     await expect(ailleurs).toContainText('brasseries repérées sur OpenStreetMap, à confirmer.')
   })

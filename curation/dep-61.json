@@ -15,12 +15,13 @@
     "note": "Lieu où l'on boit une bière artisanale brassée sur place, près de la basilique, d'après un guide local ; aucune source de la brasserie.",
     "addr": "Alençon",
     "src": "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs"
+    "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs",
+    "https://data.geopf.fr/geocodage/search?q=Alen%C3%A7on&type=municipality&limit=5"
    ],
    "extrait": "Rendez-vous au Bercail pour déguster une bière artisanale qui est brassée sur place",
    "choix": "Sans doute l'entreprise Rondebulle du registre (15 rue du Bercail), non établi par une source. Position au centre de la commune."
@@ -62,12 +63,13 @@
     "note": "Site officiel avec rubriques boutique, visite dégustation et libre-service, sans horaires ni adresse lus : catégorie à confirmer.",
     "addr": "L'Home-Chamondot",
     "src": "http://brasserieduperche.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "http://brasserieduperche.com/"
+    "http://brasserieduperche.com/",
+    "https://data.geopf.fr/geocodage/search?q=L%27Home-Chamondot&type=municipality&limit=5"
    ],
    "extrait": "tirée directement de nos cuves",
    "choix": "La page « Horaires, menus » n'a pas été trouvée. Position au centre de la commune."

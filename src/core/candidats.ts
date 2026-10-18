@@ -346,7 +346,8 @@ export function ajoutDeLecture(
     note: l.note,
     addr: l.adresse ?? l.c,
     src: l.src,
-    coordPrecision: pos.precision,
+    // Le centre IGN de la commune a sa précision depuis S268 (S269).
+    coordPrecision: pos.precision === 'commune' ? 'centre' : pos.precision,
     beers: l.beers,
     ...(l.contact === undefined ? {} : { contact: { ...l.contact, verifieLe: aujourdhui } }),
     ...(l.horaires === undefined ? {} : { horaires: l.horaires.map((b) => ({ ...b, verifieLe: aujourdhui })) }),

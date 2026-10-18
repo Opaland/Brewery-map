@@ -345,3 +345,39 @@ export function noteDeLigne(b: Brasserie): string {
     ? t('Repérée sur OpenStreetMap ; rien d’autre n’est vérifié. Commune déduite de sa position.')
     : t('Repérée sur OpenStreetMap ; rien d’autre n’est vérifié.')
 }
+
+/**
+ * S269 : une brasserie de la couche OSM qui devient une fiche du fichier en
+ * sort, sans nouvelle requête Overpass : même nom, ou même brasserie selon
+ * `dejaDansLeFichier` (la règle de la génération, S25), ou même site web à
+ * moins de 20 km (revue adverse S269 : « Les Travailleurs de l'Amer », point
+ * OSM de la fiche « Les Travailleurs de la Mer »). Les retirées sont rendues,
+ * pour que l'outil les dise.
+ */
+export function retirerCeQuiADesFiches(
+  couche: FichierOsm,
+  fiches: readonly Brasserie[],
+): { couche: FichierOsm; retirees: { osm: string; nom: string; fiche: string }[] } {
+  const noms = new Set(fiches.map((b) => b.n))
+  const hote = (u: string | undefined) => {
+    try {
+      return u === undefined || u === '' ? undefined : new URL(u).hostname.replace(/^www\./, '')
+    } catch {
+      return undefined
+    }
+  }
+  const memeSite = (site: string, lat: number, lon: number) => {
+    const h = hote(site)
+    return h === undefined
+      ? undefined
+      : fiches.find((b) => (hote(b.contact?.site) === h || hote(b.src) === h) && distanceKm(b, { lat, lon }) < 20)?.n
+  }
+  const retirees: { osm: string; nom: string; fiche: string }[] = []
+  const gardees = couche.brasseries.filter(([nom, osm, , , lat, lon, , site]) => {
+    const fiche = noms.has(nom) ? nom : (dejaDansLeFichier({ nom, lat, lon }, fiches) ?? memeSite(site, lat, lon))
+    if (fiche === undefined) return true
+    retirees.push({ osm, nom, fiche })
+    return false
+  })
+  return { couche: { ...couche, brasseries: gardees }, retirees }
+}
