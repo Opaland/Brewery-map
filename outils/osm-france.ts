@@ -33,6 +33,7 @@ import {
 } from '../src/core/osm-france'
 import { brasseriesSchema } from '../src/core/schema'
 import { demanderOverpass } from './overpass'
+import { fetchCompte } from './requetes'
 
 const AGENT = 'MousseDePoche/1.0 (https://github.com/Opaland/Brewery-map)'
 const SORTIE = path.resolve('src/donnees-osm/brasseries-osm.json')
@@ -95,7 +96,7 @@ async function paysDe(osm: string, lat: number, lon: number): Promise<string> {
   if (deja !== undefined) return deja
   await new Promise((ok) => setTimeout(ok, 1100))
   const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=3&lat=${String(lat)}&lon=${String(lon)}`
-  const r = await fetch(url, { headers: { 'User-Agent': AGENT } })
+  const r = await fetchCompte(url, { headers: { 'User-Agent': AGENT } })
   if (!r.ok) throw new Error(`Nominatim ${String(r.status)} pour ${osm}`)
   const j = (await r.json()) as { address?: { country_code?: string } }
   const code = j.address?.country_code ?? '?'

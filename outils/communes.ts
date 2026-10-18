@@ -19,6 +19,7 @@
  */
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { fetchCompte } from './requetes'
 
 interface CommuneEtalab {
   code: string
@@ -46,7 +47,7 @@ async function pointsDuDepartement(dep: string): Promise<Map<string, [number, nu
 async function demander(requete: string, quoi: string): Promise<string> {
   const url = `https://query.wikidata.org/sparql?query=${encodeURIComponent(requete)}`
   for (let essai = 1; essai <= 4; essai++) {
-    const r = await fetch(url, { headers: { 'User-Agent': AGENT, Accept: 'text/csv' } })
+    const r = await fetchCompte(url, { headers: { 'User-Agent': AGENT, Accept: 'text/csv' } })
     if (r.ok) return r.text()
     if (r.status !== 429 && r.status < 500) throw new Error(`Wikidata : ${String(r.status)} pour ${quoi}`)
     await new Promise((fin) => setTimeout(fin, 5000 * essai))

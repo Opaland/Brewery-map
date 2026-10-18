@@ -8,6 +8,7 @@
 import { appendFileSync } from 'node:fs'
 import { bilanDesSondes, DELAI_DEPASSE, jugerReponse, type Reponse } from '../src/core/sonde'
 import { SERVICES } from './services-sondes'
+import { fetchCompte } from './requetes'
 
 const AGENT = 'MousseDePoche/1.0 (https://github.com/Opaland/Brewery-map)'
 // 20 s : une attente de sonde, pas un seuil de l'application ; Overpass et
@@ -16,7 +17,7 @@ const DELAI_MS = 20_000
 
 async function demander(url: string): Promise<Reponse> {
   try {
-    const r = await fetch(url, { headers: { 'User-Agent': AGENT }, signal: AbortSignal.timeout(DELAI_MS) })
+    const r = await fetchCompte(url, { headers: { 'User-Agent': AGENT }, signal: AbortSignal.timeout(DELAI_MS) })
     const octets = new Uint8Array(await r.arrayBuffer()).slice(0, 2000)
     return { statut: r.status, debut: new TextDecoder('latin1').decode(octets) }
   } catch (e) {

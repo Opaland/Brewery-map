@@ -27,7 +27,6 @@
  *
  * N'écrit jamais `data/` (CLAUDE.md §0).
  */
-import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import {
   ajoutDeLecture,
@@ -45,6 +44,7 @@ import {
 import type { CandidatOsm } from '../src/core/decouverte'
 import { validerBrasseries } from '../src/core/schema'
 import { geocoder } from './geocodeur'
+import { curlCompte } from './requetes'
 
 const API = 'https://recherche-entreprises.api.gouv.fr/search'
 const CACHE = 'outils/cache/sirene'
@@ -64,7 +64,7 @@ async function page(dep: string, n: number): Promise<{ results: unknown[]; total
     requetes++
     try {
       // curl plutôt que fetch : il passe par le mandataire du conteneur.
-      const brut = execFileSync('curl', ['-sS', '-f', '-m', '25', url], { encoding: 'utf8' })
+      const brut = curlCompte(url, ['-sS', '-f', '-m', '25'])
       const json = JSON.parse(brut) as { results?: unknown; total_pages?: unknown }
       // Une réponse d'erreur en JSON (« Too many requests ») n'est pas une
       // page : gardée, elle empoisonnait le cache (revue adverse S246).
