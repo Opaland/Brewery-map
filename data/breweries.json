@@ -27,7 +27,12 @@
   "addr": "4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://microbrasseriecaribrew.fr",
+   "source": "https://microbrasseriecaribrew.fr",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Autour de la Bière (Taluyers)",
@@ -57,7 +62,12 @@
   "addr": "75 chemin d'Yvours, 69310 Pierre-Bénite",
   "src": "https://geotrek.auvergnerhonealpes-tourisme.com/api/fr/touristiccontents/10298/brasserie-la-canute-lyonnaise.pdf?portal=4",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.lacanutelyonnaise.fr/",
+   "source": "https://www.lacanutelyonnaise.fr/revendeurs/",
+   "verifieLe": "2026-10-16"
+  }
  },
  {
   "n": "Bulles d'Orge",
@@ -87,7 +97,12 @@
   "addr": "364 route de Soucieu, 69440 Saint-Laurent-d'Agny",
   "src": "https://biere-tourisme.fr/brasserie/brasserie-la-chenou/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "http://lachenou.fr/",
+   "source": "http://lachenou.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie Krüger",
@@ -141,13 +156,88 @@
   "lat": 45.73755,
   "lon": 4.8269,
   "km": 8.9,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub : « des bières brassées sur place et une cuisine du monde faite maison » ; bouteilles « disponible à emporter dans les établissements ». La page d'accueil vise tous les établissements (Part-Dieu, Lyon 7, Oullins), pas Lyon 7 en particulier.",
   "addr": "Lyon 7e",
-  "src": "",
+  "src": "https://www.malting-pot.com",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-16",
+  "contact": {
+   "tel": "09 70 95 27 78",
+   "site": "https://www.malting-pot.com",
+   "source": "https://www.malting-pot.com/adresses",
+   "verifieLe": "2026-10-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "mar": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "remarque": "Services du midi et du soir (brewpub avec cuisine). Dimanche : la source ne le mentionne pas.",
+    "source": "https://www.malting-pot.com/adresses",
+    "verifieLe": "2026-10-16"
+   }
+  ]
  },
  {
   "n": "Brasserie Demi-Lune",
@@ -183,16 +273,22 @@
   "n": "Brasserie Georges",
   "c": "Lyon 2e",
   "d": "69",
-  "lat": 45.749,
-  "lon": 4.827,
+  "lat": 45.748432,
+  "lon": 4.828264,
   "km": 10.0,
   "cat": 0,
   "conf": "",
   "note": "Restaurant-brasserie, bières brassées par la Fabrique du Faubourg ; vente à emporter seulement « exceptionnelle » selon Visiter Lyon.",
   "addr": "30 cours de Verdun Perrache, 69002 Lyon",
   "src": "https://www.visiterlyon.com/se-regaler/bons-plans/les-brasseries-lyonnaises",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "tel": "04 72 56 54 54",
+   "site": "https://www.brasseriegeorges.com",
+   "source": "https://www.brasseriegeorges.com/contact",
+   "verifieLe": "2026-10-16"
+  }
  },
  {
   "n": "La Fabrique du Faubourg",
@@ -243,16 +339,34 @@
   "n": "Ferme de la Quintillière",
   "c": "Chabanière",
   "d": "69",
-  "lat": 45.6,
-  "lon": 4.6,
-  "km": 14.6,
+  "lat": 45.590253,
+  "lon": 4.637056,
+  "km": 13.1,
   "cat": 2,
   "conf": "faible",
   "note": "Ouverture le vendredi 16h-19h30 toute l'année, paiement chèque/espèces : vente directe probable, ni bar ni dégustation cités. Fiche à Chabanière.",
   "addr": "520 route de Combe Boiron, Saint-Maurice-sur-Dargoire",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/ferme-de-la-quintilliere-paysan-eleveur-brasseur-chabaniere/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "site": "http://www.fermedelaquintilliere.com/bieres-busard/",
+   "source": "http://www.fermedelaquintilliere.com/bieres-busard/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "16:30",
+      "19:30"
+     ]
+    ],
+    "source": "http://www.fermedelaquintilliere.com/bieres-busard/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "La Bière des Loups",
@@ -348,30 +462,30 @@
   "n": "Microbrasserie de Montchat",
   "c": "Lyon 3e",
   "d": "69",
-  "lat": 45.758,
-  "lon": 4.886,
-  "km": 13.8,
+  "lat": 45.745508,
+  "lon": 4.885456,
+  "km": 12.9,
   "cat": 1,
   "conf": "moyenne",
   "note": "Brewpub (pression, bouteilles, planches) mars-octobre jeu-ven-sam ; la page cite une « vente directe de bières ».",
   "addr": "65 rue Trarieux, 69003 Lyon",
   "src": "https://bieredemontchat.com/brewpub/",
-  "coordPrecision": "commune",
+  "coordPrecision": "address",
   "beers": []
  },
  {
   "n": "La Soyeuse",
   "c": "Rontalon",
   "d": "69",
-  "lat": 45.6064,
-  "lon": 4.6039,
-  "km": 13.9,
+  "lat": 45.659236,
+  "lon": 4.63239,
+  "km": 9.6,
   "cat": 2,
   "conf": "solide",
   "note": "Boutique à la ferme ; dégustation seulement lors des visites guidées de groupe (10 personnes minimum). Lun-mar 15h30-19h, ven 9h-12h / 15h-21h.",
   "addr": "237 route de Fondrieu, 69510 Rontalon",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/ferme-brasserie-la-soyeuse-rontalon/",
-  "coordPrecision": "commune",
+  "coordPrecision": "address",
   "beers": []
  },
  {
@@ -402,7 +516,39 @@
   "addr": "1167 allée des Muriers, 38200 Chonas-l'Amballan",
   "src": "https://www.vienne-condrieu.com/commerce-et-service/brasserie-des-roches-chonas-lamballan/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "http://www.brasseriedesroches.fr/?page_id=18"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde Ale",
+    "url": "http://www.brasseriedesroches.fr/?page_id=18"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée Ale",
+    "url": "http://www.brasseriedesroches.fr/?page_id=18"
+   },
+   {
+    "type": "stout",
+    "libelle": "Brune Stout",
+    "url": "http://www.brasseriedesroches.fr/?page_id=18"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière de Noël (à l'orange et aux épices)",
+    "url": "http://www.brasseriedesroches.fr/?page_id=18"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "http://www.brasseriedesroches.fr/",
+   "source": "http://www.brasseriedesroches.fr/?page_id=45",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Le Brass'in",
@@ -453,16 +599,54 @@
   "n": "Nomade Brewery",
   "c": "Genas",
   "d": "69",
-  "lat": 45.7306,
-  "lon": 5.0053,
-  "km": 20.5,
+  "lat": 45.731331,
+  "lon": 4.982764,
+  "km": 18.8,
   "cat": 1,
   "conf": "solide",
   "note": "TapRoom (une dizaine de pressions, terrasse) et vente de bouteilles et growlers. Mar-mer 12h-22h, jeu-ven 12h-23h30, sam 14h30-19h.",
   "addr": "388 rue Antoine Pinay, 69740 Genas",
   "src": "https://www.nomadebiere.fr/la-taproom/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "sam": [
+     [
+      "14:30",
+      "19:00"
+     ]
+    ],
+    "remarque": "TapRoom.",
+    "source": "https://www.nomadebiere.fr",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Single Track",
@@ -483,16 +667,22 @@
   "n": "GreDam",
   "c": "Civrieux-d'Azergues",
   "d": "69",
-  "lat": 45.8664,
-  "lon": 4.7186,
-  "km": 21.5,
+  "lat": 45.858319,
+  "lon": 4.705645,
+  "km": 20.8,
   "cat": 2,
   "conf": "solide",
   "note": "Cruchons et fûts vendus à la brasserie ; dégustation non citée. Lun-sam 9h30-12h30 / 14h30-19h30.",
   "addr": "20 chemin du Pontet, 69380 Civrieux-d'Azergues",
   "src": "https://gredambrasserie.com/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "tel": "04 78 33 84 95",
+   "site": "https://gredambrasserie.com/",
+   "source": "https://gredambrasserie.com/",
+   "verifieLe": "2026-10-16"
+  }
  },
  {
   "n": "Misso",
@@ -627,7 +817,12 @@
   "addr": "3 avenue du 8 Mai 1945, 42140 Chazelles-sur-Lyon",
   "src": "https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/brewery-la-farlodoise-chazelles-sur-lyon-en-3621823/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "http://www.lafarlodoise.fr",
+   "source": "http://www.lafarlodoise.fr",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Les Roches Précieuses",
@@ -648,16 +843,29 @@
   "n": "Brasserie Kachmar",
   "c": "Anse",
   "d": "69",
-  "lat": 45.9367,
-  "lon": 4.7208,
-  "km": 29.3,
+  "lat": 45.954343,
+  "lon": 4.71512,
+  "km": 31.3,
   "cat": 2,
   "conf": "moyenne",
   "note": "Vente en direct tous les samedis 10h-18h sans interruption ; ni dégustation ni bar cités.",
   "addr": "1932 route de Villefranche, 69480 Anse",
   "src": "https://www.brasserie-kachmar.fr/la-brasserie",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasserie-kachmar.fr",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "La Voie Maltée",
@@ -708,46 +916,154 @@
   "n": "Terre de Bières",
   "c": "Villefranche-sur-Saône",
   "d": "69",
-  "lat": 45.9908,
-  "lon": 4.7194,
-  "km": 35.3,
+  "lat": 45.979583,
+  "lon": 4.726651,
+  "km": 34.0,
   "cat": 2,
   "conf": "moyenne",
   "note": "Magasin à la brasserie ; dégustations via « Visites et dégustations », pas de bar cité. Lun-ven en journée, fermé le week-end.",
   "addr": "592 bd Albert Camus, 69400 Villefranche-sur-Saône",
   "src": "https://www.terredebieres.fr/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.terredebieres.fr/",
+   "source": "https://www.terredebieres.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "L'Affoleuse",
   "c": "Denicé",
   "d": "69",
-  "lat": 45.997,
-  "lon": 4.673,
-  "km": 36.4,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie-ferme, fondée en 2009 ; site sans information de vente. Répertoriée à Denicé.",
+  "lat": 46.007949,
+  "lon": 4.639198,
+  "km": 38.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site cite une « vente à la ferme / bar guinguette » ouverte le vendredi de 15h à 19h30 ; les produits vendus ne sont pas détaillés. Du lundi au jeudi, seulement sur rendez-vous.",
   "addr": "Denicé",
   "src": "https://laffoleuse.net/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-16",
+  "contact": {
+   "tel": "04 74 62 86 05",
+   "site": "https://laffoleuse.net/",
+   "source": "https://laffoleuse.net/",
+   "verifieLe": "2026-10-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "remarque": "Du lundi au jeudi : pas d'ouverture sans rendez-vous (téléphoner avant, entre 8h et 17h). Le week-end : la source n'en dit rien.",
+    "source": "https://laffoleuse.net/",
+    "verifieLe": "2026-10-16"
+   }
+  ]
  },
  {
   "n": "Brasserie Stéphanoise",
   "c": "Saint-Étienne",
   "d": "42",
-  "lat": 45.4397,
-  "lon": 4.3872,
-  "km": 38.7,
+  "lat": 45.416064,
+  "lon": 4.391308,
+  "km": 40.3,
   "cat": 1,
   "conf": "moyenne",
   "note": "Dégustation et vente à emporter à la brasserie le vendredi et le samedi 14h-18h30, sur rendez-vous le reste du temps ; pas de bar ni restaurant cité.",
   "addr": "11 bis rue Buffon, 42100 Saint-Étienne",
   "src": "https://www.labrasseriestephanoise.com/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "La Gambelle",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Manu",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Cafi",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Quinarelle",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "stout",
+    "libelle": "La Machurée",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "autre",
+    "libelle": "L'A Cha Peu (ginger Ale)",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "autre",
+    "libelle": "L'Ébariole (tourbée)",
+    "url": "https://www.labrasseriestephanoise.com/"
+   },
+   {
+    "type": "stout",
+    "libelle": "La Ratapena (Double stout)",
+    "url": "https://www.labrasseriestephanoise.com/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "09 81 94 27 79",
+   "site": "https://www.labrasseriestephanoise.com/",
+   "source": "https://www.labrasseriestephanoise.com/",
+   "verifieLe": "2026-10-16"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "remarque": "Vente à emporter, visites et dégustations ; en dehors, sur rendez-vous.",
+    "source": "https://labrasseriestephanoise.com/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "L'Ours qui brasse",
@@ -783,16 +1099,89 @@
   "n": "Brasserie des Ursulines",
   "c": "Crémieu",
   "d": "38",
-  "lat": 45.7228,
-  "lon": 5.2503,
-  "km": 38.9,
-  "cat": 0,
-  "conf": "",
-  "note": "Dégustation possible dans la salle de brassage ; vente sur place non précisée. Contacter avant de venir (accès étroit).",
+  "lat": 45.725979,
+  "lon": 5.25319,
+  "km": 39.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie dit qu'on peut acheter des bouteilles à emporter ou des fûts, et déguster sur place les bières de la brasserie. Le lundi (et le mardi hors été), vente à emporter seulement.",
   "addr": "4 côte Chausson, 38460 Crémieu",
-  "src": "https://www.alpes-isere.com/saveurs/producteurs/brasseur-de-biere-les-ursulines/",
-  "coordPrecision": "commune",
-  "beers": []
+  "src": "https://www.biere-les-ursulines.com/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde",
+    "url": "https://www.biere-les-ursulines.com"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "https://www.biere-les-ursulines.com"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée",
+    "url": "https://www.biere-les-ursulines.com"
+   },
+   {
+    "type": "brune",
+    "libelle": "Brune",
+    "url": "https://www.biere-les-ursulines.com"
+   },
+   {
+    "type": "ipa",
+    "libelle": "I.P.A",
+    "url": "https://www.biere-les-ursulines.com"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 74 83 60 35",
+   "site": "https://www.biere-les-ursulines.com/",
+   "source": "https://biere-les-ursulines.com/contact/",
+   "verifieLe": "2026-10-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [],
+    "mer": [
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "19:30"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "20:00"
+     ]
+    ],
+    "dim": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Horaires hors été (mi-septembre à mi-juin). L'été : mardi 16h–19h, mercredi 16h–19h30, jeudi 16h–21h, vendredi 15h–21h, samedi 10h–13h et 15h–21h, dimanche 15h–19h30. Le lundi toute l'année, et le mardi hors été : vente à emporter seulement, heures non précisées. Plus tard les soirs d'animation.",
+    "source": "https://biere-les-ursulines.com/horaire/",
+    "verifieLe": "2026-10-16"
+   }
+  ]
  },
  {
   "n": "Brasserie du Casino de Montrond",
@@ -852,7 +1241,44 @@
   "addr": "29 chemin du Béchet, 42170 Saint-Just-Saint-Rambert",
   "src": "https://www.brasseriedelaloire.fr/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "La Saint-Côme",
+    "url": "https://www.brasseriedelaloire.fr/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Ramberte (blanche aux accents cidrés)",
+    "url": "https://www.brasseriedelaloire.fr/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La 109",
+    "url": "https://www.brasseriedelaloire.fr/"
+   },
+   {
+    "type": "brune",
+    "libelle": "La Gueule Noire",
+    "url": "https://www.brasseriedelaloire.fr/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Sibère",
+    "url": "https://www.brasseriedelaloire.fr/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Boulonji (ambrée au pain toasté)",
+    "url": "https://www.brasseriedelaloire.fr/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasseriedelaloire.fr/",
+   "source": "https://www.brasseriedelaloire.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie de la Sanne",
@@ -912,7 +1338,46 @@
   "addr": "85 allée des acacias, 38260 Champier",
   "src": "https://www.alpes-isere.com/en/sit/les-bieres-du-temps-97288/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.lesbieresdutemps.com/",
+   "source": "https://www.lesbieresdutemps.com/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Boutique.",
+    "source": "https://www.lesbieresdutemps.com/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie du Pilat",
@@ -927,7 +1392,12 @@
   "addr": "56 ZA du Grand Pré 2, 42220 Saint-Julien-Molin-Molette",
   "src": "https://www.viafluvia.fr/produits-regionaux/la-brasserie-du-pilat/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.brasseriedupilat.com/",
+   "source": "https://www.brasseriedupilat.com/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie Graine 2 Bulles",
@@ -1038,15 +1508,15 @@
   "n": "BIM Brasserie Indépendante Montbrisonnaise",
   "c": "Montbrison",
   "d": "42",
-  "lat": 45.6078,
-  "lon": 4.0653,
-  "km": 54.1,
+  "lat": 45.611213,
+  "lon": 4.065888,
+  "km": 54.0,
   "cat": 2,
   "conf": "moyenne",
   "note": "Vente sur place, visites guidées ; pas de bar ni dégustation cités. Mar et jeu 8h-17h, ven 17h-20h.",
   "addr": "2 rue de Feurs, 42600 Montbrison",
   "src": "https://www.rendezvousenforez.com/en/degustation/bim-brasserie-montbrison/",
-  "coordPrecision": "commune",
+  "coordPrecision": "address",
   "beers": []
  },
  {
@@ -1137,37 +1607,170 @@
   "addr": "ZA Pralong, 42260 Saint-Germain-Laval",
   "src": "https://www.brasserie-lagermanoise.fr/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Bière Blonde"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Bière Blanche"
+   },
+   {
+    "type": "brune",
+    "libelle": "Bière Brune"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Bière Ambrée"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Bière IPA"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple fermentation (bière triple)"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 77 62 66 73",
+   "site": "https://www.brasserie-lagermanoise.fr/",
+   "source": "https://www.brasserie-lagermanoise.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie de Chambaran",
   "c": "Saint-Étienne-de-Saint-Geoirs",
   "d": "38",
-  "lat": 45.3667,
-  "lon": 5.3833,
-  "km": 59.8,
+  "lat": 45.351627,
+  "lon": 5.33749,
+  "km": 57.9,
   "cat": 1,
   "conf": "solide",
   "note": "Vente sur place ou à emporter, dégustation ; visites sur rendez-vous. Ouvert du mardi au samedi (2026).",
   "addr": "110 bis route de l'aéroport, 38590 Saint-Étienne-de-Saint-Geoirs",
   "src": "https://www.alpes-isere.com/en/sit/brasserie-de-chambaran-la-binche-815057/",
-  "coordPrecision": "commune",
+  "coordPrecision": "address",
   "beers": []
  },
  {
   "n": "La Canaille",
   "c": "Sail-sous-Couzan",
   "d": "42",
-  "lat": 45.7439,
-  "lon": 3.9894,
-  "km": 59.9,
+  "lat": 45.733902,
+  "lon": 3.969058,
+  "km": 61.3,
   "cat": 1,
   "conf": "moyenne",
   "note": "Boutique, vente sur place et visite-dégustation à 3,50 € ; pas de bar cité. Lun-mar-jeu 8h30-17h, ven 8h30-16h, sam 16h-21h.",
   "addr": "1 montée des Curistes, 42890 Sail-sous-Couzan",
   "src": "https://www.rendezvousenforez.com/en/degustation/brasserie-artisanale-la-canaille-sail-sous-couzan/",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "La gavroche"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La canaille"
+   },
+   {
+    "type": "brune",
+    "libelle": "La pétroleuse"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La sauvageonne"
+   },
+   {
+    "type": "lager",
+    "libelle": "L'insoumise"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Chateau Gaillard"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Eugène Varlin"
+   },
+   {
+    "type": "stout",
+    "libelle": "Makhno"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserielacanaille.com",
+   "source": "https://www.brasserielacanaille.com/nos-produits/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "remarque": "Boutique, vente à emporter.",
+    "source": "https://www.brasserielacanaille.com",
+    "verifieLe": "2026-10-18"
+   },
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "remarque": "Bar.",
+    "source": "https://www.brasserielacanaille.com",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Miellerie Gachet",
@@ -1212,7 +1815,14 @@
   "addr": "5 rue Samuel Péry, 01640 Jujurieux",
   "src": "https://rivieredain.fr/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 74 39 01 88",
+   "site": "https://rivieredain.fr/",
+   "untappd": "https://untappd.com/RiviereDAin",
+   "source": "https://rivieredain.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Challit",
@@ -1257,7 +1867,13 @@
   "addr": "893 RD 1075, route de Pont-d'Ain, 01250 Montagnat",
   "src": "https://www.ain-tourisme.com/en/offers/brasserie-saint-clair-bieres-la-bressane-montagnat-en-5414435/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 74 23 22 97",
+   "site": "https://brasserie-saint-clair.com",
+   "source": "https://brasserie-saint-clair.com",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Free Mousse",
@@ -1272,7 +1888,55 @@
   "addr": "1 chemin des Îles, 07300 Saint-Jean-de-Muzols",
   "src": "https://www.ardeche-hermitage.com/fr/catalogue/detail/saint-jean-de-muzols-2979298/brasserie-free-mousse-602124/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Free-Skette",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Free-Meuse",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Free-Pouille",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Free-Ken",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Free-Son (Bière Blonde Triple de fermentation haute)",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Free-Style",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Free-M' (Session)",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Free-Leuse",
+    "url": "https://www.freemousse.fr/nos-bieres/description/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 75 06 58 78",
+   "site": "https://freemousse.fr",
+   "source": "https://freemousse.fr",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Rhôdanienne",
@@ -1347,7 +2011,55 @@
   "addr": "10 route de Chamagnat, 01450 Saint-Alban",
   "src": "https://www.grangenoire.com/la-brasserie",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Globalement inoffensive (Pale Ale)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Le triangle des bermudes (English IPA)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "autre",
+    "libelle": "Le p'tit Brùnaidh (Peated Scotch Ale)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "stout",
+    "libelle": "Le cabinet de curiosités (Dry Stout)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "autre",
+    "libelle": "Gose of the baies (Gose aux baies de sichuan et baies roses)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Les cercles de l'Atlantide (Double Dry Hop IPA, sans gluten)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "sour",
+    "libelle": "Cydonia (Sour au coing barriquée bourbon)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   },
+   {
+    "type": "ambree",
+    "libelle": "RED GRIOTTE (Ambrée à la griotte et au piment ancho)",
+    "url": "https://www.grangenoire.com/nos-bieres"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 37 61 04 05",
+   "site": "https://www.grangenoire.com",
+   "source": "https://www.grangenoire.com/la-brasserie",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Les Ateliers du Dauphiné",
@@ -1422,7 +2134,55 @@
   "addr": "400 route de Roanne, 42720 Pouilly-sous-Charlieu",
   "src": "https://www.loiretourisme.com/en/get-out-and-move/enjoying-yourself/tastings/brasseurs-du-sornin-pouilly-sous-charlieu-en-4074581/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Perle verte (Bière blonde)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Sornin (Bière ambrée)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Pierre blanche (Bière blanche)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Trouille (Bière brune)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Grand Béréby (Bière NEIPA)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Croix perdue (Bière triple)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Double zéro (Bière sans alcool)",
+    "url": "https://www.sornin.com/boissons/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Eduenne (Bière blonde)",
+    "url": "https://www.sornin.com/boissons/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 77 60 82 28",
+   "site": "https://www.sornin.com",
+   "source": "https://www.sornin.com",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Les Deux Branches",
@@ -1437,7 +2197,13 @@
   "addr": "236 rue de l'Auberge, 42750 Maizilly",
   "src": "https://www.loiretourisme.com/offres/brasserie-les-deux-branches-maizilly-fr-4373877/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://lesdeuxbranches.fr",
+   "untappd": "https://untappd.com/LesDeuxBranches",
+   "source": "https://lesdeuxbranches.fr/bieres/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie de la Pérouze",
@@ -1737,7 +2503,14 @@
   "addr": "15 chemin de Pontardieu, Saint-Agrève",
   "src": "https://www.pays-lamastre-tourisme.com/fr/catalogue/activite/brasserie-lagrivoise-152816/?page_id=279",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 75 30 70 76",
+   "site": "https://lagrivoise.fr/",
+   "untappd": "https://untappd.com/LAgrivoise",
+   "source": "https://lagrivoise.fr/formulaire/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie de Chartreuse",
@@ -1947,7 +2720,14 @@
   "addr": "128 avenue René Cassin, 73290 La Motte-Servolex",
   "src": "https://www.chamberymontagnes.com/en/what-is-there-to-do-in-chambery-montagnes/brasserie-du-mont-blanc-la-motte-servolex-en-5784997/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 79 62 96 76",
+   "site": "https://www.brasserie-montblanc.com",
+   "untappd": "https://untappd.com/MontBlanc",
+   "source": "https://www.brasserie-montblanc.com/contact",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie B.A.S. (Sabaudia)",
@@ -2007,7 +2787,12 @@
   "addr": "ZA la Croix-Bouthier, 1 rue du Montillet, 71800 Varennes-sous-Dun",
   "src": "https://www.burgundy-tourism.com/to-do-to-see/heritage-activities/DEGBFC000V50CMIF/detail/vendenesse-les-charolles/kura-de-bourgogne",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.kuradebourgogne.com/",
+   "source": "https://www.kuradebourgogne.com/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie des Cuves",
@@ -2022,7 +2807,20 @@
   "addr": "5 rue de la Maladière, 38360 Sassenage",
   "src": "https://www.grenoble-tourisme.com/en/catalog/detail/brasserie-des-cuves-4805118/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "ambree",
+    "libelle": "La Belle Noiseuse",
+    "url": "https://brasseriedescuves.fr"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 57 93 60 27",
+   "site": "https://brasseriedescuves.fr",
+   "source": "https://brasseriedescuves.fr",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie La Furieuse",
@@ -2037,7 +2835,55 @@
   "addr": "7 rue de la Maladière, 38360 Sassenage",
   "src": "https://www.grenoble-tourisme.com/en/catalog/detail/brasserie-la-furieuse-5579070/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "La Furie",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Futée",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Furtive",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Fusée",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Furax",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Fugazi",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Full",
+    "url": "https://lafurieuse.com"
+   },
+   {
+    "type": "lager",
+    "libelle": "Fuß",
+    "url": "https://lafurieuse.com"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 76 26 11 64",
+   "site": "https://lafurieuse.com",
+   "source": "https://lafurieuse.com/contact",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "La Marmotte Masquée",
@@ -2052,7 +2898,12 @@
   "addr": "507 chemin du Clot Perrier, 38380 Saint-Pierre-de-Chartreuse",
   "src": "https://www.chartreuse-tourisme.com/en/offers/brasserie-la-marmotte-masquee-saint-pierre-de-chartreuse-en-2715901/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://lamarmottemasquee.fr",
+   "source": "https://lamarmottemasquee.fr",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie des Cimes",
@@ -2067,7 +2918,13 @@
   "addr": "152 avenue de Saint Simond, 73100 Aix-les-Bains",
   "src": "https://www.aixlesbains-rivieradesalpes.com/en/degustation/brasserie-des-cimes-aix-les-bains/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.brasserie-des-cimes.com",
+   "untappd": "https://untappd.com/BrasserieDesCimes",
+   "source": "https://www.brasserie-des-cimes.com",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie La Dourbie",
@@ -2082,7 +2939,49 @@
   "addr": "2 rue Baptiste Marcet, 38600 Fontaine",
   "src": "https://www.presences-grenoble.fr/actualites-commerce-grenoble/brasserie-la-dourbie-specialiste-des-bieres-d-exception.htm",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde Belge",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Bière Ambrée",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Bière Brune",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Blonde I.P.A.",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Bière Blanche",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Blonde Fumée (fumée au bois de hêtre)",
+    "url": "https://la-dourbie.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Fontainoise (Pale Ale)",
+    "url": "https://la-dourbie.fr/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://la-dourbie.fr",
+   "source": "https://la-dourbie.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Coup de Mousse",
@@ -2127,7 +3026,38 @@
   "addr": "10 rue du Clergeon, 73410 Entrelacs",
   "src": "https://brasseriecaquot.fr/ours-bar/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "url": "https://brasseriecaquot.fr/"
+   },
+   {
+    "type": "blanche",
+    "url": "https://brasseriecaquot.fr/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Rousse IPA",
+    "url": "https://brasseriecaquot.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Verveine (blonde aromatisée)",
+    "url": "https://brasseriecaquot.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Aix Riviera (bière de soif)",
+    "url": "https://brasseriecaquot.fr/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "09 82 32 88 71",
+   "site": "https://brasseriecaquot.fr/",
+   "source": "https://brasseriecaquot.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Teddy Beer",
@@ -2198,11 +3128,17 @@
   "km": 93.0,
   "cat": 0,
   "conf": "",
-  "note": "Fiche « dégustation » : visite et rencontre avec les brasseurs le mer et le ven 15h-19h, entrée libre ; vente de bouteilles non précisée (marchés mer et ven matin).",
+  "note": "Le site officiel annonce l'arrêt du brassage « pour le moment » ; le matériel est parti au Pays basque. Les horaires de dégustation de la source d'origine (mer et ven 15h-19h) sont donc à vérifier. Source : https://maltobar.fr/",
   "addr": "13 rue Très Cloîtres, 38000 Grenoble",
   "src": "https://www.grenoble-tourisme.com/en/catalog/detail/maltobar-6043803/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://maltobar.fr/",
+   "source": "https://maltobar.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "P'tit Labo (Brasserie de Grenoble)",
@@ -2277,7 +3213,13 @@
   "addr": "95 rue de Bolliet, 73230 Saint-Alban-Leysse",
   "src": "https://www.chamberymontagnes.com/que-faire/archimalt-brasserie-artisanale-bar-et-petit-resto-saint-alban-leysse-fr-5784790/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://www.archimalt.fr",
+   "untappd": "https://untappd.com/Archimalt",
+   "source": "https://www.archimalt.fr/nos-bi%C3%A8res/notre-gamme/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "La Montagnarde",
@@ -2307,7 +3249,74 @@
   "addr": "9002 route de Genève, ZI du Pardon, 01130 Nantua",
   "src": "https://www.hautbugey-tourisme.com/producteur/brasserie-letincelle/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Micro Pale Ale (bière légère aux notes citronnées)",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Aurore",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Mosaïc",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Lumière Blanche",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Azimut",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Contre-Jour (bière noire légère et chocolatée)",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Super Nova (bière houblonnée et fruitée)",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Verveine",
+    "url": "https://www.brasserie-letincelle.fr/bieres/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-letincelle.fr/",
+   "source": "https://www.brasserie-letincelle.fr/bieres/",
+   "verifieLe": "2026-10-17"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "« Vente en direct & brewpub », brewpub en terrasse uniquement.",
+    "source": "https://www.brasserie-letincelle.fr/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie 3B (Bassin Bellegardien)",
@@ -2367,7 +3376,45 @@
   "addr": "33 rue de Champ Roman, 38400 Saint-Martin-d'Hères",
   "src": "https://www.alpes-isere.com/en/sit/brasserie-artisanale-du-dauphine-4967619/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Face Nord Blonde",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Face Nord IPA",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Face Nord Rousse",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Face Nord Blanche",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Face Nord NEIPA",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Face Nord Verte (boisson alcoolisée à base de bière aromatisée à la Chartreuse Verte)",
+    "url": "https://brasseriedudauphine.fr/face-nord/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 38 37 19 67",
+   "site": "https://brasseriedudauphine.fr",
+   "source": "https://brasseriedudauphine.fr/face-nord/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Vellavia",
@@ -2442,7 +3489,46 @@
   "addr": "26 chemin de la Tour de Montagny, 73800 Chignin",
   "src": "https://brasseriequardin.fr/",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Blonde (Pale Ale)",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "blanche",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "ambree",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "brune",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Moût de Roussane (blonde au moût de raisin)",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Moût de Mondeuse (blonde au moût de raisin)",
+    "url": "https://brasseriequardin.fr/"
+   },
+   {
+    "type": "ipa",
+    "url": "https://brasseriequardin.fr/"
+   }
+  ],
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "04 79 28 12 04",
+   "site": "https://brasseriequardin.fr/",
+   "source": "https://brasseriequardin.fr/",
+   "verifieLe": "2026-10-17"
+  }
  },
  {
   "n": "Brasserie Grésiv'ale",

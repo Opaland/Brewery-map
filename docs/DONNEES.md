@@ -61,8 +61,9 @@ sans règle tombe en « autre », et son libellé recopie le style.
 
 ## Date de vérification (`verifieLe`, facultative)
 
-Absente des 166 lignes : la fiche dit « non renseignée ». Remplie par la
-curation, jamais devinée.
+Absente des 166 lignes fournies le 15/10 ; depuis S266, remplie sur 20
+fiches par les accords de Cédric. Absente, la fiche dit « non renseignée ».
+Remplie par la curation, jamais devinée.
 
 **Ce qu'elle couvre** (décidé en S11, revue métier) : ce qui n'a pas de date
 à soi — la catégorie, la confiance, la note, la source, l'adresse, les

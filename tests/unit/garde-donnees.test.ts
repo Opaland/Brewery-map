@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { BASE_DE_DONNEES, nomDAccord, verifierDonnees } from '../../src/core/garde-donnees'
-import { DONNEES } from '../../src/core/nouveautes'
 import { formaterDonnees, type Lot } from '../../src/core/curation'
 import type { Brasserie } from '../../src/core/schema'
 
@@ -114,7 +113,10 @@ describe('l’ordre des accords (revue adverse S230)', () => {
 })
 
 describe('la base de la garde ne se déplace pas seule (revue adverse S230)', () => {
-  it('son empreinte est celle du fichier du 15/10, déjà fixée par « Quoi de neuf ? »', () => {
-    expect(BASE_DE_DONNEES.sha256.startsWith(DONNEES.empreinte)).toBe(true)
+  // Jusqu'au 18/10, « Quoi de neuf ? » fixait la même empreinte. Depuis les
+  // premiers accords (S266), data/ a avancé et la base reste : elle est
+  // fixée ici en dur, à part, pour qu'un seul changement ne la déplace pas.
+  it('son empreinte est celle du fichier du 15/10', () => {
+    expect(BASE_DE_DONNEES.sha256.startsWith('f683cca8c5f69ef3')).toBe(true)
   })
 })

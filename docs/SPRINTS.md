@@ -2754,3 +2754,16 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - Revue adverse : deux raisons d'écart fausses (Stéphanoise, Nomade), dont une venue d'un faux négatif de `horairesSurLaPage` (« 19h 388 rue… »), corrigé test d'abord ; Pleine Lune écartée (nature déduite, pas écrite) ; `lireOpeningHours` refuse maintenant ce que le schéma refuse, et sert au rapport S60.
 - `controler` relit maintenant les horaires des propositions, pas seulement ceux des fiches nouvelles (vu rouge sur un lot faussé).
 
+
+## S264–S266 — La règle de Cédric, puis les premières lignes de `data/` *(18/10)*
+
+`docs/stories/S264.md` à `S266.md`. Cédric, le 18/10 : « site officiel + contrôlé », sa règle vaut accord, chaque PR liste ses lignes (`docs/DECISIONS.md`).
+
+| Fiches | Changées | Contacts | dont téléphones (fixes) | Bières | Horaires | Positions à l'adresse | Propositions | Accords |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 166 | 44 | 38 | 19 | 17 | 10 | 14 | 62 | 8 |
+
+- S265 : `trierParRegle` et `outils/curation.ts trier` écrivent `curation/decision-regle.md` (acceptées par lot, et la liste « à montrer » avec ses raisons).
+- S266 : les 62 propositions retenues entrent dans `data/` ; la liste lisible est `curation/s266-lignes.md`.
+- Trois défauts vus en écrivant, chacun en test rouge d'abord : 14 mobiles acceptés (maintenant montrés), un ordre de clés qui faisait refuser la garde, une sortie de `controler` tronquée dans un tube.
+- Sur ordinateur, le filtre par type de bière repoussait la liste sous le premier écran : « Plus de filtres » se partage entre les deux colonnes.

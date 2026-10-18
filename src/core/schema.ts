@@ -224,8 +224,9 @@ export const brasserieObjetSchema = z
     directoryUrl: lienSchema.optional(),
     /**
      * Date de la dernière vérification (AAAA-MM-JJ). Absente des 166 lignes
-     * fournies : la fiche dit alors « non renseignée ». Remplie par la
-     * curation (S11 et suivants), jamais devinée.
+     * fournies le 15/10 (la fiche dit alors « non renseignée ») ; remplie
+     * par la curation (S11 et suivants, dans `data/` depuis S266), jamais
+     * devinée.
      */
     verifieLe: z.iso.date().optional(),
     contact: contactSchema.optional(),

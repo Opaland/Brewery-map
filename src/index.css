@@ -302,6 +302,16 @@ a { color: inherit; }
      bloc de départ. */
   .filtres { display: block; columns: 2; column-gap: var(--espace-7); }
   .page .filtres > * { break-inside: avoid; margin: 0 0 var(--espace-6); }
+  /* « Plus de filtres » ouvert se partage entre les deux colonnes (S266) :
+     avec les bières renseignées, le filtre par type et son aide s'y
+     ajoutent, et la colonne de droite, faite de ce seul bloc, repoussait
+     la liste à 861 px pour un écran de 800. Chaque champ reste entier ; le
+     cadre est redessiné sur chaque morceau. Écartés : raccourcir l'aide
+     (une ligne de gagnée, il en fallait trois) et replier la section des
+     favoris (un geste de plus pour ce qui se consulte souvent). */
+  .page .filtres > .plus-de-filtres { break-inside: auto; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  .plus-de-filtres > summary, .plus-de-filtres-corps > * { break-inside: avoid; }
+  .plus-de-filtres > summary { break-after: avoid; }
   .vues { grid-template-columns: 1fr 1fr; align-items: start; }
   .carte-cadre { position: sticky; top: var(--espace-7); }
   .carte { height: 70vh; }

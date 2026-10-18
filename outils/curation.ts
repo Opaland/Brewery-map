@@ -32,7 +32,9 @@
  *     a lu : si le lot a changé depuis, l'écriture est refusée (revue code
  *     S11).
  */
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { closeSync, existsSync, mkdirSync, mkdtempSync, openSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
 import {
   appliquerLot,
   diffLisible,
@@ -178,12 +180,29 @@ async function controler(chemin: string | undefined) {
 }
 
 /** La sortie de `controler` sur un lot, qu'il passe ou non (il sort en 1 sur un écart). */
+/**
+ * La sortie de `controler` passe par un fichier, pas par un tube : lue dans un
+ * tube, elle perdait parfois sa fin (`sortir` termine le processus avant que
+ * tout soit écrit), et un lot sans écart passait « sans verdict » (S266 :
+ * dep-37 puis s54, d'un tri à l'autre ; écrite dans un fichier, la sortie de
+ * s54 était entière trois fois sur trois).
+ */
 function controlerEnSilence(chemin: string): string {
+  const dossier = mkdtempSync(join(tmpdir(), 'controler-'))
+  const fichier = join(dossier, 'sortie.txt')
   try {
-    return execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { encoding: 'utf8' })
-  } catch (e) {
-    const stdout = (e as { stdout?: unknown }).stdout
-    return typeof stdout === 'string' ? stdout : ''
+    const fd = openSync(fichier, 'w')
+    try {
+      execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { stdio: ['ignore', fd, fd] })
+    } catch {
+      // Un écart sort en code non nul, et son verdict sur la sortie d'erreur :
+      // les deux vont dans le même fichier.
+    } finally {
+      closeSync(fd)
+    }
+    return readFileSync(fichier, 'utf8')
+  } finally {
+    rmSync(dossier, { recursive: true, force: true })
   }
 }
 
