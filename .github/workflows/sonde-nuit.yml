@@ -1,0 +1,29 @@
+name: Sonde des services (nuit)
+
+# S277 : chaque nuit, la page publiée, les tuiles de la carte et les services
+# des outils de curation (outils/services-sondes.ts), un à la fois. Le bilan
+# nomme l'hôte en panne, dans le résumé du run. Informatif : aucune PR ne
+# l'attend ; un run rouge le matin dit qu'un service est tombé, pas le code.
+
+on:
+  schedule:
+    - cron: '43 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sonde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances
+        run: npm ci
+      - name: Sonder les services
+        run: npx tsx outils/sonde-services.ts
