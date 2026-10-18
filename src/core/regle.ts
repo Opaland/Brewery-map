@@ -6,6 +6,9 @@
  * - une proposition est acceptée si chaque source (hors lien OpenStreetMap
  *   et requête du géocodeur) est sur le site officiel de la fiche, si l'une au
  *   moins y est, et si sa confiance n'est pas « faible » ;
+ * - un téléphone mobile n'est jamais accepté : la règle dit « téléphones
+ *   fixes », et un mobile peut être le numéro d'une personne (revue S266 :
+ *   14 propositions en écrivaient un) ;
  * - le site officiel d'une fiche est un `contact.site` proposé pour elle dans
  *   un lot, ou déjà dans `data/`, hors plateformes, offices et annuaires ;
  * - deux propositions acceptables qui changent un même champ d'une fiche : la
@@ -14,6 +17,7 @@
  *   celles d'autres lots ne sont pas dans la règle.
  */
 import { PLATEFORMES, type Lot } from './curation'
+import { estUnMobile } from './osm-etiquettes'
 import type { Brasserie } from './schema'
 
 export interface LotNomme {
@@ -75,6 +79,8 @@ export function trierParRegle(
       const numero = i + 1
       const montrer = (raison: string) => aMontrer.push({ lot: nom, numero, n: p.n, raison })
       if (p.changements.conf === 'faible') return montrer('confiance « faible »')
+      const tel = p.changements.contact?.tel
+      if (tel !== undefined && estUnMobile(tel)) return montrer('téléphone mobile : peut être le numéro d’une personne')
       const siens = officiels.get(p.n)
       if (siens === undefined) return montrer('aucun site officiel connu pour la fiche')
       const etrangere = p.sources.map(hote).find((h) => h === null || (!NEUTRES.has(h) && !siens.has(h)))

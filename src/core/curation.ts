@@ -6,6 +6,7 @@ import { formaterCreneaux } from './horaires'
 import {
   brasserieObjetSchema,
   brasserieSchema,
+  brasseriesSchema,
   lienSchema,
   validerBrasseries,
   type Brasserie,
@@ -408,8 +409,13 @@ export function formaterDonnees(brasseries: readonly Brasserie[]): string {
   // Le fichier a été écrit en Python : un flottant entier s'y lit « 6.0 »,
   // que JSON.stringify écrirait « 6 » (vu au premier essai du test, ligne
   // « km »). Ces champs gardent donc leur « .0 ».
+  // L'ordre des champs est celui du schéma, comme à la relecture du fichier :
+  // sinon deux accords appliqués en mémoire et les mêmes appliqués un par un
+  // (fichier relu entre les deux) donnaient deux textes, et la garde refusait
+  // le second à l'octet près (S266).
+  const lu = brasseriesSchema.safeParse(brasseries)
   const texte = JSON.stringify(
-    brasseries,
+    lu.success ? lu.data : brasseries,
     (cle, valeur: unknown) =>
       FLOTTANTS.has(cle) && typeof valeur === 'number' && Number.isInteger(valeur)
         ? `${MARQUE}${valeur.toFixed(1)}`

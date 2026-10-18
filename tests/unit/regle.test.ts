@@ -47,6 +47,21 @@ describe('trierParRegle (S265, règle de Cédric du 18/10)', () => {
     ])
   })
 
+  it('montre une proposition qui écrit un téléphone mobile : il peut être le numéro d’une personne (S266)', () => {
+    const r = trierParRegle([
+      lot('c', [
+        prop('Brasserie X', { contact: contact('https://x.fr/', J1, '06 64 34 13 57') }, ['https://x.fr/']),
+        prop('Brasserie Y', { contact: contact('https://y.fr/', J1, '+33 7 68 86 84 62') }, ['https://y.fr/']),
+        prop('Brasserie Z', { contact: contact('https://z.fr/', J1, '04 78 33 84 95') }, ['https://z.fr/']),
+      ]),
+    ])
+    expect(r.acceptees).toEqual({ c: [3] })
+    expect(r.aMontrer.map((m) => [m.numero, m.raison])).toEqual([
+      [1, 'téléphone mobile : peut être le numéro d’une personne'],
+      [2, 'téléphone mobile : peut être le numéro d’une personne'],
+    ])
+  })
+
   it('garde la plus récente de deux propositions qui changent un même champ, et dit laquelle est écartée (Brasserie Stéphanoise)', () => {
     const r = trierParRegle([
       lot('s11', [prop('Brasserie Stéphanoise', { contact: contact('https://www.labrasseriestephanoise.com/', J1, '09 81 94 27 79') }, ['https://www.labrasseriestephanoise.com/'], J1)]),

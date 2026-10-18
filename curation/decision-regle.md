@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 | dep-14 | 83c44ee8a9cc | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 | 10 |
-| dep-22 | 01a614805b64 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 | 22 |
+| dep-22 | 01a614805b64 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 | 21 |
 | dep-27 | 184b032020c8 | 1, 2, 3, 4 | 4 |
 | dep-29 | 6941f0365a48 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 | 19 |
 | dep-35 | 0341f4e7f97a | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
@@ -21,23 +21,34 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | dep-72 | 2bd91b73d68c | 1, 2, 3, 4, 5, 6, 7 | 7 |
 | dep-76 | 20c26d20cc56 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 | 10 |
 | dep-85 | c8a23bab75a1 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 | 17 |
-| s11-exemples-s4 | ba8d79738e17 | 2, 3, 4, 5 | 4 |
+| s11-exemples-s4 | ba8d79738e17 | 2, 5 | 2 |
 | s12-lot-1 | 2587f92b8457 | 1, 2, 3 | 3 |
 | s13-lot-2 | eefa6ea1e0d6 | 1, 2 | 2 |
-| s134-sites-bieres | 860640c4f586 | 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 | 29 |
-| s16-lot-3 | aa5a27525065 | 7 | 1 |
-| s53-untappd-bieres | 14b780a52ef2 | 12, 13, 16, 17, 18, 22, 23, 25 | 8 |
+| s134-sites-bieres | 860640c4f586 | 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 21, 24, 25, 26, 28, 29, 30 | 19 |
+| s53-untappd-bieres | 14b780a52ef2 | 12, 13, 16, 17, 18, 22, 23 | 7 |
 | s54-positions | 83956b462c32 | 5, 6, 10, 11, 16, 18, 22, 23, 24, 25, 27, 34, 37, 38 | 14 |
 | s61-contacts-osm | 4b2ec1121dc7 | 1, 2, 3, 4, 5, 6, 7, 8 | 8 |
 | s63-horaires-osm | 1a3a479c55b8 | 1, 2, 3, 4, 5, 6, 7 | 7 |
 
-## À montrer à Cédric (234)
+## À montrer à Cédric (249)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
 | s11-exemples-s4 | 1 | Nomade Brewery | source hors du site officiel : untappd.com |
+| s11-exemples-s4 | 3 | Brasserie Kachmar | téléphone mobile : peut être le numéro d’une personne |
+| s11-exemples-s4 | 4 | Microbrasserie de Montchat | téléphone mobile : peut être le numéro d’une personne |
 | s13-lot-2 | 3 | La Mousse du Guiers | confiance « faible » |
-| s134-sites-bieres | 1 | Brasserie Challit | source hors du site officiel : roannais-tourisme.com |
+| s134-sites-bieres | 1 | Brasserie Challit | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 2 | La Mousse du Guiers | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 7 | Brasserie de l'Ours Barbu | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 8 | Brasserie Kokine | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 9 | Brasserie Paille | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 15 | Brasserie Teddy Beer | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 19 | Brasserie Motueka | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 20 | La Barbue | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 22 | Brasserie Grésiv'ale | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 23 | Brasserie Two Dudes | téléphone mobile : peut être le numéro d’une personne |
+| s134-sites-bieres | 27 | Brasserie de Cluny | téléphone mobile : peut être le numéro d’une personne |
 | s14-decouverte | 1 | Microbrasserie Caribrew | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s14-decouverte | 2 | Karnotzet | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s14-decouverte | 3 | Microbrasserie La Chénou | fiche nouvelle hors des lots départementaux : pas dans la règle |
@@ -158,13 +169,14 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s14-decouverte | 118 | Brasserie 360 | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s14-decouverte | 119 | Les 3 caves | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s16-lot-3 | 1 | Les Brasseurs du Sornin | concurrente de s134-sites-bieres n° 6 (beers, contact), plus récente |
-| s16-lot-3 | 2 | Brasserie Kokine | concurrente de s134-sites-bieres n° 8 (beers, contact), plus récente |
+| s16-lot-3 | 2 | Brasserie Kokine | téléphone mobile : peut être le numéro d’une personne |
 | s16-lot-3 | 3 | La Valentinoise | confiance « faible » |
-| s16-lot-3 | 4 | Brasserie de Cluny | source hors du site officiel : untappd.com |
-| s16-lot-3 | 5 | Brasserie Paille | concurrente de s134-sites-bieres n° 9 (contact), plus récente |
-| s16-lot-3 | 6 | Brasserie de l'Ours Barbu | concurrente de s134-sites-bieres n° 7 (beers, contact), plus récente |
+| s16-lot-3 | 4 | Brasserie de Cluny | téléphone mobile : peut être le numéro d’une personne |
+| s16-lot-3 | 5 | Brasserie Paille | téléphone mobile : peut être le numéro d’une personne |
+| s16-lot-3 | 6 | Brasserie de l'Ours Barbu | téléphone mobile : peut être le numéro d’une personne |
+| s16-lot-3 | 7 | Brasserie du Bugey | téléphone mobile : peut être le numéro d’une personne |
 | s16-lot-3 | 8 | Brasserie Kan Mêm | aucun site officiel connu pour la fiche |
-| s17-lot-4 | 1 | La Grange du Seigneur | source hors du site officiel : geotrek.auvergnerhonealpes-tourisme.com |
+| s17-lot-4 | 1 | La Grange du Seigneur | téléphone mobile : peut être le numéro d’une personne |
 | s17-lot-4 | 2 | Brasserie du Mont Blanc | concurrente de s134-sites-bieres n° 29 (contact), plus récente |
 | s17-lot-4 | 3 | Brasserie La Furieuse | source hors du site officiel : grenoble-tourisme.com |
 | s17-lot-4 | 4 | La Marmotte Masquée | source hors du site officiel : chartreuse-tourisme.com |
@@ -173,9 +185,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s17-lot-4 | 7 | Brasserie Dr D. Brewpub | aucun site officiel connu pour la fiche |
 | s17-lot-4 | 8 | Brasserie Maltobar | source hors du site officiel : grenoble-tourisme.com |
 | s17-lot-4 | 9 | La Bonne Fabrique | aucun site officiel connu pour la fiche |
-| s17-lot-4 | 10 | La Barbue | concurrente de s134-sites-bieres n° 20 (beers, contact), plus récente |
+| s17-lot-4 | 10 | La Barbue | téléphone mobile : peut être le numéro d’une personne |
 | s17-lot-4 | 11 | Brasserie Quardin | concurrente de s134-sites-bieres n° 21 (beers, contact), plus récente |
-| s17-lot-4 | 12 | Brasserie Two Dudes | concurrente de s134-sites-bieres n° 23 (contact), plus récente |
+| s17-lot-4 | 12 | Brasserie Two Dudes | téléphone mobile : peut être le numéro d’une personne |
 | s53-untappd-bieres | 1 | La Canute Lyonnaise | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 2 | DWYN Brewing | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 3 | Coldie Brewery | aucun site officiel connu pour la fiche |
@@ -193,6 +205,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s53-untappd-bieres | 20 | La Cadole | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 21 | Brasserie Cabule | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 24 | Brasserie de Chambaran | source hors du site officiel : alpes-isere.com |
+| s53-untappd-bieres | 25 | BIM Brasserie Indépendante Montbrisonnaise | téléphone mobile : peut être le numéro d’une personne |
 | s53-untappd-bieres | 26 | Malting Pot | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 27 | La Fabrique du Faubourg | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 28 | Domaine du Manchot | aucun site officiel connu pour la fiche |
@@ -269,3 +282,4 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 71 | La Barbue | aucune source sur le site officiel |
 | s54-positions | 72 | Brasserie Quardin | aucune source sur le site officiel |
 | s54-positions | 73 | Brasserie Grésiv'ale | aucune source sur le site officiel |
+| dep-22 | 2 | L'Armateur | controler signale un écart |

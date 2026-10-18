@@ -360,6 +360,14 @@ describe('le format du fichier de données', () => {
     const texte = readFileSync('data/breweries.json', 'utf8')
     expect(formaterDonnees(JSON.parse(texte) as Brasserie[])).toBe(texte)
   })
+
+  it('écrit les champs dans l’ordre du schéma, quel que soit l’ordre où ils ont été posés (S266 : la garde rejouait sans relire)', () => {
+    const fiche = TOUTES[0]
+    const contact = { site: 'https://x.fr/', source: 'https://x.fr/', verifieLe: '2026-10-18' }
+    const dansUnOrdre = { ...fiche, verifieLe: '2026-10-18', contact }
+    const dansLAutre = { ...fiche, contact, verifieLe: '2026-10-18' }
+    expect(formaterDonnees([dansLAutre])).toBe(formaterDonnees([dansUnOrdre]))
+  })
 })
 
 describe('du signalement à la fiche (revue métier S11)', () => {

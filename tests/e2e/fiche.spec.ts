@@ -67,14 +67,15 @@ test.describe('la fiche détaillée (Cédric)', () => {
     )
   })
 
+  // Caribrew a reçu son site le 18/10 (S266) : le cas « sans contact » se lit sur une fiche qui n'en a pas.
   test('sans contact sourcé, pas de numéro inventé', async ({ page }) => {
-    await page.getByTestId('recherche').fill('caribrew')
-    await ligne(page, /Caribrew/).click()
+    await page.getByTestId('recherche').fill('krüger')
+    await ligne(page, /Brasserie Krüger/).click()
     const contact = page.getByTestId('fiche').getByTestId('fiche-contact')
         await expect(contact.locator('p').first()).toHaveText('Téléphone : non renseigné.')
     // Aucun lien d'appel ni de site : seulement la recherche Untappd (S51).
     await expect(contact.getByRole('link')).toHaveCount(1)
-    await expect(contact.getByRole('link')).toHaveAttribute('href', 'https://untappd.com/search?q=Caribrew&type=brewery')
+    await expect(contact.getByRole('link')).toHaveAttribute('href', 'https://untappd.com/search?q=Brasserie+Kr%C3%BCger&type=brewery')
   })
 
   test('sans lien Untappd vérifié, la fiche offre une recherche, dite comme telle (S51)', async ({ page }) => {
