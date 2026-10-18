@@ -1,6 +1,6 @@
 # Étiquettes OpenStreetMap des fiches (S60)
 
-Pour Cédric. **Ce sont des pistes, pas des propositions** : rien n'est écrit dans `data/`, et les lots S61 (téléphones), S62 (sites) et S63 (horaires) reliront chaque valeur sur la page de la brasserie avant de te la proposer. Données OpenStreetMap, base du 2026-10-18T01:03:06Z ; licence ODbL : l'attribution « © les contributeurs d'OpenStreetMap » est due si une valeur est reprise.
+Pour Cédric. **Ce sont des pistes, pas des propositions** : rien n'est écrit dans `data/`, et les lots S61 (téléphones), S62 (sites) et S63 (horaires) reliront chaque valeur sur la page de la brasserie avant de te la proposer. Données OpenStreetMap, base du 2026-10-18T02:07:21Z ; licence ODbL : l'attribution « © les contributeurs d'OpenStreetMap » est due si une valeur est reprise.
 
 Rapprochement : même règle que la couche OSM de la carte (`designeLaFiche`, même cœur de nom à moins de 20 km). 257 éléments OSM lus dans 9 départements.
 
@@ -22,7 +22,7 @@ Rapprochement : même règle que la couche OSM de la carte (`designeLaFiche`, m�
 | Brasserie Georges | [node/828579675](https://www.openstreetmap.org/node/828579675) (Brasserie Georges) | `+33 4 72 56 54 54` | `https://www.brasseriegeorges.com/` | `Mo-Th 11:30-22:45; Fr,Sa 11:30-00:15` |
 | Ferme de la Quintillière | [way/138335054](https://www.openstreetmap.org/way/138335054) (Ferme de la Quintillière - Bière Busard) | — | `http://www.fermedelaquintilliere.com/bieres-busard/` | `We 16:30-19:30` |
 | La Bière des Loups | [way/1051639598](https://www.openstreetmap.org/way/1051639598) (La Bière des Loups) | `mobile` | — | — |
-| La Soyeuse | [node/11594867014](https://www.openstreetmap.org/node/11594867014) (La Soyeuse) | — | `https://www.lasoyeuse.fr/` | `Mo-Tu 15:30-19:00; We 09:00-12:00,15:00-21:00; We 15:00-21:00 "Bar"` |
+| La Soyeuse | [node/11594867014](https://www.openstreetmap.org/node/11594867014) (La Soyeuse) | — | `https://www.lasoyeuse.fr/` | `Mo-Tu 15:30-19:00; We 09:00-12:00,15:00-21:00; We 15:00-21:00 "Bar"` (non lu : commentaire ou mot non lu : « We 15:00-21:00 "Bar" ») |
 | Brasserie des Roches | [node/10140476976](https://www.openstreetmap.org/node/10140476976) (Brasserie des Roches) | `mobile` | `https://www.brasseriedesroches.fr` | — |
 | Nomade Brewery | [node/12852782429](https://www.openstreetmap.org/node/12852782429) (Nomade) | `+33 4 72 50 88 53` | `https://www.nomadebiere.fr` | `Tu-We 12:00-22:00; Th-Fr 12:00-23:30; Sa 14:30-19:00` |
 | La Farlodoise | [node/4041646051](https://www.openstreetmap.org/node/4041646051) (La Farlodoise) | `+33 9 73 10 84 72` | `http://www.lafarlodoise.fr` | `We-Fr 09:00-12:30, 15:00-19:30; Sa 09:00-19:30; Tu 15:00-19:30` |
@@ -49,7 +49,7 @@ Rapprochement : même règle que la couche OSM de la carte (`designeLaFiche`, m�
 | Brasserie L'Attract'Yves | [node/3084894727](https://www.openstreetmap.org/node/3084894727) (Micro Brasserie Attract'Yves) | — | — | — |
 | L'Écume du Guiers | [node/6659874286](https://www.openstreetmap.org/node/6659874286) (L'écume du Guier) | `mobile` | — | — |
 | L'Agrivoise | [node/5635690114](https://www.openstreetmap.org/node/5635690114) (L'Agrivoise) | `+33 4 75 30 70 76; mobile` | `http://www.lagrivoise.fr/` | — |
-| Brasserie de Chanaz | [node/9399667864](https://www.openstreetmap.org/node/9399667864) (Brasserie de Chanaz) | `mobile` | `https://www.brasserie-de-chanaz.fr/` | `Mo-Fr 08:00-12:30; 14:00 - 17:00` |
+| Brasserie de Chanaz | [node/9399667864](https://www.openstreetmap.org/node/9399667864) (Brasserie de Chanaz) | `mobile` | `https://www.brasserie-de-chanaz.fr/` | `Mo-Fr 08:00-12:30; 14:00 - 17:00` (non lu : règle sans jours : « 14:00 - 17:00 ») |
 | Brasserie de Cluny | [node/5573397529](https://www.openstreetmap.org/node/5573397529) (Zouaffe - La Brasserie de Cluny) | `mobile` | `http://www.brasseriedecluny.fr` | — |
 | Brasserie du Mont Blanc | [way/181203951](https://www.openstreetmap.org/way/181203951) (Brasserie Distillerie du Mont Blanc) | — | — | — |
 | Brasserie de la Pleine Lune | [way/889170773](https://www.openstreetmap.org/way/889170773) (Brasserie de la Pleine Lune) | — | `https://www.brasserie-pleinelune.fr/` | `Mo 14:00-20:00; Tu,We 10:00-21:00; Th,Fr 10:00-23:00; Sa 10:00-22:00` |

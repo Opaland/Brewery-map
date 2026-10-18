@@ -40,8 +40,22 @@ export function lireOpeningHours(valeur: string): LectureOpeningHours {
       const [debut = '', fin = ''] = c.trim().split('-')
       return [debut, fin === '24:00' ? '00:00' : fin] as [string, string]
     })
+    if (creneaux.some(([d, f]) => d === '00:00' && f === '00:00')) {
+      return { raison: 'journée entière (00:00-24:00) : le schéma ne sait pas la dire' }
+    }
     const nul = creneaux.find(([d, f]) => d === f)
     if (nul !== undefined) return { raison: `créneau nul : ${nul[0]}-${nul[1]}` }
+    const a24 = creneaux.find(([d]) => d === '24:00')
+    if (a24 !== undefined) return { raison: `créneau qui commence à 24:00 : ${a24[0]}-${a24[1]}` }
+    // Même règle que le schéma (jourSchema) : dans l'ordre, sans chevauchement,
+    // et seul le dernier créneau peut passer minuit.
+    const enOrdre = creneaux.every((c, i) => {
+      const suivant = creneaux[i + 1]
+      return suivant === undefined || (c[1] > c[0] && c[1] <= suivant[0])
+    })
+    if (!enOrdre) {
+      return { raison: `créneaux dans le désordre ou qui se chevauchent : ${jours(m[1] ?? '').join(', ')}` }
+    }
     for (const j of jours(m[1] ?? '')) {
       if (resultat[j] !== undefined) return { raison: `jour défini deux fois : ${j}` }
       resultat[j] = creneaux

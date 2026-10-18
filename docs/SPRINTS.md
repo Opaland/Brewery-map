@@ -2750,6 +2750,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 `docs/stories/S63.md`.
 
 - `lireOpeningHours` (TDD) lit le cas simple d'`opening_hours` et refuse le reste avec sa raison.
-- `curation/s63-horaires-osm.md` : 6 propositions (7 blocs) sur 17 fiches à horaires OSM ; 11 écartées. Les créneaux sont ceux de la page de la brasserie : deux fois elle contredit OSM.
+- `curation/s63-horaires-osm.md` : 7 propositions (8 blocs) sur 17 fiches à horaires OSM ; 10 écartées. Les créneaux sont ceux de la page de la brasserie : deux fois elle contredit OSM.
+- Revue adverse : deux raisons d'écart fausses (Stéphanoise, Nomade), dont une venue d'un faux négatif de `horairesSurLaPage` (« 19h 388 rue… »), corrigé test d'abord ; Pleine Lune écartée (nature déduite, pas écrite) ; `lireOpeningHours` refuse maintenant ce que le schéma refuse, et sert au rapport S60.
 - `controler` relit maintenant les horaires des propositions, pas seulement ceux des fiches nouvelles (vu rouge sur un lot faussé).
 

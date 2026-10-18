@@ -619,6 +619,12 @@ describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)',
     expect(horairesSurLaPage(bloc({ sam: [['16:00', '01:00']], ven: [['16:00', '00:00']] }), 'ven 16h-minuit, sam 16h-1h')).toEqual([])
   })
 
+  it('trouve une heure pleine suivie d’un nombre qui n’est pas des minutes (revue adverse S63, Nomade)', () => {
+    expect(horairesSurLaPage(bloc({ sam: [['14:30', '19:00']] }), 'Samedi 14h30-19h 388 rue de la Gare')).toEqual([])
+    // … mais « 14 h 30 » n'est toujours pas 14:00.
+    expect(horairesSurLaPage(bloc({ sam: [['14:00', '19:00']] }), 'Samedi 14 h 30-19h')).toEqual(['sam 14:00'])
+  })
+
   it('CA2 : une plage « 17-22 h » ou « 17 -22 h » vaut pour ses deux heures', () => {
     expect(horairesSurLaPage(bloc({ mar: [['17:00', '22:00']], dim: [['16:00', '21:00']] }), 'Mardi 17 -22 h … Dimanche 16-21h')).toEqual([])
     expect(horairesSurLaPage(bloc({ mar: [['17:00', '22:00']] }), 'Mardi 17 - 22 personnes')).toEqual(['mar 17:00', 'mar 22:00'])

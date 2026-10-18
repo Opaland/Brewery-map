@@ -30,4 +30,11 @@ describe('lireOpeningHours (S63)', () => {
     expect(lireOpeningHours('Jan-Mar Sa 10:00-12:00')).toEqual({ raison: 'commentaire ou mot non lu : « Jan-Mar Sa 10:00-12:00 »' })
     expect(lireOpeningHours('Sa 10:00-10:00')).toEqual({ raison: 'créneau nul : 10:00-10:00' })
   })
+
+  it('refuse ce que le schéma refuserait (revue adverse S63)', () => {
+    expect(lireOpeningHours('Mo 24:00-10:00')).toEqual({ raison: 'créneau qui commence à 24:00 : 24:00-10:00' })
+    expect(lireOpeningHours('Mo 10:00-12:00,11:00-13:00')).toEqual({ raison: 'créneaux dans le désordre ou qui se chevauchent : lun' })
+    expect(lireOpeningHours('Mo 20:00-02:00,01:00-03:00')).toEqual({ raison: 'créneaux dans le désordre ou qui se chevauchent : lun' })
+    expect(lireOpeningHours('Mo 00:00-24:00')).toEqual({ raison: 'journée entière (00:00-24:00) : le schéma ne sait pas la dire' })
+  })
 })

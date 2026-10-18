@@ -171,62 +171,6 @@
    "choix": "La note de la fiche (« pas de bar cité », autres horaires) date d'une lecture antérieure ; la page annonce maintenant un bar. La note n'est pas changée ici. Les numéros de réservation de la page sont des mobiles : non repris."
   },
   {
-   "n": "Brasserie de la Pleine Lune",
-   "changements": {
-    "horaires": [
-     {
-      "nature": "accueil",
-      "lun": [
-       [
-        "14:00",
-        "20:00"
-       ]
-      ],
-      "mar": [
-       [
-        "10:00",
-        "21:00"
-       ]
-      ],
-      "mer": [
-       [
-        "10:00",
-        "21:00"
-       ]
-      ],
-      "jeu": [
-       [
-        "10:00",
-        "23:00"
-       ]
-      ],
-      "ven": [
-       [
-        "10:00",
-        "23:00"
-       ]
-      ],
-      "sam": [
-       [
-        "10:00",
-        "22:00"
-       ]
-      ],
-      "source": "https://www.brasserie-pleinelune.fr/",
-      "verifieLe": "2026-10-18",
-      "remarque": "Bar et boutique de la brasserie."
-     }
-    ]
-   },
-   "verifieLe": "2026-10-18",
-   "sources": [
-    "https://www.brasserie-pleinelune.fr/",
-    "https://www.openstreetmap.org/way/889170773"
-   ],
-   "extrait": "Horaires d’ouverture Lundi : 14h-20h Mardi et mercredi : 10h-21h Jeudi et vendredi : 10h-23h Samedi : 10h-22h",
-   "choix": "La page présente « Notre Bar/Boutique » ; ces horaires ne sont pas ceux du retrait des tireuses (la page le dit)."
-  },
-  {
    "n": "L'Etincelle",
    "changements": {
     "horaires": [
@@ -257,6 +201,87 @@
    ],
    "extrait": "Horaires vente en direct & brewpub* Mercredi · 16h-19h Vendredi : 16h-19h *terrasse uniquement",
    "choix": "La note de la fiche dit « pas de licence pour servir de l'alcool au verre » ; la page parle d'un brewpub en terrasse. Le bloc est donné en « vente » ; la note n'est pas changée ici."
+  },
+  {
+   "n": "Brasserie Stéphanoise",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "source": "https://labrasseriestephanoise.com/",
+      "verifieLe": "2026-10-18",
+      "remarque": "Vente à emporter, visites et dégustations ; en dehors, sur rendez-vous."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://labrasseriestephanoise.com/",
+    "https://www.openstreetmap.org/node/4343465583"
+   ],
+   "extrait": "Horaires d'ouverture Vente à emporter, visites et dégustations tous les vendredis et samedi de 14h à 18h30.",
+   "choix": "La dégustation va avec la visite : le bloc est donné en « vente »."
+  },
+  {
+   "n": "Nomade Brewery",
+   "changements": {
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "12:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "23:30"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.nomadebiere.fr",
+      "verifieLe": "2026-10-18",
+      "remarque": "TapRoom."
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.nomadebiere.fr",
+    "https://www.openstreetmap.org/node/12852782429"
+   ],
+   "extrait": "Infos TapRoom Mardi-mercredi 12h-22h Jeudi-vendredi 12h-23h30 Samedi 14h30-19h"
   }
  ],
  "revues": [
@@ -264,7 +289,8 @@
   "Brasserie Kachmar",
   "Les Bières du Temps",
   "La Canaille",
-  "Brasserie de la Pleine Lune",
-  "L'Etincelle"
+  "L'Etincelle",
+  "Brasserie Stéphanoise",
+  "Nomade Brewery"
  ]
 }
