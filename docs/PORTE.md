@@ -44,3 +44,16 @@ hook le dit lui-même).
   prévisualisation) ; sortir les e2e de la porte (le cahier des charges les
   y met).
 - À remesurer à chaque revue globale, et dès qu'un commit dépasse 450 s.
+
+## Le singe (S286), hors de la porte
+
+Avant une livraison, ou sur un doute : des centaines de gestes au hasard,
+rejouables par leur graine, sans rien envoyer hors du site.
+
+```bash
+npm run build
+SINGE=1 SINGE_GRAINE=7 SINGE_GESTES=300 PW_CHROMIUM_PATH=/opt/pw-browsers/chromium \
+  npx playwright test tests/e2e/singe.spec.ts
+```
+
+Sans `SINGE=1`, le test est sauté : la porte ne le lance pas.
