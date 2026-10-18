@@ -47,6 +47,12 @@ Chercher les formules, pas les fichiers (Sentiers §3) :
 grep -rn "hors ligne\|ne quitte\|local\|aucune donnée" README.md docs/ src/
 ```
 
+### Les promesses
+
+Lancer une fois l'agent `relecteur-de-promesses` (S284) sur les textes
+affichés, les commentaires et la doc : chaque « jamais », « aucun »,
+« seul », « parce que » est-il tenu par le code ?
+
 ### Personas contre le livré
 
 Relire `docs/PERSONAS.md` contre ce qui a été livré.

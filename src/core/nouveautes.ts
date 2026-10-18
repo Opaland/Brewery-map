@@ -26,7 +26,7 @@ export const NOUVEAUTES: readonly Nouveaute[] = [
   { date: '2026-10-18', texte: 'Les Pays de la Loire et l’Indre-et-Loire sur la carte : 75 brasseries.' },
   { date: '2026-10-18', texte: 'La Bretagne sur la carte : 81 brasseries des Côtes-d’Armor, du Finistère, d’Ille-et-Vilaine et du Morbihan.' },
   { date: '2026-10-18', texte: 'La Normandie sur la carte : 36 brasseries du Calvados, de l’Eure, de la Manche, de l’Orne et de Seine-Maritime.' },
-  { date: '2026-10-18', texte: 'Sans adresse vérifiée, une brasserie est placée au centre de sa commune selon l’IGN, et sa fiche le dit.' },
+  { date: '2026-10-18', texte: 'Sans adresse vérifiée, une brasserie est placée au centre de sa commune selon l’IGN (13 gardent leur point d’origine, dit approximatif), et sa fiche le dit.' },
   { date: '2026-10-18', texte: 'Sites, téléphones, horaires, bières et positions à l’adresse ajoutés à 44 brasseries, relus sur leur propre site.' },
   { date: '2026-10-17', texte: 'Les communes de France se cherchent hors connexion dès l’installation.' },
   { date: '2026-10-17', texte: 'Sur la carte, le point de départ reste visible, et le groupe qui contient la brasserie choisie est cerclé.' },
