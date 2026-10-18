@@ -65,7 +65,7 @@ const md = [
   '',
   `Écart maximal : ${km(max)} km.`,
   '',
-  '**Ce que cela veut dire.** Les points ne sont pas des centres de commune, et le « à environ 2 km près » que l\'application affichait n\'était porté par rien. La fiche dit maintenant ce qui est établi : le point n\'est pas l\'adresse, et il peut en être à plusieurs kilomètres. Une petite commune dont le centre est à plus de 10 km du point a sa brasserie à plus de quelques kilomètres de ce point.',
+  '**Ce que cela veut dire.** Les points ne sont pas des centres de commune, et le « à environ 2 km près » que l\'application affichait n\'était porté par rien. La fiche dit maintenant ce qui est établi : le point n\'est pas l\'adresse, et il peut en être à plusieurs kilomètres. La mesure ne dit pas où est la brasserie : elle dit que le point et la commune de la fiche ne s\'accordent pas toujours. Quand l\'écart dépasse la taille de la commune, l\'un des deux est faux, et la fiche ne peut rien promettre de mieux que « pas l\'adresse ».',
   '',
   '## Fiches à plus de 5 km du centre de leur commune',
   '',

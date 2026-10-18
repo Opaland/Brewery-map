@@ -45,7 +45,7 @@ export const EN: Readonly<Record<string, string>> = {
   "Quoi de neuf ?": "What’s new?",
   "Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.": "Ready for offline use on this device: brewery pages, list, starting towns and the map already seen.",
   "Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.": "Not ready offline yet: keep the page open a moment with a connection.",
-  "Distances à vol d’oiseau, depuis le point de chaque fiche. Pour les fiches vérifiées, ce point n’est pas l’adresse et peut en être à plusieurs kilomètres ; pour celles d’OpenStreetMap, c’est le point de la carte.": "Distances as the crow flies, from each brewery’s point. For checked breweries, that point is not the address and can be several kilometres away from it; for OpenStreetMap ones, it is their point on the map.",
+  "Distances à vol d’oiseau, depuis le point de chaque fiche. Sauf adresse vérifiée, ce point n’est pas l’adresse et peut en être à plusieurs kilomètres ; pour les fiches d’OpenStreetMap, c’est le point de la carte.": "Distances as the crow flies, from each brewery’s point. Unless the address is checked, that point is not the address and can be several kilometres away from it; for OpenStreetMap breweries, it is their point on the map.",
   "Brasseries hors des fiches vérifiées :": "Breweries outside the checked pages:",
   "contributeurs OpenStreetMap": "OpenStreetMap contributors",
   "licence ODbL": "ODbL licence",

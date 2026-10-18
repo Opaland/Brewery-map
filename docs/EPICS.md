@@ -136,7 +136,7 @@ Idée de la veille (passeports des routes du whisky et du vin), sans compte.
 
 ## E6 — Données : la vraie position *(persona : Cédric)* **[C]**
 
-101 fiches sont placées au centre de leur commune. Chaque coordonnée
+101 fiches ont une position communale (S59 : pas des centres, `docs/PRECISION.md`). Chaque coordonnée
 proposée vient de la Base Adresse Nationale, adresse par adresse.
 
 | Story | Contenu |

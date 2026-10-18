@@ -39,7 +39,7 @@ const changementsSchema = brasserieObjetSchema
     (c) => [c.lat, c.lon, c.coordPrecision].every((v) => v === undefined) || [c.lat, c.lon, c.coordPrecision].every((v) => v !== undefined),
     { message: 'une position se propose entière : lat, lon et coordPrecision' },
   )
-    .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche au centre de sa commune' })
+    .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche à une position communale' })
   // « osm » est la précision des fiches venues d'OpenStreetMap (S14, S25), pas
   // une position qu'un vérificateur affirme (revue adverse S54).
   .refine((c) => c.coordPrecision !== 'osm', { message: '« osm » est réservé aux fiches venues d’OpenStreetMap' })

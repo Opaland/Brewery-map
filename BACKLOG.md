@@ -25,8 +25,8 @@ Ce qu'il a écrit, découpé ; rien n'est commencé, chaque sprint attend son go
    injoignable depuis l'environnement le 16/10). Elles passent par des lots
    de propositions comme le reste — **sauf si Cédric change la règle du
    §0** (accord ligne par ligne) pour ces champs : à lui de dire.
-4. **La vraie position de chaque brasserie.** 101 fiches ont la position du
-   centre de leur commune. Piste : géocoder l'adresse avec la Base Adresse
+4. **La vraie position de chaque brasserie.** 101 fiches ont une position
+   communale (S59 : pas des centres de commune, `docs/PRECISION.md`). Piste : géocoder l'adresse avec la Base Adresse
    Nationale (api-adresse.data.gouv.fr) et proposer les coordonnées en lot
    (précision `address`), adresse par adresse.
 5. **Chaque mois : nouvelles brasseries, changements, fermetures, par
