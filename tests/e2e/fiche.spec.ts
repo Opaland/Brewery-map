@@ -73,9 +73,14 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await ligne(page, /Brasserie Krüger/).click()
     const contact = page.getByTestId('fiche').getByTestId('fiche-contact')
         await expect(contact.locator('p').first()).toHaveText('Téléphone : non renseigné.')
-    // Aucun lien d'appel ni de site : seulement la recherche Untappd (S51).
-    await expect(contact.getByRole('link')).toHaveCount(1)
-    await expect(contact.getByRole('link')).toHaveAttribute('href', 'https://untappd.com/search?q=Brasserie+Kr%C3%BCger&type=brewery')
+    // Aucun lien d'appel ni de site : le téléphone que montre Google Maps
+    // (S267) et la recherche Untappd (S51), deux recherches dites comme telles.
+    const liens = contact.getByRole('link')
+    await expect(liens).toHaveCount(2)
+    await expect(liens.nth(0)).toHaveAttribute('href', 'https://www.google.com/maps/search/?api=1&query=Brasserie+Kr%C3%BCger+Solaize')
+    await expect(liens.nth(0)).toHaveAttribute('rel', 'noopener noreferrer')
+    await expect(contact.getByTestId('telephone-google-maps')).toContainText('vérifiez que c’est la bonne brasserie')
+    await expect(liens.nth(1)).toHaveAttribute('href', 'https://untappd.com/search?q=Brasserie+Kr%C3%BCger&type=brewery')
   })
 
   test('sans lien Untappd vérifié, la fiche offre une recherche, dite comme telle (S51)', async ({ page }) => {
