@@ -62,7 +62,7 @@ export const EN: Readonly<Record<string, string>> = {
   "Les Pays de la Loire et l’Indre-et-Loire sur la carte : 75 brasseries.": "Pays de la Loire and Indre-et-Loire on the map: 75 breweries.",
   "La Bretagne sur la carte : 81 brasseries des Côtes-d’Armor, du Finistère, d’Ille-et-Vilaine et du Morbihan.": "Brittany on the map: 81 breweries in Côtes-d’Armor, Finistère, Ille-et-Vilaine and Morbihan.",
   "La Normandie sur la carte : 36 brasseries du Calvados, de l’Eure, de la Manche, de l’Orne et de Seine-Maritime.": "Normandy on the map: 36 breweries in Calvados, Eure, Manche, Orne and Seine-Maritime.",
-  "Sans adresse vérifiée, une brasserie est placée au centre de sa commune selon l’IGN, et sa fiche le dit.": "Without a checked address, a brewery is placed at the centre of its town according to IGN, and its listing says so.",
+  "Sans adresse vérifiée, une brasserie est placée au centre de sa commune selon l’IGN (13 gardent leur point d’origine, dit approximatif), et sa fiche le dit.": "Without a checked address, a brewery is placed at the centre of its town according to IGN (13 keep their original point, shown as approximate), and its listing says so.",
   "Sites, téléphones, horaires, bières et positions à l’adresse ajoutés à 44 brasseries, relus sur leur propre site.": "Websites, phone numbers, opening hours, beers and address positions added to 44 breweries, checked on their own website.",
   "Les communes de France se cherchent hors connexion dès l’installation.": "French towns can be searched offline right after installing.",
   "Sur la carte, le point de départ reste visible, et le groupe qui contient la brasserie choisie est cerclé.": "On the map, the starting point stays visible, and the group holding the chosen brewery is ringed.",

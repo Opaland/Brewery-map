@@ -257,3 +257,31 @@ chacun demande une décision ou une vérification de source.
   le serveur de développement d'esbuild, que `tsx` ne lance pas). Outil de
   développement seulement ; la porte ne bloque qu'au niveau « haute ». Mettre
   `tsx` à jour dans sa propre story, outils relancés.
+
+- **Promesses non tenues, relevées par `relecteur-de-promesses` (S284, 18/10)**
+  — chacune demande sa story :
+  - **« Fiches vérifiées »** (`src/App.tsx:643`, `:652`, `:833`,
+    `src/core/nouveautes.ts`, `en.ts` « checked ») désigne toutes les fiches
+    de `data/`, dont 189 « À confirmer », 146 sans date de vérification et
+    57 sans source (mesuré sur `data/breweries.json`). Le mot oppose à tort
+    `data/` à la couche OSM « non vérifiée ». Proposer un mot juste
+    (« fiches relues », « sélection ») à Cédric, puis toutes les surfaces
+    (§3).
+  - **Un lien partagé (ou le QR d'une affichette) annonce « Fiche ouverte
+    depuis un lien partagé » sans montrer la fiche** quand les filtres
+    gardés l'écartent (seulement les favoris, pas encore visitées, une
+    catégorie ou un type décochés, couche OSM décochée) : `passeLesFiltres`
+    (`src/core/recherche.ts`). Mesuré par sonde : `rechercher(…, texte:
+    'Caribrew')` rend `[]` avec `seulement` ou `exclure`. Le lien devrait
+    ouvrir la fiche quels que soient les filtres, ou le dire.
+  - **« Sauvegarde lue : rien de nouveau, tout était déjà sur cet
+    appareil »** (`src/Sauvegarde.tsx:57`) quand une note ou une date de
+    visite différente du fichier a été écartée au profit de celle de
+    l'appareil (`reunir`) : le dire (« 1 note différente gardée telle que
+    sur cet appareil »).
+  - **À préciser** : « vos coordonnées ne sont envoyées à personne » vaut
+    pour ce site, pas pour le service de localisation du navigateur (« ce
+    site ne les envoie à personne ») ; « seul ce choix est gardé, jamais la
+    position » laisse croire que l'appareil ne garde rien de la zone, alors
+    que le cache des tuiles (`public/sw.js`, 600 tuiles) garde la carte vue
+    autour, et « Effacer » n'y touche pas.
