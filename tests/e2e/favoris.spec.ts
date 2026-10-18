@@ -90,6 +90,50 @@ test.describe('les favoris (Marie)', () => {
   })
 })
 
+// S275 : un geste qui ajoute au carnet demande au navigateur de ne pas vider
+// son stockage, une fois par ouverture ; rien d'autre ne le demande — ni un
+// réglage, ni l'ouverture, ni le carnet reçu d'un autre onglet (revue
+// adverse S275 : tirée de l'état gardé, la demande partait dans ces cas).
+test('seul un geste qui ajoute au carnet demande au navigateur de le garder', async ({ context, page }) => {
+  await context.addInitScript(() => {
+    const w = window as unknown as { __persist: number }
+    w.__persist = 0
+    StorageManager.prototype.persisted = () => Promise.resolve(false)
+    StorageManager.prototype.persist = () => {
+      w.__persist++
+      return Promise.resolve(true)
+    }
+  })
+  const demandes = (p: Page) => p.evaluate(() => (window as unknown as { __persist: number }).__persist)
+  await page.goto('/')
+  const passif = await context.newPage()
+  await passif.goto('/')
+  const [premier, second] = await page.locator('button.ligne').evaluateAll((l) => l.slice(0, 2).map((b) => b.getAttribute('data-nom') ?? ''))
+  expect(second).toBeTruthy()
+  await page.getByTestId('rayon').fill('40')
+  await attendreGarde(page, { rayonKm: 40 })
+  expect(await demandes(page)).toBe(0)
+
+  for (const nom of [premier, second]) {
+    await ligne(page, nom).click()
+    await page.getByTestId('bouton-favori').click()
+  }
+  await attendreGarde(page, { favoris: [premier, second] })
+  expect(await demandes(page)).toBe(1)
+  // L'onglet passif a reçu le carnet, sans geste : il ne demande rien.
+  await expect(passif.getByTestId('marque-favori')).toHaveCount(2)
+  expect(await demandes(passif)).toBe(0)
+
+  // Rouvert avec un carnet : un réglage ne demande rien, une visite oui.
+  await page.reload()
+  await page.getByTestId('rayon').fill('50')
+  await attendreGarde(page, { rayonKm: 50 })
+  expect(await demandes(page)).toBe(0)
+  await ligne(page, premier).click()
+  await page.getByTestId('bouton-visite').click()
+  await expect.poll(() => demandes(page)).toBe(1)
+})
+
 test.describe('les réglages gardés', () => {
   test('distance et commune de départ se retrouvent au retour', async ({ page }) => {
     await page.goto('/')
@@ -347,6 +391,7 @@ test('deux onglets : un favori ajouté dans chacun, les deux restent (S24)', asy
   // Un troisième onglet relit ce qui est gardé.
   const relu = await context.newPage()
   await relu.goto('/')
+  expect(second).toBeTruthy()
   for (const nom of [premier, second]) {
     await expect(relu.locator(`button.ligne[data-nom="${nom}"]`).getByTestId('marque-favori')).toHaveCount(1)
   }
