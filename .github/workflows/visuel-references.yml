@@ -13,10 +13,14 @@ on:
     branches-ignore: [main]
 
 permissions:
-  contents: write
+  contents: read
 
+# S288 (relecteur de workflows) : deux jobs. Le premier exécute le code de la
+# branche (`npm ci`, build, Playwright) sans droit d'écriture ni jeton gardé
+# dans `.git/config` ; le second, seul à pouvoir pousser, n'exécute rien de
+# la branche : il pose les captures reçues en artefact et committe.
 jobs:
-  references:
+  captures:
     runs-on: ubuntu-latest
     if: >-
       github.ref != 'refs/heads/main' &&
@@ -24,6 +28,8 @@ jobs:
        contains(github.event.head_commit.message, '[références visuelles]'))
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -41,6 +47,25 @@ jobs:
         env:
           CI: 'true'
           PW_VISUEL: '1'
+      - name: Garder les captures
+        uses: actions/upload-artifact@v4
+        with:
+          name: references-visuelles
+          path: tests/e2e/visuel.spec.ts-snapshots/
+          retention-days: 1
+
+  commit:
+    needs: captures
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Poser les captures reçues
+        uses: actions/download-artifact@v4
+        with:
+          name: references-visuelles
+          path: tests/e2e/visuel.spec.ts-snapshots/
       - name: Committer les références
         run: |
           git config user.name 'github-actions[bot]'
