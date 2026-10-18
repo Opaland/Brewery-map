@@ -194,6 +194,15 @@ describe('le fichier OSM devient des fiches « À confirmer » (S25)', () => {
     const siteDouteux = { ...fichier, brasseries: [['X', 'node/1', 'Lille', '59', 50, 3, '', 'javascript:alert(1)', 0]] }
     expect(validerFichierOsm(siteDouteux, new Set()).ok).toBe(false)
   })
+
+  it('refuse une ligne qui désigne une fiche sous un nom voisin, au même endroit (revue d’architecture S295)', () => {
+    const fiche = { n: 'Microbrasserie du Nord', lat: 50.63, lon: 3.06 }
+    const v = validerFichierOsm(fichier, new Set([fiche.n]), [fiche])
+    expect(v.ok).toBe(false)
+    expect(v.ok ? '' : v.erreurs.join()).toContain('« Brasserie du Nord » désigne la fiche « Microbrasserie du Nord »')
+    // Loin de là, un nom voisin est une autre brasserie.
+    expect(validerFichierOsm(fichier, new Set([fiche.n]), [{ ...fiche, lat: 45.75, lon: 4.85 }]).ok).toBe(true)
+  })
 })
 
 describe('dejaDansLeFichier (S25 : un même lieu sous deux noms voisins)', () => {

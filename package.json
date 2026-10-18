@@ -13,6 +13,7 @@
     "e2e": "playwright test"
   },
   "dependencies": {
+    "@etalab/decoupage-administratif": "6.0.0",
     "@fontsource-variable/fraunces": "5.3.0",
     "@fontsource-variable/inter": "5.3.0",
     "maplibre-gl": "^6.14.0",
@@ -24,7 +25,6 @@
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
     "@eslint/js": "^10.0.1",
-    "@etalab/decoupage-administratif": "6.0.0",
     "@playwright/test": "^1.62.1",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/react": "^16.3.3",

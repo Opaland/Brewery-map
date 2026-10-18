@@ -9,7 +9,7 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { positionDuGeocodeur } from '../src/core/candidats'
-import { distanceKm } from '../src/core/distance'
+import { distanceKm, kmFr } from '../src/core/distance'
 import { repartitionDesEcarts } from '../src/core/precision'
 import { validerBrasseries } from '../src/core/schema'
 import { geocoder } from './geocodeur'
@@ -28,7 +28,7 @@ const mesures = fiches.map((b) => {
   return { b, ecart: centre === null ? null : distanceKm(b, centre) }
 })
 
-const km = (x: number) => x.toFixed(1).replace('.', ',')
+const km = kmFr
 const connues = mesures.filter((m) => m.ecart !== null)
 const inconnues = mesures.filter((m) => m.ecart === null)
 const max = Math.max(...connues.map((m) => m.ecart ?? 0))

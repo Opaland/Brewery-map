@@ -9,6 +9,26 @@ réponse par groupe suffit (« groupe 2 : d'accord », « groupe 4 : non »).
 Le détail ligne par ligne est dans `curation/decision-regle.md`, section
 « À montrer ».
 
+## Les réponses attendues
+
+Ajouté le 18/10 (relecture S295, persona Cédric : le texte était dense).
+Une ligne par groupe ; « au plus » dit combien de propositions la réponse
+peut faire entrer, un plafond : une fiche peut figurer dans deux groupes
+(Malting Pot, aux groupes 7 et 8), et un groupe peut en exclure une partie
+(groupe 2 : les adresses marquées « score faible » ou « incomplète »).
+
+| Groupe | La question | Réponse attendue | Au plus |
+|---|---|---|---|
+| 1 | Clore le lot des découvertes OSM du 16/10 sans l'appliquer ? | oui / non | 0 (elles restent dans la couche OSM) |
+| 2 | Accepter les positions géocodées depuis un office ou un annuaire ? | oui / non | 59 positions à l'adresse |
+| 3 | Accepter les bières lues sur la page Untappd de la brasserie ? | oui / non | 34 propositions de bières |
+| 4 | Accepter ces propositions sans le mobile ? Un agent réécrit alors le lot, et vous l'acceptez ensuite par une seconde réponse | oui / non | 20 propositions (site, bières, horaires) |
+| 5 | Laisser de côté les sources de tourisme ou d'annuaire ? | oui / non | 0 |
+| 6 | Appliquer la procédure de déménagement aux 10 brasseries ? | oui / non | 10 brasseries changent de commune et de position |
+| 7 | Placer ces 13 fiches au centre IGN de leur arrondissement ou de leur commune nouvelle ? | oui / non | 13 positions au centre IGN |
+| 8 | Pour chaque fiche douteuse : la proposition de la dernière colonne ? | oui / non par ligne, ou « comme proposé » | 13 lignes ; 3 touchent le périmètre (industriels, chaînes) |
+| 9 | Retirer le numéro mobile de la note de Grigny ? | oui / non | 1 |
+
 ## 1. Les découvertes OpenStreetMap du 16/10 (`s14-decouverte`, 119 fiches)
 
 Fiches lues sur OpenStreetMap seulement, sans autre vérification

@@ -46,7 +46,8 @@ export const MOTIF_OSM = /[\\/]src[\\/]donnees-osm[\\/]brasseries-osm\.json$/
 
 /**
  * Le même garde pour la couche OpenStreetMap (S25) : son schéma, des noms
- * uniques, aucun nom repris du fichier de Cédric.
+ * uniques, aucun nom repris du fichier de Cédric, aucune ligne qui désigne
+ * une de ses fiches sous un nom voisin (S295).
  */
 export function validerDonneesOsm(motif: RegExp = MOTIF_OSM): Plugin {
   return {
@@ -60,8 +61,8 @@ export function validerDonneesOsm(motif: RegExp = MOTIF_OSM): Plugin {
       } catch (e) {
         this.error(`${id} : JSON illisible — ${String(e)}`)
       }
-      const fichier = JSON.parse(await readFile(path.resolve('data/breweries.json'), 'utf-8')) as { n: string }[]
-      const verdict = validerFichierOsm(contenu, new Set(fichier.map((b) => b.n)))
+      const fichier = JSON.parse(await readFile(path.resolve('data/breweries.json'), 'utf-8')) as { n: string; lat: number; lon: number }[]
+      const verdict = validerFichierOsm(contenu, new Set(fichier.map((b) => b.n)), fichier)
       if (!verdict.ok) {
         this.error(`${id} : ${String(verdict.erreurs.length)} erreur(s)\n  ${verdict.erreurs.slice(0, 20).join('\n  ')}`)
       }

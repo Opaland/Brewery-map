@@ -490,6 +490,16 @@ describe('les ajouts de fiches (S14)', () => {
     expect(r.ok ? '' : r.erreurs.join('\n')).toContain(`proposition 2 (${TOUTES[0].n})`)
   })
 
+  it('un ajout à la précision « osm » se lit, mais n’entre pas dans data/ (revue d’architecture S295)', () => {
+    const osm: Lot = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, coordPrecision: 'osm' } }] }
+    expect(lireLot(osm, AUJOURDHUI).ok).toBe(true)
+    const r = appliquerLot(TOUTES, osm, new Set([2]))
+    expect(r.ok).toBe(false)
+    expect(r.ok ? '' : r.erreurs.join('\n')).toContain('proposition 2 (Virage 7) : « osm » est réservé à la couche OpenStreetMap')
+    // Non accepté, il ne gêne rien.
+    expect(appliquerLot(TOUTES, osm, new Set([1])).ok).toBe(true)
+  })
+
   it('un ajout porte une fiche entière et valide, sans date à part', () => {
     const invalide = { ...avecAjout, ajouts: [{ ...ajout, fiche: { ...nouvelle, cat: 1 } }] }
     expect(lireLot(invalide, AUJOURDHUI).ok).toBe(false)

@@ -47,6 +47,10 @@ Restent 3, 4 et 5.
 
 ## Constats sur `data/breweries.json` (relevés le 15/10, sans modification)
 
+> **Chiffres du 15/10, sur 166 lignes.** Le fichier en compte 358 au
+> 18/10 ; l'état actuel, champ par champ, est dans `curation/A-CHERCHER.md`
+> (relecture S295, persona Cédric : deux sources donnaient deux états).
+
 Relevés par lecture du fichier fourni (166 lignes). **Aucun n'a été corrigé** :
 chacun demande une décision ou une vérification de source.
 
@@ -330,3 +334,27 @@ chacun demande une décision ou une vérification de source.
   (interne), et la licence des données est « à préciser » — à trancher par
   Cédric (une contribution aux fiches ne sait pas sous quelle licence elle
   serait reversée).
+
+## Relecture d'ensemble S295 — restes
+
+Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
+
+- **BE2, le précache tout ou rien** (Bernard) : 5 Mo, dont 1,7 Mo de
+  communes, à installer en une fois sur une 4G faible. Le « tout ou rien »
+  vient de la revue S7 : un cache partiel effaçait l'ancien. Il faut une
+  story pour sortir les communes de l'installation sans perdre la garantie.
+- **AR5, deux PR de données en parallèle sont toujours en conflit** : les
+  ajouts vont en fin de tableau, et l'empreinte des nouveautés change.
+  Remède : une commande `curation.ts reconstruire`, qui écrit `data/` depuis
+  la base et les accords avec le code de la garde. D'ici là, une PR de
+  données à la fois.
+- **LD7, presque aucun test de composant** pour App (861 lignes), Carte et
+  Liste : chaque changement d'interface paie le build et les e2e.
+  Commencer par Liste (fiche, favori, signalement), avec Testing Library.
+- **LD9, des entrées écrites par des agents lues sans schéma**
+  (`JSON.parse(...) as T`, par exemple `outils/departement.ts:204` et
+  `:238`, `outils/centres-ajouts.ts:24`) : une validation Zod à l'entrée.
+- **LD10, les dépendances en retard** : React 19, TypeScript 7 et Vitest 5
+  demandent chacune leur story ; les versions mineures (tsx, Playwright,
+  Vite, MapLibre) peuvent suivre en une PR.
+

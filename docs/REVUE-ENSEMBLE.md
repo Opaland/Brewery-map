@@ -63,7 +63,7 @@ Les corrections sont livrées en cinq parties, une PR chacune :
 | MA6 | Marie | G | Le bloc de provenance est en jargon, « IGN » n'est pas expliqué | `fiche.ts:62-67` | corrigé (partie 3) |
 | MA7 | Marie | m | Le résumé de confidentialité se coupe en plein milieu | `PointDeDepart.tsx:150` | corrigé (partie 1) |
 | MA8 | Marie | m | « Fiches vérifiées » est trompeur | BACKLOG | Cédric (déjà demandé) |
-| MA9 | Marie | m | Une distance mesurée depuis le centre de la commune est affichée sans réserve sur la ligne | `formaterDistance` | corrigé (partie 3) : « ≈ » |
+| MA9 | Marie | m | Une distance mesurée depuis le centre de la commune est affichée sans réserve sur la ligne | `formaterDistance` | déjà fait : `formaterDistance` écrit « ≈ 4 km » sauf sous 1 km (`src/core/distance.ts`) |
 | LE1 | Léa | G | « Effacer » ne vide pas le cache des tuiles | `App.tsx:372`, `sw.js` | corrigé (partie 1) |
 | LE2 | Léa | G | « Vos coordonnées ne sont envoyées à personne » est vrai pour ce site, pas pour le navigateur | `PointDeDepart.tsx:152` | corrigé (partie 1) |
 | LE3 | Léa | G | Le texte dit que les communes sont demandées au choix ; elles le sont dès qu'un départ est gardé | `ChoixCommune.tsx:44-59` | corrigé (partie 1) |
@@ -125,12 +125,12 @@ pas encore la suite annoncée est listé ci-dessous.
 |---|---|---|---|---|
 | AR1 | haute | La garde rejoue toute l'histoire avec le schéma d'aujourd'hui : un champ obligatoire (l'`id` de S231) ou un arrondi changé la casse. Un lot illisible est dit « introuvable » | `src/core/garde-donnees.ts:63`, `outils/garde-donnees.ts:34` | corrigé en partie (partie 2) : un lot illisible a son propre message. Les « bases d'étape » font l'objet d'une story (S296), et la signature d'une nouvelle base revient à **Cédric** |
 | AR2 | haute | Une fiche est identifiée par son nom : 11 noms répétés déjà dans la couche OSM ; un renommage perd favoris, notes et liens | `schema.ts:266`, `preferences.ts:58` | BACKLOG (S231, déjà au plan), avant 600 fiches |
-| AR3 | haute | Charger par département (S294) dirait au serveur la zone de la position | `communesFrance.ts:10-15` | la condition est écrite dans la story S294 et dans `ARCHITECTURE.md` (partie 2) : avec « autour de moi », les fichiers demandés ne dépendent pas de la position, et un e2e le prouve |
+| AR3 | haute | Charger par département (S294) dirait au serveur la zone de la position | `communesFrance.ts:10-15` | corrigé (partie 2) : la condition est écrite dans `docs/ARCHITECTURE.md` §4 et sur la ligne S294 de `docs/EPICS.md`. Avec « autour de moi », les fichiers demandés ne dépendent pas de la position, et un e2e le prouve |
 | AR4 | moyenne | Chaque version retélécharge tout le précache, 1,2 Mo en gzip | `sw.js` install | corrigé (partie 1) : à l'installation, un fichier haché déjà présent dans un ancien cache est repris sans réseau |
 | AR5 | moyenne | Deux PR de données en parallèle sont toujours en conflit ; aucune commande ne reconstruit `data/` | `outils/curation.ts` | BACKLOG ; d'ici là, les PR de données passent une par une (#15) |
-| AR6 | moyenne | `coordPrecision: 'osm'` est accepté dans `data/`, ce qui brouille la frontière avec la couche OSM | `schema.ts:60`, `decouverte.ts:222` | corrigé (partie 2) : refusé dans un ajout. Vu à la mesure : aucune ligne de `data/` ne l'utilise |
+| AR6 | moyenne | `coordPrecision: 'osm'` est accepté dans `data/`, ce qui brouille la frontière avec la couche OSM | `schema.ts:60`, `decouverte.ts:222` | corrigé (partie 2) : un ajout « osm » se lit, mais `appliquerLot` refuse de l'accepter ; il se place d'abord au centre IGN. Aucune ligne de `data/` ne l'utilise ; seul `s14-decouverte` (en attente, groupe 1 de `A-MONTRER.md`) en porte |
 | AR7 | moyenne | Au build, les doublons OSM ↔ fichier ne sont repérés que par le nom exact | `osm-france.ts:198-212` | corrigé (partie 2) : `designeLaFiche` tourne au build (§6quater) |
-| AR8 | basse | Livrer par département sans découper la source | mesure | écrit dans S294 : le découpage se fait au build |
+| AR8 | basse | Livrer par département sans découper la source | mesure | corrigé (partie 2) : écrit dans `ARCHITECTURE.md` §4 ; le découpage se fait au build |
 | AR9 | basse | Deux lots de même nom : le dernier lu gagne sans bruit ; les lots sont immuables sans que ce soit écrit | `outils/garde-donnees.ts:30` | corrigé (partie 2) : un doublon est refusé, et `curation/LISEZMOI` le dit |
 
 ## La fiche face à la concurrence

@@ -30,6 +30,33 @@ accepte reste à Cédric : `curation/RECOMMANDATIONS.md`.
 | #34 | Licence de `data/breweries.json` | C'est son fichier : le droit de le licencier est le sien. | ODbL 1.0, comme la couche OSM qu'il côtoie : une seule règle pour qui réutilise les deux. |
 | #38 | Un canal de signalement hors GitHub | Il faut une adresse de courriel à lui, qu'aucun agent ne peut inventer. | Une adresse dédiée (par exemple un alias), affichée à côté de « Signaler une erreur ». |
 
+**Ce que coûte l'attente** (relecture S295, persona Cédric : ces trois
+décisions sont ouvertes depuis le 16/10) :
+- **#33, la veille** : sans elle, aucune brasserie nouvelle n'est
+  découverte, et une fiche fermée n'est vue que par un signalement. Elle
+  conditionne « compléter les fiches ».
+- **#34, la licence** : sans licence, personne ne peut réutiliser
+  `data/` légalement, et la page ne peut pas dire à quelles conditions.
+- **#38, l'adresse** : sans elle, une brasserie sans compte GitHub ne peut
+  pas corriger sa fiche (relecture S295, persona « une brasserie » :
+  bloquant), ni en demander le retrait.
+
+## Venues de la relecture d'ensemble (S295, 18/10)
+
+Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
+
+| Id | La question | Recommandation |
+|---|---|---|
+| CE2 | Qu'est-ce qu'une fiche « complète » ? `curation/A-CHERCHER.md` mesure sept champs : source, ce qu'on peut y faire, site, adresse vérifiée, téléphone, horaires, bières. Une brasserie sans accueil n'aura jamais d'horaires d'accueil. | Une fiche est complète quand chaque champ est renseigné et sourcé, ou marqué « sans objet » ou « cherché, introuvable » avec sa date. Le schéma devra apprendre ces deux états. |
+| CE8 | Le périmètre : brasserie industrielle, chaîne de brasseries-restaurants, bar qui sert la bière d'un voisin ? | Garder ce qui brasse et vend sur place ; retirer le bar ; garder les chaînes, chaque restaurant étant un lieu de vente. |
+| MA3 | Les « À confirmer » se mêlent aux fiches sûres. Faut-il les montrer après, ou une case pour les masquer ? | Une case « Masquer les à confirmer », décochée par défaut : rien n'est caché sans geste. |
+| MA8 | « Fiches vérifiées » compte aussi les « À confirmer ». | « Fiches du fichier », ou « fiches lues par Cédric ». |
+| BR3 | Les Roches Précieuses sont dites « radiées (probablement fermées) », sans statut « fermée ». | Un lot « fermées » : chaque ligne avec sa source (registre, site). |
+| BR10 | Une brasserie peut-elle demander le retrait de sa fiche ? | Oui, par le canal de #38 ; le dire dans l'aide du signalement. |
+| RF5, RF6, RF7, RF9 | La fiche face à la concurrence : « sur rendez-vous », une grille « sur place » (acheter, boire, visiter, manger, boutique), la période de validité des horaires, « où trouver ses bières ailleurs ». | Chacune ajoute un champ au schéma, sourcé comme les autres. Commencer par « sur rendez-vous » (18 notes le disent déjà). |
+| KA4 | Une date et une source par bière (déjà demandé : règle S11). | La date de la page lue, comme pour le contact. |
+| AR1 | La garde rejoue tous les accords depuis le 15/10 avec le schéma d'aujourd'hui. Un changement de schéma la casse. | Des « bases d'étape » : un accord de type « base », signé par vous, fixe un nouveau point de départ (story S296). |
+
 ## Règle de Cédric pour trancher les lots (18/10)
 
 Cédric, le 18/10, en réponse aux questions du mode plan (« pose-moi les

@@ -11,8 +11,7 @@
 import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
-import { lireLot } from '../src/core/curation'
-import { BASE_DE_DONNEES, verifierDonnees, type AccordLu } from '../src/core/garde-donnees'
+import { BASE_DE_DONNEES, indexerLots, verifierDonnees, type AccordLu } from '../src/core/garde-donnees'
 import { empreinte, fichiersDeLots, lireTexte } from './lots'
 
 
@@ -27,13 +26,11 @@ if (createHash('sha256').update(base).digest('hex') !== BASE_DE_DONNEES.sha256) 
   sortir('le fichier de base relu dans git n’a pas l’empreinte du 15/10', 1)
 }
 
-const lots = new Map(
-  fichiersDeLots().flatMap((chemin) => {
-    const texte = lireTexte(chemin)
-    const l = lireLot(JSON.parse(texte), '9999-12-31')
-    return l.ok ? [[l.lot.lot, { lot: l.lot, empreinte: empreinte(texte) }] as const] : []
-  }),
+const { lots, illisibles, doublons } = indexerLots(
+  fichiersDeLots().map((chemin) => ({ chemin, texte: lireTexte(chemin) })),
+  empreinte,
 )
+if (doublons.length > 0) sortir(`Garde de data/ : refusé, deux lots portent le même nom.\n${doublons.join('\n')}`, 1)
 
 const dossier = 'curation/accords'
 const accords: AccordLu[] = existsSync(dossier)
@@ -41,7 +38,8 @@ const accords: AccordLu[] = existsSync(dossier)
       .filter((f) => f.endsWith('.json'))
       .map((nom) => {
         const accord = JSON.parse(readFileSync(`${dossier}/${nom}`, 'utf8')) as { lot?: unknown }
-        return { nom, accord, lot: typeof accord.lot === 'string' ? lots.get(accord.lot) : undefined }
+        const lot = typeof accord.lot === 'string' ? accord.lot : undefined
+        return { nom, accord, lot: lot === undefined ? undefined : lots.get(lot), illisible: lot === undefined ? undefined : illisibles.get(lot) }
       })
   : []
 
