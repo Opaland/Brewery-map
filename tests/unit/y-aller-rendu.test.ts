@@ -19,10 +19,10 @@ describe('« Y aller » dans la fiche (S19, Hugo)', () => {
 
   it('sans adresse, il dit où mène l’itinéraire : le point approximatif de la carte', () => {
     // « Centre de la commune » n'est pas établi pour toutes (revue code S19) :
-    // la fiche dit ce que dit la précision, « à environ 2 km près ».
+    // la fiche dit ce que dit la précision (S59 : ni centre ni écart chiffré).
     const html = rendu({ ...base, c: 'Oullins', addr: 'Oullins' })
     expect(html).toContain(
-      'Adresse inconnue : l’itinéraire mène au point de la carte, à environ 2 km près, pas à la brasserie.',
+      'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
     )
   })
 

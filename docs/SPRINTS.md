@@ -2715,3 +2715,12 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - `controler` a signalé deux fois un écart fugace (connexion coupée par le proxy), disparu à la relance. Le lot n'est présenté qu'après une relance sans écart.
 - Revue adverse du lot 37 : « pas ouvert au public » n'est pas « pas de vente » (la Pigeonnelle vend des fûts aux particuliers). La fiche passe « à confirmer » ; un type de bière lu sur une page non citée est retiré. Les trois autres fiches sont confirmées sur leur page.
 
+## S59 — « Centre de la commune » : les points mesurés, la promesse retirée *(18/10)*
+
+`docs/stories/S59.md`. Le quota de recherches web étant épuisé, la session passe à une story sans recherche.
+
+- **Défaut sur la page publiée.** Chaque fiche disait « approximative : centre de la commune, à environ 2 km près ». La mesure (`outils/precision.ts`, `docs/PRECISION.md`) dit autre chose : sur 151 fiches dont la commune a un centre connu de l'IGN, 75 sont à plus de 2 km de ce centre, et l'écart va jusqu'à 14,4 km.
+- **Le texte dit maintenant ce qui est établi** : le point n'est pas l'adresse, et il peut en être à plusieurs kilomètres. La même chose sur toutes les surfaces : la fiche, « Y aller », la note des distances de la liste, la traduction anglaise, `docs/DONNEES.md`, et les commentaires qui justifiaient un choix par « ≈ 2 km ».
+- **Garde** : `tests/unit/textes-precision.test.ts` lit `src/`, `index.html` et `docs/DONNEES.md`. Il a vu les 13 occurrences avant le correctif, plus une que la réécriture avait elle-même introduite.
+- `outils/geocodeur.ts` : la requête au géocodeur, avec ses reprises, est partagée par `departement.ts` et `precision.ts` (§4).
+

@@ -42,7 +42,8 @@ export const categorieSchema = z.union([
 export const confianceSchema = z.enum(['solide', 'moyenne', 'faible', ''])
 
 /**
- * `commune` : coordonnées du centre de la commune, à environ 2 km près.
+ * `commune` : point qui n'est pas l'adresse : ni un centre de commune, ni
+ * un écart connu (mesuré en S59 : jusqu'à 14 km du centre, docs/PRECISION.md).
  * Ne jamais les présenter comme l'emplacement de l'établissement.
  * `osm` : point placé par un contributeur d'OpenStreetMap (S14, fiches
  * découvertes), ni une adresse vérifiée, ni un centre de commune ; pour un

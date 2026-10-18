@@ -132,7 +132,7 @@ describe('proposer une position (S52, Cédric le 17/10 : « la localisation ne c
     expect(lireLot({ lot: 'x', propositions: [sansGeocodeur] }, AUJOURDHUI).ok).toBe(false)
   })
 
-  it('refuse de ramener une fiche au centre de sa commune', () => {
+  it('refuse de ramener une fiche à une position communale', () => {
     const recul = { ...proposition, changements: { ...POSITION, coordPrecision: 'commune' } }
     expect(lireLot({ lot: 'x', propositions: [recul] }, AUJOURDHUI).ok).toBe(false)
   })

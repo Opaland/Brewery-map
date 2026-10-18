@@ -54,7 +54,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
       'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
     )
     await expect(fiche.getByTestId('fiche-precision')).toHaveText(
-      'approximative : centre de la commune, à environ 2 km près',
+      'approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres',
     )
     await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
     await expect(fiche).toContainText("4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest")

@@ -47,7 +47,7 @@ Aucune note chiffrée n'est affichée tant qu'aucune n'a d'origine identifiable.
 
 | Valeur | Affiché | Nombre de lignes au 15/10 |
 |---|---|---:|
-| `commune` | approximative : centre de la commune, à environ 2 km près | 166 |
+| `commune` | approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres (S59 : ce ne sont pas des centres de commune, voir `docs/PRECISION.md`) | 166 |
 | `address` | à l'adresse vérifiée : géocodée par la Géoplateforme de l'IGN, dont la requête est une des sources (S52) | 0 |
 | `osm` | point placé sur OpenStreetMap, non vérifié sur place | 0 (fiches découvertes en S14, si Cédric les accepte) |
 

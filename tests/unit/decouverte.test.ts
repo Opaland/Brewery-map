@@ -79,7 +79,7 @@ describe('classer les candidats', () => {
   })
 
   it('même cœur, même commune, même si une autre fiche est plus près du point (revues S14)', () => {
-    // Les fiches sont au centre de leur commune : la plus proche du point OSM
+    // Les fiches ne sont pas à leur adresse (S59) : la plus proche du point OSM
     // n'est pas forcément la bonne (La Soyeuse, Pleine Lune… le 16/10).
     const voisine = { ...TOUTES[1], n: 'Voisine', lat: 45.6668, lon: 4.6868 }
     const [c] = classerCandidats([candidat('Caribrew', 'Soucieu-en-Jarrest', 45.6668, 4.6868)], [...TOUTES, voisine])

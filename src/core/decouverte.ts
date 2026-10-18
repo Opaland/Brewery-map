@@ -122,7 +122,7 @@ export function coeurDuNom(nom: string): string {
 export interface CandidatClasse extends CandidatOsm {
   /**
    * - `present` : même cœur de nom qu'une fiche **de la même commune** — pas
-   *   proposé (les fiches sont au centre de leur commune : la plus proche du
+   *   proposé (les fiches ne sont pas à leur adresse : la plus proche du
    *   point n'est pas forcément la bonne, revues S14) ;
    * - `homonyme` : exactement le même nom qu'une fiche d'une autre commune —
    *   pas proposé (le schéma refuse deux fiches de même nom), à vérifier ;

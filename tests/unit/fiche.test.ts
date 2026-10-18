@@ -25,10 +25,14 @@ describe('libellePrecision', () => {
     expect(libellePrecision('osm')).toBe('point placé sur OpenStreetMap, non vérifié sur place')
   })
 
-  it('avoue l’approximation communale', () => {
-    expect(libellePrecision('commune')).toBe(
-      'approximative : centre de la commune, à environ 2 km près',
+  it('avoue l’approximation sans promettre un centre ni un écart chiffré (S59)', () => {
+    // Mesuré le 18/10 : 75 fiches sur 151 à plus de 2 km du centre de leur
+    // commune, jusqu'à 14,4 km (docs/PRECISION.md).
+    const libelle = libellePrecision('commune')
+    expect(libelle).toBe(
+      'approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres',
     )
+    expect(libelle).not.toMatch(/centre|\d/)
     expect(libellePrecision('address')).toBe('à l’adresse vérifiée')
   })
 })
