@@ -83,6 +83,10 @@ export const ajoutSchema = z
   .refine((a) => brasserieSchema.safeParse({ ...a.fiche, verifieLe: a.verifieLe }).success, {
     message: 'la fiche ajoutée ne passe pas le schéma d’une brasserie',
   })
+  // Le centre IGN cite sa requête de commune, comme pour une proposition (S269).
+  .refine((a) => a.fiche.coordPrecision !== 'centre' || a.sources.some(estUneRequeteDeCommune), {
+    message: 'une fiche nouvelle au centre IGN cite une requête de commune au géocodeur (type=municipality)',
+  })
   // Même règle que pour une proposition (S261) : le contact cite une page lue, ce jour-là.
   .superRefine((a, ctx) => {
     for (const message of blocsMalPrisDesSources(blocsDates(a.fiche.contact, a.fiche.horaires), a.sources, a.verifieLe)) {

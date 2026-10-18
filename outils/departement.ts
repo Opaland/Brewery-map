@@ -210,8 +210,10 @@ function lectures(dep: string, fichier: string | undefined): void {
       source = g.url
     }
     if (pos === null) {
-      pos = positionDuGeocodeur(geocoder({ q: l.c, type: 'municipality' }).reponse, dep, l.c, 'commune')
-      source = undefined
+      const g = geocoder({ q: l.c, type: 'municipality' })
+      pos = positionDuGeocodeur(g.reponse, dep, l.c, 'commune')
+      // Le centre IGN cite sa requête (S269) : `controler` le relit.
+      source = g.url
     }
     if (pos === null) {
       console.log(`- ${l.cle} (${l.n}) : ni l'adresse ni la commune ne se géocodent dans le ${dep} — non écrite`)

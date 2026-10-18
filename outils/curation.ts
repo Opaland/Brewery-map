@@ -101,6 +101,25 @@ function numeros(texte: string | undefined, total: number): number[] {
   })
 }
 
+/**
+ * Le centre IGN d'une position se relit dans la réponse de sa requête de
+ * commune, déjà lue parmi les sources (S268 pour les propositions, S269 pour
+ * les fiches nouvelles : une seule fonction, §4).
+ */
+function centreRelu(
+  sources: readonly string[],
+  page: (url: string) => string | undefined,
+  point: { d: string; c: string; lat: number; lon: number },
+): boolean {
+  const requete = sources.find(estUneRequeteDeCommune)
+  if (requete === undefined) return false
+  try {
+    return centreConfirme(JSON.parse(page(requete) ?? 'null'), point, point)
+  } catch {
+    return false
+  }
+}
+
 async function controler(chemin: string | undefined) {
   const { lot: l } = lot(chemin)
   let echecs = 0
@@ -120,15 +139,8 @@ async function controler(chemin: string | undefined) {
     // S268 : le centre IGN se relit au géocodeur, pour la commune de la fiche.
     if (p.changements.coordPrecision === 'centre') {
       const fiche = donnees().find((b) => b.n === p.n)
-      const requete = p.sources.find(estUneRequeteDeCommune)
-      let ok = false
-      if (fiche !== undefined && requete !== undefined && p.changements.lat !== undefined && p.changements.lon !== undefined) {
-        try {
-          ok = centreConfirme(JSON.parse(pages.get(requete) ?? 'null'), fiche, { lat: p.changements.lat, lon: p.changements.lon })
-        } catch {
-          ok = false
-        }
-      }
+      const { lat, lon } = p.changements
+      const ok = fiche !== undefined && lat !== undefined && lon !== undefined && centreRelu(p.sources, (u) => pages.get(u), { d: fiche.d, c: fiche.c, lat, lon })
       console.log(`${String(i + 1)}. ${p.n} — centre IGN de ${fiche?.c ?? '?'} : ${ok ? 'confirmé' : 'ABSENT'}`)
       if (!ok) echecs++
     }
@@ -153,10 +165,12 @@ async function controler(chemin: string | undefined) {
   const base = l.propositions.length
   for (const [i, a] of (l.ajouts ?? []).entries()) {
     const n = `${String(base + i + 1)}. ${a.fiche.n}`
+    const lues = new Map<string, string>()
     for (const url of a.sources) {
       try {
         const r = await fetch(url, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 (MousseDePoche-curation)' } })
         const page = r.ok ? await r.text() : ''
+        lues.set(url, page)
         console.log(`${n} — ${url} : ${String(r.status)}`)
         if (!r.ok) echecs++
         else {
@@ -183,6 +197,12 @@ async function controler(chemin: string | undefined) {
         console.log(`${n} — ${url} : injoignable (${String(e)})`)
         echecs++
       }
+    }
+    // S269 : le centre IGN d'une fiche nouvelle se relit comme celui d'une proposition.
+    if (a.fiche.coordPrecision === 'centre') {
+      const ok = centreRelu(a.sources, (u) => lues.get(u), a.fiche)
+      console.log(`${n} — centre IGN de ${a.fiche.c} : ${ok ? 'confirmé' : 'ABSENT'}`)
+      if (!ok) echecs++
     }
   }
   // Tout accepter doit passer : sinon « controler » rassurait quand

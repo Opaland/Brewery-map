@@ -15,12 +15,13 @@
     "note": "Brasserie citée par un guide (ambrées, blondes, blanches, brunes) ; aucune vente ni accueil établis, catégorie à confirmer.",
     "addr": "19 route du Pont Rose, 50270 Barneville-Carteret",
     "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine"
+    "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine",
+    "https://data.geopf.fr/geocodage/search?q=Barneville-Carteret&type=municipality&limit=5"
    ],
    "extrait": "La Brasserie Cotentine poursuit la tradition et propose des ambrées, blondes, blanches et brunes",
    "choix": "Source de guide seulement ; page Facebook illisible sans compte. Les styles cités sont ceux de la gamme, sans bière nommée : non repris."
@@ -38,12 +39,13 @@
     "note": "Brasserie avec estaminet et boutique d'après l'office de tourisme, mais le passage lu a pu être reformulé par l'outil de lecture : catégorie à confirmer.",
     "addr": "10 ZA du Pont des Bernes, 50550 Saint-Vaast-la-Hougue",
     "src": "https://brasseriepintedesaire.fr",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://brasseriepintedesaire.fr"
+    "https://brasseriepintedesaire.fr",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Vaast-la-Hougue&type=municipality&limit=5"
    ],
    "extrait": "Visite guidée Les 3 Tontons Taproom Atelier de Brassage",
    "choix": "Le menu du site officiel cite un « Taproom » (page « estaminet ») ; l'office de tourisme (group.manche-tourism.com) décrit un estaminet et une boutique d'usine, mais son texte n'a pas été lu mot pour mot : pas de catégorie proposée, la 1 serait possible après lecture de la page Taproom. Deux numéros (02 33 42 65 12 à l'office, un mobile sur le site) : aucun repris, à choisir par Cédric."
@@ -89,12 +91,13 @@
     "note": "Petit bar qui sert sa bière éponyme, brassée à quelques centaines de mètres, d'après un article de 2021 ; la brasserie elle-même (vente, accueil) n'est pas décrite : catégorie à confirmer.",
     "addr": "Hauteville-sur-Mer",
     "src": "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html"
+    "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
+    "https://data.geopf.fr/geocodage/search?q=Hauteville-sur-Mer&type=municipality&limit=5"
    ],
    "extrait": "bière éponyme brassée à quelques hectomètres de là",
    "choix": "Revue adverse : la catégorie 1 dépassait l'extrait, qui parle du bar et non de la brasserie. Source de presse datée (10/07/2021). Position au centre de la commune."
@@ -153,12 +156,13 @@
     "note": "Brasserie artisanale normande (site officiel), mais le site ne montre ni vente, ni horaires, ni adresse lisibles : catégorie à confirmer.",
     "addr": "Bréhal",
     "src": "https://feedorge.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://feedorge.com/"
+    "https://feedorge.com/",
+    "https://data.geopf.fr/geocodage/search?q=Br%C3%A9hal&type=municipality&limit=5"
    ],
    "extrait": "Brasserie artisanale Fée d’Orge - Bières Normandes - Manche",
    "choix": "Un extrait de recherche parlait d'un « retrait en boutique » rue du Clos des Mares, non lu sur une page : non repris. Position au centre de la commune."

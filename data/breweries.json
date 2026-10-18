@@ -3574,5 +3574,713 @@
   "src": "https://www.hophophop.com/",
   "coordPrecision": "centre",
   "beers": []
+ },
+ {
+  "n": "Brasserie Paillette",
+  "c": "Saint-Arnoult",
+  "d": "14",
+  "lat": 49.33065,
+  "lon": 0.08903,
+  "km": 536.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.",
+  "addr": "10 ter avenue Ox and Bucks, 14800 Saint-Arnoult",
+  "src": "https://bierepaillette.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Sagesse",
+  "c": "Le Breuil-en-Auge",
+  "d": "14",
+  "lat": 49.2273,
+  "lon": 0.22561,
+  "km": 521.4,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe aux particuliers à la brasserie, d'après la fiche de Normandie Tourisme ; horaires non publiés.",
+  "addr": "4 rue André Druelle, 14130 Le Breuil-en-Auge",
+  "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Mobsby's",
+  "c": "Vire Normandie",
+  "d": "14",
+  "lat": 48.78902,
+  "lon": -0.93933,
+  "km": 551.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de real ales ; le site propose de commander les bières ou d'organiser une visite sur contact, sans vente sur place établie.",
+  "addr": "2301 route de la Diade, 14500 Vire Normandie",
+  "src": "https://www.mobsbys.com/contact",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "stout"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie La Lie",
+  "c": "Saint-Rémy",
+  "d": "14",
+  "lat": 48.94059,
+  "lon": -0.50588,
+  "km": 537.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique sur place, du lundi au vendredi, d'après le site de la brasserie ; pas de consommation sur place lue.",
+  "addr": "400 rue de l'Orne, 14570 Saint-Rémy",
+  "src": "https://www.biere-lalie.com",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie de l'Odon",
+  "c": "Les Monts d'Aunay",
+  "d": "14",
+  "lat": 48.99338,
+  "lon": -0.63264,
+  "km": 548.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique à la brasserie, ouverte le jeudi de 17 h à 19 h (bières bio, coffrets, location de tireuse) ; pas de consommation sur place lue.",
+  "addr": "31 bis route de Vire, 14260 Les Monts d'Aunay",
+  "src": "https://www.brasserie-odon.fr/boutique",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La JJAP – Les 2 Terres",
+  "c": "Caen",
+  "d": "14",
+  "lat": 49.17638,
+  "lon": -0.33262,
+  "km": 545.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale (Caen et Saint-Romain-de-Colbosc) ; vente ou accueil à Caen non établis, catégorie à confirmer.",
+  "addr": "33 route de Trouville, 14000 Caen",
+  "src": "https://www.les2terres.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie des 9 Mondes",
+  "c": "Ranville",
+  "d": "14",
+  "lat": 49.23004,
+  "lon": -0.26688,
+  "km": 546.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Visites guidées avec dégustation et ateliers de brassage ; aucune vente ni horaire lus, catégorie à confirmer.",
+  "addr": "Ranville",
+  "src": "https://www.brasseriedes9mondes.com",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Trip-Hop",
+  "c": "Lisieux",
+  "d": "14",
+  "lat": 49.14588,
+  "lon": 0.22179,
+  "km": 514.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie avec bar (brewpub) et boutique, d'après son site.",
+  "addr": "13 quai des Remparts, 14100 Lisieux",
+  "src": "https://trip-hop.fr",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Baya",
+  "c": "Vaucelles",
+  "d": "14",
+  "lat": 49.28347,
+  "lon": -0.7252,
+  "km": 574.7,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe sur place et visite sur réservation, d'après la fiche de Calvados Attractivité ; le site de la brasserie n'en parle pas.",
+  "addr": "47 avenue de la Drôme, 14400 Vaucelles",
+  "src": "https://www.explore-calvados.com/?p=33029",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Dam Bière",
+  "c": "Dives-sur-Mer",
+  "d": "14",
+  "lat": 49.28337,
+  "lon": -0.08897,
+  "km": 541.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de « La Bière Deauville », vendue en bars, restaurants et épiceries fines ; aucune vente sur place établie, catégorie à confirmer.",
+  "addr": "Dives-sur-Mer",
+  "src": "https://labieredeauville.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie de Sutter",
+  "c": "Gisors",
+  "d": "27",
+  "lat": 49.26333,
+  "lon": 1.78556,
+  "km": 457.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site présente une boutique et des visites, mais le passage n'a pas été relu mot pour mot : catégorie à confirmer.",
+  "addr": "15 route de Paris, 27140 Gisors",
+  "src": "https://www.brasseriedesutter.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Insulaire",
+  "c": "Charleval",
+  "d": "27",
+  "lat": 49.37894,
+  "lon": 1.38062,
+  "km": 483.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe en boutique ; visites et dégustations sur réservation seulement.",
+  "addr": "La Remise Paviot, 27380 Charleval",
+  "src": "https://brasserie-insulaire.com/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière de Noël"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Les Deux Amants",
+  "c": "Val-de-Reuil",
+  "d": "27",
+  "lat": 49.24449,
+  "lon": 1.2325,
+  "km": 477.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; ni vente sur place ni horaires publiés, catégorie à confirmer.",
+  "addr": "1 voie des Vendaises, 27100 Val-de-Reuil",
+  "src": "https://lesdeuxamants.com/contactez-nous",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sans-alcool"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Spore",
+  "c": "Gravigny",
+  "d": "27",
+  "lat": 49.04974,
+  "lon": 1.15941,
+  "km": 462.7,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie coopérative avec taproom ouvert du jeudi au samedi, 16 h à minuit ; vente à emporter non lue.",
+  "addr": "13 rue de la Mairie, 27930 Gravigny",
+  "src": "https://www.brasserie-spore.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Cotentine",
+  "c": "Barneville-Carteret",
+  "d": "50",
+  "lat": 49.37918,
+  "lon": -1.77789,
+  "km": 640.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie citée par un guide (ambrées, blondes, blanches, brunes) ; aucune vente ni accueil établis, catégorie à confirmer.",
+  "addr": "19 route du Pont Rose, 50270 Barneville-Carteret",
+  "src": "https://fr.gaultmillau.com/fr/artisans/brasserie-cotentine",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Pinte de Saire",
+  "c": "Saint-Vaast-la-Hougue",
+  "d": "50",
+  "lat": 49.59619,
+  "lon": -1.27116,
+  "km": 627.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec estaminet et boutique d'après l'office de tourisme, mais le passage lu a pu être reformulé par l'outil de lecture : catégorie à confirmer.",
+  "addr": "10 ZA du Pont des Bernes, 50550 Saint-Vaast-la-Hougue",
+  "src": "https://brasseriepintedesaire.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Les Travailleurs de la Mer",
+  "c": "Les Pieux",
+  "d": "50",
+  "lat": 49.51579,
+  "lon": -1.80148,
+  "km": 650.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Un espace de dégustation et de vente accueille le public, d'après le site de la brasserie (mardi, mercredi, vendredi et samedi).",
+  "addr": "23 route de Cherbourg, 50340 Les Pieux",
+  "src": "https://lestravailleursdelamer.com/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "La Moussette",
+  "c": "Hauteville-sur-Mer",
+  "d": "50",
+  "lat": 48.97076,
+  "lon": -1.54595,
+  "km": 599.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Petit bar qui sert sa bière éponyme, brassée à quelques centaines de mètres, d'après un article de 2021 ; la brasserie elle-même (vente, accueil) n'est pas décrite : catégorie à confirmer.",
+  "addr": "Hauteville-sur-Mer",
+  "src": "https://www.tendanceouest.com/actualite-384200-manche-la-moussette-a-hauteville-sur-mer.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Captain James",
+  "c": "Agon-Coutainville",
+  "d": "50",
+  "lat": 49.03803,
+  "lon": -1.59427,
+  "km": 606.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie (jeudi, vendredi, samedi 17h-19h de septembre à juin ; du mardi au samedi 15h-19h en juillet et août), d'après son site ; dégustation lors des visites seulement.",
+  "addr": "26 avenue du Passous, 50230 Agon-Coutainville",
+  "src": "https://captain-james.fr",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Fée d'Orge",
+  "c": "Bréhal",
+  "d": "50",
+  "lat": 48.89603,
+  "lon": -1.53892,
+  "km": 594.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale normande (site officiel), mais le site ne montre ni vente, ni horaires, ni adresse lisibles : catégorie à confirmer.",
+  "addr": "Bréhal",
+  "src": "https://feedorge.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Bifrost",
+  "c": "Saint-Lô",
+  "d": "50",
+  "lat": 49.10496,
+  "lon": -1.05751,
+  "km": 580.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie connue de l'annuaire touristique régional seulement : ni site, ni vente, ni horaires lus ; catégorie à confirmer.",
+  "addr": "30 rue Madeleine Desdevises, 50000 Saint-Lô",
+  "src": "https://en.normandie-tourisme.fr/stores/brasserie-bifrost/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Léopard",
+  "c": "Avranches",
+  "d": "50",
+  "lat": 48.68982,
+  "lon": -1.36185,
+  "km": 570.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue : catégorie à confirmer.",
+  "addr": "7 avenue de la Gare, 50300 Avranches",
+  "src": "https://brasserie-leopard.fr",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "L'Écume des Falaises",
+  "c": "Jullouville",
+  "d": "50",
+  "lat": 48.77556,
+  "lon": -1.56677,
+  "km": 588.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Dégustation au bar et vente à emporter (coffrets, cartons, fûts), d'après le site de la brasserie ; ouvert le vendredi et le samedi, sinon sur rendez-vous.",
+  "addr": "16 avenue du Général Eisenhower, 50610 Jullouville",
+  "src": "https://lecume-des-falaises.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Le Bercail",
+  "c": "Alençon",
+  "d": "61",
+  "lat": 48.42963,
+  "lon": 0.09201,
+  "km": 467.4,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Lieu où l'on boit une bière artisanale brassée sur place, près de la basilique, d'après un guide local ; aucune source de la brasserie.",
+  "addr": "Alençon",
+  "src": "https://www.tendanceouest.com/actualite-420119-orne-les-bonnes-adresses-de-l-ancienne-cite-des-ducs",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Château de la Bière",
+  "c": "Lonlay-l'Abbaye",
+  "d": "61",
+  "lat": 48.62618,
+  "lon": -0.71502,
+  "km": 527.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui propose des visites closes par une dégustation ; lieu et horaires de vente non établis, catégorie à confirmer.",
+  "addr": "916 chemin de la Couvrie, 61700 Lonlay-l'Abbaye",
+  "src": "https://chateau-de-la-biere.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie du Perche",
+  "c": "L'Home-Chamondot",
+  "d": "61",
+  "lat": 48.60861,
+  "lon": 0.73831,
+  "km": 445.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Site officiel avec rubriques boutique, visite dégustation et libre-service, sans horaires ni adresse lus : catégorie à confirmer.",
+  "addr": "L'Home-Chamondot",
+  "src": "http://brasserieduperche.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Saint Joseph",
+  "c": "Le Havre",
+  "d": "76",
+  "lat": 49.47939,
+  "lon": 0.1498,
+  "km": 546.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique de la brasserie selon l'office de tourisme ; ni horaires ni vente sur place établis.",
+  "addr": "2 rue Buffon, 76600 Le Havre",
+  "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-saint-joseph-boutique-le-havre-en-5136752",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Union-B",
+  "c": "Malaunay",
+  "d": "76",
+  "lat": 49.52613,
+  "lon": 1.0451,
+  "km": 510.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie avec bar et boutique ouverts toute l'année, bar d'été et concerts, d'après son site.",
+  "addr": "Malaunay",
+  "src": "https://www.union-b.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Sainte Beuve",
+  "c": "Le Caule-Sainte-Beuve",
+  "d": "76",
+  "lat": 49.76544,
+  "lon": 1.59508,
+  "km": 512.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Boutique en ligne avec retrait sur place, d'après l'office de tourisme ; vente directe sur place non établie.",
+  "addr": "7 route de l'Église, 76390 Le Caule-Sainte-Beuve",
+  "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Ragnar",
+  "c": "Oissel-sur-Seine",
+  "d": "76",
+  "lat": 49.34265,
+  "lon": 1.08234,
+  "km": 492.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de production à Oissel ; ventes par cavistes et bars, vente directe non établie.",
+  "addr": "232 rue du Beau Poirier, 76350 Oissel-sur-Seine",
+  "src": "https://www.brasserieragnar.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Fabrik2Bulles",
+  "c": "Amfreville-les-Champs",
+  "d": "76",
+  "lat": 49.69595,
+  "lon": 0.81616,
+  "km": 535.4,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Boutique de vente directe et visite avec dégustation, d'après Normandie Tourisme.",
+  "addr": "101 route d'Yvetot, 76560 Amfreville-les-Champs",
+  "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/fabrik2bulles/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "1989 Brewing",
+  "c": "Saint-Étienne-du-Rouvray",
+  "d": "76",
+  "lat": 49.38527,
+  "lon": 1.0879,
+  "km": 495.9,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Bières vendues dans le bar attenant à la brasserie, d'après un article de 2026 ; ni horaires ni site officiel.",
+  "addr": "Saint-Étienne-du-Rouvray",
+  "src": "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Bakbuk",
+  "c": "Les Authieux-sur-le-Port-Saint-Ouen",
+  "d": "76",
+  "lat": 49.32745,
+  "lon": 1.13487,
+  "km": 488.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie ouverte au public en semaine, de 9 h à 18 h ; la vente sur place se lit sur une page illisible sans JavaScript : catégorie à confirmer.",
+  "addr": "218 rue des Canadiens, 76520 Les Authieux-sur-le-Port-Saint-Ouen",
+  "src": "https://www.brasserie-bakbuk.com/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie BakPaker",
+  "c": "Saint-Saëns",
+  "d": "76",
+  "lat": 49.67794,
+  "lon": 1.27032,
+  "km": 515.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique ouverte le vendredi de 15 h à 18 h 30, les autres jours sur rendez-vous, d'après son site.",
+  "addr": "Saint-Saëns",
+  "src": "https://www.brasserie-bakpaker.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Dieppoise",
+  "c": "Martin-Église",
+  "d": "76",
+  "lat": 49.91204,
+  "lon": 1.12112,
+  "km": 543.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de la région de Dieppe ; vente et horaires non lus, catégorie à confirmer.",
+  "addr": "37 rue Louis Blériot, 76200 Martin-Église",
+  "src": "https://www.brasseriedieppoise.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
+ },
+ {
+  "n": "Brasserie Yata",
+  "c": "Lillebonne",
+  "d": "76",
+  "lat": 49.51959,
+  "lon": 0.53493,
+  "km": 531.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de plusieurs styles (blonde, triple, IPA…), d'après Normandie Tourisme ; vente non établie.",
+  "addr": "Lillebonne",
+  "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/brasserie-yata/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-17"
  }
 ]

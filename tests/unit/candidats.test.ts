@@ -132,7 +132,9 @@ describe('assemblerLot (S246)', () => {
 
   it('CA5 : une lecture valide devient un ajout', () => {
     // Une vraie ligne du fichier, renommée : valide au schéma par construction.
-    const [ligne] = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]
+    // La précision est posée : la ligne réelle peut être au centre IGN (S268),
+    // qui exige sa requête de commune (S269).
+    const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
     const fiche = Object.fromEntries(
       Object.entries({ ...ligne, n: 'Brasserie de test S246' }).filter(([k]) => k !== 'verifieLe'),
     )
@@ -230,7 +232,9 @@ describe('revue adverse S246', () => {
 })
 
 describe('assemblerLot, revue adverse S246', () => {
-  const [ligne] = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]
+  // La précision est posée : la ligne réelle peut être au centre IGN (S268),
+    // qui exige sa requête de commune (S269).
+    const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
   const ajout = (n: string) => ({
     fiche: Object.fromEntries(Object.entries({ ...ligne, n }).filter(([k]) => k !== 'verifieLe')),
     verifieLe: '2026-10-17',
@@ -322,6 +326,13 @@ describe('ajoutDeLecture (S261)', () => {
     beers: [],
   }
   const pos = { lat: 48.4, lon: -4.7, precision: 'commune' as const }
+
+  it('S269 : placée au centre de sa commune, la fiche dit « centre » et cite la requête de commune', () => {
+    const mairie = 'https://data.geopf.fr/geocodage/search?q=Ploumoguer&type=municipality&limit=5'
+    const { ajout } = ajoutDeLecture(lecture, '29', pos, mairie, '2026-10-17')
+    expect(ajout.fiche.coordPrecision).toBe('centre')
+    expect(ajout.sources).toEqual(['https://exemple.fr/', mairie])
+  })
 
   it('CA1 : le contact lu entre dans la fiche, daté du jour, et sa source parmi les sources', () => {
     const contact = { tel: '09 81 00 11 08', untappd: 'https://untappd.com/Arvarus', source: 'https://exemple.fr/contact' }

@@ -39,7 +39,7 @@
     "note": "Vente directe en boutique ; visites et dégustations sur réservation seulement.",
     "addr": "La Remise Paviot, 27380 Charleval",
     "src": "https://brasserie-insulaire.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": [
      {
       "type": "blonde"
@@ -82,7 +82,8 @@
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://brasserie-insulaire.com/"
+    "https://brasserie-insulaire.com/",
+    "https://data.geopf.fr/geocodage/search?q=Charleval&type=municipality&limit=5"
    ],
    "extrait": "Retrouvez toutes nos bières en vente directe dans notre boutique !",
    "choix": "Même brasserie que le point OSM de Perriers-sur-Andelle (node/14056913418) ; le site dit Charleval. Bières lues : Beauté Fatale, Gueule d'amour (saison ambrée), Ho ho ho !, Ilandel tropicale (blanche), Kanaka IPA, Kanaka triple (ambrée), Super Kanaka, Teahupoo, Meherio (NEIPA), Whisbeer (stout), La Bandida, Da Rouen. Téléphone : un mobile, non repris."

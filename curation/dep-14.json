@@ -15,12 +15,13 @@
     "note": "Brasserie qui présente ses bières et une boutique en ligne ; aucune vente ni consommation sur place lue, catégorie à confirmer.",
     "addr": "10 ter avenue Ox and Bucks, 14800 Saint-Arnoult",
     "src": "https://bierepaillette.fr/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://bierepaillette.fr/"
+    "https://bierepaillette.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Saint-Arnoult&type=municipality&limit=5"
    ],
    "extrait": "adresse : 10 ter Av. Ox And Bucks,14800 Saint-Arnoult",
    "choix": "Téléphone de la page en 03 (Oise), sans doute celui d'un autre site : non repris."
@@ -145,12 +146,13 @@
     "note": "Boutique à la brasserie, ouverte le jeudi de 17 h à 19 h (bières bio, coffrets, location de tireuse) ; pas de consommation sur place lue.",
     "addr": "31 bis route de Vire, 14260 Les Monts d'Aunay",
     "src": "https://www.brasserie-odon.fr/boutique",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasserie-odon.fr/boutique"
+    "https://www.brasserie-odon.fr/boutique",
+    "https://data.geopf.fr/geocodage/search?q=Les+Monts+d%27Aunay&type=municipality&limit=5"
    ],
    "extrait": "Ouvert les jeudis de 17h à 19h",
    "choix": "Styles des bières non lus (page « Les Bières » non ouverte). Le site publie deux mobiles de personnes : non repris."
@@ -192,12 +194,13 @@
     "note": "Visites guidées avec dégustation et ateliers de brassage ; aucune vente ni horaire lus, catégorie à confirmer.",
     "addr": "Ranville",
     "src": "https://www.brasseriedes9mondes.com",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://www.brasseriedes9mondes.com"
+    "https://www.brasseriedes9mondes.com",
+    "https://data.geopf.fr/geocodage/search?q=Ranville&type=municipality&limit=5"
    ],
    "extrait": "Nous organisons aussi des visites guidées de notre brasserie avec dégustation",
    "choix": "Le titre de la page cite Blainville-sur-Orne, le texte Ranville : Ranville retenu (registre). Position au centre de la commune."
@@ -283,12 +286,13 @@
     "note": "Brasserie de « La Bière Deauville », vendue en bars, restaurants et épiceries fines ; aucune vente sur place établie, catégorie à confirmer.",
     "addr": "Dives-sur-Mer",
     "src": "https://labieredeauville.com/",
-    "coordPrecision": "commune",
+    "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-10-17",
    "sources": [
-    "https://labieredeauville.com/"
+    "https://labieredeauville.com/",
+    "https://data.geopf.fr/geocodage/search?q=Dives-sur-Mer&type=municipality&limit=5"
    ],
    "extrait": "brassée dans le Pays d’Auge à Dives-sur-Mer près de Cabourg par la Brasserie Dam Bière",
    "choix": "Lien possible avec Brasserie Sagesse (même mobile sur deux fiches) : à éclaircir. Position au centre de la commune."

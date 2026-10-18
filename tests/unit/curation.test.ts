@@ -537,7 +537,9 @@ describe('extraitSurLaPage (S247)', () => {
 
 describe('les contacts d’une fiche nouvelle (S261)', () => {
   // Une vraie ligne du fichier, renommée : valide au schéma par construction.
-  const [ligne] = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]
+  // La précision est posée : la ligne réelle peut être au centre IGN (S268),
+    // qui exige sa requête de commune (S269).
+    const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
   const fiche = Object.fromEntries(Object.entries({ ...ligne, n: 'Brasserie de test S261' }).filter(([k]) => k !== 'verifieLe' && k !== 'contact'))
   const source = 'https://exemple.fr/contact'
   const ajout = (contact: Record<string, unknown>, sources = ['https://exemple.fr/', source]) => ({
@@ -664,6 +666,20 @@ describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)',
 
   it('CA2 : un jour « heures non précisées » ou fermé ne demande rien', () => {
     expect(horairesSurLaPage(bloc({ mer: 'heures-non-precisees', lun: [] }), '')).toEqual([])
+  })
+})
+
+describe('une fiche nouvelle au centre IGN (S269)', () => {
+  it('cite une requête de commune parmi ses sources, sinon le lot est refusé', () => {
+    const mairie = 'https://data.geopf.fr/geocodage/search?q=Brignais&type=municipality&limit=5'
+    const fiche = Object.fromEntries(
+      Object.entries({ ...(TOUTES[0] as unknown as Record<string, unknown>), n: 'Nouvelle', coordPrecision: 'centre', src: 'https://exemple.fr/' }).filter(
+        ([k]) => !['verifieLe', 'contact', 'horaires'].includes(k),
+      ),
+    )
+    const ajout = { fiche, verifieLe: '2026-10-16', sources: ['https://exemple.fr/', mairie], extrait: 'lu' }
+    expect(lireLot({ lot: 'x', propositions: [], ajouts: [ajout] }, AUJOURDHUI).ok).toBe(true)
+    expect(lireLot({ lot: 'x', propositions: [], ajouts: [{ ...ajout, sources: ['https://exemple.fr/'] }] }, AUJOURDHUI).ok).toBe(false)
   })
 })
 

@@ -10,6 +10,7 @@ import {
   nomsUniques,
   raisonDEcarter,
   rattacher,
+  retirerCeQuiADesFiches,
   validerFichierOsm,
   type FichierOsm,
 } from '../../src/core/osm-france'
@@ -263,5 +264,39 @@ describe('adresse d’une fiche à commune déduite (revue adverse S25)', () => 
       brasseries: [['La Birra Menta', 'node/5', 'Beaufort', '73', 45.71, 6.57, '146 Route du Planay', '', 1]],
     })
     expect(b.addr).toBe('146 Route du Planay, Beaufort (commune déduite)')
+  })
+})
+
+describe('retirerCeQuiADesFiches (S269 : une brasserie OSM devenue fiche quitte la couche)', () => {
+  const fiche = (n: string, lat: number, lon: number) =>
+    ({ n, c: 'X', d: '14', lat, lon }) as unknown as import('../../src/core/schema').Brasserie
+  const ligne = (nom: string, lat: number, lon: number): FichierOsm['brasseries'][number] => [nom, `node/${nom.length}`, 'Caen', '14', lat, lon, '', '', 0]
+  const couche: FichierOsm = {
+    source: 's',
+    licence: 'l',
+    extrait: '2026-10-16',
+    brasseries: [ligne('Brasserie Sagesse', 49.18, -0.37), ligne('Microbrasserie Ragnar', 49.2, -0.36), ligne('Autre', 49.0, 0.1)],
+  }
+
+  it('retire le même nom et la même brasserie sous un nom voisin ; garde le reste, et dit ce qu’elle retire', () => {
+    const r = retirerCeQuiADesFiches(couche, [fiche('Brasserie Sagesse', 49.2, -0.4), fiche('Brasserie Ragnar', 49.21, -0.35)])
+    expect(r.couche.brasseries.map((b) => b[0])).toEqual(['Autre'])
+    expect(r.retirees).toEqual([
+      { osm: 'node/17', nom: 'Brasserie Sagesse', fiche: 'Brasserie Sagesse' },
+      { osm: 'node/21', nom: 'Microbrasserie Ragnar', fiche: 'Brasserie Ragnar' },
+    ])
+    expect(validerFichierOsm(r.couche, new Set(['Brasserie Sagesse', 'Brasserie Ragnar'])).ok).toBe(true)
+  })
+
+  it('retire aussi la même brasserie sous un autre nom, quand le site est le même (revue adverse S269 : « Les Travailleurs de l’Amer »)', () => {
+    const amer: FichierOsm['brasseries'][number] = ['Les Travailleurs de l’Amer', 'way/100569088', 'Les Pieux', '50', 49.51, -1.8, '', 'https://lestravailleursdelamer.com/', 0]
+    const loin: FichierOsm['brasseries'][number] = ['Autre nom', 'node/9', 'Paris', '75', 48.85, 2.35, '', 'https://lestravailleursdelamer.com/', 0]
+    const mer = {
+      ...fiche('Les Travailleurs de la Mer', 49.51, -1.8),
+      contact: { site: 'https://www.lestravailleursdelamer.com', source: 'https://lestravailleursdelamer.com/', verifieLe: '2026-10-18' },
+    } as unknown as import('../../src/core/schema').Brasserie
+    const r = retirerCeQuiADesFiches({ ...couche, brasseries: [amer, loin] }, [mer])
+    expect(r.couche.brasseries.map((b) => b[0])).toEqual(['Autre nom'])
+    expect(r.retirees).toEqual([{ osm: 'way/100569088', nom: 'Les Travailleurs de l’Amer', fiche: 'Les Travailleurs de la Mer' }])
   })
 })
