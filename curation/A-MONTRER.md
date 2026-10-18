@@ -12,12 +12,16 @@ Le détail ligne par ligne est dans `curation/decision-regle.md`, section
 ## 1. Les découvertes OpenStreetMap du 16/10 (`s14-decouverte`, 119 fiches)
 
 Fiches lues sur OpenStreetMap seulement, sans autre vérification
-(`curation/s14-decouverte-resume.md`). Depuis S25, la couche OpenStreetMap
-de la carte les montre déjà, en « À confirmer ».
+(`curation/s14-decouverte-resume.md`). Recompté objet par objet : 103 sont
+déjà dans la couche OpenStreetMap de la carte, en « À confirmer » ; 12 sont
+des fiches de `data/` (Caribrew, La Chénou, Ninkasi…) ; Les Brasseurs
+Savoyards y sont sous un autre objet OSM ; 2 ne sont nulle part, et le lot
+les marque « café/bar/enseigne ? » (« Le Rendez-Vous », un restaurant ;
+« Stories », un bar).
 
-**Proposé** : clore ce lot sans l'appliquer ; ces brasseries restent dans la
-couche OSM, et entreront dans `data/` par les lots départementaux (E25),
-vérifiées une à une.
+**Proposé** : clore ce lot sans l'appliquer ; les 103 restent dans la couche
+OSM, et entreront dans `data/` par les lots départementaux (E25), vérifiés
+un à un ; les 2 derniers ne sont pas des brasseries établies.
 
 ## 2. Des positions à l'adresse lue ailleurs que sur le site (`s54-positions`, 59)
 
@@ -45,10 +49,15 @@ style affiché par Untappd (règle S53).
 `s134-sites-bieres` (11), `s16-lot-3` (5), `s17-lot-4` (3), `s11` (2),
 `s53` (1). La proposition porte aussi un site, des bières ou des horaires.
 Depuis S267, une fiche sans téléphone vérifié offre celui de Google Maps.
+Le tri n'affiche que la première raison : 2 d'entre elles ont aussi une
+source hors du site officiel (Brasserie de Cluny, `s16`, lue sur Untappd ;
+La Grange du Seigneur, `s17`, lue sur un site de tourisme).
 
-**Proposé** : accepter ces propositions **sans le mobile** (site, bières,
+**Proposé** : accepter les 20 autres **sans le mobile** (site, bières,
 horaires lus sur le site officiel, comme le reste de la règle) ; le
-téléphone reste celui que montre Google Maps.
+téléphone reste celui que montre Google Maps. Cela demande un lot réécrit
+sans les mobiles (nouvelle empreinte, nouvel accord). Les 2 citées suivent
+le groupe 5.
 
 ## 5. Des sources de tourisme ou d'annuaire, des concurrentes (14)
 
@@ -60,10 +69,11 @@ confiance faible). Total des groupes 1 à 5 : 119 + 59 + 34 + 22 + 14 = 248.
 **Proposé** : les laisser de côté ; une vérification sur le site de la
 brasserie les reprendra (veille, S15).
 
-## 6. Les 12 brasseries installées dans une autre commune (`s55-positions-2`)
+## 6. Les 10 brasseries installées dans une autre commune (`s55-positions-2`)
 
 Leur adresse publiée est dans une autre commune que leur fiche (Grange
-Noire à Saint-Alban, Paille à Lournand, Teddy Beer à Beaubery…).
+Noire à Saint-Alban, Paille à Lournand, Teddy Beer à Beaubery…). Le lot
+compte 12 lignes : Grange Noire et Teddy Beer y sont deux fois.
 
 **Proposé** : la procédure de déménagement (S82) — la fiche change de
 commune, de département s'il le faut, de position et de distance, avec la
@@ -94,6 +104,7 @@ commune nouvelle, et dire lequel dans la fiche.
 | La Brasserie Graphique (29) | position `address` lue sur un annuaire ; SIRENE la met à Plouigneau | revenir au centre IGN |
 | Bouffay, L'Olifant, X'Pression, L'Ours Jack Brasse, Papposilène, Les Deux Brunes, Alpaca | « Acheter seulement » fondé sur « Winery sales » d'un annuaire | revenir à « À confirmer » |
 | La Turbulente (44) | en reprise, réouverture non confirmée | laisser, à revérifier |
+| Art Is An Ale Brewing (37) | entrée par la règle « toutes » ; `controler` signalait un écart sur sa source (un office de tourisme) | revérifier sur son site |
 | La Hulotte et AERoFAB (44) | même adresse à Sautron, lien non établi | vérifier |
 
 ## 9. Un numéro mobile dans le fichier d'origine
