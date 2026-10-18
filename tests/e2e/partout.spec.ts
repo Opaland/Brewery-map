@@ -194,6 +194,8 @@ test.describe('une localisation tardive n’écrase pas une commune choisie (rev
     await page.goto('/')
     await page.getByTestId('autour-de-moi').click()
     await choisirCommune(page, 'tarare', 'Tarare (69)')
+    // Attente voulue : le GPS simulé répond en 3 s ; sa réponse, arrivée après
+    // le choix de Tarare, ne doit pas l'écraser.
     await page.waitForTimeout(4500)
     await expect(page.getByTestId('depart').locator('legend')).toHaveText(
       'Point de départ : Tarare (69)',

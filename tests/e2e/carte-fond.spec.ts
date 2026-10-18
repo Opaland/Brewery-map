@@ -29,6 +29,8 @@ test('une seule tuile en échec, les autres là : le repli ne s’allume jamais'
   await page.goto('/')
   await versLaCarte(page)
   await expect(page.locator('.maplibregl-marker.marqueur').first()).toBeAttached()
+  // Attente voulue : une absence (le repli ne clignote pas) se constate sur
+  // une fenêtre de temps ; l'observateur ci-dessus note toute apparition.
   await page.waitForTimeout(2500)
   expect(await page.evaluate(() => (window as unknown as { vuFond: boolean }).vuFond)).toBe(false)
 })

@@ -12,7 +12,7 @@ import { sansTuiles } from './reseau'
 async function texteSansCitations(page: Page, testId: string): Promise<string> {
   return page.getByTestId(testId).evaluate((el) => {
     const copie = el.cloneNode(true) as HTMLElement
-    copie.querySelectorAll('.ligne-note, [data-testid="fiche-note"], [data-testid="fiche-note-source"]').forEach((n) => {
+    copie.querySelectorAll('.ligne-note').forEach((n) => {
       n.remove()
     })
     return copie.innerText

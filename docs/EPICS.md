@@ -457,7 +457,7 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 | S275 | Demander au navigateur de garder favoris, carnet et notes (`navigator.storage.persist`), après la première donnée gardée | Sentiers `tests/e2e/stockage.spec.ts` |
 | S276 | Sans JavaScript : le bloc `<noscript>` gardé par un test | Sentiers `tests/e2e/sans-js.spec.ts` |
 | S277 | Une sonde de nuit contre les vrais services (page publiée, tuiles, communes, géocodeur, Overpass), qui nomme l'hôte en panne | ÉtapeForge `.github/workflows/demo-online.yml` ; Sentiers `tests/e2e/reel.spec.ts` |
-| S278 | L'audit de la suite e2e (attentes fixes, assertions nues, identifiants morts) ; les 17 `waitForTimeout` remplacés | Sentiers `scripts/audit-e2e.mjs` |
+| S278 | L'audit de la suite e2e (attentes fixes, identifiants morts) ; chaque `waitForTimeout` remplacé ou justifié juste au-dessus | Sentiers `scripts/audit-e2e.mjs` |
 | S279 | La liste à dérouler sur un vrai téléphone avant une livraison **[H]** | Sentiers `docs/RELEASE.md` |
 | S280 | Le compte des requêtes par hôte dans les outils de curation | ÉtapeForge `pipeline/apiUsage.js` |
 | S281 | La continuité des services tiers : ce dont on dépend, ce qui casse s'il tombe | ÉtapeForge `docs/CONTINUITE-APIS.md` |
