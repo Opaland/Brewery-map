@@ -24,14 +24,14 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s11-exemples-s4 | ba8d79738e17 | 2, 3, 4, 5 | 4 |
 | s12-lot-1 | 2587f92b8457 | 1, 2, 3 | 3 |
 | s13-lot-2 | eefa6ea1e0d6 | 1, 2 | 2 |
-| s134-sites-bieres | 860640c4f586 | 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 | 28 |
+| s134-sites-bieres | 860640c4f586 | 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 | 29 |
 | s16-lot-3 | aa5a27525065 | 7 | 1 |
 | s53-untappd-bieres | 14b780a52ef2 | 12, 13, 16, 17, 18, 22, 23, 25 | 8 |
-| s54-positions | 83956b462c32 | 5, 6, 10, 11, 13, 16, 18, 22, 23, 24, 25, 27, 32, 34, 37, 38, 40, 41, 42, 43, 45, 46, 52, 53, 54, 56, 57, 58, 59, 60, 61, 66, 69, 70, 71, 72, 73 | 37 |
+| s54-positions | 83956b462c32 | 5, 6, 10, 11, 16, 18, 22, 23, 24, 25, 27, 34, 37, 38 | 14 |
 | s61-contacts-osm | 4b2ec1121dc7 | 1, 2, 3, 4, 5, 6, 7, 8 | 8 |
 | s63-horaires-osm | 1a3a479c55b8 | 1, 2, 3, 4, 5, 6, 7 | 7 |
 
-## À montrer à Cédric (212)
+## À montrer à Cédric (234)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -218,6 +218,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 8 | La Beer Fabrique | aucun site officiel connu pour la fiche |
 | s54-positions | 9 | Tom & Co | aucun site officiel connu pour la fiche |
 | s54-positions | 12 | La Loupiote | aucun site officiel connu pour la fiche |
+| s54-positions | 13 | Brasserie des Roches | aucune source sur le site officiel |
 | s54-positions | 14 | Le Brass'in | aucun site officiel connu pour la fiche |
 | s54-positions | 15 | Brasserie Dulion | aucun site officiel connu pour la fiche |
 | s54-positions | 17 | Single Track | aucun site officiel connu pour la fiche |
@@ -229,21 +230,42 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 29 | Brasserie de la Loire | source hors du site officiel : loiretourisme.com |
 | s54-positions | 30 | La Part des Autres | aucun site officiel connu pour la fiche |
 | s54-positions | 31 | Brasserie du Pilat | source hors du site officiel : loiretourisme.com |
+| s54-positions | 32 | Brasserie Amalthée | aucune source sur le site officiel |
 | s54-positions | 33 | Bière des Frères Clavel | aucun site officiel connu pour la fiche |
 | s54-positions | 35 | La Poule | aucun site officiel connu pour la fiche |
 | s54-positions | 36 | Brasserie Beauseigne | aucun site officiel connu pour la fiche |
 | s54-positions | 39 | Miellerie Gachet | aucun site officiel connu pour la fiche |
+| s54-positions | 40 | Rivière d'Ain | aucune source sur le site officiel |
+| s54-positions | 41 | Brasserie Challit | aucune source sur le site officiel |
+| s54-positions | 42 | La Mousse du Guiers | aucune source sur le site officiel |
+| s54-positions | 43 | Brasserie Free Mousse | aucune source sur le site officiel |
 | s54-positions | 44 | Brasserie CCB | aucun site officiel connu pour la fiche |
+| s54-positions | 45 | Les Brasseurs du Sornin | aucune source sur le site officiel |
+| s54-positions | 46 | Les Deux Branches | aucune source sur le site officiel |
 | s54-positions | 47 | Brasserie de la Pérouze | aucun site officiel connu pour la fiche |
 | s54-positions | 48 | Brasserie du Val d'Ainan (La Dauphine) | aucun site officiel connu pour la fiche |
 | s54-positions | 49 | Brasserie Romanaise (Bière Jacquemart) | aucun site officiel connu pour la fiche |
 | s54-positions | 50 | Brasserie L'Attract'Yves | aucun site officiel connu pour la fiche |
 | s54-positions | 51 | L'Écume du Guiers | aucun site officiel connu pour la fiche |
+| s54-positions | 52 | La Grange du Seigneur | aucune source sur le site officiel |
+| s54-positions | 53 | L'Agrivoise | aucune source sur le site officiel |
+| s54-positions | 54 | Brasserie du Mont Blanc | aucune source sur le site officiel |
 | s54-positions | 55 | Brasserie de la Pleine Lune | aucun site officiel connu pour la fiche |
+| s54-positions | 56 | Brasserie Kura | aucune source sur le site officiel |
+| s54-positions | 57 | Brasserie des Cuves | aucune source sur le site officiel |
+| s54-positions | 58 | Brasserie La Furieuse | aucune source sur le site officiel |
+| s54-positions | 59 | La Marmotte Masquée | aucune source sur le site officiel |
+| s54-positions | 60 | Brasserie des Cimes | aucune source sur le site officiel |
+| s54-positions | 61 | Brasserie La Dourbie | aucune source sur le site officiel |
 | s54-positions | 62 | Brasserie Irvoy | aucun site officiel connu pour la fiche |
 | s54-positions | 63 | P'tit Labo (Brasserie de Grenoble) | aucun site officiel connu pour la fiche |
 | s54-positions | 64 | Brasserie Solstice | aucun site officiel connu pour la fiche |
 | s54-positions | 65 | Brasserie Kiltin' | aucun site officiel connu pour la fiche |
+| s54-positions | 66 | Brasserie Archimalt | aucune source sur le site officiel |
 | s54-positions | 67 | Brasserie Les Dameuses | aucun site officiel connu pour la fiche |
 | s54-positions | 68 | Une Petite Mousse | aucun site officiel connu pour la fiche |
-| s134-sites-bieres | 19 | Brasserie Motueka | controler signale un écart |
+| s54-positions | 69 | Brasserie du Dauphiné | aucune source sur le site officiel |
+| s54-positions | 70 | Brasserie Motueka | aucune source sur le site officiel |
+| s54-positions | 71 | La Barbue | aucune source sur le site officiel |
+| s54-positions | 72 | Brasserie Quardin | aucune source sur le site officiel |
+| s54-positions | 73 | Brasserie Grésiv'ale | aucune source sur le site officiel |
