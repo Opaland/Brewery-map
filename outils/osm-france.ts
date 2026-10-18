@@ -32,9 +32,9 @@ import {
   type ElementOverpass,
 } from '../src/core/osm-france'
 import { brasseriesSchema } from '../src/core/schema'
+import { demanderOverpass } from './overpass'
 
 const AGENT = 'MousseDePoche/1.0 (https://github.com/Opaland/Brewery-map)'
-const SERVEUR = 'https://overpass.openstreetmap.fr/api/interpreter'
 const SORTIE = path.resolve('src/donnees-osm/brasseries-osm.json')
 
 /** sud, ouest, nord, est */
@@ -48,23 +48,7 @@ const RECTANGLES_REQUETE: Record<string, [number, number, number, number]> = {
 }
 
 async function demander(rect: [number, number, number, number], quoi: string): Promise<{ elements: ElementOverpass[]; base: string }> {
-  const requete = `[out:json][timeout:170];nwr["craft"="brewery"](${rect.join(',')});out center tags;`
-  for (let essai = 1; essai <= 4; essai++) {
-    const r = await fetch(SERVEUR, {
-      method: 'POST',
-      headers: { 'User-Agent': AGENT, 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: `data=${encodeURIComponent(requete)}`,
-    })
-    if (r.ok) {
-      const j = (await r.json()) as { elements: ElementOverpass[]; osm3s?: { timestamp_osm_base?: string }; remark?: string }
-      if (j.remark !== undefined) throw new Error(`${quoi} : ${j.remark}`)
-      return { elements: j.elements, base: j.osm3s?.timestamp_osm_base ?? '' }
-    }
-    if (r.status !== 429 && r.status < 500) throw new Error(`${quoi} : HTTP ${String(r.status)}`)
-    console.warn(`${quoi} : HTTP ${String(r.status)}, nouvel essai`)
-    await new Promise((ok) => setTimeout(ok, 5000 * essai))
-  }
-  throw new Error(`${quoi} : le serveur ne répond pas`)
+  return demanderOverpass(`[out:json][timeout:170];nwr["craft"="brewery"](${rect.join(',')});out center tags;`, quoi)
 }
 
 const communes = JSON.parse(await readFile('public/communes-france.json', 'utf8')) as CommuneFrance[]

@@ -42,7 +42,7 @@ const texte = (v: string | undefined): string | undefined => {
 }
 
 /** Un site seulement s'il est http(s) : le protocole lu sur l'URL analysée (CLAUDE.md §6bis). */
-function siteSur(v: string | undefined): string | undefined {
+export function siteSur(v: string | undefined): string | undefined {
   const t = texte(v)
   if (t === undefined) return undefined
   try {
@@ -265,14 +265,22 @@ export function dejaDansLeFichier(
   c: { nom: string; lat: number; lon: number },
   fichier: readonly Brasserie[],
 ): string | undefined {
+  return fichier.find((b) => designeLaFiche(c, b))?.n
+}
+
+/**
+ * La règle de `dejaDansLeFichier`, pour une paire : même cœur de nom, ou
+ * l'un contient l'autre, à moins de 20 km. Partagée avec le rapprochement
+ * des étiquettes (S60), pour qu'une seule règle dise « même brasserie » (§4).
+ */
+export function designeLaFiche(
+  c: { nom: string; lat: number; lon: number },
+  b: Pick<Brasserie, 'n' | 'lat' | 'lon'>,
+): boolean {
   const k = auSingulier(coeurDuNom(c.nom))
-  if (k === '') return undefined
-  for (const b of fichier) {
-    const kb = auSingulier(coeurDuNom(b.n))
-    if (kb === '' || !(kb === k || contientMot(kb, k) || contientMot(k, kb))) continue
-    if (distanceKm(c, b) < RAYON_MEME_BRASSERIE_KM) return b.n
-  }
-  return undefined
+  const kb = auSingulier(coeurDuNom(b.n))
+  if (k === '' || kb === '' || !(kb === k || contientMot(kb, k) || contientMot(k, kb))) return false
+  return distanceKm(c, b) < RAYON_MEME_BRASSERIE_KM
 }
 
 /** Ce qui dit la bière dans un nom (« brasserie », « brew », « bière », « malt »…). */
