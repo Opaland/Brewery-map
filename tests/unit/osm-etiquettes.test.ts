@@ -80,3 +80,29 @@ describe('masquerLesMobiles (S60)', () => {
     expect(masquerLesMobiles('04 72 56 54 54')).toBe('04 72 56 54 54')
   })
 })
+
+describe('mobiles sous les formes saisies dans OSM (revue adverse S60)', () => {
+  it('reconnaît (0), un 0 après +33, et (+33)', () => {
+    expect(['+33 (0)6 12 34 56 78', '+33 (0) 6 12 34 56 78', '+33 06 12 34 56 78', '(+33)6 12 34 56 78'].map(estUnMobile)).toEqual([
+      true,
+      true,
+      true,
+      true,
+    ])
+  })
+
+  it('masque un mobile quel que soit le séparateur, et garde le fixe', () => {
+    expect(masquerLesMobiles('06 12 34 56 78 / 04 72 00 00 00')).toBe('mobile / 04 72 00 00 00')
+    expect(masquerLesMobiles('04 72 00 00 00, 06 12 34 56 78')).toBe('04 72 00 00 00, mobile')
+    expect(masquerLesMobiles('04 72 00 00 00 ou +33 (0)6 12 34 56 78')).toBe('04 72 00 00 00 ou mobile')
+    expect(masquerLesMobiles('+33 6 12 34 56 78 poste 2')).toBe('mobile poste 2')
+  })
+})
+
+describe('repli du site (revue adverse S60)', () => {
+  it('se replie sur contact:website quand website est vide ou n’est pas un lien http(s)', () => {
+    for (const website of ['', 'facebook', 'ftp://x']) {
+      expect(etiquettesDeContact({ website, 'contact:website': 'https://a.fr' })).toEqual({ site: 'https://a.fr' })
+    }
+  })
+})

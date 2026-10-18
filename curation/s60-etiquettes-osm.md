@@ -1,6 +1,6 @@
 # Étiquettes OpenStreetMap des fiches (S60)
 
-Pour Cédric. **Ce sont des pistes, pas des propositions** : rien n'est écrit dans `data/`, et les lots S61 (téléphones), S62 (sites) et S63 (horaires) reliront chaque valeur sur la page de la brasserie avant de te la proposer. Données OpenStreetMap, base du 2026-10-18T00:54:01Z ; licence ODbL : l'attribution « © les contributeurs d'OpenStreetMap » est due si une valeur est reprise.
+Pour Cédric. **Ce sont des pistes, pas des propositions** : rien n'est écrit dans `data/`, et les lots S61 (téléphones), S62 (sites) et S63 (horaires) reliront chaque valeur sur la page de la brasserie avant de te la proposer. Données OpenStreetMap, base du 2026-10-18T01:03:06Z ; licence ODbL : l'attribution « © les contributeurs d'OpenStreetMap » est due si une valeur est reprise.
 
 Rapprochement : même règle que la couche OSM de la carte (`designeLaFiche`, même cœur de nom à moins de 20 km). 257 éléments OSM lus dans 9 départements.
 

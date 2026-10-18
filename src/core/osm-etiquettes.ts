@@ -20,7 +20,8 @@ const texte = (v: string | undefined): string | undefined => {
 
 export function etiquettesDeContact(tags: Record<string, string>): EtiquettesDeContact {
   const tel = texte(tags['phone']) ?? texte(tags['contact:phone'])
-  const site = siteSur(tags['website'] ?? tags['contact:website'])
+  // Un `website` vide ou hors http(s) ne cache pas un `contact:website` valable (revue adverse S60).
+  const site = siteSur(tags['website']) ?? siteSur(tags['contact:website'])
   const horaires = texte(tags['opening_hours'])
   return {
     ...(tel === undefined ? {} : { tel }),
@@ -74,19 +75,19 @@ export function rapprocherDuFichier(
 }
 
 /**
- * Un mobile français (06, 07), écrit en national, en +33 ou en 0033. La
- * règle des lots (S261) ne reprend pas les mobiles, et un mobile peut être
- * le numéro d'une personne : le rapport S60 ne les recopie pas.
+ * Un mobile français (06, 07) tel qu'on le saisit dans OSM : national,
+ * « +33 », « 0033 », « (+33) », « +33 (0)6 », « +33 06 », en paires
+ * séparées par espaces, points ou tirets. La règle des lots (S261) ne
+ * reprend pas les mobiles, et un mobile peut être le numéro d'une personne :
+ * le rapport S60 ne les recopie pas.
  */
+const MOBILE = String.raw`(?:(?:\(\s*)?(?:\+|00)\s*33\s*\)?\s*(?:\(\s*0\s*\)\s*|0\s*)?|(?<!\d)0)[67](?:[\s.\-]*\d{2}){4}(?!\d)`
+
 export function estUnMobile(tel: string): boolean {
-  const chiffres = tel.replace(/\D/g, '').replace(/^(?:0033|33)/, '0')
-  return /^0[67]\d{8}$/.test(chiffres)
+  return new RegExp(`^\\s*${MOBILE}\\s*$`).test(tel)
 }
 
-/** Chaque numéro d'une valeur OSM (« ; » les sépare) : les mobiles deviennent « mobile ». */
+/** Chaque mobile d'une valeur OSM, quel que soit le séparateur, devient « mobile ». */
 export function masquerLesMobiles(tel: string): string {
-  return tel
-    .split(';')
-    .map((n) => (estUnMobile(n) ? 'mobile' : n.trim()))
-    .join('; ')
+  return tel.replace(new RegExp(MOBILE, 'g'), 'mobile').trim()
 }
