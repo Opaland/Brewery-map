@@ -7,8 +7,8 @@
     sont précachées à l'installation : elles s'ouvrent sans réseau ;
   - les tuiles OSM déjà affichées sur l'appareil restent en cache (600 au
     plus ; au-delà, les plus anciennes mises en cache partent, même
-    revues depuis : l'ordre est celui de l'insertion ; choix de stockage tranché au jugement : de l'ordre de quelques
-    méga-octets, sans mesure) ; celles jamais affichées ne peuvent pas
+    revues depuis : l'ordre est celui de l'insertion ; choix de stockage
+    tranché au jugement : de l'ordre de quelques méga-octets, sans mesure) ; celles jamais affichées ne peuvent pas
     s'afficher hors ligne — l'interface le dit ;
   - aucune requête vers un tiers n'est faite par lui, hors les tuiles que la
     carte demande déjà.
