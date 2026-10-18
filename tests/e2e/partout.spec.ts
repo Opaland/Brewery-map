@@ -31,7 +31,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await expect(page.getByTestId('compte')).toContainText('brasseries à moins de 30 km de Porcelette (57)')
     await page.locator('button.ligne').first().click()
     const fiche = page.getByTestId('fiche')
-    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveText('openstreetmap.org')
+    await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveText('openstreetmap.org (nouvel onglet)')
     await expect(page.locator('button.ligne').first()).toContainText('Repérée sur OpenStreetMap')
     // Distincte sans ouvrir la fiche ; la fiche dit où corriger, et où mène « Y aller ».
     await expect(page.locator('button.ligne').first().getByTestId('badge-osm')).toHaveText('· OpenStreetMap')

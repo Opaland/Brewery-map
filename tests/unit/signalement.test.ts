@@ -31,6 +31,20 @@ describe('le lien « Signaler une erreur »', () => {
     expect(corps).toContain(B.addr)
   })
 
+  it('dit aussi la confiance, le point sur la carte et une fermeture, que la brasserie vient corriger (S295)', () => {
+    const fermee: Brasserie = {
+      ...B,
+      conf: 'faible',
+      coordPrecision: 'centre',
+      fermee: { source: 'https://exemple.fr/radiee', verifieLe: '2026-10-01' },
+    }
+    const corps = parametres(lienSignalement(fermee)).get('body') ?? ''
+    expect(corps).toContain('- Confiance : faible')
+    expect(corps).toContain('- Point sur la carte : au centre de la commune selon l’IGN')
+    expect(corps).toContain('- Dite fermée, selon : https://exemple.fr/radiee')
+    expect(parametres(lienSignalement({ ...B, fermee: undefined })).get('body')).not.toContain('fermée')
+  })
+
   it('dit dans l’issue ce qui se passe ensuite : qui décide, sans délai promis (revue S10)', () => {
     const corps = parametres(lienSignalement(B)).get('body') ?? ''
     expect(corps).toContain(SUITE_SIGNALEMENT)

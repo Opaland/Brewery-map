@@ -89,6 +89,14 @@ const style = (): StyleSpecification => ({
  */
 const ZOOM_MAX = 14
 
+/**
+ * Sans aucune tuile reçue après ce délai, la carte dit que son fond manque
+ * (S295). Seuil de présentation, au jugé (§2) : une vue s'affiche en moins
+ * de 2 s sur une connexion correcte ; écartés : 3 s (une 3G lente
+ * l'allumerait à chaque ouverture) et 15 s (la personne est déjà partie).
+ */
+const DELAI_SANS_TUILE_MS = 6000
+
 const carteImpossible = () =>
   t('La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.')
 
@@ -330,8 +338,16 @@ export default function Carte({
       echecs += 1
       if (echecs >= 3) setFondAbsent(true)
     })
+    // Une 4G qui rame ne fait échouer aucune tuile : elles n'arrivent pas,
+    // et la carte restait grise sans un mot (S295, Bernard). Sans aucune
+    // tuile reçue passé ce délai, le même repli.
+    let tuileRecue = false
+    const silence = window.setTimeout(() => {
+      if (!tuileRecue) setFondAbsent(true)
+    }, DELAI_SANS_TUILE_MS)
     map.on('sourcedata', (e) => {
       if (e.sourceId === 'osm' && e.tile !== undefined) {
+        tuileRecue = true
         echecs = 0
         setFondAbsent(false)
       }
@@ -344,6 +360,11 @@ export default function Carte({
       for (const a of conteneur.current?.querySelectorAll('.maplibregl-ctrl-attrib a') ?? []) {
         a.setAttribute('target', '_blank')
         a.setAttribute('rel', 'noopener noreferrer')
+        // Dit comme les autres liens sortants (`LienExterne`, S295).
+        const annonce = document.createElement('span')
+        annonce.className = 'lecteur-seul'
+        annonce.textContent = ` ${t('(nouvel onglet)')}`
+        a.append(annonce)
       }
       map.addSource('brasseries', {
         type: 'geojson',
@@ -367,6 +388,7 @@ export default function Carte({
     })
 
     return () => {
+      window.clearTimeout(silence)
       for (const m of actifs.values()) m.remove()
       actifs.clear()
       map.remove()

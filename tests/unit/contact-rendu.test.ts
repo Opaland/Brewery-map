@@ -76,7 +76,7 @@ describe('le bloc contact', () => {
     expect(html).toContain('Appeler le 04 72 50 88 53')
     expect(html).toContain('href="https://untappd.com/NomadeBrewery/beer"')
     expect(html).toContain('Coordonnées lues le 15 octobre 2026 sur')
-    expect(html).toContain('>nomadebiere.fr</a>')
+    expect(html).toContain('>nomadebiere.fr<span class="lecteur-seul"> (nouvel onglet)</span></a>')
     // Chaque lien http(s) part dans un nouvel onglet et sans référent —
     // compté sur tous les liens, pas seulement ceux qui ont déjà `target`
     // (revue code S4), et quel que soit l'ordre des attributs.

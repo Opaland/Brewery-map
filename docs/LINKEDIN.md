@@ -22,7 +22,7 @@ Ce qu'elle fait aujourd'hui :
 ⭐ des favoris, gardés sur le téléphone ;
 📶 consultable hors connexion, installable comme une application.
 
-Ce qui m'importait : vos coordonnées ne sont envoyées à personne, et aucune
+Ce qui m'importait : ce site n'envoie vos coordonnées à personne, et aucune
 donnée n'est inventée. Pas de serveur, pas de compte, pas de traceur.
 
 Construite par sprints courts avec Claude Code, chacun relu à travers des

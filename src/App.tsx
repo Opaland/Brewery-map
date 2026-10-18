@@ -33,6 +33,7 @@ import { libelleVerification } from './core/fiche'
 import { DONNEES, NOUVEAUTES } from './core/nouveautes'
 import { lireRaccourci } from './core/raccourcis'
 import { t } from './i18n'
+import { LienExterne } from './LienExterne'
 import { ficheDuLien } from './core/partage'
 import { lienTournee, ordonnerTournee } from './core/tournee'
 import { formaterDistance } from './core/distance'
@@ -47,6 +48,7 @@ import { MesFavoris } from './MesFavoris'
 import { PointDeDepart } from './PointDeDepart'
 import { Sauvegarde } from './Sauvegarde'
 import { appliquerTheme } from './theme'
+import { oublierLesTuiles } from './cacheTuiles'
 import type { Stockage } from './stockage'
 
 // L'affichette et son QR (S38) : chargés au premier clic, hors du chemin
@@ -371,12 +373,11 @@ export function App({
   }, [remettreAZero])
 
   const toutEffacer = () => {
-    stockage
-      .effacer()
+    Promise.all([stockage.effacer(), oublierLesTuiles()])
       .then(() => {
         remettreAZero()
         annoncerEffacement()
-        setAnnonce(t('Favoris, carnet, notes et réglages effacés de cet appareil.'))
+        setAnnonce(t('Favoris, carnet, notes, réglages et fond de carte gardé effacés de cet appareil.'))
       })
       .catch(() => {
         setAnnonce(t('L’effacement a échoué : rien n’a changé. Réessayez.'))
@@ -823,7 +824,7 @@ export function App({
         </details>
         <p data-testid="etat-hors-ligne">
           {pretHorsLigne
-            ? t('Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, communes de départ et carte déjà vue.')
+            ? t('Prête pour une utilisation hors connexion sur cet appareil : fiches, liste, recherche de commune et carte déjà vue.')
             : t('Pas encore prête hors connexion : gardez la page ouverte un moment avec du réseau.')}
         </p>
         <p>
@@ -846,9 +847,9 @@ export function App({
         </p>
         <p data-testid="signaler-absente">
           {t('Une brasserie manque ?')}{' '}
-          <a href={lienAjout()} target="_blank" rel="noopener noreferrer">
+          <LienExterne href={lienAjout()}>
             {t('La signaler')}
-          </a>{' '}
+          </LienExterne>{' '}
           {t('(sur GitHub, compte gratuit nécessaire, signalement public).')} {t(SANS_COMPTE)}{' '}
           {t(SUITE_SIGNALEMENT)}
         </p>

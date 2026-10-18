@@ -49,7 +49,7 @@ test.describe('les favoris (Marie)', () => {
     const n = nom ?? ''
     await ligne(page, n).click()
     await page.getByTestId('bouton-favori').click()
-    await expect(page.getByTestId('bouton-favori')).toHaveText('★ Retirer de mes favoris')
+    await expect(page.getByTestId('bouton-favori')).toHaveText(/^★ Retirer de mes favoris /)
     await expect(ligne(page, n).getByTestId('marque-favori')).toHaveCount(1)
     await ouvrirFiltres(page)
     await page.getByTestId('favoris-seulement').check()
@@ -84,7 +84,7 @@ test.describe('les favoris (Marie)', () => {
     await premiere.click()
     await page.getByTestId('bouton-favori').click()
     await page.getByTestId('bouton-favori').click()
-    await expect(page.getByTestId('bouton-favori')).toHaveText('☆ Ajouter à mes favoris')
+    await expect(page.getByTestId('bouton-favori')).toHaveText(/^☆ Ajouter à mes favoris /)
     await expect(page.getByTestId('marque-favori')).toHaveCount(0)
     await expect(page.getByTestId('mes-favoris')).toContainText('mes favoris (0)')
   })
@@ -389,7 +389,7 @@ test('deux onglets : un favori ajouté dans chacun, les deux restent (S24)', asy
     const ligneP = p.locator('button.ligne').nth(rang)
     await ligneP.click()
     await p.getByTestId('bouton-favori').click()
-    await expect(p.getByTestId('bouton-favori')).toHaveText('★ Retirer de mes favoris')
+    await expect(p.getByTestId('bouton-favori')).toHaveText(/^★ Retirer de mes favoris /)
     return (await ligneP.getAttribute('data-nom')) ?? ''
   }
   const premier = await ajouter(page, 0)

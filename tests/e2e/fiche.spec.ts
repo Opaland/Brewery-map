@@ -22,8 +22,9 @@ async function estPeint(page: Page, testId: string): Promise<boolean> {
   })
 }
 
+// La ligne elle-même : les boutons de la fiche portent aussi le nom (S295).
 const ligne = (page: Page, nom: RegExp) =>
-  page.getByTestId('liste').getByRole('button', { name: nom })
+  page.getByTestId('liste').locator('button.ligne').filter({ has: page.locator('.ligne-nom', { hasText: nom }) })
 
 test.beforeEach(async ({ page }) => {
   await sansTuiles(page)
@@ -38,7 +39,9 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(fiche).toBeVisible()
 
     const lien = fiche.getByTestId('fiche-source').getByRole('link')
-    await expect(lien).toHaveText('montsdulyonnaistourisme.fr')
+    // Suivi de « (nouvel onglet) », dit au seul lecteur d'écran (S295).
+    await expect(lien).toHaveText('montsdulyonnaistourisme.fr (nouvel onglet)')
+    await expect(lien.locator('.lecteur-seul')).toHaveText(' (nouvel onglet)')
     await expect(lien).toHaveAttribute(
       'href',
       'https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/',
@@ -132,8 +135,9 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('recherche').fill('oullins')
     await ligne(page, /Bulles d'Orge/).click()
     const fiche = page.getByTestId('fiche')
+    // Et dit à la brasserie quoi envoyer (S295).
     await expect(fiche.getByTestId('fiche-source')).toHaveText(
-      'Aucune source lue pour cette brasserie.',
+      'Aucune source lue pour cette brasserie. Si c’est la vôtre, envoyez le lien de votre site par « Signaler une erreur », plus bas.',
     )
     await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveCount(0)
     await expect(fiche.getByTestId('fiche-confiance')).toContainText('non évaluée')

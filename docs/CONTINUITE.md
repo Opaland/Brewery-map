@@ -16,7 +16,7 @@ sont **dans la page elle-même** (`data/`, `src/donnees-osm/`,
 | Service | Hôte | Sert à | S'il tombe | Ce que l'écran en dit | Repli |
 |---|---|---|---|---|---|
 | Page publiée (GitHub Pages) | `opaland.github.io` | Servir l'application | Une première visite est impossible | Rien : la page ne charge pas | Une application déjà ouverte une fois s'ouvre depuis son cache (`public/sw.js`) : fiches, liste, communes, carte déjà vue |
-| Tuiles de la carte (OpenStreetMap) | `tile.openstreetmap.org` | Le fond de la carte | Le fond reste gris ; les brasseries restent placées, la liste est complète | « Fond de carte incomplet ou indisponible… » (`fond-absent`, `src/Carte.tsx`) | Jusqu'à 600 tuiles déjà affichées restent en cache sur l'appareil ; au-delà, les plus anciennes mises en cache partent les premières, même revues depuis (`public/sw.js`) |
+| Tuiles de la carte (OpenStreetMap) | `tile.openstreetmap.org` | Le fond de la carte | Le fond reste gris ; les brasseries restent placées, la liste est complète | « Fond de carte incomplet ou indisponible… » (`fond-absent`, `src/Carte.tsx`) | Jusqu'à 600 tuiles déjà affichées restent en cache sur l'appareil ; au-delà, les moins récemment vues partent les premières (`public/sw.js`). Une page déjà en cache s'ouvre au bout de 4 s même si le réseau se tait (S295) |
 
 ## Les outils de curation
 

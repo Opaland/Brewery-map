@@ -107,9 +107,8 @@ export const contactSchema = z
     /**
      * Numéro français en paires : « 04 72 50 88 53 ». Les 08 (numéros
      * spéciaux, souvent surtaxés) sont refusés : pas un bouton « Appeler »
-     * vers un numéro payant (revue code S4). **Métropole seulement** : le
-     * lien `tel:+33…` serait faux pour l'outre-mer (+590, +262…) ; aucune
-     * brasserie du fichier n'y est (BACKLOG).
+     * vers un numéro payant (revue code S4). Un numéro d'outre-mer
+     * passe : `lienTelephone` lui donne son indicatif (+262, +590…, #47).
      */
     tel: z
       .string()

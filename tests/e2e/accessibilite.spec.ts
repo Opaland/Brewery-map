@@ -21,8 +21,9 @@ import { sansTuiles, versLaCarte } from './reseau'
 const CIBLE = 44
 const CIBLE_CARTE = 24
 
+// La ligne elle-même : les boutons de la fiche portent aussi le nom (S295).
 const ligne = (page: Page, nom: RegExp) =>
-  page.getByTestId('liste').getByRole('button', { name: nom })
+  page.getByTestId('liste').locator('button.ligne').filter({ has: page.locator('.ligne-nom', { hasText: nom }) })
 
 async function ouvrir(page: Page, schema: 'light' | 'dark' = 'light') {
   await page.emulateMedia({ colorScheme: schema })
@@ -200,9 +201,8 @@ test('au clavier, chaque arrêt montre où est le focus, carte et pied compris (
 
 /**
  * Le critère d'Inès : trouver une brasserie, lire sa fiche, au clavier seul,
- * sans passer par la carte. « Appeler » n'est pas joignable ici : aucune
- * fiche de `data/` n'a encore de téléphone ; le bouton est prouvé par
- * `tests/unit/contact-rendu.test.ts`.
+ * sans passer par la carte. L'appel, dernière étape, a son test juste après
+ * (S295 : 47 fiches ont désormais un téléphone).
  */
 test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async ({ page }) => {
   await ouvrir(page)
@@ -232,7 +232,7 @@ test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async 
   // « Y aller », la source, puis « Signaler ».
   await page.keyboard.press('Tab')
   await expect(page.getByRole('button', { name: /Ajouter à mes favoris/ })).toBeFocused()
-  const signaler = page.getByRole('link', { name: 'Signaler une erreur sur cette fiche' })
+  const signaler = page.getByRole('link', { name: /^Signaler une erreur sur cette fiche/ })
   for (let i = 0; i < 16 && !(await signaler.evaluate((e) => e === document.activeElement)); i++) {
     await page.keyboard.press('Tab')
   }
@@ -242,6 +242,25 @@ test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async 
   await bouton.focus()
   await page.keyboard.press('Enter')
   await expect(bouton).toHaveAttribute('aria-expanded', 'false')
+})
+
+test('Inès : depuis la fiche, « Appeler » se joint au clavier et dit le numéro (S295)', async ({ page }) => {
+  await ouvrir(page)
+  await page.getByTestId('recherche').fill('gredam')
+  const bouton = ligne(page, /GreDam/)
+  await bouton.focus()
+  await page.keyboard.press('Enter')
+  await expect(page.getByTestId('fiche')).toBeVisible()
+  // Le nom dit l'action et le numéro ; le lien compose l'indicatif (#47).
+  const appeler = page.getByRole('link', { name: 'Appeler le 04 78 33 84 95' })
+  await expect(appeler).toHaveAttribute('href', 'tel:+33478338495')
+  for (let i = 0; i < 12 && !(await appeler.evaluate((e) => e === document.activeElement)); i++) {
+    await page.keyboard.press('Tab')
+  }
+  await expect(appeler).toBeFocused()
+  // Les liens qui quittent le site le disent à qui écoute (S295).
+  await expect(page.getByTestId('fiche').getByRole('link', { name: /Signaler une erreur sur cette fiche \(nouvel onglet\)/ })).toHaveCount(1)
+  await expect(page.getByTestId('bouton-partager')).toHaveAccessibleName('Partager GreDam')
 })
 
 /**

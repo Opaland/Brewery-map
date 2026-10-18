@@ -112,6 +112,26 @@ test.describe('trouver une brasserie (Marie)', () => {
     await expect(page.getByTestId('type')).toHaveCount(0)
   })
 
+  // S295, Karim : le parcours entier sur les vraies données. Le test d'avant
+  // (le filtre vide) est sauté depuis que des bières sont renseignées.
+  test('choisir un type garde les seules brasseries qui en déclarent une', async ({ page }) => {
+    await page.goto('/')
+    await ouvrirFiltres(page)
+    await regler(page, 50)
+    await expect(lignes(page)).toHaveCount(attendus(50))
+    const avecIpa = rechercher(DONNEES, { origine: BRIGNAIS, rayonKm: 50, texte: '', categories: [0, 1, 2, 3], type: 'ipa' })
+    expect(avecIpa.length).toBeGreaterThan(0)
+    expect(avecIpa.length).toBeLessThan(attendus(50))
+    await page.getByTestId('type').selectOption('ipa')
+    await expect(lignes(page)).toHaveCount(avecIpa.length)
+    // Chaque ligne restante déclare une IPA dans le fichier.
+    const noms = await lignes(page).locator('.ligne-nom').allTextContents()
+    const ipa = new Set(DONNEES.filter((b) => b.beers.some((x) => x.type === 'ipa')).map((b) => b.n))
+    expect(noms.filter((n) => !ipa.has(n.trim()))).toEqual([])
+    await page.getByTestId('type').selectOption('')
+    await expect(lignes(page)).toHaveCount(attendus(50))
+  })
+
   test('dit quand rien ne correspond', async ({ page }) => {
     await page.goto('/')
     await page.getByTestId('recherche').fill('zzzz')
@@ -215,7 +235,7 @@ test.describe('la carte (marqueurs groupés)', () => {
     await expect(page.getByTestId('apercu-carte')).toContainText("Bulles d'Orge")
     await expect(point).toHaveAttribute('aria-pressed', 'true')
     await page.getByTestId('apercu-voir-fiche').click()
-    await expect(lignes(page).getByRole('button', { name: /Bulles d'Orge/ })).toHaveAttribute(
+    await expect(lignes(page).locator('button.ligne', { hasText: /Bulles d'Orge/ })).toHaveAttribute(
       'aria-expanded',
       'true',
     )

@@ -13,9 +13,10 @@ test('« J’y suis allé·e » note la visite du jour ; la ligne le dit ; un se
   const nom = (await ligne.getAttribute('data-nom')) ?? ''
   await ligne.click()
   const bouton = page.getByTestId('bouton-visite')
-  await expect(bouton).toHaveText('J’y suis allé·e')
+  // Le nom de la brasserie suit, pour un lecteur d'écran seulement (S295).
+  await expect(bouton).toHaveText(/^J’y suis allé·e /)
   await bouton.click()
-  await expect(bouton).toHaveText('✓ Visitée le 17 octobre 2026 — retirer du carnet')
+  await expect(bouton).toHaveText(/^✓ Visitée le 17 octobre 2026 — retirer du carnet /)
   // Lu par le lecteur d'écran, pas seulement une coche.
   await expect(page.locator(`button.ligne[data-nom="${nom}"]`)).toHaveAccessibleName(
     /\(visitée le 17 octobre 2026\)/,
@@ -59,10 +60,17 @@ test('« tout effacer » efface aussi le carnet', async ({ page }) => {
   await expect(page.getByTestId('stockage-texte')).toContainText(
     'carnet de visites (le nom et le jour, rien d’autre)',
   )
+  // Une tuile gardée, comme le service worker l'aurait fait (S295, Léa).
+  await page.evaluate(async () => {
+    const cache = await caches.open('mousse-tuiles-v1')
+    await cache.put('https://tile.openstreetmap.org/14/1/1.png', new Response('tuile'))
+  })
+  await expect(page.getByTestId('stockage-texte')).toContainText('« Effacer » le retire avec le reste')
   await page.getByTestId('tout-effacer').click()
   await page.getByTestId('confirmer-effacer').click()
   await expect(page.getByTestId('marque-visite')).toHaveCount(0)
   await expect(page.getByTestId('pas-visitees')).toHaveAccessibleName(/\(0 visitée\)/)
+  await expect.poll(() => page.evaluate(() => caches.has('mousse-tuiles-v1'))).toBe(false)
 })
 
 test('deux onglets : une visite notée dans chacun, les deux restent (revue adverse S35)', async ({ context, page }) => {

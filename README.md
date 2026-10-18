@@ -40,10 +40,11 @@ propositions attendent sa relecture (`curation/`).
 ## Ce qui reste dans le téléphone
 
 Application 100 % côté client : pas de serveur, pas de compte, pas de
-télémétrie. La position sert à calculer les distances dans le navigateur et
-n'est envoyée à personne. Ce qui part sur le réseau : les images de la carte
-(OpenStreetMap voit la zone affichée), et, quand on choisit une commune, la
-liste des communes de sa région, demandée à ce site. Le détail est dans
+télémétrie. La position sert à calculer les distances dans le navigateur, et
+ce site ne l'envoie à personne. Ce qui part sur le réseau : les images de la
+carte (OpenStreetMap voit la zone affichée), et la liste des communes de la
+région du point de départ (de toute la France avec « Autour de moi »),
+demandée à ce site (GitHub Pages, qui voit l'adresse IP comme tout site). Le détail est dans
 l'application, sous « Votre position reste dans ce téléphone ».
 
 ## Captures
