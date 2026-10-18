@@ -10,9 +10,9 @@ import { expect, test } from './position'
  * S271 : le premier écran porte `data/breweries.json`, passé de 166 à 358
  * fiches par la règle de Cédric (+27 Ko gzip pour les données, −6 Ko pour
  * la couche OSM épurée). Mesuré à 198 785 octets, budget refixé par la
- * même règle que S235 (mesure + environ 10 %) : 219 000. Écarté : sortir
- * les données du premier paquet dès maintenant (story S293, à faire avant
- * les régions suivantes d'E25).
+ * même règle que S235 (mesure + environ 10 %) : 219 000. S293 a mesuré
+ * le premier écran à 358, 1 000 et 2 000 fiches (`docs/PREMIER-ECRAN.md`) :
+ * S294 chargera les fiches par département.
  */
 const BUDGETS = { premierEcran: 219_000, carte: 310_000, travailleur: 158_000 }
 
