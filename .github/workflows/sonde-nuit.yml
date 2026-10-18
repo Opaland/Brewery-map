@@ -27,3 +27,17 @@ jobs:
         run: npm ci
       - name: Sonder les services
         run: npx tsx outils/sonde-services.ts
+
+  # S283 : chaque nuit, un avis nouveau sur une dépendance (outils compris)
+  # rougit le run du matin, sans attendre une PR.
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Audit des dépendances (haute et critique)
+        run: npm audit --audit-level=high

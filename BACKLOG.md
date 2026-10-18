@@ -251,3 +251,9 @@ chacun demande une décision ou une vérification de source.
   772 px pour une barre à 619 px. Le test du premier écran est calibré sur le
   Pixel 7 ; il faut le même pour l'iPhone, et un premier écran plus court
   (story à préparer, epic E1).
+
+- **`tsx` et deux avis « modérés » sur `esbuild` (S283, mesuré le 18/10)** :
+  `npm audit` relève `esbuild` ≤ 0.24.2 sous `tsx` 4.19.2 (GHSA-67mh-4wv8-2f99,
+  le serveur de développement d'esbuild, que `tsx` ne lance pas). Outil de
+  développement seulement ; la porte ne bloque qu'au niveau « haute ». Mettre
+  `tsx` à jour dans sa propre story, outils relancés.

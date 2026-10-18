@@ -33,6 +33,16 @@ jobs:
         run: npm ci
       - name: Garde de data/ (aucune ligne sans accord écrit de Cédric)
         run: npx tsx outils/garde-donnees.ts
+      # S283 : bloquant pour ce que la page embarque (faille haute ou
+      # critique) ; l'arbre entier, outils compris, est lu sans bloquer — un
+      # avis « modéré » sur un outil ne rougit pas une PR sans rapport.
+      # Limite dite : registre npm injoignable, l'audit sort en erreur et la
+      # porte rougit sans faille (mesuré, revue adverse S283) ; relancer.
+      - name: Audit des dépendances livrées (bloquant, haute et critique)
+        run: npm audit --omit=dev --audit-level=high
+      - name: Audit de l'arbre entier (informatif)
+        run: npm audit --audit-level=high
+        continue-on-error: true
       - name: Lint
         run: npm run lint
       - name: Typecheck (tsc -b, pas tsc --noEmit)
