@@ -1,0 +1,1364 @@
+{
+ "source": "overpass.openstreetmap.fr",
+ "base_osm": "2026-10-18T01:03:06Z",
+ "rapprochees": [
+  {
+   "fiche": "Ninkasi Brignais",
+   "elements": [
+    {
+     "osm": "node/10066901359",
+     "nom": "Ninkasi",
+     "etiquettes": {
+      "site": "https://www.ninkasi.fr/lieux/ninkasi-grand-parilly/",
+      "horaires": "Mo-Sa 09:00-24:00; Su 10:00-24:00"
+     }
+    },
+    {
+     "osm": "node/4697536007",
+     "nom": "Ninkasi",
+     "etiquettes": {
+      "horaires": "Mo-Su 09:00-24:00"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Caribrew",
+   "elements": [
+    {
+     "osm": "node/6067436077",
+     "nom": "Microbrasserie Caribrew",
+     "etiquettes": {
+      "site": "https://microbrasseriecaribrew.fr"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Autour de la Bière (Taluyers)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Canute Lyonnaise",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Bulles d'Orge",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Chénou",
+   "elements": [
+    {
+     "osm": "node/6821847386",
+     "nom": "Microbrasserie La Chénou",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "http://lachenou.fr/",
+      "horaires": "We-Fr 16:00-21:00; Sa 09:30-21:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Krüger",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "DWYN Brewing",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Coldie Brewery",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Malting Pot",
+   "elements": [
+    {
+     "osm": "node/3156352461",
+     "nom": "Malting-Pot",
+     "etiquettes": {
+      "tel": "+33 4 78 86 90 85",
+      "horaires": "Mo-Sa 12:00-14:00,17:00-24:00"
+     }
+    },
+    {
+     "osm": "node/3824873160",
+     "nom": "Malting-Pot",
+     "etiquettes": {
+      "tel": "+33 9 70 95 27 78",
+      "site": "https://www.malting-pot.com/",
+      "horaires": "Mo-Sa 12:00-14:00,17:00-24:00"
+     }
+    },
+    {
+     "osm": "node/11040149893",
+     "nom": "Malting Pot Part-Dieu",
+     "etiquettes": {
+      "tel": "+33 9 55 26 38 97",
+      "site": "https://www.malting-pot.com/malting-pot",
+      "horaires": "Mo-Sa 11:30-24:00"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Brasserie Demi-Lune",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Animus",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Georges",
+   "elements": [
+    {
+     "osm": "node/828579675",
+     "nom": "Brasserie Georges",
+     "etiquettes": {
+      "tel": "+33 4 72 56 54 54",
+      "site": "https://www.brasseriegeorges.com/",
+      "horaires": "Mo-Th 11:30-22:45; Fr,Sa 11:30-00:15"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Fabrique du Faubourg",
+   "elements": [
+    {
+     "osm": "node/7891342421",
+     "nom": "Beer Fabrique",
+     "etiquettes": {
+      "tel": "+33 4 87 77 04 29",
+      "site": "https://www.labeerfabrique.com/lyon/stage-maitre-brasseur-lyon/"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "élément partagé avec « La Beer Fabrique »"
+  },
+  {
+   "fiche": "Maltazar",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Autour de la Bière",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Ferme de la Quintillière",
+   "elements": [
+    {
+     "osm": "way/138335054",
+     "nom": "Ferme de la Quintillière - Bière Busard",
+     "etiquettes": {
+      "site": "http://www.fermedelaquintilliere.com/bieres-busard/",
+      "horaires": "We 16:30-19:30"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Bière des Loups",
+   "elements": [
+    {
+     "osm": "way/1051639598",
+     "nom": "La Bière des Loups",
+     "etiquettes": {
+      "tel": "mobile"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Aubépines",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Platypus Brewpub",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Monts du Lyonnais",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Beer Fabrique",
+   "elements": [
+    {
+     "osm": "node/7891342421",
+     "nom": "Beer Fabrique",
+     "etiquettes": {
+      "tel": "+33 4 87 77 04 29",
+      "site": "https://www.labeerfabrique.com/lyon/stage-maitre-brasseur-lyon/"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "élément partagé avec « La Fabrique du Faubourg »"
+  },
+  {
+   "fiche": "Tom & Co",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Microbrasserie de Montchat",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Soyeuse",
+   "elements": [
+    {
+     "osm": "node/11594867014",
+     "nom": "La Soyeuse",
+     "etiquettes": {
+      "site": "https://www.lasoyeuse.fr/",
+      "horaires": "Mo-Tu 15:30-19:00; We 09:00-12:00,15:00-21:00; We 15:00-21:00 \"Bar\""
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Loupiote",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Roches",
+   "elements": [
+    {
+     "osm": "node/10140476976",
+     "nom": "Brasserie des Roches",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasseriedesroches.fr"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Le Brass'in",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Dulion",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "FFAKE Brasserie",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Nomade Brewery",
+   "elements": [
+    {
+     "osm": "node/12852782429",
+     "nom": "Nomade",
+     "etiquettes": {
+      "tel": "+33 4 72 50 88 53",
+      "site": "https://www.nomadebiere.fr",
+      "horaires": "Tu-We 12:00-22:00; Th-Fr 12:00-23:30; Sa 14:30-19:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Single Track",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "GreDam",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Misso",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Bière bio des Monts d'Or",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Domaine du Manchot",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Nepo",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Mont Popey",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Hoodo",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Dame de Malt",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie 767",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Farlodoise",
+   "elements": [
+    {
+     "osm": "node/4041646051",
+     "nom": "La Farlodoise",
+     "etiquettes": {
+      "tel": "+33 9 73 10 84 72",
+      "site": "http://www.lafarlodoise.fr",
+      "horaires": "We-Fr 09:00-12:30, 15:00-19:30; Sa 09:00-19:30; Tu 15:00-19:30"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Roches Précieuses",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Kachmar",
+   "elements": [
+    {
+     "osm": "node/13200279683",
+     "nom": "Brasserie Kachmar",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasserie-kachmar.fr",
+      "horaires": "Sa 10:00-18:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Voie Maltée",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Agarithe",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Ninkasi Fabriques",
+   "elements": [
+    {
+     "osm": "node/5984999103",
+     "nom": "Ninkasi",
+     "etiquettes": {
+      "tel": "+33 4 81 00 10 02",
+      "site": "https://www.ninkasi.fr/lieux/tarare.html",
+      "horaires": "Tu-We 11:00-15:00; Th 11:00-23:00; Fr-Sa 11:00-01:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Terre de Bières",
+   "elements": [
+    {
+     "osm": "way/150069038",
+     "nom": "Terre de Bières",
+     "etiquettes": {
+      "tel": "+33 4 74 68 41 81",
+      "site": "https://www.terredebieres.fr/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Affoleuse",
+   "elements": [
+    {
+     "osm": "node/7950028324",
+     "nom": "L'Affoleuse",
+     "etiquettes": {
+      "tel": "+33 4 74 62 86 05",
+      "site": "https://laffoleuse.net/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Stéphanoise",
+   "elements": [
+    {
+     "osm": "node/4343465583",
+     "nom": "La Brasserie Stéphanoise",
+     "etiquettes": {
+      "tel": "+33 9 83 84 37 79",
+      "site": "https://labrasseriestephanoise.com/",
+      "horaires": "Fr-Sa 14:00-18:30"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Ours qui brasse",
+   "elements": [
+    {
+     "osm": "node/3886172353",
+     "nom": "L'Ours qui brasse",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://lours-qui-brasse-1.jimdosite.com/",
+      "horaires": "Tu-We 17:30-23:30; Th-Fr 17:30-24:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Ninkasi Saint-Étienne",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Ursulines",
+   "elements": [
+    {
+     "osm": "node/1083416094",
+     "nom": "Brasserie des Ursulines",
+     "etiquettes": {
+      "site": "https://biere-les-ursulines.com/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Casino de Montrond",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Malt Emoi",
+   "elements": [
+    {
+     "osm": "node/8371233698",
+     "nom": "Brasserie Malt Emoi",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.malt-emoi.fr/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Margau",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de la Loire",
+   "elements": [
+    {
+     "osm": "way/643827357",
+     "nom": "Brasserie de la Loire",
+     "etiquettes": {
+      "tel": "+33 4 77 52 17 45",
+      "site": "https://www.brasseriedelaloire.fr/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de la Sanne",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Gaudine (Brasserie de la Semène)",
+   "elements": [
+    {
+     "osm": "node/8928658771",
+     "nom": "Brasserie de la Semène",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Part des Autres",
+   "elements": [
+    {
+     "osm": "node/9968514317",
+     "nom": "La Part des Autres",
+     "etiquettes": {
+      "site": "https://lapartdesautres.com/",
+      "horaires": "Tu-We 11:00-14:00; Th 11:00-14:00, 17:30-23:00; Fr 11:00-14:00, 17:30-00:00; Sa 11:00-15:00, 17:30-00:00; Su 11:00-15:00"
+     }
+    },
+    {
+     "osm": "way/437963435",
+     "nom": "La Part des Autres",
+     "etiquettes": {
+      "site": "https://lapartdesautres.com/"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Les Bières du Temps",
+   "elements": [
+    {
+     "osm": "node/5705298290",
+     "nom": "Les Bières du Temps",
+     "etiquettes": {
+      "tel": "+33 4 74 79 52 96",
+      "site": "https://www.lesbieresdutemps.com/",
+      "horaires": "Fr 16:00-19:00; Sa 10:00-12:30, 15:00-18:00; We 10:00-12:30, 15:00-19:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Pilat",
+   "elements": [
+    {
+     "osm": "node/5095193371",
+     "nom": "La brasserie du Pilat",
+     "etiquettes": {
+      "tel": "+33 4 77 51 56 17",
+      "site": "https://www.brasseriedupilat.com/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Graine 2 Bulles",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Amalthée",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Cadole",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Mozel'âne",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Cabule",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Sarments",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Bière des Frères Clavel",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "BIM Brasserie Indépendante Montbrisonnaise",
+   "elements": [
+    {
+     "osm": "node/7816207070",
+     "nom": "BIM",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasseriebim.com/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Chartreux",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Poule",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Faux Semblables",
+   "elements": [
+    {
+     "osm": "node/5323467632",
+     "nom": "Brasserie des Faux Semblables",
+     "etiquettes": {
+      "tel": "mobile"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Longue Vie",
+   "elements": [
+    {
+     "osm": "node/5939247511",
+     "nom": "Auberge de Longue Vie",
+     "etiquettes": {}
+    },
+    {
+     "osm": "node/12048874761",
+     "nom": "Brasserie Longue Vie",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://longue-vie.fr/"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Brasserie Beauseigne",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Germanoise",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de Chambaran",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Canaille",
+   "elements": [
+    {
+     "osm": "node/2665151591",
+     "nom": "Brasserie La Canaille",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasserielacanaille.com",
+      "horaires": "Mo-Th 09:00-17:00; Fr 09:00-23:00; Sa 16:00-21:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Miellerie Gachet",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Strol",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Rivière d'Ain",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Challit",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Mousse du Guiers",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Saint-Clair (La Bressane)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Free Mousse",
+   "elements": [
+    {
+     "osm": "node/5939247507",
+     "nom": "Free Mousse",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Rhôdanienne",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie CCB",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Utopies",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Hildegarde",
+   "elements": [
+    {
+     "osm": "node/6868204364",
+     "nom": "Brasserie Hildegarde",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Grange Noire",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Ateliers du Dauphiné",
+   "elements": [
+    {
+     "osm": "way/218919148",
+     "nom": "La Dauphine",
+     "etiquettes": {
+      "tel": "+33476063345",
+      "site": "http://www.la-dauphine.fr"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "élément partagé avec « Brasserie du Val d'Ainan (La Dauphine) »"
+  },
+  {
+   "fiche": "Brasserie Peteukrane",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Polack",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des 2 Roches",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Brasseurs du Sornin",
+   "elements": [
+    {
+     "osm": "way/311319863",
+     "nom": "Les Brasseurs du Sornin",
+     "etiquettes": {
+      "site": "https://www.sornin.com/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Deux Branches",
+   "elements": [
+    {
+     "osm": "node/13788368998",
+     "nom": "Les Deux Branches",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://lesdeuxbranches.fr/",
+      "horaires": "Fr 17:00-19:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de la Pérouze",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Revermont (Les Deux Frères)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Poulette des Ebaudis",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Two Hats Brewing",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie La Couleuvre",
+   "elements": [
+    {
+     "osm": "way/260173271",
+     "nom": "Brasserie La Couleuvre",
+     "etiquettes": {
+      "site": "https://www.facebook.com/brasserielacouleuvre"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Terre de Possibles",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Kan Mêm",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Val d'Ainan (La Dauphine)",
+   "elements": [
+    {
+     "osm": "way/218919148",
+     "nom": "La Dauphine",
+     "etiquettes": {
+      "tel": "+33476063345",
+      "site": "http://www.la-dauphine.fr"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "élément partagé avec « Les Ateliers du Dauphiné »"
+  },
+  {
+   "fiche": "Brasserie du Bugey",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de l'Ours Barbu",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Domaine du Bélier Rouge",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Romanaise (Bière Jacquemart)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie L'Attract'Yves",
+   "elements": [
+    {
+     "osm": "node/3084894727",
+     "nom": "Micro Brasserie Attract'Yves",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Écume du Guiers",
+   "elements": [
+    {
+     "osm": "node/6659874286",
+     "nom": "L'écume du Guier",
+     "etiquettes": {
+      "tel": "mobile"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Ferme-Brasserie de Belmonthé",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Haarddrëch",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Grange du Seigneur",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Kokine",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Cuves de la Madeleine",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Agrivoise",
+   "elements": [
+    {
+     "osm": "node/5635690114",
+     "nom": "L'Agrivoise",
+     "etiquettes": {
+      "tel": "+33 4 75 30 70 76; mobile",
+      "site": "http://www.lagrivoise.fr/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de Chartreuse",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Manev'Ale",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Rohner",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de Chanaz",
+   "elements": [
+    {
+     "osm": "node/9399667864",
+     "nom": "Brasserie de Chanaz",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasserie-de-chanaz.fr/",
+      "horaires": "Mo-Fr 08:00-12:30; 14:00 - 17:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Croqueurs de Lune",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Les Bières Hoffmann (Brasseurs du Grand Colombier)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Vercors (Biercors)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de Cluny",
+   "elements": [
+    {
+     "osm": "node/5573397529",
+     "nom": "Zouaffe - La Brasserie de Cluny",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "http://www.brasseriedecluny.fr"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Paille",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de Roche Colombe",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Valentinoise",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Mac Never's and Co.",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de l'Emblavez",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Mont Blanc",
+   "elements": [
+    {
+     "osm": "way/181203951",
+     "nom": "Brasserie Distillerie du Mont Blanc",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie B.A.S. (Sabaudia)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie de la Pleine Lune",
+   "elements": [
+    {
+     "osm": "way/889170773",
+     "nom": "Brasserie de la Pleine Lune",
+     "etiquettes": {
+      "site": "https://www.brasserie-pleinelune.fr/",
+      "horaires": "Mo 14:00-20:00; Tu,We 10:00-21:00; Th,Fr 10:00-23:00; Sa 10:00-22:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Ferme-brasserie Déluge",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Kura",
+   "elements": [
+    {
+     "osm": "node/7880051353",
+     "nom": "Kūra",
+     "etiquettes": {
+      "site": "https://www.kuradebourgogne.com/"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Cuves",
+   "elements": [
+    {
+     "osm": "node/14152557690",
+     "nom": "Brasserie des cuves",
+     "etiquettes": {}
+    },
+    {
+     "osm": "way/84828231",
+     "nom": "Brasserie des Cuves",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Brasserie La Furieuse",
+   "elements": [
+    {
+     "osm": "node/9905372699",
+     "nom": "La Furieuse",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Marmotte Masquée",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie des Cimes",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie La Dourbie",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Coup de Mousse",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "RUN'HARD",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Caquot",
+   "elements": [
+    {
+     "osm": "way/185089438",
+     "nom": "Brasserie Caquot",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Teddy Beer",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Dr D. Brewpub",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Marrel",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Irvoy",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Maltobar",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "P'tit Labo (Brasserie de Grenoble)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Solstice",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Kiltin'",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Bonne Fabrique",
+   "elements": [
+    {
+     "osm": "node/11163082026",
+     "nom": "La bonne fabrique (brasserie et atelier bois)",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Archimalt",
+   "elements": [
+    {
+     "osm": "node/4535492293",
+     "nom": "Archimalt",
+     "etiquettes": {
+      "site": "http://www.archimalt.fr/",
+      "horaires": "Tu-Th 11:00-14:30,17:00-22:00; Fr 11:00-14:30,17:00-23:00; Sa 17:00-23:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Montagnarde",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "L'Etincelle",
+   "elements": [
+    {
+     "osm": "way/138474252",
+     "nom": "Brasserie L'étincelle",
+     "etiquettes": {
+      "tel": "mobile",
+      "site": "https://www.brasserie-letincelle.fr/",
+      "horaires": "We 16:00-19:00; Fr 16:00-20:00"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie 3B (Bassin Bellegardien)",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Les Dameuses",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Une Petite Mousse",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Dauphiné",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Vellavia",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Motueka",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Barbue",
+   "elements": [
+    {
+     "osm": "way/292684260",
+     "nom": "Brasserie La Barbue",
+     "etiquettes": {}
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie du Merle",
+   "elements": [
+    {
+     "osm": "node/12636104305",
+     "nom": "Brasserie du Merle",
+     "etiquettes": {
+      "site": "http://brasseriedumerle.fr/",
+      "horaires": "We 16:00-22:00"
+     }
+    },
+    {
+     "osm": "way/165389547",
+     "nom": "Brasserie du Merle",
+     "etiquettes": {
+      "site": "http://brasseriedumerle.fr/",
+      "horaires": "We 16:00-22:00"
+     }
+    }
+   ],
+   "ambigue": true,
+   "raison": "plusieurs éléments"
+  },
+  {
+   "fiche": "Brasserie Quardin",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Grésiv'ale",
+   "elements": [
+    {
+     "osm": "node/5901138391",
+     "nom": "Brasserie Grésiv'Ale",
+     "etiquettes": {
+      "tel": "mobile"
+     }
+    }
+   ],
+   "ambigue": false
+  },
+  {
+   "fiche": "Brasserie Two Dudes",
+   "elements": [],
+   "ambigue": false
+  },
+  {
+   "fiche": "La Mousse du Hérisson",
+   "elements": [
+    {
+     "osm": "way/137303487",
+     "nom": "La Mousse du Hérisson",
+     "etiquettes": {
+      "site": "https://www.facebook.com/lamousseduherisson/"
+     }
+    }
+   ],
+   "ambigue": false
+  }
+ ]
+}

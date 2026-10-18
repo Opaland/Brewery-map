@@ -2724,3 +2724,16 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - **Garde** : `tests/unit/textes-precision.test.ts` lit `src/`, `index.html` et `docs/DONNEES.md`. Il a vu les 13 occurrences avant le correctif, plus une que la réécriture avait elle-même introduite.
 - `outils/geocodeur.ts` : la requête au géocodeur, avec ses reprises, est partagée par `departement.ts` et `precision.ts` (§4).
 
+## S60 — Étiquettes OSM des fiches vérifiées *(18/10)*
+
+`docs/stories/S60.md`. Toujours sans recherche web : OpenStreetMap se lit par le miroir Overpass.
+
+| Fiches | Rapprochées | Ambiguës | Sans élément | Téléphones | dont mobiles (non recopiés) | Sites | Horaires |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 166 | 45 | 10 | 111 | 26 | 15 | 32 | 17 |
+
+- `outils/osm-etiquettes.ts` écrit `curation/s60-etiquettes-osm.{json,md}` : des pistes pour S61 à S63, pas des propositions.
+- La règle « même brasserie » de la couche OSM est extraite (`designeLaFiche`) et partagée ; la requête Overpass aussi (`outils/overpass.ts`).
+- Quatre défauts, chacun mis en test rouge avant correction : un élément partagé par deux fiches et un mobile caché dans une valeur à deux numéros (vus sur le vrai fichier) ; des formes de mobile non masquées et un repli de site perdu (revue adverse).
+- À trancher en S61 : Brasserie des Roches (élément OSM à Seyssuel) et Les Deux Branches (élément sans ville).
+
