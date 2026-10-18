@@ -6,6 +6,8 @@
  * - une proposition est acceptée si chaque source (hors lien OpenStreetMap
  *   et requête du géocodeur) est sur le site officiel de la fiche, si l'une au
  *   moins y est, et si sa confiance n'est pas « faible » ;
+ * - le centre IGN de la commune (S268) est accepté quand ses seules sources
+ *   sont la requête de commune au géocodeur (et le lien OSM d'origine) ;
  * - un téléphone mobile n'est jamais accepté : la règle dit « téléphones
  *   fixes », et un mobile peut être le numéro d'une personne (revue S266 :
  *   14 propositions en écrivaient un) ;
@@ -16,7 +18,7 @@
  * - les fiches nouvelles des lots départementaux sont toutes acceptées ;
  *   celles d'autres lots ne sont pas dans la règle.
  */
-import { PLATEFORMES, type Lot } from './curation'
+import { estUneRequeteDeCommune, PLATEFORMES, type Lot } from './curation'
 import { estUnMobile } from './osm-etiquettes'
 import type { Brasserie } from './schema'
 
@@ -70,7 +72,7 @@ export function trierParRegle(
   for (const { lot } of lots) for (const p of lot.propositions) ajouter(p.n, p.changements.contact?.site)
 
   const aMontrer: AMontrer[] = []
-  const candidates: { lot: string; ordre: number; numero: number; n: string; verifieLe: string; champs: string[] }[] = []
+  const candidates: { lot: string; ordre: number; numero: number; n: string; verifieLe: string; champs: string[]; centre: boolean }[] = []
   const acceptees: Record<string, number[]> = {}
   const accepter = (lot: string, numero: number) => (acceptees[lot] = [...(acceptees[lot] ?? []), numero])
 
@@ -81,13 +83,27 @@ export function trierParRegle(
       if (p.changements.conf === 'faible') return montrer('confiance « faible »')
       const tel = p.changements.contact?.tel
       if (tel !== undefined && estUnMobile(tel)) return montrer('téléphone mobile : peut être le numéro d’une personne')
+      // Le centre IGN de la commune (S268) : la réponse de Cédric du 18/10
+      // (« Centre de commune IGN ») vaut pour toute fiche sans adresse
+      // vérifiée ; la source est la requête de commune, pas le site.
+      // La position seule : une catégorie ou une note dans la même
+      // proposition n'a pas de preuve (revue adverse S268).
+      const centreIgn =
+        p.changements.coordPrecision === 'centre' &&
+        champs(p.changements).join() === 'position' &&
+        p.sources.some(estUneRequeteDeCommune) &&
+        p.sources.every((u) => estUneRequeteDeCommune(u) || hote(u) === 'openstreetmap.org')
+      if (centreIgn) {
+        candidates.push({ lot: nom, ordre, numero, n: p.n, verifieLe: p.verifieLe, champs: champs(p.changements), centre: true })
+        return
+      }
       const siens = officiels.get(p.n)
       if (siens === undefined) return montrer('aucun site officiel connu pour la fiche')
       const etrangere = p.sources.map(hote).find((h) => h === null || (!NEUTRES.has(h) && !siens.has(h)))
       if (etrangere !== undefined) return montrer(`source hors du site officiel : ${etrangere ?? 'lien illisible'}`)
       // Des sources toutes neutres (géocodeur, OSM) ne viennent pas du site officiel (revue adverse S265).
       if (!p.sources.some((u) => siens.has(hote(u) ?? ''))) return montrer('aucune source sur le site officiel')
-      candidates.push({ lot: nom, ordre, numero, n: p.n, verifieLe: p.verifieLe, champs: champs(p.changements) })
+      candidates.push({ lot: nom, ordre, numero, n: p.n, verifieLe: p.verifieLe, champs: champs(p.changements), centre: false })
     })
     ;(lot.ajouts ?? []).forEach((a, i) => {
       const numero = lot.propositions.length + i + 1
@@ -96,18 +112,23 @@ export function trierParRegle(
     })
   })
 
-  // La plus récente d'abord ; à date égale, le lot venu le plus tard.
-  const parRecence = [...candidates].sort((a, b) => (a.verifieLe === b.verifieLe ? b.ordre - a.ordre : a.verifieLe < b.verifieLe ? 1 : -1))
-  const pris = new Map<string, Map<string, { lot: string; numero: number }>>()
+  // Un centre IGN passe après tout le reste : une adresse vérifiée, même plus
+  // ancienne, est plus précise (revue adverse S268). Puis la plus récente
+  // d'abord ; à date égale, le lot venu le plus tard.
+  const parRecence = [...candidates].sort((a, b) =>
+    a.centre !== b.centre ? Number(a.centre) - Number(b.centre) : a.verifieLe === b.verifieLe ? b.ordre - a.ordre : a.verifieLe < b.verifieLe ? 1 : -1,
+  )
+  const pris = new Map<string, Map<string, { lot: string; numero: number; centre: boolean }>>()
   for (const c of parRecence) {
-    const deLaFiche = pris.get(c.n) ?? new Map<string, { lot: string; numero: number }>()
+    const deLaFiche = pris.get(c.n) ?? new Map<string, { lot: string; numero: number; centre: boolean }>()
     const conflits = c.champs.filter((k) => deLaFiche.has(k))
     const premier = conflits[0] === undefined ? undefined : deLaFiche.get(conflits[0])
     if (premier !== undefined) {
-      aMontrer.push({ lot: c.lot, numero: c.numero, n: c.n, raison: `concurrente de ${premier.lot} n° ${String(premier.numero)} (${conflits.join(', ')}), plus récente` })
+      const pourquoi = c.centre && !premier.centre ? 'plus précise' : 'plus récente'
+      aMontrer.push({ lot: c.lot, numero: c.numero, n: c.n, raison: `concurrente de ${premier.lot} n° ${String(premier.numero)} (${conflits.join(', ')}), ${pourquoi}` })
       continue
     }
-    for (const k of c.champs) deLaFiche.set(k, { lot: c.lot, numero: c.numero })
+    for (const k of c.champs) deLaFiche.set(k, { lot: c.lot, numero: c.numero, centre: c.centre })
     pris.set(c.n, deLaFiche)
     accepter(c.lot, c.numero)
   }

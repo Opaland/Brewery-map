@@ -62,6 +62,46 @@ describe('trierParRegle (S265, règle de Cédric du 18/10)', () => {
     ])
   })
 
+  it('accepte le centre IGN de la commune venu du géocodeur seul (Cédric, 18/10 : « Centre de commune IGN »), pas une adresse (S268)', () => {
+    const mairie = 'https://data.geopf.fr/geocodage/search?q=Maizilly&type=municipality&limit=5'
+    const position = (coordPrecision: string) => ({ lat: 46.1, lon: 4.2, coordPrecision })
+    const r = trierParRegle([
+      lot('centres', [
+        prop('Brasserie X', position('centre'), [mairie, 'https://www.openstreetmap.org/node/1']),
+        prop('Brasserie Y', position('centre'), [mairie, 'https://annuaire.fr/y']),
+        prop('Brasserie Z', position('address'), ['https://data.geopf.fr/geocodage/search?q=1+rue+Exemple&limit=1']),
+        prop('Brasserie W', position('centre'), ['https://data.geopf.fr/geocodage/search?q=1+rue+Exemple&limit=1']),
+      ]),
+    ])
+    expect(r.acceptees).toEqual({ centres: [1] })
+    expect(r.aMontrer.map((m) => [m.numero, m.raison])).toEqual([
+      [2, 'aucun site officiel connu pour la fiche'],
+      [3, 'aucun site officiel connu pour la fiche'],
+      [4, 'aucun site officiel connu pour la fiche'],
+    ])
+  })
+
+  it('un centre IGN n’emporte que la position : une catégorie ou une note dans la même proposition la fait montrer (revue adverse S268)', () => {
+    const mairie = 'https://data.geopf.fr/geocodage/search?q=Brignais&type=municipality&limit=5'
+    const r = trierParRegle([lot('c', [prop('Ninkasi Brignais', { lat: 45.67, lon: 4.75, coordPrecision: 'centre', cat: 3, note: 'x' }, [mairie])])])
+    expect(r.acceptees).toEqual({})
+    expect(r.aMontrer.map((m) => m.raison)).toEqual(['aucun site officiel connu pour la fiche'])
+  })
+
+  it('une adresse vérifiée l’emporte sur un centre IGN, même plus ancienne (revue adverse S268)', () => {
+    const mairie = 'https://data.geopf.fr/geocodage/search?q=Brignais&type=municipality&limit=5'
+    const adresse = 'https://data.geopf.fr/geocodage/search?q=1+rue+Exemple&limit=1'
+    const r = trierParRegle(
+      [
+        lot('adresses', [prop('Brasserie X', { lat: 45.6, lon: 4.7, coordPrecision: 'address' }, ['https://x.fr/', adresse], J1)]),
+        lot('centres', [prop('Brasserie X', { lat: 45.67, lon: 4.75, coordPrecision: 'centre' }, [mairie], J2)]),
+      ],
+      [{ n: 'Brasserie X', contact: { site: 'https://x.fr/', source: 'https://x.fr/', verifieLe: J1 } }],
+    )
+    expect(r.acceptees).toEqual({ adresses: [1] })
+    expect(r.aMontrer).toEqual([{ lot: 'centres', numero: 1, n: 'Brasserie X', raison: 'concurrente de adresses n° 1 (position), plus précise' }])
+  })
+
   it('garde la plus récente de deux propositions qui changent un même champ, et dit laquelle est écartée (Brasserie Stéphanoise)', () => {
     const r = trierParRegle([
       lot('s11', [prop('Brasserie Stéphanoise', { contact: contact('https://www.labrasseriestephanoise.com/', J1, '09 81 94 27 79') }, ['https://www.labrasseriestephanoise.com/'], J1)]),

@@ -47,7 +47,9 @@ import {
   contactSurLaPage,
   horairesSurLaPage,
   revuesDesFichiers,
+  estUneRequeteDeCommune,
 } from '../src/core/curation'
+import { centreConfirme } from '../src/core/candidats'
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
 
@@ -114,6 +116,21 @@ async function controler(chemin: string | undefined) {
         console.log(`${String(i + 1)}. ${p.n} — ${url} : injoignable (${String(e)})`)
         echecs++
       }
+    }
+    // S268 : le centre IGN se relit au géocodeur, pour la commune de la fiche.
+    if (p.changements.coordPrecision === 'centre') {
+      const fiche = donnees().find((b) => b.n === p.n)
+      const requete = p.sources.find(estUneRequeteDeCommune)
+      let ok = false
+      if (fiche !== undefined && requete !== undefined && p.changements.lat !== undefined && p.changements.lon !== undefined) {
+        try {
+          ok = centreConfirme(JSON.parse(pages.get(requete) ?? 'null'), fiche, { lat: p.changements.lat, lon: p.changements.lon })
+        } catch {
+          ok = false
+        }
+      }
+      console.log(`${String(i + 1)}. ${p.n} — centre IGN de ${fiche?.c ?? '?'} : ${ok ? 'confirmé' : 'ABSENT'}`)
+      if (!ok) echecs++
     }
     const tel = p.changements.contact?.tel
     if (tel !== undefined) {

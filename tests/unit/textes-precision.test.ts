@@ -11,7 +11,12 @@ import { describe, expect, it } from 'vitest'
  * replie vraiment sur ce centre.
  */
 // `\s` couvre l'espace insécable.
-const PROMESSES = [/environ\s+2\s*km/i, /centre\s+de\s+(la|leur|sa)\s+commune/i, /≈\s*2\s*km/]
+// S268 : « au centre de la commune selon l'IGN » est vrai pour la précision
+// `centre` ; la formule reste interdite sans « selon l'IGN ».
+// La forme sans article (« ni un centre de commune ») n'est pas visée : elle
+// sert aux négations et à citer Cédric (revue adverse S268). Le libellé de
+// `commune` est gardé à part (`fiche.test.ts`).
+const PROMESSES = [/environ\s+2\s*km/i, /centre\s+de\s+(la|leur|sa)\s+commune(?!\s+selon\s+l.IGN)/i, /≈\s*2\s*km/]
 
 function fichiers(dossier: string): string[] {
   return readdirSync(dossier).flatMap((nom) => {

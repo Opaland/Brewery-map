@@ -76,13 +76,15 @@ const style = (): StyleSpecification => ({
 })
 
 /**
- * Zoom maximal : 14. Toutes les positions sont approximatives (jusqu'à 14 km
- * d'écart au centre communal, docs/PRECISION.md) ; zoomer plus près ferait croire à une adresse exacte.
+ * Zoom maximal : 14. Sauf 14 fiches à l'adresse vérifiée, les positions ne
+ * sont pas des adresses (centre IGN de la commune depuis S268, ou point
+ * d'origine du fichier) ; zoomer plus près ferait croire à une adresse exacte.
  *
  * Le regroupement reste actif jusqu'à ce zoom (`clusterMaxZoom`), si bien que
- * deux brasseries aux mêmes coordonnées (Le Brass'in et Single Track, BACKLOG
- * D7) ne se superposent jamais : elles restent un groupe « 2 ». Décision de
- * Cédric du 15/10 : marqueurs groupés.
+ * des brasseries aux mêmes coordonnées ne se superposent jamais : elles
+ * restent un groupe. Depuis S268, toutes les fiches au centre IGN d'une même
+ * commune partagent un point (mesuré le 18/10 : 21 points pour 50 fiches,
+ * jusqu'à 7 à Grenoble). Décision de Cédric du 15/10 : marqueurs groupés.
  */
 const ZOOM_MAX = 14
 
@@ -287,7 +289,8 @@ export default function Carte({
               // Fabrique et Tom & Co sont à 136 m (vus séparés au zoom
               // maximal, par une sonde). « Plus de 640 m », écrit le 15/10,
               // était faux. La première est choisie ; les autres, à la même
-              // distance, la suivent dans la liste.
+              // distance, la suivent dans la liste (tri stable sur la distance
+              // non arrondie : `tests/unit/recherche.test.ts`, S268).
               void source.getClusterLeaves(idGroupe, 1, 0).then((feuilles) => {
                 const nom: unknown = feuilles[0]?.properties?.['nom']
                 if (typeof nom === 'string') surChoix.current(nom, true)
