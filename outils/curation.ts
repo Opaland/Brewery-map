@@ -190,18 +190,20 @@ async function controler(chemin: string | undefined) {
 function controlerEnSilence(chemin: string): string {
   const dossier = mkdtempSync(join(tmpdir(), 'controler-'))
   const fichier = join(dossier, 'sortie.txt')
-  const fd = openSync(fichier, 'w')
   try {
-    execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { stdio: ['ignore', fd, fd] })
-  } catch {
-    // Un écart sort en code non nul, et son verdict sur la sortie d'erreur :
-    // les deux vont dans le même fichier.
+    const fd = openSync(fichier, 'w')
+    try {
+      execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { stdio: ['ignore', fd, fd] })
+    } catch {
+      // Un écart sort en code non nul, et son verdict sur la sortie d'erreur :
+      // les deux vont dans le même fichier.
+    } finally {
+      closeSync(fd)
+    }
+    return readFileSync(fichier, 'utf8')
   } finally {
-    closeSync(fd)
+    rmSync(dossier, { recursive: true, force: true })
   }
-  const sortie = readFileSync(fichier, 'utf8')
-  rmSync(dossier, { recursive: true, force: true })
-  return sortie
 }
 
 /**

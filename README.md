@@ -28,9 +28,10 @@ consultable hors connexion.
 - **Signaler une erreur**, par une issue GitHub préremplie.
 
 Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
-Aujourd'hui, aucune fiche n'a encore de téléphone, d'horaires vérifiés ni de
-bières référencées : les propositions attendent la relecture
-(`curation/`).
+Depuis le 18/10, 44 des 166 fiches vérifiées ont été complétées d'après
+leur propre site (19 téléphones, 10 horaires, 17 listes de bières, 14
+positions à l'adresse), par la règle de Cédric (`docs/DECISIONS.md`) ; les
+autres propositions attendent sa relecture (`curation/`).
 
 ## Ce qui reste dans le téléphone
 

@@ -3,8 +3,8 @@
  * les fiches vérifiées. Écrit à la main, sprint après sprint ; rien n'y est
  * inventé : chaque ligne renvoie à un sprint de `docs/SPRINTS.md`.
  *
- * Les fiches : `data/breweries.json` n'a pas changé depuis qu'il a été
- * fourni. L'empreinte ci-dessous est vérifiée par un test
+ * Les fiches : `data/breweries.json` change par les accords de Cédric
+ * (`curation/accords/`, S266). L'empreinte ci-dessous est vérifiée par un test
  * (`tests/unit/nouveautes.test.ts`) : changer une fiche sans mettre à jour
  * cette phrase fait échouer la porte (CLAUDE.md §4ter).
  */
