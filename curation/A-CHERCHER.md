@@ -14,35 +14,35 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 358 | 8 (2 %) | 57 | 189 | 234 | 240 | 311 | 310 | 264 |
+| **Total** | 358 | 9 (3 %) | 57 | 185 | 225 | 240 | 303 | 308 | 260 |
 | 01 · Ain | 16 | 0 (0 %) | 7 | 10 | 12 | 16 | 13 | 15 | 14 |
 | 07 · Ardèche | 10 | 0 (0 %) | 4 | 7 | 8 | 10 | 8 | 10 | 9 |
-| 14 · Calvados | 10 | 0 (0 %) | 0 | 5 | 10 | 4 | 10 | 10 | 7 |
+| 14 · Calvados | 10 | 0 (0 %) | 0 | 5 | 8 | 4 | 8 | 10 | 5 |
 | 22 · Côtes-d'Armor | 22 | 1 (5 %) | 0 | 13 | 7 | 16 | 18 | 17 | 13 |
 | 26 · Drôme | 9 | 0 (0 %) | 5 | 5 | 9 | 9 | 9 | 9 | 9 |
-| 27 · Eure | 4 | 0 (0 %) | 0 | 2 | 4 | 1 | 4 | 4 | 2 |
+| 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 3 | 1 | 3 | 3 | 1 |
 | 29 · Finistère | 19 | 0 (0 %) | 0 | 9 | 7 | 8 | 16 | 15 | 11 |
 | 35 · Ille-et-Vilaine | 17 | 1 (6 %) | 0 | 10 | 6 | 8 | 15 | 12 | 8 |
 | 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 2 | 0 | 3 | 4 | 1 |
 | 38 · Isère | 33 | 1 (3 %) | 9 | 25 | 24 | 31 | 29 | 31 | 27 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 10 | 13 | 18 | 18 | 19 | 16 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 7 | 7 | 7 | 7 | 7 |
-| 44 · Loire-Atlantique | 32 | 1 (3 %) | 0 | 12 | 15 | 9 | 26 | 23 | 15 |
-| 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 8 | 7 | 5 |
-| 50 · Manche | 9 | 0 (0 %) | 0 | 6 | 9 | 4 | 9 | 9 | 6 |
+| 44 · Loire-Atlantique | 32 | 1 (3 %) | 0 | 12 | 15 | 9 | 24 | 23 | 15 |
+| 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
+| 50 · Manche | 9 | 0 (0 %) | 0 | 5 | 8 | 4 | 9 | 9 | 6 |
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 3 |
-| 56 · Morbihan | 23 | 0 (0 %) | 0 | 14 | 16 | 11 | 23 | 20 | 15 |
-| 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 3 | 2 | 3 | 3 | 3 |
+| 56 · Morbihan | 23 | 0 (0 %) | 0 | 14 | 16 | 11 | 22 | 20 | 15 |
+| 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 69 · Rhône | 47 | 0 (0 %) | 14 | 21 | 38 | 38 | 43 | 42 | 46 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 5 | 6 | 7 | 8 | 8 | 8 | 8 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 4 |
 | 73 · Savoie | 15 | 0 (0 %) | 5 | 10 | 10 | 15 | 12 | 15 | 13 |
-| 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 6 | 10 | 6 | 10 | 10 | 10 |
-| 85 · Vendée | 17 | 2 (12 %) | 0 | 3 | 9 | 5 | 9 | 14 | 12 |
+| 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 7 | 6 | 10 | 10 | 10 |
+| 85 · Vendée | 17 | 2 (12 %) | 0 | 2 | 8 | 5 | 9 | 13 | 11 |
 
 ## Les « À confirmer » à chercher
 
-189 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+185 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -69,11 +69,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 14 · Calvados
 
-- Brasserie des 9 Mondes (Ranville) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Paillette (Saint-Arnoult) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Dam Bière (Dives-sur-Mer) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- La JJAP – Les 2 Terres (Caen) : sans site, sans téléphone, sans horaires, sans bières
 - Mobsby's (Vire Normandie) : sans site, sans téléphone, sans horaires
+- Brasserie des 9 Mondes (Ranville) : sans adresse vérifiée, sans horaires
+- La JJAP – Les 2 Terres (Caen) : sans horaires
 
 ### 22 · Côtes-d'Armor
 
@@ -101,7 +101,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 27 · Eure
 
-- Brasserie de Sutter (Gisors) : sans site, sans téléphone, sans horaires, sans bières
 - Les Deux Amants (Val-de-Reuil) : sans site, sans téléphone, sans horaires
 
 ### 29 · Finistère
@@ -192,22 +191,21 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Tête Haute (Le Cellier) : sans adresse vérifiée, sans horaires, sans bières
 - Brasserie La Déviation (Riaillé) : sans téléphone, sans horaires
 - Brasserie La Hulotte (Sautron) : sans téléphone, sans horaires, sans bières
-- Brasserie Nautile (Rezé) : sans téléphone, sans horaires, sans bières
-- Brasserie Plormel (Vieillevigne) : sans téléphone, sans horaires
 - Brasserie Vestibule (Mesquer) : sans téléphone, sans horaires
+- Brasserie Nautile (Rezé) : sans horaires, sans bières
+- Brasserie Plormel (Vieillevigne) : sans horaires
 - Brasserie San Roce (Jans) : sans horaires
 
 ### 49 · Maine-et-Loire
 
 - Nuage Craft Beer (Brissac Loire Aubance) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Penrose (Angers) : sans adresse vérifiée, sans téléphone, sans horaires
-- La Rombière (Beaupréau-en-Mauges) : sans adresse vérifiée, sans téléphone, sans horaires
+- La Rombière (Beaupréau-en-Mauges) : sans adresse vérifiée, sans horaires
 
 ### 50 · Manche
 
 - Brasserie Bifrost (Saint-Lô) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Cotentine (Barneville-Carteret) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Léopard (Avranches) : sans site, sans téléphone, sans horaires
 - Brasserie Pinte de Saire (Saint-Vaast-la-Hougue) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Fée d'Orge (Bréhal) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Moussette (Hauteville-sur-Mer) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -233,12 +231,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - L'âne Brasseur (Saint-Aignan) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Microbrasserie VOL 56 (Sarzeau) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie de l'Estran (Grand Coeff) (Étel) : sans téléphone, sans horaires
-- Microbrasserie Barque (Malestroit) : sans téléphone, sans horaires, sans bières
+- Microbrasserie Barque (Malestroit) : sans horaires, sans bières
 
 ### 61 · Orne
 
-- Brasserie du Perche (L'Home-Chamondot) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Château de la Bière (Lonlay-l'Abbaye) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie du Perche (L'Home-Chamondot) : sans adresse vérifiée, sans horaires, sans bières
 
 ### 69 · Rhône
 
@@ -292,16 +290,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 76 · Seine-Maritime
 
-- Brasserie Bakbuk (Les Authieux-sur-le-Port-Saint-Ouen) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Dieppoise (Martin-Église) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Ragnar (Oissel-sur-Seine) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Saint Joseph (Le Havre) : sans site, sans téléphone, sans horaires, sans bières
-- Brasserie Sainte Beuve (Le Caule-Sainte-Beuve) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Yata (Lillebonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Ragnar (Oissel-sur-Seine) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Bakbuk (Les Authieux-sur-le-Port-Saint-Ouen) : sans téléphone, sans horaires, sans bières
 
 ### 85 · Vendée
 
-- Brasserie du Marsouin (Brétignolles-sur-Mer) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Plume (Châteauneuf) : sans site, sans téléphone, sans horaires, sans bières
 - Opé Brewery (Les Sables-d'Olonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 

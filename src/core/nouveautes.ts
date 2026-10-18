@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'a90bf7660edf8f50',
+  empreinte: '7a74fc5da1c7b351',
   phrase:
-    'Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
+    'Fiches vérifiées : 59 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-18', texte: 'Sites, téléphones, horaires et bières ajoutés à 15 brasseries de plus, relus sur leur propre site.' },
   { date: '2026-10-18', texte: 'Les Pays de la Loire et l’Indre-et-Loire sur la carte : 75 brasseries.' },
   { date: '2026-10-18', texte: 'La Bretagne sur la carte : 81 brasseries des Côtes-d’Armor, du Finistère, d’Ille-et-Vilaine et du Morbihan.' },
   { date: '2026-10-18', texte: 'La Normandie sur la carte : 36 brasseries du Calvados, de l’Eure, de la Manche, de l’Orne et de Seine-Maritime.' },

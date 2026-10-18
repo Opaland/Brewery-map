@@ -440,6 +440,18 @@ describe('les fiches déjà revues, lues dans curation/ (revue code S13)', () =>
     expect(r.ok && [...r.revues]).toEqual([NOM])
   })
 
+  it('ignore les JSON qui ne sont pas des lots : listes de candidats, étiquettes OSM (vu en S295 : `lot` s’arrêtait)', () => {
+    const r = revuesDesFichiers(
+      [
+        { nom: 'dep-14-candidats.json', contenu: [{ nom: 'X' }] },
+        { nom: 's60-etiquettes-osm.json', contenu: { source: 'osm', rapprochees: [] } },
+        { nom: 'a.json', contenu: lotJson },
+      ],
+      noms,
+    )
+    expect(r.ok && [...r.revues].sort()).toEqual([NOM, TOUTES[0].n].sort())
+  })
+
   it('échoue en nommant le fichier : contenu mal formé, ou nom absent des données', () => {
     const cas: unknown[] = [
       { 'revues.json': { s12: 'oops' } },

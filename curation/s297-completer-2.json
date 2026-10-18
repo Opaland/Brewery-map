@@ -1,0 +1,158 @@
+{
+ "lot": "s297-completer-2",
+ "propositions": [
+  {
+   "n": "Microbrasserie Barque",
+   "changements": {
+    "contact": {
+     "site": "https://microbrasseriebarque.bzh/",
+     "tel": "02 56 21 99 74",
+     "source": "https://microbrasseriebarque.bzh/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://microbrasseriebarque.bzh/"
+   ],
+   "extrait": "02 56 21 99 74 - 06 41 43 42 89",
+   "choix": "La section Contact publie deux numéros : le fixe est retenu, le mobile écarté."
+  },
+  {
+   "n": "La JJAP – Les 2 Terres",
+   "changements": {
+    "contact": {
+     "tel": "02 36 80 11 01",
+     "site": "https://www.les2terres.fr/",
+     "source": "https://www.les2terres.fr/",
+     "verifieLe": "2026-10-18"
+    },
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.les2terres.fr/"
+   ],
+   "extrait": "02 36 80 11 01 ; bières blondes, brunes, IPA, blanches, ambrée, aromatisées fruits rouges…",
+   "choix": "Un seul numéro, fixe, répété sur le site officiel ; il est dans le bloc d'adresse de Saint-Romain-de-Colbosc, pas celui de Caen : à juger. La bière aromatisée aux fruits rouges n'a pas de type : écartée. Catégorie laissée à 0 : ni vente ni dégustation dites à Caen."
+  },
+  {
+   "n": "Brasserie Paillette",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://bierepaillette.fr/"
+   ],
+   "extrait": "Blonde et légère ou IPA pleine de caractère, elles subliment chaque moment",
+   "choix": "Le numéro du pied de page (03 44, Oise) n'est pas établi comme celui de la brasserie : non retenu. NEIPA écarté (noms de fichiers d'images seulement). Catégorie laissée à 0."
+  },
+  {
+   "n": "Brasserie des 9 Mondes",
+   "changements": {
+    "contact": {
+     "tel": "09 82 53 39 02",
+     "site": "https://www.brasseriedes9mondes.com",
+     "source": "https://www.brasseriedes9mondes.com",
+     "verifieLe": "2026-10-18"
+    },
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rouge"
+     },
+     {
+      "type": "ambree"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasseriedes9mondes.com"
+   ],
+   "extrait": "ZAC des Capucines 14860 Ranville brasseriedes9mondes@gmail.com 06.30.58.02.95 09.82.53.39.02 ; « une large gamme de bières artisanales : blonde, brune, rouge et ambrée » ; « Nous organisons aussi des visites guidées de notre brasserie avec dégustation »",
+   "choix": "Deux numéros : le 06 (mobile) écarté, le 09 retenu. Catégorie laissée à 0 : visites guidées avec dégustation et ateliers, sans vente ni horaire dits. « Rouge » en autre, comme « Rousse » ailleurs."
+  },
+  {
+   "n": "Brasserie Léopard",
+   "changements": {
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de la brasserie : les bières s'achètent sur place ; la consommation sur place est annoncée « dès le 1er juillet », sans année lue, donc non retenue.",
+    "contact": {
+     "site": "https://brasserie-leopard.fr",
+     "source": "https://brasserie-leopard.fr",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://brasserie-leopard.fr"
+   ],
+   "extrait": "Les bières peuvent être achetées sur place à la boutique ou livrées directement chez vous.",
+   "choix": "Seul numéro, un mobile : écarté. Horaires lus sans dire s'ils sont ceux de la boutique ou d'un accueil : non proposés. Consommation sur place annoncée sans année : écartée, d'où la catégorie 2."
+  }
+ ],
+ "revues": [
+  "Château de la Bière",
+  "Brasserie Plume",
+  "Brasserie San Roce",
+  "Brasserie Yata",
+  "Brasserie Paillette",
+  "Brasserie l'Embardée",
+  "Dam Bière",
+  "Brasserie Dieppoise",
+  "La JJAP – Les 2 Terres",
+  "Brasserie Saint Joseph",
+  "Brasserie des 9 Mondes",
+  "Brasserie Fusion",
+  "Mobsby's",
+  "Microbrasserie Brewen",
+  "Brasserie Beltane",
+  "Brasserie Smash",
+  "Brasserie de la Bizhhh",
+  "La brasserie des Marais",
+  "Brasserie Minimum",
+  "Brasserie Léopard",
+  "Brasserie Bifrost",
+  "Brasserie Vestibule",
+  "Brasserie La Bambelle",
+  "La Turbulente",
+  "Le Brasseur Bavarois",
+  "Brasserie Nautica",
+  "Brasserie Plouc",
+  "Tiens bon la Barre",
+  "Microbrasserie Barque",
+  "Fée d'Orge"
+ ]
+}

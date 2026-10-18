@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (393)
+## Déjà dans data/ par un accord (408)
 
 | Lot | Numéros |
 |---|---|
@@ -35,8 +35,10 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | dep-72 | 1, 2, 3, 4, 5, 6, 7 |
 | dep-85 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 |
 | dep-37 | 1, 2, 3, 4 |
+| s297-completer-1 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| s297-completer-2 | 1, 2, 4, 5 |
 
-## À montrer à Cédric (248)
+## À montrer à Cédric (249)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -194,6 +196,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s17-lot-4 | 10 | La Barbue | téléphone mobile : peut être le numéro d’une personne |
 | s17-lot-4 | 11 | Brasserie Quardin | concurrente de s134-sites-bieres n° 21 (beers, contact), plus récente |
 | s17-lot-4 | 12 | Brasserie Two Dudes | téléphone mobile : peut être le numéro d’une personne |
+| s297-completer-2 | 3 | Brasserie Paillette | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 1 | La Canute Lyonnaise | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 2 | DWYN Brewing | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 3 | Coldie Brewery | aucun site officiel connu pour la fiche |
