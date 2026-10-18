@@ -11,23 +11,27 @@ import type { ServiceSonde } from '../src/core/sonde'
  * (`tests/unit/sonde.test.ts`).
  */
 export const SERVICES: readonly ServiceSonde[] = [
+  // La page seule, pas ses fichiers : leur intégrité est sondée après chaque
+  // déploiement (`page-deployee.spec.ts`) ; ici, que GitHub Pages la sert.
   { nom: 'Page publiée', url: 'https://opaland.github.io/Brewery-map/', attendu: 'Mousse de Poche' },
   { nom: 'Tuiles de la carte (OpenStreetMap)', url: 'https://tile.openstreetmap.org/0/0/0.png', attendu: 'PNG' },
   {
     nom: 'Géocodeur IGN (positions, centres de commune)',
     url: 'https://data.geopf.fr/geocodage/search?q=Brignais&type=municipality&limit=1',
-    attendu: 'Brignais',
+    // Pas « Brignais » : une réponse vide recopie la requête (revue adverse).
+    attendu: '"citycode":"69027"',
   },
   {
     nom: 'Overpass, miroir français (couche OpenStreetMap)',
     url: 'https://overpass.openstreetmap.fr/api/interpreter?data=%5Bout%3Ajson%5D%3Bnode(1)%3Bout%3B',
-    attendu: '"elements"',
+    // Le nœud 1 lui-même, pas la clé « elements », présente même vide.
+    attendu: '"lat"',
   },
   { nom: 'Nominatim (communes des points OSM)', url: 'https://nominatim.openstreetmap.org/status?format=json', attendu: '"OK"' },
   {
     nom: 'Recherche d’entreprises (SIRENE, lots départementaux)',
     url: 'https://recherche-entreprises.api.gouv.fr/search?q=brasserie&per_page=1',
-    attendu: '"results"',
+    attendu: '"siren":"',
   },
   {
     nom: 'Wikidata (points des communes)',

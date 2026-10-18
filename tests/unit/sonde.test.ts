@@ -43,7 +43,22 @@ describe('bilanDesSondes', () => {
 describe('SERVICES', () => {
   it('chaque hôte de la politique de sécurité de la page est sondé', () => {
     const sondes = new Set(SERVICES.map((s) => new URL(s.url).hostname))
+    // Non vide, sinon la garde passerait à vide (revue adverse S277).
+    expect(hotesTiers(POLITIQUE).length).toBeGreaterThan(0)
     expect(hotesTiers(POLITIQUE).filter((h) => !sondes.has(h))).toEqual([])
+  })
+
+  // Réponses vides réelles, relevées le 18/10 (revue adverse S277) : un
+  // service qui ne trouve plus rien répond 200 et recopie la requête ; il
+  // doit être jugé en panne, pas bon.
+  it.each([
+    ['data.geopf.fr', '{"type":"FeatureCollection","features":[],"query":"Brignais"}'],
+    ['recherche-entreprises.api.gouv.fr', '{"results":[],"total_results":0,"page":1,"per_page":1,"total_pages":0}'],
+    ['overpass.openstreetmap.fr', '{ "version": 0.6, "generator": "Overpass API", "elements": [ ] }'],
+  ])('%s : une réponse vide est une panne', (hote, vide) => {
+    const service = SERVICES.find((s) => new URL(s.url).hostname === hote)
+    expect(service).toBeDefined()
+    if (service) expect(jugerReponse(service, { statut: 200, debut: vide }).ok).toBe(false)
   })
   it('chaque URL est en https et sans coordonnées de personne (§0)', () => {
     for (const s of SERVICES) {
