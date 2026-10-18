@@ -62,4 +62,24 @@ describe('trierParRegle (S265, règle de Cédric du 18/10)', () => {
     expect(r.acceptees).toEqual({ 'dep-29': [1, 2] })
     expect(r.aMontrer).toEqual([{ lot: 's14-decouverte', numero: 1, n: 'Nouvelle', raison: 'fiche nouvelle hors des lots départementaux : pas dans la règle' }])
   })
+
+  it('montre une proposition dont aucune source n’est sur le site officiel, même si toutes sont neutres (revue adverse S265)', () => {
+    const r = trierParRegle([
+      lot('a', [
+        prop('Brasserie X', { contact: contact('https://x.fr/', J1) }, ['https://x.fr/']),
+        prop('Brasserie X', { lat: 45, lon: 4, coordPrecision: 'address' }, ['https://data.geopf.fr/geocodage/search?q=1+rue']),
+      ]),
+    ])
+    expect(r.acceptees).toEqual({ a: [1] })
+    expect(r.aMontrer.map((m) => [m.numero, m.raison])).toEqual([[2, 'aucune source sur le site officiel']])
+  })
+
+  it('ne prend pas un office de tourisme ou un annuaire proposé comme site pour le site officiel (revue adverse S265)', () => {
+    const r = trierParRegle([
+      lot('a', [prop('Brasserie X', { contact: contact('https://www.roannais-tourisme.com/x', J1) }, ['https://www.roannais-tourisme.com/x'])]),
+    ])
+    expect(r.acceptees).toEqual({})
+    expect(r.aMontrer.map((m) => m.raison)).toEqual(['aucun site officiel connu pour la fiche'])
+  })
 })
+

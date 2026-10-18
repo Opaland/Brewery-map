@@ -207,6 +207,19 @@ function trier(): void {
     if (!Object.hasOwn(acceptees, l.nom)) continue
     const nums = acceptees[l.nom] ?? []
     const sortie = controlerEnSilence(l.chemin)
+    // Une sortie sans verdict (plantage, coupure) ou un échec global du lot
+    // ne laisse rien accepté : tout le lot est montré (revue adverse S265).
+    const sansVerdict = !/Contrôle sans écart\.|écart\(s\)/.test(sortie)
+    if (sansVerdict || sortie.includes('Tout accepter échouerait')) {
+      const raison = sansVerdict ? 'controler n’a pas rendu de verdict' : 'controler : tout accepter échouerait'
+      for (const k of nums) {
+        const p = l.lot.propositions.at(k - 1)
+        const a = (l.lot.ajouts ?? []).at(k - 1 - l.lot.propositions.length)
+        aMontrer.push({ lot: l.nom, numero: k, n: (k <= l.lot.propositions.length ? p?.n : a?.fiche.n) ?? '?', raison })
+      }
+      acceptees[l.nom] = []
+      continue
+    }
     const enEcart = new Set(
       sortie
         .split('\n')

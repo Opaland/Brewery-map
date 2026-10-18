@@ -4,10 +4,10 @@
  * `data/` par un accord de `curation/accords/`, que la garde S230 rejoue.
  *
  * - une proposition est acceptée si chaque source (hors lien OpenStreetMap
- *   et requête du géocodeur) est sur le site officiel de la fiche, et si sa
- *   confiance n'est pas « faible » ;
+ *   et requête du géocodeur) est sur le site officiel de la fiche, si l'une au
+ *   moins y est, et si sa confiance n'est pas « faible » ;
  * - le site officiel d'une fiche est un `contact.site` proposé pour elle dans
- *   un lot, ou déjà dans `data/`, hors plateformes ;
+ *   un lot, ou déjà dans `data/`, hors plateformes, offices et annuaires ;
  * - deux propositions acceptables qui changent un même champ d'une fiche : la
  *   plus récente l'emporte, l'autre est montrée avec sa raison ;
  * - les fiches nouvelles des lots départementaux sont toutes acceptées ;
@@ -28,6 +28,14 @@ export interface AMontrer {
   raison: string
 }
 
+/**
+ * Ce qui ne peut pas être le site d'une brasserie, même proposé comme tel :
+ * offices de tourisme, annuaires, guides et agrégateurs (DECISIONS #37 ; revue
+ * adverse S265). Le motif est volontairement étroit : les 59 sites proposés
+ * au 18/10 sont tous des sites de brasserie, et aucun ne le croise.
+ */
+const NON_OFFICIELS =
+  /touris|annuaire|pagesjaunes|petitfute|wanderlog|tripadvisor|privateaser|lefooding|sluurpy|xerfi|atlantic-loire-valley|guide-de-la-vendee|destination-mayenne|tourainevaldeloire/
 /** Ni une source ni une preuve contraire : le lien OSM d'origine et la requête du géocodeur de l'IGN. */
 const NEUTRES = new Set(['openstreetmap.org', 'data.geopf.fr'])
 
@@ -51,7 +59,7 @@ export function trierParRegle(
   const officiels = new Map<string, Set<string>>()
   const ajouter = (n: string, site: string | undefined) => {
     const h = site === undefined ? null : hote(site)
-    if (h === null || PLATEFORMES.has(h)) return
+    if (h === null || PLATEFORMES.has(h) || NON_OFFICIELS.test(h)) return
     officiels.set(n, (officiels.get(n) ?? new Set()).add(h))
   }
   for (const b of fichier) ajouter(b.n, b.contact?.site)
@@ -71,6 +79,8 @@ export function trierParRegle(
       if (siens === undefined) return montrer('aucun site officiel connu pour la fiche')
       const etrangere = p.sources.map(hote).find((h) => h === null || (!NEUTRES.has(h) && !siens.has(h)))
       if (etrangere !== undefined) return montrer(`source hors du site officiel : ${etrangere ?? 'lien illisible'}`)
+      // Des sources toutes neutres (géocodeur, OSM) ne viennent pas du site officiel (revue adverse S265).
+      if (!p.sources.some((u) => siens.has(hote(u) ?? ''))) return montrer('aucune source sur le site officiel')
       candidates.push({ lot: nom, ordre, numero, n: p.n, verifieLe: p.verifieLe, champs: champs(p.changements) })
     })
     ;(lot.ajouts ?? []).forEach((a, i) => {
