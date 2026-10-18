@@ -53,6 +53,12 @@ Lancer une fois l'agent `relecteur-de-promesses` (S284) sur les textes
 affichés, les commentaires et la doc : chaque « jamais », « aucun »,
 « seul », « parce que » est-il tenu par le code ?
 
+### Les règles jumelles
+
+Lancer une fois l'agent `chasseur-de-jumeaux` (S285) : chaque règle écrite
+à deux endroits dit-elle encore la même chose, et qu'est-ce qui les tient
+d'accord ?
+
 ### Personas contre le livré
 
 Relire `docs/PERSONAS.md` contre ce qui a été livré.

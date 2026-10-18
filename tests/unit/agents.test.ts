@@ -7,7 +7,7 @@ import { describe, expect, it } from 'vitest'
  * Seul `verificateur-de-tests` retire un correctif pour voir un test
  * échouer : c'est son métier, et il le remet.
  */
-const RELECTEURS = ['relecteur-adverse', 'relecteur-de-persona', 'relecteur-de-promesses']
+const RELECTEURS = ['chasseur-de-jumeaux', 'relecteur-adverse', 'relecteur-de-persona', 'relecteur-de-promesses']
 
 const outils = (nom: string) => {
   const texte = readFileSync(`.claude/agents/${nom}.md`, 'utf8')
