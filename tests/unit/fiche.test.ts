@@ -29,6 +29,10 @@ describe('libellePrecision', () => {
     expect(libellePrecision('centre')).toBe('au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie')
   })
 
+  it('le point d’origine (« commune ») ne se dit pas centre : il ne l’est pas (S59, S268)', () => {
+    expect(libellePrecision('commune')).not.toMatch(/centre/i)
+  })
+
   it('avoue l’approximation sans promettre un centre ni un écart chiffré (S59)', () => {
     // Mesuré le 18/10 : 75 fiches sur 151 à plus de 2 km du centre de leur
     // commune, jusqu'à 14,4 km (docs/PRECISION.md).

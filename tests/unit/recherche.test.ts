@@ -246,3 +246,21 @@ describe('pas encore visitées (S35)', () => {
     expect(sans.some((r) => r.brasserie.n === visitee)).toBe(false)
   })
 })
+
+describe('les fiches qui partagent un point (S268)', () => {
+  // Au zoom maximal, la carte choisit la première fiche d'un groupe qu'elle
+  // ne peut pas séparer, et dit que les autres la suivent dans la liste
+  // (`Carte.tsx`). Depuis S268, les fiches au centre IGN d'une même commune
+  // partagent un point : on le vérifie sur le vrai fichier.
+  it('se suivent dans la liste, d’où qu’on parte', async () => {
+    const { BRASSERIES } = await import('../../src/core/donnees')
+    for (const origine of [BRIGNAIS, { lat: 45.18, lon: 5.72 }, { lat: 46.2, lon: 5.2 }]) {
+      const points = rechercher(BRASSERIES, { ...base, origine, rayonKm: 1000 }).map((r) => `${String(r.brasserie.lat)},${String(r.brasserie.lon)}`)
+      const vus = new Set<string>()
+      points.forEach((p, i) => {
+        if (vus.has(p)) expect(points[i - 1], p).toBe(p)
+        vus.add(p)
+      })
+    }
+  })
+})

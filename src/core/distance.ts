@@ -29,10 +29,10 @@ export function distanceKm(a: Point, b: Point): number {
 }
 
 /**
- * Une distance au kilomètre près, précédée de « ≈ » : les positions sont
- * approximatives (jusqu'à 14 km d'écart au
- * centre communal, docs/PRECISION.md), une décimale promettrait une précision
- * qui n'existe pas. Choix de présentation (CLAUDE.md §2).
+ * Une distance au kilomètre près, précédée de « ≈ » : sauf adresse vérifiée,
+ * les positions ne sont pas des adresses (centre IGN de la commune, ou point
+ * d'origine jusqu'à 14 km de sa commune, docs/PRECISION.md), et une décimale
+ * promettrait une précision qui n'existe pas. Choix de présentation (CLAUDE.md §2).
  */
 export function formaterDistance(km: number): string {
   return km < 1 ? t('moins de 1 km') : `≈ ${String(Math.round(km))} km`
