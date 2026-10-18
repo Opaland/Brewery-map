@@ -5,13 +5,14 @@
  * zones administratives : on lui envoie des rectangles.
  */
 import type { ElementOverpass } from '../src/core/osm-france'
+import { fetchCompte } from './requetes'
 
 const AGENT = 'MousseDePoche/1.0 (https://github.com/Opaland/Brewery-map)'
 const SERVEUR = 'https://overpass.openstreetmap.fr/api/interpreter'
 
 export async function demanderOverpass(requete: string, quoi: string): Promise<{ elements: ElementOverpass[]; base: string }> {
   for (let essai = 1; essai <= 4; essai++) {
-    const r = await fetch(SERVEUR, {
+    const r = await fetchCompte(SERVEUR, {
       method: 'POST',
       headers: { 'User-Agent': AGENT, 'Content-Type': 'application/x-www-form-urlencoded' },
       body: `data=${encodeURIComponent(requete)}`,

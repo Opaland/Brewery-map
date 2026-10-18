@@ -28,6 +28,7 @@ import {
 } from '../src/core/decouverte'
 import { BRIGNAIS, distanceKm } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
+import { fetchCompte } from './requetes'
 
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
 /** Départements d'Auvergne-Rhône-Alpes. */
@@ -59,7 +60,7 @@ async function chercher(sud: number, ouest: number, nord: number, est: number): 
   }).toString()
   await pause(1100)
   requetes++
-  const r = await fetch(url, { headers: { 'User-Agent': AGENT } })
+  const r = await fetchCompte(url, { headers: { 'User-Agent': AGENT } })
   if (!r.ok) throw new Error(`Nominatim ${String(r.status)} pour ${url.toString()}`)
   const brut = (await r.json()) as unknown[]
   if (brut.length < LIMITE) return brut

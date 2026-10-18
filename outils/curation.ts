@@ -57,6 +57,7 @@ import { empreinte, fichiersDeLots, lireTexte } from './lots'
 import { sansLesAppliquees, trierParRegle, type LotNomme } from '../src/core/regle'
 import { execFileSync } from 'node:child_process'
 import { nomDAccord } from '../src/core/garde-donnees'
+import { fetchCompte } from './requetes'
 
 const DONNEES = 'data/breweries.json'
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
@@ -127,7 +128,7 @@ async function controler(chemin: string | undefined) {
     const pages = new Map<string, string>()
     for (const url of p.sources) {
       try {
-        const r = await fetch(url, { redirect: 'follow' })
+        const r = await fetchCompte(url, { redirect: 'follow' })
         pages.set(url, r.ok ? (await r.text()).replace(/<[^>]*>/g, ' ') : '')
         console.log(`${String(i + 1)}. ${p.n} — ${url} : ${String(r.status)}`)
         if (!r.ok) echecs++
@@ -168,7 +169,7 @@ async function controler(chemin: string | undefined) {
     const lues = new Map<string, string>()
     for (const url of a.sources) {
       try {
-        const r = await fetch(url, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 (MousseDePoche-curation)' } })
+        const r = await fetchCompte(url, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 (MousseDePoche-curation)' } })
         const page = r.ok ? await r.text() : ''
         lues.set(url, page)
         console.log(`${n} — ${url} : ${String(r.status)}`)

@@ -1,4 +1,5 @@
 import { execFileSync } from 'node:child_process'
+import { curlCompte } from './requetes'
 
 const GEOCODEUR = 'https://data.geopf.fr/geocodage/search?'
 
@@ -7,7 +8,7 @@ export function geocoder(params: Record<string, string>): { url: string; reponse
   const url = GEOCODEUR + new URLSearchParams({ ...params, limit: '5' }).toString()
   for (let essai = 1; essai <= 8; essai++) {
     try {
-      return { url, reponse: JSON.parse(execFileSync('curl', ['-sS', '-f', '-m', '20', url], { encoding: 'utf8' })) as unknown }
+      return { url, reponse: JSON.parse(curlCompte(url, ['-sS', '-f', '-m', '20'])) as unknown }
     } catch {
       if (essai < 8) execFileSync('sleep', [String(2 * essai)])
     }
