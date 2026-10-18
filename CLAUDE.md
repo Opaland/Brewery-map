@@ -21,7 +21,8 @@ dans l'ordre :
 1. sécurité, confidentialité, intégrité du dépôt ;
 2. les règles de ce fichier ;
 3. **les agents proposent, Cédric décide** : aucune ligne de `data/` ne
-   change sans son accord écrit, ligne par ligne ;
+   change sans son accord écrit, ligne par ligne — ou par la règle qu'il a
+   écrite le 18/10 (`docs/DECISIONS.md`), chaque PR listant ses lignes ;
 4. le budget de `docs/SPRINTS.md`, et l'arrêt quand il est épuisé ;
 5. la définition de terminé (§8 du cahier des charges).
 

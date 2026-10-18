@@ -29,3 +29,26 @@ accepte reste à Cédric : `curation/RECOMMANDATIONS.md`.
 | #33 | Armer la veille mensuelle | Un coût récurrent sur son compte, d'environ 130 à 150 k par mois (`docs/VEILLE.md`). | L'armer : la couche OSM de S25 rend la découverte de nouvelles brasseries plus utile chaque mois. Il suffit d'écrire « arme la veille ». |
 | #34 | Licence de `data/breweries.json` | C'est son fichier : le droit de le licencier est le sien. | ODbL 1.0, comme la couche OSM qu'il côtoie : une seule règle pour qui réutilise les deux. |
 | #38 | Un canal de signalement hors GitHub | Il faut une adresse de courriel à lui, qu'aucun agent ne peut inventer. | Une adresse dédiée (par exemple un alias), affichée à côté de « Signaler une erreur ». |
+
+## Règle de Cédric pour trancher les lots (18/10)
+
+Cédric, le 18/10, en réponse aux questions du mode plan (« pose-moi les
+questions, je suis perdu ») :
+
+| Question | Sa réponse |
+|---|---|
+| Ce qui compte le plus maintenant | « Trancher les lots » |
+| Comment décider | « Par règle générale » : il ne regarde que les cas douteux |
+| La règle | « Site officiel + contrôlé » : accepter ce qui vient du site de la brasserie elle-même et que `controler` a relu sans écart (sites, téléphones fixes, horaires, bières, catégories) ; ce qui repose sur un office de tourisme, un annuaire ou une confiance « faible » lui est montré à part |
+| Les nouvelles brasseries des lots départementaux | « Toutes, avec leur catégorie » : les « À confirmer » s'affichent avec leur raison |
+| D'où viennent les positions des 166 fiches du 15/10 | « Générées par une IA » |
+| Que montrer pour une fiche sans adresse vérifiée | « Centre de commune IGN » ; une adresse vérifiée place la fiche à l'adresse |
+| Sa règle vaut-elle accord écrit pour `data/` | « Oui, avec liste en PR » : chaque PR qui touche `data/` liste toutes les lignes ajoutées ou modifiées ; il peut en refuser une après coup |
+| Le rythme | « Bilan à chaque PR » : 5 lignes après chaque PR mergée |
+
+**Ce que cela change au §0 de CLAUDE.md.** L'accord écrit ligne par ligne
+peut être donné par cette règle. Chaque accord de `curation/accords/` qui
+l'applique cite la règle dans sa `parole`, et la PR liste ses lignes. La
+garde de `data/` (S230) reste inchangée : elle rejoue les accords, à
+l'octet près. Ce qui n'entre pas dans la règle reste à Cédric, ligne par
+ligne.
