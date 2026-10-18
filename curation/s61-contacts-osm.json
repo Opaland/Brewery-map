@@ -1,0 +1,151 @@
+{
+ "lot": "s61-contacts-osm",
+ "propositions": [
+  {
+   "n": "Caribrew",
+   "changements": {
+    "contact": {
+     "site": "https://microbrasseriecaribrew.fr",
+     "source": "https://microbrasseriecaribrew.fr",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://microbrasseriecaribrew.fr",
+    "https://www.openstreetmap.org/node/6067436077"
+   ],
+   "extrait": "Microbrasserie Lyon : Caribrew - bières artisanales",
+   "choix": "Seul numéro du site, un mobile : non proposé."
+  },
+  {
+   "n": "La Chénou",
+   "changements": {
+    "contact": {
+     "site": "http://lachenou.fr/",
+     "source": "http://lachenou.fr/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://lachenou.fr/",
+    "https://www.openstreetmap.org/node/6821847386"
+   ],
+   "extrait": "Microbrasserie BIO Lyon | La Chénou : Brassage - Dégustation - Location tireuse",
+   "choix": "Le numéro d'OSM est un mobile : non proposé."
+  },
+  {
+   "n": "Ferme de la Quintillière",
+   "changements": {
+    "contact": {
+     "site": "http://www.fermedelaquintilliere.com/bieres-busard/",
+     "source": "http://www.fermedelaquintilliere.com/bieres-busard/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://www.fermedelaquintilliere.com/bieres-busard/",
+    "https://www.openstreetmap.org/way/138335054"
+   ],
+   "extrait": "Bières BUSARD - Ferme de la Quintillière",
+   "choix": "OSM donne la page des bières du site de la ferme."
+  },
+  {
+   "n": "La Farlodoise",
+   "changements": {
+    "contact": {
+     "site": "http://www.lafarlodoise.fr",
+     "source": "http://www.lafarlodoise.fr",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://www.lafarlodoise.fr",
+    "https://www.openstreetmap.org/node/4041646051"
+   ],
+   "extrait": "Brasserie La Farlodoise | Vente directe – Pub – Café concert",
+   "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil du site : non proposé."
+  },
+  {
+   "n": "Brasserie de la Loire",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasseriedelaloire.fr/",
+     "source": "https://www.brasseriedelaloire.fr/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasseriedelaloire.fr/",
+    "https://www.openstreetmap.org/way/643827357"
+   ],
+   "extrait": "BRASSERIE DE LA LOIRE top of page NOS BIÈRES",
+   "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil : non proposé."
+  },
+  {
+   "n": "Les Bières du Temps",
+   "changements": {
+    "contact": {
+     "site": "https://www.lesbieresdutemps.com/",
+     "source": "https://www.lesbieresdutemps.com/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.lesbieresdutemps.com/",
+    "https://www.openstreetmap.org/node/5705298290"
+   ],
+   "extrait": "Les bières du temps | Brasserie de bières biologiques en Isère",
+   "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil : non proposé."
+  },
+  {
+   "n": "Brasserie du Pilat",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasseriedupilat.com/",
+     "source": "https://www.brasseriedupilat.com/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasseriedupilat.com/",
+    "https://www.openstreetmap.org/node/5095193371"
+   ],
+   "extrait": "Brasserie du Pilat – Partagez notre plaisir de brasser !",
+   "choix": "Le numéro fixe d'OSM n'est pas sur la page d'accueil : non proposé."
+  },
+  {
+   "n": "Brasserie Kura",
+   "changements": {
+    "contact": {
+     "site": "https://www.kuradebourgogne.com/",
+     "source": "https://www.kuradebourgogne.com/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.kuradebourgogne.com/",
+    "https://www.openstreetmap.org/node/7880051353"
+   ],
+   "extrait": "Fait en Bourgogne À Varennes-Sous-Dun",
+   "choix": "Fabrique Kura de Bourgogne (bières, sakés, condiments japonais) ; sa boutique est à l'adresse de la fiche. L'élément OSM est à Charolles, à 18,6 km du point de la fiche."
+  }
+ ],
+ "revues": [
+  "Caribrew",
+  "La Chénou",
+  "Ferme de la Quintillière",
+  "La Farlodoise",
+  "Brasserie de la Loire",
+  "Les Bières du Temps",
+  "Brasserie du Pilat",
+  "Brasserie Kura"
+ ]
+}
