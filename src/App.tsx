@@ -5,6 +5,7 @@ import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
 import { communesConnues, libelleOrigine, type Origine } from './core/origine'
 import { ECRAN_LARGE } from './core/ecran'
+import { aDesDonneesPersonnelles } from './core/persistance'
 import {
   basculerFavori,
   basculerVisite,
@@ -335,6 +336,7 @@ export function App({
   const basculerUnFavori = (nom: string) => {
     const retrait = favoris.includes(nom)
     setFavoris((avant) => basculerFavori(avant, nom))
+    if (!retrait) stockage.proteger()
     setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }))
     // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
     // focus dedans : on le pose sur le compte, qui dit ce qui s'est passé.
@@ -384,6 +386,7 @@ export function App({
   const basculerUneVisite = (nom: string) => {
     const retrait = visites.some((v) => v.nom === nom)
     setVisites((avant) => basculerVisite(avant, nom, dateDuJour(new Date())))
+    if (!retrait) stockage.proteger()
     setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }))
   }
 
@@ -620,6 +623,7 @@ export function App({
                   setFavoris(p.favoris)
                   setVisites(p.visites)
                   setNotes(p.notes)
+                  if (aDesDonneesPersonnelles(p)) stockage.proteger()
                 }}
               />
             </MesFavoris>
@@ -709,6 +713,7 @@ export function App({
             notes={textesDeNote}
             onEcrireNote={(nom, texte) => {
               setNotes((avant) => ecrireNote(avant, nom, texte))
+              if (texte.trim() !== '') stockage.proteger()
             }}
             onImprimer={(b) => {
               setAffichette((avant) => ({ brasserie: b, n: (avant?.n ?? 0) + 1 }))

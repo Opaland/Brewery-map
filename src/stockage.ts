@@ -1,3 +1,4 @@
+import { demandeDePersistance } from './core/persistance'
 import { gardeParUneVersionFuture, lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
 
 /**
@@ -29,6 +30,8 @@ export interface Stockage {
   versionFuture: boolean
   initiales: Preferences
   garder: (p: Preferences) => void
+  /** Après un geste qui ajoute au carnet : demander au navigateur de le garder (S275). */
+  proteger: () => void
   effacer: () => Promise<void>
 }
 
@@ -92,6 +95,7 @@ const SANS_STOCKAGE: Stockage = {
   versionFuture: false,
   initiales: PREFERENCES_DEFAUT,
   garder: () => undefined,
+  proteger: () => undefined,
   effacer: () => Promise.resolve(),
 }
 
@@ -116,6 +120,8 @@ export async function ouvrirStockage(): Promise<Stockage> {
   // Gardé par une version plus récente (S238) : lu, jamais réécrit. L'écran
   // le dit pour ce qu'il est (revue adverse S238), pas comme un stockage bloqué.
   if (gardeParUneVersionFuture(brut)) return { ...SANS_STOCKAGE, versionFuture: true, initiales: lirePreferences(brut) }
+  // Absente hors HTTPS (S275).
+  const demanderPersistance = demandeDePersistance('storage' in navigator ? navigator.storage : undefined)
   return {
     disponible: true,
     versionFuture: false,
@@ -124,6 +130,9 @@ export async function ouvrirStockage(): Promise<Stockage> {
     // avec ses réglages en mémoire.
     garder: (p) => {
       garderSaufVersionFuture(db, p)
+    },
+    proteger: () => {
+      void demanderPersistance()
     },
     effacer: () => requete(db, 'readwrite', (m) => m.delete(CLE)).then(() => undefined),
   }
