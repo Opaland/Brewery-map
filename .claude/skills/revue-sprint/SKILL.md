@@ -32,6 +32,11 @@ soit son contenu a vidé le quota hebdomadaire (CLAUDE.md d'ÉtapeForge §11,
 | Une valeur absente remplacée par une valeur inventée ? | §1.3 |
 | Des coordonnées « commune » présentées comme exactes ? | §2.3 |
 
+Si le sprint écrit ou change une **promesse** (un texte affiché, un
+commentaire « parce que », une phrase de doc avec « jamais », « aucun »,
+« seul »), lancer aussi l'agent `relecteur-de-promesses` sur ces phrases
+(S284).
+
 ## 3. La persona du sprint
 
 Lancer l'agent `relecteur-de-persona` avec **la** persona désignée dans
