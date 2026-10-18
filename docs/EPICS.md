@@ -433,6 +433,7 @@ vérifiée ».
 
 | Sprint | Story |
 |---|---|
+| S263 | Non attribué (numéro sauté le 18/10) |
 | S264 | La règle écrite (« site officiel + contrôlé », accord par règle, PR listant ses lignes) |
 | S265 | Le tri des lots par la règle (`curation/decision-regle.md`) |
 | S266 | Les propositions retenues entrent dans `data/` (PR #100) |

@@ -1,6 +1,7 @@
 import { citeUnNumero, hoteDeSource, libelleVerification, lienTelephone } from './core/fiche'
 import type { Brasserie } from './core/schema'
 import { rechercheGoogleMaps } from './core/google-maps'
+import { estDeOsm } from './core/osm-france'
 import { rechercheUntappd } from './core/untappd'
 import { t } from './i18n'
 
@@ -27,8 +28,10 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
     </p>
   )
   // Sans téléphone vérifié, celui que montre Google Maps, dit comme une
-  // recherche (S267).
-  const telephoneMaps = (
+  // recherche (S267). Pas pour une fiche OpenStreetMap : sa commune est
+  // souvent déduite de sa position (638 sur 994 au 18/10), et la recherche
+  // irait ailleurs (revue adverse S267).
+  const telephoneMaps = estDeOsm(brasserie) ? null : (
     <p className="fiche-aide" data-testid="telephone-google-maps">
       <a href={rechercheGoogleMaps(brasserie.n, brasserie.c)} target="_blank" rel="noopener noreferrer">
         {t('Voir son téléphone sur Google Maps')}

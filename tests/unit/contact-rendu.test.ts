@@ -26,6 +26,11 @@ describe('le bloc contact', () => {
     expect(html).toContain('Chercher sur Untappd')
   })
 
+  it('une fiche OpenStreetMap n’offre pas Google Maps : sa commune est souvent déduite de sa position (revue adverse S267)', () => {
+    const osm = { ...base, coordPrecision: 'osm' as const, src: 'https://www.openstreetmap.org/node/1' }
+    expect(rendu(osm)).not.toContain('google.com/maps')
+  })
+
   it('un contact sans téléphone offre aussi Google Maps ; un téléphone vérifié l’en dispense (S267)', () => {
     const sansTel = rendu({
       ...base,
