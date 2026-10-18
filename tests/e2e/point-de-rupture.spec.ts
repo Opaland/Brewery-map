@@ -1,5 +1,5 @@
 import { expect, test } from './position'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /**
  * S274 (repris de Sentiers) : à 899 px, l'écran d'un téléphone ; à 900 px,
@@ -33,6 +33,25 @@ for (const largeur of [899, 900]) {
           }),
         )
         .toBe(ordinateur ? 'à côté' : 'dessous')
+    })
+
+    // `Carte.tsx` (revue adverse S274) : un marqueur touché montre un aperçu
+    // sur téléphone ; sur ordinateur, il ouvre la ligne de la liste, à côté.
+    test(ordinateur ? 'un marqueur ouvre la ligne' : 'un marqueur montre l’aperçu', async ({ page }) => {
+      await sansTuiles(page)
+      await page.goto('/')
+      await page.getByTestId('recherche').fill('oullins')
+      await versLaCarte(page)
+      const point = page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')
+      await expect(point).toHaveCount(1)
+      await point.click()
+      if (ordinateur) {
+        await expect(page.locator('button.ligne[aria-expanded="true"]')).toHaveCount(1)
+        await expect(page.getByTestId('apercu-carte')).toHaveCount(0)
+      } else {
+        await expect(page.getByTestId('apercu-carte')).toContainText("Bulles d'Orge")
+        await expect(page.locator('button.ligne[aria-expanded="true"]')).toHaveCount(0)
+      }
     })
   })
 }
