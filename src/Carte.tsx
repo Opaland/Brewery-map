@@ -15,6 +15,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { formaterDistance, type Point } from './core/distance'
 import { empriseDesPoints, type Emprise } from './core/emprise'
+import { ECRAN_ETROIT } from './core/ecran'
 import { estDeOsm } from './core/osm-france'
 import type { Resultat } from './core/recherche'
 import type { Categorie } from './core/schema'
@@ -176,7 +177,7 @@ export default function Carte({
   // où les autres la suivent : un aperçu n'en montrerait qu'une, sans
   // marqueur à qui rendre le focus (revue adverse S32).
   const choisirMarqueur = (nom: string, groupe = false) => {
-    if (!groupe && window.matchMedia('(max-width: 899px)').matches) {
+    if (!groupe && window.matchMedia(ECRAN_ETROIT).matches) {
       setApercu(nom)
       return
     }
