@@ -6,8 +6,9 @@ import { describe, expect, it } from 'vitest'
  * bibliothèque YAML dans le projet) : l'étape bloquante existe, avant le
  * build, sans `continue-on-error`.
  */
-const ci = readFileSync('.github/workflows/ci.yml', 'utf8')
-const nuit = readFileSync('.github/workflows/sonde-nuit.yml', 'utf8')
+// Fins de ligne ramenées à LF : un dépôt sorti sous Windows ne rougit pas le test.
+const ci = readFileSync('.github/workflows/ci.yml', 'utf8').replace(/\r\n/g, '\n')
+const nuit = readFileSync('.github/workflows/sonde-nuit.yml', 'utf8').replace(/\r\n/g, '\n')
 
 /** Le bloc d'une étape (de son `- name:` au suivant). */
 const etape = (texte: string, commande: string) => {
