@@ -110,7 +110,8 @@ export interface Preferences {
   theme: Theme
 }
 
-export type Theme = 'auto' | 'clair' | 'sombre'
+/** Tiré du schéma : une valeur ajoutée à l'un l'est à l'autre (S285). */
+export type Theme = z.infer<typeof CHAMPS.theme>
 
 export const PREFERENCES_DEFAUT: Preferences = {
   version: VERSION_PREFERENCES,

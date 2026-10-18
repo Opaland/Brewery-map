@@ -3,6 +3,7 @@
  * est écrit dans l'appel `t('…')`. Vérifié par `tests/unit/i18n.test.ts`.
  */
 export const EN: Readonly<Record<string, string>> = {
+  "QR code de la fiche": "QR code of the listing",
   "Toutes celles qui correspondent sont dans votre carnet. Décochez « Seulement les brasseries pas encore visitées » pour les revoir.": "All matching breweries are in your logbook. Untick “Only breweries not yet visited” to see them again.",
   "dans le département {dep}, distances depuis {origine}": "in the département {dep}, distances from {origine}",
   "toutes distances, comptées depuis {origine}": "at any distance, measured from {origine}",

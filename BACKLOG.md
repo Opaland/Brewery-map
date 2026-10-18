@@ -285,3 +285,19 @@ chacun demande une décision ou une vérification de source.
     position » laisse croire que l'appareil ne garde rien de la zone, alors
     que le cache des tuiles (`public/sw.js`, 600 tuiles) garde la carte vue
     autour, et « Effacer » n'y touche pas.
+
+- **Règles jumelles relevées par `chasseur-de-jumeaux` (S285, 18/10)** :
+  - **`trier` relit le texte de `controler`** (`outils/curation.ts`, motif
+    `/ABSENT|injoignable|: [45]\d\d$/`) alors que `controler` compte comme
+    écart **tout** statut non 2xx : une source qui répond 999 (LinkedIn) ou
+    302 serait un écart pour `controler`, mais « acceptée par la règle »
+    pour `trier`, donc candidate à `data/`. Latent (aucune source LinkedIn
+    dans `curation/` le 18/10). Remède : que `controler` rende la liste des
+    numéros en écart, et que `trier` l'appelle au lieu de relire du texte.
+  - **Les chiffres du README et de `docs/MARKETING.md`** (358 fiches, 24
+    départements, 878 OSM, 34 960 communes) : exacts le 18/10, tenus par
+    rien ; un test qui les calcule.
+  - **Les couleurs de `docs/DESIGN.md`** contre `src/index.css`, le
+    manifeste et `index.html` : identiques le 18/10, tenues par rien.
+  - **« plus de 1 Mo »** écrit en dur (`src/core/sauvegarde.ts`, `en.ts`)
+    contre `TAILLE_MAX` : d'accord, tenu par rien.
