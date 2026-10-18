@@ -59,7 +59,7 @@ export const EN: Readonly<Record<string, string>> = {
   "La signaler": "Report it",
   "(sur GitHub, compte gratuit nécessaire, signalement public).": "(on GitHub, free account needed, public report).",
   "Code source": "Source code",
-  "Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.": "Checked breweries: 44 completed on 18 October 2026, from their own website; 139 placed at the centre of their town according to IGN, for want of a checked address; 192 breweries added in Normandy, Brittany, Pays de la Loire and Indre-et-Loire.",
+  "Fiches vérifiées : 59 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.": "Checked breweries: 59 completed on 18 October 2026, from their own website; 139 placed at the centre of their town according to IGN, for want of a checked address; 192 breweries added in Normandy, Brittany, Pays de la Loire and Indre-et-Loire.",
   "Les Pays de la Loire et l’Indre-et-Loire sur la carte : 75 brasseries.": "Pays de la Loire and Indre-et-Loire on the map: 75 breweries.",
   "La Bretagne sur la carte : 81 brasseries des Côtes-d’Armor, du Finistère, d’Ille-et-Vilaine et du Morbihan.": "Brittany on the map: 81 breweries in Côtes-d’Armor, Finistère, Ille-et-Vilaine and Morbihan.",
   "La Normandie sur la carte : 36 brasseries du Calvados, de l’Eure, de la Manche, de l’Orne et de Seine-Maritime.": "Normandy on the map: 36 breweries in Calvados, Eure, Manche, Orne and Seine-Maritime.",
@@ -358,4 +358,5 @@ export const EN: Readonly<Record<string, string>> = {
   "une grande bouteille qu’on fait remplir à la pression pour l’emporter": "a large bottle filled on tap to take away",
   "commander en ligne, puis passer chercher sa commande": "order online, then pick up your order",
   "Confiance {niveau} ; date de vérification non renseignée.": "Confidence {niveau}; check date not given.",
+  "Sites, téléphones, horaires et bières ajoutés à 15 brasseries de plus, relus sur leur propre site.": "Websites, phone numbers, opening hours and beers added to 15 more breweries, checked on their own website.",
 }

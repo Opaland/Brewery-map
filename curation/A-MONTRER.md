@@ -134,6 +134,27 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
+## 10. Lu en S297, que la règle ne tranche pas (55 fiches relues)
+
+S297 a relu 55 fiches sur leur site ; 15 propositions sont entrées par la
+règle (`curation/s297-completer-1.md`, `s297-completer-2.md`). Restent :
+
+| Fiche | Ce qui est lu | Proposé |
+|---|---|---|
+| Brasserie Tête Haute | mer.–jeu. 12h-20h, ven. 12h-23h, sam. 10h-13h, sans dire si c'est l'accueil ou la vente | dire « accueil » : c'est un bar de brasserie |
+| Brasserie Vestibule | mer. 17h-20h, sam. 10h30-13h, « pour acheter de la pression en vrac » | dire « vente » |
+| Le Brasseur Bavarois | lun., mar., mer., ven. 12h-19h, sans nature | à vérifier sur place, ou par téléphone |
+| Brasserie Léopard | mer. 11h-17h, jeu.–ven. 11h-17h, sam. 10h-15h, sans nature ; « consommer sur place dès le 1er juillet », sans année | « vente » pour les horaires ; la consommation sur place attend une date |
+| Brasserie du Perche | un bar alimenté par les cuves, pas de vente à emporter écrite | catégorie 1 si le bar vaut « consommer sur place » |
+| Brasserie du Marsouin | « dégustation et vente à emporter » le vendredi après-midi | entrée en catégorie 1, confiance moyenne : à confirmer |
+| Brasserie Paillette | des bières (blonde, IPA) sur `bierepaillette.fr`, mais aucun site officiel au contact de la fiche | accepter ce site comme officiel |
+| Brasserie Sainte Beuve | entrée par sa boutique en ligne (`eproshopping.fr`) ; le site propre est « en construction » | garder, ou attendre le site |
+| Tiens bon la Barre | « depuis 2023 à Plouasne », « 2 la gare » (l'adresse de Nautica), sur un annuaire | voir le groupe 8 |
+| BUBAR, Philmore, Beltane | annuaires seulement ; un bar, ou un brewpub | voir le groupe 8 |
+
+Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
+avec celui de Google Maps (S267).
+
 ---
 
 Rien de tout cela n'est appliqué : chaque groupe accepté deviendra une PR

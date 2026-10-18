@@ -3703,8 +3703,30 @@
   "addr": "33 route de Trouville, 14000 Caen",
   "src": "https://www.les2terres.fr/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "02 36 80 11 01",
+   "site": "https://www.les2terres.fr/",
+   "source": "https://www.les2terres.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie des 9 Mondes",
@@ -3719,8 +3741,28 @@
   "addr": "Ranville",
   "src": "https://www.brasseriedes9mondes.com",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rouge"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "09 82 53 39 02",
+   "site": "https://www.brasseriedes9mondes.com",
+   "source": "https://www.brasseriedes9mondes.com",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Trip-Hop",
@@ -3797,14 +3839,100 @@
   "lat": 49.26333,
   "lon": 1.78556,
   "km": 457.1,
-  "cat": 0,
-  "conf": "",
-  "note": "Le site présente une boutique et des visites, mais le passage n'a pas été relu mot pour mot : catégorie à confirmer.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique sur place (bières, coffrets) et visites guidées avec dégustation, d'après le site de la brasserie ; un bar distinct, La Vache à Lunettes, a ses propres horaires, sans que la page dise s'il est sur le même site.",
   "addr": "15 route de Paris, 27140 Gisors",
   "src": "https://www.brasseriedesutter.com/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple"
+   },
+   {
+    "type": "sans-alcool"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "02 34 88 21 43",
+   "site": "https://www.brasseriedesutter.com/",
+   "source": "https://www.brasseriedesutter.com/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasseriedesutter.com/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie Insulaire",
@@ -4046,9 +4174,9 @@
   "lat": 48.68982,
   "lon": -1.36185,
   "km": 570.8,
-  "cat": 0,
-  "conf": "",
-  "note": "Boutique de la brasserie ; consommation sur place annoncée « dès le 1er juillet », sans année lue : catégorie à confirmer.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie : les bières s'achètent sur place ; la consommation sur place est annoncée « dès le 1er juillet », sans année lue, donc non retenue.",
   "addr": "7 avenue de la Gare, 50300 Avranches",
   "src": "https://brasserie-leopard.fr",
   "coordPrecision": "address",
@@ -4057,7 +4185,12 @@
     "type": "blonde"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "site": "https://brasserie-leopard.fr",
+   "source": "https://brasserie-leopard.fr",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "L'Écume des Falaises",
@@ -4121,7 +4254,13 @@
   "src": "http://brasserieduperche.com/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 33 85 41 30",
+   "site": "https://www.brasserieduperche.com/",
+   "source": "https://www.brasserieduperche.com/contact/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie Saint Joseph",
@@ -4162,14 +4301,19 @@
   "lat": 49.76544,
   "lon": 1.59508,
   "km": 512.5,
-  "cat": 0,
-  "conf": "",
-  "note": "Boutique en ligne avec retrait sur place, d'après l'office de tourisme ; vente directe sur place non établie.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente sur place et visite de la brasserie, accueil sur rendez-vous, d'après la boutique en ligne de la brasserie ; pas de dégustation ni de consommation sur place dites.",
   "addr": "7 route de l'Église, 76390 Le Caule-Sainte-Beuve",
-  "src": "https://www.seine-maritime-tourisme.com/en/offers/brasserie-sainte-beuve-le-caule-sainte-beuve-en-5133740/",
+  "src": "https://brasserie-sainte-beuve.eproshopping.fr/",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "site": "https://brasserie-sainte-beuve.eproshopping.fr/",
+   "source": "https://brasserie-sainte-beuve.eproshopping.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie Ragnar",
@@ -4185,7 +4329,12 @@
   "src": "https://www.brasserieragnar.com/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserieragnar.com/",
+   "source": "https://www.brasserieragnar.com/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Fabrik2Bulles",
@@ -4233,7 +4382,12 @@
   "src": "https://www.brasserie-bakbuk.com/contact",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-bakbuk.com/",
+   "source": "https://www.brasserie-bakbuk.com/contact",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie BakPaker",
@@ -6350,9 +6504,10 @@
   "beers": [],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "02 56 21 99 74",
    "site": "https://microbrasseriebarque.bzh/",
-   "source": "https://microbrasseriebarque.bzh",
-   "verifieLe": "2026-10-17"
+   "source": "https://microbrasseriebarque.bzh/",
+   "verifieLe": "2026-10-18"
   }
  },
  {
@@ -6859,9 +7014,10 @@
   ],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "02 28 07 64 99",
    "site": "https://www.brasserieplormel.com/",
    "source": "https://www.brasserieplormel.com/contact",
-   "verifieLe": "2026-10-17"
+   "verifieLe": "2026-10-18"
   }
  },
  {
@@ -6978,9 +7134,10 @@
   "beers": [],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "02 49 09 39 60",
    "site": "http://www.brasserienautile.com/",
    "source": "http://www.brasserienautile.com/",
-   "verifieLe": "2026-10-17"
+   "verifieLe": "2026-10-18"
   }
  },
  {
@@ -7375,9 +7532,12 @@
    },
    {
     "type": "ipa"
+   },
+   {
+    "type": "brune"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://www.brasserielamaisonblanche.com/",
    "source": "https://www.brasserielamaisonblanche.com/",
@@ -7852,9 +8012,10 @@
   ],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "02 41 85 54 26",
    "site": "https://www.larombiere.com/",
-   "source": "https://www.larombiere.com/",
-   "verifieLe": "2026-10-17"
+   "source": "https://www.larombiere.com/contact/",
+   "verifieLe": "2026-10-18"
   }
  },
  {
@@ -8377,10 +8538,22 @@
   "coordPrecision": "centre",
   "beers": [
    {
+    "type": "autre",
+    "libelle": "Pale Ale"
+   },
+   {
     "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Black IPA"
+   },
+   {
+    "type": "autre",
+    "libelle": "Porter fumée"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://lafeuillerouge.com/",
    "source": "https://lafeuillerouge.com/",
@@ -8738,14 +8911,44 @@
   "lat": 46.63601,
   "lon": -1.83791,
   "km": 518.7,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie listée par le guide de la Vendée ; rien sur la vente ni l'accueil.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Accueil chaque vendredi après-midi pour une dégustation de bières et de la vente à emporter ; boutique en ligne en retrait sur place.",
   "addr": "21 rue Gutenberg, 85470 Brétignolles-sur-Mer",
-  "src": "https://www.guide-de-la-vendee.com/en/tourism/tasting/products-of-vendee/beers/bretignolles-sur-mer-25/brasserie-du-marsouin-686.html",
+  "src": "https://brasseriedumarsouin.fr/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "site": "https://brasseriedumarsouin.fr/",
+   "source": "https://brasseriedumarsouin.fr/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": "heures-non-precisees",
+    "remarque": "Chaque vendredi après-midi, dégustation et vente à emporter ; heures non précisées par la brasserie.",
+    "source": "https://brasseriedumarsouin.fr/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Les Fous Brassant",

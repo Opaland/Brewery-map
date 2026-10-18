@@ -1,3 +1,4 @@
+import { DONNEES } from '../../src/core/nouveautes'
 import { expect, test } from './position'
 import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
@@ -250,7 +251,9 @@ test('« Quoi de neuf ? » dit ce qui a changé, fiches comprises (S44, S266)', 
   await page.goto('/')
   const bloc = page.getByTestId('quoi-de-neuf')
   await bloc.locator('summary').click()
-  await expect(bloc).toContainText('Fiches vérifiées : 44 complétées le 18 octobre 2026, d’après leur propre site ; 139 placées au centre')
+  // La phrase elle-même, lue dans le cœur : un lot de plus ne fait pas
+  // réécrire ce test (S297).
+  await expect(bloc).toContainText(DONNEES.phrase)
   await expect(bloc.locator('li').first()).toBeVisible()
   await expect(bloc.locator('li').first()).toContainText('18 octobre 2026')
 })

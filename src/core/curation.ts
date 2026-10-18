@@ -660,6 +660,10 @@ export function revuesDesFichiers(
       }
       continue
     }
+    // Un JSON sans champ `lot` n'est pas un lot (candidats et lectures des
+    // lots départementaux, étiquettes OSM) : il n'a pas de fiches revues.
+    // Depuis S246, ces fichiers arrêtaient la commande `lot` (vu en S295).
+    if (Array.isArray(contenu) || (typeof contenu === 'object' && contenu !== null && !('lot' in contenu))) continue
     const l = lotSchema.safeParse(contenu)
     if (!l.success) {
       erreurs.push(`${nom} : lot invalide (${l.error.issues.map((i) => i.message).join(' ; ')})`)

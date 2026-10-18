@@ -1,0 +1,355 @@
+{
+ "lot": "s297-completer-1",
+ "propositions": [
+  {
+   "n": "Brasserie du Perche",
+   "changements": {
+    "contact": {
+     "tel": "02 33 85 41 30",
+     "site": "https://www.brasserieduperche.com/",
+     "source": "https://www.brasserieduperche.com/contact/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserieduperche.com/contact/"
+   ],
+   "extrait": "Téléphone fixe : 02 33 85 41 30",
+   "choix": "La page Contact publie aussi un portable : écarté, on garde le fixe. Catégorie laissée à 0 : la page des horaires parle du bar et des cuves, mais aucune phrase ne dit qu'on achète à emporter ; une catégorie 1 serait une déduction. Aucun horaire chiffré publié. Types de bière à relire mot à mot dans un autre lot. Pas d'Untappd."
+  },
+  {
+   "n": "La Feuille Rouge",
+   "changements": {
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Pale Ale"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "autre",
+      "libelle": "Black IPA"
+     },
+     {
+      "type": "autre",
+      "libelle": "Porter fumée"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://lafeuillerouge.com/"
+   ],
+   "extrait": "Long Road / Pale Ale (5%) ; Hazy Dawn / IPA (6%) ; Back to Black / Black IPA (5%) ; Raven / Porter Fumée (6,5%)",
+   "choix": "Le site publie seulement un mobile : pas de téléphone proposé. Rien sur la vente ou l'accueil : catégorie 0 inchangée. Black IPA pourrait aussi être rangée en « ipa » : à Cédric de trancher."
+  },
+  {
+   "n": "Brasserie de Sutter",
+   "changements": {
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique sur place (bières, coffrets) et visites guidées avec dégustation, d'après le site de la brasserie ; un bar distinct, La Vache à Lunettes, a ses propres horaires, sans que la page dise s'il est sur le même site.",
+    "contact": {
+     "tel": "02 34 88 21 43",
+     "site": "https://www.brasseriedesutter.com/",
+     "source": "https://www.brasseriedesutter.com/",
+     "verifieLe": "2026-10-18"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.brasseriedesutter.com/",
+      "verifieLe": "2026-10-18"
+     }
+    ],
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple"
+     },
+     {
+      "type": "sans-alcool"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasseriedesutter.com/"
+   ],
+   "extrait": "Sur place, notre boutique permet de découvrir nos bières, coffrets et idées cadeaux. / Nous organisons des visites guidées de la brasserie avec dégustation. / Brasserie de Sutter 02 34 88 21 43 / Nos horaires : Mardi et mercredi 10:00–12:30, 13:30–17:00 ; Du jeudi au samedi 10:00–12:30, 13:30–19:00 / bière blonde, blanche, ambrée, brune, IPA, triple, bière biologique ou sans alcool",
+   "choix": "Catégorie 2 et non 1 : le bar La Vache à Lunettes est écarté, la page ne dit pas qu'il est sur place à la brasserie ; la dégustation n'est citée qu'en visite guidée. Lundi et dimanche : non dits, laissés absents. Types de bière lus sur une phrase générique du site, pas une carte des bières. Aucune page Untappd sur le site."
+  },
+  {
+   "n": "La Rombière",
+   "changements": {
+    "contact": {
+     "tel": "02 41 85 54 26",
+     "site": "https://www.larombiere.com/",
+     "source": "https://www.larombiere.com/contact/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.larombiere.com/contact/"
+   ],
+   "extrait": "02 41 85 54 26 — brasserie@larombiere.com — 69, rue de la Lime, Beaupréau, 49600 Beaupréau-en-Mauges",
+   "choix": "Horaires non proposés : la page donne des plages bar/resto sans dire ce qui est la brasserie, ni la vente. Catégorie laissée à 0 : la page « Le Magasin » répond 404. Adresse lue, non modifiée ici."
+  },
+  {
+   "n": "Brasserie Bakbuk",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserie-bakbuk.com/",
+     "source": "https://www.brasserie-bakbuk.com/contact",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-bakbuk.com/contact"
+   ],
+   "extrait": "Ouvert au public de 9h à 18h du lundi au vendredi",
+   "choix": "Site officiel seul. Aucun téléphone publié sur la page contact. Catégorie laissée à 0 : la vente sur place n'est pas lue. Horaires non proposés : « ouvert au public » ne dit pas si c'est de l'accueil ou de la vente. Pas d'Untappd (seulement Facebook et Instagram)."
+  },
+  {
+   "n": "Brasserie Ragnar",
+   "changements": {
+    "contact": {
+     "site": "https://www.brasserieragnar.com/",
+     "source": "https://www.brasserieragnar.com/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserieragnar.com/"
+   ],
+   "extrait": "Nous sommes ouverts du lundi au vendredi.",
+   "choix": "Site officiel seul. Pas de téléphone (seulement un e-mail). Catégorie laissée à 0 : la vente directe à Oissel n'est pas écrite. Horaires non proposés : l'ouverture de la brasserie est lue sans heures, et les horaires 17h30 sont ceux de deux bars (Rouen, Louviers), pas de la brasserie. Pas d'Untappd."
+  },
+  {
+   "n": "Brasserie Plormel",
+   "changements": {
+    "contact": {
+     "tel": "02 28 07 64 99",
+     "site": "https://www.brasserieplormel.com/",
+     "source": "https://www.brasserieplormel.com/contact",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserieplormel.com/contact"
+   ],
+   "extrait": "+33 (0) 228 076 499 — Du lundi au vendredi de 8h à 18h.",
+   "choix": "Deux numéros sur la page : le siège social (+33 (0) 228 076 499, fixe), retenu ; et le service commercial, mobile, écarté. Les 8h-18h sont les heures du standard, pas un accueil du public, donc aucun horaire. Catégorie laissée à 0 : aucune vente ni dégustation sur place. Pas d'Untappd."
+  },
+  {
+   "n": "Brasserie Nautile",
+   "changements": {
+    "contact": {
+     "site": "http://www.brasserienautile.com/",
+     "tel": "02 49 09 39 60",
+     "source": "http://www.brasserienautile.com/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://www.brasserienautile.com/"
+   ],
+   "extrait": "Tél. 02 49 09 39 60",
+   "choix": "Seul numéro publié, fixe, dans le pied de page avec l'adresse à Rezé. Horaires non proposés : « Lun–Ven · 09h30–17h30 » couvrent la production et la vente aux professionnels, pas un accueil du public. Catégorie laissée à 0 : seul un retrait chez un bar voisin est dit."
+  },
+  {
+   "n": "Brasserie Sainte Beuve",
+   "changements": {
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente sur place et visite de la brasserie, accueil sur rendez-vous, d'après la boutique en ligne de la brasserie ; pas de dégustation ni de consommation sur place dites.",
+    "src": "https://brasserie-sainte-beuve.eproshopping.fr/",
+    "contact": {
+     "site": "https://brasserie-sainte-beuve.eproshopping.fr/",
+     "source": "https://brasserie-sainte-beuve.eproshopping.fr/",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://brasserie-sainte-beuve.eproshopping.fr/"
+   ],
+   "extrait": "Vente sur place et visite de la Brasserie ; ACCUEIL SUR RENDEZ-VOUS",
+   "choix": "Confiance moyenne : le rendez-vous est exigé. Ce site de boutique n'est pas confirmé comme le site officiel (brasseriesaintebeuve.fr est « en construction »). Le seul numéro est un mobile, non retenu. Horaires d'une fiche de tourisme datés de l'année précédente, non retenus."
+  },
+  {
+   "n": "Brasserie du Marsouin",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "src": "https://brasseriedumarsouin.fr/",
+    "note": "Accueil chaque vendredi après-midi pour une dégustation de bières et de la vente à emporter ; boutique en ligne en retrait sur place.",
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "brune"
+     }
+    ],
+    "contact": {
+     "site": "https://brasseriedumarsouin.fr/",
+     "source": "https://brasseriedumarsouin.fr/",
+     "verifieLe": "2026-10-18"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": "heures-non-precisees",
+      "remarque": "Chaque vendredi après-midi, dégustation et vente à emporter ; heures non précisées par la brasserie.",
+      "source": "https://brasseriedumarsouin.fr/",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://brasseriedumarsouin.fr/"
+   ],
+   "extrait": "chaque vendredi après-midi pour dégustation de bières et vente à emporter",
+   "choix": "Téléphone non retenu : le site ne publie qu'un mobile. Catégorie 1 en confiance moyenne : « dégustation » et « vente à emporter » sans « sur place » écrit ; repli possible en 2 ou 0. Horaires : seul « vendredi après-midi », d'où « heures non précisées » ; un horaire de tourisme 2025 écarté. Bière de Noël non reprise. Pas d'Untappd."
+  },
+  {
+   "n": "Brasserie La Maison Blanche",
+   "changements": {
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "brune"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserielamaisonblanche.com/"
+   ],
+   "extrait": "Brunes",
+   "choix": "Seul ajout : « Brunes », dans la liste des styles du site officiel ; les quatre autres types étaient déjà dans la fiche. Catégorie laissée à 0 : commande par téléphone (deux mobiles, non retenus) et « ouverte au public curieux » sans vente ni dégustation dites."
+  }
+ ],
+ "revues": [
+  "Brasserie de la Pigeonnelle",
+  "Brasserie des Canailles",
+  "La Feuille Rouge",
+  "Nuage Craft Beer",
+  "Brasserie du Perche",
+  "Brasserie Penrose",
+  "Brasserie de Sutter",
+  "La Rombière",
+  "Les Deux Amants",
+  "Brasserie Cousin",
+  "Brasserie Bakbuk",
+  "Brasserie Ragnar",
+  "Brasserie Plormel",
+  "Brasserie associative de Montflours (BAM)",
+  "Brasserie Tête Haute",
+  "Brasserie des Nico",
+  "Brasserie La Déviation",
+  "Opé Brewery",
+  "Brasserie Nautile",
+  "BUBAR",
+  "Brasserie Sainte Beuve",
+  "Brasserie artisanale Philmore",
+  "Brasserie du Marsouin",
+  "Brasserie La Hulotte",
+  "Brasserie La Maison Blanche"
+ ]
+}
