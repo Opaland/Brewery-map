@@ -107,3 +107,32 @@ comprendre ce qui est vérifié et ce qui ne l'est pas, sans lire le français
 
 *Pas encore de constat. Personnage ajouté au plan v4, sans entretien ; ses
 besoins sont supposés, pas observés.*
+
+---
+
+## Deux angles de revue *(S288, 18/10)*
+
+Ce ne sont pas des personnes qui utilisent l'application : ce sont deux
+regards sur le dépôt, repris d'ÉtapeForge (`revue-personas.md`), à lancer
+avec l'agent `relecteur-de-persona` en revue globale.
+
+### Le relecteur de workflows
+
+Lit `.github/workflows/` en cherchant comment les détourner.
+
+**Critère.** Aucun workflow ne donne plus de droits qu'il n'en faut ;
+aucun texte venu d'une PR, d'une issue ou d'une branche (titre, corps, nom
+de branche) n'est interpolé dans une commande `run:` ; aucun secret n'est
+exposé à du code d'une PR extérieure (`pull_request_target`) ; les actions
+tierces sont nommées et leur version fixée ; un workflow qui pousse un
+commit ne peut le faire que là où il doit.
+
+### La contributrice externe
+
+Arrive par GitHub, sans connaître Cédric ni le projet.
+
+**Critère.** Depuis le README seul : comprendre ce qu'est l'application,
+cloner, installer, lancer la porte (lint, types, tests, build, e2e) et
+voir qu'elle passe ; savoir quoi proposer et comment (une erreur de fiche,
+une correction de code), et ce qui lui sera refusé (une ligne de `data/`
+sans source, une requête qui emporte la position).

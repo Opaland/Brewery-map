@@ -301,3 +301,24 @@ chacun demande une décision ou une vérification de source.
     manifeste et `index.html` : identiques le 18/10, tenues par rien.
   - **« plus de 1 Mo »** écrit en dur (`src/core/sauvegarde.ts`, `en.ts`)
     contre `TAILLE_MAX` : d'accord, tenu par rien.
+
+- **Workflows, relevés par l'angle « relecteur de workflows » (S288, 18/10)** :
+  - **Réglage de Cédric** : la garde de `data/` et CODEOWNERS ne protègent
+    `main` que si la protection de branche exige la revue des propriétaires
+    de code (une PR exécute sa propre version de `ci.yml` et pourrait
+    retirer la garde) ; et « Require approval for outside collaborators »
+    dans les réglages Actions. Non vérifiable depuis la session (403).
+  - Les actions officielles sont fixées par tag (`@v4`), pas par SHA ;
+    `deploy-pages` tourne avec `id-token: write`. Fixer par SHA et laisser
+    Dependabot (`github-actions`) les tenir à jour.
+  - `push` sur toutes les branches plus `pull_request` : une PR d'une
+    branche du dépôt passe deux fois la porte (un coût, pas un risque).
+  - `mutation.yml` installe Stryker par `npm install --no-save` : ses
+    dépendances ne sont pas verrouillées (job en lecture seule, sans secret).
+  - Un commit poussé par `visuel-references` (jeton du dépôt) ne relance pas
+    la CI : un commit suivant la relance (déjà la pratique).
+- **Contribution, relevé par l'angle « contributrice externe » (S288)** : le
+  README parle de « Cédric » sans le présenter, renvoie à `docs/SPRINTS.md`
+  (interne), et la licence des données est « à préciser » — à trancher par
+  Cédric (une contribution aux fiches ne sait pas sous quelle licence elle
+  serait reversée).

@@ -75,12 +75,19 @@ du fichier).
 
 ## Développer
 
+Node 22 (`.nvmrc`).
+
 ```bash
 npm ci
 npm run lint && npx tsc -b --noEmit && npx vitest run
-npm run build
-PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test   # conteneur
+npm run build                    # les e2e servent dist/ : rebuild d'abord
+npx playwright install chromium
+npx playwright test
 ```
+
+Sans téléchargement de navigateur (conteneur de développement), poser
+`PW_CHROMIUM_PATH` vers un Chromium déjà installé. Pour proposer une
+correction, ou signaler une erreur de fiche : [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 Le build échoue si `data/breweries.json` ne respecte pas le schéma
 (`src/core/schema.ts`). Les règles du projet sont dans `CLAUDE.md`, le

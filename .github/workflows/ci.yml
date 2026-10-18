@@ -13,9 +13,12 @@ on:
 permissions:
   contents: read
 
+# Un push plus récent annule le run d'une branche ; jamais sur `main`, où un
+# second merge annulait la sonde de la page déjà publiée (S288, relecteur de
+# workflows ; CLAUDE.md §7).
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
   porte:
