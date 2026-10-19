@@ -45,7 +45,7 @@ function decoder(texte: string): string {
  */
 export function texteDuRendu(html: string): string {
   const texte = html
-    .replace(/<span class="lecteur-seul">[^<]*<\/span>/g, '')
+    .replace(/<span class="(?:[^"]* )?lecteur-seul(?: [^"]*)?">[^<]*<\/span>/g, '')
     .replace(/<a\b[^>]*?href="([^"]*)"[^>]*>([^]*?)<\/a>/g, (_, href: string, dedans: string) => {
       const mots = dedans.replace(/<[^>]+>/g, '').trim()
       return `[${mots}](${href})`
@@ -97,7 +97,15 @@ export function apercuDuNumero(
   if (!Number.isInteger(numero) || numero < 1 || numero > sansRetraits) return undefined
   const nom = nomDuNumero(lot, numero)
   const r = appliquerLot(brasseries, lot, new Set([numero]))
-  if (!r.ok) return `Aperçu impossible : ${r.erreurs.join(' ; ')}`
+  const ajout = (lot.ajouts ?? []).at(numero - 1 - lot.propositions.length)
+  if (!r.ok) {
+    const refus = `Ce numéro ne peut pas être appliqué tel quel : ${r.erreurs.join(' ; ')}`
+    // Un ajout porte sa fiche entière : elle se montre quand même, pour que
+    // Cédric décide en la voyant (revue adverse S300, lot s14-decouverte).
+    if (numero <= lot.propositions.length || ajout === undefined) return refus
+    const fiche = { ...ajout.fiche, verifieLe: ajout.verifieLe }
+    return [refus, '', '**La fiche telle que le lot l’écrit :**', '', citer(apercuDeFiche(fiche, maintenant).split('\n'))].join('\n')
+  }
   const apres = r.brasseries.find((b) => b.n === nom)
   if (apres === undefined) return undefined
   const lignesApres = apercuDeFiche(apres, maintenant).split('\n')

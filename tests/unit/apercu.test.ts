@@ -65,4 +65,20 @@ describe('S300 : la fiche en texte, par les composants de la page', () => {
     // Un numéro hors du lot n'a pas d'aperçu.
     expect(apercuDuNumero(TOUTES, lot, 2, MAINTENANT)).toBeUndefined()
   })
+
+  it('revue adverse : un ajout refusé tel quel garde son aperçu, sous la raison du refus', () => {
+    const fiche = { ...A_CONFIRMER, n: 'Brasserie Nouvelle', coordPrecision: 'osm' as const }
+    const lot: Lot = {
+      lot: 'essai',
+      propositions: [],
+      ajouts: [{ fiche, verifieLe: '2026-10-16', sources: ['https://exemple.fr/'], extrait: 'Brasserie Nouvelle' }],
+    }
+    const texte = apercuDuNumero(TOUTES, lot, 1, MAINTENANT) ?? ''
+    expect(texte).toContain('ne peut pas être appliqué tel quel')
+    expect(texte).toContain('> - Ce qu’on peut y faire')
+  })
+
+  it('revue adverse : le texte des lecteurs d’écran part, même avec une autre classe', () => {
+    expect(texteDuRendu('<p>Lien<span class="lecteur-seul autre"> (nouvel onglet)</span></p>')).toBe('Lien')
+  })
 })
