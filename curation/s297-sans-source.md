@@ -36,6 +36,17 @@ commune.
 | Brasserie des Monts du Lyonnais | Saint-Martin-en-Haut | seulement des offices de tourisme et d'autres brasseries |
 | Brasserie Les Dameuses | Claix | seulement la page d'annuaire de la mairie, déjà en source |
 | Brasserie Krüger | Solaize | seulement des annuaires (333 rue des Éparviers) |
+| Terre de Possibles | Dompierre-les-Ormes | aucune trace |
+| Les Cuves de la Madeleine | Ambierle | aucune trace |
+| Les Croqueurs de Lune | Chanaz | aucune trace ; seulement « Les Coureurs de Lune », en Pays de la Loire |
+| Les Bières Hoffmann (Brasseurs du Grand Colombier) | Culoz | ni site ni registre sous ces noms |
+| Mac Never's and Co. | Maillat | aucune trace |
+| Ferme-brasserie Déluge | Chabeuil | aucune trace |
+| Brasserie du Marrel | Grenoble | aucune trace |
+| Brasserie 3B (Bassin Bellegardien) | Billiat | aucune trace |
+| La Valentinoise | Valence | domaine à vendre ; un forum et l'office de tourisme seulement |
+| Brasserie Haarddrëch | Alboussière | un annuaire la place à Champis |
+| Manev'Ale | Le Mazet-Saint-Voy | office de tourisme seulement, sous le nom « Brasserie La Lize » |
 
 Proposé : retirer de la carte les fiches sans aucune trace. Celles qui
 n'ont qu'un annuaire (Dameuses, Krüger) peuvent rester « À confirmer ».
@@ -45,8 +56,11 @@ n'ont qu'un annuaire (Dameuses, Krüger) peuvent rester « À confirmer ».
 | Fiche | Ce qui est lu |
 |---|---|
 | Brasserie du Mont Popey (Saint-Forgeux) | registres (pappers, societe.com) : entreprise cessée le 04/12/2025, radiée le 05/12/2025 après liquidation judiciaire |
+| Brasserie Rohner (Le Mazet-Saint-Voy) | Annuaire des entreprises (data.gouv.fr) : état « cessée », fermeture le 31/10/2022 ; une autre brasserie, Mazeste, est active dans la commune |
+| Brasserie Dr D. Brewpub (Grenoble) | Untappd : « This brewery is no longer in business » (pas un registre, à vérifier) |
 
-Proposé : le statut « fermée » (S27), avec le registre pour source.
+Proposé : le statut « fermée » (S27), avec le registre pour source, pour
+Mont Popey et Rohner. Pour Dr D., vérifier d'abord le registre.
 
 ## C. Le site officiel est piraté
 
@@ -71,6 +85,9 @@ toujours la décision de Cédric.
 | Brasserie 767 (« Altitude 767 ») | Chazelles-sur-Lyon | Grammond (lieu-dit Vernay) | registre, annuaires |
 | Brasserie de la Sanne | Saint-Romain-de-Surieu | Salaise-sur-Sanne | annuaires |
 | Misso | Civrieux-d'Azergues | siège à Marcilly-d'Azergues | registre |
+| Brasserie Paille | Château | Lournand (623 Grande Rue) | site officiel |
+| La Montagnarde | Saint-Alban-Leysse | Saint-Jean-d'Arvey (siège) et Challes-les-Eaux (production, boutique) | site officiel |
+| Brasserie Vellavia | Polignac | Saint-Germain-Laprade (79 impasse de la Bombe) | offices de tourisme |
 | Malt Emoi | Meximieux | Villieu-Loyes-Mollon ; reprise sous le nom « L'Ain Pression » d'après des offices de tourisme | blog, offices de tourisme |
 
 ## E. Site officiel trouvé, mais illisible ou douteux
@@ -85,6 +102,11 @@ toujours la décision de Cédric.
 | Brasserie Kan Mêm (Colombier-le-Jeune) | Facebook et offices de tourisme seulement ; un mobile |
 | Brasserie Graine 2 Bulles (Davézieux) | office de tourisme seulement (horaires de 2024) |
 | Brasserie La Couleuvre (Dompierre-les-Ormes) | PagesJaunes seulement |
+| Brasserie de Chartreuse (Miribel-les-Échelles) | seule une « Brasserie Coeur de Chartreuse » existe dans la commune ; son domaine ne répond pas |
+| Brasserie de Chanaz (Chanaz) | registre actif (SIREN 828933713), aucun site |
+| Brasserie du Vercors (Biercors) (Autrans) | registre actif ; site injoignable (TLS, 503) ; l'office de tourisme la place à Villard-de-Lans |
+| Brasserie de Roche Colombe (Valence) | domaine au certificat expiré, puis 503 |
+| Brasserie Coup de Mousse (Chambéry) | annuaire seulement |
 
 ## Ce que les lots 10 et 11 ont appliqué
 

@@ -18,8 +18,8 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Où en sont les fiches
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
-par un test. Au 19/10, après dix lots de S297 : **18 fiches complètes sur 358** ;
-172 « À confirmer » ; 206 sans bières, 276 sans téléphone, 270 sans horaires.
+par un test. Au 19/10, après les onze lots de S297 (toutes les fiches relues une fois) :
+**18 fiches complètes sur 358** ; 171 « À confirmer » ; 204 sans bières, 275 sans téléphone, 269 sans horaires.
 Les fiches sans source, relues, attendent une décision de Cédric :
 `curation/s297-sans-source.md` (fiches sans trace, cessée, site piraté,
 autre commune).

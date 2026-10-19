@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 358 | 18 (5 %) | 56 | 172 | 168 | 236 | 276 | 270 | 206 |
+| **Total** | 358 | 18 (5 %) | 54 | 171 | 166 | 236 | 275 | 269 | 204 |
 | 01 · Ain | 16 | 0 (0 %) | 7 | 10 | 11 | 16 | 13 | 15 | 13 |
 | 07 · Ardèche | 10 | 0 (0 %) | 4 | 5 | 5 | 10 | 8 | 8 | 6 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
@@ -34,15 +34,15 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 56 · Morbihan | 23 | 1 (4 %) | 0 | 13 | 9 | 11 | 20 | 16 | 12 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 69 · Rhône | 47 | 1 (2 %) | 14 | 20 | 29 | 35 | 38 | 38 | 37 |
-| 71 · Saône-et-Loire | 8 | 0 (0 %) | 5 | 6 | 7 | 8 | 8 | 8 | 7 |
+| 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 8 | 8 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
-| 73 · Savoie | 15 | 0 (0 %) | 5 | 8 | 7 | 15 | 12 | 10 | 10 |
+| 73 · Savoie | 15 | 0 (0 %) | 4 | 7 | 6 | 15 | 11 | 9 | 9 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 
 ## Les « À confirmer » à chercher
 
-172 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+171 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -253,12 +253,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 71 · Saône-et-Loire
 
-- Brasserie de Cluny (Château) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie des 2 Roches (Vergisson) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie La Couleuvre (Dompierre-les-Ormes) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Paille (Château) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Terre de Possibles (Dompierre-les-Ormes) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Two Dudes (Tournus) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie de Cluny (Château) : sans adresse vérifiée, sans téléphone, sans horaires
 
 ### 72 · Sarthe
 
@@ -266,7 +266,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 73 · Savoie
 
-- Brasserie B.A.S. (Sabaudia) (Voglans) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Coup de Mousse (Chambéry) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie de Chanaz (Chanaz) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Montagnarde (Saint-Alban-Leysse) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières

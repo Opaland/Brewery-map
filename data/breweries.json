@@ -3669,9 +3669,45 @@
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
   "addr": "Château",
-  "src": "",
+  "src": "https://www.brasseriedecluny.fr/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Zouaffe Pale Ale"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Zouaffe Amber Ale"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Zouaffe Blanche"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Zouaffe IPA"
+   },
+   {
+    "type": "autre",
+    "libelle": "Zouaffe Tardif de Bourgogne"
+   },
+   {
+    "type": "autre",
+    "libelle": "Zouaffe Smoked Red Ale"
+   },
+   {
+    "type": "autre",
+    "libelle": "Zouaffe Fleur de Sureau"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.brasseriedecluny.fr/",
+   "untappd": "https://untappd.com/BrasserieDeCluny",
+   "source": "https://www.brasseriedecluny.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Paille",
@@ -3901,13 +3937,104 @@
   "lat": 45.62733,
   "lon": 5.89064,
   "km": 88.5,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Voglans",
-  "src": "",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie présente le Sabaudia bar, ouvert depuis 2025 à la brasserie : « Dégustez nos 12 bières maison à la tireuse », du lundi au vendredi de 15h30 à 22h. Vente à emporter non précisée.",
+  "addr": "1 rue centrale, 73420 Voglans",
+  "src": "https://www.brasseriebas.fr/le-bar/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Noire",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "autre",
+    "libelle": "APA (American Pale Ale)",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde bio",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée bio",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Genep' (bière au génépi)",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Fruits rouges",
+    "url": "https://www.brasseriebas.fr/nos-produits/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "04 79 34 86 06",
+   "site": "https://www.brasseriebas.fr/",
+   "source": "https://www.brasseriebas.fr/le-bar/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "mar": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "remarque": "Horaires du bar ; la page ne dit rien du week-end.",
+    "source": "https://www.brasseriebas.fr/le-bar/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie de la Pleine Lune",
