@@ -33,8 +33,8 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('la fiche détaillée (Cédric)', () => {
   test('dit d’où vient l’information, et avec quelle confiance', async ({ page }) => {
-    await page.getByTestId('recherche').fill('caribrew')
-    await ligne(page, /Caribrew/).click()
+    await page.getByTestId('recherche').fill('chaussan')
+    await ligne(page, /La Bière des Loups/).click()
     const fiche = page.getByTestId('fiche')
     await expect(fiche).toBeVisible()
 
@@ -44,7 +44,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(lien.locator('.lecteur-seul')).toHaveText(' (nouvel onglet)')
     await expect(lien).toHaveAttribute(
       'href',
-      'https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/',
+      'https://www.montsdulyonnaistourisme.fr/degustation/la-biere-des-loups-chaussan/',
     )
     await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
 
@@ -53,7 +53,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     // lirait aussi l'aide).
     await expect(fiche.getByTestId('fiche-confiance')).toHaveText(/^élevée/)
     await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
-      // Caribrew n'a aucun numéro connu : pas d'« appelez » (revue métier S17).
+      // La Bière des Loups n'a aucun numéro connu (Caribrew en avait l'exemple jusqu'à S297) : pas d'« appelez » (revue métier S17).
       'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
     )
     // S268 : sans adresse vérifiée, au centre IGN de sa commune.
@@ -65,7 +65,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
     // « En bref » le dit en français correct (vu sur la capture S295).
     await expect(fiche.getByTestId('en-bref-categorie')).toContainText('Confiance élevée ; date de vérification non renseignée.')
-    await expect(fiche).toContainText("4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest")
+    await expect(fiche).toContainText("44 chemin de Chavagneux, 69440 Chaussan")
   })
 
   test('la justification est titrée « Ce que dit la source »', async ({ page }) => {
@@ -135,8 +135,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
   })
 
   test('sans horaires vérifiés, la fiche renvoie à la source', async ({ page }) => {
-    await page.getByTestId('recherche').fill('caribrew')
-    await ligne(page, /Caribrew/).click()
+    await page.getByTestId('recherche').fill('chaussan')
+    await ligne(page, /La Bière des Loups/).click()
     await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toContainText(
       'aucun horaire vérifié jour par jour',
     )

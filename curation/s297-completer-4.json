@@ -1,0 +1,372 @@
+{
+  "lot": "s297-completer-4",
+  "propositions": [
+    {
+      "n": "Ferme de la Quintillière",
+      "changements": {
+        "beers": [
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "ambree"
+          },
+          {
+            "type": "stout"
+          },
+          {
+            "type": "autre",
+            "libelle": "Seigle"
+          },
+          {
+            "type": "autre",
+            "libelle": "Porter"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "http://www.fermedelaquintilliere.com/bieres-busard/"
+      ],
+      "extrait": "Busard Blanche, Busard Blonde et Busard Ambrée, ainsi que trois spéciales : Busard Stout, Busard Seigle et Busard Porter",
+      "choix": "Seul numéro, un mobile : écarté. Seigle et Porter en « autre ». Pas d'Untappd."
+    },
+    {
+      "n": "Nomade Brewery",
+      "changements": {
+        "contact": {
+          "tel": "04 72 50 88 53",
+          "site": "https://www.nomadebiere.fr",
+          "untappd": "https://untappd.com/NomadeBrewery",
+          "source": "https://www.nomadebiere.fr/la-taproom/",
+          "verifieLe": "2026-10-18"
+        }
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.nomadebiere.fr/la-taproom/",
+        "https://untappd.com/NomadeBrewery"
+      ],
+      "extrait": "Infos TapRoom : Mardi-mercredi 12h-22h, Jeudi-vendredi 12h-23h30, Samedi 14h30-19h ; téléphone « 04 72 50 88 53 » ; lien Untappd https://untappd.com/NomadeBrewery/beer",
+      "choix": "Deux numéros sur la page : 04 72 50 88 53 (en-tête et Infos TapRoom) retenu, 04 70 50 88 53 (bloc foodtrucks, probable coquille) écarté. Untappd ouvert : la page de Nomade Brewery à Genas. Horaires déjà conformes, inchangés."
+    },
+    {
+      "n": "Le Brass'in",
+      "changements": {
+        "contact": {
+          "tel": "04 84 88 54 06",
+          "site": "https://www.lebrassin.fr/",
+          "source": "https://www.lebrassin.fr/",
+          "verifieLe": "2026-10-18"
+        }
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.lebrassin.fr/"
+      ],
+      "extrait": "04 84 88 54 06",
+      "choix": "Horaires « de la cave » lus, nature non écrite : non proposés. Bières sans types fiables. Catégorie inchangée."
+    },
+    {
+      "n": "Brasserie Dulion",
+      "changements": {
+        "contact": {
+          "tel": "04 78 97 19 67",
+          "site": "https://brasseriedulion.com/",
+          "source": "https://brasseriedulion.com/",
+          "verifieLe": "2026-10-18"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde classique et engagée",
+            "url": "https://brasseriedulion.com/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche 100 % épeautre",
+            "url": "https://brasseriedulion.com/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA houblonnée à froid",
+            "url": "https://brasseriedulion.com/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://brasseriedulion.com/"
+      ],
+      "extrait": "04 78 97 19 67 — BLONDE CLASSIQUE & ENGAGÉE (12x33cl) — BLANCHE 100% ÉPEAUTRE (12x33cl) — IPA HOUBLONNÉE À FROID (12x33cl)",
+      "choix": "Téléphone fixe lu sur la page d'accueil. NEIPA en édition limitée écartée. Horaires non proposés : la page du bar (src) a répondu 429, et la nature (bar ou vente) n'y est pas tranchée."
+    },
+    {
+      "n": "GreDam",
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Dam Blonde",
+            "url": "https://gredambrasserie.com/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée au Seigle",
+            "url": "https://gredambrasserie.com/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://gredambrasserie.com/"
+      ],
+      "extrait": "Dam Blonde ; Ambrée au Seigle",
+      "choix": "Seules deux bières portent leur style dans leur nom ; les autres (Méliss'a, Kiwi Trip, Red Sherpa…) écartées. Mobiles écartés, fixe déjà en fiche. Horaires lus sans nature écrite : non proposés."
+    },
+    {
+      "n": "Bière bio des Monts d'Or",
+      "changements": {
+        "contact": {
+          "site": "https://www.bieresbio.fr/",
+          "source": "https://www.bieresbio.fr/",
+          "verifieLe": "2026-10-18"
+        }
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.bieresbio.fr/"
+      ],
+      "extrait": "en prenant RV par SMS au 06 21 90 20 63 ; Taverne de Curis « sera fermée d’octobre à mai 2026 »",
+      "choix": "Seul numéro, un mobile : écarté. Site officiel ajouté. Pas d'horaires fixes (sur rendez-vous)."
+    },
+    {
+      "n": "La Chénou",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "jeu": [
+              [
+                "16:00",
+                "23:00"
+              ]
+            ],
+            "ven": [
+              [
+                "16:00",
+                "23:00"
+              ]
+            ],
+            "sam": [
+              [
+                "16:00",
+                "23:00"
+              ]
+            ],
+            "remarque": "Horaires du brewpub.",
+            "source": "http://lachenou.fr/",
+            "verifieLe": "2026-10-18"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "L'Illuminée"
+          },
+          {
+            "type": "autre",
+            "libelle": "Indonesia Pale Ale"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "http://lachenou.fr/"
+      ],
+      "extrait": "Jeu, Ven et Sam : 16h – 23h (section Brewpub) ; Bali Balo : Indonesia Pale Ale ; L'Illuminée : Blond Ale",
+      "choix": "Bloc d'accueil : la page l'écrit sous « Brewpub ». Les autres jours ne sont pas écrits : laissés non précisés, pas « fermé ». Deux mobiles écartés. Pas d'Untappd."
+    },
+    {
+      "n": "Caribrew",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "jeu": [
+              [
+                "18:00",
+                "22:30"
+              ]
+            ],
+            "ven": [
+              [
+                "18:00",
+                "22:30"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "22:30"
+              ]
+            ],
+            "remarque": "Horaires du brewpub.",
+            "source": "https://microbrasseriecaribrew.fr",
+            "verifieLe": "2026-10-18"
+          }
+        ],
+        "note": "Vente directe lun-ven 8h-18h selon l'office de tourisme ; le site dit « tous les jours de 8h à 18h » pour retirer les coffrets. Brewpub : horaires d'accueil ci-dessous (ouvert depuis 2022)."
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://microbrasseriecaribrew.fr"
+      ],
+      "extrait": "Ouverture jeudi et vendredi de 18h à 22h30 / samedi de 15h à 22h30.",
+      "choix": "Le site dit 22h30, la note disait 21h30 et 22h : note corrigée. Bloc de vente non proposé (deux sources en désaccord). Fermeture d'août passée, non reprise. Mobiles écartés."
+    },
+    {
+      "n": "Autour de la Bière (Taluyers)",
+      "changements": {
+        "contact": {
+          "site": "https://www.autourdelabiere.fr/",
+          "source": "https://www.autourdelabiere.fr/",
+          "verifieLe": "2026-10-18"
+        }
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.autourdelabiere.fr/"
+      ],
+      "extrait": "Autour de la Bière, BRASSERIE CHAP'S ; Appelez-nous : 0624662837",
+      "choix": "Site officiel ajouté. Seul numéro, un mobile : écarté. Bières décrites par leur goût (cacao, framboises, pain grillé), sans style écrit : beers non rempli (le vérificateur avait déduit blonde, blanche, porter, rousse : écarté à la relecture)."
+    },
+    {
+      "n": "En Bières Inconnues",
+      "changements": {
+        "beers": [
+          {
+            "type": "lager",
+            "libelle": "Dark Lager"
+          },
+          {
+            "type": "ipa"
+          },
+          {
+            "type": "sour",
+            "libelle": "Bières acides"
+          },
+          {
+            "type": "autre",
+            "libelle": "Saison"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://enbieresinconnues.fr/"
+      ],
+      "extrait": "Dark Lagers à Pale Ale, en passant par des Saisons, American Red Ale, différentes IPA ou autres bières acides",
+      "choix": "Seul numéro, un mobile : écarté. Catégorie laissée à 0. Pale Ale et American Red Ale non reprises."
+    },
+    {
+      "n": "La Soyeuse",
+      "changements": {
+        "contact": {
+          "tel": "04 78 57 52 90",
+          "site": "https://www.lasoyeuse.fr/",
+          "source": "https://www.lasoyeuse.fr/",
+          "verifieLe": "2026-10-18"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "15:30",
+                "18:00"
+              ]
+            ],
+            "mar": [
+              [
+                "15:30",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "12:00"
+              ],
+              [
+                "15:00",
+                "18:00"
+              ]
+            ],
+            "source": "https://www.lasoyeuse.fr/",
+            "verifieLe": "2026-10-18"
+          }
+        ],
+        "note": "Boutique à la ferme ; dégustation seulement lors des visites guidées de groupe (10 personnes minimum)."
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.lasoyeuse.fr/"
+      ],
+      "extrait": "Horaires d'ouverture pour la vente directe : lundi et mardi de 15h30 à 18h et vendredi de 9h à 12h et de 15h à 18h. Téléphone : 04 78 57 52 90.",
+      "choix": "Le site dit 18h, la note (office de tourisme) disait 19h et 21h : les heures quittent la note pour le bloc de vente, tiré du site. Gammes sans type de bière : beers non rempli."
+    },
+    {
+      "n": "La Beer Fabrique",
+      "changements": {
+        "contact": {
+          "tel": "04 87 77 04 29",
+          "site": "https://www.labeerfabrique.com/",
+          "source": "https://www.labeerfabrique.com/",
+          "verifieLe": "2026-10-18"
+        }
+      },
+      "verifieLe": "2026-10-18",
+      "sources": [
+        "https://www.labeerfabrique.com/"
+      ],
+      "extrait": "Nous sommes joignable par téléphone au 04 87 77 04 29 du lundi au vendredi de 10h à 18h",
+      "choix": "Permanence téléphonique, pas des horaires d'accueil ni de vente : aucun bloc. Catégorie 3 inchangée."
+    }
+  ],
+  "revues": [
+    "La Brasserie Graphique",
+    "La Brasserie du Bout du Monde",
+    "Brasserie Kerav'ale",
+    "Microbrasserie PAB",
+    "Brasserie D'Istribilh",
+    "En Bières Inconnues",
+    "Ninkasi Brignais",
+    "Caribrew",
+    "Autour de la Bière (Taluyers)",
+    "La Chénou",
+    "La Soyeuse",
+    "La Bière des Loups",
+    "La Mousse du Hérisson",
+    "La Beer Fabrique",
+    "Tom & Co",
+    "Microbrasserie de Montchat",
+    "Ferme de la Quintillière",
+    "Le Brass'in",
+    "Single Track",
+    "Nomade Brewery",
+    "Brasserie Dulion",
+    "GreDam",
+    "La Loupiote",
+    "Bière bio des Monts d'Or",
+    "Brasserie Nepo",
+    "Domaine du Manchot",
+    "La Farlodoise",
+    "Brasserie Kachmar",
+    "Ninkasi Fabriques",
+    "L'Ours qui brasse"
+  ]
+}

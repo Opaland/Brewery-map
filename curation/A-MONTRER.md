@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (55 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (115 fiches relues)
 
-S297 a relu 55 fiches sur leur site ; 15 propositions sont entrées par la
-règle (`curation/s297-completer-1.md`, `s297-completer-2.md`). Restent :
+S297 a relu 115 fiches sur leur site. 36 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-4.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -151,6 +151,13 @@ règle (`curation/s297-completer-1.md`, `s297-completer-2.md`). Restent :
 | Brasserie Sainte Beuve | entrée par sa boutique en ligne (`eproshopping.fr`) ; le site propre est « en construction » | garder, ou attendre le site |
 | Tiens bon la Barre | « depuis 2023 à Plouasne », « 2 la gare » (l'adresse de Nautica), sur un annuaire | voir le groupe 8 |
 | BUBAR, Philmore, Beltane | annuaires seulement ; un bar, ou un brewpub | voir le groupe 8 |
+| Les Alchimistes Ivres | « directement à la brasserie (il ne nous en reste que 20 !) », visite avec dégustation | catégorie 2, confiance faible : à confirmer (lot 3, n° 1) |
+| La Bière de Groix | « dans nos boutiques à la brasserie », d'après l'office de tourisme | catégorie 2, confiance faible (lot 3, n° 9) |
+| La Ville Porte Amour, Nomade Brewery | le lien Untappd figure sur le site officiel | accepter Untappd quand le site y renvoie (lot 3, n° 5 ; lot 4, n° 2) |
+| GreDam | « Du lundi au samedi 9h30 à 12h30 et 14h30 à 19h30 », cruchons et fûts, sans le mot « vente » | dire « vente » |
+| Caribrew | vente lun.–ven. 8h-18h (office de tourisme) contre « tous les jours de 8h à 18h » (site, pour les coffrets) | à vérifier par téléphone |
+| Brasserie Kerav'ale | visites guidées de juin à septembre, mar., mer., ven. à 17h, 5 € | les mettre dans la note |
+| Tom & Co | le site répond 403 ; une annonce la dit fermée | à vérifier : fermée ? |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).

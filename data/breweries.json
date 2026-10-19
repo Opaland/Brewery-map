@@ -23,31 +23,63 @@
   "km": 4.8,
   "cat": 1,
   "conf": "solide",
-  "note": "Vente directe lun-ven 8h-18h ; brewpub jeu-ven 18h-21h30, sam 15h-22h (ouvert depuis 2022).",
+  "note": "Vente directe lun-ven 8h-18h selon l'office de tourisme ; le site dit « tous les jours de 8h à 18h » pour retirer les coffrets. Brewpub : horaires d'accueil ci-dessous (ouvert depuis 2022).",
   "addr": "4 Parc d'Activités d'Arbora, 69510 Soucieu-en-Jarrest",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/microbrasserie-artisanale-caribrew-soucieu-en-jarrest/",
   "coordPrecision": "centre",
   "beers": [],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://microbrasseriecaribrew.fr",
    "source": "https://microbrasseriecaribrew.fr",
    "verifieLe": "2026-10-18"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "ven": [
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "22:30"
+     ]
+    ],
+    "remarque": "Horaires du brewpub.",
+    "source": "https://microbrasseriecaribrew.fr",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Autour de la Bière (Taluyers)",
   "c": "Taluyers",
   "d": "69",
-  "lat": 45.63565,
-  "lon": 4.72635,
-  "km": 4.8,
+  "lat": 45.63693,
+  "lon": 4.732954,
+  "km": 4.5,
   "cat": 2,
   "conf": "moyenne",
   "note": "Magasin sur place qui vend les bières Chap's et le matériel de brassage ; pas de bar ni taproom cité. Horaires non indiqués.",
   "addr": "12 chemin des Érables, ZA de la Ronze, 69440 Taluyers",
   "src": "https://www.autourdelabiere.fr/",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "site": "https://www.autourdelabiere.fr/",
+   "source": "https://www.autourdelabiere.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "La Canute Lyonnaise",
@@ -97,12 +129,48 @@
   "addr": "364 route de Soucieu, 69440 Saint-Laurent-d'Agny",
   "src": "https://biere-tourisme.fr/brasserie/brasserie-la-chenou/",
   "coordPrecision": "centre",
-  "beers": [],
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "L'Illuminée"
+   },
+   {
+    "type": "autre",
+    "libelle": "Indonesia Pale Ale"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "http://lachenou.fr/",
    "source": "http://lachenou.fr/",
    "verifieLe": "2026-10-18"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Horaires du brewpub.",
+    "source": "http://lachenou.fr/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie Krüger",
@@ -348,7 +416,29 @@
   "addr": "520 route de Combe Boiron, Saint-Maurice-sur-Dargoire",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/ferme-de-la-quintilliere-paysan-eleveur-brasseur-chabaniere/",
   "coordPrecision": "address",
-  "beers": [],
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "autre",
+    "libelle": "Seigle"
+   },
+   {
+    "type": "autre",
+    "libelle": "Porter"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "http://www.fermedelaquintilliere.com/bieres-busard/",
    "source": "http://www.fermedelaquintilliere.com/bieres-busard/",
@@ -441,7 +531,13 @@
   "addr": "10 rue Saint-Polycarpe, 69001 Lyon",
   "src": "https://www.privateaser.com/lieu/59834-la-beer-fabrique-atelier-biere-et-microbrasserie",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 87 77 04 29",
+   "site": "https://www.labeerfabrique.com/",
+   "source": "https://www.labeerfabrique.com/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Tom & Co",
@@ -482,11 +578,47 @@
   "km": 9.6,
   "cat": 2,
   "conf": "solide",
-  "note": "Boutique à la ferme ; dégustation seulement lors des visites guidées de groupe (10 personnes minimum). Lun-mar 15h30-19h, ven 9h-12h / 15h-21h.",
+  "note": "Boutique à la ferme ; dégustation seulement lors des visites guidées de groupe (10 personnes minimum).",
   "addr": "237 route de Fondrieu, 69510 Rontalon",
   "src": "https://www.montsdulyonnaistourisme.fr/degustation/ferme-brasserie-la-soyeuse-rontalon/",
   "coordPrecision": "address",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "04 78 57 52 90",
+   "site": "https://www.lasoyeuse.fr/",
+   "source": "https://www.lasoyeuse.fr/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "15:30",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "15:30",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.lasoyeuse.fr/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "La Loupiote",
@@ -554,16 +686,22 @@
   "n": "Le Brass'in",
   "c": "Fontaines-sur-Saône",
   "d": "69",
-  "lat": 45.82561,
-  "lon": 4.85803,
-  "km": 18.6,
+  "lat": 45.83369,
+  "lon": 4.847644,
+  "km": 19.1,
   "cat": 1,
   "conf": "faible",
   "note": "Cave à bières à la même adresse que Single Track : achat et dégustations ; le bar décrit par la fiche est celui de Single Track.",
   "addr": "17 rue Pierre Carbon, 69270 Fontaines-sur-Saône",
   "src": "https://www.lebrassin.fr/details-brasserie+artisanale+avec+fabrication+et+vente+de+biere+originale+a+fontaines-sur-saone+pres+de+lyon-139",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "tel": "04 84 88 54 06",
+   "site": "https://www.lebrassin.fr/",
+   "source": "https://www.lebrassin.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Brasserie Dulion",
@@ -578,7 +716,30 @@
   "addr": "130 avenue de l'Industrie, 69140 Rillieux-la-Pape",
   "src": "https://brasseriedulion.com/pages/le-bar-dulion",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde classique et engagée",
+    "url": "https://brasseriedulion.com/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche 100 % épeautre",
+    "url": "https://brasseriedulion.com/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA houblonnée à froid",
+    "url": "https://brasseriedulion.com/"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "04 78 97 19 67",
+   "site": "https://brasseriedulion.com/",
+   "source": "https://brasseriedulion.com/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "FFAKE Brasserie",
@@ -676,7 +837,19 @@
   "addr": "20 chemin du Pontet, 69380 Civrieux-d'Azergues",
   "src": "https://gredambrasserie.com/",
   "coordPrecision": "address",
-  "beers": [],
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Dam Blonde",
+    "url": "https://gredambrasserie.com/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée au Seigle",
+    "url": "https://gredambrasserie.com/"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "tel": "04 78 33 84 95",
    "site": "https://gredambrasserie.com/",
@@ -703,16 +876,21 @@
   "n": "Bière bio des Monts d'Or",
   "c": "Curis-au-Mont-d'Or",
   "d": "69",
-  "lat": 45.86901,
-  "lon": 4.82168,
-  "km": 22.2,
+  "lat": 45.869667,
+  "lon": 4.819369,
+  "km": 22.3,
   "cat": 1,
   "conf": "moyenne",
   "note": "« La Taverne » : dégustation sur place le vendredi et le samedi en été (fermée d'octobre à mai), vente directe tous les jours sur rendez-vous.",
   "addr": "18 chemin des Carrières, 69250 Curis-au-Mont-d'Or",
   "src": "https://www.bieresbio.fr/",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "contact": {
+   "site": "https://www.bieresbio.fr/",
+   "source": "https://www.bieresbio.fr/",
+   "verifieLe": "2026-10-18"
+  }
  },
  {
   "n": "Domaine du Manchot",
@@ -4057,14 +4235,105 @@
   "lat": 49.59619,
   "lon": -1.27116,
   "km": 627.3,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie avec estaminet et boutique d'après l'office de tourisme, mais le passage lu a pu être reformulé par l'outil de lecture : catégorie à confirmer.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar / taproom « Les 3 Tontons » avec bières à la pression sur place, et magasin d'usine qui vend les bières en bouteille, d'après le site de la brasserie.",
   "addr": "10 ZA du Pont des Bernes, 50550 Saint-Vaast-la-Hougue",
-  "src": "https://brasseriepintedesaire.fr",
+  "src": "https://brasseriepintedesaire.fr/estaminet",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "site": "https://brasseriepintedesaire.fr",
+   "source": "https://brasseriepintedesaire.fr",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "dim": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Horaires du « Bar / Taproom ». Le lundi n'est pas mentionné sur la page.",
+    "source": "https://brasseriepintedesaire.fr/estaminet",
+    "verifieLe": "2026-10-18"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "dim": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Horaires du « Magasin d'usine ». Le lundi n'est pas mentionné sur la page.",
+    "source": "https://brasseriepintedesaire.fr/estaminet",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Les Travailleurs de la Mer",
@@ -4606,14 +4875,71 @@
   "lat": 48.78509,
   "lon": -3.23294,
   "km": 694.7,
-  "cat": 0,
-  "conf": "",
-  "note": "Visites guidées annoncées par l'office de tourisme ; vente sur place non lue, site officiel injoignable (503).",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Tap room avec terrasse, bières de la brasserie servies sur place et planches apéritives ; ouverture annoncée en juillet-août (mardi au samedi, 16 h–22 h) et à des dates ponctuelles.",
   "addr": "Parc Sainte Catherine, 22220 Tréguier",
-  "src": "https://www.jds.fr/activite-experience/visites/visite-guidee-de-la-brasserie-philomenn-1597827_A",
+  "src": "https://philomenn.fr/tap-room/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sans-alcool"
+   }
+  ],
+  "verifieLe": "2026-10-18",
+  "contact": {
+   "tel": "02 96 92 24 52",
+   "site": "https://philomenn.fr/",
+   "source": "https://philomenn.fr/",
+   "verifieLe": "2026-10-18"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Horaires de juillet-août ; le reste de l'année, la page annonce seulement des ouvertures ponctuelles.",
+    "source": "https://philomenn.fr/tap-room/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "La Grobul' Factory",
@@ -4707,8 +5033,31 @@
   "addr": "10 rue de l'Europe, 22680 Binic-Étables-sur-Mer",
   "src": "https://www.brasserie-uncle.com",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "lager"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple belge"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://www.brasserie-uncle.com/",
    "source": "https://www.brasserie-uncle.com",
@@ -4722,20 +5071,93 @@
   "lat": 48.63239,
   "lon": -2.37299,
   "km": 631.0,
-  "cat": 0,
-  "conf": "",
-  "note": "Le site a une rubrique « Boutique – Bar » sans dire ce qu'on y fait ; horaires non lus.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie : bières en bouteilles de 33 cl et 75 cl, ouverte du mardi au samedi d'après le site officiel ; ce que le « bar » propose n'est pas dit.",
   "addr": "Rue de la Pièce Monsieur, 22240 Fréhel",
-  "src": "https://www.lafreheloise.bzh/",
+  "src": "https://www.lafreheloise.bzh/les-horaires-de-la-boutique/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "tel": "02 96 86 36 28",
    "site": "https://www.lafreheloise.bzh/",
    "source": "https://www.lafreheloise.bzh/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "16:00",
+      "18:30"
+     ]
+    ],
+    "source": "https://www.lafreheloise.bzh/les-horaires-de-la-boutique/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie Dimezell",
@@ -4840,9 +5262,21 @@
    },
    {
     "type": "blanche"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse irlandaise"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple"
+   },
+   {
+    "type": "autre",
+    "libelle": "Barley wine"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://www.brasseriedes7iles.com/",
    "source": "https://www.brasseriedes7iles.com",
@@ -5087,11 +5521,11 @@
   "lat": 48.27766,
   "lon": -3.56302,
   "km": 693.8,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie avec dégustations le samedi matin au marché (à l'Ambasad) ; vente à la brasserie non établie.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Boutique à la brasserie (lundi au samedi) et passage au comptoir du bar pour une dégustation à chaque visite, sur rendez-vous ; dégustations gratuites le samedi.",
   "addr": "2 Place de la Gare, 29270 Carhaix-Plouguer",
-  "src": "https://brasserie-coreff.com/",
+  "src": "https://www.brasserie-coreff.com/la-brasserie/elle-se-boit-et-elle-se-visite/",
   "coordPrecision": "address",
   "beers": [
    {
@@ -5110,13 +5544,77 @@
     "type": "ipa"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "tel": "02 98 93 00 70",
    "site": "https://brasserie-coreff.com/",
    "source": "https://brasserie-coreff.com/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Horaires de la boutik. Visites toute l'année sur rendez-vous ; visites fixes le jeudi et le vendredi à 11h en juillet-août.",
+    "source": "https://www.brasserie-coreff.com/la-brasserie/elle-se-boit-et-elle-se-visite/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Brasserie de Bretagne",
@@ -5252,8 +5750,24 @@
   "addr": "Brest",
   "src": "https://enbieresinconnues.fr/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "lager",
+    "libelle": "Dark Lager"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "sour",
+    "libelle": "Bières acides"
+   },
+   {
+    "type": "autre",
+    "libelle": "Saison"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://enbieresinconnues.fr/",
    "source": "https://enbieresinconnues.fr/",
@@ -5295,9 +5809,25 @@
    },
    {
     "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "stout"
+   },
+   {
+    "type": "autre",
+    "libelle": "Saison"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://www.le-grain-du-ponant.com/",
    "source": "https://www.le-grain-du-ponant.com/",
@@ -6169,9 +6699,9 @@
   "lat": 47.65813,
   "lon": -3.19398,
   "km": 645.0,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie d'Étel ; la phrase lue renvoie à l'épicerie sans dire ce qu'on y achète.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Vente sur place du mardi au samedi ; brewpub le vendredi soir en horaires d'hiver ; visites avec dégustation à la fin.",
   "addr": "4 rue Victor Hugo, 56410 Étel",
   "src": "https://beer.grandcoeff.bzh/",
   "coordPrecision": "address",
@@ -6184,14 +6714,68 @@
    },
    {
     "type": "stout"
+   },
+   {
+    "type": "autre",
+    "libelle": "Pale Ale"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://beer.grandcoeff.bzh/",
    "source": "https://beer.grandcoeff.bzh/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "09:30",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:30",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:30",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "19:00"
+     ]
+    ],
+    "remarque": "Si le brasseur n'est pas là, s'adresser à l'épicerie.",
+    "source": "https://beer.grandcoeff.bzh/",
+    "verifieLe": "2026-10-18"
+   },
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Brewpub, horaires d'hiver.",
+    "source": "https://beer.grandcoeff.bzh/",
+    "verifieLe": "2026-10-18"
+   }
+  ]
  },
  {
   "n": "Déferle Micro-brasserie",
@@ -6301,9 +6885,10 @@
   "beers": [],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "02 56 62 61 03",
    "site": "https://anebrasseur.fr/",
-   "source": "https://anebrasseur.fr/",
-   "verifieLe": "2026-10-17"
+   "source": "https://anebrasseur.fr/contact.php",
+   "verifieLe": "2026-10-18"
   }
  },
  {
@@ -6351,8 +6936,19 @@
   "addr": "Locoal-Mendon",
   "src": "https://brasserie-gwennili.fr/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "lager"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Saison"
+   }
+  ],
+  "verifieLe": "2026-10-18",
   "contact": {
    "site": "https://brasserie-gwennili.fr/",
    "source": "https://brasserie-gwennili.fr/",

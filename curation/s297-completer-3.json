@@ -1,0 +1,701 @@
+{
+ "lot": "s297-completer-3",
+ "propositions": [
+  {
+   "n": "Brasserie Les Alchimistes Ivres",
+   "changements": {
+    "cat": 2,
+    "conf": "faible",
+    "note": "Le site annonce une bière à retrouver « directement à la brasserie » (mention unique, dans un message sur une bière dont il ne reste que 20 bouteilles) ; visites avec dégustation commentée de 3 bières, sur réservation. Pas d'horaires de vente, pas de bar ouvert au public lu.",
+    "src": "https://www.alchimistes-ivres.com",
+    "beers": [
+     {
+      "type": "lager"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "sour"
+     },
+     {
+      "type": "sans-alcool"
+     },
+     {
+      "type": "autre",
+      "libelle": "Porter fumée"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.alchimistes-ivres.com"
+   ],
+   "extrait": "à retrouver sur notre boutique en ligne, chez ton caviste préféré, ou directement à la brasserie (attention il ne nous en reste que 20 !) | La visite se termine par une dégustation commentée de 3 bières craft. | Eldrin • Hoppy Pils • 4 % | Orendil • Hazy IPA • 7 % | La Corne qui Fume • Porter fumée • 5 % | Mystra - Pastry Sour Mûre Chocolat blanc Vanille - 6 % | Faenn - hopwater, notre premier soft avec les houblons Citra & Nelson Sauvin - 0% | Noctis, Dry Coffee Stout 4,5%",
+   "choix": "Seul numéro, un mobile : écarté. Confiance faible : une seule mention de vente sur place. « Hoppy Pils » classée lager, à confirmer."
+  },
+  {
+   "n": "Brasserie Pinte de Saire",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar / taproom « Les 3 Tontons » avec bières à la pression sur place, et magasin d'usine qui vend les bières en bouteille, d'après le site de la brasserie.",
+    "src": "https://brasseriepintedesaire.fr/estaminet",
+    "contact": {
+     "site": "https://brasseriepintedesaire.fr",
+     "source": "https://brasseriepintedesaire.fr",
+     "verifieLe": "2026-10-18"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "01:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "01:00"
+       ]
+      ],
+      "dim": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Horaires du « Bar / Taproom ». Le lundi n'est pas mentionné sur la page.",
+      "source": "https://brasseriepintedesaire.fr/estaminet",
+      "verifieLe": "2026-10-18"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "19:00"
+       ]
+      ],
+      "dim": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Horaires du « Magasin d'usine ». Le lundi n'est pas mentionné sur la page.",
+      "source": "https://brasseriepintedesaire.fr/estaminet",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://brasseriepintedesaire.fr",
+    "https://brasseriepintedesaire.fr/estaminet"
+   ],
+   "extrait": "Page /estaminet — « Bar / Taproom » : « Mardi - Jeudi » « 17h - 23h » ; « Vendredi » « 17h - 1h » ; « Samedi » « 11h - 1h » ; « Dimanche » « 17h - 23h ». « Magasin d'usine » : « Mardi - Jeudi » « 15h - 19h » ; « Vendredi » « 15h - 19h » ; « Samedi » « 11h - 19h » ; « Dimanche » « 17h - 19h ». « Retrouvez toutes nos bières bouteilles en vente dans notre magasin d'usine ainsi que d'autres produits locaux. »",
+   "choix": "Seul numéro, un mobile : écarté. Confiance moyenne : horaires lus colonne par colonne par l'outil de lecture, à relire. Pas de styles de bière décrits. Pas d'Untappd."
+  },
+  {
+   "n": "La Fréheloise",
+   "changements": {
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de la brasserie : bières en bouteilles de 33 cl et 75 cl, ouverte du mardi au samedi d'après le site officiel ; ce que le « bar » propose n'est pas dit.",
+    "src": "https://www.lafreheloise.bzh/les-horaires-de-la-boutique/",
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "mer": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "16:00",
+        "18:30"
+       ]
+      ],
+      "source": "https://www.lafreheloise.bzh/les-horaires-de-la-boutique/",
+      "verifieLe": "2026-10-18"
+     }
+    ],
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "brune"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.lafreheloise.bzh/les-horaires-de-la-boutique/",
+    "https://www.lafreheloise.bzh/la-boutique/"
+   ],
+   "extrait": "La boutique est ouverte du mardi au samedi de 10h30 à 12h30, et de 16h00 à 18h30. | bouteilles de 33cl et 75cl | Dukez : blonde, blanche, ambrée ; ROUANEZ certifiée BIO : blonde, ambrée, IPA, brune",
+   "choix": "Téléphone déjà en fiche, inchangé. Bloc « vente » : la page dit « La boutique ». Catégorie 2 et non 1 : le site ne dit pas ce que le « bar » propose. Pas d'Untappd."
+  },
+  {
+   "n": "Brasserie Gwennili",
+   "changements": {
+    "beers": [
+     {
+      "type": "lager"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "autre",
+      "libelle": "Saison"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://brasserie-gwennili.fr/bieres/"
+   ],
+   "extrait": "\"Roger roger\" : Pilsner ; \"La saison des hirondelles\" : Petite saison ; \"Tractor IPA\" : West Coast IPA ; \"Brassins éphémères\" : Selon l'humeur du brasseur",
+   "choix": "Pilsner en lager, saison en autre. Aucun téléphone publié. Catégorie laissée à 0 : « en vente directe » sans lieu ni horaires. Pas d'Untappd."
+  },
+  {
+   "n": "Brasserie de La Ville Porte Amour",
+   "changements": {
+    "contact": {
+     "site": "http://www.lavilleporteamour.fr/",
+     "untappd": "https://untappd.com/BrasseriedeLaVillePorteAmour",
+     "source": "http://www.lavilleporteamour.fr",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "http://www.lavilleporteamour.fr",
+    "https://untappd.com/BrasseriedeLaVillePorteAmour"
+   ],
+   "extrait": "Site officiel : lien Untappd https://untappd.com/BrasseriedeLaVillePorteAmour. Page Untappd ouverte : Brasserie de La Ville Porte Amour, Plouvara.",
+   "choix": "Aucun téléphone (un e-mail seulement). « Vendredi : 16h - 19h » et « sur rendez-vous via notre Click & Collect » lus sans nature écrite : non proposés. Catégorie laissée à 0. La page se dit en reconstruction."
+  },
+  {
+   "n": "Brasserie de l'Estran (Grand Coeff)",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Vente sur place du mardi au samedi ; brewpub le vendredi soir en horaires d'hiver ; visites avec dégustation à la fin.",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "autre",
+      "libelle": "Pale Ale"
+     }
+    ],
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "09:30",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:30",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:30",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:30",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:30",
+        "19:00"
+       ]
+      ],
+      "remarque": "Si le brasseur n'est pas là, s'adresser à l'épicerie.",
+      "source": "https://beer.grandcoeff.bzh/",
+      "verifieLe": "2026-10-18"
+     },
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Brewpub, horaires d'hiver.",
+      "source": "https://beer.grandcoeff.bzh/",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://beer.grandcoeff.bzh/"
+   ],
+   "extrait": "« du mardi au samedi : 09h30 -19h00 » (vente sur place) ; « Brewpub (horaires d'hiver) : le vendredi : 16h00 -22h00 » ; « Si le brasseur n'est pas là, s'adresser à l'épicerie ! » ; Grand Coeff. IPA, Pale Ale (English Pale Ale), Witbier, Stout (Irish Stout).",
+   "choix": "Seul numéro, un mobile : écarté. Catégorie 1 en confiance moyenne : vente sur place et brewpub écrits. Pale Ale en « autre »."
+  },
+  {
+   "n": "L'âne Brasseur",
+   "changements": {
+    "contact": {
+     "tel": "02 56 62 61 03",
+     "site": "https://anebrasseur.fr/",
+     "source": "https://anebrasseur.fr/contact.php",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://anebrasseur.fr/contact.php"
+   ],
+   "extrait": "« 02 56 62 61 03 » ; « Lann Guilloux » ; « 56480 Saint Aignan »",
+   "choix": "Un seul numéro, fixe, sur la page Contact. Horaires non proposés (seul le jour de fermeture est dit). Catégorie laissée à 0."
+  },
+  {
+   "n": "Brasserie Coreff",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Boutique à la brasserie (lundi au samedi) et passage au comptoir du bar pour une dégustation à chaque visite, sur rendez-vous ; dégustations gratuites le samedi.",
+    "src": "https://www.brasserie-coreff.com/la-brasserie/elle-se-boit-et-elle-se-visite/",
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:30"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:30"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:30"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "remarque": "Horaires de la boutik. Visites toute l'année sur rendez-vous ; visites fixes le jeudi et le vendredi à 11h en juillet-août.",
+      "source": "https://www.brasserie-coreff.com/la-brasserie/elle-se-boit-et-elle-se-visite/",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-coreff.com/la-brasserie/elle-se-boit-et-elle-se-visite/"
+   ],
+   "extrait": "Découvrez notre boutik où vous trouverez une sélection de nos meilleures bières, ainsi que des produits dérivés. / Horaires : Du lundi au vendredi : 9h-12h30 et 13h30-17h30 / Le samedi 10h-17h en continu / Pas de visite sans un passage au comptoir du bar pour une dégustation. / Visites toute l’année sur RDV",
+   "choix": "Confiance moyenne : la dégustation est liée à la visite sur rendez-vous ; seule la boutik a des horaires, rangés en « vente ». Téléphone déjà en fiche."
+  },
+  {
+   "n": "La Bière de Groix",
+   "changements": {
+    "cat": 2,
+    "conf": "faible",
+    "note": "La fiche de l'office de tourisme dit les bières vendues « dans nos boutiques à la brasserie » ; la dégustation n'est citée que dans la visite guidée sur réservation (groupes de 8 adultes minimum). Horaires non publiés.",
+    "beers": [
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     }
+    ],
+    "contact": {
+     "site": "http://www.bieresdegroix.com",
+     "source": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+     "verifieLe": "2026-10-18"
+    }
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/la-biere-de-groix-ile-de-groix_TFOZBIEREDEGROIX",
+    "http://www.bieresdegroix.com"
+   ],
+   "extrait": "Fiche tourisme : « dans nos boutiques à la brasserie » ; « Site Internet : http://www.bieresdegroix.com » ; visite « 40mn + 15 mn de dégustation ». Site officiel : « La GX ambrée », « La GX blonde », « La GX brute IPA », « La GX fumée », « La GX poivre », « GX Blanche ».",
+   "choix": "Confiance faible : la vente vient d'une fiche d'office de tourisme. Téléphone lu sur cette fiche seulement : écarté."
+  },
+  {
+   "n": "Brasserie Uncle",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "lager"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple belge"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasserie-uncle.com/bieresuncle"
+   ],
+   "extrait": "« Bière blonde » (Saint-Quay) ; « Bière IPA » (Armorican IPA) ; « Bière Pils » ; « Bière de blé » (Witbier) ; « Bière Stout » ; « Bière Red Ale » (New Zealand Ale) ; « Bière Belge Triple »",
+   "choix": "Seul numéro, un mobile : écarté. Red Ale rangée en ambrée, Pils en lager, bière de blé en blanche : à confirmer. Catégorie 0 inchangée."
+  },
+  {
+   "n": "Le Grain du Ponant",
+   "changements": {
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "autre",
+      "libelle": "Saison"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.le-grain-du-ponant.com/"
+   ],
+   "extrait": "Écume : bière blanche bio ; Bélon : blonde bio ; Amer Riec : ambrée ; Dourdu : brune de type irlandais ; La Bourrasque : IPA double ; Toull Du : stout impérial ; Une saison au Ponant : saison",
+   "choix": "Trois numéros, tous mobiles : aucun retenu. Horaires d'été lus sans nature : non proposés. Catégorie 0 inchangée."
+  },
+  {
+   "n": "Brasserie Philomenn",
+   "changements": {
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Tap room avec terrasse, bières de la brasserie servies sur place et planches apéritives ; ouverture annoncée en juillet-août (mardi au samedi, 16 h–22 h) et à des dates ponctuelles.",
+    "src": "https://philomenn.fr/tap-room/",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "sans-alcool"
+     }
+    ],
+    "contact": {
+     "tel": "02 96 92 24 52",
+     "site": "https://philomenn.fr/",
+     "source": "https://philomenn.fr/",
+     "verifieLe": "2026-10-18"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Horaires de juillet-août ; le reste de l'année, la page annonce seulement des ouvertures ponctuelles.",
+      "source": "https://philomenn.fr/tap-room/",
+      "verifieLe": "2026-10-18"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://philomenn.fr/",
+    "https://philomenn.fr/tap-room/"
+   ],
+   "extrait": "« Venez vous installer en terrasse, à l’ombre des arbres du parc, » / « Blonde, ambrée, IPA ou sans alcool – dégustez nos créations brassées à Tréguier. » / « nos planches apéritives mettent à l’honneur les produits locaux des Côtes-d’Armor » / « Ouverture JUILLET / AOÛT : du mardi au samedi DE 16H A 22H » / (page d'accueil) « Contact Brasserie : info@philomenn.com » … « 0033 (0)2 96 92 24 52 »",
+   "choix": "Téléphone de la brasserie retenu ; celui de l'office de tourisme écarté. Catégorie 1 en confiance moyenne : on boit sur place au tap room ; vente à emporter non lue ; horaires saisonniers, en remarque."
+  },
+  {
+   "n": "Brasserie des 7 Îles",
+   "changements": {
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rousse irlandaise"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple"
+     },
+     {
+      "type": "autre",
+      "libelle": "Barley wine"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-18",
+   "sources": [
+    "https://www.brasseriedes7iles.com"
+   ],
+   "extrait": "Bonno : blonde, 5,5 % ; Costans : brune, 5 % ; Malban : IPA, 6 % ; Rouzic Blanche : blanche, 6 % ; Rouzic Rousse : rousse de style irlandais, 5 % ; Moines : triple, 9 % ; Cerf : barley wine, 9 %",
+   "choix": "Seul numéro, un mobile : écarté. Horaires lus sans nature : non proposés. Catégorie inchangée."
+  }
+ ],
+ "revues": [
+  "Brasserie Casse-Grain",
+  "Brasserie Akène",
+  "La Moussette",
+  "Brasserie Les Alchimistes Ivres",
+  "Microbrasserie VOL 56",
+  "Les Brassins du Lion d'Or",
+  "La Dinardaise Brasserie",
+  "Horla",
+  "Bar Brasserie Artisanale l'Etrille",
+  "Brasserie Pinte de Saire",
+  "La Fréheloise",
+  "Brasserie de Launay",
+  "Brasserie Cotentine",
+  "Brasserie Gwennili",
+  "Brasserie de l'Hermine",
+  "Brasserie artisanale L'Âne Doré",
+  "Brasserie de l'Estran (Grand Coeff)",
+  "Déferle Micro-brasserie",
+  "L'âne Brasseur",
+  "Brasserie de La Ville Porte Amour",
+  "Brasserie Uncle",
+  "La Bière de Groix",
+  "Le Grain du Ponant",
+  "Brasserie Coreff",
+  "L'Armateur",
+  "Brasserie Philomenn",
+  "Brasserie Régionale de l'Ouest",
+  "Brasstillerie KanArFoll",
+  "Brasserie des 7 Îles",
+  "Brasserie An Alarc'h"
+ ]
+}
