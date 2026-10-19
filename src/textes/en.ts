@@ -59,7 +59,7 @@ export const EN: Readonly<Record<string, string>> = {
   "La signaler": "Report it",
   "(sur GitHub, compte gratuit nécessaire, signalement public).": "(on GitHub, free account needed, public report).",
   "Code source": "Source code",
-  "Fiches vérifiées : 79 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.": "Checked breweries: 79 completed on 18 and 19 October 2026, from their own website; 139 placed at the centre of their town according to IGN, for want of a checked address; 192 breweries added in Normandy, Brittany, Pays de la Loire and Indre-et-Loire.",
+  "Fiches vérifiées : 91 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.": "Checked breweries: 91 completed on 18 and 19 October 2026, from their own website; 139 placed at the centre of their town according to IGN, for want of a checked address; 192 breweries added in Normandy, Brittany, Pays de la Loire and Indre-et-Loire.",
   "Les Pays de la Loire et l’Indre-et-Loire sur la carte : 75 brasseries.": "Pays de la Loire and Indre-et-Loire on the map: 75 breweries.",
   "La Bretagne sur la carte : 81 brasseries des Côtes-d’Armor, du Finistère, d’Ille-et-Vilaine et du Morbihan.": "Brittany on the map: 81 breweries in Côtes-d’Armor, Finistère, Ille-et-Vilaine and Morbihan.",
   "La Normandie sur la carte : 36 brasseries du Calvados, de l’Eure, de la Manche, de l’Orne et de Seine-Maritime.": "Normandy on the map: 36 breweries in Calvados, Eure, Manche, Orne and Seine-Maritime.",
@@ -361,4 +361,5 @@ export const EN: Readonly<Record<string, string>> = {
   "Sites, téléphones, horaires et bières ajoutés à 15 brasseries de plus, relus sur leur propre site.": "Websites, phone numbers, opening hours and beers added to 15 more breweries, checked on their own website.",
   "Sites, téléphones, horaires et bières ajoutés à 16 brasseries de plus, relus sur leur propre site ; 3 placées à leur adresse.": "Websites, phone numbers, opening hours and beers added to 16 more breweries, checked on their own website; 3 placed at their address.",
   "Sites, téléphones, horaires et bières ajoutés à 9 brasseries de la Loire, du Rhône, de l’Ain et de la Drôme, relus sur leur propre site.": "Websites, phone numbers, opening hours and beers added to 9 breweries in the Loire, Rhône, Ain and Drôme, checked on their own website.",
+  "Sites, téléphones, horaires et bières ajoutés à 16 brasseries des Alpes, de l’Ouest et de Normandie, relus sur leur propre site.": "Websites, phone numbers, opening hours and beers added to 16 breweries in the Alps, western France and Normandy, checked on their own website.",
 }
