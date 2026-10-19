@@ -43,10 +43,11 @@ test('le repère ne capte pas le toucher : un marqueur dessous reste choisissabl
 
 test.describe('une brasserie choisie dans un groupe (S40)', () => {
   test('le groupe qui la contient le montre, et le dit au lecteur d’écran', async ({ page }) => {
-    // « rillieux-la-pape » : deux brasseries au centre IGN de la commune, un
-    // groupe « 2 » à tout zoom (decouverte.spec.ts). Fontaines-sur-Saône l'était
-    // jusqu'à S297, où Le Brass'in est passée à son adresse.
-    await page.getByTestId('recherche').fill('rillieux-la-pape')
+    // « sassenage » : deux brasseries au centre IGN de la commune (Les Cuves,
+    // La Furieuse), un groupe « 2 » à tout zoom (decouverte.spec.ts).
+    // Fontaines-sur-Saône l'était jusqu'à S297 (Le Brass'in à son adresse),
+    // puis Rillieux-la-Pape jusqu'à S298 (FFAKE retirée).
+    await page.getByTestId('recherche').fill('sassenage')
     await expect(page.locator('button.ligne')).toHaveCount(2)
     const nom = (await page.locator('button.ligne').nth(1).getAttribute('data-nom')) ?? ''
     await page.locator('button.ligne').nth(1).click()

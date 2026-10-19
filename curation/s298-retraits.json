@@ -1,0 +1,98 @@
+{
+  "lot": "s298-retraits",
+  "propositions": [],
+  "retraits": [
+    {
+      "n": "Brasserie du Chartreux",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Lantignié. Aucune page Untappd ni aucun site web trouvé pour Lantignié. Le seul nom proche, Brasserie Coeur de Chartreuse (untappd.com/w/brasserie-coeur-de-chartreuse/430270), est à Miribel-les-Échelles : ce n'est pas la même brasserie.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=du+Chartreux+Lantigni%C3%A9"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie Rhôdanienne",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Saint-Jean-de-Muzols. Aucune page Untappd ni aucun site web, avec ou sans accent. Deux autres brasseries apparaissent à Saint-Jean-de-Muzols, Free-Mousse et La Chouette ; rien ne les relie à ce nom.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=Rh%C3%B4danienne+Saint-Jean-de-Muzols"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie des Utopies",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Chanos-Curson. Aucune page Untappd ni aucun site web. La seule brasserie trouvée à Chanos-Curson est « CCB Brewery » (1000 route de Romans, fiche de l'office de tourisme) ; rien ne la relie à ce nom.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=des+Utopies+Chanos-Curson"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie Hildegarde",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Chanos-Curson. Aucune page Untappd ni aucun site web. Les « Hildegarde » trouvés sont des bières d'ailleurs, dont la Réserve Hildegarde de la Brasserie Saint-Germain à Aix-Noulette, sans lien avec Chanos-Curson.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=Hildegarde+Chanos-Curson"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie du Revermont (Les Deux Frères)",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Peyrieu. Aucune fiche Untappd à Peyrieu ; « Brasserie du Revermont » n'apparaît que comme alias d'une fiche « Brasserie Les Deux Frères » (/w/brasserie-les-deux-fra-res/171679) située à Saint-Rémy-de-Provence et marquée no longer in business, donc sans rapport sûr avec cette fiche ; aucun site trouvé.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=du+Revermont+%28Les+Deux+Fr%C3%A8res%29+Peyrieu"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie Polack",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Saint-Bueil. Aucune brasserie française de ce nom dans l'index Untappd, seulement des homonymes étrangers ; aucun site trouvé par la recherche web.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=Polack+Saint-Bueil"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Ferme-Brasserie de Belmonthé",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Belmont-Luthézieu. Je n'ai trouvé ni page Untappd ni site propre à la brasserie. Elle n'apparaît que dans des annuaires de bière (biere-france.com, biblebiere, pages perso) et le registre ne donne rien, donc elle tombe dans le cas « annuaire seul » de la règle de Cédric.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=Ferme-de+Belmonth%C3%A9+Belmont-Luth%C3%A9zieu"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Les Aubépines",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Sainte-Consorce. Je n'ai trouvé ni page Untappd ni site propre. Seuls des annuaires (dago.beer, biblebiere, pages perso) la citent au 3 clos des Roches, avec une fondation en 2015, et le registre ne donne rien.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=Les+Aub%C3%A9pines+Sainte-Consorce"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "FFAKE Brasserie",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Rillieux-la-Pape. Je n'ai trouvé ni page Untappd ni site. Le seul indice est une mention « F FAKE BRASSERIE NEW » dans l'annuaire hophophop, et le nom fait penser à une fiche de test. La seule brasserie de Rillieux-la-Pape sur Untappd est Brasserie Dulion (https://untappd.com/w/brasserie-dulion/227628), une autre entité.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=FFAKE+Brasserie+Rillieux-la-Pape"
+      ],
+      "verifieLe": "2026-10-19"
+    },
+    {
+      "n": "Brasserie des Monts du Lyonnais",
+      "raison": "Méthode d'existence de Cédric (19/10) : ni page Untappd, ni site officiel, ni entreprise au registre à Saint-Martin-en-Haut. Aucune page Untappd sous ce nom ; brasseriedesmontsdulyonnais.com, cité par une fiche de 2016 (6 route de Rontalon), ne résout plus (ENOTFOUND). La seule brasserie de Saint-Martin-en-Haut sur Untappd est Brasserie La Frivole (untappd.com/LaFrivole, 55 Grande Rue). Rien ne la relie à cette fiche, il ne faut donc pas la confondre avec elle.",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=des+Monts+du+Lyonnais+Saint-Martin-en-Haut"
+      ],
+      "verifieLe": "2026-10-19"
+    }
+  ],
+  "revues": [
+    "Brasserie du Chartreux",
+    "Brasserie Rhôdanienne",
+    "Brasserie des Utopies",
+    "Brasserie Hildegarde",
+    "Brasserie du Revermont (Les Deux Frères)",
+    "Brasserie Polack",
+    "Ferme-Brasserie de Belmonthé",
+    "Les Aubépines",
+    "FFAKE Brasserie",
+    "Brasserie des Monts du Lyonnais"
+  ]
+}

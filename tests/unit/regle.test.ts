@@ -161,3 +161,13 @@ describe('sansLesAppliquees (S272 : ce qu’un accord a fait entrer ne se décid
     expect(r.appliquees).toEqual({ a: [1, 2, 4] })
   })
 })
+
+describe('un retrait n’entre jamais par la règle (S298)', () => {
+  it('CA3 : il est montré, avec sa raison', () => {
+    const l = lot('r', [])
+    l.lot.retraits = [{ n: 'Brasserie X', raison: 'aucune trace', sources: [], verifieLe: J1 }]
+    const r = trierParRegle([l])
+    expect(r.acceptees).toEqual({})
+    expect(r.aMontrer).toEqual([{ lot: 'r', numero: 1, n: 'Brasserie X', raison: 'retrait : seulement sur l’accord écrit de Cédric' }])
+  })
+})

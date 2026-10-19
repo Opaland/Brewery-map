@@ -19,7 +19,8 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
 par un test. Au 19/10, après les onze lots de S297 (toutes les fiches relues une fois) :
-**18 fiches complètes sur 358** ; 171 « À confirmer » ; 204 sans bières, 275 sans téléphone, 269 sans horaires.
+**18 fiches complètes sur 348** ; 161 « À confirmer » ; 194 sans bières, 265 sans téléphone, 259 sans horaires.
+Le 19/10, 10 fiches sans aucune trace ont été retirées (S298, méthode de Cédric).
 Les fiches sans source, relues, attendent une décision de Cédric :
 `curation/s297-sans-source.md` (fiches sans trace, cessée, site piraté,
 autre commune).

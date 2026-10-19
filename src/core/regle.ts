@@ -110,6 +110,11 @@ export function trierParRegle(
       if (nom.startsWith('dep-')) accepter(nom, numero)
       else aMontrer.push({ lot: nom, numero, n: a.fiche.n, raison: 'fiche nouvelle hors des lots départementaux : pas dans la règle' })
     })
+    // S298 : retirer une fiche n'est pas dans la règle du 18/10.
+    ;(lot.retraits ?? []).forEach((r, i) => {
+      const numero = lot.propositions.length + (lot.ajouts ?? []).length + i + 1
+      aMontrer.push({ lot: nom, numero, n: r.n, raison: 'retrait : seulement sur l’accord écrit de Cédric' })
+    })
   })
 
   // Un centre IGN passe après tout le reste : une adresse vérifiée, même plus

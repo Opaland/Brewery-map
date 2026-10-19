@@ -14,17 +14,17 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 358 | 18 (5 %) | 54 | 171 | 166 | 236 | 275 | 269 | 204 |
-| 01 · Ain | 16 | 0 (0 %) | 7 | 10 | 11 | 16 | 13 | 15 | 13 |
-| 07 · Ardèche | 10 | 0 (0 %) | 4 | 5 | 5 | 10 | 8 | 8 | 6 |
+| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 226 | 265 | 259 | 194 |
+| 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
+| 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 7 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
-| 26 · Drôme | 9 | 0 (0 %) | 5 | 5 | 8 | 9 | 8 | 9 | 9 |
+| 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 1 | 0 | 2 | 4 | 1 |
-| 38 · Isère | 33 | 1 (3 %) | 8 | 23 | 19 | 31 | 28 | 29 | 25 |
+| 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 18 | 30 | 27 | 28 | 24 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 17 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 6 | 7 | 7 | 7 | 7 |
 | 44 · Loire-Atlantique | 32 | 2 (6 %) | 0 | 12 | 11 | 9 | 21 | 22 | 12 |
@@ -33,7 +33,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
 | 56 · Morbihan | 23 | 1 (4 %) | 0 | 13 | 9 | 11 | 20 | 16 | 12 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
-| 69 · Rhône | 47 | 1 (2 %) | 14 | 20 | 29 | 35 | 38 | 38 | 37 |
+| 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 25 | 31 | 34 | 34 | 33 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 8 | 8 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 4 | 7 | 6 | 15 | 11 | 9 | 9 |
@@ -42,13 +42,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-171 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+161 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
 - Brasserie 3B (Bassin Bellegardien) (Billiat) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie du Revermont (Les Deux Frères) (Peyrieu) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Ferme-Brasserie de Belmonthé (Belmont-Luthézieu) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Voie Maltée (Saint-Jean-de-Thurigneux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Bières Hoffmann (Brasseurs du Grand Colombier) (Culoz) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Mac Never's and Co. (Maillat) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -62,7 +60,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Graine 2 Bulles (Davézieux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Haarddrëch (Alboussière) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Kan Mêm (Colombier-le-Jeune) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Rhôdanienne (Saint-Jean-de-Muzols) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Longue Vie (Saint-Victor) : sans adresse vérifiée, sans téléphone, sans horaires
 
 ### 14 · Calvados
@@ -90,8 +87,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 26 · Drôme
 
 - Brasserie de Roche Colombe (Valence) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie des Utopies (Chanos-Curson) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Hildegarde (Chanos-Curson) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Ferme-brasserie Déluge (Chabeuil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Valentinoise (Valence) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
@@ -136,7 +131,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie du Marrel (Grenoble) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie du Vercors (Biercors) (Autrans) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Peteukrane (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Polack (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Ateliers du Dauphiné (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Bière des Frères Clavel (Biol) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie des Faux Semblables (La Bâtie-Montgascon) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -232,16 +226,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Autour de la Bière (Chaussan) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Demi-Lune (Tassin-la-Demi-Lune) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie des Monts du Lyonnais (Saint-Martin-en-Haut) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie du Chartreux (Lantignié) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie du Mont Popey (Saint-Forgeux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Krüger (Solaize) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Bulles d'Orge (Oullins) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - DWYN Brewing (Montagny) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- FFAKE Brasserie (Rillieux-la-Pape) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Hoodo (Saint-Forgeux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Fabrique du Faubourg (Vénissieux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Les Aubépines (Sainte-Consorce) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Maltazar (Vénissieux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Misso (Civrieux-d'Azergues) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Coldie Brewery (Lyon 7e) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières

@@ -358,3 +358,5 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
   demandent chacune leur story ; les versions mineures (tsx, Playwright,
   Vite, MapLibre) peuvent suivre en une PR.
 
+
+- **S298 (revue adverse)** : `controler` n’ouvre pas les sources d’un retrait. Sans gravité tant que la règle ne l’accepte jamais, mais un retrait mériterait le même contrôle de page qu’une proposition.
