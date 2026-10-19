@@ -23,6 +23,9 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-19', texte: 'Les jours fériés : un 15 août ou une Toussaint, la fiche ne dit plus « ouvert » d’après des horaires ordinaires, mais « sous réserve », en nommant le jour.' },
+  { date: '2026-10-19', texte: 'Le filtre « Ouvertes ce week-end », d’après les horaires publiés ; il dit combien de brasseries il peut juger.' },
+  { date: '2026-10-19', texte: 'Un favori absent de la liste dit pourquoi : trop loin, catégorie décochée, déjà visitée…' },
   { date: '2026-10-19', texte: 'Les horaires d’une saison : un bar d’été montre ses horaires avec leur période, et ne se dit jamais « ouvert » hors saison (La Grange du Seigneur, Philomenn, Mélusine).' },
   { date: '2026-10-19', texte: '10 fiches retirées : ni Untappd, ni site, ni registre des entreprises ne connaissent une brasserie de ce nom dans leur commune (méthode de Cédric du 19/10).' },
   { date: '2026-10-19', texte: 'Sites, téléphones, horaires et bières ajoutés à 20 brasseries du Rhône, de la Loire, de l’Isère, de Savoie, d’Ardèche, de l’Ain et du Finistère, relus sur leur propre site ; 8 sortent de « À confirmer ».' },
