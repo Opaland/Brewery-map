@@ -23,6 +23,10 @@ describe('filtres repliés (S29)', () => {
     ).toEqual(['département', 'ce qu’on peut y faire', 'type de bière', 'seulement mes favoris', 'sans OpenStreetMap'])
   })
 
+  it('S70 : « ouvertes ce week-end » se nomme', () => {
+    expect(filtresActifs({ ...aucun, ceWeekEnd: true })).toEqual(['ouvertes ce week-end'])
+  })
+
   it('le résumé compte les filtres actifs et les favoris', () => {
     expect(resumeDesFiltres({ ...aucun, departement: '73' }, 0)).toBe('Plus de filtres et mes favoris · 1 filtre actif')
     expect(resumeDesFiltres({ ...aucun, departement: '73', favorisSeulement: true }, 3)).toBe(

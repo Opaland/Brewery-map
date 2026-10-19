@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { formaterCreneaux, JOURS, ouvertLe, ouvertMaintenant, etatPourLaListe, phraseProchaine, prochaineOuverture, type Horaires } from '../../src/core/horaires'
+import { formaterCreneaux, JOURS, ouvertLe, prochainWeekEnd, ouvertMaintenant, etatPourLaListe, phraseProchaine, prochaineOuverture, type Horaires } from '../../src/core/horaires'
 import { validerBrasseries, type Brasserie } from '../../src/core/schema'
 import { choisirLangue } from '../../src/i18n'
 import { LIGNES_REELLES } from './lignes-reelles'
@@ -62,23 +62,52 @@ describe('le schéma des horaires', () => {
 
 describe('ouvertLe', () => {
   const h = [accueil] as unknown as H
+  const sam = { cle: 'sam', mmjj: '10-24' } as const
+  const dim = { cle: 'dim', mmjj: '10-25' } as const
+  const lun = { cle: 'lun', mmjj: '10-19' } as const
   it('oui, non, ou inconnu — jamais deviné', () => {
-    expect(ouvertLe(h, 'sam')).toBe('oui')
-    expect(ouvertLe(h, 'dim')).toBe('non')
-    expect(ouvertLe(h, 'lun')).toBe('inconnu')
-    expect(ouvertLe(undefined, 'sam')).toBe('inconnu')
+    expect(ouvertLe(h, sam)).toBe('oui')
+    expect(ouvertLe(h, dim)).toBe('non')
+    expect(ouvertLe(h, lun)).toBe('inconnu')
+    expect(ouvertLe(undefined, sam)).toBe('inconnu')
   })
 
   it('distingue l’accueil de la vente', () => {
     const vente = [{ ...accueil, nature: 'vente' }] as unknown as H
-    expect(ouvertLe(vente, 'sam')).toBe('inconnu')
-    expect(ouvertLe(vente, 'sam', 'vente')).toBe('oui')
+    expect(ouvertLe(vente, sam)).toBe('inconnu')
+    expect(ouvertLe(vente, sam, 'vente')).toBe('oui')
   })
 
   it('« sous réserve » quand une remarque accompagne les horaires', () => {
     const saison = [{ ...accueil, remarque: 'Fermée d’octobre à mai.' }] as unknown as H
-    expect(ouvertLe(saison, 'sam')).toBe('sous-reserve')
-    expect(ouvertLe(saison, 'dim')).toBe('non')
+    expect(ouvertLe(saison, sam)).toBe('sous-reserve')
+    expect(ouvertLe(saison, dim)).toBe('non')
+  })
+
+  it('S70 CA1 : lit le bloc de la saison du jour ; hors de toute période, inconnu', () => {
+    const ete = [{ ...accueil, periode: { du: '07-01', au: '08-31' } }] as unknown as H
+    expect(ouvertLe(ete, { cle: 'sam', mmjj: '07-04' })).toBe('oui')
+    expect(ouvertLe(ete, sam)).toBe('inconnu')
+    const hiver = { ...accueil, sam: [], periode: { du: '10-01', au: '03-31' } }
+    const deux = [hiver, { ...accueil, periode: { du: '04-01', au: '09-30' } }] as unknown as H
+    expect(ouvertLe(deux, sam)).toBe('non')
+    expect(ouvertLe(deux, { cle: 'sam', mmjj: '07-04' })).toBe('oui')
+  })
+})
+
+describe('S70 CA2 : le prochain week-end, à Paris', () => {
+  it('un lundi : le samedi et le dimanche à venir', () => {
+    expect(prochainWeekEnd(new Date('2026-10-19T10:00:00Z'))).toEqual([
+      { cle: 'sam', mmjj: '10-24' },
+      { cle: 'dim', mmjj: '10-25' },
+    ])
+  })
+  it('un samedi : ce samedi et le lendemain ; un dimanche : ce dimanche seul', () => {
+    expect(prochainWeekEnd(new Date('2026-10-24T10:00:00Z')).map((j) => j.mmjj)).toEqual(['10-24', '10-25'])
+    expect(prochainWeekEnd(new Date('2026-10-25T21:30:00Z'))).toEqual([{ cle: 'dim', mmjj: '10-25' }])
+  })
+  it('dimanche 23 h 30 UTC, déjà lundi à Paris : le week-end suivant', () => {
+    expect(prochainWeekEnd(new Date('2026-10-25T23:30:00Z')).map((j) => j.mmjj)).toEqual(['10-31', '11-01'])
   })
 })
 

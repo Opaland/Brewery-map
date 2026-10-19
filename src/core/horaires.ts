@@ -17,22 +17,27 @@ export const JOURS: readonly { cle: CleJour; nom: string }[] = [
   { cle: 'dim', nom: 'Dimanche' },
 ]
 
+/** Un jour du calendrier : son nom de la semaine et sa date « MM-JJ » (S70). */
+export interface JourDate {
+  cle: CleJour
+  mmjj: string
+}
+
 /**
  * Ouvert tel jour, pour telle nature (l'accueil du public par défaut) ?
- * « inconnu » dès que la source ne le dit pas ; « sous-reserve » quand une
- * remarque accompagne les horaires (saison, rendez-vous) : un « oui » sec la
- * contredirait. Rien n'est déduit du texte `note`.
- *
- * Pas encore branché à un filtre (BACKLOG) ; le sera quand des données
- * existeront.
+ * « inconnu » dès que la source ne le dit pas, ou ne publie rien pour la
+ * saison de ce jour (S299) ; « sous-reserve » quand une remarque accompagne
+ * les horaires (saison, rendez-vous) : un « oui » sec la contredirait. Rien
+ * n'est déduit du texte `note`. Lu par le filtre « ouvertes ce week-end »
+ * (S70).
  */
 export function ouvertLe(
   horaires: Horaires | undefined,
-  jour: CleJour,
+  jour: JourDate,
   nature: Bloc['nature'] = 'accueil',
 ): Ouverture {
-  const bloc = horaires?.find((b) => b.nature === nature)
-  const valeur = bloc?.[jour]
+  const { bloc } = blocDuJour(horaires, nature, jour.mmjj)
+  const valeur = bloc?.[jour.cle]
   if (bloc === undefined || valeur === undefined) return 'inconnu'
   if (Array.isArray(valeur) && valeur.length === 0) return 'non'
   return bloc.remarque === undefined ? 'oui' : 'sous-reserve'
@@ -134,6 +139,21 @@ function mmjjDecale(instant: Date, n: number): string {
   const val = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? '0')
   const jour = new Date(Date.UTC(val('year'), val('month') - 1, val('day') + n))
   return `${String(jour.getUTCMonth() + 1).padStart(2, '0')}-${String(jour.getUTCDate()).padStart(2, '0')}`
+}
+
+/**
+ * Les jours du prochain week-end, à Paris (S70) : le samedi et le dimanche
+ * à venir ; un samedi, ce samedi et le lendemain ; un dimanche, ce dimanche
+ * seul.
+ */
+export function prochainWeekEnd(instant: Date): JourDate[] {
+  const aujourdhui = aParis(instant).jour
+  if (aujourdhui === 'dim') return [{ cle: 'dim', mmjj: mmjjDecale(instant, 0) }]
+  const jusquauSamedi = ORDRE.indexOf('sam') - ORDRE.indexOf(aujourdhui)
+  return [
+    { cle: 'sam', mmjj: mmjjDecale(instant, jusquauSamedi) },
+    { cle: 'dim', mmjj: mmjjDecale(instant, jusquauSamedi + 1) },
+  ]
 }
 
 /** « MM-JJ » à Paris : le jour de l'année qui choisit le bloc de saison (S299). */

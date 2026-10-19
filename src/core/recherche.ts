@@ -1,6 +1,7 @@
 import { t } from '../i18n'
 import { distanceKm, formaterDistance, type Point } from './distance'
 import type { TypeDeBiere } from './bieres'
+import { ouvertLe, type JourDate } from './horaires'
 import type { Brasserie, Categorie } from './schema'
 
 export interface Criteres {
@@ -17,6 +18,8 @@ export interface Criteres {
   exclure?: ReadonlySet<string>
   /** Un département (« 73 ») : ses brasseries, à toute distance (S27). */
   departement?: string
+  /** « Ouvertes ce week-end » (S70) : les jours du week-end, à Paris ; absent = pas de filtre. */
+  weekEnd?: readonly JourDate[]
 }
 
 export interface Resultat {
@@ -111,7 +114,7 @@ export function plusProche(brasseries: readonly Brasserie[], origine: Point): Re
 }
 
 /** Les filtres qui ne dépendent ni du lieu ni du texte. */
-export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement' | 'exclure'>
+export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement' | 'exclure' | 'weekEnd'>
 
 /**
  * Ce qui écarte une brasserie de la liste (S301, issue #53) : la liste dit
@@ -128,6 +131,7 @@ export type Raison =
   | { type: 'texte' }
   | { type: 'distance'; km: number; rayonKm: number }
   | { type: 'couche-osm' }
+  | { type: 'week-end'; motif: 'fermee' | 'muette' | 'sans-horaires' }
 
 /** Les raisons des filtres qui ne dépendent ni du lieu ni du texte. */
 function raisonsDesFiltres(brasserie: Brasserie, f: Filtres): Raison[] {
@@ -136,7 +140,36 @@ function raisonsDesFiltres(brasserie: Brasserie, f: Filtres): Raison[] {
   if (f.seulement !== undefined && !f.seulement.has(brasserie.n)) raisons.push({ type: 'pas-favori' })
   if (f.exclure?.has(brasserie.n) === true) raisons.push({ type: 'visitee' })
   if (f.type !== undefined && !brasserie.beers.some((b) => b.type === f.type)) raisons.push({ type: 'type' })
+  if (f.weekEnd !== undefined) {
+    const juge = jugeCeWeekEnd(brasserie, f.weekEnd)
+    if (juge !== 'ouverte') raisons.push({ type: 'week-end', motif: juge })
+  }
   return raisons
+}
+
+/**
+ * Ce que les horaires publiés disent de ces jours (S70), par l'accueil ou
+ * par la vente : « ouverte » l'un d'eux ; « fermee » si chacun est dit
+ * fermé ; « muette » s'ils n'en disent rien (des horaires de semaine
+ * seuls, une saison qui ne les couvre pas : revue adverse S70) ; « sans
+ * horaires ». « Sous réserve » compte ouverte : la fiche dit la remarque,
+ * et l'écarter cachait des brasseries ouvertes.
+ */
+function jugeCeWeekEnd(brasserie: Brasserie, jours: readonly JourDate[]): 'ouverte' | 'fermee' | 'muette' | 'sans-horaires' {
+  if ((brasserie.horaires ?? []).length === 0) return 'sans-horaires'
+  const parJour = jours.map((j) => (['accueil', 'vente'] as const).map((nature) => ouvertLe(brasserie.horaires, j, nature)))
+  if (parJour.some((lus) => lus.some((o) => o === 'oui' || o === 'sous-reserve'))) return 'ouverte'
+  // Fermée seulement si chaque jour est dit fermé : un dimanche non dit
+  // laisse le week-end inconnu.
+  return parJour.every((lus) => lus.includes('non')) ? 'fermee' : 'muette'
+}
+
+/** Combien de fiches « ouvertes ce week-end » peut juger : ouvertes ou fermées d'après leurs horaires (S70). */
+export function jugeablesCeWeekEnd(brasseries: readonly Brasserie[], jours: readonly JourDate[]): number {
+  return brasseries.filter((b) => {
+    const juge = jugeCeWeekEnd(b, jours)
+    return juge === 'ouverte' || juge === 'fermee'
+  }).length
 }
 
 /**
@@ -231,19 +264,25 @@ export function libelleRaison(r: Raison): string {
       return t('pas dans vos favoris')
     case 'couche-osm':
       return t('la couche OpenStreetMap est décochée')
+    case 'week-end':
+      if (r.motif === 'sans-horaires') return t('pas d’horaires publiés')
+      return r.motif === 'muette' ? t('ses horaires ne disent rien du week-end') : t('fermée ce week-end d’après ses horaires')
   }
 }
 
 /**
  * Les favoris cachés à dire. Hors du mode « seulement mes favoris », un
- * favori que seuls le texte tapé ou le département choisi écartent ne l'est
- * pas : la personne a demandé ce filtre, et le paragraphe clignotait à
- * chaque frappe (revue adverse S301). Ce qui se dit : la distance, une case
+ * favori que seuls le texte tapé, le département choisi ou « ouvertes ce
+ * week-end » écartent ne l'est pas : la personne a demandé ce filtre, et
+ * le paragraphe clignotait à chaque frappe (revue adverse S301). Ce qui se dit : la distance, une case
  * décochée, le type, « pas encore visitées », la couche.
  */
+/** Les filtres que la personne a demandés à l'instant : ils ne se signalent pas seuls (S301, S70). */
+const DEMANDES: ReadonlySet<Raison['type']> = new Set(['texte', 'departement', 'week-end'])
+
 export function favorisASignaler<T extends { raisons: readonly Raison[] }>(caches: readonly T[], modeSeulement: boolean): T[] {
   if (modeSeulement) return [...caches]
-  return caches.filter((c) => c.raisons.some((r) => r.type !== 'texte' && r.type !== 'departement'))
+  return caches.filter((c) => c.raisons.some((r) => !DEMANDES.has(r.type)))
 }
 
 /** Les favoris dont la brasserie est fermée (S31). */
