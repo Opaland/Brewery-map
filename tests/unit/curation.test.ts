@@ -247,6 +247,24 @@ describe('le diff lisible, pour la décision de Cédric', () => {
     expect(texte).not.toContain('### 1.')
   })
 
+  it('S300 CA3 : place l’aperçu donné sous les champs de chaque numéro, jamais sous un retrait', () => {
+    const avecRetrait: Lot = {
+      lot: 'x',
+      propositions: [proposition],
+      retraits: [{ n: TOUTES[0].n, raison: 'aucune trace', sources: ['https://exemple.fr/r'], verifieLe: AUJOURDHUI }],
+    }
+    const vus: number[] = []
+    const texte = diffLisible(TOUTES, avecRetrait, undefined, (k) => {
+      vus.push(k)
+      return `APERÇU ${String(k)}`
+    })
+    expect(vus).toEqual([1])
+    expect(texte.indexOf('APERÇU 1')).toBeGreaterThan(texte.indexOf('contact.tel : (vide)'))
+    expect(texte.indexOf('APERÇU 1')).toBeLessThan(texte.indexOf('### 2.'))
+    // Sans aperçu, le diff reste celui d'avant.
+    expect(diffLisible(TOUTES, avecRetrait)).not.toContain('APERÇU')
+  })
+
   it('montre le choix du vérificateur et le signalement d’origine quand il y en a', () => {
     const avecChoix = {
       lot: 'x',

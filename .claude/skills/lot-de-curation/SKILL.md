@@ -43,6 +43,9 @@ champ `revues` : **toutes** les fiches revues, avec ou sans proposition
 npx tsx outils/curation.ts diff curation/<lot>.json
 ```
 
+Sous chaque numéro, le diff montre la fiche telle que la page la montrera,
+rendue par ses composants, et ce qui ne s'affichera plus (S300).
+
 - Un lot que le schéma refuse se corrige **à la source** (on relance
   l'agent sur la fiche), pas à la main dans le JSON.
 - Relire chaque proposition contre son extrait : l'extrait dit-il vraiment

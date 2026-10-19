@@ -9,7 +9,7 @@
  *   npx tsx outils/curation.ts signalement "Signalement : Nom (Commune)"
  *     La fiche visée par le titre d'une issue de signalement (S10).
  *
- *   npx tsx outils/curation.ts diff curation/lot-XX.json
+ *   npx tsx outils/curation.ts diff curation/lot-XX.json   (avec l'aperçu de chaque fiche, S300)
  *     Valide le lot et l'affiche en Markdown, numéroté, avec son empreinte :
  *     ce que Cédric lit.
  *
@@ -52,6 +52,8 @@ import {
   revuesDesFichiers,
   estUneRequeteDeCommune,
 } from '../src/core/curation'
+import { apercuDuNumero } from '../src/apercu'
+import * as React from 'react'
 import { centreConfirme } from '../src/core/candidats'
 import { BRIGNAIS } from '../src/core/distance'
 import { validerBrasseries } from '../src/core/schema'
@@ -61,6 +63,12 @@ import { sansLesAppliquees, trierParRegle, type LotNomme } from '../src/core/reg
 import { execFileSync } from 'node:child_process'
 import { accordSchema, nomDAccord } from '../src/core/garde-donnees'
 import { fetchCompte } from './requetes'
+
+// `tsx` ne lit que le tsconfig.json de la racine, qui n'a pas d'options
+// (références de projets) : il compile les composants de l'aperçu (S300) en
+// `React.createElement`, qui cherche un `React` global. Sans cette ligne :
+// « React is not defined » (vu le 19/10, `tests/unit/outil-curation.test.ts`).
+Object.assign(globalThis, { React })
 
 const DONNEES = 'data/breweries.json'
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
@@ -364,7 +372,11 @@ if (commande === 'lot') {
   sortir(n ?? 'aucune fiche : titre retouché ou fiche inconnue, à rattacher à la main', n === null ? 1 : 0)
 } else if (commande === 'diff') {
   const { lot: l, empreinte: e } = lot(args[0])
-  sortir(`${diffLisible(donnees(), l)}\n\nEmpreinte du lot : ${e}`, 0)
+  const d = donnees()
+  // La fiche telle que la page la montrera, sous chaque numéro (S300, #57).
+  const maintenant = new Date()
+  const apercu = (k: number) => apercuDuNumero(d, l, k, maintenant)
+  sortir(`${diffLisible(d, l, undefined, apercu)}\n\nEmpreinte du lot : ${e}`, 0)
 } else if (commande === 'controler') {
   await controler(args[0])
 } else if (commande === 'appliquer') {

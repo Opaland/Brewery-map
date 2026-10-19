@@ -36,6 +36,8 @@
     "src/YAller.tsx",
     "src/LienExterne.tsx",
     "src/EnFrancais.tsx",
+    "src/EnBref.tsx",
+    "src/apercu.ts",
     "src/cacheTuiles.ts",
     "src/ChoixCommune.tsx",
     "src/crochets.ts",

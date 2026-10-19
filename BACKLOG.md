@@ -152,9 +152,6 @@ chacun demande une décision ou une vérification de source.
   Instagram, ni Google Maps. Piste : les demander aux brasseries voisines,
   ou les passer « à retirer ? » avec l'accord de Cédric.
 
-- Curation : le diff ne montre pas encore la fiche telle qu'elle
-  s'affichera (badge de catégorie, titre « Horaires d'accueil du public »,
-  bouton « Appeler ») ; Cédric doit le reconstituer (revue métier S12).
 - Curation S12 : Brasserie Animus retirée du lot (mobile 06 95 10 82 98
   publié sur sa page Contact, note à corriger) en attendant la procédure de
   déplacement ; La Canute Lyonnaise : faut-il reprendre le 06 24 11 06 71,

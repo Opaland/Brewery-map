@@ -372,7 +372,14 @@ export function diffLisible(
   brasseries: readonly Brasserie[],
   lot: Lot,
   seulement?: ReadonlySet<number>,
+  apercu?: (numero: number) => string | undefined,
 ): string {
+  // La fiche telle que la page la montrera, sous les champs (S300, issue
+  // #57) : rendue par l'outil, qui seul peut appeler les composants.
+  const sousApercu = (numero: number): string[] => {
+    const texte = apercu?.(numero)
+    return texte === undefined ? [] : ['', texte]
+  }
   // Les numéros restent ceux du lot complet, même quand on n'en montre
   // qu'une partie : « j'accepte 1, 3 » vise ce que Cédric a lu (revue S12).
   const sections = lot.propositions.flatMap((p, i) => {
@@ -389,7 +396,7 @@ export function diffLisible(
     const chemins = [...new Set([...avant.keys(), ...apres.keys()])].filter(
       (c) => avant.get(c) !== apres.get(c),
     )
-        const lignes = chemins.map(
+    const lignes = chemins.map(
       (c) => `- ${c} : ${lisible(avant.get(c), c)} → ${lisible(apres.get(c), c)}`,
     )
     const { lat, lon } = p.changements
@@ -409,6 +416,7 @@ export function diffLisible(
       ...(p.signalement === undefined
         ? []
         : ['', `Signalement : https://github.com/Opaland/Brewery-map/issues/${String(p.signalement)}`]),
+      ...sousApercu(i + 1),
     ].join('\n')
   })
   const base = lot.propositions.length
@@ -427,6 +435,7 @@ export function diffLisible(
         '',
         `Extrait lu : « ${a.extrait} »`,
         ...(a.choix === undefined ? [] : ['', `Choix du vérificateur : ${a.choix}`]),
+        ...sousApercu(numero),
       ].join('\n'),
     ]
   })
