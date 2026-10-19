@@ -48,6 +48,13 @@ const empreinte = () => /Empreinte du lot : ([0-9a-f]{12})/.exec(lancer('diff', 
   présentation, sans effet sur ce qui est vérifié.
 */
 describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue code S11)', { timeout: 30_000 }, () => {
+  it('S300 CA4 : « diff » montre la fiche telle que la page la montrera, sous chaque numéro', () => {
+    const r = lancer('diff', LOT)
+    expect(r.code).toBe(0)
+    expect(r.sortie).toContain('**Aperçu de la fiche**')
+    expect(r.sortie).toContain('> - Ce qu’on peut y faire')
+  })
+
   it('sans --ecrire, rien n’est écrit', () => {
     const avant = donnees()
     expect(lancer('appliquer', LOT, '1').code).toBe(0)
