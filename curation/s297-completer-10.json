@@ -1,0 +1,188 @@
+{
+  "lot": "s297-completer-10",
+  "propositions": [
+    {
+      "n": "La Barbue",
+      "changements": {
+        "contact": {
+          "site": "https://brasserielabarbue.fr/",
+          "source": "https://brasserielabarbue.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "autre",
+            "libelle": "La Patronne (Pale Ale)",
+            "url": "https://brasserielabarbue.fr/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Gloutonne",
+            "url": "https://brasserielabarbue.fr/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Baronne (aux fleurs de sureau)",
+            "url": "https://brasserielabarbue.fr/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Vermillonne (Red Ale)",
+            "url": "https://brasserielabarbue.fr/"
+          },
+          {
+            "type": "stout",
+            "libelle": "L'Oursonne (au miel de châtaignier)",
+            "url": "https://brasserielabarbue.fr/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserielabarbue.fr/"
+      ],
+      "extrait": "La Patronne Une Pale Ale à la robe dorée, légèrement houblonnée aux arômes fruités. … La Gloutonne IPA détonnante et désaltérante … La Baronne Une Blanche aux fleurs de sureaux, à la robe claire et trouble. … La Vermillonne Une Red Ale à la robe rubis … Un Stout au miel de châtaignier, à la robe noire aux reflets rubis … Ou par téléphone : 07 86 21 71 23 … Heures d’ouverture Lundi, Mardi, Jeudi & Vendredi De 9h à 16h",
+      "choix": "Le seul numéro publié est un 07 : écarté (mobile). Les « Heures d’ouverture » ne disent pas si elles valent pour une vente ou pour un accueil du public : aucun bloc d’horaires, et la catégorie reste à confirmer. La note actuelle (lun-mar-jeu-ven 9h-16h) concorde avec le site."
+    },
+    {
+      "n": "Brasserie Grésiv'ale",
+      "changements": {
+        "src": "https://gresivale.fr/labrasserie/",
+        "cat": 2,
+        "conf": "faible",
+        "note": "Le site de la brasserie dit accueillir les clients dans sa « boutique », sans en donner les horaires ; il vend aussi en ligne. Dégustation sur place non citée.",
+        "contact": {
+          "site": "https://gresivale.fr/",
+          "source": "https://gresivale.fr/labrasserie/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La Tchoukar Dorée (style blonde d'abbaye)",
+            "url": "https://gresivale.fr/produit/%e2%ad%90-la-tchoukar-doree-%e2%ad%90/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Tchoukar Trois Grains (proche d'une saison belge)",
+            "url": "https://gresivale.fr/produit/%f0%9f%8c%be-la-tchoukar-3-grains-%f0%9f%8c%be/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Tchoukar Blanche (witbier)",
+            "url": "https://gresivale.fr/produit/%f0%9f%a4%8d-la-tchoukar-blanche-%f0%9f%a4%8d/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Tchoukar Zen",
+            "url": "https://gresivale.fr/produit/%f0%9f%99%8f-la-tchoukar-zen-%f0%9f%99%8f/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://gresivale.fr/labrasserie/",
+        "https://gresivale.fr/contact/",
+        "https://gresivale.fr/produit/%e2%ad%90-la-tchoukar-doree-%e2%ad%90/",
+        "https://gresivale.fr/produit/%f0%9f%8c%be-la-tchoukar-3-grains-%f0%9f%8c%be/",
+        "https://gresivale.fr/produit/%f0%9f%a4%8d-la-tchoukar-blanche-%f0%9f%a4%8d/",
+        "https://gresivale.fr/produit/%f0%9f%99%8f-la-tchoukar-zen-%f0%9f%99%8f/"
+      ],
+      "extrait": "Depuis 2012, nous brassons à Barraux, au pied de la Chartreuse. … La Boutique Nous sommes ravis de vous accueillir dans notre boutique pour vous faire découvrir nos produits et partager notre passion avec vous ! Nous avons hâte de vous recevoir ! … Adresse: Chemin des Gîtes, Barraux Téléphone: 0640168605 … Blonde légèrement colorée, style bière Blonde d’abbaye … Bière de caractère proche d’une saison Belge, Blonde d’orge, de blé et de seigle … une Blanche de type blanche Belge Witbier … Bière blonde parfumée, limpide, assez légère en alcool et sèche (très peu de sucre résiduel), type IPA (India pale ale) fortement houblonnée",
+      "choix": "Le téléphone, un 06, est écarté (mobile). Confiance « faible » : le menu du site appelle aussi « Boutique » la vente en ligne. Seule la phrase « vous accueillir dans notre boutique » établit une vente sur place, et le site n'en donne pas les horaires. Des horaires (mer, ven, sam) lus sur une fiche de site de parking ne figurent pas sur le site officiel : non repris. La Trois Grains est classée blonde, car la page écrit « Blonde d’orge, de blé et de seigle » ; « proche d’une saison » est gardé dans le libellé."
+    },
+    {
+      "n": "La Dame de Malt",
+      "changements": {
+        "src": "http://www.labiere-artisanale.com/contact.php",
+        "contact": {
+          "site": "http://www.labiere-artisanale.com/",
+          "source": "http://www.labiere-artisanale.com/contact.php",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Bière Blonde",
+            "url": "http://www.labiere-artisanale.com/biere/biere-blonde.php"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Bière Blanche",
+            "url": "http://www.labiere-artisanale.com/biere/biere-blanche.php"
+          },
+          {
+            "type": "stout",
+            "libelle": "Bière Impériale Stout",
+            "url": "http://www.labiere-artisanale.com/biere/biere-imperial-stout.php"
+          },
+          {
+            "type": "autre",
+            "libelle": "Bière Caramel Triple",
+            "url": "http://www.labiere-artisanale.com/biere/biere-caramel-triple.php"
+          },
+          {
+            "type": "autre",
+            "libelle": "Bière Cerise",
+            "url": "http://www.labiere-artisanale.com/biere/biere-cerise.php"
+          }
+        ],
+        "note": "Le site officiel indique « Ouvert : le vendredi de 16 à 19h », sans dire s'il s'agit de vente ou d'accueil du public."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.labiere-artisanale.com/contact.php",
+        "http://www.labiere-artisanale.com/",
+        "http://www.labiere-artisanale.com/biere/biere-blonde.php",
+        "http://www.labiere-artisanale.com/biere/biere-blanche.php",
+        "http://www.labiere-artisanale.com/biere/biere-imperial-stout.php",
+        "http://www.labiere-artisanale.com/biere/biere-caramel-triple.php",
+        "http://www.labiere-artisanale.com/biere/biere-cerise.php"
+      ],
+      "extrait": "Contact brasserie Coordonnées GAEC L'Abbaye 1 impasse des pommiers 38280 villette d'anthon Tél : 06.08.68.62.65 Ouvert : le vendredi de 16 à 19h […] Bière blonde bio […] Bière Blanche […] Bière Impériale Stout, bière brune […] Bière Caramel Triple […] Bière Cerise bière brassée avec 15% de jus de cerises cultivées dans les Monts du Lyonnais",
+      "choix": "Téléphone écarté (06, mobile). « Ouvert : le vendredi de 16 à 19h » : aucun bloc d'horaires, car la page ne dit pas si c'est de la vente ou de l'accueil ; cat reste 0, car la page « Point de vente » ne liste que des revendeurs et des restaurants tiers. « Bière Dorée » (page d'accueil, « Une bière riche en saveur ») écartée, faute de style écrit. Caramel Triple et Cerise en « autre » : ni triple ni bière fruitée n'ont de type. Le pied de page donne « GAEC L'Abbaye 69330 MEYZIEU » ; la page Contact donne 1 impasse des pommiers 38280 villette d'anthon (adresse non proposée, la position reste au centre IGN). Site en http seulement (https refusé)."
+    }
+  ],
+  "revues": [
+    "Brasserie Les Dameuses",
+    "Une Petite Mousse",
+    "La Barbue",
+    "Brasserie Quardin",
+    "Brasserie Grésiv'ale",
+    "Brasserie Two Dudes",
+    "DWYN Brewing",
+    "Bulles d'Orge",
+    "Brasserie Krüger",
+    "Brasserie Demi-Lune",
+    "Autour de la Bière",
+    "La Fabrique du Faubourg",
+    "Maltazar",
+    "Les Aubépines",
+    "Brasserie des Monts du Lyonnais",
+    "FFAKE Brasserie",
+    "Misso",
+    "La Dame de Malt",
+    "Brasserie 767",
+    "Brasserie du Mont Popey",
+    "Hoodo",
+    "La Voie Maltée",
+    "Brasserie de la Sanne",
+    "L'Agarithe",
+    "Malt Emoi",
+    "La Gaudine (Brasserie de la Semène)",
+    "Brasserie Graine 2 Bulles",
+    "Brasserie du Chartreux",
+    "La Strol",
+    "Brasserie Rhôdanienne",
+    "Brasserie des Utopies",
+    "Brasserie Hildegarde",
+    "Brasserie des 2 Roches",
+    "Brasserie du Revermont (Les Deux Frères)",
+    "Brasserie Kan Mêm",
+    "Les Ateliers du Dauphiné",
+    "Brasserie Peteukrane",
+    "Brasserie Polack",
+    "Ferme-Brasserie de Belmonthé",
+    "Brasserie La Couleuvre"
+  ]
+}
