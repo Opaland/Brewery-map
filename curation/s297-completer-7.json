@@ -1,0 +1,1414 @@
+{
+  "lot": "s297-completer-7",
+  "propositions": [
+    {
+      "n": "3 Brasseurs La Roche-sur-Yon",
+      "changements": {
+        "contact": {
+          "tel": "02 72 19 98 87",
+          "site": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+          "source": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "ambree"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details"
+      ],
+      "extrait": "Sur place, nous brassons nos bières artisanales dans notre microbrasserie : blonde, blanche, ambrée et autres créations, toutes sont brassées sur place. … \"telephone\":\"02 72 19 98 87\"",
+      "choix": "Le numéro n'est pas en clair : il est derrière le bouton « Afficher le numéro », dans les données structurées de la page propre à l'établissement (fixe 02 72, Vendée) ; à juger. Site = la page de l'établissement, pas le site de la chaîne. Types sans nom de bière : la page ne nomme que les styles (« l'Ambrée de Toutatis » n'est que dans un avis client, écartée). Horaires déjà en fiche, identiques à la page (le texte dit aussi « à partir de 11h30 », le tableau 11:45 : tableau gardé). Pas d'Untappd sur la page."
+    },
+    {
+      "n": "Les Papas Brasseurs",
+      "changements": {
+        "beers": [
+          {
+            "type": "autre",
+            "libelle": "L'impèrtinente – American Pale Ale",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Pèrchée",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          },
+          {
+            "type": "ambree",
+            "libelle": "La Pèrilleuse",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Pèrlimpinpin",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Supère",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Blonde des papas",
+            "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+      ],
+      "extrait": "Nous proposons 6 bières permanentes : L'impèrtinente, American Pale Ale à 6% vol La Pèrchée, Blanche à 4.5% vol La Pèrilleuse, Ambrée à 6% vol La Pèrlimpinpin, IPA à 6.5% vol La Supère, Blonde Triple à 8.5% vol La Blonde des papas, Pale Ale à 5% vol",
+      "choix": "Seules les six permanentes ; les éphémères (NEIPA, DIPA, Kveik IPA, Sour, Session IPA, Mary'Stout) écartées. La Supère, « Blonde Triple » : rangée en blonde, « autre » (Triple) possible. La Blonde des papas : « Bière Blonde » sur sa fiche, « Pale Ale » dans la liste ; blonde. Contact et horaires déjà en fiche, conformes ; le pied de page dit « Vendredi 11h - minuit », le bloc principal « 11h30 - minuit » : 11:30 gardé. La page « Le Bar » dit « Ouvert du lundi au samedi », contredite par « Lundi : Fermé » : fiche inchangée. Pas d'Untappd."
+    },
+    {
+      "n": "1989 Brewing",
+      "changements": {
+        "src": "https://1989brewing.com/taproom/",
+        "conf": "moyenne",
+        "note": "Taproom adossée à la brasserie : bières pression brassées sur place, à emporter ou à savourer sur place.",
+        "contact": {
+          "tel": "02 76 08 71 20",
+          "site": "https://1989brewing.com/",
+          "untappd": "https://untappd.com/1989_Brewing",
+          "source": "https://1989brewing.com/taproom/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mer": [
+              [
+                "17:00",
+                "21:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "17:00",
+                "21:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:30",
+                "14:00"
+              ],
+              [
+                "17:00",
+                "22:00"
+              ]
+            ],
+            "sam": "heures-non-precisees",
+            "remarque": "Taproom ; le samedi soir à partir de 17 h, fermeture à 21 h ou 23 h selon la page du site.",
+            "source": "https://1989brewing.com/taproom/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Hazy Classic' (NEIPA)",
+            "url": "https://1989brewing.com/brasserie/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Dragon Power (DIPA)",
+            "url": "https://1989brewing.com/brasserie/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Fury IPA",
+            "url": "https://1989brewing.com/brasserie/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Trippel Fusion",
+            "url": "https://1989brewing.com/brasserie/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://1989brewing.com/taproom/",
+        "https://1989brewing.com/brasserie/",
+        "https://1989brewing.com/"
+      ],
+      "extrait": "À emporter ou à savourer sur place, nos bières s’accompagnent d’une carte restreinte mais artinsale … La Taproom est ouverte : Pour déjeuner : le vendredi de 11h30 à 14h Les soirs : Mercredi et Jeudi – 17h à 21h Vendredi – 17h à 22h Samedi – 17h à 23h Pour réserver une table, envoyez nous un mail à CONTACT@1989BREWING.COM ou par téléphone au 02 76 08 71 20",
+      "choix": "Site officiel trouvé (1989brewing.com, mentions légales : 1989 Brewing SAS, 2 rue du champ des bruyères – 76800 Saint-Etienne-du-Rouvray) ; la note actuelle (« ni horaires ni site officiel ») est contredite, d'où la note réécrite et la source changée. Samedi : la page Taproom dit 17h à 23h, le pied de page de toutes les pages « Samedi : 17h – 21h » : jour mis en « heures non précisées » avec la contradiction en remarque ; lundi, mardi, dimanche non nommés, omis. Untappd : lien dans le pied de page du site. Bières : la gamme permanente nommée sur la page Brasserie ; Star Light écartée (aucun style écrit) ; Trippel Fusion en « autre » sur son seul nom ; éphémères de la boutique écartées. Catégorie 1 inchangée (« À emporter ou à savourer sur place »). Adresse précise lue mais non proposée : position à géocoder dans un autre lot."
+    },
+    {
+      "n": "Brasserie Soma",
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "American Pale Ale",
+            "url": "https://www.brasseriesoma.fr/nos-bieres"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Session IPA",
+            "url": "https://www.brasseriesoma.fr/nos-bieres"
+          },
+          {
+            "type": "ambree",
+            "libelle": "California Common",
+            "url": "https://www.brasseriesoma.fr/nos-bieres"
+          },
+          {
+            "type": "blanche",
+            "libelle": "American Wheat",
+            "url": "https://www.brasseriesoma.fr/nos-bieres"
+          },
+          {
+            "type": "sans-alcool",
+            "libelle": "Altbier sans alcool",
+            "url": "https://www.brasseriesoma.fr/nos-bieres"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriesoma.fr/nos-bieres"
+      ],
+      "extrait": "American Pale Ale 5.3% vol (Blonde) … Session IPA 4.2% vol (Blonde) … California Common 5% vol (Ambrée) … American Wheat 5.1% vol (Blanche) … Altbier sans alcool 0.7 % vol (Ambrée)",
+      "choix": "Seule la gamme permanente ; saisonnières (Gose cassis, West Coast IPA, Cold IPA) écartées. Session IPA rangée en ipa (le site dit aussi « Blonde »). Seul numéro publié, un mobile (07) : écarté. Horaires de vente déjà en fiche, conformes. Pas d'Untappd."
+    },
+    {
+      "n": "Guibs Beer",
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Guibs Blonde",
+            "url": "https://www.guibsbeer.fr/bieres"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Guibs Ambrée",
+            "url": "https://www.guibsbeer.fr/bieres"
+          },
+          {
+            "type": "autre",
+            "libelle": "Guibs APA – American Pale Ale cuivrée",
+            "url": "https://www.guibsbeer.fr/bieres"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Guibs Blanche",
+            "url": "https://www.guibsbeer.fr/bieres"
+          },
+          {
+            "type": "autre",
+            "libelle": "Guibs Triple – Belgian Tripel",
+            "url": "https://www.guibsbeer.fr/bieres"
+          },
+          {
+            "type": "autre",
+            "libelle": "Guibs Noire – Porter",
+            "url": "https://www.guibsbeer.fr/bieres"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.guibsbeer.fr/bieres"
+      ],
+      "extrait": "Guibs Blonde Pale Ale 5% … Guibs Ambrée Amber Ale 5,5% … Guibs APA American Pale Ale Cuivrée 5,5% … Guibs Blanche Witbier 4,5% … Guibs Triple Belgian Tripel 7,5% … Guibs Noire Porter 5,5%",
+      "choix": "Guibs Noël (ambrée épicée, de saison) et Guibs Fortuite (éphémère) écartées. Porter et Tripel en « autre », comme dans les lots précédents. Deux numéros publiés, tous deux mobiles (06) : écartés. Horaires du bar et de la boutique déjà en fiche, conformes. Pas d'Untappd."
+    },
+    {
+      "n": "Brasserie de la Divatte",
+      "changements": {
+        "src": "https://www.bieretrompesouris.com/",
+        "cat": 1,
+        "conf": "moyenne",
+        "note": "Bar et boutique à la brasserie, avec espace de dégustation ; visite de la production certains samedis après-midi, d'après son site.",
+        "contact": {
+          "tel": "02 40 33 38 94",
+          "site": "https://www.bieretrompesouris.com/",
+          "source": "https://www.bieretrompesouris.com/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "18:00",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "18:00",
+                "21:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "remarque": "Horaires d'ouverture du « Bar / Boutique ».",
+            "source": "https://www.bieretrompesouris.com/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "18:00",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "18:00",
+                "21:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "remarque": "Horaires d'ouverture du « Bar / Boutique ».",
+            "source": "https://www.bieretrompesouris.com/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Trompe Souris Blonde"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Trompe souris Blanche"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Trompe souris I.P.A"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Trompe souris Session I.P.A"
+          },
+          {
+            "type": "autre",
+            "libelle": "Trompe Souris Belgian Pale Ale"
+          },
+          {
+            "type": "autre",
+            "libelle": "Trompe Souris Rose Berliner Weisse"
+          },
+          {
+            "type": "autre",
+            "libelle": "Trompe souris Triple \"Ste Radegonde\""
+          },
+          {
+            "type": "autre",
+            "libelle": "Trompe souris Triple d'hiver \"Givrée\""
+          },
+          {
+            "type": "autre",
+            "libelle": "Trompe Souris Rousse"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.bieretrompesouris.com/",
+        "https://www.bieretrompesouris.com/fr/catalog-3/les-trompe-souris-permanentes"
+      ],
+      "extrait": "Après la visite de la production, vous pourrez découvrir l’espace de dégustation, ainsi que notre boutique. … 02 40 33 38 94 … Ouverture du Bar / Boutique : Lundi :18h-20h Vendredi : 18h-21h Samedi : 15h-19h — Catalogue « Trompe Souris permanentes » : Trompe Souris Blonde, Trompe souris Blanche, Trompe souris I.P.A, Trompe souris Session I.P.A, Trompe Souris Belgian Pale Ale, Trompe Souris Rose Berliner Weisse, Trompe souris Triple \"Ste Radegonde\", Trompe souris Triple d'hiver \"Givrée\", Trompe Souris Rousse",
+      "choix": "Site officiel bieretrompesouris.com (« Brasserie Artisanale de la Divatte », même adresse 34 bis Le Norestier), trouvé par recherche ; il remplace la fiche régionale de tourisme comme src. « Bar / Boutique » sur un même horaire : deux blocs identiques, accueil et vente. Catégorie 2 → 1 : bar et espace de dégustation écrits ; confiance moyenne, car hors visite la consommation sur place n'est dite que par le mot « Bar ». Accueil téléphonique (lundi 14h-18h, du mardi au vendredi) non repris en horaires. Bières : styles lus dans les noms ; Belgian Pale Ale, Berliner Weisse, Triple et Rousse en « autre » ; « Chat Brûlé » (d'inspiration irlandaise, torréfiée) écartée, aucun style nommé ; « ZÉRO PRESSION - IPA » écartée, brassée par l'IFBM de Nancy ; gammes éphémères, Duck et Grue Jaune non lues. Pas de lien Untappd sur le site."
+    },
+    {
+      "n": "Les Brassés",
+      "changements": {
+        "contact": {
+          "tel": "02 28 29 31 01",
+          "site": "https://www.lesbrasses.fr/",
+          "source": "https://lesbrasses.fr/restaurant_les_brasses/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Show Mousse Go On"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Thank You Very Mousse"
+          }
+        ],
+        "note": "Bar-restaurant aux cinq cuves jaunes, où l'on boit les bières de la maison, produites à l'Atelier Les Brassés, 24 rue Bellier, d'après son site."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.lesbrasses.fr",
+        "https://lesbrasses.fr/restaurant_les_brasses/"
+      ],
+      "extrait": "Restaurant 5 Mail Pablo Picasso 44000 Nantes 02 28 29 31 01 … Nos bières pressions Produites à l’Atelier Les Brassés, 1km plus au nord, entre Dalby et Hôpital Bellier … Show Mousse Go On Bière 10 ans Bière BIO NEIPA 5° … Thank You Very Mousse 1e bière Les Brassés Bière blonde BIO American Pale Ale",
+      "choix": "Numéro du restaurant (la fiche est au 5 mail Pablo Picasso) ; celui de l'Atelier, 02 53 97 61 88, écarté. Horaires non proposés : les liens « Nos horaires » renvoient à Google, pas au site. La note disait « cuves de brassage » : le site dit les bières produites à l'Atelier, rue Bellier ; note réécrite. « Show Mousse Go On » (NEIPA) en ipa, « Thank You Very Mousse » en blonde (écrit « Bière blonde ») ; l'IPA sans nom de la fiche est remplacée. Pas de lien Untappd."
+    },
+    {
+      "n": "3 Brasseurs Saint-Sébastien-sur-Loire",
+      "changements": {
+        "contact": {
+          "tel": "02 40 03 30 23",
+          "site": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+          "source": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details"
+      ],
+      "extrait": "\"name\":\"3 Brasseurs Nantes - Saint-Sébastien-sur-Loire\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"ZAC de la Jaunaie Centre Commercial Auchan\",\"postalCode\":\"44230\",\"addressLocality\":\"Saint-Sébastien-sur-Loire\",\"addressCountry\":\"FR\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":47.19124,\"longitude\":-1.48925},\"telephone\":\"02 40 03 30 23\"",
+      "choix": "Numéro de la page propre au restaurant. Il s'affiche par le bouton « Afficher le numéro » et a été lu dans les données structurées de la page. Horaires de la fiche identiques à la page (lun 11:30-21:30 … dim 11:30-22:30) : inchangés ; Happy Hour non reprise. « Vente de bière à emporter » écrite, sans horaires propres : pas de bloc vente. Bières : seule la FAQ commune à la chaîne cite « IPA, blonde, ambrée, sans alcool » : écartées. Adresse précise (ZAC de la Jaunaie, Centre Commercial Auchan) non proposée : une position se propose avec le géocodeur."
+    },
+    {
+      "n": "Union-B",
+      "changements": {
+        "contact": {
+          "site": "https://www.union-b.fr/",
+          "source": "https://www.union-b.fr",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "ambree"
+          },
+          {
+            "type": "brune"
+          },
+          {
+            "type": "ipa"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.union-b.fr"
+      ],
+      "extrait": "Une gamme permanente pour les « amateurs » avec bière blanche, blonde, ambrée, brune et IPA.",
+      "choix": "Seul numéro publié (Tél : 0631761136), un mobile : écarté. Horaires non proposés. La page d'accueil dit le vendredi « de 18h à 00h » et la boutique « de 16h à 18h ». La page « Nos bars » dit « Vendredi de 16h à 00h » l'été et « Samedi de 16h à 20h » l'hiver. Les deux pages du site se contredisent, et un bloc n'a pas de place pour la saison. La page « Nos bières » n'a pas de noms lisibles : types sans libellé. Pas de lien Untappd."
+    },
+    {
+      "n": "Brasserie du Bouffay",
+      "changements": {
+        "beers": [
+          {
+            "type": "ambree",
+            "libelle": "L’Ambrée du Bouffay",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/ambree-du-bouffay/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Moustache",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/biere-la-moustache/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Blanche du Bouffay – BIO",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/la-blanche-du-bouffay/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Blonde du Bouffay",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/la-blonde-du-bouffay/"
+          },
+          {
+            "type": "brune",
+            "libelle": "La Braise du Bouffay",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/la-braise-du-bouffay/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Titan",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/la-titan/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Triple",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/la-triple/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "L’Orge du Bouffay – BIO",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/lorge-du-bouffay/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Titan Flower Session IPA",
+            "url": "https://www.brasserie-du-bouffay.com/bieres/titan-flower-session-ipa/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-du-bouffay.com/bieres/ambree-du-bouffay/",
+        "https://www.brasserie-du-bouffay.com/bieres/biere-la-moustache/",
+        "https://www.brasserie-du-bouffay.com/bieres/la-blanche-du-bouffay/",
+        "https://www.brasserie-du-bouffay.com/bieres/la-blonde-du-bouffay/",
+        "https://www.brasserie-du-bouffay.com/bieres/la-braise-du-bouffay/",
+        "https://www.brasserie-du-bouffay.com/bieres/la-titan/",
+        "https://www.brasserie-du-bouffay.com/bieres/la-triple/",
+        "https://www.brasserie-du-bouffay.com/bieres/lorge-du-bouffay/",
+        "https://www.brasserie-du-bouffay.com/bieres/titan-flower-session-ipa/",
+        "https://www.brasserie-du-bouffay.com/contact/"
+      ],
+      "extrait": "L’Ambrée du Bouffay … Type Ambrée ; La Moustache … Type Blonde ; La Blanche du Bouffay – BIO … Type Blanche ; La Blonde du Bouffay … Type Blonde ; La Braise du Bouffay … Type Brune ; La Titan … Type IPA ; La Triple … Type Blonde ; L’Orge du Bouffay – BIO … Type Blonde ; La Titan Flower Session IPA … Type IPA",
+      "choix": "Chaque type est le champ « Type » de la page de la bière. La liste actuelle portait « lager » sans libellé : la page de La Moustache dit « Type Blonde » et, plus bas, « fait partie de la grande famille des pils » ; « blonde » retenu, Cédric peut préférer « lager ». Aucune bière « lager » sinon. La page contact donne « Horaires d’ouverture : Du lundi au jeudi de 9h à 13h et de 14h à 17h. Le vendredi de 9h à 16h. » sans dire s’il s’agit de vente ou d’accueil du public : aucun bloc d’horaires proposé. Contact inchangé (02 40 52 76 16 confirmé sur la page contact). Aucun lien Untappd sur le site."
+    },
+    {
+      "n": "Brasserie Garatelle",
+      "changements": {
+        "cat": 1,
+        "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation. Guinguette (bar éphémère dans le jardin de la brasserie) chaque saison : vendredis soir en juin, jeudis et vendredis soir en juillet et août, d'après le site.",
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée"
+          },
+          {
+            "type": "autre",
+            "libelle": "Rousse"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée Noël"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout"
+          },
+          {
+            "type": "autre",
+            "libelle": "American Pale Ale"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.garatelle.fr/",
+        "https://www.garatelle.fr/nos-produits",
+        "https://www.garatelle.fr/la-guinguette"
+      ],
+      "extrait": "Vente en direct de la brasserie ; Chaque saison nous ouvrons un bar éphémère dans le jardin de la brasserie. … Planning ouverture : Juin : vendredis soirs Juillet/août : jeudis et vendredis soir ; La gamme permanente Blonde … Blanche … Ambrée … Rousse … IPA … La gamme éphémère Ambrée Noël … Stout … American Pale Ale",
+      "choix": "Catégorie 1 proposée sur la guinguette, bar saisonnier (juin à août) : la page ne donne aucune heure, donc aucun bloc d'horaires ; Cédric peut garder la catégorie 2 si un bar d'été seul ne suffit pas. La saison 2026 s'est close le 29 août (actualité « Ouverture guinguette 2026 »). « Rousse » et « American Pale Ale » n'ont pas de type propre : « autre ». Ambrée Noël, Stout et American Pale Ale sont dans « la gamme éphémère ». La limonade n'est pas reprise. Contact inchangé (02 51 90 38 67 sur l'accueil du site), aucun lien Untappd."
+    },
+    {
+      "n": "X'Pression",
+      "changements": {
+        "contact": {
+          "site": "https://www.xpression.fr/",
+          "source": "https://www.xpression.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Le Fruit du Hasard"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Monter sur ses Grands Chevaux"
+          },
+          {
+            "type": "brune",
+            "libelle": "Ça Va Être Tout Noir"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Montrer Patte Blanche"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Une Dernière pour la Route"
+          },
+          {
+            "type": "ambree",
+            "libelle": "La Galinette S’ambrée"
+          },
+          {
+            "type": "autre",
+            "libelle": "Ché pas"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Fleur au Fusil"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Bonne Franquette"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.xpression.fr/"
+      ],
+      "extrait": "~ Le Fruit du Hasard ~ Une bière IPA (Indian Pale Ale) ~ Monter sur ses Grands Chevaux ~ Une bière Blonde Triple ~ Ça Va Être Tout Noir ~ Une bière Brune ~ Montrer Patte Blanche ~ Une bière Blanche ~ Une Dernière pour la Route ~ Une bière Blonde ~ La Galinette S’ambrée ~ Une bière Ambrée ~ Ché pas ~ Une bière aux Fruits Rouges ~ La Fleur au Fusil ~ Une bière de Printemps (De saison) ~ La Bonne Franquette ~ Une Blonde légère",
+      "choix": "Site officiel trouvé par le lien de la fiche de l'office de tourisme (http://www.xpression.fr). Seul numéro publié : un mobile (06 67 29 66 02), non repris. Les horaires sont dans une image (« OPENING HOURS VENDREDI 17H00-19H00 » ; « En dehors des heures d'ouverture, vous pouvez retrouver toutes nos bières au B'MOUSSE qui est accolé à notre brasserie ») sans dire vente ou accueil : aucun bloc proposé. « Ché pas » (aux fruits rouges) et « La Fleur au Fusil » (bière de printemps, de saison) : « autre ». La page des tarifs est vide de texte. Aucun lien Untappd. L'adresse du site (14 Rue de l’Industrie) est celle de la fiche."
+    },
+    {
+      "n": "Brasserie Cali",
+      "changements": {
+        "conf": "moyenne",
+        "src": "https://brasseriecali.fr/",
+        "note": "Bar et pizzeria le soir du jeudi au samedi, déjeuner du mardi au vendredi ; la brasserie dit brasser sa bière sur place, d'après son site. La vente à emporter de bière n'est pas dite.",
+        "contact": {
+          "tel": "02 40 93 50 86",
+          "site": "https://brasseriecali.fr/",
+          "source": "https://brasseriecali.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "jeu": [
+              [
+                "18:30",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "18:30",
+                "22:00"
+              ]
+            ],
+            "sam": [
+              [
+                "18:30",
+                "22:00"
+              ]
+            ],
+            "remarque": "Déjeuner aussi du mardi au vendredi (menu midi, rôtisserie et pizza), heures non précisées.",
+            "source": "https://brasseriecali.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasseriecali.fr/"
+      ],
+      "extrait": "Déjeuner Mardi — Vendredi Menu midi · Rôtisserie & Pizza Soirée Jeudi — Samedi 18h30 — 22h · Bar & Pizzeria … Nous brassons notre propre bière artisanale sur place … Téléphone fixe 02 40 93 50 86 Mobile 07 82 57 61 62",
+      "choix": "Le mobile 07 82 57 61 62 n'est pas repris. Les créneaux du soir sont ceux déjà dans la fiche, désormais pris du site de la brasserie au lieu de la fiche régionale. Aucune liste de bières ni lien Untappd sur le site."
+    },
+    {
+      "n": "Little Atlantique Brewery",
+      "changements": {
+        "contact": {
+          "site": "https://little-atlantique-brewery.fr/",
+          "untappd": "https://untappd.com/LABNantes",
+          "source": "https://little-atlantique-brewery.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "12:00",
+                "00:00"
+              ]
+            ],
+            "mar": [
+              [
+                "12:00",
+                "00:00"
+              ]
+            ],
+            "mer": [
+              [
+                "12:00",
+                "00:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "12:00",
+                "02:00"
+              ]
+            ],
+            "ven": [
+              [
+                "12:00",
+                "02:00"
+              ]
+            ],
+            "sam": [
+              [
+                "12:00",
+                "02:00"
+              ]
+            ],
+            "dim": [
+              [
+                "12:00",
+                "00:00"
+              ]
+            ],
+            "source": "https://little-atlantique-brewery.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "ambree",
+            "libelle": "Spered",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Saint Elme",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Exocet",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Scélérate (triple)",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Sainte-Barbe",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "lager",
+            "libelle": "Winch",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Wipe Out",
+            "url": "https://little-atlantique-brewery.fr/les-bieres/"
+          }
+        ],
+        "conf": "solide"
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://little-atlantique-brewery.fr/",
+        "https://little-atlantique-brewery.fr/les-bieres/"
+      ],
+      "extrait": "Micro-brasserie, bar à bières & restaurant à Nantes […] BAR Lundi, mardi, mercredi 12h-00h et dimanche : 12h-00h, Jeudi, vendredi et samedi : 12h-02h […] suivez-nous sur les réseaux Instagram Facebook Untappd (lien https://untappd.com/LABNantes) […] Les bières : « NOS BIÈRES PERMANENTES SPERED Notre ambrée […] saint elme Notre blanche […] EXOCET Notre IPA […] SCÉLÉRATE Notre Triple […] sainte-barbe Notre brune […] WINCH Notre blonde légère La Winch est une lager […] WIPE OUT Blonde fruitée Bière de style New England IPA. »",
+      "choix": "Seul le bloc « BAR » est repris (nature accueil) ; le bloc « RESTAURATION » n'est pas une vente de bière et n'est pas proposé. Aucun téléphone publié sur les pages lues. Scélérate en « autre » (triple, pas de type dans le schéma). conf « solide » : le site décrit le bar, ses horaires et la carte ; à refuser si Cédric préfère garder « faible »."
+    },
+    {
+      "n": "Trip-Hop",
+      "changements": {
+        "contact": {
+          "tel": "09 51 82 62 34",
+          "site": "https://trip-hop.fr/",
+          "source": "https://trip-hop.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mar": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "mer": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "16:00",
+                "00:00"
+              ]
+            ],
+            "sam": [
+              [
+                "11:00",
+                "13:00"
+              ],
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "source": "https://trip-hop.fr/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "mar": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "mer": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "16:00",
+                "00:00"
+              ]
+            ],
+            "sam": [
+              [
+                "11:00",
+                "13:00"
+              ],
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "source": "https://trip-hop.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La Paz – Blonde Pale Ale",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/la-paz-blonde"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Palawan – American IPA",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/biere-palawan-american-ipa"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Etna – Blonde Triple",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/etna-biere-blonde"
+          },
+          {
+            "type": "autre",
+            "libelle": "Route 138 – Rousse",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/biere-rousse-route-138-canada"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Wanaka – Blanche Américaine",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/wanaka-biere-blanche-americaine"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Wicklow Mountains – Black IPA",
+            "url": "https://trip-hop.fr/nos-bieres-bar-a-bieres-et-boutique/wicklow-mountains-black-ipa"
+          }
+        ],
+        "conf": "solide"
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://trip-hop.fr/",
+        "https://trip-hop.fr/bieres-constantes-trip-hop",
+        "https://trip-hop.fr/nous-suivre-et-nous-contacter"
+      ],
+      "extrait": "Nos horaires d’ouverture Notre microbrasserie, boutique et brewpub – bar à bières est ouvert du mardi au samedi aux horaires suivants :• Mardi, Mercredi et Jeudi de 16h00 à 22h00• Vendredi de 16h00 à 00h• Samedi de 11h00 à 13h00 et 16h00 à 22h00Pour toute question ou demande de réservation (événement, groupe, horaire spécial..), n’hésitez pas à nous appeler au 09 51 82 62 34 ou envoyer un email à info@trip-hop.fr. […] Bières constantes LA PAZ – Blonde Pale Ale PALAWAN – American IPA ETNA – Blonde Triple ROUTE 138 – Rousse WANAKA – Blanche Américaine WICKLOW MOUNTAINS – Black IPA",
+      "choix": "La page « Nous suivre et nous contacter » donne dans son texte « samedi de 10h00 à 13h30 – 16h à 22h00 » mais dans son encadré « Samedi : 11h-13h et 16h-22h » ; la page d'accueil et la page du bar et de la boutique disent 11h–13h : version retenue. Lundi et dimanche omis (« du mardi au samedi », fermeture non écrite). Le même horaire couvre bar-brewpub et boutique (« Nos horaires du bar-brewpub et boutique »), d'où deux blocs. La liste remplace l'ancienne (doublons sans libellé). Bières éphémères non reprises. conf « solide » : bar et boutique décrits avec horaires."
+    },
+    {
+      "n": "Brasserie BakPaker",
+      "changements": {
+        "contact": {
+          "site": "https://www.brasserie-bakpaker.fr/",
+          "source": "https://www.brasserie-bakpaker.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "ven": [
+              [
+                "15:00",
+                "18:30"
+              ]
+            ],
+            "dim": [],
+            "remarque": "Les autres jours, sur rendez-vous.",
+            "source": "https://www.brasserie-bakpaker.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-bakpaker.fr/"
+      ],
+      "extrait": "Trouver la brasserie : ZI Aulnaies, 76680 Saint-Saëns\nOuverture de la boutique\nLundi : Sur RDV toute la semaine :)\nMardi :  rdv\nMercredi :  rdv\nJeudi :  rdv\nVendredi :  15h - 18h30 :)\nSamedi :  rdv\nDimanche :  fermé",
+      "choix": "Lundi à jeudi et samedi omis (« rdv », sans heure) et portés par la remarque. Seul numéro trouvé : un 06 (SMS), écarté. Les styles n'apparaissent que dans les noms de fichiers d'images, pas dans le texte : bières non proposées. L'adresse « ZI Aulnaies, 76680 Saint-Saëns » est écrite sur la page (fiche à « Saint-Saëns », précision centre) : non proposée ici, la position se propose avec le géocodeur."
+    },
+    {
+      "n": "Brasserie Sagesse",
+      "changements": {
+        "contact": {
+          "site": "https://www.brasserie-sagesse.shop/",
+          "source": "https://www.brasserie-sagesse.shop/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Reine des Plages",
+            "url": "https://www.brasserie-sagesse.shop/product-page/reine-des-plages"
+          },
+          {
+            "type": "autre",
+            "libelle": "Fiancée du Pirate (rousse)",
+            "url": "https://www.brasserie-sagesse.shop/product-page/fiancée-du-pirate"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Tempête Normande",
+            "url": "https://www.brasserie-sagesse.shop/product-page/tempête-normande"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Peine de Mort",
+            "url": "https://www.brasserie-sagesse.shop/product-page/la-peine-de-mort"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Extasy",
+            "url": "https://www.brasserie-sagesse.shop/product-page/extasy"
+          },
+          {
+            "type": "stout",
+            "libelle": "L'impératrice",
+            "url": "https://www.brasserie-sagesse.shop/product-page/l-impératrice"
+          },
+          {
+            "type": "brune",
+            "libelle": "Barry Lindon",
+            "url": "https://www.brasserie-sagesse.shop/product-page/barry-lindo"
+          },
+          {
+            "type": "stout",
+            "libelle": "Voyage au bout de l'Enfer",
+            "url": "https://www.brasserie-sagesse.shop/product-page/voyage-au-bout-de-l-enfer"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-sagesse.shop/",
+        "https://www.brasserie-sagesse.shop/product-page/reine-des-plages",
+        "https://www.brasserie-sagesse.shop/product-page/fiancée-du-pirate",
+        "https://www.brasserie-sagesse.shop/product-page/tempête-normande",
+        "https://www.brasserie-sagesse.shop/product-page/la-peine-de-mort",
+        "https://www.brasserie-sagesse.shop/product-page/extasy",
+        "https://www.brasserie-sagesse.shop/product-page/l-impératrice",
+        "https://www.brasserie-sagesse.shop/product-page/barry-lindo",
+        "https://www.brasserie-sagesse.shop/product-page/voyage-au-bout-de-l-enfer"
+      ],
+      "extrait": "Reine des Plages : « Une bière blonde très légère à la mousse fine et aérienne. » Fiancée du Pirate : « Une bière rousse au malt chaleureux. » Tempête Normande : « Une bière blonde de style English IPA. » La Peine de Mort : « La Peine de mort est une Impérial IPA. » Extasy : « Collaboration avec l’Amer Veille – Bière blonde 100% Framboise. » L'impératrice : « Russian Impériale Stout ! » Barry Lindon : « Bière Brune à 7,5 % Alc. » Voyage au bout de l'Enfer : « #4 - Voyage au but de l’enfer, « Imperial Stout» à 8,2 % Alc./Vol. » Accueil : « La brasserie Sagesse propose 12 bières bios »",
+      "choix": "ATTENTION : la page d'accueil donne comme adresse « Bière SAGESSE / DAM Bière Av. Fr. Mitterrand 14160 Dives Sur Mer » et « Horaires Boutique : Jeudi & Vendredi de 16h à 18h », alors que la fiche est au Breuil-en-Auge : déménagement possible, hors procédure (S82) ; ni horaires ni note proposés, à trancher par Cédric. Seul téléphone : un 06, écarté. Quatre bières sans style écrit (Charlie et la Chocolaterie, Jill, Kelly et Sabrina Charlie's Angel) omises ; Tempête Normande « bière blonde de style English IPA » classée ipa ; Fiancée du Pirate en « autre » (rousse)."
+    },
+    {
+      "n": "Ouest Coast Brewery",
+      "changements": {
+        "src": "https://www.ouestcoastbrewery.com/la-taproom/",
+        "conf": "moyenne",
+        "note": "Vente sur place à la brasserie, à la bouteille ou en carton, du lundi au vendredi, d'après son site ; la taproom n'ouvre qu'après son inauguration du 27 novembre 2026.",
+        "contact": {
+          "site": "https://www.ouestcoastbrewery.com/",
+          "source": "https://www.ouestcoastbrewery.com/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:30",
+                "17:30"
+              ]
+            ],
+            "mar": [
+              [
+                "09:30",
+                "17:30"
+              ]
+            ],
+            "mer": [
+              [
+                "09:30",
+                "17:30"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:30",
+                "17:30"
+              ]
+            ],
+            "ven": [
+              [
+                "09:30",
+                "17:30"
+              ]
+            ],
+            "remarque": "Vente à la bouteille ou en carton.",
+            "source": "https://www.ouestcoastbrewery.com/la-taproom/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "lager",
+            "libelle": "Mister Sexapils (Pilsner)"
+          },
+          {
+            "type": "autre",
+            "libelle": "Mister Yankee (American Pale Ale)"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Miss Almira (Amber Ale)"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Mister Hip (West Coast IPA)"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Miss Hip (Wheat IPA)"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Mister Rudy (Session IPA)"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Miss Rudy (Wit Bier)"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.ouestcoastbrewery.com/la-taproom/",
+        "https://www.ouestcoastbrewery.com/nos-bieres/",
+        "https://www.ouestcoastbrewery.com/"
+      ],
+      "extrait": "Acheter nos bières sur place Vous souhaitez repartir avec vos bières préférées ? C’est déjà possible ! Disponible du lundi au vendredi de 9h30 à 17h30 Que ce soit à la bouteille ou en carton, passez nous voir pour faire votre stock de bières artisanales et locales. | L’inauguration de la Taproom sera le vendredi 27 Novembre 2026 | Nos bières permanentes : Mister Sexapils Pilsner · 6° Alc ; Mister Yankee American Pale Ale · 5.5° Alc ; Miss Almira Amber Ale · 5.5° Alc ; Mister Hip West Coast IPA · 6.5° Alc ; Miss Hip Wheat IPA · 6° Alc ; Mister Rudy Session IPA · 4.5° Alc ; Miss Rudy Wit Bier · 4.8° Alc",
+      "choix": "Site officiel trouvé (l'ancienne note disait « aucun site ») : la vente y est du lundi au vendredi, pas le samedi comme l'office de tourisme ; le bloc et la note sont réécrits. Bar (mer.–jeu. 16h30–20h, ven. 16h–21h) non proposé : il n'ouvre qu'après le 27 novembre 2026, la catégorie reste 2. Seul numéro publié : 06.12.89.17.30 (mobile), écarté. Aucun lien Untappd sur le site. Bières éphémères et collaborations (NEIPA, Hazy IPA, Double IPA, sours…) écartées : « ne reviennent pas toujours ». Pale Ale classée « autre » faute de type dédié."
+    },
+    {
+      "n": "Brasserie La Lie",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.biere-lalie.com"
+      ],
+      "changements": {
+        "contact": {
+          "tel": "09 84 32 54 11",
+          "site": "https://www.biere-lalie.com",
+          "source": "https://www.biere-lalie.com",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "mar": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "mer": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "remarque": "Boutique sur place.",
+            "source": "https://www.biere-lalie.com",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Au pré de ma blonde"
+          },
+          {
+            "type": "ambree",
+            "libelle": "L'ambrée du Hameau"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Caenette"
+          },
+          {
+            "type": "brune",
+            "libelle": "Quai des Brunes"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Conte & Fleurette"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Triple à la mode de Caen"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Suisse Normande"
+          }
+        ]
+      },
+      "extrait": "BOUTIQUE SUR PLACE / Ouverture de la boutique / du lundi au vendredi / de 9h à 12h30 et de 14h à 18h / 400, rue  de l'Orne / 14570 Saint Rémy / Tél. : 09 84 32 54 11 — Notre gamme annuelle de bières bio normandes : Au pré de ma blonde, 6% Vol. Bière blonde ; L'ambrée du Hameau, 6% Vol. Bière ambrée ; La Caenette, 4,5% Vol. Witbier bière blanche ; Quai des Brunes, 5,6% Vol. Bière brune de type Porter ; Conte & Fleurette, 5,6% Vol. Bière rousse IPA ; Triple à la mode de Caen, 9% Vol. Bière blonde Triple ; La Suisse Normande, 5,6% Vol. Bière blonde de style Pale Ale",
+      "choix": "Gamme annuelle seule (les sept bières de la fiche actuelle, désormais nommées). Bières de saison écartées : « Ça sent le sapin » (Bière de Noël), « Bière de printemps » (Bière blonde légère), « Bloody Ale » (Bière rouge au piment d'Espelette). Note inchangée, cohérente avec la page."
+    },
+    {
+      "n": "Brasserie de l'Odon",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-odon.fr/boutique/",
+        "https://www.brasserie-odon.fr/",
+        "https://www.brasserie-odon.fr/bieres/"
+      ],
+      "changements": {
+        "contact": {
+          "site": "https://www.brasserie-odon.fr/",
+          "source": "https://www.brasserie-odon.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "jeu": [
+              [
+                "17:00",
+                "19:00"
+              ]
+            ],
+            "remarque": "Pendant les vacances scolaires et fêtes de fin d'année, les horaires d'ouverture de la boutique peuvent être modifiés.",
+            "source": "https://www.brasserie-odon.fr/boutique/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La Blonde"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Hefeweizen"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Triple"
+          },
+          {
+            "type": "ambree",
+            "libelle": "L'Ambrée"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Petite Odon"
+          },
+          {
+            "type": "brune",
+            "libelle": "Le Robust Porter"
+          },
+          {
+            "type": "autre",
+            "libelle": "La California Pale Ale"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Bière de Printemps"
+          },
+          {
+            "type": "brune",
+            "libelle": "La bière d'Hiver"
+          },
+          {
+            "type": "autre",
+            "libelle": "La HOP & Co"
+          }
+        ]
+      },
+      "extrait": "La Boutique : Jean-Marc et Vincent vous attendent à la boutique tous les jeudis de 17h à 19h. […] Ouvert les jeudis de 17h à 19h / Pendant les vacances scolaires et fêtes de fin d’année les horaires d’ouverture de la Boutique peuvent être modifiés. — Les bières : La Blonde […] La Hefeweizen […] C’est une blanche à l’Allemande […] La Triple Blonde est une bière de caractère […] L’Ambrée est une bière riche en arômes […] La Petite Odon : Une bière blonde légère et très désaltérante […] Le Robust Porter : Cette bière brune aux notes de café froid et de cacao […] La California Pale Ale […] La Bière de Printemps : Une Session légère et houblonnée […] La bière d'Hiver : Une bière brune ronde […] La HOP & Co : Une bière quadruple",
+      "choix": "Pas de téléphone : la page Contact ne donne que deux mobiles (07 85 85 62 50, 06 63 57 33 99), qui sont écartés. Site pris à la racine (brasserie-odon.fr) ; src laissé sur la page Boutique. California Pale Ale, Bière de Printemps (Session) et HOP & Co (quadruple) passent en « autre » : aucun type de la liste n'est écrit pour elles. La page ne dit pas lesquelles forment la « gamme permanente » de 8 bières : toutes les bières listées sont reprises. Note inchangée, cohérente avec la page. Relecture : « La Hefeweizen » est décrite « aux malts d'orge et de blé », sans le mot « blanche » : passée en « autre »."
+    },
+    {
+      "n": "Brasserie Sainte Colombe",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-sainte-colombe.com/contact/",
+        "https://www.brasserie-sainte-colombe.com/bar-et-vente-directe/",
+        "https://www.brasserie-sainte-colombe.com/nos-bieres/"
+      ],
+      "changements": {
+        "conf": "moyenne",
+        "contact": {
+          "tel": "02 99 47 73 23",
+          "site": "https://www.brasserie-sainte-colombe.com/",
+          "source": "https://www.brasserie-sainte-colombe.com/contact/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "ven": [
+              [
+                "14:00",
+                "20:30"
+              ]
+            ],
+            "remarque": "Bar à la brasserie.",
+            "source": "https://www.brasserie-sainte-colombe.com/bar-et-vente-directe/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "ven": [
+              [
+                "14:00",
+                "20:30"
+              ]
+            ],
+            "remarque": "Vente directe à la brasserie.",
+            "source": "https://www.brasserie-sainte-colombe.com/bar-et-vente-directe/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA"
+          }
+        ]
+      },
+      "extrait": "Contact : Téléphone 02 99 47 73 23 / Vente directe Tous les vendredis de 14h à 20h30 — BAR & VENTE DIRECTE / Vendredi 14h00-20h30 / Bar à la brasserie […] Dans notre bar à bières, vous pouvez déguster nos bières de tradition à la pression et en bouteille — Bières permanentes : Blonde / Ambrée / Dorée / Blanche / Rousse / Pie Noir / IPA / Triple / Grand Cru / Vin d’Orge",
+      "choix": "Le bloc « accueil » actuel est scindé en un bloc accueil et un bloc vente, puisque la page nomme les deux (« BAR & VENTE DIRECTE »). Bières : seules les permanentes dont le nom est un type de la liste sont reprises. Dorée, Rousse, Pie Noir, Triple, Grand Cru et Vin d’Orge sont écartées (style non lu : je n'ai pas ouvert la page de chaque bière). Saisonnières et éphémères écartées. conf passe de faible à moyenne : le bar et la vente sont lus sur le site officiel. Note inchangée, cohérente avec la page."
+    },
+    {
+      "n": "Draenek",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.draenek.bzh/",
+        "https://www.draenek.bzh/les-bieres/"
+      ],
+      "changements": {
+        "cat": 1,
+        "conf": "moyenne",
+        "note": "Bar à la brasserie le jeudi (17 h-21 h), le vendredi et le samedi (17 h-1 h) ; vente directe à emporter le vendredi de 10 h à 18 h et aux heures du bar, d'après le site de la brasserie.",
+        "src": "https://www.draenek.bzh/",
+        "contact": {
+          "tel": "09 55 86 75 15",
+          "site": "https://www.draenek.bzh/",
+          "source": "https://www.draenek.bzh/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "jeu": [
+              [
+                "17:00",
+                "21:00"
+              ]
+            ],
+            "ven": [
+              [
+                "17:00",
+                "01:00"
+              ]
+            ],
+            "sam": [
+              [
+                "17:00",
+                "01:00"
+              ]
+            ],
+            "remarque": "Bar ; happy hour le jeudi de 17 h à 19 h 30.",
+            "source": "https://www.draenek.bzh/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "ven": [
+              [
+                "10:00",
+                "18:00"
+              ]
+            ],
+            "remarque": "Vente directe à emporter, aussi pendant les heures d'ouverture du bar.",
+            "source": "https://www.draenek.bzh/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Pale Ale"
+          },
+          {
+            "type": "blanche",
+            "libelle": "American Wheat Ale"
+          },
+          {
+            "type": "autre",
+            "libelle": "Triple belge"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Black IPA"
+          }
+        ]
+      },
+      "extrait": "6 rue de la Seine / Zone artisanale Château Gaillard / 35470 Bain de Bretagne - BZH / 09 55 86 75 15 / Horaires d'ouverture / Vente directe à emporter : tous les vendredis : 10h-18h et sur les moments d'ouverture du bar / Bar : jeudi : 17h-21h (Happy Hour 17h-19h30) / vendredi : 17h-01h / samedi : 17h-01h — Voici notre gamme de bières que vous retrouverez chez nous toute l’année : une blonde classique (Pale Ale), une blanche fruitée, une triple belge et une black IPA.",
+      "choix": "Le site contredit la note actuelle (jeudi et vendredi 10-12 h, 14-18 h, d'après un article de 2022) : elle est réécrite. La vente du vendredi est limitée à 10-18 h ; « et sur les moments d'ouverture du bar » va en remarque au lieu d'être recopié jour par jour. Triple belge en « autre » (aucune couleur écrite). Le site donne une nouvelle adresse (6 rue de la Seine, ZA Château Gaillard, 35470 Bain-de-Bretagne ; déménagement en 2025). addr et position ne sont PAS proposées ici, elles sortent du champ de ce lot. Le géocodeur IGN trouve cette adresse au numéro (score 0,96 ; lat 47.851273, lon -1.690733 ; https://data.geopf.fr/geocodage/search?q=6+rue+de+la+Seine+35470+Bain-de-Bretagne&limit=1), à reprendre dans un lot de positions."
+    }
+  ],
+  "revues": [
+    "3 Brasseurs La Roche-sur-Yon",
+    "Les Papas Brasseurs",
+    "1989 Brewing",
+    "Brasserie Soma",
+    "Guibs Beer",
+    "Brasserie de la Divatte",
+    "Beer Workshop",
+    "3 Brasseurs Saint-Sébastien-sur-Loire",
+    "Union-B",
+    "Les Brassés",
+    "Brasserie du Bouffay",
+    "Brasserie Garatelle",
+    "Brasserie de l'Ouche",
+    "X'Pression",
+    "Brasserie Cali",
+    "Oiseau de Nuit, Fabrique de bières",
+    "Little Atlantique Brewery",
+    "Trip-Hop",
+    "Brasserie BakPaker",
+    "Brasserie Sagesse",
+    "Brasserie L'Olifant",
+    "L'Ours Jack Brasse",
+    "Ouest Coast Brewery",
+    "Brasserie Lorc'h",
+    "Brasserie D'ici l'Aurore",
+    "Fabrik2Bulles",
+    "Brasserie La Lie",
+    "Draenek",
+    "Brasserie Sainte Colombe",
+    "Brasserie de l'Odon"
+  ]
+}

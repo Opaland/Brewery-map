@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (458)
+## Déjà dans data/ par un accord (478)
 
 | Lot | Numéros |
 |---|---|
@@ -41,8 +41,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-4 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
 | s297-completer-5 | 1, 2, 3, 4, 5, 6, 7, 8, 9 |
 | s297-completer-6 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| s297-completer-7 | 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22 |
 
-## À montrer à Cédric (249)
+## À montrer à Cédric (251)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -295,3 +296,5 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 71 | La Barbue | aucune source sur le site officiel |
 | s54-positions | 72 | Brasserie Quardin | aucune source sur le site officiel |
 | s54-positions | 73 | Brasserie Grésiv'ale | aucune source sur le site officiel |
+| s297-completer-7 | 6 | Brasserie de la Divatte | controler signale un écart |
+| s297-completer-7 | 15 | Trip-Hop | controler signale un écart |
