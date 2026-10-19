@@ -44,6 +44,8 @@ import {
   lireLot,
   lireNumeros,
   lotSuivant,
+  nomDuNumero,
+  numerosDuLot,
   numeroSurLaPage,
   contactSurLaPage,
   horairesSurLaPage,
@@ -197,7 +199,7 @@ async function controler(chemin: string | undefined) {
   }
   // Tout accepter doit passer : sinon « controler » rassurait quand
   // « appliquer 1-131 » échouait (revue métier S14).
-  const total = l.propositions.length + (l.ajouts ?? []).length
+  const total = numerosDuLot(l)
   const tout = appliquerLot(donnees(), l, new Set(Array.from({ length: total }, (_, i) => i + 1)))
   if (!tout.ok) {
     console.log(`Tout accepter échouerait :\n${tout.erreurs.join('\n')}`)
@@ -244,7 +246,7 @@ function trier(): void {
     .flatMap((chemin) => {
       const texte = lireTexte(chemin)
       const l = lireLot(JSON.parse(texte), '9999-12-31')
-      return l.ok && (l.lot.propositions.length > 0 || (l.lot.ajouts ?? []).length > 0)
+      return l.ok && numerosDuLot(l.lot) > 0
         ? [{ nom: l.lot.lot, lot: l.lot, chemin, empreinte: empreinte(texte) }]
         : []
     })
@@ -279,9 +281,7 @@ function trier(): void {
     if (sansVerdict || sortie.includes('Tout accepter échouerait')) {
       const raison = sansVerdict ? 'controler n’a pas rendu de verdict' : 'controler : tout accepter échouerait'
       for (const k of nums) {
-        const p = l.lot.propositions.at(k - 1)
-        const a = (l.lot.ajouts ?? []).at(k - 1 - l.lot.propositions.length)
-        aMontrer.push({ lot: l.nom, numero: k, n: (k <= l.lot.propositions.length ? p?.n : a?.fiche.n) ?? '?', raison })
+        aMontrer.push({ lot: l.nom, numero: k, n: nomDuNumero(l.lot, k) ?? '?', raison })
       }
       acceptees[l.nom] = []
       continue
@@ -294,9 +294,7 @@ function trier(): void {
     )
     acceptees[l.nom] = nums.filter((k) => {
       if (!enEcart.has(k)) return true
-      const p = l.lot.propositions.at(k - 1)
-      const a = (l.lot.ajouts ?? []).at(k - 1 - l.lot.propositions.length)
-      aMontrer.push({ lot: l.nom, numero: k, n: p?.n ?? a?.fiche.n ?? '?', raison: 'controler signale un écart' })
+      aMontrer.push({ lot: l.nom, numero: k, n: nomDuNumero(l.lot, k) ?? '?', raison: 'controler signale un écart' })
       return false
     })
   }
@@ -371,7 +369,7 @@ if (commande === 'lot') {
   await controler(args[0])
 } else if (commande === 'appliquer') {
   const { lot: l, empreinte: e } = lot(args[0])
-  const acceptes = numeros(args[1], l.propositions.length + (l.ajouts ?? []).length)
+  const acceptes = numeros(args[1], numerosDuLot(l))
   // Tout argument en trop est une erreur : « 1 3 » n'appliquait que la 1 (revue S12).
   const options = args.slice(2)
   const ecrire = options[0] === '--ecrire' && options.length <= 2

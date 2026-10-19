@@ -79,3 +79,46 @@ l'applique cite la règle dans sa `parole`, et la PR liste ses lignes. La
 garde de `data/` (S230) reste inchangée : elle rejoue les accords, à
 l'octet près. Ce qui n'entre pas dans la règle reste à Cédric, ligne par
 ligne.
+
+## Existence d'une brasserie : la méthode de Cédric (19/10)
+
+Cédric, le 19/10, mot pour mot :
+
+> « Il existe aujourd'hui un annuaire que tu dois rechercher sur Internet où
+> tu as l'ensemble des brasseries artisanales en France. […] Dans l'ordre, tu
+> cherches d'abord dans l'annuaire, ensuite, tu regardes dans Untapped,
+> ensuite, tu regardes sur Google quand tu tapes l'adresse s'il est noté
+> ouvert ou définitivement fermé. Ensuite, tu regardes s'il existe un site
+> web. À partir du moment où il existe dans l'annuaire, tu le trouves dans
+> Untapped, il est dans Google non fermé, et en plus, il y a un site web,
+> même si le site web répond 503 ou autre chose, tu peux considérer que
+> c'est bon. Si jamais il n'y a pas de site web, mais que les trois autres,
+> Google, Untapped et l'annuaire, alors tu peux dire que c'est bon quand
+> même. Et enfin, si jamais tu ne trouves que dans l'annuaire, mais rien
+> dans Google, ni dans Untapped, alors tu peux dire que c'est pas bon.
+> Untapped est quand même plutôt précis, donc c'est un peu une source de
+> vérité comme l'annuaire initial. »
+
+| Cas | Décision |
+|---|---|
+| Annuaire + Untappd + ouverte (Google) + site, même injoignable | existe |
+| Annuaire + Untappd + ouverte (Google), sans site | existe |
+| Annuaire seul, rien sur Google ni Untappd | n'existe pas |
+
+**Ce que la méthode rencontre dans les faits (19/10).**
+
+- **L'annuaire est trouvé** : Projet Amertume (Emmanuel Gillard),
+  « Liste des brasseries françaises en activité ». Il compte 2 591
+  brasseries au 27/08/2026 et tient aussi une liste des fermées.
+  - Sa page de crédits interdit tout usage de ses données sans l'accord
+    écrit et préalable de l'auteur : « Toute utilisation de tout ou partie
+    des données provenant de ce site, par quelques procédés que ce soit,
+    est strictement interdite sans l'accord exclusif écrit et préalable de
+    l'auteur. »
+  - Il n'est donc pas utilisé, et rien n'en est copié, tant que Cédric n'a
+    pas cet accord.
+- **Google (« ouvert » ou « définitivement fermé »)** ne se lit pas de
+  façon fiable depuis la session. Le registre public des entreprises le
+  remplace : l'API recherche-entreprises.api.gouv.fr, en données
+  ouvertes, donne l'état « active » ou « cessée ».
+- **Untappd** se lit page par page, comme source de vérité.

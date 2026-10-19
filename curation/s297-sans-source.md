@@ -11,7 +11,22 @@ commune. Facebook, les annuaires et les offices de tourisme ne comptent pas.
   Cédric.
 - En attendant, ces fiches s'affichent « À confirmer », avec leur raison.
 
-## A. Aucune trace d'une brasserie de ce nom dans cette commune
+## A. Aucune trace trouvée par les vérificateurs (constat CORRIGÉ le 19/10)
+
+**Ce constat était faux pour une partie des fiches.** Le registre public des
+entreprises (recherche-entreprises.api.gouv.fr), interrogé le 19/10, en
+connaît plusieurs :
+
+| Au registre | Fiches |
+|---|---|
+| en activité | Maltazar (Vénissieux), Mac Never's and Co. (« La Brasserie de Maillat »), Brasserie 3B (Billiat), Manev'Ale (Le Mazet-Saint-Voy), Peteukrane (à Velanne, commune voisine), Brasserie du Marrel (à Saint-Julien-Molin-Molette) |
+| cessées | La Strol, Brasserie des 2 Roches (siège à Romanèche-Thorins), Les Cuves de la Madeleine, L'Agarithe, Les Dameuses, Haarddrëch |
+| rien | les autres |
+
+Aucune fiche n'est retirée. Chacune passe d'abord la méthode de Cédric du
+19/10 (`docs/DECISIONS.md`).
+
+Le tableau d'origine suit.
 
 Recherches web, domaines devinés, registres. Rien ne relie le nom et la
 commune.

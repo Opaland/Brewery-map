@@ -150,6 +150,22 @@ function blocsMalPrisDesSources(blocs: readonly { nom: string; b: BlocDate }[], 
   return erreurs
 }
 
+/**
+ * Le retrait d'une fiche (S298, Cédric le 19/10 : « oui, retire les 29
+ * fiches sans trace »). Jamais accepté par la règle du 18/10 : seulement sur
+ * l'accord écrit de Cédric, rejoué par la garde de `data/`.
+ */
+export const retraitSchema = z
+  .object({
+    n: z.string().min(1),
+    raison: z.string().trim().min(1),
+    sources: z.array(lienSchema),
+    verifieLe: z.iso.date(),
+  })
+  .strict()
+
+export type Retrait = z.infer<typeof retraitSchema>
+
 export const lotSchema = z
   .object({
     lot: z.string().min(1),
@@ -161,6 +177,7 @@ export const lotSchema = z
      */
     revues: z.array(z.string().min(1)).optional(),
     ajouts: z.array(ajoutSchema).optional(),
+    retraits: z.array(retraitSchema).optional(),
   })
   .strict()
   .refine((l) => l.revues === undefined || l.propositions.every((p) => l.revues?.includes(p.n)), {
@@ -169,6 +186,24 @@ export const lotSchema = z
 
 export type Proposition = z.infer<typeof propositionSchema>
 export type Lot = z.infer<typeof lotSchema>
+
+/**
+ * Les numéros d'un lot : ses propositions, puis ses fiches nouvelles, puis
+ * ses retraits (S298). Une seule fonction pour l'outil, la règle et la garde
+ * (CLAUDE.md §4).
+ */
+export function numerosDuLot(lot: Pick<Lot, 'propositions' | 'ajouts' | 'retraits'>): number {
+  return lot.propositions.length + (lot.ajouts ?? []).length + (lot.retraits ?? []).length
+}
+
+/** Le nom de la fiche que vise le numéro `k` (à partir de 1), ou `undefined`. */
+export function nomDuNumero(lot: Pick<Lot, 'propositions' | 'ajouts' | 'retraits'>, k: number): string | undefined {
+  const p = lot.propositions.length
+  const a = (lot.ajouts ?? []).length
+  if (k <= p) return lot.propositions.at(k - 1)?.n
+  if (k <= p + a) return (lot.ajouts ?? []).at(k - 1 - p)?.fiche.n
+  return (lot.retraits ?? []).at(k - 1 - p - a)?.n
+}
 
 /** `aujourdhui` (AAAA-MM-JJ) : une vérification ne peut pas être datée du futur. */
 export function lireLot(
@@ -213,7 +248,7 @@ export function appliquerLot(
 ): { ok: true; brasseries: Brasserie[] } | { ok: false; erreurs: string[] } {
   const erreurs: string[] = []
   const ajouts = lot.ajouts ?? []
-  const total = lot.propositions.length + ajouts.length
+  const total = numerosDuLot(lot)
   for (const numero of acceptees) {
     if (!Number.isInteger(numero) || numero < 1 || numero > total) {
       erreurs.push(`proposition ${String(numero)} : n'existe pas dans le lot`)
@@ -240,9 +275,19 @@ export function appliquerLot(
       parNom.set(p.n, p)
     }
   })
+  // S298 : un retrait vise une fiche du fichier, que rien d'autre n'accepte
+  // dans le même lot.
+  const retires = new Set<string>()
+  ;(lot.retraits ?? []).forEach((r, i) => {
+    const numero = lot.propositions.length + ajouts.length + i + 1
+    if (!acceptees.has(numero)) return
+    if (!brasseries.some((b) => b.n === r.n)) erreurs.push(`proposition ${String(numero)} : aucune fiche « ${r.n} » à retirer`)
+    else if (parNom.has(r.n) || retires.has(r.n)) erreurs.push(`proposition ${String(numero)} : « ${r.n} » est déjà visée par une autre acceptée`)
+    else retires.add(r.n)
+  })
   if (erreurs.length > 0) return { ok: false, erreurs }
 
-  const modifiees = brasseries.map((b) => {
+  const modifiees = brasseries.filter((b) => !retires.has(b.n)).map((b) => {
     const p = parNom.get(b.n)
     if (p === undefined) return b
     const dateeFiche = Object.keys(p.changements).some((c) => !DATES_PROPRES.has(c))
@@ -380,8 +425,24 @@ export function diffLisible(
       ].join('\n'),
     ]
   })
-  const titre = `## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)${(lot.ajouts ?? []).length > 0 ? `, ${String((lot.ajouts ?? []).length)} fiche(s) nouvelle(s)` : ''}`
-  return [titre, ...sections, ...sectionsAjouts].join(
+  const baseRetraits = base + (lot.ajouts ?? []).length
+  const sectionsRetraits = (lot.retraits ?? []).flatMap((r, i) => {
+    const numero = baseRetraits + i + 1
+    if (seulement !== undefined && !seulement.has(numero)) return []
+    const fiche = brasseries.find((b) => b.n === r.n)
+    return [
+      [
+        `### ${String(numero)}. RETRAIT : ${r.n}${fiche === undefined ? ' — aucune fiche de ce nom dans les données' : ` (${fiche.c})`}`,
+        '',
+        `- raison : ${r.raison}`,
+        '',
+        `Recherches (le ${r.verifieLe}) : ${r.sources.length > 0 ? r.sources.join(' ; ') : '(aucune)'}`,
+      ].join('\n'),
+    ]
+  })
+  const nbRetraits = (lot.retraits ?? []).length
+  const titre = `## Lot ${lot.lot} — ${String(lot.propositions.length)} proposition(s)${(lot.ajouts ?? []).length > 0 ? `, ${String((lot.ajouts ?? []).length)} fiche(s) nouvelle(s)` : ''}${nbRetraits > 0 ? `, ${String(nbRetraits)} retrait(s)` : ''}`
+  return [titre, ...sections, ...sectionsAjouts, ...sectionsRetraits].join(
     '\n\n',
   )
 }
