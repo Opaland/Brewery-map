@@ -4,13 +4,13 @@ import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import type { Brasserie } from '../../src/core/schema'
+import { TSX_CLI } from '../../outils/tsx'
 
 /*
   L'outil tourne dans un dossier jetable qui contient une COPIE de
   data/breweries.json : le vrai fichier n'est jamais écrit par ces tests.
 */
 const RACINE = resolve('.')
-const TSX = join(RACINE, 'node_modules', '.bin', 'tsx')
 const OUTIL = join(RACINE, 'outils', 'curation.ts')
 const LOT = join(RACINE, 'curation', 's11-exemples-s4.json')
 
@@ -20,7 +20,7 @@ let parole = ''
 const lancer = (...args: string[]) => {
   try {
     const env = { ...process.env, PAROLE_DE_CEDRIC: parole }
-    return { code: 0, sortie: execFileSync(TSX, [OUTIL, ...args], { cwd: dossier, encoding: 'utf8', stdio: 'pipe', env }) }
+    return { code: 0, sortie: execFileSync(process.execPath, [TSX_CLI, OUTIL, ...args], { cwd: dossier, encoding: 'utf8', stdio: 'pipe', env }) }
   } catch (e) {
     const err = e as { status: number; stdout: string; stderr: string }
     return { code: err.status, sortie: err.stdout + err.stderr }
@@ -90,7 +90,7 @@ describe('l’outil n’écrit data/ qu’avec l’empreinte du lot lu (revue co
     copyFileSync(join(RACINE, 'curation', 'osm-2026-10-16.json'), brut)
     const decouvrir = (...a: string[]) => {
       try {
-        execFileSync(TSX, [join(RACINE, 'outils', 'decouverte.ts'), '--depuis', brut, ...a], { cwd: dossier, stdio: 'pipe' })
+        execFileSync(process.execPath, [TSX_CLI, join(RACINE, 'outils', 'decouverte.ts'), '--depuis', brut, ...a], { cwd: dossier, stdio: 'pipe' })
         return 0
       } catch (e) {
         return (e as { status: number }).status

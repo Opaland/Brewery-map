@@ -24,7 +24,7 @@ test.describe('la page d’accueil', () => {
     const ailleurs: string[] = []
     page.on('request', (r) => {
       const url = r.url()
-      if (url.startsWith('http://localhost:4173') || url.startsWith('data:')) return
+      if (url.startsWith('http://localhost:4317') || url.startsWith('data:')) return
       if (TUILE_OSM.test(url)) return
       ailleurs.push(url)
     })

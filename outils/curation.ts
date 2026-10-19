@@ -61,6 +61,7 @@ import { validerBrasseries } from '../src/core/schema'
 import { empreinte, fichiersDeLots, lireTexte } from './lots'
 import { sansLesAppliquees, trierParRegle, type LotNomme } from '../src/core/regle'
 import { execFileSync } from 'node:child_process'
+import { TSX_CLI } from './tsx'
 import { accordSchema, nomDAccord } from '../src/core/garde-donnees'
 import { fetchCompte } from './requetes'
 
@@ -230,7 +231,7 @@ function controlerEnSilence(chemin: string): string {
   try {
     const fd = openSync(fichier, 'w')
     try {
-      execFileSync('npx', ['tsx', 'outils/curation.ts', 'controler', chemin], { stdio: ['ignore', fd, fd] })
+      execFileSync(process.execPath, [TSX_CLI, 'outils/curation.ts', 'controler', chemin], { stdio: ['ignore', fd, fd] })
     } catch {
       // Un écart sort en code non nul, et son verdict sur la sortie d'erreur :
       // les deux vont dans le même fichier.

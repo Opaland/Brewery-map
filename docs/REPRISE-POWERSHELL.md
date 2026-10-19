@@ -7,11 +7,10 @@ nouvelle session.
 ## 1. Préparer le poste (une fois, dans PowerShell)
 
 ```powershell
-# Outils : Git (avec Git Bash, nécessaire aux crochets .claude/hooks/*.sh),
-# Node 22, jq (lu par les crochets), GitHub CLI.
+# Outils : Git, Node 22, GitHub CLI. Depuis S302, les crochets sont en Node
+# (.claude/hooks/crochet.mjs) : ni jq ni Git Bash ne leur sont nécessaires.
 winget install --id Git.Git -e
 winget install --id OpenJS.NodeJS.LTS -e        # vérifier ensuite : node -v → v22.x ou plus
-winget install --id jqlang.jq -e
 winget install --id GitHub.cli -e
 gh auth login
 
@@ -44,7 +43,8 @@ Notes :
 - Si `npx vitest run` échoue dans `outil-curation.test.ts` avec `EINVAL` ou
   `ENOENT`, c'est le constat W3 de la revue. Il faut le corriger en premier.
 - Lancer ensuite `claude` dans le dossier du dépôt. Le crochet de démarrage
-  affiche l'état du déploiement : il demande Git Bash et `jq` (W2).
+  affiche l'état du déploiement : il demande `gh` dans le PATH. Ouvrir un
+  nouveau terminal après l'installation de `gh`, sinon Node ne le voit pas.
 
 ## 2. Le texte à coller dans la nouvelle session
 
@@ -93,7 +93,7 @@ Particularités de Windows et de PowerShell :
   par ligne, ou « ; »).
 - PW_CHROMIUM_PATH est inutile ici (Chromium vient de
   `npx playwright install chromium`).
-- Les crochets .claude/hooks/*.sh tournent sous Git Bash et lisent jq. Si un
+- Les crochets tournent en Node (.claude/hooks/crochet.mjs, depuis S302). Si un
   crochet ne tourne pas, dis-le-moi : ne contourne jamais la porte.
 - Pour les PR et la CI, utilise gh :
   - gh pr create

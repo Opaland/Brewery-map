@@ -5,9 +5,11 @@ description: Lance la porte complète de Mousse de Poche — lint, typecheck, te
 
 # La porte complète
 
-Reprise de Sentiers. Le hook `porte-avant-commit.sh` lance déjà les mêmes
-étapes avant chaque `git commit` ; cette procédure sert à la lancer à la main
-et à lire ses échecs.
+Reprise de Sentiers. Le crochet avant commit (`.claude/hooks/crochet.mjs`,
+étapes dans `outils/etapes-porte.ts`) lance déjà les mêmes étapes avant
+chaque `git commit`, et `npm run porte` les lance d'un coup, sous Linux comme
+sous Windows ; cette procédure sert à la lancer pas à pas et à lire ses
+échecs.
 
 ## L'ordre, et pourquoi
 
@@ -18,8 +20,11 @@ npm run lint
 npx tsc -b --noEmit        # PAS `tsc --noEmit` : voir plus bas
 npx vitest run             # dont data/breweries.json contre le schéma
 npm run build              # SANS masquer la sortie
-PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test
+PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test   # conteneur cloud
+npx playwright test                                              # Windows, macOS
 ```
+
+Sous PowerShell, les mêmes commandes, une par ligne (pas de `&&`).
 
 ## Trois pièges, mesurés sur Sentiers
 

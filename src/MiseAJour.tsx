@@ -1,6 +1,6 @@
 import { t } from './i18n'
 import { useEffect, useState } from 'react'
-import { activerNouvelleVersion, EVENEMENT_NOUVELLE_VERSION } from './miseAJour'
+import { activerNouvelleVersion, EVENEMENT_NOUVELLE_VERSION } from './nouvelleVersion'
 
 /** Le bandeau « nouvelle version » (revue globale S22). */
 export function MiseAJour() {

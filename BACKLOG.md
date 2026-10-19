@@ -357,3 +357,10 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 
 
 - **S298 (revue adverse)** : `controler` n’ouvre pas les sources d’un retrait. Sans gravité tant que la règle ne l’accepte jamais, mais un retrait mériterait le même contrôle de page qu’une proposition.
+
+## Reprise sous Windows S302 — restes
+
+- **W5** (mineur) : `outils/geocodeur.ts:14` appelle `sleep`, `outils/requetes.ts:29` `curl`, `outils/captures.ts:110` `ffmpeg` ; `package.json` n'a pas de champ `engines`. Remède : `node:timers/promises`, `fetch` compté, `"engines": {"node": ">=22"}`.
+- **Un réglage changé juste avant de fermer l'onglet peut se perdre** : `garderSaufVersionFuture` (`src/stockage.ts`) lit puis écrit dans une transaction que la fermeture interrompt. Vu par deux e2e qui rechargeaient trop tôt sous Windows (S302). Rien n'est perdu au-delà de quelques millisecondes ; à mesurer avant d'y toucher.
+- **C2 reste ouvert** : le crochet de commit se contourne toujours par `git -C . commit` ou `git -c … commit` (le portage en Node ne change que la sortie silencieuse sans `jq`).
+- **`gh` introuvable pour Node** quand Claude Code est lancé d'un terminal ouvert avant l'installation de `gh` : le crochet de démarrage dit alors « gh absent ». Ouvrir un nouveau terminal (noté dans `docs/REPRISE-POWERSHELL.md`).

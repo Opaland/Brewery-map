@@ -1,3 +1,4 @@
+import { attendreGarde } from './garde'
 import { expect, test } from './position'
 import { sansTuiles } from './reseau'
 
@@ -17,6 +18,7 @@ test('« Sombre » assombrit un téléphone réglé en clair, et se garde au ret
   // Le papier sombre du design system v2 (#15110d), pas « autre chose ».
   await expect.poll(() => fond(page)).toBe('rgb(21, 17, 13)')
   expect(clair).not.toBe('rgb(21, 17, 13)')
+  await attendreGarde(page, { theme: 'sombre' })
   await expect.poll(async () => {
     await page.reload()
     return page.evaluate(() => document.documentElement.dataset['theme'])

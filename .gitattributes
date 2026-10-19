@@ -1,0 +1,11 @@
+# Le dépôt est en LF, quel que soit le poste (S302, W1) : Git pour Windows
+# extrait en CRLF par défaut, et les empreintes de data/ et des lots
+# changeaient alors. Voir tests/unit/fins-de-ligne.test.ts.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff2 binary

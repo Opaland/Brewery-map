@@ -56,7 +56,7 @@ export default defineConfig({
   globalTimeout: 30 * 60 * 1000,
   reporter: process.env.CI ? 'github' : 'list',
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: 'http://localhost:4317',
     trace: 'on-first-retry',
     // Le service worker intercepte les requêtes et court-circuiterait les
     // `page.route` des tests (leçon de Sentiers) : bloqué par défaut, permis
@@ -77,7 +77,11 @@ export default defineConfig({
     ? {
         webServer: {
           command: 'npm run preview',
-          url: 'http://localhost:4173',
+          url: 'http://localhost:4317',
+          // Hors CI, un serveur déjà lancé est réutilisé : sur un port à Mousse
+          // de Poche (4317, `--strictPort`), jamais sur le 4173 par défaut de
+          // Vite, que les dépôts frères prennent aussi (S302, W8 : le 19/10,
+          // 209 e2e ont testé Sentiers).
           reuseExistingServer: !process.env.CI,
         },
       }

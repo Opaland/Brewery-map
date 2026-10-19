@@ -39,6 +39,19 @@ async function ouvrir(page: Page, schema: 'light' | 'dark' = 'light') {
  * pas. Leur nom accessible est vérifié à part.
  */
 async function violations(page: Page) {
+  // La fiche s'ouvre en fondu (`fiche-ouvre`, 180 ms) : mesuré pendant le
+  // fondu, tout son texte manque de contraste. Sur le PC fixe sous Windows,
+  // axe passait avant la fin, et les quatre balayages rougissaient à chaque
+  // fois (S302, 19/10). On attend donc la fin des animations qui en ont une.
+  await page.evaluate(() =>
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getComputedTiming().iterations !== Infinity)
+        // Une animation annulée rejette `finished` : elle ne peint plus rien.
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
+  )
   const r = await new AxeBuilder({ page })
     .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])
     .exclude('.maplibregl-marker')

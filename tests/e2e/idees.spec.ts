@@ -67,7 +67,7 @@ test.describe('partager sans menu de partage : le lien est copié', () => {
     await page.getByTestId('bouton-partager').click()
     await expect(page.getByTestId('partage-etat')).toHaveText('Lien copié.')
     const copie = await derniereCopie(page)
-    expect(copie).toMatch(/^http:\/\/localhost:4173\/#fiche=[^&?]+$/)
+    expect(copie).toMatch(/^http:\/\/localhost:4317\/#fiche=[^&?]+$/)
   })
 })
 

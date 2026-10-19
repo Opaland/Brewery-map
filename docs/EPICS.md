@@ -477,11 +477,17 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 | S295 | La relecture d'ensemble : chaque persona, un lead, un architecte, et la fiche face à la concurrence (`docs/REVUE-ENSEMBLE.md`) | — |
 | S296 | Les bases d'étape de la garde de `data/` (revue d'architecture S295, AR1) | S295 |
 
+### E28 — La reprise sous Windows *(revue globale du 19/10, groupe W)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S302 | La porte tourne sous Windows et PowerShell : fins de ligne, casse des fichiers, processus sans `npx`, crochets en Node, doc PowerShell, un port local à soi (W1 à W4, W6 à W8) | `docs/REVUE-GLOBALE-2026-10-19.md` ; mesuré sur le PC fixe le 19/10 |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble.
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28).
 
 ## Ordre d'exécution
 

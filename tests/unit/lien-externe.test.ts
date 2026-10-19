@@ -1,5 +1,4 @@
 import { readdirSync, readFileSync } from 'node:fs'
-import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 
 /**
@@ -7,10 +6,13 @@ import { describe, expect, it } from 'vitest'
  * dit « nouvel onglet » à qui écoute la page. Un `target="_blank"` posé à la
  * main l'oublierait (§4). Seule exception : l'attribution de la carte, posée
  * par MapLibre dans le DOM, que `Carte.tsx` complète de la même annonce.
+ *
+ * Les chemins s'écrivent avec « / » : `join` rend `src\Carte.tsx` sous
+ * Windows, et les deux exceptions passaient pour fautives (S302, W7).
  */
 const fichiers = (dossier: string): string[] =>
   readdirSync(dossier, { withFileTypes: true }).flatMap((e) =>
-    e.isDirectory() ? fichiers(join(dossier, e.name)) : /\.tsx?$/.test(e.name) ? [join(dossier, e.name)] : [],
+    e.isDirectory() ? fichiers(`${dossier}/${e.name}`) : /\.tsx?$/.test(e.name) ? [`${dossier}/${e.name}`] : [],
   )
 
 describe('les liens sortants', () => {

@@ -54,7 +54,7 @@ async function unPassage(page: Page, graine: number, gestes: number) {
   const journal: string[] = []
   const erreurs: string[] = []
   const ailleurs: string[] = []
-  const site = new URL(page.url() === 'about:blank' ? 'http://localhost:4173/' : page.url()).origin
+  const site = new URL(page.url() === 'about:blank' ? 'http://localhost:4317/' : page.url()).origin
   page.on('pageerror', (e) => erreurs.push(`pageerror : ${e.message}`))
   page.on('console', (m) => {
     if (m.type() === 'error') erreurs.push(`console : ${m.text()}`)
