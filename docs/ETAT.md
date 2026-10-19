@@ -28,6 +28,13 @@ Les fiches sans source, relues, attendent une décision de Cédric :
 `curation/s297-sans-source.md` (fiches sans trace, cessée, site piraté,
 autre commune).
 
+## Revue globale du 19/10, et la reprise sur le PC fixe
+
+- Les bugs trouvés, numérotés et classés : `docs/REVUE-GLOBALE-2026-10-19.md`
+  (W : Windows ; A : application ; T : textes ; C : CI ; D : dette).
+- La préparation du poste et le texte à coller dans Claude Code sous
+  PowerShell : `docs/REPRISE-POWERSHELL.md`.
+
 ## Ce qui t'attend, Cédric
 
 1. `curation/A-MONTRER.md` : onze groupes, une réponse par groupe (le
