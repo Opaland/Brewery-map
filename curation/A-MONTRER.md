@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (145 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (175 fiches relues)
 
-S297 a relu 145 fiches sur leur site. 46 propositions sont entrées par la
-règle (`curation/s297-completer-1.md` à `s297-completer-5.md`). Restent :
+S297 a relu 175 fiches sur leur site. 62 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-6.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -162,6 +162,8 @@ règle (`curation/s297-completer-1.md` à `s297-completer-5.md`). Restent :
 | Brasserie Saint-Clair | « Du Lundi au Vendredi 09h30 à 12h00, 14H30 à 17h30 » d'octobre à mars, sans nature | dire « vente » |
 | Brasserie Beauseigne | le site ne cite pas de bar ; la fiche dit « Bar à bière et boutique » | revoir la catégorie |
 | Brasserie Romanaise (Jacquemart) | site en 503 ; fixe 09 73 28 89 66 sur un annuaire | à relancer |
+| Art Is An Ale Brewing | deux horaires contradictoires sur la page (ven.–sam. 17h-minuit, ou 17h-19h) | à vérifier par téléphone |
+| La Cibulle, Spore, Pleine Lune | horaires écrits sans dire boutique ou bar | dire « accueil » ou « vente » |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).

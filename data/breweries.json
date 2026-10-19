@@ -3153,7 +3153,13 @@
   "addr": "10 rue Gustave Eiffel, ZA La Grue, 26120 Chabeuil",
   "src": "https://www.valence-romans-tourisme.com/en/catalog/detail/la-brasserie-de-la-pleine-lune-5948644/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 75 85 47 19",
+   "site": "https://brasserie-pleinelune.fr/",
+   "source": "https://brasserie-pleinelune.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Ferme-brasserie Déluge",
@@ -3215,8 +3221,73 @@
    "tel": "04 57 93 60 27",
    "site": "https://brasseriedescuves.fr",
    "source": "https://brasseriedescuves.fr",
-   "verifieLe": "2026-10-17"
-  }
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Horaires des particuliers ; horaires élargis en décembre.",
+    "source": "https://brasseriedescuves.fr",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie La Furieuse",
@@ -3320,7 +3391,64 @@
    "untappd": "https://untappd.com/BrasserieDesCimes",
    "source": "https://www.brasserie-des-cimes.com",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.brasserie-des-cimes.com",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie La Dourbie",
@@ -3468,7 +3596,15 @@
   "addr": "455 route de la Carrèze, 71220 Beaubery",
   "src": "https://brasserieteddybeer.fr/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   }
+  ],
+  "verifieLe": "2026-10-19"
  },
  {
   "n": "Brasserie Dr D. Brewpub",
@@ -3513,7 +3649,12 @@
   "addr": "14 rue Claude Genin, 38000 Grenoble",
   "src": "https://www.alpes-isere.com/en/sit/brasserie-irvoy-5250264/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "http://www.brasserie-irvoy.fr/",
+   "source": "http://www.brasserie-irvoy.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Maltobar",
@@ -3615,7 +3756,67 @@
    "untappd": "https://untappd.com/Archimalt",
    "source": "https://www.archimalt.fr/nos-bi%C3%A8res/notre-gamme/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mar": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Les samedis de Jam Bluegrass, ouvert de 11h à 23h ; dernier service 20 min avant la fermeture.",
+    "source": "https://www.archimalt.fr",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "La Montagnarde",
@@ -3768,7 +3969,7 @@
   "km": 96.1,
   "cat": 1,
   "conf": "moyenne",
-  "note": "Boutique et dégustation de produits listées ; jeu 12h30-19h, ven-sam 13h30-19h (période 2024-2025).",
+  "note": "Boutique et bar de la brasserie ; d'après le site, ouverts le jeudi de 11h30 à 20h, le vendredi de 15h à 20h, le samedi de 15h à 18h.",
   "addr": "33 rue de Champ Roman, 38400 Saint-Martin-d'Hères",
   "src": "https://www.alpes-isere.com/en/sit/brasserie-artisanale-du-dauphine-4967619/",
   "coordPrecision": "centre",
@@ -3804,12 +4005,12 @@
     "url": "https://brasseriedudauphine.fr/face-nord/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "04 38 37 19 67",
-   "site": "https://brasseriedudauphine.fr",
-   "source": "https://brasseriedudauphine.fr/face-nord/",
-   "verifieLe": "2026-10-17"
+   "site": "https://brasseriedudauphine.fr/",
+   "source": "https://brasseriedudauphine.fr/",
+   "verifieLe": "2026-10-19"
   }
  },
  {
@@ -3840,7 +4041,12 @@
   "addr": "2 route de Coubon, 43700 Brives-Charensac",
   "src": "https://brasseriemotueka.fr/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://brasseriemotueka.fr/",
+   "source": "https://brasseriemotueka.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "La Barbue",
@@ -3866,11 +4072,37 @@
   "km": 100.2,
   "cat": 1,
   "conf": "solide",
-  "note": "Vente à la propriété, dégustation, bar et buvette ; demi à 3 €. Mercredi 16h-22h ; vendredi jusqu'à minuit les soirs de concert.",
+  "note": "Vente à la propriété, dégustation, bar et buvette ; à emporter 3 € la bouteille de 33 cl, 6 € la 75 cl.",
   "addr": "Le Plan du Nant, 73190 Puygros",
   "src": "https://www.chamberymontagnes.com/que-faire/la-brasserie-du-merle-puygros-fr-5783351/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://brasseriedumerle.fr/",
+   "source": "https://brasseriedumerle.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "18:00",
+      "00:00"
+     ]
+    ],
+    "remarque": "Le vendredi, seulement les soirs de concert.",
+    "source": "https://brasseriedumerle.fr/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Quardin",
@@ -4361,28 +4593,41 @@
     "type": "ipa"
    },
    {
-    "type": "ambree"
-   },
-   {
-    "type": "blonde"
-   },
-   {
-    "type": "blonde"
-   },
-   {
-    "type": "ipa"
-   },
-   {
     "type": "stout"
-   },
-   {
-    "type": "blonde"
-   },
-   {
-    "type": "blonde"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://brasserie-insulaire.com/",
+   "source": "https://brasserie-insulaire.com/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Visite et dégustation uniquement sur réservation ; guinguette en période estivale (d'avril à septembre).",
+    "source": "https://brasserie-insulaire.com/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Les Deux Amants",
@@ -4428,7 +4673,13 @@
   "src": "https://www.brasserie-spore.com",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 32 62 09 51",
+   "site": "https://www.brasserie-spore.com",
+   "source": "https://www.brasserie-spore.com",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Cotentine",
@@ -8707,10 +8958,18 @@
     "type": "ambree"
    },
    {
+    "type": "autre",
+    "libelle": "Triple"
+   },
+   {
     "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Sarrasin"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://www.belledemaine.fr/",
    "source": "https://www.belledemaine.fr/",
@@ -9287,8 +9546,25 @@
   "addr": "9 rue du Docteur Castaing, 72320 Montmirail",
   "src": "https://www.brasseriedemontmirail.com/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "CerviraBilis Blonde"
+   },
+   {
+    "type": "ambree",
+    "libelle": "CerviraBilis Ambrée"
+   },
+   {
+    "type": "blanche",
+    "libelle": "CerviraBilis Blanche"
+   },
+   {
+    "type": "ipa",
+    "libelle": "CerviraBilis India Pale Ale"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://www.brasseriedemontmirail.com/",
    "source": "https://www.brasseriedemontmirail.com/",
@@ -9632,14 +9908,129 @@
   "addr": "ZA La Barboire, Chambretaud, 85500 Chanverrie",
   "src": "https://www.brasserie-melusine.com/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "ipa",
+    "libelle": "Hellfest IPA"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 51 61 51 52",
    "site": "https://www.brasserie-melusine.com/",
    "source": "https://www.brasserie-melusine.com/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+    "source": "https://www.brasserie-melusine.com/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+    "source": "https://www.brasserie-melusine.com/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Ferme-brasserie La Muette",
@@ -9654,8 +10045,25 @@
   "addr": "La Muette, 85390 Bazoges-en-Pareds",
   "src": "https://www.brasserie-la-muette.fr/fr/brasserie",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Blanche Wheat ale"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session IPA"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Amber Ale"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde Triple"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 52 66 00 36",
    "site": "https://www.brasserie-la-muette.fr/",
@@ -10042,7 +10450,13 @@
   "src": "https://www.tourainevaldeloire.com/en/offers/art-is-an-ale-brewing-amboise-en-5153269",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "09 54 63 45 92",
+   "site": "https://www.artisanalebrewing.fr",
+   "source": "https://www.artisanalebrewing.fr",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Une Gabare à Husseau",

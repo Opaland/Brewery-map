@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (442)
+## Déjà dans data/ par un accord (458)
 
 | Lot | Numéros |
 |---|---|
@@ -40,6 +40,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-3 | 2, 3, 4, 6, 7, 8, 10, 11, 12, 13 |
 | s297-completer-4 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
 | s297-completer-5 | 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| s297-completer-6 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
 
 ## À montrer à Cédric (249)
 
@@ -233,9 +234,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s53-untappd-bieres | 34 | Brasserie de Cluny | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 35 | La Valentinoise | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 36 | Brasserie du Mont Blanc | source hors du site officiel : untappd.com |
-| s53-untappd-bieres | 37 | Brasserie de la Pleine Lune | aucun site officiel connu pour la fiche |
+| s53-untappd-bieres | 37 | Brasserie de la Pleine Lune | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 38 | Brasserie des Cimes | source hors du site officiel : untappd.com |
-| s53-untappd-bieres | 39 | Brasserie Irvoy | aucun site officiel connu pour la fiche |
+| s53-untappd-bieres | 39 | Brasserie Irvoy | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 40 | Brasserie Solstice | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 41 | Brasserie Archimalt | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 42 | La Mousse du Hérisson | aucun site officiel connu pour la fiche |
@@ -275,14 +276,14 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 52 | La Grange du Seigneur | aucune source sur le site officiel |
 | s54-positions | 53 | L'Agrivoise | aucune source sur le site officiel |
 | s54-positions | 54 | Brasserie du Mont Blanc | aucune source sur le site officiel |
-| s54-positions | 55 | Brasserie de la Pleine Lune | aucun site officiel connu pour la fiche |
+| s54-positions | 55 | Brasserie de la Pleine Lune | aucune source sur le site officiel |
 | s54-positions | 56 | Brasserie Kura | aucune source sur le site officiel |
 | s54-positions | 57 | Brasserie des Cuves | aucune source sur le site officiel |
 | s54-positions | 58 | Brasserie La Furieuse | aucune source sur le site officiel |
 | s54-positions | 59 | La Marmotte Masquée | aucune source sur le site officiel |
 | s54-positions | 60 | Brasserie des Cimes | aucune source sur le site officiel |
 | s54-positions | 61 | Brasserie La Dourbie | aucune source sur le site officiel |
-| s54-positions | 62 | Brasserie Irvoy | aucun site officiel connu pour la fiche |
+| s54-positions | 62 | Brasserie Irvoy | aucune source sur le site officiel |
 | s54-positions | 63 | P'tit Labo (Brasserie de Grenoble) | aucun site officiel connu pour la fiche |
 | s54-positions | 64 | Brasserie Solstice | aucun site officiel connu pour la fiche |
 | s54-positions | 65 | Brasserie Kiltin' | aucun site officiel connu pour la fiche |

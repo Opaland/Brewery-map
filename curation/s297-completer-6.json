@@ -1,0 +1,696 @@
+{
+  "lot": "s297-completer-6",
+  "propositions": [
+    {
+      "n": "Brasserie de la Pleine Lune",
+      "changements": {
+        "contact": {
+          "tel": "04 75 85 47 19",
+          "site": "https://brasserie-pleinelune.fr/",
+          "source": "https://brasserie-pleinelune.fr/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserie-pleinelune.fr/"
+      ],
+      "extrait": "Par téléphone au 04 75 85 47 19 du lundi au vendredi de 9h à 19h",
+      "choix": "Fixe publié par la brasserie. Horaires d'ouverture écrits sans nature (bar ou boutique) : non proposés."
+    },
+    {
+      "n": "Brasserie des Cuves",
+      "changements": {
+        "contact": {
+          "tel": "04 57 93 60 27",
+          "site": "https://brasseriedescuves.fr",
+          "source": "https://brasseriedescuves.fr",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:30",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "mar": [
+              [
+                "09:30",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "mer": [
+              [
+                "09:30",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:30",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:30",
+                "12:30"
+              ],
+              [
+                "14:00",
+                "18:00"
+              ]
+            ],
+            "sam": [
+              [
+                "09:30",
+                "12:30"
+              ]
+            ],
+            "remarque": "Horaires des particuliers ; horaires élargis en décembre.",
+            "source": "https://brasseriedescuves.fr",
+            "verifieLe": "2026-10-19",
+            "dim": []
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasseriedescuves.fr"
+      ],
+      "extrait": "Vente à la brasserie aux heures d'ouverture.",
+      "choix": "Horaires des particuliers ; ceux des professionnels écartés. Vente seule : ni bar ni dégustation écrits."
+    },
+    {
+      "n": "Brasserie des Cimes",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:00"
+              ]
+            ],
+            "mar": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:00"
+              ]
+            ],
+            "mer": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "16:00"
+              ]
+            ],
+            "source": "https://www.brasserie-des-cimes.com",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-des-cimes.com"
+      ],
+      "extrait": "Boutique ouverte du lundi au jeudi : 9h00 - 12h30 / 13h30 - 17h00 et le vendredi : 9h00 - 12h30 / 13h30 - 16h00",
+      "choix": "Boutique : bloc de vente. Pas de téléphone lu."
+    },
+    {
+      "n": "Brasserie Teddy Beer",
+      "changements": {
+        "beers": [
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "blonde"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserieteddybeer.fr/"
+      ],
+      "extrait": "Nous proposons une gamme de bières permanentes (blanche, blonde, rousse, noire)",
+      "choix": "Rousse et noire sans type correspondant : écartées. Seul numéro, un mobile : écarté. Accueil sur rendez-vous."
+    },
+    {
+      "n": "Brasserie Irvoy",
+      "changements": {
+        "contact": {
+          "site": "http://www.brasserie-irvoy.fr/",
+          "source": "http://www.brasserie-irvoy.fr/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.brasserie-irvoy.fr/"
+      ],
+      "extrait": "Nos bières Hors Série sont en vente !",
+      "choix": "Site officiel ajouté (lien depuis Untappd). Rien d'autre lu."
+    },
+    {
+      "n": "Brasserie Archimalt",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "mar": [
+              [
+                "11:00",
+                "14:30"
+              ],
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:00",
+                "14:30"
+              ],
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "14:30"
+              ],
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "14:30"
+              ],
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "sam": [
+              [
+                "17:00",
+                "23:00"
+              ]
+            ],
+            "remarque": "Les samedis de Jam Bluegrass, ouvert de 11h à 23h ; dernier service 20 min avant la fermeture.",
+            "source": "https://www.archimalt.fr",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.archimalt.fr"
+      ],
+      "extrait": "de 17h à 23h",
+      "choix": "Bar et restaurant : bloc d'accueil. Dimanche non nommé : omis."
+    },
+    {
+      "n": "Brasserie Motueka",
+      "changements": {
+        "contact": {
+          "site": "https://brasseriemotueka.fr/",
+          "source": "https://brasseriemotueka.fr/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasseriemotueka.fr/"
+      ],
+      "extrait": "Brives Charensac",
+      "choix": "Site officiel ajouté. Seul numéro, un mobile : écarté."
+    },
+    {
+      "n": "Brasserie du Dauphiné",
+      "changements": {
+        "contact": {
+          "tel": "04 38 37 19 67",
+          "site": "https://brasseriedudauphine.fr/",
+          "source": "https://brasseriedudauphine.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "note": "Boutique et bar de la brasserie ; d'après le site, ouverts le jeudi de 11h30 à 20h, le vendredi de 15h à 20h, le samedi de 15h à 18h."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasseriedudauphine.fr/"
+      ],
+      "extrait": "+33 (0)4 38 37 19 67",
+      "choix": "Fixe publié par la brasserie. La note (horaires 2024-2025) était contredite par le site : réécrite. Pas de bloc d'horaires : le contrôle lit « 18h 33, rue Champ Roman » comme 18 h 33 ; à reprendre quand l'outil saura le lire."
+    },
+    {
+      "n": "Brasserie du Merle",
+      "changements": {
+        "contact": {
+          "site": "https://brasseriedumerle.fr/",
+          "source": "https://brasseriedumerle.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mer": [
+              [
+                "16:00",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "18:00",
+                "00:00"
+              ]
+            ],
+            "remarque": "Le vendredi, seulement les soirs de concert.",
+            "source": "https://brasseriedumerle.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "note": "Vente à la propriété, dégustation, bar et buvette ; à emporter 3 € la bouteille de 33 cl, 6 € la 75 cl."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasseriedumerle.fr/"
+      ],
+      "extrait": "Le bar de la brasserie est ouvert",
+      "choix": "Deux mobiles écartés. Le site dit mercredi 16h-20h, la note disait 22h : heures retirées de la note, au bloc d'accueil."
+    },
+    {
+      "n": "Art Is An Ale Brewing",
+      "changements": {
+        "contact": {
+          "tel": "09 54 63 45 92",
+          "site": "https://www.artisanalebrewing.fr",
+          "source": "https://www.artisanalebrewing.fr",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.artisanalebrewing.fr"
+      ],
+      "extrait": "09 54 63 45 92",
+      "choix": "Fixe du taproom retenu ; mobile de la brasserie écarté. Horaires non proposés : deux blocs contradictoires sur la page (lun-jeu 17h-23h, ven-sam 17h-minuit contre ven-sam 17h-19h)."
+    },
+    {
+      "n": "Brasserie de Montmirail",
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "CerviraBilis Blonde"
+          },
+          {
+            "type": "ambree",
+            "libelle": "CerviraBilis Ambrée"
+          },
+          {
+            "type": "blanche",
+            "libelle": "CerviraBilis Blanche"
+          },
+          {
+            "type": "ipa",
+            "libelle": "CerviraBilis India Pale Ale"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriedemontmirail.com/nos-bieres"
+      ],
+      "extrait": "La CerviraBilis Ambrée est une bière rousse de charactère de type Red Irish.",
+      "choix": "Page « Nos bières » du site officiel. Saison et fumée écartées. Seul numéro, un mobile : écarté. Horaires déjà en fiche."
+    },
+    {
+      "n": "La Belle de Maine",
+      "changements": {
+        "beers": [
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "ambree"
+          },
+          {
+            "type": "autre",
+            "libelle": "Triple"
+          },
+          {
+            "type": "ipa"
+          },
+          {
+            "type": "autre",
+            "libelle": "Sarrasin"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.belledemaine.fr/"
+      ],
+      "extrait": "La gamme se compose de 6 bières permanentes (Blanche, Blonde, Ambrée, Triple, IPA et Sarrasin)",
+      "choix": "Liste complète du site officiel. Seul numéro, un mobile : écarté. Horaires en image : non lus."
+    },
+    {
+      "n": "Spore",
+      "changements": {
+        "contact": {
+          "tel": "02 32 62 09 51",
+          "site": "https://www.brasserie-spore.com",
+          "source": "https://www.brasserie-spore.com",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-spore.com"
+      ],
+      "extrait": "02.32.62.09.51",
+      "choix": "Fixe publié par la brasserie. Horaires jeu-sam 16h-minuit sans nature écrite : non proposés."
+    },
+    {
+      "n": "Brasserie Mélusine",
+      "changements": {
+        "horaires": [
+          {
+            "mar": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "sam": [
+              [
+                "10:00",
+                "13:00"
+              ]
+            ],
+            "lun": [],
+            "dim": [],
+            "nature": "accueil",
+            "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "mar": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "sam": [
+              [
+                "10:00",
+                "13:00"
+              ]
+            ],
+            "lun": [],
+            "dim": [],
+            "nature": "vente",
+            "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Hellfest IPA"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-melusine.com/"
+      ],
+      "extrait": "Horaires d’hiver : octobre à mars – Fermé le lundi et dimanche ainsi que les jours fériés.",
+      "choix": "Un seul tableau « Bar/Boutique » : un bloc d'accueil et un de vente. Horaires d'hiver en créneaux (saison en cours), ceux d'été en remarque."
+    },
+    {
+      "n": "Ferme-brasserie La Muette",
+      "changements": {
+        "beers": [
+          {
+            "type": "blanche",
+            "libelle": "Blanche Wheat ale"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Session IPA"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Amber Ale"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Blonde Triple"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-la-muette.fr/fr/bieres"
+      ],
+      "extrait": "Blanche Wheat ale",
+      "choix": "Styles écrits dans la liste de la page des bières (« BLONDE TRIPLE » est une seule bière). NEIPA, DIPA, Sour & Muette écartées. Horaires du site : ceux du restaurant La Stabul, non proposés."
+    },
+    {
+      "n": "Brasserie Insulaire",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "vente",
+            "mer": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "remarque": "Visite et dégustation uniquement sur réservation ; guinguette en période estivale (d'avril à septembre).",
+            "source": "https://brasserie-insulaire.com/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "ambree"
+          },
+          {
+            "type": "autre",
+            "libelle": "Bière de Noël"
+          },
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "ipa"
+          },
+          {
+            "type": "stout"
+          }
+        ],
+        "contact": {
+          "site": "https://brasserie-insulaire.com/",
+          "source": "https://brasserie-insulaire.com/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserie-insulaire.com/"
+      ],
+      "extrait": "Du mercredi au vendredi 9h – 18h",
+      "choix": "Seul numéro, un mobile : écarté. Boutique (vente directe) seule à avoir des heures écrites ; guinguette sans heures, en remarque. Styles écrits sur la page (« Saison Ambrée », « Triple Ambrée » rangées en ambrée, à confirmer)."
+    }
+  ],
+  "revues": [
+    "Brasserie de la Pleine Lune",
+    "Brasserie des Cuves",
+    "Brasserie des Cimes",
+    "RUN'HARD",
+    "Brasserie Teddy Beer",
+    "Brasserie Irvoy",
+    "Brasserie Archimalt",
+    "Brasserie Motueka",
+    "Brasserie du Dauphiné",
+    "Brasserie du Merle",
+    "Art Is An Ale Brewing",
+    "Une Gabare à Husseau",
+    "Brasserie de Montmirail",
+    "Brasserie Les Deux Brunes",
+    "Brasserie Jolicoeur",
+    "Brasserie Septante-Deux",
+    "Brasserie La Cibulle",
+    "Brasserie Bizarre",
+    "Brasserie La Bestiole",
+    "Ferme-brasserie La Muette",
+    "La Belle de Maine",
+    "Brasserie Mortania",
+    "Spore",
+    "Brasserie La Papposilène",
+    "Brasserie Mélusine",
+    "Le Bercail",
+    "L'Éco-Pain",
+    "La Côale",
+    "Brasserie Alpaca",
+    "Brasserie Insulaire"
+  ]
+}
