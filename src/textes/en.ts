@@ -409,5 +409,8 @@ export const EN: Readonly<Record<string, string>> = {
   "octobre": "October",
   "novembre": "November",
   "décembre": "December",
+  "Les jours fériés : un 15 août ou une Toussaint, la fiche ne dit plus « ouvert » d’après des horaires ordinaires, mais « sous réserve », en nommant le jour.": "Public holidays: on 15 August or All Saints’ Day, a listing no longer says “open” from its usual hours, but “to be confirmed”, naming the day.",
+  "Le filtre « Ouvertes ce week-end », d’après les horaires publiés ; il dit combien de brasseries il peut juger.": "The “Open this weekend” filter, based on published hours; it says how many breweries it can judge.",
+  "Un favori absent de la liste dit pourquoi : trop loin, catégorie décochée, déjà visitée…": "A favourite missing from the list says why: too far, category unticked, already visited…",
   "Les horaires d’une saison : un bar d’été montre ses horaires avec leur période, et ne se dit jamais « ouvert » hors saison (La Grange du Seigneur, Philomenn, Mélusine).": "Seasonal opening hours: a summer bar shows its hours with their period, and never says “open” out of season (La Grange du Seigneur, Philomenn, Mélusine).",
 }
