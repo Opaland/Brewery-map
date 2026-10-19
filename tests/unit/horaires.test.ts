@@ -62,9 +62,9 @@ describe('le schéma des horaires', () => {
 
 describe('ouvertLe', () => {
   const h = [accueil] as unknown as H
-  const sam = { cle: 'sam', mmjj: '10-24' } as const
-  const dim = { cle: 'dim', mmjj: '10-25' } as const
-  const lun = { cle: 'lun', mmjj: '10-19' } as const
+  const sam = { cle: 'sam', mmjj: '10-24', annee: 2026 } as const
+  const dim = { cle: 'dim', mmjj: '10-25', annee: 2026 } as const
+  const lun = { cle: 'lun', mmjj: '10-19', annee: 2026 } as const
   it('oui, non, ou inconnu — jamais deviné', () => {
     expect(ouvertLe(h, sam)).toBe('oui')
     expect(ouvertLe(h, dim)).toBe('non')
@@ -86,25 +86,25 @@ describe('ouvertLe', () => {
 
   it('S70 CA1 : lit le bloc de la saison du jour ; hors de toute période, inconnu', () => {
     const ete = [{ ...accueil, periode: { du: '07-01', au: '08-31' } }] as unknown as H
-    expect(ouvertLe(ete, { cle: 'sam', mmjj: '07-04' })).toBe('oui')
+    expect(ouvertLe(ete, { cle: 'sam', mmjj: '07-04', annee: 2026 })).toBe('oui')
     expect(ouvertLe(ete, sam)).toBe('inconnu')
     const hiver = { ...accueil, sam: [], periode: { du: '10-01', au: '03-31' } }
     const deux = [hiver, { ...accueil, periode: { du: '04-01', au: '09-30' } }] as unknown as H
     expect(ouvertLe(deux, sam)).toBe('non')
-    expect(ouvertLe(deux, { cle: 'sam', mmjj: '07-04' })).toBe('oui')
+    expect(ouvertLe(deux, { cle: 'sam', mmjj: '07-04', annee: 2026 })).toBe('oui')
   })
 })
 
 describe('S70 CA2 : le prochain week-end, à Paris', () => {
   it('un lundi : le samedi et le dimanche à venir', () => {
     expect(prochainWeekEnd(new Date('2026-10-19T10:00:00Z'))).toEqual([
-      { cle: 'sam', mmjj: '10-24' },
-      { cle: 'dim', mmjj: '10-25' },
+      { cle: 'sam', mmjj: '10-24', annee: 2026 },
+      { cle: 'dim', mmjj: '10-25', annee: 2026 },
     ])
   })
   it('un samedi : ce samedi et le lendemain ; un dimanche : ce dimanche seul', () => {
     expect(prochainWeekEnd(new Date('2026-10-24T10:00:00Z')).map((j) => j.mmjj)).toEqual(['10-24', '10-25'])
-    expect(prochainWeekEnd(new Date('2026-10-25T21:30:00Z'))).toEqual([{ cle: 'dim', mmjj: '10-25' }])
+    expect(prochainWeekEnd(new Date('2026-10-25T21:30:00Z'))).toEqual([{ cle: 'dim', mmjj: '10-25', annee: 2026 }])
   })
   it('dimanche 23 h 30 UTC, déjà lundi à Paris : le week-end suivant', () => {
     expect(prochainWeekEnd(new Date('2026-10-25T23:30:00Z')).map((j) => j.mmjj)).toEqual(['10-31', '11-01'])
@@ -183,6 +183,7 @@ describe('ouvertMaintenant', () => {
     expect(ouvertMaintenant(saison, a('2026-10-17T16:00:00Z'))).toEqual({
       etat: 'sous-reserve',
       jusqua: '22:00',
+      remarque: true,
     })
   })
 
@@ -351,5 +352,37 @@ describe('les saisons : revue adverse S299', () => {
     expect(erreurs(avec([hiver, ete]))).toEqual([])
     // Mardi 29/02/2028 à 11 h à Paris.
     expect(ouvertMaintenant([hiver, ete] as unknown as Horaires, a('2028-02-29T10:00:00Z')).etat).toBe('ouvert')
+  })
+})
+
+describe('S91 : les jours fériés', () => {
+  const h = [accueil] as unknown as H
+  it('CA2 : un jour férié, jamais « ouvert » sec ; un jour fermé reste fermé', () => {
+    // Jeudi de l'Ascension 2026, 19 h à Paris.
+    expect(ouvertMaintenant(h, new Date('2026-05-14T17:00:00Z'))).toEqual({ etat: 'sous-reserve', jusqua: '21:30', ferie: 'Ascension' })
+    // Un jeudi ordinaire.
+    expect(ouvertMaintenant(h, new Date('2026-05-21T17:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '21:30' })
+    // Toussaint 2026, un dimanche : fermé le dimanche.
+    expect(ouvertMaintenant(h, new Date('2026-11-01T14:00:00Z'))).toEqual({ etat: 'ferme' })
+  })
+
+  it('CA2 : un créneau commencé la veille suit le jour où il a commencé', () => {
+    const nuit = [{ ...accueil, mar: [['20:00', '02:00']], mer: [['20:00', '02:00']] }] as unknown as H
+    // Mercredi 11 novembre (férié), 1 h à Paris : le créneau a commencé mardi.
+    expect(ouvertMaintenant(nuit, new Date('2026-11-11T00:00:00Z')).ferie).toBeUndefined()
+    // Jeudi 12 novembre, 1 h : le créneau a commencé le 11 novembre.
+    expect(ouvertMaintenant(nuit, new Date('2026-11-12T00:00:00Z'))).toEqual({ etat: 'sous-reserve', jusqua: '02:00', ferie: '11 novembre' })
+  })
+
+  it('CA3 : le filtre du week-end et la prochaine ouverture disent « sous réserve » un jour férié', () => {
+    // Samedi 15 août 2026.
+    expect(ouvertLe(h, { cle: 'sam', mmjj: '08-15', annee: 2026 })).toBe('sous-reserve')
+    expect(ouvertLe(h, { cle: 'sam', mmjj: '08-22', annee: 2026 })).toBe('oui')
+    // Mercredi 13 mai 2026, 22 h : demain, c'est l'Ascension.
+    const veille = new Date('2026-05-13T20:00:00Z')
+    // Le mercredi dit fermé : un jour non dit arrêterait la recherche.
+    const avecMercredi = [{ ...accueil, mer: [] }] as unknown as H
+    expect(prochaineOuverture(avecMercredi, veille)).toEqual({ etat: 'connue', jour: 'jeu', heure: '18:00', dansJours: 1, sousReserve: true, ferie: 'Ascension' })
+    expect(phraseProchaine(avecMercredi, 'accueil', veille)).toBe('Prochaine ouverture : demain à 18 h, sous réserve (Ascension, jour férié).')
   })
 })

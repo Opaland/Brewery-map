@@ -2,6 +2,7 @@ import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 import type { Brasserie } from '../../src/core/schema'
+import { EnBref } from '../../src/EnBref'
 import { Horaires } from '../../src/Horaires'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -92,3 +93,39 @@ describe('les horaires d’une saison à l’écran (S299)', () => {
     expect(html).not.toContain('fermé, d’après les horaires publiés')
   })
 })
+
+describe('S91 CA4 : un jour férié, la fiche le dit', () => {
+  // Samedi 15 août 2026, 18 h à Paris.
+  const quinzeAout = new Date('2026-08-15T16:00:00Z')
+  const accueil = { nature: 'accueil' as const, sam: [['15:00', '22:00'] as [string, string]], dim: [], ...src }
+  const texte = (html: string) => html.replace(/<[^>]+>/g, '')
+
+  it('dans le tableau et dans « En bref », sans parler d’une remarque absente', () => {
+    const b = { ...base, horaires: [accueil] }
+    const tableau = texte(renderToStaticMarkup(createElement(Horaires, { brasserie: b, maintenant: quinzeAout })))
+    expect(tableau).toContain(
+      'accueil du public : ouvert jusqu’à 22 h selon les créneaux, mais c’est un jour férié (15 août) : la source ne dit pas si ses horaires valent ce jour-là.',
+    )
+    expect(tableau).not.toContain('remarque ci-dessous')
+    const enBref = texte(renderToStaticMarkup(createElement(EnBref, { brasserie: b, maintenant: quinzeAout })))
+    expect(enBref).toContain('Accueil du public : ouvert jusqu’à 22 h selon les créneaux, mais c’est un jour férié (15 août)')
+  })
+
+  it('avec une remarque, les deux sont dites', () => {
+    const b = { ...base, horaires: [{ ...accueil, remarque: 'Sur réservation.' }] }
+    const tableau = texte(renderToStaticMarkup(createElement(Horaires, { brasserie: b, maintenant: quinzeAout })))
+    expect(tableau).toContain('jour férié (15 août) : la source ne dit pas si ses horaires valent ce jour-là. Voyez aussi la remarque ci-dessous.')
+  })
+
+  it('revue adverse : un créneau commencé la veille lit la remarque de son bloc, pas celle du jour', () => {
+    // Jeudi 12 novembre 2026, 1 h à Paris : le créneau a commencé le 11, férié.
+    const nuit = new Date('2026-11-12T00:00:00Z')
+    const automne = { nature: 'accueil' as const, mer: [['20:00', '02:00'] as [string, string]], periode: { du: '10-01', au: '11-11' }, ...src }
+    const hiver = { nature: 'accueil' as const, jeu: [['10:00', '18:00'] as [string, string]], periode: { du: '11-12', au: '09-30' }, ...src }
+    const rendre = (blocs: Brasserie['horaires']) =>
+      texte(renderToStaticMarkup(createElement(Horaires, { brasserie: { ...base, horaires: blocs }, maintenant: nuit })))
+    expect(rendre([{ ...automne, remarque: 'Sur réservation.' }, hiver])).toContain('Voyez aussi la remarque ci-dessous.')
+    expect(rendre([automne, { ...hiver, remarque: 'Autre saison.' }])).not.toContain('Voyez aussi la remarque')
+  })
+})
+

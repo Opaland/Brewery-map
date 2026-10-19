@@ -9,6 +9,7 @@ import {
   moisJourDeParis,
   ouvertMaintenant,
   phraseProchaine,
+  phraseSousReserve,
   type Bloc,
   type Horaires as Blocs,
 } from './core/horaires'
@@ -40,9 +41,7 @@ function Maintenant({ blocs, bloc, maintenant }: { blocs: Blocs; bloc: Bloc; mai
   const jusqua = m.jusqua === undefined ? '' : t(' jusqu’à {heure}', { heure: formaterHeure(m.jusqua) })
   const texte = {
     ouvert: t('ouvert{jusqua}, d’après les horaires publiés.', { jusqua }),
-    'sous-reserve': t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', {
-      jusqua,
-    }),
+    'sous-reserve': phraseSousReserve(m),
     ferme: `${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(blocs, bloc.nature, maintenant)}`,
     inconnu: m.horsPeriode === true
       ? t('la source ne publie pas d’horaires pour cette période de l’année.')

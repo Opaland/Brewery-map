@@ -1,6 +1,6 @@
 import { CATEGORIES } from './core/categories'
 import { adresseDeRue, libelleConfiance, libelleVerification } from './core/fiche'
-import { formaterHeure, ouvertMaintenant, phraseProchaine, type Bloc } from './core/horaires'
+import { formaterHeure, ouvertMaintenant, phraseProchaine, phraseSousReserve, type Bloc } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
 import { t } from './i18n'
@@ -57,7 +57,7 @@ function etat(b: Brasserie, instant: Date): string {
   const m = ouvertMaintenant(b.horaires, instant, bloc.nature)
   const jusqua = m.jusqua === undefined ? '' : t(' jusqu’à {heure}', { heure: formaterHeure(m.jusqua) })
   if (m.etat === 'ouvert') return debut + t('ouvert{jusqua}, d’après les horaires publiés.', { jusqua })
-  if (m.etat === 'sous-reserve') return debut + t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', { jusqua })
+  if (m.etat === 'sous-reserve') return debut + phraseSousReserve(m)
   if (m.etat === 'inconnu')
     return debut + (m.horsPeriode === true ? t('la source ne publie pas d’horaires pour cette période de l’année.') : t('la source ne dit pas les heures de ce jour.'))
   return `${debut}${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(b.horaires ?? [bloc], bloc.nature, instant)}`
