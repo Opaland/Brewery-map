@@ -1,4 +1,4 @@
-import { DONNEES } from '../../src/core/nouveautes'
+import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
 import { expect, test } from './position'
 import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
@@ -255,5 +255,7 @@ test('« Quoi de neuf ? » dit ce qui a changé, fiches comprises (S44, S266)', 
   // réécrire ce test (S297).
   await expect(bloc).toContainText(DONNEES.phrase)
   await expect(bloc.locator('li').first()).toBeVisible()
-  await expect(bloc.locator('li').first()).toContainText('18 octobre 2026')
+  await expect(bloc.locator('li').first()).toContainText(
+    new Date(`${NOUVEAUTES[0]?.date ?? ''}T12:00:00`).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }),
+  )
 })

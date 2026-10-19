@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (408)
+## Déjà dans data/ par un accord (432)
 
 | Lot | Numéros |
 |---|---|
@@ -15,7 +15,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s12-lot-1 | 1, 2, 3 |
 | s13-lot-2 | 1, 2 |
 | s53-untappd-bieres | 12, 13, 16, 17, 18, 22, 23 |
-| s54-positions | 5, 6, 10, 11, 16, 18, 22, 23, 24, 25, 27, 34, 37, 38 |
+| s54-positions | 3, 5, 6, 10, 11, 14, 16, 18, 19, 22, 23, 24, 25, 27, 34, 37, 38 |
 | s134-sites-bieres | 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 21, 24, 25, 26, 28, 29, 30 |
 | s61-contacts-osm | 1, 2, 3, 4, 5, 6, 7, 8 |
 | s63-horaires-osm | 1, 2, 3, 4, 5, 6, 7 |
@@ -37,8 +37,10 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | dep-37 | 1, 2, 3, 4 |
 | s297-completer-1 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
 | s297-completer-2 | 1, 2, 4, 5 |
+| s297-completer-3 | 2, 3, 4, 6, 7, 8, 10, 11, 12, 13 |
+| s297-completer-4 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
 
-## À montrer à Cédric (249)
+## À montrer à Cédric (250)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -197,6 +199,10 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s17-lot-4 | 11 | Brasserie Quardin | concurrente de s134-sites-bieres n° 21 (beers, contact), plus récente |
 | s17-lot-4 | 12 | Brasserie Two Dudes | téléphone mobile : peut être le numéro d’une personne |
 | s297-completer-2 | 3 | Brasserie Paillette | aucun site officiel connu pour la fiche |
+| s297-completer-3 | 1 | Brasserie Les Alchimistes Ivres | confiance « faible » |
+| s297-completer-3 | 5 | Brasserie de La Ville Porte Amour | source hors du site officiel : untappd.com |
+| s297-completer-3 | 9 | La Bière de Groix | confiance « faible » |
+| s297-completer-4 | 2 | Nomade Brewery | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 1 | La Canute Lyonnaise | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 2 | DWYN Brewing | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 3 | Coldie Brewery | aucun site officiel connu pour la fiche |
@@ -205,7 +211,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s53-untappd-bieres | 6 | La Soyeuse | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 7 | La Loupiote | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 8 | Single Track | aucun site officiel connu pour la fiche |
-| s53-untappd-bieres | 9 | Brasserie Dulion | aucun site officiel connu pour la fiche |
+| s53-untappd-bieres | 9 | Brasserie Dulion | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 10 | Nomade Brewery | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 11 | Brasserie Kachmar | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 14 | La Gaudine (Brasserie de la Semène) | source hors du site officiel : untappd.com |
@@ -234,17 +240,14 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s53-untappd-bieres | 42 | La Mousse du Hérisson | aucun site officiel connu pour la fiche |
 | s54-positions | 1 | Ninkasi Brignais | aucun site officiel connu pour la fiche |
 | s54-positions | 2 | Caribrew | source hors du site officiel : montsdulyonnaistourisme.fr |
-| s54-positions | 3 | Autour de la Bière (Taluyers) | aucun site officiel connu pour la fiche |
 | s54-positions | 4 | Coldie Brewery | aucun site officiel connu pour la fiche |
 | s54-positions | 7 | Platypus Brewpub | aucun site officiel connu pour la fiche |
-| s54-positions | 8 | La Beer Fabrique | aucun site officiel connu pour la fiche |
+| s54-positions | 8 | La Beer Fabrique | aucune source sur le site officiel |
 | s54-positions | 9 | Tom & Co | aucun site officiel connu pour la fiche |
 | s54-positions | 12 | La Loupiote | aucun site officiel connu pour la fiche |
 | s54-positions | 13 | Brasserie des Roches | aucune source sur le site officiel |
-| s54-positions | 14 | Le Brass'in | aucun site officiel connu pour la fiche |
-| s54-positions | 15 | Brasserie Dulion | aucun site officiel connu pour la fiche |
+| s54-positions | 15 | Brasserie Dulion | aucune source sur le site officiel |
 | s54-positions | 17 | Single Track | aucun site officiel connu pour la fiche |
-| s54-positions | 19 | Bière bio des Monts d'Or | aucun site officiel connu pour la fiche |
 | s54-positions | 20 | Domaine du Manchot | aucun site officiel connu pour la fiche |
 | s54-positions | 21 | La Farlodoise | source hors du site officiel : loiretourisme.com |
 | s54-positions | 26 | Ninkasi Saint-Étienne | aucun site officiel connu pour la fiche |

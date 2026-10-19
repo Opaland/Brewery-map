@@ -14,14 +14,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 358 | 9 (3 %) | 57 | 185 | 225 | 240 | 303 | 308 | 260 |
+| **Total** | 358 | 10 (3 %) | 57 | 180 | 217 | 237 | 297 | 300 | 251 |
 | 01 · Ain | 16 | 0 (0 %) | 7 | 10 | 12 | 16 | 13 | 15 | 14 |
 | 07 · Ardèche | 10 | 0 (0 %) | 4 | 7 | 8 | 10 | 8 | 10 | 9 |
 | 14 · Calvados | 10 | 0 (0 %) | 0 | 5 | 8 | 4 | 8 | 10 | 5 |
-| 22 · Côtes-d'Armor | 22 | 1 (5 %) | 0 | 13 | 7 | 16 | 18 | 17 | 13 |
+| 22 · Côtes-d'Armor | 22 | 1 (5 %) | 0 | 11 | 6 | 16 | 17 | 15 | 10 |
 | 26 · Drôme | 9 | 0 (0 %) | 5 | 5 | 9 | 9 | 9 | 9 | 9 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 3 | 1 | 3 | 3 | 1 |
-| 29 · Finistère | 19 | 0 (0 %) | 0 | 9 | 7 | 8 | 16 | 15 | 11 |
+| 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 7 | 8 | 16 | 14 | 10 |
 | 35 · Ille-et-Vilaine | 17 | 1 (6 %) | 0 | 10 | 6 | 8 | 15 | 12 | 8 |
 | 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 2 | 0 | 3 | 4 | 1 |
 | 38 · Isère | 33 | 1 (3 %) | 9 | 25 | 24 | 31 | 29 | 31 | 27 |
@@ -29,11 +29,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 7 | 7 | 7 | 7 | 7 |
 | 44 · Loire-Atlantique | 32 | 1 (3 %) | 0 | 12 | 15 | 9 | 24 | 23 | 15 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
-| 50 · Manche | 9 | 0 (0 %) | 0 | 5 | 8 | 4 | 9 | 9 | 6 |
+| 50 · Manche | 9 | 0 (0 %) | 0 | 4 | 7 | 4 | 9 | 8 | 6 |
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 3 |
-| 56 · Morbihan | 23 | 0 (0 %) | 0 | 14 | 16 | 11 | 22 | 20 | 15 |
+| 56 · Morbihan | 23 | 0 (0 %) | 0 | 13 | 16 | 11 | 21 | 19 | 14 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
-| 69 · Rhône | 47 | 0 (0 %) | 14 | 21 | 38 | 38 | 43 | 42 | 46 |
+| 69 · Rhône | 47 | 0 (0 %) | 14 | 21 | 32 | 35 | 39 | 39 | 42 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 5 | 6 | 7 | 8 | 8 | 8 | 8 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 4 |
 | 73 · Savoie | 15 | 0 (0 %) | 5 | 10 | 10 | 15 | 12 | 15 | 13 |
@@ -42,7 +42,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-185 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+180 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -78,7 +78,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 22 · Côtes-d'Armor
 
 - Brasserie de Launay (Lamballe-Armor) : sans site, sans téléphone, sans horaires, sans bières
-- Brasserie Philomenn (Tréguier) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Régionale de l'Ouest (Tonquédec) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Brassins du Lion d'Or (Trémeur) : sans site, sans adresse vérifiée, sans téléphone, sans horaires
 - Tiens bon la Barre (Plouasne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires
@@ -86,9 +85,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie des 7 Îles (Trégastel) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie Les Alchimistes Ivres (Broons) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasstillerie KanArFoll (Perros-Guirec) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- La Fréheloise (Fréhel) : sans adresse vérifiée, sans horaires, sans bières
 - Brasserie Nautica (Plouasne) : sans téléphone, sans horaires
-- Brasserie Uncle (Binic-Étables-sur-Mer) : sans téléphone, sans horaires, sans bières
+- Brasserie Uncle (Binic-Étables-sur-Mer) : sans téléphone, sans horaires
 - L'Armateur (La Roche-Jaudy) : sans téléphone, sans horaires
 
 ### 26 · Drôme
@@ -109,10 +107,9 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - La Brasserie du Bout du Monde (Rosnoën) : sans site, sans téléphone, sans horaires, sans bières
 - La Brasserie Graphique (Carantec) : sans site, sans téléphone, sans horaires
 - Brasserie D'Istribilh (Plouider) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- En Bières Inconnues (Brest) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- En Bières Inconnues (Brest) : sans adresse vérifiée, sans téléphone, sans horaires
 - Microbrasserie PAB (Île-de-Batz) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Le Grain du Ponant (Riec-sur-Bélon) : sans téléphone, sans horaires
-- Brasserie Coreff (Carhaix-Plouguer) : sans horaires
 - Brasserie Kerav'ale (Roscoff) : sans horaires
 
 ### 35 · Ille-et-Vilaine
@@ -206,7 +203,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie Bifrost (Saint-Lô) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Cotentine (Barneville-Carteret) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Pinte de Saire (Saint-Vaast-la-Hougue) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Fée d'Orge (Bréhal) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Moussette (Hauteville-sur-Mer) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
@@ -226,11 +222,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Déferle Micro-brasserie (Plouhinec) : sans site, sans téléphone, sans horaires, sans bières
 - Horla (Grand-Champ) : sans site, sans adresse vérifiée, sans téléphone, sans horaires
 - La Bière de Groix (Groix) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Gwennili (Locoal-Mendon) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Gwennili (Locoal-Mendon) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie La Bambelle (Saint-Gravé) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- L'âne Brasseur (Saint-Aignan) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- L'âne Brasseur (Saint-Aignan) : sans adresse vérifiée, sans horaires, sans bières
 - Microbrasserie VOL 56 (Sarzeau) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie de l'Estran (Grand Coeff) (Étel) : sans téléphone, sans horaires
 - Microbrasserie Barque (Malestroit) : sans horaires, sans bières
 
 ### 61 · Orne

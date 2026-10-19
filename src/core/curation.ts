@@ -544,7 +544,11 @@ function heureSurLaPage(heure: string, texte: string): boolean {
   const separateur = '(?:heures?(?![a-zà-ÿ])|h(?![a-zà-ÿ])|:)'
   // « 19h 388 rue… » : un nombre qui n'a pas la forme de minutes (deux chiffres) ne
   // les donne pas (revue adverse S63).
-  const minutes = mm === '00' ? '(?:\\s*00)?(?!\\s*[0-5]\\d(?!\\d))' : `\\s*${mm}(?!\\d)`
+  // « 22h00 06 32 70 93 17 » : un numéro de téléphone qui suit n'est pas des
+  // minutes (S297, Estran) ; « 19h 00 30 » reste refusé (revue adverse S297).
+  const telephone = '\\s*0\\d(?:[\\s.]?\\d{2}){4}(?!\\d)'
+  const minutes =
+    mm === '00' ? `(?:\\s*00)?(?:(?!\\s*[0-5]\\d(?!\\d))|(?=${telephone}))` : `\\s*${mm}(?!\\d)`
   const ecrite = new RegExp(`(?<!\\d)0?${h}\\s*${separateur}${minutes}`, 'i')
   // « midi », « minuit » en mots isolés : « Midi-Pyrénées » n'est pas midi.
   const enMots = (heure === '00:00' && /(?<!\p{L})minuit(?![\p{L}-])/iu.test(texte)) || (heure === '12:00' && /(?<!\p{L})midi(?![\p{L}-])/iu.test(texte))
