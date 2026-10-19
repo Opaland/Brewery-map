@@ -231,15 +231,15 @@ describe('prochaineOuverture (S295, la fiche face à la concurrence)', () => {
 describe('phraseProchaine', () => {
   const bloc = { ...accueil, lun: [], mar: [], mer: [] } as unknown as Horaires[number]
   it('dit le jour et l’heure, en mots', () => {
-    expect(phraseProchaine(bloc, new Date('2026-10-17T10:00:00Z'))).toBe('Prochaine ouverture : aujourd’hui à 15 h.')
-    expect(phraseProchaine(bloc, new Date('2026-10-17T21:00:00Z'))).toBe('Prochaine ouverture : jeudi à 18 h.')
-    expect(phraseProchaine(bloc, new Date('2026-10-21T10:00:00Z'))).toBe('Prochaine ouverture : demain à 18 h.')
+    expect(phraseProchaine([bloc], 'accueil', new Date('2026-10-17T10:00:00Z'))).toBe('Prochaine ouverture : aujourd’hui à 15 h.')
+    expect(phraseProchaine([bloc], 'accueil', new Date('2026-10-17T21:00:00Z'))).toBe('Prochaine ouverture : jeudi à 18 h.')
+    expect(phraseProchaine([bloc], 'accueil', new Date('2026-10-21T10:00:00Z'))).toBe('Prochaine ouverture : demain à 18 h.')
   })
 
   it('en anglais, le jour garde sa majuscule', () => {
     choisirLangue('en')
     try {
-      expect(phraseProchaine(bloc, new Date('2026-10-17T21:00:00Z'))).toBe('Next opening: Thursday at 18:00.')
+      expect(phraseProchaine([bloc], 'accueil', new Date('2026-10-17T21:00:00Z'))).toBe('Next opening: Thursday at 18:00.')
     } finally {
       choisirLangue('fr')
     }
@@ -255,5 +255,72 @@ describe('etatPourLaListe (S295, Hugo)', () => {
     expect(etatPourLaListe(undefined, a('2026-10-17T16:00:00Z'))).toBeUndefined()
     const vente = [{ ...accueil, nature: 'vente', remarque: 'sur rendez-vous' }] as unknown as Horaires
     expect(etatPourLaListe(vente, a('2026-10-17T16:00:00Z'))).toBe('Vente ouverte maintenant, sous réserve')
+  })
+})
+
+/**
+ * Les horaires d'une saison (S299, issue #51). Samedi 17/10/2026 18 h à
+ * Paris = 16:00Z ; samedi 16/01/2027 11 h = 10:00Z ; dimanche 30/08/2026
+ * 12 h = 10:00Z.
+ */
+describe('les horaires d’une saison (S299)', () => {
+  const a = (iso: string) => new Date(iso)
+  const ete = { ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [['15:00', '22:00']], dim: [], periode: { du: '07-01', au: '08-31' } }
+  const hiver = { ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [['10:00', '13:00']], dim: [], periode: { du: '10-01', au: '03-31' } }
+
+  it('CA1 : une période « MM-JJ », qui peut passer le 1er janvier ; une date impossible est refusée', () => {
+    expect(erreurs(avec([ete]))).toEqual([])
+    expect(erreurs(avec([hiver]))).toEqual([])
+    expect(erreurs(avec([{ ...ete, periode: { du: '02-30', au: '08-31' } }]))).not.toEqual([])
+    expect(erreurs(avec([{ ...ete, periode: { du: '7-1', au: '08-31' } }]))).not.toEqual([])
+  })
+
+  it('CA2 : deux blocs de même nature, seulement avec des périodes qui ne se chevauchent pas', () => {
+    expect(erreurs(avec([ete, hiver]))).toEqual([])
+    expect(erreurs(avec([ete, { ...hiver, periode: { du: '08-15', au: '09-30' } }]))).not.toEqual([])
+    expect(erreurs(avec([ete, accueil]))).not.toEqual([])
+  })
+
+  it('CA3 : le bloc de la saison du jour ; hors de toute période, ni ouvert ni fermé', () => {
+    const h = [ete, hiver] as unknown as Horaires
+    expect(ouvertMaintenant(h, a('2026-10-17T10:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '13:00' })
+    expect(ouvertMaintenant(h, a('2027-01-16T10:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '13:00' })
+    expect(ouvertMaintenant([ete] as unknown as Horaires, a('2026-10-17T16:00:00Z'))).toEqual({ etat: 'inconnu', horsPeriode: true })
+  })
+
+  it('CA4 : la prochaine ouverture ne franchit pas la fin d’une période', () => {
+    expect(prochaineOuverture([ete] as unknown as Horaires, a('2026-08-30T10:00:00Z'))).toEqual({ etat: 'inconnue' })
+    expect(prochaineOuverture([ete] as unknown as Horaires, a('2026-08-23T10:00:00Z')).etat).toBe('connue')
+  })
+
+  it('CA6 : la ligne de liste ne dit rien hors période', () => {
+    expect(etatPourLaListe([ete] as unknown as Horaires, a('2026-10-17T16:00:00Z'))).toBeUndefined()
+    expect(etatPourLaListe([ete, hiver] as unknown as Horaires, a('2026-10-17T10:00:00Z'))).toBe('Ouvert au public maintenant')
+  })
+})
+
+describe('les saisons : revue adverse S299', () => {
+  const a = (iso: string) => new Date(iso)
+  const dix = [['10:00', '12:00']]
+  it('la prochaine ouverture lit la saison suivante quand elle est publiée', () => {
+    const ete = { ...accueil, lun: dix, mar: dix, mer: [], jeu: [], ven: [], sam: [], dim: [], periode: { du: '07-01', au: '08-31' } }
+    const hiver = { ...ete, periode: { du: '09-01', au: '06-30' } }
+    // Lundi 31/08/2026 à 18 h à Paris : fermé ; mardi 1er septembre, l'hiver.
+    expect(phraseProchaine([ete, hiver] as unknown as Horaires, 'accueil', a('2026-08-31T16:00:00Z'))).toBe('Prochaine ouverture : demain à 10 h.')
+  })
+
+  it('la veille se compte en jours du calendrier, pas en 24 heures (changement d’heure)', () => {
+    // Lundi 30/03/2026 à 0 h 30 à Paris = 29/03 22:30Z ; la veille est le dimanche 29/03.
+    const b = { ...accueil, lun: [], dim: [['20:00', '02:00']], periode: { du: '11-01', au: '03-28' } }
+    const aa = { ...accueil, lun: [], dim: [['10:00', '12:00']], periode: { du: '03-29', au: '10-31' } }
+    expect(ouvertMaintenant([b, aa] as unknown as Horaires, a('2026-03-29T22:30:00Z')).etat).toBe('ferme')
+  })
+
+  it('une période qui finit le 28 février couvre aussi le 29', () => {
+    const hiver = { ...accueil, mar: dix, periode: { du: '11-01', au: '02-28' } }
+    const ete = { ...accueil, mar: dix, periode: { du: '03-01', au: '10-31' } }
+    expect(erreurs(avec([hiver, ete]))).toEqual([])
+    // Mardi 29/02/2028 à 11 h à Paris.
+    expect(ouvertMaintenant([hiver, ete] as unknown as Horaires, a('2028-02-29T10:00:00Z')).etat).toBe('ouvert')
   })
 })

@@ -791,3 +791,11 @@ describe('retraits : revue adverse S298', () => {
     expect(appliquerLot(TOUTES, l, new Set([1, 2])).ok).toBe(false)
   })
 })
+
+describe('la période d’un bloc se relit sur sa page (revue adverse S299)', () => {
+  const bloc = { nature: 'accueil' as const, sam: [['15:00', '22:00']], periode: { du: '07-01', au: '08-31' }, source: 'https://exemple.fr/', verifieLe: '2026-10-19' }
+  it('les mois de la période sont sur la page, sinon c’est un écart', () => {
+    expect(horairesSurLaPage(bloc, 'samedi 15h-22h')).toEqual(['période 07-01 → 08-31'])
+    expect(horairesSurLaPage(bloc, 'En JUILLET et AOUT : samedi 15h-22h')).toEqual([])
+  })
+})

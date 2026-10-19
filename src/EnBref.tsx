@@ -53,10 +53,12 @@ function etat(b: Brasserie, instant: Date): string {
   if (bloc === undefined) return t('Aucun horaire vérifié : voyez « Ce que dit la source ».')
   // Les mêmes phrases que le tableau des horaires (`Horaires.tsx`).
   const debut = bloc.nature === 'accueil' ? t('Accueil du public : ') : t('Vente : ')
-  const m = ouvertMaintenant([bloc], instant, bloc.nature)
+  // Tous les blocs de la nature : celui de la saison du jour décide (S299).
+  const m = ouvertMaintenant(b.horaires, instant, bloc.nature)
   const jusqua = m.jusqua === undefined ? '' : t(' jusqu’à {heure}', { heure: formaterHeure(m.jusqua) })
   if (m.etat === 'ouvert') return debut + t('ouvert{jusqua}, d’après les horaires publiés.', { jusqua })
   if (m.etat === 'sous-reserve') return debut + t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', { jusqua })
-  if (m.etat === 'inconnu') return debut + t('la source ne dit pas les heures de ce jour.')
-  return `${debut}${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(bloc, instant)}`
+  if (m.etat === 'inconnu')
+    return debut + (m.horsPeriode === true ? t('la source ne publie pas d’horaires pour cette période de l’année.') : t('la source ne dit pas les heures de ce jour.'))
+  return `${debut}${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(b.horaires ?? [bloc], bloc.nature, instant)}`
 }

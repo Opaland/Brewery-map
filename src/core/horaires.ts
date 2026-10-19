@@ -1,5 +1,5 @@
 import { langueCourante, t } from '../i18n'
-import type { Brasserie } from './schema'
+import { dansLaPeriode, type Brasserie } from './schema'
 
 export type Horaires = NonNullable<Brasserie['horaires']>
 export type Bloc = Horaires[number]
@@ -64,6 +64,38 @@ export interface Maintenant {
   etat: 'ouvert' | 'ferme' | 'sous-reserve' | 'inconnu'
   /** Fin du créneau en cours, « HH:MM ». */
   jusqua?: string
+  /** S299 : la source ne publie d'horaires que pour d'autres périodes de l'année. */
+  horsPeriode?: boolean
+}
+
+/**
+ * Le bloc de cette nature qui vaut ce jour « MM-JJ » (S299) : celui sans
+ * période, ou celui dont la période couvre le jour. `horsPeriode` quand la
+ * source a des blocs de cette nature, mais aucun pour ce jour.
+ */
+export function blocDuJour(
+  horaires: Horaires | undefined,
+  nature: Bloc['nature'],
+  mmjj: string,
+): { bloc?: Bloc; horsPeriode: boolean } {
+  const blocs = (horaires ?? []).filter((b) => b.nature === nature)
+  if (blocs.length === 0) return { horsPeriode: false }
+  const bloc = blocs.find((b) => b.periode === undefined || dansLaPeriode(b.periode, mmjj))
+  return bloc === undefined ? { horsPeriode: true } : { bloc, horsPeriode: false }
+}
+
+/** « 07-01 » → « 1er juillet » (français), « 1 July » (anglais). */
+function dateEnMots(mmjj: string): string {
+  const [m = 1, j = 1] = mmjj.split('-').map(Number)
+  // Des appels littéraux : le test des traductions les retrouve (§4ter).
+  const mois = [t('janvier'), t('février'), t('mars'), t('avril'), t('mai'), t('juin'), t('juillet'), t('août'), t('septembre'), t('octobre'), t('novembre'), t('décembre')][m - 1] ?? ''
+  if (langueCourante() === 'en') return `${String(j)} ${mois}`
+  return `${j === 1 ? '1er' : String(j)} ${mois}`
+}
+
+/** « du 1er juillet au 31 août » — la période d'un bloc de saison (S299). */
+export function libellePeriode(periode: { du: string; au: string }): string {
+  return t('du {du} au {au}', { du: dateEnMots(periode.du), au: dateEnMots(periode.au) })
 }
 
 const ORDRE: readonly CleJour[] = ['lun', 'mar', 'mer', 'jeu', 'ven', 'sam', 'dim']
@@ -78,16 +110,35 @@ const ABREGE: Readonly<Record<string, CleJour>> = {
 }
 
 /** Le jour et l'heure à Paris, quel que soit le fuseau du téléphone. */
-function aParis(instant: Date): { jour: CleJour; hhmm: string } {
+function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string } {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Paris',
     weekday: 'short',
+    month: '2-digit',
+    day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
     hourCycle: 'h23',
   }).formatToParts(instant)
   const val = (t: string) => parts.find((p) => p.type === t)?.value ?? ''
-  return { jour: ABREGE[val('weekday')] ?? 'lun', hhmm: `${val('hour')}:${val('minute')}` }
+  return { jour: ABREGE[val('weekday')] ?? 'lun', hhmm: `${val('hour')}:${val('minute')}`, mmjj: `${val('month')}-${val('day')}` }
+}
+
+/**
+ * Le jour du calendrier à Paris, `n` jours plus tard (ou plus tôt) : « MM-JJ ».
+ * En jours, pas en 24 heures : le jour du changement d'heure dure 23 ou
+ * 25 heures (revue adverse S299).
+ */
+function mmjjDecale(instant: Date, n: number): string {
+  const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(instant)
+  const val = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? '0')
+  const jour = new Date(Date.UTC(val('year'), val('month') - 1, val('day') + n))
+  return `${String(jour.getUTCMonth() + 1).padStart(2, '0')}-${String(jour.getUTCDate()).padStart(2, '0')}`
+}
+
+/** « MM-JJ » à Paris : le jour de l'année qui choisit le bloc de saison (S299). */
+export function moisJourDeParis(instant: Date): string {
+  return aParis(instant).mmjj
 }
 
 /** « HH:MM » à Paris, pour dire l'heure à laquelle l'état a été calculé. */
@@ -108,27 +159,29 @@ export function ouvertMaintenant(
   instant: Date,
   nature: Bloc['nature'] = 'accueil',
 ): Maintenant {
-  const bloc = horaires?.find((b) => b.nature === nature)
-  if (bloc === undefined) return { etat: 'inconnu' }
-  const { jour, hhmm } = aParis(instant)
-  const ouvert = (jusqua: string): Maintenant => ({
-    etat: bloc.remarque === undefined ? 'ouvert' : 'sous-reserve',
+  const { jour, hhmm, mmjj } = aParis(instant)
+  const ouvert = (b: Bloc, jusqua: string): Maintenant => ({
+    etat: b.remarque === undefined ? 'ouvert' : 'sous-reserve',
     jusqua,
   })
 
-  // La veille d'abord : un créneau qui a passé minuit.
-  const veille = bloc[ORDRE[(ORDRE.indexOf(jour) + 6) % 7] ?? 'dim']
-  if (Array.isArray(veille)) {
+  // La veille d'abord : un créneau qui a passé minuit, d'après le bloc de la
+  // veille (S299 : la veille peut être dans une autre saison).
+  const hier = blocDuJour(horaires, nature, mmjjDecale(instant, -1)).bloc
+  const veille = hier?.[ORDRE[(ORDRE.indexOf(jour) + 6) % 7] ?? 'dim']
+  if (hier !== undefined && Array.isArray(veille)) {
     for (const [d, f] of veille) {
-      if (f <= d && f !== '00:00' && hhmm < f) return ouvert(f)
+      if (f <= d && f !== '00:00' && hhmm < f) return ouvert(hier, f)
     }
   }
 
+  const { bloc, horsPeriode } = blocDuJour(horaires, nature, mmjj)
+  if (bloc === undefined) return horsPeriode ? { etat: 'inconnu', horsPeriode: true } : { etat: 'inconnu' }
   const aujourdhui = bloc[jour]
   if (aujourdhui === undefined || aujourdhui === 'heures-non-precisees') return { etat: 'inconnu' }
   for (const [d, f] of aujourdhui) {
     const finDuJour = f <= d
-    if (hhmm >= d && (finDuJour || hhmm < f)) return ouvert(f)
+    if (hhmm >= d && (finDuJour || hhmm < f)) return ouvert(bloc, f)
   }
   return { etat: 'ferme' }
 }
@@ -149,14 +202,16 @@ export function prochaineOuverture(
   instant: Date,
   nature: Bloc['nature'] = 'accueil',
 ): Prochaine {
-  const bloc = horaires?.find((b) => b.nature === nature)
-  if (bloc === undefined) return { etat: 'inconnue' }
   const { jour, hhmm } = aParis(instant)
   const depart = ORDRE.indexOf(jour)
   // Jusqu'au même jour de la semaine suivante : ouvert le seul samedi
   // matin, samedi après-midi doit dire « samedi » (revue adverse S295).
+  // Chaque jour lit le bloc de sa saison ; hors de toute période, rien ne
+  // s'annonce (S299).
   for (let n = 0; n <= 7; n++) {
     const cle = ORDRE[(depart + n) % 7] ?? 'lun'
+    const { bloc } = blocDuJour(horaires, nature, mmjjDecale(instant, n))
+    if (bloc === undefined) return { etat: 'inconnue' }
     const valeur = bloc[cle]
     if (valeur === undefined || valeur === 'heures-non-precisees') return { etat: 'inconnue' }
     const debut = valeur.map(([d]) => d).find((d) => n > 0 || d > hhmm)
@@ -165,9 +220,13 @@ export function prochaineOuverture(
   return { etat: 'inconnue' }
 }
 
-/** « Prochaine ouverture : vendredi à 14 h. » — ou rien de déduit (S295, RF3). */
-export function phraseProchaine(bloc: Bloc, instant: Date): string {
-  const p = prochaineOuverture([bloc], instant, bloc.nature)
+/**
+ * « Prochaine ouverture : vendredi à 14 h. » — ou rien de déduit (S295, RF3).
+ * Tous les blocs de la nature : la saison suivante, si elle est publiée,
+ * dit quand on rouvre (revue adverse S299).
+ */
+export function phraseProchaine(horaires: Horaires, nature: Bloc['nature'], instant: Date): string {
+  const p = prochaineOuverture(horaires, instant, nature)
   if (p.etat === 'inconnue') return t('La source ne dit pas quand elle rouvre.')
   const heure = formaterHeure(p.heure)
   const quand =
@@ -186,13 +245,13 @@ export function phraseProchaine(bloc: Bloc, instant: Date): string {
  * quand la source ne dit rien de l'instant : la ligne ne devine pas.
  */
 export function etatPourLaListe(horaires: Horaires | undefined, instant: Date): string | undefined {
-  const bloc = horaires?.find((b) => b.nature === 'accueil') ?? horaires?.[0]
-  if (bloc === undefined) return undefined
-  const m = ouvertMaintenant([bloc], instant, bloc.nature)
+  const nature = horaires?.some((b) => b.nature === 'accueil') === true ? 'accueil' : horaires?.[0]?.nature
+  if (nature === undefined) return undefined
+  const m = ouvertMaintenant(horaires, instant, nature)
   if (m.etat === 'inconnu') return undefined
   const ouvert = m.etat !== 'ferme'
   const texte =
-    bloc.nature === 'accueil'
+    nature === 'accueil'
       ? ouvert
         ? t('Ouvert au public maintenant')
         : t('Fermé au public maintenant')

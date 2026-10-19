@@ -161,6 +161,42 @@ const jourSchema = z
   ])
   .optional()
 
+/** Les jours de chaque mois, 29 février compris (une année bissextile). */
+const JOURS_DU_MOIS = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+/** « MM-JJ » : une date de l'année, sans l'année (S299). */
+const moisJourSchema = z
+  .string()
+  .regex(/^\d{2}-\d{2}$/)
+  .refine(
+    (v) => {
+      const [m = 0, j = 0] = v.split('-').map(Number)
+      return m >= 1 && m <= 12 && j >= 1 && j <= (JOURS_DU_MOIS[m - 1] ?? 0)
+    },
+    { message: 'date « MM-JJ » impossible' },
+  )
+
+/**
+ * La période de l'année où un bloc vaut (S299, issue #51), bornes comprises.
+ * Elle peut passer le 1er janvier : du « 10-01 » au « 03-31 ».
+ */
+export const periodeSchema = z.object({ du: moisJourSchema, au: moisJourSchema }).strict()
+
+/** Le rang dans l'année (1 à 366) d'une date « MM-JJ ». */
+export function rangDuJour(mmjj: string): number {
+  const [m = 1, j = 1] = mmjj.split('-').map(Number)
+  return JOURS_DU_MOIS.slice(0, m - 1).reduce((a, b) => a + b, 0) + j
+}
+
+/** La période couvre-t-elle ce jour « MM-JJ » ? */
+export function dansLaPeriode(periode: { du: string; au: string }, mmjj: string): boolean {
+  // Une saison écrite « jusqu'au 28 février » couvre aussi le 29 des années
+  // bissextiles : sinon ce jour tombait entre deux saisons (revue adverse S299).
+  if (mmjj === '02-29' && periode.au === '02-28') return true
+  const [d, a, x] = [rangDuJour(periode.du), rangDuJour(periode.au), rangDuJour(mmjj)]
+  return d <= a ? x >= d && x <= a : x >= d || x <= a
+}
+
 /**
  * Un bloc d'horaires (S6) — **seulement quand une source les donne**, jamais
  * déduits du texte `note`. `nature` dit ce qu'il couvre : l'accueil du
@@ -180,16 +216,52 @@ const blocHorairesSchema = z
     sam: jourSchema,
     dim: jourSchema,
     remarque: z.string().trim().min(1).optional(),
+    /** Absente : le bloc vaut toute l'année (S299). */
+    periode: periodeSchema.optional(),
     source: lienSchema,
     verifieLe: z.iso.date(),
   })
   .strict()
 
+/**
+ * Un seul bloc par nature, sauf des blocs de saison (S299) : chacun a sa
+ * période, et elles ne se chevauchent pas. Un jour n'a donc jamais deux
+ * horaires de même nature.
+ */
+function blocsCompatibles(blocs: readonly { nature: string; periode?: { du: string; au: string } | undefined }[]): boolean {
+  for (const nature of new Set(blocs.map((b) => b.nature))) {
+    const memes = blocs.filter((b) => b.nature === nature)
+    if (memes.length === 1) continue
+    const periodes = memes.map((b) => b.periode)
+    if (periodes.some((p) => p === undefined)) return false
+    const jours = new Map<number, number>()
+    for (const p of periodes) {
+      if (p === undefined) continue
+      for (let x = 1; x <= 366; x++) {
+        const mmjj = moisJourDuRang(x)
+        if (dansLaPeriode(p, mmjj)) jours.set(x, (jours.get(x) ?? 0) + 1)
+      }
+    }
+    if ([...jours.values()].some((n) => n > 1)) return false
+  }
+  return true
+}
+
+function moisJourDuRang(x: number): string {
+  let reste = x
+  for (let m = 0; m < 12; m++) {
+    const n = JOURS_DU_MOIS[m] ?? 0
+    if (reste <= n) return `${String(m + 1).padStart(2, '0')}-${String(reste).padStart(2, '0')}`
+    reste -= n
+  }
+  return '12-31'
+}
+
 export const horairesSchema = z
   .array(blocHorairesSchema)
   .min(1)
-  .refine((blocs) => new Set(blocs.map((b) => b.nature)).size === blocs.length, {
-    message: 'un seul bloc par nature (accueil, vente)',
+  .refine(blocsCompatibles, {
+    message: 'un seul bloc par nature (accueil, vente), sauf des blocs de saison aux périodes distinctes',
   })
 
 export const biereSchema = z

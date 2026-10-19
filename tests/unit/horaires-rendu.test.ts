@@ -80,3 +80,15 @@ describe('« Maintenant » (S19, Hugo)', () => {
     expect(renduA(base, samedi18h)).not.toContain('heure de Paris')
   })
 })
+
+describe('les horaires d’une saison à l’écran (S299)', () => {
+  const ete = { nature: 'accueil' as const, sam: [['15:00', '22:00']] as [string, string][], periode: { du: '07-01', au: '08-31' }, ...src }
+  it('CA5 : la période dans le titre du tableau ; hors période, la fiche le dit', () => {
+    const html = renderToStaticMarkup(
+      createElement(Horaires, { brasserie: { ...base, horaires: [ete] }, maintenant: new Date('2026-10-17T16:00:00Z') }),
+    )
+    expect(html).toContain('<caption>Horaires d’accueil du public, du 1er juillet au 31 août</caption>')
+    expect(html).toContain('la source ne publie pas d’horaires pour cette période de l’année')
+    expect(html).not.toContain('fermé, d’après les horaires publiés')
+  })
+})
