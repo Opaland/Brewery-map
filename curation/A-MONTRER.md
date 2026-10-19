@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (205 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (235 fiches relues)
 
-S297 a relu 205 fiches sur leur site. 82 propositions sont entrées par la
-règle (`curation/s297-completer-1.md` à `s297-completer-7.md`). Restent :
+S297 a relu 235 fiches sur leur site. 104 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-8.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -167,6 +167,8 @@ règle (`curation/s297-completer-1.md` à `s297-completer-7.md`). Restent :
 | Brasserie de la Divatte, Trip-Hop | site injoignable ; téléphone et horaires absents de la page | à relancer (lot 7, n° 6 et 15) |
 | Brasserie Sagesse, Draenek | le site donne une autre adresse (Dives-sur-Mer ; ZA Château Gaillard) | procédure de déménagement (S82) |
 | Beer Workshop | site d'une chaîne, sans page propre aux Achards | accepter la section de l'établissement ? |
+| L'Écume des Falaises | deux horaires contradictoires sur la page (jeudi, vendredi après-midi) | à vérifier par téléphone |
+| Baya | lun.–ven. 9h-18h sur l'accueil, 14h-18h sur la page contact, sans nature | dire lequel, et « accueil » ou « vente » |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).

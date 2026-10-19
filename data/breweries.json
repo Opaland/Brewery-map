@@ -4618,8 +4618,65 @@
   "addr": "47 avenue de la Drôme, 14400 Vaucelles",
   "src": "https://www.explore-calvados.com/?p=33029",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde légère",
+    "url": "https://www.brasseriebaya.fr/baya"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session Ipa",
+    "url": "https://www.brasseriebaya.fr/baya"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple",
+    "url": "https://www.brasseriebaya.fr/baya"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée",
+    "url": "https://www.brasseriebaya.fr/baya"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "https://www.brasseriebaya.fr/baya"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Ruse Blonde",
+    "url": "https://www.brasseriebaya.fr/la-ruse"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Ruse Triple",
+    "url": "https://www.brasseriebaya.fr/la-ruse"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Ruse blanche",
+    "url": "https://www.brasseriebaya.fr/la-ruse"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Ruse Neipa",
+    "url": "https://www.brasseriebaya.fr/la-ruse"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Ruse Ambrée",
+    "url": "https://www.brasseriebaya.fr/la-ruse"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "09 77 79 43 48",
+   "site": "https://www.brasseriebaya.fr/",
+   "source": "https://www.brasseriebaya.fr/contact",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Dam Bière",
@@ -4996,10 +5053,87 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "blanche"
+    "type": "blonde",
+    "libelle": "Light Ale"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA"
+   },
+   {
+    "type": "stout",
+    "libelle": "Stout"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://lestravailleursdelamer.com/",
+   "source": "https://lestravailleursdelamer.com/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "09:30",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [],
+    "ven": [
+     [
+      "09:30",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Espace de dégustation et de vente.",
+    "source": "https://lestravailleursdelamer.com/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "La Moussette",
@@ -5048,7 +5182,38 @@
     "type": "ipa"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://captain-james.fr",
+   "source": "https://captain-james.fr",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "De septembre à juin. En juillet et août : du mardi au samedi, 15 h - 19 h.",
+    "source": "https://captain-james.fr",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Fée d'Orge",
@@ -5120,8 +5285,64 @@
   "addr": "16 avenue du Général Eisenhower, 50610 Jullouville",
   "src": "https://lecume-des-falaises.fr",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Ecume Blonde",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-blonde-2/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Ecume Blanche",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-blanche-2/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "ECUME AMBREE",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-ambree/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Ecume de Chausey",
+    "url": "https://www.lecume-des-falaises.fr/produit/chausey-2/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Ecume Triple BIO",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-triple/"
+   },
+   {
+    "type": "autre",
+    "libelle": "ECUME APA",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-apa/"
+   },
+   {
+    "type": "stout",
+    "libelle": "IRISH STOUT",
+    "url": "https://www.lecume-des-falaises.fr/produit/irish-stout/"
+   },
+   {
+    "type": "stout",
+    "libelle": "Ecume des Nuits",
+    "url": "https://www.lecume-des-falaises.fr/produit/ecume-des-nuits/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "West Coast IPA",
+    "url": "https://www.lecume-des-falaises.fr/la-brasserie/"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Écume Zéro",
+    "url": "https://www.lecume-des-falaises.fr/la-brasserie/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.lecume-des-falaises.fr/",
+   "source": "https://www.lecume-des-falaises.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Le Bercail",
@@ -5559,8 +5780,104 @@
   "addr": "Plérin",
   "src": "http://www.la-guernouillette.com/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "ambree",
+    "libelle": "Ambrée aux Algues",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde au Safran",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde des Villages",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "lager",
+    "libelle": "Bohémian Pilsner",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blanche",
+    "libelle": "N'eus Ket Ken !",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA impériale",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "stout",
+    "libelle": "Stout de Nuit",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Lager Rouge de Vienne",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Hefe Weisen",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée à la Châtaigne Grillée",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Griffonne Blanche d'Armorique",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Griffonne Blonde d'Armorique",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Griffonne de Sarazin",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "brune",
+    "libelle": "Griffonne Brune",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "stout",
+    "libelle": "Imperial Stout",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "brune",
+    "libelle": "Brune des Antilles",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "brune",
+    "libelle": "Brune des montagnes",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée bitter",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Bière Sans Alcool",
+    "url": "https://www.la-guernouillette.com/index-3.html"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "http://www.la-guernouillette.com/",
    "source": "http://www.la-guernouillette.com/",
@@ -5716,8 +6033,39 @@
   "addr": "Lannion",
   "src": "https://kerampont.com/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Hillig",
+    "url": "https://kerampont.com/index.php/gamme/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Ebrel (bière rousse)",
+    "url": "https://kerampont.com/index.php/gamme/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Biskoul (blonde IPA)",
+    "url": "https://kerampont.com/index.php/gamme/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Gwin Zegal (blanche au seigle)",
+    "url": "https://kerampont.com/index.php/gamme/"
+   },
+   {
+    "type": "lager",
+    "libelle": "Beg Lager (au malt tourbé)",
+    "url": "https://kerampont.com/index.php/gamme/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Kurun (brune au sarrasin)",
+    "url": "https://kerampont.com/index.php/gamme/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://kerampont.com/",
    "source": "https://kerampont.com/",
@@ -5918,13 +6266,53 @@
   "addr": "Quessoy",
   "src": "https://www.brasserie-dimezell.bzh/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "ambree",
+    "libelle": "Rozenn Aer"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Gwenn"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Krakkenn"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Silzig"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Margaux"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Ballig"
+   },
+   {
+    "type": "autre",
+    "libelle": "Katel (bière aux fruits)"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://www.brasserie-dimezell.bzh/",
    "source": "https://www.brasserie-dimezell.bzh/",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": "heures-non-precisees",
+    "ven": "heures-non-precisees",
+    "sam": "heures-non-precisees",
+    "remarque": "À partir de 16 h.",
+    "source": "https://www.brasserie-dimezell.bzh/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "La Bonne Humeur - Brasserie Artisanale de Paimpol",
@@ -6117,8 +6505,34 @@
   "addr": "27 place de la République, 22170 Châtelaudren-Plouagat",
   "src": "https://brasserielariposte.bzh/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Bière blonde",
+    "url": "https://brasserielariposte.bzh/nos-bieres-artisanales/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière rousse",
+    "url": "https://brasserielariposte.bzh/nos-bieres-artisanales/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière dorée",
+    "url": "https://brasserielariposte.bzh/nos-bieres-artisanales/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Mazout (bière noire)",
+    "url": "https://brasserielariposte.bzh/nos-bieres-artisanales/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Big Kahuna",
+    "url": "https://brasserielariposte.bzh/nos-bieres-artisanales/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 96 74 47 23",
    "site": "https://brasserielariposte.bzh/",
@@ -6196,13 +6610,27 @@
   "coordPrecision": "centre",
   "beers": [
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "L'IPA"
    },
    {
-    "type": "blanche"
+    "type": "blonde",
+    "libelle": "La Pale Ale"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La NEIPA"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Blanche"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Triple"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://millegoules.com/",
    "source": "https://millegoules.com/",
@@ -6375,13 +6803,141 @@
   "addr": "Concarneau",
   "src": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Britt Blonde",
+    "url": "https://www.brasserie-bretagne.fr/britt/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Britt Blanche",
+    "url": "https://www.brasserie-bretagne.fr/britt/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Britt Summer IPA",
+    "url": "https://www.brasserie-bretagne.fr/britt/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Britt Amber Ale",
+    "url": "https://www.brasserie-bretagne.fr/britt/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Britt Session IPA",
+    "url": "https://www.brasserie-bretagne.fr/britt/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Sant Erwann Blonde",
+    "url": "https://www.brasserie-bretagne.fr/sant-erwann/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Sant Erwann IPA",
+    "url": "https://www.brasserie-bretagne.fr/sant-erwann/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Sant Erwann Double IPA",
+    "url": "https://www.brasserie-bretagne.fr/sant-erwann/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Sant Erwann Triple",
+    "url": "https://www.brasserie-bretagne.fr/sant-erwann/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Dremmwel Blonde Bio",
+    "url": "https://www.brasserie-bretagne.fr/dremmwel/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Dremmwel Rousse Bio",
+    "url": "https://www.brasserie-bretagne.fr/dremmwel/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Ar-Men Blanche bio",
+    "url": "https://www.brasserie-bretagne.fr/ar-men/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Ar-Men IPA Bio",
+    "url": "https://www.brasserie-bretagne.fr/ar-men/"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Ar-Men Blonde bio sans alcool",
+    "url": "https://www.brasserie-bretagne.fr/ar-men/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
+   "tel": "02 56 04 16 84",
    "site": "https://www.brasserie-bretagne.fr/",
-   "source": "https://www.brasserie-bretagne.fr/visiter-la-brasserie/",
-   "verifieLe": "2026-10-17"
-  }
+   "source": "https://www.brasserie-bretagne.fr/boutik/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "remarque": "Le Bek, bar-boutique de la brasserie, zone de Colguen à Concarneau ; « sur place ou à emporter ».",
+    "source": "https://www.brasserie-bretagne.fr/boutik/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Tri Martolod",
@@ -6640,8 +7196,44 @@
   "addr": "Kermenguy, 29100 Le Juch",
   "src": "https://brasseriediaoul.com/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "La Blonde",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Witbier",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "L’American Amber",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "stout",
+    "libelle": "La Stout",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Black IPA",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Belgian Tripel",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   },
+   {
+    "type": "stout",
+    "libelle": "La Fève (sweet stout au cacao)",
+    "url": "https://brasseriediaoul.com/bieres-artisanales/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://brasseriediaoul.com/",
    "source": "https://brasseriediaoul.com/",
@@ -7313,16 +7905,37 @@
   "coordPrecision": "centre",
   "beers": [
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Hipnoz",
+    "url": "https://louarn.bzh/"
    },
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Bombarde",
+    "url": "https://louarn.bzh/"
    },
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "Räve",
+    "url": "https://louarn.bzh/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Boum Boum",
+    "url": "https://louarn.bzh/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Jam",
+    "url": "https://louarn.bzh/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Fanfare",
+    "url": "https://louarn.bzh/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://louarn.bzh/",
    "source": "https://louarn.bzh",
@@ -7477,8 +8090,29 @@
   "addr": "Melesse",
   "src": "https://brasseriedrao.com/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Boogie-Woogie",
+    "url": "https://brasseriedrao.com/ferme-brasserie-drao_nos-bieres.htm"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Funky-Groove",
+    "url": "https://brasseriedrao.com/ferme-brasserie-drao_nos-bieres.htm"
+   },
+   {
+    "type": "brune",
+    "libelle": "Blues",
+    "url": "https://brasseriedrao.com/ferme-brasserie-drao_nos-bieres.htm"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Polka",
+    "url": "https://brasseriedrao.com/ferme-brasserie-drao_nos-bieres.htm"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://brasseriedrao.com/",
    "source": "https://brasseriedrao.com/",
@@ -7731,8 +8365,73 @@
   "addr": "Surzur",
   "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/brasserie-de-rhuys-surzur-fr-4435685/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "brune",
+    "libelle": "Brune",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Super Mamm",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA Blonde",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   },
+   {
+    "type": "autre",
+    "libelle": "Mammy Cherry",
+    "url": "https://ptitemamm.beer/les-bieres-de-la-brasserie-de-rhuys"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://ptitemamm.beer/",
+   "source": "https://ptitemamm.beer/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:30",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "16:30",
+      "19:00"
+     ]
+    ],
+    "remarque": "Brasserie et cave ; fermé en janvier.",
+    "source": "https://ptitemamm.beer/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Akène",
@@ -7825,7 +8524,12 @@
     "type": "ipa"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://yermatbier.fr/",
+   "source": "https://yermatbier.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "La Belle Joie",
@@ -7836,28 +8540,96 @@
   "km": 655.3,
   "cat": 1,
   "conf": "moyenne",
-  "note": "Boutique sur le lieu de production et bar attenant (bières à la pression) en horaires after-work.",
+  "note": "Bar-brewpub à la brasserie (bières produites sur place, à la pression) et vente à emporter, d'après son site ; les horaires du bar affichés (du 25/09/2025 au 08/04/2026) sont échus et ne sont pas repris.",
   "addr": "181 rue Maréchal Joffre, 56700 Hennebont",
-  "src": "https://www.lorientbretagnesudtourisme.fr/fr/fiche/brasserie-artisanale-la-belle-joie-hennebont_TFOZLABELLEJOIE",
+  "src": "https://www.labellejoie.fr/",
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Pilote en Mousse",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
    },
    {
-    "type": "ambree"
+    "type": "ambree",
+    "libelle": "Chonchon",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
    },
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Boom",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
    },
    {
-    "type": "blanche"
+    "type": "blonde",
+    "libelle": "Kervignacoise",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
    },
    {
-    "type": "brune"
+    "type": "blanche",
+    "libelle": "Covale",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Gamme 56",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Piou-Piou",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Du Coin",
+    "url": "https://www.labellejoie.fr/nos-bieres-artisanales/"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.labellejoie.fr/",
+   "source": "https://www.labellejoie.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ]
+    ],
+    "source": "https://www.labellejoie.fr/vente-a-emporter/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Kerpiton",
@@ -7874,10 +8646,17 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "L’Arpenteuse",
+    "url": "https://www.brasseriekerpiton.com/nos-bieres-kerpiton/"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.brasseriekerpiton.com/",
+   "source": "https://www.brasseriekerpiton.com/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie artisanale L'Âne Doré",
@@ -7999,13 +8778,56 @@
   "lon": -2.44,
   "km": 591.6,
   "cat": 1,
-  "conf": "faible",
-  "note": "Bar Horizon sur le site de la brasserie, au pied des cuves, d'après l'office de tourisme.",
+  "conf": "moyenne",
+  "note": "Brewpub Horizon à la brasserie : bières brassées sur place servies au bar, avec tapas ; vente de bière et visite de la brasserie, d'après son site.",
   "addr": "1 Rue Édouard Branly, 56230 Questembert",
-  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/les-restaurants/bar-horizon-questembert-fr-5960534/",
+  "src": "https://brasserie-brume.fr/a-propos",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://brasserie-brume.fr/",
+   "source": "https://brasserie-brume.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "sam": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "remarque": "Brewpub Horizon.",
+    "source": "https://brasserie-brume.fr/a-propos",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Horla",
@@ -8043,13 +8865,39 @@
   "lon": -3.32207,
   "km": 666.4,
   "cat": 2,
-  "conf": "faible",
-  "note": "Boutique sur le lieu de production, d'après l'office de tourisme ; consommation sur place non établie.",
+  "conf": "moyenne",
+  "note": "Vente à la brasserie, à qui s'y arrête, et retrait des commandes en ligne aux horaires d'ouverture, d'après son site ; consommation sur place non établie.",
   "addr": "25 Rue des Rohan, 56540 Kernascléden",
-  "src": "https://morbihan.com/decouvrir/gastronomie-bretonne/degustation-et-vente/microbrasserie-leskale-kernascleden-fr-5047193/",
+  "src": "https://www.brasserieleskale.fr/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde – American Pale Ale",
+    "url": "https://www.brasserieleskale.fr/les-bieres/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche – Witbier",
+    "url": "https://www.brasserieleskale.fr/les-bieres/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée – Amber Ale",
+    "url": "https://www.brasserieleskale.fr/les-bieres/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA – Indian Pale Ale",
+    "url": "https://www.brasserieleskale.fr/les-bieres/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.brasserieleskale.fr/",
+   "source": "https://www.brasserieleskale.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Casse-Grain",
@@ -8078,17 +8926,102 @@
   "conf": "moyenne",
   "note": "Boutique ouverte au public toute l'année, du lundi au vendredi (10 h-12 h 30, 13 h 30-17 h) ; rien sur une consommation sur place.",
   "addr": "7 La Mine, 56460 Val d'Oust",
-  "src": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
+  "src": "https://brasserie-lancelot.bzh/boutik/",
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "ipa"
+    "type": "blonde",
+    "libelle": "Lancelot Blonde",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
    },
    {
-    "type": "blanche"
+    "type": "blonde",
+    "libelle": "Lancelot Triple",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Lancelot IPA",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Lancelot Blonde 0.0%",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Lancelot Neipa",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Lancelot Cervoise",
+    "url": "https://brasserie-lancelot.bzh/univers/lancelot/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche Hermine Blanche",
+    "url": "https://brasserie-lancelot.bzh/univers/blanche-hermine/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Blanche Hermine Blanche IPA",
+    "url": "https://brasserie-lancelot.bzh/univers/blanche-hermine/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Morgane Bio Blonde",
+    "url": "https://brasserie-lancelot.bzh/univers/morgane/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Morgane Bio Blanche",
+    "url": "https://brasserie-lancelot.bzh/univers/morgane/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Morgane Bio Rousse",
+    "url": "https://brasserie-lancelot.bzh/univers/morgane/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Morgane Bio IPA",
+    "url": "https://brasserie-lancelot.bzh/univers/morgane/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Morgane Bio Blé noir",
+    "url": "https://brasserie-lancelot.bzh/univers/morgane/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Duchesse Anne Triple",
+    "url": "https://brasserie-lancelot.bzh/univers/duchesse-anne/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Duchesse Anne Triple Hops",
+    "url": "https://brasserie-lancelot.bzh/univers/duchesse-anne/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bonnets Rouges",
+    "url": "https://brasserie-lancelot.bzh/univers/bonnets-rouges/"
+   },
+   {
+    "type": "autre",
+    "libelle": "XI.I",
+    "url": "https://brasserie-lancelot.bzh/univers/xi-i/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "02 97 74 74 74",
+   "site": "https://brasserie-lancelot.bzh/",
+   "source": "https://brasserie-lancelot.bzh/boutik/",
+   "verifieLe": "2026-10-19"
+  },
   "horaires": [
    {
     "nature": "vente",
@@ -8142,9 +9075,8 @@
       "17:00"
      ]
     ],
-    "remarque": "Toute l'année.",
-    "source": "https://morbihan.com/offres/brasserie-lancelot-val-doust-fr-4434014",
-    "verifieLe": "2026-10-17"
+    "source": "https://brasserie-lancelot.bzh/boutik/",
+    "verifieLe": "2026-10-19"
    }
   ]
  },
@@ -9087,22 +10019,42 @@
   "coordPrecision": "centre",
   "beers": [
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "https://damraz.fr/"
    },
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Blonde",
+    "url": "https://damraz.fr/"
    },
    {
-    "type": "ambree"
+    "type": "ambree",
+    "libelle": "Ambrée",
+    "url": "https://damraz.fr/"
    },
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "IPA",
+    "url": "https://damraz.fr/"
    },
    {
-    "type": "brune"
+    "type": "autre",
+    "libelle": "Cerise Griotte",
+    "url": "https://damraz.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple",
+    "url": "https://damraz.fr/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Brune",
+    "url": "https://damraz.fr/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "09 75 76 96 05",
    "site": "https://www.damraz.fr/",
@@ -10486,25 +11438,95 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Atlantide"
    },
    {
-    "type": "ambree"
+    "type": "ambree",
+    "libelle": "La Goise"
    },
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "Etelle"
    },
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "La Noirmoutrine"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Mouss'"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Peau Bleue"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 51 60 40 12",
    "site": "https://brasserie-noirmoutier.fr/",
    "source": "https://brasserie-noirmoutier.fr",
    "verifieLe": "2026-10-17"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "remarque": "Boutique, vente à emporter, toute l'année.",
+    "source": "https://brasserie-noirmoutier.fr/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Mortania",
