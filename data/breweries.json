@@ -3294,7 +3294,101 @@
    "site": "http://www.brasserie-libertane.fr/",
    "source": "http://www.brasserie-libertane.fr/accueil/",
    "verifieLe": "2026-10-19"
-  }
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "dim": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Le reste de l'année, sur rendez-vous.",
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "dim": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Le reste de l'année, sur rendez-vous.",
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Kokine",
@@ -6849,9 +6943,13 @@
       "22:00"
      ]
     ],
-    "remarque": "Horaires de juillet-août ; le reste de l'année, la page annonce seulement des ouvertures ponctuelles.",
+    "remarque": "Le reste de l'année, la page annonce seulement des ouvertures ponctuelles.",
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
     "source": "https://philomenn.fr/tap-room/",
-    "verifieLe": "2026-10-18"
+    "verifieLe": "2026-10-19"
    }
   ]
  },
@@ -12862,7 +12960,68 @@
      ]
     ],
     "dim": [],
-    "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+    "remarque": "Fermé les jours fériés.",
+    "periode": {
+     "du": "10-01",
+     "au": "03-31"
+    },
+    "source": "https://www.brasserie-melusine.com/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mar": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Fermé les jours fériés.",
+    "periode": {
+     "du": "04-01",
+     "au": "09-30"
+    },
     "source": "https://www.brasserie-melusine.com/",
     "verifieLe": "2026-10-19"
    },
@@ -12916,7 +13075,68 @@
      ]
     ],
     "dim": [],
-    "remarque": "Horaires d'hiver (octobre à mars) ; fermé les jours fériés. Horaires d'été (avril à septembre) : lundi 14h-19h, mardi et mercredi 11h-13h30 et 14h30-19h, jeudi et vendredi 11h-13h30 et 14h30-20h ; fermé le lundi matin, le dimanche et les jours fériés.",
+    "remarque": "Fermé les jours fériés.",
+    "periode": {
+     "du": "10-01",
+     "au": "03-31"
+    },
+    "source": "https://www.brasserie-melusine.com/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mar": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "13:30"
+     ],
+     [
+      "14:30",
+      "20:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Fermé les jours fériés.",
+    "periode": {
+     "du": "04-01",
+     "au": "09-30"
+    },
     "source": "https://www.brasserie-melusine.com/",
     "verifieLe": "2026-10-19"
    }

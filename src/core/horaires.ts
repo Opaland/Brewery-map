@@ -124,8 +124,17 @@ function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string } {
   return { jour: ABREGE[val('weekday')] ?? 'lun', hhmm: `${val('hour')}:${val('minute')}`, mmjj: `${val('month')}-${val('day')}` }
 }
 
-/** Le même instant, `n` jours plus tard (ou plus tôt) : pour la date du jour voisin à Paris. */
-const decale = (instant: Date, n: number) => new Date(instant.getTime() + n * 86_400_000)
+/**
+ * Le jour du calendrier à Paris, `n` jours plus tard (ou plus tôt) : « MM-JJ ».
+ * En jours, pas en 24 heures : le jour du changement d'heure dure 23 ou
+ * 25 heures (revue adverse S299).
+ */
+function mmjjDecale(instant: Date, n: number): string {
+  const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(instant)
+  const val = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? '0')
+  const jour = new Date(Date.UTC(val('year'), val('month') - 1, val('day') + n))
+  return `${String(jour.getUTCMonth() + 1).padStart(2, '0')}-${String(jour.getUTCDate()).padStart(2, '0')}`
+}
 
 /** « MM-JJ » à Paris : le jour de l'année qui choisit le bloc de saison (S299). */
 export function moisJourDeParis(instant: Date): string {
@@ -158,7 +167,7 @@ export function ouvertMaintenant(
 
   // La veille d'abord : un créneau qui a passé minuit, d'après le bloc de la
   // veille (S299 : la veille peut être dans une autre saison).
-  const hier = blocDuJour(horaires, nature, aParis(decale(instant, -1)).mmjj).bloc
+  const hier = blocDuJour(horaires, nature, mmjjDecale(instant, -1)).bloc
   const veille = hier?.[ORDRE[(ORDRE.indexOf(jour) + 6) % 7] ?? 'dim']
   if (hier !== undefined && Array.isArray(veille)) {
     for (const [d, f] of veille) {
@@ -201,7 +210,7 @@ export function prochaineOuverture(
   // s'annonce (S299).
   for (let n = 0; n <= 7; n++) {
     const cle = ORDRE[(depart + n) % 7] ?? 'lun'
-    const { bloc } = blocDuJour(horaires, nature, aParis(decale(instant, n)).mmjj)
+    const { bloc } = blocDuJour(horaires, nature, mmjjDecale(instant, n))
     if (bloc === undefined) return { etat: 'inconnue' }
     const valeur = bloc[cle]
     if (valeur === undefined || valeur === 'heures-non-precisees') return { etat: 'inconnue' }
@@ -211,9 +220,13 @@ export function prochaineOuverture(
   return { etat: 'inconnue' }
 }
 
-/** « Prochaine ouverture : vendredi à 14 h. » — ou rien de déduit (S295, RF3). */
-export function phraseProchaine(bloc: Bloc, instant: Date): string {
-  const p = prochaineOuverture([bloc], instant, bloc.nature)
+/**
+ * « Prochaine ouverture : vendredi à 14 h. » — ou rien de déduit (S295, RF3).
+ * Tous les blocs de la nature : la saison suivante, si elle est publiée,
+ * dit quand on rouvre (revue adverse S299).
+ */
+export function phraseProchaine(horaires: Horaires, nature: Bloc['nature'], instant: Date): string {
+  const p = prochaineOuverture(horaires, instant, nature)
   if (p.etat === 'inconnue') return t('La source ne dit pas quand elle rouvre.')
   const heure = formaterHeure(p.heure)
   const quand =

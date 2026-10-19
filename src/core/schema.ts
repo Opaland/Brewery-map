@@ -190,6 +190,9 @@ export function rangDuJour(mmjj: string): number {
 
 /** La période couvre-t-elle ce jour « MM-JJ » ? */
 export function dansLaPeriode(periode: { du: string; au: string }, mmjj: string): boolean {
+  // Une saison écrite « jusqu'au 28 février » couvre aussi le 29 des années
+  // bissextiles : sinon ce jour tombait entre deux saisons (revue adverse S299).
+  if (mmjj === '02-29' && periode.au === '02-28') return true
   const [d, a, x] = [rangDuJour(periode.du), rangDuJour(periode.au), rangDuJour(mmjj)]
   return d <= a ? x >= d && x <= a : x >= d || x <= a
 }

@@ -43,7 +43,7 @@ function Maintenant({ blocs, bloc, maintenant }: { blocs: Blocs; bloc: Bloc; mai
     'sous-reserve': t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', {
       jusqua,
     }),
-    ferme: `${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(bloc, maintenant)}`,
+    ferme: `${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(blocs, bloc.nature, maintenant)}`,
     inconnu: m.horsPeriode === true
       ? t('la source ne publie pas d’horaires pour cette période de l’année.')
       : t('la source ne dit pas les heures de ce jour.'),

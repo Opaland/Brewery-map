@@ -380,4 +380,5 @@ export const EN: Readonly<Record<string, string>> = {
   "octobre": "October",
   "novembre": "November",
   "décembre": "December",
+  "Les horaires d’une saison : un bar d’été montre ses horaires avec leur période, et ne se dit jamais « ouvert » hors saison (La Grange du Seigneur, Philomenn, Mélusine).": "Seasonal opening hours: a summer bar shows its hours with their period, and never says “open” out of season (La Grange du Seigneur, Philomenn, Mélusine).",
 }

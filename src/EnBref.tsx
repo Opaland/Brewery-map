@@ -1,6 +1,6 @@
 import { CATEGORIES } from './core/categories'
 import { adresseDeRue, libelleConfiance, libelleVerification } from './core/fiche'
-import { blocDuJour, formaterHeure, moisJourDeParis, ouvertMaintenant, phraseProchaine, type Bloc } from './core/horaires'
+import { formaterHeure, ouvertMaintenant, phraseProchaine, type Bloc } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
 import { t } from './i18n'
@@ -60,6 +60,5 @@ function etat(b: Brasserie, instant: Date): string {
   if (m.etat === 'sous-reserve') return debut + t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', { jusqua })
   if (m.etat === 'inconnu')
     return debut + (m.horsPeriode === true ? t('la source ne publie pas d’horaires pour cette période de l’année.') : t('la source ne dit pas les heures de ce jour.'))
-  const { bloc: duJour } = blocDuJour(b.horaires, bloc.nature, moisJourDeParis(instant))
-  return `${debut}${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(duJour ?? bloc, instant)}`
+  return `${debut}${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(b.horaires ?? [bloc], bloc.nature, instant)}`
 }

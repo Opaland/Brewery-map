@@ -6,9 +6,8 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
-| s299-saisons | 061ee6136dea | 1, 2, 3 | 3 |
 
-## Déjà dans data/ par un accord (534)
+## Déjà dans data/ par un accord (537)
 
 | Lot | Numéros |
 |---|---|
@@ -48,6 +47,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-10 | 1, 3 |
 | s297-completer-11 | 1, 2 |
 | s298-retraits | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 |
+| s299-saisons | 1, 2, 3 |
 
 ## À montrer à Cédric (252)
 

@@ -14,9 +14,9 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 226 | 265 | 259 | 194 |
+| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 226 | 265 | 258 | 194 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
-| 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 7 | 5 |
+| 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 6 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |

@@ -645,7 +645,24 @@ export function horairesSurLaPage(bloc: Readonly<Record<string, unknown>>, page:
       if (!heureSurLaPage(heure, texte)) absentes.push(`${jour} ${heure}`)
     }
   }
+  // La période d'un bloc de saison (S299) : ses deux mois, en mots ou en
+  // « jj/mm », sont sur la page. Une période inventée décidait « ouvert » ou
+  // « inconnu » sans contrôle (revue adverse S299).
+  const periode = bloc.periode as { du: string; au: string } | undefined
+  if (periode !== undefined && !(moisSurLaPage(periode.du, texte) && moisSurLaPage(periode.au, texte))) {
+    absentes.push(`période ${periode.du} → ${periode.au}`)
+  }
   return absentes
+}
+
+const MOIS_EN_MOTS = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'decembre']
+
+/** Le mois d'une date « MM-JJ » se lit-il sur la page, en mots ou en « jj/mm » ? */
+function moisSurLaPage(mmjj: string, texte: string): boolean {
+  const [mm = '', jj = ''] = mmjj.split('-')
+  const nom = MOIS_EN_MOTS[Number(mm) - 1] ?? ''
+  const mots = normaliser(texte)
+  return new RegExp(`(?<![a-z])${nom}(?![a-z])`).test(mots) || new RegExp(`(?<!\\d)0?${String(Number(jj))}\\s*[/.]\\s*0?${String(Number(mm))}(?!\\d)`).test(texte)
 }
 
 // Les entités typographiques des CMS courants (WordPress écrit « l&rsquo;année ») :
