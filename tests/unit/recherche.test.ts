@@ -153,8 +153,8 @@ describe('S70 CA3 : ouvertes ce week-end, par la garde unique', () => {
   if (tom === undefined) throw new Error('Tom & Co attendue dans lignes-reelles')
   const src = { source: 'https://exemple.fr/h', verifieLe: '2026-10-16' }
   const weekEnd = [
-    { cle: 'sam', mmjj: '10-24' },
-    { cle: 'dim', mmjj: '10-25' },
+    { cle: 'sam', mmjj: '10-24', annee: 2026 },
+    { cle: 'dim', mmjj: '10-25', annee: 2026 },
   ] as const
   const avec = (horaires: Brasserie['horaires']) => ({ ...tom, horaires })
   const raisons = (b: Brasserie) => raisonsDEcart(b, { ...base, weekEnd }).map((r) => r.type)

@@ -1,4 +1,5 @@
 import { langueCourante, t } from '../i18n'
+import { jourFerie } from './feries'
 import { dansLaPeriode, type Brasserie } from './schema'
 
 export type Horaires = NonNullable<Brasserie['horaires']>
@@ -17,10 +18,11 @@ export const JOURS: readonly { cle: CleJour; nom: string }[] = [
   { cle: 'dim', nom: 'Dimanche' },
 ]
 
-/** Un jour du calendrier : son nom de la semaine et sa date « MM-JJ » (S70). */
+/** Un jour du calendrier : son nom de la semaine, sa date « MM-JJ » (S70) et son année (S91 : les jours fériés). */
 export interface JourDate {
   cle: CleJour
   mmjj: string
+  annee: number
 }
 
 /**
@@ -40,7 +42,8 @@ export function ouvertLe(
   const valeur = bloc?.[jour.cle]
   if (bloc === undefined || valeur === undefined) return 'inconnu'
   if (Array.isArray(valeur) && valeur.length === 0) return 'non'
-  return bloc.remarque === undefined ? 'oui' : 'sous-reserve'
+  // Un jour férié, les horaires d'un jour ordinaire ne disent pas tout (S91).
+  return bloc.remarque === undefined && jourFerie(jour.annee, jour.mmjj) === undefined ? 'oui' : 'sous-reserve'
 }
 
 /** « 15:00 » → « 15 h », « 09:30 » → « 9 h 30 », « 00:00 » → « minuit ». */
@@ -71,6 +74,10 @@ export interface Maintenant {
   jusqua?: string
   /** S299 : la source ne publie d'horaires que pour d'autres périodes de l'année. */
   horsPeriode?: boolean
+  /** S91 : le créneau tombe un jour férié, nommé ; la source ne dit pas s'il vaut ce jour-là. */
+  ferie?: string
+  /** Le bloc qui a décidé porte une remarque : celui du jour, ou de la veille pour un créneau passé minuit (revue adverse S91). */
+  remarque?: true
 }
 
 /**
@@ -115,10 +122,11 @@ const ABREGE: Readonly<Record<string, CleJour>> = {
 }
 
 /** Le jour et l'heure à Paris, quel que soit le fuseau du téléphone. */
-function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string } {
+function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string; annee: number } {
   const parts = new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Paris',
     weekday: 'short',
+    year: 'numeric',
     month: '2-digit',
     day: '2-digit',
     hour: '2-digit',
@@ -126,7 +134,12 @@ function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string } {
     hourCycle: 'h23',
   }).formatToParts(instant)
   const val = (t: string) => parts.find((p) => p.type === t)?.value ?? ''
-  return { jour: ABREGE[val('weekday')] ?? 'lun', hhmm: `${val('hour')}:${val('minute')}`, mmjj: `${val('month')}-${val('day')}` }
+  return {
+    jour: ABREGE[val('weekday')] ?? 'lun',
+    hhmm: `${val('hour')}:${val('minute')}`,
+    mmjj: `${val('month')}-${val('day')}`,
+    annee: Number(val('year')),
+  }
 }
 
 /**
@@ -134,11 +147,22 @@ function aParis(instant: Date): { jour: CleJour; hhmm: string; mmjj: string } {
  * En jours, pas en 24 heures : le jour du changement d'heure dure 23 ou
  * 25 heures (revue adverse S299).
  */
-function mmjjDecale(instant: Date, n: number): string {
+function jourDecale(instant: Date, n: number): { mmjj: string; annee: number } {
   const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(instant)
   const val = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? '0')
   const jour = new Date(Date.UTC(val('year'), val('month') - 1, val('day') + n))
-  return `${String(jour.getUTCMonth() + 1).padStart(2, '0')}-${String(jour.getUTCDate()).padStart(2, '0')}`
+  return {
+    mmjj: `${String(jour.getUTCMonth() + 1).padStart(2, '0')}-${String(jour.getUTCDate()).padStart(2, '0')}`,
+    annee: jour.getUTCFullYear(),
+  }
+}
+
+const mmjjDecale = (instant: Date, n: number): string => jourDecale(instant, n).mmjj
+
+/** Le jour férié qui tombe `n` jours plus tard à Paris, nommé (S91). */
+const ferieDecale = (instant: Date, n: number): string | undefined => {
+  const j = jourDecale(instant, n)
+  return jourFerie(j.annee, j.mmjj)
 }
 
 /**
@@ -148,11 +172,11 @@ function mmjjDecale(instant: Date, n: number): string {
  */
 export function prochainWeekEnd(instant: Date): JourDate[] {
   const aujourdhui = aParis(instant).jour
-  if (aujourdhui === 'dim') return [{ cle: 'dim', mmjj: mmjjDecale(instant, 0) }]
+  if (aujourdhui === 'dim') return [{ cle: 'dim', ...jourDecale(instant, 0) }]
   const jusquauSamedi = ORDRE.indexOf('sam') - ORDRE.indexOf(aujourdhui)
   return [
-    { cle: 'sam', mmjj: mmjjDecale(instant, jusquauSamedi) },
-    { cle: 'dim', mmjj: mmjjDecale(instant, jusquauSamedi + 1) },
+    { cle: 'sam', ...jourDecale(instant, jusquauSamedi) },
+    { cle: 'dim', ...jourDecale(instant, jusquauSamedi + 1) },
   ]
 }
 
@@ -180,9 +204,13 @@ export function ouvertMaintenant(
   nature: Bloc['nature'] = 'accueil',
 ): Maintenant {
   const { jour, hhmm, mmjj } = aParis(instant)
-  const ouvert = (b: Bloc, jusqua: string): Maintenant => ({
-    etat: b.remarque === undefined ? 'ouvert' : 'sous-reserve',
+  // Un jour férié, « ouvert » d'après les créneaux reste sous réserve (S91) :
+  // celui du jour où le créneau a commencé.
+  const ouvert = (b: Bloc, jusqua: string, ferie: string | undefined): Maintenant => ({
+    etat: b.remarque === undefined && ferie === undefined ? 'ouvert' : 'sous-reserve',
     jusqua,
+    ...(ferie === undefined ? {} : { ferie }),
+    ...(b.remarque === undefined ? {} : { remarque: true as const }),
   })
 
   // La veille d'abord : un créneau qui a passé minuit, d'après le bloc de la
@@ -191,7 +219,7 @@ export function ouvertMaintenant(
   const veille = hier?.[ORDRE[(ORDRE.indexOf(jour) + 6) % 7] ?? 'dim']
   if (hier !== undefined && Array.isArray(veille)) {
     for (const [d, f] of veille) {
-      if (f <= d && f !== '00:00' && hhmm < f) return ouvert(hier, f)
+      if (f <= d && f !== '00:00' && hhmm < f) return ouvert(hier, f, ferieDecale(instant, -1))
     }
   }
 
@@ -201,13 +229,29 @@ export function ouvertMaintenant(
   if (aujourdhui === undefined || aujourdhui === 'heures-non-precisees') return { etat: 'inconnu' }
   for (const [d, f] of aujourdhui) {
     const finDuJour = f <= d
-    if (hhmm >= d && (finDuJour || hhmm < f)) return ouvert(bloc, f)
+    if (hhmm >= d && (finDuJour || hhmm < f)) return ouvert(bloc, f, ferieDecale(instant, 0))
   }
   return { etat: 'ferme' }
 }
 
+/**
+ * « ouvert jusqu'à 22 h selon les créneaux, sous réserve… » : la phrase d'un
+ * état « sous réserve », la même dans la fiche et dans « En bref » (§4ter).
+ * Un jour férié (S91) la dit avant la remarque : « sous réserve de la
+ * remarque » mentait quand il n'y en avait pas.
+ */
+export function phraseSousReserve(m: Maintenant): string {
+  const jusqua = m.jusqua === undefined ? '' : t(' jusqu’à {heure}', { heure: formaterHeure(m.jusqua) })
+  if (m.ferie === undefined) return t('ouvert{jusqua} selon les créneaux, sous réserve de la remarque ci-dessous.', { jusqua })
+  const ferie = t('ouvert{jusqua} selon les créneaux, mais c’est un jour férié ({ferie}) : la source ne dit pas si ses horaires valent ce jour-là.', {
+    jusqua,
+    ferie: m.ferie,
+  })
+  return m.remarque === true ? `${ferie} ${t('Voyez aussi la remarque ci-dessous.')}` : ferie
+}
+
 export type Prochaine =
-  | { etat: 'connue'; jour: CleJour; heure: string; dansJours: number; sousReserve: boolean }
+  | { etat: 'connue'; jour: CleJour; heure: string; dansJours: number; sousReserve: boolean; ferie?: string }
   | { etat: 'inconnue' }
 
 /**
@@ -235,7 +279,17 @@ export function prochaineOuverture(
     const valeur = bloc[cle]
     if (valeur === undefined || valeur === 'heures-non-precisees') return { etat: 'inconnue' }
     const debut = valeur.map(([d]) => d).find((d) => n > 0 || d > hhmm)
-    if (debut !== undefined) return { etat: 'connue', jour: cle, heure: debut, dansJours: n, sousReserve: bloc.remarque !== undefined }
+    if (debut !== undefined) {
+      const ferie = ferieDecale(instant, n)
+      return {
+        etat: 'connue',
+        jour: cle,
+        heure: debut,
+        dansJours: n,
+        sousReserve: bloc.remarque !== undefined || ferie !== undefined,
+        ...(ferie === undefined ? {} : { ferie }),
+      }
+    }
   }
   return { etat: 'inconnue' }
 }
@@ -255,6 +309,7 @@ export function phraseProchaine(horaires: Horaires, nature: Bloc['nature'], inst
       : p.dansJours === 1
         ? t('demain à {heure}', { heure })
         : t('{jour} à {heure}', { jour: nomDuJour(p.jour), heure })
+  if (p.ferie !== undefined) return t('Prochaine ouverture : {quand}, sous réserve ({ferie}, jour férié).', { quand, ferie: p.ferie })
   return p.sousReserve ? t('Prochaine ouverture : {quand}, sous réserve.', { quand }) : t('Prochaine ouverture : {quand}.', { quand })
 }
 
