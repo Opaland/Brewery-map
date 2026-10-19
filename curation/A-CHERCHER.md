@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 358 | 18 (5 %) | 57 | 172 | 170 | 236 | 276 | 270 | 208 |
+| **Total** | 358 | 18 (5 %) | 56 | 172 | 168 | 236 | 276 | 270 | 206 |
 | 01 · Ain | 16 | 0 (0 %) | 7 | 10 | 11 | 16 | 13 | 15 | 13 |
 | 07 · Ardèche | 10 | 0 (0 %) | 4 | 5 | 5 | 10 | 8 | 8 | 6 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
@@ -24,7 +24,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 1 | 0 | 2 | 4 | 1 |
-| 38 · Isère | 33 | 1 (3 %) | 9 | 23 | 20 | 31 | 28 | 29 | 26 |
+| 38 · Isère | 33 | 1 (3 %) | 8 | 23 | 19 | 31 | 28 | 29 | 25 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 17 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 6 | 7 | 7 | 7 | 7 |
 | 44 · Loire-Atlantique | 32 | 2 (6 %) | 0 | 12 | 11 | 9 | 21 | 22 | 12 |
@@ -36,7 +36,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 69 · Rhône | 47 | 1 (2 %) | 14 | 20 | 29 | 35 | 38 | 38 | 37 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 5 | 6 | 7 | 8 | 8 | 8 | 7 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
-| 73 · Savoie | 15 | 0 (0 %) | 5 | 8 | 8 | 15 | 12 | 10 | 11 |
+| 73 · Savoie | 15 | 0 (0 %) | 5 | 8 | 7 | 15 | 12 | 10 | 10 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 
@@ -137,7 +137,6 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie du Vercors (Biercors) (Autrans) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Peteukrane (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Polack (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- La Dame de Malt (Villette-d'Anthon) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Ateliers du Dauphiné (Saint-Bueil) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Bière des Frères Clavel (Biol) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie des Faux Semblables (La Bâtie-Montgascon) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -152,6 +151,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie des Roches (Chonas-l'Amballan) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie La Dourbie (Fontaine) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie Maltobar (Grenoble) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- La Dame de Malt (Villette-d'Anthon) : sans adresse vérifiée, sans téléphone, sans horaires
 - La Marmotte Masquée (Saint-Pierre-de-Chartreuse) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
 ### 42 · Loire
@@ -271,9 +271,9 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie de Chanaz (Chanaz) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Montagnarde (Saint-Alban-Leysse) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Croqueurs de Lune (Chanaz) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- La Barbue (La Ravoire) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Caquot (Entrelacs) : sans adresse vérifiée, sans horaires
 - Brasserie Quardin (Chignin) : sans adresse vérifiée, sans horaires
+- La Barbue (La Ravoire) : sans adresse vérifiée, sans téléphone, sans horaires
 
 ### 76 · Seine-Maritime
 

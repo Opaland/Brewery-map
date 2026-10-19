@@ -1087,11 +1087,43 @@
   "km": 30.0,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Le site officiel indique « Ouvert : le vendredi de 16 à 19h », sans dire s'il s'agit de vente ou d'accueil du public.",
   "addr": "Villette-d'Anthon",
-  "src": "",
+  "src": "http://www.labiere-artisanale.com/contact.php",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Bière Blonde",
+    "url": "http://www.labiere-artisanale.com/biere/biere-blonde.php"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Bière Blanche",
+    "url": "http://www.labiere-artisanale.com/biere/biere-blanche.php"
+   },
+   {
+    "type": "stout",
+    "libelle": "Bière Impériale Stout",
+    "url": "http://www.labiere-artisanale.com/biere/biere-imperial-stout.php"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière Caramel Triple",
+    "url": "http://www.labiere-artisanale.com/biere/biere-caramel-triple.php"
+   },
+   {
+    "type": "autre",
+    "libelle": "Bière Cerise",
+    "url": "http://www.labiere-artisanale.com/biere/biere-cerise.php"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "http://www.labiere-artisanale.com/",
+   "source": "http://www.labiere-artisanale.com/contact.php",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie 767",
@@ -4871,7 +4903,39 @@
   "addr": "330 rue Archimède, 73490 La Ravoire",
   "src": "https://brasserielabarbue.fr/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "La Patronne (Pale Ale)",
+    "url": "https://brasserielabarbue.fr/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Gloutonne",
+    "url": "https://brasserielabarbue.fr/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Baronne (aux fleurs de sureau)",
+    "url": "https://brasserielabarbue.fr/"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Vermillonne (Red Ale)",
+    "url": "https://brasserielabarbue.fr/"
+   },
+   {
+    "type": "stout",
+    "libelle": "L'Oursonne (au miel de châtaignier)",
+    "url": "https://brasserielabarbue.fr/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://brasserielabarbue.fr/",
+   "source": "https://brasserielabarbue.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie du Merle",

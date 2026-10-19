@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (520)
+## Déjà dans data/ par un accord (522)
 
 | Lot | Numéros |
 |---|---|
@@ -44,8 +44,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-7 | 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22 |
 | s297-completer-8 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 |
 | s297-completer-9 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 |
+| s297-completer-10 | 1, 3 |
 
-## À montrer à Cédric (251)
+## À montrer à Cédric (252)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -203,6 +204,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s17-lot-4 | 10 | La Barbue | téléphone mobile : peut être le numéro d’une personne |
 | s17-lot-4 | 11 | Brasserie Quardin | concurrente de s134-sites-bieres n° 21 (beers, contact), plus récente |
 | s17-lot-4 | 12 | Brasserie Two Dudes | téléphone mobile : peut être le numéro d’une personne |
+| s297-completer-10 | 2 | Brasserie Grésiv'ale | confiance « faible » |
 | s297-completer-2 | 3 | Brasserie Paillette | aucun site officiel connu pour la fiche |
 | s297-completer-3 | 1 | Brasserie Les Alchimistes Ivres | confiance « faible » |
 | s297-completer-3 | 5 | Brasserie de La Ville Porte Amour | source hors du site officiel : untappd.com |
