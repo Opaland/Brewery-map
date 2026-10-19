@@ -1119,9 +1119,10 @@
   ],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "04 74 68 41 81",
    "site": "https://www.terredebieres.fr/",
    "source": "https://www.terredebieres.fr/",
-   "verifieLe": "2026-10-17"
+   "verifieLe": "2026-10-19"
   }
  },
  {
@@ -1262,16 +1263,73 @@
   "n": "Ninkasi Saint-Étienne",
   "c": "Saint-Étienne",
   "d": "42",
-  "lat": 45.4302,
-  "lon": 4.37005,
-  "km": 40.4,
+  "lat": 45.453711,
+  "lon": 4.389186,
+  "km": 37.6,
   "cat": 1,
-  "conf": "faible",
-  "note": "Restaurant-bar du réseau Ninkasi ; vente à emporter non vérifiée.",
+  "conf": "moyenne",
+  "note": "Restaurant-bar du réseau Ninkasi ; la page du lieu écrit la vente à emporter : « Emportez chez vous nos bières bouteilles, sodas & burgers. »",
   "addr": "Saint-Étienne",
-  "src": "https://www.ninkasi.fr/",
-  "coordPrecision": "centre",
-  "beers": []
+  "src": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "04 77 89 00 67",
+   "site": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+   "source": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "mar": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "dim": [
+     [
+      "11:00",
+      "01:00"
+     ]
+    ],
+    "remarque": "Cuisine de 11h30 à 22h30 ; brunch le dimanche de 11h à 16h.",
+    "source": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie des Ursulines",
@@ -1501,7 +1559,13 @@
   "addr": "153 rue des Écoles, 42540 Saint-Just-la-Pendue",
   "src": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-la-part-des-autres/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "04 77 66 25 28",
+   "site": "http://www.lapartdesautres.com",
+   "source": "http://www.lapartdesautres.com",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Les Bières du Temps",
@@ -1572,9 +1636,10 @@
   "coordPrecision": "centre",
   "beers": [],
   "contact": {
+   "tel": "04 77 51 56 17",
    "site": "https://www.brasseriedupilat.com/",
-   "source": "https://www.brasseriedupilat.com/",
-   "verifieLe": "2026-10-18"
+   "source": "https://www.brasseriedupilat.com/horaires-visites/",
+   "verifieLe": "2026-10-19"
   }
  },
  {
@@ -1605,7 +1670,27 @@
   "addr": "12 rue du Bois Baron, bât. 4, 69220 Belleville-en-Beaujolais",
   "src": "https://www.beaujolais-tourisme.com/en/producteurs-du-terroir/brasserie-amalthee-7052739.html",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "ipa",
+    "libelle": "Equinoxe"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Jovi'Ale"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Solaire"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://brasserieamalthee.fr",
+   "untappd": "https://untappd.com/BrasserieAmalthee",
+   "source": "https://brasserieamalthee.fr",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "La Cadole",
@@ -1832,7 +1917,13 @@
   "addr": "110 bis route de l'aéroport, 38590 Saint-Étienne-de-Saint-Geoirs",
   "src": "https://www.alpes-isere.com/en/sit/brasserie-de-chambaran-la-binche-815057/",
   "coordPrecision": "address",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "tel": "09 72 82 66 24",
+   "site": "http://www.labinche.fr/",
+   "source": "http://www.labinche.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "La Canaille",
@@ -2015,7 +2106,60 @@
   "addr": "1190 chemin des Potiers, 42155 Lentigny",
   "src": "https://www.roannais-tourisme.com/en/degustation-produits-locaux/brasserie-challit-icsas/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://bieresicsas.jimdofree.com",
+   "source": "https://bieresicsas.jimdofree.com",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://bieresicsas.jimdofree.com",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "La Mousse du Guiers",
@@ -2062,7 +2206,7 @@
   "km": 66.5,
   "cat": 1,
   "conf": "moyenne",
-  "note": "Vente à l'unité ou en carton ; dégustation payante sur demande ; un « Bar Free Mousse » est listé sans détail. Mar-mer 10h-18h, jeu-ven 10h-22h, sam 15h-21h.",
+  "note": "Vente à l'unité ou en carton ; dégustation payante sur demande ; bar et boutique ouverts aux mêmes horaires, d'après le site de la brasserie.",
   "addr": "1 chemin des Îles, 07300 Saint-Jean-de-Muzols",
   "src": "https://www.ardeche-hermitage.com/fr/catalogue/detail/saint-jean-de-muzols-2979298/brasserie-free-mousse-602124/",
   "coordPrecision": "centre",
@@ -2108,13 +2252,87 @@
     "url": "https://www.freemousse.fr/nos-bieres/description/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "04 75 06 58 78",
-   "site": "https://freemousse.fr",
-   "source": "https://freemousse.fr",
-   "verifieLe": "2026-10-17"
-  }
+   "site": "https://www.freemousse.fr/",
+   "source": "https://www.freemousse.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Mêmes horaires pour le bar et la boutique.",
+    "source": "https://www.freemousse.fr/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Mêmes horaires pour le bar et la boutique.",
+    "source": "https://www.freemousse.fr/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Rhôdanienne",
@@ -2234,9 +2452,9 @@
   "verifieLe": "2026-10-17",
   "contact": {
    "tel": "04 37 61 04 05",
-   "site": "https://www.grangenoire.com",
+   "site": "https://www.grangenoire.com/",
    "source": "https://www.grangenoire.com/la-brasserie",
-   "verifieLe": "2026-10-17"
+   "verifieLe": "2026-10-19"
   }
  },
  {

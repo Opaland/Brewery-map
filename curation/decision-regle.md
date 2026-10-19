@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (432)
+## Déjà dans data/ par un accord (442)
 
 | Lot | Numéros |
 |---|---|
@@ -15,7 +15,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s12-lot-1 | 1, 2, 3 |
 | s13-lot-2 | 1, 2 |
 | s53-untappd-bieres | 12, 13, 16, 17, 18, 22, 23 |
-| s54-positions | 3, 5, 6, 10, 11, 14, 16, 18, 19, 22, 23, 24, 25, 27, 34, 37, 38 |
+| s54-positions | 3, 5, 6, 10, 11, 14, 16, 18, 19, 22, 23, 24, 25, 26, 27, 34, 37, 38 |
 | s134-sites-bieres | 3, 4, 5, 6, 10, 11, 12, 13, 14, 16, 17, 18, 21, 24, 25, 26, 28, 29, 30 |
 | s61-contacts-osm | 1, 2, 3, 4, 5, 6, 7, 8 |
 | s63-horaires-osm | 1, 2, 3, 4, 5, 6, 7 |
@@ -39,8 +39,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-2 | 1, 2, 4, 5 |
 | s297-completer-3 | 2, 3, 4, 6, 7, 8, 10, 11, 12, 13 |
 | s297-completer-4 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
+| s297-completer-5 | 1, 2, 3, 4, 5, 6, 7, 8, 9 |
 
-## À montrer à Cédric (250)
+## À montrer à Cédric (249)
 
 | Lot | N° | Fiche | Raison |
 |---|---:|---|---|
@@ -250,10 +251,9 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 17 | Single Track | aucun site officiel connu pour la fiche |
 | s54-positions | 20 | Domaine du Manchot | aucun site officiel connu pour la fiche |
 | s54-positions | 21 | La Farlodoise | source hors du site officiel : loiretourisme.com |
-| s54-positions | 26 | Ninkasi Saint-Étienne | aucun site officiel connu pour la fiche |
 | s54-positions | 28 | La Margau | aucun site officiel connu pour la fiche |
 | s54-positions | 29 | Brasserie de la Loire | source hors du site officiel : loiretourisme.com |
-| s54-positions | 30 | La Part des Autres | aucun site officiel connu pour la fiche |
+| s54-positions | 30 | La Part des Autres | source hors du site officiel : roannais-tourisme.com |
 | s54-positions | 31 | Brasserie du Pilat | source hors du site officiel : loiretourisme.com |
 | s54-positions | 32 | Brasserie Amalthée | aucune source sur le site officiel |
 | s54-positions | 33 | Bière des Frères Clavel | aucun site officiel connu pour la fiche |

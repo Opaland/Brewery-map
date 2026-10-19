@@ -18,8 +18,8 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Où en sont les fiches
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
-par un test. Au 19/10, après les quatre lots de S297 : **10 fiches complètes sur 358** ;
-180 « À confirmer » ; 251 sans bières, 297 sans téléphone, 300 sans horaires.
+par un test. Au 19/10, après les cinq lots de S297 : **10 fiches complètes sur 358** ;
+180 « À confirmer » ; 249 sans bières, 292 sans téléphone, 297 sans horaires.
 
 ## Ce qui t'attend, Cédric
 

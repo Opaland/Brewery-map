@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (115 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (145 fiches relues)
 
-S297 a relu 115 fiches sur leur site. 36 propositions sont entrées par la
-règle (`curation/s297-completer-1.md` à `s297-completer-4.md`). Restent :
+S297 a relu 145 fiches sur leur site. 46 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-5.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -158,6 +158,10 @@ règle (`curation/s297-completer-1.md` à `s297-completer-4.md`). Restent :
 | Caribrew | vente lun.–ven. 8h-18h (office de tourisme) contre « tous les jours de 8h à 18h » (site, pour les coffrets) | à vérifier par téléphone |
 | Brasserie Kerav'ale | visites guidées de juin à septembre, mar., mer., ven. à 17h, 5 € | les mettre dans la note |
 | Tom & Co | le site répond 403 ; une annonce la dit fermée | à vérifier : fermée ? |
+| Terre de Bières | lun.–mer. 9h-17h, jeu.–ven. 10h-18h30, sam.–dim. fermé, sans titre | dire « vente » (la note parle d'un magasin) |
+| Brasserie Saint-Clair | « Du Lundi au Vendredi 09h30 à 12h00, 14H30 à 17h30 » d'octobre à mars, sans nature | dire « vente » |
+| Brasserie Beauseigne | le site ne cite pas de bar ; la fiche dit « Bar à bière et boutique » | revoir la catégorie |
+| Brasserie Romanaise (Jacquemart) | site en 503 ; fixe 09 73 28 89 66 sur un annuaire | à relancer |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).
