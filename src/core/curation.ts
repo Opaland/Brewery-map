@@ -159,7 +159,9 @@ export const retraitSchema = z
   .object({
     n: z.string().min(1),
     raison: z.string().trim().min(1),
-    sources: z.array(lienSchema),
+    // Un retrait affirme « il n'y a pas de brasserie » : il dit où cela a
+    // été cherché (revue adverse S298).
+    sources: z.array(lienSchema).min(1),
     verifieLe: z.iso.date(),
   })
   .strict()
@@ -278,11 +280,14 @@ export function appliquerLot(
   // S298 : un retrait vise une fiche du fichier, que rien d'autre n'accepte
   // dans le même lot.
   const retires = new Set<string>()
+  // Retirer et rajouter le même nom réécrirait la ligne sous le nom de
+  // « retrait » (revue adverse S298).
+  const nomsAjoutes = new Set(ajouts.filter((_, i) => acceptees.has(lot.propositions.length + i + 1)).map((a) => a.fiche.n))
   ;(lot.retraits ?? []).forEach((r, i) => {
     const numero = lot.propositions.length + ajouts.length + i + 1
     if (!acceptees.has(numero)) return
     if (!brasseries.some((b) => b.n === r.n)) erreurs.push(`proposition ${String(numero)} : aucune fiche « ${r.n} » à retirer`)
-    else if (parNom.has(r.n) || retires.has(r.n)) erreurs.push(`proposition ${String(numero)} : « ${r.n} » est déjà visée par une autre acceptée`)
+    else if (parNom.has(r.n) || retires.has(r.n) || nomsAjoutes.has(r.n)) erreurs.push(`proposition ${String(numero)} : « ${r.n} » est déjà visée par une autre acceptée`)
     else retires.add(r.n)
   })
   if (erreurs.length > 0) return { ok: false, erreurs }
@@ -704,9 +709,18 @@ export function revuesDesFichiers(
   const revues = new Set<string>()
   const erreurs: string[] = []
   const listeDeNoms = z.array(z.string().min(1))
+  // Une fiche retirée (S298) reste citée par les lots d'avant : ce n'est pas
+  // une erreur. Un nom inconnu qu'aucun lot ne retire en reste une.
+  const retirees = new Set(
+    fichiers.flatMap(({ contenu }) => {
+      const l = lotSchema.safeParse(contenu)
+      return l.success ? (l.data.retraits ?? []).map((r) => r.n) : []
+    }),
+  )
   const ajouter = (fichier: string, liste: readonly string[]) => {
     for (const n of liste) {
       if (noms.has(n)) revues.add(n)
+      else if (retirees.has(n)) continue
       else erreurs.push(`${fichier} : « ${n} » n'est pas une fiche de data/`)
     }
   }

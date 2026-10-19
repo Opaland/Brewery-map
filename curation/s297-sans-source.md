@@ -23,8 +23,16 @@ connaît plusieurs :
 | cessées | La Strol, Brasserie des 2 Roches (siège à Romanèche-Thorins), Les Cuves de la Madeleine, L'Agarithe, Les Dameuses, Haarddrëch |
 | rien | les autres |
 
-Aucune fiche n'est retirée. Chacune passe d'abord la méthode de Cédric du
-19/10 (`docs/DECISIONS.md`).
+Chaque fiche est passée par la méthode de Cédric du 19/10
+(`docs/DECISIONS.md`) : Untappd, site, registre. L'annuaire attend
+l'accord de son auteur.
+
+| Verdict | Fiches | Suite |
+|---|---|---|
+| rien nulle part | Chartreux, Rhôdanienne, Utopies, Hildegarde, Revermont, Polack, Belmonthé, Aubépines, FFAKE, Monts du Lyonnais | **retirées** (S298, `curation/s298-retraits.md`) |
+| fermées (Untappd « no longer in business » ou registre « cessée ») | Haarddrëch, Hoffmann (Grand Colombier), Les Dameuses, La Strol, L'Agarithe, Les Cuves de la Madeleine, les 2 Roches | retrait ou statut « fermée » : à Cédric |
+| existent (Untappd actif ou registre en activité) | Krüger, La Valentinoise, Manev'Ale, Peteukrane, Déluge, Marrel, Ateliers du Dauphiné, Maltazar, 3B, Mac Never's | gardées « À confirmer » |
+| autre commune | Terre de Possibles (Saint-Pierre-le-Vieux), Les Croqueurs de Lune (Serrières-en-Chautagne) | procédure de déménagement (S82) |
 
 Le tableau d'origine suit.
 

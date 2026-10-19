@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'bda54f7802ca18e8',
+  empreinte: '866498eb08ec579a',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 139 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 130 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-19', texte: '10 fiches retirées : ni Untappd, ni site, ni registre des entreprises ne connaissent une brasserie de ce nom dans leur commune (méthode de Cédric du 19/10).' },
   { date: '2026-10-19', texte: 'Sites, téléphones, horaires et bières ajoutés à 20 brasseries du Rhône, de la Loire, de l’Isère, de Savoie, d’Ardèche, de l’Ain et du Finistère, relus sur leur propre site ; 8 sortent de « À confirmer ».' },
   { date: '2026-10-19', texte: 'Sites, téléphones, horaires et bières ajoutés à 22 brasseries de Bretagne, de Vendée, de Loire-Atlantique et de Normandie, relus sur leur propre site.' },
   { date: '2026-10-19', texte: 'Sites, téléphones, horaires et bières ajoutés à 20 brasseries de Loire-Atlantique, de Vendée, de Bretagne et de Normandie, relus sur leur propre site.' },

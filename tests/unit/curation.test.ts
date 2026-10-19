@@ -765,3 +765,29 @@ describe('retirer une fiche sans trace (S298, Cédric le 19/10)', () => {
     expect(texte).toContain('https://www.google.com/search?q=x')
   })
 })
+
+describe('retraits : revue adverse S298', () => {
+  const retrait = { n: NOM, raison: 'aucune trace', sources: ['https://www.google.com/search?q=x'], verifieLe: AUJOURDHUI }
+
+  it('une fiche retirée, encore citée par un ancien lot, n’arrête pas la commande « lot »', () => {
+    const sans = new Set(TOUTES.filter((b) => b.n !== NOM).map((b) => b.n))
+    const fichiers = [
+      { nom: 'ancien.json', contenu: { lot: 'ancien', propositions: [], revues: [NOM] } },
+      { nom: 'retraits.json', contenu: { lot: 'retraits', propositions: [], retraits: [retrait] } },
+    ]
+    const r = revuesDesFichiers(fichiers, sans)
+    expect(r.ok).toBe(true)
+    // … mais un nom inconnu qu'aucun lot ne retire reste une erreur.
+    expect(revuesDesFichiers(fichiers.slice(0, 1), sans).ok).toBe(false)
+  })
+
+  it('un retrait cite au moins une source', () => {
+    expect(lireLot({ lot: 'r', propositions: [], retraits: [{ ...retrait, sources: [] }] }, AUJOURDHUI).ok).toBe(false)
+  })
+
+  it('refuse un retrait et un ajout du même nom acceptés ensemble', () => {
+    const fiche = Object.fromEntries(Object.entries(A_CONFIRMER as unknown as Record<string, unknown>).filter(([k]) => k !== 'verifieLe'))
+    const l = { lot: 'r', propositions: [], ajouts: [{ fiche, verifieLe: AUJOURDHUI, sources: ['https://exemple.fr/'], extrait: 'x' }], retraits: [retrait] } as unknown as Lot
+    expect(appliquerLot(TOUTES, l, new Set([1, 2])).ok).toBe(false)
+  })
+})

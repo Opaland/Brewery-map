@@ -600,21 +600,6 @@
   "beers": []
  },
  {
-  "n": "Les Aubépines",
-  "c": "Sainte-Consorce",
-  "d": "69",
-  "lat": 45.7727,
-  "lon": 4.69308,
-  "km": 11.9,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Sainte-Consorce",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
   "n": "Platypus Brewpub",
   "c": "Lyon 2e",
   "d": "69",
@@ -627,21 +612,6 @@
   "addr": "32 cours Charlemagne, 69002 Lyon",
   "src": "https://www.privateaser.com/lieu/43617-platypus-brewpub-brasserie-artisanale",
   "coordPrecision": "commune",
-  "beers": []
- },
- {
-  "n": "Brasserie des Monts du Lyonnais",
-  "c": "Saint-Martin-en-Haut",
-  "d": "69",
-  "lat": 45.65021,
-  "lon": 4.55455,
-  "km": 15.8,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Saint-Martin-en-Haut",
-  "src": "",
-  "coordPrecision": "centre",
   "beers": []
  },
  {
@@ -866,21 +836,6 @@
    "source": "https://brasseriedulion.com/",
    "verifieLe": "2026-10-18"
   }
- },
- {
-  "n": "FFAKE Brasserie",
-  "c": "Rillieux-la-Pape",
-  "d": "69",
-  "lat": 45.81839,
-  "lon": 4.89282,
-  "km": 19.3,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Rillieux-la-Pape",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
  },
  {
   "n": "Nomade Brewery",
@@ -1989,21 +1944,6 @@
   "beers": []
  },
  {
-  "n": "Brasserie du Chartreux",
-  "c": "Lantignié",
-  "d": "69",
-  "lat": 46.15217,
-  "lon": 4.61394,
-  "km": 54.2,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Lantignié",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
   "n": "La Poule",
   "c": "Neuville-les-Dames",
   "d": "01",
@@ -2729,21 +2669,6 @@
   ]
  },
  {
-  "n": "Brasserie Rhôdanienne",
-  "c": "Saint-Jean-de-Muzols",
-  "d": "07",
-  "lat": 45.07754,
-  "lon": 4.79924,
-  "km": 66.5,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Saint-Jean-de-Muzols",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
   "n": "Brasserie CCB",
   "c": "Chanos-Curson",
   "d": "26",
@@ -2755,36 +2680,6 @@
   "note": "Dégustation gratuite sur demande ; vente sur place probable (moyens de paiement listés) mais non explicite. Horaires non publiés.",
   "addr": "1000 route de Romans, Les Hauches, 26600 Chanos-Curson",
   "src": "https://www.ardeche-hermitage.com/fr/catalogue/detail/brasserie-ccb-794965/",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
-  "n": "Brasserie des Utopies",
-  "c": "Chanos-Curson",
-  "d": "26",
-  "lat": 45.05662,
-  "lon": 4.92085,
-  "km": 69.9,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Chanos-Curson",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
-  "n": "Brasserie Hildegarde",
-  "c": "Chanos-Curson",
-  "d": "26",
-  "lat": 45.05662,
-  "lon": 4.92085,
-  "km": 69.9,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Chanos-Curson",
-  "src": "",
   "coordPrecision": "centre",
   "beers": []
  },
@@ -2868,21 +2763,6 @@
  },
  {
   "n": "Brasserie Peteukrane",
-  "c": "Saint-Bueil",
-  "d": "38",
-  "lat": 45.4746,
-  "lon": 5.68256,
-  "km": 75.6,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Saint-Bueil",
-  "src": "",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
-  "n": "Brasserie Polack",
   "c": "Saint-Bueil",
   "d": "38",
   "lat": 45.4746,
@@ -3087,21 +2967,6 @@
   "note": "La fiche de la ferme ne mentionne pas de bière ; à vérifier.",
   "addr": "360 route de Boissey, 01380 Bâgé-Dommartin",
   "src": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/gaec-ferme-de-la-perouze/",
-  "coordPrecision": "centre",
-  "beers": []
- },
- {
-  "n": "Brasserie du Revermont (Les Deux Frères)",
-  "c": "Peyrieu",
-  "d": "01",
-  "lat": 45.6817,
-  "lon": 5.68318,
-  "km": 72.2,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Peyrieu",
-  "src": "",
   "coordPrecision": "centre",
   "beers": []
  },
@@ -3352,21 +3217,6 @@
   "addr": "125 rue du Chef Lieu, 73330 Domessin",
   "src": "https://www.lac-aiguebelette.com/sit/micro-brasserie-lecume-du-guiers-5117234/",
   "coordPrecision": "centre",
-  "beers": []
- },
- {
-  "n": "Ferme-Brasserie de Belmonthé",
-  "c": "Belmont-Luthézieu",
-  "d": "01",
-  "lat": 45.9,
-  "lon": 5.6833,
-  "km": 76.3,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Belmont-Luthézieu",
-  "src": "",
-  "coordPrecision": "commune",
   "beers": []
  },
  {
