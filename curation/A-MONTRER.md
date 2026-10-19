@@ -169,11 +169,22 @@ règle (`curation/s297-completer-1.md` à `s297-completer-9.md`). Restent :
 | Beer Workshop | site d'une chaîne, sans page propre aux Achards | accepter la section de l'établissement ? |
 | L'Écume des Falaises | deux horaires contradictoires sur la page (jeudi, vendredi après-midi) | à vérifier par téléphone |
 | Baya | lun.–ven. 9h-18h sur l'accueil, 14h-18h sur la page contact, sans nature | dire lequel, et « accueil » ou « vente » |
-| Kauri, La Grange du Seigneur | horaires d'été seulement (bar d'avril à septembre ; juillet-août) | les remettre au printemps, avec leur saison |
+| Kauri | horaires d'été d'une saison datée de 2026 seulement (La Grange du Seigneur : faite en S299, avec sa période) | les remettre quand la page publie la saison 2027 |
 | Brasserie de la Loire, P'tit Labo | horaires publiés sans dire bar ou boutique | dire « accueil » ou « vente » |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).
+
+## 11. Les 348 fiches face au registre des entreprises (19/10)
+
+Dossier : `curation/registre-2026-10-19.md`.
+
+| Ce qui est à décider | Fiches |
+|---|---|
+| fermée sur Untappd (« no longer in business ») | Brasserie Kiltin' (Grenoble) |
+| registre cessé, rien sur Untappd ni sur un site | Les Roches Précieuses, la Pérouze, La Poulette des Ebaudis |
+| registre cessé, une trace ancienne seulement | Animus (site vide), CCB (2021), la brasserie des Marais (2020) |
+| siège dans une autre commune, pistes nouvelles | Amalthée, Cabule, Longue Vie, Grange Noire, l'Ours Barbu, Roche Colombe, la Dieppoise |
 
 ---
 

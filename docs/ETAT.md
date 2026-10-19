@@ -21,13 +21,16 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 par un test. Au 19/10, après les onze lots de S297 (toutes les fiches relues une fois) :
 **18 fiches complètes sur 348** ; 161 « À confirmer » ; 194 sans bières, 265 sans téléphone, 259 sans horaires.
 Le 19/10, 10 fiches sans aucune trace ont été retirées (S298, méthode de Cédric).
+Le 19/10, les 348 fiches ont été cherchées au registre des entreprises :
+`curation/registre-2026-10-19.md` (une fermée sur Untappd, six à décider,
+sept sièges dans une autre commune ; rien n'est appliqué).
 Les fiches sans source, relues, attendent une décision de Cédric :
 `curation/s297-sans-source.md` (fiches sans trace, cessée, site piraté,
 autre commune).
 
 ## Ce qui t'attend, Cédric
 
-1. `curation/A-MONTRER.md` : neuf groupes, une réponse par groupe (le
+1. `curation/A-MONTRER.md` : onze groupes, une réponse par groupe (le
    tableau en tête).
 2. `docs/DECISIONS.md`, « Reste à Cédric » : la définition d'une fiche
    « complète », la licence de `data/` (#34), l'adresse de signalement
