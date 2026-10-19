@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (235 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (275 fiches relues)
 
-S297 a relu 235 fiches sur leur site. 104 propositions sont entrées par la
-règle (`curation/s297-completer-1.md` à `s297-completer-8.md`). Restent :
+S297 a relu 275 fiches sur leur site. 124 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-9.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -169,6 +169,8 @@ règle (`curation/s297-completer-1.md` à `s297-completer-8.md`). Restent :
 | Beer Workshop | site d'une chaîne, sans page propre aux Achards | accepter la section de l'établissement ? |
 | L'Écume des Falaises | deux horaires contradictoires sur la page (jeudi, vendredi après-midi) | à vérifier par téléphone |
 | Baya | lun.–ven. 9h-18h sur l'accueil, 14h-18h sur la page contact, sans nature | dire lequel, et « accueil » ou « vente » |
+| Kauri, La Grange du Seigneur | horaires d'été seulement (bar d'avril à septembre ; juillet-août) | les remettre au printemps, avec leur saison |
+| Brasserie de la Loire, P'tit Labo | horaires publiés sans dire bar ou boutique | dire « accueil » ou « vente » |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).

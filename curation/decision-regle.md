@@ -7,7 +7,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
 
-## Déjà dans data/ par un accord (500)
+## Déjà dans data/ par un accord (520)
 
 | Lot | Numéros |
 |---|---|
@@ -43,6 +43,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s297-completer-6 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
 | s297-completer-7 | 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22 |
 | s297-completer-8 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 |
+| s297-completer-9 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 |
 
 ## À montrer à Cédric (251)
 
@@ -182,7 +183,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s14-decouverte | 117 | Micro Brasserie de Chamonix | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s14-decouverte | 118 | Brasserie 360 | fiche nouvelle hors des lots départementaux : pas dans la règle |
 | s14-decouverte | 119 | Les 3 caves | fiche nouvelle hors des lots départementaux : pas dans la règle |
-| s16-lot-3 | 1 | Les Brasseurs du Sornin | concurrente de s134-sites-bieres n° 6 (beers, contact), plus récente |
+| s16-lot-3 | 1 | Les Brasseurs du Sornin | concurrente de s297-completer-9 n° 12 (beers), plus récente |
 | s16-lot-3 | 2 | Brasserie Kokine | téléphone mobile : peut être le numéro d’une personne |
 | s16-lot-3 | 3 | La Valentinoise | confiance « faible » |
 | s16-lot-3 | 4 | Brasserie de Cluny | téléphone mobile : peut être le numéro d’une personne |
@@ -194,7 +195,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s17-lot-4 | 2 | Brasserie du Mont Blanc | concurrente de s134-sites-bieres n° 29 (contact), plus récente |
 | s17-lot-4 | 3 | Brasserie La Furieuse | source hors du site officiel : grenoble-tourisme.com |
 | s17-lot-4 | 4 | La Marmotte Masquée | source hors du site officiel : chartreuse-tourisme.com |
-| s17-lot-4 | 5 | P'tit Labo (Brasserie de Grenoble) | aucun site officiel connu pour la fiche |
+| s17-lot-4 | 5 | P'tit Labo (Brasserie de Grenoble) | source hors du site officiel : grenoble-tourisme.com |
 | s17-lot-4 | 6 | Brasserie Caquot | concurrente de s134-sites-bieres n° 14 (beers, contact), plus récente |
 | s17-lot-4 | 7 | Brasserie Dr D. Brewpub | aucun site officiel connu pour la fiche |
 | s17-lot-4 | 8 | Brasserie Maltobar | source hors du site officiel : grenoble-tourisme.com |
@@ -221,7 +222,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s53-untappd-bieres | 14 | La Gaudine (Brasserie de la Semène) | source hors du site officiel : untappd.com |
 | s53-untappd-bieres | 15 | Brasserie de la Sanne | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 19 | Brasserie Amalthée | source hors du site officiel : untappd.com |
-| s53-untappd-bieres | 20 | La Cadole | aucun site officiel connu pour la fiche |
+| s53-untappd-bieres | 20 | La Cadole | concurrente de s297-completer-9 n° 10 (beers), plus récente |
 | s53-untappd-bieres | 21 | Brasserie Cabule | aucun site officiel connu pour la fiche |
 | s53-untappd-bieres | 24 | Brasserie de Chambaran | source hors du site officiel : alpes-isere.com |
 | s53-untappd-bieres | 25 | BIM Brasserie Indépendante Montbrisonnaise | téléphone mobile : peut être le numéro d’une personne |
@@ -286,7 +287,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 | s54-positions | 60 | Brasserie des Cimes | aucune source sur le site officiel |
 | s54-positions | 61 | Brasserie La Dourbie | aucune source sur le site officiel |
 | s54-positions | 62 | Brasserie Irvoy | aucune source sur le site officiel |
-| s54-positions | 63 | P'tit Labo (Brasserie de Grenoble) | aucun site officiel connu pour la fiche |
+| s54-positions | 63 | P'tit Labo (Brasserie de Grenoble) | aucune source sur le site officiel |
 | s54-positions | 64 | Brasserie Solstice | aucun site officiel connu pour la fiche |
 | s54-positions | 65 | Brasserie Kiltin' | aucun site officiel connu pour la fiche |
 | s54-positions | 66 | Brasserie Archimalt | aucune source sur le site officiel |
