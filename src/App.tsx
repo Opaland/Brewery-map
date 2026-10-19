@@ -1,5 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useCarnetEntreOnglets, useCarteEnVue, useConnexion, useHauteurBarre } from './crochets'
+import { useCarnetEntreOnglets, useCarteEnVue, useConnexion, useHauteurBarre, useMinute } from './crochets'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
 import { BRASSERIES } from './core/donnees'
@@ -29,6 +29,7 @@ import {
   compterParDepartement,
   libelleRaison,
   favorisASignaler,
+  jugeablesCeWeekEnd,
   type Criteres,
 } from './core/recherche'
 import { libelleDepartement } from './core/departements'
@@ -49,6 +50,7 @@ import { Installer } from './Installer'
 import { MiseAJour } from './MiseAJour'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
+import { prochainWeekEnd, type JourDate } from './core/horaires'
 import { PointDeDepart } from './PointDeDepart'
 import { Sauvegarde } from './Sauvegarde'
 import { appliquerTheme } from './theme'
@@ -83,6 +85,7 @@ function texteDuCompte(
   partout: boolean,
   departement?: string,
   pasVisitees = false,
+  ceWeekEnd = false,
 ): string {
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
@@ -97,6 +100,12 @@ function texteDuCompte(
       : partout
         ? t('toutes distances, comptées depuis {origine}', { origine })
         : t('à moins de {km} km de {origine}', { km: rayonKm, origine })
+  // « Ouvertes ce week-end » qui ne garde rien : le dire, et comment en
+  // sortir ; « aucune brasserie à moins de 30 km » en taisait la cause
+  // (revue adverse S70).
+  if (n === 0 && ceWeekEnd && !(favorisSeulement && nbFavoris === 0)) {
+    return t('Aucune de ces brasseries n’ouvre ce week-end d’après les horaires publiés. Décochez « Ouvertes ce week-end » pour revoir les autres.')
+  }
   if (!favorisSeulement) {
     // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
     // disait pas que le fichier s'arrête loin de là (S21).
@@ -167,6 +176,14 @@ export function App({
   // l'appareil seulement.
   const [visites, setVisites] = useState(ini.visites)
   const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
+  // « Ouvertes ce week-end » (S70) : pas gardé d'une visite à l'autre, le
+  // week-end change. Les jours se recalculent à la minute, mais ne changent
+  // la recherche qu'en changeant de date.
+  const [ceWeekEnd, setCeWeekEnd] = useState(false)
+  const minute = useMinute()
+  const clefWeekEnd = JSON.stringify(prochainWeekEnd(minute))
+  const joursWeekEnd = useMemo(() => JSON.parse(clefWeekEnd) as JourDate[], [clefWeekEnd])
+  const weekEnd = ceWeekEnd ? joursWeekEnd : undefined
   // L'affichette à imprimer (S38) : montée le temps de l'impression, avec
   // un numéro pour qu'un second clic sur la même brasserie réimprime.
   const [affichette, setAffichette] = useState<{ brasserie: Brasserie; n: number } | null>(null)
@@ -272,6 +289,7 @@ export function App({
   // Ce qui est cherché : sans la couche OSM si la personne l'a décochée
   // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
   const cherchees = avecOsm ? toutes : BRASSERIES
+  const jugeables = useMemo(() => jugeablesCeWeekEnd(cherchees, joursWeekEnd), [cherchees, joursWeekEnd])
 
   const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
   // Les nombres du menu suivent les filtres en cours (revue S27, fait en
@@ -284,8 +302,9 @@ export function App({
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: new Set(favoris) } : {}),
         ...(exclure === undefined ? {} : { exclure }),
+        ...(weekEnd === undefined ? {} : { weekEnd }),
       }),
-    [cherchees, categories, type, favorisSeulement, favoris, exclure],
+    [cherchees, categories, type, favorisSeulement, favoris, exclure, weekEnd],
   )
   // Un département qui n'a plus de brasserie (couche OSM décochée) tombe :
   // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
@@ -306,8 +325,9 @@ export function App({
       ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
       ...(exclure === undefined ? {} : { exclure }),
       ...(departement === undefined ? {} : { departement }),
+      ...(weekEnd === undefined ? {} : { weekEnd }),
     }),
-    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement],
+    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
 
@@ -349,6 +369,7 @@ export function App({
     favorisSeulement,
     sansOsm: osm.etat === 'pret' && !avecOsm,
     pasVisitees,
+    ceWeekEnd,
     ...(departement === undefined ? {} : { departement }),
     ...(type === undefined ? {} : { type }),
   }
@@ -626,6 +647,30 @@ export function App({
                   {t('Inclure les {n} brasseries repérées sur OpenStreetMap (non vérifiées)', { n: osm.brasseries.length })}
                 </label>
               )}
+              {/* S70 : dans la grille des cases, à la place libre à côté de la
+                  couche OSM : un bloc à part repoussait la liste sous le
+                  premier écran d'ordinateur (porte, 827 px pour 800). */}
+              <label className="case" data-testid="filtre-week-end">
+                <input
+                  type="checkbox"
+                  checked={ceWeekEnd}
+                  onChange={(e) => {
+                    setCeWeekEnd(e.target.checked)
+                  }}
+                  data-testid="week-end"
+                />
+                <span>
+                  {t('Ouvertes ce week-end')}
+                  {/* Combien ce filtre peut juger : une fiche muette sur le
+                      week-end ne doit pas passer pour fermée (S70). */}
+                  <span className="fiche-aide" data-testid="week-end-aide">
+                    {t('Seules {n} brasseries sur {total} disent leurs horaires du week-end.', {
+                      n: jugeables,
+                      total: cherchees.length,
+                    })}
+                  </span>
+                </span>
+              </label>
             </fieldset>
 
             <FiltreType
@@ -805,6 +850,7 @@ export function App({
             partout,
             departement,
             pasVisitees,
+            ceWeekEnd,
           )}
           {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
         </p>

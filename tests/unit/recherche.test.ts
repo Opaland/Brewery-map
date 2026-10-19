@@ -12,6 +12,7 @@ import {
   raisonsDEcart,
   libelleRaison,
   favorisASignaler,
+  jugeablesCeWeekEnd,
   type Criteres,
 } from '../../src/core/recherche'
 import { TYPES_BIERE } from '../../src/core/bieres'
@@ -147,6 +148,60 @@ describe('favoris cachés par les autres filtres', () => {
   })
 })
 
+describe('S70 CA3 : ouvertes ce week-end, par la garde unique', () => {
+  const tom = TOUTES.find((b) => b.n === 'Tom & Co')
+  if (tom === undefined) throw new Error('Tom & Co attendue dans lignes-reelles')
+  const src = { source: 'https://exemple.fr/h', verifieLe: '2026-10-16' }
+  const weekEnd = [
+    { cle: 'sam', mmjj: '10-24' },
+    { cle: 'dim', mmjj: '10-25' },
+  ] as const
+  const avec = (horaires: Brasserie['horaires']) => ({ ...tom, horaires })
+  const raisons = (b: Brasserie) => raisonsDEcart(b, { ...base, weekEnd }).map((r) => r.type)
+
+  it('garde une brasserie ouverte samedi ou dimanche, par l’accueil ou la vente', () => {
+    expect(raisons(avec([{ nature: 'accueil', sam: [['15:00', '22:00']], ...src }]))).toEqual([])
+    expect(raisons(avec([{ nature: 'vente', dim: 'heures-non-precisees', ...src }]))).toEqual([])
+    expect(raisons(avec([{ nature: 'accueil', sam: [['15:00', '22:00']], remarque: 'sur rendez-vous', ...src }]))).toEqual([])
+  })
+
+  it('écarte une brasserie fermée ce week-end, ou qui ne publie pas ses horaires, et le dit', () => {
+    const fermee = raisonsDEcart(avec([{ nature: 'accueil', sam: [], dim: [], ...src }]), { ...base, weekEnd })
+    expect(fermee).toEqual([{ type: 'week-end', motif: 'fermee' }])
+    const sans = raisonsDEcart(avec(undefined), { ...base, weekEnd })
+    expect(sans).toEqual([{ type: 'week-end', motif: 'sans-horaires' }])
+    expect(libelleRaison(fermee[0] ?? { type: 'texte' })).toBe('fermée ce week-end d’après ses horaires')
+    expect(libelleRaison(sans[0] ?? { type: 'texte' })).toBe('pas d’horaires publiés')
+  })
+
+  it('revue adverse : des horaires de semaine seuls ne disent pas « fermée » le week-end', () => {
+    const semaine = raisonsDEcart(avec([{ nature: 'accueil', lun: [['10:00', '18:00']], ...src }]), { ...base, weekEnd })
+    expect(semaine).toEqual([{ type: 'week-end', motif: 'muette' }])
+    expect(libelleRaison(semaine[0] ?? { type: 'texte' })).toBe('ses horaires ne disent rien du week-end')
+    // Fermée le samedi, dimanche non dit : le week-end n'est pas « fermé ».
+    const samediSeul = raisonsDEcart(avec([{ nature: 'accueil', sam: [], ...src }]), { ...base, weekEnd })
+    expect(samediSeul).toEqual([{ type: 'week-end', motif: 'muette' }])
+  })
+
+  it('revue adverse : le filtre compte les fiches qu’il peut juger', () => {
+    const ouverte = avec([{ nature: 'accueil', sam: [['15:00', '22:00']], ...src }])
+    const fermee = avec([{ nature: 'vente', sam: [], dim: [], ...src }])
+    const semaine = avec([{ nature: 'accueil', lun: [['10:00', '18:00']], ...src }])
+    expect(jugeablesCeWeekEnd([ouverte, fermee, semaine, avec(undefined)], weekEnd)).toBe(2)
+  })
+
+  it('une saison qui ne couvre pas ce week-end ne compte pas', () => {
+    expect(raisons(avec([{ nature: 'accueil', sam: [['15:00', '19:00']], periode: { du: '07-01', au: '08-31' }, ...src }]))).toEqual(['week-end'])
+  })
+
+  it('rechercher et le compte des départements suivent le filtre', () => {
+    const ouverte = avec([{ nature: 'accueil', sam: [['15:00', '22:00']], ...src }])
+    const autre = { ...TOUTES[0], n: 'Sans Horaires', horaires: undefined } as Brasserie
+    expect(rechercher([ouverte, autre], { ...base, rayonKm: 1000, weekEnd }).map((r) => r.brasserie.n)).toEqual(['Tom & Co'])
+    expect(compterParDepartement([ouverte, autre], { categories: base.categories, weekEnd }).get(ouverte.d)).toBe(1)
+  })
+})
+
 describe('S301, revue adverse', () => {
   it('un favori de la couche OSM décochée est dit, avec cette raison', () => {
     const caches = favorisCaches(TOUTES, ['Tom & Co'], base, new Set(['Tom & Co']))
@@ -162,7 +217,8 @@ describe('S301, revue adverse', () => {
     const texte = { nom: 'A', raisons: [{ type: 'texte' as const }] }
     const dep = { nom: 'B', raisons: [{ type: 'departement' as const }] }
     const loin = { nom: 'C', raisons: [{ type: 'texte' as const }, { type: 'categorie' as const }] }
-    expect(favorisASignaler([texte, dep, loin], false).map((c) => c.nom)).toEqual(['C'])
+    const weekEnd = { nom: 'D', raisons: [{ type: 'week-end' as const, motif: 'sans-horaires' as const }] }
+    expect(favorisASignaler([texte, dep, loin, weekEnd], false).map((c) => c.nom)).toEqual(['C'])
     expect(favorisASignaler([texte, dep, loin], true).map((c) => c.nom)).toEqual(['A', 'B', 'C'])
   })
 })

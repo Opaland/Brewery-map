@@ -31,7 +31,11 @@ function seul(prefixe: string): string {
 
 test('le premier écran tient son budget', () => {
   const fichiers = premierEcran()
-  expect(fichiers.length).toBeGreaterThan(3)
+  // La lecture de index.html a trouvé le paquet principal et sa feuille de
+  // style. Le nombre de fichiers dépend du découpage de Vite : S70 a fondu
+  // un morceau partagé dans le paquet principal (4 fichiers → 3).
+  expect(fichiers.some((f) => /^assets\/index-[^/]+\.js$/.test(f))).toBe(true)
+  expect(fichiers.some((f) => /^assets\/index-[^/]+\.css$/.test(f))).toBe(true)
   const total = fichiers.reduce((s, f) => s + gz(f), 0)
   expect(total, `premier écran : ${String(total)} octets gzip (${fichiers.join(', ')})`).toBeLessThanOrEqual(BUDGETS.premierEcran)
 })
