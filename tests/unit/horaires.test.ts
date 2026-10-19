@@ -257,3 +257,44 @@ describe('etatPourLaListe (S295, Hugo)', () => {
     expect(etatPourLaListe(vente, a('2026-10-17T16:00:00Z'))).toBe('Vente ouverte maintenant, sous réserve')
   })
 })
+
+/**
+ * Les horaires d'une saison (S299, issue #51). Samedi 17/10/2026 18 h à
+ * Paris = 16:00Z ; samedi 16/01/2027 11 h = 10:00Z ; dimanche 30/08/2026
+ * 12 h = 10:00Z.
+ */
+describe('les horaires d’une saison (S299)', () => {
+  const a = (iso: string) => new Date(iso)
+  const ete = { ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [['15:00', '22:00']], dim: [], periode: { du: '07-01', au: '08-31' } }
+  const hiver = { ...accueil, lun: [], mar: [], mer: [], jeu: [], ven: [], sam: [['10:00', '13:00']], dim: [], periode: { du: '10-01', au: '03-31' } }
+
+  it('CA1 : une période « MM-JJ », qui peut passer le 1er janvier ; une date impossible est refusée', () => {
+    expect(erreurs(avec([ete]))).toEqual([])
+    expect(erreurs(avec([hiver]))).toEqual([])
+    expect(erreurs(avec([{ ...ete, periode: { du: '02-30', au: '08-31' } }]))).not.toEqual([])
+    expect(erreurs(avec([{ ...ete, periode: { du: '7-1', au: '08-31' } }]))).not.toEqual([])
+  })
+
+  it('CA2 : deux blocs de même nature, seulement avec des périodes qui ne se chevauchent pas', () => {
+    expect(erreurs(avec([ete, hiver]))).toEqual([])
+    expect(erreurs(avec([ete, { ...hiver, periode: { du: '08-15', au: '09-30' } }]))).not.toEqual([])
+    expect(erreurs(avec([ete, accueil]))).not.toEqual([])
+  })
+
+  it('CA3 : le bloc de la saison du jour ; hors de toute période, ni ouvert ni fermé', () => {
+    const h = [ete, hiver] as unknown as Horaires
+    expect(ouvertMaintenant(h, a('2026-10-17T10:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '13:00' })
+    expect(ouvertMaintenant(h, a('2027-01-16T10:00:00Z'))).toEqual({ etat: 'ouvert', jusqua: '13:00' })
+    expect(ouvertMaintenant([ete] as unknown as Horaires, a('2026-10-17T16:00:00Z'))).toEqual({ etat: 'inconnu', horsPeriode: true })
+  })
+
+  it('CA4 : la prochaine ouverture ne franchit pas la fin d’une période', () => {
+    expect(prochaineOuverture([ete] as unknown as Horaires, a('2026-08-30T10:00:00Z'))).toEqual({ etat: 'inconnue' })
+    expect(prochaineOuverture([ete] as unknown as Horaires, a('2026-08-23T10:00:00Z')).etat).toBe('connue')
+  })
+
+  it('CA6 : la ligne de liste ne dit rien hors période', () => {
+    expect(etatPourLaListe([ete] as unknown as Horaires, a('2026-10-17T16:00:00Z'))).toBeUndefined()
+    expect(etatPourLaListe([ete, hiver] as unknown as Horaires, a('2026-10-17T10:00:00Z'))).toBe('Ouvert au public maintenant')
+  })
+})

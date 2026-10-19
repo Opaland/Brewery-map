@@ -1,12 +1,16 @@
 import { hoteDeSource, libelleVerification } from './core/fiche'
 import {
+  blocDuJour,
   formaterCreneaux,
   formaterHeure,
   heureDeParis,
   JOURS,
+  libellePeriode,
+  moisJourDeParis,
   ouvertMaintenant,
   phraseProchaine,
   type Bloc,
+  type Horaires as Blocs,
 } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
@@ -14,15 +18,18 @@ import { t } from './i18n'
 import { EnFrancais } from './EnFrancais'
 import { LienExterne } from './LienExterne'
 
-const titre = (nature: Bloc['nature']) =>
-  nature === 'accueil' ? t('Horaires d’accueil du public') : t('Horaires de vente')
+const titre = (bloc: Bloc) => {
+  const nom = bloc.nature === 'accueil' ? t('Horaires d’accueil du public') : t('Horaires de vente')
+  return bloc.periode === undefined ? nom : `${nom}, ${libellePeriode(bloc.periode)}`
+}
 
 /**
  * L'état à l'instant de l'ouverture de la fiche (S19, Hugo) : d'après les
  * créneaux publiés, jamais affirmé quand la source ne dit rien du jour.
  */
-function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
-  const m = ouvertMaintenant([bloc], maintenant, bloc.nature)
+function Maintenant({ blocs, bloc, maintenant }: { blocs: Blocs; bloc: Bloc; maintenant: Date }) {
+  // Tous les blocs de la nature : celui de la saison du jour décide (S299).
+  const m = ouvertMaintenant(blocs, maintenant, bloc.nature)
   // L'heure de référence est écrite : une fiche restée ouverte ne prétend
   // pas dire « maintenant » une heure plus tard (revue code S19).
   const heure = formaterHeure(heureDeParis(maintenant))
@@ -37,7 +44,9 @@ function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
       jusqua,
     }),
     ferme: `${t('fermé, d’après les horaires publiés.')} ${phraseProchaine(bloc, maintenant)}`,
-    inconnu: t('la source ne dit pas les heures de ce jour.'),
+    inconnu: m.horsPeriode === true
+      ? t('la source ne publie pas d’horaires pour cette période de l’année.')
+      : t('la source ne dit pas les heures de ce jour.'),
   }[m.etat]
   return (
     <p className="horaires-maintenant" data-testid="horaires-maintenant">
@@ -47,17 +56,17 @@ function Maintenant({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
   )
 }
 
-function Tableau({ bloc, maintenant }: { bloc: Bloc; maintenant: Date }) {
+function Tableau({ blocs, bloc, maintenant, avecMaintenant }: { blocs: Blocs; bloc: Bloc; maintenant: Date; avecMaintenant: boolean }) {
   return (
     <div className="horaires-bloc">
-      <Maintenant bloc={bloc} maintenant={maintenant} />
+      {avecMaintenant && <Maintenant blocs={blocs} bloc={bloc} maintenant={maintenant} />}
       {bloc.remarque !== undefined && (
         <p className="horaires-remarque" data-testid="horaires-remarque">
           <strong>{t('À savoir :')}</strong> <EnFrancais>{bloc.remarque}</EnFrancais>
         </p>
       )}
       <table>
-        <caption>{titre(bloc.nature)}</caption>
+        <caption>{titre(bloc)}</caption>
         <tbody>
           {JOURS.map((j) => (
             <tr key={j.cle}>
@@ -108,9 +117,21 @@ export function Horaires({
   }
   return (
     <div className="fiche-horaires" data-testid="fiche-horaires">
-      {blocs.map((b) => (
-        <Tableau key={b.nature} bloc={b} maintenant={instant} />
-      ))}
+      {blocs.map((b, i) => {
+        // L'état du moment, une fois par nature : sur le bloc de la saison
+        // du jour, ou sur le premier de la nature hors de toute période (S299).
+        const { bloc: duJour } = blocDuJour(blocs, b.nature, moisJourDeParis(instant))
+        const premier = blocs.findIndex((x) => x.nature === b.nature) === i
+        return (
+          <Tableau
+            key={`${b.nature}-${b.periode?.du ?? 'année'}`}
+            blocs={blocs}
+            bloc={b}
+            maintenant={instant}
+            avecMaintenant={duJour === undefined ? premier : duJour === b}
+          />
+        )
+      })}
     </div>
   )
 }

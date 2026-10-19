@@ -1,0 +1,411 @@
+{
+  "lot": "s299-saisons",
+  "propositions": [
+    {
+      "n": "La Grange du Seigneur",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mar": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "ven": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "dim": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "periode": {
+              "du": "07-01",
+              "au": "08-31"
+            },
+            "remarque": "Le reste de l'année, sur rendez-vous.",
+            "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "mar": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "ven": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "dim": [
+              [
+                "15:00",
+                "19:00"
+              ]
+            ],
+            "periode": {
+              "du": "07-01",
+              "au": "08-31"
+            },
+            "remarque": "Le reste de l'année, sur rendez-vous.",
+            "source": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/"
+      ],
+      "extrait": "Nous vous proposons un point de vente sur place, ainsi qu'un bar (licence III) avec terrasse; ouverts toute l'année. En JUILLET et AOUT : Du mardi au dimanche de 15h00 à 19h00 […] Ouverture tout le reste de l'année sur rendez-vous.",
+      "choix": "S299 : horaires d'été avec leur période (1er juillet-31 août), pour le bar (accueil) et le point de vente. Retirés en S297 faute de période."
+    },
+    {
+      "n": "Brasserie Philomenn",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mar": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "mer": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "sam": [
+              [
+                "16:00",
+                "22:00"
+              ]
+            ],
+            "periode": {
+              "du": "07-01",
+              "au": "08-31"
+            },
+            "remarque": "Le reste de l'année, la page annonce seulement des ouvertures ponctuelles.",
+            "source": "https://philomenn.fr/tap-room/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://philomenn.fr/tap-room/"
+      ],
+      "extrait": "Ouverture JUILLET / AOÛT : du mardi au samedi DE 16H A 22H",
+      "choix": "S299 : la saison passe de la remarque à la période du bloc (1er juillet-31 août)."
+    },
+    {
+      "n": "Brasserie Mélusine",
+      "changements": {
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [],
+            "mar": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "sam": [
+              [
+                "10:00",
+                "13:00"
+              ]
+            ],
+            "dim": [],
+            "periode": {
+              "du": "10-01",
+              "au": "03-31"
+            },
+            "remarque": "Fermé les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mar": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "dim": [],
+            "periode": {
+              "du": "04-01",
+              "au": "09-30"
+            },
+            "remarque": "Fermé les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "lun": [],
+            "mar": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "13:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "sam": [
+              [
+                "10:00",
+                "13:00"
+              ]
+            ],
+            "dim": [],
+            "periode": {
+              "du": "10-01",
+              "au": "03-31"
+            },
+            "remarque": "Fermé les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mar": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "13:30"
+              ],
+              [
+                "14:30",
+                "20:00"
+              ]
+            ],
+            "dim": [],
+            "periode": {
+              "du": "04-01",
+              "au": "09-30"
+            },
+            "remarque": "Fermé les jours fériés.",
+            "source": "https://www.brasserie-melusine.com/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-melusine.com/"
+      ],
+      "extrait": "Horaires hiver (6 mois) Mardi 10h00 à 13h00 14h00 à 19h00 […] Horaires d’hiver : octobre à mars – Fermé le lundi et dimanche ainsi que les jours fériés. Horaires été (6 mois) lundi 14h00 à 19h00 Mardi 11h00 à 13h30 14h30 à 19h00 […] Horaires d’été : avril à septembre – Fermé le lundi matin et dimanche ainsi que les jours fériés.",
+      "choix": "S299 : un bloc d'hiver (1er octobre-31 mars) et un bloc d'été (1er avril-30 septembre), pour le « Bar/Boutique » (accueil et vente). Le samedi n'est pas dit en été : laissé non précisé."
+    }
+  ],
+  "revues": [
+    "La Grange du Seigneur",
+    "Brasserie Philomenn",
+    "Brasserie Mélusine"
+  ]
+}

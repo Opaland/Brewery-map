@@ -6,6 +6,7 @@ Règle du 18/10 (`docs/DECISIONS.md`) : site officiel + contrôlé ; toutes les 
 
 | Lot | Empreinte | Numéros | Nombre |
 |---|---|---|---:|
+| s299-saisons | 061ee6136dea | 1, 2, 3 | 3 |
 
 ## Déjà dans data/ par un accord (534)
 
