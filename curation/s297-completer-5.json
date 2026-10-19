@@ -1,0 +1,379 @@
+{
+  "lot": "s297-completer-5",
+  "propositions": [
+    {
+      "n": "Brasserie Free Mousse",
+      "changements": {
+        "contact": {
+          "tel": "04 75 06 58 78",
+          "site": "https://www.freemousse.fr/",
+          "source": "https://www.freemousse.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "mar": [
+              [
+                "11:30",
+                "18:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:30",
+                "21:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "23:00"
+              ]
+            ],
+            "remarque": "Mêmes horaires pour le bar et la boutique.",
+            "source": "https://www.freemousse.fr/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "mar": [
+              [
+                "11:30",
+                "18:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:30",
+                "21:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "23:00"
+              ]
+            ],
+            "remarque": "Mêmes horaires pour le bar et la boutique.",
+            "source": "https://www.freemousse.fr/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "note": "Vente à l'unité ou en carton ; dégustation payante sur demande ; bar et boutique ouverts aux mêmes horaires, d'après le site de la brasserie."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.freemousse.fr/"
+      ],
+      "extrait": "La boutique et le bar vous accueille :",
+      "choix": "Un seul planning écrit pour « la boutique et le bar » : un bloc d'accueil (bar) et un de vente (boutique). Dimanche et lundi non nommés : omis. Le site officiel l'emporte sur l'annuaire de la note."
+    },
+    {
+      "n": "Brasserie Grange Noire",
+      "changements": {
+        "contact": {
+          "tel": "04 37 61 04 05",
+          "site": "https://www.grangenoire.com/",
+          "source": "https://www.grangenoire.com/la-brasserie",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.grangenoire.com/la-brasserie"
+      ],
+      "extrait": "sur rendez-vous au 04.37.61.04.05",
+      "choix": "Fixe publié par la brasserie. Pas d'horaires : tout est sur rendez-vous. Lien Untappd cité par le vérificateur, absent de la page à la relecture : écarté."
+    },
+    {
+      "n": "Brasserie de Chambaran",
+      "changements": {
+        "contact": {
+          "tel": "09 72 82 66 24",
+          "site": "http://www.labinche.fr/",
+          "source": "http://www.labinche.fr/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.labinche.fr/"
+      ],
+      "extrait": "09 72 82 66 24",
+      "choix": "Fixe retenu, mobile 07 écarté. Bières lues seulement sur l'office de tourisme : écartées à la relecture. Horaires du site sans nature écrite : non proposés."
+    },
+    {
+      "n": "Brasserie Challit",
+      "changements": {
+        "contact": {
+          "site": "https://bieresicsas.jimdofree.com",
+          "source": "https://bieresicsas.jimdofree.com",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "mer": [
+              [
+                "17:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "17:00",
+                "19:00"
+              ]
+            ],
+            "ven": [
+              [
+                "17:00",
+                "19:00"
+              ]
+            ],
+            "sam": [
+              [
+                "09:00",
+                "12:00"
+              ]
+            ],
+            "source": "https://bieresicsas.jimdofree.com",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blanche"
+          },
+          {
+            "type": "blonde"
+          },
+          {
+            "type": "ambree"
+          },
+          {
+            "type": "brune"
+          },
+          {
+            "type": "ipa"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://bieresicsas.jimdofree.com"
+      ],
+      "extrait": "La boutique de la brasserie est ouverte les mercredi, jeudi, vendredi de 17h à 19h et le samedi matin de 9h à 12h.",
+      "choix": "Seul numéro, un mobile : écarté. Panel permanent écrit sur le site."
+    },
+    {
+      "n": "Terre de Bières",
+      "changements": {
+        "contact": {
+          "tel": "04 74 68 41 81",
+          "site": "https://www.terredebieres.fr/",
+          "source": "https://www.terredebieres.fr/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.terredebieres.fr/"
+      ],
+      "extrait": "04 74 68 41 81",
+      "choix": "Fixe. Horaires sans titre : nature non écrite, non proposés."
+    },
+    {
+      "n": "Brasserie du Pilat",
+      "changements": {
+        "contact": {
+          "tel": "04 77 51 56 17",
+          "site": "https://www.brasseriedupilat.com/",
+          "source": "https://www.brasseriedupilat.com/horaires-visites/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriedupilat.com/horaires-visites/"
+      ],
+      "extrait": "04 77 51 56 17",
+      "choix": "Fixe publié par la brasserie. Horaires saisonniers de 2023 : non proposés."
+    },
+    {
+      "n": "La Part des Autres",
+      "changements": {
+        "contact": {
+          "tel": "04 77 66 25 28",
+          "site": "http://www.lapartdesautres.com",
+          "source": "http://www.lapartdesautres.com",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.lapartdesautres.com"
+      ],
+      "extrait": "04 77 66 25 28",
+      "choix": "Fixe ; mobile écarté. Bières lues seulement sur l'office de tourisme : non proposées."
+    },
+    {
+      "n": "Brasserie Amalthée",
+      "changements": {
+        "contact": {
+          "site": "https://brasserieamalthee.fr",
+          "untappd": "https://untappd.com/BrasserieAmalthee",
+          "source": "https://brasserieamalthee.fr",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Equinoxe"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Jovi'Ale"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Solaire"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserieamalthee.fr"
+      ],
+      "extrait": "Bière blonde légère, rafraîchissante céréalière et légèrement houblonnée.",
+      "choix": "Mobile écarté. Brewpub le vendredi sans heure de fermeture : pas de bloc. Goathik (noire) et Blitz (édition limitée) écartées."
+    },
+    {
+      "n": "Ninkasi Saint-Étienne",
+      "changements": {
+        "conf": "moyenne",
+        "src": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+        "note": "Restaurant-bar du réseau Ninkasi ; la page du lieu écrit la vente à emporter : « Emportez chez vous nos bières bouteilles, sodas & burgers. »",
+        "contact": {
+          "tel": "04 77 89 00 67",
+          "site": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+          "source": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "lun": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "mar": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "sam": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "dim": [
+              [
+                "11:00",
+                "01:00"
+              ]
+            ],
+            "nature": "accueil",
+            "remarque": "Cuisine de 11h30 à 22h30 ; brunch le dimanche de 11h à 16h.",
+            "source": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
+            "verifieLe": "2026-10-19"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/"
+      ],
+      "extrait": "Horaires d'ouverture Lundi 11h-01h Mardi 11h-01h Mercredi 11h-01h Jeudi 11h-01h Vendredi 11h-01h Samedi 11h-01h Dimanche 11h-01h ; « Appelez le 0477890067 » ; « Emportez chez vous nos bières bouteilles, sodas & burgers. »",
+      "choix": "Page du lieu sur le site officiel du réseau. Horaires d'ouverture d'un restaurant-bar : bloc d'accueil. Confiance portée à moyenne : la vente à emporter est écrite. Catégorie 1 inchangée."
+    }
+  ],
+  "revues": [
+    "Malting Pot",
+    "Terre de Bières",
+    "L'Affoleuse",
+    "Ninkasi Saint-Étienne",
+    "Brasserie du Pilat",
+    "La Part des Autres",
+    "Les Bières du Temps",
+    "Brasserie Amalthée",
+    "Brasserie Beauseigne",
+    "Brasserie des Sarments",
+    "Brasserie Cabule",
+    "BIM Brasserie Indépendante Montbrisonnaise",
+    "La Poule",
+    "Brasserie de Chambaran",
+    "La Germanoise",
+    "Rivière d'Ain",
+    "Brasserie Free Mousse",
+    "Brasserie Saint-Clair (La Bressane)",
+    "Les Deux Branches",
+    "Brasserie Grange Noire",
+    "Brasserie CCB",
+    "Brasserie Challit",
+    "Two Hats Brewing",
+    "Brasserie du Val d'Ainan (La Dauphine)",
+    "Brasserie Romanaise (Bière Jacquemart)",
+    "Brasserie Kura",
+    "L'Écume du Guiers",
+    "Brasserie L'Attract'Yves",
+    "L'Agrivoise",
+    "Brasserie de l'Emblavez"
+  ]
+}
