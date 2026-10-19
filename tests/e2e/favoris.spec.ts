@@ -75,7 +75,23 @@ test.describe('les favoris (Marie)', () => {
     await ouvrirFiltres(page)
     await page.getByTestId('favoris-seulement').check()
     await rayon.fill('5')
-    await expect(page.getByTestId('favoris-caches')).toContainText(nom)
+    // Avec sa raison (S301) : la distance, et le rayon qui la coupe.
+    await expect(page.getByTestId('favoris-caches')).toContainText(`${nom} (≈`)
+    await expect(page.getByTestId('favoris-caches')).toContainText('au-delà du rayon de 5 km')
+  })
+
+  test('S301 : hors du mode « seulement », un favori hors du rayon est dit, avec sa raison', async ({ page }) => {
+    await page.goto('/')
+    const rayon = page.getByTestId('rayon')
+    await rayon.fill('100')
+    const loin = page.locator('button.ligne').last()
+    const nom = (await loin.getAttribute('data-nom')) ?? ''
+    await loin.click()
+    await page.getByTestId('bouton-favori').click()
+    await expect(page.getByTestId('favoris-caches')).toHaveCount(0)
+    await rayon.fill('5')
+    await expect(page.getByTestId('favoris-caches')).toContainText(`${nom} (≈`)
+    await expect(page.getByTestId('favoris-caches')).toContainText('au-delà du rayon de 5 km')
   })
 
   test('retirer un favori', async ({ page }) => {

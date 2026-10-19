@@ -27,6 +27,8 @@ import {
   rechercher,
   rechercherPartout,
   compterParDepartement,
+  libelleRaison,
+  type Criteres,
 } from './core/recherche'
 import { libelleDepartement } from './core/departements'
 import { resumeDesFiltres, type EtatFiltres } from './core/filtres'
@@ -293,20 +295,20 @@ export function App({
     origine.type === 'brignais' &&
     normaliser(texte).length >= 3 &&
     BRASSERIES.some((b) => normaliser(b.c).startsWith(normaliser(texte)))
-  const resultats = useMemo(
-    () =>
-      rechercher(cherchees, {
-        origine: origine.point,
-        rayonKm,
-        texte,
-        categories,
-        ...(type === undefined ? {} : { type }),
-        ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
-        ...(exclure === undefined ? {} : { exclure }),
-        ...(departement === undefined ? {} : { departement }),
-      }),
-    [cherchees, origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement],
+  const criteres = useMemo<Criteres>(
+    () => ({
+      origine: origine.point,
+      rayonKm,
+      texte,
+      categories,
+      ...(type === undefined ? {} : { type }),
+      ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
+      ...(exclure === undefined ? {} : { exclure }),
+      ...(departement === undefined ? {} : { departement }),
+    }),
+    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement],
   )
+  const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
 
   // Ma tournée (S27) : les favoris encore présents, de proche en proche.
   const tournee = useMemo(() => {
@@ -321,7 +323,12 @@ export function App({
     }
   }, [toutes, ensembleFavoris, origine])
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
-  const caches = favorisSeulement ? favorisCaches(cherchees, favoris, resultats) : []
+  // Avec sa raison, et aussi hors du mode « seulement » : un favori hors du
+  // rayon passait pour disparu (S301, issue #53).
+  const caches = useMemo(
+    () => favorisCaches(cherchees, favoris, criteres).map((c) => `${c.nom} (${c.raisons.map(libelleRaison).join(' ; ')})`),
+    [cherchees, favoris, criteres],
+  )
   const fermes = useMemo(() => favorisFermes(cherchees, favoris), [cherchees, favoris])
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).
@@ -704,8 +711,8 @@ export function App({
       {caches.length > 0 && (
         <p className="champ-aide" data-testid="favoris-caches">
           {caches.length === 1
-            ? t('Un favori est caché par la distance ou les filtres : {liste}.', { liste: listeCourte(caches) })
-            : t('{n} favoris sont cachés par la distance ou les filtres : {liste}.', {
+            ? t('Un favori n’est pas dans la liste : {liste}.', { liste: listeCourte(caches) })
+            : t('{n} favoris ne sont pas dans la liste : {liste}.', {
                 n: caches.length,
                 liste: listeCourte(caches),
               })}
