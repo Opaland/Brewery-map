@@ -28,6 +28,7 @@ import {
   rechercherPartout,
   compterParDepartement,
   libelleRaison,
+  favorisASignaler,
   type Criteres,
 } from './core/recherche'
 import { libelleDepartement } from './core/departements'
@@ -325,10 +326,14 @@ export function App({
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   // Avec sa raison, et aussi hors du mode « seulement » : un favori hors du
   // rayon passait pour disparu (S301, issue #53).
-  const caches = useMemo(
-    () => favorisCaches(cherchees, favoris, criteres).map((c) => `${c.nom} (${c.raisons.map(libelleRaison).join(' ; ')})`),
-    [cherchees, favoris, criteres],
-  )
+  // Une brasserie OSM, couche décochée, est cherchée dans `toutes` et dite
+  // comme telle (revue adverse S301).
+  const caches = useMemo(() => {
+    const horsCouche = avecOsm ? new Set<string>() : new Set(osm.brasseries.map((b) => b.n))
+    return favorisASignaler(favorisCaches(toutes, favoris, criteres, horsCouche), favorisSeulement).map(
+      (c) => `${c.nom} (${c.raisons.map(libelleRaison).join(' ; ')})`,
+    )
+  }, [toutes, avecOsm, osm.brasseries, favoris, criteres, favorisSeulement])
   const fermes = useMemo(() => favorisFermes(cherchees, favoris), [cherchees, favoris])
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).

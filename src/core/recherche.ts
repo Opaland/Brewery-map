@@ -127,6 +127,7 @@ export type Raison =
   | { type: 'fermee' }
   | { type: 'texte' }
   | { type: 'distance'; km: number; rayonKm: number }
+  | { type: 'couche-osm' }
 
 /** Les raisons des filtres qui ne dépendent ni du lieu ni du texte. */
 function raisonsDesFiltres(brasserie: Brasserie, f: Filtres): Raison[] {
@@ -192,11 +193,14 @@ export function favorisCaches(
   brasseries: readonly Brasserie[],
   favoris: readonly string[],
   criteres: Criteres,
+  /** Les noms de la couche OpenStreetMap quand elle est décochée (revue adverse S301). */
+  horsCouche: ReadonlySet<string> = new Set(),
 ): { nom: string; raisons: Raison[] }[] {
   const parNom = new Map(brasseries.filter((b) => b.fermee === undefined).map((b) => [b.n, b]))
   return favoris.flatMap((nom) => {
     const b = parNom.get(nom)
     if (b === undefined) return []
+    if (horsCouche.has(nom)) return [{ nom, raisons: [{ type: 'couche-osm' as const }] }]
     const raisons = raisonsDEcart(b, criteres).filter((r) => r.type !== 'pas-favori')
     return raisons.length === 0 ? [] : [{ nom, raisons }]
   })
@@ -206,7 +210,11 @@ export function favorisCaches(
 export function libelleRaison(r: Raison): string {
   switch (r.type) {
     case 'distance':
-      return t('{distance}, au-delà du rayon de {rayon} km', { distance: formaterDistance(r.km), rayon: r.rayonKm })
+      // Arrondie, la distance pouvait égaler le rayon : « ≈ 20 km, au-delà
+      // du rayon de 20 km » (revue adverse S301).
+      return Math.round(r.km) <= r.rayonKm
+        ? t('à peine plus de {rayon} km, le rayon choisi', { rayon: r.rayonKm })
+        : t('{distance}, au-delà du rayon de {rayon} km', { distance: formaterDistance(r.km), rayon: r.rayonKm })
     case 'categorie':
       return t('sa catégorie est décochée')
     case 'type':
@@ -221,7 +229,21 @@ export function libelleRaison(r: Raison): string {
       return t('fermée')
     case 'pas-favori':
       return t('pas dans vos favoris')
+    case 'couche-osm':
+      return t('la couche OpenStreetMap est décochée')
   }
+}
+
+/**
+ * Les favoris cachés à dire. Hors du mode « seulement mes favoris », un
+ * favori que seuls le texte tapé ou le département choisi écartent ne l'est
+ * pas : la personne a demandé ce filtre, et le paragraphe clignotait à
+ * chaque frappe (revue adverse S301). Ce qui se dit : la distance, une case
+ * décochée, le type, « pas encore visitées », la couche.
+ */
+export function favorisASignaler<T extends { raisons: readonly Raison[] }>(caches: readonly T[], modeSeulement: boolean): T[] {
+  if (modeSeulement) return [...caches]
+  return caches.filter((c) => c.raisons.some((r) => r.type !== 'texte' && r.type !== 'departement'))
 }
 
 /** Les favoris dont la brasserie est fermée (S31). */

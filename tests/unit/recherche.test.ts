@@ -10,6 +10,8 @@ import {
   rechercher,
   rechercherPartout,
   raisonsDEcart,
+  libelleRaison,
+  favorisASignaler,
   type Criteres,
 } from '../../src/core/recherche'
 import { TYPES_BIERE } from '../../src/core/bieres'
@@ -142,6 +144,26 @@ describe('favoris cachés par les autres filtres', () => {
     // En mode « seulement », « pas un favori » n'est jamais donné pour un favori.
     const seul = favorisCaches(TOUTES, ['Tom & Co'], { ...base, rayonKm: 10, seulement: new Set(['Tom & Co']) })
     expect(seul[0]?.raisons.map((r) => r.type)).toEqual(['distance'])
+  })
+})
+
+describe('S301, revue adverse', () => {
+  it('un favori de la couche OSM décochée est dit, avec cette raison', () => {
+    const caches = favorisCaches(TOUTES, ['Tom & Co'], base, new Set(['Tom & Co']))
+    expect(caches).toEqual([{ nom: 'Tom & Co', raisons: [{ type: 'couche-osm' }] }])
+  })
+
+  it('la distance ne contredit pas le rayon à l’arrondi', () => {
+    expect(libelleRaison({ type: 'distance', km: 20.4, rayonKm: 20 })).toBe('à peine plus de 20 km, le rayon choisi')
+    expect(libelleRaison({ type: 'distance', km: 44.6, rayonKm: 20 })).toBe('≈ 45 km, au-delà du rayon de 20 km')
+  })
+
+  it('hors du mode « seulement », le texte tapé et le département choisi ne sont pas signalés seuls', () => {
+    const texte = { nom: 'A', raisons: [{ type: 'texte' as const }] }
+    const dep = { nom: 'B', raisons: [{ type: 'departement' as const }] }
+    const loin = { nom: 'C', raisons: [{ type: 'texte' as const }, { type: 'categorie' as const }] }
+    expect(favorisASignaler([texte, dep, loin], false).map((c) => c.nom)).toEqual(['C'])
+    expect(favorisASignaler([texte, dep, loin], true).map((c) => c.nom)).toEqual(['A', 'B', 'C'])
   })
 })
 

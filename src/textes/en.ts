@@ -42,6 +42,8 @@ export const EN: Readonly<Record<string, string>> = {
   "hors du département choisi": "outside the chosen département",
   "déjà visitée": "already visited",
   "pas dans vos favoris": "not in your favourites",
+  "à peine plus de {rayon} km, le rayon choisi": "just over {rayon} km, the chosen radius",
+  "la couche OpenStreetMap est décochée": "the OpenStreetMap layer is unticked",
   "Un favori est fermé : {nom}. Il ne paraît plus dans la liste autour du départ ni dans la tournée ; son nom tapé dans la recherche rouvre sa fiche.": "One favourite has closed: {nom}. It no longer appears in the list around the starting point nor in the tour; typing its name in the search opens its page again.",
   "{n} favoris sont fermés : {liste}. Ils ne paraissent plus dans la liste autour du départ ni dans la tournée ; leur nom tapé dans la recherche rouvre leur fiche.": "{n} favourites have closed: {liste}. They no longer appear in the list around the starting point nor in the tour; typing their name in the search opens their page again.",
   "Aller à la carte": "Go to the map",
