@@ -1,0 +1,1673 @@
+{
+  "lot": "s297-completer-9",
+  "propositions": [
+    {
+      "n": "Merlin Brasserie artisanale",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://shop.merlin.beer/a-propos/",
+        "https://shop.merlin.beer/"
+      ],
+      "changements": {
+        "contact": {
+          "tel": "02 98 74 37 05",
+          "site": "https://shop.merlin.beer/",
+          "source": "https://shop.merlin.beer/a-propos/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "Long Range",
+            "url": "https://shop.merlin.beer/produit/long-range/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "L'instant culture",
+            "url": "https://shop.merlin.beer/produit/linstant-culture/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Savage Lands",
+            "url": "https://shop.merlin.beer/produit/savage-lands/"
+          },
+          {
+            "type": "lager",
+            "libelle": "Oktoberfestbier",
+            "url": "https://shop.merlin.beer/produit/oktoberfestbier/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Triple Salto",
+            "url": "https://shop.merlin.beer/produit/triple-salto/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Gogoliath",
+            "url": "https://shop.merlin.beer/produit/gogoliath/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Vision",
+            "url": "https://shop.merlin.beer/produit/vision/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Cherry",
+            "url": "https://shop.merlin.beer/produit/cherry/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Dreamland",
+            "url": "https://shop.merlin.beer/produit/dreamland/"
+          },
+          {
+            "type": "sour",
+            "libelle": "SILENCE CA POUSSE",
+            "url": "https://shop.merlin.beer/produit/silence-ca-pousse/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Shake!",
+            "url": "https://shop.merlin.beer/produit/shake/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Yacht Club",
+            "url": "https://shop.merlin.beer/produit/yacht-club/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Where is Bryan?",
+            "url": "https://shop.merlin.beer/produit/where-is-bryan/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Wave",
+            "url": "https://shop.merlin.beer/produit/wave/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Acqua di luppolo",
+            "url": "https://shop.merlin.beer/produit/acqua-di-luppolo/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Be Good",
+            "url": "https://shop.merlin.beer/produit/be-good/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Abyss",
+            "url": "https://shop.merlin.beer/produit/abyss/"
+          },
+          {
+            "type": "sans-alcool",
+            "libelle": "Le Rassemblement du Corbeau",
+            "url": "https://shop.merlin.beer/produit/le-rassemblement-du-corbeau/"
+          },
+          {
+            "type": "autre",
+            "libelle": "London Street",
+            "url": "https://shop.merlin.beer/produit/london-street/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Kouign",
+            "url": "https://shop.merlin.beer/produit/kouign/"
+          },
+          {
+            "type": "lager",
+            "libelle": "PILS 126",
+            "url": "https://shop.merlin.beer/produit/pils-126/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Home",
+            "url": "https://shop.merlin.beer/produit/home/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Canard enragé",
+            "url": "https://shop.merlin.beer/produit/canard-enrage/"
+          }
+        ]
+      },
+      "extrait": "Brasserie Merlin 40, Impasse ru Land 29760 Penmarc’h Bretagne – France tel. 02 98 74 37 05 soif@merlin.beer BOUTIQUE MERLIN 18TER Place Gambetta 29120 Pont l’Abbé Horaires d’ouverture: Mardi – Samedi  10h-13h & 14h30-19h Fermé Dimanche et Lundi tel. 09 51 65 56 56 | Styles (pages produit) : Long Range « New England IPA » ; L’instant culture « Kveik IPA » ; Savage Lands « West Coast IPA » ; Oktoberfestbier « Une lager douce et maltée » ; Triple Salto « Bière triple » ; Gogoliath « New England IPA » ; Vision « French Session IPA » ; Cherry « Blanche cerise » ; Dreamland « Classic IPA » ; SILENCE CA POUSSE « Fruited Imperial Sour » ; Shake! « Amber Ale » ; Yacht Club « Bière blanche légère et désaltérante » ; Where is Bryan? « American Pale Ale » ; Wave « West Coast IPA » ; Acqua di luppolo « New England IPA » ; Be Good « Breizh Ale » ; Abyss « Oyster Stout » ; Le Rassemblement du Corbeau « Bière sans alcool » ; London Street « Extra Special Bitter » ; Kouign « Sweet Breizh Ale » ; PILS 126 « Italian pilsner » ; Home « Bière de table » ; Canard enragé « Smoked IPA ».",
+      "choix": "merlin.beer redirige vers shop.merlin.beer : c'est ce site qui est retenu. Les horaires publiés sont ceux de la boutique de Pont-l'Abbé (18 ter place Gambetta), pas ceux de la brasserie de Penmarc'h, où la fiche est placée. La remarque le dit ; à refuser si l'on ne veut pas sur cette fiche les horaires d'une autre adresse. Le 09 51 65 56 56 de la boutique est écarté au profit du fixe de la brasserie. cat, conf et note restent inchangés : le site n'établit pas la consommation sur place. Be Good (« Robe blonde ») et Kouign (« Robe intensément ambrée ») sont classées en « autre » : la couleur de la robe n'est pas un style écrit. PILS 126 (Italian pilsner, en rupture de stock) est classée en « lager ». Merlin-Mignonne (Brasserie de Trévarn) est une autre brasserie, l'ancien Merlin de Plougastel. Relecture : les horaires publiés sont ceux de la boutique de Pont-l'Abbé, pas de la brasserie : bloc retiré."
+    },
+    {
+      "n": "Kauri Brewery",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://fr.kauribrewery.com/copie-de-about-us-1",
+        "https://fr.kauribrewery.com/our-beers",
+        "https://fr.kauribrewery.com/copie-de-about-us"
+      ],
+      "changements": {
+        "beers": [
+          {
+            "type": "autre",
+            "libelle": "Pale Ale"
+          },
+          {
+            "type": "autre",
+            "libelle": "Saison"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Session IPA"
+          },
+          {
+            "type": "autre",
+            "libelle": "Juicy Pale"
+          },
+          {
+            "type": "autre",
+            "libelle": "Wheat Beer"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout"
+          },
+          {
+            "type": "lager",
+            "libelle": "Mexican lager"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Neipa"
+          },
+          {
+            "type": "stout",
+            "libelle": "Coffee Stout"
+          },
+          {
+            "type": "autre",
+            "libelle": "Grisette Macvin-Griottes"
+          },
+          {
+            "type": "autre",
+            "libelle": "Grisette Vin Jaune"
+          },
+          {
+            "type": "autre",
+            "libelle": "Saison Cabernet-Griottes"
+          }
+        ]
+      },
+      "extrait": "Le Bar — Ici, vous pouvez déguster nos bières à la pression, une sélection de vins naturels au verre et à la bouteille, du cidre et des boissons soft, le tout accompagné de grignotages de producteur.rices locau.ales (dont des options vegé/végan). Toutes nos bières et nos vins sont disponibles à emporter, ainsi qu’une petite sélection de produits dérivés. Ouvert du 16 avril au 26 septembre 2026 les jeudi, vendredi et samedi de 17h30 à 21h. | Nos Bieres permanentes : Pale Ale, Saison, IPA, Session IPA, Juicy Pale, Wheat Beer, Stout (« Une Oatmeal Stout sèche »), Mexican lager, NEIPA, Coffee Stout (« Une Stout infusée à froid avec du café nature Ougandais ») | Bieres Vivantes : Grisette Macvin-Griottes, Grisette Vin Jaune, Saison Cabernet-Griottes",
+      "choix": "Le téléphone est écarté : le seul numéro publié (page Contact) est un 06. Le site ne donne pas de lien Untappd. Saison, Pale Ale, Juicy Pale, Grisettes et Wheat Beer (« bière au blé ») sont classées en « autre » : aucun type de la liste n'est écrit pour elles. Cette liste remplace [ipa, stout, lager]. À la date de lecture (19/10), la saison du bar est finie : la remarque le dit. À juger : faut-il attendre la saison 2027 pour ce bloc ? Relecture : la saison du bar est finie au 19/10 (16 avril-26 septembre 2026) : bloc retiré, à reprendre au printemps."
+    },
+    {
+      "n": "MicroBrasserie-Distillerie sOavenn",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://soavenn.bzh/qui-sommes-nous/",
+        "https://soavenn.bzh/nos-bieres/",
+        "https://soavenn.bzh/soavenn-passe-en-mode-ete/"
+      ],
+      "changements": {
+        "src": "https://soavenn.bzh/qui-sommes-nous/",
+        "conf": "moyenne",
+        "note": "Boutique dans l'atelier, ouverte toute l'année le vendredi de 16 h à 19 h et le samedi de 15 h à 18 h, et du mardi au samedi en saison estivale, d'après le site de la brasserie ; consommation sur place non établie.",
+        "contact": {
+          "site": "https://soavenn.bzh/",
+          "source": "https://soavenn.bzh/qui-sommes-nous/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "ven": [
+              [
+                "16:00",
+                "19:00"
+              ]
+            ],
+            "sam": [
+              [
+                "15:00",
+                "18:00"
+              ]
+            ],
+            "remarque": "Boutique au cœur de l'atelier ; en saison estivale, ouverte du mardi au samedi (heures non précisées).",
+            "source": "https://soavenn.bzh/qui-sommes-nous/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blanche",
+            "libelle": "Wizzz"
+          },
+          {
+            "type": "lager",
+            "libelle": "Hop Hop Hop"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Neipa"
+          },
+          {
+            "type": "autre",
+            "libelle": "Barravel"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Youpi"
+          },
+          {
+            "type": "ipa",
+            "libelle": "wOUAAH"
+          },
+          {
+            "type": "autre",
+            "libelle": "Aouuuh"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ti Deiz"
+          },
+          {
+            "type": "sans-alcool",
+            "libelle": "Pop"
+          },
+          {
+            "type": "autre",
+            "libelle": "Bananaslip"
+          },
+          {
+            "type": "sour",
+            "libelle": "Sour Carottes Clémentines"
+          },
+          {
+            "type": "autre",
+            "libelle": "sOavenn d'hiver"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Bière blanche au citron limequat de Roscoff"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Framboizzz"
+          }
+        ]
+      },
+      "extrait": "Au cœur même de l’atelier, la boutique permet de retrouver toute notre gamme. Elle est ouverte : toute l’année le vendredi de 16h à 19h et le samedi de 15h à 18h en saison estivale du mardi au samedi | Nos horaires d’ouverture (10 juillet 2026) : La boutique vous accueille : Vendredi : 16 h – 19 h Samedi : 15 h – 18 h | Notre gamme permanente : Wizzz « Bière de blé bio … cette bière blanche » ; Hop Hop Hop « Breizh Hoppy Lager Bio » ; Neipa « Breizh New England IPA » ; Barravel « Bière triple bio » ; Youpi « East Coast IPA » ; wOUAAH « dOUBLE nEIPA » ; Aouuuh « Porter bio » ; Ti Deiz « Ambrée bio » ; Pop « Bière sans alcool » ; Bananaslip « Triple » | Nos éphémères : Sour Carottes Clémentines « Une Sour fraîche et acidulée » ; sOavenn d'hiver « TRipLE bio AuX épices » ; Bière blanche au citron limequat de Roscoff ; Framboizzz « Bière blanche à la framboise »",
+      "choix": "Le téléphone est écarté : le seul numéro publié est un 06 (06 01 88 69 53). Le site ne donne pas de lien Untappd. La note actuelle, tirée de l'office de tourisme, dit 15 h à 19 h le vendredi et le samedi. Le site dit autre chose (vendredi 16 h–19 h, samedi 15 h–18 h) : la note est réécrite. Le site ne donne pas d'heures pour le mardi au samedi d'été : ces jours sont omis du bloc et dits en remarque. La visite d'été finit par une dégustation (5 €) et il y a parfois des concerts. Ce n'est pas une vente au verre écrite : la cat 2 est gardée. conf passe à « moyenne » parce que la source devient le site officiel ; à refuser si l'usage est autre. Barravel (« triple ambrée ») est classée en « autre », le style écrit étant la triple. Aouuuh (Porter) est classée en « autre »."
+    },
+    {
+      "n": "Brasserie de Trévarn",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.ferme-de-trevarn.fr/brasserie/index.php?p=visit",
+        "https://www.ferme-de-trevarn.fr/brasserie/"
+      ],
+      "changements": {
+        "cat": 1,
+        "conf": "moyenne",
+        "src": "https://www.ferme-de-trevarn.fr/brasserie/index.php?p=visit",
+        "addr": "5 Trévarn, 29800 Saint-Urbain",
+        "note": "Vente directe et service au verre à la brasserie tous les vendredis de 17 h à 20 h 30, d'après le site de la brasserie (bières Merlin-Mignonne).",
+        "contact": {
+          "site": "https://www.ferme-de-trevarn.fr/brasserie/",
+          "source": "https://www.ferme-de-trevarn.fr/brasserie/index.php?p=visit",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "ven": [
+              [
+                "17:00",
+                "20:30"
+              ]
+            ],
+            "remarque": "Vente directe et service au verre.",
+            "source": "https://www.ferme-de-trevarn.fr/brasserie/index.php?p=visit",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "autre",
+            "libelle": "Armoricaine"
+          },
+          {
+            "type": "autre",
+            "libelle": "Lodoen"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Iroise"
+          }
+        ]
+      },
+      "extrait": "Ouverture à la vente et consommation sur place Nous sommes ouverts pour de la vente directe et pour du service au verre, tous les vendredis de 17 à 20h30 […] Adresse Brasserie de Trévarn 5 Trévarn 29800 Saint-Urbain | La gamme de base (les permanentes) est composée du triptyque suivant : Armoricaine (Pale Ale anglaise) Lodoen (Irish Red Ale) Iroise (double IPA 100% bretonne)",
+      "choix": "brasseriedetrevarn.fr renvoie vers www.ferme-de-trevarn.fr/brasserie/ : c'est ce site qui est retenu. Le site ne donne ni téléphone ni lien Untappd. Un seul bloc « accueil », car la vente et le service au verre ont les mêmes heures ; la vente est dite en remarque. Armoricaine (Pale Ale anglaise) et Lodoen (Irish Red Ale) sont classées en « autre ». Seule l'adresse « 5 Trévarn » est proposée : ce lot ne fait pas de géocodage, donc la position reste au centre IGN. La gamme se vend sous la marque Merlin-Mignonne, née de la fusion avec la brasserie du Merlin de Plougastel-Daoulas. Elle n'a rien à voir avec Merlin à Penmarc'h."
+    },
+    {
+      "n": "Brasserie Síbín",
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://sibin.beer/les-bieres/"
+      ],
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Köln Blonde",
+            "url": "https://sibin.beer/koln-blonde/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Mandarina Blanche",
+            "url": "https://sibin.beer/mandarina-blanche/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Melon Pils SMASH",
+            "url": "https://sibin.beer/melon-pils-smash/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Grisette",
+            "url": "https://sibin.beer/lagrisette/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Blonde Ale Fumée",
+            "url": "https://sibin.beer/blonde-ale-fumee/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche Framboise",
+            "url": "https://sibin.beer/blanche-framboise/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Tripel Chene",
+            "url": "https://sibin.beer/tripel-chene/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Session Pale Ale",
+            "url": "https://sibin.beer/session-pale-ale/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Hazy Pale Ale",
+            "url": "https://sibin.beer/hazy-pale-ale/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Pale Ale",
+            "url": "https://sibin.beer/pale-ale/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "IPA Blanche",
+            "url": "https://sibin.beer/ipa-blanche/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Galaxy SMASH",
+            "url": "https://sibin.beer/galaxy-smash/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Session IPA",
+            "url": "https://sibin.beer/session-ipa/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Saison",
+            "url": "https://sibin.beer/lasaison/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Big IPA",
+            "url": "https://sibin.beer/big-ipa/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Barbe Rouge",
+            "url": "https://sibin.beer/barbe-rouge/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Rye Porter",
+            "url": "https://sibin.beer/rye-porter/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Dry Irish Stout",
+            "url": "https://sibin.beer/dry-irish-stout/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Irish Coffee Stout",
+            "url": "https://sibin.beer/irish-coffee-stout/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout Foret Noire",
+            "url": "https://sibin.beer/stout-foret-noire/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Imperial Stout",
+            "url": "https://sibin.beer/imperial-stout/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout Na Moine",
+            "url": "https://sibin.beer/stout-na-moine/"
+          }
+        ]
+      },
+      "extrait": "Köln Blonde : Bière légère, subtile et rafraîchissante | 3% vol ; Mandarina Blanche : Blanche Houblonnée avec notes d'orange | 5% vol ; Melon Pils SMASH : Blonde Claire, simple et Fruitée | 5% vol ; Grisette : bière blonde sèche de wallonie | 4.5% vol ; Blonde Ale Fumée : style rauchbier au bois de Hêtre | 5% vol ; Blanche Framboise : Blanche aux Fruits - pas sucrée | 5.5% vol ; Tripel Chene : Bière façon belge Forte et Boisée | 7.5% vol ; Session Pale Ale : Pale Ale Légère au houblon Mosaic | 3.5% vol ; Hazy Pale Ale : Pale Ale trouble et houblonnée | 5.5% vol ; Pale Ale : Pale Ale Britannique citronnée | 5% vol ; IPA Blanche : blanche fruitée avec notes d'agrumes  | 5.5% vol ; Galaxy SMASH : blonde SImple avec notes de fruits exotiques | 6% vol ; Session IPA : IPA Légère aux notes d'Agrumes | 4.5% vol ; Saison : Bière de Ferme wallonne Ambrée | 6% vol ; Big IPA : IPA côte ouest, Costaud en Tout | 6.7% ; Barbe Rouge : Rousse Simple aux Notes de Fruits Rouges | 4.6% vol ; Rye Porter : Brune Traditionnelle au Seigle | 5% vol ; Dry Irish Stout : Brune Foncée et Bien Torréfiée | 5% vol ; Irish Coffee Stout : Brune crémeuse au café | 6% vol ; Stout Foret Noire : chocolatée fruitée et acidulée | 7% vol ; Imperial Stout : Stout Luxurieuse au Cacao et au whiskey | 8% vol ; Stout Na Moine : stout forte et tourbée | 9% vol",
+      "choix": "Sur /les-bieres/, les noms des bières sont dans des images. Ils sont lus dans le titre de chaque page de bière liée (« Köln Blonde – Brasserie Síbín », etc.), puis associés à la description qui suit chaque lien. Le contact et les horaires correspondent déjà à la page Contact (07 64 08 81 93 écarté, c'est un mobile). Le site ne donne pas de lien Untappd. Barbe Rouge (« Rousse ») est classée en « autre ». IPA Blanche est classée en « blanche » d'après sa description (« blanche fruitée »), même si son nom dit aussi IPA. Saison est classée en « ambree » (« Bière de Ferme wallonne Ambrée »). La page /visites/ dit « Le bar est ouvert le vendredi soir et le samedi après-midi », sans heures : pas reprise."
+    },
+    {
+      "n": "La Canute Lyonnaise",
+      "changements": {
+        "note": "D'après le site de la brasserie (page « Nous trouver », rubrique « Pour commander », destinée aux revendeurs) : « Sur place Du mardi au vendredi de 9h à 17h » au 75 chemin d'Yvours ; vente aux particuliers et guinguette non confirmées.",
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Confluence",
+            "url": "https://www.lacanutelyonnaise.fr/bieres/confluence/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Grange Blanche (Tropical Wheat Ale)",
+            "url": "https://www.lacanutelyonnaise.fr/bieres/grange-blanche/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "X-Rousse",
+            "url": "https://www.lacanutelyonnaise.fr/bieres/x-rousse/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Tête d'or (American Pale Ale)",
+            "url": "https://www.lacanutelyonnaise.fr/bieres/tete-dor/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Vieux Lyon (Porter Noire de Lyon)",
+            "url": "https://www.lacanutelyonnaise.fr/bieres/vieux-lyon/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.lacanutelyonnaise.fr/bieres/type/permanentes/",
+        "https://www.lacanutelyonnaise.fr/revendeurs/"
+      ],
+      "extrait": "Nos bières permanentes … Confluence Découvrir Belgian Blonde Ale 5.5° … Grange Blanche Découvrir Tropical Wheat Ale 4.5° … X-Rousse Découvrir Amber Ale 5° … Tête d’or Découvrir American Pale Ale 4.5° … Vieux Lyon Découvrir Porter Noire de Lyon 5° | Pour commander Nous livrons tous les mardis, mercredis et jeudis à partir de 4 cartons et 3 fûts. … Sur place Du mardi au vendredi de 9h à 17h au 75 chemin d’Yvours 69310 Oullins-Pierre-Bénite … par téléphone Par appel ou SMS au 06 24 11 06 71 du lundi au vendredi de 9h à 17h",
+      "choix": "La note de 2016 (« lun, mar, ven 8h-17h ») est contredite par le site (mardi au vendredi, 9h-17h) : note réécrite. Aucun bloc d'horaires : ces heures figurent sous « Pour commander », avec des conditions de revendeur (franco 10 cartons, règlement à 30 jours), et la page n'écrit ni « vente », ni « boutique », ni accueil du public ; catégorie laissée à 0. Bières : seule la gamme permanente. Wheat Ale, American Pale Ale et Porter n'ont pas de type au schéma (« Wheat » n'est pas écrit « blanche », une APA n'est pas une IPA, un porter n'est pas écrit « stout ») : rangées en « autre » avec le style lu. Les éphémères et les bières des 10 ans sont écartées. Seul téléphone du site : un 06, non proposé. Aucun lien Untappd sur le site. La page d'accueil écrit l'adresse « 69310 Oullins-Pierre-Bénite » : commune non changée (identité de la fiche)."
+    },
+    {
+      "n": "Brasserie Animus",
+      "changements": {
+        "contact": {
+          "site": "https://www.brasserieanimus.com/",
+          "source": "https://www.brasserieanimus.com/contact",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blanche",
+            "libelle": "Dounietchka",
+            "url": "https://www.brasserieanimus.com/les-bieres"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Shakira",
+            "url": "https://www.brasserieanimus.com/les-bieres"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Hop'N'Jack",
+            "url": "https://www.brasserieanimus.com/les-bieres"
+          },
+          {
+            "type": "blonde",
+            "libelle": "X",
+            "url": "https://www.brasserieanimus.com/les-bieres"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Sanjit",
+            "url": "https://www.brasserieanimus.com/les-bieres"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserieanimus.com/contact",
+        "https://www.brasserieanimus.com/les-bieres"
+      ],
+      "extrait": "Contact 63 rue André Sabatier 69520 Grigny 06 95 10 82 98 brasserieanimus@gmail.com | Pour le moment les bières ne sont disponibles qu'en fûts pour les bars, restaurants, associations sportives et événements privés. Dounietchka est une bière blanche à base de blé. … Shakira est une bière blonde au citron vert brassée avec des fruits frais. … Hop'N'Jack est une Double IPA résolument amère et houblonnée. … x est une bière blonde de tradition belge. … Sanjit est une India Pale Ale (IPA) ambrée de tradition anglaise",
+      "choix": "Seul téléphone du site : un 06, non proposé (il reste dans la note, à juger). Le libellé « X » reprend le nom affiché en titre (le texte l'écrit « x »). Les brassins à la demande (blanche mojito, ambrée au whisky…) sont écartés. Deux points à juger par Cédric, hors de cette proposition. D'abord, la page contact publie désormais l'adresse de Grigny (63 rue André Sabatier, 69520), alors que la note dit « adresse non publiée » et que la fiche reste à Vaugneray ; un déménagement de commune relève de la procédure S82, pas d'une proposition. Ensuite, la page des bières écrit « disponibles qu'en fûts pour les bars, restaurants, associations sportives et événements privés », ce qui ne décrit aucune vente au public : catégorie laissée à 0."
+    },
+    {
+      "n": "Brasserie Georges",
+      "changements": {
+        "cat": 1,
+        "conf": "solide",
+        "src": "https://www.brasseriegeorges.com/boutique/",
+        "note": "Restaurant-brasserie ; ses bières bouteilles sont « à consommer sur place ou à emporter », « En vente à la Brasserie », d'après la page boutique du site.",
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "mar": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "mer": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "ven": [
+              [
+                "11:30",
+                "00:15"
+              ]
+            ],
+            "sam": [
+              [
+                "11:30",
+                "00:15"
+              ]
+            ],
+            "dim": [
+              [
+                "11:30",
+                "23:00"
+              ]
+            ],
+            "remarque": "Horaires d'ouverture du restaurant, service continu ; veille de jour férié : 11h30 à 00h15.",
+            "source": "https://www.brasseriegeorges.com/contact/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La blonde",
+            "url": "https://www.brasseriegeorges.com/la-biere/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La dorée (au miel)",
+            "url": "https://www.brasseriegeorges.com/la-biere/"
+          },
+          {
+            "type": "brune",
+            "libelle": "La brune",
+            "url": "https://www.brasseriegeorges.com/la-biere/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriegeorges.com/boutique/",
+        "https://www.brasseriegeorges.com/contact/",
+        "https://www.brasseriegeorges.com/la-biere/"
+      ],
+      "extrait": "En vente à la Brasserie Nos bières bouteille Découvrez notre gamme de bières bouteilles à consommer sur place ou à emporter. | Horaire d’ouverture Tous les jours: 11h30 à 23h00 (service continu) Vendredi, Samedi et veille de jour férié: 11h30 à 00h15 | Découvrez notre gamme de bières bouteilles La blonde Caractérisée par ses arômes de céréale, son corps généreux et sa couleur or … La dorée Fabriquée à base de deux malts et légèrement houblonnée, la Dorée est aromatisée au miel … La brune La Brune de Georges a 180 ans d’histoire.",
+      "choix": "Le site officiel (« à consommer sur place ou à emporter ») contredit la note tirée de Visiter Lyon (vente à emporter « exceptionnelle ») : catégorie 1, src remplacée par la page boutique, note réécrite. La mention « bières brassées par la Fabrique du Faubourg » (Visiter Lyon) est retirée de la note : le site ne la dit pas, il écrit seulement « Notre bière brassée sur place à la Georges » en titre de page. Bloc « accueil » : ce sont les horaires d'ouverture du restaurant (la page parle de « l'accueil du restaurant »). À juger, car la page ne parle ni de bar ni de taproom. Écartés : les horaires exceptionnels de la Fête des Lumières (11h00-00h15) et ceux du téléphone (lun-ven 9h-18h). « La dorée » n'a pas de type au schéma : « autre ». La Pils citée dans l'historique (2004) n'est pas dans la gamme présentée : écartée. Contact déjà en fiche (04 72 56 54 54, site), identique ; aucun lien Untappd."
+    },
+    {
+      "n": "Brasserie de la Loire",
+      "changements": {
+        "cat": 1,
+        "conf": "moyenne",
+        "note": "Brew pub (bières à la pression et en bouteilles à consommer sur place) et boutique de vente à emporter à la brasserie, d'après son site. Le site publie des « heures d'ouverture » sans dire si elles valent pour le brew pub ou la boutique : mardi et jeudi 10h-12h et 15h-18h, mercredi et vendredi 10h-12h et 15h-19h, samedi 15h-19h. Installée chemin du Béchet depuis 2015.",
+        "contact": {
+          "tel": "04 77 52 17 45",
+          "site": "https://www.brasseriedelaloire.fr/",
+          "source": "https://www.brasseriedelaloire.fr/où-nous-trouver",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La Saint-Côme",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Ramberte (blanche aux accents cidrés)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "La 109",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "brune",
+            "libelle": "La Gueule Noire",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Sibère",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Mosser (blonde pils)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Pampille (bière de Noël)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "L'Aveille (blonde aux notes de miel)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Messon (blonde triple multicéréales)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Récréation d'Anne (blonde au houblon sauvage frais, éphémère)",
+            "url": "https://www.brasseriedelaloire.fr/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriedelaloire.fr/",
+        "https://www.brasseriedelaloire.fr/où-nous-trouver",
+        "https://www.brasseriedelaloire.fr/le-lieu-1"
+      ],
+      "extrait": "Où nous trouver : « 29 Chemin du Béchet 42170 Saint-Just-Saint-Rambert ​ brasseriedelaloire@cegetel.net Tél. 04 77 52 17 45 HEURES D'OUVERTURE Mardi — 10H-12H ET 15H - 18H Mercredi — 10H-12H ET 15H - 19H Jeudi — 10H-12H ET 15H - 18H Vendredi — 10H-12H ET 15H - 19H Samedi — 15H00 - 19H00 » | Le lieu : « Brew Pub Dans un cadre chaleureux et décontracté , venez découvrir nos bières bio à la pression et en bouteilles. Vous pourrez retrouver également toute une gamme de produits apéritifs locaux à consommer sur place » ; « Boutique Nos bières sont disponibles à la vente à emporter en coffrets, demi-mètre, cartons et autres présentations pour offrir ou se faire plaisir . » | Accueil : « La Saint-Côme Blonde » ; « La Ramberte Blanche aux accents cidrées La 109 Ambrée de caractère La Gueule Noire Brune La Sibère Blanche La Garipotte Fleurs printanières La Mosser Blonde pils La Pampille Bière de noël La Gruette Aux fèves de cacao » ; « La Boulonji Ambrée au pain toasté plus produite L'Aveille Blonde aux notes de miel La Messon Blonde triple multicéréales » ; « La Récréation d'Anne Blonde au houblon sauvage frais Ephémères »",
+      "choix": "Aucun bloc d'horaires proposé : la page « Où nous trouver » donne des « heures d'ouverture » sans écrire si elles valent pour le brew pub ou la boutique ; elles sont recopiées dans la note seulement. La Boulonji est retirée de la liste (« plus produite » sur le site). La Garipotte (« Fleurs printanières ») et La Gruette (« Aux fèves de cacao ») sont omises : le site n'écrit pas leur style. La Mosser est classée « blonde » comme écrit (« Blonde pils ») et non « lager », qui serait une déduction. Ancienne note (« Site sans information de vente ») contredite par la page « Le lieu ». Untappd : aucun lien sur le site officiel (Facebook et Instagram seulement)."
+    },
+    {
+      "n": "La Cadole",
+      "changements": {
+        "contact": {
+          "site": "https://www.brasserielacadole.fr/",
+          "source": "https://www.brasserielacadole.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde triple"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Dark Ale"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout Caf & Choc"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserielacadole.fr/",
+        "https://www.brasserielacadole.fr/boutique.html"
+      ],
+      "extrait": "Accueil : « Nous vous proposons la vente de différents types de bières, Blond triple, ambré, IPA, Stout, Blanche... » Boutique : « Blonde triple » — « Bière triple blonde 6.5% vol, douce et épicée. couleur 20 EBC, amertume 20 IBU. » ; « Blanche » — « Bière de froment, 4.5% Vol, légère avec des parfums d'agrumes. Couleur 5 EBC, amertume 18 IBU. » ; « Dark Ale » — « Bière Ambrée 7.5%Vol. Couleur 35 EBC, amertume 25 IBU. » ; « IPA » — « Bière très parfumée fruits éxotiques5.5% Vol. Couleur 10 EBC, amertume 28 IBU. » ; « Stout Caf & Choc » — « Bière sweet stout 5% Vol sur des parfums de chocolats et café.Couleur 80 EBC, amertume 22 IBU. »",
+      "choix": "Aucun téléphone ni horaire sur le site (pages accueil, contact, boutique) ; vente à la brasserie non écrite, donc cat 0 et note gardées. « IPA » classée ipa sur son nom, que l'accueil range parmi les types vendus. Extraits lus via un outil de lecture (accès direct refusé par le serveur) : à recontrôler à la virgule près."
+    },
+    {
+      "n": "Brasserie Longue Vie",
+      "changements": {
+        "contact": {
+          "site": "https://longue-vie.fr/",
+          "source": "https://longue-vie.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Minouche (Blonde à l'avoine)",
+            "url": "https://longue-vie.fr/bieres/minouche/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Tombée du ciel (NEIPA)",
+            "url": "https://longue-vie.fr/bieres/tombee-du-ciel/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Harvest (Blonde-ambrée au seigle)",
+            "url": "https://longue-vie.fr/bieres/harvest/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Sun (Blanche à la verveine)",
+            "url": "https://longue-vie.fr/bieres/sun/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Praise the Lord (Blonde Triple)",
+            "url": "https://longue-vie.fr/bieres/praise-the-lord/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Golden Brown (Ambrée)",
+            "url": "https://longue-vie.fr/bieres/golden-brown/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Satan (Ambrée, fumée et tourbée)",
+            "url": "https://longue-vie.fr/bieres/satan/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Blackbird (Noire, Dry stout)",
+            "url": "https://longue-vie.fr/bieres/blackbird/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Country House (Blonde au foin, saison)",
+            "url": "https://longue-vie.fr/bieres/country-house/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Eurochild (Blonde, saison)",
+            "url": "https://longue-vie.fr/bieres/eurochild/"
+          },
+          {
+            "type": "sour",
+            "libelle": "Sour Ale 2023 (Sour fermenté sur lies)",
+            "url": "https://longue-vie.fr/bieres/sour-ale-2023/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Assemblage 2025 (Assemblage de 2 barriques)",
+            "url": "https://longue-vie.fr/bieres/assemblage-2025/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Brett Berliner 2022 (Berliner weisse)",
+            "url": "https://longue-vie.fr/bieres/brett-berliner-2022/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Brett Saison Épeautre 2023 (Saison barriquée)",
+            "url": "https://longue-vie.fr/bieres/brett-saison-epeautre-2023/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Cacio e Pepe 2025 (Berliner weisse au poivre)",
+            "url": "https://longue-vie.fr/bieres/cacio-e-pepe-2025/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Stout de blé 2025 (Dry stout vieillie en barrique)",
+            "url": "https://longue-vie.fr/bieres/stout-de-ble-2025/"
+          }
+        ],
+        "note": "Le site de la brasserie publie des horaires de bar saisonniers et situe la brasserie à Saint-Félicien, pas à Saint-Victor : adresse et catégorie à confirmer."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://longue-vie.fr/",
+        "https://longue-vie.fr/bieres/"
+      ],
+      "extrait": "Brassées avec passion à Saint Félicien, nos bières sont vivantes, non pasteurisées, non filtrées ! […] MINOUCHE Blonde à l'avoine TOMBÉE DU CIEL NEIPA HARVEST Blonde-ambrée au seigle SUN Blanche à la verveine PRAISE THE LORD Blonde Triple GOLDEN BROWN Ambrée SATAN Ambrée, fumée et tourbée BLACKBIRD Noire, Dry stout",
+      "choix": "Le site situe la brasserie à Saint-Félicien (« produit des bières artisanales originales et subtiles à Saint-Félicien en Nord Ardèche ») alors que la fiche est à Saint-Victor (ferme du château de Corsas, d'après l'office de tourisme) ; aucune adresse sur le site. Pour ne pas envoyer quelqu'un au mauvais endroit, ni horaires du bar (« Le bar », saisonniers : avril ven 10h-22h ; mai/juin jeu 16h-22h, ven 10h-22h ; juillet/août jeu et sam 16h-22h, ven 10h-22h ; septembre/mars ven 17h-22h) ni catégorie proposés : question de déménagement pour Cédric. Seul téléphone publié : 06 (écarté). Note réécrite car « heures non publiées » est démenti. Types : Harvest « Blonde-ambrée », Berliner weisse, saison barriquée et assemblage mis en « autre » ; « Sour » en sour ; « Dry stout » en stout."
+    },
+    {
+      "n": "Les Brasseurs du Sornin",
+      "changements": {
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Charliendine (Bière blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Sornin (Bière ambrée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Pierre blanche (Bière blanche)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Trouille (Bière brune)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Baye (Bière fruitée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Perle verte (Bière blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Salvegarde (Bière médiévale)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Égyptienne (Bière fruitée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Baie des loups (Bière fruitée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Eduenne (Bière blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Cluny 4 (Bière blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Shore break (Bière fruitée, ambrée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Castagne (Bière fruitée, ambrée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Lutine (Bière fruitée, ambrée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Croix perdue (Bière triple)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Bec rose (Bière fruitée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Potion 17 (Bière médiévale, blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Grand Béréby (Bière NEIPA)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Mélina (Cervoise blonde)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Cnoua (Cervoise ambrée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Argia (Cervoise blanche)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Lusa (Cervoise fruitée)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "sans-alcool",
+            "libelle": "Double zéro (Bière sans alcool)",
+            "url": "https://www.sornin.com/boissons/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche de Pastille (Bière blanche)",
+            "url": "https://www.sornin.com/boissons/"
+          }
+        ],
+        "note": "Le site de la brasserie publie des horaires sans dire s'ils valent pour la vente ou l'accueil : lundi 9h-12h / 14h-17h, mardi au samedi 9h-12h / 14h-18h, fermé dimanche et jours fériés. Vente et bar non confirmés."
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.sornin.com/boissons/",
+        "https://www.sornin.com/contact/"
+      ],
+      "extrait": "Lundi 9h-12h / 14h-17h Mardi au samedi 9h-12h / 14h-18h Fermé dimanche et jours fériés […] Bière fruitée ! Shore break Cette bière ambrée de haute fermentation […] Bière NEIPA ! Grand Béréby […] Bière sans alcool ! Double zéro",
+      "choix": "La note disait « lun-sam 9h-12h / 14h-18h » (office de tourisme) ; le site dit lundi 14h-17h : note réécrite. Horaires sans nature écrite sur la page contact : pas de bloc. Bières : les 24 de la page Boissons (8 déjà en fiche, gardées) ; « Bière fruitée » ou « médiévale » en « autre », sauf quand le texte dit « bière ambrée » (Shore break, Castagne, Lutine) ou « blonde médiévale » (Potion 17) ; Croix perdue « ambrée triple » laissée en « autre » comme avant ; Charliendine sans titre de style, typée par « Cette bière blonde ». Contact déjà vérifié le 17/10, inchangé."
+    },
+    {
+      "n": "La Mousse du Guiers",
+      "changements": {
+        "contact": {
+          "site": "https://brasserie-du-guiers.jimdoweb.com/",
+          "source": "https://brasserie-du-guiers.jimdoweb.com/contact/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mar": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "ven": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "sam": [
+              [
+                "10:00",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "19:00"
+              ]
+            ],
+            "dim": [],
+            "remarque": "En cas d'absence, téléphoner ou prendre rendez-vous ; il est préférable de s'assurer par téléphone que le brasseur est présent.",
+            "source": "https://brasserie-du-guiers.jimdoweb.com/contact/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "cat": 2,
+        "conf": "moyenne",
+        "note": "Achats sur place aux heures d'ouverture (10h-12h / 14h-19h sauf le dimanche), ou sur rendez-vous ; le site conseille de s'assurer par téléphone de la présence du brasseur. Consommation sur place non indiquée.",
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde",
+            "url": "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche",
+            "url": "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée",
+            "url": "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Brune",
+            "url": "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Spéciale",
+            "url": "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://brasserie-du-guiers.jimdoweb.com/contact/",
+        "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/conditions-de-vente-et-commande/",
+        "https://brasserie-du-guiers.jimdoweb.com/les-bi%C3%A8res/"
+      ],
+      "extrait": "Achats Sur place aux heures d'ouverture . Par rendez-vous téléphonique ou mail. […] Horaires : 10h-12h / 14h-19h sauf le Dimanche En cas d'absence nous téléphoner ou prendre RDV. Il est préférable de s'assurer par téléphone que nous sommes présents.",
+      "choix": "La nature « vente » vient de la page Conditions de vente (« Achats Sur place aux heures d'ouverture », lien vers la page contact où sont les horaires). « sauf le Dimanche » écrit : dimanche fermé. Seul téléphone publié : 06 (écarté). Catégorie 2 : vente sur place écrite, consommation sur place non. Bières de la page « Les bières » (Blonde, Blanche, Ambrée, Brune, Spéciale) ; la blanche est aussi titrée « blanche à la menthe » / « blanche ambrée à la menthe » dans le menu, non retenu ; bière de Noël sans style : écartée."
+    },
+    {
+      "n": "Brasserie de l'Ours Barbu",
+      "changements": {
+        "contact": {
+          "site": "https://www.brasseriedeloursbarbu.fr/",
+          "source": "https://www.brasseriedeloursbarbu.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "ipa",
+            "libelle": "American IPA",
+            "url": "https://www.brasseriedeloursbarbu.fr/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Belgian Ale",
+            "url": "https://www.brasseriedeloursbarbu.fr/"
+          },
+          {
+            "type": "autre",
+            "libelle": "English Porter",
+            "url": "https://www.brasseriedeloursbarbu.fr/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Weissbier",
+            "url": "https://www.brasseriedeloursbarbu.fr/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasseriedeloursbarbu.fr/"
+      ],
+      "extrait": "En plus des 4 bières permanentes - American IPA, Belgian Ale, English Porter et Weissbier - l’assortiment compte aussi 2 recettes saisonnières",
+      "choix": "Seul téléphone publié : +33 6 (mobile, écarté). Aucun horaire, ni vente ni accueil sur place écrits (boutique en ligne seulement) : catégorie et note inchangées. Weissbier et English Porter laissés en « autre » plutôt que traduits en blanche ou stout. La page contact donne « 86 Rue du Louvasset 38500 Voiron » (fiche : « Voiron ») : adresse non proposée, hors du périmètre demandé."
+    },
+    {
+      "n": "Brasserie du Bugey",
+      "changements": {
+        "contact": {
+          "site": "https://la-biere-du-plateau.webnode.fr/",
+          "source": "https://la-biere-du-plateau.webnode.fr/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde Pale Ale",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/la-blonde/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/la-blanche/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "IPA",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/ipa/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Ambrée",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/l%27ambree-au-miel-de-for%c3%aat1/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Combe Noire (porter)",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/la-brune1/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Fleur de Sureau",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/fleurs-de-sureau/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Framboise",
+            "url": "https://la-biere-du-plateau.webnode.fr/products/blanche-framboise/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://la-biere-du-plateau.webnode.fr/",
+        "https://la-biere-du-plateau.webnode.fr/contactez-nous/",
+        "https://la-biere-du-plateau.webnode.fr/nos-produits/"
+      ],
+      "extrait": "La Brasserie du Bugey est une petite brasserie artisanale créée en 2017. Nous brassons la Bière du Plateau | Merci de nous contacter avant de nous rendre visite ! | Téléphone du brasseur : 06.67.36.43.36 | BLONDE PALE ALE - Bière aux malts d'orge et trois houblons. | BLANCHE : Bière aux malts de blé, d'orge et d'avoine. | IPA : L'Indian Pale Ale est désormzais incontournable dans le paysage brassicole. | AMBREE - Cuivrée, équilibrée, douce en bouche | COMBE NOIRE | PORTER - Bière noire, aux notes de café, peu amère. | BLONDE SUREAU : Bière blonde de printemps à la fleur de sureau cueillie dans le Bugey. | BLANCHE FRAMBOISE : Bière au blé brassée avec des framboises cultivées dans le Bugey !",
+      "choix": "Seul numéro publié, un mobile (06) : écarté. Catégorie laissée à 0 : le site demande de prévenir avant une visite et liste des points de vente chez des tiers (magasins, gîtes), sans vente ni dégustation à la brasserie. « Combe Noire » est un porter, style absent du schéma : « autre ». « Bière de noël » écartée, aucun style écrit. src (page contact) inchangé."
+    },
+    {
+      "n": "Brasserie Kokine",
+      "changements": {
+        "cat": 2,
+        "conf": "moyenne",
+        "note": "Micro-brasserie de fabrication et vente de bières bio, ouverte au public le lundi, mardi, jeudi et vendredi de 9 h à 18 h, d'après son site ; dégustation ou bar sur place non cités.",
+        "src": "https://www.kokine-bieres.com/",
+        "addr": "385 Montée des Écoles, 07570 Désaignes",
+        "contact": {
+          "site": "https://www.kokine-bieres.com/",
+          "source": "https://www.kokine-bieres.com/",
+          "verifieLe": "2026-10-19"
+        },
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "mar": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "remarque": "Horaires d'ouverture de la micro-brasserie.",
+            "source": "https://www.kokine-bieres.com/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "Blonde Ale"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche aux châtaignes"
+          },
+          {
+            "type": "autre",
+            "libelle": "Motueka Pale Ale"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Cashmere IPA"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.kokine-bieres.com/",
+        "https://www.kokine-bieres.com/nos-bieres",
+        "https://www.kokine-bieres.com/contact"
+      ],
+      "extrait": "Fabrication et vente de bières biologiques en Ardèche | Nos horaires d’ouverture | Notre micro-brasserie est ouverte le lundi, le mardi, le jeudi et le vendredi, de 09 h à 18 h. | Poussez les portes de Kokine Bières, nous vous accueillerons avec plaisir ! | Vente de bières artisanales à Désaignes | Les boissons alcoolisées disponibles dans notre micro-brasserie Kokine Bières en Ardèche | Blonde Ale | Blanche aux châtaignes | Motueka Pale Ale | Cashmere IPA | L'IPA exotique dévoile des parfums envoûtants. | Lundi, mardi, jeudi et vendredi : de 09 h à 18 h | 385 Montée des Écoles | 07570 Désaignes | Tél : 06 63 40 68 35",
+      "choix": "Seul numéro, un mobile (06) : écarté. Bloc « vente » seulement (« Fabrication et vente », « Vente de bières artisanales à Désaignes ») ; aucun bar ni dégustation écrits, d'où la catégorie 2. Mercredi, samedi et dimanche non nommés : omis. « Motueka Pale Ale » (pale ale) hors des types : « autre ». La page contact dit aussi « Bières brunes, pale Ale et ambrées » dans un bandeau de mots-clés, sans bière nommée : brune et ambrée non retenues. La page « Nous trouver » (/ou-k-on-est) répond 404 ; adresse lue sur /contact. Position non touchée."
+    },
+    {
+      "n": "La Grange du Seigneur",
+      "changements": {
+        "cat": 1,
+        "conf": "solide",
+        "src": "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+        "note": "Point de vente sur place et bar (licence III) avec terrasse, ouverts toute l'année, d'après le site de la brasserie (bières Libertane) : du mardi au dimanche de 15 h à 19 h en juillet et août, sur rendez-vous le reste de l'année ; visite sur rendez-vous, 5 € par adulte avec une consommation.",
+        "contact": {
+          "site": "http://www.brasserie-libertane.fr/",
+          "source": "http://www.brasserie-libertane.fr/accueil/",
+          "verifieLe": "2026-10-19"
+        },
+        "beers": [
+          {
+            "type": "lager",
+            "libelle": "Libertane Lager blonde",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-lager-blonde/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Libertane Blonde",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-blonde/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "Libertane Ambrée",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambree/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Libertane Brune",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-brune/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Envie de Printemps",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/envie-de-printemps/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "Blanche d'été",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/blanche-dete/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Libertane Ambrune Triple",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-ambrune-triple/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Libertane Dorée Triple",
+            "url": "http://www.brasserie-libertane.fr/nos-bieres/libertane-doree-triple/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "http://www.brasserie-libertane.fr/la-brasserie/horaires-douverture/",
+        "http://www.brasserie-libertane.fr/accueil/",
+        "http://www.brasserie-libertane.fr/nos-bieres/"
+      ],
+      "extrait": "La brasserie de la Grange du Seigneur vous accueille toute l'année pour découvrir sa gamme de bières Libertane | Nous vous proposons un point de vente sur place, ainsi qu'un bar (licence III) avec terrasse; ouverts toute l'année. | En JUILLET et AOUT : | Du mardi au dimanche de 15h00 à 19h00 | Visite / découverte de la brasserie : sur rendez-vous | Tarif : 5 euros par adulte, donnant droit à une consommation gratuite | Ouverture tout le reste de l'année sur rendez-vous. | Tél. 06 36 48 24 35 | Bière de type lager : blonde de fermentation basse | Bière blonde de fermentation haute | Bière ambrée de fermentation haute | Bière brune de fermentation haute | Envie de Printemps | Bière blonde de fermentation haute au miel de châtaignier. | Blanche d'été | Bière blanche à la fleur de sureau | Libertane Ambrune Triple | Bière Triple gourmande et charpentée | Libertane Dorée Triple | Une Triple chaleureuse et puissante",
+      "choix": "Site officiel : brasserie-libertane.fr (le nom « La Grange du Seigneur » y est écrit), servi en http seul : la connexion https échoue. Seul numéro sur le site, un mobile (06) : écarté ; le 04 75 58 01 08 vient d'une fiche touristique, non du site. Un même horaire pour le point de vente et le bar, la page les disant « ouverts » ensemble : deux blocs identiques. Lundi non nommé : omis. Les deux Triples : « autre ». La note actuelle (heures de juillet-août, tirée d'un guide) est réécrite d'après le site. Relecture : créneaux de juillet-août seulement ; hors saison, sur rendez-vous : blocs retirés (la note le dit), comme pour Kauri."
+    },
+    {
+      "n": "Brasserie du Mont Blanc",
+      "changements": {
+        "cat": 1,
+        "conf": "solide",
+        "note": "Site officiel : « Bar / Restaurant / Vente à emporter », ouvert du lundi au vendredi de 10h à 22h.",
+        "src": "https://www.brasserie-montblanc.com/nous-contacter/",
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "mar": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "source": "https://www.brasserie-montblanc.com/nous-contacter/",
+            "verifieLe": "2026-10-19"
+          },
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "mar": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "mer": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "ven": [
+              [
+                "10:00",
+                "22:00"
+              ]
+            ],
+            "source": "https://www.brasserie-montblanc.com/nous-contacter/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "ambree",
+            "libelle": "La Rousse",
+            "url": "https://www.brasserie-montblanc.com/bieres-de-degustation/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Neipa",
+            "url": "https://www.brasserie-montblanc.com/bieres-de-degustation/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Blonde",
+            "url": "https://www.brasserie-montblanc.com/bieres-de-degustation/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Triple Épices (bière épicée)",
+            "url": "https://www.brasserie-montblanc.com/bieres-de-degustation/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Cristal IPA",
+            "url": "https://www.brasserie-montblanc.com/bieres-desalterantes/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Blanche",
+            "url": "https://www.brasserie-montblanc.com/bieres-desalterantes/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Cristal (bière légère)",
+            "url": "https://www.brasserie-montblanc.com/bieres-desalterantes/"
+          },
+          {
+            "type": "autre",
+            "libelle": "Cristal Rosée (framboise)",
+            "url": "https://www.brasserie-montblanc.com/bieres-desalterantes/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Verte",
+            "url": "https://www.brasserie-montblanc.com/les-couleurs-montagne/"
+          },
+          {
+            "type": "autre",
+            "libelle": "La Bleue (bière fruitée, myrtille)",
+            "url": "https://www.brasserie-montblanc.com/les-couleurs-montagne/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://www.brasserie-montblanc.com/nous-contacter/",
+        "https://www.brasserie-montblanc.com/bieres-de-degustation/",
+        "https://www.brasserie-montblanc.com/bieres-desalterantes/",
+        "https://www.brasserie-montblanc.com/les-couleurs-montagne/"
+      ],
+      "extrait": "Coordonnées & horaires Entreprise / Location de tireuse 04 79 62 23 99 128 Av. René Cassin 73290 La Motte-Servolex FRANCE Ouvert du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17hOO Coordonnées & horaires Bar / Restaurant / Vente à emporter 04 79 62 96 76 128 Av. René Cassin 73290 La Motte-Servolex FRANCE Ouvert du lundi au vendredi de 10h00 à 22h00 … La Rousse Bière ambrée issue de l’assemblage de 3 malts et de plusieurs houblons … La Neipa Bière trouble, légère et aromatique, alliant rondeur et notes fruitées exotiques. … La Blonde Riche, ronde, d’une amertume équilibrée, cette bière de dégustation combine un esprit à la fois floral, fruité et épicé. Triple Épices Une bière épicée et contrastée … La Cristal IPA Une bière blonde légère équilibrée, rafraîchissante et finement houblonnée. … La Blanche Bière blanche de type belge … La Cristal Bière légère et désaltérante … Cristal Rosée Bière légère et rafraîchissante au goût subtil de framboise. … La Verte Sa couleur verte audacieuse et atypique … La Bleue Bière fruitée, la Bleue associe la puissance aromatique de la myrtille",
+      "choix": "Le contact actuel n'est pas modifié. Il donne le 04 79 62 96 76, lu sur la page /contact, qui redirige vers /nous-contacter/. Il contient aussi un lien Untappd qui ne figure pas sur le site officiel : le retirer n'est pas proposé ici. Le 04 79 62 23 99 (Entreprise / Location de tireuse, 9h-12h et 14h-17h) est écarté, car ce n'est pas l'accueil du public. Le même horaire couvre « Bar / Restaurant / Vente à emporter », d'où deux blocs identiques. Samedi et dimanche ne sont pas nommés par la page, donc ils sont omis. « La Neipa » et « La Cristal IPA » sont classées ipa d'après leur nom. La Verte, La Cristal et Cristal Rosée n'ont pas de style écrit sur le site (type autre)."
+    },
+    {
+      "n": "Brasserie La Furieuse",
+      "changements": {
+        "cat": 2,
+        "conf": "moyenne",
+        "note": "Site officiel : vente de bière à emporter et sur livraison, ouvert du lundi au vendredi de 9h à 18h non-stop ; consommation sur place non citée.",
+        "src": "https://lafurieuse.com/contact/",
+        "horaires": [
+          {
+            "nature": "vente",
+            "lun": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "mar": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "mer": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "jeu": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "ven": [
+              [
+                "09:00",
+                "18:00"
+              ]
+            ],
+            "source": "https://lafurieuse.com/contact/",
+            "verifieLe": "2026-10-19"
+          }
+        ],
+        "beers": [
+          {
+            "type": "blonde",
+            "libelle": "La Furie",
+            "url": "https://lafurieuse.com/"
+          },
+          {
+            "type": "ambree",
+            "libelle": "La Futée",
+            "url": "https://lafurieuse.com/"
+          },
+          {
+            "type": "blanche",
+            "libelle": "La Furtive",
+            "url": "https://lafurieuse.com/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Fusée",
+            "url": "https://lafurieuse.com/fusee/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "La Furax",
+            "url": "https://lafurieuse.com/"
+          },
+          {
+            "type": "sans-alcool",
+            "libelle": "Fugazi",
+            "url": "https://lafurieuse.com/fugazi/"
+          },
+          {
+            "type": "blonde",
+            "libelle": "La Full",
+            "url": "https://lafurieuse.com/les-bieres/full"
+          },
+          {
+            "type": "blonde",
+            "libelle": "Fuß",
+            "url": "https://lafurieuse.com/les-bieres/fus/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Diffuse",
+            "url": "https://lafurieuse.com/les-bieres/diffuse"
+          },
+          {
+            "type": "autre",
+            "libelle": "Sulfureuse (Belgian Tripel)",
+            "url": "https://lafurieuse.com/les-bieres/sulfureuse/"
+          },
+          {
+            "type": "ipa",
+            "libelle": "Fusion (IPA au seigle)",
+            "url": "https://lafurieuse.com/les-bieres/fusion/"
+          },
+          {
+            "type": "autre",
+            "libelle": "O’Fury (Irish Red Ale)",
+            "url": "https://lafurieuse.com/les-bieres/ofury/"
+          },
+          {
+            "type": "stout",
+            "libelle": "Fuño (Wheat Stout)",
+            "url": "https://lafurieuse.com/les-bieres/funo/"
+          },
+          {
+            "type": "brune",
+            "libelle": "Sur la Buche (bière brune aux épices)",
+            "url": "https://lafurieuse.com/"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://lafurieuse.com/contact/",
+        "https://lafurieuse.com/"
+      ],
+      "extrait": "LA FURIEUSE Fabrique de bière 7, rue de la Maladière, 38360 Sassenage – France Ouvert du lundi au vendredi de 9h à 18h non-stop Tél : 04 76 26 11 64 … Pour particuliers & professionnels, vente de bière à emporter et sur livraison. … LA FURIE. 5% ALC. VOL. | BLONDE – PALE ALE … LA FUTÉE. 6% ALC. VOL. | AMBRÉE – MILD BROWN ALE … LA FURTIVE. 4,5% ALC. VOL. | BLANCHE – WEIZENBIER … LA FUSÉE. 4.0% ALC. VOL. | SESSION IPA … LA FURAX. 7% ALC. VOL. | I.P.A – INDIA PALE ALE … FUGAZI. 0.9% ALC. VOL. | BIERE SANS ALCOOL … LA FULL. 4,5% Alc. Vol | Blonde Ale Bio … DIFFUSE. 6% ALC. VOL. | NEW ENGLAND IPA … SULFUREUSE. 9% ALC. VOL. | BELGIAN TRIPEL … FUSION. 5.5% ALC. VOL. | IPA AU SEIGLE … O’FURY. 4% ALC. VOL. | IRISH RED ALE … FUß 5% Alc. Vol. | BLONDE MUNICH HELLES … FUÑO. 5,5% ALC. VOL. | WHEAT STOUT … SUR LA BUCHE. 6% ALC. VOL. | BIÈRE BRUNE AUX ÉPICES",
+      "choix": "Catégorie 2 parce que le site n'écrit que la vente à emporter et sur livraison. La « dégustation » vient de l'office de tourisme (src actuelle) et ne se retrouve pas sur le site officiel, d'où la confiance moyenne. Le portable 06 37 69 00 23 est écarté. Le contact actuel (04 76 26 11 64) est déjà conforme et n'est pas modifié. Un seul bloc « vente » : la page lie l'horaire à la vente à emporter sans nommer de bar. Fuß passe de lager à blonde, car le site écrit « BLONDE MUNICH HELLES » et non « lager ». Six bières de saison sont ajoutées : Diffuse, Sulfureuse, Fusion, O’Fury, Fuño et Sur la Buche. Cidre, limonade, thé glacé et ginger beer sont écartés, car ce ne sont pas des bières. Les éphémères (Brut IPA, Blonde au miel de Lavande) sont écartées faute de nom."
+    },
+    {
+      "n": "P'tit Labo (Brasserie de Grenoble)",
+      "changements": {
+        "cat": 1,
+        "conf": "moyenne",
+        "src": "https://ptitlabo.coop/",
+        "note": "Le site de la brasserie liste au « Bar » des « Bières bio/maison » et propose la « Bière à emporter » en bouteilles de 75 cl consignées. Il affiche mar-mer 17h-0h, jeu-sam 17h-1h (« horaires non-contractuels »), sans dire s'ils valent pour le bar ou pour la vente.",
+        "contact": {
+          "site": "https://ptitlabo.coop/",
+          "source": "https://ptitlabo.coop/",
+          "verifieLe": "2026-10-19"
+        }
+      },
+      "verifieLe": "2026-10-19",
+      "sources": [
+        "https://ptitlabo.coop/",
+        "https://ptitlabo.coop/?p=193",
+        "https://ptitlabo.coop/?p=159"
+      ],
+      "extrait": "SITE EN COURS DE CONSTRUCTION – Manufacture de bière bio et maison … Horaires Du mardi au samedi ☀️ Mar – 17h – 00h Mer – 17h – 00h Jeu – 17h – 01h Vend – 17h – 01h Sam – 17h – 01h* *horaires non-contractuels 🤓 Concerts – 17h – 02h Terrasse – 17h – 23h … Contact E-mail : contact@ptitlabo.coop 46 Rue d’Alembert 38000 Grenoble … À emporter Bière à emporter 🚴‍♂️ Bouteilles de 75cl 🍺 Consignées 0,50cts … Otarie Star 5,75 € 31 € Ultra Fakir 5,75 € 31 € (page « Bar » : Bar Bières bio/maison Bières invitées Softs Cocktails Apéritifs Shooters Vins Sans alcool Sans gluten)",
+      "choix": "Site officiel reconnu au nom et à l'adresse (46 Rue d’Alembert). Il se dit « en cours de construction » et ses pages datent du 28/08/2023. Aucun bloc d'horaires : la page « Horaires » ne nomme ni le bar ni la vente, les heures vont donc dans la note ; lundi et dimanche ne sont pas nommés. Aucun téléphone ni lien Untappd sur le site. Bières : sept noms (Otarie Star, Ultra Fakir, Rixe Clastique, Fracas Divin, Bison Bisou, Flash Palace, Oiseau Vertige), aucun avec un style écrit, et la page « Nos bières » est vide : beers inchangé. Cat 1 : le site écrit les bières maison servies au bar et la vente à emporter."
+    }
+  ],
+  "revues": [
+    "Merlin Brasserie artisanale",
+    "Kauri Brewery",
+    "MicroBrasserie-Distillerie sOavenn",
+    "Brasserie de Trévarn",
+    "Brasserie Síbín",
+    "La Canute Lyonnaise",
+    "Coldie Brewery",
+    "Brasserie Animus",
+    "Brasserie Georges",
+    "Platypus Brewpub",
+    "Brasserie des Roches",
+    "Les Roches Précieuses",
+    "Brasserie du Casino de Montrond",
+    "Brasserie de la Loire",
+    "La Margau",
+    "Bière des Frères Clavel",
+    "La Cadole",
+    "Mozel'âne",
+    "Miellerie Gachet",
+    "Brasserie des Faux Semblables",
+    "Brasserie Longue Vie",
+    "Les Brasseurs du Sornin",
+    "La Poulette des Ebaudis",
+    "La Mousse du Guiers",
+    "Brasserie de l'Ours Barbu",
+    "Brasserie du Bugey",
+    "Brasserie de la Pérouze",
+    "Domaine du Bélier Rouge",
+    "Brasserie Kokine",
+    "La Grange du Seigneur",
+    "Brasserie du Mont Blanc",
+    "Brasserie La Furieuse",
+    "Brasserie La Dourbie",
+    "La Marmotte Masquée",
+    "Brasserie Caquot",
+    "La Bonne Fabrique",
+    "Brasserie Maltobar",
+    "P'tit Labo (Brasserie de Grenoble)",
+    "Brasserie Solstice",
+    "Brasserie Kiltin'"
+  ]
+}
