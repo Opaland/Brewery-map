@@ -134,10 +134,10 @@ un numéro de mobile.
 
 **Proposé** : retirer le numéro de la note.
 
-## 10. Lu en S297, que la règle ne tranche pas (175 fiches relues)
+## 10. Lu en S297, que la règle ne tranche pas (205 fiches relues)
 
-S297 a relu 175 fiches sur leur site. 62 propositions sont entrées par la
-règle (`curation/s297-completer-1.md` à `s297-completer-6.md`). Restent :
+S297 a relu 205 fiches sur leur site. 82 propositions sont entrées par la
+règle (`curation/s297-completer-1.md` à `s297-completer-7.md`). Restent :
 
 | Fiche | Ce qui est lu | Proposé |
 |---|---|---|
@@ -164,6 +164,9 @@ règle (`curation/s297-completer-1.md` à `s297-completer-6.md`). Restent :
 | Brasserie Romanaise (Jacquemart) | site en 503 ; fixe 09 73 28 89 66 sur un annuaire | à relancer |
 | Art Is An Ale Brewing | deux horaires contradictoires sur la page (ven.–sam. 17h-minuit, ou 17h-19h) | à vérifier par téléphone |
 | La Cibulle, Spore, Pleine Lune | horaires écrits sans dire boutique ou bar | dire « accueil » ou « vente » |
+| Brasserie de la Divatte, Trip-Hop | site injoignable ; téléphone et horaires absents de la page | à relancer (lot 7, n° 6 et 15) |
+| Brasserie Sagesse, Draenek | le site donne une autre adresse (Dives-sur-Mer ; ZA Château Gaillard) | procédure de déménagement (S82) |
+| Beer Workshop | site d'une chaîne, sans page propre aux Achards | accepter la section de l'établissement ? |
 
 Beaucoup de fiches ne publient qu'un mobile : elles restent sans téléphone,
 avec celui de Google Maps (S267).

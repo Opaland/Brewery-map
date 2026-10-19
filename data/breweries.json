@@ -4232,8 +4232,54 @@
   "addr": "4 rue André Druelle, 14130 Le Breuil-en-Auge",
   "src": "https://en.normandie-tourisme.fr/museums-and-heritage-sites/micro-brasserie-sagesse-immersion-in-an-organic-craft-brewery/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Reine des Plages",
+    "url": "https://www.brasserie-sagesse.shop/product-page/reine-des-plages"
+   },
+   {
+    "type": "autre",
+    "libelle": "Fiancée du Pirate (rousse)",
+    "url": "https://www.brasserie-sagesse.shop/product-page/fiancée-du-pirate"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Tempête Normande",
+    "url": "https://www.brasserie-sagesse.shop/product-page/tempête-normande"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Peine de Mort",
+    "url": "https://www.brasserie-sagesse.shop/product-page/la-peine-de-mort"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Extasy",
+    "url": "https://www.brasserie-sagesse.shop/product-page/extasy"
+   },
+   {
+    "type": "stout",
+    "libelle": "L'impératrice",
+    "url": "https://www.brasserie-sagesse.shop/product-page/l-impératrice"
+   },
+   {
+    "type": "brune",
+    "libelle": "Barry Lindon",
+    "url": "https://www.brasserie-sagesse.shop/product-page/barry-lindo"
+   },
+   {
+    "type": "stout",
+    "libelle": "Voyage au bout de l'Enfer",
+    "url": "https://www.brasserie-sagesse.shop/product-page/voyage-au-bout-de-l-enfer"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.brasserie-sagesse.shop/",
+   "source": "https://www.brasserie-sagesse.shop/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Mobsby's",
@@ -4279,28 +4325,99 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Au pré de ma blonde"
    },
    {
-    "type": "ambree"
+    "type": "ambree",
+    "libelle": "L'ambrée du Hameau"
    },
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "La Caenette"
    },
    {
-    "type": "brune"
+    "type": "brune",
+    "libelle": "Quai des Brunes"
    },
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Conte & Fleurette"
    },
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Triple à la mode de Caen"
    },
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "La Suisse Normande"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "09 84 32 54 11",
+   "site": "https://www.biere-lalie.com",
+   "source": "https://www.biere-lalie.com",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Boutique sur place.",
+    "source": "https://www.biere-lalie.com",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie de l'Odon",
@@ -4315,8 +4432,68 @@
   "addr": "31 bis route de Vire, 14260 Les Monts d'Aunay",
   "src": "https://www.brasserie-odon.fr/boutique",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "La Blonde"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Hefeweizen"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Triple"
+   },
+   {
+    "type": "ambree",
+    "libelle": "L'Ambrée"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Petite Odon"
+   },
+   {
+    "type": "brune",
+    "libelle": "Le Robust Porter"
+   },
+   {
+    "type": "autre",
+    "libelle": "La California Pale Ale"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Bière de Printemps"
+   },
+   {
+    "type": "brune",
+    "libelle": "La bière d'Hiver"
+   },
+   {
+    "type": "autre",
+    "libelle": "La HOP & Co"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.brasserie-odon.fr/",
+   "source": "https://www.brasserie-odon.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Pendant les vacances scolaires et fêtes de fin d'année, les horaires d'ouverture de la boutique peuvent être modifiés.",
+    "source": "https://www.brasserie-odon.fr/boutique/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "La JJAP – Les 2 Terres",
@@ -5029,8 +5206,29 @@
   "addr": "Malaunay",
   "src": "https://www.union-b.fr",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.union-b.fr/",
+   "source": "https://www.union-b.fr",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Sainte Beuve",
@@ -5098,13 +5296,72 @@
   "lon": 1.0879,
   "km": 495.9,
   "cat": 1,
-  "conf": "faible",
-  "note": "Bières vendues dans le bar attenant à la brasserie, d'après un article de 2026 ; ni horaires ni site officiel.",
+  "conf": "moyenne",
+  "note": "Taproom adossée à la brasserie : bières pression brassées sur place, à emporter ou à savourer sur place.",
   "addr": "Saint-Étienne-du-Rouvray",
-  "src": "https://www.lagazettefrance.fr/article/brasserie-1989-a-saint-etienne-du-rouvray-des-bieres-completement-pop",
+  "src": "https://1989brewing.com/taproom/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "ipa",
+    "libelle": "Hazy Classic' (NEIPA)",
+    "url": "https://1989brewing.com/brasserie/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Dragon Power (DIPA)",
+    "url": "https://1989brewing.com/brasserie/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Fury IPA",
+    "url": "https://1989brewing.com/brasserie/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Trippel Fusion",
+    "url": "https://1989brewing.com/brasserie/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "02 76 08 71 20",
+   "site": "https://1989brewing.com/",
+   "untappd": "https://untappd.com/1989_Brewing",
+   "source": "https://1989brewing.com/taproom/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sam": "heures-non-precisees",
+    "remarque": "Taproom ; le samedi soir à partir de 17 h, fermeture à 21 h ou 23 h selon la page du site.",
+    "source": "https://1989brewing.com/taproom/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Bakbuk",
@@ -5141,7 +5398,27 @@
   "src": "https://www.brasserie-bakpaker.fr/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://www.brasserie-bakpaker.fr/",
+   "source": "https://www.brasserie-bakpaker.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Les autres jours, sur rendez-vous.",
+    "source": "https://www.brasserie-bakpaker.fr/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Dieppoise",
@@ -6657,17 +6934,35 @@
   "lon": -1.57988,
   "km": 545.9,
   "cat": 1,
-  "conf": "faible",
+  "conf": "moyenne",
   "note": "Bar et vente directe le vendredi de 14 h à 20 h 30.",
   "addr": "22 Boulevard François Mitterrand, 35150 Corps-Nuds",
   "src": "https://www.brasserie-sainte-colombe.com/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
+   "tel": "02 99 47 73 23",
    "site": "https://www.brasserie-sainte-colombe.com/",
-   "source": "https://www.brasserie-sainte-colombe.com/",
-   "verifieLe": "2026-10-17"
+   "source": "https://www.brasserie-sainte-colombe.com/contact/",
+   "verifieLe": "2026-10-19"
   },
   "horaires": [
    {
@@ -6678,9 +6973,21 @@
       "20:30"
      ]
     ],
-    "remarque": "Bar et vente directe.",
-    "source": "https://www.brasserie-sainte-colombe.com/",
-    "verifieLe": "2026-10-17"
+    "remarque": "Bar à la brasserie.",
+    "source": "https://www.brasserie-sainte-colombe.com/bar-et-vente-directe/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "20:30"
+     ]
+    ],
+    "remarque": "Vente directe à la brasserie.",
+    "source": "https://www.brasserie-sainte-colombe.com/bar-et-vente-directe/",
+    "verifieLe": "2026-10-19"
    }
   ]
  },
@@ -6854,24 +7161,75 @@
   "lat": 47.83621,
   "lon": -1.68188,
   "km": 545.8,
-  "cat": 2,
-  "conf": "faible",
-  "note": "Vente directe à la brasserie le jeudi et le vendredi (10-12 h, 14-18 h), d'après un article de 2022 ; à reconfirmer sur le site.",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar à la brasserie le jeudi (17 h-21 h), le vendredi et le samedi (17 h-1 h) ; vente directe à emporter le vendredi de 10 h à 18 h et aux heures du bar, d'après le site de la brasserie.",
   "addr": "Bain-de-Bretagne",
-  "src": "https://unidivers.fr/biere-draenek/",
+  "src": "https://www.draenek.bzh/",
   "coordPrecision": "centre",
   "beers": [
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "Pale Ale"
    },
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "American Wheat Ale"
    },
    {
-    "type": "ipa"
+    "type": "autre",
+    "libelle": "Triple belge"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Black IPA"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "09 55 86 75 15",
+   "site": "https://www.draenek.bzh/",
+   "source": "https://www.draenek.bzh/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "remarque": "Bar ; happy hour le jeudi de 17 h à 19 h 30.",
+    "source": "https://www.draenek.bzh/",
+    "verifieLe": "2026-10-19"
+   },
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Vente directe à emporter, aussi pendant les heures d'ouverture du bar.",
+    "source": "https://www.draenek.bzh/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Minimum",
@@ -7912,22 +8270,52 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "ambree"
+    "type": "ambree",
+    "libelle": "L’Ambrée du Bouffay",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/ambree-du-bouffay/"
    },
    {
-    "type": "blonde"
+    "type": "blonde",
+    "libelle": "La Moustache",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/biere-la-moustache/"
    },
    {
-    "type": "blanche"
+    "type": "blanche",
+    "libelle": "La Blanche du Bouffay – BIO",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/la-blanche-du-bouffay/"
    },
    {
-    "type": "ipa"
+    "type": "blonde",
+    "libelle": "La Blonde du Bouffay",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/la-blonde-du-bouffay/"
    },
    {
-    "type": "lager"
+    "type": "brune",
+    "libelle": "La Braise du Bouffay",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/la-braise-du-bouffay/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Titan",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/la-titan/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Triple",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/la-triple/"
+   },
+   {
+    "type": "blonde",
+    "libelle": "L’Orge du Bouffay – BIO",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/lorge-du-bouffay/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Titan Flower Session IPA",
+    "url": "https://www.brasserie-du-bouffay.com/bieres/titan-flower-session-ipa/"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 40 52 76 16",
    "site": "https://www.brasserie-du-bouffay.com/",
@@ -8146,20 +8534,26 @@
   "km": 511.2,
   "cat": 1,
   "conf": "faible",
-  "note": "Bar-restaurant aux cinq cuves de brassage, où l'on boit les bières de la maison ; l'atelier de production est rue Bellier.",
+  "note": "Bar-restaurant aux cinq cuves jaunes, où l'on boit les bières de la maison, produites à l'Atelier Les Brassés, 24 rue Bellier, d'après son site.",
   "addr": "5 mail Pablo Picasso, 44000 Nantes",
   "src": "https://www.lesbrasses.fr",
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Show Mousse Go On"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Thank You Very Mousse"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
   "contact": {
+   "tel": "02 28 29 31 01",
    "site": "https://www.lesbrasses.fr/",
-   "source": "https://www.lesbrasses.fr",
-   "verifieLe": "2026-10-17"
+   "source": "https://lesbrasses.fr/restaurant_les_brasses/",
+   "verifieLe": "2026-10-19"
   }
  },
  {
@@ -8170,18 +8564,104 @@
   "lon": -1.58936,
   "km": 514.6,
   "cat": 1,
-  "conf": "faible",
+  "conf": "solide",
   "note": "Micro-brasserie, bar à bières et restaurant ; commande en ligne avec retrait.",
   "addr": "23 boulevard de Chantenay, 44100 Nantes",
   "src": "https://little-atlantique-brewery.fr",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "ambree",
+    "libelle": "Spered",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Saint Elme",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Exocet",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "autre",
+    "libelle": "Scélérate (triple)",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "brune",
+    "libelle": "Sainte-Barbe",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "lager",
+    "libelle": "Winch",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Wipe Out",
+    "url": "https://little-atlantique-brewery.fr/les-bieres/"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://little-atlantique-brewery.fr/",
-   "source": "https://little-atlantique-brewery.fr",
-   "verifieLe": "2026-10-17"
-  }
+   "untappd": "https://untappd.com/LABNantes",
+   "source": "https://little-atlantique-brewery.fr/",
+   "verifieLe": "2026-10-19"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "mar": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "02:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "02:00"
+     ]
+    ],
+    "sam": [
+     [
+      "12:00",
+      "02:00"
+     ]
+    ],
+    "dim": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "source": "https://little-atlantique-brewery.fr/",
+    "verifieLe": "2026-10-19"
+   }
+  ]
  },
  {
   "n": "Brasserie Nautile",
@@ -8343,13 +8823,19 @@
   "lon": -1.42078,
   "km": 513.4,
   "cat": 1,
-  "conf": "faible",
-  "note": "Bar et restauration sur place, d'après la fiche régionale de tourisme ; la vente à emporter de bière n'est pas dite.",
+  "conf": "moyenne",
+  "note": "Bar et pizzeria le soir du jeudi au samedi, déjeuner du mardi au vendredi ; la brasserie dit brasser sa bière sur place, d'après son site. La vente à emporter de bière n'est pas dite.",
   "addr": "21 rue du Bocage, 44440 Joué-sur-Erdre",
-  "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
+  "src": "https://brasseriecali.fr/",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "02 40 93 50 86",
+   "site": "https://brasseriecali.fr/",
+   "source": "https://brasseriecali.fr/",
+   "verifieLe": "2026-10-19"
+  },
   "horaires": [
    {
     "nature": "accueil",
@@ -8371,9 +8857,9 @@
       "22:00"
      ]
     ],
-    "remarque": "Ouvert aussi les midis du mardi au vendredi.",
-    "source": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-cali-1",
-    "verifieLe": "2026-10-17"
+    "remarque": "Déjeuner aussi du mardi au vendredi (menu midi, rôtisserie et pizza), heures non précisées.",
+    "source": "https://brasseriecali.fr/",
+    "verifieLe": "2026-10-19"
    }
   ]
  },
@@ -8390,8 +8876,39 @@
   "addr": "1 rue des Monty, 44190 Saint-Hilaire-de-Clisson",
   "src": "https://www.lespapasbrasseurs.fr/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "L'impèrtinente – American Pale Ale",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Pèrchée",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Pèrilleuse",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Pèrlimpinpin",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Supère",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Blonde des papas",
+    "url": "https://www.lespapasbrasseurs.fr/nos-bieres-bio"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 28 02 66 94",
    "site": "https://www.lespapasbrasseurs.fr/",
@@ -8475,20 +8992,47 @@
   "lon": -1.80907,
   "km": 530.2,
   "cat": 2,
-  "conf": "faible",
-  "note": "Vente sur place, du lundi au samedi, d'après l'office de tourisme de Pornic ; aucun site de la brasserie.",
+  "conf": "moyenne",
+  "note": "Vente sur place à la brasserie, à la bouteille ou en carton, du lundi au vendredi, d'après son site ; la taproom n'ouvre qu'après son inauguration du 27 novembre 2026.",
   "addr": "7 rue des Landes, 44640 Cheix-en-Retz",
-  "src": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
+  "src": "https://www.ouestcoastbrewery.com/la-taproom/",
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "lager"
+    "type": "lager",
+    "libelle": "Mister Sexapils (Pilsner)"
    },
    {
-    "type": "ipa"
+    "type": "autre",
+    "libelle": "Mister Yankee (American Pale Ale)"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Miss Almira (Amber Ale)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Mister Hip (West Coast IPA)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Miss Hip (Wheat IPA)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Mister Rudy (Session IPA)"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Miss Rudy (Wit Bier)"
    }
   ],
-  "verifieLe": "2026-10-17",
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.ouestcoastbrewery.com/",
+   "source": "https://www.ouestcoastbrewery.com/",
+   "verifieLe": "2026-10-19"
+  },
   "horaires": [
    {
     "nature": "vente",
@@ -8522,15 +9066,9 @@
       "17:30"
      ]
     ],
-    "sam": [
-     [
-      "09:30",
-      "17:30"
-     ]
-    ],
-    "remarque": "Selon l'office de tourisme, pour 2026.",
-    "source": "https://en.pornic.com/brasserie-ouest-coast-brewery.html",
-    "verifieLe": "2026-10-17"
+    "remarque": "Vente à la bouteille ou en carton.",
+    "source": "https://www.ouestcoastbrewery.com/la-taproom/",
+    "verifieLe": "2026-10-19"
    }
   ]
  },
@@ -8624,22 +9162,48 @@
   "coordPrecision": "address",
   "beers": [
    {
-    "type": "ipa"
+    "type": "ipa",
+    "libelle": "Le Fruit du Hasard"
    },
    {
-    "type": "brune"
+    "type": "blonde",
+    "libelle": "Monter sur ses Grands Chevaux"
    },
    {
-    "type": "blanche"
+    "type": "brune",
+    "libelle": "Ça Va Être Tout Noir"
    },
    {
-    "type": "blonde"
+    "type": "blanche",
+    "libelle": "Montrer Patte Blanche"
    },
    {
-    "type": "ambree"
+    "type": "blonde",
+    "libelle": "Une Dernière pour la Route"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Galinette S’ambrée"
+   },
+   {
+    "type": "autre",
+    "libelle": "Ché pas"
+   },
+   {
+    "type": "autre",
+    "libelle": "La Fleur au Fusil"
+   },
+   {
+    "type": "blonde",
+    "libelle": "La Bonne Franquette"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "site": "https://www.xpression.fr/",
+   "source": "https://www.xpression.fr/",
+   "verifieLe": "2026-10-19"
+  }
  },
  {
   "n": "Brasserie Deux Béliers",
@@ -8774,8 +9338,34 @@
   "addr": "Sainte-Radegonde, 44430 Le Loroux-Bottereau",
   "src": "https://www.brasseriesoma.fr/",
   "coordPrecision": "centre",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "American Pale Ale",
+    "url": "https://www.brasseriesoma.fr/nos-bieres"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session IPA",
+    "url": "https://www.brasseriesoma.fr/nos-bieres"
+   },
+   {
+    "type": "ambree",
+    "libelle": "California Common",
+    "url": "https://www.brasseriesoma.fr/nos-bieres"
+   },
+   {
+    "type": "blanche",
+    "libelle": "American Wheat",
+    "url": "https://www.brasseriesoma.fr/nos-bieres"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Altbier sans alcool",
+    "url": "https://www.brasseriesoma.fr/nos-bieres"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://www.brasseriesoma.fr/",
    "source": "https://www.brasseriesoma.fr/",
@@ -8883,6 +9473,12 @@
   "coordPrecision": "centre",
   "beers": [],
   "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "02 40 03 30 23",
+   "site": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+   "source": "https://restaurants.3brasseurs.com/fr/france-FR/443/3-brasseurs-nantes-saint-sebastien-sur-loire/details",
+   "verifieLe": "2026-10-19"
+  },
   "horaires": [
    {
     "nature": "accueil",
@@ -9375,8 +9971,39 @@
   "addr": "139 impasse Thomas A Édison, 53100 Mayenne",
   "src": "https://www.guibsbeer.fr/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Guibs Blonde",
+    "url": "https://www.guibsbeer.fr/bieres"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Guibs Ambrée",
+    "url": "https://www.guibsbeer.fr/bieres"
+   },
+   {
+    "type": "autre",
+    "libelle": "Guibs APA – American Pale Ale cuivrée",
+    "url": "https://www.guibsbeer.fr/bieres"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Guibs Blanche",
+    "url": "https://www.guibsbeer.fr/bieres"
+   },
+   {
+    "type": "autre",
+    "libelle": "Guibs Triple – Belgian Tripel",
+    "url": "https://www.guibsbeer.fr/bieres"
+   },
+   {
+    "type": "autre",
+    "libelle": "Guibs Noire – Porter",
+    "url": "https://www.guibsbeer.fr/bieres"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "site": "https://www.guibsbeer.fr/",
    "source": "https://www.guibsbeer.fr/",
@@ -10079,14 +10706,47 @@
   "lat": 46.6047,
   "lon": -1.76234,
   "km": 512.5,
-  "cat": 2,
+  "cat": 1,
   "conf": "moyenne",
-  "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation.",
+  "note": "Bières et limonade bio, vente directe à la brasserie ; visite sur réservation. Guinguette (bar éphémère dans le jardin de la brasserie) chaque saison : vendredis soir en juin, jeudis et vendredis soir en juillet et août, d'après le site.",
   "addr": "10 rue des Nouettes, 85150 Vairé",
   "src": "https://www.garatelle.fr",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée Noël"
+   },
+   {
+    "type": "stout",
+    "libelle": "Stout"
+   },
+   {
+    "type": "autre",
+    "libelle": "American Pale Ale"
+   }
+  ],
+  "verifieLe": "2026-10-19",
   "contact": {
    "tel": "02 51 90 38 67",
    "site": "https://www.garatelle.fr/",
@@ -10332,8 +10992,24 @@
   "addr": "180 rue Philippe Lebon, 85000 La Roche-sur-Yon",
   "src": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   }
+  ],
+  "verifieLe": "2026-10-19",
+  "contact": {
+   "tel": "02 72 19 98 87",
+   "site": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+   "source": "https://restaurants.3brasseurs.com/fr/france-FR/922/3-brasseurs-la-roche-sur-yon/details",
+   "verifieLe": "2026-10-19"
+  },
   "horaires": [
    {
     "nature": "accueil",
