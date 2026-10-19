@@ -1,5 +1,4 @@
-import { existsSync, readdirSync, statSync } from 'node:fs'
-import { join } from 'node:path'
+import { pourquoiDistPerime } from '../../outils/dist'
 
 /**
  * Refuse de démarrer la suite Playwright sur un `dist/` plus vieux que les
@@ -7,7 +6,7 @@ import { join } from 'node:path'
  *
  * ## Pourquoi ceci existe alors qu'un hook le fait déjà
  *
- * `.claude/hooks/dist-a-jour.sh` pose la même question, et il l'a bien posée
+ * Le crochet `dist-a-jour` (`outils/crochets-claude.ts`) pose la même question, et il l'a bien posée
  * pendant deux jours. Mais un hook `PreToolUse` juge la commande **avant**
  * qu'elle s'exécute, et une seule commande peut faire les deux :
  *
@@ -37,49 +36,11 @@ import { join } from 'node:path'
  *
  * Il ne construit pas à votre place. Construire en silence masquerait un
  * build cassé derrière un test lent — le même défaut, déplacé (c'est déjà
- * écrit dans le hook, et ça reste vrai ici).
+ * écrit dans le hook, et ça reste vrai ici). La réponse est la même aux deux
+ * instants : `outils/dist.ts` (S302).
  */
 
-/** Les racines dont une modification rend `dist/` périmé. */
-const SOURCES = [
-  'src',
-  'build',
-  'data',
-  'public',
-  'index.html',
-  'vite.config.ts',
-  'package.json',
-]
-
-/** L'horodatage du fichier le plus récent d'une arborescence. */
-function plusRecent(chemin: string): number {
-  if (!existsSync(chemin)) return 0
-  const infos = statSync(chemin)
-  if (infos.isFile()) return infos.mtimeMs
-  let max = 0
-  for (const entree of readdirSync(chemin)) {
-    max = Math.max(max, plusRecent(join(chemin, entree)))
-  }
-  return max
-}
-
 export default function verifierDist(): void {
-  if (!existsSync('dist')) {
-    throw new Error(
-      'Playwright sert dist/, qui n’existe pas. Lancer `npm run build` — et lire sa sortie.',
-    )
-  }
-  const construit = plusRecent('dist')
-  if (construit === 0) {
-    throw new Error('dist/ est vide. Lancer `npm run build`.')
-  }
-  const coupables = SOURCES.filter((s) => plusRecent(s) > construit)
-  if (coupables.length > 0) {
-    throw new Error(
-      `dist/ est plus vieux que les sources : Playwright testerait une version périmée, ` +
-        `et passerait au vert en prouvant le contraire de ce qu’on lui demande ` +
-        `(CLAUDE.md §6 et §6quater). Modifiés depuis le dernier build : ` +
-        `${coupables.join(', ')}. Lancer \`npm run build\` et vérifier « ✓ built ».`,
-    )
-  }
+  const raison = pourquoiDistPerime()
+  if (raison !== null) throw new Error(raison)
 }

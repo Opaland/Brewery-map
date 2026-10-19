@@ -13,7 +13,7 @@ import { absentsDuCache, promessePrecache } from './precache'
  * sur Sentiers le 27/08). Sautée franchement sinon, plutôt que verte sans
  * avoir rien mesuré.
  *
- * Vue rouge en local le 15/10 : `MOUSSE_URL=http://localhost:4173/nexistepas/`
+ * Vue rouge en local le 15/10 : `MOUSSE_URL=http://localhost:4317/nexistepas/`
  * sert le repli 404 de `vite preview` — voir docs/SPRINTS.md, S1.
  */
 const URL_PUBLIEE = process.env['MOUSSE_URL']

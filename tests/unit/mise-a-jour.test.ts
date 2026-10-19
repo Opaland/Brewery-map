@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { activerNouvelleVersion } from '../../src/miseAJour'
+import { activerNouvelleVersion } from '../../src/nouvelleVersion'
 
 describe('« Recharger » quand plus aucune version n’attend (audit S26, m1)', () => {
   afterEach(() => {

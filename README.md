@@ -79,6 +79,7 @@ du fichier).
 Node 22 (`.nvmrc`).
 
 ```bash
+# bash ; sous PowerShell, voir plus bas
 npm ci
 npm run lint && npx tsc -b --noEmit && npx vitest run
 npm run build                    # les e2e servent dist/ : rebuild d'abord
@@ -89,6 +90,35 @@ npx playwright test
 Sans téléchargement de navigateur (conteneur de développement), poser
 `PW_CHROMIUM_PATH` vers un Chromium déjà installé. Pour proposer une
 correction, ou signaler une erreur de fiche : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+`npm run porte` lance toute la porte, dans l'ordre, sous Linux, macOS et
+Windows ; le crochet avant commit de Claude Code lance la même.
+
+### Sous Windows (PowerShell)
+
+PowerShell 5.1 refuse `VAR=valeur commande` et `&&` : un pas par ligne, ou
+`;`. Cloner sans conversion des fins de ligne : le dépôt est en LF, et les
+empreintes de `data/` et des lots en dépendent (`.gitattributes` l'impose
+aussi).
+
+```powershell
+git clone -c core.autocrlf=false https://github.com/Opaland/Brewery-map.git
+cd Brewery-map
+npm ci
+npx playwright install chromium
+npm run porte                    # lint, tsc -b, vitest, build, puis e2e
+```
+
+Une variable d'environnement se pose avant la commande, sur sa ligne :
+
+```powershell
+$env:MOUSSE_URL = "https://opaland.github.io/Brewery-map/"
+npx playwright test tests/e2e/page-deployee.spec.ts
+Remove-Item Env:MOUSSE_URL
+```
+
+`PW_CHROMIUM_PATH` est inutile sous Windows : il ne sert que dans le
+conteneur cloud, où Chromium est déjà installé.
 
 Le build échoue si `data/breweries.json` ne respecte pas le schéma
 (`src/core/schema.ts`). Les règles du projet sont dans `CLAUDE.md`, le

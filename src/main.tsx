@@ -4,7 +4,7 @@ import './index.css'
 import { App } from './App'
 import { brasseriesOsm } from './osmFrance'
 import { ouvrirStockage } from './stockage'
-import { surveillerMiseAJour } from './miseAJour'
+import { surveillerMiseAJour } from './nouvelleVersion'
 import { appliquerTheme } from './theme'
 import { choisirLangue, langueDe, t } from './i18n'
 

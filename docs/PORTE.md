@@ -51,9 +51,18 @@ Avant une livraison, ou sur un doute : des centaines de gestes au hasard,
 rejouables par leur graine, sans rien envoyer hors du site.
 
 ```bash
+# bash (dans le conteneur cloud, avec son Chromium)
 npm run build
 SINGE=1 SINGE_GRAINE=7 SINGE_GESTES=300 PW_CHROMIUM_PATH=/opt/pw-browsers/chromium \
   npx playwright test tests/e2e/singe.spec.ts
+```
+
+```powershell
+# PowerShell
+npm run build
+$env:SINGE = "1"; $env:SINGE_GRAINE = "7"; $env:SINGE_GESTES = "300"
+npx playwright test tests/e2e/singe.spec.ts
+Remove-Item Env:SINGE, Env:SINGE_GRAINE, Env:SINGE_GESTES
 ```
 
 Sans `SINGE=1`, le test est sauté : la porte ne le lance pas.

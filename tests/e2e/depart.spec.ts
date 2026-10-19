@@ -56,7 +56,7 @@ test.describe('« autour de moi » (Léa)', () => {
     // cette fenêtre ; une requête tierce y serait relevée.
     await page.waitForTimeout(1500)
     const tiers = urls.filter(
-      (u) => !u.startsWith('http://localhost:4173/') && !u.startsWith('data:'),
+      (u) => !u.startsWith('http://localhost:4317/') && !u.startsWith('data:'),
     )
     const horsTuiles = tiers.filter((u) => !TUILE_OSM.test(u))
     expect(horsTuiles).toEqual([])

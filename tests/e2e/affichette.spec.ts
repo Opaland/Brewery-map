@@ -20,7 +20,7 @@ test('« Imprimer une affichette » imprime la fiche seule, avec un QR qui ouvre
   // (polices, communes de la région) se chargent, eux, de toute façon.
   const requetes: string[] = []
   page.on('request', (r) => {
-    if (new URL(r.url()).host !== 'localhost:4173' && !/^(blob|data):/.test(r.url())) requetes.push(r.url())
+    if (new URL(r.url()).host !== 'localhost:4317' && !/^(blob|data):/.test(r.url())) requetes.push(r.url())
   })
   const ligne = page.locator('button.ligne').first()
   const nom = (await ligne.getAttribute('data-nom')) ?? ''
@@ -56,7 +56,7 @@ test('« Imprimer une affichette » imprime la fiche seule, avec un QR qui ouvre
   })
   expect(image).not.toBeNull()
   const lu = jsQR(Uint8ClampedArray.from(image ?? []), 400, 400)
-  expect(lu?.data).toBe(`http://localhost:4173/#fiche=${encodeURIComponent(nom)}`)
+  expect(lu?.data).toBe(`http://localhost:4317/#fiche=${encodeURIComponent(nom)}`)
 
   // Au moins 3 cm imprimés (CA4) : 6 cm demandés.
   const largeur = await page.getByTestId('affichette-qr').evaluate((e) => e.getBoundingClientRect().width)

@@ -22,6 +22,7 @@ raison, pas pour votre code.
 1. Node 22 (`.nvmrc`), puis :
 
    ```bash
+   # bash ; sous PowerShell, voir « Sous Windows » plus bas
    npm ci
    npm run lint && npx tsc -b --noEmit && npx vitest run
    npm run build                 # les e2e servent dist/ : rebuild après chaque changement
@@ -32,10 +33,29 @@ raison, pas pour votre code.
    `npx tsc --noEmit` ne vérifie rien ici (références de projet) : c'est
    `tsc -b`. La garde de `data/` (`npx tsx outils/garde-donnees.ts`) relit
    l'historique : il faut un clone complet, pas `--depth 1`. La porte
-   complète prend quelques minutes (`docs/PORTE.md`).
+   complète prend quelques minutes (`docs/PORTE.md`) ; `npm run porte` la
+   lance d'un coup, sous Linux, macOS et Windows.
 2. Ouvrez une PR. La CI relance la même porte, plus `npm audit` sur ce que
    la page embarque (une faille haute publiée entre-temps peut la rougir
    sans rapport avec votre PR : le dire suffit).
+
+### Sous Windows (PowerShell)
+
+PowerShell 5.1 refuse `&&` et `VAR=valeur commande` : un pas par ligne.
+Clonez sans conversion des fins de ligne (le dépôt est en LF, et les
+empreintes de `data/` en dépendent) :
+
+```powershell
+git clone -c core.autocrlf=false https://github.com/Opaland/Brewery-map.git
+cd Brewery-map
+npm ci
+npx playwright install chromium
+npm run porte
+```
+
+Une variable d'environnement s'écrit `$env:NOM = "valeur"`, sur sa propre
+ligne, avant la commande. `PW_CHROMIUM_PATH` est inutile : il ne sert que
+dans le conteneur cloud.
 
 ## Ce qui sera refusé
 

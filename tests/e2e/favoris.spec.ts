@@ -1,37 +1,7 @@
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
+import { attendreGarde, lireGarde } from './garde'
 import { choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
-
-/** Ce que l'application a gardé dans IndexedDB, lu tel quel. */
-const lireGarde = (page: Page) =>
-  page.evaluate(
-    () =>
-      new Promise<unknown>((resolve, reject) => {
-        const req = indexedDB.open('mousse-de-poche')
-        req.onerror = () => {
-          reject(new Error('ouverture'))
-        }
-        req.onsuccess = () => {
-          const db = req.result
-          if (!db.objectStoreNames.contains('reglages')) {
-            resolve(undefined)
-            return
-          }
-          const get = db.transaction('reglages').objectStore('reglages').get('preferences')
-          get.onsuccess = () => {
-            resolve(get.result)
-          }
-        }
-      }),
-  )
-
-/*
-  L'écriture IndexedDB est asynchrone : recharger juste après un geste peut
-  partir avant elle. On attend que le stockage dise ce qu'on attend — vu
-  échouer au hasard sans cette attente (S9).
-*/
-const attendreGarde = (page: Page, attendu: Record<string, unknown>) =>
-  expect.poll(() => lireGarde(page)).toMatchObject(attendu)
 
 const ligne = (page: Page, nom: string) => page.locator(`button.ligne[data-nom="${nom}"]`)
 

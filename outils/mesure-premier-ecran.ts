@@ -2,7 +2,7 @@
  * S293 — mesure le premier écran d'une page construite, servie sur un port,
  * en émulation mobile : réseau « 4G lente » et processeur ralenti (CDP).
  *
- *   npx tsx outils/mesure-premier-ecran.ts http://localhost:4173/ [essais]
+ *   npx tsx outils/mesure-premier-ecran.ts http://localhost:4317/ [essais]
  *
  * Rend, en médiane sur les essais : le LCP, le temps jusqu'à la première
  * ligne de la liste peinte, et les octets transférés. Aucune requête ne
@@ -11,7 +11,7 @@
  */
 import { chromium } from 'playwright'
 
-const url = process.argv[2] ?? 'http://localhost:4173/'
+const url = process.argv[2] ?? 'http://localhost:4317/'
 const essais = Number(process.argv[3] ?? '5')
 
 // « 4G lente » de Lighthouse (débit et latence) ; processeur ralenti 4 fois.

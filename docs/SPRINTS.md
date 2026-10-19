@@ -2767,3 +2767,16 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - S266 : les 62 propositions retenues entrent dans `data/` ; la liste lisible est `curation/s266-lignes.md`.
 - Trois défauts vus en écrivant, chacun en test rouge d'abord : 14 mobiles acceptés (maintenant montrés), un ordre de clés qui faisait refuser la garde, une sortie de `controler` tronquée dans un tube.
 - Sur ordinateur, le filtre par type de bière repoussait la liste sous le premier écran : « Plus de filtres » se partage entre les deux colonnes.
+
+## S302 — La porte tourne sous Windows et PowerShell *(19–20/10)*
+
+`docs/stories/S302.md`. Revue globale du 19/10, groupe W, sur le PC fixe de Cédric (Windows 11, PowerShell 5.1, Node 24).
+
+- Avant : lint, tsc, build et e2e rouges (casse de `MiseAJour.tsx` / `miseAJour.ts`), 13 échecs vitest (CRLF, `npx`, séparateur de chemin), et la porte avant commit sortait en 0 sans rien lancer, faute de `jq`.
+- W1 `.gitattributes` (`* text=auto eol=lf`) et `.editorconfig` ; W6 `src/miseAJour.ts` devient `src/nouvelleVersion.ts`, et un test refuse deux modules qui ne diffèrent que par la casse ; W7 chemins écrits avec « / » ; W3 `process.execPath` et `outils/tsx.ts` au lieu de `npx` et `.bin/tsx`.
+- W2 : les trois crochets passent en Node (`.claude/hooks/crochet.mjs` → `outils/crochet.ts`, décisions pures dans `outils/crochets-claude.ts`) ; `npm run porte` (`outils/etapes-porte.ts`) ; une porte qui ne démarre pas refuse le commit. `outils/dist.ts` : une seule réponse pour le crochet et le `globalSetup` de Playwright.
+- W8, vu en lançant la porte : un `vite preview` de Sentiers tenait 4173, et Playwright a testé Sentiers (209 e2e rouges). Mousse sert sur 4317, `--strictPort`.
+- Deux courses des e2e que Windows rend visibles : axe mesurait la fiche pendant son fondu (4 balayages rouges à chaque fois), et deux tests rechargeaient avant l'écriture IndexedDB. Les tests attendent maintenant la fin des animations et la garde (`tests/e2e/garde.ts`).
+- W4 : sections « Sous Windows (PowerShell) » dans README et CONTRIBUTING, blocs bash marqués, `CLAUDE.md` §6.
+- Revue adverse : trois trouvailles, toutes corrigées avec un test vu rouge (crochet de démarrage muet sur une URL de mandataire, branche `tsconfig` de `dist/` non testée, crochet au nom inconnu silencieux).
+- Porte complète mesurée sur ce poste : 257 s, dont 3,2 min d'e2e (222 tests).

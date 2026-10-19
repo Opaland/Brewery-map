@@ -14,7 +14,7 @@ import { mkdirSync, readdirSync, renameSync, rmSync } from 'node:fs'
 import { join } from 'node:path'
 import { chromium, devices, type Browser, type Page } from '@playwright/test'
 
-const URL_APP = 'http://localhost:4173/'
+const URL_APP = 'http://localhost:4317/'
 const SORTIE = 'docs/captures'
 const VIDEO = join(SORTIE, 'video-brute')
 

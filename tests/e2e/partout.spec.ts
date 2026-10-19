@@ -1,4 +1,5 @@
 import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
+import { attendreGarde } from './garde'
 import { expect, test } from './position'
 import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
@@ -51,6 +52,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await page.getByTestId('avec-osm').uncheck()
     await expect(page.getByTestId('badge-osm')).toHaveCount(0)
     await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Porcelette (57).')
+    await attendreGarde(page, { avecOsm: false })
     await page.reload()
     await expect(page.getByTestId('avec-osm')).not.toBeChecked()
   })
@@ -83,7 +85,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await choisirCommune(page, 'lille', 'Lille (59)')
     // Rien d'autre que l'application elle-même, et aucune requête qui porte
     // le texte tapé (CLAUDE.md §0 : la commune vaut une position).
-    const tiers = urls.filter((u) => !u.startsWith('http://localhost:4173/') && !u.startsWith('data:'))
+    const tiers = urls.filter((u) => !u.startsWith('http://localhost:4317/') && !u.startsWith('data:'))
     expect(tiers).toEqual([])
     expect(urls.filter((u) => /lille/i.test(u))).toEqual([])
   })
