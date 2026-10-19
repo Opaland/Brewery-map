@@ -9,7 +9,12 @@ import {
   plusProche,
   rechercher,
   rechercherPartout,
+  raisonsDEcart,
+  libelleRaison,
+  favorisASignaler,
+  type Criteres,
 } from '../../src/core/recherche'
+import { TYPES_BIERE } from '../../src/core/bieres'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -130,8 +135,69 @@ describe('favoris seulement (S9)', () => {
 describe('favoris cachés par les autres filtres', () => {
   it('compte les favoris des données absents des résultats, pas ceux disparus des données', () => {
     const favoris = ['Tom & Co', 'Caribrew', 'Disparue']
-    const resultats = rechercher(TOUTES, { ...base, rayonKm: 10 })
-    expect(favorisCaches(TOUTES, favoris, resultats)).toEqual(['Tom & Co'])
+    expect(favorisCaches(TOUTES, favoris, { ...base, rayonKm: 10 }).map((c) => c.nom)).toEqual(['Tom & Co'])
+  })
+
+  it('S301 CA2 : dit la raison, et signale aussi hors du mode « seulement »', () => {
+    const caches = favorisCaches(TOUTES, ['Tom & Co'], { ...base, rayonKm: 10 })
+    expect(caches.at(0)?.raisons).toEqual([{ type: 'distance', km: expect.any(Number) as number, rayonKm: 10 }])
+    // En mode « seulement », « pas un favori » n'est jamais donné pour un favori.
+    const seul = favorisCaches(TOUTES, ['Tom & Co'], { ...base, rayonKm: 10, seulement: new Set(['Tom & Co']) })
+    expect(seul[0]?.raisons.map((r) => r.type)).toEqual(['distance'])
+  })
+})
+
+describe('S301, revue adverse', () => {
+  it('un favori de la couche OSM décochée est dit, avec cette raison', () => {
+    const caches = favorisCaches(TOUTES, ['Tom & Co'], base, new Set(['Tom & Co']))
+    expect(caches).toEqual([{ nom: 'Tom & Co', raisons: [{ type: 'couche-osm' }] }])
+  })
+
+  it('la distance ne contredit pas le rayon à l’arrondi', () => {
+    expect(libelleRaison({ type: 'distance', km: 20.4, rayonKm: 20 })).toBe('à peine plus de 20 km, le rayon choisi')
+    expect(libelleRaison({ type: 'distance', km: 44.6, rayonKm: 20 })).toBe('≈ 45 km, au-delà du rayon de 20 km')
+  })
+
+  it('hors du mode « seulement », le texte tapé et le département choisi ne sont pas signalés seuls', () => {
+    const texte = { nom: 'A', raisons: [{ type: 'texte' as const }] }
+    const dep = { nom: 'B', raisons: [{ type: 'departement' as const }] }
+    const loin = { nom: 'C', raisons: [{ type: 'texte' as const }, { type: 'categorie' as const }] }
+    expect(favorisASignaler([texte, dep, loin], false).map((c) => c.nom)).toEqual(['C'])
+    expect(favorisASignaler([texte, dep, loin], true).map((c) => c.nom)).toEqual(['A', 'B', 'C'])
+  })
+})
+
+describe('S301 CA1 : les raisons qui écartent une brasserie, une seule garde', () => {
+  const tom = TOUTES.find((b) => b.n === 'Tom & Co')
+  if (tom === undefined) throw new Error('Tom & Co attendue dans lignes-reelles')
+  it('nomme chaque filtre', () => {
+    const types = (c: Partial<Criteres>) => raisonsDEcart(tom, { ...base, ...c }).map((r) => r.type)
+    expect(types({})).toEqual([])
+    expect(types({ rayonKm: 1 })).toEqual(['distance'])
+    expect(types({ categories: TOUTES_CATEGORIES.filter((k) => k !== tom.cat) })).toEqual(['categorie'])
+    expect(types({ seulement: new Set<string>() })).toEqual(['pas-favori'])
+    expect(types({ exclure: new Set([tom.n]) })).toEqual(['visitee'])
+    expect(types({ texte: 'zzzzzz' })).toEqual(['texte'])
+    expect(types({ departement: '01' })).toEqual(['departement'])
+    const absent = TYPES_BIERE.find((x) => !tom.beers.some((b) => b.type === x.type))
+    if (absent === undefined) throw new Error('un type de bière absent de Tom & Co attendu')
+    expect(types({ type: absent.type })).toEqual(['type'])
+  })
+
+  it('rechercher garde une brasserie si et seulement si elle n’a aucune raison', () => {
+    const variantes = [
+      { ...base },
+      { ...base, rayonKm: 8 },
+      { ...base, texte: 'brasserie' },
+      { ...base, categories: [1, 2] as const },
+      { ...base, departement: '69' },
+      { ...base, seulement: new Set(['Tom & Co', 'Caribrew']) },
+      { ...base, exclure: new Set(['Caribrew']) },
+    ]
+    for (const c of variantes) {
+      const gardees = new Set(rechercher(TOUTES, c).map((r) => r.brasserie.n))
+      for (const b of TOUTES) expect(gardees.has(b.n), b.n).toBe(raisonsDEcart(b, c).length === 0)
+    }
   })
 })
 
@@ -209,8 +275,8 @@ describe('restes de S27 (S31)', () => {
 
   it('un favori fermé n’est pas « caché par les filtres » : il est fermé', () => {
     const favoris = [ouverte.n, close.n]
-    const resultats = rechercher([ouverte, close], { origine: BRIGNAIS, rayonKm: 1000, texte: '', categories: [0, 1, 2, 3] })
-    expect(favorisCaches([ouverte, close], favoris, resultats)).toEqual([])
+    const criteres = { origine: BRIGNAIS, rayonKm: 1000, texte: '', categories: [0, 1, 2, 3] as const }
+    expect(favorisCaches([ouverte, close], favoris, criteres)).toEqual([])
     expect(favorisFermes([ouverte, close], favoris)).toEqual(['Porte Close'])
   })
 
