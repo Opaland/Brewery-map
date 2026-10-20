@@ -41,6 +41,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     const lien = fiche.getByTestId('fiche-source').getByRole('link')
     // Suivi de « (nouvel onglet) », dit au seul lecteur d'écran (S295).
     await expect(lien).toHaveText('montsdulyonnaistourisme.fr (nouvel onglet)')
+    // S308 : la provenance tient en une phrase.
+    await expect(fiche.getByTestId('fiche-source')).toHaveText('Source : montsdulyonnaistourisme.fr (nouvel onglet).')
     await expect(lien.locator('.lecteur-seul')).toHaveText(' (nouvel onglet)')
     await expect(lien).toHaveAttribute(
       'href',
@@ -49,23 +51,28 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
 
     await expect.poll(() => estPeint(page, 'fiche-source')).toBe(true)
-    // Le libellé lui-même, sans l'aide qui le suit (§1bis : `toContainText`
-    // lirait aussi l'aide).
-    await expect(fiche.getByTestId('fiche-confiance')).toHaveText(/^élevée/)
-    await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
-      // La Bière des Loups n'a aucun numéro connu (Caribrew en avait l'exemple jusqu'à S297) : pas d'« appelez » (revue métier S17).
-      'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
-    )
-    // S268 : sans adresse vérifiée, au centre IGN de sa commune.
-    await expect(fiche.getByTestId('fiche-precision')).toHaveText(
-      /^au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie/,
-    )
-    // Le sigle est expliqué (S295, Marie).
-    await expect(fiche.getByTestId('fiche-precision')).toContainText('IGN : l’Institut national de l’information géographique')
-    await expect(fiche.getByTestId('fiche-verification')).toHaveText('non renseignée')
-    // « En bref » le dit en français correct (vu sur la capture S295).
-    await expect(fiche.getByTestId('en-bref-categorie')).toContainText('Confiance élevée ; date de vérification non renseignée.')
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('Confiance élevée.')
+    // Pas d'horaires : rien à prévenir sur eux (S308).
+    await expect(fiche.getByTestId('fiche-avertissement')).toHaveCount(0)
+    // S268 : sans position à l'adresse, au centre IGN de sa commune ; dit en
+    // une phrase, avec la commune (S308).
+    await expect(fiche.getByTestId('fiche-precision')).toHaveText('Sur la carte, le point est le centre de Chaussan, pas la brasserie.')
+    // Sans date de lecture, pas de phrase qui ne dit qu'un trou (S308).
+    await expect(fiche.getByTestId('fiche-verification')).toHaveCount(0)
     await expect(fiche).toContainText("44 chemin de Chavagneux, 69440 Chaussan")
+  })
+
+  // La confiance porte sur la catégorie, pas sur les horaires (revue métier
+  // S3) : dit en clair, peint, dès qu'il y a des horaires (revue adverse S308).
+  test('avec des horaires, l’avertissement se voit sans rien déplier', async ({ page }) => {
+    await page.getByTestId('rayon').fill('100')
+    await page.getByTestId('recherche').fill('stéphanoise')
+    await ligne(page, /Brasserie Stéphanoise/).click()
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
+      'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.',
+    )
+    await expect.poll(() => estPeint(page, 'fiche-avertissement')).toBe(true)
   })
 
   test('la justification est titrée « Ce que dit la source »', async ({ page }) => {
@@ -79,35 +86,28 @@ test.describe('la fiche détaillée (Cédric)', () => {
   test('sans contact sourcé, pas de numéro inventé', async ({ page }) => {
     await page.getByTestId('recherche').fill('krüger')
     await ligne(page, /Brasserie Krüger/).click()
-    const contact = page.getByTestId('fiche').getByTestId('fiche-contact')
-        await expect(contact.locator('p').first()).toHaveText('Téléphone : non renseigné.')
-    // Aucun lien d'appel ni de site : le téléphone que montre Google Maps
-    // (S267) et la recherche Untappd (S51), deux recherches dites comme telles.
-    const liens = contact.getByRole('link')
+    const fiche = page.getByTestId('fiche')
+    // S308 : pas de partie « Joindre » vide ; ce qui manque est dit une fois,
+    // avec deux recherches dites comme telles : Google Maps (S267), Untappd (S51).
+    await expect(fiche.getByTestId('fiche-contact')).toHaveCount(0)
+    const manque = fiche.getByTestId('fiche-manque')
+    await expect(manque).toContainText('Pas encore dans la fiche : son adresse, son téléphone')
+    await expect(manque).toContainText('vérifiez que c’est la bonne brasserie')
+    const liens = manque.getByRole('link')
     await expect(liens).toHaveCount(2)
     await expect(liens.nth(0)).toHaveAttribute('href', 'https://www.google.com/maps/search/?api=1&query=Brasserie+Kr%C3%BCger+Solaize')
     await expect(liens.nth(0)).toHaveAttribute('rel', 'noopener noreferrer')
-    await expect(contact.getByTestId('telephone-google-maps')).toContainText('vérifiez que c’est la bonne brasserie')
     await expect(liens.nth(1)).toHaveAttribute('href', 'https://untappd.com/search?q=Brasserie+Kr%C3%BCger&type=brewery')
-  })
-
-  test('sans lien Untappd vérifié, la fiche offre une recherche, dite comme telle (S51)', async ({ page }) => {
-    await page.getByTestId('recherche').fill('caribrew')
-    await ligne(page, /Caribrew/).click()
-    const chercher = page.getByTestId('fiche').getByTestId('chercher-untappd')
-    await expect(chercher).toContainText('Chercher sur Untappd')
-    await expect(chercher).toContainText('pas encore de lien vérifié')
-    const lien = chercher.getByRole('link')
-    await expect(lien).toHaveAttribute('target', '_blank')
-    await expect(lien).toHaveAttribute('rel', /noreferrer/)
+    await expect(fiche.locator('a[href^="tel:"]')).toHaveCount(0)
   })
 
   test('un numéro cité dans la source n’est pas contredit par « non renseigné »', async ({ page }) => {
     await page.getByTestId('recherche').fill('animus')
     await ligne(page, /Brasserie Animus/).click()
-        await expect(page.getByTestId('fiche').getByTestId('fiche-contact').locator('p').first()).toHaveText(
-      'Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.',
+    await expect(page.getByTestId('fiche').getByTestId('fiche-contact').locator('p').first()).toHaveText(
+      'La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.',
     )
+    await expect(page.getByTestId('fiche').getByTestId('fiche-manque')).not.toContainText('son téléphone')
   })
 
   test('les mots du métier de la note sont expliqués (S295, Marie)', async ({ page }) => {
@@ -117,7 +117,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(lexique).toContainText('un bar ou un restaurant qui brasse lui-même la bière qu’il sert')
   })
 
-  test('sans bière référencée, la fiche le dit', async ({ page }) => {
+  test('sans bière référencée, la fiche le dit une fois, avec une recherche Untappd dite comme telle (S51, S308)', async ({ page }) => {
     // Une brasserie sans bière, prise dans les données réelles plutôt que
     // codée en dur : le test ne casse pas le jour où Caribrew en reçoit une
     // (revue code S5).
@@ -128,18 +128,21 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('rayon').fill('100')
     await page.getByTestId('recherche').fill(nom)
     await ligne(page, new RegExp(nom.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))).first().click()
-    const bieres = page.getByTestId('fiche').getByTestId('fiche-bieres')
-    await expect(bieres).toContainText('Types de bière : non référencés pour l’instant.')
-    // Et une piste, à cet endroit même (S295 : « plus haut » ne désignait rien).
-    await expect(bieres.getByRole('link', { name: /^Chercher ses bières sur Untappd/ })).toHaveAttribute('href', /^https:\/\/untappd\.com\/search\?/)
+    const fiche = page.getByTestId('fiche')
+    await expect(fiche.getByTestId('fiche-bieres')).toHaveCount(0)
+    await expect(fiche.getByTestId('fiche-manque')).toContainText('ses bières')
+    const lien = fiche.getByTestId('chercher-untappd')
+    await expect(lien).toHaveText(/^Ses bières sur Untappd/)
+    await expect(lien).toHaveAttribute('href', /^https:\/\/untappd\.com\/search\?/)
+    await expect(lien).toHaveAttribute('target', '_blank')
+    await expect(lien).toHaveAttribute('rel', /noreferrer/)
   })
 
-  test('sans horaires vérifiés, la fiche renvoie à la source', async ({ page }) => {
+  test('sans horaires vérifiés, la fiche le dit une fois, sans tableau', async ({ page }) => {
     await page.getByTestId('recherche').fill('chaussan')
     await ligne(page, /La Bière des Loups/).click()
-    await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toContainText(
-      'aucun horaire vérifié jour par jour',
-    )
+    await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toHaveCount(0)
+    await expect(page.getByTestId('fiche').getByTestId('fiche-manque')).toContainText('ses horaires')
     await expect(page.getByTestId('fiche').locator('table')).toHaveCount(0)
   })
 
@@ -149,10 +152,10 @@ test.describe('la fiche détaillée (Cédric)', () => {
     const fiche = page.getByTestId('fiche')
     // Et dit à la brasserie quoi envoyer (S295).
     await expect(fiche.getByTestId('fiche-source')).toHaveText(
-      'Aucune source lue pour cette brasserie. Si c’est la vôtre, envoyez le lien de votre site par « Signaler une erreur », plus bas.',
+      'Source : aucune pour l’instant. Si c’est votre brasserie, envoyez le lien de votre site par « Signaler une erreur », plus bas.',
     )
     await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveCount(0)
-    await expect(fiche.getByTestId('fiche-confiance')).toContainText('non évaluée')
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('Rien n’établit encore ce qu’on peut y faire.')
   })
 
   test('choisie sur la carte, sa fiche s’ouvre et vient à l’écran', async ({ page }) => {

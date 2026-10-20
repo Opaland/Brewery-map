@@ -10,11 +10,8 @@ const base = LIGNES_REELLES[0] as unknown as Brasserie
 const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Bieres, { brasserie: b }))
 
 describe('les bières de la fiche', () => {
-  it('sans bière : « non référencés », et pour seul lien la recherche Untappd (S295)', () => {
-    const html = rendu(base)
-    expect(html).toContain('Types de bière : non référencés pour l’instant.')
-    expect(html.match(/href=/g)).toHaveLength(1)
-    expect(html).toContain('href="https://untappd.com/search?')
+  it('sans bière : rien (dit en tête de fiche, avec la recherche Untappd, S308)', () => {
+    expect(rendu(base)).toBe('')
   })
 
   it('page produit, fiche d’annuaire, ou « non référencé » — dans cet ordre', () => {

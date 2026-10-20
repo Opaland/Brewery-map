@@ -5,6 +5,7 @@ import { Contact } from './Contact'
 import { appliquerLot, nomDuNumero, numerosDuLot, type Lot } from './core/curation'
 import type { Brasserie } from './core/schema'
 import { EnBref } from './EnBref'
+import { CeQuiManque } from './Fiche'
 import { Horaires } from './Horaires'
 
 /**
@@ -19,6 +20,7 @@ export function apercuDeFiche(brasserie: Brasserie, maintenant: Date): string {
       Fragment,
       null,
       createElement(EnBref, { brasserie, maintenant }),
+      createElement(CeQuiManque, { brasserie }),
       createElement(Contact, { brasserie }),
       createElement(Horaires, { brasserie, maintenant }),
       createElement(Bieres, { brasserie }),

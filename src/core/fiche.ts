@@ -60,11 +60,89 @@ export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): s
       )
 }
 
-export function libellePrecision(precision: Brasserie['coordPrecision']): string {
-  if (precision === 'centre') return t('au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie')
-  if (precision === 'commune') return t('approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres')
-  if (precision === 'osm') return t('point placé sur OpenStreetMap, non vérifié sur place')
-  return t('à l’adresse vérifiée')
+/**
+ * Où mènent le point de la carte et l'itinéraire, en une phrase (S308) ;
+ * vide quand le point est à l'adresse vérifiée. Sans adresse de rue,
+ * l'itinéraire va au point (`core/itineraire.ts`) : la phrase le dit.
+ */
+export function phrasePosition(b: Pick<Brasserie, 'coordPrecision' | 'c' | 'addr'>): string {
+  if (b.coordPrecision === 'osm') return t('L’itinéraire mène au point placé sur OpenStreetMap, non vérifié sur place.')
+  if (b.coordPrecision === 'address') return ''
+  if (adresseDeRue(b)) {
+    return b.coordPrecision === 'centre'
+      ? t('Sur la carte, le point est le centre {deCommune}, pas la brasserie.', { deCommune: deLaCommune(b.c) })
+      : t('Sur la carte, le point est approximatif, parfois à plusieurs kilomètres de la brasserie.')
+  }
+  return b.coordPrecision === 'centre'
+    ? t('L’itinéraire mène au centre {deCommune}, pas à la brasserie.', { deCommune: deLaCommune(b.c) })
+    : t('L’itinéraire mène à un point approximatif, parfois à plusieurs kilomètres de la brasserie.')
+}
+
+/**
+ * « de Brignais », « d’Oullins », « du Puy-en-Velay », « des Ollières » ; en
+ * anglais, le nom seul (la préposition est dans la phrase). Pas d’élision
+ * devant H : h muet ou aspiré ne se lit pas dans le nom.
+ */
+export function deLaCommune(c: string): string {
+  if (langueCourante() === 'en') return c
+  if (c.startsWith('Le ')) return `du ${c.slice(3)}`
+  if (c.startsWith('Les ')) return `des ${c.slice(4)}`
+  if (/^[AEIOUYÀÂÉÈÊÎÔ]/i.test(c)) return `d’${c}`
+  return `de ${c}`
+}
+
+/** Ce que la fiche ne sait pas encore (S308), dit une fois, en tête. */
+export type Manque = 'adresse' | 'telephone' | 'horaires' | 'bieres'
+
+export function ceQuiManque(b: Pick<Brasserie, 'addr' | 'c' | 'contact' | 'note' | 'horaires' | 'beers'>): Manque[] {
+  const manque: Manque[] = []
+  if (!adresseDeRue(b)) manque.push('adresse')
+  // Un numéro cité par la source n'est pas « inconnu » : la partie « Joindre »
+  // le dit, non revérifié (revue métier S4).
+  if (b.contact?.tel === undefined && !citeUnNumero(b.note)) manque.push('telephone')
+  if (b.horaires === undefined) manque.push('horaires')
+  if (b.beers.length === 0) manque.push('bieres')
+  return manque
+}
+
+/**
+ * « Pas encore dans la fiche : son adresse, son téléphone, ses horaires et
+ * ses bières. » ; vide si rien ne manque. « Dans la fiche » : c'est elle
+ * qui ne sait pas, et rien ne promet qu'elle saura (revue Marie S308 :
+ * « pas encore connus » le laissait entendre).
+ */
+export function phraseDuManque(manque: readonly Manque[]): string {
+  const mots: Readonly<Record<Manque, string>> = {
+    adresse: t('son adresse'),
+    telephone: t('son téléphone'),
+    horaires: t('ses horaires'),
+    bieres: t('ses bières'),
+  }
+  const liste = manque.map((m) => mots[m])
+  if (liste.length === 0) return ''
+  const fin = liste.pop() ?? ''
+  const texte = liste.length === 0 ? fin : `${liste.join(', ')}${t(' et ')}${fin}`
+  return t('Pas encore dans la fiche : {liste}.', { liste: texte })
+}
+
+/**
+ * La confiance, dite comme un conseil (S308). « Appelez » seulement si un
+ * numéro est connu (revue métier S17, Bernard).
+ */
+export function phraseConfiance(b: Pick<Brasserie, 'conf' | 'note' | 'contact'>): string {
+  const telephone = b.contact?.tel !== undefined || citeUnNumero(b.note)
+  switch (b.conf) {
+    case 'solide':
+      return t('Confiance élevée.')
+    case 'moyenne':
+      return t('Confiance moyenne.')
+    case 'faible':
+      return telephone
+        ? t('Confiance faible : appelez ou lisez la source avant d’y aller.')
+        : t('Confiance faible : lisez la source avant d’y aller.')
+    case '':
+      return t('Rien n’établit encore ce qu’on peut y faire.')
+  }
 }
 
 /** Le site de la source, lisible (« nomadebiere.fr »), ou null s'il n'y en a pas. */
@@ -123,3 +201,6 @@ export function adresseDeRue(b: Pick<Brasserie, 'addr' | 'c'>): boolean {
   const sansCode = b.addr.replace(/\b\d{5}\b/g, ' ')
   return normaliser(sansCode) !== normaliser(b.c)
 }
+
+/** L'identifiant de la fiche dans la page : le lien « #fiche= » et le défilement y mènent. */
+export const idFiche = (nom: string) => `fiche-${encodeURIComponent(nom)}`

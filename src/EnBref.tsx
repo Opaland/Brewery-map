@@ -1,5 +1,5 @@
 import { CATEGORIES } from './core/categories'
-import { adresseDeRue, libelleConfiance, libelleVerification } from './core/fiche'
+import { adresseDeRue } from './core/fiche'
 import { formaterHeure, ouvertMaintenant, phraseProchaine, phraseSousReserve, type Bloc } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
@@ -8,37 +8,37 @@ import { t } from './i18n'
 /**
  * « En bref », en tête de fiche (S295, la fiche face à la concurrence :
  * Google Maps et Untappd ouvrent sur ce qu'on peut faire, l'état et le
- * lieu ; la nôtre ouvrait sur une zone de saisie pour soi). Trois lignes,
- * rien de nouveau calculé : la catégorie et sa confiance, l'état d'après
- * les horaires publiés, l'adresse ou son absence.
+ * lieu ; la nôtre ouvrait sur une zone de saisie pour soi). Au plus trois
+ * lignes, rien de nouveau calculé : la catégorie, l'état d'après les
+ * horaires publiés, l'adresse — chacune seulement si elle est connue (S308).
  */
 export function EnBref({ brasserie, maintenant }: { brasserie: Brasserie; maintenant?: Date }) {
   const horloge = useMinute()
   const instant = maintenant ?? horloge
+  const bloc = blocPrincipal(brasserie)
   return (
     <dl className="fiche-en-bref" data-testid="fiche-en-bref">
       <dt>{t('Ce qu’on peut y faire')}</dt>
+      {/* Une catégorie déduite ne s'affirme pas en tête (revue Marie S308) :
+          la réserve est là, pas seulement dans la provenance en bas. */}
       <dd data-testid="en-bref-categorie">
         {t(CATEGORIES[brasserie.cat])}
-        {brasserie.cat !== 0 && (
-          <span className="fiche-aide">
-            {brasserie.verifieLe === undefined
-              ? t('Confiance {niveau} ; date de vérification non renseignée.', { niveau: libelleConfiance(brasserie.conf) })
-              : t('Confiance {niveau}, fiche vérifiée le {date}.', {
-                  niveau: libelleConfiance(brasserie.conf),
-                  date: libelleVerification(brasserie.verifieLe),
-                })}
-          </span>
-        )}
+        {brasserie.conf === 'faible' && t(' (à vérifier)')}
       </dd>
-      <dt>{t('Maintenant')}</dt>
-      <dd data-testid="en-bref-maintenant">{etat(brasserie, instant)}</dd>
-      <dt>{t('Où')}</dt>
-      <dd data-testid="en-bref-ou">
-        {adresseDeRue(brasserie)
-          ? brasserie.addr
-          : t('Adresse non connue : seulement la commune, {commune}.', { commune: brasserie.c })}
-      </dd>
+      {/* S308 : ce qui n'est pas connu n'a pas de ligne ; la fiche le dit
+          une fois, juste dessous (`CeQuiManque`). */}
+      {bloc !== undefined && (
+        <>
+          <dt>{t('Maintenant')}</dt>
+          <dd data-testid="en-bref-maintenant">{etat(brasserie, bloc, instant)}</dd>
+        </>
+      )}
+      {adresseDeRue(brasserie) && (
+        <>
+          <dt>{t('Adresse')}</dt>
+          <dd data-testid="en-bref-ou">{brasserie.addr}</dd>
+        </>
+      )}
     </dl>
   )
 }
@@ -48,9 +48,8 @@ function blocPrincipal(b: Brasserie): Bloc | undefined {
   return b.horaires?.find((x) => x.nature === 'accueil') ?? b.horaires?.[0]
 }
 
-function etat(b: Brasserie, instant: Date): string {
-  const bloc = blocPrincipal(b)
-  if (bloc === undefined) return t('Aucun horaire vérifié : voyez « Ce que dit la source ».')
+function etat(b: Brasserie, bloc: Bloc, instant: Date): string {
+
   // Les mêmes phrases que le tableau des horaires (`Horaires.tsx`).
   const debut = bloc.nature === 'accueil' ? t('Accueil du public : ') : t('Vente : ')
   // Tous les blocs de la nature : celui de la saison du jour décide (S299).

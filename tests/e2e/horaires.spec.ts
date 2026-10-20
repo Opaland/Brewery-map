@@ -29,18 +29,20 @@ test('une fiche restée ouverte passe d’« ouvert » à « fermé » à l’he
   )
 })
 
-test('« En bref » dit ce qu’on peut y faire, et une adresse qui n’est que la commune', async ({ page }) => {
+test('« En bref » dit ce qu’on peut y faire ; ce qui manque est dit une fois, juste dessous (S308)', async ({ page }) => {
   await sansTuiles(page)
   await page.goto('/')
   await page.getByTestId('recherche').fill('oullins')
   await page.locator('button.ligne', { hasText: 'Bulles d’Orge' }).or(page.locator('button.ligne', { hasText: "Bulles d'Orge" })).first().click()
   const bref = page.getByTestId('fiche-en-bref')
   await expect(bref.getByTestId('en-bref-categorie')).toHaveText('À confirmer')
-  await expect(bref.getByTestId('en-bref-ou')).toHaveText('Adresse non connue : seulement la commune, Oullins.')
-  await expect(bref.getByTestId('en-bref-maintenant')).toHaveText('Aucun horaire vérifié : voyez « Ce que dit la source ».')
+  // Ni adresse ni horaires : pas de ligne vide dans « En bref ».
+  await expect(bref.getByTestId('en-bref-ou')).toHaveCount(0)
+  await expect(bref.getByTestId('en-bref-maintenant')).toHaveCount(0)
+  await expect(page.getByTestId('fiche-manque')).toContainText('Pas encore dans la fiche : son adresse, son téléphone, ses horaires')
   // « En bref » vient avant tout le reste de la fiche, et avant la note pour soi.
   const ordre = await page.getByTestId('fiche').evaluate((f) =>
-    ['fiche-en-bref', 'fiche-contact', 'ma-note'].map((id) => [...f.querySelectorAll('[data-testid]')].findIndex((e) => e.getAttribute('data-testid') === id)),
+    ['fiche-en-bref', 'fiche-manque', 'ma-note'].map((id) => [...f.querySelectorAll('[data-testid]')].findIndex((e) => e.getAttribute('data-testid') === id)),
   )
   expect(ordre).toEqual([...ordre].sort((a, b) => a - b))
   expect(ordre.every((i) => i >= 0)).toBe(true)

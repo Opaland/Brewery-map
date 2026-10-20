@@ -22,15 +22,9 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
       {t('(Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)')}
     </p>
   )
-  if (brasserie.beers.length === 0) {
-    return (
-      <div className="fiche-bieres" data-testid="fiche-bieres">
-        {titre}
-        <p>{t('Types de bière : non référencés pour l’instant.')}</p>
-        {untappd}
-      </div>
-    )
-  }
+  // Sans bière connue, la partie ne s'affiche pas : la fiche le dit une
+  // fois, en tête, avec la recherche Untappd (S308).
+  if (brasserie.beers.length === 0) return null
   const liens = brasserie.beers.map((b) => lienDeBiere(b, brasserie))
   // Toutes à la même adresse : c'est la page des bières de la brasserie. Un
   // seul lien, dit comme tel, plutôt que le même sous chaque nom (S295).

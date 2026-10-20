@@ -41,7 +41,8 @@ test.describe('navigateur en anglais', () => {
     await page.locator('button.ligne').first().click()
     const fiche = page.getByTestId('fiche')
     await expect(fiche).toContainText('Get there')
-    await expect(fiche).toContainText('Confidence')
+    // « Low confidence: … » depuis S308 (la provenance en une phrase).
+    await expect(fiche).toContainText('confidence')
     const texte = await texteSansCitations(page, 'fiche')
     // Le nom de la brasserie et sa commune sont des noms propres.
     const nom = (await page.locator('button.ligne').first().getAttribute('data-nom')) ?? ''

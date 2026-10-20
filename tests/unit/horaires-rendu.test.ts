@@ -12,13 +12,8 @@ const rendu = (b: Brasserie) => renderToStaticMarkup(createElement(Horaires, { b
 const src = { source: 'https://www.montsdulyonnaistourisme.fr/x', verifieLe: '2026-10-15' }
 
 describe('les horaires de la fiche', () => {
-  it('sans horaires structurés : renvoie à la justification, n’invente rien', () => {
-    const html = rendu(base)
-    expect(html).toContain('aucun horaire vérifié jour par jour')
-    // « Seuls ceux cités… sont connus » promettait des horaires à une note
-    // qui n'en cite aucun (revue métier S17, Bernard).
-    expect(html).toContain('S’il y en a de connus, ils sont cités dans « Ce que dit la source »')
-    expect(html).not.toContain('<table')
+  it('sans horaires structurés : rien, ni tableau ni phrase (dit en tête de fiche, S308)', () => {
+    expect(rendu(base)).toBe('')
   })
 
   it('un bloc par nature, fermé / non précisé / sans heures distingués', () => {

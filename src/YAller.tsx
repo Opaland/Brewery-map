@@ -1,4 +1,5 @@
-import { destination, liensItineraire, plateformeDe } from './core/itineraire'
+import { phrasePosition } from './core/fiche'
+import { liensItineraire, plateformeDe } from './core/itineraire'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
 import { LienExterne } from './LienExterne'
@@ -6,36 +7,19 @@ import { LienExterne } from './LienExterne'
 /**
  * « Y aller » (S19, persona Hugo) : l'application de navigation est au choix
  * de la personne, et le lien n'emporte que la destination
- * (`src/core/itineraire.ts`). Sans adresse, l'écran dit où mène vraiment
- * l'itinéraire : au point de la carte, approximatif.
+ * (`src/core/itineraire.ts`). L'adresse est dite en tête de fiche (« En
+ * bref ») ; ici, une phrase dit où mène vraiment le point de la carte (S308 :
+ * une seule, là où il y en avait trois).
  */
 export function YAller({ brasserie }: { brasserie: Brasserie }) {
-  const d = destination(brasserie)
+  const position = phrasePosition(brasserie)
   return (
     <div className="fiche-y-aller" data-testid="fiche-y-aller">
-      <h5 className="fiche-titre">{t('Y aller')}</h5>
-      {d.mode === 'osm' && (
-        <p className="fiche-aide" data-testid="y-aller-osm">
-          {t('L’itinéraire mène au point placé sur OpenStreetMap, non vérifié sur place.')}
+      {position !== '' && (
+        <p className="fiche-aide" data-testid="fiche-precision">
+          {position}
         </p>
       )}
-      {d.mode === 'commune' && (
-        <p className="fiche-aide" data-testid="y-aller-commune">
-          {t(
-            'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
-          )}
-        </p>
-      )}
-      {d.mode !== 'adresse' && (
-        <p className="fiche-aide" data-testid="y-aller-adresse">
-          {t('À vélo ou à pied, cherchez d’abord son adresse exacte, sur son site ou en l’appelant.')}
-        </p>
-      )}
-      {/* Idée vue sur la carte des distilleries écossaises : « vérifiez
-          auprès de la distillerie avant de partir » (veille, S27). */}
-      <p className="fiche-aide" data-testid="verifier-avant">
-        {t('Vérifiez avant de partir que la brasserie est ouverte et vous accueille.')}
-      </p>
       <ul className="fiche-liens">
         {liensItineraire(brasserie, plateformeDe(navigator.userAgent)).map((l) => (
           <li key={l.appli}>
@@ -46,10 +30,8 @@ export function YAller({ brasserie }: { brasserie: Brasserie }) {
           </li>
         ))}
       </ul>
-      <p className="fiche-aide">
-        {t(
-          'Le lien ne contient que la destination. Votre position, l’application choisie la prend elle-même si vous le lui permettez.',
-        )}
+      <p className="fiche-aide" data-testid="y-aller-confidentialite">
+        {t('Le lien ne contient que la destination, pas votre position.')}
       </p>
     </div>
   )

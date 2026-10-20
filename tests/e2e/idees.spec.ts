@@ -43,10 +43,13 @@ test('la carte a sa légende, visible', async ({ page }) => {
   await expect(legende).toContainText('Point de départ')
 })
 
-test('« Vérifiez avant de partir » près de « Y aller »', async ({ page }) => {
+// S308 : « Vérifiez avant de partir » (veille S27) est porté par la
+// provenance, qui dit quoi faire selon la confiance.
+test('la provenance dit quoi faire avant de partir, selon la confiance', async ({ page }) => {
   await page.goto('/')
   await page.locator('button.ligne').first().click()
-  await expect(page.getByTestId('verifier-avant')).toContainText('Vérifiez avant de partir')
+  await expect(page.getByTestId('fiche-provenance')).toBeVisible()
+  await expect(page.getByTestId('fiche-confiance')).toHaveText(/^(Confiance (élevée|moyenne)\.|Confiance faible : .*avant d’y aller\.|Rien n’établit encore ce qu’on peut y faire\.)$/)
 })
 
 test('un lien partagé ouvre la fiche, même hors du rayon', async ({ page }) => {

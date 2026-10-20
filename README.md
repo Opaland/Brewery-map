@@ -51,7 +51,7 @@ l'application, sous « Votre position reste dans ce téléphone ».
 
 | Téléphone | Fiche | Carte, thème sombre |
 | --- | --- | --- |
-| <img src="docs/captures/telephone-accueil.png" alt="Accueil sur téléphone : par où commencer, recherche, filtres" width="240"> | <img src="docs/captures/telephone-fiche.png" alt="Une fiche détaillée : téléphone non renseigné, Y aller, source, confiance" width="240"> | <img src="docs/captures/telephone-carte-sombre.png" alt="La carte en thème sombre, avec le compte des brasseries à moins de 30 km" width="240"> |
+| <img src="docs/captures/telephone-accueil.png" alt="Accueil sur téléphone : par où commencer, recherche, filtres" width="240"> | <img src="docs/captures/telephone-fiche.png" alt="Une fiche détaillée : ce qui manque dit une fois, Y aller, source, confiance" width="240"> | <img src="docs/captures/telephone-carte-sombre.png" alt="La carte en thème sombre, avec le compte des brasseries à moins de 30 km" width="240"> |
 
 Les captures sont refaites par `npx tsx outils/captures.ts` (voir l'en-tête
 du fichier).
