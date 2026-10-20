@@ -62,3 +62,28 @@ describe('les bières de la fiche', () => {
     expect(html).not.toContain('Baye (rouge) · ')
   })
 })
+
+describe('S316 : les bières se lisent sans jargon', () => {
+  it('CA2 : deux blondes, la glose de leur type une seule fois', () => {
+    const html = rendu({ ...base, beers: [{ type: 'blonde', libelle: 'La Manu' }, { type: 'blonde', libelle: 'La Dorée' }] })
+    expect(html.split('claire et légère').length - 1).toBe(1)
+  })
+
+  it('CA3 : un style nommé est expliqué sous la liste ; sans style nommé, aucun lexique', () => {
+    const html = rendu({ ...base, beers: [{ type: 'autre', libelle: 'L’Ébariole (tourbée)' }] })
+    expect(html).toContain('data-testid="bieres-lexique"')
+    expect(html).toContain('au goût fumé de la tourbe, comme certains whiskys')
+    expect(rendu({ ...base, beers: [{ type: 'blonde', libelle: 'La Manu' }] })).not.toContain('bieres-lexique')
+  })
+
+  it('revue adverse : une IPA nommée « India Pale Ale » garde sa glose, sans « pale ale » qui la contredirait', () => {
+    const html = rendu({ ...base, beers: [{ type: 'ipa', libelle: 'CerviraBilis India Pale Ale' }] })
+    expect(html).toContain('très houblonnée, souvent amère')
+    expect(html).not.toContain('bieres-lexique')
+  })
+
+  it('revue adverse : une « autre » à libellé ne prive pas de sa glose une « autre » sans libellé', () => {
+    const html = rendu({ ...base, beers: [{ type: 'autre', libelle: 'Spéciale' }, { type: 'autre' }] })
+    expect(html).toContain('un style précisé sur la fiche')
+  })
+})
