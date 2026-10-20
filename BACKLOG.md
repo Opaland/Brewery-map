@@ -365,6 +365,12 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **C2 reste ouvert** : le crochet de commit se contourne toujours par `git -C . commit` ou `git -c … commit` (le portage en Node ne change que la sortie silencieuse sans `jq`).
 - **`gh` introuvable pour Node** quand Claude Code est lancé d'un terminal ouvert avant l'installation de `gh` : le crochet de démarrage dit alors « gh absent ». Ouvrir un nouveau terminal (noté dans `docs/REPRISE-POWERSHELL.md`).
 
+## S305 — restes
+
+- **Le tableau des jetons de `docs/DESIGN.md` est incomplet** (T4) : le comparer aux jetons de `src/index.css` par un test, comme `chiffres-ecrits.test.ts` le fait pour les chiffres.
+- **Chiffres datés sans test** : `docs/DONNEES.md` (tableau « au 18/10 » : 227 `centre`, 13 `commune` ; 214 et 12 le 20/10), « 1 226 » de `sauvegarde.ts` et « 113 sur 348 » de `fiche.ts` (exacts le 20/10, revue adverse S305).
+- **« 151 complétées les 18 et 19 octobre »** (« Quoi de neuf ») n'est tenu par aucun test : il se compte dans les accords (`curation/accords/`), pas dans `data/`.
+
 ## Revue adverse S304 — restes
 
 - **Budget du premier écran à 25 octets près** (218 975 pour 219 000, le 20/10) : S294 (fiches par département) avant toute nouvelle fonction du premier écran.

@@ -4,8 +4,10 @@ import { t } from './i18n'
 /**
  * Un lien qui quitte le site (S295, Inès et Léa) : il s'ouvre dans un nouvel
  * onglet, n'emporte rien de la personne (`noreferrer`), et le dit à qui
- * écoute la page. Le seul endroit qui pose `target="_blank"` :
- * `tests/unit/lien-externe.test.ts` refuse qu'un autre le fasse (§4).
+ * écoute la page. Le seul composant React qui pose `target="_blank"` ;
+ * la carte en pose un aussi, sur le lien d'attribution que MapLibre
+ * écrit dans le DOM. `tests/unit/lien-externe.test.ts` refuse tout autre
+ * endroit (§4).
  */
 export function LienExterne({
   href,

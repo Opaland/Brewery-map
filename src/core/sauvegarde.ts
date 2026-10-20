@@ -28,7 +28,7 @@ export const TAILLE_MAX = 1_000_000
 
 /**
  * Au plus 5 000 favoris, visites ou notes par fichier : bien plus que les
- * brasseries de l'application (1 236 le 18/10, fiches et couche
+ * brasseries de l'application (1 226 le 20/10, fiches et couche
  * OpenStreetMap ; `tests/unit/jumeaux.test.ts` le vérifie). Seuil de garde,
  * au jugé (§2) : au delà, c'est un fichier fabriqué, qui gonflerait le stockage (revue
  * adverse S37 : 60 000 favoris acceptés).

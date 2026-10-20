@@ -43,8 +43,9 @@ depuis S18.
   sans animation si l'on demande moins de mouvement.
 - **Catégories** : des puces en grille de deux colonnes ; ce sont toujours de
   vraies cases à cocher.
-- **Compte** : une barre collée au bas de l'écran, qui ne colle plus sous
-  700 px de hauteur.
+- **Compte** : une barre collée au bas de l'écran. Sous 700 px de hauteur,
+  elle reste collée, plus fine et sur une ligne (revue adverse S28) ; plus
+  haute qu'un quart de l'écran (texte agrandi), elle se décolle (S304).
 
 ## Ce qui ne change pas
 

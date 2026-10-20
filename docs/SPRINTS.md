@@ -2802,3 +2802,12 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - W9 : sous Node 24 et Windows, `fs.rmSync` ne supprime rien dans un chemin accentué ; Vite laissait d'anciens morceaux dans `dist/`. Plugin `build/vider-dist.ts`.
 - Budget du premier écran : 73 octets de trop ; CSS morte retirée (dette D), 218 975 pour 219 000. S294 devient urgente.
 - Revue adverse : quatre trouvailles corrigées, cinq restes au BACKLOG.
+
+## S305 — Les chiffres écrits disent les données *(20/10)*
+
+`docs/stories/S305.md`. T1 à T6 de la revue du 19/10.
+
+- 358 → 348 fiches (README, ETAT, LINKEDIN, MARKETING), 259 → 258 sans horaires, 130 → 214 placées au centre (« Quoi de neuf », français et anglais).
+- `tests/unit/chiffres-ecrits.test.ts` : fiches, départements et leur liste, brasseries OSM, communes, bilan de complétude et fiches au centre, lus dans la doc et comparés aux données.
+- Commentaires chiffrés remis à jour et datés (`fiche.ts`, `sauvegarde.ts`, contrastes de l'en-tête) ; `LienExterne.tsx` ne se dit plus seul à poser `_blank` ; `docs/DESIGN.md` dit ce que fait le compte sous 700 px ; l'état de reprise ne dit plus « 166 lignes, jamais modifié ».
+
