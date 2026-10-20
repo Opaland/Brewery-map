@@ -365,6 +365,15 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **C2 reste ouvert** : le crochet de commit se contourne toujours par `git -C . commit` ou `git -c … commit` (le portage en Node ne change que la sortie silencieuse sans `jq`).
 - **`gh` introuvable pour Node** quand Claude Code est lancé d'un terminal ouvert avant l'installation de `gh` : le crochet de démarrage dit alors « gh absent ». Ouvrir un nouveau terminal (noté dans `docs/REPRISE-POWERSHELL.md`).
 
+## Revue adverse S304 — restes
+
+- **Budget du premier écran à 25 octets près** (218 975 pour 219 000, le 20/10) : S294 (fiches par département) avant toute nouvelle fonction du premier écran.
+- **Le focus sur un compte décollé fait sauter la page en bas** : « Effacer la recherche » (`src/App.tsx`, `compte.current?.focus()`) et le retrait d'un favori en mode « seulement mes favoris ». Barre collée, rien ne bougeait ; décollée (texte agrandi), la page part en fin de liste. Piste : viser le champ de recherche, ou `preventScroll` avec un retour visible près du geste.
+- **Barre décollée, l'annonce d'un geste n'est plus à l'écran** pour la personne voyante. Piste : un retour près du bouton.
+- **De 900 à ~1 150 px, la première brasserie reste sous la barre** (787 px à 1 024 et 1 100 px, mesuré le 20/10) : deux colonnes de filtres.
+- **Les fragments de « Plus de filtres » sur trois colonnes** ne sont mesurés ni en anglais ni avec « Plus de filtres » replié.
+- **W9 ailleurs** : `outils/curation.ts:243` et `outils/captures.ts` appellent `rmSync` ; sous Node 24 et Windows, dans un chemin accentué, il ne supprime rien. Le dossier temporaire de `curation.ts` est sous `tmpdir()` (nom court, ASCII, sur ce poste) : à vérifier, puis passer à `fs.promises.rm`.
+
 ## Revue adverse S303 — restes
 
 - **« Pas encore visitées » accuse le carnet à tort** (`texteDuCompte`, `src/App.tsx`) : avec « Ouvertes ce week-end » aussi coché, ou un carnet vide, une liste vide dit « Toutes celles qui correspondent sont dans votre carnet ». Même classe que A11 : ne le dire que si la liste serait non vide sans `exclure`.

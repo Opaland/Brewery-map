@@ -2792,3 +2792,13 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - A6 : toutes catégories décochées, le compte le dit ; « la plus proche » passe les filtres et n'est jamais fermée.
 - A11 : « ouvertes ce week-end » n'est accusé que s'il vide la liste à lui seul, et ne dit plus « n'ouvre ».
 - Revue adverse : une assertion durcie, trois restes au BACKLOG.
+
+## S304 — Le premier écran d'ordinateur, la barre collée à 200 % *(20/10)*
+
+`docs/stories/S304.md`. A4 et A7 de la revue du 19/10, plus W9 vu en lançant la porte.
+
+- A4 : filtres en `columns: 3 min(22rem, 34vw)` sur ordinateur ; à 1280 × 800, la première brasserie passe de 778 à 621 px, son nom peint au-dessus de la barre (751 px). Le test qui gardait A4 (`top < 800`) ne pouvait pas échouer : réécrit sur ce qui est peint.
+- A7 : au-delà d'un quart de l'écran, la barre collée se décolle ; elle se recolle sous le cinquième.
+- W9 : sous Node 24 et Windows, `fs.rmSync` ne supprime rien dans un chemin accentué ; Vite laissait d'anciens morceaux dans `dist/`. Plugin `build/vider-dist.ts`.
+- Budget du premier écran : 73 octets de trop ; CSS morte retirée (dette D), 218 975 pour 219 000. S294 devient urgente.
+- Revue adverse : quatre trouvailles corrigées, cinq restes au BACKLOG.
