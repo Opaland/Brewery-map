@@ -1,6 +1,6 @@
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /** S45 — le thème au choix, clair, sombre ou comme le téléphone. */
 const fond = (page: import('@playwright/test').Page) =>
@@ -57,4 +57,55 @@ test('« tout effacer » remet l’apparence du téléphone', async ({ page }) =
   await page.getByTestId('confirmer-effacer').click()
   await expect(page.getByTestId('theme-auto')).toBeChecked()
   expect(await page.evaluate(() => document.documentElement.dataset['theme'])).toBeUndefined()
+})
+
+/** S307 (A8, A9) : la carte reste claire ; ses marqueurs gardent les couleurs qui s'y lisent. */
+test.describe('les marqueurs en thème sombre', () => {
+  // Les couleurs sur carte, celles du thème clair, par numéro de catégorie.
+  const SUR_CARTE = ['rgb(163, 82, 0)', 'rgb(46, 125, 50)', 'rgb(29, 95, 154)', 'rgb(95, 99, 104)']
+
+  test.beforeEach(async ({ page }) => {
+    await sansTuiles(page)
+    await page.emulateMedia({ colorScheme: 'dark' })
+    await page.goto('/')
+    await page.getByTestId('recherche').fill('oullins')
+    await versLaCarte(page)
+  })
+
+  test('un marqueur et la légende ont la couleur sur carte de leur catégorie', async ({ page }) => {
+    const marqueur = page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')
+    await expect(marqueur).toHaveCount(1)
+    const lu = await marqueur.evaluate((m) => ({
+      cat: Number(/cat-(\d)/.exec(m.getAttribute('class') ?? '')?.[1]),
+      fond: getComputedStyle(m).backgroundColor,
+    }))
+    expect(lu.fond).toBe(SUR_CARTE[lu.cat])
+    const legende = await page.getByTestId('legende-carte').locator('li[class^="cat-"]').evaluateAll((lis) =>
+      lis.map((li) => ({
+        cat: Number(/cat-(\d)/.exec(li.getAttribute('class') ?? '')?.[1]),
+        fond: getComputedStyle(li.querySelector('.pastille') ?? li).backgroundColor,
+      })),
+    )
+    expect(legende).toHaveLength(4)
+    for (const { cat, fond } of legende) expect(fond, `légende cat-${String(cat)}`).toBe(SUR_CARTE[cat])
+  })
+
+  test('un marqueur choisi et focalisé au clavier se distingue d’un marqueur seulement choisi', async ({ page }) => {
+    const marqueur = page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)')
+    await marqueur.click()
+    await expect(marqueur).toHaveAttribute('aria-pressed', 'true')
+    const contour = () => marqueur.evaluate((m) => `${getComputedStyle(m).outlineColor} | ${getComputedStyle(m).boxShadow}`)
+    await marqueur.evaluate((m) => {
+      m.blur()
+    })
+    const choisi = await contour()
+    // Retour au marqueur par le clavier : le focus y est « visible ».
+    await marqueur.focus()
+    await page.keyboard.press('Tab')
+    await page.keyboard.press('Shift+Tab')
+    await expect(marqueur).toBeFocused()
+    await expect.poll(() => marqueur.evaluate((m) => m.matches(':focus-visible'))).toBe(true)
+    await expect(marqueur).toHaveAttribute('aria-pressed', 'true')
+    expect(await contour()).not.toBe(choisi)
+  })
 })

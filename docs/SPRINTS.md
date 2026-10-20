@@ -2821,3 +2821,11 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - C4 : `failOnFlakyTests` en CI : un test qui ne passe qu'au second essai rougit.
 - Vu en committant : le crochet n'était branché que sur l'outil Bash ; les commits faits par l'outil PowerShell (S303 à S306) passaient sans lui. `"matcher": "Bash|PowerShell"`, tenu par un test.
 
+## S307 — Les marqueurs se lisent sur la carte, en thème sombre aussi *(20/10)*
+
+`docs/stories/S307.md`. A8 et A9 de la revue du 19/10.
+
+- A8 : la carte et sa légende gardent les couleurs du thème clair (les tuiles restent claires) ; chaque couleur tient 3:1 contre les fonds du style openstreetmap-carto (`tests/unit/couleurs-carte.test.ts`). Anneau du marqueur choisi `#241c14`, focus `#7a3410`.
+- A9 : un marqueur choisi et focalisé montre les deux contours.
+- Budget du premier écran : CSS v1 écrasée par la v2 retirée ; 218 981 octets pour 219 000.
+
