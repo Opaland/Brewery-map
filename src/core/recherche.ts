@@ -209,6 +209,17 @@ function raisonsAvecMots(brasserie: Brasserie, criteres: Criteres, mots: readonl
   return raisons
 }
 
+/**
+ * La liste resterait-elle vide sans ce critère ? Alors ce n'est pas lui
+ * qu'il faut accuser d'avoir vidé la liste (A11 pour le week-end, S315 pour
+ * le carnet). Une règle, nommée une fois (CLAUDE.md §4).
+ */
+export function videAussiSans(brasseries: readonly Brasserie[], criteres: Criteres, cle: 'exclure' | 'weekEnd'): boolean {
+  const sans: Criteres = { ...criteres }
+  Reflect.deleteProperty(sans, cle)
+  return rechercher(brasseries, sans).length === 0
+}
+
 export function rechercher(brasseries: readonly Brasserie[], criteres: Criteres): Resultat[] {
   const mots = motsCherches(criteres.texte)
   const resultats: Resultat[] = []

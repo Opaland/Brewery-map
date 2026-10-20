@@ -2859,3 +2859,11 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S313 — Les captures du README montrent l'application d'aujourd'hui *(20/10)*
 
 `docs/stories/S313.md`. Sept captures refaites (`outils/captures.ts`) ; le GIF gardé (pas de `ffmpeg` sur le poste). Vu sur la capture : les liens de la provenance écartaient les lignes ; un lien au fil d'un texte reste en ligne.
+
+## S315 — Le compte n'accuse plus le carnet à tort *(20/10)*
+
+`docs/stories/S315.md`. Restes de la revue adverse S303.
+
+- `videAussiSans` (`src/core/recherche.ts`) : la liste resterait-elle vide sans ce critère ? Une règle pour le week-end (A11, calculé à la main jusque-là) et pour le carnet.
+- Carnet vide, ou une autre cause qui vide la liste : le compte ne dit plus « Toutes celles qui correspondent sont dans votre carnet ».
+- « La plus proche pas encore visitée : … » quand le carnet écarte les visitées.

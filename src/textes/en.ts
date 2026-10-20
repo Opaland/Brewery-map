@@ -413,4 +413,5 @@ export const EN: Readonly<Record<string, string>> = {
   " Site indiqué par OpenStreetMap : ": " Website given by OpenStreetMap: ",
   "Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.": "They may have changed since: the source does not say how long they apply.",
   " : ": ": ",
+  "La plus proche pas encore visitée : {nom} ({commune}), à {distance}.": "The nearest not yet visited: {nom} ({commune}), {distance} away.",
 }

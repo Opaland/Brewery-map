@@ -9,6 +9,7 @@ import {
   plusProche,
   rechercher,
   rechercherPartout,
+  videAussiSans,
   raisonsDEcart,
   libelleRaison,
   favorisASignaler,
@@ -16,6 +17,7 @@ import {
   type Criteres,
 } from '../../src/core/recherche'
 import { TYPES_BIERE } from '../../src/core/bieres'
+import { prochainWeekEnd } from '../../src/core/horaires'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -409,5 +411,30 @@ describe('les fiches qui partagent un point (S268)', () => {
         vus.add(p)
       })
     }
+  })
+})
+
+// S315 : un filtre n'est accusé de vider la liste que s'il en est la cause.
+describe('videAussiSans', () => {
+  const tous = new Set(TOUTES.map((b) => b.n))
+  it('carnet vide : la liste vide le reste sans « pas encore visitées » ; le carnet n’est pas la cause', () => {
+    const loin = { ...base, rayonKm: 0, exclure: new Set<string>() }
+    expect(rechercher(TOUTES, loin)).toHaveLength(0)
+    expect(videAussiSans(TOUTES, loin, 'exclure')).toBe(true)
+  })
+  it('tout est visité : sans le carnet la liste ne serait pas vide ; le carnet est la cause', () => {
+    const toutVisite = { ...base, exclure: tous }
+    expect(rechercher(TOUTES, toutVisite)).toHaveLength(0)
+    expect(videAussiSans(TOUTES, toutVisite, 'exclure')).toBe(false)
+  })
+  it('le week-end qui vide la liste à lui seul : ce n’est pas « vide aussi sans lui » (A11, revue adverse S315)', () => {
+    const ceWeekEnd = { ...base, weekEnd: prochainWeekEnd(new Date('2026-10-14T10:00:00Z')) }
+    expect(rechercher(TOUTES, ceWeekEnd)).toHaveLength(0)
+    expect(rechercher(TOUTES, base).length).toBeGreaterThan(0)
+    expect(videAussiSans(TOUTES, ceWeekEnd, 'weekEnd')).toBe(false)
+  })
+
+  it('un critère absent ne change rien : la réponse est celle de la liste elle-même', () => {
+    expect(videAussiSans(TOUTES, base, 'weekEnd')).toBe(rechercher(TOUTES, base).length === 0)
   })
 })
