@@ -1,0 +1,164 @@
+{
+ "lot": "s311-adresses-lyon-2",
+ "propositions": [
+  {
+   "n": "Ninkasi Saint-Étienne",
+   "changements": {
+    "addr": "Sam Center, 11 rue Barrouin, 42000 Saint-Étienne"
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/"
+   ],
+   "extrait": "Ninkasi St Etienne Sam Center - 11 rue Barrouin 42000, Saint-Etienne",
+   "choix": "Adresse lue sur la page officielle du lieu. Téléphone et horaires de la fiche concordent avec la page : inchangés."
+  },
+  {
+   "n": "Brasserie de l'Ours Barbu",
+   "changements": {
+    "addr": "86 rue du Louvasset, 38500 Voiron",
+    "contact": {
+     "tel": "06 38 60 44 05",
+     "site": "https://www.brasseriedeloursbarbu.fr/",
+     "source": "https://www.brasseriedeloursbarbu.fr/en/contactus",
+     "verifieLe": "2026-10-20"
+    }
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://www.brasseriedeloursbarbu.fr/en/contactus",
+    "https://tourisme.paysvoironnais.com/producteur/brasserie-de-lours-barbu/"
+   ],
+   "extrait": "86 Rue du Louvasset 38500 Voiron — +33 638 60 44 05 — contact@brasseriedeloursbarbu.fr",
+   "choix": "Croisé : le site officiel (page Contact) et l'office de tourisme du Pays voironnais donnent la même adresse. Le seul téléphone publié est un portable (06) : question à Cédric, le garder ou non (sa règle du 18/10 ne couvre que les fixes). Le site ne dit pas si l'adresse accueille du public : catégorie inchangée. SIRENE écarté : siège à Saint-Nicolas-de-Macherin."
+  },
+  {
+   "n": "Brasserie Kan Mêm",
+   "changements": {
+    "addr": "Orion, 07270 Colombier-le-Jeune",
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Dégustation individuelle gratuite ; visite guidée sur demande. Horaires d'une fiche de tourisme, à confirmer auprès de la brasserie.",
+      "source": "https://en.ardeche-guide.com/producer/micro-brasserie-kan-mem-5116835/",
+      "verifieLe": "2026-10-20"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://en.ardeche-guide.com/producer/micro-brasserie-kan-mem-5116835/"
+   ],
+   "extrait": "Orion 07270 Colombier-le-Jeune — All year round, every Friday between 5 pm and 7 pm. — Individual tasting (free of charge)",
+   "choix": "Une seule source, une fiche de tourisme : hors de la règle du 18/10. « Orion » est un lieu-dit. Téléphone de la fiche (portable) non retenu. Catégorie inchangée : aucune vente mentionnée."
+  },
+  {
+   "n": "Brasserie 767",
+   "changements": {
+    "note": "SIRENE : « BRASSERIE 767 » (Geoffrey Pitaval, fabrication de bière), établissement fermé, entreprise cessée ; son adresse était Le Vernay, 42140 Grammond, pas Chazelles-sur-Lyon. Aucune page de la brasserie lue."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=brasserie+767"
+   ],
+   "extrait": "GEOFFREY PITAVAL (BRASSERIE 767) ; SIRET 83767690700012 ; adresse LE VERNAY, 42140 GRAMMOND ; entreprise cessée (C), établissement fermé (F) ; activité 11.05Z ; créée le 2018-03-01",
+   "choix": "Pas d'adresse : siège fermé, dans une autre commune (Grammond). Catégorie inchangée. SIRENE seul : une cessation administrative ne prouve pas une fermeture réelle."
+  },
+  {
+   "n": "La Voie Maltée",
+   "changements": {
+    "note": "SIRENE : établissement de Saint-Jean-de-Thurigneux (Lieu-dit Les Douzes, 17 Chemin de Gromelet, 01390) fermé, entreprise cessée le 30/09/2025 ; siège à Moutiers (73) fermé aussi. Aucune page de la brasserie lue."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=voie+maltee+saint-jean-de-thurigneux"
+   ],
+   "extrait": "LA VOIE MALTEE (SIREN 520175621), cessée (C), fermée le 30/09/2025 ; établissement SIRET 52017562100033, Lieu-dit Les Douzes, 17 Chemin de Gromelet, 01390 Saint-Jean-de-Thurigneux, état F, activité 11.05Z, créé le 02/05/2012",
+   "choix": "Adresse non proposée : SIRENE seul, établissement fermé."
+  },
+  {
+   "n": "Brasserie de la Sanne",
+   "changements": {
+    "note": "SIRENE : « Damien Gascon (Brasserie de la Sanne) », 3 Montée du Tognard, 38150 Saint-Romain-de-Surieu, établissement fermé, entreprise cessée le 30/09/2021. Aucune page de la brasserie lue."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=brasserie+de+la+sanne+saint-romain-de-surieu"
+   ],
+   "extrait": "DAMIEN GASCON (BRASSERIE DE LA SANNE) ; SIRET 82516282900014 ; 3 Montée du Tognard, 38150 Saint-Romain-de-Surieu ; entreprise cessée (C) au 30/09/2021, établissement fermé (F) ; activité 11.05Z ; créée le 19/02/2017",
+   "choix": "Adresse non proposée (SIRENE seul, fermé)."
+  },
+  {
+   "n": "L'Agarithe",
+   "changements": {
+    "note": "SIRENE : « Bruno Gavard », enseigne « BRASSERIE L'AGARITHE », 5 place de la République, 42360 Panissières, établissement fermé le 30/09/2025, entreprise cessée. Aucune page de la brasserie lue."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=agarithe"
+   ],
+   "extrait": "BRUNO GAVARD ; SIRET 84264403100010 ; 5 place de la République, 42360 Panissières ; enseigne BRASSERIE L'AGARITHE ; fermé (F) le 2025-09-30 ; activité 11.05Z ; créée le 2018-10-10",
+   "choix": "Adresse non proposée (SIRENE seul, fermé)."
+  },
+  {
+   "n": "Malt Emoi",
+   "changements": {
+    "note": "Annuaire des entreprises (SIRENE) : le siège de Villieu-Loyes-Mollon est fermé depuis le 07/03/2025, alors que la société reste « active » ; des pages de tourisme non datées la décrivent encore ouverte. Aucune adresse d'accueil lue. À confirmer."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=834702714"
+   ],
+   "extrait": "nom_complet : \"BRASSERIE MALT EMOI (BRASSERIE MALT EMOI)\" ; etat_administratif : \"A\" ; siège adresse : \"925 GRANDE RUE 01800 VILLIEU-LOYES-MOLLON\" ; etat_administratif : \"F\" ; date_fermeture : \"2025-03-07\"",
+   "choix": "Ni adresse ni catégorie : SIRENE seul, et contradictoire avec des pages de tourisme non lues (403)."
+  },
+  {
+   "n": "La Gaudine (Brasserie de la Semène)",
+   "changements": {
+    "note": "La Brasserie de la Semène a quitté Saint-Genest-Malifaux : l'établissement y est fermé depuis le 31/12/2024 (SIRENE) ; la boutique est à Marlhes (4215 route de Jonzieux, lieu-dit Verne). La fiche reste à Saint-Genest-Malifaux en attendant une procédure de déménagement. À confirmer."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://brasseriedelasemene.fr",
+    "https://recherche-entreprises.api.gouv.fr/search?q=brasserie+de+la+semene"
+   ],
+   "extrait": "4215 route de Jonzieux, lieu dit Verne à MARLHES — SIRENE : « 4 RUE LOUIS JACQUEMIN 42660 SAINT-GENEST-MALIFAUX », etat_administratif : \"F\", date_fermeture : \"2024-12-31\" ; siège « 4215 ROUTE DE JONZIEUX 42660 MARLHES », etat_administratif : \"A\"",
+   "choix": "Pas d'adresse : la commune de la fiche ne change pas par proposition. Question à Cédric : déménager la fiche à Marlhes ? Horaires de la boutique de Marlhes lus sur le site, non proposés pour la même raison."
+  },
+  {
+   "n": "La Strol",
+   "changements": {
+    "note": "Annuaire des entreprises (SIRENE) : « BRASSERIE LA STROL » est cessée, établissement fermé le 24/09/2026 (La Tuilerie, Tourton). Aucune source de vente ou d'accueil lue. Brasserie probablement fermée : à confirmer."
+   },
+   "verifieLe": "2026-10-20",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=842443574"
+   ],
+   "extrait": "nom_complet : \"BRASSERIE LA STROL\" ; etat_administratif : \"C\" ; date_fermeture : \"2026-09-24\" ; date_creation : \"2018-09-28\" ; siège adresse : \"LA TUILERIE TOURTON 43120 MONISTROL-SUR-LOIRE\" ; etat_administratif : \"F\"",
+   "choix": "SIRENE seul. Catégorie inchangée ; le statut « fermée » est une décision de Cédric."
+  }
+ ],
+ "revues": [
+  "La Dame de Malt",
+  "Brasserie 767",
+  "La Voie Maltée",
+  "Brasserie de la Sanne",
+  "L'Agarithe",
+  "Ninkasi Saint-Étienne",
+  "Malt Emoi",
+  "La Gaudine (Brasserie de la Semène)",
+  "Brasserie Graine 2 Bulles",
+  "La Strol",
+  "Brasserie des Faux Semblables",
+  "Brasserie des 2 Roches",
+  "Two Hats Brewing",
+  "Brasserie de l'Ours Barbu",
+  "Brasserie Kan Mêm"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+  "lot": "s309-rhone-adresses",
+  "propositions": [
+    {
+      "n": "Ninkasi Brignais",
+      "changements": {
+        "addr": "2A route de Lyon, 69530 Brignais",
+        "conf": "moyenne",
+        "src": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+        "note": "Restaurant-bar du réseau Ninkasi ; la page du lieu propose d'emporter les bières en bouteille (« Emportez chez vous nos bières bouteilles, sodas & burgers »). Brassage sur place non dit sur cette page.",
+        "contact": {
+          "tel": "04 72 31 74 93",
+          "source": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+          "verifieLe": "2026-10-20"
+        },
+        "horaires": [
+          {
+            "nature": "accueil",
+            "lun": [["09:00", "23:30"]],
+            "mar": [["09:00", "23:30"]],
+            "mer": [["09:00", "23:30"]],
+            "jeu": [["09:00", "23:30"]],
+            "ven": [["09:00", "00:30"]],
+            "sam": [["10:00", "00:30"]],
+            "dim": [["10:00", "23:30"]],
+            "source": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+            "verifieLe": "2026-10-20"
+          }
+        ]
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+        "https://www.schlouk-map.com/fr/places/ninkasi-brignais"
+      ],
+      "extrait": "2 A Route de Lyon, 69530 Brignais — 04 72 31 74 93 — « Emportez chez vous nos bières bouteilles, sodas & burgers. » — lundi à jeudi 9h-23h30, vendredi jusqu'à 0h30, samedi 10h-0h30, dimanche 10h-23h30 (Schlouk Map, concordant : « Monday to Thursday: 09:00 to 23:30 / Friday: 09:00 to 00:30 / Saturday: 10:00 to 00:30 / Sunday: 10:00 to 23:30 », « 2A Rte de Lyon, 69530 Brignais », « +33 4 72 31 74 93 »)",
+      "choix": "Croisé : la page officielle du lieu et Schlouk Map (annuaire) concordent sur l'adresse, le téléphone et les horaires. Confiance passée de faible à moyenne : la vente à emporter est lue sur la page propre à ce lieu, plus déduite de la page du réseau ; pas « solide », le brassage sur place n'y est pas dit. Les horaires officiels ont été lus par un outil qui résume : à relire. Coordonnées : aucune source n'en donne."
+    },
+    {
+      "n": "Malting Pot",
+      "changements": {
+        "addr": "263 Grande Rue de la Guillotière, 69007 Lyon"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": ["https://www.malting-pot.com/adresses"],
+      "extrait": "Lyon 7 — « 263 Gdr de la Guillotière 69007 LYON » — 09 70 95 27 78 — « LUNDI AU SAMEDI », « MIDI 12H À 14H / SOIR 17H À MINUIT »",
+      "choix": "La page écrit « Gdr » : développé en « Grande Rue » (la Grande Rue de la Guillotière). Téléphone et horaires de la fiche concordent avec la page : inchangés."
+    },
+    {
+      "n": "L'Affoleuse",
+      "changements": {
+        "addr": "3 impasse de Montromand, 69640 Denicé"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": ["https://laffoleuse.net/"],
+      "extrait": "Section Contact du site officiel : « 3 impasse de Montromand » / « 69640 Denicé » ; téléphone « 04 74 62 86 05 » ; « vente à la ferme / bar guinguette … le vendredi de 15h à 19h30 ».",
+      "choix": "Seule l'adresse change ; téléphone, horaires et catégorie de la fiche concordent avec la page."
+    },
+    {
+      "n": "La Fabrique du Faubourg",
+      "changements": {
+        "note": "Site de production des Bières Georges (marque de la Brasserie Georges, Lyon Perrache), à Vénissieux. Adresse, vente sur place et horaires non publiés dans les sources lues."
+      },
+      "verifieLe": "2026-10-20",
+      "sources": ["https://podcast.ausha.co/podcapsuleur/fabrique-du-faubourg"],
+      "extrait": "A Vénissieux, dans la banlieue de Lyon, la Fabrique du Faubourg produit les différentes recettes de la marque",
+      "choix": "Seule la note change. Source secondaire (podcast) : le site officiel bieresgeorges.com ne cite que le siège de Lyon Perrache. Hors de la règle du 18/10."
+    }
+  ],
+  "revues": [
+    "Ninkasi Brignais",
+    "Bulles d'Orge",
+    "Brasserie Krüger",
+    "DWYN Brewing",
+    "Malting Pot",
+    "Brasserie Demi-Lune",
+    "La Fabrique du Faubourg",
+    "Maltazar",
+    "Autour de la Bière",
+    "Misso",
+    "Brasserie Nepo",
+    "Brasserie du Mont Popey",
+    "Hoodo",
+    "L'Affoleuse",
+    "Mozel'âne"
+  ]
+}
