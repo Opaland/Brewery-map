@@ -2884,6 +2884,9 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S318.md`. LD9. `lireLecturesAgent` (Zod) lit les lectures d'agents de `outils/departement.ts lectures` ; `nomDeFichierDeLecture` nomme leur fichier sans chemin possible (une clé `..\` écrivait hors du dossier sous Windows). Revue adverse : clés en collision et clé trop longue refusées.
 
+## S319 — Barre décollée, le focus reste près du geste *(20/10)*
+
+`docs/stories/S319.md`. Reste de la revue adverse S304. Barre décollée (texte agrandi), « Voir les brasseries autour du départ » et le retrait d'un favori en mode « seulement » ne posent plus le focus sur le compte, en fin de page : `focusApresGeste` vise le champ de recherche, ou la ligne voisine, cadrée par son haut après le rendu. Revue adverse : nom coupé en haut sur une ligne plus haute que l'écran, corrigé et testé ; clavier virtuel non mesuré, au BACKLOG.
 ## S320 — La confiance se dit en phrases *(20/10)*
 
 `docs/stories/S320.md`. Cédric, le 20/10 : « oui ». `phraseConfiance` dit chaque niveau en une phrase tirée de sa définition (`docs/DONNEES.md`) ; le volet « Que veut dire « confiance … » ? » disparaît ; l'avertissement sur les horaires ne nomme plus la confiance. Le champ `conf` ne change pas. Réponses de Cédric du 20/10 consignées dans `docs/DECISIONS.md`. Revue adverse : test anglais, phrase « faible » trop affirmative, réserves perdues pour « moyenne », corrigés.

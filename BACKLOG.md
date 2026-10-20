@@ -374,7 +374,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 ## Revue adverse S304 — restes
 
 - **Budget du premier écran à 25 octets près** (218 975 pour 219 000, le 20/10) : S294 (fiches par département) avant toute nouvelle fonction du premier écran.
-- **Le focus sur un compte décollé fait sauter la page en bas** : « Effacer la recherche » (`src/App.tsx`, `compte.current?.focus()`) et le retrait d'un favori en mode « seulement mes favoris ». Barre collée, rien ne bougeait ; décollée (texte agrandi), la page part en fin de liste. Piste : viser le champ de recherche, ou `preventScroll` avec un retour visible près du geste.
+- **S319 : le clavier virtuel après « Voir les brasseries autour du départ »** : barre décollée, le focus va au champ de recherche ; sur un vrai téléphone, cela ouvre peut-être le clavier sans qu'on ait demandé à saisir. Playwright ne le simule pas : à essayer avec `docs/LIVRAISON.md`. Repli possible : un titre visible, `tabIndex={-1}`.
 - **Barre décollée, l'annonce d'un geste n'est plus à l'écran** pour la personne voyante. Piste : un retour près du bouton.
 - **De 900 à ~1 150 px, la première brasserie reste sous la barre** (787 px à 1 024 et 1 100 px, mesuré le 20/10) : deux colonnes de filtres.
 - **Les fragments de « Plus de filtres » sur trois colonnes** ne sont mesurés ni en anglais ni avec « Plus de filtres » replié.
