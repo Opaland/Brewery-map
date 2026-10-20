@@ -51,7 +51,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
 
     await expect.poll(() => estPeint(page, 'fiche-source')).toBe(true)
-    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('Confiance élevée.')
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('La source décrit précisément ce qu’on peut faire sur place.')
     // Pas d'horaires : rien à prévenir sur eux (S308).
     await expect(fiche.getByTestId('fiche-avertissement')).toHaveCount(0)
     // S268 : sans position à l'adresse, au centre IGN de sa commune ; dit en
@@ -68,7 +68,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await ligne(page, /Brasserie Stéphanoise/).click()
     const fiche = page.getByTestId('fiche')
     await expect(fiche.getByTestId('fiche-avertissement')).toHaveText(
-      'La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.',
+      'Les horaires ne sont pas garantis : lisez ce que dit la source, et appelez en cas de doute.',
     )
     await expect.poll(() => estPeint(page, 'fiche-avertissement')).toBe(true)
   })

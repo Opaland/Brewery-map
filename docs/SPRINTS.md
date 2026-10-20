@@ -2883,3 +2883,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S318 — Ce qu'un agent écrit est lu par un schéma *(20/10)*
 
 `docs/stories/S318.md`. LD9. `lireLecturesAgent` (Zod) lit les lectures d'agents de `outils/departement.ts lectures` ; `nomDeFichierDeLecture` nomme leur fichier sans chemin possible (une clé `..\` écrivait hors du dossier sous Windows). Revue adverse : clés en collision et clé trop longue refusées.
+
+## S320 — La confiance se dit en phrases *(20/10)*
+
+`docs/stories/S320.md`. Cédric, le 20/10 : « oui ». `phraseConfiance` dit chaque niveau en une phrase tirée de sa définition (`docs/DONNEES.md`) ; le volet « Que veut dire « confiance … » ? » disparaît ; l'avertissement sur les horaires ne nomme plus la confiance. Le champ `conf` ne change pas. Réponses de Cédric du 20/10 consignées dans `docs/DECISIONS.md`. Revue adverse : test anglais, phrase « faible » trop affirmative, réserves perdues pour « moyenne », corrigés.

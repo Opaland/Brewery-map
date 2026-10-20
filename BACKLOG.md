@@ -176,7 +176,7 @@ chacun demande une décision ou une vérification de source.
     la note « site bloqué » est à revoir), Graine 2 Bulles (403), Casino de
     Montrond (403), page « Où nous trouver » de Brasserie de la Loire.
 
-- Liste : la confiance (élevée, moyenne, faible) n'apparaît que dans la
+- Liste : la confiance (dite en phrase depuis S320) n'apparaît que dans la
   fiche dépliée ; sur la ligne, le badge et le filtre de catégorie sont les
   mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
 - Horaires : le schéma n'a pas de saisons ; les horaires d'été des
@@ -210,8 +210,7 @@ chacun demande une décision ou une vérification de source.
   - rien n'est essayé sur un vrai téléphone.
 
 - Revue UI/UX du 16/10 — restes :
-  - « Confiance : faible » donne la définition, pas quoi en faire (« vérifiez
-    avant d'y aller ») : formulation à proposer à Cédric ;
+  - ~~« Confiance : faible » donne la définition, pas quoi en faire~~ : fait en S27 (#39), puis S320 (une phrase par niveau) ;
 
 - ~~S27 — restes de la revue adverse~~ : faits en S31.
 
@@ -402,7 +401,6 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 
 - ~~Trois dates sur une fiche riche~~ — fait en S312 (une phrase par site, chaque lecture avec sa date et sa page). Constat d'origine : : « Lu le 16 octobre » (contact), « Lus le 18 octobre » (horaires), « Vérifiée le 17 octobre » (fiche) ; 14 fiches complètes sur 32 ont trois dates différentes. Marie ne sait pas laquelle compte. Piste : une seule date, la plus ancienne, dans la provenance.
 - ~~« Maintenant » dit deux fois~~ — fait en S312 (`natureEnTete` : « En bref » le dit avec l'heure ; le tableau, seulement pour l'autre nature).
-- **Le vocabulaire de la confiance** (« Confiance faible / moyenne / élevée ») reste un mot de fichier ; le repli parle de « catégorie ». À reformuler avec une vraie personne.
 - **Signaler sans compte GitHub** : la fiche demande à la brasserie d'envoyer son site par « Signaler une erreur », qui exige GitHub (rejoint la décision de Cédric sur une voie hors GitHub, S10).
 - **L'affichette de comptoir** ferme chaque fiche avec un texte adressé à la brasserie, pas à la personne.
 - ~~Bières « autre »~~ — fait en S316 (lexique des styles, glose une fois par type). Constat d'origine : (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.

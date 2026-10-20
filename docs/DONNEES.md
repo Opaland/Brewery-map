@@ -18,14 +18,15 @@ Une catégorie 1 à 3 exige une source (`src` non vide) : le schéma le vérifie
 ## Confiance (`conf`)
 
 Qualité de la preuve, **pas une probabilité**. Le fichier dit `solide`,
-l'interface dit « élevée » (décision de Cédric, 15/10).
+`moyenne`, `faible` ; depuis S320 (Cédric, 20/10), la fiche ne nomme plus
+le niveau et le dit en une phrase (`phraseConfiance`, `src/core/fiche.ts`).
 
-| Valeur | Affiché | Sens — *définition proposée, à valider par Cédric* |
+| Valeur | Sens | Phrase de la fiche |
 |---|---|---|
-| `solide` | élevée | la source décrit précisément ce qu'on peut faire sur place |
-| `moyenne` | moyenne | la source cite la vente ou l'accueil, avec des réserves ou des manques |
-| `faible` | faible | catégorie déduite, probable, ou tirée d'une source ancienne ou indirecte |
-| *(vide)* | non évaluée | catégorie 0 uniquement : aucune preuve retenue |
+| `solide` | la source décrit précisément ce qu'on peut faire sur place | « La source décrit précisément ce qu’on peut faire sur place. » |
+| `moyenne` | la source cite la vente ou l'accueil, avec des réserves ou des manques | « La source cite la vente ou l’accueil, avec des réserves ou des manques. » |
+| `faible` | catégorie déduite, probable, ou tirée d'une source ancienne ou indirecte | « Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller. » (sans « appelez » si aucun numéro n'est connu) |
+| *(vide)* | catégorie 0 uniquement : aucune preuve retenue | « Rien n’établit encore ce qu’on peut y faire. » |
 
 **Les horaires d'une saison (S299).** Un bloc d'horaires peut porter une
 `periode` `{ "du": "MM-JJ", "au": "MM-JJ" }`, bornes comprises. Elle peut
@@ -39,7 +40,7 @@ toute l'année.
   « fermé » : la source ne publie pas d'horaires pour ce moment de l'année.
 
 **La confiance porte sur la catégorie, jamais sur les horaires.** La fiche
-le dit sous chaque confiance. La première définition (15/10) disait « avec
+le dit sous des horaires (« Les horaires ne sont pas garantis… »). La première définition (15/10) disait « avec
 des horaires » pour `solide` ; la revue métier de S3 a trouvé cinq lignes
 `solide` qui le démentent (L'Ours qui brasse « heures non précisées », Pleine
 Lune « horaires non publiés », Les Bières du Temps, Chambaran, Archimalt).

@@ -122,3 +122,14 @@ Cédric, le 19/10, mot pour mot :
   remplace : l'API recherche-entreprises.api.gouv.fr, en données
   ouvertes, donne l'état « active » ou « cessée ».
 - **Untappd** se lit page par page, comme source de vérité.
+
+## Réponses de Cédric du 20/10
+
+Ses mots, recopiés, à côté de chaque question posée le même jour.
+
+| Question | Réponse | Ce qui en suit |
+|---|---|---|
+| « Les portables de Manev'Ale et de Chanaz : je les garde ? » | « oui » | Le portable de ces deux fiches est gardé **quand leur proposition sera acceptée** : les lots S314 et le reste de S309 et S311 attendent encore ses numéros. |
+| « Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » | « oui fermé » | Statut `fermee` (décision #35), source SIRENE. Seulement les cas nets : entreprise cessée, aucun établissement ouvert, même commune (S321). |
+| « Les trois déménagements : La Gaudine vers Marlhes, les Croqueurs de Lune vers Serrières-en-Chautagne, Biercors vers Villard-de-Lans. » | « OK » | Commune, département, adresse et position changent par lot (S322, décision #36) ; le reste de leurs propositions attend ses numéros. |
+| « Le libellé « Confiance faible / moyenne / élevée » : je le remplace par des phrases ? » | « oui » | La fiche dit la confiance en une phrase (S320). Son choix du 15/10 (« élevée ») et la demande du cahier des charges cèdent à cette réponse ; le champ `conf` du fichier ne change pas. |

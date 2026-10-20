@@ -8,45 +8,9 @@ import type { Brasserie } from './schema'
  */
 
 /**
- * Le fichier dit `solide` ; le cahier des charges dit « élevée ». Cédric a
- * choisi le mot du cahier (15/10). Vide = catégorie 0, aucune preuve retenue.
- */
-export function libelleConfiance(conf: Brasserie['conf']): string {
-  switch (conf) {
-    case 'solide':
-      return t('élevée')
-    case 'moyenne':
-      return t('moyenne')
-    case 'faible':
-      return t('faible')
-    case '':
-      return t('non évaluée (aucune preuve retenue)')
-  }
-}
-
-/**
- * Ce que chaque niveau veut dire. Définition **proposée à partir des textes du
- * fichier**, à valider par Cédric : elle décrit la qualité de la preuve sur la
- * catégorie, pas une probabilité (cahier des charges §1.3). Voir
- * docs/DONNEES.md.
- *
- * Corrigée le 15/10 après la revue métier de S3 : la première version disait
- * « avec des horaires » pour `solide`, ce que cinq lignes du fichier
- * démentent (« heures non précisées », « horaires non publiés »…). Aucun
- * niveau ne parle donc des horaires : ils ne sont que dans la justification.
- */
-export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
-  solide: 'La source décrit précisément ce qu’on peut faire sur place.',
-  moyenne: 'La source cite la vente ou l’accueil, avec des réserves ou des manques.',
-  faible:
-    'La catégorie est déduite, probable, ou tirée d’une source ancienne ou indirecte.',
-  '': 'Aucune source n’établit ce qu’on peut y faire.',
-}
-
-/**
- * Affiché sous toute confiance : elle porte sur la catégorie, jamais sur les
- * horaires. La revue métier de S3 a montré qu’« élevée » pouvait être lu
- * comme « ouvert samedi, c’est sûr ».
+ * Affiché sous des horaires : la confiance porte sur la catégorie, jamais sur
+ * eux. La revue métier de S3 a montré qu’« élevée » pouvait être lu comme
+ * « ouvert samedi, c’est sûr » ; la phrase ne nomme plus la confiance (S320).
  *
  * « Appelez » seulement si un numéro est connu, au contact ou cité dans la
  * note : sinon la seule action proposée était impossible (revue métier S17,
@@ -54,9 +18,9 @@ export const SENS_CONFIANCE: Readonly<Record<Brasserie['conf'], string>> = {
  */
 export function avertissementHoraires(b: Pick<Brasserie, 'note' | 'contact'>): string {
   return b.contact?.tel !== undefined || citeUnNumero(b.note)
-    ? t('La confiance ne garantit pas les horaires : lisez ce que dit la source, et appelez en cas de doute.')
+    ? t('Les horaires ne sont pas garantis : lisez ce que dit la source, et appelez en cas de doute.')
     : t(
-        'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
+        'Les horaires ne sont pas garantis : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
       )
 }
 
@@ -126,20 +90,23 @@ export function phraseDuManque(manque: readonly Manque[]): string {
 }
 
 /**
- * La confiance, dite comme un conseil (S308). « Appelez » seulement si un
- * numéro est connu (revue métier S17, Bernard).
+ * La confiance, dite en une phrase (S320, Cédric le 20/10 : « oui » à des
+ * phrases au lieu de « Confiance faible / moyenne / élevée »). Chaque phrase
+ * reprend le sens du niveau défini le 15/10 (docs/DONNEES.md) : la qualité
+ * de la preuve sur ce qu'on peut faire sur place, jamais sur les horaires.
+ * « Appelez » seulement si un numéro est connu (revue métier S17, Bernard).
  */
 export function phraseConfiance(b: Pick<Brasserie, 'conf' | 'note' | 'contact'>): string {
   const telephone = b.contact?.tel !== undefined || citeUnNumero(b.note)
   switch (b.conf) {
     case 'solide':
-      return t('Confiance élevée.')
+      return t('La source décrit précisément ce qu’on peut faire sur place.')
     case 'moyenne':
-      return t('Confiance moyenne.')
+      return t('La source cite la vente ou l’accueil, avec des réserves ou des manques.')
     case 'faible':
       return telephone
-        ? t('Confiance faible : appelez ou lisez la source avant d’y aller.')
-        : t('Confiance faible : lisez la source avant d’y aller.')
+        ? t('Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.')
+        : t('Ce qu’on peut y faire est probable, pas établi par la source : lisez-la avant d’y aller.')
     case '':
       return t('Rien n’établit encore ce qu’on peut y faire.')
   }
