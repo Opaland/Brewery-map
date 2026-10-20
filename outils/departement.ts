@@ -39,7 +39,8 @@ import {
   type CandidatEnCause,
   type EtablissementSirene,
   type Lecture,
-  type LectureAgent,
+  lireLecturesAgent,
+  nomDeFichierDeLecture,
 } from '../src/core/candidats'
 import type { CandidatOsm } from '../src/core/decouverte'
 import { validerBrasseries } from '../src/core/schema'
@@ -201,7 +202,13 @@ function lectures(dep: string, fichier: string | undefined): void {
   const dossier = `curation/dep-${dep}-lectures`
   mkdirSync(dossier, { recursive: true })
   const aujourdhui = new Date().toISOString().slice(0, 10)
-  for (const l of JSON.parse(readFileSync(fichier, 'utf8')) as LectureAgent[]) {
+  // Écrit par un agent : lu par le schéma, refusé en entier s'il n'y tient pas (S318).
+  const lu = lireLecturesAgent(JSON.parse(readFileSync(fichier, 'utf8')))
+  if (!lu.ok) {
+    console.error(`${fichier} invalide :\n${lu.erreurs.join('\n')}`)
+    process.exit(1)
+  }
+  for (const l of lu.lectures) {
     let pos = null
     let source: string | undefined
     if (l.adresse !== null) {
@@ -219,9 +226,10 @@ function lectures(dep: string, fichier: string | undefined): void {
       console.log(`- ${l.cle} (${l.n}) : ni l'adresse ni la commune ne se géocodent dans le ${dep} — non écrite`)
       continue
     }
-    const lu = ajoutDeLecture(l, dep, pos, source, aujourdhui)
-    writeFileSync(`${dossier}/${l.cle.replace(/[:/]/g, '-')}.json`, `${JSON.stringify(lu, null, 1)}\n`)
-    console.log(`${l.n} : ${pos.precision} (${String(lu.ajout.fiche.km)} km de Brignais)`)
+    const ajout = ajoutDeLecture(l, dep, pos, source, aujourdhui)
+    // La clé vient d'un agent : un nom sûr, jamais un chemin (S318).
+    writeFileSync(`${dossier}/${nomDeFichierDeLecture(l.cle)}.json`, `${JSON.stringify(ajout, null, 1)}\n`)
+    console.log(`${l.n} : ${pos.precision} (${String(ajout.ajout.fiche.km)} km de Brignais)`)
   }
 }
 

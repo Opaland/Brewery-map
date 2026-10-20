@@ -348,7 +348,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **LD7, presque aucun test de composant** pour App (861 lignes), Carte et
   Liste : chaque changement d'interface paie le build et les e2e.
   Commencer par Liste (fiche, favori, signalement), avec Testing Library.
-- **LD9, des entrées écrites par des agents lues sans schéma**
+- ~~LD9~~ — fait en S318 pour `outils/departement.ts lectures` (schéma, nom de fichier sûr) ; `assembler` relit ses propres fichiers. Constat d'origine : **des entrées écrites par des agents lues sans schéma**
   (`JSON.parse(...) as T`, par exemple `outils/departement.ts:204` et
   `:238`, `outils/centres-ajouts.ts:24`) : une validation Zod à l'entrée.
 - **LD10, les dépendances en retard** : React 19, TypeScript 7 et Vitest 5

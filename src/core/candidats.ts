@@ -1,3 +1,4 @@
+import { z } from './zod'
 import { ajoutSchema, type Ajout, type Lot } from './curation'
 import { classerCandidats, coeurDuNom, type CandidatClasse, type CandidatOsm } from './decouverte'
 import { BRIGNAIS, distanceKm } from './distance'
@@ -319,6 +320,60 @@ export interface LectureAgent {
   contact?: { tel?: string; site?: string; untappd?: string; source: string }
   /** Les blocs d'horaires lus (S262), sans date : elle est celle de la lecture. */
   horaires?: ({ nature: 'accueil' | 'vente'; source: string } & Record<string, unknown>)[]
+}
+
+/**
+ * La forme d'une lecture d'agent (S318, LD9) : écrite par un agent à partir
+ * de pages du web, c'est une entrée non sûre. Le reste (catégorie, sources,
+ * contact) est revalidé ensuite au schéma d'un ajout (`assemblerLot`).
+ */
+export const lectureAgentSchema = z.object({
+  // Bornée : une clé de 300 caractères faisait planter l'écriture sous
+  // Windows, au milieu de la boucle (revue adverse S318). 120 : les clés
+  // réelles (« osm:node/… », « sirene:… ») font moins de 40 caractères.
+  cle: z.string().min(1).max(120),
+  n: z.string().min(1),
+  c: z.string().min(1),
+  adresse: z.string().nullable(),
+  cat: z.number().int(),
+  conf: z.string(),
+  note: z.string(),
+  src: z.string(),
+  extrait: z.string(),
+  beers: z.array(z.unknown()),
+  choix: z.string().optional(),
+  contact: z
+    .object({ tel: z.string().optional(), site: z.string().optional(), untappd: z.string().optional(), source: z.string() })
+    .optional(),
+  horaires: z.array(z.looseObject({ nature: z.enum(['accueil', 'vente']), source: z.string() })).optional(),
+})
+
+/** Les lectures d'un fichier d'agent, ou les erreurs avec leur chemin (comme `lireLot`). */
+export function lireLecturesAgent(brut: unknown): { ok: true; lectures: LectureAgent[] } | { ok: false; erreurs: string[] } {
+  const r = z.array(lectureAgentSchema).safeParse(brut)
+  if (!r.success) return { ok: false, erreurs: r.error.issues.map((i) => `${i.path.join('.')} : ${i.message}`) }
+  // Deux clés qui donnent le même fichier : la seconde écraserait la première
+  // sans bruit (revue adverse S318). Comparées sans la casse, comme Windows.
+  const vus = new Map<string, number>()
+  const erreurs: string[] = []
+  r.data.forEach((l, i) => {
+    const nom = nomDeFichierDeLecture(l.cle).toLowerCase()
+    const avant = vus.get(nom)
+    if (avant !== undefined) erreurs.push(`${String(i)}.cle : même nom de fichier que la lecture ${String(avant)} (« ${nom} »)`)
+    else vus.set(nom, i)
+  })
+  if (erreurs.length > 0) return { ok: false, erreurs }
+  return { ok: true, lectures: r.data as LectureAgent[] }
+}
+
+/**
+ * Le nom du fichier où une lecture est gardée : seuls lettres, chiffres,
+ * `.`, `_` et `-` restent, pas de point en tête, jamais vide (S318 : la clé
+ * vient d'un agent ; `..\` écrivait hors du dossier sous Windows).
+ */
+export function nomDeFichierDeLecture(cle: string): string {
+  const nom = cle.replace(/[^A-Za-z0-9._-]/g, '-').replace(/^\.+/, '')
+  return nom === '' ? 'lecture' : nom
 }
 
 /**
