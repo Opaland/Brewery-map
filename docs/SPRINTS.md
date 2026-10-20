@@ -2887,3 +2887,6 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S319 — Barre décollée, le focus reste près du geste *(20/10)*
 
 `docs/stories/S319.md`. Reste de la revue adverse S304. Barre décollée (texte agrandi), « Voir les brasseries autour du départ » et le retrait d'un favori en mode « seulement » ne posent plus le focus sur le compte, en fin de page : `focusApresGeste` vise le champ de recherche, ou la ligne voisine, cadrée par son haut après le rendu. Revue adverse : nom coupé en haut sur une ligne plus haute que l'écran, corrigé et testé ; clavier virtuel non mesuré, au BACKLOG.
+## S322 — Une fiche peut déménager *(20/10)*
+
+`docs/stories/S322.md`. Cédric, le 20/10 : « OK » aux trois déménagements. `changementsSchema` accepte `c` et `d`, ensemble, avec l'adresse et une position entière (à l'adresse ou au centre IGN) ; le nom reste exclu. Le lot des trois fiches suit dans une PR de données.

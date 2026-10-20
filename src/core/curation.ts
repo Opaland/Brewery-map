@@ -23,8 +23,10 @@ import {
 
 /**
   * Les champs qu'une proposition peut changer. Exclus (revue code S11) :
- * - l'identité (`n`, `c`, `d`) : déménager une fiche dans une autre commune
- *   n'est prévu par aucune procédure (S82) ;
+ * - le nom `n` : c'est la clé des favoris et du carnet ;
+ * - la commune `c` et le département `d` seuls : un déménagement (S322,
+ *   Cédric le 20/10) les change ensemble, avec l'adresse et une position
+ *   entière dans la nouvelle commune (à l'adresse, ou à son centre IGN) ;
  * - `km` : recalculé depuis Brignais quand la position change (S52) ;
  * - une coordonnée seule : la position (`lat`, `lon`, `coordPrecision`) se
  *   propose entière, jamais vers un point communal (S52, Cédric le
@@ -33,7 +35,7 @@ import {
  *   part affichait une date dans le diff et en écrivait une autre.
  */
 const changementsSchema = brasserieObjetSchema
-  .omit({ n: true, c: true, d: true, km: true, verifieLe: true })
+  .omit({ n: true, km: true, verifieLe: true })
   .partial()
   .refine((c) => Object.keys(c).length > 0, { message: 'une proposition change au moins un champ' })
   .refine(
@@ -41,6 +43,12 @@ const changementsSchema = brasserieObjetSchema
     { message: 'une position se propose entière : lat, lon et coordPrecision' },
   )
     .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche à une position communale' })
+  .refine(
+    (c) =>
+      (c.c === undefined && c.d === undefined) ||
+      (c.c !== undefined && c.d !== undefined && c.addr !== undefined && (c.coordPrecision === 'address' || c.coordPrecision === 'centre')),
+    { message: 'un déménagement change ensemble la commune, le département, l’adresse et la position (address ou centre)' },
+  )
   // « osm » est la précision des fiches venues d'OpenStreetMap (S14, S25), pas
   // une position qu'un vérificateur affirme (revue adverse S54).
   .refine((c) => c.coordPrecision !== 'osm', { message: '« osm » est réservé aux fiches venues d’OpenStreetMap' })

@@ -16,7 +16,7 @@ import {
   type Lot,
 } from '../../src/core/curation'
 import { centreConfirme } from '../../src/core/candidats'
-import { BRIGNAIS } from '../../src/core/distance'
+import { BRIGNAIS, distanceKm } from '../../src/core/distance'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -167,6 +167,53 @@ describe('proposer une position (S52, Cédric le 17/10 : « la localisation ne c
   it('le diff dit de combien la fiche bouge sur la carte', () => {
     const texte = diffLisible(TOUTES, { lot: 'x', propositions: [deplacement] })
     expect(texte).toMatch(/déplacement sur la carte : \d+,\d km/)
+  })
+})
+
+describe('déménager une fiche (S322, Cédric le 20/10 : « OK »)', () => {
+  const ADRESSE = 'https://data.geopf.fr/geocodage/search?q=4215+route+de+Jonzieux%2C+42660+Marlhes&limit=5'
+  const MAIRIE = 'https://data.geopf.fr/geocodage/search?q=Marlhes&type=municipality&limit=5'
+  const demenagement = {
+    ...proposition,
+    changements: { c: 'Marlhes', d: '42', addr: '4215 route de Jonzieux, 42660 Marlhes', lat: 45.302684, lon: 4.371627, coordPrecision: 'address' as const },
+    sources: [ADRESSE],
+  }
+  const lu = (p: object) => lireLot({ lot: 'x', propositions: [p] }, AUJOURDHUI)
+
+  it('commune, département, adresse et position entière, ensemble : accepté', () => {
+    expect(lu(demenagement).ok).toBe(true)
+    const auCentre = { ...demenagement, changements: { ...demenagement.changements, coordPrecision: 'centre' as const }, sources: [MAIRIE] }
+    expect(lu(auCentre).ok).toBe(true)
+  })
+
+  it('refuse un morceau de déménagement, avec sa raison', () => {
+    const { c, d, addr, lat, lon, coordPrecision } = demenagement.changements
+    for (const changements of [
+      { c, addr, lat, lon, coordPrecision },
+      { d, addr, lat, lon, coordPrecision },
+      { c, d, lat, lon, coordPrecision },
+      { c, d, addr },
+      { c, d, addr, lat, lon, coordPrecision: 'commune' },
+    ]) {
+      const r = lu({ ...demenagement, changements })
+      expect(r.ok).toBe(false)
+    }
+    const r = lu({ ...demenagement, changements: { c, d, addr } })
+    expect(r.ok ? '' : r.erreurs.join(' ')).toContain('déménagement')
+  })
+
+  it('le nom reste exclu : c’est la clé des favoris et du carnet', () => {
+    expect(lu({ ...demenagement, changements: { ...demenagement.changements, n: 'Autre' } }).ok).toBe(false)
+  })
+
+  it('appliqué, la fiche change de commune, et km suit la position', () => {
+    const r = appliquerLot(TOUTES, { lot: 'x', propositions: [demenagement] }, new Set([1]))
+    if (!r.ok) throw new Error(r.erreurs.join('\n'))
+    const fiche = r.brasseries.find((b) => b.n === NOM)
+    expect(fiche?.c).toBe('Marlhes')
+    expect(fiche?.d).toBe('42')
+    expect(fiche?.addr).toBe('4215 route de Jonzieux, 42660 Marlhes')
+    expect(fiche?.km).toBe(Math.round(distanceKm(BRIGNAIS, { lat: 45.302684, lon: 4.371627 }) * 10) / 10)
   })
 })
 
