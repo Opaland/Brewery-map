@@ -2855,3 +2855,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - La provenance groupe les lectures par site : « Lu sur labrasseriestephanoise.com : la fiche le 17 octobre 2026, les coordonnées le 16 octobre 2026, les horaires le 18 octobre 2026. » ; chaque lecture garde le lien de sa page. Le contact et le tableau ne disent plus « Lu le … sur ».
 - `natureEnTete` (l'accueil, sinon la vente) : une règle pour la liste, « En bref » et le tableau ; « En bref » porte l'heure de référence, le tableau ne redit pas l'état de cette nature.
 - L'aperçu des lots rend la provenance : un lot qui change une source ou une date se voit (revue adverse).
+
+## S313 — Les captures du README montrent l'application d'aujourd'hui *(20/10)*
+
+`docs/stories/S313.md`. Sept captures refaites (`outils/captures.ts`) ; le GIF gardé (pas de `ffmpeg` sur le poste). Vu sur la capture : les liens de la provenance écartaient les lignes ; un lien au fil d'un texte reste en ligne.

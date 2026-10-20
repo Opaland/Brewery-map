@@ -1021,6 +1021,11 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
    (vu sur la capture de S308) : la cible de 44 px suffit à les séparer. */
 .fiche-manque .fiche-liens { row-gap: 0; }
 .fiche-provenance { margin: 0 0 var(--espace-2); }
+/* Un lien au fil d'une phrase reste en ligne : à 44 px de haut (`.fiche a`),
+   il écartait les lignes de la provenance (vu sur la capture de S313).
+   WCAG 2.5.8 exempte les liens dans un texte ; `accessibilite.spec.ts`
+   aussi (un lien dont le paragraphe porte d'autres mots). */
+.fiche-provenance a { display: inline; min-height: 0; }
 .fiche details > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
 .ligne-ouvert { display: block; font-size: var(--texte-secondaire); font-weight: 600; color: var(--encre-douce); }
 .fiche-lexique { margin: 0 0 var(--espace-4); font-size: var(--texte-secondaire); color: var(--encre-douce); }
