@@ -3,6 +3,7 @@ import { z } from './zod'
 import { CATEGORIES } from './categories'
 import { BRIGNAIS, distanceKm, kmFr, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
+import { adresseDeRue } from './fiche'
 import {
   brasserieObjetSchema,
   brasserieSchema,
@@ -22,9 +23,30 @@ import {
  */
 
 /**
+ * Le département d'un code postal : deux chiffres, trois outre-mer (97, 98),
+ * « 2A » ou « 2B » pour la Corse (20), que le code seul ne départage pas.
+ */
+function departementsDuCode(cp: string): readonly string[] {
+  if (cp.startsWith('20')) return ['2A', '2B']
+  return [cp.startsWith('97') || cp.startsWith('98') ? cp.slice(0, 3) : cp.slice(0, 2)]
+}
+
+/**
+ * Un déménagement (S322) : une adresse de rue avec son code postal, dont le
+ * département est `d` (revue adverse S322 : « Marlhes (69) » passait).
+ */
+function demenagementCoherent(c: { c?: string | undefined; d?: string | undefined; addr?: string | undefined }): boolean {
+  if (c.c === undefined || c.d === undefined || c.addr === undefined) return false
+  const cp = /\b(\d{5})\b/.exec(c.addr)?.[1]
+  return cp !== undefined && departementsDuCode(cp).includes(c.d) && adresseDeRue({ addr: c.addr, c: c.c })
+}
+
+/**
   * Les champs qu'une proposition peut changer. Exclus (revue code S11) :
- * - l'identité (`n`, `c`, `d`) : déménager une fiche dans une autre commune
- *   n'est prévu par aucune procédure (S82) ;
+ * - le nom `n` : c'est la clé des favoris et du carnet ;
+ * - la commune `c` et le département `d` seuls : un déménagement (S322,
+ *   Cédric le 20/10) les change ensemble, avec l'adresse et une position
+ *   entière dans la nouvelle commune (à l'adresse, ou à son centre IGN) ;
  * - `km` : recalculé depuis Brignais quand la position change (S52) ;
  * - une coordonnée seule : la position (`lat`, `lon`, `coordPrecision`) se
  *   propose entière, jamais vers un point communal (S52, Cédric le
@@ -33,7 +55,7 @@ import {
  *   part affichait une date dans le diff et en écrivait une autre.
  */
 const changementsSchema = brasserieObjetSchema
-  .omit({ n: true, c: true, d: true, km: true, verifieLe: true })
+  .omit({ n: true, km: true, verifieLe: true })
   .partial()
   .refine((c) => Object.keys(c).length > 0, { message: 'une proposition change au moins un champ' })
   .refine(
@@ -41,6 +63,12 @@ const changementsSchema = brasserieObjetSchema
     { message: 'une position se propose entière : lat, lon et coordPrecision' },
   )
     .refine((c) => c.coordPrecision !== 'commune', { message: 'une proposition ne ramène pas une fiche à une position communale' })
+  .refine(
+    (c) =>
+      (c.c === undefined && c.d === undefined) ||
+      (demenagementCoherent(c) && (c.coordPrecision === 'address' || c.coordPrecision === 'centre')),
+    { message: 'un déménagement change ensemble la commune, le département, l’adresse de rue (code postal du département) et la position (address ou centre)' },
+  )
   // « osm » est la précision des fiches venues d'OpenStreetMap (S14, S25), pas
   // une position qu'un vérificateur affirme (revue adverse S54).
   .refine((c) => c.coordPrecision !== 'osm', { message: '« osm » est réservé aux fiches venues d’OpenStreetMap' })

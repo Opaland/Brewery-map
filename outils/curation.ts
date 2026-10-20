@@ -51,7 +51,9 @@ import {
   horairesSurLaPage,
   revuesDesFichiers,
   estUneRequeteDeCommune,
+  GEOCODEUR,
 } from '../src/core/curation'
+import { normaliser } from '../src/core/recherche'
 import { apercuDuNumero } from '../src/apercu'
 import * as React from 'react'
 import { centreConfirme } from '../src/core/candidats'
@@ -137,12 +139,32 @@ async function controler(chemin: string | undefined) {
         echecs++
       }
     }
-    // S268 : le centre IGN se relit au géocodeur, pour la commune de la fiche.
+    // S268 : le centre IGN se relit au géocodeur, pour la commune de la fiche ;
+    // celle où elle va, si elle déménage (S322).
     if (p.changements.coordPrecision === 'centre') {
       const fiche = donnees().find((b) => b.n === p.n)
       const { lat, lon } = p.changements
-      const ok = fiche !== undefined && lat !== undefined && lon !== undefined && centreRelu(p.sources, (u) => pages.get(u), { d: fiche.d, c: fiche.c, lat, lon })
-      console.log(`${String(i + 1)}. ${p.n} — centre IGN de ${fiche?.c ?? '?'} : ${ok ? 'confirmé' : 'ABSENT'}`)
+      const c = p.changements.c ?? fiche?.c
+      const d = p.changements.d ?? fiche?.d
+      const ok = c !== undefined && d !== undefined && lat !== undefined && lon !== undefined && centreRelu(p.sources, (u) => pages.get(u), { d, c, lat, lon })
+      console.log(`${String(i + 1)}. ${p.n} — centre IGN de ${c ?? '?'} : ${ok ? 'confirmé' : 'ABSENT'}`)
+      if (!ok) echecs++
+    }
+    // S322 : une fiche qui déménage à une adresse : le géocodeur cité la place
+    // bien dans sa nouvelle commune (revue adverse S322 : un point à Paris
+    // passait).
+    if (p.changements.c !== undefined && p.changements.coordPrecision === 'address') {
+      const requete = p.sources.find((u) => u.startsWith(GEOCODEUR))
+      const villes = (() => {
+        try {
+          const r = JSON.parse(pages.get(requete ?? '') ?? 'null') as { features?: { properties?: { city?: string } }[] } | null
+          return (r?.features ?? []).slice(0, 1).map((x) => normaliser(x.properties?.city ?? ''))
+        } catch {
+          return []
+        }
+      })()
+      const ok = villes.includes(normaliser(p.changements.c))
+      console.log(`${String(i + 1)}. ${p.n} — adresse dans ${p.changements.c} : ${ok ? 'confirmée' : 'ABSENTE'}`)
       if (!ok) echecs++
     }
     const tel = p.changements.contact?.tel
