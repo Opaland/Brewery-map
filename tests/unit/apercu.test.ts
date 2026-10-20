@@ -56,8 +56,8 @@ describe('S300 : la fiche en texte, par les composants de la page', () => {
     }
     const texte = apercuDuNumero(TOUTES, lot, 1, MAINTENANT)
     expect(texte).toContain('Appeler le 04 72 50 88 53')
-    // « Téléphone : non renseigné. » était sur la fiche avant : il disparaît.
-    expect(texte).toMatch(/Ne s’affichera plus[^]*Téléphone : non renseigné\./)
+    // Le téléphone manquait, dit en tête de fiche (S308) : la phrase change.
+    expect(texte).toMatch(/Ne s’affichera plus[^]*Pas encore dans la fiche : [^.]*son téléphone/)
     expect(texte).toContain('19 octobre 2026')
     // En Markdown, des lignes de citation se fondraient en un paragraphe :
     // chaque ligne de la fiche est un élément de liste.

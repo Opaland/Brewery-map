@@ -256,12 +256,13 @@ test('Inès : chercher, ouvrir la fiche et la parcourir au clavier seul', async 
   // Le favori est en chemin, après ce qui sert à y aller.
   expect(vus).toContain('bouton-favori')
   expect(vus.indexOf('bouton-favori')).toBeGreaterThan(0)
-  // La fiche a ses titres : un lecteur d'écran saute de l'une à l'autre (S295).
+  // La fiche a ses titres : un lecteur d'écran saute de l'une à l'autre
+  // (S295). Une partie sans contenu n'a pas de titre (S308) : Caribrew n'a
+  // pas encore de bière, « Ses bières » n'y est pas.
   await expect(page.getByTestId('fiche').getByRole('heading', { level: 4 })).toHaveText([
     'Joindre la brasserie',
     'Horaires',
-    'Où',
-    'Ses bières',
+    'Y aller',
     'D’où vient cette fiche',
     'Pour moi',
   ])

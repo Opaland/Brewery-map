@@ -14,21 +14,19 @@ describe('« Y aller » dans la fiche (S19, Hugo)', () => {
     expect(html.match(/<a /g)).toHaveLength(4)
     expect(html.match(/target="_blank" rel="noopener noreferrer"/g)).toHaveLength(4)
     expect(html).toContain('Google Maps')
-    expect(html).not.toContain('Adresse inconnue')
   })
 
   it('sans adresse, il dit où mène l’itinéraire : le point approximatif de la carte', () => {
     // « Centre de la commune » n'est pas établi pour toutes (revue code S19) :
     // la fiche dit ce que dit la précision (S59 : ni centre ni écart chiffré).
-    const html = rendu({ ...base, c: 'Oullins', addr: 'Oullins' })
-    expect(html).toContain(
-      'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
+    const html = rendu({ ...base, c: 'Oullins', addr: 'Oullins', coordPrecision: 'commune' })
+    expect(html).toContain('L’itinéraire mène à un point approximatif, parfois à plusieurs kilomètres de la brasserie.')
+    expect(rendu({ ...base, c: 'Oullins', addr: 'Oullins', coordPrecision: 'centre' })).toContain(
+      'L’itinéraire mène au centre d’Oullins, pas à la brasserie.',
     )
   })
 
   it('dit ce qui part, et vers qui', () => {
-    expect(rendu(base)).toContain(
-      'Le lien ne contient que la destination. Votre position, l’application choisie la prend elle-même si vous le lui permettez.',
-    )
+    expect(rendu(base)).toContain('Le lien ne contient que la destination, pas votre position.')
   })
 })

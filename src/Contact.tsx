@@ -1,81 +1,60 @@
 import { citeUnNumero, hoteDeSource, libelleVerification, lienTelephone } from './core/fiche'
 import type { Brasserie } from './core/schema'
-import { rechercheGoogleMaps } from './core/google-maps'
-import { estDeOsm } from './core/osm-france'
-import { rechercheUntappd } from './core/untappd'
 import { t } from './i18n'
 import { LienExterne } from './LienExterne'
 
 /**
- * Joindre la brasserie (S4). Rien d'inventé : sans contact sourcé, la fiche
- * le dit. Les liens externes s'ouvrent à part et n'emportent rien de la
- * personne (`noreferrer`).
+ * Joindre la brasserie (S4). Rien d'inventé : seulement ce qui est sourcé.
+ * Ce qui manque (le téléphone, et où le chercher) est dit une fois en tête
+ * de fiche, pas ici ; sans rien à dire, la partie ne s'affiche pas (S308). Les liens externes s'ouvrent à part et
+ * n'emportent rien de la personne (`noreferrer`).
  */
 export function Contact({ brasserie }: { brasserie: Brasserie }) {
   const contact = brasserie.contact
-  const sansTelephone = citeUnNumero(brasserie.note)
-    ? t('Téléphone : pas de numéro vérifié. La source en cite un ci-dessus, non revérifié.')
-    : t('Téléphone : non renseigné.')
+  // Un numéro cité par la source, sans téléphone vérifié (revue métier S4).
+  const numeroCite =
+    contact?.tel === undefined && citeUnNumero(brasserie.note) ? (
+      <p>{t('La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.')}</p>
+    ) : null
   // Le nom de la brasserie, pour qui écoute la liste des liens.
   const pour = <span className="lecteur-seul"> {brasserie.n}</span>
-  // Sans lien Untappd vérifié, une recherche, dite comme telle (S51).
-  const chercher = (
-    <p className="fiche-aide" data-testid="chercher-untappd">
-      <LienExterne href={rechercheUntappd(brasserie.n)}>
-        {t('Chercher sur Untappd')}
-        {pour}
-      </LienExterne>{' '}
-      {t('(Untappd, une application d’avis sur les bières : une recherche par son nom, pas encore de lien vérifié vers sa page ; elle peut demander de se connecter)')}
-    </p>
-  )
-  // Sans téléphone vérifié, celui que montre Google Maps, dit comme une
-  // recherche (S267). Pas pour une fiche OpenStreetMap : sa commune est
-  // souvent déduite de sa position (579 sur 878 au 18/10, après S271), et la recherche
-  // irait ailleurs (revue adverse S267).
-  const telephoneMaps = estDeOsm(brasserie) ? null : (
-    <p className="fiche-aide" data-testid="telephone-google-maps">
-      <LienExterne href={rechercheGoogleMaps(brasserie.n, brasserie.c)}>
-        {t('Voir son téléphone sur Google Maps')}
-        {pour}
-      </LienExterne>{' '}
-      {t('(une recherche par son nom et sa commune : vérifiez que c’est la bonne brasserie)')}
-    </p>
-  )
+  const titre = <h4 className="fiche-titre">{t('Joindre la brasserie')}</h4>
   if (contact === undefined) {
+    if (numeroCite === null) return null
     return (
       <div className="fiche-contact" data-testid="fiche-contact">
-        <p>{sansTelephone}</p>
-        {telephoneMaps}
-        {chercher}
+        {titre}
+        {numeroCite}
       </div>
     )
   }
   return (
     <div className="fiche-contact" data-testid="fiche-contact">
+      {titre}
       {contact.tel !== undefined && (
         <a className="bouton-appeler" href={lienTelephone(contact.tel)}>
           {t('Appeler le {tel}', { tel: contact.tel })}
         </a>
       )}
-      {contact.tel === undefined && <p>{sansTelephone}</p>}
-      {contact.tel === undefined && telephoneMaps}
-      <p className="fiche-liens">
-        {contact.site !== undefined && (
-          <LienExterne href={contact.site}>
-            {t('Site de la brasserie')}
-            {pour}
-          </LienExterne>
-        )}
-        {contact.untappd !== undefined && (
-          <LienExterne href={contact.untappd}>
-            {t('Untappd (avis sur les bières)')}
-            {pour}
-          </LienExterne>
-        )}
-      </p>
-      {contact.untappd === undefined && chercher}
+      {numeroCite}
+      {(contact.site !== undefined || contact.untappd !== undefined) && (
+        <p className="fiche-liens">
+          {contact.site !== undefined && (
+            <LienExterne href={contact.site}>
+              {t('Site de la brasserie')}
+              {pour}
+            </LienExterne>
+          )}
+          {contact.untappd !== undefined && (
+            <LienExterne href={contact.untappd}>
+              {t('Untappd (avis sur les bières)')}
+              {pour}
+            </LienExterne>
+          )}
+        </p>
+      )}
       <p className="fiche-aide">
-        {t('Coordonnées lues le {date} sur', { date: libelleVerification(contact.verifieLe) })}{' '}
+        {t('Lu le {date} sur', { date: libelleVerification(contact.verifieLe) })}{' '}
         <LienExterne href={contact.source}>
           {hoteDeSource(contact.source)}
         </LienExterne>
@@ -84,4 +63,3 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
     </div>
   )
 }
-

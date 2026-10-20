@@ -2,10 +2,14 @@ import { describe, expect, it } from 'vitest'
 import {
   adresseDeRue,
   avertissementHoraires,
+  ceQuiManque,
+  deLaCommune,
+  phraseConfiance,
+  phraseDuManque,
+  phrasePosition,
   citeUnNumero,
   hoteDeSource,
   libelleConfiance,
-  libellePrecision,
   libelleVerification,
 } from '../../src/core/fiche'
 
@@ -18,31 +22,6 @@ describe('libelleConfiance', () => {
 
   it('ne dit rien de faux quand rien n’est évalué', () => {
     expect(libelleConfiance('')).toBe('non évaluée (aucune preuve retenue)')
-  })
-})
-
-describe('libellePrecision', () => {
-  it('un point OpenStreetMap n’est pas une adresse vérifiée (revue code S14)', () => {
-    expect(libellePrecision('osm')).toBe('point placé sur OpenStreetMap, non vérifié sur place')
-  })
-
-  it('au centre IGN de la commune : le dit, et dit que ce n’est pas l’adresse (S268)', () => {
-    expect(libellePrecision('centre')).toBe('au centre de la commune selon l’IGN : ce n’est pas l’adresse de la brasserie')
-  })
-
-  it('le point d’origine (« commune ») ne se dit pas centre : il ne l’est pas (S59, S268)', () => {
-    expect(libellePrecision('commune')).not.toMatch(/centre/i)
-  })
-
-  it('avoue l’approximation sans promettre un centre ni un écart chiffré (S59)', () => {
-    // Mesuré le 18/10 : 75 fiches sur 151 à plus de 2 km du centre de leur
-    // commune, jusqu'à 14,4 km (docs/PRECISION.md).
-    const libelle = libellePrecision('commune')
-    expect(libelle).toBe(
-      'approximative : ce point n’est pas l’adresse de la brasserie, et peut en être à plusieurs kilomètres',
-    )
-    expect(libelle).not.toMatch(/centre|\d/)
-    expect(libellePrecision('address')).toBe('à l’adresse vérifiée')
   })
 })
 
@@ -101,5 +80,50 @@ describe('adresseDeRue (S295 : 113 fiches sur 348 n’ont que la commune pour ad
   it('une rue, un lieu-dit ou une zone d’activités en est une', () => {
     expect(adresseDeRue(b('12 rue de la Bière, 69600 Oullins'))).toBe(true)
     expect(adresseDeRue(b('Kermenguy, 29100 Le Juch', 'Le Juch'))).toBe(true)
+  })
+})
+
+// S308 : ce qui manque se dit une fois, en langue courante.
+describe('ceQuiManque et phraseDuManque', () => {
+  const vide = { addr: 'Brignais', c: 'Brignais', note: '', beers: [] }
+  it('liste ce qui manque, dans l’ordre de la fiche', () => {
+    expect(ceQuiManque(vide)).toEqual(['adresse', 'telephone', 'horaires', 'bieres'])
+    expect(phraseDuManque(ceQuiManque(vide))).toBe('Pas encore dans la fiche : son adresse, son téléphone, ses horaires et ses bières.')
+  })
+  it('un seul manque : sans « et »', () => {
+    expect(phraseDuManque(['bieres'])).toBe('Pas encore dans la fiche : ses bières.')
+    expect(phraseDuManque(['adresse', 'bieres'])).toBe('Pas encore dans la fiche : son adresse et ses bières.')
+    expect(phraseDuManque([])).toBe('')
+  })
+  it('un numéro cité par la source n’est pas dit inconnu (revue métier S4)', () => {
+    expect(ceQuiManque({ ...vide, note: 'Appeler au 04 72 00 00 00.' })).not.toContain('telephone')
+  })
+  it('une adresse de rue n’est plus un manque', () => {
+    expect(ceQuiManque({ ...vide, addr: '2A route de Lyon, 69530 Brignais' })).not.toContain('adresse')
+  })
+})
+
+describe('phrasePosition et phraseConfiance', () => {
+  it('dit où mène l’itinéraire sans adresse, et le point avec ; rien à l’adresse vérifiée', () => {
+    expect(phrasePosition({ coordPrecision: 'centre', c: 'Brignais', addr: 'Brignais' })).toBe('L’itinéraire mène au centre de Brignais, pas à la brasserie.')
+    expect(phrasePosition({ coordPrecision: 'centre', c: 'Brignais', addr: '2A route de Lyon, 69530 Brignais' })).toBe('Sur la carte, le point est le centre de Brignais, pas la brasserie.')
+    expect(phrasePosition({ coordPrecision: 'address', c: 'Brignais', addr: '2A route de Lyon' })).toBe('')
+  })
+  it('« appelez » seulement si un numéro est connu (revue métier S17)', () => {
+    expect(phraseConfiance({ conf: 'faible', note: '' })).toBe('Confiance faible : lisez la source avant d’y aller.')
+    expect(phraseConfiance({ conf: 'faible', note: '', contact: { tel: '04 00 00 00 00', source: 'https://x.test/', verifieLe: '2026-10-20' } })).toBe(
+      'Confiance faible : appelez ou lisez la source avant d’y aller.',
+    )
+  })
+})
+describe('deLaCommune', () => {
+  it('élide, contracte, ou laisse « de »', () => {
+    expect(deLaCommune('Brignais')).toBe('de Brignais')
+    expect(deLaCommune('Oullins')).toBe('d’Oullins')
+    expect(deLaCommune('Écully')).toBe('d’Écully')
+    expect(deLaCommune('Le Puy-en-Velay')).toBe('du Puy-en-Velay')
+    expect(deLaCommune('Les Ollières')).toBe('des Ollières')
+    expect(deLaCommune('La Mulatière')).toBe('de La Mulatière')
+    expect(deLaCommune('Hauteville-Lompnes')).toBe('de Hauteville-Lompnes')
   })
 })

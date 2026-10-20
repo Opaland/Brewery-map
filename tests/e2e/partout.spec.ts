@@ -38,7 +38,7 @@ test.describe('chercher une commune de départ, partout en France', () => {
     // Distincte sans ouvrir la fiche ; la fiche dit où corriger, et où mène « Y aller ».
     await expect(page.locator('button.ligne').first().getByTestId('badge-osm')).toHaveText('· OpenStreetMap')
     await expect(fiche.getByTestId('corriger-osm')).toContainText('corriger à la source')
-    await expect(fiche.getByTestId('y-aller-osm')).toContainText('point placé sur OpenStreetMap')
+    await expect(fiche.getByTestId('fiche-precision')).toHaveText('L’itinéraire mène au point placé sur OpenStreetMap, non vérifié sur place.')
     await expect(fiche.getByTestId('fiche-note-osm')).toContainText('rien d’autre n’est vérifié')
   })
 

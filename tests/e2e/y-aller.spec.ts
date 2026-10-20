@@ -51,8 +51,9 @@ test.describe('« Y aller » (Hugo)', () => {
   test('sans adresse, la fiche dit que l’itinéraire mène au point approximatif', async ({ page }) => {
     await page.goto('/')
     await liensDe(page, 'Bulles d\'Orge')
-    await expect(page.getByTestId('y-aller-commune')).toHaveText(
-      'Adresse inconnue : l’itinéraire mène au point de la carte, qui n’est pas l’adresse et peut en être à plusieurs kilomètres.',
+    // S308 : en une phrase (Bulles d'Orge : point d'origine, approximatif).
+    await expect(page.getByTestId('fiche-precision')).toHaveText(
+      'L’itinéraire mène à un point approximatif, parfois à plusieurs kilomètres de la brasserie.',
     )
   })
 })

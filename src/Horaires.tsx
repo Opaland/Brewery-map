@@ -91,8 +91,8 @@ function Tableau({ blocs, bloc, maintenant, avecMaintenant }: { blocs: Blocs; bl
 /**
  * Les horaires de la fiche (S6). Structurés seulement quand une source les
  * donne : un bloc par nature (accueil, vente), la remarque au-dessus du
- * tableau. Sinon, la fiche le dit et renvoie à la justification, sans la
- * réinterpréter.
+ * tableau. Sinon, rien : ce qui manque est dit une fois en tête de fiche
+ * (S308).
  */
 export function Horaires({
   brasserie,
@@ -105,17 +105,12 @@ export function Horaires({
   const horloge = useMinute()
   const instant = maintenant ?? horloge
   const blocs = brasserie.horaires
-  if (blocs === undefined) {
-    return (
-      <p className="fiche-horaires" data-testid="fiche-horaires">
-        {t(
-          'Horaires : aucun horaire vérifié jour par jour. S’il y en a de connus, ils sont cités dans « Ce que dit la source », plus haut.',
-        )}
-      </p>
-    )
-  }
+  // Sans horaires, la partie ne s'affiche pas : la fiche le dit une fois,
+  // en tête (S308).
+  if (blocs === undefined) return null
   return (
     <div className="fiche-horaires" data-testid="fiche-horaires">
+      <h4 className="fiche-titre">{t('Horaires')}</h4>
       {blocs.map((b, i) => {
         // L'état du moment, une fois par nature : sur le bloc de la saison
         // du jour, ou sur le premier de la nature hors de toute période (S299).

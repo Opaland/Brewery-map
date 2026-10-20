@@ -398,3 +398,14 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **« La plus proche » et le carnet** : « pas encore visitées » coché et tout le rayon visité, le compte dit « tout est dans votre carnet » et, dessous, « La plus proche : X, à 280 km » (une non visitée). Vrai, mais se lit comme une contradiction ; à formuler (« la plus proche pas encore visitée »).
 - **« Aucune brasserie dans le département … avec ces filtres » n'a plus d'e2e** : le test S31 (`idees.spec.ts`) y arrivait en décochant toutes les catégories, cas qui a désormais son propre message (S303). Le retrouver par un autre filtre qui vide un département, et vérifier qu'il n'accuse pas les filtres quand c'est le texte qui vide la liste.
 - **Une annonce identique ne se ré-annonce pas** (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
+
+## S308 — restes (revues du 20/10 : adverse, persona Marie)
+
+- **Trois dates sur une fiche riche** : « Lu le 16 octobre » (contact), « Lus le 18 octobre » (horaires), « Vérifiée le 17 octobre » (fiche) ; 14 fiches complètes sur 32 ont trois dates différentes. Marie ne sait pas laquelle compte. Piste : une seule date, la plus ancienne, dans la provenance.
+- **« Maintenant » dit deux fois** quand il y a des horaires (« En bref » puis le tableau, avec l'heure).
+- **Le vocabulaire de la confiance** (« Confiance faible / moyenne / élevée ») reste un mot de fichier ; le repli parle de « catégorie ». À reformuler avec une vraie personne.
+- **Signaler sans compte GitHub** : la fiche demande à la brasserie d'envoyer son site par « Signaler une erreur », qui exige GitHub (rejoint la décision de Cédric sur une voie hors GitHub, S10).
+- **L'affichette de comptoir** ferme chaque fiche avec un texte adressé à la brasserie, pas à la personne.
+- **Bières « autre »** (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.
+- **L'aperçu des lots** (`src/apercu.ts`) rend la tête de fiche (En bref, ce qui manque, Joindre, Horaires, Bières), pas « Y aller » ni la provenance : le renvoi « Ce que dit la source, plus haut » n'y a pas de cible.
+- **Les captures du README** (`docs/captures/telephone-fiche.png`) montrent l'ancienne fiche : à régénérer (`outils/captures.ts`).

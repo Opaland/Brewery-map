@@ -108,4 +108,5 @@ Présente dans le fichier, **jamais lue** : l'application calcule la sienne
   lieu d'accueil et on le dit.
 - `untappd` : une page d'untappd.com, rien d'autre. On lie, on ne recopie ni
   notes ni avis.
-- Absent : la fiche dit « Téléphone : non renseigné. »
+- Absent : la fiche le dit une fois, en tête, avec le reste de ce qui
+  manque (« Pas encore connus : son adresse, son téléphone… », S308).

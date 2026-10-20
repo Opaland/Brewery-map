@@ -38,6 +38,7 @@
     "src/LienExterne.tsx",
     "src/EnFrancais.tsx",
     "src/EnBref.tsx",
+    "src/Fiche.tsx",
     "src/apercu.ts",
     "src/cacheTuiles.ts",
     "src/ChoixCommune.tsx",
