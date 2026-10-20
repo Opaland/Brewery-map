@@ -255,6 +255,32 @@ export function App({
   }, [])
   const compte = useRef<HTMLParagraphElement>(null)
   const barre = useHauteurBarre()
+  const recherche = useRef<HTMLInputElement>(null)
+  /**
+   * Après un geste qui fait disparaître le bouton touché, le focus va au
+   * compte, qui dit ce qui s'est passé. Barre décollée (texte agrandi, S304),
+   * le compte est en fin de page et le navigateur y emmenait la page : on
+   * vise alors `repli`, près du geste (S319). Le compte, région « status »,
+   * annonce quand même. Écarté : `preventScroll` sur le compte, qui laisse le
+   * focus hors de l'écran et fait sauter la page à la touche Tab suivante.
+   * Le repli est cadré par son haut : à 200 %, une ligne dépasse la hauteur
+   * de l'écran, et le cadrage du navigateur en coupait le nom (revue S319).
+   * Le clavier virtuel qu'ouvrirait le champ de recherche n'est pas mesuré
+   * (Playwright ne le simule pas) : à essayer sur un vrai téléphone.
+   */
+  const focusApresGeste = (repli: HTMLElement | null | undefined) => {
+    const decollee = barre.current?.hasAttribute('data-decollee') === true
+    if (!decollee || !repli) {
+      compte.current?.focus()
+      return
+    }
+    repli.focus({ preventScroll: true })
+    // Après le rendu : la ligne retirée, au-dessus, fait encore remonter la
+    // voisine quand elle disparaît.
+    requestAnimationFrame(() => {
+      repli.scrollIntoView({ block: 'start' })
+    })
+  }
   const { enLigne, pretHorsLigne } = useConnexion()
 
   // Chaque changement est gardé sur l'appareil (S9). Le texte tapé et la
@@ -461,8 +487,12 @@ export function App({
     if (!retrait) stockage.proteger()
     setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }))
     // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
-    // focus dedans : on le pose sur le compte, qui dit ce qui s'est passé.
-    if (retrait && favorisSeulement) compte.current?.focus()
+    // focus dedans : sa voisine sert de repli, la suivante d'abord.
+    if (retrait && favorisSeulement) {
+      const ouverte = document.querySelector('[data-testid="liste"] li.ouverte')
+      const voisine = (ouverte?.nextElementSibling ?? ouverte?.previousElementSibling)?.querySelector<HTMLButtonElement>(':scope > .ligne')
+      focusApresGeste(voisine)
+    }
   }
 
   /**
@@ -597,6 +627,7 @@ export function App({
               setTexte(e.target.value)
             }}
             placeholder={t('ex. Lyon, Oullins, Ninkasi…')}
+            ref={recherche}
             data-testid="recherche"
           />
         </label>
@@ -636,8 +667,9 @@ export function App({
                   // fiche (revue adverse S31).
                   window.history.replaceState(null, '', window.location.pathname + window.location.search)
                   // Le bouton disparaît : le focus va au compte, qui dit la
-                  // nouvelle liste (revue adverse S31 ; il tombait en haut).
-                  compte.current?.focus()
+                  // nouvelle liste (revue adverse S31 ; il tombait en haut),
+                  // ou au champ juste au-dessus si la barre est décollée.
+                  focusApresGeste(recherche.current)
                 }}
                 data-testid="effacer-recherche"
               >

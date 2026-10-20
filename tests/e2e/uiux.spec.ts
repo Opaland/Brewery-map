@@ -302,3 +302,65 @@ test('sans agrandissement, la barre reste collée (412 × 839)', async ({ page }
   await page.setViewportSize({ width: 412, height: 839 })
   await expect.poll(() => page.locator('.barre-compte').evaluate((b) => getComputedStyle(b).position)).toBe('sticky')
 })
+
+/** S319 : barre décollée, le focus reste près du geste au lieu d'aller au compte, en fin de page. */
+test.describe('barre décollée (320 × 568, texte à 200 %)', () => {
+  const peintALEcran = (page: Page) =>
+    page.evaluate(() => {
+      const el = document.activeElement
+      if (!(el instanceof HTMLElement)) return false
+      const r = el.getBoundingClientRect()
+      const vu = document.elementFromPoint(r.left + r.width / 2, r.top + Math.min(r.height / 2, 10))
+      return vu !== null && (el === vu || el.contains(vu) || vu.contains(el))
+    })
+  const decollee = (page: Page) =>
+    expect.poll(() => page.locator('.barre-compte').evaluate((b) => b.hasAttribute('data-decollee'))).toBe(true)
+  test.beforeEach(async ({ page }) => {
+    await page.setViewportSize({ width: 320, height: 568 })
+    await page.addStyleTag({ content: 'html { font-size: 200% !important; } * { transition: none !important; scroll-behavior: auto !important; }' })
+  })
+
+  test('effacer la recherche d’un lien partagé : le focus va au champ de recherche', async ({ page }) => {
+    // Même document que « / » (beforeEach) : sans recharger, l'ancre ne serait pas lue.
+    await page.goto('/#fiche=Tom%20%26%20Co')
+    await page.reload()
+    await expect(page.getByTestId('lien-partage-aide')).toBeVisible()
+    await page.addStyleTag({ content: 'html { font-size: 200% !important; } * { transition: none !important; scroll-behavior: auto !important; }' })
+    await decollee(page)
+    await page.getByTestId('effacer-recherche').scrollIntoViewIfNeeded()
+    await page.getByTestId('effacer-recherche').click()
+    await expect(page.getByTestId('recherche')).toBeFocused()
+    await expect.poll(() => peintALEcran(page)).toBe(true)
+  })
+
+  // Quatre favoris, le deuxième retiré : la page reste longue, et une ligne
+  // plus haute que l'écran pouvait recevoir le focus nom coupé en haut
+  // (revue adverse S319).
+  test('retirer un favori en mode « seulement » : le focus va à la ligne voisine, son haut à l’écran', async ({ page }) => {
+    const noms: string[] = []
+    for (const i of [0, 1, 2, 3]) {
+      const bouton = page.locator('button.ligne').nth(i)
+      noms.push((await bouton.getAttribute('data-nom')) ?? '')
+      await bouton.dispatchEvent('click')
+      await page.getByTestId('bouton-favori').dispatchEvent('click')
+      await bouton.dispatchEvent('click')
+    }
+    await ouvrirFiltres(page)
+    await page.getByTestId('favoris-seulement').check()
+    await expect(page.locator('button.ligne')).toHaveCount(4)
+    const ordre = await page.locator('button.ligne').evaluateAll((bs) => bs.map((b) => b.getAttribute('data-nom') ?? ''))
+    await page.locator(`button.ligne[data-nom="${ordre[1]}"]`).dispatchEvent('click')
+    await decollee(page)
+    await page.getByTestId('bouton-favori').scrollIntoViewIfNeeded()
+    await page.getByTestId('bouton-favori').focus()
+    await page.keyboard.press('Enter')
+    await expect(page.locator('button.ligne')).toHaveCount(3)
+    await expect(page.locator(`button.ligne[data-nom="${ordre[2]}"]`)).toBeFocused()
+    await expect.poll(() => peintALEcran(page)).toBe(true)
+    // Le haut de la ligne, où est son nom, est dans l'écran (à un pixel
+    // près : le cadrage tombe sur un sous-pixel, -0,44 mesuré).
+    await expect
+      .poll(() => page.evaluate(() => { const t = document.activeElement?.getBoundingClientRect().top ?? -9; return t > -1 && t < window.innerHeight }))
+      .toBe(true)
+  })
+})
