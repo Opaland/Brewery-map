@@ -48,6 +48,7 @@ import { CarteDifferee } from './CarteDifferee'
 import { FiltreType } from './FiltreType'
 import { Installer } from './Installer'
 import { MiseAJour } from './MiseAJour'
+import { LimiteDeChargement } from './LimiteDeChargement'
 import { Liste } from './Liste'
 import { MesFavoris } from './MesFavoris'
 import { prochainWeekEnd, type JourDate } from './core/horaires'
@@ -86,7 +87,14 @@ function texteDuCompte(
   departement?: string,
   pasVisitees = false,
   ceWeekEnd = false,
+  aucuneCategorie = false,
+  videSansWeekEnd = false,
 ): string {
+  // Toutes catégories décochées : c'est la seule cause, la dire (revue
+  // globale du 19/10, A6 : « aucune brasserie à moins de 30 km » trompait).
+  if (n === 0 && aucuneCategorie) {
+    return t('Aucune catégorie n’est cochée : cochez-en une dans « Ce qu’on peut y faire ».')
+  }
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
   if (n === 0 && pasVisitees) {
@@ -102,9 +110,10 @@ function texteDuCompte(
         : t('à moins de {km} km de {origine}', { km: rayonKm, origine })
   // « Ouvertes ce week-end » qui ne garde rien : le dire, et comment en
   // sortir ; « aucune brasserie à moins de 30 km » en taisait la cause
-  // (revue adverse S70).
-  if (n === 0 && ceWeekEnd && !(favorisSeulement && nbFavoris === 0)) {
-    return t('Aucune de ces brasseries n’ouvre ce week-end d’après les horaires publiés. Décochez « Ouvertes ce week-end » pour revoir les autres.')
+  // (revue adverse S70). Seulement si c'est lui qui vide la liste, et sans
+  // dire « n'ouvre » : une fiche muette n'est pas fermée (A11).
+  if (n === 0 && ceWeekEnd && !videSansWeekEnd && !(favorisSeulement && nbFavoris === 0)) {
+    return t('Aucune de ces brasseries n’annonce d’ouverture ce week-end dans ses horaires publiés. Décochez « Ouvertes ce week-end » pour revoir les autres.')
   }
   if (!favorisSeulement) {
     // À zéro, dire d'où et jusqu'où : depuis Lille, « ne correspond » ne
@@ -330,6 +339,15 @@ export function App({
     [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
+  // La liste serait-elle vide aussi sans « ouvertes ce week-end » ? Alors ce
+  // n'est pas lui qu'il faut accuser (A11). Calculé seulement quand il vide
+  // la liste.
+  const videSansWeekEnd = useMemo(() => {
+    if (resultats.length > 0 || criteres.weekEnd === undefined) return false
+    const sans = { ...criteres }
+    delete sans.weekEnd
+    return rechercher(cherchees, sans).length === 0
+  }, [resultats, cherchees, criteres])
 
   // Ma tournée (S27) : les favoris encore présents, de proche en proche.
   const tournee = useMemo(() => {
@@ -635,7 +653,7 @@ export function App({
                 </label>
               ))}
               {osm.etat === 'pret' && (
-                <label className="case">
+                <label className="case case-large" data-testid="case-osm">
                   <input
                     type="checkbox"
                     checked={avecOsm}
@@ -647,10 +665,11 @@ export function App({
                   {t('Inclure les {n} brasseries repérées sur OpenStreetMap (non vérifiées)', { n: osm.brasseries.length })}
                 </label>
               )}
-              {/* S70 : dans la grille des cases, à la place libre à côté de la
-                  couche OSM : un bloc à part repoussait la liste sous le
-                  premier écran d'ordinateur (porte, 827 px pour 800). */}
-              <label className="case" data-testid="filtre-week-end">
+              {/* S70 : dans la grille des cases, sur une ligne entière comme
+                  la couche OSM (son aide est longue) : un bloc à part
+                  repoussait la liste sous le premier écran d'ordinateur
+                  (porte, 827 px pour 800). */}
+              <label className="case case-large" data-testid="filtre-week-end">
                 <input
                   type="checkbox"
                   checked={ceWeekEnd}
@@ -720,7 +739,7 @@ export function App({
       {resultats.length === 0 && !favorisSeulement && !partout && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
-            const p = plusProche(cherchees, origine.point)
+            const p = plusProche(cherchees, origine.point, criteres)
             return p === undefined
               ? '' : `${t('La plus proche : {nom} ({commune}), à {distance}.', { nom: p.brasserie.n, commune: p.brasserie.c, distance: formaterDistance(p.distanceKm) })} `
           })()}
@@ -851,6 +870,8 @@ export function App({
             departement,
             pasVisitees,
             ceWeekEnd,
+            categories.length === 0,
+            videSansWeekEnd,
           )}
           {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
         </p>
@@ -870,15 +891,25 @@ export function App({
       </main>
 
       {affichette !== null && (
-        <Suspense fallback={null}>
-          <AffichetteDifferee
-            key={affichette.n}
-            brasserie={affichette.brasserie}
-            onFin={() => {
-              setAffichette(null)
-            }}
-          />
-        </Suspense>
+        <LimiteDeChargement
+          key={affichette.n}
+          secours={null}
+          onEchec={() => {
+            // Dit dans la barre du compte, qui reste à l'écran : un message
+            // à la place de l'affichette, en bas de page, ne se verrait pas.
+            setAnnonce(t('L’affichette n’a pas pu se charger (connexion, ou nouvelle version publiée) : rechargez la page pour l’imprimer.'))
+            setAffichette(null)
+          }}
+        >
+          <Suspense fallback={null}>
+            <AffichetteDifferee
+              brasserie={affichette.brasserie}
+              onFin={() => {
+                setAffichette(null)
+              }}
+            />
+          </Suspense>
+        </LimiteDeChargement>
       )}
       <footer className="pied">
         {/* Le thème au choix (S45) : gardé avec les réglages. */}

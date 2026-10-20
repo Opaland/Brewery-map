@@ -260,12 +260,35 @@ describe('S301 CA1 : les raisons qui écartent une brasserie, une seule garde', 
 describe('quand rien n’est à portée (revue globale S22)', () => {
   it('nomme la brasserie la plus proche du départ, et sa distance', () => {
     const lille = { lat: 50.633, lon: 3.059 }
-    const p = plusProche(TOUTES, lille)
+    const p = plusProche(TOUTES, lille, { categories: TOUTES_CATEGORIES })
     expect(p).toBeDefined()
     const toutes = TOUTES.map((b) => Math.hypot(b.lat - lille.lat, b.lon - lille.lon))
     expect(p?.brasserie.n).toBe(TOUTES[toutes.indexOf(Math.min(...toutes))]?.n)
     expect(p?.distanceKm).toBeGreaterThan(400)
-    expect(plusProche([], lille)).toBeUndefined()
+    expect(plusProche([], lille, { categories: TOUTES_CATEGORIES })).toBeUndefined()
+  })
+
+  // S303 (A6) : toutes catégories décochées, l'écran nommait « la plus
+  // proche » d'une liste qui n'en garde aucune.
+  it('ne nomme qu’une brasserie qui passe les filtres', () => {
+    const lille = { lat: 50.633, lon: 3.059 }
+    expect(plusProche(TOUTES, lille, { categories: [] })).toBeUndefined()
+    const premiere = plusProche(TOUTES, lille, { categories: TOUTES_CATEGORIES })?.brasserie
+    expect(premiere).toBeDefined()
+    const autreCategorie = TOUTES_CATEGORIES.filter((c) => c !== premiere?.cat)
+    const p = plusProche(TOUTES, lille, { categories: autreCategorie })
+    expect(p?.brasserie.cat).not.toBe(premiere?.cat)
+    const sansElle = plusProche(TOUTES, lille, { categories: TOUTES_CATEGORIES, exclure: new Set([premiere?.n ?? '']) })
+    expect(sansElle?.brasserie.n).not.toBe(premiere?.n)
+  })
+
+  it('ne nomme pas une brasserie fermée (décision #35)', () => {
+    const lille = { lat: 50.633, lon: 3.059 }
+    const premiere = plusProche(TOUTES, lille, { categories: TOUTES_CATEGORIES })?.brasserie
+    if (premiere === undefined) throw new Error('aucune brasserie')
+    const fermee: Brasserie = { ...premiere, fermee: { source: 'https://exemple.fr/', verifieLe: '2026-10-19' } }
+    const p = plusProche([fermee, ...TOUTES.filter((b) => b.n !== premiere.n)], lille, { categories: TOUTES_CATEGORIES })
+    expect(p?.brasserie.n).not.toBe(premiere.n)
   })
 })
 

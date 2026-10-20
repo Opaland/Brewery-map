@@ -100,13 +100,17 @@ function motsCherches(texte: string): string[] {
 }
 
 /**
- * La brasserie du fichier la plus proche du départ, quels que soient les
- * filtres : quand rien n'est à portée (depuis Lille), l'écran dit où est la
- * plus proche plutôt que « aucune » (revue globale S22).
+ * La brasserie la plus proche du départ, sans regarder la distance ni le
+ * texte : quand rien n'est à portée (depuis Lille), l'écran dit où est la
+ * plus proche plutôt que « aucune » (revue globale S22). Elle passe les
+ * filtres et n'est pas fermée : toutes catégories décochées, l'écran
+ * nommait une brasserie que la liste ne pouvait pas montrer (revue globale
+ * du 19/10, A6).
  */
-export function plusProche(brasseries: readonly Brasserie[], origine: Point): Resultat | undefined {
+export function plusProche(brasseries: readonly Brasserie[], origine: Point, filtres: Filtres): Resultat | undefined {
   let meilleure: Resultat | undefined
   for (const brasserie of brasseries) {
+    if (brasserie.fermee !== undefined || !passeLesFiltres(brasserie, filtres)) continue
     const d = distanceKm(origine, brasserie)
     if (meilleure === undefined || d < meilleure.distanceKm) meilleure = { brasserie, distanceKm: d }
   }

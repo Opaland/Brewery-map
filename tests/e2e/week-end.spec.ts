@@ -22,7 +22,45 @@ test('le filtre garde une brasserie ouverte samedi, écarte une fiche sans horai
   await recherche.fill('bière des loups')
   await expect(page.locator('button.ligne')).toHaveCount(0)
   // La liste vide dit la cause, et comment en sortir (revue adverse S70).
-  await expect(page.getByTestId('compte')).toContainText('n’ouvre ce week-end d’après les horaires publiés. Décochez « Ouvertes ce week-end »')
+  await expect(page.getByTestId('compte')).toContainText('n’annonce d’ouverture ce week-end dans ses horaires publiés. Décochez « Ouvertes ce week-end »')
   await page.getByTestId('week-end').uncheck()
   await expect(page.locator('button.ligne', { hasText: 'La Bière des Loups' })).toHaveCount(1)
+})
+
+/** S303 (A11) : le week-end n'est accusé que s'il vide la liste à lui seul. */
+test('une liste vide pour une autre raison ne parle pas du week-end', async ({ page }) => {
+  await sansTuiles(page)
+  await page.goto('/')
+  await ouvrirFiltres(page)
+  await page.getByTestId('week-end').check()
+  await page.getByTestId('recherche').fill('zzzzqx')
+  await expect(page.locator('button.ligne')).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toHaveText(/Aucune brasserie/)
+  await expect(page.getByTestId('compte')).not.toContainText('week-end')
+})
+
+/** S303 (A10) : les cases longues prennent la ligne entière de la grille. */
+test('les cases longues (couche OSM, week-end) prennent toute la largeur', async ({ page }) => {
+  await sansTuiles(page)
+  await page.goto('/')
+  await ouvrirFiltres(page)
+  await expect(page.getByTestId('case-osm')).toBeVisible()
+  for (const cas of [page.getByTestId('case-osm'), page.getByTestId('filtre-week-end')]) {
+    await expect
+      .poll(() =>
+        cas.evaluate((c) => {
+          const grille = c.closest('fieldset')
+          if (grille === null) return null
+          const g = getComputedStyle(grille)
+          const interieur =
+            grille.getBoundingClientRect().width -
+            parseFloat(g.paddingLeft) -
+            parseFloat(g.paddingRight) -
+            parseFloat(g.borderLeftWidth) -
+            parseFloat(g.borderRightWidth)
+          return Math.abs(c.getBoundingClientRect().width - interieur) <= 1
+        }),
+      )
+      .toBe(true)
+  }
 })

@@ -483,11 +483,20 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 |---|---|---|
 | S302 | La porte tourne sous Windows et PowerShell : fins de ligne, casse des fichiers, processus sans `npx`, crochets en Node, doc PowerShell, un port local à soi (W1 à W4, W6 à W8) | `docs/REVUE-GLOBALE-2026-10-19.md` ; mesuré sur le PC fixe le 19/10 |
 
+### E29 — Les bugs de la revue globale du 19/10 *(groupes A, T, C)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S303 | Les majeurs courts : case OSM pleine largeur, cache plein, affichette absente, fiche ouverte par son haut, « la plus proche » filtrée, compte du week-end juste (A10, A3, A1, A5, A6, A11) | `docs/REVUE-GLOBALE-2026-10-19.md` |
+| S304 | Le premier écran d'ordinateur peint une brasserie, et la barre collée reste petite à 200 % (A4, A7) | idem |
+| S305 | Les chiffres faux, et un test qui compare les chiffres écrits aux données (T1 à T6) | idem |
+| S306 | Crochets et CI : `ci.yml` seul pour l'état de `main`, commit non contournable, garde de `data/` et audit dans la porte locale, pas de nouvel essai en CI (C1 à C4) | idem |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29).
 
 ## Ordre d'exécution
 

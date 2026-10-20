@@ -1,14 +1,13 @@
 import { t } from './i18n'
 import {
-  Component,
   lazy,
   Suspense,
   useEffect,
   useRef,
   useState,
   type ComponentProps,
-  type ReactNode,
 } from 'react'
+import { LimiteDeChargement } from './LimiteDeChargement'
 import type CarteType from './Carte'
 
 type PropsCarte = ComponentProps<typeof CarteType>
@@ -58,44 +57,34 @@ export function CarteDifferee(props: PropsCarte) {
     )
   }
   return (
-    <LimiteCarte>
+    <LimiteDeChargement secours={<CarteEnEchec />}>
       <Suspense fallback={<div className="carte carte-attente">{t('Chargement de la carte…')}</div>}>
         <Carte {...props} />
       </Suspense>
-    </LimiteCarte>
+    </LimiteDeChargement>
   )
 }
 
 /**
  * Si la carte ne peut pas se charger (connexion coupée, fichier disparu après
- * un déploiement), elle seule s'efface : sans cette limite, React démontait
- * toute la page, liste comprise (revues S20).
+ * un déploiement), elle seule s'efface (revues S20).
  */
-class LimiteCarte extends Component<{ children: ReactNode }, { echec: boolean }> {
-  override state = { echec: false }
-
-  static getDerivedStateFromError(): { echec: boolean } {
-    return { echec: true }
-  }
-
-  override render() {
-    if (!this.state.echec) return this.props.children
-    return (
-      <div className="carte carte-absente" role="note" data-testid="carte-echec">
-        <p>
-          {t('La carte n’a pas pu se charger (connexion ?). La liste reste complète, avec les mêmes informations.')}
-        </p>
-        {/* Recharger, pas réimporter : le navigateur garde en mémoire l'échec
-            d'un import dynamique et le rendrait tel quel (vu au test, S20). */}
-        <button
-          type="button"
-          onClick={() => {
-            window.location.reload()
-          }}
-        >
-          {t('Recharger la page')}
-        </button>
-      </div>
-    )
-  }
+function CarteEnEchec() {
+  return (
+    <div className="carte carte-absente" role="note" data-testid="carte-echec">
+      <p>
+        {t('La carte n’a pas pu se charger (connexion ?). La liste reste complète, avec les mêmes informations.')}
+      </p>
+      {/* Recharger, pas réimporter : le navigateur garde en mémoire l'échec
+          d'un import dynamique et le rendrait tel quel (vu au test, S20). */}
+      <button
+        type="button"
+        onClick={() => {
+          window.location.reload()
+        }}
+      >
+        {t('Recharger la page')}
+      </button>
+    </div>
+  )
 }

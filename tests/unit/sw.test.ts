@@ -8,7 +8,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
  */
 type Ecouteur = (e: unknown) => void
 
-function charger(reseau: (url: string) => Promise<Response>) {
+function charger(reseau: (url: string) => Promise<Response>, { cachePlein = false } = {}) {
   const ecouteurs = new Map<string, Ecouteur>()
   const caches = new Map<string, Map<string, Response>>()
   const ouvrir = (nom: string) => {
@@ -19,6 +19,8 @@ function charger(reseau: (url: string) => Promise<Response>) {
       match: (r: Request | string) => Promise.resolve(contenu.get(cle(r))?.clone()),
       // Comme la spécification : l'entrée remplacée passe en fin de liste.
       put: (r: Request | string, rep: Response) => {
+        // Appareil plein (revue globale du 19/10, A3) : l'écriture échoue.
+        if (cachePlein) return Promise.reject(new DOMException('plein', 'QuotaExceededError'))
         contenu.delete(cle(r))
         contenu.set(cle(r), rep)
         return Promise.resolve()
@@ -111,6 +113,20 @@ describe('le service worker', () => {
     const sw = charger(() => Promise.resolve(new Response('neuf')))
     sw.contenu.set('https://exemple.fr/a.js', new Response('vieux'))
     expect(await (await sw.demander('https://exemple.fr/a.js'))?.text()).toBe('neuf')
+  })
+
+  // S303 (A3) : la page échouait alors que le réseau avait répondu 200.
+  it('rend la réponse du réseau quand l’écriture en cache échoue (appareil plein)', async () => {
+    const sw = charger(() => Promise.resolve(new Response('neuf')), { cachePlein: true })
+    const r = await sw.demander('https://exemple.fr/a.js')
+    expect(r?.status).toBe(200)
+    expect(await r?.text()).toBe('neuf')
+  })
+
+  it('rend la tuile du réseau quand l’écriture en cache échoue (appareil plein)', async () => {
+    const sw = charger(() => Promise.resolve(new Response('tuile')), { cachePlein: true })
+    const r = await sw.demander('https://tile.openstreetmap.org/14/1/0.png')
+    expect(await r?.text()).toBe('tuile')
   })
 
   it('s’active sur demande de la page (« Recharger » du bandeau), et seulement alors', () => {

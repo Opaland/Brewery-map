@@ -1,5 +1,5 @@
 import { expect, test } from './position'
-import { choisirCommune, sansTuiles, versLaCarte } from './reseau'
+import { choisirCommune, ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
 /** Revue UI/UX globale du 16/10 (après S23) : ce qui a été corrigé. */
 test.beforeEach(async ({ page }) => {
@@ -229,4 +229,16 @@ test.describe('premier écran sur téléphone (S29)', () => {
     await expect(resume).toHaveText('Plus de filtres et mes favoris · 1 filtre actif')
   })
 
+})
+
+/** S303 (A6) : toutes catégories décochées, l'écran dit la vraie cause. */
+test('toutes catégories décochées : le compte le dit, et « la plus proche » ne nomme personne', async ({ page }) => {
+  await ouvrirFiltres(page)
+  for (const cat of [0, 1, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+  await expect(page.locator('button.ligne')).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toContainText('Aucune catégorie n’est cochée')
+  // Le paragraphe est bien là : sans lui, « ne contient pas » passerait à
+  // vide (revue adverse S303, §1bis).
+  await expect(page.getByTestId('plus-proche')).toContainText('Les fiches vérifiées couvrent')
+  await expect(page.getByTestId('plus-proche')).not.toContainText('La plus proche')
 })

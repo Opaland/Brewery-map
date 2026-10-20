@@ -660,7 +660,11 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 }
 .categories .case:has(input:checked) { border-color: var(--cuivre); background: var(--cuivre-pale); }
 .categories .case input { width: 18px; height: 18px; }
-.categories .case:last-child:not(.cat-0):not(.cat-1):not(.cat-2):not(.cat-3) { width: 100%; border-radius: var(--rayon-md); }
+/* Les cases au texte long (couche OSM, « ouvertes ce week-end » et son
+   aide) prennent la ligne entière. Une classe, pas `:last-child` : S70 a
+   ajouté une case après celle d'OSM, qui a perdu sa largeur sans que rien
+   ne rougisse (revue globale du 19/10, A10). */
+.categories .case-large { width: 100%; border-radius: var(--rayon-md); }
 
 /* Le compte : une barre collée, lisible d'un coup d'œil. */
 .compte {
@@ -822,7 +826,7 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 /* 10. Les puces en grille régulière de deux colonnes. */
 .categories { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 .categories .case { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
-.categories legend, .categories .case:last-child { grid-column: 1 / -1; }
+.categories legend, .categories .case-large { grid-column: 1 / -1; }
 .categories .case { padding-right: var(--espace-4); }
 
 /* Sur ordinateur, l'en-tête en une bande serrée : la première brasserie

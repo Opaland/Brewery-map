@@ -2780,3 +2780,15 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - W4 : sections « Sous Windows (PowerShell) » dans README et CONTRIBUTING, blocs bash marqués, `CLAUDE.md` §6.
 - Revue adverse : trois trouvailles, toutes corrigées avec un test vu rouge (crochet de démarrage muet sur une URL de mandataire, branche `tsconfig` de `dist/` non testée, crochet au nom inconnu silencieux).
 - Porte complète mesurée sur ce poste : 257 s, dont 3,2 min d'e2e (222 tests).
+
+## S303 — Les majeurs courts de la revue du 19/10 *(20/10)*
+
+`docs/stories/S303.md`. A10, A3, A1, A5, A6, A11 de `docs/REVUE-GLOBALE-2026-10-19.md`.
+
+- A10 : les cases longues (couche OSM, week-end) prennent la ligne par une classe `case-large`, plus par `:last-child`.
+- A3 : le service worker rend la réponse du réseau même quand l'écriture en cache échoue (appareil plein).
+- A1 : une seule frontière d'erreur, `LimiteDeChargement`, pour la carte et l'affichette ; une affichette absente le dit dans la barre du compte, la liste reste.
+- A5 : une fiche plus haute que l'écran s'ouvre par son haut depuis la carte (le défaut ne se voyait qu'avec le défilement animé).
+- A6 : toutes catégories décochées, le compte le dit ; « la plus proche » passe les filtres et n'est jamais fermée.
+- A11 : « ouvertes ce week-end » n'est accusé que s'il vide la liste à lui seul, et ne dit plus « n'ouvre ».
+- Revue adverse : une assertion durcie, trois restes au BACKLOG.

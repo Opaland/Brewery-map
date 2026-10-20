@@ -364,3 +364,10 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **Un réglage changé juste avant de fermer l'onglet peut se perdre** : `garderSaufVersionFuture` (`src/stockage.ts`) lit puis écrit dans une transaction que la fermeture interrompt. Vu par deux e2e qui rechargeaient trop tôt sous Windows (S302). Rien n'est perdu au-delà de quelques millisecondes ; à mesurer avant d'y toucher.
 - **C2 reste ouvert** : le crochet de commit se contourne toujours par `git -C . commit` ou `git -c … commit` (le portage en Node ne change que la sortie silencieuse sans `jq`).
 - **`gh` introuvable pour Node** quand Claude Code est lancé d'un terminal ouvert avant l'installation de `gh` : le crochet de démarrage dit alors « gh absent ». Ouvrir un nouveau terminal (noté dans `docs/REPRISE-POWERSHELL.md`).
+
+## Revue adverse S303 — restes
+
+- **« Pas encore visitées » accuse le carnet à tort** (`texteDuCompte`, `src/App.tsx`) : avec « Ouvertes ce week-end » aussi coché, ou un carnet vide, une liste vide dit « Toutes celles qui correspondent sont dans votre carnet ». Même classe que A11 : ne le dire que si la liste serait non vide sans `exclure`.
+- **« La plus proche » et le carnet** : « pas encore visitées » coché et tout le rayon visité, le compte dit « tout est dans votre carnet » et, dessous, « La plus proche : X, à 280 km » (une non visitée). Vrai, mais se lit comme une contradiction ; à formuler (« la plus proche pas encore visitée »).
+- **« Aucune brasserie dans le département … avec ces filtres » n'a plus d'e2e** : le test S31 (`idees.spec.ts`) y arrivait en décochant toutes les catégories, cas qui a désormais son propre message (S303). Le retrouver par un autre filtre qui vide un département, et vérifier qu'il n'accuse pas les filtres quand c'est le texte qui vide la liste.
+- **Une annonce identique ne se ré-annonce pas** (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
