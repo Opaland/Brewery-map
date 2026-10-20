@@ -47,6 +47,23 @@ premier écran ne grossit plus avec la France.
 - **Le charger à part, sans préchargement** : la liste attendrait le script,
   puis le fichier, l'un après l'autre ; plus lent qu'aujourd'hui.
 
+## S294 livrée (20/10) : les fiches en deux temps
+
+Mesuré sur le PC fixe de Cédric (Windows 11, même outil, même réseau
+simulé, 5 essais), `data/breweries.json` à 348 fiches. Le premier écran
+porte les 148 fiches d'Auvergne-Rhône-Alpes ; les 200 autres arrivent juste
+après, dans un seul fichier, le même pour tout le monde (AR3).
+
+| | LCP | Première ligne | Écart entre essais (LCP) | Premier écran (gzip, `poids.spec.ts`) |
+|---|---:|---:|---:|---:|
+| Avant (`main` à `12e6a28`) | 1 916 ms | 1 954 ms | 32 ms | 218 991 |
+| Après | 1 808 ms | 1 840 ms | 76 ms | 189 402 |
+
+Ces chiffres ne se comparent pas à ceux du tableau du 18/10, pris sur un
+autre poste. La suite pèse 30 940 octets gzip ; elle n'est plus dans le
+premier écran et ne grossit plus avec les fiches ajoutées hors de la
+région.
+
 ## Règle de réévaluation
 
 Avant chaque lot qui porte le fichier au-delà de 600 fiches, ou dès S294

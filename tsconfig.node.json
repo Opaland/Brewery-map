@@ -29,6 +29,7 @@
     "build",
     "outils",
     "src/core",
+    "src/donnees-decoupees.d.ts",
     "src/Contact.tsx",
     "src/Bieres.tsx",
     "src/FiltreType.tsx",

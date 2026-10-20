@@ -1,7 +1,7 @@
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
 import { attendreGarde, lireGarde } from './garde'
-import { choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
+import { attendreSuite, choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
 
 const ligne = (page: Page, nom: string) => page.locator(`button.ligne[data-nom="${nom}"]`)
 
@@ -36,6 +36,7 @@ test.describe('les favoris (Marie)', () => {
 
   test('un favori caché par la distance est dit, pas perdu', async ({ page }) => {
     await page.goto('/')
+    await attendreSuite(page)
     const rayon = page.getByTestId('rayon')
     await rayon.fill('100')
     const loin = page.locator('button.ligne').last()
@@ -52,6 +53,7 @@ test.describe('les favoris (Marie)', () => {
 
   test('S301 : hors du mode « seulement », un favori hors du rayon est dit, avec sa raison', async ({ page }) => {
     await page.goto('/')
+    await attendreSuite(page)
     const rayon = page.getByTestId('rayon')
     await rayon.fill('100')
     const loin = page.locator('button.ligne').last()

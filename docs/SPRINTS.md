@@ -2829,3 +2829,12 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - A9 : un marqueur choisi et focalisé montre les deux contours.
 - Budget du premier écran : CSS v1 écrasée par la v2 retirée ; 218 981 octets pour 219 000.
 
+## S294 — Les fiches en deux temps *(20/10)*
+
+`docs/stories/S294.md`. Le premier écran ne porte plus que les fiches d'Auvergne-Rhône-Alpes (148) ; les 200 autres arrivent juste après, dans un seul fichier, le même pour tout le monde (AR3 tenue par construction, prouvée par un e2e Lyon / Brest).
+
+- Découpage au build (`build/decouper-donnees.ts`, `src/core/decoupage.ts`) depuis `data/breweries.json`, après la validation.
+- Premier écran : 218 991 → 189 402 octets gzip (budget refixé à 208 000) ; LCP 1 916 → 1 808 ms sur le PC fixe.
+- En attendant la suite, le compte dit « Chargement des fiches des autres régions… » ; sans elle, un message et « Recharger la page ».
+- `carnet.spec.ts` stabilisé (5 échecs sur 15 sous Windows, sur `main` aussi).
+

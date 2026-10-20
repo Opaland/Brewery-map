@@ -89,6 +89,13 @@ requêtes pour deux positions éloignées et les trouve identiques. La fixture
 pas une requête `/donnees/69.json`. Le découpage se fait **au build**
 (AR8) : `data/breweries.json` reste la source relue et gardée.
 
+**Fait en S294 (20/10)** : deux parts seulement. Le premier écran porte la
+région du départ par défaut (Auvergne-Rhône-Alpes) ; la suite, tout le
+reste, est **un seul fichier, le même pour tous, toujours demandé** juste
+après le premier rendu. La condition est tenue par construction, et
+`tests/e2e/fiches-en-deux.spec.ts` compare les requêtes depuis Lyon et
+depuis Brest (vu rouge quand la suite dépend de la position).
+
 ## 5. La qualité, mécanique
 
 - **La porte** : lint, `tsc -b`, vitest, build, Playwright (Pixel 7). Elle

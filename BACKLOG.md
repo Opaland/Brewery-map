@@ -381,6 +381,12 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **Les fragments de « Plus de filtres » sur trois colonnes** ne sont mesurés ni en anglais ni avec « Plus de filtres » replié.
 - **W9 ailleurs** : `outils/curation.ts:243` et `outils/captures.ts` appellent `rmSync` ; sous Node 24 et Windows, dans un chemin accentué, il ne supprime rien. Le dossier temporaire de `curation.ts` est sous `tmpdir()` (nom court, ASCII, sur ce poste) : à vérifier, puis passer à `fs.promises.rm`.
 
+## S294 — restes
+
+- **La couche OSM (878 brasseries) est encore dans le premier écran**, attendue jusqu'à 3 s avant le premier rendu : même méthode (un fichier à part, le même pour tous), autre story.
+- **La suite n'est demandée qu'après le premier rendu**, qui attend lui-même le stockage et la couche OSM (jusqu'à 3 s) : un lien vers une fiche bretonne attend les trois en série. La demander dès le chargement du module la ferait partir en parallèle, mais partager la bande passante du premier écran : à mesurer (`outils/mesure-premier-ecran.ts`) avant d'y toucher (revue adverse S294).
+- **Une visite notée juste avant de recharger ou de fermer l'onglet peut se perdre** : vu par `carnet.spec.ts` (5 échecs sur 15 sous Windows, le 20/10), qui attend maintenant l'écriture. Rejoint le reste « réglage perdu » de S302.
+
 ## Revue adverse S307 — restes
 
 - **Marqueurs sur autoroute et voie rapide : 2,2 à 3,2:1** (fonds `#e892a2` et `#f9b29c` d'openstreetmap-carto), sous les 3:1 de WCAG 1.4.11 ; le bord blanc et l'ombre du marqueur aident sans suffire à la mesure. Y tenir 3:1 demande une palette des catégories plus sombre, sur toute l'application : décision de design, à prendre à part. `tests/unit/couleurs-carte.test.ts` borne l'écart à 2,2.
