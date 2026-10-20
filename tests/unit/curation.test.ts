@@ -194,6 +194,11 @@ describe('déménager une fiche (S322, Cédric le 20/10 : « OK »)', () => {
       { c, d, lat, lon, coordPrecision },
       { c, d, addr },
       { c, d, addr, lat, lon, coordPrecision: 'commune' },
+      // Revue adverse S322 : le département suit le code postal, et l'adresse
+      // est une rue, pas le nom de la commune.
+      { c, d: '69', addr, lat, lon, coordPrecision },
+      { c, d, addr: 'Marlhes', lat, lon, coordPrecision },
+      { c, d, addr: '4215 route de Jonzieux, Marlhes', lat, lon, coordPrecision },
     ]) {
       const r = lu({ ...demenagement, changements })
       expect(r.ok).toBe(false)

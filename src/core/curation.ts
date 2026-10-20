@@ -3,6 +3,7 @@ import { z } from './zod'
 import { CATEGORIES } from './categories'
 import { BRIGNAIS, distanceKm, kmFr, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
+import { adresseDeRue } from './fiche'
 import {
   brasserieObjetSchema,
   brasserieSchema,
@@ -20,6 +21,25 @@ import {
  * Ce module ne lit ni n'écrit aucun fichier : il valide un lot, le rend
  * lisible, et calcule le fichier qui résulterait des numéros acceptés.
  */
+
+/**
+ * Le département d'un code postal : deux chiffres, trois outre-mer (97, 98),
+ * « 2A » ou « 2B » pour la Corse (20), que le code seul ne départage pas.
+ */
+function departementsDuCode(cp: string): readonly string[] {
+  if (cp.startsWith('20')) return ['2A', '2B']
+  return [cp.startsWith('97') || cp.startsWith('98') ? cp.slice(0, 3) : cp.slice(0, 2)]
+}
+
+/**
+ * Un déménagement (S322) : une adresse de rue avec son code postal, dont le
+ * département est `d` (revue adverse S322 : « Marlhes (69) » passait).
+ */
+function demenagementCoherent(c: { c?: string | undefined; d?: string | undefined; addr?: string | undefined }): boolean {
+  if (c.c === undefined || c.d === undefined || c.addr === undefined) return false
+  const cp = /\b(\d{5})\b/.exec(c.addr)?.[1]
+  return cp !== undefined && departementsDuCode(cp).includes(c.d) && adresseDeRue({ addr: c.addr, c: c.c })
+}
 
 /**
   * Les champs qu'une proposition peut changer. Exclus (revue code S11) :
@@ -46,8 +66,8 @@ const changementsSchema = brasserieObjetSchema
   .refine(
     (c) =>
       (c.c === undefined && c.d === undefined) ||
-      (c.c !== undefined && c.d !== undefined && c.addr !== undefined && (c.coordPrecision === 'address' || c.coordPrecision === 'centre')),
-    { message: 'un déménagement change ensemble la commune, le département, l’adresse et la position (address ou centre)' },
+      (demenagementCoherent(c) && (c.coordPrecision === 'address' || c.coordPrecision === 'centre')),
+    { message: 'un déménagement change ensemble la commune, le département, l’adresse de rue (code postal du département) et la position (address ou centre)' },
   )
   // « osm » est la précision des fiches venues d'OpenStreetMap (S14, S25), pas
   // une position qu'un vérificateur affirme (revue adverse S54).
