@@ -1017,6 +1017,9 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
    comme les boutons : `accessibilite.spec.ts`). */
 .fiche-manque { margin: 0 0 var(--espace-4); }
 .fiche-manque > p { margin: 0 0 var(--espace-2); }
+/* Passés à la ligne, les deux liens ne laissent pas un trou entre eux
+   (vu sur la capture de S308) : la cible de 44 px suffit à les séparer. */
+.fiche-manque .fiche-liens { row-gap: 0; }
 .fiche-provenance { margin: 0 0 var(--espace-2); }
 .fiche details > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
 .ligne-ouvert { display: block; font-size: var(--texte-secondaire); font-weight: 600; color: var(--encre-douce); }
