@@ -132,7 +132,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(fiche.getByTestId('fiche-bieres')).toHaveCount(0)
     await expect(fiche.getByTestId('fiche-manque')).toContainText('ses bières')
     const lien = fiche.getByTestId('chercher-untappd')
-    await expect(lien).toHaveText(/^Untappd/)
+    await expect(lien).toHaveText(/^Ses bières sur Untappd/)
     await expect(lien).toHaveAttribute('href', /^https:\/\/untappd\.com\/search\?/)
     await expect(lien).toHaveAttribute('target', '_blank')
     await expect(lien).toHaveAttribute('rel', /noreferrer/)

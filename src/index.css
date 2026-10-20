@@ -1015,7 +1015,8 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 /* S308 : ce qui manque, dit une fois sous « En bref » ; la provenance en
    une phrase, le sens de la confiance replié (cible de 44 px hors carte,
    comme les boutons : `accessibilite.spec.ts`). */
-.fiche-manque { margin: 0 0 var(--espace-4); color: var(--encre-douce); }
+.fiche-manque { margin: 0 0 var(--espace-4); }
+.fiche-manque > p { margin: 0 0 var(--espace-2); }
 .fiche-provenance { margin: 0 0 var(--espace-2); }
 .fiche details > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
 .ligne-ouvert { display: block; font-size: var(--texte-secondaire); font-weight: 600; color: var(--encre-douce); }

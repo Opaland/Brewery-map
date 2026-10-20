@@ -64,6 +64,31 @@ autre poste. La suite pèse 30 940 octets gzip ; elle n'est plus dans le
 premier écran et ne grossit plus avec les fiches ajoutées hors de la
 région.
 
+## S310 (20/10) : ce que le premier écran attend, mesuré sans rien livrer
+
+Même poste, même outil, 5 essais par variante, `data/breweries.json` à 348
+fiches, code de S308. La couche OSM est déjà annoncée dans le HTML depuis
+S25 (`build/precharger.ts`) ; `main.tsx` attend son arrivée, 3 s au plus,
+avant le premier rendu.
+
+| Variante | LCP (médiane) | Première ligne (médiane) | LCP, essais | Première ligne, essais |
+|---|---:|---:|---|---|
+| A — telle quelle | 1 844 ms | 1 851 ms | 1 772 à 1 892 (écart 120) | 1 780 à 1 920 (écart 140) |
+| B — sans attendre la couche OSM (sonde jetable) | 1 760 ms | 1 789 ms | 1 736 à 1 780 | 1 759 à 1 806 |
+| C — la suite annoncée dans le HTML aussi (`modulepreload`) | 1 932 ms | 1 948 ms | 1 916 à 1 940 | 1 932 à 1 958 |
+
+Règle de la story (`docs/stories/S310.md`) : une variante est retenue si
+elle gagne sur A plus que l'écart entre essais de A, sur les deux mesures.
+
+- **B** gagne 84 ms (LCP) et 62 ms (première ligne), sous les écarts de A
+  (120 et 140 ms). Ne plus attendre la couche, qui ferait bouger la liste
+  sous le doigt (S25), ne se justifie pas par la mesure.
+- **C** perd 88 et 97 ms : demander la suite tôt partage la bande passante
+  du premier écran, comme la revue adverse S294 le craignait. Non livrée.
+
+Rien n'est changé. À refaire quand le premier écran grossit (règle
+ci-dessous) ou quand la couche OSM passe un nouveau palier.
+
 ## Règle de réévaluation
 
 Avant chaque lot qui porte le fichier au-delà de 600 fiches, ou dès S294

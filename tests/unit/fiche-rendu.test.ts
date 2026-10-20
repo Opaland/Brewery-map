@@ -81,7 +81,7 @@ describe('la fiche (S308)', () => {
   it('CA1 : ce qui manque se dit une fois, sans jargon de fichier', () => {
     const html = rendu(vide)
     expect(html.match(/data-testid="fiche-manque"/g)).toHaveLength(1)
-    expect(texteVu(html)).toContain('Pas encore dans la fiche : son adresse, son téléphone, ses horaires et ses bières. À chercher sur Google Maps (vérifiez que c’est la bonne brasserie), et ses bières sur Untappd.')
+    expect(texteVu(html)).toContain('Pas encore dans la fiche : son adresse, son téléphone, ses horaires et ses bières. Chercher sur Google Maps Ses bières sur Untappd Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.')
     expect(texteVu(html)).not.toMatch(/non renseigné|non référencé|non connue/i)
   })
 
@@ -104,7 +104,7 @@ describe('la fiche (S308)', () => {
 
   it('revue adverse S308 : seules les bières manquent, la phrase reste entière', () => {
     const html = rendu({ ...complete, beers: [] })
-    expect(texteVu(html)).toContain('Pas encore dans la fiche : ses bières. À chercher sur Untappd.')
+    expect(texteVu(html)).toContain('Pas encore dans la fiche : ses bières. Ses bières sur Untappd')
     // Pas de recherche Google Maps (l'itinéraire, lui, en a un lien).
     expect(html).not.toContain('data-testid="telephone-google-maps"')
   })

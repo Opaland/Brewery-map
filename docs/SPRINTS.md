@@ -2843,7 +2843,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S308.md`. Demande de Cédric du 20/10 (« personne ne parle comme cela », « trop brouillon »).
 
-- Ce qui manque est dit une fois, sous « En bref » : « Pas encore dans la fiche : son adresse, son téléphone, ses horaires et ses bières. À chercher sur Google Maps (vérifiez que c'est la bonne brasserie), et ses bières sur Untappd. »
+- Ce qui manque est dit une fois, sous « En bref » : « Pas encore dans la fiche : son adresse, son téléphone, ses horaires et ses bières. », puis deux liens, « Chercher sur Google Maps » et « Ses bières sur Untappd » (hors de la phrase : un lien de fiche a 44 px de haut et étirait les lignes, vu sur la capture).
 - Joindre, Horaires et Bières ne s'affichent plus sans contenu ; « En bref » n'a que ce qui est connu ; « Y aller » dit en une phrase où mène l'itinéraire, avec la commune (« au centre d'Oullins »).
 - La provenance en une phrase ; le sens de la confiance replié ; l'avertissement sur les horaires visible dès qu'il y a des horaires.
 - La fiche sort de `Liste.tsx` (`src/Fiche.tsx`) ; Ninkasi Brignais : 341 mots avant, moins de la moitié après (`tests/unit/fiche-rendu.test.ts`).

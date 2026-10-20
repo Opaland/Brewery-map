@@ -91,30 +91,34 @@ export function CeQuiManque({ brasserie }: { brasserie: Brasserie }) {
   // (revue adverse S267).
   const parMaps = !estDeOsm(brasserie) && manque.some((m) => m !== 'bieres')
   const parUntappd = manque.includes('bieres')
-  // Une seule phrase, complète dans chaque cas (revue adverse S308 : bières
-  // seules, elle finissait en « . ses bières sur Untappd. »).
+  // La phrase, puis les recherches en liens à part : un lien de la fiche a
+  // 44 px de haut (`.fiche a`), et au milieu d'une phrase il étirait chaque
+  // ligne (vu sur la capture de S308). Phrase complète dans chaque cas (revue
+  // adverse S308 : bières seules, elle finissait en « . ses bières sur
+  // Untappd. »).
   return (
-    <p className="fiche-manque" data-testid="fiche-manque">
-      {phraseDuManque(manque)}
-      {(parMaps || parUntappd) && t(' À chercher sur ')}
+    <div className="fiche-manque" data-testid="fiche-manque">
+      <p>{phraseDuManque(manque)}</p>
+      {(parMaps || parUntappd) && (
+        <p className="fiche-liens">
+          {parMaps && (
+            <LienExterne href={rechercheGoogleMaps(brasserie.n, brasserie.c)} testid="telephone-google-maps">
+              {t('Chercher sur Google Maps')}
+              {pour}
+            </LienExterne>
+          )}
+          {parUntappd && (
+            <LienExterne href={rechercheUntappd(brasserie.n)} testid="chercher-untappd">
+              {t('Ses bières sur Untappd')}
+              {pour}
+            </LienExterne>
+          )}
+        </p>
+      )}
       {parMaps && (
-        <>
-          <LienExterne href={rechercheGoogleMaps(brasserie.n, brasserie.c)} testid="telephone-google-maps">
-            Google Maps
-            {pour}
-          </LienExterne>
-          {t(' (vérifiez que c’est la bonne brasserie)')}
-        </>
+        <p className="fiche-aide">{t('Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.')}</p>
       )}
-      {parMaps && parUntappd && t(', et ses bières sur ')}
-      {parUntappd && (
-        <LienExterne href={rechercheUntappd(brasserie.n)} testid="chercher-untappd">
-          Untappd
-          {pour}
-        </LienExterne>
-      )}
-      {(parMaps || parUntappd) && '.'}
-    </p>
+    </div>
   )
 }
 

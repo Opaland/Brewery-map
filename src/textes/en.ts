@@ -399,7 +399,6 @@ export const EN: Readonly<Record<string, string>> = {
   "Confiance faible : appelez ou lisez la source avant d’y aller.": "Low confidence: call or read the source before you go.",
   "Confiance faible : lisez la source avant d’y aller.": "Low confidence: read the source before you go.",
   "Rien n’établit encore ce qu’on peut y faire.": "Nothing establishes yet what you can do there.",
-  " (vérifiez que c’est la bonne brasserie)": " (check that it is the right brewery)",
   "Pourquoi « À confirmer » : ": "Why “To be confirmed”: ",
   "Source : aucune pour l’instant. Si c’est votre brasserie, envoyez le lien de votre site par « Signaler une erreur », plus bas.": "Source: none yet. If this is your brewery, send your website link via “Report an error”, below.",
   "Source : ": "Source: ",
@@ -409,7 +408,8 @@ export const EN: Readonly<Record<string, string>> = {
   "Que veut dire « confiance {niveau} » ?": "What does “{niveau} confidence” mean?",
   "Le lien ne contient que la destination, pas votre position.": "The link contains only the destination, not your location.",
   "Pas encore dans la fiche : {liste}.": "Not in this listing yet: {liste}.",
-  " À chercher sur ": " Look it up on ",
-  ", et ses bières sur ": ", and its beers on ",
   " (à vérifier)": " (to be checked)",
+  "Chercher sur Google Maps": "Look up on Google Maps",
+  "Ses bières sur Untappd": "Its beers on Untappd",
+  "Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.": "Google Maps searches by name and town: check that it is the right brewery.",
 }

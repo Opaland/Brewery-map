@@ -383,8 +383,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 
 ## S294 — restes
 
-- **La couche OSM (878 brasseries) est encore dans le premier écran**, attendue jusqu'à 3 s avant le premier rendu : même méthode (un fichier à part, le même pour tous), autre story.
-- **La suite n'est demandée qu'après le premier rendu**, qui attend lui-même le stockage et la couche OSM (jusqu'à 3 s) : un lien vers une fiche bretonne attend les trois en série. La demander dès le chargement du module la ferait partir en parallèle, mais partager la bande passante du premier écran : à mesurer (`outils/mesure-premier-ecran.ts`) avant d'y toucher (revue adverse S294).
+- ~~La couche OSM attendue avant le premier rendu ; la suite demandée seulement après~~ — mesuré en S310 (`docs/PREMIER-ECRAN.md`) : ne plus attendre la couche gagne moins que le bruit (84 ms pour un écart de 120) ; annoncer la suite dans le HTML perd 88 ms. Rien changé ; à refaire quand le premier écran grossit.
 - **Une visite notée juste avant de recharger ou de fermer l'onglet peut se perdre** : vu par `carnet.spec.ts` (5 échecs sur 15 sous Windows, le 20/10), qui attend maintenant l'écriture. Rejoint le reste « réglage perdu » de S302.
 
 ## Revue adverse S307 — restes
