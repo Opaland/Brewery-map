@@ -46,7 +46,7 @@ describe('S300 : la fiche en texte, par les composants de la page', () => {
     expect(texteDuRendu(html)).toBe('Voir [le site](https://exemple.fr/) & c’est tout\nOù\nLyon')
     expect(apercuDeFiche(A_CONFIRMER, MAINTENANT)).not.toContain('nouvel onglet')
     // `.fiche-aide` est peinte en bloc (`display: block`) : une ligne à elle.
-    expect(texteDuRendu('<dd>Vente<span class="fiche-aide">Confiance élevée.</span></dd>')).toBe('Vente\nConfiance élevée.')
+    expect(texteDuRendu('<dd>Vente<span class="fiche-aide">Lisez la source.</span></dd>')).toBe('Vente\nLisez la source.')
   })
 
   it('CA4 : la fiche après la ligne seule, et ce qui ne s’affichera plus', () => {

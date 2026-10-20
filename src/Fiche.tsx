@@ -10,11 +10,9 @@ import {
   idFiche,
   lecturesDeLaFiche,
   type Lecture,
-  libelleConfiance,
   libelleVerification,
   phraseConfiance,
   phraseDuManque,
-  SENS_CONFIANCE,
 } from './core/fiche'
 import { rechercheGoogleMaps } from './core/google-maps'
 import { estDeOsm, noteDeFiche, siteOsm } from './core/osm-france'
@@ -292,12 +290,6 @@ export function Fiche({
           </LienExterne>
           {t(', lue le {date}.', { date: libelleVerification(brasserie.fermee.verifieLe) })}
         </p>
-      )}
-      {brasserie.conf !== '' && (
-        <details className="fiche-aide" data-testid="fiche-sens-confiance">
-          <summary>{t('Que veut dire « confiance {niveau} » ?', { niveau: libelleConfiance(brasserie.conf) })}</summary>
-          <p>{t(SENS_CONFIANCE[brasserie.conf])}</p>
-        </details>
       )}
       <h4 className="fiche-titre">{t('Pour moi')}</h4>
       <div className="depart-actions">
