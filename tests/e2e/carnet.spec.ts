@@ -1,3 +1,4 @@
+import { attendreGarde } from './garde'
 import { expect, test } from './position'
 import { derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
 
@@ -26,16 +27,17 @@ test('« J’y suis allé·e » note la visite du jour ; la ligne le dit ; un se
 })
 
 test('le carnet se retrouve au retour', async ({ page }) => {
-  await page.locator('button.ligne').first().click()
+  const ligne = page.locator('button.ligne').first()
+  const nom = (await ligne.getAttribute('data-nom')) ?? ''
+  await ligne.click()
   await page.getByTestId('bouton-visite').click()
   await expect(page.getByTestId('marque-visite')).toHaveCount(1)
-  // L'écriture IndexedDB est asynchrone : on boucle sur l'état voulu (§6ter).
-  await expect
-    .poll(async () => {
-      await page.reload()
-      return page.getByTestId('marque-visite').count()
-    })
-    .toBe(1)
+  // L'écriture IndexedDB est asynchrone : recharger avant elle perdait la
+  // visite, et la boucle de rechargements ne la retrouvait jamais (5 échecs
+  // sur 15 sous Windows, mesuré le 20/10). On attend qu'elle soit gardée.
+  await attendreGarde(page, { visites: [{ nom, date: '2026-10-17' }] })
+  await page.reload()
+  await expect(page.getByTestId('marque-visite')).toHaveCount(1)
 })
 
 test('« pas encore visitées » écarte les visitées ; le compte et le résumé le disent', async ({ page }) => {

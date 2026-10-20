@@ -2,7 +2,7 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } fro
 import { useCarnetEntreOnglets, useCarteEnVue, useConnexion, useHauteurBarre, useMinute } from './crochets'
 import { compterTypes, type TypeDeBiere } from './core/bieres'
 import { CATEGORIES, ORDRE_CATEGORIES } from './core/categories'
-import { BRASSERIES } from './core/donnees'
+import { chargerSuite, FICHES_PREMIER_ECRAN } from './core/donnees'
 import { communesConnues, libelleOrigine, type Origine } from './core/origine'
 import { ECRAN_LARGE } from './core/ecran'
 import { aDesDonneesPersonnelles } from './core/persistance'
@@ -65,12 +65,13 @@ const AffichetteDifferee = lazy(() => import('./Affichette'))
 // La carte (MapLibre) pèse l'essentiel du JavaScript : chargée à part, elle ne
 // retarde pas la liste, qui suffit seule à trouver une brasserie.
 
-/** Combien de brasseries proposent chaque type : calculé une fois. */
-const NB_PAR_TYPE = compterTypes(BRASSERIES)
-const NB_RENSEIGNEES = BRASSERIES.filter((b) => b.beers.length > 0).length
-const COMMUNES = communesConnues(BRASSERIES)
-/** Les départements du fichier, pour dire où il s'arrête (revue globale S22). */
-const DEPARTEMENTS = [...new Set(BRASSERIES.map((b) => b.d))].sort()
+/**
+ * Les communes des fiches du premier écran, pour relire un départ gardé à
+ * l'ancien format (sans coordonnées, S8 à S20). Une commune de la suite
+ * (le 71 était déjà dans le fichier du 15/10) est relue à l'arrivée de la
+ * suite, plus bas (revue adverse S294).
+ */
+const COMMUNES = communesConnues(FICHES_PREMIER_ECRAN)
 
 /**
  * La ligne de compte. En mode « seulement mes favoris », elle le dit — la
@@ -78,6 +79,7 @@ const DEPARTEMENTS = [...new Set(BRASSERIES.map((b) => b.d))].sort()
  * S9) ; une liste vide dit comment en sortir.
  */
 function texteDuCompte(
+  suiteEnAttente: boolean,
   n: number,
   rayonKm: number,
   origine: string,
@@ -94,6 +96,13 @@ function texteDuCompte(
   // globale du 19/10, A6 : « aucune brasserie à moins de 30 km » trompait).
   if (n === 0 && aucuneCategorie) {
     return t('Aucune catégorie n’est cochée : cochez-en une dans « Ce qu’on peut y faire ».')
+  }
+  // Les fiches des autres régions arrivent (S294) : une liste vide n'est pas
+  // encore une réponse, et « aucune brasserie » serait faux. Sauf quand la
+  // cause ne dépend pas d'elles : aucune catégorie, aucun favori (revue
+  // adverse S294).
+  if (n === 0 && suiteEnAttente && !(favorisSeulement && nbFavoris === 0)) {
+    return t('Chargement des fiches des autres régions…')
   }
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
@@ -154,6 +163,8 @@ export function App({
   const [lienPartage, setLienPartage] = useState(ficheOuverte !== undefined)
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
   const [origine, setOrigine] = useState<Origine>(() => origineDesPreferences(ini.depart, COMMUNES))
+  // Le départ du premier rendu, pour savoir si la personne en a changé.
+  const origineInitiale = useRef(origine)
   // « Autour de moi » gardé mais pas encore relocalisé (permission non
   // donnée, GPS lent) : l'écran part de Brignais, le stockage garde le choix
   // tant que la personne n'en a pas fait d'autre. Sans cela, l'ouverture
@@ -294,10 +305,47 @@ export function App({
         : { etat: 'pret' as const, ...couche },
     [couche],
   )
-  const toutes = useMemo(() => [...BRASSERIES, ...osm.brasseries], [osm.brasseries])
+  // Les fiches vérifiées hors de la région de départ arrivent juste après le
+  // premier rendu (S294) : toujours demandées, quelle que soit la position.
+  const [suite, setSuite] = useState<
+    { etat: 'attente' } | { etat: 'pret'; fiches: readonly Brasserie[] } | { etat: 'echec' }
+  >({ etat: 'attente' })
+  useEffect(() => {
+    let actif = true
+    chargerSuite().then(
+      (fiches) => {
+        if (!actif) return
+        setSuite({ etat: 'pret', fiches })
+        // Un départ gardé à l'ancien format dans une commune de la suite
+        // (le 71 était déjà dans le fichier du 15/10) : relu maintenant, si
+        // la personne n'a pas choisi d'autre départ entre-temps (revue
+        // adverse S294).
+        if (ini.depart.type === 'commune' && ini.depart.lat === undefined) {
+          const relue = origineDesPreferences(ini.depart, communesConnues([...FICHES_PREMIER_ECRAN, ...fiches]))
+          if (relue.type === 'commune') setOrigine((o) => (o === origineInitiale.current ? relue : o))
+        }
+      },
+      () => {
+        if (actif) setSuite({ etat: 'echec' })
+      },
+    )
+    return () => {
+      actif = false
+    }
+  }, [ini.depart]) // Les réglages lus au démarrage : ne changent pas.
+  const fiches = useMemo(
+    () => (suite.etat === 'pret' ? [...FICHES_PREMIER_ECRAN, ...suite.fiches] : FICHES_PREMIER_ECRAN),
+    [suite],
+  )
+  /** Combien de brasseries proposent chaque type. */
+  const nbParType = useMemo(() => compterTypes(fiches), [fiches])
+  const nbRenseignees = useMemo(() => fiches.filter((b) => b.beers.length > 0).length, [fiches])
+  /** Les départements du fichier, pour dire où il s'arrête (revue globale S22). */
+  const departements = useMemo(() => [...new Set(fiches.map((b) => b.d))].sort(), [fiches])
+  const toutes = useMemo(() => [...fiches, ...osm.brasseries], [fiches, osm.brasseries])
   // Ce qui est cherché : sans la couche OSM si la personne l'a décochée
   // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
-  const cherchees = avecOsm ? toutes : BRASSERIES
+  const cherchees = avecOsm ? toutes : fiches
   const jugeables = useMemo(() => jugeablesCeWeekEnd(cherchees, joursWeekEnd), [cherchees, joursWeekEnd])
 
   const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
@@ -323,7 +371,7 @@ export function App({
   const communeTapee =
     origine.type === 'brignais' &&
     normaliser(texte).length >= 3 &&
-    BRASSERIES.some((b) => normaliser(b.c).startsWith(normaliser(texte)))
+    fiches.some((b) => normaliser(b.c).startsWith(normaliser(texte)))
   const criteres = useMemo<Criteres>(
     () => ({
       origine: origine.point,
@@ -349,9 +397,12 @@ export function App({
     return rechercher(cherchees, sans).length === 0
   }, [resultats, cherchees, criteres])
 
-  // Ma tournée (S27) : les favoris encore présents, de proche en proche.
+  // Ma tournée (S27) : les favoris encore présents, de proche en proche. Pas
+  // de tournée sans toutes les fiches : les favoris de la suite en seraient
+  // absents, sans le dire (S294, revue adverse).
   const tournee = useMemo(() => {
-    const etapes = toutes.filter((b) => ensembleFavoris.has(b.n) && b.fermee === undefined)
+    const etapes =
+      suite.etat === 'pret' ? toutes.filter((b) => ensembleFavoris.has(b.n) && b.fermee === undefined) : []
     const ordre = ordonnerTournee(etapes, origine.point)
     return {
       etapes: ordre.map((b) => b.n),
@@ -360,7 +411,7 @@ export function App({
       lien: lienTournee(ordre),
       total: etapes.length,
     }
-  }, [toutes, ensembleFavoris, origine])
+  }, [toutes, ensembleFavoris, origine, suite.etat])
   const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
   // Avec sa raison, et aussi hors du mode « seulement » : un favori hors du
   // rayon passait pour disparu (S301, issue #53).
@@ -375,12 +426,13 @@ export function App({
   const fermes = useMemo(() => favorisFermes(cherchees, favoris), [cherchees, favoris])
   // Un favori dont le nom n'est plus dans les données (renommée, retirée) :
   // dit et retirable, plutôt que compté en silence (revue code S9).
-  // Pas avant la couche OSM : un favori qui en vient passerait pour disparu.
+  // Pas avant la couche OSM ni la suite des fiches (S294) : un favori qui en
+  // vient passerait pour disparu.
   const nomsConnus = useMemo(() => new Set(toutes.map((b) => b.n)), [toutes])
   // Le carnet compte ce qu'on peut voir : une visite d'une brasserie OSM,
   // couche décochée, ne gonfle pas le nombre (revue adverse S35).
   const nomsCherches = useMemo(() => new Set(cherchees.map((b) => b.n)), [cherchees])
-  const orphelins = osm.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
+  const orphelins = osm.etat === 'pret' && suite.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
   const etatFiltres: EtatFiltres = {
     categories,
@@ -478,7 +530,9 @@ export function App({
   }
 
   return (
-    <div className="page">
+    // `data-suite` : l'état de la suite des fiches (S294), lu par les tests
+    // qui doivent la savoir arrivée avant de lire la liste.
+    <div className="page" data-suite={suite.etat}>
       <header className="entete">
         <div className="marque">
           {/* Le logo en ligne, pour que sa mousse monte une fois à l'ouverture
@@ -693,9 +747,9 @@ export function App({
             </fieldset>
 
             <FiltreType
-              nbParType={NB_PAR_TYPE}
-              nbRenseignees={NB_RENSEIGNEES}
-              nbFiches={BRASSERIES.length}
+              nbParType={nbParType}
+              nbRenseignees={nbRenseignees}
+              nbFiches={fiches.length}
               valeur={type}
               onChange={setType}
             />
@@ -736,23 +790,40 @@ export function App({
 
       {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
           couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
-      {resultats.length === 0 && !favorisSeulement && !partout && (
+      {resultats.length === 0 && !favorisSeulement && !partout && suite.etat !== 'attente' && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
             const p = plusProche(cherchees, origine.point, criteres)
             return p === undefined
               ? '' : `${t('La plus proche : {nom} ({commune}), à {distance}.', { nom: p.brasserie.n, commune: p.brasserie.c, distance: formaterDistance(p.distanceKm) })} `
           })()}
-          {t('Les fiches vérifiées couvrent {n} départements : {liste}', { n: DEPARTEMENTS.length, liste: DEPARTEMENTS.join(', ') })}
+          {t('Les fiches vérifiées couvrent {n} départements : {liste}', { n: departements.length, liste: departements.join(', ') })}
           {osm.etat === 'pret'
             ? t(' ; ailleurs, {n} brasseries repérées sur OpenStreetMap, à confirmer.', { n: osm.brasseries.length })
             : '.'}
         </p>
       )}
+      {suite.etat === 'echec' && (
+        <div className="champ-aide" role="status" data-testid="suite-absente">
+          <p>
+            {t('Les fiches vérifiées hors d’Auvergne-Rhône-Alpes n’ont pas pu se charger (connexion ?) : seules celles de la région sont là.')}
+          </p>
+          <div className="depart-actions">
+            <button
+              type="button"
+              onClick={() => {
+                window.location.reload()
+              }}
+            >
+              {t('Recharger la page')}
+            </button>
+          </div>
+        </div>
+      )}
       {osm.etat === 'echec' && (
         <div className="champ-aide" role="status" data-testid="osm-absente">
           <p>
-            {t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: DEPARTEMENTS.length })}
+            {t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: departements.length })}
           </p>
           <div className="depart-actions">
             <button
@@ -772,8 +843,8 @@ export function App({
       {type !== undefined && (
         <p className="champ-aide" data-testid="type-actif">
           {t('Filtre par type : seules les {n} fiches dont les bières sont renseignées, sur {total}, peuvent apparaître.', {
-            n: NB_RENSEIGNEES,
-            total: BRASSERIES.length,
+            n: nbRenseignees,
+            total: fiches.length,
           })}
         </p>
       )}
@@ -861,6 +932,7 @@ export function App({
         <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
           {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
           {texteDuCompte(
+            suite.etat === 'attente',
             resultats.length,
             rayonKm,
             libelleOrigine(origine),

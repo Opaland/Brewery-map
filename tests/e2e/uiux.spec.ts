@@ -1,6 +1,6 @@
 import type { Page } from '@playwright/test'
 import { expect, test } from './position'
-import { choisirCommune, ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
+import { attendreSuite, choisirCommune, ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
 /** Revue UI/UX globale du 16/10 (après S23) : ce qui a été corrigé. */
 test.beforeEach(async ({ page }) => {
@@ -163,27 +163,44 @@ test('un nom tapé cadre la carte sur ce qu’il trouve, même hors du rayon (S2
 })
 
 test('ajouter un favori ne recadre pas la carte (revue adverse S24)', async ({ page }) => {
+  // La suite arrivée d'abord (S294) : la liste ne change plus pendant la mesure.
+  await attendreSuite(page)
   await page.getByTestId('recherche').fill('tom')
   await versLaCarte(page)
   await page.locator('button.ligne').first().click()
-  const repere = page.locator('.marqueur-origine')
-  // Le bouton d'abord à l'écran : depuis S295 il est plus bas dans la
-  // fiche, et le clic ferait défiler la page, ce qui déplace aussi le repère.
+  // Le repère mesuré dans la carte : ce qui se mesure est un recadrage, pas
+  // un défilement de la page.
+  const repere = () =>
+    page.evaluate(() => {
+      const r = document.querySelector('.marqueur-origine')?.getBoundingClientRect()
+      const c = document.querySelector('[data-testid="carte"]')?.getBoundingClientRect()
+      return r === undefined || c === undefined ? null : { x: r.x - c.x, y: r.y - c.y }
+    })
+  // Le bouton d'abord à l'écran : depuis S295 il est plus bas dans la fiche.
   await page.getByTestId('bouton-favori').scrollIntoViewIfNeeded()
-  // La carte s'est posée sur la brasserie choisie : deux mesures à 200 ms
-  // d'écart qui concordent, plutôt qu'une attente fixe (§1bis, revue S295).
-  let avant = await repere.boundingBox()
+  // La carte s'est posée sur la brasserie choisie, plutôt qu'une attente
+  // fixe (§1bis, revue S295) : deux mesures à 500 ms d'écart égales, et sur
+  // des pixels entiers — MapLibre pose le marqueur au sous-pixel pendant un
+  // mouvement, et l'arrondit à l'arrêt. Sous Windows, un mouvement restait
+  // suspendu plus de 500 ms au sous-pixel, puis finissait au clic suivant :
+  // « moins d'un pixel en 200 ms » le prenait pour l'arrêt (5 échecs sur 8,
+  // `main` compris, le 20/10).
+  let avant = await repere()
   await expect
     .poll(async () => {
       const precedente = avant
-      avant = await repere.boundingBox()
-      return precedente !== null && avant !== null && Math.abs(precedente.x - avant.x) + Math.abs(precedente.y - avant.y) < 1
-    }, { intervals: [200] })
+      avant = await repere()
+      return (
+        precedente !== null && avant !== null &&
+        precedente.x === avant.x && precedente.y === avant.y &&
+        Number.isInteger(avant.x) && Number.isInteger(avant.y)
+      )
+    }, { intervals: [500], timeout: 10_000 })
     .toBe(true)
   await page.getByTestId('bouton-favori').click()
   // Attente voulue : un recadrage de la carte, s'il partait, aurait fini.
   await page.waitForTimeout(800)
-  const apres = await repere.boundingBox()
+  const apres = await repere()
   // À l'arrondi du sous-pixel près : un recadrage déplace le repère de
   // centaines de pixels (mesuré : 140 et 243 px).
   expect(Math.abs((apres?.x ?? 1e6) - (avant?.x ?? 0))).toBeLessThanOrEqual(2)

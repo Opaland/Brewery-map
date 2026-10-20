@@ -398,9 +398,11 @@ describe('les fiches qui partagent un point (S268)', () => {
   // (`Carte.tsx`). Depuis S268, les fiches au centre IGN d'une même commune
   // partagent un point : on le vérifie sur le vrai fichier.
   it('se suivent dans la liste, d’où qu’on parte', async () => {
-    const { BRASSERIES } = await import('../../src/core/donnees')
-    for (const origine of [BRIGNAIS, { lat: 45.18, lon: 5.72 }, { lat: 46.2, lon: 5.2 }]) {
-      const points = rechercher(BRASSERIES, { ...base, origine, rayonKm: 1000 }).map((r) => `${String(r.brasserie.lat)},${String(r.brasserie.lon)}`)
+    // Les deux parts, dans l'ordre où l'application les assemble (S294).
+    const { FICHES_PREMIER_ECRAN, chargerSuite } = await import('../../src/core/donnees')
+    const fiches = [...FICHES_PREMIER_ECRAN, ...(await chargerSuite())]
+    for (const origine of [BRIGNAIS, { lat: 45.18, lon: 5.72 }, { lat: 46.2, lon: 5.2 }, { lat: 48.39, lon: -4.49 }]) {
+      const points = rechercher(fiches, { ...base, origine, rayonKm: 1000 }).map((r) => `${String(r.brasserie.lat)},${String(r.brasserie.lon)}`)
       const vus = new Set<string>()
       points.forEach((p, i) => {
         if (vus.has(p)) expect(points[i - 1], p).toBe(p)

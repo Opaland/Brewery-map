@@ -16,6 +16,8 @@ test.describe('le service worker', () => {
     const { fichiers: liste, empreinte } = promessePrecache(readFileSync('dist/sw.js', 'utf8'))
     expect(liste.length).toBeGreaterThan(8)
     expect(liste.some((f) => /\/assets\/Carte-.*\.js$/.test(f))).toBe(true)
+    // La suite des fiches (S294), hors du premier écran : hors ligne aussi.
+    expect(liste.some((f) => /\/assets\/breweries-.*\.js$/.test(f))).toBe(true)
     expect(empreinte).toBeDefined()
 
     await page.goto('/')

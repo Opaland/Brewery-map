@@ -60,6 +60,15 @@ export function pageAWebGL(page: Page): Promise<boolean> {
 }
 
 /**
+ * Attendre la suite des fiches (S294), qui arrive après le premier rendu.
+ * Un test qui lit la liste avant elle la voit changer sous lui : `.last()`
+ * se résolvait de nouveau au clic, sur une fiche arrivée entre-temps.
+ */
+export async function attendreSuite(page: Page): Promise<void> {
+  await expect(page.locator('.page')).toHaveAttribute('data-suite', 'pret')
+}
+
+/**
  * Choisir une commune de départ (S21) : la taper, puis toucher la ligne
  * proposée. Remplace l'ancienne liste déroulante.
  */

@@ -13,8 +13,13 @@ import { expect, test } from './position'
  * même règle que S235 (mesure + environ 10 %) : 219 000. S293 a mesuré
  * le premier écran à 358, 1 000 et 2 000 fiches (`docs/PREMIER-ECRAN.md`) :
  * S294 chargera les fiches par département.
+ *
+ * S294 (20/10) : les fiches hors d'Auvergne-Rhône-Alpes sortent du premier
+ * écran (un fichier à part, demandé juste après). Mesuré à 189 402 octets
+ * (218 991 avant), budget refixé par la même règle (mesure + environ 10 %) :
+ * 208 000, à la baisse.
  */
-const BUDGETS = { premierEcran: 219_000, carte: 310_000, travailleur: 158_000 }
+const BUDGETS = { premierEcran: 208_000, carte: 310_000, travailleur: 158_000 }
 
 const gz = (fichier: string) => gzipSync(readFileSync(`dist/${fichier}`), { level: 9 }).length
 
@@ -36,6 +41,8 @@ test('le premier écran tient son budget', () => {
   // un morceau partagé dans le paquet principal (4 fichiers → 3).
   expect(fichiers.some((f) => /^assets\/index-[^/]+\.js$/.test(f))).toBe(true)
   expect(fichiers.some((f) => /^assets\/index-[^/]+\.css$/.test(f))).toBe(true)
+  // La suite des fiches n'y est pas : ni chargée ni annoncée par le HTML (S294).
+  expect(fichiers.some((f) => /\/breweries-/.test(f))).toBe(false)
   const total = fichiers.reduce((s, f) => s + gz(f), 0)
   expect(total, `premier écran : ${String(total)} octets gzip (${fichiers.join(', ')})`).toBeLessThanOrEqual(BUDGETS.premierEcran)
 })

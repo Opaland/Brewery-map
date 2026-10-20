@@ -333,14 +333,17 @@ export function Liste({
   // après, hors champ sur un petit écran (revue code S3). Sans animation si
   // la personne a demandé moins de mouvement. Une fiche plus haute que
   // l'écran s'aligne par son haut : « nearest » l'amenait par son bas, nom
-  // et focus hors de l'écran (revue globale du 19/10, A5).
+  // et focus hors de l'écran (revue globale du 19/10, A5). Aussi quand la
+  // ligne n'arrive qu'après le choix : un lien partagé vers une fiche de la
+  // suite (S294) l'ouvrait hors de l'écran (revue adverse S294).
+  const selectionPresente = selection !== null && resultats.some((r) => r.brasserie.n === selection)
   useEffect(() => {
-    if (selection === null) return
+    if (!selectionPresente) return
     const ligne = liste.current?.querySelector('li.ouverte')
     if (ligne === null || ligne === undefined) return
     const tropHaute = ligne.getBoundingClientRect().height > window.innerHeight
     ligne.scrollIntoView({ block: tropHaute ? 'start' : 'nearest', behavior: mouvementReduit() ? 'auto' : 'smooth' })
-  }, [selection])
+  }, [selection, selectionPresente])
 
   useEffect(() => {
     if (focaliser === 0) return
