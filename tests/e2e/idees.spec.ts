@@ -49,7 +49,7 @@ test('la provenance dit quoi faire avant de partir, selon la confiance', async (
   await page.goto('/')
   await page.locator('button.ligne').first().click()
   await expect(page.getByTestId('fiche-provenance')).toBeVisible()
-  await expect(page.getByTestId('fiche-confiance')).toHaveText(/^(Confiance (élevée|moyenne)\.|Confiance faible : .*avant d’y aller\.|Rien n’établit encore ce qu’on peut y faire\.)$/)
+  await expect(page.getByTestId('fiche-confiance')).toHaveText(/^(La source décrit précisément ce qu’on peut faire sur place\.|La source cite la vente ou l’accueil, avec des réserves ou des manques.|Ce qu’on peut y faire est probable, pas établi par la source : .*avant d’y aller\.|Rien n’établit encore ce qu’on peut y faire\.)$/)
 })
 
 test('un lien partagé ouvre la fiche, même hors du rayon', async ({ page }) => {

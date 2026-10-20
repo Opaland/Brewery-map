@@ -9,19 +9,19 @@ import {
   phrasePosition,
   citeUnNumero,
   hoteDeSource,
-  libelleConfiance,
   libelleVerification,
 } from '../../src/core/fiche'
 
-describe('libelleConfiance', () => {
-  it('dit « élevée » pour « solide » (décision de Cédric, 15/10)', () => {
-    expect(libelleConfiance('solide')).toBe('élevée')
-    expect(libelleConfiance('moyenne')).toBe('moyenne')
-    expect(libelleConfiance('faible')).toBe('faible')
-  })
-
-  it('ne dit rien de faux quand rien n’est évalué', () => {
-    expect(libelleConfiance('')).toBe('non évaluée (aucune preuve retenue)')
+describe('phraseConfiance (S320, Cédric le 20/10 : des phrases)', () => {
+  it('dit chaque niveau en une phrase, sans le mot « confiance »', () => {
+    const phrases = (['solide', 'moyenne', 'faible', ''] as const).map((conf) => phraseConfiance({ conf, note: '' }))
+    expect(phrases).toEqual([
+      'La source décrit précisément ce qu’on peut faire sur place.',
+      'La source cite la vente ou l’accueil, avec des réserves ou des manques.',
+      'Ce qu’on peut y faire est probable, pas établi par la source : lisez-la avant d’y aller.',
+      'Rien n’établit encore ce qu’on peut y faire.',
+    ])
+    for (const p of phrases) expect(p.toLowerCase()).not.toContain('confiance')
   })
 })
 
@@ -61,7 +61,7 @@ describe('avertissementHoraires', () => {
   const sans = { note: 'Aucune source fiable lue pour cette brasserie.' }
   it('ne dit « appelez » que si un numéro est connu (revue métier S17, Bernard)', () => {
     expect(avertissementHoraires(sans)).toBe(
-      'La confiance ne garantit pas les horaires : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
+      'Les horaires ne sont pas garantis : lisez ce que dit la source. Aucun téléphone n’est encore connu pour les vérifier.',
     )
     const contact = { tel: '04 78 33 84 95', source: 'https://x.fr', verifieLe: '2026-10-16' }
     expect(avertissementHoraires({ ...sans, contact })).toContain('et appelez en cas de doute.')
@@ -110,9 +110,9 @@ describe('phrasePosition et phraseConfiance', () => {
     expect(phrasePosition({ coordPrecision: 'address', c: 'Brignais', addr: '2A route de Lyon' })).toBe('')
   })
   it('« appelez » seulement si un numéro est connu (revue métier S17)', () => {
-    expect(phraseConfiance({ conf: 'faible', note: '' })).toBe('Confiance faible : lisez la source avant d’y aller.')
+    expect(phraseConfiance({ conf: 'faible', note: '' })).toBe('Ce qu’on peut y faire est probable, pas établi par la source : lisez-la avant d’y aller.')
     expect(phraseConfiance({ conf: 'faible', note: '', contact: { tel: '04 00 00 00 00', source: 'https://x.test/', verifieLe: '2026-10-20' } })).toBe(
-      'Confiance faible : appelez ou lisez la source avant d’y aller.',
+      'Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.',
     )
   })
 })

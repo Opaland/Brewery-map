@@ -111,8 +111,8 @@ describe('la fiche (S308)', () => {
 
   it('l’avertissement sur les horaires se voit quand il y en a, et seulement alors (revues S308)', () => {
     // Visible, pas dans le repli : texteVu retire le contenu d'un repli fermé.
-    expect(texteVu(rendu(complete))).toContain('La confiance ne garantit pas les horaires')
-    expect(rendu(vide)).not.toContain('La confiance ne garantit pas les horaires')
+    expect(texteVu(rendu(complete))).toContain('Les horaires ne sont pas garantis')
+    expect(rendu(vide)).not.toContain('Les horaires ne sont pas garantis')
   })
 
   it('S312 CA1, CA3 : un site, trois dates : une phrase, le site une fois ; ni « Lu le » ni « Lus le » ailleurs', () => {
@@ -133,12 +133,14 @@ describe('la fiche (S308)', () => {
     expect(texteVu(html)).not.toMatch(/Lus? le /)
   })
 
-  it('CA4 : la provenance tient en un paragraphe ; le sens de la confiance est replié', () => {
+  it('CA4 : la provenance tient en un paragraphe ; la confiance est une phrase, sans volet (S320)', () => {
     const html = rendu(vide)
     const provenance = /<p[^>]*data-testid="fiche-provenance"[^>]*>([\s\S]*?)<\/p>/.exec(html)
     expect(provenance).not.toBeNull()
     expect(texteVu(provenance?.[0] ?? '')).toMatch(/^Source : ninkasi\.fr\b/)
-    expect(html).toMatch(/<details[^>]*data-testid="fiche-sens-confiance"[^>]*><summary>/)
+    expect(html).not.toContain('fiche-sens-confiance')
+    expect(texteVu(rendu(complete))).not.toMatch(/confiance/i)
+    expect(texteVu(html)).not.toMatch(/confiance/i)
   })
 
   it('sans adresse, où mène l’itinéraire se dit en une phrase, avec la commune', () => {

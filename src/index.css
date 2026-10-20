@@ -1013,8 +1013,8 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .fiche h5.fiche-titre { font-size: 1rem; margin-top: var(--espace-4); }
 .fiche-en-bref { margin-bottom: var(--espace-2); padding-bottom: var(--espace-6); border-bottom: 1px solid var(--cuivre-pale); }
 /* S308 : ce qui manque, dit une fois sous « En bref » ; la provenance en
-   une phrase, le sens de la confiance replié (cible de 44 px hors carte,
-   comme les boutons : `accessibilite.spec.ts`). */
+   une phrase (cible de 44 px hors carte, comme les boutons :
+   `accessibilite.spec.ts`). */
 .fiche-manque { margin: 0 0 var(--espace-4); }
 .fiche-manque > p { margin: 0 0 var(--espace-2); }
 /* Passés à la ligne, les deux liens ne laissent pas un trou entre eux
