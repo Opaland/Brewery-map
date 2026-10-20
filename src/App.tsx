@@ -24,6 +24,7 @@ import {
   listeCourte,
   normaliser,
   plusProche,
+  videAussiSans,
   rechercher,
   rechercherPartout,
   compterParDepartement,
@@ -91,6 +92,7 @@ function texteDuCompte(
   ceWeekEnd = false,
   aucuneCategorie = false,
   videSansWeekEnd = false,
+  videSansCarnet = false,
 ): string {
   // Toutes catégories décochées : c'est la seule cause, la dire (revue
   // globale du 19/10, A6 : « aucune brasserie à moins de 30 km » trompait).
@@ -106,7 +108,9 @@ function texteDuCompte(
   }
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
-  if (n === 0 && pasVisitees) {
+  // Seulement si c'est lui qui vide la liste (S315 : carnet vide, ou week-end
+  // qui vide déjà, le compte l'accusait à tort).
+  if (n === 0 && pasVisitees && !videSansCarnet) {
     return t('Toutes celles qui correspondent sont dans votre carnet. Décochez « Seulement les brasseries pas encore visitées » pour les revoir.')
   }
   // Un nom tapé cherche partout (S21) : le compte ne parle plus du rayon ;
@@ -387,15 +391,17 @@ export function App({
     [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
-  // La liste serait-elle vide aussi sans « ouvertes ce week-end » ? Alors ce
-  // n'est pas lui qu'il faut accuser (A11). Calculé seulement quand il vide
-  // la liste.
-  const videSansWeekEnd = useMemo(() => {
-    if (resultats.length > 0 || criteres.weekEnd === undefined) return false
-    const sans = { ...criteres }
-    delete sans.weekEnd
-    return rechercher(cherchees, sans).length === 0
-  }, [resultats, cherchees, criteres])
+  // La liste serait-elle vide aussi sans « ouvertes ce week-end », ou sans
+  // le carnet ? Alors ce n'est pas lui qu'il faut accuser (A11, S315).
+  // Calculé seulement quand la liste est vide.
+  const videSansWeekEnd = useMemo(
+    () => resultats.length === 0 && criteres.weekEnd !== undefined && videAussiSans(cherchees, criteres, 'weekEnd'),
+    [resultats, cherchees, criteres],
+  )
+  const videSansCarnet = useMemo(
+    () => resultats.length === 0 && criteres.exclure !== undefined && videAussiSans(cherchees, criteres, 'exclure'),
+    [resultats, cherchees, criteres],
+  )
 
   // Ma tournée (S27) : les favoris encore présents, de proche en proche. Pas
   // de tournée sans toutes les fiches : les favoris de la suite en seraient
@@ -794,8 +800,12 @@ export function App({
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
             const p = plusProche(cherchees, origine.point, criteres)
-            return p === undefined
-              ? '' : `${t('La plus proche : {nom} ({commune}), à {distance}.', { nom: p.brasserie.n, commune: p.brasserie.c, distance: formaterDistance(p.distanceKm) })} `
+            if (p === undefined) return ''
+            const v = { nom: p.brasserie.n, commune: p.brasserie.c, distance: formaterDistance(p.distanceKm) }
+            // Le carnet écarte les visitées : la plus proche est celle qui ne
+            // l'est pas, et la phrase le dit (S315 : sous « tout est dans votre
+            // carnet », « la plus proche » se lisait comme une contradiction).
+            return `${pasVisitees ? t('La plus proche pas encore visitée : {nom} ({commune}), à {distance}.', v) : t('La plus proche : {nom} ({commune}), à {distance}.', v)} `
           })()}
           {t('Les fiches vérifiées couvrent {n} départements : {liste}', { n: departements.length, liste: departements.join(', ') })}
           {osm.etat === 'pret'
@@ -944,6 +954,7 @@ export function App({
             ceWeekEnd,
             categories.length === 0,
             videSansWeekEnd,
+            videSansCarnet,
           )}
           {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
         </p>

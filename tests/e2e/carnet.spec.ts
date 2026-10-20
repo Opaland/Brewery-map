@@ -122,6 +122,32 @@ test('tout visité : le compte dit que c’est le filtre « pas encore visitées
   await expect(page.getByTestId('compte')).toContainText('Toutes celles qui correspondent sont dans votre carnet.')
 })
 
+// S315 : le carnet n'est accusé que s'il vide la liste.
+test('carnet vide et liste vide : le compte n’accuse pas le carnet (S315)', async ({ page }) => {
+  await ouvrirFiltres(page)
+  await page.getByTestId('pas-visitees').check()
+  await page.getByTestId('recherche').fill('zzqxw')
+  await expect(page.locator('button.ligne')).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie ne correspond.')
+})
+
+test('tout le rayon visité : le carnet est la cause, et la plus proche est dite « pas encore visitée » (S315)', async ({ page }) => {
+  await page.getByTestId('rayon').fill('5')
+  await ouvrirFiltres(page)
+  await page.getByTestId('pas-visitees').check()
+  // Chaque visite sort la ligne de la liste ; on boucle sur l'état voulu (§6ter).
+  const lignes = page.locator('button.ligne')
+  for (let i = 0; i < 20 && (await lignes.count()) > 0; i++) {
+    const avant = await lignes.count()
+    await lignes.first().click()
+    await page.getByTestId('bouton-visite').click()
+    await expect(lignes).toHaveCount(avant - 1)
+  }
+  await expect(lignes).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toContainText('Toutes celles qui correspondent sont dans votre carnet.')
+  await expect(page.getByTestId('plus-proche')).toContainText('La plus proche pas encore visitée : ')
+})
+
 test.describe('mes notes (S36)', () => {
   test('une note s’écrit dans la fiche, se garde et se relit au retour', async ({ page }) => {
     const ligne = page.locator('button.ligne').first()
