@@ -5,7 +5,7 @@ import { Contact } from './Contact'
 import { appliquerLot, nomDuNumero, numerosDuLot, type Lot } from './core/curation'
 import type { Brasserie } from './core/schema'
 import { EnBref } from './EnBref'
-import { CeQuiManque } from './Fiche'
+import { CeQuiManque, Provenance } from './Fiche'
 import { Horaires } from './Horaires'
 
 /**
@@ -24,6 +24,9 @@ export function apercuDeFiche(brasserie: Brasserie, maintenant: Date): string {
       createElement(Contact, { brasserie }),
       createElement(Horaires, { brasserie, maintenant }),
       createElement(Bieres, { brasserie }),
+      // D'où et quand : sans elle, un lot qui change une source ou une date
+      // ne se voyait plus (revue adverse S312).
+      createElement(Provenance, { brasserie }),
     ),
   )
   return texteDuRendu(html)

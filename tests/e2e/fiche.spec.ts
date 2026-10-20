@@ -57,8 +57,6 @@ test.describe('la fiche détaillée (Cédric)', () => {
     // S268 : sans position à l'adresse, au centre IGN de sa commune ; dit en
     // une phrase, avec la commune (S308).
     await expect(fiche.getByTestId('fiche-precision')).toHaveText('Sur la carte, le point est le centre de Chaussan, pas la brasserie.')
-    // Sans date de lecture, pas de phrase qui ne dit qu'un trou (S308).
-    await expect(fiche.getByTestId('fiche-verification')).toHaveCount(0)
     await expect(fiche).toContainText("44 chemin de Chavagneux, 69440 Chaussan")
   })
 

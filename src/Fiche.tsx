@@ -8,6 +8,8 @@ import {
   ceQuiManque,
   hoteDeSource,
   idFiche,
+  lecturesDeLaFiche,
+  type Lecture,
   libelleConfiance,
   libelleVerification,
   phraseConfiance,
@@ -122,6 +124,89 @@ export function CeQuiManque({ brasserie }: { brasserie: Brasserie }) {
   )
 }
 
+// Des fonctions : la langue est choisie après le chargement du module.
+const CE_QUI_EST_LU: Readonly<Record<Lecture['quoi'], () => string>> = {
+  fiche: () => t('la fiche'),
+  coordonnees: () => t('les coordonnées'),
+  horaires: () => t('les horaires'),
+}
+
+/**
+ * D'où vient la fiche, en une phrase (S308), chaque site cité une fois avec
+ * ce qu'on y a lu et quand (S312 ; revue Marie S308 : trois dates, le même
+ * site trois fois). Aussi rendue par l'aperçu des lots (`src/apercu.ts`).
+ */
+export function Provenance({ brasserie }: { brasserie: Brasserie }) {
+  const groupes = lecturesDeLaFiche(brasserie)
+  const site = siteOsm(brasserie)
+  return (
+    <p className="fiche-provenance" data-testid="fiche-provenance">
+      <span data-testid="fiche-source">
+        {groupes.length === 0
+          ? t('Source : aucune pour l’instant. Si c’est votre brasserie, envoyez le lien de votre site par « Signaler une erreur », plus bas.')
+          : groupes.map((g, i) => {
+              // Sans date de lecture, la source seule : rien d'inventé, et pas
+              // de phrase qui ne dit qu'un trou (revue Marie S308).
+              const datees = g.lectures.filter((l) => l.date !== undefined)
+              const dates = new Set(datees.map((l) => l.date))
+              const lien = <LienExterne href={g.url}>{g.hote}</LienExterne>
+              // Une seule date pour tout ce qui a été lu sur ce site : dite une
+              // fois. Sinon, chaque lecture datée avec sa date ; une lecture
+              // sans date n'en reçoit pas d'une autre (revue adverse S312).
+              const uneDate = dates.size === 1 && datees.length === g.lectures.length
+              return (
+                <span key={g.hote}>
+                  {i > 0 && ' '}
+                  {datees.length === 0 ? (
+                    <>
+                      {t('Source : ')}
+                      {lien}
+                    </>
+                  ) : uneDate ? (
+                    <>
+                      {t('Lu sur ')}
+                      {lien}
+                      {t(' le {date}', { date: libelleVerification(datees[0]?.date) })}
+                    </>
+                  ) : (
+                    <>
+                      {t('Lu sur ')}
+                      {lien}
+                      {t(' : ')}
+                      {datees.map((l, j) => (
+                        <span key={l.quoi}>
+                          {j > 0 && ', '}
+                          {/* La page précise, quand ce n'est pas celle du site
+                              (revue adverse S312 : le lien du contact se perdait). */}
+                          {l.url === g.url ? (
+                            CE_QUI_EST_LU[l.quoi]()
+                          ) : (
+                            <LienExterne href={l.url}>{CE_QUI_EST_LU[l.quoi]()}</LienExterne>
+                          )}
+                          {t(' le {date}', { date: libelleVerification(l.date) })}
+                        </span>
+                      ))}
+                    </>
+                  )}
+                  .
+                </span>
+              )
+            })}
+        {site !== undefined && (
+          <>
+            {t(' Site indiqué par OpenStreetMap : ')}
+            <LienExterne href={site} testid="fiche-site-osm">
+              {hoteDeSource(site) ?? t('site')}
+            </LienExterne>
+            .
+          </>
+        )}
+      </span>{' '}
+      <span data-testid="fiche-confiance">{phraseConfiance(brasserie)}</span>
+    </p>
+  )
+}
+
 /**
  * La fiche détaillée, dépliée sous sa ligne. Pas de fenêtre par-dessus : sur
  * un téléphone, la liste reste le fil, et le retour est le même geste.
@@ -152,8 +237,6 @@ export function Fiche({
   onImprimer: () => void
   onRefermer: () => void
 }) {
-  const hote = hoteDeSource(brasserie.src)
-  const site = siteOsm(brasserie)
   // Le nom de la brasserie, pour qui parcourt les boutons sans la ligne (S295, Inès).
   const pour = <span className="lecteur-seul"> {brasserie.n}</span>
   const titre = `${idFiche(brasserie.n)}-titre`
@@ -191,38 +274,7 @@ export function Fiche({
           <EnFrancais testid="fiche-note-osm">{noteDeFiche(brasserie)}</EnFrancais>
         </p>
       )}
-      <p className="fiche-provenance" data-testid="fiche-provenance">
-        <span data-testid="fiche-source">
-          {hote === null ? (
-            t('Source : aucune pour l’instant. Si c’est votre brasserie, envoyez le lien de votre site par « Signaler une erreur », plus bas.')
-          ) : (
-            <>
-              {t('Source : ')}
-              <LienExterne href={brasserie.src}>{hote}</LienExterne>
-              {site !== undefined && (
-                <>
-                  {t(' ; site indiqué par OpenStreetMap : ')}
-                  <LienExterne href={site} testid="fiche-site-osm">
-                    {hoteDeSource(site) ?? t('site')}
-                  </LienExterne>
-                </>
-              )}
-              .
-            </>
-          )}
-        </span>{' '}
-        {/* Sans date de lecture, rien : « date de vérification inconnue » ne
-            disait qu'un trou (revue Marie S308) ; la réserve est portée par
-            la confiance, juste après. */}
-        {brasserie.verifieLe !== undefined && (
-          <>
-            <span data-testid="fiche-verification">
-              {t('Vérifiée le {date}.', { date: libelleVerification(brasserie.verifieLe) })}
-            </span>{' '}
-          </>
-        )}
-        <span data-testid="fiche-confiance">{phraseConfiance(brasserie)}</span>
-      </p>
+      <Provenance brasserie={brasserie} />
       {/* La confiance porte sur la catégorie, jamais sur les horaires (revue
           métier S3) : dit en clair dès qu'il y a des horaires. Sans horaires,
           rien à prévenir (revue Marie S308 : la phrase parlait d'horaires

@@ -145,6 +145,46 @@ export function phraseConfiance(b: Pick<Brasserie, 'conf' | 'note' | 'contact'>)
   }
 }
 
+/** Ce qu'une lecture date : la fiche elle-même, ses coordonnées, ses horaires. */
+export interface Lecture {
+  quoi: 'fiche' | 'coordonnees' | 'horaires'
+  /** La page lue : chaque lecture garde la sienne (revue adverse S312 : le lien du contact se perdait derrière celui de la fiche). */
+  url: string
+  date?: string
+}
+
+/** Les lectures d'un même site : il n'est cité qu'une fois. */
+export interface LecturesDUnSite {
+  hote: string
+  url: string
+  lectures: Lecture[]
+}
+
+/**
+ * D'où vient la fiche, groupé par site, dans l'ordre de la fiche (S312 ;
+ * revue Marie S308 : le même site cité trois fois, à trois dates, dans trois
+ * parties). Rien n'est inventé : une fiche sans date garde sa source seule.
+ */
+export function lecturesDeLaFiche(b: Pick<Brasserie, 'src' | 'verifieLe' | 'contact' | 'horaires'>): LecturesDUnSite[] {
+  const brutes: { quoi: Lecture['quoi']; url: string; date: string | undefined }[] = []
+  if (b.src !== '') brutes.push({ quoi: 'fiche', url: b.src, date: b.verifieLe })
+  if (b.contact !== undefined) brutes.push({ quoi: 'coordonnees', url: b.contact.source, date: b.contact.verifieLe })
+  for (const bloc of b.horaires ?? []) brutes.push({ quoi: 'horaires', url: bloc.source, date: bloc.verifieLe })
+  const groupes: LecturesDUnSite[] = []
+  for (const l of brutes) {
+    const hote = hoteDeSource(l.url) ?? l.url
+    let groupe = groupes.find((g) => g.hote === hote)
+    if (groupe === undefined) {
+      groupe = { hote, url: l.url, lectures: [] }
+      groupes.push(groupe)
+    }
+    // Deux blocs d'horaires lus le même jour sur le même site : une lecture.
+    if (groupe.lectures.some((x) => x.quoi === l.quoi && x.date === l.date)) continue
+    groupe.lectures.push(l.date === undefined ? { quoi: l.quoi, url: l.url } : { quoi: l.quoi, url: l.url, date: l.date })
+  }
+  return groupes
+}
+
 /** Le site de la source, lisible (« nomadebiere.fr »), ou null s'il n'y en a pas. */
 export function hoteDeSource(src: string): string | null {
   if (src === '') return null

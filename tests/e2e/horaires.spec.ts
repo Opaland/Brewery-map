@@ -14,18 +14,20 @@ test('une fiche restée ouverte passe d’« ouvert » à « fermé » à l’he
   await page.goto('/')
   await page.getByTestId('recherche').fill('stéphanoise')
   await page.locator('button.ligne', { hasText: 'Brasserie Stéphanoise' }).click()
-  const etat = page.getByTestId('horaires-maintenant')
+  // L'état du moment est dit une fois, en tête de fiche (S312) : le
+  // tableau ne le redit pas pour la seule nature de la fiche.
+  const etat = page.getByTestId('en-bref-maintenant')
   await expect(etat).toContainText('À 18 h 29 (heure de Paris), vente : ouvert jusqu’à 18 h 30')
+  await expect(page.getByTestId('horaires-maintenant')).toHaveCount(0)
   // La ligne le dit aussi, sans ouvrir la fiche (S295, Hugo).
   const surLaLigne = page.locator('button.ligne', { hasText: 'Brasserie Stéphanoise' }).getByTestId('ligne-ouvert')
   await expect(surLaLigne).toHaveText('Vente ouverte maintenant, sous réserve')
   await page.clock.runFor('02:00')
   await expect(surLaLigne).toHaveText('Vente fermée maintenant')
   await expect(etat).toContainText('À 18 h 31 (heure de Paris), vente : fermé')
-  // Et quand ça rouvre, en tête de fiche comme dans le tableau (RF3).
-  await expect(etat).toContainText('Prochaine ouverture : demain à 14 h, sous réserve.')
-  await expect(page.getByTestId('en-bref-maintenant')).toHaveText(
-    'Vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 14 h, sous réserve.',
+  // Et quand ça rouvre (RF3).
+  await expect(etat).toHaveText(
+    'À 18 h 31 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 14 h, sous réserve.',
   )
 })
 

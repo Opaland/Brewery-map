@@ -30,7 +30,7 @@ describe('le bloc contact', () => {
     expect(html).toContain('href="https://untappd.com/Caribrew"')
     expect(html).not.toContain('untappd.com/search')
   })
-  it('avec contact : appeler, site, Untappd, et d’où ça vient', () => {
+  it('avec contact : appeler, site, Untappd ; d’où ça vient est dit dans la provenance (S312)', () => {
     const html = rendu({
       ...base,
       contact: {
@@ -44,14 +44,13 @@ describe('le bloc contact', () => {
     expect(html).toContain('href="tel:+33472508853"')
     expect(html).toContain('Appeler le 04 72 50 88 53')
     expect(html).toContain('href="https://untappd.com/NomadeBrewery/beer"')
-    expect(html).toContain('Lu le 15 octobre 2026 sur')
-    expect(html).toContain('>nomadebiere.fr<span class="lecteur-seul"> (nouvel onglet)</span></a>')
+    expect(html).not.toContain('Lu le')
     // Chaque lien http(s) part dans un nouvel onglet et sans référent —
     // compté sur tous les liens, pas seulement ceux qui ont déjà `target`
     // (revue code S4), et quel que soit l'ordre des attributs.
     const liens = html.match(/<a [^>]*>/g) ?? []
     const externes = liens.filter((a) => /href="https?:/.test(a))
-    expect(externes.length).toBe(3)
+    expect(externes.length).toBe(2)
     for (const a of externes) {
       expect(a).toContain('target="_blank"')
       expect(a).toContain('rel="noopener noreferrer"')

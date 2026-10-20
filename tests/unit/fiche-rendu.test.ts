@@ -115,6 +115,24 @@ describe('la fiche (S308)', () => {
     expect(rendu(vide)).not.toContain('La confiance ne garantit pas les horaires')
   })
 
+  it('S312 CA1, CA3 : un site, trois dates : une phrase, le site une fois ; ni « Lu le » ni « Lus le » ailleurs', () => {
+    const SITE = 'https://exemple.test/'
+    const riche = {
+      ...complete,
+      src: SITE,
+      verifieLe: '2026-10-17',
+      contact: { tel: '04 00 00 00 00', source: `${SITE}contact`, verifieLe: '2026-10-16' },
+      horaires: [{ nature: 'accueil', sam: [['10:00', '18:00']], source: `${SITE}horaires`, verifieLe: '2026-10-18' }],
+    } as Brasserie
+    const html = rendu(riche)
+    const provenance = /<p[^>]*data-testid="fiche-provenance"[^>]*>([\s\S]*?)<\/p>/.exec(html)?.[0] ?? ''
+    expect(texteVu(provenance)).toMatch(
+      /^Lu sur exemple\.test : la fiche le 17 octobre 2026, les coordonnées le 16 octobre 2026, les horaires le 18 octobre 2026\./,
+    )
+    expect(texteVu(html).split('exemple.test').length - 1).toBe(1)
+    expect(texteVu(html)).not.toMatch(/Lus? le /)
+  })
+
   it('CA4 : la provenance tient en un paragraphe ; le sens de la confiance est replié', () => {
     const html = rendu(vide)
     const provenance = /<p[^>]*data-testid="fiche-provenance"[^>]*>([\s\S]*?)<\/p>/.exec(html)

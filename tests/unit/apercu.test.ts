@@ -30,6 +30,16 @@ describe('S300 : la fiche en texte, par les composants de la page', () => {
     expect(texte).toContain('ouvert jusqu’à 18 h')
   })
 
+  it('S312 : un lot qui ne change que la source du contact change l’aperçu (revue adverse S312)', () => {
+    const avec = (source: string) =>
+      apercuDeFiche({ ...A_CONFIRMER, contact: { tel: '04 72 50 88 53', source, verifieLe: '2026-10-16' } }, MAINTENANT)
+    const avant = avec('https://exemple.fr/contact')
+    const apres = avec('https://autre-site.fr/contact')
+    expect(apres).not.toBe(avant)
+    expect(apres).toContain('autre-site.fr')
+    expect(apres).toContain('16 octobre 2026')
+  })
+
   it('CA2 : ce qui n’est pas peint n’y est pas, et un lien garde son adresse', () => {
     const html =
       '<p>Voir <a href="https://exemple.fr/">le site<span class="lecteur-seul"> (nouvel onglet)</span></a> &amp; c’est tout</p><dl><dt>Où</dt><dd>Lyon</dd></dl>'
