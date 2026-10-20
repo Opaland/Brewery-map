@@ -1,4 +1,5 @@
 import { lienDeBiere, TYPES_BIERE } from './core/bieres'
+import { motsDesBieres } from './core/lexique'
 import type { Brasserie } from './core/schema'
 import { rechercheUntappd } from './core/untappd'
 import { t } from './i18n'
@@ -26,6 +27,10 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
   // fois, en tête, avec la recherche Untappd (S308).
   if (brasserie.beers.length === 0) return null
   const liens = brasserie.beers.map((b) => lienDeBiere(b, brasserie))
+  // Les seules bières « autre » : les autres ont déjà la glose de leur type,
+  // et « pale ale » contredisait celle de l'IPA (revue adverse S316).
+  const lexique = motsDesBieres(brasserie.beers.filter((b) => b.type === 'autre').map((b) => b.libelle ?? ''))
+  const glose = (b: Brasserie['beers'][number]) => LIBELLE.has(b.type) && (b.libelle === undefined || b.type !== 'autre')
   // Toutes à la même adresse : c'est la page des bières de la brasserie. Un
   // seul lien, dit comme tel, plutôt que le même sous chaque nom (S295).
   const premier = liens[0]
@@ -48,6 +53,10 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
           // « autre », dont le libellé porte déjà le style (revue métier S16).
           const montrerType =
             type !== undefined && (biere.libelle === undefined || biere.type !== 'autre')
+          // La glose d'un type, à sa première bière seulement (S316, revue
+          // Marie S308 : huit gloses pour huit bières).
+          // (une « autre » à libellé n'a pas de glose : elle ne compte pas).
+          const premiereDuType = brasserie.beers.findIndex((x) => x.type === biere.type && glose(x)) === i
           const nom =
             biere.libelle === undefined
               ? type === undefined
@@ -73,11 +82,23 @@ export function Bieres({ brasserie }: { brasserie: Brasserie }) {
                   {lien.nature === 'catalogue' && t(' (page des bières de la brasserie, pas de cette seule bière)')}
                 </LienExterne>
               )}
-              {montrerType && <span className="fiche-aide-inline"> — {t(type.explication)}</span>}
+              {montrerType && premiereDuType && <span className="fiche-aide-inline"> — {t(type.explication)}</span>}
             </li>
           )
         })}
       </ul>
+      {/* Les styles que les libellés nomment, en langue courante (S316), comme
+          les mots de la note (S295). */}
+      {lexique.length > 0 && (
+        <dl className="fiche-lexique" data-testid="bieres-lexique">
+          {lexique.map((m) => (
+            <div key={m.mot}>
+              <dt>{t('« {mot} »', { mot: m.mot })}</dt>
+              <dd>{t(m.sens)}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
       {liens.some((l) => l === null) && untappd}
     </div>
   )

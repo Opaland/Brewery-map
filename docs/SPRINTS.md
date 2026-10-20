@@ -2867,3 +2867,11 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - `videAussiSans` (`src/core/recherche.ts`) : la liste resterait-elle vide sans ce critère ? Une règle pour le week-end (A11, calculé à la main jusque-là) et pour le carnet.
 - Carnet vide, ou une autre cause qui vide la liste : le compte ne dit plus « Toutes celles qui correspondent sont dans votre carnet ».
 - « La plus proche pas encore visitée : … » quand le carnet écarte les visitées.
+
+## S316 — Les bières se lisent sans jargon *(20/10)*
+
+`docs/stories/S316.md`. Reste de S308 (revue Marie).
+
+- `LEXIQUE_BIERES` (`src/core/lexique.ts`) : les styles nommés par les libellés des bières « autre » (tourbée, fumée, triple, saison, gose…) expliqués sous la liste, comme les mots de la note.
+- La glose d'un type (« — claire et légère ») n'est dite qu'à sa première bière.
+- Revue adverse : « fumée » n'est plus « tourbée », plus de contradiction avec la glose de l'IPA, sens réécrits au plus sûr.

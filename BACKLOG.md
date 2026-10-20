@@ -405,6 +405,6 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **Le vocabulaire de la confiance** (« Confiance faible / moyenne / élevée ») reste un mot de fichier ; le repli parle de « catégorie ». À reformuler avec une vraie personne.
 - **Signaler sans compte GitHub** : la fiche demande à la brasserie d'envoyer son site par « Signaler une erreur », qui exige GitHub (rejoint la décision de Cédric sur une voie hors GitHub, S10).
 - **L'affichette de comptoir** ferme chaque fiche avec un texte adressé à la brasserie, pas à la personne.
-- **Bières « autre »** (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.
+- ~~Bières « autre »~~ — fait en S316 (lexique des styles, glose une fois par type). Constat d'origine : (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.
 - **L'aperçu des lots** (`src/apercu.ts`) rend la tête de fiche et la provenance (S312), pas « Y aller » : le renvoi « Ce que dit la source, plus haut » n'y a pas de cible.
 - **Les captures du README** (`docs/captures/telephone-fiche.png`) montrent l'ancienne fiche : à régénérer (`outils/captures.ts`).
