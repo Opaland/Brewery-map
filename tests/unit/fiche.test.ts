@@ -90,7 +90,7 @@ describe('avertissementHoraires', () => {
   })
 })
 
-describe('adresseDeRue (S295 : 125 fiches n’ont que la commune pour adresse)', () => {
+describe('adresseDeRue (S295 : 113 fiches sur 348 n’ont que la commune pour adresse, le 20/10)', () => {
   const b = (addr: string, c = 'Oullins') => ({ addr, c })
   it('la commune seule, ou son code postal et elle, n’est pas une adresse', () => {
     expect(adresseDeRue(b('Oullins'))).toBe(false)

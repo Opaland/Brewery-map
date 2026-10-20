@@ -571,7 +571,7 @@ body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
 :focus-visible { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; }
 
 /* L'en-tête : une bande cuivrée, la marque, la promesse. Blanc sur #7a3410
-   et #9c4a17 : 9,4:1 et 6,4:1 (WCAG AA, calcul du 17/10). */
+   et #9c4a17 : 9,03:1 et 6,17:1 (WCAG AA, calcul du 20/10). */
 .entete {
   margin: 0 calc(-1 * var(--espace-7));
   padding: var(--espace-8) var(--espace-7) var(--espace-7);

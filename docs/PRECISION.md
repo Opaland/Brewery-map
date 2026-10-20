@@ -1,6 +1,6 @@
 # Précision des points des fiches (S59)
 
-> **Depuis S268 (18/10)**, une fiche sans adresse vérifiée est au centre de sa commune selon l'IGN (précision `centre`) ; 13 fiches gardent leur point d'origine (`commune`), faute de centre trouvé ; les comptes à jour sont dans `docs/DONNEES.md`. La mesure ci-dessous a été faite avant S268, sur les points d'origine du fichier, générés par une IA (Cédric, 18/10) : c'est elle qui a motivé la décision. Relancée aujourd'hui, elle trouverait un écart nul pour les fiches `centre`.
+> **Depuis S268 (18/10)**, une fiche sans adresse vérifiée est au centre de sa commune selon l'IGN (précision `centre`) ; 12 fiches gardent leur point d'origine (`commune`), faute de centre trouvé (13 le 18/10, une retirée en S298) ; les comptes à jour sont dans `docs/DONNEES.md`. La mesure ci-dessous a été faite avant S268, sur les points d'origine du fichier, générés par une IA (Cédric, 18/10) : c'est elle qui a motivé la décision. Relancée aujourd'hui, elle trouverait un écart nul pour les fiches `centre`.
 
 Mesuré le 2026-10-18 par `npx tsx outils/precision.ts` (à relancer pour mettre à jour).
 

@@ -114,8 +114,8 @@ export function citeUnNumero(texte: string): boolean {
 }
 
 /**
- * L'adresse dit-elle plus que la commune ? 125 fiches sur 358 n'ont pour
- * adresse que leur commune, parfois précédée du code postal (S295, la fiche
+ * L'adresse dit-elle plus que la commune ? 113 fiches sur 348 n'ont pour
+ * adresse que leur commune (compté le 20/10), parfois précédée du code postal (S295, la fiche
  * face à la concurrence) : la fiche dit alors « adresse non connue » au lieu
  * de répéter le nom de la commune.
  */
