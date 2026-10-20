@@ -1,0 +1,127 @@
+{
+  "lot": "s323-adresses-lyon-4",
+  "propositions": [
+    {
+      "n": "Brasserie de Cluny",
+      "changements": {
+        "addr": "Le Nière, 71250 Château",
+        "contact": {
+          "tel": "06 11 73 56 25",
+          "site": "https://www.brasseriedecluny.fr/",
+          "source": "https://www.brasseriedecluny.fr/",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://www.brasseriedecluny.fr/"
+      ],
+      "extrait": "Le Nière, Château 71250 — bonjour@zouaffe.fr — 06 11 73 56 25 — Un petit coup de fil pour s'assurer qu'on est bien là, prêts à vous recevoir à la brasserie",
+      "choix": "Adresse : un lieu-dit sans numéro, lu sur le seul site de la brasserie. SIRENE (CASSIOPEE (BRASSERIE DE CLUNY), SIREN 922631999, active) a son siège au 297 route du Sanatorium, 71250 Bergesserin, commune voisine : écarté, le site dit Château. Téléphone : un portable, seul numéro publié (tu gardes les portables, 20/10). Catégorie laissée à 0 : le site dit d'appeler avant de passer, pas ce qu'on peut y faire."
+    },
+    {
+      "n": "RUN'HARD",
+      "changements": {
+        "addr": "50 rue des Champs, 73000 Chambéry"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=runhard+chambery"
+      ],
+      "extrait": "RUN'HARD, SIREN 885085589, siège : 50 RUE DES CHAMPS 73000 CHAMBERY, etat_administratif A, date_fermeture null, 1 établissement ouvert, activité principale 11.05Z",
+      "choix": "SIRENE seul, adresse du siège : pas forcément un lieu d'accueil (la fiche dit déjà qu'elle vend par des points de vente). Hors de ta règle du 18/10. runhard.fr ne publie ni adresse ni téléphone de la brasserie (le 04 des mentions légales est celui de l'agence web, écarté)."
+    },
+    {
+      "n": "Brasserie 3B (Bassin Bellegardien)",
+      "changements": {
+        "addr": "2 T route du Chêne, Davanod, 01200 Billiat"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=brasserie+3B+billiat"
+      ],
+      "extrait": "JOHAN PRIMAUT (3B BRASSERIE BASSIN BELLEGARDIEN), SIREN 833004617, siège : DAVANOD 2 T ROUTE DU CHENE 01200 BILLIAT, etat_administratif A, date_fermeture null, 1 établissement ouvert, activité principale 11.05Z",
+      "choix": "SIRENE seul, siège d'une entreprise individuelle : peut être un domicile. À n'accepter que si tu juges qu'on peut y envoyer des gens. Aucun site ni office de tourisme trouvé."
+    },
+    {
+      "n": "Brasserie Dr D. Brewpub",
+      "changements": {
+        "note": "Untappd la dit fermée (« This brewery is no longer in business. ») ; aucune autre source, SIRENE ne la trouve pas."
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://untappd.com/Drdbrewpub"
+      ],
+      "extrait": "This brewery is no longer in business.",
+      "choix": "Note seulement. Untappd est ta source de vérité pour l'existence (méthode du 19/10) : le statut « fermée » serait possible, mais ta réponse du 20/10 portait sur SIRENE ; dis-moi si Untappd suffit."
+    },
+    {
+      "n": "La Valentinoise",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=833947831",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=833947831"
+      ],
+      "extrait": "SIRENE : BRASSERIE ARTISANALE DE VALENCE (enseigne LA VALENTINOISE), SIREN 833947831, 93 rue Léon Gaumont, 26000 Valence ; entreprise cessée (état C) le 28/02/2025 ; 0 établissement ouvert ; activité 11.05Z.",
+      "choix": "Relève de ta réponse du 20/10 (« oui fermé ») : cessée, aucun établissement ouvert, même commune. Proposée ici plutôt qu'appliquée, parce que trouvée après."
+    },
+    {
+      "n": "Brasserie Paille",
+      "changements": {
+        "c": "Lournand",
+        "d": "71",
+        "lat": 46.45597,
+        "lon": 4.65083,
+        "addr": "623 Grande Rue, 71250 Lournand",
+        "coordPrecision": "address"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=900584954",
+        "https://www.cluny-tourisme.com/en/?p=29597",
+        "https://www.brasseriepaille.fr",
+        "https://data.geopf.fr/geocodage/search?q=623+Grande+Rue%2C+71250+Lournand&limit=5"
+      ],
+      "extrait": "SIRENE : BRASSERIE PAILLE, SIREN 900584954, siège et seul établissement 623 Grande Rue, Le Bourg, 71250 Lournand, actif, 11.05Z. Office de tourisme de Cluny : même adresse, « Open all year by appointment ». Site : « Chaque bière est brassée sur place à Lournand ». Géocodeur IGN : « 623 Grande Rue 71250 Lournand », numéro, score 0,95.",
+      "choix": "Déménagement (S322) : la fiche dit Château, la brasserie est à Lournand. Seuls commune, département, adresse et position ; le portable (06 62 23 33 98), le site et « sur rendez-vous » pourront suivre."
+    },
+    {
+      "n": "Brasserie Vellavia",
+      "changements": {
+        "c": "Saint-Germain-Laprade",
+        "d": "43",
+        "lat": 45.05239,
+        "lon": 3.95874,
+        "addr": "79 impasse de Bombes, 43700 Saint-Germain-Laprade",
+        "coordPrecision": "address"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=835181108",
+        "https://www.myhauteloire.fr/en/producer/vellavia-brewery/",
+        "https://data.geopf.fr/geocodage/search?q=79+impasse+de+la+Bombe%2C+43700+Saint-Germain-Laprade&limit=5"
+      ],
+      "extrait": "SIRENE : LA VELLAVIA (BRASSERIE LA VELLAVIA), SIREN 835181108, active, 11.05Z, 1 établissement ouvert, « 79 IMPASSE DE BOMBES » 43700 Saint-Germain-Laprade. Office de tourisme : « 79 impasse de la Bombe », visites et boutique sur réservation. Géocodeur IGN : « 79 Impasse de Bombes 43700 Saint-Germain-Laprade », numéro, score 0,76.",
+      "choix": "Déménagement (S322) : la fiche dit Polignac. La SARL BRASSERIE LA VELLAVIA (SIREN 418267068) reste active à Polignac, mais en commerce de gros (46.34Z), pas en fabrication : écartée. Orthographe de la Base Adresse Nationale (« de Bombes ») retenue."
+    }
+  ],
+  "revues": [
+    "Brasserie de Cluny",
+    "Brasserie Paille",
+    "Brasserie de Roche Colombe",
+    "La Valentinoise",
+    "Ferme-brasserie Déluge",
+    "Brasserie Coup de Mousse",
+    "RUN'HARD",
+    "Brasserie 3B (Bassin Bellegardien)",
+    "Brasserie Dr D. Brewpub",
+    "Brasserie du Marrel",
+    "La Montagnarde",
+    "Brasserie Vellavia"
+  ]
+}

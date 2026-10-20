@@ -2890,3 +2890,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S322 — Une fiche peut déménager *(20/10)*
 
 `docs/stories/S322.md`. Cédric, le 20/10 : « OK » aux trois déménagements. `changementsSchema` accepte `c` et `d`, ensemble, avec l'adresse et une position entière (à l'adresse ou au centre IGN) ; le nom reste exclu. Le lot des trois fiches suit dans une PR de données.
+
+## S323 — Les adresses autour de Lyon, quatrième lot *(20/10)*
+
+`docs/stories/S323.md`. 12 fiches (84 à 97 km), 7 propositions dans `curation/s323-adresses-lyon-4` : trois adresses, une note, une fermée d'après SIRENE, deux déménagements (S322). En attente de Cédric.
