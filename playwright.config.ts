@@ -47,6 +47,9 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
+  // Les essais restent, pour la trace ; mais un test qui ne passe qu'au
+  // second rougit la CI (S306, C4 ; CLAUDE.md §1bis).
+  failOnFlakyTests: !!process.env.CI,
   // Un seul exécutant hors CI : sur Sentiers, le parallélisme local rendait
   // des échecs au hasard sur des budgets de temps (mesuré le 03/09, #491).
   workers: process.env.CI ? undefined : 1,

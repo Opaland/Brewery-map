@@ -1,9 +1,9 @@
 import { spawnSync } from 'node:child_process'
-import { copyFileSync, mkdirSync, mkdtempSync, rmSync, utimesSync, writeFileSync } from 'node:fs'
+import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, rmSync, utimesSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { afterEach, describe, expect, it } from 'vitest'
-import { argumentsGh, deciderCommit, deciderPlaywright, depotDe, lireCommande, messageDeploiement } from '../../outils/crochets-claude'
+import { argumentsGh, deciderCommit, deciderPlaywright, depotDe, estUnCommit, lireCommande, messageDeploiement } from '../../outils/crochets-claude'
 import { pourquoiDistPerime } from '../../outils/dist'
 import { ETAPES, lancerPorte, type Etape, type Resultat } from '../../outils/etapes-porte'
 
@@ -43,8 +43,66 @@ describe('la porte avant commit', () => {
 
   it('une porte verte laisse passer, et le dit', () => {
     expect(deciderCommit('git commit -m x', () => vert)).toEqual({
-      systemMessage: 'Porte avant commit : lint, typecheck, tests unitaires, build et e2e au vert.',
+      systemMessage: 'Porte avant commit : lint, typecheck, tests unitaires, garde de data/, build et e2e au vert.',
     })
+  })
+
+  // S306 (C2) : `git -C . commit` ou `git -c a=b commit` passaient sans porte,
+  // le filtre de settings.json comme le motif `/git\s+commit/`.
+  it('reconnaît un commit quelle que soit son écriture, et rien d’autre', () => {
+    for (const c of [
+      'git commit -m x',
+      'git  commit -m x',
+      'git -C . commit -m x',
+      'git -C "C:/Users/Moretti Cédric/Documents/Claude/Mousse" commit -m x',
+      'git -c user.name=x commit -m x',
+      'git --no-pager commit',
+      'git -c core.hooksPath=/dev/null -C . commit',
+      'git.exe commit -q',
+      '"C:/Program Files/Git/cmd/git.exe" commit',
+      'npm test && git commit -m x',
+      'npx vitest run; git -C . commit -F msg.txt',
+      'GIT_AUTHOR_NAME=x git commit',
+      // Revue adverse S306 : le `&` de cmd, les interpréteurs, les sous-shells.
+      'git add . & git commit -m x',
+      'bash -c "git commit -m x"',
+      'sh -c "git add . && git commit"',
+      'pwsh -Command "git commit -m x"',
+      "powershell -c 'git commit -m x'",
+      'cmd /c git commit',
+      '(git commit -m x)',
+      'echo $(git commit -m x)',
+      '{ git commit -m x; }',
+    ])
+      expect(estUnCommit(c), c).toBe(true)
+    for (const c of [
+      'git status',
+      'git commit-tree HEAD^{tree}',
+      'git log --grep commit',
+      'echo "git commit"',
+      'git show HEAD --stat',
+      'npx vitest run tests/unit/commit.test.ts',
+      'git -C commit status',
+      'npm run commit',
+      'git log 2>&1 | head',
+      'bash -c "git log --grep commit"',
+    ])
+      expect(estUnCommit(c), c).toBe(false)
+  })
+
+  it('un commit écrit `git -C . commit` lance la porte', () => {
+    let lancee = 0
+    deciderCommit('git -C . commit -m x', () => (lancee++, vert))
+    expect(lancee).toBe(1)
+  })
+
+  it('settings.json lance le crochet de commit sur toute commande : un filtre `if` laissait passer `git -C . commit`', () => {
+    const reglages = JSON.parse(readFileSync('.claude/settings.json', 'utf8')) as {
+      hooks: { PreToolUse: { hooks: { command: string; if?: string }[] }[] }
+    }
+    const crochet = reglages.hooks.PreToolUse.flatMap((m) => m.hooks).find((h) => h.command.includes('porte-avant-commit'))
+    expect(crochet).toBeDefined()
+    expect(crochet?.if).toBeUndefined()
   })
 
   it('une autre commande passe sans lancer la porte (sinon, pas de rouge-puis-vert)', () => {
@@ -66,9 +124,16 @@ describe('les étapes de la porte', () => {
     lancees.length = 0
   })
 
-  it('dans l’ordre : lint, typecheck, tests, build, e2e', () => {
+  // S306 (C3) : la garde de data/ tournait en CI seulement ; une ligne sans
+  // accord ne rougissait qu'après le push.
+  it('dans l’ordre : lint, typecheck, tests, garde de data/, build, e2e', () => {
     lancerPorte(lanceur([]))
-    expect(lancees).toEqual(['lint', 'typecheck', 'tests', 'build', 'build', 'e2e'])
+    expect(lancees).toEqual(['lint', 'typecheck', 'tests', 'garde', 'build', 'build', 'e2e'])
+  })
+
+  it('une garde de data/ rouge empêche les e2e', () => {
+    lancerPorte(lanceur(['garde']))
+    expect(lancees).not.toContain('e2e')
   })
 
   it('les e2e ne tournent pas après une étape rouge', () => {
@@ -158,6 +223,13 @@ describe('l’état du déploiement au démarrage', () => {
     expect(mandataire).not.toBeNull()
     expect(mandataire).not.toContain('--repo')
   })
+
+  // S306 (C1) : trois runs tous workflows confondus ; une sonde de nuit rouge
+  // déclenchait l'arrêt §9 à tort, trois nuits vertes cachaient une CI rouge.
+  it('ne lit que le workflow de CI de main', () => {
+    const args = argumentsGh('https://github.com/Opaland/Brewery-map.git') ?? []
+    expect(args.slice(args.indexOf('--workflow'), args.indexOf('--workflow') + 2)).toEqual(['--workflow', 'ci.yml'])
+  })
 })
 
 describe('le lanceur .claude/hooks/crochet.mjs', () => {
@@ -182,6 +254,9 @@ describe('le lanceur .claude/hooks/crochet.mjs', () => {
     const commit = lancer(mjs, 'porte-avant-commit', entree('git commit -m x'))
     expect(JSON.parse(commit.stdout)).toMatchObject({ hookSpecificOutput: { permissionDecision: 'deny' } })
     expect(lancer(mjs, 'porte-avant-commit', entree('git status')).stdout).toBe('')
+    // S306 (C2) : en panne, le lanceur refuse aussi un commit écrit autrement.
+    const autre = lancer(mjs, 'porte-avant-commit', entree('git -C . commit -m x'))
+    expect(JSON.parse(autre.stdout)).toMatchObject({ hookSpecificOutput: { permissionDecision: 'deny' } })
   })
 
   it('un crochet au nom inconnu ne se tait pas : il sort en erreur, avec la raison', () => {

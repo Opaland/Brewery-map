@@ -11,4 +11,4 @@ if (rouges.length > 0) {
   console.error(`\nPorte : ${rouges.join(', ')} en échec.`)
   process.exit(1)
 }
-console.log('Porte : lint, typecheck, tests unitaires, build et e2e au vert.')
+console.log('Porte : lint, typecheck, tests unitaires, garde de data/, build et e2e au vert.')

@@ -1,6 +1,6 @@
 ---
 name: porte
-description: Lance la porte complète de Mousse de Poche — lint, typecheck, tests unitaires, build, e2e Playwright — dans le bon ordre et avec les pièges connus évités. À utiliser avant tout commit, et quand on veut savoir si l'arbre est sain.
+description: Lance la porte complète de Mousse de Poche — lint, typecheck, tests unitaires, garde de data/, build, e2e Playwright — dans le bon ordre et avec les pièges connus évités. À utiliser avant tout commit, et quand on veut savoir si l'arbre est sain.
 ---
 
 # La porte complète
@@ -19,6 +19,7 @@ Chaque étape coûte plus cher que la précédente : autant échouer tôt.
 npm run lint
 npx tsc -b --noEmit        # PAS `tsc --noEmit` : voir plus bas
 npx vitest run             # dont data/breweries.json contre le schéma
+npx tsx outils/garde-donnees.ts   # aucune ligne de data/ sans accord (S306)
 npm run build              # SANS masquer la sortie
 PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test   # conteneur cloud
 npx playwright test                                              # Windows, macOS

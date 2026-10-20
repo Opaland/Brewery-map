@@ -24,8 +24,21 @@ try {
   // Pas d'entrée (SessionStart) : rien à lire.
 }
 
+// Porte en panne : toute commande qui mentionne un commit est refusée,
+// quelle que soit son écriture (`git -C . commit`, S306). Plus large que
+// `estUnCommit` (outils/crochets-claude.ts), qu'on ne peut pas lancer ici :
+// mieux vaut refuser à tort que laisser passer. La commande seule, pas la
+// description de l'outil (revue adverse S306).
+const commandeLue = () => {
+  try {
+    const c = JSON.parse(entree)?.tool_input?.command
+    return typeof c === 'string' ? c : entree
+  } catch {
+    return entree
+  }
+}
 const refuserLeCommit = (raison) => {
-  if (nom === 'porte-avant-commit' && /git\s+commit/.test(entree)) {
+  if (nom === 'porte-avant-commit' && /\bcommit\b/.test(commandeLue())) {
     process.stdout.write(
       JSON.stringify({
         hookSpecificOutput: { hookEventName: 'PreToolUse', permissionDecision: 'deny', permissionDecisionReason: raison },

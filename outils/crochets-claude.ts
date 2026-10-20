@@ -25,18 +25,73 @@ const refuser = (raison: string): Sortie => ({
   hookSpecificOutput: { hookEventName: 'PreToolUse', permissionDecision: 'deny', permissionDecisionReason: raison },
 })
 
+/** Les options de git qui prennent la valeur suivante : `-C <dossier>`, `-c <clé=valeur>`… */
+const OPTIONS_A_VALEUR = new Set(['-C', '-c', '--git-dir', '--work-tree', '--namespace', '--exec-path', '--config-env'])
+
+/** Un mot de commande, et s'il était entre guillemets. */
+interface Mot {
+  texte: string
+  cite: boolean
+}
+
 /**
- * Porte avant commit. Le filtre `if` de settings.json n'est pas honoré
- * partout : on relit la commande. Sans cela la porte se déclencherait sur
- * chaque commande et rendrait le TDD impossible (rouge-puis-vert est la
- * méthode). `null` : rien à dire, la commande passe.
+ * Les mots d'une commande, guillemets compris : `echo "git commit"` n'en
+ * fait que deux. Les parenthèses, accolades et accents graves collés à un
+ * mot (`(git`, `$(git`, `` `git ``) sont retirés : un sous-shell lance aussi
+ * la commande (revue adverse S306).
+ */
+function mots(segment: string): Mot[] {
+  return [...segment.matchAll(/"[^"]*"|'[^']*'|\S+/g)].map((m) => {
+    const brut = m[0]
+    if (/^(["']).*\1$/s.test(brut)) return { texte: brut.slice(1, -1), cite: true }
+    return { texte: brut.replace(/^(\$\(|[({`"'])+/, '').replace(/[)}`"']+$/, ''), cite: false }
+  })
+}
+
+/** Un interpréteur qui lance la commande qu'on lui passe entre guillemets. */
+const INTERPRETE = /(^|[/\\])((ba|z|da)?sh|pwsh|powershell|cmd)(\.exe)?$/i
+
+/**
+ * La commande lance-t-elle `git commit` ? Dans chaque morceau d'une chaîne
+ * (`;`, `&`, `&&`, `||`, `|`, retour à la ligne), le premier mot qui est
+ * git (`git`, `git.exe`, ou un chemin vers lui), ses options sautées : la
+ * sous-commande est-elle `commit` ? Le texte cité après un interpréteur
+ * (`bash -c "…"`, `pwsh -Command "…"`) est lu de la même façon.
+ * `git -C . commit` et `git -c a=b commit` passaient sans porte (revue
+ * globale du 19/10, C2), le motif `/git\s+commit/` ne les voyant pas ;
+ * `git add . & git commit` et `bash -c "git commit"` passaient encore
+ * (revue adverse S306). Un faux positif (une ligne `git commit` dans un
+ * heredoc) lance la porte pour rien : c'est le côté sûr.
+ */
+export function estUnCommit(commande: string): boolean {
+  return commande.split(/&&|\|\||[;&|\n]/).some((segment) => {
+    const m = mots(segment)
+    if (m.some((mot) => INTERPRETE.test(mot.texte)) && m.some((mot) => mot.cite && estUnCommit(mot.texte))) return true
+    let i = m.findIndex((mot) => !mot.cite && /(^|[/\\])git(\.exe)?$/i.test(mot.texte))
+    if (i === -1) i = m.findIndex((mot) => mot.cite && /(^|[/\\])git(\.exe)?$/i.test(mot.texte))
+    if (i === -1) return false
+    for (i += 1; i < m.length; i++) {
+      const mot = m[i]?.texte ?? ''
+      if (!mot.startsWith('-')) return mot === 'commit'
+      if (OPTIONS_A_VALEUR.has(mot)) i += 1
+    }
+    return false
+  })
+}
+
+/**
+ * Porte avant commit. Lancé sur chaque commande (S306 : le filtre `if` de
+ * settings.json laissait passer `git -C . commit`), il relit la commande :
+ * sans cela la porte se déclencherait sur chaque commande et rendrait le
+ * TDD impossible (rouge-puis-vert est la méthode). `null` : rien à dire,
+ * la commande passe.
  */
 export function deciderCommit(commande: string, porte: () => Resultat[]): Sortie | null {
-  if (!/git\s+commit/.test(commande)) return null
+  if (!estUnCommit(commande)) return null
   const resultats = porte()
   const rouges = echecs(resultats)
   if (rouges.length === 0) {
-    return { systemMessage: 'Porte avant commit : lint, typecheck, tests unitaires, build et e2e au vert.' }
+    return { systemMessage: 'Porte avant commit : lint, typecheck, tests unitaires, garde de data/, build et e2e au vert.' }
   }
   const sorties = resultats
     .filter((r) => !r.ok)
@@ -116,6 +171,11 @@ export function argumentsGh(url: string): string[] | null {
     ...(depot === null ? [] : ['--repo', depot]),
     '--branch',
     'main',
+    // La CI seule (S306, C1) : tous workflows confondus, une sonde de nuit
+    // rouge déclenchait l'arrêt §9 à tort, et trois nuits vertes cachaient
+    // une CI rouge.
+    '--workflow',
+    'ci.yml',
     '--limit',
     '3',
     '--json',

@@ -362,7 +362,8 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 
 - **W5** (mineur) : `outils/geocodeur.ts:14` appelle `sleep`, `outils/requetes.ts:29` `curl`, `outils/captures.ts:110` `ffmpeg` ; `package.json` n'a pas de champ `engines`. Remède : `node:timers/promises`, `fetch` compté, `"engines": {"node": ">=22"}`.
 - **Un réglage changé juste avant de fermer l'onglet peut se perdre** : `garderSaufVersionFuture` (`src/stockage.ts`) lit puis écrit dans une transaction que la fermeture interrompt. Vu par deux e2e qui rechargeaient trop tôt sous Windows (S302). Rien n'est perdu au-delà de quelques millisecondes ; à mesurer avant d'y toucher.
-- **C2 reste ouvert** : le crochet de commit se contourne toujours par `git -C . commit` ou `git -c … commit` (le portage en Node ne change que la sortie silencieuse sans `jq`).
+- ~~**C2 reste ouvert**~~ : fait en S306 (`estUnCommit`, filtre `if` retiré).
+- **Restes de la revue adverse S306** : un alias git (`git ci`) n'est pas résolu ; une ligne `git commit` dans un heredoc ou un corps de PR lance la porte pour rien (côté sûr) ; la garde de `data/` dans un clone superficiel sans le commit `31cbd21` lèverait une pile au lieu d'un message lisible (inféré, non mesuré) ; le crochet de commit coûte ~225 ms par commande Bash (mesuré).
 - **`gh` introuvable pour Node** quand Claude Code est lancé d'un terminal ouvert avant l'installation de `gh` : le crochet de démarrage dit alors « gh absent ». Ouvrir un nouveau terminal (noté dans `docs/REPRISE-POWERSHELL.md`).
 
 ## S305 — restes
