@@ -2879,3 +2879,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S317 — Une annonce redite est redite au lecteur d'écran *(20/10)*
 
 `docs/stories/S317.md`. Reste de la revue adverse S303. L'annonce du compte porte un compteur qui sert de clé à son nœud : à texte égal, un second échec de l'affichette ajoute un nouveau nœud à la région vivante, donc il est lu. Preuve : `tests/e2e/affichette.spec.ts`, rouge sans la clé.
+
+## S318 — Ce qu'un agent écrit est lu par un schéma *(20/10)*
+
+`docs/stories/S318.md`. LD9. `lireLecturesAgent` (Zod) lit les lectures d'agents de `outils/departement.ts lectures` ; `nomDeFichierDeLecture` nomme leur fichier sans chemin possible (une clé `..\` écrivait hors du dossier sous Windows). Revue adverse : clés en collision et clé trop longue refusées.

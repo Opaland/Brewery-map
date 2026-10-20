@@ -5,6 +5,8 @@ import {
   assemblerLot,
   candidatsDuDepartement,
   classerDuDepartement,
+  lireLecturesAgent,
+  nomDeFichierDeLecture,
   positionDuGeocodeur,
   prefixePostal,
   publiables,
@@ -379,5 +381,60 @@ describe('ajoutDeLecture : les horaires (S262)', () => {
 
   it('CA1 : sans horaires, la fiche n’en a pas', () => {
     expect('horaires' in ajoutDeLecture(lecture, '29', pos, undefined, '2026-10-17').ajout.fiche).toBe(false)
+  })
+})
+
+// S318 : ce qu'un agent écrit est lu par un schéma (LD9).
+describe('lireLecturesAgent et nomDeFichierDeLecture', () => {
+  const valide = {
+    cle: 'osm:node/1',
+    n: 'Brasserie Exemple',
+    c: 'Brignais',
+    adresse: null,
+    cat: 0,
+    conf: '',
+    note: 'Lu sur la page.',
+    src: 'https://exemple.test/',
+    extrait: 'Brasserie Exemple, Brignais',
+    beers: [],
+  }
+
+  it('CA1 : une lecture valide passe ; un champ manquant ou mal typé est refusé avec son chemin', () => {
+    const ok = lireLecturesAgent([valide])
+    expect(ok.ok).toBe(true)
+    const ko = lireLecturesAgent([{ ...valide, cat: 'un' }, { ...valide, cle: undefined }])
+    expect(ko.ok).toBe(false)
+    if (!ko.ok) {
+      expect(ko.erreurs.join('\n')).toMatch(/0\.cat/)
+      expect(ko.erreurs.join('\n')).toMatch(/1\.cle/)
+    }
+    expect(lireLecturesAgent({ pas: 'un tableau' }).ok).toBe(false)
+  })
+
+  it('CA2 : un nom de fichier sans séparateur, sans point en tête, jamais vide', () => {
+    for (const cle of ['..\\..\\src\\x', '../x', 'a/b:c', '..', '', '.cache', 'osm:node/1']) {
+      const nom = nomDeFichierDeLecture(cle)
+      expect(nom).not.toMatch(/[\\/:]/)
+      expect(nom.startsWith('.')).toBe(false)
+      expect(nom.length).toBeGreaterThan(0)
+    }
+    expect(nomDeFichierDeLecture('osm:node/1')).toBe('osm-node-1')
+  })
+
+  it('revue adverse : deux clés vers le même fichier sont refusées, casse comprise ; une clé trop longue aussi', () => {
+    const doublon = lireLecturesAgent([valide, { ...valide, cle: 'OSM-node-1' }])
+    expect(doublon.ok).toBe(false)
+    if (!doublon.ok) expect(doublon.erreurs.join('\n')).toMatch(/1\.cle : même nom de fichier que la lecture 0/)
+    expect(lireLecturesAgent([{ ...valide, cle: 'x'.repeat(121) }]).ok).toBe(false)
+  })
+
+  it('revue adverse : ce que le schéma laisse passer, le schéma d’un ajout le refuse ensuite (source javascript:, catégorie 99)', () => {
+    const lue = lireLecturesAgent([{ ...valide, src: 'javascript:alert(1)' }, { ...valide, cle: 'osm:node/2', n: 'Autre', cat: 99 }])
+    expect(lue.ok).toBe(true)
+    if (!lue.ok) return
+    const lectures = lue.lectures.map((l) => ajoutDeLecture(l, '69', { lat: 45.67, lon: 4.75, precision: 'commune' }, undefined, '2026-10-20'))
+    const { lot, refus } = assemblerLot('essai', lectures, { cles: ['osm:node/1', 'osm:node/2'], noms: [] })
+    expect(lot.ajouts).toHaveLength(0)
+    expect(refus).toHaveLength(2)
   })
 })
