@@ -580,7 +580,7 @@ describe('les contacts d’une fiche nouvelle (S261)', () => {
   // La précision est posée : la ligne réelle peut être au centre IGN (S268),
     // qui exige sa requête de commune (S269).
     const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
-  const fiche = Object.fromEntries(Object.entries({ ...ligne, n: 'Brasserie de test S261' }).filter(([k]) => k !== 'verifieLe' && k !== 'contact'))
+  const fiche = Object.fromEntries(Object.entries({ ...ligne, n: 'Brasserie de test S261' }).filter(([k]) => k !== 'verifieLe' && k !== 'contact' && k !== 'horaires'))
   const source = 'https://exemple.fr/contact'
   const ajout = (contact: Record<string, unknown>, sources = ['https://exemple.fr/', source]) => ({
     fiche: { ...fiche, contact },

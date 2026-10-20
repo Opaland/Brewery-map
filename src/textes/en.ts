@@ -428,4 +428,6 @@ export const EN: Readonly<Record<string, string>> = {
   "un nom ancien de la bière, venu des Gaulois": "an old name for beer, from the Gauls",
   "une bière très forte, qui se déguste comme un vin": "a very strong beer, sipped like a wine",
   "une bière légère et sèche, de tradition belge": "a light, dry beer in the Belgian tradition",
+  "Adresses ajoutées à 5 brasseries autour de Lyon (Ninkasi Brignais, Ninkasi Saint-Étienne, Malting Pot, L’Affoleuse, Brasserie de l’Ours Barbu), lues sur leur propre site ; téléphone et horaires pour Ninkasi Brignais.": "Addresses added for 5 breweries around Lyon (Ninkasi Brignais, Ninkasi Saint-Étienne, Malting Pot, L’Affoleuse, Brasserie de l’Ours Barbu), read on their own website; phone number and opening hours for Ninkasi Brignais.",
+  "La fiche dit une fois ce qu’elle ne sait pas encore, avec où le chercher, au lieu de le répéter dans chaque partie ; d’où vient chaque information tient en une phrase.": "A listing says once what it does not know yet, with where to look it up, instead of repeating it in every part; where each piece of information comes from fits in one sentence.",
 }

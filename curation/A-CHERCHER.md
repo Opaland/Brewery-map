@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 226 | 265 | 258 | 194 |
+| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 226 | 263 | 257 | 194 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 6 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
@@ -24,7 +24,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 1 | 0 | 2 | 4 | 1 |
-| 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 18 | 30 | 27 | 28 | 24 |
+| 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 18 | 30 | 26 | 28 | 24 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 17 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 6 | 7 | 7 | 7 | 7 |
 | 44 · Loire-Atlantique | 32 | 2 (6 %) | 0 | 12 | 11 | 9 | 21 | 22 | 12 |
@@ -33,7 +33,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
 | 56 · Morbihan | 23 | 1 (4 %) | 0 | 13 | 9 | 11 | 20 | 16 | 12 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
-| 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 25 | 31 | 34 | 34 | 33 |
+| 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 25 | 31 | 33 | 33 | 33 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 8 | 8 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 4 | 7 | 6 | 15 | 11 | 9 | 9 |
@@ -141,7 +141,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Domaine du Bélier Rouge (Saint-Sauveur) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Bonne Fabrique (Le Sappey-en-Chartreuse) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Une Petite Mousse (Échirolles) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie de l'Ours Barbu (Voiron) : sans adresse vérifiée, sans téléphone, sans horaires
+- Brasserie de l'Ours Barbu (Voiron) : sans adresse vérifiée, sans horaires
 - Brasserie des Roches (Chonas-l'Amballan) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie La Dourbie (Fontaine) : sans adresse vérifiée, sans téléphone, sans horaires
 - Brasserie Maltobar (Grenoble) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
