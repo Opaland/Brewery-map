@@ -96,3 +96,24 @@ test('si l’affichette ne se charge pas, la liste reste et la barre du compte l
   await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
   await expect.poll(() => page.evaluate(() => (window as unknown as { impressions: number }).impressions)).toBe(0)
 })
+
+/**
+ * S317 : une annonce redite est un nouveau nœud de la région vivante. À
+ * texte égal, le même nœud ne bougeait pas, et le lecteur d'écran ne lisait
+ * rien au second échec (revue adverse S303).
+ */
+test('un second échec de l’affichette est annoncé de nouveau (S317)', async ({ page }) => {
+  await page.route(/\/assets\/Affichette-[^/]*\.js$/, (route) => route.abort())
+  await page.locator('button.ligne').first().click()
+  await page.getByTestId('imprimer-affichette').click()
+  const annonce = page.getByTestId('annonce')
+  await expect(annonce).toContainText('L’affichette n’a pas pu se charger')
+  // Le nœud de la première annonce est marqué ; s'il est encore là après la
+  // seconde, rien n'a été ajouté à la région, donc rien n'est lu.
+  await annonce.evaluate((e) => {
+    e.setAttribute('data-premiere', 'oui')
+  })
+  await page.getByTestId('imprimer-affichette').click()
+  await expect(page.locator('[data-testid="compte"] [data-premiere]')).toHaveCount(0)
+  await expect(annonce).toContainText('L’affichette n’a pas pu se charger')
+})

@@ -247,7 +247,12 @@ export function App({
   }, [])
   const { titreCarte, carteEnVue } = useCarteEnVue()
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
-  const [annonce, setAnnonce] = useState('')
+  // Chaque annonce est un nouveau nœud (S317) : à texte égal, la région
+  // vivante ne bougeait pas, et un second échec n'était pas lu (revue adverse S303).
+  const [annonce, setAnnonceCompte] = useState({ texte: '', n: 0 })
+  const setAnnonce = useCallback((texte: string) => {
+    setAnnonceCompte((a) => ({ texte, n: a.n + 1 }))
+  }, [])
   const compte = useRef<HTMLParagraphElement>(null)
   const barre = useHauteurBarre()
   const { enLigne, pretHorsLigne } = useConnexion()
@@ -940,7 +945,7 @@ export function App({
           liste, elle partait avec le défilement (revue adverse S29). */}
       <div className="barre-compte" ref={barre}>
         <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
-          {annonce !== '' && <span data-testid="annonce">{annonce} </span>}
+          {annonce.texte !== '' && <span key={annonce.n} data-testid="annonce">{annonce.texte} </span>}
           {texteDuCompte(
             suite.etat === 'attente',
             resultats.length,

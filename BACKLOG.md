@@ -396,7 +396,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - ~~« Pas encore visitées » accuse le carnet à tort~~ — fait en S315 (`videAussiSans`). Constat d'origine : (`texteDuCompte`, `src/App.tsx`) : avec « Ouvertes ce week-end » aussi coché, ou un carnet vide, une liste vide dit « Toutes celles qui correspondent sont dans votre carnet ». Même classe que A11 : ne le dire que si la liste serait non vide sans `exclure`.
 - ~~« La plus proche » et le carnet~~ — fait en S315 (« La plus proche pas encore visitée »). Constat d'origine : : « pas encore visitées » coché et tout le rayon visité, le compte dit « tout est dans votre carnet » et, dessous, « La plus proche : X, à 280 km » (une non visitée). Vrai, mais se lit comme une contradiction ; à formuler (« la plus proche pas encore visitée »).
 - **« Aucune brasserie dans le département … avec ces filtres » n'a plus d'e2e** : le test S31 (`idees.spec.ts`) y arrivait en décochant toutes les catégories, cas qui a désormais son propre message (S303). Le retrouver par un autre filtre qui vide un département, et vérifier qu'il n'accuse pas les filtres quand c'est le texte qui vide la liste.
-- **Une annonce identique ne se ré-annonce pas** (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
+- ~~Une annonce identique ne se ré-annonce pas~~ — fait en S317 (nouveau nœud à chaque annonce). Constat d'origine : (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
 
 ## S308 — restes (revues du 20/10 : adverse, persona Marie)
 
