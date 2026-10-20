@@ -263,10 +263,23 @@ export function App({
    * vise alors `repli`, près du geste (S319). Le compte, région « status »,
    * annonce quand même. Écarté : `preventScroll` sur le compte, qui laisse le
    * focus hors de l'écran et fait sauter la page à la touche Tab suivante.
+   * Le repli est cadré par son haut : à 200 %, une ligne dépasse la hauteur
+   * de l'écran, et le cadrage du navigateur en coupait le nom (revue S319).
+   * Le clavier virtuel qu'ouvrirait le champ de recherche n'est pas mesuré
+   * (Playwright ne le simule pas) : à essayer sur un vrai téléphone.
    */
   const focusApresGeste = (repli: HTMLElement | null | undefined) => {
     const decollee = barre.current?.hasAttribute('data-decollee') === true
-    ;(decollee && repli ? repli : compte.current)?.focus()
+    if (!decollee || !repli) {
+      compte.current?.focus()
+      return
+    }
+    repli.focus({ preventScroll: true })
+    // Après le rendu : la ligne retirée, au-dessus, fait encore remonter la
+    // voisine quand elle disparaît.
+    requestAnimationFrame(() => {
+      repli.scrollIntoView({ block: 'start' })
+    })
   }
   const { enLigne, pretHorsLigne } = useConnexion()
 

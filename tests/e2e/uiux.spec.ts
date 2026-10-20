@@ -333,9 +333,12 @@ test.describe('barre décollée (320 × 568, texte à 200 %)', () => {
     await expect.poll(() => peintALEcran(page)).toBe(true)
   })
 
-  test('retirer un favori en mode « seulement » : le focus va à la ligne voisine', async ({ page }) => {
+  // Quatre favoris, le deuxième retiré : la page reste longue, et une ligne
+  // plus haute que l'écran pouvait recevoir le focus nom coupé en haut
+  // (revue adverse S319).
+  test('retirer un favori en mode « seulement » : le focus va à la ligne voisine, son haut à l’écran', async ({ page }) => {
     const noms: string[] = []
-    for (const i of [0, 1]) {
+    for (const i of [0, 1, 2, 3]) {
       const bouton = page.locator('button.ligne').nth(i)
       noms.push((await bouton.getAttribute('data-nom')) ?? '')
       await bouton.dispatchEvent('click')
@@ -344,14 +347,20 @@ test.describe('barre décollée (320 × 568, texte à 200 %)', () => {
     }
     await ouvrirFiltres(page)
     await page.getByTestId('favoris-seulement').check()
-    await expect(page.locator('button.ligne')).toHaveCount(2)
-    await page.locator(`button.ligne[data-nom="${noms[0]}"]`).dispatchEvent('click')
+    await expect(page.locator('button.ligne')).toHaveCount(4)
+    const ordre = await page.locator('button.ligne').evaluateAll((bs) => bs.map((b) => b.getAttribute('data-nom') ?? ''))
+    await page.locator(`button.ligne[data-nom="${ordre[1]}"]`).dispatchEvent('click')
     await decollee(page)
     await page.getByTestId('bouton-favori').scrollIntoViewIfNeeded()
     await page.getByTestId('bouton-favori').focus()
     await page.keyboard.press('Enter')
-    await expect(page.locator('button.ligne')).toHaveCount(1)
-    await expect(page.locator(`button.ligne[data-nom="${noms[1]}"]`)).toBeFocused()
+    await expect(page.locator('button.ligne')).toHaveCount(3)
+    await expect(page.locator(`button.ligne[data-nom="${ordre[2]}"]`)).toBeFocused()
     await expect.poll(() => peintALEcran(page)).toBe(true)
+    // Le haut de la ligne, où est son nom, est dans l'écran (à un pixel
+    // près : le cadrage tombe sur un sous-pixel, -0,44 mesuré).
+    await expect
+      .poll(() => page.evaluate(() => { const t = document.activeElement?.getBoundingClientRect().top ?? -9; return t > -1 && t < window.innerHeight }))
+      .toBe(true)
   })
 })
