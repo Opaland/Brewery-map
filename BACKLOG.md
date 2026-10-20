@@ -397,6 +397,10 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **« Aucune brasserie dans le département … avec ces filtres » n'a plus d'e2e** : le test S31 (`idees.spec.ts`) y arrivait en décochant toutes les catégories, cas qui a désormais son propre message (S303). Le retrouver par un autre filtre qui vide un département, et vérifier qu'il n'accuse pas les filtres quand c'est le texte qui vide la liste.
 - ~~Une annonce identique ne se ré-annonce pas~~ — fait en S317 (nouveau nœud à chaque annonce). Constat d'origine : (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
 
+## S322 — restes
+
+- **Un signalement ouvert avant un déménagement ne se rattache plus** : `ficheDuSignalement` exige le nom et la commune du titre, posés à l'époque. Garder l'ancienne commune quelque part, ou chercher par le nom seul quand il est unique.
+
 ## S308 — restes (revues du 20/10 : adverse, persona Marie)
 
 - ~~Trois dates sur une fiche riche~~ — fait en S312 (une phrase par site, chaque lecture avec sa date et sa page). Constat d'origine : : « Lu le 16 octobre » (contact), « Lus le 18 octobre » (horaires), « Vérifiée le 17 octobre » (fiche) ; 14 fiches complètes sur 32 ont trois dates différentes. Marie ne sait pas laquelle compte. Piste : une seule date, la plus ancienne, dans la provenance.

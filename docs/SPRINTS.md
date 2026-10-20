@@ -2890,3 +2890,6 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S320 — La confiance se dit en phrases *(20/10)*
 
 `docs/stories/S320.md`. Cédric, le 20/10 : « oui ». `phraseConfiance` dit chaque niveau en une phrase tirée de sa définition (`docs/DONNEES.md`) ; le volet « Que veut dire « confiance … » ? » disparaît ; l'avertissement sur les horaires ne nomme plus la confiance. Le champ `conf` ne change pas. Réponses de Cédric du 20/10 consignées dans `docs/DECISIONS.md`. Revue adverse : test anglais, phrase « faible » trop affirmative, réserves perdues pour « moyenne », corrigés.
+## S322 — Une fiche peut déménager *(20/10)*
+
+`docs/stories/S322.md`. Cédric, le 20/10 : « OK » aux trois déménagements. `changementsSchema` accepte `c` et `d`, ensemble, avec l'adresse et une position entière (à l'adresse ou au centre IGN) ; le nom reste exclu. Le lot des trois fiches suit dans une PR de données.
