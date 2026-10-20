@@ -2875,3 +2875,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - `LEXIQUE_BIERES` (`src/core/lexique.ts`) : les styles nommés par les libellés des bières « autre » (tourbée, fumée, triple, saison, gose…) expliqués sous la liste, comme les mots de la note.
 - La glose d'un type (« — claire et légère ») n'est dite qu'à sa première bière.
 - Revue adverse : « fumée » n'est plus « tourbée », plus de contradiction avec la glose de l'IPA, sens réécrits au plus sûr.
+
+## S317 — Une annonce redite est redite au lecteur d'écran *(20/10)*
+
+`docs/stories/S317.md`. Reste de la revue adverse S303. L'annonce du compte porte un compteur qui sert de clé à son nœud : à texte égal, un second échec de l'affichette ajoute un nouveau nœud à la région vivante, donc il est lu. Preuve : `tests/e2e/affichette.spec.ts`, rouge sans la clé.
