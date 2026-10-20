@@ -2819,4 +2819,5 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 - C2 : `estUnCommit` reconnaît `git -C . commit`, `git -c a=b commit`, `git.exe commit`, un commit dans une chaîne ; le filtre `if: "Bash(git commit*)"` de `settings.json` est retiré (il empêchait le crochet de voir ces écritures) ; porte en panne, le lanceur refuse tout ce qui mentionne un commit.
 - C3 : la garde de `data/` entre dans la porte locale, après les tests unitaires. `npm audit` reste en CI (registre npm requis).
 - C4 : `failOnFlakyTests` en CI : un test qui ne passe qu'au second essai rougit.
+- Vu en committant : le crochet n'était branché que sur l'outil Bash ; les commits faits par l'outil PowerShell (S303 à S306) passaient sans lui. `"matcher": "Bash|PowerShell"`, tenu par un test.
 

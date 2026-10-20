@@ -98,11 +98,26 @@ describe('la porte avant commit', () => {
 
   it('settings.json lance le crochet de commit sur toute commande : un filtre `if` laissait passer `git -C . commit`', () => {
     const reglages = JSON.parse(readFileSync('.claude/settings.json', 'utf8')) as {
-      hooks: { PreToolUse: { hooks: { command: string; if?: string }[] }[] }
+      hooks: { PreToolUse: { matcher: string; hooks: { command: string; if?: string }[] }[] }
     }
     const crochet = reglages.hooks.PreToolUse.flatMap((m) => m.hooks).find((h) => h.command.includes('porte-avant-commit'))
     expect(crochet).toBeDefined()
     expect(crochet?.if).toBeUndefined()
+  })
+
+  // S306 : sous Windows, Claude Code commite aussi par l'outil PowerShell ;
+  // le crochet n'était branché que sur Bash, et ces commits passaient sans
+  // porte (vu le 20/10 sur le PC fixe, tous les commits de S303 à S306).
+  it('le crochet de commit et celui de dist/ veillent sur Bash et sur PowerShell', () => {
+    const reglages = JSON.parse(readFileSync('.claude/settings.json', 'utf8')) as {
+      hooks: { PreToolUse: { matcher: string; hooks: { command: string }[] }[] }
+    }
+    for (const nom of ['porte-avant-commit', 'dist-a-jour']) {
+      const bloc = reglages.hooks.PreToolUse.find((m) => m.hooks.some((h) => h.command.includes(nom)))
+      expect(bloc, nom).toBeDefined()
+      const motif = new RegExp(`^(?:${bloc?.matcher ?? ''})$`)
+      for (const outil of ['Bash', 'PowerShell']) expect(motif.test(outil), `${nom} sur ${outil}`).toBe(true)
+    }
   })
 
   it('une autre commande passe sans lancer la porte (sinon, pas de rouge-puis-vert)', () => {
