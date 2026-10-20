@@ -1,4 +1,4 @@
-import { citeUnNumero, hoteDeSource, libelleVerification, lienTelephone } from './core/fiche'
+import { citeUnNumero, lienTelephone } from './core/fiche'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
 import { LienExterne } from './LienExterne'
@@ -53,13 +53,8 @@ export function Contact({ brasserie }: { brasserie: Brasserie }) {
           )}
         </p>
       )}
-      <p className="fiche-aide">
-        {t('Lu le {date} sur', { date: libelleVerification(contact.verifieLe) })}{' '}
-        <LienExterne href={contact.source}>
-          {hoteDeSource(contact.source)}
-        </LienExterne>
-        .
-      </p>
+      {/* D'où viennent ces coordonnées, et quand : dit dans la provenance,
+          une fois par site (S312). */}
     </div>
   )
 }

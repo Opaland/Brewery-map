@@ -320,7 +320,7 @@ export function phraseProchaine(horaires: Horaires, nature: Bloc['nature'], inst
  * quand la source ne dit rien de l'instant : la ligne ne devine pas.
  */
 export function etatPourLaListe(horaires: Horaires | undefined, instant: Date): string | undefined {
-  const nature = horaires?.some((b) => b.nature === 'accueil') === true ? 'accueil' : horaires?.[0]?.nature
+  const nature = natureEnTete(horaires)
   if (nature === undefined) return undefined
   const m = ouvertMaintenant(horaires, instant, nature)
   if (m.etat === 'inconnu') return undefined
@@ -334,6 +334,15 @@ export function etatPourLaListe(horaires: Horaires | undefined, instant: Date): 
         ? t('Vente ouverte maintenant')
         : t('Vente fermée maintenant')
   return m.etat === 'sous-reserve' ? t('{etat}, sous réserve', { etat: texte }) : texte
+}
+
+/**
+ * La nature dont on dit l'état en tête : l'accueil du public d'abord, sinon
+ * la première (la vente). Une seule règle pour la ligne de liste, « En
+ * bref » et le tableau des horaires, qui ne la redit pas (S312, CLAUDE.md §4).
+ */
+export function natureEnTete(horaires: Horaires | undefined): Bloc['nature'] | undefined {
+  return horaires?.some((b) => b.nature === 'accueil') === true ? 'accueil' : horaires?.[0]?.nature
 }
 
 /** « samedi » en français, « Saturday » en anglais : les jours anglais prennent une majuscule. */

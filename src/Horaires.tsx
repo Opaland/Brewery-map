@@ -1,4 +1,3 @@
-import { hoteDeSource, libelleVerification } from './core/fiche'
 import {
   blocDuJour,
   formaterCreneaux,
@@ -7,6 +6,7 @@ import {
   JOURS,
   libellePeriode,
   moisJourDeParis,
+  natureEnTete,
   ouvertMaintenant,
   phraseProchaine,
   phraseSousReserve,
@@ -17,7 +17,6 @@ import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
 import { t } from './i18n'
 import { EnFrancais } from './EnFrancais'
-import { LienExterne } from './LienExterne'
 
 const titre = (bloc: Bloc) => {
   const nom = bloc.nature === 'accueil' ? t('Horaires d’accueil du public') : t('Horaires de vente')
@@ -75,14 +74,11 @@ function Tableau({ blocs, bloc, maintenant, avecMaintenant }: { blocs: Blocs; bl
           ))}
         </tbody>
       </table>
+      {/* D'où et quand : dans la provenance, une fois par site (S312). La
+          période de validité : la fiche d'Occitanie la donne, la nôtre ne la
+          sait pas (S295, la fiche face à la concurrence). */}
       <p className="fiche-aide">
-        {t('Lus le {date} sur', { date: libelleVerification(bloc.verifieLe) })}{' '}
-        <LienExterne href={bloc.source}>
-          {hoteDeSource(bloc.source)}
-        </LienExterne>
-        {/* La période de validité : la fiche d'Occitanie la donne, la nôtre
-            ne la sait pas (S295, la fiche face à la concurrence). */}
-        {t('. Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.')}
+        {t('Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.')}
       </p>
     </div>
   )
@@ -108,6 +104,7 @@ export function Horaires({
   // Sans horaires, la partie ne s'affiche pas : la fiche le dit une fois,
   // en tête (S308).
   if (blocs === undefined) return null
+  const enTete = natureEnTete(blocs)
   return (
     <div className="fiche-horaires" data-testid="fiche-horaires">
       <h4 className="fiche-titre">{t('Horaires')}</h4>
@@ -122,7 +119,8 @@ export function Horaires({
             blocs={blocs}
             bloc={b}
             maintenant={instant}
-            avecMaintenant={duJour === undefined ? premier : duJour === b}
+            // L'état de la nature en tête est déjà dit par « En bref » (S312).
+            avecMaintenant={b.nature !== enTete && (duJour === undefined ? premier : duJour === b)}
           />
         )
       })}

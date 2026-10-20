@@ -1,6 +1,6 @@
 import { CATEGORIES } from './core/categories'
 import { adresseDeRue } from './core/fiche'
-import { formaterHeure, ouvertMaintenant, phraseProchaine, phraseSousReserve, type Bloc } from './core/horaires'
+import { formaterHeure, heureDeParis, natureEnTete, ouvertMaintenant, phraseProchaine, phraseSousReserve, type Bloc } from './core/horaires'
 import type { Brasserie } from './core/schema'
 import { useMinute } from './crochets'
 import { t } from './i18n'
@@ -43,15 +43,23 @@ export function EnBref({ brasserie, maintenant }: { brasserie: Brasserie; mainte
   )
 }
 
-/** L'accueil du public d'abord ; sinon la vente. */
+/** Le bloc de la nature en tête (`natureEnTete` : l'accueil, sinon la vente). */
 function blocPrincipal(b: Brasserie): Bloc | undefined {
-  return b.horaires?.find((x) => x.nature === 'accueil') ?? b.horaires?.[0]
+  const nature = natureEnTete(b.horaires)
+  return b.horaires?.find((x) => x.nature === nature)
 }
 
 function etat(b: Brasserie, bloc: Bloc, instant: Date): string {
 
   // Les mêmes phrases que le tableau des horaires (`Horaires.tsx`).
-  const debut = bloc.nature === 'accueil' ? t('Accueil du public : ') : t('Vente : ')
+  // L'heure de référence est écrite : une fiche restée ouverte ne prétend
+  // pas dire « maintenant » une heure plus tard (revue code S19). Le tableau
+  // des horaires ne redit pas cet état (S312).
+  const heure = formaterHeure(heureDeParis(instant))
+  const debut =
+    bloc.nature === 'accueil'
+      ? t('À {heure} (heure de Paris), accueil du public : ', { heure })
+      : t('À {heure} (heure de Paris), vente : ', { heure })
   // Tous les blocs de la nature : celui de la saison du jour décide (S299).
   const m = ouvertMaintenant(b.horaires, instant, bloc.nature)
   const jusqua = m.jusqua === undefined ? '' : t(' jusqu’à {heure}', { heure: formaterHeure(m.jusqua) })
