@@ -331,11 +331,15 @@ export function Liste({
   // La ligne choisie et sa fiche dépliée sont amenées à l'écran — depuis la
   // carte surtout. Viser le bouton seul laissait la fiche, rendue juste
   // après, hors champ sur un petit écran (revue code S3). Sans animation si
-  // la personne a demandé moins de mouvement.
+  // la personne a demandé moins de mouvement. Une fiche plus haute que
+  // l'écran s'aligne par son haut : « nearest » l'amenait par son bas, nom
+  // et focus hors de l'écran (revue globale du 19/10, A5).
   useEffect(() => {
     if (selection === null) return
     const ligne = liste.current?.querySelector('li.ouverte')
-    ligne?.scrollIntoView({ block: 'nearest', behavior: mouvementReduit() ? 'auto' : 'smooth' })
+    if (ligne === null || ligne === undefined) return
+    const tropHaute = ligne.getBoundingClientRect().height > window.innerHeight
+    ligne.scrollIntoView({ block: tropHaute ? 'start' : 'nearest', behavior: mouvementReduit() ? 'auto' : 'smooth' })
   }, [selection])
 
   useEffect(() => {

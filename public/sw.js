@@ -127,8 +127,11 @@ async function reseauPuisCache(event, request, secours) {
   const enCache = async () =>
     (await cache.match(request, OPTIONS_MATCH)) ??
     (secours ? await cache.match(secours, OPTIONS_MATCH) : undefined)
+  // Une écriture en cache qui échoue (appareil plein) ne perd pas la réponse
+  // du réseau : la page échouait alors qu'il avait répondu 200 (revue
+  // globale du 19/10, A3).
   const reseau = fetch(request).then(async (reponse) => {
-    if (reponse && reponse.ok) await cache.put(request, reponse.clone())
+    if (reponse && reponse.ok) await cache.put(request, reponse.clone()).catch(() => undefined)
     return reponse
   })
   const garde = await enCache()
@@ -167,7 +170,7 @@ async function cachePuisReseau(event, request) {
   }
   const reponse = await fetch(request)
   if (reponse && (reponse.ok || reponse.type === 'opaque')) {
-    await cache.put(request, reponse.clone())
+    await cache.put(request, reponse.clone()).catch(() => undefined)
     void limiterTuiles(cache)
   }
   return reponse

@@ -85,3 +85,14 @@ test('un second clic sur la même brasserie réimprime', async ({ page }) => {
   await page.getByTestId('imprimer-affichette').click()
   await expect.poll(() => page.evaluate(() => (window as unknown as { impressions: number }).impressions)).toBe(2)
 })
+
+/** S303 (A1) : un morceau d'affichette disparu ne laisse pas une page blanche. */
+test('si l’affichette ne se charge pas, la liste reste et la barre du compte le dit', async ({ page }) => {
+  await page.route(/\/assets\/Affichette-[^/]*\.js$/, (route) => route.abort())
+  const ligne = page.locator('button.ligne').first()
+  await ligne.click()
+  await page.getByTestId('imprimer-affichette').click()
+  await expect(page.getByTestId('annonce')).toContainText('L’affichette n’a pas pu se charger')
+  await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible()
+  await expect.poll(() => page.evaluate(() => (window as unknown as { impressions: number }).impressions)).toBe(0)
+})

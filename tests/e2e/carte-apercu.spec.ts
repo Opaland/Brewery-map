@@ -55,6 +55,29 @@ test('« Voir la fiche » ouvre la fiche dans la liste, focus sur sa ligne', asy
   await expect(page.getByTestId('apercu-carte')).toHaveCount(0)
 })
 
+// S303 (A5) : la fiche, plus haute que l'écran, arrivait par son bas. Le
+// défaut ne se voit qu'avec le défilement animé : sous « mouvement réduit »,
+// Chromium l'alignait déjà par son haut (sonde du 20/10, 390 et 412 px).
+test('« Voir la fiche » montre le haut de la fiche : son nom est peint à l’écran', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'no-preference' })
+  await page.getByTestId('carte').locator('.marqueur:not(.marqueur-groupe)').click()
+  await page.getByTestId('apercu-voir-fiche').click()
+  const ligne = page.locator('button.ligne[data-nom="Bulles d\'Orge"]')
+  await expect(ligne).toHaveAttribute('aria-expanded', 'true')
+  // La fiche est bien plus haute que l'écran : sans quoi le test ne dit rien.
+  expect(await page.locator('li.ouverte').evaluate((li) => li.getBoundingClientRect().height > window.innerHeight)).toBe(true)
+  await expect
+    .poll(() =>
+      ligne.evaluate((b) => {
+        const r = b.getBoundingClientRect()
+        const vu = document.elementFromPoint(r.left + 20, r.top + Math.min(r.height / 2, 20))
+        // À un pixel près : le défilement s'arrête sur une fraction de pixel.
+        return r.top >= -1 && vu !== null && b.contains(vu)
+      }),
+    )
+    .toBe(true)
+})
+
 test('à 320 px et 200 % de texte, l’aperçu reste dans la carte (revue adverse S32)', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 640 })
   await page.addStyleTag({ content: 'html { font-size: 200% !important; }' })

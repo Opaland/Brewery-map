@@ -125,7 +125,9 @@ test('les nombres du menu des départements suivent les catégories cochées (S3
   await page.getByTestId('categorie-0').uncheck()
   await expect(savoie).toHaveText(/\(0\)$/)
   await expect(page.getByTestId('departement')).toHaveValue('73')
-  await expect(page.getByTestId('compte')).toContainText('avec ces filtres')
+  // Toutes décochées, le compte dit cette cause-là, plus précise que « avec
+  // ces filtres » (S303, A6).
+  await expect(page.getByTestId('compte')).toContainText('Aucune catégorie n’est cochée')
 })
 
 test.describe('ma tournée en image (S34)', () => {
