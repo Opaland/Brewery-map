@@ -1226,7 +1226,12 @@
   "addr": "Saint-Jean-de-Thurigneux",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=520175621",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "L'Agarithe",
@@ -1241,7 +1246,12 @@
   "addr": "Panissières",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=842644031",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Ninkasi Fabriques",
@@ -1718,22 +1728,28 @@
   "addr": "Saint-Romain-de-Surieu",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=825162829",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "La Gaudine (Brasserie de la Semène)",
-  "c": "Saint-Genest-Malifaux",
+  "c": "Marlhes",
   "d": "42",
-  "lat": 45.35337,
-  "lon": 4.42621,
-  "km": 43.9,
+  "lat": 45.30268,
+  "lon": 4.37163,
+  "km": 51.0,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Saint-Genest-Malifaux",
+  "addr": "4215 route de Jonzieux, 42660 Marlhes",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "La Part des Autres",
@@ -2357,7 +2373,12 @@
   "addr": "Monistrol-sur-Loire",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=842443574",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Rivière d'Ain",
@@ -3288,7 +3309,12 @@
   "addr": "Alboussière",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=790850390",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "La Grange du Seigneur",
@@ -3529,7 +3555,12 @@
   "addr": "Ambierle",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=491390027",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "L'Agrivoise",
@@ -3596,7 +3627,12 @@
   "addr": "Le Mazet-Saint-Voy",
   "src": "",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=794745331",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Brasserie de Chanaz",
@@ -3615,18 +3651,19 @@
  },
  {
   "n": "Les Croqueurs de Lune",
-  "c": "Chanaz",
+  "c": "Serrières-en-Chautagne",
   "d": "73",
-  "lat": 45.80197,
-  "lon": 5.79699,
-  "km": 82.1,
+  "lat": 45.88205,
+  "lon": 5.84386,
+  "km": 87.6,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Chanaz",
+  "addr": "91 montée des 2 Évêques, 73310 Serrières-en-Chautagne",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Les Bières Hoffmann (Brasseurs du Grand Colombier)",
@@ -3645,18 +3682,19 @@
  },
  {
   "n": "Brasserie du Vercors (Biercors)",
-  "c": "Autrans",
+  "c": "Villard-de-Lans",
   "d": "38",
-  "lat": 45.1778,
-  "lon": 5.5422,
-  "km": 82.6,
+  "lat": 45.06843,
+  "lon": 5.55004,
+  "km": 91.7,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Autrans",
+  "addr": "61-69 avenue Jean-Séraphin Achard-Picard, 38250 Villard-de-Lans",
   "src": "",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie de Cluny",

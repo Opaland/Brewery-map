@@ -32,7 +32,7 @@ Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
 Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
-214 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
+213 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
 d'adresse vérifiée ; 36 brasseries de Normandie, 81 de Bretagne et 75 des Pays de la Loire et
 d'Indre-et-Loire sont ajoutées. Les autres
 propositions attendent sa relecture (`curation/`).

@@ -2890,3 +2890,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S322 — Une fiche peut déménager *(20/10)*
 
 `docs/stories/S322.md`. Cédric, le 20/10 : « OK » aux trois déménagements. `changementsSchema` accepte `c` et `d`, ensemble, avec l'adresse et une position entière (à l'adresse ou au centre IGN) ; le nom reste exclu. Le lot des trois fiches suit dans une PR de données.
+
+## S321 — Les brasseries fermées d'après SIRENE *(20/10)*
+
+`docs/stories/S321.md`. Cédric, le 20/10 : « oui fermé ». Sept fiches marquées `fermee` (entreprise cessée, aucun établissement ouvert, même commune), source : l'API du répertoire. Écartées et dites : Malt Emoi, Mac Never's and Co. (actives), Les Bières Hoffmann (absente), Brasserie 767 (autre commune). Avec les trois déménagements de S322, dans la PR #159, qui attend sa revue.
