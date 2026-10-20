@@ -1,3 +1,4 @@
+import type { Page } from '@playwright/test'
 import { expect, test } from './position'
 import { choisirCommune, ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
@@ -68,9 +69,22 @@ test.describe('ordinateur', () => {
   // Sur chaque moteur : la taille d'écran se pose partout, seul `isMobile`
   // est propre à Chromium (revue adverse S234, le saut disait le contraire).
 
+  // Le nom de la première brasserie est peint au-dessus de la barre collée :
+  // « top < 800 » passait avec une ligne à 778 px, sous la barre à 751 px
+  // (revue globale du 19/10, A4 ; CLAUDE.md §1bis).
+  const nomPeint = (page: Page) =>
+    page.locator('button.ligne').first().evaluate((e) => {
+      const r = e.getBoundingClientRect()
+      const barre = document.querySelector('.barre-compte')?.getBoundingClientRect()
+      if (barre === undefined) return 'pas de barre'
+      const nom = e.querySelector('.ligne-nom')?.getBoundingClientRect()
+      if (nom === undefined) return 'pas de nom'
+      const vu = document.elementFromPoint(nom.left + nom.width / 2, nom.top + nom.height / 2)
+      return r.top + 44 <= barre.top && vu !== null && e.contains(vu) ? 'peint' : `ligne ${String(Math.round(r.top))}, barre ${String(Math.round(barre.top))}`
+    })
+
   test('une brasserie est dans le premier écran', async ({ page }) => {
-    const haut = await page.locator('button.ligne').first().evaluate((e) => e.getBoundingClientRect().top)
-    expect(haut).toBeLessThan(800)
+    await expect.poll(() => nomPeint(page)).toBe('peint')
   })
 
   test('après un départ choisi aussi', async ({ page }) => {
@@ -78,8 +92,7 @@ test.describe('ordinateur', () => {
     await page.evaluate(() => {
       window.scrollTo(0, 0)
     })
-    const haut = await page.locator('button.ligne').first().evaluate((e) => e.getBoundingClientRect().top)
-    expect(haut).toBeLessThan(800)
+    await expect.poll(() => nomPeint(page)).toBe('peint')
   })
 })
 
@@ -241,4 +254,34 @@ test('toutes catégories décochées : le compte le dit, et « la plus proche »
   // vide (revue adverse S303, §1bis).
   await expect(page.getByTestId('plus-proche')).toContainText('Les fiches vérifiées couvrent')
   await expect(page.getByTestId('plus-proche')).not.toContainText('La plus proche')
+})
+
+/** S304 (A7) : au-delà d'un quart de l'écran, la barre se décolle. */
+test('à 320 × 568 et 200 % de texte, après un favori, la barre ne couvre pas l’écran', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 568 })
+  await page.addStyleTag({ content: 'html { font-size: 200% !important; }' })
+  // Le cas de la revue : une annonce allonge la barre (59 % de l'écran mesuré).
+  await page.locator('button.ligne').first().dispatchEvent('click')
+  await page.getByTestId('bouton-favori').first().dispatchEvent('click')
+  await expect(page.getByTestId('annonce')).toContainText('ajoutée à vos favoris')
+  // Un point à 70 % de la hauteur : sous une barre collée de 59 %, il est à
+  // elle (§1bis : ce qui est peint, pas le style calculé).
+  await expect
+    .poll(() =>
+      page.evaluate(() => {
+        const vu = document.elementFromPoint(160, Math.round(window.innerHeight * 0.7))
+        return vu !== null && document.querySelector('.barre-compte')?.contains(vu) === true
+      }),
+    )
+    .toBe(false)
+  await expect.poll(() => page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--hauteur-compte'))).toBe('0px')
+  // Revenue sous le cinquième (texte normal, écran plus haut), elle se recolle.
+  await page.addStyleTag({ content: 'html { font-size: 100% !important; }' })
+  await page.setViewportSize({ width: 412, height: 839 })
+  await expect.poll(() => page.locator('.barre-compte').evaluate((b) => getComputedStyle(b).position)).toBe('sticky')
+})
+
+test('sans agrandissement, la barre reste collée (412 × 839)', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 839 })
+  await expect.poll(() => page.locator('.barre-compte').evaluate((b) => getComputedStyle(b).position)).toBe('sticky')
 })

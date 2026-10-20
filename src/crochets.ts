@@ -67,10 +67,29 @@ export function useCarteEnVue(): { titreCarte: RefObject<HTMLHeadingElement>; ca
 }
 
 /**
+ * Au-delà de cette part de l'écran, la barre collée se décolle (revue
+ * globale du 19/10, A7 : à 200 % de texte, elle prenait jusqu'à 81 % de
+ * l'écran et cachait le bouton qu'on venait d'activer). Seuil de
+ * présentation, tranché au jugement (CLAUDE.md §2), mesuré le 20/10 à
+ * 200 % sans annonce : 20 % à 412 px, 29 % à 390, 34 % à 320. Écartés :
+ * 20 % (décollerait déjà à 412 px, où elle gêne peu) et un tiers
+ * (laisserait près d'un tiers de l'écran couvert à 390 et 320 px).
+ */
+export const PART_MAX_BARRE = 0.25
+
+/**
+ * Elle ne se recolle que sous cette part : sans cet écart, une barre proche
+ * du quart basculait à chaque fois que la barre d'adresse du navigateur se
+ * replie et change `innerHeight` (revue adverse S304).
+ */
+export const PART_RECOLLE_BARRE = 0.2
+
+/**
  * Le compte collé au bas de l'écran couvrait le focus clavier (WCAG 2.4.11,
  * revue adverse UI/UX : une case sur Pixel 7, cinq contrôles à 320 px). Sa
  * hauteur, qui varie avec le retour à la ligne, devient la marge de
- * défilement du bas : le navigateur amène le focus au-dessus.
+ * défilement du bas : le navigateur amène le focus au-dessus. Trop haute,
+ * elle se décolle, et la marge retombe à 0.
  */
 export function useHauteurBarre(): RefObject<HTMLDivElement> {
   const barre = useRef<HTMLDivElement>(null)
@@ -78,12 +97,18 @@ export function useHauteurBarre(): RefObject<HTMLDivElement> {
     const p = barre.current
     if (p === null || typeof ResizeObserver === 'undefined') return
     const racine = document.documentElement
-    const suivre = new ResizeObserver(() => {
-      racine.style.setProperty('--hauteur-compte', `${String(p.offsetHeight)}px`)
-    })
+    const mesurer = () => {
+      const part = p.offsetHeight / window.innerHeight
+      const decollee = p.hasAttribute('data-decollee') ? part >= PART_RECOLLE_BARRE : part > PART_MAX_BARRE
+      p.toggleAttribute('data-decollee', decollee)
+      racine.style.setProperty('--hauteur-compte', `${String(decollee ? 0 : p.offsetHeight)}px`)
+    }
+    const suivre = new ResizeObserver(mesurer)
     suivre.observe(p)
+    window.addEventListener('resize', mesurer)
     return () => {
       suivre.disconnect()
+      window.removeEventListener('resize', mesurer)
     }
   }, [])
   return barre

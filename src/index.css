@@ -27,9 +27,6 @@
   --blanc-carte: #fff;
   --attention-fond: #fdf6e3;
   --attention-bord: #d9a400;
-  --erreur-fond: #fdecec;
-  --erreur-bord: #c8102e;
-  --bleu-position: #1d6fa5;
   --espace-2: 4px;
   --espace-4: 8px;
   --espace-6: 12px;
@@ -50,7 +47,6 @@
     --gris-vert-clair: #33403a;
     --blanc-carte: #1f2723;
     --attention-fond: #332c16;
-    --erreur-fond: #3a1e20;
   }
 }
 
@@ -82,14 +78,6 @@ a { color: inherit; }
 
 .entete h1 { font-size: var(--texte-vedette); margin: var(--espace-8) 0 var(--espace-2); }
 .sous-titre { margin: 0; color: var(--encre-douce); }
-.contenu { flex: 1; }
-
-.avertissement {
-  background: var(--attention-fond);
-  border-left: 4px solid var(--attention-bord);
-  border-radius: var(--rayon-md);
-  padding: var(--espace-6) var(--espace-7);
-}
 
 .pied {
   border-top: 1px solid var(--gris-vert-clair);
@@ -300,7 +288,16 @@ a { color: inherit; }
   /* En colonnes de texte, pas en grille : l'ordre de lecture et de
      tabulation reste celui du document, et aucun trou ne se forme sous le
      bloc de départ. */
-  .filtres { display: block; columns: 2; column-gap: var(--espace-7); }
+  /* Trois colonnes quand chacune garde 22 rem, deux sinon : en deux, à
+     1280 × 800, la première brasserie commençait à 778 px, sous la barre
+     collée (751 px) ; en trois, à 621 px, son nom peint (revue globale du
+     19/10, A4, mesuré le 20/10). Une largeur de colonne, pas une seconde
+     requête d'écran : le point de rupture reste unique (S274). Écarté :
+     20 rem, qui passait à trois dès 1 024 px et y coupait les mots des
+     puces (« consomm|er »). Bornée à 34vw : à 200 % de texte, 22 rem
+     (704 px) ne laissait qu'une colonne sur 1280 px, au lieu de deux
+     (revue adverse S304). */
+  .filtres { display: block; columns: 3 min(22rem, 34vw); column-gap: var(--espace-7); }
   .page .filtres > * { break-inside: avoid; margin: 0 0 var(--espace-6); }
   /* « Plus de filtres » ouvert se partage entre les deux colonnes (S266) :
      avec les bières renseignées, le filtre par type et son aide s'y
@@ -545,7 +542,6 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
   --cuivre-vif: #c0652a;
   --cuivre-pale: #f6e6d6;
   --texte-sur-cuivre: #fff;
-  --houblon: #4f7a2b;
   --ombre: 0 1px 2px rgba(60, 40, 20, 0.06), 0 6px 18px rgba(60, 40, 20, 0.08);
   --ombre-forte: 0 2px 4px rgba(60, 40, 20, 0.08), 0 12px 32px rgba(60, 40, 20, 0.14);
   --rayon-md: 12px;
@@ -688,10 +684,6 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   transition: box-shadow 140ms ease, transform 140ms ease;
 }
 .ligne:hover { box-shadow: var(--ombre-forte); }
-.ligne.cat-0 { border-left-color: var(--cat-0); }
-.ligne.cat-1 { border-left-color: var(--cat-1); }
-.ligne.cat-2 { border-left-color: var(--cat-2); }
-.ligne.cat-3 { border-left-color: var(--cat-3); }
 .ligne[aria-expanded='true'] {
   border: 2px solid var(--cuivre);
   border-left: 6px solid var(--cuivre);
@@ -880,6 +872,9 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   background: color-mix(in srgb, var(--papier) 97%, transparent);
 }
 .barre-compte .compte { position: static; margin: 0; flex: 1; min-width: 0; background: transparent; }
+/* Trop haute (texte agrandi, annonce longue), elle se décolle : voir
+   `useHauteurBarre` (revue globale du 19/10, A7). */
+.barre-compte[data-decollee] { position: static; }
 .barre-compte .aller-vers { margin: 0; flex: none; }
 
 /* Sur téléphone, l'en-tête plus serré : chaque pixel gagné rapproche la
