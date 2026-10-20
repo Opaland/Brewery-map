@@ -375,7 +375,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 ## Revue adverse S304 — restes
 
 - **Budget du premier écran à 25 octets près** (218 975 pour 219 000, le 20/10) : S294 (fiches par département) avant toute nouvelle fonction du premier écran.
-- **Le focus sur un compte décollé fait sauter la page en bas** : « Effacer la recherche » (`src/App.tsx`, `compte.current?.focus()`) et le retrait d'un favori en mode « seulement mes favoris ». Barre collée, rien ne bougeait ; décollée (texte agrandi), la page part en fin de liste. Piste : viser le champ de recherche, ou `preventScroll` avec un retour visible près du geste.
+- **S319 : le clavier virtuel après « Voir les brasseries autour du départ »** : barre décollée, le focus va au champ de recherche ; sur un vrai téléphone, cela ouvre peut-être le clavier sans qu'on ait demandé à saisir. Playwright ne le simule pas : à essayer avec `docs/LIVRAISON.md`. Repli possible : un titre visible, `tabIndex={-1}`.
 - **Barre décollée, l'annonce d'un geste n'est plus à l'écran** pour la personne voyante. Piste : un retour près du bouton.
 - **De 900 à ~1 150 px, la première brasserie reste sous la barre** (787 px à 1 024 et 1 100 px, mesuré le 20/10) : deux colonnes de filtres.
 - **Les fragments de « Plus de filtres » sur trois colonnes** ne sont mesurés ni en anglais ni avec « Plus de filtres » replié.
@@ -397,6 +397,10 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - ~~« La plus proche » et le carnet~~ — fait en S315 (« La plus proche pas encore visitée »). Constat d'origine : : « pas encore visitées » coché et tout le rayon visité, le compte dit « tout est dans votre carnet » et, dessous, « La plus proche : X, à 280 km » (une non visitée). Vrai, mais se lit comme une contradiction ; à formuler (« la plus proche pas encore visitée »).
 - **« Aucune brasserie dans le département … avec ces filtres » n'a plus d'e2e** : le test S31 (`idees.spec.ts`) y arrivait en décochant toutes les catégories, cas qui a désormais son propre message (S303). Le retrouver par un autre filtre qui vide un département, et vérifier qu'il n'accuse pas les filtres quand c'est le texte qui vide la liste.
 - ~~Une annonce identique ne se ré-annonce pas~~ — fait en S317 (nouveau nœud à chaque annonce). Constat d'origine : (région live de `annonce`) : un second échec de l'affichette, ou deux fois le même geste, ne dit rien au lecteur d'écran. Vaut pour toutes les annonces.
+
+## S322 — restes
+
+- **Un signalement ouvert avant un déménagement ne se rattache plus** : `ficheDuSignalement` exige le nom et la commune du titre, posés à l'époque. Garder l'ancienne commune quelque part, ou chercher par le nom seul quand il est unique.
 
 ## S308 — restes (revues du 20/10 : adverse, persona Marie)
 
