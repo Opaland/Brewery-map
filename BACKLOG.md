@@ -381,6 +381,11 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **Les fragments de « Plus de filtres » sur trois colonnes** ne sont mesurés ni en anglais ni avec « Plus de filtres » replié.
 - **W9 ailleurs** : `outils/curation.ts:243` et `outils/captures.ts` appellent `rmSync` ; sous Node 24 et Windows, dans un chemin accentué, il ne supprime rien. Le dossier temporaire de `curation.ts` est sous `tmpdir()` (nom court, ASCII, sur ce poste) : à vérifier, puis passer à `fs.promises.rm`.
 
+## Revue adverse S307 — restes
+
+- **Marqueurs sur autoroute et voie rapide : 2,2 à 3,2:1** (fonds `#e892a2` et `#f9b29c` d'openstreetmap-carto), sous les 3:1 de WCAG 1.4.11 ; le bord blanc et l'ombre du marqueur aident sans suffire à la mesure. Y tenir 3:1 demande une palette des catégories plus sombre, sur toute l'application : décision de design, à prendre à part. `tests/unit/couleurs-carte.test.ts` borne l'écart à 2,2.
+- **Focus d'un marqueur choisi** : `#7a3410` contre `#241c14`, 1,86:1 ; c'est le second anneau (ombre de 7 px) qui les distingue, pas la couleur.
+
 ## Revue adverse S303 — restes
 
 - **« Pas encore visitées » accuse le carnet à tort** (`texteDuCompte`, `src/App.tsx`) : avec « Ouvertes ce week-end » aussi coché, ou un carnet vide, une liste vide dit « Toutes celles qui correspondent sont dans votre carnet ». Même classe que A11 : ne le dire que si la liste serait non vide sans `exclure`.

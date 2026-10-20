@@ -183,13 +183,10 @@ a { color: inherit; }
    une case et on lit aussitôt combien il en reste, sans défiler (revue UI/UX
    du 16/10, Marie : le compte était à 400 px sous le curseur). */
 .compte {
-  font-weight: 600;
   margin: var(--espace-4) 0;
   position: sticky;
   bottom: 0;
   z-index: 2;
-  padding: var(--espace-4) 0;
-  background: var(--papier);
 }
 
 .vues { display: grid; gap: var(--espace-7); }
@@ -245,29 +242,12 @@ a { color: inherit; }
   color: inherit;
   display: grid;
   gap: var(--espace-2);
-  padding: var(--espace-6);
   min-height: 44px;
-  border: 1px solid var(--gris-vert-clair);
-  border-radius: var(--rayon-md);
   background: var(--blanc-carte);
   cursor: pointer;
 }
 
-.ligne[aria-expanded='true'] {
-  /* Ligne et fiche forment une seule carte : même bord de 2 px, coins du
-     bas droits ; l'ancien contour débordant laissait une encoche contre la
-     fiche (revue UI/UX du 16/10). Le padding compense le bord épaissi. */
-  border: 2px solid var(--encre);
-  border-bottom-width: 1px;
-  padding: calc(var(--espace-6) - 1px) calc(var(--espace-6) - 1px) var(--espace-6);
-  border-radius: var(--rayon-md) var(--rayon-md) 0 0;
-}
-
-.ligne-nom { font-weight: 600; }
 .ligne-lieu { color: var(--encre-douce); font-size: var(--texte-secondaire); }
-/* La distance décide, à vélo surtout : à la taille du texte, en encre pleine
-   (revue UI/UX du 16/10, Hugo). */
-.ligne-distance { color: var(--encre); font-size: var(--texte-corps); font-weight: 600; }
 .ligne-note { font-size: var(--texte-secondaire); }
 .badge-osm { color: var(--encre-douce); }
 .badge-verifier { color: var(--encre-douce); font-style: italic; }
@@ -328,12 +308,32 @@ a { color: inherit; }
 .marqueur.cat-1 { background: var(--cat-1); }
 .marqueur.cat-2 { background: var(--cat-2); }
 .marqueur.cat-3 { background: var(--cat-3); }
-.marqueur[aria-pressed='true'] { outline: 3px solid var(--encre); outline-offset: 2px; }
+.marqueur[aria-pressed='true'] { outline: 3px solid var(--carte-encre); outline-offset: 2px; }
+/* Le focus d'un marqueur, lisible sur les tuiles ; choisi et focalisé, les
+   deux se voient : le choix (0,2,0) battait `:focus-visible` (0,1,0), et
+   le focus disparaissait (revue globale du 19/10, A9). */
+.marqueur:focus-visible { outline: 3px solid var(--carte-focus); outline-offset: 2px; }
+.marqueur[aria-pressed='true']:focus-visible { outline-color: var(--carte-focus); box-shadow: 0 0 0 7px var(--carte-encre); }
+
+/* La carte et sa légende gardent les couleurs du thème clair, quel que
+   soit le thème : les tuiles d'OpenStreetMap restent claires, et les
+   couleurs pâles du thème sombre n'y faisaient que 1,2 à 1,3:1 (S307,
+   revue globale du 19/10, A8). Chacune tient 3:1 contre les fonds des
+   tuiles et les routes jusqu'aux principales, et vaut celle du thème
+   clair ; sur autoroute et voie rapide, les catégories tombent à 2,2 à
+   3,2:1 (BACKLOG) : `tests/unit/couleurs-carte.test.ts`.
+   --carte-encre : l'anneau du marqueur choisi ; --carte-focus : son focus.
+   La légende garde le bord blanc des marqueurs : sur le fond sombre de la
+   page, c'est lui qui la détache. */
+.carte, .legende-carte { --cat-0: #a35200; --cat-1: #2e7d32; --cat-2: #1d5f9a; --cat-3: #5f6368; --carte-encre: #241c14; --carte-focus: #7a3410; }
+@media (prefers-color-scheme: dark) {
+  .legende-carte [class^='cat-'] .pastille { border: 2px solid #fff; box-sizing: border-box; }
+}
 
 .marqueur-groupe {
   width: 34px;
   height: 34px;
-  background: #1e2b23;
+  background: #7a3410;
   color: #fff;
   font: 600 0.85rem var(--font-sans);
 }
@@ -522,7 +522,7 @@ ul.fiche-liens { list-style: none; margin: var(--espace-2) 0 0; padding: 0; }
 }
 .legende-carte li { display: inline-flex; align-items: center; gap: var(--espace-2); }
 /* Bord blanc comme le marqueur : visible aussi en thème sombre (audit S26, m2 : 1,17:1). */
-.pastille-groupe { background: #1e2b23; border: 2px solid #fff; box-sizing: border-box; }
+.pastille-groupe { background: #7a3410; border: 2px solid #fff; box-sizing: border-box; }
 .pastille-depart { background: #fff; border: 3px solid #1e2b23; box-sizing: border-box; }
 
 /* ════════════════════════════════════════════════════════════════════════
@@ -665,10 +665,8 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 /* Le compte : une barre collée, lisible d'un coup d'œil. */
 .compte {
   font-family: var(--font-titre);
-  font-size: 1.15rem;
   font-weight: 650;
   padding: var(--espace-6) var(--espace-2);
-  background: color-mix(in srgb, var(--papier) 92%, transparent);
   backdrop-filter: blur(6px);
   border-top: 1px solid var(--gris-vert-clair);
 }
@@ -722,13 +720,9 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 
 /* La carte : un cadre arrondi, posé. */
 .carte, .carte-attente, .carte-absente { border-radius: var(--rayon-lg); box-shadow: var(--ombre); border-color: var(--gris-vert-clair); }
-.marqueur-groupe { background: #7a3410; }
-.pastille-groupe { background: #7a3410; }
 
 .choix-commune-liste { border-radius: var(--rayon-md); box-shadow: var(--ombre-forte); overflow: hidden; }
 .choix-commune-liste li.active { background: var(--cuivre-pale); }
-
-.pied { border-top-color: var(--gris-vert-clair); }
 
 /* Les colonnes de la grille peuvent rétrécir sous leur contenu : à 200 % de
    texte, la carte et la liste prenaient 326 px pour 288 (S28, même test que
@@ -995,9 +989,10 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 }
 
 /* S40 : un groupe qui contient la brasserie choisie, cerclé comme un
-   marqueur choisi (anneau cuivre, et blanc dessous pour le thème sombre). */
+   marqueur choisi (anneau foncé sur blanc ; le cuivre vif du thème sombre
+   ne faisait que 1,25:1 sur les tuiles, S307). */
 .marqueur-groupe.contient-choisie {
-  box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--cuivre-vif);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--carte-encre);
 }
 
 /* S44 : « Quoi de neuf ? », replié dans le pied de page. */
