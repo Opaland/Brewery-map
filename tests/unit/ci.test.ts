@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 
 /**
  * S283 : `npm audit` dans la CI. Lu sur le texte du workflow (aucune
@@ -18,6 +18,29 @@ const etape = (texte: string, commande: string) => {
   const fin = texte.indexOf('- name:', i)
   return texte.slice(debut, fin === -1 ? undefined : fin)
 }
+
+// S306 (C4) : `retries: 2` en CI laissait passer vert un test qui ne passe
+// qu'au second essai (CLAUDE.md §1bis).
+describe('un test instable rougit la CI', () => {
+  // La configuration chargée, pas son texte : une ligne en commentaire
+  // passait (revue adverse S306).
+  it('playwright.config.ts pose failOnFlakyTests en CI, et pas hors CI', async () => {
+    const avant = process.env.CI
+    try {
+      process.env.CI = 'true'
+      vi.resetModules()
+      const enCi = (await import('../../playwright.config')).default
+      expect(enCi.failOnFlakyTests).toBe(true)
+      delete process.env.CI
+      vi.resetModules()
+      const horsCi = (await import('../../playwright.config')).default
+      expect(horsCi.failOnFlakyTests).toBe(false)
+    } finally {
+      if (avant === undefined) delete process.env.CI
+      else process.env.CI = avant
+    }
+  })
+})
 
 describe('npm audit dans la CI', () => {
   it('la porte refuse une faille haute dans ce que la page embarque, avant le build', () => {

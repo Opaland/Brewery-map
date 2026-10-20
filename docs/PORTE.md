@@ -10,6 +10,7 @@ Story S229 (revue d'architecture du 17/10, risque R3). Mesures du
 | Lint | `npm run lint` | 17 s |
 | Typecheck | `npx tsc -b --noEmit` | 0,4 s (cache incrémental chaud) |
 | Unitaires | `npx vitest run` (350 tests) | 11 s |
+| Garde de `data/` (S306) | `npx tsx outils/garde-donnees.ts` | 0,5 s (PC fixe, 20/10) |
 | Build | `npm run build` | 2 s |
 | E2E | `npx playwright test` (181 tests, 1 ignoré) | 228 s |
 | **Total** | | **≈ 258 s** |

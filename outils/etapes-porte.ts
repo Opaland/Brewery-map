@@ -36,6 +36,11 @@ export const ETAPES: Etape[] = [
   { nom: 'lint', args: [js('eslint/bin/eslint.js'), '.'] },
   { nom: 'typecheck', args: [js('typescript/bin/tsc'), '-b', '--noEmit'] },
   { nom: 'tests', args: [js('vitest/vitest.mjs'), 'run', '--silent'] },
+  // Comme en CI (S306, C3) : une ligne de data/ sans accord rougissait
+  // seulement après le push. `npm audit` reste en CI : il demande le
+  // registre npm, et une porte qui rougit hors ligne sans faille (S283)
+  // apprend à la contourner.
+  { nom: 'garde', args: [js('tsx/dist/cli.mjs'), 'outils/garde-donnees.ts'] },
   { nom: 'build', args: [js('typescript/bin/tsc'), '-b'] },
   { nom: 'build', args: [js('vite/bin/vite.js'), 'build'] },
   { nom: 'e2e', args: [js('@playwright/test/cli.js'), 'test'] },
