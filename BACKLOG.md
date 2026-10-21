@@ -84,10 +84,7 @@ chacun demande une décision ou une vérification de source.
   `lienTelephone` donne son indicatif à l'outre-mer (`tests/unit/contact.test.ts`).
   Reste Saint-Pierre-et-Miquelon (+508), dont la numérotation nationale n'a
   pas été vérifiée ; aucune fiche n'y est.
-- « Tout effacer » (S295) : si le stockage et le cache des tuiles échouent
-  l'un sans l'autre, « rien n'a changé » est faux pour celui qui a réussi.
-  Une nouvelle tentative suffit (les deux effacements se rejouent sans
-  effet de bord) ; à dire plus juste si quelqu'un le rencontre.
+- ~~« Tout effacer » (S295) : si le stockage et le cache des tuiles échouent l'un sans l'autre~~ : fait en S330 (effacement séquencé, phrase juste ; `tests/e2e/ecran-vrai.spec.ts`).
 - ~~Contact : Brasserie Animus et Pleine Lune~~ : relues en S326 (`curation/s326-relues-du-poste.md`) : le numéro de Pleine Lune est déjà celui de sa fiche ; le déménagement d'Animus est proposé, son portable attend la réponse de Cédric.
 - Les cinq numéros d'exemple de S4 attendent l'accord de Cédric
   (SPRINTS.md, S4).

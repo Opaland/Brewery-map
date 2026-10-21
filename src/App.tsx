@@ -162,7 +162,7 @@ export function App({
   const ini = stockage.initiales
   // Une fiche partagée (S27, `#fiche=…`) : son nom dans la recherche, et la
   // fiche ouverte — trouvée à toute distance, comme un nom tapé.
-  const [ficheOuverte] = useState(() => ficheDuLien(window.location.hash))
+  const [ficheOuverte, setFicheOuverte] = useState(() => ficheDuLien(window.location.hash))
   const [texte, setTexte] = useState(ficheOuverte ?? '')
   const [lienPartage, setLienPartage] = useState(ficheOuverte !== undefined)
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
@@ -180,6 +180,22 @@ export function App({
   }
   const [categories, setCategories] = useState<readonly Categorie[]>(ini.categories)
   const [selection, setSelection] = useState<string | null>(ficheOuverte ?? null)
+  // Un lien `#fiche=…` collé dans l'onglet déjà ouvert : l'adresse change
+  // sans recharger la page, et le lien était ignoré (A17).
+  useEffect(() => {
+    const suivre = () => {
+      const nom = ficheDuLien(window.location.hash)
+      if (nom === undefined) return
+      setFicheOuverte(nom)
+      setTexte(nom)
+      setLienPartage(true)
+      setSelection(nom)
+    }
+    window.addEventListener('hashchange', suivre)
+    return () => {
+      window.removeEventListener('hashchange', suivre)
+    }
+  }, [])
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   // Un raccourci de l'application installée (S46), lu une fois puis retiré
@@ -380,7 +396,11 @@ export function App({
   const toutes = useMemo(() => [...fiches, ...osm.brasseries], [fiches, osm.brasseries])
   // Ce qui est cherché : sans la couche OSM si la personne l'a décochée
   // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
-  const cherchees = avecOsm ? toutes : fiches
+  // Un lien partagé vers un point OSM l'ouvre même couche décochée (A2) :
+  // sinon « Aucune brasserie ne correspond », sans dire pourquoi.
+  const lienVersOsm =
+    lienPartage && ficheOuverte !== undefined && texte === ficheOuverte && !fiches.some((b) => b.n === ficheOuverte)
+  const cherchees = avecOsm || lienVersOsm ? toutes : fiches
   const jugeables = useMemo(() => jugeablesCeWeekEnd(cherchees, joursWeekEnd), [cherchees, joursWeekEnd])
 
   const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
@@ -517,17 +537,29 @@ export function App({
     setPasVisitees(d.pasVisitees)
     setNotes(d.notes)
     setTheme(d.theme)
+    // Sinon la vue « Mes favoris » réécrivait sa valeur de départ par-dessus l'effacement (A13).
+    setFavorisParRaccourci(false)
   }, [tenirPourPartage])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
   }, [remettreAZero])
 
   const toutEffacer = () => {
-    Promise.all([stockage.effacer(), oublierLesTuiles()])
+    // L'un après l'autre : si seul le fond de carte résiste, la phrase dit ce
+    // qui a été effacé, au lieu de « rien n'a changé » (A12).
+    stockage
+      .effacer()
       .then(() => {
         remettreAZero()
         annoncerEffacement()
-        setAnnonce(t('Favoris, carnet, notes, réglages et fond de carte gardé effacés de cet appareil.'))
+        return oublierLesTuiles().then(
+          () => {
+            setAnnonce(t('Favoris, carnet, notes, réglages et fond de carte gardé effacés de cet appareil.'))
+          },
+          () => {
+            setAnnonce(t('Favoris, carnet, notes et réglages effacés de cet appareil ; le fond de carte gardé n’a pas pu l’être : recommencez l’effacement.'))
+          },
+        )
       })
       .catch(() => {
         setAnnonce(t('L’effacement a échoué : rien n’a changé. Réessayez.'))
@@ -833,7 +865,9 @@ export function App({
 
       {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
           couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
-      {resultats.length === 0 && !favorisSeulement && !partout && suite.etat !== 'attente' && (
+      {/* Sans la suite, les fiches ne sont que celles de la région : « la plus
+          proche » et le nombre de départements seraient faux (revue adverse du 21/10). */}
+      {resultats.length === 0 && !favorisSeulement && !partout && suite.etat === 'pret' && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
             const p = plusProche(cherchees, origine.point, criteres)
@@ -870,7 +904,9 @@ export function App({
       {osm.etat === 'echec' && (
         <div className="champ-aide" role="status" data-testid="osm-absente">
           <p>
-            {t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: departements.length })}
+            {suite.etat === 'pret'
+              ? t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: departements.length })
+              : t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées de la région sont là.')}
           </p>
           <div className="depart-actions">
             <button
