@@ -7,12 +7,67 @@
   "lon": 4.75484,
   "km": 0.0,
   "cat": 1,
-  "conf": "faible",
-  "note": "Restaurant-bar du réseau Ninkasi ; vente de bouteilles à emporter déduite de la page Ninkasi, non vérifiée pour ce site.",
-  "addr": "Brignais",
-  "src": "https://www.ninkasi.fr/",
+  "conf": "moyenne",
+  "note": "Restaurant-bar du réseau Ninkasi ; la page du lieu propose d'emporter les bières en bouteille (« Emportez chez vous nos bières bouteilles, sodas & burgers »). Brassage sur place non dit sur cette page.",
+  "addr": "2A route de Lyon, 69530 Brignais",
+  "src": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "contact": {
+   "tel": "04 72 31 74 93",
+   "source": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+   "verifieLe": "2026-10-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "09:00",
+      "23:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "23:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "23:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "00:30"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "00:30"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "23:30"
+     ]
+    ],
+    "source": "https://www.ninkasi.fr/lieux/ninkasi-brignais/",
+    "verifieLe": "2026-10-20"
+   }
+  ]
  },
  {
   "n": "Caribrew",
@@ -254,11 +309,11 @@
   "cat": 1,
   "conf": "moyenne",
   "note": "Brewpub : « des bières brassées sur place et une cuisine du monde faite maison » ; bouteilles « disponible à emporter dans les établissements ». La page d'accueil vise tous les établissements (Part-Dieu, Lyon 7, Oullins), pas Lyon 7 en particulier.",
-  "addr": "Lyon 7e",
+  "addr": "263 Grande Rue de la Guillotière, 69007 Lyon",
   "src": "https://www.malting-pot.com",
   "coordPrecision": "commune",
   "beers": [],
-  "verifieLe": "2026-10-16",
+  "verifieLe": "2026-10-20",
   "contact": {
    "tel": "09 70 95 27 78",
    "site": "https://www.malting-pot.com",
@@ -1171,7 +1226,12 @@
   "addr": "Saint-Jean-de-Thurigneux",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=520175621",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "L'Agarithe",
@@ -1186,7 +1246,12 @@
   "addr": "Panissières",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=842644031",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Ninkasi Fabriques",
@@ -1248,11 +1313,11 @@
   "cat": 1,
   "conf": "moyenne",
   "note": "Le site cite une « vente à la ferme / bar guinguette » ouverte le vendredi de 15h à 19h30 ; les produits vendus ne sont pas détaillés. Du lundi au jeudi, seulement sur rendez-vous.",
-  "addr": "Denicé",
+  "addr": "3 impasse de Montromand, 69640 Denicé",
   "src": "https://laffoleuse.net/",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-16",
+  "verifieLe": "2026-10-20",
   "contact": {
    "tel": "04 74 62 86 05",
    "site": "https://laffoleuse.net/",
@@ -1382,11 +1447,11 @@
   "cat": 1,
   "conf": "moyenne",
   "note": "Restaurant-bar du réseau Ninkasi ; la page du lieu écrit la vente à emporter : « Emportez chez vous nos bières bouteilles, sodas & burgers. »",
-  "addr": "Saint-Étienne",
+  "addr": "Sam Center, 11 rue Barrouin, 42000 Saint-Étienne",
   "src": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-19",
+  "verifieLe": "2026-10-20",
   "contact": {
    "tel": "04 77 89 00 67",
    "site": "https://www.ninkasi.fr/lieux/ninkasi-saint-etienne/",
@@ -1663,22 +1728,28 @@
   "addr": "Saint-Romain-de-Surieu",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=825162829",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "La Gaudine (Brasserie de la Semène)",
-  "c": "Saint-Genest-Malifaux",
+  "c": "Marlhes",
   "d": "42",
-  "lat": 45.35337,
-  "lon": 4.42621,
-  "km": 43.9,
+  "lat": 45.30268,
+  "lon": 4.37163,
+  "km": 51.0,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Saint-Genest-Malifaux",
+  "addr": "4215 route de Jonzieux, 42660 Marlhes",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "La Part des Autres",
@@ -2302,7 +2373,12 @@
   "addr": "Monistrol-sur-Loire",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=842443574",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Rivière d'Ain",
@@ -3127,7 +3203,7 @@
   "cat": 0,
   "conf": "",
   "note": "Boutique en ligne ; taproom et vente sur place non précisés. Contacter la brasserie.",
-  "addr": "Voiron",
+  "addr": "86 rue du Louvasset, 38500 Voiron",
   "src": "https://www.brasseriedeloursbarbu.fr/en",
   "coordPrecision": "centre",
   "beers": [
@@ -3152,11 +3228,12 @@
     "url": "https://www.brasseriedeloursbarbu.fr/"
    }
   ],
-  "verifieLe": "2026-10-19",
+  "verifieLe": "2026-10-20",
   "contact": {
+   "tel": "06 38 60 44 05",
    "site": "https://www.brasseriedeloursbarbu.fr/",
-   "source": "https://www.brasseriedeloursbarbu.fr/",
-   "verifieLe": "2026-10-19"
+   "source": "https://www.brasseriedeloursbarbu.fr/en/contactus",
+   "verifieLe": "2026-10-20"
   }
  },
  {
@@ -3232,7 +3309,12 @@
   "addr": "Alboussière",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=790850390",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "La Grange du Seigneur",
@@ -3473,7 +3555,12 @@
   "addr": "Ambierle",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=491390027",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "L'Agrivoise",
@@ -3540,7 +3627,12 @@
   "addr": "Le Mazet-Saint-Voy",
   "src": "",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=794745331",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Brasserie de Chanaz",
@@ -3559,18 +3651,19 @@
  },
  {
   "n": "Les Croqueurs de Lune",
-  "c": "Chanaz",
+  "c": "Serrières-en-Chautagne",
   "d": "73",
-  "lat": 45.80197,
-  "lon": 5.79699,
-  "km": 82.1,
+  "lat": 45.88205,
+  "lon": 5.84386,
+  "km": 87.6,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Chanaz",
+  "addr": "91 montée des 2 Évêques, 73310 Serrières-en-Chautagne",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Les Bières Hoffmann (Brasseurs du Grand Colombier)",
@@ -3589,18 +3682,19 @@
  },
  {
   "n": "Brasserie du Vercors (Biercors)",
-  "c": "Autrans",
+  "c": "Villard-de-Lans",
   "d": "38",
-  "lat": 45.1778,
-  "lon": 5.5422,
-  "km": 82.6,
+  "lat": 45.06843,
+  "lon": 5.55004,
+  "km": 91.7,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Autrans",
+  "addr": "61-69 avenue Jean-Séraphin Achard-Picard, 38250 Villard-de-Lans",
   "src": "",
-  "coordPrecision": "commune",
-  "beers": []
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie de Cluny",
