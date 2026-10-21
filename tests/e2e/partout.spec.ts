@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
@@ -64,8 +65,12 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 10 km de Mende (48).')
     const ailleurs = page.getByTestId('plus-proche')
     await expect(ailleurs).toContainText('La plus proche :')
+    // La liste vient des données : écrite en dur, elle mentait à chaque lot accepté (§4ter, 21/10).
+    const departements = [
+      ...new Set((JSON.parse(readFileSync('data/breweries.json', 'utf8')) as { d: string }[]).map((b) => b.d)),
+    ].sort()
     await expect(ailleurs).toContainText(
-      'Les fiches vérifiées couvrent 24 départements : 01, 07, 14, 22, 26, 27, 29, 35, 37, 38, 42, 43, 44, 49, 50, 53, 56, 61, 69, 71, 72, 73, 76, 85 ; ailleurs,',
+      `Les fiches vérifiées couvrent ${String(departements.length)} départements : ${departements.join(', ')} ; ailleurs,`,
     )
     await expect(ailleurs).toContainText('brasseries repérées sur OpenStreetMap, à confirmer.')
   })

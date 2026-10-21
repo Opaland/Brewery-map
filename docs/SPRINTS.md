@@ -2894,6 +2894,10 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S322.md`. Cédric, le 20/10 : « OK » aux trois déménagements. `changementsSchema` accepte `c` et `d`, ensemble, avec l'adresse et une position entière (à l'adresse ou au centre IGN) ; le nom reste exclu. Le lot des trois fiches suit dans une PR de données.
 
+## S321 — Les brasseries fermées d'après SIRENE *(20/10)*
+
+`docs/stories/S321.md`. Cédric, le 20/10 : « oui fermé ». Sept fiches marquées `fermee` (entreprise cessée, aucun établissement ouvert, même commune), source : l'API du répertoire. Écartées et dites : Malt Emoi, Mac Never's and Co. (actives), Les Bières Hoffmann (absente), Brasserie 767 (autre commune). Avec les trois déménagements de S322, dans la PR #159, qui attend sa revue.
+
 ## S323 — Les adresses autour de Lyon, quatrième lot *(20/10)*
 
 `docs/stories/S323.md`. 12 fiches (84 à 97 km), 7 propositions dans `curation/s323-adresses-lyon-4` : trois adresses, une note, une fermée d'après SIRENE, deux déménagements (S322). En attente de Cédric.
@@ -2934,3 +2938,20 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S334 — CI et outils durcis *(21/10, epic E35)*
 
 `docs/stories/S334.md`. C7 : les actions sont épinglées par SHA, et Dependabot les surveille chaque mois. C6 : CODEOWNERS couvre `package.json`, le fichier de verrouillage, `.claude/settings.json` et les deux configurations. C8 : Pages ne coupe plus une publication en cours. C9 : la sonde vérifie que `sw.js` publié porte l'empreinte du build de ce commit, et chaque job de chaque workflow a son délai. W9 : `supprimerSync` remplace `rmSync` dans les outils. W5 : plus de `sleep` système, et `engines` est déclaré. Fin des epics E31 à E35.
+
+## Rétrospective des epics E30 à E35 *(21/10)*
+
+`docs/RETRO-2026-10-21.md`. Ce qui a marché (personas et revue adverse ont trouvé de vrais défauts ; la porte a bloqué trois fois à raison), ce qui a raté, daté (un merge avec `porte` en attente, d'où la règle §7bis de CLAUDE.md), et ce qui attend Cédric.
+
+## Règle de Cédric du 21/10, première application *(21/10)*
+
+`docs/DECISIONS.md`, « Règle de Cédric du 21/10 » : créer et modifier une fiche sans lui demander, quand une source publique la donne (Untappd pour les bières). Appliquée aux 22 brasseries nouvelles (`dep-45` 8, `dep-41` 1, `dep-18` 4, `dep-36` 2, `dep-28` 4, `s327-a-relancer` 3) : 370 fiches, 29 départements ; 14 points OSM devenus des fiches quittent la couche (866).
+
+## Règle de Cédric du 21/10, deuxième application *(21/10)*
+
+18 propositions appliquées : `s326` (1, 2, 3, 4, 6), `s309` (4), `s311` (3, 4, 8), `s314` (1, 2, 3, 5, 8, 10 ; les portables de Manev'Ale et de Chanaz, gardés par Cédric le 20/10), `s323` (2, 3, 4). Restent à Cédric : le déménagement d'Animus, La Valentinoise fermée, les déménagements de Paille et Vellavia, le portable de Cluny. Laissées : les notes périmées des fiches déjà fermées ou déménagées (PR #159).
+
+## Règle de Cédric étendue, troisième application *(21/10)*
+
+« tout oui, et ta règle couvre aussi ça » : la règle du 21/10 couvre désormais les déménagements, les fermetures et les portables (`docs/DECISIONS.md`). Appliqués : `s326` n° 5 (Animus à Grigny-sur-Rhône), `s323` n° 1 (Cluny, portable), 5 (La Valentinoise fermée), 6 (Paille à Lournand), 7 (Vellavia à Saint-Germain-Laprade), et `s338-plouc-fermee` (Plouc fermée, d'après le registre).
+

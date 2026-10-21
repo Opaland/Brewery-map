@@ -14,9 +14,10 @@ consultable hors connexion.
 
 ## Ce qu'elle fait
 
-- **Toute la France** : 348 fiches vérifiées dans 24 départements (01, 07,
-  14, 22, 26, 27, 29, 35, 37, 38, 42, 43, 44, 49, 50, 53, 56, 61, 69, 71, 72,
-  73, 76, 85), et 880 brasseries repérées sur OpenStreetMap ailleurs,
+- **Toute la France** : 370 fiches vérifiées dans 29 départements (01, 07,
+  14, 18, 22, 26, 27, 28, 29, 35, 36, 37, 38, 41, 42, 43, 44, 45, 49, 50, 53,
+  56, 61, 69, 71, 72, 73, 76, 85), et 866 brasseries repérées sur OpenStreetMap
+  ailleurs,
   affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
   les 34 968 communes de France ; les distances se comptent depuis là.
@@ -32,7 +33,7 @@ Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
 Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
-214 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
+212 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
 d'adresse vérifiée ; 36 brasseries de Normandie, 81 de Bretagne et 75 des Pays de la Loire et
 d'Indre-et-Loire sont ajoutées. Les autres
 propositions attendent sa relecture (`curation/`).
@@ -60,8 +61,8 @@ du fichier).
 
 - **Code** : licence MIT (`LICENSE`).
 - **Brasseries** (`data/breweries.json`) : fichier fourni par Cédric le
-  15/10/2026 ; chaque fiche cite sa source. Licence de réutilisation : **à
-  préciser par Cédric**.
+  15/10/2026 ; chaque fiche cite sa source. Licence de réutilisation :
+  **ODbL 1.0** (`data/LICENCE.md`), comme la couche OpenStreetMap.
 - **Communes** : Code officiel géographique de l'INSEE, via le paquet
   `@etalab/decoupage-administratif` 6.0.0 (données sous Licence Ouverte
   d'Etalab) ; leur point tiré de Wikidata (CC0). Fabriqué par
