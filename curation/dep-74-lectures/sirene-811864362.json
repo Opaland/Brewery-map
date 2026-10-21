@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:811864362",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Distillerie Veyrat",
+   "c": "Marcellaz-Albanais",
+   "d": "74",
+   "lat": 45.86622,
+   "lon": 5.9729,
+   "km": 96.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar-boutique sur place, où l'on achète et déguste ses produits, d'après son site ; pas d'horaires publiés.",
+   "addr": "210 impasse des Prés aux Biches, 74150 Marcellaz-Albanais",
+   "src": "https://www.brasserie-veyrat.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-veyrat.com",
+    "source": "https://www.brasserie-veyrat.com",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.brasserie-veyrat.com",
+   "https://data.geopf.fr/geocodage/search?q=210+impasse+des+Pr%C3%A9s+aux+Biches%2C+74150+Marcellaz-Albanais&limit=5"
+  ],
+  "extrait": "laissez-vous tenter par nos produits disponibles sur place à notre bar-boutique",
+  "choix": "Confiance moyenne : ni horaires ni détail. Le téléphone n'est que sur la fiche de l'office : écarté. Horaires de l'office non rattachés à leurs périodes : non repris. Une page Untappd existe, non citée par le site."
+ }
+}

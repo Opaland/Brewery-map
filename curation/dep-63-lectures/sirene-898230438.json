@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:898230438",
+ "ajout": {
+  "fiche": {
+   "n": "Dark Lab Brewing",
+   "c": "Saint-Ours",
+   "d": "63",
+   "lat": 45.82995,
+   "lon": 2.8953,
+   "km": 145.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brewpub (cinq à dix bières pression brassées sur place) et vente directe de canettes, d'après son site.",
+   "addr": "4 route de la Via Bore, 63230 Saint-Ours",
+   "src": "https://www.dark-lab.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 73 88 92 80",
+    "site": "https://www.dark-lab.fr/",
+    "source": "https://www.dark-lab.fr/nous-contacter",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.dark-lab.fr/",
+   "https://www.dark-lab.fr/nous-contacter",
+   "https://data.geopf.fr/geocodage/search?q=4+route+de+la+Via+Bore%2C+63230+Saint-Ours&limit=5"
+  ],
+  "extrait": "à découvrir dans notre brewpub proche de Clermont-Ferrand et Riom, ou en vente directe.",
+  "choix": "Le site décrit la consommation sur place et la vente : confiance solide. Téléphone de la page contact. Horaires de l'office sans heure de fermeture : non repris. Untappd existe (Dark_Lab), non cité sur la page contact."
+ }
+}

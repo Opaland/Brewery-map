@@ -14,10 +14,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 370 | 19 (5 %) | 42 | 166 | 154 | 223 | 274 | 267 | 213 |
+| **Total** | 407 | 19 (5 %) | 42 | 171 | 157 | 228 | 285 | 291 | 250 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
+| 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
+| 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
@@ -38,16 +40,18 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
 | 56 · Morbihan | 25 | 1 (4 %) | 0 | 13 | 9 | 11 | 22 | 18 | 14 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
+| 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 7 | 7 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
+| 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 
 ## Les « À confirmer » à chercher
 
-166 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+171 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -242,6 +246,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Château de la Bière (Lonlay-l'Abbaye) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie du Perche (L'Home-Chamondot) : sans adresse vérifiée, sans horaires, sans bières
 
+### 63 · Puy-de-Dôme
+
+- Brasserie des Montagnes (Gelles) : sans horaires, sans bières
+
 ### 69 · Rhône
 
 - Autour de la Bière (Chaussan) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -282,6 +290,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Caquot (Entrelacs) : sans adresse vérifiée, sans horaires
 - Brasserie Quardin (Chignin) : sans adresse vérifiée, sans horaires
 - La Barbue (La Ravoire) : sans adresse vérifiée, sans téléphone, sans horaires
+
+### 74 · Haute-Savoie
+
+- Big Mountain Brewing Company (Cluses) : sans téléphone, sans horaires, sans bières
+- Brasserie Bombardos (Annecy) : sans téléphone, sans horaires, sans bières
+- Brasserie Maelström (La Balme-de-Sillingy) : sans horaires, sans bières
+- Les Brasseurs Savoyards (Alby-sur-Chéran) : sans horaires, sans bières
 
 ### 76 · Seine-Maritime
 

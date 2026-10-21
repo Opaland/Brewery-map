@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:843021783",
+ "ajout": {
+  "fiche": {
+   "n": "Micro-brasserie K&G",
+   "c": "Mieussy",
+   "d": "74",
+   "lat": 46.13425,
+   "lon": 6.51946,
+   "km": 145.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie et pub (BrewPub) avec concerts, d'après son site ; horaires renvoyés aux réseaux sociaux.",
+   "addr": "596 route de la Montagne, 74440 Mieussy",
+   "src": "https://www.kg-brasserie.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 37 32 44 87",
+    "site": "https://www.kg-brasserie.com/",
+    "source": "https://www.kg-brasserie.com/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.kg-brasserie.com/",
+   "https://data.geopf.fr/geocodage/search?q=596+route+de+la+Montagne%2C+74440+Mieussy&limit=5"
+  ],
+  "extrait": "un pub (BrewPub) avec l'organisation de concert",
+  "choix": "Seule ligne publiée par le site : un portable, retenu ; le fixe des annuaires est écarté. Horaires contradictoires selon les sources : non repris."
+ }
+}

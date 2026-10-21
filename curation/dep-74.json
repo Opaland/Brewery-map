@@ -1,0 +1,955 @@
+{
+ "lot": "dep-74",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Micro Brasserie de Chamonix",
+    "c": "Chamonix-Mont-Blanc",
+    "d": "74",
+    "lat": 45.9274,
+    "lon": 6.87583,
+    "km": 166.8,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bières brassées sur place, et une invitation à venir boire des pintes, d'après une publication reprise sur son site.",
+    "addr": "350 route du Bouchet, 74400 Chamonix-Mont-Blanc",
+    "src": "https://www.mbchx.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 53 61 59",
+     "site": "https://www.mbchx.com",
+     "source": "https://www.mbchx.com/booking",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.mbchx.com",
+    "https://www.mbchx.com/booking",
+    "https://data.geopf.fr/geocodage/search?q=350+route+du+Bouchet%2C+74400+Chamonix-Mont-Blanc&limit=5"
+   ],
+   "extrait": "Come on down and enjoy a few pints and the best burgers in town",
+   "choix": "Confiance faible : la phrase vient d'une publication de réseau social non datée, affichée sur le site. Numéro des réservations, seul publié. Horaires non datés : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Maelström",
+    "c": "La Balme-de-Sillingy",
+    "d": "74",
+    "lat": 45.96917,
+    "lon": 6.0499,
+    "km": 105.6,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe, d'après son site ; ni le site ni l'office de tourisme ne disent si l'on peut y acheter ou y boire.",
+    "addr": "29 route de la Léchère, 74330 La Balme-de-Sillingy",
+    "src": "https://brasserie-maelstrom.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 40 66 28 03",
+     "site": "https://brasserie-maelstrom.com",
+     "source": "https://brasserie-maelstrom.com",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://brasserie-maelstrom.com",
+    "https://data.geopf.fr/geocodage/search?q=29+route+de+la+L%C3%A9ch%C3%A8re%2C+74330+La+Balme-de-Sillingy&limit=5"
+   ],
+   "extrait": "29 route de la Léchère 74330 La Balme de Sillingy",
+   "choix": "Catégorie 0 : rien sur la vente. Seule ligne publiée : un portable, retenu. Même lieu que le candidat « JM Brassage »."
+  },
+  {
+   "fiche": {
+    "n": "Ibex Brewery",
+    "c": "Montriond",
+    "d": "74",
+    "lat": 46.19708,
+    "lon": 6.69152,
+    "km": 160.7,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie de montagne dont le bar-restaurant The Wood Yard partage le bâtiment : on y boit la bière brassée sur place, d'après son site.",
+    "addr": "440 route du Pré, 74110 Montriond",
+    "src": "https://www.ibexbeer.com/the-wood-yard",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 45 22 15 93",
+     "site": "https://www.ibexbeer.com",
+     "source": "https://www.ibexbeer.com/the-wood-yard",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.ibexbeer.com/the-wood-yard",
+    "https://data.geopf.fr/geocodage/search?q=440+route+du+Pr%C3%A9%2C+74110+Montriond&limit=5"
+   ],
+   "extrait": "Sharing the building with our production brewery, The Wood Yard in Montriond is a relaxed place to enjoy a beer",
+   "choix": "Rattachée au candidat du registre par l'adresse seule ; le nom de la société n'est pas repris. Seule ligne publiée : un portable, retenu. Horaires renvoyés aux réseaux sociaux : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Vallée du Giffre",
+    "c": "Verchaix",
+    "d": "74",
+    "lat": 46.09172,
+    "lon": 6.6706,
+    "km": 155.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente sur place et boutique, d'après l'office de tourisme ; son site n'annonce que des dégustations de groupe sur demande.",
+    "addr": "331 ZA de l'Épure, 74440 Verchaix",
+    "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-de-la-vallee-du-giffre-verchaix-fr-5866478/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 89 16 63",
+     "site": "https://brasseriedugiffre.com/",
+     "source": "https://brasseriedugiffre.com/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://brasseriedugiffre.com/",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-de-la-vallee-du-giffre-verchaix-fr-5866478/",
+    "https://brasseriedugiffre.com/",
+    "https://data.geopf.fr/geocodage/search?q=331+ZA+de+l%27%C3%89pure%2C+74440+Verchaix&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Catégorie 2 : la dégustation ouverte à tous n'est pas établie. Horaires du site, sans période ; ceux de l'office (été 2026) sont écartés. Téléphone du site."
+  },
+  {
+   "fiche": {
+    "n": "Art Malté",
+    "c": "Annecy",
+    "d": "74",
+    "lat": 45.9196,
+    "lon": 6.12408,
+    "km": 109.6,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Cave et bar à bières artisanales, avec une petite fabrique, d'après l'office de tourisme (fiche ancienne) et son site.",
+    "addr": "1 boulevard Bellevue, 74000 Annecy",
+    "src": "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.artmalte.com",
+     "source": "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+    "https://data.geopf.fr/geocodage/search?q=1+boulevard+Bellevue%2C+74000+Annecy&limit=5"
+   ],
+   "extrait": "Une cave et un bar dédiés aux bières artisanales locales.",
+   "choix": "Confiance faible : la fiche de l'office date de 2018. Adresse de la cave et du bar lue sur le site (artmalte.com/contact), plutôt que le 7 de l'office. Horaires contradictoires selon les sources : non repris. Seul numéro : un portable donné par l'office, pas par la brasserie : écarté. Même lieu que le point OSM « La petite fabrique »."
+  },
+  {
+   "fiche": {
+    "n": "Bières du Faucigny",
+    "c": "Viuz-en-Sallaz",
+    "d": "74",
+    "lat": 46.16159,
+    "lon": 6.4036,
+    "km": 138.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie du mardi au vendredi en fin d'après-midi, d'après son site ; aucune dégustation citée.",
+    "addr": "Viuz-en-Sallaz",
+    "src": "https://www.bieres-du-faucigny.fr/horaires",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.bieres-du-faucigny.fr",
+     "source": "https://www.bieres-du-faucigny.fr/horaires",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "18:50"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "18:50"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "18:50"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "18:50"
+       ]
+      ],
+      "source": "https://www.bieres-du-faucigny.fr/horaires",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.bieres-du-faucigny.fr/horaires",
+    "https://data.geopf.fr/geocodage/search?q=Viuz-en-Sallaz&type=municipality&limit=5"
+   ],
+   "extrait": "Du Mardi au Vendredi : 16h00 | 18h50",
+   "choix": "Confiance moyenne : la page donne horaires et tarifs sans le mot « vente » près des horaires. Adresse non publiée : position au centre de la commune. Même brasserie que le point OSM de Peillonnex."
+  },
+  {
+   "fiche": {
+    "n": "Les Brasseurs Savoyards",
+    "c": "Alby-sur-Chéran",
+    "d": "74",
+    "lat": 45.82039,
+    "lon": 6.00443,
+    "km": 98.3,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe, d'après son site et sa page Untappd ; le site ne parle ni de boutique, ni de vente, ni d'horaires.",
+    "addr": "645 rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+    "src": "https://www.bs.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 22 91 62",
+     "site": "https://www.bs.fr",
+     "source": "https://www.bs.fr",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.bs.fr",
+    "https://data.geopf.fr/geocodage/search?q=645+rue+des+Champs+de+la+Pierre%2C+74540+Alby-sur-Ch%C3%A9ran&limit=5"
+   ],
+   "extrait": "645, rue des Champs de la Pierre 74540 ALBY-SUR-CHÉRAN",
+   "choix": "Catégorie 0 : seule l'office cite une boutique, sans vente décrite. Téléphone du site. Même lieu que le candidat « Mélanges des Alpes ». Une page Untappd existe, non citée par le site."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bombardos",
+    "c": "Annecy",
+    "d": "74",
+    "lat": 45.89847,
+    "lon": 6.11125,
+    "km": 108.1,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe, d'après son site et l'office de tourisme ; ni l'un ni l'autre ne dit si l'on achète à la brasserie.",
+    "addr": "9 ZA d'Aléry, impasse de la Futaie, 74960 Annecy",
+    "src": "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "http://www.bombardos.beer",
+     "source": "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+    "https://data.geopf.fr/geocodage/search?q=9+ZA+d%27Al%C3%A9ry%2C+impasse+de+la+Futaie%2C+74960+Annecy&limit=5"
+   ],
+   "extrait": "Deux spécialités : une blanche et une blonde en 50 cl",
+   "choix": "Catégorie 0 : « horaires variables, contactez-les » sans vente écrite. Aucun téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Rochoise",
+    "c": "Amancy",
+    "d": "74",
+    "lat": 46.0746,
+    "lon": 6.314,
+    "km": 128.7,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bières bio brassées sur place, avec un brewpub et une boutique de vente directe, d'après son site.",
+    "addr": "596 rue du Quarré, 74800 Amancy",
+    "src": "https://www.larochoise.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 07 57 78",
+     "site": "https://www.larochoise.com",
+     "source": "https://www.larochoise.com",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "11:30",
+        "15:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mar": [
+       [
+        "11:30",
+        "15:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "11:30",
+        "15:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "11:30",
+        "15:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "11:30",
+        "00:00"
+       ]
+      ],
+      "remarque": "Bar et restaurant (brewpub).",
+      "source": "https://www.larochoise.com",
+      "verifieLe": "2026-10-21"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "19:00"
+       ]
+      ],
+      "remarque": "Boutique.",
+      "source": "https://www.larochoise.com",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.larochoise.com",
+    "https://data.geopf.fr/geocodage/search?q=596+rue+du+Quarr%C3%A9%2C+74800+Amancy&limit=5"
+   ],
+   "extrait": "Un pub où l'on peut boire un coup, manger un burger",
+   "choix": "Horaires du bar et de la boutique lus sur le site ; le week-end du bar n'est pas indiqué. Une page Untappd au nom de « Pays Rochois » existe, non citée par le site."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Distillerie Veyrat",
+    "c": "Marcellaz-Albanais",
+    "d": "74",
+    "lat": 45.86622,
+    "lon": 5.9729,
+    "km": 96.9,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar-boutique sur place, où l'on achète et déguste ses produits, d'après son site ; pas d'horaires publiés.",
+    "addr": "210 impasse des Prés aux Biches, 74150 Marcellaz-Albanais",
+    "src": "https://www.brasserie-veyrat.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-veyrat.com",
+     "source": "https://www.brasserie-veyrat.com",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.brasserie-veyrat.com",
+    "https://data.geopf.fr/geocodage/search?q=210+impasse+des+Pr%C3%A9s+aux+Biches%2C+74150+Marcellaz-Albanais&limit=5"
+   ],
+   "extrait": "laissez-vous tenter par nos produits disponibles sur place à notre bar-boutique",
+   "choix": "Confiance moyenne : ni horaires ni détail. Le téléphone n'est que sur la fiche de l'office : écarté. Horaires de l'office non rattachés à leurs périodes : non repris. Une page Untappd existe, non citée par le site."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Adennes",
+    "c": "Saint-Julien-en-Genevois",
+    "d": "74",
+    "lat": 46.15133,
+    "lon": 6.08962,
+    "km": 116.1,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brewpub ouvert le jeudi et le vendredi soir, d’après son site ; il ne dit pas si l’on peut emporter.",
+    "addr": "33 avenue de Genève, 74160 Saint-Julien-en-Genevois",
+    "src": "https://brasserie-adennes.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 38 15 15",
+     "site": "https://brasserie-adennes.com",
+     "source": "https://brasserie-adennes.com",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "01:00"
+       ]
+      ],
+      "remarque": "Brewpub.",
+      "source": "https://brasserie-adennes.com",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://brasserie-adennes.com",
+    "https://data.geopf.fr/geocodage/search?q=33+avenue+de+Gen%C3%A8ve%2C+74160+Saint-Julien-en-Genevois&limit=5"
+   ],
+   "extrait": "Brewpub : Jeudi (16h-0h) & vendredi (16h à 1h)",
+   "choix": "Horaires du brewpub sur le site ; ceux de l'office (vendredi seul) le contredisent : le site est retenu. Le numéro suisse de l'office est écarté. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Big Mountain Brewing Company",
+    "c": "Cluses",
+    "d": "74",
+    "lat": 46.07769,
+    "lon": 6.5717,
+    "km": 147.6,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe, d'après son site et l'office de tourisme ; l'office dit qu'elle n'ouvre pas au public et qu'elle est ouverte toute l'année : ce qu'on peut y faire n'est pas établi.",
+    "addr": "32 rue du Docteur Gallet, 74300 Cluses",
+    "src": "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.bigmtnbrew.co/fr/",
+     "source": "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+    "https://data.geopf.fr/geocodage/search?q=32+rue+du+Docteur+Gallet%2C+74300+Cluses&limit=5"
+   ],
+   "extrait": "Les bières Big Mountain sont disponibles à l'achat sur internet et dans les supermarchés et restaurateurs locaux.",
+   "choix": "Catégorie 0 : source contradictoire. Le bar de Chamonix est un autre lieu. Aucun téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "Marmotte Beer",
+    "c": "Saint-Gervais-les-Bains",
+    "d": "74",
+    "lat": 45.89704,
+    "lon": 6.68753,
+    "km": 151.9,
+    "cat": 3,
+    "conf": "moyenne",
+    "note": "Microbrasserie de Saint-Gervais : elle n'est pas ouverte au public, d'après son site ; ses bières se trouvent chez des revendeurs de la vallée.",
+    "addr": "320 route de Vervex, 74170 Saint-Gervais-les-Bains",
+    "src": "https://www.marmotte-beer.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 82 81 27 10",
+     "site": "https://www.marmotte-beer.com",
+     "source": "https://www.marmotte-beer.com",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.marmotte-beer.com",
+    "https://data.geopf.fr/geocodage/search?q=320+route+de+Vervex%2C+74170+Saint-Gervais-les-Bains&limit=5"
+   ],
+   "extrait": "La brasserie n'est pas ouverte au public",
+   "choix": "Confiance moyenne : « pas ouverte au public » ne dit pas mot pour mot « aucune vente ». Seule ligne publiée : un portable, retenu. L'office dit « ouvert tous les jours », contre le site : aucun horaire."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie 744",
+    "c": "La Tour",
+    "d": "74",
+    "lat": 46.13046,
+    "lon": 6.40302,
+    "km": 137.3,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique et vente à la propriété, d'après l'office de tourisme ; la consommation sur place n'y est pas écrite.",
+    "addr": "620 route du Taney, 74250 La Tour",
+    "src": "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://labrasserie744.fr",
+     "source": "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+    "https://data.geopf.fr/geocodage/search?q=620+route+du+Taney%2C+74250+La+Tour&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Office de tourisme : confiance moyenne. Le site officiel écrit 705 route de Taney ; l'office et le registre, 620. Le portable de l'office n'est pas sur le site : écarté. Horaires sans objet précis : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Micro-brasserie K&G",
+    "c": "Mieussy",
+    "d": "74",
+    "lat": 46.13425,
+    "lon": 6.51946,
+    "km": 145.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie et pub (BrewPub) avec concerts, d'après son site ; horaires renvoyés aux réseaux sociaux.",
+    "addr": "596 route de la Montagne, 74440 Mieussy",
+    "src": "https://www.kg-brasserie.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 37 32 44 87",
+     "site": "https://www.kg-brasserie.com/",
+     "source": "https://www.kg-brasserie.com/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.kg-brasserie.com/",
+    "https://data.geopf.fr/geocodage/search?q=596+route+de+la+Montagne%2C+74440+Mieussy&limit=5"
+   ],
+   "extrait": "un pub (BrewPub) avec l'organisation de concert",
+   "choix": "Seule ligne publiée par le site : un portable, retenu ; le fixe des annuaires est écarté. Horaires contradictoires selon les sources : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Mont Salève",
+    "c": "Neydens",
+    "d": "74",
+    "lat": 46.12181,
+    "lon": 6.09295,
+    "km": 114.9,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente de bières en bouteilles sur place le vendredi après-midi, d'après l'office de tourisme ; rien ne dit qu'on y boit sur place.",
+    "addr": "151 rue du Jura, 74160 Neydens",
+    "src": "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 80 95 94 52",
+     "site": "http://www.labrasseriedumontsaleve.com/",
+     "source": "http://www.labrasseriedumontsaleve.com/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+    "http://www.labrasseriedumontsaleve.com/",
+    "https://data.geopf.fr/geocodage/search?q=151+rue+du+Jura%2C+74160+Neydens&limit=5"
+   ],
+   "extrait": "La brasserie vend sur place ses bières en bouteilles 33 et 75cl.",
+   "choix": "Office de tourisme : confiance moyenne. Horaires de l'office, en accord avec le site (« Pour les particuliers : vendredi de 16h à 18h »). Le créneau des professionnels et l'adresse de Feigères sont écartés. Téléphone du site. Une page Untappd existe, non citée par le site."
+  },
+  {
+   "fiche": {
+    "n": "Alchimie Brewery",
+    "c": "Faverges-Seythenex",
+    "d": "74",
+    "lat": 45.74648,
+    "lon": 6.29402,
+    "km": 119.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie, café et boutique au centre de Faverges : on y consomme sur place ou à emporter, d'après son site.",
+    "addr": "48 rue de la République, 74210 Faverges-Seythenex",
+    "src": "https://bierealchimie.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 50 51 87 62",
+     "site": "https://bierealchimie.fr",
+     "source": "https://bierealchimie.fr",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "source": "https://bierealchimie.fr",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://bierealchimie.fr",
+    "https://data.geopf.fr/geocodage/search?q=48+rue+de+la+R%C3%A9publique%2C+74210+Faverges-Seythenex&limit=5"
+   ],
+   "extrait": "que ce soit à emporter ou bien sur place, autour du comptoir,",
+   "choix": "Confiance moyenne : le site ne dit pas en toutes lettres que la bière brassée se vend à emporter. Horaires du site ; lundi et dimanche non publiés. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Bruant",
+    "c": "Burdignin",
+    "d": "74",
+    "lat": 46.24122,
+    "lon": 6.43799,
+    "km": 144.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie sur rendez-vous et au marché de Boëge le mardi matin, d'après l'office de tourisme ; aucune dégustation citée.",
+    "addr": "218 chemin de la Chapelle, 74420 Burdignin",
+    "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-bruant-burdignin-fr-5864820/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 04 41 21 99",
+     "site": "https://brasserie-bruant.fr",
+     "source": "https://brasserie-bruant.fr",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-bruant-burdignin-fr-5864820/",
+    "https://brasserie-bruant.fr",
+    "https://data.geopf.fr/geocodage/search?q=218+chemin+de+la+Chapelle%2C+74420+Burdignin&limit=5"
+   ],
+   "extrait": "Vente en directe à la brasserie sur RDV du lundi au samedi ainsi qu'au marché de Boëge le mardi matin.",
+   "choix": "Office de tourisme : confiance moyenne. Seule ligne publiée par la brasserie : un portable, retenu. Vente sur rendez-vous : aucun horaire."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Vardaf",
+    "c": "Bellevaux",
+    "d": "74",
+    "lat": 46.25014,
+    "lon": 6.54081,
+    "km": 152.2,
+    "cat": 3,
+    "conf": "solide",
+    "note": "Pas de vente sur place, faute de local ouvert au public, d'après son site ; ses bières se trouvent en points de vente, en livraison et sur des marchés.",
+    "addr": "245 chemin des Crettets, 74470 Bellevaux",
+    "src": "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://lavardaf.fr/",
+     "source": "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+    "https://data.geopf.fr/geocodage/search?q=245+chemin+des+Crettets%2C+74470+Bellevaux&limit=5"
+   ],
+   "extrait": "Pas de vente sur place mais bien d'autres moyens de se fournir !",
+   "choix": "Phrase explicite du site. Aucun téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Criou",
+    "c": "Verchaix",
+    "d": "74",
+    "lat": 46.09231,
+    "lon": 6.66892,
+    "km": 155.3,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar-boutique de la brasserie à Verchaix, où ses bières se dégustent et s'achètent, d'après l'office de tourisme ; la brasserie elle-même, à Taninges, ne reçoit pas. La brasserie est à Petit-Jutteninges, à Taninges.",
+    "addr": "447 rue de l'Épure, 74440 Verchaix",
+    "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-criou-verchaix-fr-5866594/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 76 68 15 12",
+     "site": "https://brasserieducriou.com",
+     "source": "https://brasserieducriou.com",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-criou-verchaix-fr-5866594/",
+    "https://brasserieducriou.com",
+    "https://data.geopf.fr/geocodage/search?q=447+rue+de+l%27%C3%89pure%2C+74440+Verchaix&limit=5"
+   ],
+   "extrait": "disponibles à la dégustation et à la vente",
+   "choix": "Office de tourisme : confiance moyenne. Deux portables publiés, aucun fixe : le premier est retenu. Horaires du site et de l'office contradictoires : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de l'Escargot",
+    "c": "Thyez",
+    "d": "74",
+    "lat": 46.07901,
+    "lon": 6.54209,
+    "km": 145.5,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Bières vendues à emporter ou livrées, d'après une fiche de l'office de tourisme de 2023 ; à confirmer auprès de la brasserie.",
+    "addr": "912 avenue Louis Coppel, 74300 Thyez",
+    "src": "https://www.haute-savoie-tourisme.org/index.php/5615265-brasserie-de-lescargot",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.haute-savoie-tourisme.org/index.php/5615265-brasserie-de-lescargot",
+    "https://data.geopf.fr/geocodage/search?q=912+avenue+Louis+Coppel%2C+74300+Thyez&limit=5"
+   ],
+   "extrait": "La Brasserie de l'escargot fabrique et vend des bières artisanales. En vente à emporter ou livraison, découvrez ses produits.",
+   "choix": "Confiance faible : une seule page, de 2023, sans site officiel ni Untappd. Rattachée au candidat du registre par l'adresse. Le seul numéro est un portable donné par l'office : écarté. Aucun horaire."
+  },
+  {
+   "fiche": {
+    "n": "Outer Range Brewing Alps",
+    "c": "Sallanches",
+    "d": "74",
+    "lat": 45.94334,
+    "lon": 6.62883,
+    "km": 148.3,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Taproom ouvert tous les jours, avec café et restaurant, d’après son site ; il ne dit pas si l’on peut emporter.",
+    "addr": "531 rue du Capitaine Bulle, 74700 Sallanches",
+    "src": "https://outerrangealps.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://outerrangealps.com/",
+     "source": "https://outerrangealps.com/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "mar": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "dim": [
+       [
+        "12:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Taproom. Café de 9 h à 18 h (10 h le week-end), restaurant de 12 h à 21 h 30.",
+      "source": "https://outerrangealps.com/",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://outerrangealps.com/",
+    "https://data.geopf.fr/geocodage/search?q=531+rue+du+Capitaine+Bulle%2C+74700+Sallanches&limit=5"
+   ],
+   "extrait": "Taproom: 12h-23h 7/7",
+   "choix": "Confiance moyenne : page non datée, vente à emporter non écrite. Aucun téléphone publié."
+  }
+ ]
+}

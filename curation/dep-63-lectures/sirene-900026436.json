@@ -1,0 +1,54 @@
+{
+ "candidat": "sirene:900026436",
+ "ajout": {
+  "fiche": {
+   "n": "Gaïa Bière du Sancy",
+   "c": "Picherande",
+   "d": "63",
+   "lat": 45.46459,
+   "lon": 2.77012,
+   "km": 156.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Dégustation et vente sur place, d'après l'office de tourisme du Sancy ; boutique ouverte le vendredi et le samedi après-midi, d'après son site.",
+   "addr": "Lieu dit Ravel, 63113 Picherande",
+   "src": "https://www.sancy.com/fr/fiche/degustation/gaia-biere-du-sancy-picherande_TFO4658151",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 73 21 17 24",
+    "site": "https://www.gaia-biere-du-sancy.fr/",
+    "source": "https://www.gaia-biere-du-sancy.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.gaia-biere-du-sancy.fr/",
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "remarque": "Pendant les congés scolaires, aussi le jeudi, de 15 h à 18 h 30. Visites sur réservation.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.sancy.com/fr/fiche/degustation/gaia-biere-du-sancy-picherande_TFO4658151",
+   "https://www.gaia-biere-du-sancy.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Picherande&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustation et vente sur place.",
+  "choix": "Catégorie 1, confiance moyenne : la dégustation vient de l'office de tourisme (décision #37). Un fixe publié sur le site, retenu. Horaires hors congés scolaires ; le jeudi des congés en remarque. À ne pas confondre avec la Brasserie du Sancy de Besse. Pas d'Untappd."
+ }
+}

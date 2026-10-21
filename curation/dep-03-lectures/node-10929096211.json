@@ -1,0 +1,33 @@
+{
+ "candidat": "node/10929096211",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Père Saint'Oy",
+   "c": "Diou",
+   "d": "03",
+   "lat": 46.53252,
+   "lon": 3.76824,
+   "km": 122,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Vente directe sur simple appel en semaine ; visite, dégustation et vente sur rendez-vous le samedi matin, l’été, d’après son site.",
+   "addr": "1 chemin du Cluziaud, 03290 Diou",
+   "src": "https://www.lasaintoy.fr/contact-1",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 24 55 89 61",
+    "site": "https://www.lasaintoy.fr/",
+    "source": "https://www.lasaintoy.fr/contact-1",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.lasaintoy.fr/contact-1",
+   "https://data.geopf.fr/geocodage/search?q=1+chemin+du+Cluziaud%2C+03290+Diou&limit=5"
+  ],
+  "extrait": "Visite, dégustation et vente sur RDV",
+  "choix": "Catégorie 1, confiance moyenne : la dégustation n'a lieu que sur rendez-vous. Deux portables publiés, aucun fixe : celui marqué « Administratif / vente » est retenu (règle du 21/10). Le samedi 10 h-12 h vaut en saison estivale, sans dates écrites : en remarque. Même entreprise que le candidat « 3.AS » (SIRET en pied de page du site). Pas d'Untappd trouvé. Aucun créneau repris : tout se fait sur appel ou sur rendez-vous (revue de la persona)."
+ }
+}

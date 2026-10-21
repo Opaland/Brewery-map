@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:840539456",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Jugement Dernier",
+   "c": "Mazerier",
+   "d": "03",
+   "lat": 46.13016,
+   "lon": 3.1927,
+   "km": 131,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique en semaine de 17 h à 19 h 30, sur SMS ; visite commentée le mercredi sur réservation, d’après son site. Aucune dégustation citée.",
+   "addr": "15 allée Madame de Sévigné, 03800 Mazerier",
+   "src": "https://jugementdernier.beer/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 77 76 17 03",
+    "site": "https://jugementdernier.beer/",
+    "source": "https://jugementdernier.beer/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://jugementdernier.beer/",
+   "https://data.geopf.fr/geocodage/search?q=15+all%C3%A9e+Madame+de+S%C3%A9vign%C3%A9%2C+03800+Mazerier&limit=5"
+  ],
+  "extrait": "Pour acheter nos bières, RDV à la brasserie.",
+  "choix": "Deux portables publiés, aucun fixe : le premier de la liste est retenu (règle du 21/10). Confiance moyenne : la boutique fonctionne sur SMS. L'office de tourisme donne 17 h-19 h au lieu de 17 h-19 h 30 : le site est retenu. Pas d'Untappd. Créneaux sur SMS : laissés dans la note, pas en horaires (revue de la persona)."
+ }
+}

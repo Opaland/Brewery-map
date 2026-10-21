@@ -1,0 +1,191 @@
+[
+ {
+  "cle": "sirene:989739982",
+  "nom": "BRASSERIE LUNASOL",
+  "communes": [
+   "CHAMPS-SUR-TARENTAINE-MARCHAL"
+  ],
+  "departement": "15",
+  "adresses": [
+   "2 PLACE DE L'EGLISE 15270 CHAMPS-SUR-TARENTAINE-MARCHAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989739982",
+  "sirets": [
+   "98973998200019"
+  ],
+  "osm": [],
+  "lat": 45.3947666691988,
+  "lon": 2.56052597531046,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909379182",
+  "nom": "BRASSERIE DES ESTIVES",
+  "communes": [
+   "ALLANCHE"
+  ],
+  "departement": "15",
+  "adresses": [
+   "9 RUE DE LA PIERRE GROSSE 15160 ALLANCHE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "909379182",
+  "sirets": [
+   "90937918200019"
+  ],
+  "osm": [
+   "node/13012188555"
+  ],
+  "lat": 45.225087265,
+  "lon": 2.9348882629,
+  "site": "https://brasseriedesestives.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:499160315",
+  "nom": "LA FLEURACOISE",
+  "communes": [
+   "YDES"
+  ],
+  "departement": "15",
+  "adresses": [
+   "30 FLEURAC 15210 YDES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "499160315",
+  "sirets": [
+   "49916031500010"
+  ],
+  "osm": [],
+  "lat": 45.350857083,
+  "lon": 2.4821170266,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "ALLY"
+  ],
+  "departement": "15",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SENEZERGUES"
+  ],
+  "departement": "15",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:833164270",
+  "nom": "ATELIERS 360",
+  "communes": [
+   "SAINT-MARTIN-VALMEROUX"
+  ],
+  "departement": "15",
+  "adresses": [
+   "Z.A.I. DES QUATRE ROUTES DE SALERS ESPACE D'ACTIVITES 360 DEGRES 15140 SAINT-MARTIN-VALMEROUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833164270",
+  "sirets": [
+   "83316427000013"
+  ],
+  "osm": [],
+  "lat": 45.130530313,
+  "lon": 2.4118627659,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "VIC-SUR-CERE"
+  ],
+  "departement": "15",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/12768455883",
+  "nom": "Les 3 caves",
+  "communes": [
+   "Arpajon-sur-Cère"
+  ],
+  "departement": "15",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12768455883"
+  ],
+  "lat": 44.91252,
+  "lon": 2.44389,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/927596016",
+  "nom": "Brasserie 360",
+  "communes": [
+   "Saint-Martin-Valmeroux"
+  ],
+  "departement": "15",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/927596016"
+  ],
+  "lat": 45.13055,
+  "lon": 2.41189,
+  "site": "https://www.brasserie360.fr",
+  "statut": "nouveau"
+ }
+]

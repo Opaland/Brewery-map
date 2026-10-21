@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:800321093",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs Savoyards",
+   "c": "Alby-sur-Chéran",
+   "d": "74",
+   "lat": 45.82039,
+   "lon": 6.00443,
+   "km": 98.3,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe, d'après son site et sa page Untappd ; le site ne parle ni de boutique, ni de vente, ni d'horaires.",
+   "addr": "645 rue des Champs de la Pierre, 74540 Alby-sur-Chéran",
+   "src": "https://www.bs.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 22 91 62",
+    "site": "https://www.bs.fr",
+    "source": "https://www.bs.fr",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.bs.fr",
+   "https://data.geopf.fr/geocodage/search?q=645+rue+des+Champs+de+la+Pierre%2C+74540+Alby-sur-Ch%C3%A9ran&limit=5"
+  ],
+  "extrait": "645, rue des Champs de la Pierre 74540 ALBY-SUR-CHÉRAN",
+  "choix": "Catégorie 0 : seule l'office cite une boutique, sans vente décrite. Téléphone du site. Même lieu que le candidat « Mélanges des Alpes ». Une page Untappd existe, non citée par le site."
+ }
+}

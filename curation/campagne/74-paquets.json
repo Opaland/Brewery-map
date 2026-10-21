@@ -1,0 +1,827 @@
+[
+ [
+  {
+   "cle": "sirene:851612275",
+   "enseigne": "BRASSERIE DU MONT SALEVE",
+   "dep": "74",
+   "communes": [
+    "NEYDENS",
+    "FEIGERES"
+   ],
+   "adresses": [
+    "151 RUE DU JURA 74160 NEYDENS",
+    "13 RUE DU JURA 74160 NEYDENS",
+    "271 ALLEE DES CHARBONNIERS 74160 FEIGERES"
+   ],
+   "osm": [
+    "way/78492082"
+   ],
+   "site": "http://www.labrasseriedumontsaleve.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884475328",
+   "enseigne": "ARPITAN",
+   "dep": "74",
+   "communes": [
+    "GROISY",
+    "ALLONZIER-LA-CAILLE"
+   ],
+   "adresses": [
+    "28 ALLEE DE LA FLEURETTE 74570 GROISY",
+    "16 RUE ZAE LES MOUILLES NORD 74570 GROISY",
+    "888 ROUTE DE LA CAILLE 74350 ALLONZIER-LA-CAILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:382726909",
+   "enseigne": "LUDELI",
+   "dep": "74",
+   "communes": [
+    "MEGEVE",
+    "SALLANCHES"
+   ],
+   "adresses": [
+    "CHALET LA COUCHIRE 108 IMPASSE DE LA BRIQUETTE 74120 MEGEVE",
+    "65 ROUTE DES VIBERTS 74700 SALLANCHES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:421312505",
+   "enseigne": "BRASSERIE DU MONT BLANC",
+   "dep": "74",
+   "communes": [
+    "LES HOUCHES"
+   ],
+   "adresses": [
+    "15 PLACE DE LA MAIRIE 74310 LES HOUCHES"
+   ],
+   "osm": [],
+   "statut": "homonyme"
+  },
+  {
+   "cle": "sirene:794865790",
+   "enseigne": "CAPSULE & CO",
+   "dep": "74",
+   "communes": [
+    "ANNECY",
+    "EPAGNY METZ-TESSY"
+   ],
+   "adresses": [
+    "1 BD BELLEVUE 74000 ANNECY",
+    "12 IMP DU BOIS 74330 EPAGNY METZ-TESSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:882749484",
+   "enseigne": "ALCHIMIE",
+   "dep": "74",
+   "communes": [
+    "FAVERGES-SEYTHENEX"
+   ],
+   "adresses": [
+    "48 RUE DE LA REPUBLIQUE 74210 FAVERGES-SEYTHENEX",
+    "212 ROUTE D'ALBERTVILLE 74210 FAVERGES-SEYTHENEX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:109973503",
+   "enseigne": "BRASSEUR MAELSTROM",
+   "dep": "74",
+   "communes": [
+    "SALLENOVES",
+    "LA BALME-DE-SILLINGY"
+   ],
+   "adresses": [
+    "31 ROUTE DE MARLIOZ 74270 SALLENOVES",
+    "29 ROUTE DE LA LECHERE 74330 LA BALME-DE-SILLINGY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:894560689",
+   "enseigne": "BRASSERIE DES ALPAGES",
+   "dep": "74",
+   "communes": [
+    "LES CONTAMINES MONTJOIE"
+   ],
+   "adresses": [
+    "PRE REVENAZ 74170 LES CONTAMINES MONTJOIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822990842",
+   "enseigne": "BRASSERIE DU BAIGNEUR",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "8 PAS DES PROVINS 74000 ANNECY",
+    "194 RTE DES VERNES 74000 ANNECY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:832884878",
+   "enseigne": "MARMOTTE BEER",
+   "dep": "74",
+   "communes": [
+    "SAINT-GERVAIS-LES-BAINS"
+   ],
+   "adresses": [
+    "320 ROUTE DE VERVEX 74170 SAINT-GERVAIS-LES-BAINS",
+    "14 CHEMIN DES PETUNIAS 74170 SAINT-GERVAIS-LES-BAINS"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:451198915",
+   "enseigne": "JUS DE RAISIN DISTRIBUTION",
+   "dep": "74",
+   "communes": [
+    "LUCINGES",
+    "CONTAMINE-SUR-ARVE"
+   ],
+   "adresses": [
+    "5 PLACE DE LA VIGNULE 74380 LUCINGES",
+    "96 ROUTE DE LOSSIEGE 74130 CONTAMINE-SUR-ARVE"
+   ],
+   "osm": [
+    "way/63593358"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:534936182",
+   "enseigne": "ALPINE HIGHS",
+   "dep": "74",
+   "communes": [
+    "MONTRIOND"
+   ],
+   "adresses": [
+    "C3 440 ROUTE DU PRE 74110 MONTRIOND",
+    "C3A 440 ROUTE DU PRE 74110 MONTRIOND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912845252",
+   "enseigne": "BRASSEURS ALPINS",
+   "dep": "74",
+   "communes": [
+    "EVIAN-LES-BAINS",
+    "MARIN"
+   ],
+   "adresses": [
+    "1 B AV D ABONDANCE 74500 EVIAN-LES-BAINS",
+    "117 CHEMIN DE ROGINE 74200 MARIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908970304",
+   "enseigne": "BRASSERIE DU CRIOU",
+   "dep": "74",
+   "communes": [
+    "TANINGES",
+    "VERCHAIX"
+   ],
+   "adresses": [
+    "252 ROUTE DU PETIT JUTTENINGES 74440 TANINGES",
+    "447 RUE DE L'EPURE 74440 VERCHAIX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884187899",
+   "enseigne": "BRASSERIE DES FIZ",
+   "dep": "74",
+   "communes": [
+    "PASSY"
+   ],
+   "adresses": [
+    "85 RUE DE CHARBONNIERE 74480 PASSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:803331958",
+   "enseigne": "BOMBARDOS",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "ZA D'ALERY - CRAN-GEVRIER 9 IMP DE LA FUTAIE 74000 ANNECY"
+   ],
+   "osm": [
+    "node/12384165644"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:799833181",
+   "enseigne": "BIERES DU FAUCIGNY",
+   "dep": "74",
+   "communes": [
+    "VIUZ-EN-SALLAZ"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE LES TATTES 805 RUE DE L'INDUSTRIE 74250 VIUZ-EN-SALLAZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899201289",
+   "enseigne": "BRASSERIE DU CAIRN",
+   "dep": "74",
+   "communes": [
+    "LOISIN"
+   ],
+   "adresses": [
+    "100 RUE DE LA MULE 74140 LOISIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910452077",
+   "enseigne": "OUTER RANGE ALPS",
+   "dep": "74",
+   "communes": [
+    "SALLANCHES"
+   ],
+   "adresses": [
+    "531 RUE DU CAPITAINE BULLE 74700 SALLANCHES"
+   ],
+   "osm": [
+    "node/797390082"
+   ],
+   "site": "https://outerrangealps.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830068185",
+   "enseigne": "BIG MOUNTAIN BREWING COMPANY",
+   "dep": "74",
+   "communes": [
+    "CLUSES"
+   ],
+   "adresses": [
+    "32 RUE DU DOCTEUR GALLET 74300 CLUSES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:833882533",
+   "enseigne": "MELANGES DES ALPES",
+   "dep": "74",
+   "communes": [
+    "ALBY-SUR-CHERAN"
+   ],
+   "adresses": [
+    "645 RUE DES CHAMPS DE LA PIERRE 74540 ALBY-SUR-CHERAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843021783",
+   "enseigne": "MICRO-BRASSERIE K&G",
+   "dep": "74",
+   "communes": [
+    "MIEUSSY"
+   ],
+   "adresses": [
+    "596 ROUTE DE LA MONTAGNE 74440 MIEUSSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891923880",
+   "enseigne": "CRAFTY BEER CLUB",
+   "dep": "74",
+   "communes": [
+    "MORILLON"
+   ],
+   "adresses": [
+    "705 ROUTE DES CHAMPS 74440 MORILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899535496",
+   "enseigne": "BRASSERIE LA VARDAF",
+   "dep": "74",
+   "communes": [
+    "BELLEVAUX"
+   ],
+   "adresses": [
+    "245 CHEMIN DES CRETTETS 74470 BELLEVAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:915297972",
+   "enseigne": "BRASSERIE ORANGE DUCK",
+   "dep": "74",
+   "communes": [
+    "CLUSES"
+   ],
+   "adresses": [
+    "28 AVENUE DE LA SARDAGNE 74300 CLUSES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:804199826",
+   "enseigne": "BRASSERIE LA ROCHOISE",
+   "dep": "74",
+   "communes": [
+    "AMANCY"
+   ],
+   "adresses": [
+    "ZI DES DRAGIEZ 596 RUE DU QUARRE 74800 AMANCY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813435435",
+   "enseigne": "ADENNES",
+   "dep": "74",
+   "communes": [
+    "SAINT-JULIEN-EN-GENEVOIS"
+   ],
+   "adresses": [
+    "33 AVENUE DE GENEVE 74160 SAINT-JULIEN-EN-GENEVOIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980774962",
+   "enseigne": "BRASSERIE DES VOIRONS",
+   "dep": "74",
+   "communes": [
+    "LUCINGES"
+   ],
+   "adresses": [
+    "5 PLACE DE LA VIGNULE 74380 LUCINGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839546140",
+   "enseigne": "IMBIBE",
+   "dep": "74",
+   "communes": [
+    "SAINT-GERVAIS-LES-BAINS"
+   ],
+   "adresses": [
+    "900 ROUTE DE MEGEVE 74170 SAINT-GERVAIS-LES-BAINS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "BRASSERIE DU FARFADET (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "74",
+   "communes": [
+    "CRUSEILLES"
+   ],
+   "adresses": [
+    "95 CHEMIN DES LIRONS 74350 CRUSEILLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:894860048",
+   "enseigne": "BRASSERIE DU BRUANT",
+   "dep": "74",
+   "communes": [
+    "BURDIGNIN"
+   ],
+   "adresses": [
+    "218 CHEMIN DE LA CHAPELLE 74420 BURDIGNIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:879618155",
+   "enseigne": "JM BRASSAGE",
+   "dep": "74",
+   "communes": [
+    "LA BALME-DE-SILLINGY"
+   ],
+   "adresses": [
+    "29 ROUTE DE LA LECHERE 74330 LA BALME-DE-SILLINGY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891423832",
+   "enseigne": "LA CINQUIEME FONTAINE",
+   "dep": "74",
+   "communes": [
+    "MARGENCEL"
+   ],
+   "adresses": [
+    "33 RUE DES FONTAINES 74200 MARGENCEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909718132",
+   "enseigne": "BIERES DE ALLOBROGES",
+   "dep": "74",
+   "communes": [
+    "THYEZ"
+   ],
+   "adresses": [
+    "912 AVENUE LOUIS COPPEL 74300 THYEZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:539596213",
+   "enseigne": "LA BRASSERIE DU GIFFRE",
+   "dep": "74",
+   "communes": [
+    "VERCHAIX"
+   ],
+   "adresses": [
+    "331 RUE DE L'EPURE 74440 VERCHAIX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:903731818",
+   "enseigne": "LA CHAUDRONNERIE",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "2 ALL DES MORILLES 74000 ANNECY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:800321093",
+   "enseigne": "LES BRASSEURS SAVOYARDS",
+   "dep": "74",
+   "communes": [
+    "ALBY-SUR-CHERAN"
+   ],
+   "adresses": [
+    "ZI DES CHAMPS DE LA PIERRE 74540 ALBY-SUR-CHERAN"
+   ],
+   "osm": [
+    "node/9248410706"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811015965",
+   "enseigne": "MAJC",
+   "dep": "74",
+   "communes": [
+    "SAINT-JORIOZ"
+   ],
+   "adresses": [
+    "ZAC DE LA TUILERIE 130 ROUTE DES MARAIS 74410 SAINT-JORIOZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811864362",
+   "enseigne": "BRASSERIE VEYRAT",
+   "dep": "74",
+   "communes": [
+    "MARCELLAZ-ALBANAIS"
+   ],
+   "adresses": [
+    "210 IMPASSE DES PRES AUX BICHES 74150 MARCELLAZ-ALBANAIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:842218315",
+   "enseigne": "BRASSERIE LA RINGALE",
+   "dep": "74",
+   "communes": [
+    "CERVENS"
+   ],
+   "adresses": [
+    "120 IMPASSE DES ARTISANS 74550 CERVENS"
+   ],
+   "osm": [
+    "way/823063300"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:839275344",
+   "enseigne": "LA BRASSERIE 744",
+   "dep": "74",
+   "communes": [
+    "LA TOUR"
+   ],
+   "adresses": [
+    "ZA DE TANEY 620 ROUTE DE TANEY 74250 LA TOUR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889872297",
+   "enseigne": "CHRIS BEER CONSULTING",
+   "dep": "74",
+   "communes": [
+    "SEYTROUX"
+   ],
+   "adresses": [
+    "441 ROUTE DES CHAMPS MARMO 74430 SEYTROUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912131125",
+   "enseigne": "LA MAM BRASSERIE",
+   "dep": "74",
+   "communes": [
+    "MARCELLAZ"
+   ],
+   "adresses": [
+    "415 ROUTE D'ARPIGNY 74250 MARCELLAZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934574609",
+   "enseigne": "BRASSERIE ALPS",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "ZAC DES ROMAINS - CRAN-GEVRIER 14 ROUTE DE LA SALLE 74960 ANNECY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923365761",
+   "enseigne": "BREWERS SOCIAL CLUB",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "4 AV DE MONTFLEURY 74000 ANNECY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:829054410",
+   "enseigne": "SMOKE HOUSE",
+   "dep": "74",
+   "communes": [
+    "LES HOUCHES"
+   ],
+   "adresses": [
+    "81 AVENUE DES ALPAGES 74310 LES HOUCHES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:500259270",
+   "enseigne": "BRASSERIE ARTISANALE DU LEMAN",
+   "dep": "74",
+   "communes": [
+    "ALLINGES"
+   ],
+   "adresses": [
+    "LIEUDIT LEYRIAT 670 ROUTE DES BLAVES 74200 ALLINGES"
+   ],
+   "osm": [
+    "node/8923062535"
+   ],
+   "site": "https://www.biere-leman.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:939556718",
+   "enseigne": "NATIV",
+   "dep": "74",
+   "communes": [
+    "DOMANCY"
+   ],
+   "adresses": [
+    "123 IMPASSE DES VERVEINES 74700 DOMANCY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/278074798",
+   "enseigne": "Micro Brasserie de Chamonix",
+   "dep": "74",
+   "communes": [
+    "Chamonix-Mont-Blanc"
+   ],
+   "adresses": [
+    "Route du Bouchet, 74400 Chamonix-Mont-Blanc"
+   ],
+   "osm": [
+    "node/278074798"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6166335749",
+   "enseigne": "La petite fabrique",
+   "dep": "74",
+   "communes": [
+    "Annecy"
+   ],
+   "adresses": [
+    "7 Boulevard Bellevue, 74000 Annecy"
+   ],
+   "osm": [
+    "node/6166335749"
+   ],
+   "site": "https://www.artmalte.com/",
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/6328825664",
+   "enseigne": "Le Bistrot des Quais",
+   "dep": "74",
+   "communes": [
+    "Sallanches"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6328825664"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/157667497",
+   "enseigne": "La p'tite ravine",
+   "dep": "74",
+   "communes": [
+    "Megève"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/157667497"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/158604347",
+   "enseigne": "Brasserie BE HERE Factory",
+   "dep": "74",
+   "communes": [
+    "Ville-la-Grand"
+   ],
+   "adresses": [
+    "20 Rue du Bois de la Rose, 74100 Ville-la-Grand"
+   ],
+   "osm": [
+    "way/158604347"
+   ],
+   "site": "https://www.be-here.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/246557753",
+   "enseigne": "Châlet d'Emilie",
+   "dep": "74",
+   "communes": [
+    "Combloux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/246557753"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/246557762",
+   "enseigne": "Le Postillon",
+   "dep": "74",
+   "communes": [
+    "Combloux"
+   ],
+   "adresses": [
+    "Combloux"
+   ],
+   "osm": [
+    "way/246557762"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/66975401",
+   "enseigne": "L'hexagone",
+   "dep": "74",
+   "communes": [
+    "Évian-les-Bains"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/66975401"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/798744550",
+   "enseigne": "Bières Du Faucigny",
+   "dep": "74",
+   "communes": [
+    "Peillonnex"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/798744550"
+   ],
+   "site": "https://www.bieres-du-faucigny.fr",
+   "statut": "ambigu"
+  }
+ ]
+]

@@ -1,0 +1,92 @@
+[
+ [
+  {
+   "cle": "sirene:989739982",
+   "enseigne": "BRASSERIE LUNASOL",
+   "dep": "15",
+   "communes": [
+    "CHAMPS-SUR-TARENTAINE-MARCHAL"
+   ],
+   "adresses": [
+    "2 PLACE DE L'EGLISE 15270 CHAMPS-SUR-TARENTAINE-MARCHAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909379182",
+   "enseigne": "BRASSERIE DES ESTIVES",
+   "dep": "15",
+   "communes": [
+    "ALLANCHE"
+   ],
+   "adresses": [
+    "9 RUE DE LA PIERRE GROSSE 15160 ALLANCHE"
+   ],
+   "osm": [
+    "node/13012188555"
+   ],
+   "site": "https://brasseriedesestives.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:499160315",
+   "enseigne": "LA FLEURACOISE",
+   "dep": "15",
+   "communes": [
+    "YDES"
+   ],
+   "adresses": [
+    "30 FLEURAC 15210 YDES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833164270",
+   "enseigne": "ATELIERS 360",
+   "dep": "15",
+   "communes": [
+    "SAINT-MARTIN-VALMEROUX"
+   ],
+   "adresses": [
+    "Z.A.I. DES QUATRE ROUTES DE SALERS ESPACE D'ACTIVITES 360 DEGRES 15140 SAINT-MARTIN-VALMEROUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12768455883",
+   "enseigne": "Les 3 caves",
+   "dep": "15",
+   "communes": [
+    "Arpajon-sur-Cère"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12768455883"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/927596016",
+   "enseigne": "Brasserie 360",
+   "dep": "15",
+   "communes": [
+    "Saint-Martin-Valmeroux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/927596016"
+   ],
+   "site": "https://www.brasserie360.fr",
+   "statut": "nouveau"
+  }
+ ]
+]

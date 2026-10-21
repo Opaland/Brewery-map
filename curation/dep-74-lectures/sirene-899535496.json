@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:899535496",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Vardaf",
+   "c": "Bellevaux",
+   "d": "74",
+   "lat": 46.25014,
+   "lon": 6.54081,
+   "km": 152.2,
+   "cat": 3,
+   "conf": "solide",
+   "note": "Pas de vente sur place, faute de local ouvert au public, d'après son site ; ses bières se trouvent en points de vente, en livraison et sur des marchés.",
+   "addr": "245 chemin des Crettets, 74470 Bellevaux",
+   "src": "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lavardaf.fr/",
+    "source": "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://lavardaf.fr/acheter-bieres-haute-savoie/",
+   "https://data.geopf.fr/geocodage/search?q=245+chemin+des+Crettets%2C+74470+Bellevaux&limit=5"
+  ],
+  "extrait": "Pas de vente sur place mais bien d'autres moyens de se fournir !",
+  "choix": "Phrase explicite du site. Aucun téléphone publié."
+ }
+}

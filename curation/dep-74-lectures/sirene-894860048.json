@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:894860048",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Bruant",
+   "c": "Burdignin",
+   "d": "74",
+   "lat": 46.24122,
+   "lon": 6.43799,
+   "km": 144.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie sur rendez-vous et au marché de Boëge le mardi matin, d'après l'office de tourisme ; aucune dégustation citée.",
+   "addr": "218 chemin de la Chapelle, 74420 Burdignin",
+   "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-bruant-burdignin-fr-5864820/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 04 41 21 99",
+    "site": "https://brasserie-bruant.fr",
+    "source": "https://brasserie-bruant.fr",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-bruant-burdignin-fr-5864820/",
+   "https://brasserie-bruant.fr",
+   "https://data.geopf.fr/geocodage/search?q=218+chemin+de+la+Chapelle%2C+74420+Burdignin&limit=5"
+  ],
+  "extrait": "Vente en directe à la brasserie sur RDV du lundi au samedi ainsi qu'au marché de Boëge le mardi matin.",
+  "choix": "Office de tourisme : confiance moyenne. Seule ligne publiée par la brasserie : un portable, retenu. Vente sur rendez-vous : aucun horaire."
+ }
+}

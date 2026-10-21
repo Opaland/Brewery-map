@@ -1,0 +1,92 @@
+{
+ "candidat": "sirene:898012034",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Sancy",
+   "c": "Besse-et-Saint-Anastaise",
+   "d": "63",
+   "lat": 45.50466,
+   "lon": 2.92087,
+   "km": 143.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio, boutique et vente à la propriété, visites sur rendez-vous, d'après l'office de tourisme du Sancy.",
+   "addr": "Rue de La Tour-d'Auvergne, 63610 Besse-et-Saint-Anastaise",
+   "src": "https://www.sancy.com/fr/fiche/degustation/brasserie-du-sancy-besse-et-saint-anastaise_TFO6022038/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 95 52 43 03",
+    "site": "https://brasserie-sancy.fr/",
+    "source": "https://brasserie-sancy.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.sancy.com/fr/fiche/degustation/brasserie-du-sancy-besse-et-saint-anastaise_TFO6022038/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Visites sur rendez-vous ; fermé les jours fériés.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.sancy.com/fr/fiche/degustation/brasserie-du-sancy-besse-et-saint-anastaise_TFO6022038/",
+   "https://brasserie-sancy.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Besse-et-Saint-Anastaise&type=municipality&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Office de tourisme : confiance moyenne. Seule ligne publiée par la brasserie : un portable, retenu. Horaires de l'office (2026-2027). Même lieu que le point OSM node/13810536073. À ne pas confondre avec Gaïa Bière du Sancy (Picherande)."
+ }
+}

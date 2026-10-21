@@ -1,0 +1,72 @@
+{
+ "candidat": "personne:1",
+ "ajout": {
+  "fiche": {
+   "n": "La Banne",
+   "c": "Murat-le-Quaire",
+   "d": "63",
+   "lat": 45.59903,
+   "lon": 2.73535,
+   "km": 157.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Micro-brasserie avec boutique et bar sur place, visites guidées sur réservation, d'après l'office de tourisme du Sancy et son site.",
+   "addr": "12 impasse de la Fumade, 63150 Murat-le-Quaire",
+   "src": "https://www.sancy.com/fr/fiche/degustation/micro-brasserie-la-banne-murat-le-quaire_TFO5929557",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 75 92 20 13",
+    "site": "https://www.brasserielabanne.fr/",
+    "source": "https://www.brasserielabanne.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserielabanne.fr/",
+     "mer": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "dim": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "remarque": "Hors vacances scolaires ; pendant les vacances, tous les jours de 15 h à 19 h 30. Visites et dégustations le mercredi et le jeudi de 11 h à 13 h, sur réservation.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.sancy.com/fr/fiche/degustation/micro-brasserie-la-banne-murat-le-quaire_TFO5929557",
+   "https://www.brasserielabanne.fr/",
+   "https://data.geopf.fr/geocodage/search?q=12+impasse+de+la+Fumade%2C+63150+Murat-le-Quaire&limit=5"
+  ],
+  "extrait": "dégustez nos produits (boutique et bar sur place)",
+  "choix": "Le bar vient de l'office : confiance moyenne. Seule ligne publiée : un portable, retenu. Horaires du site hors vacances ; les vacances en remarque. Entrepreneur individuel : aucun nom recopié."
+ }
+}

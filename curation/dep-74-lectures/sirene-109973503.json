@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:109973503",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Maelström",
+   "c": "La Balme-de-Sillingy",
+   "d": "74",
+   "lat": 45.96917,
+   "lon": 6.0499,
+   "km": 105.6,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe, d'après son site ; ni le site ni l'office de tourisme ne disent si l'on peut y acheter ou y boire.",
+   "addr": "29 route de la Léchère, 74330 La Balme-de-Sillingy",
+   "src": "https://brasserie-maelstrom.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 40 66 28 03",
+    "site": "https://brasserie-maelstrom.com",
+    "source": "https://brasserie-maelstrom.com",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserie-maelstrom.com",
+   "https://data.geopf.fr/geocodage/search?q=29+route+de+la+L%C3%A9ch%C3%A8re%2C+74330+La+Balme-de-Sillingy&limit=5"
+  ],
+  "extrait": "29 route de la Léchère 74330 La Balme de Sillingy",
+  "choix": "Catégorie 0 : rien sur la vente. Seule ligne publiée : un portable, retenu. Même lieu que le candidat « JM Brassage »."
+ }
+}

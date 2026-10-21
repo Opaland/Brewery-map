@@ -1,0 +1,33 @@
+{
+ "candidat": "node/13702345820",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Montagnes",
+   "c": "Gelles",
+   "d": "63",
+   "lat": 45.77614,
+   "lon": 2.75715,
+   "km": 155.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie bio de Gelles, d'après son site, qui ne dit rien de la vente ni de l'accueil.",
+   "addr": "1 chemin de rocher, 63740 Gelles",
+   "src": "https://www.brasseriedesmontagnes.fr/contactez-nous",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 70 42 08 94",
+    "site": "https://www.brasseriedesmontagnes.fr/",
+    "source": "https://www.brasseriedesmontagnes.fr/contactez-nous",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.brasseriedesmontagnes.fr/contactez-nous",
+   "https://data.geopf.fr/geocodage/search?q=1+chemin+de+rocher%2C+63740+Gelles&limit=5"
+  ],
+  "extrait": "1 chemin de rocher, GELLES, 63740, France",
+  "choix": "Catégorie 0 : aucun lieu de vente ni d'accueil décrit. Seule ligne publiée : un portable, retenu. Le registre la place « aux Quintins » ; le site, au 1 chemin de rocher : celle du site est retenue. Même brasserie que l'entreprise individuelle du registre (personne:2)."
+ }
+}

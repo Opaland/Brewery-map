@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:908623580",
+ "ajout": {
+  "fiche": {
+   "n": "Potinga",
+   "c": "Clermont-Ferrand",
+   "d": "63",
+   "lat": 45.78667,
+   "lon": 3.10706,
+   "km": 128.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brewpub de Clermont-Ferrand, d'après sa page Untappd ; pas de site officiel.",
+   "addr": "Clermont-Ferrand",
+   "src": "https://untappd.com/Potinga",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "untappd": "https://untappd.com/Potinga",
+    "source": "https://untappd.com/Potinga",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://untappd.com/Potinga",
+   "https://data.geopf.fr/geocodage/search?q=Clermont-Ferrand&type=municipality&limit=5"
+  ],
+  "extrait": "Brew Pub",
+  "choix": "Untappd vaut source de vérité pour l'existence (méthode du 19/10) ; « Brew Pub » dit qu'on y boit sur place, sans plus : confiance faible. Adresse lue sur un annuaire seulement : non retenue, position au centre de Clermont-Ferrand. Aucun téléphone publié."
+ }
+}

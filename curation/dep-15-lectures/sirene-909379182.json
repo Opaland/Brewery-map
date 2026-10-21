@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:909379182",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Estives",
+   "c": "Allanche",
+   "d": "15",
+   "lat": 45.22517,
+   "lon": 2.93448,
+   "km": 150.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Vente sur place, boutique et dégustation, d'après l'office de tourisme des Hautes Terres ; son site ne répond plus.",
+   "addr": "9 rue de la Pierre Grosse, 15160 Allanche",
+   "src": "https://www.hautesterrestourisme.fr/en/fiche/degustation/brasserie-des-estives-allanche_TFO4866030",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.hautesterrestourisme.fr/en/fiche/degustation/brasserie-des-estives-allanche_TFO4866030",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+de+la+Pierre+Grosse%2C+15160+Allanche&limit=5"
+  ],
+  "extrait": "Sales on site",
+  "choix": "Office de tourisme : confiance moyenne au plus. La fiche liste aussi « Product tasting » et « Shop ». Le seul numéro est donné par l'office, pas par la brasserie : non retenu. Site en 404. Pas d'Untappd."
+ }
+}

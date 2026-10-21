@@ -1,0 +1,34 @@
+{
+ "candidat": "node/278074798",
+ "ajout": {
+  "fiche": {
+   "n": "Micro Brasserie de Chamonix",
+   "c": "Chamonix-Mont-Blanc",
+   "d": "74",
+   "lat": 45.9274,
+   "lon": 6.87583,
+   "km": 166.8,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Bières brassées sur place, et une invitation à venir boire des pintes, d'après une publication reprise sur son site.",
+   "addr": "350 route du Bouchet, 74400 Chamonix-Mont-Blanc",
+   "src": "https://www.mbchx.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 53 61 59",
+    "site": "https://www.mbchx.com",
+    "source": "https://www.mbchx.com/booking",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.mbchx.com",
+   "https://www.mbchx.com/booking",
+   "https://data.geopf.fr/geocodage/search?q=350+route+du+Bouchet%2C+74400+Chamonix-Mont-Blanc&limit=5"
+  ],
+  "extrait": "Come on down and enjoy a few pints and the best burgers in town",
+  "choix": "Confiance faible : la phrase vient d'une publication de réseau social non datée, affichée sur le site. Numéro des réservations, seul publié. Horaires non datés : non repris."
+ }
+}

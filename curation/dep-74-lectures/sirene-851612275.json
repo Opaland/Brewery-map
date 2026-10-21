@@ -1,0 +1,47 @@
+{
+ "candidat": "sirene:851612275",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Mont Salève",
+   "c": "Neydens",
+   "d": "74",
+   "lat": 46.12181,
+   "lon": 6.09295,
+   "km": 114.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente de bières en bouteilles sur place le vendredi après-midi, d'après l'office de tourisme ; rien ne dit qu'on y boit sur place.",
+   "addr": "151 rue du Jura, 74160 Neydens",
+   "src": "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 80 95 94 52",
+    "site": "http://www.labrasseriedumontsaleve.com/",
+    "source": "http://www.labrasseriedumontsaleve.com/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+     "ven": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.haute-savoie-tourisme.org/commerces/producteurs-locaux/4639273-brasserie-du-mont-saleve",
+   "http://www.labrasseriedumontsaleve.com/",
+   "https://data.geopf.fr/geocodage/search?q=151+rue+du+Jura%2C+74160+Neydens&limit=5"
+  ],
+  "extrait": "La brasserie vend sur place ses bières en bouteilles 33 et 75cl.",
+  "choix": "Office de tourisme : confiance moyenne. Horaires de l'office, en accord avec le site (« Pour les particuliers : vendredi de 16h à 18h »). Le créneau des professionnels et l'adresse de Feigères sont écartés. Téléphone du site. Une page Untappd existe, non citée par le site."
+ }
+}
