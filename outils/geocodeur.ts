@@ -1,4 +1,3 @@
-import { execFileSync } from 'node:child_process'
 import { curlCompte } from './requetes'
 // La même constante que la règle des positions (`estUneRequeteDeCommune`) :
 // une seule écriture (S285).
@@ -11,7 +10,8 @@ export function geocoder(params: Record<string, string>): { url: string; reponse
     try {
       return { url, reponse: JSON.parse(curlCompte(url, ['-sS', '-f', '-m', '20'])) as unknown }
     } catch {
-      if (essai < 8) execFileSync('sleep', [String(2 * essai)])
+      // Une attente synchrone sans le `sleep` du système, absent de Windows (W5, S334).
+      if (essai < 8) Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 2000 * essai)
     }
   }
   throw new Error(`géocodeur injoignable : ${url}`)

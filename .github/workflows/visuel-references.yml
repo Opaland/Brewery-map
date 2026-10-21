@@ -22,15 +22,16 @@ permissions:
 jobs:
   captures:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     if: >-
       github.ref != 'refs/heads/main' &&
       (github.event_name == 'workflow_dispatch' ||
        contains(github.event.head_commit.message, '[références visuelles]'))
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
           cache: npm
@@ -48,7 +49,7 @@ jobs:
           CI: 'true'
           PW_VISUEL: '1'
       - name: Garder les captures
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: references-visuelles
           path: tests/e2e/visuel.spec.ts-snapshots/
@@ -57,12 +58,17 @@ jobs:
   commit:
     needs: captures
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Deux demandes rapprochées : la seconde attend, au lieu d'un push refusé (S334).
+    concurrency:
+      group: references-${{ github.ref }}
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Poser les captures reçues
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: references-visuelles
           path: tests/e2e/visuel.spec.ts-snapshots/
@@ -70,7 +76,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add tests/e2e/visuel.spec.ts-snapshots/
+          # Seulement des images : l'artefact vient du code de la branche (S334).
+          git add 'tests/e2e/visuel.spec.ts-snapshots/*.png'
           if git diff --cached --quiet; then
             echo 'Références inchangées.'
           else

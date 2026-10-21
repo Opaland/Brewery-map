@@ -1,0 +1,10 @@
+# S334 (revue globale du 19/10, C7) : les actions sont épinglées par leur
+# SHA ; Dependabot propose leurs mises à jour, une fois par mois. Chaque PR
+# attend la revue de Cédric (CODEOWNERS, /.github/).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3

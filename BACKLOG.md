@@ -45,6 +45,21 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Revue du 21/10 (S334)
+
+- **C10, la mutation hors du fichier de verrouillage** : Stryker est
+  installé par `npm install --no-save`. Le mettre dans `devDependencies`
+  imposerait `--legacy-peer-deps` à chaque `npm ci`. Une piste : un
+  `package.json` à part pour la mutation.
+- **Faux rouge possible de la sonde de version** (revue adverse S334) :
+  si un commit plus récent se déploie pendant les deux minutes de la sonde,
+  elle lit son empreinte et rougit. Elle ne peut jamais donner de faux vert.
+- **Dependabot pour npm ?** (relecteur de workflows S334) : aujourd'hui,
+  seul `npm audit` signale les failles, sans rien proposer. À décider par
+  Cédric : mensuel, groupé, sans les versions majeures ?
+- **Le rapport Playwright en échec** est un artefact gardé 7 jours ; il
+  contient des traces des e2e (positions factices seulement, §0).
+
 ## Revue du 21/10 (S333)
 
 - **Rattacher plutôt qu'effacer** les visites et notes d'une fiche

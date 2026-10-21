@@ -65,9 +65,8 @@ autre commune).
 
 ## Ce qui attend un agent
 
-- E31 à E35 (`docs/EPICS.md`), dans l'ordre : l'état (S329), ce que
-  l'écran dit de faux (S330, S331), les finitions d'écran (S332), le
-  stockage (S333), la CI et les outils (S334).
+- E31 à E35 sont faits le 21/10 (S329 à S334). La suite vient du BACKLOG,
+  dont les sections « Revue du 21/10 », et des réponses de Cédric.
 - Les fiches, par lots, une fois les lots en attente tranchés ; une PR de
   données à la fois (revue d'architecture, AR5).
 - Avant 600 fiches : S231 (un identifiant stable, décision de Cédric) et

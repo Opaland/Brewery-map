@@ -32,7 +32,7 @@
  *     a lu : si le lot a changé depuis, l'écriture est refusée (revue code
  *     S11).
  */
-import { closeSync, existsSync, mkdirSync, mkdtempSync, openSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { closeSync, existsSync, mkdirSync, mkdtempSync, openSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import {
@@ -66,6 +66,7 @@ import { execFileSync } from 'node:child_process'
 import { TSX_CLI } from './tsx'
 import { accordSchema, nomDAccord } from '../src/core/garde-donnees'
 import { fetchCompte } from './requetes'
+import { supprimerSync } from './supprimer'
 
 // `tsx` ne lit que le tsconfig.json de la racine, qui n'a pas d'options
 // (références de projets) : il compile les composants de l'aperçu (S300) en
@@ -262,7 +263,7 @@ function controlerEnSilence(chemin: string): string {
     }
     return readFileSync(fichier, 'utf8')
   } finally {
-    rmSync(dossier, { recursive: true, force: true })
+    supprimerSync(dossier)
   }
 }
 
