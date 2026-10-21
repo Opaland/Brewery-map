@@ -1161,6 +1161,9 @@ export function App({
         <p>
           {t('Distances à vol d’oiseau, depuis le point de chaque fiche. Sauf adresse vérifiée, ce point n’est pas l’adresse et peut en être à plusieurs kilomètres ; pour les fiches d’OpenStreetMap, c’est le point de la carte.')}
         </p>
+        <p data-testid="sources-fiches">
+          {t('Fiches vérifiées : Mousse de Poche, licence ODbL 1.0 ; chaque fiche cite sa source.')}
+        </p>
         <p data-testid="sources-osm">
           {t('Brasseries hors des fiches vérifiées :')} ©{' '}
           <a href="https://www.openstreetmap.org/copyright">{t('contributeurs OpenStreetMap')}</a>, {t('licence ODbL')}

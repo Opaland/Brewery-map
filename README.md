@@ -61,8 +61,8 @@ du fichier).
 
 - **Code** : licence MIT (`LICENSE`).
 - **Brasseries** (`data/breweries.json`) : fichier fourni par Cédric le
-  15/10/2026 ; chaque fiche cite sa source. Licence de réutilisation : **à
-  préciser par Cédric**.
+  15/10/2026 ; chaque fiche cite sa source. Licence de réutilisation :
+  **ODbL 1.0** (`data/LICENCE.md`), comme la couche OpenStreetMap.
 - **Communes** : Code officiel géographique de l'INSEE, via le paquet
   `@etalab/decoupage-administratif` 6.0.0 (données sous Licence Ouverte
   d'Etalab) ; leur point tiré de Wikidata (CC0). Fabriqué par

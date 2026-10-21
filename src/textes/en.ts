@@ -86,6 +86,7 @@ export const EN: Readonly<Record<string, string>> = {
   "licence ODbL": "ODbL licence",
   ", extrait du {date}": ", extract of {date}",
   "— repérées comme brasseries, rien d’autre n’est vérifié.": "— found as breweries, nothing else is checked.",
+  "Fiches vérifiées : Mousse de Poche, licence ODbL 1.0 ; chaque fiche cite sa source.": "Checked pages: Mousse de Poche, ODbL 1.0 licence; each page cites its source.",
   "Communes : Code officiel géographique de l’INSEE (Licence ouverte, via le paquet d’Etalab), points tirés de Wikidata (CC0).": "Towns: INSEE’s official geographic code (Open Licence, via Etalab’s package), points taken from Wikidata (CC0).",
   "L’abus d’alcool est dangereux pour la santé, à consommer avec modération.": "Alcohol abuse is dangerous for your health; drink in moderation.",
   "Une erreur sur une fiche ? Ouvrez-la dans la liste, puis « Signaler une erreur sur cette fiche ».": "A mistake on a page? Open it in the list, then “Report a mistake on this page”.",
