@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 370 | 19 (5 %) | 42 | 166 | 154 | 226 | 275 | 267 | 213 |
+| **Total** | 370 | 19 (5 %) | 42 | 166 | 154 | 223 | 274 | 267 | 213 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
@@ -30,7 +30,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 17 | 30 | 26 | 28 | 24 |
 | 41 · Loir-et-Cher | 1 | 0 (0 %) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
-| 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 7 | 6 | 7 | 6 |
+| 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 6 | 6 | 7 | 6 |
 | 44 · Loire-Atlantique | 32 | 3 (9 %) | 0 | 12 | 10 | 9 | 20 | 21 | 11 |
 | 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 8 | 6 | 8 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
@@ -38,8 +38,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
 | 56 · Morbihan | 25 | 1 (4 %) | 0 | 13 | 9 | 11 | 22 | 18 | 14 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
-| 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 31 | 32 | 33 | 33 |
-| 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 8 | 8 | 8 | 6 |
+| 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
+| 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 7 | 7 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
@@ -179,7 +179,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 43 · Haute-Loire
 
 - Brasserie Rohner (Le Mazet-Saint-Voy) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Vellavia (Polignac) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Vellavia (Saint-Germain-Laprade) : sans source, sans site, sans téléphone, sans horaires, sans bières
 - La Strol (Monistrol-sur-Loire) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
 ### 44 · Loire-Atlantique
@@ -257,18 +257,18 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Coldie Brewery (Lyon 7e) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Mozel'âne (Thizy-les-Bourgs) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Platypus Brewpub (Lyon 2e) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Animus (Vaugneray) : sans adresse vérifiée, sans téléphone, sans horaires
 - La Cadole (Villié-Morgon) : sans adresse vérifiée, sans téléphone, sans horaires
 - La Canute Lyonnaise (Pierre-Bénite) : sans adresse vérifiée, sans téléphone, sans horaires
+- Brasserie Animus (Grigny-sur-Rhône) : sans téléphone, sans horaires
 
 ### 71 · Saône-et-Loire
 
 - Brasserie des 2 Roches (Vergisson) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie La Couleuvre (Dompierre-les-Ormes) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie Paille (Château) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Paille (Lournand) : sans source, sans site, sans téléphone, sans horaires, sans bières
 - Terre de Possibles (Dompierre-les-Ormes) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Two Dudes (Tournus) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie de Cluny (Château) : sans adresse vérifiée, sans téléphone, sans horaires
+- Brasserie de Cluny (Château) : sans adresse vérifiée, sans horaires
 
 ### 72 · Sarthe
 

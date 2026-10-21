@@ -157,3 +157,11 @@ plus qu'on lui demande la permission pour une fiche.
 **Première application (21/10)** : les 22 brasseries nouvelles des lots
 `dep-45`, `dep-41`, `dep-18`, `dep-36`, `dep-28` et `s327-a-relancer`.
 
+**Étendue le 21/10.** À six questions (Animus à Grigny-sur-Rhône, La
+Valentinoise fermée, Paille à Lournand, Vellavia à Saint-Germain-Laprade,
+le portable de Cluny, Plouc fermée), Cédric répond : « tout oui, et ta règle
+couvre aussi ça ». Depuis, **la règle couvre aussi les déménagements, les
+statuts « fermée » et les numéros de portable** lus sur une source
+publique. Reste à lui : le **retrait** d'une fiche (non demandé), et une
+brasserie connue d'un annuaire seul (elle n'existe pas, méthode du 19/10).
+
