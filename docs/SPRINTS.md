@@ -2926,3 +2926,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S332 — Les finitions d'écran restées ouvertes *(21/10, epic E33)*
 
 `docs/stories/S332.md`. A20 (option active visible sans la couleur seule), A22 (`--espace-1` défini, tous les jetons tenus par un test), A23 (puces sans mot coupé à 320 px), A25 (l'annonce d'un geste ne s'affiche plus après un changement de critères), A27 (survols sous `(hover: hover)`, appui sans mise à l'échelle avec le mouvement réduit, style désactivé), A28 (`899.98px`), A31 (cases non écrasées), A32 (espaces insécables autour d'un nom). A26 au BACKLOG (question à Cédric).
+
+## S333 — Ce qu'on garde sur l'appareil, sans perte *(21/10, epic E34)*
+
+`docs/stories/S333.md`. A15 : deux onglets n'écrivent que ce qu'ils ont changé (`fusionnerReglages`). A16 : visites et notes orphelines dites et effaçables. A14 : la couche OSM tardive est prise, l'écran dit qu'elle arrive, et au-delà de 20 s qu'elle manque. A18 : l'empreinte du service worker suit le contenu des fichiers non hachés. A19 : `VersionError` donne l'écran « version plus récente ». A29 : l'invitation à installer est écoutée avant le premier rendu.

@@ -45,6 +45,12 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Revue du 21/10 (S333)
+
+- **Rattacher plutôt qu'effacer** les visites et notes d'une fiche
+  renommée (revue Bernard S333) : attend l'identifiant stable (S231).
+- **Une couche OSM qui a échoué** ne se réessaie qu'au rechargement.
+
 ## Revue du 21/10 (S332)
 
 - **A26, le carnet sans écran à lui** : question à Cédric, une case
