@@ -2955,3 +2955,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 « tout oui, et ta règle couvre aussi ça » : la règle du 21/10 couvre désormais les déménagements, les fermetures et les portables (`docs/DECISIONS.md`). Appliqués : `s326` n° 5 (Animus à Grigny-sur-Rhône), `s323` n° 1 (Cluny, portable), 5 (La Valentinoise fermée), 6 (Paille à Lournand), 7 (Vellavia à Saint-Germain-Laprade), et `s338-plouc-fermee` (Plouc fermée, d'après le registre).
 
+## S340 — L'outil de campagne départementale *(21/10, epic E36)*
+
+`docs/stories/S340.md`. `src/core/campagne.ts` (paquets sans nom de personne, compte rendu qui refuse un oubli), `outils/campagne.ts` (`preparer`, `rendre`, `appliquer`, qui enchaînent les outils existants) et le skill `campagne-departement`. Essayé sur les quatre départements de S341.
+
