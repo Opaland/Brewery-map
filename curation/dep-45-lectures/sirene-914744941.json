@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:914744941",
+ "ajout": {
+  "fiche": {
+   "n": "La Riole",
+   "c": "La Ferté-Saint-Aubin",
+   "d": "45",
+   "lat": 47.72403,
+   "lon": 1.92113,
+   "km": 314,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale dont le site propose bières en bouteilles, fûts et ateliers de dégustation ; ni adresse, ni lieu de vente, ni horaires publiés.",
+   "addr": "La Ferté-Saint-Aubin",
+   "src": "https://lariole.com",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://lariole.com",
+    "source": "https://lariole.com",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://lariole.com",
+   "https://data.geopf.fr/geocodage/search?q=La+Fert%C3%A9-Saint-Aubin&type=municipality&limit=5"
+  ],
+  "extrait": "Bières bouteilles, 33cl et 75cl",
+  "choix": "Catégorie 0 : le site ne dit pas si l'on peut acheter ou boire à la brasserie. Commune du registre (le site ne la donne pas) : position au centre de La Ferté-Saint-Aubin. Seul un portable est publié : écarté. Pas d'Untappd."
+ }
+}

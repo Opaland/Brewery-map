@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:910748714",
+ "ajout": {
+  "fiche": {
+   "n": "La Riff",
+   "c": "Saint-Pryvé-Saint-Mesmin",
+   "d": "45",
+   "lat": 47.8903,
+   "lon": 1.88247,
+   "km": 329.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site cite une vente directe à l'atelier, avec des afterworks ; pas de bar ni de dégustation décrits.",
+   "addr": "4 Impasse des Vignes, 45750 Saint-Pryvé-Saint-Mesmin",
+   "src": "https://www.la-riff.fr/hub/brasserie",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.la-riff.fr/",
+    "source": "https://www.la-riff.fr/hub/brasserie",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.la-riff.fr/hub/brasserie",
+   "https://data.geopf.fr/geocodage/search?q=4+Impasse+des+Vignes%2C+45750+Saint-Pryv%C3%A9-Saint-Mesmin&limit=5"
+  ],
+  "extrait": "Vente directe, afterworks et rendez-vous annoncés dans l’agenda.",
+  "choix": "Catégorie 2 : vente citée ; les afterworks ne disent pas ce qui s'y sert. Seul un portable est publié : écarté. Horaires non proposés : la page contact ne s'ouvre pas depuis le poste (404). Pas d'Untappd."
+ }
+}

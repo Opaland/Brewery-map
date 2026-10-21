@@ -1,0 +1,41 @@
+{
+ "candidat": "sirene:911862613",
+ "ajout": {
+  "fiche": {
+   "n": "Micro Brasserie Funk",
+   "c": "Bouglainval",
+   "d": "28",
+   "lat": 48.56618,
+   "lon": 1.50817,
+   "km": 404.5,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie est ouverte, sauf exceptions, le vendredi soir de 16 h à 20 h, avec visite et dégustation possibles sur place, d'après son site ; la vente à la brasserie n'y est pas écrite.",
+   "addr": "2 rue du Carcan, 28130 Bouglainval",
+   "src": "https://microbrasseriefunk.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://microbrasseriefunk.fr/contact/",
+     "ven": [
+      [
+       "16:00",
+       "20:00"
+      ]
+     ],
+     "remarque": "Ouverte, sauf exceptions, le vendredi soir. Visite sur rendez-vous possible.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://microbrasseriefunk.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+du+Carcan%2C+28130+Bouglainval&limit=5"
+  ],
+  "extrait": "La microbrasserie est ouverte, sauf exceptions, tous les vendredis soirs de 16h à 20h.",
+  "choix": "Catégorie 0 : la dégustation est écrite, pas la vente. Une catégorie 1 en confiance faible serait possible si tu juges que la dégustation ouverte le vendredi suffit. Seul un portable est publié : écarté."
+ }
+}

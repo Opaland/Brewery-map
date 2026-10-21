@@ -1,0 +1,77 @@
+{
+ "candidat": "node/12104447275",
+ "ajout": {
+  "fiche": {
+   "n": "Ouche Nanon",
+   "c": "Ourouer-les-Bourdelins",
+   "d": "18",
+   "lat": 46.93073,
+   "lon": 2.78388,
+   "km": 206,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Le site annonce sa boutique, 2 place du Marché, ouverte le mardi, le jeudi, le vendredi et le samedi matin ; visite de l'atelier avec dégustation, sur réservation.",
+   "addr": "2 Place du Marché, 18350 Ourouer-les-Bourdelins",
+   "src": "https://www.ouche-nanon.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "02 48 74 72 55",
+    "site": "https://www.ouche-nanon.fr/",
+    "source": "https://www.ouche-nanon.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.ouche-nanon.fr/",
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:30"
+      ]
+     ],
+     "remarque": "En dehors de ces créneaux, sur rendez-vous.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.ouche-nanon.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+Place+du+March%C3%A9%2C+18350+Ourouer-les-Bourdelins&limit=5"
+  ],
+  "extrait": "Nos produits sont vendus par les épiceries, cavistes et bars mais aussi bien sûr dans notre boutique 2 Place du Marché, Ourouer les Bourdelins.",
+  "choix": "Catégorie 2 : vente à la boutique ; la dégustation ne vient qu'au terme d'une visite réservée. Un fixe publié, retenu ; l'adresse électronique porte un nom de personne, non reprise. Pas d'Untappd."
+ }
+}

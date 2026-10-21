@@ -1,0 +1,350 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": "LA BRASSERIE DU LUMA",
+  "communes": [
+   "SASSIERGES-SAINT-GERMAIN",
+   "ARDENTES"
+  ],
+  "departement": "36",
+  "adresses": [
+   "3 RUE DE LA GARENNE 36120 SASSIERGES-SAINT-GERMAIN",
+   "43 B AVENUE DE VERDUN 36120 ARDENTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880026166",
+  "nom": "BEER'BERRY",
+  "communes": [
+   "DEOLS"
+  ],
+  "departement": "36",
+  "adresses": [
+   "35 RUE SYLVAIN REBRIOUX 36130 DEOLS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "880026166",
+  "sirets": [
+   "88002616600012"
+  ],
+  "osm": [
+   "node/9482244127"
+  ],
+  "lat": 46.841384565,
+  "lon": 1.705769665,
+  "site": "https://www.beerberry.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "ORSENNES"
+  ],
+  "departement": "36",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:949976674",
+  "nom": "SIKARU",
+  "communes": [
+   "ROUSSINES"
+  ],
+  "departement": "36",
+  "adresses": [
+   "11 LE MESLIER 36170 ROUSSINES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949976674",
+  "sirets": [
+   "94997667400018"
+  ],
+  "osm": [],
+  "lat": 46.453259402,
+  "lon": 1.3601826047,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "MEUNET-PLANCHES"
+  ],
+  "departement": "36",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:847604089",
+  "nom": "BRASSERIE LA PALISSE",
+  "communes": [
+   "NURET-LE-FERRON"
+  ],
+  "departement": "36",
+  "adresses": [
+   "4 PLACE DES MARRONNIERS 36800 NURET-LE-FERRON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "847604089",
+  "sirets": [
+   "84760408900015"
+  ],
+  "osm": [
+   "node/13810711759"
+  ],
+  "lat": 46.684182428,
+  "lon": 1.4327993448,
+  "site": "https://brasserielapalisse.jimdosite.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884708140",
+  "nom": "BRASSBEEZ",
+  "communes": [
+   "SAINT-MAUR"
+  ],
+  "departement": "36",
+  "adresses": [
+   "VILLERS LES ORMES 1 RUE DU TRAMWAY 36250 SAINT-MAUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884708140",
+  "sirets": [
+   "88470814000014"
+  ],
+  "osm": [],
+  "lat": 46.870125004,
+  "lon": 1.6318180004,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "VELLES"
+  ],
+  "departement": "36",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:481438703",
+  "nom": "SARL LES BIERES DE JEU",
+  "communes": [
+   "JEU-LES-BOIS"
+  ],
+  "departement": "36",
+  "adresses": [
+   "LA LANDE 36120 JEU-LES-BOIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "481438703",
+  "sirets": [
+   "48143870300011"
+  ],
+  "osm": [
+   "node/13283066413"
+  ],
+  "lat": 46.657761916,
+  "lon": 1.7726376711,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "POULIGNY-NOTRE-DAME"
+  ],
+  "departement": "36",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:900917253",
+  "nom": "L'ATELIER DE LA BIERE",
+  "communes": [
+   "CHATEAUROUX"
+  ],
+  "departement": "36",
+  "adresses": [
+   "1 PLACE NAPOLEON 36000 CHATEAUROUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "900917253",
+  "sirets": [
+   "90091725300016"
+  ],
+  "osm": [
+   "node/12869349456"
+  ],
+  "lat": 46.8110180362615,
+  "lon": 1.69396404476752,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12723793398",
+  "nom": "La Sagotte",
+  "communes": [
+   "Meunet-Planches"
+  ],
+  "departement": "36",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12723793398"
+  ],
+  "lat": 46.83297,
+  "lon": 1.98544,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12994962089",
+  "nom": "La Brasserie du Luma (Ardentes)",
+  "communes": [
+   "Ardentes"
+  ],
+  "departement": "36",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12994962089"
+  ],
+  "lat": 46.74294,
+  "lon": 1.8333,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13195863636",
+  "nom": "Brasserie au Pif",
+  "communes": [
+   "Pouligny-Notre-Dame"
+  ],
+  "departement": "36",
+  "adresses": [
+   "17 Route de Sainte-Sévère, Pouligny-Notre-Dame"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13195863636"
+  ],
+  "lat": 46.48908,
+  "lon": 2.0391,
+  "site": "https://www.facebook.com/61568628167999/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7218512348",
+  "nom": "La Brasserie du Luma (Pommiers)",
+  "communes": [
+   "Pommiers"
+  ],
+  "departement": "36",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7218512348"
+  ],
+  "lat": 46.53042,
+  "lon": 1.6923,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9022810890",
+  "nom": "Bière Porcupine",
+  "communes": [
+   "Bélâbre"
+  ],
+  "departement": "36",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9022810890"
+  ],
+  "lat": 46.56147,
+  "lon": 1.16579,
+  "site": "https://www.biereporcupine.com/",
+  "statut": "nouveau"
+ }
+]

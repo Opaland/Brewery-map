@@ -1,0 +1,32 @@
+{
+ "candidat": "node/4432511296",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Vauret",
+   "c": "Mardié",
+   "d": "45",
+   "lat": 47.92724,
+   "lon": 2.05371,
+   "km": 324,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site de la brasserie annonce une « Boutique & Bar » ouverte le jeudi et le vendredi après-midi, sans heures.",
+   "addr": "501 rue du Vauret, 45430 Mardié",
+   "src": "https://www.brasserieduvauret.fr/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserieduvauret.fr/",
+    "source": "https://www.brasserieduvauret.fr/contact",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.brasserieduvauret.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=501+rue+du+Vauret%2C+45430+Mardi%C3%A9&limit=5"
+  ],
+  "extrait": "Horaires Boutique & Bar : Jeudi et vendredi après midi",
+  "choix": "Catégorie 1 en confiance faible : un bar est nommé, sans dire ce qu'on y boit. « Jeudi et vendredi après midi » n'a pas d'heures : pas d'horaires (la page renvoie à Google). Seul un portable est publié : écarté."
+ }
+}

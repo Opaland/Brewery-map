@@ -1,0 +1,63 @@
+{
+ "candidat": "sirene:908814270",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale du Contrevent",
+   "c": "Brinon-sur-Sauldre",
+   "d": "18",
+   "lat": 47.55682,
+   "lon": 2.26259,
+   "km": 282.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site donne les horaires de la boutique de la brasserie et propose la visite ; il ne dit rien d'un bar ni d'une dégustation ouverte à tous.",
+   "addr": "14 route de Sainte-Montaine, 18410 Brinon-sur-Sauldre",
+   "src": "https://brasserieducontrevent.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserieducontrevent.com/",
+    "source": "https://brasserieducontrevent.com/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserieducontrevent.com/",
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserieducontrevent.com/",
+   "https://data.geopf.fr/geocodage/search?q=14+route+de+Sainte-Montaine%2C+18410+Brinon-sur-Sauldre&limit=5"
+  ],
+  "extrait": "le mardi, jeudi, vendredi et samedi de 14h00 à 18h00",
+  "choix": "Catégorie 2 : vente établie, aucune consommation sur place. Trois portables publiés : écartés. L'office de tourisme donne d'autres horaires (lundi, mardi 14 h-18 h, mercredi 14 h-20 h) : ceux du site sont retenus. Une page Untappd existe (Brasserie_du_Contrevent), mais le site ne la cite pas : non proposée."
+ }
+}

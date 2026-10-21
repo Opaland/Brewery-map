@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:937826782",
+ "ajout": {
+  "fiche": {
+   "n": "HopRock",
+   "c": "Chécy",
+   "d": "45",
+   "lat": 47.90262,
+   "lon": 2.00044,
+   "km": 324.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site accueille pour des visites et dégustations, et propose de commander en ligne puis de retirer à la brasserie.",
+   "addr": "75 Avenue d'Orléans, 45430 Chécy",
+   "src": "https://hoprock.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://hoprock.fr/",
+    "source": "https://hoprock.fr/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://hoprock.fr/",
+   "https://data.geopf.fr/geocodage/search?q=75+Avenue+d%27Orl%C3%A9ans%2C+45430+Ch%C3%A9cy&limit=5"
+  ],
+  "extrait": "Et bien sûr nous vous accueillons pour des visites et dégustations !",
+  "choix": "Catégorie 1, confiance moyenne : dégustation et retrait écrits, vente au comptoir non décrite. Aucun téléphone publié. Horaires (lundi, jeudi, vendredi 14 h 30-18 h 30) non proposés : la page ne dit pas s'ils valent pour l'accueil ou le retrait."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:920701646",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Four à Briques",
+   "c": "Saint-Pryvé-Saint-Mesmin",
+   "d": "45",
+   "lat": 47.89053,
+   "lon": 1.87595,
+   "km": 329.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site propose la visite et la dégustation des bières sur place, au Beer Garden en plein air ; il ne cite ni vente, ni horaires.",
+   "addr": "30 Rue du Vieux Bourg, 45750 Saint-Pryvé-Saint-Mesmin",
+   "src": "https://labrasseriedufourabriques.com/nos-services/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labrasseriedufourabriques.com/",
+    "source": "https://labrasseriedufourabriques.com/nos-services/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://labrasseriedufourabriques.com/nos-services/",
+   "https://data.geopf.fr/geocodage/search?q=30+Rue+du+Vieux+Bourg%2C+45750+Saint-Pryv%C3%A9-Saint-Mesmin&limit=5"
+  ],
+  "extrait": "Découvrez notre brasserie et goûtez nos bières artisanales directement sur place au Beer Garden pour une dégustation conviviale en plein air.",
+  "choix": "Catégorie 1, confiance moyenne : la consommation sur place est écrite, pas la vente. L'adresse est celle que le site donne pour le siège, sans dire que le Beer Garden s'y trouve. Seul un portable est publié : écarté. Aucun horaire."
+ }
+}

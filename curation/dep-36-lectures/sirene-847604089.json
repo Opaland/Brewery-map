@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:847604089",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Palisse",
+   "c": "Nuret-le-Ferron",
+   "d": "36",
+   "lat": 46.68414,
+   "lon": 1.44641,
+   "km": 278.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale bio ; vente sur place sur rendez-vous par téléphone, visite sur réservation, d'après la fiche du Parc naturel régional de la Brenne.",
+   "addr": "Place des Marronniers, 36800 Nuret-le-Ferron",
+   "src": "https://www.parc-naturel-brenne.fr/sejournez/produits-locaux/producteurs-fermiers/autres-productions/brasserie-la-palisse-207",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserielapalisse.jimdosite.com/",
+    "source": "https://www.parc-naturel-brenne.fr/sejournez/produits-locaux/producteurs-fermiers/autres-productions/brasserie-la-palisse-207",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.parc-naturel-brenne.fr/sejournez/produits-locaux/producteurs-fermiers/autres-productions/brasserie-la-palisse-207",
+   "https://data.geopf.fr/geocodage/search?q=Nuret-le-Ferron&type=municipality&limit=5"
+  ],
+  "extrait": "Vente sur place sur rendez-vous par tél.",
+  "choix": "Source institutionnelle (Parc naturel régional), confiance moyenne au plus. Catégorie 2 : vente seule, sur rendez-vous. Téléphones non retenus : un portable, et un 02 qui sert à réserver les visites (sans doute l'office de tourisme). Adresse sans numéro, telle que la page la donne (le registre dit 4)."
+ }
+}

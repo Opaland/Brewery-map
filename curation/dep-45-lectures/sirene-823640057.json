@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:823640057",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie des Écluses",
+   "c": "Saint-Hilaire-Saint-Mesmin",
+   "d": "45",
+   "lat": 47.86517,
+   "lon": 1.83424,
+   "km": 329.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe et publie son site : elle commercialise ses bières localement ; il ne dit pas qu'on peut y acheter ou boire sur place.",
+   "addr": "935 route d'Orléans, 45160 Saint-Hilaire-Saint-Mesmin",
+   "src": "https://labrasseriedesecluses.fr/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labrasseriedesecluses.fr/",
+    "source": "https://labrasseriedesecluses.fr/contact",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://labrasseriedesecluses.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=935+route+d%27Orl%C3%A9ans%2C+45160+Saint-Hilaire-Saint-Mesmin&limit=5"
+  ],
+  "extrait": "La brasserie des Ecluses confectionne et commercialise ses bières localement.",
+  "choix": "Catégorie 0 : aucune phrase ne dit « vente sur place » ou « bar » ; le « Shop » est une boutique en ligne. Des jours d'ouverture (mardi, jeudi, vendredi, 10 h-18 h) sans dire s'ils valent pour la vente ou l'accueil : non proposés. Deux portables : écartés. Même brasserie que le point OSM node/7218292289. L'office de tourisme donne une autre adresse (80 route d'Olivet) ; celle du site et du registre est retenue."
+ }
+}

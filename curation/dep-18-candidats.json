@@ -1,0 +1,409 @@
+[
+ {
+  "cle": "sirene:881532600",
+  "nom": "MA PETITE FRANCAISE",
+  "communes": [
+   "SURY-EN-VAUX"
+  ],
+  "departement": "18",
+  "adresses": [
+   "15 RUE DE LA FONTAINE MASSON 18300 SURY-EN-VAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881532600",
+  "sirets": [
+   "88153260000015"
+  ],
+  "osm": [],
+  "lat": 47.374054893,
+  "lon": 2.7933054146,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892093287",
+  "nom": "LE PRESS'BITTER",
+  "communes": [
+   "DAMPIERRE-EN-CROT"
+  ],
+  "departement": "18",
+  "adresses": [
+   "8 RUE PRINCIPALE 18260 DAMPIERRE-EN-CROT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892093287",
+  "sirets": [
+   "89209328700019"
+  ],
+  "osm": [],
+  "lat": 47.4606171091976,
+  "lon": 2.58385723802093,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908814270",
+  "nom": "BRASSERIE ARTISANALE DU CONTREVENT",
+  "communes": [
+   "BRINON-SUR-SAULDRE"
+  ],
+  "departement": "18",
+  "adresses": [
+   "ZA LES POINTA 14 ROUTE DE SAINTE MONTAINE 18410 BRINON-SUR-SAULDRE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "908814270",
+  "sirets": [
+   "90881427000025"
+  ],
+  "osm": [
+   "way/203703300"
+  ],
+  "lat": 47.556821019,
+  "lon": 2.2625900517,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MEHUN-SUR-YEVRE"
+  ],
+  "departement": "18",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/13716199411"
+  ],
+  "site": "https://www.facebook.com/61565728241745/",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:910847136",
+  "nom": "INSA'BRASSE",
+  "communes": [
+   "BOURGES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "88 BOULEVARD LAHITOLLE 18000 BOURGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910847136",
+  "sirets": [
+   "91084713600017"
+  ],
+  "osm": [],
+  "lat": 47.0820069864888,
+  "lon": 2.41562475782748,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818533143",
+  "nom": "BRASSERIE DE L'ARNON",
+  "communes": [
+   "LOYE-SUR-ARNON"
+  ],
+  "departement": "18",
+  "adresses": [
+   "7 RUE DU PONT ROMAIN 18170 LOYE-SUR-ARNON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818533143",
+  "sirets": [
+   "81853314300017"
+  ],
+  "osm": [
+   "way/1472195010"
+  ],
+  "lat": 46.65349624,
+  "lon": 2.3856234003,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838116366",
+  "nom": "PRESSION SOCIALE",
+  "communes": [
+   "MOROGUES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "6 GRANDE RUE 18220 MOROGUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838116366",
+  "sirets": [
+   "83811636600017"
+  ],
+  "osm": [],
+  "lat": 47.241102584,
+  "lon": 2.5977715843,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:421911512",
+  "nom": "BRASSERIE DU BERRY",
+  "communes": [
+   "BOURGES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "3 AVENUE HENRI LAUDIER 18000 BOURGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "421911512",
+  "sirets": [
+   "42191151200018"
+  ],
+  "osm": [],
+  "lat": 47.091252909,
+  "lon": 2.3926685221,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891407488",
+  "nom": "LA CILLYOTTE",
+  "communes": [
+   "DUN-SUR-AURON"
+  ],
+  "departement": "18",
+  "adresses": [
+   "ZA CHAMPS DE LICE 14 RUE OCTAVE CASSONNET 18130 DUN-SUR-AURON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891407488",
+  "sirets": [
+   "89140748800032"
+  ],
+  "osm": [],
+  "lat": 46.8849505245158,
+  "lon": 2.57189589063728,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:941158552",
+  "nom": "BRASSERIE DE CHERWOOD",
+  "communes": [
+   "ENNORDRES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "LA HUAUDIERE 3506 ROUTE DE BOURGES 18380 ENNORDRES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941158552",
+  "sirets": [
+   "94115855200013"
+  ],
+  "osm": [],
+  "lat": 47.4192880045402,
+  "lon": 2.43485395266116,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:519746804",
+  "nom": "BRASSERIE BOS",
+  "communes": [
+   "BOURGES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "11 ALLEE NAPOLEON III 18000 BOURGES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "519746804",
+  "sirets": [
+   "51974680400037"
+  ],
+  "osm": [
+   "node/4374265179"
+  ],
+  "lat": 47.0755911742626,
+  "lon": 2.42081431535784,
+  "site": "https://www.brasserie-bos.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:991436940",
+  "nom": "EUL' BERRY BRASSE",
+  "communes": [
+   "BOURGES"
+  ],
+  "departement": "18",
+  "adresses": [
+   "6 52 RUE DE VAUVERT 18000 BOURGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "991436940",
+  "sirets": [
+   "99143694000019"
+  ],
+  "osm": [],
+  "lat": 47.0816387717972,
+  "lon": 2.38133685220887,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:421495870",
+  "nom": "BRASSERIE DU SOLLIER",
+  "communes": [
+   "LE SUBDRAY"
+  ],
+  "departement": "18",
+  "adresses": [
+   "LD LE TRONCAY 18570 LE SUBDRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "421495870",
+  "sirets": [
+   "42149587000022"
+  ],
+  "osm": [],
+  "lat": 46.992674919,
+  "lon": 2.3045669844,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "QUANTILLY"
+  ],
+  "departement": "18",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE DE L'YEVRE",
+  "communes": [
+   "ALLOUIS"
+  ],
+  "departement": "18",
+  "adresses": [
+   "ZONE D'ACTIVITE DES TERRES DE L'ORME LES TERRES BLANCHES 18500 ALLOUIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE DES STUARTS",
+  "communes": [
+   "AUBIGNY-SUR-NERE"
+  ],
+  "departement": "18",
+  "adresses": [
+   "25 RUE CAMBOURNAC 18700 AUBIGNY-SUR-NERE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/13997118972"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12104447275",
+  "nom": "Ouche Nanon",
+  "communes": [
+   "Ourouer-les-Bourdelins"
+  ],
+  "departement": "18",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12104447275"
+  ],
+  "lat": 46.93079,
+  "lon": 2.78389,
+  "site": "https://www.ouche-nanon.fr/",
+  "statut": "ambigu",
+  "fiche": "Brasserie de l'Ouche"
+ },
+ {
+  "cle": "node/13136838136",
+  "nom": "Brasserie artisanale de l'Atelier 235",
+  "communes": [
+   "Lignières"
+  ],
+  "departement": "18",
+  "adresses": [
+   "33 Rue Maréchal Joffre, 18160 Lignières"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13136838136"
+  ],
+  "lat": 46.74984,
+  "lon": 2.17384,
+  "statut": "nouveau"
+ }
+]
