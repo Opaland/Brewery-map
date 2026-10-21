@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'c3abbc96adf3a5fa',
+  empreinte: 'eab5778b05cb8706',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 214 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 212 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 214 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Centre-Val de Loire.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,12 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-21', texte: 'Deux brasseries de plus marquées fermées, La Valentinoise et Plouc, d’après l’annuaire officiel des entreprises ; trois brasseries qui ont déménagé sont à leur nouvelle adresse : Animus à Grigny-sur-Rhône, Paille à Lournand, Vellavia à Saint-Germain-Laprade.' },
+  { date: '2026-10-21', texte: '11 brasseries gagnent une adresse, un téléphone, un site, des horaires ou des bières, lus sur leur site ou une page publique : la Divatte (bar et boutique, horaires, huit bières), Trip-Hop, Nomade Brewery, Grésiv’ale, Kan Mêm, La Couleuvre, Chartreuse, Manev’Ale, la Brasserie de Chanaz, RUN’HARD et 3B ; 7 autres, une note sur ce que disent leurs sources.' },
+  { date: '2026-10-21', texte: '22 brasseries ajoutées : 19 dans le Loiret, le Loir-et-Cher, le Cher, l’Indre et l’Eure-et-Loir, et 3 en Bretagne et en Touraine, d’après leur site, un office de tourisme ou Untappd.' },
+  { date: '2026-10-20', texte: "Sept brasseries que l’annuaire officiel des entreprises dit cessées sont marquées fermées ; trois brasseries qui ont déménagé sont à leur nouvelle adresse : La Gaudine à Marlhes, les Croqueurs de Lune à Serrières-en-Chautagne, Biercors à Villard-de-Lans." },
+  { date: '2026-10-20', texte: "Adresses ajoutées à 5 brasseries autour de Lyon (Ninkasi Brignais, Ninkasi Saint-Étienne, Malting Pot, L’Affoleuse, Brasserie de l’Ours Barbu), lues sur leur propre site ; téléphone et horaires pour Ninkasi Brignais." },
+  { date: '2026-10-20', texte: "La fiche dit une fois ce qu’elle ne sait pas encore, avec où le chercher, au lieu de le répéter dans chaque partie ; d’où vient chaque information tient en une phrase." },
   { date: '2026-10-19', texte: 'Les jours fériés : un 15 août ou une Toussaint, la fiche ne dit plus « ouvert » d’après des horaires ordinaires, mais « sous réserve », en nommant le jour.' },
   { date: '2026-10-19', texte: 'Le filtre « Ouvertes ce week-end », d’après les horaires publiés ; il dit combien de brasseries il peut juger.' },
   { date: '2026-10-19', texte: 'Un favori absent de la liste dit pourquoi : trop loin, catégorie décochée, déjà visitée…' },

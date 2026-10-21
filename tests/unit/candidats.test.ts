@@ -37,6 +37,11 @@ const point = (c: Partial<CandidatOsm> & Pick<CandidatOsm, 'osm' | 'nom'>): Cand
   ...c,
 })
 
+// Ce qu'une ligne réelle a lu ailleurs (date, contact, horaires) : une fiche nouvelle
+// ne le porte pas, sinon la règle des sources la refuse (vu le 20/10 : la première
+// ligne du fichier a reçu des horaires).
+const LUS_AILLEURS = new Set(['verifieLe', 'contact', 'horaires'])
+
 describe('candidatsDuDepartement (S246)', () => {
   it('CA1 : SIRENE et OSM, même commune, même cœur de nom → un seul candidat, deux sources', () => {
     const c = candidatsDuDepartement(
@@ -138,7 +143,7 @@ describe('assemblerLot (S246)', () => {
     // qui exige sa requête de commune (S269).
     const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
     const fiche = Object.fromEntries(
-      Object.entries({ ...ligne, n: 'Brasserie de test S246' }).filter(([k]) => k !== 'verifieLe'),
+      Object.entries({ ...ligne, n: 'Brasserie de test S246' }).filter(([k]) => !LUS_AILLEURS.has(k)),
     )
     const ajout = { fiche, verifieLe: '2026-10-17', sources: ['https://exemple.fr/'], extrait: 'Lu sur la page.' }
     const { lot, refus } = assemblerLot('dep-50', [{ candidat: 'node/1', ajout }], { cles: ['node/1'], noms: [] })
@@ -238,7 +243,7 @@ describe('assemblerLot, revue adverse S246', () => {
     // qui exige sa requête de commune (S269).
     const [ligne] = (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Record<string, unknown>[]).map((b) => ({ ...b, coordPrecision: 'commune' }))
   const ajout = (n: string) => ({
-    fiche: Object.fromEntries(Object.entries({ ...ligne, n }).filter(([k]) => k !== 'verifieLe')),
+    fiche: Object.fromEntries(Object.entries({ ...ligne, n }).filter(([k]) => !LUS_AILLEURS.has(k))),
     verifieLe: '2026-10-17',
     sources: ['https://exemple.fr/'],
     extrait: 'Lu sur la page.',

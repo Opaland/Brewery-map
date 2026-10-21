@@ -1,0 +1,119 @@
+{
+  "lot": "s321-fermees-sirene",
+  "propositions": [
+    {
+      "n": "La Voie Maltée",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=520175621",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=520175621"
+      ],
+      "extrait": "SIRENE : LA VOIE MALTEE, SIREN 520175621, 300 avenue des XVIe Jeux Olympiques, 73600 Moûtiers (siège) ; établissement de Saint-Jean-de-Thurigneux (Lieu-dit Les Douzes) fermé ; entreprise cessée (état C) le 30/09/2025 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "Brasserie de la Sanne",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=825162829",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=825162829"
+      ],
+      "extrait": "SIRENE : DAMIEN GASCON (BRASSERIE DE LA SANNE), SIREN 825162829, 3 montée du Tognard, 38150 Saint-Romain-de-Surieu ; entreprise cessée (état C) le 30/09/2021 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "L'Agarithe",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=842644031",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=842644031"
+      ],
+      "extrait": "SIRENE : BRUNO GAVARD (BRASSERIE L'AGARITHE), SIREN 842644031, 5 place de la République, 42360 Panissières ; entreprise cessée (état C) le 30/09/2025 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "La Strol",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=842443574",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=842443574"
+      ],
+      "extrait": "SIRENE : BRASSERIE LA STROL, SIREN 842443574, La Tuilerie, Tourton, 43120 Monistrol-sur-Loire ; entreprise cessée (état C) le 24/09/2026 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "Brasserie Rohner",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=794745331",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=794745331"
+      ],
+      "extrait": "SIRENE : BRASSERIE ROHNER (ROHNER), SIREN 794745331, La Chalayouse, 43520 Mazet-Saint-Voy ; entreprise cessée (état C) le 31/10/2022 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "Brasserie Haarddrëch",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=790850390",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=790850390"
+      ],
+      "extrait": "SIRENE : BERTRAND DECLARON (BRASSERIE HAARDDRECH), SIREN 790850390, La Chalaye, 07440 Alboussière ; entreprise cessée (état C) le 01/05/2025 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    },
+    {
+      "n": "Les Cuves de la Madeleine",
+      "changements": {
+        "fermee": {
+          "source": "https://recherche-entreprises.api.gouv.fr/search?q=491390027",
+          "verifieLe": "2026-10-20"
+        }
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://recherche-entreprises.api.gouv.fr/search?q=491390027"
+      ],
+      "extrait": "SIRENE : DAMIEN FRANCOIS (LES CUVES DE LA MADELEINE), SIREN 491390027, La Scierie - Les Bessons, 42820 Ambierle ; entreprise cessée (état C) le 31/12/2024 ; 0 établissement ouvert ; activité 11.05Z (fabrication de bière).",
+      "choix": "Règle de Cédric du 20/10 (« Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » → « oui fermé ») : entreprise cessée et aucun établissement ouvert, dans la commune de la fiche. Écartées : Malt Emoi et Mac Never's and Co. (entreprise encore active), Les Bières Hoffmann (absente de SIRENE), Brasserie 767 (adresse SIRENE dans une autre commune)."
+    }
+  ],
+  "revues": [
+    "La Voie Maltée",
+    "Brasserie de la Sanne",
+    "L'Agarithe",
+    "La Strol",
+    "Brasserie Rohner",
+    "Brasserie Haarddrëch",
+    "Les Cuves de la Madeleine"
+  ]
+}

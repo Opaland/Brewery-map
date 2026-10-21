@@ -1,0 +1,68 @@
+{
+  "lot": "s322-demenagements",
+  "propositions": [
+    {
+      "n": "La Gaudine (Brasserie de la Semène)",
+      "changements": {
+        "c": "Marlhes",
+        "d": "42",
+        "lat": 45.30268,
+        "lon": 4.37163,
+        "addr": "4215 route de Jonzieux, 42660 Marlhes",
+        "coordPrecision": "address"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://brasseriedelasemene.fr",
+        "https://recherche-entreprises.api.gouv.fr/search?q=brasserie+de+la+semene",
+        "https://data.geopf.fr/geocodage/search?q=4215+route+de+Jonzieux%2C+42660+Marlhes&limit=5"
+      ],
+      "extrait": "4215 route de Jonzieux, lieu dit Verne à MARLHES — SIRENE : « 4 RUE LOUIS JACQUEMIN 42660 SAINT-GENEST-MALIFAUX », etat_administratif : \"F\", date_fermeture : \"2024-12-31\" ; siège « 4215 ROUTE DE JONZIEUX 42660 MARLHES », etat_administratif : \"A\" Géocodeur IGN : « 4215 Route de Jonzieux 42660 Marlhes », numéro, score 0,95.",
+      "choix": "Réponse de Cédric du 20/10 (« Les trois déménagements : La Gaudine vers Marlhes, les Croqueurs de Lune vers Serrières-en-Chautagne, Biercors vers Villard-de-Lans. » → « OK ») : ne changent que la commune, le département, l’adresse et la position. Le reste de la proposition d’origine (horaires, bières, catégorie, téléphone, note) attend ses numéros."
+    },
+    {
+      "n": "Les Croqueurs de Lune",
+      "changements": {
+        "c": "Serrières-en-Chautagne",
+        "d": "73",
+        "lat": 45.88205,
+        "lon": 5.84386,
+        "addr": "91 montée des 2 Évêques, 73310 Serrières-en-Chautagne",
+        "coordPrecision": "address"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "http://www.croqueursdelune.com/",
+        "https://recherche-entreprises.api.gouv.fr/search?q=834407801",
+        "https://data.geopf.fr/geocodage/search?q=91+Mont%C3%A9e+des+2+Ev%C3%AAques%2C+73310+Serri%C3%A8res-en-Chautagne&limit=5"
+      ],
+      "extrait": "Site officiel : « Les Croqueurs de lune vous proposent un choix de bières brassées et embouteillées à Serrières en Chautagne. » ; « Sur place : SAMEDI de 17h00 à 19h00 et » « le DIMANCHE de 11h00 à 12h00 » ; « 91 Montée des 2 Evêques » « 73310 Serrières en Chautagne ». SIRENE : JEAN-CLAUDE PICAZO, enseigne « CROQUEURS DE LUNE », siège « 91 MONTEE DES 2 EVEQUES 73310 SERRIERES-EN-CHAUTAGNE », actif. Géocodeur IGN : « 91 Montée des 2 Évêques 73310 Serrières-en-Chautagne », numéro, score 0,95.",
+      "choix": "Réponse de Cédric du 20/10 (« Les trois déménagements : La Gaudine vers Marlhes, les Croqueurs de Lune vers Serrières-en-Chautagne, Biercors vers Villard-de-Lans. » → « OK ») : ne changent que la commune, le département, l’adresse et la position. Le reste de la proposition d’origine (horaires, bières, catégorie, téléphone, note) attend ses numéros."
+    },
+    {
+      "n": "Brasserie du Vercors (Biercors)",
+      "changements": {
+        "c": "Villard-de-Lans",
+        "d": "38",
+        "lat": 45.06843,
+        "lon": 5.55004,
+        "addr": "61-69 avenue Jean-Séraphin Achard-Picard, 38250 Villard-de-Lans",
+        "coordPrecision": "centre"
+      },
+      "verifieLe": "2026-10-20",
+      "sources": [
+        "https://uk.villarddelans-correnconenvercors.com/offers/brasserie-du-vercors-villard-de-lans-en-3314302/",
+        "https://rando.parc-du-vercors.fr/fr/service/391-Brasserie-du-Vercors",
+        "https://recherche-entreprises.api.gouv.fr/search?q=Biercors+Autrans",
+        "https://data.geopf.fr/geocodage/search?q=Villard-de-Lans&type=municipality&limit=5"
+      ],
+      "extrait": "Office de tourisme de Villard-de-Lans : « 61 -69 Avenue Jean-Séraphin Achard-Picard, 38250 Villard-de-Lans » ; « Sales on site », « Shop », « Product tasting ». Vercors Rando (mis à jour le 02/10/2026) : même adresse ; « Toute l'année le lundi, mardi, mercredi, jeudi, vendredi et dimanche de 17h à 18h30. Le samedi de 15h à 0h. » SIRENE : BIERCORS (BRASSERIE DU VERCORS), actif ; siège « LA GALOCHERE 67 RTE DE LA SURE 38112 AUTRANS-MEAUDRE EN VERCORS », fermé le 2025-09-26. Géocodeur IGN : le 61 de l’avenue n’est pas dans la Base Adresse Nationale (la rue seule, score 0,82) ; point au centre de Villard-de-Lans.",
+      "choix": "Réponse de Cédric du 20/10 (« Les trois déménagements : La Gaudine vers Marlhes, les Croqueurs de Lune vers Serrières-en-Chautagne, Biercors vers Villard-de-Lans. » → « OK ») : ne changent que la commune, le département, l’adresse et la position. Le reste de la proposition d’origine (horaires, bières, catégorie, téléphone, note) attend ses numéros."
+    }
+  ],
+  "revues": [
+    "La Gaudine (Brasserie de la Semène)",
+    "Les Croqueurs de Lune",
+    "Brasserie du Vercors (Biercors)"
+  ]
+}
