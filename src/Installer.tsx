@@ -1,12 +1,7 @@
 import { t } from './i18n'
 import { useEffect, useState } from 'react'
 import { plateformeDe } from './core/itineraire'
-
-/** L'événement de Chrome et d'Android, absent des types du DOM. */
-interface InvitationInstallation extends Event {
-  prompt: () => Promise<void>
-  userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>
-}
+import { invitationTot, type InvitationInstallation } from './invitationInstallation'
 
 const dejaInstallee = () =>
   window.matchMedia('(display-mode: standalone)').matches ||
@@ -24,7 +19,7 @@ const dejaInstallee = () =>
  *   menu.
  */
 export function Installer() {
-  const [invitation, setInvitation] = useState<InvitationInstallation | null>(null)
+  const [invitation, setInvitation] = useState<InvitationInstallation | null>(invitationTot)
   const [installee, setInstallee] = useState(dejaInstallee)
 
   useEffect(() => {

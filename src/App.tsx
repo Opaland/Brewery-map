@@ -152,12 +152,17 @@ function texteDuCompte(
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
 
+type Couche = { brasseries: readonly Brasserie[]; extrait: string } | null
+
 export function App({
   stockage,
   couche = null,
+  coucheTardive,
 }: {
   stockage: Stockage
-  couche?: { brasseries: readonly Brasserie[]; extrait: string } | null
+  couche?: Couche
+  /** La même couche, si elle arrive après l'attente de `main.tsx` (A14). */
+  coucheTardive?: Promise<Couche>
 }) {
   const ini = stockage.initiales
   // Une fiche partagée (S27, `#fiche=…`) : son nom dans la recherche, et la
@@ -352,12 +357,32 @@ export function App({
 
   // Toute la France (S25) : la couche OpenStreetMap, chargée avant l'écran
   // (`main.tsx`), ou absente si elle n'a pas pu se charger.
+  // Arrivée après les 3 s d'attente, elle n'était plus prise qu'au
+  // rechargement, et les favoris OSM restaient invisibles (A14).
+  // En attendant, l'écran dit qu'elle arrive, pas qu'elle a échoué (revue
+  // Bernard S333 : « n'ont pas pu se charger » sur une connexion lente).
+  const [tardive, setTardive] = useState<Couche | 'attente'>(() =>
+    couche === null && coucheTardive !== undefined ? 'attente' : null,
+  )
+  useEffect(() => {
+    if (couche !== null || coucheTardive === undefined) return
+    let actif = true
+    void coucheTardive.then((c) => {
+      if (actif) setTardive(c)
+    })
+    return () => {
+      actif = false
+    }
+  }, [couche, coucheTardive])
+  const coucheVue = couche ?? tardive
   const osm = useMemo(
     () =>
-      couche === null
-        ? { etat: 'echec' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
-        : { etat: 'pret' as const, ...couche },
-    [couche],
+      coucheVue === 'attente'
+        ? { etat: 'attente' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
+        : coucheVue === null
+          ? { etat: 'echec' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
+          : { etat: 'pret' as const, ...coucheVue },
+    [coucheVue],
   )
   // Les fiches vérifiées hors de la région de départ arrivent juste après le
   // premier rendu (S294) : toujours demandées, quelle que soit la position.
@@ -498,6 +523,12 @@ export function App({
   const nomsCherches = useMemo(() => new Set(cherchees.map((b) => b.n)), [cherchees])
   const orphelins = osm.etat === 'pret' && suite.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
+  // Les visites et notes d'une fiche renommée ou retirée : dites, et
+  // retirables, comme les favoris (A16 : gardées, invisibles, sans remède).
+  const carnetOrphelins =
+    osm.etat === 'pret' && suite.etat === 'pret'
+      ? [...new Set([...visites.map((v) => v.nom), ...notes.map((n) => n.nom)])].filter((n) => !nomsConnus.has(n))
+      : []
   const etatFiltres: EtatFiltres = {
     categories,
     favorisSeulement,
@@ -582,6 +613,10 @@ export function App({
 
   const retirerOrphelins = () => {
     setFavoris((avant) => avant.filter((f) => nomsConnus.has(f)))
+  }
+  const retirerCarnetOrphelins = () => {
+    setVisites((avant) => avant.filter((v) => nomsConnus.has(v.nom)))
+    setNotes((avant) => avant.filter((n) => nomsConnus.has(n.nom)))
   }
 
   const basculer = (cat: Categorie) => {
@@ -840,6 +875,8 @@ export function App({
               nbFavoris={nbFavorisConnus}
               orphelins={orphelins}
               onRetirerOrphelins={retirerOrphelins}
+              carnetOrphelins={carnetOrphelins}
+              onRetirerCarnetOrphelins={retirerCarnetOrphelins}
               seulement={favorisSeulement}
               onSeulement={(v) => {
                 setFavorisParRaccourci(false)
@@ -907,6 +944,11 @@ export function App({
             </button>
           </div>
         </div>
+      )}
+      {osm.etat === 'attente' && (
+        <p className="champ-aide" role="status" data-testid="osm-attente">
+          {t('Les brasseries de toute la France (OpenStreetMap) arrivent encore : la connexion est lente. Les fiches vérifiées sont déjà là.')}
+        </p>
       )}
       {osm.etat === 'echec' && (
         <div className="champ-aide" role="status" data-testid="osm-absente">

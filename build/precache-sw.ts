@@ -10,11 +10,26 @@ import type { Plugin } from 'vite'
  * Sans la liste, la première visite ne met rien en cache : le service worker
  * ne contrôle pas encore la page quand elle charge ses scripts, et la
  * consultation hors ligne serait vide (persona Bernard). L'empreinte vient
- * des noms hachés : un build identique ne purge rien.
+ * des noms hachés et du contenu des autres fichiers (`empreinteDuPrecache`).
  *
  * Bruyant plutôt que silencieux : un marqueur non remplacé fait échouer le
  * build (CLAUDE.md §6quater).
  */
+/**
+ * L'empreinte du précache : les noms hachés, et le contenu de chaque fichier
+ * qui n'a pas de nom haché. Un build identique ne purge rien ; une nouvelle
+ * liste de communes purge l'ancienne copie (S333, revue globale A18 : seuls
+ * les noms comptaient).
+ */
+export function empreinteDuPrecache(
+  assets: readonly string[],
+  nonHaches: readonly { nom: string; contenu: string | Uint8Array }[],
+): string {
+  const h = createHash('sha256').update(assets.join('\n'))
+  for (const f of nonHaches) h.update(`\n${f.nom}\n`).update(f.contenu)
+  return h.digest('hex').slice(0, 12)
+}
+
 export function precacheServiceWorker(): Plugin {
   return {
     name: 'mousse-precache-sw',
@@ -39,7 +54,14 @@ export function precacheServiceWorker(): Plugin {
         './communes/departements.json',
         ...assets.map((nom) => `./assets/${nom}`),
       ]
-      const empreinte = createHash('sha256').update(assets.join('\n')).digest('hex').slice(0, 12)
+      // Les fichiers sans nom haché (pages, icônes, communes) : leur contenu
+      // entre dans l'empreinte (A18).
+      const nonHaches = await Promise.all(
+        fichiers
+          .filter((f) => f !== './' && !f.startsWith('./assets/'))
+          .map(async (nom) => ({ nom, contenu: await readFile(path.join(dist, nom)) })),
+      )
+      const empreinte = empreinteDuPrecache(assets, nonHaches)
       const swPath = path.join(dist, 'sw.js')
       const source = await readFile(swPath, 'utf-8')
       const reecrit = source
