@@ -1,4 +1,15 @@
-# Veille mensuelle — ce qui est prêt, et ce qui attend Cédric
+# Veille mensuelle
+
+> **Armée le 21/10/2026** sur la réponse de Cédric (« oui pour la veille
+> mensuelle »). C'est une tâche planifiée dans le cloud, le 1er de chaque
+> mois à 7 h 47 UTC (8 h 47 à Paris l'hiver, 9 h 47 l'été), avec le modèle
+> Sonnet 5.5 et le dépôt seul, sans aucun connecteur :
+> https://claude.ai/code/routines/trig_019FPfHdK3exqQNnacH9BQJa
+>
+> Son message suit la règle de Cédric du 21/10 (`docs/DECISIONS.md`). Elle
+> applique ce qu'une source publique établit, ouvre une seule PR de
+> données qui liste ses lignes, et la merge verte. Elle ne retire jamais
+> une fiche. Le texte ci-dessous est l'étude d'avant l'armement.
 
 La reconfirmation des fiches est **périodique et proposée**, jamais
 automatique (plan v2, « Comment les À confirmer se reconfirment »). S15 en
