@@ -1,5 +1,5 @@
 import { demandeDePersistance } from './core/persistance'
-import { gardeParUneVersionFuture, lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
+import { fusionnerReglages, gardeParUneVersionFuture, lirePreferences, PREFERENCES_DEFAUT, type Preferences } from './core/preferences'
 
 /**
  * Les préférences dans IndexedDB (S9), sur cet appareil seulement. Une base,
@@ -78,12 +78,20 @@ function requete<T>(db: IDBDatabase, mode: IDBTransactionMode, faire: (m: IDBObj
  * (revue adverse S238 : vérifiée à l'ouverture seulement, elle laissait ce
  * cas ouvert).
  */
-function garderSaufVersionFuture(db: IDBDatabase, p: Preferences): void {
+function garderSaufVersionFuture(db: IDBDatabase, base: Preferences, p: Preferences, ecrit: () => void): void {
   try {
-    const magasin = db.transaction(MAGASIN, 'readwrite').objectStore(MAGASIN)
+    const tx = db.transaction(MAGASIN, 'readwrite')
+    // Seulement une écriture réussie avance ce que l'onglet sait : ratée
+    // (quota), la suivante renvoie le champ perdu (revue adverse S333).
+    tx.oncomplete = ecrit
+    const magasin = tx.objectStore(MAGASIN)
     const lecture = magasin.get(CLE)
     lecture.onsuccess = () => {
-      if (!gardeParUneVersionFuture(lecture.result)) magasin.put(p, CLE)
+      const garde: unknown = lecture.result
+      if (gardeParUneVersionFuture(garde)) return
+      // Seuls les champs changés ici : un autre onglet a pu en changer
+      // d'autres entre-temps (S333, A15).
+      magasin.put(fusionnerReglages(base, p, garde === undefined ? undefined : lirePreferences(garde)), CLE)
     }
   } catch {
     // Base fermée (une version plus récente l'a demandé) : rien n'est écrit.
@@ -114,7 +122,11 @@ export async function ouvrirStockage(): Promise<Stockage> {
       }, DELAI_OUVERTURE_MS)
     })
     ;({ d: db, b: brut } = await Promise.race([lecture, delai]))
-  } catch {
+  } catch (e) {
+    // La base est d'une version plus récente que celle que demande cette
+    // page : c'est l'écran « version plus récente », pas « navigation
+    // privée » (revue globale du 19/10, A19).
+    if (e instanceof DOMException && e.name === 'VersionError') return { ...SANS_STOCKAGE, versionFuture: true }
     return SANS_STOCKAGE
   }
   // Gardé par une version plus récente (S238) : lu, jamais réécrit. L'écran
@@ -122,6 +134,8 @@ export async function ouvrirStockage(): Promise<Stockage> {
   if (gardeParUneVersionFuture(brut)) return { ...SANS_STOCKAGE, versionFuture: true, initiales: lirePreferences(brut) }
   // Absente hors HTTPS (S275).
   const demanderPersistance = demandeDePersistance('storage' in navigator ? navigator.storage : undefined)
+  // Ce que cet onglet sait de la garde : ce qu'il a lu, puis ce qu'il a voulu.
+  let base = lirePreferences(brut)
   return {
     disponible: true,
     versionFuture: false,
@@ -129,7 +143,9 @@ export async function ouvrirStockage(): Promise<Stockage> {
     // Une écriture ratée (quota) ne casse pas l'écran : la session continue
     // avec ses réglages en mémoire.
     garder: (p) => {
-      garderSaufVersionFuture(db, p)
+      garderSaufVersionFuture(db, base, p, () => {
+        base = p
+      })
     },
     proteger: () => {
       void demanderPersistance()

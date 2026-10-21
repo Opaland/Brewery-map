@@ -256,3 +256,19 @@ export function origineDesPreferences(
 export function basculerFavori(favoris: readonly string[], nom: string): string[] {
   return favoris.includes(nom) ? favoris.filter((f) => f !== nom) : [...favoris, nom]
 }
+
+/**
+ * Ce qu'un onglet écrit (S333, A15) : la garde telle qu'elle est, plus les
+ * seuls champs que cet onglet a changés depuis `base` (ce qu'il savait). Le
+ * dernier onglet qui écrivait remettait sinon les réglages de l'autre. Rien
+ * de gardé (effacé ailleurs, ou premier geste) : ce que veut cet onglet.
+ */
+export function fusionnerReglages(base: Preferences, voulu: Preferences, garde: Preferences | undefined): Preferences {
+  if (garde === undefined) return voulu
+  const cles = new Set([...Object.keys(base), ...Object.keys(voulu)]) as Set<keyof Preferences>
+  const changees = new Set([...cles].filter((k) => JSON.stringify(base[k]) !== JSON.stringify(voulu[k])))
+  // Un champ changé et absent de `voulu` (le type de bière retiré) quitte la garde.
+  const gardees = Object.entries(garde).filter(([k]) => !changees.has(k as keyof Preferences))
+  const voulues = Object.entries(voulu).filter(([k]) => changees.has(k as keyof Preferences))
+  return Object.fromEntries([...gardees, ...voulues]) as unknown as Preferences
+}

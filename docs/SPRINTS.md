@@ -2897,3 +2897,48 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S321 — Les brasseries fermées d'après SIRENE *(20/10)*
 
 `docs/stories/S321.md`. Cédric, le 20/10 : « oui fermé ». Sept fiches marquées `fermee` (entreprise cessée, aucun établissement ouvert, même commune), source : l'API du répertoire. Écartées et dites : Malt Emoi, Mac Never's and Co. (actives), Les Bières Hoffmann (absente), Brasserie 767 (autre commune). Avec les trois déménagements de S322, dans la PR #159, qui attend sa revue.
+
+## S323 — Les adresses autour de Lyon, quatrième lot *(20/10)*
+
+`docs/stories/S323.md`. 12 fiches (84 à 97 km), 7 propositions dans `curation/s323-adresses-lyon-4` : trois adresses, une note, une fermée d'après SIRENE, deux déménagements (S322). En attente de Cédric.
+
+## S324–S325 — Ce que le PC connecté débloque, premier sprint *(21/10, epic E30)*
+
+`docs/stories/S324.md`, `S325.md`. Demande de Cédric du 21/10. La couche OSM réextraite par le miroir français (878 → 880 points ; le serveur principal refuse l'usage automatisé, écrit dans `docs/CONTINUITE.md`) ; `contact:*` lu comme `addr:*` (55 adresses gagnées, vu par la revue adverse sur l'Atelier 235). Les huit communes sans point l'étaient à cause d'une longitude en notation scientifique, mal lue (`src/core/wikidata.ts`) : 34 968 communes. `data/` intact.
+
+## S326–S327 — Ce que le PC connecté débloque, second sprint *(21/10, epic E30)*
+
+`docs/stories/S326.md`, `S327.md`. Deux lots de propositions, en attente de Cédric. `curation/s326-relues-du-poste` : 19 fiches que le conteneur n'avait pas pu lire (registre sans réponse, pages en 403, issue #45), 6 propositions, dont le déménagement d'Animus à Grigny-sur-Rhône. `curation/s327-a-relancer` : 19 candidats « À relancer », 3 fiches nouvelles (Kapsyl, Kerblei, Loch'Ale) ; les 16 autres sont introuvables une deuxième fois. Le serveur Overpass principal et les recherches web : voir S324.
+
+
+## S328 — Le Centre-Val de Loire hors Indre-et-Loire *(21/10, epic E30)*
+
+`docs/stories/S328.md`. Cinq lots de fiches nouvelles, en attente de Cédric : `curation/dep-45` (8), `dep-41` (1), `dep-18` (4), `dep-36` (2), `dep-28` (4), soit 19 fiches pour 84 candidats, chaque non-proposé avec sa raison. `controler` sans écart. La persona a fait redescendre Bos (moyenne) et L'Arnon (à confirmer). Fin de l'epic E30.
+
+## S329 — Un état qui dit vrai après un `/clear` *(21/10, epic E31)*
+
+`docs/stories/S329.md`. `docs/ETAT.md` réécrit au 21/10 ; l'état de reprise de CLAUDE.md complété (prochaine story nommée) ; dix lignes du BACKLOG barrées avec leur preuve ; le tableau d'A-MONTRER complet (11 groupes) ; les epics E31 à E35 dans `docs/EPICS.md`, chaque constat ouvert de la revue du 19/10 classé.
+
+## S330 — Ce que l'écran dit encore de faux *(21/10, epic E32)*
+
+`docs/stories/S330.md`. Sans la suite des fiches, plus de « la plus proche » ni de nombre de départements faux (revue adverse du 21/10) ; un lien vers un point OSM l'ouvre même couche décochée (A2) ; « Tout effacer » dit ce qui a été effacé si le fond de carte résiste (A12) ; la vue « Mes favoris » ne réécrit plus sa valeur après l'effacement (A13) ; un lien collé dans l'onglet ouvert ouvre la fiche (A17). Cinq e2e vus rouges.
+
+## S331 — Une règle écrite une fois *(21/10, epic E32)*
+
+`docs/stories/S331.md`. Le département d'un code postal, une seule règle (`src/core/code-postal.ts`), qui remplace les cinq copies (la Corse acceptait 2A et 2B dans les lots) ; la région nommée hors ligne tenue d'accord avec le découpage par un test ; « D'où vient la fiche » cite aussi la lecture non datée, après les datées et avec « (sans date de lecture) ». Fin de l'epic E32.
+
+## S332 — Les finitions d'écran restées ouvertes *(21/10, epic E33)*
+
+`docs/stories/S332.md`. A20 (option active visible sans la couleur seule), A22 (`--espace-1` défini, tous les jetons tenus par un test), A23 (puces sans mot coupé à 320 px), A25 (l'annonce d'un geste ne s'affiche plus après un changement de critères), A27 (survols sous `(hover: hover)`, appui sans mise à l'échelle avec le mouvement réduit, style désactivé), A28 (`899.98px`), A31 (cases non écrasées), A32 (espaces insécables autour d'un nom). A26 au BACKLOG (question à Cédric).
+
+## S333 — Ce qu'on garde sur l'appareil, sans perte *(21/10, epic E34)*
+
+`docs/stories/S333.md`. A15 : deux onglets n'écrivent que ce qu'ils ont changé (`fusionnerReglages`). A16 : visites et notes orphelines dites et effaçables. A14 : la couche OSM tardive est prise, l'écran dit qu'elle arrive, et au-delà de 20 s qu'elle manque. A18 : l'empreinte du service worker suit le contenu des fichiers non hachés. A19 : `VersionError` donne l'écran « version plus récente ». A29 : l'invitation à installer est écoutée avant le premier rendu.
+
+## S334 — CI et outils durcis *(21/10, epic E35)*
+
+`docs/stories/S334.md`. C7 : les actions sont épinglées par SHA, et Dependabot les surveille chaque mois. C6 : CODEOWNERS couvre `package.json`, le fichier de verrouillage, `.claude/settings.json` et les deux configurations. C8 : Pages ne coupe plus une publication en cours. C9 : la sonde vérifie que `sw.js` publié porte l'empreinte du build de ce commit, et chaque job de chaque workflow a son délai. W9 : `supprimerSync` remplace `rmSync` dans les outils. W5 : plus de `sleep` système, et `engines` est déclaré. Fin des epics E31 à E35.
+
+## Rétrospective des epics E30 à E35 *(21/10)*
+
+`docs/RETRO-2026-10-21.md`. Ce qui a marché (personas et revue adverse ont trouvé de vrais défauts ; la porte a bloqué trois fois à raison), ce qui a raté, daté (un merge avec `porte` en attente, d'où la règle §7bis de CLAUDE.md), et ce qui attend Cédric.

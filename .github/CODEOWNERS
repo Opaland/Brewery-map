@@ -14,3 +14,10 @@
 /build/valider-donnees.ts @Opaland
 /.github/ @Opaland
 /.claude/hooks/ @Opaland
+# Ce qui fait tourner la CI et la porte (S334, revue globale du 19/10, C6) :
+# une dépendance ou un réglage changé peut désactiver une garde.
+/package.json @Opaland
+/package-lock.json @Opaland
+/.claude/settings.json @Opaland
+/playwright.config.ts @Opaland
+/vite.config.ts @Opaland

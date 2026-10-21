@@ -1,0 +1,80 @@
+{
+ "lot": "dep-41",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de Chambord",
+    "c": "Saint-Gervais-la-Forêt",
+    "d": "41",
+    "lat": 47.5632,
+    "lon": 1.37007,
+    "km": 333,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site décrit un bar-boutique de 120 places assises, avec des accords mets-bières autour des bières de la maison.",
+    "addr": "125 Route Nationale, 41350 Saint-Gervais-la-Forêt",
+    "src": "https://www.brasseriedechambord.com/bar-boutique",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriedechambord.com",
+     "source": "https://www.brasseriedechambord.com",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "11:00",
+        "21:00"
+       ]
+      ],
+      "mar": [
+       [
+        "11:00",
+        "21:00"
+       ]
+      ],
+      "mer": [
+       [
+        "11:00",
+        "21:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "dim": [],
+      "source": "https://www.brasseriedechambord.com",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.brasseriedechambord.com/bar-boutique",
+    "https://www.brasseriedechambord.com",
+    "https://data.geopf.fr/geocodage/search?q=125+Route+Nationale%2C+41350+Saint-Gervais-la-For%C3%AAt&limit=5"
+   ],
+   "extrait": "Les 120 places assises sont réparties entre un comptoir, des tables de 2 à 16 convives, et l'espace lounge.",
+   "choix": "Catégorie 1, confiance moyenne : la vente à emporter sur place n'est pas décrite. Seul un portable est publié : écarté. Pas d'Untappd sur le site."
+  }
+ ]
+}

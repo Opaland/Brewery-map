@@ -492,11 +492,61 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 | S305 | Les chiffres faux, et un test qui compare les chiffres écrits aux données (T1 à T6) | idem |
 | S306 | Crochets et CI : `ci.yml` seul pour l'état de `main`, commit non contournable, garde de `data/` et audit dans la porte locale, pas de nouvel essai en CI (C1 à C4) | idem |
 
+### E30 — Ce que le PC connecté débloque *(persona : Cédric ; demande du 21/10 : « les tâches qui nécessitent un PC connecté à internet (là où tu avais des blocages sur le conteneur cloud) »)* **[C]** pour S326 à S328
+
+Recensé le 21/10 (revue de reprise) ; joint depuis le PC fixe le même jour :
+SIRENE, BAN, `geo.api.gouv.fr`, Untappd, Google, le miroir Overpass. Le
+serveur Overpass principal refuse l'usage automatisé (S324).
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S324 | La couche OpenStreetMap réextraite (l'extrait datait du 16/10) ; le refus du serveur principal écrit | `docs/CONTINUITE.md` (« pas de repli éprouvé ») |
+| S325 | Les huit communes sans point : une longitude en notation scientifique, mal lue | S21 (« 9 communes sans point ») |
+| S326 | Le registre relancé pour les 7 fiches sans réponse ; les sites injoignables ou en 403 relus depuis le poste | `curation/registre-2026-10-19.md`, lots `dep-*` |
+| S327 | Les 19 candidats « À relancer » (Bretagne 12, Indre-et-Loire 7) | `curation/dep-35.md`, `dep-56.md`, `dep-37.md` ; S250 |
+| S328 | Le Centre-Val de Loire hors Indre-et-Loire (45, 41, 18, 36, 28) : candidats et propositions | `docs/stories/S271.md` |
+
+### E31 — Un état qui dit vrai après un `/clear` *(persona : Cédric ; revue de reprise du 21/10)*
+
+La revue du 21/10 a trouvé l'état éclaté et périmé : `docs/ETAT.md` s'arrête
+à S302, « Prochaine story : S64 », un budget du premier écran « à 25 octets
+près » alors que S294 l'a ramené à 189 402 / 208 000, des lignes du BACKLOG
+déjà livrées, le tableau de `curation/A-MONTRER.md` sans ses groupes 10 et 11.
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S329 | ETAT.md, l'état de reprise de CLAUDE.md et le BACKLOG remis à jour ; les lignes livrées barrées, chacune avec sa preuve ; le tableau de A-MONTRER complet ; les constats de la revue du 19/10 tous classés (faits : A21, A30 ; les autres dans E32 à E35) | revue du 21/10, risque 3 |
+
+### E32 — Ce que l'écran dit encore de faux *(persona : Hugo ; revue globale du 19/10, groupe A, et revue adverse du 21/10)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S330 | Sans la suite des fiches (`suite.etat === 'echec'`), « la plus proche » et « les fiches couvrent N départements » ne mentent plus ; un lien vers une fiche OSM l'ouvre même couche décochée (A2) ; « L'effacement a échoué » dit ce qui a été fait (A12) ; « Tout effacer » après le raccourci « Mes favoris » (A13) ; `#fiche=` collé dans un onglet ouvert (A17) | revue adverse du 21/10 ; A2, A12, A13, A17 |
+| S331 | Le département d'un code postal, une seule règle (Corse : `curation.ts` accepte 2A et 2B pour 20200) ; la région du premier écran dérivée du découpage, pas écrite en dur ; la provenance cite aussi la lecture non datée d'un site | revue adverse du 21/10, §4ter |
+
+### E33 — Les finitions d'écran restées ouvertes *(persona : Inès ; revue globale du 19/10)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S332 | `--espace-1` défini (A22) ; option active de la liste des communes visible (A20) ; puces des catégories à 320 px (A23) ; annonce vidée au geste suivant (A25) ; survols sous `(hover: hover)`, style `:disabled`, mouvement réduit (A27) ; cases écrasées (A31) ; guillemet seul (A32) ; le carnet montré (A26) ; le trou d'un pixel à 900 px (A28) | A20, A22, A23, A25, A26, A27, A28, A31, A32 |
+
+### E34 — Ce qu'on garde sur l'appareil, sans perte *(persona : Bernard ; revue globale du 19/10)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S333 | Visites et notes orphelines visibles et nettoyables (A16) ; deux onglets n'écrasent plus les réglages l'un de l'autre (A15) ; `VersionError` traité comme une version future (A19) ; une couche OSM tardive n'est plus jetée (A14) ; l'empreinte du service worker suit les fichiers non hachés (A18) ; le bouton « Installer » ne manque plus l'événement (A29) | A14, A15, A16, A18, A19, A29 |
+
+### E35 — CI et outils durcis *(persona : le relecteur de workflows ; revue globale du 19/10, groupes C et W)*
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S334 | Actions épinglées par SHA et Dependabot (C7) ; CODEOWNERS étendu (C6) ; Pages sans `cancel-in-progress` (C8) ; mutation sur le fichier de verrouillage (C10) ; la sonde vérifie la version publiée (C9) ; `rmSync` remplacé dans les outils (le reste de W9, S304 n'a traité que le build) ; `sleep` en Node, `engines` (W5) | C6 à C10, W5, W9 |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35).
 
 ## Ordre d'exécution
 

@@ -207,6 +207,16 @@ describe('déménager une fiche (S322, Cédric le 20/10 : « OK »)', () => {
     expect(r.ok ? '' : r.erreurs.join(' ')).toContain('déménagement')
   })
 
+  // S331 : la Corse, que la règle de S322 laissait passer sous les deux codes.
+  it('un code postal de Haute-Corse refuse la Corse-du-Sud, et l’inverse', () => {
+    const vers = (d: string, addr: string) =>
+      lu({ ...demenagement, changements: { ...demenagement.changements, c: 'Bastia', d, addr } }).ok
+    expect(vers('2B', '1 rue Napoléon, 20200 Bastia')).toBe(true)
+    expect(vers('2A', '1 rue Napoléon, 20200 Bastia')).toBe(false)
+    expect(vers('2A', '1 cours Napoléon, 20000 Ajaccio')).toBe(true)
+    expect(vers('2B', '1 cours Napoléon, 20000 Ajaccio')).toBe(false)
+  })
+
   it('le nom reste exclu : c’est la clé des favoris et du carnet', () => {
     expect(lu({ ...demenagement, changements: { ...demenagement.changements, n: 'Autre' } }).ok).toBe(false)
   })

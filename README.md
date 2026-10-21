@@ -16,10 +16,10 @@ consultable hors connexion.
 
 - **Toute la France** : 348 fiches vérifiées dans 24 départements (01, 07,
   14, 22, 26, 27, 29, 35, 37, 38, 42, 43, 44, 49, 50, 53, 56, 61, 69, 71, 72,
-  73, 76, 85), et 878 brasseries repérées sur OpenStreetMap ailleurs,
+  73, 76, 85), et 880 brasseries repérées sur OpenStreetMap ailleurs,
   affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
-  les 34 960 communes de France ; les distances se comptent depuis là.
+  les 34 968 communes de France ; les distances se comptent depuis là.
 - **Filtrer** par distance, par ce qu'on peut y faire, par type de bière ;
   chercher une brasserie par son nom, à toute distance.
 - **Une fiche par brasserie** : ce que dit la source et avec quelle

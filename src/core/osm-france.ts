@@ -5,6 +5,7 @@ import { normaliser } from './recherche'
 import { z } from './zod'
 import { BRIGNAIS, distanceKm } from './distance'
 import type { Brasserie } from './schema'
+import { departementDuCodePostal } from './code-postal'
 
 /**
  * Toute la France (S25, demande de Cédric du 16/10 : « ouvrir toute la
@@ -61,10 +62,13 @@ export function lireElementOverpass(e: ElementOverpass): BrasserieOsmBrute | nul
   const lat = e.lat ?? e.center?.lat
   const lon = e.lon ?? e.center?.lon
   if (nom === undefined || lat === undefined || lon === undefined) return null
-  const cp = texte(tags['addr:postcode'])
-  const ville = texte(tags['addr:city'])
-  const pays = texte(tags['addr:country'])
-  const rue = [texte(tags['addr:housenumber']), texte(tags['addr:street'])].filter(Boolean).join(' ')
+  // `addr:*`, sinon `contact:*` : les deux écritures existent dans OSM
+  // (S324 : node/13136838136 a perdu son adresse le 18/10 en changeant d'écriture).
+  const adr = (cle: string) => texte(tags[`addr:${cle}`]) ?? texte(tags[`contact:${cle}`])
+  const cp = adr('postcode')
+  const ville = adr('city')
+  const pays = adr('country')
+  const rue = [adr('housenumber'), adr('street')].filter(Boolean).join(' ')
   const lieu = [cp, ville].filter(Boolean).join(' ')
   const site = siteSur(tags['website'] ?? tags['contact:website'])
   return {
@@ -96,11 +100,6 @@ const RAYON_COMMUNE_KM = 10
 /** Marge autour du rectangle des centres de communes d'un département. */
 const MARGE_DEPARTEMENT_KM = 15
 
-function departementDuCodePostal(cp: string): string {
-  if (cp.startsWith('97')) return cp.slice(0, 3)
-  if (cp.startsWith('20')) return cp < '20200' ? '2A' : '2B'
-  return cp.slice(0, 2)
-}
 
 function dansLeRectangle(r: Rectangle, lat: number, lon: number, margeKm: number): boolean {
   const [sud, ouest, nord, est] = r

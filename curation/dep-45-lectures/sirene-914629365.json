@@ -1,0 +1,51 @@
+{
+ "candidat": "sirene:914629365",
+ "ajout": {
+  "fiche": {
+   "n": "LABDD",
+   "c": "Donnery",
+   "d": "45",
+   "lat": 47.90931,
+   "lon": 2.10326,
+   "km": 320.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site annonce la vente directe à la brasserie le jeudi et le vendredi de 16 h à 19 h ; aucune dégustation sur place n'y est citée.",
+   "addr": "68 avenue d'Orléans, 45450 Donnery",
+   "src": "https://labdd.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labdd.fr",
+    "source": "https://labdd.fr",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://labdd.fr",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://labdd.fr",
+   "https://data.geopf.fr/geocodage/search?q=68+avenue+d%27Orl%C3%A9ans%2C+45450+Donnery&limit=5"
+  ],
+  "extrait": "Les jeudis et vendredis de 16 heures à 19 heures – 68 avenue d’Orléans 45450 Donnery",
+  "choix": "Catégorie 2 : vente directe seulement. Deux portables publiés : écartés. Pas d'Untappd."
+ }
+}

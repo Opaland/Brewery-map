@@ -46,6 +46,8 @@
     "src/communesFrance.ts",
     "src/localisation.ts",
     "src/PointDeDepart.tsx",
+    "src/Installer.tsx",
+    "src/invitationInstallation.ts",
     "src/nouvelleVersion.ts",
     "src/i18n.ts",
     "src/textes",

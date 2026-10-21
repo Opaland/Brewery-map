@@ -54,7 +54,7 @@ test.describe('une brasserie choisie dans un groupe (S40)', () => {
     await versLaCarte(page)
     const groupe = page.getByTestId('carte').locator('.marqueur-groupe.contient-choisie')
     await expect(groupe).toHaveCount(1)
-    await expect(groupe).toHaveAttribute('aria-label', `2 brasseries ici, voir le détail, dont « ${nom} », choisie`)
+    await expect(groupe).toHaveAttribute('aria-label', `2 brasseries ici, voir le détail, dont «\u00a0${nom}\u00a0», choisie`)
     // Refermée, plus rien n'est marqué.
     await page.locator(`button.ligne[data-nom="${nom}"]`).click()
     await expect(page.getByTestId('carte').locator('.contient-choisie')).toHaveCount(0)

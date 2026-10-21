@@ -10,9 +10,10 @@
  * fois par lancement. Sortie : `docs/captures/`. Le GIF demande `ffmpeg`.
  */
 import { execFileSync } from 'node:child_process'
-import { mkdirSync, readdirSync, renameSync, rmSync } from 'node:fs'
+import { mkdirSync, readdirSync, renameSync } from 'node:fs'
 import { join } from 'node:path'
 import { chromium, devices, type Browser, type Page } from '@playwright/test'
+import { supprimerSync } from './supprimer'
 
 const URL_APP = 'http://localhost:4317/'
 const SORTIE = 'docs/captures'
@@ -78,7 +79,7 @@ async function ordinateur(navigateur: Browser): Promise<void> {
 
 /** Le parcours du GIF : une commune tapée, la liste, une fiche. */
 async function parcours(navigateur: Browser): Promise<void> {
-  rmSync(VIDEO, { recursive: true, force: true })
+  supprimerSync(VIDEO)
   const contexte = await navigateur.newContext({
     ...devices['Pixel 7'],
     locale: 'fr-FR',
@@ -104,7 +105,7 @@ async function parcours(navigateur: Browser): Promise<void> {
   if (brute === undefined) throw new Error('aucune vidéo enregistrée')
   const webm = join(SORTIE, 'parcours.webm')
   renameSync(join(VIDEO, brute), webm)
-  rmSync(VIDEO, { recursive: true, force: true })
+  supprimerSync(VIDEO)
   const palette = join(SORTIE, 'palette.png')
   const filtre = 'fps=6,scale=300:-1:flags=lanczos'
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', webm, '-vf', `${filtre},palettegen`, palette])
@@ -120,8 +121,8 @@ async function parcours(navigateur: Browser): Promise<void> {
     `${filtre}[x];[x][1:v]paletteuse`,
     join(SORTIE, 'parcours.gif'),
   ])
-  rmSync(palette)
-  rmSync(webm)
+  supprimerSync(palette)
+  supprimerSync(webm)
 }
 
 mkdirSync(SORTIE, { recursive: true })

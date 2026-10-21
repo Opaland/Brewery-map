@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:844263145",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bacquet et Cie",
+   "c": "Pierres",
+   "d": "28",
+   "lat": 48.58236,
+   "lon": 1.56596,
+   "km": 403.3,
+   "cat": 0,
+   "conf": "",
+   "note": "L'office de tourisme de Chartres décrit des bières faites à la main à Pierres ; aucune page lue ne dit ce qu'on peut faire à la brasserie.",
+   "addr": "3 rue de l'Europe, 28130 Pierres",
+   "src": "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+de+l%27Europe%2C+28130+Pierres&limit=5"
+  ],
+  "extrait": "The water of Pierres is chosen for its good sanitary quality and filtered with activated carbon.",
+  "choix": "Catégorie 0 : la page est rangée sous « vente de produits », mais son texte ne dit pas qu'on achète à la brasserie. Les téléphones de la page sont publiés par l'office, pas par la brasserie : non retenus. Même brasserie que le point OSM node/13358748900. Pas de site officiel trouvé."
+ }
+}

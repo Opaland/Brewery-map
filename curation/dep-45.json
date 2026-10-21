@@ -1,0 +1,282 @@
+{
+ "lot": "dep-45",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie du Vauret",
+    "c": "Mardié",
+    "d": "45",
+    "lat": 47.92724,
+    "lon": 2.05371,
+    "km": 324,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site de la brasserie annonce une « Boutique & Bar » ouverte le jeudi et le vendredi après-midi, sans heures.",
+    "addr": "501 rue du Vauret, 45430 Mardié",
+    "src": "https://www.brasserieduvauret.fr/contact",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserieduvauret.fr/",
+     "source": "https://www.brasserieduvauret.fr/contact",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.brasserieduvauret.fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=501+rue+du+Vauret%2C+45430+Mardi%C3%A9&limit=5"
+   ],
+   "extrait": "Horaires Boutique & Bar : Jeudi et vendredi après midi",
+   "choix": "Catégorie 1 en confiance faible : un bar est nommé, sans dire ce qu'on y boit. « Jeudi et vendredi après midi » n'a pas d'heures : pas d'horaires (la page renvoie à Google). Seul un portable est publié : écarté."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie des Écluses",
+    "c": "Saint-Hilaire-Saint-Mesmin",
+    "d": "45",
+    "lat": 47.86517,
+    "lon": 1.83424,
+    "km": 329.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe et publie son site : elle commercialise ses bières localement ; il ne dit pas qu'on peut y acheter ou boire sur place.",
+    "addr": "935 route d'Orléans, 45160 Saint-Hilaire-Saint-Mesmin",
+    "src": "https://labrasseriedesecluses.fr/contact",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://labrasseriedesecluses.fr/",
+     "source": "https://labrasseriedesecluses.fr/contact",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://labrasseriedesecluses.fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=935+route+d%27Orl%C3%A9ans%2C+45160+Saint-Hilaire-Saint-Mesmin&limit=5"
+   ],
+   "extrait": "La brasserie des Ecluses confectionne et commercialise ses bières localement.",
+   "choix": "Catégorie 0 : aucune phrase ne dit « vente sur place » ou « bar » ; le « Shop » est une boutique en ligne. Des jours d'ouverture (mardi, jeudi, vendredi, 10 h-18 h) sans dire s'ils valent pour la vente ou l'accueil : non proposés. Deux portables : écartés. Même brasserie que le point OSM node/7218292289. L'office de tourisme donne une autre adresse (80 route d'Olivet) ; celle du site et du registre est retenue."
+  },
+  {
+   "fiche": {
+    "n": "Mouss'bat",
+    "c": "Chaingy",
+    "d": "45",
+    "lat": 47.88251,
+    "lon": 1.76665,
+    "km": 334.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site annonce « Dégustation & vente directe à la brasserie », avec des horaires d'ouverture.",
+    "addr": "4 rue des Ratys, 45380 Chaingy",
+    "src": "https://www.moussbat.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.moussbat.com/",
+     "source": "https://www.moussbat.com/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "21:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ]
+      ],
+      "source": "https://www.moussbat.com/",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.moussbat.com/",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+des+Ratys%2C+45380+Chaingy&limit=5"
+   ],
+   "extrait": "Dégustation & vente directe à la brasserie",
+   "choix": "Catégorie 1 : dégustation et vente à la brasserie. Horaires : ceux du bloc « Horaires d'ouverture » de la page (un second bloc identique est titré « Horaires de livraison »). Seul un portable est publié : écarté. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "La Riff",
+    "c": "Saint-Pryvé-Saint-Mesmin",
+    "d": "45",
+    "lat": 47.8903,
+    "lon": 1.88247,
+    "km": 329.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site cite une vente directe à l'atelier, avec des afterworks ; pas de bar ni de dégustation décrits.",
+    "addr": "4 Impasse des Vignes, 45750 Saint-Pryvé-Saint-Mesmin",
+    "src": "https://www.la-riff.fr/hub/brasserie",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.la-riff.fr/",
+     "source": "https://www.la-riff.fr/hub/brasserie",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.la-riff.fr/hub/brasserie",
+    "https://data.geopf.fr/geocodage/search?q=4+Impasse+des+Vignes%2C+45750+Saint-Pryv%C3%A9-Saint-Mesmin&limit=5"
+   ],
+   "extrait": "Vente directe, afterworks et rendez-vous annoncés dans l’agenda.",
+   "choix": "Catégorie 2 : vente citée ; les afterworks ne disent pas ce qui s'y sert. Seul un portable est publié : écarté. Horaires non proposés : la page contact ne s'ouvre pas depuis le poste (404). Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "LABDD",
+    "c": "Donnery",
+    "d": "45",
+    "lat": 47.90931,
+    "lon": 2.10326,
+    "km": 320.1,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site annonce la vente directe à la brasserie le jeudi et le vendredi de 16 h à 19 h ; aucune dégustation sur place n'y est citée.",
+    "addr": "68 avenue d'Orléans, 45450 Donnery",
+    "src": "https://labdd.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://labdd.fr",
+     "source": "https://labdd.fr",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://labdd.fr",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://labdd.fr",
+    "https://data.geopf.fr/geocodage/search?q=68+avenue+d%27Orl%C3%A9ans%2C+45450+Donnery&limit=5"
+   ],
+   "extrait": "Les jeudis et vendredis de 16 heures à 19 heures – 68 avenue d’Orléans 45450 Donnery",
+   "choix": "Catégorie 2 : vente directe seulement. Deux portables publiés : écartés. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "La Riole",
+    "c": "La Ferté-Saint-Aubin",
+    "d": "45",
+    "lat": 47.72403,
+    "lon": 1.92113,
+    "km": 314,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale dont le site propose bières en bouteilles, fûts et ateliers de dégustation ; ni adresse, ni lieu de vente, ni horaires publiés.",
+    "addr": "La Ferté-Saint-Aubin",
+    "src": "https://lariole.com",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://lariole.com",
+     "source": "https://lariole.com",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://lariole.com",
+    "https://data.geopf.fr/geocodage/search?q=La+Fert%C3%A9-Saint-Aubin&type=municipality&limit=5"
+   ],
+   "extrait": "Bières bouteilles, 33cl et 75cl",
+   "choix": "Catégorie 0 : le site ne dit pas si l'on peut acheter ou boire à la brasserie. Commune du registre (le site ne la donne pas) : position au centre de La Ferté-Saint-Aubin. Seul un portable est publié : écarté. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "La Brasserie du Four à Briques",
+    "c": "Saint-Pryvé-Saint-Mesmin",
+    "d": "45",
+    "lat": 47.89053,
+    "lon": 1.87595,
+    "km": 329.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site propose la visite et la dégustation des bières sur place, au Beer Garden en plein air ; il ne cite ni vente, ni horaires.",
+    "addr": "30 Rue du Vieux Bourg, 45750 Saint-Pryvé-Saint-Mesmin",
+    "src": "https://labrasseriedufourabriques.com/nos-services/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://labrasseriedufourabriques.com/",
+     "source": "https://labrasseriedufourabriques.com/nos-services/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://labrasseriedufourabriques.com/nos-services/",
+    "https://data.geopf.fr/geocodage/search?q=30+Rue+du+Vieux+Bourg%2C+45750+Saint-Pryv%C3%A9-Saint-Mesmin&limit=5"
+   ],
+   "extrait": "Découvrez notre brasserie et goûtez nos bières artisanales directement sur place au Beer Garden pour une dégustation conviviale en plein air.",
+   "choix": "Catégorie 1, confiance moyenne : la consommation sur place est écrite, pas la vente. L'adresse est celle que le site donne pour le siège, sans dire que le Beer Garden s'y trouve. Seul un portable est publié : écarté. Aucun horaire."
+  },
+  {
+   "fiche": {
+    "n": "HopRock",
+    "c": "Chécy",
+    "d": "45",
+    "lat": 47.90262,
+    "lon": 2.00044,
+    "km": 324.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site accueille pour des visites et dégustations, et propose de commander en ligne puis de retirer à la brasserie.",
+    "addr": "75 Avenue d'Orléans, 45430 Chécy",
+    "src": "https://hoprock.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://hoprock.fr/",
+     "source": "https://hoprock.fr/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://hoprock.fr/",
+    "https://data.geopf.fr/geocodage/search?q=75+Avenue+d%27Orl%C3%A9ans%2C+45430+Ch%C3%A9cy&limit=5"
+   ],
+   "extrait": "Et bien sûr nous vous accueillons pour des visites et dégustations !",
+   "choix": "Catégorie 1, confiance moyenne : dégustation et retrait écrits, vente au comptoir non décrite. Aucun téléphone publié. Horaires (lundi, jeudi, vendredi 14 h 30-18 h 30) non proposés : la page ne dit pas s'ils valent pour l'accueil ou le retrait."
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+[
+ {
+  "cle": "sirene:947930525",
+  "nom": "BRASSERIE DE CHAMBORD",
+  "communes": [
+   "SAINT-GERVAIS-LA-FORET"
+  ],
+  "departement": "41",
+  "adresses": [
+   "125 ROUTE NATIONALE 41350 SAINT-GERVAIS-LA-FORET",
+   "125 B ROUTE NATIONALE 41350 SAINT-GERVAIS-LA-FORET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "947930525",
+  "sirets": [
+   "94793052500037",
+   "94793052500045"
+  ],
+  "osm": [],
+  "lat": 47.5626643608255,
+  "lon": 1.37019613032125,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899913495",
+  "nom": "LES BRASSEURS SOLOGNOTS",
+  "communes": [
+   "NEUNG-SUR-BEUVRON"
+  ],
+  "departement": "41",
+  "adresses": [
+   "DOMAINE DE VILLEMORANT ECOPARC D'AFFAIRES DE SOLOGNE 41210 NEUNG-SUR-BEUVRON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899913495",
+  "sirets": [
+   "89991349500029"
+  ],
+  "osm": [],
+  "lat": 47.5353112860722,
+  "lon": 1.76835823976836,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830490983",
+  "nom": "BRASSERIE SOMMIER",
+  "communes": [
+   "MONTOIRE SUR LE LOIR"
+  ],
+  "departement": "41",
+  "adresses": [
+   "3 RUE BALZAC 41800 MONTOIRE SUR LE LOIR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830490983",
+  "sirets": [
+   "83049098300012"
+  ],
+  "osm": [],
+  "lat": 47.759760843,
+  "lon": 0.8682263112,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908580806",
+  "nom": "BREWING CARTEL",
+  "communes": [
+   "VALLOIRE-SUR-CISSE"
+  ],
+  "departement": "41",
+  "adresses": [
+   "7 RUE DES MINIMES CHOUZY SUR CISSE 41150 VALLOIRE-SUR-CISSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908580806",
+  "sirets": [
+   "90858080600010"
+  ],
+  "osm": [],
+  "lat": 47.522590675,
+  "lon": 1.2455223068,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809179161",
+  "nom": "BRASSERIE LECLERCQ",
+  "communes": [
+   "COUR-CHEVERNY"
+  ],
+  "departement": "41",
+  "adresses": [
+   "3 RUE DU STADE 41700 COUR-CHEVERNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809179161",
+  "sirets": [
+   "80917916100017"
+  ],
+  "osm": [],
+  "lat": 47.517273232,
+  "lon": 1.4474309891,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "BOURSAY"
+  ],
+  "departement": "41",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:892357849",
+  "nom": "ART&BRE",
+  "communes": [
+   "LAMOTTE-BEUVRON"
+  ],
+  "departement": "41",
+  "adresses": [
+   "3 RUE DURFORT DE DURAS 41600 LAMOTTE-BEUVRON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892357849",
+  "sirets": [
+   "89235784900017"
+  ],
+  "osm": [],
+  "lat": 47.600337335,
+  "lon": 2.0225698596,
+  "statut": "nouveau"
+ }
+]

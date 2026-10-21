@@ -152,17 +152,22 @@ function texteDuCompte(
 
 /** Les visites reçues d'un autre onglet, relues par les mêmes règles que le stockage. */
 
+type Couche = { brasseries: readonly Brasserie[]; extrait: string } | null
+
 export function App({
   stockage,
   couche = null,
+  coucheTardive,
 }: {
   stockage: Stockage
-  couche?: { brasseries: readonly Brasserie[]; extrait: string } | null
+  couche?: Couche
+  /** La même couche, si elle arrive après l'attente de `main.tsx` (A14). */
+  coucheTardive?: Promise<Couche>
 }) {
   const ini = stockage.initiales
   // Une fiche partagée (S27, `#fiche=…`) : son nom dans la recherche, et la
   // fiche ouverte — trouvée à toute distance, comme un nom tapé.
-  const [ficheOuverte] = useState(() => ficheDuLien(window.location.hash))
+  const [ficheOuverte, setFicheOuverte] = useState(() => ficheDuLien(window.location.hash))
   const [texte, setTexte] = useState(ficheOuverte ?? '')
   const [lienPartage, setLienPartage] = useState(ficheOuverte !== undefined)
   const [rayonKm, setRayonKm] = useState<number>(ini.rayonKm)
@@ -180,6 +185,22 @@ export function App({
   }
   const [categories, setCategories] = useState<readonly Categorie[]>(ini.categories)
   const [selection, setSelection] = useState<string | null>(ficheOuverte ?? null)
+  // Un lien `#fiche=…` collé dans l'onglet déjà ouvert : l'adresse change
+  // sans recharger la page, et le lien était ignoré (A17).
+  useEffect(() => {
+    const suivre = () => {
+      const nom = ficheDuLien(window.location.hash)
+      if (nom === undefined) return
+      setFicheOuverte(nom)
+      setTexte(nom)
+      setLienPartage(true)
+      setSelection(nom)
+    }
+    window.addEventListener('hashchange', suivre)
+    return () => {
+      window.removeEventListener('hashchange', suivre)
+    }
+  }, [])
   const [type, setType] = useState<TypeDeBiere | undefined>(ini.type)
   const [favoris, setFavoris] = useState<readonly string[]>(ini.favoris)
   // Un raccourci de l'application installée (S46), lu une fois puis retiré
@@ -249,9 +270,12 @@ export function App({
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   // Chaque annonce est un nouveau nœud (S317) : à texte égal, la région
   // vivante ne bougeait pas, et un second échec n'était pas lu (revue adverse S303).
-  const [annonce, setAnnonceCompte] = useState({ texte: '', n: 0 })
-  const setAnnonce = useCallback((texte: string) => {
-    setAnnonceCompte((a) => ({ texte, n: a.n + 1 }))
+  // `criteres` : pour l'annonce d'un geste sur une fiche (favori, carnet),
+  // la signature des critères au moment du geste ; elle ne s'affiche plus
+  // quand les critères changent (A25 : elle restait collée au compte).
+  const [annonce, setAnnonceCompte] = useState<{ texte: string; n: number; criteres?: string }>({ texte: '', n: 0 })
+  const setAnnonce = useCallback((texte: string, criteres?: string) => {
+    setAnnonceCompte((a) => ({ texte, n: a.n + 1, ...(criteres === undefined ? {} : { criteres }) }))
   }, [])
   const compte = useRef<HTMLParagraphElement>(null)
   const barre = useHauteurBarre()
@@ -333,12 +357,32 @@ export function App({
 
   // Toute la France (S25) : la couche OpenStreetMap, chargée avant l'écran
   // (`main.tsx`), ou absente si elle n'a pas pu se charger.
+  // Arrivée après les 3 s d'attente, elle n'était plus prise qu'au
+  // rechargement, et les favoris OSM restaient invisibles (A14).
+  // En attendant, l'écran dit qu'elle arrive, pas qu'elle a échoué (revue
+  // Bernard S333 : « n'ont pas pu se charger » sur une connexion lente).
+  const [tardive, setTardive] = useState<Couche | 'attente'>(() =>
+    couche === null && coucheTardive !== undefined ? 'attente' : null,
+  )
+  useEffect(() => {
+    if (couche !== null || coucheTardive === undefined) return
+    let actif = true
+    void coucheTardive.then((c) => {
+      if (actif) setTardive(c)
+    })
+    return () => {
+      actif = false
+    }
+  }, [couche, coucheTardive])
+  const coucheVue = couche ?? tardive
   const osm = useMemo(
     () =>
-      couche === null
-        ? { etat: 'echec' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
-        : { etat: 'pret' as const, ...couche },
-    [couche],
+      coucheVue === 'attente'
+        ? { etat: 'attente' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
+        : coucheVue === null
+          ? { etat: 'echec' as const, brasseries: [] as readonly Brasserie[], extrait: '' }
+          : { etat: 'pret' as const, ...coucheVue },
+    [coucheVue],
   )
   // Les fiches vérifiées hors de la région de départ arrivent juste après le
   // premier rendu (S294) : toujours demandées, quelle que soit la position.
@@ -380,7 +424,11 @@ export function App({
   const toutes = useMemo(() => [...fiches, ...osm.brasseries], [fiches, osm.brasseries])
   // Ce qui est cherché : sans la couche OSM si la personne l'a décochée
   // (revue persona S25 : « À confirmer » seul ne la séparait pas du vérifié).
-  const cherchees = avecOsm ? toutes : fiches
+  // Un lien partagé vers un point OSM l'ouvre même couche décochée (A2) :
+  // sinon « Aucune brasserie ne correspond », sans dire pourquoi.
+  const lienVersOsm =
+    lienPartage && ficheOuverte !== undefined && texte === ficheOuverte && !fiches.some((b) => b.n === ficheOuverte)
+  const cherchees = avecOsm || lienVersOsm ? toutes : fiches
   const jugeables = useMemo(() => jugeablesCeWeekEnd(cherchees, joursWeekEnd), [cherchees, joursWeekEnd])
 
   const parDepartement = useMemo(() => compterParDepartement(cherchees), [cherchees])
@@ -422,6 +470,10 @@ export function App({
     [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
+  // Pas `criteres` en entier : marquer une visite change `exclure`, mettre
+  // en favori change `seulement`, et l'annonce de ce geste s'effaçait aussitôt.
+  const signatureCriteres = JSON.stringify([origine, rayonKm, texte, categories, type, favorisSeulement, pasVisitees, departement, weekEnd, avecOsm])
+  const annonceVisible = annonce.criteres === undefined || annonce.criteres === signatureCriteres
   // La liste serait-elle vide aussi sans « ouvertes ce week-end », ou sans
   // le carnet ? Alors ce n'est pas lui qu'il faut accuser (A11, S315).
   // Calculé seulement quand la liste est vide.
@@ -471,6 +523,12 @@ export function App({
   const nomsCherches = useMemo(() => new Set(cherchees.map((b) => b.n)), [cherchees])
   const orphelins = osm.etat === 'pret' && suite.etat === 'pret' ? favoris.filter((f) => !nomsConnus.has(f)) : []
   const nbFavorisConnus = favoris.length - orphelins.length
+  // Les visites et notes d'une fiche renommée ou retirée : dites, et
+  // retirables, comme les favoris (A16 : gardées, invisibles, sans remède).
+  const carnetOrphelins =
+    osm.etat === 'pret' && suite.etat === 'pret'
+      ? [...new Set([...visites.map((v) => v.nom), ...notes.map((n) => n.nom)])].filter((n) => !nomsConnus.has(n))
+      : []
   const etatFiltres: EtatFiltres = {
     categories,
     favorisSeulement,
@@ -485,7 +543,7 @@ export function App({
     const retrait = favoris.includes(nom)
     setFavoris((avant) => basculerFavori(avant, nom))
     if (!retrait) stockage.proteger()
-    setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }))
+    setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }), signatureCriteres)
     // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
     // focus dedans : sa voisine sert de repli, la suivante d'abord.
     if (retrait && favorisSeulement) {
@@ -517,17 +575,29 @@ export function App({
     setPasVisitees(d.pasVisitees)
     setNotes(d.notes)
     setTheme(d.theme)
+    // Sinon la vue « Mes favoris » réécrivait sa valeur de départ par-dessus l'effacement (A13).
+    setFavorisParRaccourci(false)
   }, [tenirPourPartage])
   useEffect(() => {
     remettreAZeroRef.current = remettreAZero
   }, [remettreAZero])
 
   const toutEffacer = () => {
-    Promise.all([stockage.effacer(), oublierLesTuiles()])
+    // L'un après l'autre : si seul le fond de carte résiste, la phrase dit ce
+    // qui a été effacé, au lieu de « rien n'a changé » (A12).
+    stockage
+      .effacer()
       .then(() => {
         remettreAZero()
         annoncerEffacement()
-        setAnnonce(t('Favoris, carnet, notes, réglages et fond de carte gardé effacés de cet appareil.'))
+        return oublierLesTuiles().then(
+          () => {
+            setAnnonce(t('Favoris, carnet, notes, réglages et fond de carte gardé effacés de cet appareil.'))
+          },
+          () => {
+            setAnnonce(t('Favoris, carnet, notes et réglages effacés de cet appareil ; le fond de carte gardé n’a pas pu l’être : recommencez l’effacement.'))
+          },
+        )
       })
       .catch(() => {
         setAnnonce(t('L’effacement a échoué : rien n’a changé. Réessayez.'))
@@ -538,11 +608,15 @@ export function App({
     const retrait = visites.some((v) => v.nom === nom)
     setVisites((avant) => basculerVisite(avant, nom, dateDuJour(new Date())))
     if (!retrait) stockage.proteger()
-    setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }))
+    setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }), signatureCriteres)
   }
 
   const retirerOrphelins = () => {
     setFavoris((avant) => avant.filter((f) => nomsConnus.has(f)))
+  }
+  const retirerCarnetOrphelins = () => {
+    setVisites((avant) => avant.filter((v) => nomsConnus.has(v.nom)))
+    setNotes((avant) => avant.filter((n) => nomsConnus.has(n.nom)))
   }
 
   const basculer = (cat: Categorie) => {
@@ -801,6 +875,8 @@ export function App({
               nbFavoris={nbFavorisConnus}
               orphelins={orphelins}
               onRetirerOrphelins={retirerOrphelins}
+              carnetOrphelins={carnetOrphelins}
+              onRetirerCarnetOrphelins={retirerCarnetOrphelins}
               seulement={favorisSeulement}
               onSeulement={(v) => {
                 setFavorisParRaccourci(false)
@@ -833,7 +909,9 @@ export function App({
 
       {/* Rien à portée (depuis Lille) : où est la plus proche, et ce que
           couvre le fichier, plutôt qu'une liste vide (revue globale S22). */}
-      {resultats.length === 0 && !favorisSeulement && !partout && suite.etat !== 'attente' && (
+      {/* Sans la suite, les fiches ne sont que celles de la région : « la plus
+          proche » et le nombre de départements seraient faux (revue adverse du 21/10). */}
+      {resultats.length === 0 && !favorisSeulement && !partout && suite.etat === 'pret' && (
         <p className="champ-aide" data-testid="plus-proche">
           {(() => {
             const p = plusProche(cherchees, origine.point, criteres)
@@ -867,10 +945,17 @@ export function App({
           </div>
         </div>
       )}
+      {osm.etat === 'attente' && (
+        <p className="champ-aide" role="status" data-testid="osm-attente">
+          {t('Les brasseries de toute la France (OpenStreetMap) arrivent encore : la connexion est lente. Les fiches vérifiées sont déjà là.')}
+        </p>
+      )}
       {osm.etat === 'echec' && (
         <div className="champ-aide" role="status" data-testid="osm-absente">
           <p>
-            {t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: departements.length })}
+            {suite.etat === 'pret'
+              ? t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées, dans {n} départements, sont là.', { n: departements.length })
+              : t('Les brasseries de toute la France (OpenStreetMap) n’ont pas pu se charger : seules les fiches vérifiées de la région sont là.')}
           </p>
           <div className="depart-actions">
             <button
@@ -977,7 +1062,7 @@ export function App({
           liste, elle partait avec le défilement (revue adverse S29). */}
       <div className="barre-compte" ref={barre}>
         <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
-          {annonce.texte !== '' && <span key={annonce.n} data-testid="annonce">{annonce.texte} </span>}
+          {annonce.texte !== '' && annonceVisible && <span key={annonce.n} data-testid="annonce">{annonce.texte} </span>}
           {texteDuCompte(
             suite.etat === 'attente',
             resultats.length,
