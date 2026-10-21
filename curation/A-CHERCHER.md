@@ -14,24 +14,29 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 348 | 18 (5 %) | 44 | 161 | 156 | 224 | 263 | 257 | 194 |
+| **Total** | 370 | 18 (5 %) | 44 | 168 | 159 | 226 | 280 | 270 | 216 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 6 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 4 | 4 | 6 | 8 | 2 |
+| 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
+| 28 · Eure-et-Loir | 4 | 0 (0 %) | 0 | 3 | 2 | 0 | 2 | 2 | 4 |
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
-| 37 · Indre-et-Loire | 4 | 0 (0 %) | 0 | 2 | 1 | 0 | 2 | 4 | 1 |
+| 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
+| 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
 | 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 18 | 30 | 26 | 28 | 24 |
+| 41 · Loir-et-Cher | 1 | 0 (0 %) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 4 | 4 | 6 | 7 | 7 | 7 | 7 |
 | 44 · Loire-Atlantique | 32 | 2 (6 %) | 0 | 12 | 11 | 9 | 21 | 22 | 12 |
+| 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 8 | 6 | 8 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
 | 50 · Manche | 9 | 0 (0 %) | 0 | 4 | 4 | 4 | 9 | 6 | 5 |
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
-| 56 · Morbihan | 23 | 1 (4 %) | 0 | 13 | 9 | 11 | 20 | 16 | 12 |
+| 56 · Morbihan | 25 | 1 (4 %) | 0 | 13 | 9 | 11 | 22 | 18 | 14 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 25 | 31 | 33 | 33 | 33 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 8 | 8 | 8 | 6 |
@@ -42,7 +47,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-161 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+168 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -70,6 +75,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie des 9 Mondes (Ranville) : sans adresse vérifiée, sans horaires
 - La JJAP – Les 2 Terres (Caen) : sans horaires
 
+### 18 · Cher
+
+- Brasserie de l'Arnon (Loye-sur-Arnon) : sans téléphone, sans horaires, sans bières
+
 ### 22 · Côtes-d'Armor
 
 - Brasserie de Launay (Lamballe-Armor) : sans site, sans téléphone, sans horaires, sans bières
@@ -93,6 +102,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 27 · Eure
 
 - Les Deux Amants (Val-de-Reuil) : sans site, sans téléphone, sans horaires
+
+### 28 · Eure-et-Loir
+
+- Brasserie Bacquet et Cie (Pierres) : sans site, sans téléphone, sans horaires, sans bières
+- Micro Brasserie Funk (Bouglainval) : sans site, sans téléphone, sans bières
+- Brasserie delabonne (Gellainville) : sans horaires, sans bières
 
 ### 29 · Finistère
 
@@ -120,6 +135,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 37 · Indre-et-Loire
 
+- Brasserie Kapsyl (Chambray-lès-Tours) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie des Canailles (Rochecorbon) : sans téléphone, sans horaires
 - Brasserie de la Pigeonnelle (Céré-la-Ronde) : sans horaires
 
@@ -181,6 +197,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Nautile (Rezé) : sans horaires, sans bières
 - Brasserie Plormel (Vieillevigne) : sans horaires
 - Brasserie San Roce (Jans) : sans horaires
+
+### 45 · Loiret
+
+- La Riole (La Ferté-Saint-Aubin) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- La Brasserie des Écluses (Saint-Hilaire-Saint-Mesmin) : sans téléphone, sans horaires, sans bières
 
 ### 49 · Maine-et-Loire
 
