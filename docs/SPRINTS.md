@@ -2947,3 +2947,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/DECISIONS.md`, « Règle de Cédric du 21/10 » : créer et modifier une fiche sans lui demander, quand une source publique la donne (Untappd pour les bières). Appliquée aux 22 brasseries nouvelles (`dep-45` 8, `dep-41` 1, `dep-18` 4, `dep-36` 2, `dep-28` 4, `s327-a-relancer` 3) : 370 fiches, 29 départements ; 14 points OSM devenus des fiches quittent la couche (866).
 
+## Règle de Cédric du 21/10, deuxième application *(21/10)*
+
+18 propositions appliquées : `s326` (1, 2, 3, 4, 6), `s309` (4), `s311` (3, 4, 8), `s314` (1, 2, 3, 5, 8, 10 ; les portables de Manev'Ale et de Chanaz, gardés par Cédric le 20/10), `s323` (2, 3, 4). Restent à Cédric : le déménagement d'Animus, La Valentinoise fermée, les déménagements de Paille et Vellavia, le portable de Cluny. Laissées : les notes périmées des fiches déjà fermées ou déménagées (PR #159).
+

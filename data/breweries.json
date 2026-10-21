@@ -548,11 +548,12 @@
   "km": 10.5,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Site de production des Bières Georges (marque de la Brasserie Georges, Lyon Perrache), à Vénissieux. Adresse, vente sur place et horaires non publiés dans les sources lues.",
   "addr": "Vénissieux",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Maltazar",
@@ -906,6 +907,13 @@
   "src": "https://www.nomadebiere.fr/la-taproom/",
   "coordPrecision": "address",
   "beers": [],
+  "contact": {
+   "tel": "04 72 50 88 53",
+   "site": "https://www.nomadebiere.fr/la-taproom/",
+   "untappd": "https://untappd.com/NomadeBrewery",
+   "source": "https://www.nomadebiere.fr/la-taproom/",
+   "verifieLe": "2026-10-21"
+  },
   "horaires": [
    {
     "nature": "accueil",
@@ -1144,11 +1152,12 @@
   "km": 30.1,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "SIRENE : « BRASSERIE 767 » (Geoffrey Pitaval, fabrication de bière), établissement fermé, entreprise cessée ; son adresse était Le Vernay, 42140 Grammond, pas Chazelles-sur-Lyon. Aucune page de la brasserie lue.",
   "addr": "Chazelles-sur-Lyon",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "La Farlodoise",
@@ -1621,11 +1630,12 @@
   "km": 42.8,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Annuaire des entreprises (SIRENE) : le siège de Villieu-Loyes-Mollon est fermé depuis le 07/03/2025, alors que la société reste « active » ; des pages de tourisme non datées la décrivent encore ouverte. Aucune adresse d'accueil lue. À confirmer.",
   "addr": "Meximieux",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "La Margau",
@@ -3086,10 +3096,11 @@
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Dompierre-les-Ormes",
+  "addr": "La Fin de Meulin, 71520 Dompierre-les-Ormes",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Terre de Possibles",
@@ -3116,10 +3127,25 @@
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Colombier-le-Jeune",
+  "addr": "Orion, 07270 Colombier-le-Jeune",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Dégustation individuelle gratuite ; visite guidée sur demande. Horaires d'une fiche de tourisme, à confirmer auprès de la brasserie.",
+    "source": "https://en.ardeche-guide.com/producer/micro-brasserie-kan-mem-5116835/",
+    "verifieLe": "2026-10-20"
+   }
+  ]
  },
  {
   "n": "Brasserie du Val d'Ainan (La Dauphine)",
@@ -3593,11 +3619,12 @@
   "km": 78.9,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Miribel-les-Échelles",
+  "note": "Adresse lue au répertoire SIRENE (« BRASSERIE COEUR DE CHARTREUSE », établissement actif) et sur l'annuaire lopt.org ; ce qu'on peut y faire n'est pas établi.",
+  "addr": "25 chemin du Puits, 38380 Miribel-les-Échelles",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Manev'Ale",
@@ -3606,13 +3633,34 @@
   "lat": 45.05,
   "lon": 4.23,
   "km": 80.6,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Le Mazet-Saint-Voy",
-  "src": "",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Dégustation et vente directe d'après la page de la commune de Mazet-Saint-Voy (non datée) ; horaires non publiés sur les pages lues.",
+  "addr": "Le Riou, 43520 Mazet-Saint-Voy",
+  "src": "https://mazet-st-voy.com/?page_id=12",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Blanche de type abbaye"
+   },
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   }
+  ],
+  "verifieLe": "2026-10-20",
+  "contact": {
+   "tel": "06 51 59 43 26",
+   "site": "https://brasseriemanevale.wixsite.com/lize/",
+   "source": "https://brasseriemanevale.wixsite.com/lize/",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Brasserie Rohner",
@@ -3641,13 +3689,92 @@
   "lat": 45.80197,
   "lon": 5.79699,
   "km": 82.1,
-  "cat": 0,
-  "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Chanaz",
-  "src": "",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie du lundi au vendredi, de 8h à 12h30 et de 14h à 17h, sauf livraison ; fermée le samedi et le dimanche d'après un guide local. Visites guidées avec dégustation sur réservation seulement, du lundi au samedi. Les bières se vendent aussi sur le marché d'Aix-les-Bains le samedi matin. Aucun bar ni dégustation ouverte lus.",
+  "addr": "136 route du Canal, 73310 Chanaz",
+  "src": "https://www.autourdulacdubourget.fr/guide/bieres-du-biez-artisanale/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-10-20",
+  "contact": {
+   "tel": "06 59 47 93 80",
+   "source": "https://www.autourdulacdubourget.fr/guide/bieres-du-biez-artisanale/",
+   "verifieLe": "2026-10-20"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "08:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "08:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "08:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "08:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "08:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "remarque": "Vente directe « sauf livraison ». Visites guidées de 20 à 25 minutes suivies d'une dégustation, sur réservation uniquement du lundi au samedi. Marché d'Aix-les-Bains le samedi matin, et le mercredi matin en juillet et août.",
+    "source": "https://www.autourdulacdubourget.fr/guide/bieres-du-biez-artisanale/",
+    "verifieLe": "2026-10-20"
+   }
+  ]
  },
  {
   "n": "Les Croqueurs de Lune",
@@ -3674,11 +3801,12 @@
   "km": 82.2,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Un annuaire de microbrasseries la dit créée en juin 2015 et fermée en 2018. Fermeture non confirmée par une autre source : le site cité (lesbiereshoffmann.com) ne répond plus, et SIRENE ne la trouve pas par son nom. Aucune source de vente lue.",
   "addr": "Culoz",
   "src": "",
   "coordPrecision": "commune",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie du Vercors (Biercors)",
@@ -3801,11 +3929,12 @@
   "km": 78.8,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Établissement fermé le 27/12/2024 d'après le répertoire SIRENE (« LA BRASSERIE DE MAILLAT », sigle MAC NEVER'S AND CO, 29 rue du Clou, 01430 Maillat, seul établissement) ; l'entreprise figure encore comme active. Catégorie non revue.",
   "addr": "Maillat",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie de l'Emblavez",
@@ -4533,10 +4662,11 @@
   "cat": 3,
   "conf": "faible",
   "note": "Bière sans alcool pour sportifs, vendue via des points de vente ; aucune vente à la brasserie citée.",
-  "addr": "Chambéry",
+  "addr": "50 rue des Champs, 73000 Chambéry",
   "src": "https://runhard.fr/ou-nous-trouver/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie Caquot",
@@ -4616,11 +4746,12 @@
   "km": 93.4,
   "cat": 0,
   "conf": "",
-  "note": "Aucune source fiable lue pour cette brasserie.",
+  "note": "Untappd la dit fermée (« This brewery is no longer in business. ») ; aucune autre source, SIRENE ne la trouve pas.",
   "addr": "Grenoble",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie du Marrel",
@@ -4932,10 +5063,11 @@
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Billiat",
+  "addr": "2 T route du Chêne, Davanod, 01200 Billiat",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie Les Dameuses",
@@ -5210,7 +5342,12 @@
   "addr": "37 chemin des gîtes, 38530 Barraux",
   "src": "https://www.chartreuse-tourisme.com/offres/brasserie-gresivale-barraux-fr-3629997/",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "contact": {
+   "site": "https://gresivale.fr/",
+   "source": "https://gresivale.fr/contact/",
+   "verifieLe": "2026-10-21"
+  }
  },
  {
   "n": "Brasserie Two Dudes",
@@ -5642,7 +5779,13 @@
     "type": "ipa"
    }
   ],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "tel": "09 51 82 62 34",
+   "site": "https://trip-hop.fr",
+   "source": "https://trip-hop.fr/nous-suivre-et-nous-contacter",
+   "verifieLe": "2026-10-21"
+  }
  },
  {
   "n": "Baya",
@@ -8944,12 +9087,12 @@
   "km": 591.0,
   "cat": 0,
   "conf": "",
-  "note": "Brasserie installée à Plerguer d'après un annuaire ; rien sur la vente ou l'accueil.",
+  "note": "Cessation d'activité inscrite au registre des entreprises au 31/12/2024 (« La Brasserie Plouc », siège à Vieux-Viel) ; l'annuaire des bières bretonnes la donne encore installée à Plerguer, sans date. Rien sur la vente ou l'accueil.",
   "addr": "Plerguer",
   "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-21"
  },
  {
   "n": "Brasserie Sainte Colombe",
@@ -10695,14 +10838,87 @@
   "lat": 47.28059,
   "lon": -1.3733,
   "km": 501.9,
-  "cat": 2,
+  "cat": 1,
   "conf": "faible",
-  "note": "Vente directe à la brasserie, et dégustation lors d'une visite commentée, d'après la fiche régionale de tourisme.",
+  "note": "Bar et boutique ouverts le lundi soir, le vendredi soir et le samedi après-midi ; visite de la brasserie (production, houblonnière et bar) certains samedis après-midi, 5 € par personne, d'après le site de la brasserie.",
   "addr": "34 bis le Norestier, La Chapelle-Basse-Mer, 44450 Divatte-sur-Loire",
-  "src": "https://www.enpaysdelaloire.com/activites/degustations-et-produits-du-terroir/brasserie-de-la-divatte",
+  "src": "http://www.bieretrompesouris.com/",
   "coordPrecision": "address",
-  "beers": [],
-  "verifieLe": "2026-10-17"
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Blonde",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-blonde"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Blanche",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-blanche"
+   },
+   {
+    "type": "ipa",
+    "libelle": "I.P.A",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-i-p-a"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session I.P.A",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-session-i-p-a"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rousse",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-rousse"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple « Ste Radegonde »",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-triple---34-ste-radegonde--34-"
+   },
+   {
+    "type": "autre",
+    "libelle": "Givrée Triple d'Hiver",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-triple-d--39-hiver---34-givree--34-"
+   },
+   {
+    "type": "autre",
+    "libelle": "Rose Berliner Weisse",
+    "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-rose-berliner-weisse"
+   }
+  ],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 40 33 38 94",
+   "site": "http://www.bieretrompesouris.com/",
+   "source": "http://www.bieretrompesouris.com/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Horaires du bar et de la boutique. Visite de la brasserie certains samedis après-midi, à partir de 15 h.",
+    "source": "http://www.bieretrompesouris.com/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
  },
  {
   "n": "Brasserie de la Côte de Jade",
