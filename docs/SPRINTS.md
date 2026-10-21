@@ -2910,3 +2910,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S328 — Le Centre-Val de Loire hors Indre-et-Loire *(21/10, epic E30)*
 
 `docs/stories/S328.md`. Cinq lots de fiches nouvelles, en attente de Cédric : `curation/dep-45` (8), `dep-41` (1), `dep-18` (4), `dep-36` (2), `dep-28` (4), soit 19 fiches pour 84 candidats, chaque non-proposé avec sa raison. `controler` sans écart. La persona a fait redescendre Bos (moyenne) et L'Arnon (à confirmer). Fin de l'epic E30.
+
+## S329 — Un état qui dit vrai après un `/clear` *(21/10, epic E31)*
+
+`docs/stories/S329.md`. `docs/ETAT.md` réécrit au 21/10 ; l'état de reprise de CLAUDE.md complété (prochaine story nommée) ; dix lignes du BACKLOG barrées avec leur preuve ; le tableau d'A-MONTRER complet (11 groupes) ; les epics E31 à E35 dans `docs/EPICS.md`, chaque constat ouvert de la revue du 19/10 classé.
