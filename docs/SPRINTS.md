@@ -2914,3 +2914,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S329 — Un état qui dit vrai après un `/clear` *(21/10, epic E31)*
 
 `docs/stories/S329.md`. `docs/ETAT.md` réécrit au 21/10 ; l'état de reprise de CLAUDE.md complété (prochaine story nommée) ; dix lignes du BACKLOG barrées avec leur preuve ; le tableau d'A-MONTRER complet (11 groupes) ; les epics E31 à E35 dans `docs/EPICS.md`, chaque constat ouvert de la revue du 19/10 classé.
+
+## S330 — Ce que l'écran dit encore de faux *(21/10, epic E32)*
+
+`docs/stories/S330.md`. Sans la suite des fiches, plus de « la plus proche » ni de nombre de départements faux (revue adverse du 21/10) ; un lien vers un point OSM l'ouvre même couche décochée (A2) ; « Tout effacer » dit ce qui a été effacé si le fond de carte résiste (A12) ; la vue « Mes favoris » ne réécrit plus sa valeur après l'effacement (A13) ; un lien collé dans l'onglet ouvert ouvre la fiche (A17). Cinq e2e vus rouges.
