@@ -1,0 +1,21 @@
+{
+ "lot": "s338-plouc-fermee",
+ "propositions": [
+  {
+   "n": "Brasserie Plouc",
+   "changements": {
+    "fermee": {
+     "source": "https://recherche-entreprises.api.gouv.fr/search?q=brasserie%20plouc&per_page=5",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=brasserie%20plouc&per_page=5"
+   ],
+   "extrait": "nom commercial « LA BRASSERIE PLOUC » ; siège à VIEUX-VIEL (35610) ; établissement fermé le 2024-12-31 ; entreprise cessée ; activité 11.05Z ; créée le 2019-05-01.",
+   "choix": "Entrepreneur individuel : aucun nom de personne recopié. Question 6 du 21/10 à Cédric (« Plouc : fermée ? »), réponse « tout oui »."
+  }
+ ],
+ "revues": ["Brasserie Plouc"]
+}

@@ -2951,3 +2951,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 18 propositions appliquées : `s326` (1, 2, 3, 4, 6), `s309` (4), `s311` (3, 4, 8), `s314` (1, 2, 3, 5, 8, 10 ; les portables de Manev'Ale et de Chanaz, gardés par Cédric le 20/10), `s323` (2, 3, 4). Restent à Cédric : le déménagement d'Animus, La Valentinoise fermée, les déménagements de Paille et Vellavia, le portable de Cluny. Laissées : les notes périmées des fiches déjà fermées ou déménagées (PR #159).
 
+## Règle de Cédric étendue, troisième application *(21/10)*
+
+« tout oui, et ta règle couvre aussi ça » : la règle du 21/10 couvre désormais les déménagements, les fermetures et les portables (`docs/DECISIONS.md`). Appliqués : `s326` n° 5 (Animus à Grigny-sur-Rhône), `s323` n° 1 (Cluny, portable), 5 (La Valentinoise fermée), 6 (Paille à Lournand), 7 (Vellavia à Saint-Germain-Laprade), et `s338-plouc-fermee` (Plouc fermée, d'après le registre).
+

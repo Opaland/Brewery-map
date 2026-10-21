@@ -406,17 +406,17 @@
  },
  {
   "n": "Brasserie Animus",
-  "c": "Vaugneray",
+  "c": "Grigny-sur-Rhône",
   "d": "69",
-  "lat": 45.72655,
-  "lon": 4.65385,
-  "km": 9.7,
+  "lat": 45.60884,
+  "lon": 4.77404,
+  "km": 7.5,
   "cat": 0,
   "conf": "",
-  "note": "La brasserie a déménagé à Grigny (adresse non publiée) ; vente sur place non précisée. Contact : 06 95 10 82 98.",
-  "addr": "4 route du Pont Pinay, 69670 Vaugneray",
+  "note": "La brasserie a rouvert en 2024 dans un nouveau lieu de brassage à Grigny ; vente sur place non précisée.",
+  "addr": "63 rue André Sabatier, 69520 Grigny",
   "src": "https://www.brasserieanimus.com/la-brasserie",
-  "coordPrecision": "centre",
+  "coordPrecision": "address",
   "beers": [
    {
     "type": "blanche",
@@ -444,11 +444,11 @@
     "url": "https://www.brasserieanimus.com/les-bieres"
    }
   ],
-  "verifieLe": "2026-10-19",
+  "verifieLe": "2026-10-21",
   "contact": {
    "site": "https://www.brasserieanimus.com/",
    "source": "https://www.brasserieanimus.com/contact",
-   "verifieLe": "2026-10-19"
+   "verifieLe": "2026-10-21"
   }
  },
  {
@@ -3834,7 +3834,7 @@
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Château",
+  "addr": "Le Nière, 71250 Château",
   "src": "https://www.brasseriedecluny.fr/",
   "coordPrecision": "centre",
   "beers": [
@@ -3867,28 +3867,29 @@
     "libelle": "Zouaffe Fleur de Sureau"
    }
   ],
-  "verifieLe": "2026-10-19",
+  "verifieLe": "2026-10-20",
   "contact": {
+   "tel": "06 11 73 56 25",
    "site": "https://www.brasseriedecluny.fr/",
-   "untappd": "https://untappd.com/BrasserieDeCluny",
    "source": "https://www.brasseriedecluny.fr/",
-   "verifieLe": "2026-10-19"
+   "verifieLe": "2026-10-20"
   }
  },
  {
   "n": "Brasserie Paille",
-  "c": "Château",
+  "c": "Lournand",
   "d": "71",
-  "lat": 46.42485,
-  "lon": 4.60299,
-  "km": 84.3,
+  "lat": 46.45597,
+  "lon": 4.65083,
+  "km": 87.3,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Château",
+  "addr": "623 Grande Rue, 71250 Lournand",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie de Roche Colombe",
@@ -3918,7 +3919,12 @@
   "addr": "Valence",
   "src": "",
   "coordPrecision": "centre",
-  "beers": []
+  "beers": [],
+  "verifieLe": "2026-10-20",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=833947831",
+   "verifieLe": "2026-10-20"
+  }
  },
  {
   "n": "Mac Never's and Co.",
@@ -5154,18 +5160,19 @@
  },
  {
   "n": "Brasserie Vellavia",
-  "c": "Polignac",
+  "c": "Saint-Germain-Laprade",
   "d": "43",
-  "lat": 45.07145,
-  "lon": 3.85806,
-  "km": 97.0,
+  "lat": 45.05239,
+  "lon": 3.95874,
+  "km": 93.0,
   "cat": 0,
   "conf": "",
   "note": "Aucune source fiable lue pour cette brasserie.",
-  "addr": "Polignac",
+  "addr": "79 impasse de Bombes, 43700 Saint-Germain-Laprade",
   "src": "",
-  "coordPrecision": "centre",
-  "beers": []
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-20"
  },
  {
   "n": "Brasserie Motueka",
@@ -9092,7 +9099,11 @@
   "src": "https://www.bieresbretonnes.fr/brasseries/brasserie-plouc/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-21"
+  "verifieLe": "2026-10-21",
+  "fermee": {
+   "source": "https://recherche-entreprises.api.gouv.fr/search?q=brasserie%20plouc&per_page=5",
+   "verifieLe": "2026-10-21"
+  }
  },
  {
   "n": "Brasserie Sainte Colombe",

@@ -99,14 +99,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(fiche.locator('a[href^="tel:"]')).toHaveCount(0)
   })
 
-  test('un numéro cité dans la source n’est pas contredit par « non renseigné »', async ({ page }) => {
-    await page.getByTestId('recherche').fill('animus')
-    await ligne(page, /Brasserie Animus/).click()
-    await expect(page.getByTestId('fiche').getByTestId('fiche-contact').locator('p').first()).toHaveText(
-      'La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.',
-    )
-    await expect(page.getByTestId('fiche').getByTestId('fiche-manque')).not.toContainText('son téléphone')
-  })
+  // « Un numéro cité dans la source » : prouvé par tests/composants/contact.test.tsx depuis le 21/10
+  // (plus aucune fiche réelle n'est dans ce cas).
 
   test('les mots du métier de la note sont expliqués (S295, Marie)', async ({ page }) => {
     await ligne(page, /Caribrew/).click()
