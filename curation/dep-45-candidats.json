@@ -1,0 +1,657 @@
+[
+ {
+  "cle": "sirene:920701646",
+  "nom": "LA BRASSERIE DU FOUR A BRIQUES",
+  "communes": [
+   "SAINT-PRYVE-SAINT-MESMIN",
+   "SARAN"
+  ],
+  "departement": "45",
+  "adresses": [
+   "30 RUE DU VIEUX BOURG 45750 SAINT-PRYVE-SAINT-MESMIN",
+   "PARC D'ACTIVITES DES VALLEES 45770 SARAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "920701646",
+  "sirets": [
+   "92070164600019",
+   "92070164600027"
+  ],
+  "osm": [
+   "node/12209214341"
+  ],
+  "lat": 47.8904656073284,
+  "lon": 1.87577082547573,
+  "site": "https://labrasseriedufourabriques.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910748714",
+  "nom": "LA RIFF",
+  "communes": [
+   "ORLEANS",
+   "SAINT-PRYVE-SAINT-MESMIN"
+  ],
+  "departement": "45",
+  "adresses": [
+   "28 RUE PORTE MADELEINE 45000 ORLEANS",
+   "4 IMPASSE DES VIGNES 45750 SAINT-PRYVE-SAINT-MESMIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "910748714",
+  "sirets": [
+   "91074871400011",
+   "91074871400029"
+  ],
+  "osm": [
+   "node/11336788015"
+  ],
+  "lat": 47.901673338,
+  "lon": 1.8957087135,
+  "site": "https://www.la-riff.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989491741",
+  "nom": "WHYM",
+  "communes": [
+   "SAINT-PERE-SUR-LOIRE",
+   "NEUVY-EN-SULLIAS"
+  ],
+  "departement": "45",
+  "adresses": [
+   "25 RUE DE PARIS 45600 SAINT-PERE-SUR-LOIRE",
+   "15 RUE DES CASSINES 45510 NEUVY-EN-SULLIAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989491741",
+  "sirets": [
+   "98949174100017",
+   "98949174100025"
+  ],
+  "osm": [],
+  "lat": 47.7753225571628,
+  "lon": 2.37262576605748,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:937826782",
+  "nom": "2JTB",
+  "communes": [
+   "NEUVILLE-AUX-BOIS",
+   "CHECY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "3 C RUE DES MARECHAUX 45170 NEUVILLE-AUX-BOIS",
+   "75 AVENUE D'ORLEANS 45430 CHECY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "937826782",
+  "sirets": [
+   "93782678200016",
+   "93782678200024"
+  ],
+  "osm": [
+   "node/7218406989"
+  ],
+  "lat": 48.0713729025664,
+  "lon": 2.05418739260628,
+  "site": "https://hoprock.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "SCEAUX-DU-GATINAIS"
+  ],
+  "departement": "45",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:834222325",
+  "nom": "LES NOUVEAUX BRASSEURS",
+  "communes": [
+   "LE MALESHERBOIS"
+  ],
+  "departement": "45",
+  "adresses": [
+   "2 B PLACE DES MARRONNIERS 45330 LE MALESHERBOIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834222325",
+  "sirets": [
+   "83422232500021"
+  ],
+  "osm": [],
+  "lat": 48.310441348,
+  "lon": 2.3210245517,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LEOUVILLE"
+  ],
+  "departement": "45",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CHATEAUNEUF-SUR-LOIRE"
+  ],
+  "departement": "45",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/12492070803"
+  ],
+  "site": "https://brasserie.city/microbrasserie-de-chateauneuf-47547.html",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914744941",
+  "nom": "LA RIOLE",
+  "communes": [
+   "LA FERTE-SAINT-AUBIN"
+  ],
+  "departement": "45",
+  "adresses": [
+   "65 RUE BENJAMIN FRANKLIN 45240 LA FERTE-SAINT-AUBIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914744941",
+  "sirets": [
+   "91474494100016"
+  ],
+  "osm": [],
+  "lat": 47.722140984,
+  "lon": 1.9286599746,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829984004",
+  "nom": "VELVET",
+  "communes": [
+   "ORLEANS"
+  ],
+  "departement": "45",
+  "adresses": [
+   "7 RUE JEAN BAPTISTE COROT 45100 ORLEANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829984004",
+  "sirets": [
+   "82998400400020"
+  ],
+  "osm": [],
+  "lat": 47.8667692771699,
+  "lon": 1.91767652916393,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "BEAUNE-LA-ROLANDE"
+  ],
+  "departement": "45",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:849891908",
+  "nom": "MOUSS'BAT",
+  "communes": [
+   "CHAINGY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "4 RUE DES RATYS 45380 CHAINGY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "849891908",
+  "sirets": [
+   "84989190800014"
+  ],
+  "osm": [
+   "node/7218412884"
+  ],
+  "lat": 47.882571284,
+  "lon": 1.7670109687,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SULLY-LA-CHAPELLE"
+  ],
+  "departement": "45",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914629365",
+  "nom": "LABDD",
+  "communes": [
+   "DONNERY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "68 AVENUE D'ORLEANS 45450 DONNERY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914629365",
+  "sirets": [
+   "91462936500018"
+  ],
+  "osm": [],
+  "lat": 47.909561155,
+  "lon": 2.1026389696,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:104698378",
+  "nom": "ORLEANS CRAFT",
+  "communes": [
+   "ORLEANS"
+  ],
+  "departement": "45",
+  "adresses": [
+   "7 RUE JEAN BAPTISTE COROT 45100 ORLEANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "104698378",
+  "sirets": [
+   "10469837800015"
+  ],
+  "osm": [],
+  "lat": 47.8667692771699,
+  "lon": 1.91767652916393,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900624438",
+  "nom": "BRASSERIE DES MERVEILLES",
+  "communes": [
+   "BOYNES"
+  ],
+  "departement": "45",
+  "adresses": [
+   "10 CHE DE BRIMPOND 45300 BOYNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900624438",
+  "sirets": [
+   "90062443800017"
+  ],
+  "osm": [],
+  "lat": 48.121320397,
+  "lon": 2.3511344028,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977674480",
+  "nom": "SOMBRACIER",
+  "communes": [
+   "CHATEAU-RENARD"
+  ],
+  "departement": "45",
+  "adresses": [
+   "124 RUE DE MOCBERRY 45220 CHATEAU-RENARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977674480",
+  "sirets": [
+   "97767448000016"
+  ],
+  "osm": [],
+  "lat": 47.926437973,
+  "lon": 2.9278460573,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893476119",
+  "nom": "LES FELINS",
+  "communes": [
+   "BEAUGENCY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "17 RUE DE L'ABATTOIR 45190 BEAUGENCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893476119",
+  "sirets": [
+   "89347611900027"
+  ],
+  "osm": [],
+  "lat": 47.783741051552,
+  "lon": 1.63030042115832,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914430970",
+  "nom": "COUZ'O'BEER",
+  "communes": [
+   "FEROLLES"
+  ],
+  "departement": "45",
+  "adresses": [
+   "8 RUE DU VIEUX MOULIN 45150 FEROLLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914430970",
+  "sirets": [
+   "91443097000014"
+  ],
+  "osm": [],
+  "lat": 47.835766273,
+  "lon": 2.1015249072,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821519527",
+  "nom": "BRASSERIE ORITA",
+  "communes": [
+   "CHAINGY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "25 ROUTE D'ORLEANS 45380 CHAINGY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821519527",
+  "sirets": [
+   "82151952700013"
+  ],
+  "osm": [],
+  "lat": 47.874748539,
+  "lon": 1.7954215247,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "LA VOUTE A BIERES",
+  "communes": [
+   "VENNECY"
+  ],
+  "departement": "45",
+  "adresses": [
+   "3 RUE DE LA CORNE 45760 VENNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823640057",
+  "nom": "EURL LA BRASSERIE DES ECLUSES",
+  "communes": [
+   "SAINT-HILAIRE-SAINT-MESMIN"
+  ],
+  "departement": "45",
+  "adresses": [
+   "935 ROUTE D'ORLEANS 45160 SAINT-HILAIRE-SAINT-MESMIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823640057",
+  "sirets": [
+   "82364005700027"
+  ],
+  "osm": [],
+  "lat": 47.86505404991,
+  "lon": 1.83448172087012,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891214611",
+  "nom": "BARBE MOUSSE",
+  "communes": [
+   "ORLEANS"
+  ],
+  "departement": "45",
+  "adresses": [
+   "7 RUE JEAN BAPTISTE COROT 45100 ORLEANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891214611",
+  "sirets": [
+   "89121461100024"
+  ],
+  "osm": [],
+  "lat": 47.8667692771699,
+  "lon": 1.91767652916393,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839588167",
+  "nom": "OCTOPUB",
+  "communes": [
+   "SARAN"
+  ],
+  "departement": "45",
+  "adresses": [
+   "RETAIL PARK CAP SARAN LES CENT ARPENTS 45770 SARAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839588167",
+  "sirets": [
+   "83958816700016"
+  ],
+  "osm": [],
+  "lat": 47.963044509,
+  "lon": 1.8874923964,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4432511296",
+  "nom": "Brasserie du Vauret",
+  "communes": [
+   "Mardié"
+  ],
+  "departement": "45",
+  "adresses": [
+   "501 Rue du Vauret, 45430 Mardié"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4432511296"
+  ],
+  "lat": 47.9273,
+  "lon": 2.05363,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7218292289",
+  "nom": "La Brasserie des écluses",
+  "communes": [
+   "Saint-Hilaire-Saint-Mesmin"
+  ],
+  "departement": "45",
+  "adresses": [
+   "Route d'Olivet, 45160 Saint-Hilaire-Saint-Mesmin"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7218292289"
+  ],
+  "lat": 47.86598,
+  "lon": 1.83629,
+  "site": "https://www.labrasseriedesecluses.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7218328279",
+  "nom": "CAT les Râteliers",
+  "communes": [
+   "Amilly"
+  ],
+  "departement": "45",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7218328279"
+  ],
+  "lat": 47.98125,
+  "lon": 2.79755,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9571448023",
+  "nom": "Brasserie Ephémère des Vallées Gatinaises",
+  "communes": [
+   "Chantecoq"
+  ],
+  "departement": "45",
+  "adresses": [
+   "45320 Chantecoq"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9571448023"
+  ],
+  "lat": 48.05382,
+  "lon": 2.96425,
+  "site": "https://www.valleesgatinaises.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/329636205",
+  "nom": "Le Trady",
+  "communes": [
+   "Sceaux-du-Gâtinais"
+  ],
+  "departement": "45",
+  "adresses": [
+   "5, 45490 Sceaux-du-Gâtinais"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/329636205"
+  ],
+  "lat": 48.10503,
+  "lon": 2.59606,
+  "statut": "nouveau"
+ }
+]

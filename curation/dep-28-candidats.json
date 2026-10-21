@@ -1,0 +1,316 @@
+[
+ {
+  "cle": "sirene:893569434",
+  "nom": "BRASSERIE TERRA",
+  "communes": [
+   "EPERNON"
+  ],
+  "departement": "28",
+  "adresses": [
+   "EPERNON 7 RUE DE LA BILLARDIERE 28230 EPERNON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893569434",
+  "sirets": [
+   "89356943400010"
+  ],
+  "osm": [],
+  "lat": 48.606249796,
+  "lon": 1.6692674932,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908251945",
+  "nom": "BRASSERIE MALTOLAB",
+  "communes": [
+   "GOMMERVILLE"
+  ],
+  "departement": "28",
+  "adresses": [
+   "3 RUE DES PRES ARNOUVILLE 28310 GOMMERVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908251945",
+  "sirets": [
+   "90825194500014"
+  ],
+  "osm": [],
+  "lat": 48.359152142,
+  "lon": 1.968177356,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:482377611",
+  "nom": "LA BRASSERIE DE CHANDRES",
+  "communes": [
+   "SOURS"
+  ],
+  "departement": "28",
+  "adresses": [
+   "CHANDRES 3 RUE PARMENTIER CHANDRES 28630 SOURS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "482377611",
+  "sirets": [
+   "48237761100017"
+  ],
+  "osm": [],
+  "lat": 48.423273357,
+  "lon": 1.6027137244,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848832754",
+  "nom": "MICRO-BRASSERIE LA BAZ",
+  "communes": [
+   "ARCISSES"
+  ],
+  "departement": "28",
+  "adresses": [
+   "LES COUDRIERS 1 IMP DE LA LAGUNE 28400 ARCISSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848832754",
+  "sirets": [
+   "84883275400024"
+  ],
+  "osm": [],
+  "lat": 48.346978861,
+  "lon": 0.9196712459,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "GOMMERVILLE"
+  ],
+  "departement": "28",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:898618046",
+  "nom": "BRASSERIE DU CAPITAINE",
+  "communes": [
+   "NERON"
+  ],
+  "departement": "28",
+  "adresses": [
+   "2 RUE DU CAPITAINE ALLARD 28210 NERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898618046",
+  "sirets": [
+   "89861804600012"
+  ],
+  "osm": [],
+  "lat": 48.591257794,
+  "lon": 1.4895718153,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911862613",
+  "nom": "MICRO BRASSERIE FUNK",
+  "communes": [
+   "BOUGLAINVAL"
+  ],
+  "departement": "28",
+  "adresses": [
+   "2 RUE DU CARCAN 28130 BOUGLAINVAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911862613",
+  "sirets": [
+   "91186261300013"
+  ],
+  "osm": [],
+  "lat": 48.566569485,
+  "lon": 1.5082582568,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890026404",
+  "nom": "DELABONNE",
+  "communes": [
+   "GELLAINVILLE"
+  ],
+  "departement": "28",
+  "adresses": [
+   "19 AVENUE GUSTAVE EIFFEL 28630 GELLAINVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890026404",
+  "sirets": [
+   "89002640400016"
+  ],
+  "osm": [],
+  "lat": 48.4362576105547,
+  "lon": 1.52874290299831,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880449913",
+  "nom": "BRASSERIE DE LA VALLEE",
+  "communes": [
+   "VOISE"
+  ],
+  "departement": "28",
+  "adresses": [
+   "3 RUE DE CHARTRES 28700 VOISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880449913",
+  "sirets": [
+   "88044991300016"
+  ],
+  "osm": [],
+  "lat": 48.3996986384346,
+  "lon": 1.70691727850965,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949858310",
+  "nom": "MICROBRASSERIE BEAUCE & PERCHE",
+  "communes": [
+   "COURVILLE-SUR-EURE"
+  ],
+  "departement": "28",
+  "adresses": [
+   "26 RUE GEORGES FESSARD 28190 COURVILLE-SUR-EURE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949858310",
+  "sirets": [
+   "94985831000012"
+  ],
+  "osm": [],
+  "lat": 48.447114264,
+  "lon": 1.2377063432,
+  "statut": "ambigu",
+  "fiche": "Brasserie du Perche"
+ },
+ {
+  "cle": "sirene:844263145",
+  "nom": "BACQUET & CIE",
+  "communes": [
+   "PIERRES"
+  ],
+  "departement": "28",
+  "adresses": [
+   "3 RUE DE L'EUROPE 28130 PIERRES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844263145",
+  "sirets": [
+   "84426314500014"
+  ],
+  "osm": [],
+  "lat": 48.582241093,
+  "lon": 1.5665032844,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13358748900",
+  "nom": "Brasserie Bacquet",
+  "communes": [
+   "Pierres"
+  ],
+  "departement": "28",
+  "adresses": [
+   "Rue de l'Europe, 28130 Pierres"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13358748900"
+  ],
+  "lat": 48.58227,
+  "lon": 1.56607,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13900949601",
+  "nom": "La Bonne Vallée",
+  "communes": [
+   "Saint-Maur-sur-le-Loir"
+  ],
+  "departement": "28",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13900949601"
+  ],
+  "lat": 48.17124,
+  "lon": 1.41412,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4530278391",
+  "nom": "Micro-brasserie l'Eurélienne",
+  "communes": [
+   "Sours"
+  ],
+  "departement": "28",
+  "adresses": [
+   "3 Rue Parmentier, 28630"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4530278391"
+  ],
+  "lat": 48.42362,
+  "lon": 1.60332,
+  "site": "https://leurelienne.fr/",
+  "statut": "nouveau"
+ }
+]

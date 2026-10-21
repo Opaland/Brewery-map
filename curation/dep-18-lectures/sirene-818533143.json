@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:818533143",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Arnon",
+   "c": "Loye-sur-Arnon",
+   "d": "18",
+   "lat": 46.65356,
+   "lon": 2.38559,
+   "km": 212.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio ; son site dit ses bières « distribuées localement en bouteille et en fûts sur place » ; la vente directe publiée se fait à la Fromagerie des 13 Blés, pas à la brasserie.",
+   "addr": "7 rue du Pont Romain, 18170 Loye-sur-Arnon",
+   "src": "https://brasseriedelarnon.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriedelarnon.com/",
+    "source": "https://brasseriedelarnon.com/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasseriedelarnon.com/",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+du+Pont+Romain%2C+18170+Loye-sur-Arnon&limit=5"
+  ],
+  "extrait": "Nos bières sont distribuées localement en bouteille et en fûts sur place et grâce à notre réseau de partenaires !",
+  "choix": "Catégorie 0 : « distribuées … sur place » ne dit pas que le public achète à la brasserie, et la vente directe publiée se fait chez une fromagerie partenaire (dont les horaires ne sont pas repris). Seul un portable est publié : écarté."
+ }
+}

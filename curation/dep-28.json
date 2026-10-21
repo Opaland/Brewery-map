@@ -1,0 +1,177 @@
+{
+ "lot": "dep-28",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de Chandres (L'Eurélienne)",
+    "c": "Sours",
+    "d": "28",
+    "lat": 48.42321,
+    "lon": 1.60311,
+    "km": 387.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La brasserie a une boutique terroir à Sours (toute la gamme L'Eurélienne, épicerie fine), d'après son site ; il ne dit pas qu'on y boit sur place. Visites guidées sur demande, pour des groupes.",
+    "addr": "3 rue Parmentier, 28630 Sours",
+    "src": "https://leurelienne.fr/brasserie-contact/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "02 37 25 77 56",
+     "site": "https://leurelienne.fr/",
+     "source": "https://leurelienne.fr/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Horaires de la boutique terroir de Sours.",
+      "source": "https://leurelienne.fr/brasserie-contact/",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://leurelienne.fr/brasserie-contact/",
+    "https://leurelienne.fr/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+Parmentier%2C+28630+Sours&limit=5"
+   ],
+   "extrait": "Notre boutique terroir est située à Sours, à 10km de Chartres.",
+   "choix": "Catégorie 2 : vente décrite, aucune dégustation ouverte. Horaires de la page contact (une ancienne page « boutique » redirige vers un article de l'été 2025, écarté). Le fixe du site, seul numéro publié, est retenu. Pas d'Untappd. Même brasserie que le point OSM node/4530278391."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bacquet et Cie",
+    "c": "Pierres",
+    "d": "28",
+    "lat": 48.58236,
+    "lon": 1.56596,
+    "km": 403.3,
+    "cat": 0,
+    "conf": "",
+    "note": "L'office de tourisme de Chartres décrit des bières faites à la main à Pierres ; aucune page lue ne dit ce qu'on peut faire à la brasserie.",
+    "addr": "3 rue de l'Europe, 28130 Pierres",
+    "src": "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+de+l%27Europe%2C+28130+Pierres&limit=5"
+   ],
+   "extrait": "The water of Pierres is chosen for its good sanitary quality and filtered with activated carbon.",
+   "choix": "Catégorie 0 : la page est rangée sous « vente de produits », mais son texte ne dit pas qu'on achète à la brasserie. Les téléphones de la page sont publiés par l'office, pas par la brasserie : non retenus. Même brasserie que le point OSM node/13358748900. Pas de site officiel trouvé."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie delabonne",
+    "c": "Gellainville",
+    "d": "28",
+    "lat": 48.43517,
+    "lon": 1.52814,
+    "km": 392.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio ; ses bières sont vendues en bouteilles, fûts et canettes, d'après son site, qui ne dit pas qu'on peut acheter ou boire à la brasserie.",
+    "addr": "19 avenue Gustave Eiffel, 28630 Gellainville",
+    "src": "https://delabonne.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "02 36 72 98 16",
+     "site": "https://delabonne.fr",
+     "source": "https://delabonne.fr",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://delabonne.fr",
+    "https://data.geopf.fr/geocodage/search?q=19+avenue+Gustave+Eiffel%2C+28630+Gellainville&limit=5"
+   ],
+   "extrait": "De la terre au verre, votre delabonne se crée dans un rayon de 30km autour de la cathédrale de Chartres",
+   "choix": "Catégorie 0 : seule la boutique en ligne est nommée. Un fixe publié par la brasserie, retenu. Pas d'horaires ni d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Micro Brasserie Funk",
+    "c": "Bouglainval",
+    "d": "28",
+    "lat": 48.56618,
+    "lon": 1.50817,
+    "km": 404.5,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie est ouverte, sauf exceptions, le vendredi soir de 16 h à 20 h, avec visite et dégustation possibles sur place, d'après son site ; la vente à la brasserie n'y est pas écrite.",
+    "addr": "2 rue du Carcan, 28130 Bouglainval",
+    "src": "https://microbrasseriefunk.fr/contact/",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "remarque": "Ouverte, sauf exceptions, le vendredi soir. Visite sur rendez-vous possible.",
+      "source": "https://microbrasseriefunk.fr/contact/",
+      "verifieLe": "2026-10-21"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://microbrasseriefunk.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+du+Carcan%2C+28130+Bouglainval&limit=5"
+   ],
+   "extrait": "La microbrasserie est ouverte, sauf exceptions, tous les vendredis soirs de 16h à 20h.",
+   "choix": "Catégorie 0 : la dégustation est écrite, pas la vente. Une catégorie 1 en confiance faible serait possible si tu juges que la dégustation ouverte le vendredi suffit. Seul un portable est publié : écarté."
+  }
+ ]
+}

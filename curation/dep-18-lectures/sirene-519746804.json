@@ -1,0 +1,45 @@
+{
+ "candidat": "sirene:519746804",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bos",
+   "c": "Bourges",
+   "d": "18",
+   "lat": 47.07551,
+   "lon": 2.42091,
+   "km": 237.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site annonce la vente de bières en bouteilles, coffrets et fûts, la brasserie ouverte du mardi au vendredi ; ni dégustation ni bar mentionnés.",
+   "addr": "11 allée Napoléon III, 18000 Bourges",
+   "src": "https://www.brasserie-bos.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "02 48 65 90 71",
+    "site": "https://www.brasserie-bos.fr/",
+    "source": "https://www.brasserie-bos.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-bos.fr/",
+     "mar": "heures-non-precisees",
+     "mer": "heures-non-precisees",
+     "jeu": "heures-non-precisees",
+     "ven": "heures-non-precisees",
+     "remarque": "Brasserie ouverte du mardi au vendredi de 11h à 14h et en soirée à partir de 17h30.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.brasserie-bos.fr/",
+   "https://data.geopf.fr/geocodage/search?q=11+all%C3%A9e+Napol%C3%A9on+III%2C+18000+Bourges&limit=5"
+  ],
+  "extrait": "Vente de bières bouteilles et coffrets cadeaux",
+  "choix": "Catégorie 2 : seulement de la vente. Un fixe publié pour les clients, retenu. Le soir n'a pas d'heure de fin : jours en « heures non précisées », la phrase de la page en remarque. Pas d'Untappd. Confiance moyenne : la page dit la vente et les jours d’ouverture, pas en toutes lettres que le public achète à la brasserie."
+ }
+}

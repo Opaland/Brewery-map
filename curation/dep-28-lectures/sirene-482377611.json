@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:482377611",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Chandres (L'Eurélienne)",
+   "c": "Sours",
+   "d": "28",
+   "lat": 48.42321,
+   "lon": 1.60311,
+   "km": 387.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La brasserie a une boutique terroir à Sours (toute la gamme L'Eurélienne, épicerie fine), d'après son site ; il ne dit pas qu'on y boit sur place. Visites guidées sur demande, pour des groupes.",
+   "addr": "3 rue Parmentier, 28630 Sours",
+   "src": "https://leurelienne.fr/brasserie-contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "02 37 25 77 56",
+    "site": "https://leurelienne.fr/",
+    "source": "https://leurelienne.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://leurelienne.fr/brasserie-contact/",
+     "lun": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Horaires de la boutique terroir de Sours.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://leurelienne.fr/brasserie-contact/",
+   "https://leurelienne.fr/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+Parmentier%2C+28630+Sours&limit=5"
+  ],
+  "extrait": "Notre boutique terroir est située à Sours, à 10km de Chartres.",
+  "choix": "Catégorie 2 : vente décrite, aucune dégustation ouverte. Horaires de la page contact (une ancienne page « boutique » redirige vers un article de l'été 2025, écarté). Le fixe du site, seul numéro publié, est retenu. Pas d'Untappd. Même brasserie que le point OSM node/4530278391."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:890026404",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie delabonne",
+   "c": "Gellainville",
+   "d": "28",
+   "lat": 48.43517,
+   "lon": 1.52814,
+   "km": 392.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio ; ses bières sont vendues en bouteilles, fûts et canettes, d'après son site, qui ne dit pas qu'on peut acheter ou boire à la brasserie.",
+   "addr": "19 avenue Gustave Eiffel, 28630 Gellainville",
+   "src": "https://delabonne.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "02 36 72 98 16",
+    "site": "https://delabonne.fr",
+    "source": "https://delabonne.fr",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://delabonne.fr",
+   "https://data.geopf.fr/geocodage/search?q=19+avenue+Gustave+Eiffel%2C+28630+Gellainville&limit=5"
+  ],
+  "extrait": "De la terre au verre, votre delabonne se crée dans un rayon de 30km autour de la cathédrale de Chartres",
+  "choix": "Catégorie 0 : seule la boutique en ligne est nommée. Un fixe publié par la brasserie, retenu. Pas d'horaires ni d'Untappd."
+ }
+}

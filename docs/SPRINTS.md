@@ -2906,3 +2906,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S326.md`, `S327.md`. Deux lots de propositions, en attente de Cédric. `curation/s326-relues-du-poste` : 19 fiches que le conteneur n'avait pas pu lire (registre sans réponse, pages en 403, issue #45), 6 propositions, dont le déménagement d'Animus à Grigny-sur-Rhône. `curation/s327-a-relancer` : 19 candidats « À relancer », 3 fiches nouvelles (Kapsyl, Kerblei, Loch'Ale) ; les 16 autres sont introuvables une deuxième fois. Le serveur Overpass principal et les recherches web : voir S324.
 
+
+## S328 — Le Centre-Val de Loire hors Indre-et-Loire *(21/10, epic E30)*
+
+`docs/stories/S328.md`. Cinq lots de fiches nouvelles, en attente de Cédric : `curation/dep-45` (8), `dep-41` (1), `dep-18` (4), `dep-36` (2), `dep-28` (4), soit 19 fiches pour 84 candidats, chaque non-proposé avec sa raison. `controler` sans écart. La persona a fait redescendre Bos (moyenne) et L'Arnon (à confirmer). Fin de l'epic E30.

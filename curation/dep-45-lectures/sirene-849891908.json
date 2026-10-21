@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:849891908",
+ "ajout": {
+  "fiche": {
+   "n": "Mouss'bat",
+   "c": "Chaingy",
+   "d": "45",
+   "lat": 47.88251,
+   "lon": 1.76665,
+   "km": 334.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site annonce « Dégustation & vente directe à la brasserie », avec des horaires d'ouverture.",
+   "addr": "4 rue des Ratys, 45380 Chaingy",
+   "src": "https://www.moussbat.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.moussbat.com/",
+    "source": "https://www.moussbat.com/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.moussbat.com/",
+     "mer": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.moussbat.com/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+des+Ratys%2C+45380+Chaingy&limit=5"
+  ],
+  "extrait": "Dégustation & vente directe à la brasserie",
+  "choix": "Catégorie 1 : dégustation et vente à la brasserie. Horaires : ceux du bloc « Horaires d'ouverture » de la page (un second bloc identique est titré « Horaires de livraison »). Seul un portable est publié : écarté. Pas d'Untappd."
+ }
+}
