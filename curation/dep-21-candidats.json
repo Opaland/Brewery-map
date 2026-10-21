@@ -1,0 +1,1031 @@
+[
+ {
+  "cle": "sirene:894398593",
+  "nom": "BRASSERIE VIF, VIF",
+  "communes": [
+   "SAINT-ROMAIN",
+   "BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "2 RUE DU PRESBYTERE 21190 SAINT-ROMAIN",
+   "5 RUE DOMINIQUE JEAN LARREY 21200 BEAUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894398593",
+  "sirets": [
+   "89439859300018",
+   "89439859300059"
+  ],
+  "osm": [],
+  "lat": 46.999937193,
+  "lon": 4.7124846709,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905030664",
+  "nom": "LE CHAUDRON",
+  "communes": [
+   "SAINT-AUBIN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "10 RUE DE LA FONTENOTTE 21190 SAINT-AUBIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "905030664",
+  "sirets": [
+   "90503066400015"
+  ],
+  "osm": [],
+  "lat": 46.9554772869268,
+  "lon": 4.72159366019289,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832296644",
+  "nom": "MICRO BRASSERIE DE L'ARQUEBUSE",
+  "communes": [
+   "DIJON"
+  ],
+  "departement": "21",
+  "adresses": [
+   "2 RUE NODOT 21000 DIJON",
+   "8 BOULEVARD DE STRASBOURG 21000 DIJON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832296644",
+  "sirets": [
+   "83229664400012",
+   "83229664400020"
+  ],
+  "osm": [],
+  "lat": 47.3224532168474,
+  "lon": 5.02551562220762,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:990923526",
+  "nom": "FRENCHY BREWING",
+  "communes": [
+   "BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "16 RUE DES GOUTEROTTES 21200 BEAUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "990923526",
+  "sirets": [
+   "99092352600018"
+  ],
+  "osm": [],
+  "lat": 47.0370373998777,
+  "lon": 4.87054335743729,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888947520",
+  "nom": "90 BPM BREWING CO.",
+  "communes": [
+   "AHUY"
+  ],
+  "departement": "21",
+  "adresses": [
+   "3 RUE DES MUREES 21121 AHUY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888947520",
+  "sirets": [
+   "88894752000027"
+  ],
+  "osm": [],
+  "lat": 47.357601072,
+  "lon": 5.0355276384,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883939241",
+  "nom": "BRASSERIE HOUPLON",
+  "communes": [
+   "DIJON"
+  ],
+  "departement": "21",
+  "adresses": [
+   "17 RUE JEAN MERMOZ 21000 DIJON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883939241",
+  "sirets": [
+   "88393924100013"
+  ],
+  "osm": [],
+  "lat": 47.306446864,
+  "lon": 5.0112935435,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "DARCEY"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:900881814",
+  "nom": "BRASSERIE DE FRANCE",
+  "communes": [
+   "BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "ZAC LES CERISIERES 16 RUE MAURICE CHANTIN 21200 BEAUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900881814",
+  "sirets": [
+   "90088181400033"
+  ],
+  "osm": [],
+  "lat": 47.0110740099594,
+  "lon": 4.8555109628079,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "VILLAINES-EN-DUESMOIS"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "MONTMANCON"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "SAVIGNY-LE-SEC"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:802723544",
+  "nom": "BELENIUM",
+  "communes": [
+   "BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "12 RUE DE VIGNOLLES 21200 BEAUNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "802723544",
+  "sirets": [
+   "80272354400028"
+  ],
+  "osm": [
+   "node/5462389367"
+  ],
+  "lat": 47.025890603,
+  "lon": 4.8485699908,
+  "site": "http://www.belenium.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811091875",
+  "nom": "BRASSERIE ELIXKIR",
+  "communes": [
+   "QUETIGNY"
+  ],
+  "departement": "21",
+  "adresses": [
+   "7 RUE DE L'ENCLUME 21800 QUETIGNY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "811091875",
+  "sirets": [
+   "81109187500021"
+  ],
+  "osm": [
+   "way/121739814"
+  ],
+  "lat": 47.307091809,
+  "lon": 5.1059802246,
+  "site": "https://www.elixkir.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948104203",
+  "nom": "BRASSERIE L'ECLAIREUR",
+  "communes": [
+   "NORGES-LA-VILLE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "RUE DE BEAUREGARD 21490 NORGES-LA-VILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948104203",
+  "sirets": [
+   "94810420300013"
+  ],
+  "osm": [],
+  "lat": 47.402143599,
+  "lon": 5.0719475279,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832057871",
+  "nom": "OWB",
+  "communes": [
+   "NUITS-SAINT-GEORGES"
+  ],
+  "departement": "21",
+  "adresses": [
+   "1 RUE DOCTEUR LOUIS LEGRAND 21700 NUITS-SAINT-GEORGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832057871",
+  "sirets": [
+   "83205787100010"
+  ],
+  "osm": [],
+  "lat": 47.136554498,
+  "lon": 4.9520500867,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "MALAIN"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "ALLEREY"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:850188046",
+  "nom": "BOIS DES MOUSSES",
+  "communes": [
+   "SAINT-MARTIN-DU-MONT"
+  ],
+  "departement": "21",
+  "adresses": [
+   "D971 LES CHAMPS GUERETS ZAE DE CESTRES 21440 SAINT-MARTIN-DU-MONT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850188046",
+  "sirets": [
+   "85018804600021"
+  ],
+  "osm": [
+   "way/1211229789"
+  ],
+  "lat": 47.431519854,
+  "lon": 4.7882179915,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847879251",
+  "nom": "MICROBRASSERIE LA CLE DE VOUTE",
+  "communes": [
+   "POUILLY-EN-AUXOIS"
+  ],
+  "departement": "21",
+  "adresses": [
+   "17 RUE DU GENERAL DE GAULLE 21320 POUILLY-EN-AUXOIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "847879251",
+  "sirets": [
+   "84787925100019"
+  ],
+  "osm": [
+   "node/13902349703"
+  ],
+  "lat": 47.263182647,
+  "lon": 4.5547833184,
+  "site": "https://brasserielavoute.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851123836",
+  "nom": "ALFA WINE",
+  "communes": [
+   "GEVREY-CHAMBERTIN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "9 B RUE DU CHAMBERTIN 21220 GEVREY-CHAMBERTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851123836",
+  "sirets": [
+   "85112383600013"
+  ],
+  "osm": [],
+  "lat": 47.223768787,
+  "lon": 4.9698005101,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:999198054",
+  "nom": "B.A.F.",
+  "communes": [
+   "MOLOY"
+  ],
+  "departement": "21",
+  "adresses": [
+   "6 RUE DU FOURNEAU DES CHAMPS 21120 MOLOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "999198054",
+  "sirets": [
+   "99919805400010"
+  ],
+  "osm": [],
+  "lat": 47.5431063048721,
+  "lon": 4.93021534916574,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891187544",
+  "nom": "BRASSERIE DE FLAVIGNY",
+  "communes": [
+   "FLAVIGNY-SUR-OZERAIN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "18 FG SAINT JACQUES 21150 FLAVIGNY-SUR-OZERAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891187544",
+  "sirets": [
+   "89118754400020"
+  ],
+  "osm": [],
+  "lat": 47.507569889,
+  "lon": 4.5240391773,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "LES BIERES DU FOURNIL / TALANT INFORMATIQUE",
+  "communes": [
+   "TALANT"
+  ],
+  "departement": "21",
+  "adresses": [
+   "20 BOULEVARD DES CLOMIERS 21240 TALANT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938554631",
+  "nom": "BRASSERIE APOLLO",
+  "communes": [
+   "DIJON"
+  ],
+  "departement": "21",
+  "adresses": [
+   "1 RUE ERNEST CHAPUT 21000 DIJON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938554631",
+  "sirets": [
+   "93855463100011"
+  ],
+  "osm": [],
+  "lat": 47.3444549927645,
+  "lon": 5.06366803896369,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:439216029",
+  "nom": "BRASSERIE DES TROIS FONTAINES",
+  "communes": [
+   "BRETENIERE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "ZA DE LA PLUCHARDE 17 RUE DE LA PLUCHARDE 21110 BRETENIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "439216029",
+  "sirets": [
+   "43921602900025"
+  ],
+  "osm": [],
+  "lat": 47.238679378,
+  "lon": 5.1071743786,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:808981724",
+  "nom": "LES BIERES DU DONJON",
+  "communes": [
+   "SEMUR-EN-AUXOIS"
+  ],
+  "departement": "21",
+  "adresses": [
+   "6 RUE DE LA CHAUME AU MENELOT 21140 SEMUR-EN-AUXOIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "808981724",
+  "sirets": [
+   "80898172400020"
+  ],
+  "osm": [],
+  "lat": 47.482816543,
+  "lon": 4.3538648158,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921840252",
+  "nom": "LES BRASSAGES DU MEIX",
+  "communes": [
+   "SAINT-JULIEN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "6 B RUE DES ALLEUX 21490 SAINT-JULIEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921840252",
+  "sirets": [
+   "92184025200016"
+  ],
+  "osm": [],
+  "lat": 47.396009636,
+  "lon": 5.1388579737,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987885241",
+  "nom": "BRASSERIE BREWLING BEER",
+  "communes": [
+   "DETAIN-ET-BRUANT"
+  ],
+  "departement": "21",
+  "adresses": [
+   "6 IMPASSE LES MEIX 21220 DETAIN-ET-BRUANT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987885241",
+  "sirets": [
+   "98788524100016"
+  ],
+  "osm": [],
+  "lat": 47.1611820299068,
+  "lon": 4.79702000604701,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850312323",
+  "nom": "BRASSERIE LA SOURCE",
+  "communes": [
+   "PERRIGNY-LES-DIJON"
+  ],
+  "departement": "21",
+  "adresses": [
+   "14 B RUE DE PRIELLE 21160 PERRIGNY-LES-DIJON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850312323",
+  "sirets": [
+   "85031232300015"
+  ],
+  "osm": [
+   "node/5529025738"
+  ],
+  "lat": 47.263485149,
+  "lon": 5.0067682581,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "SENNECEY-LES-DIJON"
+  ],
+  "departement": "21",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:808461081",
+  "nom": "BRASSERIE DES BIERES DE FAMILLE",
+  "communes": [
+   "GEMEAUX"
+  ],
+  "departement": "21",
+  "adresses": [
+   "12 RUE DES CHARRIERES 21120 GEMEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "808461081",
+  "sirets": [
+   "80846108100032"
+  ],
+  "osm": [],
+  "lat": 47.4774053386887,
+  "lon": 5.13116220906995,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:982022691",
+  "nom": "HARVEST BREWING",
+  "communes": [
+   "SAVIGNY-LES-BEAUNE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "11 RUE EULALIE FION 21420 SAVIGNY-LES-BEAUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "982022691",
+  "sirets": [
+   "98202269100017"
+  ],
+  "osm": [],
+  "lat": 47.0633196,
+  "lon": 4.8159331683,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839865946",
+  "nom": "BRASSERIE LORO",
+  "communes": [
+   "SAINT-APOLLINAIRE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "ECOPARC DIJON 226 RUE JEAN-LOUIS AUGUSTE PETITJEAN 21850 SAINT-APOLLINAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839865946",
+  "sirets": [
+   "83986594600033"
+  ],
+  "osm": [],
+  "lat": 47.3369750357049,
+  "lon": 5.11282501760144,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833306848",
+  "nom": "BRASSERIE DES DUCS",
+  "communes": [
+   "LONGCHAMP"
+  ],
+  "departement": "21",
+  "adresses": [
+   "2 B A RUE DU PETIT PONT 21110 LONGCHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833306848",
+  "sirets": [
+   "83330684800015"
+  ],
+  "osm": [],
+  "lat": 47.258416592,
+  "lon": 5.2885120089,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:502451438",
+  "nom": "BRASSERIE BURGONDE",
+  "communes": [
+   "VITTEAUX"
+  ],
+  "departement": "21",
+  "adresses": [
+   "10 RUE DE VERDUN 21350 VITTEAUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "502451438",
+  "sirets": [
+   "50245143800019"
+  ],
+  "osm": [
+   "node/4779992963"
+  ],
+  "lat": 47.39572968,
+  "lon": 4.5447275781,
+  "site": "http://brasserie-burgonde.over-blog.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948575345",
+  "nom": "LE BRASSEUR BOURGUIGNON",
+  "communes": [
+   "TIL-CHATEL"
+  ],
+  "departement": "21",
+  "adresses": [
+   "7 RUE DU CLOS 21120 TIL-CHATEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948575345",
+  "sirets": [
+   "94857534500012"
+  ],
+  "osm": [],
+  "lat": 47.519011129,
+  "lon": 5.1761029456,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840342950",
+  "nom": "INDEPENDENT HOUSE",
+  "communes": [
+   "GEVREY-CHAMBERTIN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "4 RUE DES CHEMINOTS 21220 GEVREY-CHAMBERTIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840342950",
+  "sirets": [
+   "84034295000036"
+  ],
+  "osm": [
+   "node/12595986311"
+  ],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842154890",
+  "nom": "BRASSERIE LA KANOPEE",
+  "communes": [
+   "SAINTE-MARIE-SUR-OUCHE"
+  ],
+  "departement": "21",
+  "adresses": [
+   "HAMEAU DE PONT DE PANY 255 RUE DE LA GARE 21410 SAINTE-MARIE-SUR-OUCHE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842154890",
+  "sirets": [
+   "84215489000011"
+  ],
+  "osm": [
+   "node/6765218586"
+  ],
+  "lat": 47.2982476,
+  "lon": 4.8191330803,
+  "site": "https://www.la-kanopee.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849962808",
+  "nom": "BRASSERIE CHOP'IN",
+  "communes": [
+   "COMBLANCHIEN"
+  ],
+  "departement": "21",
+  "adresses": [
+   "33 ROUTE DEPARTEMENTALE 974 21700 COMBLANCHIEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849962808",
+  "sirets": [
+   "84996280800010"
+  ],
+  "osm": [],
+  "lat": 47.102634703,
+  "lon": 4.918215054,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11403951214",
+  "nom": "Brasserie des sources de l’Ouche",
+  "communes": [
+   "Lusigny-sur-Ouche"
+  ],
+  "departement": "21",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11403951214"
+  ],
+  "lat": 47.08813,
+  "lon": 4.67462,
+  "site": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+  "statut": "ambigu",
+  "fiche": "Brasserie de l'Ouche"
+ },
+ {
+  "cle": "node/13022400333",
+  "nom": "Brasserie Bouillant",
+  "communes": [
+   "Fleurey-sur-Ouche"
+  ],
+  "departement": "21",
+  "adresses": [
+   "30 Rue de l'Aule, 21410 Fleurey-sur-Ouche"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13022400333"
+  ],
+  "lat": 47.3121,
+  "lon": 4.85617,
+  "site": "https://brasseriebouillant.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5459201557",
+  "nom": "Brasserie de la Roche Aigüe",
+  "communes": [
+   "Mâlain"
+  ],
+  "departement": "21",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5459201557"
+  ],
+  "lat": 47.32714,
+  "lon": 4.80853,
+  "site": "https://alternatives-agriculturelles.fr/microbrasserie/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5462372327",
+  "nom": "LORO Bières Artisanales",
+  "communes": [
+   "Talmay"
+  ],
+  "departement": "21",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5462372327"
+  ],
+  "lat": 47.35878,
+  "lon": 5.43762,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5529034615",
+  "nom": "ex-Brasserie La Roteuse",
+  "communes": [
+   "Brochon"
+  ],
+  "departement": "21",
+  "adresses": [
+   "Route Nationale, Brochon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5529034615"
+  ],
+  "lat": 47.23178,
+  "lon": 4.98272,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1024002620",
+  "nom": "Le Crazy",
+  "communes": [
+   "Dijon"
+  ],
+  "departement": "21",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1024002620"
+  ],
+  "lat": 47.3231,
+  "lon": 5.05252,
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,266 @@
+[
+ [
+  {
+   "cle": "sirene:901477745",
+   "enseigne": "TIPSIP BREWING",
+   "dep": "89",
+   "communes": [
+    "AVALLON"
+   ],
+   "adresses": [
+    "14 RUE DU GENERAL LECLERC 89200 AVALLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814977641",
+   "enseigne": "BRASSERIE POPIHN",
+   "dep": "89",
+   "communes": [
+    "VAUMORT",
+    "CERISIERS"
+   ],
+   "adresses": [
+    "DOMAINE DE VAUMORIN 89320 VAUMORT",
+    "RUE COLETTE LIEU-DIT VIOLOT 89320 CERISIERS"
+   ],
+   "osm": [
+    "way/190678516"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949538128",
+   "enseigne": "DHENNIN RM",
+   "dep": "89",
+   "communes": [
+    "SERBONNES"
+   ],
+   "adresses": [
+    "30 RUE DU MARECHAL LECLERC 89140 SERBONNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:878239979",
+   "enseigne": "FAYYAR",
+   "dep": "89",
+   "communes": [
+    "SAINT-BRIS-LE-VINEUX"
+   ],
+   "adresses": [
+    "16 RUE DE PARIS 89530 SAINT-BRIS-LE-VINEUX"
+   ],
+   "osm": [
+    "node/11219289861"
+   ],
+   "site": "https://www.fayyar.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:532737327",
+   "enseigne": "BRASSERIE DE VEZELAY",
+   "dep": "89",
+   "communes": [
+    "SAINT-PERE"
+   ],
+   "adresses": [
+    "RUE DU GRAVIER 89450 SAINT-PERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:104590393",
+   "enseigne": "BRASSERIE LORIUS",
+   "dep": "89",
+   "communes": [
+    "BAZARNES"
+   ],
+   "adresses": [
+    "48 T RUE DES TILLEULS 89460 BAZARNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823178751",
+   "enseigne": "BRASSERIE DE CHABLIS",
+   "dep": "89",
+   "communes": [
+    "CHABLIS"
+   ],
+   "adresses": [
+    "PARC DES LYS 4 RUE DES VENDANGES 89800 CHABLIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:485168801",
+   "enseigne": "BRASSERIE LARCHE",
+   "dep": "89",
+   "communes": [
+    "SENS"
+   ],
+   "adresses": [
+    "89 RUE BELLOCIER 89100 SENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851734541",
+   "enseigne": "BRASSERIE LA VAUGERMAINS",
+   "dep": "89",
+   "communes": [
+    "SAINT-CYR-LES-COLONS"
+   ],
+   "adresses": [
+    "30 VAUGERMAIN 89800 SAINT-CYR-LES-COLONS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884263633",
+   "enseigne": "BRASSERIE LA TRUITE",
+   "dep": "89",
+   "communes": [
+    "BUTTEAUX"
+   ],
+   "adresses": [
+    "1 CHEMIN DES LAMES 89360 BUTTEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892194507",
+   "enseigne": "BRASSERIE AD LIBITUM",
+   "dep": "89",
+   "communes": [
+    "VERMENTON"
+   ],
+   "adresses": [
+    "18 RUE DES CLOUX 89270 VERMENTON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841511835",
+   "enseigne": "GRAND DUC MICROBRASSERIE",
+   "dep": "89",
+   "communes": [
+    "SORMERY"
+   ],
+   "adresses": [
+    "LA TUILERIE 55 RUE DE LA FORET D'OTHE 89570 SORMERY"
+   ],
+   "osm": [
+    "node/10582464131"
+   ],
+   "site": "https://legrandduc-microbrasserie.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850863655",
+   "enseigne": "BRASSERIE LA CUVERIE",
+   "dep": "89",
+   "communes": [
+    "IRANCY"
+   ],
+   "adresses": [
+    "4 CHEMIN DES FOSSES 89290 IRANCY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11378658936",
+   "enseigne": "La Vaugermaine",
+   "dep": "89",
+   "communes": [
+    "Saint-Cyr-les-Colons"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11378658936"
+   ],
+   "site": "https://www.lavaugermaine.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11945606866",
+   "enseigne": "Odile t'en brasse",
+   "dep": "89",
+   "communes": [
+    "Avallon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11945606866"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7464476377",
+   "enseigne": "La 5 d'angy",
+   "dep": "89",
+   "communes": [
+    "Vireaux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7464476377"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8090252861",
+   "enseigne": "Bar Brasserie Bières de la colline",
+   "dep": "89",
+   "communes": [
+    "Vézelay"
+   ],
+   "adresses": [
+    "4 bis Route d'Avallon, 89450 Vézelay"
+   ],
+   "osm": [
+    "node/8090252861"
+   ],
+   "site": "https://www.bieresdelacolline.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/72814443",
+   "enseigne": "Brasserie Larché",
+   "dep": "89",
+   "communes": [
+    "Saint-Martin-du-Tertre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/72814443"
+   ],
+   "statut": "ambigu"
+  }
+ ]
+]

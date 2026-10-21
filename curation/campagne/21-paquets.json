@@ -1,0 +1,551 @@
+[
+ [
+  {
+   "cle": "sirene:894398593",
+   "enseigne": "BRASSERIE VIF, VIF",
+   "dep": "21",
+   "communes": [
+    "SAINT-ROMAIN",
+    "BEAUNE"
+   ],
+   "adresses": [
+    "2 RUE DU PRESBYTERE 21190 SAINT-ROMAIN",
+    "5 RUE DOMINIQUE JEAN LARREY 21200 BEAUNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:905030664",
+   "enseigne": "LE CHAUDRON",
+   "dep": "21",
+   "communes": [
+    "SAINT-AUBIN"
+   ],
+   "adresses": [
+    "10 RUE DE LA FONTENOTTE 21190 SAINT-AUBIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:832296644",
+   "enseigne": "MICRO BRASSERIE DE L'ARQUEBUSE",
+   "dep": "21",
+   "communes": [
+    "DIJON"
+   ],
+   "adresses": [
+    "2 RUE NODOT 21000 DIJON",
+    "8 BOULEVARD DE STRASBOURG 21000 DIJON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:990923526",
+   "enseigne": "FRENCHY BREWING",
+   "dep": "21",
+   "communes": [
+    "BEAUNE"
+   ],
+   "adresses": [
+    "16 RUE DES GOUTEROTTES 21200 BEAUNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888947520",
+   "enseigne": "90 BPM BREWING CO.",
+   "dep": "21",
+   "communes": [
+    "AHUY"
+   ],
+   "adresses": [
+    "3 RUE DES MUREES 21121 AHUY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:883939241",
+   "enseigne": "BRASSERIE HOUPLON",
+   "dep": "21",
+   "communes": [
+    "DIJON"
+   ],
+   "adresses": [
+    "17 RUE JEAN MERMOZ 21000 DIJON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900881814",
+   "enseigne": "BRASSERIE DE FRANCE",
+   "dep": "21",
+   "communes": [
+    "BEAUNE"
+   ],
+   "adresses": [
+    "ZAC LES CERISIERES 16 RUE MAURICE CHANTIN 21200 BEAUNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802723544",
+   "enseigne": "BELENIUM",
+   "dep": "21",
+   "communes": [
+    "BEAUNE"
+   ],
+   "adresses": [
+    "12 RUE DE VIGNOLLES 21200 BEAUNE"
+   ],
+   "osm": [
+    "node/5462389367"
+   ],
+   "site": "http://www.belenium.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811091875",
+   "enseigne": "BRASSERIE ELIXKIR",
+   "dep": "21",
+   "communes": [
+    "QUETIGNY"
+   ],
+   "adresses": [
+    "7 RUE DE L'ENCLUME 21800 QUETIGNY"
+   ],
+   "osm": [
+    "way/121739814"
+   ],
+   "site": "https://www.elixkir.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948104203",
+   "enseigne": "BRASSERIE L'ECLAIREUR",
+   "dep": "21",
+   "communes": [
+    "NORGES-LA-VILLE"
+   ],
+   "adresses": [
+    "RUE DE BEAUREGARD 21490 NORGES-LA-VILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:832057871",
+   "enseigne": "OWB",
+   "dep": "21",
+   "communes": [
+    "NUITS-SAINT-GEORGES"
+   ],
+   "adresses": [
+    "1 RUE DOCTEUR LOUIS LEGRAND 21700 NUITS-SAINT-GEORGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850188046",
+   "enseigne": "BOIS DES MOUSSES",
+   "dep": "21",
+   "communes": [
+    "SAINT-MARTIN-DU-MONT"
+   ],
+   "adresses": [
+    "D971 LES CHAMPS GUERETS ZAE DE CESTRES 21440 SAINT-MARTIN-DU-MONT"
+   ],
+   "osm": [
+    "way/1211229789"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:847879251",
+   "enseigne": "MICROBRASSERIE LA CLE DE VOUTE",
+   "dep": "21",
+   "communes": [
+    "POUILLY-EN-AUXOIS"
+   ],
+   "adresses": [
+    "17 RUE DU GENERAL DE GAULLE 21320 POUILLY-EN-AUXOIS"
+   ],
+   "osm": [
+    "node/13902349703"
+   ],
+   "site": "https://brasserielavoute.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851123836",
+   "enseigne": "ALFA WINE",
+   "dep": "21",
+   "communes": [
+    "GEVREY-CHAMBERTIN"
+   ],
+   "adresses": [
+    "9 B RUE DU CHAMBERTIN 21220 GEVREY-CHAMBERTIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:999198054",
+   "enseigne": "B.A.F.",
+   "dep": "21",
+   "communes": [
+    "MOLOY"
+   ],
+   "adresses": [
+    "6 RUE DU FOURNEAU DES CHAMPS 21120 MOLOY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:891187544",
+   "enseigne": "BRASSERIE DE FLAVIGNY",
+   "dep": "21",
+   "communes": [
+    "FLAVIGNY-SUR-OZERAIN"
+   ],
+   "adresses": [
+    "18 FG SAINT JACQUES 21150 FLAVIGNY-SUR-OZERAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "LES BIERES DU FOURNIL / TALANT INFORMATIQUE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "21",
+   "communes": [
+    "TALANT"
+   ],
+   "adresses": [
+    "20 BOULEVARD DES CLOMIERS 21240 TALANT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:938554631",
+   "enseigne": "BRASSERIE APOLLO",
+   "dep": "21",
+   "communes": [
+    "DIJON"
+   ],
+   "adresses": [
+    "1 RUE ERNEST CHAPUT 21000 DIJON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:439216029",
+   "enseigne": "BRASSERIE DES TROIS FONTAINES",
+   "dep": "21",
+   "communes": [
+    "BRETENIERE"
+   ],
+   "adresses": [
+    "ZA DE LA PLUCHARDE 17 RUE DE LA PLUCHARDE 21110 BRETENIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808981724",
+   "enseigne": "LES BIERES DU DONJON",
+   "dep": "21",
+   "communes": [
+    "SEMUR-EN-AUXOIS"
+   ],
+   "adresses": [
+    "6 RUE DE LA CHAUME AU MENELOT 21140 SEMUR-EN-AUXOIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:921840252",
+   "enseigne": "LES BRASSAGES DU MEIX",
+   "dep": "21",
+   "communes": [
+    "SAINT-JULIEN"
+   ],
+   "adresses": [
+    "6 B RUE DES ALLEUX 21490 SAINT-JULIEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987885241",
+   "enseigne": "BRASSERIE BREWLING BEER",
+   "dep": "21",
+   "communes": [
+    "DETAIN-ET-BRUANT"
+   ],
+   "adresses": [
+    "6 IMPASSE LES MEIX 21220 DETAIN-ET-BRUANT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850312323",
+   "enseigne": "BRASSERIE LA SOURCE",
+   "dep": "21",
+   "communes": [
+    "PERRIGNY-LES-DIJON"
+   ],
+   "adresses": [
+    "14 B RUE DE PRIELLE 21160 PERRIGNY-LES-DIJON"
+   ],
+   "osm": [
+    "node/5529025738"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808461081",
+   "enseigne": "BRASSERIE DES BIERES DE FAMILLE",
+   "dep": "21",
+   "communes": [
+    "GEMEAUX"
+   ],
+   "adresses": [
+    "12 RUE DES CHARRIERES 21120 GEMEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:982022691",
+   "enseigne": "HARVEST BREWING",
+   "dep": "21",
+   "communes": [
+    "SAVIGNY-LES-BEAUNE"
+   ],
+   "adresses": [
+    "11 RUE EULALIE FION 21420 SAVIGNY-LES-BEAUNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:839865946",
+   "enseigne": "BRASSERIE LORO",
+   "dep": "21",
+   "communes": [
+    "SAINT-APOLLINAIRE"
+   ],
+   "adresses": [
+    "ECOPARC DIJON 226 RUE JEAN-LOUIS AUGUSTE PETITJEAN 21850 SAINT-APOLLINAIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833306848",
+   "enseigne": "BRASSERIE DES DUCS",
+   "dep": "21",
+   "communes": [
+    "LONGCHAMP"
+   ],
+   "adresses": [
+    "2 B A RUE DU PETIT PONT 21110 LONGCHAMP"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:502451438",
+   "enseigne": "BRASSERIE BURGONDE",
+   "dep": "21",
+   "communes": [
+    "VITTEAUX"
+   ],
+   "adresses": [
+    "10 RUE DE VERDUN 21350 VITTEAUX"
+   ],
+   "osm": [
+    "node/4779992963"
+   ],
+   "site": "http://brasserie-burgonde.over-blog.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948575345",
+   "enseigne": "LE BRASSEUR BOURGUIGNON",
+   "dep": "21",
+   "communes": [
+    "TIL-CHATEL"
+   ],
+   "adresses": [
+    "7 RUE DU CLOS 21120 TIL-CHATEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840342950",
+   "enseigne": "INDEPENDENT HOUSE",
+   "dep": "21",
+   "communes": [
+    "GEVREY-CHAMBERTIN"
+   ],
+   "adresses": [
+    "4 RUE DES CHEMINOTS 21220 GEVREY-CHAMBERTIN"
+   ],
+   "osm": [
+    "node/12595986311"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:842154890",
+   "enseigne": "BRASSERIE LA KANOPEE",
+   "dep": "21",
+   "communes": [
+    "SAINTE-MARIE-SUR-OUCHE"
+   ],
+   "adresses": [
+    "HAMEAU DE PONT DE PANY 255 RUE DE LA GARE 21410 SAINTE-MARIE-SUR-OUCHE"
+   ],
+   "osm": [
+    "node/6765218586"
+   ],
+   "site": "https://www.la-kanopee.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849962808",
+   "enseigne": "BRASSERIE CHOP'IN",
+   "dep": "21",
+   "communes": [
+    "COMBLANCHIEN"
+   ],
+   "adresses": [
+    "33 ROUTE DEPARTEMENTALE 974 21700 COMBLANCHIEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11403951214",
+   "enseigne": "Brasserie des sources de l’Ouche",
+   "dep": "21",
+   "communes": [
+    "Lusigny-sur-Ouche"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11403951214"
+   ],
+   "site": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/13022400333",
+   "enseigne": "Brasserie Bouillant",
+   "dep": "21",
+   "communes": [
+    "Fleurey-sur-Ouche"
+   ],
+   "adresses": [
+    "30 Rue de l'Aule, 21410 Fleurey-sur-Ouche"
+   ],
+   "osm": [
+    "node/13022400333"
+   ],
+   "site": "https://brasseriebouillant.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5459201557",
+   "enseigne": "Brasserie de la Roche Aigüe",
+   "dep": "21",
+   "communes": [
+    "Mâlain"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5459201557"
+   ],
+   "site": "https://alternatives-agriculturelles.fr/microbrasserie/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/5462372327",
+   "enseigne": "LORO Bières Artisanales",
+   "dep": "21",
+   "communes": [
+    "Talmay"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5462372327"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5529034615",
+   "enseigne": "ex-Brasserie La Roteuse",
+   "dep": "21",
+   "communes": [
+    "Brochon"
+   ],
+   "adresses": [
+    "Route Nationale, Brochon"
+   ],
+   "osm": [
+    "node/5529034615"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1024002620",
+   "enseigne": "Le Crazy",
+   "dep": "21",
+   "communes": [
+    "Dijon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/1024002620"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

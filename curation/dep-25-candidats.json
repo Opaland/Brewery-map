@@ -1,0 +1,1151 @@
+[
+ {
+  "cle": "sirene:932559347",
+  "nom": "LA BRAILLEUSE",
+  "communes": [
+   "SAUVAGNEY",
+   "EMAGNY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "6 GRANDE RUE 25170 SAUVAGNEY",
+   "ESPACE BEAURIVAGE 25170 EMAGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "932559347",
+  "sirets": [
+   "93255934700012",
+   "93255934700020"
+  ],
+  "osm": [],
+  "lat": 47.3250387281485,
+  "lon": 5.9027385593398,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910845791",
+  "nom": "AYMERIC TISSOT - BRASSEUR ASSEMBLEUR",
+  "communes": [
+   "BESANCON"
+  ],
+  "departement": "25",
+  "adresses": [
+   "138 GRANDE-RUE 25000 BESANCON",
+   "122 GRANDE-RUE 25000 BESANCON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "910845791",
+  "sirets": [
+   "91084579100011",
+   "91084579100029"
+  ],
+  "osm": [
+   "node/11466041614"
+  ],
+  "lat": 47.2348015220724,
+  "lon": 6.02918987272289,
+  "site": "https://www.brasserielevain.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892966458",
+  "nom": "LA CHAUFFOUILLARDE",
+  "communes": [
+   "VILLERS-LE-LAC"
+  ],
+  "departement": "25",
+  "adresses": [
+   "37 RUE DU NEUF CLOS 25130 VILLERS-LE-LAC",
+   "131 ROUTE DU CHAUFFAUD 25130 VILLERS-LE-LAC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "892966458",
+  "sirets": [
+   "89296645800010",
+   "89296645800028"
+  ],
+  "osm": [
+   "node/8891128698"
+  ],
+  "lat": 47.044965835,
+  "lon": 6.7056268291,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911885077",
+  "nom": "BRASSERIE LA RINCOTTE",
+  "communes": [
+   "MAICHE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "18 RUE LOUIS PERGAUD 25120 MAICHE",
+   "7 RUE HENRI ROTSCHI 25120 MAICHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911885077",
+  "sirets": [
+   "91188507700014",
+   "91188507700022"
+  ],
+  "osm": [],
+  "lat": 47.253850912,
+  "lon": 6.8081023468,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882628282",
+  "nom": "BRASSERIE DE LA QUIOTTE",
+  "communes": [
+   "ETALANS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "3 RUE RUE DES ACOTS 25580 ETALANS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "882628282",
+  "sirets": [
+   "88262828200015"
+  ],
+  "osm": [
+   "node/8762268374"
+  ],
+  "lat": 47.151652299,
+  "lon": 6.2674544892,
+  "site": "https://lagroslam.beer/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892336512",
+  "nom": "BRASSERIE DE L'ARRIERE-GARDE",
+  "communes": [
+   "LES VILLEDIEU"
+  ],
+  "departement": "25",
+  "adresses": [
+   "1 IMPASSE DE LA RECOURBE 25240 LES VILLEDIEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892336512",
+  "sirets": [
+   "89233651200025"
+  ],
+  "osm": [],
+  "lat": 46.728486752519,
+  "lon": 6.24432341846467,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LARNOD"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:900584731",
+  "nom": "BRASSERIE LA BRELOK'",
+  "communes": [
+   "LES FINS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "9 RUE DES PRES MOUCHETS 25500 LES FINS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "900584731",
+  "sirets": [
+   "90058473100021"
+  ],
+  "osm": [
+   "node/9975717988"
+  ],
+  "lat": 47.0863463166231,
+  "lon": 6.63355189036976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951128636",
+  "nom": "SADJE",
+  "communes": [
+   "MONTBENOIT"
+  ],
+  "departement": "25",
+  "adresses": [
+   "4 RUE DU VAL SAUGEAIS 25650 MONTBENOIT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951128636",
+  "sirets": [
+   "95112863600010"
+  ],
+  "osm": [],
+  "lat": 46.99269928,
+  "lon": 6.4629134595,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:502084296",
+  "nom": "BRASSERIE ENTRE 2 MONDES",
+  "communes": [
+   "MOUTHIER-HAUTE-PIERRE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "12 RUE ERNEST REYER 25920 MOUTHIER-HAUTE-PIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "502084296",
+  "sirets": [
+   "50208429600016"
+  ],
+  "osm": [],
+  "lat": 47.038484097,
+  "lon": 6.2776422629,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE DE LA QUIOTTE",
+  "communes": [
+   "ETALANS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "3 RUE DES ACOTS 25580 ETALANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "doublon",
+  "fiche": "BRASSERIE DE LA QUIOTTE"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CENDREY"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:839358330",
+  "nom": "DERRI LOU CHATAI",
+  "communes": [
+   "SELONCOURT"
+  ],
+  "departement": "25",
+  "adresses": [
+   "3 RUE DE DASLE 25230 SELONCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839358330",
+  "sirets": [
+   "83935833000018"
+  ],
+  "osm": [],
+  "lat": 47.4636130304055,
+  "lon": 6.86101181239191,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "DUNG"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "AMAGNEY"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LES HOPITAUX-NEUFS"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE CUC",
+  "communes": [
+   "SERRE-LES-SAPINS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "4 RUE DE TERRE ROUGE 25770 SERRE-LES-SAPINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "LE BARBOUX"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "BAUME-LES-DAMES"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:10",
+  "nom": "BRASSERIE D'EPENOY",
+  "communes": [
+   "EPENOY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "38 GRANDE RUE 25800 EPENOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "BESANCON"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:980562672",
+  "nom": "L'API BRASSERIE",
+  "communes": [
+   "SAONE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "2 RUE DE LA PAIX 25660 SAONE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980562672",
+  "sirets": [
+   "98056267200017"
+  ],
+  "osm": [],
+  "lat": 47.227919494,
+  "lon": 6.1200944123,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835121104",
+  "nom": "LA BRASS'",
+  "communes": [
+   "SAONE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "53 RUE DES FRERES MAIRE 25660 SAONE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "835121104",
+  "sirets": [
+   "83512110400011"
+  ],
+  "osm": [],
+  "lat": 47.218395453,
+  "lon": 6.1156311784,
+  "statut": "ambigu",
+  "fiche": "Le Brass'in"
+ },
+ {
+  "cle": "sirene:844310748",
+  "nom": "BRASSERIE BACKPORTE",
+  "communes": [
+   "BART"
+  ],
+  "departement": "25",
+  "adresses": [
+   "12 RUE FREDERIC JAPY 25420 BART"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "844310748",
+  "sirets": [
+   "84431074800018"
+  ],
+  "osm": [
+   "node/9246694337"
+  ],
+  "lat": 47.4835138444394,
+  "lon": 6.76810170357543,
+  "site": "https://backporte.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:12",
+  "nom": "BRASSERIE ZONE",
+  "communes": [
+   "PONTARLIER"
+  ],
+  "departement": "25",
+  "adresses": [
+   "20 RUE JEAN MERMOZ 25300 PONTARLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:845184548",
+  "nom": "ASSOCIATION DE LA DECOUVERTE DU PATRIMOINE BRASSICOLE",
+  "communes": [
+   "BESANCON"
+  ],
+  "departement": "25",
+  "adresses": [
+   "23 RUE DES OISEAUX 25000 BESANCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "845184548",
+  "sirets": [
+   "84518454800012"
+  ],
+  "osm": [],
+  "lat": 47.25615591,
+  "lon": 6.037666234,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:994350833",
+  "nom": "BRASSERIE BARLOU",
+  "communes": [
+   "QUINGEY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "11 ZONE ARTISANALE DE LA BLANCHOTTE 25440 QUINGEY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "994350833",
+  "sirets": [
+   "99435083300012"
+  ],
+  "osm": [],
+  "lat": 47.1008895604529,
+  "lon": 5.87338300513301,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "LAVANS-VUILLAFANS"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:109834648",
+  "nom": "BRASSERIE ZONE",
+  "communes": [
+   "PONTARLIER"
+  ],
+  "departement": "25",
+  "adresses": [
+   "20 RUE JEAN MERMOZ 25300 PONTARLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "109834648",
+  "sirets": [
+   "10983464800015"
+  ],
+  "osm": [],
+  "lat": 46.909400975323926,
+  "lon": 6.3433479871732255,
+  "statut": "doublon",
+  "fiche": "BRASSERIE ZONE"
+ },
+ {
+  "cle": "personne:14",
+  "nom": null,
+  "communes": [
+   "BAUME-LES-DAMES"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:15",
+  "nom": null,
+  "communes": [
+   "HYEMONDANS"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:16",
+  "nom": null,
+  "communes": [
+   "VILLARS-SOUS-DAMPJOUX"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:17",
+  "nom": null,
+  "communes": [
+   "FESCHES-LE-CHATEL"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:513322206",
+  "nom": "TERRA COMTIX",
+  "communes": [
+   "MAMIROLLE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "ZI DU NORET 25620 MAMIROLLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "513322206",
+  "sirets": [
+   "51332220600022"
+  ],
+  "osm": [
+   "node/8040405920"
+  ],
+  "lat": 47.196823074,
+  "lon": 6.1474953423,
+  "site": "https://www.labrassicomtoise.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:18",
+  "nom": null,
+  "communes": [
+   "MOUTHIER-HAUTE-PIERRE"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:19",
+  "nom": null,
+  "communes": [
+   "LES AUXONS"
+  ],
+  "departement": "25",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:851284828",
+  "nom": "YOYO",
+  "communes": [
+   "FONTAIN"
+  ],
+  "departement": "25",
+  "adresses": [
+   "10 RUE COMBE BOURGOGNE 25660 FONTAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851284828",
+  "sirets": [
+   "85128482800015"
+  ],
+  "osm": [],
+  "lat": 47.200444148,
+  "lon": 6.0305104397,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:524825494",
+  "nom": "BIERE DU DOUBS",
+  "communes": [
+   "NANCRAY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "26 GRANDE RUE 25360 NANCRAY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "524825494",
+  "sirets": [
+   "52482549400015"
+  ],
+  "osm": [
+   "node/3046783333"
+  ],
+  "lat": 47.2444834302653,
+  "lon": 6.18129111246026,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882081557",
+  "nom": "HAUT DOUBS BEER PROJECT",
+  "communes": [
+   "LES PONTETS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "2 RUE DE PACAUD 25240 LES PONTETS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882081557",
+  "sirets": [
+   "88208155700010"
+  ],
+  "osm": [],
+  "lat": 46.719724099,
+  "lon": 6.1705202822,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:108363110",
+  "nom": "PIKTO",
+  "communes": [
+   "VUILLAFANS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "5 ROUTE DE PONTARLIER 25840 VUILLAFANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "108363110",
+  "sirets": [
+   "10836311000017"
+  ],
+  "osm": [],
+  "lat": 47.0644975756725,
+  "lon": 6.21699210567097,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:20",
+  "nom": "BRASSERIE LES PETITES BULLES",
+  "communes": [
+   "LORAY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "7 RUE DE LA ROCHE BARCHEY 25390 LORAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929276087",
+  "nom": "HOPPY FAMILY BREWING",
+  "communes": [
+   "GRANGES-NARBOZ"
+  ],
+  "departement": "25",
+  "adresses": [
+   "8 RUE RENE GUINARD 25300 GRANGES-NARBOZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929276087",
+  "sirets": [
+   "92927608700012"
+  ],
+  "osm": [],
+  "lat": 46.88160674,
+  "lon": 6.3215483918,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899250021",
+  "nom": "LA BRASSERIE BEHOUCK",
+  "communes": [
+   "BETHONCOURT"
+  ],
+  "departement": "25",
+  "adresses": [
+   "20 RUE DU BOIS DE LA LUZINE 25200 BETHONCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899250021",
+  "sirets": [
+   "89925002100016"
+  ],
+  "osm": [],
+  "lat": 47.534377852,
+  "lon": 6.7831862707,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818701963",
+  "nom": "GANGLOFF BRASSERIE ARTISANALE",
+  "communes": [
+   "BESANCON"
+  ],
+  "departement": "25",
+  "adresses": [
+   "18 CHEMIN DE SERRE 25000 BESANCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818701963",
+  "sirets": [
+   "81870196300014"
+  ],
+  "osm": [],
+  "lat": 47.245568141,
+  "lon": 5.9762419125,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814786109",
+  "nom": "BRASSERIE ARTISANALE LA BONNE BOUIL",
+  "communes": [
+   "PONTARLIER"
+  ],
+  "departement": "25",
+  "adresses": [
+   "14 RUE DU MAGASIN 25300 PONTARLIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814786109",
+  "sirets": [
+   "81478610900011"
+  ],
+  "osm": [
+   "node/7402136665"
+  ],
+  "lat": 46.905382572,
+  "lon": 6.3468558634,
+  "site": "https://www.brasseriebonnebouille.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:21",
+  "nom": "BIERE A BICHU",
+  "communes": [
+   "CUBRIAL"
+  ],
+  "departement": "25",
+  "adresses": [
+   "2 RUE DE L'EGALITE 25680 CUBRIAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841145691",
+  "nom": "LES 2 FUTS",
+  "communes": [
+   "BESANCON"
+  ],
+  "departement": "25",
+  "adresses": [
+   "7 RUE FRANCOIS REIN 25000 BESANCON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "841145691",
+  "sirets": [
+   "84114569100017"
+  ],
+  "osm": [
+   "node/11811658227"
+  ],
+  "lat": 47.2581413877363,
+  "lon": 6.0485654337262,
+  "site": "https://www.les2futs.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11960475502",
+  "nom": "Hélie - Microbrasserie Solaire",
+  "communes": [
+   "Dampierre-les-Bois"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11960475502"
+  ],
+  "lat": 47.50917,
+  "lon": 6.91316,
+  "site": "https://www.microbrasseriehelie.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12066100906",
+  "nom": "Le Grand méchant moût",
+  "communes": [
+   "Valonne"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12066100906"
+  ],
+  "lat": 47.34281,
+  "lon": 6.66045,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13735220701",
+  "nom": "De la fleur au fruit",
+  "communes": [
+   "Boussières"
+  ],
+  "departement": "25",
+  "adresses": [
+   "2 Rue des Pins, 25320"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13735220701"
+  ],
+  "lat": 47.15871,
+  "lon": 5.90041,
+  "site": "http://www.bouilleursdecru.fr/5.html",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6039450606",
+  "nom": "Gangloff Brasserie",
+  "communes": [
+   "Pirey"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6039450606"
+  ],
+  "lat": 47.24577,
+  "lon": 5.97649,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6487472862",
+  "nom": "Brasserie Entre Deux Mondes",
+  "communes": [
+   "Mouthier-Haute-Pierre"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6487472862"
+  ],
+  "lat": 47.03867,
+  "lon": 6.27769,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6532084908",
+  "nom": "Brasserie de Sochaux",
+  "communes": [
+   "Exincourt"
+  ],
+  "departement": "25",
+  "adresses": [
+   "72 Rue Edgar Faure, 25400 Exincourt"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6532084908"
+  ],
+  "lat": 47.49613,
+  "lon": 6.82512,
+  "site": "https://brasseriedesochaux.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/104308091",
+  "nom": "Brasserie Fontaine de Jouvence",
+  "communes": [
+   "Badevel"
+  ],
+  "departement": "25",
+  "adresses": [
+   "8 Rue de Dampierre les Bois, 25490 Badevel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/104308091"
+  ],
+  "lat": 47.50401,
+  "lon": 6.93839,
+  "site": "http://www.fontainesdejouvence.fr.sitew.com/",
+  "statut": "nouveau"
+ }
+]

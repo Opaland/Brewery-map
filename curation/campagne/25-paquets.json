@@ -1,0 +1,572 @@
+[
+ [
+  {
+   "cle": "sirene:932559347",
+   "enseigne": "LA BRAILLEUSE",
+   "dep": "25",
+   "communes": [
+    "SAUVAGNEY",
+    "EMAGNY"
+   ],
+   "adresses": [
+    "6 GRANDE RUE 25170 SAUVAGNEY",
+    "ESPACE BEAURIVAGE 25170 EMAGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910845791",
+   "enseigne": "AYMERIC TISSOT - BRASSEUR ASSEMBLEUR",
+   "dep": "25",
+   "communes": [
+    "BESANCON"
+   ],
+   "adresses": [
+    "138 GRANDE-RUE 25000 BESANCON",
+    "122 GRANDE-RUE 25000 BESANCON"
+   ],
+   "osm": [
+    "node/11466041614"
+   ],
+   "site": "https://www.brasserielevain.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892966458",
+   "enseigne": "LA CHAUFFOUILLARDE",
+   "dep": "25",
+   "communes": [
+    "VILLERS-LE-LAC"
+   ],
+   "adresses": [
+    "37 RUE DU NEUF CLOS 25130 VILLERS-LE-LAC",
+    "131 ROUTE DU CHAUFFAUD 25130 VILLERS-LE-LAC"
+   ],
+   "osm": [
+    "node/8891128698"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911885077",
+   "enseigne": "BRASSERIE LA RINCOTTE",
+   "dep": "25",
+   "communes": [
+    "MAICHE"
+   ],
+   "adresses": [
+    "18 RUE LOUIS PERGAUD 25120 MAICHE",
+    "7 RUE HENRI ROTSCHI 25120 MAICHE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882628282",
+   "enseigne": "BRASSERIE DE LA QUIOTTE",
+   "dep": "25",
+   "communes": [
+    "ETALANS"
+   ],
+   "adresses": [
+    "3 RUE RUE DES ACOTS 25580 ETALANS"
+   ],
+   "osm": [
+    "node/8762268374"
+   ],
+   "site": "https://lagroslam.beer/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892336512",
+   "enseigne": "BRASSERIE DE L'ARRIERE-GARDE",
+   "dep": "25",
+   "communes": [
+    "LES VILLEDIEU"
+   ],
+   "adresses": [
+    "1 IMPASSE DE LA RECOURBE 25240 LES VILLEDIEU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900584731",
+   "enseigne": "BRASSERIE LA BRELOK'",
+   "dep": "25",
+   "communes": [
+    "LES FINS"
+   ],
+   "adresses": [
+    "9 RUE DES PRES MOUCHETS 25500 LES FINS"
+   ],
+   "osm": [
+    "node/9975717988"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:951128636",
+   "enseigne": "SADJE",
+   "dep": "25",
+   "communes": [
+    "MONTBENOIT"
+   ],
+   "adresses": [
+    "4 RUE DU VAL SAUGEAIS 25650 MONTBENOIT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:502084296",
+   "enseigne": "BRASSERIE ENTRE 2 MONDES",
+   "dep": "25",
+   "communes": [
+    "MOUTHIER-HAUTE-PIERRE"
+   ],
+   "adresses": [
+    "12 RUE ERNEST REYER 25920 MOUTHIER-HAUTE-PIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DE LA QUIOTTE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "ETALANS"
+   ],
+   "adresses": [
+    "3 RUE DES ACOTS 25580 ETALANS"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:839358330",
+   "enseigne": "DERRI LOU CHATAI",
+   "dep": "25",
+   "communes": [
+    "SELONCOURT"
+   ],
+   "adresses": [
+    "3 RUE DE DASLE 25230 SELONCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "BRASSERIE CUC (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "SERRE-LES-SAPINS"
+   ],
+   "adresses": [
+    "4 RUE DE TERRE ROUGE 25770 SERRE-LES-SAPINS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:10",
+   "enseigne": "BRASSERIE D'EPENOY (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "EPENOY"
+   ],
+   "adresses": [
+    "38 GRANDE RUE 25800 EPENOY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980562672",
+   "enseigne": "L'API BRASSERIE",
+   "dep": "25",
+   "communes": [
+    "SAONE"
+   ],
+   "adresses": [
+    "2 RUE DE LA PAIX 25660 SAONE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835121104",
+   "enseigne": "LA BRASS'",
+   "dep": "25",
+   "communes": [
+    "SAONE"
+   ],
+   "adresses": [
+    "53 RUE DES FRERES MAIRE 25660 SAONE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:844310748",
+   "enseigne": "BRASSERIE BACKPORTE",
+   "dep": "25",
+   "communes": [
+    "BART"
+   ],
+   "adresses": [
+    "12 RUE FREDERIC JAPY 25420 BART"
+   ],
+   "osm": [
+    "node/9246694337"
+   ],
+   "site": "https://backporte.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:12",
+   "enseigne": "BRASSERIE ZONE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "PONTARLIER"
+   ],
+   "adresses": [
+    "20 RUE JEAN MERMOZ 25300 PONTARLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:845184548",
+   "enseigne": "ASSOCIATION DE LA DECOUVERTE DU PATRIMOINE BRASSICOLE",
+   "dep": "25",
+   "communes": [
+    "BESANCON"
+   ],
+   "adresses": [
+    "23 RUE DES OISEAUX 25000 BESANCON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:994350833",
+   "enseigne": "BRASSERIE BARLOU",
+   "dep": "25",
+   "communes": [
+    "QUINGEY"
+   ],
+   "adresses": [
+    "11 ZONE ARTISANALE DE LA BLANCHOTTE 25440 QUINGEY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:109834648",
+   "enseigne": "BRASSERIE ZONE",
+   "dep": "25",
+   "communes": [
+    "PONTARLIER"
+   ],
+   "adresses": [
+    "20 RUE JEAN MERMOZ 25300 PONTARLIER"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:513322206",
+   "enseigne": "TERRA COMTIX",
+   "dep": "25",
+   "communes": [
+    "MAMIROLLE"
+   ],
+   "adresses": [
+    "ZI DU NORET 25620 MAMIROLLE"
+   ],
+   "osm": [
+    "node/8040405920"
+   ],
+   "site": "https://www.labrassicomtoise.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851284828",
+   "enseigne": "YOYO",
+   "dep": "25",
+   "communes": [
+    "FONTAIN"
+   ],
+   "adresses": [
+    "10 RUE COMBE BOURGOGNE 25660 FONTAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:524825494",
+   "enseigne": "BIERE DU DOUBS",
+   "dep": "25",
+   "communes": [
+    "NANCRAY"
+   ],
+   "adresses": [
+    "26 GRANDE RUE 25360 NANCRAY"
+   ],
+   "osm": [
+    "node/3046783333"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882081557",
+   "enseigne": "HAUT DOUBS BEER PROJECT",
+   "dep": "25",
+   "communes": [
+    "LES PONTETS"
+   ],
+   "adresses": [
+    "2 RUE DE PACAUD 25240 LES PONTETS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:108363110",
+   "enseigne": "PIKTO",
+   "dep": "25",
+   "communes": [
+    "VUILLAFANS"
+   ],
+   "adresses": [
+    "5 ROUTE DE PONTARLIER 25840 VUILLAFANS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:20",
+   "enseigne": "BRASSERIE LES PETITES BULLES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "LORAY"
+   ],
+   "adresses": [
+    "7 RUE DE LA ROCHE BARCHEY 25390 LORAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:929276087",
+   "enseigne": "HOPPY FAMILY BREWING",
+   "dep": "25",
+   "communes": [
+    "GRANGES-NARBOZ"
+   ],
+   "adresses": [
+    "8 RUE RENE GUINARD 25300 GRANGES-NARBOZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899250021",
+   "enseigne": "LA BRASSERIE BEHOUCK",
+   "dep": "25",
+   "communes": [
+    "BETHONCOURT"
+   ],
+   "adresses": [
+    "20 RUE DU BOIS DE LA LUZINE 25200 BETHONCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818701963",
+   "enseigne": "GANGLOFF BRASSERIE ARTISANALE",
+   "dep": "25",
+   "communes": [
+    "BESANCON"
+   ],
+   "adresses": [
+    "18 CHEMIN DE SERRE 25000 BESANCON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814786109",
+   "enseigne": "BRASSERIE ARTISANALE LA BONNE BOUIL",
+   "dep": "25",
+   "communes": [
+    "PONTARLIER"
+   ],
+   "adresses": [
+    "14 RUE DU MAGASIN 25300 PONTARLIER"
+   ],
+   "osm": [
+    "node/7402136665"
+   ],
+   "site": "https://www.brasseriebonnebouille.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:21",
+   "enseigne": "BIERE A BICHU (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "CUBRIAL"
+   ],
+   "adresses": [
+    "2 RUE DE L'EGALITE 25680 CUBRIAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841145691",
+   "enseigne": "LES 2 FUTS",
+   "dep": "25",
+   "communes": [
+    "BESANCON"
+   ],
+   "adresses": [
+    "7 RUE FRANCOIS REIN 25000 BESANCON"
+   ],
+   "osm": [
+    "node/11811658227"
+   ],
+   "site": "https://www.les2futs.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11960475502",
+   "enseigne": "Hélie - Microbrasserie Solaire",
+   "dep": "25",
+   "communes": [
+    "Dampierre-les-Bois"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11960475502"
+   ],
+   "site": "https://www.microbrasseriehelie.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12066100906",
+   "enseigne": "Le Grand méchant moût",
+   "dep": "25",
+   "communes": [
+    "Valonne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12066100906"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13735220701",
+   "enseigne": "De la fleur au fruit",
+   "dep": "25",
+   "communes": [
+    "Boussières"
+   ],
+   "adresses": [
+    "2 Rue des Pins, 25320"
+   ],
+   "osm": [
+    "node/13735220701"
+   ],
+   "site": "http://www.bouilleursdecru.fr/5.html",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6039450606",
+   "enseigne": "Gangloff Brasserie",
+   "dep": "25",
+   "communes": [
+    "Pirey"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6039450606"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6487472862",
+   "enseigne": "Brasserie Entre Deux Mondes",
+   "dep": "25",
+   "communes": [
+    "Mouthier-Haute-Pierre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6487472862"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6532084908",
+   "enseigne": "Brasserie de Sochaux",
+   "dep": "25",
+   "communes": [
+    "Exincourt"
+   ],
+   "adresses": [
+    "72 Rue Edgar Faure, 25400 Exincourt"
+   ],
+   "osm": [
+    "node/6532084908"
+   ],
+   "site": "https://brasseriedesochaux.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/104308091",
+   "enseigne": "Brasserie Fontaine de Jouvence",
+   "dep": "25",
+   "communes": [
+    "Badevel"
+   ],
+   "adresses": [
+    "8 Rue de Dampierre les Bois, 25490 Badevel"
+   ],
+   "osm": [
+    "way/104308091"
+   ],
+   "site": "http://www.fontainesdejouvence.fr.sitew.com/",
+   "statut": "nouveau"
+  }
+ ]
+]
