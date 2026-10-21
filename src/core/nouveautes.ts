@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: '66cc4c007a950498',
+  empreinte: '72e40a92301f3ff5',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 213 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 192 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Indre-et-Loire.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 215 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 214 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire et en Centre-Val de Loire.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-21', texte: '22 brasseries ajoutées : 19 dans le Loiret, le Loir-et-Cher, le Cher, l’Indre et l’Eure-et-Loir, et 3 en Bretagne et en Touraine, d’après leur site, un office de tourisme ou Untappd.' },
   { date: '2026-10-20', texte: "Sept brasseries que l’annuaire officiel des entreprises dit cessées sont marquées fermées ; trois brasseries qui ont déménagé sont à leur nouvelle adresse : La Gaudine à Marlhes, les Croqueurs de Lune à Serrières-en-Chautagne, Biercors à Villard-de-Lans." },
   { date: '2026-10-20', texte: "Adresses ajoutées à 5 brasseries autour de Lyon (Ninkasi Brignais, Ninkasi Saint-Étienne, Malting Pot, L’Affoleuse, Brasserie de l’Ours Barbu), lues sur leur propre site ; téléphone et horaires pour Ninkasi Brignais." },
   { date: '2026-10-20', texte: "La fiche dit une fois ce qu’elle ne sait pas encore, avec où le chercher, au lieu de le répéter dans chaque partie ; d’où vient chaque information tient en une phrase." },

@@ -133,3 +133,27 @@ Ses mots, recopiés, à côté de chaque question posée le même jour.
 | « Les brasseries fermées d'après SIRENE : une simple note, ou le statut « fermée » ? » | « oui fermé » | Statut `fermee` (décision #35), source SIRENE. Seulement les cas nets : entreprise cessée, aucun établissement ouvert, même commune (S321). |
 | « Les trois déménagements : La Gaudine vers Marlhes, les Croqueurs de Lune vers Serrières-en-Chautagne, Biercors vers Villard-de-Lans. » | « OK » | Commune, département, adresse et position changent par lot (S322, décision #36) ; le reste de leurs propositions attend ses numéros. |
 | « Le libellé « Confiance faible / moyenne / élevée » : je le remplace par des phrases ? » | « oui » | La fiche dit la confiance en une phrase (S320). Son choix du 15/10 (« élevée ») et la demande du cahier des charges cèdent à cette réponse ; le champ `conf` du fichier ne change pas. |
+
+## Règle de Cédric du 21/10 : créer et modifier sans demander
+
+Ses mots, recopiés (trois messages du 21/10, pendant le tri de ce qui
+l'attendait) : « pour les modifs ou création de fiche » ; « si tu trouve
+les infos sur google par exemple ne me demande pas la persommission de la
+fiche » ; « pour les bières l'info est sur untapp ».
+
+| Ce qui entre dans la règle | Ce qui reste à Cédric |
+|---|---|
+| Créer une fiche, ou en modifier une, quand l'information est lue sur une source publique (site de la brasserie, Google, office de tourisme, registre des entreprises) et que `controler` la retrouve sur la page | Retirer une fiche, la marquer « fermée », la déménager dans une autre commune (gardés pour lui le 18/10 et le 20/10) |
+| Les bières : lues sur Untappd | Recopier un numéro de portable (sa consigne de reprise ; il a gardé ceux de Manev'Ale et de Chanaz le 20/10) |
+| | Une brasserie connue d'un annuaire seul : elle n'existe pas (méthode du 19/10) |
+
+**Comment elle s'applique.** Comme celle du 18/10 : chaque accord de
+`curation/accords/` qui l'applique cite ces mots dans sa `parole` ; la PR
+liste les lignes ajoutées ou modifiées ; Cédric peut en refuser une après
+coup. La garde de `data/` (S230) rejoue les accords, à l'octet près. Une
+PR de données se merge verte, sans attendre sa revue, puisqu'il ne veut
+plus qu'on lui demande la permission pour une fiche.
+
+**Première application (21/10)** : les 22 brasseries nouvelles des lots
+`dep-45`, `dep-41`, `dep-18`, `dep-36`, `dep-28` et `s327-a-relancer`.
+

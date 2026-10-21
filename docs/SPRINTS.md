@@ -2942,3 +2942,8 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## Rétrospective des epics E30 à E35 *(21/10)*
 
 `docs/RETRO-2026-10-21.md`. Ce qui a marché (personas et revue adverse ont trouvé de vrais défauts ; la porte a bloqué trois fois à raison), ce qui a raté, daté (un merge avec `porte` en attente, d'où la règle §7bis de CLAUDE.md), et ce qui attend Cédric.
+
+## Règle de Cédric du 21/10, première application *(21/10)*
+
+`docs/DECISIONS.md`, « Règle de Cédric du 21/10 » : créer et modifier une fiche sans lui demander, quand une source publique la donne (Untappd pour les bières). Appliquée aux 22 brasseries nouvelles (`dep-45` 8, `dep-41` 1, `dep-18` 4, `dep-36` 2, `dep-28` 4, `s327-a-relancer` 3) : 370 fiches, 29 départements ; 14 points OSM devenus des fiches quittent la couche (866).
+

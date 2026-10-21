@@ -13765,5 +13765,739 @@
    "source": "https://untappd.com/w/brasserie-des-canailles/461563",
    "verifieLe": "2026-10-17"
   }
+ },
+ {
+  "n": "Brasserie du Vauret",
+  "c": "Mardié",
+  "d": "45",
+  "lat": 47.92724,
+  "lon": 2.05371,
+  "km": 324.0,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le site de la brasserie annonce une « Boutique & Bar » ouverte le jeudi et le vendredi après-midi, sans heures.",
+  "addr": "501 rue du Vauret, 45430 Mardié",
+  "src": "https://www.brasserieduvauret.fr/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://www.brasserieduvauret.fr/",
+   "source": "https://www.brasserieduvauret.fr/contact",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "La Brasserie des Écluses",
+  "c": "Saint-Hilaire-Saint-Mesmin",
+  "d": "45",
+  "lat": 47.86517,
+  "lon": 1.83424,
+  "km": 329.8,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe et publie son site : elle commercialise ses bières localement ; il ne dit pas qu'on peut y acheter ou boire sur place.",
+  "addr": "935 route d'Orléans, 45160 Saint-Hilaire-Saint-Mesmin",
+  "src": "https://labrasseriedesecluses.fr/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://labrasseriedesecluses.fr/",
+   "source": "https://labrasseriedesecluses.fr/contact",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Mouss'bat",
+  "c": "Chaingy",
+  "d": "45",
+  "lat": 47.88251,
+  "lon": 1.76665,
+  "km": 334.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site annonce « Dégustation & vente directe à la brasserie », avec des horaires d'ouverture.",
+  "addr": "4 rue des Ratys, 45380 Chaingy",
+  "src": "https://www.moussbat.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://www.moussbat.com/",
+   "source": "https://www.moussbat.com/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://www.moussbat.com/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "La Riff",
+  "c": "Saint-Pryvé-Saint-Mesmin",
+  "d": "45",
+  "lat": 47.8903,
+  "lon": 1.88247,
+  "km": 329.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site cite une vente directe à l'atelier, avec des afterworks ; pas de bar ni de dégustation décrits.",
+  "addr": "4 Impasse des Vignes, 45750 Saint-Pryvé-Saint-Mesmin",
+  "src": "https://www.la-riff.fr/hub/brasserie",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://www.la-riff.fr/",
+   "source": "https://www.la-riff.fr/hub/brasserie",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "LABDD",
+  "c": "Donnery",
+  "d": "45",
+  "lat": 47.90931,
+  "lon": 2.10326,
+  "km": 320.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site annonce la vente directe à la brasserie le jeudi et le vendredi de 16 h à 19 h ; aucune dégustation sur place n'y est citée.",
+  "addr": "68 avenue d'Orléans, 45450 Donnery",
+  "src": "https://labdd.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://labdd.fr",
+   "source": "https://labdd.fr",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://labdd.fr",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "La Riole",
+  "c": "La Ferté-Saint-Aubin",
+  "d": "45",
+  "lat": 47.72403,
+  "lon": 1.92113,
+  "km": 314.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale dont le site propose bières en bouteilles, fûts et ateliers de dégustation ; ni adresse, ni lieu de vente, ni horaires publiés.",
+  "addr": "La Ferté-Saint-Aubin",
+  "src": "https://lariole.com",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://lariole.com",
+   "source": "https://lariole.com",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "La Brasserie du Four à Briques",
+  "c": "Saint-Pryvé-Saint-Mesmin",
+  "d": "45",
+  "lat": 47.89053,
+  "lon": 1.87595,
+  "km": 329.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site propose la visite et la dégustation des bières sur place, au Beer Garden en plein air ; il ne cite ni vente, ni horaires.",
+  "addr": "30 Rue du Vieux Bourg, 45750 Saint-Pryvé-Saint-Mesmin",
+  "src": "https://labrasseriedufourabriques.com/nos-services/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://labrasseriedufourabriques.com/",
+   "source": "https://labrasseriedufourabriques.com/nos-services/",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "HopRock",
+  "c": "Chécy",
+  "d": "45",
+  "lat": 47.90262,
+  "lon": 2.00044,
+  "km": 324.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site accueille pour des visites et dégustations, et propose de commander en ligne puis de retirer à la brasserie.",
+  "addr": "75 Avenue d'Orléans, 45430 Chécy",
+  "src": "https://hoprock.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://hoprock.fr/",
+   "source": "https://hoprock.fr/",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Brasserie de Chambord",
+  "c": "Saint-Gervais-la-Forêt",
+  "d": "41",
+  "lat": 47.5632,
+  "lon": 1.37007,
+  "km": 333.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site décrit un bar-boutique de 120 places assises, avec des accords mets-bières autour des bières de la maison.",
+  "addr": "125 Route Nationale, 41350 Saint-Gervais-la-Forêt",
+  "src": "https://www.brasseriedechambord.com/bar-boutique",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://www.brasseriedechambord.com",
+   "source": "https://www.brasseriedechambord.com",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.brasseriedechambord.com",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Ouche Nanon",
+  "c": "Ourouer-les-Bourdelins",
+  "d": "18",
+  "lat": 46.93073,
+  "lon": 2.78388,
+  "km": 206.0,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Le site annonce sa boutique, 2 place du Marché, ouverte le mardi, le jeudi, le vendredi et le samedi matin ; visite de l'atelier avec dégustation, sur réservation.",
+  "addr": "2 Place du Marché, 18350 Ourouer-les-Bourdelins",
+  "src": "https://www.ouche-nanon.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 48 74 72 55",
+   "site": "https://www.ouche-nanon.fr/",
+   "source": "https://www.ouche-nanon.fr/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "17:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ]
+    ],
+    "remarque": "En dehors de ces créneaux, sur rendez-vous.",
+    "source": "https://www.ouche-nanon.fr/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Bos",
+  "c": "Bourges",
+  "d": "18",
+  "lat": 47.07551,
+  "lon": 2.42091,
+  "km": 237.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site annonce la vente de bières en bouteilles, coffrets et fûts, la brasserie ouverte du mardi au vendredi ; ni dégustation ni bar mentionnés.",
+  "addr": "11 allée Napoléon III, 18000 Bourges",
+  "src": "https://www.brasserie-bos.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 48 65 90 71",
+   "site": "https://www.brasserie-bos.fr/",
+   "source": "https://www.brasserie-bos.fr/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": "heures-non-precisees",
+    "mer": "heures-non-precisees",
+    "jeu": "heures-non-precisees",
+    "ven": "heures-non-precisees",
+    "remarque": "Brasserie ouverte du mardi au vendredi de 11h à 14h et en soirée à partir de 17h30.",
+    "source": "https://www.brasserie-bos.fr/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de l'Arnon",
+  "c": "Loye-sur-Arnon",
+  "d": "18",
+  "lat": 46.65356,
+  "lon": 2.38559,
+  "km": 212.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; son site dit ses bières « distribuées localement en bouteille et en fûts sur place » ; la vente directe publiée se fait à la Fromagerie des 13 Blés, pas à la brasserie.",
+  "addr": "7 rue du Pont Romain, 18170 Loye-sur-Arnon",
+  "src": "https://brasseriedelarnon.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://brasseriedelarnon.com/",
+   "source": "https://brasseriedelarnon.com/",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Brasserie artisanale du Contrevent",
+  "c": "Brinon-sur-Sauldre",
+  "d": "18",
+  "lat": 47.55682,
+  "lon": 2.26259,
+  "km": 282.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site donne les horaires de la boutique de la brasserie et propose la visite ; il ne dit rien d'un bar ni d'une dégustation ouverte à tous.",
+  "addr": "14 route de Sainte-Montaine, 18410 Brinon-sur-Sauldre",
+  "src": "https://brasserieducontrevent.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://brasserieducontrevent.com/",
+   "source": "https://brasserieducontrevent.com/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasserieducontrevent.com/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Palisse",
+  "c": "Nuret-le-Ferron",
+  "d": "36",
+  "lat": 46.68414,
+  "lon": 1.44641,
+  "km": 278.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale bio ; vente sur place sur rendez-vous par téléphone, visite sur réservation, d'après la fiche du Parc naturel régional de la Brenne.",
+  "addr": "Place des Marronniers, 36800 Nuret-le-Ferron",
+  "src": "https://www.parc-naturel-brenne.fr/sejournez/produits-locaux/producteurs-fermiers/autres-productions/brasserie-la-palisse-207",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://brasserielapalisse.jimdosite.com/",
+   "source": "https://www.parc-naturel-brenne.fr/sejournez/produits-locaux/producteurs-fermiers/autres-productions/brasserie-la-palisse-207",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Beer'Berry",
+  "c": "Déols",
+  "d": "36",
+  "lat": 46.84131,
+  "lon": 1.70586,
+  "km": 267.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub sur le lieu de production : on y déguste les bières faites sur place, en semaine de 17 h à 19 h ; boutique sur place ; visites sur rendez-vous.",
+  "addr": "35 rue Sylvain Rebrioux, 36130 Déols",
+  "src": "https://www.beerberry.fr/le-brewpub/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 54 25 49 04",
+   "site": "https://www.beerberry.fr/",
+   "source": "https://www.beerberry.fr/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mar": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "remarque": "Visites de la brasserie sur rendez-vous.",
+    "source": "https://www.beerberry.fr/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de Chandres (L'Eurélienne)",
+  "c": "Sours",
+  "d": "28",
+  "lat": 48.42321,
+  "lon": 1.60311,
+  "km": 387.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "La brasserie a une boutique terroir à Sours (toute la gamme L'Eurélienne, épicerie fine), d'après son site ; il ne dit pas qu'on y boit sur place. Visites guidées sur demande, pour des groupes.",
+  "addr": "3 rue Parmentier, 28630 Sours",
+  "src": "https://leurelienne.fr/brasserie-contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 37 25 77 56",
+   "site": "https://leurelienne.fr/",
+   "source": "https://leurelienne.fr/",
+   "verifieLe": "2026-10-21"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Horaires de la boutique terroir de Sours.",
+    "source": "https://leurelienne.fr/brasserie-contact/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Bacquet et Cie",
+  "c": "Pierres",
+  "d": "28",
+  "lat": 48.58236,
+  "lon": 1.56596,
+  "km": 403.3,
+  "cat": 0,
+  "conf": "",
+  "note": "L'office de tourisme de Chartres décrit des bières faites à la main à Pierres ; aucune page lue ne dit ce qu'on peut faire à la brasserie.",
+  "addr": "3 rue de l'Europe, 28130 Pierres",
+  "src": "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21"
+ },
+ {
+  "n": "Brasserie delabonne",
+  "c": "Gellainville",
+  "d": "28",
+  "lat": 48.43517,
+  "lon": 1.52814,
+  "km": 392.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio ; ses bières sont vendues en bouteilles, fûts et canettes, d'après son site, qui ne dit pas qu'on peut acheter ou boire à la brasserie.",
+  "addr": "19 avenue Gustave Eiffel, 28630 Gellainville",
+  "src": "https://delabonne.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 36 72 98 16",
+   "site": "https://delabonne.fr",
+   "source": "https://delabonne.fr",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Micro Brasserie Funk",
+  "c": "Bouglainval",
+  "d": "28",
+  "lat": 48.56618,
+  "lon": 1.50817,
+  "km": 404.5,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie est ouverte, sauf exceptions, le vendredi soir de 16 h à 20 h, avec visite et dégustation possibles sur place, d'après son site ; la vente à la brasserie n'y est pas écrite.",
+  "addr": "2 rue du Carcan, 28130 Bouglainval",
+  "src": "https://microbrasseriefunk.fr/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "remarque": "Ouverte, sauf exceptions, le vendredi soir. Visite sur rendez-vous possible.",
+    "source": "https://microbrasseriefunk.fr/contact/",
+    "verifieLe": "2026-10-21"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Kapsyl",
+  "c": "Chambray-lès-Tours",
+  "d": "37",
+  "lat": 47.3453,
+  "lon": 0.72846,
+  "km": 359.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Nanobrasserie de Chambray-lès-Tours, d'après sa page Untappd ; rien d'établi sur la vente ou l'accueil.",
+  "addr": "19 rue Jean Perrin, 37170 Chambray-lès-Tours",
+  "src": "https://untappd.com/BrasserieKapsyl",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "untappd": "https://untappd.com/BrasserieKapsyl",
+   "source": "https://untappd.com/BrasserieKapsyl",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Micro-brasserie Kerblei",
+  "c": "Baden",
+  "d": "56",
+  "lat": 47.61935,
+  "lon": -2.88633,
+  "km": 621.7,
+  "cat": 2,
+  "conf": "faible",
+  "note": "On la trouve chaque vendredi au marché de Baden (15 h-19 h 30) et toute l'année à la brasserie, sur rendez-vous, d'après son site ; rien sur une consommation sur place.",
+  "addr": "5 Kernavalo, Mané Bihan 56870 BADEN",
+  "src": "https://www.microbrasseriekerblei.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://www.microbrasseriekerblei.com/",
+   "source": "https://www.microbrasseriekerblei.com/",
+   "verifieLe": "2026-10-21"
+  }
+ },
+ {
+  "n": "Microbrasserie Loch'Ale",
+  "c": "Auray",
+  "d": "56",
+  "lat": 47.6606,
+  "lon": -3.00438,
+  "km": 631.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente à emporter tous les vendredis après-midi, à la brasserie, d'après son site ; rien sur une consommation sur place.",
+  "addr": "33 rue Alain Gerbault, 56400 Auray",
+  "src": "https://loch-ale.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "site": "https://loch-ale.fr/",
+   "source": "https://loch-ale.fr/",
+   "verifieLe": "2026-10-21"
+  }
  }
 ]
