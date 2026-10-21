@@ -21,6 +21,25 @@ const URL_PUBLIEE = process.env['MOUSSE_URL']
 test.describe('la page publiée', () => {
   test.skip(!URL_PUBLIEE, 'MOUSSE_URL non défini : sonde de déploiement sautée')
 
+  // S334 (revue globale du 19/10, C9) : la page servie est celle de ce
+  // commit. Le job calcule l'empreinte de son propre build ; Pages et son
+  // cache peuvent tarder, d'où une relecture pendant deux minutes.
+  test('sert la version de ce commit', async ({ request }) => {
+    const empreinte = process.env['MOUSSE_EMPREINTE'] ?? ''
+    // En CI, une empreinte absente est une panne de la sonde, pas une raison de se taire.
+    if (process.env['CI'] !== undefined) expect(empreinte, 'MOUSSE_EMPREINTE vide en CI').not.toBe('')
+    test.skip(empreinte === '', 'MOUSSE_EMPREINTE non défini')
+    await expect
+      .poll(
+        async () => {
+          const r = await request.get(new URL(`sw.js?v=${String(Date.now())}`, URL_PUBLIEE).toString())
+          return /const EMPREINTE = '([0-9a-f]+)'/.exec(await r.text())?.[1]
+        },
+        { timeout: 120_000, intervals: [5_000] },
+      )
+      .toBe(empreinte)
+  })
+
   test('répond, monte, et ne perd aucun asset', async ({ page }) => {
     const origine = new URL(URL_PUBLIEE as string).origin
     const echecs: string[] = []
