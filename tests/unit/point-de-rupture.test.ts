@@ -8,7 +8,7 @@ import { ECRAN_ETROIT, ECRAN_LARGE } from '../../src/core/ecran'
  * l'écran passe du téléphone à l'ordinateur est une seule règle. Le CSS ne
  * peut pas importer une constante : ce test tient les deux d'accord (§4ter).
  */
-const largeur = (requete: string) => Number(/(\d+)px/.exec(requete)?.[1])
+const largeur = (requete: string) => Number(/(\d+(?:\.\d+)?)px/.exec(requete)?.[1])
 
 // Toute condition de largeur, quelle que soit sa forme (revue adverse
 // S274) : `min-width`, en capitales comme en minuscules, la syntaxe de plage
@@ -21,8 +21,9 @@ const fichiersDeSrc = (extension: RegExp) =>
 describe('le point de rupture', () => {
   it('l’étroit est le complément exact du large', () => {
     expect(ECRAN_LARGE).toMatch(/^\(min-width: \d+px\)$/)
-    expect(ECRAN_ETROIT).toMatch(/^\(max-width: \d+px\)$/)
-    expect(largeur(ECRAN_ETROIT)).toBe(largeur(ECRAN_LARGE) - 1)
+    expect(ECRAN_ETROIT).toMatch(/^\(max-width: \d+\.98px\)$/)
+    // Sans trou : moins d'un pixel d'écart (A28 : 899 laissait un pixel sans règle).
+    expect(largeur(ECRAN_LARGE) - largeur(ECRAN_ETROIT)).toBeCloseTo(0.02, 5)
   })
 
   it('chaque requête de largeur du CSS est l’une des deux', () => {

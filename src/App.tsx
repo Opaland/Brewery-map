@@ -265,9 +265,12 @@ export function App({
   /** Ce que dit l'écran après un geste sur les favoris ou l'effacement. */
   // Chaque annonce est un nouveau nœud (S317) : à texte égal, la région
   // vivante ne bougeait pas, et un second échec n'était pas lu (revue adverse S303).
-  const [annonce, setAnnonceCompte] = useState({ texte: '', n: 0 })
-  const setAnnonce = useCallback((texte: string) => {
-    setAnnonceCompte((a) => ({ texte, n: a.n + 1 }))
+  // `criteres` : pour l'annonce d'un geste sur une fiche (favori, carnet),
+  // la signature des critères au moment du geste ; elle ne s'affiche plus
+  // quand les critères changent (A25 : elle restait collée au compte).
+  const [annonce, setAnnonceCompte] = useState<{ texte: string; n: number; criteres?: string }>({ texte: '', n: 0 })
+  const setAnnonce = useCallback((texte: string, criteres?: string) => {
+    setAnnonceCompte((a) => ({ texte, n: a.n + 1, ...(criteres === undefined ? {} : { criteres }) }))
   }, [])
   const compte = useRef<HTMLParagraphElement>(null)
   const barre = useHauteurBarre()
@@ -442,6 +445,10 @@ export function App({
     [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
+  // Pas `criteres` en entier : marquer une visite change `exclure`, mettre
+  // en favori change `seulement`, et l'annonce de ce geste s'effaçait aussitôt.
+  const signatureCriteres = JSON.stringify([origine, rayonKm, texte, categories, type, favorisSeulement, pasVisitees, departement, weekEnd, avecOsm])
+  const annonceVisible = annonce.criteres === undefined || annonce.criteres === signatureCriteres
   // La liste serait-elle vide aussi sans « ouvertes ce week-end », ou sans
   // le carnet ? Alors ce n'est pas lui qu'il faut accuser (A11, S315).
   // Calculé seulement quand la liste est vide.
@@ -505,7 +512,7 @@ export function App({
     const retrait = favoris.includes(nom)
     setFavoris((avant) => basculerFavori(avant, nom))
     if (!retrait) stockage.proteger()
-    setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }))
+    setAnnonce(retrait ? t('« {nom} » retirée de vos favoris.', { nom }) : t('« {nom} » ajoutée à vos favoris.', { nom }), signatureCriteres)
     // Retirée en mode « seulement mes favoris », la ligne disparaît avec le
     // focus dedans : sa voisine sert de repli, la suivante d'abord.
     if (retrait && favorisSeulement) {
@@ -570,7 +577,7 @@ export function App({
     const retrait = visites.some((v) => v.nom === nom)
     setVisites((avant) => basculerVisite(avant, nom, dateDuJour(new Date())))
     if (!retrait) stockage.proteger()
-    setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }))
+    setAnnonce(retrait ? t('« {nom} » retirée de votre carnet.', { nom }) : t('« {nom} » notée comme visitée.', { nom }), signatureCriteres)
   }
 
   const retirerOrphelins = () => {
@@ -1013,7 +1020,7 @@ export function App({
           liste, elle partait avec le défilement (revue adverse S29). */}
       <div className="barre-compte" ref={barre}>
         <p className="compte" role="status" data-testid="compte" ref={compte} tabIndex={-1}>
-          {annonce.texte !== '' && <span key={annonce.n} data-testid="annonce">{annonce.texte} </span>}
+          {annonce.texte !== '' && annonceVisible && <span key={annonce.n} data-testid="annonce">{annonce.texte} </span>}
           {texteDuCompte(
             suite.etat === 'attente',
             resultats.length,
