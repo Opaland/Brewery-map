@@ -10,6 +10,9 @@ interface Props {
   /** Les favoris dont le nom n'est plus dans les données. */
   orphelins: readonly string[]
   onRetirerOrphelins: () => void
+  /** Les brasseries de visites ou de notes qui ne sont plus dans les données (A16). */
+  carnetOrphelins: readonly string[]
+  onRetirerCarnetOrphelins: () => void
   seulement: boolean
   onSeulement: (v: boolean) => void
   /** Vrai quand ce navigateur ne laisse rien garder (navigation privée…). */
@@ -34,6 +37,8 @@ export function MesFavoris({
   nbFavoris,
   orphelins,
   onRetirerOrphelins,
+  carnetOrphelins,
+  onRetirerCarnetOrphelins,
   seulement,
   onSeulement,
   stockageDisponible,
@@ -115,6 +120,25 @@ export function MesFavoris({
           <div className="depart-actions">
             <button type="button" onClick={onRetirerOrphelins} data-testid="retirer-orphelins">
               {t('Les retirer de mes favoris')}
+            </button>
+          </div>
+        </div>
+      )}
+      {carnetOrphelins.length > 0 && (
+        <div className="champ-aide" data-testid="carnet-orphelins">
+          <p>
+            {carnetOrphelins.length === 1
+              ? t('Votre carnet garde une visite ou une note sur une brasserie qui n’est plus dans l’application (renommée ou retirée) : {liste}. Elles ne s’affichent plus nulle part.', {
+                  liste: carnetOrphelins.join(', '),
+                })
+              : t('Votre carnet garde des visites ou des notes sur {n} brasseries qui ne sont plus dans l’application (renommées ou retirées) : {liste}. Elles ne s’affichent plus nulle part.', {
+                  n: carnetOrphelins.length,
+                  liste: carnetOrphelins.join(', '),
+                })}
+          </p>
+          <div className="depart-actions">
+            <button type="button" onClick={onRetirerCarnetOrphelins} data-testid="retirer-carnet-orphelins">
+              {t('Effacer ces visites et ces notes')}
             </button>
           </div>
         </div>

@@ -238,14 +238,20 @@ test.describe('sans la couche OpenStreetMap (revue adverse S25)', () => {
     await expect(page.getByTestId('avec-osm')).toHaveCount(0)
   })
 
-  test('jamais servie : pas de page blanche, l’écran part sans elle', async ({ page }) => {
+  test('jamais servie : pas de page blanche, l’écran part sans elle, dit qu’elle arrive, puis qu’elle manque', async ({ page }) => {
     // La requête reste pendante : aucune réponse, jamais.
     await page.route(/brasseries-osm-.*\.js$/, () => undefined)
+    await page.clock.install()
     // Le chargement de la page attend aussi la requête pendante sous WebKit :
     // on attend le document, puis l'écran, comme la personne (S234).
     await page.goto('/', { waitUntil: 'domcontentloaded' })
+    await page.clock.runFor(3500)
     await expect(page.getByTestId('liste').getByRole('listitem').first()).toBeVisible({ timeout: 6000 })
+    await expect(page.getByTestId('osm-attente')).toBeVisible()
+    // Au-delà de 20 s, tenue pour absente (S333).
+    await page.clock.runFor(20_000)
     await expect(page.getByTestId('osm-absente')).toBeVisible()
+    await expect(page.getByTestId('osm-attente')).toHaveCount(0)
   })
 })
 
