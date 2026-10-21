@@ -24,7 +24,7 @@
  * N'écrit `data/` que par `curation.ts appliquer`, avec l'accord de la règle.
  */
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import { compteRenduDuLot, paquetsDeCandidats } from '../src/core/campagne'
 import type { CandidatEnCause } from '../src/core/candidats'
 import { TSX_CLI } from './tsx'
@@ -55,6 +55,13 @@ function preparer(deps: readonly string[]): void {
 function rendre(dep: string, nom: string, sprint: string): void {
   const lus = `${DOSSIER}/${dep}-lus.json`
   if (!existsSync(lus)) throw new Error(`${lus} manque : les lectures relues des agents`)
+  // Une lecture retirée de `lus` ne doit pas survivre d'un passage précédent
+  // (vu en S341 : le Léman, retiré, restait dans le lot). `unlinkSync`, et non
+  // `rmSync`, muet dans un chemin accentué sous Node 24 (W9).
+  const dossierDesLectures = `curation/dep-${dep}-lectures`
+  if (existsSync(dossierDesLectures)) {
+    for (const f of readdirSync(dossierDesLectures)) unlinkSync(`${dossierDesLectures}/${f}`)
+  }
   lancer('outils/departement.ts', ['lectures', dep, lus])
   lancer('outils/departement.ts', ['assembler', dep])
   const controle = lancer('outils/curation.ts', ['controler', `curation/dep-${dep}.json`])
