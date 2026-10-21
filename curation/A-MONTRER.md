@@ -28,6 +28,8 @@ peut faire entrer, un plafond : une fiche peut figurer dans deux groupes
 | 7 | Placer ces 13 fiches au centre IGN de leur arrondissement ou de leur commune nouvelle ? | oui / non | 13 positions au centre IGN |
 | 8 | Pour chaque fiche douteuse : la proposition de la dernière colonne ? | oui / non par ligne, ou « comme proposé » | 13 lignes ; 3 touchent le périmètre (industriels, chaînes) |
 | 9 | Retirer le numéro mobile de la note de Grigny ? | oui / non | 1 |
+| 10 | Pour chaque ligne lue en S297 que la règle ne tranche pas : la proposition de la section 10 ? | oui / non par ligne | voir la section 10 |
+| 11 | Kiltin' fermée (Untappd), et les fiches « à décider » du registre (19/10) : fermée, retrait, ou rien ? | une réponse par fiche | voir la section 11 |
 
 ## 1. Les découvertes OpenStreetMap du 16/10 (`s14-decouverte`, 119 fiches)
 

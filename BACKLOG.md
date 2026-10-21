@@ -1,7 +1,7 @@
 # Backlog — Mousse de Poche
 
-Ce qui n'est pas dans le sprint actif. Rien d'ici ne se développe avant la
-publication, sauf décision explicite de Cédric.
+Ce qui n'est pas dans le sprint actif. Rien d'ici ne se développe sans sa story
+(`docs/stories/`, CLAUDE.md §10bis). Une ligne livrée est barrée, avec sa preuve.
 
 ## Demande de Cédric du 16/10 — « dans un prochain sprint »
 
@@ -88,15 +88,12 @@ chacun demande une décision ou une vérification de source.
   l'un sans l'autre, « rien n'a changé » est faux pour celui qui a réussi.
   Une nouvelle tentative suffit (les deux effacements se rejouent sans
   effet de bord) ; à dire plus juste si quelqu'un le rencontre.
-- Contact : Brasserie Animus et Pleine Lune citent un numéro dans leur
-  justification ; à vérifier et à proposer en `contact` lors d'un lot de
-  curation (Animus : portable, et la brasserie a déménagé).
+- ~~Contact : Brasserie Animus et Pleine Lune~~ : relues en S326 (`curation/s326-relues-du-poste.md`) : le numéro de Pleine Lune est déjà celui de sa fiche ; le déménagement d'Animus est proposé, son portable attend la réponse de Cédric.
 - Les cinq numéros d'exemple de S4 attendent l'accord de Cédric
   (SPRINTS.md, S4).
 - Types de bière : saison, triple/dubbel, porter, NEIPA, lambic/gose restent
   sous « Autre » et ne se filtrent pas séparément (revue métier S5).
-- Filtre « ouvert samedi » (ou « ouvert maintenant », Hugo S19) : `ouvertLe`
-  existe (S6) mais aucune donnée ne le nourrit encore.
+- ~~Filtre « ouvert samedi »~~ : fait en S70 (« Ouvertes ce week-end », `docs/stories/S70.md`).
 - Carte : le repli « fond de carte incomplet ou indisponible » s'allume sur
   une seule tuile en échec et peut clignoter (revue code S7).
 - Une brasserie choisie qui est dans un groupe n'a pas de retour visuel sur
@@ -151,10 +148,7 @@ chacun demande une décision ou une vérification de source.
   - DWYN Brewing : site en 503 et Untappd en 404 le 16/10 ; à rouvrir.
   - La Fabrique du Faubourg : brasse les Bières Georges à Vénissieux ;
     aucune page sur l'accueil ou la vente.
-- Curation : **changer la commune ou la position** d'une fiche (Brasserie
-  Animus a déménagé de Vaugneray à Grigny) n'est pas possible par
-  proposition depuis S11 ; il faut une procédure à part (nouvelle position
-  lue, `km` recalculé), à décider.
+- ~~Curation : **changer la commune ou la position** d'une fiche~~ : fait en S322 (un déménagement par lot, accord de Cédric du 20/10).
 - Curation : 16 fiches n'ont aucune page à leur nom (liste dans
   SPRINTS.md §S12) ; la recherche web des agents n'ouvre ni Facebook, ni
   Instagram, ni Google Maps. Piste : les demander aux brasseries voisines,
@@ -187,15 +181,11 @@ chacun demande une décision ou une vérification de source.
 - Liste : la confiance (dite en phrase depuis S320) n'apparaît que dans la
   fiche dépliée ; sur la ligne, le badge et le filtre de catégorie sont les
   mêmes quelle que soit la preuve (revue métier S13). Décision de Cédric.
-- Horaires : le schéma n'a pas de saisons ; les horaires d'été des
-  Ursulines sont dans la remarque (lot S13).
+- ~~Horaires : le schéma n'a pas de saisons~~ : fait en S299 (`periodeSchema`, `src/core/schema.ts`).
 - **e2e instable `hors-ligne.spec.ts:60`** (S17, S18) : cause trouvée en
   S18 (écoute de `offline` attachée après la lecture de l'état), corrigée
   dans l'application et le test. Si l'échec revient, la cause était autre.
-- **Brasserie fermée** (revue métier S17, Bernard) : le schéma n'a pas de
-  statut « fermée ». Dr D. Brewpub (Untappd : « no longer in business ») et
-  Maltobar (brassage arrêté) resteraient « À confirmer », la raison en tête
-  de note. Retirer la fiche, ou un statut à ajouter ? Décision de Cédric.
+- ~~**Brasserie fermée**~~ : le statut existe (`fermee`, `src/core/schema.ts`) ; Cédric a choisi le 20/10 le statut « fermée » pour les fermées d'après SIRENE (`docs/DECISIONS.md`, #35 et réponses du 20/10). Les sept premières sont dans la PR #159, non mergée.
 - Lot S17, pistes non suivies : `curation/s17-lot-4-sans-proposition.md`
   (La Dourbie, Grésiv'ale à rouvrir ; communes à confirmer pour La
   Montagnarde, Vellavia, Kiltin', Two Dudes). Horaires d'été de La Grange du
@@ -310,9 +300,7 @@ chacun demande une décision ou une vérification de source.
     pour `trier`, donc candidate à `data/`. Latent (aucune source LinkedIn
     dans `curation/` le 18/10). Remède : que `controler` rende la liste des
     numéros en écart, et que `trier` l'appelle au lieu de relire du texte.
-  - **Les chiffres du README et de `docs/MARKETING.md`** (358 fiches, 24
-    départements, 878 OSM, 34 960 communes) : exacts le 18/10, tenus par
-    rien ; un test qui les calcule.
+  - ~~**Les chiffres du README et de `docs/MARKETING.md`**~~ : tenus par `tests/unit/chiffres-ecrits.test.ts` depuis S305.
   - **Les couleurs de `docs/DESIGN.md`** contre `src/index.css`, le
     manifeste et `index.html` : identiques le 18/10, tenues par rien.
   - **« plus de 1 Mo »** écrit en dur (`src/core/sauvegarde.ts`, `en.ts`)
@@ -381,7 +369,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 
 ## Revue adverse S304 — restes
 
-- **Budget du premier écran à 25 octets près** (218 975 pour 219 000, le 20/10) : S294 (fiches par département) avant toute nouvelle fonction du premier écran.
+- ~~**Budget du premier écran à 25 octets près**~~ : S294 l'a ramené à 189 402 octets pour un budget de 208 000 (`docs/PREMIER-ECRAN.md`, `tests/e2e/poids.spec.ts`).
 - **S319 : le clavier virtuel après « Voir les brasseries autour du départ »** : barre décollée, le focus va au champ de recherche ; sur un vrai téléphone, cela ouvre peut-être le clavier sans qu'on ait demandé à saisir. Playwright ne le simule pas : à essayer avec `docs/LIVRAISON.md`. Repli possible : un titre visible, `tabIndex={-1}`.
 - **Barre décollée, l'annonce d'un geste n'est plus à l'écran** pour la personne voyante. Piste : un retour près du bouton.
 - **De 900 à ~1 150 px, la première brasserie reste sous la barre** (787 px à 1 024 et 1 100 px, mesuré le 20/10) : deux colonnes de filtres.
@@ -417,4 +405,4 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - **L'affichette de comptoir** ferme chaque fiche avec un texte adressé à la brasserie, pas à la personne.
 - ~~Bières « autre »~~ — fait en S316 (lexique des styles, glose une fois par type). Constat d'origine : (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.
 - **L'aperçu des lots** (`src/apercu.ts`) rend la tête de fiche et la provenance (S312), pas « Y aller » : le renvoi « Ce que dit la source, plus haut » n'y a pas de cible.
-- **Les captures du README** (`docs/captures/telephone-fiche.png`) montrent l'ancienne fiche : à régénérer (`outils/captures.ts`).
+- ~~**Les captures du README**~~ : refaites en S313.
