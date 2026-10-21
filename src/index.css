@@ -27,6 +27,7 @@
   --blanc-carte: #fff;
   --attention-fond: #fdf6e3;
   --attention-bord: #d9a400;
+  --espace-1: 2px;
   --espace-2: 4px;
   --espace-4: 8px;
   --espace-6: 12px;
@@ -164,7 +165,8 @@ a { color: inherit; }
   min-height: 44px;
 }
 
-.case input { width: 22px; height: 22px; margin: 0; }
+/* `flex: none` : une étiquette de deux lignes écrasait la case (A31). */
+.case input { width: 22px; height: 22px; margin: 0; flex: none; }
 
 .pastille {
   display: inline-block;
@@ -615,14 +617,24 @@ body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
   font-weight: 600;
   transition: background-color 120ms ease, transform 120ms ease;
 }
-.depart-actions button:hover { background: var(--cuivre-pale); }
-.depart-actions button:active { transform: scale(0.98); }
+/* Survols seulement là où le survol existe : au doigt, la couleur restait
+   après le toucher (revue globale du 19/10, A27). */
+@media (hover: hover) {
+  .depart-actions button:hover { background: var(--cuivre-pale); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .depart-actions button:active { transform: scale(0.98); }
+}
+/* Désactivé : un bord en tirets, et une opacité qui garde le texte lisible (0,55 faisait 3,79:1, revue Inès S332). */
+button:disabled { opacity: 0.75; border-style: dashed; cursor: not-allowed; }
 .depart-actions .bouton-principal {
   background: var(--cuivre);
   border-color: var(--cuivre);
   color: var(--texte-sur-cuivre);
 }
-.depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
+@media (hover: hover) {
+  .depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
+}
 .bouton-lien {
   border-radius: var(--rayon-pilule);
   background: var(--cuivre);
@@ -681,7 +693,9 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   padding: var(--espace-7);
   transition: box-shadow 140ms ease, transform 140ms ease;
 }
-.ligne:hover { box-shadow: var(--ombre-forte); }
+@media (hover: hover) {
+  .ligne:hover { box-shadow: var(--ombre-forte); }
+}
 .ligne[aria-expanded='true'] {
   border: 2px solid var(--cuivre);
   border-left: 6px solid var(--cuivre);
@@ -722,7 +736,12 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .carte, .carte-attente, .carte-absente { border-radius: var(--rayon-lg); box-shadow: var(--ombre); border-color: var(--gris-vert-clair); }
 
 .choix-commune-liste { border-radius: var(--rayon-md); box-shadow: var(--ombre-forte); overflow: hidden; }
-.choix-commune-liste li.active { background: var(--cuivre-pale); }
+/* L'option active se voit sans la couleur seule : bord et graisse (A20 :
+   le fond pâle faisait 1,20:1 avec ses voisines). */
+.choix-commune-liste li.active { background: var(--cuivre-pale); border-left: 3px solid var(--cuivre); padding-left: calc(var(--espace-6) - 3px); font-weight: 600; }
+@media (hover: hover) {
+  .choix-commune-liste li:hover { background: var(--cuivre-pale); }
+}
 
 /* Les colonnes de la grille peuvent rétrécir sous leur contenu : à 200 % de
    texte, la carte et la liste prenaient 326 px pour 288 (S28, même test que
@@ -801,7 +820,6 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 
 /* 9. Survol du bouton principal : un cuivre plus sombre (le cuivre vif
    faisait 4,09:1 sous le blanc), et seulement là où le survol existe. */
-.depart-actions .bouton-principal:hover { background: var(--cuivre); border-color: var(--cuivre); }
 @media (hover: hover) {
   .depart-actions .bouton-principal:hover { background: #7a3410; border-color: #7a3410; }
 }
@@ -809,9 +827,12 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   .depart-actions .bouton-principal:hover { background: var(--cuivre-vif); border-color: var(--cuivre-vif); }
 }
 
-/* 10. Les puces en grille régulière de deux colonnes. */
-.categories { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-.categories .case { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
+/* 10. Les puces en grille régulière de deux colonnes, une seule quand deux
+   ne tiennent pas (320 px, ou texte à 200 %) : sans cela, « Achete|r » se
+   coupait au milieu du mot (A23). Pas de requête de largeur : le point de
+   rupture est le seul (S274) ; la grille se replie d'elle-même. */
+.categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); }
+.categories .case { min-width: 0; overflow-wrap: break-word; line-height: 1.25; }
 .categories legend, .categories .case-large { grid-column: 1 / -1; }
 .categories .case { padding-right: var(--espace-4); }
 
@@ -873,7 +894,7 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 
 /* Sur téléphone, l'en-tête plus serré : chaque pixel gagné rapproche la
    première brasserie (S29). Titre à 28 px, toujours le plus grand texte. */
-@media (max-width: 899px) {
+@media (max-width: 899.98px) {
   .entete { padding: var(--espace-7) var(--espace-7) var(--espace-6); }
   .entete .logo { width: 40px; height: 40px; }
   .entete h1 { font-size: 1.75rem; }

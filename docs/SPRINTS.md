@@ -2922,3 +2922,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S331 — Une règle écrite une fois *(21/10, epic E32)*
 
 `docs/stories/S331.md`. Le département d'un code postal, une seule règle (`src/core/code-postal.ts`), qui remplace les cinq copies (la Corse acceptait 2A et 2B dans les lots) ; la région nommée hors ligne tenue d'accord avec le découpage par un test ; « D'où vient la fiche » cite aussi la lecture non datée, après les datées et avec « (sans date de lecture) ». Fin de l'epic E32.
+
+## S332 — Les finitions d'écran restées ouvertes *(21/10, epic E33)*
+
+`docs/stories/S332.md`. A20 (option active visible sans la couleur seule), A22 (`--espace-1` défini, tous les jetons tenus par un test), A23 (puces sans mot coupé à 320 px), A25 (l'annonce d'un geste ne s'affiche plus après un changement de critères), A27 (survols sous `(hover: hover)`, appui sans mise à l'échelle avec le mouvement réduit, style désactivé), A28 (`899.98px`), A31 (cases non écrasées), A32 (espaces insécables autour d'un nom). A26 au BACKLOG (question à Cédric).

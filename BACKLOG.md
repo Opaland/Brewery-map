@@ -45,6 +45,18 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Revue du 21/10 (S332)
+
+- **A26, le carnet sans écran à lui** : question à Cédric, une case
+  « Seulement mon carnet », ou parler de « vos visites » ?
+- **Un mot de catégorie coupé sur ordinateur étroit, texte à 200 %** (revue
+  adverse S332, non mesuré) : à 900 px, les deux colonnes de puces font
+  environ 140 px ; `overflow-wrap: break-word` peut couper un mot. Le test
+  A23 ne mesure que 320 px.
+- **L'annonce d'un geste et le compte dans la même région** (revue Inès
+  S332) : un lecteur d'écran peut couper la lecture de l'annonce quand le
+  compte change ; à essayer avec NVDA ou VoiceOver (`docs/LIVRAISON.md`).
+
 ## Revue du 21/10 (S324)
 
 - **Un point OSM renommé perd ses favoris.** « 3 Brasseurs (Poitiers) » est

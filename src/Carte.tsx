@@ -460,7 +460,7 @@ export default function Carte({
             if (cibleCourante.current !== cible) return
             const dedans = feuilles.some((f) => f.properties?.['nom'] === cible)
             el.classList.toggle('contient-choisie', dedans)
-            el.setAttribute('aria-label', dedans ? t('{libelle}, dont « {nom} », choisie', { libelle, nom: cible }) : libelle)
+            el.setAttribute('aria-label', dedans ? t('{libelle}, dont « {nom} », choisie', { libelle, nom: cible }) : libelle)
           })
           .catch(() => undefined)
       }
