@@ -2918,3 +2918,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S330 — Ce que l'écran dit encore de faux *(21/10, epic E32)*
 
 `docs/stories/S330.md`. Sans la suite des fiches, plus de « la plus proche » ni de nombre de départements faux (revue adverse du 21/10) ; un lien vers un point OSM l'ouvre même couche décochée (A2) ; « Tout effacer » dit ce qui a été effacé si le fond de carte résiste (A12) ; la vue « Mes favoris » ne réécrit plus sa valeur après l'effacement (A13) ; un lien collé dans l'onglet ouvert ouvre la fiche (A17). Cinq e2e vus rouges.
+
+## S331 — Une règle écrite une fois *(21/10, epic E32)*
+
+`docs/stories/S331.md`. Le département d'un code postal, une seule règle (`src/core/code-postal.ts`), qui remplace les cinq copies (la Corse acceptait 2A et 2B dans les lots) ; la région nommée hors ligne tenue d'accord avec le découpage par un test ; « D'où vient la fiche » cite aussi la lecture non datée, après les datées et avec « (sans date de lecture) ». Fin de l'epic E32.

@@ -4,6 +4,7 @@ import { CATEGORIES } from './categories'
 import { BRIGNAIS, distanceKm, kmFr, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
 import { adresseDeRue } from './fiche'
+import { departementDuCodePostal } from './code-postal'
 import {
   brasserieObjetSchema,
   brasserieSchema,
@@ -22,14 +23,6 @@ import {
  * lisible, et calcule le fichier qui résulterait des numéros acceptés.
  */
 
-/**
- * Le département d'un code postal : deux chiffres, trois outre-mer (97, 98),
- * « 2A » ou « 2B » pour la Corse (20), que le code seul ne départage pas.
- */
-function departementsDuCode(cp: string): readonly string[] {
-  if (cp.startsWith('20')) return ['2A', '2B']
-  return [cp.startsWith('97') || cp.startsWith('98') ? cp.slice(0, 3) : cp.slice(0, 2)]
-}
 
 /**
  * Un déménagement (S322) : une adresse de rue avec son code postal, dont le
@@ -38,7 +31,7 @@ function departementsDuCode(cp: string): readonly string[] {
 function demenagementCoherent(c: { c?: string | undefined; d?: string | undefined; addr?: string | undefined }): boolean {
   if (c.c === undefined || c.d === undefined || c.addr === undefined) return false
   const cp = /\b(\d{5})\b/.exec(c.addr)?.[1]
-  return cp !== undefined && departementsDuCode(cp).includes(c.d) && adresseDeRue({ addr: c.addr, c: c.c })
+  return cp !== undefined && departementDuCodePostal(cp) === c.d && adresseDeRue({ addr: c.addr, c: c.c })
 }
 
 /**

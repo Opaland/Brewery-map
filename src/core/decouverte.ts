@@ -1,6 +1,7 @@
 import { BRIGNAIS, distanceKm } from './distance'
 import { normaliser } from './recherche'
 import type { Brasserie } from './schema'
+import { departementDuCodePostal } from './code-postal'
 
 /**
  * La découverte (S14) : les brasseries qu'OpenStreetMap connaît et que le
@@ -76,7 +77,7 @@ export function candidatDepuisNominatim(r: NominatimBrut): CandidatOsm | null {
     lat,
     lon,
     commune,
-    departement: cp.slice(0, 2),
+    departement: departementDuCodePostal(cp),
     adresse: `${rue === '' ? '' : `${rue}, `}${cp} ${commune}`,
     ...(site === undefined ? {} : { site }),
     ...(Object.keys(etiquettes).length === 0 ? {} : { etiquettes }),

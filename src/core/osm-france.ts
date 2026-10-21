@@ -5,6 +5,7 @@ import { normaliser } from './recherche'
 import { z } from './zod'
 import { BRIGNAIS, distanceKm } from './distance'
 import type { Brasserie } from './schema'
+import { departementDuCodePostal } from './code-postal'
 
 /**
  * Toute la France (S25, demande de Cédric du 16/10 : « ouvrir toute la
@@ -99,11 +100,6 @@ const RAYON_COMMUNE_KM = 10
 /** Marge autour du rectangle des centres de communes d'un département. */
 const MARGE_DEPARTEMENT_KM = 15
 
-function departementDuCodePostal(cp: string): string {
-  if (cp.startsWith('97')) return cp.slice(0, 3)
-  if (cp.startsWith('20')) return cp < '20200' ? '2A' : '2B'
-  return cp.slice(0, 2)
-}
 
 function dansLeRectangle(r: Rectangle, lat: number, lon: number, margeKm: number): boolean {
   const [sud, ouest, nord, est] = r

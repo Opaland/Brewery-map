@@ -1,5 +1,6 @@
 import { distanceKm, type Point } from './distance'
 import { ABREVIATIONS, APOSTROPHES, normaliser } from './recherche'
+import { departementDuCodePostal } from './code-postal'
 
 /**
  * Une commune de France : nom, département, latitude, longitude. Le fichier
@@ -8,16 +9,6 @@ import { ABREVIATIONS, APOSTROPHES, normaliser } from './recherche'
  */
 export type CommuneFrance = readonly [nom: string, dep: string, lat: number, lon: number]
 
-/**
- * Le département d'un code postal : les deux premiers chiffres, trois outre-mer
- * (97x) ; en Corse, 200 et 201 pour la Corse-du-Sud (2A), 202 à 206 pour la
- * Haute-Corse (2B) — « 20000 » ne désignait aucun département (revue code S21).
- */
-function departementDuCodePostal(cp: string): string {
-  if (cp.startsWith('97')) return cp.slice(0, 3)
-  if (cp.startsWith('20')) return cp < '20200' ? '2A' : '2B'
-  return cp.slice(0, 2)
-}
 
 /** Ce qui est tapé, séparé en mots du nom et en indice de département. */
 function lire(texte: string): { mots: string[]; dep: string | undefined } {
