@@ -2901,3 +2901,8 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S324–S325 — Ce que le PC connecté débloque, premier sprint *(21/10, epic E30)*
 
 `docs/stories/S324.md`, `S325.md`. Demande de Cédric du 21/10. La couche OSM réextraite par le miroir français (878 → 880 points ; le serveur principal refuse l'usage automatisé, écrit dans `docs/CONTINUITE.md`) ; `contact:*` lu comme `addr:*` (55 adresses gagnées, vu par la revue adverse sur l'Atelier 235). Les huit communes sans point l'étaient à cause d'une longitude en notation scientifique, mal lue (`src/core/wikidata.ts`) : 34 968 communes. `data/` intact.
+
+## S326–S327 — Ce que le PC connecté débloque, second sprint *(21/10, epic E30)*
+
+`docs/stories/S326.md`, `S327.md`. Deux lots de propositions, en attente de Cédric. `curation/s326-relues-du-poste` : 19 fiches que le conteneur n'avait pas pu lire (registre sans réponse, pages en 403, issue #45), 6 propositions, dont le déménagement d'Animus à Grigny-sur-Rhône. `curation/s327-a-relancer` : 19 candidats « À relancer », 3 fiches nouvelles (Kapsyl, Kerblei, Loch'Ale) ; les 16 autres sont introuvables une deuxième fois. Le serveur Overpass principal et les recherches web : voir S324.
+
