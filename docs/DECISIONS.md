@@ -165,3 +165,14 @@ statuts « fermée » et les numéros de portable** lus sur une source
 publique. Reste à lui : le **retrait** d'une fiche (non demandé), et une
 brasserie connue d'un annuaire seul (elle n'existe pas, méthode du 19/10).
 
+## Les points moins urgents, le 21/10
+
+Cédric : « fait les points moins urgent ».
+
+| Point | Ce qui est fait |
+|---|---|
+| #34, licence de `data/` | ODbL 1.0 (`data/LICENCE.md`), la recommandation écrite depuis le 16/10 ; README et pied de page (S339, PR #180). Il reste libre d'en changer. |
+| #33, veille mensuelle | « oui pour la veille mensuelle » : armée (`docs/VEILLE.md`). |
+| #38, adresse de signalement | « pour l'adresse je ne sais pas » : les signalements restent sur GitHub. Piste : une adresse Gmail dédiée, créée par lui ; #38 reste ouverte. |
+| Dependabot | Les trois mises à jour d'actions mergées vertes (checkout v7, download-artifact v8, upload-pages-artifact v5). |
+

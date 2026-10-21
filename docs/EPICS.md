@@ -542,11 +542,33 @@ déjà livrées, le tableau de `curation/A-MONTRER.md` sans ses groupes 10 et 11
 |---|---|---|
 | S334 | Actions épinglées par SHA et Dependabot (C7) ; CODEOWNERS étendu (C6) ; Pages sans `cancel-in-progress` (C8) ; mutation sur le fichier de verrouillage (C10) ; la sonde vérifie la version publiée (C9) ; `rmSync` remplacé dans les outils (le reste de W9, S304 n'a traité que le build) ; `sleep` en Node, `engines` (W5) | C6 à C10, W5, W9 |
 
+### E36 — La France entière *(persona : Cédric ; ses questions du 21/10 : « l'ensemble des brasseries de France sont présentes sur la carte ? »)*
+
+Mesuré le 21/10 : 370 fiches vérifiées dans 29 départements, et 866 points
+OSM « À confirmer » ; le registre des entreprises compte 2 927 entreprises
+actives en « fabrication de bière » (11.05Z), une mesure d'entreprises et
+non de lieux ouverts au public. 67 départements de métropole n'ont encore
+aucune fiche. Par la règle de Cédric du 21/10, chaque région entre sans lui
+demander. Il autorise un outil de carto si besoin (« install des
+outils/agent/skill de carto si besoin »).
+
+| Sprint | Story | Départements |
+|---|---|---|
+| S340 | L'outil de campagne : un skill qui enchaîne, pour un département, candidats, paquets, lectures, assemblage, contrôle, application et PR | — |
+| S341 | Auvergne-Rhône-Alpes, la fin | 03, 15, 63, 74 |
+| S342 | Bourgogne-Franche-Comté | 21, 25, 39, 58, 70, 89, 90 |
+| S343 | Provence-Alpes-Côte d'Azur et Corse | 04, 05, 06, 13, 83, 84, 2A, 2B |
+| S344 | Hauts-de-France | 02, 59, 60, 62, 80 |
+| S345 | Île-de-France | 75, 77, 78, 91, 92, 93, 94, 95 |
+| S346 | Grand Est | 08, 10, 51, 52, 54, 55, 57, 67, 68, 88 |
+| S347 | Nouvelle-Aquitaine | 16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87 |
+| S348 | Occitanie | 09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82 |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35) ; S335 à S339, hors plan (règle de Cédric, points moins urgents) ; plus S340 à S348, la France entière (E36).
 
 ## Ordre d'exécution
 
