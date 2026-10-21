@@ -2934,3 +2934,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S334 — CI et outils durcis *(21/10, epic E35)*
 
 `docs/stories/S334.md`. C7 : les actions sont épinglées par SHA, et Dependabot les surveille chaque mois. C6 : CODEOWNERS couvre `package.json`, le fichier de verrouillage, `.claude/settings.json` et les deux configurations. C8 : Pages ne coupe plus une publication en cours. C9 : la sonde vérifie que `sw.js` publié porte l'empreinte du build de ce commit, et chaque job de chaque workflow a son délai. W9 : `supprimerSync` remplace `rmSync` dans les outils. W5 : plus de `sleep` système, et `engines` est déclaré. Fin des epics E31 à E35.
+
+## Rétrospective des epics E30 à E35 *(21/10)*
+
+`docs/RETRO-2026-10-21.md`. Ce qui a marché (personas et revue adverse ont trouvé de vrais défauts ; la porte a bloqué trois fois à raison), ce qui a raté, daté (un merge avec `porte` en attente, d'où la règle §7bis de CLAUDE.md), et ce qui attend Cédric.

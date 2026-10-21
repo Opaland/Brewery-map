@@ -145,6 +145,14 @@ Un seuil emprunté à une norme se nomme (WCAG 2.5.8 : 24 px).
 Ne rien empiler sur un `main` rouge. La sonde `page-deployee.spec.ts` tourne
 après chaque publication ; un déploiement vert sans elle ne prouve rien.
 
+## 7bis. Attendre la CI, c'est attendre toutes ses lignes
+
+Raté du 21/10 : la PR #166 a été mergée alors que `porte` tournait encore.
+Une PR a deux runs (push et pull_request), donc deux lignes `porte` et deux
+`visuel` ; la boucle d'attente s'arrêtait à la première verte. On ne merge
+que quand **aucune** ligne `porte` ni `visuel` n'est en attente, et
+qu'aucune n'est rouge (`docs/RETRO-2026-10-21.md`).
+
 ## 8. Après chaque sprint, une revue ; à la fin, une vraie revue globale
 
 `/revue-sprint` relit le diff et lance **la** persona du sprint.
