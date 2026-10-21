@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:839275344",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie 744",
+   "c": "La Tour",
+   "d": "74",
+   "lat": 46.13046,
+   "lon": 6.40302,
+   "km": 137.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique et vente à la propriété, d'après l'office de tourisme ; la consommation sur place n'y est pas écrite.",
+   "addr": "620 route du Taney, 74250 La Tour",
+   "src": "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labrasserie744.fr",
+    "source": "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://hautesavoiemontblanc-tourisme.com/offres/la-brasserie-744-la-tour-fr-5864748/",
+   "https://data.geopf.fr/geocodage/search?q=620+route+du+Taney%2C+74250+La+Tour&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Office de tourisme : confiance moyenne. Le site officiel écrit 705 route de Taney ; l'office et le registre, 620. Le portable de l'office n'est pas sur le site : écarté. Horaires sans objet précis : non repris."
+ }
+}

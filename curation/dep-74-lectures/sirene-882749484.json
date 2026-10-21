@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:882749484",
+ "ajout": {
+  "fiche": {
+   "n": "Alchimie Brewery",
+   "c": "Faverges-Seythenex",
+   "d": "74",
+   "lat": 45.74648,
+   "lon": 6.29402,
+   "km": 119.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie, café et boutique au centre de Faverges : on y consomme sur place ou à emporter, d'après son site.",
+   "addr": "48 rue de la République, 74210 Faverges-Seythenex",
+   "src": "https://bierealchimie.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 51 87 62",
+    "site": "https://bierealchimie.fr",
+    "source": "https://bierealchimie.fr",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://bierealchimie.fr",
+     "mar": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://bierealchimie.fr",
+   "https://data.geopf.fr/geocodage/search?q=48+rue+de+la+R%C3%A9publique%2C+74210+Faverges-Seythenex&limit=5"
+  ],
+  "extrait": "que ce soit à emporter ou bien sur place, autour du comptoir,",
+  "choix": "Confiance moyenne : le site ne dit pas en toutes lettres que la bière brassée se vend à emporter. Horaires du site ; lundi et dimanche non publiés. Pas d'Untappd."
+ }
+}

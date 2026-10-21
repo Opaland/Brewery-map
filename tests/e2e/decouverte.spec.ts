@@ -97,7 +97,10 @@ test.describe('trouver une brasserie (Marie)', () => {
       await expect(page.getByRole('checkbox', { name: libelle })).toBeChecked()
     }
     for (const cat of [0, 1, 2]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
-    const n = DONNEES.filter((b) => b.cat === 3).length
+    // Dans le rayon réglé, comme la liste (`recherche.ts`) : vu en S341, deux
+    // fiches « pas de vente » de Haute-Savoie, à 152 km, le faisaient échouer.
+    const n = DONNEES.filter((b) => b.cat === 3 && Math.round(b.km) <= 100).length
+    expect(n).toBeGreaterThan(0)
     await expect(lignes(page)).toHaveCount(n)
     await expect(lignes(page).filter({ hasNotText: 'Pas de vente' })).toHaveCount(0)
   })

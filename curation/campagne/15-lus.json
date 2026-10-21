@@ -1,0 +1,33 @@
+[
+ {
+  "cle": "way/927596016",
+  "n": "Brasserie 360",
+  "c": "Saint-Martin-Valmeroux",
+  "adresse": "2 rue des Céréales, 15140 Saint-Martin-Valmeroux",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Un bar, une boutique et des dégustations, d’après son site ; il ne dit pas si l’on peut emporter.",
+  "src": "https://www.brasserie360.fr",
+  "extrait": "Brasserie 360 vous accueille avec un bar, une boutique et des dégustations uniques.",
+  "beers": [],
+  "choix": "Un fixe publié, retenu. Horaires non proposés : un bloc « hors saison » sans dates et un bloc d'été. Même société que le candidat « Ateliers 360 » (mentions légales). Pas d'Untappd sur la page.",
+  "contact": {
+   "tel": "04 71 68 98 63",
+   "site": "https://www.brasserie360.fr",
+   "source": "https://www.brasserie360.fr"
+  }
+ },
+ {
+  "cle": "sirene:909379182",
+  "n": "Brasserie des Estives",
+  "c": "Allanche",
+  "adresse": "9 rue de la Pierre Grosse, 15160 Allanche",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Vente sur place, boutique et dégustation, d'après l'office de tourisme des Hautes Terres ; son site ne répond plus.",
+  "src": "https://www.hautesterrestourisme.fr/en/fiche/degustation/brasserie-des-estives-allanche_TFO4866030",
+  "extrait": "Sales on site",
+  "beers": [],
+  "choix": "Office de tourisme : confiance moyenne au plus. La fiche liste aussi « Product tasting » et « Shop ». Le seul numéro est donné par l'office, pas par la brasserie : non retenu. Site en 404. Pas d'Untappd."
+ }
+]

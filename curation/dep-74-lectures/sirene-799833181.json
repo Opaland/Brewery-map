@@ -1,0 +1,63 @@
+{
+ "candidat": "sirene:799833181",
+ "ajout": {
+  "fiche": {
+   "n": "Bières du Faucigny",
+   "c": "Viuz-en-Sallaz",
+   "d": "74",
+   "lat": 46.16159,
+   "lon": 6.4036,
+   "km": 138.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie du mardi au vendredi en fin d'après-midi, d'après son site ; aucune dégustation citée.",
+   "addr": "Viuz-en-Sallaz",
+   "src": "https://www.bieres-du-faucigny.fr/horaires",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.bieres-du-faucigny.fr",
+    "source": "https://www.bieres-du-faucigny.fr/horaires",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.bieres-du-faucigny.fr/horaires",
+     "mar": [
+      [
+       "16:00",
+       "18:50"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "18:50"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "18:50"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "18:50"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.bieres-du-faucigny.fr/horaires",
+   "https://data.geopf.fr/geocodage/search?q=Viuz-en-Sallaz&type=municipality&limit=5"
+  ],
+  "extrait": "Du Mardi au Vendredi : 16h00 | 18h50",
+  "choix": "Confiance moyenne : la page donne horaires et tarifs sans le mot « vente » près des horaires. Adresse non publiée : position au centre de la commune. Même brasserie que le point OSM de Peillonnex."
+ }
+}

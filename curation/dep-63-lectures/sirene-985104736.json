@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:985104736",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Puys",
+   "c": "Clermont-Ferrand",
+   "d": "63",
+   "lat": 45.76716,
+   "lon": 3.08299,
+   "km": 130.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Une boutique en vente directe à la brasserie, ouverte le samedi matin et sur rendez-vous, d'après son site ; ni bar ni dégustation cités.",
+   "addr": "32 avenue de la Libération, 63000 Clermont-Ferrand",
+   "src": "https://brasseriedespuys.fr/la-brasserie",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 73 93 88 92",
+    "site": "https://brasseriedespuys.fr",
+    "source": "https://brasseriedespuys.fr/contact",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedespuys.fr/la-brasserie",
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "remarque": "Et sur rendez-vous.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasseriedespuys.fr/la-brasserie",
+   "https://brasseriedespuys.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=32+avenue+de+la+Lib%C3%A9ration%2C+63000+Clermont-Ferrand&limit=5"
+  ],
+  "extrait": "La boutique en vente directe",
+  "choix": "Le fixe de la page contact retenu ; le portable des rendez-vous écarté. Pas d'Untappd."
+ }
+}

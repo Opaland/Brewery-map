@@ -1,0 +1,1399 @@
+[
+ {
+  "cle": "sirene:851612275",
+  "nom": "BRASSERIE DU MONT SALEVE",
+  "communes": [
+   "NEYDENS",
+   "FEIGERES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "151 RUE DU JURA 74160 NEYDENS",
+   "13 RUE DU JURA 74160 NEYDENS",
+   "271 ALLEE DES CHARBONNIERS 74160 FEIGERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "851612275",
+  "sirets": [
+   "85161227500012",
+   "85161227500020",
+   "85161227500038"
+  ],
+  "osm": [
+   "way/78492082"
+  ],
+  "lat": 46.121743144,
+  "lon": 6.0928908091,
+  "site": "http://www.labrasseriedumontsaleve.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884475328",
+  "nom": "ARPITAN",
+  "communes": [
+   "GROISY",
+   "ALLONZIER-LA-CAILLE"
+  ],
+  "departement": "74",
+  "adresses": [
+   "28 ALLEE DE LA FLEURETTE 74570 GROISY",
+   "16 RUE ZAE LES MOUILLES NORD 74570 GROISY",
+   "888 ROUTE DE LA CAILLE 74350 ALLONZIER-LA-CAILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884475328",
+  "sirets": [
+   "88447532800024",
+   "88447532800032",
+   "88447532800040"
+  ],
+  "osm": [],
+  "lat": 45.999225438,
+  "lon": 6.1799103894,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MIEUSSY"
+  ],
+  "departement": "74",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-JEAN-DE-SIXT",
+   "LES VILLARDS-SUR-THONES"
+  ],
+  "departement": "74",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:382726909",
+  "nom": "LUDELI",
+  "communes": [
+   "MEGEVE",
+   "SALLANCHES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "CHALET LA COUCHIRE 108 IMPASSE DE LA BRIQUETTE 74120 MEGEVE",
+   "65 ROUTE DES VIBERTS 74700 SALLANCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "382726909",
+  "sirets": [
+   "38272690900031",
+   "38272690900049"
+  ],
+  "osm": [],
+  "lat": 45.85947841,
+  "lon": 6.6234910812,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:421312505",
+  "nom": "BRASSERIE DU MONT BLANC",
+  "communes": [
+   "LES HOUCHES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "15 PLACE DE LA MAIRIE 74310 LES HOUCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "421312505",
+  "sirets": [
+   "42131250500017"
+  ],
+  "osm": [],
+  "lat": 45.8897959879855,
+  "lon": 6.79788793525715,
+  "statut": "homonyme",
+  "fiche": "Brasserie du Mont Blanc"
+ },
+ {
+  "cle": "sirene:794865790",
+  "nom": "CAPSULE & CO",
+  "communes": [
+   "ANNECY",
+   "EPAGNY METZ-TESSY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "1 BD BELLEVUE 74000 ANNECY",
+   "12 IMP DU BOIS 74330 EPAGNY METZ-TESSY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "794865790",
+  "sirets": [
+   "79486579000024",
+   "79486579000032"
+  ],
+  "osm": [],
+  "lat": 45.919578832,
+  "lon": 6.1242874037,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882749484",
+  "nom": "ALCHIMIE",
+  "communes": [
+   "FAVERGES-SEYTHENEX"
+  ],
+  "departement": "74",
+  "adresses": [
+   "48 RUE DE LA REPUBLIQUE 74210 FAVERGES-SEYTHENEX",
+   "212 ROUTE D'ALBERTVILLE 74210 FAVERGES-SEYTHENEX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882749484",
+  "sirets": [
+   "88274948400029",
+   "88274948400037"
+  ],
+  "osm": [],
+  "lat": 45.74664632,
+  "lon": 6.2941512415,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:109973503",
+  "nom": "BRASSEUR MAELSTROM",
+  "communes": [
+   "SALLENOVES",
+   "LA BALME-DE-SILLINGY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "31 ROUTE DE MARLIOZ 74270 SALLENOVES",
+   "29 ROUTE DE LA LECHERE 74330 LA BALME-DE-SILLINGY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "109973503",
+  "sirets": [
+   "10997350300013",
+   "10997350300021"
+  ],
+  "osm": [],
+  "lat": 46.011004003653674,
+  "lon": 5.9926940625937455,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894560689",
+  "nom": "BRASSERIE DES ALPAGES",
+  "communes": [
+   "LES CONTAMINES MONTJOIE"
+  ],
+  "departement": "74",
+  "adresses": [
+   "PRE REVENAZ 74170 LES CONTAMINES MONTJOIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894560689",
+  "sirets": [
+   "89456068900016"
+  ],
+  "osm": [],
+  "lat": 45.801837712,
+  "lon": 6.7137923404,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822990842",
+  "nom": "BRASSERIE DU BAIGNEUR",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "8 PAS DES PROVINS 74000 ANNECY",
+   "194 RTE DES VERNES 74000 ANNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822990842",
+  "sirets": [
+   "82299084200012",
+   "82299084200020"
+  ],
+  "osm": [],
+  "lat": 45.922114536,
+  "lon": 6.124916763,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832884878",
+  "nom": "MARMOTTE BEER",
+  "communes": [
+   "SAINT-GERVAIS-LES-BAINS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "320 ROUTE DE VERVEX 74170 SAINT-GERVAIS-LES-BAINS",
+   "14 CHEMIN DES PETUNIAS 74170 SAINT-GERVAIS-LES-BAINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832884878",
+  "sirets": [
+   "83288487800014",
+   "83288487800022"
+  ],
+  "osm": [],
+  "lat": 45.897233814,
+  "lon": 6.6875946409,
+  "statut": "ambigu",
+  "fiche": "La Marmotte Masquée"
+ },
+ {
+  "cle": "sirene:451198915",
+  "nom": "JUS DE RAISIN DISTRIBUTION",
+  "communes": [
+   "LUCINGES",
+   "CONTAMINE-SUR-ARVE"
+  ],
+  "departement": "74",
+  "adresses": [
+   "5 PLACE DE LA VIGNULE 74380 LUCINGES",
+   "96 ROUTE DE LOSSIEGE 74130 CONTAMINE-SUR-ARVE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "451198915",
+  "sirets": [
+   "45119891500030",
+   "45119891500048"
+  ],
+  "osm": [
+   "way/63593358"
+  ],
+  "lat": 46.191305745,
+  "lon": 6.317154304,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:534936182",
+  "nom": "ALPINE HIGHS",
+  "communes": [
+   "MONTRIOND"
+  ],
+  "departement": "74",
+  "adresses": [
+   "C3 440 ROUTE DU PRE 74110 MONTRIOND",
+   "C3A 440 ROUTE DU PRE 74110 MONTRIOND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "534936182",
+  "sirets": [
+   "53493618200052",
+   "53493618200060"
+  ],
+  "osm": [],
+  "lat": 46.1971005021765,
+  "lon": 6.69162591333026,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912845252",
+  "nom": "BRASSEURS ALPINS",
+  "communes": [
+   "EVIAN-LES-BAINS",
+   "MARIN"
+  ],
+  "departement": "74",
+  "adresses": [
+   "1 B AV D ABONDANCE 74500 EVIAN-LES-BAINS",
+   "117 CHEMIN DE ROGINE 74200 MARIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912845252",
+  "sirets": [
+   "91284525200010",
+   "91284525200028"
+  ],
+  "osm": [],
+  "lat": 46.400182163,
+  "lon": 6.5968348048,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908970304",
+  "nom": "BRASSERIE DU CRIOU",
+  "communes": [
+   "TANINGES",
+   "VERCHAIX"
+  ],
+  "departement": "74",
+  "adresses": [
+   "252 ROUTE DU PETIT JUTTENINGES 74440 TANINGES",
+   "447 RUE DE L'EPURE 74440 VERCHAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908970304",
+  "sirets": [
+   "90897030400022",
+   "90897030400030"
+  ],
+  "osm": [],
+  "lat": 46.100801625,
+  "lon": 6.652179902,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884187899",
+  "nom": "BRASSERIE DES FIZ",
+  "communes": [
+   "PASSY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "85 RUE DE CHARBONNIERE 74480 PASSY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884187899",
+  "sirets": [
+   "88418789900015"
+  ],
+  "osm": [],
+  "lat": 45.938545826,
+  "lon": 6.706800809,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803331958",
+  "nom": "BOMBARDOS",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZA D'ALERY - CRAN-GEVRIER 9 IMP DE LA FUTAIE 74000 ANNECY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "803331958",
+  "sirets": [
+   "80333195800022"
+  ],
+  "osm": [
+   "node/12384165644"
+  ],
+  "lat": 45.897959603,
+  "lon": 6.1047987228,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:799833181",
+  "nom": "BIERES DU FAUCIGNY",
+  "communes": [
+   "VIUZ-EN-SALLAZ"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZONE ARTISANALE LES TATTES 805 RUE DE L'INDUSTRIE 74250 VIUZ-EN-SALLAZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "799833181",
+  "sirets": [
+   "79983318100024"
+  ],
+  "osm": [],
+  "lat": 46.1400705574893,
+  "lon": 6.390688583178,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899201289",
+  "nom": "BRASSERIE DU CAIRN",
+  "communes": [
+   "LOISIN"
+  ],
+  "departement": "74",
+  "adresses": [
+   "100 RUE DE LA MULE 74140 LOISIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899201289",
+  "sirets": [
+   "89920128900019"
+  ],
+  "osm": [],
+  "lat": 46.282818373,
+  "lon": 6.3105519693,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910452077",
+  "nom": "OUTER RANGE ALPS",
+  "communes": [
+   "SALLANCHES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "531 RUE DU CAPITAINE BULLE 74700 SALLANCHES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "910452077",
+  "sirets": [
+   "91045207700027"
+  ],
+  "osm": [
+   "node/797390082"
+  ],
+  "lat": 45.9433253824217,
+  "lon": 6.62884107474954,
+  "site": "https://outerrangealps.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830068185",
+  "nom": "BIG MOUNTAIN BREWING COMPANY",
+  "communes": [
+   "CLUSES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "32 RUE DU DOCTEUR GALLET 74300 CLUSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830068185",
+  "sirets": [
+   "83006818500040"
+  ],
+  "osm": [],
+  "lat": 46.077601555,
+  "lon": 6.5720628888,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833882533",
+  "nom": "MELANGES DES ALPES",
+  "communes": [
+   "ALBY-SUR-CHERAN"
+  ],
+  "departement": "74",
+  "adresses": [
+   "645 RUE DES CHAMPS DE LA PIERRE 74540 ALBY-SUR-CHERAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833882533",
+  "sirets": [
+   "83388253300031"
+  ],
+  "osm": [],
+  "lat": 45.82039202771828,
+  "lon": 6.004431056191512,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843021783",
+  "nom": "MICRO-BRASSERIE K&G",
+  "communes": [
+   "MIEUSSY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "596 ROUTE DE LA MONTAGNE 74440 MIEUSSY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843021783",
+  "sirets": [
+   "84302178300017"
+  ],
+  "osm": [],
+  "lat": 46.134345255,
+  "lon": 6.5193717533,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891923880",
+  "nom": "CRAFTY BEER CLUB",
+  "communes": [
+   "MORILLON"
+  ],
+  "departement": "74",
+  "adresses": [
+   "705 ROUTE DES CHAMPS 74440 MORILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891923880",
+  "sirets": [
+   "89192388000019"
+  ],
+  "osm": [],
+  "lat": 46.085053916,
+  "lon": 6.6615399089,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899535496",
+  "nom": "BRASSERIE LA VARDAF",
+  "communes": [
+   "BELLEVAUX"
+  ],
+  "departement": "74",
+  "adresses": [
+   "245 CHEMIN DES CRETTETS 74470 BELLEVAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899535496",
+  "sirets": [
+   "89953549600017"
+  ],
+  "osm": [],
+  "lat": 46.250184389,
+  "lon": 6.5407442506,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:915297972",
+  "nom": "BRASSERIE ORANGE DUCK",
+  "communes": [
+   "CLUSES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "28 AVENUE DE LA SARDAGNE 74300 CLUSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "915297972",
+  "sirets": [
+   "91529797200019"
+  ],
+  "osm": [],
+  "lat": 46.069786791547,
+  "lon": 6.5634631691282,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:804199826",
+  "nom": "BRASSERIE LA ROCHOISE",
+  "communes": [
+   "AMANCY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZI DES DRAGIEZ 596 RUE DU QUARRE 74800 AMANCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "804199826",
+  "sirets": [
+   "80419982600038"
+  ],
+  "osm": [],
+  "lat": 46.074871745,
+  "lon": 6.3142386627,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813435435",
+  "nom": "ADENNES",
+  "communes": [
+   "SAINT-JULIEN-EN-GENEVOIS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "33 AVENUE DE GENEVE 74160 SAINT-JULIEN-EN-GENEVOIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813435435",
+  "sirets": [
+   "81343543500017"
+  ],
+  "osm": [],
+  "lat": 46.151346255,
+  "lon": 6.0896058889,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980774962",
+  "nom": "BRASSERIE DES VOIRONS",
+  "communes": [
+   "LUCINGES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "5 PLACE DE LA VIGNULE 74380 LUCINGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980774962",
+  "sirets": [
+   "98077496200016"
+  ],
+  "osm": [],
+  "lat": 46.191305745,
+  "lon": 6.317154304,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839546140",
+  "nom": "IMBIBE",
+  "communes": [
+   "SAINT-GERVAIS-LES-BAINS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "900 ROUTE DE MEGEVE 74170 SAINT-GERVAIS-LES-BAINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839546140",
+  "sirets": [
+   "83954614000022"
+  ],
+  "osm": [],
+  "lat": 45.894392302,
+  "lon": 6.6955301527,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE DU FARFADET",
+  "communes": [
+   "CRUSEILLES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "95 CHEMIN DES LIRONS 74350 CRUSEILLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894860048",
+  "nom": "BRASSERIE DU BRUANT",
+  "communes": [
+   "BURDIGNIN"
+  ],
+  "departement": "74",
+  "adresses": [
+   "218 CHEMIN DE LA CHAPELLE 74420 BURDIGNIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894860048",
+  "sirets": [
+   "89486004800012"
+  ],
+  "osm": [],
+  "lat": 46.241475853,
+  "lon": 6.4370840228,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879618155",
+  "nom": "JM BRASSAGE",
+  "communes": [
+   "LA BALME-DE-SILLINGY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "29 ROUTE DE LA LECHERE 74330 LA BALME-DE-SILLINGY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879618155",
+  "sirets": [
+   "87961815500029"
+  ],
+  "osm": [],
+  "lat": 45.9690440990677,
+  "lon": 6.05000417329628,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891423832",
+  "nom": "LA CINQUIEME FONTAINE",
+  "communes": [
+   "MARGENCEL"
+  ],
+  "departement": "74",
+  "adresses": [
+   "33 RUE DES FONTAINES 74200 MARGENCEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891423832",
+  "sirets": [
+   "89142383200015"
+  ],
+  "osm": [],
+  "lat": 46.3286803290902,
+  "lon": 6.4192284362289,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909718132",
+  "nom": "BIERES DE ALLOBROGES",
+  "communes": [
+   "THYEZ"
+  ],
+  "departement": "74",
+  "adresses": [
+   "912 AVENUE LOUIS COPPEL 74300 THYEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909718132",
+  "sirets": [
+   "90971813200014"
+  ],
+  "osm": [],
+  "lat": 46.079185775,
+  "lon": 6.542223391,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:539596213",
+  "nom": "LA BRASSERIE DU GIFFRE",
+  "communes": [
+   "VERCHAIX"
+  ],
+  "departement": "74",
+  "adresses": [
+   "331 RUE DE L'EPURE 74440 VERCHAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "539596213",
+  "sirets": [
+   "53959621300022"
+  ],
+  "osm": [],
+  "lat": 46.0917234458026,
+  "lon": 6.670642183819,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:903731818",
+  "nom": "LA CHAUDRONNERIE",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "2 ALL DES MORILLES 74000 ANNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "903731818",
+  "sirets": [
+   "90373181800014"
+  ],
+  "osm": [],
+  "lat": 45.915924756,
+  "lon": 6.1025582765,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:800321093",
+  "nom": "LES BRASSEURS SAVOYARDS",
+  "communes": [
+   "ALBY-SUR-CHERAN"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZI DES CHAMPS DE LA PIERRE 74540 ALBY-SUR-CHERAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "800321093",
+  "sirets": [
+   "80032109300026"
+  ],
+  "osm": [
+   "node/9248410706"
+  ],
+  "lat": 45.820229902,
+  "lon": 6.0037914746,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811015965",
+  "nom": "MAJC",
+  "communes": [
+   "SAINT-JORIOZ"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZAC DE LA TUILERIE 130 ROUTE DES MARAIS 74410 SAINT-JORIOZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "811015965",
+  "sirets": [
+   "81101596500015"
+  ],
+  "osm": [],
+  "lat": 45.831569901,
+  "lon": 6.1800325523,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811864362",
+  "nom": "BRASSERIE VEYRAT",
+  "communes": [
+   "MARCELLAZ-ALBANAIS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "210 IMPASSE DES PRES AUX BICHES 74150 MARCELLAZ-ALBANAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "811864362",
+  "sirets": [
+   "81186436200017"
+  ],
+  "osm": [],
+  "lat": 45.866086649,
+  "lon": 5.9732833093,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842218315",
+  "nom": "BRASSERIE LA RINGALE",
+  "communes": [
+   "CERVENS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "120 IMPASSE DES ARTISANS 74550 CERVENS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842218315",
+  "sirets": [
+   "84221831500013"
+  ],
+  "osm": [
+   "way/823063300"
+  ],
+  "lat": 46.2878562591449,
+  "lon": 6.44608908300126,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839275344",
+  "nom": "LA BRASSERIE 744",
+  "communes": [
+   "LA TOUR"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZA DE TANEY 620 ROUTE DE TANEY 74250 LA TOUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839275344",
+  "sirets": [
+   "83927534400035"
+  ],
+  "osm": [],
+  "lat": 46.1304612611858,
+  "lon": 6.40301773136953,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889872297",
+  "nom": "CHRIS BEER CONSULTING",
+  "communes": [
+   "SEYTROUX"
+  ],
+  "departement": "74",
+  "adresses": [
+   "441 ROUTE DES CHAMPS MARMO 74430 SEYTROUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889872297",
+  "sirets": [
+   "88987229700011"
+  ],
+  "osm": [],
+  "lat": 46.249271039,
+  "lon": 6.6227709731,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912131125",
+  "nom": "LA MAM BRASSERIE",
+  "communes": [
+   "MARCELLAZ"
+  ],
+  "departement": "74",
+  "adresses": [
+   "415 ROUTE D'ARPIGNY 74250 MARCELLAZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912131125",
+  "sirets": [
+   "91213112500011"
+  ],
+  "osm": [],
+  "lat": 46.1471454954511,
+  "lon": 6.34964986077861,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:934574609",
+  "nom": "BRASSERIE ALPS",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZAC DES ROMAINS - CRAN-GEVRIER 14 ROUTE DE LA SALLE 74960 ANNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "934574609",
+  "sirets": [
+   "93457460900020"
+  ],
+  "osm": [],
+  "lat": 45.8996521708389,
+  "lon": 6.08639523127655,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923365761",
+  "nom": "BREWERS SOCIAL CLUB",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "4 AV DE MONTFLEURY 74000 ANNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923365761",
+  "sirets": [
+   "92336576100017"
+  ],
+  "osm": [],
+  "lat": 45.913125326,
+  "lon": 6.1579920288,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829054410",
+  "nom": "SMOKE HOUSE",
+  "communes": [
+   "LES HOUCHES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "81 AVENUE DES ALPAGES 74310 LES HOUCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829054410",
+  "sirets": [
+   "82905441000016"
+  ],
+  "osm": [],
+  "lat": 45.892489848,
+  "lon": 6.8001917804,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:500259270",
+  "nom": "BRASSERIE ARTISANALE DU LEMAN",
+  "communes": [
+   "ALLINGES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "LIEUDIT LEYRIAT 670 ROUTE DES BLAVES 74200 ALLINGES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "500259270",
+  "sirets": [
+   "50025927000030"
+  ],
+  "osm": [
+   "node/8923062535"
+  ],
+  "lat": 46.3347833716142,
+  "lon": 6.4885314021349,
+  "site": "https://www.biere-leman.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:939556718",
+  "nom": "NATIV",
+  "communes": [
+   "DOMANCY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "123 IMPASSE DES VERVEINES 74700 DOMANCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "939556718",
+  "sirets": [
+   "93955671800012"
+  ],
+  "osm": [],
+  "lat": 45.9125221153794,
+  "lon": 6.65948886435518,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/278074798",
+  "nom": "Micro Brasserie de Chamonix",
+  "communes": [
+   "Chamonix-Mont-Blanc"
+  ],
+  "departement": "74",
+  "adresses": [
+   "Route du Bouchet, 74400 Chamonix-Mont-Blanc"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/278074798"
+  ],
+  "lat": 45.92734,
+  "lon": 6.87575,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6166335749",
+  "nom": "La petite fabrique",
+  "communes": [
+   "Annecy"
+  ],
+  "departement": "74",
+  "adresses": [
+   "7 Boulevard Bellevue, 74000 Annecy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6166335749"
+  ],
+  "lat": 45.91968,
+  "lon": 6.12463,
+  "site": "https://www.artmalte.com/",
+  "statut": "ambigu",
+  "fiche": "La Beer Fabrique"
+ },
+ {
+  "cle": "node/6328825664",
+  "nom": "Le Bistrot des Quais",
+  "communes": [
+   "Sallanches"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6328825664"
+  ],
+  "lat": 45.93628,
+  "lon": 6.62902,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/157667497",
+  "nom": "La p'tite ravine",
+  "communes": [
+   "Megève"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/157667497"
+  ],
+  "lat": 45.87566,
+  "lon": 6.60238,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/158604347",
+  "nom": "Brasserie BE HERE Factory",
+  "communes": [
+   "Ville-la-Grand"
+  ],
+  "departement": "74",
+  "adresses": [
+   "20 Rue du Bois de la Rose, 74100 Ville-la-Grand"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/158604347"
+  ],
+  "lat": 46.20525,
+  "lon": 6.27806,
+  "site": "https://www.be-here.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/246557753",
+  "nom": "Châlet d'Emilie",
+  "communes": [
+   "Combloux"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/246557753"
+  ],
+  "lat": 45.88884,
+  "lon": 6.62193,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/246557762",
+  "nom": "Le Postillon",
+  "communes": [
+   "Combloux"
+  ],
+  "departement": "74",
+  "adresses": [
+   "Combloux"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/246557762"
+  ],
+  "lat": 45.89537,
+  "lon": 6.64442,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/66975401",
+  "nom": "L'hexagone",
+  "communes": [
+   "Évian-les-Bains"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/66975401"
+  ],
+  "lat": 46.40029,
+  "lon": 6.58663,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/798744550",
+  "nom": "Bières Du Faucigny",
+  "communes": [
+   "Peillonnex"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/798744550"
+  ],
+  "lat": 46.14048,
+  "lon": 6.3902,
+  "site": "https://www.bieres-du-faucigny.fr",
+  "statut": "ambigu",
+  "fiche": "BIERES DU FAUCIGNY"
+ }
+]

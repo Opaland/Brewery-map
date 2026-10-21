@@ -1,0 +1,289 @@
+[
+ {
+  "cle": "sirene:900026436",
+  "n": "Gaïa Bière du Sancy",
+  "c": "Picherande",
+  "adresse": "Lieu dit Ravel, 63113 Picherande",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Dégustation et vente sur place, d'après l'office de tourisme du Sancy ; boutique ouverte le vendredi et le samedi après-midi, d'après son site.",
+  "src": "https://www.sancy.com/fr/fiche/degustation/gaia-biere-du-sancy-picherande_TFO4658151",
+  "extrait": "Dégustation et vente sur place.",
+  "beers": [],
+  "choix": "Catégorie 1, confiance moyenne : la dégustation vient de l'office de tourisme (décision #37). Un fixe publié sur le site, retenu. Horaires hors congés scolaires ; le jeudi des congés en remarque. À ne pas confondre avec la Brasserie du Sancy de Besse. Pas d'Untappd.",
+  "contact": {
+   "tel": "04 73 21 17 24",
+   "site": "https://www.gaia-biere-du-sancy.fr/",
+   "source": "https://www.gaia-biere-du-sancy.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "remarque": "Pendant les congés scolaires, aussi le jeudi, de 15 h à 18 h 30. Visites sur réservation.",
+    "source": "https://www.gaia-biere-du-sancy.fr/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:877894741",
+  "n": "Brasserie NK",
+  "c": "Teilhède",
+  "adresse": "Champs Saint-Pierre, 63460 Teilhède",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub et vente de sa production, d'après son site ; pas d'horaires publiés.",
+  "src": "https://brasserienk.fr",
+  "extrait": "Envie de déguster une bière artisanale dans un endroit atypique & un lieu décalé?",
+  "beers": [],
+  "choix": "Le fixe du pied de page retenu ; deux portables de l'office écartés. Une page Untappd existe (brasserie-nk), non citée par le site. Horaires de l'office non datés : non repris.",
+  "contact": {
+   "tel": "04 73 66 19 15",
+   "site": "https://brasserienk.fr",
+   "source": "https://brasserienk.fr"
+  }
+ },
+ {
+  "cle": "sirene:913987202",
+  "n": "Brasserie du Valhalla",
+  "c": "Pontaumur",
+  "adresse": "47 avenue du Pont, 63380 Pontaumur",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières en vente à la boutique de la brasserie, d'après son site ; ni bar ni horaires publiés.",
+  "src": "https://brasserie-du-valhalla.fr",
+  "extrait": "Vous pouvez retrouver nos bières directement en boutique à la Brasserie ou chez nos distributeurs.",
+  "beers": [],
+  "choix": "Seule ligne publiée par la brasserie : un portable, retenu (règle du 21/10). Pas de page Untappd de la brasserie.",
+  "contact": {
+   "tel": "07 48 15 46 18",
+   "site": "https://brasserie-du-valhalla.fr",
+   "source": "https://brasserie-du-valhalla.fr"
+  }
+ },
+ {
+  "cle": "sirene:908623580",
+  "n": "Potinga",
+  "c": "Clermont-Ferrand",
+  "adresse": null,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brewpub de Clermont-Ferrand, d'après sa page Untappd ; pas de site officiel.",
+  "src": "https://untappd.com/Potinga",
+  "extrait": "Brew Pub",
+  "beers": [],
+  "choix": "Untappd vaut source de vérité pour l'existence (méthode du 19/10) ; « Brew Pub » dit qu'on y boit sur place, sans plus : confiance faible. Adresse lue sur un annuaire seulement : non retenue, position au centre de Clermont-Ferrand. Aucun téléphone publié.",
+  "contact": {
+   "untappd": "https://untappd.com/Potinga",
+   "source": "https://untappd.com/Potinga"
+  }
+ },
+ {
+  "cle": "sirene:898230438",
+  "n": "Dark Lab Brewing",
+  "c": "Saint-Ours",
+  "adresse": "4 route de la Via Bore, 63230 Saint-Ours",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brewpub (cinq à dix bières pression brassées sur place) et vente directe de canettes, d'après son site.",
+  "src": "https://www.dark-lab.fr/",
+  "extrait": "à découvrir dans notre brewpub proche de Clermont-Ferrand et Riom, ou en vente directe.",
+  "beers": [],
+  "choix": "Le site décrit la consommation sur place et la vente : confiance solide. Téléphone de la page contact. Horaires de l'office sans heure de fermeture : non repris. Untappd existe (Dark_Lab), non cité sur la page contact.",
+  "contact": {
+   "tel": "04 73 88 92 80",
+   "site": "https://www.dark-lab.fr/",
+   "source": "https://www.dark-lab.fr/nous-contacter"
+  }
+ },
+ {
+  "cle": "personne:1",
+  "n": "La Banne",
+  "c": "Murat-le-Quaire",
+  "adresse": "12 impasse de la Fumade, 63150 Murat-le-Quaire",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Micro-brasserie avec boutique et bar sur place, visites guidées sur réservation, d'après l'office de tourisme du Sancy et son site.",
+  "src": "https://www.sancy.com/fr/fiche/degustation/micro-brasserie-la-banne-murat-le-quaire_TFO5929557",
+  "extrait": "dégustez nos produits (boutique et bar sur place)",
+  "beers": [],
+  "choix": "Le bar vient de l'office : confiance moyenne. Seule ligne publiée : un portable, retenu. Horaires du site hors vacances ; les vacances en remarque. Entrepreneur individuel : aucun nom recopié.",
+  "contact": {
+   "tel": "06 75 92 20 13",
+   "site": "https://www.brasserielabanne.fr/",
+   "source": "https://www.brasserielabanne.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "dim": [
+     [
+      "15:00",
+      "19:30"
+     ]
+    ],
+    "remarque": "Hors vacances scolaires ; pendant les vacances, tous les jours de 15 h à 19 h 30. Visites et dégustations le mercredi et le jeudi de 11 h à 13 h, sur réservation.",
+    "source": "https://www.brasserielabanne.fr/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:898012034",
+  "n": "Brasserie du Sancy",
+  "c": "Besse-et-Saint-Anastaise",
+  "adresse": "Rue de La Tour-d'Auvergne, 63610 Besse-et-Saint-Anastaise",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio, boutique et vente à la propriété, visites sur rendez-vous, d'après l'office de tourisme du Sancy.",
+  "src": "https://www.sancy.com/fr/fiche/degustation/brasserie-du-sancy-besse-et-saint-anastaise_TFO6022038/",
+  "extrait": "Vente à la propriété",
+  "beers": [],
+  "choix": "Office de tourisme : confiance moyenne. Seule ligne publiée par la brasserie : un portable, retenu. Horaires de l'office (2026-2027). Même lieu que le point OSM node/13810536073. À ne pas confondre avec Gaïa Bière du Sancy (Picherande).",
+  "contact": {
+   "tel": "06 95 52 43 03",
+   "site": "https://brasserie-sancy.fr/",
+   "source": "https://brasserie-sancy.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Visites sur rendez-vous ; fermé les jours fériés.",
+    "source": "https://www.sancy.com/fr/fiche/degustation/brasserie-du-sancy-besse-et-saint-anastaise_TFO6022038/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:985104736",
+  "n": "Brasserie des Puys",
+  "c": "Clermont-Ferrand",
+  "adresse": "32 avenue de la Libération, 63000 Clermont-Ferrand",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Une boutique en vente directe à la brasserie, ouverte le samedi matin et sur rendez-vous, d'après son site ; ni bar ni dégustation cités.",
+  "src": "https://brasseriedespuys.fr/la-brasserie",
+  "extrait": "La boutique en vente directe",
+  "beers": [],
+  "choix": "Le fixe de la page contact retenu ; le portable des rendez-vous écarté. Pas d'Untappd.",
+  "contact": {
+   "tel": "04 73 93 88 92",
+   "site": "https://brasseriedespuys.fr",
+   "source": "https://brasseriedespuys.fr/contact"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "remarque": "Et sur rendez-vous.",
+    "source": "https://brasseriedespuys.fr/la-brasserie"
+   }
+  ]
+ },
+ {
+  "cle": "node/13702345820",
+  "n": "Brasserie des Montagnes",
+  "c": "Gelles",
+  "adresse": "1 chemin de rocher, 63740 Gelles",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie bio de Gelles, d'après son site, qui ne dit rien de la vente ni de l'accueil.",
+  "src": "https://www.brasseriedesmontagnes.fr/contactez-nous",
+  "extrait": "1 chemin de rocher, GELLES, 63740, France",
+  "beers": [],
+  "choix": "Catégorie 0 : aucun lieu de vente ni d'accueil décrit. Seule ligne publiée : un portable, retenu. Le registre la place « aux Quintins » ; le site, au 1 chemin de rocher : celle du site est retenue. Même brasserie que l'entreprise individuelle du registre (personne:2).",
+  "contact": {
+   "tel": "07 70 42 08 94",
+   "site": "https://www.brasseriedesmontagnes.fr/",
+   "source": "https://www.brasseriedesmontagnes.fr/contactez-nous"
+  }
+ }
+]

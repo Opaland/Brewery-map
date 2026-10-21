@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:908970304",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Criou",
+   "c": "Verchaix",
+   "d": "74",
+   "lat": 46.09231,
+   "lon": 6.66892,
+   "km": 155.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar-boutique de la brasserie à Verchaix, où ses bières se dégustent et s'achètent, d'après l'office de tourisme ; la brasserie elle-même, à Taninges, ne reçoit pas. La brasserie est à Petit-Jutteninges, à Taninges.",
+   "addr": "447 rue de l'Épure, 74440 Verchaix",
+   "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-criou-verchaix-fr-5866594/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 76 68 15 12",
+    "site": "https://brasserieducriou.com",
+    "source": "https://brasserieducriou.com",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-du-criou-verchaix-fr-5866594/",
+   "https://brasserieducriou.com",
+   "https://data.geopf.fr/geocodage/search?q=447+rue+de+l%27%C3%89pure%2C+74440+Verchaix&limit=5"
+  ],
+  "extrait": "disponibles à la dégustation et à la vente",
+  "choix": "Office de tourisme : confiance moyenne. Deux portables publiés, aucun fixe : le premier est retenu. Horaires du site et de l'office contradictoires : non repris."
+ }
+}

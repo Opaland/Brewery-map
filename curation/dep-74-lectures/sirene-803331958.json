@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:803331958",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bombardos",
+   "c": "Annecy",
+   "d": "74",
+   "lat": 45.89847,
+   "lon": 6.11125,
+   "km": 108.1,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe, d'après son site et l'office de tourisme ; ni l'un ni l'autre ne dit si l'on achète à la brasserie.",
+   "addr": "9 ZA d'Aléry, impasse de la Futaie, 74960 Annecy",
+   "src": "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.bombardos.beer",
+    "source": "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.haute-savoie-tourisme.org/index.php/613920-brasserie-bombardos",
+   "https://data.geopf.fr/geocodage/search?q=9+ZA+d%27Al%C3%A9ry%2C+impasse+de+la+Futaie%2C+74960+Annecy&limit=5"
+  ],
+  "extrait": "Deux spécialités : une blanche et une blonde en 50 cl",
+  "choix": "Catégorie 0 : « horaires variables, contactez-les » sans vente écrite. Aucun téléphone publié."
+ }
+}

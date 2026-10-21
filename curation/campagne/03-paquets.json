@@ -1,0 +1,194 @@
+[
+ [
+  {
+   "cle": "sirene:818835555",
+   "enseigne": "3.AS",
+   "dep": "03",
+   "communes": [
+    "DIOU",
+    "SALIGNY-SUR-ROUDON"
+   ],
+   "adresses": [
+    "LE CLUZIAUD 03290 DIOU",
+    "LAFAY 03470 SALIGNY-SUR-ROUDON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900444589",
+   "enseigne": "BRASSERIE LA COMETE",
+   "dep": "03",
+   "communes": [
+    "VICHY"
+   ],
+   "adresses": [
+    "20 RUE DU LANGUEDOC 03200 VICHY",
+    "10 AVENUE DE LYON 03200 VICHY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841354731",
+   "enseigne": "BRASSERIE - JNT",
+   "dep": "03",
+   "communes": [
+    "VALLON-EN-SULLY"
+   ],
+   "adresses": [
+    "8 CHEMIN DE L'OYARD 03190 VALLON-EN-SULLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893620393",
+   "enseigne": "LA MOUSSE BOURBONNAISE",
+   "dep": "03",
+   "communes": [
+    "AVERMES"
+   ],
+   "adresses": [
+    "44 ROUTE DE PARIS 03000 AVERMES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:941002438",
+   "enseigne": "MOUSS'O'NEZ",
+   "dep": "03",
+   "communes": [
+    "COLOMBIER"
+   ],
+   "adresses": [
+    "12 IMPASSE DE CHIERLOUX 03600 COLOMBIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:840539456",
+   "enseigne": "LA BRASSERIE DU JUGEMENT DERNIER",
+   "dep": "03",
+   "communes": [
+    "MAZERIER"
+   ],
+   "adresses": [
+    "15 ALLEE MADAME DE SEVIGNE 03800 MAZERIER"
+   ],
+   "osm": [
+    "node/7568278437"
+   ],
+   "site": "https://jugementdernier.beer/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829613942",
+   "enseigne": "LA BRASSERIE DU LOUP",
+   "dep": "03",
+   "communes": [
+    "LE VEURDRE"
+   ],
+   "adresses": [
+    "23 RTE DE BOURBON 03320 LE VEURDRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:904232964",
+   "enseigne": "CH HOP TI",
+   "dep": "03",
+   "communes": [
+    "CRESSANGES"
+   ],
+   "adresses": [
+    "5 RUE DU COMMERCE 03240 CRESSANGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848570289",
+   "enseigne": "BREW-VERNET",
+   "dep": "03",
+   "communes": [
+    "BROUT-VERNET"
+   ],
+   "adresses": [
+    "9 RUE DE LA CROIX-ROUGE 03110 BROUT-VERNET"
+   ],
+   "osm": [
+    "way/391271892"
+   ],
+   "site": "https://brasserie-brewvernet.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "BACK INSTA MALT (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "03",
+   "communes": [
+    "VARENNES SUR ALLIER"
+   ],
+   "adresses": [
+    "21 RUE DU QUATRE SEPTEMBRE 03150 VARENNES SUR ALLIER"
+   ],
+   "osm": [
+    "node/10865053092"
+   ],
+   "site": "https://www.brasseriebackinmalt.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:5",
+   "enseigne": "LADY ALE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "03",
+   "communes": [
+    "SAINT-POURCAIN-SUR-SIOULE"
+   ],
+   "adresses": [
+    "24 FAUBOURG DE PARIS 03500 SAINT-POURCAIN-SUR-SIOULE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10929096211",
+   "enseigne": "Brasserie du pèreSaint'Oy",
+   "dep": "03",
+   "communes": [
+    "Diou"
+   ],
+   "adresses": [
+    "1 Chemin du Cluziaud, 03290 Diou"
+   ],
+   "osm": [
+    "node/10929096211"
+   ],
+   "site": "https://www.lasaintoy.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9459121056",
+   "enseigne": "Café Rétro",
+   "dep": "03",
+   "communes": [
+    "Bressolles"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9459121056"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

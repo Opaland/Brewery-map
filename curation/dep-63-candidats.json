@@ -1,0 +1,812 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": "LA BANNE",
+  "communes": [
+   "MURAT-LE-QUAIRE",
+   "MONT-DORE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "IMPASSE DE LA FUMADE 63150 MURAT-LE-QUAIRE",
+   "3 PLACE DU PANTHEON 63240 MONT-DORE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898012034",
+  "nom": "BRASSERIE DU SANCY",
+  "communes": [
+   "BESSE ET SAINT ANASTAISE",
+   "BESSE-ET-SAINT-ANASTAISE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "TRABANTOUX 63610 BESSE ET SAINT ANASTAISE",
+   "RUE DE LA TOUR D'AUVERGNE 63610 BESSE-ET-SAINT-ANASTAISE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "898012034",
+  "sirets": [
+   "89801203400010",
+   "89801203400028"
+  ],
+  "osm": [
+   "node/13810536073"
+  ],
+  "lat": 45.500900567,
+  "lon": 2.9404570325,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE DES MONTAGNES EIRL ROUDAIRE",
+  "communes": [
+   "GELLES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LES QUINTINS 63740 GELLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812619005",
+  "nom": "O BIERES",
+  "communes": [
+   "CLERMONT-FERRAND"
+  ],
+  "departement": "63",
+  "adresses": [
+   "6 RUE NICOLAS-JOSEPH CUGNOT 63100 CLERMONT-FERRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812619005",
+  "sirets": [
+   "81261900500026"
+  ],
+  "osm": [],
+  "lat": 45.784283613,
+  "lon": 3.124509543,
+  "statut": "ambigu",
+  "fiche": "Brasserie La N'O"
+ },
+ {
+  "cle": "sirene:814876777",
+  "nom": "BRASSERIE D ISSOIRE, LES COUZINES",
+  "communes": [
+   "ISSOIRE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "8 IMPASSE EMILE ZOLA 63500 ISSOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814876777",
+  "sirets": [
+   "81487677700024"
+  ],
+  "osm": [],
+  "lat": 45.550866451,
+  "lon": 3.2589741726,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900026436",
+  "nom": "BIERE DU SANCY",
+  "communes": [
+   "PICHERANDE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LIEU DIT RAVEL 63113 PICHERANDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900026436",
+  "sirets": [
+   "90002643600015"
+  ],
+  "osm": [],
+  "lat": 45.459292731,
+  "lon": 2.7869571595,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822060109",
+  "nom": "MICROBRASSERIE DE L'ECUREUIL",
+  "communes": [
+   "SAUXILLANGES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LD LES CHASSAGNES 63490 SAUXILLANGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822060109",
+  "sirets": [
+   "82206010900011"
+  ],
+  "osm": [],
+  "lat": 45.580515371,
+  "lon": 3.3494367137,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980078281",
+  "nom": "RODIL MICROBRASSERIE",
+  "communes": [
+   "MARINGUES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "CHAMP MOUTIER 63350 MARINGUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980078281",
+  "sirets": [
+   "98007828100014"
+  ],
+  "osm": [],
+  "lat": 45.920943069,
+  "lon": 3.3361121274,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831675335",
+  "nom": "LE BRASSEUR ARVERNE",
+  "communes": [
+   "RIOM"
+  ],
+  "departement": "63",
+  "adresses": [
+   "10 RUE AMABLE FAUCON 63200 RIOM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831675335",
+  "sirets": [
+   "83167533500028"
+  ],
+  "osm": [],
+  "lat": 45.8872938859425,
+  "lon": 3.11213926179883,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840289334",
+  "nom": "BRASSERIE FORNABERA",
+  "communes": [
+   "SAINT-AMANT-ROCHE-SAVINE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "FOURNIER 63890 SAINT-AMANT-ROCHE-SAVINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840289334",
+  "sirets": [
+   "84028933400012"
+  ],
+  "osm": [],
+  "lat": 45.582318542,
+  "lon": 3.6408811774,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:877894741",
+  "nom": "BRASSERIE NK",
+  "communes": [
+   "TEILHEDE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "RUE DU PUY DE MONTAURY 63460 TEILHEDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "877894741",
+  "sirets": [
+   "87789474100017"
+  ],
+  "osm": [],
+  "lat": 45.95743684,
+  "lon": 3.0755298746,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CORENT"
+  ],
+  "departement": "63",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:908623580",
+  "nom": "POTINGA",
+  "communes": [
+   "CLERMONT-FERRAND"
+  ],
+  "departement": "63",
+  "adresses": [
+   "13 RUE DU PORT 63000 CLERMONT-FERRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908623580",
+  "sirets": [
+   "90862358000010"
+  ],
+  "osm": [],
+  "lat": 45.78027767,
+  "lon": 3.087067706,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:913987202",
+  "nom": "BRASSERIE DU VALHALLA",
+  "communes": [
+   "PONTAUMUR"
+  ],
+  "departement": "63",
+  "adresses": [
+   "47 AVENUE DU PONT 63380 PONTAUMUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913987202",
+  "sirets": [
+   "91398720200011"
+  ],
+  "osm": [],
+  "lat": 45.867322482,
+  "lon": 2.6714195156,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904722881",
+  "nom": "ARTULE",
+  "communes": [
+   "RIOM"
+  ],
+  "departement": "63",
+  "adresses": [
+   "14 RUE MARENGO 63200 RIOM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904722881",
+  "sirets": [
+   "90472288100011"
+  ],
+  "osm": [],
+  "lat": 45.893378172,
+  "lon": 3.1102955005,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922439310",
+  "nom": "LA COCOTTE MALTEE",
+  "communes": [
+   "AUBIERE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "9 RUE DE ROMAGNAT 63170 AUBIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922439310",
+  "sirets": [
+   "92243931000017"
+  ],
+  "osm": [],
+  "lat": 45.7487634269851,
+  "lon": 3.11115004874578,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:801438946",
+  "nom": "ATELIER DU MALT",
+  "communes": [
+   "COURPIERE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "12 RUE DE VALETTE 63120 COURPIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "801438946",
+  "sirets": [
+   "80143894600023"
+  ],
+  "osm": [],
+  "lat": 45.7570308014386,
+  "lon": 3.54645225434204,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:924568884",
+  "nom": "TEARS PROJECT",
+  "communes": [
+   "RIOM"
+  ],
+  "departement": "63",
+  "adresses": [
+   "134 RUE DU CREUX 63200 RIOM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924568884",
+  "sirets": [
+   "92456888400028"
+  ],
+  "osm": [],
+  "lat": 45.8866764011846,
+  "lon": 3.12974955586228,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922733126",
+  "nom": "KAZAN CRAFTBEER",
+  "communes": [
+   "CHAMALIERES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "3 RUE DU PONT DE LA GRAVIERE 63400 CHAMALIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "922733126",
+  "sirets": [
+   "92273312600010"
+  ],
+  "osm": [
+   "node/11310220269"
+  ],
+  "lat": 45.77571136,
+  "lon": 3.0661318702,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821647781",
+  "nom": "BRASSERIE DES SAGNES",
+  "communes": [
+   "MENAT"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LD LA BOULE 63560 MENAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821647781",
+  "sirets": [
+   "82164778100011"
+  ],
+  "osm": [],
+  "lat": 46.138694541,
+  "lon": 2.8606735855,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852531227",
+  "nom": "BRASSE BAND",
+  "communes": [
+   "CLERMONT-FERRAND"
+  ],
+  "departement": "63",
+  "adresses": [
+   "APPART 403 42 BOULEVARD COTE BLATIN 63000 CLERMONT-FERRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852531227",
+  "sirets": [
+   "85253122700019"
+  ],
+  "osm": [],
+  "lat": 45.770175635,
+  "lon": 3.0917042347,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LE CENDRE"
+  ],
+  "departement": "63",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:898230438",
+  "nom": "DARK LAB BREWING",
+  "communes": [
+   "SAINT-OURS"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LA COURTEIX 4 ROUTE DE LA VIA BORE 63230 SAINT-OURS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "898230438",
+  "sirets": [
+   "89823043800027"
+  ],
+  "osm": [
+   "node/13061456701"
+  ],
+  "lat": 45.829951973,
+  "lon": 2.8953010097,
+  "site": "http://dark-lab.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921147187",
+  "nom": "LA BIERE DES FOUS",
+  "communes": [
+   "VOLVIC"
+  ],
+  "departement": "63",
+  "adresses": [
+   "3 RUE DERRIERE LE FOUR 63530 VOLVIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921147187",
+  "sirets": [
+   "92114718700014"
+  ],
+  "osm": [],
+  "lat": 45.872152571,
+  "lon": 3.0367613644,
+  "statut": "ambigu",
+  "fiche": "Les Fous Brassant"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "VICHEL"
+  ],
+  "departement": "63",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:902476985",
+  "nom": "BRASSERIE BOUGNAT",
+  "communes": [
+   "LEMPDES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "15 RUE ERNEST JEAN BAPT 63370 LEMPDES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902476985",
+  "sirets": [
+   "90247698500012"
+  ],
+  "osm": [],
+  "lat": 45.783279408,
+  "lon": 3.2149640526,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910244672",
+  "nom": "BORNA",
+  "communes": [
+   "PLAUZAT"
+  ],
+  "departement": "63",
+  "adresses": [
+   "5 PLACE DE LA CAVE MARC 63730 PLAUZAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910244672",
+  "sirets": [
+   "91024467200010"
+  ],
+  "osm": [],
+  "lat": 45.621782021,
+  "lon": 3.1488569394,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813527967",
+  "nom": "MICROBRASSERIE BALM",
+  "communes": [
+   "LE BROC"
+  ],
+  "departement": "63",
+  "adresses": [
+   "42 LOTISSEMENT LE LAIRE 63500 LE BROC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813527967",
+  "sirets": [
+   "81352796700026"
+  ],
+  "osm": [],
+  "lat": 45.500899868,
+  "lon": 3.2536706094,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "L IMPRO-  FRENETTE DU LEMBRONNAIS -",
+  "communes": [
+   "CHALUS"
+  ],
+  "departement": "63",
+  "adresses": [
+   "LE COUDERT CHEMIN SAINTE MADELEINE 63340 CHALUS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:985104736",
+  "nom": "BRASSERIE DES PUYS",
+  "communes": [
+   "CLERMONT-FERRAND"
+  ],
+  "departement": "63",
+  "adresses": [
+   "32 AVENUE DE LA LIBERATION 63000 CLERMONT-FERRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "985104736",
+  "sirets": [
+   "98510473600014"
+  ],
+  "osm": [],
+  "lat": 45.767154938085,
+  "lon": 3.08298593343928,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843353665",
+  "nom": "LE REVEIL DES VOLCANS",
+  "communes": [
+   "MUR-SUR-ALLIER"
+  ],
+  "departement": "63",
+  "adresses": [
+   "RUE BERNARD BAROT ZAC DES LITTES 63111 MUR-SUR-ALLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843353665",
+  "sirets": [
+   "84335366500022"
+  ],
+  "osm": [],
+  "lat": 45.784353992,
+  "lon": 3.2533218741,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:992935221",
+  "nom": "HAGALAZ BREWING CO",
+  "communes": [
+   "CEYRAT"
+  ],
+  "departement": "63",
+  "adresses": [
+   "RUE DE JOURNIAT 63122 CEYRAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "992935221",
+  "sirets": [
+   "99293522100018"
+  ],
+  "osm": [],
+  "lat": 45.7458263712668,
+  "lon": 3.06752376705875,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13702345820",
+  "nom": "Brasserie des Montagnes",
+  "communes": [
+   "Gelles"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13702345820"
+  ],
+  "lat": 45.77627,
+  "lon": 2.75733,
+  "site": "https://www.brasseriedesmontagnes.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/1804850834",
+  "nom": "Bières le Plan B",
+  "communes": [
+   "Chamalières"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/1804850834"
+  ],
+  "lat": 45.76718,
+  "lon": 3.08293,
+  "site": "http://www.bieres-leplanb.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9934130694",
+  "nom": "L'Artense",
+  "communes": [
+   "Saint-Sauves-d'Auvergne"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9934130694"
+  ],
+  "lat": 45.60893,
+  "lon": 2.6951,
+  "site": "http://lartensebrasserie.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/150209158",
+  "nom": "Brasserie des Sagnes",
+  "communes": [
+   "Saint-Éloy-les-Mines"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/150209158"
+  ],
+  "lat": 46.13871,
+  "lon": 2.86071,
+  "site": "https://brasserie-des-sagnes.eproshopping.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DES SAGNES"
+ }
+]

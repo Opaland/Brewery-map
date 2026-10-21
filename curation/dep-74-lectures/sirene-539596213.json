@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:539596213",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Vallée du Giffre",
+   "c": "Verchaix",
+   "d": "74",
+   "lat": 46.09172,
+   "lon": 6.6706,
+   "km": 155.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente sur place et boutique, d'après l'office de tourisme ; son site n'annonce que des dégustations de groupe sur demande.",
+   "addr": "331 ZA de l'Épure, 74440 Verchaix",
+   "src": "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-de-la-vallee-du-giffre-verchaix-fr-5866478/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 89 16 63",
+    "site": "https://brasseriedugiffre.com/",
+    "source": "https://brasseriedugiffre.com/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedugiffre.com/",
+     "mar": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://hautesavoiemontblanc-tourisme.com/offres/brasserie-de-la-vallee-du-giffre-verchaix-fr-5866478/",
+   "https://brasseriedugiffre.com/",
+   "https://data.geopf.fr/geocodage/search?q=331+ZA+de+l%27%C3%89pure%2C+74440+Verchaix&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Catégorie 2 : la dégustation ouverte à tous n'est pas établie. Horaires du site, sans période ; ceux de l'office (été 2026) sont écartés. Téléphone du site."
+ }
+}

@@ -1,0 +1,355 @@
+[
+ {
+  "cle": "sirene:818835555",
+  "nom": "3.AS",
+  "communes": [
+   "DIOU",
+   "SALIGNY-SUR-ROUDON"
+  ],
+  "departement": "03",
+  "adresses": [
+   "LE CLUZIAUD 03290 DIOU",
+   "LAFAY 03470 SALIGNY-SUR-ROUDON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818835555",
+  "sirets": [
+   "81883555500017",
+   "81883555500025"
+  ],
+  "osm": [],
+  "lat": 46.529363188,
+  "lon": 3.7717173424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900444589",
+  "nom": "BRASSERIE LA COMETE",
+  "communes": [
+   "VICHY"
+  ],
+  "departement": "03",
+  "adresses": [
+   "20 RUE DU LANGUEDOC 03200 VICHY",
+   "10 AVENUE DE LYON 03200 VICHY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900444589",
+  "sirets": [
+   "90044458900015",
+   "90044458900023"
+  ],
+  "osm": [],
+  "lat": 46.119495598,
+  "lon": 3.4289855441,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "NASSIGNY"
+  ],
+  "departement": "03",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "THIEL-SUR-ACOLIN"
+  ],
+  "departement": "03",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:841354731",
+  "nom": "BRASSERIE - JNT",
+  "communes": [
+   "VALLON-EN-SULLY"
+  ],
+  "departement": "03",
+  "adresses": [
+   "8 CHEMIN DE L'OYARD 03190 VALLON-EN-SULLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841354731",
+  "sirets": [
+   "84135473100017"
+  ],
+  "osm": [],
+  "lat": 46.533450234,
+  "lon": 2.6016938739,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893620393",
+  "nom": "LA MOUSSE BOURBONNAISE",
+  "communes": [
+   "AVERMES"
+  ],
+  "departement": "03",
+  "adresses": [
+   "44 ROUTE DE PARIS 03000 AVERMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893620393",
+  "sirets": [
+   "89362039300015"
+  ],
+  "osm": [],
+  "lat": 46.5824094461521,
+  "lon": 3.32045441238066,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:941002438",
+  "nom": "MOUSS'O'NEZ",
+  "communes": [
+   "COLOMBIER"
+  ],
+  "departement": "03",
+  "adresses": [
+   "12 IMPASSE DE CHIERLOUX 03600 COLOMBIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941002438",
+  "sirets": [
+   "94100243800013"
+  ],
+  "osm": [],
+  "lat": 46.262245879401,
+  "lon": 2.78560017687412,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CINDRE"
+  ],
+  "departement": "03",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:840539456",
+  "nom": "LA BRASSERIE DU JUGEMENT DERNIER",
+  "communes": [
+   "MAZERIER"
+  ],
+  "departement": "03",
+  "adresses": [
+   "15 ALLEE MADAME DE SEVIGNE 03800 MAZERIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840539456",
+  "sirets": [
+   "84053945600011"
+  ],
+  "osm": [
+   "node/7568278437"
+  ],
+  "lat": 46.130335108,
+  "lon": 3.1928992683,
+  "site": "https://jugementdernier.beer/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829613942",
+  "nom": "LA BRASSERIE DU LOUP",
+  "communes": [
+   "LE VEURDRE"
+  ],
+  "departement": "03",
+  "adresses": [
+   "23 RTE DE BOURBON 03320 LE VEURDRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829613942",
+  "sirets": [
+   "82961394200012"
+  ],
+  "osm": [],
+  "lat": 46.75536901,
+  "lon": 3.0394630829,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904232964",
+  "nom": "CH HOP TI",
+  "communes": [
+   "CRESSANGES"
+  ],
+  "departement": "03",
+  "adresses": [
+   "5 RUE DU COMMERCE 03240 CRESSANGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904232964",
+  "sirets": [
+   "90423296400018"
+  ],
+  "osm": [],
+  "lat": 46.445173268,
+  "lon": 3.1588014399,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848570289",
+  "nom": "BREW-VERNET",
+  "communes": [
+   "BROUT-VERNET"
+  ],
+  "departement": "03",
+  "adresses": [
+   "9 RUE DE LA CROIX-ROUGE 03110 BROUT-VERNET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "848570289",
+  "sirets": [
+   "84857028900019"
+  ],
+  "osm": [
+   "way/391271892"
+  ],
+  "lat": 46.187492857,
+  "lon": 3.2713070264,
+  "site": "https://brasserie-brewvernet.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BACK INSTA MALT",
+  "communes": [
+   "VARENNES SUR ALLIER"
+  ],
+  "departement": "03",
+  "adresses": [
+   "21 RUE DU QUATRE SEPTEMBRE 03150 VARENNES SUR ALLIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/10865053092"
+  ],
+  "site": "https://www.brasseriebackinmalt.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "LADY ALE",
+  "communes": [
+   "SAINT-POURCAIN-SUR-SIOULE"
+  ],
+  "departement": "03",
+  "adresses": [
+   "24 FAUBOURG DE PARIS 03500 SAINT-POURCAIN-SUR-SIOULE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10929096211",
+  "nom": "Brasserie du pèreSaint'Oy",
+  "communes": [
+   "Diou"
+  ],
+  "departement": "03",
+  "adresses": [
+   "1 Chemin du Cluziaud, 03290 Diou"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10929096211"
+  ],
+  "lat": 46.5327,
+  "lon": 3.76821,
+  "site": "https://www.lasaintoy.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9459121056",
+  "nom": "Café Rétro",
+  "communes": [
+   "Bressolles"
+  ],
+  "departement": "03",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9459121056"
+  ],
+  "lat": 46.54005,
+  "lon": 3.34349,
+  "statut": "nouveau"
+ }
+]

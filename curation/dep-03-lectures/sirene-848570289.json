@@ -1,0 +1,78 @@
+{
+ "candidat": "sirene:848570289",
+ "ajout": {
+  "fiche": {
+   "n": "Brew-Vernet",
+   "c": "Broût-Vernet",
+   "d": "03",
+   "lat": 46.18751,
+   "lon": 3.27133,
+   "km": 128.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Les bières s'achètent à la brasserie, d'après son site, qui invite aussi à venir la découvrir et déguster ses bières aux heures d'ouverture.",
+   "addr": "9 rue de la Croix Rouge, 03110 Broût-Vernet",
+   "src": "https://brasserie-brewvernet.fr/points-de-vente/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 82 00 74 22",
+    "site": "https://brasserie-brewvernet.fr/",
+    "source": "https://brasserie-brewvernet.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-brewvernet.fr/",
+     "lun": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Pour découvrir la brasserie et déguster les bières, d'après la page d'accueil.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserie-brewvernet.fr/points-de-vente/",
+   "https://brasserie-brewvernet.fr/",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+de+la+Croix+Rouge%2C+03110+Bro%C3%BBt-Vernet&limit=5"
+  ],
+  "extrait": "Retrouver les bières Brew Vernet dans les points de vente locaux, ou directement à la Brasserie de Brout-Vernet.",
+  "choix": "Catégorie 2 : la vente est écrite ; la dégustation reste vague. Seule ligne publiée : un portable, retenu. Horaires d'accueil de la page d'accueil. Pas d'Untappd."
+ }
+}

@@ -1,0 +1,468 @@
+[
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "LA BANNE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "63",
+   "communes": [
+    "MURAT-LE-QUAIRE",
+    "MONT-DORE"
+   ],
+   "adresses": [
+    "IMPASSE DE LA FUMADE 63150 MURAT-LE-QUAIRE",
+    "3 PLACE DU PANTHEON 63240 MONT-DORE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898012034",
+   "enseigne": "BRASSERIE DU SANCY",
+   "dep": "63",
+   "communes": [
+    "BESSE ET SAINT ANASTAISE",
+    "BESSE-ET-SAINT-ANASTAISE"
+   ],
+   "adresses": [
+    "TRABANTOUX 63610 BESSE ET SAINT ANASTAISE",
+    "RUE DE LA TOUR D'AUVERGNE 63610 BESSE-ET-SAINT-ANASTAISE"
+   ],
+   "osm": [
+    "node/13810536073"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DES MONTAGNES EIRL ROUDAIRE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "63",
+   "communes": [
+    "GELLES"
+   ],
+   "adresses": [
+    "LES QUINTINS 63740 GELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812619005",
+   "enseigne": "O BIERES",
+   "dep": "63",
+   "communes": [
+    "CLERMONT-FERRAND"
+   ],
+   "adresses": [
+    "6 RUE NICOLAS-JOSEPH CUGNOT 63100 CLERMONT-FERRAND"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:814876777",
+   "enseigne": "BRASSERIE D ISSOIRE, LES COUZINES",
+   "dep": "63",
+   "communes": [
+    "ISSOIRE"
+   ],
+   "adresses": [
+    "8 IMPASSE EMILE ZOLA 63500 ISSOIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:900026436",
+   "enseigne": "BIERE DU SANCY",
+   "dep": "63",
+   "communes": [
+    "PICHERANDE"
+   ],
+   "adresses": [
+    "LIEU DIT RAVEL 63113 PICHERANDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822060109",
+   "enseigne": "MICROBRASSERIE DE L'ECUREUIL",
+   "dep": "63",
+   "communes": [
+    "SAUXILLANGES"
+   ],
+   "adresses": [
+    "LD LES CHASSAGNES 63490 SAUXILLANGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980078281",
+   "enseigne": "RODIL MICROBRASSERIE",
+   "dep": "63",
+   "communes": [
+    "MARINGUES"
+   ],
+   "adresses": [
+    "CHAMP MOUTIER 63350 MARINGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831675335",
+   "enseigne": "LE BRASSEUR ARVERNE",
+   "dep": "63",
+   "communes": [
+    "RIOM"
+   ],
+   "adresses": [
+    "10 RUE AMABLE FAUCON 63200 RIOM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840289334",
+   "enseigne": "BRASSERIE FORNABERA",
+   "dep": "63",
+   "communes": [
+    "SAINT-AMANT-ROCHE-SAVINE"
+   ],
+   "adresses": [
+    "FOURNIER 63890 SAINT-AMANT-ROCHE-SAVINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:877894741",
+   "enseigne": "BRASSERIE NK",
+   "dep": "63",
+   "communes": [
+    "TEILHEDE"
+   ],
+   "adresses": [
+    "RUE DU PUY DE MONTAURY 63460 TEILHEDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908623580",
+   "enseigne": "POTINGA",
+   "dep": "63",
+   "communes": [
+    "CLERMONT-FERRAND"
+   ],
+   "adresses": [
+    "13 RUE DU PORT 63000 CLERMONT-FERRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:913987202",
+   "enseigne": "BRASSERIE DU VALHALLA",
+   "dep": "63",
+   "communes": [
+    "PONTAUMUR"
+   ],
+   "adresses": [
+    "47 AVENUE DU PONT 63380 PONTAUMUR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:904722881",
+   "enseigne": "ARTULE",
+   "dep": "63",
+   "communes": [
+    "RIOM"
+   ],
+   "adresses": [
+    "14 RUE MARENGO 63200 RIOM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922439310",
+   "enseigne": "LA COCOTTE MALTEE",
+   "dep": "63",
+   "communes": [
+    "AUBIERE"
+   ],
+   "adresses": [
+    "9 RUE DE ROMAGNAT 63170 AUBIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:801438946",
+   "enseigne": "ATELIER DU MALT",
+   "dep": "63",
+   "communes": [
+    "COURPIERE"
+   ],
+   "adresses": [
+    "12 RUE DE VALETTE 63120 COURPIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924568884",
+   "enseigne": "TEARS PROJECT",
+   "dep": "63",
+   "communes": [
+    "RIOM"
+   ],
+   "adresses": [
+    "134 RUE DU CREUX 63200 RIOM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922733126",
+   "enseigne": "KAZAN CRAFTBEER",
+   "dep": "63",
+   "communes": [
+    "CHAMALIERES"
+   ],
+   "adresses": [
+    "3 RUE DU PONT DE LA GRAVIERE 63400 CHAMALIERES"
+   ],
+   "osm": [
+    "node/11310220269"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821647781",
+   "enseigne": "BRASSERIE DES SAGNES",
+   "dep": "63",
+   "communes": [
+    "MENAT"
+   ],
+   "adresses": [
+    "LD LA BOULE 63560 MENAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852531227",
+   "enseigne": "BRASSE BAND",
+   "dep": "63",
+   "communes": [
+    "CLERMONT-FERRAND"
+   ],
+   "adresses": [
+    "APPART 403 42 BOULEVARD COTE BLATIN 63000 CLERMONT-FERRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:898230438",
+   "enseigne": "DARK LAB BREWING",
+   "dep": "63",
+   "communes": [
+    "SAINT-OURS"
+   ],
+   "adresses": [
+    "LA COURTEIX 4 ROUTE DE LA VIA BORE 63230 SAINT-OURS"
+   ],
+   "osm": [
+    "node/13061456701"
+   ],
+   "site": "http://dark-lab.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921147187",
+   "enseigne": "LA BIERE DES FOUS",
+   "dep": "63",
+   "communes": [
+    "VOLVIC"
+   ],
+   "adresses": [
+    "3 RUE DERRIERE LE FOUR 63530 VOLVIC"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:902476985",
+   "enseigne": "BRASSERIE BOUGNAT",
+   "dep": "63",
+   "communes": [
+    "LEMPDES"
+   ],
+   "adresses": [
+    "15 RUE ERNEST JEAN BAPT 63370 LEMPDES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910244672",
+   "enseigne": "BORNA",
+   "dep": "63",
+   "communes": [
+    "PLAUZAT"
+   ],
+   "adresses": [
+    "5 PLACE DE LA CAVE MARC 63730 PLAUZAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813527967",
+   "enseigne": "MICROBRASSERIE BALM",
+   "dep": "63",
+   "communes": [
+    "LE BROC"
+   ],
+   "adresses": [
+    "42 LOTISSEMENT LE LAIRE 63500 LE BROC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:6",
+   "enseigne": "L IMPRO-  FRENETTE DU LEMBRONNAIS - (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "63",
+   "communes": [
+    "CHALUS"
+   ],
+   "adresses": [
+    "LE COUDERT CHEMIN SAINTE MADELEINE 63340 CHALUS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:985104736",
+   "enseigne": "BRASSERIE DES PUYS",
+   "dep": "63",
+   "communes": [
+    "CLERMONT-FERRAND"
+   ],
+   "adresses": [
+    "32 AVENUE DE LA LIBERATION 63000 CLERMONT-FERRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843353665",
+   "enseigne": "LE REVEIL DES VOLCANS",
+   "dep": "63",
+   "communes": [
+    "MUR-SUR-ALLIER"
+   ],
+   "adresses": [
+    "RUE BERNARD BAROT ZAC DES LITTES 63111 MUR-SUR-ALLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:992935221",
+   "enseigne": "HAGALAZ BREWING CO",
+   "dep": "63",
+   "communes": [
+    "CEYRAT"
+   ],
+   "adresses": [
+    "RUE DE JOURNIAT 63122 CEYRAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13702345820",
+   "enseigne": "Brasserie des Montagnes",
+   "dep": "63",
+   "communes": [
+    "Gelles"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13702345820"
+   ],
+   "site": "https://www.brasseriedesmontagnes.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/1804850834",
+   "enseigne": "Bières le Plan B",
+   "dep": "63",
+   "communes": [
+    "Chamalières"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/1804850834"
+   ],
+   "site": "http://www.bieres-leplanb.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9934130694",
+   "enseigne": "L'Artense",
+   "dep": "63",
+   "communes": [
+    "Saint-Sauves-d'Auvergne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9934130694"
+   ],
+   "site": "http://lartensebrasserie.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/150209158",
+   "enseigne": "Brasserie des Sagnes",
+   "dep": "63",
+   "communes": [
+    "Saint-Éloy-les-Mines"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/150209158"
+   ],
+   "site": "https://brasserie-des-sagnes.eproshopping.fr/",
+   "statut": "ambigu"
+  }
+ ]
+]

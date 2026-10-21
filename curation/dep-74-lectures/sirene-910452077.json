@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:910452077",
+ "ajout": {
+  "fiche": {
+   "n": "Outer Range Brewing Alps",
+   "c": "Sallanches",
+   "d": "74",
+   "lat": 45.94334,
+   "lon": 6.62883,
+   "km": 148.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Taproom ouvert tous les jours, avec café et restaurant, d’après son site ; il ne dit pas si l’on peut emporter.",
+   "addr": "531 rue du Capitaine Bulle, 74700 Sallanches",
+   "src": "https://outerrangealps.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://outerrangealps.com/",
+    "source": "https://outerrangealps.com/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://outerrangealps.com/",
+     "lun": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "mar": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Taproom. Café de 9 h à 18 h (10 h le week-end), restaurant de 12 h à 21 h 30.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://outerrangealps.com/",
+   "https://data.geopf.fr/geocodage/search?q=531+rue+du+Capitaine+Bulle%2C+74700+Sallanches&limit=5"
+  ],
+  "extrait": "Taproom: 12h-23h 7/7",
+  "choix": "Confiance moyenne : page non datée, vente à emporter non écrite. Aucun téléphone publié."
+ }
+}

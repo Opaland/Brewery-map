@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:534936182",
+ "ajout": {
+  "fiche": {
+   "n": "Ibex Brewery",
+   "c": "Montriond",
+   "d": "74",
+   "lat": 46.19708,
+   "lon": 6.69152,
+   "km": 160.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie de montagne dont le bar-restaurant The Wood Yard partage le bâtiment : on y boit la bière brassée sur place, d'après son site.",
+   "addr": "440 route du Pré, 74110 Montriond",
+   "src": "https://www.ibexbeer.com/the-wood-yard",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 45 22 15 93",
+    "site": "https://www.ibexbeer.com",
+    "source": "https://www.ibexbeer.com/the-wood-yard",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.ibexbeer.com/the-wood-yard",
+   "https://data.geopf.fr/geocodage/search?q=440+route+du+Pr%C3%A9%2C+74110+Montriond&limit=5"
+  ],
+  "extrait": "Sharing the building with our production brewery, The Wood Yard in Montriond is a relaxed place to enjoy a beer",
+  "choix": "Rattachée au candidat du registre par l'adresse seule ; le nom de la société n'est pas repris. Seule ligne publiée : un portable, retenu. Horaires renvoyés aux réseaux sociaux : non repris."
+ }
+}

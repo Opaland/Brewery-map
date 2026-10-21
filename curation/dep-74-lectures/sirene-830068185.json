@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:830068185",
+ "ajout": {
+  "fiche": {
+   "n": "Big Mountain Brewing Company",
+   "c": "Cluses",
+   "d": "74",
+   "lat": 46.07769,
+   "lon": 6.5717,
+   "km": 147.6,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe, d'après son site et l'office de tourisme ; l'office dit qu'elle n'ouvre pas au public et qu'elle est ouverte toute l'année : ce qu'on peut y faire n'est pas établi.",
+   "addr": "32 rue du Docteur Gallet, 74300 Cluses",
+   "src": "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.bigmtnbrew.co/fr/",
+    "source": "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.haute-savoie-tourisme.org/index.php/6935635-brasserie-big-mountain",
+   "https://data.geopf.fr/geocodage/search?q=32+rue+du+Docteur+Gallet%2C+74300+Cluses&limit=5"
+  ],
+  "extrait": "Les bières Big Mountain sont disponibles à l'achat sur internet et dans les supermarchés et restaurateurs locaux.",
+  "choix": "Catégorie 0 : source contradictoire. Le bar de Chamonix est un autre lieu. Aucun téléphone publié."
+ }
+}

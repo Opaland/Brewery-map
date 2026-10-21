@@ -1,0 +1,47 @@
+{
+ "candidat": "personne:4",
+ "ajout": {
+  "fiche": {
+   "n": "Back in Malt",
+   "c": "Varennes-sur-Allier",
+   "d": "03",
+   "lat": 46.31362,
+   "lon": 3.40169,
+   "km": 126.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières vendues à la boutique attenante à la production le vendredi en fin d'après-midi, sur commande le reste du temps, d'après son site.",
+   "addr": "21 rue du 4 septembre, 03150 Varennes-sur-Allier",
+   "src": "https://www.brasseriebackinmalt.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 65 14 52",
+    "site": "https://www.brasseriebackinmalt.fr/",
+    "source": "https://www.brasseriebackinmalt.fr/",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriebackinmalt.fr/",
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Hors de ce créneau, sur commande par téléphone.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.brasseriebackinmalt.fr/",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+du+4+septembre%2C+03150+Varennes-sur-Allier&limit=5"
+  ],
+  "extrait": "la proposer à la vente dans notre boutique, attenante à la partie production",
+  "choix": "Catégorie 2 : la dégustation n'est qu'annoncée. Confiance moyenne : le site annonce un accueil sur commande à partir de 2027. Seule ligne publiée : un portable, retenu. Entrepreneur individuel : aucun nom recopié."
+ }
+}

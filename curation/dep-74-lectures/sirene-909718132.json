@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:909718132",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Escargot",
+   "c": "Thyez",
+   "d": "74",
+   "lat": 46.07901,
+   "lon": 6.54209,
+   "km": 145.5,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Bières vendues à emporter ou livrées, d'après une fiche de l'office de tourisme de 2023 ; à confirmer auprès de la brasserie.",
+   "addr": "912 avenue Louis Coppel, 74300 Thyez",
+   "src": "https://www.haute-savoie-tourisme.org/index.php/5615265-brasserie-de-lescargot",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.haute-savoie-tourisme.org/index.php/5615265-brasserie-de-lescargot",
+   "https://data.geopf.fr/geocodage/search?q=912+avenue+Louis+Coppel%2C+74300+Thyez&limit=5"
+  ],
+  "extrait": "La Brasserie de l'escargot fabrique et vend des bières artisanales. En vente à emporter ou livraison, découvrez ses produits.",
+  "choix": "Confiance faible : une seule page, de 2023, sans site officiel ni Untappd. Rattachée au candidat du registre par l'adresse. Le seul numéro est un portable donné par l'office : écarté. Aucun horaire."
+ }
+}

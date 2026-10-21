@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:794865790",
+ "ajout": {
+  "fiche": {
+   "n": "Art Malté",
+   "c": "Annecy",
+   "d": "74",
+   "lat": 45.9196,
+   "lon": 6.12408,
+   "km": 109.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Cave et bar à bières artisanales, avec une petite fabrique, d'après l'office de tourisme (fiche ancienne) et son site.",
+   "addr": "1 boulevard Bellevue, 74000 Annecy",
+   "src": "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.artmalte.com",
+    "source": "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.haute-savoie-tourisme.org/index.php/613893-brasserie-art-malte",
+   "https://data.geopf.fr/geocodage/search?q=1+boulevard+Bellevue%2C+74000+Annecy&limit=5"
+  ],
+  "extrait": "Une cave et un bar dédiés aux bières artisanales locales.",
+  "choix": "Confiance faible : la fiche de l'office date de 2018. Adresse de la cave et du bar lue sur le site (artmalte.com/contact), plutôt que le 7 de l'office. Horaires contradictoires selon les sources : non repris. Seul numéro : un portable donné par l'office, pas par la brasserie : écarté. Même lieu que le point OSM « La petite fabrique »."
+ }
+}

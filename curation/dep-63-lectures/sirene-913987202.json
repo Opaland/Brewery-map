@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:913987202",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Valhalla",
+   "c": "Pontaumur",
+   "d": "63",
+   "lat": 45.86736,
+   "lon": 2.67138,
+   "km": 163,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières en vente à la boutique de la brasserie, d'après son site ; ni bar ni horaires publiés.",
+   "addr": "47 avenue du Pont, 63380 Pontaumur",
+   "src": "https://brasserie-du-valhalla.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 48 15 46 18",
+    "site": "https://brasserie-du-valhalla.fr",
+    "source": "https://brasserie-du-valhalla.fr",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserie-du-valhalla.fr",
+   "https://data.geopf.fr/geocodage/search?q=47+avenue+du+Pont%2C+63380+Pontaumur&limit=5"
+  ],
+  "extrait": "Vous pouvez retrouver nos bières directement en boutique à la Brasserie ou chez nos distributeurs.",
+  "choix": "Seule ligne publiée par la brasserie : un portable, retenu (règle du 21/10). Pas de page Untappd de la brasserie."
+ }
+}

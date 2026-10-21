@@ -1,0 +1,143 @@
+{
+ "candidat": "sirene:804199826",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Rochoise",
+   "c": "Amancy",
+   "d": "74",
+   "lat": 46.0746,
+   "lon": 6.314,
+   "km": 128.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Bières bio brassées sur place, avec un brewpub et une boutique de vente directe, d'après son site.",
+   "addr": "596 rue du Quarré, 74800 Amancy",
+   "src": "https://www.larochoise.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 07 57 78",
+    "site": "https://www.larochoise.com",
+    "source": "https://www.larochoise.com",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.larochoise.com",
+     "lun": [
+      [
+       "11:30",
+       "15:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mar": [
+      [
+       "11:30",
+       "15:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "11:30",
+       "15:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "11:30",
+       "15:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "11:30",
+       "00:00"
+      ]
+     ],
+     "remarque": "Bar et restaurant (brewpub).",
+     "verifieLe": "2026-10-21"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.larochoise.com",
+     "mar": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "19:00"
+      ]
+     ],
+     "remarque": "Boutique.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://www.larochoise.com",
+   "https://data.geopf.fr/geocodage/search?q=596+rue+du+Quarr%C3%A9%2C+74800+Amancy&limit=5"
+  ],
+  "extrait": "Un pub où l'on peut boire un coup, manger un burger",
+  "choix": "Horaires du bar et de la boutique lus sur le site ; le week-end du bar n'est pas indiqué. Une page Untappd au nom de « Pays Rochois » existe, non citée par le site."
+ }
+}

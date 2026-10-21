@@ -1,0 +1,130 @@
+[
+ {
+  "cle": "node/10929096211",
+  "n": "Brasserie du Père Saint'Oy",
+  "c": "Diou",
+  "adresse": "1 chemin du Cluziaud, 03290 Diou",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Vente directe sur simple appel en semaine ; visite, dégustation et vente sur rendez-vous le samedi matin, l’été, d’après son site.",
+  "src": "https://www.lasaintoy.fr/contact-1",
+  "extrait": "Visite, dégustation et vente sur RDV",
+  "beers": [],
+  "choix": "Catégorie 1, confiance moyenne : la dégustation n'a lieu que sur rendez-vous. Deux portables publiés, aucun fixe : celui marqué « Administratif / vente » est retenu (règle du 21/10). Le samedi 10 h-12 h vaut en saison estivale, sans dates écrites : en remarque. Même entreprise que le candidat « 3.AS » (SIRET en pied de page du site). Pas d'Untappd trouvé. Aucun créneau repris : tout se fait sur appel ou sur rendez-vous (revue de la persona).",
+  "contact": {
+   "tel": "06 24 55 89 61",
+   "site": "https://www.lasaintoy.fr/",
+   "source": "https://www.lasaintoy.fr/contact-1"
+  }
+ },
+ {
+  "cle": "sirene:840539456",
+  "n": "Brasserie du Jugement Dernier",
+  "c": "Mazerier",
+  "adresse": "15 allée Madame de Sévigné, 03800 Mazerier",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique en semaine de 17 h à 19 h 30, sur SMS ; visite commentée le mercredi sur réservation, d’après son site. Aucune dégustation citée.",
+  "src": "https://jugementdernier.beer/",
+  "extrait": "Pour acheter nos bières, RDV à la brasserie.",
+  "beers": [],
+  "choix": "Deux portables publiés, aucun fixe : le premier de la liste est retenu (règle du 21/10). Confiance moyenne : la boutique fonctionne sur SMS. L'office de tourisme donne 17 h-19 h au lieu de 17 h-19 h 30 : le site est retenu. Pas d'Untappd. Créneaux sur SMS : laissés dans la note, pas en horaires (revue de la persona).",
+  "contact": {
+   "tel": "06 77 76 17 03",
+   "site": "https://jugementdernier.beer/",
+   "source": "https://jugementdernier.beer/"
+  }
+ },
+ {
+  "cle": "sirene:848570289",
+  "n": "Brew-Vernet",
+  "c": "Broût-Vernet",
+  "adresse": "9 rue de la Croix Rouge, 03110 Broût-Vernet",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Les bières s'achètent à la brasserie, d'après son site, qui invite aussi à venir la découvrir et déguster ses bières aux heures d'ouverture.",
+  "src": "https://brasserie-brewvernet.fr/points-de-vente/",
+  "extrait": "Retrouver les bières Brew Vernet dans les points de vente locaux, ou directement à la Brasserie de Brout-Vernet.",
+  "beers": [],
+  "choix": "Catégorie 2 : la vente est écrite ; la dégustation reste vague. Seule ligne publiée : un portable, retenu. Horaires d'accueil de la page d'accueil. Pas d'Untappd.",
+  "contact": {
+   "tel": "07 82 00 74 22",
+   "site": "https://brasserie-brewvernet.fr/",
+   "source": "https://brasserie-brewvernet.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mar": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Pour découvrir la brasserie et déguster les bières, d'après la page d'accueil.",
+    "source": "https://brasserie-brewvernet.fr/"
+   }
+  ]
+ },
+ {
+  "cle": "personne:4",
+  "n": "Back in Malt",
+  "c": "Varennes-sur-Allier",
+  "adresse": "21 rue du 4 septembre, 03150 Varennes-sur-Allier",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières vendues à la boutique attenante à la production le vendredi en fin d'après-midi, sur commande le reste du temps, d'après son site.",
+  "src": "https://www.brasseriebackinmalt.fr/",
+  "extrait": "la proposer à la vente dans notre boutique, attenante à la partie production",
+  "beers": [],
+  "choix": "Catégorie 2 : la dégustation n'est qu'annoncée. Confiance moyenne : le site annonce un accueil sur commande à partir de 2027. Seule ligne publiée : un portable, retenu. Entrepreneur individuel : aucun nom recopié.",
+  "contact": {
+   "tel": "06 84 65 14 52",
+   "site": "https://www.brasseriebackinmalt.fr/",
+   "source": "https://www.brasseriebackinmalt.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Hors de ce créneau, sur commande par téléphone.",
+    "source": "https://www.brasseriebackinmalt.fr/"
+   }
+  ]
+ }
+]

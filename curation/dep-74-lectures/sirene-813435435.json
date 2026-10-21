@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:813435435",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Adennes",
+   "c": "Saint-Julien-en-Genevois",
+   "d": "74",
+   "lat": 46.15133,
+   "lon": 6.08962,
+   "km": 116.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub ouvert le jeudi et le vendredi soir, d’après son site ; il ne dit pas si l’on peut emporter.",
+   "addr": "33 avenue de Genève, 74160 Saint-Julien-en-Genevois",
+   "src": "https://brasserie-adennes.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 50 38 15 15",
+    "site": "https://brasserie-adennes.com",
+    "source": "https://brasserie-adennes.com",
+    "verifieLe": "2026-10-21"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-adennes.com",
+     "jeu": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "01:00"
+      ]
+     ],
+     "remarque": "Brewpub.",
+     "verifieLe": "2026-10-21"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserie-adennes.com",
+   "https://data.geopf.fr/geocodage/search?q=33+avenue+de+Gen%C3%A8ve%2C+74160+Saint-Julien-en-Genevois&limit=5"
+  ],
+  "extrait": "Brewpub : Jeudi (16h-0h) & vendredi (16h à 1h)",
+  "choix": "Horaires du brewpub sur le site ; ceux de l'office (vendredi seul) le contredisent : le site est retenu. Le numéro suisse de l'office est écarté. Pas d'Untappd."
+ }
+}

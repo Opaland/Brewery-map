@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:877894741",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie NK",
+   "c": "Teilhède",
+   "d": "63",
+   "lat": 45.96284,
+   "lon": 3.0565,
+   "km": 135.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub et vente de sa production, d'après son site ; pas d'horaires publiés.",
+   "addr": "Champs Saint-Pierre, 63460 Teilhède",
+   "src": "https://brasserienk.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 73 66 19 15",
+    "site": "https://brasserienk.fr",
+    "source": "https://brasserienk.fr",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://brasserienk.fr",
+   "https://data.geopf.fr/geocodage/search?q=Teilh%C3%A8de&type=municipality&limit=5"
+  ],
+  "extrait": "Envie de déguster une bière artisanale dans un endroit atypique & un lieu décalé?",
+  "choix": "Le fixe du pied de page retenu ; deux portables de l'office écartés. Une page Untappd existe (brasserie-nk), non citée par le site. Horaires de l'office non datés : non repris."
+ }
+}
