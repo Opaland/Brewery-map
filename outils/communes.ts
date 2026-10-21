@@ -12,13 +12,15 @@
  *   est injoignable depuis l'environnement de développement.
  *
  * Une commune sans point dans Wikidata est écartée, et comptée dans la sortie
- * de l'outil : rien n'est inventé.
+ * de l'outil : rien n'est inventé. Les points s'y lisent par
+ * `lirePointsWikidata` (S325 : notation scientifique près du méridien).
  *
  * Usage : `npx tsx outils/communes.ts` (réseau requis ; une requête par
  * seconde environ, quelques minutes).
  */
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { lirePointsWikidata } from '../src/core/wikidata'
 import { fetchCompte } from './requetes'
 
 interface CommuneEtalab {
@@ -37,7 +39,7 @@ async function pointsDuDepartement(dep: string): Promise<Map<string, [number, nu
   // ORDER BY : une commune à plusieurs points garde toujours le même, d'un
   // lancement à l'autre (revue code S21).
   const requete = `SELECT ?insee ?coord WHERE { ?item wdt:P31 wd:Q484170 ; wdt:P374 ?insee ; wdt:P625 ?coord . FILTER(STRSTARTS(?insee, "${dep}")) } ORDER BY ?insee ?coord`
-  return lirePoints(await demander(requete, `le département ${dep}`))
+  return lirePointsWikidata(await demander(requete, `le département ${dep}`))
 }
 
 /**
@@ -55,15 +57,6 @@ async function demander(requete: string, quoi: string): Promise<string> {
   throw new Error(`Wikidata ne répond pas pour ${quoi}`)
 }
 
-function lirePoints(csv: string): Map<string, [number, number]> {
-  const points = new Map<string, [number, number]>()
-  for (const ligne of csv.split('\n').slice(1)) {
-    const m = /^([0-9AB]{5}),Point\(([-\d.]+) ([-\d.]+)\)/.exec(ligne.trim())
-    if (m?.[1] !== undefined && !points.has(m[1])) points.set(m[1], [Number(m[3]), Number(m[2])])
-  }
-  return points
-}
-
 /**
  * Seconde passe, par code et sans filtre de type : une commune typée
  * autrement dans Wikidata (commune nouvelle, commune déléguée…) échappait à
@@ -77,7 +70,7 @@ async function pointsParCode(codes: string[]): Promise<Map<string, [number, numb
       .map((c) => `"${c}"`)
       .join(' ')
     const requete = `SELECT ?insee ?coord WHERE { VALUES ?insee { ${valeurs} } ?item wdt:P374 ?insee ; wdt:P625 ?coord . } ORDER BY ?insee ?coord`
-    for (const [code, p] of lirePoints(await demander(requete, 'la seconde passe'))) {
+    for (const [code, p] of lirePointsWikidata(await demander(requete, 'la seconde passe'))) {
       if (!points.has(code)) points.set(code, p)
     }
     await new Promise((fin) => setTimeout(fin, 1000))

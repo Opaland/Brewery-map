@@ -61,10 +61,13 @@ export function lireElementOverpass(e: ElementOverpass): BrasserieOsmBrute | nul
   const lat = e.lat ?? e.center?.lat
   const lon = e.lon ?? e.center?.lon
   if (nom === undefined || lat === undefined || lon === undefined) return null
-  const cp = texte(tags['addr:postcode'])
-  const ville = texte(tags['addr:city'])
-  const pays = texte(tags['addr:country'])
-  const rue = [texte(tags['addr:housenumber']), texte(tags['addr:street'])].filter(Boolean).join(' ')
+  // `addr:*`, sinon `contact:*` : les deux écritures existent dans OSM
+  // (S324 : node/13136838136 a perdu son adresse le 18/10 en changeant d'écriture).
+  const adr = (cle: string) => texte(tags[`addr:${cle}`]) ?? texte(tags[`contact:${cle}`])
+  const cp = adr('postcode')
+  const ville = adr('city')
+  const pays = adr('country')
+  const rue = [adr('housenumber'), adr('street')].filter(Boolean).join(' ')
   const lieu = [cp, ville].filter(Boolean).join(' ')
   const site = siteSur(tags['website'] ?? tags['contact:website'])
   return {

@@ -492,11 +492,25 @@ L'inventaire, avec les idées écartées et leur raison : `docs/DEPOTS-FRERES.md
 | S305 | Les chiffres faux, et un test qui compare les chiffres écrits aux données (T1 à T6) | idem |
 | S306 | Crochets et CI : `ci.yml` seul pour l'état de `main`, commit non contournable, garde de `data/` et audit dans la porte locale, pas de nouvel essai en CI (C1 à C4) | idem |
 
+### E30 — Ce que le PC connecté débloque *(persona : Cédric ; demande du 21/10 : « les tâches qui nécessitent un PC connecté à internet (là où tu avais des blocages sur le conteneur cloud) »)* **[C]** pour S326 à S328
+
+Recensé le 21/10 (revue de reprise) ; joint depuis le PC fixe le même jour :
+SIRENE, BAN, `geo.api.gouv.fr`, Untappd, Google, le miroir Overpass. Le
+serveur Overpass principal refuse l'usage automatisé (S324).
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S324 | La couche OpenStreetMap réextraite (l'extrait datait du 16/10) ; le refus du serveur principal écrit | `docs/CONTINUITE.md` (« pas de repli éprouvé ») |
+| S325 | Les huit communes sans point : une longitude en notation scientifique, mal lue | S21 (« 9 communes sans point ») |
+| S326 | Le registre relancé pour les 7 fiches sans réponse ; les sites injoignables ou en 403 relus depuis le poste | `curation/registre-2026-10-19.md`, lots `dep-*` |
+| S327 | Les 19 candidats « À relancer » (Bretagne 12, Indre-et-Loire 7) | `curation/dep-35.md`, `dep-56.md`, `dep-37.md` ; S250 |
+| S328 | Le Centre-Val de Loire hors Indre-et-Loire (45, 41, 18, 36, 28) : candidats et propositions | `docs/stories/S271.md` |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30).
 
 ## Ordre d'exécution
 
