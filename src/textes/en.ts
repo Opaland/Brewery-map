@@ -398,6 +398,7 @@ export const EN: Readonly<Record<string, string>> = {
   "les horaires": "the opening hours",
   "Lu sur ": "Read on ",
   " le {date}": ", {date}",
+  " (sans date de lecture)": " (no reading date)",
   " Site indiqué par OpenStreetMap : ": " Website given by OpenStreetMap: ",
   "Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.": "They may have changed since: the source does not say how long they apply.",
   " : ": ": ",

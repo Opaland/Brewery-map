@@ -149,8 +149,8 @@ export function Provenance({ brasserie }: { brasserie: Brasserie }) {
               const dates = new Set(datees.map((l) => l.date))
               const lien = <LienExterne href={g.url}>{g.hote}</LienExterne>
               // Une seule date pour tout ce qui a été lu sur ce site : dite une
-              // fois. Sinon, chaque lecture datée avec sa date ; une lecture
-              // sans date n'en reçoit pas d'une autre (revue adverse S312).
+              // fois. Sinon, chaque lecture, avec sa date si elle en a une ;
+              // une lecture sans date n'en reçoit pas d'une autre (revue adverse S312).
               const uneDate = dates.size === 1 && datees.length === g.lectures.length
               return (
                 <span key={g.hote}>
@@ -171,8 +171,13 @@ export function Provenance({ brasserie }: { brasserie: Brasserie }) {
                       {t('Lu sur ')}
                       {lien}
                       {t(' : ')}
-                      {datees.map((l, j) => (
-                        <span key={l.quoi}>
+                      {/* Chaque lecture, datée ou non : une non datée d'un site
+                          qui en a une datée disparaissait (S331). Les datées
+                          d'abord, la non datée le dit : « la fiche, les
+                          horaires le 18 octobre » prêtait la date à la fiche
+                          (revue Hugo S331). */}
+                      {[...datees, ...g.lectures.filter((l) => l.date === undefined)].map((l, j) => (
+                        <span key={`${l.quoi}-${l.date ?? ''}`}>
                           {j > 0 && ', '}
                           {/* La page précise, quand ce n'est pas celle du site
                               (revue adverse S312 : le lien du contact se perdait). */}
@@ -181,7 +186,9 @@ export function Provenance({ brasserie }: { brasserie: Brasserie }) {
                           ) : (
                             <LienExterne href={l.url}>{CE_QUI_EST_LU[l.quoi]()}</LienExterne>
                           )}
-                          {t(' le {date}', { date: libelleVerification(l.date) })}
+                          {l.date !== undefined
+                            ? t(' le {date}', { date: libelleVerification(l.date) })
+                            : t(' (sans date de lecture)')}
                         </span>
                       ))}
                     </>

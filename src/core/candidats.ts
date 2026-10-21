@@ -4,6 +4,7 @@ import { classerCandidats, coeurDuNom, type CandidatClasse, type CandidatOsm } f
 import { BRIGNAIS, distanceKm } from './distance'
 import { normaliser } from './recherche'
 import type { Brasserie } from './schema'
+import { departementDuCodePostal } from './code-postal'
 
 /**
  * L'outil « département » (S246, epic E25). Ce module ne lit pas le réseau :
@@ -84,7 +85,7 @@ export function candidatsDuDepartement(
       cle: `sirene:${siren}`,
       nom: nomDeLEntreprise(etabs),
       communes: [...new Set(etabs.map((e) => e.commune))],
-      departement: premier.codePostal.slice(0, 2),
+      departement: departementDuCodePostal(premier.codePostal),
       adresses: [...new Set(etabs.map((e) => e.adresse))],
       sources: ['sirene'],
       personne: etabs.some((e) => e.entrepreneurIndividuel !== false),
