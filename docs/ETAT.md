@@ -11,7 +11,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
   hors connexion, anglais, accessibilité mesurée (S1 → S295).
 - 348 fiches dans `data/` (Rhône-Alpes, Normandie, Bretagne, Pays de la
-  Loire, Indre-et-Loire), et 878 points OpenStreetMap « À confirmer ».
+  Loire, Indre-et-Loire), et 880 points OpenStreetMap « À confirmer ».
 - La règle du 18/10 (« site officiel + contrôlé ») appliquée :
   `docs/DECISIONS.md`.
 

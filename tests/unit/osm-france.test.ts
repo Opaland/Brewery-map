@@ -57,6 +57,39 @@ describe('lireElementOverpass (S25)', () => {
     })
   })
 
+  // S324 : étiquettes réelles de node/13136838136, version 3 du 18/10/2026 ;
+  // l'adresse y est passée de `addr:*` à `contact:*`, et la couche la perdait.
+  it('une adresse écrite en contact:* se lit comme en addr:*', () => {
+    const c = lireElementOverpass({
+      type: 'node',
+      id: 13136838136,
+      lat: 46.75,
+      lon: 2.17,
+      tags: {
+        'contact:city': 'Lignières',
+        'contact:housenumber': '33',
+        'contact:postcode': '18160',
+        'contact:street': 'Rue Maréchal Joffre',
+        craft: 'brewery',
+        name: "Brasserie artisanale de l'Atelier 235",
+      },
+    })
+    expect(c?.adresse).toBe('33 Rue Maréchal Joffre, 18160 Lignières')
+    expect(c?.cp).toBe('18160')
+    expect(c?.ville).toBe('Lignières')
+  })
+
+  it('addr:* l’emporte sur contact:* quand les deux sont écrits', () => {
+    const c = lireElementOverpass({
+      type: 'node',
+      id: 3,
+      lat: 1,
+      lon: 1,
+      tags: { name: 'B', 'addr:city': 'Lyon', 'contact:city': 'Villeurbanne' },
+    })
+    expect(c?.ville).toBe('Lyon')
+  })
+
   it('un chemin : son centre', () => {
     const c = lireElementOverpass({
       type: 'way',

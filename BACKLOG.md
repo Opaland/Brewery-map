@@ -45,6 +45,14 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Revue du 21/10 (S324)
+
+- **Un point OSM renommé perd ses favoris.** « 3 Brasseurs (Poitiers) » est
+  devenu « 3 Brasseurs » à la réextraction du 21/10 (`nomsUniques` : son
+  homonyme a quitté la couche). L'identité tient au nom : un favori posé
+  sous l'ancien nom est un orphelin. Même cause que S231 (identifiant
+  stable, décision de Cédric).
+
 ## Constats sur `data/breweries.json` (relevés le 15/10, sans modification)
 
 > **Chiffres du 15/10, sur 166 lignes.** Le fichier en compte 358 au

@@ -2897,3 +2897,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S323 — Les adresses autour de Lyon, quatrième lot *(20/10)*
 
 `docs/stories/S323.md`. 12 fiches (84 à 97 km), 7 propositions dans `curation/s323-adresses-lyon-4` : trois adresses, une note, une fermée d'après SIRENE, deux déménagements (S322). En attente de Cédric.
+
+## S324–S325 — Ce que le PC connecté débloque, premier sprint *(21/10, epic E30)*
+
+`docs/stories/S324.md`, `S325.md`. Demande de Cédric du 21/10. La couche OSM réextraite par le miroir français (878 → 880 points ; le serveur principal refuse l'usage automatisé, écrit dans `docs/CONTINUITE.md`) ; `contact:*` lu comme `addr:*` (55 adresses gagnées, vu par la revue adverse sur l'Atelier 235). Les huit communes sans point l'étaient à cause d'une longitude en notation scientifique, mal lue (`src/core/wikidata.ts`) : 34 968 communes. `data/` intact.
