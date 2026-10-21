@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:920802345",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Kapsyl",
+   "c": "Chambray-lès-Tours",
+   "d": "37",
+   "lat": 47.3453,
+   "lon": 0.72846,
+   "km": 359.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Nanobrasserie de Chambray-lès-Tours, d'après sa page Untappd ; rien d'établi sur la vente ou l'accueil.",
+   "addr": "19 rue Jean Perrin, 37170 Chambray-lès-Tours",
+   "src": "https://untappd.com/BrasserieKapsyl",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "untappd": "https://untappd.com/BrasserieKapsyl",
+    "source": "https://untappd.com/BrasserieKapsyl",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://untappd.com/BrasserieKapsyl",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+Jean+Perrin%2C+37170+Chambray-l%C3%A8s-Tours&limit=5"
+  ],
+  "extrait": "Brasserie Kapsyl — Chambray-lès-Tours, Centre-Val de Loire France — Nano Brewery",
+  "choix": "Seule source de la brasserie : sa page Untappd (67 bières). Pas de site officiel (le lien d'Untappd mène à Instagram). Adresse : celle du registre (19 rue Jean Perrin) ; un annuaire dit « 19 bis ». Aucun téléphone ni horaire publié."
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "lot": "s326-relues-du-poste",
+ "propositions": [
+  {
+   "n": "Brasserie de la Divatte",
+   "changements": {
+    "cat": 1,
+    "conf": "faible",
+    "note": "Bar et boutique ouverts le lundi soir, le vendredi soir et le samedi après-midi ; visite de la brasserie (production, houblonnière et bar) certains samedis après-midi, 5 € par personne, d'après le site de la brasserie.",
+    "src": "http://www.bieretrompesouris.com/",
+    "contact": {
+     "tel": "02 40 33 38 94",
+     "site": "http://www.bieretrompesouris.com/",
+     "source": "http://www.bieretrompesouris.com/",
+     "verifieLe": "2026-10-21"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ],
+      "ven": [
+       [
+        "18:00",
+        "21:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Horaires du bar et de la boutique. Visite de la brasserie certains samedis après-midi, à partir de 15 h.",
+      "source": "http://www.bieretrompesouris.com/",
+      "verifieLe": "2026-10-21"
+     }
+    ],
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Blonde",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-blonde"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Blanche",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-blanche"
+     },
+     {
+      "type": "ipa",
+      "libelle": "I.P.A",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-i-p-a"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Session I.P.A",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-session-i-p-a"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rousse",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-rousse"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple « Ste Radegonde »",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-triple---34-ste-radegonde--34-"
+     },
+     {
+      "type": "autre",
+      "libelle": "Givrée Triple d'Hiver",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-triple-d--39-hiver---34-givree--34-"
+     },
+     {
+      "type": "autre",
+      "libelle": "Rose Berliner Weisse",
+      "url": "http://www.bieretrompesouris.com/fr/catalog-3/trompe-souris-permanentes/trompe-souris-rose-berliner-weisse"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "http://www.bieretrompesouris.com/"
+   ],
+   "extrait": "Ouverture du Bar / Boutique : Lundi :18h-20h Vendredi : 18h-21h Samedi : 15h-19h — 02 40 33 38 94 — « une visite de la Brasserie (production, houblonnière et bar), certains samedis après-midi, à partir de 15h. Tarif : 5€ / personne. »",
+   "choix": "Catégorie 2 → 1, en confiance faible : le site de la brasserie a un « Bar / Boutique » avec horaires, et la visite passe par le bar ; il ne dit pas en toutes lettres qu’on y boit sur place, d’où « faible », que ta règle du 18/10 montre à part. Un seul fixe publié. Bières : les huit Trompe Souris permanentes dont le nom dit un style ou un libellé ; « Chat Brûlé » écartée (aucun style), les gammes éphémères et les marques distribuées aussi. Pas d'Untappd. Le registre : une SARL de brasserie active, siège à Divatte-sur-Loire (créée en 2001)."
+  },
+  {
+   "n": "Brasserie Plouc",
+   "changements": {
+    "note": "Cessation d'activité inscrite au registre des entreprises au 31/12/2024 (« La Brasserie Plouc », siège à Vieux-Viel) ; l'annuaire des bières bretonnes la donne encore installée à Plerguer, sans date. Rien sur la vente ou l'accueil."
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://recherche-entreprises.api.gouv.fr/search?q=brasserie%20plouc&per_page=5"
+   ],
+   "extrait": "nom commercial « LA BRASSERIE PLOUC » ; siège à VIEUX-VIEL (35610) ; établissement fermé le 2024-12-31 ; entreprise cessée ; activité 11.05Z ; créée le 2019-05-01.",
+   "choix": "Entrepreneur individuel : aucun nom de personne recopié. Le rapprochement tient au nom commercial, à l'activité, à l'année de création (l'annuaire dit « Créée en 2019 ») et à la proximité de Vieux-Viel et de Plerguer. Le statut « fermée » n'est pas proposé : le seul établissement connu est à Vieux-Viel, pas dans la commune de la fiche (règle de S323). À toi de dire : fermée, ou note seule."
+  },
+  {
+   "n": "Trip-Hop",
+   "changements": {
+    "contact": {
+     "tel": "09 51 82 62 34",
+     "site": "https://trip-hop.fr",
+     "source": "https://trip-hop.fr/nous-suivre-et-nous-contacter",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://trip-hop.fr/nous-suivre-et-nous-contacter"
+   ],
+   "extrait": "14100 LISIEUX Téléphone : 09 51 82 62 34 Courriel : info@trip-hop.fr",
+   "choix": "Un seul numéro publié, un fixe en 09. Horaires non proposés : la page les donne deux fois, et le samedi diffère (« samedi de 10h00 à 13h30 – 16h à 22h00 » et « Samedi : 11h-13h et 16h-22h »). Bières : six bières citées, proches des six entrées de la fiche ; rien n'est changé."
+  },
+  {
+   "n": "Nomade Brewery",
+   "changements": {
+    "contact": {
+     "tel": "04 72 50 88 53",
+     "site": "https://www.nomadebiere.fr/la-taproom/",
+     "untappd": "https://untappd.com/NomadeBrewery",
+     "source": "https://www.nomadebiere.fr/la-taproom/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.nomadebiere.fr/la-taproom/"
+   ],
+   "extrait": "Mardi-mercredi 12h-22h / Jeudi-vendredi 12h-23h30 / Samedi 14h30-19h ; téléphone « 04 72 50 88 53 » ; lien « https://untappd.com/NomadeBrewery/beer » ; « 10 bières à la pression » et « une large gamme de bière bouteille à emporter »",
+   "choix": "Téléphone : la page en porte deux, 04 72 50 88 53 (contact de la TapRoom, cinq fois) et 04 70 50 88 53 (section foodtrucks, une fois, sans doute une coquille). Le premier est retenu. Untappd : la page publie https://untappd.com/NomadeBrewery/beer ; le lien de base https://untappd.com/NomadeBrewery, ouvert, est bien la page de Nomade Brewery à Genas. Horaires : la page redit ceux de la fiche, sans changement."
+  },
+  {
+   "n": "Brasserie Animus",
+   "changements": {
+    "c": "Grigny-sur-Rhône",
+    "d": "69",
+    "lat": 45.60884,
+    "lon": 4.77404,
+    "addr": "63 rue André Sabatier, 69520 Grigny",
+    "coordPrecision": "address",
+    "note": "La brasserie a rouvert en 2024 dans un nouveau lieu de brassage à Grigny ; vente sur place non précisée.",
+    "contact": {
+     "site": "https://www.brasserieanimus.com/",
+     "source": "https://www.brasserieanimus.com/contact",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.brasserieanimus.com/contact",
+    "https://www.brasserieanimus.com/la-brasserie",
+    "https://data.geopf.fr/geocodage/search?q=63+rue+Andr%C3%A9+Sabatier%2C+69520+Grigny&limit=1"
+   ],
+   "extrait": "Page Contact : « 63 rue André Sabatier 69520 Grigny ». Page La brasserie : « Réouverture donc en 2024 avec un nouveau lieu de brassage à Grigny mais avec une philosophie inchangée ». Géocodeur IGN : « 63 Rue André Sabatier 69520 Grigny-sur-Rhône », numéro, score 0,88.",
+   "choix": "Déménagement (S322) : commune « Grigny-sur-Rhône » (nom officiel, celui du géocodeur et de public/communes/69.json ; le site écrit « Grigny »). Le seul téléphone publié est un portable (06 95 10 82 98), aujourd'hui dans la note : la note proposée ne le reprend plus. S'il faut le garder, comme pour Manev'Ale et Chanaz, dis-le. Aucune page ne parle de vente sur place ni d'horaires : catégorie 0 inchangée."
+  },
+  {
+   "n": "Brasserie Grésiv'ale",
+   "changements": {
+    "contact": {
+     "site": "https://gresivale.fr/",
+     "source": "https://gresivale.fr/contact/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://gresivale.fr/contact/"
+   ],
+   "extrait": "Brasserie Grésiv'ale — Adresse: Chemin des Gîtes, Barraux (page Contact de gresivale.fr)",
+   "choix": "Le site officiel seulement. Le téléphone publié est un portable : écarté. Ni horaires ni retrait sur place lus : catégorie 0 inchangée. Un annuaire donne des horaires : simple piste, non retenue."
+  }
+ ],
+ "revues": [
+  "Brasserie Quardin",
+  "Merlin Brasserie artisanale",
+  "Brasserie Plouc",
+  "Brasserie de la Divatte",
+  "Brasserie Les Deux Brunes",
+  "Mage Malte",
+  "Brasserie Coreff",
+  "Tom & Co",
+  "Brasserie Romanaise (Bière Jacquemart)",
+  "Trip-Hop",
+  "Brasserie du Casino de Montrond",
+  "L'Ours qui brasse",
+  "Brasserie de la Pleine Lune",
+  "Nomade Brewery",
+  "La Grange du Seigneur",
+  "Brasserie de la Loire",
+  "Brasserie La Dourbie",
+  "Brasserie Grésiv'ale",
+  "Brasserie Animus"
+ ]
+}

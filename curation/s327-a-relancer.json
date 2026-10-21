@@ -1,0 +1,93 @@
+{
+ "lot": "s327-a-relancer",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Kapsyl",
+    "c": "Chambray-lès-Tours",
+    "d": "37",
+    "lat": 47.3453,
+    "lon": 0.72846,
+    "km": 359.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Nanobrasserie de Chambray-lès-Tours, d'après sa page Untappd ; rien d'établi sur la vente ou l'accueil.",
+    "addr": "19 rue Jean Perrin, 37170 Chambray-lès-Tours",
+    "src": "https://untappd.com/BrasserieKapsyl",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "untappd": "https://untappd.com/BrasserieKapsyl",
+     "source": "https://untappd.com/BrasserieKapsyl",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://untappd.com/BrasserieKapsyl",
+    "https://data.geopf.fr/geocodage/search?q=19+rue+Jean+Perrin%2C+37170+Chambray-l%C3%A8s-Tours&limit=5"
+   ],
+   "extrait": "Brasserie Kapsyl — Chambray-lès-Tours, Centre-Val de Loire France — Nano Brewery",
+   "choix": "Seule source de la brasserie : sa page Untappd (67 bières). Pas de site officiel (le lien d'Untappd mène à Instagram). Adresse : celle du registre (19 rue Jean Perrin) ; un annuaire dit « 19 bis ». Aucun téléphone ni horaire publié."
+  },
+  {
+   "fiche": {
+    "n": "Micro-brasserie Kerblei",
+    "c": "Baden",
+    "d": "56",
+    "lat": 47.61935,
+    "lon": -2.88633,
+    "km": 621.7,
+    "cat": 2,
+    "conf": "faible",
+    "note": "On la trouve chaque vendredi au marché de Baden (15 h-19 h 30) et toute l'année à la brasserie, sur rendez-vous, d'après son site ; rien sur une consommation sur place.",
+    "addr": "5 Kernavalo, Mané Bihan 56870 BADEN",
+    "src": "https://www.microbrasseriekerblei.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.microbrasseriekerblei.com/",
+     "source": "https://www.microbrasseriekerblei.com/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://www.microbrasseriekerblei.com/",
+    "https://data.geopf.fr/geocodage/search?q=5+Kernavalo%2C+Man%C3%A9+Bihan+56870+BADEN&limit=5"
+   ],
+   "extrait": "nous trouver Tous les vendredis au marché de Baden (56) 15h – 19h30 toute l’année à la brasserie (sur rendez-vous) 5 Kernavalo, Mané Bihan 56870 BADEN",
+   "choix": "Catégorie 2, confiance faible : on y achète (marché, et brasserie sur rendez-vous), sans consommation sur place lue. Le site ne publie qu'un portable : écarté ; un fixe n'apparaît que sur des annuaires. Horaires non proposés : ceux du marché ne sont pas ceux de la brasserie. Entrepreneur individuel : aucun nom de personne recopié."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Loch'Ale",
+    "c": "Auray",
+    "d": "56",
+    "lat": 47.6606,
+    "lon": -3.00438,
+    "km": 631.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente à emporter tous les vendredis après-midi, à la brasserie, d'après son site ; rien sur une consommation sur place.",
+    "addr": "33 rue Alain Gerbault, 56400 Auray",
+    "src": "https://loch-ale.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://loch-ale.fr/",
+     "source": "https://loch-ale.fr/",
+     "verifieLe": "2026-10-21"
+    }
+   },
+   "verifieLe": "2026-10-21",
+   "sources": [
+    "https://loch-ale.fr/",
+    "https://data.geopf.fr/geocodage/search?q=33+rue+Alain+Gerbault%2C+56400+Auray&limit=5"
+   ],
+   "extrait": "Je vous accueille avec plaisir tous les vendredis après-midi avec un créneau de vente à emporter sur le lieu de production de la microbrasserie !",
+   "choix": "Catégorie 2 : vente à emporter lue sur le site. « Vendredi après-midi » ne donne pas de créneau : pas d'horaires. Seul un portable est publié : écarté. Pas d'Untappd trouvé."
+  }
+ ]
+}

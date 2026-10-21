@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:911796522",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Loch'Ale",
+   "c": "Auray",
+   "d": "56",
+   "lat": 47.6606,
+   "lon": -3.00438,
+   "km": 631.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente à emporter tous les vendredis après-midi, à la brasserie, d'après son site ; rien sur une consommation sur place.",
+   "addr": "33 rue Alain Gerbault, 56400 Auray",
+   "src": "https://loch-ale.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://loch-ale.fr/",
+    "source": "https://loch-ale.fr/",
+    "verifieLe": "2026-10-21"
+   }
+  },
+  "verifieLe": "2026-10-21",
+  "sources": [
+   "https://loch-ale.fr/",
+   "https://data.geopf.fr/geocodage/search?q=33+rue+Alain+Gerbault%2C+56400+Auray&limit=5"
+  ],
+  "extrait": "Je vous accueille avec plaisir tous les vendredis après-midi avec un créneau de vente à emporter sur le lieu de production de la microbrasserie !",
+  "choix": "Catégorie 2 : vente à emporter lue sur le site. « Vendredi après-midi » ne donne pas de créneau : pas d'horaires. Seul un portable est publié : écarté. Pas d'Untappd trouvé."
+ }
+}
