@@ -54,6 +54,52 @@ test('« pas encore visitées » écarte les visitées ; le compte et le résum�
   await expect(page.getByTestId('plus-de-filtres-resume')).toContainText('1 filtre actif')
 })
 
+test('« seulement mon carnet » montre les visitées et les notées, et rien d’autre (S350, A26)', async ({ page }) => {
+  const lignes = page.locator('button.ligne')
+  // Les fiches arrivent en deux temps (S294) : un compte lu tout de suite
+  // était trop petit sur un runner lent (main rouge du 22/10, S355). On
+  // attend la liste, et on ne fige jamais son nombre.
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
+  await ouvrirFiltres(page)
+  const caseCarnet = page.getByTestId('carnet-seulement')
+  // Carnet vide : le compte dit pourquoi la liste l'est, et comment le remplir.
+  await caseCarnet.check()
+  await expect(lignes).toHaveCount(0)
+  await expect(page.getByTestId('compte')).toContainText('Votre carnet est vide')
+  await caseCarnet.uncheck()
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
+  const visitee = (await lignes.nth(0).getAttribute('data-nom')) ?? ''
+  const notee = (await lignes.nth(2).getAttribute('data-nom')) ?? ''
+  await lignes.nth(0).click()
+  await page.getByTestId('bouton-visite').click()
+  await page.locator(`button.ligne[data-nom="${notee}"]`).click()
+  await page.getByTestId('ma-note').fill('À revoir')
+  await expect(caseCarnet).toHaveAccessibleName(/\(2\)$/)
+  await caseCarnet.check()
+  await expect(lignes).toHaveCount(2)
+  await expect(page.locator(`button.ligne[data-nom="${visitee}"]`)).toHaveCount(1)
+  await expect(page.locator(`button.ligne[data-nom="${notee}"]`)).toHaveCount(1)
+  await expect(page.getByTestId('compte')).toContainText('(de votre carnet)')
+  await expect(page.getByTestId('plus-de-filtres-resume')).toContainText('1 filtre actif')
+  // Avec « pas encore visitées » : la notée seule.
+  await page.getByTestId('pas-visitees').check()
+  await expect(lignes).toHaveCount(1)
+  await expect(page.locator(`button.ligne[data-nom="${notee}"]`)).toHaveCount(1)
+  await page.getByTestId('pas-visitees').uncheck()
+  // Effacer sa note pour la réécrire : la fiche ouverte reste, le champ
+  // garde le focus (revue adverse S350).
+  const ligneNotee = page.locator(`button.ligne[data-nom="${notee}"]`)
+  if ((await ligneNotee.getAttribute('aria-expanded')) !== 'true') await ligneNotee.click()
+  const note = page.getByTestId('ma-note')
+  await note.fill('')
+  await expect(page.locator(`button.ligne[data-nom="${notee}"]`)).toHaveCount(1)
+  await expect(note).toBeFocused()
+  await note.fill('À revoir, vraiment')
+  await expect(caseCarnet).toHaveAccessibleName(/\(2\)$/)
+  await caseCarnet.uncheck()
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
+})
+
 test('« tout effacer » efface aussi le carnet', async ({ page }) => {
   await page.locator('button.ligne').first().click()
   await page.getByTestId('bouton-visite').click()

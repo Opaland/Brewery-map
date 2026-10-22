@@ -11,7 +11,13 @@ const lu = (f: string) => JSON.parse(readFileSync(`tests/unit/fixtures/${f}`, 'u
 
 describe('les formes gardées restent lues (S238)', () => {
   it('v1 actuelle : relue à l’identique', () => {
-    expect(lirePreferences(lu('preferences-v1.json'))).toEqual(lu('preferences-v1.json'))
+    // Le témoin date d'avant S350 : « seulement mon carnet » y manque, et
+    // prend son défaut sans rien perdre du reste.
+    expect(lirePreferences(lu('preferences-v1.json'))).toEqual({
+      ...(lu('preferences-v1.json') as object),
+      carnetSeulement: false,
+    })
+    expect(lirePreferences({ ...(lu('preferences-v1.json') as object), carnetSeulement: true }).carnetSeulement).toBe(true)
   })
 
   it('v1 d’avant S21 (départ par sa seule clé) : ce qui était gardé l’est encore, le reste prend son défaut', () => {

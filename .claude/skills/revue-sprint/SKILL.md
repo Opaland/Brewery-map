@@ -41,8 +41,10 @@ commentaire « parce que », une phrase de doc avec « jamais », « aucun »,
 
 ## 3. La persona du sprint
 
-Lancer l'agent `relecteur-de-persona` avec **la** persona désignée dans
-`docs/SPRINTS.md` (deux en S4, toutes en S6). Jamais un avis moyen.
+Lancer l'agent de **la** persona désignée par la story ou `docs/SPRINTS.md`,
+par son nom : un agent par fiche de `docs/PERSONAS.md` (S353), la table
+est dans `AGENTS.md`, « Où est la méthode ». Jamais un avis moyen.
+Ses « Questions à choix » sont posées à Cédric avec AskUserQuestion.
 
 ## 4. Vérifier avant de rapporter
 

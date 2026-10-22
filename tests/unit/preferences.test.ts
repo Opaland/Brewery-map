@@ -7,6 +7,7 @@ import {
   NOTE_MAX,
   dateDuJour,
   lirePreferences,
+  nomsDuCarnet,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
   versStockage,
@@ -47,6 +48,7 @@ describe('relire les préférences gardées', () => {
       avecOsm: false,
       visites: [{ nom: 'Caribrew', date: '2026-10-17' }],
       pasVisitees: true,
+      carnetSeulement: true,
       notes: [{ nom: 'Caribrew', texte: 'bien' }],
       theme: 'sombre',
     }
@@ -164,6 +166,22 @@ describe('mon carnet : les visites (S35)', () => {
     expect(p.favoris).toEqual(['A'])
     expect(p.visites).toEqual([{ nom: 'Caribrew', date: '2026-10-17' }])
     expect(p.pasVisitees).toBe(false)
+  })
+
+  it('S350 : « seulement mon carnet », coupé par défaut ; un stockage d’avant se lit sans lui', () => {
+    expect(PREFERENCES_DEFAUT.carnetSeulement).toBe(false)
+    expect(lirePreferences({ pasVisitees: true }).carnetSeulement).toBe(false)
+    expect(lirePreferences({ carnetSeulement: true }).carnetSeulement).toBe(true)
+    expect(lirePreferences({ carnetSeulement: 'oui' }).carnetSeulement).toBe(false)
+  })
+
+  it('S350 : le carnet, ce sont les visitées et les notées, chacune une fois', () => {
+    const carnet = nomsDuCarnet(
+      [{ nom: 'Caribrew', date: '2026-10-17' }, { nom: 'Tom & Co', date: '2026-10-18' }],
+      [{ nom: 'Caribrew', texte: 'bien' }, { nom: 'Nomade Brewery', texte: 'à revoir' }],
+    )
+    expect([...carnet].sort()).toEqual(['Caribrew', 'Nomade Brewery', 'Tom & Co'])
+    expect(nomsDuCarnet([], []).size).toBe(0)
   })
 
   it('la date du jour est locale, sans heure', () => {

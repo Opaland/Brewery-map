@@ -1,0 +1,32 @@
+{
+ "candidat": "node/11403951214",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des sources de l'Ouche",
+   "c": "Lusigny-sur-Ouche",
+   "d": "21",
+   "lat": 47.0908,
+   "lon": 4.67373,
+   "km": 157.6,
+   "cat": 2,
+   "conf": "faible",
+   "note": "La brasserie du château de Lusigny ; sa bière se vend à la boutique du château, d'après une légende de photo sur le site du château. Ni horaires, ni dégustation.",
+   "addr": "Lusigny-sur-Ouche",
+   "src": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+    "source": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+   "https://data.geopf.fr/geocodage/search?q=Lusigny-sur-Ouche&type=municipality&limit=5"
+  ],
+  "extrait": "Vente de bière dans la boutique au châeau",
+  "choix": "Confiance faible : la vente ne tient qu'à une légende de photo (la faute est celle de la page). Pas de rue publiée : position au centre de la commune."
+ }
+}

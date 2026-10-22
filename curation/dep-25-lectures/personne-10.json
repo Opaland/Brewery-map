@@ -1,0 +1,57 @@
+{
+ "candidat": "personne:10",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Épenoy",
+   "c": "Épenoy",
+   "d": "25",
+   "lat": 47.13306,
+   "lon": 6.37211,
+   "km": 204.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Les bières se dégustent sur place ou s’emportent, le vendredi et le samedi ; le lundi et le mardi, achat à emporter sur simple appel, d’après le site de la brasserie.",
+   "addr": "38 Grande Rue, 25800 Épenoy",
+   "src": "https://www.brasserie-epenoy.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 81 47 68 27",
+    "site": "https://www.brasserie-epenoy.fr/",
+    "source": "https://www.brasserie-epenoy.fr/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-epenoy.fr/",
+     "ven": [
+      [
+       "15:30",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:30",
+       "18:30"
+      ]
+     ],
+     "remarque": "Lundi et mardi : achat à emporter sur simple appel. Visite et dégustation d’atelier sur réservation.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.brasserie-epenoy.fr/",
+   "https://data.geopf.fr/geocodage/search?q=38+Grande+Rue%2C+25800+%C3%89penoy&limit=5"
+  ],
+  "extrait": "Mes boissons peuvent être dégustées sur place, dans un cadre vintage et convivial, ou à emporter.",
+  "choix": "Téléphone fixe du lien d’appel du site ; le portable de l’annuaire est écarté. Entrepreneur individuel : enseigne au nom de la commune, aucun nom de personne repris. Adresse de l’office Montagnes du Jura et du registre (le site ne donne que la commune). Pas d’Untappd."
+ }
+}

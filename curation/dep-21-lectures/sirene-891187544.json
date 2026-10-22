@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:891187544",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Flavigny",
+   "c": "Flavigny-sur-Ozerain",
+   "d": "21",
+   "lat": 47.51047,
+   "lon": 4.52869,
+   "km": 204.9,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe d’après la fiche de Bourgogne Tourisme. Un guide de presse de 2023 la dit « boutique et bar », ce qu’aucune source de la brasserie ne confirme : à confirmer.",
+   "addr": "Ferme du faubourg, 21150 Flavigny-sur-Ozerain",
+   "src": "https://www.lebonbon.fr/dijon/les-tops-food-et-drink/dijon-top-brasseurs-bieres/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 16 26 51 22",
+    "source": "https://www.burgundy-tourism.com/regional-products/brasserie-de-flavigny-4",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.lebonbon.fr/dijon/les-tops-food-et-drink/dijon-top-brasseurs-bieres/",
+   "https://www.burgundy-tourism.com/regional-products/brasserie-de-flavigny-4",
+   "https://data.geopf.fr/geocodage/search?q=Flavigny-sur-Ozerain&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie de Flavigny (boutique et bar)",
+  "choix": "Catégorie 0 : un article de presse seul ne suffit pas à dire ce qu’on peut y faire. Seul numéro publié (fiche de Bourgogne Tourisme) : un portable, règle du 21/10."
+ }
+}

@@ -144,7 +144,7 @@ export function messageDeploiement(executions: Execution[] | null | 'indisponibl
   const rouge = executions.some((e) => e.conclusion !== null && e.conclusion !== 'success')
   return auDemarrage(
     rouge
-      ? `⚠ Déploiement de main EN ÉCHEC — ${resume}. Ne rien empiler dessus : corriger d’abord (voir CLAUDE.md, « ce qui vaut arrêt »).`
+      ? `⚠ Déploiement de main EN ÉCHEC — ${resume}. Ne rien empiler dessus : corriger d’abord (voir AGENTS.md, §9 « Ce qui vaut arrêt »).`
       : `Déploiement de main : ${resume}`,
   )
 }

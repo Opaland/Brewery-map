@@ -1,0 +1,32 @@
+{
+ "candidat": "node/13022400333",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bouillant",
+   "c": "Fleurey-sur-Ouche",
+   "d": "21",
+   "lat": 47.31208,
+   "lon": 4.85603,
+   "km": 182.3,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe ; son site propose de commander en ligne, avec retrait sur place ou livraison, sans dire si l'on peut acheter ou boire sur place sans commander.",
+   "addr": "30 rue de l’Aule, 21410 Fleurey-sur-Ouche",
+   "src": "https://brasseriebouillant.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriebouillant.fr",
+    "source": "https://brasseriebouillant.fr",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasseriebouillant.fr",
+   "https://data.geopf.fr/geocodage/search?q=30+rue+de+l%E2%80%99Aule%2C+21410+Fleurey-sur-Ouche&limit=5"
+  ],
+  "extrait": "retrait sur place ou livraison",
+  "choix": "Catégorie 0 : le retrait d'une commande n'est pas une vente au comptoir. Le téléphone n'est que dans un lien d'appel : non repris. Les heures où l'on peut les joindre ne sont pas des horaires d'ouverture."
+ }
+}

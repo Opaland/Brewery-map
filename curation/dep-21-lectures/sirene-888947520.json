@@ -1,0 +1,77 @@
+{
+ "candidat": "sirene:888947520",
+ "ajout": {
+  "fiche": {
+   "n": "90 BPM Brewing Co.",
+   "c": "Ahuy",
+   "d": "21",
+   "lat": 47.35781,
+   "lon": 5.03557,
+   "km": 188.4,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie et bar à bière, avec quinze pressions, une terrasse et un terrain de pétanque ; la boutique est ouverte aux mêmes heures, d'après son site.",
+   "addr": "3 rue des Murées, 21121 Ahuy",
+   "src": "https://www.90bpm.beer/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.90bpm.beer/",
+    "untappd": "https://untappd.com/90BPMBrewingCo",
+    "source": "https://www.90bpm.beer/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.90bpm.beer/",
+     "lun": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Bar et boutique.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.90bpm.beer/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+des+Mur%C3%A9es%2C+21121+Ahuy&limit=5"
+  ],
+  "extrait": "15 pressions, la terrasse et son terrain de pétanque",
+  "choix": "Aucun téléphone publié. Le dimanche n'est pas écrit : laissé absent. Horaires « Bar et Boutique ouverts » de la page d'accueil."
+ }
+}

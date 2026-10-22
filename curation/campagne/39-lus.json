@@ -1,0 +1,253 @@
+[
+  {
+    "cle": "sirene:928355098",
+    "n": "Brasserie Doloise",
+    "c": "Jouhe",
+    "adresse": "Mont Roland, 39100 Jouhe",
+    "cat": 0,
+    "conf": "",
+    "note": "Au sommet du Mont Roland, d’après son site : retrait des commandes à la brasserie. Ni vente au comptoir ni dégustation écrites : à confirmer.",
+    "src": "https://labrasseriedoloise.fr/",
+    "extrait": "Retrait des produits à La Brasserie Doloise",
+    "beers": [],
+    "choix": "Catégorie 0 : le retrait d’une commande n’est pas une vente au comptoir (même choix que Bouillant, Belenium, Frizon). Téléphone de l’office seul : non repris. Le point OSM node/8765993554 est le même lieu."
+  },
+  {
+    "cle": "sirene:442835963",
+    "n": "La Rouget de Lisle",
+    "c": "Bletterans",
+    "adresse": "Rue de la Verne, 39140 Bletterans",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Une fabrique et son magasin d’usine, d’après le site de la brasserie. Ni dégustation sur place ni horaires écrits.",
+    "src": "https://larouget.com/",
+    "extrait": "FABRIQUE & MAGASIN Rue de la Verne 39140 Bletterans",
+    "beers": [],
+    "choix": "Téléphone fixe de la boutique en ligne de la brasserie. Le point OSM way/480687423 est le même lieu.",
+    "contact": {
+      "tel": "03 84 85 09 18",
+      "source": "https://shop.larouget.com/"
+    }
+  },
+  {
+    "cle": "sirene:804211571",
+    "n": "The Baboon (Brasserie des Babouins Jurassiens)",
+    "c": "Poligny",
+    "adresse": "8 rue Jules et Charles Arnaud, 39800 Poligny",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Un bar et la vente à emporter, avec leurs horaires, d’après le site de la brasserie.",
+    "src": "https://www.thebaboon.fr",
+    "extrait": "Vente à emporter : Mercredi dès 11h, Jeudi et Vendredi de 16h à 22h",
+    "beers": [
+      {
+        "type": "ipa",
+        "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+      },
+      {
+        "type": "blanche",
+        "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+      },
+      {
+        "type": "lager",
+        "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+      },
+      {
+        "type": "stout",
+        "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+      }
+    ],
+    "choix": "Le site dit « Bar : Mercredi dès 11h, Jeudi et Vendredi à partir de 16h » : bar et vente, catégorie 1. Aucun téléphone publié. Types lus sur Untappd (IPA, Witbier, Pilsner, Stout). Le point OSM node/5992553137 est le même lieu. Le mercredi, sans heure de fin, va en remarque.",
+    "contact": {
+      "site": "https://www.thebaboon.fr",
+      "untappd": "https://untappd.com/BrasseriedesBabouinsJurassiens",
+      "source": "https://www.thebaboon.fr"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "jeu": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "remarque": "Aussi le mercredi dès 11 h, sans heure de fin publiée ; bar aux mêmes jours.",
+        "source": "https://www.thebaboon.fr",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:900075607",
+    "n": "La Bistraille",
+    "c": "Arinthod",
+    "adresse": "16 rue de la Croix de Fer, 39240 Arinthod",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar et brasserie artisanale : on y boit ses bières à la pression ou en bouteilles, d’après la fiche de l’office de tourisme du Jura.",
+    "src": "https://www.jura-tourism.com/produit-regional/la-bistraille/",
+    "extrait": "Vous pouvez y consommer nos bières, bien évidemment, à la pression ou en bouteilles",
+    "beers": [],
+    "choix": "Office de tourisme seul : confiance moyenne (décision #37). Seule ligne publiée : un portable (règle du 21/10). Pas d’horaires. « Brasserie artisanale Long », à la même adresse, est le même lieu.",
+    "contact": {
+      "tel": "06 20 14 37 03",
+      "source": "https://www.jura-tourism.com/produit-regional/la-bistraille/"
+    }
+  },
+  {
+    "cle": "sirene:495299836",
+    "n": "La Franche",
+    "c": "La Ferté",
+    "adresse": "28 Rue Principale, 39600 La Ferté",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Un magasin de vente directe et un bar ouvert à tous, d’après le site de la brasserie, qui publie ses horaires par saison.",
+    "src": "https://www.lafranche.net/la-brasserie/",
+    "extrait": "un bar chaleureux ouvert à tous (et privatisable) pour déguster ou boire un verre avec modération",
+    "beers": [],
+    "choix": "Téléphone fixe du site. Horaires de la page de contact, deux saisons ; les vacances scolaires en remarque. Le point OSM node/3901175170 est le même lieu. Untappd : https://untappd.com/LaFranche ; bières non reprises.",
+    "contact": {
+      "tel": "03 84 37 65 33",
+      "site": "https://www.lafranche.net",
+      "untappd": "https://untappd.com/LaFranche",
+      "source": "https://www.lafranche.net/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "periode": {
+          "du": "06-01",
+          "au": "09-30"
+        },
+        "lun": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "mar": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "remarque": "Sauf jours fériés. Bar à ces horaires et sur demande.",
+        "source": "https://www.lafranche.net/contact/",
+        "verifieLe": "2026-10-22"
+      },
+      {
+        "nature": "accueil",
+        "periode": {
+          "du": "10-01",
+          "au": "05-31"
+        },
+        "mer": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "remarque": "Pendant les vacances scolaires : du lundi au samedi, sauf jours fériés. Bar à ces horaires et sur demande.",
+        "source": "https://www.lafranche.net/contact/",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:840769335",
+    "n": "Brasserie Vachement Jura",
+    "c": "Ivrey",
+    "adresse": "15 route de Poupet, 39110 Ivrey",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (son site). Visites en semaine sur rendez-vous ; les horaires du week-end sont donnés chaque vendredi sur Facebook. Rien ne dit ce qu’on peut y faire : à confirmer.",
+    "src": "https://www.vachement-jura.fr/",
+    "extrait": "Horaires : Semaine sur rendez-vous Le week-end : horaires communiquées le vendredi soir sur le FB",
+    "beers": [],
+    "choix": "Seule ligne publiée : un portable (règle du 21/10). L’adresse électronique, qui porte un nom, n’est pas reprise.",
+    "contact": {
+      "tel": "06 77 99 64 52",
+      "site": "https://www.vachement-jura.fr/",
+      "source": "https://www.vachement-jura.fr/"
+    }
+  }
+]

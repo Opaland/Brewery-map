@@ -1,0 +1,460 @@
+[
+ {
+  "cle": "sirene:901477745",
+  "nom": "TIPSIP BREWING",
+  "communes": [
+   "AVALLON"
+  ],
+  "departement": "89",
+  "adresses": [
+   "14 RUE DU GENERAL LECLERC 89200 AVALLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901477745",
+  "sirets": [
+   "90147774500045"
+  ],
+  "osm": [],
+  "lat": 47.4937059830602,
+  "lon": 3.90840203406738,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814977641",
+  "nom": "BRASSERIE POPIHN",
+  "communes": [
+   "VAUMORT",
+   "CERISIERS"
+  ],
+  "departement": "89",
+  "adresses": [
+   "DOMAINE DE VAUMORIN 89320 VAUMORT",
+   "RUE COLETTE LIEU-DIT VIOLOT 89320 CERISIERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814977641",
+  "sirets": [
+   "81497764100012",
+   "81497764100020"
+  ],
+  "osm": [
+   "way/190678516"
+  ],
+  "lat": 48.13012113,
+  "lon": 3.4558841416,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949538128",
+  "nom": "DHENNIN RM",
+  "communes": [
+   "SERBONNES"
+  ],
+  "departement": "89",
+  "adresses": [
+   "30 RUE DU MARECHAL LECLERC 89140 SERBONNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949538128",
+  "sirets": [
+   "94953812800016"
+  ],
+  "osm": [],
+  "lat": 48.321037826,
+  "lon": 3.2029137036,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878239979",
+  "nom": "FAYYAR",
+  "communes": [
+   "SAINT-BRIS-LE-VINEUX"
+  ],
+  "departement": "89",
+  "adresses": [
+   "16 RUE DE PARIS 89530 SAINT-BRIS-LE-VINEUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "878239979",
+  "sirets": [
+   "87823997900015"
+  ],
+  "osm": [
+   "node/11219289861"
+  ],
+  "lat": 47.744547419,
+  "lon": 3.650323408,
+  "site": "https://www.fayyar.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:532737327",
+  "nom": "BRASSERIE DE VEZELAY",
+  "communes": [
+   "SAINT-PERE"
+  ],
+  "departement": "89",
+  "adresses": [
+   "RUE DU GRAVIER 89450 SAINT-PERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "532737327",
+  "sirets": [
+   "53273732700025"
+  ],
+  "osm": [],
+  "lat": 47.459457362,
+  "lon": 3.7705175812,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:104590393",
+  "nom": "BRASSERIE LORIUS",
+  "communes": [
+   "BAZARNES"
+  ],
+  "departement": "89",
+  "adresses": [
+   "48 T RUE DES TILLEULS 89460 BAZARNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "104590393",
+  "sirets": [
+   "10459039300013"
+  ],
+  "osm": [],
+  "lat": 47.6613491585185,
+  "lon": 3.65775463243055,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823178751",
+  "nom": "BRASSERIE DE CHABLIS",
+  "communes": [
+   "CHABLIS"
+  ],
+  "departement": "89",
+  "adresses": [
+   "PARC DES LYS 4 RUE DES VENDANGES 89800 CHABLIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823178751",
+  "sirets": [
+   "82317875100017"
+  ],
+  "osm": [],
+  "lat": 47.815105754,
+  "lon": 3.7842038181,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:485168801",
+  "nom": "BRASSERIE LARCHE",
+  "communes": [
+   "SENS"
+  ],
+  "departement": "89",
+  "adresses": [
+   "89 RUE BELLOCIER 89100 SENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "485168801",
+  "sirets": [
+   "48516880100036"
+  ],
+  "osm": [],
+  "lat": 48.203590549,
+  "lon": 3.2672982853,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "BUTTEAUX"
+  ],
+  "departement": "89",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:851734541",
+  "nom": "BRASSERIE LA VAUGERMAINS",
+  "communes": [
+   "SAINT-CYR-LES-COLONS"
+  ],
+  "departement": "89",
+  "adresses": [
+   "30 VAUGERMAIN 89800 SAINT-CYR-LES-COLONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851734541",
+  "sirets": [
+   "85173454100010"
+  ],
+  "osm": [],
+  "lat": 47.70438305,
+  "lon": 3.7853360296,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BAZARNES"
+  ],
+  "departement": "89",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:884263633",
+  "nom": "BRASSERIE LA TRUITE",
+  "communes": [
+   "BUTTEAUX"
+  ],
+  "departement": "89",
+  "adresses": [
+   "1 CHEMIN DES LAMES 89360 BUTTEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884263633",
+  "sirets": [
+   "88426363300015"
+  ],
+  "osm": [],
+  "lat": 47.968668276,
+  "lon": 3.8022711998,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892194507",
+  "nom": "BRASSERIE AD LIBITUM",
+  "communes": [
+   "VERMENTON"
+  ],
+  "departement": "89",
+  "adresses": [
+   "18 RUE DES CLOUX 89270 VERMENTON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892194507",
+  "sirets": [
+   "89219450700026"
+  ],
+  "osm": [],
+  "lat": 47.66914698289815,
+  "lon": 3.737978001947205,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841511835",
+  "nom": "GRAND DUC MICROBRASSERIE",
+  "communes": [
+   "SORMERY"
+  ],
+  "departement": "89",
+  "adresses": [
+   "LA TUILERIE 55 RUE DE LA FORET D'OTHE 89570 SORMERY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "841511835",
+  "sirets": [
+   "84151183500016"
+  ],
+  "osm": [
+   "node/10582464131"
+  ],
+  "lat": 48.108548045,
+  "lon": 3.7578191711,
+  "site": "https://legrandduc-microbrasserie.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850863655",
+  "nom": "BRASSERIE LA CUVERIE",
+  "communes": [
+   "IRANCY"
+  ],
+  "departement": "89",
+  "adresses": [
+   "4 CHEMIN DES FOSSES 89290 IRANCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850863655",
+  "sirets": [
+   "85086365500013"
+  ],
+  "osm": [],
+  "lat": 47.71430302,
+  "lon": 3.6672563557,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11378658936",
+  "nom": "La Vaugermaine",
+  "communes": [
+   "Saint-Cyr-les-Colons"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11378658936"
+  ],
+  "lat": 47.70461,
+  "lon": 3.78505,
+  "site": "https://www.lavaugermaine.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11945606866",
+  "nom": "Odile t'en brasse",
+  "communes": [
+   "Avallon"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11945606866"
+  ],
+  "lat": 47.49373,
+  "lon": 3.90845,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7464476377",
+  "nom": "La 5 d'angy",
+  "communes": [
+   "Vireaux"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7464476377"
+  ],
+  "lat": 47.82005,
+  "lon": 4.04395,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8090252861",
+  "nom": "Bar Brasserie Bières de la colline",
+  "communes": [
+   "Vézelay"
+  ],
+  "departement": "89",
+  "adresses": [
+   "4 bis Route d'Avallon, 89450 Vézelay"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8090252861"
+  ],
+  "lat": 47.46261,
+  "lon": 3.74208,
+  "site": "https://www.bieresdelacolline.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/72814443",
+  "nom": "Brasserie Larché",
+  "communes": [
+   "Saint-Martin-du-Tertre"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/72814443"
+  ],
+  "lat": 48.20349,
+  "lon": 3.26735,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LARCHE"
+ }
+]

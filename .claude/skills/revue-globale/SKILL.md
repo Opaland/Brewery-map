@@ -61,9 +61,8 @@ d'accord ?
 
 ### Les workflows et la contribution
 
-Lancer l'agent `relecteur-de-persona` avec chacun des deux angles de
-revue de `docs/PERSONAS.md` (S288) : « le relecteur de workflows », « la
-contributrice externe ».
+Lancer les agents des deux angles de revue de `docs/PERSONAS.md` (S288) :
+`relecteur-de-workflows` et `contributrice-externe`.
 
 ### Personas contre le livré
 

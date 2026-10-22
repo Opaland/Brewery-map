@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:951128636",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sâdjé",
+   "c": "Pays-de-Montbenoît",
+   "d": "25",
+   "lat": 46.99261,
+   "lon": 6.46308,
+   "km": 196.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (son site, en construction, et l’office de tourisme Montagnes du Jura). Son site donne trois créneaux « à la brasserie » sans dire si l’on y achète ou boit : à confirmer.",
+   "addr": "4 rue du Val Saugeais, 25650 Pays-de-Montbenoît",
+   "src": "https://sadje.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://sadje.fr",
+    "source": "https://sadje.fr",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://sadje.fr",
+     "jeu": [
+      [
+       "18:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://sadje.fr",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+du+Val+Saugeais%2C+25650+Pays-de-Montbeno%C3%AEt&limit=5"
+  ],
+  "extrait": "En attendant, rendez-vous les jeudis de 18h à 21h, les vendredis de 17h à 21h et les samedis de 10h à 13h à la brasserie.",
+  "choix": "Catégorie 0 : « rendez-vous à la brasserie » ne dit ni vente ni dégustation. Horaires du site, notés en accueil. Aucun téléphone publié. Pas d’Untappd."
+ }
+}

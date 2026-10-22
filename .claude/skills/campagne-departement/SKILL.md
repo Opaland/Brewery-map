@@ -79,8 +79,8 @@ L'outil géocode, assemble, contrôle (et s'arrête sur un écart), puis écrit
 
 ## 5. Revue de la persona
 
-Lancer l'agent `relecteur-de-persona`, persona Cédric, sur les comptes
-rendus. Traiter ses retours **avant** d'appliquer : retirer une lecture
+Lancer l'agent `cedric` (la persona de `docs/PERSONAS.md`) sur les comptes
+rendus, en lui rappelant les règles de `docs/DECISIONS.md`. Traiter ses retours **avant** d'appliquer : retirer une lecture
 fausse, puis rejouer `rendre`.
 
 ## 6. Appliquer, et tout ce qui suit

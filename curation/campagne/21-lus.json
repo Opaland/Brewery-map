@@ -1,0 +1,391 @@
+[
+  {
+    "cle": "sirene:847879251",
+    "n": "Microbrasserie La Clé de Voûte",
+    "c": "Pouilly-en-Auxois",
+    "adresse": "17 rue du Général de Gaulle, 21320 Pouilly-en-Auxois",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "On y choisit ses bières et on les goûte sur place, d'après son site ; ouverte à la visite et à la vente le jeudi et le vendredi, d'autres jours sur rendez-vous.",
+    "src": "https://brasserielavoute.com/",
+    "extrait": "et les goûter dans nos locaux, à Pouilly-en-Auxois",
+    "beers": [],
+    "choix": "Seul numéro publié : un portable, retenu (règle du 21/10). Bières du site non reprises : Untappd fait foi pour les bières. Pas d'Untappd cité par le site.",
+    "contact": {
+      "tel": "06 71 86 63 92",
+      "site": "https://brasserielavoute.com/",
+      "source": "https://brasserielavoute.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "jeu": [
+          [
+            "10:00",
+            "18:30"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "18:30"
+          ]
+        ],
+        "remarque": "Visite et vente directe ; d'autres jours sur rendez-vous.",
+        "source": "https://brasserielavoute.com/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:894398593",
+    "n": "VIF",
+    "c": "Beaune",
+    "adresse": "5 rue Dominique Jean Larrey, 21200 Beaune",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On peut acheter à la brasserie en la contactant avant ; visites sur rendez-vous, d'après son site. Il ne parle pas de bar.",
+    "src": "https://www.boirevif.com/boutique",
+    "extrait": "Contactez nous pour une visite ou un achat à la brasserie",
+    "beers": [],
+    "choix": "Seule ligne publiée : un portable, retenu. Aucun horaire : tout se fait sur rendez-vous. Une page Untappd existe (BoireVif), non citée par le site. Le registre donne aussi une adresse à Saint-Romain, qu'aucune page ne confirme.",
+    "contact": {
+      "tel": "06 31 88 06 01",
+      "site": "https://www.boirevif.com",
+      "source": "https://www.boirevif.com/boutique"
+    }
+  },
+  {
+    "cle": "sirene:888947520",
+    "n": "90 BPM Brewing Co.",
+    "c": "Ahuy",
+    "adresse": "3 rue des Murées, 21121 Ahuy",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie et bar à bière, avec quinze pressions, une terrasse et un terrain de pétanque ; la boutique est ouverte aux mêmes heures, d'après son site.",
+    "src": "https://www.90bpm.beer/",
+    "extrait": "15 pressions, la terrasse et son terrain de pétanque",
+    "beers": [],
+    "choix": "Aucun téléphone publié. Le dimanche n'est pas écrit : laissé absent. Horaires « Bar et Boutique ouverts » de la page d'accueil.",
+    "contact": {
+      "site": "https://www.90bpm.beer/",
+      "untappd": "https://untappd.com/90BPMBrewingCo",
+      "source": "https://www.90bpm.beer/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "mar": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "mer": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "remarque": "Bar et boutique.",
+        "source": "https://www.90bpm.beer/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:842154890",
+    "n": "Brasserie La Kanopée",
+    "c": "Sainte-Marie-sur-Ouche",
+    "adresse": "255 rue de la Gare, Pont de Pany, 21410 Sainte-Marie-sur-Ouche",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Un bar-boutique où l'on déguste les bières brassées sur place, ouvert toute l'année le vendredi et le samedi après-midi, d'après son site.",
+    "src": "https://www.la-kanopee.com/",
+    "extrait": "La Kanopée, c’est aussi un bar-boutique convivial",
+    "beers": [],
+    "choix": "Seule ligne publiée : un portable, retenu. Les dimanches vus sur un réseau social sont des portes ouvertes : écartés. Bières du site non reprises : Untappd fait foi.",
+    "contact": {
+      "tel": "06 99 55 83 74",
+      "site": "https://www.la-kanopee.com/",
+      "source": "https://www.la-kanopee.com/contact"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "15:00",
+            "19:30"
+          ]
+        ],
+        "sam": [
+          [
+            "15:00",
+            "19:30"
+          ]
+        ],
+        "source": "https://www.la-kanopee.com/"
+      }
+    ]
+  },
+  {
+    "cle": "node/11403951214",
+    "n": "Brasserie des sources de l'Ouche",
+    "c": "Lusigny-sur-Ouche",
+    "adresse": null,
+    "cat": 2,
+    "conf": "faible",
+    "note": "La brasserie du château de Lusigny ; sa bière se vend à la boutique du château, d'après une légende de photo sur le site du château. Ni horaires, ni dégustation.",
+    "src": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+    "extrait": "Vente de bière dans la boutique au châeau",
+    "beers": [],
+    "choix": "Confiance faible : la vente ne tient qu'à une légende de photo (la faute est celle de la page). Pas de rue publiée : position au centre de la commune.",
+    "contact": {
+      "site": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+      "source": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/"
+    }
+  },
+  {
+    "cle": "node/13022400333",
+    "n": "Brasserie Bouillant",
+    "c": "Fleurey-sur-Ouche",
+    "adresse": "30 rue de l’Aule, 21410 Fleurey-sur-Ouche",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe ; son site propose de commander en ligne, avec retrait sur place ou livraison, sans dire si l'on peut acheter ou boire sur place sans commander.",
+    "src": "https://brasseriebouillant.fr",
+    "extrait": "retrait sur place ou livraison",
+    "beers": [],
+    "choix": "Catégorie 0 : le retrait d'une commande n'est pas une vente au comptoir. Le téléphone n'est que dans un lien d'appel : non repris. Les heures où l'on peut les joindre ne sont pas des horaires d'ouverture.",
+    "contact": {
+      "site": "https://brasseriebouillant.fr",
+      "source": "https://brasseriebouillant.fr"
+    }
+  },
+  {
+    "cle": "node/5459201557",
+    "n": "Brasserie de la Roche Aigüe",
+    "c": "Mâlain",
+    "adresse": "28 rue de la Gare, 21410 Mâlain",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie le mardi et le vendredi après-midi, ou sur rendez-vous, d'après la page du collectif agricole de Mâlain. Rien sur une dégustation.",
+    "src": "https://alternatives-agriculturelles.fr/microbrasserie/",
+    "extrait": "En vente directe à la brasserie et en circuit court",
+    "beers": [],
+    "choix": "Confiance moyenne : la page n'est pas celle de la brasserie seule et ses dernières nouvelles datent de 2025. Seule ligne publiée : un portable, retenu.",
+    "contact": {
+      "tel": "07 69 10 90 68",
+      "source": "https://alternatives-agriculturelles.fr/microbrasserie/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mar": [
+          [
+            "14:30",
+            "18:30"
+          ]
+        ],
+        "ven": [
+          [
+            "14:30",
+            "18:30"
+          ]
+        ],
+        "remarque": "Ou sur rendez-vous.",
+        "source": "https://alternatives-agriculturelles.fr/microbrasserie/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:811091875",
+    "n": "Brasserie Elixkir",
+    "c": "Quetigny",
+    "adresse": "7 rue de l'Enclume, 21800 Quetigny",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Une boutique où toutes les bières s'emportent, et un taproom pour les boire en salle ou en terrasse, d'après son site.",
+    "src": "https://www.elixkir.fr/boutique-taproom/",
+    "extrait": "Toutes nos bières sont disponibles à emporter",
+    "beers": [],
+    "choix": "Téléphone de la page contact. Horaires « Boutique & Taproom » de la page contact ; les créneaux de livraison et de location de tireuses sont écartés.",
+    "contact": {
+      "tel": "09 82 30 77 00",
+      "site": "https://www.elixkir.fr/",
+      "source": "https://www.elixkir.fr/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mer": [
+          [
+            "14:30",
+            "20:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "14:30",
+            "20:30"
+          ]
+        ],
+        "ven": [
+          [
+            "14:30",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "14:30",
+            "20:30"
+          ]
+        ],
+        "remarque": "Boutique et taproom ; fermés les jours fériés.",
+        "source": "https://www.elixkir.fr/contact/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:802723544",
+    "n": "Belenium",
+    "c": "Beaune",
+    "adresse": "12 rue de Vignolles, 21200 Beaune",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe ; son site permet de commander et de retirer en magasin, sans dire où ni quand, ni si l'on peut acheter sans commander.",
+    "src": "https://belenium.com/pre-commandes/",
+    "extrait": "retirer en magasin",
+    "beers": [],
+    "choix": "Catégorie 0 : le retrait d'une commande ne dit pas une vente au comptoir. Aucun téléphone publié.",
+    "contact": {
+      "site": "https://belenium.com/",
+      "source": "https://belenium.com/pre-commandes/"
+    }
+  },
+  {
+    "cle": "sirene:900881814",
+    "n": "Brasserie de France",
+    "c": "Beaune",
+    "adresse": "16 rue Maurice Chantin, 21200 Beaune",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe et propose des ateliers de brassage et de dégustation ; son site ne dit pas si l'on peut acheter ou boire sur place.",
+    "src": "https://brasseriedefrance.com",
+    "extrait": "Nos ateliers de brassage et de dégustation",
+    "beers": [],
+    "choix": "Téléphone de la page d'accueil. Aucun horaire.",
+    "contact": {
+      "tel": "09 75 68 78 44",
+      "site": "https://brasseriedefrance.com",
+      "source": "https://brasseriedefrance.com"
+    }
+  },
+  {
+    "cle": "sirene:502451438",
+    "n": "Brasserie Burgonde",
+    "c": "Vitteaux",
+    "adresse": "10 rue de Verdun, 21350 Vitteaux",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On peut acheter à la boutique de la brasserie, aux horaires d’ouverture, d’après son site, qui ne parle ni de bar ni de dégustation.",
+    "src": "https://brasserie-burgonde.fr/",
+    "extrait": "venir pousser la porte de notre boutique",
+    "beers": [],
+    "choix": "Aucun téléphone : le site n’en publie pas. Aucun horaire écrit sur le site. Pas d’Untappd.",
+    "contact": {
+      "site": "https://brasserie-burgonde.fr/",
+      "source": "https://brasserie-burgonde.fr/"
+    }
+  },
+  {
+    "cle": "sirene:891187544",
+    "n": "Brasserie de Flavigny",
+    "c": "Flavigny-sur-Ozerain",
+    "adresse": "Ferme du faubourg, 21150 Flavigny-sur-Ozerain",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe d’après la fiche de Bourgogne Tourisme. Un guide de presse de 2023 la dit « boutique et bar », ce qu’aucune source de la brasserie ne confirme : à confirmer.",
+    "src": "https://www.lebonbon.fr/dijon/les-tops-food-et-drink/dijon-top-brasseurs-bieres/",
+    "extrait": "Brasserie de Flavigny (boutique et bar)",
+    "beers": [],
+    "choix": "Catégorie 0 : un article de presse seul ne suffit pas à dire ce qu’on peut y faire. Seul numéro publié (fiche de Bourgogne Tourisme) : un portable, règle du 21/10.",
+    "contact": {
+      "tel": "06 16 26 51 22",
+      "source": "https://www.burgundy-tourism.com/regional-products/brasserie-de-flavigny-4"
+    }
+  },
+  {
+    "cle": "sirene:808461081",
+    "n": "La Luxoise",
+    "c": "Gémeaux",
+    "adresse": "12 rue des Charrières, 21120 Gémeaux",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Un bar sur le site de production, avec la gamme à la pression, ouvert le vendredi soir, d’après le site de la brasserie. Horaires de la boutique discordants d’une page à l’autre : non repris.",
+    "src": "https://la-luxoise.com/",
+    "extrait": "Profitez du bar sur le site de production pour découvrir et déguster notre gamme de bière à la pression.",
+    "beers": [],
+    "choix": "Nom d’usage « La Luxoise » (registre : Brasserie des Bières de Famille). Seule ligne publiée par la brasserie : un portable (règle du 21/10). Horaires : le bar seul.",
+    "contact": {
+      "tel": "06 75 90 98 89",
+      "site": "https://la-luxoise.com/",
+      "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "18:00",
+            "00:00"
+          ]
+        ],
+        "remarque": "Bar de la brasserie. Samedi : sur événement seulement.",
+        "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:921840252",
+    "n": "Les Brassages du Meix",
+    "c": "Saint-Julien",
+    "adresse": "11 rue en Val Fontaine, 21490 Saint-Julien",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, office de tourisme). Rien de lu ne dit si l’on peut acheter ou boire sur place, et les horaires diffèrent entre ses pages.",
+    "src": "https://www.lesbrassagesdumeix.fr/en/les-meix",
+    "extrait": "11 rue en Val Fontaine - 21490 SAINT JULIEN",
+    "beers": [],
+    "choix": "Catégorie 0, horaires non repris (discordants). Téléphone lu sur l’office seul : non repris. Autre brasserie que Loro Bières, aussi à Saint-Julien."
+  }
+]

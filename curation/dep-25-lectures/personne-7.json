@@ -1,0 +1,32 @@
+{
+ "candidat": "personne:7",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cuc",
+   "c": "Serre-les-Sapins",
+   "d": "25",
+   "lat": 47.23484,
+   "lon": 5.93337,
+   "km": 195.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie, d’après son site, qui renvoie aussi à des points de vente autour de Besançon. Ni dégustation, ni visite, ni horaires écrits.",
+   "addr": "4 rue de Terre Rouge, 25770 Serre-les-Sapins",
+   "src": "http://www.brasserie-cuc.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.brasserie-cuc.com/",
+    "source": "http://www.brasserie-cuc.com/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "http://www.brasserie-cuc.com/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+de+Terre+Rouge%2C+25770+Serre-les-Sapins&limit=5"
+  ],
+  "extrait": "Vente directe à la brasserie",
+  "choix": "Aucun téléphone : la page ne donne que ceux des points de vente. Un article de presse la place à Pouilley-les-Vignes ; le site et le registre disent Serre-les-Sapins, retenu. Entrepreneur individuel : aucun nom de personne repris."
+ }
+}
