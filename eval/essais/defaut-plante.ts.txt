@@ -1,0 +1,19 @@
+// Fichier d'essai de S354 : un défaut y est planté exprès, pour voir si
+// l'agent relecteur-adverse le trouve. Ce n'est pas du code de l'application
+// (extension .txt : ni compilé, ni testé, ni relu par le lint).
+
+export interface Periode {
+  /** « MM-JJ », premier jour compris. */
+  du: string
+  /** « MM-JJ », dernier jour compris. */
+  au: string
+}
+
+/**
+ * Le jour « MM-JJ » est-il dans la période, bornes comprises ? Une période
+ * peut passer le 1er janvier (du « 11-01 » au « 03-31 »).
+ */
+export function dansLaPeriode(periode: Periode, mmjj: string): boolean {
+  if (periode.du <= periode.au) return mmjj >= periode.du && mmjj < periode.au
+  return mmjj >= periode.du || mmjj <= periode.au
+}

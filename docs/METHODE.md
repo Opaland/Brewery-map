@@ -60,7 +60,8 @@ ses **formats** :
 | Rétrospective | une par epic ; elle ne change CLAUDE.md qu'après un raté observé ici, daté |
 
 Ce que BMAD n'a pas et qu'on garde :
-- **la validation métier** : `relecteur-de-persona` et `docs/PERSONAS.md` ;
+- **la validation métier** : un agent par persona de `docs/PERSONAS.md`
+  (S353, repris d'ISTQBFinder) ;
 - **la curation** : propositions, puis accord de Cédric ligne par ligne.
 
 ## 3. Le cycle d'une story
