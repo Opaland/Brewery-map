@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-22', texte: 'Mon carnet : la case « Seulement mon carnet » montre les brasseries que vous avez visitées ou sur lesquelles vous avez écrit une note.' },
   { date: '2026-10-21', texte: '37 brasseries ajoutées dans l’Allier, le Cantal, le Puy-de-Dôme et la Haute-Savoie, d’après leur site, un office de tourisme ou Untappd.' },
   { date: '2026-10-21', texte: 'Deux brasseries de plus marquées fermées, La Valentinoise et Plouc, d’après l’annuaire officiel des entreprises ; trois brasseries qui ont déménagé sont à leur nouvelle adresse : Animus à Grigny-sur-Rhône, Paille à Lournand, Vellavia à Saint-Germain-Laprade.' },
   { date: '2026-10-21', texte: '11 brasseries gagnent une adresse, un téléphone, un site, des horaires ou des bières, lus sur leur site ou une page publique : la Divatte (bar et boutique, horaires, huit bières), Trip-Hop, Nomade Brewery, Grésiv’ale, Kan Mêm, La Couleuvre, Chartreuse, Manev’Ale, la Brasserie de Chanaz, RUN’HARD et 3B ; 7 autres, une note sur ce que disent leurs sources.' },

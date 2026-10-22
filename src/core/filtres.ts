@@ -18,6 +18,8 @@ export interface EtatFiltres {
   sansOsm: boolean
   /** « Seulement les pas encore visitées » (S35). */
   pasVisitees?: boolean
+  /** « Seulement mon carnet » (S350). */
+  carnetSeulement?: boolean
   /** « Ouvertes ce week-end » (S70). */
   ceWeekEnd?: boolean
 }
@@ -30,6 +32,7 @@ export function filtresActifs(f: EtatFiltres): string[] {
   if (f.favorisSeulement) actifs.push('seulement mes favoris')
   if (f.sansOsm) actifs.push('sans OpenStreetMap')
   if (f.pasVisitees === true) actifs.push('pas encore visitées')
+  if (f.carnetSeulement === true) actifs.push('seulement mon carnet')
   if (f.ceWeekEnd === true) actifs.push('ouvertes ce week-end')
   return actifs
 }

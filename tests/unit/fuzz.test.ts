@@ -40,7 +40,7 @@ function chaine(h: Hasard): string {
   return s
 }
 const NOMBRES = [0, -0, 1, 5, 30, 35, 100, 105, -5, 2.5, 1e308, -1e308, Number.MAX_SAFE_INTEGER, 7]
-const CLES = ['version', 'rayonKm', 'categories', 'type', 'depart', 'favoris', 'favorisSeulement', 'avecOsm', 'visites', 'pasVisitees', 'notes', 'theme', 'nom', 'date', 'texte', 'application', 'preferences', '__proto__', 'constructor', 'autre']
+const CLES = ['version', 'rayonKm', 'categories', 'type', 'depart', 'favoris', 'favorisSeulement', 'avecOsm', 'visites', 'pasVisitees', 'carnetSeulement', 'notes', 'theme', 'nom', 'date', 'texte', 'application', 'preferences', '__proto__', 'constructor', 'autre']
 
 /** Une valeur JSON quelconque, biaisée vers les formes des préférences. */
 function valeur(h: Hasard, profondeur = 0): unknown {
