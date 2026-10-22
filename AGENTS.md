@@ -54,8 +54,10 @@ dans l'ordre :
 1. sécurité, confidentialité, intégrité du dépôt ;
 2. les règles de ce fichier ;
 3. **les agents proposent, Cédric décide** : aucune ligne de `data/` ne
-   change sans son accord écrit, ligne par ligne — ou par la règle qu'il a
-   écrite le 18/10 (`docs/DECISIONS.md`), chaque PR listant ses lignes ;
+   change sans son accord écrit, ligne par ligne — ou par ses règles du
+   18/10 et du 21/10 (`docs/DECISIONS.md` : créer et modifier une fiche lue
+   sur une source publique, déménagements, fermetures et portables compris),
+   chaque PR listant ses lignes. Le **retrait** d'une fiche reste à lui ;
 4. le budget de `docs/SPRINTS.md`, et l'arrêt quand il est épuisé ;
 5. la définition de terminé (§8 du cahier des charges).
 
@@ -194,7 +196,8 @@ qu'aucune n'est rouge (`docs/RETRO-2026-10-21.md`).
 ## 9. Ce qui vaut arrêt
 
 - `main` rouge non corrigé.
-- Une ligne de `data/` modifiée sans accord écrit de Cédric.
+- Une ligne de `data/` modifiée sans accord écrit de Cédric ni l'une de ses
+  règles (§0).
 - Une requête qui emporte la position de la personne.
 - Le budget du sprint épuisé, ou une tâche à deux fois son estimation.
 
@@ -209,7 +212,7 @@ Raté du 17/10 : S51 à S54 ont été codés avant que leur story existe, et une
 story commune a couvert deux sprints ; la revue a ensuite trouvé quatre
 défauts que des critères écrits d'avance auraient posés. Depuis, à la
 demande de Cédric (« appliquer la méthode BMAD de façon permanente ») :
-**aucun code d'un sprint avant son fichier `docs/stories/Sxx.md`**, critères
+**aucun code d'un sprint avant son fichier `docs/stories/Sxx.md` (modèle : `docs/stories/MODELE.md`)**, critères
 et preuves compris (`/preparer-story`, `docs/METHODE.md`).
 
 ## 11. La revue adverse se calibre (repris d'ÉtapeForge §11)

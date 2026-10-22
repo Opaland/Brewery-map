@@ -1,8 +1,9 @@
 # S334 (revue globale du 19/10, C7) : les actions sont épinglées par leur
 # SHA ; Dependabot propose leurs mises à jour, une fois par mois. S351
 # (Cédric, 22/10) : npm aussi, une PR groupée par mois, sans les versions
-# majeures, qui restent à la main. Chaque PR passe la porte et attend la
-# revue de Cédric (CODEOWNERS, /.github/ et package-lock.json).
+# majeures, qui restent à la main. Chaque PR passe la porte ; la revue de
+# Cédric (CODEOWNERS) n'est imposée que si la protection de `main` l'exige
+# (#209).
 version: 2
 updates:
   - package-ecosystem: github-actions

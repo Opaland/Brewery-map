@@ -9,7 +9,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Ce qui est fait
 
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
-  hors connexion, anglais, accessibilité mesurée (S1 → S328).
+  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S355).
 - 453 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
   Bretagne, Pays de la Loire, Centre-Val de Loire), et 819 points OpenStreetMap « À confirmer ».
 - La règle du 18/10 (« site officiel + contrôlé ») appliquée :
@@ -18,7 +18,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Où en sont les fiches
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
-par un test. Au 19/10, après les onze lots de S297 (toutes les fiches relues une fois) :
+par un test. Au 22/10, après S342 :
 **19 fiches complètes sur 453** ; 189 « À confirmer » ; 292 sans bières, 301 sans téléphone, 319 sans horaires.
 Le 19/10, 10 fiches sans aucune trace ont été retirées (S298, méthode de Cédric).
 Le 19/10, les 348 fiches ont été cherchées au registre des entreprises :
@@ -45,17 +45,12 @@ autre commune).
 
 ## Ce qui t'attend, Cédric
 
-1. **Des lots de propositions, à accepter par numéros** (le plus récent en
-   premier) :
-   - `curation/dep-45.md`, `dep-41.md`, `dep-18.md`, `dep-36.md`,
-     `dep-28.md` : 19 fiches nouvelles du Centre-Val de Loire (S328) ;
-   - `curation/s327-a-relancer.md` : 3 fiches nouvelles (S327) ;
-   - `curation/s326-relues-du-poste.md` : 6 propositions et 4 questions,
-     dont les portables (S326) ;
-   - `curation/s323-adresses-lyon-4.md`, `s314-adresses-lyon-3.md`, et le
-     reste de `s309` et `s311` : les adresses autour de Lyon ;
-   - la **PR #159** (tes accords du 20/10 : adresses, fermées,
-     déménagements), qui attend ta revue.
+1. **Les décisions en issues** (revue globale du 22/10) : la protection de
+   `main` (#209), sept fiches d'origine « solide » sur un office de tourisme
+   (#214), la première campagne d'essais des agents (#216), Popihn et
+   Lavigney (#217). Tous les lots de propositions sont appliqués (le 20, le
+   21 et le 22/10) ; seules restent, exprès, les notes périmées de s311 et
+   s314 sur des fiches fermées ou déménagées.
 2. `curation/A-MONTRER.md` : onze groupes, une réponse par groupe (le
    tableau en tête).
 3. `docs/DECISIONS.md`, « Reste à Cédric » : la définition d'une fiche

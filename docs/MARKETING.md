@@ -63,7 +63,7 @@ juste a intérêt à la partager. Chacune qui le fait apporte ses clients.
   une erreur ? un clic pour la corriger. » La fiche juste est le cadeau.
 - **Un QR code imprimable** par brasserie (« Retrouvez-nous sur Mousse de
   Poche »), pour le comptoir. À fabriquer depuis le lien par fiche.
-- **Les offices de tourisme** des 24 départements vérifiés : leur proposer
+- **Les offices de tourisme** des 39 départements vérifiés : leur proposer
   l'outil pour leurs pages « route de la bière ».
 
 ### Ensuite — l'événement

@@ -35,10 +35,10 @@ fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
 228 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
 d'adresse vérifiée ; 36 brasseries de Normandie, 81 de Bretagne et 75 des Pays de la Loire et
-d'Indre-et-Loire sont ajoutées, puis 37 de l'Allier, du Cantal, du
-Puy-de-Dôme et de la Haute-Savoie (S341), et 46 de Bourgogne-Franche-Comté
-(S342). Les autres
-propositions attendent sa relecture (`curation/`).
+d'Indre-et-Loire sont ajoutées, puis 22 du Centre-Val de Loire et de
+Bretagne (S327, S328), 37 de l'Allier, du Cantal, du Puy-de-Dôme et de la
+Haute-Savoie (S341), et 46 de Bourgogne-Franche-Comté (S342). Les
+propositions et leurs accords sont dans `curation/`.
 
 ## Ce qui reste dans le téléphone
 
@@ -109,7 +109,7 @@ git clone -c core.autocrlf=false https://github.com/Opaland/Brewery-map.git
 cd Brewery-map
 npm ci
 npx playwright install chromium
-npm run porte                    # lint, tsc -b, vitest, build, puis e2e
+npm run porte                    # lint, tsc -b, vitest, garde de data/, build, e2e
 ```
 
 Une variable d'environnement se pose avant la commande, sur sa ligne :

@@ -15,7 +15,7 @@ réglages vivent dans le navigateur.
 
 | Source | Fichier | Qui l'écrit | Validation |
 |---|---|---|---|
-| Fiches vérifiées | `data/breweries.json` | Cédric seul (§0) ; les agents proposent dans `curation/` | `src/core/schema.ts` (Zod), **dans le build** (`build/valider-donnees.ts`) : un fichier invalide ne se publie pas |
+| Fiches vérifiées | `data/breweries.json` | Cédric, ou ses règles du 18/10 et du 21/10 (`AGENTS.md` §0) ; les agents proposent dans `curation/` | `src/core/schema.ts` (Zod), **dans le build** (`build/valider-donnees.ts`) : un fichier invalide ne se publie pas |
 | Brasseries OpenStreetMap | `src/donnees-osm/brasseries-osm.json` (ODbL) | `outils/osm-france.ts` (Overpass, filtres, pays vérifié) | `validerDonneesOsm`, au build |
 | Communes de France | `public/communes-france.json`, `public/communes/` | `outils/communes.ts` (INSEE via Etalab, points Wikidata) | au build |
 
@@ -98,15 +98,16 @@ depuis Brest (vu rouge quand la suite dépend de la position).
 
 ## 5. La qualité, mécanique
 
-- **La porte** : lint, `tsc -b`, vitest, build, Playwright (Pixel 7). Elle
+- **La porte** : lint, `tsc -b`, vitest, garde de `data/`, build, Playwright (Pixel 7). Elle
   tourne dans le hook avant chaque commit (`.claude/hooks/`) et dans la CI
   (`.github/workflows/ci.yml`).
 - **Après le déploiement** : `tests/e2e/page-deployee.spec.ts` sonde la
   page publiée.
 - **Les agents** :
   - `relecteur-adverse` ;
-  - un agent par persona de `docs/PERSONAS.md` (`marie`, `bernard`,
-    `ines`… S353) ;
+  - un agent par persona de `docs/PERSONAS.md`, angles de revue compris
+    (`relecteur-de-workflows`, `contributrice-externe` ; table dans
+    `AGENTS.md`, S353) ;
   - `relecteur-de-promesses` ;
   - `chasseur-de-jumeaux` ;
   - `verificateur-de-tests` ;
@@ -117,4 +118,5 @@ depuis Brest (vu rouge quand la suite dépend de la position).
   - `revue-globale` ;
   - `lot-de-curation` ;
   - `veille` ;
-  - `preparer-story`.
+  - `preparer-story` ;
+  - `campagne-departement`.

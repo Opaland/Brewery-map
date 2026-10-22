@@ -33,8 +33,8 @@ interface Essai {
   interdits: string[]
 }
 
-/** Ce que l'essai peut faire sans demander : lire, chercher, git et vitest en lecture, le web. */
-const OUTILS = ['Read', 'Grep', 'Glob', 'Bash(git *)', 'Bash(npx vitest *)', 'WebFetch', 'WebSearch']
+/** Ce que l'essai peut faire sans demander : lire, chercher, git en lecture seule, vitest, le web (revue globale du 22/10 : `git *` permettait d'écrire). */
+const OUTILS = ['Read', 'Grep', 'Glob', 'Bash(git log *)', 'Bash(git diff *)', 'Bash(git show *)', 'Bash(git status*)', 'Bash(npx vitest *)', 'WebFetch', 'WebSearch']
 
 /**
  * Le transcript de la session. Son identifiant est imposé (`--session-id`) :
