@@ -22,11 +22,11 @@ describe('le contact', () => {
   })
 
   it('exige une source et une date : un numéro sans origine ne passe pas', () => {
-    const { source: _s, ...sansSource } = contact
-    void _s
+    const sansSource: Partial<typeof contact> = { ...contact }
+    Reflect.deleteProperty(sansSource, 'source')
     expect(erreurs({ ...valide, contact: sansSource })).not.toEqual([])
-    const { verifieLe: _v, ...sansDate } = contact
-    void _v
+    const sansDate: Partial<typeof contact> = { ...contact }
+    Reflect.deleteProperty(sansDate, 'verifieLe')
     expect(erreurs({ ...valide, contact: sansDate })).not.toEqual([])
   })
 
