@@ -1,0 +1,86 @@
+[
+ {
+  "cle": "sirene:907687990",
+  "nom": "LA MECANIQUE DES FLUIDES",
+  "communes": [
+   "CHEVREMONT"
+  ],
+  "departement": "90",
+  "adresses": [
+   "6 RUE DE L'USINE 90340 CHEVREMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907687990",
+  "sirets": [
+   "90768799000016"
+  ],
+  "osm": [],
+  "lat": 47.6223028312969,
+  "lon": 6.92135355652845,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "GIROMAGNY"
+  ],
+  "departement": "90",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/6529968616",
+  "nom": "Brasserie du Territoire OXL",
+  "communes": [
+   "Auxelles-Bas"
+  ],
+  "departement": "90",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6529968616"
+  ],
+  "lat": 47.73326,
+  "lon": 6.77984,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8488370771",
+  "nom": "Brasserie du Faubourg",
+  "communes": [
+   "Belfort"
+  ],
+  "departement": "90",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8488370771"
+  ],
+  "lat": 47.62935,
+  "lon": 6.85673,
+  "statut": "ambigu",
+  "fiche": "La Fabrique du Faubourg"
+ }
+]

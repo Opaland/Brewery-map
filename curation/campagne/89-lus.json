@@ -1,0 +1,294 @@
+[
+  {
+    "cle": "sirene:901477745",
+    "n": "Tipsip Brewing",
+    "c": "Avallon",
+    "adresse": "14 rue du Général Leclerc, 89200 Avallon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On y achète des fûts et loue une tireuse, et l’on peut réserver une visite avec dégustation, d’après son site. Pas d’horaires publiés.",
+    "src": "https://www.tipsip.fr",
+    "extrait": "Vous pouvez acheter des futs et louer une tireuse pour le weekend !",
+    "beers": [
+      {
+        "type": "ipa",
+        "url": "https://untappd.com/Tipsip"
+      },
+      {
+        "type": "stout",
+        "url": "https://untappd.com/Tipsip"
+      },
+      {
+        "type": "sour",
+        "url": "https://untappd.com/Tipsip"
+      },
+      {
+        "type": "blanche",
+        "url": "https://untappd.com/Tipsip"
+      }
+    ],
+    "choix": "Tipsy Brewing au registre (siège à Brassy, Nièvre) est Tipsip : même SIREN ; son site et Untappd la placent à Avallon, où elle reçoit. Une seule fiche, dans l’Yonne. Catégorie 2 : retrait et fûts écrits ; la dégustation n’est que celle d’une visite réservée. Seule ligne publiée : un portable (règle du 21/10). Types lus sur Untappd (IPA, Stout, Berliner Weisse, Hefeweizen).",
+    "contact": {
+      "tel": "07 56 84 40 48",
+      "site": "https://www.tipsip.fr",
+      "untappd": "https://untappd.com/Tipsip",
+      "source": "https://www.tipsip.fr"
+    }
+  },
+  {
+    "cle": "node/8090252861",
+    "n": "Bières de la Colline",
+    "c": "Vézelay",
+    "adresse": "4 route d'Avallon, 89450 Vézelay",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bières brassées sur place, vendues à la brasserie en 33 cl et 75 cl, et à boire sur place, en terrasse ou à l’intérieur, d’après son site. Du lundi au jeudi, vente à emporter sur rendez-vous seulement.",
+    "src": "https://www.bieresdelacolline.fr",
+    "extrait": "Vous pouvez également les savourer sur place, que ce soit sur la terrasse ou dans l’espace intérieur",
+    "beers": [],
+    "choix": "Téléphone fixe donné en clair sur la page de contact ; le portable du pied de page est écarté. Pas d’Untappd propre (la page « Brasserie de Vézelay » est une autre brasserie). Horaires d’accueil du vendredi au dimanche ; le rendez-vous du lundi au jeudi en remarque.",
+    "contact": {
+      "tel": "09 72 45 65 60",
+      "site": "https://www.bieresdelacolline.fr",
+      "source": "https://www.bieresdelacolline.fr/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "14:00",
+            "18:30"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "19:00"
+          ]
+        ],
+        "dim": [
+          [
+            "14:00",
+            "18:30"
+          ]
+        ],
+        "remarque": "Du lundi au jeudi : sur rendez-vous, vente à emporter seulement.",
+        "source": "https://www.bieresdelacolline.fr/contact/",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:841511835",
+    "n": "Grand Duc Microbrasserie",
+    "c": "Sormery",
+    "adresse": "55 Rue de la Forêt, 89570 Sormery",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site, Untappd, OpenStreetMap). Son site annonce des visites sur rendez-vous et la vente chez des revendeurs de l’Yonne et de l’Aube ; il ne dit pas si l’on peut acheter ou boire sur place.",
+    "src": "https://legrandduc-microbrasserie.fr/",
+    "extrait": "Visite sur rendez-vous, nous contacter",
+    "beers": [],
+    "choix": "Catégorie 0 : ni vente ni dégustation sur place écrites. Seule ligne publiée : un portable (règle du 21/10). Types de bière non repris, faute de passage exact. Une page Untappd existe (untappd.com/GrandDucMicrobrasserie) mais le site ne la cite pas : non reprise.",
+    "contact": {
+      "tel": "06 76 38 93 66",
+      "site": "https://legrandduc-microbrasserie.fr/",
+      "source": "https://legrandduc-microbrasserie.fr/"
+    }
+  },
+  {
+    "cle": "sirene:823178751",
+    "n": "Brasserie de Chablis (Maddam)",
+    "c": "Chablis",
+    "adresse": "4 rue des Vendanges, 89800 Chablis",
+    "cat": 0,
+    "conf": "",
+    "note": "Visite de la brasserie sur réservation, avec dégustation ; bouteilles et coffrets en vente à l’issue de la visite, d’après son site. Rien ne dit qu’on peut acheter sans réserver une visite.",
+    "src": "https://www.maddam-chablis.com/visitez-brasserie-chablis/",
+    "extrait": "Vous pourrez acheter des bouteilles de bière ainsi que des coffrets à l’issue de la visite",
+    "beers": [],
+    "choix": "Catégorie 0 : l’achat n’est écrit qu’au terme d’une visite réservée. Téléphone fixe du site. Maddam est la marque ; le registre dit Brasserie de Chablis.",
+    "contact": {
+      "tel": "03 45 45 25 62",
+      "site": "https://www.maddam-chablis.com",
+      "source": "https://www.maddam-chablis.com/"
+    }
+  },
+  {
+    "cle": "sirene:485168801",
+    "n": "Brasserie Larché",
+    "c": "Sens",
+    "adresse": "89 rue Bellocier, 89100 Sens",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Une boutique à côté de la brasserie, ouverte en semaine, d’après l’office de tourisme de Sens. Visites sur rendez-vous, pour des groupes de 10 personnes au moins. L’office donne la boutique ouverte du lundi au vendredi, 8 h 30 – 12 h et 14 h – 18 h.",
+    "src": "https://en.tourisme-sens.com/?p=11046",
+    "extrait": "The shop is open from Monday to Friday from 8.30 am to noon and from 2.pm to 6.pm.",
+    "beers": [],
+    "choix": "Office de tourisme : confiance moyenne. Téléphone fixe du site de la brasserie. Rien sur la consommation sur place. Horaires en anglais (« 8.30 am to noon ») que le contrôle ne relit pas : mis dans la note, pas en horaires.",
+    "contact": {
+      "tel": "03 86 65 19 89",
+      "site": "https://www.brasserie-larche.fr",
+      "source": "https://www.brasserie-larche.fr/contact/"
+    }
+  },
+  {
+    "cle": "sirene:878239979",
+    "n": "Fayyar",
+    "c": "Saint-Bris-le-Vineux",
+    "adresse": "16 rue de Paris, 89530 Saint-Bris-le-Vineux",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La visite de la brasserie se termine par une dégustation dans son espace de vente, d’après son site, qui publie ses horaires d’ouverture du lundi au samedi.",
+    "src": "https://www.fayyar.fr/",
+    "extrait": "terminez par une dégustation dans notre nouvel espace de vente ! Verre à bière offert",
+    "beers": [],
+    "choix": "Catégorie 2 : un espace de vente ; la dégustation n’est que celle de la visite. Le portable « commerce » retenu (seules lignes publiées : deux portables ; règle du 21/10), celui de la gestion écarté. Aucun nom de personne repris. Horaires du site (pas le dimanche d’OpenStreetMap).",
+    "contact": {
+      "tel": "07 66 47 06 76",
+      "site": "https://www.fayyar.fr/",
+      "source": "https://www.fayyar.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "source": "https://www.fayyar.fr/",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:532737327",
+    "n": "Brasserie de Vézelay",
+    "c": "Saint-Père",
+    "adresse": "Rue du Gravier, 89450 Saint-Père",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Un bar-boutique ouvert toute l’année pour déguster les bières de la brasserie, et des bières à emporter, du mardi au samedi, d’après son site.",
+    "src": "https://brasseriedevezelay.fr/le-bar-boutique/",
+    "extrait": "Endroit prisé des connaisseurs, le bar-boutique de la brasserie de Vézelay vous accueille toute l’année pour vous faire déguster ces bières d’exception fraîchement brassées",
+    "beers": [
+      {
+        "type": "blonde",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      },
+      {
+        "type": "ipa",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      },
+      {
+        "type": "ambree",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      },
+      {
+        "type": "stout",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      },
+      {
+        "type": "blanche",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      },
+      {
+        "type": "brune",
+        "url": "https://untappd.com/BrasseriedeVezelay"
+      }
+    ],
+    "choix": "Téléphone général du site (repris par l’office de l’Yonne). Types lus sur Untappd : Blonde, IPA, Red Ale, Stout, Hefeweizen, Brown Ale. Horaires du bar-boutique.",
+    "contact": {
+      "tel": "03 86 34 98 38",
+      "site": "https://brasseriedevezelay.fr/",
+      "source": "https://brasseriedevezelay.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "12:00",
+            "18:30"
+          ]
+        ],
+        "mer": [
+          [
+            "12:00",
+            "18:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "12:00",
+            "18:30"
+          ]
+        ],
+        "ven": [
+          [
+            "12:00",
+            "18:30"
+          ]
+        ],
+        "sam": [
+          [
+            "12:00",
+            "18:30"
+          ]
+        ],
+        "source": "https://brasseriedevezelay.fr/le-bar-boutique/",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:814977641",
+    "n": "Brasserie Popihn",
+    "c": "Vaumort",
+    "adresse": null,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : sa page Untappd la dit micro-brasserie à Vaumort, et le registre la dit active. Rien de lu ne dit ce qu’on peut y faire : à confirmer.",
+    "src": "https://untappd.com/BrasseriePopihn",
+    "extrait": "Popihn Vaumort, Bourgogne-Franche-Comté France Micro Brewery",
+    "beers": [],
+    "choix": "Méthode du 19/10 : registre actif (11.05Z) et Untappd suffisent à l’existence, sans site. Aucun téléphone publié par la brasserie. Placée au centre de la commune.",
+    "contact": {
+      "untappd": "https://untappd.com/BrasseriePopihn",
+      "source": "https://untappd.com/BrasseriePopihn"
+    }
+  }
+]

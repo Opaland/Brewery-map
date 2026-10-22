@@ -1,0 +1,51 @@
+{
+ "candidat": "sirene:901477745",
+ "ajout": {
+  "fiche": {
+   "n": "Tipsip Brewing",
+   "c": "Avallon",
+   "d": "89",
+   "lat": 47.49378,
+   "lon": 3.90817,
+   "km": 212.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "On y achète des fûts et loue une tireuse, et l’on peut réserver une visite avec dégustation, d’après son site. Pas d’horaires publiés.",
+   "addr": "14 rue du Général Leclerc, 89200 Avallon",
+   "src": "https://www.tipsip.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa",
+     "url": "https://untappd.com/Tipsip"
+    },
+    {
+     "type": "stout",
+     "url": "https://untappd.com/Tipsip"
+    },
+    {
+     "type": "sour",
+     "url": "https://untappd.com/Tipsip"
+    },
+    {
+     "type": "blanche",
+     "url": "https://untappd.com/Tipsip"
+    }
+   ],
+   "contact": {
+    "tel": "07 56 84 40 48",
+    "site": "https://www.tipsip.fr",
+    "untappd": "https://untappd.com/Tipsip",
+    "source": "https://www.tipsip.fr",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.tipsip.fr",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+du+G%C3%A9n%C3%A9ral+Leclerc%2C+89200+Avallon&limit=5"
+  ],
+  "extrait": "Vous pouvez acheter des futs et louer une tireuse pour le weekend !",
+  "choix": "Tipsy Brewing au registre (siège à Brassy, Nièvre) est Tipsip : même SIREN ; son site et Untappd la placent à Avallon, où elle reçoit. Une seule fiche, dans l’Yonne. Catégorie 2 : retrait et fûts écrits ; la dégustation n’est que celle d’une visite réservée. Seule ligne publiée : un portable (règle du 21/10). Types lus sur Untappd (IPA, Stout, Berliner Weisse, Hefeweizen)."
+ }
+}

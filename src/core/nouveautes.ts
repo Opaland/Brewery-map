@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'df5cdcdb166dd12e',
+  empreinte: '54fe72e59fc17ef8',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 217 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 251 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire et en Auvergne-Rhône-Alpes.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 228 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 297 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes et en Bourgogne-Franche-Comté.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,8 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-22', texte: '46 brasseries ajoutées en Bourgogne-Franche-Comté (Côte-d’Or, Doubs, Jura, Nièvre, Haute-Saône, Yonne), d’après leur site, un office de tourisme ou Untappd.' },
+  { date: '2026-10-22', texte: 'Mon carnet : la case « Seulement mon carnet » montre les brasseries que vous avez visitées ou sur lesquelles vous avez écrit une note.' },
   { date: '2026-10-21', texte: '37 brasseries ajoutées dans l’Allier, le Cantal, le Puy-de-Dôme et la Haute-Savoie, d’après leur site, un office de tourisme ou Untappd.' },
   { date: '2026-10-21', texte: 'Deux brasseries de plus marquées fermées, La Valentinoise et Plouc, d’après l’annuaire officiel des entreprises ; trois brasseries qui ont déménagé sont à leur nouvelle adresse : Animus à Grigny-sur-Rhône, Paille à Lournand, Vellavia à Saint-Germain-Laprade.' },
   { date: '2026-10-21', texte: '11 brasseries gagnent une adresse, un téléphone, un site, des horaires ou des bières, lus sur leur site ou une page publique : la Divatte (bar et boutique, horaires, huit bières), Trip-Hop, Nomade Brewery, Grésiv’ale, Kan Mêm, La Couleuvre, Chartreuse, Manev’Ale, la Brasserie de Chanaz, RUN’HARD et 3B ; 7 autres, une note sur ce que disent leurs sources.' },

@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:804211571",
+ "ajout": {
+  "fiche": {
+   "n": "The Baboon (Brasserie des Babouins Jurassiens)",
+   "c": "Poligny",
+   "d": "39",
+   "lat": 46.84397,
+   "lon": 5.69025,
+   "km": 148.6,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Un bar et la vente à emporter, avec leurs horaires, d’après le site de la brasserie.",
+   "addr": "8 rue Jules et Charles Arnaud, 39800 Poligny",
+   "src": "https://www.thebaboon.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa",
+     "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+    },
+    {
+     "type": "blanche",
+     "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+    },
+    {
+     "type": "lager",
+     "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+    },
+    {
+     "type": "stout",
+     "url": "https://untappd.com/BrasseriedesBabouinsJurassiens"
+    }
+   ],
+   "contact": {
+    "site": "https://www.thebaboon.fr",
+    "untappd": "https://untappd.com/BrasseriedesBabouinsJurassiens",
+    "source": "https://www.thebaboon.fr",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.thebaboon.fr",
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Aussi le mercredi dès 11 h, sans heure de fin publiée ; bar aux mêmes jours.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.thebaboon.fr",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+Jules+et+Charles+Arnaud%2C+39800+Poligny&limit=5"
+  ],
+  "extrait": "Vente à emporter : Mercredi dès 11h, Jeudi et Vendredi de 16h à 22h",
+  "choix": "Le site dit « Bar : Mercredi dès 11h, Jeudi et Vendredi à partir de 16h » : bar et vente, catégorie 1. Aucun téléphone publié. Types lus sur Untappd (IPA, Witbier, Pilsner, Stout). Le point OSM node/5992553137 est le même lieu. Le mercredi, sans heure de fin, va en remarque."
+ }
+}

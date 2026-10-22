@@ -1,0 +1,47 @@
+{
+ "candidat": "sirene:994350833",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Barlou",
+   "c": "Quingey",
+   "d": "25",
+   "lat": 47.10089,
+   "lon": 5.87338,
+   "km": 180.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie inaugurée le 9 octobre 2026. Vente sur place le jeudi de 17 h à 20 h, et sur rendez-vous, d’après son site, encore en construction.",
+   "addr": "11 ZA La Blanchotte, 25440 Quingey",
+   "src": "https://brasseriebarlou.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 86 63 68 59",
+    "site": "https://brasseriebarlou.fr/",
+    "source": "https://brasseriebarlou.fr/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriebarlou.fr/",
+     "jeu": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "remarque": "Autres créneaux sur rendez-vous.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasseriebarlou.fr/",
+   "https://data.geopf.fr/geocodage/search?q=11+ZA+La+Blanchotte%2C+25440+Quingey&limit=5"
+  ],
+  "extrait": "Vente sur place le jeudi de 17h à 20h",
+  "choix": "Confiance moyenne : le site est une page d’attente ; un article de presse dit la même chose. Seule ligne publiée : un portable (règle du 21/10). Pas d’Untappd."
+ }
+}

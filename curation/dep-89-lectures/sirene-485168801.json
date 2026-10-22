@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:485168801",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Larché",
+   "c": "Sens",
+   "d": "89",
+   "lat": 48.20327,
+   "lon": 3.26809,
+   "km": 303,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Une boutique à côté de la brasserie, ouverte en semaine, d’après l’office de tourisme de Sens. Visites sur rendez-vous, pour des groupes de 10 personnes au moins. L’office donne la boutique ouverte du lundi au vendredi, 8 h 30 – 12 h et 14 h – 18 h.",
+   "addr": "89 rue Bellocier, 89100 Sens",
+   "src": "https://en.tourisme-sens.com/?p=11046",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 86 65 19 89",
+    "site": "https://www.brasserie-larche.fr",
+    "source": "https://www.brasserie-larche.fr/contact/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://en.tourisme-sens.com/?p=11046",
+   "https://www.brasserie-larche.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=89+rue+Bellocier%2C+89100+Sens&limit=5"
+  ],
+  "extrait": "The shop is open from Monday to Friday from 8.30 am to noon and from 2.pm to 6.pm.",
+  "choix": "Office de tourisme : confiance moyenne. Téléphone fixe du site de la brasserie. Rien sur la consommation sur place. Horaires en anglais (« 8.30 am to noon ») que le contrôle ne relit pas : mis dans la note, pas en horaires."
+ }
+}

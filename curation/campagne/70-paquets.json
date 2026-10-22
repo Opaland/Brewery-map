@@ -1,0 +1,251 @@
+[
+ [
+  {
+   "cle": "sirene:844248518",
+   "enseigne": "BIERES NEY",
+   "dep": "70",
+   "communes": [
+    "BUCEY-LES-GY"
+   ],
+   "adresses": [
+    "47 RUE DE L'EUROPE 70700 BUCEY-LES-GY",
+    "6 RUE DU MONT 70700 BUCEY-LES-GY"
+   ],
+   "osm": [
+    "node/4926352823"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987431798",
+   "enseigne": "LE FRANC BRASSEUR",
+   "dep": "70",
+   "communes": [
+    "RONCHAMP"
+   ],
+   "adresses": [
+    "9 T ALLEE DU CANAL 70250 RONCHAMP"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893785980",
+   "enseigne": "BRASSERIE ATYPIQUE",
+   "dep": "70",
+   "communes": [
+    "LURE"
+   ],
+   "adresses": [
+    "8 RUE DES JARDINS 70200 LURE"
+   ],
+   "osm": [
+    "node/9162147983"
+   ],
+   "site": "https://brasserie-atypique.business.site/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899259584",
+   "enseigne": "BRASSERIE LUXOVIENNE",
+   "dep": "70",
+   "communes": [
+    "LUXEUIL-LES-BAINS"
+   ],
+   "adresses": [
+    "9 RUE DU DOCTEUR GILLES CUGNIER 70300 LUXEUIL-LES-BAINS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828908103",
+   "enseigne": "BRASSERIE ARTISANALE DE LA RENTE ROUGE",
+   "dep": "70",
+   "communes": [
+    "CHARGEY-LES-GRAY"
+   ],
+   "adresses": [
+    "LA RENTE ROUGE 70100 CHARGEY-LES-GRAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:889943783",
+   "enseigne": "LA BRASSERIE DU 19 JUIN",
+   "dep": "70",
+   "communes": [
+    "VESOUL"
+   ],
+   "adresses": [
+    "22 RUE ROBERT FONTESSE 70000 VESOUL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:931916910",
+   "enseigne": "BRASSERIE 1551",
+   "dep": "70",
+   "communes": [
+    "CHARCENNE"
+   ],
+   "adresses": [
+    "7 ROUTE D'AVRIGNEY 70700 CHARCENNE"
+   ],
+   "osm": [
+    "node/12893698260"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:929425783",
+   "enseigne": "LES AMIS D'ANTHON",
+   "dep": "70",
+   "communes": [
+    "RIOZ"
+   ],
+   "adresses": [
+    "4 RUE DE LA VILLEDIEU 70190 RIOZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828810606",
+   "enseigne": "LE FRANC BRASSEUR",
+   "dep": "70",
+   "communes": [
+    "RONCHAMP"
+   ],
+   "adresses": [
+    "9 T ALLEE DU CANAL 70250 RONCHAMP"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "BRASSERIE REDOUTEY (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "70",
+   "communes": [
+    "LAVIGNEY"
+   ],
+   "adresses": [
+    "13 RUE DU CHANOIS 70120 LAVIGNEY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:945333433",
+   "enseigne": "BEEROLOGIST'S LAB",
+   "dep": "70",
+   "communes": [
+    "TERNUAY-MELAY-ET-SAINT-HILAIRE"
+   ],
+   "adresses": [
+    "4 RUE DU CHAVANY 70270 TERNUAY-MELAY-ET-SAINT-HILAIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852364827",
+   "enseigne": "BRASSERIE DES 1000 ETANGS",
+   "dep": "70",
+   "communes": [
+    "FAUCOGNEY-ET-LA-MER"
+   ],
+   "adresses": [
+    "5 RUE DE L'EGLISE 70310 FAUCOGNEY-ET-LA-MER"
+   ],
+   "osm": [
+    "node/8330725990"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:883029977",
+   "enseigne": "LA MALACH",
+   "dep": "70",
+   "communes": [
+    "LA MALACHERE"
+   ],
+   "adresses": [
+    "2 A RUE DES FONTENIS 70190 LA MALACHERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11308281785",
+   "enseigne": "Brasserie Frizon",
+   "dep": "70",
+   "communes": [
+    "Plancher-les-Mines"
+   ],
+   "adresses": [
+    "15 Quartier de Saint-Antoine, 70290 Plancher-les-Mines"
+   ],
+   "osm": [
+    "node/11308281785"
+   ],
+   "site": "https://www.brasseriefrizon.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12553658965",
+   "enseigne": "Le Fanc Brasseur",
+   "dep": "70",
+   "communes": [
+    "Ronchamp"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12553658965"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/14049302153",
+   "enseigne": "La rente rouge",
+   "dep": "70",
+   "communes": [
+    "Oyrières"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/14049302153"
+   ],
+   "site": "https://www.larenterouge-brasserie.fr/fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7884180792",
+   "enseigne": "Dan’s Beer",
+   "dep": "70",
+   "communes": [
+    "Cirey"
+   ],
+   "adresses": [
+    "27 Rue de l'Église, 70190 Cirey"
+   ],
+   "osm": [
+    "node/7884180792"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

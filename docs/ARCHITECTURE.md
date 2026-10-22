@@ -105,7 +105,8 @@ depuis Brest (vu rouge quand la suite dépend de la position).
   page publiée.
 - **Les agents** :
   - `relecteur-adverse` ;
-  - `relecteur-de-persona` ;
+  - un agent par persona de `docs/PERSONAS.md` (`marie`, `bernard`,
+    `ines`… S353) ;
   - `relecteur-de-promesses` ;
   - `chasseur-de-jumeaux` ;
   - `verificateur-de-tests` ;

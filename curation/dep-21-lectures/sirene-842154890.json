@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:842154890",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Kanopée",
+   "c": "Sainte-Marie-sur-Ouche",
+   "d": "21",
+   "lat": 47.2934,
+   "lon": 4.80349,
+   "km": 180.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Un bar-boutique où l'on déguste les bières brassées sur place, ouvert toute l'année le vendredi et le samedi après-midi, d'après son site.",
+   "addr": "255 rue de la Gare, Pont de Pany, 21410 Sainte-Marie-sur-Ouche",
+   "src": "https://www.la-kanopee.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 99 55 83 74",
+    "site": "https://www.la-kanopee.com/",
+    "source": "https://www.la-kanopee.com/contact",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.la-kanopee.com/",
+     "ven": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:30"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.la-kanopee.com/",
+   "https://www.la-kanopee.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=Sainte-Marie-sur-Ouche&type=municipality&limit=5"
+  ],
+  "extrait": "La Kanopée, c’est aussi un bar-boutique convivial",
+  "choix": "Seule ligne publiée : un portable, retenu. Les dimanches vus sur un réseau social sont des portes ouvertes : écartés. Bières du site non reprises : Untappd fait foi."
+ }
+}

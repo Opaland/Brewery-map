@@ -1,0 +1,96 @@
+{
+ "candidat": "sirene:532737327",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Vézelay",
+   "c": "Saint-Père",
+   "d": "89",
+   "lat": 47.46343,
+   "lon": 3.77033,
+   "km": 212.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Un bar-boutique ouvert toute l’année pour déguster les bières de la brasserie, et des bières à emporter, du mardi au samedi, d’après son site.",
+   "addr": "Rue du Gravier, 89450 Saint-Père",
+   "src": "https://brasseriedevezelay.fr/le-bar-boutique/",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "blonde",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    },
+    {
+     "type": "ipa",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    },
+    {
+     "type": "ambree",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    },
+    {
+     "type": "stout",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    },
+    {
+     "type": "blanche",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    },
+    {
+     "type": "brune",
+     "url": "https://untappd.com/BrasseriedeVezelay"
+    }
+   ],
+   "contact": {
+    "tel": "03 86 34 98 38",
+    "site": "https://brasseriedevezelay.fr/",
+    "source": "https://brasseriedevezelay.fr/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedevezelay.fr/le-bar-boutique/",
+     "mar": [
+      [
+       "12:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "18:30"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasseriedevezelay.fr/le-bar-boutique/",
+   "https://brasseriedevezelay.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-P%C3%A8re&type=municipality&limit=5"
+  ],
+  "extrait": "Endroit prisé des connaisseurs, le bar-boutique de la brasserie de Vézelay vous accueille toute l’année pour vous faire déguster ces bières d’exception fraîchement brassées",
+  "choix": "Téléphone général du site (repris par l’office de l’Yonne). Types lus sur Untappd : Blonde, IPA, Red Ale, Stout, Hefeweizen, Brown Ale. Horaires du bar-boutique."
+ }
+}

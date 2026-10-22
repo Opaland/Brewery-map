@@ -1,0 +1,60 @@
+{
+ "candidat": "node/8090252861",
+ "ajout": {
+  "fiche": {
+   "n": "Bières de la Colline",
+   "c": "Vézelay",
+   "d": "89",
+   "lat": 47.46269,
+   "lon": 3.74209,
+   "km": 213.4,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Bières brassées sur place, vendues à la brasserie en 33 cl et 75 cl, et à boire sur place, en terrasse ou à l’intérieur, d’après son site. Du lundi au jeudi, vente à emporter sur rendez-vous seulement.",
+   "addr": "4 route d'Avallon, 89450 Vézelay",
+   "src": "https://www.bieresdelacolline.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 72 45 65 60",
+    "site": "https://www.bieresdelacolline.fr",
+    "source": "https://www.bieresdelacolline.fr/contact/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.bieresdelacolline.fr/contact/",
+     "ven": [
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "dim": [
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "remarque": "Du lundi au jeudi : sur rendez-vous, vente à emporter seulement.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.bieresdelacolline.fr",
+   "https://www.bieresdelacolline.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=4+route+d%27Avallon%2C+89450+V%C3%A9zelay&limit=5"
+  ],
+  "extrait": "Vous pouvez également les savourer sur place, que ce soit sur la terrasse ou dans l’espace intérieur",
+  "choix": "Téléphone fixe donné en clair sur la page de contact ; le portable du pied de page est écarté. Pas d’Untappd propre (la page « Brasserie de Vézelay » est une autre brasserie). Horaires d’accueil du vendredi au dimanche ; le rendez-vous du lundi au jeudi en remarque."
+ }
+}

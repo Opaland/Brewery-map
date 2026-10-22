@@ -564,11 +564,30 @@ outils/agent/skill de carto si besoin »).
 | S347 | Nouvelle-Aquitaine | 16, 17, 19, 23, 24, 33, 40, 47, 64, 79, 86, 87 |
 | S348 | Occitanie | 09, 11, 12, 30, 31, 32, 34, 46, 48, 65, 66, 81, 82 |
 
+### E37 — Le mode de développement d'ISTQBFinder *(persona : la contributrice externe ; demande de Cédric du 22/10)*
+
+Cédric, le 22/10 : « regarde le projet ISTQB. Il a mis en place un mode de
+dev avec des rules des agents et des personna de façon autonome. je veux
+que tu appliques les même règles dans ce projet ». Lu dans
+`Opaland/ISTQBFinder` le 22/10 : `AGENTS.md` source unique des consignes,
+importé par `CLAUDE.md` ; une persona = un agent nommé, outils au plus
+juste, phrases obligatoires tenues par un test ; permissions explicites ;
+un problème = une issue, un correctif = une PR qui la ferme ; essais de
+bout en bout des agents, résultats datés et verdict humain. Ses choix du
+22/10 : un agent par persona ; Claude seul (`AGENTS.md` lisible par
+Copilot, sans générateur) ; essais lancés à la main, sur son accord.
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S352 | `AGENTS.md`, source unique des règles (§0 à §11, mêmes numéros) et des règles de développement d'ISTQBFinder, importé par `CLAUDE.md` ; permissions explicites ; chaque « CLAUDE.md §n » cité existe | ISTQBFinder `AGENTS.md`, `.claude/settings.json` |
+| S353 | Un agent par persona de `docs/PERSONAS.md`, outils au plus juste, fiche tenue d'accord par un test ; `relecteur-de-persona` retiré ; en-têtes et phrases obligatoires de tous les agents testés | ISTQBFinder `.claude/agents/`, `tests/test_agents.py` |
+| S354 | Essais de bout en bout des agents (`claude -p --agent`), contrôles automatiques, résultats datés, tableau de verdicts ; première campagne sur l'accord de Cédric | ISTQBFinder `scripts/essais_agents.py`, `docs/essais-reponses.md` |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35) ; S335 à S339, hors plan (règle de Cédric, points moins urgents) ; plus S340 à S348, la France entière (E36).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35) ; S335 à S339, hors plan (règle de Cédric, points moins urgents) ; plus S340 à S348, la France entière (E36) ; S349 à S351, hors plan (réponses du 22/10) ; plus S352 à S354, le mode de développement d’ISTQBFinder (E37).
 
 ## Ordre d'exécution
 

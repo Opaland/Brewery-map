@@ -1,0 +1,47 @@
+[
+ [
+  {
+   "cle": "sirene:907687990",
+   "enseigne": "LA MECANIQUE DES FLUIDES",
+   "dep": "90",
+   "communes": [
+    "CHEVREMONT"
+   ],
+   "adresses": [
+    "6 RUE DE L'USINE 90340 CHEVREMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6529968616",
+   "enseigne": "Brasserie du Territoire OXL",
+   "dep": "90",
+   "communes": [
+    "Auxelles-Bas"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6529968616"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8488370771",
+   "enseigne": "Brasserie du Faubourg",
+   "dep": "90",
+   "communes": [
+    "Belfort"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8488370771"
+   ],
+   "statut": "ambigu"
+  }
+ ]
+]

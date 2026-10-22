@@ -16,6 +16,8 @@ export interface Criteres {
   seulement?: ReadonlySet<string>
   /** Écarter ces noms (« pas encore visitées », S35) ; absent = aucun. */
   exclure?: ReadonlySet<string>
+  /** Ne garder que le carnet (« seulement mon carnet », S350) ; absent = tous. */
+  carnet?: ReadonlySet<string>
   /** Un département (« 73 ») : ses brasseries, à toute distance (S27). */
   departement?: string
   /** « Ouvertes ce week-end » (S70) : les jours du week-end, à Paris ; absent = pas de filtre. */
@@ -83,8 +85,10 @@ function trouve(texte: string, mot: string): boolean {
  * Une seule fonction, lue par la recherche et par le compte (CLAUDE.md §4).
  */
 /** Un nom tapé ou un département choisi cherche à toute distance. */
-export function rechercherPartout(criteres: Pick<Criteres, 'texte' | 'departement'>): boolean {
-  return motsCherches(criteres.texte).length > 0 || criteres.departement !== undefined
+export function rechercherPartout(criteres: Pick<Criteres, 'texte' | 'departement' | 'carnet'>): boolean {
+  // « Seulement mon carnet » (S350) retrouve le carnet entier : borné au
+  // rayon, une visite lointaine comptait dans la case et manquait à la liste.
+  return motsCherches(criteres.texte).length > 0 || criteres.departement !== undefined || criteres.carnet !== undefined
 }
 
 /**
@@ -118,7 +122,7 @@ export function plusProche(brasseries: readonly Brasserie[], origine: Point, fil
 }
 
 /** Les filtres qui ne dépendent ni du lieu ni du texte. */
-export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement' | 'exclure' | 'weekEnd'>
+export type Filtres = Pick<Criteres, 'categories' | 'type' | 'seulement' | 'exclure' | 'carnet' | 'weekEnd'>
 
 /**
  * Ce qui écarte une brasserie de la liste (S301, issue #53) : la liste dit
@@ -129,6 +133,7 @@ export type Raison =
   | { type: 'categorie' }
   | { type: 'pas-favori' }
   | { type: 'visitee' }
+  | { type: 'hors-carnet' }
   | { type: 'type' }
   | { type: 'departement' }
   | { type: 'fermee' }
@@ -143,6 +148,7 @@ function raisonsDesFiltres(brasserie: Brasserie, f: Filtres): Raison[] {
   if (!f.categories.includes(brasserie.cat)) raisons.push({ type: 'categorie' })
   if (f.seulement !== undefined && !f.seulement.has(brasserie.n)) raisons.push({ type: 'pas-favori' })
   if (f.exclure?.has(brasserie.n) === true) raisons.push({ type: 'visitee' })
+  if (f.carnet !== undefined && !f.carnet.has(brasserie.n)) raisons.push({ type: 'hors-carnet' })
   if (f.type !== undefined && !brasserie.beers.some((b) => b.type === f.type)) raisons.push({ type: 'type' })
   if (f.weekEnd !== undefined) {
     const juge = jugeCeWeekEnd(brasserie, f.weekEnd)
@@ -198,8 +204,9 @@ export function raisonsDEcart(brasserie: Brasserie, criteres: Criteres): Raison[
 function raisonsAvecMots(brasserie: Brasserie, criteres: Criteres, mots: readonly string[]): Raison[] {
   const raisons = raisonsDesFiltres(brasserie, criteres)
   if (criteres.departement !== undefined && brasserie.d !== criteres.departement) raisons.push({ type: 'departement' })
-  // Fermée (décision #35) : hors de la liste, sauf cherchée par son nom.
-  if (brasserie.fermee !== undefined && mots.length === 0) raisons.push({ type: 'fermee' })
+  // Fermée (décision #35) : hors de la liste, sauf cherchée par son nom, ou
+  // dans le carnet (S350), avec son étiquette.
+  if (brasserie.fermee !== undefined && mots.length === 0 && criteres.carnet === undefined) raisons.push({ type: 'fermee' })
   if (mots.length > 0) {
     const texte = cible(brasserie)
     if (!mots.every((mot) => trouve(texte, mot))) raisons.push({ type: 'texte' })
@@ -214,7 +221,7 @@ function raisonsAvecMots(brasserie: Brasserie, criteres: Criteres, mots: readonl
  * qu'il faut accuser d'avoir vidé la liste (A11 pour le week-end, S315 pour
  * le carnet). Une règle, nommée une fois (CLAUDE.md §4).
  */
-export function videAussiSans(brasseries: readonly Brasserie[], criteres: Criteres, cle: 'exclure' | 'weekEnd'): boolean {
+export function videAussiSans(brasseries: readonly Brasserie[], criteres: Criteres, cle: 'exclure' | 'carnet' | 'weekEnd'): boolean {
   const sans: Criteres = { ...criteres }
   Reflect.deleteProperty(sans, cle)
   return rechercher(brasseries, sans).length === 0
@@ -273,6 +280,8 @@ export function libelleRaison(r: Raison): string {
       return t('hors du département choisi')
     case 'visitee':
       return t('déjà visitée')
+    case 'hors-carnet':
+      return t('pas dans votre carnet')
     case 'fermee':
       return t('fermée')
     case 'pas-favori':

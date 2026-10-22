@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:900075607",
+ "ajout": {
+  "fiche": {
+   "n": "La Bistraille",
+   "c": "Arinthod",
+   "d": "39",
+   "lat": 46.39117,
+   "lon": 5.56659,
+   "km": 101.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar et brasserie artisanale : on y boit ses bières à la pression ou en bouteilles, d’après la fiche de l’office de tourisme du Jura.",
+   "addr": "16 rue de la Croix de Fer, 39240 Arinthod",
+   "src": "https://www.jura-tourism.com/produit-regional/la-bistraille/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 20 14 37 03",
+    "source": "https://www.jura-tourism.com/produit-regional/la-bistraille/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/la-bistraille/",
+   "https://data.geopf.fr/geocodage/search?q=16+rue+de+la+Croix+de+Fer%2C+39240+Arinthod&limit=5"
+  ],
+  "extrait": "Vous pouvez y consommer nos bières, bien évidemment, à la pression ou en bouteilles",
+  "choix": "Office de tourisme seul : confiance moyenne (décision #37). Seule ligne publiée : un portable (règle du 21/10). Pas d’horaires. « Brasserie artisanale Long », à la même adresse, est le même lieu."
+ }
+}

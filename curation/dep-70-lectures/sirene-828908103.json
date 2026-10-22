@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:828908103",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale de la Rente Rouge",
+   "c": "Chargey-lès-Gray",
+   "d": "70",
+   "lat": 47.48647,
+   "lon": 5.574,
+   "km": 211,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie dit « Brasserie ouverte » le vendredi et le samedi, sans dire ce qu’on peut y faire (vente, dégustation).",
+   "addr": "La Rente Rouge, 70100 Chargey-lès-Gray",
+   "src": "http://www.larenterouge-brasserie.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 41 70 29",
+    "site": "http://www.larenterouge-brasserie.fr",
+    "source": "http://www.larenterouge-brasserie.fr",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.larenterouge-brasserie.fr",
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "http://www.larenterouge-brasserie.fr",
+   "https://data.geopf.fr/geocodage/search?q=Chargey-l%C3%A8s-Gray&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie ouverte",
+  "choix": "Catégorie 0 : le site ne dit pas la vente en toutes lettres ; le guide touristique qui la disait n’a pas pu être relu le 22/10. Horaires notés en accueil, d’après « Brasserie ouverte ». Seule ligne publiée : un portable, permis par la règle du 21/10. Adresse du registre et de l’office du Val de Gray, le site n’en publie pas."
+ }
+}

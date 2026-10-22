@@ -1,0 +1,142 @@
+[
+ [
+  {
+   "cle": "sirene:901477745",
+   "enseigne": "TIPSY BREWING",
+   "dep": "58",
+   "communes": [
+    "BRASSY"
+   ],
+   "adresses": [
+    "HAMEAU DE BONNETRE 29 IMPASSE DES CHASSOIS 58140 BRASSY",
+    "9 RUE DES ECOLIERS 58140 BRASSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:942685173",
+   "enseigne": "BM CRAFT",
+   "dep": "58",
+   "communes": [
+    "PLANCHEZ",
+    "MONTSAUCHE-LES-SETTONS"
+   ],
+   "adresses": [
+    "CHATEAU 58230 PLANCHEZ",
+    "1 CHEMIN DES GREBES 58230 MONTSAUCHE-LES-SETTONS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898184684",
+   "enseigne": "MICRO-BRASSERIE ASSOCIATIVE MATELO",
+   "dep": "58",
+   "communes": [
+    "SAINT-BENIN-D'AZY"
+   ],
+   "adresses": [
+    "LIEU DIT VALOTTE 58270 SAINT-BENIN-D'AZY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:521529073",
+   "enseigne": "BRASSERIE ARTISANALE DES BERTRANGES",
+   "dep": "58",
+   "communes": [
+    "SAINT-AUBIN-LES-FORGES"
+   ],
+   "adresses": [
+    "LIEUDIT VINGEUX 58130 SAINT-AUBIN-LES-FORGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818142937",
+   "enseigne": "HEXAGONE & ALES",
+   "dep": "58",
+   "communes": [
+    "SAINT-PIERRE-DU-MONT"
+   ],
+   "adresses": [
+    "LE CHATEAU 58210 SAINT-PIERRE-DU-MONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892451196",
+   "enseigne": "BRASSERIE ROBICHE",
+   "dep": "58",
+   "communes": [
+    "PARIGNY-LES-VAUX"
+   ],
+   "adresses": [
+    "LES VIGNES DE PINAY ROUTE DES CHAMPS DE PIERRE 58320 PARIGNY-LES-VAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DES COQUES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "58",
+   "communes": [
+    "COURCELLES"
+   ],
+   "adresses": [
+    "LES COQUES 58210 COURCELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:887984904",
+   "enseigne": "MICROBRASSERIE DU BANQUET",
+   "dep": "58",
+   "communes": [
+    "MHERE"
+   ],
+   "adresses": [
+    "JEAUX 58140 MHERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892347717",
+   "enseigne": "LA MORVAND'ALE",
+   "dep": "58",
+   "communes": [
+    "MONTSAUCHE-LES-SETTONS"
+   ],
+   "adresses": [
+    "AUX SETTONS 58230 MONTSAUCHE-LES-SETTONS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8671737083",
+   "enseigne": "Olieu - Bière bio de Nevers",
+   "dep": "58",
+   "communes": [
+    "Nevers"
+   ],
+   "adresses": [
+    "40 Rue Paul Vaillant-Couturier, 58000 Nevers"
+   ],
+   "osm": [
+    "node/8671737083"
+   ],
+   "site": "https://olieu.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

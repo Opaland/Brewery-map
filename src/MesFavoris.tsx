@@ -25,6 +25,10 @@ interface Props {
   nbVisites: number
   pasVisitees: boolean
   onPasVisitees: (v: boolean) => void
+  /** « Seulement mon carnet » (S350) : combien de brasseries visitées ou notées. */
+  nbCarnet: number
+  carnetSeulement: boolean
+  onCarnetSeulement: (v: boolean) => void
   /** Ce qui suit l'effacement dans le repli « gardés sur cet appareil » (S37 : la sauvegarde). */
   children?: ReactNode
 }
@@ -48,6 +52,9 @@ export function MesFavoris({
   nbVisites,
   pasVisitees,
   onPasVisitees,
+  nbCarnet,
+  carnetSeulement,
+  onCarnetSeulement,
   children,
 }: Props) {
   // Effacer se confirme : un toucher de travers ne doit pas coûter tous les
@@ -77,6 +84,18 @@ export function MesFavoris({
           data-testid="pas-visitees"
         />
         {nbVisites > 1 ? t('Seulement les brasseries pas encore visitées ({n} visitées)', { n: nbVisites }) : t('Seulement les brasseries pas encore visitées ({n} visitée)', { n: nbVisites })}
+      </label>
+      {/* Le carnet n'avait pas d'écran à lui (A26) : Cédric a choisi une case (22/10). */}
+      <label className="case">
+        <input
+          type="checkbox"
+          checked={carnetSeulement}
+          onChange={(e) => {
+            onCarnetSeulement(e.target.checked)
+          }}
+          data-testid="carnet-seulement"
+        />
+        {t('Seulement mon carnet : visitées ou notées ({n})', { n: nbCarnet })}
       </label>
       {nbFavoris === 0 && (
         <p className="champ-aide">

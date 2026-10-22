@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:814977641",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Popihn",
+   "c": "Vaumort",
+   "d": "89",
+   "lat": 48.15246,
+   "lon": 3.44056,
+   "km": 293,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : sa page Untappd la dit micro-brasserie à Vaumort, et le registre la dit active. Rien de lu ne dit ce qu’on peut y faire : à confirmer.",
+   "addr": "Vaumort",
+   "src": "https://untappd.com/BrasseriePopihn",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "untappd": "https://untappd.com/BrasseriePopihn",
+    "source": "https://untappd.com/BrasseriePopihn",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://untappd.com/BrasseriePopihn",
+   "https://data.geopf.fr/geocodage/search?q=Vaumort&type=municipality&limit=5"
+  ],
+  "extrait": "Popihn Vaumort, Bourgogne-Franche-Comté France Micro Brewery",
+  "choix": "Méthode du 19/10 : registre actif (11.05Z) et Untappd suffisent à l’existence, sans site. Aucun téléphone publié par la brasserie. Placée au centre de la commune."
+ }
+}

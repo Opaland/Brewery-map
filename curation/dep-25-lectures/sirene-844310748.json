@@ -1,0 +1,78 @@
+{
+ "candidat": "sirene:844310748",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Backporte",
+   "c": "Bart",
+   "d": "25",
+   "lat": 47.48322,
+   "lon": 6.76799,
+   "km": 253.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Tap room de la brasserie : ses bières à déguster sur place, avec un petit snack local, d’après son site.",
+   "addr": "12 rue Frédéric Japy, 25420 Bart",
+   "src": "https://backporte.com/tap-room/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 83 23 78 47",
+    "site": "https://backporte.com/",
+    "source": "https://backporte.com/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://backporte.com/tap-room/",
+     "jeu": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "periode": {
+      "du": "05-01",
+      "au": "09-30"
+     },
+     "verifieLe": "2026-10-22"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://backporte.com/tap-room/",
+     "jeu": [
+      [
+       "15:00",
+       "20:30"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "20:30"
+      ]
+     ],
+     "periode": {
+      "du": "10-01",
+      "au": "04-30"
+     },
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://backporte.com/tap-room/",
+   "https://backporte.com/",
+   "https://data.geopf.fr/geocodage/search?q=12+rue+Fr%C3%A9d%C3%A9ric+Japy%2C+25420+Bart&limit=5"
+  ],
+  "extrait": "nos bières sont toujours disponibles à déguster",
+  "choix": "Catégorie 1 : la page de la tap room dit la dégustation sur place ; la vente à emporter n’y est pas lue et n’est pas déduite. Téléphone fixe du site. Pas d’Untappd trouvé. Horaires de la tap room en deux saisons. Le point OSM node/9246694337 est le même lieu."
+ }
+}

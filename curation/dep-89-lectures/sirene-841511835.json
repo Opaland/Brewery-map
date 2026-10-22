@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:841511835",
+ "ajout": {
+  "fiche": {
+   "n": "Grand Duc Microbrasserie",
+   "c": "Sormery",
+   "d": "89",
+   "lat": 48.10867,
+   "lon": 3.75794,
+   "km": 281.1,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site, Untappd, OpenStreetMap). Son site annonce des visites sur rendez-vous et la vente chez des revendeurs de l’Yonne et de l’Aube ; il ne dit pas si l’on peut acheter ou boire sur place.",
+   "addr": "55 Rue de la Forêt, 89570 Sormery",
+   "src": "https://legrandduc-microbrasserie.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 76 38 93 66",
+    "site": "https://legrandduc-microbrasserie.fr/",
+    "source": "https://legrandduc-microbrasserie.fr/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://legrandduc-microbrasserie.fr/",
+   "https://data.geopf.fr/geocodage/search?q=55+Rue+de+la+For%C3%AAt%2C+89570+Sormery&limit=5"
+  ],
+  "extrait": "Visite sur rendez-vous, nous contacter",
+  "choix": "Catégorie 0 : ni vente ni dégustation sur place écrites. Seule ligne publiée : un portable (règle du 21/10). Types de bière non repris, faute de passage exact. Une page Untappd existe (untappd.com/GrandDucMicrobrasserie) mais le site ne la cite pas : non reprise."
+ }
+}

@@ -215,6 +215,10 @@ describe('S301, revue adverse', () => {
     expect(libelleRaison({ type: 'distance', km: 44.6, rayonKm: 20 })).toBe('≈ 45 km, au-delà du rayon de 20 km')
   })
 
+  it('S350 : un favori hors du carnet le dit', () => {
+    expect(libelleRaison({ type: 'hors-carnet' })).toBe('pas dans votre carnet')
+  })
+
   it('hors du mode « seulement », le texte tapé et le département choisi ne sont pas signalés seuls', () => {
     const texte = { nom: 'A', raisons: [{ type: 'texte' as const }] }
     const dep = { nom: 'B', raisons: [{ type: 'departement' as const }] }
@@ -235,6 +239,14 @@ describe('S301 CA1 : les raisons qui écartent une brasserie, une seule garde', 
     expect(types({ categories: TOUTES_CATEGORIES.filter((k) => k !== tom.cat) })).toEqual(['categorie'])
     expect(types({ seulement: new Set<string>() })).toEqual(['pas-favori'])
     expect(types({ exclure: new Set([tom.n]) })).toEqual(['visitee'])
+    expect(types({ carnet: new Set<string>() })).toEqual(['hors-carnet'])
+    expect(types({ carnet: new Set([tom.n]) })).toEqual([])
+    // Le carnet se retrouve d'un geste : ni le rayon ni la fermeture ne le
+    // cachent (revue adverse S350 : la case comptait ce que la liste taisait).
+    expect(types({ carnet: new Set([tom.n]), rayonKm: 1 })).toEqual([])
+    const fermee = { ...tom, fermee: { source: 'https://example.org/', verifieLe: '2026-10-20' } }
+    expect(raisonsDEcart(fermee, base).map((r) => r.type)).toEqual(['fermee'])
+    expect(raisonsDEcart(fermee, { ...base, carnet: new Set([tom.n]) })).toEqual([])
     expect(types({ texte: 'zzzzzz' })).toEqual(['texte'])
     expect(types({ departement: '01' })).toEqual(['departement'])
     const absent = TYPES_BIERE.find((x) => !tom.beers.some((b) => b.type === x.type))
@@ -251,6 +263,11 @@ describe('S301 CA1 : les raisons qui écartent une brasserie, une seule garde', 
       { ...base, departement: '69' },
       { ...base, seulement: new Set(['Tom & Co', 'Caribrew']) },
       { ...base, exclure: new Set(['Caribrew']) },
+      // S350 : le carnet se combine aux favoris (les deux) et aux visitées
+      // (les notées pas encore visitées).
+      { ...base, carnet: new Set(['Tom & Co', 'Caribrew']) },
+      { ...base, carnet: new Set(['Tom & Co', 'Caribrew']), seulement: new Set(['Caribrew']) },
+      { ...base, carnet: new Set(['Tom & Co', 'Caribrew']), exclure: new Set(['Caribrew']) },
     ]
     for (const c of variantes) {
       const gardees = new Set(rechercher(TOUTES, c).map((r) => r.brasserie.n))

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:894398593",
+ "ajout": {
+  "fiche": {
+   "n": "VIF",
+   "c": "Beaune",
+   "d": "21",
+   "lat": 47.00573,
+   "lon": 4.83546,
+   "km": 148.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "On peut acheter à la brasserie en la contactant avant ; visites sur rendez-vous, d'après son site. Il ne parle pas de bar.",
+   "addr": "5 rue Dominique Jean Larrey, 21200 Beaune",
+   "src": "https://www.boirevif.com/boutique",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 31 88 06 01",
+    "site": "https://www.boirevif.com",
+    "source": "https://www.boirevif.com/boutique",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.boirevif.com/boutique",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+Dominique+Jean+Larrey%2C+21200+Beaune&limit=5"
+  ],
+  "extrait": "Contactez nous pour une visite ou un achat à la brasserie",
+  "choix": "Seule ligne publiée : un portable, retenu. Aucun horaire : tout se fait sur rendez-vous. Une page Untappd existe (BoireVif), non citée par le site. Le registre donne aussi une adresse à Saint-Romain, qu'aucune page ne confirme."
+ }
+}

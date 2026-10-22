@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:808461081",
+ "ajout": {
+  "fiche": {
+   "n": "La Luxoise",
+   "c": "Gémeaux",
+   "d": "21",
+   "lat": 47.47741,
+   "lon": 5.13116,
+   "km": 202.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Un bar sur le site de production, avec la gamme à la pression, ouvert le vendredi soir, d’après le site de la brasserie. Horaires de la boutique discordants d’une page à l’autre : non repris.",
+   "addr": "12 rue des Charrières, 21120 Gémeaux",
+   "src": "https://la-luxoise.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 75 90 98 89",
+    "site": "https://la-luxoise.com/",
+    "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+     "ven": [
+      [
+       "18:00",
+       "00:00"
+      ]
+     ],
+     "remarque": "Bar de la brasserie. Samedi : sur événement seulement.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://la-luxoise.com/",
+   "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+   "https://data.geopf.fr/geocodage/search?q=12+rue+des+Charri%C3%A8res%2C+21120+G%C3%A9meaux&limit=5"
+  ],
+  "extrait": "Profitez du bar sur le site de production pour découvrir et déguster notre gamme de bière à la pression.",
+  "choix": "Nom d’usage « La Luxoise » (registre : Brasserie des Bières de Famille). Seule ligne publiée par la brasserie : un portable (règle du 21/10). Horaires : le bar seul."
+ }
+}
