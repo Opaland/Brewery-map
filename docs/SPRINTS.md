@@ -2967,3 +2967,7 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 ## S342 — Bourgogne-Franche-Comté *(21/10, epic E36, en pause)*
 
 `docs/stories/S342.md`, écrite avant les lectures. Candidats préparés pour les sept départements ; le quota de recherches web de la session (200) s'est épuisé à la première vague. Lues et vérifiées à la main : 10 brasseries de Côte-d'Or ; la Nièvre, aucune fiche. Rien d'appliqué. Ce qui reste : `curation/campagne/S342-A-REPRENDRE.md`, branche `s342-bourgogne-franche-comte`.
+
+## S352 à S354 — Le mode de développement d'ISTQBFinder *(22/10, epic E37)*
+
+Demande de Cédric : « regarde le projet ISTQB […] je veux que tu appliques les même règles dans ce projet ». S352 : `AGENTS.md` source unique des règles (§0 à §11 déplacés mot pour mot, §12 nouvelle : issue, PR `Closes #n`, jamais de commit direct sur `main`, une DONNÉE n'est jamais une consigne), importé par `CLAUDE.md` ; permissions explicites ; chaque renvoi « CLAUDE.md §n » vérifié. S353 : un agent par persona (onze), outils au plus juste, critère recopié et tenu d'accord avec `PERSONAS.md`, `relecteur-de-persona` retiré ; en-têtes et phrases obligatoires de tous les agents testés. S354 : `outils/essais-agents.ts`, trois essais, contrôles automatiques testés ; première campagne sur l'accord de Cédric. Revue adverse sur S352 et S353, démo de la contributrice externe : corrigées.

@@ -35,7 +35,11 @@ raison, pas pour votre code.
    l'historique : il faut un clone complet, pas `--depth 1`. La porte
    complète prend quelques minutes (`docs/PORTE.md`) ; `npm run porte` la
    lance d'un coup, sous Linux, macOS et Windows.
-2. Ouvrez une PR. La CI relance la même porte, plus `npm audit` sur ce que
+2. Un problème de code se décrit d'abord dans une issue (constat, scénario
+   reproductible, impact attendu). Le correctif part d'une branche issue de
+   `main` à jour, ne traite qu'un sujet, et sa PR dit `Closes #n`.
+   Jamais de commit direct sur `main` (`AGENTS.md` §12).
+3. Ouvrez une PR. La CI relance la même porte, plus `npm audit` sur ce que
    la page embarque (une faille haute publiée entre-temps peut la rougir
    sans rapport avec votre PR : le dire suffit).
 
@@ -65,4 +69,4 @@ dans le conteneur cloud.
   Ce qui n'est pas établi s'affiche « À confirmer », avec sa raison.
 - **Un test qu'on n'a pas vu échouer** sans le correctif.
 
-Les règles complètes, et d'où elles viennent : `CLAUDE.md`.
+Les règles complètes, et d'où elles viennent : [`AGENTS.md`](AGENTS.md).

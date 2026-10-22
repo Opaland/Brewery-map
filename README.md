@@ -123,7 +123,7 @@ Remove-Item Env:MOUSSE_URL
 conteneur cloud, où Chromium est déjà installé.
 
 Le build échoue si `data/breweries.json` ne respecte pas le schéma
-(`src/core/schema.ts`). Les règles du projet sont dans `CLAUDE.md`, le
+(`src/core/schema.ts`). Les règles du projet sont dans [`AGENTS.md`](AGENTS.md), le
 plan et le bilan de chaque sprint dans [`docs/SPRINTS.md`](docs/SPRINTS.md),
 les données dans [`docs/DONNEES.md`](docs/DONNEES.md), ce qui reste dans
 [`BACKLOG.md`](BACKLOG.md).

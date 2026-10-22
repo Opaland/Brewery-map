@@ -1,0 +1,25 @@
+{
+  "essais": [
+    {
+      "id": "A1-defaut-plante",
+      "agent": "relecteur-adverse",
+      "question": "Relis eval/essais/defaut-plante.ts.txt comme un diff qu'on vient d'écrire : la fonction dansLaPeriode tient-elle sa promesse (bornes comprises, période qui passe le 1er janvier) ? Rends tes trouvailles vérifiées, chacune avec son fichier:ligne.",
+      "attendu": { "rubriques": [], "contient": ["defaut-plante.ts.txt:17"] },
+      "interdits": ["Write", "Edit", "NotebookEdit", "WebSearch", "WebFetch"]
+    },
+    {
+      "id": "P1-marie",
+      "agent": "marie",
+      "question": "Juge l'application telle qu'elle est sur main : peux-tu trouver une brasserie sympa près de Lyon et comprendre ce qu'on peut y faire, sans connaître le vocabulaire de la bière ? Rends ton rapport au format de ta fiche.",
+      "attendu": { "rubriques": ["Bloquant", "Gênant", "Vérifié sans obstacle", "Hypothèses"], "contient": [] },
+      "interdits": ["Write", "Edit", "NotebookEdit", "WebSearch", "WebFetch"]
+    },
+    {
+      "id": "V1-vezelay",
+      "agent": "verificateur-de-brasserie",
+      "question": "Vérifie la fiche « Brasserie de Vézelay » (Saint-Père, 89) de data/breweries.json contre son site officiel : rends tes propositions au format de src/core/curation.ts, chacune avec son extrait copié de la page, ou dis qu'il n'y a rien à proposer.",
+      "attendu": { "rubriques": [], "contient": ["brasseriedevezelay.fr"] },
+      "interdits": ["Bash", "Write", "Edit", "NotebookEdit"]
+    }
+  ]
+}

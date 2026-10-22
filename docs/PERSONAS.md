@@ -10,6 +10,10 @@ viennent du cahier des charges de Cédric (15/10/2026). Tout ce qui décrit
 leur comportement au-delà de cet objectif est une **hypothèse**, marquée
 comme telle.
 
+**Une fiche, un agent** (S353, 22/10, repris d'ISTQBFinder) : chaque
+fiche ci-dessous a son agent dans `.claude/agents/`, qui recopie son
+critère mot pour mot ; `tests/unit/agents.test.ts` les tient d'accord.
+
 Chaque fiche porte la date de ses constats. Une fiche non relue après un
 sprint qui la concerne ne sert pas à prioriser (leçon de Sentiers, issue
 #447).
@@ -114,7 +118,8 @@ besoins sont supposés, pas observés.*
 
 Ce ne sont pas des personnes qui utilisent l'application : ce sont deux
 regards sur le dépôt, repris d'ÉtapeForge (`revue-personas.md`), à lancer
-avec l'agent `relecteur-de-persona` en revue globale.
+en revue globale avec leurs agents, `relecteur-de-workflows` et
+`contributrice-externe`.
 
 ### Le relecteur de workflows
 
