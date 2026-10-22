@@ -61,6 +61,8 @@ const CHAMPS = {
   avecOsm: z.boolean(),
   /** « Seulement les pas encore visitées » (S35). */
   pasVisitees: z.boolean(),
+  /** « Seulement mon carnet » (S350, A26). */
+  carnetSeulement: z.boolean(),
   /** Le thème au choix (S45) : celui du système, ou forcé. */
   theme: z.enum(['auto', 'clair', 'sombre']),
 }
@@ -106,6 +108,7 @@ export interface Preferences {
   avecOsm: boolean
   visites: Visite[]
   pasVisitees: boolean
+  carnetSeulement: boolean
   notes: Note[]
   theme: Theme
 }
@@ -123,6 +126,7 @@ export const PREFERENCES_DEFAUT: Preferences = {
   avecOsm: true,
   visites: [],
   pasVisitees: false,
+  carnetSeulement: false,
   notes: [],
   theme: 'auto',
 }
@@ -159,9 +163,18 @@ export function lirePreferences(brut: unknown): Preferences {
     avecOsm: lire(CHAMPS.avecOsm, g.avecOsm, d.avecOsm),
     visites: lireVisites(g.visites),
     pasVisitees: lire(CHAMPS.pasVisitees, g.pasVisitees, d.pasVisitees),
+    carnetSeulement: lire(CHAMPS.carnetSeulement, g.carnetSeulement, d.carnetSeulement),
     notes: lireNotes(g.notes),
     theme: lire(CHAMPS.theme, g.theme, d.theme),
   }
+}
+
+/**
+ * Le carnet (S350) : les brasseries visitées ou notées, chacune une fois.
+ * Une seule définition, pour le filtre et pour les orphelins (CLAUDE.md §4).
+ */
+export function nomsDuCarnet(visites: readonly Visite[], notes: readonly Note[]): Set<string> {
+  return new Set([...visites.map((v) => v.nom), ...notes.map((n) => n.nom)])
 }
 
 /** Note par note : une illisible ou vide tombe seule ; une trop longue est coupée. */

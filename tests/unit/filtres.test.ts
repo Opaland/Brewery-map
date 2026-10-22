@@ -47,3 +47,11 @@ describe('pas encore visitées (S35)', () => {
     ).toEqual(['pas encore visitées'])
   })
 })
+
+describe('seulement mon carnet (S350)', () => {
+  it('se nomme parmi les filtres actifs', () => {
+    expect(
+      filtresActifs({ categories: [...ORDRE_CATEGORIES], favorisSeulement: false, sansOsm: false, carnetSeulement: true }),
+    ).toEqual(['seulement mon carnet'])
+  })
+})

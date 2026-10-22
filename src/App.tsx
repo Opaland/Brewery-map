@@ -11,6 +11,7 @@ import {
   basculerVisite,
   dateDuJour,
   ecrireNote,
+  nomsDuCarnet,
   origineDesPreferences,
   PREFERENCES_DEFAUT,
   RAYON,
@@ -93,11 +94,19 @@ function texteDuCompte(
   aucuneCategorie = false,
   videSansWeekEnd = false,
   videSansCarnet = false,
+  carnetSeulement = false,
+  nbCarnet = 0,
+  videSansCarnetSeul = false,
 ): string {
   // Toutes catégories décochées : c'est la seule cause, la dire (revue
   // globale du 19/10, A6 : « aucune brasserie à moins de 30 km » trompait).
   if (n === 0 && aucuneCategorie) {
     return t('Aucune catégorie n’est cochée : cochez-en une dans « Ce qu’on peut y faire ».')
+  }
+  // « Seulement mon carnet » sur un carnet vide (S350) : c'est la seule
+  // cause, la dire, et comment le remplir.
+  if (carnetSeulement && nbCarnet === 0) {
+    return t('Votre carnet est vide : dans une fiche, touchez « J’y suis allé·e » ou écrivez une note. Décochez « Seulement mon carnet » pour revoir toutes les brasseries.')
   }
   // Les fiches des autres régions arrivent (S294) : une liste vide n'est pas
   // encore une réponse, et « aucune brasserie » serait faux. Sauf quand la
@@ -105,6 +114,11 @@ function texteDuCompte(
   // adverse S294).
   if (n === 0 && suiteEnAttente && !(favorisSeulement && nbFavoris === 0)) {
     return t('Chargement des fiches des autres régions…')
+  }
+  // Le carnet ne garde rien de ce que les autres critères laissent : le
+  // dire, seulement si c'est lui qui vide la liste (S350, comme S315).
+  if (n === 0 && carnetSeulement && !videSansCarnetSeul) {
+    return t('Aucune brasserie de votre carnet ne correspond. Décochez « Seulement mon carnet » pour revoir toutes les brasseries.')
   }
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
@@ -221,6 +235,8 @@ export function App({
   // l'appareil seulement.
   const [visites, setVisites] = useState(ini.visites)
   const [pasVisitees, setPasVisitees] = useState(ini.pasVisitees)
+  // « Seulement mon carnet » (S350, A26) : les visitées et les notées.
+  const [carnetSeulement, setCarnetSeulement] = useState(ini.carnetSeulement)
   // « Ouvertes ce week-end » (S70) : pas gardé d'une visite à l'autre, le
   // week-end change. Les jours se recalculent à la minute, mais ne changent
   // la recherche qu'en changeant de date.
@@ -250,6 +266,7 @@ export function App({
       ini.favorisSeulement ||
       raccourci === 'favoris' ||
       ini.pasVisitees ||
+      ini.carnetSeulement ||
       ini.type !== undefined ||
       ini.categories.length < ORDRE_CATEGORIES.length ||
       (couche !== null && !ini.avecOsm),
@@ -328,10 +345,11 @@ export function App({
         avecOsm,
         visites: [...visites],
         pasVisitees,
+        carnetSeulement,
         notes: [...notes],
         theme,
       }),
-    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, favorisParRaccourci, ini.favorisSeulement, avecOsm, visites, pasVisitees, notes, theme],
+    [rayonKm, categories, type, origine, autourEnAttente, favoris, favorisSeulement, favorisParRaccourci, ini.favorisSeulement, avecOsm, visites, pasVisitees, carnetSeulement, notes, theme],
   )
   useEffect(() => {
     const texte = JSON.stringify(garde)
@@ -353,6 +371,14 @@ export function App({
   const exclure = useMemo(
     () => (pasVisitees ? new Set(visites.map((v) => v.nom)) : undefined),
     [pasVisitees, visites],
+  )
+  const ensembleCarnet = useMemo(() => nomsDuCarnet(visites, notes), [visites, notes])
+  // La fiche ouverte reste dans la liste : effacer sa note pour la
+  // réécrire, ou décocher sa visite, la faisait disparaître en pleine
+  // frappe, focus compris (revue adverse S350).
+  const carnet = useMemo(
+    () => (carnetSeulement ? (selection === null ? ensembleCarnet : new Set([...ensembleCarnet, selection])) : undefined),
+    [carnetSeulement, ensembleCarnet, selection],
   )
 
   // Toute la France (S25) : la couche OpenStreetMap, chargée avant l'écran
@@ -442,9 +468,10 @@ export function App({
         ...(type === undefined ? {} : { type }),
         ...(favorisSeulement ? { seulement: new Set(favoris) } : {}),
         ...(exclure === undefined ? {} : { exclure }),
+        ...(carnet === undefined ? {} : { carnet }),
         ...(weekEnd === undefined ? {} : { weekEnd }),
       }),
-    [cherchees, categories, type, favorisSeulement, favoris, exclure, weekEnd],
+    [cherchees, categories, type, favorisSeulement, favoris, exclure, carnet, weekEnd],
   )
   // Un département qui n'a plus de brasserie (couche OSM décochée) tombe :
   // gardé, il filtrait la liste sans plus paraître dans le menu (revue S27).
@@ -464,15 +491,16 @@ export function App({
       ...(type === undefined ? {} : { type }),
       ...(favorisSeulement ? { seulement: ensembleFavoris } : {}),
       ...(exclure === undefined ? {} : { exclure }),
+      ...(carnet === undefined ? {} : { carnet }),
       ...(departement === undefined ? {} : { departement }),
       ...(weekEnd === undefined ? {} : { weekEnd }),
     }),
-    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, departement, weekEnd],
+    [origine, rayonKm, texte, categories, type, favorisSeulement, ensembleFavoris, exclure, carnet, departement, weekEnd],
   )
   const resultats = useMemo(() => rechercher(cherchees, criteres), [cherchees, criteres])
   // Pas `criteres` en entier : marquer une visite change `exclure`, mettre
   // en favori change `seulement`, et l'annonce de ce geste s'effaçait aussitôt.
-  const signatureCriteres = JSON.stringify([origine, rayonKm, texte, categories, type, favorisSeulement, pasVisitees, departement, weekEnd, avecOsm])
+  const signatureCriteres = JSON.stringify([origine, rayonKm, texte, categories, type, favorisSeulement, pasVisitees, carnetSeulement, departement, weekEnd, avecOsm])
   const annonceVisible = annonce.criteres === undefined || annonce.criteres === signatureCriteres
   // La liste serait-elle vide aussi sans « ouvertes ce week-end », ou sans
   // le carnet ? Alors ce n'est pas lui qu'il faut accuser (A11, S315).
@@ -483,6 +511,10 @@ export function App({
   )
   const videSansCarnet = useMemo(
     () => resultats.length === 0 && criteres.exclure !== undefined && videAussiSans(cherchees, criteres, 'exclure'),
+    [resultats, cherchees, criteres],
+  )
+  const videSansCarnetSeul = useMemo(
+    () => resultats.length === 0 && criteres.carnet !== undefined && videAussiSans(cherchees, criteres, 'carnet'),
     [resultats, cherchees, criteres],
   )
 
@@ -501,7 +533,7 @@ export function App({
       total: etapes.length,
     }
   }, [toutes, ensembleFavoris, origine, suite.etat])
-  const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }) })
+  const partout = rechercherPartout({ texte, ...(departement === undefined ? {} : { departement }), ...(carnet === undefined ? {} : { carnet }) })
   // Avec sa raison, et aussi hors du mode « seulement » : un favori hors du
   // rayon passait pour disparu (S301, issue #53).
   // Une brasserie OSM, couche décochée, est cherchée dans `toutes` et dite
@@ -527,13 +559,14 @@ export function App({
   // retirables, comme les favoris (A16 : gardées, invisibles, sans remède).
   const carnetOrphelins =
     osm.etat === 'pret' && suite.etat === 'pret'
-      ? [...new Set([...visites.map((v) => v.nom), ...notes.map((n) => n.nom)])].filter((n) => !nomsConnus.has(n))
+      ? [...ensembleCarnet].filter((n) => !nomsConnus.has(n))
       : []
   const etatFiltres: EtatFiltres = {
     categories,
     favorisSeulement,
     sansOsm: osm.etat === 'pret' && !avecOsm,
     pasVisitees,
+    carnetSeulement,
     ceWeekEnd,
     ...(departement === undefined ? {} : { departement }),
     ...(type === undefined ? {} : { type }),
@@ -573,6 +606,7 @@ export function App({
     setAvecOsm(d.avecOsm)
     setVisites(d.visites)
     setPasVisitees(d.pasVisitees)
+    setCarnetSeulement(d.carnetSeulement)
     setNotes(d.notes)
     setTheme(d.theme)
     // Sinon la vue « Mes favoris » réécrivait sa valeur de départ par-dessus l'effacement (A13).
@@ -889,6 +923,9 @@ export function App({
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}
               pasVisitees={pasVisitees}
               onPasVisitees={setPasVisitees}
+              nbCarnet={[...ensembleCarnet].filter((n) => nomsCherches.has(n)).length}
+              carnetSeulement={carnetSeulement}
+              onCarnetSeulement={setCarnetSeulement}
             >
               {/* Changer d'appareil (S37) : un fichier, aucun serveur. Replié
                   avec ce qui est gardé : ouvert, il repoussait la liste sous
@@ -1077,7 +1114,11 @@ export function App({
             categories.length === 0,
             videSansWeekEnd,
             videSansCarnet,
+            carnetSeulement,
+            ensembleCarnet.size,
+            videSansCarnetSeul,
           )}
+          {carnetSeulement && resultats.length > 0 ? ` ${t('(de votre carnet)')}` : ''}
           {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
         </p>
         {resultats.length > 0 && (

@@ -65,8 +65,6 @@ Restent 3, 4 et 5.
 
 ## Revue du 21/10 (S332)
 
-- **A26, le carnet sans écran à lui** : Cédric a choisi, le 22/10, une
-  case « Mon carnet » (S350).
 - **Un mot de catégorie coupé sur ordinateur étroit, texte à 200 %** (revue
   adverse S332, non mesuré) : à 900 px, les deux colonnes de puces font
   environ 140 px ; `overflow-wrap: break-word` peut couper un mot. Le test
