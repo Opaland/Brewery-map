@@ -56,8 +56,10 @@ test('« pas encore visitées » écarte les visitées ; le compte et le résum�
 
 test('« seulement mon carnet » montre les visitées et les notées, et rien d’autre (S350, A26)', async ({ page }) => {
   const lignes = page.locator('button.ligne')
-  const avant = await lignes.count()
-  expect(avant).toBeGreaterThan(3)
+  // Les fiches arrivent en deux temps (S294) : un compte lu tout de suite
+  // était trop petit sur un runner lent (main rouge du 22/10, S355). On
+  // attend la liste, et on ne fige jamais son nombre.
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
   await ouvrirFiltres(page)
   const caseCarnet = page.getByTestId('carnet-seulement')
   // Carnet vide : le compte dit pourquoi la liste l'est, et comment le remplir.
@@ -65,7 +67,7 @@ test('« seulement mon carnet » montre les visitées et les notées, et rien d�
   await expect(lignes).toHaveCount(0)
   await expect(page.getByTestId('compte')).toContainText('Votre carnet est vide')
   await caseCarnet.uncheck()
-  await expect(lignes).toHaveCount(avant)
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
   const visitee = (await lignes.nth(0).getAttribute('data-nom')) ?? ''
   const notee = (await lignes.nth(2).getAttribute('data-nom')) ?? ''
   await lignes.nth(0).click()
@@ -95,7 +97,7 @@ test('« seulement mon carnet » montre les visitées et les notées, et rien d�
   await note.fill('À revoir, vraiment')
   await expect(caseCarnet).toHaveAccessibleName(/\(2\)$/)
   await caseCarnet.uncheck()
-  await expect(lignes).toHaveCount(avant)
+  await expect.poll(() => lignes.count()).toBeGreaterThan(3)
 })
 
 test('« tout effacer » efface aussi le carnet', async ({ page }) => {
