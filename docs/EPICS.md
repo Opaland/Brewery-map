@@ -8,7 +8,8 @@ ordonnée des stories, à la manière des epics de BMAD (voir `docs/METHODE.md`)
 **Règles qui priment sur le plan** (CLAUDE.md §0) :
 
 - une story de **données** ne livre que des **propositions** (`curation/`) ;
-  rien n'entre dans `data/` sans l'accord écrit de Cédric, ligne par ligne ;
+  rien n'entre dans `data/` sans l'accord écrit de Cédric, ligne par ligne,
+  ou l'une de ses règles (18/10, 21/10 ; `AGENTS.md` §0) ;
 - aucune donnée inventée, aucun chiffre non mesuré ;
 - la position ne quitte jamais le navigateur ;
 - arrêt quand le budget est épuisé (§9). À environ 150 k par sprint revue
