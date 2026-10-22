@@ -57,6 +57,20 @@ Restent 3, 4 et 5.
 - **Le rapport Playwright en échec** est un artefact gardé 7 jours ; il
   contient des traces des e2e (positions factices seulement, §0).
 
+## Revue du 22/10 (S350, persona Bernard)
+
+- **La case « Seulement mon carnet » ne se découvre pas** : elle est
+  repliée sous « Plus de filtres » sur téléphone, et rien dans la fiche
+  (après « J'y suis allé·e » ou la note) n'y renvoie. Un indice dans la
+  fiche serait le complément minimal ; Cédric a choisi la case, pas un
+  écran (22/10).
+- **« (5) » sur la case, 2 lignes une fois cochée** : le nombre compte le
+  carnet visible, la liste applique encore catégories, type, favoris et
+  département. À essayer avec une vraie personne avant de changer quoi que
+  ce soit (`docs/LIVRAISON.md`).
+- **« notées »** peut se lire « avec une note de 1 à 5 » alors que la
+  note est un texte libre : hypothèse de lecture, non mesurée.
+
 ## Revue du 21/10 (S333)
 
 - **Rattacher plutôt qu'effacer** les visites et notes d'une fiche

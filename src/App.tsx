@@ -106,7 +106,7 @@ function texteDuCompte(
   // « Seulement mon carnet » sur un carnet vide (S350) : c'est la seule
   // cause, la dire, et comment le remplir.
   if (carnetSeulement && nbCarnet === 0) {
-    return t('Votre carnet est vide : dans une fiche, touchez « J’y suis allé·e » ou écrivez une note. Décochez « Seulement mon carnet » pour revoir toutes les brasseries.')
+    return t('Votre carnet est vide : dans une fiche, touchez « J’y suis allé·e » ou écrivez une note. Décochez « Seulement mon carnet » dans « Plus de filtres » pour revoir toutes les brasseries.')
   }
   // Les fiches des autres régions arrivent (S294) : une liste vide n'est pas
   // encore une réponse, et « aucune brasserie » serait faux. Sauf quand la
@@ -118,7 +118,7 @@ function texteDuCompte(
   // Le carnet ne garde rien de ce que les autres critères laissent : le
   // dire, seulement si c'est lui qui vide la liste (S350, comme S315).
   if (n === 0 && carnetSeulement && !videSansCarnetSeul) {
-    return t('Aucune brasserie de votre carnet ne correspond. Décochez « Seulement mon carnet » pour revoir toutes les brasseries.')
+    return t('Aucune brasserie de votre carnet ne correspond. Décochez « Seulement mon carnet » dans « Plus de filtres » pour revoir toutes les brasseries.')
   }
   // Tout ce qui reste est dans le carnet : le dire, et comment en sortir
   // (revue adverse S35 ; « aucune brasserie à moins de 30 km » trompait).
@@ -557,6 +557,9 @@ export function App({
   const nbFavorisConnus = favoris.length - orphelins.length
   // Les visites et notes d'une fiche renommée ou retirée : dites, et
   // retirables, comme les favoris (A16 : gardées, invisibles, sans remède).
+  // Ce que la case compte, et ce qui dit le carnet vide : les brasseries
+  // qu'on peut voir, pas les orphelines (revue de Bernard, S350).
+  const nbCarnet = [...ensembleCarnet].filter((n) => nomsCherches.has(n)).length
   const carnetOrphelins =
     osm.etat === 'pret' && suite.etat === 'pret'
       ? [...ensembleCarnet].filter((n) => !nomsConnus.has(n))
@@ -923,7 +926,7 @@ export function App({
               nbVisites={visites.filter((v) => nomsCherches.has(v.nom)).length}
               pasVisitees={pasVisitees}
               onPasVisitees={setPasVisitees}
-              nbCarnet={[...ensembleCarnet].filter((n) => nomsCherches.has(n)).length}
+              nbCarnet={nbCarnet}
               carnetSeulement={carnetSeulement}
               onCarnetSeulement={setCarnetSeulement}
             >
@@ -1115,7 +1118,7 @@ export function App({
             videSansWeekEnd,
             videSansCarnet,
             carnetSeulement,
-            ensembleCarnet.size,
+            nbCarnet,
             videSansCarnetSeul,
           )}
           {carnetSeulement && resultats.length > 0 ? ` ${t('(de votre carnet)')}` : ''}
