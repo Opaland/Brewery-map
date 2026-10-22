@@ -436,3 +436,7 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 - ~~Bières « autre »~~ — fait en S316 (lexique des styles, glose une fois par type). Constat d'origine : (« L'A Cha Peu (ginger Ale) », « L'Ébariole (tourbée) ») sans explication ; huit gloses pour huit bières, lourd sur un petit écran.
 - **L'aperçu des lots** (`src/apercu.ts`) rend la tête de fiche et la provenance (S312), pas « Y aller » : le renvoi « Ce que dit la source, plus haut » n'y a pas de cible.
 - ~~**Les captures du README**~~ : refaites en S313.
+
+## CI — navigateurs informatifs rouges (vu le 21/10)
+
+- **`navigateurs (webkit)` et `navigateurs (firefox)` échouent sur les six derniers runs de `main`** (39595930666 à 39608652817). Informatifs (`docs/NAVIGATEURS.md`), ils ne bloquent pas le merge ; le log montre la spec d'accessibilité sur profil Firefox Android, sans que l'assertion fautive soit encore identifiée. À diagnostiquer avant qu'on s'habitue à les voir rouges.

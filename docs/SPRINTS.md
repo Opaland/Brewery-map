@@ -2959,3 +2959,11 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S340.md`. `src/core/campagne.ts` (paquets sans nom de personne, compte rendu qui refuse un oubli), `outils/campagne.ts` (`preparer`, `rendre`, `appliquer`, qui enchaînent les outils existants) et le skill `campagne-departement`. Essayé sur les quatre départements de S341.
 
+
+## S341 — La fin de l'Auvergne-Rhône-Alpes *(21/10, epic E36)*
+
+`docs/stories/S341.md` (écrite après les lectures, écart dit dans la story). Premier sprint fait avec l'outil de S340 : Allier (4 fiches), Cantal (2), Puy-de-Dôme (9), Haute-Savoie (22), par la règle de Cédric du 21/10. 370 → 407 fiches, 29 → 33 départements ; couche OSM 866 → 850. `rendre` vide désormais le dossier des lectures avant de l'écrire (une lecture périmée du Léman y restait). Revue de la persona Cédric : créneaux « sur appel » retirés, La Ringale (Untappd seul) remise à relancer. PR #195, déployée, page sondée.
+
+## S342 — Bourgogne-Franche-Comté *(21/10, epic E36, en pause)*
+
+`docs/stories/S342.md`, écrite avant les lectures. Candidats préparés pour les sept départements ; le quota de recherches web de la session (200) s'est épuisé à la première vague. Lues et vérifiées à la main : 10 brasseries de Côte-d'Or ; la Nièvre, aucune fiche. Rien d'appliqué. Ce qui reste : `curation/campagne/S342-A-REPRENDRE.md`, branche `s342-bourgogne-franche-comte`.
