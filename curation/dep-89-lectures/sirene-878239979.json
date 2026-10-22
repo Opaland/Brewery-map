@@ -1,0 +1,76 @@
+{
+ "candidat": "sirene:878239979",
+ "ajout": {
+  "fiche": {
+   "n": "Fayyar",
+   "c": "Saint-Bris-le-Vineux",
+   "d": "89",
+   "lat": 47.74458,
+   "lon": 3.65038,
+   "km": 245.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La visite de la brasserie se termine par une dégustation dans son espace de vente, d’après son site, qui publie ses horaires d’ouverture du lundi au samedi.",
+   "addr": "16 rue de Paris, 89530 Saint-Bris-le-Vineux",
+   "src": "https://www.fayyar.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 66 47 06 76",
+    "site": "https://www.fayyar.fr/",
+    "source": "https://www.fayyar.fr/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.fayyar.fr/",
+     "lun": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.fayyar.fr/",
+   "https://data.geopf.fr/geocodage/search?q=16+rue+de+Paris%2C+89530+Saint-Bris-le-Vineux&limit=5"
+  ],
+  "extrait": "terminez par une dégustation dans notre nouvel espace de vente ! Verre à bière offert",
+  "choix": "Catégorie 2 : un espace de vente ; la dégustation n’est que celle de la visite. Le portable « commerce » retenu (seules lignes publiées : deux portables ; règle du 21/10), celui de la gestion écarté. Aucun nom de personne repris. Horaires du site (pas le dimanche d’OpenStreetMap)."
+ }
+}

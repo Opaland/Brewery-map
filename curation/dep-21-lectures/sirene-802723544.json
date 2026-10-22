@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:802723544",
+ "ajout": {
+  "fiche": {
+   "n": "Belenium",
+   "c": "Beaune",
+   "d": "21",
+   "lat": 47.02612,
+   "lon": 4.84841,
+   "km": 150.5,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe ; son site permet de commander et de retirer en magasin, sans dire où ni quand, ni si l'on peut acheter sans commander.",
+   "addr": "12 rue de Vignolles, 21200 Beaune",
+   "src": "https://belenium.com/pre-commandes/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://belenium.com/",
+    "source": "https://belenium.com/pre-commandes/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://belenium.com/pre-commandes/",
+   "https://data.geopf.fr/geocodage/search?q=12+rue+de+Vignolles%2C+21200+Beaune&limit=5"
+  ],
+  "extrait": "retirer en magasin",
+  "choix": "Catégorie 0 : le retrait d'une commande ne dit pas une vente au comptoir. Aucun téléphone publié."
+ }
+}

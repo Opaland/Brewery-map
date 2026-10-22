@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:841145691",
+ "ajout": {
+  "fiche": {
+   "n": "Les 2 Fûts",
+   "c": "Besançon",
+   "d": "25",
+   "lat": 47.25805,
+   "lon": 6.04848,
+   "km": 202,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Une boutique de vente directe à la brasserie ; le vendredi, vente à emporter et bar ; le mercredi, vente à emporter seulement, d’après son site.",
+   "addr": "7 rue François Rein, 25000 Besançon",
+   "src": "https://www.les2futs.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 98 93 88 87",
+    "site": "https://www.les2futs.com",
+    "source": "https://www.les2futs.com",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.les2futs.com",
+     "mer": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "verifieLe": "2026-10-22"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.les2futs.com",
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "remarque": "Bar le vendredi ; le mercredi, vente à emporter seulement.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.les2futs.com",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+Fran%C3%A7ois+Rein%2C+25000+Besan%C3%A7on&limit=5"
+  ],
+  "extrait": "Le Vendredi de 15h à 18h30 Vente à emporter et bar",
+  "choix": "Seules lignes publiées : deux portables ; le premier retenu (règle du 21/10). Horaires du corps de page (vendredi jusqu’à 18 h 30)."
+ }
+}

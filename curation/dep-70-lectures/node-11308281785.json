@@ -1,0 +1,33 @@
+{
+ "candidat": "node/11308281785",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Frizon",
+   "c": "Plancher-les-Mines",
+   "d": "70",
+   "lat": 47.77076,
+   "lon": 6.74303,
+   "km": 278,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie existante d’après son site officiel (bières en coffrets, commande par e-mail). Le site ne dit ni vente directe, ni dégustation, ni visite, ni horaires : ce qu’on peut y faire n’est pas établi.",
+   "addr": "15 Quartier de Saint-Antoine, 70290 Plancher-les-Mines",
+   "src": "https://www.brasseriefrizon.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 45 10 46 53",
+    "site": "https://www.brasseriefrizon.fr",
+    "source": "https://www.brasseriefrizon.fr",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.brasseriefrizon.fr",
+   "https://data.geopf.fr/geocodage/search?q=15+Quartier+de+Saint-Antoine%2C+70290+Plancher-les-Mines&limit=5"
+  ],
+  "extrait": "Disponible en coffrets de 3, 4 et 6 bouteilles.",
+  "choix": "Seul numéro publié par la brasserie sur son site : un portable, permis par la règle du 21/10. Catégorie laissée à 0 : le site ne cite ni vente sur place ni retrait. Bières non recopiées, sans page Untappd."
+ }
+}

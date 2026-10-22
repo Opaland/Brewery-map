@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:814786109",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Bonne Bouille",
+   "c": "Pontarlier",
+   "d": "25",
+   "lat": 46.90527,
+   "lon": 6.34693,
+   "km": 183.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La brasserie n’est qu’un lieu de production, sauf le vendredi de 16 h 30 à 18 h, d’après son site, qui renvoie à Google pour les horaires à jour.",
+   "addr": "14 rue du Magasin, 25300 Pontarlier",
+   "src": "https://www.brasseriebonnebouille.beer/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriebonnebouille.beer/",
+    "source": "https://www.brasseriebonnebouille.beer/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriebonnebouille.beer/",
+     "ven": [
+      [
+       "16:30",
+       "18:00"
+      ]
+     ],
+     "remarque": "Le site renvoie à Google pour les vacances et exceptions.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.brasseriebonnebouille.beer/",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+du+Magasin%2C+25300+Pontarlier&limit=5"
+  ],
+  "extrait": "La brasserie est uniquement un lieu de production, sauf : Les VENDREDI de 16h30 à 18h00",
+  "choix": "Catégorie 2 : la vente à emporter du vendredi, sans bar. Le portable du site, écrit « +33 (0)6… », n’est pas retrouvé tel quel par le contrôle : non repris. Le nom de personne de la page n’est pas repris."
+ }
+}

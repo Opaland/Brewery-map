@@ -1,0 +1,14 @@
+{
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:892194507": "« Brasserie Ad Libitum », Vermenton : rien sous ce nom",
+  "sirene:850863655": "« Brasserie La Cuverie », Irancy : rien sous ce nom",
+  "node/11378658936": "« La Vaugermaine », Saint-Cyr-les-Colons : son site refuse la connexion le 22/10 ; un communiqué de la chambre d’agriculture (2024) la cite, sans rien dire de ce qu’on peut y faire : à relancer",
+  "node/11945606866": "« Odile t’en brasse », Avallon : un point OSM, une page Facebook illisible et un agenda d’événement seuls : à relancer",
+  "node/7464476377": "« La 5 d’angy », Vireaux : un point OSM sans site ni téléphone ; rien sous ce nom",
+  "way/72814443": "même brasserie que « Brasserie Larché » (sirene:485168801), à Sens : une seule lecture",
+  "sirene:949538128": "« Dhennin RM », Serbonnes : rien ne dit qu’il s’agit d’une brasserie",
+  "sirene:104590393": "« Brasserie Lorius », Bazarnes : rien sous ce nom",
+  "sirene:851734541": "même lieu que « La Vaugermaine » (node/11378658936) : son site refuse la connexion le 22/10 : à relancer",
+  "sirene:884263633": "« Brasserie La Truite », Butteaux : un palmarès de concours (PDF illisible) seul ; ni site ni Untappd : à relancer"
+}

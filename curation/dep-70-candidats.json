@@ -1,0 +1,546 @@
+[
+ {
+  "cle": "sirene:844248518",
+  "nom": "BIERES NEY",
+  "communes": [
+   "BUCEY-LES-GY"
+  ],
+  "departement": "70",
+  "adresses": [
+   "47 RUE DE L'EUROPE 70700 BUCEY-LES-GY",
+   "6 RUE DU MONT 70700 BUCEY-LES-GY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "844248518",
+  "sirets": [
+   "84424851800012",
+   "84424851800020"
+  ],
+  "osm": [
+   "node/4926352823"
+  ],
+  "lat": 47.424206791,
+  "lon": 5.8426693176,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987431798",
+  "nom": "LE FRANC BRASSEUR",
+  "communes": [
+   "RONCHAMP"
+  ],
+  "departement": "70",
+  "adresses": [
+   "9 T ALLEE DU CANAL 70250 RONCHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987431798",
+  "sirets": [
+   "98743179800022"
+  ],
+  "osm": [],
+  "lat": 47.6996824566722,
+  "lon": 6.63907559759333,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893785980",
+  "nom": "BRASSERIE ATYPIQUE",
+  "communes": [
+   "LURE"
+  ],
+  "departement": "70",
+  "adresses": [
+   "8 RUE DES JARDINS 70200 LURE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "893785980",
+  "sirets": [
+   "89378598000010"
+  ],
+  "osm": [
+   "node/9162147983"
+  ],
+  "lat": 47.6864463226476,
+  "lon": 6.50029976974911,
+  "site": "https://brasserie-atypique.business.site/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899259584",
+  "nom": "BRASSERIE LUXOVIENNE",
+  "communes": [
+   "LUXEUIL-LES-BAINS"
+  ],
+  "departement": "70",
+  "adresses": [
+   "9 RUE DU DOCTEUR GILLES CUGNIER 70300 LUXEUIL-LES-BAINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899259584",
+  "sirets": [
+   "89925958400014"
+  ],
+  "osm": [],
+  "lat": 47.817038675,
+  "lon": 6.3798022309,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "RIOZ"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:828908103",
+  "nom": "BRASSERIE ARTISANALE DE LA RENTE ROUGE",
+  "communes": [
+   "CHARGEY-LES-GRAY"
+  ],
+  "departement": "70",
+  "adresses": [
+   "LA RENTE ROUGE 70100 CHARGEY-LES-GRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828908103",
+  "sirets": [
+   "82890810300017"
+  ],
+  "osm": [],
+  "lat": 47.514964142,
+  "lon": 5.5937557311,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889943783",
+  "nom": "LA BRASSERIE DU 19 JUIN",
+  "communes": [
+   "VESOUL"
+  ],
+  "departement": "70",
+  "adresses": [
+   "22 RUE ROBERT FONTESSE 70000 VESOUL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889943783",
+  "sirets": [
+   "88994378300023"
+  ],
+  "osm": [],
+  "lat": 47.6360626867349,
+  "lon": 6.15017492793804,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "GEZIER-ET-FONTENELAY"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:931916910",
+  "nom": "BRASSERIE 1551",
+  "communes": [
+   "CHARCENNE"
+  ],
+  "departement": "70",
+  "adresses": [
+   "7 ROUTE D'AVRIGNEY 70700 CHARCENNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "931916910",
+  "sirets": [
+   "93191691000017"
+  ],
+  "osm": [
+   "node/12893698260"
+  ],
+  "lat": 47.370314237,
+  "lon": 5.7783558739,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929425783",
+  "nom": "LES AMIS D'ANTHON",
+  "communes": [
+   "RIOZ"
+  ],
+  "departement": "70",
+  "adresses": [
+   "4 RUE DE LA VILLEDIEU 70190 RIOZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929425783",
+  "sirets": [
+   "92942578300016"
+  ],
+  "osm": [],
+  "lat": 47.438391017,
+  "lon": 6.1165778218,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828810606",
+  "nom": "LE FRANC BRASSEUR",
+  "communes": [
+   "RONCHAMP"
+  ],
+  "departement": "70",
+  "adresses": [
+   "9 T ALLEE DU CANAL 70250 RONCHAMP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828810606",
+  "sirets": [
+   "82881060600024"
+  ],
+  "osm": [],
+  "lat": 47.699684177,
+  "lon": 6.6390753147,
+  "statut": "doublon",
+  "fiche": "LE FRANC BRASSEUR"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE REDOUTEY",
+  "communes": [
+   "LAVIGNEY"
+  ],
+  "departement": "70",
+  "adresses": [
+   "13 RUE DU CHANOIS 70120 LAVIGNEY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:945333433",
+  "nom": "BEEROLOGIST'S LAB",
+  "communes": [
+   "TERNUAY-MELAY-ET-SAINT-HILAIRE"
+  ],
+  "departement": "70",
+  "adresses": [
+   "4 RUE DU CHAVANY 70270 TERNUAY-MELAY-ET-SAINT-HILAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "945333433",
+  "sirets": [
+   "94533343300015"
+  ],
+  "osm": [],
+  "lat": 47.7863820085152,
+  "lon": 6.63545050644318,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "BEAUMOTTE-AUBERTANS"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "GRATTERY"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "RIOZ"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:852364827",
+  "nom": "BRASSERIE DES 1000 ETANGS",
+  "communes": [
+   "FAUCOGNEY-ET-LA-MER"
+  ],
+  "departement": "70",
+  "adresses": [
+   "5 RUE DE L'EGLISE 70310 FAUCOGNEY-ET-LA-MER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "852364827",
+  "sirets": [
+   "85236482700018"
+  ],
+  "osm": [
+   "node/8330725990"
+  ],
+  "lat": 47.843340946,
+  "lon": 6.5641785187,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883029977",
+  "nom": "LA MALACH",
+  "communes": [
+   "LA MALACHERE"
+  ],
+  "departement": "70",
+  "adresses": [
+   "2 A RUE DES FONTENIS 70190 LA MALACHERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883029977",
+  "sirets": [
+   "88302997700013"
+  ],
+  "osm": [],
+  "lat": 47.450126627,
+  "lon": 6.0730753382,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "BROTTE-LES-LUXEUIL"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "FROTEY-LES-VESOUL"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "CIREY"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "DAMPIERRE-SUR-LINOTTE"
+  ],
+  "departement": "70",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/11308281785",
+  "nom": "Brasserie Frizon",
+  "communes": [
+   "Plancher-les-Mines"
+  ],
+  "departement": "70",
+  "adresses": [
+   "15 Quartier de Saint-Antoine, 70290 Plancher-les-Mines"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11308281785"
+  ],
+  "lat": 47.77082,
+  "lon": 6.74293,
+  "site": "https://www.brasseriefrizon.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12553658965",
+  "nom": "Le Fanc Brasseur",
+  "communes": [
+   "Ronchamp"
+  ],
+  "departement": "70",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12553658965"
+  ],
+  "lat": 47.70003,
+  "lon": 6.63929,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14049302153",
+  "nom": "La rente rouge",
+  "communes": [
+   "Oyrières"
+  ],
+  "departement": "70",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14049302153"
+  ],
+  "lat": 47.51501,
+  "lon": 5.59389,
+  "site": "https://www.larenterouge-brasserie.fr/fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7884180792",
+  "nom": "Dan’s Beer",
+  "communes": [
+   "Cirey"
+  ],
+  "departement": "70",
+  "adresses": [
+   "27 Rue de l'Église, 70190 Cirey"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7884180792"
+  ],
+  "lat": 47.39738,
+  "lon": 6.13406,
+  "statut": "nouveau"
+ }
+]
