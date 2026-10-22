@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:840769335",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Vachement Jura",
+   "c": "Ivrey",
+   "d": "39",
+   "lat": 46.99089,
+   "lon": 5.89719,
+   "km": 170.6,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (son site). Visites en semaine sur rendez-vous ; les horaires du week-end sont donnés chaque vendredi sur Facebook. Rien ne dit ce qu’on peut y faire : à confirmer.",
+   "addr": "15 route de Poupet, 39110 Ivrey",
+   "src": "https://www.vachement-jura.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 77 99 64 52",
+    "site": "https://www.vachement-jura.fr/",
+    "source": "https://www.vachement-jura.fr/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.vachement-jura.fr/",
+   "https://data.geopf.fr/geocodage/search?q=15+route+de+Poupet%2C+39110+Ivrey&limit=5"
+  ],
+  "extrait": "Horaires : Semaine sur rendez-vous Le week-end : horaires communiquées le vendredi soir sur le FB",
+  "choix": "Seule ligne publiée : un portable (règle du 21/10). L’adresse électronique, qui porte un nom, n’est pas reprise."
+ }
+}

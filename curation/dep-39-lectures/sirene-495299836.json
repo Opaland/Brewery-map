@@ -1,0 +1,147 @@
+{
+ "candidat": "sirene:495299836",
+ "ajout": {
+  "fiche": {
+   "n": "La Franche",
+   "c": "La Ferté",
+   "d": "39",
+   "lat": 46.94215,
+   "lon": 5.65887,
+   "km": 157.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Un magasin de vente directe et un bar ouvert à tous, d’après le site de la brasserie, qui publie ses horaires par saison.",
+   "addr": "28 Rue Principale, 39600 La Ferté",
+   "src": "https://www.lafranche.net/la-brasserie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 84 37 65 33",
+    "site": "https://www.lafranche.net",
+    "untappd": "https://untappd.com/LaFranche",
+    "source": "https://www.lafranche.net/contact/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.lafranche.net/contact/",
+     "periode": {
+      "du": "06-01",
+      "au": "09-30"
+     },
+     "lun": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Sauf jours fériés. Bar à ces horaires et sur demande.",
+     "verifieLe": "2026-10-22"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.lafranche.net/contact/",
+     "periode": {
+      "du": "10-01",
+      "au": "05-31"
+     },
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Pendant les vacances scolaires : du lundi au samedi, sauf jours fériés. Bar à ces horaires et sur demande.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.lafranche.net/la-brasserie/",
+   "https://www.lafranche.net/contact/",
+   "https://data.geopf.fr/geocodage/search?q=28+Rue+Principale%2C+39600+La+Fert%C3%A9&limit=5"
+  ],
+  "extrait": "un bar chaleureux ouvert à tous (et privatisable) pour déguster ou boire un verre avec modération",
+  "choix": "Téléphone fixe du site. Horaires de la page de contact, deux saisons ; les vacances scolaires en remarque. Le point OSM node/3901175170 est le même lieu. Untappd : https://untappd.com/LaFranche ; bières non reprises."
+ }
+}

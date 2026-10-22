@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:928355098",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Doloise",
+   "c": "Jouhe",
+   "d": "39",
+   "lat": 47.14147,
+   "lon": 5.49048,
+   "km": 172.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Au sommet du Mont Roland, d’après son site : retrait des commandes à la brasserie. Ni vente au comptoir ni dégustation écrites : à confirmer.",
+   "addr": "Mont Roland, 39100 Jouhe",
+   "src": "https://labrasseriedoloise.fr/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://labrasseriedoloise.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Jouhe&type=municipality&limit=5"
+  ],
+  "extrait": "Retrait des produits à La Brasserie Doloise",
+  "choix": "Catégorie 0 : le retrait d’une commande n’est pas une vente au comptoir (même choix que Bouillant, Belenium, Frizon). Téléphone de l’office seul : non repris. Le point OSM node/8765993554 est le même lieu."
+ }
+}

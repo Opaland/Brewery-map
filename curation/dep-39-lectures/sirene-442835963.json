@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:442835963",
+ "ajout": {
+  "fiche": {
+   "n": "La Rouget de Lisle",
+   "c": "Bletterans",
+   "d": "39",
+   "lat": 46.74261,
+   "lon": 5.44668,
+   "km": 130.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Une fabrique et son magasin d’usine, d’après le site de la brasserie. Ni dégustation sur place ni horaires écrits.",
+   "addr": "Rue de la Verne, 39140 Bletterans",
+   "src": "https://larouget.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 84 85 09 18",
+    "source": "https://shop.larouget.com/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://larouget.com/",
+   "https://shop.larouget.com/",
+   "https://data.geopf.fr/geocodage/search?q=Bletterans&type=municipality&limit=5"
+  ],
+  "extrait": "FABRIQUE & MAGASIN Rue de la Verne 39140 Bletterans",
+  "choix": "Téléphone fixe de la boutique en ligne de la brasserie. Le point OSM way/480687423 est le même lieu."
+ }
+}

@@ -1,0 +1,571 @@
+{
+ "lot": "dep-21",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie des sources de l'Ouche",
+    "c": "Lusigny-sur-Ouche",
+    "d": "21",
+    "lat": 47.0908,
+    "lon": 4.67373,
+    "km": 157.6,
+    "cat": 2,
+    "conf": "faible",
+    "note": "La brasserie du château de Lusigny ; sa bière se vend à la boutique du château, d'après une légende de photo sur le site du château. Ni horaires, ni dégustation.",
+    "addr": "Lusigny-sur-Ouche",
+    "src": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+     "source": "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.chateaudelusigny.fr/la-brasserie-des-sources-de-louche/",
+    "https://data.geopf.fr/geocodage/search?q=Lusigny-sur-Ouche&type=municipality&limit=5"
+   ],
+   "extrait": "Vente de bière dans la boutique au châeau",
+   "choix": "Confiance faible : la vente ne tient qu'à une légende de photo (la faute est celle de la page). Pas de rue publiée : position au centre de la commune."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bouillant",
+    "c": "Fleurey-sur-Ouche",
+    "d": "21",
+    "lat": 47.31208,
+    "lon": 4.85603,
+    "km": 182.3,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe ; son site propose de commander en ligne, avec retrait sur place ou livraison, sans dire si l'on peut acheter ou boire sur place sans commander.",
+    "addr": "30 rue de l’Aule, 21410 Fleurey-sur-Ouche",
+    "src": "https://brasseriebouillant.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasseriebouillant.fr",
+     "source": "https://brasseriebouillant.fr",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://brasseriebouillant.fr",
+    "https://data.geopf.fr/geocodage/search?q=30+rue+de+l%E2%80%99Aule%2C+21410+Fleurey-sur-Ouche&limit=5"
+   ],
+   "extrait": "retrait sur place ou livraison",
+   "choix": "Catégorie 0 : le retrait d'une commande n'est pas une vente au comptoir. Le téléphone n'est que dans un lien d'appel : non repris. Les heures où l'on peut les joindre ne sont pas des horaires d'ouverture."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Roche Aigüe",
+    "c": "Mâlain",
+    "d": "21",
+    "lat": 47.32725,
+    "lon": 4.80851,
+    "km": 183.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie le mardi et le vendredi après-midi, ou sur rendez-vous, d'après la page du collectif agricole de Mâlain. Rien sur une dégustation.",
+    "addr": "28 rue de la Gare, 21410 Mâlain",
+    "src": "https://alternatives-agriculturelles.fr/microbrasserie/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 69 10 90 68",
+     "source": "https://alternatives-agriculturelles.fr/microbrasserie/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "remarque": "Ou sur rendez-vous.",
+      "source": "https://alternatives-agriculturelles.fr/microbrasserie/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://alternatives-agriculturelles.fr/microbrasserie/",
+    "https://data.geopf.fr/geocodage/search?q=28+rue+de+la+Gare%2C+21410+M%C3%A2lain&limit=5"
+   ],
+   "extrait": "En vente directe à la brasserie et en circuit court",
+   "choix": "Confiance moyenne : la page n'est pas celle de la brasserie seule et ses dernières nouvelles datent de 2025. Seule ligne publiée : un portable, retenu."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Burgonde",
+    "c": "Vitteaux",
+    "d": "21",
+    "lat": 47.3959,
+    "lon": 4.54452,
+    "km": 192.1,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On peut acheter à la boutique de la brasserie, aux horaires d’ouverture, d’après son site, qui ne parle ni de bar ni de dégustation.",
+    "addr": "10 rue de Verdun, 21350 Vitteaux",
+    "src": "https://brasserie-burgonde.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie-burgonde.fr/",
+     "source": "https://brasserie-burgonde.fr/",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://brasserie-burgonde.fr/",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+Verdun%2C+21350+Vitteaux&limit=5"
+   ],
+   "extrait": "venir pousser la porte de notre boutique",
+   "choix": "Aucun téléphone : le site n’en publie pas. Aucun horaire écrit sur le site. Pas d’Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Belenium",
+    "c": "Beaune",
+    "d": "21",
+    "lat": 47.02612,
+    "lon": 4.84841,
+    "km": 150.5,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe ; son site permet de commander et de retirer en magasin, sans dire où ni quand, ni si l'on peut acheter sans commander.",
+    "addr": "12 rue de Vignolles, 21200 Beaune",
+    "src": "https://belenium.com/pre-commandes/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://belenium.com/",
+     "source": "https://belenium.com/pre-commandes/",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://belenium.com/pre-commandes/",
+    "https://data.geopf.fr/geocodage/search?q=12+rue+de+Vignolles%2C+21200+Beaune&limit=5"
+   ],
+   "extrait": "retirer en magasin",
+   "choix": "Catégorie 0 : le retrait d'une commande ne dit pas une vente au comptoir. Aucun téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "La Luxoise",
+    "c": "Gémeaux",
+    "d": "21",
+    "lat": 47.47741,
+    "lon": 5.13116,
+    "km": 202.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Un bar sur le site de production, avec la gamme à la pression, ouvert le vendredi soir, d’après le site de la brasserie. Horaires de la boutique discordants d’une page à l’autre : non repris.",
+    "addr": "12 rue des Charrières, 21120 Gémeaux",
+    "src": "https://la-luxoise.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 75 90 98 89",
+     "site": "https://la-luxoise.com/",
+     "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "18:00",
+        "00:00"
+       ]
+      ],
+      "remarque": "Bar de la brasserie. Samedi : sur événement seulement.",
+      "source": "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://la-luxoise.com/",
+    "https://la-luxoise.com/pages/bar-brasserie-la-luxoise",
+    "https://data.geopf.fr/geocodage/search?q=12+rue+des+Charri%C3%A8res%2C+21120+G%C3%A9meaux&limit=5"
+   ],
+   "extrait": "Profitez du bar sur le site de production pour découvrir et déguster notre gamme de bière à la pression.",
+   "choix": "Nom d’usage « La Luxoise » (registre : Brasserie des Bières de Famille). Seule ligne publiée par la brasserie : un portable (règle du 21/10). Horaires : le bar seul."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Elixkir",
+    "c": "Quetigny",
+    "d": "21",
+    "lat": 47.30723,
+    "lon": 5.10588,
+    "km": 183.5,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Une boutique où toutes les bières s'emportent, et un taproom pour les boire en salle ou en terrasse, d'après son site.",
+    "addr": "7 rue de l'Enclume, 21800 Quetigny",
+    "src": "https://www.elixkir.fr/boutique-taproom/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 82 30 77 00",
+     "site": "https://www.elixkir.fr/",
+     "source": "https://www.elixkir.fr/contact/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "14:30",
+        "20:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:30",
+        "20:30"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:30",
+        "20:30"
+       ]
+      ],
+      "remarque": "Boutique et taproom ; fermés les jours fériés.",
+      "source": "https://www.elixkir.fr/contact/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.elixkir.fr/boutique-taproom/",
+    "https://www.elixkir.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+l%27Enclume%2C+21800+Quetigny&limit=5"
+   ],
+   "extrait": "Toutes nos bières sont disponibles à emporter",
+   "choix": "Téléphone de la page contact. Horaires « Boutique & Taproom » de la page contact ; les créneaux de livraison et de location de tireuses sont écartés."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Kanopée",
+    "c": "Sainte-Marie-sur-Ouche",
+    "d": "21",
+    "lat": 47.2934,
+    "lon": 4.80349,
+    "km": 180.1,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Un bar-boutique où l'on déguste les bières brassées sur place, ouvert toute l'année le vendredi et le samedi après-midi, d'après son site.",
+    "addr": "255 rue de la Gare, Pont de Pany, 21410 Sainte-Marie-sur-Ouche",
+    "src": "https://www.la-kanopee.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 99 55 83 74",
+     "site": "https://www.la-kanopee.com/",
+     "source": "https://www.la-kanopee.com/contact",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "15:00",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "19:30"
+       ]
+      ],
+      "source": "https://www.la-kanopee.com/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.la-kanopee.com/",
+    "https://www.la-kanopee.com/contact",
+    "https://data.geopf.fr/geocodage/search?q=Sainte-Marie-sur-Ouche&type=municipality&limit=5"
+   ],
+   "extrait": "La Kanopée, c’est aussi un bar-boutique convivial",
+   "choix": "Seule ligne publiée : un portable, retenu. Les dimanches vus sur un réseau social sont des portes ouvertes : écartés. Bières du site non reprises : Untappd fait foi."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie La Clé de Voûte",
+    "c": "Pouilly-en-Auxois",
+    "d": "21",
+    "lat": 47.26323,
+    "lon": 4.55484,
+    "km": 177.3,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "On y choisit ses bières et on les goûte sur place, d'après son site ; ouverte à la visite et à la vente le jeudi et le vendredi, d'autres jours sur rendez-vous.",
+    "addr": "17 rue du Général de Gaulle, 21320 Pouilly-en-Auxois",
+    "src": "https://brasserielavoute.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 71 86 63 92",
+     "site": "https://brasserielavoute.com/",
+     "source": "https://brasserielavoute.com/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "10:00",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "18:30"
+       ]
+      ],
+      "remarque": "Visite et vente directe ; d'autres jours sur rendez-vous.",
+      "source": "https://brasserielavoute.com/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://brasserielavoute.com/",
+    "https://data.geopf.fr/geocodage/search?q=17+rue+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+21320+Pouilly-en-Auxois&limit=5"
+   ],
+   "extrait": "et les goûter dans nos locaux, à Pouilly-en-Auxois",
+   "choix": "Seul numéro publié : un portable, retenu (règle du 21/10). Bières du site non reprises : Untappd fait foi pour les bières. Pas d'Untappd cité par le site."
+  },
+  {
+   "fiche": {
+    "n": "90 BPM Brewing Co.",
+    "c": "Ahuy",
+    "d": "21",
+    "lat": 47.35781,
+    "lon": 5.03557,
+    "km": 188.4,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie et bar à bière, avec quinze pressions, une terrasse et un terrain de pétanque ; la boutique est ouverte aux mêmes heures, d'après son site.",
+    "addr": "3 rue des Murées, 21121 Ahuy",
+    "src": "https://www.90bpm.beer/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.90bpm.beer/",
+     "untappd": "https://untappd.com/90BPMBrewingCo",
+     "source": "https://www.90bpm.beer/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mar": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Bar et boutique.",
+      "source": "https://www.90bpm.beer/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.90bpm.beer/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+des+Mur%C3%A9es%2C+21121+Ahuy&limit=5"
+   ],
+   "extrait": "15 pressions, la terrasse et son terrain de pétanque",
+   "choix": "Aucun téléphone publié. Le dimanche n'est pas écrit : laissé absent. Horaires « Bar et Boutique ouverts » de la page d'accueil."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Flavigny",
+    "c": "Flavigny-sur-Ozerain",
+    "d": "21",
+    "lat": 47.51047,
+    "lon": 4.52869,
+    "km": 204.9,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe d’après la fiche de Bourgogne Tourisme. Un guide de presse de 2023 la dit « boutique et bar », ce qu’aucune source de la brasserie ne confirme : à confirmer.",
+    "addr": "Ferme du faubourg, 21150 Flavigny-sur-Ozerain",
+    "src": "https://www.lebonbon.fr/dijon/les-tops-food-et-drink/dijon-top-brasseurs-bieres/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 16 26 51 22",
+     "source": "https://www.burgundy-tourism.com/regional-products/brasserie-de-flavigny-4",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.lebonbon.fr/dijon/les-tops-food-et-drink/dijon-top-brasseurs-bieres/",
+    "https://www.burgundy-tourism.com/regional-products/brasserie-de-flavigny-4",
+    "https://data.geopf.fr/geocodage/search?q=Flavigny-sur-Ozerain&type=municipality&limit=5"
+   ],
+   "extrait": "Brasserie de Flavigny (boutique et bar)",
+   "choix": "Catégorie 0 : un article de presse seul ne suffit pas à dire ce qu’on peut y faire. Seul numéro publié (fiche de Bourgogne Tourisme) : un portable, règle du 21/10."
+  },
+  {
+   "fiche": {
+    "n": "VIF",
+    "c": "Beaune",
+    "d": "21",
+    "lat": 47.00573,
+    "lon": 4.83546,
+    "km": 148.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On peut acheter à la brasserie en la contactant avant ; visites sur rendez-vous, d'après son site. Il ne parle pas de bar.",
+    "addr": "5 rue Dominique Jean Larrey, 21200 Beaune",
+    "src": "https://www.boirevif.com/boutique",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 31 88 06 01",
+     "site": "https://www.boirevif.com",
+     "source": "https://www.boirevif.com/boutique",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.boirevif.com/boutique",
+    "https://data.geopf.fr/geocodage/search?q=5+rue+Dominique+Jean+Larrey%2C+21200+Beaune&limit=5"
+   ],
+   "extrait": "Contactez nous pour une visite ou un achat à la brasserie",
+   "choix": "Seule ligne publiée : un portable, retenu. Aucun horaire : tout se fait sur rendez-vous. Une page Untappd existe (BoireVif), non citée par le site. Le registre donne aussi une adresse à Saint-Romain, qu'aucune page ne confirme."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de France",
+    "c": "Beaune",
+    "d": "21",
+    "lat": 47.01107,
+    "lon": 4.85551,
+    "km": 148.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe et propose des ateliers de brassage et de dégustation ; son site ne dit pas si l'on peut acheter ou boire sur place.",
+    "addr": "16 rue Maurice Chantin, 21200 Beaune",
+    "src": "https://brasseriedefrance.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 75 68 78 44",
+     "site": "https://brasseriedefrance.com",
+     "source": "https://brasseriedefrance.com",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://brasseriedefrance.com",
+    "https://data.geopf.fr/geocodage/search?q=16+rue+Maurice+Chantin%2C+21200+Beaune&limit=5"
+   ],
+   "extrait": "Nos ateliers de brassage et de dégustation",
+   "choix": "Téléphone de la page d'accueil. Aucun horaire."
+  },
+  {
+   "fiche": {
+    "n": "Les Brassages du Meix",
+    "c": "Saint-Julien",
+    "d": "21",
+    "lat": 47.39674,
+    "lon": 5.13293,
+    "km": 193.7,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, office de tourisme). Rien de lu ne dit si l’on peut acheter ou boire sur place, et les horaires diffèrent entre ses pages.",
+    "addr": "11 rue en Val Fontaine, 21490 Saint-Julien",
+    "src": "https://www.lesbrassagesdumeix.fr/en/les-meix",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.lesbrassagesdumeix.fr/en/les-meix",
+    "https://data.geopf.fr/geocodage/search?q=11+rue+en+Val+Fontaine%2C+21490+Saint-Julien&limit=5"
+   ],
+   "extrait": "11 rue en Val Fontaine - 21490 SAINT JULIEN",
+   "choix": "Catégorie 0, horaires non repris (discordants). Téléphone lu sur l’office seul : non repris. Autre brasserie que Loro Bières, aussi à Saint-Julien."
+  }
+ ]
+}

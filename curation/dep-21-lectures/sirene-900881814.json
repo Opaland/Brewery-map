@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:900881814",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de France",
+   "c": "Beaune",
+   "d": "21",
+   "lat": 47.01107,
+   "lon": 4.85551,
+   "km": 148.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe et propose des ateliers de brassage et de dégustation ; son site ne dit pas si l'on peut acheter ou boire sur place.",
+   "addr": "16 rue Maurice Chantin, 21200 Beaune",
+   "src": "https://brasseriedefrance.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 75 68 78 44",
+    "site": "https://brasseriedefrance.com",
+    "source": "https://brasseriedefrance.com",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasseriedefrance.com",
+   "https://data.geopf.fr/geocodage/search?q=16+rue+Maurice+Chantin%2C+21200+Beaune&limit=5"
+  ],
+  "extrait": "Nos ateliers de brassage et de dégustation",
+  "choix": "Téléphone de la page d'accueil. Aucun horaire."
+ }
+}

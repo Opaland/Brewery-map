@@ -14,7 +14,7 @@
 ## À lire
 
 - `sirene:932559347` — LA BRAILLEUSE (SAUVAGNEY, EMAGNY) — sirene
-- `sirene:910845791` — AYMERIC TISSOT - BRASSEUR ASSEMBLEUR (BESANCON) — sirene + osm
+- `sirene:910845791` — (enseigne au nom d’une personne)
 - `sirene:892966458` — LA CHAUFFOUILLARDE (VILLERS-LE-LAC) — sirene + osm
 - `sirene:911885077` — BRASSERIE LA RINCOTTE (MAICHE) — sirene
 - `sirene:882628282` — BRASSERIE DE LA QUIOTTE (ETALANS) — sirene + osm

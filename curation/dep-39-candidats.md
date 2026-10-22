@@ -20,7 +20,7 @@
 - `sirene:983680612` — BRASSERIE MIKO (SALINS-LES-BAINS, SALINS LES BAINS) — sirene
 - `personne:2` — *nom à établir* (BIARNE) — sirene
 - `sirene:951606177` — BRASSERIE PLUME JURASSIENNE (CRAMANS) — sirene — proche de « Brasserie Plume »
-- `sirene:838276707` — LEO PETIT (PUPILLIN) — sirene
+- `sirene:838276707` — (enseigne au nom d’une personne) (PUPILLIN) — sirene
 - `sirene:832796015` — L'ORIGINE DU MONDE (ORGELET) — sirene + osm
 - `sirene:840769335` — BRASSERIE VACHEMENT JURA (IVREY) — sirene + osm
 - `personne:3` — *nom à établir* (PLAINOISEAU) — sirene
@@ -35,7 +35,7 @@
 - `personne:6` — *nom à établir* (MACORNAY) — sirene + osm
 - `personne:7` — *nom à établir* (LOMBARD) — sirene + osm
 - `sirene:901265876` — BRASSERIE LA CASCADE (LES ROUSSES) — sirene
-- `sirene:834765323` — GUILLAUME OVERNOY (BEAUFORT-ORBAGNA) — sirene
+- `sirene:834765323` — (enseigne au nom d’une personne) (BEAUFORT-ORBAGNA) — sirene
 - `sirene:842332447` — SAS BRASSERIE LA NOCTURNE (BRAINANS) — sirene + osm
 - `personne:8` — *nom à établir* (CLAIRVAUX-LES-LACS) — sirene + osm
 - `sirene:917821282` — LA BRASSERIE DES TROIS EPIS (ORGELET) — sirene + osm

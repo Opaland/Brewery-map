@@ -1,3 +1,6 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:907687990": "« La Mécanique des Fluides », Chèvremont : rien sous ce nom hors deux bars homonymes à Paris et Toulouse ; registre seul",
+  "node/6529968616": "« Brasserie du Territoire OXL », Auxelles-Bas : le site donné par OpenStreetMap (oxlbiere.fr, étiquette de 2021) ne répond plus le 22/10 ; ni Untappd ni office de tourisme",
+  "node/8488370771": "« Brasserie du Faubourg », Belfort : point OSM sans adresse ni site (2021) ; le seul homonyme trouvé est un restaurant à Delle, sans brassage"
 }

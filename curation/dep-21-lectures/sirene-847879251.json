@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:847879251",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie La Clé de Voûte",
+   "c": "Pouilly-en-Auxois",
+   "d": "21",
+   "lat": 47.26323,
+   "lon": 4.55484,
+   "km": 177.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "On y choisit ses bières et on les goûte sur place, d'après son site ; ouverte à la visite et à la vente le jeudi et le vendredi, d'autres jours sur rendez-vous.",
+   "addr": "17 rue du Général de Gaulle, 21320 Pouilly-en-Auxois",
+   "src": "https://brasserielavoute.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 71 86 63 92",
+    "site": "https://brasserielavoute.com/",
+    "source": "https://brasserielavoute.com/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserielavoute.com/",
+     "jeu": [
+      [
+       "10:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "18:30"
+      ]
+     ],
+     "remarque": "Visite et vente directe ; d'autres jours sur rendez-vous.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasserielavoute.com/",
+   "https://data.geopf.fr/geocodage/search?q=17+rue+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+21320+Pouilly-en-Auxois&limit=5"
+  ],
+  "extrait": "et les goûter dans nos locaux, à Pouilly-en-Auxois",
+  "choix": "Seul numéro publié : un portable, retenu (règle du 21/10). Bières du site non reprises : Untappd fait foi pour les bières. Pas d'Untappd cité par le site."
+ }
+}
