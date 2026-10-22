@@ -414,9 +414,12 @@ test('la carte parle français ; la distance dit son unité', async ({ page }) =
 })
 
 test('le nom lu d’une ligne marque des pauses entre ses parties', async ({ page }) => {
+  // Sans horloge, le verdict suivait l'heure de la porte (S349, 22/10).
+  // Vendredi 23/10, 19 h à Paris : le brewpub de Caribrew est ouvert.
+  await page.clock.setFixedTime(new Date('2026-10-23T17:00:00Z'))
   await ouvrir(page)
   await expect(ligne(page, /Caribrew/)).toHaveAccessibleName(
-    /^Caribrew ?, Soucieu-en-Jarrest \(69\) · .+ km ?, Acheter et consommer sur place ?, Ce que dit la source : /,
+    /^Caribrew ?, Soucieu-en-Jarrest \(69\) · .+ km ?, Ouvert au public maintenant, sous réserve ?, Acheter et consommer sur place ?, Ce que dit la source : /,
   )
 })
 
