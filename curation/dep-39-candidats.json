@@ -1,0 +1,876 @@
+[
+ {
+  "cle": "sirene:878790898",
+  "nom": "EURL BOISSONS DE LA HAUTE JOUX",
+  "communes": [
+   "MIGNOVILLARD",
+   "NOZEROY"
+  ],
+  "departement": "39",
+  "adresses": [
+   "16 RUE DE MOUTHE 39250 MIGNOVILLARD",
+   "39250 NOZEROY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878790898",
+  "sirets": [
+   "87879089800018",
+   "87879089800026"
+  ],
+  "osm": [],
+  "lat": 46.78875074,
+  "lon": 6.129213724,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:928355098",
+  "nom": "LA DOLOISE",
+  "communes": [
+   "JOUHE",
+   "DOLE"
+  ],
+  "departement": "39",
+  "adresses": [
+   "A MONT ROLAND 39100 JOUHE",
+   "3 RUE DU PRELOT 39100 DOLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928355098",
+  "sirets": [
+   "92835509800015",
+   "92835509800023"
+  ],
+  "osm": [],
+  "lat": 47.125868027,
+  "lon": 5.4743710718,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:940177348",
+  "nom": "JURASERUM",
+  "communes": [
+   "LA CHAILLEUSE"
+  ],
+  "departement": "39",
+  "adresses": [
+   "17 B ROUTE DE GRUSSE - SAINT LAURENT LA ROCHE 39270 LA CHAILLEUSE",
+   "ZA SAINT LAURENT LA ROCHE RUE DE L'ECHAUX - SAINT-LAURENT-LA-ROCHE 39270 LA CHAILLEUSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "940177348",
+  "sirets": [
+   "94017734800015",
+   "94017734800023"
+  ],
+  "osm": [],
+  "lat": 46.5977258579183,
+  "lon": 5.51434340316071,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VAL SURAN"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:983680612",
+  "nom": "BRASSERIE MIKO",
+  "communes": [
+   "SALINS-LES-BAINS",
+   "SALINS LES BAINS"
+  ],
+  "departement": "39",
+  "adresses": [
+   "42 AVENUE ARISTIDE BRIAND 39110 SALINS-LES-BAINS",
+   "42 AVENUE ARISTIDE BRIAND 39110 SALINS LES BAINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983680612",
+  "sirets": [
+   "98368061200030",
+   "98368061200048"
+  ],
+  "osm": [],
+  "lat": 46.9500956161952,
+  "lon": 5.87261904616657,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BIARNE"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:951606177",
+  "nom": "BRASSERIE PLUME JURASSIENNE",
+  "communes": [
+   "CRAMANS"
+  ],
+  "departement": "39",
+  "adresses": [
+   "44 GRANDE RUE 39600 CRAMANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951606177",
+  "sirets": [
+   "95160617700016"
+  ],
+  "osm": [],
+  "lat": 47.012924661,
+  "lon": 5.7772887516,
+  "statut": "ambigu",
+  "fiche": "Brasserie Plume"
+ },
+ {
+  "cle": "sirene:838276707",
+  "nom": "(enseigne au nom d’une personne)",
+  "communes": [
+   "PUPILLIN"
+  ],
+  "departement": "39",
+  "adresses": [
+   "16 RUE DES VIGNES 39600 PUPILLIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838276707",
+  "sirets": [
+   "83827670700026"
+  ],
+  "osm": [],
+  "lat": 46.8826513041323,
+  "lon": 5.75704262884867,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832796015",
+  "nom": "L'ORIGINE DU MONDE",
+  "communes": [
+   "ORGELET"
+  ],
+  "departement": "39",
+  "adresses": [
+   "10 CHEMIN DES ALAMANS 39270 ORGELET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832796015",
+  "sirets": [
+   "83279601500028"
+  ],
+  "osm": [
+   "node/12857497160"
+  ],
+  "lat": 46.5317332738122,
+  "lon": 5.60156627363931,
+  "site": "https://www.jura-tourism.com/produit-regional/brasserie-lorigine-du-monde",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840769335",
+  "nom": "BRASSERIE VACHEMENT JURA",
+  "communes": [
+   "IVREY"
+  ],
+  "departement": "39",
+  "adresses": [
+   "15 B RUE DU POUPET 39110 IVREY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840769335",
+  "sirets": [
+   "84076933500018"
+  ],
+  "osm": [
+   "node/5924898483"
+  ],
+  "lat": 46.990971294,
+  "lon": 5.8970558261,
+  "site": "https://www.vachement-jura.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "PLAINOISEAU"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "RUFFEY-SUR-SEILLE"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:103105565",
+  "nom": "BRASSERIE ARTISANALE LONG",
+  "communes": [
+   "ARINTHOD"
+  ],
+  "departement": "39",
+  "adresses": [
+   "16 RUE DE LA CROIX DE FER 39240 ARINTHOD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "103105565",
+  "sirets": [
+   "10310556500016"
+  ],
+  "osm": [],
+  "lat": 46.391123257327,
+  "lon": 5.56669822352544,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SAINT-LOTHAIN"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:442835963",
+  "nom": "BRASSERIE LA ROUGET DE L ISLE",
+  "communes": [
+   "BLETTERANS"
+  ],
+  "departement": "39",
+  "adresses": [
+   "RUE DES VERNES 39140 BLETTERANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "442835963",
+  "sirets": [
+   "44283596300012"
+  ],
+  "osm": [],
+  "lat": 46.7500103429566,
+  "lon": 5.4428128913834,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900075607",
+  "nom": "LA BISTRAILLE",
+  "communes": [
+   "ARINTHOD"
+  ],
+  "departement": "39",
+  "adresses": [
+   "16 RUE DE LA CROIX DE FER 39240 ARINTHOD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900075607",
+  "sirets": [
+   "90007560700011"
+  ],
+  "osm": [],
+  "lat": 46.391124694,
+  "lon": 5.5666984213,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:804211571",
+  "nom": "BBJ, THE BABOON",
+  "communes": [
+   "POLIGNY"
+  ],
+  "departement": "39",
+  "adresses": [
+   "8 RUE CHARLES ET JULES ARNAUD 39800 POLIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "804211571",
+  "sirets": [
+   "80421157100042"
+  ],
+  "osm": [],
+  "lat": 46.8439726801209,
+  "lon": 5.69025182497063,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:804998490",
+  "nom": "BRASSERIE FRAISANOISE",
+  "communes": [
+   "FRAISANS"
+  ],
+  "departement": "39",
+  "adresses": [
+   "ATELIER 2 5 RUE DE DAMPIERRE 39700 FRAISANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "804998490",
+  "sirets": [
+   "80499849000010"
+  ],
+  "osm": [],
+  "lat": 47.153415402348,
+  "lon": 5.75640754064257,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:928409861",
+  "nom": "MICROBRASSERIE ASSOCIATIVE MAUVAISE IDEE",
+  "communes": [
+   "AMANGE"
+  ],
+  "departement": "39",
+  "adresses": [
+   "3 RUE DE LA BOUCLE 39700 AMANGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928409861",
+  "sirets": [
+   "92840986100012"
+  ],
+  "osm": [],
+  "lat": 47.164717562,
+  "lon": 5.5654190568,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "MACORNAY"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/9743593184"
+  ],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "LOMBARD"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/14041686237"
+  ],
+  "site": "https://www.lelongbarbare.com",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:901265876",
+  "nom": "BRASSERIE LA CASCADE",
+  "communes": [
+   "LES ROUSSES"
+  ],
+  "departement": "39",
+  "adresses": [
+   "51 RUE DE L'ARTISANAT 39220 LES ROUSSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901265876",
+  "sirets": [
+   "90126587600010"
+  ],
+  "osm": [],
+  "lat": 46.486526144,
+  "lon": 6.0555699075,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834765323",
+  "nom": "(enseigne au nom d’une personne)",
+  "communes": [
+   "BEAUFORT-ORBAGNA"
+  ],
+  "departement": "39",
+  "adresses": [
+   "3 IMP DE MARIGNA 39190 BEAUFORT-ORBAGNA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834765323",
+  "sirets": [
+   "83476532300011"
+  ],
+  "osm": [],
+  "lat": 46.581949942,
+  "lon": 5.4479323908,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842332447",
+  "nom": "SAS BRASSERIE LA NOCTURNE",
+  "communes": [
+   "BRAINANS"
+  ],
+  "departement": "39",
+  "adresses": [
+   "1 RUE DE LA TEPPE 39800 BRAINANS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842332447",
+  "sirets": [
+   "84233244700015"
+  ],
+  "osm": [
+   "node/5924933401"
+  ],
+  "lat": 46.874769356,
+  "lon": 5.6182007351,
+  "site": "https://biere-lanocturne.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "CLAIRVAUX-LES-LACS"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/7431276429"
+  ],
+  "site": "https://www.juralacs.com/produits-terroirs-artisanat-sites-a-visiter/brasserie-hoptimalt/",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:917821282",
+  "nom": "LA BRASSERIE DES TROIS EPIS",
+  "communes": [
+   "ORGELET"
+  ],
+  "departement": "39",
+  "adresses": [
+   "3 CHEMIN DE L'ANCIEN ABATTOIR 39270 ORGELET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "917821282",
+  "sirets": [
+   "91782128200014"
+  ],
+  "osm": [
+   "way/202657780"
+  ],
+  "lat": 46.522665425,
+  "lon": 5.6175728117,
+  "site": "http://www.brasserietroisepis.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "BALANOD"
+  ],
+  "departement": "39",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:495299836",
+  "nom": "LA FRANCHE",
+  "communes": [
+   "LA FERTE"
+  ],
+  "departement": "39",
+  "adresses": [
+   "28 RUE PRINCIPALE 39600 LA FERTE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "495299836",
+  "sirets": [
+   "49529983600017"
+  ],
+  "osm": [
+   "node/3901175170"
+  ],
+  "lat": 46.942050406,
+  "lon": 5.658595697,
+  "site": "http://www.lafranche.net",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953328317",
+  "nom": "LA GROSSE",
+  "communes": [
+   "LA FERTE"
+  ],
+  "departement": "39",
+  "adresses": [
+   "28 RUE PRINCIPALE 39600 LA FERTE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953328317",
+  "sirets": [
+   "95332831700011"
+  ],
+  "osm": [],
+  "lat": 46.942050406,
+  "lon": 5.658595697,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:837543966",
+  "nom": "LES ASSOIFFES",
+  "communes": [
+   "BEAUFORT-ORBAGNA"
+  ],
+  "departement": "39",
+  "adresses": [
+   "9 RUE DE LA FONTAINE 39190 BEAUFORT-ORBAGNA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "837543966",
+  "sirets": [
+   "83754396600019"
+  ],
+  "osm": [],
+  "lat": 46.581461093,
+  "lon": 5.4506879665,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847501301",
+  "nom": "CD2R",
+  "communes": [
+   "BALANOD"
+  ],
+  "departement": "39",
+  "adresses": [
+   "RUE DE SAINT-AMOUR 39160 BALANOD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847501301",
+  "sirets": [
+   "84750130100026"
+  ],
+  "osm": [],
+  "lat": 46.452924793,
+  "lon": 5.347394747,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11328875090",
+  "nom": "Brasserie la Perle Noire",
+  "communes": [
+   "Balanod"
+  ],
+  "departement": "39",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11328875090"
+  ],
+  "lat": 46.45276,
+  "lon": 5.34692,
+  "site": "https://www.brasserie-perle-noire.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5924870966",
+  "nom": "La Jurassique",
+  "communes": [
+   "Pupillin"
+  ],
+  "departement": "39",
+  "adresses": [
+   "24 Rue du Chardonnay, 39600 Pupillin"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5924870966"
+  ],
+  "lat": 46.88349,
+  "lon": 5.75809,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5992553137",
+  "nom": "Brasserie des Babouins Jurassiens",
+  "communes": [
+   "Poligny"
+  ],
+  "departement": "39",
+  "adresses": [
+   "2 Rue Roger Thirode, 39800 Poligny"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5992553137"
+  ],
+  "lat": 46.84577,
+  "lon": 5.69557,
+  "site": "https://www.thebaboon.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8765993554",
+  "nom": "La Brasserie Doloise",
+  "communes": [
+   "Sampans"
+  ],
+  "departement": "39",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8765993554"
+  ],
+  "lat": 47.12468,
+  "lon": 5.47508,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8841549976",
+  "nom": "Brasserie du Lizon",
+  "communes": [
+   "Lavans-lès-Saint-Claude"
+  ],
+  "departement": "39",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8841549976"
+  ],
+  "lat": 46.38448,
+  "lon": 5.80012,
+  "site": "https://www.achetezasaintclaude.fr/plateau-du-lizon/brasserie-du-lizon/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/151949273",
+  "nom": "Brasserie artisanale Papillon",
+  "communes": [
+   "Marnoz"
+  ],
+  "departement": "39",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/151949273"
+  ],
+  "lat": 46.96095,
+  "lon": 5.84835,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/480687423",
+  "nom": "Brasserie La Rouget de Lisle",
+  "communes": [
+   "Bletterans"
+  ],
+  "departement": "39",
+  "adresses": [
+   "5 Rue de la Verne, 39140 Bletterans"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/480687423"
+  ],
+  "lat": 46.74961,
+  "lon": 5.44354,
+  "site": "http://www.brasserie-rouget-lisle.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/80783311",
+  "nom": "Brasserie du Triangle d'Or",
+  "communes": [
+   "Poligny"
+  ],
+  "departement": "39",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/80783311"
+  ],
+  "lat": 46.84169,
+  "lon": 5.70369,
+  "site": "https://www.brasserie-du-triangle-dor.com",
+  "statut": "nouveau"
+ }
+]

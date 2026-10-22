@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:818701963",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Gangloff",
+   "c": "Besançon",
+   "d": "25",
+   "lat": 47.24557,
+   "lon": 5.97626,
+   "km": 198.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Un magasin d’usine ouvert le vendredi après-midi et le samedi matin, d’après le site de la brasserie, qui renvoie à Facebook pour les heures.",
+   "addr": "18 chemin de Serre, 25000 Besançon",
+   "src": "https://www.brasserie-gangloff.fr/ou-acheter",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 95 77 53 87",
+    "site": "https://www.brasserie-gangloff.fr/",
+    "source": "https://www.brasserie-gangloff.fr/ou-acheter",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.brasserie-gangloff.fr/ou-acheter",
+   "https://data.geopf.fr/geocodage/search?q=18+chemin+de+Serre%2C+25000+Besan%C3%A7on&limit=5"
+  ],
+  "extrait": "Au magasin d’usine qui est ouvert en fin de semaine le vendredi après-midi et le samedi matin.",
+  "choix": "Horaires non repris : sans heures écrites. Seule ligne publiée : un portable (règle du 21/10). Le point OSM node/6039450606 est le même lieu. Gangloff est une marque historique de Besançon, pas une personne."
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "lot": "dep-70",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Frizon",
+    "c": "Plancher-les-Mines",
+    "d": "70",
+    "lat": 47.77076,
+    "lon": 6.74303,
+    "km": 278,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante d’après son site officiel (bières en coffrets, commande par e-mail). Le site ne dit ni vente directe, ni dégustation, ni visite, ni horaires : ce qu’on peut y faire n’est pas établi.",
+    "addr": "15 Quartier de Saint-Antoine, 70290 Plancher-les-Mines",
+    "src": "https://www.brasseriefrizon.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 45 10 46 53",
+     "site": "https://www.brasseriefrizon.fr",
+     "source": "https://www.brasseriefrizon.fr",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.brasseriefrizon.fr",
+    "https://data.geopf.fr/geocodage/search?q=15+Quartier+de+Saint-Antoine%2C+70290+Plancher-les-Mines&limit=5"
+   ],
+   "extrait": "Disponible en coffrets de 3, 4 et 6 bouteilles.",
+   "choix": "Seul numéro publié par la brasserie sur son site : un portable, permis par la règle du 21/10. Catégorie laissée à 0 : le site ne cite ni vente sur place ni retrait. Bières non recopiées, sans page Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Le Franc Brasseur",
+    "c": "Ronchamp",
+    "d": "70",
+    "lat": 47.69992,
+    "lon": 6.63912,
+    "km": 267.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie avec bar et petite restauration dans l’ancienne filature, d’après la fiche de l’office de tourisme de Haute-Saône (en anglais). Ni site, ni téléphone, ni horaires publiés.",
+    "addr": "9Q allée du canal, Site de la filature, 70250 Ronchamp",
+    "src": "https://en.hautesaonetourisme.com/offers/le-franc-brasseur-biere-la-dormoyse-ronchamp-en-4910463/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://en.hautesaonetourisme.com/offers/le-franc-brasseur-biere-la-dormoyse-ronchamp-en-4910463/",
+    "https://data.geopf.fr/geocodage/search?q=9Q+all%C3%A9e+du+canal%2C+Site+de+la+filature%2C+70250+Ronchamp&limit=5"
+   ],
+   "extrait": "Craft beer production, bar and small-scale catering in the microbrewery.",
+   "choix": "Catégorie 1 : la fiche dit qu’on y goûte les bières brassées sur place, au bar ; confiance moyenne, source touristique seule (décision #37). Le nom OSM « Le Fanc Brasseur » est une coquille."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie artisanale de la Rente Rouge",
+    "c": "Chargey-lès-Gray",
+    "d": "70",
+    "lat": 47.48647,
+    "lon": 5.574,
+    "km": 211,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie dit « Brasserie ouverte » le vendredi et le samedi, sans dire ce qu’on peut y faire (vente, dégustation).",
+    "addr": "La Rente Rouge, 70100 Chargey-lès-Gray",
+    "src": "http://www.larenterouge-brasserie.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 84 41 70 29",
+     "site": "http://www.larenterouge-brasserie.fr",
+     "source": "http://www.larenterouge-brasserie.fr",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ]
+      ],
+      "source": "http://www.larenterouge-brasserie.fr",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "http://www.larenterouge-brasserie.fr",
+    "https://data.geopf.fr/geocodage/search?q=Chargey-l%C3%A8s-Gray&type=municipality&limit=5"
+   ],
+   "extrait": "Brasserie ouverte",
+   "choix": "Catégorie 0 : le site ne dit pas la vente en toutes lettres ; le guide touristique qui la disait n’a pas pu être relu le 22/10. Horaires notés en accueil, d’après « Brasserie ouverte ». Seule ligne publiée : un portable, permis par la règle du 21/10. Adresse du registre et de l’office du Val de Gray, le site n’en publie pas."
+  }
+ ]
+}

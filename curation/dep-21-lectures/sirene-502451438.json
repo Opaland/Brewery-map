@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:502451438",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Burgonde",
+   "c": "Vitteaux",
+   "d": "21",
+   "lat": 47.3959,
+   "lon": 4.54452,
+   "km": 192.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "On peut acheter à la boutique de la brasserie, aux horaires d’ouverture, d’après son site, qui ne parle ni de bar ni de dégustation.",
+   "addr": "10 rue de Verdun, 21350 Vitteaux",
+   "src": "https://brasserie-burgonde.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-burgonde.fr/",
+    "source": "https://brasserie-burgonde.fr/",
+    "verifieLe": "2026-10-22"
+   }
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://brasserie-burgonde.fr/",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+de+Verdun%2C+21350+Vitteaux&limit=5"
+  ],
+  "extrait": "venir pousser la porte de notre boutique",
+  "choix": "Aucun téléphone : le site n’en publie pas. Aucun horaire écrit sur le site. Pas d’Untappd."
+ }
+}

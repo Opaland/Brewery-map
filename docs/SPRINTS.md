@@ -2964,9 +2964,9 @@ Toutes les pages ont été relues par curl, et les décomptes recomptés. Deux t
 
 `docs/stories/S341.md` (écrite après les lectures, écart dit dans la story). Premier sprint fait avec l'outil de S340 : Allier (4 fiches), Cantal (2), Puy-de-Dôme (9), Haute-Savoie (22), par la règle de Cédric du 21/10. 370 → 407 fiches, 29 → 33 départements ; couche OSM 866 → 850. `rendre` vide désormais le dossier des lectures avant de l'écrire (une lecture périmée du Léman y restait). Revue de la persona Cédric : créneaux « sur appel » retirés, La Ringale (Untappd seul) remise à relancer. PR #195, déployée, page sondée.
 
-## S342 — Bourgogne-Franche-Comté *(21/10, epic E36, en pause)*
+## S342 — Bourgogne-Franche-Comté *(21 et 22/10, epic E36)*
 
-`docs/stories/S342.md`, écrite avant les lectures. Candidats préparés pour les sept départements ; le quota de recherches web de la session (200) s'est épuisé à la première vague. Lues et vérifiées à la main : 10 brasseries de Côte-d'Or ; la Nièvre, aucune fiche. Rien d'appliqué. Ce qui reste : `curation/campagne/S342-A-REPRENDRE.md`, branche `s342-bourgogne-franche-comte`.
+`docs/stories/S342.md`, écrite avant les lectures. Le 21/10, le quota de recherches s'épuise à la première vague (10 lectures de Côte-d'Or). Le 22/10, trois vagues de lecture (28 agents) : Côte-d'Or 14 fiches, Doubs 14, Yonne 8, Jura 6, Haute-Saône 3, Nièvre 1, Territoire de Belfort 0, par la règle de Cédric du 21/10. 407 → 453 fiches, 33 → 39 départements ; couche OSM 850 → 819. Chaque source relue sur sa page avant `rendre` (les extraits rendus « en résumé » par les agents, repris mot pour mot ou écartés). Revue de la persona Cédric : Loro et Trois Fontaines retirées, Flavigny, Doloise, Chablis et Quiotte redescendues à « à confirmer », noms de personne effacés des paquets et des candidats. Le quota s'est de nouveau épuisé à la troisième vague : les candidats sans lecture sont dans `curation/campagne/S342-A-REPRENDRE.md`, pour un lot de suite.
 
 ## S352 à S354 — Le mode de développement d'ISTQBFinder *(22/10, epic E37)*
 

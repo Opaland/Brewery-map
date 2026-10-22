@@ -1,0 +1,566 @@
+{
+ "lot": "dep-25",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Hélie, microbrasserie solaire",
+    "c": "Dampierre-les-Bois",
+    "d": "25",
+    "lat": 47.50915,
+    "lon": 6.91314,
+    "km": 262.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Une microbrasserie solaire, d’après son site, qui propose de passer commande sans dire si l’on peut acheter ou boire sur place.",
+    "addr": "4 rue de Fesches, 25490 Dampierre-les-Bois",
+    "src": "https://www.microbrasseriehelie.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 63 32 29 51",
+     "site": "https://www.microbrasseriehelie.fr",
+     "source": "https://www.microbrasseriehelie.fr/contactus",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.microbrasseriehelie.fr",
+    "https://www.microbrasseriehelie.fr/contactus",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+de+Fesches%2C+25490+Dampierre-les-Bois&limit=5"
+   ],
+   "extrait": "Une microbrasserie qui fonctionne à la chaleur solaire, pour brasser une bière biologique et locale",
+   "choix": "Téléphone fixe de la page de contact ; l’adresse électronique, qui porte un prénom, n’est pas reprise."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie d'Épenoy",
+    "c": "Épenoy",
+    "d": "25",
+    "lat": 47.13306,
+    "lon": 6.37211,
+    "km": 204.2,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Les bières se dégustent sur place ou s’emportent, le vendredi et le samedi ; le lundi et le mardi, achat à emporter sur simple appel, d’après le site de la brasserie.",
+    "addr": "38 Grande Rue, 25800 Épenoy",
+    "src": "https://www.brasserie-epenoy.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 81 47 68 27",
+     "site": "https://www.brasserie-epenoy.fr/",
+     "source": "https://www.brasserie-epenoy.fr/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "15:30",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:30",
+        "18:30"
+       ]
+      ],
+      "remarque": "Lundi et mardi : achat à emporter sur simple appel. Visite et dégustation d’atelier sur réservation.",
+      "source": "https://www.brasserie-epenoy.fr/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.brasserie-epenoy.fr/",
+    "https://data.geopf.fr/geocodage/search?q=38+Grande+Rue%2C+25800+%C3%89penoy&limit=5"
+   ],
+   "extrait": "Mes boissons peuvent être dégustées sur place, dans un cadre vintage et convivial, ou à emporter.",
+   "choix": "Téléphone fixe du lien d’appel du site ; le portable de l’annuaire est écarté. Entrepreneur individuel : enseigne au nom de la commune, aucun nom de personne repris. Adresse de l’office Montagnes du Jura et du registre (le site ne donne que la commune). Pas d’Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Cuc",
+    "c": "Serre-les-Sapins",
+    "d": "25",
+    "lat": 47.23484,
+    "lon": 5.93337,
+    "km": 195.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie, d’après son site, qui renvoie aussi à des points de vente autour de Besançon. Ni dégustation, ni visite, ni horaires écrits.",
+    "addr": "4 rue de Terre Rouge, 25770 Serre-les-Sapins",
+    "src": "http://www.brasserie-cuc.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "http://www.brasserie-cuc.com/",
+     "source": "http://www.brasserie-cuc.com/",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "http://www.brasserie-cuc.com/",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+de+Terre+Rouge%2C+25770+Serre-les-Sapins&limit=5"
+   ],
+   "extrait": "Vente directe à la brasserie",
+   "choix": "Aucun téléphone : la page ne donne que ceux des points de vente. Un article de presse la place à Pouilley-les-Vignes ; le site et le registre disent Serre-les-Sapins, retenu. Entrepreneur individuel : aucun nom de personne repris."
+  },
+  {
+   "fiche": {
+    "n": "Terra Comtix",
+    "c": "Mamirolle",
+    "d": "25",
+    "lat": 47.19546,
+    "lon": 6.15023,
+    "km": 200.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante (site, registre, OpenStreetMap). Aucune page ne dit que l’on peut y acheter ou boire : à confirmer.",
+    "addr": "ZI du Noret, 25620 Mamirolle",
+    "src": "https://www.terracomtix.com",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "03 81 53 42 89",
+     "site": "https://www.terracomtix.com",
+     "source": "https://www.terracomtix.com",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.terracomtix.com",
+    "https://data.geopf.fr/geocodage/search?q=Mamirolle&type=municipality&limit=5"
+   ],
+   "extrait": "Ouvert du lundi au vendredi de 9:00 à 16:00",
+   "choix": "Téléphone fixe du site. Horaires non repris : le site et l’association des brasseurs comtois se contredisent."
+  },
+  {
+   "fiche": {
+    "n": "Bière du Doubs",
+    "c": "Nancray",
+    "d": "25",
+    "lat": 47.24475,
+    "lon": 6.18136,
+    "km": 206,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante (site, registre, OpenStreetMap). Son site donne des horaires sans dire ce qu’on peut y faire : à confirmer.",
+    "addr": "26 Grande Rue, 25360 Nancray",
+    "src": "http://www.bieredudoubs.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 07 26 18 04",
+     "site": "http://www.bieredudoubs.com",
+     "source": "http://www.bieredudoubs.com",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "http://www.bieredudoubs.com",
+    "https://data.geopf.fr/geocodage/search?q=26+Grande+Rue%2C+25360+Nancray&limit=5"
+   ],
+   "extrait": "du mercredi au samedi : 16h à 19h",
+   "choix": "Seule ligne publiée par la brasserie : un portable (règle du 21/10). Catégorie 0 : le bar n’est dit que par une association, pas par la brasserie. Horaires non repris, faute de savoir ce qu’ils ouvrent."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Bonne Bouille",
+    "c": "Pontarlier",
+    "d": "25",
+    "lat": 46.90527,
+    "lon": 6.34693,
+    "km": 183.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La brasserie n’est qu’un lieu de production, sauf le vendredi de 16 h 30 à 18 h, d’après son site, qui renvoie à Google pour les horaires à jour.",
+    "addr": "14 rue du Magasin, 25300 Pontarlier",
+    "src": "https://www.brasseriebonnebouille.beer/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriebonnebouille.beer/",
+     "source": "https://www.brasseriebonnebouille.beer/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "16:30",
+        "18:00"
+       ]
+      ],
+      "remarque": "Le site renvoie à Google pour les vacances et exceptions.",
+      "source": "https://www.brasseriebonnebouille.beer/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.brasseriebonnebouille.beer/",
+    "https://data.geopf.fr/geocodage/search?q=14+rue+du+Magasin%2C+25300+Pontarlier&limit=5"
+   ],
+   "extrait": "La brasserie est uniquement un lieu de production, sauf : Les VENDREDI de 16h30 à 18h00",
+   "choix": "Catégorie 2 : la vente à emporter du vendredi, sans bar. Le portable du site, écrit « +33 (0)6… », n’est pas retrouvé tel quel par le contrôle : non repris. Le nom de personne de la page n’est pas repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Gangloff",
+    "c": "Besançon",
+    "d": "25",
+    "lat": 47.24557,
+    "lon": 5.97626,
+    "km": 198.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Un magasin d’usine ouvert le vendredi après-midi et le samedi matin, d’après le site de la brasserie, qui renvoie à Facebook pour les heures.",
+    "addr": "18 chemin de Serre, 25000 Besançon",
+    "src": "https://www.brasserie-gangloff.fr/ou-acheter",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 95 77 53 87",
+     "site": "https://www.brasserie-gangloff.fr/",
+     "source": "https://www.brasserie-gangloff.fr/ou-acheter",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.brasserie-gangloff.fr/ou-acheter",
+    "https://data.geopf.fr/geocodage/search?q=18+chemin+de+Serre%2C+25000+Besan%C3%A7on&limit=5"
+   ],
+   "extrait": "Au magasin d’usine qui est ouvert en fin de semaine le vendredi après-midi et le samedi matin.",
+   "choix": "Horaires non repris : sans heures écrites. Seule ligne publiée : un portable (règle du 21/10). Le point OSM node/6039450606 est le même lieu. Gangloff est une marque historique de Besançon, pas une personne."
+  },
+  {
+   "fiche": {
+    "n": "Les 2 Fûts",
+    "c": "Besançon",
+    "d": "25",
+    "lat": 47.25805,
+    "lon": 6.04848,
+    "km": 202,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Une boutique de vente directe à la brasserie ; le vendredi, vente à emporter et bar ; le mercredi, vente à emporter seulement, d’après son site.",
+    "addr": "7 rue François Rein, 25000 Besançon",
+    "src": "https://www.les2futs.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 98 93 88 87",
+     "site": "https://www.les2futs.com",
+     "source": "https://www.les2futs.com",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "source": "https://www.les2futs.com",
+      "verifieLe": "2026-10-22"
+     },
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "remarque": "Bar le vendredi ; le mercredi, vente à emporter seulement.",
+      "source": "https://www.les2futs.com",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.les2futs.com",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+Fran%C3%A7ois+Rein%2C+25000+Besan%C3%A7on&limit=5"
+   ],
+   "extrait": "Le Vendredi de 15h à 18h30 Vente à emporter et bar",
+   "choix": "Seules lignes publiées : deux portables ; le premier retenu (règle du 21/10). Horaires du corps de page (vendredi jusqu’à 18 h 30)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Backporte",
+    "c": "Bart",
+    "d": "25",
+    "lat": 47.48322,
+    "lon": 6.76799,
+    "km": 253.2,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Tap room de la brasserie : ses bières à déguster sur place, avec un petit snack local, d’après son site.",
+    "addr": "12 rue Frédéric Japy, 25420 Bart",
+    "src": "https://backporte.com/tap-room/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 83 23 78 47",
+     "site": "https://backporte.com/",
+     "source": "https://backporte.com/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "periode": {
+       "du": "05-01",
+       "au": "09-30"
+      },
+      "source": "https://backporte.com/tap-room/",
+      "verifieLe": "2026-10-22"
+     },
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "15:00",
+        "20:30"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "20:30"
+       ]
+      ],
+      "periode": {
+       "du": "10-01",
+       "au": "04-30"
+      },
+      "source": "https://backporte.com/tap-room/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://backporte.com/tap-room/",
+    "https://backporte.com/",
+    "https://data.geopf.fr/geocodage/search?q=12+rue+Fr%C3%A9d%C3%A9ric+Japy%2C+25420+Bart&limit=5"
+   ],
+   "extrait": "nos bières sont toujours disponibles à déguster",
+   "choix": "Catégorie 1 : la page de la tap room dit la dégustation sur place ; la vente à emporter n’y est pas lue et n’est pas déduite. Téléphone fixe du site. Pas d’Untappd trouvé. Horaires de la tap room en deux saisons. Le point OSM node/9246694337 est le même lieu."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Quiotte",
+    "c": "Étalans",
+    "d": "25",
+    "lat": 47.15169,
+    "lon": 6.26769,
+    "km": 201.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Les visites de la brasserie se terminent souvent par une dégustation et l’achat de quelques bières, d’après son site. Rien ne dit qu’on peut acheter sans visite.",
+    "addr": "3 rue des Acots, 25580 Étalans",
+    "src": "https://www.lagroslam.beer/qui-sommes-nous-brasserie-quiotte.html",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 72 27 28 33",
+     "site": "https://www.lagroslam.beer",
+     "source": "https://www.lagroslam.beer/contact.html",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.lagroslam.beer/qui-sommes-nous-brasserie-quiotte.html",
+    "https://www.lagroslam.beer/contact.html",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+des+Acots%2C+25580+%C3%89talans&limit=5"
+   ],
+   "extrait": "Des visites qui se terminent souvent par une dégustation et par l’achat de quelques bières.",
+   "choix": "Catégorie 0 : l’achat n’est écrit qu’au terme d’une visite. Seule ligne publiée : un portable (règle du 21/10). Le candidat personne:2 et le point OSM node/8762268374 sont le même lieu."
+  },
+  {
+   "fiche": {
+    "n": "La Chauffouillarde",
+    "c": "Villers-le-Lac",
+    "d": "25",
+    "lat": 47.07042,
+    "lon": 6.69439,
+    "km": 215,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe, au hameau du Chauffaud, d’après l’office de tourisme Montagnes du Jura, OpenStreetMap et le registre. Rien de lu ne dit ce qu’on peut y faire : à confirmer.",
+    "addr": "Le Chauffaud, 25130 Villers-le-Lac",
+    "src": "https://en.montagnes-du-jura.fr/sales-outlets-for-regional-products/brasserie-la-chauffouillarde-et-distillerie-lalchimiste",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://en.montagnes-du-jura.fr/sales-outlets-for-regional-products/brasserie-la-chauffouillarde-et-distillerie-lalchimiste",
+    "https://data.geopf.fr/geocodage/search?q=Villers-le-Lac&type=municipality&limit=5"
+   ],
+   "extrait": "Our l'Alchimiste distillery and La Chauffouillarde brewery are located in the Doubs, in the small hamlet of Chauffaud perched at an altitude of 1100m.",
+   "choix": "Catégorie 0 : la vente n’est pas lue. Téléphones de l’office (deux portables, sans dire lequel sert aux clients) non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Levain",
+    "c": "Besançon",
+    "d": "25",
+    "lat": 47.23479,
+    "lon": 6.0292,
+    "km": 199.1,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Une microbrasserie et un bar, d’après l’office de tourisme Montagnes du Jura. Ni téléphone ni horaires vérifiés.",
+    "addr": "138 Grande Rue, 25000 Besançon",
+    "src": "https://en.montagnes-du-jura.fr/sit/brasserie-du-levain",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://en.montagnes-du-jura.fr/sit/brasserie-du-levain",
+    "https://data.geopf.fr/geocodage/search?q=138+Grande+Rue%2C+25000+Besan%C3%A7on&limit=5"
+   ],
+   "extrait": "a traditional microbrewery and a friendly bar",
+   "choix": "Office de tourisme seul : confiance moyenne (décision #37). Horaires non repris : l’office, OpenStreetMap et un article de 2023 se contredisent, et la page relue ne les montre pas. L’enseigne du registre porte un nom de personne : non reprise. Son site (brasserielevain.com) est fait en JavaScript et ne se lit pas hors navigateur : rien n’en est repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Sâdjé",
+    "c": "Pays-de-Montbenoît",
+    "d": "25",
+    "lat": 46.99261,
+    "lon": 6.46308,
+    "km": 196.7,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (son site, en construction, et l’office de tourisme Montagnes du Jura). Son site donne trois créneaux « à la brasserie » sans dire si l’on y achète ou boit : à confirmer.",
+    "addr": "4 rue du Val Saugeais, 25650 Pays-de-Montbenoît",
+    "src": "https://sadje.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://sadje.fr",
+     "source": "https://sadje.fr",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "18:00",
+        "21:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "21:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ]
+      ],
+      "source": "https://sadje.fr",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://sadje.fr",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+du+Val+Saugeais%2C+25650+Pays-de-Montbeno%C3%AEt&limit=5"
+   ],
+   "extrait": "En attendant, rendez-vous les jeudis de 18h à 21h, les vendredis de 17h à 21h et les samedis de 10h à 13h à la brasserie.",
+   "choix": "Catégorie 0 : « rendez-vous à la brasserie » ne dit ni vente ni dégustation. Horaires du site, notés en accueil. Aucun téléphone publié. Pas d’Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Barlou",
+    "c": "Quingey",
+    "d": "25",
+    "lat": 47.10089,
+    "lon": 5.87338,
+    "km": 180.3,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie inaugurée le 9 octobre 2026. Vente sur place le jeudi de 17 h à 20 h, et sur rendez-vous, d’après son site, encore en construction.",
+    "addr": "11 ZA La Blanchotte, 25440 Quingey",
+    "src": "https://brasseriebarlou.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 86 63 68 59",
+     "site": "https://brasseriebarlou.fr/",
+     "source": "https://brasseriebarlou.fr/",
+     "verifieLe": "2026-10-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "17:00",
+        "20:00"
+       ]
+      ],
+      "remarque": "Autres créneaux sur rendez-vous.",
+      "source": "https://brasseriebarlou.fr/",
+      "verifieLe": "2026-10-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://brasseriebarlou.fr/",
+    "https://data.geopf.fr/geocodage/search?q=11+ZA+La+Blanchotte%2C+25440+Quingey&limit=5"
+   ],
+   "extrait": "Vente sur place le jeudi de 17h à 20h",
+   "choix": "Confiance moyenne : le site est une page d’attente ; un article de presse dit la même chose. Seule ligne publiée : un portable (règle du 21/10). Pas d’Untappd."
+  }
+ ]
+}

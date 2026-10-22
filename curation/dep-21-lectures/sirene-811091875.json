@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:811091875",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Elixkir",
+   "c": "Quetigny",
+   "d": "21",
+   "lat": 47.30723,
+   "lon": 5.10588,
+   "km": 183.5,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Une boutique où toutes les bières s'emportent, et un taproom pour les boire en salle ou en terrasse, d'après son site.",
+   "addr": "7 rue de l'Enclume, 21800 Quetigny",
+   "src": "https://www.elixkir.fr/boutique-taproom/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 82 30 77 00",
+    "site": "https://www.elixkir.fr/",
+    "source": "https://www.elixkir.fr/contact/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.elixkir.fr/contact/",
+     "mer": [
+      [
+       "14:30",
+       "20:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:30",
+       "20:30"
+      ]
+     ],
+     "ven": [
+      [
+       "14:30",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "20:30"
+      ]
+     ],
+     "remarque": "Boutique et taproom ; fermés les jours fériés.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://www.elixkir.fr/boutique-taproom/",
+   "https://www.elixkir.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+de+l%27Enclume%2C+21800+Quetigny&limit=5"
+  ],
+  "extrait": "Toutes nos bières sont disponibles à emporter",
+  "choix": "Téléphone de la page contact. Horaires « Boutique & Taproom » de la page contact ; les créneaux de livraison et de location de tireuses sont écartés."
+ }
+}

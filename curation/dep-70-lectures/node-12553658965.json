@@ -1,0 +1,27 @@
+{
+ "candidat": "node/12553658965",
+ "ajout": {
+  "fiche": {
+   "n": "Le Franc Brasseur",
+   "c": "Ronchamp",
+   "d": "70",
+   "lat": 47.69992,
+   "lon": 6.63912,
+   "km": 267.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie avec bar et petite restauration dans l’ancienne filature, d’après la fiche de l’office de tourisme de Haute-Saône (en anglais). Ni site, ni téléphone, ni horaires publiés.",
+   "addr": "9Q allée du canal, Site de la filature, 70250 Ronchamp",
+   "src": "https://en.hautesaonetourisme.com/offers/le-franc-brasseur-biere-la-dormoyse-ronchamp-en-4910463/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://en.hautesaonetourisme.com/offers/le-franc-brasseur-biere-la-dormoyse-ronchamp-en-4910463/",
+   "https://data.geopf.fr/geocodage/search?q=9Q+all%C3%A9e+du+canal%2C+Site+de+la+filature%2C+70250+Ronchamp&limit=5"
+  ],
+  "extrait": "Craft beer production, bar and small-scale catering in the microbrewery.",
+  "choix": "Catégorie 1 : la fiche dit qu’on y goûte les bières brassées sur place, au bar ; confiance moyenne, source touristique seule (décision #37). Le nom OSM « Le Fanc Brasseur » est une coquille."
+ }
+}

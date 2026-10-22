@@ -1,0 +1,70 @@
+[
+  {
+    "cle": "node/11308281785",
+    "n": "Brasserie Frizon",
+    "c": "Plancher-les-Mines",
+    "adresse": "15 Quartier de Saint-Antoine, 70290 Plancher-les-Mines",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante d’après son site officiel (bières en coffrets, commande par e-mail). Le site ne dit ni vente directe, ni dégustation, ni visite, ni horaires : ce qu’on peut y faire n’est pas établi.",
+    "src": "https://www.brasseriefrizon.fr",
+    "extrait": "Disponible en coffrets de 3, 4 et 6 bouteilles.",
+    "beers": [],
+    "choix": "Seul numéro publié par la brasserie sur son site : un portable, permis par la règle du 21/10. Catégorie laissée à 0 : le site ne cite ni vente sur place ni retrait. Bières non recopiées, sans page Untappd.",
+    "contact": {
+      "tel": "07 45 10 46 53",
+      "site": "https://www.brasseriefrizon.fr",
+      "source": "https://www.brasseriefrizon.fr"
+    }
+  },
+  {
+    "cle": "node/12553658965",
+    "n": "Le Franc Brasseur",
+    "c": "Ronchamp",
+    "adresse": "9Q allée du canal, Site de la filature, 70250 Ronchamp",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie avec bar et petite restauration dans l’ancienne filature, d’après la fiche de l’office de tourisme de Haute-Saône (en anglais). Ni site, ni téléphone, ni horaires publiés.",
+    "src": "https://en.hautesaonetourisme.com/offers/le-franc-brasseur-biere-la-dormoyse-ronchamp-en-4910463/",
+    "extrait": "Craft beer production, bar and small-scale catering in the microbrewery.",
+    "beers": [],
+    "choix": "Catégorie 1 : la fiche dit qu’on y goûte les bières brassées sur place, au bar ; confiance moyenne, source touristique seule (décision #37). Le nom OSM « Le Fanc Brasseur » est une coquille."
+  },
+  {
+    "cle": "sirene:828908103",
+    "n": "Brasserie artisanale de la Rente Rouge",
+    "c": "Chargey-lès-Gray",
+    "adresse": "La Rente Rouge, 70100 Chargey-lès-Gray",
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie dit « Brasserie ouverte » le vendredi et le samedi, sans dire ce qu’on peut y faire (vente, dégustation).",
+    "src": "http://www.larenterouge-brasserie.fr",
+    "extrait": "Brasserie ouverte",
+    "beers": [],
+    "choix": "Catégorie 0 : le site ne dit pas la vente en toutes lettres ; le guide touristique qui la disait n’a pas pu être relu le 22/10. Horaires notés en accueil, d’après « Brasserie ouverte ». Seule ligne publiée : un portable, permis par la règle du 21/10. Adresse du registre et de l’office du Val de Gray, le site n’en publie pas.",
+    "contact": {
+      "tel": "06 84 41 70 29",
+      "site": "http://www.larenterouge-brasserie.fr",
+      "source": "http://www.larenterouge-brasserie.fr"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "12:30"
+          ]
+        ],
+        "source": "http://www.larenterouge-brasserie.fr",
+        "verifieLe": "2026-10-22"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+ "lot": "dep-58",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Hexagone & Ales",
+    "c": "Courcelles",
+    "d": "58",
+    "lat": 47.40268,
+    "lon": 3.4005,
+    "km": 218.3,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Ouverture uniquement sur rendez-vous ; vente de verres, de fûts et prêt de tireuses, d’après l’office de tourisme de Clamecy. Pas d’horaires ni de téléphone publiés.",
+    "addr": "Rue des Cressiots, 58210 Courcelles",
+    "src": "https://www.clamecyhautnivernais-tourisme.fr/?p=2412",
+    "coordPrecision": "centre",
+    "beers": [
+     {
+      "type": "ipa"
+     }
+    ],
+    "contact": {
+     "site": "https://hexagoneandales.com",
+     "source": "https://hexagoneandales.com",
+     "verifieLe": "2026-10-22"
+    }
+   },
+   "verifieLe": "2026-10-22",
+   "sources": [
+    "https://www.clamecyhautnivernais-tourisme.fr/?p=2412",
+    "https://hexagoneandales.com",
+    "https://data.geopf.fr/geocodage/search?q=Courcelles&type=municipality&limit=5"
+   ],
+   "extrait": "Vente possible de verres mais aussi, pour préparer vos événements, vente de fûts et prêt de tireuses à bières possible.",
+   "choix": "Office de tourisme seul : confiance moyenne (décision #37). Adresse d’accueil de l’office, à Courcelles ; le registre a son siège à Saint-Pierre-du-Mont. India Pale Ale lue sur l’office. Le nom du brasseur n’est pas repris."
+  }
+ ]
+}

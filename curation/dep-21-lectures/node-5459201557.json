@@ -1,0 +1,52 @@
+{
+ "candidat": "node/5459201557",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Roche Aigüe",
+   "c": "Mâlain",
+   "d": "21",
+   "lat": 47.32725,
+   "lon": 4.80851,
+   "km": 183.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie le mardi et le vendredi après-midi, ou sur rendez-vous, d'après la page du collectif agricole de Mâlain. Rien sur une dégustation.",
+   "addr": "28 rue de la Gare, 21410 Mâlain",
+   "src": "https://alternatives-agriculturelles.fr/microbrasserie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 69 10 90 68",
+    "source": "https://alternatives-agriculturelles.fr/microbrasserie/",
+    "verifieLe": "2026-10-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://alternatives-agriculturelles.fr/microbrasserie/",
+     "mar": [
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "remarque": "Ou sur rendez-vous.",
+     "verifieLe": "2026-10-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://alternatives-agriculturelles.fr/microbrasserie/",
+   "https://data.geopf.fr/geocodage/search?q=28+rue+de+la+Gare%2C+21410+M%C3%A2lain&limit=5"
+  ],
+  "extrait": "En vente directe à la brasserie et en circuit court",
+  "choix": "Confiance moyenne : la page n'est pas celle de la brasserie seule et ses dernières nouvelles datent de 2025. Seule ligne publiée : un portable, retenu."
+ }
+}

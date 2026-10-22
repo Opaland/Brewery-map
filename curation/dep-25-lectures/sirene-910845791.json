@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:910845791",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Levain",
+   "c": "Besançon",
+   "d": "25",
+   "lat": 47.23479,
+   "lon": 6.0292,
+   "km": 199.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Une microbrasserie et un bar, d’après l’office de tourisme Montagnes du Jura. Ni téléphone ni horaires vérifiés.",
+   "addr": "138 Grande Rue, 25000 Besançon",
+   "src": "https://en.montagnes-du-jura.fr/sit/brasserie-du-levain",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-22",
+  "sources": [
+   "https://en.montagnes-du-jura.fr/sit/brasserie-du-levain",
+   "https://data.geopf.fr/geocodage/search?q=138+Grande+Rue%2C+25000+Besan%C3%A7on&limit=5"
+  ],
+  "extrait": "a traditional microbrewery and a friendly bar",
+  "choix": "Office de tourisme seul : confiance moyenne (décision #37). Horaires non repris : l’office, OpenStreetMap et un article de 2023 se contredisent, et la page relue ne les montre pas. L’enseigne du registre porte un nom de personne : non reprise. Son site (brasserielevain.com) est fait en JavaScript et ne se lit pas hors navigateur : rien n’en est repris."
+ }
+}
