@@ -54,9 +54,6 @@ Restent 3, 4 et 5.
 - **Faux rouge possible de la sonde de version** (revue adverse S334) :
   si un commit plus récent se déploie pendant les deux minutes de la sonde,
   elle lit son empreinte et rougit. Elle ne peut jamais donner de faux vert.
-- **Dependabot pour npm ?** (relecteur de workflows S334) : aujourd'hui,
-  seul `npm audit` signale les failles, sans rien proposer. À décider par
-  Cédric : mensuel, groupé, sans les versions majeures ?
 - **Le rapport Playwright en échec** est un artefact gardé 7 jours ; il
   contient des traces des e2e (positions factices seulement, §0).
 
@@ -68,8 +65,8 @@ Restent 3, 4 et 5.
 
 ## Revue du 21/10 (S332)
 
-- **A26, le carnet sans écran à lui** : question à Cédric, une case
-  « Seulement mon carnet », ou parler de « vos visites » ?
+- **A26, le carnet sans écran à lui** : Cédric a choisi, le 22/10, une
+  case « Mon carnet » (S350).
 - **Un mot de catégorie coupé sur ordinateur étroit, texte à 200 %** (revue
   adverse S332, non mesuré) : à 900 px, les deux colonnes de puces font
   environ 140 px ; `overflow-wrap: break-word` peut couper un mot. Le test

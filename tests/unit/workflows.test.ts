@@ -24,6 +24,33 @@ describe('les workflows', () => {
     expect(d).toMatch(/package-ecosystem:\s*["']?github-actions/)
   })
 
+  it('S351 : Dependabot propose npm une fois par mois, groupé, sans les majeures', () => {
+    // Le bloc entier, ligne à ligne et sans commentaires : des expressions
+    // éparses laissaient passer un groupe vide, un `ignore` en commentaire
+    // ou inversé avec le groupe (revue adverse S351, sept mutations).
+    const lignes = readFileSync('.github/dependabot.yml', 'utf8')
+      .split('\n')
+      .map((l) => l.replace(/\s+#.*$/, '').trimEnd())
+      .filter((l) => l.trim() !== '' && !l.trim().startsWith('#'))
+    const debut = lignes.indexOf('  - package-ecosystem: npm')
+    expect(debut).toBeGreaterThan(-1)
+    const fin = lignes.findIndex((l, i) => i > debut && l.startsWith('  - '))
+    expect(lignes.slice(debut, fin === -1 ? undefined : fin)).toEqual([
+      '  - package-ecosystem: npm',
+      '    directory: /',
+      '    schedule:',
+      '      interval: monthly',
+      '    open-pull-requests-limit: 1',
+      '    groups:',
+      '      mineures-et-correctifs:',
+      '        patterns: ["*"]',
+      '        update-types: ["minor", "patch"]',
+      '    ignore:',
+      '      - dependency-name: "*"',
+      '        update-types: ["version-update:semver-major"]',
+    ])
+  })
+
   it('C8 : le déploiement de Pages ne coupe pas une publication en cours', () => {
     const ci = workflows.find((w) => w.f === 'ci.yml')?.texte ?? ''
     expect(ci).toMatch(/group:\s*pages/)

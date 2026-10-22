@@ -176,3 +176,21 @@ Cédric : « fait les points moins urgent ».
 | #38, adresse de signalement | « pour l'adresse je ne sais pas » : les signalements restent sur GitHub. Piste : une adresse Gmail dédiée, créée par lui ; #38 reste ouverte. |
 | Dependabot | Les trois mises à jour d'actions mergées vertes (checkout v7, download-artifact v8, upload-pages-artifact v5). |
 
+
+## Réponses de Cédric du 22/10
+
+Quatre questions posées à la reprise du 22/10. Il a répondu en choisissant
+une option ; son choix est recopié tel qu'il l'a coché.
+
+| Question | Son choix | Ce qui en suit |
+|---|---|---|
+| A26 : le carnet n'a pas d'écran à lui, le seul accès est un filtre inverse. | « Case « Mon carnet » » | Une case dans les filtres ne garde que les brasseries visitées ou notées (S350). |
+| Dependabot pour les dépendances npm ? | « Mensuel, groupé, sans majeures » | `.github/dependabot.yml` : une PR par mois, mineures et correctifs groupés, majeures à la main (S351). Une version majeure n’est **jamais** proposée : il faut la chercher soi-même (`npm outdated`). Les alertes et les mises à jour de sécurité de Dependabot sont **désactivées** sur le dépôt (constaté le 22/10 : `automated-security-fixes` répond `enabled: false`) : la seule garde des failles reste `npm audit` (bloquant pour ce que la page embarque, chaque nuit pour l’arbre entier, S283). Les activer est un réglage du dépôt, à Cédric. |
+| #38, un canal hors GitHub pour signaler une erreur ? | « Toujours indécis » | L'issue reste ouverte. Elle n'est plus rappelée à chaque reprise. |
+| Projet Amertume : écrire à son auteur ? | « Je préparerai un brouillon » | Brouillon Gmail du 22/10, adressé à projet.amertume@free.fr (l'adresse publiée sur la page d'accueil du site), **non envoyé** : Cédric le relit et l'envoie. Rien de ses données n'est utilisé avant une réponse écrite. |
+
+Vérifié le même jour : la PR #159, les lots S314, S323, S326, S327 et S328,
+et la licence (#34) étaient déjà réglés le 20 et le 21/10. Les propositions
+s311 n° 5, 6, 7, 9, 10 et s314 n° 4, 6, 7, 9, 11 restent non appliquées
+exprès : ce sont des notes devenues périmées, sur des fiches déjà marquées
+fermées ou déménagées.
