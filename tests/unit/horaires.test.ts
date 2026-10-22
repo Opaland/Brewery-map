@@ -54,8 +54,8 @@ describe('le schéma des horaires', () => {
   })
 
   it('exige une source et une date', () => {
-    const { source: _s, ...sansSource } = accueil
-    void _s
+    const sansSource: Partial<typeof accueil> = { ...accueil }
+    Reflect.deleteProperty(sansSource, 'source')
     expect(erreurs(avec([sansSource]))).not.toEqual([])
   })
 })
