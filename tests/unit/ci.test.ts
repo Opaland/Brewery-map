@@ -50,7 +50,7 @@ describe('npm audit dans la CI', () => {
     expect(ci.indexOf('npm audit --omit=dev --audit-level=high')).toBeLessThan(ci.indexOf('npm run build'))
   })
 
-  it('l’arbre entier est audité dans la porte sans la bloquer, et chaque nuit', () => {
+  it('l’arbre entier est audité dans la porte sans la bloquer, et dans la sonde lancée à la main', () => {
     expect(etape(ci, 'npm audit --audit-level=high\n')).toContain('continue-on-error: true')
     expect(nuit).toContain('npm audit --audit-level=high')
   })

@@ -4,7 +4,8 @@ Stryker modifie le code de `src/core` (un `<` en `<=`, une condition
 retirée) et compte les modifications qu'aucun test ne remarque : chaque
 survivant est un test creux ou un code inutile (CLAUDE.md §6bis).
 
-- Configuration : `stryker.config.json`. Job de nuit :
+- Configuration : `stryker.config.json`. Job à la demande (sa planification
+  de nuit est retirée depuis le 25/10, à la demande de Cédric) :
   `.github/workflows/mutation.yml`, informatif, rapport gardé 30 jours.
 - Stryker n'est pas dans `package.json` : avec `jsdom`, son installation
   désaccordait le fichier de verrouillage et cassait `npm ci`. Il s'installe
