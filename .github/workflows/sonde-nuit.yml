@@ -4,10 +4,13 @@ name: Sonde des services (nuit)
 # des outils de curation (outils/services-sondes.ts), un à la fois. Le bilan
 # nomme l'hôte en panne, dans le résumé du run. Informatif : aucune PR ne
 # l'attend ; un run rouge le matin dit qu'un service est tombé, pas le code.
+#
+# 25/10 : la planification de nuit est retirée, à la demande de Cédric
+# (« désactiver les workflows de nuit »). La sonde se lance à la main :
+# Actions → « Sonde des services (nuit) » → Run workflow, ou
+# `gh workflow run sonde-nuit.yml`.
 
 on:
-  schedule:
-    - cron: '43 4 * * *'
   workflow_dispatch:
 
 permissions:

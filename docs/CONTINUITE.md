@@ -1,7 +1,8 @@
 # La continuité des services tiers (S281)
 
-Ce dont Mousse de Poche dépend, et ce qui casse si l'un tombe. La sonde de
-nuit (`.github/workflows/sonde-nuit.yml`, S277) nomme l'hôte en panne ;
+Ce dont Mousse de Poche dépend, et ce qui casse si l'un tombe. La sonde des
+services (`.github/workflows/sonde-nuit.yml`, S277 ; lancée à la main depuis
+le 25/10, sa planification de nuit est retirée) nomme l'hôte en panne ;
 cette page dit ce que la panne coûte. Repris d'ÉtapeForge
 (`docs/CONTINUITE-APIS.md`).
 
@@ -40,8 +41,8 @@ ses requêtes par hôte en finissant (S280).
   reste lisible.
 - **« Signaler une erreur »** ouvre une issue préremplie sur GitHub
   (`src/core/signalement.ts`) : GitHub en panne, le signalement attend.
-- **GitHub Actions** : la porte, le déploiement, la sonde et la mutation de
-  nuit. En panne, rien ne se publie ; la page en ligne reste celle d'avant.
+- **GitHub Actions** : la porte, le déploiement, la sonde et la mutation
+  (ces deux-là lancées à la main depuis le 25/10). En panne, rien ne se publie ; la page en ligne reste celle d'avant.
 - **Les sites des brasseries** lus par `curation.ts controler` : un site en
   panne est dit « injoignable » pour sa ligne seule, et la ligne reste à
   montrer à Cédric (S265).
