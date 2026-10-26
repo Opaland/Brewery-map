@@ -118,6 +118,13 @@ describe('trierParRegle (S265, règle de Cédric du 18/10)', () => {
     expect(r.aMontrer).toEqual([{ lot: 's14-decouverte', numero: 1, n: 'Nouvelle', raison: 'fiche nouvelle hors des lots départementaux : pas dans la règle' }])
   })
 
+  it('un lot de relance est départemental ; un nom hors du motif ne l’est pas (revue globale du 26/10)', () => {
+    const fiche = { fiche: { n: 'Nouvelle' }, verifieLe: J1, sources: ['https://annuaire.fr/n'], extrait: 'lu' }
+    const r = trierParRegle([lot('dep-21-r2', [], [fiche]), lot('dep-foo', [], [fiche]), lot('dep-21-r10', [], [fiche])])
+    expect(r.acceptees).toEqual({ 'dep-21-r2': [1] })
+    expect(r.aMontrer.map((m) => m.lot)).toEqual(['dep-foo', 'dep-21-r10'])
+  })
+
   it('montre une proposition dont aucune source n’est sur le site officiel, même si toutes sont neutres (revue adverse S265)', () => {
     const r = trierParRegle([
       lot('a', [
