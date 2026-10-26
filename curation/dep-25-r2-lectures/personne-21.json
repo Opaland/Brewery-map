@@ -1,0 +1,54 @@
+{
+ "candidat": "personne:21",
+ "ajout": {
+  "fiche": {
+   "n": "Bière à Bichu",
+   "c": "Cubrial",
+   "d": "25",
+   "lat": 47.49551,
+   "lon": 6.40733,
+   "km": 238.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Café du village et brasserie, d’après son site : on y boit les bières maison et on repart avec un carton. Le jeudi, deux pages du site donnent une heure de fermeture différente (19 h ou 19 h 30).",
+   "addr": "2 rue de l’Égalité, 25680 Cubrial",
+   "src": "https://biereabichu.com/bar.html",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 57 92 95",
+    "site": "https://biereabichu.com/",
+    "source": "https://biereabichu.com/book.html",
+    "verifieLe": "2026-10-26"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://biereabichu.com/book.html",
+     "ven": [
+      [
+       "17:00",
+       "20:30"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "20:30"
+      ]
+     ],
+     "remarque": "Aussi le jeudi en fin d’après-midi : le site donne 17 h-19 h ou 17 h-19 h 30 selon la page.",
+     "verifieLe": "2026-10-26"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://biereabichu.com/bar.html",
+   "https://biereabichu.com/book.html",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+de+l%E2%80%99%C3%89galit%C3%A9%2C+25680+Cubrial&limit=5"
+  ],
+  "extrait": "Les bières maison sont un incontournable à déguster accompagnées d'une planche de charcuterie et de fromage locaux, et on ne peut pas partir sans emporter un carton de ces délicieuses breuvages.",
+  "choix": "Relance du 26/10 (S356), pages relues à la main. Entrepreneur individuel : ni nom de personne ni SIREN. Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Vendredi et samedi identiques sur toutes les pages ; le jeudi, qui diffère, reste en remarque. Pas de page Untappd trouvée."
+ }
+}

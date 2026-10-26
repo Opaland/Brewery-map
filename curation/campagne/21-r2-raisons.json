@@ -1,0 +1,8 @@
+{
+ "sirene:905030664": "relu le 26/10 : rien à Saint-Aubin (deux recherches) ; le seul « Le Chaudron » trouvé est à Bibracte (71), un autre lieu",
+ "sirene:808981724": "relu le 26/10 : un podcast et une place de marché professionnelle seuls ; ni site, ni Untappd, ni office de tourisme",
+ "sirene:839865946": "relu le 26/10 : un guide commercial seul ; trois adresses qui se contredisent (registre, OSM, guide) ; blog arrêté en 2019",
+ "node/5462372327": "même brasserie que « Loro Bières » (sirene:839865946) : mêmes raisons",
+ "sirene:439216029": "relu le 26/10 : la seule source, un office de tourisme régional, porte un nom de personne dans son adresse (règle de S342), et n’a été lue qu’en anglais",
+ "node/5529034615": "relu le 26/10 : rien sous ce nom (quatre recherches, Untappd compris) ; le point OSM la dit « ex- »"
+}

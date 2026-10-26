@@ -1,0 +1,10 @@
+{
+ "sirene:838276707": "relu le 26/10 : à cette adresse, une cave viticole, pas de brasserie trouvée",
+ "sirene:804998490": "relu le 26/10 : le registre seul (deux recherches) ; l’office de tourisme ne la liste pas",
+ "sirene:928409861": "relu le 26/10 : le registre seul (deux recherches) ; l’office de tourisme ne la liste pas",
+ "personne:7": "relu le 26/10 : son site renvoie vers un bar « fermé jusqu’à », sans date, adresse ni vente",
+ "sirene:834765323": "relu le 26/10 : rien trouvé à cette adresse ni dans la commune",
+ "sirene:837543966": "relu le 26/10 : rien sous ce nom",
+ "sirene:847501301": "relu le 26/10 : aucune page sous ce nom ; rien ne la rattache à la Perle Noire",
+ "node/11328875090": "relu le 26/10 : site en 503 le 22/10 et le 26/10, fiches de l’office en 404 : à relancer si le site revient"
+}

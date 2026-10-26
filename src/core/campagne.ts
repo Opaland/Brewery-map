@@ -61,6 +61,43 @@ export function paquetsDeCandidats(
   return { paquets, sansRecherche }
 }
 
+/**
+ * S356 — l'identifiant d'un lot départemental : le département seul, ou
+ * suivi d'un passage `-r2` à `-r9` pour une relance. Une relance a son lot à
+ * elle : la garde de `data/` rejoue chaque accord sur le lot tel qu'il est
+ * dans `curation/`, et réécrire `dep-21.json` la ferait rougir.
+ */
+export interface LotDepartemental {
+  dep: string
+  id: string
+  lot: string
+}
+
+export function lotDepartemental(id: string): LotDepartemental | null {
+  const m = /^(\d{2}|2[AB])(-r[2-9])?$/.exec(id)
+  return m?.[1] === undefined ? null : { dep: m[1], id, lot: `dep-${id}` }
+}
+
+/** `dep-21.json`, `dep-21-r2.json` : le fichier d'un lot départemental (lu par `osm-retirer`). */
+export function estFichierDeLotDepartemental(fichier: string): boolean {
+  const m = /^dep-(.+)\.json$/.exec(fichier)
+  return m?.[1] !== undefined && lotDepartemental(m[1]) !== null
+}
+
+/**
+ * S356 — les candidats d'un passage précédent dont la raison dit qu'ils sont
+ * « à relancer » (quota épuisé, site en panne, source trop faible ce
+ * jour-là). Un candidat lu, donc devenu une fiche, n'y revient jamais.
+ */
+export function candidatsARelancer(
+  candidats: readonly CandidatEnCause[],
+  raisons: Readonly<Record<string, string>>,
+  lus: readonly string[],
+): CandidatEnCause[] {
+  const dejaLus = new Set(lus)
+  return candidats.filter((c) => !dejaLus.has(c.cle) && /relancer/i.test(raisons[c.cle] ?? ''))
+}
+
 const LIBELLES = ['« acheter et consommer »', '« acheter seulement »', '« pas de vente »', '« à confirmer »'] as const
 
 /**

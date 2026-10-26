@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:901265876",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Cascade",
+   "c": "Les Rousses",
+   "d": "39",
+   "lat": 46.49641,
+   "lon": 6.02617,
+   "km": 134.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie des Rousses, au lieu-dit La Doye, d’après son site. Il invite à une dégustation et à commander en ligne, sans lieu ni jour de vente : à confirmer.",
+   "addr": "4a rue de l’Industrie, 39400 Les Rousses",
+   "src": "https://www.brasserielacascade.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 56 85 35 88",
+    "site": "https://www.brasserielacascade.com/",
+    "source": "https://www.brasserielacascade.com",
+    "verifieLe": "2026-10-26"
+   }
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.brasserielacascade.com",
+   "https://data.geopf.fr/geocodage/search?q=4a+rue+de+l%E2%80%99Industrie%2C+39400+Les+Rousses&limit=5"
+  ],
+  "extrait": "Brassées et conditionnées directement à la brasserie, vous pouvez nous contacter par mail, par téléphone ou directement commander en ligne.",
+  "choix": "Relance du 26/10 (S356), site relu à la main. Le registre la place aux Rousses, le site écrit « située aux Rousses » et une adresse à La Doye : le géocodeur de l’IGN place « 4a rue de l’Industrie, 39400 » aux Rousses, au numéro près (revue de la persona, S356). Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10)."
+ }
+}

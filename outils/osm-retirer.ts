@@ -6,6 +6,7 @@
  *   npx tsx outils/osm-retirer.ts
  */
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { estFichierDeLotDepartemental } from '../src/core/campagne'
 import { equivalencesDesLots, fichierOsmSchema, retirerCeQuiADesFiches } from '../src/core/osm-france'
 import { validerBrasseries } from '../src/core/schema'
 
@@ -30,7 +31,7 @@ const { couche: nouvelle, retirees } = retirerCeQuiADesFiches(
     ...MEMES,
     ...equivalencesDesLots(
       readdirSync('curation')
-        .filter((f) => /^dep-[0-9AB]+\.json$/.test(f))
+        .filter(estFichierDeLotDepartemental)
         .map((f) => JSON.parse(readFileSync(`curation/${f}`, 'utf8')) as Parameters<typeof equivalencesDesLots>[0][number]),
       new Set(fiches.brasseries.map((b) => b.n)),
     ),

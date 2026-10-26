@@ -1,0 +1,20 @@
+[
+ {
+  "cle": "node/11378658936",
+  "n": "La Vaugermaine",
+  "c": "Saint-Cyr-les-Colons",
+  "adresse": "30 Grande Rue, Vaugermain, 89800 Saint-Cyr-les-Colons",
+  "cat": 0,
+  "conf": "",
+  "note": "Son site dit vendre ses bières à emporter, sans dire si c’est à la brasserie ; il ne publie ni horaires, ni visite, ni dégustation : à confirmer, appeler avant de venir.",
+  "src": "https://www.lavaugermaine.fr/content/9-nous-trouver",
+  "extrait": "Nous distribuons nos bières en vente à emporter, auprès de cavistes, épiceries fines, et dans des bars, restaurants, pubs",
+  "beers": [],
+  "choix": "Relance du 26/10 (S356) : le site répond de nouveau. Même lieu que sirene:851734541 : une seule fiche. Catégorie 0 : la phrase « à la brasserie » lue par l’agent n’est que dans les données cachées de la page, pas dans son texte ; le texte visible dit « vente à emporter » sans lieu. Pas de page Untappd trouvée.",
+  "contact": {
+   "tel": "03 86 53 10 50",
+   "site": "https://www.lavaugermaine.fr/",
+   "source": "https://www.lavaugermaine.fr/content/9-nous-trouver"
+  }
+ }
+]

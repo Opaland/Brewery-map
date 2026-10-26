@@ -1,0 +1,93 @@
+[
+ {
+  "cle": "sirene:851734541",
+  "nom": "BRASSERIE LA VAUGERMAINS",
+  "communes": [
+   "SAINT-CYR-LES-COLONS"
+  ],
+  "departement": "89",
+  "adresses": [
+   "30 VAUGERMAIN 89800 SAINT-CYR-LES-COLONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851734541",
+  "sirets": [
+   "85173454100010"
+  ],
+  "osm": [],
+  "lat": 47.70438305,
+  "lon": 3.7853360296,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884263633",
+  "nom": "BRASSERIE LA TRUITE",
+  "communes": [
+   "BUTTEAUX"
+  ],
+  "departement": "89",
+  "adresses": [
+   "1 CHEMIN DES LAMES 89360 BUTTEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884263633",
+  "sirets": [
+   "88426363300015"
+  ],
+  "osm": [],
+  "lat": 47.968668276,
+  "lon": 3.8022711998,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11378658936",
+  "nom": "La Vaugermaine",
+  "communes": [
+   "Saint-Cyr-les-Colons"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11378658936"
+  ],
+  "lat": 47.70461,
+  "lon": 3.78505,
+  "site": "https://www.lavaugermaine.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11945606866",
+  "nom": "Odile t'en brasse",
+  "communes": [
+   "Avallon"
+  ],
+  "departement": "89",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11945606866"
+  ],
+  "lat": 47.49373,
+  "lon": 3.90845,
+  "statut": "nouveau"
+ }
+]

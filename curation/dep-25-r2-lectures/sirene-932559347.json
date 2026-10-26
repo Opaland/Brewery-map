@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:932559347",
+ "ajout": {
+  "fiche": {
+   "n": "La Brailleuse",
+   "c": "Sauvagney",
+   "d": "25",
+   "lat": 47.32496,
+   "lon": 5.90294,
+   "km": 203.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et bistrot, d’après l’office de tourisme Montagnes du Jura : bières à emporter ou à boire sur place. Les horaires publiés se contredisent d’une source à l’autre : se renseigner avant de venir.",
+   "addr": "6 Grande Rue, 25170 Sauvagney",
+   "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/la-brailleuse",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/la-brailleuse",
+   "https://data.geopf.fr/geocodage/search?q=6+Grande+Rue%2C+25170+Sauvagney&limit=5"
+  ],
+  "extrait": "Une large gamme de bières bios à emporter ou à déguster sur place vous y attend.",
+  "choix": "Relance du 26/10 (S356), page française de l’office relue à la main. Confiance moyenne au plus (décision #37). Horaires écartés : l’office et un article d’avril 2026 donnent des heures différentes. Téléphone de l’office seul : non repris, comme en S342. Ni site ni Untappd trouvés."
+ }
+}

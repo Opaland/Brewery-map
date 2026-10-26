@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:842332447",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Nocturne",
+   "c": "Brainans",
+   "d": "39",
+   "lat": 46.87466,
+   "lon": 5.61824,
+   "km": 149,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Brainans, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+   "addr": "1 rue de la Teppe, 39800 Brainans",
+   "src": "https://www.jura-tourism.com/produit-regional/la-nocturne/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/la-nocturne/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+de+la+Teppe%2C+39800+Brainans&limit=5"
+  ],
+  "extrait": "Bière artisanale & Naturelle brassée avec la lune.",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Son site ne répond plus (nom de domaine introuvable le 26/10). Téléphone de l’office seul : non repris."
+ }
+}

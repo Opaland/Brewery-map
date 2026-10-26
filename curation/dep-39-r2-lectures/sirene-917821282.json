@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:917821282",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Trois Épis",
+   "c": "Orgelet",
+   "d": "39",
+   "lat": 46.5228,
+   "lon": 5.61765,
+   "km": 115.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio d’Orgelet depuis 2007, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+   "addr": "3 chemin de l’Ancien Abattoir, 39270 Orgelet",
+   "src": "https://www.jura-tourism.com/produit-regional/brasserie-des-3-epis/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/brasserie-des-3-epis/",
+   "https://data.geopf.fr/geocodage/search?q=3+chemin+de+l%E2%80%99Ancien+Abattoir%2C+39270+Orgelet&limit=5"
+  ],
+  "extrait": "Des bières non filtrées, non pasteurisées et refermentées en bouteilles",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : la boutique et la dégustation ne sont que des rubriques, sans phrase à citer (même choix qu’en S342). Son site a un certificat expiré le 26/10. Téléphone de l’office seul : non repris."
+ }
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { compteRenduDuLot, paquetsDeCandidats } from '../../src/core/campagne'
+import { candidatsARelancer, compteRenduDuLot, estFichierDeLotDepartemental, lotDepartemental, paquetsDeCandidats } from '../../src/core/campagne'
 import type { CandidatEnCause } from '../../src/core/candidats'
 
 /** S340 — l'outil de campagne départementale (E36). */
@@ -78,5 +78,36 @@ describe('les garde-fous (revue adverse S340)', () => {
   })
   it('une taille de paquet nulle est refusée, au lieu de boucler', () => {
     expect(() => paquetsDeCandidats(candidats, 0)).toThrow()
+  })
+})
+
+/** S356 — la relance d'une campagne, sous un lot à part (#217). */
+describe('candidatsARelancer', () => {
+  const candidats = [candidat('sirene:1'), candidat('sirene:2'), candidat('sirene:3'), candidat('node/4')]
+  it('garde les seuls candidats dont la raison dit « relancer », jamais un candidat lu', () => {
+    const raisons = {
+      'sirene:2': 'registre seul ; quota épuisé : à relancer',
+      'sirene:3': 'Relancer avec le point OSM',
+      'node/4': 'fermée en 2024',
+      'sirene:1': 'à relancer',
+    }
+    expect(candidatsARelancer(candidats, raisons, ['sirene:1']).map((c) => c.cle)).toEqual(['sirene:2', 'sirene:3'])
+  })
+  it('rien à relancer : une liste vide', () => {
+    expect(candidatsARelancer(candidats, { 'sirene:2': 'annuaire seul' }, [])).toEqual([])
+  })
+})
+
+describe('lotDepartemental', () => {
+  it('un département seul, ou suivi d’un passage -r2 à -r9', () => {
+    expect(lotDepartemental('21')).toEqual({ dep: '21', id: '21', lot: 'dep-21' })
+    expect(lotDepartemental('2A-r2')).toEqual({ dep: '2A', id: '2A-r2', lot: 'dep-2A-r2' })
+  })
+  it('le fichier d’un lot départemental, relance comprise, se reconnaît (revue adverse S356 : osm-retirer l’ignorait)', () => {
+    expect(['dep-21.json', 'dep-2B.json', 'dep-21-r2.json'].every(estFichierDeLotDepartemental)).toBe(true)
+    expect(['dep-21-candidats.json', 'dep-21.md', 'dep-21-x.json', 'dep-21-r2-candidats.json'].some(estFichierDeLotDepartemental)).toBe(false)
+  })
+  it('un identifiant mal formé est refusé', () => {
+    for (const x of ['21-x', '2A-r1', '21-r10', '1', '21r2', '../21', '21-r2/']) expect(lotDepartemental(x)).toBeNull()
   })
 })

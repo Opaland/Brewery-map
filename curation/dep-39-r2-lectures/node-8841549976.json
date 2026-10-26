@@ -1,0 +1,27 @@
+{
+ "candidat": "node/8841549976",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Lizon",
+   "c": "Lavans-lès-Saint-Claude",
+   "d": "39",
+   "lat": 46.38449,
+   "lon": 5.80003,
+   "km": 112.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie du hameau de Lizon, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+   "addr": "184 rue Simon Lahu, 39170 Lavans-lès-Saint-Claude",
+   "src": "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+   "https://data.geopf.fr/geocodage/search?q=184+rue+Simon+Lahu%2C+39170+Lavans-l%C3%A8s-Saint-Claude&limit=5"
+  ],
+  "extrait": "Brasserie du Lizon à LAVANS-LES-SAINT-CLAUDE, Bières Jura : Jura Tourisme",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Le bar et les horaires ne sont écrits que par un annuaire de commerçants, écarté (décision #37). Téléphone de l’office seul : non repris. Pas de page Untappd trouvée."
+ }
+}

@@ -42,6 +42,7 @@ import {
   lireLecturesAgent,
   nomDeFichierDeLecture,
 } from '../src/core/candidats'
+import { lotDepartemental, type LotDepartemental } from '../src/core/campagne'
 import type { CandidatOsm } from '../src/core/decouverte'
 import { validerBrasseries } from '../src/core/schema'
 import { geocoder } from './geocodeur'
@@ -194,12 +195,12 @@ async function candidats(dep: string): Promise<void> {
 
 
 
-function lectures(dep: string, fichier: string | undefined): void {
+function lectures({ dep, lot: nomDuLot }: LotDepartemental, fichier: string | undefined): void {
   if (fichier === undefined) {
     console.error('usage : npx tsx outils/departement.ts lectures <dép.> <fichier.json>')
     process.exit(2)
   }
-  const dossier = `curation/dep-${dep}-lectures`
+  const dossier = `curation/${nomDuLot}-lectures`
   mkdirSync(dossier, { recursive: true })
   const aujourdhui = new Date().toISOString().slice(0, 10)
   // Écrit par un agent : lu par le schéma, refusé en entier s'il n'y tient pas (S318).
@@ -233,8 +234,8 @@ function lectures(dep: string, fichier: string | undefined): void {
   }
 }
 
-function assembler(dep: string): void {
-  const dossier = `curation/dep-${dep}-lectures`
+function assembler({ lot: nomDuLot }: LotDepartemental): void {
+  const dossier = `curation/${nomDuLot}-lectures`
   if (!existsSync(dossier)) {
     console.error(`aucune lecture : ${dossier} n'existe pas`)
     process.exit(1)
@@ -250,14 +251,14 @@ function assembler(dep: string): void {
       refusFichiers.push(`${f} : ${e instanceof Error ? e.message : String(e)}`)
     }
   }
-  const candidats = JSON.parse(readFileSync(`curation/dep-${dep}-candidats.json`, 'utf8')) as CandidatEnCause[]
+  const candidats = JSON.parse(readFileSync(`curation/${nomDuLot}-candidats.json`, 'utf8')) as CandidatEnCause[]
   const valide = validerBrasseries(JSON.parse(readFileSync('data/breweries.json', 'utf8')))
   if (!valide.ok) throw new Error('data/breweries.json invalide')
-  const { lot, refus } = assemblerLot(`dep-${dep}`, lectures, {
+  const { lot, refus } = assemblerLot(nomDuLot, lectures, {
     cles: candidats.map((c) => c.cle),
     noms: valide.brasseries.map((b) => b.n),
   })
-  writeFileSync(`curation/dep-${dep}.json`, `${JSON.stringify(lot, null, 1)}\n`)
+  writeFileSync(`curation/${nomDuLot}.json`, `${JSON.stringify(lot, null, 1)}\n`)
   console.log(`${String(lot.ajouts?.length ?? 0)} ajouts, ${String(refus.length + refusFichiers.length)} lectures refusées`)
   for (const r of refus) console.log(`- ${r.candidat} : ${r.raison}`)
   for (const r of refusFichiers) console.log(`- ${r}`)
@@ -265,14 +266,15 @@ function assembler(dep: string): void {
 
 const args = process.argv.slice(2)
 const commande = args.at(0)
-const dep = args.at(1)
-if (dep === undefined || !/^(\d{2}|2[AB])$/.test(dep)) {
-  console.error('usage : npx tsx outils/departement.ts candidats|lectures|assembler <département>')
+// `lectures` et `assembler` prennent aussi une relance (`21-r2`, S356) ; `candidats`, le département seul.
+const cible = lotDepartemental(args.at(1) ?? '')
+if (cible === null || (commande === 'candidats' && cible.id !== cible.dep)) {
+  console.error('usage : npx tsx outils/departement.ts candidats <département> | lectures|assembler <département>[-r2…-r9]')
   process.exit(2)
 }
-if (commande === 'candidats') await candidats(dep)
-else if (commande === 'assembler') assembler(dep)
-else if (commande === 'lectures') lectures(dep, args.at(2))
+if (commande === 'candidats') await candidats(cible.dep)
+else if (commande === 'assembler') assembler(cible)
+else if (commande === 'lectures') lectures(cible, args.at(2))
 else {
   console.error(`commande inconnue : ${commande ?? ''}`)
   process.exit(2)

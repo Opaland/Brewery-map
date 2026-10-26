@@ -1,0 +1,179 @@
+[
+ [
+  {
+   "cle": "sirene:932559347",
+   "enseigne": "LA BRAILLEUSE",
+   "dep": "25",
+   "communes": [
+    "SAUVAGNEY",
+    "EMAGNY"
+   ],
+   "adresses": [
+    "6 GRANDE RUE 25170 SAUVAGNEY",
+    "ESPACE BEAURIVAGE 25170 EMAGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911885077",
+   "enseigne": "BRASSERIE LA RINCOTTE",
+   "dep": "25",
+   "communes": [
+    "MAICHE"
+   ],
+   "adresses": [
+    "18 RUE LOUIS PERGAUD 25120 MAICHE",
+    "7 RUE HENRI ROTSCHI 25120 MAICHE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900584731",
+   "enseigne": "BRASSERIE LA BRELOK'",
+   "dep": "25",
+   "communes": [
+    "LES FINS"
+   ],
+   "adresses": [
+    "9 RUE DES PRES MOUCHETS 25500 LES FINS"
+   ],
+   "osm": [
+    "node/9975717988"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:502084296",
+   "enseigne": "BRASSERIE ENTRE 2 MONDES",
+   "dep": "25",
+   "communes": [
+    "MOUTHIER-HAUTE-PIERRE"
+   ],
+   "adresses": [
+    "12 RUE ERNEST REYER 25920 MOUTHIER-HAUTE-PIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:20",
+   "enseigne": "BRASSERIE LES PETITES BULLES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "LORAY"
+   ],
+   "adresses": [
+    "7 RUE DE LA ROCHE BARCHEY 25390 LORAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:929276087",
+   "enseigne": "HOPPY FAMILY BREWING",
+   "dep": "25",
+   "communes": [
+    "GRANGES-NARBOZ"
+   ],
+   "adresses": [
+    "8 RUE RENE GUINARD 25300 GRANGES-NARBOZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899250021",
+   "enseigne": "LA BRASSERIE BEHOUCK",
+   "dep": "25",
+   "communes": [
+    "BETHONCOURT"
+   ],
+   "adresses": [
+    "20 RUE DU BOIS DE LA LUZINE 25200 BETHONCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:21",
+   "enseigne": "BIERE A BICHU (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "25",
+   "communes": [
+    "CUBRIAL"
+   ],
+   "adresses": [
+    "2 RUE DE L'EGALITE 25680 CUBRIAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12066100906",
+   "enseigne": "Le Grand méchant moût",
+   "dep": "25",
+   "communes": [
+    "Valonne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12066100906"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6487472862",
+   "enseigne": "Brasserie Entre Deux Mondes",
+   "dep": "25",
+   "communes": [
+    "Mouthier-Haute-Pierre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6487472862"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6532084908",
+   "enseigne": "Brasserie de Sochaux",
+   "dep": "25",
+   "communes": [
+    "Exincourt"
+   ],
+   "adresses": [
+    "72 Rue Edgar Faure, 25400 Exincourt"
+   ],
+   "osm": [
+    "node/6532084908"
+   ],
+   "site": "https://brasseriedesochaux.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/104308091",
+   "enseigne": "Brasserie Fontaine de Jouvence",
+   "dep": "25",
+   "communes": [
+    "Badevel"
+   ],
+   "adresses": [
+    "8 Rue de Dampierre les Bois, 25490 Badevel"
+   ],
+   "osm": [
+    "way/104308091"
+   ],
+   "site": "http://www.fontainesdejouvence.fr.sitew.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

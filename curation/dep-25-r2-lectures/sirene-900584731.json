@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:900584731",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Brelok'",
+   "c": "Les Fins",
+   "d": "25",
+   "lat": 47.08596,
+   "lon": 6.63443,
+   "km": 213.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Son site dit qu’elle a un espace où déguster ses bières, et publie les horaires du bar. La vente à emporter n’est pas écrite en toutes lettres.",
+   "addr": "9 rue des Prés Mouchets, 25500 Les Fins",
+   "src": "https://brasserie-labrelok.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 86 94 93 01",
+    "site": "https://brasserie-labrelok.fr/",
+    "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+    "verifieLe": "2026-10-26"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+     "jeu": [
+      [
+       "17:00",
+       "01:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "01:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:30",
+       "01:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:30",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-26"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://brasserie-labrelok.fr/",
+   "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+des+Pr%C3%A9s+Mouchets%2C+25500+Les+Fins&limit=5"
+  ],
+  "extrait": "Le brasserie La Brelok à Les Fins, près de Morteau (25, Doubs) vous propose de la bière artisanale blanche, blonde, ambrée, noire et IPA toute l’année et dispose d’un espace convivial pour que vous puissiez déguster ses créations dans une ambiance chaleureuse.",
+  "choix": "Relance du 26/10 (S356), site relu à la main. Catégorie 1 en confiance moyenne : on y boit, la vente n’est qu’impliquée. Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Horaires du jeudi au dimanche, écrits sur la page du bar. Pas de page Untappd trouvée : types de bière non repris."
+ }
+}

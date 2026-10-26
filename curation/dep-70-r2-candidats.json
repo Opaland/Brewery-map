@@ -1,0 +1,50 @@
+[
+ {
+  "cle": "sirene:931916910",
+  "nom": "BRASSERIE 1551",
+  "communes": [
+   "CHARCENNE"
+  ],
+  "departement": "70",
+  "adresses": [
+   "7 ROUTE D'AVRIGNEY 70700 CHARCENNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "931916910",
+  "sirets": [
+   "93191691000017"
+  ],
+  "osm": [
+   "node/12893698260"
+  ],
+  "lat": 47.370314237,
+  "lon": 5.7783558739,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7884180792",
+  "nom": "Dan’s Beer",
+  "communes": [
+   "Cirey"
+  ],
+  "departement": "70",
+  "adresses": [
+   "27 Rue de l'Église, 70190 Cirey"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7884180792"
+  ],
+  "lat": 47.39738,
+  "lon": 6.13406,
+  "statut": "nouveau"
+ }
+]

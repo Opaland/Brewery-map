@@ -17601,5 +17601,451 @@
    "source": "https://www.tipsip.fr",
    "verifieLe": "2026-10-22"
   }
+ },
+ {
+  "n": "Brasserie Les Petites Bulles",
+  "c": "Loray",
+  "d": "25",
+  "lat": 47.14985,
+  "lon": 6.49892,
+  "km": 211.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie de Loray, d’après la page des entreprises de la commune et sa page Untappd. Ce qu’on peut y faire n’est écrit nulle part : à confirmer.",
+  "addr": "7 rue de la Roche Barchey, 25390 Loray",
+  "src": "https://www.loray.fr/services/entreprises/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "untappd": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+   "source": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+   "verifieLe": "2026-10-26"
+  }
+ },
+ {
+  "n": "Bière à Bichu",
+  "c": "Cubrial",
+  "d": "25",
+  "lat": 47.49551,
+  "lon": 6.40733,
+  "km": 238.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Café du village et brasserie, d’après son site : on y boit les bières maison et on repart avec un carton. Le jeudi, deux pages du site donnent une heure de fermeture différente (19 h ou 19 h 30).",
+  "addr": "2 rue de l’Égalité, 25680 Cubrial",
+  "src": "https://biereabichu.com/bar.html",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "06 84 57 92 95",
+   "site": "https://biereabichu.com/",
+   "source": "https://biereabichu.com/book.html",
+   "verifieLe": "2026-10-26"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "remarque": "Aussi le jeudi en fin d’après-midi : le site donne 17 h-19 h ou 17 h-19 h 30 selon la page.",
+    "source": "https://biereabichu.com/book.html",
+    "verifieLe": "2026-10-26"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Entre 2 Mondes",
+  "c": "Mouthier-Haute-Pierre",
+  "d": "25",
+  "lat": 47.03869,
+  "lon": 6.27782,
+  "km": 191.5,
+  "cat": 0,
+  "conf": "",
+  "note": "D’après le comité départemental du tourisme du Doubs : une buvette selon la saison et des visites dégustation sur rendez-vous ; se renseigner avant de passer. La vente n’y est pas écrite : à confirmer.",
+  "addr": "12 rue Ernest Reyer, 25920 Mouthier-Haute-Pierre",
+  "src": "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie La Brelok'",
+  "c": "Les Fins",
+  "d": "25",
+  "lat": 47.08596,
+  "lon": 6.63443,
+  "km": 213.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Son site dit qu’elle a un espace où déguster ses bières, et publie les horaires du bar. La vente à emporter n’est pas écrite en toutes lettres.",
+  "addr": "9 rue des Prés Mouchets, 25500 Les Fins",
+  "src": "https://brasserie-labrelok.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "07 86 94 93 01",
+   "site": "https://brasserie-labrelok.fr/",
+   "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+   "verifieLe": "2026-10-26"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:30",
+      "01:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:30",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+    "verifieLe": "2026-10-26"
+   }
+  ]
+ },
+ {
+  "n": "La Brailleuse",
+  "c": "Sauvagney",
+  "d": "25",
+  "lat": 47.32496,
+  "lon": 5.90294,
+  "km": 203.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie et bistrot, d’après l’office de tourisme Montagnes du Jura : bières à emporter ou à boire sur place. Les horaires publiés se contredisent d’une source à l’autre : se renseigner avant de venir.",
+  "addr": "6 Grande Rue, 25170 Sauvagney",
+  "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/la-brailleuse",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "La Jurassique",
+  "c": "Pupillin",
+  "d": "39",
+  "lat": 46.8835,
+  "lon": 5.75807,
+  "km": 155.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale de Pupillin, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+  "addr": "24 rue du Chardonnay, 39600 Pupillin",
+  "src": "https://www.jura-tourism.com/produit-regional/brasserie-la-jurassique/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie du Lizon",
+  "c": "Lavans-lès-Saint-Claude",
+  "d": "39",
+  "lat": 46.38449,
+  "lon": 5.80003,
+  "km": 112.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie du hameau de Lizon, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+  "addr": "184 rue Simon Lahu, 39170 Lavans-lès-Saint-Claude",
+  "src": "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie Hoptimalt",
+  "c": "Clairvaux-les-Lacs",
+  "d": "39",
+  "lat": 46.57175,
+  "lon": 5.74588,
+  "km": 125.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Au bord du lac, d’après l’office de tourisme Montagnes du Jura : un magasin toute l’année ; on n’y boit sur place qu’en juillet et août, au taproom en terrasse. Visites sur rendez-vous hors saison.",
+  "addr": "19 rue de la Gare, 39130 Clairvaux-les-Lacs",
+  "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "remarque": "Horaires magasin du 01/05/26 au 30/09/26.",
+    "periode": {
+     "du": "05-01",
+     "au": "09-30"
+    },
+    "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+    "verifieLe": "2026-10-26"
+   },
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Horaires hors saison 2026.",
+    "periode": {
+     "du": "10-01",
+     "au": "04-30"
+    },
+    "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+    "verifieLe": "2026-10-26"
+   },
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "remarque": "Taproom en juillet et août, ou en dehors de ces horaires sur réservation.",
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+    "verifieLe": "2026-10-26"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie l’Origine du Monde",
+  "c": "Orgelet",
+  "d": "39",
+  "lat": 46.5314,
+  "lon": 5.60182,
+  "km": 115.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio d’Orgelet, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » mais dit que toutes ses périodes d’ouverture sont passées : à confirmer, se renseigner avant de venir.",
+  "addr": "10 chemin des Alamans, 39270 Orgelet",
+  "src": "https://www.jura-tourism.com/?p=175229",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie La Nocturne",
+  "c": "Brainans",
+  "d": "39",
+  "lat": 46.87466,
+  "lon": 5.61824,
+  "km": 149.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Brainans, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+  "addr": "1 rue de la Teppe, 39800 Brainans",
+  "src": "https://www.jura-tourism.com/produit-regional/la-nocturne/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie La Cascade",
+  "c": "Les Rousses",
+  "d": "39",
+  "lat": 46.49641,
+  "lon": 6.02617,
+  "km": 134.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie des Rousses, au lieu-dit La Doye, d’après son site. Il invite à une dégustation et à commander en ligne, sans lieu ni jour de vente : à confirmer.",
+  "addr": "4a rue de l’Industrie, 39400 Les Rousses",
+  "src": "https://www.brasserielacascade.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "07 56 85 35 88",
+   "site": "https://www.brasserielacascade.com/",
+   "source": "https://www.brasserielacascade.com",
+   "verifieLe": "2026-10-26"
+  }
+ },
+ {
+  "n": "Brasserie des Trois Épis",
+  "c": "Orgelet",
+  "d": "39",
+  "lat": 46.5228,
+  "lon": 5.61765,
+  "km": 115.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio d’Orgelet depuis 2007, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+  "addr": "3 chemin de l’Ancien Abattoir, 39270 Orgelet",
+  "src": "https://www.jura-tourism.com/produit-regional/brasserie-des-3-epis/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie Plume Jurassienne",
+  "c": "Cramans",
+  "d": "39",
+  "lat": 47.01247,
+  "lon": 5.7777,
+  "km": 168.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio de Cramans, d’après l’office de tourisme du Jura, qui liste une boutique et des heures d’ouverture le vendredi soir et le samedi matin, sans dire si l’on y achète ou si l’on y boit : à confirmer.",
+  "addr": "44 Grande Rue, 39600 Cramans",
+  "src": "https://www.jura-tourism.com/produit-regional/brasserie-plume-jurassienne/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26"
+ },
+ {
+  "n": "Brasserie 1551",
+  "c": "Charcenne",
+  "d": "70",
+  "lat": 47.37032,
+  "lon": 5.7784,
+  "km": 204.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie qui accueille le public le jeudi et le vendredi, et lors de soirées thématiques, d’après l’office de tourisme de Haute-Saône. La page parle de dégustation, pas de vente : à confirmer.",
+  "addr": "7 route d'Avrigney, 70700 Charcenne",
+  "src": "https://hautesaonetourisme.com/offres/brasserie-1551-charcenne-fr-5561079/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "remarque": "Aussi lors de soirées thématiques.",
+    "source": "https://hautesaonetourisme.com/offres/brasserie-1551-charcenne-fr-5561079/",
+    "verifieLe": "2026-10-26"
+   }
+  ]
+ },
+ {
+  "n": "La Vaugermaine",
+  "c": "Saint-Cyr-les-Colons",
+  "d": "89",
+  "lat": 47.70462,
+  "lon": 3.78502,
+  "km": 237.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Son site dit vendre ses bières à emporter, sans dire si c’est à la brasserie ; il ne publie ni horaires, ni visite, ni dégustation : à confirmer, appeler avant de venir.",
+  "addr": "30 Grande Rue, Vaugermain, 89800 Saint-Cyr-les-Colons",
+  "src": "https://www.lavaugermaine.fr/content/9-nous-trouver",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "03 86 53 10 50",
+   "site": "https://www.lavaugermaine.fr/",
+   "source": "https://www.lavaugermaine.fr/content/9-nous-trouver",
+   "verifieLe": "2026-10-26"
+  }
  }
 ]

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:951606177",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Plume Jurassienne",
+   "c": "Cramans",
+   "d": "39",
+   "lat": 47.01247,
+   "lon": 5.7777,
+   "km": 168.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio de Cramans, d’après l’office de tourisme du Jura, qui liste une boutique et des heures d’ouverture le vendredi soir et le samedi matin, sans dire si l’on y achète ou si l’on y boit : à confirmer.",
+   "addr": "44 Grande Rue, 39600 Cramans",
+   "src": "https://www.jura-tourism.com/produit-regional/brasserie-plume-jurassienne/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/brasserie-plume-jurassienne/",
+   "https://data.geopf.fr/geocodage/search?q=44+Grande+Rue%2C+39600+Cramans&limit=5"
+  ],
+  "extrait": "La Brasserie Plume Jurassienne tente de réduire son impact en brassant des bières bio, tout en limitant au maximum sa consommation d'eau et d'énergie.",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Horaires non repris : leur nature (vente ou accueil) n’est pas écrite. Téléphone de l’office seul : non repris. Pas de site, seulement des réseaux sociaux."
+ }
+}

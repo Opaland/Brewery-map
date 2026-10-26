@@ -1,0 +1,34 @@
+[
+ [
+  {
+   "cle": "sirene:931916910",
+   "enseigne": "BRASSERIE 1551",
+   "dep": "70",
+   "communes": [
+    "CHARCENNE"
+   ],
+   "adresses": [
+    "7 ROUTE D'AVRIGNEY 70700 CHARCENNE"
+   ],
+   "osm": [
+    "node/12893698260"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7884180792",
+   "enseigne": "Dan’s Beer",
+   "dep": "70",
+   "communes": [
+    "Cirey"
+   ],
+   "adresses": [
+    "27 Rue de l'Église, 70190 Cirey"
+   ],
+   "osm": [
+    "node/7884180792"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
