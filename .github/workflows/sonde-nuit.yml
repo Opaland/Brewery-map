@@ -1,9 +1,9 @@
 name: Sonde des services (nuit)
 
-# S277 : chaque nuit, la page publiée, les tuiles de la carte et les services
-# des outils de curation (outils/services-sondes.ts), un à la fois. Le bilan
+# S277 : à la demande (la nuit jusqu’au 25/10), la page publiée, les tuiles
+# de la carte et les services des outils de curation (outils/services-sondes.ts), un à la fois. Le bilan
 # nomme l'hôte en panne, dans le résumé du run. Informatif : aucune PR ne
-# l'attend ; un run rouge le matin dit qu'un service est tombé, pas le code.
+# l'attend ; un run rouge dit qu'un service est tombé, pas le code.
 #
 # 25/10 : la planification de nuit est retirée, à la demande de Cédric
 # (« désactiver les workflows de nuit »). La sonde se lance à la main :
@@ -31,8 +31,8 @@ jobs:
       - name: Sonder les services
         run: npx tsx outils/sonde-services.ts
 
-  # S283 : chaque nuit, un avis nouveau sur une dépendance (outils compris)
-  # rougit le run du matin, sans attendre une PR.
+  # S283 : un avis nouveau sur une dépendance (outils compris) rougit ce job,
+  # le seul qui audite l’arbre entier : à lancer à la main depuis le 25/10.
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 10

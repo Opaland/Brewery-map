@@ -55,3 +55,18 @@ describe('npm audit dans la CI', () => {
     expect(nuit).toContain('npm audit --audit-level=high')
   })
 })
+
+/**
+ * Revue globale du 26/10 : la PR #222 a retiré la planification de nuit,
+ * mais six textes promettaient encore « chaque nuit » (§3). Les deux
+ * workflows ne se lancent qu'à la main, et leurs commentaires le disent.
+ */
+describe('les workflows de nuit, à la main depuis le 25/10', () => {
+  it.each(['sonde-nuit.yml', 'mutation.yml'])('%s : workflow_dispatch seul, sans « chaque nuit »', (f) => {
+    const texte = readFileSync(`.github/workflows/${f}`, 'utf8').replace(/\r\n/g, '\n')
+    // Les clés du bloc `on:` (revue adverse : un `push:` ajouté passait).
+    const bloc = /^on:\n((?: {2}.*\n|\n)*)/m.exec(texte)?.[1] ?? ''
+    expect([...bloc.matchAll(/^ {2}(\w+):/gm)].map((m) => m[1])).toEqual(['workflow_dispatch'])
+    expect(texte).not.toMatch(/chaque nuit|le matin/)
+  })
+})

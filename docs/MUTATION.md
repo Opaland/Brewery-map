@@ -25,5 +25,6 @@ survivant est un test creux ou un code inutile (CLAUDE.md §6bis).
 | `garde-donnees.ts` (avant) | 58 % | 45 | 21 | 11 | test du fichier de base invalide ajouté |
 | `garde-donnees.ts` (après, statiques ignorés) | 66 % | 45 | 16 | 7 | restent surtout des libellés de message |
 
-La mesure complète de `src/core` viendra de la première nuit ; ses
+La mesure complète de `src/core` viendra du premier lancement à la main
+(`gh workflow run mutation.yml`) ; ses
 survivants seront triés ici.

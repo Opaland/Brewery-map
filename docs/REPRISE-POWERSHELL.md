@@ -49,8 +49,8 @@ Notes :
 
 ## 2. Le texte à coller dans la nouvelle session
 
-Réécrite le 22/10 au soir, en fin de session (revue globale faite,
-`docs/REVUE-GLOBALE-2026-10-22.md`).
+Réécrite le 26/10 au soir, en fin de session (revue globale faite,
+`docs/REVUE-GLOBALE-2026-10-26.md`).
 
 ````text
 Tu reprends Mousse de Poche (dépôt Opaland/Brewery-map, cloné dans
@@ -63,9 +63,9 @@ Avant tout, lis dans cet ordre :
 1. AGENTS.md : les règles du projet (§0 à §12), source unique depuis le
    22/10 (E37, repris d'ISTQBFinder). Respecte-les strictement, en
    particulier §0, §1, §1bis, §6, §7bis, §9, §10bis et §12.
-2. CLAUDE.md : l'état de reprise (dernière entrée : 22/10).
-3. docs/REVUE-GLOBALE-2026-10-22.md : la dernière revue globale et ses
-   issues (#208 à #217).
+2. CLAUDE.md : l'état de reprise (dernière entrée : 26/10).
+3. docs/REVUE-GLOBALE-2026-10-26.md : la dernière revue globale et ses
+   issues (#224, #226, #227), après celle du 22/10 (#208 à #216).
 4. docs/DECISIONS.md : mes décisions, dont mes règles du 18/10 et du 21/10
    (créer et modifier une fiche lue sur une source publique, déménagements,
    fermetures et portables compris ; le retrait reste à moi ; un annuaire
@@ -107,15 +107,16 @@ Particularités de ce poste :
 Par quoi commencer :
 1. git switch main ; git pull ; gh run list --workflow ci.yml --branch main.
    Rouge = arrêt (§9) : corrige d'abord.
-2. La PR #207 (actions setup-node v7, configure-pages v6, upload-artifact
-   v7) : si elle est encore ouverte, fusionne main dedans, attends la CI,
-   merge, et vérifie que le déploiement (configure-pages) et la sonde
-   passent.
+2. La PR #225 (undici 8.12.3) : si elle est encore ouverte, fusionne main
+   dedans, attends la CI (porte et visuel), merge, et vérifie le déploiement
+   et la sonde.
 3. npm run porte, et dis-moi ce qu'elle donne.
 4. Rappelle-moi ce qui attend ma décision : #209 (protéger main), #214
    (sept fiches « solide » sur un office de tourisme), #216 (première
-   campagne d'essais des agents, 0,30 à 1,50 $), #217 (Popihn, Lavigney),
+   campagne d'essais des agents, 0,30 à 1,50 $), #226 (l'audit de l'arbre
+   entier ne tourne plus tout seul), Popihn et Lavigney (PR #204),
    #38 (canal hors GitHub, toujours indécis : ne le rappelle pas).
-5. Puis, dans l'ordre : #217 (S342 suite, 42 candidats à relancer), #184
-   (S343, PACA et Corse), et les issues techniques #208, #210 à #213, #215.
+5. Puis, dans l'ordre : #184 (S343, PACA et Corse, avec un quota de
+   recherches neuf), #224 (S341 suite), et les issues techniques #208,
+   #210 à #213, #215, #221, #227.
 ````

@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import { SERVICES } from '../../outils/services-sondes'
 
 /**
- * S281 : chaque service sondé chaque nuit (S277) a sa ligne dans
+ * S281 : chaque service sondé par `sonde-nuit.yml` (S277) a sa ligne dans
  * `docs/CONTINUITE.md` — ce qui casse s'il tombe. Deux listes qui disent la
  * même chose, tenues d'accord par ce test (CLAUDE.md §4ter).
  */
