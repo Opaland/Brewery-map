@@ -1,6 +1,6 @@
 name: Mutation (nuit)
 
-# S239 : Stryker sur src/core, chaque nuit et à la demande. Informatif : le
+# S239 : Stryker sur src/core, à la demande (la nuit jusqu’au 25/10). Informatif : le
 # rapport liste les mutants survivants (tests creux, CLAUDE.md §6bis) ; il ne
 # bloque rien. Stryker s'installe pour le job seulement (--no-save) : son
 # ajout au fichier de verrouillage cassait `npm ci` (S239).

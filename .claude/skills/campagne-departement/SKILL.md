@@ -66,7 +66,9 @@ vagues de dix au plus. Le prompt, à recopier en changeant le fichier :
     ou passer en confiance faible.
 - Écrire les lectures retenues dans `curation/campagne/<dép>-lus.json`, et
   compléter `curation/campagne/<dép>-raisons.json` : **une raison par
-  candidat non retenu**. L'outil refuse sinon.
+  candidat non retenu**. L'outil refuse sinon. Quand la cause est passagère
+  (quota épuisé, site en panne), la raison dit **« à relancer »** : c'est ce
+  mot que `relancer` cherche ; une raison sans lui n'est jamais reprise.
 
 ## 4. Rendre
 

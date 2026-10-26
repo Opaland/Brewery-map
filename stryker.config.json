@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
-  "_commentaire": "S239 : mutation du cœur (CLAUDE.md §6bis). Job de nuit, informatif ; pas de score minimal avant une première mesure (§2).",
+  "_commentaire": "S239 : mutation du cœur (CLAUDE.md §6bis). Job à la demande (de nuit jusqu’au 25/10), informatif ; pas de score minimal avant une première mesure (§2).",
   "testRunner": "vitest",
   "mutate": [
     "src/core/**/*.ts"

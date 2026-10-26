@@ -1,7 +1,7 @@
 import type { ServiceSonde } from '../src/core/sonde'
 
 /**
- * S277 — les services dont Mousse de Poche dépend, sondés chaque nuit
+ * S277 — les services dont Mousse de Poche dépend, sondés à la demande
  * (`.github/workflows/sonde-nuit.yml`). Chaque URL est fixe : une commune
  * publique (Brignais, le départ par défaut), une tuile de niveau 0, une
  * requête de statut ; aucune position de personne (CLAUDE.md §0).

@@ -18,6 +18,7 @@
  * - les fiches nouvelles des lots départementaux sont toutes acceptées ;
  *   celles d'autres lots ne sont pas dans la règle.
  */
+import { estFichierDeLotDepartemental } from './campagne'
 import { estUneRequeteDeCommune, PLATEFORMES, type Lot } from './curation'
 import { estUnMobile } from './osm-etiquettes'
 import type { Brasserie } from './schema'
@@ -107,7 +108,8 @@ export function trierParRegle(
     })
     ;(lot.ajouts ?? []).forEach((a, i) => {
       const numero = lot.propositions.length + i + 1
-      if (nom.startsWith('dep-')) accepter(nom, numero)
+      // Le motif partagé (S356) : `dep-21`, `dep-21-r2`, mais pas `dep-foo` (revue globale du 26/10).
+      if (estFichierDeLotDepartemental(`${nom}.json`)) accepter(nom, numero)
       else aMontrer.push({ lot: nom, numero, n: a.fiche.n, raison: 'fiche nouvelle hors des lots départementaux : pas dans la règle' })
     })
     // S298 : retirer une fiche n'est pas dans la règle du 18/10.
