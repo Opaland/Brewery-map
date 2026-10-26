@@ -1,0 +1,310 @@
+{
+ "lot": "dep-39-r2",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "La Jurassique",
+    "c": "Pupillin",
+    "d": "39",
+    "lat": 46.8835,
+    "lon": 5.75807,
+    "km": 155,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de Pupillin, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+    "addr": "24 rue du Chardonnay, 39600 Pupillin",
+    "src": "https://www.jura-tourism.com/produit-regional/brasserie-la-jurassique/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/produit-regional/brasserie-la-jurassique/",
+    "https://data.geopf.fr/geocodage/search?q=24+rue+du+Chardonnay%2C+39600+Pupillin&limit=5"
+   ],
+   "extrait": "La Jurassique est une brasserie artisanale située à Pupillin.",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0, comme les Trois Épis. Pas de site, seulement un réseau social. Téléphone de l’office seul : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Lizon",
+    "c": "Lavans-lès-Saint-Claude",
+    "d": "39",
+    "lat": 46.38449,
+    "lon": 5.80003,
+    "km": 112.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie du hameau de Lizon, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+    "addr": "184 rue Simon Lahu, 39170 Lavans-lès-Saint-Claude",
+    "src": "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+    "https://data.geopf.fr/geocodage/search?q=184+rue+Simon+Lahu%2C+39170+Lavans-l%C3%A8s-Saint-Claude&limit=5"
+   ],
+   "extrait": "Brasserie du Lizon à LAVANS-LES-SAINT-CLAUDE, Bières Jura : Jura Tourisme",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Le bar et les horaires ne sont écrits que par un annuaire de commerçants, écarté (décision #37). Téléphone de l’office seul : non repris. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Hoptimalt",
+    "c": "Clairvaux-les-Lacs",
+    "d": "39",
+    "lat": 46.57175,
+    "lon": 5.74588,
+    "km": 125.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Au bord du lac, d’après l’office de tourisme Montagnes du Jura : un magasin toute l’année ; on n’y boit sur place qu’en juillet et août, au taproom en terrasse. Visites sur rendez-vous hors saison.",
+    "addr": "19 rue de la Gare, 39130 Clairvaux-les-Lacs",
+    "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:00",
+        "12:00"
+       ]
+      ],
+      "remarque": "Horaires magasin du 01/05/26 au 30/09/26.",
+      "periode": {
+       "du": "05-01",
+       "au": "09-30"
+      },
+      "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+      "verifieLe": "2026-10-26"
+     },
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Horaires hors saison 2026.",
+      "periode": {
+       "du": "10-01",
+       "au": "04-30"
+      },
+      "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+      "verifieLe": "2026-10-26"
+     },
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "09:00",
+        "21:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "21:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "21:00"
+       ]
+      ],
+      "remarque": "Taproom en juillet et août, ou en dehors de ces horaires sur réservation.",
+      "periode": {
+       "du": "07-01",
+       "au": "08-31"
+      },
+      "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+      "verifieLe": "2026-10-26"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+    "https://data.geopf.fr/geocodage/search?q=19+rue+de+la+Gare%2C+39130+Clairvaux-les-Lacs&limit=5"
+   ],
+   "extrait": "Pour accompagner leur gamme de bières, ils vous proposent des planches de salaisons faites maison et des fromages locaux sur la terrasse ombragée de leur TAPROOM.",
+   "choix": "Relance du 26/10 (S356), page française de l’office relue à la main (l’agent avait lu la version anglaise). Entrepreneur individuel : ni nom de personne ni SIREN ; les prénoms de la page ne sont pas repris. Confiance moyenne au plus (décision #37). Catégorie 2 et non 1 : le taproom n’ouvre qu’en juillet et août, et la catégorie ne varie pas avec la saison (revue de la persona, S356). Téléphone de l’office seul : non repris. Horaires 2026 recopiés de la page : magasin en saison et hors saison, taproom en juillet et août."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie l’Origine du Monde",
+    "c": "Orgelet",
+    "d": "39",
+    "lat": 46.5314,
+    "lon": 5.60182,
+    "km": 115.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio d’Orgelet, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » mais dit que toutes ses périodes d’ouverture sont passées : à confirmer, se renseigner avant de venir.",
+    "addr": "10 chemin des Alamans, 39270 Orgelet",
+    "src": "https://www.jura-tourism.com/?p=175229",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/?p=175229",
+    "https://data.geopf.fr/geocodage/search?q=10+chemin+des+Alamans%2C+39270+Orgelet&limit=5"
+   ],
+   "extrait": "Dans notre brasserie, nous considérons la bière comme un art populaire.",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : rubriques sans phrase, et périodes d’ouverture passées. Téléphone de l’office seul : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Nocturne",
+    "c": "Brainans",
+    "d": "39",
+    "lat": 46.87466,
+    "lon": 5.61824,
+    "km": 149,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de Brainans, d’après l’office de tourisme du Jura, qui ne dit rien de ce qu’on peut y faire : à confirmer.",
+    "addr": "1 rue de la Teppe, 39800 Brainans",
+    "src": "https://www.jura-tourism.com/produit-regional/la-nocturne/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/produit-regional/la-nocturne/",
+    "https://data.geopf.fr/geocodage/search?q=1+rue+de+la+Teppe%2C+39800+Brainans&limit=5"
+   ],
+   "extrait": "Bière artisanale & Naturelle brassée avec la lune.",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Son site ne répond plus (nom de domaine introuvable le 26/10). Téléphone de l’office seul : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Cascade",
+    "c": "Les Rousses",
+    "d": "39",
+    "lat": 46.49641,
+    "lon": 6.02617,
+    "km": 134.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie des Rousses, au lieu-dit La Doye, d’après son site. Il invite à une dégustation et à commander en ligne, sans lieu ni jour de vente : à confirmer.",
+    "addr": "4a rue de l’Industrie, 39400 Les Rousses",
+    "src": "https://www.brasserielacascade.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 56 85 35 88",
+     "site": "https://www.brasserielacascade.com/",
+     "source": "https://www.brasserielacascade.com",
+     "verifieLe": "2026-10-26"
+    }
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.brasserielacascade.com",
+    "https://data.geopf.fr/geocodage/search?q=4a+rue+de+l%E2%80%99Industrie%2C+39400+Les+Rousses&limit=5"
+   ],
+   "extrait": "Brassées et conditionnées directement à la brasserie, vous pouvez nous contacter par mail, par téléphone ou directement commander en ligne.",
+   "choix": "Relance du 26/10 (S356), site relu à la main. Le registre la place aux Rousses, le site écrit « située aux Rousses » et une adresse à La Doye : le géocodeur de l’IGN place « 4a rue de l’Industrie, 39400 » aux Rousses, au numéro près (revue de la persona, S356). Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Trois Épis",
+    "c": "Orgelet",
+    "d": "39",
+    "lat": 46.5228,
+    "lon": 5.61765,
+    "km": 115.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio d’Orgelet depuis 2007, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+    "addr": "3 chemin de l’Ancien Abattoir, 39270 Orgelet",
+    "src": "https://www.jura-tourism.com/produit-regional/brasserie-des-3-epis/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/produit-regional/brasserie-des-3-epis/",
+    "https://data.geopf.fr/geocodage/search?q=3+chemin+de+l%E2%80%99Ancien+Abattoir%2C+39270+Orgelet&limit=5"
+   ],
+   "extrait": "Des bières non filtrées, non pasteurisées et refermentées en bouteilles",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : la boutique et la dégustation ne sont que des rubriques, sans phrase à citer (même choix qu’en S342). Son site a un certificat expiré le 26/10. Téléphone de l’office seul : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Plume Jurassienne",
+    "c": "Cramans",
+    "d": "39",
+    "lat": 47.01247,
+    "lon": 5.7777,
+    "km": 168.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio de Cramans, d’après l’office de tourisme du Jura, qui liste une boutique et des heures d’ouverture le vendredi soir et le samedi matin, sans dire si l’on y achète ou si l’on y boit : à confirmer.",
+    "addr": "44 Grande Rue, 39600 Cramans",
+    "src": "https://www.jura-tourism.com/produit-regional/brasserie-plume-jurassienne/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.jura-tourism.com/produit-regional/brasserie-plume-jurassienne/",
+    "https://data.geopf.fr/geocodage/search?q=44+Grande+Rue%2C+39600+Cramans&limit=5"
+   ],
+   "extrait": "La Brasserie Plume Jurassienne tente de réduire son impact en brassant des bières bio, tout en limitant au maximum sa consommation d'eau et d'énergie.",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Horaires non repris : leur nature (vente ou accueil) n’est pas écrite. Téléphone de l’office seul : non repris. Pas de site, seulement des réseaux sociaux."
+  }
+ ]
+}

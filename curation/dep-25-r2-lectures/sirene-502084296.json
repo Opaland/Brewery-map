@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:502084296",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Entre 2 Mondes",
+   "c": "Mouthier-Haute-Pierre",
+   "d": "25",
+   "lat": 47.03869,
+   "lon": 6.27782,
+   "km": 191.5,
+   "cat": 0,
+   "conf": "",
+   "note": "D’après le comité départemental du tourisme du Doubs : une buvette selon la saison et des visites dégustation sur rendez-vous ; se renseigner avant de passer. La vente n’y est pas écrite : à confirmer.",
+   "addr": "12 rue Ernest Reyer, 25920 Mouthier-Haute-Pierre",
+   "src": "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+   "https://data.geopf.fr/geocodage/search?q=12+rue+Ernest+Reyer%2C+25920+Mouthier-Haute-Pierre&limit=5"
+  ],
+  "extrait": "Buvette selon la saison. Il est préférable d’appeler avant de passer car avant tout, nous produisons pour votre plaisir.",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : buvette saisonnière et visite sur rendez-vous, vente non écrite (seul un annuaire la dit). Téléphone de l’office seul : non repris. Le point OSM node/6487472862 est le même lieu."
+ }
+}

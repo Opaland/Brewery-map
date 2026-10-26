@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:832796015",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie l’Origine du Monde",
+   "c": "Orgelet",
+   "d": "39",
+   "lat": 46.5314,
+   "lon": 5.60182,
+   "km": 115.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio d’Orgelet, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » mais dit que toutes ses périodes d’ouverture sont passées : à confirmer, se renseigner avant de venir.",
+   "addr": "10 chemin des Alamans, 39270 Orgelet",
+   "src": "https://www.jura-tourism.com/?p=175229",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/?p=175229",
+   "https://data.geopf.fr/geocodage/search?q=10+chemin+des+Alamans%2C+39270+Orgelet&limit=5"
+  ],
+  "extrait": "Dans notre brasserie, nous considérons la bière comme un art populaire.",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : rubriques sans phrase, et périodes d’ouverture passées. Téléphone de l’office seul : non repris."
+ }
+}

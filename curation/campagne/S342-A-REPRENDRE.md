@@ -1,5 +1,11 @@
 # S342 — ce qui reste à relancer (22/10)
 
+> **Relancé le 26/10 (S356)** : 15 fiches entrées (`curation/dep-*-r2.md`).
+> Restent à relancer, sites en panne : Brasserie de Sochaux
+> (`node/6532084908`), Brasserie la Perle Noire (`node/11328875090`),
+> Brasserie Fontaine de Jouvence (`way/104308091`). Les autres ont leur
+> raison dans `curation/campagne/<dép>-r2-raisons.json`.
+
 La région est faite le 22/10 : 46 fiches appliquées (PR de S342). Le quota
 de recherches web de la session (200) s'est épuisé pendant la troisième
 vague ; les candidats ci-dessous n'ont pas eu leurs deux recherches, ou

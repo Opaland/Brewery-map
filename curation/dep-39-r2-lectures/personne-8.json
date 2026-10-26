@@ -1,0 +1,133 @@
+{
+ "candidat": "personne:8",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Hoptimalt",
+   "c": "Clairvaux-les-Lacs",
+   "d": "39",
+   "lat": 46.57175,
+   "lon": 5.74588,
+   "km": 125.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Au bord du lac, d’après l’office de tourisme Montagnes du Jura : un magasin toute l’année ; on n’y boit sur place qu’en juillet et août, au taproom en terrasse. Visites sur rendez-vous hors saison.",
+   "addr": "19 rue de la Gare, 39130 Clairvaux-les-Lacs",
+   "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+     "periode": {
+      "du": "05-01",
+      "au": "09-30"
+     },
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:00",
+       "12:00"
+      ]
+     ],
+     "remarque": "Horaires magasin du 01/05/26 au 30/09/26.",
+     "verifieLe": "2026-10-26"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+     "periode": {
+      "du": "10-01",
+      "au": "04-30"
+     },
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Horaires hors saison 2026.",
+     "verifieLe": "2026-10-26"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+     "periode": {
+      "du": "07-01",
+      "au": "08-31"
+     },
+     "jeu": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "remarque": "Taproom en juillet et août, ou en dehors de ces horaires sur réservation.",
+     "verifieLe": "2026-10-26"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/brasserie-hoptimalt",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+de+la+Gare%2C+39130+Clairvaux-les-Lacs&limit=5"
+  ],
+  "extrait": "Pour accompagner leur gamme de bières, ils vous proposent des planches de salaisons faites maison et des fromages locaux sur la terrasse ombragée de leur TAPROOM.",
+  "choix": "Relance du 26/10 (S356), page française de l’office relue à la main (l’agent avait lu la version anglaise). Entrepreneur individuel : ni nom de personne ni SIREN ; les prénoms de la page ne sont pas repris. Confiance moyenne au plus (décision #37). Catégorie 2 et non 1 : le taproom n’ouvre qu’en juillet et août, et la catégorie ne varie pas avec la saison (revue de la persona, S356). Téléphone de l’office seul : non repris. Horaires 2026 recopiés de la page : magasin en saison et hors saison, taproom en juillet et août."
+ }
+}

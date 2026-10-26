@@ -1,0 +1,24 @@
+[
+ {
+  "cle": "sirene:931916910",
+  "n": "Brasserie 1551",
+  "c": "Charcenne",
+  "adresse": "7 route d'Avrigney, 70700 Charcenne",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie qui accueille le public le jeudi et le vendredi, et lors de soirées thématiques, d’après l’office de tourisme de Haute-Saône. La page parle de dégustation, pas de vente : à confirmer.",
+  "src": "https://hautesaonetourisme.com/offres/brasserie-1551-charcenne-fr-5561079/",
+  "extrait": "Accueil du public le jeudi (17h-19h) et le vendredi (16h-21h) ou lors de soirées thématiques.",
+  "beers": [],
+  "choix": "Relance du 26/10 (S356). Page française de l’office relue à la main (la version anglaise lue par l’agent est écartée). Catégorie 0 : dégustation écrite, vente non. Téléphone de l’office seul (un mobile) : non repris, comme en S342. Ni site ni Untappd trouvés.",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [["17:00", "19:00"]],
+    "ven": [["16:00", "21:00"]],
+    "remarque": "Aussi lors de soirées thématiques.",
+    "source": "https://hautesaonetourisme.com/offres/brasserie-1551-charcenne-fr-5561079/"
+   }
+  ]
+ }
+]

@@ -1,0 +1,197 @@
+{
+ "lot": "dep-25-r2",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Les Petites Bulles",
+    "c": "Loray",
+    "d": "25",
+    "lat": 47.14985,
+    "lon": 6.49892,
+    "km": 211.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie de Loray, d’après la page des entreprises de la commune et sa page Untappd. Ce qu’on peut y faire n’est écrit nulle part : à confirmer.",
+    "addr": "7 rue de la Roche Barchey, 25390 Loray",
+    "src": "https://www.loray.fr/services/entreprises/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "untappd": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+     "source": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+     "verifieLe": "2026-10-26"
+    }
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.loray.fr/services/entreprises/",
+    "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Roche+Barchey%2C+25390+Loray&limit=5"
+   ],
+   "extrait": "Micro-brasserie basée à Loray",
+   "choix": "Relance du 26/10 (S356), page de la commune relue à la main. Existence : la commune et Untappd (méthode du 19/10). Entrepreneur individuel : ni nom de personne ni SIREN. Aucun téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "Bière à Bichu",
+    "c": "Cubrial",
+    "d": "25",
+    "lat": 47.49551,
+    "lon": 6.40733,
+    "km": 238.6,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Café du village et brasserie, d’après son site : on y boit les bières maison et on repart avec un carton. Le jeudi, deux pages du site donnent une heure de fermeture différente (19 h ou 19 h 30).",
+    "addr": "2 rue de l’Égalité, 25680 Cubrial",
+    "src": "https://biereabichu.com/bar.html",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 84 57 92 95",
+     "site": "https://biereabichu.com/",
+     "source": "https://biereabichu.com/book.html",
+     "verifieLe": "2026-10-26"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "17:00",
+        "20:30"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "20:30"
+       ]
+      ],
+      "remarque": "Aussi le jeudi en fin d’après-midi : le site donne 17 h-19 h ou 17 h-19 h 30 selon la page.",
+      "source": "https://biereabichu.com/book.html",
+      "verifieLe": "2026-10-26"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://biereabichu.com/bar.html",
+    "https://biereabichu.com/book.html",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+de+l%E2%80%99%C3%89galit%C3%A9%2C+25680+Cubrial&limit=5"
+   ],
+   "extrait": "Les bières maison sont un incontournable à déguster accompagnées d'une planche de charcuterie et de fromage locaux, et on ne peut pas partir sans emporter un carton de ces délicieuses breuvages.",
+   "choix": "Relance du 26/10 (S356), pages relues à la main. Entrepreneur individuel : ni nom de personne ni SIREN. Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Vendredi et samedi identiques sur toutes les pages ; le jeudi, qui diffère, reste en remarque. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Entre 2 Mondes",
+    "c": "Mouthier-Haute-Pierre",
+    "d": "25",
+    "lat": 47.03869,
+    "lon": 6.27782,
+    "km": 191.5,
+    "cat": 0,
+    "conf": "",
+    "note": "D’après le comité départemental du tourisme du Doubs : une buvette selon la saison et des visites dégustation sur rendez-vous ; se renseigner avant de passer. La vente n’y est pas écrite : à confirmer.",
+    "addr": "12 rue Ernest Reyer, 25920 Mouthier-Haute-Pierre",
+    "src": "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+    "https://data.geopf.fr/geocodage/search?q=12+rue+Ernest+Reyer%2C+25920+Mouthier-Haute-Pierre&limit=5"
+   ],
+   "extrait": "Buvette selon la saison. Il est préférable d’appeler avant de passer car avant tout, nous produisons pour votre plaisir.",
+   "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0 : buvette saisonnière et visite sur rendez-vous, vente non écrite (seul un annuaire la dit). Téléphone de l’office seul : non repris. Le point OSM node/6487472862 est le même lieu."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Brelok'",
+    "c": "Les Fins",
+    "d": "25",
+    "lat": 47.08596,
+    "lon": 6.63443,
+    "km": 213.1,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Son site dit qu’elle a un espace où déguster ses bières, et publie les horaires du bar. La vente à emporter n’est pas écrite en toutes lettres.",
+    "addr": "9 rue des Prés Mouchets, 25500 Les Fins",
+    "src": "https://brasserie-labrelok.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 86 94 93 01",
+     "site": "https://brasserie-labrelok.fr/",
+     "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+     "verifieLe": "2026-10-26"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "01:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "01:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:30",
+        "01:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:30",
+        "18:00"
+       ]
+      ],
+      "source": "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+      "verifieLe": "2026-10-26"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://brasserie-labrelok.fr/",
+    "https://brasserie-labrelok.fr/bar-brasserie-la-brelok-25500-les-fins.html",
+    "https://data.geopf.fr/geocodage/search?q=9+rue+des+Pr%C3%A9s+Mouchets%2C+25500+Les+Fins&limit=5"
+   ],
+   "extrait": "Le brasserie La Brelok à Les Fins, près de Morteau (25, Doubs) vous propose de la bière artisanale blanche, blonde, ambrée, noire et IPA toute l’année et dispose d’un espace convivial pour que vous puissiez déguster ses créations dans une ambiance chaleureuse.",
+   "choix": "Relance du 26/10 (S356), site relu à la main. Catégorie 1 en confiance moyenne : on y boit, la vente n’est qu’impliquée. Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Horaires du jeudi au dimanche, écrits sur la page du bar. Pas de page Untappd trouvée : types de bière non repris."
+  },
+  {
+   "fiche": {
+    "n": "La Brailleuse",
+    "c": "Sauvagney",
+    "d": "25",
+    "lat": 47.32496,
+    "lon": 5.90294,
+    "km": 203.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie et bistrot, d’après l’office de tourisme Montagnes du Jura : bières à emporter ou à boire sur place. Les horaires publiés se contredisent d’une source à l’autre : se renseigner avant de venir.",
+    "addr": "6 Grande Rue, 25170 Sauvagney",
+    "src": "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/la-brailleuse",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-26",
+   "sources": [
+    "https://www.montagnes-du-jura.fr/vente-de-produits-regionaux/la-brailleuse",
+    "https://data.geopf.fr/geocodage/search?q=6+Grande+Rue%2C+25170+Sauvagney&limit=5"
+   ],
+   "extrait": "Une large gamme de bières bios à emporter ou à déguster sur place vous y attend.",
+   "choix": "Relance du 26/10 (S356), page française de l’office relue à la main. Confiance moyenne au plus (décision #37). Horaires écartés : l’office et un article d’avril 2026 donnent des heures différentes. Téléphone de l’office seul : non repris, comme en S342. Ni site ni Untappd trouvés."
+  }
+ ]
+}

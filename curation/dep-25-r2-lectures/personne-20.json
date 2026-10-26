@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:20",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Petites Bulles",
+   "c": "Loray",
+   "d": "25",
+   "lat": 47.14985,
+   "lon": 6.49892,
+   "km": 211.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie de Loray, d’après la page des entreprises de la commune et sa page Untappd. Ce qu’on peut y faire n’est écrit nulle part : à confirmer.",
+   "addr": "7 rue de la Roche Barchey, 25390 Loray",
+   "src": "https://www.loray.fr/services/entreprises/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "untappd": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+    "source": "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+    "verifieLe": "2026-10-26"
+   }
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.loray.fr/services/entreprises/",
+   "https://untappd.com/w/brasserie-les-petites-bulles/565913",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Roche+Barchey%2C+25390+Loray&limit=5"
+  ],
+  "extrait": "Micro-brasserie basée à Loray",
+  "choix": "Relance du 26/10 (S356), page de la commune relue à la main. Existence : la commune et Untappd (méthode du 19/10). Entrepreneur individuel : ni nom de personne ni SIREN. Aucun téléphone publié."
+ }
+}

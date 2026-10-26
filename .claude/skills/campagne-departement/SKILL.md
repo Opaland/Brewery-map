@@ -99,6 +99,23 @@ Puis :
 
 `npx vitest run` doit être vert avant le commit. Le crochet lance la porte.
 
+## Relancer ce qui n'a pas pu conclure (S356)
+
+Quand un passage laisse des candidats « à relancer » (quota épuisé, site en
+panne), on ne rejoue **jamais** `rendre` sur un département déjà appliqué :
+la garde de `data/` rejoue chaque accord sur le lot tel qu'il est dans
+`curation/`, et un `dep-21.json` réécrit la ferait rougir. La relance a son
+lot à elle :
+
+```bash
+npx tsx outils/campagne.ts relancer 21-r2
+```
+
+L'outil écrit `curation/dep-21-r2-candidats.json` et
+`curation/campagne/21-r2-paquets.json`. On suit ensuite les étapes 2 à 6
+avec `21-r2` à la place de `21` (`21-r2-lus.json`, `21-r2-raisons.json`,
+`rendre 21-r2 …`, `appliquer 21-r2`). Un troisième passage s'appelle `21-r3`.
+
 ## 7. PR et merge
 
 Une seule PR de données par région, qui **liste chaque fiche ajoutée**

@@ -1,0 +1,274 @@
+[
+ {
+  "cle": "sirene:932559347",
+  "nom": "LA BRAILLEUSE",
+  "communes": [
+   "SAUVAGNEY",
+   "EMAGNY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "6 GRANDE RUE 25170 SAUVAGNEY",
+   "ESPACE BEAURIVAGE 25170 EMAGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "932559347",
+  "sirets": [
+   "93255934700012",
+   "93255934700020"
+  ],
+  "osm": [],
+  "lat": 47.3250387281485,
+  "lon": 5.9027385593398,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911885077",
+  "nom": "BRASSERIE LA RINCOTTE",
+  "communes": [
+   "MAICHE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "18 RUE LOUIS PERGAUD 25120 MAICHE",
+   "7 RUE HENRI ROTSCHI 25120 MAICHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911885077",
+  "sirets": [
+   "91188507700014",
+   "91188507700022"
+  ],
+  "osm": [],
+  "lat": 47.253850912,
+  "lon": 6.8081023468,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900584731",
+  "nom": "BRASSERIE LA BRELOK'",
+  "communes": [
+   "LES FINS"
+  ],
+  "departement": "25",
+  "adresses": [
+   "9 RUE DES PRES MOUCHETS 25500 LES FINS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "900584731",
+  "sirets": [
+   "90058473100021"
+  ],
+  "osm": [
+   "node/9975717988"
+  ],
+  "lat": 47.0863463166231,
+  "lon": 6.63355189036976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:502084296",
+  "nom": "BRASSERIE ENTRE 2 MONDES",
+  "communes": [
+   "MOUTHIER-HAUTE-PIERRE"
+  ],
+  "departement": "25",
+  "adresses": [
+   "12 RUE ERNEST REYER 25920 MOUTHIER-HAUTE-PIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "502084296",
+  "sirets": [
+   "50208429600016"
+  ],
+  "osm": [],
+  "lat": 47.038484097,
+  "lon": 6.2776422629,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:20",
+  "nom": "BRASSERIE LES PETITES BULLES",
+  "communes": [
+   "LORAY"
+  ],
+  "departement": "25",
+  "adresses": [
+   "7 RUE DE LA ROCHE BARCHEY 25390 LORAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929276087",
+  "nom": "HOPPY FAMILY BREWING",
+  "communes": [
+   "GRANGES-NARBOZ"
+  ],
+  "departement": "25",
+  "adresses": [
+   "8 RUE RENE GUINARD 25300 GRANGES-NARBOZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929276087",
+  "sirets": [
+   "92927608700012"
+  ],
+  "osm": [],
+  "lat": 46.88160674,
+  "lon": 6.3215483918,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899250021",
+  "nom": "LA BRASSERIE BEHOUCK",
+  "communes": [
+   "BETHONCOURT"
+  ],
+  "departement": "25",
+  "adresses": [
+   "20 RUE DU BOIS DE LA LUZINE 25200 BETHONCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899250021",
+  "sirets": [
+   "89925002100016"
+  ],
+  "osm": [],
+  "lat": 47.534377852,
+  "lon": 6.7831862707,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:21",
+  "nom": "BIERE A BICHU",
+  "communes": [
+   "CUBRIAL"
+  ],
+  "departement": "25",
+  "adresses": [
+   "2 RUE DE L'EGALITE 25680 CUBRIAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12066100906",
+  "nom": "Le Grand méchant moût",
+  "communes": [
+   "Valonne"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12066100906"
+  ],
+  "lat": 47.34281,
+  "lon": 6.66045,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6487472862",
+  "nom": "Brasserie Entre Deux Mondes",
+  "communes": [
+   "Mouthier-Haute-Pierre"
+  ],
+  "departement": "25",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6487472862"
+  ],
+  "lat": 47.03867,
+  "lon": 6.27769,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6532084908",
+  "nom": "Brasserie de Sochaux",
+  "communes": [
+   "Exincourt"
+  ],
+  "departement": "25",
+  "adresses": [
+   "72 Rue Edgar Faure, 25400 Exincourt"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6532084908"
+  ],
+  "lat": 47.49613,
+  "lon": 6.82512,
+  "site": "https://brasseriedesochaux.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/104308091",
+  "nom": "Brasserie Fontaine de Jouvence",
+  "communes": [
+   "Badevel"
+  ],
+  "departement": "25",
+  "adresses": [
+   "8 Rue de Dampierre les Bois, 25490 Badevel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/104308091"
+  ],
+  "lat": 47.50401,
+  "lon": 6.93839,
+  "site": "http://www.fontainesdejouvence.fr.sitew.com/",
+  "statut": "nouveau"
+ }
+]

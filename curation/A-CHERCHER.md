@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 453 | 19 (4 %) | 42 | 189 | 167 | 239 | 301 | 319 | 292 |
+| **Total** | 468 | 19 (4 %) | 42 | 200 | 178 | 239 | 312 | 330 | 307 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
@@ -23,7 +23,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
 | 21 · Côte-d'Or | 14 | 0 (0 %) | 0 | 5 | 3 | 3 | 6 | 8 | 14 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
-| 25 · Doubs | 14 | 0 (0 %) | 0 | 6 | 2 | 2 | 5 | 8 | 14 |
+| 25 · Doubs | 19 | 0 (0 %) | 0 | 8 | 5 | 2 | 8 | 11 | 19 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
 | 28 · Eure-et-Loir | 4 | 0 (0 %) | 0 | 3 | 2 | 0 | 2 | 2 | 4 |
@@ -32,7 +32,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
 | 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
 | 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 17 | 30 | 26 | 28 | 24 |
-| 39 · Jura | 6 | 0 (0 %) | 0 | 2 | 3 | 2 | 2 | 4 | 5 |
+| 39 · Jura | 14 | 0 (0 %) | 0 | 9 | 10 | 2 | 9 | 11 | 13 |
 | 41 · Loir-et-Cher | 1 | 0 (0 %) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 6 | 6 | 7 | 6 |
@@ -46,18 +46,18 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
-| 70 · Haute-Saône | 3 | 0 (0 %) | 0 | 2 | 1 | 1 | 1 | 2 | 3 |
+| 70 · Haute-Saône | 4 | 0 (0 %) | 0 | 3 | 2 | 1 | 2 | 2 | 4 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 7 | 7 | 8 | 6 |
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
-| 89 · Yonne | 8 | 0 (0 %) | 0 | 3 | 1 | 2 | 1 | 5 | 6 |
+| 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 
 ## Les « À confirmer » à chercher
 
-189 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+200 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -113,6 +113,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 25 · Doubs
 
+- Brasserie Entre 2 Mondes (Mouthier-Haute-Pierre) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Les Petites Bulles (Loray) : sans site, sans téléphone, sans horaires, sans bières
 - La Chauffouillarde (Villers-le-Lac) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Terra Comtix (Mamirolle) : sans adresse vérifiée, sans horaires, sans bières
 - Brasserie Sâdjé (Pays-de-Montbenoît) : sans téléphone, sans bières
@@ -193,7 +195,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 39 · Jura
 
+- Brasserie des Trois Épis (Orgelet) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Doloise (Jouhe) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie du Lizon (Lavans-lès-Saint-Claude) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie l’Origine du Monde (Orgelet) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie La Nocturne (Brainans) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Plume Jurassienne (Cramans) : sans site, sans téléphone, sans horaires, sans bières
+- La Jurassique (Pupillin) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie La Cascade (Les Rousses) : sans horaires, sans bières
 - Brasserie Vachement Jura (Ivrey) : sans horaires, sans bières
 
 ### 42 · Loire
@@ -299,6 +308,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 70 · Haute-Saône
 
+- Brasserie 1551 (Charcenne) : sans site, sans téléphone, sans bières
 - Brasserie artisanale de la Rente Rouge (Chargey-lès-Gray) : sans adresse vérifiée, sans bières
 - Brasserie Frizon (Plancher-les-Mines) : sans horaires, sans bières
 
@@ -349,4 +359,5 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Popihn (Vaumort) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie de Chablis (Maddam) (Chablis) : sans horaires, sans bières
 - Grand Duc Microbrasserie (Sormery) : sans horaires, sans bières
+- La Vaugermaine (Saint-Cyr-les-Colons) : sans horaires, sans bières
 

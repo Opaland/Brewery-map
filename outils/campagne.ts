@@ -15,6 +15,13 @@
  *     lot, le contrôle (`curation.ts controler`, arrêt sur un écart) et écrit
  *     `curation/dep-<dép>.md`.
  *
+ *   npx tsx outils/campagne.ts relancer 21-r2
+ *     (S356) Les candidats du passage précédent (`dep-21`) dont la raison dit
+ *     « à relancer » : `curation/dep-21-r2-candidats.json` et ses paquets. La
+ *     relance a son lot à elle, `dep-21-r2`, que `rendre` et `appliquer`
+ *     prennent comme un département : réécrire `dep-21.json`, déjà appliqué,
+ *     ferait rougir la garde de `data/`.
+ *
  *   npx tsx outils/campagne.ts appliquer 03 15
  *     Applique chaque lot entier par la règle de Cédric du 21/10, puis retire
  *     de la couche OSM ce qui est devenu une fiche, régénère la complétude et
@@ -25,7 +32,7 @@
  */
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
-import { compteRenduDuLot, paquetsDeCandidats } from '../src/core/campagne'
+import { candidatsARelancer, compteRenduDuLot, lotDepartemental, paquetsDeCandidats, type LotDepartemental } from '../src/core/campagne'
 import type { CandidatEnCause } from '../src/core/candidats'
 import { TSX_CLI } from './tsx'
 
@@ -37,7 +44,9 @@ const DOSSIER = 'curation/campagne'
 const lancer = (outil: string, args: readonly string[], env: NodeJS.ProcessEnv = process.env): string =>
   execFileSync(process.execPath, [TSX_CLI, outil, ...args], { encoding: 'utf8', env })
 const lireJson = (chemin: string): unknown => JSON.parse(readFileSync(chemin, 'utf8'))
-const departementValide = (d: string) => /^(\d{2}|2[AB])$/.test(d)
+const departementValide = (d: string) => lotDepartemental(d)?.dep === d
+/** Un département, ou une relance (`21-r2`, S356) : `rendre` et `appliquer` prennent l'un comme l'autre. */
+const lotValide = (d: string) => lotDepartemental(d) !== null
 
 function preparer(deps: readonly string[]): void {
   mkdirSync(DOSSIER, { recursive: true })
@@ -50,6 +59,24 @@ function preparer(deps: readonly string[]): void {
     writeFileSync(`${DOSSIER}/${dep}-raisons.json`, `${JSON.stringify(raisons, null, 1)}\n`)
     console.log(`${dep} : ${String(candidats.length)} candidats, ${String(paquets.length)} paquets, ${String(sansRecherche.length)} sans rien à chercher`)
   }
+}
+
+/** Le passage d'avant : `21` pour `21-r2`, `21-r2` pour `21-r3`. */
+function relancer({ dep, id }: LotDepartemental): void {
+  // Une relance déjà lancée garde ses raisons, que les agents ont rédigées (revue adverse S356).
+  if (existsSync(`curation/dep-${id}-candidats.json`)) throw new Error(`curation/dep-${id}-candidats.json existe déjà : la relance ${id} est commencée`)
+  const n = Number(id.slice(-1))
+  const avant = n === 2 ? dep : `${dep}-r${String(n - 1)}`
+  const candidats = lireJson(`curation/dep-${avant}-candidats.json`) as CandidatEnCause[]
+  const raisons = lireJson(`${DOSSIER}/${avant}-raisons.json`) as Record<string, string>
+  const lus = (lireJson(`${DOSSIER}/${avant}-lus.json`) as { cle: string }[]).map((l) => l.cle)
+  const aRelancer = candidatsARelancer(candidats, raisons, lus)
+  const { paquets, sansRecherche } = paquetsDeCandidats(aRelancer)
+  writeFileSync(`curation/dep-${id}-candidats.json`, `${JSON.stringify(aRelancer, null, 1)}\n`)
+  writeFileSync(`${DOSSIER}/${id}-paquets.json`, `${JSON.stringify(paquets, null, 1)}\n`)
+  const raisonsNeuves = Object.fromEntries(sansRecherche.map((r) => [r.cle, r.raison]))
+  writeFileSync(`${DOSSIER}/${id}-raisons.json`, `${JSON.stringify(raisonsNeuves, null, 1)}\n`)
+  console.log(`${id} : ${String(aRelancer.length)} candidats à relancer, ${String(paquets.length)} paquets`)
 }
 
 function rendre(dep: string, nom: string, sprint: string): void {
@@ -108,10 +135,12 @@ function appliquer(deps: readonly string[]): void {
 }
 
 const [commande, ...args] = process.argv.slice(2)
+const relance = lotDepartemental(args[0] ?? '')
 if (commande === 'preparer' && args.length > 0 && args.every(departementValide)) preparer(args)
-else if (commande === 'rendre' && args.length === 3 && departementValide(args[0] ?? '')) rendre(args[0] ?? '', args[1] ?? '', args[2] ?? '')
-else if (commande === 'appliquer' && args.length > 0 && args.every(departementValide)) appliquer(args)
+else if (commande === 'relancer' && args.length === 1 && relance !== null && relance.id !== relance.dep) relancer(relance)
+else if (commande === 'rendre' && args.length === 3 && lotValide(args[0] ?? '')) rendre(args[0] ?? '', args[1] ?? '', args[2] ?? '')
+else if (commande === 'appliquer' && args.length > 0 && args.every(lotValide)) appliquer(args)
 else {
-  console.error('usage : npx tsx outils/campagne.ts preparer <dép…> | rendre <dép> "<nom>" <Sxxx> | appliquer <dép…>')
+  console.error('usage : npx tsx outils/campagne.ts preparer <dép…> | relancer <dép>-r2 | rendre <dép>[-r2] "<nom>" <Sxxx> | appliquer <dép>[-r2]…')
   process.exit(2)
 }

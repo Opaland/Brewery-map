@@ -1,0 +1,27 @@
+{
+ "candidat": "node/5924870966",
+ "ajout": {
+  "fiche": {
+   "n": "La Jurassique",
+   "c": "Pupillin",
+   "d": "39",
+   "lat": 46.8835,
+   "lon": 5.75807,
+   "km": 155,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale de Pupillin, d’après l’office de tourisme du Jura, qui liste « Boutique » et « Dégustation » sans phrase ni horaires : à confirmer.",
+   "addr": "24 rue du Chardonnay, 39600 Pupillin",
+   "src": "https://www.jura-tourism.com/produit-regional/brasserie-la-jurassique/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-26",
+  "sources": [
+   "https://www.jura-tourism.com/produit-regional/brasserie-la-jurassique/",
+   "https://data.geopf.fr/geocodage/search?q=24+rue+du+Chardonnay%2C+39600+Pupillin&limit=5"
+  ],
+  "extrait": "La Jurassique est une brasserie artisanale située à Pupillin.",
+  "choix": "Relance du 26/10 (S356), page relue à la main. Catégorie 0, comme les Trois Épis. Pas de site, seulement un réseau social. Téléphone de l’office seul : non repris."
+ }
+}

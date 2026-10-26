@@ -1,0 +1,33 @@
+[
+ [
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DES COQUES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "58",
+   "communes": [
+    "COURCELLES"
+   ],
+   "adresses": [
+    "LES COQUES 58210 COURCELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8671737083",
+   "enseigne": "Olieu - Bière bio de Nevers",
+   "dep": "58",
+   "communes": [
+    "Nevers"
+   ],
+   "adresses": [
+    "40 Rue Paul Vaillant-Couturier, 58000 Nevers"
+   ],
+   "osm": [
+    "node/8671737083"
+   ],
+   "site": "https://olieu.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,88 @@
+[
+ [
+  {
+   "cle": "sirene:905030664",
+   "enseigne": "LE CHAUDRON",
+   "dep": "21",
+   "communes": [
+    "SAINT-AUBIN"
+   ],
+   "adresses": [
+    "10 RUE DE LA FONTENOTTE 21190 SAINT-AUBIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:439216029",
+   "enseigne": "BRASSERIE DES TROIS FONTAINES",
+   "dep": "21",
+   "communes": [
+    "BRETENIERE"
+   ],
+   "adresses": [
+    "ZA DE LA PLUCHARDE 17 RUE DE LA PLUCHARDE 21110 BRETENIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808981724",
+   "enseigne": "LES BIERES DU DONJON",
+   "dep": "21",
+   "communes": [
+    "SEMUR-EN-AUXOIS"
+   ],
+   "adresses": [
+    "6 RUE DE LA CHAUME AU MENELOT 21140 SEMUR-EN-AUXOIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839865946",
+   "enseigne": "BRASSERIE LORO",
+   "dep": "21",
+   "communes": [
+    "SAINT-APOLLINAIRE"
+   ],
+   "adresses": [
+    "ECOPARC DIJON 226 RUE JEAN-LOUIS AUGUSTE PETITJEAN 21850 SAINT-APOLLINAIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5462372327",
+   "enseigne": "LORO Bières Artisanales",
+   "dep": "21",
+   "communes": [
+    "Talmay"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5462372327"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/5529034615",
+   "enseigne": "ex-Brasserie La Roteuse",
+   "dep": "21",
+   "communes": [
+    "Brochon"
+   ],
+   "adresses": [
+    "Route Nationale, Brochon"
+   ],
+   "osm": [
+    "node/5529034615"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
