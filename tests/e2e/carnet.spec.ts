@@ -319,6 +319,6 @@ test('carnet caché par la couche OSM : le compte ne le dit pas vide (S357)', as
   await page.getByTestId('avec-osm').uncheck()
   await page.getByTestId('carnet-seulement').check()
   const compte = page.getByTestId('compte')
-  await expect(compte).toContainText('cachées par la couche OpenStreetMap')
+  await expect(compte).toContainText(/sont cachées : elles viennent d’OpenStreetMap, et la case « Inclure les \d+ brasseries repérées sur OpenStreetMap \(non vérifiées\) » est décochée/)
   await expect(compte).not.toContainText('Votre carnet est vide')
 })
