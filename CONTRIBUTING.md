@@ -17,7 +17,19 @@ modification sans cet accord (`outils/garde-donnees.ts`, accords dans
 `curation/accords/`). Une PR qui touche `data/` sera rouge pour cette
 raison, pas pour votre code.
 
+## Une brasserie manquante
+
+Dans l'application, en bas de page : « Une brasserie manque ? » puis
+« La signaler ». Une issue s'ouvre, préremplie ; remplissez son nom, sa
+commune, ce qu'on peut y faire (acheter, boire sur place, quels jours) et
+**une source** qui le montre : le site de la brasserie ou une page
+officielle. Un annuaire seul, un article seul ou un réseau social seul ne
+suffisent pas (méthode du 19/10, `docs/DECISIONS.md`) ; un office de
+tourisme vaut une confiance moyenne au plus. Comme pour une erreur, il faut
+un compte GitHub, l'issue est publique, et le mainteneur décide.
+
 ## Une correction de code
+
 
 1. Node 22 (`.nvmrc`), puis :
 
@@ -43,7 +55,7 @@ raison, pas pour votre code.
    complète prend quelques minutes (`docs/PORTE.md`) ; `npm run porte` la
    lance d'un coup, sous Linux, macOS et Windows.
 2. Un problème de code se décrit d'abord dans une issue (constat, scénario
-   reproductible, impact attendu). Le correctif part d'une branche issue de
+   reproductible, impact attendu), avec le gabarit ci-dessous. Le correctif part d'une branche issue de
    `main` à jour, ne traite qu'un sujet, et sa PR dit `Closes #n`.
    Jamais de commit direct sur `main` (`AGENTS.md` §12).
 3. Ouvrez une PR. La CI relance la même porte, plus `npm audit` sur ce que
@@ -67,6 +79,25 @@ npm run porte
 Une variable d'environnement s'écrit `$env:NOM = "valeur"`, sur sa propre
 ligne, avant la commande. `PW_CHROMIUM_PATH` est inutile : il ne sert que
 dans le conteneur cloud.
+
+### Le gabarit d'une issue de code
+
+À copier dans une issue neuve (le dépôt n'a pas de gabarits GitHub : ils
+détourneraient les signalements préremplis de l'application,
+`docs/stories/S361.md`) :
+
+```markdown
+## Constat
+Ce qui se passe, et où (écran, fichier, commande).
+
+## Scénario reproductible
+1. …
+2. …
+Navigateur, appareil, largeur d'écran si ça compte.
+
+## Impact attendu
+Ce qui devrait se passer, et pour qui.
+```
 
 ## Ce qui sera refusé
 

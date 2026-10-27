@@ -79,7 +79,8 @@ du fichier).
 
 ## Développer
 
-Node 22 (`.nvmrc`).
+Node 22 (`.nvmrc`). Il faut un clone complet, pas `--depth 1` : la garde de
+`data/` relit l'historique jusqu'au fichier du 15/10.
 
 ```bash
 # bash ; sous PowerShell, voir plus bas
