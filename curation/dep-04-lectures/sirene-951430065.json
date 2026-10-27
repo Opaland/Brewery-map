@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:951430065",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bevedis",
+   "c": "Le Chaffaut-Saint-Jurson",
+   "d": "04",
+   "lat": 44.03331,
+   "lon": 6.14086,
+   "km": 212.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale existante (site officiel et fiche d'office de tourisme). La dégustation est offerte « by appointment » selon l'office de tourisme ; le site officiel ne dit pas où se vend la bière (« En vente localement dans le 04 »). Vente et accueil sur place non établis.",
+   "addr": "Impasse du Four, 04510 Le Chaffaut-Saint-Jurson",
+   "src": "https://brasseriebevedis.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 49 17 10 17",
+    "site": "https://brasseriebevedis.com/",
+    "source": "https://brasseriebevedis.com/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasseriebevedis.com/",
+   "https://data.geopf.fr/geocodage/search?q=Le+Chaffaut-Saint-Jurson&type=municipality&limit=5"
+  ],
+  "extrait": "En vente localement dans le 04.",
+  "choix": "Seule ligne publiée : un mobile, gardé (règle du 21/10). Catégorie 0. Pas d'horaires (sur rendez-vous). Types de bière du site non repris : Untappd fait foi, et la brasserie n'y a pas de page trouvée."
+ }
+}

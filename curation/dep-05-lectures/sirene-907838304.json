@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:907838304",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Butcher's",
+   "c": "Guillestre",
+   "d": "05",
+   "lat": 44.66089,
+   "lon": 6.65221,
+   "km": 186.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "La fiche de l'office de tourisme propose dégustation et achat de bières artisanales, avec terrasse ; du 29 août au 31 décembre 2026, du mercredi au samedi de 16 h à 21 h, horaires que la page dit non garantis.",
+   "addr": "70A route du Queyras, 05600 Guillestre",
+   "src": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-butchers.com",
+    "source": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+   "https://data.geopf.fr/geocodage/search?q=70A+route+du+Queyras%2C+05600+Guillestre&limit=5"
+  ],
+  "extrait": "For a tasting or souvenir purchase, Butcher's Brewery offers you artisanal beers with character. Brewed in the heart of the Hautes-Alpes!",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires laissés dans la note : la page les écrit en anglais et les dit non garantis. Pas d'Untappd."
+ }
+}

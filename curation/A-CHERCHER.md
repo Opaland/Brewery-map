@@ -14,9 +14,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 468 | 19 (4 %) | 42 | 200 | 178 | 239 | 312 | 330 | 307 |
+| **Total** | 490 | 19 (4 %) | 42 | 207 | 190 | 249 | 325 | 348 | 329 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
+| 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
+| 05 · Hautes-Alpes | 9 | 0 (0 %) | 0 | 3 | 5 | 2 | 6 | 7 | 9 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
@@ -28,6 +30,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
 | 28 · Eure-et-Loir | 4 | 0 (0 %) | 0 | 3 | 2 | 0 | 2 | 2 | 4 |
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
+| 2A · Corse-du-Sud | 1 | 0 (0 %) | 0 | 1 | 0 | 1 | 0 | 1 | 1 |
+| 2B · Haute-Corse | 4 | 0 (0 %) | 0 | 0 | 4 | 4 | 4 | 4 | 4 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
 | 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
@@ -57,7 +61,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-200 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+207 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -69,6 +73,18 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie de la Pérouze (Bâgé-Dommartin) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Poulette des Ebaudis (Curtafond) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie du Bugey (Hauteville-Lompnes) : sans adresse vérifiée, sans téléphone, sans horaires
+
+### 04 · Alpes-de-Haute-Provence
+
+- Brasserie de l'Aubrée (Selonnet) : sans site, sans téléphone, sans horaires, sans bières
+- Brasseur du Verdon (Esparron-de-Verdon) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Bevedis (Le Chaffaut-Saint-Jurson) : sans adresse vérifiée, sans horaires, sans bières
+
+### 05 · Hautes-Alpes
+
+- B3 Brasserie Bio de Briançon (Briançon) : sans site, sans téléphone, sans horaires, sans bières
+- Piolit Nanobrasserie (Avançon) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Tourmente (Briançon) : sans horaires, sans bières
 
 ### 07 · Ardèche
 
@@ -148,6 +164,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Microbrasserie PAB (Île-de-Batz) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Le Grain du Ponant (Riec-sur-Bélon) : sans téléphone, sans horaires
 - Brasserie Kerav'ale (Roscoff) : sans horaires
+
+### 2A · Corse-du-Sud
+
+- Filitosa A Biera Corsa (Sollacaro) : sans adresse vérifiée, sans horaires, sans bières
 
 ### 35 · Ille-et-Vilaine
 

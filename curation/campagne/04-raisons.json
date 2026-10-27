@@ -1,3 +1,14 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+ "node/5255453845": "Brasserie La Manosquine : deux recherches sans page ; ni site, ni Untappd, ni office de tourisme : à relancer",
+ "node/5720727821": "La Brass Bastelle : deux recherches sans résultat pertinent",
+ "node/5183750945": "Brasserie Cérévisia (Oraison) : deux recherches sans page ; lien avec un homonyme non établi : à relancer",
+ "sirene:843641127": "BMV SCIPION : seulement des offices de tourisme au nom d'une personne ; lien d'identité non établi",
+ "sirene:978032761": "Brasserie de la vallée de l'Ubaye (Les Thuiles) : aucune trace aux Thuiles",
+ "sirene:987488178": "Brasseur du Verdon : doublon de sirene:923024855",
+ "sirene:983541764": "La Romaine (Riez) : deux recherches, aucune brasserie à Riez",
+ "personne:2": "Brasserie Cérévisia (Les Mées) : deux recherches, aucun résultat : à relancer",
+ "sirene:928734912": "Le Renard d'Orge (Malijai) : deux recherches, aucun résultat",
+ "sirene:880986278": "Les Brasseurs de la Vallée (Sisteron) : deux recherches, aucune brasserie de ce nom ni rien à cette adresse",
+ "sirene:912701703": "Brasserie Bulle (Montlaux) : trois recherches, aucune brasserie de ce nom"
 }

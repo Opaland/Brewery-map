@@ -1,0 +1,212 @@
+[
+ {
+  "cle": "sirene:898143607",
+  "n": "Le Monde d'Après - Brewpub",
+  "c": "L'Argentière-la-Bessée",
+  "adresse": "5 avenue Charles de Gaulle, 05120 L'Argentière-la-Bessée",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub du centre-ville : un bar où l'on brasse la bière, d'après la fiche du comité régional de tourisme, ouvert toute l'année.",
+  "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/le-monde-dapres-brewpub-l-argentiere-la-bessee-fr-3651861/",
+  "extrait": "c'est donc un bar dans lequel on fabrique de la bière",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Rapproché de la ligne SIRENE « Brewpub des Aigues Froides » : seul brewpub enregistré dans la commune ; l'adresse est celle du registre, la fiche du tourisme n'en donne pas. Horaires écartés : la fiche se contredit. Pas de site propre, pas d'Untappd."
+ },
+ {
+  "cle": "sirene:538823469",
+  "n": "Brasserie d'Ancelle",
+  "c": "Ancelle",
+  "adresse": "Chemin de Bellevue, 05260 Ancelle",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme Champsaur-Valgaudemar dit qu'on y achète les bières de la brasserie et qu'on les déguste sur place, en terrasse ou sur la mezzanine. Horaires saisonniers, que la page dit non garantis.",
+  "src": "https://www.champsaur-valgaudemar.com/offres/brasserie-dancelle-ancelle-fr-2686805",
+  "extrait": "d’acheter les produits élaborés dans la brasserie et de déguster sur place",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires non proposés : la page liste quatre saisons et leurs créneaux sans qu'on puisse relier sûrement l'un à l'autre. Site propre injoignable le 27/10, pas d'Untappd."
+ },
+ {
+  "cle": "personne:1",
+  "n": "Piolit Nanobrasserie",
+  "c": "Avançon",
+  "adresse": "Lieu-dit Les Catinons, 05230 Avançon",
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe d'après l'office de tourisme Serre-Ponçon Vallées, qui donne un créneau le jeudi et le vendredi de 17 h à 19 h sans dire s'il s'agit de vente ou d'accueil.",
+  "src": "https://www.serreponconvallees.com/en/piolit-nanobrasserie",
+  "extrait": "Independent, creative and environmentally friendly microbrewery.",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Créneau laissé dans la note : sa nature n'est pas dite. Pas de site propre, pas d'Untappd."
+ },
+ {
+  "cle": "sirene:892784018",
+  "n": "Brasserie des Gaillards",
+  "c": "Aubessagne",
+  "adresse": "503 avenue Principale, Chauffayer, 05800 Aubessagne",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie et distillerie de Chauffayer. Son site présente un bar et une boutique : la pression à la tireuse, les bouteilles à emporter. Food-truck le vendredi soir.",
+  "src": "https://les-gaillards.fr",
+  "extrait": "Dégustation à la pression, planches du coin, ambiance de famille au pied des montagnes.",
+  "beers": [],
+  "choix": "Téléphone et horaires lus sur la page « Nous rencontrer », qui les dit « créneaux de présence habituels ». Types de bière du site non repris : pas d'Untappd cité. Confiance moyenne : le site dit ses horaires « habituels », pas des horaires de bar.",
+  "contact": {
+   "tel": "04 23 24 25 26",
+   "site": "https://les-gaillards.fr",
+   "source": "https://les-gaillards.fr/nous-rencontrer"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:00"
+     ]
+    ],
+    "remarque": "Créneaux de présence habituels : en semaine, la porte est ouverte dès que l'équipe est sur place ; le samedi matin est surtout un créneau de boutique et de retrait. Beer-garden de juin à août.",
+    "source": "https://les-gaillards.fr/nous-rencontrer"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:907838304",
+  "n": "Brasserie Butcher's",
+  "c": "Guillestre",
+  "adresse": "70A route du Queyras, 05600 Guillestre",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme propose dégustation et achat de bières artisanales, avec terrasse ; du 29 août au 31 décembre 2026, du mercredi au samedi de 16 h à 21 h, horaires que la page dit non garantis.",
+  "src": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+  "extrait": "For a tasting or souvenir purchase, Butcher's Brewery offers you artisanal beers with character. Brewed in the heart of the Hautes-Alpes!",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires laissés dans la note : la page les écrit en anglais et les dit non garantis. Pas d'Untappd.",
+  "contact": {
+   "site": "https://brasserie-butchers.com",
+   "source": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/"
+  }
+ },
+ {
+  "cle": "node/11459867968",
+  "n": "Brasserie Interstellaire du Dévoluy",
+  "c": "Dévoluy",
+  "adresse": "Le Courtil, 13 chemin de la Charrière, 05250 Dévoluy",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme du Dévoluy décrit des bières brassées sur place et une boutique chez l'exploitant ; elle ne dit pas qu'on y boit. Ouvert tous les jours aux vacances scolaires ; hors vacances, jours et horaires variables.",
+  "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/brasserie-interstellaire-du-devoluy-devoluy-fr-3283111/",
+  "extrait": "La Brasserie Interstellaire du Dévoluy crée et propose des bières originales, brassées sur place à l’eau du Dévoluy",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Pas de site propre trouvé, pas d'Untappd. La ligne SIRENE de Devoluy Brewing Concept, à la même adresse (Le Courtil), n'en fait pas une seconde fiche."
+ },
+ {
+  "cle": "node/2311670513",
+  "n": "Brasserie Tourmente",
+  "c": "Briançon",
+  "adresse": "5 avenue du Dauphiné, 05100 Briançon",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Briançon dont le site propose des visites ; il ne dit ni vente ni dégustation sur place.",
+  "src": "https://latourmente.com",
+  "extrait": "La Brasserie Tourmente vous ouvre ses portes !",
+  "beers": [],
+  "choix": "Téléphone lu sur le site de la brasserie. Pas d'horaires publiés, pas d'Untappd.",
+  "contact": {
+   "tel": "04 92 21 31 49",
+   "site": "https://latourmente.com",
+   "source": "https://latourmente.com"
+  }
+ },
+ {
+  "cle": "node/10007300294",
+  "n": "B3 Brasserie Bio de Briançon",
+  "c": "Briançon",
+  "adresse": "23 avenue de la Libération, 05100 Briançon",
+  "cat": 0,
+  "conf": "",
+  "note": "Connue d'OpenStreetMap et d'une fiche de l'office de tourisme (bières bio en bouteilles de 25 et 75 cl), qui ne dit ni vente ni accueil sur place.",
+  "src": "https://provence-alpes-cotedazur.com/en/offers/b3-brasserie-bio-de-briancon-briancon-en-2878479/",
+  "extrait": "Craft production of 25cl and 75cl beers",
+  "beers": [],
+  "choix": "Numéros publiés par l'office seul : non retenus. Pas de site propre trouvé, pas d'Untappd."
+ },
+ {
+  "cle": "way/1044149663",
+  "n": "Brasserie Artisanale de Serre-Ponçon",
+  "c": "Chorges",
+  "adresse": "67 rue de la Source, ZA Grande Île Nord, 05230 Chorges",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce l'Apex, « boutique, bar, concerts », avec ses horaires. L'adresse est celle de l'Apex selon l'office de tourisme ; l'usine, dans la même zone, ferme le samedi : c'est l'Apex qu'il faut chercher.",
+  "src": "https://basp05.com/",
+  "extrait": "Boutique, bar, concerts",
+  "beers": [],
+  "choix": "Adresse de l'Apex prise à l'office de tourisme et à OSM : le site ne donne que la zone, d'où la confiance moyenne. Seul numéro publié. Pas d'Untappd. L'usine (retrait des commandes) a d'autres horaires, non repris.",
+  "contact": {
+   "tel": "04 88 26 00 46",
+   "site": "https://basp05.com/",
+   "source": "https://basp05.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "00:00"
+     ]
+    ],
+    "remarque": "Horaires de l'Apex (boutique, bar, concerts) ; fermé le lundi et le dimanche.",
+    "source": "https://basp05.com/"
+   }
+  ]
+ }
+]

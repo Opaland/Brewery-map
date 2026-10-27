@@ -1,0 +1,71 @@
+{
+ "candidat": "way/1044149663",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale de Serre-Ponçon",
+   "c": "Chorges",
+   "d": "05",
+   "lat": 44.55327,
+   "lon": 6.25816,
+   "km": 171.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce l'Apex, « boutique, bar, concerts », avec ses horaires. L'adresse est celle de l'Apex selon l'office de tourisme ; l'usine, dans la même zone, ferme le samedi : c'est l'Apex qu'il faut chercher.",
+   "addr": "67 rue de la Source, ZA Grande Île Nord, 05230 Chorges",
+   "src": "https://basp05.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 88 26 00 46",
+    "site": "https://basp05.com/",
+    "source": "https://basp05.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://basp05.com/",
+     "mar": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "remarque": "Horaires de l'Apex (boutique, bar, concerts) ; fermé le lundi et le dimanche.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://basp05.com/",
+   "https://data.geopf.fr/geocodage/search?q=67+rue+de+la+Source%2C+ZA+Grande+%C3%8Ele+Nord%2C+05230+Chorges&limit=5"
+  ],
+  "extrait": "Boutique, bar, concerts",
+  "choix": "Adresse de l'Apex prise à l'office de tourisme et à OSM : le site ne donne que la zone, d'où la confiance moyenne. Seul numéro publié. Pas d'Untappd. L'usine (retrait des commandes) a d'autres horaires, non repris."
+ }
+}

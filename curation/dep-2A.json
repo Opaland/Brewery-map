@@ -1,0 +1,36 @@
+{
+ "lot": "dep-2A",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Filitosa A Biera Corsa",
+    "c": "Sollacaro",
+    "d": "2A",
+    "lat": 41.74222,
+    "lon": 8.88534,
+    "km": 548.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie du site préhistorique de Filitosa, dont le site vend les bières en ligne ; ni vente ni dégustation sur place ne sont dites.",
+    "addr": "Centre préhistorique de Filitosa, 20140 Sollacaro",
+    "src": "https://bieracorsa.filitosa.fr/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 14 04 56 30",
+     "site": "https://bieracorsa.filitosa.fr/",
+     "source": "https://bieracorsa.filitosa.fr/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://bieracorsa.filitosa.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Sollacaro&type=municipality&limit=5"
+   ],
+   "extrait": "Bières artisanales au cœur de la préhistoire corse",
+   "choix": "Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Pas d'Untappd cité. Pas d'horaires propres à la brasserie."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:978604387",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Pra Loup",
+   "c": "Uvernet-Fours",
+   "d": "04",
+   "lat": 44.32265,
+   "lon": 6.66081,
+   "km": 212.3,
+   "cat": 3,
+   "conf": "moyenne",
+   "note": "La fiche du comité régional de tourisme dit que la brasserie (bière LØÜ) ne reçoit pas le public ; ses bières se trouvent dans les bars, restaurants et épiceries de la station.",
+   "addr": "Le Chalet, Pra Loup 1600, 04400 Uvernet-Fours",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+   "https://data.geopf.fr/geocodage/search?q=Uvernet-Fours&type=municipality&limit=5"
+  ],
+  "extrait": "le public n’y est pour l’instant pas accueilli",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Pas de site propre."
+ }
+}

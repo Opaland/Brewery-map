@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:949285423",
+ "ajout": {
+  "fiche": {
+   "n": "Ty Corsa",
+   "c": "Prunelli-di-Fiumorbo",
+   "d": "2B",
+   "lat": 42.00833,
+   "lon": 9.3672,
+   "km": 550.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie du Fiumorbu : vente à emporter et dégustations, d'après l'agence du tourisme de la Corse, qui la dit ouverte toute l'année sans publier d'horaires.",
+   "addr": "Lieu-dit Peliccione, hameau de Querciolo, 20243 Prunelli-di-Fiumorbo",
+   "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/TY-CORSA",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/TY-CORSA",
+   "https://data.geopf.fr/geocodage/search?q=Prunelli-di-Fiumorbo&type=municipality&limit=5"
+  ],
+  "extrait": "Micro brasserie, fabrication artisanale de bières , vente à emporter et dégustations.",
+  "choix": "Ni téléphone, ni site, ni horaires sur la page. Pas d'Untappd."
+ }
+}

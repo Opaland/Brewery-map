@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:400016622",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Pietra",
+   "c": "Furiani",
+   "d": "2B",
+   "lat": 42.65175,
+   "lon": 9.42717,
+   "km": 501.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "D'après l'agence du tourisme de la Corse, la boutique ouvre en juillet et en août, du lundi au vendredi de 9 h à 12 h et de 14 h à 17 h 30 ; hors saison, elle est fermée sauf visites de groupe, et la vente se fait en ligne. Visites guidées en juillet et en août.",
+   "addr": "Route de la Marana, 20600 Furiani",
+   "src": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-PIETRA",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-PIETRA",
+   "https://data.geopf.fr/geocodage/search?q=Furiani&type=municipality&limit=5"
+  ],
+  "extrait": "Shop: July–August: Mon–Fri, 9.00 am–12.00 pm and 2.00 pm–5.30 pm.",
+  "choix": "Horaires laissés dans la note : saisonniers et écrits en anglais. Téléphone non retenu : deux numéros différents circulent, et le site de la brasserie était injoignable le 27/10. Pas d'Untappd."
+ }
+}

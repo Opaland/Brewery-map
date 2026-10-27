@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:923024855",
+ "ajout": {
+  "fiche": {
+   "n": "Brasseur du Verdon",
+   "c": "Esparron-de-Verdon",
+   "d": "04",
+   "lat": 43.74139,
+   "lon": 6.01502,
+   "km": 236.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Une microbrasserie existe d'après la fiche de l'office de tourisme, qui ne dit pas si l'on peut acheter ou consommer sur place. Aucun site officiel ni page Untappd trouvés.",
+   "addr": "Albiosc Village, 6 Impasse des bergeries, 04800 Esparron-de-Verdon",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+   "https://data.geopf.fr/geocodage/search?q=Albiosc+Village%2C+6+Impasse+des+bergeries%2C+04800+Esparron-de-Verdon&limit=5"
+  ],
+  "extrait": "Brasseur du Verdon est une microbrasserie dédiée à la création de bières authentiques et savoureuses.",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires : saison sans heures, non proposés."
+ }
+}

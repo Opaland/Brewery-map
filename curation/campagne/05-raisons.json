@@ -1,3 +1,16 @@
 {
- "personne:4": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:4": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:419632781": "Bar-restaurant Alphand (Vallouise) : non cherché faute de quota ; une microbrasserie L&L Alphand existe à Vallouise, à rapprocher : à relancer",
+ "node/2855634433": "Alphand (Puy-Saint-Vincent) : aucune brasserie de ce nom dans la commune ; à rapprocher de la microbrasserie Alphand de Vallouise : à relancer",
+ "sirene:819488719": "même entreprise que la Brasserie Artisanale de Serre-Ponçon (way/1044149663), d'après le numéro de registre écrit sur basp05.com : une seule fiche",
+ "sirene:845203264": "Micro-brasserie La Cuche : une seule recherche, sans résultat, quota épuisé : à relancer",
+ "sirene:992292185": "Brasserie Urbaine Gapençaise : une recherche sans résultat, quota épuisé : à relancer",
+ "personne:2": "Brasserie La Mousquif : même établissement que sirene:840182992, non cherché faute de quota : à relancer",
+ "sirene:840182992": "La Mousquif : pages de l'office de tourisme en 404 et site en 503 le 27/10 : à relancer",
+ "sirene:899933279": "Floraison Sauvage : un annuaire d'entreprises seul, qui ne suffit pas ; quota épuisé : à relancer",
+ "personne:3": "Brasserie La Queyrassine : deux recherches, aucune brasserie de ce nom",
+ "sirene:893180307": "Devoluy Brewing Concept : même adresse (Le Courtil) que la Brasserie Interstellaire du Dévoluy (node/11459867968) : une seule fiche",
+ "node/7963807194": "La Belle Époque (Gap) : bar-restaurant ; rien n'indique qu'il brasse",
+ "sirene:907706402": "Brasseurs en Clarée : seule source, la fiche de l'office des Hautes-Vallées, injoignable depuis le conteneur le 27/10 ; site propre devenu un domaine parqué : à relancer",
+ "sirene:888726189": "Walpine : site officiel lu par l'agent, mais injoignable depuis le conteneur le 27/10 pour le contrôle : à relancer"
 }
