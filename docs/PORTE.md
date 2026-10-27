@@ -1,9 +1,28 @@
 # La porte : ce qu'elle coûte, mesuré
 
-Story S229 (revue d'architecture du 17/10, risque R3). Mesures du
-**17/10/2026**, à refaire quand la suite grandit.
+Story S229 (revue d'architecture du 17/10, risque R3), remesurée en S364.
+À refaire à chaque revue globale (un test le vérifie :
+`tests/unit/contribuer.test.ts`).
 
-## Local (conteneur de développement, 4 cœurs, un seul exécutant Playwright — CLAUDE.md §6)
+Dernière mesure : 2026-10-27
+
+## Local, 27/10 (conteneur cloud, 4 cœurs, un seul exécutant Playwright — AGENTS.md §6)
+
+| Étape | Commande | Durée |
+|---|---|---:|
+| Lint | `npm run lint` | 26 s |
+| Typecheck | `npx tsc -b --noEmit` | 0,4 s (cache incrémental chaud) |
+| Unitaires | `npx vitest run` (956 tests, 100 fichiers) | 18 s |
+| Garde de `data/` | `npx tsx outils/garde-donnees.ts` | 1,6 s |
+| Build | `npm run build` | 4 s |
+| E2E | `npx playwright test` (259 tests, 8 ignorés) | 341 s |
+| **Total** | | **≈ 390 s** |
+
+390 s, c'est 87 % du budget de 450 s fixé plus bas, et 65 % du délai du
+crochet (600 s). Sous Windows (le PC fixe de Cédric), la durée n'est **pas
+mesurée**.
+
+## Local, 17/10 (première mesure ; la garde de `data/`, ajoutée en S306, mesurée le 20/10)
 
 | Étape | Commande | Durée |
 |---|---|---:|

@@ -96,6 +96,8 @@ Sans téléchargement de navigateur (conteneur de développement), poser
 `npx playwright install chromium` suffit. Pour proposer une
 correction, signaler une erreur de fiche, proposer une brasserie manquante
 ou décrire un problème de code : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Cédric (@Opaland), le mainteneur, décide de ce qui entre dans les données
+et dans le code. Une faille de sécurité : [`SECURITY.md`](SECURITY.md).
 
 `npm run porte` lance toute la porte, dans l'ordre, sous Linux, macOS et
 Windows ; le crochet avant commit de Claude Code lance la même.
