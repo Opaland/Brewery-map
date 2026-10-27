@@ -63,6 +63,9 @@ describe('contribuer : une faille, une PR, qui décide, ce que coûte la porte (
     const securite = readFileSync('SECURITY.md', 'utf8')
     expect(securite).toMatch(/sans détail exploitable/)
     expect(securite).toContain('docs/stories/S364.md')
+    for (const doc of ['README.md', 'CONTRIBUTING.md']) {
+      expect(readFileSync(doc, 'utf8'), `${doc} : renvoyer à SECURITY.md`).toContain('(SECURITY.md)')
+    }
   })
 
   it('le gabarit de PR rappelle Closes #n, la story, le test vu rouge et data/', () => {

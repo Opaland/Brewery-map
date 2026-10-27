@@ -22,7 +22,7 @@ Dernière mesure : 2026-10-27
 crochet (600 s). Sous Windows (le PC fixe de Cédric), la durée n'est **pas
 mesurée**.
 
-## Local, 17/10 (première mesure)
+## Local, 17/10 (première mesure ; la garde de `data/`, ajoutée en S306, mesurée le 20/10)
 
 | Étape | Commande | Durée |
 |---|---|---:|

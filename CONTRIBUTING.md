@@ -25,11 +25,17 @@ commune, ce qu'on peut y faire (acheter, boire sur place, quels jours) et
 **une source** qui le montre : le site de la brasserie ou une page
 officielle. Un annuaire seul ne suffit pas (méthode du 19/10,
 `docs/DECISIONS.md`) ; un office de tourisme vaut une confiance moyenne au
-plus (décision #37). Ce qui suit un signalement est
-public : les propositions de l'éditeur sont écrites dans `curation/`
-(un fichier par lot), et chaque accord du mainteneur, ou chaque règle
-qu'il a fixée, est gardé dans `curation/accords/`, que la CI rejoue. Comme pour une erreur, il faut
-un compte GitHub, l'issue est publique, et le mainteneur décide.
+plus (décision #37). Comme pour une erreur, il faut un compte GitHub,
+l'issue est publique, et le mainteneur décide.
+
+Ce qui suit un signalement est public : les propositions de l'éditeur sont
+écrites dans `curation/` (un fichier par lot), et chaque accord du
+mainteneur, ou chaque règle qu'il a fixée, est gardé dans
+`curation/accords/`, que la CI rejoue.
+
+## Une faille de sécurité
+
+Pas dans une issue détaillée : voir [`SECURITY.md`](SECURITY.md).
 
 ## Une correction de code
 
@@ -58,7 +64,9 @@ un compte GitHub, l'issue est publique, et le mainteneur décide.
    lance d'un coup, sous Linux, macOS et Windows.
 2. Un problème de code se décrit d'abord dans une issue (constat, scénario
    reproductible, impact attendu), avec le gabarit ci-dessous. Le correctif part d'une branche issue de
-   `main` à jour, ne traite qu'un sujet, et sa PR dit `Closes #n`.
+   `main` à jour, ne traite qu'un sujet, et sa PR dit `Closes #n` : le
+   gabarit de PR (`.github/pull_request_template.md`) le rappelle, avec la
+   story et le test vu rouge.
    Jamais de commit direct sur `main` (`AGENTS.md` §12).
 3. Ouvrez une PR. La CI relance la même porte, plus `npm audit` sur ce que
    la page embarque (une faille haute publiée entre-temps peut la rougir
@@ -84,8 +92,8 @@ dans le conteneur cloud.
 
 ### Le gabarit d'une issue de code
 
-À copier dans une issue neuve (le dépôt n'a pas de gabarits GitHub : ils
-pourraient détourner les signalements préremplis de l'application, ce qui
+À copier dans une issue neuve (le dépôt n'a pas de gabarit d'issue : il
+pourrait détourner les signalements préremplis de l'application, ce qui
 n'a pas pu être vérifié : `docs/stories/S361.md`) :
 
 ```markdown

@@ -30,8 +30,7 @@ consultable hors connexion.
 - **Signaler une erreur**, par une issue GitHub préremplie.
 
 Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
-Cédric (@Opaland), le mainteneur, décide de ce qui entre dans les données
-et dans le code. Depuis le 18/10, par sa règle (`docs/DECISIONS.md`) : 44 des 166
+Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
 256 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
@@ -97,6 +96,8 @@ Sans téléchargement de navigateur (conteneur de développement), poser
 `npx playwright install chromium` suffit. Pour proposer une
 correction, signaler une erreur de fiche, proposer une brasserie manquante
 ou décrire un problème de code : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Cédric (@Opaland), le mainteneur, décide de ce qui entre dans les données
+et dans le code. Une faille de sécurité : [`SECURITY.md`](SECURITY.md).
 
 `npm run porte` lance toute la porte, dans l'ordre, sous Linux, macOS et
 Windows ; le crochet avant commit de Claude Code lance la même.

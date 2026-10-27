@@ -22,6 +22,8 @@ page piégée dans une issue ou une PR.
 
 ## Ce qui est déjà vérifié
 
-Les garanties et leurs tests sont dans `docs/AUDIT.md` et
-`tests/e2e/securite.spec.ts` (politique de sécurité du contenu, aucune
-requête qui emporte la position, liens filtrés par leur protocole).
+- La politique de sécurité du contenu : `tests/e2e/securite.spec.ts`.
+- Aucune requête qui emporte la position : mesuré dans `docs/AUDIT.md`
+  (0 requête sur 215, géolocalisation simulée).
+- Les liens qui partent dans la page sont filtrés par leur protocole
+  (`lienSchema`, `src/core/schema.ts`) : `tests/unit/schema.test.ts`.

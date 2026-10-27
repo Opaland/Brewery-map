@@ -13,4 +13,7 @@ Story : `docs/stories/Sxx.md` (écrite avant le code ; modèle : `docs/stories/M
 
 ## Données
 
-- [ ] `data/` n'est pas touché. Sinon : chaque ligne ajoutée ou modifiée est listée, avec l'accord écrit du mainteneur ou la règle qui la couvre (`docs/DECISIONS.md`).
+Une des deux :
+
+- `data/` n'est pas touché.
+- `data/` est touché : chaque ligne ajoutée ou modifiée est listée ci-dessous, avec l'accord écrit du mainteneur ou la règle qui la couvre (`docs/DECISIONS.md`).
