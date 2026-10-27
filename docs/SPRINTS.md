@@ -2999,3 +2999,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S360 — Les références visuelles : seulement des images ordinaires *(27/10, issue #212)*
 
 `docs/stories/S360.md`, écrite avant le code. Le job `commit` de `.github/workflows/visuel-references.yml`, seul à tenir un jeton d'écriture, refuse avant son `git add` un dossier en lien, tout lien, sous-dossier, fichier d'une autre extension ou `.png` sans la signature PNG. `tests/unit/workflows.test.ts` exécute le script de l'étape tel que la CI le lit, et verrouille le job à ses deux étapes `run`. Chaque cas vu rouge. Limite dite : un compte en écriture peut retirer la garde dans sa branche (BACKLOG).
+
+## S361 — Contribuer : un problème de code, une brasserie manquante, un clone complet *(27/10, issue #213)*
+
+`docs/stories/S361.md`, écrite avant le code. `CONTRIBUTING.md` a un gabarit d'issue de code à copier (Constat, Scénario reproductible, Impact attendu) et une section « Une brasserie manquante », alignée sur le lien prérempli `lienAjout`. Le README dit qu'il faut un clone complet et renvoie à `CONTRIBUTING.md` pour ces deux cas. Pas de dossier `.github/ISSUE_TEMPLATE`, par prudence dite : il pourrait détourner les signalements préremplis de l'application, ce qui n'a pas pu être vérifié sans compte. `tests/unit/contribuer.test.ts`, vu rouge avant les textes.

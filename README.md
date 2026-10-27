@@ -79,7 +79,8 @@ du fichier).
 
 ## Développer
 
-Node 22 (`.nvmrc`).
+Node 22 (`.nvmrc`). Il faut un clone complet, pas `--depth 1` : la garde de
+`data/` relit l'historique jusqu'au fichier du 15/10.
 
 ```bash
 # bash ; sous PowerShell, voir plus bas
@@ -93,7 +94,8 @@ npx playwright test
 Sans téléchargement de navigateur (conteneur de développement), poser
 `PW_CHROMIUM_PATH` vers un Chromium déjà installé ; ailleurs, inutile :
 `npx playwright install chromium` suffit. Pour proposer une
-correction, ou signaler une erreur de fiche : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+correction, signaler une erreur de fiche, proposer une brasserie manquante
+ou décrire un problème de code : [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 `npm run porte` lance toute la porte, dans l'ordre, sous Linux, macOS et
 Windows ; le crochet avant commit de Claude Code lance la même.
