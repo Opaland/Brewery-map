@@ -1,0 +1,590 @@
+[
+ [
+  {
+   "cle": "sirene:880926183",
+   "enseigne": "LE MOUSSE TOULON",
+   "dep": "83",
+   "communes": [
+    "LA GARDE",
+    "TOULON"
+   ],
+   "adresses": [
+    "102 ALLEE DE SALERNES 83130 LA GARDE",
+    "4 BOULEVARD DOCTEUR CUNEO 83000 TOULON",
+    "PLACE DE L EQUERRE 25 RUE VICTOR MICHOLET 83000 TOULON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890260219",
+   "enseigne": "NEUJA",
+   "dep": "83",
+   "communes": [
+    "SAINT-MANDRIER-SUR-MER"
+   ],
+   "adresses": [
+    "42 AVENUE DE LA CORNICHE D'OR 83430 SAINT-MANDRIER-SUR-MER",
+    "BOULEVARD DE CHAMPAGNE 83430 SAINT-MANDRIER-SUR-MER"
+   ],
+   "osm": [
+    "way/205054010"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897862660",
+   "enseigne": "LE BRASSITORIUM",
+   "dep": "83",
+   "communes": [
+    "TOURRETTES",
+    "CALLIAN"
+   ],
+   "adresses": [
+    "338 D ZONE ARTISANALE DE CAMBARRAS 83440 TOURRETTES",
+    "LIEUDIT JEAN PAUL ROUTE DEPARTEMENTALE 562 83440 CALLIAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901867911",
+   "enseigne": "SAS BEERCOMPANY",
+   "dep": "83",
+   "communes": [
+    "DRAGUIGNAN"
+   ],
+   "adresses": [
+    "34 B BOULEVARD JEAN JAURES 83300 DRAGUIGNAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "LA FERME D'ETIENNE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "83",
+   "communes": [
+    "TRIGANCE"
+   ],
+   "adresses": [
+    "LA RD 955 LA SAGNE MAISON DE PAYS 3075 ROUTE DE CASTELLANE 83840 TRIGANCE",
+    "175 CHEMIN DE FONT ROSE 83840 TRIGANCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:951409721",
+   "enseigne": "AM-B",
+   "dep": "83",
+   "communes": [
+    "POURRIERES"
+   ],
+   "adresses": [
+    "8 RUE DES POILUS 83910 POURRIERES",
+    "561 ROUTE DE TRETS 83910 POURRIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814659728",
+   "enseigne": "BRASSEURS DU SUD",
+   "dep": "83",
+   "communes": [
+    "TOULON",
+    "LA SEYNE-SUR-MER"
+   ],
+   "adresses": [
+    "300 RUE AMIRAL NOMY 83000 TOULON",
+    "138 MONTE BATTERIE DE LA MONTAGNE 83500 LA SEYNE-SUR-MER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890852759",
+   "enseigne": "BRASSERIE DE L'ANE VOLANT",
+   "dep": "83",
+   "communes": [
+    "GONFARON"
+   ],
+   "adresses": [
+    "1423 ROUTE DE REPENTI 83590 GONFARON"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:892503160",
+   "enseigne": "BRASSERIE LA CIG'",
+   "dep": "83",
+   "communes": [
+    "LA SEYNE-SUR-MER"
+   ],
+   "adresses": [
+    "153 AVENUE DU LUXEMBOURG 83500 LA SEYNE-SUR-MER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912395597",
+   "enseigne": "BRASSERIE SAINTE-CROIX",
+   "dep": "83",
+   "communes": [
+    "BAUDUEN"
+   ],
+   "adresses": [
+    "55 CHEMIN DE SAINT BARTHELEMY 83630 BAUDUEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:910026715",
+   "enseigne": "MICROBRASSERIE TARVOS",
+   "dep": "83",
+   "communes": [
+    "SALERNES"
+   ],
+   "adresses": [
+    "QUARTIER ST ROMAIN 1614 ROUTE DE DRAGUIGNAN 83690 SALERNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921953956",
+   "enseigne": "LA TCHOUC",
+   "dep": "83",
+   "communes": [
+    "COLLOBRIERES"
+   ],
+   "adresses": [
+    "10 BOULEVARD LAZARE-CARNOT 83610 COLLOBRIERES"
+   ],
+   "osm": [
+    "node/11401868369"
+   ],
+   "site": "https://latchouc.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977761394",
+   "enseigne": "STQR",
+   "dep": "83",
+   "communes": [
+    "LA FARLEDE"
+   ],
+   "adresses": [
+    "ZI TOULON EST QUA LES PIOUX RUE DE L ARAMON 83210 LA FARLEDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820115533",
+   "enseigne": "BRASSERIE D A COTE",
+   "dep": "83",
+   "communes": [
+    "LE BEAUSSET"
+   ],
+   "adresses": [
+    "230 ROUTE DE TOULON A MARSEILLE 83330 LE BEAUSSET"
+   ],
+   "osm": [
+    "node/7281937910"
+   ],
+   "site": "https://madamedusse.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:378971550",
+   "enseigne": "B ET C SOLUTION",
+   "dep": "83",
+   "communes": [
+    "BARGEMON"
+   ],
+   "adresses": [
+    "ROUTE DE BROVES 83830 BARGEMON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:837878826",
+   "enseigne": "LE BRASSEUR VAROIS",
+   "dep": "83",
+   "communes": [
+    "CARCES"
+   ],
+   "adresses": [
+    "25 AVENUE GIRAUD FLORENTIN 83570 CARCES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809069248",
+   "enseigne": "LA BAS VAROISE",
+   "dep": "83",
+   "communes": [
+    "LA CADIERE D'AZUR"
+   ],
+   "adresses": [
+    "QUARTIER LES SALETTES 861 C CHE DES VANNIERES 83740 LA CADIERE D'AZUR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818946881",
+   "enseigne": "BRASSERIE ARTISANALE LA BLONDE ET LA BRUNE",
+   "dep": "83",
+   "communes": [
+    "NEOULES"
+   ],
+   "adresses": [
+    "6 PLACE DU CHATEAU 83136 NEOULES"
+   ],
+   "osm": [
+    "node/14122464254"
+   ],
+   "site": "http://lablondelabrune.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923597629",
+   "enseigne": "LE FOURQUET D'ARGENS",
+   "dep": "83",
+   "communes": [
+    "DRAGUIGNAN"
+   ],
+   "adresses": [
+    "1110 CHEMIN DES ARNOUX 83300 DRAGUIGNAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824685341",
+   "enseigne": "BRASSERIE ARTISANALE LA MAURE",
+   "dep": "83",
+   "communes": [
+    "BORMES-LES-MIMOSAS"
+   ],
+   "adresses": [
+    "1065 CHEMIN DE BENAT 83230 BORMES-LES-MIMOSAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:943470922",
+   "enseigne": "VISION BREWERY",
+   "dep": "83",
+   "communes": [
+    "TOURRETTES"
+   ],
+   "adresses": [
+    "298 S3 CHEMIN D LOTISSEMENT ARTISANAL LOMBARDIE 83440 TOURRETTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813207644",
+   "enseigne": "LES BRASSEURS DE L'ESTEREL",
+   "dep": "83",
+   "communes": [
+    "SAINT-RAPHAEL"
+   ],
+   "adresses": [
+    "170 RUE ISAAC NEWTON 83700 SAINT-RAPHAEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:920360740",
+   "enseigne": "BRASSERIE ARTISANALE DU GOLFE",
+   "dep": "83",
+   "communes": [
+    "SAINTE-MAXIME"
+   ],
+   "adresses": [
+    "ZA CAMP FERRAT 2 31 AVENUE DES ARTISANS 83120 SAINTE-MAXIME"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:439496944",
+   "enseigne": "LA BIERE DES ILES D'OR",
+   "dep": "83",
+   "communes": [
+    "HYERES"
+   ],
+   "adresses": [
+    "OPEN SOURCE 143 RUE DE LA FORGE 83400 HYERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828908673",
+   "enseigne": "BRASSERIE DU CASTELLET",
+   "dep": "83",
+   "communes": [
+    "SIGNES"
+   ],
+   "adresses": [
+    "LA QUEUE DE SARTAN 870 AVENUE DE MADRID 83870 SIGNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:850152216",
+   "enseigne": "LE TAILLEUR DE BIERES",
+   "dep": "83",
+   "communes": [
+    "COTIGNAC"
+   ],
+   "adresses": [
+    "1 COURS GAMBETTA 83570 COTIGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:533417127",
+   "enseigne": "BRASSERIE CARTERON",
+   "dep": "83",
+   "communes": [
+    "COGOLIN"
+   ],
+   "adresses": [
+    "DOMAINE VAL D'ASTIER CHEMIN VAL D'ASTIER 83310 COGOLIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:979733532",
+   "enseigne": "BRASSERIE BARBUE",
+   "dep": "83",
+   "communes": [
+    "FLASSANS-SUR-ISSOLE"
+   ],
+   "adresses": [
+    "39 VALLON DE LA BOURETTE 83340 FLASSANS-SUR-ISSOLE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:507454734",
+   "enseigne": "L'ESCARGOT BLEU",
+   "dep": "83",
+   "communes": [
+    "PONTEVES"
+   ],
+   "adresses": [
+    "LE VIERARD 83670 PONTEVES"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:950761163",
+   "enseigne": "L' ECLAT BRASSERIE ARTISANALE",
+   "dep": "83",
+   "communes": [
+    "CARNOULES"
+   ],
+   "adresses": [
+    "561 AVENUE DES PLATANES 83660 CARNOULES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:7",
+   "enseigne": "B HYERES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "83",
+   "communes": [
+    "HYERES"
+   ],
+   "adresses": [
+    "1996 LE PALYVESTRE 83400 HYERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:917776320",
+   "enseigne": "LA SCELERATE",
+   "dep": "83",
+   "communes": [
+    "TOULON"
+   ],
+   "adresses": [
+    "7 PLACE VINCENT RASPAIL 83000 TOULON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:853162014",
+   "enseigne": "SAS PROVENCE ALES",
+   "dep": "83",
+   "communes": [
+    "LA FARLEDE"
+   ],
+   "adresses": [
+    "267 RUE DU HAMEAU DES MAUNIERS 83210 LA FARLEDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/1830158857",
+   "enseigne": "Brasserie Mireille",
+   "dep": "83",
+   "communes": [
+    "Brignoles"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/1830158857"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2862295877",
+   "enseigne": "La Bodega",
+   "dep": "83",
+   "communes": [
+    "Draguignan"
+   ],
+   "adresses": [
+    "Hélène Vidal, 83300 Draguignan"
+   ],
+   "osm": [
+    "node/2862295877"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/3666261595",
+   "enseigne": "Brasserie Saint-Jean (Brignoles)",
+   "dep": "83",
+   "communes": [
+    "Brignoles"
+   ],
+   "adresses": [
+    "Brignoles"
+   ],
+   "osm": [
+    "node/3666261595"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4078235531",
+   "enseigne": "Brasserie Dracénoise",
+   "dep": "83",
+   "communes": [
+    "Draguignan"
+   ],
+   "adresses": [
+    "10 c Boulevard du Marechal Joffre"
+   ],
+   "osm": [
+    "node/4078235531"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5809227635",
+   "enseigne": "Coté Mer",
+   "dep": "83",
+   "communes": [
+    "Saint-Mandrier-sur-Mer"
+   ],
+   "adresses": [
+    "Saint-Mandrier-sur-Mer"
+   ],
+   "osm": [
+    "node/5809227635"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6662669739",
+   "enseigne": "La Tuf Le Tailleur De Bieres",
+   "dep": "83",
+   "communes": [
+    "Cotignac"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6662669739"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6718241987",
+   "enseigne": "Le bregaion",
+   "dep": "83",
+   "communes": [
+    "Carqueiranne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6718241987"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7274140076",
+   "enseigne": "La Snook",
+   "dep": "83",
+   "communes": [
+    "Esparron-de-Pallières"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7274140076"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

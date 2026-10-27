@@ -1,0 +1,787 @@
+[
+ {
+  "cle": "sirene:434284022",
+  "nom": "MN CAFE",
+  "communes": [
+   "CASTILLON",
+   "MENTON"
+  ],
+  "departement": "06",
+  "adresses": [
+   "PL SAINT-MICHEL 06500 CASTILLON",
+   "RUE DE LA REPUBLIQUE 06500 MENTON",
+   "6 ERT 8 RUE GENERAL GALLIENI 06500 MENTON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "434284022",
+  "sirets": [
+   "43428402200010",
+   "43428402200028",
+   "43428402200044"
+  ],
+  "osm": [],
+  "lat": 43.83308434,
+  "lon": 7.4716358257,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:887867547",
+  "nom": "THE BEER GEEKS",
+  "communes": [
+   "CANNES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "3 RUE CAMPESTRA 06400 CANNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "887867547",
+  "sirets": [
+   "88786754700010"
+  ],
+  "osm": [],
+  "lat": 43.559284098,
+  "lon": 7.0164196145,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:797492121",
+  "nom": "BRASSERIE DU COMTE",
+  "communes": [
+   "SAINT-MARTIN-VESUBIE",
+   "COLOMARS"
+  ],
+  "departement": "06",
+  "adresses": [
+   "LD PRA DE LA MAJOU 06450 SAINT-MARTIN-VESUBIE",
+   "LD VALLON DU ROGUEZ 06670 COLOMARS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "797492121",
+  "sirets": [
+   "79749212100034",
+   "79749212100042"
+  ],
+  "osm": [],
+  "lat": 44.063045268,
+  "lon": 7.2565199509,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901867911",
+  "nom": "BEERCOMPANY NICE",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "4 RUE ROSSETTI 06300 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901867911",
+  "sirets": [
+   "90186791100025"
+  ],
+  "osm": [],
+  "lat": 43.697283801,
+  "lon": 7.2772431407,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802583815",
+  "nom": "BRASSERIE AZUREENNE",
+  "communes": [
+   "GRASSE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "QUARTIER SAINTE ANNE 107 CHEMIN DE SAINTE ANNE 06130 GRASSE",
+   "ZI SAINTE MARGUERITE 107 AVENUE JEAN MAUBERT 06130 GRASSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "802583815",
+  "sirets": [
+   "80258381500013",
+   "80258381500039"
+  ],
+  "osm": [],
+  "lat": 43.641031166,
+  "lon": 6.8964326037,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853474351",
+  "nom": "BRASSERIE D'AQUI",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "17 RUE GUIGLIONDA DE SAINTE-AGATHE 06300 NICE",
+   "153 BOULEVARD DE CESSOLE 06100 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853474351",
+  "sirets": [
+   "85347435100022",
+   "85347435100030"
+  ],
+  "osm": [],
+  "lat": 43.737497273,
+  "lon": 7.2962407393,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977699156",
+  "nom": "BRASSERIE ARTISANALE DE L'OURA",
+  "communes": [
+   "MENTON",
+   "ROQUEBRUNE-CAP-MARTIN"
+  ],
+  "departement": "06",
+  "adresses": [
+   "4548 ROUTE DE SOSPEL 06500 MENTON",
+   "1263 RUE ANTOINE PEGLION 06190 ROQUEBRUNE-CAP-MARTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977699156",
+  "sirets": [
+   "97769915600013",
+   "97769915600021"
+  ],
+  "osm": [],
+  "lat": 43.7976203230948,
+  "lon": 7.48960010381852,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809604275",
+  "nom": "B.A.N",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "14 AVENUE VILLERMONT 06000 NICE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "809604275",
+  "sirets": [
+   "80960427500010"
+  ],
+  "osm": [
+   "node/4009780894"
+  ],
+  "lat": 43.709346775,
+  "lon": 7.2641929158,
+  "site": "https://brasserie-nice.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "SOSPEL"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:910864727",
+  "nom": "THIS IS HAWKLAND",
+  "communes": [
+   "CARROS"
+  ],
+  "departement": "06",
+  "adresses": [
+   "5360 ROUTE METROPOLITAINE 1 06510 CARROS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910864727",
+  "sirets": [
+   "91086472700029"
+  ],
+  "osm": [],
+  "lat": 43.7885928071648,
+  "lon": 7.18519043864493,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828091785",
+  "nom": "BRASSERIE DES LIGURES",
+  "communes": [
+   "PEILLE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "445 ROUTE DES CLUES 06440 PEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828091785",
+  "sirets": [
+   "82809178500026"
+  ],
+  "osm": [],
+  "lat": 43.794180574,
+  "lon": 7.3772497701,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815107867",
+  "nom": "SOCCA BIERA NICE",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "33 COLLET DE BELLON 06000 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "815107867",
+  "sirets": [
+   "81510786700013"
+  ],
+  "osm": [],
+  "lat": 43.721872875,
+  "lon": 7.2150436731,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839502382",
+  "nom": "BACKYARD BREWS",
+  "communes": [
+   "VALBONNE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "23 TRAVERSE DU BARRI 06560 VALBONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839502382",
+  "sirets": [
+   "83950238200014"
+  ],
+  "osm": [],
+  "lat": 43.6219245905967,
+  "lon": 7.04684715284595,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838515427",
+  "nom": "CRAFTAZUR",
+  "communes": [
+   "ANTIBES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "LOT N.7 NIVEAU INFERIEUR BAT B 165 RUE DES CISTES 06600 ANTIBES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838515427",
+  "sirets": [
+   "83851542700014"
+  ],
+  "osm": [],
+  "lat": 43.608048854,
+  "lon": 7.0745410287,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843505785",
+  "nom": "A LA FUT",
+  "communes": [
+   "MOUANS-SARTOUX"
+  ],
+  "departement": "06",
+  "adresses": [
+   "ESPACE PALISSY 201 CHEMIN DES PLAINES 06370 MOUANS-SARTOUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843505785",
+  "sirets": [
+   "84350578500025"
+  ],
+  "osm": [],
+  "lat": 43.6248383587742,
+  "lon": 6.96287211831644,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844219774",
+  "nom": "IGGP",
+  "communes": [
+   "MENTON"
+  ],
+  "departement": "06",
+  "adresses": [
+   "13 B ROUTE DE SOSPEL 06500 MENTON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844219774",
+  "sirets": [
+   "84421977400024"
+  ],
+  "osm": [],
+  "lat": 43.7872038451255,
+  "lon": 7.49291318686633,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LA BRIGUE"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CAGNES-SUR-MER"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LA ROQUETTE-SUR-VAR"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "LA BRIGUE"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:921194569",
+  "nom": "LA MAISON DU BONHEUR",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "54 BOULEVARD FRANCOIS GROSSO 06000 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921194569",
+  "sirets": [
+   "92119456900023"
+  ],
+  "osm": [],
+  "lat": 43.6990467766702,
+  "lon": 7.25132817907335,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:825209778",
+  "nom": "BLUE COAST BREWING COMPANY",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "18 CHEMIN DE SAQUIER 06200 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "825209778",
+  "sirets": [
+   "82520977800018"
+  ],
+  "osm": [],
+  "lat": 43.721199442,
+  "lon": 7.1970188611,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "TOURRETTES-SUR-LOUP"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:844117291",
+  "nom": "LES BRASSEURS DU DIMANCHE",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "40 BOULEVARD AUGUSTE RAYNAUD 06100 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844117291",
+  "sirets": [
+   "84411729100014"
+  ],
+  "osm": [],
+  "lat": 43.713665512,
+  "lon": 7.258753926,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852437805",
+  "nom": "GEKKO BEERS",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "18 CHEMIN DE SAQUIER 06200 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852437805",
+  "sirets": [
+   "85243780500033"
+  ],
+  "osm": [],
+  "lat": 43.7211994415112,
+  "lon": 7.19701886107881,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813988235",
+  "nom": "B06",
+  "communes": [
+   "ANTIBES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "87 CHEMIN DE BEAUVERT 06600 ANTIBES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813988235",
+  "sirets": [
+   "81398823500020"
+  ],
+  "osm": [],
+  "lat": 43.595848525,
+  "lon": 7.1133108497,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909992174",
+  "nom": "LE GRAND BARBU",
+  "communes": [
+   "ANTIBES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "60 CHEMIN DE RABIAC ESTAGNOL 06600 ANTIBES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "909992174",
+  "sirets": [
+   "90999217400039"
+  ],
+  "osm": [
+   "node/11428402905"
+  ],
+  "lat": 43.5872038571307,
+  "lon": 7.11014143206794,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "COLOMARS"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:949319750",
+  "nom": "DANDYBEAR",
+  "communes": [
+   "CONTES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "1785 CR4 LA ROSEYRE 06390 CONTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949319750",
+  "sirets": [
+   "94931975000012"
+  ],
+  "osm": [],
+  "lat": 43.781614596,
+  "lon": 7.3362341068,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829344001",
+  "nom": "HUGINS BREW",
+  "communes": [
+   "BERRE-LES-ALPES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "46 AVENUE PAUL GRANET 06390 BERRE-LES-ALPES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829344001",
+  "sirets": [
+   "82934400100021"
+  ],
+  "osm": [],
+  "lat": 43.8283123092737,
+  "lon": 7.33248364005919,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "LA TURBIE"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "L'ESCARENE"
+  ],
+  "departement": "06",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:812383511",
+  "nom": "BRASSERIE BLEUE",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "15 RUE DEFLY 06000 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812383511",
+  "sirets": [
+   "81238351100027"
+  ],
+  "osm": [],
+  "lat": 43.70224427,
+  "lon": 7.2760489174,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12000605246",
+  "nom": "Beer Company",
+  "communes": [
+   "Nice"
+  ],
+  "departement": "06",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12000605246"
+  ],
+  "lat": 43.69726,
+  "lon": 7.27755,
+  "statut": "ambigu",
+  "fiche": "Big Mountain Brewing Company"
+ },
+ {
+  "cle": "node/12804515852",
+  "nom": "La brasserie berroise",
+  "communes": [
+   "Berre-les-Alpes"
+  ],
+  "departement": "06",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12804515852"
+  ],
+  "lat": 43.82991,
+  "lon": 7.32833,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6430502395",
+  "nom": "N7 Café",
+  "communes": [
+   "Saint-Laurent-du-Var"
+  ],
+  "departement": "06",
+  "adresses": [
+   "166 Avenue de Nice"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6430502395"
+  ],
+  "lat": 43.66072,
+  "lon": 7.17583,
+  "statut": "nouveau"
+ }
+]

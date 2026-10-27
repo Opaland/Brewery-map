@@ -1,0 +1,189 @@
+[
+ [
+  {
+   "cle": "sirene:400016622",
+   "enseigne": "BRASSERIE PIETRA",
+   "dep": "2B",
+   "communes": [
+    "FURIANI",
+    "BORGO"
+   ],
+   "adresses": [
+    "FURIANI ROUTE DE LA MARANA 20600 FURIANI",
+    "LD STRADA VECCHIA 20290 BORGO",
+    "VALROSE RUE DES PLATANES 20290 BORGO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881678148",
+   "enseigne": "BENATI DISTRIBUTION",
+   "dep": "2B",
+   "communes": [
+    "BIGUGLIA",
+    "SAN-NICOLAO"
+   ],
+   "adresses": [
+    "N 22 ZI TRAGONE 20620 BIGUGLIA",
+    "MORIANI PLAGE 40 RUE JEAN TAFANI 20230 SAN-NICOLAO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848638078",
+   "enseigne": "BRASSERIE GLORIA",
+   "dep": "2B",
+   "communes": [
+    "CALVI"
+   ],
+   "adresses": [
+    "QUARTIER STAGNONE RESIDENCE VILLA RAFFAELLA 20260 CALVI",
+    "VALLE AL LEGNO 20260 CALVI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949285423",
+   "enseigne": "TY CORSA",
+   "dep": "2B",
+   "communes": [
+    "PRUNELLI-DI-FIUMORBO"
+   ],
+   "adresses": [
+    "HAMEAU QUERCIOLO QUERCIOLO 20243 PRUNELLI-DI-FIUMORBO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:853635787",
+   "enseigne": "BRASSERIA DISTILLERIA DI U MONTE KYRIE ELEISON",
+   "dep": "2B",
+   "communes": [
+    "GHISONI"
+   ],
+   "adresses": [
+    "LIEU DIT AGHJA 20227 GHISONI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:891608424",
+   "enseigne": "A MALACELLA",
+   "dep": "2B",
+   "communes": [
+    "BASTIA"
+   ],
+   "adresses": [
+    "2 RUE FAVALELLI 20200 BASTIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:879211217",
+   "enseigne": "DOMAINE BRASSICOLE PALAZZU",
+   "dep": "2B",
+   "communes": [
+    "ROGLIANO"
+   ],
+   "adresses": [
+    "PALAZZU NICROSI VIGNALE 20247 ROGLIANO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE 3D (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "2B",
+   "communes": [
+    "BASTIA"
+   ],
+   "adresses": [
+    "9 RUE CESAR CAMPINCHI 20200 BASTIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984159368",
+   "enseigne": "BRASSERIA SIRI",
+   "dep": "2B",
+   "communes": [
+    "PINO"
+   ],
+   "adresses": [
+    "205 CORSU ANTONE PICCIONI 20228 PINO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849394705",
+   "enseigne": "LA PETITE BRASSERIE DE CORSE",
+   "dep": "2B",
+   "communes": [
+    "ALERIA"
+   ],
+   "adresses": [
+    "LIEUDIT POMPUGLIANI 20270 ALERIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:847682465",
+   "enseigne": "CORSINA DISTRIBUTION",
+   "dep": "2B",
+   "communes": [
+    "BIGUGLIA"
+   ],
+   "adresses": [
+    "ZI TRAGONE 20620 BIGUGLIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/186036094",
+   "enseigne": "Brasseur A Tribbierra",
+   "dep": "2B",
+   "communes": [
+    "Ghisonaccia"
+   ],
+   "adresses": [
+    "Casamozza"
+   ],
+   "osm": [
+    "way/186036094"
+   ],
+   "site": "http://corsica.fiumorbu.free.fr/atribbiera1.htm",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/592416988",
+   "enseigne": "Ribella",
+   "dep": "2B",
+   "communes": [
+    "Patrimonio"
+   ],
+   "adresses": [
+    "Route de Saint-Florent"
+   ],
+   "osm": [
+    "way/592416988"
+   ],
+   "site": "https://biereribella.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

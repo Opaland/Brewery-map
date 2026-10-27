@@ -1,0 +1,519 @@
+[
+ [
+  {
+   "cle": "sirene:838335719",
+   "enseigne": "HESTIA",
+   "dep": "84",
+   "communes": [
+    "VAISON-LA-ROMAINE",
+    "AVIGNON",
+    "ORANGE"
+   ],
+   "adresses": [
+    "AVENUE MARCEL PAGNOL 84110 VAISON-LA-ROMAINE",
+    "ZA LES ECLUSES 2 1100 CHEMIN DE L'ANCIENNE VOIE FERREE 84110 VAISON-LA-ROMAINE",
+    "776 COURS CARDINAL BERTRAND DE MONTFAVET 84140 AVIGNON",
+    "AVENUE MARCEL PAGNOL 5173 ROUTE DE NYONS 84110 VAISON-LA-ROMAINE",
+    "ZAC COUDOULET 84100 ORANGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:798950952",
+   "enseigne": "BRASSERIE LA PARISIENNE",
+   "dep": "84",
+   "communes": [
+    "PERTUIS"
+   ],
+   "adresses": [
+    "72 RUE PHILIPPE DE GIRARD 84120 PERTUIS"
+   ],
+   "osm": [
+    "way/653751325"
+   ],
+   "site": "https://www.brasserie-luberon.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908827561",
+   "enseigne": "CHEZ ELLE BEER",
+   "dep": "84",
+   "communes": [
+    "L'ISLE-SUR-LA-SORGUE",
+    "CAVAILLON"
+   ],
+   "adresses": [
+    "3 RUE JOSEPH ROUMANILLE 84800 L'ISLE-SUR-LA-SORGUE",
+    "120 AVENUE JEAN JAURES 84300 CAVAILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:883937351",
+   "enseigne": "MALT BROTHERS",
+   "dep": "84",
+   "communes": [
+    "VILLEDIEU",
+    "VAISON-LA-ROMAINE"
+   ],
+   "adresses": [
+    "3178 ROUTE DE MIRABEL 84110 VILLEDIEU",
+    "2810 ROUTE D'ORANGE 84110 VAISON-LA-ROMAINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899530265",
+   "enseigne": "U4S",
+   "dep": "84",
+   "communes": [
+    "CHATEAUNEUF-DU-PAPE",
+    "SORGUES"
+   ],
+   "adresses": [
+    "LIEU DIT LE GRAND PIERRE ROUTE DE COURTHEZON 84230 CHATEAUNEUF-DU-PAPE",
+    "1948 RTE DE L'OISELAY 84700 SORGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:809367568",
+   "enseigne": "BRASSERIE ARTISANALE DU VENTOUX",
+   "dep": "84",
+   "communes": [
+    "CARPENTRAS",
+    "CAROMB"
+   ],
+   "adresses": [
+    "558 AVENUE DU MONT VENTOUX 84200 CARPENTRAS",
+    "ANCIEN CHEMIN DE CARPENTRAS 84330 CAROMB"
+   ],
+   "osm": [
+    "way/90927651"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:919285676",
+   "enseigne": "BRASSERIE QUATRE DAMES",
+   "dep": "84",
+   "communes": [
+    "BEDOIN",
+    "MAZAN"
+   ],
+   "adresses": [
+    "80 CHEMIN DES JEAN BLANC 84410 BEDOIN",
+    "62 PLACE DU 8 MAI 84380 MAZAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898674817",
+   "enseigne": "FAT ASS BREWERY",
+   "dep": "84",
+   "communes": [
+    "L'ISLE-SUR-LA-SORGUE"
+   ],
+   "adresses": [
+    "3 RUE DE L'HOTEL-DE-VILLE 84800 L'ISLE-SUR-LA-SORGUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DES GUEUX (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "84",
+   "communes": [
+    "AVIGNON"
+   ],
+   "adresses": [
+    "1 AVENUE DE L'ARROUSAIRE 84000 AVIGNON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914462775",
+   "enseigne": "BRASSEUR DE L'ISLE SUR LA SORGUE",
+   "dep": "84",
+   "communes": [
+    "L'ISLE-SUR-LA-SORGUE"
+   ],
+   "adresses": [
+    "8 RUE MICHELET 84800 L'ISLE-SUR-LA-SORGUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:453334948",
+   "enseigne": "CONSEIL ET DEVELOPPEMENT COMTADIN",
+   "dep": "84",
+   "communes": [
+    "BEAUMES-DE-VENISE"
+   ],
+   "adresses": [
+    "228 ROUTE DE CARPENTRAS 84190 BEAUMES-DE-VENISE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924939853",
+   "enseigne": "LA TOTOCHE DU LUBERON",
+   "dep": "84",
+   "communes": [
+    "CUCURON"
+   ],
+   "adresses": [
+    "1369 A CHEMIN DE LUNES 84160 CUCURON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923410930",
+   "enseigne": "L'ODYSSEE DES BONS VIVANTS",
+   "dep": "84",
+   "communes": [
+    "PERNES-LES-FONTAINES"
+   ],
+   "adresses": [
+    "133 TRAVERSE DI GRAFIOUNIE 84210 PERNES-LES-FONTAINES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:834513327",
+   "enseigne": "BRASSERIE DU COMTAT",
+   "dep": "84",
+   "communes": [
+    "MALEMORT-DU-COMTAT"
+   ],
+   "adresses": [
+    "101 LE COURS 84570 MALEMORT-DU-COMTAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:947913356",
+   "enseigne": "LES DYADES",
+   "dep": "84",
+   "communes": [
+    "VAISON-LA-ROMAINE"
+   ],
+   "adresses": [
+    "3 RUE ABEL ANDRE 84110 VAISON-LA-ROMAINE"
+   ],
+   "osm": [
+    "node/4329293489"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:951166255",
+   "enseigne": "BRASSERIE DU SOLEIL",
+   "dep": "84",
+   "communes": [
+    "PUYMERAS"
+   ],
+   "adresses": [
+    "929 CHEMIN DE PIEGON 84110 PUYMERAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844707125",
+   "enseigne": "BRASSERIE JOSSELINE",
+   "dep": "84",
+   "communes": [
+    "MONIEUX"
+   ],
+   "adresses": [
+    "HAMEAU LA GABELLE 84390 MONIEUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890399439",
+   "enseigne": "ARTHY",
+   "dep": "84",
+   "communes": [
+    "CAMARET-SUR-AIGUES"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE QUARTIER MORELLES 84850 CAMARET-SUR-AIGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909659427",
+   "enseigne": "BRASSERIE DE VAUCROZE",
+   "dep": "84",
+   "communes": [
+    "SORGUES"
+   ],
+   "adresses": [
+    "CHEMIN DE VAUCROZE 84700 SORGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924124621",
+   "enseigne": "ASSOCIATION HOUBLONS & MUSIQUES",
+   "dep": "84",
+   "communes": [
+    "RUSTREL"
+   ],
+   "adresses": [
+    "CHEMIN SAINT JOSEPH 84400 RUSTREL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:821713948",
+   "enseigne": "LA DEJANTEE",
+   "dep": "84",
+   "communes": [
+    "L'ISLE-SUR-LA-SORGUE"
+   ],
+   "adresses": [
+    "140 AVENUE GUSTAVE EIFFEL 84800 L'ISLE-SUR-LA-SORGUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830046900",
+   "enseigne": "BRASSERIE LA COMEDIENNE",
+   "dep": "84",
+   "communes": [
+    "AVIGNON"
+   ],
+   "adresses": [
+    "MIN AVIGNON BAR W 5 AVENUE ELSA TRIOLET 84000 AVIGNON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838447480",
+   "enseigne": "BRASSERIE ARTISANALE OCRIA",
+   "dep": "84",
+   "communes": [
+    "SAINT-SATURNIN-LES-APT"
+   ],
+   "adresses": [
+    "ZA TRIQUEFAUT 84490 SAINT-SATURNIN-LES-APT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849560321",
+   "enseigne": "AGORA BRASSEURS",
+   "dep": "84",
+   "communes": [
+    "CARPENTRAS"
+   ],
+   "adresses": [
+    "67 RUE DU CHATEAU DURBESSON 84200 CARPENTRAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890799844",
+   "enseigne": "VENTOPP",
+   "dep": "84",
+   "communes": [
+    "VILLES-SUR-AUZON"
+   ],
+   "adresses": [
+    "ZAE DES FONTAYNES 725 ROUTE DE CARPENTRAS 84570 VILLES-SUR-AUZON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:809257082",
+   "enseigne": "AGENCE MOREAU SARL",
+   "dep": "84",
+   "communes": [
+    "ORANGE"
+   ],
+   "adresses": [
+    "37 MONTEE JULIA BARTET 84100 ORANGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:983168998",
+   "enseigne": "LA FAUVETTE GOURMANDE, LA LUB'",
+   "dep": "84",
+   "communes": [
+    "TAILLADES"
+   ],
+   "adresses": [
+    "9 B ZA BEL AIR 84300 TAILLADES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:982068223",
+   "enseigne": "BRASSERIE BICHEIRO",
+   "dep": "84",
+   "communes": [
+    "CAVAILLON"
+   ],
+   "adresses": [
+    "556 B CHE DONNE DU RATACAN 84300 CAVAILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895230449",
+   "enseigne": "LA BRASSERIE INTERDITE",
+   "dep": "84",
+   "communes": [
+    "PERTUIS"
+   ],
+   "adresses": [
+    "167 RUE ROBERVAL 84120 PERTUIS"
+   ],
+   "osm": [
+    "way/738572515"
+   ],
+   "site": "https://biere-artisanale-luberon.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908839459",
+   "enseigne": "LES OUAILLES DU LUBERON",
+   "dep": "84",
+   "communes": [
+    "CHEVAL-BLANC"
+   ],
+   "adresses": [
+    "225 CHEMIN DE L'INDICATEUR 84460 CHEVAL-BLANC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:918759200",
+   "enseigne": "BRASSERIE EPICENTRE",
+   "dep": "84",
+   "communes": [
+    "PERTUIS"
+   ],
+   "adresses": [
+    "282 CHEMIN DE SAINT ESTEVE 84120 PERTUIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831899075",
+   "enseigne": "LA GEANTE DE PROVENCE, BIERE DU VENTOUX",
+   "dep": "84",
+   "communes": [
+    "BRANTES"
+   ],
+   "adresses": [
+    "LE VILLAGE 84390 BRANTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977543446",
+   "enseigne": "FATCH BRASSERIE ARTISANALE",
+   "dep": "84",
+   "communes": [
+    "COURTHEZON"
+   ],
+   "adresses": [
+    "526 ROUTE D'ORANGE 84350 COURTHEZON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13875880501",
+   "enseigne": "Brasserie Epicentre Pertuis",
+   "dep": "84",
+   "communes": [
+    "La Bastidonne"
+   ],
+   "adresses": [
+    "282 Chemin de Saint-Estève, 84120"
+   ],
+   "osm": [
+    "node/13875880501"
+   ],
+   "site": "https://www.brasserie-epicentre.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1275696941",
+   "enseigne": "Bière la Machotte",
+   "dep": "84",
+   "communes": [
+    "Sarrians"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/1275696941"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/996274090",
+   "enseigne": "Brasserie Ameno",
+   "dep": "84",
+   "communes": [
+    "Camaret-sur-Aigues"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/996274090"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
