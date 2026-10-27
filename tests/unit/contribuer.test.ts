@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { lienAjout } from '../../src/core/signalement'
 
@@ -54,5 +54,43 @@ describe('contribuer (S361)', () => {
   it('AGENTS.md nomme le modèle de story qui existe', () => {
     expect(readFileSync('AGENTS.md', 'utf8')).toContain('`docs/stories/MODELE.md`')
     expect(existsSync('docs/stories/MODELE.md')).toBe(true)
+  })
+})
+
+describe('contribuer : une faille, une PR, qui décide, ce que coûte la porte (S364, #227)', () => {
+  it('SECURITY.md dit comment signaler une faille sans la publier', () => {
+    expect(existsSync('SECURITY.md'), 'SECURITY.md manquant').toBe(true)
+    const securite = readFileSync('SECURITY.md', 'utf8')
+    expect(securite).toMatch(/sans détail exploitable/)
+    expect(securite).toContain('docs/stories/S364.md')
+  })
+
+  it('le gabarit de PR rappelle Closes #n, la story, le test vu rouge et data/', () => {
+    const gabarit = readFileSync('.github/pull_request_template.md', 'utf8')
+    for (const attendu of ['Closes #', 'docs/stories/', 'vu rouge', 'data/']) {
+      expect(gabarit, `.github/pull_request_template.md : rappeler « ${attendu} »`).toContain(attendu)
+    }
+  })
+
+  it('le README dit qui décide', () => {
+    expect(readFileSync('README.md', 'utf8').replace(/\s+/g, ' ')).toMatch(/Cédric \(@Opaland\), le mainteneur, décide/)
+  })
+
+  it('CONTRIBUTING.md dit où vont les propositions de données', () => {
+    expect(contribuer).toContain('`curation/`')
+    expect(contribuer).toContain('`curation/accords/`')
+  })
+
+  it('docs/PORTE.md est remesurée depuis la dernière revue globale (« à remesurer à chaque revue globale »)', () => {
+    const porte = readFileSync('docs/PORTE.md', 'utf8')
+    const mesure = /Dernière mesure : (\d{4}-\d{2}-\d{2})/.exec(porte)?.[1]
+    expect(mesure, 'docs/PORTE.md : écrire « Dernière mesure : AAAA-MM-JJ »').toBeDefined()
+    const revues = readdirSync('docs')
+      .map((f) => /^REVUE-GLOBALE-(\d{4}-\d{2}-\d{2})\.md$/.exec(f)?.[1])
+      .filter((d): d is string => d !== undefined)
+      .sort()
+    const derniere = revues.at(-1) ?? ''
+    expect(derniere).not.toBe('')
+    expect(mesure! >= derniere, `docs/PORTE.md mesurée le ${mesure ?? '?'}, avant la revue globale du ${derniere} : remesurer`).toBe(true)
   })
 })

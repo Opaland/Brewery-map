@@ -30,7 +30,8 @@ consultable hors connexion.
 - **Signaler une erreur**, par une issue GitHub préremplie.
 
 Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
-Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
+Cédric (@Opaland), le mainteneur, décide de ce qui entre dans les données
+et dans le code. Depuis le 18/10, par sa règle (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
 256 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute

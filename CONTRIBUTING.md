@@ -25,7 +25,10 @@ commune, ce qu'on peut y faire (acheter, boire sur place, quels jours) et
 **une source** qui le montre : le site de la brasserie ou une page
 officielle. Un annuaire seul ne suffit pas (méthode du 19/10,
 `docs/DECISIONS.md`) ; un office de tourisme vaut une confiance moyenne au
-plus (décision #37). Comme pour une erreur, il faut
+plus (décision #37). Ce qui suit un signalement est
+public : les propositions de l'éditeur sont écrites dans `curation/`
+(un fichier par lot), et chaque accord du mainteneur, ou chaque règle
+qu'il a fixée, est gardé dans `curation/accords/`, que la CI rejoue. Comme pour une erreur, il faut
 un compte GitHub, l'issue est publique, et le mainteneur décide.
 
 ## Une correction de code
