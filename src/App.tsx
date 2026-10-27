@@ -97,6 +97,7 @@ function texteDuCompte(
   carnetSeulement = false,
   nbCarnet = 0,
   videSansCarnetSeul = false,
+  nbCarnetSansOsm = 0,
 ): string {
   // Toutes catégories décochées : c'est la seule cause, la dire (revue
   // globale du 19/10, A6 : « aucune brasserie à moins de 30 km » trompait).
@@ -105,6 +106,11 @@ function texteDuCompte(
   }
   // « Seulement mon carnet » sur un carnet vide (S350) : c'est la seule
   // cause, la dire, et comment le remplir.
+  // Un carnet que seule la couche OSM décochée cache n'est pas vide : le
+  // dire, et comment le revoir (S357, issue #208).
+  if (carnetSeulement && nbCarnet === 0 && nbCarnetSansOsm > 0) {
+    return t('Les brasseries de votre carnet sont cachées par la couche OpenStreetMap décochée. Cochez la couche OpenStreetMap dans « Plus de filtres » pour les revoir.')
+  }
   if (carnetSeulement && nbCarnet === 0) {
     return t('Votre carnet est vide : dans une fiche, touchez « J’y suis allé·e » ou écrivez une note. Décochez « Seulement mon carnet » dans « Plus de filtres » pour revoir toutes les brasseries.')
   }
@@ -560,6 +566,14 @@ export function App({
   // Ce que la case compte, et ce qui dit le carnet vide : les brasseries
   // qu'on peut voir, pas les orphelines (revue de Bernard, S350).
   const nbCarnet = [...ensembleCarnet].filter((n) => nomsCherches.has(n)).length
+  // Ce que la couche OSM décochée cache du carnet (S357) : un carnet qu'elle
+  // seule cache n'est pas vide.
+  const nbCarnetSansOsm = avecOsm
+    ? 0
+    : (() => {
+        const nomsOsm = new Set(osm.brasseries.map((b) => b.n))
+        return [...ensembleCarnet].filter((n) => nomsOsm.has(n) && !nomsCherches.has(n)).length
+      })()
   const carnetOrphelins =
     osm.etat === 'pret' && suite.etat === 'pret'
       ? [...ensembleCarnet].filter((n) => !nomsConnus.has(n))
@@ -1120,6 +1134,7 @@ export function App({
             carnetSeulement,
             nbCarnet,
             videSansCarnetSeul,
+            nbCarnetSansOsm,
           )}
           {carnetSeulement && resultats.length > 0 ? ` ${t('(de votre carnet)')}` : ''}
           {pasVisitees && resultats.length > 0 ? ` ${t('(pas encore visitées)')}` : ''}
