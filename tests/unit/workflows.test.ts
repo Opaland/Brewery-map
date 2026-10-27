@@ -110,7 +110,8 @@ describe('l’installation de Chromium a le temps de finir (S363, #221)', () => 
     expect(installations.filter(({ delai }) => delai < DELAI_INSTALLATION_MIN).map(({ nom, delai }) => `${nom} (${String(delai)} min)`)).toEqual([])
   })
 
-  it('dans chaque job, les délais des étapes tiennent dans celui du job', () => {
+  it('chaque job a son délai, et la somme des délais déclarés de ses étapes reste en dessous', () => {
+    expect(jobs.filter(({ delai }) => Number.isNaN(delai)).map(({ nom }) => nom), 'job sans timeout-minutes').toEqual([])
     const debordent = jobs
       .map(({ nom, delai, etapes }) => ({ nom, delai, somme: etapes.reduce((t, e) => t + delaiEtape(e), 0) }))
       .filter(({ delai, somme }) => somme >= delai)

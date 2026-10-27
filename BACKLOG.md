@@ -45,6 +45,11 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Restes de S363 (27/10, issue #221)
+
+- Relever le 03/11 les runs de `main` : aucun rouge dû à « Installer Chromium » depuis S363 ? Sinon, essayer dans l'ordre : réduire ce qu'apt télécharge (les seules polices utiles aux écrans figés), `Acquire::Retries`, un autre miroir que `azure.archive.ubuntu.com`. Mesures dans `docs/stories/S363.md`.
+- Jobs `navigateurs` (WebKit 140 Mo, Firefox 55 Mo) : au débit lent d'apt, environ 53 min pour WebKit ; leur délai reste 10 min, ils sont informatifs.
+
 ## Restes de S360 (27/10, issue #212)
 
 - `visuel-references.yml` : un `push` exécute le workflow de la branche ; un compte en écriture peut retirer la garde dans sa branche. Une barrière réelle lirait le workflow depuis `main` (`workflow_run`). Relecteur de workflows, 27/10.
