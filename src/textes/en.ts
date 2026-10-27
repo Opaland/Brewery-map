@@ -77,6 +77,7 @@ export const EN: Readonly<Record<string, string>> = {
   "(de votre carnet)": "(from your logbook)",
   "Mon carnet : la case « Seulement mon carnet » montre les brasseries que vous avez visitées ou sur lesquelles vous avez écrit une note.": "My logbook: the “Only my logbook” box shows the breweries you have visited or written a note about.",
   "Seulement mon carnet : visitées ou notées ({n})": "Only my logbook: visited or with a note ({n})",
+  "Les brasseries de votre carnet sont cachées : elles viennent d’OpenStreetMap, et la case « Inclure les {n} brasseries repérées sur OpenStreetMap (non vérifiées) » est décochée. Cochez-la dans « Plus de filtres » pour les revoir.": "The breweries in your logbook are hidden: they come from OpenStreetMap, and the “Include the {n} breweries found on OpenStreetMap (not checked)” box is unticked. Tick it in “More filters” to see them again.",
   "Votre carnet est vide : dans une fiche, touchez « J’y suis allé·e » ou écrivez une note. Décochez « Seulement mon carnet » dans « Plus de filtres » pour revoir toutes les brasseries.": "Your logbook is empty: on a brewery’s card, tap “I’ve been there” or write a note. Untick “Only my logbook” in “More filters” to see all breweries again.",
   "Aucune brasserie de votre carnet ne correspond. Décochez « Seulement mon carnet » dans « Plus de filtres » pour revoir toutes les brasseries.": "No brewery in your logbook matches. Untick “Only my logbook” in “More filters” to see all breweries again.",
   "Apparence": "Appearance",

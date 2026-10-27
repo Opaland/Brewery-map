@@ -449,3 +449,15 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
 ## CI — navigateurs informatifs rouges (vu le 21/10)
 
 - **`navigateurs (webkit)` et `navigateurs (firefox)` échouent sur les six derniers runs de `main`** (39595930666 à 39608652817). Informatifs (`docs/NAVIGATEURS.md`), ils ne bloquent pas le merge ; le log montre la spec d'accessibilité sur profil Firefox Android, sans que l'assertion fautive soit encore identifiée. À diagnostiquer avant qu'on s'habitue à les voir rouges.
+
+## Restes de S357 (27/10, revue de Bernard et revue adverse)
+
+- **Carnet en partie caché par la couche OSM.** Quand le carnet mêle des
+  fiches visibles et des fiches OSM cachées (couche décochée), le compte ne
+  dit rien des secondes : on les croit perdues. S357 ne couvre que le carnet
+  entièrement caché. Piste : une phrase « et N cachées par la couche
+  OpenStreetMap », avec son test e2e.
+- **Couche OSM pas encore chargée, case décochée par l'URL ou les
+  préférences.** `nbCarnetSansOsm` vaut 0 tant que la couche n'est pas là :
+  « Votre carnet est vide » peut s'afficher un instant. Antérieur à S357,
+  non reproduit.

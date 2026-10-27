@@ -1,6 +1,6 @@
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
-import { derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
+import { choisirCommune, derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
 
 /** S35 — mon carnet : les brasseries visitées, sur l'appareil. */
 test.beforeEach(async ({ page }) => {
@@ -304,4 +304,21 @@ test.describe('sauvegarder et transférer (S37)', () => {
     })
     await expect(page.getByTestId('sauvegarde-etat')).toHaveText('Ce fichier ne vient pas de Mousse de Poche.')
   })
+})
+
+// S357 (#208) : un carnet que seule la couche OSM décochée cache n'est pas vide.
+test('carnet caché par la couche OSM : le compte ne le dit pas vide (S357)', async ({ page }) => {
+  // Porcelette (57) : seules les brasseries de la couche OSM sont proches.
+  await choisirCommune(page, 'porcelette', 'Porcelette (57)')
+  const ligne = page.locator('button.ligne').first()
+  await expect(ligne.getByTestId('badge-osm')).toBeVisible()
+  await ligne.click()
+  await page.getByTestId('bouton-visite').click()
+  await expect(page.getByTestId('marque-visite')).toHaveCount(1)
+  await ouvrirFiltres(page)
+  await page.getByTestId('avec-osm').uncheck()
+  await page.getByTestId('carnet-seulement').check()
+  const compte = page.getByTestId('compte')
+  await expect(compte).toContainText(/sont cachées : elles viennent d’OpenStreetMap, et la case « Inclure les \d+ brasseries repérées sur OpenStreetMap \(non vérifiées\) » est décochée/)
+  await expect(compte).not.toContainText('Votre carnet est vide')
 })
