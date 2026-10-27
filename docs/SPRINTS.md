@@ -2995,3 +2995,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S359 — Les constantes dites deux fois, tenues d'accord *(27/10, issue #211)*
 
 `docs/stories/S359.md`, écrite avant le code. `tests/unit/jumeaux.test.ts` tient les constantes que la doc répète : tuiles, délais du réseau et de la couche OSM, zoom (`docs/ARCHITECTURE.md`, `docs/CONTINUITE.md`, `docs/DONNEES.md` contre `public/sw.js`, `src/Carte.tsx`, `src/main.tsx`), le délai du crochet (`docs/PORTE.md` contre `.claude/settings.json`), et une seule version de Node (`.nvmrc`, `engines`, workflows, README, `CONTRIBUTING.md`, `docs/REPRISE-POWERSHELL.md`). Le motif d'un département est écrit une fois (`MOTIF_DEPARTEMENT`, `src/core/schema.ts`). Chaque paire vue rouge ; trois paires ajoutées en revue adverse.
+
+## S360 — Les références visuelles : seulement des images ordinaires *(27/10, issue #212)*
+
+`docs/stories/S360.md`, écrite avant le code. Le job `commit` de `.github/workflows/visuel-references.yml`, seul à tenir un jeton d'écriture, refuse avant son `git add` un dossier en lien, tout lien, sous-dossier, fichier d'une autre extension ou `.png` sans la signature PNG. `tests/unit/workflows.test.ts` exécute le script de l'étape tel que la CI le lit, et verrouille le job à ses deux étapes `run`. Chaque cas vu rouge. Limite dite : un compte en écriture peut retirer la garde dans sa branche (BACKLOG).

@@ -45,6 +45,11 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Restes de S360 (27/10, issue #212)
+
+- `visuel-references.yml` : un `push` exécute le workflow de la branche ; un compte en écriture peut retirer la garde dans sa branche. Une barrière réelle lirait le workflow depuis `main` (`workflow_run`). Relecteur de workflows, 27/10.
+- Même job : aucun plafond de taille ni de nombre sur les PNG reçus (la signature seule est lue). Relecteur de workflows, 27/10.
+
 ## Revue du 21/10 (S334)
 
 - **C10, la mutation hors du fichier de verrouillage** : Stryker est

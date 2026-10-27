@@ -138,6 +138,24 @@ describe('visuel-references.yml : le job qui pousse ne committe que des images o
     ).toBe(false)
   })
 
+  it('le dossier lui-même en lien symbolique est refusé (revue adverse S360)', () => {
+    expect(
+      essayer((dossier, racine) => {
+        const ailleurs = join(racine, 'ailleurs')
+        mkdirSync(ailleurs)
+        writeFileSync(join(ailleurs, 'ok-mobile.png'), PNG)
+        rmSync(dossier, { recursive: true })
+        symlinkSync(ailleurs, dossier)
+      }),
+    ).toBe(false)
+  })
+
+  it('le job qui pousse n’exécute que la garde et le commit : rien du dépôt ne voit son jeton', () => {
+    const etapesRun = [...job.matchAll(/- name: ([^\n]+)\n {8}run:/g)].map((m) => m[1])
+    expect(etapesRun).toEqual([NOM, 'Committer les références'])
+    expect(job).not.toMatch(/\b(npm|npx|node|tsx)\b/)
+  })
+
   it('un .png qui n’est pas une image, un autre fichier ou un dossier sont refusés', () => {
     expect(essayer((dossier) => { writeFileSync(join(dossier, 'faux.png'), 'pas une image'); })).toBe(false)
     expect(essayer((dossier) => { writeFileSync(join(dossier, 'note.txt'), PNG); })).toBe(false)

@@ -79,6 +79,10 @@ jobs:
       - name: Refuser ce qui n’est pas une image ordinaire
         run: |
           dossier='tests/e2e/visuel.spec.ts-snapshots'
+          if [ -L "$dossier" ] || [ ! -d "$dossier" ]; then
+            echo "Refusé : $dossier n'est pas un dossier ordinaire"
+            exit 1
+          fi
           autres=$(find "$dossier" -mindepth 1 \( ! -type f -o ! -name '*.png' \) -print)
           if [ -n "$autres" ]; then
             echo "Refusé, pas une image ordinaire : $autres"
