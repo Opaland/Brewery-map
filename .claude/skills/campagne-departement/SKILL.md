@@ -97,7 +97,10 @@ Puis :
   `docs/LINKEDIN.md`, `docs/MARKETING.md` ;
 - mettre à jour « Quoi de neuf » (`src/core/nouveautes.ts` : empreinte,
   phrase, une entrée datée), en français et en anglais (`src/textes/en.ts`) ;
-- ajouter l'entrée de `docs/SPRINTS.md` et le verdict de la story.
+- ajouter l'entrée de `docs/SPRINTS.md` et le verdict de la story, puis
+  mettre à jour « (S1 → Sn) » dans `docs/ETAT.md` ; le nombre de
+  « brasseries ajoutées » de « Quoi de neuf » compte les fiches absentes du
+  fichier du 15/10 (S358).
 
 `npx vitest run` doit être vert avant le commit. Le crochet lance la porte.
 

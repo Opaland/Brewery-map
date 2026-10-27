@@ -32,7 +32,12 @@ raison, pas pour votre code.
 
    `npx tsc --noEmit` ne vérifie rien ici (références de projet) : c'est
    `tsc -b`. La garde de `data/` (`npx tsx outils/garde-donnees.ts`) relit
-   l'historique : il faut un clone complet, pas `--depth 1`. La porte
+   l'historique : il faut un clone complet, pas `--depth 1` ; le test
+   des chiffres écrits (`tests/unit/chiffres-ecrits.test.ts`) aussi. Ce test
+   tient les nombres de la doc : fiches et départements du README, de
+   `docs/ETAT.md` et de `docs/MARKETING.md`, le dernier sprint cité par
+   `docs/ETAT.md` (« S1 → Sn », contre `docs/SPRINTS.md`), et la phrase de
+   « Quoi de neuf » ; son message dit quoi écrire et où. La porte
    complète prend quelques minutes (`docs/PORTE.md`) ; `npm run porte` la
    lance d'un coup, sous Linux, macOS et Windows.
 2. Un problème de code se décrit d'abord dans une issue (constat, scénario

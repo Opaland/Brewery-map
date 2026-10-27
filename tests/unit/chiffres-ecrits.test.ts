@@ -54,16 +54,21 @@ describe('les chiffres écrits disent les données', () => {
 
   // S358 (#210) : MARKETING disait « 24 départements » pour 39.
   it('docs/MARKETING.md : les départements vérifiés', () => {
-    for (const [n] of captures(lire('docs/MARKETING.md'), /(\d+) départements vérifiés/)) expect(Number(n)).toBe(DEPARTEMENTS.length)
+    for (const [n] of captures(lire('docs/MARKETING.md'), /(\d+) départements vérifiés/))
+      expect(Number(n), `docs/MARKETING.md : écrire « ${String(DEPARTEMENTS.length)} départements vérifiés »`).toBe(DEPARTEMENTS.length)
   })
 
   // S358 (#210) : ETAT gardait « S1 → S328 » des jours après.
   it('docs/ETAT.md : le dernier sprint cité est le dernier de SPRINTS.md', () => {
+    // Les numéros du titre avant son tiret (« S352 à S354 — … ») : un sprint
+    // cité plus loin (« S31 — Restes de S27 ») ne compte pas (revue adverse S358).
     const titres = readFileSync('docs/SPRINTS.md', 'utf8')
       .split('\n')
       .filter((l) => l.startsWith('## S'))
+      .map((l) => l.split(' — ')[0] ?? '')
     const dernier = Math.max(...titres.flatMap((l) => [...l.matchAll(/S(\d+)/g)].map((m) => Number(m[1]))))
-    for (const [n] of captures(lire('docs/ETAT.md'), /\(S1 → S(\d+)\)/)) expect(Number(n)).toBe(dernier)
+    for (const [n] of captures(lire('docs/ETAT.md'), /\(S1 → S(\d+)\)/))
+      expect(Number(n), `docs/ETAT.md : écrire « (S1 → S${String(dernier)}) », le dernier sprint de docs/SPRINTS.md`).toBe(dernier)
   })
 
   it('docs/ETAT.md : fiches, points OSM, et le bilan de complétude', () => {
@@ -88,12 +93,18 @@ describe('les chiffres écrits disent les données', () => {
   // S358 (#210) : les brasseries ajoutées sont les fiches absentes du fichier
   // du 15/10, relu dans git comme le fait la garde de `data/`.
   it('« Quoi de neuf » : les brasseries ajoutées depuis le fichier du 15/10', () => {
-    const base = JSON.parse(
-      execFileSync('git', ['show', `${BASE_DE_DONNEES.commit}:data/breweries.json`], { encoding: 'utf8' }),
-    ) as Brasserie[]
+    let texteDeBase: string
+    try {
+      texteDeBase = execFileSync('git', ['show', `${BASE_DE_DONNEES.commit}:data/breweries.json`], { encoding: 'utf8' })
+    } catch (e) {
+      // Un clone `--depth 1` ou une archive n'a pas le commit du 15/10 (revue adverse S358).
+      throw new Error(`le fichier du 15/10 est introuvable dans git : il faut un clone complet, pas --depth 1`, { cause: e })
+    }
+    const base = JSON.parse(texteDeBase) as Brasserie[]
     const nomsDeBase = new Set(base.map((b) => b.n))
     const [[n] = []] = captures(DONNEES.phrase, /(\d+) brasseries ajoutées/)
-    expect(Number(n)).toBe(FICHES.filter((b) => !nomsDeBase.has(b.n)).length)
+    const ajoutees = FICHES.filter((b) => !nomsDeBase.has(b.n)).length
+    expect(Number(n), `src/core/nouveautes.ts, DONNEES.phrase : écrire « ${String(ajoutees)} brasseries ajoutées » (et sa traduction)`).toBe(ajoutees)
   })
 
   it('« Quoi de neuf » : les fiches placées au centre de leur commune', () => {
