@@ -94,7 +94,8 @@ npx playwright test
 Sans téléchargement de navigateur (conteneur de développement), poser
 `PW_CHROMIUM_PATH` vers un Chromium déjà installé ; ailleurs, inutile :
 `npx playwright install chromium` suffit. Pour proposer une
-correction, ou signaler une erreur de fiche : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+correction, signaler une erreur de fiche, proposer une brasserie manquante
+ou décrire un problème de code : [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 `npm run porte` lance toute la porte, dans l'ordre, sous Linux, macOS et
 Windows ; le crochet avant commit de Claude Code lance la même.

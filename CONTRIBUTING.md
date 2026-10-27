@@ -23,13 +23,12 @@ Dans l'application, en bas de page : « Une brasserie manque ? » puis
 « La signaler ». Une issue s'ouvre, préremplie ; remplissez son nom, sa
 commune, ce qu'on peut y faire (acheter, boire sur place, quels jours) et
 **une source** qui le montre : le site de la brasserie ou une page
-officielle. Un annuaire seul, un article seul ou un réseau social seul ne
-suffisent pas (méthode du 19/10, `docs/DECISIONS.md`) ; un office de
-tourisme vaut une confiance moyenne au plus. Comme pour une erreur, il faut
+officielle. Un annuaire seul ne suffit pas (méthode du 19/10,
+`docs/DECISIONS.md`) ; un office de tourisme vaut une confiance moyenne au
+plus (décision #37). Comme pour une erreur, il faut
 un compte GitHub, l'issue est publique, et le mainteneur décide.
 
 ## Une correction de code
-
 
 1. Node 22 (`.nvmrc`), puis :
 
@@ -83,8 +82,8 @@ dans le conteneur cloud.
 ### Le gabarit d'une issue de code
 
 À copier dans une issue neuve (le dépôt n'a pas de gabarits GitHub : ils
-détourneraient les signalements préremplis de l'application,
-`docs/stories/S361.md`) :
+pourraient détourner les signalements préremplis de l'application, ce qui
+n'a pas pu être vérifié : `docs/stories/S361.md`) :
 
 ```markdown
 ## Constat

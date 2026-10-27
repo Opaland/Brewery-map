@@ -16,9 +16,10 @@ describe('contribuer (S361)', () => {
   })
 
   it('pas de dossier de gabarits d’issue : les liens préremplis de l’application doivent ouvrir l’issue directement', () => {
-    // Story S361 : avec des gabarits, GitHub peut passer les paramètres
-    // d'URL au sélecteur de gabarits ; « Signaler une erreur » et « La
-    // signaler » ajouteraient un geste. Le gabarit vit dans CONTRIBUTING.md.
+    // Story S361, par prudence (non vérifiée sans compte) : avec des
+    // gabarits, les paramètres d'URL pourraient passer par le sélecteur, et
+    // « Signaler une erreur » ou « La signaler » demanderaient un geste de
+    // plus. Le gabarit vit dans CONTRIBUTING.md.
     for (const d of ['.github/ISSUE_TEMPLATE', 'ISSUE_TEMPLATE', 'docs/ISSUE_TEMPLATE']) {
       expect(existsSync(d), `${d} : voir docs/stories/S361.md avant d'ajouter des gabarits`).toBe(false)
     }
@@ -34,7 +35,7 @@ describe('contribuer (S361)', () => {
     // Ce que le lien prérempli demande, la section le demande aussi.
     const corps = new URL(lienAjout()).searchParams.get('body') ?? ''
     for (const [dansLien, dansSection] of [
-      ['Nom', 'nom'],
+      ['Nom', 'son nom'],
       ['Commune', 'commune'],
       ['Ce qu’on peut y faire', 'ce qu’on peut y faire'],
       ['Une source', 'une source'],
@@ -44,8 +45,10 @@ describe('contribuer (S361)', () => {
     }
   })
 
-  it('le README dit qu’il faut un clone complet', () => {
-    expect(readFileSync('README.md', 'utf8'), 'README.md : dire « clone complet, pas `--depth 1` »').toMatch(/clone complet, pas `--depth 1`/)
+  it('le README dit qu’il faut un clone complet, et renvoie à CONTRIBUTING.md pour une brasserie manquante', () => {
+    const readme = readFileSync('README.md', 'utf8')
+    expect(readme, 'README.md : dire « clone complet, pas `--depth 1` »').toMatch(/clone complet, pas `--depth 1`/)
+    expect(readme.replace(/\s+/g, ' '), 'README.md : renvoyer à CONTRIBUTING.md pour « une brasserie manquante »').toMatch(/brasserie manquante[^.]*CONTRIBUTING\.md/)
   })
 
   it('AGENTS.md nomme le modèle de story qui existe', () => {
