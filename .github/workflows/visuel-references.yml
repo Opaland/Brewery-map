@@ -72,6 +72,24 @@ jobs:
         with:
           name: references-visuelles
           path: tests/e2e/visuel.spec.ts-snapshots/
+      # S360 (#212) : l'artefact vient du code de la branche, et ce job tient
+      # un jeton d'écriture. Avant le `git add`, tout ce qui n'est pas un
+      # fichier ordinaire en .png commençant par la signature PNG arrête le
+      # job. Le script est exécuté tel quel par tests/unit/workflows.test.ts.
+      - name: Refuser ce qui n’est pas une image ordinaire
+        run: |
+          dossier='tests/e2e/visuel.spec.ts-snapshots'
+          autres=$(find "$dossier" -mindepth 1 \( ! -type f -o ! -name '*.png' \) -print)
+          if [ -n "$autres" ]; then
+            echo "Refusé, pas une image ordinaire : $autres"
+            exit 1
+          fi
+          for f in "$dossier"/*.png; do
+            if [ "$(head -c 8 "$f" | od -An -tx1 | tr -d ' \n')" != '89504e470d0a1a0a' ]; then
+              echo "Refusé, pas un PNG : $f"
+              exit 1
+            fi
+          done
       - name: Committer les références
         run: |
           git config user.name 'github-actions[bot]'

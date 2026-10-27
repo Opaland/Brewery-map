@@ -1,4 +1,7 @@
-import { readdirSync, readFileSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
+import { mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'node:fs'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 
 /**
@@ -79,6 +82,66 @@ describe('les workflows', () => {
     )
     expect(jobs.length).toBeGreaterThan(6)
     expect(jobs.filter(({ j }) => !/\n {4}timeout-minutes:/.test(j)).map(({ nom }) => nom)).toEqual([])
+  })
+})
+
+describe('visuel-references.yml : le job qui pousse ne committe que des images ordinaires (S360, #212)', () => {
+  const texte = readFileSync('.github/workflows/visuel-references.yml', 'utf8')
+  const job = texte.slice(texte.indexOf('\n  commit:'))
+  const NOM = 'Refuser ce qui n’est pas une image ordinaire'
+  // Le script de l'étape, tel que la CI l'exécute (bloc `run: |`, indentation retirée).
+  const script = (() => {
+    const debut = job.indexOf(`- name: ${NOM}`)
+    if (debut < 0) return ''
+    const lignes = job.slice(debut).split('\n')
+    const run = lignes.findIndex((l) => l.trim() === 'run: |')
+    const corps: string[] = []
+    for (const l of lignes.slice(run + 1)) {
+      if (l.trim() !== '' && !l.startsWith('          ')) break
+      corps.push(l.slice(10))
+    }
+    return corps.join('\n')
+  })()
+  const PNG = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0, 0, 0, 0])
+
+  const essayer = (poser: (dossier: string, racine: string) => void): boolean => {
+    const racine = mkdtempSync(join(tmpdir(), 's360-'))
+    const dossier = join(racine, 'tests/e2e/visuel.spec.ts-snapshots')
+    mkdirSync(dossier, { recursive: true })
+    writeFileSync(join(dossier, 'ok-mobile.png'), PNG)
+    poser(dossier, racine)
+    try {
+      execFileSync('bash', ['-e', '-c', script], { cwd: racine, stdio: 'pipe' })
+      return true
+    } catch {
+      return false
+    } finally {
+      rmSync(racine, { recursive: true, force: true })
+    }
+  }
+
+  it('l’étape existe et vient avant le git add', () => {
+    expect(script, `étape « ${NOM} » introuvable dans le job commit`).not.toBe('')
+    expect(job.indexOf(`- name: ${NOM}`)).toBeLessThan(job.indexOf("git add 'tests/e2e"))
+  })
+
+  it('des PNG ordinaires passent', () => {
+    expect(essayer(() => undefined)).toBe(true)
+  })
+
+  it('un lien symbolique est refusé', () => {
+    expect(
+      essayer((dossier, racine) => {
+        writeFileSync(join(racine, 'secret'), PNG)
+        symlinkSync(join(racine, 'secret'), join(dossier, 'lien.png'))
+      }),
+    ).toBe(false)
+  })
+
+  it('un .png qui n’est pas une image, un autre fichier ou un dossier sont refusés', () => {
+    expect(essayer((dossier) => { writeFileSync(join(dossier, 'faux.png'), 'pas une image'); })).toBe(false)
+    expect(essayer((dossier) => { writeFileSync(join(dossier, 'note.txt'), PNG); })).toBe(false)
+    expect(essayer((dossier) => { mkdirSync(join(dossier, 'sous-dossier')); })).toBe(false)
   })
 })
 
