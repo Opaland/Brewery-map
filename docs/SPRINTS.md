@@ -3003,3 +3003,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S361 — Contribuer : un problème de code, une brasserie manquante, un clone complet *(27/10, issue #213)*
 
 `docs/stories/S361.md`, écrite avant le code. `CONTRIBUTING.md` a un gabarit d'issue de code à copier (Constat, Scénario reproductible, Impact attendu) et une section « Une brasserie manquante », alignée sur le lien prérempli `lienAjout`. Le README dit qu'il faut un clone complet et renvoie à `CONTRIBUTING.md` pour ces deux cas. Pas de dossier `.github/ISSUE_TEMPLATE`, par prudence dite : il pourrait détourner les signalements préremplis de l'application, ce qui n'a pas pu être vérifié sans compte. `tests/unit/contribuer.test.ts`, vu rouge avant les textes.
+
+## S362 — Les mots de Cédric, cités tels qu'ils sont écrits *(27/10, issue #215)*
+
+`docs/stories/S362.md`, écrite avant le code. `PAROLE_REGLE_21_10`, la phrase que la campagne écrit dans chaque accord, passe dans `src/core/campagne.ts` et cite `docs/DECISIONS.md` caractère pour caractère (« l'info », apostrophe droite). Le tableau de la règle du 21/10 ne laisse plus à Cédric que le retrait et la brasserie d'un annuaire seul ; une phrase dit l'extension du même jour. `tests/unit/campagne.test.ts` tient les deux, vus rouges. Les 22 accords déjà écrits avec « l’info » restent tels quels (la garde les rejoue à l'octet près).

@@ -143,9 +143,13 @@ fiche » ; « pour les bières l'info est sur untapp ».
 
 | Ce qui entre dans la règle | Ce qui reste à Cédric |
 |---|---|
-| Créer une fiche, ou en modifier une, quand l'information est lue sur une source publique (site de la brasserie, Google, office de tourisme, registre des entreprises) et que `controler` la retrouve sur la page | Retirer une fiche, la marquer « fermée », la déménager dans une autre commune (gardés pour lui le 18/10 et le 20/10) |
-| Les bières : lues sur Untappd | Recopier un numéro de portable (sa consigne de reprise ; il a gardé ceux de Manev'Ale et de Chanaz le 20/10) |
-| | Une brasserie connue d'un annuaire seul : elle n'existe pas (méthode du 19/10) |
+| Créer une fiche, ou en modifier une, quand l'information est lue sur une source publique (site de la brasserie, Google, office de tourisme, registre des entreprises) et que `controler` la retrouve sur la page | Retirer une fiche (non demandé) |
+| Les bières : lues sur Untappd | Une brasserie connue d'un annuaire seul : elle n'existe pas (méthode du 19/10) |
+
+Depuis l'extension du même jour (ci-dessous), la règle couvre aussi le
+déménagement d'une fiche dans une autre commune, le statut « fermée » et le
+numéro de portable, lus sur une source publique. Jusque-là, ces trois cas
+restaient à Cédric (18/10, 20/10).
 
 **Comment elle s'applique.** Comme celle du 18/10 : chaque accord de
 `curation/accords/` qui l'applique cite ces mots dans sa `parole` ; la PR
