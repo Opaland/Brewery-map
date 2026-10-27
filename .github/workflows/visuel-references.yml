@@ -22,7 +22,7 @@ permissions:
 jobs:
   captures:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     if: >-
       github.ref != 'refs/heads/main' &&
       (github.event_name == 'workflow_dispatch' ||
@@ -41,7 +41,7 @@ jobs:
         run: npm run build
       - name: Installer Chromium
         run: npx playwright install --with-deps chromium
-        timeout-minutes: 10
+        timeout-minutes: 15  # S363 : mesuré le 27/10 (ci.yml)
       - name: Refaire les captures
         run: npx playwright test --update-snapshots=all --reporter=list
         timeout-minutes: 10
