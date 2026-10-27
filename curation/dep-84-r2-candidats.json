@@ -1,0 +1,189 @@
+[
+ {
+  "cle": "sirene:924939853",
+  "nom": "LA TOTOCHE DU LUBERON",
+  "communes": [
+   "CUCURON"
+  ],
+  "departement": "84",
+  "adresses": [
+   "1369 A CHEMIN DE LUNES 84160 CUCURON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924939853",
+  "sirets": [
+   "92493985300017"
+  ],
+  "osm": [],
+  "lat": 43.770634873,
+  "lon": 5.4725635383,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923410930",
+  "nom": "L'ODYSSEE DES BONS VIVANTS",
+  "communes": [
+   "PERNES-LES-FONTAINES"
+  ],
+  "departement": "84",
+  "adresses": [
+   "133 TRAVERSE DI GRAFIOUNIE 84210 PERNES-LES-FONTAINES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923410930",
+  "sirets": [
+   "92341093000013"
+  ],
+  "osm": [],
+  "lat": 44.000316733,
+  "lon": 5.0550622889,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834513327",
+  "nom": "BRASSERIE DU COMTAT",
+  "communes": [
+   "MALEMORT-DU-COMTAT"
+  ],
+  "departement": "84",
+  "adresses": [
+   "101 LE COURS 84570 MALEMORT-DU-COMTAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834513327",
+  "sirets": [
+   "83451332700017"
+  ],
+  "osm": [],
+  "lat": 44.019543801,
+  "lon": 5.1608086577,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838447480",
+  "nom": "BRASSERIE ARTISANALE OCRIA",
+  "communes": [
+   "SAINT-SATURNIN-LES-APT"
+  ],
+  "departement": "84",
+  "adresses": [
+   "ZA TRIQUEFAUT 84490 SAINT-SATURNIN-LES-APT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838447480",
+  "sirets": [
+   "83844748000024"
+  ],
+  "osm": [],
+  "lat": 43.914208352,
+  "lon": 5.3910037056,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809257082",
+  "nom": "AGENCE MOREAU SARL",
+  "communes": [
+   "ORANGE"
+  ],
+  "departement": "84",
+  "adresses": [
+   "37 MONTEE JULIA BARTET 84100 ORANGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809257082",
+  "sirets": [
+   "80925708200010"
+  ],
+  "osm": [],
+  "lat": 44.135591501,
+  "lon": 4.8096925304,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:982068223",
+  "nom": "BRASSERIE BICHEIRO",
+  "communes": [
+   "CAVAILLON"
+  ],
+  "departement": "84",
+  "adresses": [
+   "556 B CHE DONNE DU RATACAN 84300 CAVAILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "982068223",
+  "sirets": [
+   "98206822300014"
+  ],
+  "osm": [],
+  "lat": 43.848782916,
+  "lon": 5.0466857777,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:895230449",
+  "nom": "LA BRASSERIE INTERDITE",
+  "communes": [
+   "PERTUIS"
+  ],
+  "departement": "84",
+  "adresses": [
+   "167 RUE ROBERVAL 84120 PERTUIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "895230449",
+  "sirets": [
+   "89523044900038"
+  ],
+  "osm": [
+   "way/738572515"
+  ],
+  "lat": 43.675816452,
+  "lon": 5.5012091541,
+  "site": "https://biere-artisanale-luberon.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1275696941",
+  "nom": "Bière la Machotte",
+  "communes": [
+   "Sarrians"
+  ],
+  "departement": "84",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1275696941"
+  ],
+  "lat": 44.10754,
+  "lon": 4.96013,
+  "statut": "nouveau"
+ }
+]

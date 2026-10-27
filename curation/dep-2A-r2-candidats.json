@@ -1,0 +1,28 @@
+[
+ {
+  "cle": "sirene:814328092",
+  "nom": "MICRO BRASSERIE IMPERIALE",
+  "communes": [
+   "SALICE",
+   "AJACCIO"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "A CATASTELLA 20121 SALICE",
+   "5-7 5 RUE ZEVACO-MAIRE 20000 AJACCIO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814328092",
+  "sirets": [
+   "81432809200014",
+   "81432809200030"
+  ],
+  "osm": [],
+  "lat": 42.119969735,
+  "lon": 8.9008319434,
+  "statut": "nouveau"
+ }
+]

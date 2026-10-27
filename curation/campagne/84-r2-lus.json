@@ -1,0 +1,32 @@
+[
+ {
+  "cle": "sirene:924939853",
+  "n": "La Totoche du Luberon",
+  "c": "Cucuron",
+  "adresse": "1369 A chemin de Lunés, 84160 Cucuron",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "D’après l’office de tourisme : vente de bières, et l’on peut les boire sur place. Ses horaires se contredisent (tous les jours, ou le samedi sur réservation) : à confirmer avant de se déplacer.",
+  "src": "https://www.provenceguide.com/commerces-et-services/luberon/la-totoche-du-luberon/provence-7465275-1.html",
+  "extrait": "Vente de bières. Possibilité de déguster sur place.",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), page relue à la main. Source : l’office de tourisme seul, d’où la confiance moyenne ; le registre la classe en fabrication de bière. Mobile lu seulement chez l’office : non repris. Horaires non saisis : « tous les jours de 17h à 20h » et « Samedi. Uniquement sur réservation. » sur la même page."
+ },
+ {
+  "cle": "sirene:895230449",
+  "n": "La Brasserie Interdite",
+  "c": "Pertuis",
+  "adresse": "167 Rue Roberval, 84120 Pertuis",
+  "cat": 0,
+  "conf": "",
+  "note": "D’après l’office de tourisme, ses bières se trouvent sur les marchés et dans les bars à bières de la région. Ce qu’on peut faire à la brasserie n’est pas écrit : à confirmer.",
+  "src": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+  "extrait": "À découvrir sur les marchés ou dans les bars à bières de la région.",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), page relue à la main. Catégorie 0 : rien sur la vente ou l’accueil à la brasserie. L’extrait proposé par l’agent nommait les fondateurs : remplacé par la phrase suivante, sans nom. Mobile lu seulement chez l’office : non repris. Le site cité par l’office répond 503.",
+  "contact": {
+   "site": "https://labrasserieinterdite.com/fr",
+   "source": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html"
+  }
+ }
+]

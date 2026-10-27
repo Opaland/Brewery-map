@@ -1,0 +1,74 @@
+[
+ {
+  "cle": "sirene:828908673",
+  "n": "Brasserie du Castellet",
+  "c": "Signes",
+  "adresse": "La Queue de Sartan, 870 avenue de Madrid, 83870 Signes",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Son site annonce une boutique à la brasserie, ouverte en journée ; il ne parle ni de visite ni de dégustation.",
+  "src": "https://www.brasserieducastellet.com",
+  "extrait": "Notre boutique située à la Brasserie (83 870 Signes) est ouverte non-stop :",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), site relu à la main. Catégorie 2 : une boutique, pas de bar écrit. Seul téléphone publié par la brasserie : retenu. Horaires de la boutique par saison, lus sur le site.",
+  "contact": {
+   "tel": "04 94 02 38 29",
+   "site": "https://www.brasserieducastellet.com",
+   "source": "https://www.brasserieducastellet.com"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "periode": {
+     "du": "04-01",
+     "au": "09-30"
+    },
+    "source": "https://www.brasserieducastellet.com"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "periode": {
+     "du": "10-01",
+     "au": "03-31"
+    },
+    "source": "https://www.brasserieducastellet.com"
+   }
+  ]
+ }
+]

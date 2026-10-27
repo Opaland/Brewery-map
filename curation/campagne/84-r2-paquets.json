@@ -1,0 +1,115 @@
+[
+ [
+  {
+   "cle": "sirene:924939853",
+   "enseigne": "LA TOTOCHE DU LUBERON",
+   "dep": "84",
+   "communes": [
+    "CUCURON"
+   ],
+   "adresses": [
+    "1369 A CHEMIN DE LUNES 84160 CUCURON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923410930",
+   "enseigne": "L'ODYSSEE DES BONS VIVANTS",
+   "dep": "84",
+   "communes": [
+    "PERNES-LES-FONTAINES"
+   ],
+   "adresses": [
+    "133 TRAVERSE DI GRAFIOUNIE 84210 PERNES-LES-FONTAINES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:834513327",
+   "enseigne": "BRASSERIE DU COMTAT",
+   "dep": "84",
+   "communes": [
+    "MALEMORT-DU-COMTAT"
+   ],
+   "adresses": [
+    "101 LE COURS 84570 MALEMORT-DU-COMTAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838447480",
+   "enseigne": "BRASSERIE ARTISANALE OCRIA",
+   "dep": "84",
+   "communes": [
+    "SAINT-SATURNIN-LES-APT"
+   ],
+   "adresses": [
+    "ZA TRIQUEFAUT 84490 SAINT-SATURNIN-LES-APT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809257082",
+   "enseigne": "AGENCE MOREAU SARL",
+   "dep": "84",
+   "communes": [
+    "ORANGE"
+   ],
+   "adresses": [
+    "37 MONTEE JULIA BARTET 84100 ORANGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:982068223",
+   "enseigne": "BRASSERIE BICHEIRO",
+   "dep": "84",
+   "communes": [
+    "CAVAILLON"
+   ],
+   "adresses": [
+    "556 B CHE DONNE DU RATACAN 84300 CAVAILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895230449",
+   "enseigne": "LA BRASSERIE INTERDITE",
+   "dep": "84",
+   "communes": [
+    "PERTUIS"
+   ],
+   "adresses": [
+    "167 RUE ROBERVAL 84120 PERTUIS"
+   ],
+   "osm": [
+    "way/738572515"
+   ],
+   "site": "https://biere-artisanale-luberon.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1275696941",
+   "enseigne": "Bière la Machotte",
+   "dep": "84",
+   "communes": [
+    "Sarrians"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/1275696941"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

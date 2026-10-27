@@ -1,0 +1,12 @@
+{
+ "sirene:500259270": "relu le 27/10 : le site officiel (biere-leman.com) répond, mais derrière une page de vérification de l’âge que le contrôle ne sait pas passer (limite de l’outil, BACKLOG) ; à relancer quand il saura la lire",
+ "sirene:980774962": "relu le 27/10 : site introuvable, revendeurs et un guide seuls",
+ "sirene:842218315": "relu le 27/10 : fiches de l’office en 404 et 403, site en 404 ; annuaires et Instagram seuls",
+ "sirene:934574609": "relu le 27/10 : une page partenaire en 403 seule ; ni site, ni Untappd",
+ "node/6328825664": "relu le 27/10 : un restaurant, il ne brasse pas",
+ "way/157667497": "relu le 27/10 : un restaurant de piste, il ne brasse pas",
+ "way/246557753": "relu le 27/10 : un restaurant savoyard, il ne brasse pas",
+ "way/246557762": "relu le 27/10 : un bar-tabac, il ne brasse pas",
+ "way/66975401": "relu le 27/10 : aucun établissement de ce nom à Évian ; rien ne dit qu’il brasse",
+ "way/158604347": "relu le 27/10 : site en erreur 503, aucune autre source ; à relancer quand le site répond"
+}

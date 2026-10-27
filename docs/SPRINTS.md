@@ -3015,3 +3015,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S364 — Contribuer : une faille, une PR, qui décide, ce que coûte la porte *(27/10, issue #227)*
 
 `docs/stories/S364.md`, écrite avant le code. `SECURITY.md` dit que le signalement privé de GitHub n'est pas encore ouvert (lu le 27/10) et ce qu'il faut faire en attendant. Il est atteignable depuis le README et `CONTRIBUTING.md`. Ajouts : un gabarit de PR (`Closes #n`, story, test vu rouge, `data/`) ; « Cédric (@Opaland), le mainteneur, décide » dans le README ; `curation/` et `curation/accords/` dans `CONTRIBUTING.md`. `docs/PORTE.md` est remesurée dans le conteneur, 390 s, sous le budget de 450 s ; un test vérifie que sa date ne précède pas la dernière revue globale. **Décision de Cédric** : ouvrir le signalement privé des failles.
+
+## S365 et S366 — Les relances du Puy-de-Dôme, de la Haute-Savoie, de PACA et de la Corse *(27/10, issues #224 et #231)*
+
+`docs/stories/S365.md` et `S366.md`. `campagne.ts relancer` pour dix départements : 61 candidats « à relancer », 16 paquets lus par des agents avec un quota de recherches neuf. 8 fiches entrent par la règle de Cédric du 21/10, toutes en PACA (05 : 3, 06 : 1, 13 : 1, 83 : 1, 84 : 2) ; aucune dans le 63, le 74 ni en Corse. Toutes les sources rouvertes à la main ; relecture de la persona Cédric traitée avant d'appliquer. 557 fiches, OSM à 781. Encore « à relancer » : quatre brasseries dont un site derrière une vérification de l'âge (BACKLOG).

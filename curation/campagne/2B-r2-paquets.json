@@ -1,0 +1,118 @@
+[
+ [
+  {
+   "cle": "sirene:881678148",
+   "enseigne": "BENATI DISTRIBUTION",
+   "dep": "2B",
+   "communes": [
+    "BIGUGLIA",
+    "SAN-NICOLAO"
+   ],
+   "adresses": [
+    "N 22 ZI TRAGONE 20620 BIGUGLIA",
+    "MORIANI PLAGE 40 RUE JEAN TAFANI 20230 SAN-NICOLAO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891608424",
+   "enseigne": "A MALACELLA",
+   "dep": "2B",
+   "communes": [
+    "BASTIA"
+   ],
+   "adresses": [
+    "2 RUE FAVALELLI 20200 BASTIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:879211217",
+   "enseigne": "DOMAINE BRASSICOLE PALAZZU",
+   "dep": "2B",
+   "communes": [
+    "ROGLIANO"
+   ],
+   "adresses": [
+    "PALAZZU NICROSI VIGNALE 20247 ROGLIANO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE 3D (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "2B",
+   "communes": [
+    "BASTIA"
+   ],
+   "adresses": [
+    "9 RUE CESAR CAMPINCHI 20200 BASTIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984159368",
+   "enseigne": "BRASSERIA SIRI",
+   "dep": "2B",
+   "communes": [
+    "PINO"
+   ],
+   "adresses": [
+    "205 CORSU ANTONE PICCIONI 20228 PINO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:849394705",
+   "enseigne": "LA PETITE BRASSERIE DE CORSE",
+   "dep": "2B",
+   "communes": [
+    "ALERIA"
+   ],
+   "adresses": [
+    "LIEUDIT POMPUGLIANI 20270 ALERIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/186036094",
+   "enseigne": "Brasseur A Tribbierra",
+   "dep": "2B",
+   "communes": [
+    "Ghisonaccia"
+   ],
+   "adresses": [
+    "Casamozza"
+   ],
+   "osm": [
+    "way/186036094"
+   ],
+   "site": "http://corsica.fiumorbu.free.fr/atribbiera1.htm",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/592416988",
+   "enseigne": "Ribella",
+   "dep": "2B",
+   "communes": [
+    "Patrimonio"
+   ],
+   "adresses": [
+    "Route de Saint-Florent"
+   ],
+   "osm": [
+    "way/592416988"
+   ],
+   "site": "https://biereribella.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

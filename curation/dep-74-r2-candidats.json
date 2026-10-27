@@ -1,0 +1,234 @@
+[
+ {
+  "cle": "sirene:980774962",
+  "nom": "BRASSERIE DES VOIRONS",
+  "communes": [
+   "LUCINGES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "5 PLACE DE LA VIGNULE 74380 LUCINGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980774962",
+  "sirets": [
+   "98077496200016"
+  ],
+  "osm": [],
+  "lat": 46.191305745,
+  "lon": 6.317154304,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842218315",
+  "nom": "BRASSERIE LA RINGALE",
+  "communes": [
+   "CERVENS"
+  ],
+  "departement": "74",
+  "adresses": [
+   "120 IMPASSE DES ARTISANS 74550 CERVENS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842218315",
+  "sirets": [
+   "84221831500013"
+  ],
+  "osm": [
+   "way/823063300"
+  ],
+  "lat": 46.2878562591449,
+  "lon": 6.44608908300126,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:934574609",
+  "nom": "BRASSERIE ALPS",
+  "communes": [
+   "ANNECY"
+  ],
+  "departement": "74",
+  "adresses": [
+   "ZAC DES ROMAINS - CRAN-GEVRIER 14 ROUTE DE LA SALLE 74960 ANNECY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "934574609",
+  "sirets": [
+   "93457460900020"
+  ],
+  "osm": [],
+  "lat": 45.8996521708389,
+  "lon": 6.08639523127655,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:500259270",
+  "nom": "BRASSERIE ARTISANALE DU LEMAN",
+  "communes": [
+   "ALLINGES"
+  ],
+  "departement": "74",
+  "adresses": [
+   "LIEUDIT LEYRIAT 670 ROUTE DES BLAVES 74200 ALLINGES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "500259270",
+  "sirets": [
+   "50025927000030"
+  ],
+  "osm": [
+   "node/8923062535"
+  ],
+  "lat": 46.3347833716142,
+  "lon": 6.4885314021349,
+  "site": "https://www.biere-leman.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6328825664",
+  "nom": "Le Bistrot des Quais",
+  "communes": [
+   "Sallanches"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6328825664"
+  ],
+  "lat": 45.93628,
+  "lon": 6.62902,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/157667497",
+  "nom": "La p'tite ravine",
+  "communes": [
+   "Megève"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/157667497"
+  ],
+  "lat": 45.87566,
+  "lon": 6.60238,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/158604347",
+  "nom": "Brasserie BE HERE Factory",
+  "communes": [
+   "Ville-la-Grand"
+  ],
+  "departement": "74",
+  "adresses": [
+   "20 Rue du Bois de la Rose, 74100 Ville-la-Grand"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/158604347"
+  ],
+  "lat": 46.20525,
+  "lon": 6.27806,
+  "site": "https://www.be-here.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/246557753",
+  "nom": "Châlet d'Emilie",
+  "communes": [
+   "Combloux"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/246557753"
+  ],
+  "lat": 45.88884,
+  "lon": 6.62193,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/246557762",
+  "nom": "Le Postillon",
+  "communes": [
+   "Combloux"
+  ],
+  "departement": "74",
+  "adresses": [
+   "Combloux"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/246557762"
+  ],
+  "lat": 45.89537,
+  "lon": 6.64442,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/66975401",
+  "nom": "L'hexagone",
+  "communes": [
+   "Évian-les-Bains"
+  ],
+  "departement": "74",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/66975401"
+  ],
+  "lat": 46.40029,
+  "lon": 6.58663,
+  "statut": "nouveau"
+ }
+]

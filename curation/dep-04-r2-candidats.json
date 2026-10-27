@@ -1,0 +1,65 @@
+[
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE CEREVISIA",
+  "communes": [
+   "LES MEES"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LES POURCELLES 3956 CHEMIN DU THOR 04190 LES MEES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5183750945",
+  "nom": "Brasserie Cérévisia",
+  "communes": [
+   "Oraison"
+  ],
+  "departement": "04",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5183750945"
+  ],
+  "lat": 43.90994,
+  "lon": 5.9053,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE CEREVISIA"
+ },
+ {
+  "cle": "node/5255453845",
+  "nom": "Brasserie La Manosquine",
+  "communes": [
+   "Manosque"
+  ],
+  "departement": "04",
+  "adresses": [
+   "23 Rue d'Aubette, 04100 Manosque"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5255453845"
+  ],
+  "lat": 43.83353,
+  "lon": 5.78332,
+  "statut": "nouveau"
+ }
+]

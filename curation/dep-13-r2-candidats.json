@@ -1,0 +1,163 @@
+[
+ {
+  "cle": "sirene:812035277",
+  "nom": "MINOT BRASSERIE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "268 AVENUE DE LA CAPELETTE 13010 MARSEILLE",
+   "QUARTIER LES ACCATES ZI DELTA INDUSTR 57 MONTEE DE SAINT MENET 13011 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812035277",
+  "sirets": [
+   "81203527700035",
+   "81203527700050"
+  ],
+  "osm": [],
+  "lat": 43.279092055,
+  "lon": 5.4133594045,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812944361",
+  "nom": "BRASSERIE ARTISANALE ARLESIENNE",
+  "communes": [
+   "SAINT MARTIN DE CRAU"
+  ],
+  "departement": "13",
+  "adresses": [
+   "MAS CASTELLANE VERGIERES 13310 SAINT MARTIN DE CRAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812944361",
+  "sirets": [
+   "81294436100011"
+  ],
+  "osm": [],
+  "lat": 43.575479347,
+  "lon": 4.8187670906,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839988813",
+  "nom": "SANS PRESSION",
+  "communes": [
+   "LA ROQUE-D'ANTHERON"
+  ],
+  "departement": "13",
+  "adresses": [
+   "26 RUE ALBERT CAMUS 13640 LA ROQUE-D'ANTHERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839988813",
+  "sirets": [
+   "83998881300011"
+  ],
+  "osm": [],
+  "lat": 43.713775505,
+  "lon": 5.3110806598,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:788996437",
+  "nom": "BRASSERIE DE SULAUZE",
+  "communes": [
+   "MIRAMAS"
+  ],
+  "departement": "13",
+  "adresses": [
+   "RN 569 SULAUZE 13140 MIRAMAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "788996437",
+  "sirets": [
+   "78899643700018"
+  ],
+  "osm": [],
+  "lat": 43.589461781,
+  "lon": 4.9962773182,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": "KATACLYSM",
+  "communes": [
+   "MARTIGUES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "18 RUE DE LA REPUBLIQUE 13500 MARTIGUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/2272594826"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7904653675",
+  "nom": "Les deux font la bière",
+  "communes": [
+   "Aubagne"
+  ],
+  "departement": "13",
+  "adresses": [
+   "6 Avenue des Caniers, 13400 Aubagne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7904653675"
+  ],
+  "lat": 43.2869,
+  "lon": 5.59345,
+  "site": "https://lesdeuxfontlabiere.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/88763655",
+  "nom": "Brasserie des Milles",
+  "communes": [
+   "Bouc-Bel-Air"
+  ],
+  "departement": "13",
+  "adresses": [
+   "735 Rue Lieutenant Parayre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/88763655"
+  ],
+  "lat": 43.49914,
+  "lon": 5.3635,
+  "site": "https://brasseriedesmilles.com/",
+  "statut": "nouveau"
+ }
+]

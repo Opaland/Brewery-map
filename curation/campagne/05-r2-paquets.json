@@ -1,0 +1,128 @@
+[
+ [
+  {
+   "cle": "sirene:419632781",
+   "enseigne": "BAR RESTAURANT ALPHAND",
+   "dep": "05",
+   "communes": [
+    "VALLOUISE-PELVOUX"
+   ],
+   "adresses": [
+    "VENELLE DU POILU 05290 VALLOUISE-PELVOUX",
+    "23 VENELLE DU POILU 05290 VALLOUISE-PELVOUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:845203264",
+   "enseigne": "MICRO-BRASSERIE LA CUCHE",
+   "dep": "05",
+   "communes": [
+    "SAINT-APOLLINAIRE",
+    "SAINT-ANDRE-D EMBRUN"
+   ],
+   "adresses": [
+    "RUE DE LA FONTAINE 05160 SAINT-APOLLINAIRE",
+    "SERRE BELLON 05200 SAINT-ANDRE-D EMBRUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907706402",
+   "enseigne": "BRASSEURS EN CLAREE",
+   "dep": "05",
+   "communes": [
+    "NEVACHE"
+   ],
+   "adresses": [
+    "RUE DE ROUBION 05100 NEVACHE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:992292185",
+   "enseigne": "BRASSERIE URBAINE GAPENCAISE",
+   "dep": "05",
+   "communes": [
+    "GAP"
+   ],
+   "adresses": [
+    "6 LA PLACETTE 05000 GAP"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE LA MOUSQUIF (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "05",
+   "communes": [
+    "ORPIERRE"
+   ],
+   "adresses": [
+    "LOTISSEMENT PARC DU PARADIS QUARTIER LE BACHAS 05700 ORPIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:899933279",
+   "enseigne": "FLORAISON SAUVAGE",
+   "dep": "05",
+   "communes": [
+    "LA ROCHE-DES-ARNAUDS"
+   ],
+   "adresses": [
+    "128 CHEMIN DE LA CROIX SAINT MARC 05400 LA ROCHE-DES-ARNAUDS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840182992",
+   "enseigne": "LA MOUSQUIF",
+   "dep": "05",
+   "communes": [
+    "ORPIERRE"
+   ],
+   "adresses": [
+    "PARC DU PARADIS 05700 ORPIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888726189",
+   "enseigne": "WALPINE",
+   "dep": "05",
+   "communes": [
+    "SAINT-JEAN-SAINT-NICOLAS"
+   ],
+   "adresses": [
+    "4 TRAVERSE DE L'ESTRIPA 05260 SAINT-JEAN-SAINT-NICOLAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2855634433",
+   "enseigne": "Alphand",
+   "dep": "05",
+   "communes": [
+    "Puy-Saint-Vincent"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/2855634433"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
