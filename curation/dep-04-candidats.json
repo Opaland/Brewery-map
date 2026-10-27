@@ -1,0 +1,457 @@
+[
+ {
+  "cle": "sirene:880986278",
+  "nom": "LES BRASSEURS DE LA VALLEE",
+  "communes": [
+   "SISTERON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "100 CHEMIN DE CHAPAGE 04200 SISTERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880986278",
+  "sirets": [
+   "88098627800013"
+  ],
+  "osm": [],
+  "lat": 44.168875182941,
+  "lon": 5.91434052598853,
+  "statut": "ambigu",
+  "fiche": "Brasserie de la Vallée du Giffre"
+ },
+ {
+  "cle": "sirene:893666651",
+  "nom": "LA SERPENTINE",
+  "communes": [
+   "CERESTE-EN-LUBERON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "561 RTE DES PRES 04280 CERESTE-EN-LUBERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893666651",
+  "sirets": [
+   "89366665100029"
+  ],
+  "osm": [],
+  "lat": 43.85919598,
+  "lon": 5.6025179555,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912701703",
+  "nom": "BRASSERIE BULLE",
+  "communes": [
+   "MONTLAUX"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LE PETIT JONCAS 04230 MONTLAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912701703",
+  "sirets": [
+   "91270170300015"
+  ],
+  "osm": [],
+  "lat": 44.049077035,
+  "lon": 5.8192432402,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:819062464",
+  "nom": "BRASSERIE CORDOEIL",
+  "communes": [
+   "THORAME-BASSE"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LE VILLAGE 04170 THORAME-BASSE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "819062464",
+  "sirets": [
+   "81906246400014"
+  ],
+  "osm": [
+   "way/196652351"
+  ],
+  "lat": 44.091830399,
+  "lon": 6.5009043336,
+  "site": "http://www.cordoeil.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978604387",
+  "nom": "BRASSERIE DE PRALOUP",
+  "communes": [
+   "UVERNET FOURS"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LE CHALET  1600 PRA LOUP 04400 UVERNET FOURS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978604387",
+  "sirets": [
+   "97860438700016"
+  ],
+  "osm": [],
+  "lat": 44.370524838,
+  "lon": 6.6035661423,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "ST MICHEL L OBSERVATOIRE"
+  ],
+  "departement": "04",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:923024855",
+  "nom": "BRASSEUR DU VERDON",
+  "communes": [
+   "ESPARRON DE VERDON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "JEREMIE ET NICOLAS MATHIEU 543 ALBIOSC 04800 ESPARRON DE VERDON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923024855",
+  "sirets": [
+   "92302485500010"
+  ],
+  "osm": [],
+  "lat": 43.741639665,
+  "lon": 6.0140331026,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983541764",
+  "nom": "LA ROMAINE",
+  "communes": [
+   "RIEZ"
+  ],
+  "departement": "04",
+  "adresses": [
+   "1910 ROUTE D'ALLEMAGNE 04500 RIEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983541764",
+  "sirets": [
+   "98354176400012"
+  ],
+  "osm": [],
+  "lat": 43.8135770312986,
+  "lon": 6.07962391956221,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840928378",
+  "nom": "BIERE DE LA DURANCE",
+  "communes": [
+   "SISTERON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "27 ALLEE DES FRENES 04200 SISTERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840928378",
+  "sirets": [
+   "84092837800024"
+  ],
+  "osm": [],
+  "lat": 44.233613606,
+  "lon": 5.9086258703,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE CEREVISIA",
+  "communes": [
+   "LES MEES"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LES POURCELLES 3956 CHEMIN DU THOR 04190 LES MEES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:928734912",
+  "nom": "LE RENARD D'ORGE",
+  "communes": [
+   "MALIJAI"
+  ],
+  "departement": "04",
+  "adresses": [
+   "BAT 12 LE PRIEURE 04350 MALIJAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928734912",
+  "sirets": [
+   "92873491200019"
+  ],
+  "osm": [],
+  "lat": 44.045982353,
+  "lon": 6.0459944976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951430065",
+  "nom": "BRASSERIE BEVEDIS",
+  "communes": [
+   "LE CHAFFAUT-SAINT-JURSON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "IMP DU FOUR 04510 LE CHAFFAUT-SAINT-JURSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951430065",
+  "sirets": [
+   "95143006500015"
+  ],
+  "osm": [],
+  "lat": 44.0386390246142,
+  "lon": 6.15030003070406,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822052114",
+  "nom": "BRASSERIE DE L'AUBREE",
+  "communes": [
+   "SELONNET"
+  ],
+  "departement": "04",
+  "adresses": [
+   "LD SAINT DOMITIEN 04140 SELONNET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "822052114",
+  "sirets": [
+   "82205211400029"
+  ],
+  "osm": [
+   "node/12787997815"
+  ],
+  "lat": 44.370711903,
+  "lon": 6.3108945862,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978032761",
+  "nom": "BRASSERIE DE LA VALLEE DE L UBAYE",
+  "communes": [
+   "LES THUILES"
+  ],
+  "departement": "04",
+  "adresses": [
+   "1 RUE DU MOULIN 04400 LES THUILES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978032761",
+  "sirets": [
+   "97803276100014"
+  ],
+  "osm": [],
+  "lat": 44.391371009,
+  "lon": 6.5768160418,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843641127",
+  "nom": "BMV SCIPION",
+  "communes": [
+   "MOUSTIERS-SAINTE-MARIE"
+  ],
+  "departement": "04",
+  "adresses": [
+   "QUA ST JEAN 04360 MOUSTIERS-SAINTE-MARIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843641127",
+  "sirets": [
+   "84364112700017"
+  ],
+  "osm": [],
+  "lat": 43.844983907,
+  "lon": 6.2152797315,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987488178",
+  "nom": "BRASSEUR DU VERDON",
+  "communes": [
+   "ESPARRON-DE-VERDON"
+  ],
+  "departement": "04",
+  "adresses": [
+   "ALBIOSC 6 IMPASSE DES BERGERIES 04800 ESPARRON-DE-VERDON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987488178",
+  "sirets": [
+   "98748817800011"
+  ],
+  "osm": [],
+  "lat": 43.741387037,
+  "lon": 6.0150230074,
+  "statut": "doublon",
+  "fiche": "BRASSEUR DU VERDON"
+ },
+ {
+  "cle": "node/5183750945",
+  "nom": "Brasserie Cérévisia",
+  "communes": [
+   "Oraison"
+  ],
+  "departement": "04",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5183750945"
+  ],
+  "lat": 43.90994,
+  "lon": 5.9053,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE CEREVISIA"
+ },
+ {
+  "cle": "node/5255453845",
+  "nom": "Brasserie La Manosquine",
+  "communes": [
+   "Manosque"
+  ],
+  "departement": "04",
+  "adresses": [
+   "23 Rue d'Aubette, 04100 Manosque"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5255453845"
+  ],
+  "lat": 43.83353,
+  "lon": 5.78332,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5720727821",
+  "nom": "La Brass Bastelle",
+  "communes": [
+   "Volx"
+  ],
+  "departement": "04",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5720727821"
+  ],
+  "lat": 43.87853,
+  "lon": 5.84616,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6269302527",
+  "nom": "La Sauvage",
+  "communes": [
+   "Saint-Paul-sur-Ubaye"
+  ],
+  "departement": "04",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6269302527"
+  ],
+  "lat": 44.51803,
+  "lon": 6.75312,
+  "site": "https://www.la-sauvage.fr/",
+  "statut": "nouveau"
+ }
+]

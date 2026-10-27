@@ -1,0 +1,323 @@
+[
+ [
+  {
+   "cle": "sirene:419632781",
+   "enseigne": "BAR RESTAURANT ALPHAND",
+   "dep": "05",
+   "communes": [
+    "VALLOUISE-PELVOUX"
+   ],
+   "adresses": [
+    "VENELLE DU POILU 05290 VALLOUISE-PELVOUX",
+    "23 VENELLE DU POILU 05290 VALLOUISE-PELVOUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:819488719",
+   "enseigne": "LE RELAIS DE CHATEAU-CLEMENT",
+   "dep": "05",
+   "communes": [
+    "CHORGES",
+    "MOLINES-EN-QUEYRAS"
+   ],
+   "adresses": [
+    "ZA LA GRANDE ILE 67 RUE DE LA SOURCE 05230 CHORGES",
+    "PIERRE-GROSSE 425 RUE DE CHATEAU CLEMENT 05350 MOLINES-EN-QUEYRAS"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:845203264",
+   "enseigne": "MICRO-BRASSERIE LA CUCHE",
+   "dep": "05",
+   "communes": [
+    "SAINT-APOLLINAIRE",
+    "SAINT-ANDRE-D EMBRUN"
+   ],
+   "adresses": [
+    "RUE DE LA FONTAINE 05160 SAINT-APOLLINAIRE",
+    "SERRE BELLON 05200 SAINT-ANDRE-D EMBRUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898143607",
+   "enseigne": "BREWPUB DES AIGUES FROIDES",
+   "dep": "05",
+   "communes": [
+    "LES VIGNEAUX",
+    "L'ARGENTIERE-LA-BESSEE"
+   ],
+   "adresses": [
+    "RIF CROS 05120 LES VIGNEAUX",
+    "5 AVENUE CHARLES DE GAULLE 05120 L'ARGENTIERE-LA-BESSEE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907706402",
+   "enseigne": "BRASSEURS EN CLAREE",
+   "dep": "05",
+   "communes": [
+    "NEVACHE"
+   ],
+   "adresses": [
+    "RUE DE ROUBION 05100 NEVACHE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "PIOLIT NANOBRASSERIE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "05",
+   "communes": [
+    "AVANCON"
+   ],
+   "adresses": [
+    "LIEU-DIT LES CATINONS 05230 AVANCON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:992292185",
+   "enseigne": "BRASSERIE URBAINE GAPENCAISE",
+   "dep": "05",
+   "communes": [
+    "GAP"
+   ],
+   "adresses": [
+    "6 LA PLACETTE 05000 GAP"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:538823469",
+   "enseigne": "BRASSERIE D'ANCELLE",
+   "dep": "05",
+   "communes": [
+    "ANCELLE"
+   ],
+   "adresses": [
+    "LE VILLAGE CHEMIN DE BELLEVUE 05260 ANCELLE"
+   ],
+   "osm": [
+    "way/69689919"
+   ],
+   "site": "http://www.brasserieancelle.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE LA MOUSQUIF (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "05",
+   "communes": [
+    "ORPIERRE"
+   ],
+   "adresses": [
+    "LOTISSEMENT PARC DU PARADIS QUARTIER LE BACHAS 05700 ORPIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899933279",
+   "enseigne": "FLORAISON SAUVAGE",
+   "dep": "05",
+   "communes": [
+    "LA ROCHE-DES-ARNAUDS"
+   ],
+   "adresses": [
+    "128 CHEMIN DE LA CROIX SAINT MARC 05400 LA ROCHE-DES-ARNAUDS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:3",
+   "enseigne": "BRASSERIE LA QUEYRASSINE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "05",
+   "communes": [
+    "ABRIES-RISTOLAS"
+   ],
+   "adresses": [
+    "L'ORATOIRE 05460 ABRIES-RISTOLAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840182992",
+   "enseigne": "LA MOUSQUIF",
+   "dep": "05",
+   "communes": [
+    "ORPIERRE"
+   ],
+   "adresses": [
+    "PARC DU PARADIS 05700 ORPIERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892784018",
+   "enseigne": "BRASSERIE DES GAILLARDS",
+   "dep": "05",
+   "communes": [
+    "AUBESSAGNE"
+   ],
+   "adresses": [
+    "LE VILLAGE LE VILLAGE - CHAUFFAYER 05500 AUBESSAGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893180307",
+   "enseigne": "EURL DEVOLUY BREWING CONCEPT",
+   "dep": "05",
+   "communes": [
+    "LE DEVOLUY"
+   ],
+   "adresses": [
+    "LE COURTIL 05250 LE DEVOLUY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888726189",
+   "enseigne": "WALPINE",
+   "dep": "05",
+   "communes": [
+    "SAINT-JEAN-SAINT-NICOLAS"
+   ],
+   "adresses": [
+    "4 TRAVERSE DE L'ESTRIPA 05260 SAINT-JEAN-SAINT-NICOLAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:907838304",
+   "enseigne": "BRASSERIE BUTCHER'S",
+   "dep": "05",
+   "communes": [
+    "GUILLESTRE"
+   ],
+   "adresses": [
+    "70 A RTE DU QUEYRAS 05600 GUILLESTRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10007300294",
+   "enseigne": "B3 Brasserie Bio de Briançon",
+   "dep": "05",
+   "communes": [
+    "Briançon"
+   ],
+   "adresses": [
+    "23 Avenue de la Libération, 05100 Briançon"
+   ],
+   "osm": [
+    "node/10007300294"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11459867968",
+   "enseigne": "Brasserie Interstellaire du Dévoluy",
+   "dep": "05",
+   "communes": [
+    "Le Dévoluy"
+   ],
+   "adresses": [
+    "Chemin de la Montée du Clot, 05250 Le Dévoluy"
+   ],
+   "osm": [
+    "node/11459867968"
+   ],
+   "site": "https://brasserie-interstellaire-du-devoluy.business.site",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2311670513",
+   "enseigne": "La Tourmente",
+   "dep": "05",
+   "communes": [
+    "Briançon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/2311670513"
+   ],
+   "site": "https://latourmente.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2855634433",
+   "enseigne": "Alphand",
+   "dep": "05",
+   "communes": [
+    "Puy-Saint-Vincent"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/2855634433"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7963807194",
+   "enseigne": "La Belle Epoque",
+   "dep": "05",
+   "communes": [
+    "Gap"
+   ],
+   "adresses": [
+    "Place aux Herbes, 05000 Gap"
+   ],
+   "osm": [
+    "node/7963807194"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1044149663",
+   "enseigne": "Brasserie Artisanale de Serre-Ponçon",
+   "dep": "05",
+   "communes": [
+    "Montgardin"
+   ],
+   "adresses": [
+    "67 Rue de la Source"
+   ],
+   "osm": [
+    "way/1044149663"
+   ],
+   "site": "https://basp05.com/",
+   "statut": "nouveau"
+  }
+ ]
+]
