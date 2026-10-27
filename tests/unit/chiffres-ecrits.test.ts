@@ -1,6 +1,8 @@
+import { execFileSync } from 'node:child_process'
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { bilanCompletude } from '../../src/core/completude'
+import { BASE_DE_DONNEES } from '../../src/core/garde-donnees'
 import { DONNEES } from '../../src/core/nouveautes'
 import type { Brasserie } from '../../src/core/schema'
 
@@ -50,6 +52,20 @@ describe('les chiffres écrits disent les données', () => {
     })
   }
 
+  // S358 (#210) : MARKETING disait « 24 départements » pour 39.
+  it('docs/MARKETING.md : les départements vérifiés', () => {
+    for (const [n] of captures(lire('docs/MARKETING.md'), /(\d+) départements vérifiés/)) expect(Number(n)).toBe(DEPARTEMENTS.length)
+  })
+
+  // S358 (#210) : ETAT gardait « S1 → S328 » des jours après.
+  it('docs/ETAT.md : le dernier sprint cité est le dernier de SPRINTS.md', () => {
+    const titres = readFileSync('docs/SPRINTS.md', 'utf8')
+      .split('\n')
+      .filter((l) => l.startsWith('## S'))
+    const dernier = Math.max(...titres.flatMap((l) => [...l.matchAll(/S(\d+)/g)].map((m) => Number(m[1]))))
+    for (const [n] of captures(lire('docs/ETAT.md'), /\(S1 → S(\d+)\)/)) expect(Number(n)).toBe(dernier)
+  })
+
   it('docs/ETAT.md : fiches, points OSM, et le bilan de complétude', () => {
     const t = lire('docs/ETAT.md')
     for (const [n] of captures(t, /(\d+) fiches dans `data\/`/)) expect(Number(n)).toBe(FICHES.length)
@@ -67,6 +83,17 @@ describe('les chiffres écrits disent les données', () => {
       bilan.manquent.telephone,
       bilan.manquent.horaires,
     ])
+  })
+
+  // S358 (#210) : les brasseries ajoutées sont les fiches absentes du fichier
+  // du 15/10, relu dans git comme le fait la garde de `data/`.
+  it('« Quoi de neuf » : les brasseries ajoutées depuis le fichier du 15/10', () => {
+    const base = JSON.parse(
+      execFileSync('git', ['show', `${BASE_DE_DONNEES.commit}:data/breweries.json`], { encoding: 'utf8' }),
+    ) as Brasserie[]
+    const nomsDeBase = new Set(base.map((b) => b.n))
+    const [[n] = []] = captures(DONNEES.phrase, /(\d+) brasseries ajoutées/)
+    expect(Number(n)).toBe(FICHES.filter((b) => !nomsDeBase.has(b.n)).length)
   })
 
   it('« Quoi de neuf » : les fiches placées au centre de leur commune', () => {
