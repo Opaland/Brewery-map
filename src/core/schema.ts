@@ -283,12 +283,18 @@ export const biereSchema = z
  * un schéma raffiné. Les règles croisées s'appliquent ensuite à la fiche
  * entière, par `brasserieSchema`.
  */
+/**
+ * Un département de métropole : deux chiffres, ou 2A / 2B. Écrit une fois
+ * (S359, CLAUDE.md §4) : la fiche, le lot départemental et la couche OSM le
+ * reprennent.
+ */
+export const MOTIF_DEPARTEMENT = '\\d{2}|2[AB]'
+
 export const brasserieObjetSchema = z
   .object({
     n: z.string().trim().min(1),
     c: z.string().trim().min(1),
-    /** Département : deux chiffres, ou 2A / 2B. */
-    d: z.string().regex(/^(\d{2}|2[AB])$/, 'département attendu (ex. « 69 »)'),
+    d: z.string().regex(new RegExp(`^(${MOTIF_DEPARTEMENT})$`), 'département attendu (ex. « 69 »)'),
     lat: z.number().min(-90).max(90),
     lon: z.number().min(-180).max(180),
     km: z.number().min(0),
