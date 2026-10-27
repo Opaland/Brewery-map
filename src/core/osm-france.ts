@@ -4,7 +4,7 @@ import { coeurDuNom } from './decouverte'
 import { normaliser } from './recherche'
 import { z } from './zod'
 import { BRIGNAIS, distanceKm } from './distance'
-import type { Brasserie } from './schema'
+import { MOTIF_DEPARTEMENT, type Brasserie } from './schema'
 import { departementDuCodePostal } from './code-postal'
 
 /**
@@ -171,7 +171,7 @@ const ligneOsmSchema = z.tuple([
   z.string().min(1),
   z.string().regex(/^(node|way|relation)\/\d+$/),
   z.string().min(1),
-  z.string().regex(/^(\d{2}|2A|2B|97\d)$/),
+  z.string().regex(new RegExp(`^(${MOTIF_DEPARTEMENT}|97\\d)$`)),
   z.number().min(-90).max(90),
   z.number().min(-180).max(180),
   z.string(),

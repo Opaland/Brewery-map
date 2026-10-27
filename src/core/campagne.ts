@@ -1,4 +1,5 @@
 import type { CandidatEnCause } from './candidats'
+import { MOTIF_DEPARTEMENT } from './schema'
 
 /**
  * S340 — la campagne départementale (E36) : ce que S328 a fait à la main pour
@@ -74,7 +75,7 @@ export interface LotDepartemental {
 }
 
 export function lotDepartemental(id: string): LotDepartemental | null {
-  const m = /^(\d{2}|2[AB])(-r[2-9])?$/.exec(id)
+  const m = new RegExp(`^(${MOTIF_DEPARTEMENT})(-r[2-9])?$`).exec(id)
   return m?.[1] === undefined ? null : { dep: m[1], id, lot: `dep-${id}` }
 }
 
