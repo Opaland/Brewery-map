@@ -157,3 +157,11 @@ export function compteRenduDuLot(e: {
   ]
   return `${lignes.join('\n')}\n${e.diff.replace(/\r\n/g, '\n')}`
 }
+
+/**
+ * Les mots de Cédric qui fondent l'application (`docs/DECISIONS.md`, « Règle
+ * de Cédric du 21/10 »), écrits dans chaque accord par `outils/campagne.ts`.
+ * Chaque citation entre « » se lit telle quelle dans DECISIONS.md (S362).
+ */
+export const PAROLE_REGLE_21_10 =
+  "Règle de Cédric du 21/10 (docs/DECISIONS.md) : « pour les modifs ou création de fiche » « si tu trouve les infos sur google par exemple ne me demande pas la persommission de la fiche » ; « pour les bières l'info est sur untapp ». Étendue le même jour aux déménagements, fermetures et portables : « tout oui, et ta règle couvre aussi ça »."

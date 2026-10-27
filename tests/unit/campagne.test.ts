@@ -1,5 +1,6 @@
+import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { candidatsARelancer, compteRenduDuLot, estFichierDeLotDepartemental, lotDepartemental, paquetsDeCandidats } from '../../src/core/campagne'
+import { candidatsARelancer, compteRenduDuLot, estFichierDeLotDepartemental, lotDepartemental, paquetsDeCandidats, PAROLE_REGLE_21_10 } from '../../src/core/campagne'
 import type { CandidatEnCause } from '../../src/core/candidats'
 
 /** S340 — l'outil de campagne départementale (E36). */
@@ -109,5 +110,36 @@ describe('lotDepartemental', () => {
   })
   it('un identifiant mal formé est refusé', () => {
     for (const x of ['21-x', '2A-r1', '21-r10', '1', '21r2', '../21', '21-r2/']) expect(lotDepartemental(x)).toBeNull()
+  })
+})
+
+describe('la règle de Cédric du 21/10, citée telle qu’elle est écrite (S362, #215)', () => {
+  const decisions = readFileSync('docs/DECISIONS.md', 'utf8')
+  const debut = decisions.indexOf('## Règle de Cédric du 21/10')
+  const section = decisions.slice(debut, decisions.indexOf('\n## ', debut + 1))
+  // Les citations de DECISIONS.md se coupent aux fins de ligne : on compare espaces réduits.
+  const aplatir = (t: string) => t.replace(/\s+/g, ' ')
+
+  it('chaque citation de PAROLE_REGLE_21_10 se lit telle quelle dans docs/DECISIONS.md', () => {
+    expect(debut).toBeGreaterThan(-1)
+    const citations = [...PAROLE_REGLE_21_10.matchAll(/« ([^»]+) »/g)].map((m) => m[1])
+    expect(citations.length).toBeGreaterThan(3)
+    expect(
+      citations.filter((c) => !aplatir(section).includes(`« ${c} »`)),
+      'src/core/campagne.ts : PAROLE_REGLE_21_10 doit citer docs/DECISIONS.md caractère pour caractère (apostrophes comprises)',
+    ).toEqual([])
+  })
+
+  it('le tableau ne laisse à Cédric que le retrait et la brasserie d’un annuaire seul', () => {
+    const resteACedric = section
+      .split('\n')
+      .filter((l) => l.startsWith('| ') && !l.startsWith('| Ce qui') && !l.startsWith('|---'))
+      .map((l) => l.split('|')[2]?.trim() ?? '')
+      .filter((c) => c !== '')
+    expect(resteACedric.join(' '), 'DECISIONS.md : le retrait d’une fiche reste à Cédric').toMatch(/Retirer une fiche/)
+    expect(resteACedric.join(' '), 'DECISIONS.md : la brasserie d’un annuaire seul reste à Cédric').toMatch(/annuaire seul/)
+    for (const cellule of resteACedric) {
+      expect(cellule, 'DECISIONS.md : l’extension du 21/10 a fait entrer déménagements, fermetures et portables dans la règle').not.toMatch(/portable|fermée|déménag/i)
+    }
   })
 })
