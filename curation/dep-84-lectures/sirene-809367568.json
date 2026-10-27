@@ -1,0 +1,87 @@
+{
+ "candidat": "sirene:809367568",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale du Mont Ventoux",
+   "c": "Carpentras",
+   "d": "84",
+   "lat": 44.05647,
+   "lon": 5.05967,
+   "km": 181.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Boutique à Carpentras, décrite comme espace de dégustation et de vente ; la fabrique est à Caromb, visites et dégustations à la fabrique sur rendez-vous seulement. La page ne dit pas expressément qu'on y boit sur place (confiance moyenne).",
+   "addr": "558 avenue du Mont Ventoux, 84200 Carpentras",
+   "src": "https://www.brasserie-ventoux.com/nos-boutiques",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 90 63 34 35",
+    "site": "https://www.brasserie-ventoux.com",
+    "source": "https://www.brasserie-ventoux.com/nos-boutiques",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-ventoux.com/nos-boutiques",
+     "lun": [
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "remarque": "Boutique de Carpentras ; visites et dégustations à la fabrique de Caromb sur rendez-vous seulement.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.brasserie-ventoux.com/nos-boutiques",
+   "https://data.geopf.fr/geocodage/search?q=558+avenue+du+Mont+Ventoux%2C+84200+Carpentras&limit=5"
+  ],
+  "extrait": "La boutique c'est à la fois un espace de dégustation et de vente pour échanger, partager et refaire le monde",
+  "choix": "Page lue en entier (rendu texte, bandeau cookies compris). Extrait recopié tel que rendu par l'outil de lecture ; la phrase se prolonge par « en toute convivialité… ». Le site de la brasserie écrit le numéro avec des lettres O sur la page d'accueil ; retenu : « Tél. 04 90 63 34 35 » de la page boutiques. Adresse retenue : la boutique de Carpentras, la fabrique de Caromb étant sur rendez-vous. Horaires de la boutique : lundi 14h30-18h30, mardi/jeudi/vendredi/samedi 10h-12h et 14h30-18h30, mercredi et dimanche fermé. Aucun Untappd trouvé (recherche + site : seulement Facebook et Instagram)."
+ }
+}

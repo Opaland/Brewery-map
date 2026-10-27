@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:798950952",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale du Luberon",
+   "c": "Pertuis",
+   "d": "84",
+   "lat": 43.67601,
+   "lon": 5.50283,
+   "km": 230,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce un magasin ouvert le jeudi et le vendredi de 14 h à 17 h (hors jours fériés), fermé les autres jours, où l'on peut s'approvisionner directement. La page parle aussi d'un « taproom » sans rien dire de la consommation sur place : on ne retient que l'achat.",
+   "addr": "72 rue Philippe de Girard, 84120 Pertuis",
+   "src": "https://brasserie-luberon.com/nous-rencontrer",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-luberon.com",
+    "source": "https://brasserie-luberon.com/nous-rencontrer",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie-luberon.com/nous-rencontrer",
+     "jeu": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Hors jours fériés.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasserie-luberon.com/nous-rencontrer",
+   "https://data.geopf.fr/geocodage/search?q=72+rue+Philippe+de+Girard%2C+84120+Pertuis&limit=5"
+  ],
+  "extrait": "Le magasin de la brasserie est ouvert les jeudi et vendredi, de 14h à 17h (hors jours fériés).",
+  "choix": "Nom d'usage du site ; même entreprise que la ligne du registre, au même numéro de rue. Aucun téléphone publié par la brasserie. Horaires du magasin lus sur le site ; ceux de l'office, différents, écartés. Le lien Untappd n'est pas sur la page : non repris."
+ }
+}

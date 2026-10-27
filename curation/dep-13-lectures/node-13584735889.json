@@ -1,0 +1,33 @@
+{
+ "candidat": "node/13584735889",
+ "ajout": {
+  "fiche": {
+   "n": "Brass.Art",
+   "c": "Velaux",
+   "d": "13",
+   "lat": 43.51488,
+   "lon": 5.23301,
+   "km": 243.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie parle d'un brew pub (« en pression et en fût ») et donne « Ouvert : Jeudi et Vendredi de 17h à 22h », sans dire ce qu'on y fait : vente et consommation sur place non écrites.",
+   "addr": "5 rue André Marie Ampère, 13880 Velaux",
+   "src": "https://brass-art.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 07 11 68 64",
+    "site": "https://brass-art.fr/",
+    "source": "https://brass-art.fr/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brass-art.fr/",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+Andr%C3%A9+Marie+Amp%C3%A8re%2C+13880+Velaux&limit=5"
+  ],
+  "extrait": "Ouvert : Jeudi et Vendredi de 17h à 22h.",
+  "choix": "Catégorie 0 : on ne déduit pas. Horaires laissés dans la note. Seule ligne publiée, un mobile (règle du 21/10). Pas d'Untappd."
+ }
+}

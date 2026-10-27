@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:7",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie de la Crau",
+   "c": "Istres",
+   "d": "13",
+   "lat": 43.53214,
+   "lon": 4.95785,
+   "km": 238.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, adresse et téléphone publiés ; fiche de tourisme : créée en mars 2020, à Entressen). Rien de lu sur la vente ni l'accueil sur place : les pages Contact et « Où trouver nos produits » n'en parlent pas.",
+   "addr": "Mas Rey, chemin du Mas de Chauvet, 13118 Istres",
+   "src": "https://microbrasseriedelacrau.com/index.php/contact/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 78 88 52 09",
+    "site": "https://microbrasseriedelacrau.com/",
+    "source": "https://microbrasseriedelacrau.com/index.php/contact/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://microbrasseriedelacrau.com/index.php/contact/",
+   "https://data.geopf.fr/geocodage/search?q=Istres&type=municipality&limit=5"
+  ],
+  "extrait": "Chemin du mas de Chauvet",
+  "choix": "Seule ligne publiée par la brasserie : un portable, 06 78 88 52 09, repris. Aucun horaire (la fiche de tourisme dit seulement « tous les jours », sans heures). Pas de lien Untappd trouvé. Entressen est un quartier d'Istres (code postal 13118, commune du registre)."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:813988235",
+ "ajout": {
+  "fiche": {
+   "n": "B06",
+   "c": "Antibes",
+   "d": "06",
+   "lat": 43.59582,
+   "lon": 7.11334,
+   "km": 297.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie existante (site officiel biereb06.fr, fiche de l'office de tourisme d'Antibes Juan-les-Pins, bières artisanales certifiées bio). Le site officiel ne dit ni l'adresse, ni le téléphone, ni les horaires, ni la vente sur place ; il propose des bières pour événements et liste des revendeurs. L'office indique « ouvert tous les jours » en 2026, « horaires non garantis ».",
+   "addr": "87 chemin de Beauvert",
+   "src": "https://biereb06.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://biereb06.fr/",
+    "source": "https://biereb06.fr/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://biereb06.fr/",
+   "https://data.geopf.fr/geocodage/search?q=87+chemin+de+Beauvert&limit=5"
+  ],
+  "extrait": "Découvrez nos bières artisanales certifiées bio",
+  "choix": "Catégorie 0 : aucune vente ni dégustation sur place lue sur le site de la brasserie. Adresse reprise de SIRENE et de la fiche de l'office (le site ne la donne pas). Téléphone 07 64 07 21 64 vu seulement chez l'office de tourisme : non repris (précédent S342). Horaires de l'office (« ouvert tous les jours ») non repris : sans heures. Page Untappd non cherchée au-delà des recherches faites : aucune trouvée."
+ }
+}

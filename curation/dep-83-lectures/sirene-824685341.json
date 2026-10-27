@@ -1,0 +1,78 @@
+{
+ "candidat": "sirene:824685341",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Maures",
+   "c": "Bormes-les-Mimosas",
+   "d": "83",
+   "lat": 43.13329,
+   "lon": 6.34703,
+   "km": 309.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale ouverte depuis 2017 (nommée « La Maure » dans la SIRENE et en anglais sur la fiche régionale). La fiche de Provence-Alpes-Côte d'Azur cite la vente à la propriété et la dégustation de produits ; le site de la brasserie, en maintenance, donne les horaires d'accueil. Aucune page Untappd trouvée.",
+   "addr": "1065 chemin de Bénat, 83230 Bormes-les-Mimosas",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-maures-bormes-les-mimosas-fr-3980678/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 12 03 28 83",
+    "site": "https://brasseriedesmaures.com/",
+    "source": "https://brasseriedesmaures.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedesmaures.com/",
+     "lun": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Le site de la brasserie était en maintenance le jour de la lecture.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-maures-bormes-les-mimosas-fr-3980678/",
+   "https://brasseriedesmaures.com/",
+   "https://data.geopf.fr/geocodage/search?q=1065+chemin+de+B%C3%A9nat%2C+83230+Bormes-les-Mimosas&limit=5"
+  ],
+  "extrait": "Nous vous accueillons sur place, au milieu des cuves de brassage et fermentation pour vous faire découvrir notre univers.",
+  "choix": "Seul numéro publié par la brasserie sur son site : un portable, 06 12 03 28 83. Nom de la fiche : « Brasserie des Maures », le nom d'usage des fiches de tourisme (la SIRENE dit « Brasserie artisanale La Maure »), à trancher par Cédric. Le site étant en maintenance, la dégustation n'est lue que sur la fiche régionale, d'où la confiance moyenne."
+ }
+}

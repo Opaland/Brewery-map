@@ -14,12 +14,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 490 | 19 (4 %) | 42 | 207 | 190 | 249 | 325 | 348 | 329 |
+| **Total** | 549 | 19 (3 %) | 42 | 228 | 205 | 267 | 353 | 383 | 388 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
 | 05 · Hautes-Alpes | 9 | 0 (0 %) | 0 | 3 | 5 | 2 | 6 | 7 | 9 |
+| 06 · Alpes-Maritimes | 9 | 0 (0 %) | 0 | 2 | 1 | 2 | 3 | 5 | 9 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
+| 13 · Bouches-du-Rhône | 17 | 0 (0 %) | 0 | 8 | 3 | 5 | 9 | 10 | 17 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
@@ -56,12 +58,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
+| 83 · Var | 14 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 14 |
+| 84 · Vaucluse | 19 | 0 (0 %) | 0 | 9 | 8 | 7 | 12 | 13 | 19 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 
 ## Les « À confirmer » à chercher
 
-207 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+228 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -86,12 +90,28 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Piolit Nanobrasserie (Avançon) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Tourmente (Briançon) : sans horaires, sans bières
 
+### 06 · Alpes-Maritimes
+
+- B06 (Antibes) : sans téléphone, sans horaires, sans bières
+- Blue Coast Brewing Company (Nice) : sans horaires, sans bières
+
 ### 07 · Ardèche
 
 - Brasserie Graine 2 Bulles (Davézieux) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Haarddrëch (Alboussière) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Kan Mêm (Colombier-le-Jeune) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans bières
 - Brasserie Longue Vie (Saint-Victor) : sans adresse vérifiée, sans téléphone, sans horaires
+
+### 13 · Bouches-du-Rhône
+
+- Cap Marca (Arles) : sans adresse vérifiée, sans horaires, sans bières
+- Microbrasserie de la Crau (Istres) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie La Baroude (Aix-en-Provence) : sans téléphone, sans horaires, sans bières
+- Bulles de Provence (Aix-en-Provence) : sans téléphone, sans horaires, sans bières
+- La Camaraderie (Marseille) : sans téléphone, sans horaires, sans bières
+- La Petite Aixoise (Saint-Cannat) : sans téléphone, sans horaires, sans bières
+- Brass.Art (Velaux) : sans horaires, sans bières
+- Brasserie Artisanale des Alpilles (Eygalières) : sans horaires, sans bières
 
 ### 14 · Calvados
 
@@ -368,6 +388,23 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Yata (Lillebonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Ragnar (Oissel-sur-Seine) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Bakbuk (Les Authieux-sur-le-Port-Saint-Ouen) : sans téléphone, sans horaires, sans bières
+
+### 83 · Var
+
+- La Snook (Esparron-de-Pallières) : sans adresse vérifiée, sans horaires, sans bières
+- La Tuf (Le Tailleur de Bières) (Cotignac) : sans horaires, sans bières
+
+### 84 · Vaucluse
+
+- Agora Brasseurs (Carpentras) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Chante Grenouille (Vaison-la-Romaine) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Josseline (Monieux) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Fatch Brasserie Provençale (Courthézon) : sans site, sans téléphone, sans horaires, sans bières
+- La Déjantée (L'Isle-sur-la-Sorgue) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Les Brasseurs Bran'chais (Châteauneuf-du-Pape) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- La Comédienne (Avignon) : sans téléphone, sans horaires, sans bières
+- Brasserie Epicentre (Pertuis) : sans horaires, sans bières
+- Miss'Isle (Cavaillon) : sans horaires, sans bières
 
 ### 85 · Vendée
 

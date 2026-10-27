@@ -1,0 +1,77 @@
+{
+ "candidat": "node/9931817876",
+ "ajout": {
+  "fiche": {
+   "n": "Aquae Maltae",
+   "c": "Aix-en-Provence",
+   "d": "13",
+   "lat": 43.54137,
+   "lon": 5.40612,
+   "km": 242.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale d'Aix-en-Provence. Le site officiel annonce un bar (horaires du bar publiés), une boutique en ligne et une page de visites ; les visites du samedi sont suspendues. Pas de page Untappd trouvée.",
+   "addr": "Rue de l'Ancienne Minoterie, Aix-en-Provence",
+   "src": "https://www.aquaemaltae.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 42 21 37 03",
+    "site": "https://www.aquaemaltae.com/",
+    "source": "https://www.aquaemaltae.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.aquaemaltae.com/",
+     "lun": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "remarque": "Ouvert en général du lundi au samedi de 16h à 0h.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.aquaemaltae.com/",
+   "https://data.geopf.fr/geocodage/search?q=Aix-en-Provence&type=municipality&limit=5"
+  ],
+  "extrait": "Horaires du bar : Lundi-Samedi 16h-00h",
+  "choix": "Catégorie 1 d'après la mention du bar sur le site officiel, d'où la confiance moyenne : le site ne décrit pas la dégustation sur place. Seul numéro publié par la brasserie : 04 42 21 37 03. Horaires du bar repris en accueil ; la page dit « en général ». Pas de bloc vente : le site ne donne pas d'horaires de vente. Adresse sans numéro, comme sur le site ; OSM donne le 50."
+ }
+}

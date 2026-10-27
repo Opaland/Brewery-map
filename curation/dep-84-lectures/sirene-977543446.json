@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:977543446",
+ "ajout": {
+  "fiche": {
+   "n": "Fatch Brasserie Provençale",
+   "c": "Courthézon",
+   "d": "84",
+   "lat": 44.09494,
+   "lon": 4.8732,
+   "km": 175.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie existante d'après la fiche de l'office de tourisme (4 styles : blonde, blanche, ambrée, IPA ; vendue chez des revendeurs du Vaucluse et du Gard). Aucune vente ni accueil sur place indiqués, pas d'horaires, pas de site officiel trouvé : à confirmer.",
+   "addr": "526 Route d'Orange, 84350 Courthézon",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/fatch-brasserie-provencale-courthezon-fr-5121785/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/fatch-brasserie-provencale-courthezon-fr-5121785/",
+   "https://data.geopf.fr/geocodage/search?q=526+Route+d%27Orange%2C+84350+Courth%C3%A9zon&limit=5"
+  ],
+  "extrait": "Brassée en Provence. 4 styles : Blonde, Blanche, Ambrée, IPA.",
+  "choix": "Office de tourisme seul, avec en piste des pages Facebook et Instagram (non lues). Téléphones de la fiche non repris (publiés par l'office). Nom de la fiche : « Fatch Brasserie Provençale » (office), la raison sociale SIRENE étant « Fatch Brasserie Artisanale »."
+ }
+}

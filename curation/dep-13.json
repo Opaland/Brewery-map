@@ -1,0 +1,714 @@
+{
+ "lot": "dep-13",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brass.Art",
+    "c": "Velaux",
+    "d": "13",
+    "lat": 43.51488,
+    "lon": 5.23301,
+    "km": 243.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie parle d'un brew pub (« en pression et en fût ») et donne « Ouvert : Jeudi et Vendredi de 17h à 22h », sans dire ce qu'on y fait : vente et consommation sur place non écrites.",
+    "addr": "5 rue André Marie Ampère, 13880 Velaux",
+    "src": "https://brass-art.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 07 11 68 64",
+     "site": "https://brass-art.fr/",
+     "source": "https://brass-art.fr/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://brass-art.fr/",
+    "https://data.geopf.fr/geocodage/search?q=5+rue+Andr%C3%A9+Marie+Amp%C3%A8re%2C+13880+Velaux&limit=5"
+   ],
+   "extrait": "Ouvert : Jeudi et Vendredi de 17h à 22h.",
+   "choix": "Catégorie 0 : on ne déduit pas. Horaires laissés dans la note. Seule ligne publiée, un mobile (règle du 21/10). Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Aquae Maltae",
+    "c": "Aix-en-Provence",
+    "d": "13",
+    "lat": 43.54137,
+    "lon": 5.40612,
+    "km": 242.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale d'Aix-en-Provence. Le site officiel annonce un bar (horaires du bar publiés), une boutique en ligne et une page de visites ; les visites du samedi sont suspendues. Pas de page Untappd trouvée.",
+    "addr": "Rue de l'Ancienne Minoterie, Aix-en-Provence",
+    "src": "https://www.aquaemaltae.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "04 42 21 37 03",
+     "site": "https://www.aquaemaltae.com/",
+     "source": "https://www.aquaemaltae.com/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "mar": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "remarque": "Ouvert en général du lundi au samedi de 16h à 0h.",
+      "source": "https://www.aquaemaltae.com/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.aquaemaltae.com/",
+    "https://data.geopf.fr/geocodage/search?q=Aix-en-Provence&type=municipality&limit=5"
+   ],
+   "extrait": "Horaires du bar : Lundi-Samedi 16h-00h",
+   "choix": "Catégorie 1 d'après la mention du bar sur le site officiel, d'où la confiance moyenne : le site ne décrit pas la dégustation sur place. Seul numéro publié par la brasserie : 04 42 21 37 03. Horaires du bar repris en accueil ; la page dit « en général ». Pas de bloc vente : le site ne donne pas d'horaires de vente. Adresse sans numéro, comme sur le site ; OSM donne le 50."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie de la Crau",
+    "c": "Istres",
+    "d": "13",
+    "lat": 43.53214,
+    "lon": 4.95785,
+    "km": 238.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, adresse et téléphone publiés ; fiche de tourisme : créée en mars 2020, à Entressen). Rien de lu sur la vente ni l'accueil sur place : les pages Contact et « Où trouver nos produits » n'en parlent pas.",
+    "addr": "Mas Rey, chemin du Mas de Chauvet, 13118 Istres",
+    "src": "https://microbrasseriedelacrau.com/index.php/contact/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 78 88 52 09",
+     "site": "https://microbrasseriedelacrau.com/",
+     "source": "https://microbrasseriedelacrau.com/index.php/contact/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://microbrasseriedelacrau.com/index.php/contact/",
+    "https://data.geopf.fr/geocodage/search?q=Istres&type=municipality&limit=5"
+   ],
+   "extrait": "Chemin du mas de Chauvet",
+   "choix": "Seule ligne publiée par la brasserie : un portable, 06 78 88 52 09, repris. Aucun horaire (la fiche de tourisme dit seulement « tous les jours », sans heures). Pas de lien Untappd trouvé. Entressen est un quartier d'Istres (code postal 13118, commune du registre)."
+  },
+  {
+   "fiche": {
+    "n": "Le Craft",
+    "c": "La Ciotat",
+    "d": "13",
+    "lat": 43.1751,
+    "lon": 5.6075,
+    "km": 286.1,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie et taproom indépendante : 8 becs pression en rotation et une cave de plus de 50 références de bières craft. Source : guide de l'office de tourisme (fiche MyProvence), sans site officiel trouvé. Les horaires y sont saisonniers (« en attente de validation »), donc non repris.",
+    "addr": "8 rue Maréchal Foch, 13600 La Ciotat",
+    "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/la-ciotat/microbrasserie-taproom-independante-ciotadenne-le-craft",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/la-ciotat/microbrasserie-taproom-independante-ciotadenne-le-craft",
+    "https://data.geopf.fr/geocodage/search?q=8+rue+Mar%C3%A9chal+Foch%2C+13600+La+Ciotat&limit=5"
+   ],
+   "extrait": "Avec les 8 becs pression en constante rotation",
+   "choix": "Pas de téléphone publié (la fiche ne donne qu'une adresse e-mail, non reprise). Pas de site officiel ni de page Untappd trouvés en deux recherches. Horaires écartés : « Eté » et « Basse saison » sans dates de période, programme « en attente de validation ». Extrait court : fragment exact de la phrase lue. La consommation sur place ressort de « taproom » et de « savourer ». Confiance moyenne : source d'office de tourisme seule."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Plaine",
+    "c": "Marseille",
+    "d": "13",
+    "lat": 43.29346,
+    "lon": 5.38631,
+    "km": 269.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie-boutique : la boutique vend les bières en bouteille et la bière à la pression à emporter (on vient avec une bouteille en verre réutilisable). Aucun bar ni consommation sur place n'est mentionné sur le site. Les ateliers de brassage et de dégustation sont des cours, pas un accueil ouvert. Un site de production distinct existe à Marseille 11e, réservé aux professionnels.",
+    "addr": "49 rue des 3 frères Barthélemy, 13006 Marseille",
+    "src": "https://www.brasseriedelaplaine.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 91 47 32 54",
+     "site": "https://www.brasseriedelaplaine.fr/",
+     "source": "https://www.brasseriedelaplaine.fr/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.brasseriedelaplaine.fr/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.brasseriedelaplaine.fr/",
+    "https://data.geopf.fr/geocodage/search?q=49+rue+des+3+fr%C3%A8res+Barth%C3%A9lemy%2C+13006+Marseille&limit=5"
+   ],
+   "extrait": "boutique ouverte du mercredi au samedi de 15h00 à 19h00.",
+   "choix": "Téléphone de la boutique retenu ; ceux des professionnels écartés. Le point OSM de La Penne-sur-Huveaune est le même lieu. Pas de lien Untappd sur la page : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale de Provence",
+    "c": "Rousset",
+    "d": "13",
+    "lat": 43.48181,
+    "lon": 5.62007,
+    "km": 253.3,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site de la brasserie annonce une dégustation à la pression au brewpub et une vente directe à l'espace boutique. Le brewpub est ouvert au public du mardi au vendredi, de 16 h à 22 h.",
+    "addr": "La Marnière, ZI, Avenue Olivier Perroy, 13790 Rousset",
+    "src": "https://bap-13.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "09 70 92 50 09",
+     "site": "https://bap-13.com/",
+     "source": "https://bap-13.com/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://bap-13.com/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://bap-13.com/",
+    "https://data.geopf.fr/geocodage/search?q=Rousset&type=municipality&limit=5"
+   ],
+   "extrait": "Dégustation à la pression au brewpub et vente directe à l'espace boutique à la Brasserie Artisanale de Provence (BAP).",
+   "choix": "Seul numéro publié par la brasserie. Horaires du brewpub seuls (accueil) ; ceux des professionnels écartés. Lien Untappd non repris : il n'est pas sur le site."
+  },
+  {
+   "fiche": {
+    "n": "La Petite Aixoise",
+    "c": "Saint-Cannat",
+    "d": "13",
+    "lat": 43.6143,
+    "lon": 5.3178,
+    "km": 233.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale à Saint-Cannat, présente sur Untappd et sur la fiche de l'office de tourisme d'Aix. Son site officiel (lapetiteaixoise.fr) répondait par une erreur 500 : la vente sur place n'est pas établie.",
+    "addr": "705 avenue de l'Europe, 13760 Saint-Cannat",
+    "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "http://lapetiteaixoise.fr",
+     "source": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+    "https://data.geopf.fr/geocodage/search?q=705+avenue+de+l%27Europe%2C+13760+Saint-Cannat&limit=5"
+   ],
+   "extrait": "une bière artisanale qui se veut locale, 100 % naturelle et sans aucun additif de synthèse",
+   "choix": "Téléphone 06 30 34 68 56 écarté : office seulement. Horaires écartés : la fiche de l'office donne des créneaux mais ne dit pas que la bière s'y vend, et le site officiel n'a pas pu être lu pour les confirmer. Page Untappd https://untappd.com/LaPetiteAixoise vue dans les résultats de recherche et lue via un résumé, adresse non précisée : lien non proposé sans ouverture directe. Bières non reprises (non lues en entier sur Untappd)."
+  },
+  {
+   "fiche": {
+    "n": "Bulles de Provence",
+    "c": "Aix-en-Provence",
+    "d": "13",
+    "lat": 43.5877,
+    "lon": 5.39559,
+    "km": 237.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale familiale à Puyricard, site officiel en ligne. La vente sur place n'est pas établie : le site ne mentionne ni boutique ni dégustation (il propose de réserver une tireuse et de revendre les bières). Les horaires et le téléphone ne sont publiés que par l'office de tourisme, non repris.",
+    "addr": "15 chemin de la Valentine, 13540 Puyricard",
+    "src": "https://bullesdeprovence.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://bullesdeprovence.com/",
+     "source": "https://bullesdeprovence.com/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://bullesdeprovence.com/",
+    "https://data.geopf.fr/geocodage/search?q=15+chemin+de+la+Valentine%2C+13540+Puyricard&limit=5"
+   ],
+   "extrait": "Découvrez Bulles de Provence, une brasserie artisanale familiale alliant passion pour la bière, écologie et innovation.",
+   "choix": "Téléphone 06 11 07 86 43 écarté : publié seulement par l'office de tourisme d'Aix (précédent S342), absent du site de la brasserie. Horaires écartés : seul l'office les donne, et ils ne disent pas qu'on peut y acheter. Untappd : la marque a des bières sur untappd.com, mais je n'ai pas ouvert la page de la brasserie, donc pas de lien ni de bières. Adresse lue sur bullesdeprovence.com/contact/, qui n'est pas la page src. Commune Aix-en-Provence prise du paquet SIRENE (Puyricard en dépend)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Zoumaï",
+    "c": "Marseille",
+    "d": "13",
+    "lat": 43.28628,
+    "lon": 5.38661,
+    "km": 270.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie et brewpub du cours Gouffé ; la page « Où nous trouver » de son site donne l'ouverture du lundi au samedi, de 17 h à minuit.",
+    "addr": "7 cours Gouffé, 13006 Marseille",
+    "src": "https://www.brasseriezoumai.fr/nous-trouver",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriezoumai.fr",
+     "source": "https://www.brasseriezoumai.fr/nous-trouver",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "mar": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "source": "https://www.brasseriezoumai.fr/nous-trouver",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.brasseriezoumai.fr/nous-trouver",
+    "https://data.geopf.fr/geocodage/search?q=7+cours+Gouff%C3%A9%2C+13006+Marseille&limit=5"
+   ],
+   "extrait": "Brasserie artisanale - Brewpub",
+   "choix": "Page d'accueil injoignable depuis le conteneur (429) : lecture sur « Où nous trouver ». Confiance moyenne : la page dit « brewpub », sans détailler la vente. Téléphone non repris : il n'est pas sur cette page. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Keg & Can Brewpub",
+    "c": "Marseille",
+    "d": "13",
+    "lat": 43.24558,
+    "lon": 5.4262,
+    "km": 275.3,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brewpub et micro-brasserie du quartier du Redon (Marseille 9e) : le site officiel décrit un lieu où l'on déguste des bières artisanales brassées sur place, avec une carte food. Les bières craft du moment se vendent aussi à emporter en canette de 50 cl. Horaires publiés sur la page contact (fermé ou non indiqué lundi et dimanche). Aucun lien Untappd publié par la brasserie : les bières ne sont donc pas listées.",
+    "addr": "314 Boulevard du Redon, 13009 Marseille",
+    "src": "https://kegandcan.fr/le-brewpub-micro-brasserie-keg-and-can-marseille/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 53 40 24 42",
+     "site": "https://kegandcan.fr/",
+     "source": "https://kegandcan.fr/contact/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:30",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:30",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:30",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:30",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "17:30",
+        "23:30"
+       ]
+      ],
+      "source": "https://kegandcan.fr/contact/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://kegandcan.fr/le-brewpub-micro-brasserie-keg-and-can-marseille/",
+    "https://kegandcan.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=314+Boulevard+du+Redon%2C+13009+Marseille&limit=5"
+   ],
+   "extrait": "Nous avons à cœur de créer un lieu où chacun peut non seulement déguster une large sélection de bières artisanales, mais aussi en apprendre davantage sur le processus de brassage et la diversité des styles de bière.",
+   "choix": "Un seul numéro publié sur le site de la brasserie (page contact, page brewpub, accueil) : 09 53 40 24 42, retenu. Pas de mobile ni d'autre ligne. Catégorie 1 : dégustation sur place (page brewpub) et vente à emporter « Toutes nos bières craft du moment sont disponibles à emporter en canette de 50cl. » (page https://kegandcan.fr/nos-bieres-artisanales-craft-marseille/, qui n'est pas la page src). Le nom du maître brasseur, écrit sur la page, n'est repris ni dans la note ni dans l'extrait. Les horaires ne disent rien du lundi et du dimanche : ces jours sont laissés absents, pas déclarés fermés. Pas d'Untappd trouvé (recherche web + aucun lien sur le site) : contact.untappd omis, beers vide."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale des Alpilles",
+    "c": "Eygalières",
+    "d": "13",
+    "lat": 43.78715,
+    "lon": 4.95429,
+    "km": 210.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie bio d'Eygalières. Son site affiche des « horaires d'ouvertures » (lundi à vendredi, 10 h – 12 h 30 et 14 h – 18 h ; samedi sur rendez-vous) et une boutique en ligne, sans dire ce qu'on peut faire sur place.",
+    "addr": "2874 route de la Gare, 13810 Eygalières",
+    "src": "https://bieredesalpilles.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 60 60 66 22",
+     "site": "https://bieredesalpilles.fr/",
+     "source": "https://bieredesalpilles.fr/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://bieredesalpilles.fr/",
+    "https://data.geopf.fr/geocodage/search?q=2874+route+de+la+Gare%2C+13810+Eygali%C3%A8res&limit=5"
+   ],
+   "extrait": "Une microbrasserie provençale à Eygalières",
+   "choix": "Catégorie 0 : la vente sur place n'est pas écrite ; horaires laissés dans la note, faute de savoir ce qu'ils couvrent. Seule ligne publiée par la brasserie, un mobile : retenue (règle du 21/10). Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie l'Amista",
+    "c": "Noves",
+    "d": "13",
+    "lat": 43.87863,
+    "lon": 4.90473,
+    "km": 200,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale à Noves avec espace boutique : vente sur place, visite de la brasserie sur réservation. D'après la fiche du comité régional de tourisme (page d'office, donc confiance moyenne) ; site officiel non lu (erreur 503) et sans page Untappd trouvée. Consommation sur place non mentionnée.",
+    "addr": "168 avenue Agricol Viala, Les 3 Vergers, 13550 Noves",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Ouverture aussi le samedi en saison, de 9h30 à 12h30 (dates de la saison non précisées). Visite sur réservation.",
+      "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+    "https://data.geopf.fr/geocodage/search?q=168+avenue+Agricol+Viala%2C+Les+3+Vergers%2C+13550+Noves&limit=5"
+   ],
+   "extrait": "Brasserie artisanale, proposant de la vente sur place (espace boutique).",
+   "choix": "Téléphones non repris : deux mobiles (06 34 62 00 41 et 06 19 30 03 43) publiés seulement par l'office. Pas de site officiel lu (brasserielamista.fr en 503 ; l'adresse contact@brasserielamista.fr n'est qu'un courriel sur myprovence.fr). Horaires : jeudi et vendredi 15h-18h toute l'année retenus ; le samedi « en saison » 9h30-12h30 va en remarque, faute de dates de saison. Catégorie 2 car vente sur place dite, consommation non dite."
+  },
+  {
+   "fiche": {
+    "n": "Cap Marca",
+    "c": "Arles",
+    "d": "13",
+    "lat": 43.59672,
+    "lon": 4.64509,
+    "km": 231.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale installée dans un mas camarguais au bord du Petit Rhône (Parc naturel de Camargue) ; son site invite à venir découvrir ses bières et autres produits locaux, avec prise de rendez-vous. Vente ou dégustation sur place non dites, horaires non publiés : ce qu'on peut y faire n'est pas établi.",
+    "addr": "D572N, Route de Saint-Gilles, 13200 Arles",
+    "src": "https://capmarca.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "04 66 84 18 13",
+     "site": "https://capmarca.fr",
+     "source": "https://capmarca.fr",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://capmarca.fr",
+    "https://data.geopf.fr/geocodage/search?q=Arles&type=municipality&limit=5"
+   ],
+   "extrait": "Nous vous invitons à venir découvrir nos bières et autres produits locaux au sein de notre brasserie installée",
+   "choix": "Téléphone retenu : 04 66 84 18 13, publié sur le site de la brasserie. L'office d'Arles donne des horaires lun-ven 8h-12h : non repris (office seulement, pas sur le site). Aucune page Untappd lue."
+  },
+  {
+   "fiche": {
+    "n": "Micro brasserie Transitions",
+    "c": "La Ciotat",
+    "d": "13",
+    "lat": 43.18916,
+    "lon": 5.62616,
+    "km": 284.9,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Sur rendez-vous uniquement : le site de la brasserie annonce la visite, l'achat des bières sur place et la livraison, sur simple rendez-vous. Pas d'horaires d'ouverture, pas de dégustation indiquée.",
+    "addr": "La Ciotat",
+    "src": "https://microbrasserietransitions.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://microbrasserietransitions.fr",
+     "source": "https://microbrasserietransitions.fr",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://microbrasserietransitions.fr",
+    "https://data.geopf.fr/geocodage/search?q=La+Ciotat&type=municipality&limit=5"
+   ],
+   "extrait": "Visite de la brasserie, achat des bières sur place et livraison",
+   "choix": "Téléphone non repris : absent du texte lu de la page. Adresse laissée vide : le site et le registre se contredisent. Pas d'horaires (sur rendez-vous). Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Baroude",
+    "c": "Aix-en-Provence",
+    "d": "13",
+    "lat": 43.53125,
+    "lon": 5.40299,
+    "km": 243.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale d'Aix-en-Provence, qui présente deux gammes (Roquepertuse et Mézingue). Son site dit vendre en boutique en ligne, chez les cavistes et épiceries fines du Pays d'Aix et en fûts pour les restaurants et bars ; il ne mentionne ni vente ni accueil sur place, ni horaires. Un office de tourisme la classe « non ouverte au public ». Ce qu'on peut y faire n'est donc pas établi.",
+    "addr": "770 chemin de la Souque, 13090 Aix-en-Provence",
+    "src": "http://www.brasserielabaroude.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "http://www.brasserielabaroude.fr",
+     "untappd": "https://untappd.com/BrasserieLaBaroude",
+     "source": "https://untappd.com/BrasserieLaBaroude",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "http://www.brasserielabaroude.fr",
+    "https://untappd.com/BrasserieLaBaroude",
+    "https://data.geopf.fr/geocodage/search?q=770+chemin+de+la+Souque%2C+13090+Aix-en-Provence&limit=5"
+   ],
+   "extrait": "La Baroude est une brasserie artisanale",
+   "choix": "Catégorie 0 : le site ne dit rien de l'accueil sur place, et un office la dit non ouverte au public. Téléphone publié seulement par un guide : non repris. Site et Untappd lus sur la page Untappd de la brasserie ; bières non reprises dans cette lecture."
+  },
+  {
+   "fiche": {
+    "n": "La Camaraderie",
+    "c": "Marseille",
+    "d": "13",
+    "lat": 43.3121,
+    "lon": 5.38479,
+    "km": 267.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Bar associatif de la Belle de Mai dont le site parle de « recettes maison brassées dans la Belle de Mai » et publie les horaires du bar (fermé le lundi). Il ne dit pas en toutes lettres qu'on y boit ou achète la bière brassée.",
+    "addr": "78 rue de la Belle de Mai, 13003 Marseille",
+    "src": "https://www.lacamaraderie.net",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.lacamaraderie.net",
+     "source": "https://www.lacamaraderie.net",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.lacamaraderie.net",
+    "https://data.geopf.fr/geocodage/search?q=78+rue+de+la+Belle+de+Mai%2C+13003+Marseille&limit=5"
+   ],
+   "extrait": "Une bière locale et respectueuse du vivant — recettes maison brassées dans la Belle de Mai.",
+   "choix": "Catégorie 0 : rien n'est écrit sur la vente ni la consommation de la bière maison. Aucun téléphone publié. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale Soif de Provence",
+    "c": "Saint-Rémy-de-Provence",
+    "d": "13",
+    "lat": 43.81347,
+    "lon": 4.82185,
+    "km": 207,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à la brasserie le vendredi ; visite et dégustation sur rendez-vous. Source : fiche de Provence Tourisme (myprovence.fr), marquée « Programme en attente de validation » ; aucun site officiel trouvé.",
+    "addr": "1688 Petite route des jardins, 13210 Saint-Rémy-de-Provence",
+    "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "17:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+    "https://data.geopf.fr/geocodage/search?q=1688+Petite+route+des+jardins%2C+13210+Saint-R%C3%A9my-de-Provence&limit=5"
+   ],
+   "extrait": "Toute l'année le vendredi de 17h à 20h.",
+   "choix": "Téléphone (06 24 33 66 90) publié seulement par la fiche de tourisme et un agenda, pas par la brasserie : non repris (précédent S342). Pas de site ni de page Untappd trouvés. Visite sur rendez-vous laissée dans la note, pas dans les horaires. Confiance moyenne au plus : source institutionnelle seule (décision #37)."
+  }
+ ]
+}

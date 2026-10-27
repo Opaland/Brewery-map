@@ -1,0 +1,110 @@
+{
+ "candidat": "sirene:921953956",
+ "ajout": {
+  "fiche": {
+   "n": "La Tchouc",
+   "c": "Collobrières",
+   "d": "83",
+   "lat": 43.23726,
+   "lon": 6.30851,
+   "km": 297.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie de Collobrières. Son site annonce une boutique (« Commandez & dégustez ») et une terrasse, ouvertes tous les jours. Il ne décrit ni visite guidée ni dégustation organisée : confiance moyenne.",
+   "addr": "10 boulevard Lazare Carnot, 83610 Collobrières",
+   "src": "https://latchouc.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 75 84 51 18",
+    "site": "https://latchouc.com/",
+    "source": "https://latchouc.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://latchouc.com/",
+     "lun": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://latchouc.com/",
+   "https://data.geopf.fr/geocodage/search?q=10+boulevard+Lazare+Carnot%2C+83610+Collobri%C3%A8res&limit=5"
+  ],
+  "extrait": "La Fabrique t’ouvre ses portes du Lundi au Dimanche !",
+  "choix": "Pages lues par résumé de WebFetch, pas en entier : le passage cité est celui que l'outil a rendu mot pour mot, avec l'apostrophe typographique (’) ; à recontrôler à la main. Aucune page Untappd trouvée (deux recherches), donc beers vide. Le site porte deux numéros écrits « 09 75 84 51 18 » et « +33 9 75 84 51 18 » : c'est le même, repris au format de la fiche. Une fiche touristique régionale (provence-alpes-cotedazur.com), citée seulement comme piste, dit « dimanche : matin seulement », ce que le site de la brasserie contredit : j'ai suivi le site. Horaires : « 19h WE » lu comme samedi et dimanche jusqu'à 19:00. Catégorie 1 et non 2 : la terrasse et « dégustez » sont écrits, mais sans carte de bar ; d'où moyenne."
+ }
+}

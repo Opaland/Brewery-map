@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:813736998",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale de Provence",
+   "c": "Rousset",
+   "d": "13",
+   "lat": 43.48181,
+   "lon": 5.62007,
+   "km": 253.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie annonce une dégustation à la pression au brewpub et une vente directe à l'espace boutique. Le brewpub est ouvert au public du mardi au vendredi, de 16 h à 22 h.",
+   "addr": "La Marnière, ZI, Avenue Olivier Perroy, 13790 Rousset",
+   "src": "https://bap-13.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "09 70 92 50 09",
+    "site": "https://bap-13.com/",
+    "source": "https://bap-13.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://bap-13.com/",
+     "mar": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://bap-13.com/",
+   "https://data.geopf.fr/geocodage/search?q=Rousset&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustation à la pression au brewpub et vente directe à l'espace boutique à la Brasserie Artisanale de Provence (BAP).",
+  "choix": "Seul numéro publié par la brasserie. Horaires du brewpub seuls (accueil) ; ceux des professionnels écartés. Lien Untappd non repris : il n'est pas sur le site."
+ }
+}

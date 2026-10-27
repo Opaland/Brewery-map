@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:792379919",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Plaine",
+   "c": "Marseille",
+   "d": "13",
+   "lat": 43.29346,
+   "lon": 5.38631,
+   "km": 269.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie-boutique : la boutique vend les bières en bouteille et la bière à la pression à emporter (on vient avec une bouteille en verre réutilisable). Aucun bar ni consommation sur place n'est mentionné sur le site. Les ateliers de brassage et de dégustation sont des cours, pas un accueil ouvert. Un site de production distinct existe à Marseille 11e, réservé aux professionnels.",
+   "addr": "49 rue des 3 frères Barthélemy, 13006 Marseille",
+   "src": "https://www.brasseriedelaplaine.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 91 47 32 54",
+    "site": "https://www.brasseriedelaplaine.fr/",
+    "source": "https://www.brasseriedelaplaine.fr/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriedelaplaine.fr/",
+     "mer": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.brasseriedelaplaine.fr/",
+   "https://data.geopf.fr/geocodage/search?q=49+rue+des+3+fr%C3%A8res+Barth%C3%A9lemy%2C+13006+Marseille&limit=5"
+  ],
+  "extrait": "boutique ouverte du mercredi au samedi de 15h00 à 19h00.",
+  "choix": "Téléphone de la boutique retenu ; ceux des professionnels écartés. Le point OSM de La Penne-sur-Huveaune est le même lieu. Pas de lien Untappd sur la page : non repris."
+ }
+}

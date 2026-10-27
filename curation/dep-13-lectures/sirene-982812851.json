@@ -1,0 +1,40 @@
+{
+ "candidat": "sirene:982812851",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale Soif de Provence",
+   "c": "Saint-Rémy-de-Provence",
+   "d": "13",
+   "lat": 43.81347,
+   "lon": 4.82185,
+   "km": 207,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie le vendredi ; visite et dégustation sur rendez-vous. Source : fiche de Provence Tourisme (myprovence.fr), marquée « Programme en attente de validation » ; aucun site officiel trouvé.",
+   "addr": "1688 Petite route des jardins, 13210 Saint-Rémy-de-Provence",
+   "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+     "ven": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-remy-de-provence/brasserie-artisanale-soif-de-provence",
+   "https://data.geopf.fr/geocodage/search?q=1688+Petite+route+des+jardins%2C+13210+Saint-R%C3%A9my-de-Provence&limit=5"
+  ],
+  "extrait": "Toute l'année le vendredi de 17h à 20h.",
+  "choix": "Téléphone (06 24 33 66 90) publié seulement par la fiche de tourisme et un agenda, pas par la brasserie : non repris (précédent S342). Pas de site ni de page Untappd trouvés. Visite sur rendez-vous laissée dans la note, pas dans les horaires. Confiance moyenne au plus : source institutionnelle seule (décision #37)."
+ }
+}

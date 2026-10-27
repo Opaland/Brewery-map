@@ -1,0 +1,784 @@
+{
+ "lot": "dep-84",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale du Luberon",
+    "c": "Pertuis",
+    "d": "84",
+    "lat": 43.67601,
+    "lon": 5.50283,
+    "km": 230,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce un magasin ouvert le jeudi et le vendredi de 14 h à 17 h (hors jours fériés), fermé les autres jours, où l'on peut s'approvisionner directement. La page parle aussi d'un « taproom » sans rien dire de la consommation sur place : on ne retient que l'achat.",
+    "addr": "72 rue Philippe de Girard, 84120 Pertuis",
+    "src": "https://brasserie-luberon.com/nous-rencontrer",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie-luberon.com",
+     "source": "https://brasserie-luberon.com/nous-rencontrer",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "remarque": "Hors jours fériés.",
+      "source": "https://brasserie-luberon.com/nous-rencontrer",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://brasserie-luberon.com/nous-rencontrer",
+    "https://data.geopf.fr/geocodage/search?q=72+rue+Philippe+de+Girard%2C+84120+Pertuis&limit=5"
+   ],
+   "extrait": "Le magasin de la brasserie est ouvert les jeudi et vendredi, de 14h à 17h (hors jours fériés).",
+   "choix": "Nom d'usage du site ; même entreprise que la ligne du registre, au même numéro de rue. Aucun téléphone publié par la brasserie. Horaires du magasin lus sur le site ; ceux de l'office, différents, écartés. Le lien Untappd n'est pas sur la page : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale du Mont Ventoux",
+    "c": "Carpentras",
+    "d": "84",
+    "lat": 44.05647,
+    "lon": 5.05967,
+    "km": 181.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Boutique à Carpentras, décrite comme espace de dégustation et de vente ; la fabrique est à Caromb, visites et dégustations à la fabrique sur rendez-vous seulement. La page ne dit pas expressément qu'on y boit sur place (confiance moyenne).",
+    "addr": "558 avenue du Mont Ventoux, 84200 Carpentras",
+    "src": "https://www.brasserie-ventoux.com/nos-boutiques",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 90 63 34 35",
+     "site": "https://www.brasserie-ventoux.com",
+     "source": "https://www.brasserie-ventoux.com/nos-boutiques",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "remarque": "Boutique de Carpentras ; visites et dégustations à la fabrique de Caromb sur rendez-vous seulement.",
+      "source": "https://www.brasserie-ventoux.com/nos-boutiques",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.brasserie-ventoux.com/nos-boutiques",
+    "https://data.geopf.fr/geocodage/search?q=558+avenue+du+Mont+Ventoux%2C+84200+Carpentras&limit=5"
+   ],
+   "extrait": "La boutique c'est à la fois un espace de dégustation et de vente pour échanger, partager et refaire le monde",
+   "choix": "Page lue en entier (rendu texte, bandeau cookies compris). Extrait recopié tel que rendu par l'outil de lecture ; la phrase se prolonge par « en toute convivialité… ». Le site de la brasserie écrit le numéro avec des lettres O sur la page d'accueil ; retenu : « Tél. 04 90 63 34 35 » de la page boutiques. Adresse retenue : la boutique de Carpentras, la fabrique de Caromb étant sur rendez-vous. Horaires de la boutique : lundi 14h30-18h30, mardi/jeudi/vendredi/samedi 10h-12h et 14h30-18h30, mercredi et dimanche fermé. Aucun Untappd trouvé (recherche + site : seulement Facebook et Instagram)."
+  },
+  {
+   "fiche": {
+    "n": "La Déjantée",
+    "c": "L'Isle-sur-la-Sorgue",
+    "d": "84",
+    "lat": 43.91503,
+    "lon": 5.05868,
+    "km": 197.1,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : le registre SIRENE et la fiche de l'office de tourisme de L'Isle-sur-la-Sorgue la décrivent comme une micro-brasserie artisanale créée en 2016. Pas de site propre trouvé ; ce qu'on peut y faire n'est pas établi : à confirmer.",
+    "addr": "140 avenue Gustave Eiffel, 84800 L'Isle-sur-la-Sorgue",
+    "src": "https://uk.islesurlasorguetourisme.com/brasserie-la-dejantee---en-234414",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://uk.islesurlasorguetourisme.com/brasserie-la-dejantee---en-234414",
+    "https://data.geopf.fr/geocodage/search?q=L%27Isle-sur-la-Sorgue&type=municipality&limit=5"
+   ],
+   "extrait": "Discover the La Déjantée brewery, an artisanal micro-brewery created in 2016",
+   "choix": "Catégorie 0, aucun site officiel trouvé : seulement l'office de tourisme (page anglaise lue par un résumé, pas la version française) et des pages Facebook et Instagram (Facebook illisible sans connexion). Horaires de l'office non repris : ils portent sur la saison 2025 (« Monday to Friday between 9 am and 6 pm ») et la nature (accueil ou vente) n'est pas dite. Téléphone : seul celui de l'office est publié, non repris."
+  },
+  {
+   "fiche": {
+    "n": "La Comédienne",
+    "c": "Avignon",
+    "d": "84",
+    "lat": 43.93335,
+    "lon": 4.84063,
+    "km": 193.7,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : son site la dit la bière d'Avignon depuis 2017, avec production sur place, et son menu cite « Le bar ». La page lue ne dit pas ce qu'on peut y faire ni quand : à confirmer.",
+    "addr": "5 avenue Elsa Triolet, 84000 Avignon",
+    "src": "https://lacomedienne.beer/la-brasserie",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://lacomedienne.beer",
+     "source": "https://lacomedienne.beer/la-brasserie",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://lacomedienne.beer/la-brasserie",
+    "https://data.geopf.fr/geocodage/search?q=5+avenue+Elsa+Triolet%2C+84000+Avignon&limit=5"
+   ],
+   "extrait": "La Comédienne est depuis 2017 la bière d'Avignon.",
+   "choix": "Catégorie 0 : la page « Le bar » du site n'a pas pu être lue (adresse devinée en 404). La fiche de l'office (Provence Guide) parle de dégustations de groupe et de visites sur demande, mais elle est contradictoire sur les jours (« tous les jours » et « fermé samedi et dimanche ») et la catégorie reste à confirmer. Aucun téléphone repris : il n'est publié que par l'office (précédent S342) ; la page du site ne donne qu'un courriel. Pas d'Untappd cherché (quota)."
+  },
+  {
+   "fiche": {
+    "n": "La Géante de Provence",
+    "c": "Brantes",
+    "d": "84",
+    "lat": 44.19248,
+    "lon": 5.33271,
+    "km": 171,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie bio créée en 2017 à Brantes. La fiche de l'office de tourisme (seule source lue) indique vente à la propriété et boutique, visite gratuite sur demande, et précise que les horaires ne sont pas garantis. Pas de site officiel trouvé, pas d'horaires.",
+    "addr": "Le Village, 84390 Brantes",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/la-geante-de-provence-brantes-fr-2885082/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/la-geante-de-provence-brantes-fr-2885082/",
+    "https://data.geopf.fr/geocodage/search?q=Brantes&type=municipality&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Source : office de tourisme régional seul, donc confiance moyenne au plus ; l'existence est aussi attestée par la fiche d'un autre office (provenceguide.com) et le registre SIRENE. Catégorie 2 : la fiche cite aussi « Dégustation de produits » et une petite restauration sur place, mais pas de bar ni de dégustation clairement ouverte, donc je ne propose pas 1. Téléphones de la fiche (04 75 28 29 13 et 06 23 45 03 49) non repris : publiés par un office, pas par la brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Chante Grenouille",
+    "c": "Vaison-la-Romaine",
+    "d": "84",
+    "lat": 44.2494,
+    "lon": 5.06143,
+    "km": 160.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Connue d'une fiche de l'office de tourisme, qui cite une boutique et une dégustation de produits, sur rendez-vous. Pas de site propre trouvé.",
+    "addr": "Avenue Marcel Pagnol, 84110 Vaison-la-Romaine",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/chante-grenouille-vaison-la-romaine-fr-4133779/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/chante-grenouille-vaison-la-romaine-fr-4133779/",
+    "https://data.geopf.fr/geocodage/search?q=Vaison-la-Romaine&type=municipality&limit=5"
+   ],
+   "extrait": "Dégustation de produits",
+   "choix": "Catégorie 0 : la boutique et la dégustation ne sont dites que sur rendez-vous, par l'office seul. Le nom d'usage est celui de l'office ; il est rapproché de la ligne du registre par l'adresse. Téléphone publié par l'office seul : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Josseline",
+    "c": "Monieux",
+    "d": "84",
+    "lat": 44.05696,
+    "lon": 5.33837,
+    "km": 185.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale installée à Monieux depuis 2018, une dizaine de bières. La fiche de l'office de tourisme (Provence Guide) ne parle que de visite à la demande, sans vente ni dégustation ; pas de site officiel ni de page Untappd trouvés.",
+    "addr": "Hameau de la Gabelle, 84390 Monieux",
+    "src": "https://www.provenceguide.com/producteurs/mont-ventoux/brasserie-josseline/provence-6046658-1.html",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.provenceguide.com/producteurs/mont-ventoux/brasserie-josseline/provence-6046658-1.html",
+    "https://data.geopf.fr/geocodage/search?q=Monieux&type=municipality&limit=5"
+   ],
+   "extrait": "Visite à la demande. Il est conseillé d'appeler avant toute venue.",
+   "choix": "Seule source lisible : la fiche Provence Guide (office/portail touristique), donc existence appuyée sur l'office + SIRENE, pas de site officiel. Téléphone : un mobile (+33 6 68 68 25 25) n'est publié que par l'office, donc non repris (précédent S342). Horaires « tous les jours » de la fiche non repris : ils décrivent la visite à la demande, pas un accueil. Catégorie 0 : aucune vente ni accueil établis."
+  },
+  {
+   "fiche": {
+    "n": "Agora Brasseurs",
+    "c": "Carpentras",
+    "d": "84",
+    "lat": 44.03374,
+    "lon": 5.04087,
+    "km": 183.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : son site (agora-biere.com) se présente comme celui d'un artisan brasseur et caviste. Les pages lues ne détaillent pas ce qu'on peut y faire : à confirmer.",
+    "addr": "67 rue du Château Durbesson, 84200 Carpentras",
+    "src": "https://agora-biere.com",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://agora-biere.com",
+    "https://data.geopf.fr/geocodage/search?q=67+rue+du+Ch%C3%A2teau+Durbesson%2C+84200+Carpentras&limit=5"
+   ],
+   "extrait": "AGORA ARTISAN BRASSEUR",
+   "choix": "Catégorie 0. Le site officiel n'a été lu que par un résumé (titre de la page d'accueil ; la page contact en 404). L'extrait est donc un fragment de ce titre. L'office de tourisme annonce des horaires 2026 (« tous les jours de 10h à 12h30 et de 14h à 18h30 ») et une boutique, mais je n'ai pas pu savoir si c'est de l'accueil ou de la vente : horaires non repris. Téléphone : seulement un mobile publié par l'office, non repris. Pas d'Untappd cherché (quota)."
+  },
+  {
+   "fiche": {
+    "n": "Malt Brothers",
+    "c": "Vaison-la-Romaine",
+    "d": "84",
+    "lat": 44.25125,
+    "lon": 5.03237,
+    "km": 159.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie décrit une tap room où l'on déguste les bières à la pression, au comptoir, en terrasse ou dans le jardin. La boutique sur place vient de la fiche de l'office de tourisme (confiance moyenne au plus) ; le site ne parle que de bières en bouteille 33 cl et 75 cl. La brasserie a d'abord été à Villedieu, puis a ouvert un second site à Vaison-la-Romaine, qui est celui de cette fiche.",
+    "addr": "2810 route d'Orange, 84110 Vaison-la-Romaine",
+    "src": "https://maltbrothers.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://maltbrothers.fr",
+     "source": "https://maltbrothers.fr",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://maltbrothers.fr",
+    "https://data.geopf.fr/geocodage/search?q=2810+route+d%27Orange%2C+84110+Vaison-la-Romaine&limit=5"
+   ],
+   "extrait": "L'expérience se prolonge avec la tap room où vous pourrez déguster toutes nos bières à la pression",
+   "choix": "Pas de téléphone : le seul numéro vu est celui d'une structure voisine. Pas d'horaires : le site n'en donne pas. Catégorie 1, confiance moyenne : la tap room est sur le site, la boutique sur la fiche de l'office. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Améno",
+    "c": "Camaret-sur-Aigues",
+    "d": "84",
+    "lat": 44.15511,
+    "lon": 4.89133,
+    "km": 169.3,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale (société Arthy, propriétaire du site Améno) avec un bar sur place et un « beer drive » pour repartir avec ses bières. Horaires du bar lus sur la page contact du site officiel.",
+    "addr": "ZA Jonquier et Morelles, rue Antoine Laurent de Lavoisier, 84850 Camaret-sur-Aigues",
+    "src": "https://ameno-biere.com/contact.php",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 38 43 24 70",
+     "site": "https://ameno-biere.com",
+     "source": "https://ameno-biere.com/contact.php",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "23:30"
+       ]
+      ],
+      "source": "https://ameno-biere.com/contact.php",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://ameno-biere.com/contact.php",
+    "https://data.geopf.fr/geocodage/search?q=Camaret-sur-Aigues&type=municipality&limit=5"
+   ],
+   "extrait": "LE BAR",
+   "choix": "Bar et horaires lus sur la page contact du site (rubrique « Le bar ») ; la société propriétaire du site est celle du registre. Téléphone de la page contact (mobile, seule ligne publiée par la brasserie). Les horaires de l'office, différents, sont écartés. Le point OSM « Brasserie Ameno » est le même lieu. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Ventopp",
+    "c": "Villes-sur-Auzon",
+    "d": "84",
+    "lat": 44.0551,
+    "lon": 5.22231,
+    "km": 183.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce la production et la vente directe de bières, et une dégustation sur place des bières, selon disponibilité. Aucun horaire publié sur le site.",
+    "addr": "ZAE des Fontaynes, 725 route de Carpentras, 84570 Villes-sur-Auzon",
+    "src": "https://ventopp.fr/la-boutique",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 83 35 56 80",
+     "site": "https://ventopp.fr",
+     "source": "https://ventopp.fr/la-boutique",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://ventopp.fr/la-boutique",
+    "https://data.geopf.fr/geocodage/search?q=ZAE+des+Fontaynes%2C+725+route+de+Carpentras%2C+84570+Villes-sur-Auzon&limit=5"
+   ],
+   "extrait": "dégustation sur place des bières (selon disponibilité)",
+   "choix": "Confiance moyenne : la dégustation est « selon disponibilité » et aucun horaire n'est donné. Le téléphone 09 83 35 56 80 est celui du pied de page du site de la brasserie ; c'est le seul numéro publié (l'office de tourisme donne le même). Pas d'Untappd : le site ne renvoie qu'à Facebook et Instagram, et je n'ai pas pu chercher sur Untappd (quota de recherches épuisé). Horaires non repris : le site n'en publie pas. L'office en donne, et ils ne sont ni de la saison ni de la source retenue."
+  },
+  {
+   "fiche": {
+    "n": "Les Brasseurs Bran'chais",
+    "c": "Châteauneuf-du-Pape",
+    "d": "84",
+    "lat": 44.05976,
+    "lon": 4.83361,
+    "km": 179.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie donne son adresse et propose des dégustations « directement dans notre brasserie ou chez vous » sur contact par e-mail ; il ne dit rien de la vente sur place ni d'horaires. L'office de tourisme dit que les bières se vendent à Vinadéa et au Magasin Utile de Châteauneuf-du-Pape. Rien n'établit donc encore ce qu'on peut y faire.",
+    "addr": "Lieu-dit Le Grand Pierre, route de Courthézon, 84230 Châteauneuf-du-Pape",
+    "src": "https://lesbrasseursbranchais.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://lesbrasseursbranchais.fr",
+     "source": "https://lesbrasseursbranchais.fr",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://lesbrasseursbranchais.fr",
+    "https://data.geopf.fr/geocodage/search?q=Ch%C3%A2teauneuf-du-Pape&type=municipality&limit=5"
+   ],
+   "extrait": "Vous souhaitez déguster ? N'hésitez pas a nous contacter par email",
+   "choix": "Rapprochée de la ligne du registre par l'adresse (lieu-dit Le Grand Pierre, route de Courthézon), identique à celle du site. Aucun téléphone publié, pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Miss'Isle",
+    "c": "Cavaillon",
+    "d": "84",
+    "lat": 43.8332,
+    "lon": 5.03938,
+    "km": 206,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie indique un siège à L'Isle-sur-la-Sorgue et un local de production à Cavaillon, et invite à venir « directement à la brasserie » ; il ne parle ni de vente sur place, ni d'horaires. Rien n'établit donc encore ce qu'on peut y faire. L'office de tourisme dit que les bières se trouvent dans une vingtaine d'établissements de L'Isle-sur-la-Sorgue.",
+    "addr": "120 avenue Jean Jaurès, 84300 Cavaillon",
+    "src": "https://www.biere-missisle.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 10 40 88 51",
+     "site": "https://www.biere-missisle.com",
+     "source": "https://www.biere-missisle.com",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.biere-missisle.com",
+    "https://data.geopf.fr/geocodage/search?q=120+avenue+Jean+Jaur%C3%A8s%2C+84300+Cavaillon&limit=5"
+   ],
+   "extrait": "Le siège social est situé à L’Isle sur la sorgue et le local de production se trouve à Cavaillon.",
+   "choix": "Le candidat « CHEZ ELLE BEER » est la société qui édite les bières Miss'Isle (mentions légales du site). Deux adresses sont publiées : siège 3 rue Joseph Roumanille à L'Isle-sur-la-Sorgue (adresse que donne l'office de tourisme), local de production 120 avenue Jean Jaurès à Cavaillon. J'ai retenu Cavaillon, car la brasserie est où l'on brasse, mais le site ne dit pas où l'on est reçu : Cédric tranche (sinon L'Isle-sur-la-Sorgue). Téléphone : 06 10 40 88 51, un mobile, seule ligne publiée par la brasserie dans ses mentions légales (l'office écrit le même). Lien Untappd : aucun lu. La mention « en passant directement à la brasserie » m'a été rendue en deux citations, donc non reprise comme extrait."
+  },
+  {
+   "fiche": {
+    "n": "Les Ouailles du Luberon",
+    "c": "Cheval-Blanc",
+    "d": "84",
+    "lat": 43.79234,
+    "lon": 5.07601,
+    "km": 210.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Fiche d'office de tourisme : brasserie bio au pied du Luberon, bières en bouteilles de 33 cl et 75 cl et en fûts. Vente à la propriété, sur les marchés, en ligne, Click & Collect et retrait à la ferme. Aucune dégustation ni consommation sur place n'est citée. Le site officiel (ouailles-luberon.fr) répondait 503 lors de la lecture.",
+    "addr": "225 chemin de l'Indicateur, 84460 Cheval-Blanc",
+    "src": "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "remarque": "Fermé les week-ends. Horaires de l'office de tourisme pour 2026 ; hors de la période, aucun horaire publié.",
+      "periode": {
+       "du": "04-01",
+       "au": "10-31"
+      },
+      "source": "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+    "https://data.geopf.fr/geocodage/search?q=225+chemin+de+l%27Indicateur%2C+84460+Cheval-Blanc&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Horaires de l'office pour la saison en cours : du 01/04 au 31/10/2026, du lundi au vendredi de 9h à 17h, fermé les week-ends. Ils sont repris avec une période. Aucun téléphone n'a été lu (office seul, aucun numéro retenu)."
+  },
+  {
+   "fiche": {
+    "n": "Brasseur de l'Isle-sur-la-Sorgue",
+    "c": "L'Isle-sur-la-Sorgue",
+    "d": "84",
+    "lat": 43.91836,
+    "lon": 5.05009,
+    "km": 196.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie et boutique (bières La Vallis Clausa) : le site officiel affiche une carte avec bières à la pression (bock, demi, pinte) et en bouteilles, plus planches et crêpes ; bouteilles à emporter à l'unité ou en carton. Sans relecture sur place, confiance moyenne.",
+    "addr": "8 rue Michelet, 84800 L'Isle-sur-la-Sorgue",
+    "src": "https://brasseurislesurlasorgue.fr/snacking/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 49 62 23 17",
+     "site": "https://brasseurislesurlasorgue.fr",
+     "source": "https://brasseurislesurlasorgue.fr/snacking/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:00",
+        "14:00"
+       ]
+      ],
+      "source": "https://brasseurislesurlasorgue.fr",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://brasseurislesurlasorgue.fr/snacking/",
+    "https://brasseurislesurlasorgue.fr",
+    "https://data.geopf.fr/geocodage/search?q=8+rue+Michelet%2C+84800+L%27Isle-sur-la-Sorgue&limit=5"
+   ],
+   "extrait": "Pression :\n\nBock\n\n2€\n\nDemi\n\n3€\n\n33cl\n\n3,50€\n\nPinte\n\n5,50€",
+   "choix": "Pages lues du site officiel (accueil, la-brasserie, snacking), en rendu texte, bandeaux cookies compris. La vente à emporter est dite sur /la-brasserie/ (« vous pourrez acheter des bouteilles à emporter, vendues à l'unité ou en carton. ») ; l'extrait est pris sur /snacking/ (une seule page). Les sauts de ligne de l'extrait sont ceux du rendu texte : à contrôler par Cédric. Un seul numéro publié, un portable (07 49 62 23 17), retenu faute d'autre ligne. Horaires lus sur la page d'accueil (« Du mercredi au samedi : 10h00 – 12h30 / 15h00 – 19h00 », « Le dimanche : 10h00 – 14h00 », « Fermé lundi et mardi. »). L'office de tourisme donne d'autres horaires (écartés). Aucune page Untappd trouvée (page de recherche vide)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Epicentre",
+    "c": "Pertuis",
+    "d": "84",
+    "lat": 43.68452,
+    "lon": 5.55745,
+    "km": 230.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante (site officiel, adresse à Pertuis, bières bio brassées depuis juillet 2023, commande par boutique en ligne). Le site ne dit pas si l'on peut acheter ou consommer sur place, et ne donne pas d'horaires : à confirmer.",
+    "addr": "282 Chemin de Saint-Estève, 84120 Pertuis",
+    "src": "https://www.brasserie-epicentre.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 02 46 57 55",
+     "site": "https://www.brasserie-epicentre.com/",
+     "source": "https://www.brasserie-epicentre.com/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.brasserie-epicentre.com/",
+    "https://data.geopf.fr/geocodage/search?q=282+Chemin+de+Saint-Est%C3%A8ve%2C+84120+Pertuis&limit=5"
+   ],
+   "extrait": "282 Chemin de Saint-Estève 84120 PERTUIS",
+   "choix": "Les deux candidats (sirene:918759200 à Pertuis, et node/13875880501 « Brasserie Epicentre Pertuis », rattaché par OSM à La Bastidonne) ont la même adresse et le même site : une seule fiche, commune Pertuis (celle du site). Un seul téléphone sur le site, un portable, repris car c'est la seule ligne publiée par la brasserie. Untappd non cherché (quota)."
+  },
+  {
+   "fiche": {
+    "n": "Les Dÿades",
+    "c": "Vaison-la-Romaine",
+    "d": "84",
+    "lat": 44.24115,
+    "lon": 5.07802,
+    "km": 161.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale (bières, limonade, vins houblonnés). Visite de la fabrique sur réservation par téléphone, avec dégustation ; pas de consommation sur place établie. Vente sur place indiquée seulement par l'office de tourisme.",
+    "addr": "3 rue Abel André, 84110 Vaison-la-Romaine",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/les-dyades-brasserie-artisanale-lodyssee-des-bulles-vaison-la-romaine-fr-4066915/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 75 98 75 03",
+     "site": "https://lesdyades-vaison.fr",
+     "source": "https://lesdyades-vaison.fr",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/les-dyades-brasserie-artisanale-lodyssee-des-bulles-vaison-la-romaine-fr-4066915/",
+    "https://lesdyades-vaison.fr",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+Abel+Andr%C3%A9%2C+84110+Vaison-la-Romaine&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Existence établie par le site officiel (adresse 3 rue Abel André, boutique en ligne, visites) et la fiche de l'office de tourisme. Catégorie 2 en confiance moyenne : seul l'office parle de vente sur place (« Vente à la propriété », « Boutique »), le site officiel ne le dit pas. Si Cédric veut plus de prudence : cat 0. Téléphone : le seul publié par la brasserie sur son site est un mobile (0675987503, mis au format 06 75 98 75 03). Je le retiens faute d'autre ligne. Horaires non repris : l'office donne un tableau marqué « Horaires non garantis aujourd'hui », et le site n'en donne pas (visites sur réservation, dégustations « en été »). Untappd : aucune page trouvée (2 recherches, rien sur le site)."
+  },
+  {
+   "fiche": {
+    "n": "Fatch Brasserie Provençale",
+    "c": "Courthézon",
+    "d": "84",
+    "lat": 44.09494,
+    "lon": 4.8732,
+    "km": 175.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante d'après la fiche de l'office de tourisme (4 styles : blonde, blanche, ambrée, IPA ; vendue chez des revendeurs du Vaucluse et du Gard). Aucune vente ni accueil sur place indiqués, pas d'horaires, pas de site officiel trouvé : à confirmer.",
+    "addr": "526 Route d'Orange, 84350 Courthézon",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/fatch-brasserie-provencale-courthezon-fr-5121785/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/fatch-brasserie-provencale-courthezon-fr-5121785/",
+    "https://data.geopf.fr/geocodage/search?q=526+Route+d%27Orange%2C+84350+Courth%C3%A9zon&limit=5"
+   ],
+   "extrait": "Brassée en Provence. 4 styles : Blonde, Blanche, Ambrée, IPA.",
+   "choix": "Office de tourisme seul, avec en piste des pages Facebook et Instagram (non lues). Téléphones de la fiche non repris (publiés par l'office). Nom de la fiche : « Fatch Brasserie Provençale » (office), la raison sociale SIRENE étant « Fatch Brasserie Artisanale »."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Lub'",
+    "c": "Taillades",
+    "d": "84",
+    "lat": 43.83512,
+    "lon": 5.08566,
+    "km": 206.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Fiche d'office de tourisme : vente à la propriété, boutique sur place, vente sur les marchés, boutique en ligne et Click & Collect. Aucune dégustation ni consommation sur place n'est citée. Aucun site officiel de la brasserie n'a été lu.",
+    "addr": "9B ZAC Bel Air, 84300 Taillades",
+    "src": "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+    "coordPrecision": "centre",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "remarque": "Période d'ouverture publiée par l'office : du 11/01 au 31/12. Fermé le lundi et le dimanche.",
+      "source": "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+    "https://data.geopf.fr/geocodage/search?q=Taillades&type=municipality&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Candidat SIRENE « LA FAUVETTE GOURMANDE, LA LUB' », 9 B ZA Bel Air, 84300 Taillades : même adresse que la fiche de l'office (9B ZAC Bel Air). Le téléphone publié par l'office (04 90 74 43 99) n'est pas repris (office seul, précédent S342). Horaires de l'office repris : 10h-12h et 15h-18h30, fermé lundi et dimanche. La période « du 11/01 au 31/12 » est ambiguë, elle est donc écrite en remarque et non en période."
+  }
+ ]
+}

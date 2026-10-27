@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:838335719",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Chante Grenouille",
+   "c": "Vaison-la-Romaine",
+   "d": "84",
+   "lat": 44.2494,
+   "lon": 5.06143,
+   "km": 160.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Connue d'une fiche de l'office de tourisme, qui cite une boutique et une dégustation de produits, sur rendez-vous. Pas de site propre trouvé.",
+   "addr": "Avenue Marcel Pagnol, 84110 Vaison-la-Romaine",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/chante-grenouille-vaison-la-romaine-fr-4133779/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/chante-grenouille-vaison-la-romaine-fr-4133779/",
+   "https://data.geopf.fr/geocodage/search?q=Vaison-la-Romaine&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustation de produits",
+  "choix": "Catégorie 0 : la boutique et la dégustation ne sont dites que sur rendez-vous, par l'office seul. Le nom d'usage est celui de l'office ; il est rapproché de la ligne du registre par l'adresse. Téléphone publié par l'office seul : non repris."
+ }
+}

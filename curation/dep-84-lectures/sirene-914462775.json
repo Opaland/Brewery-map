@@ -1,0 +1,87 @@
+{
+ "candidat": "sirene:914462775",
+ "ajout": {
+  "fiche": {
+   "n": "Brasseur de l'Isle-sur-la-Sorgue",
+   "c": "L'Isle-sur-la-Sorgue",
+   "d": "84",
+   "lat": 43.91836,
+   "lon": 5.05009,
+   "km": 196.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et boutique (bières La Vallis Clausa) : le site officiel affiche une carte avec bières à la pression (bock, demi, pinte) et en bouteilles, plus planches et crêpes ; bouteilles à emporter à l'unité ou en carton. Sans relecture sur place, confiance moyenne.",
+   "addr": "8 rue Michelet, 84800 L'Isle-sur-la-Sorgue",
+   "src": "https://brasseurislesurlasorgue.fr/snacking/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 49 62 23 17",
+    "site": "https://brasseurislesurlasorgue.fr",
+    "source": "https://brasseurislesurlasorgue.fr/snacking/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseurislesurlasorgue.fr",
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:00",
+       "14:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasseurislesurlasorgue.fr/snacking/",
+   "https://brasseurislesurlasorgue.fr",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+Michelet%2C+84800+L%27Isle-sur-la-Sorgue&limit=5"
+  ],
+  "extrait": "Pression :\n\nBock\n\n2€\n\nDemi\n\n3€\n\n33cl\n\n3,50€\n\nPinte\n\n5,50€",
+  "choix": "Pages lues du site officiel (accueil, la-brasserie, snacking), en rendu texte, bandeaux cookies compris. La vente à emporter est dite sur /la-brasserie/ (« vous pourrez acheter des bouteilles à emporter, vendues à l'unité ou en carton. ») ; l'extrait est pris sur /snacking/ (une seule page). Les sauts de ligne de l'extrait sont ceux du rendu texte : à contrôler par Cédric. Un seul numéro publié, un portable (07 49 62 23 17), retenu faute d'autre ligne. Horaires lus sur la page d'accueil (« Du mercredi au samedi : 10h00 – 12h30 / 15h00 – 19h00 », « Le dimanche : 10h00 – 14h00 », « Fermé lundi et mardi. »). L'office de tourisme donne d'autres horaires (écartés). Aucune page Untappd trouvée (page de recherche vide)."
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:820115533",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie d'à côté (Madame Dusse)",
+   "c": "Le Beausset",
+   "d": "83",
+   "lat": 43.19433,
+   "lon": 5.80837,
+   "km": 288.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie du Beausset (bières « Madame Dusse »). Son site annonce un bar et une boutique ouverts du mardi au samedi de 17 h à 23 h, avec des bières à la pression et en bouteille servies au comptoir. La vente à emporter n'est pas écrite explicitement : confiance moyenne.",
+   "addr": "230 route de Toulon, RN8, 83330 Le Beausset",
+   "src": "https://madamedusse.com/lacarte",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 83 16 96 57",
+    "site": "https://madamedusse.com/",
+    "source": "https://madamedusse.com/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://madamedusse.com/lacarte",
+     "mar": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Horaires du bar et de la boutique, lus sous « Horaire bar & boutique ».",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://madamedusse.com/lacarte",
+   "https://madamedusse.com/",
+   "https://data.geopf.fr/geocodage/search?q=230+route+de+Toulon%2C+RN8%2C+83330+Le+Beausset&limit=5"
+  ],
+  "extrait": "Service au comptoir. Prix Nets.",
+  "choix": "Pages lues par résumé de WebFetch (accueil, la-fabrique, lacarte), pas en entier ; passages rendus mot pour mot par l'outil. Aucune page Untappd trouvée (deux recherches), donc beers vide. Un seul numéro publié sur le site de la brasserie, « (+33) 04 83 16 96 57 », repris en « 04 83 16 96 57 ». Le nom de la fiche est un choix de présentation à confirmer : le site dit « La brasserie d’à côté » et SIRENE « BRASSERIE D A COTE ». La note ne cite pas de personne (le résumé de l'office nomme la brasseuse : écarté). Catégorie 1 : bar et boutique aux mêmes horaires ; la vente à emporter n'étant pas explicite, pas de solide."
+ }
+}

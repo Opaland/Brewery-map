@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:824304711",
+ "ajout": {
+  "fiche": {
+   "n": "La Petite Aixoise",
+   "c": "Saint-Cannat",
+   "d": "13",
+   "lat": 43.6143,
+   "lon": 5.3178,
+   "km": 233.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale à Saint-Cannat, présente sur Untappd et sur la fiche de l'office de tourisme d'Aix. Son site officiel (lapetiteaixoise.fr) répondait par une erreur 500 : la vente sur place n'est pas établie.",
+   "addr": "705 avenue de l'Europe, 13760 Saint-Cannat",
+   "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://lapetiteaixoise.fr",
+    "source": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/saint-cannat/la-petite-aixoise",
+   "https://data.geopf.fr/geocodage/search?q=705+avenue+de+l%27Europe%2C+13760+Saint-Cannat&limit=5"
+  ],
+  "extrait": "une bière artisanale qui se veut locale, 100 % naturelle et sans aucun additif de synthèse",
+  "choix": "Téléphone 06 30 34 68 56 écarté : office seulement. Horaires écartés : la fiche de l'office donne des créneaux mais ne dit pas que la bière s'y vend, et le site officiel n'a pas pu être lu pour les confirmer. Page Untappd https://untappd.com/LaPetiteAixoise vue dans les résultats de recherche et lue via un résumé, adresse non précisée : lien non proposé sans ouverture directe. Bières non reprises (non lues en entier sur Untappd)."
+ }
+}

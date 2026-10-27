@@ -1,0 +1,101 @@
+{
+ "candidat": "sirene:797492121",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Comté",
+   "c": "Saint-Martin-Vésubie",
+   "d": "06",
+   "lat": 44.07636,
+   "lon": 7.26277,
+   "km": 265.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Site officiel : boutique ouverte du lundi au samedi ; visites avec dégustation (vacances scolaires, 1 à 2 fois par semaine) et visites « apéro » du lundi au samedi. Une consommation sur place en dehors des visites n'est pas lue, d'où la catégorie 2. Le second établissement SIRENE (Colomars) n'a pas été cherché.",
+   "addr": "Chemin de la Romegiero, lieu-dit Pra dou Majou, 06450 Saint-Martin-Vésubie",
+   "src": "https://www.brasserieducomte.fr/nous-contacter/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 86 33 43 64",
+    "site": "https://www.brasserieducomte.fr",
+    "source": "https://www.brasserieducomte.fr/visite-de-la-brasserie/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserieducomte.fr/nous-contacter/",
+     "lun": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.brasserieducomte.fr/nous-contacter/",
+   "https://www.brasserieducomte.fr/visite-de-la-brasserie/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Martin-V%C3%A9subie&type=municipality&limit=5"
+  ],
+  "extrait": "Horaires ouverture boutique",
+  "choix": "Deux numéros sur la page de visite : le mobile de la brasserie (07 86 33 43 64, retenu : seule ligne publiée par la brasserie) et le 04 93 03 21 28, qui est celui de l'office de tourisme (écarté). Aucun lien Untappd trouvé. Je n'ai pas pu recopier le bloc d'horaires mot pour mot (le lecteur en rend un résumé) : l'extrait est le seul intitulé exact. Le résumé a une fois parlé de « cinq lignes » pour lundi à samedi ; à vérifier à l'œil par Cédric (la recherche web donne aussi lundi-samedi 9h30-12h30 / 13h30-17h30)."
+ }
+}

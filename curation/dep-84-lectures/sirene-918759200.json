@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:918759200",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Epicentre",
+   "c": "Pertuis",
+   "d": "84",
+   "lat": 43.68452,
+   "lon": 5.55745,
+   "km": 230.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie existante (site officiel, adresse à Pertuis, bières bio brassées depuis juillet 2023, commande par boutique en ligne). Le site ne dit pas si l'on peut acheter ou consommer sur place, et ne donne pas d'horaires : à confirmer.",
+   "addr": "282 Chemin de Saint-Estève, 84120 Pertuis",
+   "src": "https://www.brasserie-epicentre.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 02 46 57 55",
+    "site": "https://www.brasserie-epicentre.com/",
+    "source": "https://www.brasserie-epicentre.com/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.brasserie-epicentre.com/",
+   "https://data.geopf.fr/geocodage/search?q=282+Chemin+de+Saint-Est%C3%A8ve%2C+84120+Pertuis&limit=5"
+  ],
+  "extrait": "282 Chemin de Saint-Estève 84120 PERTUIS",
+  "choix": "Les deux candidats (sirene:918759200 à Pertuis, et node/13875880501 « Brasserie Epicentre Pertuis », rattaché par OSM à La Bastidonne) ont la même adresse et le même site : une seule fiche, commune Pertuis (celle du site). Un seul téléphone sur le site, un portable, repris car c'est la seule ligne publiée par la brasserie. Untappd non cherché (quota)."
+ }
+}

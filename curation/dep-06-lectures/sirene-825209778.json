@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:825209778",
+ "ajout": {
+  "fiche": {
+   "n": "Blue Coast Brewing Company",
+   "c": "Nice",
+   "d": "06",
+   "lat": 43.72005,
+   "lon": 7.19484,
+   "km": 290.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie existante (site officiel, Untappd, offices de tourisme). Le site propose une visite de la brasserie avec dégustation, le jeudi, sur réservation ; il ne dit pas si l'on peut acheter ou boire sur place (les « boutique » du site renvoient à une boutique en ligne). Aucun horaire d'ouverture publié.",
+   "addr": "18 chemin de Saquier",
+   "src": "https://www.bluecoastbrewing.com/pages/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 97 07 95 08",
+    "site": "https://www.bluecoastbrewing.com/",
+    "source": "https://www.bluecoastbrewing.com/pages/contact",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.bluecoastbrewing.com/pages/contact",
+   "https://data.geopf.fr/geocodage/search?q=18+chemin+de+Saquier&limit=5"
+  ],
+  "extrait": "Venez découvrir les coulisses du brassage",
+  "choix": "Catégorie 0 : visite + dégustation seulement, vente sur place non établie. Horaires non repris : seule la visite du jeudi (2 heures) est donnée, sans heure. Page Untappd https://untappd.com/BlueCoastBrewing ouverte (micro-brasserie, Nice) mais non mise dans contact : le lien n'est pas lu sur la page source du contact ; bières laissées vides (types non classés). Téléphone du site retenu (seul numéro publié) ; ceux de l'office de tourisme ignorés."
+ }
+}

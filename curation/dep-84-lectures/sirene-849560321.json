@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:849560321",
+ "ajout": {
+  "fiche": {
+   "n": "Agora Brasseurs",
+   "c": "Carpentras",
+   "d": "84",
+   "lat": 44.03374,
+   "lon": 5.04087,
+   "km": 183.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : son site (agora-biere.com) se présente comme celui d'un artisan brasseur et caviste. Les pages lues ne détaillent pas ce qu'on peut y faire : à confirmer.",
+   "addr": "67 rue du Château Durbesson, 84200 Carpentras",
+   "src": "https://agora-biere.com",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://agora-biere.com",
+   "https://data.geopf.fr/geocodage/search?q=67+rue+du+Ch%C3%A2teau+Durbesson%2C+84200+Carpentras&limit=5"
+  ],
+  "extrait": "AGORA ARTISAN BRASSEUR",
+  "choix": "Catégorie 0. Le site officiel n'a été lu que par un résumé (titre de la page d'accueil ; la page contact en 404). L'extrait est donc un fragment de ce titre. L'office de tourisme annonce des horaires 2026 (« tous les jours de 10h à 12h30 et de 14h à 18h30 ») et une boutique, mais je n'ai pas pu savoir si c'est de l'accueil ou de la vente : horaires non repris. Téléphone : seulement un mobile publié par l'office, non repris. Pas d'Untappd cherché (quota)."
+ }
+}
