@@ -2991,3 +2991,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S358 — Les chiffres et récits hors du filet *(27/10, issue #210)*
 
 `docs/stories/S358.md`, écrite avant le code. `tests/unit/chiffres-ecrits.test.ts` tient aussi le nombre de départements de `docs/MARKETING.md`, le nombre de « brasseries ajoutées » de « Quoi de neuf » (les fiches absentes du fichier du 15/10, relu dans git comme le fait la garde : 393) et le dernier sprint cité par `docs/ETAT.md` (« S1 → Sn », contre les titres de `docs/SPRINTS.md`). Chaque test vu rouge sur un nombre faussé ; le troisième était rouge pour de vrai (ETAT disait S355). Revues : chaque échec dit quoi écrire et où, le numéro de sprint est lu avant le tiret du titre, un clone superficiel donne une erreur claire ; `CONTRIBUTING.md` et le skill de campagne le disent.
+
+## S359 — Les constantes dites deux fois, tenues d'accord *(27/10, issue #211)*
+
+`docs/stories/S359.md`, écrite avant le code. `tests/unit/jumeaux.test.ts` tient les constantes que la doc répète : tuiles, délais du réseau et de la couche OSM, zoom (`docs/ARCHITECTURE.md`, `docs/CONTINUITE.md`, `docs/DONNEES.md` contre `public/sw.js`, `src/Carte.tsx`, `src/main.tsx`), le délai du crochet (`docs/PORTE.md` contre `.claude/settings.json`), et une seule version de Node (`.nvmrc`, `engines`, workflows, README, `CONTRIBUTING.md`, `docs/REPRISE-POWERSHELL.md`). Le motif d'un département est écrit une fois (`MOTIF_DEPARTEMENT`, `src/core/schema.ts`). Chaque paire vue rouge ; trois paires ajoutées en revue adverse.

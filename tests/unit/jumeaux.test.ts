@@ -32,24 +32,29 @@ describe('les règles jumelles', () => {
     expect(sw).toBe(CACHE_TUILES)
   })
 
-  // S359 (#211) : des constantes dites dans la doc et dans le code.
+  // S359 (#211) : des constantes dites dans la doc et dans le code. Les
+  // phrases citées sont tenues mot pour mot : reformulées, elles se
+  // réécrivent ici aussi.
   const constante = (fichier: string, nom: string): number => {
-    const v = new RegExp(`const ${nom} = (\\d+)`).exec(readFileSync(fichier, 'utf8'))?.[1]
-    expect(v, `${nom} introuvable dans ${fichier}`).toBeDefined()
+    const v = new RegExp(`const ${nom} = (\\d+)\\b`).exec(readFileSync(fichier, 'utf8'))?.[1]
+    expect(v, `${fichier} : « const ${nom} = <nombre> » introuvable (ce test lit cette écriture-là)`).toBeDefined()
     return Number(v)
   }
+  const PAIRES: readonly { doc: string; phrase: RegExp; facteur: number; fichier: string; nom: string }[] = [
+    { doc: 'docs/ARCHITECTURE.md', phrase: /Les tuiles : (\d+) au plus/, facteur: 1, fichier: 'public/sw.js', nom: 'MAX_TUILES' },
+    { doc: 'docs/ARCHITECTURE.md', phrase: /mais (\d+) s au plus quand le cache/, facteur: 1000, fichier: 'public/sw.js', nom: 'DELAI_RESEAU' },
+    { doc: 'docs/ARCHITECTURE.md', phrase: /au zoom (\d+) au plus/, facteur: 1, fichier: 'src/Carte.tsx', nom: 'ZOOM_MAX' },
+    { doc: 'docs/ARCHITECTURE.md', phrase: /attente de (\d+) s au plus/, facteur: 1000, fichier: 'src/main.tsx', nom: 'DELAI_COUCHE_MS' },
+    { doc: 'docs/CONTINUITE.md', phrase: /Jusqu'à (\d+) tuiles/, facteur: 1, fichier: 'public/sw.js', nom: 'MAX_TUILES' },
+    { doc: 'docs/CONTINUITE.md', phrase: /au bout de (\d+) s même si le réseau/, facteur: 1000, fichier: 'public/sw.js', nom: 'DELAI_RESEAU' },
+    { doc: 'docs/DONNEES.md', phrase: /La carte s'arrête au zoom (\d+)/, facteur: 1, fichier: 'src/Carte.tsx', nom: 'ZOOM_MAX' },
+  ]
 
-  it('docs/ARCHITECTURE.md dit les valeurs du service worker, de la carte et du premier rendu (S359)', () => {
-    const archi = readFileSync('docs/ARCHITECTURE.md', 'utf8')
-    const lu = (motif: RegExp): number => {
-      const v = motif.exec(archi)?.[1]
-      expect(v, `docs/ARCHITECTURE.md : ${String(motif)} introuvable`).toBeDefined()
-      return Number(v)
-    }
-    expect(lu(/Les tuiles : (\d+) au plus/), 'docs/ARCHITECTURE.md : « Les tuiles : N au plus » doit valoir MAX_TUILES (public/sw.js)').toBe(constante('public/sw.js', 'MAX_TUILES'))
-    expect(lu(/mais (\d+) s au plus quand le cache/) * 1000, 'docs/ARCHITECTURE.md : « mais N s au plus » doit valoir DELAI_RESEAU (public/sw.js)').toBe(constante('public/sw.js', 'DELAI_RESEAU'))
-    expect(lu(/au zoom (\d+) au plus/), 'docs/ARCHITECTURE.md : « au zoom N au plus » doit valoir ZOOM_MAX (src/Carte.tsx)').toBe(constante('src/Carte.tsx', 'ZOOM_MAX'))
-    expect(lu(/attente de (\d+) s au plus/) * 1000, 'docs/ARCHITECTURE.md : « attente de N s au plus » doit valoir DELAI_COUCHE_MS (src/main.tsx)').toBe(constante('src/main.tsx', 'DELAI_COUCHE_MS'))
+  it.each(PAIRES)('$doc dit $nom ($fichier) (S359)', ({ doc, phrase, facteur, fichier, nom }) => {
+    const attendu = constante(fichier, nom)
+    const ecrit = phrase.exec(readFileSync(doc, 'utf8'))?.[1]
+    expect(ecrit, `${doc} : phrase ${String(phrase)} introuvable (elle est tenue mot pour mot par ce test)`).toBeDefined()
+    expect(Number(ecrit) * facteur, `${doc} : écrire ${String(attendu / facteur)} dans ${String(phrase)}, la valeur de ${nom} (${fichier})`).toBe(attendu)
   })
 
   it('docs/PORTE.md dit le délai du crochet de .claude/settings.json (S359)', () => {
@@ -66,25 +71,27 @@ describe('les règles jumelles', () => {
     const version = readFileSync('.nvmrc', 'utf8').trim()
     expect(version).toMatch(/^\d+$/)
     const engines = (JSON.parse(readFileSync('package.json', 'utf8')) as { engines: { node: string } }).engines.node
-    expect(engines, 'package.json : engines.node').toBe(`>=${version}`)
+    expect(engines, `package.json : écrire engines.node « >=${version} », la version de .nvmrc`).toBe(`>=${version}`)
     const workflows = readdirSync('.github/workflows').filter((f) => f.endsWith('.yml'))
     const versions = workflows.flatMap((f) =>
       [...readFileSync(`.github/workflows/${f}`, 'utf8').matchAll(/node-version: *['"]?([^'"\s]+)/g)].map((m) => `${f} : ${m[1]}`),
     )
-    expect(versions.length).toBeGreaterThan(0)
+    expect(versions.length, 'aucun « node-version: » dans .github/workflows (un « node-version-file » se lit à part : adapter ce test)').toBeGreaterThan(0)
     expect(versions.filter((v) => !v.endsWith(` : ${version}`)), `node-version des workflows ≠ .nvmrc (${version})`).toEqual([])
     for (const doc of ['README.md', 'CONTRIBUTING.md']) {
+      // « Node 24 » ailleurs dans la doc est le poste de Cédric (S302, W9), pas la version du projet.
       expect(readFileSync(doc, 'utf8'), `${doc} : écrire « Node ${version} (\`.nvmrc\`) »`).toContain(`Node ${version} (\`.nvmrc\`)`)
     }
+    expect(readFileSync('docs/REPRISE-POWERSHELL.md', 'utf8'), `docs/REPRISE-POWERSHELL.md : écrire « Git, Node ${version}, GitHub CLI »`).toContain(`Git, Node ${version}, GitHub CLI`)
   })
 
   it('le motif d’un département n’est écrit qu’une fois, dans src/core/schema.ts (S359)', () => {
     const fichiers = (dossier: string): string[] =>
       readdirSync(dossier, { recursive: true, encoding: 'utf8' })
-        .filter((f) => /\.tsx?$/.test(f))
+        .filter((f) => /\.(tsx?|m?js)$/.test(f))
         .map((f) => `${dossier}/${f.replaceAll('\\', '/')}`)
-    const copies = [...fichiers('src'), ...fichiers('outils')].filter(
-      (f) => f !== 'src/core/schema.ts' && /2\[AB\]|2A\|2B/.test(readFileSync(f, 'utf8')),
+    const copies = ['src', 'outils', 'build', 'tests', '.claude/hooks'].flatMap(fichiers).filter(
+      (f) => !['src/core/schema.ts', 'tests/unit/jumeaux.test.ts'].includes(f) && /2\[AB\]|2\[A-B\]|2A\|2B/.test(readFileSync(f, 'utf8')),
     )
     expect(copies, 'reprendre MOTIF_DEPARTEMENT de src/core/schema.ts').toEqual([])
   })

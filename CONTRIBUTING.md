@@ -37,7 +37,9 @@ raison, pas pour votre code.
    tient les nombres de la doc : fiches et départements du README, de
    `docs/ETAT.md` et de `docs/MARKETING.md`, le dernier sprint cité par
    `docs/ETAT.md` (« S1 → Sn », contre `docs/SPRINTS.md`), et la phrase de
-   « Quoi de neuf » ; son message dit quoi écrire et où. La porte
+   « Quoi de neuf » ; son message dit quoi écrire et où. De même, `tests/unit/jumeaux.test.ts` tient
+   les constantes que la doc répète (tuiles, délais, zoom, délai du crochet,
+   version de Node) : une valeur changée d'un côté se change de l'autre. La porte
    complète prend quelques minutes (`docs/PORTE.md`) ; `npm run porte` la
    lance d'un coup, sous Linux, macOS et Windows.
 2. Un problème de code se décrit d'abord dans une issue (constat, scénario
