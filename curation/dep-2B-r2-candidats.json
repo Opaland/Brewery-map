@@ -1,0 +1,184 @@
+[
+ {
+  "cle": "sirene:881678148",
+  "nom": "BENATI DISTRIBUTION",
+  "communes": [
+   "BIGUGLIA",
+   "SAN-NICOLAO"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "N 22 ZI TRAGONE 20620 BIGUGLIA",
+   "MORIANI PLAGE 40 RUE JEAN TAFANI 20230 SAN-NICOLAO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881678148",
+  "sirets": [
+   "88167814800019",
+   "88167814800027"
+  ],
+  "osm": [],
+  "lat": 42.597962261,
+  "lon": 9.441184031,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891608424",
+  "nom": "A MALACELLA",
+  "communes": [
+   "BASTIA"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "2 RUE FAVALELLI 20200 BASTIA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891608424",
+  "sirets": [
+   "89160842400026"
+  ],
+  "osm": [],
+  "lat": 42.6964011796946,
+  "lon": 9.44705502371609,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879211217",
+  "nom": "DOMAINE BRASSICOLE PALAZZU",
+  "communes": [
+   "ROGLIANO"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "PALAZZU NICROSI VIGNALE 20247 ROGLIANO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879211217",
+  "sirets": [
+   "87921121700010"
+  ],
+  "osm": [],
+  "lat": 42.951495675,
+  "lon": 9.4129783245,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE 3D",
+  "communes": [
+   "BASTIA"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "9 RUE CESAR CAMPINCHI 20200 BASTIA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:984159368",
+  "nom": "BRASSERIA SIRI",
+  "communes": [
+   "PINO"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "205 CORSU ANTONE PICCIONI 20228 PINO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984159368",
+  "sirets": [
+   "98415936800013"
+  ],
+  "osm": [],
+  "lat": 42.90742598,
+  "lon": 9.3527080224,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849394705",
+  "nom": "LA PETITE BRASSERIE DE CORSE",
+  "communes": [
+   "ALERIA"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "LIEUDIT POMPUGLIANI 20270 ALERIA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849394705",
+  "sirets": [
+   "84939470500016"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/186036094",
+  "nom": "Brasseur A Tribbierra",
+  "communes": [
+   "Ghisonaccia"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "Casamozza"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/186036094"
+  ],
+  "lat": 41.98667,
+  "lon": 9.40138,
+  "site": "http://corsica.fiumorbu.free.fr/atribbiera1.htm",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/592416988",
+  "nom": "Ribella",
+  "communes": [
+   "Patrimonio"
+  ],
+  "departement": "2B",
+  "adresses": [
+   "Route de Saint-Florent"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/592416988"
+  ],
+  "lat": 42.69505,
+  "lon": 9.34489,
+  "site": "https://biereribella.com/",
+  "statut": "nouveau"
+ }
+]

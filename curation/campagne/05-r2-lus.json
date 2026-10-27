@@ -1,0 +1,46 @@
+[
+ {
+  "cle": "sirene:907706402",
+  "n": "Brasseurs en Clarée",
+  "c": "Névache",
+  "adresse": "185 rue de Roubion, 05100 Névache",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Micro-brasserie du hameau du Roubion. D’après l’office de tourisme, ses bières s’achètent en bouteilles et se boivent à la pression au café-bar Le Brec, où se trouve sa boutique : c’est là qu’il faut aller.",
+  "src": "https://www.hautesvallees.com/la-claree/degustation/brasseurs-en-claree-nevache",
+  "extrait": "Notre boutique est située dans les locaux du café-bar LE BREC, où vous pouvez acheter nos bières BBEC en bouteilles et les déguster à la pression.",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), page relue à la main. Source : l’office de tourisme seul, d’où la confiance moyenne. Le mobile, lu seulement sur cette page d’office, n’est pas repris. Les horaires sont ceux du café-bar, par saison : non saisis. Le site de la brasserie répond 503. Extrait changé à la relecture de la persona Cédric : le premier ne disait pas ce qu’on peut y faire."
+ },
+ {
+  "cle": "sirene:419632781",
+  "n": "Brasserie L&L Alphand",
+  "c": "Vallouise-Pelvoux",
+  "adresse": null,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Ouvert l’été seulement : bar de mi-juin à mi-septembre, restaurant de fin juin à fin août. Microbrasserie de Vallouise depuis 1998 ; d’après l’office de tourisme, on y boit ses bières à la pression sur la terrasse.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-ll-alphand-vallouise-pelvoux-fr-2879108/",
+  "extrait": "dégustant nos bières à la pression sur la terrasse ensoleillée",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), page relue à la main. Source : l’office de tourisme seul, d’où la confiance moyenne. Le registre (« Bar Restaurant Alphand », Vallouise-Pelvoux) et la fiche (« La microbrasserie ALPHAND est installée à Vallouise ») désignent la même commune et le même nom. Téléphone et horaires d’été non repris (office seul ; saison passée). Le registre donne une société (« L ET L ALPHAND », SARL), pas un entrepreneur individuel."
+ },
+ {
+  "cle": "sirene:888726189",
+  "n": "Walpine",
+  "c": "Saint-Jean-Saint-Nicolas",
+  "adresse": "4 traverse de l'Estripa, 05260 Saint-Jean-Saint-Nicolas",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Son site présente une guinguette où boire un verre en terrasse ou au chaud, et un click & collect pour venir chercher ses bières à la brasserie.",
+  "src": "https://www.walpine.fr",
+  "extrait": "Passez nous voir pour boire un verre en terrasse ou au chaud, découvrir le monde de la bière et du brassage,",
+  "beers": [],
+  "choix": "Relance du 27/10 (S366), site relu à la main. Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Horaires non repris : le site les donne pour le « Programme printemps/été », la saison est passée. Pas d’Untappd trouvé.",
+  "contact": {
+   "tel": "06 16 21 38 04",
+   "site": "https://www.walpine.fr",
+   "source": "https://www.walpine.fr"
+  }
+ }
+]

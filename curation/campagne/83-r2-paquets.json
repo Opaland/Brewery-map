@@ -1,0 +1,69 @@
+[
+ [
+  {
+   "cle": "sirene:912395597",
+   "enseigne": "BRASSERIE SAINTE-CROIX",
+   "dep": "83",
+   "communes": [
+    "BAUDUEN"
+   ],
+   "adresses": [
+    "55 CHEMIN DE SAINT BARTHELEMY 83630 BAUDUEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977761394",
+   "enseigne": "STQR",
+   "dep": "83",
+   "communes": [
+    "LA FARLEDE"
+   ],
+   "adresses": [
+    "ZI TOULON EST QUA LES PIOUX RUE DE L ARAMON 83210 LA FARLEDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828908673",
+   "enseigne": "BRASSERIE DU CASTELLET",
+   "dep": "83",
+   "communes": [
+    "SIGNES"
+   ],
+   "adresses": [
+    "LA QUEUE DE SARTAN 870 AVENUE DE MADRID 83870 SIGNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:533417127",
+   "enseigne": "BRASSERIE CARTERON",
+   "dep": "83",
+   "communes": [
+    "COGOLIN"
+   ],
+   "adresses": [
+    "DOMAINE VAL D'ASTIER CHEMIN VAL D'ASTIER 83310 COGOLIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:917776320",
+   "enseigne": "LA SCELERATE",
+   "dep": "83",
+   "communes": [
+    "TOULON"
+   ],
+   "adresses": [
+    "7 PLACE VINCENT RASPAIL 83000 TOULON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ]
+]

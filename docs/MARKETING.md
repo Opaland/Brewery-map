@@ -15,7 +15,7 @@ sait pas**. C'est la promesse, et elle tient parce que chaque fiche cite sa
 source. L'honnêteté est l'argument, pas une contrainte.
 
 Les trois preuves à montrer partout :
-1. **Toute la France** en un geste : 549 fiches vérifiées et 783 brasseries
+1. **Toute la France** en un geste : 557 fiches vérifiées et 781 brasseries
    repérées sur OpenStreetMap.
 2. **Zéro compte, zéro pub, zéro traceur** ; la position reste dans le
    téléphone.

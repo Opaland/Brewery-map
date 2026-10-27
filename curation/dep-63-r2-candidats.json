@@ -1,0 +1,143 @@
+[
+ {
+  "cle": "sirene:814876777",
+  "nom": "BRASSERIE D ISSOIRE, LES COUZINES",
+  "communes": [
+   "ISSOIRE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "8 IMPASSE EMILE ZOLA 63500 ISSOIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814876777",
+  "sirets": [
+   "81487677700024"
+  ],
+  "osm": [],
+  "lat": 45.550866451,
+  "lon": 3.2589741726,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:801438946",
+  "nom": "ATELIER DU MALT",
+  "communes": [
+   "COURPIERE"
+  ],
+  "departement": "63",
+  "adresses": [
+   "12 RUE DE VALETTE 63120 COURPIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "801438946",
+  "sirets": [
+   "80143894600023"
+  ],
+  "osm": [],
+  "lat": 45.7570308014386,
+  "lon": 3.54645225434204,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922733126",
+  "nom": "KAZAN CRAFTBEER",
+  "communes": [
+   "CHAMALIERES"
+  ],
+  "departement": "63",
+  "adresses": [
+   "3 RUE DU PONT DE LA GRAVIERE 63400 CHAMALIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "922733126",
+  "sirets": [
+   "92273312600010"
+  ],
+  "osm": [
+   "node/11310220269"
+  ],
+  "lat": 45.77571136,
+  "lon": 3.0661318702,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910244672",
+  "nom": "BORNA",
+  "communes": [
+   "PLAUZAT"
+  ],
+  "departement": "63",
+  "adresses": [
+   "5 PLACE DE LA CAVE MARC 63730 PLAUZAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910244672",
+  "sirets": [
+   "91024467200010"
+  ],
+  "osm": [],
+  "lat": 45.621782021,
+  "lon": 3.1488569394,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/1804850834",
+  "nom": "Bières le Plan B",
+  "communes": [
+   "Chamalières"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/1804850834"
+  ],
+  "lat": 45.76718,
+  "lon": 3.08293,
+  "site": "http://www.bieres-leplanb.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9934130694",
+  "nom": "L'Artense",
+  "communes": [
+   "Saint-Sauves-d'Auvergne"
+  ],
+  "departement": "63",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9934130694"
+  ],
+  "lat": 45.60893,
+  "lon": 2.6951,
+  "site": "http://lartensebrasserie.fr",
+  "statut": "nouveau"
+ }
+]

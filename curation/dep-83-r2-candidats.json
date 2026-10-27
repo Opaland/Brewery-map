@@ -1,0 +1,117 @@
+[
+ {
+  "cle": "sirene:912395597",
+  "nom": "BRASSERIE SAINTE-CROIX",
+  "communes": [
+   "BAUDUEN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "55 CHEMIN DE SAINT BARTHELEMY 83630 BAUDUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912395597",
+  "sirets": [
+   "91239559700020"
+  ],
+  "osm": [],
+  "lat": 43.7209768224493,
+  "lon": 6.18155891391591,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977761394",
+  "nom": "STQR",
+  "communes": [
+   "LA FARLEDE"
+  ],
+  "departement": "83",
+  "adresses": [
+   "ZI TOULON EST QUA LES PIOUX RUE DE L ARAMON 83210 LA FARLEDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977761394",
+  "sirets": [
+   "97776139400021"
+  ],
+  "osm": [],
+  "lat": 43.154637971,
+  "lon": 6.0432833374,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828908673",
+  "nom": "BRASSERIE DU CASTELLET",
+  "communes": [
+   "SIGNES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "LA QUEUE DE SARTAN 870 AVENUE DE MADRID 83870 SIGNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828908673",
+  "sirets": [
+   "82890867300027"
+  ],
+  "osm": [],
+  "lat": 43.2610478404721,
+  "lon": 5.7894192989999,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:533417127",
+  "nom": "BRASSERIE CARTERON",
+  "communes": [
+   "COGOLIN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "DOMAINE VAL D'ASTIER CHEMIN VAL D'ASTIER 83310 COGOLIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "533417127",
+  "sirets": [
+   "53341712700057"
+  ],
+  "osm": [],
+  "lat": 43.2227447451657,
+  "lon": 6.51796379716754,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917776320",
+  "nom": "LA SCELERATE",
+  "communes": [
+   "TOULON"
+  ],
+  "departement": "83",
+  "adresses": [
+   "7 PLACE VINCENT RASPAIL 83000 TOULON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917776320",
+  "sirets": [
+   "91777632000025"
+  ],
+  "osm": [],
+  "lat": 43.122392329,
+  "lon": 5.9344358921,
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,92 @@
+{
+ "lot": "dep-83-r2",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie du Castellet",
+    "c": "Signes",
+    "d": "83",
+    "lat": 43.26003,
+    "lon": 5.78806,
+    "km": 280.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Son site annonce une boutique à la brasserie, ouverte en journée ; il ne parle ni de visite ni de dégustation.",
+    "addr": "La Queue de Sartan, 870 avenue de Madrid, 83870 Signes",
+    "src": "https://www.brasserieducastellet.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 94 02 38 29",
+     "site": "https://www.brasserieducastellet.com",
+     "source": "https://www.brasserieducastellet.com",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "periode": {
+       "du": "04-01",
+       "au": "09-30"
+      },
+      "source": "https://www.brasserieducastellet.com",
+      "verifieLe": "2026-10-27"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "17:00"
+       ]
+      ],
+      "periode": {
+       "du": "10-01",
+       "au": "03-31"
+      },
+      "source": "https://www.brasserieducastellet.com",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.brasserieducastellet.com",
+    "https://data.geopf.fr/geocodage/search?q=La+Queue+de+Sartan%2C+870+avenue+de+Madrid%2C+83870+Signes&limit=5"
+   ],
+   "extrait": "Notre boutique située à la Brasserie (83 870 Signes) est ouverte non-stop :",
+   "choix": "Relance du 27/10 (S366), site relu à la main. Catégorie 2 : une boutique, pas de bar écrit. Seul téléphone publié par la brasserie : retenu. Horaires de la boutique par saison, lus sur le site."
+  }
+ ]
+}

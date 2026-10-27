@@ -1,0 +1,98 @@
+[
+ {
+  "cle": "sirene:809604275",
+  "nom": "B.A.N",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "14 AVENUE VILLERMONT 06000 NICE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "809604275",
+  "sirets": [
+   "80960427500010"
+  ],
+  "osm": [
+   "node/4009780894"
+  ],
+  "lat": 43.709346775,
+  "lon": 7.2641929158,
+  "site": "https://brasserie-nice.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815107867",
+  "nom": "SOCCA BIERA NICE",
+  "communes": [
+   "NICE"
+  ],
+  "departement": "06",
+  "adresses": [
+   "33 COLLET DE BELLON 06000 NICE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "815107867",
+  "sirets": [
+   "81510786700013"
+  ],
+  "osm": [],
+  "lat": 43.721872875,
+  "lon": 7.2150436731,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844219774",
+  "nom": "IGGP",
+  "communes": [
+   "MENTON"
+  ],
+  "departement": "06",
+  "adresses": [
+   "13 B ROUTE DE SOSPEL 06500 MENTON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844219774",
+  "sirets": [
+   "84421977400024"
+  ],
+  "osm": [],
+  "lat": 43.7872038451255,
+  "lon": 7.49291318686633,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949319750",
+  "nom": "DANDYBEAR",
+  "communes": [
+   "CONTES"
+  ],
+  "departement": "06",
+  "adresses": [
+   "1785 CR4 LA ROSEYRE 06390 CONTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949319750",
+  "sirets": [
+   "94931975000012"
+  ],
+  "osm": [],
+  "lat": 43.781614596,
+  "lon": 7.3362341068,
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:895230449",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Interdite",
+   "c": "Pertuis",
+   "d": "84",
+   "lat": 43.6759,
+   "lon": 5.5007,
+   "km": 229.9,
+   "cat": 0,
+   "conf": "",
+   "note": "D’après l’office de tourisme, ses bières se trouvent sur les marchés et dans les bars à bières de la région. Ce qu’on peut faire à la brasserie n’est pas écrit : à confirmer.",
+   "addr": "167 Rue Roberval, 84120 Pertuis",
+   "src": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labrasserieinterdite.com/fr",
+    "source": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+   "https://data.geopf.fr/geocodage/search?q=167+Rue+Roberval%2C+84120+Pertuis&limit=5"
+  ],
+  "extrait": "À découvrir sur les marchés ou dans les bars à bières de la région.",
+  "choix": "Relance du 27/10 (S366), page relue à la main. Catégorie 0 : rien sur la vente ou l’accueil à la brasserie. L’extrait proposé par l’agent nommait les fondateurs : remplacé par la phrase suivante, sans nom. Mobile lu seulement chez l’office : non repris. Le site cité par l’office répond 503."
+ }
+}

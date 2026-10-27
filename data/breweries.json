@@ -20892,5 +20892,238 @@
     "verifieLe": "2026-10-27"
    }
   ]
+ },
+ {
+  "n": "Brasserie L&L Alphand",
+  "c": "Vallouise-Pelvoux",
+  "d": "05",
+  "lat": 44.8661,
+  "lon": 6.48588,
+  "km": 162.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Ouvert l’été seulement : bar de mi-juin à mi-septembre, restaurant de fin juin à fin août. Microbrasserie de Vallouise depuis 1998 ; d’après l’office de tourisme, on y boit ses bières à la pression sur la terrasse.",
+  "addr": "Vallouise-Pelvoux",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-ll-alphand-vallouise-pelvoux-fr-2879108/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Walpine",
+  "c": "Saint-Jean-Saint-Nicolas",
+  "d": "05",
+  "lat": 44.66795,
+  "lon": 6.23004,
+  "km": 160.9,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Son site présente une guinguette où boire un verre en terrasse ou au chaud, et un click & collect pour venir chercher ses bières à la brasserie.",
+  "addr": "4 traverse de l'Estripa, 05260 Saint-Jean-Saint-Nicolas",
+  "src": "https://www.walpine.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "06 16 21 38 04",
+   "site": "https://www.walpine.fr",
+   "source": "https://www.walpine.fr",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasseurs en Clarée",
+  "c": "Névache",
+  "d": "05",
+  "lat": 45.0185,
+  "lon": 6.63272,
+  "km": 163.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Micro-brasserie du hameau du Roubion. D’après l’office de tourisme, ses bières s’achètent en bouteilles et se boivent à la pression au café-bar Le Brec, où se trouve sa boutique : c’est là qu’il faut aller.",
+  "addr": "185 rue de Roubion, 05100 Névache",
+  "src": "https://www.hautesvallees.com/la-claree/degustation/brasseurs-en-claree-nevache",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "La Brasserie Artisanale de Nice",
+  "c": "Nice",
+  "d": "06",
+  "lat": 43.70936,
+  "lon": 7.26419,
+  "km": 295.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Son site la présente comme un point de vente et un lieu de production, avec des heures d’ouverture au public ; il ne parle pas de boire sur place. Ses deux blocs d’horaires se contredisent : à confirmer avant de se déplacer.",
+  "addr": "14 avenue Villermont, 06000 Nice",
+  "src": "https://brasserie-nice.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "09 73 59 20 30",
+   "site": "https://brasserie-nice.com/",
+   "untappd": "https://untappd.com/LaBrasserieArtisanaledeNice",
+   "source": "https://brasserie-nice.com/",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasserie de Sulauze",
+  "c": "Miramas",
+  "d": "13",
+  "lat": 43.5828,
+  "lon": 5.00978,
+  "km": 233.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "D’après l’office de tourisme d’Istres : vente directe à la brasserie les lundis, mercredis et vendredis, et un Beer Garden ouvert de juin à septembre où l’on boit sur place ses bières.",
+  "addr": "Domaine de Sulauze, Chemin du vieux Sulauze",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie du Castellet",
+  "c": "Signes",
+  "d": "83",
+  "lat": 43.26003,
+  "lon": 5.78806,
+  "km": 280.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Son site annonce une boutique à la brasserie, ouverte en journée ; il ne parle ni de visite ni de dégustation.",
+  "addr": "La Queue de Sartan, 870 avenue de Madrid, 83870 Signes",
+  "src": "https://www.brasserieducastellet.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 94 02 38 29",
+   "site": "https://www.brasserieducastellet.com",
+   "source": "https://www.brasserieducastellet.com",
+   "verifieLe": "2026-10-27"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "periode": {
+     "du": "04-01",
+     "au": "09-30"
+    },
+    "source": "https://www.brasserieducastellet.com",
+    "verifieLe": "2026-10-27"
+   },
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "periode": {
+     "du": "10-01",
+     "au": "03-31"
+    },
+    "source": "https://www.brasserieducastellet.com",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "La Brasserie Interdite",
+  "c": "Pertuis",
+  "d": "84",
+  "lat": 43.6759,
+  "lon": 5.5007,
+  "km": 229.9,
+  "cat": 0,
+  "conf": "",
+  "note": "D’après l’office de tourisme, ses bières se trouvent sur les marchés et dans les bars à bières de la région. Ce qu’on peut faire à la brasserie n’est pas écrit : à confirmer.",
+  "addr": "167 Rue Roberval, 84120 Pertuis",
+  "src": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "site": "https://labrasserieinterdite.com/fr",
+   "source": "https://www.provenceguide.com/commerces-et-services/luberon/la-brasserie-interdite/provence-6711022-1.html",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "La Totoche du Luberon",
+  "c": "Cucuron",
+  "d": "84",
+  "lat": 43.76479,
+  "lon": 5.43871,
+  "km": 219.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "D’après l’office de tourisme : vente de bières, et l’on peut les boire sur place. Ses horaires se contredisent (tous les jours, ou le samedi sur réservation) : à confirmer avant de se déplacer.",
+  "addr": "1369 A chemin de Lunés, 84160 Cucuron",
+  "src": "https://www.provenceguide.com/commerces-et-services/luberon/la-totoche-du-luberon/provence-7465275-1.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
  }
 ]

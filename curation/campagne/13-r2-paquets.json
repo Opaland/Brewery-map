@@ -1,0 +1,106 @@
+[
+ [
+  {
+   "cle": "sirene:812035277",
+   "enseigne": "MINOT BRASSERIE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "268 AVENUE DE LA CAPELETTE 13010 MARSEILLE",
+    "QUARTIER LES ACCATES ZI DELTA INDUSTR 57 MONTEE DE SAINT MENET 13011 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812944361",
+   "enseigne": "BRASSERIE ARTISANALE ARLESIENNE",
+   "dep": "13",
+   "communes": [
+    "SAINT MARTIN DE CRAU"
+   ],
+   "adresses": [
+    "MAS CASTELLANE VERGIERES 13310 SAINT MARTIN DE CRAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839988813",
+   "enseigne": "SANS PRESSION",
+   "dep": "13",
+   "communes": [
+    "LA ROQUE-D'ANTHERON"
+   ],
+   "adresses": [
+    "26 RUE ALBERT CAMUS 13640 LA ROQUE-D'ANTHERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:788996437",
+   "enseigne": "BRASSERIE DE SULAUZE",
+   "dep": "13",
+   "communes": [
+    "MIRAMAS"
+   ],
+   "adresses": [
+    "RN 569 SULAUZE 13140 MIRAMAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:11",
+   "enseigne": "KATACLYSM (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "13",
+   "communes": [
+    "MARTIGUES"
+   ],
+   "adresses": [
+    "18 RUE DE LA REPUBLIQUE 13500 MARTIGUES"
+   ],
+   "osm": [
+    "node/2272594826"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7904653675",
+   "enseigne": "Les deux font la bière",
+   "dep": "13",
+   "communes": [
+    "Aubagne"
+   ],
+   "adresses": [
+    "6 Avenue des Caniers, 13400 Aubagne"
+   ],
+   "osm": [
+    "node/7904653675"
+   ],
+   "site": "https://lesdeuxfontlabiere.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/88763655",
+   "enseigne": "Brasserie des Milles",
+   "dep": "13",
+   "communes": [
+    "Bouc-Bel-Air"
+   ],
+   "adresses": [
+    "735 Rue Lieutenant Parayre"
+   ],
+   "osm": [
+    "way/88763655"
+   ],
+   "site": "https://brasseriedesmilles.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

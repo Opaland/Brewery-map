@@ -1,0 +1,59 @@
+[
+ [
+  {
+   "cle": "sirene:809604275",
+   "enseigne": "B.A.N",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "14 AVENUE VILLERMONT 06000 NICE"
+   ],
+   "osm": [
+    "node/4009780894"
+   ],
+   "site": "https://brasserie-nice.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:815107867",
+   "enseigne": "SOCCA BIERA NICE",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "33 COLLET DE BELLON 06000 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844219774",
+   "enseigne": "IGGP",
+   "dep": "06",
+   "communes": [
+    "MENTON"
+   ],
+   "adresses": [
+    "13 B ROUTE DE SOSPEL 06500 MENTON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949319750",
+   "enseigne": "DANDYBEAR",
+   "dep": "06",
+   "communes": [
+    "CONTES"
+   ],
+   "adresses": [
+    "1785 CR4 LA ROSEYRE 06390 CONTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ]
+]

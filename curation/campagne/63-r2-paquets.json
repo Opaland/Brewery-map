@@ -1,0 +1,92 @@
+[
+ [
+  {
+   "cle": "sirene:814876777",
+   "enseigne": "BRASSERIE D ISSOIRE, LES COUZINES",
+   "dep": "63",
+   "communes": [
+    "ISSOIRE"
+   ],
+   "adresses": [
+    "8 IMPASSE EMILE ZOLA 63500 ISSOIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:801438946",
+   "enseigne": "ATELIER DU MALT",
+   "dep": "63",
+   "communes": [
+    "COURPIERE"
+   ],
+   "adresses": [
+    "12 RUE DE VALETTE 63120 COURPIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922733126",
+   "enseigne": "KAZAN CRAFTBEER",
+   "dep": "63",
+   "communes": [
+    "CHAMALIERES"
+   ],
+   "adresses": [
+    "3 RUE DU PONT DE LA GRAVIERE 63400 CHAMALIERES"
+   ],
+   "osm": [
+    "node/11310220269"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910244672",
+   "enseigne": "BORNA",
+   "dep": "63",
+   "communes": [
+    "PLAUZAT"
+   ],
+   "adresses": [
+    "5 PLACE DE LA CAVE MARC 63730 PLAUZAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/1804850834",
+   "enseigne": "Bières le Plan B",
+   "dep": "63",
+   "communes": [
+    "Chamalières"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/1804850834"
+   ],
+   "site": "http://www.bieres-leplanb.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/9934130694",
+   "enseigne": "L'Artense",
+   "dep": "63",
+   "communes": [
+    "Saint-Sauves-d'Auvergne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9934130694"
+   ],
+   "site": "http://lartensebrasserie.fr",
+   "statut": "nouveau"
+  }
+ ]
+]

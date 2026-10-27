@@ -1,0 +1,55 @@
+{
+ "lot": "dep-13-r2",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de Sulauze",
+    "c": "Miramas",
+    "d": "13",
+    "lat": 43.5828,
+    "lon": 5.00978,
+    "km": 233.5,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "D’après l’office de tourisme d’Istres : vente directe à la brasserie les lundis, mercredis et vendredis, et un Beer Garden ouvert de juin à septembre où l’on boit sur place ses bières.",
+    "addr": "Domaine de Sulauze, Chemin du vieux Sulauze",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+    "https://data.geopf.fr/geocodage/search?q=Miramas&type=municipality&limit=5"
+   ],
+   "extrait": "Il est ouvert chaque été de juin à septembre, où vous pourrez déguster sur place les bières artisanales de la brasserie.",
+   "choix": "Relance du 27/10 (S366), page relue à la main. Source : l’office de tourisme seul, d’où la confiance moyenne. Téléphone lu seulement chez des offices : non repris. Commune : Miramas (registre et Untappd), l’office dit Istres. Extrait changé à la relecture de la persona Cédric : celui de la vente ne portait pas la catégorie 1 ; la même page porte les deux."
+  }
+ ]
+}

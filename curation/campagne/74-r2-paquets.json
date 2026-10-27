@@ -1,0 +1,154 @@
+[
+ [
+  {
+   "cle": "sirene:980774962",
+   "enseigne": "BRASSERIE DES VOIRONS",
+   "dep": "74",
+   "communes": [
+    "LUCINGES"
+   ],
+   "adresses": [
+    "5 PLACE DE LA VIGNULE 74380 LUCINGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:842218315",
+   "enseigne": "BRASSERIE LA RINGALE",
+   "dep": "74",
+   "communes": [
+    "CERVENS"
+   ],
+   "adresses": [
+    "120 IMPASSE DES ARTISANS 74550 CERVENS"
+   ],
+   "osm": [
+    "way/823063300"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934574609",
+   "enseigne": "BRASSERIE ALPS",
+   "dep": "74",
+   "communes": [
+    "ANNECY"
+   ],
+   "adresses": [
+    "ZAC DES ROMAINS - CRAN-GEVRIER 14 ROUTE DE LA SALLE 74960 ANNECY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:500259270",
+   "enseigne": "BRASSERIE ARTISANALE DU LEMAN",
+   "dep": "74",
+   "communes": [
+    "ALLINGES"
+   ],
+   "adresses": [
+    "LIEUDIT LEYRIAT 670 ROUTE DES BLAVES 74200 ALLINGES"
+   ],
+   "osm": [
+    "node/8923062535"
+   ],
+   "site": "https://www.biere-leman.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6328825664",
+   "enseigne": "Le Bistrot des Quais",
+   "dep": "74",
+   "communes": [
+    "Sallanches"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6328825664"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/157667497",
+   "enseigne": "La p'tite ravine",
+   "dep": "74",
+   "communes": [
+    "Megève"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/157667497"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/158604347",
+   "enseigne": "Brasserie BE HERE Factory",
+   "dep": "74",
+   "communes": [
+    "Ville-la-Grand"
+   ],
+   "adresses": [
+    "20 Rue du Bois de la Rose, 74100 Ville-la-Grand"
+   ],
+   "osm": [
+    "way/158604347"
+   ],
+   "site": "https://www.be-here.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/246557753",
+   "enseigne": "Châlet d'Emilie",
+   "dep": "74",
+   "communes": [
+    "Combloux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/246557753"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/246557762",
+   "enseigne": "Le Postillon",
+   "dep": "74",
+   "communes": [
+    "Combloux"
+   ],
+   "adresses": [
+    "Combloux"
+   ],
+   "osm": [
+    "way/246557762"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/66975401",
+   "enseigne": "L'hexagone",
+   "dep": "74",
+   "communes": [
+    "Évian-les-Bains"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/66975401"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

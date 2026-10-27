@@ -14,14 +14,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 549 | 19 (3 %) | 42 | 228 | 205 | 267 | 353 | 383 | 388 |
+| **Total** | 557 | 19 (3 %) | 42 | 229 | 209 | 270 | 358 | 389 | 396 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
-| 05 · Hautes-Alpes | 9 | 0 (0 %) | 0 | 3 | 5 | 2 | 6 | 7 | 9 |
-| 06 · Alpes-Maritimes | 9 | 0 (0 %) | 0 | 2 | 1 | 2 | 3 | 5 | 9 |
+| 05 · Hautes-Alpes | 12 | 0 (0 %) | 0 | 3 | 7 | 3 | 8 | 10 | 12 |
+| 06 · Alpes-Maritimes | 10 | 0 (0 %) | 0 | 2 | 1 | 2 | 3 | 6 | 10 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
-| 13 · Bouches-du-Rhône | 17 | 0 (0 %) | 0 | 8 | 3 | 5 | 9 | 10 | 17 |
+| 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 10 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
@@ -58,14 +58,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
-| 83 · Var | 14 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 14 |
-| 84 · Vaucluse | 19 | 0 (0 %) | 0 | 9 | 8 | 7 | 12 | 13 | 19 |
+| 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 15 |
+| 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 14 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 
 ## Les « À confirmer » à chercher
 
-228 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+229 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -402,6 +402,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Fatch Brasserie Provençale (Courthézon) : sans site, sans téléphone, sans horaires, sans bières
 - La Déjantée (L'Isle-sur-la-Sorgue) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Les Brasseurs Bran'chais (Châteauneuf-du-Pape) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- La Brasserie Interdite (Pertuis) : sans téléphone, sans horaires, sans bières
 - La Comédienne (Avignon) : sans téléphone, sans horaires, sans bières
 - Brasserie Epicentre (Pertuis) : sans horaires, sans bières
 - Miss'Isle (Cavaillon) : sans horaires, sans bières

@@ -1,0 +1,208 @@
+[
+ {
+  "cle": "sirene:419632781",
+  "nom": "BAR RESTAURANT ALPHAND",
+  "communes": [
+   "VALLOUISE-PELVOUX"
+  ],
+  "departement": "05",
+  "adresses": [
+   "VENELLE DU POILU 05290 VALLOUISE-PELVOUX",
+   "23 VENELLE DU POILU 05290 VALLOUISE-PELVOUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "419632781",
+  "sirets": [
+   "41963278100011",
+   "41963278100029"
+  ],
+  "osm": [],
+  "lat": 44.846469329,
+  "lon": 6.4877797491,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:845203264",
+  "nom": "MICRO-BRASSERIE LA CUCHE",
+  "communes": [
+   "SAINT-APOLLINAIRE",
+   "SAINT-ANDRE-D EMBRUN"
+  ],
+  "departement": "05",
+  "adresses": [
+   "RUE DE LA FONTAINE 05160 SAINT-APOLLINAIRE",
+   "SERRE BELLON 05200 SAINT-ANDRE-D EMBRUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "845203264",
+  "sirets": [
+   "84520326400013",
+   "84520326400021"
+  ],
+  "osm": [],
+  "lat": 44.556569795,
+  "lon": 6.3621274683,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907706402",
+  "nom": "BRASSEURS EN CLAREE",
+  "communes": [
+   "NEVACHE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "RUE DE ROUBION 05100 NEVACHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907706402",
+  "sirets": [
+   "90770640200019"
+  ],
+  "osm": [],
+  "lat": 45.018499999,
+  "lon": 6.6327189401,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:992292185",
+  "nom": "BRASSERIE URBAINE GAPENCAISE",
+  "communes": [
+   "GAP"
+  ],
+  "departement": "05",
+  "adresses": [
+   "6 LA PLACETTE 05000 GAP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "992292185",
+  "sirets": [
+   "99229218500012"
+  ],
+  "osm": [],
+  "lat": 44.5604266055993,
+  "lon": 6.0794551239164,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE LA MOUSQUIF",
+  "communes": [
+   "ORPIERRE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LOTISSEMENT PARC DU PARADIS QUARTIER LE BACHAS 05700 ORPIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899933279",
+  "nom": "FLORAISON SAUVAGE",
+  "communes": [
+   "LA ROCHE-DES-ARNAUDS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "128 CHEMIN DE LA CROIX SAINT MARC 05400 LA ROCHE-DES-ARNAUDS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899933279",
+  "sirets": [
+   "89993327900023"
+  ],
+  "osm": [],
+  "lat": 44.563172064,
+  "lon": 5.9495109023,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840182992",
+  "nom": "LA MOUSQUIF",
+  "communes": [
+   "ORPIERRE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "PARC DU PARADIS 05700 ORPIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840182992",
+  "sirets": [
+   "84018299200015"
+  ],
+  "osm": [],
+  "lat": 44.316138328,
+  "lon": 5.7042181294,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888726189",
+  "nom": "WALPINE",
+  "communes": [
+   "SAINT-JEAN-SAINT-NICOLAS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "4 TRAVERSE DE L'ESTRIPA 05260 SAINT-JEAN-SAINT-NICOLAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888726189",
+  "sirets": [
+   "88872618900036"
+  ],
+  "osm": [],
+  "lat": 44.6679580087369,
+  "lon": 6.22997505749985,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/2855634433",
+  "nom": "Alphand",
+  "communes": [
+   "Puy-Saint-Vincent"
+  ],
+  "departement": "05",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2855634433"
+  ],
+  "lat": 44.84662,
+  "lon": 6.48878,
+  "statut": "nouveau"
+ }
+]

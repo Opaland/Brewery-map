@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:809604275",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Artisanale de Nice",
+   "c": "Nice",
+   "d": "06",
+   "lat": 43.70936,
+   "lon": 7.26419,
+   "km": 295.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Son site la présente comme un point de vente et un lieu de production, avec des heures d’ouverture au public ; il ne parle pas de boire sur place. Ses deux blocs d’horaires se contredisent : à confirmer avant de se déplacer.",
+   "addr": "14 avenue Villermont, 06000 Nice",
+   "src": "https://brasserie-nice.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 73 59 20 30",
+    "site": "https://brasserie-nice.com/",
+    "untappd": "https://untappd.com/LaBrasserieArtisanaledeNice",
+    "source": "https://brasserie-nice.com/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasserie-nice.com/",
+   "https://data.geopf.fr/geocodage/search?q=14+avenue+Villermont%2C+06000+Nice&limit=5"
+  ],
+  "extrait": "Plus qu’un point de vente ou un lieu de production",
+  "choix": "Relance du 27/10 (S366), site relu à la main. Catégorie 2 en confiance moyenne : vente écrite, dégustation non. Horaires non saisis : « Ouvert du mardi au vendredi de 17h à 19h » d’un côté, « du lundi au vendredi de 16 h à 19 h » de l’autre."
+ }
+}

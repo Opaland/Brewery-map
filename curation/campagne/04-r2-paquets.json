@@ -1,0 +1,47 @@
+[
+ [
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE CEREVISIA (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "04",
+   "communes": [
+    "LES MEES"
+   ],
+   "adresses": [
+    "LES POURCELLES 3956 CHEMIN DU THOR 04190 LES MEES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5183750945",
+   "enseigne": "Brasserie Cérévisia",
+   "dep": "04",
+   "communes": [
+    "Oraison"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5183750945"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/5255453845",
+   "enseigne": "Brasserie La Manosquine",
+   "dep": "04",
+   "communes": [
+    "Manosque"
+   ],
+   "adresses": [
+    "23 Rue d'Aubette, 04100 Manosque"
+   ],
+   "osm": [
+    "node/5255453845"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -45,6 +45,11 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Restes de S365-S366 (27/10, issues #224 et #231)
+
+- `controler` ne sait pas lire un site derrière une page de vérification de l'âge (la Brasserie artisanale du Léman, biere-leman.com : la page renvoyée sans navigateur s'appelle « Vérification de l’âge »). Passer la page sans tricher sur l'âge demanderait un choix de Cédric ; en attendant, ces brasseries restent « à relancer ».
+- Encore « à relancer » : L'Artense (63, site en 520), BE HERE Factory (74, 503), Brasserie du Comtat (84, 503).
+
 ## Restes de S363 (27/10, issue #221)
 
 - Relever le 03/11 les runs de `main` : aucun rouge dû à « Installer Chromium » depuis S363 ? Sinon, essayer dans l'ordre : réduire ce qu'apt télécharge (les seules polices utiles aux écrans figés), `Acquire::Retries`, un autre miroir que `azure.archive.ubuntu.com`. Mesures dans `docs/stories/S363.md`.

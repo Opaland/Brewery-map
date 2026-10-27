@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:907706402",
+ "ajout": {
+  "fiche": {
+   "n": "Brasseurs en Clarée",
+   "c": "Névache",
+   "d": "05",
+   "lat": 45.0185,
+   "lon": 6.63272,
+   "km": 163.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Micro-brasserie du hameau du Roubion. D’après l’office de tourisme, ses bières s’achètent en bouteilles et se boivent à la pression au café-bar Le Brec, où se trouve sa boutique : c’est là qu’il faut aller.",
+   "addr": "185 rue de Roubion, 05100 Névache",
+   "src": "https://www.hautesvallees.com/la-claree/degustation/brasseurs-en-claree-nevache",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.hautesvallees.com/la-claree/degustation/brasseurs-en-claree-nevache",
+   "https://data.geopf.fr/geocodage/search?q=185+rue+de+Roubion%2C+05100+N%C3%A9vache&limit=5"
+  ],
+  "extrait": "Notre boutique est située dans les locaux du café-bar LE BREC, où vous pouvez acheter nos bières BBEC en bouteilles et les déguster à la pression.",
+  "choix": "Relance du 27/10 (S366), page relue à la main. Source : l’office de tourisme seul, d’où la confiance moyenne. Le mobile, lu seulement sur cette page d’office, n’est pas repris. Les horaires sont ceux du café-bar, par saison : non saisis. Le site de la brasserie répond 503. Extrait changé à la relecture de la persona Cédric : le premier ne disait pas ce qu’on peut y faire."
+ }
+}
