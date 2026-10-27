@@ -23,7 +23,7 @@ concurrency:
 jobs:
   porte:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -55,9 +55,11 @@ jobs:
         run: npx vitest run
       - name: Build (échoue si les données importées sont invalides)
         run: npm run build
+      # S363 (#221) : apt télécharge parfois à 44 ko/s (environ 590 s, mesuré le
+      # 27/10) ; 15 minutes laissent 200 s de marge sur le plus long succès vu.
       - name: Installer Chromium pour Playwright
         run: npx playwright install --with-deps chromium
-        timeout-minutes: 10
+        timeout-minutes: 15
       - name: Tests e2e
         run: npx playwright test
         timeout-minutes: 30
@@ -119,7 +121,7 @@ jobs:
   # pas dit si le rendu du runner est le même (docs/stories/S240.md).
   visuel:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     continue-on-error: true
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -133,7 +135,7 @@ jobs:
         run: npm run build
       - name: Installer Chromium
         run: npx playwright install --with-deps chromium
-        timeout-minutes: 10
+        timeout-minutes: 15
       - name: Écrans figés
         # Sans nouvel essai : un écran instable doit se voir, pas passer en
         # « flaky » vert (revue adverse S240).
@@ -180,7 +182,7 @@ jobs:
   page-publiee:
     needs: deploiement
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
@@ -191,6 +193,7 @@ jobs:
         run: npm ci
       - name: Installer Chromium
         run: npx playwright install --with-deps chromium
+        timeout-minutes: 15
       # L'empreinte du build de ce commit : la sonde vérifie que c'est bien
       # lui que Pages sert, et non une version d'avant (S334, revue globale
       # du 19/10, C9). Le build est reproductible : mêmes noms, même empreinte.

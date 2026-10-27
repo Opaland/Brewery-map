@@ -85,6 +85,39 @@ describe('les workflows', () => {
   })
 })
 
+describe('l’installation de Chromium a le temps de finir (S363, #221)', () => {
+  // Mesuré le 27/10 (docs/stories/S363.md) : apt télécharge parfois à
+  // 44 ko/s, environ 590 s ; le plus long succès dure 700 s.
+  const DELAI_INSTALLATION_MIN = 15
+  const jobs = workflows.flatMap(({ f, texte }) =>
+    texte
+      .slice(texte.indexOf('\njobs:'))
+      .split(/\n {2}(?=[\w-]+:\n)/)
+      .slice(1)
+      .map((j) => {
+        const delai = /\n {4}timeout-minutes: (\d+)/.exec(j)?.[1]
+        const etapes = j.split(/\n {6}- /).slice(1)
+        return { nom: `${f} : ${j.split(':')[0] ?? ''}`, delai: Number(delai), etapes }
+      }),
+  )
+  const delaiEtape = (e: string) => Number(/\n {8}timeout-minutes: (\d+)/.exec(e)?.[1] ?? 0)
+
+  it('chaque installation de Chromium a au moins 15 minutes', () => {
+    const installations = jobs.flatMap(({ nom, etapes }) =>
+      etapes.filter((e) => /playwright install[^\n]*chromium/.test(e)).map((e) => ({ nom, delai: delaiEtape(e) })),
+    )
+    expect(installations.length).toBeGreaterThanOrEqual(4)
+    expect(installations.filter(({ delai }) => delai < DELAI_INSTALLATION_MIN).map(({ nom, delai }) => `${nom} (${String(delai)} min)`)).toEqual([])
+  })
+
+  it('dans chaque job, les délais des étapes tiennent dans celui du job', () => {
+    const debordent = jobs
+      .map(({ nom, delai, etapes }) => ({ nom, delai, somme: etapes.reduce((t, e) => t + delaiEtape(e), 0) }))
+      .filter(({ delai, somme }) => somme >= delai)
+    expect(debordent.map(({ nom, delai, somme }) => `${nom} : ${String(somme)} min d’étapes pour ${String(delai)} min de job`)).toEqual([])
+  })
+})
+
 describe('visuel-references.yml : le job qui pousse ne committe que des images ordinaires (S360, #212)', () => {
   const texte = readFileSync('.github/workflows/visuel-references.yml', 'utf8')
   const job = texte.slice(texte.indexOf('\n  commit:'))
