@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: '8ba0310972b8a9b8',
+  empreinte: 'f32286834f47eb2c',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 228 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 312 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes et en Bourgogne-Franche-Comté.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 238 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 334 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur et en Corse.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-27', texte: '22 brasseries ajoutées dans les Alpes-de-Haute-Provence, les Hautes-Alpes et en Corse, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-26', texte: '15 brasseries de plus en Bourgogne-Franche-Comté (Doubs, Jura, Haute-Saône, Yonne), relues avec de nouvelles recherches, d’après leur site, un office de tourisme ou leur commune.' },
   { date: '2026-10-22', texte: '46 brasseries ajoutées en Bourgogne-Franche-Comté (Côte-d’Or, Doubs, Jura, Nièvre, Haute-Saône, Yonne), d’après leur site, un office de tourisme ou Untappd.' },
   { date: '2026-10-22', texte: 'Mon carnet : la case « Seulement mon carnet » montre les brasseries que vous avez visitées ou sur lesquelles vous avez écrit une note.' },

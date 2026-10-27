@@ -1,0 +1,71 @@
+[
+ [
+  {
+   "cle": "sirene:814328092",
+   "enseigne": "MICRO BRASSERIE IMPERIALE",
+   "dep": "2A",
+   "communes": [
+    "SALICE",
+    "AJACCIO"
+   ],
+   "adresses": [
+    "A CATASTELLA 20121 SALICE",
+    "5-7 5 RUE ZEVACO-MAIRE 20000 AJACCIO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:103081675",
+   "enseigne": "SAS MA",
+   "dep": "2A",
+   "communes": [
+    "GROSSETO-PRUGNA"
+   ],
+   "adresses": [
+    "LES ECHOPPES PORTICCIO 20166 GROSSETO-PRUGNA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828137190",
+   "enseigne": "BRASSERIE ALBA",
+   "dep": "2A",
+   "communes": [
+    "AJACCIO"
+   ],
+   "adresses": [
+    "AVENUE DU DOCTEUR NOEL FRANCHINI 20090 AJACCIO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921387072",
+   "enseigne": "FILITOSA A BIERA CORSA",
+   "dep": "2A",
+   "communes": [
+    "SOLLACARO"
+   ],
+   "adresses": [
+    "FILITOSA CENTRE PREHISTORIQUE 20140 SOLLACARO"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830281424",
+   "enseigne": "BRASSERIE ARTISANALE DU MAQUIS",
+   "dep": "2A",
+   "communes": [
+    "GROSSETO-PRUGNA"
+   ],
+   "adresses": [
+    "9 LOTISSEMENT LORELLO 20166 GROSSETO-PRUGNA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ]
+]

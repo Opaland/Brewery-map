@@ -1,0 +1,373 @@
+{
+ "lot": "dep-04",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "La Sauvage (Brasserie des Hautes Vallées)",
+    "c": "Saint-Paul-sur-Ubaye",
+    "d": "04",
+    "lat": 44.51797,
+    "lon": 6.7528,
+    "km": 202.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale installée au village depuis 2012. La dégustation sur place, la pression, la terrasse et la vente à emporter sont dites par l'office de tourisme ; le site de la brasserie donne ses horaires d'ouverture sans dire ce qu'on y fait.",
+    "addr": "546 route du Col de Vars, 04530 Saint-Paul-sur-Ubaye",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 92 61 37 93",
+     "site": "https://www.la-sauvage.fr/",
+     "source": "https://www.la-sauvage.fr/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "14:00",
+        "18:30"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "18:30"
+       ]
+      ],
+      "dim": [],
+      "source": "https://www.la-sauvage.fr/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+    "https://www.la-sauvage.fr/",
+    "https://data.geopf.fr/geocodage/search?q=546+route+du+Col+de+Vars%2C+04530+Saint-Paul-sur-Ubaye&limit=5"
+   ],
+   "extrait": "Dégustation sur place, bières pression, terrasse, vente à emporter, visite sur rendez-vous.",
+   "choix": "Fixe retenu (04 92 61 37 93), mobile écarté (un fixe existe). Untappd : aucune page. Confiance moyenne : catégorie sur l'office de tourisme seul (#37)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Cordoeil",
+    "c": "Thorame-Basse",
+    "d": "04",
+    "lat": 44.09365,
+    "lon": 6.50553,
+    "km": 223.4,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Deux fiches de l'office de tourisme Verdon Tourisme se contredisent : l'une cite la vente sur place du lundi au samedi de 16 h à 18 h, l'autre une visite en juillet et en août. Aucune ne dit si l'on consomme sur place.",
+    "addr": "Le Village, 04170 Thorame-Basse",
+    "src": "https://www.verdontourisme.com/en/?p=104518",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "04 92 83 42 23",
+     "site": "http://www.cordoeil.com",
+     "source": "http://www.cordoeil.com",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.verdontourisme.com/en/?p=104518",
+    "http://www.cordoeil.com",
+    "https://data.geopf.fr/geocodage/search?q=Thorame-Basse&type=municipality&limit=5"
+   ],
+   "extrait": "From 01/01 to 31/12 from Monday to Saturday between 4 pm and 6 pm.",
+   "choix": "Horaires laissés hors de la fiche : les deux fiches de l'office se contredisent. Téléphone lu sur le site de la brasserie. Pas d'Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de l'Aubrée",
+    "c": "Selonnet",
+    "d": "04",
+    "lat": 44.37112,
+    "lon": 6.31154,
+    "km": 189.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de la vallée de la Blanche. La fiche du Géoparc de Haute-Provence cite une boutique et son accueil, sans dire qu'on y achète ni qu'on y boit. Pas de site propre trouvé.",
+    "addr": "10 Impasse de la Grand Pièce, 04140 Selonnet",
+    "src": "https://www.geoparchauteprovence.com/en/poi/brasserie-de-laubree",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://www.geoparchauteprovence.com/en/poi/brasserie-de-laubree",
+    "https://data.geopf.fr/geocodage/search?q=10+Impasse+de+la+Grand+Pi%C3%A8ce%2C+04140+Selonnet&limit=5"
+   ],
+   "extrait": "Accueil chaleureux à la boutique",
+   "choix": "Téléphone lu sur la fiche du Géoparc seulement : non repris (précédent de S342 et S356). Catégorie 0 : « accueil à la boutique » ne prouve pas la vente."
+  },
+  {
+   "fiche": {
+    "n": "Bière de la Durance",
+    "c": "Sisteron",
+    "d": "04",
+    "lat": 44.2329,
+    "lon": 5.90735,
+    "km": 184.2,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site officiel annonce une vente directe à la brasserie et un bar à bières, avec leurs horaires.",
+    "addr": "27 allée des Frênes, 04200 Sisteron",
+    "src": "https://bieredeladurance.com/contact/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "04 86 89 32 87",
+     "site": "https://bieredeladurance.com",
+     "source": "https://bieredeladurance.com/contact/",
+     "verifieLe": "2026-10-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://bieredeladurance.com/contact/",
+      "verifieLe": "2026-10-27"
+     },
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "mer": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "21:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://bieredeladurance.com/contact/",
+      "verifieLe": "2026-10-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://bieredeladurance.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=27+all%C3%A9e+des+Fr%C3%AAnes%2C+04200+Sisteron&limit=5"
+   ],
+   "extrait": "Vente directe à la brasserie",
+   "choix": "Pas d'Untappd. Dimanche non écrit."
+  },
+  {
+   "fiche": {
+    "n": "La Serpentine",
+    "c": "Céreste-en-Luberon",
+    "d": "04",
+    "lat": 43.85898,
+    "lon": 5.60265,
+    "km": 212.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "L'office de tourisme des Alpes-de-Haute-Provence décrit une microbrasserie artisanale et coopérative avec un coin boutique et des visites sur réservation. Ni l'office ni le site ne disent qu'on consomme sur place.",
+    "addr": "561 route des Prés, 04280 Céreste-en-Luberon",
+    "src": "https://en.tourisme-alpes-haute-provence.com/gourmet-pleasures/5998065_beer-cereste-la-serpentine-microbrasserie-artisanale-et-cooperative/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 28 55 84 67",
+     "site": "https://laserpentine.co/",
+     "source": "https://laserpentine.co/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://en.tourisme-alpes-haute-provence.com/gourmet-pleasures/5998065_beer-cereste-la-serpentine-microbrasserie-artisanale-et-cooperative/",
+    "https://laserpentine.co/",
+    "https://data.geopf.fr/geocodage/search?q=561+route+des+Pr%C3%A9s%2C+04280+C%C3%A9reste-en-Luberon&limit=5"
+   ],
+   "extrait": "The brewery is equipped with a boutique corner which will allow you to create your personalized pack!",
+   "choix": "Deux mobiles sur le site : le « bureau » retenu, le service commercial écarté. Horaires sans objet dit : non retenus."
+  },
+  {
+   "fiche": {
+    "n": "Brasseur du Verdon",
+    "c": "Esparron-de-Verdon",
+    "d": "04",
+    "lat": 43.74139,
+    "lon": 6.01502,
+    "km": 236.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Une microbrasserie existe d'après la fiche de l'office de tourisme, qui ne dit pas si l'on peut acheter ou consommer sur place. Aucun site officiel ni page Untappd trouvés.",
+    "addr": "Albiosc Village, 6 Impasse des bergeries, 04800 Esparron-de-Verdon",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+    "https://data.geopf.fr/geocodage/search?q=Albiosc+Village%2C+6+Impasse+des+bergeries%2C+04800+Esparron-de-Verdon&limit=5"
+   ],
+   "extrait": "Brasseur du Verdon est une microbrasserie dédiée à la création de bières authentiques et savoureuses.",
+   "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires : saison sans heures, non proposés."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bevedis",
+    "c": "Le Chaffaut-Saint-Jurson",
+    "d": "04",
+    "lat": 44.03331,
+    "lon": 6.14086,
+    "km": 212.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale existante (site officiel et fiche d'office de tourisme). La dégustation est offerte « by appointment » selon l'office de tourisme ; le site officiel ne dit pas où se vend la bière (« En vente localement dans le 04 »). Vente et accueil sur place non établis.",
+    "addr": "Impasse du Four, 04510 Le Chaffaut-Saint-Jurson",
+    "src": "https://brasseriebevedis.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "07 49 17 10 17",
+     "site": "https://brasseriebevedis.com/",
+     "source": "https://brasseriebevedis.com/",
+     "verifieLe": "2026-10-27"
+    }
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://brasseriebevedis.com/",
+    "https://data.geopf.fr/geocodage/search?q=Le+Chaffaut-Saint-Jurson&type=municipality&limit=5"
+   ],
+   "extrait": "En vente localement dans le 04.",
+   "choix": "Seule ligne publiée : un mobile, gardé (règle du 21/10). Catégorie 0. Pas d'horaires (sur rendez-vous). Types de bière du site non repris : Untappd fait foi, et la brasserie n'y a pas de page trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Pra Loup",
+    "c": "Uvernet-Fours",
+    "d": "04",
+    "lat": 44.32265,
+    "lon": 6.66081,
+    "km": 212.3,
+    "cat": 3,
+    "conf": "moyenne",
+    "note": "La fiche du comité régional de tourisme dit que la brasserie (bière LØÜ) ne reçoit pas le public ; ses bières se trouvent dans les bars, restaurants et épiceries de la station.",
+    "addr": "Le Chalet, Pra Loup 1600, 04400 Uvernet-Fours",
+    "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-10-27",
+   "sources": [
+    "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+    "https://data.geopf.fr/geocodage/search?q=Uvernet-Fours&type=municipality&limit=5"
+   ],
+   "extrait": "le public n’y est pour l’instant pas accueilli",
+   "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Pas de site propre."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "node/11459867968",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Interstellaire du Dévoluy",
+   "c": "Dévoluy",
+   "d": "05",
+   "lat": 44.70755,
+   "lon": 5.92311,
+   "km": 141.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La fiche de l'office de tourisme du Dévoluy décrit des bières brassées sur place et une boutique chez l'exploitant ; elle ne dit pas qu'on y boit. Ouvert tous les jours aux vacances scolaires ; hors vacances, jours et horaires variables.",
+   "addr": "Le Courtil, 13 chemin de la Charrière, 05250 Dévoluy",
+   "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/brasserie-interstellaire-du-devoluy-devoluy-fr-3283111/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/brasserie-interstellaire-du-devoluy-devoluy-fr-3283111/",
+   "https://data.geopf.fr/geocodage/search?q=Le+Courtil%2C+13+chemin+de+la+Charri%C3%A8re%2C+05250+D%C3%A9voluy&limit=5"
+  ],
+  "extrait": "La Brasserie Interstellaire du Dévoluy crée et propose des bières originales, brassées sur place à l’eau du Dévoluy",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Pas de site propre trouvé, pas d'Untappd. La ligne SIRENE de Devoluy Brewing Concept, à la même adresse (Le Courtil), n'en fait pas une seconde fiche."
+ }
+}

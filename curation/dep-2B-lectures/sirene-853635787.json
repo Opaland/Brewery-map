@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:853635787",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Monte Kyrie Eleison",
+   "c": "Ghisoni",
+   "d": "2B",
+   "lat": 42.0951,
+   "lon": 9.21434,
+   "km": 534.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie et distillerie de Ghisoni : vente sur place et dans les restaurants, bars et épiceries de la région, d'après l'agence du tourisme de la Corse ; visites sur rendez-vous.",
+   "addr": "Lieu-dit Aghja, 20227 Ghisoni",
+   "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-MONTE-KYRIE-ELSEISON",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-MONTE-KYRIE-ELSEISON",
+   "https://data.geopf.fr/geocodage/search?q=Ghisoni&type=municipality&limit=5"
+  ],
+  "extrait": "Vente dans les restaurants, bars et épiceries fines de la région et également sur place à Ghisoni.",
+  "choix": "Nom de l'enseigne au registre, la page l'écrit mal. Ni téléphone, ni site, ni horaires. Pas d'Untappd."
+ }
+}

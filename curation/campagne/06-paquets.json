@@ -1,0 +1,385 @@
+[
+ [
+  {
+   "cle": "sirene:434284022",
+   "enseigne": "MN CAFE",
+   "dep": "06",
+   "communes": [
+    "CASTILLON",
+    "MENTON"
+   ],
+   "adresses": [
+    "PL SAINT-MICHEL 06500 CASTILLON",
+    "RUE DE LA REPUBLIQUE 06500 MENTON",
+    "6 ERT 8 RUE GENERAL GALLIENI 06500 MENTON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:887867547",
+   "enseigne": "THE BEER GEEKS",
+   "dep": "06",
+   "communes": [
+    "CANNES"
+   ],
+   "adresses": [
+    "3 RUE CAMPESTRA 06400 CANNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:797492121",
+   "enseigne": "BRASSERIE DU COMTE",
+   "dep": "06",
+   "communes": [
+    "SAINT-MARTIN-VESUBIE",
+    "COLOMARS"
+   ],
+   "adresses": [
+    "LD PRA DE LA MAJOU 06450 SAINT-MARTIN-VESUBIE",
+    "LD VALLON DU ROGUEZ 06670 COLOMARS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901867911",
+   "enseigne": "BEERCOMPANY NICE",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "4 RUE ROSSETTI 06300 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802583815",
+   "enseigne": "BRASSERIE AZUREENNE",
+   "dep": "06",
+   "communes": [
+    "GRASSE"
+   ],
+   "adresses": [
+    "QUARTIER SAINTE ANNE 107 CHEMIN DE SAINTE ANNE 06130 GRASSE",
+    "ZI SAINTE MARGUERITE 107 AVENUE JEAN MAUBERT 06130 GRASSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:853474351",
+   "enseigne": "BRASSERIE D'AQUI",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "17 RUE GUIGLIONDA DE SAINTE-AGATHE 06300 NICE",
+    "153 BOULEVARD DE CESSOLE 06100 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977699156",
+   "enseigne": "BRASSERIE ARTISANALE DE L'OURA",
+   "dep": "06",
+   "communes": [
+    "MENTON",
+    "ROQUEBRUNE-CAP-MARTIN"
+   ],
+   "adresses": [
+    "4548 ROUTE DE SOSPEL 06500 MENTON",
+    "1263 RUE ANTOINE PEGLION 06190 ROQUEBRUNE-CAP-MARTIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809604275",
+   "enseigne": "B.A.N",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "14 AVENUE VILLERMONT 06000 NICE"
+   ],
+   "osm": [
+    "node/4009780894"
+   ],
+   "site": "https://brasserie-nice.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910864727",
+   "enseigne": "THIS IS HAWKLAND",
+   "dep": "06",
+   "communes": [
+    "CARROS"
+   ],
+   "adresses": [
+    "5360 ROUTE METROPOLITAINE 1 06510 CARROS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828091785",
+   "enseigne": "BRASSERIE DES LIGURES",
+   "dep": "06",
+   "communes": [
+    "PEILLE"
+   ],
+   "adresses": [
+    "445 ROUTE DES CLUES 06440 PEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:815107867",
+   "enseigne": "SOCCA BIERA NICE",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "33 COLLET DE BELLON 06000 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839502382",
+   "enseigne": "BACKYARD BREWS",
+   "dep": "06",
+   "communes": [
+    "VALBONNE"
+   ],
+   "adresses": [
+    "23 TRAVERSE DU BARRI 06560 VALBONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838515427",
+   "enseigne": "CRAFTAZUR",
+   "dep": "06",
+   "communes": [
+    "ANTIBES"
+   ],
+   "adresses": [
+    "LOT N.7 NIVEAU INFERIEUR BAT B 165 RUE DES CISTES 06600 ANTIBES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843505785",
+   "enseigne": "A LA FUT",
+   "dep": "06",
+   "communes": [
+    "MOUANS-SARTOUX"
+   ],
+   "adresses": [
+    "ESPACE PALISSY 201 CHEMIN DES PLAINES 06370 MOUANS-SARTOUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844219774",
+   "enseigne": "IGGP",
+   "dep": "06",
+   "communes": [
+    "MENTON"
+   ],
+   "adresses": [
+    "13 B ROUTE DE SOSPEL 06500 MENTON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:921194569",
+   "enseigne": "LA MAISON DU BONHEUR",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "54 BOULEVARD FRANCOIS GROSSO 06000 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:825209778",
+   "enseigne": "BLUE COAST BREWING COMPANY",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "18 CHEMIN DE SAQUIER 06200 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844117291",
+   "enseigne": "LES BRASSEURS DU DIMANCHE",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "40 BOULEVARD AUGUSTE RAYNAUD 06100 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852437805",
+   "enseigne": "GEKKO BEERS",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "18 CHEMIN DE SAQUIER 06200 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813988235",
+   "enseigne": "B06",
+   "dep": "06",
+   "communes": [
+    "ANTIBES"
+   ],
+   "adresses": [
+    "87 CHEMIN DE BEAUVERT 06600 ANTIBES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:909992174",
+   "enseigne": "LE GRAND BARBU",
+   "dep": "06",
+   "communes": [
+    "ANTIBES"
+   ],
+   "adresses": [
+    "60 CHEMIN DE RABIAC ESTAGNOL 06600 ANTIBES"
+   ],
+   "osm": [
+    "node/11428402905"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949319750",
+   "enseigne": "DANDYBEAR",
+   "dep": "06",
+   "communes": [
+    "CONTES"
+   ],
+   "adresses": [
+    "1785 CR4 LA ROSEYRE 06390 CONTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829344001",
+   "enseigne": "HUGINS BREW",
+   "dep": "06",
+   "communes": [
+    "BERRE-LES-ALPES"
+   ],
+   "adresses": [
+    "46 AVENUE PAUL GRANET 06390 BERRE-LES-ALPES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812383511",
+   "enseigne": "BRASSERIE BLEUE",
+   "dep": "06",
+   "communes": [
+    "NICE"
+   ],
+   "adresses": [
+    "15 RUE DEFLY 06000 NICE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12000605246",
+   "enseigne": "Beer Company",
+   "dep": "06",
+   "communes": [
+    "Nice"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12000605246"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/12804515852",
+   "enseigne": "La brasserie berroise",
+   "dep": "06",
+   "communes": [
+    "Berre-les-Alpes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12804515852"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6430502395",
+   "enseigne": "N7 Café",
+   "dep": "06",
+   "communes": [
+    "Saint-Laurent-du-Var"
+   ],
+   "adresses": [
+    "166 Avenue de Nice"
+   ],
+   "osm": [
+    "node/6430502395"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

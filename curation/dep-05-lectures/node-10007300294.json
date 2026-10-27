@@ -1,0 +1,27 @@
+{
+ "candidat": "node/10007300294",
+ "ajout": {
+  "fiche": {
+   "n": "B3 Brasserie Bio de Briançon",
+   "c": "Briançon",
+   "d": "05",
+   "lat": 44.90147,
+   "lon": 6.6406,
+   "km": 170.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Connue d'OpenStreetMap et d'une fiche de l'office de tourisme (bières bio en bouteilles de 25 et 75 cl), qui ne dit ni vente ni accueil sur place.",
+   "addr": "23 avenue de la Libération, 05100 Briançon",
+   "src": "https://provence-alpes-cotedazur.com/en/offers/b3-brasserie-bio-de-briancon-briancon-en-2878479/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/en/offers/b3-brasserie-bio-de-briancon-briancon-en-2878479/",
+   "https://data.geopf.fr/geocodage/search?q=23+avenue+de+la+Lib%C3%A9ration%2C+05100+Brian%C3%A7on&limit=5"
+  ],
+  "extrait": "Craft production of 25cl and 75cl beers",
+  "choix": "Numéros publiés par l'office seul : non retenus. Pas de site propre trouvé, pas d'Untappd."
+ }
+}

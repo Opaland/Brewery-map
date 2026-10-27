@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:848638078",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Gloria",
+   "c": "Calvi",
+   "d": "2B",
+   "lat": 42.55002,
+   "lon": 8.7666,
+   "km": 472.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie de Calvi, créée en 2019, avec un brewpub qui accueille des soirées et des concerts tout au long de l'année. Pas d'horaires d'accueil publiés : la page ne donne que ceux de l'offre de visite, faite avec l'office de tourisme Calvi-Balagne.",
+   "addr": "Lieu-dit Valle al Legnu, RT 30, 20260 Calvi",
+   "src": "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Decouvertes-oenotouristiques/Visite-guidee-de-la-Brasserie-Gloria-a-Calvi",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Decouvertes-oenotouristiques/Visite-guidee-de-la-Brasserie-Gloria-a-Calvi",
+   "https://data.geopf.fr/geocodage/search?q=Calvi&type=municipality&limit=5"
+  ],
+  "extrait": "vous invite régulièrement à des soirées/concert organisées tout au long de l'année.",
+  "choix": "Téléphone lu sur la fiche de l'agence du tourisme seulement ; le site de la brasserie était injoignable (403) le 27/10 : non repris (précédent de S342 et S356). Confiance faible : un brewpub à soirées n'est pas un accueil aux horaires connus. Pas d'Untappd."
+ }
+}

@@ -18047,5 +18047,634 @@
    "source": "https://www.lavaugermaine.fr/content/9-nous-trouver",
    "verifieLe": "2026-10-26"
   }
+ },
+ {
+  "n": "La Sauvage (Brasserie des Hautes Vallées)",
+  "c": "Saint-Paul-sur-Ubaye",
+  "d": "04",
+  "lat": 44.51797,
+  "lon": 6.7528,
+  "km": 202.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale installée au village depuis 2012. La dégustation sur place, la pression, la terrasse et la vente à emporter sont dites par l'office de tourisme ; le site de la brasserie donne ses horaires d'ouverture sans dire ce qu'on y fait.",
+  "addr": "546 route du Col de Vars, 04530 Saint-Paul-sur-Ubaye",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 92 61 37 93",
+   "site": "https://www.la-sauvage.fr/",
+   "source": "https://www.la-sauvage.fr/",
+   "verifieLe": "2026-10-27"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.la-sauvage.fr/",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Cordoeil",
+  "c": "Thorame-Basse",
+  "d": "04",
+  "lat": 44.09365,
+  "lon": 6.50553,
+  "km": 223.4,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Deux fiches de l'office de tourisme Verdon Tourisme se contredisent : l'une cite la vente sur place du lundi au samedi de 16 h à 18 h, l'autre une visite en juillet et en août. Aucune ne dit si l'on consomme sur place.",
+  "addr": "Le Village, 04170 Thorame-Basse",
+  "src": "https://www.verdontourisme.com/en/?p=104518",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 92 83 42 23",
+   "site": "http://www.cordoeil.com",
+   "source": "http://www.cordoeil.com",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasserie de l'Aubrée",
+  "c": "Selonnet",
+  "d": "04",
+  "lat": 44.37112,
+  "lon": 6.31154,
+  "km": 189.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale de la vallée de la Blanche. La fiche du Géoparc de Haute-Provence cite une boutique et son accueil, sans dire qu'on y achète ni qu'on y boit. Pas de site propre trouvé.",
+  "addr": "10 Impasse de la Grand Pièce, 04140 Selonnet",
+  "src": "https://www.geoparchauteprovence.com/en/poi/brasserie-de-laubree",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Bière de la Durance",
+  "c": "Sisteron",
+  "d": "04",
+  "lat": 44.2329,
+  "lon": 5.90735,
+  "km": 184.2,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site officiel annonce une vente directe à la brasserie et un bar à bières, avec leurs horaires.",
+  "addr": "27 allée des Frênes, 04200 Sisteron",
+  "src": "https://bieredeladurance.com/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 86 89 32 87",
+   "site": "https://bieredeladurance.com",
+   "source": "https://bieredeladurance.com/contact/",
+   "verifieLe": "2026-10-27"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://bieredeladurance.com/contact/",
+    "verifieLe": "2026-10-27"
+   },
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://bieredeladurance.com/contact/",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "La Serpentine",
+  "c": "Céreste-en-Luberon",
+  "d": "04",
+  "lat": 43.85898,
+  "lon": 5.60265,
+  "km": 212.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "L'office de tourisme des Alpes-de-Haute-Provence décrit une microbrasserie artisanale et coopérative avec un coin boutique et des visites sur réservation. Ni l'office ni le site ne disent qu'on consomme sur place.",
+  "addr": "561 route des Prés, 04280 Céreste-en-Luberon",
+  "src": "https://en.tourisme-alpes-haute-provence.com/gourmet-pleasures/5998065_beer-cereste-la-serpentine-microbrasserie-artisanale-et-cooperative/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "06 28 55 84 67",
+   "site": "https://laserpentine.co/",
+   "source": "https://laserpentine.co/",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasseur du Verdon",
+  "c": "Esparron-de-Verdon",
+  "d": "04",
+  "lat": 43.74139,
+  "lon": 6.01502,
+  "km": 236.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Une microbrasserie existe d'après la fiche de l'office de tourisme, qui ne dit pas si l'on peut acheter ou consommer sur place. Aucun site officiel ni page Untappd trouvés.",
+  "addr": "Albiosc Village, 6 Impasse des bergeries, 04800 Esparron-de-Verdon",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie Bevedis",
+  "c": "Le Chaffaut-Saint-Jurson",
+  "d": "04",
+  "lat": 44.03331,
+  "lon": 6.14086,
+  "km": 212.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale existante (site officiel et fiche d'office de tourisme). La dégustation est offerte « by appointment » selon l'office de tourisme ; le site officiel ne dit pas où se vend la bière (« En vente localement dans le 04 »). Vente et accueil sur place non établis.",
+  "addr": "Impasse du Four, 04510 Le Chaffaut-Saint-Jurson",
+  "src": "https://brasseriebevedis.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "07 49 17 10 17",
+   "site": "https://brasseriebevedis.com/",
+   "source": "https://brasseriebevedis.com/",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasserie de Pra Loup",
+  "c": "Uvernet-Fours",
+  "d": "04",
+  "lat": 44.32265,
+  "lon": 6.66081,
+  "km": 212.3,
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "La fiche du comité régional de tourisme dit que la brasserie (bière LØÜ) ne reçoit pas le public ; ses bières se trouvent dans les bars, restaurants et épiceries de la station.",
+  "addr": "Le Chalet, Pra Loup 1600, 04400 Uvernet-Fours",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "B3 Brasserie Bio de Briançon",
+  "c": "Briançon",
+  "d": "05",
+  "lat": 44.90147,
+  "lon": 6.6406,
+  "km": 170.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Connue d'OpenStreetMap et d'une fiche de l'office de tourisme (bières bio en bouteilles de 25 et 75 cl), qui ne dit ni vente ni accueil sur place.",
+  "addr": "23 avenue de la Libération, 05100 Briançon",
+  "src": "https://provence-alpes-cotedazur.com/en/offers/b3-brasserie-bio-de-briancon-briancon-en-2878479/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie Interstellaire du Dévoluy",
+  "c": "Dévoluy",
+  "d": "05",
+  "lat": 44.70755,
+  "lon": 5.92311,
+  "km": 141.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme du Dévoluy décrit des bières brassées sur place et une boutique chez l'exploitant ; elle ne dit pas qu'on y boit. Ouvert tous les jours aux vacances scolaires ; hors vacances, jours et horaires variables.",
+  "addr": "Le Courtil, 13 chemin de la Charrière, 05250 Dévoluy",
+  "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/brasserie-interstellaire-du-devoluy-devoluy-fr-3283111/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie Tourmente",
+  "c": "Briançon",
+  "d": "05",
+  "lat": 44.90284,
+  "lon": 6.63091,
+  "km": 170.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Briançon dont le site propose des visites ; il ne dit ni vente ni dégustation sur place.",
+  "addr": "5 avenue du Dauphiné, 05100 Briançon",
+  "src": "https://latourmente.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 92 21 31 49",
+   "site": "https://latourmente.com",
+   "source": "https://latourmente.com",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Piolit Nanobrasserie",
+  "c": "Avançon",
+  "d": "05",
+  "lat": 44.53602,
+  "lon": 6.1887,
+  "km": 169.4,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe d'après l'office de tourisme Serre-Ponçon Vallées, qui donne un créneau le jeudi et le vendredi de 17 h à 19 h sans dire s'il s'agit de vente ou d'accueil.",
+  "addr": "Lieu-dit Les Catinons, 05230 Avançon",
+  "src": "https://www.serreponconvallees.com/en/piolit-nanobrasserie",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie d'Ancelle",
+  "c": "Ancelle",
+  "d": "05",
+  "lat": 44.61708,
+  "lon": 6.19312,
+  "km": 163.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme Champsaur-Valgaudemar dit qu'on y achète les bières de la brasserie et qu'on les déguste sur place, en terrasse ou sur la mezzanine. Horaires saisonniers, que la page dit non garantis.",
+  "addr": "Chemin de Bellevue, 05260 Ancelle",
+  "src": "https://www.champsaur-valgaudemar.com/offres/brasserie-dancelle-ancelle-fr-2686805",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie des Gaillards",
+  "c": "Aubessagne",
+  "d": "05",
+  "lat": 44.75247,
+  "lon": 6.0088,
+  "km": 142.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie et distillerie de Chauffayer. Son site présente un bar et une boutique : la pression à la tireuse, les bouteilles à emporter. Food-truck le vendredi soir.",
+  "addr": "503 avenue Principale, Chauffayer, 05800 Aubessagne",
+  "src": "https://les-gaillards.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 23 24 25 26",
+   "site": "https://les-gaillards.fr",
+   "source": "https://les-gaillards.fr/nous-rencontrer",
+   "verifieLe": "2026-10-27"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:00"
+     ]
+    ],
+    "remarque": "Créneaux de présence habituels : en semaine, la porte est ouverte dès que l'équipe est sur place ; le samedi matin est surtout un créneau de boutique et de retrait. Beer-garden de juin à août.",
+    "source": "https://les-gaillards.fr/nous-rencontrer",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "Le Monde d'Après - Brewpub",
+  "c": "L'Argentière-la-Bessée",
+  "d": "05",
+  "lat": 44.79406,
+  "lon": 6.55951,
+  "km": 171.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub du centre-ville : un bar où l'on brasse la bière, d'après la fiche du comité régional de tourisme, ouvert toute l'année.",
+  "addr": "5 avenue Charles de Gaulle, 05120 L'Argentière-la-Bessée",
+  "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/le-monde-dapres-brewpub-l-argentiere-la-bessee-fr-3651861/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie Butcher's",
+  "c": "Guillestre",
+  "d": "05",
+  "lat": 44.66089,
+  "lon": 6.65221,
+  "km": 186.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "La fiche de l'office de tourisme propose dégustation et achat de bières artisanales, avec terrasse ; du 29 août au 31 décembre 2026, du mercredi au samedi de 16 h à 21 h, horaires que la page dit non garantis.",
+  "addr": "70A route du Queyras, 05600 Guillestre",
+  "src": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "site": "https://brasserie-butchers.com",
+   "source": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasserie Artisanale de Serre-Ponçon",
+  "c": "Chorges",
+  "d": "05",
+  "lat": 44.55327,
+  "lon": 6.25816,
+  "km": 171.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce l'Apex, « boutique, bar, concerts », avec ses horaires. L'adresse est celle de l'Apex selon l'office de tourisme ; l'usine, dans la même zone, ferme le samedi : c'est l'Apex qu'il faut chercher.",
+  "addr": "67 rue de la Source, ZA Grande Île Nord, 05230 Chorges",
+  "src": "https://basp05.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 88 26 00 46",
+   "site": "https://basp05.com/",
+   "source": "https://basp05.com/",
+   "verifieLe": "2026-10-27"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "00:00"
+     ]
+    ],
+    "remarque": "Horaires de l'Apex (boutique, bar, concerts) ; fermé le lundi et le dimanche.",
+    "source": "https://basp05.com/",
+    "verifieLe": "2026-10-27"
+   }
+  ]
+ },
+ {
+  "n": "Filitosa A Biera Corsa",
+  "c": "Sollacaro",
+  "d": "2A",
+  "lat": 41.74222,
+  "lon": 8.88534,
+  "km": 548.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie du site préhistorique de Filitosa, dont le site vend les bières en ligne ; ni vente ni dégustation sur place ne sont dites.",
+  "addr": "Centre préhistorique de Filitosa, 20140 Sollacaro",
+  "src": "https://bieracorsa.filitosa.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "06 14 04 56 30",
+   "site": "https://bieracorsa.filitosa.fr/",
+   "source": "https://bieracorsa.filitosa.fr/",
+   "verifieLe": "2026-10-27"
+  }
+ },
+ {
+  "n": "Brasserie Pietra",
+  "c": "Furiani",
+  "d": "2B",
+  "lat": 42.65175,
+  "lon": 9.42717,
+  "km": 501.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "D'après l'agence du tourisme de la Corse, la boutique ouvre en juillet et en août, du lundi au vendredi de 9 h à 12 h et de 14 h à 17 h 30 ; hors saison, elle est fermée sauf visites de groupe, et la vente se fait en ligne. Visites guidées en juillet et en août.",
+  "addr": "Route de la Marana, 20600 Furiani",
+  "src": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-PIETRA",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie Gloria",
+  "c": "Calvi",
+  "d": "2B",
+  "lat": 42.55002,
+  "lon": 8.7666,
+  "km": 472.4,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie de Calvi, créée en 2019, avec un brewpub qui accueille des soirées et des concerts tout au long de l'année. Pas d'horaires d'accueil publiés : la page ne donne que ceux de l'offre de visite, faite avec l'office de tourisme Calvi-Balagne.",
+  "addr": "Lieu-dit Valle al Legnu, RT 30, 20260 Calvi",
+  "src": "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Decouvertes-oenotouristiques/Visite-guidee-de-la-Brasserie-Gloria-a-Calvi",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Brasserie du Monte Kyrie Eleison",
+  "c": "Ghisoni",
+  "d": "2B",
+  "lat": 42.0951,
+  "lon": 9.21434,
+  "km": 534.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie et distillerie de Ghisoni : vente sur place et dans les restaurants, bars et épiceries de la région, d'après l'agence du tourisme de la Corse ; visites sur rendez-vous.",
+  "addr": "Lieu-dit Aghja, 20227 Ghisoni",
+  "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-MONTE-KYRIE-ELSEISON",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
+ },
+ {
+  "n": "Ty Corsa",
+  "c": "Prunelli-di-Fiumorbo",
+  "d": "2B",
+  "lat": 42.00833,
+  "lon": 9.3672,
+  "km": 550.3,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie du Fiumorbu : vente à emporter et dégustations, d'après l'agence du tourisme de la Corse, qui la dit ouverte toute l'année sans publier d'horaires.",
+  "addr": "Lieu-dit Peliccione, hameau de Querciolo, 20243 Prunelli-di-Fiumorbo",
+  "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/TY-CORSA",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-27"
  }
 ]

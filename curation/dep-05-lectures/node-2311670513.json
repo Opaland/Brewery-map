@@ -1,0 +1,33 @@
+{
+ "candidat": "node/2311670513",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tourmente",
+   "c": "Briançon",
+   "d": "05",
+   "lat": 44.90284,
+   "lon": 6.63091,
+   "km": 170,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Briançon dont le site propose des visites ; il ne dit ni vente ni dégustation sur place.",
+   "addr": "5 avenue du Dauphiné, 05100 Briançon",
+   "src": "https://latourmente.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 92 21 31 49",
+    "site": "https://latourmente.com",
+    "source": "https://latourmente.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://latourmente.com",
+   "https://data.geopf.fr/geocodage/search?q=5+avenue+du+Dauphin%C3%A9%2C+05100+Brian%C3%A7on&limit=5"
+  ],
+  "extrait": "La Brasserie Tourmente vous ouvre ses portes !",
+  "choix": "Téléphone lu sur le site de la brasserie. Pas d'horaires publiés, pas d'Untappd."
+ }
+}

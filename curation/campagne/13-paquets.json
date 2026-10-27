@@ -1,0 +1,868 @@
+[
+ [
+  {
+   "cle": "sirene:414842062",
+   "enseigne": "HEINEKEN ENTREPRISE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE 11EME"
+   ],
+   "adresses": [
+    "AV FRANCOIS CHARDIGNY 13011 MARSEILLE 11EME",
+    "LA VALENTINE 11 AV FRANCOIS CHARDIGNY 13011 MARSEILLE 11EME"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:528365125",
+   "enseigne": "KRONENBOURG SUPPLY COMPANY",
+   "dep": "13",
+   "communes": [
+    "SAINT-MARTIN-DE-CRAU"
+   ],
+   "adresses": [
+    "ZONE INDUSTRIELLE DU BOIS DE LEUZE 10 RUE BLAISE PASCAL 13310 SAINT-MARTIN-DE-CRAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792379919",
+   "enseigne": "BIERE DE LA PLAINE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "16 RUE SAINT PIERRE 13006 MARSEILLE",
+    "LOT 19 116 BOULEVARD DE LA POMME 13011 MARSEILLE",
+    "49 RUE DES TROIS FRERES BARTHELEMY 13006 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:100886365",
+   "enseigne": "LE CRAFT",
+   "dep": "13",
+   "communes": [
+    "LA CIOTAT"
+   ],
+   "adresses": [
+    "12 RUE DES COMBATTANTS 13600 LA CIOTAT",
+    "8 RUE MARECHAL FOCH 13600 LA CIOTAT"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:910831221",
+   "enseigne": "SMBC",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "65 BOULEVARD LONGCHAMP 13001 MARSEILLE",
+    "8 RUE LAFAYETTE 13001 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:812035277",
+   "enseigne": "MINOT BRASSERIE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "268 AVENUE DE LA CAPELETTE 13010 MARSEILLE",
+    "QUARTIER LES ACCATES ZI DELTA INDUSTR 57 MONTEE DE SAINT MENET 13011 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893673293",
+   "enseigne": "BRASSERIE SAPRISTI",
+   "dep": "13",
+   "communes": [
+    "SALON-DE-PROVENCE"
+   ],
+   "adresses": [
+    "15 COURS CAMILLE PELLETAN 13300 SALON-DE-PROVENCE",
+    "686 VIEUX CHEMIN D'ISTRES 13300 SALON-DE-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881435804",
+   "enseigne": "KEG & CAN BREWPUB",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "314 BOULEVARD DU REDON 13009 MARSEILLE"
+   ],
+   "osm": [
+    "node/11171082684"
+   ],
+   "site": "https://kegandcan.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907702187",
+   "enseigne": "BRASSERIE DES CAILLOUX",
+   "dep": "13",
+   "communes": [
+    "PEYROLLES-EN-PROVENCE"
+   ],
+   "adresses": [
+    "QUA LE FORT 13860 PEYROLLES-EN-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910922434",
+   "enseigne": "GOUGAM DC",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "71 RUE D'ITALIE 13006 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:812944361",
+   "enseigne": "BRASSERIE ARTISANALE ARLESIENNE",
+   "dep": "13",
+   "communes": [
+    "SAINT MARTIN DE CRAU"
+   ],
+   "adresses": [
+    "MAS CASTELLANE VERGIERES 13310 SAINT MARTIN DE CRAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953664919",
+   "enseigne": "SNOWBALL EFFECT",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "28 RUE ROUX DE BRIGNOLES 13006 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:938901188",
+   "enseigne": "LA SOURCE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "LOT A 116 BOULEVARD DE LA POMME 13011 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839988813",
+   "enseigne": "SANS PRESSION",
+   "dep": "13",
+   "communes": [
+    "LA ROQUE-D'ANTHERON"
+   ],
+   "adresses": [
+    "26 RUE ALBERT CAMUS 13640 LA ROQUE-D'ANTHERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890663784",
+   "enseigne": "LES 9S BRASSERIE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "292 RUE SAINT PIERRE 13005 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:108567173",
+   "enseigne": "LOWA BREWING",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "71 RUE JAUBERT 13005 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922749643",
+   "enseigne": "BRASSERIE LA BAROUDE",
+   "dep": "13",
+   "communes": [
+    "AIX-EN-PROVENCE"
+   ],
+   "adresses": [
+    "770 CHEMIN DE LA SOUQUE 13090 AIX-EN-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901926527",
+   "enseigne": "BRASSERIE L'AMISTA",
+   "dep": "13",
+   "communes": [
+    "NOVES"
+   ],
+   "adresses": [
+    "LES 3 VERGERS 168 AVENUE AGRICOL VIALA 13550 NOVES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911806859",
+   "enseigne": "CAP MARCA",
+   "dep": "13",
+   "communes": [
+    "ARLES"
+   ],
+   "adresses": [
+    "D572N MAS LAURETTE LD LA VINASSE ALBARON 13104 ARLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814299228",
+   "enseigne": "BRASSERIE ARTISANALE BIO",
+   "dep": "13",
+   "communes": [
+    "AIX-EN-PROVENCE"
+   ],
+   "adresses": [
+    "50 AVENUE MARECHAL DE LATTRE DE TASSIGNY 13090 AIX-EN-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:941082125",
+   "enseigne": "CARA BREW",
+   "dep": "13",
+   "communes": [
+    "ALLAUCH"
+   ],
+   "adresses": [
+    "ROUTE ENCO DE BOTTE TRAVERSE EUGENE CAORS 13190 ALLAUCH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:937486744",
+   "enseigne": "BRASSERIE WOOD",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "31 RUE CONSOLAT 13001 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923550362",
+   "enseigne": "LES BAUX APEROS",
+   "dep": "13",
+   "communes": [
+    "FONTVIEILLE"
+   ],
+   "adresses": [
+    "CHE DU MAS D AUGE 13990 FONTVIEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:825184138",
+   "enseigne": "BULLES DE PROVENCE -",
+   "dep": "13",
+   "communes": [
+    "AIX-EN-PROVENCE"
+   ],
+   "adresses": [
+    "PUYRICARD 15 CHEMIN DE LA VALENTINE 13540 AIX-EN-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824304711",
+   "enseigne": "LA PETITE AIXOISE",
+   "dep": "13",
+   "communes": [
+    "SAINT-CANNAT"
+   ],
+   "adresses": [
+    "705 AVENUE DE L'EUROPE 13760 SAINT-CANNAT"
+   ],
+   "osm": [
+    "node/12083301444"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:830405338",
+   "enseigne": "L ETANG DE BIERE",
+   "dep": "13",
+   "communes": [
+    "SAINT CHAMAS"
+   ],
+   "adresses": [
+    "20 AV DES 53 13250 SAINT CHAMAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:834534760",
+   "enseigne": "ZOUMAI",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "7 COURS GOUFFE 13006 MARSEILLE"
+   ],
+   "osm": [
+    "node/6387251925"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:982812851",
+   "enseigne": "SOIF DE PROVENCE",
+   "dep": "13",
+   "communes": [
+    "SAINT-REMY-DE-PROVENCE"
+   ],
+   "adresses": [
+    "1688 RD 5F DITE PETITE ROUTE DES JARDINS 13210 SAINT-REMY-DE-PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "MICROBRASSERIE DE LA CRAU (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "13",
+   "communes": [
+    "ISTRES"
+   ],
+   "adresses": [
+    "MAS REY 999 CHEMIN DU MAS DE CHAUVET 13118 ISTRES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899007348",
+   "enseigne": "BRASSERIE DES ALPILLES",
+   "dep": "13",
+   "communes": [
+    "EYGALIERES"
+   ],
+   "adresses": [
+    "2874 ROUTE DE LA GARE 13810 EYGALIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:788996437",
+   "enseigne": "BRASSERIE DE SULAUZE",
+   "dep": "13",
+   "communes": [
+    "MIRAMAS"
+   ],
+   "adresses": [
+    "RN 569 SULAUZE 13140 MIRAMAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813736998",
+   "enseigne": "BRASSERIE ARTISANALE DE PROVENCE",
+   "dep": "13",
+   "communes": [
+    "ROUSSET"
+   ],
+   "adresses": [
+    "LA MARNIERE ZI AVENUE OLIVIER PERROY 13790 ROUSSET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922170428",
+   "enseigne": "MICRO BRASSERIE TRANSITIONS",
+   "dep": "13",
+   "communes": [
+    "LA CIOTAT"
+   ],
+   "adresses": [
+    "191 CHEMIN CHARRE 13600 LA CIOTAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:951206523",
+   "enseigne": "LA BRASSERIE SAINT MARCAISE",
+   "dep": "13",
+   "communes": [
+    "SAINT-MARC-JAUMEGARDE"
+   ],
+   "adresses": [
+    "650 TRAVERSE DU PLAN DE LORGUE 13100 SAINT-MARC-JAUMEGARDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:523673796",
+   "enseigne": "ARGUIN DISTRIBUTION",
+   "dep": "13",
+   "communes": [
+    "ROGNES"
+   ],
+   "adresses": [
+    "LOU VOLCANOU D14C RTE DE BEAULIEU 13840 ROGNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:985255199",
+   "enseigne": "GAUBEER",
+   "dep": "13",
+   "communes": [
+    "GEMENOS"
+   ],
+   "adresses": [
+    "1484 CHEMIN DE LA REPUBLIQUE 13420 GEMENOS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:10",
+   "enseigne": "LES 2 BEU (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "13",
+   "communes": [
+    "PLAN-DE-CUQUES"
+   ],
+   "adresses": [
+    "19 B AVENUE FREDERIC CHEVILLON 13380 PLAN-DE-CUQUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892923400",
+   "enseigne": "LE BRASSEUR DES ALPILLES",
+   "dep": "13",
+   "communes": [
+    "ST REMY DE PROVENCE"
+   ],
+   "adresses": [
+    "15-174-QUARTIER LE CROS 15 RTE D AVIGNON 13210 ST REMY DE PROVENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:11",
+   "enseigne": "KATACLYSM (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "13",
+   "communes": [
+    "MARTIGUES"
+   ],
+   "adresses": [
+    "18 RUE DE LA REPUBLIQUE 13500 MARTIGUES"
+   ],
+   "osm": [
+    "node/2272594826"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:945284149",
+   "enseigne": "LA CAMARADERIE",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "76-78 RUE BELLE DE MAI 13003 MARSEILLE"
+   ],
+   "osm": [
+    "node/14190681815"
+   ],
+   "site": "https://www.lacamaraderie.net",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:938752896",
+   "enseigne": "L'ALETERNATIVE",
+   "dep": "13",
+   "communes": [
+    "TARASCON"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE DU ROUBIAN 17 RUE DES FORGERONS 13150 TARASCON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838057909",
+   "enseigne": "BRASSERIE DES MALTFAITEURS",
+   "dep": "13",
+   "communes": [
+    "MARSEILLE"
+   ],
+   "adresses": [
+    "LES LOCAUX BLEUS 553 RUE SAINT PIERRE 13012 MARSEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11773961719",
+   "enseigne": "Brasserie de la Plaine",
+   "dep": "13",
+   "communes": [
+    "La Penne-sur-Huveaune"
+   ],
+   "adresses": [
+    "43 Chemin Vicinal de la Millière à Saint-Menet"
+   ],
+   "osm": [
+    "node/11773961719"
+   ],
+   "site": "https://www.brasseriedelaplaine.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13584735889",
+   "enseigne": "Brass.Art’",
+   "dep": "13",
+   "communes": [
+    "Velaux"
+   ],
+   "adresses": [
+    "5 Rue André-Marie Ampère, 13880 Velaux"
+   ],
+   "osm": [
+    "node/13584735889"
+   ],
+   "site": "https://brass-art.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3535313744",
+   "enseigne": "Comptoir Longchamp",
+   "dep": "13",
+   "communes": [
+    "Marseille"
+   ],
+   "adresses": [
+    "Rue Espérandieu, 13001"
+   ],
+   "osm": [
+    "node/3535313744"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/4591323692",
+   "enseigne": "Le Français",
+   "dep": "13",
+   "communes": [
+    "Le Rove"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4591323692"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4591854684",
+   "enseigne": "Au Bord de l'Eau",
+   "dep": "13",
+   "communes": [
+    "Le Rove"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4591854684"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4604999332",
+   "enseigne": "Au petit Bonheur",
+   "dep": "13",
+   "communes": [
+    "Marignane"
+   ],
+   "adresses": [
+    "Avenue Jean Jaurès, 13700 Marignane"
+   ],
+   "osm": [
+    "node/4604999332"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6343044522",
+   "enseigne": "Au Bureau",
+   "dep": "13",
+   "communes": [
+    "Martigues"
+   ],
+   "adresses": [
+    "Zac des Plaines de Figuerolles, 13500 Martigues"
+   ],
+   "osm": [
+    "node/6343044522"
+   ],
+   "site": "https://www.aubureau.fr/restaurant-brasserie/au-bureau-martigues",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6501882468",
+   "enseigne": "La Mado",
+   "dep": "13",
+   "communes": [
+    "Aix-en-Provence"
+   ],
+   "adresses": [
+    "2 Rue Manuel"
+   ],
+   "osm": [
+    "node/6501882468"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6904731677",
+   "enseigne": "Brasserie Le Thermal",
+   "dep": "13",
+   "communes": [
+    "Aix-en-Provence"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6904731677"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7904653675",
+   "enseigne": "Les deux font la bière",
+   "dep": "13",
+   "communes": [
+    "Aubagne"
+   ],
+   "adresses": [
+    "6 Avenue des Caniers, 13400 Aubagne"
+   ],
+   "osm": [
+    "node/7904653675"
+   ],
+   "site": "https://lesdeuxfontlabiere.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7920421686",
+   "enseigne": "La Brasserie des congrès",
+   "dep": "13",
+   "communes": [
+    "Aubagne"
+   ],
+   "adresses": [
+    "10 Centre Vie Agora, 13400 Aubagne"
+   ],
+   "osm": [
+    "node/7920421686"
+   ],
+   "site": "http://lescongres.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9576060547",
+   "enseigne": "L'Hacienda",
+   "dep": "13",
+   "communes": [
+    "Vitrolles"
+   ],
+   "adresses": [
+    "28 Avenue Jean Moulin, 13127 Vitrolles"
+   ],
+   "osm": [
+    "node/9576060547"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9931817876",
+   "enseigne": "Aquae Maltae",
+   "dep": "13",
+   "communes": [
+    "Aix-en-Provence"
+   ],
+   "adresses": [
+    "50 Rue de l'Ancienne Minoterie"
+   ],
+   "osm": [
+    "node/9931817876"
+   ],
+   "site": "https://www.aquaemaltae.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/101244201",
+   "enseigne": "Courtepaille",
+   "dep": "13",
+   "communes": [
+    "Vitrolles"
+   ],
+   "adresses": [
+    "1 Chemin de la Bastide Blanche"
+   ],
+   "osm": [
+    "way/101244201"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/136064476",
+   "enseigne": "Braserie Boh'M",
+   "dep": "13",
+   "communes": [
+    "Septèmes-les-Vallons"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/136064476"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/154604606",
+   "enseigne": "Le Crillon",
+   "dep": "13",
+   "communes": [
+    "Marseille"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/154604606"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/88763655",
+   "enseigne": "Brasserie des Milles",
+   "dep": "13",
+   "communes": [
+    "Bouc-Bel-Air"
+   ],
+   "adresses": [
+    "735 Rue Lieutenant Parayre"
+   ],
+   "osm": [
+    "way/88763655"
+   ],
+   "site": "https://brasseriedesmilles.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/92755903",
+   "enseigne": "La Route des Bières",
+   "dep": "13",
+   "communes": [
+    "Cabriès"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/92755903"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

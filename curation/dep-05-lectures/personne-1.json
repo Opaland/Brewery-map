@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:1",
+ "ajout": {
+  "fiche": {
+   "n": "Piolit Nanobrasserie",
+   "c": "Avançon",
+   "d": "05",
+   "lat": 44.53602,
+   "lon": 6.1887,
+   "km": 169.4,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe d'après l'office de tourisme Serre-Ponçon Vallées, qui donne un créneau le jeudi et le vendredi de 17 h à 19 h sans dire s'il s'agit de vente ou d'accueil.",
+   "addr": "Lieu-dit Les Catinons, 05230 Avançon",
+   "src": "https://www.serreponconvallees.com/en/piolit-nanobrasserie",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.serreponconvallees.com/en/piolit-nanobrasserie",
+   "https://data.geopf.fr/geocodage/search?q=Avan%C3%A7on&type=municipality&limit=5"
+  ],
+  "extrait": "Independent, creative and environmentally friendly microbrewery.",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Créneau laissé dans la note : sa nature n'est pas dite. Pas de site propre, pas d'Untappd."
+ }
+}

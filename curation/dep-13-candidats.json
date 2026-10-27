@@ -1,0 +1,1549 @@
+[
+ {
+  "cle": "sirene:414842062",
+  "nom": "HEINEKEN ENTREPRISE",
+  "communes": [
+   "MARSEILLE 11EME"
+  ],
+  "departement": "13",
+  "adresses": [
+   "AV FRANCOIS CHARDIGNY 13011 MARSEILLE 11EME",
+   "LA VALENTINE 11 AV FRANCOIS CHARDIGNY 13011 MARSEILLE 11EME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "414842062",
+  "sirets": [
+   "41484206200021",
+   "41484206200161"
+  ],
+  "osm": [],
+  "lat": 43.2945053383153,
+  "lon": 5.48350752603484,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:528365125",
+  "nom": "KRONENBOURG SUPPLY COMPANY",
+  "communes": [
+   "SAINT-MARTIN-DE-CRAU"
+  ],
+  "departement": "13",
+  "adresses": [
+   "ZONE INDUSTRIELLE DU BOIS DE LEUZE 10 RUE BLAISE PASCAL 13310 SAINT-MARTIN-DE-CRAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "528365125",
+  "sirets": [
+   "52836512500061"
+  ],
+  "osm": [],
+  "lat": 43.62186915,
+  "lon": 4.7892658976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:792379919",
+  "nom": "BIERE DE LA PLAINE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "16 RUE SAINT PIERRE 13006 MARSEILLE",
+   "LOT 19 116 BOULEVARD DE LA POMME 13011 MARSEILLE",
+   "49 RUE DES TROIS FRERES BARTHELEMY 13006 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "792379919",
+  "sirets": [
+   "79237991900014",
+   "79237991900030",
+   "79237991900048"
+  ],
+  "osm": [],
+  "lat": 43.293586277,
+  "lon": 5.3877496578,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100886365",
+  "nom": "LE CRAFT",
+  "communes": [
+   "LA CIOTAT"
+  ],
+  "departement": "13",
+  "adresses": [
+   "12 RUE DES COMBATTANTS 13600 LA CIOTAT",
+   "8 RUE MARECHAL FOCH 13600 LA CIOTAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100886365",
+  "sirets": [
+   "10088636500012",
+   "10088636500020"
+  ],
+  "osm": [],
+  "lat": 43.1747133897517,
+  "lon": 5.60795872891771,
+  "statut": "ambigu",
+  "fiche": "Nuage Craft Beer"
+ },
+ {
+  "cle": "sirene:910831221",
+  "nom": "SMBC",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "65 BOULEVARD LONGCHAMP 13001 MARSEILLE",
+   "8 RUE LAFAYETTE 13001 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910831221",
+  "sirets": [
+   "91083122100015",
+   "91083122100023"
+  ],
+  "osm": [],
+  "lat": 43.302082666,
+  "lon": 5.3895543898,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LAMBESC"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:812035277",
+  "nom": "MINOT BRASSERIE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "268 AVENUE DE LA CAPELETTE 13010 MARSEILLE",
+   "QUARTIER LES ACCATES ZI DELTA INDUSTR 57 MONTEE DE SAINT MENET 13011 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812035277",
+  "sirets": [
+   "81203527700035",
+   "81203527700050"
+  ],
+  "osm": [],
+  "lat": 43.279092055,
+  "lon": 5.4133594045,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893673293",
+  "nom": "BRASSERIE SAPRISTI",
+  "communes": [
+   "SALON-DE-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "15 COURS CAMILLE PELLETAN 13300 SALON-DE-PROVENCE",
+   "686 VIEUX CHEMIN D'ISTRES 13300 SALON-DE-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893673293",
+  "sirets": [
+   "89367329300021",
+   "89367329300039"
+  ],
+  "osm": [],
+  "lat": 43.64040935,
+  "lon": 5.095927934,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881435804",
+  "nom": "KEG & CAN BREWPUB",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "314 BOULEVARD DU REDON 13009 MARSEILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "881435804",
+  "sirets": [
+   "88143580400029"
+  ],
+  "osm": [
+   "node/11171082684"
+  ],
+  "lat": 43.245580446,
+  "lon": 5.4262014329,
+  "site": "https://kegandcan.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907702187",
+  "nom": "BRASSERIE DES CAILLOUX",
+  "communes": [
+   "PEYROLLES-EN-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "QUA LE FORT 13860 PEYROLLES-EN-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907702187",
+  "sirets": [
+   "90770218700010"
+  ],
+  "osm": [],
+  "lat": 43.653966104,
+  "lon": 5.6091816761,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:910922434",
+  "nom": "GOUGAM DC",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "71 RUE D'ITALIE 13006 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910922434",
+  "sirets": [
+   "91092243400022"
+  ],
+  "osm": [],
+  "lat": 43.288221237,
+  "lon": 5.3833609935,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812944361",
+  "nom": "BRASSERIE ARTISANALE ARLESIENNE",
+  "communes": [
+   "SAINT MARTIN DE CRAU"
+  ],
+  "departement": "13",
+  "adresses": [
+   "MAS CASTELLANE VERGIERES 13310 SAINT MARTIN DE CRAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812944361",
+  "sirets": [
+   "81294436100011"
+  ],
+  "osm": [],
+  "lat": 43.575479347,
+  "lon": 4.8187670906,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953664919",
+  "nom": "SNOWBALL EFFECT",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "28 RUE ROUX DE BRIGNOLES 13006 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953664919",
+  "sirets": [
+   "95366491900016"
+  ],
+  "osm": [],
+  "lat": 43.289608262,
+  "lon": 5.3742362676,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938901188",
+  "nom": "LA SOURCE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "LOT A 116 BOULEVARD DE LA POMME 13011 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938901188",
+  "sirets": [
+   "93890118800012"
+  ],
+  "osm": [],
+  "lat": 43.2931813755369,
+  "lon": 5.45228949136642,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839988813",
+  "nom": "SANS PRESSION",
+  "communes": [
+   "LA ROQUE-D'ANTHERON"
+  ],
+  "departement": "13",
+  "adresses": [
+   "26 RUE ALBERT CAMUS 13640 LA ROQUE-D'ANTHERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839988813",
+  "sirets": [
+   "83998881300011"
+  ],
+  "osm": [],
+  "lat": 43.713775505,
+  "lon": 5.3110806598,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890663784",
+  "nom": "LES 9S BRASSERIE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "292 RUE SAINT PIERRE 13005 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890663784",
+  "sirets": [
+   "89066378400019"
+  ],
+  "osm": [],
+  "lat": 43.291493172,
+  "lon": 5.4055941384,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:108567173",
+  "nom": "LOWA BREWING",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "71 RUE JAUBERT 13005 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "108567173",
+  "sirets": [
+   "10856717300019"
+  ],
+  "osm": [],
+  "lat": 43.2978098602584,
+  "lon": 5.39214492414194,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "VITROLLES"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:922749643",
+  "nom": "BRASSERIE LA BAROUDE",
+  "communes": [
+   "AIX-EN-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "770 CHEMIN DE LA SOUQUE 13090 AIX-EN-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922749643",
+  "sirets": [
+   "92274964300016"
+  ],
+  "osm": [],
+  "lat": 43.531986735,
+  "lon": 5.4033853521,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901926527",
+  "nom": "BRASSERIE L'AMISTA",
+  "communes": [
+   "NOVES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "LES 3 VERGERS 168 AVENUE AGRICOL VIALA 13550 NOVES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901926527",
+  "sirets": [
+   "90192652700028"
+  ],
+  "osm": [],
+  "lat": 43.8786311828651,
+  "lon": 4.90472791049792,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911806859",
+  "nom": "CAP MARCA",
+  "communes": [
+   "ARLES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "D572N MAS LAURETTE LD LA VINASSE ALBARON 13104 ARLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911806859",
+  "sirets": [
+   "91180685900011"
+  ],
+  "osm": [],
+  "lat": 43.626406669,
+  "lon": 4.4883463882,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814299228",
+  "nom": "BRASSERIE ARTISANALE BIO",
+  "communes": [
+   "AIX-EN-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "50 AVENUE MARECHAL DE LATTRE DE TASSIGNY 13090 AIX-EN-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814299228",
+  "sirets": [
+   "81429922800027"
+  ],
+  "osm": [],
+  "lat": 43.534915373,
+  "lon": 5.435568556,
+  "statut": "ambigu",
+  "fiche": "Bière bio des Monts d'Or"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "MALLEMORT"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:941082125",
+  "nom": "CARA BREW",
+  "communes": [
+   "ALLAUCH"
+  ],
+  "departement": "13",
+  "adresses": [
+   "ROUTE ENCO DE BOTTE TRAVERSE EUGENE CAORS 13190 ALLAUCH"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941082125",
+  "sirets": [
+   "94108212500019"
+  ],
+  "osm": [],
+  "lat": 43.3176479683067,
+  "lon": 5.47617861111879,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:937486744",
+  "nom": "BRASSERIE WOOD",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "31 RUE CONSOLAT 13001 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "937486744",
+  "sirets": [
+   "93748674400017"
+  ],
+  "osm": [],
+  "lat": 43.3003770198751,
+  "lon": 5.3876895713174,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923550362",
+  "nom": "LES BAUX APEROS",
+  "communes": [
+   "FONTVIEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "CHE DU MAS D AUGE 13990 FONTVIEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923550362",
+  "sirets": [
+   "92355036200019"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:825184138",
+  "nom": "BULLES DE PROVENCE -",
+  "communes": [
+   "AIX-EN-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "PUYRICARD 15 CHEMIN DE LA VALENTINE 13540 AIX-EN-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "825184138",
+  "sirets": [
+   "82518413800022"
+  ],
+  "osm": [],
+  "lat": 43.587949075,
+  "lon": 5.39486008,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824304711",
+  "nom": "LA PETITE AIXOISE",
+  "communes": [
+   "SAINT-CANNAT"
+  ],
+  "departement": "13",
+  "adresses": [
+   "705 AVENUE DE L'EUROPE 13760 SAINT-CANNAT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "824304711",
+  "sirets": [
+   "82430471100024"
+  ],
+  "osm": [
+   "node/12083301444"
+  ],
+  "lat": 43.614343214,
+  "lon": 5.317440881,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SAINT-ANDIOL"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:830405338",
+  "nom": "L ETANG DE BIERE",
+  "communes": [
+   "SAINT CHAMAS"
+  ],
+  "departement": "13",
+  "adresses": [
+   "20 AV DES 53 13250 SAINT CHAMAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830405338",
+  "sirets": [
+   "83040533800021"
+  ],
+  "osm": [],
+  "lat": 43.547805429,
+  "lon": 5.035210763,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834534760",
+  "nom": "ZOUMAI",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "7 COURS GOUFFE 13006 MARSEILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "834534760",
+  "sirets": [
+   "83453476000014"
+  ],
+  "osm": [
+   "node/6387251925"
+  ],
+  "lat": 43.286342354,
+  "lon": 5.3866361542,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "ARLES"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:982812851",
+  "nom": "SOIF DE PROVENCE",
+  "communes": [
+   "SAINT-REMY-DE-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "1688 RD 5F DITE PETITE ROUTE DES JARDINS 13210 SAINT-REMY-DE-PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "982812851",
+  "sirets": [
+   "98281285100011"
+  ],
+  "osm": [],
+  "lat": 43.813538686848,
+  "lon": 4.82250597244124,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "MICROBRASSERIE DE LA CRAU",
+  "communes": [
+   "ISTRES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "MAS REY 999 CHEMIN DU MAS DE CHAUVET 13118 ISTRES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "JOUQUES"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:899007348",
+  "nom": "BRASSERIE DES ALPILLES",
+  "communes": [
+   "EYGALIERES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "2874 ROUTE DE LA GARE 13810 EYGALIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899007348",
+  "sirets": [
+   "89900734800019"
+  ],
+  "osm": [],
+  "lat": 43.787033897,
+  "lon": 4.9547392979,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:788996437",
+  "nom": "BRASSERIE DE SULAUZE",
+  "communes": [
+   "MIRAMAS"
+  ],
+  "departement": "13",
+  "adresses": [
+   "RN 569 SULAUZE 13140 MIRAMAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "788996437",
+  "sirets": [
+   "78899643700018"
+  ],
+  "osm": [],
+  "lat": 43.589461781,
+  "lon": 4.9962773182,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:813736998",
+  "nom": "BRASSERIE ARTISANALE DE PROVENCE",
+  "communes": [
+   "ROUSSET"
+  ],
+  "departement": "13",
+  "adresses": [
+   "LA MARNIERE ZI AVENUE OLIVIER PERROY 13790 ROUSSET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813736998",
+  "sirets": [
+   "81373699800028"
+  ],
+  "osm": [],
+  "lat": 43.472407278,
+  "lon": 5.5961989966,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922170428",
+  "nom": "MICRO BRASSERIE TRANSITIONS",
+  "communes": [
+   "LA CIOTAT"
+  ],
+  "departement": "13",
+  "adresses": [
+   "191 CHEMIN CHARRE 13600 LA CIOTAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922170428",
+  "sirets": [
+   "92217042800010"
+  ],
+  "osm": [],
+  "lat": 43.197148561,
+  "lon": 5.634974394,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951206523",
+  "nom": "LA BRASSERIE SAINT MARCAISE",
+  "communes": [
+   "SAINT-MARC-JAUMEGARDE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "650 TRAVERSE DU PLAN DE LORGUE 13100 SAINT-MARC-JAUMEGARDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951206523",
+  "sirets": [
+   "95120652300015"
+  ],
+  "osm": [],
+  "lat": 43.54522213,
+  "lon": 5.5003248919,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:523673796",
+  "nom": "ARGUIN DISTRIBUTION",
+  "communes": [
+   "ROGNES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "LOU VOLCANOU D14C RTE DE BEAULIEU 13840 ROGNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "523673796",
+  "sirets": [
+   "52367379600018"
+  ],
+  "osm": [],
+  "lat": 43.636103899,
+  "lon": 5.4044110638,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:985255199",
+  "nom": "GAUBEER",
+  "communes": [
+   "GEMENOS"
+  ],
+  "departement": "13",
+  "adresses": [
+   "1484 CHEMIN DE LA REPUBLIQUE 13420 GEMENOS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "985255199",
+  "sirets": [
+   "98525519900012"
+  ],
+  "osm": [],
+  "lat": 43.2888780153828,
+  "lon": 5.62341305828286,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": "LES 2 BEU",
+  "communes": [
+   "PLAN-DE-CUQUES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "19 B AVENUE FREDERIC CHEVILLON 13380 PLAN-DE-CUQUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892923400",
+  "nom": "LE BRASSEUR DES ALPILLES",
+  "communes": [
+   "ST REMY DE PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "15-174-QUARTIER LE CROS 15 RTE D AVIGNON 13210 ST REMY DE PROVENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892923400",
+  "sirets": [
+   "89292340000014"
+  ],
+  "osm": [],
+  "lat": 43.798585093,
+  "lon": 4.8332829157,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": "KATACLYSM",
+  "communes": [
+   "MARTIGUES"
+  ],
+  "departement": "13",
+  "adresses": [
+   "18 RUE DE LA REPUBLIQUE 13500 MARTIGUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/2272594826"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:945284149",
+  "nom": "LA CAMARADERIE",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "76-78 RUE BELLE DE MAI 13003 MARSEILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "945284149",
+  "sirets": [
+   "94528414900016"
+  ],
+  "osm": [
+   "node/14190681815"
+  ],
+  "lat": 43.3121067709524,
+  "lon": 5.38505111227262,
+  "site": "https://www.lacamaraderie.net",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938752896",
+  "nom": "L'ALETERNATIVE",
+  "communes": [
+   "TARASCON"
+  ],
+  "departement": "13",
+  "adresses": [
+   "ZONE ARTISANALE DU ROUBIAN 17 RUE DES FORGERONS 13150 TARASCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938752896",
+  "sirets": [
+   "93875289600010"
+  ],
+  "osm": [],
+  "lat": 43.7954070618695,
+  "lon": 4.68291115033965,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "LES PENNES-MIRABEAU"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "SALON-DE-PROVENCE"
+  ],
+  "departement": "13",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:838057909",
+  "nom": "BRASSERIE DES MALTFAITEURS",
+  "communes": [
+   "MARSEILLE"
+  ],
+  "departement": "13",
+  "adresses": [
+   "LES LOCAUX BLEUS 553 RUE SAINT PIERRE 13012 MARSEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838057909",
+  "sirets": [
+   "83805790900023"
+  ],
+  "osm": [],
+  "lat": 43.290545152,
+  "lon": 5.4209635966,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11773961719",
+  "nom": "Brasserie de la Plaine",
+  "communes": [
+   "La Penne-sur-Huveaune"
+  ],
+  "departement": "13",
+  "adresses": [
+   "43 Chemin Vicinal de la Millière à Saint-Menet"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11773961719"
+  ],
+  "lat": 43.28641,
+  "lon": 5.49619,
+  "site": "https://www.brasseriedelaplaine.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13584735889",
+  "nom": "Brass.Art’",
+  "communes": [
+   "Velaux"
+  ],
+  "departement": "13",
+  "adresses": [
+   "5 Rue André-Marie Ampère, 13880 Velaux"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13584735889"
+  ],
+  "lat": 43.51474,
+  "lon": 5.23256,
+  "site": "https://brass-art.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3535313744",
+  "nom": "Comptoir Longchamp",
+  "communes": [
+   "Marseille"
+  ],
+  "departement": "13",
+  "adresses": [
+   "Rue Espérandieu, 13001"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3535313744"
+  ],
+  "lat": 43.30387,
+  "lon": 5.39298,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4591323692",
+  "nom": "Le Français",
+  "communes": [
+   "Le Rove"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4591323692"
+  ],
+  "lat": 43.36089,
+  "lon": 5.3133,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4591854684",
+  "nom": "Au Bord de l'Eau",
+  "communes": [
+   "Le Rove"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4591854684"
+  ],
+  "lat": 43.36104,
+  "lon": 5.31057,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4604999332",
+  "nom": "Au petit Bonheur",
+  "communes": [
+   "Marignane"
+  ],
+  "departement": "13",
+  "adresses": [
+   "Avenue Jean Jaurès, 13700 Marignane"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4604999332"
+  ],
+  "lat": 43.41575,
+  "lon": 5.21452,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6343044522",
+  "nom": "Au Bureau",
+  "communes": [
+   "Martigues"
+  ],
+  "departement": "13",
+  "adresses": [
+   "Zac des Plaines de Figuerolles, 13500 Martigues"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6343044522"
+  ],
+  "lat": 43.43055,
+  "lon": 5.04908,
+  "site": "https://www.aubureau.fr/restaurant-brasserie/au-bureau-martigues",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6501882468",
+  "nom": "La Mado",
+  "communes": [
+   "Aix-en-Provence"
+  ],
+  "departement": "13",
+  "adresses": [
+   "2 Rue Manuel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6501882468"
+  ],
+  "lat": 43.5285,
+  "lon": 5.45131,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6904731677",
+  "nom": "Brasserie Le Thermal",
+  "communes": [
+   "Aix-en-Provence"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6904731677"
+  ],
+  "lat": 43.52951,
+  "lon": 5.44433,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7904653675",
+  "nom": "Les deux font la bière",
+  "communes": [
+   "Aubagne"
+  ],
+  "departement": "13",
+  "adresses": [
+   "6 Avenue des Caniers, 13400 Aubagne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7904653675"
+  ],
+  "lat": 43.2869,
+  "lon": 5.59345,
+  "site": "https://lesdeuxfontlabiere.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7920421686",
+  "nom": "La Brasserie des congrès",
+  "communes": [
+   "Aubagne"
+  ],
+  "departement": "13",
+  "adresses": [
+   "10 Centre Vie Agora, 13400 Aubagne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7920421686"
+  ],
+  "lat": 43.28689,
+  "lon": 5.60262,
+  "site": "http://lescongres.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9576060547",
+  "nom": "L'Hacienda",
+  "communes": [
+   "Vitrolles"
+  ],
+  "departement": "13",
+  "adresses": [
+   "28 Avenue Jean Moulin, 13127 Vitrolles"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9576060547"
+  ],
+  "lat": 43.45496,
+  "lon": 5.24392,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9931817876",
+  "nom": "Aquae Maltae",
+  "communes": [
+   "Aix-en-Provence"
+  ],
+  "departement": "13",
+  "adresses": [
+   "50 Rue de l'Ancienne Minoterie"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9931817876"
+  ],
+  "lat": 43.535,
+  "lon": 5.43557,
+  "site": "https://www.aquaemaltae.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/101244201",
+  "nom": "Courtepaille",
+  "communes": [
+   "Vitrolles"
+  ],
+  "departement": "13",
+  "adresses": [
+   "1 Chemin de la Bastide Blanche"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/101244201"
+  ],
+  "lat": 43.43088,
+  "lon": 5.2655,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/136064476",
+  "nom": "Braserie Boh'M",
+  "communes": [
+   "Septèmes-les-Vallons"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/136064476"
+  ],
+  "lat": 43.41623,
+  "lon": 5.36122,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/154604606",
+  "nom": "Le Crillon",
+  "communes": [
+   "Marseille"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/154604606"
+  ],
+  "lat": 43.27992,
+  "lon": 5.41824,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/88763655",
+  "nom": "Brasserie des Milles",
+  "communes": [
+   "Bouc-Bel-Air"
+  ],
+  "departement": "13",
+  "adresses": [
+   "735 Rue Lieutenant Parayre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/88763655"
+  ],
+  "lat": 43.49914,
+  "lon": 5.3635,
+  "site": "https://brasseriedesmilles.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/92755903",
+  "nom": "La Route des Bières",
+  "communes": [
+   "Cabriès"
+  ],
+  "departement": "13",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/92755903"
+  ],
+  "lat": 43.4279,
+  "lon": 5.38862,
+  "statut": "nouveau"
+ }
+]

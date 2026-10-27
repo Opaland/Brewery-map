@@ -1,0 +1,98 @@
+{
+ "candidat": "node/6269302527",
+ "ajout": {
+  "fiche": {
+   "n": "La Sauvage (Brasserie des Hautes Vallées)",
+   "c": "Saint-Paul-sur-Ubaye",
+   "d": "04",
+   "lat": 44.51797,
+   "lon": 6.7528,
+   "km": 202.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale installée au village depuis 2012. La dégustation sur place, la pression, la terrasse et la vente à emporter sont dites par l'office de tourisme ; le site de la brasserie donne ses horaires d'ouverture sans dire ce qu'on y fait.",
+   "addr": "546 route du Col de Vars, 04530 Saint-Paul-sur-Ubaye",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 92 61 37 93",
+    "site": "https://www.la-sauvage.fr/",
+    "source": "https://www.la-sauvage.fr/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.la-sauvage.fr/",
+     "lun": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "dim": [],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+   "https://www.la-sauvage.fr/",
+   "https://data.geopf.fr/geocodage/search?q=546+route+du+Col+de+Vars%2C+04530+Saint-Paul-sur-Ubaye&limit=5"
+  ],
+  "extrait": "Dégustation sur place, bières pression, terrasse, vente à emporter, visite sur rendez-vous.",
+  "choix": "Fixe retenu (04 92 61 37 93), mobile écarté (un fixe existe). Untappd : aucune page. Confiance moyenne : catégorie sur l'office de tourisme seul (#37)."
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:819062464",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cordoeil",
+   "c": "Thorame-Basse",
+   "d": "04",
+   "lat": 44.09365,
+   "lon": 6.50553,
+   "km": 223.4,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Deux fiches de l'office de tourisme Verdon Tourisme se contredisent : l'une cite la vente sur place du lundi au samedi de 16 h à 18 h, l'autre une visite en juillet et en août. Aucune ne dit si l'on consomme sur place.",
+   "addr": "Le Village, 04170 Thorame-Basse",
+   "src": "https://www.verdontourisme.com/en/?p=104518",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 92 83 42 23",
+    "site": "http://www.cordoeil.com",
+    "source": "http://www.cordoeil.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.verdontourisme.com/en/?p=104518",
+   "http://www.cordoeil.com",
+   "https://data.geopf.fr/geocodage/search?q=Thorame-Basse&type=municipality&limit=5"
+  ],
+  "extrait": "From 01/01 to 31/12 from Monday to Saturday between 4 pm and 6 pm.",
+  "choix": "Horaires laissés hors de la fiche : les deux fiches de l'office se contredisent. Téléphone lu sur le site de la brasserie. Pas d'Untappd."
+ }
+}

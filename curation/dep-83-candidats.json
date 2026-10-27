@@ -1,0 +1,1057 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "FIGANIERES"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:880926183",
+  "nom": "LE MOUSSE TOULON",
+  "communes": [
+   "LA GARDE",
+   "TOULON"
+  ],
+  "departement": "83",
+  "adresses": [
+   "102 ALLEE DE SALERNES 83130 LA GARDE",
+   "4 BOULEVARD DOCTEUR CUNEO 83000 TOULON",
+   "PLACE DE L EQUERRE 25 RUE VICTOR MICHOLET 83000 TOULON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880926183",
+  "sirets": [
+   "88092618300018",
+   "88092618300026",
+   "88092618300034"
+  ],
+  "osm": [],
+  "lat": 43.126607478,
+  "lon": 5.9980380477,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890260219",
+  "nom": "NEUJA",
+  "communes": [
+   "SAINT-MANDRIER-SUR-MER"
+  ],
+  "departement": "83",
+  "adresses": [
+   "42 AVENUE DE LA CORNICHE D'OR 83430 SAINT-MANDRIER-SUR-MER",
+   "BOULEVARD DE CHAMPAGNE 83430 SAINT-MANDRIER-SUR-MER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "890260219",
+  "sirets": [
+   "89026021900013",
+   "89026021900021"
+  ],
+  "osm": [
+   "way/205054010"
+  ],
+  "lat": 43.0726029293463,
+  "lon": 5.93604777605154,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897862660",
+  "nom": "LE BRASSITORIUM",
+  "communes": [
+   "TOURRETTES",
+   "CALLIAN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "338 D ZONE ARTISANALE DE CAMBARRAS 83440 TOURRETTES",
+   "LIEUDIT JEAN PAUL ROUTE DEPARTEMENTALE 562 83440 CALLIAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897862660",
+  "sirets": [
+   "89786266000015",
+   "89786266000023"
+  ],
+  "osm": [],
+  "lat": 43.605574388,
+  "lon": 6.6981761152,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901867911",
+  "nom": "SAS BEERCOMPANY",
+  "communes": [
+   "DRAGUIGNAN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "34 B BOULEVARD JEAN JAURES 83300 DRAGUIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901867911",
+  "sirets": [
+   "90186791100017"
+  ],
+  "osm": [],
+  "lat": 43.5366874,
+  "lon": 6.4649224306,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "LA FERME D'ETIENNE",
+  "communes": [
+   "TRIGANCE"
+  ],
+  "departement": "83",
+  "adresses": [
+   "LA RD 955 LA SAGNE MAISON DE PAYS 3075 ROUTE DE CASTELLANE 83840 TRIGANCE",
+   "175 CHEMIN DE FONT ROSE 83840 TRIGANCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951409721",
+  "nom": "AM-B",
+  "communes": [
+   "POURRIERES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "8 RUE DES POILUS 83910 POURRIERES",
+   "561 ROUTE DE TRETS 83910 POURRIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951409721",
+  "sirets": [
+   "95140972100010",
+   "95140972100028"
+  ],
+  "osm": [],
+  "lat": 43.5033754325575,
+  "lon": 5.73404705471976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814659728",
+  "nom": "BRASSEURS DU SUD",
+  "communes": [
+   "TOULON",
+   "LA SEYNE-SUR-MER"
+  ],
+  "departement": "83",
+  "adresses": [
+   "300 RUE AMIRAL NOMY 83000 TOULON",
+   "138 MONTE BATTERIE DE LA MONTAGNE 83500 LA SEYNE-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814659728",
+  "sirets": [
+   "81465972800020",
+   "81465972800038"
+  ],
+  "osm": [],
+  "lat": 43.1197631530462,
+  "lon": 5.94876036026443,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890852759",
+  "nom": "BRASSERIE DE L'ANE VOLANT",
+  "communes": [
+   "GONFARON"
+  ],
+  "departement": "83",
+  "adresses": [
+   "1423 ROUTE DE REPENTI 83590 GONFARON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890852759",
+  "sirets": [
+   "89085275900012"
+  ],
+  "osm": [],
+  "lat": 43.324591134411,
+  "lon": 6.2951965777126,
+  "statut": "ambigu",
+  "fiche": "L'âne Brasseur"
+ },
+ {
+  "cle": "sirene:892503160",
+  "nom": "BRASSERIE LA CIG'",
+  "communes": [
+   "LA SEYNE-SUR-MER"
+  ],
+  "departement": "83",
+  "adresses": [
+   "153 AVENUE DU LUXEMBOURG 83500 LA SEYNE-SUR-MER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892503160",
+  "sirets": [
+   "89250316000012"
+  ],
+  "osm": [],
+  "lat": 43.112149563,
+  "lon": 5.8525900495,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912395597",
+  "nom": "BRASSERIE SAINTE-CROIX",
+  "communes": [
+   "BAUDUEN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "55 CHEMIN DE SAINT BARTHELEMY 83630 BAUDUEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912395597",
+  "sirets": [
+   "91239559700020"
+  ],
+  "osm": [],
+  "lat": 43.7209768224493,
+  "lon": 6.18155891391591,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910026715",
+  "nom": "MICROBRASSERIE TARVOS",
+  "communes": [
+   "SALERNES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "QUARTIER ST ROMAIN 1614 ROUTE DE DRAGUIGNAN 83690 SALERNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910026715",
+  "sirets": [
+   "91002671500011"
+  ],
+  "osm": [],
+  "lat": 43.558193938,
+  "lon": 6.2612227612,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CORRENS"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LE LUC"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:921953956",
+  "nom": "LA TCHOUC",
+  "communes": [
+   "COLLOBRIERES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "10 BOULEVARD LAZARE-CARNOT 83610 COLLOBRIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "921953956",
+  "sirets": [
+   "92195395600015"
+  ],
+  "osm": [
+   "node/11401868369"
+  ],
+  "lat": 43.237192436,
+  "lon": 6.3086362082,
+  "site": "https://latchouc.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977761394",
+  "nom": "STQR",
+  "communes": [
+   "LA FARLEDE"
+  ],
+  "departement": "83",
+  "adresses": [
+   "ZI TOULON EST QUA LES PIOUX RUE DE L ARAMON 83210 LA FARLEDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977761394",
+  "sirets": [
+   "97776139400021"
+  ],
+  "osm": [],
+  "lat": 43.154637971,
+  "lon": 6.0432833374,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820115533",
+  "nom": "BRASSERIE D A COTE",
+  "communes": [
+   "LE BEAUSSET"
+  ],
+  "departement": "83",
+  "adresses": [
+   "230 ROUTE DE TOULON A MARSEILLE 83330 LE BEAUSSET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "820115533",
+  "sirets": [
+   "82011553300029"
+  ],
+  "osm": [
+   "node/7281937910"
+  ],
+  "lat": 43.1944240665874,
+  "lon": 5.80850286838233,
+  "site": "https://madamedusse.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:378971550",
+  "nom": "B ET C SOLUTION",
+  "communes": [
+   "BARGEMON"
+  ],
+  "departement": "83",
+  "adresses": [
+   "ROUTE DE BROVES 83830 BARGEMON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "378971550",
+  "sirets": [
+   "37897155000041"
+  ],
+  "osm": [],
+  "lat": 43.628881556,
+  "lon": 6.5544695634,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:837878826",
+  "nom": "LE BRASSEUR VAROIS",
+  "communes": [
+   "CARCES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "25 AVENUE GIRAUD FLORENTIN 83570 CARCES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "837878826",
+  "sirets": [
+   "83787882600010"
+  ],
+  "osm": [],
+  "lat": 43.475237264,
+  "lon": 6.1828595222,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "GONFARON"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:809069248",
+  "nom": "LA BAS VAROISE",
+  "communes": [
+   "LA CADIERE D'AZUR"
+  ],
+  "departement": "83",
+  "adresses": [
+   "QUARTIER LES SALETTES 861 C CHE DES VANNIERES 83740 LA CADIERE D'AZUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809069248",
+  "sirets": [
+   "80906924800015"
+  ],
+  "osm": [],
+  "lat": 43.20638816,
+  "lon": 5.7236247432,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818946881",
+  "nom": "BRASSERIE ARTISANALE LA BLONDE ET LA BRUNE",
+  "communes": [
+   "NEOULES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "6 PLACE DU CHATEAU 83136 NEOULES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818946881",
+  "sirets": [
+   "81894688100013"
+  ],
+  "osm": [
+   "node/14122464254"
+  ],
+  "lat": 43.310473806,
+  "lon": 6.0139691394,
+  "site": "http://lablondelabrune.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923597629",
+  "nom": "LE FOURQUET D'ARGENS",
+  "communes": [
+   "DRAGUIGNAN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "1110 CHEMIN DES ARNOUX 83300 DRAGUIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923597629",
+  "sirets": [
+   "92359762900016"
+  ],
+  "osm": [],
+  "lat": 43.505462807,
+  "lon": 6.4312672907,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824685341",
+  "nom": "BRASSERIE ARTISANALE LA MAURE",
+  "communes": [
+   "BORMES-LES-MIMOSAS"
+  ],
+  "departement": "83",
+  "adresses": [
+   "1065 CHEMIN DE BENAT 83230 BORMES-LES-MIMOSAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824685341",
+  "sirets": [
+   "82468534100011"
+  ],
+  "osm": [],
+  "lat": 43.133237747,
+  "lon": 6.3468278767,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:943470922",
+  "nom": "VISION BREWERY",
+  "communes": [
+   "TOURRETTES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "298 S3 CHEMIN D LOTISSEMENT ARTISANAL LOMBARDIE 83440 TOURRETTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "943470922",
+  "sirets": [
+   "94347092200015"
+  ],
+  "osm": [],
+  "lat": 43.606633471816,
+  "lon": 6.70803419028587,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813207644",
+  "nom": "LES BRASSEURS DE L'ESTEREL",
+  "communes": [
+   "SAINT-RAPHAEL"
+  ],
+  "departement": "83",
+  "adresses": [
+   "170 RUE ISAAC NEWTON 83700 SAINT-RAPHAEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813207644",
+  "sirets": [
+   "81320764400028"
+  ],
+  "osm": [],
+  "lat": 43.435936687,
+  "lon": 6.807206851,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920360740",
+  "nom": "BRASSERIE ARTISANALE DU GOLFE",
+  "communes": [
+   "SAINTE-MAXIME"
+  ],
+  "departement": "83",
+  "adresses": [
+   "ZA CAMP FERRAT 2 31 AVENUE DES ARTISANS 83120 SAINTE-MAXIME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920360740",
+  "sirets": [
+   "92036074000038"
+  ],
+  "osm": [],
+  "lat": 43.32883719,
+  "lon": 6.5930419058,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:439496944",
+  "nom": "LA BIERE DES ILES D'OR",
+  "communes": [
+   "HYERES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "OPEN SOURCE 143 RUE DE LA FORGE 83400 HYERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "439496944",
+  "sirets": [
+   "43949694400075"
+  ],
+  "osm": [],
+  "lat": 43.1086050150405,
+  "lon": 6.10366894351267,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828908673",
+  "nom": "BRASSERIE DU CASTELLET",
+  "communes": [
+   "SIGNES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "LA QUEUE DE SARTAN 870 AVENUE DE MADRID 83870 SIGNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828908673",
+  "sirets": [
+   "82890867300027"
+  ],
+  "osm": [],
+  "lat": 43.2610478404721,
+  "lon": 5.7894192989999,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850152216",
+  "nom": "LE TAILLEUR DE BIERES",
+  "communes": [
+   "COTIGNAC"
+  ],
+  "departement": "83",
+  "adresses": [
+   "1 COURS GAMBETTA 83570 COTIGNAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850152216",
+  "sirets": [
+   "85015221600014"
+  ],
+  "osm": [],
+  "lat": 43.526525414,
+  "lon": 6.1498603637,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:533417127",
+  "nom": "BRASSERIE CARTERON",
+  "communes": [
+   "COGOLIN"
+  ],
+  "departement": "83",
+  "adresses": [
+   "DOMAINE VAL D'ASTIER CHEMIN VAL D'ASTIER 83310 COGOLIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "533417127",
+  "sirets": [
+   "53341712700057"
+  ],
+  "osm": [],
+  "lat": 43.2227447451657,
+  "lon": 6.51796379716754,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979733532",
+  "nom": "BRASSERIE BARBUE",
+  "communes": [
+   "FLASSANS-SUR-ISSOLE"
+  ],
+  "departement": "83",
+  "adresses": [
+   "39 VALLON DE LA BOURETTE 83340 FLASSANS-SUR-ISSOLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979733532",
+  "sirets": [
+   "97973353200027"
+  ],
+  "osm": [],
+  "lat": 43.369215005,
+  "lon": 6.2160229766,
+  "statut": "ambigu",
+  "fiche": "La Barbue"
+ },
+ {
+  "cle": "sirene:507454734",
+  "nom": "L'ESCARGOT BLEU",
+  "communes": [
+   "PONTEVES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "LE VIERARD 83670 PONTEVES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "507454734",
+  "sirets": [
+   "50745473400025"
+  ],
+  "osm": [],
+  "lat": 43.53485904,
+  "lon": 6.028022488,
+  "statut": "ambigu",
+  "fiche": "Brasserie de l'Escargot"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LE MUY"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:950761163",
+  "nom": "L' ECLAT BRASSERIE ARTISANALE",
+  "communes": [
+   "CARNOULES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "561 AVENUE DES PLATANES 83660 CARNOULES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "950761163",
+  "sirets": [
+   "95076116300027"
+  ],
+  "osm": [],
+  "lat": 43.298358021,
+  "lon": 6.1780913902,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "B HYERES",
+  "communes": [
+   "HYERES"
+  ],
+  "departement": "83",
+  "adresses": [
+   "1996 LE PALYVESTRE 83400 HYERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917776320",
+  "nom": "LA SCELERATE",
+  "communes": [
+   "TOULON"
+  ],
+  "departement": "83",
+  "adresses": [
+   "7 PLACE VINCENT RASPAIL 83000 TOULON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917776320",
+  "sirets": [
+   "91777632000025"
+  ],
+  "osm": [],
+  "lat": 43.122392329,
+  "lon": 5.9344358921,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853162014",
+  "nom": "SAS PROVENCE ALES",
+  "communes": [
+   "LA FARLEDE"
+  ],
+  "departement": "83",
+  "adresses": [
+   "267 RUE DU HAMEAU DES MAUNIERS 83210 LA FARLEDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853162014",
+  "sirets": [
+   "85316201400015"
+  ],
+  "osm": [],
+  "lat": 43.17003065,
+  "lon": 6.0537585509,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BORMES-LES-MIMOSAS"
+  ],
+  "departement": "83",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/1830158857",
+  "nom": "Brasserie Mireille",
+  "communes": [
+   "Brignoles"
+  ],
+  "departement": "83",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/1830158857"
+  ],
+  "lat": 43.40762,
+  "lon": 6.06394,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/2862295877",
+  "nom": "La Bodega",
+  "communes": [
+   "Draguignan"
+  ],
+  "departement": "83",
+  "adresses": [
+   "Hélène Vidal, 83300 Draguignan"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2862295877"
+  ],
+  "lat": 43.53143,
+  "lon": 6.46903,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3666261595",
+  "nom": "Brasserie Saint-Jean (Brignoles)",
+  "communes": [
+   "Brignoles"
+  ],
+  "departement": "83",
+  "adresses": [
+   "Brignoles"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3666261595"
+  ],
+  "lat": 43.40699,
+  "lon": 6.04775,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4078235531",
+  "nom": "Brasserie Dracénoise",
+  "communes": [
+   "Draguignan"
+  ],
+  "departement": "83",
+  "adresses": [
+   "10 c Boulevard du Marechal Joffre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4078235531"
+  ],
+  "lat": 43.53697,
+  "lon": 6.46078,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5809227635",
+  "nom": "Coté Mer",
+  "communes": [
+   "Saint-Mandrier-sur-Mer"
+  ],
+  "departement": "83",
+  "adresses": [
+   "Saint-Mandrier-sur-Mer"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5809227635"
+  ],
+  "lat": 43.07793,
+  "lon": 5.9248,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6662669739",
+  "nom": "La Tuf Le Tailleur De Bieres",
+  "communes": [
+   "Cotignac"
+  ],
+  "departement": "83",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6662669739"
+  ],
+  "lat": 43.52627,
+  "lon": 6.14934,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6718241987",
+  "nom": "Le bregaion",
+  "communes": [
+   "Carqueiranne"
+  ],
+  "departement": "83",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6718241987"
+  ],
+  "lat": 43.12002,
+  "lon": 6.06946,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7274140076",
+  "nom": "La Snook",
+  "communes": [
+   "Esparron-de-Pallières"
+  ],
+  "departement": "83",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7274140076"
+  ],
+  "lat": 43.59179,
+  "lon": 5.8463,
+  "statut": "nouveau"
+ }
+]

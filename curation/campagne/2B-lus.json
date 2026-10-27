@@ -1,0 +1,54 @@
+[
+ {
+  "cle": "sirene:400016622",
+  "n": "Brasserie Pietra",
+  "c": "Furiani",
+  "adresse": "Route de la Marana, 20600 Furiani",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "D'après l'agence du tourisme de la Corse, la boutique ouvre en juillet et en août, du lundi au vendredi de 9 h à 12 h et de 14 h à 17 h 30 ; hors saison, elle est fermée sauf visites de groupe, et la vente se fait en ligne. Visites guidées en juillet et en août.",
+  "src": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-PIETRA",
+  "extrait": "Shop: July–August: Mon–Fri, 9.00 am–12.00 pm and 2.00 pm–5.30 pm.",
+  "beers": [],
+  "choix": "Horaires laissés dans la note : saisonniers et écrits en anglais. Téléphone non retenu : deux numéros différents circulent, et le site de la brasserie était injoignable le 27/10. Pas d'Untappd."
+ },
+ {
+  "cle": "sirene:848638078",
+  "n": "Brasserie Gloria",
+  "c": "Calvi",
+  "adresse": "Lieu-dit Valle al Legnu, RT 30, 20260 Calvi",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie de Calvi, créée en 2019, avec un brewpub qui accueille des soirées et des concerts tout au long de l'année. Pas d'horaires d'accueil publiés : la page ne donne que ceux de l'offre de visite, faite avec l'office de tourisme Calvi-Balagne.",
+  "src": "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Decouvertes-oenotouristiques/Visite-guidee-de-la-Brasserie-Gloria-a-Calvi",
+  "extrait": "vous invite régulièrement à des soirées/concert organisées tout au long de l'année.",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'agence du tourisme seulement ; le site de la brasserie était injoignable (403) le 27/10 : non repris (précédent de S342 et S356). Confiance faible : un brewpub à soirées n'est pas un accueil aux horaires connus. Pas d'Untappd."
+ },
+ {
+  "cle": "sirene:949285423",
+  "n": "Ty Corsa",
+  "c": "Prunelli-di-Fiumorbo",
+  "adresse": "Lieu-dit Peliccione, hameau de Querciolo, 20243 Prunelli-di-Fiumorbo",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie du Fiumorbu : vente à emporter et dégustations, d'après l'agence du tourisme de la Corse, qui la dit ouverte toute l'année sans publier d'horaires.",
+  "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/TY-CORSA",
+  "extrait": "Micro brasserie, fabrication artisanale de bières , vente à emporter et dégustations.",
+  "beers": [],
+  "choix": "Ni téléphone, ni site, ni horaires sur la page. Pas d'Untappd."
+ },
+ {
+  "cle": "sirene:853635787",
+  "n": "Brasserie du Monte Kyrie Eleison",
+  "c": "Ghisoni",
+  "adresse": "Lieu-dit Aghja, 20227 Ghisoni",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie et distillerie de Ghisoni : vente sur place et dans les restaurants, bars et épiceries de la région, d'après l'agence du tourisme de la Corse ; visites sur rendez-vous.",
+  "src": "https://www.visit-corsica.com/fr/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/BRASSERIE-MONTE-KYRIE-ELSEISON",
+  "extrait": "Vente dans les restaurants, bars et épiceries fines de la région et également sur place à Ghisoni.",
+  "beers": [],
+  "choix": "Nom de l'enseigne au registre, la page l'écrit mal. Ni téléphone, ni site, ni horaires. Pas d'Untappd."
+ }
+]

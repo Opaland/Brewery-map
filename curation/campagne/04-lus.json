@@ -1,0 +1,270 @@
+[
+ {
+  "cle": "sirene:819062464",
+  "n": "Brasserie Cordoeil",
+  "c": "Thorame-Basse",
+  "adresse": "Le Village, 04170 Thorame-Basse",
+  "cat": 2,
+  "conf": "faible",
+  "note": "Deux fiches de l'office de tourisme Verdon Tourisme se contredisent : l'une cite la vente sur place du lundi au samedi de 16 h à 18 h, l'autre une visite en juillet et en août. Aucune ne dit si l'on consomme sur place.",
+  "src": "https://www.verdontourisme.com/en/?p=104518",
+  "extrait": "From 01/01 to 31/12 from Monday to Saturday between 4 pm and 6 pm.",
+  "beers": [],
+  "choix": "Horaires laissés hors de la fiche : les deux fiches de l'office se contredisent. Téléphone lu sur le site de la brasserie. Pas d'Untappd.",
+  "contact": {
+   "tel": "04 92 83 42 23",
+   "site": "http://www.cordoeil.com",
+   "source": "http://www.cordoeil.com"
+  }
+ },
+ {
+  "cle": "sirene:893666651",
+  "n": "La Serpentine",
+  "c": "Céreste-en-Luberon",
+  "adresse": "561 route des Prés, 04280 Céreste-en-Luberon",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "L'office de tourisme des Alpes-de-Haute-Provence décrit une microbrasserie artisanale et coopérative avec un coin boutique et des visites sur réservation. Ni l'office ni le site ne disent qu'on consomme sur place.",
+  "src": "https://en.tourisme-alpes-haute-provence.com/gourmet-pleasures/5998065_beer-cereste-la-serpentine-microbrasserie-artisanale-et-cooperative/",
+  "extrait": "The brewery is equipped with a boutique corner which will allow you to create your personalized pack!",
+  "beers": [],
+  "choix": "Deux mobiles sur le site : le « bureau » retenu, le service commercial écarté. Horaires sans objet dit : non retenus.",
+  "contact": {
+   "tel": "06 28 55 84 67",
+   "site": "https://laserpentine.co/",
+   "source": "https://laserpentine.co/"
+  }
+ },
+ {
+  "cle": "sirene:978604387",
+  "n": "Brasserie de Pra Loup",
+  "c": "Uvernet-Fours",
+  "adresse": "Le Chalet, Pra Loup 1600, 04400 Uvernet-Fours",
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "La fiche du comité régional de tourisme dit que la brasserie (bière LØÜ) ne reçoit pas le public ; ses bières se trouvent dans les bars, restaurants et épiceries de la station.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-pra-loup-pra-loup-1600-uvernet-fours-fr-6161479/",
+  "extrait": "le public n’y est pour l’instant pas accueilli",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Pas de site propre."
+ },
+ {
+  "cle": "sirene:840928378",
+  "n": "Bière de la Durance",
+  "c": "Sisteron",
+  "adresse": "27 allée des Frênes, 04200 Sisteron",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site officiel annonce une vente directe à la brasserie et un bar à bières, avec leurs horaires.",
+  "src": "https://bieredeladurance.com/contact/",
+  "extrait": "Vente directe à la brasserie",
+  "beers": [],
+  "choix": "Pas d'Untappd. Dimanche non écrit.",
+  "contact": {
+   "tel": "04 86 89 32 87",
+   "site": "https://bieredeladurance.com",
+   "source": "https://bieredeladurance.com/contact/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://bieredeladurance.com/contact/"
+   },
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://bieredeladurance.com/contact/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:923024855",
+  "n": "Brasseur du Verdon",
+  "c": "Esparron-de-Verdon",
+  "adresse": "Albiosc Village, 6 Impasse des bergeries, 04800 Esparron-de-Verdon",
+  "cat": 0,
+  "conf": "",
+  "note": "Une microbrasserie existe d'après la fiche de l'office de tourisme, qui ne dit pas si l'on peut acheter ou consommer sur place. Aucun site officiel ni page Untappd trouvés.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasseur-du-verdon-esparron-de-verdon-fr-5375905/",
+  "extrait": "Brasseur du Verdon est une microbrasserie dédiée à la création de bières authentiques et savoureuses.",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Horaires : saison sans heures, non proposés."
+ },
+ {
+  "cle": "sirene:951430065",
+  "n": "Brasserie Bevedis",
+  "c": "Le Chaffaut-Saint-Jurson",
+  "adresse": "Impasse du Four, 04510 Le Chaffaut-Saint-Jurson",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale existante (site officiel et fiche d'office de tourisme). La dégustation est offerte « by appointment » selon l'office de tourisme ; le site officiel ne dit pas où se vend la bière (« En vente localement dans le 04 »). Vente et accueil sur place non établis.",
+  "src": "https://brasseriebevedis.com/",
+  "extrait": "En vente localement dans le 04.",
+  "beers": [],
+  "choix": "Seule ligne publiée : un mobile, gardé (règle du 21/10). Catégorie 0. Pas d'horaires (sur rendez-vous). Types de bière du site non repris : Untappd fait foi, et la brasserie n'y a pas de page trouvée.",
+  "contact": {
+   "tel": "07 49 17 10 17",
+   "site": "https://brasseriebevedis.com/",
+   "source": "https://brasseriebevedis.com/"
+  }
+ },
+ {
+  "cle": "sirene:822052114",
+  "n": "Brasserie de l'Aubrée",
+  "c": "Selonnet",
+  "adresse": "10 Impasse de la Grand Pièce, 04140 Selonnet",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale de la vallée de la Blanche. La fiche du Géoparc de Haute-Provence cite une boutique et son accueil, sans dire qu'on y achète ni qu'on y boit. Pas de site propre trouvé.",
+  "src": "https://www.geoparchauteprovence.com/en/poi/brasserie-de-laubree",
+  "extrait": "Accueil chaleureux à la boutique",
+  "beers": [],
+  "choix": "Téléphone lu sur la fiche du Géoparc seulement : non repris (précédent de S342 et S356). Catégorie 0 : « accueil à la boutique » ne prouve pas la vente."
+ },
+ {
+  "cle": "node/6269302527",
+  "n": "La Sauvage (Brasserie des Hautes Vallées)",
+  "c": "Saint-Paul-sur-Ubaye",
+  "adresse": "546 route du Col de Vars, 04530 Saint-Paul-sur-Ubaye",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale installée au village depuis 2012. La dégustation sur place, la pression, la terrasse et la vente à emporter sont dites par l'office de tourisme ; le site de la brasserie donne ses horaires d'ouverture sans dire ce qu'on y fait.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-hautes-vallees-bieres-la-sauvage-saint-paul-sur-ubaye-fr-2871572/",
+  "extrait": "Dégustation sur place, bières pression, terrasse, vente à emporter, visite sur rendez-vous.",
+  "beers": [],
+  "choix": "Fixe retenu (04 92 61 37 93), mobile écarté (un fixe existe). Untappd : aucune page. Confiance moyenne : catégorie sur l'office de tourisme seul (#37).",
+  "contact": {
+   "tel": "04 92 61 37 93",
+   "site": "https://www.la-sauvage.fr/",
+   "source": "https://www.la-sauvage.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.la-sauvage.fr/"
+   }
+  ]
+ }
+]

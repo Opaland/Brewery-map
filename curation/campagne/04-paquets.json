@@ -1,0 +1,271 @@
+[
+ [
+  {
+   "cle": "sirene:880986278",
+   "enseigne": "LES BRASSEURS DE LA VALLEE",
+   "dep": "04",
+   "communes": [
+    "SISTERON"
+   ],
+   "adresses": [
+    "100 CHEMIN DE CHAPAGE 04200 SISTERON"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:893666651",
+   "enseigne": "LA SERPENTINE",
+   "dep": "04",
+   "communes": [
+    "CERESTE-EN-LUBERON"
+   ],
+   "adresses": [
+    "561 RTE DES PRES 04280 CERESTE-EN-LUBERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912701703",
+   "enseigne": "BRASSERIE BULLE",
+   "dep": "04",
+   "communes": [
+    "MONTLAUX"
+   ],
+   "adresses": [
+    "LE PETIT JONCAS 04230 MONTLAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:819062464",
+   "enseigne": "BRASSERIE CORDOEIL",
+   "dep": "04",
+   "communes": [
+    "THORAME-BASSE"
+   ],
+   "adresses": [
+    "LE VILLAGE 04170 THORAME-BASSE"
+   ],
+   "osm": [
+    "way/196652351"
+   ],
+   "site": "http://www.cordoeil.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978604387",
+   "enseigne": "BRASSERIE DE PRALOUP",
+   "dep": "04",
+   "communes": [
+    "UVERNET FOURS"
+   ],
+   "adresses": [
+    "LE CHALET  1600 PRA LOUP 04400 UVERNET FOURS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:923024855",
+   "enseigne": "BRASSEUR DU VERDON",
+   "dep": "04",
+   "communes": [
+    "ESPARRON DE VERDON"
+   ],
+   "adresses": [
+    "JEREMIE ET NICOLAS MATHIEU 543 ALBIOSC 04800 ESPARRON DE VERDON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:983541764",
+   "enseigne": "LA ROMAINE",
+   "dep": "04",
+   "communes": [
+    "RIEZ"
+   ],
+   "adresses": [
+    "1910 ROUTE D'ALLEMAGNE 04500 RIEZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840928378",
+   "enseigne": "BIERE DE LA DURANCE",
+   "dep": "04",
+   "communes": [
+    "SISTERON"
+   ],
+   "adresses": [
+    "27 ALLEE DES FRENES 04200 SISTERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE CEREVISIA (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "04",
+   "communes": [
+    "LES MEES"
+   ],
+   "adresses": [
+    "LES POURCELLES 3956 CHEMIN DU THOR 04190 LES MEES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:928734912",
+   "enseigne": "LE RENARD D'ORGE",
+   "dep": "04",
+   "communes": [
+    "MALIJAI"
+   ],
+   "adresses": [
+    "BAT 12 LE PRIEURE 04350 MALIJAI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:951430065",
+   "enseigne": "BRASSERIE BEVEDIS",
+   "dep": "04",
+   "communes": [
+    "LE CHAFFAUT-SAINT-JURSON"
+   ],
+   "adresses": [
+    "IMP DU FOUR 04510 LE CHAFFAUT-SAINT-JURSON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822052114",
+   "enseigne": "BRASSERIE DE L'AUBREE",
+   "dep": "04",
+   "communes": [
+    "SELONNET"
+   ],
+   "adresses": [
+    "LD SAINT DOMITIEN 04140 SELONNET"
+   ],
+   "osm": [
+    "node/12787997815"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978032761",
+   "enseigne": "BRASSERIE DE LA VALLEE DE L UBAYE",
+   "dep": "04",
+   "communes": [
+    "LES THUILES"
+   ],
+   "adresses": [
+    "1 RUE DU MOULIN 04400 LES THUILES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843641127",
+   "enseigne": "BMV SCIPION",
+   "dep": "04",
+   "communes": [
+    "MOUSTIERS-SAINTE-MARIE"
+   ],
+   "adresses": [
+    "QUA ST JEAN 04360 MOUSTIERS-SAINTE-MARIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987488178",
+   "enseigne": "BRASSEUR DU VERDON",
+   "dep": "04",
+   "communes": [
+    "ESPARRON-DE-VERDON"
+   ],
+   "adresses": [
+    "ALBIOSC 6 IMPASSE DES BERGERIES 04800 ESPARRON-DE-VERDON"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  }
+ ],
+ [
+  {
+   "cle": "node/5183750945",
+   "enseigne": "Brasserie Cérévisia",
+   "dep": "04",
+   "communes": [
+    "Oraison"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5183750945"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/5255453845",
+   "enseigne": "Brasserie La Manosquine",
+   "dep": "04",
+   "communes": [
+    "Manosque"
+   ],
+   "adresses": [
+    "23 Rue d'Aubette, 04100 Manosque"
+   ],
+   "osm": [
+    "node/5255453845"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5720727821",
+   "enseigne": "La Brass Bastelle",
+   "dep": "04",
+   "communes": [
+    "Volx"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5720727821"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6269302527",
+   "enseigne": "La Sauvage",
+   "dep": "04",
+   "communes": [
+    "Saint-Paul-sur-Ubaye"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6269302527"
+   ],
+   "site": "https://www.la-sauvage.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

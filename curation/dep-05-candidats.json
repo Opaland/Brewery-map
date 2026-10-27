@@ -1,0 +1,522 @@
+[
+ {
+  "cle": "sirene:419632781",
+  "nom": "BAR RESTAURANT ALPHAND",
+  "communes": [
+   "VALLOUISE-PELVOUX"
+  ],
+  "departement": "05",
+  "adresses": [
+   "VENELLE DU POILU 05290 VALLOUISE-PELVOUX",
+   "23 VENELLE DU POILU 05290 VALLOUISE-PELVOUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "419632781",
+  "sirets": [
+   "41963278100011",
+   "41963278100029"
+  ],
+  "osm": [],
+  "lat": 44.846469329,
+  "lon": 6.4877797491,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:819488719",
+  "nom": "LE RELAIS DE CHATEAU-CLEMENT",
+  "communes": [
+   "CHORGES",
+   "MOLINES-EN-QUEYRAS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "ZA LA GRANDE ILE 67 RUE DE LA SOURCE 05230 CHORGES",
+   "PIERRE-GROSSE 425 RUE DE CHATEAU CLEMENT 05350 MOLINES-EN-QUEYRAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "819488719",
+  "sirets": [
+   "81948871900025",
+   "81948871900033"
+  ],
+  "osm": [],
+  "lat": 44.5532709837561,
+  "lon": 6.25816000917154,
+  "statut": "ambigu",
+  "fiche": "Château de la Bière"
+ },
+ {
+  "cle": "sirene:845203264",
+  "nom": "MICRO-BRASSERIE LA CUCHE",
+  "communes": [
+   "SAINT-APOLLINAIRE",
+   "SAINT-ANDRE-D EMBRUN"
+  ],
+  "departement": "05",
+  "adresses": [
+   "RUE DE LA FONTAINE 05160 SAINT-APOLLINAIRE",
+   "SERRE BELLON 05200 SAINT-ANDRE-D EMBRUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "845203264",
+  "sirets": [
+   "84520326400013",
+   "84520326400021"
+  ],
+  "osm": [],
+  "lat": 44.556569795,
+  "lon": 6.3621274683,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898143607",
+  "nom": "BREWPUB DES AIGUES FROIDES",
+  "communes": [
+   "LES VIGNEAUX",
+   "L'ARGENTIERE-LA-BESSEE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "RIF CROS 05120 LES VIGNEAUX",
+   "5 AVENUE CHARLES DE GAULLE 05120 L'ARGENTIERE-LA-BESSEE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898143607",
+  "sirets": [
+   "89814360700015",
+   "89814360700023"
+  ],
+  "osm": [],
+  "lat": 44.825121011,
+  "lon": 6.535227791,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907706402",
+  "nom": "BRASSEURS EN CLAREE",
+  "communes": [
+   "NEVACHE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "RUE DE ROUBION 05100 NEVACHE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907706402",
+  "sirets": [
+   "90770640200019"
+  ],
+  "osm": [],
+  "lat": 45.018499999,
+  "lon": 6.6327189401,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "PIOLIT NANOBRASSERIE",
+  "communes": [
+   "AVANCON"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LIEU-DIT LES CATINONS 05230 AVANCON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:992292185",
+  "nom": "BRASSERIE URBAINE GAPENCAISE",
+  "communes": [
+   "GAP"
+  ],
+  "departement": "05",
+  "adresses": [
+   "6 LA PLACETTE 05000 GAP"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "992292185",
+  "sirets": [
+   "99229218500012"
+  ],
+  "osm": [],
+  "lat": 44.5604266055993,
+  "lon": 6.0794551239164,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:538823469",
+  "nom": "BRASSERIE D'ANCELLE",
+  "communes": [
+   "ANCELLE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LE VILLAGE CHEMIN DE BELLEVUE 05260 ANCELLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "538823469",
+  "sirets": [
+   "53882346900019"
+  ],
+  "osm": [
+   "way/69689919"
+  ],
+  "lat": 44.625255281,
+  "lon": 6.2090815341,
+  "site": "http://www.brasserieancelle.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE LA MOUSQUIF",
+  "communes": [
+   "ORPIERRE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LOTISSEMENT PARC DU PARADIS QUARTIER LE BACHAS 05700 ORPIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899933279",
+  "nom": "FLORAISON SAUVAGE",
+  "communes": [
+   "LA ROCHE-DES-ARNAUDS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "128 CHEMIN DE LA CROIX SAINT MARC 05400 LA ROCHE-DES-ARNAUDS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899933279",
+  "sirets": [
+   "89993327900023"
+  ],
+  "osm": [],
+  "lat": 44.563172064,
+  "lon": 5.9495109023,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE LA QUEYRASSINE",
+  "communes": [
+   "ABRIES-RISTOLAS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "L'ORATOIRE 05460 ABRIES-RISTOLAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "EMBRUN"
+  ],
+  "departement": "05",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:840182992",
+  "nom": "LA MOUSQUIF",
+  "communes": [
+   "ORPIERRE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "PARC DU PARADIS 05700 ORPIERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840182992",
+  "sirets": [
+   "84018299200015"
+  ],
+  "osm": [],
+  "lat": 44.316138328,
+  "lon": 5.7042181294,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892784018",
+  "nom": "BRASSERIE DES GAILLARDS",
+  "communes": [
+   "AUBESSAGNE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LE VILLAGE LE VILLAGE - CHAUFFAYER 05500 AUBESSAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892784018",
+  "sirets": [
+   "89278401800012"
+  ],
+  "osm": [],
+  "lat": 44.752443082,
+  "lon": 6.0090509114,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893180307",
+  "nom": "EURL DEVOLUY BREWING CONCEPT",
+  "communes": [
+   "LE DEVOLUY"
+  ],
+  "departement": "05",
+  "adresses": [
+   "LE COURTIL 05250 LE DEVOLUY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893180307",
+  "sirets": [
+   "89318030700017"
+  ],
+  "osm": [],
+  "lat": 44.705084067,
+  "lon": 5.9237547459,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888726189",
+  "nom": "WALPINE",
+  "communes": [
+   "SAINT-JEAN-SAINT-NICOLAS"
+  ],
+  "departement": "05",
+  "adresses": [
+   "4 TRAVERSE DE L'ESTRIPA 05260 SAINT-JEAN-SAINT-NICOLAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888726189",
+  "sirets": [
+   "88872618900036"
+  ],
+  "osm": [],
+  "lat": 44.6679580087369,
+  "lon": 6.22997505749985,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907838304",
+  "nom": "BRASSERIE BUTCHER'S",
+  "communes": [
+   "GUILLESTRE"
+  ],
+  "departement": "05",
+  "adresses": [
+   "70 A RTE DU QUEYRAS 05600 GUILLESTRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907838304",
+  "sirets": [
+   "90783830400026"
+  ],
+  "osm": [],
+  "lat": 44.658994861,
+  "lon": 6.6573807739,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10007300294",
+  "nom": "B3 Brasserie Bio de Briançon",
+  "communes": [
+   "Briançon"
+  ],
+  "departement": "05",
+  "adresses": [
+   "23 Avenue de la Libération, 05100 Briançon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10007300294"
+  ],
+  "lat": 44.90128,
+  "lon": 6.64008,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11459867968",
+  "nom": "Brasserie Interstellaire du Dévoluy",
+  "communes": [
+   "Le Dévoluy"
+  ],
+  "departement": "05",
+  "adresses": [
+   "Chemin de la Montée du Clot, 05250 Le Dévoluy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11459867968"
+  ],
+  "lat": 44.70754,
+  "lon": 5.92299,
+  "site": "https://brasserie-interstellaire-du-devoluy.business.site",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/2311670513",
+  "nom": "La Tourmente",
+  "communes": [
+   "Briançon"
+  ],
+  "departement": "05",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2311670513"
+  ],
+  "lat": 44.90298,
+  "lon": 6.63058,
+  "site": "https://latourmente.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/2855634433",
+  "nom": "Alphand",
+  "communes": [
+   "Puy-Saint-Vincent"
+  ],
+  "departement": "05",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2855634433"
+  ],
+  "lat": 44.84662,
+  "lon": 6.48878,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7963807194",
+  "nom": "La Belle Epoque",
+  "communes": [
+   "Gap"
+  ],
+  "departement": "05",
+  "adresses": [
+   "Place aux Herbes, 05000 Gap"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7963807194"
+  ],
+  "lat": 44.55876,
+  "lon": 6.07858,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1044149663",
+  "nom": "Brasserie Artisanale de Serre-Ponçon",
+  "communes": [
+   "Montgardin"
+  ],
+  "departement": "05",
+  "adresses": [
+   "67 Rue de la Source"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1044149663"
+  ],
+  "lat": 44.55357,
+  "lon": 6.2579,
+  "site": "https://basp05.com/",
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,136 @@
+[
+ {
+  "cle": "sirene:814328092",
+  "nom": "MICRO BRASSERIE IMPERIALE",
+  "communes": [
+   "SALICE",
+   "AJACCIO"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "A CATASTELLA 20121 SALICE",
+   "5-7 5 RUE ZEVACO-MAIRE 20000 AJACCIO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814328092",
+  "sirets": [
+   "81432809200014",
+   "81432809200030"
+  ],
+  "osm": [],
+  "lat": 42.119969735,
+  "lon": 8.9008319434,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:103081675",
+  "nom": "SAS MA",
+  "communes": [
+   "GROSSETO-PRUGNA"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "LES ECHOPPES PORTICCIO 20166 GROSSETO-PRUGNA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "103081675",
+  "sirets": [
+   "10308167500011"
+  ],
+  "osm": [],
+  "lat": 41.8819429286944,
+  "lon": 8.79020208855242,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828137190",
+  "nom": "BRASSERIE ALBA",
+  "communes": [
+   "AJACCIO"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "AVENUE DU DOCTEUR NOEL FRANCHINI 20090 AJACCIO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828137190",
+  "sirets": [
+   "82813719000017"
+  ],
+  "osm": [],
+  "lat": 41.937128859,
+  "lon": 8.7544923772,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921387072",
+  "nom": "FILITOSA A BIERA CORSA",
+  "communes": [
+   "SOLLACARO"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "FILITOSA CENTRE PREHISTORIQUE 20140 SOLLACARO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921387072",
+  "sirets": [
+   "92138707200017"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830281424",
+  "nom": "BRASSERIE ARTISANALE DU MAQUIS",
+  "communes": [
+   "GROSSETO-PRUGNA"
+  ],
+  "departement": "2A",
+  "adresses": [
+   "9 LOTISSEMENT LORELLO 20166 GROSSETO-PRUGNA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830281424",
+  "sirets": [
+   "83028142400010"
+  ],
+  "osm": [],
+  "lat": 41.873151394,
+  "lon": 8.7979500833,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "SOTTA"
+  ],
+  "departement": "2A",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ }
+]

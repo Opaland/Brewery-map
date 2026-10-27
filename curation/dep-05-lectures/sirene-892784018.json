@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:892784018",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Gaillards",
+   "c": "Aubessagne",
+   "d": "05",
+   "lat": 44.75247,
+   "lon": 6.0088,
+   "km": 142,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et distillerie de Chauffayer. Son site présente un bar et une boutique : la pression à la tireuse, les bouteilles à emporter. Food-truck le vendredi soir.",
+   "addr": "503 avenue Principale, Chauffayer, 05800 Aubessagne",
+   "src": "https://les-gaillards.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 23 24 25 26",
+    "site": "https://les-gaillards.fr",
+    "source": "https://les-gaillards.fr/nous-rencontrer",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://les-gaillards.fr/nous-rencontrer",
+     "mar": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:00"
+      ]
+     ],
+     "remarque": "Créneaux de présence habituels : en semaine, la porte est ouverte dès que l'équipe est sur place ; le samedi matin est surtout un créneau de boutique et de retrait. Beer-garden de juin à août.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://les-gaillards.fr",
+   "https://les-gaillards.fr/nous-rencontrer",
+   "https://data.geopf.fr/geocodage/search?q=503+avenue+Principale%2C+Chauffayer%2C+05800+Aubessagne&limit=5"
+  ],
+  "extrait": "Dégustation à la pression, planches du coin, ambiance de famille au pied des montagnes.",
+  "choix": "Téléphone et horaires lus sur la page « Nous rencontrer », qui les dit « créneaux de présence habituels ». Types de bière du site non repris : pas d'Untappd cité. Confiance moyenne : le site dit ses horaires « habituels », pas des horaires de bar."
+ }
+}

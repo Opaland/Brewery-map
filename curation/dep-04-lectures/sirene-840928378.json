@@ -1,0 +1,111 @@
+{
+ "candidat": "sirene:840928378",
+ "ajout": {
+  "fiche": {
+   "n": "Bière de la Durance",
+   "c": "Sisteron",
+   "d": "04",
+   "lat": 44.2329,
+   "lon": 5.90735,
+   "km": 184.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site officiel annonce une vente directe à la brasserie et un bar à bières, avec leurs horaires.",
+   "addr": "27 allée des Frênes, 04200 Sisteron",
+   "src": "https://bieredeladurance.com/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 86 89 32 87",
+    "site": "https://bieredeladurance.com",
+    "source": "https://bieredeladurance.com/contact/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://bieredeladurance.com/contact/",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://bieredeladurance.com/contact/",
+     "mar": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "mer": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://bieredeladurance.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=27+all%C3%A9e+des+Fr%C3%AAnes%2C+04200+Sisteron&limit=5"
+  ],
+  "extrait": "Vente directe à la brasserie",
+  "choix": "Pas d'Untappd. Dimanche non écrit."
+ }
+}

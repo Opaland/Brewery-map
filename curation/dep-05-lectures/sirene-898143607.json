@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:898143607",
+ "ajout": {
+  "fiche": {
+   "n": "Le Monde d'Après - Brewpub",
+   "c": "L'Argentière-la-Bessée",
+   "d": "05",
+   "lat": 44.79406,
+   "lon": 6.55951,
+   "km": 171.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub du centre-ville : un bar où l'on brasse la bière, d'après la fiche du comité régional de tourisme, ouvert toute l'année.",
+   "addr": "5 avenue Charles de Gaulle, 05120 L'Argentière-la-Bessée",
+   "src": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/le-monde-dapres-brewpub-l-argentiere-la-bessee-fr-3651861/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/le-monde-dapres-brewpub-l-argentiere-la-bessee-fr-3651861/",
+   "https://data.geopf.fr/geocodage/search?q=5+avenue+Charles+de+Gaulle%2C+05120+L%27Argenti%C3%A8re-la-Bess%C3%A9e&limit=5"
+  ],
+  "extrait": "c'est donc un bar dans lequel on fabrique de la bière",
+  "choix": "Téléphone lu sur la fiche de l'office seulement : non repris (précédent de S342 et S356). Rapproché de la ligne SIRENE « Brewpub des Aigues Froides » : seul brewpub enregistré dans la commune ; l'adresse est celle du registre, la fiche du tourisme n'en donne pas. Horaires écartés : la fiche se contredit. Pas de site propre, pas d'Untappd."
+ }
+}
