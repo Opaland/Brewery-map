@@ -1,0 +1,578 @@
+[
+ {
+  "cle": "sirene:890260219",
+  "n": "Brasserie Neuja",
+  "c": "Saint-Mandrier-sur-Mer",
+  "adresse": "Boulevard de Champagne, 83430 Saint-Mandrier-sur-Mer",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale et brewpub, avec cave à vin et bar à bière, tapas ; source : fiche du réseau de tourisme régional, pas de site officiel trouvé.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-neuja-saint-mandrier-sur-mer-fr-3900509/",
+  "extrait": "Brasserie artisanale, et brewpub de Saint-Mandrier-sur-Mer (qui fait aussi cave à vin et bar à bière, bar à vin)",
+  "beers": [],
+  "choix": "Téléphones publiés par l'office seulement : non repris. Pas de site officiel ni d'Untappd. Horaires de la fiche non repris : lus par un résumé, et dits non garantis."
+ },
+ {
+  "cle": "sirene:897862660",
+  "n": "Le Brassitorium",
+  "c": "Callian",
+  "adresse": "Chemin Jean-Paul, Centre Agora, 83440 Callian",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bar à bières brassées sur place (microbrasserie, bar et lieu de rencontre artistique), à Callian et non à Tourrettes ; source : fiche du réseau de tourisme Côte d'Azur France, pas de site officiel ouvert.",
+  "src": "https://cotedazurfrance.fr/offres/le-brassitorium-callian-fr-6095019/",
+  "extrait": "A Callian le Brassitorium, premier et unique Bar à bières artisanales, originales et brassées sur place,",
+  "beers": [],
+  "choix": "Téléphone publié par l'office seulement : non repris. Pas de site joignable, pas d'Untappd. Horaires de la fiche non repris : la page parle d'une réouverture en mai 2025 et les dit non garantis. Commune lue sur la fiche (Callian)."
+ },
+ {
+  "cle": "sirene:951409721",
+  "n": "AM Beers",
+  "c": "Pourrières",
+  "adresse": "561 route de Trets, 83910 Pourrières",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brewpub : la fiche de l'office de tourisme Provence Verte & Verdon dit bières brassées et servies sur place, avec possibilité de vente à emporter. La page n'est pas datée. Le site de la brasserie (am-beers.com) confirme qu'elle brasse depuis début 2020 et renvoie ses horaires à Google, sans les écrire. Pas de page Untappd trouvée.",
+  "src": "https://www.la-provence-verte.net/activites/bar-pourrieres-am-beers_2931.html",
+  "extrait": "Brewpub. Bières brassées et servies sur place.",
+  "beers": [],
+  "choix": "Page src lue sur un résumé, avec des citations mot pour mot ; la vente à emporter vient d'un autre passage de la même page (« Possibilité de vente à emporter »). Site officiel am-beers.com lu sur un résumé seulement : « AM Beers brasse depuis début 2020 », « Viens au brewpub ! ». Aucun téléphone publié par la brasserie (formulaire seulement) : aucun retenu. L'adresse vient de la page de l'office. Catégorie 1 plafonnée à moyenne : office de tourisme (décision #37), source sans date. Horaires non écrits (« variables », renvoi à Google) : non repris.",
+  "contact": {
+   "site": "https://www.am-beers.com",
+   "source": "https://www.la-provence-verte.net/activites/bar-pourrieres-am-beers_2931.html"
+  }
+ },
+ {
+  "cle": "sirene:814659728",
+  "n": "Bière de la Rade",
+  "c": "Toulon",
+  "adresse": "300 rue Amiral Nomy, 83000 Toulon",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie décrit son site historique de Toulon, ouvert depuis 2016, avec une boutique, un bar et un espace de restauration. L'unité de production plus grande est à La Seyne-sur-Mer, mais la fiche est au bar et à la boutique de Toulon. La page ne détaille ni les produits vendus ni les conditions de vente, d'où la confiance moyenne. Pas de page Untappd trouvée.",
+  "src": "https://www.bieredelarade.com",
+  "extrait": "LE BAR / BOUTIQUE",
+  "beers": [],
+  "choix": "Téléphone et horaires lus sur le site de la brasserie ; ceux de l'office, différents, écartés. Confiance moyenne : la page ne détaille pas ce que vend la boutique. Pas d'Untappd.",
+  "contact": {
+   "tel": "04 94 21 41 06",
+   "site": "https://www.bieredelarade.com",
+   "source": "https://www.bieredelarade.com"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "01:00"
+     ]
+    ],
+    "source": "https://www.bieredelarade.com"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:892503160",
+  "n": "Brasserie La Cig'",
+  "c": "La Seyne-sur-Mer",
+  "adresse": "153 avenue du Luxembourg, 83500 La Seyne-sur-Mer",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio. Son site annonce de la vente à emporter du lundi au vendredi de 8h à 14h, une visite guidée sur rendez-vous à partir de 6 personnes et un after work le vendredi jusqu'à 20h. Cet after work n'est pas décrit : on ne sait pas s'il se boit sur place, d'où catégorie 2 et confiance moyenne. L'office de tourisme (provencemed.com) dit que le bar est ouvert d'avril à septembre, ce que le site ne dit pas. Pas de page Untappd trouvée.",
+  "src": "https://brasserie-la-cig.fr/",
+  "extrait": "lundi à vendredi de 8h à 14h",
+  "beers": [],
+  "choix": "Site officiel lu sur un résumé (le texte n'a pas pu être recopié en entier ; extrait cité mot pour mot par le résumé, le libellé exact « vente à emporter » qui le précède n'a pas été vérifié sur la page). Téléphone : +33 (0)4 94 71 13 79 retenu, publié sur le site. L'office (provencemed.com) donne un autre numéro (07 87 08 52 63), non retenu car publié seulement par l'office. Horaires de vente repris du site (8h-14h) ; ceux de l'office (8h-15h, saison 2025-2026) diffèrent, non retenus. Adresse identique sur le site et l'office, mais un article de 2024 situe la brasserie à Six-Fours : à surveiller.",
+  "contact": {
+   "tel": "04 94 71 13 79",
+   "site": "https://brasserie-la-cig.fr/",
+   "source": "https://brasserie-la-cig.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "mar": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "mer": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "ven": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "source": "https://brasserie-la-cig.fr/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:921953956",
+  "n": "La Tchouc",
+  "c": "Collobrières",
+  "adresse": "10 boulevard Lazare Carnot, 83610 Collobrières",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de Collobrières. Son site annonce une boutique (« Commandez & dégustez ») et une terrasse, ouvertes tous les jours. Il ne décrit ni visite guidée ni dégustation organisée : confiance moyenne.",
+  "src": "https://latchouc.com/",
+  "extrait": "La Fabrique t’ouvre ses portes du Lundi au Dimanche !",
+  "beers": [],
+  "choix": "Pages lues par résumé de WebFetch, pas en entier : le passage cité est celui que l'outil a rendu mot pour mot, avec l'apostrophe typographique (’) ; à recontrôler à la main. Aucune page Untappd trouvée (deux recherches), donc beers vide. Le site porte deux numéros écrits « 09 75 84 51 18 » et « +33 9 75 84 51 18 » : c'est le même, repris au format de la fiche. Une fiche touristique régionale (provence-alpes-cotedazur.com), citée seulement comme piste, dit « dimanche : matin seulement », ce que le site de la brasserie contredit : j'ai suivi le site. Horaires : « 19h WE » lu comme samedi et dimanche jusqu'à 19:00. Catégorie 1 et non 2 : la terrasse et « dégustez » sont écrits, mais sans carte de bar ; d'où moyenne.",
+  "contact": {
+   "tel": "09 75 84 51 18",
+   "site": "https://latchouc.com/",
+   "source": "https://latchouc.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://latchouc.com/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:820115533",
+  "n": "La Brasserie d'à côté (Madame Dusse)",
+  "c": "Le Beausset",
+  "adresse": "230 route de Toulon, RN8, 83330 Le Beausset",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie du Beausset (bières « Madame Dusse »). Son site annonce un bar et une boutique ouverts du mardi au samedi de 17 h à 23 h, avec des bières à la pression et en bouteille servies au comptoir. La vente à emporter n'est pas écrite explicitement : confiance moyenne.",
+  "src": "https://madamedusse.com/lacarte",
+  "extrait": "Service au comptoir. Prix Nets.",
+  "beers": [],
+  "choix": "Pages lues par résumé de WebFetch (accueil, la-fabrique, lacarte), pas en entier ; passages rendus mot pour mot par l'outil. Aucune page Untappd trouvée (deux recherches), donc beers vide. Un seul numéro publié sur le site de la brasserie, « (+33) 04 83 16 96 57 », repris en « 04 83 16 96 57 ». Le nom de la fiche est un choix de présentation à confirmer : le site dit « La brasserie d’à côté » et SIRENE « BRASSERIE D A COTE ». La note ne cite pas de personne (le résumé de l'office nomme la brasseuse : écarté). Catégorie 1 : bar et boutique aux mêmes horaires ; la vente à emporter n'étant pas explicite, pas de solide.",
+  "contact": {
+   "tel": "04 83 16 96 57",
+   "site": "https://madamedusse.com/",
+   "source": "https://madamedusse.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Horaires du bar et de la boutique, lus sous « Horaire bar & boutique ».",
+    "source": "https://madamedusse.com/lacarte"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:818946881",
+  "n": "Brasserie artisanale La Blonde et la Brune",
+  "c": "Néoules",
+  "adresse": "6 place du Château, 83136 Néoules",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Site officiel : bières brassées sur place, dégustées à la pression sur la terrasse de la brasserie, et vendues à emporter en bouteille de 50 cl ou 1 litre. Les horaires du site (tous les jours sauf le lundi, 11h à 23h) sont contredits par la fiche de l'office de tourisme (saison d'avril à octobre) : aucun horaire retenu. Aucune page Untappd trouvée.",
+  "src": "http://lablondelabrune.com/",
+  "extrait": "Elles se dégustent à la pression sur la terrasse de notre brasserie à l'ombre des platanes",
+  "beers": [],
+  "choix": "Deux numéros publiés par la brasserie sur son site (04 94 72 71 27 et 06 87 40 35 01) : je retiens le fixe. Horaires écartés car le site (« Tous les jours sauf le lundi / De 11h à 23h », sans saison) et l'office de tourisme (avril à octobre) ne concordent pas. Le nom de la fiche suit la SIRENE (« Brasserie artisanale La Blonde et la Brune »), le site écrit « la Blonde & la Brune ».",
+  "contact": {
+   "tel": "04 94 72 71 27",
+   "site": "http://lablondelabrune.com/",
+   "source": "http://lablondelabrune.com/"
+  }
+ },
+ {
+  "cle": "sirene:837878826",
+  "n": "Le Brasseur Varois",
+  "c": "Carcès",
+  "adresse": "25 avenue Florentin Giraud, 83570 Carcès",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale à Carcès. La fiche de l'office de tourisme cite un magasin sur place, une dégustation sur place et des visites du brassage sur réservation. Le site de la brasserie confirme l'existence, le numéro et une dégustation en groupe, mais ne donne pas d'horaires. Aucune page Untappd trouvée.",
+  "src": "https://www.la-provence-verte.net/activites/terroir-carces-le-brasseur-varois_2514.html",
+  "extrait": "Dégustation sur place",
+  "beers": [],
+  "choix": "Le seul numéro publié par la brasserie sur son site est un portable (0609758225, écrit sans espaces), repris au format 06 09 75 82 25. Horaires lus sur l'office de tourisme seulement (vente en boutique) : la confiance reste moyenne. La visite du brassage (sur réservation) n'est pas mise dans les horaires.",
+  "contact": {
+   "tel": "06 09 75 82 25",
+   "site": "https://lebrasseurvarois.fr/",
+   "source": "https://lebrasseurvarois.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:30"
+     ]
+    ],
+    "source": "https://www.la-provence-verte.net/activites/terroir-carces-le-brasseur-varois_2514.html"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:824685341",
+  "n": "Brasserie des Maures",
+  "c": "Bormes-les-Mimosas",
+  "adresse": "1065 chemin de Bénat, 83230 Bormes-les-Mimosas",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale ouverte depuis 2017 (nommée « La Maure » dans la SIRENE et en anglais sur la fiche régionale). La fiche de Provence-Alpes-Côte d'Azur cite la vente à la propriété et la dégustation de produits ; le site de la brasserie, en maintenance, donne les horaires d'accueil. Aucune page Untappd trouvée.",
+  "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-des-maures-bormes-les-mimosas-fr-3980678/",
+  "extrait": "Nous vous accueillons sur place, au milieu des cuves de brassage et fermentation pour vous faire découvrir notre univers.",
+  "beers": [],
+  "choix": "Seul numéro publié par la brasserie sur son site : un portable, 06 12 03 28 83. Nom de la fiche : « Brasserie des Maures », le nom d'usage des fiches de tourisme (la SIRENE dit « Brasserie artisanale La Maure »), à trancher par Cédric. Le site étant en maintenance, la dégustation n'est lue que sur la fiche régionale, d'où la confiance moyenne.",
+  "contact": {
+   "tel": "06 12 03 28 83",
+   "site": "https://brasseriedesmaures.com/",
+   "source": "https://brasseriedesmaures.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Le site de la brasserie était en maintenance le jour de la lecture.",
+    "source": "https://brasseriedesmaures.com/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:439496944",
+  "n": "La Bière des Îles d'Or",
+  "c": "Hyères",
+  "adresse": "143 rue de la Forge, 83400 Hyères",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale d'Hyères. Le site officiel propose une boutique à la brasserie ou en ligne, ouverte du lundi au vendredi. Consommation sur place non établie par le site : le taproom cité par les annuaires est une autre adresse (Palyvestre), non retenue.",
+  "src": "https://www.labieredesilesdor.fr/",
+  "extrait": "Boutique à la brasserie ou boutique en ligne",
+  "beers": [],
+  "choix": "Office de tourisme (cotedazurfrance.fr) : bar, tables, visites guidées, non repris car absents du site officiel. Taproom du Palyvestre (autre adresse) et tapas non repris. Aucun Untappd trouvé (une recherche, aucune page untappd.com de la brasserie).",
+  "contact": {
+   "tel": "04 30 30 32 18",
+   "site": "https://www.labieredesilesdor.fr/",
+   "source": "https://www.labieredesilesdor.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.labieredesilesdor.fr/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:813207644",
+  "n": "Les Brasseurs de l'Estérel",
+  "c": "Saint-Raphaël",
+  "adresse": "170 rue Isaac Newton, Epsilon 1, 83700 Saint-Raphaël",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie (Riviera Beer) de Saint-Raphaël. Seule source lue : la fiche du comité régional de tourisme, qui indique la vente à la propriété. Les fiches de l'office disent « sur rendez-vous » ou du lundi au vendredi, et l'une la dit fermée le samedi et le dimanche. Pas de site officiel trouvé.",
+  "src": "https://cotedazurfrance.fr/offres/les-brasseurs-de-lesterel-riviera-beer-saint-raphael-fr-2913646/",
+  "extrait": "Vente à la propriété",
+  "beers": [],
+  "choix": "Deux téléphones publiés par la fiche tourisme (04 94 55 48 79 et 07 82 07 48 78) : aucun repris, car publiés seulement par un office. Horaires écartés (« sur rendez-vous » ou lundi-vendredi 9h-16h30, incohérents avec une autre fiche : fermé samedi et dimanche). Atelier de brassage et visites de groupe non retenus pour la catégorie. Aucun Untappd trouvé."
+ },
+ {
+  "cle": "sirene:850152216",
+  "n": "La Tuf (Le Tailleur de Bières)",
+  "c": "Cotignac",
+  "adresse": "1 cours Gambetta, 83570 Cotignac",
+  "cat": 0,
+  "conf": "",
+  "note": "Bar du site officiel La Tuf, qui sert les bières La TUF et d'autres brasseries artisanales ; le site ne dit pas où la bière est brassée ni si on peut en acheter à emporter. Pause annoncée dès le 11 octobre, reprise au printemps. Aucun horaire d'ouverture publié.",
+  "src": "https://latufcraftbeer.com",
+  "extrait": "Aux côtés des bières La TUF, de nouvelles brasseries artisanales font leur entrée",
+  "beers": [],
+  "choix": "Catégorie 0 : le site est celui d'un bar qui sert les bières La TUF, sans dire qu'on y brasse ni qu'on y achète à emporter ; pause annoncée jusqu'au printemps. Seul numéro publié, un mobile (règle du 21/10). Le point OSM « La Tuf – Le Tailleur de Bières » est le même lieu.",
+  "contact": {
+   "tel": "06 70 71 89 09",
+   "site": "https://latufcraftbeer.com",
+   "source": "https://latufcraftbeer.com"
+  }
+ },
+ {
+  "cle": "node/7274140076",
+  "n": "La Snook",
+  "c": "Esparron-de-Pallières",
+  "adresse": "Lieu-dit la Cremadele, Ancienne Cave Coopérative, 83560 Esparron-de-Pallières",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie créée en 2022 dans l'ancienne cave coopérative ; son site invite à la visite sans dire si l'on peut acheter ni consommer sur place. L'office de tourisme La Provence Verte indique une ouverture du lundi au vendredi, sur rendez-vous.",
+  "src": "https://la-snook.fr/",
+  "extrait": "Venez donc nous rendre visite et laissez vos papilles vous transporter",
+  "beers": [],
+  "choix": "Catégorie 0 : aucune page ne dit si l'on peut acheter ou consommer sur place. Horaires non repris : « sur rendez-vous » reste dans la note. Pas de page Untappd trouvée, donc aucune bière (le site cite blonde, IPA, sarriette et blanche, mais ce n'est pas Untappd). Téléphone : la seule ligne que la brasserie publie est un mobile, repris pour cela ; elle est écrite « +336 52 65 10 29 » sur son site et « 06 52 65 10 29 » chez l'office, qui n'est pas la source du téléphone.",
+  "contact": {
+   "tel": "06 52 65 10 29",
+   "site": "https://la-snook.fr/",
+   "source": "https://la-snook.fr/"
+  }
+ }
+]

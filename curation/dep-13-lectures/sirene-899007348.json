@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:899007348",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale des Alpilles",
+   "c": "Eygalières",
+   "d": "13",
+   "lat": 43.78715,
+   "lon": 4.95429,
+   "km": 210.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie bio d'Eygalières. Son site affiche des « horaires d'ouvertures » (lundi à vendredi, 10 h – 12 h 30 et 14 h – 18 h ; samedi sur rendez-vous) et une boutique en ligne, sans dire ce qu'on peut faire sur place.",
+   "addr": "2874 route de la Gare, 13810 Eygalières",
+   "src": "https://bieredesalpilles.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 60 60 66 22",
+    "site": "https://bieredesalpilles.fr/",
+    "source": "https://bieredesalpilles.fr/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://bieredesalpilles.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2874+route+de+la+Gare%2C+13810+Eygali%C3%A8res&limit=5"
+  ],
+  "extrait": "Une microbrasserie provençale à Eygalières",
+  "choix": "Catégorie 0 : la vente sur place n'est pas écrite ; horaires laissés dans la note, faute de savoir ce qu'ils couvrent. Seule ligne publiée par la brasserie, un mobile : retenue (règle du 21/10). Pas d'Untappd."
+ }
+}

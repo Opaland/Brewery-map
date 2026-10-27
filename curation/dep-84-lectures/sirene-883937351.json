@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:883937351",
+ "ajout": {
+  "fiche": {
+   "n": "Malt Brothers",
+   "c": "Vaison-la-Romaine",
+   "d": "84",
+   "lat": 44.25125,
+   "lon": 5.03237,
+   "km": 159.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie décrit une tap room où l'on déguste les bières à la pression, au comptoir, en terrasse ou dans le jardin. La boutique sur place vient de la fiche de l'office de tourisme (confiance moyenne au plus) ; le site ne parle que de bières en bouteille 33 cl et 75 cl. La brasserie a d'abord été à Villedieu, puis a ouvert un second site à Vaison-la-Romaine, qui est celui de cette fiche.",
+   "addr": "2810 route d'Orange, 84110 Vaison-la-Romaine",
+   "src": "https://maltbrothers.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://maltbrothers.fr",
+    "source": "https://maltbrothers.fr",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://maltbrothers.fr",
+   "https://data.geopf.fr/geocodage/search?q=2810+route+d%27Orange%2C+84110+Vaison-la-Romaine&limit=5"
+  ],
+  "extrait": "L'expérience se prolonge avec la tap room où vous pourrez déguster toutes nos bières à la pression",
+  "choix": "Pas de téléphone : le seul numéro vu est celui d'une structure voisine. Pas d'horaires : le site n'en donne pas. Catégorie 1, confiance moyenne : la tap room est sur le site, la boutique sur la fiche de l'office. Pas d'Untappd."
+ }
+}

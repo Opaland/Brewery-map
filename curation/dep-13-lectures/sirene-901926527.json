@@ -1,0 +1,47 @@
+{
+ "candidat": "sirene:901926527",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie l'Amista",
+   "c": "Noves",
+   "d": "13",
+   "lat": 43.87863,
+   "lon": 4.90473,
+   "km": 200,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale à Noves avec espace boutique : vente sur place, visite de la brasserie sur réservation. D'après la fiche du comité régional de tourisme (page d'office, donc confiance moyenne) ; site officiel non lu (erreur 503) et sans page Untappd trouvée. Consommation sur place non mentionnée.",
+   "addr": "168 avenue Agricol Viala, Les 3 Vergers, 13550 Noves",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+     "jeu": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Ouverture aussi le samedi en saison, de 9h30 à 12h30 (dates de la saison non précisées). Visite sur réservation.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-lamista-noves-fr-4713677/",
+   "https://data.geopf.fr/geocodage/search?q=168+avenue+Agricol+Viala%2C+Les+3+Vergers%2C+13550+Noves&limit=5"
+  ],
+  "extrait": "Brasserie artisanale, proposant de la vente sur place (espace boutique).",
+  "choix": "Téléphones non repris : deux mobiles (06 34 62 00 41 et 06 19 30 03 43) publiés seulement par l'office. Pas de site officiel lu (brasserielamista.fr en 503 ; l'adresse contact@brasserielamista.fr n'est qu'un courriel sur myprovence.fr). Horaires : jeudi et vendredi 15h-18h toute l'année retenus ; le samedi « en saison » 9h30-12h30 va en remarque, faute de dates de saison. Catégorie 2 car vente sur place dite, consommation non dite."
+ }
+}

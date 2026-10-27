@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:881435804",
+ "ajout": {
+  "fiche": {
+   "n": "Keg & Can Brewpub",
+   "c": "Marseille",
+   "d": "13",
+   "lat": 43.24558,
+   "lon": 5.4262,
+   "km": 275.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brewpub et micro-brasserie du quartier du Redon (Marseille 9e) : le site officiel décrit un lieu où l'on déguste des bières artisanales brassées sur place, avec une carte food. Les bières craft du moment se vendent aussi à emporter en canette de 50 cl. Horaires publiés sur la page contact (fermé ou non indiqué lundi et dimanche). Aucun lien Untappd publié par la brasserie : les bières ne sont donc pas listées.",
+   "addr": "314 Boulevard du Redon, 13009 Marseille",
+   "src": "https://kegandcan.fr/le-brewpub-micro-brasserie-keg-and-can-marseille/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 53 40 24 42",
+    "site": "https://kegandcan.fr/",
+    "source": "https://kegandcan.fr/contact/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://kegandcan.fr/contact/",
+     "mar": [
+      [
+       "17:30",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:30",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:30",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:30",
+       "23:30"
+      ]
+     ],
+     "sam": [
+      [
+       "17:30",
+       "23:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://kegandcan.fr/le-brewpub-micro-brasserie-keg-and-can-marseille/",
+   "https://kegandcan.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=314+Boulevard+du+Redon%2C+13009+Marseille&limit=5"
+  ],
+  "extrait": "Nous avons à cœur de créer un lieu où chacun peut non seulement déguster une large sélection de bières artisanales, mais aussi en apprendre davantage sur le processus de brassage et la diversité des styles de bière.",
+  "choix": "Un seul numéro publié sur le site de la brasserie (page contact, page brewpub, accueil) : 09 53 40 24 42, retenu. Pas de mobile ni d'autre ligne. Catégorie 1 : dégustation sur place (page brewpub) et vente à emporter « Toutes nos bières craft du moment sont disponibles à emporter en canette de 50cl. » (page https://kegandcan.fr/nos-bieres-artisanales-craft-marseille/, qui n'est pas la page src). Le nom du maître brasseur, écrit sur la page, n'est repris ni dans la note ni dans l'extrait. Les horaires ne disent rien du lundi et du dimanche : ces jours sont laissés absents, pas déclarés fermés. Pas d'Untappd trouvé (recherche web + aucun lien sur le site) : contact.untappd omis, beers vide."
+ }
+}

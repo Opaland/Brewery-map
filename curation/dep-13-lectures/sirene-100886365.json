@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:100886365",
+ "ajout": {
+  "fiche": {
+   "n": "Le Craft",
+   "c": "La Ciotat",
+   "d": "13",
+   "lat": 43.1751,
+   "lon": 5.6075,
+   "km": 286.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie et taproom indépendante : 8 becs pression en rotation et une cave de plus de 50 références de bières craft. Source : guide de l'office de tourisme (fiche MyProvence), sans site officiel trouvé. Les horaires y sont saisonniers (« en attente de validation »), donc non repris.",
+   "addr": "8 rue Maréchal Foch, 13600 La Ciotat",
+   "src": "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/la-ciotat/microbrasserie-taproom-independante-ciotadenne-le-craft",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.myprovence.fr/les-guides/loisirs/artisans-et-producteurs/la-ciotat/microbrasserie-taproom-independante-ciotadenne-le-craft",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+Mar%C3%A9chal+Foch%2C+13600+La+Ciotat&limit=5"
+  ],
+  "extrait": "Avec les 8 becs pression en constante rotation",
+  "choix": "Pas de téléphone publié (la fiche ne donne qu'une adresse e-mail, non reprise). Pas de site officiel ni de page Untappd trouvés en deux recherches. Horaires écartés : « Eté » et « Basse saison » sans dates de période, programme « en attente de validation ». Extrait court : fragment exact de la phrase lue. La consommation sur place ressort de « taproom » et de « savourer ». Confiance moyenne : source d'office de tourisme seule."
+ }
+}

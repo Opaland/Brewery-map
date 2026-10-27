@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:908827561",
+ "ajout": {
+  "fiche": {
+   "n": "Miss'Isle",
+   "c": "Cavaillon",
+   "d": "84",
+   "lat": 43.8332,
+   "lon": 5.03938,
+   "km": 206,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie indique un siège à L'Isle-sur-la-Sorgue et un local de production à Cavaillon, et invite à venir « directement à la brasserie » ; il ne parle ni de vente sur place, ni d'horaires. Rien n'établit donc encore ce qu'on peut y faire. L'office de tourisme dit que les bières se trouvent dans une vingtaine d'établissements de L'Isle-sur-la-Sorgue.",
+   "addr": "120 avenue Jean Jaurès, 84300 Cavaillon",
+   "src": "https://www.biere-missisle.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 10 40 88 51",
+    "site": "https://www.biere-missisle.com",
+    "source": "https://www.biere-missisle.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.biere-missisle.com",
+   "https://data.geopf.fr/geocodage/search?q=120+avenue+Jean+Jaur%C3%A8s%2C+84300+Cavaillon&limit=5"
+  ],
+  "extrait": "Le siège social est situé à L’Isle sur la sorgue et le local de production se trouve à Cavaillon.",
+  "choix": "Le candidat « CHEZ ELLE BEER » est la société qui édite les bières Miss'Isle (mentions légales du site). Deux adresses sont publiées : siège 3 rue Joseph Roumanille à L'Isle-sur-la-Sorgue (adresse que donne l'office de tourisme), local de production 120 avenue Jean Jaurès à Cavaillon. J'ai retenu Cavaillon, car la brasserie est où l'on brasse, mais le site ne dit pas où l'on est reçu : Cédric tranche (sinon L'Isle-sur-la-Sorgue). Téléphone : 06 10 40 88 51, un mobile, seule ligne publiée par la brasserie dans ses mentions légales (l'office écrit le même). Lien Untappd : aucun lu. La mention « en passant directement à la brasserie » m'a été rendue en deux citations, donc non reprise comme extrait."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:951409721",
+ "ajout": {
+  "fiche": {
+   "n": "AM Beers",
+   "c": "Pourrières",
+   "d": "83",
+   "lat": 43.49678,
+   "lon": 5.73143,
+   "km": 254.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub : la fiche de l'office de tourisme Provence Verte & Verdon dit bières brassées et servies sur place, avec possibilité de vente à emporter. La page n'est pas datée. Le site de la brasserie (am-beers.com) confirme qu'elle brasse depuis début 2020 et renvoie ses horaires à Google, sans les écrire. Pas de page Untappd trouvée.",
+   "addr": "561 route de Trets, 83910 Pourrières",
+   "src": "https://www.la-provence-verte.net/activites/bar-pourrieres-am-beers_2931.html",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.am-beers.com",
+    "source": "https://www.la-provence-verte.net/activites/bar-pourrieres-am-beers_2931.html",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.la-provence-verte.net/activites/bar-pourrieres-am-beers_2931.html",
+   "https://data.geopf.fr/geocodage/search?q=561+route+de+Trets%2C+83910+Pourri%C3%A8res&limit=5"
+  ],
+  "extrait": "Brewpub. Bières brassées et servies sur place.",
+  "choix": "Page src lue sur un résumé, avec des citations mot pour mot ; la vente à emporter vient d'un autre passage de la même page (« Possibilité de vente à emporter »). Site officiel am-beers.com lu sur un résumé seulement : « AM Beers brasse depuis début 2020 », « Viens au brewpub ! ». Aucun téléphone publié par la brasserie (formulaire seulement) : aucun retenu. L'adresse vient de la page de l'office. Catégorie 1 plafonnée à moyenne : office de tourisme (décision #37), source sans date. Horaires non écrits (« variables », renvoi à Google) : non repris."
+ }
+}

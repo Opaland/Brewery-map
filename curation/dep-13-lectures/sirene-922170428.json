@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:922170428",
+ "ajout": {
+  "fiche": {
+   "n": "Micro brasserie Transitions",
+   "c": "La Ciotat",
+   "d": "13",
+   "lat": 43.18916,
+   "lon": 5.62616,
+   "km": 284.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Sur rendez-vous uniquement : le site de la brasserie annonce la visite, l'achat des bières sur place et la livraison, sur simple rendez-vous. Pas d'horaires d'ouverture, pas de dégustation indiquée.",
+   "addr": "La Ciotat",
+   "src": "https://microbrasserietransitions.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://microbrasserietransitions.fr",
+    "source": "https://microbrasserietransitions.fr",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://microbrasserietransitions.fr",
+   "https://data.geopf.fr/geocodage/search?q=La+Ciotat&type=municipality&limit=5"
+  ],
+  "extrait": "Visite de la brasserie, achat des bières sur place et livraison",
+  "choix": "Téléphone non repris : absent du texte lu de la page. Adresse laissée vide : le site et le registre se contredisent. Pas d'horaires (sur rendez-vous). Pas d'Untappd."
+ }
+}

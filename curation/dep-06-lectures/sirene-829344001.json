@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:829344001",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Berroise",
+   "c": "Berre-les-Alpes",
+   "d": "06",
+   "lat": 43.82528,
+   "lon": 7.33982,
+   "km": 289.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale ouverte au public : son site invite à venir boire une bière et déguster entre amis (Apéro Time le vendredi et le samedi soir). La vente à emporter sur place n'est pas dite. Horaires non repris : le corps de la page et son pied de page se contredisent.",
+   "addr": "46 avenue Paul Granet, 06390 Berre-les-Alpes",
+   "src": "https://brasserieberroise.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 25 57 21 09",
+    "site": "https://brasserieberroise.com",
+    "source": "https://brasserieberroise.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasserieberroise.com",
+   "https://data.geopf.fr/geocodage/search?q=46+avenue+Paul+Granet%2C+06390+Berre-les-Alpes&limit=5"
+  ],
+  "extrait": "La Brasserie est ouverte au public !",
+  "choix": "Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Horaires écartés (17 h – 23 h 30 contre 17 h – 23 h, jeudi 22 h contre 21 h). Pas d'Untappd."
+ }
+}

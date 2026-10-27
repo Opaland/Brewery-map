@@ -1,0 +1,33 @@
+{
+ "candidat": "node/7274140076",
+ "ajout": {
+  "fiche": {
+   "n": "La Snook",
+   "c": "Esparron-de-Pallières",
+   "d": "83",
+   "lat": 43.59142,
+   "lon": 5.85571,
+   "km": 247.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie créée en 2022 dans l'ancienne cave coopérative ; son site invite à la visite sans dire si l'on peut acheter ni consommer sur place. L'office de tourisme La Provence Verte indique une ouverture du lundi au vendredi, sur rendez-vous.",
+   "addr": "Lieu-dit la Cremadele, Ancienne Cave Coopérative, 83560 Esparron-de-Pallières",
+   "src": "https://la-snook.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 52 65 10 29",
+    "site": "https://la-snook.fr/",
+    "source": "https://la-snook.fr/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://la-snook.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Esparron-de-Palli%C3%A8res&type=municipality&limit=5"
+  ],
+  "extrait": "Venez donc nous rendre visite et laissez vos papilles vous transporter",
+  "choix": "Catégorie 0 : aucune page ne dit si l'on peut acheter ou consommer sur place. Horaires non repris : « sur rendez-vous » reste dans la note. Pas de page Untappd trouvée, donc aucune bière (le site cite blonde, IPA, sarriette et blanche, mais ce n'est pas Untappd). Téléphone : la seule ligne que la brasserie publie est un mobile, repris pour cela ; elle est écrite « +336 52 65 10 29 » sur son site et « 06 52 65 10 29 » chez l'office, qui n'est pas la source du téléphone."
+ }
+}

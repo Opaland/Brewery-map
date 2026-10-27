@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:890260219",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Neuja",
+   "c": "Saint-Mandrier-sur-Mer",
+   "d": "83",
+   "lat": 43.07561,
+   "lon": 5.92141,
+   "km": 303.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale et brewpub, avec cave à vin et bar à bière, tapas ; source : fiche du réseau de tourisme régional, pas de site officiel trouvé.",
+   "addr": "Boulevard de Champagne, 83430 Saint-Mandrier-sur-Mer",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-neuja-saint-mandrier-sur-mer-fr-3900509/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-neuja-saint-mandrier-sur-mer-fr-3900509/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Mandrier-sur-Mer&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie artisanale, et brewpub de Saint-Mandrier-sur-Mer (qui fait aussi cave à vin et bar à bière, bar à vin)",
+  "choix": "Téléphones publiés par l'office seulement : non repris. Pas de site officiel ni d'Untappd. Horaires de la fiche non repris : lus par un résumé, et dits non garantis."
+ }
+}

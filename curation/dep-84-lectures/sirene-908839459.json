@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:908839459",
+ "ajout": {
+  "fiche": {
+   "n": "Les Ouailles du Luberon",
+   "c": "Cheval-Blanc",
+   "d": "84",
+   "lat": 43.79234,
+   "lon": 5.07601,
+   "km": 210.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Fiche d'office de tourisme : brasserie bio au pied du Luberon, bières en bouteilles de 33 cl et 75 cl et en fûts. Vente à la propriété, sur les marchés, en ligne, Click & Collect et retrait à la ferme. Aucune dégustation ni consommation sur place n'est citée. Le site officiel (ouailles-luberon.fr) répondait 503 lors de la lecture.",
+   "addr": "225 chemin de l'Indicateur, 84460 Cheval-Blanc",
+   "src": "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "periode": {
+      "du": "04-01",
+      "au": "10-31"
+     },
+     "remarque": "Fermé les week-ends. Horaires de l'office de tourisme pour 2026 ; hors de la période, aucun horaire publié.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.provenceguide.com/producteurs/luberon/les-ouailles-du-luberon/provence-6449808-1.html",
+   "https://data.geopf.fr/geocodage/search?q=225+chemin+de+l%27Indicateur%2C+84460+Cheval-Blanc&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Horaires de l'office pour la saison en cours : du 01/04 au 31/10/2026, du lundi au vendredi de 9h à 17h, fermé les week-ends. Ils sont repris avec une période. Aucun téléphone n'a été lu (office seul, aucun numéro retenu)."
+ }
+}

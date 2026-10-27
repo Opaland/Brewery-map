@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:814659728",
+ "ajout": {
+  "fiche": {
+   "n": "Bière de la Rade",
+   "c": "Toulon",
+   "d": "83",
+   "lat": 43.1199,
+   "lon": 5.94884,
+   "km": 299.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie décrit son site historique de Toulon, ouvert depuis 2016, avec une boutique, un bar et un espace de restauration. L'unité de production plus grande est à La Seyne-sur-Mer, mais la fiche est au bar et à la boutique de Toulon. La page ne détaille ni les produits vendus ni les conditions de vente, d'où la confiance moyenne. Pas de page Untappd trouvée.",
+   "addr": "300 rue Amiral Nomy, 83000 Toulon",
+   "src": "https://www.bieredelarade.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 94 21 41 06",
+    "site": "https://www.bieredelarade.com",
+    "source": "https://www.bieredelarade.com",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.bieredelarade.com",
+     "mar": [
+      [
+       "17:00",
+       "23:30"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "23:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "01:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "01:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.bieredelarade.com",
+   "https://data.geopf.fr/geocodage/search?q=300+rue+Amiral+Nomy%2C+83000+Toulon&limit=5"
+  ],
+  "extrait": "LE BAR / BOUTIQUE",
+  "choix": "Téléphone et horaires lus sur le site de la brasserie ; ceux de l'office, différents, écartés. Confiance moyenne : la page ne détaille pas ce que vend la boutique. Pas d'Untappd."
+ }
+}

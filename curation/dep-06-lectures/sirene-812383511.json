@@ -1,0 +1,35 @@
+{
+ "candidat": "sirene:812383511",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bleue",
+   "c": "Nice",
+   "d": "06",
+   "lat": 43.70224,
+   "lon": 7.27606,
+   "km": 296.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Micro-brasserie et salle de dégustation (tap room) selon l'office de tourisme ; horaires contradictoires entre l'office (mardi au samedi, 14h-21h, et « tous les jours » en 2026) et le site de la brasserie (mercredi au samedi, 16h-22h), donc non repris.",
+   "addr": "15 rue Défly, 06000 Nice",
+   "src": "https://cotedazurfrance.fr/offres/brasserie-bleue-nice-fr-3506423",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 93 80 17 39",
+    "site": "https://brasseriebleue.com",
+    "untappd": "https://untappd.com/BrasserieBleue",
+    "source": "https://brasseriebleue.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://cotedazurfrance.fr/offres/brasserie-bleue-nice-fr-3506423",
+   "https://brasseriebleue.com",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+D%C3%A9fly%2C+06000+Nice&limit=5"
+  ],
+  "extrait": "Dégustez la bière Bleue à la pression sur place et visitez la fabrique à bière !",
+  "choix": "Catégorie 1, confiance moyenne : la dégustation sur place est dite par l'office de tourisme. Horaires écartés : le site (mercredi à samedi, 16 h – 22 h) et l'office (mardi à samedi, 14 h – 21 h) se contredisent. Téléphone lu sur le site de la brasserie. Bières d'Untappd non reprises dans cette lecture."
+ }
+}

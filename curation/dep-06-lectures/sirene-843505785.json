@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:843505785",
+ "ajout": {
+  "fiche": {
+   "n": "À la Fût",
+   "c": "Mouans-Sartoux",
+   "d": "06",
+   "lat": 43.6248,
+   "lon": 6.96284,
+   "km": 287.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie bio avec domaine agricole, bar et boutique. Le site officiel invite à venir boire un verre, avec un bar le jeudi et le vendredi soir. Les horaires du bar y sont donnés deux fois, avec des heures différentes (17h-23h et 16h-21h, happy hour 17h-19h dans les deux cas) : seuls les horaires de visite sont repris.",
+   "addr": "Espace Palissy, 201 chemin des Plaines, 06370 Mouans-Sartoux",
+   "src": "https://alafut.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 50 85 80 89",
+    "site": "https://alafut.fr",
+    "source": "https://alafut.fr",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://alafut.fr",
+     "lun": [
+      [
+       "09:30",
+       "16:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:30",
+       "16:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:30",
+       "16:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:30",
+       "16:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:30",
+       "16:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://alafut.fr",
+   "https://data.geopf.fr/geocodage/search?q=Espace+Palissy%2C+201+chemin+des+Plaines%2C+06370+Mouans-Sartoux&limit=5"
+  ],
+  "extrait": "Du lundi au vendredi de 9h30 à 16h30 et bar jeudi & vendredi soir de 17h à 23h",
+  "choix": "Page lue en entier (site officiel, via lecture résumée par l'outil de fetch, avec citations littérales demandées). Pas de page Untappd trouvée : aucune bière proposée. Horaires du bar écartés, car la page se contredit (17h-23h contre 16h-21h) ; seul le bloc « Venez nous rendre visite » (lundi-vendredi 9h30-16h30) est repris, en `accueil`. Les annuaires d'offices donnent plutôt une boutique de 10h à 16h : non repris. Téléphone : 07 50 85 80 89 (mobile, seul numéro publié par la brasserie sur son site, donné pour les réservations et infos). Confiance moyenne à cause des contradictions de la page."
+ }
+}

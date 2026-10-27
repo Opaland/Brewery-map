@@ -1,0 +1,91 @@
+{
+ "candidat": "sirene:837878826",
+ "ajout": {
+  "fiche": {
+   "n": "Le Brasseur Varois",
+   "c": "Carcès",
+   "d": "83",
+   "lat": 43.47538,
+   "lon": 6.18288,
+   "km": 269.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale à Carcès. La fiche de l'office de tourisme cite un magasin sur place, une dégustation sur place et des visites du brassage sur réservation. Le site de la brasserie confirme l'existence, le numéro et une dégustation en groupe, mais ne donne pas d'horaires. Aucune page Untappd trouvée.",
+   "addr": "25 avenue Florentin Giraud, 83570 Carcès",
+   "src": "https://www.la-provence-verte.net/activites/terroir-carces-le-brasseur-varois_2514.html",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 09 75 82 25",
+    "site": "https://lebrasseurvarois.fr/",
+    "source": "https://lebrasseurvarois.fr/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.la-provence-verte.net/activites/terroir-carces-le-brasseur-varois_2514.html",
+     "mar": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.la-provence-verte.net/activites/terroir-carces-le-brasseur-varois_2514.html",
+   "https://lebrasseurvarois.fr/",
+   "https://data.geopf.fr/geocodage/search?q=25+avenue+Florentin+Giraud%2C+83570+Carc%C3%A8s&limit=5"
+  ],
+  "extrait": "Dégustation sur place",
+  "choix": "Le seul numéro publié par la brasserie sur son site est un portable (0609758225, écrit sans espaces), repris au format 06 09 75 82 25. Horaires lus sur l'office de tourisme seulement (vente en boutique) : la confiance reste moyenne. La visite du brassage (sur réservation) n'est pas mise dans les horaires."
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "candidat": "sirene:983168998",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lub'",
+   "c": "Taillades",
+   "d": "84",
+   "lat": 43.83512,
+   "lon": 5.08566,
+   "km": 206.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Fiche d'office de tourisme : vente à la propriété, boutique sur place, vente sur les marchés, boutique en ligne et Click & Collect. Aucune dégustation ni consommation sur place n'est citée. Aucun site officiel de la brasserie n'a été lu.",
+   "addr": "9B ZAC Bel Air, 84300 Taillades",
+   "src": "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+   "coordPrecision": "centre",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+     "mar": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "remarque": "Période d'ouverture publiée par l'office : du 11/01 au 31/12. Fermé le lundi et le dimanche.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+   "https://data.geopf.fr/geocodage/search?q=Taillades&type=municipality&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Candidat SIRENE « LA FAUVETTE GOURMANDE, LA LUB' », 9 B ZA Bel Air, 84300 Taillades : même adresse que la fiche de l'office (9B ZAC Bel Air). Le téléphone publié par l'office (04 90 74 43 99) n'est pas repris (office seul, précédent S342). Horaires de l'office repris : 10h-12h et 15h-18h30, fermé lundi et dimanche. La période « du 11/01 au 31/12 » est ambiguë, elle est donc écrite en remarque et non en période."
+ }
+}

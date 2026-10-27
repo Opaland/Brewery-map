@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:890399439",
+ "ajout": {
+  "fiche": {
+   "n": "Améno",
+   "c": "Camaret-sur-Aigues",
+   "d": "84",
+   "lat": 44.15511,
+   "lon": 4.89133,
+   "km": 169.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale (société Arthy, propriétaire du site Améno) avec un bar sur place et un « beer drive » pour repartir avec ses bières. Horaires du bar lus sur la page contact du site officiel.",
+   "addr": "ZA Jonquier et Morelles, rue Antoine Laurent de Lavoisier, 84850 Camaret-sur-Aigues",
+   "src": "https://ameno-biere.com/contact.php",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 38 43 24 70",
+    "site": "https://ameno-biere.com",
+    "source": "https://ameno-biere.com/contact.php",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://ameno-biere.com/contact.php",
+     "mer": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:30"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "23:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://ameno-biere.com/contact.php",
+   "https://data.geopf.fr/geocodage/search?q=Camaret-sur-Aigues&type=municipality&limit=5"
+  ],
+  "extrait": "LE BAR",
+  "choix": "Bar et horaires lus sur la page contact du site (rubrique « Le bar ») ; la société propriétaire du site est celle du registre. Téléphone de la page contact (mobile, seule ligne publiée par la brasserie). Les horaires de l'office, différents, sont écartés. Le point OSM « Brasserie Ameno » est le même lieu. Pas d'Untappd."
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:838515427",
+ "ajout": {
+  "fiche": {
+   "n": "Craftazur",
+   "c": "Antibes",
+   "d": "06",
+   "lat": 43.60824,
+   "lon": 7.0741,
+   "km": 294,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie : bières brassées et embouteillées sur place, vendues aux particuliers directement à la brasserie (boutique ouverte du lundi au vendredi). Le site officiel ne parle ni de bar ni de dégustation ouverte à tous ; il conseille d'appeler avant de venir.",
+   "addr": "165 rue des Cistes, 06600 Antibes",
+   "src": "https://craftazur.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 67 18 85 55",
+    "site": "https://craftazur.fr",
+    "source": "https://craftazur.fr",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://craftazur.fr",
+     "lun": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://craftazur.fr",
+   "https://data.geopf.fr/geocodage/search?q=165+rue+des+Cistes%2C+06600+Antibes&limit=5"
+  ],
+  "extrait": "Toutes nos bières sont brassées et embouteillées sur place. Nous vendons aux professionnels (bars, restaurants, entreprises…) mais aussi aux particuliers directement à la brasserie !",
+  "choix": "Mobile, seule ligne publiée par la brasserie (règle du 21/10). Dégustation dite seulement par des offices : catégorie 2. Pas de bières reprises."
+ }
+}

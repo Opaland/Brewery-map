@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:831899075",
+ "ajout": {
+  "fiche": {
+   "n": "La Géante de Provence",
+   "c": "Brantes",
+   "d": "84",
+   "lat": 44.19248,
+   "lon": 5.33271,
+   "km": 171,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Micro-brasserie bio créée en 2017 à Brantes. La fiche de l'office de tourisme (seule source lue) indique vente à la propriété et boutique, visite gratuite sur demande, et précise que les horaires ne sont pas garantis. Pas de site officiel trouvé, pas d'horaires.",
+   "addr": "Le Village, 84390 Brantes",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/la-geante-de-provence-brantes-fr-2885082/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/la-geante-de-provence-brantes-fr-2885082/",
+   "https://data.geopf.fr/geocodage/search?q=Brantes&type=municipality&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Source : office de tourisme régional seul, donc confiance moyenne au plus ; l'existence est aussi attestée par la fiche d'un autre office (provenceguide.com) et le registre SIRENE. Catégorie 2 : la fiche cite aussi « Dégustation de produits » et une petite restauration sur place, mais pas de bar ni de dégustation clairement ouverte, donc je ne propose pas 1. Téléphones de la fiche (04 75 28 29 13 et 06 23 45 03 49) non repris : publiés par un office, pas par la brasserie."
+ }
+}

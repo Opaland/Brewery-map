@@ -1,0 +1,90 @@
+{
+ "candidat": "sirene:439496944",
+ "ajout": {
+  "fiche": {
+   "n": "La Bière des Îles d'Or",
+   "c": "Hyères",
+   "d": "83",
+   "lat": 43.10861,
+   "lon": 6.10367,
+   "km": 304.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale d'Hyères. Le site officiel propose une boutique à la brasserie ou en ligne, ouverte du lundi au vendredi. Consommation sur place non établie par le site : le taproom cité par les annuaires est une autre adresse (Palyvestre), non retenue.",
+   "addr": "143 rue de la Forge, 83400 Hyères",
+   "src": "https://www.labieredesilesdor.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 30 30 32 18",
+    "site": "https://www.labieredesilesdor.fr/",
+    "source": "https://www.labieredesilesdor.fr/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.labieredesilesdor.fr/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.labieredesilesdor.fr/",
+   "https://data.geopf.fr/geocodage/search?q=143+rue+de+la+Forge%2C+83400+Hy%C3%A8res&limit=5"
+  ],
+  "extrait": "Boutique à la brasserie ou boutique en ligne",
+  "choix": "Office de tourisme (cotedazurfrance.fr) : bar, tables, visites guidées, non repris car absents du site officiel. Taproom du Palyvestre (autre adresse) et tapas non repris. Aucun Untappd trouvé (une recherche, aucune page untappd.com de la brasserie)."
+ }
+}

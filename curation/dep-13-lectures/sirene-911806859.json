@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:911806859",
+ "ajout": {
+  "fiche": {
+   "n": "Cap Marca",
+   "c": "Arles",
+   "d": "13",
+   "lat": 43.59672,
+   "lon": 4.64509,
+   "km": 231.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale installée dans un mas camarguais au bord du Petit Rhône (Parc naturel de Camargue) ; son site invite à venir découvrir ses bières et autres produits locaux, avec prise de rendez-vous. Vente ou dégustation sur place non dites, horaires non publiés : ce qu'on peut y faire n'est pas établi.",
+   "addr": "D572N, Route de Saint-Gilles, 13200 Arles",
+   "src": "https://capmarca.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 66 84 18 13",
+    "site": "https://capmarca.fr",
+    "source": "https://capmarca.fr",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://capmarca.fr",
+   "https://data.geopf.fr/geocodage/search?q=Arles&type=municipality&limit=5"
+  ],
+  "extrait": "Nous vous invitons à venir découvrir nos bières et autres produits locaux au sein de notre brasserie installée",
+  "choix": "Téléphone retenu : 04 66 84 18 13, publié sur le site de la brasserie. L'office d'Arles donne des horaires lun-ven 8h-12h : non repris (office seulement, pas sur le site). Aucune page Untappd lue."
+ }
+}

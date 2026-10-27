@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:890799844",
+ "ajout": {
+  "fiche": {
+   "n": "Ventopp",
+   "c": "Villes-sur-Auzon",
+   "d": "84",
+   "lat": 44.0551,
+   "lon": 5.22231,
+   "km": 183.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce la production et la vente directe de bières, et une dégustation sur place des bières, selon disponibilité. Aucun horaire publié sur le site.",
+   "addr": "ZAE des Fontaynes, 725 route de Carpentras, 84570 Villes-sur-Auzon",
+   "src": "https://ventopp.fr/la-boutique",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 83 35 56 80",
+    "site": "https://ventopp.fr",
+    "source": "https://ventopp.fr/la-boutique",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://ventopp.fr/la-boutique",
+   "https://data.geopf.fr/geocodage/search?q=ZAE+des+Fontaynes%2C+725+route+de+Carpentras%2C+84570+Villes-sur-Auzon&limit=5"
+  ],
+  "extrait": "dégustation sur place des bières (selon disponibilité)",
+  "choix": "Confiance moyenne : la dégustation est « selon disponibilité » et aucun horaire n'est donné. Le téléphone 09 83 35 56 80 est celui du pied de page du site de la brasserie ; c'est le seul numéro publié (l'office de tourisme donne le même). Pas d'Untappd : le site ne renvoie qu'à Facebook et Instagram, et je n'ai pas pu chercher sur Untappd (quota de recherches épuisé). Horaires non repris : le site n'en publie pas. L'office en donne, et ils ne sont ni de la saison ni de la source retenue."
+ }
+}

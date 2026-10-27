@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:844707125",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Josseline",
+   "c": "Monieux",
+   "d": "84",
+   "lat": 44.05696,
+   "lon": 5.33837,
+   "km": 185.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale installée à Monieux depuis 2018, une dizaine de bières. La fiche de l'office de tourisme (Provence Guide) ne parle que de visite à la demande, sans vente ni dégustation ; pas de site officiel ni de page Untappd trouvés.",
+   "addr": "Hameau de la Gabelle, 84390 Monieux",
+   "src": "https://www.provenceguide.com/producteurs/mont-ventoux/brasserie-josseline/provence-6046658-1.html",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.provenceguide.com/producteurs/mont-ventoux/brasserie-josseline/provence-6046658-1.html",
+   "https://data.geopf.fr/geocodage/search?q=Monieux&type=municipality&limit=5"
+  ],
+  "extrait": "Visite à la demande. Il est conseillé d'appeler avant toute venue.",
+  "choix": "Seule source lisible : la fiche Provence Guide (office/portail touristique), donc existence appuyée sur l'office + SIRENE, pas de site officiel. Téléphone : un mobile (+33 6 68 68 25 25) n'est publié que par l'office, donc non repris (précédent S342). Horaires « tous les jours » de la fiche non repris : ils décrivent la visite à la demande, pas un accueil. Catégorie 0 : aucune vente ni accueil établis."
+ }
+}

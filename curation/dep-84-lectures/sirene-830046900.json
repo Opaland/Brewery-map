@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:830046900",
+ "ajout": {
+  "fiche": {
+   "n": "La Comédienne",
+   "c": "Avignon",
+   "d": "84",
+   "lat": 43.93335,
+   "lon": 4.84063,
+   "km": 193.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : son site la dit la bière d'Avignon depuis 2017, avec production sur place, et son menu cite « Le bar ». La page lue ne dit pas ce qu'on peut y faire ni quand : à confirmer.",
+   "addr": "5 avenue Elsa Triolet, 84000 Avignon",
+   "src": "https://lacomedienne.beer/la-brasserie",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lacomedienne.beer",
+    "source": "https://lacomedienne.beer/la-brasserie",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://lacomedienne.beer/la-brasserie",
+   "https://data.geopf.fr/geocodage/search?q=5+avenue+Elsa+Triolet%2C+84000+Avignon&limit=5"
+  ],
+  "extrait": "La Comédienne est depuis 2017 la bière d'Avignon.",
+  "choix": "Catégorie 0 : la page « Le bar » du site n'a pas pu être lue (adresse devinée en 404). La fiche de l'office (Provence Guide) parle de dégustations de groupe et de visites sur demande, mais elle est contradictoire sur les jours (« tous les jours » et « fermé samedi et dimanche ») et la catégorie reste à confirmer. Aucun téléphone repris : il n'est publié que par l'office (précédent S342) ; la page du site ne donne qu'un courriel. Pas d'Untappd cherché (quota)."
+ }
+}

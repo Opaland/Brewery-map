@@ -1,0 +1,349 @@
+[
+ {
+  "cle": "sirene:802583815",
+  "n": "Brasserie l'Azuréenne",
+  "c": "Grasse",
+  "adresse": "107 avenue Jean Maubert, ZI Sainte-Marguerite, 06130 Grasse",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale avec boutique et bar ouverts au public ; visites suivies d'une dégustation. Source : fiche d'office de tourisme seule (site officiel illisible), d'où une confiance moyenne.",
+  "src": "https://cotedazurfrance.fr/offres/brasserie-lazureenne-grasse-fr-3021414/",
+  "extrait": "Elle est ouverte au public et dispose d’une boutique avec bar qui en fait un lieu de partage et de convivialité.",
+  "beers": [],
+  "choix": "Site officiel brasserie-lazureenne.com : la page servie est sans rapport avec une brasserie (contenu étranger, domaine apparemment repris), donc écarté et non repris en contact. Téléphone présent sur l'office seulement : non repris (précédent S342). Aucune page Untappd trouvée. Horaires 2026 repris de l'office (fiche datée 2026, non garantis pour le jour même), nature accueil (boutique avec bar).",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:30",
+      "22:00"
+     ]
+    ],
+    "remarque": "Fermé le samedi et le dimanche. Vendredi soir : happy hour.",
+    "source": "https://cotedazurfrance.fr/offres/brasserie-lazureenne-grasse-fr-3021414/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:797492121",
+  "n": "Brasserie du Comté",
+  "c": "Saint-Martin-Vésubie",
+  "adresse": "Chemin de la Romegiero, lieu-dit Pra dou Majou, 06450 Saint-Martin-Vésubie",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Site officiel : boutique ouverte du lundi au samedi ; visites avec dégustation (vacances scolaires, 1 à 2 fois par semaine) et visites « apéro » du lundi au samedi. Une consommation sur place en dehors des visites n'est pas lue, d'où la catégorie 2. Le second établissement SIRENE (Colomars) n'a pas été cherché.",
+  "src": "https://www.brasserieducomte.fr/nous-contacter/",
+  "extrait": "Horaires ouverture boutique",
+  "beers": [],
+  "choix": "Deux numéros sur la page de visite : le mobile de la brasserie (07 86 33 43 64, retenu : seule ligne publiée par la brasserie) et le 04 93 03 21 28, qui est celui de l'office de tourisme (écarté). Aucun lien Untappd trouvé. Je n'ai pas pu recopier le bloc d'horaires mot pour mot (le lecteur en rend un résumé) : l'extrait est le seul intitulé exact. Le résumé a une fois parlé de « cinq lignes » pour lundi à samedi ; à vérifier à l'œil par Cédric (la recherche web donne aussi lundi-samedi 9h30-12h30 / 13h30-17h30).",
+  "contact": {
+   "tel": "07 86 33 43 64",
+   "site": "https://www.brasserieducomte.fr",
+   "source": "https://www.brasserieducomte.fr/visite-de-la-brasserie/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "17:30"
+     ]
+    ],
+    "source": "https://www.brasserieducomte.fr/nous-contacter/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:828091785",
+  "n": "Brasserie des Ligures",
+  "c": "Peille",
+  "adresse": "445 Route des Clues, 06440 Peille",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Sur rendez-vous : d'après la fiche de l'office de tourisme Côte d'Azur France, visites gratuites sur réservation, dégustation payante et vente de produits sur place. Le site de la brasserie propose de prendre rendez-vous ; aucun horaire d'accueil publié.",
+  "src": "https://cotedazurfrance.fr/offres/brasserie-des-ligures-peille-fr-4709527",
+  "extrait": "Visites gratuites sur réservation, dégustation payante et ventes de produits sur place",
+  "beers": [],
+  "choix": "Catégorie 2, confiance moyenne : la vente sur place est dite par l'office seul, et la dégustation passe par une visite réservée. Aucun téléphone publié par la brasserie. Horaires du site écartés : ils ne disent pas ce qu'ils couvrent. Adresse du registre. Pas d'Untappd.",
+  "contact": {
+   "site": "https://brasseriedesligures.com/",
+   "source": "https://brasseriedesligures.com/"
+  }
+ },
+ {
+  "cle": "sirene:838515427",
+  "n": "Craftazur",
+  "c": "Antibes",
+  "adresse": "165 rue des Cistes, 06600 Antibes",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Microbrasserie : bières brassées et embouteillées sur place, vendues aux particuliers directement à la brasserie (boutique ouverte du lundi au vendredi). Le site officiel ne parle ni de bar ni de dégustation ouverte à tous ; il conseille d'appeler avant de venir.",
+  "src": "https://craftazur.fr",
+  "extrait": "Toutes nos bières sont brassées et embouteillées sur place. Nous vendons aux professionnels (bars, restaurants, entreprises…) mais aussi aux particuliers directement à la brasserie !",
+  "beers": [],
+  "choix": "Mobile, seule ligne publiée par la brasserie (règle du 21/10). Dégustation dite seulement par des offices : catégorie 2. Pas de bières reprises.",
+  "contact": {
+   "tel": "07 67 18 85 55",
+   "site": "https://craftazur.fr",
+   "source": "https://craftazur.fr"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://craftazur.fr",
+    "lun": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "sirene:843505785",
+  "n": "À la Fût",
+  "c": "Mouans-Sartoux",
+  "adresse": "Espace Palissy, 201 chemin des Plaines, 06370 Mouans-Sartoux",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie bio avec domaine agricole, bar et boutique. Le site officiel invite à venir boire un verre, avec un bar le jeudi et le vendredi soir. Les horaires du bar y sont donnés deux fois, avec des heures différentes (17h-23h et 16h-21h, happy hour 17h-19h dans les deux cas) : seuls les horaires de visite sont repris.",
+  "src": "https://alafut.fr",
+  "extrait": "Du lundi au vendredi de 9h30 à 16h30 et bar jeudi & vendredi soir de 17h à 23h",
+  "beers": [],
+  "choix": "Page lue en entier (site officiel, via lecture résumée par l'outil de fetch, avec citations littérales demandées). Pas de page Untappd trouvée : aucune bière proposée. Horaires du bar écartés, car la page se contredit (17h-23h contre 16h-21h) ; seul le bloc « Venez nous rendre visite » (lundi-vendredi 9h30-16h30) est repris, en `accueil`. Les annuaires d'offices donnent plutôt une boutique de 10h à 16h : non repris. Téléphone : 07 50 85 80 89 (mobile, seul numéro publié par la brasserie sur son site, donné pour les réservations et infos). Confiance moyenne à cause des contradictions de la page.",
+  "contact": {
+   "tel": "07 50 85 80 89",
+   "site": "https://alafut.fr",
+   "source": "https://alafut.fr"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "source": "https://alafut.fr",
+    "lun": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "sirene:825209778",
+  "n": "Blue Coast Brewing Company",
+  "c": "Nice",
+  "adresse": "18 chemin de Saquier",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie existante (site officiel, Untappd, offices de tourisme). Le site propose une visite de la brasserie avec dégustation, le jeudi, sur réservation ; il ne dit pas si l'on peut acheter ou boire sur place (les « boutique » du site renvoient à une boutique en ligne). Aucun horaire d'ouverture publié.",
+  "src": "https://www.bluecoastbrewing.com/pages/contact",
+  "extrait": "Venez découvrir les coulisses du brassage",
+  "beers": [],
+  "choix": "Catégorie 0 : visite + dégustation seulement, vente sur place non établie. Horaires non repris : seule la visite du jeudi (2 heures) est donnée, sans heure. Page Untappd https://untappd.com/BlueCoastBrewing ouverte (micro-brasserie, Nice) mais non mise dans contact : le lien n'est pas lu sur la page source du contact ; bières laissées vides (types non classés). Téléphone du site retenu (seul numéro publié) ; ceux de l'office de tourisme ignorés.",
+  "contact": {
+   "tel": "04 97 07 95 08",
+   "site": "https://www.bluecoastbrewing.com/",
+   "source": "https://www.bluecoastbrewing.com/pages/contact"
+  }
+ },
+ {
+  "cle": "sirene:813988235",
+  "n": "B06",
+  "c": "Antibes",
+  "adresse": "87 chemin de Beauvert",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie existante (site officiel biereb06.fr, fiche de l'office de tourisme d'Antibes Juan-les-Pins, bières artisanales certifiées bio). Le site officiel ne dit ni l'adresse, ni le téléphone, ni les horaires, ni la vente sur place ; il propose des bières pour événements et liste des revendeurs. L'office indique « ouvert tous les jours » en 2026, « horaires non garantis ».",
+  "src": "https://biereb06.fr/",
+  "extrait": "Découvrez nos bières artisanales certifiées bio",
+  "beers": [],
+  "choix": "Catégorie 0 : aucune vente ni dégustation sur place lue sur le site de la brasserie. Adresse reprise de SIRENE et de la fiche de l'office (le site ne la donne pas). Téléphone 07 64 07 21 64 vu seulement chez l'office de tourisme : non repris (précédent S342). Horaires de l'office (« ouvert tous les jours ») non repris : sans heures. Page Untappd non cherchée au-delà des recherches faites : aucune trouvée.",
+  "contact": {
+   "site": "https://biereb06.fr/",
+   "source": "https://biereb06.fr/"
+  }
+ },
+ {
+  "cle": "sirene:812383511",
+  "n": "Brasserie Bleue",
+  "c": "Nice",
+  "adresse": "15 rue Défly, 06000 Nice",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Micro-brasserie et salle de dégustation (tap room) selon l'office de tourisme ; horaires contradictoires entre l'office (mardi au samedi, 14h-21h, et « tous les jours » en 2026) et le site de la brasserie (mercredi au samedi, 16h-22h), donc non repris.",
+  "src": "https://cotedazurfrance.fr/offres/brasserie-bleue-nice-fr-3506423",
+  "extrait": "Dégustez la bière Bleue à la pression sur place et visitez la fabrique à bière !",
+  "beers": [],
+  "choix": "Catégorie 1, confiance moyenne : la dégustation sur place est dite par l'office de tourisme. Horaires écartés : le site (mercredi à samedi, 16 h – 22 h) et l'office (mardi à samedi, 14 h – 21 h) se contredisent. Téléphone lu sur le site de la brasserie. Bières d'Untappd non reprises dans cette lecture.",
+  "contact": {
+   "tel": "04 93 80 17 39",
+   "site": "https://brasseriebleue.com",
+   "untappd": "https://untappd.com/BrasserieBleue",
+   "source": "https://brasseriebleue.com"
+  }
+ },
+ {
+  "cle": "sirene:829344001",
+  "n": "La Brasserie Berroise",
+  "c": "Berre-les-Alpes",
+  "adresse": "46 avenue Paul Granet, 06390 Berre-les-Alpes",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale ouverte au public : son site invite à venir boire une bière et déguster entre amis (Apéro Time le vendredi et le samedi soir). La vente à emporter sur place n'est pas dite. Horaires non repris : le corps de la page et son pied de page se contredisent.",
+  "src": "https://brasserieberroise.com",
+  "extrait": "La Brasserie est ouverte au public !",
+  "beers": [],
+  "choix": "Seul numéro publié par la brasserie, un mobile : retenu (règle du 21/10). Horaires écartés (17 h – 23 h 30 contre 17 h – 23 h, jeudi 22 h contre 21 h). Pas d'Untappd.",
+  "contact": {
+   "tel": "06 25 57 21 09",
+   "site": "https://brasserieberroise.com",
+   "source": "https://brasserieberroise.com"
+  }
+ }
+]

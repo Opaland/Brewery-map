@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:947913356",
+ "ajout": {
+  "fiche": {
+   "n": "Les Dÿades",
+   "c": "Vaison-la-Romaine",
+   "d": "84",
+   "lat": 44.24115,
+   "lon": 5.07802,
+   "km": 161.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale (bières, limonade, vins houblonnés). Visite de la fabrique sur réservation par téléphone, avec dégustation ; pas de consommation sur place établie. Vente sur place indiquée seulement par l'office de tourisme.",
+   "addr": "3 rue Abel André, 84110 Vaison-la-Romaine",
+   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/les-dyades-brasserie-artisanale-lodyssee-des-bulles-vaison-la-romaine-fr-4066915/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 75 98 75 03",
+    "site": "https://lesdyades-vaison.fr",
+    "source": "https://lesdyades-vaison.fr",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/les-dyades-brasserie-artisanale-lodyssee-des-bulles-vaison-la-romaine-fr-4066915/",
+   "https://lesdyades-vaison.fr",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+Abel+Andr%C3%A9%2C+84110+Vaison-la-Romaine&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Existence établie par le site officiel (adresse 3 rue Abel André, boutique en ligne, visites) et la fiche de l'office de tourisme. Catégorie 2 en confiance moyenne : seul l'office parle de vente sur place (« Vente à la propriété », « Boutique »), le site officiel ne le dit pas. Si Cédric veut plus de prudence : cat 0. Téléphone : le seul publié par la brasserie sur son site est un mobile (0675987503, mis au format 06 75 98 75 03). Je le retiens faute d'autre ligne. Horaires non repris : l'office donne un tableau marqué « Horaires non garantis aujourd'hui », et le site n'en donne pas (visites sur réservation, dégustations « en été »). Untappd : aucune page trouvée (2 recherches, rien sur le site)."
+ }
+}

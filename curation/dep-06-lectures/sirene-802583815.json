@@ -1,0 +1,81 @@
+{
+ "candidat": "sirene:802583815",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie l'Azuréenne",
+   "c": "Grasse",
+   "d": "06",
+   "lat": 43.64701,
+   "lon": 6.95339,
+   "km": 284.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale avec boutique et bar ouverts au public ; visites suivies d'une dégustation. Source : fiche d'office de tourisme seule (site officiel illisible), d'où une confiance moyenne.",
+   "addr": "107 avenue Jean Maubert, ZI Sainte-Marguerite, 06130 Grasse",
+   "src": "https://cotedazurfrance.fr/offres/brasserie-lazureenne-grasse-fr-3021414/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://cotedazurfrance.fr/offres/brasserie-lazureenne-grasse-fr-3021414/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:30",
+       "22:00"
+      ]
+     ],
+     "remarque": "Fermé le samedi et le dimanche. Vendredi soir : happy hour.",
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://cotedazurfrance.fr/offres/brasserie-lazureenne-grasse-fr-3021414/",
+   "https://data.geopf.fr/geocodage/search?q=107+avenue+Jean+Maubert%2C+ZI+Sainte-Marguerite%2C+06130+Grasse&limit=5"
+  ],
+  "extrait": "Elle est ouverte au public et dispose d’une boutique avec bar qui en fait un lieu de partage et de convivialité.",
+  "choix": "Site officiel brasserie-lazureenne.com : la page servie est sans rapport avec une brasserie (contenu étranger, domaine apparemment repris), donc écarté et non repris en contact. Téléphone présent sur l'office seulement : non repris (précédent S342). Aucune page Untappd trouvée. Horaires 2026 repris de l'office (fiche datée 2026, non garantis pour le jour même), nature accueil (boutique avec bar)."
+ }
+}

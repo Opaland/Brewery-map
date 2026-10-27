@@ -1,0 +1,75 @@
+{
+ "candidat": "sirene:834534760",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Zoumaï",
+   "c": "Marseille",
+   "d": "13",
+   "lat": 43.28628,
+   "lon": 5.38661,
+   "km": 270.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et brewpub du cours Gouffé ; la page « Où nous trouver » de son site donne l'ouverture du lundi au samedi, de 17 h à minuit.",
+   "addr": "7 cours Gouffé, 13006 Marseille",
+   "src": "https://www.brasseriezoumai.fr/nous-trouver",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriezoumai.fr",
+    "source": "https://www.brasseriezoumai.fr/nous-trouver",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriezoumai.fr/nous-trouver",
+     "lun": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.brasseriezoumai.fr/nous-trouver",
+   "https://data.geopf.fr/geocodage/search?q=7+cours+Gouff%C3%A9%2C+13006+Marseille&limit=5"
+  ],
+  "extrait": "Brasserie artisanale - Brewpub",
+  "choix": "Page d'accueil injoignable depuis le conteneur (429) : lecture sur « Où nous trouver ». Confiance moyenne : la page dit « brewpub », sans détailler la vente. Téléphone non repris : il n'est pas sur cette page. Pas d'Untappd."
+ }
+}

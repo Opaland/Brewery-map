@@ -3,5 +3,22 @@
  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
  "personne:5": "entreprise sans nom ni adresse : rien à chercher",
- "personne:6": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:6": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:919285676": "Brasserie Quatre Dames (Bédoin) : deux recherches, aucune page",
+ "sirene:898674817": "Fat Ass Brewery : seul un homonyme au Texas",
+ "personne:2": "Brasserie des Gueux (Avignon) : un annuaire seul",
+ "sirene:453334948": "Conseil et Développement Comtadin : une société de conseil, pas une brasserie",
+ "sirene:924939853": "La Totoche du Luberon (Cucuron) : une recherche, rien ; quota épuisé : à relancer",
+ "sirene:923410930": "L'Odyssée des Bons Vivants (Pernes) : une recherche, rien ; quota épuisé : à relancer",
+ "sirene:834513327": "Brasserie du Comtat (Malemort) : une recherche, rien ; quota épuisé : à relancer",
+ "sirene:951166255": "Brasserie du Soleil (Puyméras) : trois recherches, aucune page",
+ "sirene:909659427": "Brasserie de Vaucroze (Sorgues) : deux recherches, rien",
+ "sirene:924124621": "Association Houblons & Musiques (Rustrel) : deux recherches, rien",
+ "sirene:838447480": "Brasserie artisanale Ocria : son domaine mène à un site de jeux d'argent, un annuaire seul la dit fermée ; quota épuisé : à relancer",
+ "sirene:809257082": "Agence Moreau SARL (Orange) : non cherchée, quota épuisé : à relancer",
+ "sirene:982068223": "Brasserie Bicheiro (Cavaillon) : une recherche, rien ; quota épuisé : à relancer",
+ "sirene:895230449": "La Brasserie Interdite (Pertuis) : site introuvable, une recherche ; quota épuisé : à relancer",
+ "node/13875880501": "Brasserie Epicentre : même lieu que sirene:918759200, une seule fiche",
+ "way/1275696941": "Bière la Machotte (Sarrians) : une recherche, rien ; quota épuisé : à relancer",
+ "way/996274090": "Brasserie Ameno : même lieu que sirene:890399439, une seule fiche"
 }

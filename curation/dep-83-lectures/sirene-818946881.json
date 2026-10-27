@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:818946881",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale La Blonde et la Brune",
+   "c": "Néoules",
+   "d": "83",
+   "lat": 43.31048,
+   "lon": 6.01395,
+   "km": 281.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Site officiel : bières brassées sur place, dégustées à la pression sur la terrasse de la brasserie, et vendues à emporter en bouteille de 50 cl ou 1 litre. Les horaires du site (tous les jours sauf le lundi, 11h à 23h) sont contredits par la fiche de l'office de tourisme (saison d'avril à octobre) : aucun horaire retenu. Aucune page Untappd trouvée.",
+   "addr": "6 place du Château, 83136 Néoules",
+   "src": "http://lablondelabrune.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 94 72 71 27",
+    "site": "http://lablondelabrune.com/",
+    "source": "http://lablondelabrune.com/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "http://lablondelabrune.com/",
+   "https://data.geopf.fr/geocodage/search?q=6+place+du+Ch%C3%A2teau%2C+83136+N%C3%A9oules&limit=5"
+  ],
+  "extrait": "Elles se dégustent à la pression sur la terrasse de notre brasserie à l'ombre des platanes",
+  "choix": "Deux numéros publiés par la brasserie sur son site (04 94 72 71 27 et 06 87 40 35 01) : je retiens le fixe. Horaires écartés car le site (« Tous les jours sauf le lundi / De 11h à 23h », sans saison) et l'office de tourisme (avril à octobre) ne concordent pas. Le nom de la fiche suit la SIRENE (« Brasserie artisanale La Blonde et la Brune »), le site écrit « la Blonde & la Brune »."
+ }
+}

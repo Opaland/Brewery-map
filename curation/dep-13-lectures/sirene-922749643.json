@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:922749643",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Baroude",
+   "c": "Aix-en-Provence",
+   "d": "13",
+   "lat": 43.53125,
+   "lon": 5.40299,
+   "km": 243.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale d'Aix-en-Provence, qui présente deux gammes (Roquepertuse et Mézingue). Son site dit vendre en boutique en ligne, chez les cavistes et épiceries fines du Pays d'Aix et en fûts pour les restaurants et bars ; il ne mentionne ni vente ni accueil sur place, ni horaires. Un office de tourisme la classe « non ouverte au public ». Ce qu'on peut y faire n'est donc pas établi.",
+   "addr": "770 chemin de la Souque, 13090 Aix-en-Provence",
+   "src": "http://www.brasserielabaroude.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.brasserielabaroude.fr",
+    "untappd": "https://untappd.com/BrasserieLaBaroude",
+    "source": "https://untappd.com/BrasserieLaBaroude",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "http://www.brasserielabaroude.fr",
+   "https://untappd.com/BrasserieLaBaroude",
+   "https://data.geopf.fr/geocodage/search?q=770+chemin+de+la+Souque%2C+13090+Aix-en-Provence&limit=5"
+  ],
+  "extrait": "La Baroude est une brasserie artisanale",
+  "choix": "Catégorie 0 : le site ne dit rien de l'accueil sur place, et un office la dit non ouverte au public. Téléphone publié seulement par un guide : non repris. Site et Untappd lus sur la page Untappd de la brasserie ; bières non reprises dans cette lecture."
+ }
+}

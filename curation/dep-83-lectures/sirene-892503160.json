@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:892503160",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Cig'",
+   "c": "La Seyne-sur-Mer",
+   "d": "83",
+   "lat": 43.09333,
+   "lon": 5.87965,
+   "km": 300.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio. Son site annonce de la vente à emporter du lundi au vendredi de 8h à 14h, une visite guidée sur rendez-vous à partir de 6 personnes et un after work le vendredi jusqu'à 20h. Cet after work n'est pas décrit : on ne sait pas s'il se boit sur place, d'où catégorie 2 et confiance moyenne. L'office de tourisme (provencemed.com) dit que le bar est ouvert d'avril à septembre, ce que le site ne dit pas. Pas de page Untappd trouvée.",
+   "addr": "153 avenue du Luxembourg, 83500 La Seyne-sur-Mer",
+   "src": "https://brasserie-la-cig.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 94 71 13 79",
+    "site": "https://brasserie-la-cig.fr/",
+    "source": "https://brasserie-la-cig.fr/",
+    "verifieLe": "2026-10-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie-la-cig.fr/",
+     "lun": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "mar": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "mer": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "ven": [
+      [
+       "08:00",
+       "14:00"
+      ]
+     ],
+     "verifieLe": "2026-10-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://brasserie-la-cig.fr/",
+   "https://data.geopf.fr/geocodage/search?q=La+Seyne-sur-Mer&type=municipality&limit=5"
+  ],
+  "extrait": "lundi à vendredi de 8h à 14h",
+  "choix": "Site officiel lu sur un résumé (le texte n'a pas pu être recopié en entier ; extrait cité mot pour mot par le résumé, le libellé exact « vente à emporter » qui le précède n'a pas été vérifié sur la page). Téléphone : +33 (0)4 94 71 13 79 retenu, publié sur le site. L'office (provencemed.com) donne un autre numéro (07 87 08 52 63), non retenu car publié seulement par l'office. Horaires de vente repris du site (8h-14h) ; ceux de l'office (8h-15h, saison 2025-2026) diffèrent, non retenus. Adresse identique sur le site et l'office, mais un article de 2024 situe la brasserie à Six-Fours : à surveiller."
+ }
+}

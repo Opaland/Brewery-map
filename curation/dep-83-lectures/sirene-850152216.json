@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:850152216",
+ "ajout": {
+  "fiche": {
+   "n": "La Tuf (Le Tailleur de Bières)",
+   "c": "Cotignac",
+   "d": "83",
+   "lat": 43.52683,
+   "lon": 6.14936,
+   "km": 263.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Bar du site officiel La Tuf, qui sert les bières La TUF et d'autres brasseries artisanales ; le site ne dit pas où la bière est brassée ni si on peut en acheter à emporter. Pause annoncée dès le 11 octobre, reprise au printemps. Aucun horaire d'ouverture publié.",
+   "addr": "1 cours Gambetta, 83570 Cotignac",
+   "src": "https://latufcraftbeer.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 70 71 89 09",
+    "site": "https://latufcraftbeer.com",
+    "source": "https://latufcraftbeer.com",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://latufcraftbeer.com",
+   "https://data.geopf.fr/geocodage/search?q=1+cours+Gambetta%2C+83570+Cotignac&limit=5"
+  ],
+  "extrait": "Aux côtés des bières La TUF, de nouvelles brasseries artisanales font leur entrée",
+  "choix": "Catégorie 0 : le site est celui d'un bar qui sert les bières La TUF, sans dire qu'on y brasse ni qu'on y achète à emporter ; pause annoncée jusqu'au printemps. Seul numéro publié, un mobile (règle du 21/10). Le point OSM « La Tuf – Le Tailleur de Bières » est le même lieu."
+ }
+}

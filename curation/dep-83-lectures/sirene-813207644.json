@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:813207644",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs de l'Estérel",
+   "c": "Saint-Raphaël",
+   "d": "83",
+   "lat": 43.43594,
+   "lon": 6.80721,
+   "km": 297.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie (Riviera Beer) de Saint-Raphaël. Seule source lue : la fiche du comité régional de tourisme, qui indique la vente à la propriété. Les fiches de l'office disent « sur rendez-vous » ou du lundi au vendredi, et l'une la dit fermée le samedi et le dimanche. Pas de site officiel trouvé.",
+   "addr": "170 rue Isaac Newton, Epsilon 1, 83700 Saint-Raphaël",
+   "src": "https://cotedazurfrance.fr/offres/les-brasseurs-de-lesterel-riviera-beer-saint-raphael-fr-2913646/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://cotedazurfrance.fr/offres/les-brasseurs-de-lesterel-riviera-beer-saint-raphael-fr-2913646/",
+   "https://data.geopf.fr/geocodage/search?q=170+rue+Isaac+Newton%2C+Epsilon+1%2C+83700+Saint-Rapha%C3%ABl&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Deux téléphones publiés par la fiche tourisme (04 94 55 48 79 et 07 82 07 48 78) : aucun repris, car publiés seulement par un office. Horaires écartés (« sur rendez-vous » ou lundi-vendredi 9h-16h30, incohérents avec une autre fiche : fermé samedi et dimanche). Atelier de brassage et visites de groupe non retenus pour la catégorie. Aucun Untappd trouvé."
+ }
+}

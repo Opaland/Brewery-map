@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:945284149",
+ "ajout": {
+  "fiche": {
+   "n": "La Camaraderie",
+   "c": "Marseille",
+   "d": "13",
+   "lat": 43.3121,
+   "lon": 5.38479,
+   "km": 267.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Bar associatif de la Belle de Mai dont le site parle de « recettes maison brassées dans la Belle de Mai » et publie les horaires du bar (fermé le lundi). Il ne dit pas en toutes lettres qu'on y boit ou achète la bière brassée.",
+   "addr": "78 rue de la Belle de Mai, 13003 Marseille",
+   "src": "https://www.lacamaraderie.net",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.lacamaraderie.net",
+    "source": "https://www.lacamaraderie.net",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://www.lacamaraderie.net",
+   "https://data.geopf.fr/geocodage/search?q=78+rue+de+la+Belle+de+Mai%2C+13003+Marseille&limit=5"
+  ],
+  "extrait": "Une bière locale et respectueuse du vivant — recettes maison brassées dans la Belle de Mai.",
+  "choix": "Catégorie 0 : rien n'est écrit sur la vente ni la consommation de la bière maison. Aucun téléphone publié. Pas d'Untappd."
+ }
+}

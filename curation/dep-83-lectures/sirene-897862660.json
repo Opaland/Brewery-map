@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:897862660",
+ "ajout": {
+  "fiche": {
+   "n": "Le Brassitorium",
+   "c": "Callian",
+   "d": "83",
+   "lat": 43.61757,
+   "lon": 6.75834,
+   "km": 278.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar à bières brassées sur place (microbrasserie, bar et lieu de rencontre artistique), à Callian et non à Tourrettes ; source : fiche du réseau de tourisme Côte d'Azur France, pas de site officiel ouvert.",
+   "addr": "Chemin Jean-Paul, Centre Agora, 83440 Callian",
+   "src": "https://cotedazurfrance.fr/offres/le-brassitorium-callian-fr-6095019/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://cotedazurfrance.fr/offres/le-brassitorium-callian-fr-6095019/",
+   "https://data.geopf.fr/geocodage/search?q=Callian&type=municipality&limit=5"
+  ],
+  "extrait": "A Callian le Brassitorium, premier et unique Bar à bières artisanales, originales et brassées sur place,",
+  "choix": "Téléphone publié par l'office seulement : non repris. Pas de site joignable, pas d'Untappd. Horaires de la fiche non repris : la page parle d'une réouverture en mai 2025 et les dit non garantis. Commune lue sur la fiche (Callian)."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:821713948",
+ "ajout": {
+  "fiche": {
+   "n": "La Déjantée",
+   "c": "L'Isle-sur-la-Sorgue",
+   "d": "84",
+   "lat": 43.91503,
+   "lon": 5.05868,
+   "km": 197.1,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : le registre SIRENE et la fiche de l'office de tourisme de L'Isle-sur-la-Sorgue la décrivent comme une micro-brasserie artisanale créée en 2016. Pas de site propre trouvé ; ce qu'on peut y faire n'est pas établi : à confirmer.",
+   "addr": "140 avenue Gustave Eiffel, 84800 L'Isle-sur-la-Sorgue",
+   "src": "https://uk.islesurlasorguetourisme.com/brasserie-la-dejantee---en-234414",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://uk.islesurlasorguetourisme.com/brasserie-la-dejantee---en-234414",
+   "https://data.geopf.fr/geocodage/search?q=L%27Isle-sur-la-Sorgue&type=municipality&limit=5"
+  ],
+  "extrait": "Discover the La Déjantée brewery, an artisanal micro-brewery created in 2016",
+  "choix": "Catégorie 0, aucun site officiel trouvé : seulement l'office de tourisme (page anglaise lue par un résumé, pas la version française) et des pages Facebook et Instagram (Facebook illisible sans connexion). Horaires de l'office non repris : ils portent sur la saison 2025 (« Monday to Friday between 9 am and 6 pm ») et la nature (accueil ou vente) n'est pas dite. Téléphone : seul celui de l'office est publié, non repris."
+ }
+}

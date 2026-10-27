@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:828091785",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Ligures",
+   "c": "Peille",
+   "d": "06",
+   "lat": 43.79036,
+   "lon": 7.40129,
+   "km": 296,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Sur rendez-vous : d'après la fiche de l'office de tourisme Côte d'Azur France, visites gratuites sur réservation, dégustation payante et vente de produits sur place. Le site de la brasserie propose de prendre rendez-vous ; aucun horaire d'accueil publié.",
+   "addr": "445 Route des Clues, 06440 Peille",
+   "src": "https://cotedazurfrance.fr/offres/brasserie-des-ligures-peille-fr-4709527",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriedesligures.com/",
+    "source": "https://brasseriedesligures.com/",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://cotedazurfrance.fr/offres/brasserie-des-ligures-peille-fr-4709527",
+   "https://brasseriedesligures.com/",
+   "https://data.geopf.fr/geocodage/search?q=Peille&type=municipality&limit=5"
+  ],
+  "extrait": "Visites gratuites sur réservation, dégustation payante et ventes de produits sur place",
+  "choix": "Catégorie 2, confiance moyenne : la vente sur place est dite par l'office seul, et la dégustation passe par une visite réservée. Aucun téléphone publié par la brasserie. Horaires du site écartés : ils ne disent pas ce qu'ils couvrent. Adresse du registre. Pas d'Untappd."
+ }
+}

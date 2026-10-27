@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:899530265",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs Bran'chais",
+   "c": "Châteauneuf-du-Pape",
+   "d": "84",
+   "lat": 44.05976,
+   "lon": 4.83361,
+   "km": 179.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie donne son adresse et propose des dégustations « directement dans notre brasserie ou chez vous » sur contact par e-mail ; il ne dit rien de la vente sur place ni d'horaires. L'office de tourisme dit que les bières se vendent à Vinadéa et au Magasin Utile de Châteauneuf-du-Pape. Rien n'établit donc encore ce qu'on peut y faire.",
+   "addr": "Lieu-dit Le Grand Pierre, route de Courthézon, 84230 Châteauneuf-du-Pape",
+   "src": "https://lesbrasseursbranchais.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://lesbrasseursbranchais.fr",
+    "source": "https://lesbrasseursbranchais.fr",
+    "verifieLe": "2026-10-27"
+   }
+  },
+  "verifieLe": "2026-10-27",
+  "sources": [
+   "https://lesbrasseursbranchais.fr",
+   "https://data.geopf.fr/geocodage/search?q=Ch%C3%A2teauneuf-du-Pape&type=municipality&limit=5"
+  ],
+  "extrait": "Vous souhaitez déguster ? N'hésitez pas a nous contacter par email",
+  "choix": "Rapprochée de la ligne du registre par l'adresse (lieu-dit Le Grand Pierre, route de Courthézon), identique à celle du site. Aucun téléphone publié, pas d'Untappd."
+ }
+}
