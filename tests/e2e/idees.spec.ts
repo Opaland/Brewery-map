@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { expect, test } from './position'
 import { derniereCopie, ouvrirFiltres, releverCopies, sansTuiles, versLaCarte } from './reseau'
 
@@ -77,9 +78,19 @@ test.describe('partager sans menu de partage : le lien est copié', () => {
 test('un département qui n’a que des fiches OSM, puis OSM décoché : le choix tombe, visiblement (revue S27)', async ({
   page,
 }) => {
+  // Lu dans les données : un département choisi en dur reçoit un jour ses
+  // fiches (02, entré avec S344) et le test ne prouve plus rien.
+  const verifies = new Set(
+    (JSON.parse(readFileSync('data/breweries.json', 'utf8')) as { d: string }[]).map((b) => b.d),
+  )
+  const osm = (
+    JSON.parse(readFileSync('src/donnees-osm/brasseries-osm.json', 'utf8')) as { brasseries: unknown[][] }
+  ).brasseries.map((b) => String(b[3]))
+  const seulementOsm = osm.find((d) => !d.startsWith('97') && !verifies.has(d))
+  expect(seulementOsm).toBeDefined()
   await page.goto('/')
   await ouvrirFiltres(page)
-  await page.getByTestId('departement').selectOption('02')
+  await page.getByTestId('departement').selectOption(seulementOsm!)
   await page.getByTestId('avec-osm').uncheck()
   await expect(page.getByTestId('departement')).toHaveValue('')
   await expect(page.getByTestId('compte')).toContainText('à moins de 30 km')

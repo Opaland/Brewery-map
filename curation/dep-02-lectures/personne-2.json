@@ -1,0 +1,34 @@
+{
+ "candidat": "personne:2",
+ "ajout": {
+  "fiche": {
+   "n": "Bulle's Not Dead (La Germoise)",
+   "c": "Germaine",
+   "d": "02",
+   "lat": 49.81178,
+   "lon": 3.11467,
+   "km": 476.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "D’après l’office de tourisme du Vermandois, on trouve ses bières La Germoise directement chez le producteur ; la brasserie a aussi une boutique en ligne.",
+   "addr": "16 ter Grande rue, 02590 Germaine",
+   "src": "https://ot-vermandois.com/la-germoise",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 09 03 69 01",
+    "site": "https://www.lagermoise.fr/",
+    "source": "https://www.lagermoise.fr/contact/",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://ot-vermandois.com/la-germoise",
+   "https://www.lagermoise.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=Germaine&type=municipality&limit=5"
+  ],
+  "extrait": "vous pouvez retrouver, La Germoise, déclinée en différentes saveurs directement chez ce producteur",
+  "choix": "Pages relues à la main le 28/10. Office de tourisme pour la catégorie, d’où la confiance moyenne. Seul numéro publié par la brasserie (page contact de son site), un mobile : retenu. Adresse : celle de la page contact du site (16 ter Grande rue). Horaires non saisis (sources contradictoires). Entrepreneur individuel : ni nom ni SIREN repris."
+ }
+}

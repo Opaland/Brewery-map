@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:487767816",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Goudale",
+   "c": "Arques",
+   "d": "62",
+   "lat": 50.72892,
+   "lon": 2.33027,
+   "km": 590,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Visite guidée de la brasserie, du lundi au vendredi, qui se termine au bar par une dégustation ; une boutique vend ses bières. Le bar n’a pas d’horaires publiés hors visite. Pas d’accueil le samedi.",
+   "addr": "365 Avenue Isaac Newton, 62510 Arques",
+   "src": "https://brasserie-goudale.com/en/visit-goudale/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 66 10 01 60",
+    "site": "https://brasserie-goudale.com/",
+    "source": "https://brasserie-goudale.com/en/visit-goudale/",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://brasserie-goudale.com/en/visit-goudale/",
+   "https://data.geopf.fr/geocodage/search?q=365+Avenue+Isaac+Newton%2C+62510+Arques&limit=5"
+  ],
+  "extrait": "Your visit will end at the brewery bar with a tasting session.",
+  "choix": "Site relu à la main le 28/10. Confiance moyenne : on boit sur place à la fin d’une visite guidée, pas dans un bar ouvert à heures fixes. Téléphone de la page des visites. Horaires de la boutique non saisis : le site et l’office se contredisent sur le samedi."
+ }
+}

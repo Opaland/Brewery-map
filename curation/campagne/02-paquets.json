@@ -1,0 +1,207 @@
+[
+ [
+  {
+   "cle": "sirene:350492567",
+   "enseigne": "SOC BRAU UND BRUNNEN",
+   "dep": "02",
+   "communes": [
+    "MEZIERES-SUR-OISE"
+   ],
+   "adresses": [
+    "13 RUE DE SAINT HUMBERT 02240 MEZIERES-SUR-OISE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:981422579",
+   "enseigne": "TERRE DE SOUCHE",
+   "dep": "02",
+   "communes": [
+    "LIESSE-NOTRE-DAME"
+   ],
+   "adresses": [
+    "46 RUE DU MARECHAL LECLERC 02350 LIESSE-NOTRE-DAME",
+    "7 PLACE CARNOT 02350 LIESSE-NOTRE-DAME"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:892871997",
+   "enseigne": "BRASSERIE MARL'AISNE",
+   "dep": "02",
+   "communes": [
+    "MARLE"
+   ],
+   "adresses": [
+    "49 FAUBOURG SAINT-MARTIN 02250 MARLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:807644406",
+   "enseigne": "LES 3 LOUPS",
+   "dep": "02",
+   "communes": [
+    "TRELOU-SUR-MARNE"
+   ],
+   "adresses": [
+    "7 RUE MONTAIGNE HAMEAU DE COURCELLES 02850 TRELOU-SUR-MARNE"
+   ],
+   "osm": [
+    "node/4853114407"
+   ],
+   "site": "https://www.brasserie-les3loups.com/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BULLE'S NOT DEAD (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "02",
+   "communes": [
+    "GERMAINE"
+   ],
+   "adresses": [
+    "16 GRANDE RUE 02590 GERMAINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:978082295",
+   "enseigne": "CARDIE",
+   "dep": "02",
+   "communes": [
+    "JOUAIGNES"
+   ],
+   "adresses": [
+    "27 RUE HORLE COQUIN 02220 JOUAIGNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889376307",
+   "enseigne": "LA PINTE FRANCAISE",
+   "dep": "02",
+   "communes": [
+    "LA CHAPELLE SUR CHEZY"
+   ],
+   "adresses": [
+    "LA GRAND FORET LA GRAND FORET 02570 LA CHAPELLE SUR CHEZY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828882431",
+   "enseigne": "LA BRASSERIE DE L'ESCAUT",
+   "dep": "02",
+   "communes": [
+    "VENDHUILE"
+   ],
+   "adresses": [
+    "1 PLACE CHARLES DE GAULLE 02420 VENDHUILE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908056815",
+   "enseigne": "BRASSERIE LES APIDES",
+   "dep": "02",
+   "communes": [
+    "NOGENTEL"
+   ],
+   "adresses": [
+    "12 AVENUE DE CHATEAU-THIERRY 02400 NOGENTEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902405778",
+   "enseigne": "FL BRASSERIE",
+   "dep": "02",
+   "communes": [
+    "VILLENEUVE-SAINT-GERMAIN"
+   ],
+   "adresses": [
+    "574 AVENUE FLANDRES-DUNKERQUE 1940 02200 VILLENEUVE-SAINT-GERMAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:6",
+   "enseigne": "VOAS (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "02",
+   "communes": [
+    "FOLEMBRAY"
+   ],
+   "adresses": [
+    "48 RUE BERNARD LEFEVRE 02670 FOLEMBRAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "PERE MERE MAGOTTE/FERREOL/LES VERGE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "02",
+   "communes": [
+    "ESSOMES-SUR-MARNE"
+   ],
+   "adresses": [
+    "HAMEAU DE CROGIS 22 CHE DE MONTCOURT 02400 ESSOMES-SUR-MARNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:847884822",
+   "enseigne": "BRASSERIE DE LA MONTAGNE COURONNEE",
+   "dep": "02",
+   "communes": [
+    "LAON"
+   ],
+   "adresses": [
+    "1 A RUE GEORGES ERMANT 02000 LAON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:944927334",
+   "enseigne": "BRASSERIE MARAUDE",
+   "dep": "02",
+   "communes": [
+    "LAON"
+   ],
+   "adresses": [
+    "385 RAMPE D'ARDON 02000 LAON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900066069",
+   "enseigne": "BLOOM BRASS",
+   "dep": "02",
+   "communes": [
+    "SAINT-QUENTIN"
+   ],
+   "adresses": [
+    "20 BOULEVARD LEON BLUM 02100 SAINT-QUENTIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ]
+]

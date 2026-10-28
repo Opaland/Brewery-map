@@ -1,0 +1,459 @@
+[
+ {
+  "cle": "sirene:929725406",
+  "nom": "BRASSERIE BBS",
+  "communes": [
+   "WOINCOURT",
+   "FEUQUIERES-EN-VIMEU"
+  ],
+  "departement": "80",
+  "adresses": [
+   "5 RUE KLEBER 80520 WOINCOURT",
+   "9 B PLACE JEAN JAURES 80210 FEUQUIERES-EN-VIMEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929725406",
+  "sirets": [
+   "92972540600011",
+   "92972540600029"
+  ],
+  "osm": [],
+  "lat": 50.068010804,
+  "lon": 1.5396393846,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851072249",
+  "nom": "BEARS' TAVERN",
+  "communes": [
+   "AMIENS"
+  ],
+  "departement": "80",
+  "adresses": [
+   "28 RUE DES BOERS 80080 AMIENS",
+   "QUAI CHARLES TELLIER 80000 AMIENS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "851072249",
+  "sirets": [
+   "85107224900010",
+   "85107224900028"
+  ],
+  "osm": [
+   "node/9952959651"
+  ],
+  "lat": 49.902546207,
+  "lon": 2.2975685175,
+  "site": "https://www.bears-tavern.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:877531376",
+  "nom": "LA BELLEQUESNOISE",
+  "communes": [
+   "BEAUQUESNE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "29 PLACE PUBLIQUE 80600 BEAUQUESNE",
+   "27 CHAUSSEE DE DOULLENS 80600 BEAUQUESNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "877531376",
+  "sirets": [
+   "87753137600011",
+   "87753137600029"
+  ],
+  "osm": [],
+  "lat": 50.083130511392,
+  "lon": 2.39174791439738,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:924123367",
+  "nom": "ASSOCIATION SCREEB",
+  "communes": [
+   "AMIENS"
+  ],
+  "departement": "80",
+  "adresses": [
+   "14 QUAI DE LA SOMME 80000 AMIENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924123367",
+  "sirets": [
+   "92412336700014"
+  ],
+  "osm": [],
+  "lat": 49.8995761339884,
+  "lon": 2.29194298057159,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:913645941",
+  "nom": "BREWZIK",
+  "communes": [
+   "VILLE-SUR-ANCRE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "12 RUE CHARLES DE GAULLE 80300 VILLE-SUR-ANCRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913645941",
+  "sirets": [
+   "91364594100018"
+  ],
+  "osm": [],
+  "lat": 49.9624931544101,
+  "lon": 2.61290955779434,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE DU BOSQUET",
+  "communes": [
+   "BEAUQUESNE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "45 B CHAUSSEE DE DOULLENS 80600 BEAUQUESNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:392724456",
+  "nom": "SEINE PAYSAGE",
+  "communes": [
+   "LAHOUSSOYE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "16 RUE DES HOUX 80800 LAHOUSSOYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "392724456",
+  "sirets": [
+   "39272445600034"
+  ],
+  "osm": [],
+  "lat": 49.95156288,
+  "lon": 2.4785596026,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LE CROTOY"
+  ],
+  "departement": "80",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:831162052",
+  "nom": "BRASSERIE DE CLERCK",
+  "communes": [
+   "PERONNE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "PERONNE 42 RUE GEORGES CLEMENCEAU 80200 PERONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831162052",
+  "sirets": [
+   "83116205200011"
+  ],
+  "osm": [],
+  "lat": 49.931479776,
+  "lon": 2.9368206707,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890473630",
+  "nom": "BRASSERIE DE LA SOMME",
+  "communes": [
+   "DOMART-EN-PONTHIEU"
+  ],
+  "departement": "80",
+  "adresses": [
+   "7 ROUTE DE BERNEUIL 80620 DOMART-EN-PONTHIEU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "890473630",
+  "sirets": [
+   "89047363000014"
+  ],
+  "osm": [
+   "node/6332099593"
+  ],
+  "lat": 50.076676673,
+  "lon": 2.1354007695,
+  "site": "https://www.brasseriedelasomme.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "FESCAMPS"
+  ],
+  "departement": "80",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:941798118",
+  "nom": "GB BRASSERIE",
+  "communes": [
+   "LE CROTOY"
+  ],
+  "departement": "80",
+  "adresses": [
+   "3 ROUTE DEPARTEMENTALE 940 80550 LE CROTOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941798118",
+  "sirets": [
+   "94179811800019"
+  ],
+  "osm": [],
+  "lat": 50.2250415536561,
+  "lon": 1.63652050661812,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832334924",
+  "nom": "BRASSERIE AMBIANI",
+  "communes": [
+   "AMIENS"
+  ],
+  "departement": "80",
+  "adresses": [
+   "14 RUE COLBERT 80000 AMIENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832334924",
+  "sirets": [
+   "83233492400020"
+  ],
+  "osm": [],
+  "lat": 49.89244033,
+  "lon": 2.2734298756,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842097032",
+  "nom": "BRASSERIE A LA NOYE",
+  "communes": [
+   "QUIRY-LE-SEC"
+  ],
+  "departement": "80",
+  "adresses": [
+   "2 RUE DE FOLLEVILLE 80250 QUIRY-LE-SEC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842097032",
+  "sirets": [
+   "84209703200010"
+  ],
+  "osm": [
+   "way/319564583"
+  ],
+  "lat": 49.675177255,
+  "lon": 2.3805801052,
+  "site": "http://www.brasseriealanoye.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910341130",
+  "nom": "NYSOS",
+  "communes": [
+   "ETINEHEM-MERICOURT"
+  ],
+  "departement": "80",
+  "adresses": [
+   "1 RUE DU MOULIN 80340 ETINEHEM-MERICOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910341130",
+  "sirets": [
+   "91034113000011"
+  ],
+  "osm": [],
+  "lat": 49.929518657,
+  "lon": 2.6889208901,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:529266819",
+  "nom": "LA MASCOTTE",
+  "communes": [
+   "CORBIE"
+  ],
+  "departement": "80",
+  "adresses": [
+   "29 RUE JULES LARDIERE 80800 CORBIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "529266819",
+  "sirets": [
+   "52926681900018"
+  ],
+  "osm": [],
+  "lat": 49.903945465,
+  "lon": 2.50956475,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7537075099",
+  "nom": "Belle Van Belle",
+  "communes": [
+   "Villers-Tournelle"
+  ],
+  "departement": "80",
+  "adresses": [
+   "2bis Rue du Bois, 80500 Villers-Tournelle"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7537075099"
+  ],
+  "lat": 49.65394,
+  "lon": 2.46242,
+  "site": "https://www.benoitvanbelle.fr/fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8516195851",
+  "nom": "La Brasserie du Bosquet",
+  "communes": [
+   "Raincheval"
+  ],
+  "departement": "80",
+  "adresses": [
+   "2 Rue de l'Église, 80600 Raincheval"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8516195851"
+  ],
+  "lat": 50.07562,
+  "lon": 2.43858,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9911253470",
+  "nom": "Brasserie de la Gare",
+  "communes": [
+   "Ailly-sur-Somme"
+  ],
+  "departement": "80",
+  "adresses": [
+   "Place André Dupuis"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9911253470"
+  ],
+  "lat": 49.92798,
+  "lon": 2.20074,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9922848827",
+  "nom": "Le Miroir de Porto",
+  "communes": [
+   "Camon"
+  ],
+  "departement": "80",
+  "adresses": [
+   "121 Rue Henri Barbusse"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9922848827"
+  ],
+  "lat": 49.88871,
+  "lon": 2.36375,
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,74 @@
+{
+ "candidat": "sirene:803074384",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Quentovic",
+   "c": "Beaurainville",
+   "d": "62",
+   "lat": 50.4226,
+   "lon": 1.89932,
+   "km": 568.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Boutique et bar à la brasserie : on boit ses bières à côté des cuves et on les achète à emporter, d’après son site.",
+   "addr": "Beaurainville",
+   "src": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 67 48 49",
+    "site": "https://quentovic.com/",
+    "source": "https://quentovic.com/contact/",
+    "verifieLe": "2026-10-28"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/",
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "periode": {
+      "du": "05-01",
+      "au": "09-30"
+     },
+     "remarque": "Aussi le jeudi de 15h à 19h en juillet et août. Fermée les jours fériés et pendant les fêtes de fin d’année.",
+     "verifieLe": "2026-10-28"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/",
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "periode": {
+      "du": "10-01",
+      "au": "04-30"
+     },
+     "remarque": "Fermée les jours fériés et pendant les fêtes de fin d’année.",
+     "verifieLe": "2026-10-28"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/",
+   "https://quentovic.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=Beaurainville&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustez nos bières à côté des cuves. D’autres boissons sont disponibles.",
+  "choix": "Site relu à la main le 28/10. Horaires par saison, tels que le site les écrit (« Mai à Septembre : Vendredi de 15h à 19h, Samedi de 10h à 18h » ; « Octobre à Avril : Vendredi de 15h à 19h ») ; le jeudi de juillet et d’août et la fermeture des jours fériés restent en remarque. Seul téléphone publié, page contact. Adresse non saisie : le site n’en publie pas."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:802632109",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Funquet",
+   "c": "Escœuilles",
+   "d": "62",
+   "lat": 50.7274,
+   "lon": 1.92314,
+   "km": 599.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie installée en 2014, d’après l’office de tourisme de Saint-Omer. Ce qu’on peut y faire n’est pas écrit en toutes lettres : à confirmer.",
+   "addr": "19 rue de la Tirée, 62850 Escœuilles",
+   "src": "https://en.tourisme-saintomer.com/offres/brasserie-du-funquet-escoeuilles-en-3606376/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://en.tourisme-saintomer.com/offres/brasserie-du-funquet-escoeuilles-en-3606376/",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+de+la+Tir%C3%A9e%2C+62850+Esc%C5%93uilles&limit=5"
+  ],
+  "extrait": "The Funquet brewery is a traditional microbrewery, set up in 2014 in the heart of the village of Escœuilles",
+  "choix": "Site relu à la main le 28/10. Office de tourisme seul ; son mobile n’est pas repris, ses horaires sont marqués non garantis. Le site de la brasserie refuse la lecture (403)."
+ }
+}

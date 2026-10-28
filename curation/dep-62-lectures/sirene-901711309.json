@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:901711309",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Delbeke",
+   "c": "Lorgies",
+   "d": "62",
+   "lat": 50.56481,
+   "lon": 2.78332,
+   "km": 563.1,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Visites et retrait de commande en semaine, sur rendez-vous, d’après son site ; la vente à la brasserie n’y est dite qu’ainsi.",
+   "addr": "141 route d'Estaires, 62840 Lorgies",
+   "src": "https://www.brasseriedelbeke.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 27 61 37 27",
+    "site": "https://www.brasseriedelbeke.fr",
+    "source": "https://www.brasseriedelbeke.fr",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.brasseriedelbeke.fr",
+   "https://data.geopf.fr/geocodage/search?q=141+route+d%27Estaires%2C+62840+Lorgies&limit=5"
+  ],
+  "extrait": "N'hésitez pas à nous contacter pour toute visite ou retrait de commande",
+  "choix": "Site relu à la main le 28/10. Catégorie 2 en confiance faible : on retire une commande, sur rendez-vous. Seul numéro publié, un mobile : retenu. Pas d’horaires (« sur rendez-vous »)."
+ }
+}

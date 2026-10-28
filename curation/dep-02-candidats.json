@@ -1,0 +1,436 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "NEUFCHATEL-SUR-AISNE"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:350492567",
+  "nom": "SOC BRAU UND BRUNNEN",
+  "communes": [
+   "MEZIERES-SUR-OISE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "13 RUE DE SAINT HUMBERT 02240 MEZIERES-SUR-OISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "350492567",
+  "sirets": [
+   "35049256700028"
+  ],
+  "osm": [],
+  "lat": 49.784487404,
+  "lon": 3.4042694375,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981422579",
+  "nom": "TERRE DE SOUCHE",
+  "communes": [
+   "LIESSE-NOTRE-DAME"
+  ],
+  "departement": "02",
+  "adresses": [
+   "46 RUE DU MARECHAL LECLERC 02350 LIESSE-NOTRE-DAME",
+   "7 PLACE CARNOT 02350 LIESSE-NOTRE-DAME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981422579",
+  "sirets": [
+   "98142257900012",
+   "98142257900020"
+  ],
+  "osm": [],
+  "lat": 49.607689408,
+  "lon": 3.8045542278,
+  "statut": "ambigu",
+  "fiche": "Terre de Bières"
+ },
+ {
+  "cle": "sirene:892871997",
+  "nom": "BRASSERIE MARL'AISNE",
+  "communes": [
+   "MARLE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "49 FAUBOURG SAINT-MARTIN 02250 MARLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892871997",
+  "sirets": [
+   "89287199700011"
+  ],
+  "osm": [],
+  "lat": 49.737531952,
+  "lon": 3.7655990719,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:807644406",
+  "nom": "LES 3 LOUPS",
+  "communes": [
+   "TRELOU-SUR-MARNE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "7 RUE MONTAIGNE HAMEAU DE COURCELLES 02850 TRELOU-SUR-MARNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "807644406",
+  "sirets": [
+   "80764440600025"
+  ],
+  "osm": [
+   "node/4853114407"
+  ],
+  "lat": 49.067009246,
+  "lon": 3.5915241267,
+  "site": "https://www.brasserie-les3loups.com/",
+  "statut": "ambigu",
+  "fiche": "La Bière des Loups"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BULLE'S NOT DEAD",
+  "communes": [
+   "GERMAINE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "16 GRANDE RUE 02590 GERMAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978082295",
+  "nom": "CARDIE",
+  "communes": [
+   "JOUAIGNES"
+  ],
+  "departement": "02",
+  "adresses": [
+   "27 RUE HORLE COQUIN 02220 JOUAIGNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978082295",
+  "sirets": [
+   "97808229500012"
+  ],
+  "osm": [],
+  "lat": 49.2976844824809,
+  "lon": 3.53542659253763,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "LESCHELLE"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:889376307",
+  "nom": "LA PINTE FRANCAISE",
+  "communes": [
+   "LA CHAPELLE SUR CHEZY"
+  ],
+  "departement": "02",
+  "adresses": [
+   "LA GRAND FORET LA GRAND FORET 02570 LA CHAPELLE SUR CHEZY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889376307",
+  "sirets": [
+   "88937630700019"
+  ],
+  "osm": [],
+  "lat": 48.958158897,
+  "lon": 3.3846723228,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "FERE-EN-TARDENOIS"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:828882431",
+  "nom": "LA BRASSERIE DE L'ESCAUT",
+  "communes": [
+   "VENDHUILE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "1 PLACE CHARLES DE GAULLE 02420 VENDHUILE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828882431",
+  "sirets": [
+   "82888243100012"
+  ],
+  "osm": [],
+  "lat": 50.012502409,
+  "lon": 3.2119194443,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "BELLEU"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:908056815",
+  "nom": "BRASSERIE LES APIDES",
+  "communes": [
+   "NOGENTEL"
+  ],
+  "departement": "02",
+  "adresses": [
+   "12 AVENUE DE CHATEAU-THIERRY 02400 NOGENTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908056815",
+  "sirets": [
+   "90805681500016"
+  ],
+  "osm": [],
+  "lat": 49.020242163,
+  "lon": 3.4037015692,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902405778",
+  "nom": "FL BRASSERIE",
+  "communes": [
+   "VILLENEUVE-SAINT-GERMAIN"
+  ],
+  "departement": "02",
+  "adresses": [
+   "574 AVENUE FLANDRES-DUNKERQUE 1940 02200 VILLENEUVE-SAINT-GERMAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902405778",
+  "sirets": [
+   "90240577800017"
+  ],
+  "osm": [],
+  "lat": 49.373197663,
+  "lon": 3.3678329655,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "VOAS",
+  "communes": [
+   "FOLEMBRAY"
+  ],
+  "departement": "02",
+  "adresses": [
+   "48 RUE BERNARD LEFEVRE 02670 FOLEMBRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "PERE MERE MAGOTTE/FERREOL/LES VERGE",
+  "communes": [
+   "ESSOMES-SUR-MARNE"
+  ],
+  "departement": "02",
+  "adresses": [
+   "HAMEAU DE CROGIS 22 CHE DE MONTCOURT 02400 ESSOMES-SUR-MARNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847884822",
+  "nom": "BRASSERIE DE LA MONTAGNE COURONNEE",
+  "communes": [
+   "LAON"
+  ],
+  "departement": "02",
+  "adresses": [
+   "1 A RUE GEORGES ERMANT 02000 LAON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847884822",
+  "sirets": [
+   "84788482200010"
+  ],
+  "osm": [],
+  "lat": 49.563491192,
+  "lon": 3.6243333506,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "VORGES"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:944927334",
+  "nom": "BRASSERIE MARAUDE",
+  "communes": [
+   "LAON"
+  ],
+  "departement": "02",
+  "adresses": [
+   "385 RAMPE D'ARDON 02000 LAON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "944927334",
+  "sirets": [
+   "94492733400010"
+  ],
+  "osm": [],
+  "lat": 49.5608150011487,
+  "lon": 3.62757937504277,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900066069",
+  "nom": "BLOOM BRASS",
+  "communes": [
+   "SAINT-QUENTIN"
+  ],
+  "departement": "02",
+  "adresses": [
+   "20 BOULEVARD LEON BLUM 02100 SAINT-QUENTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900066069",
+  "sirets": [
+   "90006606900015"
+  ],
+  "osm": [],
+  "lat": 49.8410879078921,
+  "lon": 3.29059808734208,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "BEAUREVOIR"
+  ],
+  "departement": "02",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ }
+]

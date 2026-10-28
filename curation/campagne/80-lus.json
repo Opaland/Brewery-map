@@ -1,0 +1,96 @@
+[
+ {
+  "cle": "sirene:851072249",
+  "n": "Bears' Tavern",
+  "c": "Amiens",
+  "adresse": "Quai Charles Tellier, 80000 Amiens",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Microbrasserie sur une péniche : bar où l’on boit ses bières et boutique de vente à emporter, d’après son site.",
+  "src": "https://www.bears-tavern.com/",
+  "extrait": "La microbrasserie est ouverte en bar (consommation sur place des bières brassées, de jus de fruits locaux,...) et boutique (vente à emporter) à bord de la péniche quai Charles Tellier à Amiens",
+  "beers": [],
+  "choix": "Site relu à la main le 28/10. Pas de téléphone publié. Horaires du site, qui précise qu’ils peuvent varier selon la saison.",
+  "contact": {
+   "site": "https://www.bears-tavern.com/",
+   "source": "https://www.bears-tavern.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "remarque": "Les horaires peuvent varier suivant la saison ou les évènements.",
+    "source": "https://www.bears-tavern.com/"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:890473630",
+  "n": "Brasserie de la Somme",
+  "c": "Domart-en-Ponthieu",
+  "adresse": "7 route de Berneuil, 80620 Domart-en-Ponthieu",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Son site annonce une boutique et un bar de dégustation, ouverts le vendredi et le samedi.",
+  "src": "https://www.brasseriedelasomme.fr/boutique/",
+  "extrait": "Dégustez toutes les bières de la gamme au bar/dégustation de la Brasserie de la Somme",
+  "beers": [],
+  "choix": "Site relu à la main le 28/10. Seul numéro publié par la brasserie, un mobile : retenu. Horaires : boutique 10h-20h et bar 16h-20h, vendredi et samedi, sur la même page. Les bières lues sur le site ne sont pas reprises : Untappd seul vaut pour les bières, et aucune page de brasserie n’y a été trouvée.",
+  "contact": {
+   "tel": "06 73 67 00 89",
+   "site": "https://www.brasseriedelasomme.fr/",
+   "source": "https://www.brasseriedelasomme.fr/boutique/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://www.brasseriedelasomme.fr/boutique/"
+   },
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://www.brasseriedelasomme.fr/boutique/"
+   }
+  ]
+ }
+]

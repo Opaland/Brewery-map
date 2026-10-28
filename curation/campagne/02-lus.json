@@ -1,0 +1,113 @@
+[
+  {
+    "cle": "sirene:807644406",
+    "n": "Brasserie Les 3 Loups",
+    "c": "Trélou-sur-Marne",
+    "adresse": "7 rue Montaigne, Hameau de Courcelles, 02850 Trélou-sur-Marne",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Son site annonce un magasin ouvert du lundi au samedi et un caveau-bar le vendredi soir.",
+    "src": "https://www.brasserieles3loups.fr/contact/",
+    "extrait": "vendredi 7h30–15h30 et caveau-bar 18h–23h30",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Le fixe de la brasserie est retenu ; le mobile, publié à côté, ne l’est pas. Horaires de la page contact : magasin du lundi au samedi, caveau-bar le vendredi soir. Untappd non lié depuis le site : non repris.",
+    "contact": {
+      "tel": "03 23 82 72 23",
+      "site": "https://www.brasserieles3loups.fr/",
+      "source": "https://www.brasserieles3loups.fr/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.brasserieles3loups.fr/contact/",
+        "lun": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "mar": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "mer": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "ven": [
+          [
+            "07:30",
+            "15:30"
+          ]
+        ],
+        "sam": [
+          [
+            "11:00",
+            "13:00"
+          ],
+          [
+            "15:00",
+            "18:45"
+          ]
+        ]
+      },
+      {
+        "nature": "accueil",
+        "source": "https://www.brasserieles3loups.fr/contact/",
+        "ven": [
+          [
+            "18:00",
+            "23:30"
+          ]
+        ],
+        "remarque": "Caveau-bar."
+      }
+    ]
+  },
+  {
+    "cle": "personne:2",
+    "n": "Bulle's Not Dead (La Germoise)",
+    "c": "Germaine",
+    "adresse": "16 ter Grande rue, 02590 Germaine",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "D’après l’office de tourisme du Vermandois, on trouve ses bières La Germoise directement chez le producteur ; la brasserie a aussi une boutique en ligne.",
+    "src": "https://ot-vermandois.com/la-germoise",
+    "extrait": "vous pouvez retrouver, La Germoise, déclinée en différentes saveurs directement chez ce producteur",
+    "beers": [],
+    "choix": "Pages relues à la main le 28/10. Office de tourisme pour la catégorie, d’où la confiance moyenne. Seul numéro publié par la brasserie (page contact de son site), un mobile : retenu. Adresse : celle de la page contact du site (16 ter Grande rue). Horaires non saisis (sources contradictoires). Entrepreneur individuel : ni nom ni SIREN repris.",
+    "contact": {
+      "tel": "06 09 03 69 01",
+      "site": "https://www.lagermoise.fr/",
+      "source": "https://www.lagermoise.fr/contact/"
+    }
+  },
+  {
+    "cle": "sirene:847884822",
+    "n": "Brasserie de la Montagne Couronnée",
+    "c": "Laon",
+    "adresse": "1 A rue Georges Ermant, 02000 Laon",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "D’après l’office de tourisme du Pays de Laon : vente à emporter, et un bar-café où l’on boit ses bières à la pression.",
+    "src": "https://www.tourisme-paysdelaon.com/fiche-tourisme/brasserie-de-la-montagne-couronnee/",
+    "extrait": "En plus de la vente à emporter, la BMC c’est également un bar/café où vous retrouverez les bières à la pression",
+    "beers": [],
+    "choix": "Pages relues à la main le 28/10. Office de tourisme pour la catégorie, d’où la confiance moyenne. Seul numéro publié par la brasserie sur son site, un mobile : retenu ; celui de l’office écarté. Horaires non saisis : les annuaires se contredisent et le site n’en donne pas.",
+    "contact": {
+      "tel": "07 68 68 85 44",
+      "site": "https://brasserie-bmc.fr/",
+      "source": "https://brasserie-bmc.fr/"
+    }
+  }
+]

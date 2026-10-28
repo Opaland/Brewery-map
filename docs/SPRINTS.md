@@ -3023,3 +3023,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S367 — Le premier écran avant 600 fiches, mesuré *(27/10, epic E36)*
 
 `docs/stories/S367.md`. La règle de `docs/PREMIER-ECRAN.md` demandait une mesure avant de passer 600 fiches. 557 fiches réelles et 1 000 synthétiques (ajoutées hors Auvergne-Rhône-Alpes, dans une copie jetable) : mêmes médianes (LCP 1 996 ms, première ligne 2 096 ms) et même premier écran (290 391 contre 290 394 octets). Depuis S294, les autres régions ne ralentissent pas la première ligne : E36 peut continuer.
+
+## S344 — Hauts-de-France, première partie *(28/10, epic E36)*
+
+`docs/stories/S344.md`, issue #185. Les cinq départements préparés ; quatre lus (Aisne, Oise, Pas-de-Calais, Somme) : 17 fiches par la règle de Cédric du 21/10 (02 : 3, 60 : 2, 62 : 10, 80 : 2), sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée avant d'appliquer (quatre notes corrigées). 574 fiches dans 51 départements, OSM à 770. Le Nord (59) attend un quota de recherches neuf ; douze candidats « à relancer » (BACKLOG).

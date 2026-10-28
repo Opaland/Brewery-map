@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:315255752",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Castelain",
+   "c": "Bénifontaine",
+   "d": "62",
+   "lat": 50.4858,
+   "lon": 2.83154,
+   "km": 553.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le Spot, musée de la brasserie, avec un espace de dégustation et une boutique, d’après un portail de tourisme.",
+   "addr": "13 rue Pasteur, 62410 Bénifontaine",
+   "src": "https://www.francevelotourisme.com/loisirs/musees-et-sites-touristiques/le-spot-musee-de-la-brasserie-castelain",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 21 08 68 68",
+    "site": "http://brasseriecastelain.com/",
+    "source": "http://brasseriecastelain.com/",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.francevelotourisme.com/loisirs/musees-et-sites-touristiques/le-spot-musee-de-la-brasserie-castelain",
+   "http://brasseriecastelain.com/",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+Pasteur%2C+62410+B%C3%A9nifontaine&limit=5"
+  ],
+  "extrait": "L’espace muséal, l’espace dégustation, l’espace extérieur et la boutique vous feront vivre une expérience 360°",
+  "choix": "Site relu à la main le 28/10. Source de la catégorie : un portail de tourisme, d’où la confiance moyenne. Téléphone du site de la brasserie ; celui du portail écarté. Horaires d’annuaire non repris."
+ }
+}

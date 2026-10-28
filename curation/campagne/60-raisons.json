@@ -1,0 +1,21 @@
+{
+ "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+ "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+ "personne:1": "lu le 28/10 : le registre seul",
+ "sirene:414798934": "lu le 28/10 : site en erreur 503 ; à relancer quand le site répond",
+ "sirene:935141796": "lu le 28/10 : un article de presse seul",
+ "sirene:818098543": "lu le 28/10 : le site ne dit pas qu’on achète sur place (boutique en ligne seule)",
+ "sirene:824879324": "lu le 28/10 : le registre seul",
+ "sirene:533177150": "lu le 28/10 : son site dit que le brasseur a arrêté et que la brasserie fermera à l’épuisement du stock",
+ "sirene:904655578": "lu le 28/10 : aucune source",
+ "sirene:902938976": "lu le 28/10 : un annuaire seul ; site introuvable depuis la session",
+ "sirene:827534231": "lu le 28/10 : site lu seulement en résumé, sans passage qui dise ce qu’on y achète ; à relancer",
+ "sirene:523093888": "lu le 28/10 : son site ne dit rien de la vente ni de la dégustation sur place",
+ "sirene:822788501": "lu le 28/10 : un annuaire seul",
+ "personne:4": "lu le 28/10 : presse et office seuls, sans adresse ni horaires",
+ "sirene:978336592": "lu le 28/10 : aucune source",
+ "node/2328758020": "lu le 28/10 : un café, il ne brasse pas",
+ "node/9439715435": "lu le 28/10 : un bar-brasserie, il ne brasse pas",
+ "way/323637735": "lu le 28/10 : introuvable ; rien ne dit qu’il brasse",
+ "way/963450970": "lu le 28/10 : même lieu que « Écol’ aux Mousses » (sirene:827534231), dont le site est le même ; voir sa raison"
+}

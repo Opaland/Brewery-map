@@ -45,6 +45,11 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Restes de S344, première partie (28/10, issue #185)
+
+- Le Nord (59, 27 paquets) n'est pas lu : quota de recherches épuisé. Seconde partie de S344, avec un quota neuf.
+- Douze candidats « à relancer » (`campagne.ts relancer 60-r2`, `62-r2`, `80-r2`) : sites en 503 ou en maintenance, 2 Caps (403) et un autre site (406) qui refusent la lecture automatique, Goulot (404 à l'outil seul), deux candidats OSM sans recherche faute de quota, L'Intemporelle (office seul, à mettre au même régime que Funquet et Clairmarais, catégorie 0 sur office, relevé par la persona Cédric).
+
 ## Restes de S365-S366 (27/10, issues #224 et #231)
 
 - `controler` ne sait pas lire un site derrière une page de vérification de l'âge (la Brasserie artisanale du Léman, biere-leman.com : la page renvoyée sans navigateur s'appelle « Vérification de l’âge »). Passer la page sans tricher sur l'âge demanderait un choix de Cédric ; en attendant, ces brasseries restent « à relancer ».

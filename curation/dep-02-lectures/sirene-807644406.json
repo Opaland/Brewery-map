@@ -1,0 +1,92 @@
+{
+ "candidat": "sirene:807644406",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les 3 Loups",
+   "c": "Trélou-sur-Marne",
+   "d": "02",
+   "lat": 49.06733,
+   "lon": 3.59165,
+   "km": 387.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Son site annonce un magasin ouvert du lundi au samedi et un caveau-bar le vendredi soir.",
+   "addr": "7 rue Montaigne, Hameau de Courcelles, 02850 Trélou-sur-Marne",
+   "src": "https://www.brasserieles3loups.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 23 82 72 23",
+    "site": "https://www.brasserieles3loups.fr/",
+    "source": "https://www.brasserieles3loups.fr/contact/",
+    "verifieLe": "2026-10-28"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserieles3loups.fr/contact/",
+     "lun": [
+      [
+       "07:30",
+       "16:30"
+      ]
+     ],
+     "mar": [
+      [
+       "07:30",
+       "16:30"
+      ]
+     ],
+     "mer": [
+      [
+       "07:30",
+       "16:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "07:30",
+       "16:30"
+      ]
+     ],
+     "ven": [
+      [
+       "07:30",
+       "15:30"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "18:45"
+      ]
+     ],
+     "verifieLe": "2026-10-28"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserieles3loups.fr/contact/",
+     "ven": [
+      [
+       "18:00",
+       "23:30"
+      ]
+     ],
+     "remarque": "Caveau-bar.",
+     "verifieLe": "2026-10-28"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.brasserieles3loups.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+Montaigne%2C+Hameau+de+Courcelles%2C+02850+Tr%C3%A9lou-sur-Marne&limit=5"
+  ],
+  "extrait": "vendredi 7h30–15h30 et caveau-bar 18h–23h30",
+  "choix": "Site relu à la main le 28/10. Le fixe de la brasserie est retenu ; le mobile, publié à côté, ne l’est pas. Horaires de la page contact : magasin du lundi au samedi, caveau-bar le vendredi soir. Untappd non lié depuis le site : non repris."
+ }
+}
