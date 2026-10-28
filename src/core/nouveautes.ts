@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'e6880d82403d0533',
+  empreinte: '68904e6b60f494c0',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 259 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 401 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur et en Corse.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 263 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 418 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse et dans les Hauts-de-France.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-28', texte: '17 brasseries ajoutées dans l’Aisne, l’Oise, le Pas-de-Calais et la Somme, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-27', texte: '8 brasseries de plus dans les Hautes-Alpes, les Alpes-Maritimes, les Bouches-du-Rhône, le Var et le Vaucluse, relues avec de nouvelles recherches, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-27', texte: '59 brasseries ajoutées dans les Alpes-Maritimes, les Bouches-du-Rhône, le Var et le Vaucluse, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-27', texte: '22 brasseries ajoutées dans les Alpes-de-Haute-Provence, les Hautes-Alpes et en Corse, d’après leur site ou un office de tourisme.' },

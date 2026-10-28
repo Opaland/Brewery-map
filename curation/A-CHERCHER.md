@@ -14,8 +14,9 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 557 | 19 (3 %) | 42 | 229 | 209 | 270 | 358 | 389 | 396 |
+| **Total** | 574 | 19 (3 %) | 42 | 232 | 211 | 274 | 363 | 399 | 413 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
+| 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
 | 05 · Hautes-Alpes | 12 | 0 (0 %) | 0 | 3 | 7 | 3 | 8 | 10 | 12 |
@@ -49,7 +50,9 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
 | 56 · Morbihan | 25 | 1 (4 %) | 0 | 13 | 9 | 11 | 22 | 18 | 14 |
 | 58 · Nièvre | 1 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 0 |
+| 60 · Oise | 2 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 1 | 2 |
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
+| 62 · Pas-de-Calais | 10 | 0 (0 %) | 0 | 3 | 2 | 2 | 4 | 7 | 10 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
 | 70 · Haute-Saône | 4 | 0 (0 %) | 0 | 3 | 2 | 1 | 2 | 2 | 4 |
@@ -58,6 +61,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
+| 80 · Somme | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 14 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
@@ -65,7 +69,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-229 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+232 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -322,6 +326,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Château de la Bière (Lonlay-l'Abbaye) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie du Perche (L'Home-Chamondot) : sans adresse vérifiée, sans horaires, sans bières
+
+### 62 · Pas-de-Calais
+
+- Brasserie de l'Abbaye de Clairmarais (Clairmarais) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie du Funquet (Escœuilles) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Chromatique (Outreau) : sans téléphone, sans horaires, sans bières
 
 ### 63 · Puy-de-Dôme
 

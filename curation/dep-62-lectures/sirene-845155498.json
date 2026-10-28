@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:845155498",
+ "ajout": {
+  "fiche": {
+   "n": "Wattbeer (La Drache)",
+   "c": "Carvin",
+   "d": "62",
+   "lat": 50.49544,
+   "lon": 2.95354,
+   "km": 552.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "La brasserie ouvre au public un samedi par mois seulement, le premier, de 10h à 19h : visite, dégustation d’une bière et vente directe, d’après son site. Fermée au public les autres jours.",
+   "addr": "67 rue Victor Hugo, 62220 Carvin",
+   "src": "https://www.ladrache.fr/visites-ouvertures/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.ladrache.fr/",
+    "source": "https://www.ladrache.fr/",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.ladrache.fr/visites-ouvertures/",
+   "https://www.ladrache.fr/",
+   "https://data.geopf.fr/geocodage/search?q=67+rue+Victor+Hugo%2C+62220+Carvin&limit=5"
+  ],
+  "extrait": "vous pourrez déguster l’une de nos bières fraîchement brassée",
+  "choix": "Site relu à la main le 28/10. Confiance moyenne : une ouverture par mois. Horaires non saisis : « le premier samedi du mois » ne s’écrit pas en semaine type. Pas de téléphone publié."
+ }
+}

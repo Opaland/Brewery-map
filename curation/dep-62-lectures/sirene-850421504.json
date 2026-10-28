@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:850421504",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Abbaye de Clairmarais",
+   "c": "Clairmarais",
+   "d": "62",
+   "lat": 50.77724,
+   "lon": 2.34147,
+   "km": 594.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de bières d’abbaye à la ferme de l’abbaye, d’après l’office de tourisme de Saint-Omer. Ce qu’on peut y acheter ou y boire n’est pas écrit : à confirmer.",
+   "addr": "1 voie communale des murs, Ferme de l'Abbaye, 62500 Clairmarais",
+   "src": "https://en.tourisme-saintomer.com/offres/brasserie-de-labbaye-de-clairmarais-clairmarais-en-3606411/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://en.tourisme-saintomer.com/offres/brasserie-de-labbaye-de-clairmarais-clairmarais-en-3606411/",
+   "https://data.geopf.fr/geocodage/search?q=Clairmarais&type=municipality&limit=5"
+  ],
+  "extrait": "to brew abbey-style beers, as Clairmarais Abbey once housed a brewery",
+  "choix": "Site relu à la main le 28/10. Office de tourisme seul ; son mobile n’est pas repris, ses horaires sont marqués non garantis."
+ }
+}

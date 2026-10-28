@@ -1,0 +1,127 @@
+{
+ "lot": "dep-80",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Bears' Tavern",
+    "c": "Amiens",
+    "d": "80",
+    "lat": 49.90304,
+    "lon": 2.29261,
+    "km": 504.8,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Microbrasserie sur une péniche : bar où l’on boit ses bières et boutique de vente à emporter, d’après son site.",
+    "addr": "Quai Charles Tellier, 80000 Amiens",
+    "src": "https://www.bears-tavern.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.bears-tavern.com/",
+     "source": "https://www.bears-tavern.com/",
+     "verifieLe": "2026-10-28"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "remarque": "Les horaires peuvent varier suivant la saison ou les évènements.",
+      "source": "https://www.bears-tavern.com/",
+      "verifieLe": "2026-10-28"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-28",
+   "sources": [
+    "https://www.bears-tavern.com/",
+    "https://data.geopf.fr/geocodage/search?q=Amiens&type=municipality&limit=5"
+   ],
+   "extrait": "La microbrasserie est ouverte en bar (consommation sur place des bières brassées, de jus de fruits locaux,...) et boutique (vente à emporter) à bord de la péniche quai Charles Tellier à Amiens",
+   "choix": "Site relu à la main le 28/10. Pas de téléphone publié. Horaires du site, qui précise qu’ils peuvent varier selon la saison."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Somme",
+    "c": "Domart-en-Ponthieu",
+    "d": "80",
+    "lat": 50.07649,
+    "lon": 2.13551,
+    "km": 526.9,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Son site annonce une boutique et un bar de dégustation, ouverts le vendredi et le samedi.",
+    "addr": "7 route de Berneuil, 80620 Domart-en-Ponthieu",
+    "src": "https://www.brasseriedelasomme.fr/boutique/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 73 67 00 89",
+     "site": "https://www.brasseriedelasomme.fr/",
+     "source": "https://www.brasseriedelasomme.fr/boutique/",
+     "verifieLe": "2026-10-28"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "10:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://www.brasseriedelasomme.fr/boutique/",
+      "verifieLe": "2026-10-28"
+     },
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://www.brasseriedelasomme.fr/boutique/",
+      "verifieLe": "2026-10-28"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-28",
+   "sources": [
+    "https://www.brasseriedelasomme.fr/boutique/",
+    "https://data.geopf.fr/geocodage/search?q=7+route+de+Berneuil%2C+80620+Domart-en-Ponthieu&limit=5"
+   ],
+   "extrait": "Dégustez toutes les bières de la gamme au bar/dégustation de la Brasserie de la Somme",
+   "choix": "Site relu à la main le 28/10. Seul numéro publié par la brasserie, un mobile : retenu. Horaires : boutique 10h-20h et bar 16h-20h, vendredi et samedi, sur la même page. Les bières lues sur le site ne sont pas reprises : Untappd seul vaut pour les bières, et aucune page de brasserie n’y a été trouvée."
+  }
+ ]
+}

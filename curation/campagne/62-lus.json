@@ -1,0 +1,280 @@
+[
+  {
+    "cle": "sirene:487767816",
+    "n": "Brasserie Goudale",
+    "c": "Arques",
+    "adresse": "365 Avenue Isaac Newton, 62510 Arques",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Visite guidée de la brasserie, du lundi au vendredi, qui se termine au bar par une dégustation ; une boutique vend ses bières. Le bar n’a pas d’horaires publiés hors visite. Pas d’accueil le samedi.",
+    "src": "https://brasserie-goudale.com/en/visit-goudale/",
+    "extrait": "Your visit will end at the brewery bar with a tasting session.",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Confiance moyenne : on boit sur place à la fin d’une visite guidée, pas dans un bar ouvert à heures fixes. Téléphone de la page des visites. Horaires de la boutique non saisis : le site et l’office se contredisent sur le samedi.",
+    "contact": {
+      "tel": "03 66 10 01 60",
+      "site": "https://brasserie-goudale.com/",
+      "source": "https://brasserie-goudale.com/en/visit-goudale/"
+    }
+  },
+  {
+    "cle": "sirene:902347921",
+    "n": "Brasserie Chromatique",
+    "c": "Outreau",
+    "adresse": "9-11 Rue du Chat Noir, 62230 Outreau",
+    "cat": 0,
+    "conf": "",
+    "note": "Son site annonce un taproom où déguster et acheter ses bières, « ouverture prochainement » : ce qu’on peut y faire aujourd’hui est à confirmer.",
+    "src": "https://www.brasserie-chromatique.com",
+    "extrait": "Taproom : Venez déguster et acheter nos bières directement à la brasserie ( ouverture prochainement)",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Catégorie 0 : la vente et la dégustation sont annoncées « prochainement ». Téléphone et Untappd non retrouvés sur la page relue : non repris.",
+    "contact": {
+      "site": "https://www.brasserie-chromatique.com",
+      "source": "https://www.brasserie-chromatique.com"
+    }
+  },
+  {
+    "cle": "sirene:803074384",
+    "n": "Brasserie Quentovic",
+    "c": "Beaurainville",
+    "adresse": null,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Boutique et bar à la brasserie : on boit ses bières à côté des cuves et on les achète à emporter, d’après son site.",
+    "src": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/",
+    "extrait": "Dégustez nos bières à côté des cuves. D’autres boissons sont disponibles.",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Horaires par saison, tels que le site les écrit (« Mai à Septembre : Vendredi de 15h à 19h, Samedi de 10h à 18h » ; « Octobre à Avril : Vendredi de 15h à 19h ») ; le jeudi de juillet et d’août et la fermeture des jours fériés restent en remarque. Seul téléphone publié, page contact. Adresse non saisie : le site n’en publie pas.",
+    "contact": {
+      "tel": "09 51 67 48 49",
+      "site": "https://quentovic.com/",
+      "source": "https://quentovic.com/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "periode": {
+          "du": "05-01",
+          "au": "09-30"
+        },
+        "remarque": "Aussi le jeudi de 15h à 19h en juillet et août. Fermée les jours fériés et pendant les fêtes de fin d’année.",
+        "source": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/"
+      },
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "periode": {
+          "du": "10-01",
+          "au": "04-30"
+        },
+        "remarque": "Fermée les jours fériés et pendant les fêtes de fin d’année.",
+        "source": "https://quentovic.com/vente-emporter-biere-artisanale-epicerie-cavisite/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:802632109",
+    "n": "Brasserie du Funquet",
+    "c": "Escœuilles",
+    "adresse": "19 rue de la Tirée, 62850 Escœuilles",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie installée en 2014, d’après l’office de tourisme de Saint-Omer. Ce qu’on peut y faire n’est pas écrit en toutes lettres : à confirmer.",
+    "src": "https://en.tourisme-saintomer.com/offres/brasserie-du-funquet-escoeuilles-en-3606376/",
+    "extrait": "The Funquet brewery is a traditional microbrewery, set up in 2014 in the heart of the village of Escœuilles",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Office de tourisme seul ; son mobile n’est pas repris, ses horaires sont marqués non garantis. Le site de la brasserie refuse la lecture (403)."
+  },
+  {
+    "cle": "sirene:833621220",
+    "n": "Brasserie de Mai",
+    "c": "Carvin",
+    "adresse": "50 rue Édouard Plachez, 62220 Carvin",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie avec bar, restauration et vente à emporter (bouteilles et fûts), d’après son site.",
+    "src": "https://brasseriedemai.fr",
+    "extrait": "Vente à emporter (bières en bouteille et en fût)",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. La même ligne du site annonce le bar sur place. Téléphone de la brasserie retenu ; le mobile des mentions légales écarté. Horaires du site ; le dimanche « fermé, sauf événements » en remarque.",
+    "contact": {
+      "tel": "09 84 21 14 53",
+      "site": "https://brasseriedemai.fr",
+      "source": "https://brasseriedemai.fr"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "10:00",
+            "12:30"
+          ],
+          [
+            "14:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "remarque": "Dimanche fermé, sauf événements.",
+        "source": "https://brasseriedemai.fr"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:447518234",
+    "n": "Brasserie Saint-Germain (Page 24)",
+    "c": "Aix-Noulette",
+    "adresse": "26 route d'Arras, 62160 Aix-Noulette",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Magasin et TapRoom à la brasserie, d’après son site.",
+    "src": "https://www.page24.fr/nous-visiter",
+    "extrait": "A côté de notre magasin se cache notre TapRoom où il vous est possible de déguster nos bières.",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Seul numéro publié. Horaires du bar (TapRoom) ; ceux du magasin, sur la même page, ne passent pas le contrôle (heures de midi non relues) : non saisis.",
+    "contact": {
+      "tel": "03 21 72 24 24",
+      "site": "https://www.page24.fr/",
+      "source": "https://www.page24.fr/nous-visiter"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mer": [
+          [
+            "14:00",
+            "20:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "14:00",
+            "20:00"
+          ]
+        ],
+        "ven": [
+          [
+            "14:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "remarque": "TapRoom ; fermé les jours fériés.",
+        "source": "https://www.page24.fr/nous-visiter"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:315255752",
+    "n": "Brasserie Castelain",
+    "c": "Bénifontaine",
+    "adresse": "13 rue Pasteur, 62410 Bénifontaine",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le Spot, musée de la brasserie, avec un espace de dégustation et une boutique, d’après un portail de tourisme.",
+    "src": "https://www.francevelotourisme.com/loisirs/musees-et-sites-touristiques/le-spot-musee-de-la-brasserie-castelain",
+    "extrait": "L’espace muséal, l’espace dégustation, l’espace extérieur et la boutique vous feront vivre une expérience 360°",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Source de la catégorie : un portail de tourisme, d’où la confiance moyenne. Téléphone du site de la brasserie ; celui du portail écarté. Horaires d’annuaire non repris.",
+    "contact": {
+      "tel": "03 21 08 68 68",
+      "site": "http://brasseriecastelain.com/",
+      "source": "http://brasseriecastelain.com/"
+    }
+  },
+  {
+    "cle": "sirene:901711309",
+    "n": "Brasserie Delbeke",
+    "c": "Lorgies",
+    "adresse": "141 route d'Estaires, 62840 Lorgies",
+    "cat": 2,
+    "conf": "faible",
+    "note": "Visites et retrait de commande en semaine, sur rendez-vous, d’après son site ; la vente à la brasserie n’y est dite qu’ainsi.",
+    "src": "https://www.brasseriedelbeke.fr",
+    "extrait": "N'hésitez pas à nous contacter pour toute visite ou retrait de commande",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Catégorie 2 en confiance faible : on retire une commande, sur rendez-vous. Seul numéro publié, un mobile : retenu. Pas d’horaires (« sur rendez-vous »).",
+    "contact": {
+      "tel": "06 27 61 37 27",
+      "site": "https://www.brasseriedelbeke.fr",
+      "source": "https://www.brasseriedelbeke.fr"
+    }
+  },
+  {
+    "cle": "sirene:845155498",
+    "n": "Wattbeer (La Drache)",
+    "c": "Carvin",
+    "adresse": "67 rue Victor Hugo, 62220 Carvin",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "La brasserie ouvre au public un samedi par mois seulement, le premier, de 10h à 19h : visite, dégustation d’une bière et vente directe, d’après son site. Fermée au public les autres jours.",
+    "src": "https://www.ladrache.fr/visites-ouvertures/",
+    "extrait": "vous pourrez déguster l’une de nos bières fraîchement brassée",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Confiance moyenne : une ouverture par mois. Horaires non saisis : « le premier samedi du mois » ne s’écrit pas en semaine type. Pas de téléphone publié.",
+    "contact": {
+      "site": "https://www.ladrache.fr/",
+      "source": "https://www.ladrache.fr/"
+    }
+  },
+  {
+    "cle": "sirene:850421504",
+    "n": "Brasserie de l'Abbaye de Clairmarais",
+    "c": "Clairmarais",
+    "adresse": "1 voie communale des murs, Ferme de l'Abbaye, 62500 Clairmarais",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de bières d’abbaye à la ferme de l’abbaye, d’après l’office de tourisme de Saint-Omer. Ce qu’on peut y acheter ou y boire n’est pas écrit : à confirmer.",
+    "src": "https://en.tourisme-saintomer.com/offres/brasserie-de-labbaye-de-clairmarais-clairmarais-en-3606411/",
+    "extrait": "to brew abbey-style beers, as Clairmarais Abbey once housed a brewery",
+    "beers": [],
+    "choix": "Site relu à la main le 28/10. Office de tourisme seul ; son mobile n’est pas repris, ses horaires sont marqués non garantis."
+  }
+]

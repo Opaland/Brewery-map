@@ -1,0 +1,75 @@
+{
+ "candidat": "sirene:833621220",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Mai",
+   "c": "Carvin",
+   "d": "62",
+   "lat": 50.49173,
+   "lon": 2.95623,
+   "km": 552,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie avec bar, restauration et vente à emporter (bouteilles et fûts), d’après son site.",
+   "addr": "50 rue Édouard Plachez, 62220 Carvin",
+   "src": "https://brasseriedemai.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 84 21 14 53",
+    "site": "https://brasseriedemai.fr",
+    "source": "https://brasseriedemai.fr",
+    "verifieLe": "2026-10-28"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedemai.fr",
+     "mar": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Dimanche fermé, sauf événements.",
+     "verifieLe": "2026-10-28"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://brasseriedemai.fr",
+   "https://data.geopf.fr/geocodage/search?q=50+rue+%C3%89douard+Plachez%2C+62220+Carvin&limit=5"
+  ],
+  "extrait": "Vente à emporter (bières en bouteille et en fût)",
+  "choix": "Site relu à la main le 28/10. La même ligne du site annonce le bar sur place. Téléphone de la brasserie retenu ; le mobile des mentions légales écarté. Horaires du site ; le dimanche « fermé, sauf événements » en remarque."
+ }
+}

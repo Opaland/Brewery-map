@@ -1,4 +1,20 @@
 {
  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
- "personne:3": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:929725406": "lu le 28/10 : le registre seul",
+ "sirene:877531376": "lu le 28/10 : aucune source",
+ "sirene:924123367": "lu le 28/10 : aucune source",
+ "sirene:913645941": "lu le 28/10 : aucune source",
+ "personne:1": "lu le 28/10 : Untappd et la presse seuls ; ce qu’on peut y faire n’est écrit nulle part de lisible",
+ "sirene:392724456": "lu le 28/10 : une entreprise de paysage, pas une brasserie",
+ "sirene:831162052": "lu le 28/10 : une ancienne brasserie industrielle, sans activité trouvée",
+ "sirene:941798118": "lu le 28/10 : aucune source ; sans doute un restaurant",
+ "sirene:832334924": "lu le 28/10 : annuaires et agrégateurs seuls ; fiches d’office en 404",
+ "sirene:842097032": "lu le 28/10 : site en erreur 503, office seul ; à relancer quand le site répond",
+ "sirene:910341130": "lu le 28/10 : un article de presse seul",
+ "sirene:529266819": "lu le 28/10 : annuaires seuls",
+ "node/7537075099": "lu le 28/10 : site introuvable depuis la session, aucune autre source",
+ "node/8516195851": "lu le 28/10 : ancienne adresse de la Brasserie du Bosquet, partie à Beauquesne en 2021 (personne:1)",
+ "node/9911253470": "lu le 28/10 : un restaurant, il ne brasse pas",
+ "node/9922848827": "lu le 28/10 : introuvable ; rien ne dit qu’il brasse"
 }

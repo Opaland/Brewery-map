@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:447518234",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Saint-Germain (Page 24)",
+   "c": "Aix-Noulette",
+   "d": "62",
+   "lat": 50.42527,
+   "lon": 2.71352,
+   "km": 549.6,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Magasin et TapRoom à la brasserie, d’après son site.",
+   "addr": "26 route d'Arras, 62160 Aix-Noulette",
+   "src": "https://www.page24.fr/nous-visiter",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 21 72 24 24",
+    "site": "https://www.page24.fr/",
+    "source": "https://www.page24.fr/nous-visiter",
+    "verifieLe": "2026-10-28"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.page24.fr/nous-visiter",
+     "mer": [
+      [
+       "14:00",
+       "20:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "TapRoom ; fermé les jours fériés.",
+     "verifieLe": "2026-10-28"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.page24.fr/nous-visiter",
+   "https://data.geopf.fr/geocodage/search?q=26+route+d%27Arras%2C+62160+Aix-Noulette&limit=5"
+  ],
+  "extrait": "A côté de notre magasin se cache notre TapRoom où il vous est possible de déguster nos bières.",
+  "choix": "Site relu à la main le 28/10. Seul numéro publié. Horaires du bar (TapRoom) ; ceux du magasin, sur la même page, ne passent pas le contrôle (heures de midi non relues) : non saisis."
+ }
+}

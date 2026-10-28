@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:898835590",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Senlis",
+   "c": "Senlis",
+   "d": "60",
+   "lat": 49.20143,
+   "lon": 2.5827,
+   "km": 424.8,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Son site annonce un bar à bières où goûter ses créations, et la vente en direct à la brasserie.",
+   "addr": "6 rue des Jardiniers, 60300 Senlis",
+   "src": "http://www.brasseriedesenlis.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 35 55 16 85",
+    "site": "http://www.brasseriedesenlis.com/",
+    "source": "http://www.brasseriedesenlis.com/",
+    "verifieLe": "2026-10-28"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.brasseriedesenlis.com/",
+     "mer": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-28"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "http://www.brasseriedesenlis.com/",
+   "https://data.geopf.fr/geocodage/search?q=6+rue+des+Jardiniers%2C+60300+Senlis&limit=5"
+  ],
+  "extrait": "Venez déguster nos créations autour d’une planche de charcuterie dans notre bar à bières",
+  "choix": "Site relu à la main le 28/10. Seul numéro publié par la brasserie, un mobile : retenu ; celui de l’office écarté. Horaires d’accueil du site (« Nos bières et goodies sont vendus en direct à la brasserie qui vous accueille le mercredi et jeudi de 16h à 22h, le vendredi de 16h à 23h et le samedi de 14h à 23h00 ») ; ceux de l’office, différents, écartés."
+ }
+}

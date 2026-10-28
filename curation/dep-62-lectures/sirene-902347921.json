@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:902347921",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Chromatique",
+   "c": "Outreau",
+   "d": "62",
+   "lat": 50.70685,
+   "lon": 1.60715,
+   "km": 606.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Son site annonce un taproom où déguster et acheter ses bières, « ouverture prochainement » : ce qu’on peut y faire aujourd’hui est à confirmer.",
+   "addr": "9-11 Rue du Chat Noir, 62230 Outreau",
+   "src": "https://www.brasserie-chromatique.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-chromatique.com",
+    "source": "https://www.brasserie-chromatique.com",
+    "verifieLe": "2026-10-28"
+   }
+  },
+  "verifieLe": "2026-10-28",
+  "sources": [
+   "https://www.brasserie-chromatique.com",
+   "https://data.geopf.fr/geocodage/search?q=9-11+Rue+du+Chat+Noir%2C+62230+Outreau&limit=5"
+  ],
+  "extrait": "Taproom : Venez déguster et acheter nos bières directement à la brasserie ( ouverture prochainement)",
+  "choix": "Site relu à la main le 28/10. Catégorie 0 : la vente et la dégustation sont annoncées « prochainement ». Téléphone et Untappd non retrouvés sur la page relue : non repris."
+ }
+}
