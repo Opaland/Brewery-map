@@ -95,3 +95,31 @@ Avant chaque lot qui porte le fichier au-delà de 600 fiches, ou dès S294
 livrée, la mesure se refait avec la même commande, et ce tableau se complète.
 Le seuil de 600 fiches est un repère de calendrier tranché au jugé (§2), pas
 une mesure : il laisse une marge sous l'intervalle où le LCP passe 2,5 s.
+
+## S367 (27/10) : avant de passer 600 fiches
+
+Mesuré dans le conteneur cloud (4 cœurs), même outil, même réseau simulé,
+5 essais. Ces chiffres ne se comparent pas à ceux du PC fixe.
+
+| Fichier | LCP (médiane) | Première ligne (médiane) | LCP, essais | Première ligne, essais | Octets transférés |
+|---|---:|---:|---|---|---:|
+| Réel, 557 fiches | 1 996 ms | 2 096 ms | 1 944 à 2 036 | 2 077 à 2 137 | 290 391 |
+| Synthétique, 1 000 fiches (443 ajoutées, toutes hors Auvergne-Rhône-Alpes) | 1 996 ms | 2 096 ms | 1 976 à 2 104 | 2 071 à 2 195 | 290 394 |
+
+- La copie synthétique : les fiches hors Auvergne-Rhône-Alpes dupliquées,
+  renommées (« … (essai n) ») et décalées, dans un dossier jetable hors du
+  dépôt, jamais publié. Le fichier de la suite y passe de 277 à 610 Ko (non
+  compressé), et le premier écran ne bouge pas : 3 octets de plus, les noms
+  de fichiers. Un essai synthétique a compté 241 818 octets : une réponse non
+  finie au moment du relevé ; la médiane ne change pas.
+- Les médianes égales des deux lignes sont une coïncidence des essais : les
+  valeurs brutes diffèrent. Le serveur mesuré a été vérifié (page servie par
+  le build synthétique).
+
+**Conclusion.** Depuis S294, une région hors Auvergne-Rhône-Alpes n'entre
+pas dans le premier écran : ajouter les Hauts-de-France (S344) et les
+régions suivantes ne le ralentit pas, dans les limites de cette mesure. Ce
+qui grossit, c'est la suite, chargée après la première ligne. La règle
+suivante reste : remesurer si une fiche d'Auvergne-Rhône-Alpes s'ajoute en
+nombre (le premier écran les porte), ou quand la suite dépasse un palier qui
+ralentirait la carte complète, ce que cette mesure ne dit pas.

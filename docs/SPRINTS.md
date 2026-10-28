@@ -3019,3 +3019,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S365 et S366 — Les relances du Puy-de-Dôme, de la Haute-Savoie, de PACA et de la Corse *(27/10, issues #224 et #231)*
 
 `docs/stories/S365.md` et `S366.md`. `campagne.ts relancer` pour dix départements : 61 candidats « à relancer », 16 paquets lus par des agents avec un quota de recherches neuf. 8 fiches entrent par la règle de Cédric du 21/10, toutes en PACA (05 : 3, 06 : 1, 13 : 1, 83 : 1, 84 : 2) ; aucune dans le 63, le 74 ni en Corse. Toutes les sources rouvertes à la main ; relecture de la persona Cédric traitée avant d'appliquer. 557 fiches, OSM à 781. Encore « à relancer » : quatre brasseries dont un site derrière une vérification de l'âge (BACKLOG).
+
+## S367 — Le premier écran avant 600 fiches, mesuré *(27/10, epic E36)*
+
+`docs/stories/S367.md`. La règle de `docs/PREMIER-ECRAN.md` demandait une mesure avant de passer 600 fiches. 557 fiches réelles et 1 000 synthétiques (ajoutées hors Auvergne-Rhône-Alpes, dans une copie jetable) : mêmes médianes (LCP 1 996 ms, première ligne 2 096 ms) et même premier écran (290 391 contre 290 394 octets). Depuis S294, les autres régions ne ralentissent pas la première ligne : E36 peut continuer.
