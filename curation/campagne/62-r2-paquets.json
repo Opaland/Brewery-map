@@ -1,0 +1,147 @@
+[
+ [
+  {
+   "cle": "sirene:854024254",
+   "enseigne": "LA BRASSERIE DU GOULOT",
+   "dep": "62",
+   "communes": [
+    "WIMEREUX"
+   ],
+   "adresses": [
+    "30 RUE DU BASTON 62930 WIMEREUX"
+   ],
+   "osm": [
+    "node/12459628202"
+   ],
+   "site": "https://www.labrasseriedugoulot.com/wimereux",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:499451045",
+   "enseigne": "BRASSERIE ARTESIENNE",
+   "dep": "62",
+   "communes": [
+    "HAISNES"
+   ],
+   "adresses": [
+    "14 RUE DU MARAIS 62138 HAISNES"
+   ],
+   "osm": [
+    "node/9568937120"
+   ],
+   "site": "http://www.brasserie-artesienne.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830231056",
+   "enseigne": "BRASSERIE L'INTEMPORELLE",
+   "dep": "62",
+   "communes": [
+    "WAILLY"
+   ],
+   "adresses": [
+    "40 B RUE DE PAS 62217 WAILLY"
+   ],
+   "osm": [
+    "way/640597055"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840053771",
+   "enseigne": "LES BRASSEURS DES TERRES D'OPALE",
+   "dep": "62",
+   "communes": [
+    "BAINCTHUN"
+   ],
+   "adresses": [
+    "49 ROUTE DE DESVRES 62360 BAINCTHUN"
+   ],
+   "osm": [
+    "node/13005831326"
+   ],
+   "site": "https://lesbrasseursdesterresdopale.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11978102348",
+   "enseigne": "Micro brasserie L'estoupette",
+   "dep": "62",
+   "communes": [
+    "Riencourt-lès-Cagnicourt"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11978102348"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12459402001",
+   "enseigne": "Brasserie de La Lawe",
+   "dep": "62",
+   "communes": [
+    "Vieille-Chapelle"
+   ],
+   "adresses": [
+    "1172 Rue du Pont d'Agronsart, 62136"
+   ],
+   "osm": [
+    "node/12459402001"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4829087299",
+   "enseigne": "Brasserie des 2 Caps",
+   "dep": "62",
+   "communes": [
+    "Tardinghen"
+   ],
+   "adresses": [
+    "Route d'Ausques, 62179 Tardinghen"
+   ],
+   "osm": [
+    "node/4829087299"
+   ],
+   "site": "https://www.2caps.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/245646436",
+   "enseigne": "Brasserie des 7 Bonnettes",
+   "dep": "62",
+   "communes": [
+    "Étaing"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/245646436"
+   ],
+   "site": "https://www.brasserie-7bonnettes.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/641318870",
+   "enseigne": "Brasserie Paysanne de l'Artois",
+   "dep": "62",
+   "communes": [
+    "Gavrelle"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/641318870"
+   ],
+   "site": "http://bierepaysanne.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

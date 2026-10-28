@@ -1,0 +1,222 @@
+[
+ {
+  "cle": "sirene:854024254",
+  "nom": "LA BRASSERIE DU GOULOT",
+  "communes": [
+   "WIMEREUX"
+  ],
+  "departement": "62",
+  "adresses": [
+   "30 RUE DU BASTON 62930 WIMEREUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "854024254",
+  "sirets": [
+   "85402425400021"
+  ],
+  "osm": [
+   "node/12459628202"
+  ],
+  "lat": 50.7791958376014,
+  "lon": 1.61754589873968,
+  "site": "https://www.labrasseriedugoulot.com/wimereux",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:499451045",
+  "nom": "BRASSERIE ARTESIENNE",
+  "communes": [
+   "HAISNES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "14 RUE DU MARAIS 62138 HAISNES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "499451045",
+  "sirets": [
+   "49945104500037"
+  ],
+  "osm": [
+   "node/9568937120"
+  ],
+  "lat": 50.509710948,
+  "lon": 2.8004008263,
+  "site": "http://www.brasserie-artesienne.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830231056",
+  "nom": "BRASSERIE L'INTEMPORELLE",
+  "communes": [
+   "WAILLY"
+  ],
+  "departement": "62",
+  "adresses": [
+   "40 B RUE DE PAS 62217 WAILLY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830231056",
+  "sirets": [
+   "83023105600029"
+  ],
+  "osm": [
+   "way/640597055"
+  ],
+  "lat": 50.243701615,
+  "lon": 2.7185556856,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840053771",
+  "nom": "LES BRASSEURS DES TERRES D'OPALE",
+  "communes": [
+   "BAINCTHUN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "49 ROUTE DE DESVRES 62360 BAINCTHUN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840053771",
+  "sirets": [
+   "84005377100027"
+  ],
+  "osm": [
+   "node/13005831326"
+  ],
+  "lat": 50.709564701,
+  "lon": 1.6825616857,
+  "site": "https://lesbrasseursdesterresdopale.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11978102348",
+  "nom": "Micro brasserie L'estoupette",
+  "communes": [
+   "Riencourt-lès-Cagnicourt"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11978102348"
+  ],
+  "lat": 50.20061,
+  "lon": 2.95849,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12459402001",
+  "nom": "Brasserie de La Lawe",
+  "communes": [
+   "Vieille-Chapelle"
+  ],
+  "departement": "62",
+  "adresses": [
+   "1172 Rue du Pont d'Agronsart, 62136"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12459402001"
+  ],
+  "lat": 50.59355,
+  "lon": 2.69003,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4829087299",
+  "nom": "Brasserie des 2 Caps",
+  "communes": [
+   "Tardinghen"
+  ],
+  "departement": "62",
+  "adresses": [
+   "Route d'Ausques, 62179 Tardinghen"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4829087299"
+  ],
+  "lat": 50.86204,
+  "lon": 1.64522,
+  "site": "https://www.2caps.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/245646436",
+  "nom": "Brasserie des 7 Bonnettes",
+  "communes": [
+   "Étaing"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/245646436"
+  ],
+  "lat": 50.27323,
+  "lon": 3.00091,
+  "site": "https://www.brasserie-7bonnettes.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/641318870",
+  "nom": "Brasserie Paysanne de l'Artois",
+  "communes": [
+   "Gavrelle"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/641318870"
+  ],
+  "lat": 50.32985,
+  "lon": 2.88694,
+  "site": "http://bierepaysanne.fr/",
+  "statut": "nouveau"
+ }
+]
