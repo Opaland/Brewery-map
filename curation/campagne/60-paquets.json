@@ -1,0 +1,271 @@
+[
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "MICRO-BRASSERIE PEPITOUF (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "60",
+   "communes": [
+    "VILLERS-SOUS-SAINT-LEU"
+   ],
+   "adresses": [
+    "10 RUE DU CHATEAU D'EAU 60340 VILLERS-SOUS-SAINT-LEU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:414798934",
+   "enseigne": "FERME BRASSERIE SAINT RIEUL",
+   "dep": "60",
+   "communes": [
+    "TRUMILLY"
+   ],
+   "adresses": [
+    "588 RUE DE DRUCY 60800 TRUMILLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:803729078",
+   "enseigne": "BRASSERIE FELICITE",
+   "dep": "60",
+   "communes": [
+    "MONTAGNY-SAINTE-FELICITE"
+   ],
+   "adresses": [
+    "18 PLACE DU FORT 60950 MONTAGNY-SAINTE-FELICITE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:935141796",
+   "enseigne": "BRASSERIE DU BEAUVAISIS",
+   "dep": "60",
+   "communes": [
+    "TROISSEREUX"
+   ],
+   "adresses": [
+    "71 RUE DE CALAIS 60112 TROISSEREUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818098543",
+   "enseigne": "AU COEUR DU MALT",
+   "dep": "60",
+   "communes": [
+    "VERNEUIL-EN-HALATTE"
+   ],
+   "adresses": [
+    "1 RUE HENRI SAINTE CLAIRE DEVILLE 60550 VERNEUIL-EN-HALATTE"
+   ],
+   "osm": [
+    "way/759048657"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:824879324",
+   "enseigne": "LA COURTOISE",
+   "dep": "60",
+   "communes": [
+    "NERY"
+   ],
+   "adresses": [
+    "16 RUE DES PEUPLIERS 60320 NERY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:533177150",
+   "enseigne": "PETITE BRASSERIE PICARDE",
+   "dep": "60",
+   "communes": [
+    "GRANDFRESNOY"
+   ],
+   "adresses": [
+    "89 RUE DU PUISSOT 60680 GRANDFRESNOY"
+   ],
+   "osm": [
+    "node/4090508668"
+   ],
+   "site": "http://www.petitebrasseriepicarde.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:904655578",
+   "enseigne": "BRASSERIE DS",
+   "dep": "60",
+   "communes": [
+    "RUSSY-BEMONT"
+   ],
+   "adresses": [
+    "2 RUE NICOLAS APPERT 60117 RUSSY-BEMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902938976",
+   "enseigne": "LA MICRO BRASSERIE DES HAUTS DE FRANCE",
+   "dep": "60",
+   "communes": [
+    "NOINTEL"
+   ],
+   "adresses": [
+    "21 RUE DE LA GARE 60840 NOINTEL"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:898835590",
+   "enseigne": "BRASSERIE DE SENLIS",
+   "dep": "60",
+   "communes": [
+    "SENLIS"
+   ],
+   "adresses": [
+    "6 RUE DES JARDINIERS 60300 SENLIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:827534231",
+   "enseigne": "ECOL' AUX MOUSSES",
+   "dep": "60",
+   "communes": [
+    "ARSY"
+   ],
+   "adresses": [
+    "13 RUE DE PICARDIE 60190 ARSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:523093888",
+   "enseigne": "BRASSERIE CRAIG ALLAN",
+   "dep": "60",
+   "communes": [
+    "PLESSIS-DE-ROYE"
+   ],
+   "adresses": [
+    "109 RUE SAINT-JEAN 60310 PLESSIS-DE-ROYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822788501",
+   "enseigne": "BRASSERIE SAINT MEDARD",
+   "dep": "60",
+   "communes": [
+    "COMPIEGNE"
+   ],
+   "adresses": [
+    "66 RUE SAINT-LAZARE 60200 COMPIEGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "BRASSERIE JUQUEL (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "60",
+   "communes": [
+    "SAINT-AUBIN-EN-BRAY"
+   ],
+   "adresses": [
+    "5 RUE DE L'EGLISE 60650 SAINT-AUBIN-EN-BRAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978336592",
+   "enseigne": "BRASSERIE EGUA",
+   "dep": "60",
+   "communes": [
+    "MONTATAIRE"
+   ],
+   "adresses": [
+    "PARC DU COLVERT LOT C2 5 RUE I ET FREDERIC JOLIOT CURIE 60160 MONTATAIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/2328758020",
+   "enseigne": "Brasserie de l'Hotel de Ville",
+   "dep": "60",
+   "communes": [
+    "Formerie"
+   ],
+   "adresses": [
+    "8 Rue Georges Clemenceau"
+   ],
+   "osm": [
+    "node/2328758020"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9439715435",
+   "enseigne": "Auto Bar Brasserie",
+   "dep": "60",
+   "communes": [
+    "Beauvais"
+   ],
+   "adresses": [
+    "3 Rue du Franc-Marché, 60000 Beauvais"
+   ],
+   "osm": [
+    "node/9439715435"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/323637735",
+   "enseigne": "Le Marcel",
+   "dep": "60",
+   "communes": [
+    "Saint-Paul"
+   ],
+   "adresses": [
+    "40 Rue de l'Abbaye, 60650 Saint-Paul"
+   ],
+   "osm": [
+    "way/323637735"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/963450970",
+   "enseigne": "L'écol aux Mousses",
+   "dep": "60",
+   "communes": [
+    "Autrêches"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/963450970"
+   ],
+   "site": "https://www.ecolauxmousses.fr",
+   "statut": "nouveau"
+  }
+ ]
+]

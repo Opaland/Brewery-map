@@ -1,0 +1,266 @@
+[
+ [
+  {
+   "cle": "sirene:929725406",
+   "enseigne": "BRASSERIE BBS",
+   "dep": "80",
+   "communes": [
+    "WOINCOURT",
+    "FEUQUIERES-EN-VIMEU"
+   ],
+   "adresses": [
+    "5 RUE KLEBER 80520 WOINCOURT",
+    "9 B PLACE JEAN JAURES 80210 FEUQUIERES-EN-VIMEU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851072249",
+   "enseigne": "BEARS' TAVERN",
+   "dep": "80",
+   "communes": [
+    "AMIENS"
+   ],
+   "adresses": [
+    "28 RUE DES BOERS 80080 AMIENS",
+    "QUAI CHARLES TELLIER 80000 AMIENS"
+   ],
+   "osm": [
+    "node/9952959651"
+   ],
+   "site": "https://www.bears-tavern.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877531376",
+   "enseigne": "LA BELLEQUESNOISE",
+   "dep": "80",
+   "communes": [
+    "BEAUQUESNE"
+   ],
+   "adresses": [
+    "29 PLACE PUBLIQUE 80600 BEAUQUESNE",
+    "27 CHAUSSEE DE DOULLENS 80600 BEAUQUESNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924123367",
+   "enseigne": "ASSOCIATION SCREEB",
+   "dep": "80",
+   "communes": [
+    "AMIENS"
+   ],
+   "adresses": [
+    "14 QUAI DE LA SOMME 80000 AMIENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:913645941",
+   "enseigne": "BREWZIK",
+   "dep": "80",
+   "communes": [
+    "VILLE-SUR-ANCRE"
+   ],
+   "adresses": [
+    "12 RUE CHARLES DE GAULLE 80300 VILLE-SUR-ANCRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE DU BOSQUET (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "80",
+   "communes": [
+    "BEAUQUESNE"
+   ],
+   "adresses": [
+    "45 B CHAUSSEE DE DOULLENS 80600 BEAUQUESNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:392724456",
+   "enseigne": "SEINE PAYSAGE",
+   "dep": "80",
+   "communes": [
+    "LAHOUSSOYE"
+   ],
+   "adresses": [
+    "16 RUE DES HOUX 80800 LAHOUSSOYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831162052",
+   "enseigne": "BRASSERIE DE CLERCK",
+   "dep": "80",
+   "communes": [
+    "PERONNE"
+   ],
+   "adresses": [
+    "PERONNE 42 RUE GEORGES CLEMENCEAU 80200 PERONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890473630",
+   "enseigne": "BRASSERIE DE LA SOMME",
+   "dep": "80",
+   "communes": [
+    "DOMART-EN-PONTHIEU"
+   ],
+   "adresses": [
+    "7 ROUTE DE BERNEUIL 80620 DOMART-EN-PONTHIEU"
+   ],
+   "osm": [
+    "node/6332099593"
+   ],
+   "site": "https://www.brasseriedelasomme.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:941798118",
+   "enseigne": "GB BRASSERIE",
+   "dep": "80",
+   "communes": [
+    "LE CROTOY"
+   ],
+   "adresses": [
+    "3 ROUTE DEPARTEMENTALE 940 80550 LE CROTOY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:832334924",
+   "enseigne": "BRASSERIE AMBIANI",
+   "dep": "80",
+   "communes": [
+    "AMIENS"
+   ],
+   "adresses": [
+    "14 RUE COLBERT 80000 AMIENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:842097032",
+   "enseigne": "BRASSERIE A LA NOYE",
+   "dep": "80",
+   "communes": [
+    "QUIRY-LE-SEC"
+   ],
+   "adresses": [
+    "2 RUE DE FOLLEVILLE 80250 QUIRY-LE-SEC"
+   ],
+   "osm": [
+    "way/319564583"
+   ],
+   "site": "http://www.brasseriealanoye.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910341130",
+   "enseigne": "NYSOS",
+   "dep": "80",
+   "communes": [
+    "ETINEHEM-MERICOURT"
+   ],
+   "adresses": [
+    "1 RUE DU MOULIN 80340 ETINEHEM-MERICOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:529266819",
+   "enseigne": "LA MASCOTTE",
+   "dep": "80",
+   "communes": [
+    "CORBIE"
+   ],
+   "adresses": [
+    "29 RUE JULES LARDIERE 80800 CORBIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7537075099",
+   "enseigne": "Belle Van Belle",
+   "dep": "80",
+   "communes": [
+    "Villers-Tournelle"
+   ],
+   "adresses": [
+    "2bis Rue du Bois, 80500 Villers-Tournelle"
+   ],
+   "osm": [
+    "node/7537075099"
+   ],
+   "site": "https://www.benoitvanbelle.fr/fr",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/8516195851",
+   "enseigne": "La Brasserie du Bosquet",
+   "dep": "80",
+   "communes": [
+    "Raincheval"
+   ],
+   "adresses": [
+    "2 Rue de l'Église, 80600 Raincheval"
+   ],
+   "osm": [
+    "node/8516195851"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9911253470",
+   "enseigne": "Brasserie de la Gare",
+   "dep": "80",
+   "communes": [
+    "Ailly-sur-Somme"
+   ],
+   "adresses": [
+    "Place André Dupuis"
+   ],
+   "osm": [
+    "node/9911253470"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9922848827",
+   "enseigne": "Le Miroir de Porto",
+   "dep": "80",
+   "communes": [
+    "Camon"
+   ],
+   "adresses": [
+    "121 Rue Henri Barbusse"
+   ],
+   "osm": [
+    "node/9922848827"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

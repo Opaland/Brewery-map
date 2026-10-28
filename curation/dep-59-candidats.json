@@ -1,0 +1,3416 @@
+[
+ {
+  "cle": "sirene:414842062",
+  "nom": "HEINEKEN ENTREPRISE",
+  "communes": [
+   "MONS-EN-BARŒUL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "365 RUE DU GENERAL DE GAULLE 59370 MONS-EN-BARŒUL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "414842062",
+  "sirets": [
+   "41484206200054"
+  ],
+  "osm": [],
+  "lat": 50.648283057,
+  "lon": 3.1129063283,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802181552",
+  "nom": "LES BIERES DE CELESTIN",
+  "communes": [
+   "LILLE",
+   "MARQUETTE-LEZ-LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "19 RUE JEAN-JACQUES ROUSSEAU (LOMME) 59000 LILLE",
+   "27 RUE FELIX FAURE 59520 MARQUETTE-LEZ-LILLE",
+   "120 RUE ESQUERMOISE 59800 LILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "802181552",
+  "sirets": [
+   "80218155200018",
+   "80218155200026",
+   "80218155200034"
+  ],
+  "osm": [
+   "node/10996980640",
+   "way/48633944"
+  ],
+  "lat": 50.639255613,
+  "lon": 3.0593253358,
+  "site": "https://celestinlille.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:455502088",
+  "nom": "BRASSERIE DE SAINT-OMER",
+  "communes": [
+   "RAISMES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1 PLACE ALEXANDRE LELEU 59590 RAISMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "455502088",
+  "sirets": [
+   "45550208800087"
+  ],
+  "osm": [],
+  "lat": 50.3994771045991,
+  "lon": 3.46242483589589,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:487767816",
+  "nom": "LES BRASSEURS DE GAYANT",
+  "communes": [
+   "DOUAI"
+  ],
+  "departement": "59",
+  "adresses": [
+   "185 RUE LEO LAGRANGE 59500 DOUAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "487767816",
+  "sirets": [
+   "48776781600027"
+  ],
+  "osm": [],
+  "lat": 50.356228461195,
+  "lon": 3.08580605269454,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:045750981",
+  "nom": "CERES",
+  "communes": [
+   "DOUAI"
+  ],
+  "departement": "59",
+  "adresses": [
+   "BP 89 185 RUE LEO LAGRANGE 59500 DOUAI",
+   "139 RUE DU FAUBOURG DE PARIS 59500 DOUAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "045750981",
+  "sirets": [
+   "04575098100065",
+   "04575098100073"
+  ],
+  "osm": [],
+  "lat": 50.356228461195,
+  "lon": 3.08580605269454,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882594211",
+  "nom": "BRASSERIE DE VAUCELLES",
+  "communes": [
+   "LES RUES-DES-VIGNES",
+   "GOUZEAUCOURT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "HAMEAU DE VAUCELLES 59258 LES RUES-DES-VIGNES",
+   "330 RUE DE CAMBRAI 59231 GOUZEAUCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882594211",
+  "sirets": [
+   "88259421100014",
+   "88259421100022"
+  ],
+  "osm": [],
+  "lat": 50.077793556,
+  "lon": 3.2236903861,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:433202892",
+  "nom": "LA MALTERIE",
+  "communes": [
+   "LE CATEAU-CAMBRESIS"
+  ],
+  "departement": "59",
+  "adresses": [
+   "11 RUE DU MARCHE AUX CHEVAUX 59360 LE CATEAU-CAMBRESIS",
+   "16 RUE DU MARCHE AUX CHEVAUX 59360 LE CATEAU-CAMBRESIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "433202892",
+  "sirets": [
+   "43320289200017",
+   "43320289200025"
+  ],
+  "osm": [],
+  "lat": 50.103581427,
+  "lon": 3.5457178291,
+  "statut": "ambigu",
+  "fiche": "Malterie-Brasserie Saint-Georges"
+ },
+ {
+  "cle": "sirene:977908557",
+  "nom": "JOYS",
+  "communes": [
+   "WAVRIN",
+   "HERLIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "43 RUE RAYMOND POINCARE 59136 WAVRIN",
+   "CHE DU BOIS CHOMBART 59134 HERLIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977908557",
+  "sirets": [
+   "97790855700019",
+   "97790855700027"
+  ],
+  "osm": [],
+  "lat": 50.5725368902759,
+  "lon": 2.94472518884109,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821499316",
+  "nom": "BRASSERIE DES DUNES DE FLANDRE",
+  "communes": [
+   "BRAY-DUNES",
+   "DUNKERQUE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "59 RUE ROGER SALENGRO 59123 BRAY-DUNES",
+   "33 BOULEVARD SAINTE BARBE 59140 DUNKERQUE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821499316",
+  "sirets": [
+   "82149931600015",
+   "82149931600023"
+  ],
+  "osm": [],
+  "lat": 51.070715962,
+  "lon": 2.5209847661,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823797766",
+  "nom": "BRASSERIE LILLOISE",
+  "communes": [
+   "RONCQ"
+  ],
+  "departement": "59",
+  "adresses": [
+   "24 AVENUE DE L'EUROPE 59223 RONCQ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "823797766",
+  "sirets": [
+   "82379776600024"
+  ],
+  "osm": [
+   "node/6924345335"
+  ],
+  "lat": 50.7535963230223,
+  "lon": 3.13155668833955,
+  "site": "http://www.brasserie-lilloise.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844637488",
+  "nom": "LA MOUSSERIE",
+  "communes": [
+   "MERIGNIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "458 RUE DE LA VERDERIE 59710 MERIGNIES",
+   "16A RUE DU PONT NAPLET 59710 MERIGNIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844637488",
+  "sirets": [
+   "84463748800017",
+   "84463748800025"
+  ],
+  "osm": [],
+  "lat": 50.501597199,
+  "lon": 3.1235362514,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850559287",
+  "nom": "BRIQUE HOUSE BREWERY",
+  "communes": [
+   "SAINT-ANDRE-LEZ-LILLE",
+   "FRETIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "LES HLE DE LA FILATURE 70 RUE FELIX FAURE 59350 SAINT-ANDRE-LEZ-LILLE",
+   "RUE DE LA CROIX WARESQUEL 1205 RUE DU CHEMIN VERT 59273 FRETIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850559287",
+  "sirets": [
+   "85055928700014",
+   "85055928700022"
+  ],
+  "osm": [],
+  "lat": 50.667365169,
+  "lon": 3.0560533438,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:854024254",
+  "nom": "LA BRASSERIE DU GOULOT",
+  "communes": [
+   "ROUBAIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "91 BOULEVARD DE FOURMIES 59100 ROUBAIX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "854024254",
+  "sirets": [
+   "85402425400013"
+  ],
+  "osm": [
+   "node/9254514750"
+  ],
+  "lat": 50.6757672849303,
+  "lon": 3.18162736500039,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812526374",
+  "nom": "AHBA",
+  "communes": [
+   "RONCQ"
+  ],
+  "departement": "59",
+  "adresses": [
+   "4 RUE PIERRE-ANTOINE DELAHOUSSE 59223 RONCQ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812526374",
+  "sirets": [
+   "81252637400036"
+  ],
+  "osm": [],
+  "lat": 50.76297618,
+  "lon": 3.1237863196,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:937543726",
+  "nom": "BRASSERIE-DISTILLERIE LGD",
+  "communes": [
+   "MERIGNIES",
+   "TEMPLEUVE-EN-PEVELE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "30 ALLEE DU BOSQUET 59710 MERIGNIES",
+   "27 RUE DE LA GRANDE CAMPAGNE 59242 TEMPLEUVE-EN-PEVELE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "937543726",
+  "sirets": [
+   "93754372600015",
+   "93754372600031"
+  ],
+  "osm": [],
+  "lat": 50.5095629256144,
+  "lon": 3.13602302075733,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:331859496",
+  "nom": "ENTREPOT DE LA BRASSERIE 3 MONTS",
+  "communes": [
+   "SAINT-SYLVESTRE-CAPPEL",
+   "STEENVOORDE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1 RUE DE LA CHAPELLE 59114 SAINT-SYLVESTRE-CAPPEL",
+   "5 RUE DE LA BELLE HELENE 59114 STEENVOORDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "331859496",
+  "sirets": [
+   "33185949600019",
+   "33185949600027"
+  ],
+  "osm": [],
+  "lat": 50.778012342,
+  "lon": 2.5546187134,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839053329",
+  "nom": "ADVENTICE / BARAGOUIN",
+  "communes": [
+   "DOUAI"
+  ],
+  "departement": "59",
+  "adresses": [
+   "66 RUE DE PARIS 59500 DOUAI",
+   "26 RUE DES CLARISSES 59500 DOUAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839053329",
+  "sirets": [
+   "83905332900018",
+   "83905332900026"
+  ],
+  "osm": [],
+  "lat": 50.3671286832505,
+  "lon": 3.08136442560081,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:879235901",
+  "nom": "SAS BRASSERIE DE LA VILLETTE",
+  "communes": [
+   "SAULTAIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "10 AVENUE HENRI BARBUSSE 59990 SAULTAIN",
+   "7 AVENUE HENRI BARBUSSE 59990 SAULTAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879235901",
+  "sirets": [
+   "87923590100011",
+   "87923590100029"
+  ],
+  "osm": [],
+  "lat": 50.339196357,
+  "lon": 3.5682601102,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:887847846",
+  "nom": "LA CAMBERLOTE",
+  "communes": [
+   "NIERGNIES",
+   "CREVECOEUR SUR L'ESCAUT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "15 RUE DU CHATEAU 59400 NIERGNIES",
+   "CHEVRERIE BONNE ENFANCE 59258 CREVECOEUR SUR L'ESCAUT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "887847846",
+  "sirets": [
+   "88784784600011",
+   "88784784600029"
+  ],
+  "osm": [],
+  "lat": 50.150172721,
+  "lon": 3.2573658816,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:423838788",
+  "nom": "BRASSERIE AU BARON",
+  "communes": [
+   "GUSSIGNIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 RUE DU PIEMONT 59570 GUSSIGNIES",
+   "4 RUE DU PIEMONT 59570 GUSSIGNIES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "423838788",
+  "sirets": [
+   "42383878800010",
+   "42383878800028"
+  ],
+  "osm": [
+   "node/2407350987"
+  ],
+  "lat": 50.336361411,
+  "lon": 3.737563082,
+  "site": "https://www.brasserieaubaron.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914873187",
+  "nom": "BRASSERIE FIVES CAIL",
+  "communes": [
+   "VILLENEUVE-D'ASCQ",
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "BATIMENT A2A 51 RUE TREMIERE 59650 VILLENEUVE-D'ASCQ",
+   "FIVES CAIL 22 PLACE DES OUVRIERS 59800 LILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914873187",
+  "sirets": [
+   "91487318700019",
+   "91487318700027"
+  ],
+  "osm": [],
+  "lat": 50.622271146,
+  "lon": 3.1357798434,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:819868043",
+  "nom": "BAR DU SINGE SAVANT",
+  "communes": [
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "134 RUE D'ARRAS 59000 LILLE",
+   "94 RUE D'ARRAS 59000 LILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "819868043",
+  "sirets": [
+   "81986804300020",
+   "81986804300038"
+  ],
+  "osm": [
+   "node/12625419255"
+  ],
+  "lat": 50.621265712,
+  "lon": 3.0658825091,
+  "site": "https://www.singe-savant.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979230703",
+  "nom": "PIXEL BREWERY",
+  "communes": [
+   "TOURCOING"
+  ],
+  "departement": "59",
+  "adresses": [
+   "8 RUE DE L' ESPIERRE 59200 TOURCOING",
+   "9 RUE DE LILLE 59200 TOURCOING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979230703",
+  "sirets": [
+   "97923070300014",
+   "97923070300022"
+  ],
+  "osm": [],
+  "lat": 50.71513693,
+  "lon": 3.1538941446,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978050458",
+  "nom": "LA FOLIE MOUSSE",
+  "communes": [
+   "AIX-EN-PEVELE",
+   "ROSULT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "263 RUE GASTON VERITE 59310 AIX-EN-PEVELE",
+   "525 RUE DU FAUBOURG 59230 ROSULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978050458",
+  "sirets": [
+   "97805045800014",
+   "97805045800022"
+  ],
+  "osm": [],
+  "lat": 50.490253731,
+  "lon": 3.291585826,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:842679706",
+  "nom": "BRASSERIE TRADITIONNELLE DE L'AVESNOIS",
+  "communes": [
+   "RUESNES",
+   "LE QUESNOY"
+  ],
+  "departement": "59",
+  "adresses": [
+   "24 RESIDENCE DE LA COIGNEE 59530 RUESNES",
+   "11 B ROUTE DE VALENCIENNES 59530 LE QUESNOY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842679706",
+  "sirets": [
+   "84267970600015",
+   "84267970600023"
+  ],
+  "osm": [
+   "node/8071714844"
+  ],
+  "lat": 50.260295452,
+  "lon": 3.5897981353,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900326216",
+  "nom": "LES TROIS CANTONS",
+  "communes": [
+   "JEUMONT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "157 RUE LEON GAMBETTA 59460 JEUMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900326216",
+  "sirets": [
+   "90032621600018"
+  ],
+  "osm": [],
+  "lat": 50.293996476,
+  "lon": 4.0963257698,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904487394",
+  "nom": "WESTHOEK BREWERY",
+  "communes": [
+   "BERGUES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "L'ABBATOIR PLACE DU MARCHE AUX FROMAGES 59380 BERGUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "904487394",
+  "sirets": [
+   "90448739400010"
+  ],
+  "osm": [
+   "node/14113621759"
+  ],
+  "lat": 50.971119062,
+  "lon": 2.4306137219,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:919300202",
+  "nom": "SAST BREWERY",
+  "communes": [
+   "GHYVELDE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 A RUE DU LAC 59122 GHYVELDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "919300202",
+  "sirets": [
+   "91930020200026"
+  ],
+  "osm": [],
+  "lat": 51.053345241,
+  "lon": 2.5240633778,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:451878342",
+  "nom": "BRASSERIE BREWEPPES",
+  "communes": [
+   "HERLIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "10 RUE DES CHARRONS 59134 HERLIES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "451878342",
+  "sirets": [
+   "45187834200042"
+  ],
+  "osm": [
+   "node/9243491714"
+  ],
+  "lat": 50.569364845,
+  "lon": 2.8497001319,
+  "site": "https://www.breweppes.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:837646314",
+  "nom": "BRASSERIE SAINT-HUMBERT",
+  "communes": [
+   "MAROILLES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "24 GRANDE RUE 59550 MAROILLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "837646314",
+  "sirets": [
+   "83764631400018"
+  ],
+  "osm": [],
+  "lat": 50.133663589827,
+  "lon": 3.75824150899799,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931517692",
+  "nom": "BRC - BLAISE ROCHET CONSEIL",
+  "communes": [
+   "FAUMONT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1080 RUE COLETTE 59310 FAUMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931517692",
+  "sirets": [
+   "93151769200014"
+  ],
+  "osm": [],
+  "lat": 50.464839661,
+  "lon": 3.1227434097,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942500026",
+  "nom": "BRASSERIE ARTISANALE DU PAYS DU NORD",
+  "communes": [
+   "MASNY"
+  ],
+  "departement": "59",
+  "adresses": [
+   "4 RUE DE MONCHECOURT 59176 MASNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "942500026",
+  "sirets": [
+   "94250002600011"
+  ],
+  "osm": [],
+  "lat": 50.3340439665034,
+  "lon": 3.20534468470304,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "NEUVILLE-EN-AVESNOIS"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:814728093",
+  "nom": "BRASSERIE DU MONT CASSEL",
+  "communes": [
+   "CASSEL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "340 ROUTE DE DUNKERQUE 59670 CASSEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814728093",
+  "sirets": [
+   "81472809300018"
+  ],
+  "osm": [],
+  "lat": 50.801111219,
+  "lon": 2.4881049149,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931184840",
+  "nom": "BRASSERIE DU PAS ROLAND",
+  "communes": [
+   "MONS-EN-PEVELE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "125 RUE DE L'ABBAYE 59246 MONS-EN-PEVELE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931184840",
+  "sirets": [
+   "93118484000011"
+  ],
+  "osm": [],
+  "lat": 50.478202859,
+  "lon": 3.1014883044,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:944373968",
+  "nom": "BRASSERIE MOUSS'TIER",
+  "communes": [
+   "MOUSTIER-EN-FAGNE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 RUE DU PONT DUSQUE 59132 MOUSTIER-EN-FAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "944373968",
+  "sirets": [
+   "94437396800014"
+  ],
+  "osm": [],
+  "lat": 50.0913306360642,
+  "lon": 4.19598239135296,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979012101",
+  "nom": "BAD",
+  "communes": [
+   "CUINCY"
+  ],
+  "departement": "59",
+  "adresses": [
+   "176 RUE SUZANNE LANOY 59553 CUINCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979012101",
+  "sirets": [
+   "97901210100015"
+  ],
+  "osm": [],
+  "lat": 50.381271551,
+  "lon": 3.0470204591,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847500006",
+  "nom": "TIZOTE",
+  "communes": [
+   "ESCAUDAIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "132 RUE VICTOR HUGO 59124 ESCAUDAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847500006",
+  "sirets": [
+   "84750000600022"
+  ],
+  "osm": [],
+  "lat": 50.3317915670148,
+  "lon": 3.35564854462177,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849903406",
+  "nom": "TRIPOINT BREW CO",
+  "communes": [
+   "TOURCOING"
+  ],
+  "departement": "59",
+  "adresses": [
+   "211 RUE INGRES 59200 TOURCOING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849903406",
+  "sirets": [
+   "84990340600015"
+  ],
+  "osm": [],
+  "lat": 50.73660197,
+  "lon": 3.1541325694,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850181884",
+  "nom": "LA GRIFFE DE FLANDRES",
+  "communes": [
+   "NEUF-BERQUIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "95 RUE FERDINAND CAPELLE 59940 NEUF-BERQUIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850181884",
+  "sirets": [
+   "85018188400014"
+  ],
+  "osm": [],
+  "lat": 50.654048344,
+  "lon": 2.6604469987,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852159938",
+  "nom": "BRASSERIE D'ARREWAGE",
+  "communes": [
+   "MERVILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 RUE DU MOULIN D'ARREWAGE 59660 MERVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852159938",
+  "sirets": [
+   "85215993800012"
+  ],
+  "osm": [],
+  "lat": 50.672334647,
+  "lon": 2.6137356925,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:877578492",
+  "nom": "G.A.N.G BEER FACTORY",
+  "communes": [
+   "TOURCOING"
+  ],
+  "departement": "59",
+  "adresses": [
+   "52 RUE JEAN BART 59200 TOURCOING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "877578492",
+  "sirets": [
+   "87757849200010"
+  ],
+  "osm": [],
+  "lat": 50.731891647,
+  "lon": 3.1554135704,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:421792102",
+  "nom": "MOULINS D'ASCQ",
+  "communes": [
+   "VILLENEUVE-D'ASCQ"
+  ],
+  "departement": "59",
+  "adresses": [
+   "47 RUE DE LA DISTILLERIE 59493 VILLENEUVE-D'ASCQ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "421792102",
+  "sirets": [
+   "42179210200020"
+  ],
+  "osm": [
+   "node/895300963"
+  ],
+  "lat": 50.606385997,
+  "lon": 3.1656609535,
+  "site": "https://www.moulinsdascq.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "ENGLEFONTAINE"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:879940963",
+  "nom": "BRASSERIE ARTISANALE DES LIONS",
+  "communes": [
+   "RONCQ"
+  ],
+  "departement": "59",
+  "adresses": [
+   "5 B RUE PASTEUR 59223 RONCQ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "879940963",
+  "sirets": [
+   "87994096300017"
+  ],
+  "osm": [
+   "node/11338554724"
+  ],
+  "lat": 50.740087634,
+  "lon": 3.1155781658,
+  "site": "https://brasseriedeslions.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:887572196",
+  "nom": "LES TOURS DU MALT",
+  "communes": [
+   "HEM"
+  ],
+  "departement": "59",
+  "adresses": [
+   "36 RUE BRAQUAVAL 59510 HEM"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "887572196",
+  "sirets": [
+   "88757219600012"
+  ],
+  "osm": [
+   "node/8705315658"
+  ],
+  "lat": 50.6609844302489,
+  "lon": 3.20361630222783,
+  "site": "https://www.lestoursdumalt.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905207031",
+  "nom": "GANG DE BRASSEURS",
+  "communes": [
+   "LANDAS"
+  ],
+  "departement": "59",
+  "adresses": [
+   "279 CHEMIN DE LA JUSTICE 59310 LANDAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "905207031",
+  "sirets": [
+   "90520703100014"
+  ],
+  "osm": [],
+  "lat": 50.4844273858214,
+  "lon": 3.26876913859776,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899089353",
+  "nom": "BEERSANDCLO",
+  "communes": [
+   "WASQUEHAL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "3 RUE DE ROUBAIX 59290 WASQUEHAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899089353",
+  "sirets": [
+   "89908935300028"
+  ],
+  "osm": [],
+  "lat": 50.6872804034905,
+  "lon": 3.14684895903254,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:481915163",
+  "nom": "BRASSERIE DES SOURCES",
+  "communes": [
+   "SAINT-AMAND-LES-EAUX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 AVENUE DU COLLEGE 59230 SAINT-AMAND-LES-EAUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "481915163",
+  "sirets": [
+   "48191516300010"
+  ],
+  "osm": [
+   "node/12459647701"
+  ],
+  "lat": 50.446887578,
+  "lon": 3.4398821874,
+  "site": "https://brasseriedessources.fr",
+  "statut": "ambigu",
+  "fiche": "Brasserie des sources de l'Ouche"
+ },
+ {
+  "cle": "sirene:813608502",
+  "nom": "LA BRASSERIE DU CAOU",
+  "communes": [
+   "MERVILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "67 RUE VALENTIN DURIEZ 59660 MERVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813608502",
+  "sirets": [
+   "81360850200015"
+  ],
+  "osm": [],
+  "lat": 50.650663719,
+  "lon": 2.6158321708,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917407371",
+  "nom": "MONSIEUR PAON",
+  "communes": [
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "53 RUE BLANCHE 59800 LILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917407371",
+  "sirets": [
+   "91740737100017"
+  ],
+  "osm": [],
+  "lat": 50.640286182,
+  "lon": 3.0851360859,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938199379",
+  "nom": "BRASSERIE DU HERON",
+  "communes": [
+   "SAINT-SAULVE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "9 RUE DUCHESNOIS 59880 SAINT-SAULVE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938199379",
+  "sirets": [
+   "93819937900018"
+  ],
+  "osm": [],
+  "lat": 50.3688577755985,
+  "lon": 3.54807327802519,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938920220",
+  "nom": "BRASSERIE DES PACHAS",
+  "communes": [
+   "QUERENAING"
+  ],
+  "departement": "59",
+  "adresses": [
+   "61 RUE JEAN MONNET 59269 QUERENAING"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "938920220",
+  "sirets": [
+   "93892022000010"
+  ],
+  "osm": [
+   "node/6129074102"
+  ],
+  "lat": 50.2870217613765,
+  "lon": 3.51385140295595,
+  "site": "https://terreettradition.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "SAINGHIN-EN-MELANTOIS"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:951679703",
+  "nom": "BRASSERIE DUCHAUX & DEZANDRE",
+  "communes": [
+   "AUBIGNY-AU-BAC"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1 RUE LOUIS PASTEUR 59265 AUBIGNY-AU-BAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951679703",
+  "sirets": [
+   "95167970300011"
+  ],
+  "osm": [],
+  "lat": 50.264046697,
+  "lon": 3.1634178158,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "HONNECOURT-SUR-ESCAUT"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:978797470",
+  "nom": "BRASSERIE MALTERIE CAMBRESIENNE",
+  "communes": [
+   "CAMBRAI"
+  ],
+  "departement": "59",
+  "adresses": [
+   "114 RUE DE CAUDRY 59400 CAMBRAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978797470",
+  "sirets": [
+   "97879747000017"
+  ],
+  "osm": [],
+  "lat": 50.1700705184393,
+  "lon": 3.24767650641531,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942881103",
+  "nom": "LA BONNE PLANQUE",
+  "communes": [
+   "AVESNES-SUR-HELPE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "55 AVENUE STROH 59440 AVESNES-SUR-HELPE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "942881103",
+  "sirets": [
+   "94288110300017"
+  ],
+  "osm": [],
+  "lat": 50.1294682192104,
+  "lon": 3.93734075896919,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "DOMPIERRE-SUR-HELPE"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:984551341",
+  "nom": "LA GLORIEUSE",
+  "communes": [
+   "MONCEAU-SAINT-WAAST"
+  ],
+  "departement": "59",
+  "adresses": [
+   "246 RUE DE LA BRASSERIE 59620 MONCEAU-SAINT-WAAST"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984551341",
+  "sirets": [
+   "98455134100014"
+  ],
+  "osm": [],
+  "lat": 50.174113951,
+  "lon": 3.8541463859,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:513655258",
+  "nom": "BRASSERIE DK",
+  "communes": [
+   "METEREN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "ZA DE LA HOUBLONNIERE ROUTE NATIONALE 59270 METEREN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "513655258",
+  "sirets": [
+   "51365525800020"
+  ],
+  "osm": [],
+  "lat": 50.741995632,
+  "lon": 2.6825319418,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "BRY"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:844458828",
+  "nom": "LA FABRIQ'",
+  "communes": [
+   "RACHES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "60 QUAI DU CANAL 59194 RACHES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "844458828",
+  "sirets": [
+   "84445882800010"
+  ],
+  "osm": [
+   "node/6443063928"
+  ],
+  "lat": 50.41168573,
+  "lon": 3.1313740471,
+  "site": "https://www.brasserielafabriq.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "CLARY"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:999923618",
+  "nom": "VIEUX FRERES",
+  "communes": [
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "21 RUE TRAVERSIERE 59800 LILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "999923618",
+  "sirets": [
+   "99992361800014"
+  ],
+  "osm": [],
+  "lat": 50.6355367538662,
+  "lon": 3.08553266992278,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879187698",
+  "nom": "BRASSERIE DES BARBES BLANCHES",
+  "communes": [
+   "AVELIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "14 RUE DE LA BECQUE 59710 AVELIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879187698",
+  "sirets": [
+   "87918769800011"
+  ],
+  "osm": [],
+  "lat": 50.5242938892229,
+  "lon": 3.07553256898947,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879679868",
+  "nom": "BRASSERIE BONNE BIERE BB",
+  "communes": [
+   "HERIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "36 T RUE EMILE ZOLA 59195 HERIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879679868",
+  "sirets": [
+   "87967986800015"
+  ],
+  "osm": [],
+  "lat": 50.350259067,
+  "lon": 3.4512268766,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:408751105",
+  "nom": "BRASSERIE THIRIEZ",
+  "communes": [
+   "ESQUELBECQ"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 RUE DU VERT VALLON 59470 ESQUELBECQ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "408751105",
+  "sirets": [
+   "40875110500029"
+  ],
+  "osm": [
+   "node/6067309792"
+  ],
+  "lat": 50.8843749993933,
+  "lon": 2.4329015178934,
+  "site": "http://www.brasseriethiriez.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "LA LONGUEVILLE"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:901254128",
+  "nom": "AU DELA",
+  "communes": [
+   "VALENCIENNES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "148 RUE DEPORTES DU TRAIN DE LOOS 59300 VALENCIENNES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "901254128",
+  "sirets": [
+   "90125412800019"
+  ],
+  "osm": [
+   "way/110129718"
+  ],
+  "lat": 50.356287469,
+  "lon": 3.5173036727,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:903090686",
+  "nom": "BRASSERIE DU MARISCHON",
+  "communes": [
+   "TRESSIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1 CHEMIN DU MARISCHON 59152 TRESSIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "903090686",
+  "sirets": [
+   "90309068600010"
+  ],
+  "osm": [],
+  "lat": 50.613108056,
+  "lon": 3.1944892807,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904336518",
+  "nom": "AMBLISE",
+  "communes": [
+   "CRESPIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "42 RUE DU MOULIN 59154 CRESPIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "904336518",
+  "sirets": [
+   "90433651800017"
+  ],
+  "osm": [
+   "node/12778809916"
+  ],
+  "lat": 50.4214931539193,
+  "lon": 3.66541192965653,
+  "site": "https://brasseriedamblise.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812308088",
+  "nom": "BRASSERIE DE THIERACHE",
+  "communes": [
+   "OHAIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "33 RUE DU BOCAGE 59132 OHAIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "812308088",
+  "sirets": [
+   "81230808800010"
+  ],
+  "osm": [
+   "way/90653151"
+  ],
+  "lat": 50.046902022135,
+  "lon": 4.11517397733385,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922464227",
+  "nom": "BRASSERIE KMEHO",
+  "communes": [
+   "NIVELLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "985 RUE D'EN BAS 59230 NIVELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922464227",
+  "sirets": [
+   "92246422700011"
+  ],
+  "osm": [],
+  "lat": 50.4636748223989,
+  "lon": 3.48395747305912,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:458506870",
+  "nom": "BRASSERIE ANGELUS",
+  "communes": [
+   "DOUAI"
+  ],
+  "departement": "59",
+  "adresses": [
+   "185 RUE LEO LAGRANGE 59500 DOUAI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "458506870",
+  "sirets": [
+   "45850687000039"
+  ],
+  "osm": [],
+  "lat": 50.356228461195,
+  "lon": 3.08580605269454,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": "LA FRATERNELLE",
+  "communes": [
+   "SOLRE-LE-CHATEAU"
+  ],
+  "departement": "59",
+  "adresses": [
+   "8 TER 8 RUE DE LIESSIES 59740 SOLRE-LE-CHATEAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/10647389977"
+  ],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:492713250",
+  "nom": "BRASSERIE DU PAYS FLAMAND",
+  "communes": [
+   "MERVILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "ZONE D ACTIVITE DE LA RIVIERE D OR 83 ROUTE DE LA GORGUE 59660 MERVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "492713250",
+  "sirets": [
+   "49271325000032"
+  ],
+  "osm": [],
+  "lat": 50.637194953,
+  "lon": 2.6526794371,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942012089",
+  "nom": "NOORDIC",
+  "communes": [
+   "PREMESQUES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "DOMAINE DU VAL SAINT-AUBERT 59840 PREMESQUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "942012089",
+  "sirets": [
+   "94201208900010"
+  ],
+  "osm": [],
+  "lat": 50.65893809195,
+  "lon": 2.94988224563747,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "WORMHOUT"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:945106425",
+  "nom": "CERVISIA FLANDRIA",
+  "communes": [
+   "LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "111 RUE BERTHE MORISOT 59800 LILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "945106425",
+  "sirets": [
+   "94510642500016"
+  ],
+  "osm": [],
+  "lat": 50.628480344359,
+  "lon": 3.08168388864765,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823862388",
+  "nom": "WAALE",
+  "communes": [
+   "WASQUEHAL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "12 RUE DE MARCQ-EN-BAROEUL 59290 WASQUEHAL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "823862388",
+  "sirets": [
+   "82386238800043"
+  ],
+  "osm": [
+   "node/6196431146"
+  ],
+  "lat": 50.6710328342881,
+  "lon": 3.12360185559391,
+  "site": "https://www.waale.beer/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "NIERGNIES"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:934668047",
+  "nom": "LA SPONTANERIE",
+  "communes": [
+   "BLARINGHEM"
+  ],
+  "departement": "59",
+  "adresses": [
+   "425 RUE ANDRE PLOCKYN 59173 BLARINGHEM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "934668047",
+  "sirets": [
+   "93466804700012"
+  ],
+  "osm": [],
+  "lat": 50.6909173731426,
+  "lon": 2.39795492076549,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814156220",
+  "nom": "MICRO BRASSERIE HARDY",
+  "communes": [
+   "QUESNOY-SUR-DEULE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "117 RUE DE LILLE 59890 QUESNOY-SUR-DEULE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814156220",
+  "sirets": [
+   "81415622000026"
+  ],
+  "osm": [
+   "node/11338554723"
+  ],
+  "lat": 50.708490483,
+  "lon": 3.0043457583,
+  "site": "https://brasserie-hardy.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951781640",
+  "nom": "BDS",
+  "communes": [
+   "SOLESMES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "53 RUE DE L'ABBAYE 59730 SOLESMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951781640",
+  "sirets": [
+   "95178164000010"
+  ],
+  "osm": [],
+  "lat": 50.18113927,
+  "lon": 3.4996412883,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "DUNKERQUE"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:988275574",
+  "nom": "BREWICK",
+  "communes": [
+   "CRAYWICK"
+  ],
+  "departement": "59",
+  "adresses": [
+   "107 RUE DE L'AVEN RD 17 59279 CRAYWICK"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "988275574",
+  "sirets": [
+   "98827557400016"
+  ],
+  "osm": [],
+  "lat": 50.9688966441143,
+  "lon": 2.2347898776843,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849297262",
+  "nom": "BRASSERIE DES 4 ECLUSES",
+  "communes": [
+   "DUNKERQUE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "QUAI DES QUATRE ECLUSES 59140 DUNKERQUE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849297262",
+  "sirets": [
+   "84929726200016"
+  ],
+  "osm": [],
+  "lat": 51.02972869,
+  "lon": 2.3805918136,
+  "statut": "ambigu",
+  "fiche": "La Brasserie des Écluses"
+ },
+ {
+  "cle": "personne:14",
+  "nom": null,
+  "communes": [
+   "PHALEMPIN"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:848757126",
+  "nom": "BRASSERIE TANDEM",
+  "communes": [
+   "WAMBRECHIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "382 RUE DE BONDUES 59118 WAMBRECHIES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "848757126",
+  "sirets": [
+   "84875712600026"
+  ],
+  "osm": [
+   "node/10276271181"
+  ],
+  "lat": 50.6884375111119,
+  "lon": 3.06459316366562,
+  "site": "https://www.brasserie-tandem.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848657839",
+  "nom": "BRASSERIES MOTTE CORDONNIER",
+  "communes": [
+   "ARMENTIERES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "ZONE EURALYS 4 AV PIERRE MAUROY 59280 ARMENTIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848657839",
+  "sirets": [
+   "84865783900017"
+  ],
+  "osm": [],
+  "lat": 50.69010199999999,
+  "lon": 2.870672,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893125484",
+  "nom": "DADDY BREW",
+  "communes": [
+   "WAZIERS"
+  ],
+  "departement": "59",
+  "adresses": [
+   "28 RUE PAUL VAILLANT-COUTURIER 59119 WAZIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893125484",
+  "sirets": [
+   "89312548400012"
+  ],
+  "osm": [],
+  "lat": 50.383127555,
+  "lon": 3.1004183799,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:15",
+  "nom": null,
+  "communes": [
+   "NOYELLES-LES-SECLIN"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:424632511",
+  "nom": "ZANNEKIN",
+  "communes": [
+   "CASSEL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1643 ROUTE DE DUNKERQUE 59670 CASSEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "424632511",
+  "sirets": [
+   "42463251100012"
+  ],
+  "osm": [],
+  "lat": 50.808242688,
+  "lon": 2.4845464409,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:16",
+  "nom": "LA MAD' BREWHOUSE",
+  "communes": [
+   "LA MADELEINE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "2 RUE BERTHELOT 59110 LA MADELEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880083738",
+  "nom": "BRASSERIE DU GORGUECHON",
+  "communes": [
+   "MONCHEAUX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "46 RUE DE LESTREZ 59283 MONCHEAUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "880083738",
+  "sirets": [
+   "88008373800018"
+  ],
+  "osm": [
+   "node/12459213502"
+  ],
+  "lat": 50.453498502,
+  "lon": 3.0783740261,
+  "site": "https://brasseriedugorguechon.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824167787",
+  "nom": "BRASSERIE BELLENAERT",
+  "communes": [
+   "BAILLEUL"
+  ],
+  "departement": "59",
+  "adresses": [
+   "4662 ROUTE DE LA BELLE CROIX 59270 BAILLEUL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824167787",
+  "sirets": [
+   "82416778700012"
+  ],
+  "osm": [],
+  "lat": 50.713261342,
+  "lon": 2.684096401,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820392017",
+  "nom": "LA BARB DU HAINAUT",
+  "communes": [
+   "THIANT"
+  ],
+  "departement": "59",
+  "adresses": [
+   "PARC D ACTIVITES DE LA VALLEE PARC ACTIVITE VALLEE ECAILLON 59224 THIANT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820392017",
+  "sirets": [
+   "82039201700019"
+  ],
+  "osm": [],
+  "lat": 50.305005703,
+  "lon": 3.4617676456,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978615714",
+  "nom": "BRASSERIE DENELE",
+  "communes": [
+   "MARQUETTE-LEZ-LILLE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "250 RUE PASTEUR 59520 MARQUETTE-LEZ-LILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978615714",
+  "sirets": [
+   "97861571400018"
+  ],
+  "osm": [],
+  "lat": 50.6734655429559,
+  "lon": 3.05299192224666,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831031216",
+  "nom": "L'ATELIER D'ARTHUR",
+  "communes": [
+   "ILLIES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1 RUE DES SOURCES 59480 ILLIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831031216",
+  "sirets": [
+   "83103121600011"
+  ],
+  "osm": [],
+  "lat": 50.564279614,
+  "lon": 2.8331464118,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:789830379",
+  "nom": "BRASSERIE DU PAVE",
+  "communes": [
+   "ENNEVELIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "ZA DE LA PLANQUE 26 RUE NICEPHORE NIEPCE 59710 ENNEVELIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "789830379",
+  "sirets": [
+   "78983037900028"
+  ],
+  "osm": [],
+  "lat": 50.519790733,
+  "lon": 3.1296437345,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:17",
+  "nom": null,
+  "communes": [
+   "VALENCIENNES"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:909446254",
+  "nom": "CHIC'ON BRASSE",
+  "communes": [
+   "MARCOING"
+  ],
+  "departement": "59",
+  "adresses": [
+   "RUE DE LA GARE 59159 MARCOING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909446254",
+  "sirets": [
+   "90944625400015"
+  ],
+  "osm": [],
+  "lat": 50.122063086,
+  "lon": 3.1833905746,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:339398752",
+  "nom": "BRASSERIE LA CHOULETTE",
+  "communes": [
+   "HORDAIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "16 RUE DES ECOLES 59111 HORDAIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "339398752",
+  "sirets": [
+   "33939875200016"
+  ],
+  "osm": [
+   "node/6067309744"
+  ],
+  "lat": 50.260126097,
+  "lon": 3.3134003215,
+  "site": "https://www.lachoulette.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920697638",
+  "nom": "SAS HEMINBIERE",
+  "communes": [
+   "SANTES"
+  ],
+  "departement": "59",
+  "adresses": [
+   "66 ALLEE CATELAINE 59211 SANTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920697638",
+  "sirets": [
+   "92069763800020"
+  ],
+  "osm": [],
+  "lat": 50.5981415962291,
+  "lon": 2.96312605469887,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802817635",
+  "nom": "BRASSERIE CAMBIER",
+  "communes": [
+   "CROIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "251 RUE JEAN MONNET 59170 CROIX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "802817635",
+  "sirets": [
+   "80281763500047"
+  ],
+  "osm": [
+   "node/4688439590"
+  ],
+  "lat": 50.6802751855827,
+  "lon": 3.14100648702796,
+  "site": "http://www.brasserie-cambier.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983619198",
+  "nom": "BRASSERIE BREWBAIX",
+  "communes": [
+   "ROUBAIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "26 RUE DES FABRICANTS 59100 ROUBAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983619198",
+  "sirets": [
+   "98361919800010"
+  ],
+  "osm": [],
+  "lat": 50.690481265,
+  "lon": 3.1717129229,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:18",
+  "nom": null,
+  "communes": [
+   "LALLAING"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:852293547",
+  "nom": "BRASSERIE DES LYS",
+  "communes": [
+   "ROUBAIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "89 RUE DE TOURCOING 59100 ROUBAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852293547",
+  "sirets": [
+   "85229354700026"
+  ],
+  "osm": [],
+  "lat": 50.70237479,
+  "lon": 3.1713722821,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878159540",
+  "nom": "BRASSERIE LES 4 TILLEULS",
+  "communes": [
+   "PHALEMPIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "1C RUE AUGUSTE DUPUIS 59133 PHALEMPIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878159540",
+  "sirets": [
+   "87815954000011"
+  ],
+  "osm": [],
+  "lat": 50.517609361,
+  "lon": 3.0187646205,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:401162201",
+  "nom": "BRASSERIE DUYCK",
+  "communes": [
+   "JENLAIN"
+  ],
+  "departement": "59",
+  "adresses": [
+   "ROUTE NATIONALE 59144 JENLAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "401162201",
+  "sirets": [
+   "40116220100024"
+  ],
+  "osm": [],
+  "lat": 50.31422628,
+  "lon": 3.6261204624,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:19",
+  "nom": null,
+  "communes": [
+   "ALLENNES-LES-MARAIS"
+  ],
+  "departement": "59",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:850553710",
+  "nom": "BREWBAIX, COLLECTIF DES MICRO-BRASSEURS ROUBAISIENS",
+  "communes": [
+   "ROUBAIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "47 RUE DU LUXEMBOURG 59100 ROUBAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850553710",
+  "sirets": [
+   "85055371000011"
+  ],
+  "osm": [],
+  "lat": 50.6915936233955,
+  "lon": 3.1574096088748,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848563201",
+  "nom": "BRASSERIE DU PINTHUS",
+  "communes": [
+   "ROUBAIX"
+  ],
+  "departement": "59",
+  "adresses": [
+   "47 RUE DU LUXEMBOURG 59100 ROUBAIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848563201",
+  "sirets": [
+   "84856320100013"
+  ],
+  "osm": [],
+  "lat": 50.6915936233955,
+  "lon": 3.1574096088748,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852026376",
+  "nom": "ALPZ",
+  "communes": [
+   "GODEWAERSVELDE"
+  ],
+  "departement": "59",
+  "adresses": [
+   "105 RUE DE STEENVOORDE 59270 GODEWAERSVELDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852026376",
+  "sirets": [
+   "85202637600016"
+  ],
+  "osm": [],
+  "lat": 50.793452429,
+  "lon": 2.6409946305,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10186505081",
+  "nom": "Brasserie Historique de l'Abbaye du Cateau",
+  "communes": [
+   "Le Cateau-Cambrésis"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10186505081"
+  ],
+  "lat": 50.1034,
+  "lon": 3.54472,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10730714849",
+  "nom": "Brasserie Hommelpap",
+  "communes": [
+   "Bailleul"
+  ],
+  "departement": "59",
+  "adresses": [
+   "59270"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10730714849"
+  ],
+  "lat": 50.73654,
+  "lon": 2.76667,
+  "site": "https://www.fermebeck.net/brasseur",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10734692924",
+  "nom": "Kino Beer",
+  "communes": [
+   "Lille"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10734692924"
+  ],
+  "lat": 50.64398,
+  "lon": 3.05883,
+  "site": "http://www.kinobeer.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10810838504",
+  "nom": "Nano brasserie du Colibri",
+  "communes": [
+   "Sequedin"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10810838504"
+  ],
+  "lat": 50.63137,
+  "lon": 3.00818,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10881748933",
+  "nom": "Brasserie de Wagnonville",
+  "communes": [
+   "Flers-en-Escrebieux"
+  ],
+  "departement": "59",
+  "adresses": [
+   "458 Rue de la Motte Julien, 59500"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10881748933"
+  ],
+  "lat": 50.39129,
+  "lon": 3.06688,
+  "site": "https://wagnonville.fr/exploitations-la-brasserie",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10895448847",
+  "nom": "Jag&Suk",
+  "communes": [
+   "Bourghelles"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10895448847"
+  ],
+  "lat": 50.56317,
+  "lon": 3.23989,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11366210064",
+  "nom": "Brasserie Deplus",
+  "communes": [
+   "Camphin-en-Carembault"
+  ],
+  "departement": "59",
+  "adresses": [
+   "19 Rue du Moulin, Camphin-en-Carembault"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11366210064"
+  ],
+  "lat": 50.51472,
+  "lon": 2.98071,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11518982458",
+  "nom": "Houblons-Nous",
+  "communes": [
+   "Lambersart"
+  ],
+  "departement": "59",
+  "adresses": [
+   "50 Rue de Cassel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11518982458"
+  ],
+  "lat": 50.63382,
+  "lon": 3.02782,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11991484027",
+  "nom": "Brasserie du Pays Flamand (Blaringhem)",
+  "communes": [
+   "Blaringhem"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11991484027"
+  ],
+  "lat": 50.69102,
+  "lon": 2.39784,
+  "site": "http://www.brasseriedupaysflamand.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12459628301",
+  "nom": "Brasserie Motte-Cordonnier",
+  "communes": [
+   "Armentières"
+  ],
+  "departement": "59",
+  "adresses": [
+   "4 Avenue Pierre Mauroy, 59280"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12459628301"
+  ],
+  "lat": 50.68919,
+  "lon": 2.86491,
+  "site": "https://bieresmottecordonnier.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12513030601",
+  "nom": "Monsieur Paon / Brasserie Craft",
+  "communes": [
+   "Mons-en-Barœul"
+  ],
+  "departement": "59",
+  "adresses": [
+   "53 Rue Blanche, 59800"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12513030601"
+  ],
+  "lat": 50.64031,
+  "lon": 3.08514,
+  "site": "https://monsieurpaon.fr",
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "node/4298744548",
+  "nom": "Brasserie Theillier",
+  "communes": [
+   "Bavay"
+  ],
+  "departement": "59",
+  "adresses": [
+   "11 Rue de la Chaussée, 59570 Bavay"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4298744548"
+  ],
+  "lat": 50.29603,
+  "lon": 3.79044,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5503430168",
+  "nom": "Tous Houblon",
+  "communes": [
+   "Lezennes"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5503430168"
+  ],
+  "lat": 50.62294,
+  "lon": 3.10114,
+  "site": "https://toushoublon.wordpress.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6067309876",
+  "nom": "Brasserie Lepers",
+  "communes": [
+   "La Chapelle-d'Armentières"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6067309876"
+  ],
+  "lat": 50.6662,
+  "lon": 2.87336,
+  "site": "http://brasserie-langelus.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7371667552",
+  "nom": "At Home Bière",
+  "communes": [
+   "Bondues"
+  ],
+  "departement": "59",
+  "adresses": [
+   "897 Avenue du Général de Gaulle, 59910 Bondues"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7371667552"
+  ],
+  "lat": 50.70182,
+  "lon": 3.09588,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9352179617",
+  "nom": "Brasserie La Gueule de",
+  "communes": [
+   "Templeuve-en-Pévèle"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9352179617"
+  ],
+  "lat": 50.52468,
+  "lon": 3.17651,
+  "site": "https://lagueulede.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9447162901",
+  "nom": "L'Atelier des Brasseurs",
+  "communes": [
+   "Linselles"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9447162901"
+  ],
+  "lat": 50.74598,
+  "lon": 3.0749,
+  "site": "https://www.latelierdesbrasseurs.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9603320053",
+  "nom": "Brasserie Osseus",
+  "communes": [
+   "Dunkerque"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9603320053"
+  ],
+  "lat": 51.03598,
+  "lon": 2.37409,
+  "site": "https://www.brasserie-osseus.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9985780292",
+  "nom": "Brasserie du Pays Flamand (Merville)",
+  "communes": [
+   "Merville"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9985780292"
+  ],
+  "lat": 50.6371,
+  "lon": 2.65343,
+  "site": "https://brasseriedupaysflamand.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/100997989",
+  "nom": "Brasserie de Saint-Sylvestre",
+  "communes": [
+   "Saint-Sylvestre-Cappel"
+  ],
+  "departement": "59",
+  "adresses": [
+   "121 Route de la Chapelle, 59114 Saint-Sylvestre-Cappel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/100997989"
+  ],
+  "lat": 50.77779,
+  "lon": 2.55432,
+  "site": "https://www.3monts.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1040447470",
+  "nom": "Brasserie de la Villette",
+  "communes": [
+   "Saultain"
+  ],
+  "departement": "59",
+  "adresses": [
+   "5 bis Avenue Henri Barbusse, 59990 Saultain"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1040447470"
+  ],
+  "lat": 50.34014,
+  "lon": 3.56973,
+  "site": "https://brasserie-delavillette.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1168962690",
+  "nom": "Brasserie des Quatre-Écluses",
+  "communes": [
+   "Coudekerque-Branche"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1168962690"
+  ],
+  "lat": 51.03021,
+  "lon": 2.38293,
+  "statut": "ambigu",
+  "fiche": "La Brasserie des Écluses"
+ },
+ {
+  "cle": "way/1259743016",
+  "nom": "Brasserie du Gros-Chêne",
+  "communes": [
+   "La Longueville"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1259743016"
+  ],
+  "lat": 50.2953,
+  "lon": 3.86214,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/152061847",
+  "nom": "Aux Enfants Terribles",
+  "communes": [
+   "Marquette-lez-Lille"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/152061847"
+  ],
+  "lat": 50.67931,
+  "lon": 3.07351,
+  "site": "https://auxenfantsterribles.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/175982975",
+  "nom": "Brasserie de l'Abbaye de Solesmes",
+  "communes": [
+   "Solesmes"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/175982975"
+  ],
+  "lat": 50.18103,
+  "lon": 3.49965,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/180004442",
+  "nom": "Brasserie des Enfants de Jean-Bart",
+  "communes": [
+   "Téteghem-Coudekerque-Village"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/180004442"
+  ],
+  "lat": 51.03213,
+  "lon": 2.42252,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/232774222",
+  "nom": "Brasserie Cédille",
+  "communes": [
+   "Flines-lès-Mortagne"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/232774222"
+  ],
+  "lat": 50.50248,
+  "lon": 3.46479,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/236993308",
+  "nom": "Brasserie Dreum",
+  "communes": [
+   "Neuville-en-Avesnois"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/236993308"
+  ],
+  "lat": 50.19676,
+  "lon": 3.58444,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/75634475",
+  "nom": "Brasserie Forest",
+  "communes": [
+   "Monceau-Saint-Waast"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/75634475"
+  ],
+  "lat": 50.17407,
+  "lon": 3.8544,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/81173253",
+  "nom": "Brasserie Bellenaert",
+  "communes": [
+   "Merris"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/81173253"
+  ],
+  "lat": 50.71339,
+  "lon": 2.68419,
+  "site": "http://www.bellenaert.beer",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE BELLENAERT"
+ },
+ {
+  "cle": "way/842455670",
+  "nom": "Brasserie de l'Abbaye de Vaucelles",
+  "communes": [
+   "Les Rues-des-Vignes"
+  ],
+  "departement": "59",
+  "adresses": [
+   "59258"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/842455670"
+  ],
+  "lat": 50.07784,
+  "lon": 3.22332,
+  "site": "https://www.brasseriedevaucelles.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/926649227",
+  "nom": "Brasserie du Pavé",
+  "communes": [
+   "Pont-à-Marcq"
+  ],
+  "departement": "59",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/926649227"
+  ],
+  "lat": 50.51975,
+  "lon": 3.13023,
+  "site": "https://www.brasserie-du-pave.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DU PAVE"
+ }
+]

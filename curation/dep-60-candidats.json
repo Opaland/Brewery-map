@@ -1,0 +1,466 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": "MICRO-BRASSERIE PEPITOUF",
+  "communes": [
+   "VILLERS-SOUS-SAINT-LEU"
+  ],
+  "departement": "60",
+  "adresses": [
+   "10 RUE DU CHATEAU D'EAU 60340 VILLERS-SOUS-SAINT-LEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "CLERMONT"
+  ],
+  "departement": "60",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "NOYON"
+  ],
+  "departement": "60",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:414798934",
+  "nom": "FERME BRASSERIE SAINT RIEUL",
+  "communes": [
+   "TRUMILLY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "588 RUE DE DRUCY 60800 TRUMILLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "414798934",
+  "sirets": [
+   "41479893400017"
+  ],
+  "osm": [],
+  "lat": 49.2475825164716,
+  "lon": 2.8058172179231,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803729078",
+  "nom": "BRASSERIE FELICITE",
+  "communes": [
+   "MONTAGNY-SAINTE-FELICITE"
+  ],
+  "departement": "60",
+  "adresses": [
+   "18 PLACE DU FORT 60950 MONTAGNY-SAINTE-FELICITE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "803729078",
+  "sirets": [
+   "80372907800011"
+  ],
+  "osm": [],
+  "lat": 49.129753372,
+  "lon": 2.7388827829,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:935141796",
+  "nom": "BRASSERIE DU BEAUVAISIS",
+  "communes": [
+   "TROISSEREUX"
+  ],
+  "departement": "60",
+  "adresses": [
+   "71 RUE DE CALAIS 60112 TROISSEREUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "935141796",
+  "sirets": [
+   "93514179600026"
+  ],
+  "osm": [],
+  "lat": 49.4823152196305,
+  "lon": 2.0423087609891,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818098543",
+  "nom": "AU COEUR DU MALT",
+  "communes": [
+   "VERNEUIL-EN-HALATTE"
+  ],
+  "departement": "60",
+  "adresses": [
+   "1 RUE HENRI SAINTE CLAIRE DEVILLE 60550 VERNEUIL-EN-HALATTE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818098543",
+  "sirets": [
+   "81809854300023"
+  ],
+  "osm": [
+   "way/759048657"
+  ],
+  "lat": 49.272402472,
+  "lon": 2.5076028206,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824879324",
+  "nom": "LA COURTOISE",
+  "communes": [
+   "NERY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "16 RUE DES PEUPLIERS 60320 NERY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824879324",
+  "sirets": [
+   "82487932400021"
+  ],
+  "osm": [],
+  "lat": 49.283165248,
+  "lon": 2.7761376187,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:533177150",
+  "nom": "PETITE BRASSERIE PICARDE",
+  "communes": [
+   "GRANDFRESNOY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "89 RUE DU PUISSOT 60680 GRANDFRESNOY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "533177150",
+  "sirets": [
+   "53317715000018"
+  ],
+  "osm": [
+   "node/4090508668"
+  ],
+  "lat": 49.368291325,
+  "lon": 2.6543772542,
+  "site": "http://www.petitebrasseriepicarde.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904655578",
+  "nom": "BRASSERIE DS",
+  "communes": [
+   "RUSSY-BEMONT"
+  ],
+  "departement": "60",
+  "adresses": [
+   "2 RUE NICOLAS APPERT 60117 RUSSY-BEMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904655578",
+  "sirets": [
+   "90465557800022"
+  ],
+  "osm": [],
+  "lat": 49.241108409,
+  "lon": 2.9679158295,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902938976",
+  "nom": "LA MICRO BRASSERIE DES HAUTS DE FRANCE",
+  "communes": [
+   "NOINTEL"
+  ],
+  "departement": "60",
+  "adresses": [
+   "21 RUE DE LA GARE 60840 NOINTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902938976",
+  "sirets": [
+   "90293897600013"
+  ],
+  "osm": [],
+  "lat": 49.376263356,
+  "lon": 2.48042191,
+  "statut": "ambigu",
+  "fiche": "Brasserie de France"
+ },
+ {
+  "cle": "sirene:898835590",
+  "nom": "BRASSERIE DE SENLIS",
+  "communes": [
+   "SENLIS"
+  ],
+  "departement": "60",
+  "adresses": [
+   "6 RUE DES JARDINIERS 60300 SENLIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898835590",
+  "sirets": [
+   "89883559000024"
+  ],
+  "osm": [],
+  "lat": 49.2013374001809,
+  "lon": 2.58252567216096,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827534231",
+  "nom": "ECOL' AUX MOUSSES",
+  "communes": [
+   "ARSY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "13 RUE DE PICARDIE 60190 ARSY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827534231",
+  "sirets": [
+   "82753423100028"
+  ],
+  "osm": [],
+  "lat": 49.400726148,
+  "lon": 2.6895221709,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:523093888",
+  "nom": "BRASSERIE CRAIG ALLAN",
+  "communes": [
+   "PLESSIS-DE-ROYE"
+  ],
+  "departement": "60",
+  "adresses": [
+   "109 RUE SAINT-JEAN 60310 PLESSIS-DE-ROYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "523093888",
+  "sirets": [
+   "52309388800023"
+  ],
+  "osm": [],
+  "lat": 49.578970376,
+  "lon": 2.832942873,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822788501",
+  "nom": "BRASSERIE SAINT MEDARD",
+  "communes": [
+   "COMPIEGNE"
+  ],
+  "departement": "60",
+  "adresses": [
+   "66 RUE SAINT-LAZARE 60200 COMPIEGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822788501",
+  "sirets": [
+   "82278850100010"
+  ],
+  "osm": [],
+  "lat": 49.4102760962671,
+  "lon": 2.83354500108065,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE JUQUEL",
+  "communes": [
+   "SAINT-AUBIN-EN-BRAY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "5 RUE DE L'EGLISE 60650 SAINT-AUBIN-EN-BRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978336592",
+  "nom": "BRASSERIE EGUA",
+  "communes": [
+   "MONTATAIRE"
+  ],
+  "departement": "60",
+  "adresses": [
+   "PARC DU COLVERT LOT C2 5 RUE I ET FREDERIC JOLIOT CURIE 60160 MONTATAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "978336592",
+  "sirets": [
+   "97833659200016"
+  ],
+  "osm": [],
+  "lat": 49.255366331,
+  "lon": 2.4507925779,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/2328758020",
+  "nom": "Brasserie de l'Hotel de Ville",
+  "communes": [
+   "Formerie"
+  ],
+  "departement": "60",
+  "adresses": [
+   "8 Rue Georges Clemenceau"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2328758020"
+  ],
+  "lat": 49.6501,
+  "lon": 1.72954,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9439715435",
+  "nom": "Auto Bar Brasserie",
+  "communes": [
+   "Beauvais"
+  ],
+  "departement": "60",
+  "adresses": [
+   "3 Rue du Franc-Marché, 60000 Beauvais"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9439715435"
+  ],
+  "lat": 49.43712,
+  "lon": 2.08457,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/323637735",
+  "nom": "Le Marcel",
+  "communes": [
+   "Saint-Paul"
+  ],
+  "departement": "60",
+  "adresses": [
+   "40 Rue de l'Abbaye, 60650 Saint-Paul"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/323637735"
+  ],
+  "lat": 49.42826,
+  "lon": 2.00662,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/963450970",
+  "nom": "L'écol aux Mousses",
+  "communes": [
+   "Autrêches"
+  ],
+  "departement": "60",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/963450970"
+  ],
+  "lat": 49.43825,
+  "lon": 3.12981,
+  "site": "https://www.ecolauxmousses.fr",
+  "statut": "nouveau"
+ }
+]

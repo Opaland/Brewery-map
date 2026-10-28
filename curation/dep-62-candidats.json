@@ -1,0 +1,1597 @@
+[
+ {
+  "cle": "sirene:455502088",
+  "nom": "BRASSERIE DE SAINT-OMER",
+  "communes": [
+   "SAINT-OMER",
+   "SAINT-MARTIN-LEZ-TATINGHEM"
+  ],
+  "departement": "62",
+  "adresses": [
+   "9 RUE EDOUARD DEVAUX 62500 SAINT-OMER",
+   "99 RUE DES CORMETTES 62500 SAINT-MARTIN-LEZ-TATINGHEM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "455502088",
+  "sirets": [
+   "45550208800178",
+   "45550208800194"
+  ],
+  "osm": [],
+  "lat": 50.753803772,
+  "lon": 2.2527127057,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:487767816",
+  "nom": "BRASSERIE GOUDALE",
+  "communes": [
+   "SAINT-OMER",
+   "ARQUES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "35 B BOULEVARD DE STRASBOURG 62500 SAINT-OMER",
+   "ZAC DE LA PORTE MULTIMODALE DE L'AA AVENUE ISAAC NEWTON 62510 ARQUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "487767816",
+  "sirets": [
+   "48776781600035",
+   "48776781600043"
+  ],
+  "osm": [],
+  "lat": 50.755459301,
+  "lon": 2.2532811271,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:854024254",
+  "nom": "LA BRASSERIE DU GOULOT",
+  "communes": [
+   "WIMEREUX"
+  ],
+  "departement": "62",
+  "adresses": [
+   "30 RUE DU BASTON 62930 WIMEREUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "854024254",
+  "sirets": [
+   "85402425400021"
+  ],
+  "osm": [
+   "node/12459628202"
+  ],
+  "lat": 50.7791958376014,
+  "lon": 1.61754589873968,
+  "site": "https://www.labrasseriedugoulot.com/wimereux",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812526374",
+  "nom": "AHBA",
+  "communes": [
+   "ATHIES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "18A RUE ARTHUR DELOBELLE 62223 ATHIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812526374",
+  "sirets": [
+   "81252637400028"
+  ],
+  "osm": [],
+  "lat": 50.298099102,
+  "lon": 2.8387940762,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949587646",
+  "nom": "LE CAMPAGNON",
+  "communes": [
+   "CHELERS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "17 RUE DU FAUX 62127 CHELERS",
+   "RTE DE BAILLEUL 62127 CHELERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949587646",
+  "sirets": [
+   "94958764600017",
+   "94958764600025"
+  ],
+  "osm": [],
+  "lat": 50.372595901,
+  "lon": 2.4837780808,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850242306",
+  "nom": "L'ARRAS'IN",
+  "communes": [
+   "ARRAS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "2 B RUE DESIRE BRAS 62000 ARRAS",
+   "22 AVENUE JOHN FITZGERALD KENNEDY 62000 ARRAS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850242306",
+  "sirets": [
+   "85024230600023",
+   "85024230600031"
+  ],
+  "osm": [
+   "node/7385623449"
+  ],
+  "lat": 50.292106622,
+  "lon": 2.7761022051,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:103526588",
+  "nom": "BRASSERIE DE LA LYS",
+  "communes": [
+   "AIRE-SUR-LA-LYS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "77 ROUTE DE BLESSY 62120 AIRE-SUR-LA-LYS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "103526588",
+  "sirets": [
+   "10352658800019"
+  ],
+  "osm": [
+   "way/194156242"
+  ],
+  "lat": 50.6337005731963,
+  "lon": 2.37482856534651,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879179786",
+  "nom": "BRASSERIE DUBOIS",
+  "communes": [
+   "NORRENT-FONTES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "83 RUE NATIONALE 62120 NORRENT-FONTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879179786",
+  "sirets": [
+   "87917978600014"
+  ],
+  "osm": [],
+  "lat": 50.589889207,
+  "lon": 2.4058019684,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "HOUDAIN"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:902347921",
+  "nom": "BRASSERIE CHROMATIQUE",
+  "communes": [
+   "OUTREAU"
+  ],
+  "departement": "62",
+  "adresses": [
+   "11 RUE DU CHAT NOIR 62230 OUTREAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902347921",
+  "sirets": [
+   "90234792100022"
+  ],
+  "osm": [],
+  "lat": 50.7067568179464,
+  "lon": 1.60714057022527,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910591346",
+  "nom": "SARL MICROBRASSERIE BON VENT",
+  "communes": [
+   "CALAIS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "23 RUE DE LA POMME D'OR 62100 CALAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910591346",
+  "sirets": [
+   "91059134600010"
+  ],
+  "osm": [],
+  "lat": 50.951144565,
+  "lon": 1.8555563626,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LIEVIN"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "NŒUX-LES-MINES"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "RŒUX"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:499451045",
+  "nom": "BRASSERIE ARTESIENNE",
+  "communes": [
+   "HAISNES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "14 RUE DU MARAIS 62138 HAISNES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "499451045",
+  "sirets": [
+   "49945104500037"
+  ],
+  "osm": [
+   "node/9568937120"
+  ],
+  "lat": 50.509710948,
+  "lon": 2.8004008263,
+  "site": "http://www.brasserie-artesienne.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:944313824",
+  "nom": "MICROBRASSERIE GAUDIA",
+  "communes": [
+   "VENDIN-LES-BETHUNE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "14 T RUE D'HINGES 62232 VENDIN-LES-BETHUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "944313824",
+  "sirets": [
+   "94431382400012"
+  ],
+  "osm": [],
+  "lat": 50.5444731988516,
+  "lon": 2.61182570459309,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "BRASSERIE PALADIN",
+  "communes": [
+   "HERMAVILLE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "30 RUE D'IZEL 62690 HERMAVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:532525250",
+  "nom": "BRASSERIE DE LA HAUTE VALLEE",
+  "communes": [
+   "MERCK-SAINT-LIEVIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "78 RUE PRINCIPALE 62560 MERCK-SAINT-LIEVIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "532525250",
+  "sirets": [
+   "53252525000017"
+  ],
+  "osm": [],
+  "lat": 50.630046683,
+  "lon": 2.1160141108,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908620693",
+  "nom": "LES VENTS SAUVAGES",
+  "communes": [
+   "ATTIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "1 CHE DE TRAVERS 62170 ATTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908620693",
+  "sirets": [
+   "90862069300014"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901711309",
+  "nom": "BRASSERIE DELBEKE",
+  "communes": [
+   "LORGIES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "141 ROUTE D'ESTAIRES 62840 LORGIES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "901711309",
+  "sirets": [
+   "90171130900012"
+  ],
+  "osm": [
+   "node/12459628201"
+  ],
+  "lat": 50.5652234262269,
+  "lon": 2.78437625825264,
+  "site": "https://www.brasseriedelbeke.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:315255752",
+  "nom": "BRASSERIE CASTELAIN",
+  "communes": [
+   "BENIFONTAINE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "13 RUE PASTEUR 62410 BENIFONTAINE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "315255752",
+  "sirets": [
+   "31525575200018"
+  ],
+  "osm": [
+   "way/1115007564"
+  ],
+  "lat": 50.485178009,
+  "lon": 2.832556389,
+  "site": "http://brasseriecastelain.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "SAINT SILVIN BLONDE, BRUNE, TRIPLE",
+  "communes": [
+   "AUCHY-LES-HESDIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "43 RUE DE DONWETZ 62770 AUCHY-LES-HESDIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "ambigu",
+  "fiche": "Brasserie artisanale La Blonde et la Brune"
+ },
+ {
+  "cle": "sirene:432424539",
+  "nom": "BRUSSEL'S CAFFE",
+  "communes": [
+   "SAMER"
+  ],
+  "departement": "62",
+  "adresses": [
+   "15 AVENUE CHARLES DE GAULLE 62830 SAMER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "432424539",
+  "sirets": [
+   "43242453900034"
+  ],
+  "osm": [],
+  "lat": 50.638711496,
+  "lon": 1.7435592299,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:447518234",
+  "nom": "BRASSERIE SAINT-GERMAIN",
+  "communes": [
+   "AIX-NOULETTE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "26 RTE D'ARRAS 62160 AIX-NOULETTE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "447518234",
+  "sirets": [
+   "44751823400011"
+  ],
+  "osm": [
+   "way/241533750"
+  ],
+  "lat": 50.425533651,
+  "lon": 2.7141179741,
+  "site": "https://www.page24.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830231056",
+  "nom": "BRASSERIE L'INTEMPORELLE",
+  "communes": [
+   "WAILLY"
+  ],
+  "departement": "62",
+  "adresses": [
+   "40 B RUE DE PAS 62217 WAILLY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830231056",
+  "sirets": [
+   "83023105600029"
+  ],
+  "osm": [
+   "way/640597055"
+  ],
+  "lat": 50.243701615,
+  "lon": 2.7185556856,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833621220",
+  "nom": "BRASSERIE DE MAI",
+  "communes": [
+   "CARVIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "50 RUE EDOUARD PLACHEZ 62220 CARVIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "833621220",
+  "sirets": [
+   "83362122000015"
+  ],
+  "osm": [
+   "node/9429423288"
+  ],
+  "lat": 50.491875048,
+  "lon": 2.9555988734,
+  "site": "https://brasseriedemai.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843527326",
+  "nom": "BCA2",
+  "communes": [
+   "RIVIERE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "64 T RUE D'ARRAS 62173 RIVIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843527326",
+  "sirets": [
+   "84352732600014"
+  ],
+  "osm": [],
+  "lat": 50.239984351,
+  "lon": 2.709920684,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840053771",
+  "nom": "LES BRASSEURS DES TERRES D'OPALE",
+  "communes": [
+   "BAINCTHUN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "49 ROUTE DE DESVRES 62360 BAINCTHUN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840053771",
+  "sirets": [
+   "84005377100027"
+  ],
+  "osm": [
+   "node/13005831326"
+  ],
+  "lat": 50.709564701,
+  "lon": 1.6825616857,
+  "site": "https://lesbrasseursdesterresdopale.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989657648",
+  "nom": "BRASSERIE PERSYN",
+  "communes": [
+   "LE TOUQUET-PARIS-PLAGE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "32 RUE D'ARRAS 62520 LE TOUQUET-PARIS-PLAGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989657648",
+  "sirets": [
+   "98965764800014"
+  ],
+  "osm": [],
+  "lat": 50.5279278368319,
+  "lon": 1.5877505544475,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847719226",
+  "nom": "BRASSERIE ARTISANALE WHITE STAR",
+  "communes": [
+   "MARCONNE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "6 RTE D'AUCHY 62140 MARCONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847719226",
+  "sirets": [
+   "84771922600023"
+  ],
+  "osm": [],
+  "lat": 50.375320795,
+  "lon": 2.0570741871,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:845155498",
+  "nom": "WATTBEER",
+  "communes": [
+   "CARVIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "67 RUE VICTOR HUGO 62220 CARVIN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "845155498",
+  "sirets": [
+   "84515549800015"
+  ],
+  "osm": [
+   "node/9248658524"
+  ],
+  "lat": 50.4954327904131,
+  "lon": 2.95357839756516,
+  "site": "https://www.ladrache.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE SPECQUE",
+  "communes": [
+   "HAILLICOURT"
+  ],
+  "departement": "62",
+  "adresses": [
+   "82 RUE ERNEST RENAN 62940 HAILLICOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902026764",
+  "nom": "BRASSERIE LA FLIBUSTIERE",
+  "communes": [
+   "HENIN-BEAUMONT"
+  ],
+  "departement": "62",
+  "adresses": [
+   "155 RUE ELIE GRUYELLE 62110 HENIN-BEAUMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902026764",
+  "sirets": [
+   "90202676400016"
+  ],
+  "osm": [],
+  "lat": 50.420729034,
+  "lon": 2.9512233438,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:447931015",
+  "nom": "CHRISTOPHE NOYON BRASSEUR",
+  "communes": [
+   "TARDINGHEN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "FERME DE BELLE DALLE 62179 TARDINGHEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "447931015",
+  "sirets": [
+   "44793101500013"
+  ],
+  "osm": [],
+  "lat": 50.861993402,
+  "lon": 1.6448782517,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803074384",
+  "nom": "BRASSERIE QUENTOVIC",
+  "communes": [
+   "BEAURAINVILLE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "261 GRANDE RUE 62990 BEAURAINVILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "803074384",
+  "sirets": [
+   "80307438400030"
+  ],
+  "osm": [
+   "node/6067309743"
+  ],
+  "lat": 50.424011608,
+  "lon": 1.8966541717,
+  "site": "http://quentovic.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:452672942",
+  "nom": "NPDC BOISSONS",
+  "communes": [
+   "HENIN-BEAUMONT"
+  ],
+  "departement": "62",
+  "adresses": [
+   "1576 CHEMIN DE JERUSALEM 62110 HENIN-BEAUMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "452672942",
+  "sirets": [
+   "45267294200011"
+  ],
+  "osm": [],
+  "lat": 50.441576328,
+  "lon": 2.9622124757,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:801339425",
+  "nom": "AUTOBRASSEUR",
+  "communes": [
+   "LENS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "262 ROUTE DE LILLE 62300 LENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "801339425",
+  "sirets": [
+   "80133942500028"
+  ],
+  "osm": [],
+  "lat": 50.4357217706726,
+  "lon": 2.83994596060405,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:925180184",
+  "nom": "MICRO BRASSERIE COTE D'HOP",
+  "communes": [
+   "BERCK"
+  ],
+  "departement": "62",
+  "adresses": [
+   "74 RUE CARNOT 62600 BERCK"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "925180184",
+  "sirets": [
+   "92518018400010"
+  ],
+  "osm": [],
+  "lat": 50.407414117,
+  "lon": 1.5651038227,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951612001",
+  "nom": "NORD COAST DISTRIBUTION",
+  "communes": [
+   "MARQUISE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "425 RUE DES TUMULUS 62250 MARQUISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951612001",
+  "sirets": [
+   "95161200100010"
+  ],
+  "osm": [],
+  "lat": 50.824090985,
+  "lon": 1.716640028,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850700170",
+  "nom": "BARON CERF",
+  "communes": [
+   "CREQUY"
+  ],
+  "departement": "62",
+  "adresses": [
+   "30 RUE DE RULFORT 62310 CREQUY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850700170",
+  "sirets": [
+   "85070017000028"
+  ],
+  "osm": [],
+  "lat": 50.503948167,
+  "lon": 2.0382217524,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BAILLEUL-SIR-BERTHOULT"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "BOURS"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:106125008",
+  "nom": "BRASSERIE REGIONALE BERNEVILLOISE",
+  "communes": [
+   "BERNEVILLE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "3 IMPASSE DE L'ABBAYE 62123 BERNEVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "106125008",
+  "sirets": [
+   "10612500800016"
+  ],
+  "osm": [],
+  "lat": 50.2662049523756,
+  "lon": 2.66737053412903,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "CAMBRIN"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:947876793",
+  "nom": "BRASSERIE GORA",
+  "communes": [
+   "ETAING"
+  ],
+  "departement": "62",
+  "adresses": [
+   "8 RUE DE LA BRASSERIE 62156 ETAING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "947876793",
+  "sirets": [
+   "94787679300011"
+  ],
+  "osm": [],
+  "lat": 50.2732628447057,
+  "lon": 3.00086442036081,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "ARDRES"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:948579982",
+  "nom": "BRASSERIE BLANC MONT",
+  "communes": [
+   "NORT-LEULINGHEM"
+  ],
+  "departement": "62",
+  "adresses": [
+   "8 RUE DE LA MAIRIE 62890 NORT-LEULINGHEM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948579982",
+  "sirets": [
+   "94857998200018"
+  ],
+  "osm": [],
+  "lat": 50.801691323,
+  "lon": 2.0934996709,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:939459087",
+  "nom": "LES CRAPAUDS FOUS",
+  "communes": [
+   "BILLY-BERCLAU"
+  ],
+  "departement": "62",
+  "adresses": [
+   "ZI ARTOIS-FLANDRES 410 RUE D'ATHENES 62138 BILLY-BERCLAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "939459087",
+  "sirets": [
+   "93945908700028"
+  ],
+  "osm": [
+   "node/6443037753"
+  ],
+  "lat": 50.5153240925948,
+  "lon": 2.85163201881457,
+  "site": "http://brasserie-lescrapaudsfous.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:950790048",
+  "nom": "BRASSERIE GRANDES MAREES",
+  "communes": [
+   "RANG-DU-FLIERS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "10 AV DE LA SUCRERIE 62180 RANG-DU-FLIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "950790048",
+  "sirets": [
+   "95079004800025"
+  ],
+  "osm": [],
+  "lat": 50.41724421,
+  "lon": 1.6515428338,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "CALAIS"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:901257766",
+  "nom": "LA BRECHE BRASSERIE CRAFT",
+  "communes": [
+   "BETHUNE"
+  ],
+  "departement": "62",
+  "adresses": [
+   "90 RUE SADI CARNOT 62400 BETHUNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901257766",
+  "sirets": [
+   "90125776600021"
+  ],
+  "osm": [],
+  "lat": 50.532608738,
+  "lon": 2.6391301751,
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "sirene:901499871",
+  "nom": "M.Y CAVE",
+  "communes": [
+   "SAINT-LEONARD"
+  ],
+  "departement": "62",
+  "adresses": [
+   "49 BOULEVARD DE LA LIANE 62360 SAINT-LEONARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901499871",
+  "sirets": [
+   "90149987100019"
+  ],
+  "osm": [],
+  "lat": 50.6895294983954,
+  "lon": 1.61676806810678,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802632109",
+  "nom": "BRASSERIE DU FUNQUET",
+  "communes": [
+   "ESCŒUILLES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "19 RUE DE LA TIREE 62850 ESCŒUILLES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "802632109",
+  "sirets": [
+   "80263210900012"
+  ],
+  "osm": [
+   "node/13169111714"
+  ],
+  "lat": 50.727450349,
+  "lon": 1.9228831229,
+  "site": "https://brasserie-du-funquet.edan.io/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814499448",
+  "nom": "LA BRASSERIE DES 3 CLOCHERS",
+  "communes": [
+   "LESTREM"
+  ],
+  "departement": "62",
+  "adresses": [
+   "1059 RUE DE DERRIERE 62136 LESTREM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814499448",
+  "sirets": [
+   "81449944800011"
+  ],
+  "osm": [],
+  "lat": 50.602145826,
+  "lon": 2.6603457438,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922047782",
+  "nom": "VOXEL BREWING",
+  "communes": [
+   "BLENDECQUES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "37 RUE SAINTE CATHERINE 62575 BLENDECQUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "922047782",
+  "sirets": [
+   "92204778200011"
+  ],
+  "osm": [
+   "node/13065692397"
+  ],
+  "lat": 50.722469347,
+  "lon": 2.2717701003,
+  "site": "https://shop.brewblock.io/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911574572",
+  "nom": "LA LICQUOISE",
+  "communes": [
+   "LICQUES"
+  ],
+  "departement": "62",
+  "adresses": [
+   "45 RUE DE CANCHY 62850 LICQUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911574572",
+  "sirets": [
+   "91157457200010"
+  ],
+  "osm": [],
+  "lat": 50.782382836,
+  "lon": 1.9559178671,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:912195666",
+  "nom": "LA CONFRERIE DU HOUBLON",
+  "communes": [
+   "WANCOURT"
+  ],
+  "departement": "62",
+  "adresses": [
+   "3 RESIDENCE LA COUTURE 62128 WANCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "912195666",
+  "sirets": [
+   "91219566600025"
+  ],
+  "osm": [],
+  "lat": 50.2453740043606,
+  "lon": 2.86732428485034,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923118145",
+  "nom": "THOR BOYAUX",
+  "communes": [
+   "CAMBRIN"
+  ],
+  "departement": "62",
+  "adresses": [
+   "44 BOULEVARD LOUIS LESAGE 62149 CAMBRIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923118145",
+  "sirets": [
+   "92311814500013"
+  ],
+  "osm": [],
+  "lat": 50.510476747,
+  "lon": 2.7362015918,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "HOUDAIN"
+  ],
+  "departement": "62",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:850421504",
+  "nom": "BRASSERIE ABBAYE DE CLAIRMARAIS",
+  "communes": [
+   "CLAIRMARAIS"
+  ],
+  "departement": "62",
+  "adresses": [
+   "9 C ROUTE D'ARQUES 62500 CLAIRMARAIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850421504",
+  "sirets": [
+   "85042150400018"
+  ],
+  "osm": [
+   "node/8920332020"
+  ],
+  "lat": 50.768468838,
+  "lon": 2.3056305346,
+  "site": "https://www.abbayedeclairemarais.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10098741164",
+  "nom": "BCA2 – La Riviere",
+  "communes": [
+   "Wailly"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10098741164"
+  ],
+  "lat": 50.24054,
+  "lon": 2.71045,
+  "site": "https://www.bca2.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11968427517",
+  "nom": "La Chope de l’Artois",
+  "communes": [
+   "Bailleulmont"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11968427517"
+  ],
+  "lat": 50.21605,
+  "lon": 2.6141,
+  "site": "https://campagnesartois.fr/annuaire-general/la-chope-de-lartois/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11978102348",
+  "nom": "Micro brasserie L'estoupette",
+  "communes": [
+   "Riencourt-lès-Cagnicourt"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11978102348"
+  ],
+  "lat": 50.20061,
+  "lon": 2.95849,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12459262301",
+  "nom": "At Home Bière Athies",
+  "communes": [
+   "Athies"
+  ],
+  "departement": "62",
+  "adresses": [
+   "18A"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12459262301"
+  ],
+  "lat": 50.29807,
+  "lon": 2.83873,
+  "site": "https://www.athomebiere.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12459402001",
+  "nom": "Brasserie de La Lawe",
+  "communes": [
+   "Vieille-Chapelle"
+  ],
+  "departement": "62",
+  "adresses": [
+   "1172 Rue du Pont d'Agronsart, 62136"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12459402001"
+  ],
+  "lat": 50.59355,
+  "lon": 2.69003,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4829087299",
+  "nom": "Brasserie des 2 Caps",
+  "communes": [
+   "Tardinghen"
+  ],
+  "departement": "62",
+  "adresses": [
+   "Route d'Ausques, 62179 Tardinghen"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4829087299"
+  ],
+  "lat": 50.86204,
+  "lon": 1.64522,
+  "site": "https://www.2caps.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8293229023",
+  "nom": "Brasserie Brebis Galeuse",
+  "communes": [
+   "Roëllecourt"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8293229023"
+  ],
+  "lat": 50.36639,
+  "lon": 2.39245,
+  "site": "https://brebisgaleuse.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/106130196",
+  "nom": "MINE DE RIEN",
+  "communes": [
+   "Lens"
+  ],
+  "departement": "62",
+  "adresses": [
+   "37 Rue Jean Létienne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/106130196"
+  ],
+  "lat": 50.42928,
+  "lon": 2.82438,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/245646436",
+  "nom": "Brasserie des 7 Bonnettes",
+  "communes": [
+   "Étaing"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/245646436"
+  ],
+  "lat": 50.27323,
+  "lon": 3.00091,
+  "site": "https://www.brasserie-7bonnettes.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/641318870",
+  "nom": "Brasserie Paysanne de l'Artois",
+  "communes": [
+   "Gavrelle"
+  ],
+  "departement": "62",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/641318870"
+  ],
+  "lat": 50.32985,
+  "lon": 2.88694,
+  "site": "http://bierepaysanne.fr/",
+  "statut": "nouveau"
+ }
+]
