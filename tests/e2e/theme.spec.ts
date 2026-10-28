@@ -62,7 +62,7 @@ test('« tout effacer » remet l’apparence du téléphone', async ({ page }) =
 /** S307 (A8, A9) : la carte reste claire ; ses marqueurs gardent les couleurs qui s'y lisent. */
 test.describe('les marqueurs en thème sombre', () => {
   // Les couleurs sur carte, celles du thème clair, par numéro de catégorie.
-  const SUR_CARTE = ['rgb(163, 82, 0)', 'rgb(46, 125, 50)', 'rgb(29, 95, 154)', 'rgb(95, 99, 104)']
+  const SUR_CARTE = ['rgb(163, 82, 0)', 'rgb(46, 125, 50)', 'rgb(29, 95, 154)', 'rgb(95, 99, 104)', 'rgb(106, 61, 154)']
 
   test.beforeEach(async ({ page }) => {
     await sansTuiles(page)
@@ -86,7 +86,7 @@ test.describe('les marqueurs en thème sombre', () => {
         fond: getComputedStyle(li.querySelector('.pastille') ?? li).backgroundColor,
       })),
     )
-    expect(legende).toHaveLength(4)
+    expect(legende).toHaveLength(SUR_CARTE.length)
     for (const { cat, fond } of legende) expect(fond, `légende cat-${String(cat)}`).toBe(SUR_CARTE[cat])
   })
 
