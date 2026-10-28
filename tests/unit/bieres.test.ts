@@ -1,3 +1,4 @@
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { describe, expect, it } from 'vitest'
 import { compterTypes, lienDeBiere, TYPES_BIERE } from '../../src/core/bieres'
 import { BRIGNAIS } from '../../src/core/distance'
@@ -75,7 +76,7 @@ describe('rechercher par type', () => {
     avecBieres('B', [{ type: 'blonde' }]),
     avecBieres('C', []),
   ]
-  const base2 = { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: [0, 1, 2, 3] as const }
+  const base2 = { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: ORDRE_CATEGORIES }
 
   it('sans type choisi, tout passe', () => {
     expect(rechercher(lot, base2)).toHaveLength(3)

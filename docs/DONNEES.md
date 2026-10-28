@@ -10,10 +10,11 @@ Schéma : `src/core/schema.ts` ; le build échoue sur une ligne invalide.
 |---|---|---|
 | 1 | Acheter et consommer sur place | une source cite la vente **et** la consommation sur place |
 | 2 | Acheter seulement | une source cite la vente, sans bar ni dégustation ouverte |
+| 4 | Consommer sur place seulement | une source cite la consommation sur place **et** dit qu'on ne vend pas à emporter (demande de Cédric du 28/10, S368) |
 | 3 | Pas de vente | une source dit que rien n'est vendu sur place |
 | 0 | À confirmer | rien n'est établi ; la raison est dans `note` |
 
-Une catégorie 1 à 3 exige une source (`src` non vide) : le schéma le vérifie.
+Une catégorie 1 à 4 exige une source (`src` non vide) : le schéma le vérifie.
 
 ## Confiance (`conf`)
 

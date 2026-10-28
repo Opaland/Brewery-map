@@ -225,6 +225,7 @@ export const EN: Readonly<Record<string, string>> = {
   "La carte ne peut pas s’afficher sur cet appareil. La liste contient toutes les brasseries.": "The map cannot be shown on this device. The list holds all the breweries.",
   "À confirmer": "To be confirmed",
   "Acheter et consommer sur place": "Buy and drink on site",
+  "Consommer sur place seulement": "Drink on site only",
   "Acheter seulement": "Buy only",
   "Pas de vente": "No sales",
   "Installer l’application": "Install the app",

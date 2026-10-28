@@ -42,7 +42,7 @@ Repris de CLAUDE.md §0 ; ils priment sur toute exigence ci-dessous.
 |---|---|---|
 | EF-01 | Une liste et une carte des brasseries, triées par distance au point de départ | S2, S7 |
 | EF-02 | Point de départ : « Autour de moi », ou l'une des communes de France | S8, S21 |
-| EF-03 | Filtres : distance, ce qu'on peut y faire (4 catégories), type de bière, département | S3, S5, S27 |
+| EF-03 | Filtres : distance, ce qu'on peut y faire (5 catégories, la 5e depuis S368), type de bière, département | S3, S5, S27 |
 | EF-04 | Une fiche par brasserie : source, confiance, adresse, contact, horaires, bières — ou « À confirmer » | S3–S6 |
 | EF-05 | « Y aller » : la destination seule, jamais le départ | S19 |
 | EF-06 | Favoris et réglages gardés sur l'appareil, effaçables | S9 |

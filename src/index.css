@@ -110,6 +110,7 @@ a { color: inherit; }
   --cat-2: #1d5f9a; /* acheter seulement */
   --cat-3: #5f6368; /* pas de vente */
   --cat-0: #a35200; /* à confirmer */
+  --cat-4: #6a3d9a; /* consommer sur place seulement (S368) */
   /* Texte posé sur un aplat --cat-1 (bouton « Appeler »). Blanc sur
      #2e7d32 : 5,1:1 (calcul WCAG fait le 15/10) ; en sombre l'aplat
      s'éclaircit, le texte doit foncer. */
@@ -122,6 +123,7 @@ a { color: inherit; }
     --cat-2: #7fb6e8;
     --cat-3: #b0b4b8;
     --cat-0: #f0a050;
+    --cat-4: #c7a6ec;
     --texte-sur-cat-1: #10240f;
   }
 }
@@ -180,6 +182,7 @@ a { color: inherit; }
 .cat-1 .pastille { background: var(--cat-1); }
 .cat-2 .pastille { background: var(--cat-2); }
 .cat-3 .pastille { background: var(--cat-3); }
+.cat-4 .pastille { background: var(--cat-4); }
 
 /* Collé au bas de l'écran tant qu'il est plus bas : on règle la distance ou
    une case et on lit aussitôt combien il en reste, sans défiler (revue UI/UX
@@ -310,6 +313,7 @@ a { color: inherit; }
 .marqueur.cat-1 { background: var(--cat-1); }
 .marqueur.cat-2 { background: var(--cat-2); }
 .marqueur.cat-3 { background: var(--cat-3); }
+.marqueur.cat-4 { background: var(--cat-4); }
 .marqueur[aria-pressed='true'] { outline: 3px solid var(--carte-encre); outline-offset: 2px; }
 /* Le focus d'un marqueur, lisible sur les tuiles ; choisi et focalisé, les
    deux se voient : le choix (0,2,0) battait `:focus-visible` (0,1,0), et
@@ -327,7 +331,7 @@ a { color: inherit; }
    --carte-encre : l'anneau du marqueur choisi ; --carte-focus : son focus.
    La légende garde le bord blanc des marqueurs : sur le fond sombre de la
    page, c'est lui qui la détache. */
-.carte, .legende-carte { --cat-0: #a35200; --cat-1: #2e7d32; --cat-2: #1d5f9a; --cat-3: #5f6368; --carte-encre: #241c14; --carte-focus: #7a3410; }
+.carte, .legende-carte { --cat-0: #a35200; --cat-1: #2e7d32; --cat-2: #1d5f9a; --cat-3: #5f6368; --cat-4: #6a3d9a; --carte-encre: #241c14; --carte-focus: #7a3410; }
 @media (prefers-color-scheme: dark) {
   .legende-carte [class^='cat-'] .pastille { border: 2px solid #fff; box-sizing: border-box; }
 }
@@ -809,6 +813,7 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
 .ligne.cat-1 { --bande: var(--cat-1); border-left-color: var(--gris-vert-clair); }
 .ligne.cat-2 { --bande: var(--cat-2); border-left-color: var(--gris-vert-clair); }
 .ligne.cat-3 { --bande: var(--cat-3); border-left-color: var(--gris-vert-clair); }
+.ligne.cat-4 { --bande: var(--cat-4); border-left-color: var(--gris-vert-clair); }
 .ligne[aria-expanded='true'] {
   border-left: 2px solid var(--cuivre);
   padding-left: calc(var(--espace-7) + 5px);

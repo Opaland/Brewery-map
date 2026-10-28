@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { expect, test } from './position'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { rechercher } from '../../src/core/recherche'
 import type { Brasserie } from '../../src/core/schema'
 import { choisirCommune, sansTuiles, TUILE_OSM, versLaCarte } from './reseau'
@@ -9,7 +10,7 @@ const DONNEES = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as Brass
 const ANSE = { latitude: 45.9367, longitude: 4.7208 }
 
 const premiere = (origine: { lat: number; lon: number }) =>
-  rechercher(DONNEES, { origine, rayonKm: 30, texte: "", categories: [0, 1, 2, 3] }).at(0)?.brasserie.n
+  rechercher(DONNEES, { origine, rayonKm: 30, texte: "", categories: [...ORDRE_CATEGORIES] }).at(0)?.brasserie.n
 
 test.describe('« autour de moi » (Léa)', () => {
   test.use({ geolocation: ANSE, permissions: ['geolocation'] })

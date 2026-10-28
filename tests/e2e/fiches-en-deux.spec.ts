@@ -1,6 +1,7 @@
 import { type Page } from '@playwright/test'
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { ouvrirFiltres, sansTuiles } from './reseau'
 
 /**
@@ -93,7 +94,7 @@ test('en attendant la suite, aucune catégorie cochée ou aucun favori se disent
   await expect(page.getByTestId('compte')).toContainText('Vous n’avez pas encore de favori')
   await page.goto('/')
   await ouvrirFiltres(page)
-  for (const cat of [0, 1, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+  for (const cat of ORDRE_CATEGORIES) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
   await expect(page.getByTestId('compte')).toContainText('Aucune catégorie n’est cochée')
   liberer()
 })

@@ -83,8 +83,22 @@ export const NOTE_MAX = 500
 const noteSchema = z.object({ nom: z.string().min(1), texte: z.string() }).strict()
 export type Note = z.infer<typeof noteSchema>
 
-/** La forme gardée que cette version écrit (S238). */
-export const VERSION_PREFERENCES = 1
+/**
+ * La forme gardée que cette version écrit (S238). 2 depuis S368 : la
+ * catégorie 4 existe, et une forme 1 ne pouvait pas la cocher.
+ */
+export const VERSION_PREFERENCES = 2
+
+/**
+ * Les catégories gardées par une version d'avant S368. Toutes les
+ * anciennes cochées voulait dire « aucun filtre » : la nouvelle s'y ajoute.
+ * Une seule décochée, et rien n'est deviné : la 4 reste décochée, visible
+ * dans les filtres.
+ */
+function categoriesDAvantS368(categories: Categorie[]): Categorie[] {
+  const anciennes: readonly Categorie[] = [0, 1, 2, 3]
+  return anciennes.every((c) => categories.includes(c)) && !categories.includes(4) ? [...categories, 4] : categories
+}
 
 /**
  * Gardé par une version plus récente de l'application (S238) : on le lit
@@ -155,7 +169,10 @@ export function lirePreferences(brut: unknown): Preferences {
   return {
     version: VERSION_PREFERENCES,
     rayonKm: lire(CHAMPS.rayonKm, g.rayonKm, d.rayonKm),
-    categories: lire(CHAMPS.categories, g.categories, d.categories),
+    categories:
+      typeof g.version === 'number' && g.version >= 2
+        ? lire(CHAMPS.categories, g.categories, d.categories)
+        : categoriesDAvantS368(lire(CHAMPS.categories, g.categories, d.categories)),
     ...(type === undefined ? {} : { type }),
     depart: lire(CHAMPS.depart, g.depart, d.depart),
     favoris,

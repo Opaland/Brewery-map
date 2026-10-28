@@ -1,8 +1,8 @@
 # Mousse de Poche
 
 Les brasseries artisanales autour de vous, et ce qu'on peut y faire :
-acheter et boire sur place, acheter seulement, rien de tout ça, ou « à
-confirmer » quand aucune source ne l'établit.
+acheter et boire sur place, boire sur place seulement, acheter seulement,
+rien de tout ça, ou « à confirmer » quand aucune source ne l'établit.
 
 **Ouvrir l'application : <https://opaland.github.io/Brewery-map/>**
 — sur téléphone, elle s'installe comme une application et reste

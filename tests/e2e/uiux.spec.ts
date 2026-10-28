@@ -1,5 +1,6 @@
 import type { Page } from '@playwright/test'
 import { expect, test } from './position'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { attendreSuite, choisirCommune, ouvrirFiltres, sansTuiles, versLaCarte } from './reseau'
 
 /** Revue UI/UX globale du 16/10 (après S23) : ce qui a été corrigé. */
@@ -264,7 +265,7 @@ test.describe('premier écran sur téléphone (S29)', () => {
 /** S303 (A6) : toutes catégories décochées, l'écran dit la vraie cause. */
 test('toutes catégories décochées : le compte le dit, et « la plus proche » ne nomme personne', async ({ page }) => {
   await ouvrirFiltres(page)
-  for (const cat of [0, 1, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+  for (const cat of ORDRE_CATEGORIES) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
   await expect(page.locator('button.ligne')).toHaveCount(0)
   await expect(page.getByTestId('compte')).toContainText('Aucune catégorie n’est cochée')
   // Le paragraphe est bien là : sans lui, « ne contient pas » passerait à

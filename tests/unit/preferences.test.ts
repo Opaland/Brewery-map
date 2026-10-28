@@ -11,6 +11,7 @@ import {
   origineDesPreferences,
   PREFERENCES_DEFAUT,
   versStockage,
+  VERSION_PREFERENCES,
 } from '../../src/core/preferences'
 import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
@@ -38,7 +39,7 @@ describe('relire les préférences gardées', () => {
 
   it('un contenu valide est relu tel quel', () => {
     const gardees = {
-      version: 1,
+      version: VERSION_PREFERENCES,
       rayonKm: 45,
       categories: [1, 2],
       type: 'ipa',

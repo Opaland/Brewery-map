@@ -195,7 +195,7 @@ describe('le fuzz des entrées non sûres (graine ' + String(GRAINE) + ')', () =
   it(`lienSignalement : ${String(CAS)} fiches aux champs quelconques`, () => {
     const h = hasard(GRAINE + 3)
     for (let i = 0; i < CAS; i++) {
-      const b = { n: chaine(h) || 'X', c: chaine(h), d: chaine(h), addr: chaine(h), cat: h.choisir([0, 1, 2, 3]), src: chaine(h), verifieLe: h.suivant() < 0.5 ? undefined : chaine(h) } as unknown as Brasserie
+      const b = { n: chaine(h) || 'X', c: chaine(h), d: chaine(h), addr: chaine(h), cat: h.choisir([...ORDRE_CATEGORIES]), src: chaine(h), verifieLe: h.suivant() < 0.5 ? undefined : chaine(h) } as unknown as Brasserie
       const u = new URL(lienSignalement(b))
       expect(`${u.origin}${u.pathname}`, `cas ${String(i)}`).toBe('https://github.com/Opaland/Brewery-map/issues/new')
       // Toujours sous la longueur retenue (#54).

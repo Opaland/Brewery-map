@@ -75,6 +75,9 @@ describe('les garde-fous (revue adverse S340)', () => {
     expect(() => compteRenduDuLot({ ...e, lus: ['sirene:1', 'sirene:1'], categories: [1, 1] })).toThrow(/double/)
     expect(() => compteRenduDuLot({ ...e, lus: ['sirene:1', 'zzz'], categories: [1, 1] })).toThrow(/zzz/)
     expect(() => compteRenduDuLot({ ...e, lus: ['sirene:1'], categories: [9] })).toThrow(/catégorie/)
+    expect(() => compteRenduDuLot({ ...e, lus: ['sirene:1'], categories: [5] })).toThrow(/catégorie/)
+    // S368 : « Consommer sur place seulement » est une catégorie de vente.
+    expect(compteRenduDuLot({ ...e, lus: ['sirene:1'], categories: [4] })).toContain('« consommer sur place seulement »')
     expect(() => compteRenduDuLot({ ...e, lus: ['sirene:1'], categories: [] })).toThrow(/catégorie/)
   })
   it('une taille de paquet nulle est refusée, au lieu de boucler', () => {
