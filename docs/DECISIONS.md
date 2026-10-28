@@ -198,3 +198,16 @@ et la licence (#34) étaient déjà réglés le 20 et le 21/10. Les propositions
 s311 n° 5, 6, 7, 9, 10 et s314 n° 4, 6, 7, 9, 11 restent non appliquées
 exprès : ce sont des notes devenues périmées, sur des fiches déjà marquées
 fermées ou déménagées.
+
+## Demande de Cédric du 28/10 : consommer sur place seulement
+
+> « Ajouter également la consommation sur place »
+>
+> « Et uniquement la consommation sur place. C'est à dire que tu peux
+> consommer les bières de la brasserie mais pas en acheter pour emporter »
+
+Une cinquième catégorie, code 4 : « Consommer sur place seulement »
+(S368). Elle se donne quand une source dit qu'on boit sur place **et**
+qu'on ne vend pas à emporter ; sans ce second point, la fiche reste en 1
+ou passe en confiance faible. Les fiches existantes ne changent que par
+une nouvelle lecture de leur source.

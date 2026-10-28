@@ -1,3 +1,4 @@
+import { CATEGORIES } from './categories'
 import type { CandidatEnCause } from './candidats'
 import { MOTIF_DEPARTEMENT } from './schema'
 
@@ -99,7 +100,14 @@ export function candidatsARelancer(
   return candidats.filter((c) => !dejaLus.has(c.cle) && /relancer/i.test(raisons[c.cle] ?? ''))
 }
 
-const LIBELLES = ['« acheter et consommer »', '« acheter seulement »', '« pas de vente »', '« à confirmer »'] as const
+/** Par code de catégorie ; le 4 (S368) vient en dernier, pour garder la phrase des comptes rendus déjà écrits. */
+const LIBELLES: readonly (readonly [number, string])[] = [
+  [1, '« acheter et consommer »'],
+  [2, '« acheter seulement »'],
+  [3, '« pas de vente »'],
+  [0, '« à confirmer »'],
+  [4, '« consommer sur place seulement »'],
+]
 
 /**
  * L'en-tête du compte rendu d'un lot départemental, puis le diff de l'outil.
@@ -113,7 +121,7 @@ export function compteRenduDuLot(e: {
   candidats: readonly CandidatEnCause[]
   /** Les clés des candidats lus et proposés. */
   lus: readonly string[]
-  /** La catégorie de chaque fiche proposée (0 à 3). */
+  /** La catégorie de chaque fiche proposée (0 à 4). */
   categories: readonly number[]
   raisons: Readonly<Record<string, string>>
   /** La sortie de `outils/curation.ts diff`. */
@@ -125,12 +133,12 @@ export function compteRenduDuLot(e: {
   if (lus.size !== e.lus.length) throw new Error('une lecture en double dans `lus`')
   const etrangeres = e.lus.filter((c) => !cles.has(c))
   if (etrangeres.length > 0) throw new Error(`lectures hors des candidats : ${etrangeres.join(', ')}`)
-  if (e.categories.length !== e.lus.length || e.categories.some((c) => !Number.isInteger(c) || c < 0 || c > 3))
-    throw new Error('une catégorie par lecture, de 0 à 3')
+  if (e.categories.length !== e.lus.length || e.categories.some((c) => !Number.isInteger(c) || !(c in CATEGORIES)))
+    throw new Error('une catégorie par lecture, de 0 à 4')
   const non = e.candidats.filter((c) => !lus.has(c.cle))
   const oublies = non.filter((c) => e.raisons[c.cle] === undefined).map((c) => c.cle)
   if (oublies.length > 0) throw new Error(`candidats ni lus ni expliqués : ${oublies.join(', ')}`)
-  const compte = [0, 0, 0, 0]
+  const compte = [0, 0, 0, 0, 0]
   for (const cat of e.categories) compte[cat] = (compte[cat] ?? 0) + 1
   const n = e.lus.length
   const s = n > 1 ? 's' : ''
@@ -140,7 +148,7 @@ export function compteRenduDuLot(e: {
     `Ce lot ajoute **${String(n)} fiche${s} nouvelle${s}**, par la règle de Cédric du 21/10 (\`docs/DECISIONS.md\`).`,
     '',
     `**Décompte** : ${String(e.candidats.length)} candidats = ${String(n)} proposés + ${String(non.length)} non proposés (tableau ci-dessous).`,
-    `Catégories proposées : ${String(compte[1])} ${LIBELLES[0]}, ${String(compte[2])} ${LIBELLES[1]}, ${String(compte[3])} ${LIBELLES[2]}, ${String(compte[0])} ${LIBELLES[3]}.`,
+    `Catégories proposées : ${LIBELLES.map(([cat, libelle]) => `${String(compte[cat])} ${libelle}`).join(', ')}.`,
     '',
     '**Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.',
     '',

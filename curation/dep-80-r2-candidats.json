@@ -1,0 +1,29 @@
+[
+ {
+  "cle": "sirene:842097032",
+  "nom": "BRASSERIE A LA NOYE",
+  "communes": [
+   "QUIRY-LE-SEC"
+  ],
+  "departement": "80",
+  "adresses": [
+   "2 RUE DE FOLLEVILLE 80250 QUIRY-LE-SEC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "842097032",
+  "sirets": [
+   "84209703200010"
+  ],
+  "osm": [
+   "way/319564583"
+  ],
+  "lat": 49.675177255,
+  "lon": 2.3805801052,
+  "site": "http://www.brasseriealanoye.fr/",
+  "statut": "nouveau"
+ }
+]

@@ -3027,3 +3027,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S344 — Hauts-de-France, première partie *(28/10, epic E36)*
 
 `docs/stories/S344.md`, issue #185. Les cinq départements préparés ; quatre lus (Aisne, Oise, Pas-de-Calais, Somme) : 17 fiches par la règle de Cédric du 21/10 (02 : 3, 60 : 2, 62 : 10, 80 : 2), sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée avant d'appliquer (quatre notes corrigées). 574 fiches dans 51 départements, OSM à 770. Le Nord (59) attend un quota de recherches neuf ; douze candidats « à relancer » (BACKLOG).
+
+## S368 — Consommer sur place seulement *(28/10, demande de Cédric)*
+
+`docs/stories/S368.md`. Cinquième catégorie, code 4, « Consommer sur place seulement » : on boit les bières de la brasserie sur place, sans pouvoir en acheter à emporter (mots de Cédric dans `docs/DECISIONS.md`). Schéma, filtres (juste après « Acheter et consommer sur place »), carte, légende, couleur violette mesurée dans les deux thèmes et sur les tuiles, anglais, comptes rendus de campagne. Les préférences gardées passent en version 2 sans rien deviner. Revue adverse sans trouvaille bloquante ; tests qui listaient 0 à 3 en dur repris sur `ORDRE_CATEGORIES`. Aucune fiche n'est encore en 4 : la première vient avec le Nord.

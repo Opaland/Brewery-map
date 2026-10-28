@@ -1,6 +1,6 @@
 import { normaliser } from './recherche'
 import { z } from './zod'
-import { CATEGORIES } from './categories'
+import { CATEGORIES, ORDRE_CATEGORIES } from './categories'
 import { BRIGNAIS, distanceKm, kmFr, type Point } from './distance'
 import { formaterCreneaux } from './horaires'
 import { adresseDeRue } from './fiche'
@@ -496,17 +496,18 @@ export function lotSuivant(
 ): string[] {
   // Mode normal : les « À confirmer » jamais revus ; une fiche revue est
   // passée, même datée (revue code S15).
-  // Veille (`toutes`, S15) : les catégories 1 à 3, qui affirment quelque
+  // Veille (`toutes`, S15) : les catégories 1 à 4, qui affirment quelque
   // chose et peuvent vieillir — les « À confirmer » restent au mode normal,
   // sans doublon. Une fiche revue sans résultat est passée ; une fiche datée
   // revient à son tour.
   const retenue = (b: Brasserie) =>
     toutes ? b.cat !== 0 && !(dejaRevues.has(b.n) && b.verifieLe === undefined) : b.cat === 0 && !dejaRevues.has(b.n)
   // Sans date, la veille prend la catégorie 1 d'abord (« acheter et consommer
-  // sur place », le critère de Cédric), puis 2 et 3 : ordre de présentation
-  // tranché au jugement (CLAUDE.md §2) ; écarté : la distance seule, qui
-  // revoyait toujours les mêmes fiches proches (revue métier S15).
-  const rangCategorie = (b: Brasserie) => (toutes ? b.cat : 0)
+  // sur place », le critère de Cédric), puis 4, 2 et 3, l'ordre d'affichage
+  // (S368) : ordre de présentation tranché au jugement (CLAUDE.md §2) ;
+  // écarté : la distance seule, qui revoyait toujours les mêmes fiches
+  // proches (revue métier S15).
+  const rangCategorie = (b: Brasserie) => (toutes ? ORDRE_CATEGORIES.indexOf(b.cat) : 0)
   return brasseries
     .filter(retenue)
     .map((b) => ({ n: b.n, verifie: b.verifieLe ?? '', rang: rangCategorie(b), d: distanceKm(origine, b) }))

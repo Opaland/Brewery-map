@@ -1,3 +1,4 @@
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { describe, expect, it } from 'vitest'
 import { BRIGNAIS } from '../../src/core/distance'
 import {
@@ -22,7 +23,7 @@ import type { Brasserie } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
 const TOUTES = LIGNES_REELLES as unknown as Brasserie[]
-const TOUTES_CATEGORIES = [0, 1, 2, 3] as const
+const TOUTES_CATEGORIES = ORDRE_CATEGORIES
 
 const base = {
   origine: BRIGNAIS,
@@ -330,7 +331,7 @@ describe('parcourir par département (S27, idée vue sur biere-tourisme.fr)', ()
       origine: BRIGNAIS,
       rayonKm: 5,
       texte: '',
-      categories: [0, 1, 2, 3],
+      categories: TOUTES_CATEGORIES,
       departement: '73',
     })
     expect(r.length).toBeGreaterThan(0)
@@ -348,13 +349,13 @@ describe('parcourir par département (S27, idée vue sur biere-tourisme.fr)', ()
 describe('une brasserie fermée (décision #35)', () => {
   const reelles = LIGNES_REELLES as unknown as Brasserie[]
   const fermee = { ...reelles[0], n: 'Porte Close', fermee: { source: 'https://exemple.fr', verifieLe: '2026-10-16' } }
-  const criteres = { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: [0, 1, 2, 3] as const }
+  const criteres = { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: TOUTES_CATEGORIES }
 
   it('sort de la liste par défaut', () => {
-    expect(rechercher([fermee], { ...criteres, categories: [0, 1, 2, 3] }).map((r) => r.brasserie.n)).toEqual([])
+    expect(rechercher([fermee], { ...criteres, categories: TOUTES_CATEGORIES }).map((r) => r.brasserie.n)).toEqual([])
   })
   it('reste trouvable par son nom', () => {
-    expect(rechercher([fermee], { ...criteres, categories: [0, 1, 2, 3], texte: 'porte close' })).toHaveLength(1)
+    expect(rechercher([fermee], { ...criteres, categories: TOUTES_CATEGORIES, texte: 'porte close' })).toHaveLength(1)
   })
 })
 
@@ -373,7 +374,7 @@ describe('restes de S27 (S31)', () => {
 
   it('un favori fermé n’est pas « caché par les filtres » : il est fermé', () => {
     const favoris = [ouverte.n, close.n]
-    const criteres = { origine: BRIGNAIS, rayonKm: 1000, texte: '', categories: [0, 1, 2, 3] as const }
+    const criteres = { origine: BRIGNAIS, rayonKm: 1000, texte: '', categories: TOUTES_CATEGORIES }
     expect(favorisCaches([ouverte, close], favoris, criteres)).toEqual([])
     expect(favorisFermes([ouverte, close], favoris)).toEqual(['Porte Close'])
   })
@@ -387,9 +388,9 @@ describe('restes de S27 (S31)', () => {
     // prouver qu'elle est comptée, pas seulement que les autres sont exclues
     // (revue adverse S31).
     const houblon: Brasserie = { ...ouverte, n: 'Houblon d’essai', beers: [{ type: 'ipa' }] }
-    expect(compterParDepartement([...reelles, houblon], { categories: [0, 1, 2, 3], type: 'ipa' }).get(d)).toBe(1)
+    expect(compterParDepartement([...reelles, houblon], { categories: TOUTES_CATEGORIES, type: 'ipa' }).get(d)).toBe(1)
     expect(
-      compterParDepartement(reelles, { categories: [0, 1, 2, 3], seulement: new Set([ouverte.n]) }).get(d),
+      compterParDepartement(reelles, { categories: TOUTES_CATEGORIES, seulement: new Set([ouverte.n]) }).get(d),
     ).toBe(1)
   })
 })
@@ -397,13 +398,13 @@ describe('restes de S27 (S31)', () => {
 describe('pas encore visitées (S35)', () => {
   it('écarte les visitées, par la même garde que les autres filtres', () => {
     const reelles = LIGNES_REELLES as unknown as Brasserie[]
-    const tous = rechercher(reelles, { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: [0, 1, 2, 3] })
+    const tous = rechercher(reelles, { origine: BRIGNAIS, rayonKm: 100, texte: '', categories: TOUTES_CATEGORIES })
     const visitee = tous[0].brasserie.n
     const sans = rechercher(reelles, {
       origine: BRIGNAIS,
       rayonKm: 100,
       texte: '',
-      categories: [0, 1, 2, 3],
+      categories: TOUTES_CATEGORIES,
       exclure: new Set([visitee]),
     })
     expect(sans).toHaveLength(tous.length - 1)

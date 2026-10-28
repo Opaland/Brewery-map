@@ -9,7 +9,7 @@ publication).
 🍺 **Mousse de Poche** : les brasseries artisanales autour de vous, et ce
 qu'on peut vraiment y faire.
 
-Acheter et boire sur place ? Acheter seulement ? Rien du tout ? Ou « à
+Acheter et boire sur place ? Boire sur place seulement ? Acheter seulement ? Rien du tout ? Ou « à
 confirmer », quand aucune source ne le dit. L'application ne devine pas :
 chaque fiche dit d'où vient l'information et avec quelle confiance.
 

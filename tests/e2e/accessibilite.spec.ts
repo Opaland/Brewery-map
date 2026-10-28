@@ -333,7 +333,7 @@ for (const schema of ['light', 'dark'] as const) {
       }
       return [...pire.entries()].sort().map(([c, r]) => [c, r.toFixed(2)] as const)
     })
-    expect(mesures.map(([c]) => c)).toEqual(['cat-0', 'cat-1', 'cat-2', 'cat-3'])
+    expect(mesures.map(([c]) => c)).toEqual(['cat-0', 'cat-1', 'cat-2', 'cat-3', 'cat-4'])
     for (const [cat, ratio] of mesures) expect(Number(ratio), cat).toBeGreaterThanOrEqual(3)
   })
 }

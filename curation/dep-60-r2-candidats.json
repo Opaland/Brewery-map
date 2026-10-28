@@ -1,0 +1,48 @@
+[
+ {
+  "cle": "sirene:414798934",
+  "nom": "FERME BRASSERIE SAINT RIEUL",
+  "communes": [
+   "TRUMILLY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "588 RUE DE DRUCY 60800 TRUMILLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "414798934",
+  "sirets": [
+   "41479893400017"
+  ],
+  "osm": [],
+  "lat": 49.2475825164716,
+  "lon": 2.8058172179231,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827534231",
+  "nom": "ECOL' AUX MOUSSES",
+  "communes": [
+   "ARSY"
+  ],
+  "departement": "60",
+  "adresses": [
+   "13 RUE DE PICARDIE 60190 ARSY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827534231",
+  "sirets": [
+   "82753423100028"
+  ],
+  "osm": [],
+  "lat": 49.400726148,
+  "lon": 2.6895221709,
+  "statut": "nouveau"
+ }
+]

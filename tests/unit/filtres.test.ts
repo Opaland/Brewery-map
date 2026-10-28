@@ -1,6 +1,18 @@
 import { describe, expect, it } from 'vitest'
-import { ORDRE_CATEGORIES } from '../../src/core/categories'
+import { CATEGORIES, ORDRE_CATEGORIES } from '../../src/core/categories'
 import { filtresActifs, resumeDesFiltres } from '../../src/core/filtres'
+
+describe('« Consommer sur place seulement » (S368, demande de Cédric du 28/10)', () => {
+  it('vient juste après « Acheter et consommer sur place », et chaque catégorie a sa case', () => {
+    expect(ORDRE_CATEGORIES).toEqual([1, 4, 2, 3, 0])
+    expect(CATEGORIES[4]).toBe('Consommer sur place seulement')
+    expect([...ORDRE_CATEGORIES].sort()).toEqual(Object.keys(CATEGORIES).map(Number).sort())
+  })
+
+  it('décocher la seule 4 est un filtre actif', () => {
+    expect(filtresActifs({ categories: [1, 2, 3, 0], favorisSeulement: false, sansOsm: false })).toEqual(['ce qu’on peut y faire'])
+  })
+})
 
 /** S29 : les filtres repliés sur téléphone disent ce qu'ils cachent. */
 describe('filtres repliés (S29)', () => {

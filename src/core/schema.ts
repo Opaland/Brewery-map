@@ -33,6 +33,7 @@ export const categorieSchema = z.union([
   z.literal(1),
   z.literal(2),
   z.literal(3),
+  z.literal(4),
 ])
 
 /**
@@ -328,7 +329,7 @@ export const brasserieObjetSchema = z
 
 export const brasserieSchema = brasserieObjetSchema
   .refine((b) => b.cat === 0 || b.src !== '', {
-    message: 'une catégorie de vente affirmée (1 à 3) exige une source',
+    message: 'une catégorie de vente affirmée (1 à 4) exige une source',
     path: ['src'],
   })
   .refine((b) => (b.cat === 0) === (b.conf === ''), {

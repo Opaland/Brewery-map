@@ -132,7 +132,7 @@ test('les nombres du menu des départements suivent les catégories cochées (S3
   const savoie = page.getByTestId('departement').locator('option[value="73"]')
   const nombre = async () => Number((await savoie.textContent())?.match(/\((\d+)\)/)?.[1])
   const avant = await nombre()
-  for (const cat of [1, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+  for (const cat of [1, 4, 2, 3]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
   expect(await nombre()).toBeLessThan(avant)
   // Toujours dans le menu, même à 0 : le choix ne tombe pas au premier filtre.
   await page.getByTestId('departement').selectOption('73')

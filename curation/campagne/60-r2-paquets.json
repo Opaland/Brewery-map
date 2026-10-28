@@ -1,0 +1,30 @@
+[
+ [
+  {
+   "cle": "sirene:414798934",
+   "enseigne": "FERME BRASSERIE SAINT RIEUL",
+   "dep": "60",
+   "communes": [
+    "TRUMILLY"
+   ],
+   "adresses": [
+    "588 RUE DE DRUCY 60800 TRUMILLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:827534231",
+   "enseigne": "ECOL' AUX MOUSSES",
+   "dep": "60",
+   "communes": [
+    "ARSY"
+   ],
+   "adresses": [
+    "13 RUE DE PICARDIE 60190 ARSY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ]
+]

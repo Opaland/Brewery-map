@@ -1,5 +1,7 @@
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
+import { VERSION_PREFERENCES } from '../../src/core/preferences'
 import { attendreGarde, lireGarde } from './garde'
 import { attendreSuite, choisirCommune, sansTuiles, ouvrirFiltres } from './reseau'
 
@@ -240,7 +242,7 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
     await page.goto('/')
     await expect(page.locator('button.ligne').nth(1)).toBeVisible()
     const noms = await page.locator('button.ligne').evaluateAll((b) => b.slice(0, 2).map((e) => e.getAttribute('data-nom') ?? ''))
-    const futur = { version: 2, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
+    const futur = { version: VERSION_PREFERENCES + 1, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
     await ecrireGarde(page, futur)
     await page.reload()
     // Lu pour ce que cette version comprend : le favori est là.
@@ -269,7 +271,7 @@ test.describe('un stockage qui ne correspond plus aux données', () => {
     await expect(page.getByTestId('compte')).toContainText('40 km')
     // Cet onglet a ouvert son stockage en version 1 ; une version plus
     // récente écrit ensuite, comme depuis une autre fenêtre.
-    const futur = { version: 2, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
+    const futur = { version: VERSION_PREFERENCES + 1, favoris: [noms[0]], rayonKm: 40, champVenuDuFutur: 'à garder' }
     await ecrireGarde(page, futur)
     await ligne(page, noms[1] ?? '').click()
     await page.getByRole('button', { name: /Ajouter à mes favoris/ }).click()
@@ -420,7 +422,7 @@ test('un filtre gardé ouvre le repli « Plus de filtres » dès l’arrivée (S
   await page.goto('/')
   await ouvrirFiltres(page)
   await page.getByTestId('categorie-0').uncheck()
-  await attendreGarde(page, { categories: [1, 2, 3] })
+  await attendreGarde(page, { categories: ORDRE_CATEGORIES.filter((c) => c !== 0) })
   await page.reload()
   await expect(page.getByTestId('categorie-0')).toBeVisible()
   await expect(page.getByTestId('plus-de-filtres-resume')).toContainText('1 filtre actif')

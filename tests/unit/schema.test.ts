@@ -18,8 +18,16 @@ describe('le schéma d’une brasserie', () => {
 
   it('refuse une vente affirmée sans source', () => {
     expect(erreursDe({ ...valide, src: '' })).toEqual([
-      '0.src : une catégorie de vente affirmée (1 à 3) exige une source',
+      '0.src : une catégorie de vente affirmée (1 à 4) exige une source',
     ])
+  })
+
+  it('accepte « Consommer sur place seulement » (4, demande de Cédric du 28/10), avec sa source comme 1 à 3 (S368)', () => {
+    expect(erreursDe({ ...valide, cat: 4 })).toEqual([])
+    expect(erreursDe({ ...valide, cat: 4, src: '' })).toEqual([
+      '0.src : une catégorie de vente affirmée (1 à 4) exige une source',
+    ])
+    expect(erreursDe({ ...valide, cat: 5 })).toHaveLength(1)
   })
 
   it('accepte « À confirmer » sans source, mais pas avec une confiance', () => {
@@ -40,8 +48,8 @@ describe('le schéma d’une brasserie', () => {
     expect(erreursDe({ ...valide, horaires: 'sam 15h' })).not.toEqual([])
   })
 
-  it('refuse une catégorie hors des quatre', () => {
-    expect(erreursDe({ ...valide, cat: 4 })).not.toEqual([])
+  it('refuse une catégorie hors des cinq', () => {
+    expect(erreursDe({ ...valide, cat: 5 })).not.toEqual([])
   })
 
   it('refuse une précision de coordonnées inconnue', () => {

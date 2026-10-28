@@ -45,6 +45,11 @@ penses être le mieux » → des lots de propositions comme le reste (§0),
 regroupés par source pour qu'un lot entier puisse s'accepter d'une phrase.
 Restent 3, 4 et 5.
 
+## Restes de S368 (28/10)
+
+- Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
+- Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
+
 ## Restes de S344, première partie (28/10, issue #185)
 
 - Le Nord (59, 27 paquets) n'est pas lu : quota de recherches épuisé. Seconde partie de S344, avec un quota neuf.

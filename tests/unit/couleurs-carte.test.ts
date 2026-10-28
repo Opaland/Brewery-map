@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 
 /**
  * S307 (revue globale du 19/10, A8) : les tuiles d'OpenStreetMap restent
@@ -63,8 +64,8 @@ const SUR_CARTE = variables(/\.carte, \.legende-carte \{([^}]*)\}/.exec(CSS)?.[1
 const CLAIR = variables(/:root \{([^}]*--cat-1[^}]*)\}/.exec(CSS)?.[1] ?? '')
 
 describe('les couleurs sur la carte (S307)', () => {
-  it('la carte et sa légende redéfinissent les quatre catégories, l’anneau et le focus', () => {
-    expect(Object.keys(SUR_CARTE).sort()).toEqual(['--carte-encre', '--carte-focus', '--cat-0', '--cat-1', '--cat-2', '--cat-3'])
+  it('la carte et sa légende redéfinissent les cinq catégories, l’anneau et le focus', () => {
+    expect(Object.keys(SUR_CARTE).sort()).toEqual(['--carte-encre', '--carte-focus', '--cat-0', '--cat-1', '--cat-2', '--cat-3', '--cat-4'])
   })
 
   it('chacune tient 3:1 contre les fonds des tuiles et les routes jusqu’aux principales', () => {
@@ -82,6 +83,6 @@ describe('les couleurs sur la carte (S307)', () => {
   })
 
   it('les catégories y valent celles du thème clair : deux listes tenues d’accord (§4ter)', () => {
-    for (const n of [0, 1, 2, 3]) expect(SUR_CARTE[`--cat-${String(n)}`]).toBe(CLAIR[`--cat-${String(n)}`])
+    for (const n of ORDRE_CATEGORIES) expect(SUR_CARTE[`--cat-${String(n)}`]).toBe(CLAIR[`--cat-${String(n)}`])
   })
 })

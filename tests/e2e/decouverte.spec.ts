@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
+import { ORDRE_CATEGORIES } from '../../src/core/categories'
 import { BRIGNAIS } from '../../src/core/distance'
 import { brasseriesDepuisFichierOsm, type FichierOsm } from '../../src/core/osm-france'
 import { rechercher } from '../../src/core/recherche'
@@ -19,7 +20,7 @@ const DONNEES = [
 
 /** Ce que le cœur calcule pour un rayon, toutes catégories : la référence. */
 function attendus(rayonKm: number): number {
-  return rechercher(DONNEES, { origine: BRIGNAIS, rayonKm, texte: '', categories: [0, 1, 2, 3] })
+  return rechercher(DONNEES, { origine: BRIGNAIS, rayonKm, texte: '', categories: [...ORDRE_CATEGORIES] })
     .length
 }
 
@@ -84,19 +85,20 @@ test.describe('trouver une brasserie (Marie)', () => {
     expect(distances).toEqual([...distances].sort((a, b) => a - b))
   })
 
-  test('les quatre catégories sont nommées en clair et filtrent', async ({ page }) => {
+  test('les cinq catégories sont nommées en clair et filtrent', async ({ page }) => {
     await page.goto('/')
     await regler(page, 100)
     await ouvrirFiltres(page)
     for (const libelle of [
       'Acheter et consommer sur place',
+      'Consommer sur place seulement',
       'Acheter seulement',
       'Pas de vente',
       'À confirmer',
     ]) {
       await expect(page.getByRole('checkbox', { name: libelle })).toBeChecked()
     }
-    for (const cat of [0, 1, 2]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
+    for (const cat of [0, 1, 2, 4]) await page.getByTestId(`categorie-${String(cat)}`).uncheck()
     // Dans le rayon réglé, comme la liste (`recherche.ts`) : vu en S341, deux
     // fiches « pas de vente » de Haute-Savoie, à 152 km, le faisaient échouer.
     const n = DONNEES.filter((b) => b.cat === 3 && Math.round(b.km) <= 100).length
@@ -122,7 +124,7 @@ test.describe('trouver une brasserie (Marie)', () => {
     await ouvrirFiltres(page)
     await regler(page, 50)
     await expect(lignes(page)).toHaveCount(attendus(50))
-    const avecIpa = rechercher(DONNEES, { origine: BRIGNAIS, rayonKm: 50, texte: '', categories: [0, 1, 2, 3], type: 'ipa' })
+    const avecIpa = rechercher(DONNEES, { origine: BRIGNAIS, rayonKm: 50, texte: '', categories: [...ORDRE_CATEGORIES], type: 'ipa' })
     expect(avecIpa.length).toBeGreaterThan(0)
     expect(avecIpa.length).toBeLessThan(attendus(50))
     await page.getByTestId('type').selectOption('ipa')
