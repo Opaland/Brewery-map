@@ -23,9 +23,9 @@ Catégories proposées : 0 « acheter et consommer », 2 « acheter seulement »
 | LOCALE (`sirene:893403816`) | lu le 29/10 : rien sous ce nom |
 | BRASSERIE DU BAILLOU (`sirene:878429968`) | lu le 29/10 : rien sous ce nom |
 | Entreprise individuelle (`personne:1`) | entreprise sans nom ni adresse : rien à chercher |
-| BEER MINKO (`sirene:900751249`) | lu le 29/10 : un article seul ; vente en ligne, aucun lieu établi |
+| BEER MINKO (`sirene:900751249`) | lu le 29/10 : un article seul ; aucun lieu établi à Nanterre |
 | Entreprise individuelle (`personne:2`) | entreprise sans nom ni adresse : rien à chercher |
-| BRASSERIE 02 SEINE (`sirene:850026246`) | lu le 29/10 : même SIREN que Nemeto, lue sous way/1024690864 |
+| BRASSERIE 02 SEINE (`sirene:850026246`) | lu le 29/10 : même adresse que Nemeto (4 rue Silvy), très probablement la même entité, lue sous way/1024690864 |
 | 68 by Guy Martin (`node/3980268299`) | lu le 29/10 : un restaurant, qui ne brasse pas |
 | La Place (`node/640616938`) | lu le 29/10 : un bar-restaurant, qui ne brasse pas |
 | Get Your Drinks (`node/6409925921`) | lu le 29/10 : rien sous ce nom |
@@ -44,7 +44,7 @@ Catégories proposées : 0 « acheter et consommer », 2 « acheter seulement »
 - km : (vide) → 403.6
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Micro-brasserie associative (Les Brasseurs du Théâtre), brassée à Suresnes. La bière se vend à l'office de tourisme, pas sur place ; des visites avec dégustation sont proposées par réservation sur une plateforme. Ni site officiel, ni horaires, ni téléphone publiés par la brasserie : à confirmer.
+- note : (vide) → Micro-brasserie associative de Suresnes, d'après l'office de tourisme, qui vend sa bière. Ce qu'on peut faire à la brasserie elle-même n'est pas établi : à confirmer.
 - addr : (vide) → rue Kellogg, 92150 Suresnes
 - src : (vide) → https://en.suresnes-tourisme.com/local-producers-suresnes.html
 - coordPrecision : (vide) → centre
@@ -55,9 +55,9 @@ Sources (vérifiée le 2026-10-29) : https://en.suresnes-tourisme.com/local-prod
 
 Extrait lu : « The beer is available to buy from Suresnes Tourist Office »
 
-Choix du vérificateur : Existence établie par une seule page d'office de tourisme (confiance au plus moyenne), recoupée par une annonce Airbnb tenue par un membre de l'association (https://www.airbnb.com/experiences/4688554 : « Discover the entire brewing process and enjoy a tasting of our current beers », « Purchase your favorite brews »), qui n'est pas une source officielle. Catégorie laissée à 0 : l'office dit qu'on achète la bière chez lui, pas à la brasserie, et la visite passe par une réservation Airbnb. Catégorie 1 non retenue faute de source de la brasserie. Adresse sans numéro, telle que sur la page (SIRENE donne 29 rue Kellogg ou 3 allée William Penn, non retenu). Téléphone non repris : le seul numéro de la page (01 42 04 41 47) est celui de l'office. Pas de site officiel trouvé ; Facebook et Instagram sont cités par l'office, non ouverts. Pas d'Untappd trouvé. Pages lues par la lecture directe de WebFetch (extraits rendus par un modèle intermédiaire, donc l'extrait est à recontrôler sur la page française de l'office, la page lue étant la version anglaise). Source rouverte à la main le 29/10.
+Choix du vérificateur : Une seule page d'office de tourisme (confiance au plus moyenne) : catégorie 0. Une annonce de visite sur une plateforme de réservation n'est pas reprise (source non valable). Téléphone de l'office non repris. Adresse sans numéro, telle que sur la page. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -103,12 +103,12 @@ Extrait lu : « Vente directe à la brasserie »
 
 Choix du vérificateur : Page Untappd https://untappd.com/BonelessBrewingCo ouverte (Boneless Brewing Co, Châtillon), mais le site officiel n'y renvoie pas : non mise dans contact, dont la source est le site. Cédric peut l'ajouter. Aucun téléphone publié. L'e-mail du site n'est pas retenu (pas de champ). Seules les trois bières nommées sur le site avec un style clair sont retenues. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 23 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 17 h 30.
+> - À 23 h 29 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 17 h 30.
 > - Adresse
 > - 93 Boulevard de Vanves, 92320 Châtillon
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -164,12 +164,12 @@ Extrait lu : « Toute nos bières et nos biscuits sont disponibles à la brasser
 
 Choix du vérificateur : Catégorie 2 et non 1 : le site parle de dégustation seulement dans le cadre des visites (« Vous aurez également l'occasion de déguster nos bières directement à la source », page Nos services), et aucune page ne montre un lieu où l'on boit sans visite. Téléphone : un seul numéro publié, sur la page contact. Untappd : https://untappd.com/brasserienemeto est cité sur la page d'accueil (« Retrouvez aussi nos bières sur Untappd ») et la page s'ouvre (brasserie revendiquée, 28 bières) ; je ne le mets pas dans `contact` parce que la source du contact (page contact) n'a pas été vue le portant. Il est à ajouter si Cédric l'accepte (source : la page d'accueil). Bières laissées vides : le site liste Geneviève (blonde, pale ale), La Grange (blanche, hefeweizen), Bois Joly (ambrée au miel), La Folie (ambrée, IPA), Boulevard du Couchant (brune, brown porter) et Trigoujat (blonde belge, saison). Je n'ai pas rempli le champ `beers`, dont l'énumération des types n'a pas été vérifiée. Samedi : le 1er samedi du mois seulement, 10h30-13h et 15h30-19h. Un créneau hebdomadaire ne sait pas le dire, donc il est dans `remarque`. La fiche SIRENE `sirene:850026246` (BRASSERIE 02 SEINE, 4 rue Silvy, Nanterre) est très probablement la même entité, dans un autre paquet : à dédoubler. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 23 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 10 h, sous réserve.
+> - À 23 h 29 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 10 h, sous réserve.
 > - Adresse
 > - 4 rue Silvy, 92000 Nanterre
 > - Pas encore dans la fiche : ses bières.
@@ -190,4 +190,4 @@ Choix du vérificateur : Catégorie 2 et non 1 : le site parle de dégustation s
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [brasserienemeto.fr](https://www.brasserienemeto.fr/boutique) le 29 octobre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
-Empreinte du lot : 1638dbf84007
+Empreinte du lot : cdcc24d4a330

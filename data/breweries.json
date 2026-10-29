@@ -23389,5 +23389,511 @@
   "coordPrecision": "address",
   "beers": [],
   "verifieLe": "2026-10-29"
+ },
+ {
+  "n": "Soquee Brewing",
+  "c": "Paris",
+  "d": "75",
+  "lat": 48.85959,
+  "lon": 2.40927,
+  "km": 395.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie parisienne lancée en mars 2023. Le site officiel annonce une vente à emporter le mercredi, le vendredi et le samedi de 17h à 19h30 à cette adresse. Il ne parle pas de dégustation sur place. La production est présentée à Requista (Aveyron).",
+  "addr": "157 boulevard Davout, 75020 Paris",
+  "src": "https://soqueebrewing.fr/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "07 78 20 63 35",
+   "site": "https://soqueebrewing.fr/",
+   "source": "https://soqueebrewing.fr/contact",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "source": "https://soqueebrewing.fr/contact",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Baleine",
+  "c": "Paris",
+  "d": "75",
+  "lat": 48.85225,
+  "lon": 2.41161,
+  "km": 395.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie parisienne qui publie sur son site officiel une adresse d'accueil, un téléphone et des horaires. La page ne dit pas si l'on peut y boire sur place ni acheter à emporter : ce qu'on peut y faire n'est pas établi. Ses horaires d'accueil sont : jeudi, vendredi et samedi de 17 h à 23 h, ou sur rendez-vous.",
+  "addr": "11 rue Schubert, 75020 Paris",
+  "src": "https://www.brasserielabaleine.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "06 60 99 65 22",
+   "site": "https://www.brasserielabaleine.com",
+   "source": "https://www.brasserielabaleine.com",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Ou sur rendez-vous.",
+    "source": "https://www.brasserielabaleine.com",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de l'Être",
+  "c": "Paris",
+  "d": "75",
+  "lat": 48.88936,
+  "lon": 2.37682,
+  "km": 399.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio parisienne ; son site officiel ne décrit ni boutique ni bar ouverts au public, seulement une boutique en ligne et l'accueil de groupes d'entreprises. Un nouveau lieu de production et de dégustation rue Armand Carrel est annoncé, sans date.",
+  "addr": "7 ter rue Duvergier, 75019 Paris",
+  "src": "https://brasseriedeletre.paris/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "01 40 16 56 62",
+   "site": "https://brasseriedeletre.paris/",
+   "source": "https://brasseriedeletre.paris/",
+   "verifieLe": "2026-10-29"
+  }
+ },
+ {
+  "n": "Suresnes Beer Factory",
+  "c": "Suresnes",
+  "d": "92",
+  "lat": 48.87075,
+  "lon": 2.21804,
+  "km": 403.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie associative de Suresnes, d'après l'office de tourisme, qui vend sa bière. Ce qu'on peut faire à la brasserie elle-même n'est pas établi : à confirmer.",
+  "addr": "rue Kellogg, 92150 Suresnes",
+  "src": "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-29"
+ },
+ {
+  "n": "Boneless Brewing Company",
+  "c": "Châtillon",
+  "d": "92",
+  "lat": 48.80934,
+  "lon": 2.28305,
+  "km": 395.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce de la vente directe à la brasserie, avec ses créneaux. Il ne dit pas si l'on peut boire sur place : catégorie 2 par prudence, la consommation sur place n'est pas établie.",
+  "addr": "93 Boulevard de Vanves, 92320 Châtillon",
+  "src": "https://www.bonelessbrewing.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "site": "https://www.bonelessbrewing.com/",
+   "source": "https://www.bonelessbrewing.com/",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "17:30",
+      "19:30"
+     ]
+    ],
+    "mar": [
+     [
+      "17:30",
+      "19:30"
+     ]
+    ],
+    "mer": [
+     [
+      "17:30",
+      "19:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:30",
+      "19:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:30",
+      "19:30"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "13:00"
+     ],
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.bonelessbrewing.com/",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Nemeto",
+  "c": "Nanterre",
+  "d": "92",
+  "lat": 48.8981,
+  "lon": 2.20231,
+  "km": 406.8,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie et biscuiterie bio. Bières et biscuits en vente à emporter à la brasserie du lundi au vendredi, et le 1er samedi du mois, avec une visite gratuite à 15h30 ces samedis-là (sauf en décembre). Pas de livraison aux particuliers.",
+  "addr": "4 rue Silvy, 92000 Nanterre",
+  "src": "https://www.brasserienemeto.fr/boutique",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "01 46 95 44 25",
+   "site": "https://www.brasserienemeto.fr/",
+   "source": "https://www.brasserienemeto.fr/contact-5",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Ouvert aussi le 1er samedi de chaque mois, de 10h30 à 13h et de 15h30 à 19h ; visite gratuite d'une heure à 15h30 ces samedis-là (sauf en décembre).",
+    "source": "https://www.brasserienemeto.fr/boutique",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Gallia",
+  "c": "Pantin",
+  "d": "93",
+  "lat": 48.88926,
+  "lon": 2.41355,
+  "km": 398.7,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie de Pantin (salle de brassage de 20 hl) : le bar est au milieu de la brasserie, les bières se boivent sur place et toutes les références se vendent à emporter. Visites de la brasserie proposées sur le site.",
+  "addr": "35 rue Méhul, 93500 Pantin",
+  "src": "https://galliaparis.com/pages/bar",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "site": "https://galliaparis.com",
+   "untappd": "https://untappd.com/Gallia1890",
+   "source": "http://www.galliaparis.com/",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "12:00",
+      "00:00"
+     ]
+    ],
+    "dim": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Lundi fermé.",
+    "source": "https://galliaparis.com/pages/bar",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie du Grand Paris",
+  "c": "Saint-Denis",
+  "d": "93",
+  "lat": 48.92976,
+  "lon": 2.34226,
+  "km": 405.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "« La brasserie ne dispose pas de boutique physique avec accueil du public » : on y retire seulement ses commandes passées en ligne (Click & Collect), d'après son site.",
+  "addr": "103 rue Charles Michels, 93200 Saint-Denis",
+  "src": "https://www.bgp.paris",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "09 81 04 81 20",
+   "site": "https://www.bgp.paris",
+   "source": "https://www.bgp.paris",
+   "verifieLe": "2026-10-29"
+  }
+ },
+ {
+  "n": "Frogbeer",
+  "c": "Saint-Denis",
+  "d": "93",
+  "lat": 48.96102,
+  "lon": 2.35823,
+  "km": 407.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de production du groupe FrogPubs. Le site officiel ne dit ni visite, ni vente, ni horaires actuels ; une visite guidée du samedi, annoncée en 2019 par un article de presse, n'est pas reprise. Le site écrit Pierrefitte-sur-Seine, commune aujourd'hui fusionnée dans Saint-Denis (le géocodeur de l'IGN ne connaît plus que Saint-Denis pour le 93380).",
+  "addr": "5 rue Séverine, 93380 Pierrefitte-sur-Seine",
+  "src": "https://www.frogpubs.com/beers-the-brewery.php",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "site": "https://www.frogpubs.com",
+   "source": "https://www.frogpubs.com/beers-the-brewery.php",
+   "verifieLe": "2026-10-29"
+  }
+ },
+ {
+  "n": "Brasserie Outland",
+  "c": "Fontenay-sous-Bois",
+  "d": "94",
+  "lat": 48.85227,
+  "lon": 2.46908,
+  "km": 393.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Dégustation et vente à emporter selon le site de la brasserie ; la page porte encore la mention « réglementation Covid-19 », ses horaires sont donc peut-être anciens. La page Untappd parle d'un site de production et d'une taproom.",
+  "addr": "54 rue André Tessier, 94120 Fontenay-sous-Bois",
+  "src": "https://outland-beer.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "01 74 50 17 37",
+   "site": "https://outland-beer.com",
+   "untappd": "https://untappd.com/BrasserieOutland",
+   "source": "https://outland-beer.com",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "mer": [
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Horaires du site, qui porte encore une mention « réglementation Covid-19 » : à vérifier avant d'y aller.",
+    "source": "https://outland-beer.com",
+    "verifieLe": "2026-10-29"
+   }
+  ]
+ },
+ {
+  "n": "L'Alfortvillaise",
+  "c": "Alfortville",
+  "d": "94",
+  "lat": 48.80163,
+  "lon": 2.4166,
+  "km": 389.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie : le site officiel dit que les bières sont brassées et embouteillées sur place, qu'un bar permet de les boire (pression et bouteilles) et qu'un point de vente à emporter existe. Le seul numéro publié est un mobile.",
+  "addr": "2 rue des Essertes, 94140 Alfortville",
+  "src": "https://lalfortvillaise.com/a-propos/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-29",
+  "contact": {
+   "tel": "07 83 42 72 00",
+   "site": "https://lalfortvillaise.com/",
+   "source": "https://lalfortvillaise.com/a-propos/",
+   "verifieLe": "2026-10-29"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://lalfortvillaise.com/a-propos/",
+    "verifieLe": "2026-10-29"
+   }
+  ]
  }
 ]

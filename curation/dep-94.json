@@ -57,6 +57,7 @@
         "22:00"
        ]
       ],
+      "remarque": "Horaires du site, qui porte encore une mention « réglementation Covid-19 » : à vérifier avant d'y aller.",
       "source": "https://outland-beer.com",
       "verifieLe": "2026-10-29"
      }
@@ -68,7 +69,7 @@
     "https://data.geopf.fr/geocodage/search?q=54+rue+Andr%C3%A9+Tessier%2C+94120+Fontenay-sous-Bois&limit=5"
    ],
    "extrait": "Dégustation et vente à emporter\nMardi, mercredi, jeudi de 18h à 20h\nVendredi, samedi de 18h à 22h",
-   "choix": "Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37. Source rouverte à la main le 29/10."
+   "choix": "Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37. Source rouverte à la main le 29/10. Remarque ajoutée aux horaires à la relecture de la persona."
   },
   {
    "fiche": {
@@ -87,6 +88,7 @@
     "beers": [],
     "contact": {
      "tel": "07 83 42 72 00",
+     "site": "https://lalfortvillaise.com/",
      "source": "https://lalfortvillaise.com/a-propos/",
      "verifieLe": "2026-10-29"
     },
@@ -134,7 +136,7 @@
     "https://data.geopf.fr/geocodage/search?q=2+rue+des+Essertes%2C+94140+Alfortville&limit=5"
    ],
    "extrait": "Il s’agit d’un bar dans lequel vous pouvez boire nos bières (pression et/ou bouteilles) dans une ambiance décontractée.",
-   "choix": "Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Les quatre bières de l'accueil sont English IPA, Pale Ale, K-ALE et India Pale Ale ; je garde 'ipa' et 'autre : Pale Ale', K-ALE non classé faute de type certain. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md)."
+   "choix": "Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md)."
   }
  ]
 }

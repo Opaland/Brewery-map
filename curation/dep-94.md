@@ -13,7 +13,7 @@ Catégories proposées : 2 « acheter et consommer », 0 « acheter seulement »
 
 | Candidat | Raison |
 |---|---|
-| LES BRASSERIES PARISIENNES (`sirene:751998436`) | lu le 29/10 : rien sous ce nom |
+| LES BRASSERIES PARISIENNES (`sirene:751998436`) | lu le 29/10 : même SIREN que BapBap, voir dep-75 (son site et Untappd la placent dans le Val-d'Oise) |
 | LA SCIERIE DES MICHALLETS (`sirene:810391474`) | lu le 29/10 : rien sous ce nom |
 | ARTEMUS (`sirene:844342907`) | lu le 29/10 : sources indirectes seules ; site non trouvé : à relancer |
 | ALE/BRAU (`sirene:940249592`) | lu le 29/10 : rien sous ce nom |
@@ -26,7 +26,7 @@ Catégories proposées : 2 « acheter et consommer », 0 « acheter seulement »
 | BIERES FINES (`sirene:797461035`) | lu le 29/10 : rien sous ce nom |
 | Brasserie 925 - Goub'z (`node/13714542867`) | lu le 29/10 : le site n'affiche qu'un contrôle de l'âge, annuaires seuls : à relancer |
 | Le Parmentier (`node/611670639`) | lu le 29/10 : rien sous ce nom |
-| Le Micro Kombinat (`node/7488271235`) | lu le 29/10 : le site cité est celui d'une brasserie de Montereau-Fault-Yonne (77), à voir dans ce lot |
+| Le Micro Kombinat (`node/7488271235`) | lu le 29/10 : le site cité est celui d'une brasserie de Montereau-Fault-Yonne : à voir dans la Seine-et-Marne (77) |
 | Mappiness (`node/8898041564`) | lu le 29/10 : brasserie du Rhône (69), aucun lieu dans le Val-de-Marne |
 | La Ricetta (`node/9277494488`) | lu le 29/10 : un restaurant, qui ne brasse pas |
 
@@ -60,6 +60,7 @@ Catégories proposées : 2 « acheter et consommer », 0 « acheter seulement »
 - horaires.0.jeu : (vide) → 18 h – 20 h
 - horaires.0.ven : (vide) → 18 h – 22 h
 - horaires.0.sam : (vide) → 18 h – 22 h
+- horaires.0.remarque : (vide) → Horaires du site, qui porte encore une mention « réglementation Covid-19 » : à vérifier avant d'y aller.
 - horaires.0.source : (vide) → https://outland-beer.com
 - horaires.0.verifieLe : (vide) → 2026-10-29
 - verifieLe : (vide) → 2026-10-29
@@ -70,14 +71,14 @@ Extrait lu : « Dégustation et vente à emporter
 Mardi, mercredi, jeudi de 18h à 20h
 Vendredi, samedi de 18h à 22h »
 
-Choix du vérificateur : Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37. Source rouverte à la main le 29/10.
+Choix du vérificateur : Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37. Source rouverte à la main le 29/10. Remarque ajoutée aux horaires à la relecture de la persona.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 23 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 18 h.
+> - À 23 h 29 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 18 h, sous réserve.
 > - Adresse
 > - 54 rue André Tessier, 94120 Fontenay-sous-Bois
 > - Pas encore dans la fiche : ses bières.
@@ -86,6 +87,7 @@ Choix du vérificateur : Confiance moyenne et non solide : le site dit « Dégus
 > - [Appeler le 01 74 50 17 37](tel:+33174501737)
 > - [Site de la brasserie](https://outland-beer.com)[Untappd (avis sur les bières)](https://untappd.com/BrasserieOutland)
 > - Horaires
+> - À savoir : Horaires du site, qui porte encore une mention « réglementation Covid-19 » : à vérifier avant d'y aller.
 > - Horaires d’accueil du public
 > - Lundi | non précisé
 > - Mardi | 18 h – 20 h
@@ -113,6 +115,7 @@ Choix du vérificateur : Confiance moyenne et non solide : le site dit « Dégus
 - coordPrecision : (vide) → address
 - beers : (vide) → []
 - contact.tel : (vide) → 07 83 42 72 00
+- contact.site : (vide) → https://lalfortvillaise.com/
 - contact.source : (vide) → https://lalfortvillaise.com/a-propos/
 - contact.verifieLe : (vide) → 2026-10-29
 - horaires.0.nature : (vide) → accueil
@@ -129,20 +132,21 @@ Sources (vérifiée le 2026-10-29) : https://lalfortvillaise.com/a-propos/ ; htt
 
 Extrait lu : « Il s’agit d’un bar dans lequel vous pouvez boire nos bières (pression et/ou bouteilles) dans une ambiance décontractée. »
 
-Choix du vérificateur : Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Les quatre bières de l'accueil sont English IPA, Pale Ale, K-ALE et India Pale Ale ; je garde 'ipa' et 'autre : Pale Ale', K-ALE non classé faute de type certain. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md).
+Choix du vérificateur : Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 23 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 11 h.
+> - À 23 h 29 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 11 h.
 > - Adresse
 > - 2 rue des Essertes, 94140 Alfortville
 > - Pas encore dans la fiche : ses bières.
 > - [Ses bières sur Untappd](https://untappd.com/search?q=L%27Alfortvillaise&type=brewery)
 > - Joindre la brasserie
 > - [Appeler le 07 83 42 72 00](tel:+33783427200)
+> - [Site de la brasserie](https://lalfortvillaise.com/)
 > - Horaires
 > - Horaires d’accueil du public
 > - Lundi | non précisé
@@ -155,4 +159,4 @@ Choix du vérificateur : Les deux pages du site officiel (accueil et à-propos) 
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [lalfortvillaise.com](https://lalfortvillaise.com/a-propos/) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : f1df1b94c823
+Empreinte du lot : 56829a519b9b

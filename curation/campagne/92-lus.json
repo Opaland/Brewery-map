@@ -6,11 +6,11 @@
     "adresse": "rue Kellogg, 92150 Suresnes",
     "cat": 0,
     "conf": "",
-    "note": "Micro-brasserie associative (Les Brasseurs du Théâtre), brassée à Suresnes. La bière se vend à l'office de tourisme, pas sur place ; des visites avec dégustation sont proposées par réservation sur une plateforme. Ni site officiel, ni horaires, ni téléphone publiés par la brasserie : à confirmer.",
+    "note": "Micro-brasserie associative de Suresnes, d'après l'office de tourisme, qui vend sa bière. Ce qu'on peut faire à la brasserie elle-même n'est pas établi : à confirmer.",
     "src": "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
     "extrait": "The beer is available to buy from Suresnes Tourist Office",
     "beers": [],
-    "choix": "Existence établie par une seule page d'office de tourisme (confiance au plus moyenne), recoupée par une annonce Airbnb tenue par un membre de l'association (https://www.airbnb.com/experiences/4688554 : « Discover the entire brewing process and enjoy a tasting of our current beers », « Purchase your favorite brews »), qui n'est pas une source officielle. Catégorie laissée à 0 : l'office dit qu'on achète la bière chez lui, pas à la brasserie, et la visite passe par une réservation Airbnb. Catégorie 1 non retenue faute de source de la brasserie. Adresse sans numéro, telle que sur la page (SIRENE donne 29 rue Kellogg ou 3 allée William Penn, non retenu). Téléphone non repris : le seul numéro de la page (01 42 04 41 47) est celui de l'office. Pas de site officiel trouvé ; Facebook et Instagram sont cités par l'office, non ouverts. Pas d'Untappd trouvé. Pages lues par la lecture directe de WebFetch (extraits rendus par un modèle intermédiaire, donc l'extrait est à recontrôler sur la page française de l'office, la page lue étant la version anglaise). Source rouverte à la main le 29/10."
+    "choix": "Une seule page d'office de tourisme (confiance au plus moyenne) : catégorie 0. Une annonce de visite sur une plateforme de réservation n'est pas reprise (source non valable). Téléphone de l'office non repris. Adresse sans numéro, telle que sur la page. Source rouverte à la main le 29/10."
   },
   {
     "cle": "sirene:951126630",

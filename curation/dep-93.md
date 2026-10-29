@@ -37,7 +37,7 @@ Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement »
 
 ## Les fiches proposées
 
-## Lot dep-93 — 0 proposition(s), 2 fiche(s) nouvelle(s)
+## Lot dep-93 — 0 proposition(s), 3 fiche(s) nouvelle(s)
 
 ### 1. Brasserie Gallia — fiche nouvelle
 
@@ -76,12 +76,12 @@ Extrait lu : « TOUTES nos références de bières sont disponibles à la vente 
 
 Choix du vérificateur : Aucun téléphone publié sur le site (seulement des e-mails) : le 01 41 40 99 80 vu sur Gault&Millau est celui d'un bureau parisien, écarté. Horaires du bar et de la vente à emporter lus sur la page « Notre bar » ; ParisBouge et 118712 donnent d'autres créneaux, ignorés. Bières laissées vides : types lus sur Untappd (American IPA, Session IPA, Pale Lager, Witbier, Hazy IPA, Helles, Pils tchèque) mais l'outil attend un format que je ne peux pas vérifier ; à relancer si Cédric veut les types. Lundi fermé écrit dans la remarque. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 23 h 19 (heure de Paris), accueil du public : ouvert jusqu’à minuit selon les créneaux, sous réserve de la remarque ci-dessous.
+> - À 23 h 31 (heure de Paris), accueil du public : ouvert jusqu’à minuit selon les créneaux, sous réserve de la remarque ci-dessous.
 > - Adresse
 > - 35 rue Méhul, 93500 Pantin
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -112,7 +112,7 @@ Choix du vérificateur : Aucun téléphone publié sur le site (seulement des e-
 - km : (vide) → 405
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Le site de la brasserie dit qu'elle n'a pas de boutique physique avec accueil du public, et propose le retrait des commandes en ligne (Click & Collect) à la brasserie.
+- note : (vide) → « La brasserie ne dispose pas de boutique physique avec accueil du public » : on y retire seulement ses commandes passées en ligne (Click & Collect), d'après son site.
 - addr : (vide) → 103 rue Charles Michels, 93200 Saint-Denis
 - src : (vide) → https://www.bgp.paris
 - coordPrecision : (vide) → address
@@ -129,7 +129,7 @@ Extrait lu : « Commandez vos bières en ligne et choisissez la livraison (si é
 
 Choix du vérificateur : Catégorie 2 (acheter seulement) : la page dit « La brasserie ne dispose pas de boutique physique avec accueil du public. » et propose le Click & Collect à la brasserie. Confiance moyenne parce que le retrait n'est décrit qu'en une phrase, sans horaire ni conditions d'accueil. Aucun horaire retenu : la page n'en publie pas (le seul horaire vu, Cylex, est un annuaire). Raison sociale SIRENE My Beer Company, le nom d'usage est celui du site. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières), donc pas de bières. Aucun autre téléphone sur la page. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -143,4 +143,43 @@ Choix du vérificateur : Catégorie 2 (acheter seulement) : la page dit « La br
 > - [Site de la brasserie](https://www.bgp.paris)
 > - Lu sur [bgp.paris](https://www.bgp.paris) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : 1423ebd7420c
+### 3. Frogbeer — fiche nouvelle
+
+- n : (vide) → Frogbeer
+- c : (vide) → Saint-Denis
+- d : (vide) → 93
+- lat : (vide) → 48.96102
+- lon : (vide) → 2.35823
+- km : (vide) → 407.6
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Brasserie de production du groupe FrogPubs. Le site officiel ne dit ni visite, ni vente, ni horaires actuels ; une visite guidée du samedi, annoncée en 2019 par un article de presse, n'est pas reprise. Le site écrit Pierrefitte-sur-Seine, commune aujourd'hui fusionnée dans Saint-Denis (le géocodeur de l'IGN ne connaît plus que Saint-Denis pour le 93380).
+- addr : (vide) → 5 rue Séverine, 93380 Pierrefitte-sur-Seine
+- src : (vide) → https://www.frogpubs.com/beers-the-brewery.php
+- coordPrecision : (vide) → address
+- beers : (vide) → []
+- contact.site : (vide) → https://www.frogpubs.com
+- contact.source : (vide) → https://www.frogpubs.com/beers-the-brewery.php
+- contact.verifieLe : (vide) → 2026-10-29
+- verifieLe : (vide) → 2026-10-29
+
+Sources (vérifiée le 2026-10-29) : https://www.frogpubs.com/beers-the-brewery.php ; https://data.geopf.fr/geocodage/search?q=5+rue+S%C3%A9verine%2C+93380+Pierrefitte-sur-Seine&limit=5
+
+Extrait lu : « Our very own production brewery is situated just north of central Paris in the town of Pierrefitte-sur-Seine »
+
+Choix du vérificateur : Lecture via un résumé de la page (WebFetch), pas la page brute. Le passage est cité tel que rendu par l'outil, à revérifier à l'ouverture. Adresse lue sur la même page : « Bâtiment CA. Parc d'activités Spirit / Séverine. 5 rue Séverine, 93380. Pierrefitte-sur-Seine. » Aucun téléphone publié ; seul un courriel général (hello@frogpubs.com), non retenu. Catégorie laissée à 0 : l'article de Sortir à Paris (visite gratuite le samedi de 10h30 à 16h, daté de 2019, mis à jour le 08/05/2020) est une presse seule et trop ancienne. Source rouverte à la main le 29/10.
+
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
+
+> - Ce qu’on peut y faire
+> - À confirmer
+> - Adresse
+> - 5 rue Séverine, 93380 Pierrefitte-sur-Seine
+> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Frogbeer+Saint-Denis)[Ses bières sur Untappd](https://untappd.com/search?q=Frogbeer&type=brewery)
+> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
+> - Joindre la brasserie
+> - [Site de la brasserie](https://www.frogpubs.com)
+> - Lu sur [frogpubs.com](https://www.frogpubs.com/beers-the-brewery.php) le 29 octobre 2026. Rien n’établit encore ce qu’on peut y faire.
+
+Empreinte du lot : 646062f7bbf1

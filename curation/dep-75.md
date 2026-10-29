@@ -50,9 +50,67 @@ Catégories proposées : 0 « acheter et consommer », 1 « acheter seulement »
 
 ## Les fiches proposées
 
-## Lot dep-75 — 0 proposition(s), 2 fiche(s) nouvelle(s)
+## Lot dep-75 — 0 proposition(s), 3 fiche(s) nouvelle(s)
 
-### 1. Brasserie La Baleine — fiche nouvelle
+### 1. Soquee Brewing — fiche nouvelle
+
+- n : (vide) → Soquee Brewing
+- c : (vide) → Paris
+- d : (vide) → 75
+- lat : (vide) → 48.85959
+- lon : (vide) → 2.40927
+- km : (vide) → 395.9
+- cat : (vide) → 2 (Acheter seulement)
+- conf : (vide) → moyenne
+- note : (vide) → Brasserie parisienne lancée en mars 2023. Le site officiel annonce une vente à emporter le mercredi, le vendredi et le samedi de 17h à 19h30 à cette adresse. Il ne parle pas de dégustation sur place. La production est présentée à Requista (Aveyron).
+- addr : (vide) → 157 boulevard Davout, 75020 Paris
+- src : (vide) → https://soqueebrewing.fr/contact
+- coordPrecision : (vide) → address
+- beers : (vide) → []
+- contact.tel : (vide) → 07 78 20 63 35
+- contact.site : (vide) → https://soqueebrewing.fr/
+- contact.source : (vide) → https://soqueebrewing.fr/contact
+- contact.verifieLe : (vide) → 2026-10-29
+- horaires.0.nature : (vide) → vente
+- horaires.0.mer : (vide) → 17 h – 19 h 30
+- horaires.0.ven : (vide) → 17 h – 19 h 30
+- horaires.0.sam : (vide) → 17 h – 19 h 30
+- horaires.0.source : (vide) → https://soqueebrewing.fr/contact
+- horaires.0.verifieLe : (vide) → 2026-10-29
+- verifieLe : (vide) → 2026-10-29
+
+Sources (vérifiée le 2026-10-29) : https://soqueebrewing.fr/contact ; https://data.geopf.fr/geocodage/search?q=157+boulevard+Davout%2C+75020+Paris&limit=5
+
+Extrait lu : « Mercredi, Vendredi et Samedi de 17h à 19h30 »
+
+Choix du vérificateur : Confiance moyenne et non solide : le site dit « Vente à emporter » à l'adresse parisienne mais ne dit pas qu'on y brasse. Catégorie 2 car rien ne dit qu'on boit sur place. Aucune bière proposée : le site cite des familles (houblonnées, lagers, saisons, noires), pas une liste de bières, et Untappd n'a pas été trouvé. Le portable 07.78.20.63.35 est la seule ligne publiée par la brasserie (règle du 21/10). Le site partage l'adresse avec DDW HANDCRAFTED SAS (SIRENE sirene:912053931, 157 boulevard Davout), probablement la même entité. Cette entrée est à fusionner et non à doubler. Source rouverte à la main le 29/10. Téléphone écrit « 07.78.20.63.35 » sur la page, remis au format attendu.
+
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
+
+> - Ce qu’on peut y faire
+> - Acheter seulement
+> - Maintenant
+> - À 23 h 31 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - Adresse
+> - 157 boulevard Davout, 75020 Paris
+> - Pas encore dans la fiche : ses bières.
+> - [Ses bières sur Untappd](https://untappd.com/search?q=Soquee+Brewing&type=brewery)
+> - Joindre la brasserie
+> - [Appeler le 07 78 20 63 35](tel:+33778206335)
+> - [Site de la brasserie](https://soqueebrewing.fr/)
+> - Horaires
+> - Horaires de vente
+> - Lundi | non précisé
+> - Mardi | non précisé
+> - Mercredi | 17 h – 19 h 30
+> - Jeudi | non précisé
+> - Vendredi | 17 h – 19 h 30
+> - Samedi | 17 h – 19 h 30
+> - Dimanche | non précisé
+> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
+> - Lu sur [soqueebrewing.fr](https://soqueebrewing.fr/contact) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+
+### 2. Brasserie La Baleine — fiche nouvelle
 
 - n : (vide) → Brasserie La Baleine
 - c : (vide) → Paris
@@ -86,12 +144,12 @@ Extrait lu : « Nous sommes situés au 11, rue Schubert, 75020 Paris. »
 
 Choix du vérificateur : Trois adresses coexistent. Le registre SIRENE donne 56 boulevard Davout, les mentions légales du site donnent un siège au 17 rue Henri Duvernois, et la page d'accueil dit « Nous sommes situés au 11, rue Schubert ». Le SIREN 792337313 est confirmé par les mentions légales (« SIRET : 792337313 00011 »). J'ai retenu l'adresse d'accueil du site, rue Schubert, parce que c'est celle où la brasserie reçoit. Cédric peut préférer une autre. Le téléphone 06 60 99 65 22 est un portable, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). La page ne parle ni de dégustation ni de vente à emporter, donc catégorie 0, sans confiance. Les noms de bière du site (blonde, ambrée, blanche, brune) ne sont pas repris : aucune page Untappd n'a été trouvée, et un type de bière se lit sur Untappd. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 23 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 17 h, sous réserve.
+> - À 23 h 31 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 17 h, sous réserve.
 > - Adresse
 > - 11 rue Schubert, 75020 Paris
 > - Pas encore dans la fiche : ses bières.
@@ -112,7 +170,7 @@ Choix du vérificateur : Trois adresses coexistent. Le registre SIRENE donne 56 
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [brasserielabaleine.com](https://www.brasserielabaleine.com) le 29 octobre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-### 2. Brasserie de l'Être — fiche nouvelle
+### 3. Brasserie de l'Être — fiche nouvelle
 
 - n : (vide) → Brasserie de l'Être
 - c : (vide) → Paris
@@ -139,7 +197,7 @@ Extrait lu : « Nos bières sont disponibles en fûts de 30L et en bouteilles de
 
 Choix du vérificateur : Catégorie 0 : le site ne dit ni vente sur place ni dégustation ouverte à tous. L'annuaire Tablejourney donne des horaires lundi-vendredi 9 h-17 h et Schlouk Map une boutique « Ah! La Pompe à Bière » au même numéro de rue ; ce sont des annuaires seuls, je n'en retiens rien. Un seul numéro est publié par la brasserie sur sa page de contact (01 40 16 56 62) ; les autres numéros vus sur des annuaires et forums sont écartés. Pas de lien Untappd sur le site, aucune page Untappd trouvée pour cette brasserie, donc aucune bière proposée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 23:31, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -153,4 +211,4 @@ Choix du vérificateur : Catégorie 0 : le site ne dit ni vente sur place ni dé
 > - [Site de la brasserie](https://brasseriedeletre.paris/)
 > - Lu sur [brasseriedeletre.paris](https://brasseriedeletre.paris/) le 29 octobre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 451d8745453f
+Empreinte du lot : 5c73bc517b62
