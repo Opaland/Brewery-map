@@ -9,7 +9,7 @@
    "lon": 3.09191,
    "km": 564.4,
    "cat": 1,
-   "conf": "solide",
+   "conf": "faible",
    "note": "Le site de la brasserie dit que les bières sont brassées sur place et la présente comme brasserie artisanale et bar ; il publie ses horaires d'ouverture et indique la bière disponible en bouteille et en fût. Le site ne mentionne pas de page Untappd.",
    "addr": "22 place des Ouvriers, 59800 Lille",
    "src": "https://www.brasseriefivescail.com",
@@ -77,6 +77,6 @@
    "https://data.geopf.fr/geocodage/search?q=22+place+des+Ouvriers%2C+59800+Lille&limit=5"
   ],
   "extrait": "Bien plus qu'un simple bar, c'est un lieu de vie de quartier où l'on brasse, où l'on partage et où l'on se retrouve.",
-  "choix": "Lecture du site officiel via un résumé (WebFetch), deux passages successifs ; les citations viennent de ce résumé, à recontrôler à l'ouverture. Téléphone retenu : 09 74 64 13 05, seul numéro publié sur le site. Horaires du site : lun 17h-23h, mar-mer 17h-0h, jeu-sam 16h-1h, dim 16h-23h (cuisine 18h-22h, hors horaires d'accueil). La page ne parle pas de vente à emporter : cat 1 repose sur le bar et « Disponible en bouteille et en fût ». Adresse du site sans code postal ; 59800 vient de SIRENE. La page HelloLille donne une autre adresse (Halle G1, Cours Jean-François Cail) ; non retenue. Aucune page Untappd trouvée. Source rouverte à la main le 29/10."
+  "choix": "Lecture du site officiel via un résumé (WebFetch), deux passages successifs ; les citations viennent de ce résumé, à recontrôler à l'ouverture. Téléphone retenu : 09 74 64 13 05, seul numéro publié sur le site. Horaires du site : lun 17h-23h, mar-mer 17h-0h, jeu-sam 16h-1h, dim 16h-23h (cuisine 18h-22h, hors horaires d'accueil). La page ne parle pas de vente à emporter : cat 1 repose sur le bar et « Disponible en bouteille et en fût ». Adresse du site sans code postal ; 59800 vient de SIRENE. La page HelloLille donne une autre adresse (Halle G1, Cours Jean-François Cail) ; non retenue. Aucune page Untappd trouvée. Source rouverte à la main le 29/10. Confiance faible : la source dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10, relecture de la persona)."
  }
 }

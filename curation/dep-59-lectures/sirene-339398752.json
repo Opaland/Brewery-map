@@ -5,13 +5,13 @@
    "n": "Brasserie La Choulette",
    "c": "Hordain",
    "d": "59",
-   "lat": 50.26827,
-   "lon": 3.32418,
-   "km": 521.8,
+   "lat": 50.26038,
+   "lon": 3.31266,
+   "km": 521.1,
    "cat": 1,
    "conf": "moyenne",
    "note": "Le site officiel présente, au Choulette Expérience, un bar qui sert les bières de la brasserie et une boutique qui vend les produits Choulette, bières comprises. Horaires non repris : le site en donne de contradictoires.",
-   "addr": "15 Route Nationale, 59111 Hordain",
+   "addr": "16 rue des Écoles, 59111 Hordain",
    "src": "https://lachoulette.com/",
    "coordPrecision": "address",
    "beers": [],
@@ -26,9 +26,9 @@
   "sources": [
    "https://lachoulette.com/",
    "https://lachoulette.com/contact/",
-   "https://data.geopf.fr/geocodage/search?q=15+Route+Nationale%2C+59111+Hordain&limit=5"
+   "https://data.geopf.fr/geocodage/search?q=16+rue+des+%C3%89coles%2C+59111+Hordain&limit=5"
   ],
   "extrait": "Une boutique où retrouver tous les produits Choulette – bières mais aussi verrerie, textiles…",
-  "choix": "Deux lignes d'une même page (puces voisines) fondent la catégorie 1 ; l'extrait ne cite que la boutique, le bar est dit par : « Un bar où retrouver les bières de la brasserie, servies en formats classiques ou en planches de dégustation. » Téléphone retenu : 03 27 35 72 44, publié par la brasserie sur l'accueil et sur la page contact. Écarté : 03 27 35 99 27, ligne du Choulettorium / Choulette Expérience (15 Route Nationale), qui est aussi une ligne client : à Cédric de choisir si la fiche doit pointer le bar plutôt que la brasserie (16 rue des Écoles, mêmes communes). L'adresse retenue est celle du bar et de la boutique, lue sur https://www.choulette-experience.com/ (« 15 Rte nationale 59111 Hordain ») ; la brasserie est au 16 rue des Écoles (page contact). Pas d'horaires : le Choulettorium est « ouvert du mardi au dimanche à partir de 10h » (visites), le site de l'Expérience donne mardi-jeudi 7h-22h, vendredi 7h-minuit, etc., et « ouverte du mardi au dimanche de 10h à 19h non stop » pour la boutique ; la page contact donne « Ouvert du lundi au vendredi, 8h-12h 14h-17h ». Contradictoires, donc rien proposé. Pas de bières : le site parle de gammes (Choulette, Sans-Culottes, Craft…), pas de styles. Untappd non cherché pour cette fiche. Vente à emporter : la boutique vend des bières, donc pas de « sur place seulement ». Source rouverte à la main le 29/10."
+  "choix": "Deux lignes d'une même page (puces voisines) fondent la catégorie 1 ; l'extrait ne cite que la boutique, le bar est dit par : « Un bar où retrouver les bières de la brasserie, servies en formats classiques ou en planches de dégustation. » Téléphone retenu : 03 27 35 72 44, publié par la brasserie sur l'accueil et sur la page contact. Écarté : 03 27 35 99 27, ligne du Choulettorium / Choulette Expérience (15 Route Nationale), qui est aussi une ligne client : à Cédric de choisir si la fiche doit pointer le bar plutôt que la brasserie (16 rue des Écoles, mêmes communes). L'adresse retenue est celle du bar et de la boutique, lue sur https://www.choulette-experience.com/ (« 15 Rte nationale 59111 Hordain ») ; la brasserie est au 16 rue des Écoles (page contact). Pas d'horaires : le Choulettorium est « ouvert du mardi au dimanche à partir de 10h » (visites), le site de l'Expérience donne mardi-jeudi 7h-22h, vendredi 7h-minuit, etc., et « ouverte du mardi au dimanche de 10h à 19h non stop » pour la boutique ; la page contact donne « Ouvert du lundi au vendredi, 8h-12h 14h-17h ». Contradictoires, donc rien proposé. Pas de bières : le site parle de gammes (Choulette, Sans-Culottes, Craft…), pas de styles. Untappd non cherché pour cette fiche. Vente à emporter : la boutique vend des bières, donc pas de « sur place seulement ». Source rouverte à la main le 29/10. Adresse ramenée à celle de la brasserie (page contact) à la relecture ; le bar et la boutique sont au Choulette Expérience, 15 Route Nationale, dans la même commune."
  }
 }

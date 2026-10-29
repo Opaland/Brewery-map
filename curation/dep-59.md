@@ -17,10 +17,10 @@ Catégories proposées : 21 « acheter et consommer », 6 « acheter seulement �
 | BRASSERIE DE SAINT-OMER (`sirene:455502088`) | lu le 28/10 : brasserie industrielle de Saint-Omer et Arques ; rien ne la relie à l'adresse de Raismes |
 | LES BRASSEURS DE GAYANT (`sirene:487767816`) | lu le 28/10 : même entreprise que la fiche Brasserie Goudale (Arques, 62) ; plus de brasserie à Douai |
 | CERES (`sirene:045750981`) | lu le 28/10 : même société que Gayant (Goudale) ; aucune page d'accueil ou de vente à Douai |
-| LA MALTERIE (`sirene:433202892`) | lu le 28/10 : même SIREN que la Brasserie du Cateau (Vivat), lue sous node/10186505081 ; « La Malterie » est son restaurant |
+| LA MALTERIE (`sirene:433202892`) | lu le 28/10 : même SIREN que la Brasserie du Cateau (Vivat), elle-même à relancer (node/10186505081) ; « La Malterie » est son restaurant : à relancer avec elle |
 | JOYS (`sirene:977908557`) | lu le 28/10 : rien sous ce nom ; l'établissement du registre est un débit de boissons |
 | LA MOUSSERIE (`sirene:844637488`) | lu le 28/10 : registre seul ; ni site, ni Untappd, ni office |
-| LA BRASSERIE DU GOULOT (`sirene:854024254`) | lu le 28/10 : siège ; la brasserie est à Wimereux (62), lue dans le lot dep-62-r2 |
+| LA BRASSERIE DU GOULOT (`sirene:854024254`) | lu le 28/10 : siège ; la brasserie est à Wimereux (62), non lue (son site répond 404 à l'outil de contrôle), voir dep-62-r2 : à relancer |
 | AHBA (`sirene:812526374`) | lu le 28/10 : annuaires d'entreprises seuls ; le lien avec At Home Bière n'est pas lu |
 | BRASSERIE-DISTILLERIE LGD (`sirene:937543726`) | lu le 28/10 : registre seul ; le lien avec La Gueule de (Templeuve) n'est pas lu |
 | ADVENTICE / BARAGOUIN (`sirene:839053329`) | lu le 28/10 : registre et un annuaire seuls |
@@ -159,7 +159,7 @@ Extrait lu : « En vente uniquement dans la brasserie sur commande »
 
 Choix du vérificateur : Cat 2 et non 1 : la dégustation n'est citée que dans la visite guidée (« 8€ visite et dégustation ( groupe à partir de 20 Pers) »), pas comme accueil ouvert. Pas de mention « sur place seulement ». Aucun horaire publié. Le nom publié est « Ferme Brasserie Beck » ; je garde le nom OSM « Brasserie Hommelpap » (Hommelpap est la bière). Adresse sans numéro : seule « Eeckelstraete 59270 BAILLEUL » est publiée. Bières non listées dans `beers` : Hommelpap (ambrée) et L'Alezane (de printemps) sont décrites sur la page, mais je n'ai pas leur format exact. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -214,12 +214,12 @@ Extrait lu : « Mercredi, Jeudi, Vendredi 10h-13h // 14h – 19h et le Samedi 14
 
 Choix du vérificateur : Deux lignes de téléphone existent (siège à Merville, cœur de la brasserie à Blaringhem). Je retiens le 03 28 41 74 99, affiché pour l'adresse de Blaringhem. Horaires : boutique en « vente » (mer-ven 10h-13h et 14h-19h, sam 14h-19h) et estaminet en « accueil » (jeu 17h-23h, ven et sam 12h-14h et 19h-23h, dim 12h-14h). Les créneaux de l'estaminet sont tirés des citations « Jeudi: 17h à 23h (Bar et Resto) », « Vendredi: 12h à 14h et 19h à 23H », « Samedi: 12h à 14h et 19h à 23H », « Dimanche: 12h à 14h ». Ces horaires sont ceux de la page « Nos établissements » : à relire par Cédric. Site : http://www.brasseriedupaysflamand.com (OSM). Pas de page Untappd trouvée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 425 rue André Plockyn, 59173 Blaringhem
 > - Pas encore dans la fiche : ses bières.
@@ -228,7 +228,7 @@ Choix du vérificateur : Deux lignes de téléphone existent (siège à Merville
 > - [Appeler le 03 28 41 74 99](tel:+33328417499)
 > - [Site de la brasserie](https://www.brasseriedupaysflamand.com)
 > - Horaires
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
 > - Horaires de vente
 > - Lundi | non précisé
 > - Mardi | non précisé
@@ -280,12 +280,12 @@ Extrait lu : « Vente à emporter à la brasserie, ou retrait des bières réser
 
 Choix du vérificateur : Candidat classé « ambigu » dans le paquet, mais aucune fiche de data/ ne porte ce nom ni cette adresse. Le nom OSM « Monsieur Paon / Brasserie Craft » est ramené à « Monsieur Paon », le nom du site. Le 06 95 31 35 45 est un mobile, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). Pas de dégustation sur place lue, donc pas de catégorie 4. Pas de page Untappd trouvée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 15 h.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 15 h.
 > - Adresse
 > - 53 rue Blanche, 59800 Lille
 > - Pas encore dans la fiche : ses bières.
@@ -341,12 +341,12 @@ Extrait lu : « A la fin, une dégustation de bières en galopin vous sera propo
 
 Choix du vérificateur : Lecture via un résumé de page. Je rattache à cette fiche l'« ENTREPOT DE LA BRASSERIE 3 MONTS » de la clé SIRENE (1 rue de la Chapelle à Saint-Sylvestre-Cappel, et un entrepôt à Steenvoorde) : c'est la même brasserie, dont le site donne l'adresse 121 Route de la Chapelle. Le nom de fiche retenu est celui de l'OSM `way/100997989` « Brasserie de Saint-Sylvestre » (site 3monts.fr), candidat du paquet 22 : doublon probable à dédupliquer côté campagne. Le site mentionne aussi la vente en ligne (bouteilles et verres à partir de 6 pièces), que je n'ai pas retenue. Confiance moyenne car la dégustation n'est citée que dans le cadre de la visite guidée. Untappd : aucune page trouvée, donc pas de lien et pas de bières. La page d'accueil du site liste d'autres liens (Instagram, Facebook, YouTube), sans intérêt ici. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
 > - Adresse
 > - 121 Route de la Chapelle, 59114 Saint-Sylvestre-Cappel
 > - Pas encore dans la fiche : ses bières.
@@ -372,13 +372,13 @@ Choix du vérificateur : Lecture via un résumé de page. Je rattache à cette f
 - n : (vide) → Brasserie La Choulette
 - c : (vide) → Hordain
 - d : (vide) → 59
-- lat : (vide) → 50.26827
-- lon : (vide) → 3.32418
-- km : (vide) → 521.8
+- lat : (vide) → 50.26038
+- lon : (vide) → 3.31266
+- km : (vide) → 521.1
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
 - note : (vide) → Le site officiel présente, au Choulette Expérience, un bar qui sert les bières de la brasserie et une boutique qui vend les produits Choulette, bières comprises. Horaires non repris : le site en donne de contradictoires.
-- addr : (vide) → 15 Route Nationale, 59111 Hordain
+- addr : (vide) → 16 rue des Écoles, 59111 Hordain
 - src : (vide) → https://lachoulette.com/
 - coordPrecision : (vide) → address
 - beers : (vide) → []
@@ -388,18 +388,18 @@ Choix du vérificateur : Lecture via un résumé de page. Je rattache à cette f
 - contact.verifieLe : (vide) → 2026-10-29
 - verifieLe : (vide) → 2026-10-29
 
-Sources (vérifiée le 2026-10-29) : https://lachoulette.com/ ; https://lachoulette.com/contact/ ; https://data.geopf.fr/geocodage/search?q=15+Route+Nationale%2C+59111+Hordain&limit=5
+Sources (vérifiée le 2026-10-29) : https://lachoulette.com/ ; https://lachoulette.com/contact/ ; https://data.geopf.fr/geocodage/search?q=16+rue+des+%C3%89coles%2C+59111+Hordain&limit=5
 
 Extrait lu : « Une boutique où retrouver tous les produits Choulette – bières mais aussi verrerie, textiles… »
 
-Choix du vérificateur : Deux lignes d'une même page (puces voisines) fondent la catégorie 1 ; l'extrait ne cite que la boutique, le bar est dit par : « Un bar où retrouver les bières de la brasserie, servies en formats classiques ou en planches de dégustation. » Téléphone retenu : 03 27 35 72 44, publié par la brasserie sur l'accueil et sur la page contact. Écarté : 03 27 35 99 27, ligne du Choulettorium / Choulette Expérience (15 Route Nationale), qui est aussi une ligne client : à Cédric de choisir si la fiche doit pointer le bar plutôt que la brasserie (16 rue des Écoles, mêmes communes). L'adresse retenue est celle du bar et de la boutique, lue sur https://www.choulette-experience.com/ (« 15 Rte nationale 59111 Hordain ») ; la brasserie est au 16 rue des Écoles (page contact). Pas d'horaires : le Choulettorium est « ouvert du mardi au dimanche à partir de 10h » (visites), le site de l'Expérience donne mardi-jeudi 7h-22h, vendredi 7h-minuit, etc., et « ouverte du mardi au dimanche de 10h à 19h non stop » pour la boutique ; la page contact donne « Ouvert du lundi au vendredi, 8h-12h 14h-17h ». Contradictoires, donc rien proposé. Pas de bières : le site parle de gammes (Choulette, Sans-Culottes, Craft…), pas de styles. Untappd non cherché pour cette fiche. Vente à emporter : la boutique vend des bières, donc pas de « sur place seulement ». Source rouverte à la main le 29/10.
+Choix du vérificateur : Deux lignes d'une même page (puces voisines) fondent la catégorie 1 ; l'extrait ne cite que la boutique, le bar est dit par : « Un bar où retrouver les bières de la brasserie, servies en formats classiques ou en planches de dégustation. » Téléphone retenu : 03 27 35 72 44, publié par la brasserie sur l'accueil et sur la page contact. Écarté : 03 27 35 99 27, ligne du Choulettorium / Choulette Expérience (15 Route Nationale), qui est aussi une ligne client : à Cédric de choisir si la fiche doit pointer le bar plutôt que la brasserie (16 rue des Écoles, mêmes communes). L'adresse retenue est celle du bar et de la boutique, lue sur https://www.choulette-experience.com/ (« 15 Rte nationale 59111 Hordain ») ; la brasserie est au 16 rue des Écoles (page contact). Pas d'horaires : le Choulettorium est « ouvert du mardi au dimanche à partir de 10h » (visites), le site de l'Expérience donne mardi-jeudi 7h-22h, vendredi 7h-minuit, etc., et « ouverte du mardi au dimanche de 10h à 19h non stop » pour la boutique ; la page contact donne « Ouvert du lundi au vendredi, 8h-12h 14h-17h ». Contradictoires, donc rien proposé. Pas de bières : le site parle de gammes (Choulette, Sans-Culottes, Craft…), pas de styles. Untappd non cherché pour cette fiche. Vente à emporter : la boutique vend des bières, donc pas de « sur place seulement ». Source rouverte à la main le 29/10. Adresse ramenée à celle de la brasserie (page contact) à la relecture ; le bar et la boutique sont au Choulette Expérience, 15 Route Nationale, dans la même commune.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Adresse
-> - 15 Route Nationale, 59111 Hordain
+> - 16 rue des Écoles, 59111 Hordain
 > - Pas encore dans la fiche : ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+La+Choulette+Hordain)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+La+Choulette&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
@@ -443,14 +443,14 @@ Sources (vérifiée le 2026-10-29) : http://www.brasseriethiriez.com ; https://d
 
 Extrait lu : « Visite, dégustation et vente directe. »
 
-Choix du vérificateur : Adresse : le site officiel et SIRENE disent Vert Vallon ; l'office de tourisme Hauts de Flandre et Wikipédia disent 22 rue de Wormhout (adresse du site retenue). Un guide tiers donne des horaires un peu différents (8h30-12h30 / 13h30-17h) ; seuls ceux du site officiel sont retenus. Une adresse e-mail est aussi publiée ; non reprise (le schéma n'a pas de champ pour elle). Untappd : seules des pages de bières ont été trouvées (étoile du nord, la maline), pas celle de la brasserie ; rien retenu. Les horaires sont ceux de la boutique, donc nature « vente ». Source rouverte à la main le 29/10.
+Choix du vérificateur : Adresse : celle du site officiel et de SIRENE (Vert Vallon) ; l'office et Wikipédia donnent la rue de Wormhout. Un guide tiers donne des horaires un peu différents (8h30-12h30 / 13h30-17h) ; seuls ceux du site officiel sont retenus. Une adresse e-mail est aussi publiée ; non reprise (le schéma n'a pas de champ pour elle). Untappd : seules des pages de bières ont été trouvées (étoile du nord, la maline), pas celle de la brasserie ; rien retenu. Les horaires sont ceux de la boutique, donc nature « vente ». Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
 > - Adresse
 > - 2B Rue du Vert Vallon, 59470 Esquelbecq
 > - Pas encore dans la fiche : ses bières.
@@ -480,7 +480,7 @@ Choix du vérificateur : Adresse : le site officiel et SIRENE disent Vert Vallon
 - lon : (vide) → 3.16566
 - km : (vide) → 560.9
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → La page taproom du site officiel dit que toutes les bières se boivent à la pression sur place, avec des heures d'ouverture publiées. Une rubrique « La boutique » existe dans le menu mais son contenu n'a pas été lu.
 - addr : (vide) → 47 Rue de la Distillerie, 59493 Villeneuve-d'Ascq
 - src : (vide) → https://www.moulinsdascq.fr/la-taproom
@@ -505,14 +505,14 @@ Sources (vérifiée le 2026-10-29) : https://www.moulinsdascq.fr/la-taproom ; ht
 
 Extrait lu : « Retrouvez à la pression toutes nos bières, brassées sous vos yeux ! »
 
-Choix du vérificateur : Téléphone écrit « + 33 03 20 59 79 38 » sur la page taproom, noté 03 20 59 79 38. Un autre numéro (06 17 21 14 83), vu seulement sur un annuaire de salles : écarté. Samedi « selon programmation » dans remarque. Aucune page Untappd trouvée ; les styles cités par le site ne sont pas repris (la règle veut le style lu sur Untappd). Source rouverte à la main le 29/10.
+Choix du vérificateur : Téléphone écrit « + 33 03 20 59 79 38 » sur la page taproom, noté 03 20 59 79 38. Un autre numéro (06 17 21 14 83), vu seulement sur un annuaire de salles : écarté. Samedi « selon programmation » dans remarque. Aucune page Untappd trouvée ; les styles cités par le site ne sont pas repris (la règle veut le style lu sur Untappd). Source rouverte à la main le 29/10. Confiance faible : la source dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10, relecture de la persona).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h, sous réserve.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h, sous réserve.
 > - Adresse
 > - 47 Rue de la Distillerie, 59493 Villeneuve-d'Ascq
 > - Pas encore dans la fiche : ses bières.
@@ -531,7 +531,7 @@ Choix du vérificateur : Téléphone écrit « + 33 03 20 59 79 38 » sur la pag
 > - Samedi | non précisé
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Lu sur [moulinsdascq.fr](https://www.moulinsdascq.fr/la-taproom) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [moulinsdascq.fr](https://www.moulinsdascq.fr/la-taproom) le 29 octobre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
 ### 8. Brasserie au Baron — fiche nouvelle
 
@@ -584,19 +584,19 @@ Extrait lu : « Retrouvez nos bières maison ainsi qu'une large gamme de spécia
 
 Choix du vérificateur : Lecture via un résumé de page. Catégorie 1 en confiance moyenne : la boutique vend les bières maison (page boutique) ; le café-restaurant (page d'accueil) et la dégustation incluse dans la visite (page /reservation-visite-brasserie : « Dégustation incluse », 9 € adultes) permettent de consommer sur place. Untappd : la page https://untappd.com/BrasserieauBaron s'ouvre (« Brasserie au Baron », Gussignies, micro-brasserie, 30 bières). Je ne l'ai PAS mise dans `contact.untappd` car le lien n'est pas écrit sur la page-source du contact : à ajouter si Cédric accepte que la source du contact soit la page Untappd elle-même. Les quatre bières viennent de cette page (10 affichées sur 30), styles recopiés et rangés en « autre » selon `typeDuStyleUntappd`. Elles n'ont pas de `url`, la page de chaque bière n'ayant pas été ouverte. Téléphone : un seul, +33 3 27 66 88 61, publié sur le site pour la brasserie et la boutique. Les horaires de visite ne sont pas fixes (définis sur un portail de réservation) : non retenus. SIRENE donne aussi le 4 rue du Piémont, écarté au profit de l'adresse du site. Le même établissement figure en OSM `node/2407350987` (même ligne de paquet). Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 7 h 02 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 2 Rue du Piémont, 59570 Gussignies
 > - Joindre la brasserie
 > - [Appeler le 03 27 66 88 61](tel:+33327668861)
 > - [Site de la brasserie](https://www.brasserieaubaron.com/)
 > - Horaires
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
 > - Horaires de vente
 > - Lundi | 9 h – 12 h, 14 h – 16 h 45
 > - Mardi | 9 h – 12 h, 14 h – 16 h 45
@@ -655,7 +655,7 @@ Extrait lu : « BREWEPPES, c’est le projet fou de passionnés de la bière »
 
 Choix du vérificateur : Un seul numéro publié (03 20 04 69 62, rubrique Contact – Accès), retenu. Catégorie 0 : le site ne parle ni de vente directe, ni de boutique, ni de visite, ni d'horaires, donc rien n'est déduit. Gammes lues sur le site : Weppa (blonde, IPA, triple, ambrée, hiver, destinée aux professionnels), Highway to Weppes (éphémères, pour les professionnels), Breweppes (Sun Wave, Wake Hop, Watt Ales). Je ne les ai pas mises dans `beers` : les types viennent d'Untappd (DONNEES.md) et aucune page Untappd de la brasserie n'a été trouvée. Je n'ai pas non plus proposé de lien Untappd. Le site ne donne que Facebook et Instagram comme réseaux, et ce ne sont pas des preuves. Vérifié par la recherche Untappd (« Breweppes ») : pas de page de brasserie. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -695,7 +695,7 @@ Extrait lu : « Non, nous n'avons pas encore de boutique à la Brasserie des Sou
 
 Choix du vérificateur : Catégorie 3 d'après la FAQ du site officiel (pas de boutique, pas de visite en dehors des journées portes ouvertes). Confiance moyenne : la FAQ le dit au présent (« pas encore », « pour le moment »), donc la situation peut changer. Aucun téléphone publié (formulaire et e-mail seulement), donc pas de `contact.tel`. Aucun horaire publié. Aucune page Untappd trouvée, donc aucun type de bière retenu (`beers` vide). Le site cite Bellerose, Vieux Lille, Estaminet, etc., mais sans source Untappd je ne les propose pas. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Pas de vente
@@ -722,15 +722,7 @@ Choix du vérificateur : Catégorie 3 d'après la FAQ du site officiel (pas de b
 - addr : (vide) → 83 route de la Gorgue, 59660 Merville
 - src : (vide) → https://www.brasseriedupaysflamand.com/nos-etablissements/
 - coordPrecision : (vide) → address
-- beers.0.type : (vide) → blonde
-- beers.0.libelle : (vide) → Anosteké Blonde
-- beers.0.url : (vide) → https://www.brasseriedupaysflamand.com/categorie-produit/bieres/
-- beers.1.type : (vide) → ipa
-- beers.1.libelle : (vide) → Anosteké IPA
-- beers.1.url : (vide) → https://www.brasseriedupaysflamand.com/categorie-produit/bieres/
-- beers.2.type : (vide) → stout
-- beers.2.libelle : (vide) → Anosteké Extra Stout
-- beers.2.url : (vide) → https://www.brasseriedupaysflamand.com/categorie-produit/bieres/
+- beers : (vide) → []
 - contact.tel : (vide) → 03 28 41 74 99
 - contact.site : (vide) → https://www.brasseriedupaysflamand.com
 - contact.source : (vide) → https://www.brasseriedupaysflamand.com/contact-us/
@@ -743,30 +735,24 @@ Choix du vérificateur : Catégorie 3 d'après la FAQ du site officiel (pas de b
 - horaires.0.remarque : (vide) → Horaires de la Tap Room de Merville.
 - horaires.0.source : (vide) → https://www.brasseriedupaysflamand.com/nos-etablissements/
 - horaires.0.verifieLe : (vide) → 2026-10-29
-- horaires.1.nature : (vide) → vente
-- horaires.1.mer : (vide) → 10 h – 12 h 30, 14 h – 22 h
-- horaires.1.jeu : (vide) → 10 h – 12 h 30, 14 h – 22 h
-- horaires.1.ven : (vide) → 10 h – 12 h 30, 14 h – 22 h
-- horaires.1.sam : (vide) → 14 h – 19 h
-- horaires.1.remarque : (vide) → Horaires de la boutique de Merville.
-- horaires.1.source : (vide) → https://www.brasseriedupaysflamand.com/nos-etablissements/
-- horaires.1.verifieLe : (vide) → 2026-10-29
 - verifieLe : (vide) → 2026-10-29
 
 Sources (vérifiée le 2026-10-29) : https://www.brasseriedupaysflamand.com/nos-etablissements/ ; https://www.brasseriedupaysflamand.com/contact-us/ ; https://data.geopf.fr/geocodage/search?q=83+route+de+la+Gorgue%2C+59660+Merville&limit=5
 
 Extrait lu : « Mercredi : 10h- 12h30 et 14h à 22h »
 
-Choix du vérificateur : Lu via un résumé de la page (l'outil de lecture ne recopie pas de bloc entier). L'extrait est donc un fragment cité par ce résumé, à recontrôler sur la page par Cédric. Pas « sur place seulement » : la boutique de Merville vend à emporter. Le site a deux lieux ; je ne propose que Merville (le candidat SIRENE est à Merville). Blaringhem (59173, 425 rue André Plockyn) est un autre lieu, avec estaminet, visites et boutique : il n'a pas de fiche et est à traiter à part. Téléphone : un seul numéro publié pour les deux sites (+33 (0)3 28 41 74 99), retenu. Je n'ai pas retenu les portables et courriels nominatifs du bloc Blaringhem. Aucune page Untappd trouvée, aucun lien Untappd proposé. Les trois bières viennent de la boutique en ligne du site (page de catégorie « Bières » ; le catalogue vient d'une lecture résumée). Horaires : le bloc vente reprend celui de la Tap Room, car la boutique est donnée aux mêmes heures ; deux lectures résumées l'ont rendu de façon légèrement différente, à recontrôler. Source rouverte à la main le 29/10.
+Choix du vérificateur : Lu via un résumé de la page (l'outil de lecture ne recopie pas de bloc entier). L'extrait est donc un fragment cité par ce résumé, à recontrôler sur la page par Cédric. Pas « sur place seulement » : la boutique de Merville vend à emporter. Le site a deux lieux ; je ne propose que Merville (le candidat SIRENE est à Merville). Blaringhem (59173, 425 rue André Plockyn) est un autre lieu, avec estaminet, visites et boutique : il n'a pas de fiche et est à traiter à part. Téléphone : un seul numéro publié pour les deux sites (+33 (0)3 28 41 74 99), retenu. Je n'ai pas retenu les portables et courriels nominatifs du bloc Blaringhem. Aucune page Untappd trouvée, aucun lien Untappd proposé. Les trois bières viennent de la boutique en ligne du site (page de catégorie « Bières » ; le catalogue vient d'une lecture résumée). Horaires : le bloc vente reprend celui de la Tap Room, car la boutique est donnée aux mêmes heures ; deux lectures résumées l'ont rendu de façon légèrement différente, à recontrôler. Source rouverte à la main le 29/10. Retirés à la relecture : le bloc de vente (recopié de l'accueil, non lu) et les bières (noms de la boutique, pas de style Untappd).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
 > - Adresse
 > - 83 route de la Gorgue, 59660 Merville
+> - Pas encore dans la fiche : ses bières.
+> - [Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+du+Pays+Flamand+%28Merville%29&type=brewery)
 > - Joindre la brasserie
 > - [Appeler le 03 28 41 74 99](tel:+33328417499)
 > - [Site de la brasserie](https://www.brasseriedupaysflamand.com)
@@ -781,22 +767,6 @@ Choix du vérificateur : Lu via un résumé de la page (l'outil de lecture ne re
 > - Samedi | 14 h – 19 h
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
-> - À savoir : Horaires de la boutique de Merville.
-> - Horaires de vente
-> - Lundi | non précisé
-> - Mardi | non précisé
-> - Mercredi | 10 h – 12 h 30, 14 h – 22 h
-> - Jeudi | 10 h – 12 h 30, 14 h – 22 h
-> - Vendredi | 10 h – 12 h 30, 14 h – 22 h
-> - Samedi | 14 h – 19 h
-> - Dimanche | non précisé
-> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Ses bières
-> - [La page des bières de la brasserie](https://www.brasseriedupaysflamand.com/categorie-produit/bieres/)
-> - Anosteké Blonde · Blonde — claire et légère
-> - Anosteké IPA · IPA — très houblonnée, souvent amère
-> - Anosteké Extra Stout · Stout — noire, café et chocolat
 > - Lu sur [brasseriedupaysflamand.com](https://www.brasseriedupaysflamand.com/nos-etablissements/) le 29 octobre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
 ### 12. Brasserie du Pavé — fiche nouvelle
@@ -808,7 +778,7 @@ Choix du vérificateur : Lu via un résumé de la page (l'outil de lecture ne re
 - lon : (vide) → 3.1261
 - km : (vide) → 554
 - cat : (vide) → 2 (Acheter seulement)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Le site officiel indique une boutique de la brasserie avec ses horaires (mercredi-vendredi, samedi matin) et des visites avec dégustation le samedi matin sur rendez-vous. La page ne dit pas explicitement qu'on y achète des bières ni qu'on y boit sur place.
 - addr : (vide) → 26 bis rue Nicéphore Niépce, 59710 Ennevelin
 - src : (vide) → https://www.brasserie-du-pave.fr
@@ -824,12 +794,12 @@ Sources (vérifiée le 2026-10-29) : https://www.brasserie-du-pave.fr ; https://
 
 Extrait lu : « Lieu et horaires de la boutique »
 
-Choix du vérificateur : Catégorie 2 et confiance moyenne : la boutique est nommée avec adresse et horaires, mais aucune phrase ne dit « vente à emporter » ni « bar » ; la dégustation n'est offerte qu'avec la visite sur rendez-vous (« Des visites sont organisées les samedis matin sur rendez-vous. »), donc pas catégorie 1. Pas « sur place seulement ». Téléphone : 03 20 41 35 04, seul numéro publié (avec contact@brasserie-du-pave.fr). Page Untappd existante (https://untappd.com/brasseriedupave, qui renvoie au site officiel, 39 bières, styles : tripel, blonde, IPA belge, bière fumée, bière de garde…), non ajoutée au contact car la source du contact est le site et que l'Untappd n'y figure pas ; à ajouter si Cédric le veut (le lien existe, ouvert au résumé). Bières non listées avec lien : le site cite blonde, triple, IPA, ambrée (gamme PVL) sans pages par bière. Source rouverte à la main le 29/10. Horaires de la boutique non repris : le contrôle ne relit pas le samedi.
+Choix du vérificateur : Catégorie 2 : la boutique est nommée avec adresse et horaires, mais aucune phrase ne dit « vente à emporter » ni « bar » ; la dégustation n'est offerte qu'avec la visite sur rendez-vous (« Des visites sont organisées les samedis matin sur rendez-vous. »), donc pas catégorie 1. Pas « sur place seulement ». Téléphone : 03 20 41 35 04, seul numéro publié (avec contact@brasserie-du-pave.fr). Page Untappd existante (https://untappd.com/brasseriedupave, qui renvoie au site officiel, 39 bières, styles : tripel, blonde, IPA belge, bière fumée, bière de garde…), non ajoutée au contact car la source du contact est le site et que l'Untappd n'y figure pas ; à ajouter si Cédric le veut (le lien existe, ouvert au résumé). Bières non listées avec lien : le site cite blonde, triple, IPA, ambrée (gamme PVL) sans pages par bière. Source rouverte à la main le 29/10. Horaires de la boutique non repris : le contrôle ne relit pas le samedi. Confiance faible, comme La Villette : la boutique a des horaires, mais aucune phrase ne dit la vente.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter seulement
+> - Acheter seulement (à vérifier)
 > - Adresse
 > - 26 bis rue Nicéphore Niépce, 59710 Ennevelin
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -838,7 +808,7 @@ Choix du vérificateur : Catégorie 2 et confiance moyenne : la boutique est nom
 > - Joindre la brasserie
 > - [Appeler le 03 20 41 35 04](tel:+33320413504)
 > - [Site de la brasserie](https://www.brasserie-du-pave.fr)
-> - Lu sur [brasserie-du-pave.fr](https://www.brasserie-du-pave.fr) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [brasserie-du-pave.fr](https://www.brasserie-du-pave.fr) le 29 octobre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
 ### 13. Célestin - La Micro-Brasserie du Vieux-Lille — fiche nouvelle
 
@@ -860,48 +830,26 @@ Choix du vérificateur : Catégorie 2 et confiance moyenne : la boutique est nom
 - contact.untappd : (vide) → https://untappd.com/LaMicroBrasserieDuVieuxLille
 - contact.source : (vide) → https://celestinlille.fr
 - contact.verifieLe : (vide) → 2026-10-29
-- horaires.0.nature : (vide) → vente
-- horaires.0.lun : (vide) → 12 h – 19 h
-- horaires.0.mar : (vide) → 11 h – 19 h
-- horaires.0.mer : (vide) → 11 h – 19 h
-- horaires.0.jeu : (vide) → 11 h – 19 h
-- horaires.0.ven : (vide) → 11 h – 19 h
-- horaires.0.sam : (vide) → 10 h – 19 h
-- horaires.0.remarque : (vide) → Horaires de la cave à bières, 120 rue Esquermoise, Lille. Visites et dégustations à la brasserie : vendredi, samedi et dimanche à heures fixes, en semaine selon disponibilités.
-- horaires.0.source : (vide) → https://celestinlille.fr
-- horaires.0.verifieLe : (vide) → 2026-10-29
 - verifieLe : (vide) → 2026-10-29
 
 Sources (vérifiée le 2026-10-29) : https://celestinlille.fr ; https://data.geopf.fr/geocodage/search?q=19+rue+Jean-Jacques+Rousseau%2C+59800+Lille&limit=5
 
 Extrait lu : « Venez découvrir nos brasseries et organiser vos événements dans notre salle de réception »
 
-Choix du vérificateur : Téléphone retenu : 09 81 21 67 21, le seul publié sur la page. Les horaires de vente sont ceux de la cave, rue Esquermoise (autre adresse que la brasserie), et la remarque le dit. Je n'ai pas écrit les visites en horaires d'accueil : la page donne des heures de départ (14h, 15h...), pas des plages. Je n'ai pas retenu la boutique de Haubourdin, ni le dimanche de la cave, absent de la source. Bières laissées vides : le format de beers ne m'est pas donné et les styles viennent d'un résumé. La page https://celestinlille.fr/nos-bieres/ donne La Dix (pale ale), Wal (triple), Hoppy Yuzu (IPA), N° Noir (stout), Héroïne (blanche), Exalt (double IPA), 1740 (impérial stout). Untappd (lu via un résumé) liste IPA, Blonde Pale Ale, Belgian Tripel, Stout, Witbier, Session IPA et NEIPA. Source rouverte à la main le 29/10.
+Choix du vérificateur : Téléphone retenu : 09 81 21 67 21, le seul publié sur la page. Les horaires de vente sont ceux de la cave, rue Esquermoise (autre adresse que la brasserie), et la remarque le dit. Je n'ai pas écrit les visites en horaires d'accueil : la page donne des heures de départ (14h, 15h...), pas des plages. Je n'ai pas retenu la boutique de Haubourdin, ni le dimanche de la cave, absent de la source. Bières laissées vides : le format de beers ne m'est pas donné et les styles viennent d'un résumé. La page https://celestinlille.fr/nos-bieres/ donne La Dix (pale ale), Wal (triple), Hoppy Yuzu (IPA), N° Noir (stout), Héroïne (blanche), Exalt (double IPA), 1740 (impérial stout). Untappd (lu via un résumé) liste IPA, Blonde Pale Ale, Belgian Tripel, Stout, Witbier, Session IPA et NEIPA. Source rouverte à la main le 29/10. Horaires retirés à la relecture : ce sont ceux de la cave, rue Esquermoise, une autre adresse que la fiche.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
-> - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 11 h, sous réserve.
 > - Adresse
 > - 19 rue Jean-Jacques Rousseau, 59800 Lille
-> - Pas encore dans la fiche : ses bières.
-> - [Ses bières sur Untappd](https://untappd.com/search?q=C%C3%A9lestin+-+La+Micro-Brasserie+du+Vieux-Lille&type=brewery)
+> - Pas encore dans la fiche : ses horaires et ses bières.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=C%C3%A9lestin+-+La+Micro-Brasserie+du+Vieux-Lille+Lille)[Ses bières sur Untappd](https://untappd.com/search?q=C%C3%A9lestin+-+La+Micro-Brasserie+du+Vieux-Lille&type=brewery)
+> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Appeler le 09 81 21 67 21](tel:+33981216721)
 > - [Site de la brasserie](https://celestinlille.fr)[Untappd (avis sur les bières)](https://untappd.com/LaMicroBrasserieDuVieuxLille)
-> - Horaires
-> - À savoir : Horaires de la cave à bières, 120 rue Esquermoise, Lille. Visites et dégustations à la brasserie : vendredi, samedi et dimanche à heures fixes, en semaine selon disponibilités.
-> - Horaires de vente
-> - Lundi | 12 h – 19 h
-> - Mardi | 11 h – 19 h
-> - Mercredi | 11 h – 19 h
-> - Jeudi | 11 h – 19 h
-> - Vendredi | 11 h – 19 h
-> - Samedi | 10 h – 19 h
-> - Dimanche | non précisé
-> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [celestinlille.fr](https://celestinlille.fr) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 14. Brasserie Cambier — fiche nouvelle
@@ -938,12 +886,12 @@ Extrait lu : « Boutique : toute notre gamme de bières en un seul lieu ! »
 
 Choix du vérificateur : Pas « sur place seulement » : la boutique vend. Téléphone : +33 (0)7 72 37 56 14, un portable, seule ligne publiée par la brasserie (pages boutique, contact et accueil), retenu par la règle du 21/10. Untappd https://untappd.com/BrasserieCambier ouvert et vérifié (brasserie à Croix). Il liste des styles (IPA Imperial/Double, Belgian Tripel, IPA New England/Hazy, Belgian Blonde, Sour Fruited, Farmhouse Ale...). Je n'ai pas rempli les bières, faute d'un format de style exact par bière. Aucune note ni avis recopié. Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
 > - Adresse
 > - 251 rue Jean Monnet, 59170 Croix
 > - Pas encore dans la fiche : ses bières.
@@ -990,7 +938,7 @@ Extrait lu : « un lieux au pied des cuves on l’on peut déguster toute la pro
 
 Choix du vérificateur : Catégorie 1 en confiance faible, par la réponse de Cédric du 29/10 (on boit sur place, la vente n'est pas dite). Téléphone : le seul publié est un mobile (07 63 04 55 24), retenu (règle du 21/10). Deux adresses sur le site ; le 117 rue de Lille, aussi celui de SIRENE, est gardé. Horaires de l'office non repris. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
@@ -1013,7 +961,7 @@ Choix du vérificateur : Catégorie 1 en confiance faible, par la réponse de C�
 - lon : (vide) → 2.48818
 - km : (vide) → 594.2
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Brasserie artisanale de Cassel, ambassadrice de la Bière du Reuze. La fiche du Département du Nord dit qu'on la découvre dans sa boutique à Cassel, entre tradition et dégustation ; elle ne précise ni la carte ni les horaires. Source institutionnelle, d'où la confiance moyenne.
 - addr : (vide) → 340 route de Dunkerque, 59670 Cassel
 - src : (vide) → https://evasion.lenord.fr/offres/brasserie-du-mont-cassel-cassel-fr-6051877/
@@ -1042,12 +990,12 @@ Sources (vérifiée le 2026-10-29) : https://evasion.lenord.fr/offres/brasserie-
 
 Extrait lu : « Découvrez-la dans sa boutique à Cassel et explorez une brasserie qui perpétue le savoir-faire brassicole flamand, entre tradition et dégustation authentique. »
 
-Choix du vérificateur : Téléphone 03 28 49 97 22 : lu seulement sur des pages d'office/tourisme (evasion.lenord.fr, cirkwi) et un agrégateur (le-pigeon-voyageur.fr), jamais sur une page de la brasserie : écarté (règle). Site officiel bieredureuze.fr : ouvert, il affiche « PROCHAINEMENT », un lien Facebook et contact@bieredureuze.fr, sans adresse, horaires, téléphone ni bières ; je ne le mets pas dans contact (une seule source par contact, et Untappd n'y figure pas). Horaires : « les vendredis et samedis » lus seulement sur Le Pigeon Voyageur (agrégateur) et « souvent ouvert le week-end » sur un guide Google Sites non officiel, sans heures : écartés. Styles Untappd : seul « Blonde / Golden Ale » a une règle (blonde) ; les quatre autres tombent en « autre », libellé recopiant le style (typeDuStyleUntappd). Les URL de bière pointent la page Untappd de la brasserie, faute d'avoir lu chaque page de bière (pas de notes ni avis recopiés). Confiance moyenne au plus : office/institution (décision #37) ; la catégorie 1 repose sur « boutique » + « dégustation » dans la même phrase, que Cédric peut rabattre en 0 s'il la trouve trop vague. Source rouverte à la main le 29/10.
+Choix du vérificateur : Téléphone 03 28 49 97 22 : lu seulement sur des pages d'office/tourisme (evasion.lenord.fr, cirkwi) et un agrégateur (le-pigeon-voyageur.fr), jamais sur une page de la brasserie : écarté (règle). Site officiel bieredureuze.fr : ouvert, il affiche « PROCHAINEMENT », un lien Facebook et contact@bieredureuze.fr, sans adresse, horaires, téléphone ni bières ; je ne le mets pas dans contact (une seule source par contact, et Untappd n'y figure pas). Horaires : « les vendredis et samedis » lus seulement sur Le Pigeon Voyageur (agrégateur) et « souvent ouvert le week-end » sur un guide Google Sites non officiel, sans heures : écartés. Styles Untappd : seul « Blonde / Golden Ale » a une règle (blonde) ; les quatre autres tombent en « autre », libellé recopiant le style (typeDuStyleUntappd). Les URL de bière pointent la page Untappd de la brasserie, faute d'avoir lu chaque page de bière (pas de notes ni avis recopiés). La catégorie 1 repose sur « boutique » + « dégustation » dans la même phrase, que Cédric peut rabattre en 0 s'il la trouve trop vague. Source rouverte à la main le 29/10. Confiance faible : une seule phrase de la page du Département (« boutique » et « dégustation »), et le site de la brasserie n'affiche que « PROCHAINEMENT ».
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Adresse
 > - 340 route de Dunkerque, 59670 Cassel
 > - Pas encore dans la fiche : son téléphone et ses horaires.
@@ -1064,7 +1012,7 @@ Choix du vérificateur : Téléphone 03 28 49 97 22 : lu seulement sur des pages
 > - Bière du Reuze Authentique (Traditional Ale)
 > - « triple »
 > - le plus souvent, une bière forte de tradition belge
-> - Lu sur [evasion.lenord.fr](https://evasion.lenord.fr/offres/brasserie-du-mont-cassel-cassel-fr-6051877/) le 29 octobre 2026. Lu sur [untappd.com](https://untappd.com/w/brasserie-du-mont-cassel/266107) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [evasion.lenord.fr](https://evasion.lenord.fr/offres/brasserie-du-mont-cassel-cassel-fr-6051877/) le 29 octobre 2026. Lu sur [untappd.com](https://untappd.com/w/brasserie-du-mont-cassel/266107) le 29 octobre 2026. Ce qu’on peut y faire est probable, pas établi par la source : lisez-la avant d’y aller.
 
 ### 17. Le Singe Savant — fiche nouvelle
 
@@ -1092,7 +1040,7 @@ Extrait lu : « There's also a bar and store just 100 metres from the brewery, a
 
 Choix du vérificateur : Lecture via un résumé (WebFetch). Confiance moyenne : office/agence de tourisme, et le site officiel n'a livré que « Micro-brasserie Le Singe Savant, Lille ». Page Untappd existante : https://untappd.com/LaBrasserieDuSingeSavant (« Brasserie du Singe Savant », micro-brasserie, bar au 94 rue d'Arras, ouvert du mardi au samedi ; lue via un résumé). Je ne la mets pas dans contact, car contact.source est la page HelloLille. Bières Untappd : styles lus (IPA, Sour, Stout, Porter, Pale Ale, Witbier…), non recopiés dans beers faute de format de bière vérifié. Adresse laissée vide : 94 rue d'Arras (Untappd, bar) et 134 rue d'Arras (SIRENE) divergent, et la page HelloLille ne donne que des coordonnées. Horaires de tablejourney (annuaire) écartés. Aucun téléphone lu. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -1130,7 +1078,7 @@ Extrait lu : « Les visites d’atelier avec une dégustation sont proposées po
 
 Choix du vérificateur : Deux numéros sur la page contact (« 03 28 58 83 98 ou au 06 74 90 92 16 ») : je retiens le fixe 03 28 58 83 98, aussi écrit sur l'accueil (« Tél : 03 28 58 83 98 »), et j'écarte le mobile. Horaires non proposés : l'accueil donne « jeudi : 10h/12h – vendredi : 10h/12h & 15h/18h – samedi : 15h/18h » pour Bray-Dunes mais sans dire s'il s'agit d'accueil ou de vente. La boutique de Dunkerque (39 boulevard Sainte Barbe, mardi-samedi) serait une autre adresse : à trancher par Cédric. Les bières lues sur diabinte.fr/les-produits/ sont des blondes, ambrée, blanche, brune, IPA et bière de Noël, sans page Untappd trouvée : aucune bière proposée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -1171,7 +1119,7 @@ Extrait lu : « +33 (0) 3 20 68 18 59 »
 
 Choix du vérificateur : Seul numéro publié sur le site officiel (page contact, aussi sur /boutique et l'accueil), un fixe 03 : retenu. Le même numéro figure sur la fiche de l'office Hello Lille, mais c'est le site de la brasserie qui le porte. Gammes lues sur /nosbieres : Lyderic, Pyrite, Phinaert, Achille, sans style ; pas de page Untappd trouvée, donc aucune bière proposée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -1211,7 +1159,7 @@ Extrait lu : « Nous sommes ouverts du lundi au vendredi de 9h30 à 12h30 et de 
 
 Choix du vérificateur : Horaires non retenus : le site les titre « Horaires d'ouverture de la brasserie » sans dire s'il s'agit d'un accueil du public ou de bureaux. Aucun lien Untappd trouvé. Le site waale.beer redirige vers waale.fr (301). Adresse reprise de SIRENE, absente du site. Source rouverte à la main le 29/10. Téléphone non repris : l'outil de contrôle ne peut pas le relire sur la page (format ou balise).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -1255,14 +1203,14 @@ Sources (vérifiée le 2026-10-29) : https://www.brasserielafabriq.fr/ ; https:/
 
 Extrait lu : « Envie de boire une bonne bière ? Venez chez nous et dégustez la bière qui vous fera plaisir ! »
 
-Choix du vérificateur : À examiner par Cédric : pour la catégorie « sur place seulement » (cat 4), je n'ai pas de phrase qui dise qu'il n'y a pas de vente à emporter. La page ne mentionne simplement aucune vente à emporter. Je mets donc cat 1 avec une confiance moyenne, sans présumer du cat 4. Si Cédric veut être strict, la vente n'étant pas écrite, c'est cat 0 ou cat 4. Bières laissées vides : l'Untappd (blonde, triple, IPA, stout, ambrée, Rachoise, Briquette, Smash, bière de campagne, Roussette, 10 bières affichées sur 13) n'a été lue que par résumé, sans URL de bière à mettre. Un seul numéro publié (03 66 76 93 53), retenu. La page parle aussi d'un « Bar mobile & staff » pour les événements privatisés, écarté. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas.
+Choix du vérificateur : À examiner par Cédric : pour la catégorie « sur place seulement » (cat 4), je n'ai pas de phrase qui dise qu'il n'y a pas de vente à emporter. La page ne mentionne simplement aucune vente à emporter. Catégorie 1, sans présumer du cat 4. Si Cédric veut être strict, la vente n'étant pas écrite, c'est cat 0 ou cat 4. Bières laissées vides : l'Untappd (blonde, triple, IPA, stout, ambrée, Rachoise, Briquette, Smash, bière de campagne, Roussette, 10 bières affichées sur 13) n'a été lue que par résumé, sans URL de bière à mettre. Un seul numéro publié (03 66 76 93 53), retenu. La page parle aussi d'un « Bar mobile & staff » pour les événements privatisés, écarté. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 7 h 02 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 60 Quai du Canal, 59194 Râches
 > - Pas encore dans la fiche : ses bières.
@@ -1309,7 +1257,7 @@ Extrait lu : « Visite et dégustation de 3 produits (sur demande au 03 68 38 60
 
 Choix du vérificateur : Lecture via un résumé du site officiel. Lu : « Venez nous rencontrer ! », « Chaque vendredi », « De 15h à 18h », « Commandez les dès maintenant ! » (boutique en ligne easybeer), « Découvrez où vous procurer nos bières », visite et dégustation sur demande (10 €/personne, groupe de 10 min.), adresse « Ruche d'entreprises d'Armentières, 4 avenue Pierre Mauroy 59280 Armentières ». Rien ne dit qu'on achète ou boit sur place le vendredi : catégorie 0, pas d'horaires proposés (la rencontre du vendredi n'est ni de l'accueil ni de la vente établis). Une fiche Lille Tourism (office) dit « ouvert le vendredi 15h-19h » : contredit le site (15h-18h), écartée, et son numéro (+33 3 68 38 60 06) est le même que celui du site. Pas d'Untappd trouvé. Source rouverte à la main le 29/10. Téléphone non repris : l'outil de contrôle ne peut pas le relire sur la page (format ou balise).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -1380,12 +1328,12 @@ Extrait lu : « Nos bières sont disponibles à la vente dans notre bar-restaura
 
 Choix du vérificateur : Lecture via un résumé de la page. Passages lus sur la page bar-boutique : « Du mercredi au vendredi : 16h – 23h », « Le samedi : 10h – 18h », « La boutiques est ouverte aux mêmes horaires que le restaurant. », « A la pression, des bières Tandem bien sûr et nos dernières nouveautés ! », téléphone 03 20 31 78 57 (seul numéro de la page, publié par la brasserie). Vente à emporter et boisson sur place toutes deux établies : pas « sur place seulement ». Untappd : https://untappd.com/BrasserieTandem lu via un résumé (page de la brasserie, Wambrechies, micro brewery) ; les styles des 8 bières viennent de cette page (les 2 autres du top 10, Vive Le Vent et Y'a D'la Joie, écartées car éphémères). Je n'ai pas recopié notes ni avis. Le site officiel ne donne pas le style de la plupart des bières, d'où Untappd. Les liens de produit (pages de chaque bière du menu du site) ne sont pas mis, non ouverts. Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
 > - Adresse
 > - 382 rue de Bondues, 59118 Wambrechies
 > - Joindre la brasserie
@@ -1402,7 +1350,7 @@ Choix du vérificateur : Lecture via un résumé de la page. Passages lus sur la
 > - Samedi | 10 h – 18 h
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
 > - À savoir : La boutique est ouverte aux mêmes horaires que le restaurant.
 > - Horaires de vente
 > - Lundi | non précisé
@@ -1466,14 +1414,14 @@ Sources (vérifiée le 2026-10-29) : https://briquehouse.com/taprooms/brique-lan
 
 Extrait lu : « Brique House est une brasserie où tu peux te poser, boire une bière tout en dégustant une bonne pizza. »
 
-Choix du vérificateur : Page lue via un résumé. Même page, deux autres passages : « Viens vite découvrir nos bières craft directement dans notre brasserie. » et « l'adresse italo-chti à Saint-André-lez-lille pour les amoureux de la pizza napolitaine et de bière artisanale. » Adresse : la page donne « 27 Félix Faure, 59350 Saint-André-lez-Lille » ; le registre SIRENE dit « 70 rue Félix Faure » (Halles de la Filature), j'ai pris la page. Confiance moyenne : elle cite la consommation sur place mais ne dit pas la vente à emporter. Écarté : le privateaser (annuaire) qui dit « bières brassées sur place » et des horaires de réservation différents ; je n'ai pas pris ses horaires. Autres sites de Brique House (Fretin, Lille HEIN, Villeneuve-d'Ascq, Bordeaux) non retenus : la page des taprooms ne cite pas Fretin et ne donne ni adresse ni horaires pour eux. Untappd : aucune page trouvée (briquehouse.com sans lien, untappd.com/BriqueHouse en 404), donc non proposé. Téléphone : aucun publié sur la page. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10.
+Choix du vérificateur : Page lue via un résumé. Même page, deux autres passages : « Viens vite découvrir nos bières craft directement dans notre brasserie. » et « l'adresse italo-chti à Saint-André-lez-lille pour les amoureux de la pizza napolitaine et de bière artisanale. » Adresse : la page donne « 27 Félix Faure, 59350 Saint-André-lez-Lille » ; le registre SIRENE dit « 70 rue Félix Faure » (Halles de la Filature), j'ai pris la page.  Écarté : le privateaser (annuaire) qui dit « bières brassées sur place » et des horaires de réservation différents ; je n'ai pas pris ses horaires. Autres sites de Brique House (Fretin, Lille HEIN, Villeneuve-d'Ascq, Bordeaux) non retenus : la page des taprooms ne cite pas Fretin et ne donne ni adresse ni horaires pour eux. Untappd : aucune page trouvée (briquehouse.com sans lien, untappd.com/BriqueHouse en 404), donc non proposé. Téléphone : aucun publié sur la page. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h, sous réserve.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h, sous réserve.
 > - Adresse
 > - 27 rue Félix Faure, 59350 Saint-André-lez-Lille
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -1525,12 +1473,12 @@ Extrait lu : « Venez découvrir notre Taproom, un espace dédié à la dégusta
 
 Choix du vérificateur : Catégorie 1 en confiance faible, par la réponse de Cédric du 29/10. Aucun téléphone publié. Pas d'Untappd trouvé. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h 30.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h 30.
 > - Adresse
 > - 89 rue de Tourcoing, 59100 Roubaix
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -1585,12 +1533,12 @@ Extrait lu : « 09:30-12:30 ; 15:00-19:00 »
 
 Choix du vérificateur : Lecture via un résumé de page. Confiance faible : la page boutique donne horaires, téléphone et gamme (Salix Cervisia, La Châtelaine de La Villette, gamme bio), mais pas de phrase « vente sur place ». Dégustation non citée, donc catégorie 2 et non 1. La page de visite (/fr/brasserie) dit : « nous planifierons une visite qui aura lieu le samedi matin vers 10h30 » ; je ne l'ai pas mise en horaires. Une page boutique distincte propose aussi du click & collect. Le téléphone 03 27 28 60 92 est le seul publié, pour la boutique et pour les réservations de visite. SIRENE donne l'adresse 10 avenue Henri Barbusse ; le site dit 5 bis, retenu (c'est aussi l'adresse de l'OSM `way/1040447470`, candidat du paquet 22, à dédupliquer). Untappd : aucune page trouvée. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h 30.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h 30.
 > - Adresse
 > - 5 bis avenue Henri Barbusse, 59990 Saultain
 > - Pas encore dans la fiche : ses bières.
@@ -1643,12 +1591,12 @@ Extrait lu : « lorsque vous viendrez boire votre bière sur place »
 
 Choix du vérificateur : Conf faible volontairement : le site ne décrit pas l'accueil du public et ne parle pas de vente à emporter. Les mots « bar » et « boire sur place » sont vagues. À examiner par Cédric : cat 0 est défendable. Pas d'Untappd trouvé. Les six bières du site (Blonde, Triple B, Grisette, Mine dé Rin noire, Ambrée, BB Brune) ne sont pas mises, faute de lien et de style Untappd. Un seul numéro publié, retenu. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
 > - Adresse
 > - 36 T rue Émile Zola, 59195 Hérin
 > - Pas encore dans la fiche : ses bières.
@@ -1701,12 +1649,12 @@ Extrait lu : « elle dispose d'un bar et d'un espace convivial pour déguster no
 
 Choix du vérificateur : Seul téléphone publié par la brasserie : un mobile (06 37 88 83 76), retenu pour cette raison. La page Untappd trouvée par la recherche (untappd.com/BrasserieDuLion) est celle de « Brasserie Lion » à Nivelles, en Belgique : écartée. Une gamme est décrite (« deux gammes de bières traditionnelles des Hauts de France ») sans style, donc aucun type de bière proposé. Les horaires sont intitulés « Horaires boutique/bar », d'où la nature « accueil ». La visite du samedi 11h-12h sur réservation est dite dans remarque. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 7 h 02 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 5 bis Rue Pasteur, 59223 Roncq
 > - Pas encore dans la fiche : ses bières.
@@ -1759,12 +1707,12 @@ Extrait lu : « Directement du producteur au consommateur, nos bières bio sont 
 
 Choix du vérificateur : Site officiel lu directement via WebFetch (page d'accueil, puis une page de visites et contact qui donne le même téléphone et les mêmes horaires ; son URL exacte n'a pas pu être confirmée, d'où source = accueil). Catégorie 2 : la vente en boutique est écrite, la consommation sur place n'est écrite nulle part (visites payantes sur réservation, sans mention de dégustation). Un seul numéro publié, 03 27 86 34 01, fixe. Types lus : « Plutôt Blonde, Triple ou encore Ambrée ? », laissés hors de beers faute de fiche détaillée par bière. Pas de lien Untappd sur le site ni trouvé en recherche, donc non proposé. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 6 h 49 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 14 h.
+> - À 7 h 02 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 14 h.
 > - Adresse
 > - 46 rue de Lestrez, 59283 Moncheaux
 > - Pas encore dans la fiche : ses bières.
@@ -1809,7 +1757,7 @@ Extrait lu : « Dégustez nos bières dans notre Taproom, en plein coeur de la b
 
 Choix du vérificateur : Seconde phrase de la même page, qui établit la vente : « vous pouvez repartir avec nos bières ou nos packs disponibles à la boutique ». Horaires non proposés : la page donne un bloc « Automne-Hiver » et un bloc « Printemps-Eté » sans dates de bascule (le schéma exige une période pour deux blocs de même nature), et la page /contact diffère de /taproom (dimanche 16h-19h absent d'automne-hiver). Pas de téléphone publié (seulement contact@brasseriedevaucelles.fr). Pas d'Untappd trouvé, d'où des bières vides ; noms lus sur le site : Abbaye de Vaucelles et Cocotte, sans style. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -1855,12 +1803,12 @@ Extrait lu : « Visite, dégustation et vente à emporter »
 
 Choix du vérificateur : Téléphone : 06 16 96 88 00 est un mobile, mais c'est la seule ligne publiée par la brasserie sur sa page contact (règle du 21/10). Rien trouvé sur une page Untappd de la brasserie. La page contact a été lue via un résumé qui a refusé de recopier tout le texte : la phrase « Bière d'artisan Brassée ici, bue ici ! » et les horaires sont rapportés par ce résumé, pas vus mot à mot. L'extrait choisi vient de la page d'accueil. À revérifier avant d'appliquer. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 7 h 02 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 42 rue du Moulin, 59154 Crespin
 > - Pas encore dans la fiche : ses bières.
@@ -1890,7 +1838,7 @@ Choix du vérificateur : Téléphone : 06 16 96 88 00 est un mobile, mais c'est 
 - lon : (vide) → 3.09191
 - km : (vide) → 564.4
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → solide
+- conf : (vide) → faible
 - note : (vide) → Le site de la brasserie dit que les bières sont brassées sur place et la présente comme brasserie artisanale et bar ; il publie ses horaires d'ouverture et indique la bière disponible en bouteille et en fût. Le site ne mentionne pas de page Untappd.
 - addr : (vide) → 22 place des Ouvriers, 59800 Lille
 - src : (vide) → https://www.brasseriefivescail.com
@@ -1916,14 +1864,14 @@ Sources (vérifiée le 2026-10-29) : https://www.brasseriefivescail.com ; https:
 
 Extrait lu : « Bien plus qu'un simple bar, c'est un lieu de vie de quartier où l'on brasse, où l'on partage et où l'on se retrouve. »
 
-Choix du vérificateur : Lecture du site officiel via un résumé (WebFetch), deux passages successifs ; les citations viennent de ce résumé, à recontrôler à l'ouverture. Téléphone retenu : 09 74 64 13 05, seul numéro publié sur le site. Horaires du site : lun 17h-23h, mar-mer 17h-0h, jeu-sam 16h-1h, dim 16h-23h (cuisine 18h-22h, hors horaires d'accueil). La page ne parle pas de vente à emporter : cat 1 repose sur le bar et « Disponible en bouteille et en fût ». Adresse du site sans code postal ; 59800 vient de SIRENE. La page HelloLille donne une autre adresse (Halle G1, Cours Jean-François Cail) ; non retenue. Aucune page Untappd trouvée. Source rouverte à la main le 29/10.
+Choix du vérificateur : Lecture du site officiel via un résumé (WebFetch), deux passages successifs ; les citations viennent de ce résumé, à recontrôler à l'ouverture. Téléphone retenu : 09 74 64 13 05, seul numéro publié sur le site. Horaires du site : lun 17h-23h, mar-mer 17h-0h, jeu-sam 16h-1h, dim 16h-23h (cuisine 18h-22h, hors horaires d'accueil). La page ne parle pas de vente à emporter : cat 1 repose sur le bar et « Disponible en bouteille et en fût ». Adresse du site sans code postal ; 59800 vient de SIRENE. La page HelloLille donne une autre adresse (Halle G1, Cours Jean-François Cail) ; non retenue. Aucune page Untappd trouvée. Source rouverte à la main le 29/10. Confiance faible : la source dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10, relecture de la persona).
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
 > - Adresse
 > - 22 place des Ouvriers, 59800 Lille
 > - Pas encore dans la fiche : ses bières.
@@ -1941,7 +1889,7 @@ Choix du vérificateur : Lecture du site officiel via un résumé (WebFetch), de
 > - Samedi | 16 h – 1 h (le lendemain)
 > - Dimanche | 16 h – 23 h
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Lu sur [brasseriefivescail.com](https://www.brasseriefivescail.com) le 29 octobre 2026. La source décrit précisément ce qu’on peut faire sur place.
+> - Lu sur [brasseriefivescail.com](https://www.brasseriefivescail.com) le 29 octobre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
 ### 33. Brasserie Brewbaix — fiche nouvelle
 
@@ -1976,12 +1924,12 @@ Extrait lu : « repartir avec quelques bouteilles ou rester discuter. »
 
 Choix du vérificateur : Téléphone 06 79 82 87 95 : un portable, seule ligne publiée sur le site de la brasserie, retenu par la règle du 21/10. DOUBLON À SIGNALER : la ligne sirene:850553710 (« BREWBAIX, COLLECTIF DES MICRO-BRASSEURS ROUBAISIENS », 47 rue du Luxembourg) est probablement la même brasserie, à traiter avec cette fiche (elle est dans un autre paquet). La page taproom, qui porte les horaires, n'a pas été relue en pleine page. Untappd : non trouvé, rien proposé. Pas de bières proposées : le site cite deux gammes (Brewbaix et Brebis Galeuse) et des styles génériques (sours, NEIPA, stouts), sans page Untappd. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 6 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 7 h 02 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 26 rue des Fabricants, 59100 Roubaix
 > - Pas encore dans la fiche : ses bières.
@@ -2027,7 +1975,7 @@ Extrait lu : « des cuvées pleines de caractère et servies exclusivement sur p
 
 Choix du vérificateur : Catégorie 4 « Consommer sur place seulement » (S368) : le site dit « servies exclusivement sur place » et ne propose aucune vente à emporter. Horaires du lieu entier non repris. Aucun téléphone sur la page. Site relu à la main le 29/10. Source rouverte à la main le 29/10.
 
-**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 06:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le jeudi 29 octobre 2026 à 07:02, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Consommer sur place seulement
@@ -2040,4 +1988,4 @@ Choix du vérificateur : Catégorie 4 « Consommer sur place seulement » (S368)
 > - [Site de la brasserie](https://auxenfantsterribles.fr)
 > - Lu sur [auxenfantsterribles.fr](https://auxenfantsterribles.fr) le 29 octobre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : 18ba22efa17d
+Empreinte du lot : 86e9b70c9255

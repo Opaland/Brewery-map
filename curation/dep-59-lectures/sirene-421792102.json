@@ -9,7 +9,7 @@
    "lon": 3.16566,
    "km": 560.9,
    "cat": 1,
-   "conf": "moyenne",
+   "conf": "faible",
    "note": "La page taproom du site officiel dit que toutes les bières se boivent à la pression sur place, avec des heures d'ouverture publiées. Une rubrique « La boutique » existe dans le menu mais son contenu n'a pas été lu.",
    "addr": "47 Rue de la Distillerie, 59493 Villeneuve-d'Ascq",
    "src": "https://www.moulinsdascq.fr/la-taproom",
@@ -66,6 +66,6 @@
    "https://data.geopf.fr/geocodage/search?q=47+Rue+de+la+Distillerie%2C+59493+Villeneuve-d%27Ascq&limit=5"
   ],
   "extrait": "Retrouvez à la pression toutes nos bières, brassées sous vos yeux !",
-  "choix": "Téléphone écrit « + 33 03 20 59 79 38 » sur la page taproom, noté 03 20 59 79 38. Un autre numéro (06 17 21 14 83), vu seulement sur un annuaire de salles : écarté. Samedi « selon programmation » dans remarque. Aucune page Untappd trouvée ; les styles cités par le site ne sont pas repris (la règle veut le style lu sur Untappd). Source rouverte à la main le 29/10."
+  "choix": "Téléphone écrit « + 33 03 20 59 79 38 » sur la page taproom, noté 03 20 59 79 38. Un autre numéro (06 17 21 14 83), vu seulement sur un annuaire de salles : écarté. Samedi « selon programmation » dans remarque. Aucune page Untappd trouvée ; les styles cités par le site ne sont pas repris (la règle veut le style lu sur Untappd). Source rouverte à la main le 29/10. Confiance faible : la source dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10, relecture de la persona)."
  }
 }
