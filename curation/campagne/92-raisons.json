@@ -1,4 +1,18 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher",
- "personne:2": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:414842062": "lu le 29/10 : siège d'un groupe ; aucun accueil ni vente au public",
+  "sirene:821920477": "lu le 29/10 : siège ; la brasserie est à Montmorillon (86)",
+  "sirene:953013976": "lu le 29/10 : registres, Untappd et un réseau social seuls : à relancer si un site apparaît",
+  "sirene:382581551": "lu le 29/10 : société étrangère sans établissement ouvert",
+  "sirene:909889784": "lu le 29/10 : rien sous ce nom",
+  "sirene:914868831": "lu le 29/10 : rien sous ce nom",
+  "sirene:930310560": "lu le 29/10 : rien sous ce nom",
+  "sirene:893403816": "lu le 29/10 : rien sous ce nom",
+  "sirene:878429968": "lu le 29/10 : rien sous ce nom",
+  "sirene:900751249": "lu le 29/10 : un article seul ; vente en ligne, aucun lieu établi",
+  "sirene:850026246": "lu le 29/10 : même SIREN que Nemeto, lue sous way/1024690864",
+  "node/3980268299": "lu le 29/10 : un restaurant, qui ne brasse pas",
+  "node/640616938": "lu le 29/10 : un bar-restaurant, qui ne brasse pas",
+  "node/6409925921": "lu le 29/10 : rien sous ce nom"
 }

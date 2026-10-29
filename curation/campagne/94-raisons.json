@@ -1,4 +1,18 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher",
- "personne:2": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:751998436": "lu le 29/10 : rien sous ce nom",
+  "sirene:810391474": "lu le 29/10 : rien sous ce nom",
+  "sirene:844342907": "lu le 29/10 : sources indirectes seules ; site non trouvé : à relancer",
+  "sirene:940249592": "lu le 29/10 : rien sous ce nom",
+  "sirene:949773584": "lu le 29/10 : registre seul",
+  "sirene:902481951": "lu le 29/10 : rien sous ce nom",
+  "sirene:838798692": "lu le 29/10 : site officiel illisible ou contradictoire, agrégateur seul : à relancer",
+  "sirene:878244250": "lu le 29/10 : registre seul",
+  "sirene:797461035": "lu le 29/10 : rien sous ce nom",
+  "node/13714542867": "lu le 29/10 : le site n'affiche qu'un contrôle de l'âge, annuaires seuls : à relancer",
+  "node/611670639": "lu le 29/10 : rien sous ce nom",
+  "node/7488271235": "lu le 29/10 : le site cité est celui d'une brasserie de Montereau-Fault-Yonne (77), à voir dans ce lot",
+  "node/8898041564": "lu le 29/10 : brasserie du Rhône (69), aucun lieu dans le Val-de-Marne",
+  "node/9277494488": "lu le 29/10 : un restaurant, qui ne brasse pas"
 }

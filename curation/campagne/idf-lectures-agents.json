@@ -1,0 +1,660 @@
+{
+ "94-3": {
+  "lus": [],
+  "rapport": "Clés de mon paquet n° 3 (index 3) : `node/9277494488` (La Ricetta, Nogent-sur-Marne, 163 Grande Rue Charles de Gaulle). C'est la seule clé du paquet.\n\n```json\n[]\n```\n\nSans lecture :\n\n- `node/9277494488` La Ricetta : écarté, c'est un restaurant italien et non une brasserie.\n  - Aucune fiche de `data/breweries.json` ne porte ce nom ni la commune de Nogent (recherche « Ricetta|Nogent » sans résultat).\n  - J'ai fait deux recherches web. La première (nom, adresse, bière, brasserie) n'a rien donné d'utile : seulement des PDF d'inventaire du patrimoine d'Île-de-France sans rapport. La seconde (nom, commune, Untappd) a trouvé un résumé de la fiche Uber Eats https://www.ubereats.com/fr-en/store/la-ricetta/bEZJhzf4Wvqi02m0gyrvww. Elle donne la même adresse et classe l'établissement en cuisine italienne (pâtes, pizza).\n  - Je n'ai pas ouvert cette page directement : c'est une lecture « via un résumé », et c'est un agrégateur, donc seulement une piste.\n  - Je n'ai trouvé ni site officiel, ni page Untappd rattachable à ce lieu, ni page d'office de tourisme. Une page Untappd non vérifiée est apparue (https://untappd.com/venue/6608801), mais rien ne la relie à La Ricetta.\n  - Aucun élément ne dit que ce lieu brasse. Un restaurant qui ne brasse pas n'est pas une brasserie, donc aucune lecture n'est rendue. Ce n'est pas passager : il n'y a rien à relancer."
+ },
+ "75-5": {
+  "lus": [],
+  "rapport": "Clés de mon paquet (n° 5, index 0) : sirene:930292792 (COAL), sirene:934406703 (KORAI BEER), sirene:943657205 (BEPIM), sirene:838954535 (BRASSERIE DE LA BIERE MICHEL), sirene:989325634 (KINTSUGI).\n\nAucun de ces cinq candidats n'est établi. Aucune fiche de `data/breweries.json` ne correspond à l'un d'eux : le grep sur COAL, Korai, Kintsugi, BEPIM, Faudot et Michel ne remonte que La Coale (autre brasserie), Locoal-Mendon et une rue Michelet.\n\n```json\n[]\n```\n\nJe n'ai ouvert aucune page directement. Toutes les lectures de web ci-dessous sont faites « via un résumé », par WebSearch ou WebFetch. Aucun passage exact n'est donc copiable sur une seule page, sauf pour Kintsugi.\n\nSans lecture, une ligne par candidat :\n\n- **sirene:930292792 COAL (CR2D, 97 rue de Belleville, 75019).** Deux recherches (nom + Belleville, nom + Untappd). Rien : ni site officiel, ni Untappd, ni office de tourisme, ni presse. La ligne SIRENE seule ne suffit pas. Écarté, existence non établie. Ce n'est pas une cause passagère.\n- **sirene:934406703 KORAI BEER (8 rue de la Source, 75016).** Deux recherches plus une troisième sur le site officiel. Seuls résultats : la fiche grossiste Ankorstore (marque fondée en 2023 au Vietnam, trois bières) et un article du Petit Journal (Ho Chi Minh). C'est une marque vietnamienne vendue en gros. Aucune brasserie ni lieu d'accueil à Paris 16e, pas de site officiel ni de page Untappd trouvés. Écarté : brasserie parisienne non établie, un annuaire marchand seul ne suffit pas.\n- **sirene:943657205 BEPIM (23 rue du Borrego, 75020).** Deux recherches. Aucune mention nulle part. Écarté, existence non établie.\n- **sirene:838954535 BRASSERIE DE LA BIERE MICHEL (59 rue Sarrette, 75014).** Deux recherches. Seul élément : l'avis de situation SIRENE (https://api-avis-situation-sirene.insee.fr/identification/pdf/83895453500012), qui la donne comme association, active depuis le 04/03/2018, code APE 11.05Z. L'adresse est celle d'une personne physique. Aucun site, Untappd, ni lieu public. Je l'écarte : on n'y accueille sans doute pas de public, et l'adresse est privée. Je ne propose rien (règle sur les noms de personnes et les entrepreneurs individuels).\n- **sirene:989325634 KINTSUGI (49 quai de Valmy, 75010).**\n  - Le projet est réel : un brewpub « Kintsugi Beer », annoncé pour « courant septembre 2026 ». La seule source est un article de presse de Sortiraparis, mis à jour le 3 août 2026 (https://www.sortiraparis.com/hotel-restaurant/restaurant/articles/349966-kintsugi-beer-un-brewpub-japonais-avec-bieres-brassees-sur-place-et-gyozas-au-bord-du-canal). Il dit que les bières y seront brassées sur site, avec des gyozas. Il ne donne ni horaires ni téléphone.\n  - Pas de site officiel, juste un Instagram (instagram.com/kintsugibeer), et pas de page Untappd trouvée.\n  - Un article de presse seul ne suffit pas (décision #37), et l'ouverture n'est pas confirmée au 29/10. Rien n'est proposé. À relancer : si la brasserie est ouverte, un site, Untappd ou une page d'office de tourisme pourront apparaître. Si Cédric veut qu'elle soit relue plus tard, elle serait en catégorie 1 avec une confiance « faible » (bar-brasserie où l'on boit sur place, vente à emporter non dite).\n\nAucune instruction glissée dans les pages lues. Aucune question à choix."
+ },
+ "92-1": {
+  "lus": [],
+  "rapport": "Clés du paquet n° 1 (index 1 ; l'index 0 est le paquet des clés sirene:414842062, 821920477, 953013976, 382581551, 851679415) : sirene:909889784 (LA PLANTA PARIS BRASSERIE, Issy-les-Moulineaux), sirene:914868831 (BIERE DE PAROISSE, Boulogne-Billancourt), sirene:930310560 (LA BIERE DE MONTROUGE, Montrouge), sirene:893403816 (LOCALE, Issy-les-Moulineaux), sirene:878429968 (BRASSERIE DU BAILLOU, Clichy).\n\n```json\n[]\n```\n\nAucune lecture : les cinq sont sans lecture. Je n'ai pas pu ouvrir de page, car je n'avais que la recherche web (pas de WebFetch exploitable ici). Je n'ai donc rien lu directement ; tout ce qui suit vient de résumés de recherche. Chaque candidat a eu deux recherches, une sur le nom et l'adresse, une sur Untappd ou le nom seul. Aucune ne donne de site officiel, de page Untappd de la brasserie ni de page d'office de tourisme, et aucun n'est déjà une fiche de data/breweries.json (je n'ai pas pu lancer de commande ; vérifié seulement par les noms, absents de la liste des candidats « nouveau »).\n\n- sirene:909889784 LA PLANTA PARIS BRASSERIE : aucune page trouvée sous ce nom. Seules des brasseries-restaurants d'Issy sont remontées, sans lien avec elle ; un Untappd « La Plante du Loup » (Lyon, fermé) n'est pas le bon. Pas d'existence établie par une source autre que SIRENE. Sans lecture ; relancer avec un accès aux pages (site, Instagram, Untappd) : à relancer.\n- sirene:914868831 BIERE DE PAROISSE : rien sous ce nom à Boulogne-Billancourt ni ailleurs. Peut être une activité d'association ou de paroisse, non brasseur ouvert au public. Sans lecture ; à relancer avec un accès aux pages.\n- sirene:930310560 LA BIERE DE MONTROUGE : rien trouvé. La bière « Montrouge » de BAPBAP (Paris) est une autre chose, et la cave de la rue Louis Rolland n'est pas une brasserie. Sans lecture ; à relancer.\n- sirene:893403816 LOCALE (16 passage de l'Industrie, Issy) : aucune brasserie ni microbrasserie de ce nom trouvée, ni sur Untappd ni dans les annuaires d'Issy. Nom trop générique pour être trouvé sans accès direct. Sans lecture ; à relancer.\n- sirene:878429968 BRASSERIE DU BAILLOU (12 B rue du Guichet, Clichy) : rien sous ce nom. Les résultats sont des bistrots-brasseries (restaurants) de Clichy, non brasseurs. Sans lecture ; à relancer.\n\nCause commune : l'outil de recherche renvoie des résumés, sans aucune page d'une de ces cinq entités. L'absence de résultat ne prouve pas l'inexistence. Rien n'est proposé.\n\nQuestions à choix : aucune."
+ },
+ "94-2": {
+  "lus": [],
+  "rapport": "Paquet n° 2 du lot dep-94 : cinq clés lues, `sirene:797461035`, `node/13714542867`, `node/611670639`, `node/7488271235`, `node/8898041564`. Aucune lecture n'est établie, donc le tableau JSON est vide.\n\n```json\n[]\n```\n\nAucune de ces cinq n'est déjà une fiche de `data/breweries.json` (recherche sur les noms : rien qui corresponde). Les pages ci-dessous ont toutes été lues directement, sans résumé de ma part, mais l'outil WebFetch en rend lui-même un résumé.\n\nSans lecture :\n\n1. **`sirene:797461035` BIERES FINES (Bonneuil-sur-Marne).** Deux recherches web sont revenues sans aucune brasserie de ce nom. La seule brasserie trouvée à cette adresse (1 av. des Marronniers) est Deck & Donohue, sur un annuaire seul. Le lien avec l'entreprise SIRENE n'est pas établi : rien n'est proposé. Il n'y a ni site ni page Untappd.\n\n2. **`node/13714542867` Brasserie 925 - Goub'z (Champigny-sur-Marne).**\n   - J'ai ouvert `brasserie925.com`, la page d'accueil du site officiel. Elle ne porte qu'une accroche, « La bière de Champigny-sur-Marne (94) », et un contrôle d'âge. Il n'y a ni horaires, ni téléphone, ni adresse, ni Untappd, ni mention de vente ou de dégustation. La page `/boutique` donne une 404.\n   - Les seules pages qui disent « bar-taproom » et « dégustées directement au bar en bord de rivière » sont privateaser.com et rankeat.fr, deux annuaires. Elles donnent deux adresses (25 av. de la Fontaine, 19 quai du Viaduc) et un mobile, 06 87 72 17 68, qui n'est publié que par rankeat. Aucune autre source n'établit le lieu, et la page Facebook n'a rien rendu.\n   - Rien n'est proposé, car un annuaire seul ne suffit pas (décision #37). La brasserie existe très probablement (SIRENE actif depuis 2019, brasseur nommé sur un annuaire). Il faudrait Untappd ou une page de contact du site. À relancer si une source officielle apparaît.\n\n3. **`node/611670639` Le Parmentier (Ivry-sur-Seine, 1 place Parmentier).** Deux recherches n'ont trouvé aucun établissement de ce nom à Ivry. Il n'y a pas de site, et le point OSM n'a pas d'étiquette brasserie lisible. Existence non établie.\n\n4. **`node/7488271235` Le Micro Kombinat (La Queue-en-Brie).**\n   - Le site cité par OSM, `larepublikdesmousses.fr`, redirige vers `lmksas.wixsite.com/republik-des-mousses/`. La page se présente comme la « Brasserie La Republik des Mousses ». Elle donne l'adresse « 25 Rue du Dr Arthur Petit, 77130 Montereau-Fault-Yonne » et le mobile « 06 98 26 34 36 (Ivana) ». Elle porte « Bières biologiques brassées localement ».\n   - C'est donc une brasserie de Seine-et-Marne, pas du 94. Rien ne relie « Micro Kombinat » ni La Queue-en-Brie à ce site, et la recherche « Micro Kombinat » ne donne rien. Écartée comme hors département et non établie à cette adresse.\n   - **Pour Cédric :** « La Republik des Mousses » (77130 Montereau-Fault-Yonne) existe peut-être comme brasserie du 77. Je ne l'ai pas cherchée plus loin, car elle est hors du lot.\n\n5. **`node/8898041564` Mappiness (Saint-Maur-des-Fossés).** Le site officiel `mappinessbeer.com` (lu) donne l'adresse « Brasserie Mappiness, 31 rue Wilson, 69150 Décines-Charpieu ». C'est une brasserie du Rhône, pas du 94. Le point OSM de Saint-Maur n'a pas d'adresse. Écartée comme hors département, sans rien proposer pour le 94. Elle est peut-être à vérifier contre les fiches du 69 : mon test sur le nom ne l'y a pas trouvée, mais je n'ai pas cherché dans ce département.\n\nAucune question à choix."
+ },
+ "75-6": {
+  "lus": [
+   {
+    "cle": "node/14005957401",
+    "n": "Soquee Brewing",
+    "c": "Paris",
+    "adresse": "157 boulevard Davout, 75020 Paris",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie parisienne lancée en mars 2023. Le site officiel annonce une vente à emporter le mercredi, le vendredi et le samedi de 17h à 19h30 à cette adresse. Il ne parle pas de dégustation sur place. La production est présentée à Requista (Aveyron).",
+    "src": "https://soqueebrewing.fr/contact",
+    "extrait": "Mercredi, Vendredi et Samedi de 17h à 19h30",
+    "beers": [],
+    "choix": "Confiance moyenne et non solide : le site dit « Vente à emporter » à l'adresse parisienne mais ne dit pas qu'on y brasse. Catégorie 2 car rien ne dit qu'on boit sur place. Aucune bière proposée : le site cite des familles (houblonnées, lagers, saisons, noires), pas une liste de bières, et Untappd n'a pas été trouvé. Le portable 07.78.20.63.35 est la seule ligne publiée par la brasserie (règle du 21/10). Le site partage l'adresse avec DDW HANDCRAFTED SAS (SIRENE sirene:912053931, 157 boulevard Davout), probablement la même entité. Cette entrée est à fusionner et non à doubler.",
+    "contact": {
+     "tel": "07.78.20.63.35",
+     "site": "https://soqueebrewing.fr/",
+     "source": "https://soqueebrewing.fr/contact"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "17:00",
+        "19:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "19:30"
+       ]
+      ],
+      "source": "https://soqueebrewing.fr/contact",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 6) : sirene:828139212 (MASHROOMS), node/13387667101 (Académie de la bière), node/14005957401 (Soquee Brewing), way/54740915 (Le Biscornu). Aucune des quatre n'est déjà une fiche de data/breweries.json (recherche par nom, sans résultat).\n\n```json\n[\n  {\n    \"cle\": \"node/14005957401\",\n    \"n\": \"Soquee Brewing\",\n    \"c\": \"Paris\",\n    \"adresse\": \"157 boulevard Davout, 75020 Paris\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie parisienne lancée en mars 2023. Le site officiel annonce une vente à emporter le mercredi, le vendredi et le samedi de 17h à 19h30 à cette adresse. Il ne parle pas de dégustation sur place. La production est présentée à Requista (Aveyron).\",\n    \"src\": \"https://soqueebrewing.fr/contact\",\n    \"extrait\": \"Mercredi, Vendredi et Samedi de 17h à 19h30\",\n    \"beers\": [],\n    \"choix\": \"Confiance moyenne et non solide : le site dit « Vente à emporter » à l'adresse parisienne mais ne dit pas qu'on y brasse. Catégorie 2 car rien ne dit qu'on boit sur place. Aucune bière proposée : le site cite des familles (houblonnées, lagers, saisons, noires), pas une liste de bières, et Untappd n'a pas été trouvé. Le portable 07.78.20.63.35 est la seule ligne publiée par la brasserie (règle du 21/10). Le site partage l'adresse avec DDW HANDCRAFTED SAS (SIRENE sirene:912053931, 157 boulevard Davout), probablement la même entité. Cette entrée est à fusionner et non à doubler.\",\n    \"contact\": { \"tel\": \"07.78.20.63.35\", \"site\": \"https://soqueebrewing.fr/\", \"source\": \"https://soqueebrewing.fr/contact\" },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"mer\": [[\"17:00\", \"19:30\"]],\n        \"ven\": [[\"17:00\", \"19:30\"]],\n        \"sam\": [[\"17:00\", \"19:30\"]],\n        \"source\": \"https://soqueebrewing.fr/contact\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nLecture de Soquee Brewing : toutes les pages (soqueebrewing.fr, /brasserie, /contact) ont été lues « via un résumé » (WebFetch), jamais directement. L'extrait vient du résumé de /contact. Vérifie-le à l'œil avant d'appliquer. Le téléphone et l'adresse figurent aussi dans ce résumé de /contact. Le téléphone est cité « sans ligne visible autour » : le résumé l'a lu sous un intertitre « Téléphone ».\n\n**Sans lecture**\n\n- **sirene:828139212, MASHROOMS (2 rue Gustave Rouanet, 75018)** : deux recherches web sans aucun résultat sur ce nom ni cette adresse. Pas de site, pas d'Untappd, pas d'office de tourisme. Existence non établie. Ce n'est pas passager.\n- **node/13387667101, Académie de la bière (88 bis boulevard de Port-Royal, 75005)** : bar-brasserie (restaurant de moules-frites, 150 références de bières) d'après les annuaires et Time Out. Aucune source ne dit qu'il brasse. Écarté : un bar ou un restaurant n'est pas une brasserie. Le site officiel academie-biere.com a répondu 503 (à relancer seulement si on veut confirmer qu'il ne brasse pas).\n- **way/54740915, Le Biscornu (87-89 rue Montmartre, 75002)** : bar-restaurant-club (cocktails, bières industrielles, DJ), d'après des annuaires et la presse seulement. Écarté : ce n'est pas une brasserie. Le site lebiscornu.fr a répondu 503. Le candidat OSM n'a d'ailleurs pas d'adresse.\n\nQuestions à choix : aucune."
+ },
+ "94-1": {
+  "lus": [
+   {
+    "cle": "sirene:847762812",
+    "n": "L'Alfortvillaise",
+    "c": "Alfortville",
+    "adresse": "2 rue des Essertes, 94140 Alfortville",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie : le site officiel dit que les bières sont brassées et embouteillées sur place, qu'un bar permet de les boire (pression et bouteilles) et qu'un point de vente à emporter existe. Le seul numéro publié est un mobile.",
+    "src": "https://lalfortvillaise.com/a-propos/",
+    "extrait": "Il s’agit d’un bar dans lequel vous pouvez boire nos bières (pression et/ou bouteilles) dans une ambiance décontractée.",
+    "beers": [
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "autre",
+      "libelle": "Pale Ale"
+     }
+    ],
+    "choix": "Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Les quatre bières de l'accueil sont English IPA, Pale Ale, K-ALE et India Pale Ale ; je garde 'ipa' et 'autre : Pale Ale', K-ALE non classé faute de type certain. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits.",
+    "contact": {
+     "tel": "07 83 42 72 00",
+     "source": "https://lalfortvillaise.com/a-propos/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://lalfortvillaise.com/a-propos/"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (paquet n° 1, index 0-based, deuxième du fichier curation/campagne/94-paquets.json) : sirene:949773584, sirene:902481951, sirene:838798692, sirene:847762812, sirene:878244250.\n\nPas d'outil Bash dans cette session ; Read, Grep, WebSearch, WebFetch seulement. WebFetch rend des résumés : toutes les lectures sont « via un résumé », les extraits sont à recontrôler sur la page. Aucun des cinq n'est déjà dans data/breweries.json.\n\n```json\n[\n  {\n    \"cle\": \"sirene:847762812\",\n    \"n\": \"L'Alfortvillaise\",\n    \"c\": \"Alfortville\",\n    \"adresse\": \"2 rue des Essertes, 94140 Alfortville\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Microbrasserie : le site officiel dit que les bières sont brassées et embouteillées sur place, qu'un bar permet de les boire (pression et bouteilles) et qu'un point de vente à emporter existe. Le seul numéro publié est un mobile.\",\n    \"src\": \"https://lalfortvillaise.com/a-propos/\",\n    \"extrait\": \"Il s’agit d’un bar dans lequel vous pouvez boire nos bières (pression et/ou bouteilles) dans une ambiance décontractée.\",\n    \"beers\": [\n      { \"type\": \"ipa\" },\n      { \"type\": \"autre\", \"libelle\": \"Pale Ale\" }\n    ],\n    \"choix\": \"Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Les quatre bières de l'accueil sont English IPA, Pale Ale, K-ALE et India Pale Ale ; je garde 'ipa' et 'autre : Pale Ale', K-ALE non classé faute de type certain. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits.\",\n    \"contact\": {\n      \"tel\": \"07 83 42 72 00\",\n      \"source\": \"https://lalfortvillaise.com/a-propos/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"mar\": [[\"11:00\", \"22:00\"]],\n        \"mer\": [[\"11:00\", \"22:00\"]],\n        \"jeu\": [[\"15:00\", \"22:00\"]],\n        \"ven\": [[\"11:00\", \"22:00\"]],\n        \"sam\": [[\"11:00\", \"22:00\"]],\n        \"source\": \"https://lalfortvillaise.com/a-propos/\"\n      }\n    ]\n  }\n]\n```\n\nLecture de L'Alfortvillaise : résumé WebFetch de lalfortvillaise.com/a-propos/, recoupé par résumé sur lalfortvillaise.com/. Pas de page Untappd trouvée, donc pas de contact.untappd. contact.site (https://lalfortvillaise.com/) est lisible mais non ajouté. La chaîne exacte de l'extrait (apostrophe typographique comprise) est à recontrôler sur la page.\n\nCandidats sans lecture :\n- BRASSERIE 3IENCHS (sirene:838798692) : existe (Saint-Maur, 2 bis rue Vassal ; Untappd https://untappd.com/3ienchs), mais rien de fiable à proposer. Lectures du site officiel contradictoires : 3ienchs.fr a rendu une fois une page avec « 06 08 35 83 66 », une autre fois des mentions légales de Roubaix avec un 08 ; 3ienchs.com a rendu seulement « Woof » ; shop.3ienchs.com a répondu 503. Aucun passage exact « bar » ou « emporter » sur le site officiel (seule la plateforme Privateaser le dit : « bouteilles à emporter », « les bières sont brassées sur place »). Horaires des annuaires divergents. À relancer, avec lecture directe du site (rubriques « Nos horaires », « Visiter la brasserie »).\n- RUPTURE BREWING COMPANY (sirene:949773584) : seule trace, une fiche SIRENE/INSEE (activité brasserie, adresse déclarée à Paris 4e rue Quincampoix, mai 2025). Ni site, ni Untappd, ni office de tourisme. Registre seul insuffisant. Non établie.\n- BRASSERIE DE LA VANNE (sirene:902481951) : deux recherches (nom + Cachan, nom + bière) sans aucune page sur cet établissement. Introuvable.\n- BRASSERIE DE SUCY (sirene:878244250) : seul un profil d'entreprise Xerfi (SAS 2019, NAF 11.05Z, rue Benjamin Franklin). Ni site, ni Untappd, ni office. Registre seul insuffisant. Non établie.\n\nQuestions à choix :\n1. 3ienchs : (a) relancer une lecture directe plus tard ; (b) fiche catégorie 1, confiance faible, sur la seule base de la page Untappd et de Privateaser (pas de passage exact du site officiel) ; (c) laisser de côté."
+ },
+ "93-0": {
+  "lus": [],
+  "rapport": "Clés du paquet 0 (lues dans /home/user/Brewery-map/curation/campagne/93-paquets.json) : sirene:798950952 (Brasserie La Parisienne, Pantin), sirene:820574275 (Triple I, Aubervilliers), sirene:751467457 (Brasserie de la Goutte d'Or, Aubervilliers), sirene:898065891 (MSD, Bobigny), sirene:109482752 (Le Goût de la Boissière, Montreuil).\n\n```json\n[]\n```\n\nAucune lecture n'est proposée : pour aucun des cinq je n'ai de page d'une seule source qui établisse la brasserie et ce qu'on peut y faire. Aucune des deux brasseries qui existent n'a de page officielle lisible. Aucun des cinq n'est déjà une fiche : `data/breweries.json` ne contient aucune commune du 93 parmi Pantin, Aubervilliers, Bobigny ou Montreuil (seuls Montreuil-sur-Ille et Montreuil-Bellay sortent, ce sont d'autres communes). Je n'ai fait que des recherches web (résumés de la recherche) et des tentatives d'ouverture directe de pages. Aucune lecture n'est donc directe.\n\n- **sirene:798950952, Brasserie La Parisienne, Pantin** : la brasserie existe, mais je ne l'ai établie que par des annuaires et de la presse. Les résumés de recherche la disent installée au 29 rue Cartier-Bresson à Pantin depuis 2016, fondée en 2014, avec une gamme de bières artisanales. 118712 donnerait « mercredi à vendredi 15h-18h », sans que rien indique une vente ou une dégustation sur place. Je n'ai pas pu ouvrir le site officiel : laparisienne.fr répond 503. Aucune page Untappd n'a pu être trouvée (la recherche Untappd rend une page vide). La page du Conseil régional (iledefrance.fr) répond 403. Un annuaire, de la presse et un résumé ne suffisent pas, et je ne sais pas si on peut y acheter ou boire. À relancer : réessayer laparisienne.fr quand il sera de nouveau en ligne, puis Untappd.\n- **sirene:751467457, Brasserie de la Goutte d'Or, Aubervilliers** : la brasserie existe. Les sources citées (Lonely Planet, beermenus, sortiraparis, privateaser) la placent au 28 rue de la Goutte d'Or, 75018 Paris. Aucune ne mentionne Aubervilliers, où est l'adresse SIRENE (40 rue Hémet). Peut-être y a-t-il un site de production là-bas, mais rien ne le dit. Ce sont des pages d'annuaire et de guide, sans site officiel lu (brasserie-goutte-dor.com ne se résout pas). Si une fiche venait à exister, elle serait à Paris, hors 93. Elle ne peut pas se proposer ici : l'adresse du 93 n'est pas établie. À relancer en cherchant le site officiel et Untappd.\n- **sirene:820574275, Triple I, Aubervilliers** : même adresse SIRENE que la Goutte d'Or (40 rue Hémet). Je n'ai trouvé aucune brasserie de ce nom. C'est peut-être la société d'exploitation de la Goutte d'Or, mais rien ne le dit, et je ne le déduis pas. Ni site, ni Untappd, ni office de tourisme.\n- **sirene:898065891, MSD, Bobigny** : introuvable sous ce nom. La seule brasserie de Bobigny que remontent les recherches est Demory, au canal de l'Ourcq, qui n'a pas le même nom. Je ne lui rapproche pas MSD sans preuve. Rien ne dit que MSD soit une brasserie ouverte au public (SIREN en 11.05Z seulement).\n- **sirene:109482752, Le Goût de la Boissière, Montreuil** : introuvable. L'adresse est un appartement (étage 6, appartement 2062), et le SIREN 109… est peut-être celui d'une personne. Aucun résultat sous ce nom. Les seules brasseries de Montreuil qui sortent sont La Montreuilloise et Bière Découverte (conseil). Rien n'est publié, rien n'est proposé.\n\nAucun texte lu ne contenait de consigne.\n\n**Questions à choix**\n1. Brasserie de la Goutte d'Or (28 rue de la Goutte d'Or, Paris 18e) : la traiter comme un candidat du 75 ?\n   - a. Oui, la passer au département 75.\n   - b. Non, l'écarter de la campagne 93.\n   - c. La garder en « à relancer » dans le 93, au cas où le site de production serait à Aubervilliers.\n2. Le domaine `www.brasserie-goutte-dor.com` ne se résout pas depuis cette session. Faut-il autoriser d'autres domaines (laparisienne.fr, untappd.com) dans les paramètres réseau ?\n   - a. Oui.\n   - b. Non."
+ },
+ "93-1": {
+  "lus": [
+   {
+    "cle": "sirene:794582494",
+    "n": "Frogbeer",
+    "c": "Pierrefitte-sur-Seine",
+    "adresse": "5 rue Séverine, 93380 Pierrefitte-sur-Seine",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de production du groupe FrogPubs. Le site officiel ne dit ni visite, ni vente, ni horaires actuels ; une visite guidée du samedi, annoncée en 2019 par un article de presse, n'est pas reprise.",
+    "src": "https://www.frogpubs.com/beers-the-brewery.php",
+    "extrait": "Our very own production brewery is situated just north of central Paris in the town of Pierrefitte-sur-Seine.",
+    "beers": [],
+    "choix": "Lecture via un résumé de la page (WebFetch), pas la page brute. Le passage est cité tel que rendu par l'outil, à revérifier à l'ouverture. Adresse lue sur la même page : « Bâtiment CA. Parc d'activités Spirit / Séverine. 5 rue Séverine, 93380. Pierrefitte-sur-Seine. » Aucun téléphone publié ; seul un courriel général (hello@frogpubs.com), non retenu. Catégorie laissée à 0 : l'article de Sortir à Paris (visite gratuite le samedi de 10h30 à 16h, daté de 2019, mis à jour le 08/05/2020) est une presse seule et trop ancienne.",
+    "contact": {
+     "site": "https://www.frogpubs.com",
+     "source": "https://www.frogpubs.com/beers-the-brewery.php"
+    }
+   }
+  ],
+  "rapport": "Clés du paquet 1 (lot dep-93) : sirene:892717950 (BRASSERIE MIR), sirene:799884630 (LA MONTREUILLOISE), sirene:802521906 (UMA), sirene:794582494 (FROGBEER), sirene:518903695 (DPBC).\n\nUne seule lecture sur cinq, pour FrogBeer. Aucune des cinq n'est déjà dans data/breweries.json (noms et Romainville cherchés, sans résultat). Le réseau de la session est restreint : la-montreuilloise.com et panamebrewing.com ne se résolvent pas, donc ces deux hôtes doivent être autorisés dans les paramètres réseau. Aucune page Untappd ni d'office de tourisme n'a été lue.\n\n```json\n[\n  {\n    \"cle\": \"sirene:794582494\",\n    \"n\": \"Frogbeer\",\n    \"c\": \"Pierrefitte-sur-Seine\",\n    \"adresse\": \"5 rue Séverine, 93380 Pierrefitte-sur-Seine\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Brasserie de production du groupe FrogPubs. Le site officiel ne dit ni visite, ni vente, ni horaires actuels ; une visite guidée du samedi, annoncée en 2019 par un article de presse, n'est pas reprise.\",\n    \"src\": \"https://www.frogpubs.com/beers-the-brewery.php\",\n    \"extrait\": \"Our very own production brewery is situated just north of central Paris in the town of Pierrefitte-sur-Seine.\",\n    \"beers\": [],\n    \"choix\": \"Lecture via un résumé de la page (WebFetch), pas la page brute. Le passage est cité tel que rendu par l'outil, à revérifier à l'ouverture. Adresse lue sur la même page : « Bâtiment CA. Parc d'activités Spirit / Séverine. 5 rue Séverine, 93380. Pierrefitte-sur-Seine. » Aucun téléphone publié ; seul un courriel général (hello@frogpubs.com), non retenu. Catégorie laissée à 0 : l'article de Sortir à Paris (visite gratuite le samedi de 10h30 à 16h, daté de 2019, mis à jour le 08/05/2020) est une presse seule et trop ancienne.\",\n    \"contact\": { \"site\": \"https://www.frogpubs.com\", \"source\": \"https://www.frogpubs.com/beers-the-brewery.php\" }\n  }\n]\n```\n\nSans lecture :\n- sirene:892717950, BRASSERIE MIR (Romainville) : seule trace, une annonce sur outgoing.world (agrégateur) qui parle de microbrasserie et de taproom avec concerts et food trucks le vendredi et le samedi. La page répond 403 à la lecture directe. Ni site officiel ni Untappd trouvés, et l'adresse du boulevard Émile Genevoix n'est confirmée nulle part. L'existence n'est donc pas établie.\n- sirene:799884630, LA MONTREUILLOISE (Montreuil) : l'existence est attestée par la presse (Reporterre, consoGlobe) et une campagne de financement participatif. Le site officiel la-montreuilloise.com n'est pas joignable depuis la session : à relancer une fois l'hôte autorisé. Les sources citent le 97 rue Pierre de Montreuil, avec une menace d'expulsion en 2020, alors que SIRENE donne 69 rue François Arago. L'adresse actuelle et l'état d'activité sont contradictoires et non lus.\n- sirene:802521906, UMA (Bobigny) : aucun résultat sous ce nom. Une recherche sur l'adresse renvoie la brasserie Demory-Paris, 1 rue de Paris à Bobigny, d'après un annuaire. C'est peut-être une autre structure à la même adresse, et rien ne relie « UMA » à une brasserie. À ne pas fusionner sans preuve.\n- sirene:518903695, DPBC (Saint-Denis) : l'adresse 137 avenue du Président Wilson correspond à Paname Brewing Company Saint-Denis. Privateaser dit « brassées sur place » et mentionne un bar à bière, avec un happy hour du mardi au samedi de 17h à 20h, mais c'est un agrégateur d'événements seul (lu via un résumé). Le site officiel n'est pas joignable (panamebrewing.com ne se résout pas) : à relancer une fois autorisé. Le lien entre « DPBC » et Paname est une hypothèse, rien ne l'écrit. Ce serait un bar qui brasse (catégorie 1, confiance faible) une fois le site lu. Les horaires de réservation de Privateaser ne sont pas des horaires d'ouverture.\n\nQuestions à choix :\n1. Autoriser la-montreuilloise.com et panamebrewing.com dans le réseau de la session, pour relancer La Montreuilloise et DPBC ? (a) oui, les deux ; (b) oui, un seul ; (c) non.\n\nAucune instruction trouvée dans les pages lues."
+ },
+ "92-3": {
+  "lus": [
+   {
+    "cle": "way/1024690864",
+    "n": "Brasserie Nemeto",
+    "c": "Nanterre",
+    "adresse": "4 rue Silvy, 92000 Nanterre",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie et biscuiterie bio. Bières et biscuits en vente à emporter à la brasserie du lundi au vendredi, et le 1er samedi du mois, avec une visite gratuite à 15h30 ces samedis-là (sauf en décembre). Pas de livraison aux particuliers.",
+    "src": "https://www.brasserienemeto.fr/boutique",
+    "extrait": "Toute nos bières et nos biscuits sont disponibles à la brasserie en vente à emporter.",
+    "beers": [],
+    "choix": "Catégorie 2 et non 1 : le site parle de dégustation seulement dans le cadre des visites (« Vous aurez également l'occasion de déguster nos bières directement à la source », page Nos services), et aucune page ne montre un lieu où l'on boit sans visite. Téléphone : un seul numéro publié, sur la page contact. Untappd : https://untappd.com/brasserienemeto est cité sur la page d'accueil (« Retrouvez aussi nos bières sur Untappd ») et la page s'ouvre (brasserie revendiquée, 28 bières) ; je ne le mets pas dans `contact` parce que la source du contact (page contact) n'a pas été vue le portant. Il est à ajouter si Cédric l'accepte (source : la page d'accueil). Bières laissées vides : le site liste Geneviève (blonde, pale ale), La Grange (blanche, hefeweizen), Bois Joly (ambrée au miel), La Folie (ambrée, IPA), Boulevard du Couchant (brune, brown porter) et Trigoujat (blonde belge, saison). Je n'ai pas rempli le champ `beers`, dont l'énumération des types n'a pas été vérifiée. Samedi : le 1er samedi du mois seulement, 10h30-13h et 15h30-19h. Un créneau hebdomadaire ne sait pas le dire, donc il est dans `remarque`. La fiche SIRENE `sirene:850026246` (BRASSERIE 02 SEINE, 4 rue Silvy, Nanterre) est très probablement la même entité, dans un autre paquet : à dédoubler.",
+    "contact": {
+     "tel": "01 46 95 44 25",
+     "site": "https://www.brasserienemeto.fr/",
+     "source": "https://www.brasserienemeto.fr/contact-5"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Ouvert aussi le 1er samedi de chaque mois, de 10h30 à 13h et de 15h30 à 19h ; visite gratuite d'une heure à 15h30 ces samedis-là (sauf en décembre).",
+      "source": "https://www.brasserienemeto.fr/boutique"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 3) : `node/6409925921` (Get Your Drinks, Malakoff) et `way/1024690864` (Nemeto, Nanterre). Aucune des deux n'est déjà dans `data/breweries.json` (recherche sur Nemeto, Get Your Drinks et Malakoff : rien).\n\n```json\n[\n  {\n    \"cle\": \"way/1024690864\",\n    \"n\": \"Brasserie Nemeto\",\n    \"c\": \"Nanterre\",\n    \"adresse\": \"4 rue Silvy, 92000 Nanterre\",\n    \"cat\": 2,\n    \"conf\": \"solide\",\n    \"note\": \"Brasserie et biscuiterie bio. Bières et biscuits en vente à emporter à la brasserie du lundi au vendredi, et le 1er samedi du mois, avec une visite gratuite à 15h30 ces samedis-là (sauf en décembre). Pas de livraison aux particuliers.\",\n    \"src\": \"https://www.brasserienemeto.fr/boutique\",\n    \"extrait\": \"Toute nos bières et nos biscuits sont disponibles à la brasserie en vente à emporter.\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 2 et non 1 : le site parle de dégustation seulement dans le cadre des visites (« Vous aurez également l'occasion de déguster nos bières directement à la source », page Nos services), et aucune page ne montre un lieu où l'on boit sans visite. Téléphone : un seul numéro publié, sur la page contact. Untappd : https://untappd.com/brasserienemeto est cité sur la page d'accueil (« Retrouvez aussi nos bières sur Untappd ») et la page s'ouvre (brasserie revendiquée, 28 bières) ; je ne le mets pas dans `contact` parce que la source du contact (page contact) n'a pas été vue le portant. Il est à ajouter si Cédric l'accepte (source : la page d'accueil). Bières laissées vides : le site liste Geneviève (blonde, pale ale), La Grange (blanche, hefeweizen), Bois Joly (ambrée au miel), La Folie (ambrée, IPA), Boulevard du Couchant (brune, brown porter) et Trigoujat (blonde belge, saison). Je n'ai pas rempli le champ `beers`, dont l'énumération des types n'a pas été vérifiée. Samedi : le 1er samedi du mois seulement, 10h30-13h et 15h30-19h. Un créneau hebdomadaire ne sait pas le dire, donc il est dans `remarque`. La fiche SIRENE `sirene:850026246` (BRASSERIE 02 SEINE, 4 rue Silvy, Nanterre) est très probablement la même entité, dans un autre paquet : à dédoubler.\",\n    \"contact\": {\n      \"tel\": \"01 46 95 44 25\",\n      \"site\": \"https://www.brasserienemeto.fr/\",\n      \"source\": \"https://www.brasserienemeto.fr/contact-5\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"lun\": [[\"10:00\", \"18:00\"]],\n        \"mar\": [[\"10:00\", \"18:00\"]],\n        \"mer\": [[\"10:00\", \"18:00\"]],\n        \"jeu\": [[\"10:00\", \"18:00\"]],\n        \"ven\": [[\"10:00\", \"18:00\"]],\n        \"remarque\": \"Ouvert aussi le 1er samedi de chaque mois, de 10h30 à 13h et de 15h30 à 19h ; visite gratuite d'une heure à 15h30 ces samedis-là (sauf en décembre).\",\n        \"source\": \"https://www.brasserienemeto.fr/boutique\"\n      }\n    ]\n  }\n]\n```\n\nLecture de Nemeto : toutes les pages du site (accueil, contact-5, boutique, lieux-de-vente, visites-et-événements) et la page Untappd ont été lues via un résumé de l'outil de lecture, pas directement. Les passages cités sont ceux que ce résumé a rendus entre guillemets. Les pages boutique et lieux-de-vente portent la même phrase de vente à emporter, avec une orthographe un peu différente : « Toute nos bières… » sur boutique, « Toutes nos bières et tous nos biscuits… » sur lieux-de-vente. J'ai pris celle de boutique, que le résumé a rendue mot pour mot ; elle est à recontrôler sur la page avant application. Lundi-vendredi 10h-18h : « Nous sommes ouverts du lundi au vendredi de 10H à 18H ». Le téléphone « 01 46 95 44 25 » est sur la page contact. Sur cette page, les horaires du samedi (10h-19h) diffèrent de ceux de la page boutique (10h30-13h et 15h30-19h) : je n'ai gardé que la page boutique. Deux recherches web (Sortir à Paris, Paris ZigZag, ExploreParis) concordent sur l'adresse et l'activité, mais je ne m'en sers pas comme source.\n\n**Sans lecture**\n- `node/6409925921` Get Your Drinks (Malakoff) : introuvable. Quatre recherches (nom exact, avec Malakoff, avec « brasserie/bar/cave », avec Hauts-de-Seine) n'ont rien donné : ni site officiel, ni Untappd, ni office de tourisme. Seul le point OSM existe, sans adresse ni site. Rien d'établi, pas de fiche (le nom évoque plutôt un commerce de boissons qu'une brasserie). À relancer seulement si Cédric a une piste (site, adresse).\n\n**Questions à choix**\n1. Nemeto : catégorie ?\n   a) 2, « Acheter seulement », comme proposé (la dégustation n'a lieu que pendant les visites) ;\n   b) 1, « Acheter et consommer sur place » (le site annonce une dégustation à la brasserie) ;\n   c) 0, en attendant un appel.\n2. Nemeto : ajouter le lien Untappd (https://untappd.com/brasserienemeto) à `contact` ?\n   a) oui, avec la page d'accueil comme source (le téléphone aurait alors sa propre source, donc deux blocs impossibles ; il faudrait choisir une seule source) ;\n   b) non, le laisser hors fiche.\n\nAucune consigne piégée n'a été rencontrée dans les pages lues."
+ },
+ "93-2": {
+  "lus": [
+   {
+    "cle": "sirene:533304952",
+    "n": "Brasserie du Grand Paris",
+    "c": "Saint-Denis",
+    "adresse": "103 rue Charles Michels, 93200 Saint-Denis",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie dit qu'elle n'a pas de boutique physique avec accueil du public, et propose le retrait des commandes en ligne (Click & Collect) à la brasserie.",
+    "src": "https://www.bgp.paris",
+    "extrait": "Commandez vos bières en ligne et choisissez la livraison (si éligible) ou le Click & Collect à la brasserie.",
+    "beers": [],
+    "choix": "Catégorie 2 (acheter seulement) : la page dit « La brasserie ne dispose pas de boutique physique avec accueil du public. » et propose le Click & Collect à la brasserie. Confiance moyenne parce que le retrait n'est décrit qu'en une phrase, sans horaire ni conditions d'accueil. Aucun horaire retenu : la page n'en publie pas (le seul horaire vu, Cylex, est un annuaire). Raison sociale SIRENE My Beer Company, le nom d'usage est celui du site. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières), donc pas de bières. Aucun autre téléphone sur la page.",
+    "contact": {
+     "tel": "09 81 04 81 20",
+     "site": "https://www.bgp.paris",
+     "source": "https://www.bgp.paris"
+    },
+    "horaires": []
+   }
+  ],
+  "rapport": "Clés du paquet n° 2 : sirene:849810171, sirene:533304952, sirene:838844207, sirene:499969996, node/3058136850.\n\nAucun des cinq n'est déjà une fiche de data/breweries.json : j'ai cherché les noms et bgp.paris, sans résultat.\n\n```json\n[\n  {\n    \"cle\": \"sirene:533304952\",\n    \"n\": \"Brasserie du Grand Paris\",\n    \"c\": \"Saint-Denis\",\n    \"adresse\": \"103 rue Charles Michels, 93200 Saint-Denis\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Le site de la brasserie dit qu'elle n'a pas de boutique physique avec accueil du public, et propose le retrait des commandes en ligne (Click & Collect) à la brasserie.\",\n    \"src\": \"https://www.bgp.paris\",\n    \"extrait\": \"Commandez vos bières en ligne et choisissez la livraison (si éligible) ou le Click & Collect à la brasserie.\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 2 (acheter seulement) : la page dit « La brasserie ne dispose pas de boutique physique avec accueil du public. » et propose le Click & Collect à la brasserie. Confiance moyenne parce que le retrait n'est décrit qu'en une phrase, sans horaire ni conditions d'accueil. Aucun horaire retenu : la page n'en publie pas (le seul horaire vu, Cylex, est un annuaire). Raison sociale SIRENE My Beer Company, le nom d'usage est celui du site. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières), donc pas de bières. Aucun autre téléphone sur la page.\",\n    \"contact\": { \"tel\": \"09 81 04 81 20\", \"site\": \"https://www.bgp.paris\", \"source\": \"https://www.bgp.paris\" },\n    \"horaires\": []\n  }\n]\n```\n\nMode de lecture : toutes les pages ont été lues « via un résumé » (l'outil de lecture n'a pas rendu la page brute). Les citations de bgp.paris ont été redemandées mot pour mot sur la même page, mais je ne peux pas garantir qu'elles sont recopiées sans écart ; Cédric devrait les vérifier. Pour le téléphone, la page affiche seulement la ligne « Téléphone : 09 81 04 81 20 », sans phrase autour.\n\nSans lecture :\n- Brasserie La Française (sirene:849810171, 23 rue de la Passerelle, Noisy-le-Grand) : rien n'est établi. Aucun site officiel, aucun Untappd, aucun office de tourisme trouvés. Seulement des annuaires (xerfi, rubypayeur, mescommerces) et Schlouk Map (annuaire communautaire : « Brasserie artisanale » et « Bar à bière », horaires jeudi à samedi invérifiables). Rien n'est proposé.\n- Brasserie Croix de Chavaux (sirene:838844207, 8 rue Désiré Charton, Montreuil) : elle semble exister (brewpub, sept bières permanentes, pinte à 5 €, concerts), mais les seules sources sont des agrégateurs (Privateaser, Gault&Millau, Petit Futé, Cylex, Mapstr). Aucun site officiel, aucun Untappd. Les horaires se contredisent (Privateaser : lundi à mercredi 16 h à 21 h ; Cylex : lundi à jeudi 16 h à 23 h). Un annuaire seul ne suffit pas, donc rien n'est proposé. Probablement catégorie 1 si un site officiel ou un office de tourisme le confirme.\n- Galopin (sirene:499969996, 192 rue Étienne Marcel, Bagnolet) : seul Funbooker, plateforme d'ateliers de brassage, en parle (atelier de 2 h 30, 55 € par personne). Aucun site officiel, aucune vente ni consommation sur place établie, aucun Untappd. Rien n'est proposé. À ne pas confondre avec la brasserie Gallopin de Paris.\n- Le Relais Parisien (node/3058136850, Aulnay-sous-Bois, sans adresse) : deux recherches, aucune trace de ce nom comme brasserie. Les résultats ne portent que sur des restaurants et salles d'événement, dont un « Relais du Parisis » à Villeparisis. Ni site, ni Untappd. Introuvable, rien n'est proposé.\n\nRien n'est « à relancer » : aucun quota ni panne n'a joué. Seuls les sites officiels de La Française, Croix de Chavaux et Galopin restent introuvables.\n\nQuestions à choix\n1. Brasserie du Grand Paris : la phrase « pas de boutique physique avec accueil du public », avec le Click & Collect à la brasserie, doit-elle se classer (a) catégorie 2, confiance moyenne, comme proposé ; (b) catégorie 3, pas de vente ; (c) catégorie 0, à confirmer ?"
+ },
+ "92-0": {
+  "lus": [
+   {
+    "cle": "sirene:851679415",
+    "n": "Suresnes Beer Factory",
+    "c": "Suresnes",
+    "adresse": "rue Kellogg, 92150 Suresnes",
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie associative (Les Brasseurs du Théâtre), brassée à Suresnes. La bière se vend à l'office de tourisme, pas sur place ; des visites avec dégustation sont proposées par réservation sur une plateforme. Ni site officiel, ni horaires, ni téléphone publiés par la brasserie : à confirmer.",
+    "src": "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
+    "extrait": "The beer is available to buy from Suresnes Tourist Office",
+    "beers": [],
+    "choix": "Existence établie par une seule page d'office de tourisme (confiance au plus moyenne), recoupée par une annonce Airbnb tenue par un membre de l'association (https://www.airbnb.com/experiences/4688554 : « Discover the entire brewing process and enjoy a tasting of our current beers », « Purchase your favorite brews »), qui n'est pas une source officielle. Catégorie laissée à 0 : l'office dit qu'on achète la bière chez lui, pas à la brasserie, et la visite passe par une réservation Airbnb. Catégorie 1 non retenue faute de source de la brasserie. Adresse sans numéro, telle que sur la page (SIRENE donne 29 rue Kellogg ou 3 allée William Penn, non retenu). Téléphone non repris : le seul numéro de la page (01 42 04 41 47) est celui de l'office. Pas de site officiel trouvé ; Facebook et Instagram sont cités par l'office, non ouverts. Pas d'Untappd trouvé. Pages lues par la lecture directe de WebFetch (extraits rendus par un modèle intermédiaire, donc l'extrait est à recontrôler sur la page française de l'office, la page lue étant la version anglaise)."
+   }
+  ],
+  "rapport": "Clés du paquet 0 : sirene:414842062, sirene:821920477, sirene:953013976, sirene:382581551, sirene:851679415. Aucune n'est déjà dans data/breweries.json (recherche sur Heineken, Montmorillon, Homing, Krone, Suresnes, Beer Factory : rien).\n\n```json\n[\n  {\n    \"cle\": \"sirene:851679415\",\n    \"n\": \"Suresnes Beer Factory\",\n    \"c\": \"Suresnes\",\n    \"adresse\": \"rue Kellogg, 92150 Suresnes\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Micro-brasserie associative (Les Brasseurs du Théâtre), brassée à Suresnes. La bière se vend à l'office de tourisme, pas sur place ; des visites avec dégustation sont proposées par réservation sur une plateforme. Ni site officiel, ni horaires, ni téléphone publiés par la brasserie : à confirmer.\",\n    \"src\": \"https://en.suresnes-tourisme.com/local-producers-suresnes.html\",\n    \"extrait\": \"The beer is available to buy from Suresnes Tourist Office\",\n    \"beers\": [],\n    \"choix\": \"Existence établie par une seule page d'office de tourisme (confiance au plus moyenne), recoupée par une annonce Airbnb tenue par un membre de l'association (https://www.airbnb.com/experiences/4688554 : « Discover the entire brewing process and enjoy a tasting of our current beers », « Purchase your favorite brews »), qui n'est pas une source officielle. Catégorie laissée à 0 : l'office dit qu'on achète la bière chez lui, pas à la brasserie, et la visite passe par une réservation Airbnb. Catégorie 1 non retenue faute de source de la brasserie. Adresse sans numéro, telle que sur la page (SIRENE donne 29 rue Kellogg ou 3 allée William Penn, non retenu). Téléphone non repris : le seul numéro de la page (01 42 04 41 47) est celui de l'office. Pas de site officiel trouvé ; Facebook et Instagram sont cités par l'office, non ouverts. Pas d'Untappd trouvé. Pages lues par la lecture directe de WebFetch (extraits rendus par un modèle intermédiaire, donc l'extrait est à recontrôler sur la page française de l'office, la page lue étant la version anglaise).\"\n  }\n]\n```\n\nMode de lecture : les pages ont été lues par WebFetch, donc via un résumé et non en brut. Le passage cité est celui que l'outil a rendu ; Cédric peut le recontrôler sur la page.\n\nSans lecture :\n- sirene:414842062 HEINEKEN ENTREPRISE (Rueil-Malmaison) : siège social et fonctions support de Heineken France ; la production est à Mons-en-Barœul, Schiltigheim, Marseille et Sucy-en-Brie. Rien ne dit qu'on y boit ou achète de la bière. Pas une brasserie ouverte au public à cette adresse. Écartée. Sources ouvertes : recherche web (Xerfi, offres d'emploi, Réseau Alliances), aucune page officielle de visite.\n- sirene:821920477 LES BIERES DE MONTMORILLON (Clichy) : la brasserie réelle est à Montmorillon (Vienne, 86), site bieresdemontmorillon.fr, page Untappd « Montmorillon ». L'adresse de Clichy est un siège ou un bureau, sans lien trouvé avec une brasserie ni un lieu de vente. Hors département 92, écartée. Deux recherches faites.\n- sirene:953013976 HOMING BIRDS (Villeneuve-la-Garenne) : SIRENE, Pappers et annuaire-entreprises la donnent active, fabrication de bière (11.05Z), établissement ouvert le 01/11/2024 ; une page Untappd de bière (La Boussa, saison) mène à https://untappd.com/w/homing-birds/551822 ; la page Facebook n'est pas lisible (connexion demandée) ; la mairie évoque un food truck le 17/04/2026. Pas de site officiel trouvé. Les registres, Untappd et Facebook ne disent pas ce qu'on peut y faire ni si l'accueil est public. Annuaire et réseau social seuls ne suffisent pas : rien proposé. À relancer si un site officiel apparaît (la page Untappd de la brasserie n'a pas été lue elle-même, seulement une page de bière).\n- sirene:382581551 KRONE AG (Levallois-Perret) : société étrangère non immatriculée au RCS, code 11.05Z, dont les seuls établissements trouvés dans SIRENE sont fermés (1992, Maule et Poissy) ; l'adresse de Levallois est une domiciliation chez une personne. Aucune brasserie ni lieu de vente trouvé. Écartée (aucun nom de personne repris).\n\nQuestions à choix :\n1. Suresnes Beer Factory : la fiche est-elle créée en catégorie 0 (proposition ci-dessus) ou attend-on un site officiel ou un Untappd ?\n   a. Créer en 0 (office de tourisme seul, annonce Airbnb en appui).\n   b. Ne rien créer tant qu'aucune source de la brasserie n'existe.\n   c. Créer en 1, confiance faible, d'après l'annonce Airbnb (achat et dégustation sur place, sur réservation)."
+ },
+ "75-1": {
+  "lus": [
+   {
+    "cle": "sirene:751467457",
+    "n": "Brasserie de la Goutte d'Or",
+    "c": "Paris",
+    "adresse": "28 rue de la Goutte d'Or, 75018 Paris",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie de 2012 dont le Tap Room, ouvert du mercredi au samedi, vend bouteilles et pression sur place ou à emporter (site officiel).",
+    "src": "https://brasserielagouttedor.com",
+    "extrait": "Bouteilles et pression sur place ou à emporter",
+    "beers": [],
+    "choix": "Le téléphone est un mobile (06 24 37 05 23) : c'est le seul numéro que le site officiel publie, donc retenu (règle du 21/10). Un 06 est aussi dans le champ site de la page ; aucun fixe n'est publié. Horaires : le site écrit « Ouverture Tap Room : 17h - 23h ... voir plus si soirée spéciale » et « du mercredi au samedi », sur deux lignes séparées par une ellipse ; je les assemble en mer à sam 17:00-23:00 et le dis dans la remarque. D'autres pages (Privateaser, Sortiraparis 2012) donnent des horaires différents (mercredi à dimanche, 17h-23h) : écartées, ce sont des pages tierces ou anciennes. Bières : le site ne donne que des noms (Myrha, Poulpe Fiction, Ernestine, La Chapelle, Petite Pigalle), pas de types ; beers laissé vide. Untappd : le site ne le mentionne pas. Je n'ai trouvé que des pages de bières (untappd.com/b/…) et pas de page de brasserie, donc aucun lien Untappd proposé.",
+    "contact": {
+     "tel": "06 24 37 05 23",
+     "site": "https://brasserielagouttedor.com",
+     "source": "https://brasserielagouttedor.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Plus tard certains soirs : « voir plus si soirée spéciale ».",
+      "source": "https://brasserielagouttedor.com"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 1) : sirene:834222325 (Les Nouveaux Brasseurs), sirene:851710707 (Black Brewery), sirene:751467457 (Brasserie de la Goutte d'Or), sirene:898065891 (MSD), sirene:953013976 (Homing Birds). Aucun des cinq n'est dans `data/breweries.json`. Je n'avais pas d'outil de shell, donc rien n'a été écrit sur disque.\n\nUne seule lecture est établie : la Brasserie de la Goutte d'Or. Lecture via un résumé : `WebFetch` résume la page et ne la rend pas brute. J'ai refait une passe en demandant les lignes mot pour mot. L'extrait ci-dessous est la phrase que le résumé a citée entre guillemets.\n\n```json\n[\n  {\n    \"cle\": \"sirene:751467457\",\n    \"n\": \"Brasserie de la Goutte d'Or\",\n    \"c\": \"Paris\",\n    \"adresse\": \"28 rue de la Goutte d'Or, 75018 Paris\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Brasserie de 2012 dont le Tap Room, ouvert du mercredi au samedi, vend bouteilles et pression sur place ou à emporter (site officiel).\",\n    \"src\": \"https://brasserielagouttedor.com\",\n    \"extrait\": \"Bouteilles et pression sur place ou à emporter\",\n    \"beers\": [],\n    \"choix\": \"Le téléphone est un mobile (06 24 37 05 23) : c'est le seul numéro que le site officiel publie, donc retenu (règle du 21/10). Un 06 est aussi dans le champ site de la page ; aucun fixe n'est publié. Horaires : le site écrit « Ouverture Tap Room : 17h - 23h ... voir plus si soirée spéciale » et « du mercredi au samedi », sur deux lignes séparées par une ellipse ; je les assemble en mer à sam 17:00-23:00 et le dis dans la remarque. D'autres pages (Privateaser, Sortiraparis 2012) donnent des horaires différents (mercredi à dimanche, 17h-23h) : écartées, ce sont des pages tierces ou anciennes. Bières : le site ne donne que des noms (Myrha, Poulpe Fiction, Ernestine, La Chapelle, Petite Pigalle), pas de types ; beers laissé vide. Untappd : le site ne le mentionne pas. Je n'ai trouvé que des pages de bières (untappd.com/b/…) et pas de page de brasserie, donc aucun lien Untappd proposé.\",\n    \"contact\": {\n      \"tel\": \"06 24 37 05 23\",\n      \"site\": \"https://brasserielagouttedor.com\",\n      \"source\": \"https://brasserielagouttedor.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"mer\": [[\"17:00\", \"23:00\"]],\n        \"jeu\": [[\"17:00\", \"23:00\"]],\n        \"ven\": [[\"17:00\", \"23:00\"]],\n        \"sam\": [[\"17:00\", \"23:00\"]],\n        \"remarque\": \"Plus tard certains soirs : « voir plus si soirée spéciale ».\",\n        \"source\": \"https://brasserielagouttedor.com\"\n      }\n    ]\n  }\n]\n```\n\nPistes de recoupement, non utilisées comme source : Sortiraparis (28 rue de la Goutte d'Or, ouverte en octobre 2012), Time Out, Untapped Cities, Lonely Planet.\n\n**Sans lecture**\n- **sirene:834222325, Les Nouveaux Brasseurs** : deux recherches n'ont trouvé aucune brasserie de ce nom. L'adresse (6-10 rue Guillaume Bertrand, 75011) est celle de La Beer Fabrique, déjà fiche de `data/`, un atelier où l'on brasse soi-même. Probablement la société ou la même adresse que cette fiche ; pas de site propre. Non établi comme brasserie distincte.\n- **sirene:851710707, Black Brewery** : deux recherches (rue Ampère 17e, boulevard Richard Lenoir 11e) n'ont rien donné. Aucun site, aucun Untappd, aucun office. Introuvable.\n- **sirene:898065891, MSD** : deux recherches (8 rue de Belleville, 20e) n'ont rien donné. Le sigle ne permet pas de nom exploitable, et les résultats parlent d'autres brasseries (Les Bières de Belleville, Balthazar). Introuvable.\n- **sirene:953013976, Homing Birds** : deux recherches (366 ter rue de Vaugirard, 15e) n'ont rien donné. Introuvable.\n\nAucune de ces quatre causes n'est passagère (pas de quota ni de page en panne) : pas besoin de « à relancer », sauf si Cédric a un nom d'usage ou un site à donner.\n\nUn point passager : `brasserielagouttedor.com` a répondu 503 une fois avec le préfixe `www.`, et 200 sans `www.`. Les liens ci-dessus utilisent la forme sans `www.`.\n\n**Questions à choix**\n1. Le téléphone de la Goutte d'Or est un mobile seul publié. Le garder (règle du 21/10) ? Options : (a) oui ; (b) non, sans téléphone."
+ },
+ "75-0": {
+  "lus": [
+   {
+    "cle": "sirene:805054137",
+    "n": "Brasserie de l'Être",
+    "c": "Paris",
+    "adresse": "7 ter rue Duvergier, 75019 Paris",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio parisienne ; son site officiel ne décrit ni boutique ni bar ouverts au public, seulement une boutique en ligne et l'accueil de groupes d'entreprises. Un nouveau lieu de production et de dégustation rue Armand Carrel est annoncé, sans date.",
+    "src": "https://brasseriedeletre.paris/",
+    "extrait": "Nos bières sont disponibles en fûts de 30L et en bouteilles de 33cl et 75cL.",
+    "beers": [],
+    "choix": "Catégorie 0 : le site ne dit ni vente sur place ni dégustation ouverte à tous. L'annuaire Tablejourney donne des horaires lundi-vendredi 9 h-17 h et Schlouk Map une boutique « Ah! La Pompe à Bière » au même numéro de rue ; ce sont des annuaires seuls, je n'en retiens rien. Un seul numéro est publié par la brasserie sur sa page de contact (01 40 16 56 62) ; les autres numéros vus sur des annuaires et forums sont écartés. Pas de lien Untappd sur le site, aucune page Untappd trouvée pour cette brasserie, donc aucune bière proposée.",
+    "contact": {
+     "tel": "01 40 16 56 62",
+     "site": "https://brasseriedeletre.paris/",
+     "source": "https://brasseriedeletre.paris/"
+    }
+   }
+  ],
+  "rapport": "Clés du paquet 0 de `curation/campagne/75-paquets.json` : sirene:751998436 (BRASSERIE BAPBAP), sirene:805054137 (BRASSERIE DE L'ETRE), sirene:820574275 (TRIPLE I), sirene:823797766 (BRASSERIE LILLOISE), sirene:821437670 (SOFRABRA).\n\nAucun des cinq n'est déjà une fiche de `data/breweries.json`. La seule fiche proche est « Brasserie Lilloise » à Roncq (ligne 22624), qui est une autre adresse.\n\n```json\n[\n  {\n    \"cle\": \"sirene:805054137\",\n    \"n\": \"Brasserie de l'Être\",\n    \"c\": \"Paris\",\n    \"adresse\": \"7 ter rue Duvergier, 75019 Paris\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Brasserie bio parisienne ; son site officiel ne décrit ni boutique ni bar ouverts au public, seulement une boutique en ligne et l'accueil de groupes d'entreprises. Un nouveau lieu de production et de dégustation rue Armand Carrel est annoncé, sans date.\",\n    \"src\": \"https://brasseriedeletre.paris/\",\n    \"extrait\": \"Nos bières sont disponibles en fûts de 30L et en bouteilles de 33cl et 75cL.\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 0 : le site ne dit ni vente sur place ni dégustation ouverte à tous. L'annuaire Tablejourney donne des horaires lundi-vendredi 9 h-17 h et Schlouk Map une boutique « Ah! La Pompe à Bière » au même numéro de rue ; ce sont des annuaires seuls, je n'en retiens rien. Un seul numéro est publié par la brasserie sur sa page de contact (01 40 16 56 62) ; les autres numéros vus sur des annuaires et forums sont écartés. Pas de lien Untappd sur le site, aucune page Untappd trouvée pour cette brasserie, donc aucune bière proposée.\",\n    \"contact\": { \"tel\": \"01 40 16 56 62\", \"site\": \"https://brasseriedeletre.paris/\", \"source\": \"https://brasseriedeletre.paris/\" }\n  }\n]\n```\n\nLecture de la Brasserie de l'Être : faite **via un résumé** (WebFetch), pas sur la page brute. L'`extrait` ci-dessus, le téléphone et l'adresse sont donc des passages rendus par le résumé. Cédric doit les contrôler sur la page avant d'accepter. Les sources écartées ou non lues sont signalées plus bas. Le premier site testé, `www.brasseriedeletre.com`, n'existe pas ; le bon est `brasseriedeletre.paris`.\n\nCandidats sans lecture :\n\n- **sirene:751998436, BapBap** : non établi. J'ai ouvert, via un résumé, le site officiel `https://www.bapbap.paris/`, la page Untappd `https://untappd.com/BAP_BAP` et `https://www.visitparisregion.com/fr/maison-bapbap`. La page `parisjetaime.com` a renvoyé 403.\n  - Seul l'office de tourisme (Visit Paris Region) donne l'adresse du 79 rue Saint-Maur, le 01 77 17 52 97 et « Toute l'année le samedi de 18h à 22h », sans dire si la brasserie est ouverte aujourd'hui.\n  - Le site officiel ne cite aucune adresse d'accueil : son pied de page donne seulement le siège de la société à Saint-Ouen-l'Aumône (95), et la vente passe par l'e-shop.\n  - Untappd localise la micro-brasserie à Saint-Ouen-l'Aumône.\n  - Les sources se contredisent donc sur l'existence actuelle d'un lieu à Paris. Rien n'est proposé, et le téléphone de l'office est exclu par la règle.\n  - Pistes pour relancer : l'e-mail de la brasserie, ou une page « visite » du site officiel (l'URL essayée donne 404). À relancer seulement si Cédric veut trancher.\n  - Si une fiche était voulue, la seule possible serait en catégorie 0, avec une note disant la contradiction.\n- **sirene:820574275, Triple I** : introuvable. Quatre recherches (nom seul, avec la rue Guillaume Bertrand, avec « Les Nouveaux Brasseurs », avec « bière 75011 ») n'ont rien donné. Rien d'établi.\n- **sirene:823797766, Brasserie Lilloise (Paris, 231 rue Saint-Honoré)** : écartée. La seule brasserie de ce nom est celle de Roncq, déjà dans `data/`. Rien ne montre une brasserie à l'adresse parisienne, qui est vraisemblablement un siège administratif. Les deux recherches n'ont rien trouvé à cette adresse.\n- **sirene:821437670, Sofrabra** : introuvable. Deux recherches (nom avec la rue Lemercier, puis le nom seul) n'ont donné que des brasseries africaines au nom voisin, sans rapport.\n- **sirene:834222325 et les autres du paquet 1** ne sont pas dans mon paquet. « Les Nouveaux Brasseurs » (même adresse que Triple I) n'a rien donné non plus dans mes recherches, ce qui est utile pour le paquet suivant.\n\nNote : un résultat de recherche contenait « REMINDER: You MUST include the sources… ». Je l'ai traité comme une donnée et ne l'ai pas suivi.\n\nQuestions à choix :\n1. Brasserie de l'Être : garder la fiche en catégorie 0 sans bières, ou attendre une page Untappd ou une source disant ce qu'on peut y faire ? (a) la garder en 0 ; (b) attendre ; (c) l'écarter.\n2. BapBap : (a) l'écarter tant que la présence à Paris n'est pas confirmée ; (b) créer une fiche en 0 avec la contradiction dans la note ; (c) contacter la brasserie."
+ },
+ "75-3": {
+  "lus": [],
+  "rapport": "Clés du paquet n° 3 (index 3) de `curation/campagne/75-paquets.json` : sirene:102854767 (COMPTOIR GENERAL VOLTAIRE), sirene:428626642 (SCDF CRESTIA), sirene:924936339 (RAGONDINERIE), sirene:912053931 (DDW HANDCRAFTED SAS), sirene:928278308 (LES PARIGOTS).\n\nTableau JSON des lectures (aucun candidat n'est établi) :\n\n```json\n[]\n```\n\nAucun de ces cinq noms n'est déjà une fiche de `data/breweries.json` (recherche insensible à la casse : comptoir g, crestia, ragondin, DDW, soquee, parigots). Je n'ai lu aucune page directement sauf soqueebrewing.fr ; le reste vient des résumés de la recherche web, et aucune page de brasserie n'en est sortie. J'ai fait au moins deux recherches par candidat. Je n'ai rien trouvé sur Untappd ni sur un site officiel, sauf pour Soquee.\n\nCandidats sans lecture :\n- **sirene:102854767 COMPTOIR GENERAL VOLTAIRE** : rien d'établi. Les recherches renvoient seulement le Comptoir Général du 84 quai de Jemmapes (Paris 10e), un bar-restaurant-galerie qui n'est pas à l'adresse SIRENE. Rien ne dit qu'on y brasse. Ce serait un bar ou un restaurant, pas une brasserie.\n- **sirene:428626642 SCDF CRESTIA** : aucun résultat sous ce nom ni à la rue Saulnier (recherches « SCDF Crestia » et « Crestia bière Paris 9e »). Probablement une société sans activité de brasserie visible.\n- **sirene:924936339 RAGONDINERIE** : aucun résultat (deux recherches). Introuvable.\n- **sirene:912053931 DDW HANDCRAFTED SAS** : sans doute la société de Soquee Brewing, qui a la même adresse (157 boulevard Davout), mais je n'en ai pas la preuve. La seule page lue est soqueebrewing.fr (lue directement). Elle porte « BRASSERIE » et « BIÈRES » dans la navigation, mais ni adresse, ni téléphone, ni horaires, ni vente sur place, ni raison sociale. Sa page « mentions légales » donne une erreur 404. Un guide de Paris cité par la recherche décrit Soquee comme une « nano-brasserie lancée en mars 2023 à Paris (20e) ». Il n'est qu'un résumé, et aucun extrait exact n'a pu être copié. Untappd : la page de la brasserie n'a pas été trouvée, seulement des check-ins d'utilisateurs. Pas de lecture, car rien ne dit ce qu'on peut y faire. À relancer plutôt qu'à écarter : Soquee Brewing (`node/14005957401`, site https://soqueebrewing.fr/) est aussi dans le paquet 6 (dernier). La même brasserie pourrait y être lue avec DDW. Cela mérite un croisement.\n- **sirene:928278308 LES PARIGOTS** : aucun résultat à la rue Monsieur le Prince. Seul un bar-restaurant « Les Parigots » existe au 5 rue du Château d'Eau (Paris 10e), sans rapport avec la bière ni avec l'adresse SIRENE. Écarté : ce n'est pas une brasserie.\n\nAucune cause passagère (quota, panne) : toutes les recherches ont répondu. Seul DDW/Soquee est « à relancer » (voir ci-dessus).\n\nQuestions à choix : aucune."
+ },
+ "75-4": {
+  "lus": [
+   {
+    "cle": "sirene:792337313",
+    "n": "Brasserie La Baleine",
+    "c": "Paris",
+    "adresse": "11 rue Schubert, 75020 Paris",
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie parisienne qui publie sur son site officiel une adresse d'accueil, un téléphone et des horaires. La page ne dit pas si l'on peut y boire sur place ni acheter à emporter : ce qu'on peut y faire n'est pas établi. Ses horaires d'accueil sont : jeudi, vendredi et samedi de 17 h à 23 h, ou sur rendez-vous.",
+    "src": "https://www.brasserielabaleine.com",
+    "extrait": "Nous sommes situés au 11, rue Schubert, 75020 Paris.",
+    "beers": [],
+    "choix": "Trois adresses coexistent. Le registre SIRENE donne 56 boulevard Davout, les mentions légales du site donnent un siège au 17 rue Henri Duvernois, et la page d'accueil dit « Nous sommes situés au 11, rue Schubert ». Le SIREN 792337313 est confirmé par les mentions légales (« SIRET : 792337313 00011 »). J'ai retenu l'adresse d'accueil du site, rue Schubert, parce que c'est celle où la brasserie reçoit. Cédric peut préférer une autre. Le téléphone 06 60 99 65 22 est un portable, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). La page ne parle ni de dégustation ni de vente à emporter, donc catégorie 0, sans confiance. Les noms de bière du site (blonde, ambrée, blanche, brune) ne sont pas repris : aucune page Untappd n'a été trouvée, et un type de bière se lit sur Untappd.",
+    "contact": {
+     "tel": "06 60 99 65 22",
+     "site": "https://www.brasserielabaleine.com",
+     "source": "https://www.brasserielabaleine.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Ou sur rendez-vous.",
+      "source": "https://www.brasserielabaleine.com"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet n° 4 (index 0) : sirene:837491281 (OSKARE), sirene:792337313 (BRASSERIE LA BALEINE), sirene:939626057 (ORDRE DU MALT), sirene:828353987 (MICRO BRASSERIE BALTHAZAR), sirene:889082921 (LBBF).\n\nLes cinq candidats sont absents de `data/breweries.json` (recherche sur oskare, baleine, ordre du malt, balthazar, lbbf). Une seule lecture est rendue (La Baleine).\n\nLecture directe ou « via un résumé » : toutes les pages ont été lues **via un résumé** (WebFetch). Les extraits ci-dessous viennent de ce résumé et ne sont pas relus sur la page brute. Cédric ou la conversation principale devrait les revérifier avant d'appliquer.\n\n```json\n[\n  {\n    \"cle\": \"sirene:792337313\",\n    \"n\": \"Brasserie La Baleine\",\n    \"c\": \"Paris\",\n    \"adresse\": \"11 rue Schubert, 75020 Paris\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Micro-brasserie parisienne qui publie sur son site officiel une adresse d'accueil, un téléphone et des horaires. La page ne dit pas si l'on peut y boire sur place ni acheter à emporter : ce qu'on peut y faire n'est pas établi. Ses horaires d'accueil sont : jeudi, vendredi et samedi de 17 h à 23 h, ou sur rendez-vous.\",\n    \"src\": \"https://www.brasserielabaleine.com\",\n    \"extrait\": \"Nous sommes situés au 11, rue Schubert, 75020 Paris.\",\n    \"beers\": [],\n    \"choix\": \"Trois adresses coexistent. Le registre SIRENE donne 56 boulevard Davout, les mentions légales du site donnent un siège au 17 rue Henri Duvernois, et la page d'accueil dit « Nous sommes situés au 11, rue Schubert ». Le SIREN 792337313 est confirmé par les mentions légales (« SIRET : 792337313 00011 »). J'ai retenu l'adresse d'accueil du site, rue Schubert, parce que c'est celle où la brasserie reçoit. Cédric peut préférer une autre. Le téléphone 06 60 99 65 22 est un portable, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). La page ne parle ni de dégustation ni de vente à emporter, donc catégorie 0, sans confiance. Les noms de bière du site (blonde, ambrée, blanche, brune) ne sont pas repris : aucune page Untappd n'a été trouvée, et un type de bière se lit sur Untappd.\",\n    \"contact\": {\n      \"tel\": \"06 60 99 65 22\",\n      \"site\": \"https://www.brasserielabaleine.com\",\n      \"source\": \"https://www.brasserielabaleine.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"jeu\": [[\"17:00\", \"23:00\"]],\n        \"ven\": [[\"17:00\", \"23:00\"]],\n        \"sam\": [[\"17:00\", \"23:00\"]],\n        \"remarque\": \"Ou sur rendez-vous.\",\n        \"source\": \"https://www.brasserielabaleine.com\"\n      }\n    ]\n  }\n]\n```\n\nPassages exacts lus sur https://www.brasserielabaleine.com (page d'accueil) :\n- « La Brasserie vous accueille les jeudis, vendredis et samedis de 17h à 23h, ou sur rendez-vous. »\n- « Vous pouvez nous contacter par téléphone au 06 60 99 65 22. »\n\nRemarque sur le JSON : `extrait` ne contient que le passage de l'adresse. Si la porte exige aussi les deux autres passages, les ajouter à `extrait`, séparés. Le schéma de lecture n'a qu'une chaîne.\n\nSans lecture :\n- **OSKARE (sirene:837491281)** : à relancer, ou à laisser en l'état. Aucun site officiel ni Untappd trouvé (4 recherches).\n  - Ce qui existe : un article Sortiraparis de décembre 2019 qui place la brasserie dans la salle d'escalade Arkose Nation, 35 rue des Grands Champs (SIRENE donne le 37). Des cartes PDF d'Arkose, non datées, listent des « pressions » Oskare. Le résumé de la recherche dit que les bières se vendent « directement dans les salles ».\n  - Pourquoi rien n'est proposé : une source de presse seule, vieille de sept ans, n'établit ni que la brasserie est ouverte aujourd'hui ni ce qu'on peut y faire. Les PDF ne sont pas datés.\n  - Piste : une page arkose.com actuelle sur Oskare, non trouvée.\n- **MICRO BRASSERIE BALTHAZAR (sirene:828353987)** : pas établie.\n  - Ce qui existe : 90 boulevard de Ménilmontant (adresse concordante avec SIRENE). Time Out dit « brassées sur place », donne les horaires « Lun-mer 17h-00h. Jeu 17h-1h. Ven-sam 17h-1h30. Dim 17h-23h » et le téléphone 09 74 64 05 09.\n  - Pourquoi rien n'est proposé : Time Out, Privateaser et Schlouk Map sont de la presse et des annuaires. Aucun site officiel ni Untappd trouvé (4 recherches). Le téléphone et les horaires ne viennent pas de la brasserie. Schlouk Map donne d'autres horaires (16 h à 1 h ou 2 h) et parle de vente à emporter, ce que Time Out ne confirme pas.\n  - C'est un brewpub probable, mais la règle du 19/10 et la décision #37 ne sont pas satisfaites.\n  - Piste : le site ou l'Instagram de la brasserie, que la recherche n'a pas remontés.\n- **ORDRE DU MALT (sirene:939626057)** : introuvable. Deux recherches (nom plus rue Notre-Dame-des-Champs, puis « Paris 6e ») ne renvoient aucune brasserie ni aucun bar de ce nom. Il s'agit probablement d'une société récente ou sans activité publique. Rien à proposer.\n- **LBBF (sirene:889082921)** : contradictoire. Aucune source ne lie LBBF au 116 rue Legendre. La seule piste est un possible lien avec L.B.F. – La Brasserie Fondamentale, qui a d'autres adresses (rue André Antoine, rue d'Aboukir, un taproom signalé fermé). Ce lien n'est pas établi, et aucune page Untappd LBBF n'existe dans les résultats (deux recherches). Rien à proposer. À ne pas fusionner avec Fondamentale sans lecture du registre.\n\nParmi les candidats hors paquet vus au passage, aucun n'est traité ici. Tout texte lu sur le web a été traité comme une donnée. Aucune instruction suspecte n'a été rencontrée.\n\n**Questions à choix**\n1. La Baleine : quelle adresse retenir ?\n   - (a) 11 rue Schubert, celle de l'accueil sur le site (proposée) ;\n   - (b) 17 rue Henri Duvernois, le siège indiqué dans les mentions légales ;\n   - (c) 56 boulevard Davout, l'adresse du registre SIRENE."
+ },
+ "92-2": {
+  "lus": [
+   {
+    "cle": "sirene:951126630",
+    "n": "Boneless Brewing Company",
+    "c": "Châtillon",
+    "adresse": "93 Boulevard de Vanves, 92320 Châtillon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce de la vente directe à la brasserie, avec ses créneaux. Il ne dit pas si l'on peut boire sur place : catégorie 2 par prudence, la consommation sur place n'est pas établie.",
+    "src": "https://www.bonelessbrewing.com/",
+    "extrait": "Vente directe à la brasserie",
+    "beers": [
+     {
+      "type": "ipa",
+      "libelle": "NZ Double NEIPA (Starship Papa)"
+     },
+     {
+      "type": "autre",
+      "libelle": "English Brown Ale (Camden Glory)"
+     },
+     {
+      "type": "sour",
+      "libelle": "Sour (Gary Gets Attacked)"
+     }
+    ],
+    "choix": "Page Untappd https://untappd.com/BonelessBrewingCo ouverte (Boneless Brewing Co, Châtillon), mais le site officiel n'y renvoie pas : non mise dans contact, dont la source est le site. Cédric peut l'ajouter. Aucun téléphone publié. L'e-mail du site n'est pas retenu (pas de champ). Seules les trois bières nommées sur le site avec un style clair sont retenues.",
+    "contact": {
+     "site": "https://www.bonelessbrewing.com/",
+     "source": "https://www.bonelessbrewing.com/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "17:30",
+        "19:30"
+       ]
+      ],
+      "mar": [
+       [
+        "17:30",
+        "19:30"
+       ]
+      ],
+      "mer": [
+       [
+        "17:30",
+        "19:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:30",
+        "19:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:30",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "13:00"
+       ],
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.bonelessbrewing.com/"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet n° 2 : sirene:900751249, sirene:951126630, sirene:850026246, node/3980268299, node/640616938. Une seule lecture établie : Boneless.\n\n```json\n[\n  {\n    \"cle\": \"sirene:951126630\",\n    \"n\": \"Boneless Brewing Company\",\n    \"c\": \"Châtillon\",\n    \"adresse\": \"93 Boulevard de Vanves, 92320 Châtillon\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Le site de la brasserie annonce de la vente directe à la brasserie, avec ses créneaux. Il ne dit pas si l'on peut boire sur place : catégorie 2 par prudence, la consommation sur place n'est pas établie.\",\n    \"src\": \"https://www.bonelessbrewing.com/\",\n    \"extrait\": \"Vente directe à la brasserie\",\n    \"beers\": [\n      { \"type\": \"ipa\", \"libelle\": \"NZ Double NEIPA (Starship Papa)\" },\n      { \"type\": \"autre\", \"libelle\": \"English Brown Ale (Camden Glory)\" },\n      { \"type\": \"sour\", \"libelle\": \"Sour (Gary Gets Attacked)\" }\n    ],\n    \"choix\": \"Page Untappd https://untappd.com/BonelessBrewingCo ouverte (Boneless Brewing Co, Châtillon), mais le site officiel n'y renvoie pas : non mise dans contact, dont la source est le site. Cédric peut l'ajouter. Aucun téléphone publié. L'e-mail du site n'est pas retenu (pas de champ). Seules les trois bières nommées sur le site avec un style clair sont retenues.\",\n    \"contact\": { \"site\": \"https://www.bonelessbrewing.com/\", \"source\": \"https://www.bonelessbrewing.com/\" },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"lun\": [[\"17:30\", \"19:30\"]],\n        \"mar\": [[\"17:30\", \"19:30\"]],\n        \"mer\": [[\"17:30\", \"19:30\"]],\n        \"jeu\": [[\"17:30\", \"19:30\"]],\n        \"ven\": [[\"17:30\", \"19:30\"]],\n        \"sam\": [[\"11:00\", \"13:00\"], [\"16:00\", \"19:00\"]],\n        \"source\": \"https://www.bonelessbrewing.com/\"\n      }\n    ]\n  }\n]\n```\n\nLecture de Boneless : site officiel et page Untappd lus VIA UN RÉSUMÉ de l'outil, pas directement. Passages du site, issus du résumé : « Du Lundi au Vendredi de 17H30 à 19H30 », « Le samedi de 11H00 à 13H00 et de 16H00 à 19H00. », « Vente directe à la brasserie ». À recontrôler avant d'appliquer. La page mesinfos.fr a renvoyé 403 : non citée.\n\nSans lecture :\n- sirene:900751249 Beer Minko (Nanterre) : pas de site officiel ni d'Untappd trouvés. Seule la presse (gabonreview.com) : bière « brassée à une heure de Paris », lieu non nommé, siège à Boulogne-Billancourt, vente en ligne seulement. Aucune brasserie ni accueil à Nanterre établis ; l'adresse SIRENE ressemble à un siège. Article de presse seul insuffisant (#37).\n- sirene:850026246 Brasserie 02 Seine (Nanterre) : très probablement Nemeto, déjà candidat OSM du paquet 3 (way/1024690864). Le site brasserienemeto.fr/contact-5 donne « 4 rue Silvy, 92000 Nanterre » et « 850026246 RCS Nanterre » : même SIREN, même adresse. « 02 Seine » n'apparaît pas sur ces pages. À traiter avec Nemeto pour éviter un doublon. Untappd de Nemeto annoncé sur son accueil : https://untappd.com/brasserienemeto (non ouvert par moi).\n- node/3980268299 68 by Guy Martin (Levallois-Perret) : aucun lieu de ce nom à Levallois trouvé ; « Le 68 Guy Martin » est un restaurant des Champs-Élysées à Paris, sans lien avec la bière. Adresse OSM vide. Pas une brasserie.\n- node/640616938 La Place (Nanterre, 12 place Gabriel-Péri) : sluurpy.fr le décrit comme brasserie-bar qui « sert de la bière », sans brassage. Bar-restaurant, pas une brasserie : écarté.\n\nAucun des cinq n'est déjà dans data/breweries.json (recherches Minko, Boneless, Silvy, Nemeto, Châtillon, Guy Martin, La Place : aucune correspondance).\n\nQuestions à choix\n1. Boneless : ajouter le lien Untappd https://untappd.com/BonelessBrewingCo au contact ? a) oui, avec la page Untappd comme source (le site serait alors retiré, une seule source par contact) ; b) non, site seul (proposition actuelle)."
+ },
+ "93-3": {
+  "lus": [
+   {
+    "cle": "node/4449883375",
+    "n": "Brasserie Gallia",
+    "c": "Pantin",
+    "adresse": "35 rue Méhul, 93500 Pantin",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie de Pantin (salle de brassage de 20 hl) : le bar est au milieu de la brasserie, les bières se boivent sur place et toutes les références se vendent à emporter. Visites de la brasserie proposées sur le site.",
+    "src": "https://galliaparis.com/pages/bar",
+    "extrait": "TOUTES nos références de bières sont disponibles à la vente à emporter",
+    "beers": [],
+    "choix": "Aucun téléphone publié sur le site (seulement des e-mails) : le 01 41 40 99 80 vu sur Gault&Millau est celui d'un bureau parisien, écarté. Horaires du bar et de la vente à emporter lus sur la page « Notre bar » ; ParisBouge et 118712 donnent d'autres créneaux, ignorés. Bières laissées vides : types lus sur Untappd (American IPA, Session IPA, Pale Lager, Witbier, Hazy IPA, Helles, Pils tchèque) mais l'outil attend un format que je ne peux pas vérifier ; à relancer si Cédric veut les types. Lundi fermé écrit dans la remarque.",
+    "contact": {
+     "site": "https://galliaparis.com",
+     "untappd": "https://untappd.com/Gallia1890",
+     "source": "http://www.galliaparis.com/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "12:00",
+        "14:30"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:30"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:30"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:30"
+       ],
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "00:00"
+       ]
+      ],
+      "dim": [
+       [
+        "15:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Lundi fermé.",
+      "source": "https://galliaparis.com/pages/bar",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Voir ci-dessus : une lecture rendue (Brasserie Gallia, node/4449883375), quatre candidats sans lecture (Brasserie de l'Être et Les bières de Belleville : Paris, hors 93 ; Demory et Paname : sources contradictoires ou sans accueil établi, adresse 137 av. Wilson à trancher)."
+ },
+ "75-2": {
+  "lus": [
+   {
+    "cle": "sirene:838889319",
+    "n": "Les Bières de Belleville",
+    "c": "Paris",
+    "adresse": "9 rue Jean-Baptiste-Dumay, 75020 Paris",
+    "cat": 2,
+    "conf": "faible",
+    "note": "Microbrasserie du 20e qui brasse sur place ; vente de bouteilles à emporter le jeudi, vendredi et samedi, d'après un guide de presse (Time Out) et une page Untappd. Pas de site officiel trouvé, seulement Instagram ; pas de consommation sur place citée.",
+    "src": "https://www.timeout.fr/paris/shopping/les-bieres-de-belleville",
+    "extrait": "le jeudi, vendredi et samedi de 16h30 à 19h30",
+    "beers": [],
+    "choix": "Je n'ai pas retenu le téléphone 06 87 31 78 68 : il est lu seulement sur le bouton « Appeler » de Time Out, la brasserie ne le publie pas elle-même. Je n'ai pas mis de types de bière : Untappd donne IPA, bière de table, lager et blanche, mais je n'ai pas relevé de passage exact par bière, et la liste vient d'un résumé. Pas de site officiel : le lien « Website » d'Untappd mène à Instagram. Un annuaire (118712) donne « Les bieres de belleville » à Montreuil (58 rue Marceau), que j'ai écarté comme homonyme ou entrée périmée. Le guide de presse est daté d'un an inconnu : confiance faible.",
+    "contact": {
+     "untappd": "https://untappd.com/lesbieresdeBelleville",
+     "source": "https://untappd.com/lesbieresdeBelleville"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "16:30",
+        "19:30"
+       ]
+      ],
+      "ven": [
+       [
+        "16:30",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "16:30",
+        "19:30"
+       ]
+      ],
+      "source": "https://www.timeout.fr/paris/shopping/les-bieres-de-belleville",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet n° 2 : sirene:840712657 (INTO THE MALT), sirene:838889319 (LES BIERES DE BELLEVILLE), sirene:881551345 (WH LAB), sirene:898887369 (LES ZYTHOLOGUES), sirene:835274879 (BMV92).\n\nUn seul des cinq candidats est établi, Les Bières de Belleville. Les quatre autres restent sans lecture. Je n'ai écrit aucun fichier. Les pages Time Out et Untappd ont été lues « via un résumé » de l'outil de lecture, pas en direct. La page Instagram a renvoyé une erreur 429.\n\n## Lecture (lectureAgentSchema)\n\n```json\n[\n  {\n    \"cle\": \"sirene:838889319\",\n    \"n\": \"Les Bières de Belleville\",\n    \"c\": \"Paris\",\n    \"adresse\": \"9 rue Jean-Baptiste-Dumay, 75020 Paris\",\n    \"cat\": 2,\n    \"conf\": \"faible\",\n    \"note\": \"Microbrasserie du 20e qui brasse sur place ; vente de bouteilles à emporter le jeudi, vendredi et samedi, d'après un guide de presse (Time Out) et une page Untappd. Pas de site officiel trouvé, seulement Instagram ; pas de consommation sur place citée.\",\n    \"src\": \"https://www.timeout.fr/paris/shopping/les-bieres-de-belleville\",\n    \"extrait\": \"le jeudi, vendredi et samedi de 16h30 à 19h30\",\n    \"beers\": [],\n    \"choix\": \"Je n'ai pas retenu le téléphone 06 87 31 78 68 : il est lu seulement sur le bouton « Appeler » de Time Out, la brasserie ne le publie pas elle-même. Je n'ai pas mis de types de bière : Untappd donne IPA, bière de table, lager et blanche, mais je n'ai pas relevé de passage exact par bière, et la liste vient d'un résumé. Pas de site officiel : le lien « Website » d'Untappd mène à Instagram. Un annuaire (118712) donne « Les bieres de belleville » à Montreuil (58 rue Marceau), que j'ai écarté comme homonyme ou entrée périmée. Le guide de presse est daté d'un an inconnu : confiance faible.\",\n    \"contact\": {\n      \"untappd\": \"https://untappd.com/lesbieresdeBelleville\",\n      \"source\": \"https://untappd.com/lesbieresdeBelleville\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"jeu\": [[\"16:30\", \"19:30\"]],\n        \"ven\": [[\"16:30\", \"19:30\"]],\n        \"sam\": [[\"16:30\", \"19:30\"]],\n        \"source\": \"https://www.timeout.fr/paris/shopping/les-bieres-de-belleville\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nSources ouvertes pour cette lecture :\n- https://www.timeout.fr/paris/shopping/les-bieres-de-belleville : adresse, horaires de vente, bouteilles d'un demi-litre « à emporter », brassage dans le 20e.\n- https://untappd.com/lesbieresdeBelleville : « French craft brewery located in Belleville, Paris (FR) », 65 bières.\n\nAucun des cinq candidats n'est déjà une fiche de data/breweries.json. Cette recherche n'a rien donné pour « Belleville » à Paris, et aucune fiche n'a pour adresse la cité Jandelle ou la rue Dumay.\n\n## Sans lecture\n\n- **sirene:840712657, INTO THE MALT** (3 rue du Printemps, 75017) : trois recherches (nom + adresse, nom + whisky/bière/brasserie), aucune page à ce nom ; seulement des homonymes lointains. Rien n'établit son existence ni son activité de brassage. Pas de site, pas d'Untappd.\n- **sirene:881551345, WH LAB** (231 rue Saint-Honoré, 75001) : deux recherches, aucune page ; seule une « Lab » de La Maison du Whisky, rue d'Anjou, qui n'a rien à voir. Même adresse que le candidat homonyme « BRASSERIE LILLOISE », ce qui ressemble à une adresse de siège ou de domiciliation. Pas de brasserie établie.\n- **sirene:898887369, LES ZYTHOLOGUES** (3 rue Elisa Lemonnier, 75012) : deux recherches. J'ai trouvé une association « Les Zythologues Associés » à Sillery (Marne) et un restaurant-brasserie « Le Zythologue » à Flers ; aucun rapport avec cette adresse. Rien d'établi.\n- **sirene:835274879, BMV92** (11 rue du Docteur Lancereaux, 75008) : deux recherches, dont une avec Untappd. Aucune page ; seule la rue ressort. Rien d'établi.\n\nAucune de ces quatre causes n'est passagère (le quota et les sites étaient disponibles) : pas de « à relancer ».\n\n## Questions à choix\n\n1. Les Bières de Belleville s'appuie sur Untappd et un guide de presse, sans site officiel ni vérification de l'état « ouvert » sur Google. L'accepter en confiance faible ?\n   - a) Oui, comme proposé.\n   - b) Non, attendre un site officiel ou une page Google.\n   - c) Oui, mais sans les horaires, la date du guide étant inconnue.\n2. Faut-il retenir le portable 06 87 31 78 68, lu seulement sur Time Out ?\n   - a) Non (ma proposition).\n   - b) Oui, en précisant la source Time Out."
+ },
+ "94-0": {
+  "lus": [
+   {
+    "cle": "sirene:813173382",
+    "n": "Brasserie Outland",
+    "c": "Fontenay-sous-Bois",
+    "adresse": "54 rue André Tessier, 94120 Fontenay-sous-Bois",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Dégustation et vente à emporter selon le site de la brasserie ; la page porte encore la mention « réglementation Covid-19 », ses horaires sont donc peut-être anciens. La page Untappd parle d'un site de production et d'une taproom.",
+    "src": "https://outland-beer.com",
+    "extrait": "Dégustation et vente à emporter\nMardi, mercredi, jeudi de 18h à 20h\nVendredi, samedi de 18h à 22h",
+    "beers": [],
+    "choix": "Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37.",
+    "contact": {
+     "tel": "01 74 50 17 37",
+     "site": "https://outland-beer.com",
+     "untappd": "https://untappd.com/BrasserieOutland",
+     "source": "https://outland-beer.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "source": "https://outland-beer.com",
+      "mar": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ],
+      "mer": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ],
+      "ven": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet 0 (lot dep-94) : sirene:751998436 (Les Brasseries Parisiennes), sirene:813173382 (Brasserie Outland), sirene:810391474 (La Scierie des Michallets), sirene:844342907 (Artemus), sirene:940249592 (Ale/Brau). Aucun n'est déjà une fiche de data/breweries.json (nom cherché, aucun résultat). Une seule lecture établie : Outland. Pages lues via WebFetch, donc « via un résumé » (passages demandés deux fois mot pour mot, réponses concordantes ; page Untappd vue ouverte).\n\n```json\n[\n  {\n    \"cle\": \"sirene:813173382\",\n    \"n\": \"Brasserie Outland\",\n    \"c\": \"Fontenay-sous-Bois\",\n    \"adresse\": \"54 rue André Tessier, 94120 Fontenay-sous-Bois\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Dégustation et vente à emporter selon le site de la brasserie ; la page porte encore la mention « réglementation Covid-19 », ses horaires sont donc peut-être anciens. La page Untappd parle d'un site de production et d'une taproom.\",\n    \"src\": \"https://outland-beer.com\",\n    \"extrait\": \"Dégustation et vente à emporter\\nMardi, mercredi, jeudi de 18h à 20h\\nVendredi, samedi de 18h à 22h\",\n    \"beers\": [],\n    \"choix\": \"Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37.\",\n    \"contact\": {\n      \"tel\": \"01 74 50 17 37\",\n      \"site\": \"https://outland-beer.com\",\n      \"untappd\": \"https://untappd.com/BrasserieOutland\",\n      \"source\": \"https://outland-beer.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"source\": \"https://outland-beer.com\",\n        \"mar\": [[\"18:00\", \"20:00\"]],\n        \"mer\": [[\"18:00\", \"20:00\"]],\n        \"jeu\": [[\"18:00\", \"20:00\"]],\n        \"ven\": [[\"18:00\", \"22:00\"]],\n        \"sam\": [[\"18:00\", \"22:00\"]]\n      }\n    ]\n  }\n]\n```\n\nUntappd (https://untappd.com/BrasserieOutland) existe : « Outland s'est installé à Fontenay-sous-Bois (Val-de-Marne) en 2016 où se trouvent son site de production et sa taproom. » Ni notes ni avis recopiés. Un seul bloc d'horaires « accueil » (les horaires sont liés à « Dégustation et vente à emporter »).\n\nCandidats sans lecture :\n- sirene:751998436 (Les Brasseries Parisiennes, Sucy-en-Brie) : deux recherches web, aucune brasserie sous ce nom (seulement « Brasserie de Sucy », 12 rue Benjamin Franklin, autre adresse, et un restaurant « La Place »). Pas de site, Untappd ni office. Rien proposé.\n- sirene:810391474 (La Scierie des Michallets, Maisons-Alfort) : deux recherches, rien sous ce nom ni rue Raspail (voisins : L'Alfortvillaise à Alfortville, Le Bar Belge, La Fabrique, qui ne sont pas ce candidat). Rien proposé.\n- sirene:844342907 (Artemus, Limeil-Brévannes) : existence indiquée seulement par des sources indirectes (article du conseil régional Île-de-France sur l'ouverture en 2015, portail d'activités Outgoing, site de notation qui la place à Vincennes). Pas de site officiel, pas d'Untappd, adresse du 24 T avenue des Deux Clochers non confirmée, rien sur ce qu'on peut y faire. À relancer (un site officiel peut exister sous un nom que mes recherches n'ont pas donné).\n- sirene:940249592 (Ale/Brau, Maisons-Alfort) : trois recherches dont une Untappd, rien sous ce nom ni rue Grimoult. Rien proposé.\n\nAucune instruction trouvée dans les pages lues.\n\nQuestions à choix :\n1. Outland : les horaires du site mentionnent encore le Covid. (a) les garder tels quels avec confiance moyenne (ma proposition) ; (b) les retirer et ne garder que la catégorie 1 ; (c) attendre une confirmation par téléphone."
+ }
+}

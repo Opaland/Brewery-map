@@ -1,0 +1,94 @@
+{
+ "candidat": "node/4449883375",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Gallia",
+   "c": "Pantin",
+   "d": "93",
+   "lat": 48.88926,
+   "lon": 2.41355,
+   "km": 398.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie de Pantin (salle de brassage de 20 hl) : le bar est au milieu de la brasserie, les bières se boivent sur place et toutes les références se vendent à emporter. Visites de la brasserie proposées sur le site.",
+   "addr": "35 rue Méhul, 93500 Pantin",
+   "src": "https://galliaparis.com/pages/bar",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://galliaparis.com",
+    "untappd": "https://untappd.com/Gallia1890",
+    "source": "http://www.galliaparis.com/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://galliaparis.com/pages/bar",
+     "mar": [
+      [
+       "12:00",
+       "14:30"
+      ],
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "14:30"
+      ],
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "14:30"
+      ],
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "14:30"
+      ],
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "00:00"
+      ]
+     ],
+     "dim": [
+      [
+       "15:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Lundi fermé.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://galliaparis.com/pages/bar",
+   "http://www.galliaparis.com/",
+   "https://data.geopf.fr/geocodage/search?q=35+rue+M%C3%A9hul%2C+93500+Pantin&limit=5"
+  ],
+  "extrait": "TOUTES nos références de bières sont disponibles à la vente à emporter",
+  "choix": "Aucun téléphone publié sur le site (seulement des e-mails) : le 01 41 40 99 80 vu sur Gault&Millau est celui d'un bureau parisien, écarté. Horaires du bar et de la vente à emporter lus sur la page « Notre bar » ; ParisBouge et 118712 donnent d'autres créneaux, ignorés. Bières laissées vides : types lus sur Untappd (American IPA, Session IPA, Pale Lager, Witbier, Hazy IPA, Helles, Pils tchèque) mais l'outil attend un format que je ne peux pas vérifier ; à relancer si Cédric veut les types. Lundi fermé écrit dans la remarque. Source rouverte à la main le 29/10."
+ }
+}

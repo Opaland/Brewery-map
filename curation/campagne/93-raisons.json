@@ -1,6 +1,23 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher",
- "personne:2": "entreprise sans nom ni adresse : rien à chercher",
- "personne:3": "entreprise sans nom ni adresse : rien à chercher",
- "personne:4": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:798950952": "lu le 29/10 : site en erreur 503, annuaires et presse seuls : à relancer quand le site répond",
+  "sirene:820574275": "lu le 29/10 : rien sous ce nom",
+  "sirene:751467457": "lu le 29/10 : la brasserie est à Paris (18e), voir dep-75 : à relancer",
+  "sirene:898065891": "lu le 29/10 : rien sous ce nom",
+  "sirene:109482752": "lu le 29/10 : rien sous ce nom",
+  "sirene:892717950": "lu le 29/10 : un agrégateur seul",
+  "sirene:799884630": "lu le 29/10 : site injoignable depuis le conteneur, presse seule : à relancer",
+  "sirene:802521906": "lu le 29/10 : rien sous ce nom",
+  "sirene:518903695": "lu le 29/10 : le site de Paname ne s'ouvre pas depuis le conteneur, agrégateur seul : à relancer",
+  "sirene:849810171": "lu le 29/10 : annuaires seuls",
+  "sirene:838844207": "lu le 29/10 : agrégateurs seuls ; site officiel non trouvé",
+  "sirene:499969996": "lu le 29/10 : une plateforme d'ateliers seule",
+  "node/3058136850": "lu le 29/10 : rien sous ce nom",
+  "node/6087697663": "lu le 29/10 : même brasserie que la lecture sirene:805054137 (Paris, lot dep-75)",
+  "node/7632124298": "lu le 29/10 : sources contradictoires, aucun accueil établi : à relancer",
+  "node/7659450772": "lu le 29/10 : le site ne s'ouvre pas depuis le conteneur : à relancer",
+  "way/70002564": "lu le 29/10 : un guide de presse et Untappd seuls (Paris)"
 }

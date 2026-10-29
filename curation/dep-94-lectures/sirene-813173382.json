@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:813173382",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Outland",
+   "c": "Fontenay-sous-Bois",
+   "d": "94",
+   "lat": 48.85227,
+   "lon": 2.46908,
+   "km": 393.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Dégustation et vente à emporter selon le site de la brasserie ; la page porte encore la mention « réglementation Covid-19 », ses horaires sont donc peut-être anciens. La page Untappd parle d'un site de production et d'une taproom.",
+   "addr": "54 rue André Tessier, 94120 Fontenay-sous-Bois",
+   "src": "https://outland-beer.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 74 50 17 37",
+    "site": "https://outland-beer.com",
+    "untappd": "https://untappd.com/BrasserieOutland",
+    "source": "https://outland-beer.com",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://outland-beer.com",
+     "mar": [
+      [
+       "18:00",
+       "20:00"
+      ]
+     ],
+     "mer": [
+      [
+       "18:00",
+       "20:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "18:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "18:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "18:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://outland-beer.com",
+   "https://data.geopf.fr/geocodage/search?q=54+rue+Andr%C3%A9+Tessier%2C+94120+Fontenay-sous-Bois&limit=5"
+  ],
+  "extrait": "Dégustation et vente à emporter\nMardi, mercredi, jeudi de 18h à 20h\nVendredi, samedi de 18h à 22h",
+  "choix": "Confiance moyenne et non solide : le site dit « Dégustation et vente à emporter » mais ne décrit pas le lieu, et ses horaires citent la réglementation Covid-19. Bières laissées vides : le site cite « Session IPA, American IPA ou encore Brut IPA » et une gamme « brut », sans fiche par bière. Le SIRENE donne deux adresses (52-54 rue André Tessier et 89 rue Pierre Grange) : je retiens celle du site officiel. Le lien « Outland bar » du site n'a pas été lu. Téléphone écrit « +33 (0) 1 74 50 17 37 » sur la page, remis au format 01 74 50 17 37. Source rouverte à la main le 29/10."
+ }
+}

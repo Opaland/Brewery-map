@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:533304952",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Grand Paris",
+   "c": "Saint-Denis",
+   "d": "93",
+   "lat": 48.92976,
+   "lon": 2.34226,
+   "km": 405,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie dit qu'elle n'a pas de boutique physique avec accueil du public, et propose le retrait des commandes en ligne (Click & Collect) à la brasserie.",
+   "addr": "103 rue Charles Michels, 93200 Saint-Denis",
+   "src": "https://www.bgp.paris",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 81 04 81 20",
+    "site": "https://www.bgp.paris",
+    "source": "https://www.bgp.paris",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.bgp.paris",
+   "https://data.geopf.fr/geocodage/search?q=103+rue+Charles+Michels%2C+93200+Saint-Denis&limit=5"
+  ],
+  "extrait": "Commandez vos bières en ligne et choisissez la livraison (si éligible) ou le Click & Collect à la brasserie",
+  "choix": "Catégorie 2 (acheter seulement) : la page dit « La brasserie ne dispose pas de boutique physique avec accueil du public. » et propose le Click & Collect à la brasserie. Confiance moyenne parce que le retrait n'est décrit qu'en une phrase, sans horaire ni conditions d'accueil. Aucun horaire retenu : la page n'en publie pas (le seul horaire vu, Cylex, est un annuaire). Raison sociale SIRENE My Beer Company, le nom d'usage est celui du site. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières), donc pas de bières. Aucun autre téléphone sur la page. Source rouverte à la main le 29/10."
+ }
+}

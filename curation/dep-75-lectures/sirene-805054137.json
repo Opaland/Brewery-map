@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:805054137",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Être",
+   "c": "Paris",
+   "d": "75",
+   "lat": 48.88936,
+   "lon": 2.37682,
+   "km": 399.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio parisienne ; son site officiel ne décrit ni boutique ni bar ouverts au public, seulement une boutique en ligne et l'accueil de groupes d'entreprises. Un nouveau lieu de production et de dégustation rue Armand Carrel est annoncé, sans date.",
+   "addr": "7 ter rue Duvergier, 75019 Paris",
+   "src": "https://brasseriedeletre.paris/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 40 16 56 62",
+    "site": "https://brasseriedeletre.paris/",
+    "source": "https://brasseriedeletre.paris/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedeletre.paris/",
+   "https://data.geopf.fr/geocodage/search?q=7+ter+rue+Duvergier%2C+75019+Paris&limit=5"
+  ],
+  "extrait": "Nos bières sont disponibles en fûts de 30L et en bouteilles de 33cl et 75cL.",
+  "choix": "Catégorie 0 : le site ne dit ni vente sur place ni dégustation ouverte à tous. L'annuaire Tablejourney donne des horaires lundi-vendredi 9 h-17 h et Schlouk Map une boutique « Ah! La Pompe à Bière » au même numéro de rue ; ce sont des annuaires seuls, je n'en retiens rien. Un seul numéro est publié par la brasserie sur sa page de contact (01 40 16 56 62) ; les autres numéros vus sur des annuaires et forums sont écartés. Pas de lien Untappd sur le site, aucune page Untappd trouvée pour cette brasserie, donc aucune bière proposée. Source rouverte à la main le 29/10."
+ }
+}

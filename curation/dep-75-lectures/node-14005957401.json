@@ -1,0 +1,58 @@
+{
+ "candidat": "node/14005957401",
+ "ajout": {
+  "fiche": {
+   "n": "Soquee Brewing",
+   "c": "Paris",
+   "d": "75",
+   "lat": 48.85959,
+   "lon": 2.40927,
+   "km": 395.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie parisienne lancée en mars 2023. Le site officiel annonce une vente à emporter le mercredi, le vendredi et le samedi de 17h à 19h30 à cette adresse. Il ne parle pas de dégustation sur place. La production est présentée à Requista (Aveyron).",
+   "addr": "157 boulevard Davout, 75020 Paris",
+   "src": "https://soqueebrewing.fr/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07.78.20.63.35",
+    "site": "https://soqueebrewing.fr/",
+    "source": "https://soqueebrewing.fr/contact",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://soqueebrewing.fr/contact",
+     "mer": [
+      [
+       "17:00",
+       "19:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:30"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "19:30"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://soqueebrewing.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=157+boulevard+Davout%2C+75020+Paris&limit=5"
+  ],
+  "extrait": "Mercredi, Vendredi et Samedi de 17h à 19h30",
+  "choix": "Confiance moyenne et non solide : le site dit « Vente à emporter » à l'adresse parisienne mais ne dit pas qu'on y brasse. Catégorie 2 car rien ne dit qu'on boit sur place. Aucune bière proposée : le site cite des familles (houblonnées, lagers, saisons, noires), pas une liste de bières, et Untappd n'a pas été trouvé. Le portable 07.78.20.63.35 est la seule ligne publiée par la brasserie (règle du 21/10). Le site partage l'adresse avec DDW HANDCRAFTED SAS (SIRENE sirene:912053931, 157 boulevard Davout), probablement la même entité. Cette entrée est à fusionner et non à doubler. Source rouverte à la main le 29/10."
+ }
+}
