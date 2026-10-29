@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:851679415",
+ "ajout": {
+  "fiche": {
+   "n": "Suresnes Beer Factory",
+   "c": "Suresnes",
+   "d": "92",
+   "lat": 48.87075,
+   "lon": 2.21804,
+   "km": 403.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie associative de Suresnes, d'après l'office de tourisme, qui vend sa bière. Ce qu'on peut faire à la brasserie elle-même n'est pas établi : à confirmer.",
+   "addr": "rue Kellogg, 92150 Suresnes",
+   "src": "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
+   "https://data.geopf.fr/geocodage/search?q=Suresnes&type=municipality&limit=5"
+  ],
+  "extrait": "The beer is available to buy from Suresnes Tourist Office",
+  "choix": "Une seule page d'office de tourisme (confiance au plus moyenne) : catégorie 0. Une annonce de visite sur une plateforme de réservation n'est pas reprise (source non valable). Téléphone de l'office non repris. Adresse sans numéro, telle que sur la page. Source rouverte à la main le 29/10."
+ }
+}

@@ -50,6 +50,12 @@ Restent 3, 4 et 5.
 - Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
 - Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
 
+## Restes de S345, première partie (29/10, issue #186)
+
+- `campagne.ts rendre` écrit le compte rendu même quand `assembler` refuse une lecture (téléphone hors format, commune qui ne se géocode pas) : le lot annonce alors plus de fiches qu'il n'en porte, et `appliquer` n'en écrit qu'une partie, sans erreur. Vu le 29/10 (Soquee, Frogbeer). `rendre` devrait s'arrêter sur toute lecture refusée.
+- Communes fusionnées : Pierrefitte-sur-Seine n'existe plus pour le géocodeur de l'IGN (Saint-Denis). Une lecture dont la commune a fusionné ne se géocode pas ; la fiche prend la commune nouvelle, et sa note le dit.
+- À relancer : La Goutte d'Or (vérification de l'âge), Paname, La Montreuilloise, La Parisienne (sites injoignables depuis le conteneur), 3ienchs, Brasserie 925, Artemus, Demory, Homing Birds, Kintsugi.
+
 ## Restes de S344, seconde partie (29/10, issue #185)
 
 - À relancer : Goulot (sa page répond 404 à l'outil de contrôle, 200 à un navigateur : l'en-tête envoyé par `controler` est sans doute en cause, à regarder), 2 Caps (403) et 7 Bonnettes (406), Tours du Malt (429), Bellenaert (vérification de l'âge, comme le Léman) ; sites en panne ou injoignables depuis le conteneur : Duyck, Osseus, Forest, Kino Beer, Wagnonville, Lepers, La Gueule de, Angelus, Artésienne, Paysanne de l'Artois, Terres d'Opale, Saint Rieul, Écol' aux Mousses, Brasserie à la Noye ; Dreum, Brasserie du Cateau (Vivat), Kmého, Tripoint.

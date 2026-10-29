@@ -1,0 +1,488 @@
+[
+ [
+  {
+   "cle": "sirene:528365125",
+   "enseigne": "KRONENBOURG SUPPLY COMPANY",
+   "dep": "77",
+   "communes": [
+    "COMBS-LA-VILLE"
+   ],
+   "adresses": [
+    "BOULEVARD MAURICE FAURE 77380 COMBS-LA-VILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921930079",
+   "enseigne": "BENZEL BRASSERIE",
+   "dep": "77",
+   "communes": [
+    "FONTAINEBLEAU"
+   ],
+   "adresses": [
+    "17 RUE ARISTIDE BRIAND 77300 FONTAINEBLEAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:944836030",
+   "enseigne": "BREW FOR FUN",
+   "dep": "77",
+   "communes": [
+    "MISY-SUR-YONNE",
+    "VARENNES-SUR-SEINE"
+   ],
+   "adresses": [
+    "58 RUE GRANDE 77130 MISY-SUR-YONNE",
+    "8 ROUTE DE CANNES 77130 VARENNES-SUR-SEINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:952833952",
+   "enseigne": "LA MAGICIENNE",
+   "dep": "77",
+   "communes": [
+    "OZOIR-LA-FERRIERE",
+    "LA HOUSSAYE-EN-BRIE"
+   ],
+   "adresses": [
+    "6 IMPASSE EDITH PIAF 77330 OZOIR-LA-FERRIERE",
+    "30 PLACE DU MARECHAL AUGEREAU 77610 LA HOUSSAYE-EN-BRIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949538128",
+   "enseigne": "LES BIERES DE PAPA",
+   "dep": "77",
+   "communes": [
+    "MORET-LOING-ET-ORVANNE"
+   ],
+   "adresses": [
+    "89 AVENUE DE SENS 77250 MORET-LOING-ET-ORVANNE"
+   ],
+   "osm": [
+    "node/12880432481"
+   ],
+   "site": "https://lesbieresdepapa.com",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:910541879",
+   "enseigne": "LA BIERE DE PROVINS",
+   "dep": "77",
+   "communes": [
+    "PROVINS"
+   ],
+   "adresses": [
+    "3 PLACE DU MARECHAL LECLERC 77160 PROVINS"
+   ],
+   "osm": [
+    "node/10720582405"
+   ],
+   "site": "https://labieredeprovins.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:803077130",
+   "enseigne": "BRASSERIE DU PONT DE COUDE",
+   "dep": "77",
+   "communes": [
+    "OZOUER-LE-VOULGIS"
+   ],
+   "adresses": [
+    "10 RUE DE JAMARD 77390 OZOUER-LE-VOULGIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:810362798",
+   "enseigne": "BRASSERIE DE MEAUX",
+   "dep": "77",
+   "communes": [
+    "MEAUX"
+   ],
+   "adresses": [
+    "11 RUE DES BUTTES BLANCHES 77100 MEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977500685",
+   "enseigne": "BRASSERIE HOMMAGE",
+   "dep": "77",
+   "communes": [
+    "MONTDAUPHIN"
+   ],
+   "adresses": [
+    "10 RUE DES TREMBLES 77320 MONTDAUPHIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843283060",
+   "enseigne": "BRASSERIE ZIEGLER",
+   "dep": "77",
+   "communes": [
+    "NANTEAU-SUR-LUNAIN"
+   ],
+   "adresses": [
+    "21 RUE DE LORREZ-LE-BOCAGE 77710 NANTEAU-SUR-LUNAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:825093701",
+   "enseigne": "BRASSERIE RABOURDIN",
+   "dep": "77",
+   "communes": [
+    "COURPALAY"
+   ],
+   "adresses": [
+    "22 RUE LA FAYETTE 77540 COURPALAY"
+   ],
+   "osm": [
+    "node/8422857760"
+   ],
+   "site": "https://www.brasserierabourdin.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828294934",
+   "enseigne": "MICRO-BRASSERIE BACOTTE",
+   "dep": "77",
+   "communes": [
+    "CHARTRETTES"
+   ],
+   "adresses": [
+    "119 RUE DES HETRES 77590 CHARTRETTES"
+   ],
+   "osm": [
+    "way/251251871"
+   ],
+   "site": "https://lamoussedebleau.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948168729",
+   "enseigne": "LA COMPAGNIE DES BIERES",
+   "dep": "77",
+   "communes": [
+    "FONTAINEBLEAU"
+   ],
+   "adresses": [
+    "10 RUE MONTEBELLO 77300 FONTAINEBLEAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:879599850",
+   "enseigne": "MICROBRASSERIE SECOND DEGRE",
+   "dep": "77",
+   "communes": [
+    "MAGNY-LE-HONGRE"
+   ],
+   "adresses": [
+    "10 RUE DE L'EGLISE 77700 MAGNY-LE-HONGRE"
+   ],
+   "osm": [
+    "node/8075481373"
+   ],
+   "site": "https://auseconddegre.shop/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:433469251",
+   "enseigne": "SARL GATINORGE",
+   "dep": "77",
+   "communes": [
+    "MONDREVILLE"
+   ],
+   "adresses": [
+    "6 HAMEAU DE PILVERNIER 77570 MONDREVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:908373681",
+   "enseigne": "MICROBRASSERIE DU SAULE",
+   "dep": "77",
+   "communes": [
+    "VILLENOY"
+   ],
+   "adresses": [
+    "7 RUE ARISTIDE BRIAND 77124 VILLENOY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823504220",
+   "enseigne": "L'INSTANT",
+   "dep": "77",
+   "communes": [
+    "PONTAULT-COMBAULT"
+   ],
+   "adresses": [
+    "24 B RUE DU PRE DES AULNES 77340 PONTAULT-COMBAULT"
+   ],
+   "osm": [
+    "node/8075481374"
+   ],
+   "site": "https://bieres-linstant.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820331270",
+   "enseigne": "BRASSERIE ARTISANALE PACHAMAMA",
+   "dep": "77",
+   "communes": [
+    "LA GENEVRAYE"
+   ],
+   "adresses": [
+    "HAMEAU DE CUGNY 4 RUE DE LA FERME 77690 LA GENEVRAYE"
+   ],
+   "osm": [
+    "node/4449367519"
+   ],
+   "site": "https://www.facebook.com/pachamama77/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802738146",
+   "enseigne": "CRAZY HOPS BRASSERIE ARTISANALE",
+   "dep": "77",
+   "communes": [
+    "VAUX-SUR-LUNAIN"
+   ],
+   "adresses": [
+    "HAMEAU VILLENIARD RUE DE LA TUILERIE 77710 VAUX-SUR-LUNAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831136890",
+   "enseigne": "SAINT FIACRE",
+   "dep": "77",
+   "communes": [
+    "CRECY-LA-CHAPELLE"
+   ],
+   "adresses": [
+    "11 PLACE CAMUS 77580 CRECY-LA-CHAPELLE"
+   ],
+   "osm": [
+    "node/8075481375"
+   ],
+   "site": "https://fr-fr.facebook.com/bieresaintfiacre/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:851507087",
+   "enseigne": "BRASSERIE DES GROTTES",
+   "dep": "77",
+   "communes": [
+    "BOISSISE-LA-BERTRAND"
+   ],
+   "adresses": [
+    "1806 RUE DE SEINE 77350 BOISSISE-LA-BERTRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911408862",
+   "enseigne": "BRASSERIE BELLADONE",
+   "dep": "77",
+   "communes": [
+    "VILLENOY"
+   ],
+   "adresses": [
+    "BAT A 9 RUE GAMBETTA 77124 VILLENOY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:5",
+   "enseigne": "LA PLANQUE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "77",
+   "communes": [
+    "SAMOREAU"
+   ],
+   "adresses": [
+    "32 RUE DES PREFOIX 77210 SAMOREAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:923153811",
+   "enseigne": "BIERE EN HERBE",
+   "dep": "77",
+   "communes": [
+    "SAINTE-COLOMBE"
+   ],
+   "adresses": [
+    "3 RUE DES CHAMPS VIONS 77650 SAINTE-COLOMBE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835135328",
+   "enseigne": "AVANTI LUPPOLO !",
+   "dep": "77",
+   "communes": [
+    "CHELLES"
+   ],
+   "adresses": [
+    "44 AVENUE DE LA RESISTANCE 77500 CHELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:509184214",
+   "enseigne": "SAS BRASSERIE PARISIS",
+   "dep": "77",
+   "communes": [
+    "COMBS-LA-VILLE"
+   ],
+   "adresses": [
+    "3 RUE RENE DUMONT 77380 COMBS-LA-VILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843351537",
+   "enseigne": "LE MICRO KOMBINAT",
+   "dep": "77",
+   "communes": [
+    "MONTEREAU-FAULT-YONNE"
+   ],
+   "adresses": [
+    "25 RUE DU DOCTEUR ARTHUR PETIT 77130 MONTEREAU-FAULT-YONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10024333612",
+   "enseigne": "Parisis (Combs-la-Ville)",
+   "dep": "77",
+   "communes": [
+    "Combs-la-Ville"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/10024333612"
+   ],
+   "site": "https://brasserie-parisis.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3515448663",
+   "enseigne": "Crazy Hops",
+   "dep": "77",
+   "communes": [
+    "Chéroy"
+   ],
+   "adresses": [
+    "Rue de La Tuilerie, 77710"
+   ],
+   "osm": [
+    "node/3515448663"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3536633873",
+   "enseigne": "Le Royal Club",
+   "dep": "77",
+   "communes": [
+    "Moissy-Cramayel"
+   ],
+   "adresses": [
+    "27 Avenue Philippe Bur, 77550 Moissy-Cramayel"
+   ],
+   "osm": [
+    "node/3536633873"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/4464504894",
+   "enseigne": "Brasserie Rabourdin (Courpalay, node/4464504894)",
+   "dep": "77",
+   "communes": [
+    "Courpalay"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4464504894"
+   ],
+   "site": "https://biere-de-brie.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7639740286",
+   "enseigne": "Bière du Loing",
+   "dep": "77",
+   "communes": [
+    "Montigny-sur-Loing"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7639740286"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8075481377",
+   "enseigne": "Microbrasserie du Saule",
+   "dep": "77",
+   "communes": [
+    "Meaux"
+   ],
+   "adresses": [
+    "7 Rue Aristide Briand"
+   ],
+   "osm": [
+    "node/8075481377"
+   ],
+   "site": "http://www.bieresdusaule.fr/",
+   "statut": "ambigu"
+  }
+ ]
+]

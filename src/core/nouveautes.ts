@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: '6629ed96fdb9bda1',
+  empreinte: 'a8bbb34779879ff1',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 270 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 453 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse et dans les Hauts-de-France.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 272 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 464 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France et en Île-de-France.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-29', texte: '11 brasseries de plus en Île-de-France : Paris, les Hauts-de-Seine, la Seine-Saint-Denis et le Val-de-Marne, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-29', texte: '35 brasseries de plus dans les Hauts-de-France : 34 dans le Nord, et une relue dans le Pas-de-Calais. La première « Consommer sur place seulement » y entre.' },
   { date: '2026-10-28', texte: '17 brasseries ajoutées dans l’Aisne, l’Oise, le Pas-de-Calais et la Somme, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-27', texte: '8 brasseries de plus dans les Hautes-Alpes, les Alpes-Maritimes, les Bouches-du-Rhône, le Var et le Vaucluse, relues avec de nouvelles recherches, d’après leur site ou un office de tourisme.' },

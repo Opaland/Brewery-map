@@ -1,0 +1,479 @@
+[
+ [
+  {
+   "cle": "sirene:751998436",
+   "enseigne": "BRASSERIE BAPBAP",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "79 RUE SAINT-MAUR 75011 PARIS",
+    "BOUTIQUE SUR RUE 79 RUE SAINT-MAUR 75011 PARIS"
+   ],
+   "osm": [
+    "node/3765494684"
+   ],
+   "site": "https://www.bapbap.paris/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:805054137",
+   "enseigne": "BRASSERIE DE L'ETRE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "7 T RUE DUVERGIER 75019 PARIS",
+    "24/26 24 RUE RAYMOND QUENEAU 75018 PARIS",
+    "12 RUE ARMAND CARREL 75019 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820574275",
+   "enseigne": "TRIPLE I",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "6-10 6 RUE GUILLAUME BERTRAND 75011 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823797766",
+   "enseigne": "BRASSERIE LILLOISE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "231 RUE SAINT-HONORE 75001 PARIS"
+   ],
+   "osm": [],
+   "statut": "homonyme"
+  },
+  {
+   "cle": "sirene:821437670",
+   "enseigne": "SOFRABRA",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "32 RUE LEMERCIER 75017 PARIS",
+    "29 RUE NOTRE-DAME DE NAZARETH 75003 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:834222325",
+   "enseigne": "LES NOUVEAUX BRASSEURS",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "6-10 6 RUE GUILLAUME BERTRAND 75011 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851710707",
+   "enseigne": "BLACK BREWERY",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "16 RUE AMPERE 75017 PARIS",
+    "140 BOULEVARD RICHARD LENOIR 75011 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:751467457",
+   "enseigne": "BRASSERIE DE LA GOUTTE D'OR",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "28 A 30 28 RUE DE LA GOUTTE D'OR 75018 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898065891",
+   "enseigne": "MSD",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "8 RUE DE BELLEVILLE 75020 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953013976",
+   "enseigne": "HOMING BIRDS",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "366 T RUE DE VAUGIRARD 75015 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:840712657",
+   "enseigne": "INTO THE MALT",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "3 RUE DU PRINTEMPS 75017 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838889319",
+   "enseigne": "LES BIERES DE BELLEVILLE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "9 RUE JEAN-BAPTISTE DUMAY 75020 PARIS",
+    "4 CITE JANDELLE 75019 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881551345",
+   "enseigne": "WH LAB",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "231 RUE SAINT-HONORE 75001 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898887369",
+   "enseigne": "LES ZYTHOLOGUES",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "3 RUE ELISA LEMONNIER 75012 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835274879",
+   "enseigne": "BMV92",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "11 RUE DU DOCTEUR LANCEREAUX 75008 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:102854767",
+   "enseigne": "COMPTOIR GENERAL VOLTAIRE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "136 BOULEVARD VOLTAIRE 75011 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:428626642",
+   "enseigne": "SCDF CRESTIA",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "24 RUE SAULNIER 75009 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924936339",
+   "enseigne": "RAGONDINERIE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "54 AVENUE DE BRETEUIL 75007 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912053931",
+   "enseigne": "DDW HANDCRAFTED SAS",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "157 BOULEVARD DAVOUT 75020 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:928278308",
+   "enseigne": "LES PARIGOTS",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "3 RUE MONSIEUR LE PRINCE 75006 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:837491281",
+   "enseigne": "OSKARE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "37-39 37 RUE DES GRANDS CHAMPS 75020 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792337313",
+   "enseigne": "BRASSERIE LA BALEINE",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "56 BOULEVARD DAVOUT 75020 PARIS"
+   ],
+   "osm": [
+    "node/3515250017"
+   ],
+   "site": "https://www.brasserielabaleine.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:939626057",
+   "enseigne": "ORDRE DU MALT",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "28 RUE NOTRE-DAME DES CHAMPS 75006 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828353987",
+   "enseigne": "MICRO BRASSERIE BALTHAZAR",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "90 BOULEVARD DE MENILMONTANT 75020 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889082921",
+   "enseigne": "LBBF",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "116 RUE LEGENDRE 75017 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:930292792",
+   "enseigne": "COAL",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "CR2D 97 RUE DE BELLEVILLE 75019 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934406703",
+   "enseigne": "KORAI BEER",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "8 RUE DE LA SOURCE 75016 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:943657205",
+   "enseigne": "BEPIM",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "23 RUE DU BORREGO 75020 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838954535",
+   "enseigne": "BRASSERIE DE LA BIERE MICHEL",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "M. PIERRE FAUDOT DIT BEL 59 RUE SARRETTE 75014 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:989325634",
+   "enseigne": "KINTSUGI",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "49 QUAI DE VALMY 75010 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:828139212",
+   "enseigne": "MASHROOMS",
+   "dep": "75",
+   "communes": [
+    "PARIS"
+   ],
+   "adresses": [
+    "2 RUE GUSTAVE ROUANET 75018 PARIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13387667101",
+   "enseigne": "Académie de la bière",
+   "dep": "75",
+   "communes": [
+    "Paris"
+   ],
+   "adresses": [
+    "88 bis Boulevard de Port-Royal, 75005"
+   ],
+   "osm": [
+    "node/13387667101"
+   ],
+   "site": "https://www.academie-biere.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/14005957401",
+   "enseigne": "Soquee Brewing",
+   "dep": "75",
+   "communes": [
+    "Bagnolet"
+   ],
+   "adresses": [
+    "157 Boulevard Davout, 75020"
+   ],
+   "osm": [
+    "node/14005957401"
+   ],
+   "site": "https://soqueebrewing.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/54740915",
+   "enseigne": "Le Biscornu",
+   "dep": "75",
+   "communes": [
+    "Paris"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/54740915"
+   ],
+   "site": "http://www.lebiscornu.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,534 @@
+[
+ {
+  "cle": "sirene:798950952",
+  "nom": "BRASSERIE LA PARISIENNE",
+  "communes": [
+   "PANTIN"
+  ],
+  "departement": "93",
+  "adresses": [
+   "29 RUE CARTIER BRESSON 93500 PANTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "798950952",
+  "sirets": [
+   "79895095200027"
+  ],
+  "osm": [],
+  "lat": 48.902869643277,
+  "lon": 2.39724328260823,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820574275",
+  "nom": "TRIPLE I",
+  "communes": [
+   "AUBERVILLIERS"
+  ],
+  "departement": "93",
+  "adresses": [
+   "40 RUE HEMET 93300 AUBERVILLIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820574275",
+  "sirets": [
+   "82057427500039"
+  ],
+  "osm": [],
+  "lat": 48.9183412623126,
+  "lon": 2.38907809365204,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:751467457",
+  "nom": "BRASSERIE DE LA GOUTTE D'OR",
+  "communes": [
+   "AUBERVILLIERS"
+  ],
+  "departement": "93",
+  "adresses": [
+   "LOT 1 40 RUE HEMET 93300 AUBERVILLIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "751467457",
+  "sirets": [
+   "75146745700022"
+  ],
+  "osm": [],
+  "lat": 48.9183412623126,
+  "lon": 2.38907809365204,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898065891",
+  "nom": "MSD",
+  "communes": [
+   "BOBIGNY"
+  ],
+  "departement": "93",
+  "adresses": [
+   "18 RUE ALBERT EINSTEIN 93000 BOBIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898065891",
+  "sirets": [
+   "89806589100035"
+  ],
+  "osm": [],
+  "lat": 48.9053527865881,
+  "lon": 2.42923614395414,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:109482752",
+  "nom": "LE GOUT DE LA BOISSIERE",
+  "communes": [
+   "MONTREUIL"
+  ],
+  "departement": "93",
+  "adresses": [
+   "ETAGE 6 APPARTEMENT 2062, BATIMENT B 4 RUE FRANTZ FANON 93100 MONTREUIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "109482752",
+  "sirets": [
+   "10948275200010"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MONTREUIL"
+  ],
+  "departement": "93",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:892717950",
+  "nom": "BRASSERIE MIR",
+  "communes": [
+   "ROMAINVILLE"
+  ],
+  "departement": "93",
+  "adresses": [
+   "50 BOULEVARD EMILE GENEVOIX 93230 ROMAINVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892717950",
+  "sirets": [
+   "89271795000018"
+  ],
+  "osm": [],
+  "lat": 48.8815551238322,
+  "lon": 2.43585674187523,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:799884630",
+  "nom": "LA MONTREUILLOISE",
+  "communes": [
+   "MONTREUIL"
+  ],
+  "departement": "93",
+  "adresses": [
+   "69 RUE FRANCOIS ARAGO 93100 MONTREUIL"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "799884630",
+  "sirets": [
+   "79988463000044"
+  ],
+  "osm": [
+   "node/3765529089"
+  ],
+  "lat": 48.8536458332252,
+  "lon": 2.42790955142516,
+  "site": "https://la-montreuilloise.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802521906",
+  "nom": "UMA",
+  "communes": [
+   "BOBIGNY"
+  ],
+  "departement": "93",
+  "adresses": [
+   "1 RUE DE PARIS 93000 BOBIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "802521906",
+  "sirets": [
+   "80252190600031"
+  ],
+  "osm": [],
+  "lat": 48.8956166716887,
+  "lon": 2.42466496730973,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:794582494",
+  "nom": "FROGBEER",
+  "communes": [
+   "PIERREFITTE-SUR-SEINE"
+  ],
+  "departement": "93",
+  "adresses": [
+   "5 RUE SEVERINE 93380 PIERREFITTE-SUR-SEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "794582494",
+  "sirets": [
+   "79458249400041"
+  ],
+  "osm": [],
+  "lat": 48.961027492,
+  "lon": 2.3567735087,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:518903695",
+  "nom": "DPBC",
+  "communes": [
+   "SAINT-DENIS"
+  ],
+  "departement": "93",
+  "adresses": [
+   "137 AVENUE DU PRESIDENT WILSON 93210 SAINT-DENIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "518903695",
+  "sirets": [
+   "51890369500030"
+  ],
+  "osm": [],
+  "lat": 48.908707654684,
+  "lon": 2.35773228415017,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849810171",
+  "nom": "BRASSERIE LA FRANCAISE",
+  "communes": [
+   "NOISY-LE-GRAND"
+  ],
+  "departement": "93",
+  "adresses": [
+   "23 RUE DE LA PASSERELLE 93160 NOISY-LE-GRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849810171",
+  "sirets": [
+   "84981017100017"
+  ],
+  "osm": [],
+  "lat": 48.850087481,
+  "lon": 2.5238504431,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:533304952",
+  "nom": "MY BEER COMPANY",
+  "communes": [
+   "SAINT-DENIS"
+  ],
+  "departement": "93",
+  "adresses": [
+   "103 RUE CHARLES MICHELS 93200 SAINT-DENIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "533304952",
+  "sirets": [
+   "53330495200021"
+  ],
+  "osm": [
+   "way/63986250"
+  ],
+  "lat": 48.929240566,
+  "lon": 2.3438242932,
+  "site": "https://www.bgp.paris",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838844207",
+  "nom": "BRASSERIE CROIX DE CHAVAUX",
+  "communes": [
+   "MONTREUIL"
+  ],
+  "departement": "93",
+  "adresses": [
+   "8 RUE DESIRE CHARTON 93100 MONTREUIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838844207",
+  "sirets": [
+   "83884420700012"
+  ],
+  "osm": [],
+  "lat": 48.867295778,
+  "lon": 2.4508169396,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BAGNOLET"
+  ],
+  "departement": "93",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "MONTREUIL"
+  ],
+  "departement": "93",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:499969996",
+  "nom": "GALOPIN",
+  "communes": [
+   "BAGNOLET"
+  ],
+  "departement": "93",
+  "adresses": [
+   "192 RUE ETIENNE MARCEL 93170 BAGNOLET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "499969996",
+  "sirets": [
+   "49996999600051"
+  ],
+  "osm": [
+   "node/5805244955"
+  ],
+  "lat": 48.857166411,
+  "lon": 2.4221633272,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "ROSNY-SOUS-BOIS"
+  ],
+  "departement": "93",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/3058136850",
+  "nom": "Le Relais Parisien",
+  "communes": [
+   "Aulnay-sous-Bois"
+  ],
+  "departement": "93",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3058136850"
+  ],
+  "lat": 48.92789,
+  "lon": 2.49104,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4449883375",
+  "nom": "Brasserie Gallia",
+  "communes": [
+   "Pantin"
+  ],
+  "departement": "93",
+  "adresses": [
+   "35 Rue Méhul, 93500 Pantin"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4449883375"
+  ],
+  "lat": 48.88924,
+  "lon": 2.41355,
+  "site": "http://www.galliaparis.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6087697663",
+  "nom": "Brasserie de l'Être",
+  "communes": [
+   "Le Pré-Saint-Gervais"
+  ],
+  "departement": "93",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6087697663"
+  ],
+  "lat": 48.88929,
+  "lon": 2.37683,
+  "site": "https://brasseriedeletre.paris/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7632124298",
+  "nom": "Demory Paris",
+  "communes": [
+   "Bobigny"
+  ],
+  "departement": "93",
+  "adresses": [
+   "1, 93000 Bobigny"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7632124298"
+  ],
+  "lat": 48.89562,
+  "lon": 2.42419,
+  "site": "https://demoryparis.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7659450772",
+  "nom": "Paname Brewing Company",
+  "communes": [
+   "Pantin"
+  ],
+  "departement": "93",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7659450772"
+  ],
+  "lat": 48.89893,
+  "lon": 2.39957,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/70002564",
+  "nom": "Les bières de Belleville",
+  "communes": [
+   "Le Pré-Saint-Gervais"
+  ],
+  "departement": "93",
+  "adresses": [
+   "9 Rue Jean Baptiste Dumay"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/70002564"
+  ],
+  "lat": 48.87437,
+  "lon": 2.38772,
+  "statut": "nouveau"
+ }
+]

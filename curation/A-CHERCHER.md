@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 609 | 21 (3 %) | 42 | 238 | 215 | 281 | 373 | 415 | 445 |
+| **Total** | 620 | 21 (3 %) | 42 | 242 | 216 | 283 | 377 | 419 | 456 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -61,16 +61,20 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
+| 75 · Paris | 3 | 0 (0 %) | 0 | 2 | 0 | 0 | 0 | 1 | 3 |
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 80 · Somme | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 14 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
+| 92 · Hauts-de-Seine | 3 | 0 (0 %) | 0 | 1 | 1 | 2 | 2 | 1 | 3 |
+| 93 · Seine-Saint-Denis | 3 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 2 | 3 |
+| 94 · Val-de-Marne | 2 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
 
 ## Les « À confirmer » à chercher
 
-238 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+242 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -401,6 +405,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Maelström (La Balme-de-Sillingy) : sans horaires, sans bières
 - Les Brasseurs Savoyards (Alby-sur-Chéran) : sans horaires, sans bières
 
+### 75 · Paris
+
+- Brasserie de l'Être (Paris) : sans horaires, sans bières
+- Brasserie La Baleine (Paris) : sans bières
+
 ### 76 · Seine-Maritime
 
 - Brasserie Dieppoise (Martin-Église) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -438,4 +447,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie de Chablis (Maddam) (Chablis) : sans horaires, sans bières
 - Grand Duc Microbrasserie (Sormery) : sans horaires, sans bières
 - La Vaugermaine (Saint-Cyr-les-Colons) : sans horaires, sans bières
+
+### 92 · Hauts-de-Seine
+
+- Suresnes Beer Factory (Suresnes) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
+### 93 · Seine-Saint-Denis
+
+- Frogbeer (Saint-Denis) : sans téléphone, sans horaires, sans bières
 

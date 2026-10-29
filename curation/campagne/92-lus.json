@@ -1,0 +1,133 @@
+[
+  {
+    "cle": "sirene:851679415",
+    "n": "Suresnes Beer Factory",
+    "c": "Suresnes",
+    "adresse": "rue Kellogg, 92150 Suresnes",
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie associative de Suresnes, d'après l'office de tourisme, qui vend sa bière. Ce qu'on peut faire à la brasserie elle-même n'est pas établi : à confirmer.",
+    "src": "https://en.suresnes-tourisme.com/local-producers-suresnes.html",
+    "extrait": "The beer is available to buy from Suresnes Tourist Office",
+    "beers": [],
+    "choix": "Une seule page d'office de tourisme (confiance au plus moyenne) : catégorie 0. Une annonce de visite sur une plateforme de réservation n'est pas reprise (source non valable). Téléphone de l'office non repris. Adresse sans numéro, telle que sur la page. Source rouverte à la main le 29/10."
+  },
+  {
+    "cle": "sirene:951126630",
+    "n": "Boneless Brewing Company",
+    "c": "Châtillon",
+    "adresse": "93 Boulevard de Vanves, 92320 Châtillon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce de la vente directe à la brasserie, avec ses créneaux. Il ne dit pas si l'on peut boire sur place : catégorie 2 par prudence, la consommation sur place n'est pas établie.",
+    "src": "https://www.bonelessbrewing.com/",
+    "extrait": "Vente directe à la brasserie",
+    "beers": [],
+    "choix": "Page Untappd https://untappd.com/BonelessBrewingCo ouverte (Boneless Brewing Co, Châtillon), mais le site officiel n'y renvoie pas : non mise dans contact, dont la source est le site. Cédric peut l'ajouter. Aucun téléphone publié. L'e-mail du site n'est pas retenu (pas de champ). Seules les trois bières nommées sur le site avec un style clair sont retenues. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md).",
+    "contact": {
+      "site": "https://www.bonelessbrewing.com/",
+      "source": "https://www.bonelessbrewing.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "lun": [
+          [
+            "17:30",
+            "19:30"
+          ]
+        ],
+        "mar": [
+          [
+            "17:30",
+            "19:30"
+          ]
+        ],
+        "mer": [
+          [
+            "17:30",
+            "19:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:30",
+            "19:30"
+          ]
+        ],
+        "ven": [
+          [
+            "17:30",
+            "19:30"
+          ]
+        ],
+        "sam": [
+          [
+            "11:00",
+            "13:00"
+          ],
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "source": "https://www.bonelessbrewing.com/"
+      }
+    ]
+  },
+  {
+    "cle": "way/1024690864",
+    "n": "Brasserie Nemeto",
+    "c": "Nanterre",
+    "adresse": "4 rue Silvy, 92000 Nanterre",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie et biscuiterie bio. Bières et biscuits en vente à emporter à la brasserie du lundi au vendredi, et le 1er samedi du mois, avec une visite gratuite à 15h30 ces samedis-là (sauf en décembre). Pas de livraison aux particuliers.",
+    "src": "https://www.brasserienemeto.fr/boutique",
+    "extrait": "Toute nos bières et nos biscuits sont disponibles à la brasserie en vente à emporter.",
+    "beers": [],
+    "choix": "Catégorie 2 et non 1 : le site parle de dégustation seulement dans le cadre des visites (« Vous aurez également l'occasion de déguster nos bières directement à la source », page Nos services), et aucune page ne montre un lieu où l'on boit sans visite. Téléphone : un seul numéro publié, sur la page contact. Untappd : https://untappd.com/brasserienemeto est cité sur la page d'accueil (« Retrouvez aussi nos bières sur Untappd ») et la page s'ouvre (brasserie revendiquée, 28 bières) ; je ne le mets pas dans `contact` parce que la source du contact (page contact) n'a pas été vue le portant. Il est à ajouter si Cédric l'accepte (source : la page d'accueil). Bières laissées vides : le site liste Geneviève (blonde, pale ale), La Grange (blanche, hefeweizen), Bois Joly (ambrée au miel), La Folie (ambrée, IPA), Boulevard du Couchant (brune, brown porter) et Trigoujat (blonde belge, saison). Je n'ai pas rempli le champ `beers`, dont l'énumération des types n'a pas été vérifiée. Samedi : le 1er samedi du mois seulement, 10h30-13h et 15h30-19h. Un créneau hebdomadaire ne sait pas le dire, donc il est dans `remarque`. La fiche SIRENE `sirene:850026246` (BRASSERIE 02 SEINE, 4 rue Silvy, Nanterre) est très probablement la même entité, dans un autre paquet : à dédoubler. Source rouverte à la main le 29/10.",
+    "contact": {
+      "tel": "01 46 95 44 25",
+      "site": "https://www.brasserienemeto.fr/",
+      "source": "https://www.brasserienemeto.fr/contact-5"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "lun": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "18:00"
+          ]
+        ],
+        "remarque": "Ouvert aussi le 1er samedi de chaque mois, de 10h30 à 13h et de 15h30 à 19h ; visite gratuite d'une heure à 15h30 ces samedis-là (sauf en décembre).",
+        "source": "https://www.brasserienemeto.fr/boutique"
+      }
+    ]
+  }
+]

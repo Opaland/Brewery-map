@@ -1,0 +1,293 @@
+[
+ [
+  {
+   "cle": "sirene:798950952",
+   "enseigne": "BRASSERIE LA PARISIENNE",
+   "dep": "93",
+   "communes": [
+    "PANTIN"
+   ],
+   "adresses": [
+    "29 RUE CARTIER BRESSON 93500 PANTIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820574275",
+   "enseigne": "TRIPLE I",
+   "dep": "93",
+   "communes": [
+    "AUBERVILLIERS"
+   ],
+   "adresses": [
+    "40 RUE HEMET 93300 AUBERVILLIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:751467457",
+   "enseigne": "BRASSERIE DE LA GOUTTE D'OR",
+   "dep": "93",
+   "communes": [
+    "AUBERVILLIERS"
+   ],
+   "adresses": [
+    "LOT 1 40 RUE HEMET 93300 AUBERVILLIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898065891",
+   "enseigne": "MSD",
+   "dep": "93",
+   "communes": [
+    "BOBIGNY"
+   ],
+   "adresses": [
+    "18 RUE ALBERT EINSTEIN 93000 BOBIGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:109482752",
+   "enseigne": "LE GOUT DE LA BOISSIERE",
+   "dep": "93",
+   "communes": [
+    "MONTREUIL"
+   ],
+   "adresses": [
+    "ETAGE 6 APPARTEMENT 2062, BATIMENT B 4 RUE FRANTZ FANON 93100 MONTREUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892717950",
+   "enseigne": "BRASSERIE MIR",
+   "dep": "93",
+   "communes": [
+    "ROMAINVILLE"
+   ],
+   "adresses": [
+    "50 BOULEVARD EMILE GENEVOIX 93230 ROMAINVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:799884630",
+   "enseigne": "LA MONTREUILLOISE",
+   "dep": "93",
+   "communes": [
+    "MONTREUIL"
+   ],
+   "adresses": [
+    "69 RUE FRANCOIS ARAGO 93100 MONTREUIL"
+   ],
+   "osm": [
+    "node/3765529089"
+   ],
+   "site": "https://la-montreuilloise.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802521906",
+   "enseigne": "UMA",
+   "dep": "93",
+   "communes": [
+    "BOBIGNY"
+   ],
+   "adresses": [
+    "1 RUE DE PARIS 93000 BOBIGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:794582494",
+   "enseigne": "FROGBEER",
+   "dep": "93",
+   "communes": [
+    "PIERREFITTE-SUR-SEINE"
+   ],
+   "adresses": [
+    "5 RUE SEVERINE 93380 PIERREFITTE-SUR-SEINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:518903695",
+   "enseigne": "DPBC",
+   "dep": "93",
+   "communes": [
+    "SAINT-DENIS"
+   ],
+   "adresses": [
+    "137 AVENUE DU PRESIDENT WILSON 93210 SAINT-DENIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:849810171",
+   "enseigne": "BRASSERIE LA FRANCAISE",
+   "dep": "93",
+   "communes": [
+    "NOISY-LE-GRAND"
+   ],
+   "adresses": [
+    "23 RUE DE LA PASSERELLE 93160 NOISY-LE-GRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:533304952",
+   "enseigne": "MY BEER COMPANY",
+   "dep": "93",
+   "communes": [
+    "SAINT-DENIS"
+   ],
+   "adresses": [
+    "103 RUE CHARLES MICHELS 93200 SAINT-DENIS"
+   ],
+   "osm": [
+    "way/63986250"
+   ],
+   "site": "https://www.bgp.paris",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838844207",
+   "enseigne": "BRASSERIE CROIX DE CHAVAUX",
+   "dep": "93",
+   "communes": [
+    "MONTREUIL"
+   ],
+   "adresses": [
+    "8 RUE DESIRE CHARTON 93100 MONTREUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:499969996",
+   "enseigne": "GALOPIN",
+   "dep": "93",
+   "communes": [
+    "BAGNOLET"
+   ],
+   "adresses": [
+    "192 RUE ETIENNE MARCEL 93170 BAGNOLET"
+   ],
+   "osm": [
+    "node/5805244955"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3058136850",
+   "enseigne": "Le Relais Parisien",
+   "dep": "93",
+   "communes": [
+    "Aulnay-sous-Bois"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3058136850"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/4449883375",
+   "enseigne": "Brasserie Gallia",
+   "dep": "93",
+   "communes": [
+    "Pantin"
+   ],
+   "adresses": [
+    "35 Rue Méhul, 93500 Pantin"
+   ],
+   "osm": [
+    "node/4449883375"
+   ],
+   "site": "http://www.galliaparis.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6087697663",
+   "enseigne": "Brasserie de l'Être",
+   "dep": "93",
+   "communes": [
+    "Le Pré-Saint-Gervais"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6087697663"
+   ],
+   "site": "https://brasseriedeletre.paris/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7632124298",
+   "enseigne": "Demory Paris",
+   "dep": "93",
+   "communes": [
+    "Bobigny"
+   ],
+   "adresses": [
+    "1, 93000 Bobigny"
+   ],
+   "osm": [
+    "node/7632124298"
+   ],
+   "site": "https://demoryparis.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7659450772",
+   "enseigne": "Paname Brewing Company",
+   "dep": "93",
+   "communes": [
+    "Pantin"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7659450772"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/70002564",
+   "enseigne": "Les bières de Belleville",
+   "dep": "93",
+   "communes": [
+    "Le Pré-Saint-Gervais"
+   ],
+   "adresses": [
+    "9 Rue Jean Baptiste Dumay"
+   ],
+   "osm": [
+    "way/70002564"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:794582494",
+ "ajout": {
+  "fiche": {
+   "n": "Frogbeer",
+   "c": "Saint-Denis",
+   "d": "93",
+   "lat": 48.96102,
+   "lon": 2.35823,
+   "km": 407.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de production du groupe FrogPubs. Le site officiel ne dit ni visite, ni vente, ni horaires actuels ; une visite guidée du samedi, annoncée en 2019 par un article de presse, n'est pas reprise. Le site écrit Pierrefitte-sur-Seine, commune aujourd'hui fusionnée dans Saint-Denis (le géocodeur de l'IGN ne connaît plus que Saint-Denis pour le 93380).",
+   "addr": "5 rue Séverine, 93380 Pierrefitte-sur-Seine",
+   "src": "https://www.frogpubs.com/beers-the-brewery.php",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.frogpubs.com",
+    "source": "https://www.frogpubs.com/beers-the-brewery.php",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.frogpubs.com/beers-the-brewery.php",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+S%C3%A9verine%2C+93380+Pierrefitte-sur-Seine&limit=5"
+  ],
+  "extrait": "Our very own production brewery is situated just north of central Paris in the town of Pierrefitte-sur-Seine",
+  "choix": "Lecture via un résumé de la page (WebFetch), pas la page brute. Le passage est cité tel que rendu par l'outil, à revérifier à l'ouverture. Adresse lue sur la même page : « Bâtiment CA. Parc d'activités Spirit / Séverine. 5 rue Séverine, 93380. Pierrefitte-sur-Seine. » Aucun téléphone publié ; seul un courriel général (hello@frogpubs.com), non retenu. Catégorie laissée à 0 : l'article de Sortir à Paris (visite gratuite le samedi de 10h30 à 16h, daté de 2019, mis à jour le 08/05/2020) est une presse seule et trop ancienne. Source rouverte à la main le 29/10."
+ }
+}

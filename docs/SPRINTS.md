@@ -3035,3 +3035,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S344, seconde partie — le Nord *(29/10, epic E36, demande de Cédric : « Fait le nord aussi »)*
 
 `docs/stories/S344.md`, issue #185. 131 candidats du Nord lus par 26 agents ; 34 fiches, dont la première « Consommer sur place seulement » (Aux Enfants Terribles) ; plus L'Intemporelle (Pas-de-Calais, relance). Sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée avant d'appliquer, et la réponse de Cédric du 29/10 appliquée (un bar sans vente écrite : catégorie 1, confiance faible). 609 fiches dans 52 départements, OSM à 741 ; les Hauts-de-France sont couverts.
+
+## S345, première partie — Paris et la petite couronne *(29/10, epic E36)*
+
+`docs/stories/S345.md`, issue #186. 82 candidats de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne lus par 19 agents ; 11 fiches par la règle de Cédric du 21/10 (75 : 3, 92 : 3, 93 : 3, 94 : 2), sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée. Un premier `appliquer` a laissé deux lectures de côté sans le dire : défait, corrigé, réappliqué. 620 fiches dans 56 départements, OSM à 734. La grande couronne (77, 78, 91, 95) suit.

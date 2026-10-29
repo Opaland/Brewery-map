@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:847762812",
+ "ajout": {
+  "fiche": {
+   "n": "L'Alfortvillaise",
+   "c": "Alfortville",
+   "d": "94",
+   "lat": 48.80163,
+   "lon": 2.4166,
+   "km": 389.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie : le site officiel dit que les bières sont brassées et embouteillées sur place, qu'un bar permet de les boire (pression et bouteilles) et qu'un point de vente à emporter existe. Le seul numéro publié est un mobile.",
+   "addr": "2 rue des Essertes, 94140 Alfortville",
+   "src": "https://lalfortvillaise.com/a-propos/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 83 42 72 00",
+    "site": "https://lalfortvillaise.com/",
+    "source": "https://lalfortvillaise.com/a-propos/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lalfortvillaise.com/a-propos/",
+     "mar": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://lalfortvillaise.com/a-propos/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+des+Essertes%2C+94140+Alfortville&limit=5"
+  ],
+  "extrait": "Il s’agit d’un bar dans lequel vous pouvez boire nos bières (pression et/ou bouteilles) dans une ambiance décontractée.",
+  "choix": "Les deux pages du site officiel (accueil et à-propos) publient le même mobile, 07 83 42 72 00 : seule ligne publiée par la brasserie (règle du 21/10), retenu. Un fixe 01 43 75 13 57 existe sur l'annuaire Cylex : écarté, ce n'est pas la brasserie qui le publie. Confiance 'moyenne' et non 'solide' car je n'ai eu que des résumés de pages. Horaires de l'à-propos : mardi, mercredi, vendredi 11h-22h, jeudi 15h-22h, samedi 11h-22h ; dimanche et lundi non écrits sur cette page, non déduits. Source rouverte à la main le 29/10. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md)."
+ }
+}

@@ -1,0 +1,681 @@
+[
+ {
+  "cle": "sirene:793900473",
+  "nom": "BRASSERIE DISTRIKT",
+  "communes": [
+   "MAULE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "47 BOULEVARD PAUL BARRE 78580 MAULE",
+   "2 ROUTE D'HERBEVILLE 78580 MAULE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "793900473",
+  "sirets": [
+   "79390047300026",
+   "79390047300042"
+  ],
+  "osm": [],
+  "lat": 48.910866222,
+  "lon": 1.8537705453,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840301055",
+  "nom": "BRASSERIE DU ROI",
+  "communes": [
+   "VERSAILLES",
+   "SAINT-CYR-L'ECOLE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "9 RUE MONTBAURON 78000 VERSAILLES",
+   "75-77 75 RUE DU DOCTEUR VAILLANT 78210 SAINT-CYR-L'ECOLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "840301055",
+  "sirets": [
+   "84030105500025",
+   "84030105500041"
+  ],
+  "osm": [
+   "node/8953948114"
+  ],
+  "lat": 48.8035176511154,
+  "lon": 2.13501367601773,
+  "site": "https://labrasserieduroi.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823426978",
+  "nom": "LA BRASSERIE BARGE",
+  "communes": [
+   "RAMBOUILLET"
+  ],
+  "departement": "78",
+  "adresses": [
+   "26 RUE DU POTEAU DES 3 SEIGNEURS 78120 RAMBOUILLET",
+   "23 RUE DE CLAIREFONTAINE 78120 RAMBOUILLET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823426978",
+  "sirets": [
+   "82342697800016",
+   "82342697800024"
+  ],
+  "osm": [],
+  "lat": 48.6406092718887,
+  "lon": 1.85775956038424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979896842",
+  "nom": "BRASSERIE DILETTANTE ARCISIENNE",
+  "communes": [
+   "BOIS-D'ARCY"
+  ],
+  "departement": "78",
+  "adresses": [
+   "18 RUE EDOUARD VAILLANT 78390 BOIS-D'ARCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979896842",
+  "sirets": [
+   "97989684200015"
+  ],
+  "osm": [],
+  "lat": 48.801474113,
+  "lon": 2.019227235,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:503705006",
+  "nom": "BRASSERIE DE LA VALLEE DE CHEVREUSE",
+  "communes": [
+   "LE PERRAY-EN-YVELINES"
+  ],
+  "departement": "78",
+  "adresses": [
+   "28 RUE DU ROSEAU 78610 LE PERRAY-EN-YVELINES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "503705006",
+  "sirets": [
+   "50370500600024"
+  ],
+  "osm": [],
+  "lat": 48.695819189,
+  "lon": 1.8418077932,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MAISONS-LAFFITTE"
+  ],
+  "departement": "78",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:827467663",
+  "nom": "BRASSERIE2LEQUIPAGE",
+  "communes": [
+   "BONNELLES"
+  ],
+  "departement": "78",
+  "adresses": [
+   "8 RUE DES JACINTHES SAUVAGES 78830 BONNELLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827467663",
+  "sirets": [
+   "82746766300015"
+  ],
+  "osm": [],
+  "lat": 48.625218629,
+  "lon": 2.026526945,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:799277090",
+  "nom": "BIERES SAINT-Q",
+  "communes": [
+   "GUYANCOURT"
+  ],
+  "departement": "78",
+  "adresses": [
+   "ZA DU MOULIN A VENT 14 RUE JEAN MOULIN 78280 GUYANCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "799277090",
+  "sirets": [
+   "79927709000020"
+  ],
+  "osm": [],
+  "lat": 48.769444475,
+  "lon": 2.0642820091,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811394626",
+  "nom": "BRASSERIE O'CLOCK BREWING",
+  "communes": [
+   "BOIS-D'ARCY"
+  ],
+  "departement": "78",
+  "adresses": [
+   "3 RUE GEORGES MELIES 78390 BOIS-D'ARCY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "811394626",
+  "sirets": [
+   "81139462600022"
+  ],
+  "osm": [
+   "node/8569824217"
+  ],
+  "lat": 48.800679313,
+  "lon": 2.0092414668,
+  "site": "https://oclockbrewing.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:913341061",
+  "nom": "BRASSERIE CROIZAT",
+  "communes": [
+   "SAINT-CYR-L'ECOLE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "14 RUE AMBROISE CROIZAT 78210 SAINT-CYR-L'ECOLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913341061",
+  "sirets": [
+   "91334106100012"
+  ],
+  "osm": [],
+  "lat": 48.796376602,
+  "lon": 2.05312697,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920046893",
+  "nom": "THE CHUBBY BREWING COMPANY",
+  "communes": [
+   "BOUAFLE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "30 RUE DES CHARNELLES 78410 BOUAFLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920046893",
+  "sirets": [
+   "92004689300037"
+  ],
+  "osm": [],
+  "lat": 48.9606301246253,
+  "lon": 1.89542815623373,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911410322",
+  "nom": "EXPEDITION BREWERY",
+  "communes": [
+   "BAILLY"
+  ],
+  "departement": "78",
+  "adresses": [
+   "17 RUE DE LA COLLINERIE 78870 BAILLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911410322",
+  "sirets": [
+   "91141032200018"
+  ],
+  "osm": [],
+  "lat": 48.843241104,
+  "lon": 2.0830440094,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:753691773",
+  "nom": "LES BRASSEURS DU VAL DE SEINE",
+  "communes": [
+   "SARTROUVILLE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "165 AVENUE DE LA REPUBLIQUE 78500 SARTROUVILLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "753691773",
+  "sirets": [
+   "75369177300026"
+  ],
+  "osm": [
+   "node/4139006665"
+  ],
+  "lat": 48.9323827970948,
+  "lon": 2.14865488397406,
+  "site": "http://www.laptitesœur.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:924932825",
+  "nom": "JUSTBEER BREWERY",
+  "communes": [
+   "MANTES-LA-JOLIE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "38 RUE FERNAND BODET 78200 MANTES-LA-JOLIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924932825",
+  "sirets": [
+   "92493282500012"
+  ],
+  "osm": [],
+  "lat": 48.998719971,
+  "lon": 1.6970009394,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902798065",
+  "nom": "BRASSERIE LA TRIELLOISE",
+  "communes": [
+   "TRIEL-SUR-SEINE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "24 QUAI AUGUSTE ROY 78510 TRIEL-SUR-SEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902798065",
+  "sirets": [
+   "90279806500014"
+  ],
+  "osm": [],
+  "lat": 48.975863212,
+  "lon": 2.0038118898,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907918957",
+  "nom": "LA STAGNOVILLOISE",
+  "communes": [
+   "L'ETANG-LA-VILLE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "83 ROUTE DE SAINT NOM 78620 L'ETANG-LA-VILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907918957",
+  "sirets": [
+   "90791895700016"
+  ],
+  "osm": [],
+  "lat": 48.869555119,
+  "lon": 2.0583015818,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890481096",
+  "nom": "RESPEKT",
+  "communes": [
+   "ACHERES"
+  ],
+  "departement": "78",
+  "adresses": [
+   "11 RUE DES MARAICHERS 78260 ACHERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890481096",
+  "sirets": [
+   "89048109600018"
+  ],
+  "osm": [],
+  "lat": 48.9647986199507,
+  "lon": 2.05622469797335,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893014662",
+  "nom": "TRICYCLHOP",
+  "communes": [
+   "MANTES-LA-JOLIE"
+  ],
+  "departement": "78",
+  "adresses": [
+   "9 RUE COSTES ET BELLONTE 78200 MANTES-LA-JOLIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893014662",
+  "sirets": [
+   "89301466200017"
+  ],
+  "osm": [],
+  "lat": 49.0001627904532,
+  "lon": 1.67505006226447,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818305443",
+  "nom": "BRASSERIE TOUSSAINT",
+  "communes": [
+   "NOISY-LE-ROI"
+  ],
+  "departement": "78",
+  "adresses": [
+   "ZAC MONGOLFIER 2 AVENUE DE L'EUROPE 78590 NOISY-LE-ROI"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818305443",
+  "sirets": [
+   "81830544300058"
+  ],
+  "osm": [
+   "node/12403272878"
+  ],
+  "lat": 48.842403018,
+  "lon": 2.058527987,
+  "site": "https://www.brasserietoussaint.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852696525",
+  "nom": "TRBL COMPAGNIE SAS",
+  "communes": [
+   "ORGEVAL"
+  ],
+  "departement": "78",
+  "adresses": [
+   "ROUTE DES ALLUETS 78630 ORGEVAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852696525",
+  "sirets": [
+   "85269652500017"
+  ],
+  "osm": [],
+  "lat": 48.917758767,
+  "lon": 1.9527255225,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852891753",
+  "nom": "SASU BRASSERIE LA VOISINE",
+  "communes": [
+   "VILLIERS-SAINT-FREDERIC"
+  ],
+  "departement": "78",
+  "adresses": [
+   "13 RUE DE LA GARE 78640 VILLIERS-SAINT-FREDERIC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852891753",
+  "sirets": [
+   "85289175300026"
+  ],
+  "osm": [],
+  "lat": 48.8154526505079,
+  "lon": 1.87928214975688,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12327046734",
+  "nom": "La brasserie du Roi (Saint-Cyr-l'École)",
+  "communes": [
+   "Saint-Cyr-l'École"
+  ],
+  "departement": "78",
+  "adresses": [
+   "75 Rue du Docteur Vaillant, 78210 Saint-Cyr-l'École"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12327046734"
+  ],
+  "lat": 48.81226,
+  "lon": 2.07576,
+  "site": "https://labrasserieduroi.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/1854003295",
+  "nom": "Rolling's Bar",
+  "communes": [
+   "Freneuse"
+  ],
+  "departement": "78",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/1854003295"
+  ],
+  "lat": 49.04018,
+  "lon": 1.59355,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3512397640",
+  "nom": "Distrikt Beer",
+  "communes": [
+   "Thiverval-Grignon"
+  ],
+  "departement": "78",
+  "adresses": [
+   "50 Route de la Ferme, 78850"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3512397640"
+  ],
+  "lat": 48.84159,
+  "lon": 1.94843,
+  "site": "http://www.distriktbeer.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3752510374",
+  "nom": "Le Vizir",
+  "communes": [
+   "Sartrouville"
+  ],
+  "departement": "78",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3752510374"
+  ],
+  "lat": 48.93892,
+  "lon": 2.15792,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4155657290",
+  "nom": "Le Villaroy",
+  "communes": [
+   "Guyancourt"
+  ],
+  "departement": "78",
+  "adresses": [
+   "1, 78280 Guyancourt"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4155657290"
+  ],
+  "lat": 48.76703,
+  "lon": 2.07937,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7203823199",
+  "nom": "Brasserie de la vallée de Chevreuse",
+  "communes": [
+   "Perray-en-Yveline"
+  ],
+  "departement": "78",
+  "adresses": [
+   "28 Rue du Roseau, 78610 Perray-en-Yveline"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7203823199"
+  ],
+  "lat": 48.69565,
+  "lon": 1.84138,
+  "site": "https://www.brasserievolcelest.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE LA VALLEE DE CHEVREUSE"
+ },
+ {
+  "cle": "node/9280921450",
+  "nom": "La Véranda",
+  "communes": [
+   "Le Chesnay-Rocquencourt"
+  ],
+  "departement": "78",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9280921450"
+  ],
+  "lat": 48.81095,
+  "lon": 2.12039,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/63158105",
+  "nom": "Le Sporting",
+  "communes": [
+   "Trappes"
+  ],
+  "departement": "78",
+  "adresses": [
+   "15 Avenue Paul Vaillant-Couturier, 78190 Trappes"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/63158105"
+  ],
+  "lat": 48.7792,
+  "lon": 2.01108,
+  "statut": "nouveau"
+ }
+]
