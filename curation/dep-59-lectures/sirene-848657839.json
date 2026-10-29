@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:848657839",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Motte Cordonnier",
+   "c": "Armentières",
+   "d": "59",
+   "lat": 50.68598,
+   "lon": 2.8935,
+   "km": 574,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe et reçoit le vendredi de 15h à 18h, mais sa page ne dit pas qu'on peut y acheter ou y boire une bière sur place ; les bières se commandent en ligne.",
+   "addr": "4 avenue Pierre Mauroy, 59280 Armentières",
+   "src": "https://bieresmottecordonnier.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://bieresmottecordonnier.fr",
+    "source": "https://bieresmottecordonnier.fr",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://bieresmottecordonnier.fr",
+   "https://data.geopf.fr/geocodage/search?q=4+avenue+Pierre+Mauroy%2C+59280+Armenti%C3%A8res&limit=5"
+  ],
+  "extrait": "Visite et dégustation de 3 produits (sur demande au 03 68 38 60 06",
+  "choix": "Lecture via un résumé du site officiel. Lu : « Venez nous rencontrer ! », « Chaque vendredi », « De 15h à 18h », « Commandez les dès maintenant ! » (boutique en ligne easybeer), « Découvrez où vous procurer nos bières », visite et dégustation sur demande (10 €/personne, groupe de 10 min.), adresse « Ruche d'entreprises d'Armentières, 4 avenue Pierre Mauroy 59280 Armentières ». Rien ne dit qu'on achète ou boit sur place le vendredi : catégorie 0, pas d'horaires proposés (la rencontre du vendredi n'est ni de l'accueil ni de la vente établis). Une fiche Lille Tourism (office) dit « ouvert le vendredi 15h-19h » : contredit le site (15h-18h), écartée, et son numéro (+33 3 68 38 60 06) est le même que celui du site. Pas d'Untappd trouvé. Source rouverte à la main le 29/10. Téléphone non repris : l'outil de contrôle ne peut pas le relire sur la page (format ou balise)."
+ }
+}

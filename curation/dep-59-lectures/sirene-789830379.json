@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:789830379",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pavé",
+   "c": "Ennevelin",
+   "d": "59",
+   "lat": 50.53712,
+   "lon": 3.1261,
+   "km": 554,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel indique une boutique de la brasserie avec ses horaires (mercredi-vendredi, samedi matin) et des visites avec dégustation le samedi matin sur rendez-vous. La page ne dit pas explicitement qu'on y achète des bières ni qu'on y boit sur place.",
+   "addr": "26 bis rue Nicéphore Niépce, 59710 Ennevelin",
+   "src": "https://www.brasserie-du-pave.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 20 41 35 04",
+    "site": "https://www.brasserie-du-pave.fr",
+    "source": "https://www.brasserie-du-pave.fr",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserie-du-pave.fr",
+   "https://data.geopf.fr/geocodage/search?q=Ennevelin&type=municipality&limit=5"
+  ],
+  "extrait": "Lieu et horaires de la boutique",
+  "choix": "Catégorie 2 et confiance moyenne : la boutique est nommée avec adresse et horaires, mais aucune phrase ne dit « vente à emporter » ni « bar » ; la dégustation n'est offerte qu'avec la visite sur rendez-vous (« Des visites sont organisées les samedis matin sur rendez-vous. »), donc pas catégorie 1. Pas « sur place seulement ». Téléphone : 03 20 41 35 04, seul numéro publié (avec contact@brasserie-du-pave.fr). Page Untappd existante (https://untappd.com/brasseriedupave, qui renvoie au site officiel, 39 bières, styles : tripel, blonde, IPA belge, bière fumée, bière de garde…), non ajoutée au contact car la source du contact est le site et que l'Untappd n'y figure pas ; à ajouter si Cédric le veut (le lien existe, ouvert au résumé). Bières non listées avec lien : le site cite blonde, triple, IPA, ambrée (gamme PVL) sans pages par bière. Source rouverte à la main le 29/10. Horaires de la boutique non repris : le contrôle ne relit pas le samedi."
+ }
+}

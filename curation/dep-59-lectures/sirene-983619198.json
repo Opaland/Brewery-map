@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:983619198",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Brewbaix",
+   "c": "Roubaix",
+   "d": "59",
+   "lat": 50.69031,
+   "lon": 3.172,
+   "km": 569.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site officiel présente la taproom (dégustation sur place, « rester discuter ») et la possibilité de repartir avec des bouteilles. La page taproom précise que les références sont disponibles au frais et que les visites/dégustations de groupe se font sur réservation. Horaires publiés : mercredi-jeudi 17h-21h, vendredi 17h-20h.",
+   "addr": "26 rue des Fabricants, 59100 Roubaix",
+   "src": "https://www.brewbaix.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 79 82 87 95",
+    "site": "https://www.brewbaix.com",
+    "source": "https://www.brewbaix.com",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brewbaix.com/taproom/",
+     "mer": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brewbaix.com",
+   "https://www.brewbaix.com/taproom/",
+   "https://data.geopf.fr/geocodage/search?q=26+rue+des+Fabricants%2C+59100+Roubaix&limit=5"
+  ],
+  "extrait": "repartir avec quelques bouteilles ou rester discuter.",
+  "choix": "Téléphone 06 79 82 87 95 : un portable, seule ligne publiée sur le site de la brasserie, retenu par la règle du 21/10. DOUBLON À SIGNALER : la ligne sirene:850553710 (« BREWBAIX, COLLECTIF DES MICRO-BRASSEURS ROUBAISIENS », 47 rue du Luxembourg) est probablement la même brasserie, à traiter avec cette fiche (elle est dans un autre paquet). La page taproom, qui porte les horaires, n'a pas été relue en pleine page. Untappd : non trouvé, rien proposé. Pas de bières proposées : le site cite deux gammes (Brewbaix et Brebis Galeuse) et des styles génériques (sours, NEIPA, stouts), sans page Untappd. Source rouverte à la main le 29/10."
+ }
+}

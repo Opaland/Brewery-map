@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:879679868",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bonne Bière BB",
+   "c": "Hérin",
+   "d": "59",
+   "lat": 50.36208,
+   "lon": 3.44533,
+   "km": 530.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie de Hérin dont le site officiel parle d'y boire la bière sur place et se présente comme un bar-brasserie. Les bières sont proposées en bouteilles de 33 cl et en fûts de 20 L. Aucune boutique ni vente à emporter n'est clairement écrite : catégorie probable, pas établie. Appeler avant d'y aller. Ouvert du jeudi au samedi, de 16 h à 21 h, d'après le site.",
+   "addr": "36 T rue Émile Zola, 59195 Hérin",
+   "src": "https://www.brasseriebb.com/brasseurs-bieres-locales.php",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 66 88 36 16",
+    "site": "https://www.brasseriebb.com",
+    "source": "https://www.brasseriebb.com/contact.php",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriebb.com/contact.php",
+     "jeu": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriebb.com/brasseurs-bieres-locales.php",
+   "https://www.brasseriebb.com/contact.php",
+   "https://data.geopf.fr/geocodage/search?q=H%C3%A9rin&type=municipality&limit=5"
+  ],
+  "extrait": "lorsque vous viendrez boire votre bière sur place",
+  "choix": "Conf faible volontairement : le site ne décrit pas l'accueil du public et ne parle pas de vente à emporter. Les mots « bar » et « boire sur place » sont vagues. À examiner par Cédric : cat 0 est défendable. Pas d'Untappd trouvé. Les six bières du site (Blonde, Triple B, Grisette, Mine dé Rin noire, Ambrée, BB Brune) ne sont pas mises, faute de lien et de style Untappd. Un seul numéro publié, retenu. Source rouverte à la main le 29/10."
+ }
+}

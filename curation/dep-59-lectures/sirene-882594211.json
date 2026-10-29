@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:882594211",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Vaucelles",
+   "c": "Les Rues-des-Vignes",
+   "d": "59",
+   "lat": 50.08897,
+   "lon": 3.2255,
+   "km": 503.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site officiel présente un taproom où l'on déguste les bières, et une boutique où l'on repart avec bières et packs. Les horaires changent selon la saison (automne-hiver, printemps-été) sans dates de bascule écrites : à lire sur la page.",
+   "addr": "Hameau de Vaucelles, 59258 Les Rues-des-Vignes",
+   "src": "https://www.brasseriedevaucelles.fr/taproom",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriedevaucelles.fr",
+    "source": "https://www.brasseriedevaucelles.fr/taproom",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriedevaucelles.fr/taproom",
+   "https://data.geopf.fr/geocodage/search?q=Les+Rues-des-Vignes&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustez nos bières dans notre Taproom, en plein coeur de la brasserie",
+  "choix": "Seconde phrase de la même page, qui établit la vente : « vous pouvez repartir avec nos bières ou nos packs disponibles à la boutique ». Horaires non proposés : la page donne un bloc « Automne-Hiver » et un bloc « Printemps-Eté » sans dates de bascule (le schéma exige une période pour deux blocs de même nature), et la page /contact diffère de /taproom (dimanche 16h-19h absent d'automne-hiver). Pas de téléphone publié (seulement contact@brasseriedevaucelles.fr). Pas d'Untappd trouvé, d'où des bières vides ; noms lus sur le site : Abbaye de Vaucelles et Cocotte, sans style. Source rouverte à la main le 29/10."
+ }
+}

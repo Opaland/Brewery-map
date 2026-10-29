@@ -1,0 +1,114 @@
+{
+ "candidat": "node/11991484027",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pays Flamand",
+   "c": "Blaringhem",
+   "d": "59",
+   "lat": 50.69098,
+   "lon": 2.39771,
+   "km": 584.5,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie fondée en 2006. Sur le site de Blaringhem : boutique de la brasserie, estaminet (bar et restaurant) et visite avec dégustations le week-end.",
+   "addr": "425 rue André Plockyn, 59173 Blaringhem",
+   "src": "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 28 41 74 99",
+    "site": "https://www.brasseriedupaysflamand.com",
+    "source": "https://www.brasseriedupaysflamand.com/contact-us/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+     "mer": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "19:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "19:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "12:00",
+       "14:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+   "https://www.brasseriedupaysflamand.com/contact-us/",
+   "https://data.geopf.fr/geocodage/search?q=425+rue+Andr%C3%A9+Plockyn%2C+59173+Blaringhem&limit=5"
+  ],
+  "extrait": "Mercredi, Jeudi, Vendredi 10h-13h // 14h – 19h et le Samedi 14h à 19h",
+  "choix": "Deux lignes de téléphone existent (siège à Merville, cœur de la brasserie à Blaringhem). Je retiens le 03 28 41 74 99, affiché pour l'adresse de Blaringhem. Horaires : boutique en « vente » (mer-ven 10h-13h et 14h-19h, sam 14h-19h) et estaminet en « accueil » (jeu 17h-23h, ven et sam 12h-14h et 19h-23h, dim 12h-14h). Les créneaux de l'estaminet sont tirés des citations « Jeudi: 17h à 23h (Bar et Resto) », « Vendredi: 12h à 14h et 19h à 23H », « Samedi: 12h à 14h et 19h à 23H », « Dimanche: 12h à 14h ». Ces horaires sont ceux de la page « Nos établissements » : à relire par Cédric. Site : http://www.brasseriedupaysflamand.com (OSM). Pas de page Untappd trouvée. Source rouverte à la main le 29/10."
+ }
+}

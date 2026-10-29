@@ -1,0 +1,54 @@
+{
+ "candidat": "sirene:904336518",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Amblise",
+   "c": "Crespin",
+   "d": "59",
+   "lat": 50.42194,
+   "lon": 3.66511,
+   "km": 534,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel annonce « Visite, dégustation et vente à emporter » et le slogan « Bière d'artisan Brassée ici, bue ici ! ». Ouvert le vendredi de 16h à 19h et le samedi de 11h à 19h, sauf cas exceptionnel ; rendez-vous hors horaires sur demande. Le site ne décrit pas précisément la consommation sur place, d'où une confiance moyenne.",
+   "addr": "42 rue du Moulin, 59154 Crespin",
+   "src": "https://brasseriedamblise.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 16 96 88 00",
+    "site": "https://brasseriedamblise.fr/",
+    "source": "https://brasseriedamblise.fr/contact/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedamblise.fr/contact/",
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Sauf cas exceptionnel ; rendez-vous possible hors horaires sur demande.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedamblise.fr/",
+   "https://brasseriedamblise.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=42+rue+du+Moulin%2C+59154+Crespin&limit=5"
+  ],
+  "extrait": "Visite, dégustation et vente à emporter",
+  "choix": "Téléphone : 06 16 96 88 00 est un mobile, mais c'est la seule ligne publiée par la brasserie sur sa page contact (règle du 21/10). Rien trouvé sur une page Untappd de la brasserie. La page contact a été lue via un résumé qui a refusé de recopier tout le texte : la phrase « Bière d'artisan Brassée ici, bue ici ! » et les horaires sont rapportés par ce résumé, pas vus mot à mot. L'extrait choisi vient de la page d'accueil. À revérifier avant d'appliquer. Source rouverte à la main le 29/10."
+ }
+}

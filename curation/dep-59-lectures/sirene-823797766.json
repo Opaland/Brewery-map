@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:823797766",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lilloise",
+   "c": "Roncq",
+   "d": "59",
+   "lat": 50.75372,
+   "lon": 3.13141,
+   "km": 577.4,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe et publie son adresse et son téléphone sur son site officiel. Le site propose un « Click & Collect » et la location de tireuse, sans dire où ni quand on peut venir acheter ou boire sur place ; aucun horaire publié.",
+   "addr": "24 avenue de l'Europe, 59223 Roncq",
+   "src": "https://www.brasserie-lilloise.com/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 20 68 18 59",
+    "site": "https://www.brasserie-lilloise.com",
+    "source": "https://www.brasserie-lilloise.com/contact",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserie-lilloise.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=24+avenue+de+l%27Europe%2C+59223+Roncq&limit=5"
+  ],
+  "extrait": "+33 (0) 3 20 68 18 59",
+  "choix": "Seul numéro publié sur le site officiel (page contact, aussi sur /boutique et l'accueil), un fixe 03 : retenu. Le même numéro figure sur la fiche de l'office Hello Lille, mais c'est le site de la brasserie qui le porte. Gammes lues sur /nosbieres : Lyderic, Pyrite, Phinaert, Achille, sans style ; pas de page Untappd trouvée, donc aucune bière proposée. Source rouverte à la main le 29/10."
+ }
+}

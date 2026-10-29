@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:823862388",
+ "ajout": {
+  "fiche": {
+   "n": "Waale",
+   "c": "Wasquehal",
+   "d": "59",
+   "lat": 50.6703,
+   "lon": 3.12327,
+   "km": 568.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie à Wasquehal, existence établie par son site officiel. Le site ne dit pas si l'on peut venir sur place ni acheter à emporter (boutique en ligne seulement) : à confirmer.",
+   "addr": "12 rue de Marcq-en-Barœul 59290 Wasquehal",
+   "src": "https://www.waale.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.waale.fr/",
+    "source": "https://www.waale.fr/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.waale.fr/",
+   "https://data.geopf.fr/geocodage/search?q=12+rue+de+Marcq-en-Bar%C5%93ul+59290+Wasquehal&limit=5"
+  ],
+  "extrait": "Nous sommes ouverts du lundi au vendredi de 9h30 à 12h30 et de 14h à 18h.",
+  "choix": "Horaires non retenus : le site les titre « Horaires d'ouverture de la brasserie » sans dire s'il s'agit d'un accueil du public ou de bureaux. Aucun lien Untappd trouvé. Le site waale.beer redirige vers waale.fr (301). Adresse reprise de SIRENE, absente du site. Source rouverte à la main le 29/10. Téléphone non repris : l'outil de contrôle ne peut pas le relire sur la page (format ou balise)."
+ }
+}

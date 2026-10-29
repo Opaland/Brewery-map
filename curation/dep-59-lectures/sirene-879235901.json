@@ -1,0 +1,90 @@
+{
+ "candidat": "sirene:879235901",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Villette",
+   "c": "Saultain",
+   "d": "59",
+   "lat": 50.33957,
+   "lon": 3.5695,
+   "km": 526.2,
+   "cat": 2,
+   "conf": "faible",
+   "note": "La brasserie publie les horaires de sa boutique (« Notre boutique », mardi au samedi) et propose des visites sur demande, avec le samedi matin vers 10h30 comme créneau. Aucune page ne dit en toutes lettres que la bière se vend sur place ni qu'on peut la boire : catégorie probable, à vérifier.",
+   "addr": "5 bis avenue Henri Barbusse, 59990 Saultain",
+   "src": "https://brasserie-delavillette.com/fr/boutique",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 27 28 60 92",
+    "site": "https://brasserie-delavillette.com/",
+    "source": "https://brasserie-delavillette.com/fr/boutique",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie-delavillette.com/fr/boutique",
+     "mar": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasserie-delavillette.com/fr/boutique",
+   "https://data.geopf.fr/geocodage/search?q=5+bis+avenue+Henri+Barbusse%2C+59990+Saultain&limit=5"
+  ],
+  "extrait": "09:30-12:30 ; 15:00-19:00",
+  "choix": "Lecture via un résumé de page. Confiance faible : la page boutique donne horaires, téléphone et gamme (Salix Cervisia, La Châtelaine de La Villette, gamme bio), mais pas de phrase « vente sur place ». Dégustation non citée, donc catégorie 2 et non 1. La page de visite (/fr/brasserie) dit : « nous planifierons une visite qui aura lieu le samedi matin vers 10h30 » ; je ne l'ai pas mise en horaires. Une page boutique distincte propose aussi du click & collect. Le téléphone 03 27 28 60 92 est le seul publié, pour la boutique et pour les réservations de visite. SIRENE donne l'adresse 10 avenue Henri Barbusse ; le site dit 5 bis, retenu (c'est aussi l'adresse de l'OSM `way/1040447470`, candidat du paquet 22, à dédupliquer). Untappd : aucune page trouvée. Source rouverte à la main le 29/10."
+ }
+}

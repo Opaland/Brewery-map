@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:814728093",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Mont Cassel",
+   "c": "Cassel",
+   "d": "59",
+   "lat": 50.80111,
+   "lon": 2.48818,
+   "km": 594.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de Cassel, ambassadrice de la Bière du Reuze. La fiche du Département du Nord dit qu'on la découvre dans sa boutique à Cassel, entre tradition et dégustation ; elle ne précise ni la carte ni les horaires. Source institutionnelle, d'où la confiance moyenne.",
+   "addr": "340 route de Dunkerque, 59670 Cassel",
+   "src": "https://evasion.lenord.fr/offres/brasserie-du-mont-cassel-cassel-fr-6051877/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde",
+     "libelle": "Bière du Reuze",
+     "url": "https://untappd.com/w/brasserie-du-mont-cassel/266107"
+    },
+    {
+     "type": "autre",
+     "libelle": "Bière du Reuze Triple (Belgian Tripel)",
+     "url": "https://untappd.com/w/brasserie-du-mont-cassel/266107"
+    },
+    {
+     "type": "autre",
+     "libelle": "Bière du Reuze Ambrée (Farmhouse Ale, Bière de Garde)",
+     "url": "https://untappd.com/w/brasserie-du-mont-cassel/266107"
+    },
+    {
+     "type": "autre",
+     "libelle": "Bière du Reuze L'hivernale (Winter Ale)",
+     "url": "https://untappd.com/w/brasserie-du-mont-cassel/266107"
+    },
+    {
+     "type": "autre",
+     "libelle": "Bière du Reuze Authentique (Traditional Ale)",
+     "url": "https://untappd.com/w/brasserie-du-mont-cassel/266107"
+    }
+   ],
+   "contact": {
+    "untappd": "https://untappd.com/w/brasserie-du-mont-cassel/266107",
+    "source": "https://untappd.com/w/brasserie-du-mont-cassel/266107",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://evasion.lenord.fr/offres/brasserie-du-mont-cassel-cassel-fr-6051877/",
+   "https://untappd.com/w/brasserie-du-mont-cassel/266107",
+   "https://data.geopf.fr/geocodage/search?q=340+route+de+Dunkerque%2C+59670+Cassel&limit=5"
+  ],
+  "extrait": "Découvrez-la dans sa boutique à Cassel et explorez une brasserie qui perpétue le savoir-faire brassicole flamand, entre tradition et dégustation authentique.",
+  "choix": "Téléphone 03 28 49 97 22 : lu seulement sur des pages d'office/tourisme (evasion.lenord.fr, cirkwi) et un agrégateur (le-pigeon-voyageur.fr), jamais sur une page de la brasserie : écarté (règle). Site officiel bieredureuze.fr : ouvert, il affiche « PROCHAINEMENT », un lien Facebook et contact@bieredureuze.fr, sans adresse, horaires, téléphone ni bières ; je ne le mets pas dans contact (une seule source par contact, et Untappd n'y figure pas). Horaires : « les vendredis et samedis » lus seulement sur Le Pigeon Voyageur (agrégateur) et « souvent ouvert le week-end » sur un guide Google Sites non officiel, sans heures : écartés. Styles Untappd : seul « Blonde / Golden Ale » a une règle (blonde) ; les quatre autres tombent en « autre », libellé recopiant le style (typeDuStyleUntappd). Les URL de bière pointent la page Untappd de la brasserie, faute d'avoir lu chaque page de bière (pas de notes ni avis recopiés). Confiance moyenne au plus : office/institution (décision #37) ; la catégorie 1 repose sur « boutique » + « dégustation » dans la même phrase, que Cédric peut rabattre en 0 s'il la trouve trop vague. Source rouverte à la main le 29/10."
+ }
+}

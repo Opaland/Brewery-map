@@ -1,0 +1,128 @@
+{
+ "candidat": "sirene:848757126",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tandem",
+   "c": "Wambrechies",
+   "d": "59",
+   "lat": 50.68796,
+   "lon": 3.0636,
+   "km": 571.4,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le bar-restaurant de la brasserie sert ses bières à la pression, et la boutique vend les bouteilles aux mêmes horaires (site officiel).",
+   "addr": "382 rue de Bondues, 59118 Wambrechies",
+   "src": "https://www.brasserie-tandem.com/bar-boutique/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ipa",
+     "libelle": "Poule Mouillée (IPA - Other)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Pas Cap (Belgian Tripel)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Bonne Pioche (Pale Ale - Other)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Pin Pon (Farmhouse Ale - Saison)"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Coup de Soleil (IPA - Imperial / Double)"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Looping (IPA - Session)"
+    },
+    {
+     "type": "lager",
+     "libelle": "Prem's (Lager - Pale)"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Fauteuse de Troubles (IPA - New England / Hazy)"
+    }
+   ],
+   "contact": {
+    "tel": "03 20 31 78 57",
+    "site": "https://www.brasserie-tandem.com",
+    "source": "https://www.brasserie-tandem.com/bar-boutique/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-tandem.com/bar-boutique/",
+     "mer": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Horaires susceptibles d'évoluer lors de privatisations ; la brasserie renvoie à sa fiche Google.",
+     "verifieLe": "2026-10-29"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-tandem.com/bar-boutique/",
+     "mer": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "La boutique est ouverte aux mêmes horaires que le restaurant.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserie-tandem.com/bar-boutique/",
+   "https://data.geopf.fr/geocodage/search?q=382+rue+de+Bondues%2C+59118+Wambrechies&limit=5"
+  ],
+  "extrait": "Nos bières sont disponibles à la vente dans notre bar-restaurant.",
+  "choix": "Lecture via un résumé de la page. Passages lus sur la page bar-boutique : « Du mercredi au vendredi : 16h – 23h », « Le samedi : 10h – 18h », « La boutiques est ouverte aux mêmes horaires que le restaurant. », « A la pression, des bières Tandem bien sûr et nos dernières nouveautés ! », téléphone 03 20 31 78 57 (seul numéro de la page, publié par la brasserie). Vente à emporter et boisson sur place toutes deux établies : pas « sur place seulement ». Untappd : https://untappd.com/BrasserieTandem lu via un résumé (page de la brasserie, Wambrechies, micro brewery) ; les styles des 8 bières viennent de cette page (les 2 autres du top 10, Vive Le Vent et Y'a D'la Joie, écartées car éphémères). Je n'ai pas recopié notes ni avis. Le site officiel ne donne pas le style de la plupart des bières, d'où Untappd. Les liens de produit (pages de chaque bière du menu du site) ne sont pas mis, non ouverts. Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas."
+ }
+}

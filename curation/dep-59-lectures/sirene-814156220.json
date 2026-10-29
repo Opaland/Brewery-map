@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:814156220",
+ "ajout": {
+  "fiche": {
+   "n": "Micro Brasserie Hardy",
+   "c": "Quesnoy-sur-Deûle",
+   "d": "59",
+   "lat": 50.70735,
+   "lon": 3.00294,
+   "km": 574.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Son site annonce un lieu au pied des cuves où l'on déguste toute la production. La vente à emporter n'y est pas écrite : catégorie probable, d'où une confiance faible.",
+   "addr": "117 rue de Lille 59890 Quesnoy-sur-Deûle",
+   "src": "https://brasserie-hardy.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 63 04 55 24",
+    "site": "https://brasserie-hardy.fr",
+    "source": "https://brasserie-hardy.fr",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasserie-hardy.fr",
+   "https://data.geopf.fr/geocodage/search?q=117+rue+de+Lille+59890+Quesnoy-sur-De%C3%BBle&limit=5"
+  ],
+  "extrait": "un lieux au pied des cuves on l’on peut déguster toute la production en direct",
+  "choix": "Catégorie 1 en confiance faible, par la réponse de Cédric du 29/10 (on boit sur place, la vente n'est pas dite). Téléphone : le seul publié est un mobile (07 63 04 55 24), retenu (règle du 21/10). Deux adresses sur le site ; le 117 rue de Lille, aussi celui de SIRENE, est gardé. Horaires de l'office non repris. Source rouverte à la main le 29/10."
+ }
+}

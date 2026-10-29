@@ -1,0 +1,144 @@
+{
+ "candidat": "sirene:423838788",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie au Baron",
+   "c": "Gussignies",
+   "d": "59",
+   "lat": 50.3363,
+   "lon": 3.73752,
+   "km": 523.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel présente une boutique avec les bières maison et une bièrothèque en libre-service, un café-restaurant sur place (vendredi au dimanche et jours fériés, 11h30-22h) et une visite de la brasserie avec dégustation incluse (réservation et paiement en ligne). Le site ne dit pas si le restaurant sert les bières de la brasserie.",
+   "addr": "2 Rue du Piémont, 59570 Gussignies",
+   "src": "https://www.brasserieaubaron.com/boutique",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "autre",
+     "libelle": "Cuvée des Jonquilles (Farmhouse Ale, Bière de Garde)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Saison Saint Médard Ambrée (Farmhouse Ale, Saison)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Lèse-Majesté (Farmhouse Ale, Grisette)"
+    },
+    {
+     "type": "autre",
+     "libelle": "Saison Bohémienne (Farmhouse Ale, Saison)"
+    }
+   ],
+   "contact": {
+    "tel": "03 27 66 88 61",
+    "site": "https://www.brasserieaubaron.com/",
+    "source": "https://www.brasserieaubaron.com/boutique",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserieaubaron.com/boutique",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:45"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:45"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:45"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:45"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "16:45"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "19:00"
+      ]
+     ],
+     "dim": [
+      [
+       "11:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserieaubaron.com/",
+     "ven": [
+      [
+       "11:30",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:30",
+       "22:00"
+      ]
+     ],
+     "dim": [
+      [
+       "11:30",
+       "22:00"
+      ]
+     ],
+     "remarque": "Café-restaurant : ouvert du vendredi au dimanche et les jours fériés.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserieaubaron.com/boutique",
+   "https://www.brasserieaubaron.com/",
+   "https://data.geopf.fr/geocodage/search?q=2+Rue+du+Pi%C3%A9mont%2C+59570+Gussignies&limit=5"
+  ],
+  "extrait": "Retrouvez nos bières maison ainsi qu'une large gamme de spécialités de la région",
+  "choix": "Lecture via un résumé de page. Catégorie 1 en confiance moyenne : la boutique vend les bières maison (page boutique) ; le café-restaurant (page d'accueil) et la dégustation incluse dans la visite (page /reservation-visite-brasserie : « Dégustation incluse », 9 € adultes) permettent de consommer sur place. Untappd : la page https://untappd.com/BrasserieauBaron s'ouvre (« Brasserie au Baron », Gussignies, micro-brasserie, 30 bières). Je ne l'ai PAS mise dans `contact.untappd` car le lien n'est pas écrit sur la page-source du contact : à ajouter si Cédric accepte que la source du contact soit la page Untappd elle-même. Les quatre bières viennent de cette page (10 affichées sur 30), styles recopiés et rangés en « autre » selon `typeDuStyleUntappd`. Elles n'ont pas de `url`, la page de chaque bière n'ayant pas été ouverte. Téléphone : un seul, +33 3 27 66 88 61, publié sur le site pour la brasserie et la boutique. Les horaires de visite ne sont pas fixes (définis sur un portail de réservation) : non retenus. SIRENE donne aussi le 4 rue du Piémont, écarté au profit de l'adresse du site. Le même établissement figure en OSM `node/2407350987` (même ligne de paquet). Source rouverte à la main le 29/10."
+ }
+}

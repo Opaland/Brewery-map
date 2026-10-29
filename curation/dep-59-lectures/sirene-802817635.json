@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:802817635",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cambier",
+   "c": "Croix",
+   "d": "59",
+   "lat": 50.68002,
+   "lon": 3.14186,
+   "km": 569.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel présente une « Boutique / Bar » : toute la gamme en boutique, retrait en magasin (click and collect), horaires de la boutique/bar. Il présente aussi la Taproom comme « le bar de dégustation de la Brasserie Cambier ». La page ne dit pas noir sur blanc « à emporter » ni « boire sur place », d'où une confiance moyenne. Les visites de la brasserie sont temporairement fermées. Une presse locale de janvier 2025 (non ouverte) parlerait d'un appel à l'aide pour relancer la brasserie, à surveiller.",
+   "addr": "251 rue Jean Monnet, 59170 Croix",
+   "src": "https://www.brasserie-cambier.fr/boutique-bar-degustation-biere-brasserie-artisanale-lille-nord-location-pompe",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 72 37 56 14",
+    "site": "https://www.brasserie-cambier.fr",
+    "source": "https://www.brasserie-cambier.fr/boutique-bar-degustation-biere-brasserie-artisanale-lille-nord-location-pompe",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-cambier.fr/boutique-bar-degustation-biere-brasserie-artisanale-lille-nord-location-pompe",
+     "mer": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserie-cambier.fr/boutique-bar-degustation-biere-brasserie-artisanale-lille-nord-location-pompe",
+   "https://data.geopf.fr/geocodage/search?q=251+rue+Jean+Monnet%2C+59170+Croix&limit=5"
+  ],
+  "extrait": "Boutique : toute notre gamme de bières en un seul lieu !",
+  "choix": "Pas « sur place seulement » : la boutique vend. Téléphone : +33 (0)7 72 37 56 14, un portable, seule ligne publiée par la brasserie (pages boutique, contact et accueil), retenu par la règle du 21/10. Untappd https://untappd.com/BrasserieCambier ouvert et vérifié (brasserie à Croix). Il liste des styles (IPA Imperial/Double, Belgian Tripel, IPA New England/Hazy, Belgian Blonde, Sour Fruited, Farmhouse Ale...). Je n'ai pas rempli les bières, faute d'un format de style exact par bière. Aucune note ni avis recopié. Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas."
+ }
+}

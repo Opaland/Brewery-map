@@ -211,3 +211,10 @@ Une cinquième catégorie, code 4 : « Consommer sur place seulement »
 qu'on ne vend pas à emporter ; sans ce second point, la fiche reste en 1
 ou passe en confiance faible. Les fiches existantes ne changent que par
 une nouvelle lecture de leur source.
+
+Réponse de Cédric du 29/10, aux deux questions de la PR #243 : « Oui c'est
+bon enchaîne ». Le libellé « Consommer sur place seulement » est gardé. Un
+bar de brasserie dont la source dit qu'on y boit, sans parler de vente à
+emporter, se classe en 1 avec une confiance faible (la première option
+proposée) ; le 4 reste réservé à une source qui dit qu'on ne vend pas à
+emporter.
