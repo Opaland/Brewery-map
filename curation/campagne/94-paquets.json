@@ -1,0 +1,234 @@
+[
+ [
+  {
+   "cle": "sirene:751998436",
+   "enseigne": "LES BRASSERIES PARISIENNES",
+   "dep": "94",
+   "communes": [
+    "SUCY-EN-BRIE"
+   ],
+   "adresses": [
+    "BATIMENT B 3 RUE DE LA SCIERIE 94370 SUCY-EN-BRIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813173382",
+   "enseigne": "BRASSERIE OUTLAND",
+   "dep": "94",
+   "communes": [
+    "FONTENAY-SOUS-BOIS"
+   ],
+   "adresses": [
+    "52-54 52 RUE ANDRE TESSIER 94120 FONTENAY-SOUS-BOIS",
+    "89 RUE PIERRE GRANGE 94120 FONTENAY-SOUS-BOIS"
+   ],
+   "osm": [
+    "node/7692044873"
+   ],
+   "site": "https://outland-beer.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:810391474",
+   "enseigne": "LA SCIERIE DES MICHALLETS",
+   "dep": "94",
+   "communes": [
+    "MAISONS ALFORT"
+   ],
+   "adresses": [
+    "51 B RUE RASPAIL 94700 MAISONS ALFORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844342907",
+   "enseigne": "ARTEMUS",
+   "dep": "94",
+   "communes": [
+    "LIMEIL BREVANNES"
+   ],
+   "adresses": [
+    "24 T AV DES DEUX CLOCHERS 94450 LIMEIL BREVANNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:940249592",
+   "enseigne": "ALE/BRAU",
+   "dep": "94",
+   "communes": [
+    "MAISONS-ALFORT"
+   ],
+   "adresses": [
+    "23 RUE GRIMOULT 94700 MAISONS-ALFORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:949773584",
+   "enseigne": "RUPTURE BREWING COMPANY",
+   "dep": "94",
+   "communes": [
+    "SAINT-MAUR-DES-FOSSES"
+   ],
+   "adresses": [
+    "5 BOULEVARD DE CRETEIL 94100 SAINT-MAUR-DES-FOSSES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902481951",
+   "enseigne": "BRASSERIE DE LA VANNE",
+   "dep": "94",
+   "communes": [
+    "CACHAN"
+   ],
+   "adresses": [
+    "47 BD DE LA VANNE 94230 CACHAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838798692",
+   "enseigne": "BRASSERIE 3IENCHS",
+   "dep": "94",
+   "communes": [
+    "ST MAUR DES FOSSES"
+   ],
+   "adresses": [
+    "2 B RUE VASSAL 94100 ST MAUR DES FOSSES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:847762812",
+   "enseigne": "L'ALFORTVILLAISE",
+   "dep": "94",
+   "communes": [
+    "ALFORTVILLE"
+   ],
+   "adresses": [
+    "2 RUE DES ESSERTES 94140 ALFORTVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:878244250",
+   "enseigne": "BRASSERIE DE SUCY",
+   "dep": "94",
+   "communes": [
+    "SUCY-EN-BRIE"
+   ],
+   "adresses": [
+    "12 RUE BENJAMIN FRANKLIN 94370 SUCY-EN-BRIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:797461035",
+   "enseigne": "BIERES FINES",
+   "dep": "94",
+   "communes": [
+    "BONNEUIL-SUR-MARNE"
+   ],
+   "adresses": [
+    "COMPLEXE INDUSTRIEL LOCATIF N2 BAT 213 1 AVENUE DES MARRONNIERS 94380 BONNEUIL-SUR-MARNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13714542867",
+   "enseigne": "Brasserie 925 - Goub'z",
+   "dep": "94",
+   "communes": [
+    "Champigny-sur-Marne"
+   ],
+   "adresses": [
+    "23 Avenue de la Fontaine, 94500 Champigny-sur-Marne"
+   ],
+   "osm": [
+    "node/13714542867"
+   ],
+   "site": "https://www.brasserie925.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/611670639",
+   "enseigne": "Le Parmentier",
+   "dep": "94",
+   "communes": [
+    "Ivry-sur-Seine"
+   ],
+   "adresses": [
+    "1 Place Parmentier"
+   ],
+   "osm": [
+    "node/611670639"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7488271235",
+   "enseigne": "Le Micro Kombinat",
+   "dep": "94",
+   "communes": [
+    "La Queue-en-Brie"
+   ],
+   "adresses": [
+    "5 Rue des Frères Lumière, 94510 La Queue-en-Brie"
+   ],
+   "osm": [
+    "node/7488271235"
+   ],
+   "site": "https://www.larepublikdesmousses.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8898041564",
+   "enseigne": "Mappiness",
+   "dep": "94",
+   "communes": [
+    "Saint-Maur-des-Fossés"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8898041564"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/9277494488",
+   "enseigne": "La Ricetta",
+   "dep": "94",
+   "communes": [
+    "Nogent-sur-Marne"
+   ],
+   "adresses": [
+    "163 Grande Rue Charles de Gaulle, 94130 Nogent-sur-Marne"
+   ],
+   "osm": [
+    "node/9277494488"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

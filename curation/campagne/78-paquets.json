@@ -1,0 +1,413 @@
+[
+ [
+  {
+   "cle": "sirene:793900473",
+   "enseigne": "BRASSERIE DISTRIKT",
+   "dep": "78",
+   "communes": [
+    "MAULE"
+   ],
+   "adresses": [
+    "47 BOULEVARD PAUL BARRE 78580 MAULE",
+    "2 ROUTE D'HERBEVILLE 78580 MAULE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840301055",
+   "enseigne": "BRASSERIE DU ROI",
+   "dep": "78",
+   "communes": [
+    "VERSAILLES",
+    "SAINT-CYR-L'ECOLE"
+   ],
+   "adresses": [
+    "9 RUE MONTBAURON 78000 VERSAILLES",
+    "75-77 75 RUE DU DOCTEUR VAILLANT 78210 SAINT-CYR-L'ECOLE"
+   ],
+   "osm": [
+    "node/8953948114"
+   ],
+   "site": "https://labrasserieduroi.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823426978",
+   "enseigne": "LA BRASSERIE BARGE",
+   "dep": "78",
+   "communes": [
+    "RAMBOUILLET"
+   ],
+   "adresses": [
+    "26 RUE DU POTEAU DES 3 SEIGNEURS 78120 RAMBOUILLET",
+    "23 RUE DE CLAIREFONTAINE 78120 RAMBOUILLET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:979896842",
+   "enseigne": "BRASSERIE DILETTANTE ARCISIENNE",
+   "dep": "78",
+   "communes": [
+    "BOIS-D'ARCY"
+   ],
+   "adresses": [
+    "18 RUE EDOUARD VAILLANT 78390 BOIS-D'ARCY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:503705006",
+   "enseigne": "BRASSERIE DE LA VALLEE DE CHEVREUSE",
+   "dep": "78",
+   "communes": [
+    "LE PERRAY-EN-YVELINES"
+   ],
+   "adresses": [
+    "28 RUE DU ROSEAU 78610 LE PERRAY-EN-YVELINES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:827467663",
+   "enseigne": "BRASSERIE2LEQUIPAGE",
+   "dep": "78",
+   "communes": [
+    "BONNELLES"
+   ],
+   "adresses": [
+    "8 RUE DES JACINTHES SAUVAGES 78830 BONNELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:799277090",
+   "enseigne": "BIERES SAINT-Q",
+   "dep": "78",
+   "communes": [
+    "GUYANCOURT"
+   ],
+   "adresses": [
+    "ZA DU MOULIN A VENT 14 RUE JEAN MOULIN 78280 GUYANCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811394626",
+   "enseigne": "BRASSERIE O'CLOCK BREWING",
+   "dep": "78",
+   "communes": [
+    "BOIS-D'ARCY"
+   ],
+   "adresses": [
+    "3 RUE GEORGES MELIES 78390 BOIS-D'ARCY"
+   ],
+   "osm": [
+    "node/8569824217"
+   ],
+   "site": "https://oclockbrewing.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:913341061",
+   "enseigne": "BRASSERIE CROIZAT",
+   "dep": "78",
+   "communes": [
+    "SAINT-CYR-L'ECOLE"
+   ],
+   "adresses": [
+    "14 RUE AMBROISE CROIZAT 78210 SAINT-CYR-L'ECOLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:920046893",
+   "enseigne": "THE CHUBBY BREWING COMPANY",
+   "dep": "78",
+   "communes": [
+    "BOUAFLE"
+   ],
+   "adresses": [
+    "30 RUE DES CHARNELLES 78410 BOUAFLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:911410322",
+   "enseigne": "EXPEDITION BREWERY",
+   "dep": "78",
+   "communes": [
+    "BAILLY"
+   ],
+   "adresses": [
+    "17 RUE DE LA COLLINERIE 78870 BAILLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:753691773",
+   "enseigne": "LES BRASSEURS DU VAL DE SEINE",
+   "dep": "78",
+   "communes": [
+    "SARTROUVILLE"
+   ],
+   "adresses": [
+    "165 AVENUE DE LA REPUBLIQUE 78500 SARTROUVILLE"
+   ],
+   "osm": [
+    "node/4139006665"
+   ],
+   "site": "http://www.laptitesœur.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924932825",
+   "enseigne": "JUSTBEER BREWERY",
+   "dep": "78",
+   "communes": [
+    "MANTES-LA-JOLIE"
+   ],
+   "adresses": [
+    "38 RUE FERNAND BODET 78200 MANTES-LA-JOLIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902798065",
+   "enseigne": "BRASSERIE LA TRIELLOISE",
+   "dep": "78",
+   "communes": [
+    "TRIEL-SUR-SEINE"
+   ],
+   "adresses": [
+    "24 QUAI AUGUSTE ROY 78510 TRIEL-SUR-SEINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907918957",
+   "enseigne": "LA STAGNOVILLOISE",
+   "dep": "78",
+   "communes": [
+    "L'ETANG-LA-VILLE"
+   ],
+   "adresses": [
+    "83 ROUTE DE SAINT NOM 78620 L'ETANG-LA-VILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:890481096",
+   "enseigne": "RESPEKT",
+   "dep": "78",
+   "communes": [
+    "ACHERES"
+   ],
+   "adresses": [
+    "11 RUE DES MARAICHERS 78260 ACHERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893014662",
+   "enseigne": "TRICYCLHOP",
+   "dep": "78",
+   "communes": [
+    "MANTES-LA-JOLIE"
+   ],
+   "adresses": [
+    "9 RUE COSTES ET BELLONTE 78200 MANTES-LA-JOLIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818305443",
+   "enseigne": "BRASSERIE TOUSSAINT",
+   "dep": "78",
+   "communes": [
+    "NOISY-LE-ROI"
+   ],
+   "adresses": [
+    "ZAC MONGOLFIER 2 AVENUE DE L'EUROPE 78590 NOISY-LE-ROI"
+   ],
+   "osm": [
+    "node/12403272878"
+   ],
+   "site": "https://www.brasserietoussaint.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852696525",
+   "enseigne": "TRBL COMPAGNIE SAS",
+   "dep": "78",
+   "communes": [
+    "ORGEVAL"
+   ],
+   "adresses": [
+    "ROUTE DES ALLUETS 78630 ORGEVAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852891753",
+   "enseigne": "SASU BRASSERIE LA VOISINE",
+   "dep": "78",
+   "communes": [
+    "VILLIERS-SAINT-FREDERIC"
+   ],
+   "adresses": [
+    "13 RUE DE LA GARE 78640 VILLIERS-SAINT-FREDERIC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12327046734",
+   "enseigne": "La brasserie du Roi (Saint-Cyr-l'École)",
+   "dep": "78",
+   "communes": [
+    "Saint-Cyr-l'École"
+   ],
+   "adresses": [
+    "75 Rue du Docteur Vaillant, 78210 Saint-Cyr-l'École"
+   ],
+   "osm": [
+    "node/12327046734"
+   ],
+   "site": "https://labrasserieduroi.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/1854003295",
+   "enseigne": "Rolling's Bar",
+   "dep": "78",
+   "communes": [
+    "Freneuse"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/1854003295"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3512397640",
+   "enseigne": "Distrikt Beer",
+   "dep": "78",
+   "communes": [
+    "Thiverval-Grignon"
+   ],
+   "adresses": [
+    "50 Route de la Ferme, 78850"
+   ],
+   "osm": [
+    "node/3512397640"
+   ],
+   "site": "http://www.distriktbeer.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3752510374",
+   "enseigne": "Le Vizir",
+   "dep": "78",
+   "communes": [
+    "Sartrouville"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3752510374"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4155657290",
+   "enseigne": "Le Villaroy",
+   "dep": "78",
+   "communes": [
+    "Guyancourt"
+   ],
+   "adresses": [
+    "1, 78280 Guyancourt"
+   ],
+   "osm": [
+    "node/4155657290"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7203823199",
+   "enseigne": "Brasserie de la vallée de Chevreuse",
+   "dep": "78",
+   "communes": [
+    "Perray-en-Yveline"
+   ],
+   "adresses": [
+    "28 Rue du Roseau, 78610 Perray-en-Yveline"
+   ],
+   "osm": [
+    "node/7203823199"
+   ],
+   "site": "https://www.brasserievolcelest.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/9280921450",
+   "enseigne": "La Véranda",
+   "dep": "78",
+   "communes": [
+    "Le Chesnay-Rocquencourt"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9280921450"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/63158105",
+   "enseigne": "Le Sporting",
+   "dep": "78",
+   "communes": [
+    "Trappes"
+   ],
+   "adresses": [
+    "15 Avenue Paul Vaillant-Couturier, 78190 Trappes"
+   ],
+   "osm": [
+    "way/63158105"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

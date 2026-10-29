@@ -1,0 +1,264 @@
+[
+ [
+  {
+   "cle": "sirene:894337799",
+   "enseigne": "BRASSERIE 830",
+   "dep": "95",
+   "communes": [
+    "CORMEILLES-EN-VEXIN",
+    "BOISSY-L'AILLERIE"
+   ],
+   "adresses": [
+    "14 RESIDENCE DU COLOMBIER 95830 CORMEILLES-EN-VEXIN",
+    "30 RUE DE LA REPUBLIQUE 95650 BOISSY-L'AILLERIE"
+   ],
+   "osm": [
+    "node/9213548277"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841277262",
+   "enseigne": "E&B BIERE COMPAGNIE",
+   "dep": "95",
+   "communes": [
+    "SAINT-LEU-LA-FORET"
+   ],
+   "adresses": [
+    "58 RUE DE LA FORGE 95320 SAINT-LEU-LA-FORET",
+    "14 PLACE DE CULCHETH 95320 SAINT-LEU-LA-FORET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902093616",
+   "enseigne": "THE BEERWITCHED",
+   "dep": "95",
+   "communes": [
+    "CHAUMONTEL"
+   ],
+   "adresses": [
+    "60 B RUE DE PARIS 95270 CHAUMONTEL",
+    "LIEU DIT L'HOMME MORT RTE DEPARTEMENTALE 316 95270 CHAUMONTEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:832276513",
+   "enseigne": "TERRABIERE",
+   "dep": "95",
+   "communes": [
+    "DEUIL-LA-BARRE",
+    "ENGHIEN-LES-BAINS"
+   ],
+   "adresses": [
+    "13 RUE CHARLES DE GAULLE 95170 DEUIL-LA-BARRE",
+    "4 RUE ROBERT SCHUMAN 95880 ENGHIEN-LES-BAINS"
+   ],
+   "osm": [
+    "way/146946125"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840712657",
+   "enseigne": "INTO THE MALT",
+   "dep": "95",
+   "communes": [
+    "SAINT-GRATIEN"
+   ],
+   "adresses": [
+    "LOT 13 32 BOULEVARD PASTEUR 95210 SAINT-GRATIEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:878788587",
+   "enseigne": "1989 BREWING",
+   "dep": "95",
+   "communes": [
+    "MARINES"
+   ],
+   "adresses": [
+    "25 BOULEVARD GAMBETTA 95640 MARINES"
+   ],
+   "osm": [],
+   "statut": "homonyme"
+  },
+  {
+   "cle": "sirene:903711273",
+   "enseigne": "LA FAMILONETTE",
+   "dep": "95",
+   "communes": [
+    "VETHEUIL"
+   ],
+   "adresses": [
+    "2 RUE DE L'ORME 95510 VETHEUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949092811",
+   "enseigne": "LE CLOS LOUISE",
+   "dep": "95",
+   "communes": [
+    "VIENNE-EN-ARTHIES"
+   ],
+   "adresses": [
+    "38 CHEMIN DE LA VALLEE 95510 VIENNE-EN-ARTHIES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852417443",
+   "enseigne": "DELIVREZ-NOUS DU MALT",
+   "dep": "95",
+   "communes": [
+    "EAUBONNE"
+   ],
+   "adresses": [
+    "ESC D 4EME DROITE BAT E 4 RUE DU BOIS JACQUES 95600 EAUBONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980941991",
+   "enseigne": "ZENZYME",
+   "dep": "95",
+   "communes": [
+    "ENNERY"
+   ],
+   "adresses": [
+    "3 RUE FERRIE 95300 ENNERY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:944776392",
+   "enseigne": "HAKE BREW",
+   "dep": "95",
+   "communes": [
+    "CERGY"
+   ],
+   "adresses": [
+    "5 ALLEE DES LOZERES 95000 CERGY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:917874539",
+   "enseigne": "FRANCS BUVEURS",
+   "dep": "95",
+   "communes": [
+    "BERNES-SUR-OISE"
+   ],
+   "adresses": [
+    "4 RUE ABEL GANCE 95340 BERNES-SUR-OISE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:800191124",
+   "enseigne": "HESPEBAY",
+   "dep": "95",
+   "communes": [
+    "GROSLAY"
+   ],
+   "adresses": [
+    "29 RUE CARNOT 95410 GROSLAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:433674967",
+   "enseigne": "SARL FERME BRASSERIE DU VEXIN",
+   "dep": "95",
+   "communes": [
+    "THEMERICOURT"
+   ],
+   "adresses": [
+    "3 RUE DE LA CROIX DES RUELLES 95450 THEMERICOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10287680510",
+   "enseigne": "Brasserie d'Orville",
+   "dep": "95",
+   "communes": [
+    "Louvres"
+   ],
+   "adresses": [
+    "29 Rue de Paris, 95380"
+   ],
+   "osm": [
+    "node/10287680510"
+   ],
+   "site": "https://brasseriedorville.com",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/9719196078",
+   "enseigne": "l'Olivier Café",
+   "dep": "95",
+   "communes": [
+    "Moisselles"
+   ],
+   "adresses": [
+    "95570 Moisselles"
+   ],
+   "osm": [
+    "node/9719196078"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/146734234",
+   "enseigne": "Brasserie du Château (Montmorency)",
+   "dep": "95",
+   "communes": [
+    "Montmorency"
+   ],
+   "adresses": [
+    "127 Boulevard de Montmorency, 95160 Montmorency"
+   ],
+   "osm": [
+    "way/146734234"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/63796844",
+   "enseigne": "Sapeur Brasseur",
+   "dep": "95",
+   "communes": [
+    "Sannois"
+   ],
+   "adresses": [
+    "99 Allée de Cormeilles, Sannois"
+   ],
+   "osm": [
+    "way/63796844"
+   ],
+   "site": "https://www.lesapeurbrasseur.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

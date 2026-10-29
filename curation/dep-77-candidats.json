@@ -1,0 +1,888 @@
+[
+ {
+  "cle": "sirene:528365125",
+  "nom": "KRONENBOURG SUPPLY COMPANY",
+  "communes": [
+   "COMBS-LA-VILLE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "BOULEVARD MAURICE FAURE 77380 COMBS-LA-VILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "528365125",
+  "sirets": [
+   "52836512500046"
+  ],
+  "osm": [],
+  "lat": 48.647547879,
+  "lon": 2.5499539398,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921930079",
+  "nom": "BENZEL BRASSERIE",
+  "communes": [
+   "FONTAINEBLEAU"
+  ],
+  "departement": "77",
+  "adresses": [
+   "17 RUE ARISTIDE BRIAND 77300 FONTAINEBLEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921930079",
+  "sirets": [
+   "92193007900014"
+  ],
+  "osm": [],
+  "lat": 48.408940402,
+  "lon": 2.7048545229,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:944836030",
+  "nom": "BREW FOR FUN",
+  "communes": [
+   "MISY-SUR-YONNE",
+   "VARENNES-SUR-SEINE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "58 RUE GRANDE 77130 MISY-SUR-YONNE",
+   "8 ROUTE DE CANNES 77130 VARENNES-SUR-SEINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "944836030",
+  "sirets": [
+   "94483603000014",
+   "94483603000022"
+  ],
+  "osm": [],
+  "lat": 48.3581179617377,
+  "lon": 3.10111070830019,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952833952",
+  "nom": "LA MAGICIENNE",
+  "communes": [
+   "OZOIR-LA-FERRIERE",
+   "LA HOUSSAYE-EN-BRIE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "6 IMPASSE EDITH PIAF 77330 OZOIR-LA-FERRIERE",
+   "30 PLACE DU MARECHAL AUGEREAU 77610 LA HOUSSAYE-EN-BRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952833952",
+  "sirets": [
+   "95283395200015",
+   "95283395200031"
+  ],
+  "osm": [],
+  "lat": 48.763982009,
+  "lon": 2.6851285598,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949538128",
+  "nom": "LES BIERES DE PAPA",
+  "communes": [
+   "MORET-LOING-ET-ORVANNE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "89 AVENUE DE SENS 77250 MORET-LOING-ET-ORVANNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "949538128",
+  "sirets": [
+   "94953812800024"
+  ],
+  "osm": [
+   "node/12880432481"
+  ],
+  "lat": 48.3681431695983,
+  "lon": 2.83729714599561,
+  "site": "https://lesbieresdepapa.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910541879",
+  "nom": "LA BIERE DE PROVINS",
+  "communes": [
+   "PROVINS"
+  ],
+  "departement": "77",
+  "adresses": [
+   "3 PLACE DU MARECHAL LECLERC 77160 PROVINS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "910541879",
+  "sirets": [
+   "91054187900011"
+  ],
+  "osm": [
+   "node/10720582405"
+  ],
+  "lat": 48.5603647199546,
+  "lon": 3.29929935186679,
+  "site": "https://labieredeprovins.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803077130",
+  "nom": "BRASSERIE DU PONT DE COUDE",
+  "communes": [
+   "OZOUER-LE-VOULGIS"
+  ],
+  "departement": "77",
+  "adresses": [
+   "10 RUE DE JAMARD 77390 OZOUER-LE-VOULGIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "803077130",
+  "sirets": [
+   "80307713000026"
+  ],
+  "osm": [],
+  "lat": 48.6668260869836,
+  "lon": 2.77858081491207,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:810362798",
+  "nom": "BRASSERIE DE MEAUX",
+  "communes": [
+   "MEAUX"
+  ],
+  "departement": "77",
+  "adresses": [
+   "11 RUE DES BUTTES BLANCHES 77100 MEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "810362798",
+  "sirets": [
+   "81036279800011"
+  ],
+  "osm": [],
+  "lat": 48.9585134909895,
+  "lon": 2.90813814434239,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977500685",
+  "nom": "BRASSERIE HOMMAGE",
+  "communes": [
+   "MONTDAUPHIN"
+  ],
+  "departement": "77",
+  "adresses": [
+   "10 RUE DES TREMBLES 77320 MONTDAUPHIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977500685",
+  "sirets": [
+   "97750068500010"
+  ],
+  "osm": [],
+  "lat": 48.854364993,
+  "lon": 3.4140700058,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843283060",
+  "nom": "BRASSERIE ZIEGLER",
+  "communes": [
+   "NANTEAU-SUR-LUNAIN"
+  ],
+  "departement": "77",
+  "adresses": [
+   "21 RUE DE LORREZ-LE-BOCAGE 77710 NANTEAU-SUR-LUNAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843283060",
+  "sirets": [
+   "84328306000013"
+  ],
+  "osm": [],
+  "lat": 48.256967707,
+  "lon": 2.8126432196,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MONTMACHOUX"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:825093701",
+  "nom": "BRASSERIE RABOURDIN",
+  "communes": [
+   "COURPALAY"
+  ],
+  "departement": "77",
+  "adresses": [
+   "22 RUE LA FAYETTE 77540 COURPALAY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "825093701",
+  "sirets": [
+   "82509370100019"
+  ],
+  "osm": [
+   "node/8422857760"
+  ],
+  "lat": 48.650548399,
+  "lon": 2.9573719139,
+  "site": "https://www.brasserierabourdin.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828294934",
+  "nom": "MICRO-BRASSERIE BACOTTE",
+  "communes": [
+   "CHARTRETTES"
+  ],
+  "departement": "77",
+  "adresses": [
+   "119 RUE DES HETRES 77590 CHARTRETTES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "828294934",
+  "sirets": [
+   "82829493400025"
+  ],
+  "osm": [
+   "way/251251871"
+  ],
+  "lat": 48.490310859,
+  "lon": 2.6832952953,
+  "site": "https://lamoussedebleau.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948168729",
+  "nom": "LA COMPAGNIE DES BIERES",
+  "communes": [
+   "FONTAINEBLEAU"
+  ],
+  "departement": "77",
+  "adresses": [
+   "10 RUE MONTEBELLO 77300 FONTAINEBLEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948168729",
+  "sirets": [
+   "94816872900010"
+  ],
+  "osm": [],
+  "lat": 48.4040409555093,
+  "lon": 2.70130854194476,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BEAUMONT-DU-GATINAIS"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:879599850",
+  "nom": "MICROBRASSERIE SECOND DEGRE",
+  "communes": [
+   "MAGNY-LE-HONGRE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "10 RUE DE L'EGLISE 77700 MAGNY-LE-HONGRE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "879599850",
+  "sirets": [
+   "87959985000028"
+  ],
+  "osm": [
+   "node/8075481373"
+  ],
+  "lat": 48.8651895071259,
+  "lon": 2.81384840386898,
+  "site": "https://auseconddegre.shop/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "EVRY-GREGY-SUR-YERRE"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:433469251",
+  "nom": "SARL GATINORGE",
+  "communes": [
+   "MONDREVILLE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "6 HAMEAU DE PILVERNIER 77570 MONDREVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "433469251",
+  "sirets": [
+   "43346925100030"
+  ],
+  "osm": [],
+  "lat": 48.152586703,
+  "lon": 2.5665414044,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908373681",
+  "nom": "MICROBRASSERIE DU SAULE",
+  "communes": [
+   "VILLENOY"
+  ],
+  "departement": "77",
+  "adresses": [
+   "7 RUE ARISTIDE BRIAND 77124 VILLENOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908373681",
+  "sirets": [
+   "90837368100018"
+  ],
+  "osm": [],
+  "lat": 48.953237726,
+  "lon": 2.8719405395,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823504220",
+  "nom": "L'INSTANT",
+  "communes": [
+   "PONTAULT-COMBAULT"
+  ],
+  "departement": "77",
+  "adresses": [
+   "24 B RUE DU PRE DES AULNES 77340 PONTAULT-COMBAULT"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "823504220",
+  "sirets": [
+   "82350422000026"
+  ],
+  "osm": [
+   "node/8075481374"
+  ],
+  "lat": 48.7992484447529,
+  "lon": 2.63037937740388,
+  "site": "https://bieres-linstant.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820331270",
+  "nom": "BRASSERIE ARTISANALE PACHAMAMA",
+  "communes": [
+   "LA GENEVRAYE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "HAMEAU DE CUGNY 4 RUE DE LA FERME 77690 LA GENEVRAYE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "820331270",
+  "sirets": [
+   "82033127000018"
+  ],
+  "osm": [
+   "node/4449367519"
+  ],
+  "lat": 48.3162564304665,
+  "lon": 2.77172965630951,
+  "site": "https://www.facebook.com/pachamama77/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:802738146",
+  "nom": "CRAZY HOPS BRASSERIE ARTISANALE",
+  "communes": [
+   "VAUX-SUR-LUNAIN"
+  ],
+  "departement": "77",
+  "adresses": [
+   "HAMEAU VILLENIARD RUE DE LA TUILERIE 77710 VAUX-SUR-LUNAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "802738146",
+  "sirets": [
+   "80273814600017"
+  ],
+  "osm": [],
+  "lat": 48.211698803,
+  "lon": 2.9764410182,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831136890",
+  "nom": "SAINT FIACRE",
+  "communes": [
+   "CRECY-LA-CHAPELLE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "11 PLACE CAMUS 77580 CRECY-LA-CHAPELLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "831136890",
+  "sirets": [
+   "83113689000017"
+  ],
+  "osm": [
+   "node/8075481375"
+  ],
+  "lat": 48.856698185,
+  "lon": 2.9112007454,
+  "site": "https://fr-fr.facebook.com/bieresaintfiacre/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851507087",
+  "nom": "BRASSERIE DES GROTTES",
+  "communes": [
+   "BOISSISE-LA-BERTRAND"
+  ],
+  "departement": "77",
+  "adresses": [
+   "1806 RUE DE SEINE 77350 BOISSISE-LA-BERTRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851507087",
+  "sirets": [
+   "85150708700019"
+  ],
+  "osm": [],
+  "lat": 48.537654712,
+  "lon": 2.5626687622,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911408862",
+  "nom": "BRASSERIE BELLADONE",
+  "communes": [
+   "VILLENOY"
+  ],
+  "departement": "77",
+  "adresses": [
+   "BAT A 9 RUE GAMBETTA 77124 VILLENOY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911408862",
+  "sirets": [
+   "91140886200025"
+  ],
+  "osm": [],
+  "lat": 48.9499437016941,
+  "lon": 2.87354636351844,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "CHAINTREAUX"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "LA PLANQUE",
+  "communes": [
+   "SAMOREAU"
+  ],
+  "departement": "77",
+  "adresses": [
+   "32 RUE DES PREFOIX 77210 SAMOREAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "SAINT-MARTIN-DU-BOSCHET"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "CHANTELOUP-EN-BRIE"
+  ],
+  "departement": "77",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:923153811",
+  "nom": "BIERE EN HERBE",
+  "communes": [
+   "SAINTE-COLOMBE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "3 RUE DES CHAMPS VIONS 77650 SAINTE-COLOMBE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923153811",
+  "sirets": [
+   "92315381100024"
+  ],
+  "osm": [],
+  "lat": 48.527368579,
+  "lon": 3.2656574234,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835135328",
+  "nom": "AVANTI LUPPOLO !",
+  "communes": [
+   "CHELLES"
+  ],
+  "departement": "77",
+  "adresses": [
+   "44 AVENUE DE LA RESISTANCE 77500 CHELLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "835135328",
+  "sirets": [
+   "83513532800010"
+  ],
+  "osm": [],
+  "lat": 48.8763932084368,
+  "lon": 2.584226540639,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:509184214",
+  "nom": "SAS BRASSERIE PARISIS",
+  "communes": [
+   "COMBS-LA-VILLE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "3 RUE RENE DUMONT 77380 COMBS-LA-VILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "509184214",
+  "sirets": [
+   "50918421400039"
+  ],
+  "osm": [],
+  "lat": 48.648288976,
+  "lon": 2.5688569896,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843351537",
+  "nom": "LE MICRO KOMBINAT",
+  "communes": [
+   "MONTEREAU-FAULT-YONNE"
+  ],
+  "departement": "77",
+  "adresses": [
+   "25 RUE DU DOCTEUR ARTHUR PETIT 77130 MONTEREAU-FAULT-YONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843351537",
+  "sirets": [
+   "84335153700033"
+  ],
+  "osm": [],
+  "lat": 48.3862397560034,
+  "lon": 2.95475172266885,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10024333612",
+  "nom": "Parisis (Combs-la-Ville)",
+  "communes": [
+   "Combs-la-Ville"
+  ],
+  "departement": "77",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10024333612"
+  ],
+  "lat": 48.64867,
+  "lon": 2.56871,
+  "site": "https://brasserie-parisis.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3515448663",
+  "nom": "Crazy Hops",
+  "communes": [
+   "Chéroy"
+  ],
+  "departement": "77",
+  "adresses": [
+   "Rue de La Tuilerie, 77710"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3515448663"
+  ],
+  "lat": 48.20899,
+  "lon": 2.97133,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3536633873",
+  "nom": "Le Royal Club",
+  "communes": [
+   "Moissy-Cramayel"
+  ],
+  "departement": "77",
+  "adresses": [
+   "27 Avenue Philippe Bur, 77550 Moissy-Cramayel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3536633873"
+  ],
+  "lat": 48.62728,
+  "lon": 2.59274,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4464504894",
+  "nom": "Brasserie Rabourdin (Courpalay, node/4464504894)",
+  "communes": [
+   "Courpalay"
+  ],
+  "departement": "77",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4464504894"
+  ],
+  "lat": 48.63775,
+  "lon": 2.94818,
+  "site": "https://biere-de-brie.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7639740286",
+  "nom": "Bière du Loing",
+  "communes": [
+   "Montigny-sur-Loing"
+  ],
+  "departement": "77",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7639740286"
+  ],
+  "lat": 48.33684,
+  "lon": 2.74463,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8075481377",
+  "nom": "Microbrasserie du Saule",
+  "communes": [
+   "Meaux"
+  ],
+  "departement": "77",
+  "adresses": [
+   "7 Rue Aristide Briand"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8075481377"
+  ],
+  "lat": 48.95331,
+  "lon": 2.87171,
+  "site": "http://www.bieresdusaule.fr/",
+  "statut": "ambigu",
+  "fiche": "MICROBRASSERIE DU SAULE"
+ }
+]

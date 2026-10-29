@@ -1,0 +1,432 @@
+[
+ {
+  "cle": "sirene:894337799",
+  "nom": "BRASSERIE 830",
+  "communes": [
+   "CORMEILLES-EN-VEXIN",
+   "BOISSY-L'AILLERIE"
+  ],
+  "departement": "95",
+  "adresses": [
+   "14 RESIDENCE DU COLOMBIER 95830 CORMEILLES-EN-VEXIN",
+   "30 RUE DE LA REPUBLIQUE 95650 BOISSY-L'AILLERIE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "894337799",
+  "sirets": [
+   "89433779900015",
+   "89433779900023"
+  ],
+  "osm": [
+   "node/9213548277"
+  ],
+  "lat": 49.117464392,
+  "lon": 2.0201471901,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841277262",
+  "nom": "E&B BIERE COMPAGNIE",
+  "communes": [
+   "SAINT-LEU-LA-FORET"
+  ],
+  "departement": "95",
+  "adresses": [
+   "58 RUE DE LA FORGE 95320 SAINT-LEU-LA-FORET",
+   "14 PLACE DE CULCHETH 95320 SAINT-LEU-LA-FORET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841277262",
+  "sirets": [
+   "84127726200017",
+   "84127726200025"
+  ],
+  "osm": [],
+  "lat": 49.014605879,
+  "lon": 2.2452328358,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902093616",
+  "nom": "THE BEERWITCHED",
+  "communes": [
+   "CHAUMONTEL"
+  ],
+  "departement": "95",
+  "adresses": [
+   "60 B RUE DE PARIS 95270 CHAUMONTEL",
+   "LIEU DIT L'HOMME MORT RTE DEPARTEMENTALE 316 95270 CHAUMONTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902093616",
+  "sirets": [
+   "90209361600016",
+   "90209361600024"
+  ],
+  "osm": [],
+  "lat": 49.122053108,
+  "lon": 2.4255988257,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832276513",
+  "nom": "TERRABIERE",
+  "communes": [
+   "DEUIL-LA-BARRE",
+   "ENGHIEN-LES-BAINS"
+  ],
+  "departement": "95",
+  "adresses": [
+   "13 RUE CHARLES DE GAULLE 95170 DEUIL-LA-BARRE",
+   "4 RUE ROBERT SCHUMAN 95880 ENGHIEN-LES-BAINS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832276513",
+  "sirets": [
+   "83227651300013",
+   "83227651300021"
+  ],
+  "osm": [
+   "way/146946125"
+  ],
+  "lat": 48.975970948,
+  "lon": 2.3268701692,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840712657",
+  "nom": "INTO THE MALT",
+  "communes": [
+   "SAINT-GRATIEN"
+  ],
+  "departement": "95",
+  "adresses": [
+   "LOT 13 32 BOULEVARD PASTEUR 95210 SAINT-GRATIEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840712657",
+  "sirets": [
+   "84071265700021"
+  ],
+  "osm": [],
+  "lat": 48.9665993554824,
+  "lon": 2.27719943866771,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878788587",
+  "nom": "1989 BREWING",
+  "communes": [
+   "MARINES"
+  ],
+  "departement": "95",
+  "adresses": [
+   "25 BOULEVARD GAMBETTA 95640 MARINES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878788587",
+  "sirets": [
+   "87878858700029"
+  ],
+  "osm": [],
+  "lat": 49.147633281,
+  "lon": 1.9705474157,
+  "statut": "homonyme",
+  "fiche": "1989 Brewing"
+ },
+ {
+  "cle": "sirene:903711273",
+  "nom": "LA FAMILONETTE",
+  "communes": [
+   "VETHEUIL"
+  ],
+  "departement": "95",
+  "adresses": [
+   "2 RUE DE L'ORME 95510 VETHEUIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "903711273",
+  "sirets": [
+   "90371127300024"
+  ],
+  "osm": [],
+  "lat": 49.0642591418092,
+  "lon": 1.70483641452309,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949092811",
+  "nom": "LE CLOS LOUISE",
+  "communes": [
+   "VIENNE-EN-ARTHIES"
+  ],
+  "departement": "95",
+  "adresses": [
+   "38 CHEMIN DE LA VALLEE 95510 VIENNE-EN-ARTHIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949092811",
+  "sirets": [
+   "94909281100015"
+  ],
+  "osm": [],
+  "lat": 49.075247038,
+  "lon": 1.7175728852,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852417443",
+  "nom": "DELIVREZ-NOUS DU MALT",
+  "communes": [
+   "EAUBONNE"
+  ],
+  "departement": "95",
+  "adresses": [
+   "ESC D 4EME DROITE BAT E 4 RUE DU BOIS JACQUES 95600 EAUBONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852417443",
+  "sirets": [
+   "85241744300011"
+  ],
+  "osm": [],
+  "lat": 48.990803459881,
+  "lon": 2.28103901173777,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980941991",
+  "nom": "ZENZYME",
+  "communes": [
+   "ENNERY"
+  ],
+  "departement": "95",
+  "adresses": [
+   "3 RUE FERRIE 95300 ENNERY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980941991",
+  "sirets": [
+   "98094199100013"
+  ],
+  "osm": [],
+  "lat": 49.0698266946475,
+  "lon": 2.11655191561519,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:944776392",
+  "nom": "HAKE BREW",
+  "communes": [
+   "CERGY"
+  ],
+  "departement": "95",
+  "adresses": [
+   "5 ALLEE DES LOZERES 95000 CERGY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "944776392",
+  "sirets": [
+   "94477639200010"
+  ],
+  "osm": [],
+  "lat": 49.0435987780294,
+  "lon": 2.054914746732,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917874539",
+  "nom": "FRANCS BUVEURS",
+  "communes": [
+   "BERNES-SUR-OISE"
+  ],
+  "departement": "95",
+  "adresses": [
+   "4 RUE ABEL GANCE 95340 BERNES-SUR-OISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917874539",
+  "sirets": [
+   "91787453900013"
+  ],
+  "osm": [],
+  "lat": 49.162852858744,
+  "lon": 2.29963698766627,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:800191124",
+  "nom": "HESPEBAY",
+  "communes": [
+   "GROSLAY"
+  ],
+  "departement": "95",
+  "adresses": [
+   "29 RUE CARNOT 95410 GROSLAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "800191124",
+  "sirets": [
+   "80019112400034"
+  ],
+  "osm": [],
+  "lat": 48.9873249252771,
+  "lon": 2.35567164520534,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:433674967",
+  "nom": "SARL FERME BRASSERIE DU VEXIN",
+  "communes": [
+   "THEMERICOURT"
+  ],
+  "departement": "95",
+  "adresses": [
+   "3 RUE DE LA CROIX DES RUELLES 95450 THEMERICOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "433674967",
+  "sirets": [
+   "43367496700016"
+  ],
+  "osm": [],
+  "lat": 49.0847288744516,
+  "lon": 1.89343290141572,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10287680510",
+  "nom": "Brasserie d'Orville",
+  "communes": [
+   "Louvres"
+  ],
+  "departement": "95",
+  "adresses": [
+   "29 Rue de Paris, 95380"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10287680510"
+  ],
+  "lat": 49.03924,
+  "lon": 2.5058,
+  "site": "https://brasseriedorville.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9719196078",
+  "nom": "l'Olivier Café",
+  "communes": [
+   "Moisselles"
+  ],
+  "departement": "95",
+  "adresses": [
+   "95570 Moisselles"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9719196078"
+  ],
+  "lat": 49.04107,
+  "lon": 2.34024,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/146734234",
+  "nom": "Brasserie du Château (Montmorency)",
+  "communes": [
+   "Montmorency"
+  ],
+  "departement": "95",
+  "adresses": [
+   "127 Boulevard de Montmorency, 95160 Montmorency"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/146734234"
+  ],
+  "lat": 48.9755,
+  "lon": 2.31696,
+  "statut": "ambigu",
+  "fiche": "Château de la Bière"
+ },
+ {
+  "cle": "way/63796844",
+  "nom": "Sapeur Brasseur",
+  "communes": [
+   "Sannois"
+  ],
+  "departement": "95",
+  "adresses": [
+   "99 Allée de Cormeilles, Sannois"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/63796844"
+  ],
+  "lat": 48.9685,
+  "lon": 2.23962,
+  "site": "https://www.lesapeurbrasseur.com/",
+  "statut": "nouveau"
+ }
+]

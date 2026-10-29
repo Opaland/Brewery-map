@@ -1,0 +1,405 @@
+[
+ {
+  "cle": "sirene:751998436",
+  "nom": "LES BRASSERIES PARISIENNES",
+  "communes": [
+   "SUCY-EN-BRIE"
+  ],
+  "departement": "94",
+  "adresses": [
+   "BATIMENT B 3 RUE DE LA SCIERIE 94370 SUCY-EN-BRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "751998436",
+  "sirets": [
+   "75199843600040"
+  ],
+  "osm": [],
+  "lat": 48.768581586,
+  "lon": 2.5020724481,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813173382",
+  "nom": "BRASSERIE OUTLAND",
+  "communes": [
+   "FONTENAY-SOUS-BOIS"
+  ],
+  "departement": "94",
+  "adresses": [
+   "52-54 52 RUE ANDRE TESSIER 94120 FONTENAY-SOUS-BOIS",
+   "89 RUE PIERRE GRANGE 94120 FONTENAY-SOUS-BOIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "813173382",
+  "sirets": [
+   "81317338200025",
+   "81317338200033"
+  ],
+  "osm": [
+   "node/7692044873"
+  ],
+  "lat": 48.852196183,
+  "lon": 2.4692433502,
+  "site": "https://outland-beer.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:810391474",
+  "nom": "LA SCIERIE DES MICHALLETS",
+  "communes": [
+   "MAISONS ALFORT"
+  ],
+  "departement": "94",
+  "adresses": [
+   "51 B RUE RASPAIL 94700 MAISONS ALFORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "810391474",
+  "sirets": [
+   "81039147400030"
+  ],
+  "osm": [],
+  "lat": 48.808454835,
+  "lon": 2.4419193598,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844342907",
+  "nom": "ARTEMUS",
+  "communes": [
+   "LIMEIL BREVANNES"
+  ],
+  "departement": "94",
+  "adresses": [
+   "24 T AV DES DEUX CLOCHERS 94450 LIMEIL BREVANNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844342907",
+  "sirets": [
+   "84434290700012"
+  ],
+  "osm": [],
+  "lat": 48.753055785,
+  "lon": 2.4839365629,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:940249592",
+  "nom": "ALE/BRAU",
+  "communes": [
+   "MAISONS-ALFORT"
+  ],
+  "departement": "94",
+  "adresses": [
+   "23 RUE GRIMOULT 94700 MAISONS-ALFORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "940249592",
+  "sirets": [
+   "94024959200012"
+  ],
+  "osm": [],
+  "lat": 48.8056350913969,
+  "lon": 2.43735362725519,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949773584",
+  "nom": "RUPTURE BREWING COMPANY",
+  "communes": [
+   "SAINT-MAUR-DES-FOSSES"
+  ],
+  "departement": "94",
+  "adresses": [
+   "5 BOULEVARD DE CRETEIL 94100 SAINT-MAUR-DES-FOSSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949773584",
+  "sirets": [
+   "94977358400022"
+  ],
+  "osm": [],
+  "lat": 48.7990975418558,
+  "lon": 2.47329488497317,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902481951",
+  "nom": "BRASSERIE DE LA VANNE",
+  "communes": [
+   "CACHAN"
+  ],
+  "departement": "94",
+  "adresses": [
+   "47 BD DE LA VANNE 94230 CACHAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902481951",
+  "sirets": [
+   "90248195100017"
+  ],
+  "osm": [],
+  "lat": 48.795573125,
+  "lon": 2.3414841746,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "IVRY-SUR-SEINE"
+  ],
+  "departement": "94",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:838798692",
+  "nom": "BRASSERIE 3IENCHS",
+  "communes": [
+   "ST MAUR DES FOSSES"
+  ],
+  "departement": "94",
+  "adresses": [
+   "2 B RUE VASSAL 94100 ST MAUR DES FOSSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838798692",
+  "sirets": [
+   "83879869200029"
+  ],
+  "osm": [],
+  "lat": 48.793414101,
+  "lon": 2.4780051696,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "CHAMPIGNY-SUR-MARNE"
+  ],
+  "departement": "94",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:847762812",
+  "nom": "L'ALFORTVILLAISE",
+  "communes": [
+   "ALFORTVILLE"
+  ],
+  "departement": "94",
+  "adresses": [
+   "2 RUE DES ESSERTES 94140 ALFORTVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847762812",
+  "sirets": [
+   "84776281200026"
+  ],
+  "osm": [],
+  "lat": 48.80311511,
+  "lon": 2.4193202007,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878244250",
+  "nom": "BRASSERIE DE SUCY",
+  "communes": [
+   "SUCY-EN-BRIE"
+  ],
+  "departement": "94",
+  "adresses": [
+   "12 RUE BENJAMIN FRANKLIN 94370 SUCY-EN-BRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878244250",
+  "sirets": [
+   "87824425000022"
+  ],
+  "osm": [],
+  "lat": 48.7674130110516,
+  "lon": 2.50102302059009,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:797461035",
+  "nom": "BIERES FINES",
+  "communes": [
+   "BONNEUIL-SUR-MARNE"
+  ],
+  "departement": "94",
+  "adresses": [
+   "COMPLEXE INDUSTRIEL LOCATIF N2 BAT 213 1 AVENUE DES MARRONNIERS 94380 BONNEUIL-SUR-MARNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "797461035",
+  "sirets": [
+   "79746103500025"
+  ],
+  "osm": [],
+  "lat": 48.766441878,
+  "lon": 2.4928982025,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13714542867",
+  "nom": "Brasserie 925 - Goub'z",
+  "communes": [
+   "Champigny-sur-Marne"
+  ],
+  "departement": "94",
+  "adresses": [
+   "23 Avenue de la Fontaine, 94500 Champigny-sur-Marne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13714542867"
+  ],
+  "lat": 48.82967,
+  "lon": 2.50012,
+  "site": "https://www.brasserie925.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/611670639",
+  "nom": "Le Parmentier",
+  "communes": [
+   "Ivry-sur-Seine"
+  ],
+  "departement": "94",
+  "adresses": [
+   "1 Place Parmentier"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/611670639"
+  ],
+  "lat": 48.80707,
+  "lon": 2.39167,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7488271235",
+  "nom": "Le Micro Kombinat",
+  "communes": [
+   "La Queue-en-Brie"
+  ],
+  "departement": "94",
+  "adresses": [
+   "5 Rue des Frères Lumière, 94510 La Queue-en-Brie"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7488271235"
+  ],
+  "lat": 48.77959,
+  "lon": 2.57387,
+  "site": "https://www.larepublikdesmousses.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8898041564",
+  "nom": "Mappiness",
+  "communes": [
+   "Saint-Maur-des-Fossés"
+  ],
+  "departement": "94",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8898041564"
+  ],
+  "lat": 48.80398,
+  "lon": 2.48812,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9277494488",
+  "nom": "La Ricetta",
+  "communes": [
+   "Nogent-sur-Marne"
+  ],
+  "departement": "94",
+  "adresses": [
+   "163 Grande Rue Charles de Gaulle, 94130 Nogent-sur-Marne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9277494488"
+  ],
+  "lat": 48.83828,
+  "lon": 2.48904,
+  "statut": "nouveau"
+ }
+]

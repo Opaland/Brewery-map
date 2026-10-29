@@ -1,0 +1,241 @@
+[
+ [
+  {
+   "cle": "sirene:414842062",
+   "enseigne": "HEINEKEN ENTREPRISE",
+   "dep": "92",
+   "communes": [
+    "RUEIL-MALMAISON"
+   ],
+   "adresses": [
+    "2 RUE DES MARTINETS 92500 RUEIL-MALMAISON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821920477",
+   "enseigne": "LES BIERES DE MONTMORILLON",
+   "dep": "92",
+   "communes": [
+    "CLICHY"
+   ],
+   "adresses": [
+    "7 RUE FERDINAND BUISSON 92110 CLICHY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953013976",
+   "enseigne": "HOMING BIRDS",
+   "dep": "92",
+   "communes": [
+    "VILLENEUVE-LA-GARENNE"
+   ],
+   "adresses": [
+    "12 AVENUE MARC SANGNIER 92390 VILLENEUVE-LA-GARENNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:382581551",
+   "enseigne": "KRONE AG",
+   "dep": "92",
+   "communes": [
+    "LEVALLOIS-PERRET"
+   ],
+   "adresses": [
+    "M.BRUHL LAURENT 54 RUE MARIUS AUFAN 92300 LEVALLOIS-PERRET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851679415",
+   "enseigne": "ASSOCIATION SURESNES BEER FACTORY",
+   "dep": "92",
+   "communes": [
+    "SURESNES"
+   ],
+   "adresses": [
+    "3 ALLEE WILLIAM PENN 92150 SURESNES",
+    "29 RUE KELLOGG 92150 SURESNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:909889784",
+   "enseigne": "LA PLANTA PARIS BRASSERIE",
+   "dep": "92",
+   "communes": [
+    "ISSY-LES-MOULINEAUX"
+   ],
+   "adresses": [
+    "2 ALLEE LOUIS BONNIER 92130 ISSY-LES-MOULINEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914868831",
+   "enseigne": "BIERE DE PAROISSE",
+   "dep": "92",
+   "communes": [
+    "BOULOGNE-BILLANCOURT"
+   ],
+   "adresses": [
+    "44 RUE DE L'EST 92100 BOULOGNE-BILLANCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:930310560",
+   "enseigne": "LA BIERE DE MONTROUGE",
+   "dep": "92",
+   "communes": [
+    "MONTROUGE"
+   ],
+   "adresses": [
+    "3 RUE DE LA SOLIDARITE 92120 MONTROUGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893403816",
+   "enseigne": "LOCALE",
+   "dep": "92",
+   "communes": [
+    "ISSY-LES-MOULINEAUX"
+   ],
+   "adresses": [
+    "16 PASSAGE DE L'INDUSTRIE 92130 ISSY-LES-MOULINEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:878429968",
+   "enseigne": "BRASSERIE DU BAILLOU",
+   "dep": "92",
+   "communes": [
+    "CLICHY"
+   ],
+   "adresses": [
+    "12 B RUE DU GUICHET 92110 CLICHY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:900751249",
+   "enseigne": "BEER MINKO",
+   "dep": "92",
+   "communes": [
+    "NANTERRE"
+   ],
+   "adresses": [
+    "5 TERRASSE DE L'UNIVERSITE 92000 NANTERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:951126630",
+   "enseigne": "BONELESS BREWING COMPANY",
+   "dep": "92",
+   "communes": [
+    "CHATILLON"
+   ],
+   "adresses": [
+    "93 BOULEVARD DE VANVES 92320 CHATILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850026246",
+   "enseigne": "BRASSERIE 02 SEINE",
+   "dep": "92",
+   "communes": [
+    "NANTERRE"
+   ],
+   "adresses": [
+    "4 RUE SILVY 92000 NANTERRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3980268299",
+   "enseigne": "68 by Guy Martin",
+   "dep": "92",
+   "communes": [
+    "Levallois-Perret"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3980268299"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/640616938",
+   "enseigne": "La Place",
+   "dep": "92",
+   "communes": [
+    "Nanterre"
+   ],
+   "adresses": [
+    "12 Place Gabriel Péri, 92000 Nanterre"
+   ],
+   "osm": [
+    "node/640616938"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6409925921",
+   "enseigne": "Get Your Drinks",
+   "dep": "92",
+   "communes": [
+    "Malakoff"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6409925921"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1024690864",
+   "enseigne": "Nemeto",
+   "dep": "92",
+   "communes": [
+    "Nanterre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/1024690864"
+   ],
+   "site": "https://www.brasserienemeto.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,434 @@
+[
+ {
+  "cle": "sirene:924943566",
+  "nom": "LE HIBOU BLOND",
+  "communes": [
+   "VILLEMOISSON-SUR-ORGE"
+  ],
+  "departement": "91",
+  "adresses": [
+   "17 RUE DU VERGER 91360 VILLEMOISSON-SUR-ORGE",
+   "116 ROUTE DE CORBEIL 91360 VILLEMOISSON-SUR-ORGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924943566",
+  "sirets": [
+   "92494356600019",
+   "92494356600027"
+  ],
+  "osm": [],
+  "lat": 48.663881159,
+  "lon": 2.3250194374,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE MOREL",
+  "communes": [
+   "SACLAS",
+   "CHALOU-MOULINEUX"
+  ],
+  "departement": "91",
+  "adresses": [
+   "RURAPOLE 6 B AVENUE JEAN JAURES 91690 SACLAS",
+   "59 RUE DES AULNES 91740 CHALOU-MOULINEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989267950",
+  "nom": "DELABY'ERE A LA PERROT",
+  "communes": [
+   "LARDY"
+  ],
+  "departement": "91",
+  "adresses": [
+   "17 RUE DU CHEMIN DE FER 91510 LARDY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989267950",
+  "sirets": [
+   "98926795000016"
+  ],
+  "osm": [],
+  "lat": 48.521738138285,
+  "lon": 2.25849446277917,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "MASSY"
+  ],
+  "departement": "91",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE GUS",
+  "communes": [
+   "VERRIERES-LE-BUISSON"
+  ],
+  "departement": "91",
+  "adresses": [
+   "14 RUE DES PETITS RUISSEAUX 91370 VERRIERES-LE-BUISSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:810361386",
+  "nom": "INKRAFT BEER COMPANY",
+  "communes": [
+   "SAINT-JEAN-DE-BEAUREGARD"
+  ],
+  "departement": "91",
+  "adresses": [
+   "FERME DE VILLEZIERS GRANDE RUE 91940 SAINT-JEAN-DE-BEAUREGARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "810361386",
+  "sirets": [
+   "81036138600024"
+  ],
+  "osm": [],
+  "lat": 48.673222015,
+  "lon": 2.170559395,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:788908853",
+  "nom": "OX BIER",
+  "communes": [
+   "MARCOUSSIS"
+  ],
+  "departement": "91",
+  "adresses": [
+   "50 ROUTE D'ORSAY 91460 MARCOUSSIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "788908853",
+  "sirets": [
+   "78890885300021"
+  ],
+  "osm": [
+   "way/146093848"
+  ],
+  "lat": 48.659388015,
+  "lon": 2.2071829561,
+  "site": "https://brasserie-ox.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828711895",
+  "nom": "BRASSERIE DE LA JUINE",
+  "communes": [
+   "BALLANCOURT-SUR-ESSONNE"
+  ],
+  "departement": "91",
+  "adresses": [
+   "RUE DES BERNACHES 91610 BALLANCOURT-SUR-ESSONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828711895",
+  "sirets": [
+   "82871189500031"
+  ],
+  "osm": [],
+  "lat": 48.5304071438524,
+  "lon": 2.38712445159957,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "EPINAY-SUR-ORGE"
+  ],
+  "departement": "91",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "CHAMARANDE"
+  ],
+  "departement": "91",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:882589708",
+  "nom": "KINGS OF NAWAK BREWERY",
+  "communes": [
+   "ETAMPES"
+  ],
+  "departement": "91",
+  "adresses": [
+   "25 AVENUE DES GRENOTS 91150 ETAMPES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882589708",
+  "sirets": [
+   "88258970800024"
+  ],
+  "osm": [],
+  "lat": 48.451228388,
+  "lon": 2.1546640507,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897825873",
+  "nom": "BRASSERIE GALILEE",
+  "communes": [
+   "ANGERVILLE"
+  ],
+  "departement": "91",
+  "adresses": [
+   "9 RUE DES MOISSONS 91670 ANGERVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897825873",
+  "sirets": [
+   "89782587300010"
+  ],
+  "osm": [],
+  "lat": 48.315693012,
+  "lon": 2.0095519865,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:991210873",
+  "nom": "BRASSERIE DU TREFLE DORE",
+  "communes": [
+   "MAROLLES-EN-HUREPOIX"
+  ],
+  "departement": "91",
+  "adresses": [
+   "19 CHEMIN AUX OUAILLES 91630 MAROLLES-EN-HUREPOIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "991210873",
+  "sirets": [
+   "99121087300014"
+  ],
+  "osm": [],
+  "lat": 48.5658053957613,
+  "lon": 2.29919999146423,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11668938625",
+  "nom": "Mets et Pierre",
+  "communes": [
+   "Orsay"
+  ],
+  "departement": "91",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11668938625"
+  ],
+  "lat": 48.69985,
+  "lon": 2.18755,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11987264719",
+  "nom": "Brasserie de Marcoussis",
+  "communes": [
+   "Marcoussis"
+  ],
+  "departement": "91",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11987264719"
+  ],
+  "lat": 48.64661,
+  "lon": 2.22156,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13098373138",
+  "nom": "Bories Jarnouen de Villartay",
+  "communes": [
+   "Brunoy"
+  ],
+  "departement": "91",
+  "adresses": [
+   "3 Allée Scipion Cochet, 91800 Brunoy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13098373138"
+  ],
+  "lat": 48.7019,
+  "lon": 2.50586,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13872612566",
+  "nom": "La Brasserie Fondamentale",
+  "communes": [
+   "Brouy"
+  ],
+  "departement": "91",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13872612566"
+  ],
+  "lat": 48.3107,
+  "lon": 2.31977,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3515412159",
+  "nom": "Parisis (Épinay-sous-Sénart)",
+  "communes": [
+   "Épinay-sous-Sénart"
+  ],
+  "departement": "91",
+  "adresses": [
+   "34 k Rue de la Forêt, 91860 Épinay-sous-Sénart"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3515412159"
+  ],
+  "lat": 48.68869,
+  "lon": 2.51258,
+  "site": "https://brasserie-parisis.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7804876931",
+  "nom": "La Bouledogue",
+  "communes": [
+   "Saulx-les-Chartreux"
+  ],
+  "departement": "91",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7804876931"
+  ],
+  "lat": 48.69967,
+  "lon": 2.26649,
+  "site": "http://www.labouledogue.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7859264371",
+  "nom": "Le spot",
+  "communes": [
+   "Évry-Courcouronnes"
+  ],
+  "departement": "91",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7859264371"
+  ],
+  "lat": 48.6276,
+  "lon": 2.43204,
+  "statut": "nouveau"
+ }
+]

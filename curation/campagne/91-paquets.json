@@ -1,0 +1,253 @@
+[
+ [
+  {
+   "cle": "sirene:924943566",
+   "enseigne": "LE HIBOU BLOND",
+   "dep": "91",
+   "communes": [
+    "VILLEMOISSON-SUR-ORGE"
+   ],
+   "adresses": [
+    "17 RUE DU VERGER 91360 VILLEMOISSON-SUR-ORGE",
+    "116 ROUTE DE CORBEIL 91360 VILLEMOISSON-SUR-ORGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE MOREL (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "91",
+   "communes": [
+    "SACLAS",
+    "CHALOU-MOULINEUX"
+   ],
+   "adresses": [
+    "RURAPOLE 6 B AVENUE JEAN JAURES 91690 SACLAS",
+    "59 RUE DES AULNES 91740 CHALOU-MOULINEUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:989267950",
+   "enseigne": "DELABY'ERE A LA PERROT",
+   "dep": "91",
+   "communes": [
+    "LARDY"
+   ],
+   "adresses": [
+    "17 RUE DU CHEMIN DE FER 91510 LARDY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "BRASSERIE GUS (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "91",
+   "communes": [
+    "VERRIERES-LE-BUISSON"
+   ],
+   "adresses": [
+    "14 RUE DES PETITS RUISSEAUX 91370 VERRIERES-LE-BUISSON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:810361386",
+   "enseigne": "INKRAFT BEER COMPANY",
+   "dep": "91",
+   "communes": [
+    "SAINT-JEAN-DE-BEAUREGARD"
+   ],
+   "adresses": [
+    "FERME DE VILLEZIERS GRANDE RUE 91940 SAINT-JEAN-DE-BEAUREGARD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:788908853",
+   "enseigne": "OX BIER",
+   "dep": "91",
+   "communes": [
+    "MARCOUSSIS"
+   ],
+   "adresses": [
+    "50 ROUTE D'ORSAY 91460 MARCOUSSIS"
+   ],
+   "osm": [
+    "way/146093848"
+   ],
+   "site": "https://brasserie-ox.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828711895",
+   "enseigne": "BRASSERIE DE LA JUINE",
+   "dep": "91",
+   "communes": [
+    "BALLANCOURT-SUR-ESSONNE"
+   ],
+   "adresses": [
+    "RUE DES BERNACHES 91610 BALLANCOURT-SUR-ESSONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882589708",
+   "enseigne": "KINGS OF NAWAK BREWERY",
+   "dep": "91",
+   "communes": [
+    "ETAMPES"
+   ],
+   "adresses": [
+    "25 AVENUE DES GRENOTS 91150 ETAMPES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897825873",
+   "enseigne": "BRASSERIE GALILEE",
+   "dep": "91",
+   "communes": [
+    "ANGERVILLE"
+   ],
+   "adresses": [
+    "9 RUE DES MOISSONS 91670 ANGERVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:991210873",
+   "enseigne": "BRASSERIE DU TREFLE DORE",
+   "dep": "91",
+   "communes": [
+    "MAROLLES-EN-HUREPOIX"
+   ],
+   "adresses": [
+    "19 CHEMIN AUX OUAILLES 91630 MAROLLES-EN-HUREPOIX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/11668938625",
+   "enseigne": "Mets et Pierre",
+   "dep": "91",
+   "communes": [
+    "Orsay"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11668938625"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11987264719",
+   "enseigne": "Brasserie de Marcoussis",
+   "dep": "91",
+   "communes": [
+    "Marcoussis"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11987264719"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13098373138",
+   "enseigne": "Bories Jarnouen de Villartay",
+   "dep": "91",
+   "communes": [
+    "Brunoy"
+   ],
+   "adresses": [
+    "3 Allée Scipion Cochet, 91800 Brunoy"
+   ],
+   "osm": [
+    "node/13098373138"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13872612566",
+   "enseigne": "La Brasserie Fondamentale",
+   "dep": "91",
+   "communes": [
+    "Brouy"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13872612566"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3515412159",
+   "enseigne": "Parisis (Épinay-sous-Sénart)",
+   "dep": "91",
+   "communes": [
+    "Épinay-sous-Sénart"
+   ],
+   "adresses": [
+    "34 k Rue de la Forêt, 91860 Épinay-sous-Sénart"
+   ],
+   "osm": [
+    "node/3515412159"
+   ],
+   "site": "https://brasserie-parisis.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7804876931",
+   "enseigne": "La Bouledogue",
+   "dep": "91",
+   "communes": [
+    "Saulx-les-Chartreux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7804876931"
+   ],
+   "site": "http://www.labouledogue.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7859264371",
+   "enseigne": "Le spot",
+   "dep": "91",
+   "communes": [
+    "Évry-Courcouronnes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7859264371"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

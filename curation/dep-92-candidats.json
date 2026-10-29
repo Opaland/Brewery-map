@@ -1,0 +1,424 @@
+[
+ {
+  "cle": "sirene:414842062",
+  "nom": "HEINEKEN ENTREPRISE",
+  "communes": [
+   "RUEIL-MALMAISON"
+  ],
+  "departement": "92",
+  "adresses": [
+   "2 RUE DES MARTINETS 92500 RUEIL-MALMAISON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "414842062",
+  "sirets": [
+   "41484206200138"
+  ],
+  "osm": [],
+  "lat": 48.887200077,
+  "lon": 2.1650608564,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821920477",
+  "nom": "LES BIERES DE MONTMORILLON",
+  "communes": [
+   "CLICHY"
+  ],
+  "departement": "92",
+  "adresses": [
+   "7 RUE FERDINAND BUISSON 92110 CLICHY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821920477",
+  "sirets": [
+   "82192047700030"
+  ],
+  "osm": [],
+  "lat": 48.9014980818985,
+  "lon": 2.29968456789456,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953013976",
+  "nom": "HOMING BIRDS",
+  "communes": [
+   "VILLENEUVE-LA-GARENNE"
+  ],
+  "departement": "92",
+  "adresses": [
+   "12 AVENUE MARC SANGNIER 92390 VILLENEUVE-LA-GARENNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953013976",
+  "sirets": [
+   "95301397600048"
+  ],
+  "osm": [],
+  "lat": 48.9266624817672,
+  "lon": 2.32585912127784,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:382581551",
+  "nom": "KRONE AG",
+  "communes": [
+   "LEVALLOIS-PERRET"
+  ],
+  "departement": "92",
+  "adresses": [
+   "M.BRUHL LAURENT 54 RUE MARIUS AUFAN 92300 LEVALLOIS-PERRET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "382581551",
+  "sirets": [
+   "38258155100027"
+  ],
+  "osm": [],
+  "lat": 48.890457279,
+  "lon": 2.2846565793,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851679415",
+  "nom": "ASSOCIATION SURESNES BEER FACTORY",
+  "communes": [
+   "SURESNES"
+  ],
+  "departement": "92",
+  "adresses": [
+   "3 ALLEE WILLIAM PENN 92150 SURESNES",
+   "29 RUE KELLOGG 92150 SURESNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851679415",
+  "sirets": [
+   "85167941500014",
+   "85167941500022"
+  ],
+  "osm": [],
+  "lat": 48.860407282,
+  "lon": 2.2057616424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909889784",
+  "nom": "LA PLANTA PARIS BRASSERIE",
+  "communes": [
+   "ISSY-LES-MOULINEAUX"
+  ],
+  "departement": "92",
+  "adresses": [
+   "2 ALLEE LOUIS BONNIER 92130 ISSY-LES-MOULINEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909889784",
+  "sirets": [
+   "90988978400015"
+  ],
+  "osm": [],
+  "lat": 48.823676479,
+  "lon": 2.248021579,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914868831",
+  "nom": "BIERE DE PAROISSE",
+  "communes": [
+   "BOULOGNE-BILLANCOURT"
+  ],
+  "departement": "92",
+  "adresses": [
+   "44 RUE DE L'EST 92100 BOULOGNE-BILLANCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914868831",
+  "sirets": [
+   "91486883100019"
+  ],
+  "osm": [],
+  "lat": 48.84163498,
+  "lon": 2.2443996838,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:930310560",
+  "nom": "LA BIERE DE MONTROUGE",
+  "communes": [
+   "MONTROUGE"
+  ],
+  "departement": "92",
+  "adresses": [
+   "3 RUE DE LA SOLIDARITE 92120 MONTROUGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "930310560",
+  "sirets": [
+   "93031056000022"
+  ],
+  "osm": [],
+  "lat": 48.8146406293271,
+  "lon": 2.32191874737127,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893403816",
+  "nom": "LOCALE",
+  "communes": [
+   "ISSY-LES-MOULINEAUX"
+  ],
+  "departement": "92",
+  "adresses": [
+   "16 PASSAGE DE L'INDUSTRIE 92130 ISSY-LES-MOULINEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893403816",
+  "sirets": [
+   "89340381600018"
+  ],
+  "osm": [],
+  "lat": 48.826673879,
+  "lon": 2.2806863109,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878429968",
+  "nom": "BRASSERIE DU BAILLOU",
+  "communes": [
+   "CLICHY"
+  ],
+  "departement": "92",
+  "adresses": [
+   "12 B RUE DU GUICHET 92110 CLICHY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878429968",
+  "sirets": [
+   "87842996800018"
+  ],
+  "osm": [],
+  "lat": 48.9052795375634,
+  "lon": 2.30273727722509,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "CHAVILLE"
+  ],
+  "departement": "92",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:900751249",
+  "nom": "BEER MINKO",
+  "communes": [
+   "NANTERRE"
+  ],
+  "departement": "92",
+  "adresses": [
+   "5 TERRASSE DE L'UNIVERSITE 92000 NANTERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900751249",
+  "sirets": [
+   "90075124900013"
+  ],
+  "osm": [],
+  "lat": 48.8999656420758,
+  "lon": 2.21156506910424,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SEVRES"
+  ],
+  "departement": "92",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:951126630",
+  "nom": "BONELESS BREWING COMPANY",
+  "communes": [
+   "CHATILLON"
+  ],
+  "departement": "92",
+  "adresses": [
+   "93 BOULEVARD DE VANVES 92320 CHATILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951126630",
+  "sirets": [
+   "95112663000015"
+  ],
+  "osm": [],
+  "lat": 48.8093431016366,
+  "lon": 2.28305260533967,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850026246",
+  "nom": "BRASSERIE 02 SEINE",
+  "communes": [
+   "NANTERRE"
+  ],
+  "departement": "92",
+  "adresses": [
+   "4 RUE SILVY 92000 NANTERRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850026246",
+  "sirets": [
+   "85002624600023"
+  ],
+  "osm": [],
+  "lat": 48.893517747,
+  "lon": 2.1952415462,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3980268299",
+  "nom": "68 by Guy Martin",
+  "communes": [
+   "Levallois-Perret"
+  ],
+  "departement": "92",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3980268299"
+  ],
+  "lat": 48.87096,
+  "lon": 2.30507,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/640616938",
+  "nom": "La Place",
+  "communes": [
+   "Nanterre"
+  ],
+  "departement": "92",
+  "adresses": [
+   "12 Place Gabriel Péri, 92000 Nanterre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/640616938"
+  ],
+  "lat": 48.88986,
+  "lon": 2.19775,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6409925921",
+  "nom": "Get Your Drinks",
+  "communes": [
+   "Malakoff"
+  ],
+  "departement": "92",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6409925921"
+  ],
+  "lat": 48.81833,
+  "lon": 2.30539,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1024690864",
+  "nom": "Nemeto",
+  "communes": [
+   "Nanterre"
+  ],
+  "departement": "92",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1024690864"
+  ],
+  "lat": 48.89352,
+  "lon": 2.19523,
+  "site": "https://www.brasserienemeto.fr/",
+  "statut": "nouveau"
+ }
+]
