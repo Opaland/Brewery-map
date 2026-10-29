@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:844458828",
+ "ajout": {
+  "fiche": {
+   "n": "La Fabriq'",
+   "c": "Râches",
+   "d": "59",
+   "lat": 50.41068,
+   "lon": 3.13348,
+   "km": 540.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie artisanale de Râches. Le site officiel propose une dégustation sur place le vendredi et le samedi. Il ne dit ni vente de bouteilles ni vente à emporter. Les bières sont conditionnées en bouteilles de 33 et 75 cl. Horaires saisonniers : « Les horaires peuvent varier selon la saison. »",
+   "addr": "60 Quai du Canal, 59194 Râches",
+   "src": "https://www.brasserielafabriq.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 66 76 93 53",
+    "site": "https://www.brasserielafabriq.fr/",
+    "source": "https://www.brasserielafabriq.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserielafabriq.fr/",
+     "ven": [
+      [
+       "15:30",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Les horaires peuvent varier selon la saison.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserielafabriq.fr/",
+   "https://data.geopf.fr/geocodage/search?q=60+Quai+du+Canal%2C+59194+R%C3%A2ches&limit=5"
+  ],
+  "extrait": "Envie de boire une bonne bière ? Venez chez nous et dégustez la bière qui vous fera plaisir !",
+  "choix": "À examiner par Cédric : pour la catégorie « sur place seulement » (cat 4), je n'ai pas de phrase qui dise qu'il n'y a pas de vente à emporter. La page ne mentionne simplement aucune vente à emporter. Catégorie 1, sans présumer du cat 4. Si Cédric veut être strict, la vente n'étant pas écrite, c'est cat 0 ou cat 4. Bières laissées vides : l'Untappd (blonde, triple, IPA, stout, ambrée, Rachoise, Briquette, Smash, bière de campagne, Roussette, 10 bières affichées sur 13) n'a été lue que par résumé, sans URL de bière à mettre. Un seul numéro publié (03 66 76 93 53), retenu. La page parle aussi d'un « Bar mobile & staff » pour les événements privatisés, écarté. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas."
+ }
+}

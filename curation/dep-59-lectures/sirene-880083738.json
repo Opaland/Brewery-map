@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:880083738",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Gorguechon",
+   "c": "Moncheaux",
+   "d": "59",
+   "lat": 50.45328,
+   "lon": 3.07855,
+   "km": 545.7,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Boutique de la brasserie ouverte jeudi, vendredi et samedi matin ; bières bio vendues sur place. Visites sur réservation (samedi après-midi, groupes de 5 à 10).",
+   "addr": "46 rue de Lestrez, 59283 Moncheaux",
+   "src": "https://brasseriedugorguechon.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 27 86 34 01",
+    "source": "https://brasseriedugorguechon.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedugorguechon.fr/",
+     "jeu": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "13:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedugorguechon.fr/",
+   "https://data.geopf.fr/geocodage/search?q=46+rue+de+Lestrez%2C+59283+Moncheaux&limit=5"
+  ],
+  "extrait": "Directement du producteur au consommateur, nos bières bio sont disponibles dans notre boutique",
+  "choix": "Site officiel lu directement via WebFetch (page d'accueil, puis une page de visites et contact qui donne le même téléphone et les mêmes horaires ; son URL exacte n'a pas pu être confirmée, d'où source = accueil). Catégorie 2 : la vente en boutique est écrite, la consommation sur place n'est écrite nulle part (visites payantes sur réservation, sans mention de dégustation). Un seul numéro publié, 03 27 86 34 01, fixe. Types lus : « Plutôt Blonde, Triple ou encore Ambrée ? », laissés hors de beers faute de fiche détaillée par bière. Pas de lien Untappd sur le site ni trouvé en recherche, donc non proposé. Source rouverte à la main le 29/10."
+ }
+}

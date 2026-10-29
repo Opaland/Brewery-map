@@ -1,0 +1,32 @@
+{
+ "candidat": "way/152061847",
+ "ajout": {
+  "fiche": {
+   "n": "Aux Enfants Terribles",
+   "c": "Marquette-lez-Lille",
+   "d": "59",
+   "lat": 50.67986,
+   "lon": 3.07468,
+   "km": 570.3,
+   "cat": 4,
+   "conf": "moyenne",
+   "note": "Brasserie intégrée au lieu : son site dit que ses cuvées sont « servies exclusivement sur place » ; on les boit au bar, sans vente à emporter.",
+   "addr": "14 chemin de Wervicq, 59520 Marquette-lez-Lille",
+   "src": "https://auxenfantsterribles.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://auxenfantsterribles.fr",
+    "source": "https://auxenfantsterribles.fr",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://auxenfantsterribles.fr",
+   "https://data.geopf.fr/geocodage/search?q=14+chemin+de+Wervicq%2C+59520+Marquette-lez-Lille&limit=5"
+  ],
+  "extrait": "des cuvées pleines de caractère et servies exclusivement sur place.",
+  "choix": "Catégorie 4 « Consommer sur place seulement » (S368) : le site dit « servies exclusivement sur place » et ne propose aucune vente à emporter. Horaires du lieu entier non repris. Aucun téléphone sur la page. Site relu à la main le 29/10. Source rouverte à la main le 29/10."
+ }
+}

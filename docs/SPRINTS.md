@@ -3031,3 +3031,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S368 — Consommer sur place seulement *(28/10, demande de Cédric)*
 
 `docs/stories/S368.md`. Cinquième catégorie, code 4, « Consommer sur place seulement » : on boit les bières de la brasserie sur place, sans pouvoir en acheter à emporter (mots de Cédric dans `docs/DECISIONS.md`). Schéma, filtres (juste après « Acheter et consommer sur place »), carte, légende, couleur violette mesurée dans les deux thèmes et sur les tuiles, anglais, comptes rendus de campagne. Les préférences gardées passent en version 2 sans rien deviner. Revue adverse sans trouvaille bloquante ; tests qui listaient 0 à 3 en dur repris sur `ORDRE_CATEGORIES`. Aucune fiche n'est encore en 4 : la première vient avec le Nord.
+
+## S344, seconde partie — le Nord *(29/10, epic E36, demande de Cédric : « Fait le nord aussi »)*
+
+`docs/stories/S344.md`, issue #185. 131 candidats du Nord lus par 26 agents ; 34 fiches, dont la première « Consommer sur place seulement » (Aux Enfants Terribles) ; plus L'Intemporelle (Pas-de-Calais, relance). Sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée avant d'appliquer, et la réponse de Cédric du 29/10 appliquée (un bar sans vente écrite : catégorie 1, confiance faible). 609 fiches dans 52 départements, OSM à 741 ; les Hauts-de-France sont couverts.

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:821499316",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Dunes de Flandre",
+   "c": "Bray-Dunes",
+   "d": "59",
+   "lat": 51.07067,
+   "lon": 2.52096,
+   "km": 622.2,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel diabinte.fr, marque DIABINTE). Elle propose des visites d'atelier avec dégustation pour les groupes, sur rendez-vous. Le site ne dit pas qu'on y achète ou boit sur place : la boutique « DIABINTE La Boutique » est à Dunkerque et la page ne décrit pas ce qu'elle vend.",
+   "addr": "59 rue Roger Salengro, 59123 Bray-Dunes",
+   "src": "https://diabinte.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 28 58 83 98",
+    "site": "https://diabinte.fr",
+    "source": "https://diabinte.fr/contact/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://diabinte.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=59+rue+Roger+Salengro%2C+59123+Bray-Dunes&limit=5"
+  ],
+  "extrait": "Les visites d’atelier avec une dégustation sont proposées pour les groupes de 10 personnes et + sur rendez vous",
+  "choix": "Deux numéros sur la page contact (« 03 28 58 83 98 ou au 06 74 90 92 16 ») : je retiens le fixe 03 28 58 83 98, aussi écrit sur l'accueil (« Tél : 03 28 58 83 98 »), et j'écarte le mobile. Horaires non proposés : l'accueil donne « jeudi : 10h/12h – vendredi : 10h/12h & 15h/18h – samedi : 15h/18h » pour Bray-Dunes mais sans dire s'il s'agit d'accueil ou de vente. La boutique de Dunkerque (39 boulevard Sainte Barbe, mardi-samedi) serait une autre adresse : à trancher par Cédric. Les bières lues sur diabinte.fr/les-produits/ sont des blondes, ambrée, blanche, brune, IPA et bière de Noël, sans page Untappd trouvée : aucune bière proposée. Source rouverte à la main le 29/10."
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:802181552",
+ "ajout": {
+  "fiche": {
+   "n": "Célestin - La Micro-Brasserie du Vieux-Lille",
+   "c": "Lille",
+   "d": "59",
+   "lat": 50.6392,
+   "lon": 3.05941,
+   "km": 566.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel présente une micro-brasserie avec visites et une cave à bières (120 rue Esquermoise, Lille) où l'on achète les bières, avec retrait en ligne. Il parle de dégustations pendant les visites, mais ne dit pas qu'on peut boire sur place hors visite : vente seule retenue.",
+   "addr": "19 rue Jean-Jacques Rousseau, 59800 Lille",
+   "src": "https://celestinlille.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 81 21 67 21",
+    "site": "https://celestinlille.fr",
+    "untappd": "https://untappd.com/LaMicroBrasserieDuVieuxLille",
+    "source": "https://celestinlille.fr",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://celestinlille.fr",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+Jean-Jacques+Rousseau%2C+59800+Lille&limit=5"
+  ],
+  "extrait": "Venez découvrir nos brasseries et organiser vos événements dans notre salle de réception",
+  "choix": "Téléphone retenu : 09 81 21 67 21, le seul publié sur la page. Les horaires de vente sont ceux de la cave, rue Esquermoise (autre adresse que la brasserie), et la remarque le dit. Je n'ai pas écrit les visites en horaires d'accueil : la page donne des heures de départ (14h, 15h...), pas des plages. Je n'ai pas retenu la boutique de Haubourdin, ni le dimanche de la cave, absent de la source. Bières laissées vides : le format de beers ne m'est pas donné et les styles viennent d'un résumé. La page https://celestinlille.fr/nos-bieres/ donne La Dix (pale ale), Wal (triple), Hoppy Yuzu (IPA), N° Noir (stout), Héroïne (blanche), Exalt (double IPA), 1740 (impérial stout). Untappd (lu via un résumé) liste IPA, Blonde Pale Ale, Belgian Tripel, Stout, Witbier, Session IPA et NEIPA. Source rouverte à la main le 29/10. Horaires retirés à la relecture : ce sont ceux de la cave, rue Esquermoise, une autre adresse que la fiche."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "node/10730714849",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Hommelpap",
+   "c": "Bailleul",
+   "d": "59",
+   "lat": 50.73244,
+   "lon": 2.73998,
+   "km": 581.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La bière Hommelpap se vend uniquement à la brasserie, sur commande. Une visite guidée avec dégustation est proposée (tarif de groupe, à partir de 20 personnes).",
+   "addr": "Eeckelstraete, 59270 Bailleul",
+   "src": "https://www.fermebeck.net/brasseur",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 28 49 03 90",
+    "site": "https://www.fermebeck.net/brasseur",
+    "source": "https://www.fermebeck.net/brasseur",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.fermebeck.net/brasseur",
+   "https://data.geopf.fr/geocodage/search?q=Bailleul&type=municipality&limit=5"
+  ],
+  "extrait": "En vente uniquement dans la brasserie sur commande",
+  "choix": "Cat 2 et non 1 : la dégustation n'est citée que dans la visite guidée (« 8€ visite et dégustation ( groupe à partir de 20 Pers) »), pas comme accueil ouvert. Pas de mention « sur place seulement ». Aucun horaire publié. Le nom publié est « Ferme Brasserie Beck » ; je garde le nom OSM « Brasserie Hommelpap » (Hommelpap est la bière). Adresse sans numéro : seule « Eeckelstraete 59270 BAILLEUL » est publiée. Bières non listées dans `beers` : Hommelpap (ambrée) et L'Alezane (de printemps) sont décrites sur la page, mais je n'ai pas leur format exact. Source rouverte à la main le 29/10."
+ }
+}

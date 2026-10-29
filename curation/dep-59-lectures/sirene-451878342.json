@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:451878342",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Breweppes",
+   "c": "Herlies",
+   "d": "59",
+   "lat": 50.56932,
+   "lon": 2.84954,
+   "km": 562.3,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : son site officiel donne son adresse, son téléphone et sa gamme. Il ne dit rien de la vente sur place, ni des visites, ni des horaires. La gamme Weppa y est présentée comme « une gamme exclusive pour nos cavistes, cafés, hôtels & restaurants ». Ce qu'on peut y faire n'est pas établi.",
+   "addr": "10 rue des charrons, 59134 Herlies",
+   "src": "https://www.breweppes.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 20 04 69 62",
+    "site": "https://www.breweppes.fr/",
+    "source": "https://www.breweppes.fr/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.breweppes.fr/",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+des+charrons%2C+59134+Herlies&limit=5"
+  ],
+  "extrait": "BREWEPPES, c’est le projet fou de passionnés de la bière",
+  "choix": "Un seul numéro publié (03 20 04 69 62, rubrique Contact – Accès), retenu. Catégorie 0 : le site ne parle ni de vente directe, ni de boutique, ni de visite, ni d'horaires, donc rien n'est déduit. Gammes lues sur le site : Weppa (blonde, IPA, triple, ambrée, hiver, destinée aux professionnels), Highway to Weppes (éphémères, pour les professionnels), Breweppes (Sun Wave, Wake Hop, Watt Ales). Je ne les ai pas mises dans `beers` : les types viennent d'Untappd (DONNEES.md) et aucune page Untappd de la brasserie n'a été trouvée. Je n'ai pas non plus proposé de lien Untappd. Le site ne donne que Facebook et Instagram comme réseaux, et ce ne sont pas des preuves. Vérifié par la recherche Untappd (« Breweppes ») : pas de page de brasserie. Source rouverte à la main le 29/10."
+ }
+}

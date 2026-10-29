@@ -1,0 +1,51 @@
+{
+ "candidat": "sirene:852293547",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Lys",
+   "c": "Roubaix",
+   "d": "59",
+   "lat": 50.70248,
+   "lon": 3.17212,
+   "km": 571.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Sa taproom sert la dégustation sur place, le jeudi et le vendredi de 17h30 à 19h30, d'après son site. La vente à emporter n'y est pas écrite : catégorie probable, d'où une confiance faible.",
+   "addr": "89 rue de Tourcoing, 59100 Roubaix",
+   "src": "https://www.brasseriedeslys.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriedeslys.fr/",
+    "source": "https://www.brasseriedeslys.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriedeslys.fr/",
+     "jeu": [
+      [
+       "17:30",
+       "19:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:30",
+       "19:30"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriedeslys.fr/",
+   "https://data.geopf.fr/geocodage/search?q=89+rue+de+Tourcoing%2C+59100+Roubaix&limit=5"
+  ],
+  "extrait": "Venez découvrir notre Taproom, un espace dédié à la dégustation de nos bières directement depuis leur lieu de production.",
+  "choix": "Catégorie 1 en confiance faible, par la réponse de Cédric du 29/10. Aucun téléphone publié. Pas d'Untappd trouvé. Source rouverte à la main le 29/10."
+ }
+}

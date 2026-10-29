@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:819868043",
+ "ajout": {
+  "fiche": {
+   "n": "Le Singe Savant",
+   "c": "Lille",
+   "d": "59",
+   "lat": 50.63095,
+   "lon": 3.04539,
+   "km": 565.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "La page de l'agence Hello Lille (métropole) présente une micro-brasserie coopérative du quartier de Moulins, avec un bar et une boutique à 100 mètres, et liste dégustation, bar et boutique. Pas d'horaires ni de téléphone lus. Le site de la brasserie (singe-savant.com) n'a donné que son titre.",
+   "addr": "Lille",
+   "src": "https://en.hellolille.eu/i-organize/reception-areas/brasserie-du-singe-savant-lille-en-4700137",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.singe-savant.com",
+    "source": "https://en.hellolille.eu/i-organize/reception-areas/brasserie-du-singe-savant-lille-en-4700137",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://en.hellolille.eu/i-organize/reception-areas/brasserie-du-singe-savant-lille-en-4700137",
+   "https://data.geopf.fr/geocodage/search?q=Lille&type=municipality&limit=5"
+  ],
+  "extrait": "There's also a bar and store just 100 metres from the brewery, and a home-brewing workshop.",
+  "choix": "Lecture via un résumé (WebFetch). Confiance moyenne : office/agence de tourisme, et le site officiel n'a livré que « Micro-brasserie Le Singe Savant, Lille ». Page Untappd existante : https://untappd.com/LaBrasserieDuSingeSavant (« Brasserie du Singe Savant », micro-brasserie, bar au 94 rue d'Arras, ouvert du mardi au samedi ; lue via un résumé). Je ne la mets pas dans contact, car contact.source est la page HelloLille. Bières Untappd : styles lus (IPA, Sour, Stout, Porter, Pale Ale, Witbier…), non recopiés dans beers faute de format de bière vérifié. Adresse laissée vide : 94 rue d'Arras (Untappd, bar) et 134 rue d'Arras (SIRENE) divergent, et la page HelloLille ne donne que des coordonnées. Horaires de tablejourney (annuaire) écartés. Aucun téléphone lu. Source rouverte à la main le 29/10."
+ }
+}

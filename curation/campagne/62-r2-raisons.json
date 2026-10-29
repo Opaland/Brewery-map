@@ -1,1 +1,10 @@
-{}
+{
+  "sirene:499451045": "lu le 29/10 : site toujours en erreur 503, annuaires seuls : à relancer quand le site répond",
+  "sirene:840053771": "lu le 29/10 : site toujours en maintenance : à relancer",
+  "node/11978102348": "lu le 29/10 : rien sous ce nom",
+  "node/12459402001": "lu le 29/10 : rien sous ce nom",
+  "node/4829087299": "lu le 29/10 : le site (2caps.fr) refuse encore la lecture automatique (403) : le contrôle ne peut pas relire l'extrait ; à relancer",
+  "way/245646436": "lu le 29/10 : le site refuse encore la lecture automatique (406) : le contrôle ne peut pas relire l'extrait ; à relancer",
+  "way/641318870": "lu le 29/10 : site toujours en erreur 503 : à relancer quand le site répond",
+  "sirene:854024254": "lu le 29/10 : la page s'ouvre dans un navigateur mais répond 404 à l'outil de contrôle, qui ne peut pas relire l'extrait ; à relancer"
+}

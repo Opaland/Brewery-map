@@ -1,0 +1,78 @@
+{
+ "candidat": "sirene:492713250",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pays Flamand (Merville)",
+   "c": "Merville",
+   "d": "59",
+   "lat": 50.63647,
+   "lon": 2.65466,
+   "km": 573.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site officiel présente à Merville une Tap Room (bières tirées au robinet) et une boutique qui vend les bières de la brasserie à emporter.",
+   "addr": "83 route de la Gorgue, 59660 Merville",
+   "src": "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 28 41 74 99",
+    "site": "https://www.brasseriedupaysflamand.com",
+    "source": "https://www.brasseriedupaysflamand.com/contact-us/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "14:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Horaires de la Tap Room de Merville.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriedupaysflamand.com/nos-etablissements/",
+   "https://www.brasseriedupaysflamand.com/contact-us/",
+   "https://data.geopf.fr/geocodage/search?q=83+route+de+la+Gorgue%2C+59660+Merville&limit=5"
+  ],
+  "extrait": "Mercredi : 10h- 12h30 et 14h à 22h",
+  "choix": "Lu via un résumé de la page (l'outil de lecture ne recopie pas de bloc entier). L'extrait est donc un fragment cité par ce résumé, à recontrôler sur la page par Cédric. Pas « sur place seulement » : la boutique de Merville vend à emporter. Le site a deux lieux ; je ne propose que Merville (le candidat SIRENE est à Merville). Blaringhem (59173, 425 rue André Plockyn) est un autre lieu, avec estaminet, visites et boutique : il n'a pas de fiche et est à traiter à part. Téléphone : un seul numéro publié pour les deux sites (+33 (0)3 28 41 74 99), retenu. Je n'ai pas retenu les portables et courriels nominatifs du bloc Blaringhem. Aucune page Untappd trouvée, aucun lien Untappd proposé. Les trois bières viennent de la boutique en ligne du site (page de catégorie « Bières » ; le catalogue vient d'une lecture résumée). Horaires : le bloc vente reprend celui de la Tap Room, car la boutique est donnée aux mêmes heures ; deux lectures résumées l'ont rendu de façon légèrement différente, à recontrôler. Source rouverte à la main le 29/10. Retirés à la relecture : le bloc de vente (recopié de l'accueil, non lu) et les bières (noms de la boutique, pas de style Untappd)."
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "candidat": "node/12513030601",
+ "ajout": {
+  "fiche": {
+   "n": "Monsieur Paon",
+   "c": "Lille",
+   "d": "59",
+   "lat": 50.64028,
+   "lon": 3.0851,
+   "km": 565.8,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Microbrasserie lilloise. Le site officiel annonce la vente à emporter à la brasserie le jeudi et le vendredi, ou le retrait des bières réservées en ligne. Aucune dégustation sur place n'est mentionnée.",
+   "addr": "53 rue Blanche, 59800 Lille",
+   "src": "https://monsieurpaon.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 95 31 35 45",
+    "source": "https://monsieurpaon.fr",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://monsieurpaon.fr",
+     "jeu": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://monsieurpaon.fr",
+   "https://data.geopf.fr/geocodage/search?q=53+rue+Blanche%2C+59800+Lille&limit=5"
+  ],
+  "extrait": "Vente à emporter à la brasserie, ou retrait des bières réservées en ligne.",
+  "choix": "Candidat classé « ambigu » dans le paquet, mais aucune fiche de data/ ne porte ce nom ni cette adresse. Le nom OSM « Monsieur Paon / Brasserie Craft » est ramené à « Monsieur Paon », le nom du site. Le 06 95 31 35 45 est un mobile, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). Pas de dégustation sur place lue, donc pas de catégorie 4. Pas de page Untappd trouvée. Source rouverte à la main le 29/10."
+ }
+}

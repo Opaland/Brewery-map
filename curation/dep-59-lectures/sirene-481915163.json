@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:481915163",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Sources",
+   "c": "Saint-Amand-les-Eaux",
+   "d": "59",
+   "lat": 50.44741,
+   "lon": 3.44015,
+   "km": 539.6,
+   "cat": 3,
+   "conf": "moyenne",
+   "note": "Site de production : la brasserie ne se visite pas pour le moment (visites lors des journées portes ouvertes seulement) et n'a pas encore de boutique. Les bières se trouvent en supermarchés partenaires.",
+   "addr": "2 avenue du Collège, 59230 Saint-Amand-les-Eaux",
+   "src": "https://brasseriedessources.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriedessources.fr",
+    "source": "https://brasseriedessources.fr/contact/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedessources.fr",
+   "https://brasseriedessources.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=2+avenue+du+Coll%C3%A8ge%2C+59230+Saint-Amand-les-Eaux&limit=5"
+  ],
+  "extrait": "Non, nous n'avons pas encore de boutique à la Brasserie des Sources.",
+  "choix": "Catégorie 3 d'après la FAQ du site officiel (pas de boutique, pas de visite en dehors des journées portes ouvertes). Confiance moyenne : la FAQ le dit au présent (« pas encore », « pour le moment »), donc la situation peut changer. Aucun téléphone publié (formulaire et e-mail seulement), donc pas de `contact.tel`. Aucun horaire publié. Aucune page Untappd trouvée, donc aucun type de bière retenu (`beers` vide). Le site cite Bellerose, Vieux Lille, Estaminet, etc., mais sans source Untappd je ne les propose pas. Source rouverte à la main le 29/10."
+ }
+}

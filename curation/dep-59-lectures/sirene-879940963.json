@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:879940963",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Lions",
+   "c": "Roncq",
+   "d": "59",
+   "lat": 50.74022,
+   "lon": 3.11553,
+   "km": 576.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie dit qu'elle dispose d'un bar et d'un espace convivial pour déguster ses bières ; il publie des horaires boutique/bar (vendredi et samedi matin) et une visite avec dégustation le samedi matin. Aucun type de bière précis ni page Untappd vérifiée.",
+   "addr": "5 bis Rue Pasteur, 59223 Roncq",
+   "src": "https://brasseriedeslions.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 37 88 83 76",
+    "site": "https://brasseriedeslions.fr/",
+    "source": "https://brasseriedeslions.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedeslions.fr/",
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "remarque": "Visite avec dégustation le samedi de 11h à 12h, sur réservation.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedeslions.fr/",
+   "https://data.geopf.fr/geocodage/search?q=5+bis+Rue+Pasteur%2C+59223+Roncq&limit=5"
+  ],
+  "extrait": "elle dispose d'un bar et d'un espace convivial pour déguster nos bières.",
+  "choix": "Seul téléphone publié par la brasserie : un mobile (06 37 88 83 76), retenu pour cette raison. La page Untappd trouvée par la recherche (untappd.com/BrasserieDuLion) est celle de « Brasserie Lion » à Nivelles, en Belgique : écartée. Une gamme est décrite (« deux gammes de bières traditionnelles des Hauts de France ») sans style, donc aucun type de bière proposé. Les horaires sont intitulés « Horaires boutique/bar », d'où la nature « accueil ». La visite du samedi 11h-12h sur réservation est dite dans remarque. Source rouverte à la main le 29/10."
+ }
+}

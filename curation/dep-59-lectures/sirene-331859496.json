@@ -1,0 +1,93 @@
+{
+ "candidat": "sirene:331859496",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Saint-Sylvestre (3 Monts)",
+   "c": "Saint-Sylvestre-Cappel",
+   "d": "59",
+   "lat": 50.77799,
+   "lon": 2.55503,
+   "km": 590.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel propose un magasin de la brasserie et une visite guidée qui se termine par une dégustation. Pas de bar ouvert en continu. Magasin : mardi au samedi 9h-12h30 et 13h30-18h30, lundi 13h30-18h30, samedi après-midi en juillet-août seulement.",
+   "addr": "121 Route de la Chapelle, 59114 Saint-Sylvestre-Cappel",
+   "src": "https://www.3monts.fr/visite/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 28 40 15 49",
+    "site": "https://www.3monts.fr/",
+    "source": "https://www.3monts.fr/visite/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.3monts.fr/visite/",
+     "lun": [
+      [
+       "13:30",
+       "18:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:30"
+      ]
+     ],
+     "remarque": "Samedi après-midi ouvert en juillet-août seulement (13h30-18h30). Fermé le dimanche et les jours fériés.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.3monts.fr/visite/",
+   "https://data.geopf.fr/geocodage/search?q=121+Route+de+la+Chapelle%2C+59114+Saint-Sylvestre-Cappel&limit=5"
+  ],
+  "extrait": "A la fin, une dégustation de bières en galopin vous sera proposée.",
+  "choix": "Lecture via un résumé de page. Je rattache à cette fiche l'« ENTREPOT DE LA BRASSERIE 3 MONTS » de la clé SIRENE (1 rue de la Chapelle à Saint-Sylvestre-Cappel, et un entrepôt à Steenvoorde) : c'est la même brasserie, dont le site donne l'adresse 121 Route de la Chapelle. Le nom de fiche retenu est celui de l'OSM `way/100997989` « Brasserie de Saint-Sylvestre » (site 3monts.fr), candidat du paquet 22 : doublon probable à dédupliquer côté campagne. Le site mentionne aussi la vente en ligne (bouteilles et verres à partir de 6 pièces), que je n'ai pas retenue. Confiance moyenne car la dégustation n'est citée que dans le cadre de la visite guidée. Untappd : aucune page trouvée, donc pas de lien et pas de bières. La page d'accueil du site liste d'autres liens (Instagram, Facebook, YouTube), sans intérêt ici. Source rouverte à la main le 29/10."
+ }
+}

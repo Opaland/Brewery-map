@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:850559287",
+ "ajout": {
+  "fiche": {
+   "n": "Brique Land (Brique House)",
+   "c": "Saint-André-lez-Lille",
+   "d": "59",
+   "lat": 50.66115,
+   "lon": 3.04022,
+   "km": 568.8,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site officiel de Brique House présente Brique Land, à Saint-André-lez-Lille, comme une brasserie où l'on boit une bière sur place en mangeant une pizza. Il ne dit ni vente à emporter, ni téléphone, ni lien Untappd. La liste des bières n'a pas été lue.",
+   "addr": "27 rue Félix Faure, 59350 Saint-André-lez-Lille",
+   "src": "https://briquehouse.com/taprooms/brique-land-1",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://briquehouse.com/taprooms/brique-land-1",
+    "source": "https://briquehouse.com/taprooms/brique-land-1",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://briquehouse.com/taprooms/brique-land-1",
+     "lun": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "00:30"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "00:30"
+      ]
+     ],
+     "dim": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Horaires du taproom de Brique Land, tels que la page les affiche.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://briquehouse.com/taprooms/brique-land-1",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Andr%C3%A9-lez-Lille&type=municipality&limit=5"
+  ],
+  "extrait": "Brique House est une brasserie où tu peux te poser, boire une bière tout en dégustant une bonne pizza.",
+  "choix": "Page lue via un résumé. Même page, deux autres passages : « Viens vite découvrir nos bières craft directement dans notre brasserie. » et « l'adresse italo-chti à Saint-André-lez-lille pour les amoureux de la pizza napolitaine et de bière artisanale. » Adresse : la page donne « 27 Félix Faure, 59350 Saint-André-lez-Lille » ; le registre SIRENE dit « 70 rue Félix Faure » (Halles de la Filature), j'ai pris la page.  Écarté : le privateaser (annuaire) qui dit « bières brassées sur place » et des horaires de réservation différents ; je n'ai pas pris ses horaires. Autres sites de Brique House (Fretin, Lille HEIN, Villeneuve-d'Ascq, Bordeaux) non retenus : la page des taprooms ne cite pas Fretin et ne donne ni adresse ni horaires pour eux. Untappd : aucune page trouvée (briquehouse.com sans lien, untappd.com/BriqueHouse en 404), donc non proposé. Téléphone : aucun publié sur la page. Confiance faible : la page dit qu'on boit sur place, pas qu'on vend à emporter (réponse de Cédric du 29/10). Source rouverte à la main le 29/10."
+ }
+}

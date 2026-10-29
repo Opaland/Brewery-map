@@ -50,6 +50,11 @@ Restent 3, 4 et 5.
 - Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
 - Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
 
+## Restes de S344, seconde partie (29/10, issue #185)
+
+- À relancer : Goulot (sa page répond 404 à l'outil de contrôle, 200 à un navigateur : l'en-tête envoyé par `controler` est sans doute en cause, à regarder), 2 Caps (403) et 7 Bonnettes (406), Tours du Malt (429), Bellenaert (vérification de l'âge, comme le Léman) ; sites en panne ou injoignables depuis le conteneur : Duyck, Osseus, Forest, Kino Beer, Wagnonville, Lepers, La Gueule de, Angelus, Artésienne, Paysanne de l'Artois, Terres d'Opale, Saint Rieul, Écol' aux Mousses, Brasserie à la Noye ; Dreum, Brasserie du Cateau (Vivat), Kmého, Tripoint.
+- Deux sites de la Brasserie du Pays Flamand (Merville et Blaringhem) : deux fiches, un seul téléphone.
+
 ## Restes de S344, première partie (28/10, issue #185)
 
 - Le Nord (59, 27 paquets) n'est pas lu : quota de recherches épuisé. Seconde partie de S344, avec un quota neuf.
