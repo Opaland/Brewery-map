@@ -410,7 +410,7 @@ describe('le lot suivant', () => {
     expect(lotSuivant([datee, moyen], 25, BRIGNAIS, new Set(['Près']))).toEqual(['Moyen'])
   })
 
-  it('veille (S15) : les catégories 1 à 3 seulement, jamais datées d’abord, catégorie 1 en tête', () => {
+  it('veille (S15) : les catégories 1 à 4 seulement, jamais datées d’abord, catégorie 1 en tête', () => {
     // Les « À confirmer » restent au lot normal : pas de doublon entre les deux
     // (revue métier S15). Sans date, l'ordre est la catégorie (1 : consommer sur
     // place, le critère de Cédric), puis la distance ; ensuite la date.

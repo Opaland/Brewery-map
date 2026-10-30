@@ -3047,3 +3047,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S369 — La porte tourne sous Windows sans le mode développeur *(30/10)*
 
 `docs/stories/S369.md`. Les deux tests de liens symboliques de S360 échouaient en EPERM sous Windows et bloquaient le crochet : sautés sur `win32` seulement, la CI sous Linux les joue toujours.
+
+## S370 — Ce que la revue globale du 30/10 a trouvé après S368 *(30/10)*
+
+`docs/stories/S370.md`, `docs/REVUE-GLOBALE-2026-10-30.md`. Le vérificateur et la veille disent « 1 à 4 » ; la veille ne promet plus un tour en 7 mois (40 mois à 398 fiches) ; le test des marqueurs lit `CATEGORIES` (vu rouge) ; le bloc bash du README clone. Issues #249, #250, #251.

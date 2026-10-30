@@ -15,7 +15,7 @@ une PR qui propose quelque chose, fermer une issue sans y répondre
    la catégorie — étape 1 du skill `lot-de-curation`. Une issue qui a déjà
    un commentaire de veille sans décision de Cédric n'est pas reprise : elle
    attend sa réponse.
-2. **10 fiches des catégories 1 à 3**, jamais vérifiées d'abord (catégorie 1
+2. **10 fiches des catégories 1 à 4**, jamais vérifiées d'abord (catégorie 1
    en tête), puis les plus anciennement vérifiées :
    `npx tsx outils/curation.ts lot 10 --veille`.
 3. **10 « À confirmer » jamais revus** : `npx tsx outils/curation.ts lot 10`.
