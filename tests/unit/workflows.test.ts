@@ -163,7 +163,11 @@ describe('visuel-references.yml : le job qui pousse ne committe que des images o
     expect(essayer(() => undefined)).toBe(true)
   })
 
-  it('un lien symbolique est refusé', () => {
+  // Sous Windows, créer un lien demande le mode développeur (EPERM) ; la CI,
+  // sous Linux, les joue toujours, et c'est elle qui exécute cette garde.
+  const sansWindows = it.skipIf(process.platform === 'win32')
+
+  sansWindows('un lien symbolique est refusé', () => {
     expect(
       essayer((dossier, racine) => {
         writeFileSync(join(racine, 'secret'), PNG)
@@ -172,7 +176,7 @@ describe('visuel-references.yml : le job qui pousse ne committe que des images o
     ).toBe(false)
   })
 
-  it('le dossier lui-même en lien symbolique est refusé (revue adverse S360)', () => {
+  sansWindows('le dossier lui-même en lien symbolique est refusé (revue adverse S360)', () => {
     expect(
       essayer((dossier, racine) => {
         const ailleurs = join(racine, 'ailleurs')
