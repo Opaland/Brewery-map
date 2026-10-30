@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:827467663",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie 2 l'Équipage",
+   "c": "Bonnelles",
+   "d": "78",
+   "lat": 48.62509,
+   "lon": 2.02626,
+   "km": 387.5,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Le site de la brasserie propose le « Call & Collect » : on commande par téléphone et on retire sur place. Il ne parle ni de dégustation ni de vente directe, et sa page porte une mise à jour de février 2022 (source ancienne). Les horaires ne sont pas repris : le site (février 2022) et l'office de tourisme de Rambouillet se contredisent.",
+   "addr": "8 rue des Jacinthes Sauvages, 78830 Bonnelles",
+   "src": "https://www.brasserie2lequipage.fr/old-index.php",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 78 46 91 98",
+    "source": "https://www.brasserie2lequipage.fr/old-index.php",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserie2lequipage.fr/old-index.php",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+des+Jacinthes+Sauvages%2C+78830+Bonnelles&limit=5"
+  ],
+  "extrait": "CALL & COLLECT",
+  "choix": "Seule ligne publiée par la brasserie : un portable (06 78 46 91 98), repris selon la règle du 21/10. Le site donne « 06.78.46.91.98 », l'office de Rambouillet le même numéro. Horaires écartés : le site donne mer. 10h-19h30 et sam. 13h-18h, l'office donne jeu. 19h-20h et sam. 13h-20h. Catégorie 2 en confiance faible parce que la page date de 2022 et que l'office parle d'une « boutique » sans précision. Source rouverte à la main le 29/10."
+ }
+}

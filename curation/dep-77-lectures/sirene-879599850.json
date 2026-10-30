@@ -1,0 +1,81 @@
+{
+ "candidat": "sirene:879599850",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Second Degré",
+   "c": "Magny-le-Hongre",
+   "d": "77",
+   "lat": 48.86504,
+   "lon": 2.81354,
+   "km": 383.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bières brassées sur place, servies à la pression au bar ou en terrasse du taproom, et vendues en canettes à emporter (site officiel).",
+   "addr": "10 rue de l'église, 77700 Magny-le-Hongre",
+   "src": "https://auseconddegre.shop/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 74 64 00 55",
+    "site": "https://www.auseconddegre.com/",
+    "source": "https://www.auseconddegre.com/taproom/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.auseconddegre.com/taproom/",
+     "lun": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "13:30"
+      ],
+      [
+       "16:00",
+       "00:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://auseconddegre.shop/",
+   "https://www.auseconddegre.com/taproom/",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27%C3%A9glise%2C+77700+Magny-le-Hongre&limit=5"
+  ],
+  "extrait": "NOS BIÈRES SONT BRASSÉES SUR PLACE, SERVIES BIEN FRAÎCHES À LA PRESSION OU DISPOS EN CANETTES À EMPORTER.",
+  "choix": "Le « sur place » est confirmé par la page taproom (https://www.auseconddegre.com/taproom/) : « viens boire un verre à la microbrasserie entre les cuves, au bar ou en terrasse ». L'adresse, le téléphone et les horaires viennent de cette page. Confiance moyenne parce que le menu du taproom est une image illisible pour moi. Le dimanche n'est pas mentionné : pas de créneau. Samedi a deux créneaux, 09h-13h30 et 16h-00h. Les styles de bière ne sont pas précisés (seulement des noms de produits) : beers vide. Aucun Untappd trouvé. Source rouverte à la main le 29/10."
+ }
+}

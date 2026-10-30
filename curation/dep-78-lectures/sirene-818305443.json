@@ -1,0 +1,83 @@
+{
+ "candidat": "sirene:818305443",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Toussaint",
+   "c": "Noisy-le-Roi",
+   "d": "78",
+   "lat": 48.84357,
+   "lon": 2.05737,
+   "km": 406.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie et brewpub au pied des cuves, avec une boutique de vente directe sur le même site.",
+   "addr": "2 avenue de l'Europe, 78590 Noisy-le-Roi",
+   "src": "https://www.brasserietoussaint.com/restaurant/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 87 66 67 45",
+    "site": "https://www.brasserietoussaint.com",
+    "source": "https://www.brasserietoussaint.com/contact-2/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserietoussaint.com/restaurant/",
+     "mar": [
+      [
+       "12:00",
+       "14:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "14:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserietoussaint.com/restaurant/",
+   "https://www.brasserietoussaint.com/contact-2/",
+   "https://data.geopf.fr/geocodage/search?q=2+avenue+de+l%27Europe%2C+78590+Noisy-le-Roi&limit=5"
+  ],
+  "extrait": "des bières fraîches, au pied même des cuves",
+  "choix": "Lu via un résumé de WebFetch : l'extrait est à vérifier. Téléphone retenu : 01 87 66 67 45, lu sur la page contact. Le 06 98 96 60 04 sert aux réservations de plus de 8 personnes, écarté. Untappd https://untappd.com/BrasserieToussaint a été ouvert, c'est bien la page de la brasserie, mais il n'est pas repris dans contact parce que la page contact ne le porte pas. Ses styles sont lisibles, mais je n'ai pas relevé de bières nommées avec leur style : beers reste vide. La page boutique dit « Fermé jusqu'au 24 août », une date passée, donc les horaires de vente sont à revérifier. Les horaires du brewpub viennent d'un résumé anglais, sans passage français exact. Horaires de la boutique non saisis : la page porte encore « Fermé jusqu'au 24 août ». Source rouverte à la main le 29/10."
+ }
+}

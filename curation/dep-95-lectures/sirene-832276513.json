@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:832276513",
+ "ajout": {
+  "fiche": {
+   "n": "Terrabière",
+   "c": "Deuil-la-Barre",
+   "d": "95",
+   "lat": 48.97594,
+   "lon": 2.32709,
+   "km": 410.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie bio avec boutique, bar et salon de dégustation ; vente directe à emporter et dégustation sur place.",
+   "addr": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+   "src": "https://brasserie-terrabiere.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 55 42 15",
+    "site": "https://brasserie-terrabiere.com",
+    "source": "https://brasserie-terrabiere.com",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-terrabiere.com",
+     "mar": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Terrasse d'hiver selon météo.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasserie-terrabiere.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+Charles+de+Gaulle%2C+95170+Deuil-la-Barre&limit=5"
+  ],
+  "extrait": "Bar – Dégustation sur place",
+  "choix": "Deux autres lignes du pied de page du même site : « Vente directe à emporter » (vente à emporter) et « Boutique, bar et terrasse : du mardi au vendredi (17h/23h) et samedi (11h/23h) ». Elles justifient la catégorie 1. Brassage sur place lu sur la page : « Production de bières artisanales ». Types de bière (blonde, ambrée, brune, blanche, scotch ale) lus mais non repris : la page ne donne pas de nom de bière ni de lien par bière, donc beers reste vide. Untappd : introuvable (page du site sans mention, deux recherches sans résultat). Le site publie un seul numéro, celui de la brasserie. La seconde adresse SIRENE (Enghien-les-Bains) n'est pas celle du site : écartée. Source rouverte à la main le 29/10."
+ }
+}

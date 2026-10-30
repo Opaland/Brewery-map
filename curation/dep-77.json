@@ -1,0 +1,616 @@
+{
+ "lot": "dep-77",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Parisis",
+    "c": "Combs-la-Ville",
+    "d": "77",
+    "lat": 48.64882,
+    "lon": 2.56834,
+    "km": 369.7,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie artisanale avec boutique et taproom dans ses murs depuis l'été 2023 (site officiel).",
+    "addr": "3 Rue René Dumont, 77380 Combs-la-Ville",
+    "src": "https://brasserie-parisis.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 60 46 62 33",
+     "site": "https://brasserie-parisis.com/",
+     "source": "https://brasserie-parisis.com/le-bar-taproom/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://brasserie-parisis.com/le-bar-taproom/",
+      "verifieLe": "2026-10-29"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://brasserie-parisis.com/la-boutique/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://brasserie-parisis.com/",
+    "https://brasserie-parisis.com/le-bar-taproom/",
+    "https://brasserie-parisis.com/la-boutique/",
+    "https://data.geopf.fr/geocodage/search?q=3+Rue+Ren%C3%A9+Dumont%2C+77380+Combs-la-Ville&limit=5"
+   ],
+   "extrait": "Depuis l’été 2023, une boutique et une taproom (un bar quoi) ont ouvert leurs portes dans la brasserie même.",
+   "choix": "Candidat OSM node/10024333612 ; la ligne SIRENE sirene:509184214 est la même brasserie (doublon, non lue à part). Bières non proposées (pas de page Untappd de brasserie trouvée, aucun lien Untappd sur le site). Un seul numéro publié : le fixe 01 60 46 62 33. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Bière La Gâtine",
+    "c": "Mondreville",
+    "d": "77",
+    "lat": 48.15193,
+    "lon": 2.56637,
+    "km": 321.7,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie fermière existe (site officiel, adresse lue), mais le site ne dit rien de la vente ni des horaires.",
+    "addr": "6 hameau de Pilvernier, 77570 Mondreville",
+    "src": "https://biere-la-gatine.fr",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://biere-la-gatine.fr",
+    "https://data.geopf.fr/geocodage/search?q=6+hameau+de+Pilvernier%2C+77570+Mondreville&limit=5"
+   ],
+   "extrait": "6 hameau de Pilvernier – 77570 MONDREVILLE",
+   "choix": "L'office de tourisme de Fontainebleau (https://www.fontainebleau-tourisme.com/en/fiche/730231/la-gatine-beer) parle d'une boutique à la ferme sur rendez-vous, de vente sur place et de Click & Collect. Je n'ai pas pu en citer un passage exact (l'outil refuse de recopier la fiche), et un office vaut au plus « moyenne » : catégorie laissée à 0. Aucun téléphone : le site donne « Mme Boyer : 06.81.07.77.99 » (nom de personne) ; l'office donne 06 71 92 98 23 et 06 81 07 77 99 (office seul, interdit). Trois gammes (Classique, Fruitée, Event'), sans style précis : beers vide. Le SIREN est celui d'une société (Gatinorge). Aucun Untappd trouvé. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Crazy Hops",
+    "c": "Vaux-sur-Lunain",
+    "d": "77",
+    "lat": 48.20982,
+    "lon": 2.97117,
+    "km": 312.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site de la brasserie annonce une guinguette sur le terrain de la brasserie les vendredis et samedis soir, de début mai à fin septembre. La vente sur place n'est citée que pour une journée portes ouvertes (6 décembre 2025). Aucune vente à emporter courante n'est mentionnée.",
+    "addr": "1 rue de la Tuilerie, 77710 Vaux-sur-Lunain",
+    "src": "https://www.crazyhops.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 70 29 54 98",
+     "site": "https://www.crazyhops.fr/",
+     "untappd": "https://untappd.com/CrazyHops",
+     "source": "https://www.crazyhops.fr/",
+     "verifieLe": "2026-10-29"
+    }
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://www.crazyhops.fr/",
+    "https://data.geopf.fr/geocodage/search?q=1+rue+de+la+Tuilerie%2C+77710+Vaux-sur-Lunain&limit=5"
+   ],
+   "extrait": "De début mai à fin septembre, retrouvez la Guiguette des Moutons Fous tout les vendredis et samedis soir",
+   "choix": "Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, pas de vente à emporter courante citée. Téléphone : le pied de page porte deux mobiles, « 07 75 74 30 89 / 06 70 29 54 98 ». Je retiens 06 70 29 54 98, publié aussi par la fiche de l'office de tourisme de Seine-et-Marne ; le 07 75 74 30 89 est celui que la page donne pour la location de tireuses, écarté. Aucun fixe publié : mobile (règle du 21/10). Adresse lue sur la fiche de l'office de tourisme, à rapprocher de SIRENE. Horaires de la guinguette sans heures (« soir » seulement) d'où heures-non-precisees ; rien pour le reste de l'année. Untappd https://untappd.com/CrazyHops : s'ouvre, nomme Crazy Hops à Vaux-sur-Lunain, et le site l'indique ; ni notes ni avis recopiés. Bières (IPA Simple et Funky, Blonde Atomique, Triple, Blanche Yuzu Gingembre…) citées sans page par bière, laissées de côté. Horaires de la guinguette non saisis : la page ne donne pas les heures. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Meaux",
+    "c": "Meaux",
+    "d": "77",
+    "lat": 48.95853,
+    "lon": 2.90771,
+    "km": 390.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale ; boutique et vente directe à la brasserie le vendredi et le samedi matin, click & collect ; visites guidées avec dégustation, d'après l'office de tourisme de Seine-et-Marne. Pas de consommation sur place hors visite.",
+    "addr": "11 rue des Buttes Blanches, 77100 Meaux",
+    "src": "https://www.brasseriedemeaux.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 51 38 33 01",
+     "site": "https://www.brasseriedemeaux.com/",
+     "source": "https://www.brasseriedemeaux.com/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:30",
+        "12:30"
+       ]
+      ],
+      "source": "https://www.brasseriedemeaux.com/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://www.brasseriedemeaux.com/",
+    "https://data.geopf.fr/geocodage/search?q=11+rue+des+Buttes+Blanches%2C+77100+Meaux&limit=5"
+   ],
+   "extrait": "le vendredi de 14h à 18h et le samedi de 9h30 à 12h30",
+   "choix": "Pages lues via un résumé (site officiel et office de tourisme). Téléphone : le seul publié par la brasserie sur son site est un portable (06 51 38 33 01), retenu comme seule ligne publiée (règle du 21/10) ; l'office de tourisme ne le publie qu'en lien tel:, non utilisé comme source. Horaires de vente : ceux du site officiel (ven 14h-18h, sam 9h30-12h30) ; l'office de tourisme et 118712 donnent aussi le samedi après-midi en mars-décembre (14h-18h), non repris car contradictoires avec le site officiel. Catégorie 2 et non 1 : la dégustation n'est décrite que pendant les visites. Bières du site : blanche, blonde, ambrée, brune, triple au miel, IPA, rouge, d'hiver, de Noël ; non recopiées en beers, format à ta décision. Untappd : non trouvé. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "L'Instant",
+    "c": "Pontault-Combault",
+    "d": "77",
+    "lat": 48.79917,
+    "lon": 2.63012,
+    "km": 382.6,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site de la brasserie présente sa taproom comme le bar interne de la brasserie : bières pression, grignotage et vente à emporter. Horaires hivernaux publiés : le jeudi seulement.",
+    "addr": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+    "src": "https://bieres-linstant.fr/la-taproom/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 87 16 00 70",
+     "site": "https://bieres-linstant.fr/",
+     "source": "https://bieres-linstant.fr/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "remarque": "Horaires pendant la période hivernale ; la source ne donne pas ceux du reste de l'année ni ceux du samedi et du dimanche.",
+      "source": "https://bieres-linstant.fr/la-taproom/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://bieres-linstant.fr/la-taproom/",
+    "https://bieres-linstant.fr/",
+    "https://data.geopf.fr/geocodage/search?q=24+bis+rue+du+Pr%C3%A9+des+Aulnes%2C+77340+Pontault-Combault&limit=5"
+   ],
+   "extrait": "Bières pression. Grignotage (saucissons, croques-monsieur…). Vente à emporter. Possibilité d’apporter votre propre repas !",
+   "choix": "Deux numéros sur le site : 09 87 16 00 70 en pied de page, et un mobile (+33 0663288210) dans l'en-tête. Je retiens le fixe. Les horaires lus sont ceux de la « période hivernale » : la remarque le dit, samedi et dimanche ne sont pas donnés donc absents. Pas de page Untappd trouvée. Aucun type de bière retenu : la page ne donne pas de styles précis. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Rabourdin",
+    "c": "Courpalay",
+    "d": "77",
+    "lat": 48.65062,
+    "lon": 2.95668,
+    "km": 357.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel annonce un magasin ouvert du mardi au samedi, sans dire ce qu'on y achète ni si l'on peut boire sur place.",
+    "addr": "22 rue Lafayette, 77540 Courpalay",
+    "src": "https://www.brasserierabourdin.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.brasserierabourdin.com/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://www.brasserierabourdin.com/",
+    "https://data.geopf.fr/geocodage/search?q=22+rue+Lafayette%2C+77540+Courpalay&limit=5"
+   ],
+   "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+   "choix": "Deux numéros sur la page : « + 33 7 77 99 54 49 » en tête de page, et « + 33 1 64 25 76 05 » dans le bloc contact, avec l'adresse et le mail de la brasserie. Je retiens le fixe, listé sous « téléphone ». Je n'écris pas le mobile. Les bières lues sont La Briarde, La Bière de Brie et La Terrano, sans style indiqué : beers vide. La page propose aussi « réserver une tireuse » et des visites de groupe (plus de 15 personnes), sans en dire plus. Pas de page Untappd trouvée de la brasserie : le seul résultat Untappd est une collaboration brassée par un autre. Source rouverte à la main le 29/10. Téléphone non repris : écrit « + 33 » sur la page, l'outil de contrôle ne le relit pas."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Grottes",
+    "c": "Boissise-la-Bertrand",
+    "d": "77",
+    "lat": 48.53605,
+    "lon": 2.56224,
+    "km": 358.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale installée dans une ancienne carrière au bord de la Seine. L'office de tourisme annonce une dégustation sur place, une boutique et la possibilité de repartir avec quelques bouteilles. Ouverte le vendredi soir et le samedi après-midi.",
+    "addr": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+    "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+    "https://data.geopf.fr/geocodage/search?q=1806+rue+de+Seine%2C+77350+Boissise-la-Bertrand&limit=5"
+   ],
+   "extrait": "Au bord de la Seine, une brasserie artisanale étonnante vous invite à découvrir des bières locales brassées sous terre.",
+   "choix": "Source d'office de tourisme seul (confiance au plus moyenne). La page parle d'une « Boutique » et de « quelques bouteilles en souvenir » sans dire explicitement « vente à emporter » : catégorie 1 à confiance moyenne, à Cédric de trancher. Aucun téléphone retenu : le seul numéro lu (01 64 52 64 52) est celui de l'office de tourisme. Aucun site officiel trouvé, seulement une page Facebook (https://www.facebook.com/brasseriedesgrottes/), illisible sans connexion, donc non retenue. Pas de page Untappd trouvée, donc pas de bières. Existence appuyée aussi par le registre SIRENE (code 11.05Z, source du candidat). Horaires de l'office non saisis. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Second Degré",
+    "c": "Magny-le-Hongre",
+    "d": "77",
+    "lat": 48.86504,
+    "lon": 2.81354,
+    "km": 383.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bières brassées sur place, servies à la pression au bar ou en terrasse du taproom, et vendues en canettes à emporter (site officiel).",
+    "addr": "10 rue de l'église, 77700 Magny-le-Hongre",
+    "src": "https://auseconddegre.shop/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 74 64 00 55",
+     "site": "https://www.auseconddegre.com/",
+     "source": "https://www.auseconddegre.com/taproom/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "13:30"
+       ],
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "source": "https://www.auseconddegre.com/taproom/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://auseconddegre.shop/",
+    "https://www.auseconddegre.com/taproom/",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27%C3%A9glise%2C+77700+Magny-le-Hongre&limit=5"
+   ],
+   "extrait": "NOS BIÈRES SONT BRASSÉES SUR PLACE, SERVIES BIEN FRAÎCHES À LA PRESSION OU DISPOS EN CANETTES À EMPORTER.",
+   "choix": "Le « sur place » est confirmé par la page taproom (https://www.auseconddegre.com/taproom/) : « viens boire un verre à la microbrasserie entre les cuves, au bar ou en terrasse ». L'adresse, le téléphone et les horaires viennent de cette page. Confiance moyenne parce que le menu du taproom est une image illisible pour moi. Le dimanche n'est pas mentionné : pas de créneau. Samedi a deux créneaux, 09h-13h30 et 16h-00h. Les styles de bière ne sont pas précisés (seulement des noms de produits) : beers vide. Aucun Untappd trouvé. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "La Bière de Provins",
+    "c": "Provins",
+    "d": "77",
+    "lat": 48.56037,
+    "lon": 3.2993,
+    "km": 339.2,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Micro-brasserie ouverte en septembre 2022 ; bières brassées à Provins, à déguster sur place ou à emporter selon la page « Notre histoire » (projet décrit, pas un horaire de visite).",
+    "addr": "3 place du Maréchal Leclerc, 77160 Provins",
+    "src": "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 64 08 65 92",
+     "site": "https://labieredeprovins.com/",
+     "source": "https://www.labieredeprovins.com/contact/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "21:30"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "21:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "23:30"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Fermé le lundi et le dimanche.",
+      "source": "https://www.labieredeprovins.com/contact/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+    "https://www.labieredeprovins.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=3+place+du+Mar%C3%A9chal+Leclerc%2C+77160+Provins&limit=5"
+   ],
+   "extrait": "la déguster sur place ou à emporter",
+   "choix": "Page lue via un résumé. Téléphone et horaires lus sur la page contact du site officiel (via un résumé aussi). Le texte « Notre histoire » décrit le projet, d'où une confiance moyenne et non solide. Untappd : recherche faite, aucune page de brasserie trouvée, rien proposé. Gault&Millau et Petit Futé vont dans le même sens mais ne sont que des annuaires, non retenus. Brochure de l'office de tourisme sur des ateliers de brassage : ne nomme pas la brasserie, écartée. Confiance faible : la phrase vient d'un texte de présentation du projet. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Les Bières de Papa",
+    "c": "Moret-Loing-et-Orvanne",
+    "d": "77",
+    "lat": 48.36895,
+    "lon": 2.83451,
+    "km": 333.1,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brewpub : bières brassées sur place, dégustées au bar et vendues à emporter, d'après le site de la brasserie.",
+    "addr": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+    "src": "https://lesbieresdepapa.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://lesbieresdepapa.com",
+     "source": "https://lesbieresdepapa.com",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "source": "https://lesbieresdepapa.com",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://lesbieresdepapa.com",
+    "https://data.geopf.fr/geocodage/search?q=89+avenue+de+Sens%2C+77250+Moret-Loing-et-Orvanne&limit=5"
+   ],
+   "extrait": "nos bières brassées sur place sont aussi disponibles à l'achat à emporter",
+   "choix": "Deux mobiles sont publiés sur le site (un par co-gérant) : je retiens le premier, 06 82 15 02 27, l'autre est 06 79 28 80 23. Aucun nom de personne n'est recopié. Cédric peut préférer n'en garder aucun. Bières citées sur le site : blonde, ambrée, IPA, framboises ; je ne remplis pas `beers`, aucune date ni page par bière n'a été lue. Lu via un résumé de la page. Téléphone non repris : les deux numéros du site sont les portables des deux gérants. Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "La Magicienne",
+    "c": "La Houssaye-en-Brie",
+    "d": "77",
+    "lat": 48.75374,
+    "lon": 2.87381,
+    "km": 370.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Nano-brasserie avec tap room et boutique, à La Houssaye-en-Brie (et non à Ozoir-la-Ferrière, seconde adresse de SIRENE). Commandes retirées sur place et vente à emporter sur des marchés, d'après le site de la brasserie.",
+    "addr": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+    "src": "https://lamagicienne.beer",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://lamagicienne.beer",
+     "untappd": "https://untappd.com/LaMagicienne",
+     "source": "https://untappd.com/LaMagicienne",
+     "verifieLe": "2026-10-29"
+    }
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://lamagicienne.beer",
+    "https://untappd.com/LaMagicienne",
+    "https://data.geopf.fr/geocodage/search?q=30+place+du+Mar%C3%A9chal+Augereau%2C+77610+La+Houssaye-en-Brie&limit=5"
+   ],
+   "extrait": "Aventuriers solos ou en guilde pourront venir déguster nos bières artisanales enchantées",
+   "choix": "Le site (30 place du Maréchal Augereau) dit : tap room ouverte les jeudis, vendredis et samedis « jusqu'à 22h », sans heure d'ouverture. Je n'écris donc pas d'horaires. Les annuaires donnent jeudi et vendredi 16h-22h, ce qui contredit le samedi du site et ne suffit pas. Aucun téléphone publié (seulement contact@lamagicienne.beer). Untappd : https://untappd.com/LaMagicienne, 10 bières ; types vus : American Pale Ale, IPA, blonde, ambrée fumée, NEIPA. La confiance est moyenne parce que le site ne dit pas noir sur blanc que la vente à emporter se fait à la brasserie (retrait de commande sur place, vente à emporter lors de marchés). Lu via un résumé des pages. Source rouverte à la main le 29/10."
+  }
+ ]
+}

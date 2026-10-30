@@ -1,5 +1,20 @@
 {
- "personne:2": "entreprise sans nom ni adresse : rien à chercher",
- "personne:4": "entreprise sans nom ni adresse : rien à chercher",
- "personne:5": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:5": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:924943566": "lu le 29/10 : rien sous ce nom",
+  "personne:1": "lu le 29/10 : rien sous ce nom",
+  "sirene:989267950": "lu le 29/10 : rien sous ce nom",
+  "personne:3": "lu le 29/10 : rien sous ce nom",
+  "sirene:810361386": "lu le 29/10 : un annuaire et un revendeur seuls ; site en erreur 503 : à relancer",
+  "sirene:828711895": "lu le 29/10 : site refusé (403), plateforme touristique seule : à relancer",
+  "sirene:882589708": "lu le 29/10 : adresse contradictoire (registre à Étampes, site à Bouville) ; rien sur la vente : à relancer",
+  "sirene:897825873": "lu le 29/10 : un annuaire d'entreprises seul",
+  "sirene:991210873": "lu le 29/10 : rien sous ce nom",
+  "node/11668938625": "lu le 29/10 : rien sous ce nom",
+  "node/11987264719": "lu le 29/10 : même brasserie que la lecture sirene:788908853 (OX, Marcoussis)",
+  "node/13098373138": "lu le 29/10 : rien sous ce nom",
+  "node/13872612566": "lu le 29/10 : sources contradictoires ; rien ne la place dans l'Essonne",
+  "node/3515412159": "lu le 29/10 : ancienne adresse : la brasserie est à Combs-la-Ville (77), lue dans dep-77",
+  "node/7859264371": "lu le 29/10 : une restauration universitaire, pas une brasserie"
 }

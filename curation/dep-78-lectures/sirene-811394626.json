@@ -1,0 +1,76 @@
+{
+ "candidat": "sirene:811394626",
+ "ajout": {
+  "fiche": {
+   "n": "O'Clock Brewing",
+   "c": "Bois-d'Arcy",
+   "d": "78",
+   "lat": 48.80095,
+   "lon": 2.0089,
+   "km": 404.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe et brasse (site officiel, fiche Untappd « Official », microbrasserie créée en 2015). Le site invite à passer à la brasserie et donne des horaires d'ouverture, mais ne dit pas si on peut y acheter ou y boire. Une boutique en ligne existe, sans mention de retrait sur place.",
+   "addr": "3 rue Georges Méliès, 78390 Bois-d'Arcy",
+   "src": "https://oclockbrewing.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 53 11 22",
+    "site": "https://oclockbrewing.fr/",
+    "source": "https://oclockbrewing.fr/contact/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://oclockbrewing.fr/contact/",
+     "lun": [
+      [
+       "16:00",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://oclockbrewing.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+Georges+M%C3%A9li%C3%A8s%2C+78390+Bois-d%27Arcy&limit=5"
+  ],
+  "extrait": "Passez nous voir à la brasserie pour découvrir nos recettes variées et goutues !",
+  "choix": "Catégorie 0 : un forum de 2019 parle d'une boutique avec dégustation ven.-sam., écarté (ancien). Horaires intitulés « Horaire d'ouverture » sur la page contact, rangés en accueil ; Cédric peut les écarter. Dimanche non écrit, donc absent. Types de bière non proposés : la boutique cite des styles mais la liste est partielle (24 sur 41). Source rouverte à la main le 29/10. Lien Untappd non repris : la page source ne le cite pas."
+ }
+}

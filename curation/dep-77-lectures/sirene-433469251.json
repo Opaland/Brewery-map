@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:433469251",
+ "ajout": {
+  "fiche": {
+   "n": "Bière La Gâtine",
+   "c": "Mondreville",
+   "d": "77",
+   "lat": 48.15193,
+   "lon": 2.56637,
+   "km": 321.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie fermière existe (site officiel, adresse lue), mais le site ne dit rien de la vente ni des horaires.",
+   "addr": "6 hameau de Pilvernier, 77570 Mondreville",
+   "src": "https://biere-la-gatine.fr",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://biere-la-gatine.fr",
+   "https://data.geopf.fr/geocodage/search?q=6+hameau+de+Pilvernier%2C+77570+Mondreville&limit=5"
+  ],
+  "extrait": "6 hameau de Pilvernier – 77570 MONDREVILLE",
+  "choix": "L'office de tourisme de Fontainebleau (https://www.fontainebleau-tourisme.com/en/fiche/730231/la-gatine-beer) parle d'une boutique à la ferme sur rendez-vous, de vente sur place et de Click & Collect. Je n'ai pas pu en citer un passage exact (l'outil refuse de recopier la fiche), et un office vaut au plus « moyenne » : catégorie laissée à 0. Aucun téléphone : le site donne « Mme Boyer : 06.81.07.77.99 » (nom de personne) ; l'office donne 06 71 92 98 23 et 06 81 07 77 99 (office seul, interdit). Trois gammes (Classique, Fruitée, Event'), sans style précis : beers vide. Le SIREN est celui d'une société (Gatinorge). Aucun Untappd trouvé. Source rouverte à la main le 29/10."
+ }
+}

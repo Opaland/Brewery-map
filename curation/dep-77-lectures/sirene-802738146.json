@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:802738146",
+ "ajout": {
+  "fiche": {
+   "n": "Crazy Hops",
+   "c": "Vaux-sur-Lunain",
+   "d": "77",
+   "lat": 48.20982,
+   "lon": 2.97117,
+   "km": 312.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site de la brasserie annonce une guinguette sur le terrain de la brasserie les vendredis et samedis soir, de début mai à fin septembre. La vente sur place n'est citée que pour une journée portes ouvertes (6 décembre 2025). Aucune vente à emporter courante n'est mentionnée.",
+   "addr": "1 rue de la Tuilerie, 77710 Vaux-sur-Lunain",
+   "src": "https://www.crazyhops.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 70 29 54 98",
+    "site": "https://www.crazyhops.fr/",
+    "untappd": "https://untappd.com/CrazyHops",
+    "source": "https://www.crazyhops.fr/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.crazyhops.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+de+la+Tuilerie%2C+77710+Vaux-sur-Lunain&limit=5"
+  ],
+  "extrait": "De début mai à fin septembre, retrouvez la Guiguette des Moutons Fous tout les vendredis et samedis soir",
+  "choix": "Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, pas de vente à emporter courante citée. Téléphone : le pied de page porte deux mobiles, « 07 75 74 30 89 / 06 70 29 54 98 ». Je retiens 06 70 29 54 98, publié aussi par la fiche de l'office de tourisme de Seine-et-Marne ; le 07 75 74 30 89 est celui que la page donne pour la location de tireuses, écarté. Aucun fixe publié : mobile (règle du 21/10). Adresse lue sur la fiche de l'office de tourisme, à rapprocher de SIRENE. Horaires de la guinguette sans heures (« soir » seulement) d'où heures-non-precisees ; rien pour le reste de l'année. Untappd https://untappd.com/CrazyHops : s'ouvre, nomme Crazy Hops à Vaux-sur-Lunain, et le site l'indique ; ni notes ni avis recopiés. Bières (IPA Simple et Funky, Blonde Atomique, Triple, Blanche Yuzu Gingembre…) citées sans page par bière, laissées de côté. Horaires de la guinguette non saisis : la page ne donne pas les heures. Source rouverte à la main le 29/10."
+ }
+}

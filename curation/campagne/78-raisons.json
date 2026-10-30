@@ -1,3 +1,24 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:793900473": "lu le 29/10 : annuaires seuls ; site en erreur 503 : à relancer",
+  "sirene:840301055": "lu le 29/10 : même brasserie que la lecture node/12327046734 (Brasserie du Roi)",
+  "sirene:823426978": "lu le 29/10 : un annuaire d'entreprises seul",
+  "sirene:979896842": "lu le 29/10 : rien sous ce nom",
+  "sirene:799277090": "lu le 29/10 : établissement fermé depuis 2014 d'après le registre",
+  "sirene:913341061": "lu le 29/10 : rien sous ce nom",
+  "sirene:920046893": "lu le 29/10 : un annuaire de bières seul : à relancer",
+  "sirene:911410322": "lu le 29/10 : rien sous ce nom",
+  "sirene:924932825": "lu le 29/10 : rien sous ce nom",
+  "sirene:902798065": "lu le 29/10 : un annuaire seul",
+  "sirene:907918957": "lu le 29/10 : rien sous ce nom",
+  "sirene:890481096": "lu le 29/10 : le site n'affiche qu'une vérification de l'âge, annuaires seuls : à relancer",
+  "sirene:893014662": "lu le 29/10 : une page de la ville seule, en erreur 503 : à relancer",
+  "sirene:852696525": "lu le 29/10 : un grossiste et un annuaire seuls",
+  "node/1854003295": "lu le 29/10 : un bar, qui ne brasse pas",
+  "node/3512397640": "lu le 29/10 : site injoignable depuis le conteneur, annuaire seul, adresses contradictoires : à relancer",
+  "node/3752510374": "lu le 29/10 : rien sous ce nom",
+  "node/4155657290": "lu le 29/10 : rien sous ce nom",
+  "node/7203823199": "lu le 29/10 : même brasserie que la lecture sirene:503705006 (Volcelest)",
+  "node/9280921450": "lu le 29/10 : un restaurant d'hôtel, qui ne brasse pas",
+  "way/63158105": "lu le 29/10 : rien sous ce nom"
 }

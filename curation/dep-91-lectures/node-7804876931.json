@@ -1,0 +1,70 @@
+{
+ "candidat": "node/7804876931",
+ "ajout": {
+  "fiche": {
+   "n": "La Bouledogue",
+   "c": "Villebon-sur-Yvette",
+   "d": "91",
+   "lat": 48.69789,
+   "lon": 2.23543,
+   "km": 386.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie indépendante lancée en 2015. Son site dit qu'elle ouvre ses portes aux visiteurs en semaine, mais ne dit pas si l'on peut y acheter ou y boire. Le point OpenStreetMap la place à Saulx-les-Chartreux, le site à Villebon-sur-Yvette.",
+   "addr": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+   "src": "http://www.labouledogue.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "http://www.labouledogue.fr/",
+    "source": "http://www.labouledogue.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.labouledogue.fr/",
+     "lun": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Visite de la brasserie, sans interruption.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "http://www.labouledogue.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Villebon-sur-Yvette&type=municipality&limit=5"
+  ],
+  "extrait": "la brasserie vous ouvre ses portes du lundi au vendredi de 9h à 18h00",
+  "choix": "Commune : le site officiel donne « 91140 VILLEBON-SUR-YVETTE » et le point OSM (Saulx-les-Chartreux) n'est pas la même commune ; j'ai suivi le site. Les deux communes sont voisines, à toi de dire si la position OSM sert. Catégorie 0 : le site ne parle ni de vente sur place ni de dégustation (« Commander en ligne » via easybeer.shop, livraison), donc je ne classe pas en 1 ou 2. Téléphone : le site publie deux portables, un par fondateur (06 98 98 19 84 et 06 83 11 81 27). Aucun n'est la ligne de la brasserie, donc je n'en retiens aucun. Horaires : le bloc « accueil » ne couvre que lundi à vendredi, comme écrit. Samedi et dimanche restent absents, rien n'est déduit. Untappd : aucune page de la brasserie trouvée, aucun lien sur le site, donc aucun lien proposé. Bières : le site cite Coco Pale Ale, Blonde et DDH Double IPA, mais sans fiche détaillée ni source de dates, donc beers vide. La page easybeer.shop n'a rendu que son titre. Les recherches sur Untappd et le web n'ont rien donné de plus. Source rouverte à la main le 29/10."
+ }
+}

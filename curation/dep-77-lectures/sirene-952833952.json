@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:952833952",
+ "ajout": {
+  "fiche": {
+   "n": "La Magicienne",
+   "c": "La Houssaye-en-Brie",
+   "d": "77",
+   "lat": 48.75374,
+   "lon": 2.87381,
+   "km": 370.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Nano-brasserie avec tap room et boutique, à La Houssaye-en-Brie (et non à Ozoir-la-Ferrière, seconde adresse de SIRENE). Commandes retirées sur place et vente à emporter sur des marchés, d'après le site de la brasserie.",
+   "addr": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+   "src": "https://lamagicienne.beer",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lamagicienne.beer",
+    "untappd": "https://untappd.com/LaMagicienne",
+    "source": "https://untappd.com/LaMagicienne",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://lamagicienne.beer",
+   "https://untappd.com/LaMagicienne",
+   "https://data.geopf.fr/geocodage/search?q=30+place+du+Mar%C3%A9chal+Augereau%2C+77610+La+Houssaye-en-Brie&limit=5"
+  ],
+  "extrait": "Aventuriers solos ou en guilde pourront venir déguster nos bières artisanales enchantées",
+  "choix": "Le site (30 place du Maréchal Augereau) dit : tap room ouverte les jeudis, vendredis et samedis « jusqu'à 22h », sans heure d'ouverture. Je n'écris donc pas d'horaires. Les annuaires donnent jeudi et vendredi 16h-22h, ce qui contredit le samedi du site et ne suffit pas. Aucun téléphone publié (seulement contact@lamagicienne.beer). Untappd : https://untappd.com/LaMagicienne, 10 bières ; types vus : American Pale Ale, IPA, blonde, ambrée fumée, NEIPA. La confiance est moyenne parce que le site ne dit pas noir sur blanc que la vente à emporter se fait à la brasserie (retrait de commande sur place, vente à emporter lors de marchés). Lu via un résumé des pages. Source rouverte à la main le 29/10."
+ }
+}

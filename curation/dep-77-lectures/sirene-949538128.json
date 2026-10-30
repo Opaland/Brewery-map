@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:949538128",
+ "ajout": {
+  "fiche": {
+   "n": "Les Bières de Papa",
+   "c": "Moret-Loing-et-Orvanne",
+   "d": "77",
+   "lat": 48.36895,
+   "lon": 2.83451,
+   "km": 333.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brewpub : bières brassées sur place, dégustées au bar et vendues à emporter, d'après le site de la brasserie.",
+   "addr": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+   "src": "https://lesbieresdepapa.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lesbieresdepapa.com",
+    "source": "https://lesbieresdepapa.com",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lesbieresdepapa.com",
+     "jeu": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://lesbieresdepapa.com",
+   "https://data.geopf.fr/geocodage/search?q=89+avenue+de+Sens%2C+77250+Moret-Loing-et-Orvanne&limit=5"
+  ],
+  "extrait": "nos bières brassées sur place sont aussi disponibles à l'achat à emporter",
+  "choix": "Deux mobiles sont publiés sur le site (un par co-gérant) : je retiens le premier, 06 82 15 02 27, l'autre est 06 79 28 80 23. Aucun nom de personne n'est recopié. Cédric peut préférer n'en garder aucun. Bières citées sur le site : blonde, ambrée, IPA, framboises ; je ne remplis pas `beers`, aucune date ni page par bière n'a été lue. Lu via un résumé de la page. Téléphone non repris : les deux numéros du site sont les portables des deux gérants. Source rouverte à la main le 29/10."
+ }
+}

@@ -1,0 +1,1544 @@
+{
+ "77-6": {
+  "lus": [
+   {
+    "cle": "node/4464504894",
+    "n": "Brasserie Rabourdin",
+    "c": "Courpalay",
+    "adresse": "22 rue Lafayette, 77540 Courpalay",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie à la ferme. Le site annonce un magasin ouvert du mardi au samedi, de 10 h à 19 h. Aucune dégustation n'est mentionnée sur le site.",
+    "src": "https://www.brasserierabourdin.com/",
+    "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+    "beers": [],
+    "choix": "Cette lecture est probablement un doublon de sirene:825093701 (Brasserie Rabourdin, 22 rue La Fayette, Courpalay, paquet n° 2) : même adresse, même site, et biere-de-brie.com redirige en 301 vers brasserieraboudin.com. Garder une seule fiche. Catégorie 2 en confiance moyenne : le site dit « magasin » mais ne parle ni de vente à emporter ni de dégustation (lecture directe du site). La fiche de l'office de tourisme de Seine-et-Marne annonce « on-site sales », mais je l'ai lue via un résumé et ne m'en sers pas pour la confiance. Téléphone : je retiens le fixe de la section contact. J'écarte le mobile +33 7 77 99 54 49 de l'en-tête, qui va avec une autre adresse courriel. Pas d'Untappd trouvé, ni sur le site ni par recherche. Bières nommées sur le site (La Briarde, La Bière de Brie, La Terrano) mais sans style : non reprises.",
+    "contact": {
+     "tel": "01 64 25 76 05",
+     "site": "https://www.brasserierabourdin.com/",
+     "source": "https://www.brasserierabourdin.com/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.brasserierabourdin.com/"
+     }
+    ]
+   }
+  ],
+  "rapport": "Voir ci-dessus : rapport complet rendu dans ma réponse (1 lecture : Brasserie Rabourdin, node/4464504894, probablement doublon de sirene:825093701 ; 2 sans lecture : Bière du Loing introuvable, Microbrasserie du Saule doublon de sirene:908373681 et probablement cessée en 2022)."
+ },
+ "95-0": {
+  "lus": [
+   {
+    "cle": "sirene:832276513",
+    "n": "Terrabière",
+    "c": "Deuil-la-Barre",
+    "adresse": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie bio avec boutique, bar et salon de dégustation ; vente directe à emporter et dégustation sur place.",
+    "src": "https://brasserie-terrabiere.com",
+    "extrait": "Bar – Dégustation sur place",
+    "beers": [],
+    "choix": "Deux autres lignes du pied de page du même site : « Vente directe à emporter » (vente à emporter) et « Boutique, bar et terrasse : du mardi au vendredi (17h/23h) et samedi (11h/23h) ». Elles justifient la catégorie 1. Brassage sur place lu sur la page : « Production de bières artisanales ». Types de bière (blonde, ambrée, brune, blanche, scotch ale) lus mais non repris : la page ne donne pas de nom de bière ni de lien par bière, donc beers reste vide. Untappd : introuvable (page du site sans mention, deux recherches sans résultat). Le site publie un seul numéro, celui de la brasserie. La seconde adresse SIRENE (Enghien-les-Bains) n'est pas celle du site : écartée.",
+    "contact": {
+     "tel": "09 51 55 42 15",
+     "site": "https://brasserie-terrabiere.com",
+     "source": "https://brasserie-terrabiere.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "source": "https://brasserie-terrabiere.com",
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Terrasse d'hiver selon météo."
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 0) : sirene:894337799 (BRASSERIE 830), sirene:841277262 (E&B BIERE COMPAGNIE), sirene:902093616 (THE BEERWITCHED), sirene:832276513 (TERRABIERE), sirene:840712657 (INTO THE MALT). BapBap n'est pas dans mon paquet. Aucun des cinq n'est déjà une fiche de data/breweries.json (vérifié par recherche des noms et des communes).\n\nLecture établie : Terrabière. Le site officiel a été lu **via un résumé** (WebFetch), pas en direct. Un contrôle croisé sur HappyCow (annuaire, aussi via un résumé) donne les mêmes horaires et le même numéro. Les extraits ci-dessous viennent donc d'un résumé : à recopier avec prudence. Cédric peut ouvrir la page pour contrôler.\n\n```json\n[\n  {\n    \"cle\": \"sirene:832276513\",\n    \"n\": \"Terrabière\",\n    \"c\": \"Deuil-la-Barre\",\n    \"adresse\": \"13 rue Charles de Gaulle, 95170 Deuil-la-Barre\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Brasserie bio avec boutique, bar et salon de dégustation ; vente directe à emporter et dégustation sur place.\",\n    \"src\": \"https://brasserie-terrabiere.com\",\n    \"extrait\": \"Bar – Dégustation sur place\",\n    \"beers\": [],\n    \"choix\": \"Deux autres lignes du pied de page du même site : « Vente directe à emporter » (vente à emporter) et « Boutique, bar et terrasse : du mardi au vendredi (17h/23h) et samedi (11h/23h) ». Elles justifient la catégorie 1. Brassage sur place lu sur la page : « Production de bières artisanales ». Types de bière (blonde, ambrée, brune, blanche, scotch ale) lus mais non repris : la page ne donne pas de nom de bière ni de lien par bière, donc beers reste vide. Untappd : introuvable (page du site sans mention, deux recherches sans résultat). Le site publie un seul numéro, celui de la brasserie. La seconde adresse SIRENE (Enghien-les-Bains) n'est pas celle du site : écartée.\",\n    \"contact\": {\n      \"tel\": \"09 51 55 42 15\",\n      \"site\": \"https://brasserie-terrabiere.com\",\n      \"source\": \"https://brasserie-terrabiere.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"source\": \"https://brasserie-terrabiere.com\",\n        \"mar\": [[\"17:00\", \"23:00\"]],\n        \"mer\": [[\"17:00\", \"23:00\"]],\n        \"jeu\": [[\"17:00\", \"23:00\"]],\n        \"ven\": [[\"17:00\", \"23:00\"]],\n        \"sam\": [[\"11:00\", \"23:00\"]],\n        \"remarque\": \"Terrasse d'hiver selon météo.\"\n      }\n    ]\n  }\n]\n```\n\nRemarque sur le format des horaires : j'ai suivi la forme des fiches existantes (clés jour `mar`, `mer`... avec créneaux `[\"HH:MM\",\"HH:MM\"]`), mais je n'ai pas relu `blocHorairesSchema` en entier. Le champ `remarque` est à vérifier contre ce schéma. Les lectures de mes autres fiches n'ont pas de bière : à valider par `lireLecturesAgent`.\n\n**Candidats sans lecture**\n\n- sirene:894337799 BRASSERIE 830 (Cormeilles-en-Vexin / Boissy-l'Aillerie) : trois recherches web. L'existence légale est établie (SAS créée le 15/02/2021, fabrication de bière, via l'annuaire des entreprises), et Komoot la classe comme pub à Boissy-l'Aillerie. Aucun site officiel, Untappd ni office de tourisme trouvé. Un annuaire seul ne suffit pas. Rien proposé. Pas à relancer, sauf piste de Cédric (site ou réseau social).\n- sirene:841277262 E&B BIERE COMPAGNIE (Saint-Leu-la-Forêt) : trois recherches, aucun résultat sur ce nom. Rien proposé.\n- sirene:902093616 THE BEERWITCHED (Chaumontel) : trois recherches, aucun résultat. La seule brasserie voisine trouvée est Duchmann, à Chaumont-en-Vexin, qui est une autre brasserie. Rien proposé.\n- sirene:840712657 INTO THE MALT (Saint-Gratien) : deux recherches, aucun résultat. Rien proposé.\n\nLes trois recherches web n'ont renvoyé aucune consigne cachée. Toutes étaient passées par un résumé, jamais par la page elle-même, sauf Terrabière (résumé du site)."
+ },
+ "78-1": {
+  "lus": [
+   {
+    "cle": "sirene:827467663",
+    "n": "Brasserie 2 l'Équipage",
+    "c": "Bonnelles",
+    "adresse": "8 rue des Jacinthes Sauvages, 78830 Bonnelles",
+    "cat": 2,
+    "conf": "faible",
+    "note": "Le site de la brasserie propose le « Call & Collect » : on commande par téléphone et on retire sur place. Il ne parle ni de dégustation ni de vente directe, et sa page porte une mise à jour de février 2022 (source ancienne). Les horaires ne sont pas repris : le site (février 2022) et l'office de tourisme de Rambouillet se contredisent.",
+    "src": "https://www.brasserie2lequipage.fr/old-index.php",
+    "extrait": "CALL & COLLECT",
+    "beers": [],
+    "choix": "Seule ligne publiée par la brasserie : un portable (06 78 46 91 98), repris selon la règle du 21/10. Le site donne « 06.78.46.91.98 », l'office de Rambouillet le même numéro. Horaires écartés : le site donne mer. 10h-19h30 et sam. 13h-18h, l'office donne jeu. 19h-20h et sam. 13h-20h. Catégorie 2 en confiance faible parce que la page date de 2022 et que l'office parle d'une « boutique » sans précision.",
+    "contact": {
+     "tel": "06 78 46 91 98",
+     "source": "https://www.brasserie2lequipage.fr/old-index.php"
+    }
+   },
+   {
+    "cle": "sirene:811394626",
+    "n": "O'Clock Brewing",
+    "c": "Bois-d'Arcy",
+    "adresse": "3 rue Georges Méliès, 78390 Bois-d'Arcy",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe et brasse (site officiel, fiche Untappd « Official », microbrasserie créée en 2015). Le site invite à passer à la brasserie et donne des horaires d'ouverture, mais ne dit pas si on peut y acheter ou y boire. Une boutique en ligne existe, sans mention de retrait sur place.",
+    "src": "https://oclockbrewing.fr/contact/",
+    "extrait": "Passez nous voir à la brasserie pour découvrir nos recettes variées et goutues !",
+    "beers": [],
+    "choix": "Catégorie 0 : un forum de 2019 parle d'une boutique avec dégustation ven.-sam., écarté (ancien). Horaires intitulés « Horaire d'ouverture » sur la page contact, rangés en accueil ; Cédric peut les écarter. Dimanche non écrit, donc absent. Types de bière non proposés : la boutique cite des styles mais la liste est partielle (24 sur 41).",
+    "contact": {
+     "tel": "09 51 53 11 22",
+     "site": "https://oclockbrewing.fr/",
+     "untappd": "https://untappd.com/OClockBrewing",
+     "source": "https://oclockbrewing.fr/contact/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "16:00",
+        "17:30"
+       ]
+      ],
+      "mar": [
+       [
+        "16:00",
+        "17:30"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "17:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "17:30"
+       ]
+      ],
+      "ven": [
+       [
+        "11:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://oclockbrewing.fr/contact/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés lues (paquet n°1) : sirene:827467663, sirene:799277090, sirene:811394626, sirene:913341061, sirene:920046893.\n\nToutes les pages ont été lues via WebFetch, donc VIA UN RÉSUMÉ (extraits tels que renvoyés entre guillemets). Aucun des cinq n'est déjà dans data/breweries.json.\n\n```json\n[\n  {\n    \"cle\": \"sirene:827467663\",\n    \"n\": \"Brasserie 2 l'Équipage\",\n    \"c\": \"Bonnelles\",\n    \"adresse\": \"8 rue des Jacinthes Sauvages, 78830 Bonnelles\",\n    \"cat\": 2,\n    \"conf\": \"faible\",\n    \"note\": \"Le site de la brasserie propose le « Call & Collect » : on commande par téléphone et on retire sur place. Il ne parle ni de dégustation ni de vente directe, et sa page porte une mise à jour de février 2022 (source ancienne). Les horaires ne sont pas repris : le site (février 2022) et l'office de tourisme de Rambouillet se contredisent.\",\n    \"src\": \"https://www.brasserie2lequipage.fr/old-index.php\",\n    \"extrait\": \"CALL & COLLECT\",\n    \"beers\": [],\n    \"choix\": \"Seule ligne publiée par la brasserie : un portable (06 78 46 91 98), repris selon la règle du 21/10. Le site donne « 06.78.46.91.98 », l'office de Rambouillet le même numéro. Horaires écartés : le site donne mer. 10h-19h30 et sam. 13h-18h, l'office donne jeu. 19h-20h et sam. 13h-20h. Catégorie 2 en confiance faible parce que la page date de 2022 et que l'office parle d'une « boutique » sans précision.\",\n    \"contact\": { \"tel\": \"06 78 46 91 98\", \"source\": \"https://www.brasserie2lequipage.fr/old-index.php\" }\n  },\n  {\n    \"cle\": \"sirene:811394626\",\n    \"n\": \"O'Clock Brewing\",\n    \"c\": \"Bois-d'Arcy\",\n    \"adresse\": \"3 rue Georges Méliès, 78390 Bois-d'Arcy\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"La brasserie existe et brasse (site officiel, fiche Untappd « Official », microbrasserie créée en 2015). Le site invite à passer à la brasserie et donne des horaires d'ouverture, mais ne dit pas si on peut y acheter ou y boire. Une boutique en ligne existe, sans mention de retrait sur place.\",\n    \"src\": \"https://oclockbrewing.fr/contact/\",\n    \"extrait\": \"Passez nous voir à la brasserie pour découvrir nos recettes variées et goutues !\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 0 : un forum de 2019 parle d'une boutique avec dégustation ven.-sam., écarté (ancien). Horaires intitulés « Horaire d'ouverture » sur la page contact, rangés en accueil ; Cédric peut les écarter. Dimanche non écrit, donc absent. Types de bière non proposés : la boutique cite des styles mais la liste est partielle (24 sur 41).\",\n    \"contact\": {\n      \"tel\": \"09 51 53 11 22\",\n      \"site\": \"https://oclockbrewing.fr/\",\n      \"untappd\": \"https://untappd.com/OClockBrewing\",\n      \"source\": \"https://oclockbrewing.fr/contact/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [[\"16:00\", \"17:30\"]],\n        \"mar\": [[\"16:00\", \"17:30\"]],\n        \"mer\": [[\"16:00\", \"17:30\"]],\n        \"jeu\": [[\"16:00\", \"17:30\"]],\n        \"ven\": [[\"11:00\", \"18:00\"]],\n        \"sam\": [[\"11:00\", \"18:00\"]],\n        \"source\": \"https://oclockbrewing.fr/contact/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nUntappd d'O'Clock : page ouverte, Micro Brewery, marquée « Official ».\n\nCandidats sans lecture :\n- sirene:799277090 (Bières Saint-Q, Guyancourt) : SIRENE place le siège à Montigny-le-Bretonneux et l'établissement fermé depuis le 20/11/2014. Aucun site, Untappd ni office trouvé en deux recherches. Rien d'établi.\n- sirene:913341061 (Brasserie Croizat, Saint-Cyr-l'École) : introuvable après trois recherches (aucun site, Untappd ni office). Rien d'établi.\n- sirene:920046893 (The Chubby Brewing Company, Bouafle) : la marque existe (bières sur Birrapedia, un annuaire seul), mais ni site officiel, ni Untappd, ni localisation à Bouaflé trouvés en trois recherches. À relancer (recherche directe Untappd/Instagram).\n\nQuestions à choix :\n1. O'Clock : les horaires « Horaire d'ouverture » en `accueil` avec catégorie 0 ? (1) les garder ; (2) les retirer jusqu'à ce que la vente ou l'accueil soit établi.\n2. Brasserie 2 l'Équipage : portable seul + catégorie 2 faible sur une page de 2022 ? (1) oui ; (2) catégorie 0 en gardant le portable ; (3) ne rien créer."
+ },
+ "77-0": {
+  "lus": [
+   {
+    "cle": "sirene:949538128",
+    "n": "Les Bières de Papa",
+    "c": "Moret-Loing-et-Orvanne",
+    "adresse": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brewpub : bières brassées sur place, dégustées au bar et vendues à emporter, d'après le site de la brasserie.",
+    "src": "https://lesbieresdepapa.com",
+    "extrait": "nos bières brassées sur place sont aussi disponibles à l'achat à emporter",
+    "beers": [],
+    "choix": "Deux mobiles sont publiés sur le site (un par co-gérant) : je retiens le premier, 06 82 15 02 27, l'autre est 06 79 28 80 23. Aucun nom de personne n'est recopié. Cédric peut préférer n'en garder aucun. Bières citées sur le site : blonde, ambrée, IPA, framboises ; je ne remplis pas `beers`, aucune date ni page par bière n'a été lue. Lu via un résumé de la page.",
+    "contact": {
+     "tel": "06 82 15 02 27",
+     "site": "https://lesbieresdepapa.com",
+     "source": "https://lesbieresdepapa.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "source": "https://lesbieresdepapa.com"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:952833952",
+    "n": "La Magicienne",
+    "c": "La Houssaye-en-Brie",
+    "adresse": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Nano-brasserie avec tap room et boutique, à La Houssaye-en-Brie (et non à Ozoir-la-Ferrière, seconde adresse de SIRENE). Commandes retirées sur place et vente à emporter sur des marchés, d'après le site de la brasserie.",
+    "src": "https://lamagicienne.beer",
+    "extrait": "Aventuriers solos ou en guilde pourront venir déguster nos bières artisanales enchantées",
+    "beers": [],
+    "choix": "Le site (30 place du Maréchal Augereau) dit : tap room ouverte les jeudis, vendredis et samedis « jusqu'à 22h », sans heure d'ouverture. Je n'écris donc pas d'horaires. Les annuaires donnent jeudi et vendredi 16h-22h, ce qui contredit le samedi du site et ne suffit pas. Aucun téléphone publié (seulement contact@lamagicienne.beer). Untappd : https://untappd.com/LaMagicienne, 10 bières ; types vus : American Pale Ale, IPA, blonde, ambrée fumée, NEIPA. La confiance est moyenne parce que le site ne dit pas noir sur blanc que la vente à emporter se fait à la brasserie (retrait de commande sur place, vente à emporter lors de marchés). Lu via un résumé des pages.",
+    "contact": {
+     "site": "https://lamagicienne.beer",
+     "untappd": "https://untappd.com/LaMagicienne",
+     "source": "https://untappd.com/LaMagicienne"
+    }
+   }
+  ],
+  "rapport": "Clés du paquet 0 de dep-77 : sirene:528365125, sirene:921930079, sirene:944836030, sirene:952833952, sirene:949538128. Aucune n'est déjà dans data/breweries.json. Toutes les pages ont été lues « via un résumé » (WebFetch/WebSearch), jamais en direct : les extraits sont ceux cités par ces résumés.\n\n```json\n[\n  {\n    \"cle\": \"sirene:949538128\",\n    \"n\": \"Les Bières de Papa\",\n    \"c\": \"Moret-Loing-et-Orvanne\",\n    \"adresse\": \"89 avenue de Sens, 77250 Moret-Loing-et-Orvanne\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Brewpub : bières brassées sur place, dégustées au bar et vendues à emporter, d'après le site de la brasserie.\",\n    \"src\": \"https://lesbieresdepapa.com\",\n    \"extrait\": \"nos bières brassées sur place sont aussi disponibles à l'achat à emporter\",\n    \"beers\": [],\n    \"choix\": \"Deux mobiles sont publiés sur le site (un par co-gérant) : je retiens le premier, 06 82 15 02 27, l'autre est 06 79 28 80 23. Aucun nom de personne n'est recopié. Cédric peut préférer n'en garder aucun. Bières citées sur le site : blonde, ambrée, IPA, framboises ; je ne remplis pas `beers`, aucune date ni page par bière n'a été lue. Lu via un résumé de la page.\",\n    \"contact\": { \"tel\": \"06 82 15 02 27\", \"site\": \"https://lesbieresdepapa.com\", \"source\": \"https://lesbieresdepapa.com\" },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"jeu\": [[\"17:00\", \"00:00\"]],\n        \"ven\": [[\"17:00\", \"00:00\"]],\n        \"sam\": [[\"17:00\", \"00:00\"]],\n        \"source\": \"https://lesbieresdepapa.com\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:952833952\",\n    \"n\": \"La Magicienne\",\n    \"c\": \"La Houssaye-en-Brie\",\n    \"adresse\": \"30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Nano-brasserie avec tap room et boutique, à La Houssaye-en-Brie (et non à Ozoir-la-Ferrière, seconde adresse de SIRENE). Commandes retirées sur place et vente à emporter sur des marchés, d'après le site de la brasserie.\",\n    \"src\": \"https://lamagicienne.beer\",\n    \"extrait\": \"Aventuriers solos ou en guilde pourront venir déguster nos bières artisanales enchantées\",\n    \"beers\": [],\n    \"choix\": \"Le site (30 place du Maréchal Augereau) dit : tap room ouverte les jeudis, vendredis et samedis « jusqu'à 22h », sans heure d'ouverture. Je n'écris donc pas d'horaires. Les annuaires donnent jeudi et vendredi 16h-22h, ce qui contredit le samedi du site et ne suffit pas. Aucun téléphone publié (seulement contact@lamagicienne.beer). Untappd : https://untappd.com/LaMagicienne, 10 bières ; types vus : American Pale Ale, IPA, blonde, ambrée fumée, NEIPA. La confiance est moyenne parce que le site ne dit pas noir sur blanc que la vente à emporter se fait à la brasserie (retrait de commande sur place, vente à emporter lors de marchés). Lu via un résumé des pages.\",\n    \"contact\": { \"site\": \"https://lamagicienne.beer\", \"untappd\": \"https://untappd.com/LaMagicienne\", \"source\": \"https://untappd.com/LaMagicienne\" }\n  }\n]\n```\n\nCandidats sans lecture :\n- sirene:528365125 (Kronenbourg Supply Company, Combs-la-Ville) : entrepôt de stockage exploité par DHL Supply Chain pour Kronenbourg, classé « entreposage non frigorifique » (résumé de recherche, annuaires SIRENE et presse DHL). Ce n'est pas une brasserie, donc écarté.\n- sirene:921930079 (Benzel Brasserie, 17 rue Aristide Briand, Fontainebleau) : deux recherches, aucune trace d'une brasserie ou d'un brewpub de ce nom. Seuls ressortent des restaurants « brasserie » ou La Mousse de Bleau (Chartrettes). Aucun site ni page Untappd. Un établissement « brasserie » au sens restaurant est possible, mais rien n'est lu.\n- sirene:944836030 (Brew for Fun) : la seule source est l'annuaire jours-de-marche.fr, à Varennes-sur-Seine (8 route de Cannes) : « Micro-brasserie artisanale. Production locale de bières, vente en direct et dégustation. », avec un mobile. Un annuaire seul ne suffit pas (méthode du 19/10). Aucun site officiel, aucune page Untappd, aucun lien avec Misy-sur-Yonne. Pas de proposition. Une relance serait possible si Cédric veut chercher une page Facebook ou un office de tourisme.\n\nAucune instruction n'a été trouvée dans les textes lus. Aucune question à choix."
+ },
+ "77-2": {
+  "lus": [
+   {
+    "cle": "sirene:825093701",
+    "n": "Brasserie Rabourdin",
+    "c": "Courpalay",
+    "adresse": "22 rue Lafayette, 77540 Courpalay",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel annonce un magasin ouvert du mardi au samedi, sans dire ce qu'on y achète ni si l'on peut boire sur place.",
+    "src": "https://www.brasserierabourdin.com/",
+    "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+    "beers": [],
+    "choix": "Deux numéros sur la page : « + 33 7 77 99 54 49 » en tête de page, et « + 33 1 64 25 76 05 » dans le bloc contact, avec l'adresse et le mail de la brasserie. Je retiens le fixe, listé sous « téléphone ». Je n'écris pas le mobile. Les bières lues sont La Briarde, La Bière de Brie et La Terrano, sans style indiqué : beers vide. La page propose aussi « réserver une tireuse » et des visites de groupe (plus de 15 personnes), sans en dire plus. Pas de page Untappd trouvée de la brasserie : le seul résultat Untappd est une collaboration brassée par un autre.",
+    "contact": {
+     "tel": "01 64 25 76 05",
+     "source": "https://www.brasserierabourdin.com/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "source": "https://www.brasserierabourdin.com/",
+      "mar": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "cle": "sirene:879599850",
+    "n": "Microbrasserie Second Degré",
+    "c": "Magny-le-Hongre",
+    "adresse": "10 rue de l'église, 77700 Magny-le-Hongre",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bières brassées sur place, servies à la pression au bar ou en terrasse du taproom, et vendues en canettes à emporter (site officiel).",
+    "src": "https://auseconddegre.shop/",
+    "extrait": "NOS BIÈRES SONT BRASSÉES SUR PLACE, SERVIES BIEN FRAÎCHES À LA PRESSION OU DISPOS EN CANETTES À EMPORTER.",
+    "beers": [],
+    "choix": "Le « sur place » est confirmé par la page taproom (https://www.auseconddegre.com/taproom/) : « viens boire un verre à la microbrasserie entre les cuves, au bar ou en terrasse ». L'adresse, le téléphone et les horaires viennent de cette page. Confiance moyenne parce que le menu du taproom est une image illisible pour moi. Le dimanche n'est pas mentionné : pas de créneau. Samedi a deux créneaux, 09h-13h30 et 16h-00h. Les styles de bière ne sont pas précisés (seulement des noms de produits) : beers vide. Aucun Untappd trouvé.",
+    "contact": {
+     "tel": "09 74 64 00 55",
+     "site": "https://www.auseconddegre.com/",
+     "source": "https://www.auseconddegre.com/taproom/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "source": "https://www.auseconddegre.com/taproom/",
+      "lun": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "00:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "13:30"
+       ],
+       [
+        "16:00",
+        "00:00"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "cle": "sirene:433469251",
+    "n": "Bière La Gâtine",
+    "c": "Mondreville",
+    "adresse": "6 hameau de Pilvernier, 77570 Mondreville",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie fermière existe (site officiel, adresse lue), mais le site ne dit rien de la vente ni des horaires.",
+    "src": "https://biere-la-gatine.fr",
+    "extrait": "6 hameau de Pilvernier – 77570 MONDREVILLE",
+    "beers": [],
+    "choix": "L'office de tourisme de Fontainebleau (https://www.fontainebleau-tourisme.com/en/fiche/730231/la-gatine-beer) parle d'une boutique à la ferme sur rendez-vous, de vente sur place et de Click & Collect. Je n'ai pas pu en citer un passage exact (l'outil refuse de recopier la fiche), et un office vaut au plus « moyenne » : catégorie laissée à 0. Aucun téléphone : le site donne « Mme Boyer : 06.81.07.77.99 » (nom de personne) ; l'office donne 06 71 92 98 23 et 06 81 07 77 99 (office seul, interdit). Trois gammes (Classique, Fruitée, Event'), sans style précis : beers vide. Le SIREN est celui d'une société (Gatinorge). Aucun Untappd trouvé."
+   }
+  ],
+  "rapport": "Clés du paquet n° 2 (index 2) : sirene:825093701 (Brasserie Rabourdin), sirene:828294934 (Micro-brasserie Bacotte), sirene:948168729 (La Compagnie des Bières), sirene:879599850 (Microbrasserie Second Degré), sirene:433469251 (Sarl Gatinorge).\n\nAucune de ces cinq n'est déjà dans data/breweries.json (Grep sur Rabourdin, Bacotte, Second Degré, Gatinorge, Compagnie des Bières : rien).\n\nToutes les pages ont été lues VIA UN RÉSUMÉ : l'outil de lecture rend un résumé, pas la page brute. Les passages entre guillemets sont ceux que ce résumé a cités, pas recopiés d'une page brute.\n\n```json\n[\n  {\n    \"cle\": \"sirene:825093701\",\n    \"n\": \"Brasserie Rabourdin\",\n    \"c\": \"Courpalay\",\n    \"adresse\": \"22 rue Lafayette, 77540 Courpalay\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Le site officiel annonce un magasin ouvert du mardi au samedi, sans dire ce qu'on y achète ni si l'on peut boire sur place.\",\n    \"src\": \"https://www.brasserierabourdin.com/\",\n    \"extrait\": \"MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00\",\n    \"beers\": [],\n    \"choix\": \"Deux numéros sur la page : « + 33 7 77 99 54 49 » en tête de page, et « + 33 1 64 25 76 05 » dans le bloc contact, avec l'adresse et le mail de la brasserie. Je retiens le fixe, listé sous « téléphone ». Je n'écris pas le mobile. Les bières lues sont La Briarde, La Bière de Brie et La Terrano, sans style indiqué : beers vide. La page propose aussi « réserver une tireuse » et des visites de groupe (plus de 15 personnes), sans en dire plus. Pas de page Untappd trouvée de la brasserie : le seul résultat Untappd est une collaboration brassée par un autre.\",\n    \"contact\": { \"tel\": \"01 64 25 76 05\", \"source\": \"https://www.brasserierabourdin.com/\" },\n    \"horaires\": [\n      { \"nature\": \"vente\", \"source\": \"https://www.brasserierabourdin.com/\", \"mar\": [[\"10:00\", \"19:00\"]], \"mer\": [[\"10:00\", \"19:00\"]], \"jeu\": [[\"10:00\", \"19:00\"]], \"ven\": [[\"10:00\", \"19:00\"]], \"sam\": [[\"10:00\", \"19:00\"]] }\n    ]\n  },\n  {\n    \"cle\": \"sirene:879599850\",\n    \"n\": \"Microbrasserie Second Degré\",\n    \"c\": \"Magny-le-Hongre\",\n    \"adresse\": \"10 rue de l'église, 77700 Magny-le-Hongre\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Bières brassées sur place, servies à la pression au bar ou en terrasse du taproom, et vendues en canettes à emporter (site officiel).\",\n    \"src\": \"https://auseconddegre.shop/\",\n    \"extrait\": \"NOS BIÈRES SONT BRASSÉES SUR PLACE, SERVIES BIEN FRAÎCHES À LA PRESSION OU DISPOS EN CANETTES À EMPORTER.\",\n    \"beers\": [],\n    \"choix\": \"Le « sur place » est confirmé par la page taproom (https://www.auseconddegre.com/taproom/) : « viens boire un verre à la microbrasserie entre les cuves, au bar ou en terrasse ». L'adresse, le téléphone et les horaires viennent de cette page. Confiance moyenne parce que le menu du taproom est une image illisible pour moi. Le dimanche n'est pas mentionné : pas de créneau. Samedi a deux créneaux, 09h-13h30 et 16h-00h. Les styles de bière ne sont pas précisés (seulement des noms de produits) : beers vide. Aucun Untappd trouvé.\",\n    \"contact\": { \"tel\": \"09 74 64 00 55\", \"site\": \"https://www.auseconddegre.com/\", \"source\": \"https://www.auseconddegre.com/taproom/\" },\n    \"horaires\": [\n      { \"nature\": \"accueil\", \"source\": \"https://www.auseconddegre.com/taproom/\", \"lun\": [[\"17:00\", \"23:00\"]], \"mar\": [[\"17:00\", \"23:00\"]], \"mer\": [[\"17:00\", \"23:00\"]], \"jeu\": [[\"17:00\", \"23:00\"]], \"ven\": [[\"17:00\", \"00:00\"]], \"sam\": [[\"09:00\", \"13:30\"], [\"16:00\", \"00:00\"]] }\n    ]\n  },\n  {\n    \"cle\": \"sirene:433469251\",\n    \"n\": \"Bière La Gâtine\",\n    \"c\": \"Mondreville\",\n    \"adresse\": \"6 hameau de Pilvernier, 77570 Mondreville\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"La brasserie fermière existe (site officiel, adresse lue), mais le site ne dit rien de la vente ni des horaires.\",\n    \"src\": \"https://biere-la-gatine.fr\",\n    \"extrait\": \"6 hameau de Pilvernier – 77570 MONDREVILLE\",\n    \"beers\": [],\n    \"choix\": \"L'office de tourisme de Fontainebleau (https://www.fontainebleau-tourisme.com/en/fiche/730231/la-gatine-beer) parle d'une boutique à la ferme sur rendez-vous, de vente sur place et de Click & Collect. Je n'ai pas pu en citer un passage exact (l'outil refuse de recopier la fiche), et un office vaut au plus « moyenne » : catégorie laissée à 0. Aucun téléphone : le site donne « Mme Boyer : 06.81.07.77.99 » (nom de personne) ; l'office donne 06 71 92 98 23 et 06 81 07 77 99 (office seul, interdit). Trois gammes (Classique, Fruitée, Event'), sans style précis : beers vide. Le SIREN est celui d'une société (Gatinorge). Aucun Untappd trouvé.\"\n  }\n]\n```\n\nCandidats sans lecture :\n- sirene:828294934 (Micro-brasserie Bacotte / La Mousse de Bleau, Chartrettes) : à relancer. Le site lamoussedebleau.fr affiche « This domain is for sale ». Il reste un PDF d'annuaire (mab-france.org) et l'office de tourisme de Fontainebleau (fiche 788199) : un annuaire seul et un office seul ne suffisent pas. Pas de page officielle ni d'Untappd lisible. Le téléphone 01 72 83 99 52 vient d'un annuaire, pas de la brasserie.\n- sirene:948168729 (La Compagnie des Bières, 10 rue Montebello, Fontainebleau) : introuvable. Quatre recherches, aucune page à ce nom ni à cette adresse. Peut-être un caviste ou un bar plutôt qu'une brasserie.\n\nQuestions à choix :\n1. Gatinorge / La Gâtine : le site officiel est muet sur la vente, et l'office (boutique à la ferme sur rendez-vous) n'est pas citable mot pour mot. Que faire ?\n   a) Garder la catégorie 0, comme proposé.\n   b) Passer à 2 « moyenne », avec l'office pour source.\n   c) Attendre une relance avec lecture directe de la page de l'office."
+ },
+ "78-2": {
+  "lus": [
+   {
+    "cle": "sirene:753691773",
+    "n": "La P'tite Sœur",
+    "c": "Sartrouville",
+    "adresse": "165 avenue de la République, 78500 Sartrouville",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie à Sartrouville (SIRENE : Les Brasseurs du Val de Seine, même adresse). Le site de l'office de tourisme Seine-Saint-Germain, repris par Destination Yvelines, cite la boutique avec vente directe et dégustation le vendredi et le samedi. Les horaires du site de la brasserie (Le Relais, jeudi à samedi en soirée) diffèrent de ceux de l'office : aucun horaire retenu.",
+    "src": "https://www.destination-yvelines.fr/en/farms-pick-your-own-and-gourmet-shops/la-ptite-soeur-2",
+    "extrait": "tasting session, brewery tour and direct sales",
+    "beers": [],
+    "choix": "Lecture faite via un résumé de la page (WebFetch), pas en direct : l'extrait est la citation que ce résumé donne, à reverifier. Confiance moyenne : la vente et la dégustation viennent d'une page d'office (en anglais), et le site officiel, lu aussi via un résumé, ne parle que de l'espace Le Relais (événements, dégustations) sans dire explicitement qu'on achète à emporter. Téléphone : le site officiel publie un seul numéro, un mobile (06 28 40 12 52), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Écarté : 01 75 93 77 29, vu dans un résumé de recherche attribué à des pages d'office, non confirmé sur le site de la brasserie ; 01 30 09 39 89, qui est l'office de tourisme. Horaires non proposés : le site officiel annonce jeudi et vendredi 17h-21h, samedi 14h-21h (Le Relais) ; l'office annonce vendredi 14h-19h, samedi 11h-19h (boutique) ; contradictoires. Aucune page Untappd trouvée, aucune bière listée. Le site de Sartrouville (SIRENE) porte l'enseigne « Les Brasseurs du Val de Seine » ; le nom d'usage retenu est La P'tite Sœur, d'après le site officiel.",
+    "contact": {
+     "tel": "06 28 40 12 52",
+     "site": "http://www.laptitesoeur.com/",
+     "source": "http://www.laptitesoeur.com/"
+    }
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 2) : sirene:911410322, sirene:753691773, sirene:924932825, sirene:902798065, sirene:907918957. Aucune n'est déjà une fiche de data/breweries.json (recherche par nom et par commune : rien).\n\n```json\n[\n  {\n    \"cle\": \"sirene:753691773\",\n    \"n\": \"La P'tite Sœur\",\n    \"c\": \"Sartrouville\",\n    \"adresse\": \"165 avenue de la République, 78500 Sartrouville\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie à Sartrouville (SIRENE : Les Brasseurs du Val de Seine, même adresse). Le site de l'office de tourisme Seine-Saint-Germain, repris par Destination Yvelines, cite la boutique avec vente directe et dégustation le vendredi et le samedi. Les horaires du site de la brasserie (Le Relais, jeudi à samedi en soirée) diffèrent de ceux de l'office : aucun horaire retenu.\",\n    \"src\": \"https://www.destination-yvelines.fr/en/farms-pick-your-own-and-gourmet-shops/la-ptite-soeur-2\",\n    \"extrait\": \"tasting session, brewery tour and direct sales\",\n    \"beers\": [],\n    \"choix\": \"Lecture faite via un résumé de la page (WebFetch), pas en direct : l'extrait est la citation que ce résumé donne, à reverifier. Confiance moyenne : la vente et la dégustation viennent d'une page d'office (en anglais), et le site officiel, lu aussi via un résumé, ne parle que de l'espace Le Relais (événements, dégustations) sans dire explicitement qu'on achète à emporter. Téléphone : le site officiel publie un seul numéro, un mobile (06 28 40 12 52), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Écarté : 01 75 93 77 29, vu dans un résumé de recherche attribué à des pages d'office, non confirmé sur le site de la brasserie ; 01 30 09 39 89, qui est l'office de tourisme. Horaires non proposés : le site officiel annonce jeudi et vendredi 17h-21h, samedi 14h-21h (Le Relais) ; l'office annonce vendredi 14h-19h, samedi 11h-19h (boutique) ; contradictoires. Aucune page Untappd trouvée, aucune bière listée. Le site de Sartrouville (SIRENE) porte l'enseigne « Les Brasseurs du Val de Seine » ; le nom d'usage retenu est La P'tite Sœur, d'après le site officiel.\",\n    \"contact\": {\n      \"tel\": \"06 28 40 12 52\",\n      \"site\": \"http://www.laptitesoeur.com/\",\n      \"source\": \"http://www.laptitesoeur.com/\"\n    }\n  }\n]\n```\n\nLecture via un résumé pour toutes les pages (WebFetch ne rend pas le texte brut). Pages ouvertes : http://www.laptitesoeur.com/ (site officiel, via un résumé), destination-yvelines.fr (via un résumé), booking.seine-saintgermain.fr (via un résumé, visite à 10 euros, téléphone de l'office seulement). La page seine-saintgermain.fr/touristic_sheet a répondu 503. La forme `http://www.laptitesœur.com/` du paquet ne se résout pas (punycode) ; la forme `laptitesoeur.com` fonctionne.\n\nSans lecture :\n- sirene:911410322 EXPEDITION BREWERY (Bailly) : 3 recherches, aucune page ; pas de site, pas d'Untappd, pas d'office. Établissement non établi, rien à proposer.\n- sirene:924932825 JUSTBEER BREWERY (Mantes-la-Jolie) : 2 recherches, rien (seulement Tricyclhop, autre brasserie du même paquet n° 3, hors de ce paquet). Non établi.\n- sirene:902798065 BRASSERIE LA TRIELLOISE (Triel-sur-Seine) : 2 recherches, aucune page propre ; seulement un annuaire. Non établie.\n- sirene:907918957 LA STAGNOVILLOISE (L'Étang-la-Ville) : 2 recherches, aucun résultat. Non établie.\n\nAucune instruction trouvée dans les pages lues. Aucune question à choix, mais Cédric peut trancher que La P'tite Sœur reste en catégorie 1 / moyenne malgré les horaires qui divergent entre site et office."
+ },
+ "77-4": {
+  "lus": [
+   {
+    "cle": "sirene:851507087",
+    "n": "Brasserie des Grottes",
+    "c": "Boissise-la-Bertrand",
+    "adresse": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale installée dans une ancienne carrière au bord de la Seine. L'office de tourisme annonce une dégustation sur place, une boutique et la possibilité de repartir avec quelques bouteilles. Ouverte le vendredi soir et le samedi après-midi.",
+    "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+    "extrait": "Au bord de la Seine, une brasserie artisanale étonnante vous invite à découvrir des bières locales brassées sous terre.",
+    "beers": [],
+    "choix": "Source d'office de tourisme seul (confiance au plus moyenne). La page parle d'une « Boutique » et de « quelques bouteilles en souvenir » sans dire explicitement « vente à emporter » : catégorie 1 à confiance moyenne, à Cédric de trancher. Aucun téléphone retenu : le seul numéro lu (01 64 52 64 52) est celui de l'office de tourisme. Aucun site officiel trouvé, seulement une page Facebook (https://www.facebook.com/brasseriedesgrottes/), illisible sans connexion, donc non retenue. Pas de page Untappd trouvée, donc pas de bières. Existence appuyée aussi par le registre SIRENE (code 11.05Z, source du candidat).",
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "18:00",
+        "01:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Toute l'année, selon l'office de tourisme.",
+      "source": "https://www.visitparisregion.com/fr/brasserie-des-grottes"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 4, index 0) : sirene:851507087 (Brasserie des Grottes), sirene:911408862 (Brasserie Belladone), personne:5 (La Planque), sirene:923153811 (Bière en Herbe), sirene:835135328 (Avanti Luppolo !).\n\nAucun des cinq n'est déjà dans `data/breweries.json`. J'ai cherché leurs noms et leurs communes, et il n'y a rien de tel.\n\n```json\n[\n  {\n    \"cle\": \"sirene:851507087\",\n    \"n\": \"Brasserie des Grottes\",\n    \"c\": \"Boissise-la-Bertrand\",\n    \"adresse\": \"1806 rue de Seine, 77350 Boissise-la-Bertrand\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie artisanale installée dans une ancienne carrière au bord de la Seine. L'office de tourisme annonce une dégustation sur place, une boutique et la possibilité de repartir avec quelques bouteilles. Ouverte le vendredi soir et le samedi après-midi.\",\n    \"src\": \"https://www.visitparisregion.com/fr/brasserie-des-grottes\",\n    \"extrait\": \"Au bord de la Seine, une brasserie artisanale étonnante vous invite à découvrir des bières locales brassées sous terre.\",\n    \"beers\": [],\n    \"choix\": \"Source d'office de tourisme seul (confiance au plus moyenne). La page parle d'une « Boutique » et de « quelques bouteilles en souvenir » sans dire explicitement « vente à emporter » : catégorie 1 à confiance moyenne, à Cédric de trancher. Aucun téléphone retenu : le seul numéro lu (01 64 52 64 52) est celui de l'office de tourisme. Aucun site officiel trouvé, seulement une page Facebook (https://www.facebook.com/brasseriedesgrottes/), illisible sans connexion, donc non retenue. Pas de page Untappd trouvée, donc pas de bières. Existence appuyée aussi par le registre SIRENE (code 11.05Z, source du candidat).\",\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"ven\": [[\"18:00\", \"01:00\"]],\n        \"sam\": [[\"15:00\", \"19:00\"]],\n        \"remarque\": \"Toute l'année, selon l'office de tourisme.\",\n        \"source\": \"https://www.visitparisregion.com/fr/brasserie-des-grottes\"\n      }\n    ]\n  }\n]\n```\n\nLecture : la page visitparisregion.com/fr a été lue **via un résumé** de l'outil de lecture. Ni l'`extrait` ni les horaires ne sont donc garantis mot pour mot : à contrôler à l'ouverture de la page. Le résumé citait « Toute l'année / Ouverture le vendredi de 18h à 1h. Le samedi de 15h à 19h. » La page melunvaldeseine-tourisme.com/en/node/12162, lue de la même façon, donne les mêmes horaires. Celle de fontainebleau-tourisme.com était en 404, et la version anglaise de visitparisregion.com était indisponible. Facebook n'a rendu que la page de connexion.\n\n**Sans lecture**\n\n- **sirene:911408862 (Brasserie Belladone)** : le registre SIRENE la dit active depuis 2022 en fabrication de bière (11.05Z). Il domicilie pourtant l'établissement à Saint-Germain-sur-Morin (77860), alors que le candidat est à Villenoy. Seuls des annuaires la mettent à Villenoy, au 13 rue Gambetta (Schlouk Map comme « bar »). Je n'ai trouvé ni site officiel, ni Untappd, ni office de tourisme. L'adresse est contradictoire et seuls des annuaires l'attestent : rien de proposé. Deux recherches faites.\n- **personne:5 (La Planque, Samoreau)** : deux recherches, rien sur Samoreau. Les résultats ne portent que sur La Planque de Montredon-Labessonnie (Tarn), une autre brasserie. Aucune source pour la fiche : rien de proposé.\n- **sirene:923153811 (Bière en Herbe, Sainte-Colombe 77650)** : deux recherches, aucune trace. Les résultats ne portent que sur la brasserie Sainte-Colombe d'Ille-et-Vilaine, un homonyme de commune. Rien de proposé.\n- **sirene:835135328 (Avanti Luppolo !, Chelles)** : deux recherches, aucune trace en dehors de SIRENE. Rien de proposé.\n\nAucune des pages lues ne contenait de consigne à signaler. Rien de ce qui précède n'est « à relancer » (pas de quota ni de panne), sauf, si Cédric le veut, une lecture directe de la page Facebook de la Brasserie des Grottes.\n\nQuestions à choix :\n1. Brasserie des Grottes, catégorie : (a) 1 avec confiance moyenne, comme proposé ; (b) 1 avec confiance faible, car la vente à emporter n'est pas dite explicitement ; (c) catégorie 0 jusqu'à la lecture de la page Facebook."
+ },
+ "77-1": {
+  "lus": [
+   {
+    "cle": "sirene:910541879",
+    "n": "La Bière de Provins",
+    "c": "Provins",
+    "adresse": "3 place du Maréchal Leclerc, 77160 Provins",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Micro-brasserie ouverte en septembre 2022 ; bières brassées à Provins, à déguster sur place ou à emporter selon la page « Notre histoire » (projet décrit, pas un horaire de visite).",
+    "src": "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+    "extrait": "la déguster sur place ou à emporter",
+    "beers": [],
+    "choix": "Page lue via un résumé. Téléphone et horaires lus sur la page contact du site officiel (via un résumé aussi). Le texte « Notre histoire » décrit le projet, d'où une confiance moyenne et non solide. Untappd : recherche faite, aucune page de brasserie trouvée, rien proposé. Gault&Millau et Petit Futé vont dans le même sens mais ne sont que des annuaires, non retenus. Brochure de l'office de tourisme sur des ateliers de brassage : ne nomme pas la brasserie, écartée.",
+    "contact": {
+     "tel": "01 64 08 65 92",
+     "site": "https://labieredeprovins.com/",
+     "source": "https://www.labieredeprovins.com/contact/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "21:30"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "21:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "23:30"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Fermé le lundi et le dimanche.",
+      "source": "https://www.labieredeprovins.com/contact/"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:810362798",
+    "n": "Brasserie de Meaux",
+    "c": "Meaux",
+    "adresse": "11 rue des Buttes Blanches, 77100 Meaux",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale ; boutique et vente directe à la brasserie le vendredi et le samedi matin, click & collect ; visites guidées avec dégustation, d'après l'office de tourisme de Seine-et-Marne. Pas de consommation sur place hors visite.",
+    "src": "https://www.brasseriedemeaux.com/",
+    "extrait": "le vendredi de 14h à 18h et le samedi de 9h30 à 12h30",
+    "beers": [],
+    "choix": "Pages lues via un résumé (site officiel et office de tourisme). Téléphone : le seul publié par la brasserie sur son site est un portable (06 51 38 33 01), retenu comme seule ligne publiée (règle du 21/10) ; l'office de tourisme ne le publie qu'en lien tel:, non utilisé comme source. Horaires de vente : ceux du site officiel (ven 14h-18h, sam 9h30-12h30) ; l'office de tourisme et 118712 donnent aussi le samedi après-midi en mars-décembre (14h-18h), non repris car contradictoires avec le site officiel. Catégorie 2 et non 1 : la dégustation n'est décrite que pendant les visites. Bières du site : blanche, blonde, ambrée, brune, triple au miel, IPA, rouge, d'hiver, de Noël ; non recopiées en beers, format à ta décision. Untappd : non trouvé.",
+    "contact": {
+     "tel": "06 51 38 33 01",
+     "site": "https://www.brasseriedemeaux.com/",
+     "source": "https://www.brasseriedemeaux.com/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:30",
+        "12:30"
+       ]
+      ],
+      "source": "https://www.brasseriedemeaux.com/"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 1) : sirene:910541879 (LA BIERE DE PROVINS), sirene:803077130 (BRASSERIE DU PONT DE COUDE), sirene:810362798 (BRASSERIE DE MEAUX), sirene:977500685 (BRASSERIE HOMMAGE), sirene:843283060 (BRASSERIE ZIEGLER).\n\nAucun des cinq n'est déjà dans data/breweries.json (recherche sur les noms et les communes).\n\n```json\n[\n  {\n    \"cle\": \"sirene:910541879\",\n    \"n\": \"La Bière de Provins\",\n    \"c\": \"Provins\",\n    \"adresse\": \"3 place du Maréchal Leclerc, 77160 Provins\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Micro-brasserie ouverte en septembre 2022 ; bières brassées à Provins, à déguster sur place ou à emporter selon la page « Notre histoire » (projet décrit, pas un horaire de visite).\",\n    \"src\": \"https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/\",\n    \"extrait\": \"la déguster sur place ou à emporter\",\n    \"beers\": [],\n    \"choix\": \"Page lue via un résumé. Téléphone et horaires lus sur la page contact du site officiel (via un résumé aussi). Le texte « Notre histoire » décrit le projet, d'où une confiance moyenne et non solide. Untappd : recherche faite, aucune page de brasserie trouvée, rien proposé. Gault&Millau et Petit Futé vont dans le même sens mais ne sont que des annuaires, non retenus. Brochure de l'office de tourisme sur des ateliers de brassage : ne nomme pas la brasserie, écartée.\",\n    \"contact\": {\n      \"tel\": \"01 64 08 65 92\",\n      \"site\": \"https://labieredeprovins.com/\",\n      \"source\": \"https://www.labieredeprovins.com/contact/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"mar\": [[\"16:00\", \"21:30\"]],\n        \"mer\": [[\"16:00\", \"21:30\"]],\n        \"jeu\": [[\"16:00\", \"23:30\"]],\n        \"ven\": [[\"16:00\", \"23:30\"]],\n        \"sam\": [[\"11:00\", \"22:00\"]],\n        \"remarque\": \"Fermé le lundi et le dimanche.\",\n        \"source\": \"https://www.labieredeprovins.com/contact/\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:810362798\",\n    \"n\": \"Brasserie de Meaux\",\n    \"c\": \"Meaux\",\n    \"adresse\": \"11 rue des Buttes Blanches, 77100 Meaux\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie artisanale ; boutique et vente directe à la brasserie le vendredi et le samedi matin, click & collect ; visites guidées avec dégustation, d'après l'office de tourisme de Seine-et-Marne. Pas de consommation sur place hors visite.\",\n    \"src\": \"https://www.brasseriedemeaux.com/\",\n    \"extrait\": \"le vendredi de 14h à 18h et le samedi de 9h30 à 12h30\",\n    \"beers\": [],\n    \"choix\": \"Pages lues via un résumé (site officiel et office de tourisme). Téléphone : le seul publié par la brasserie sur son site est un portable (06 51 38 33 01), retenu comme seule ligne publiée (règle du 21/10) ; l'office de tourisme ne le publie qu'en lien tel:, non utilisé comme source. Horaires de vente : ceux du site officiel (ven 14h-18h, sam 9h30-12h30) ; l'office de tourisme et 118712 donnent aussi le samedi après-midi en mars-décembre (14h-18h), non repris car contradictoires avec le site officiel. Catégorie 2 et non 1 : la dégustation n'est décrite que pendant les visites. Bières du site : blanche, blonde, ambrée, brune, triple au miel, IPA, rouge, d'hiver, de Noël ; non recopiées en beers, format à ta décision. Untappd : non trouvé.\",\n    \"contact\": {\n      \"tel\": \"06 51 38 33 01\",\n      \"site\": \"https://www.brasseriedemeaux.com/\",\n      \"source\": \"https://www.brasseriedemeaux.com/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"ven\": [[\"14:00\", \"18:00\"]],\n        \"sam\": [[\"09:30\", \"12:30\"]],\n        \"source\": \"https://www.brasseriedemeaux.com/\"\n      }\n    ]\n  }\n]\n```\n\nCandidats sans lecture\n\n- sirene:803077130 Brasserie du Pont de Coude : la brasserie existe, mais à Dammartin-sur-Tigeaux (13 rue du Pont de Coude, bières « Grand Morin »), pas à l'adresse Ozouer-le-Voulgis du candidat. Je n'ai trouvé que Xerfi et Ankorstore, aucun site officiel ni office de tourisme, et rien sur ce qu'on peut y faire. Rien à proposer. L'adresse SIRENE est peut-être un siège administratif ou un ancien établissement, à vérifier. Deux recherches faites, via un résumé.\n- sirene:977500685 Brasserie Hommage (Montdauphin) : deux recherches, aucune trace en ligne. Rien d'établi.\n- sirene:843283060 Brasserie Ziegler (Nanteau-sur-Lunain) : deux recherches, aucune trace en ligne. Rien d'établi.\n\nPrécisions sur les sources\n\n- Toutes les pages ont été lues via un résumé : WebFetch ne rend pas le texte brut. Les extraits sont donc des fragments cités par ce résumé, et je n'ai pas pu les revoir mot à mot dans la page.\n- Les trois sans lecture ne relèvent pas d'une cause passagère. Rien n'est « à relancer », sauf peut-être le Pont de Coude si tu veux chercher un contact direct.\n\nQuestions à choix\n\n1. Pour Brasserie de Meaux, le portable 06 51 38 33 01 est la seule ligne publiée par la brasserie sur son site. Options : (a) le garder (règle du 21/10), (b) ne publier aucun numéro.\n2. Pour La Bière de Provins, la catégorie 1 en confiance moyenne repose sur « sur place ou à emporter », tiré d'un texte de projet. Options : (a) la garder en moyenne, (b) la passer en faible."
+ },
+ "78-3": {
+  "lus": [
+   {
+    "cle": "sirene:818305443",
+    "n": "Brasserie Toussaint",
+    "c": "Noisy-le-Roi",
+    "adresse": "2 avenue de l'Europe, 78590 Noisy-le-Roi",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie et brewpub au pied des cuves, avec une boutique de vente directe sur le même site.",
+    "src": "https://www.brasserietoussaint.com/restaurant/",
+    "extrait": "des bières fraîches, au pied même des cuves",
+    "beers": [],
+    "choix": "Lu via un résumé de WebFetch : l'extrait est à vérifier. Téléphone retenu : 01 87 66 67 45, lu sur la page contact. Le 06 98 96 60 04 sert aux réservations de plus de 8 personnes, écarté. Untappd https://untappd.com/BrasserieToussaint a été ouvert, c'est bien la page de la brasserie, mais il n'est pas repris dans contact parce que la page contact ne le porte pas. Ses styles sont lisibles, mais je n'ai pas relevé de bières nommées avec leur style : beers reste vide. La page boutique dit « Fermé jusqu'au 24 août », une date passée, donc les horaires de vente sont à revérifier. Les horaires du brewpub viennent d'un résumé anglais, sans passage français exact.",
+    "contact": {
+     "tel": "01 87 66 67 45",
+     "site": "https://www.brasserietoussaint.com",
+     "source": "https://www.brasserietoussaint.com/contact-2/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [],
+      "mar": [
+       [
+        "12:00",
+        "14:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "dim": [],
+      "source": "https://www.brasserietoussaint.com/restaurant/",
+      "verifieLe": "2026-10-29"
+     },
+     {
+      "nature": "vente",
+      "lun": [],
+      "mar": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [],
+      "dim": [],
+      "remarque": "La page indique « Fermé jusqu'au 24 août » : à revérifier.",
+      "source": "https://www.brasserietoussaint.com/restaurant-3/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:852891753",
+    "n": "Brasserie La Voisine",
+    "c": "Villiers-Saint-Frédéric",
+    "adresse": "13 rue de la Gare, 78640 Villiers-Saint-Frédéric",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale bio avec une boutique ouverte trois demi-journées par semaine. Le site mentionne une guinguette les vendredis soir, sans dire ce qu'on y consomme.",
+    "src": "https://brasserielavoisine.com",
+    "extrait": "Jeudi & vendredi 16h – 19h",
+    "beers": [],
+    "choix": "Lu via un résumé de WebFetch. Le site dit seulement qu'une boutique existe, avec ses horaires, et qu'on peut commander en ligne. Rien sur la dégustation sur place. La guinguette est citée sans détail : catégorie 2 plutôt que 1, faute de lecture. Téléphone 06 84 77 32 84 : un mobile, mais la seule ligne publiée par la brasserie (règle du 21/10). Je n'ai trouvé aucune page Untappd. Le site ne cite aucun nom ni style de bière : beers reste vide.",
+    "contact": {
+     "tel": "06 84 77 32 84",
+     "site": "https://brasserielavoisine.com",
+     "source": "https://brasserielavoisine.com"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ]
+      ],
+      "source": "https://brasserielavoisine.com",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés lues (paquet n° 3) : sirene:890481096 (RESPEKT), sirene:893014662 (TRICYCLHOP), sirene:818305443 (BRASSERIE TOUSSAINT), sirene:852696525 (TRBL COMPAGNIE SAS), sirene:852891753 (SASU BRASSERIE LA VOISINE). Aucune n'est déjà dans data/breweries.json. Toutes les lectures sont passées par le résumé de WebFetch, aucune page n'a été lue en direct.\n\n```json\n[\n  {\n    \"cle\": \"sirene:818305443\",\n    \"n\": \"Brasserie Toussaint\",\n    \"c\": \"Noisy-le-Roi\",\n    \"adresse\": \"2 avenue de l'Europe, 78590 Noisy-le-Roi\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Brasserie et brewpub au pied des cuves, avec une boutique de vente directe sur le même site.\",\n    \"src\": \"https://www.brasserietoussaint.com/restaurant/\",\n    \"extrait\": \"des bières fraîches, au pied même des cuves\",\n    \"beers\": [],\n    \"choix\": \"Lu via un résumé de WebFetch : l'extrait est à vérifier. Téléphone retenu : 01 87 66 67 45, lu sur la page contact. Le 06 98 96 60 04 sert aux réservations de plus de 8 personnes, écarté. Untappd https://untappd.com/BrasserieToussaint a été ouvert, c'est bien la page de la brasserie, mais il n'est pas repris dans contact parce que la page contact ne le porte pas. Ses styles sont lisibles, mais je n'ai pas relevé de bières nommées avec leur style : beers reste vide. La page boutique dit « Fermé jusqu'au 24 août », une date passée, donc les horaires de vente sont à revérifier. Les horaires du brewpub viennent d'un résumé anglais, sans passage français exact.\",\n    \"contact\": {\n      \"tel\": \"01 87 66 67 45\",\n      \"site\": \"https://www.brasserietoussaint.com\",\n      \"source\": \"https://www.brasserietoussaint.com/contact-2/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [],\n        \"mar\": [[\"12:00\", \"14:00\"]],\n        \"mer\": [[\"12:00\", \"14:00\"]],\n        \"jeu\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"ven\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"sam\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"dim\": [],\n        \"source\": \"https://www.brasserietoussaint.com/restaurant/\",\n        \"verifieLe\": \"2026-10-29\"\n      },\n      {\n        \"nature\": \"vente\",\n        \"lun\": [],\n        \"mar\": [[\"14:00\", \"17:00\"]],\n        \"mer\": [[\"14:00\", \"17:00\"]],\n        \"jeu\": [[\"14:00\", \"17:00\"]],\n        \"ven\": [[\"14:00\", \"18:00\"]],\n        \"sam\": [],\n        \"dim\": [],\n        \"remarque\": \"La page indique « Fermé jusqu'au 24 août » : à revérifier.\",\n        \"source\": \"https://www.brasserietoussaint.com/restaurant-3/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:852891753\",\n    \"n\": \"Brasserie La Voisine\",\n    \"c\": \"Villiers-Saint-Frédéric\",\n    \"adresse\": \"13 rue de la Gare, 78640 Villiers-Saint-Frédéric\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie artisanale bio avec une boutique ouverte trois demi-journées par semaine. Le site mentionne une guinguette les vendredis soir, sans dire ce qu'on y consomme.\",\n    \"src\": \"https://brasserielavoisine.com\",\n    \"extrait\": \"Jeudi & vendredi 16h – 19h\",\n    \"beers\": [],\n    \"choix\": \"Lu via un résumé de WebFetch. Le site dit seulement qu'une boutique existe, avec ses horaires, et qu'on peut commander en ligne. Rien sur la dégustation sur place. La guinguette est citée sans détail : catégorie 2 plutôt que 1, faute de lecture. Téléphone 06 84 77 32 84 : un mobile, mais la seule ligne publiée par la brasserie (règle du 21/10). Je n'ai trouvé aucune page Untappd. Le site ne cite aucun nom ni style de bière : beers reste vide.\",\n    \"contact\": {\n      \"tel\": \"06 84 77 32 84\",\n      \"site\": \"https://brasserielavoisine.com\",\n      \"source\": \"https://brasserielavoisine.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"jeu\": [[\"16:00\", \"19:00\"]],\n        \"ven\": [[\"16:00\", \"19:00\"]],\n        \"sam\": [[\"10:00\", \"13:00\"]],\n        \"source\": \"https://brasserielavoisine.com\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nCandidats sans lecture :\n- sirene:890481096 Respekt (Achères) : à relancer. Le site brasserie-respekt.fr ne montre qu'une vérification d'âge et les cookies, sur la page d'accueil et la page contact. Le reste vient d'annuaires seuls (Rankeat, 118712, Xerfi, Ecotrail), qui ne suffisent pas. Ils parlent d'une taproom, de vente à emporter et d'un mobile, sans qu'aucune page de la brasserie le confirme. Pas d'Untappd trouvé.\n- sirene:893014662 Tricyclhop (Mantes-la-Jolie) : à relancer. Seul l'article de la ville de Mantes-la-Jolie, vu dans les résultats de recherche, en parle (vente à emporter, consigne des bouteilles). Il est resté illisible : HTTP 503, deux essais. Ni site officiel ni Untappd trouvés, et une ville seule ne suffit pas.\n- sirene:852696525 TRBL Compagnie SAS (Orgeval) : écartée. Seuls une page Faire (grossiste) et un annuaire sont sortis, sans site officiel ni Untappd et sans lien avec Orgeval. Rien n'établit l'existence ni ce qu'on peut y faire.\n\nQuestions à choix :\n1. La Voisine, quelle catégorie ? (a) 2 avec confiance moyenne, comme proposé ; (b) 1 avec confiance faible, à cause de la guinguette ; (c) à relancer pour lire la page « La guinguette ».\n2. Toussaint : garder les horaires de vente malgré « Fermé jusqu'au 24 août », une date passée ? (a) oui, avec la remarque ; (b) les retirer."
+ },
+ "95-1": {
+  "lus": [],
+  "rapport": "Clés du paquet n° 1 (dep-95) : sirene:878788587 (1989 BREWING), sirene:903711273 (LA FAMILONETTE), sirene:949092811 (LE CLOS LOUISE), sirene:852417443 (DELIVREZ-NOUS DU MALT), sirene:980941991 (ZENZYME).\n\nJSON rendu :\n[]\n\nLectures faites via des résumés de recherche web (aucune page ouverte directement) ; au moins deux recherches par candidat.\n\nSans lecture :\n- sirene:878788587 1989 BREWING (Marines) : déjà une fiche dans data/breweries.json (\"1989 Brewing\", src https://1989brewing.com/taproom/). Marines = établissement secondaire d'entreposage (Xerfi, annuaire), brasserie à Saint-Étienne-du-Rouvray (76). Homonyme/doublon, rien à ajouter.\n- sirene:903711273 LA FAMILONETTE (Vétheuil) : aucune page trouvée (ni site, Untappd, office). Non établie.\n- sirene:949092811 LE CLOS LOUISE (Vienne-en-Arthies) : aucune brasserie à ce nom ; seul un gîte à Plivot (51), sans rapport. Non établie.\n- sirene:852417443 DELIVREZ-NOUS DU MALT (Eaubonne) : seulement la fiche SIRENE/INSEE (association, APE 11.05Z, active depuis 17/05/2019, adresse en cage d'escalier, donc probablement brassage amateur). Pas de site, Untappd ni office. Annuaire seul ne suffit pas. HelloAsso trouvée = autre association (Haute-Vienne).\n- sirene:980941991 ZENZYME (Ennery) : seul indice, annuaire d'horaires trouver-ouvert.fr (Cylex) \"Zenzymes Microbrasserie, 3 rue Ferrié 95300 Ennery\". Annuaire seul, pas de site officiel ni Untappd ni office. À relancer si un site ou Untappd apparaît (pas de recherche directe dans Untappd possible ici).\n\nAucune instruction suspecte lue dans les pages. Aucune question à choix."
+ },
+ "77-5": {
+  "lus": [
+   {
+    "cle": "node/10024333612",
+    "n": "Brasserie Parisis",
+    "c": "Combs-la-Ville",
+    "adresse": "3 Rue René Dumont, 77380 Combs-la-Ville",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie artisanale avec boutique et taproom dans ses murs depuis l'été 2023 (site officiel).",
+    "src": "https://brasserie-parisis.com/",
+    "extrait": "Depuis l’été 2023, une boutique et une taproom (un bar quoi) ont ouvert leurs portes dans la brasserie même.",
+    "beers": [],
+    "choix": "Candidat OSM node/10024333612 ; la ligne SIRENE sirene:509184214 est la même brasserie (doublon, non lue à part). Bières non proposées (pas de page Untappd de brasserie trouvée, aucun lien Untappd sur le site). Un seul numéro publié : le fixe 01 60 46 62 33.",
+    "contact": {
+     "tel": "01 60 46 62 33",
+     "site": "https://brasserie-parisis.com/",
+     "source": "https://brasserie-parisis.com/le-bar-taproom/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [],
+      "mar": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "dim": [],
+      "source": "https://brasserie-parisis.com/le-bar-taproom/"
+     },
+     {
+      "nature": "vente",
+      "lun": [],
+      "mar": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:30",
+        "16:30"
+       ],
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "dim": [],
+      "source": "https://brasserie-parisis.com/la-boutique/"
+     }
+    ]
+   },
+   {
+    "cle": "node/3515448663",
+    "n": "Crazy Hops",
+    "c": "Vaux-sur-Lunain",
+    "adresse": "1 rue de la Tuilerie, 77710 Vaux-sur-Lunain",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale établie (site officiel). Le site ne donne que des portes ouvertes datées (6 décembre 2025) : vente et accueil habituels non établis.",
+    "src": "https://www.crazyhops.fr/",
+    "extrait": "Visite de la brasserie / Jeux concours / Dégustations",
+    "beers": [],
+    "choix": "L'OSM dit « Chéroy », le site officiel et l'office de tourisme 77 disent Vaux-sur-Lunain : commune corrigée. Le site publie deux mobiles (« 07 75 74 30 89 / 06 70 29 54 98 »), aucun fixe ; je retiens le 06 70 29 54 98 (aussi dans le lien « Call us » de l'office), mobile à valider par Cédric. Horaires non repris : aucun horaire régulier sur le site, annuaires contradictoires. « Vente sur place et déstockage » n'est écrit que pour la journée portes ouvertes, d'où catégorie 0. Page Untappd https://untappd.com/CrazyHops liée depuis le site officiel et lue ouverte.",
+    "contact": {
+     "tel": "06 70 29 54 98",
+     "site": "https://www.crazyhops.fr/",
+     "untappd": "https://untappd.com/CrazyHops",
+     "source": "https://www.crazyhops.fr/"
+    }
+   }
+  ],
+  "rapport": "Clés du paquet n° 5 (dep-77) : sirene:509184214, sirene:843351537, node/10024333612, node/3515448663, node/3536633873. Aucune n'est déjà dans data/breweries.json. Toutes les pages ont été lues via un résumé WebFetch, jamais directement : les extraits sont à revérifier mot pour mot. Aucun shell n'était disponible, donc aucun contrôle de schéma lancé.\n\n```json\n[\n  {\n    \"cle\": \"node/10024333612\",\n    \"n\": \"Brasserie Parisis\",\n    \"c\": \"Combs-la-Ville\",\n    \"adresse\": \"3 Rue René Dumont, 77380 Combs-la-Ville\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Brasserie artisanale avec boutique et taproom dans ses murs depuis l'été 2023 (site officiel).\",\n    \"src\": \"https://brasserie-parisis.com/\",\n    \"extrait\": \"Depuis l’été 2023, une boutique et une taproom (un bar quoi) ont ouvert leurs portes dans la brasserie même.\",\n    \"beers\": [],\n    \"choix\": \"Candidat OSM node/10024333612 ; la ligne SIRENE sirene:509184214 est la même brasserie (doublon, non lue à part). Bières non proposées (pas de page Untappd de brasserie trouvée, aucun lien Untappd sur le site). Un seul numéro publié : le fixe 01 60 46 62 33.\",\n    \"contact\": {\n      \"tel\": \"01 60 46 62 33\",\n      \"site\": \"https://brasserie-parisis.com/\",\n      \"source\": \"https://brasserie-parisis.com/le-bar-taproom/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [],\n        \"mar\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"mer\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"jeu\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"ven\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"sam\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"dim\": [],\n        \"source\": \"https://brasserie-parisis.com/le-bar-taproom/\"\n      },\n      {\n        \"nature\": \"vente\",\n        \"lun\": [],\n        \"mar\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"mer\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"jeu\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"ven\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"sam\": [[\"14:30\", \"16:30\"], [\"17:00\", \"22:00\"]],\n        \"dim\": [],\n        \"source\": \"https://brasserie-parisis.com/la-boutique/\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"node/3515448663\",\n    \"n\": \"Crazy Hops\",\n    \"c\": \"Vaux-sur-Lunain\",\n    \"adresse\": \"1 rue de la Tuilerie, 77710 Vaux-sur-Lunain\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Brasserie artisanale établie (site officiel). Le site ne donne que des portes ouvertes datées (6 décembre 2025) : vente et accueil habituels non établis.\",\n    \"src\": \"https://www.crazyhops.fr/\",\n    \"extrait\": \"Visite de la brasserie / Jeux concours / Dégustations\",\n    \"beers\": [],\n    \"choix\": \"L'OSM dit « Chéroy », le site officiel et l'office de tourisme 77 disent Vaux-sur-Lunain : commune corrigée. Le site publie deux mobiles (« 07 75 74 30 89 / 06 70 29 54 98 »), aucun fixe ; je retiens le 06 70 29 54 98 (aussi dans le lien « Call us » de l'office), mobile à valider par Cédric. Horaires non repris : aucun horaire régulier sur le site, annuaires contradictoires. « Vente sur place et déstockage » n'est écrit que pour la journée portes ouvertes, d'où catégorie 0. Page Untappd https://untappd.com/CrazyHops liée depuis le site officiel et lue ouverte.\",\n    \"contact\": {\n      \"tel\": \"06 70 29 54 98\",\n      \"site\": \"https://www.crazyhops.fr/\",\n      \"untappd\": \"https://untappd.com/CrazyHops\",\n      \"source\": \"https://www.crazyhops.fr/\"\n    }\n  }\n]\n```\n\nCandidats sans lecture :\n- sirene:509184214 (SAS Brasserie Parisis) : doublon de node/10024333612, couvert par la lecture ci-dessus.\n- sirene:843351537 (Le Micro Kombinat, Montereau-Fault-Yonne) : trois recherches, aucun site, Untappd ni office. Un annuaire situe « La Republik des Mousses » (bar à bières et brasserie) à la même adresse (25 rue du Dr Arthur Petit), probablement la même entité mais source d'annuaire seule. Rien proposé ; piste : chercher sous ce nom (à relancer).\n- node/3536633873 (Le Royal Club, Moissy-Cramayel) : seule une fiche Trip.com sans description, qui le classe comme restaurant ; ni site, ni Untappd, ni brassage établi. Écarté : probablement un bar ou restaurant, pas une brasserie.\n\nQuestions à choix :\n1. Crazy Hops, quel numéro garder (deux mobiles publiés) ? (a) 06 70 29 54 98 (retenu) ; (b) 07 75 74 30 89 ; (c) aucun."
+ },
+ "78-4": {
+  "lus": [
+   {
+    "cle": "node/12327046734",
+    "n": "La Brasserie du Roi",
+    "c": "Saint-Cyr-l'École",
+    "adresse": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie avec bar (La Ménagerie, bières brassées sur place) et vente en boutique, d'après le site officiel. Le site ne dit pas explicitement si la dégustation et la vente à emporter se font aux horaires indiqués.",
+    "src": "https://labrasserieduroi.com/",
+    "extrait": "Plongez dans La Ménagerie : bières brassées sous vos yeux",
+    "beers": [],
+    "choix": "Deux numéros apparaissent : « Tél. : 09 83 65 63 85 », écrit dans le texte de la page à côté de l'adresse (retenu), et 09 87 36 09 97, que je n'ai vu que dans le lien « appeler » du site (écarté). Catégorie 1 en confiance moyenne : « Divine creation/dispo en boutique » (vente) et La Ménagerie (bar). La page ne précise pas la vente à emporter en toutes lettres. Les horaires sont ceux que la page donne sous « Horaires d'ouvertures », sans dire s'ils valent pour le bar ou pour la boutique. Je les classe en accueil et je le signale dans la remarque. Il existe aussi un candidat SIRENE du même nom (sirene:840301055, Versailles et Saint-Cyr) dans un autre paquet : probablement la même brasserie, à dédoublonner.",
+    "contact": {
+     "tel": "09 83 65 63 85",
+     "site": "https://labrasserieduroi.com/",
+     "source": "https://labrasserieduroi.com/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "mar": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "18:00",
+        "23:30"
+       ]
+      ],
+      "dim": [
+       [
+        "12:00",
+        "14:00"
+       ]
+      ],
+      "remarque": "Horaires d'ouverture donnés par le site, sans distinguer le bar de la boutique.",
+      "source": "https://labrasserieduroi.com/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet n° 4 (index 4) : node/12327046734, node/1854003295, node/3512397640, node/3752510374, node/4155657290. Une seule brasserie est établie, la Brasserie du Roi. Aucun des cinq n'est déjà une fiche de data/breweries.json (recherche sur Distrikt, Brasserie du Roi, Rolling, Vizir, Villaroy : aucune correspondance).\n\n```json\n[\n  {\n    \"cle\": \"node/12327046734\",\n    \"n\": \"La Brasserie du Roi\",\n    \"c\": \"Saint-Cyr-l'École\",\n    \"adresse\": \"75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École\",\n    \"cat\": 1,\n    \"conf\": \"moyenne\",\n    \"note\": \"Brasserie avec bar (La Ménagerie, bières brassées sur place) et vente en boutique, d'après le site officiel. Le site ne dit pas explicitement si la dégustation et la vente à emporter se font aux horaires indiqués.\",\n    \"src\": \"https://labrasserieduroi.com/\",\n    \"extrait\": \"Plongez dans La Ménagerie : bières brassées sous vos yeux\",\n    \"beers\": [],\n    \"choix\": \"Deux numéros apparaissent : « Tél. : 09 83 65 63 85 », écrit dans le texte de la page à côté de l'adresse (retenu), et 09 87 36 09 97, que je n'ai vu que dans le lien « appeler » du site (écarté). Catégorie 1 en confiance moyenne : « Divine creation/dispo en boutique » (vente) et La Ménagerie (bar). La page ne précise pas la vente à emporter en toutes lettres. Les horaires sont ceux que la page donne sous « Horaires d'ouvertures », sans dire s'ils valent pour le bar ou pour la boutique. Je les classe en accueil et je le signale dans la remarque. Il existe aussi un candidat SIRENE du même nom (sirene:840301055, Versailles et Saint-Cyr) dans un autre paquet : probablement la même brasserie, à dédoublonner.\",\n    \"contact\": {\n      \"tel\": \"09 83 65 63 85\",\n      \"site\": \"https://labrasserieduroi.com/\",\n      \"source\": \"https://labrasserieduroi.com/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"mar\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"mer\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"jeu\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"ven\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"sam\": [[\"12:00\", \"14:00\"], [\"18:00\", \"23:30\"]],\n        \"dim\": [[\"12:00\", \"14:00\"]],\n        \"remarque\": \"Horaires d'ouverture donnés par le site, sans distinguer le bar de la boutique.\",\n        \"source\": \"https://labrasserieduroi.com/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nMode de lecture : labrasserieduroi.com lu avec WebFetch, donc via un résumé. Le deuxième passage demandait la copie mot pour mot, et c'est lui que je cite. Je n'ai pas pu vérifier ces passages sur la page elle-même.\n\nSans lecture :\n- node/1854003295 (Rolling's Bar, Freneuse) : pas de site officiel ni d'Untappd. La seule trace est une fiche d'annuaire Trip.com (« Le Rolling S Bar », bar/bistro), sans rien sur le brassage. Un annuaire seul ne suffit pas, et ce serait un bar qui ne brasse pas. Écarté.\n- node/3512397640 (Distrikt Beer, Thiverval-Grignon) : à relancer. distriktbeer.com et www.distriktbeer.com ne se résolvent pas depuis cette session ; ces hôtes doivent être autorisés dans les réglages réseau. Les recherches ne donnent qu'un annuaire (Sluurpy, adresse de Maule, 47 boulevard Paul Barre) et une description « brassé dans une cave sous Maule ». Un avis Google demande si Distrikt a fermé définitivement. L'adresse OSM (Thiverval-Grignon) diffère de celle de Maule : sources contradictoires, rien n'est proposé. Le candidat SIRENE sirene:793900473 (Maule) est dans un autre paquet.\n- node/3752510374 (Le Vizir, Sartrouville) : aucun résultat. Les recherches ne renvoient que La P'tite Sœur, un autre candidat (sirene:753691773). Ni site ni Untappd. Introuvable, écarté.\n- node/4155657290 (Le Villaroy, Guyancourt) : aucun résultat ; Villaroy n'est qu'un quartier de Guyancourt. Ni site ni Untappd. Introuvable, écarté.\n\nUntappd : aucune page trouvée pour la Brasserie du Roi, donc contact.untappd et beers sont vides. Le site cite des styles (lager à l'orange, triple, IPA, red ale, pale ale), mais je ne les ai pas transcrits en types, faute de page qui les donne ligne à ligne.\n\nQuestions à choix :\n1. Horaires de la Brasserie du Roi : (a) garder le bloc accueil proposé avec sa remarque ; (b) n'en mettre aucun tant qu'on ignore s'ils valent pour le bar ou pour la boutique."
+ },
+ "77-3": {
+  "lus": [
+   {
+    "cle": "sirene:823504220",
+    "n": "L'Instant",
+    "c": "Pontault-Combault",
+    "adresse": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site de la brasserie présente sa taproom comme le bar interne de la brasserie : bières pression, grignotage et vente à emporter. Horaires hivernaux publiés : le jeudi seulement.",
+    "src": "https://bieres-linstant.fr/la-taproom/",
+    "extrait": "Bières pression. Grignotage (saucissons, croques-monsieur…). Vente à emporter. Possibilité d’apporter votre propre repas !",
+    "beers": [],
+    "choix": "Deux numéros sur le site : 09 87 16 00 70 en pied de page, et un mobile (+33 0663288210) dans l'en-tête. Je retiens le fixe. Les horaires lus sont ceux de la « période hivernale » : la remarque le dit, samedi et dimanche ne sont pas donnés donc absents. Pas de page Untappd trouvée. Aucun type de bière retenu : la page ne donne pas de styles précis.",
+    "contact": {
+     "tel": "09 87 16 00 70",
+     "site": "https://bieres-linstant.fr/",
+     "source": "https://bieres-linstant.fr/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [],
+      "mar": [],
+      "mer": [],
+      "jeu": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "ven": [],
+      "remarque": "Horaires pendant la période hivernale ; la source ne donne pas ceux du reste de l'année ni ceux du samedi et du dimanche.",
+      "source": "https://bieres-linstant.fr/la-taproom/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:802738146",
+    "n": "Crazy Hops",
+    "c": "Vaux-sur-Lunain",
+    "adresse": "1 rue de la Tuilerie, 77710 Vaux-sur-Lunain",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site de la brasserie annonce une guinguette sur le terrain de la brasserie les vendredis et samedis soir, de début mai à fin septembre. La vente sur place n'est citée que pour une journée portes ouvertes (6 décembre 2025). Aucune vente à emporter courante n'est mentionnée.",
+    "src": "https://www.crazyhops.fr/",
+    "extrait": "De début mai à fin septembre, retrouvez la Guiguette des Moutons Fous tout les vendredis et samedis soir",
+    "beers": [],
+    "choix": "Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, pas de vente à emporter courante citée. Téléphone : le pied de page porte deux mobiles, « 07 75 74 30 89 / 06 70 29 54 98 ». Je retiens 06 70 29 54 98, publié aussi par la fiche de l'office de tourisme de Seine-et-Marne ; le 07 75 74 30 89 est celui que la page donne pour la location de tireuses, écarté. Aucun fixe publié : mobile (règle du 21/10). Adresse lue sur la fiche de l'office de tourisme, à rapprocher de SIRENE. Horaires de la guinguette sans heures (« soir » seulement) d'où heures-non-precisees ; rien pour le reste de l'année. Untappd https://untappd.com/CrazyHops : s'ouvre, nomme Crazy Hops à Vaux-sur-Lunain, et le site l'indique ; ni notes ni avis recopiés. Bières (IPA Simple et Funky, Blonde Atomique, Triple, Blanche Yuzu Gingembre…) citées sans page par bière, laissées de côté.",
+    "contact": {
+     "tel": "06 70 29 54 98",
+     "site": "https://www.crazyhops.fr/",
+     "untappd": "https://untappd.com/CrazyHops",
+     "source": "https://www.crazyhops.fr/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": "heures-non-precisees",
+      "sam": "heures-non-precisees",
+      "periode": {
+       "du": "05-01",
+       "au": "09-30"
+      },
+      "remarque": "Guinguette Les Moutons Fous, vendredi et samedi soir, de début mai à fin septembre ; les heures ne sont pas données.",
+      "source": "https://www.crazyhops.fr/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 3) : sirene:908373681, sirene:823504220, sirene:820331270, sirene:802738146, sirene:831136890.\n\nToutes mes lectures sont passées par WebFetch, qui renvoie un résumé de la page, pas la page brute (« via un résumé »). Chaque extrait est une citation rendue par cet outil, copiée d'une seule page. À rouvrir par Cédric avant d'appliquer s'il veut être sûr.\n\n```json\n[\n  {\n    \"cle\": \"sirene:823504220\",\n    \"n\": \"L'Instant\",\n    \"c\": \"Pontault-Combault\",\n    \"adresse\": \"24 bis rue du Pré des Aulnes, 77340 Pontault-Combault\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Le site de la brasserie présente sa taproom comme le bar interne de la brasserie : bières pression, grignotage et vente à emporter. Horaires hivernaux publiés : le jeudi seulement.\",\n    \"src\": \"https://bieres-linstant.fr/la-taproom/\",\n    \"extrait\": \"Bières pression. Grignotage (saucissons, croques-monsieur…). Vente à emporter. Possibilité d’apporter votre propre repas !\",\n    \"beers\": [],\n    \"choix\": \"Deux numéros sur le site : 09 87 16 00 70 en pied de page, et un mobile (+33 0663288210) dans l'en-tête. Je retiens le fixe. Les horaires lus sont ceux de la « période hivernale » : la remarque le dit, samedi et dimanche ne sont pas donnés donc absents. Pas de page Untappd trouvée. Aucun type de bière retenu : la page ne donne pas de styles précis.\",\n    \"contact\": {\n      \"tel\": \"09 87 16 00 70\",\n      \"site\": \"https://bieres-linstant.fr/\",\n      \"source\": \"https://bieres-linstant.fr/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [],\n        \"mar\": [],\n        \"mer\": [],\n        \"jeu\": [[\"17:00\", \"22:30\"]],\n        \"ven\": [],\n        \"remarque\": \"Horaires pendant la période hivernale ; la source ne donne pas ceux du reste de l'année ni ceux du samedi et du dimanche.\",\n        \"source\": \"https://bieres-linstant.fr/la-taproom/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:802738146\",\n    \"n\": \"Crazy Hops\",\n    \"c\": \"Vaux-sur-Lunain\",\n    \"adresse\": \"1 rue de la Tuilerie, 77710 Vaux-sur-Lunain\",\n    \"cat\": 1,\n    \"conf\": \"faible\",\n    \"note\": \"Le site de la brasserie annonce une guinguette sur le terrain de la brasserie les vendredis et samedis soir, de début mai à fin septembre. La vente sur place n'est citée que pour une journée portes ouvertes (6 décembre 2025). Aucune vente à emporter courante n'est mentionnée.\",\n    \"src\": \"https://www.crazyhops.fr/\",\n    \"extrait\": \"De début mai à fin septembre, retrouvez la Guiguette des Moutons Fous tout les vendredis et samedis soir\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, pas de vente à emporter courante citée. Téléphone : le pied de page porte deux mobiles, « 07 75 74 30 89 / 06 70 29 54 98 ». Je retiens 06 70 29 54 98, publié aussi par la fiche de l'office de tourisme de Seine-et-Marne ; le 07 75 74 30 89 est celui que la page donne pour la location de tireuses, écarté. Aucun fixe publié : mobile (règle du 21/10). Adresse lue sur la fiche de l'office de tourisme, à rapprocher de SIRENE. Horaires de la guinguette sans heures (« soir » seulement) d'où heures-non-precisees ; rien pour le reste de l'année. Untappd https://untappd.com/CrazyHops : s'ouvre, nomme Crazy Hops à Vaux-sur-Lunain, et le site l'indique ; ni notes ni avis recopiés. Bières (IPA Simple et Funky, Blonde Atomique, Triple, Blanche Yuzu Gingembre…) citées sans page par bière, laissées de côté.\",\n    \"contact\": {\n      \"tel\": \"06 70 29 54 98\",\n      \"site\": \"https://www.crazyhops.fr/\",\n      \"untappd\": \"https://untappd.com/CrazyHops\",\n      \"source\": \"https://www.crazyhops.fr/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"ven\": \"heures-non-precisees\",\n        \"sam\": \"heures-non-precisees\",\n        \"periode\": { \"du\": \"05-01\", \"au\": \"09-30\" },\n        \"remarque\": \"Guinguette Les Moutons Fous, vendredi et samedi soir, de début mai à fin septembre ; les heures ne sont pas données.\",\n        \"source\": \"https://www.crazyhops.fr/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nAucun des deux n'est déjà une fiche de data/breweries.json (recherche sur les cinq noms : seule une bière Merlin « L'instant culture », sans rapport).\n\nSans lecture :\n- sirene:908373681, Microbrasserie du Saule (Villenoy) : le site bieresdusaule.fr répond HTTP 503 (à relancer). Une recherche remonte l'avis de situation SIRENE (https://api-avis-situation-sirene.insee.fr/identification/pdf/82845744000018), non ouvert, via un résumé : entreprise cessée depuis le 01/12/2022, établissement fermé à la même date. Entrepreneur individuel : aucun nom ni SIREN recopié. Pas de fiche proposée ; si l'avis est lu directement, plutôt une note « fermée ».\n- sirene:820331270, Brasserie artisanale Pachamama (La Genevraye) : seule piste, une page Facebook qui n'affiche que la page de connexion. Deux recherches (avec et sans Cugny) ne trouvent ni site, ni office, ni Untappd. Existence non établie.\n- sirene:831136890, Saint Fiacre (Crécy-la-Chapelle) : existe, mais une seule source (article du site de la Région Île-de-France sur les entreprises pendant la crise sanitaire, via un résumé : six bières, plats à emporter), sans adresse, téléphone ni horaires ; le reste, ce sont des annuaires (eat-list.fr) ; site officiel introuvable, et le lien OSM est une page Facebook. Un article seul ne suffit pas (méthode du 19/10, décision #37), catégorie inconnue. À relancer en cherchant un site officiel ou une page Untappd.\n\nQuestions à choix\n1. Crazy Hops a deux mobiles sur son site et aucun fixe.\n   1. Garder 06 70 29 54 98 (aussi sur la fiche de l'office).\n   2. Prendre 07 75 74 30 89 (premier numéro de la page).\n   3. Ne mettre aucun téléphone."
+ },
+ "78-0": {
+  "lus": [
+   {
+    "cle": "sirene:503705006",
+    "n": "Brasserie de la Vallée de Chevreuse",
+    "c": "Le Perray-en-Yvelines",
+    "adresse": "28 Rue du Roseau, 78610 Le Perray-en-Yvelines",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Boutique de la brasserie ouverte aux particuliers, du mardi au vendredi de 16h à 19h (18h en janvier et février). Bières vendues sous la marque Volcelest. Le site ne parle pas de consommation sur place.",
+    "src": "https://www.brasserievolcelest.fr/contact/",
+    "extrait": "Du Mardi au Vendredi de 16h00 à 19h00 (18h00 en Janvier et Février)",
+    "beers": [
+     {
+      "type": "blanche",
+      "libelle": "Regard de biche, mandarine et basilic"
+     },
+     {
+      "type": "blonde",
+      "libelle": "Cerf aux abois"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Sous-bois clairsemé"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Brâme du Cerf"
+     },
+     {
+      "type": "stout",
+      "libelle": "Entre cerfs & loups (imperial stout à la prune)"
+     },
+     {
+      "type": "sans-alcool",
+      "libelle": "Empreinte verte"
+     },
+     {
+      "type": "autre",
+      "libelle": "Pale Ale (La Vie Sauvage)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple (Soif d'évasion)"
+     }
+    ],
+    "choix": "Catégorie 2 : la page contact parle de « OUVERTURE DE LA BOUTIQUE POUR LA VENTE AUX PARTICULIERS » et ne dit rien de la dégustation sur place. Les types de bière viennent de la page d'accueil du même site (via un résumé), pas de la page contact. Le numéro 01 41 40 99 80 vu sur Gault&Millau est celui de l'annuaire, écarté. Pas de page Untappd trouvée. Horaires saisonniers en deux blocs : janvier-février jusqu'à 18h, le reste de l'année jusqu'à 19h.",
+    "contact": {
+     "tel": "09 62 35 27 83",
+     "site": "https://www.brasserievolcelest.fr/",
+     "source": "https://www.brasserievolcelest.fr/contact/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "periode": {
+       "du": "03-01",
+       "au": "12-31"
+      },
+      "source": "https://www.brasserievolcelest.fr/contact/",
+      "verifieLe": "2026-10-29"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "18:00"
+       ]
+      ],
+      "periode": {
+       "du": "01-01",
+       "au": "02-28"
+      },
+      "remarque": "Vente aux particuliers ; horaires pour les professionnels : « Nous contacter ».",
+      "source": "https://www.brasserievolcelest.fr/contact/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:840301055",
+    "n": "La Brasserie du Roi",
+    "c": "Saint-Cyr-l'École",
+    "adresse": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie existante (site officiel : adresse, téléphone, gamme de bières, ateliers de brassage, location de tireuses). Le site ne dit pas si l'on peut acheter ou boire sur place : sa FAQ dit « Vous pouvez acheter nos bières auprès de nos partenaires : cavistes, restaurants, bars, etc. » et des visites avec dégustation « ponctuellement » et « sur réservation ».",
+    "src": "https://labrasserieduroi.com/",
+    "extrait": "75 rue du Docteur Vaillant 78210 Saint-Cyr-l'école",
+    "beers": [
+     {
+      "type": "lager",
+      "libelle": "La Royale (lager à l'orange)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Concubine (blanche IPA)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "L'Impériale (blonde IPA)"
+     },
+     {
+      "type": "autre",
+      "libelle": "Mousquetaires (triple)"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Duchesse (red ale)"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Favorite (blonde pale ale)"
+     }
+    ],
+    "choix": "Deux numéros sur la page : le texte visible « Tél. : 09 83 65 63 85 » et un lien tel: vers un autre numéro (0987360997). Je retiens le numéro visible. Horaires non retenus : « Lun – Sam : 12h à 14h et 18h à 23h30 », « Dim : 12h à 14h » sont rangés sous « le bar restaurant », impossible de dire s'ils valent pour cette adresse ou pour La Ménagerie (autre établissement). Le lien « Boutique » renvoie à la page d'accueil. Catégorie 0 faute de passage clair. Pas de page Untappd trouvée. Le nœud OSM node/8953948114 du candidat n'a pas été vérifié.",
+    "contact": {
+     "tel": "09 83 65 63 85",
+     "site": "https://labrasserieduroi.com/",
+     "source": "https://labrasserieduroi.com/"
+    }
+   }
+  ],
+  "rapport": "Clés de mon paquet n° 0 : sirene:793900473, sirene:840301055, sirene:823426978, sirene:979896842, sirene:503705006. Aucune n'est déjà une fiche de data/breweries.json (recherche des cinq noms : aucun résultat). Toutes mes lectures de pages sont faites \"via un résumé\" (outil de lecture web), pas en direct.\n\n```json\n[\n  {\n    \"cle\": \"sirene:503705006\",\n    \"n\": \"Brasserie de la Vallée de Chevreuse\",\n    \"c\": \"Le Perray-en-Yvelines\",\n    \"adresse\": \"28 Rue du Roseau, 78610 Le Perray-en-Yvelines\",\n    \"cat\": 2,\n    \"conf\": \"solide\",\n    \"note\": \"Boutique de la brasserie ouverte aux particuliers, du mardi au vendredi de 16h à 19h (18h en janvier et février). Bières vendues sous la marque Volcelest. Le site ne parle pas de consommation sur place.\",\n    \"src\": \"https://www.brasserievolcelest.fr/contact/\",\n    \"extrait\": \"Du Mardi au Vendredi de 16h00 à 19h00 (18h00 en Janvier et Février)\",\n    \"beers\": [\n      {\"type\": \"blanche\", \"libelle\": \"Regard de biche, mandarine et basilic\"},\n      {\"type\": \"blonde\", \"libelle\": \"Cerf aux abois\"},\n      {\"type\": \"ambree\", \"libelle\": \"Sous-bois clairsemé\"},\n      {\"type\": \"ipa\", \"libelle\": \"Brâme du Cerf\"},\n      {\"type\": \"stout\", \"libelle\": \"Entre cerfs & loups (imperial stout à la prune)\"},\n      {\"type\": \"sans-alcool\", \"libelle\": \"Empreinte verte\"},\n      {\"type\": \"autre\", \"libelle\": \"Pale Ale (La Vie Sauvage)\"},\n      {\"type\": \"autre\", \"libelle\": \"Triple (Soif d'évasion)\"}\n    ],\n    \"choix\": \"Catégorie 2 : la page contact parle de « OUVERTURE DE LA BOUTIQUE POUR LA VENTE AUX PARTICULIERS » et ne dit rien de la dégustation sur place. Les types de bière viennent de la page d'accueil du même site (via un résumé), pas de la page contact. Le numéro 01 41 40 99 80 vu sur Gault&Millau est celui de l'annuaire, écarté. Pas de page Untappd trouvée. Horaires saisonniers en deux blocs : janvier-février jusqu'à 18h, le reste de l'année jusqu'à 19h.\",\n    \"contact\": {\"tel\": \"09 62 35 27 83\", \"site\": \"https://www.brasserievolcelest.fr/\", \"source\": \"https://www.brasserievolcelest.fr/contact/\"},\n    \"horaires\": [\n      {\"nature\": \"vente\", \"mar\": [[\"16:00\", \"19:00\"]], \"mer\": [[\"16:00\", \"19:00\"]], \"jeu\": [[\"16:00\", \"19:00\"]], \"ven\": [[\"16:00\", \"19:00\"]], \"periode\": {\"du\": \"03-01\", \"au\": \"12-31\"}, \"source\": \"https://www.brasserievolcelest.fr/contact/\", \"verifieLe\": \"2026-10-29\"},\n      {\"nature\": \"vente\", \"mar\": [[\"16:00\", \"18:00\"]], \"mer\": [[\"16:00\", \"18:00\"]], \"jeu\": [[\"16:00\", \"18:00\"]], \"ven\": [[\"16:00\", \"18:00\"]], \"periode\": {\"du\": \"01-01\", \"au\": \"02-28\"}, \"remarque\": \"Vente aux particuliers ; horaires pour les professionnels : « Nous contacter ».\", \"source\": \"https://www.brasserievolcelest.fr/contact/\", \"verifieLe\": \"2026-10-29\"}\n    ]\n  },\n  {\n    \"cle\": \"sirene:840301055\",\n    \"n\": \"La Brasserie du Roi\",\n    \"c\": \"Saint-Cyr-l'École\",\n    \"adresse\": \"75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Brasserie existante (site officiel : adresse, téléphone, gamme de bières, ateliers de brassage, location de tireuses). Le site ne dit pas si l'on peut acheter ou boire sur place : sa FAQ dit « Vous pouvez acheter nos bières auprès de nos partenaires : cavistes, restaurants, bars, etc. » et des visites avec dégustation « ponctuellement » et « sur réservation ».\",\n    \"src\": \"https://labrasserieduroi.com/\",\n    \"extrait\": \"75 rue du Docteur Vaillant 78210 Saint-Cyr-l'école\",\n    \"beers\": [\n      {\"type\": \"lager\", \"libelle\": \"La Royale (lager à l'orange)\"},\n      {\"type\": \"ipa\", \"libelle\": \"Concubine (blanche IPA)\"},\n      {\"type\": \"ipa\", \"libelle\": \"L'Impériale (blonde IPA)\"},\n      {\"type\": \"autre\", \"libelle\": \"Mousquetaires (triple)\"},\n      {\"type\": \"autre\", \"libelle\": \"La Duchesse (red ale)\"},\n      {\"type\": \"autre\", \"libelle\": \"La Favorite (blonde pale ale)\"}\n    ],\n    \"choix\": \"Deux numéros sur la page : le texte visible « Tél. : 09 83 65 63 85 » et un lien tel: vers un autre numéro (0987360997). Je retiens le numéro visible. Horaires non retenus : « Lun – Sam : 12h à 14h et 18h à 23h30 », « Dim : 12h à 14h » sont rangés sous « le bar restaurant », impossible de dire s'ils valent pour cette adresse ou pour La Ménagerie (autre établissement). Le lien « Boutique » renvoie à la page d'accueil. Catégorie 0 faute de passage clair. Pas de page Untappd trouvée. Le nœud OSM node/8953948114 du candidat n'a pas été vérifié.\",\n    \"contact\": {\"tel\": \"09 83 65 63 85\", \"site\": \"https://labrasserieduroi.com/\", \"source\": \"https://labrasserieduroi.com/\"}\n  }\n]\n```\n\n## Candidats sans lecture\n\n- sirene:793900473 Brasserie Distrikt (Maule) : à relancer si on veut insister. Elle existe (annuaires Sluurpy et eat-list, un PDF régional sur le fondateur, fiches de bières sur beertasting) mais je n'ai trouvé ni site officiel (distrikt.fr a renvoyé 503, ce qui ne prouve rien), ni Untappd, ni office de tourisme qui la cite ; eat-list a répondu 403. Annuaires seuls : insuffisant (décision #37). Horaires et téléphone de Sluurpy non repris. Piste : page Facebook ou Google, ou nouvelle tentative sur distrikt.fr.\n- sirene:823426978 La Brasserie Barge (Rambouillet) : seule la fiche d'entreprise Xerfi la mentionne. Pas de site, pas d'Untappd, absente de l'office de tourisme de Rambouillet (qui ne cite que la Brasserie de la Reine). Rien n'établit ce qu'on peut y faire.\n- sirene:979896842 Brasserie Dilettante Arcisienne (Bois-d'Arcy) : introuvable. Seule La Dilettante de Saint-Nolff (Morbihan), autre brasserie, ressort. Aucun site ni réseau."
+ },
+ "91-0": {
+  "lus": [],
+  "rapport": "Clés de mon paquet 0 (`curation/campagne/91-paquets.json`) : `sirene:924943566` (Le Hibou Blond), `personne:1` (Brasserie Morel), `sirene:989267950` (Delaby'ère à la Perrot), `personne:3` (Brasserie Gus), `sirene:810361386` (Inkraft Beer Company).\n\n```json\n[]\n```\n\nAucune lecture n'est établie, pour aucun des cinq candidats. Je n'ai ouvert aucune page de brasserie directement : tout ce qui suit vient de recherches web (« via un résumé »), sauf la page Schlouk Map, lue via WebFetch. Aucun des cinq n'est déjà une fiche de `data/breweries.json` (recherche sur le nom : aucune correspondance).\n\n- `sirene:924943566`, Le Hibou Blond (Villemoisson-sur-Orge) : sans lecture. Deux recherches (nom et commune ; nom et 91360) ne donnent ni site, ni Untappd, ni office de tourisme. Les résultats parlent de Hibou Beers (Belgique) et de restaurants parisiens. À relancer seulement si un site est connu.\n- `personne:1`, Brasserie Morel (Saclas / Chalou-Moulineux) : sans lecture. Une recherche avec les deux communes ne donne que des notices d'inventaire sur une brasserie historique du Pas-de-Calais. Rien n'établit une activité actuelle.\n- `sirene:989267950`, Delaby'ère à la Perrot (Lardy) : sans lecture. Trois recherches (graphies « Delaby'ère » et « Delabyère ») ne donnent rien. La seule entrée est la ligne SIRENE.\n- `personne:3`, Brasserie Gus (Verrières-le-Buisson) : sans lecture. Seul résultat : « Brasserie Verrières (Le Grey) », un restaurant sans rapport établi, et un Gus à Bruxelles. Rien ne montre une brasserie.\n- `sirene:810361386`, Inkraft Beer Company (Saint-Jean-de-Beauregard) : sans lecture, mais c'est le seul candidat qui semble exister.\n  - Pages vues : la fiche Schlouk Map (annuaire) donne « Craft brewery », 5 Grande Rue 91940, un mobile en réservation et le mercredi 15h-17h. Une fiche produit Nicolas.com (caviste en ligne) parle d'une brasserie fondée en 2015.\n  - Pourquoi rien n'est proposé : un annuaire et un revendeur ne suffisent pas (méthode du 19/10, décision #37). Le site officiel ne répond pas : inkraft.fr donne un 503, et inkraft.fr est une adresse que j'ai devinée, non trouvée. Aucune page Untappd n'est trouvée. La page Schlouk Map ne dit rien de la vente à emporter, et son adresse (5 Grande Rue) diffère de celle de SIRENE (Ferme de Villeziers, Grande Rue). Le mobile et les horaires ne sont donc pas repris.\n  - À relancer : le site est en panne (503), donc la cause est peut-être passagère. Pistes : la page Instagram ou Facebook de la marque pour trouver son site, puis une recherche Untappd par noms de bières (La Chiva, Peruvian Craft, Exotic Devil Luca).\n\nAucun texte lu ne contenait de consigne.\n\n**Questions à choix** : aucune."
+ },
+ "91-1": {
+  "lus": [
+   {
+    "cle": "sirene:788908853",
+    "n": "Brasserie Artisanale de Marcoussis",
+    "c": "Marcoussis",
+    "adresse": "50 route d'Orsay, 91460 Marcoussis",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bar et vente sur place aux horaires publiés par la brasserie sur son site.",
+    "src": "https://brasserie-ox.fr/contact",
+    "extrait": "Horaires du bar et de la vente sur place :",
+    "beers": [],
+    "choix": "Pas de types de bière retenus : le site officiel dit seulement « Fabrique de bières bio artisanales ». Les styles (blonde, IPA…) ne sont lus que sur Open Food Facts et Beertasting, pas sur le site, donc écartés. Aucune page Untappd trouvée. Le bloc d'horaires est classé accueil car la source réunit bar et vente sur place. La fermeture estivale « du 11 au 22 août 2026 inclus » est sur la page d'accueil, pas sur la page contact, donc non reprise. L'enseigne SIRENE est OX BIER. Un point OSM « Brasserie de Marcoussis » (node/11987264719) est dans le paquet n° 2 : probable doublon de cette fiche.",
+    "contact": {
+     "tel": "01 69 63 45 54",
+     "site": "https://brasserie-ox.fr/",
+     "source": "https://brasserie-ox.fr/contact"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ],
+       [
+        "15:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://brasserie-ox.fr/contact"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:882589708",
+    "n": "Kings of Nawak Brewery",
+    "c": "Étampes",
+    "adresse": "25 avenue des Grenots, 91150 Étampes",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe et reçoit le vendredi et le samedi de 14 h à 18 h, ou sur rendez-vous ; son site ne dit pas si l'on peut y acheter ou y boire.",
+    "src": "https://www.kingsofnawakbrewery.com",
+    "extrait": "Ou sur rendez-vous au 07.49.86.50.04 ou 06.43.45.28.21",
+    "beers": [],
+    "choix": "Téléphone : le site officiel publie deux mobiles, les seuls numéros de la page. Je retiens le premier, 07 49 86 50 04, qui est aussi celui de l'annuaire jours-de-marche.fr. Le second est 06 43 45 28 21. Aucun fixe publié. Horaires non proposés : le site donne « Vendredi : 14H à 18H » et « Samedi : 14H à 18H » sans dire s'il s'agit d'accueil ou de vente. Catégorie 0 : l'annuaire jours-de-marche.fr dit « Ce producteur vend ses produits sur place » et « du lundi au vendredi de 10h00 à 18h00 », ce qui contredit le site officiel ; un annuaire seul ne suffit pas, donc écarté. Adresse : le site ne la donne pas et situe la brasserie à Bouville, près d'Étampes ; l'adresse vient de SIRENE et de l'annuaire (25 avenue des Grenots, Étampes), à vérifier. Aucune bière retenue : le site n'en liste aucune. Aucune page Untappd trouvée.",
+    "contact": {
+     "tel": "07 49 86 50 04",
+     "site": "https://www.kingsofnawakbrewery.com",
+     "source": "https://www.kingsofnawakbrewery.com"
+    }
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 1) : sirene:788908853 (OX Bier), sirene:828711895 (Brasserie de la Juine), sirene:882589708 (Kings of Nawak Brewery), sirene:897825873 (Brasserie Galilée), sirene:991210873 (Brasserie du Trèfle Doré).\n\nAucune des cinq n'est déjà dans data/breweries.json (recherche sur OX, Juine, Nawak, Galilée, Trèfle, Marcoussis, Ballancourt, Angerville, Marolles : rien).\n\n```json\n[\n  {\n    \"cle\": \"sirene:788908853\",\n    \"n\": \"Brasserie Artisanale de Marcoussis\",\n    \"c\": \"Marcoussis\",\n    \"adresse\": \"50 route d'Orsay, 91460 Marcoussis\",\n    \"cat\": 1,\n    \"conf\": \"solide\",\n    \"note\": \"Bar et vente sur place aux horaires publiés par la brasserie sur son site.\",\n    \"src\": \"https://brasserie-ox.fr/contact\",\n    \"extrait\": \"Horaires du bar et de la vente sur place :\",\n    \"beers\": [],\n    \"choix\": \"Pas de types de bière retenus : le site officiel dit seulement « Fabrique de bières bio artisanales ». Les styles (blonde, IPA…) ne sont lus que sur Open Food Facts et Beertasting, pas sur le site, donc écartés. Aucune page Untappd trouvée. Le bloc d'horaires est classé accueil car la source réunit bar et vente sur place. La fermeture estivale « du 11 au 22 août 2026 inclus » est sur la page d'accueil, pas sur la page contact, donc non reprise. L'enseigne SIRENE est OX BIER. Un point OSM « Brasserie de Marcoussis » (node/11987264719) est dans le paquet n° 2 : probable doublon de cette fiche.\",\n    \"contact\": {\n      \"tel\": \"01 69 63 45 54\",\n      \"site\": \"https://brasserie-ox.fr/\",\n      \"source\": \"https://brasserie-ox.fr/contact\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"mar\": [[\"17:00\", \"19:00\"]],\n        \"mer\": [[\"17:00\", \"19:00\"]],\n        \"jeu\": [[\"17:00\", \"19:00\"]],\n        \"ven\": [[\"17:00\", \"22:00\"]],\n        \"sam\": [[\"10:00\", \"13:00\"], [\"15:00\", \"20:00\"]],\n        \"source\": \"https://brasserie-ox.fr/contact\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:882589708\",\n    \"n\": \"Kings of Nawak Brewery\",\n    \"c\": \"Étampes\",\n    \"adresse\": \"25 avenue des Grenots, 91150 Étampes\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"La brasserie existe et reçoit le vendredi et le samedi de 14 h à 18 h, ou sur rendez-vous ; son site ne dit pas si l'on peut y acheter ou y boire.\",\n    \"src\": \"https://www.kingsofnawakbrewery.com\",\n    \"extrait\": \"Ou sur rendez-vous au 07.49.86.50.04 ou 06.43.45.28.21\",\n    \"beers\": [],\n    \"choix\": \"Téléphone : le site officiel publie deux mobiles, les seuls numéros de la page. Je retiens le premier, 07 49 86 50 04, qui est aussi celui de l'annuaire jours-de-marche.fr. Le second est 06 43 45 28 21. Aucun fixe publié. Horaires non proposés : le site donne « Vendredi : 14H à 18H » et « Samedi : 14H à 18H » sans dire s'il s'agit d'accueil ou de vente. Catégorie 0 : l'annuaire jours-de-marche.fr dit « Ce producteur vend ses produits sur place » et « du lundi au vendredi de 10h00 à 18h00 », ce qui contredit le site officiel ; un annuaire seul ne suffit pas, donc écarté. Adresse : le site ne la donne pas et situe la brasserie à Bouville, près d'Étampes ; l'adresse vient de SIRENE et de l'annuaire (25 avenue des Grenots, Étampes), à vérifier. Aucune bière retenue : le site n'en liste aucune. Aucune page Untappd trouvée.\",\n    \"contact\": {\n      \"tel\": \"07 49 86 50 04\",\n      \"site\": \"https://www.kingsofnawakbrewery.com\",\n      \"source\": \"https://www.kingsofnawakbrewery.com\"\n    }\n  }\n]\n```\n\nMode de lecture : toutes les pages ont été lues par l'outil WebFetch, qui renvoie un résumé produit par un petit modèle, donc « via un résumé » dans les deux cas ; les extraits sont ceux que ce résumé cite entre guillemets.\n- OX : brasserie-ox.fr/contact lue deux fois avec des questions différentes ; mêmes horaires et même numéro. Le numéro est dans la section de l'adresse, pas dans le bloc d'horaires. Nom : « Brasserie Artisanale de Marcoussis » est l'intitulé de la page contact ; les enseignes sont OX Bier (SIRENE) et Brasserie OX.\n- Kings of Nawak : page d'accueil lue deux fois ; mêmes horaires et mêmes mobiles.\n\nSans lecture\n- Brasserie de la Juine (sirene:828711895), à relancer : brasseriedelajuine.fr répond 403, la page officielle n'est pas lisible. Cirkwi (plateforme de tourisme) la situe au 3 bis rue des Bernaches à Ballancourt-sur-Essonne, avec un mobile et les jours « mercredi, vendredi, samedi », sans dire si l'on peut y acheter ou y boire. Rien retenu : un téléphone lu seulement sur un office de tourisme est exclu. Les horaires d'annuaires (118712, mescommerces) diffèrent de ceux de Cirkwi, et une source la place à Janville-sur-Juine. Un bulletin municipal de juin 2026 parlerait d'un brewpub, mais le PDF est illisible via l'outil. Pas d'Untappd trouvé. À relancer avec un accès direct au site officiel ou au texte du bulletin de Ballancourt.\n- Brasserie Galilée (sirene:897825873) : seule une fiche d'entreprise payante (Xerfi : SARL créée en 2021, siège à Angerville) existe. Ni site, ni Untappd, ni office. Deux recherches sans plus. Non établie, pas de relance à attendre.\n- Brasserie du Trèfle Doré (sirene:991210873) : deux recherches sans aucun résultat sur cette brasserie (Untappd compris), seulement SIRENE. Non établie.\n\nQuestions à choix\n1. Kings of Nawak : le site officiel publie deux mobiles et aucun fixe. Lequel garder ? a) 07 49 86 50 04 (retenu dans la proposition) ; b) 06 43 45 28 21 ; c) aucun téléphone.\n2. Kings of Nawak : l'adresse vient de SIRENE et de l'annuaire, alors que le site parle de Bouville. a) Garder Étampes, avenue des Grenots (retenu) ; b) placer la fiche à Bouville ; c) attendre une preuve de l'adresse."
+ },
+ "95-3": {
+  "lus": [],
+  "rapport": "Clés de mon paquet (n° 3, index 3) : node/9719196078 (l'Olivier Café, Moisselles), way/146734234 (Brasserie du Château, Montmorency), way/63796844 (Sapeur Brasseur, Sannois).\n\nAucun des trois n'est déjà une fiche de data/breweries.json (recherche sur Olivier Café, Sapeur, Montmorency, Moisselles, Sannois : rien).\n\n```json\n[]\n```\n\nAucune lecture n'est rendue. Aucune page n'a été lue directement, ni via un résumé, qui établisse l'existence ou l'activité de ces trois lieux. Je n'ai fait que des recherches web, sans rien ouvrir dessus.\n\nCandidats sans lecture :\n- node/9719196078, l'Olivier Café (Moisselles) : introuvable. Deux recherches (« l'Olivier Café Moisselles brasserie bière » et une seconde sur l'Olivier Café) ne donnent que des homonymes ailleurs. Rien ne dit qu'il brasse, et le nom évoque plutôt un café ou un bar. Ni site officiel, ni Untappd, ni office de tourisme trouvés. À relancer seulement si quelqu'un a un site ou une page Facebook à donner.\n- way/146734234, Brasserie du Château (Montmorency, ambigu) : l'établissement du 127 boulevard de Montmorency n'apparaît que dans des annuaires (Cylex, Mapstr, Tripaligner), qui disent « sert de l'alcool, vin et bière ». Rien n'indique qu'il brasse : probablement un restaurant, pas une brasserie. Un annuaire seul ne suffit pas (décision #37). La Brasserie du Château qui brasse sur place est celle de Lausanne, sans rapport. Écartée comme probable restaurant, sans lecture.\n- way/63796844, Sapeur Brasseur (Sannois, site https://www.lesapeurbrasseur.com/) : à relancer. Le site officiel ne se résout pas (ENOTFOUND, avec et sans « www »). Dans cette session cloud, cela veut dire que le domaine lesapeurbrasseur.com n'est pas autorisé dans les réglages réseau, ou qu'il n'existe plus. Il faut l'autoriser pour le lire. Les recherches « Sapeur Brasseur Sannois brasserie », « \"Sapeur Brasseur\" bière artisanale Val-d'Oise » et « untappd Sapeur Brasseur » ne donnent aucune page Untappd, aucun office de tourisme, aucun article. L'existence reste donc non établie, et je n'ai ni téléphone, ni horaires, ni catégorie à proposer.\n\nQuestions à choix :\n1. Autoriser le domaine lesapeurbrasseur.com dans les réglages réseau de la session pour relancer Sapeur Brasseur ?\n   a) oui, puis relance ;\n   b) non, on laisse « à relancer » ;\n   c) vérification à la main par Cédric."
+ },
+ "91-2": {
+  "lus": [],
+  "rapport": "Paquet n° 2 (index 2) du lot dep-91, clés : node/11668938625, node/11987264719, node/13098373138, node/13872612566, node/3515412159.\n\nAucune n'est déjà une fiche de data/breweries.json. Aucune lecture établie, donc le tableau JSON est vide :\n\n[]\n\nSans lecture, une ligne par candidat :\n- node/11668938625 (Mets et Pierre, Orsay) : deux recherches web, aucune page sur ce lieu (ni site, ni Untappd, ni office de tourisme). Existence non établie, on ne sait même pas si c'est une brasserie.\n- node/11987264719 (Brasserie de Marcoussis) : probable doublon du candidat sirene:788908853 (OX BIER, 50 route d'Orsay) du paquet 1. J'ai lu brasserie-ox.fr directement via un résumé de l'outil de lecture : ni adresse, ni téléphone, ni horaires, ni vente à emporter. La dégustation n'y est citée que lors des soirées du vendredi, et Untappd est absent. Catégorie non établie. À traiter avec OX BIER.\n- node/13098373138 (Bories Jarnouen de Villartay, Brunoy) : ressemble à un patronyme. Aucune brasserie de ce nom trouvée, pas de lecture.\n- node/13872612566 (La Brasserie Fondamentale, Brouy) : sources contradictoires. La marque trouvée est parisienne (Le Bar Fondamental à Pigalle), avec une brasserie dans le Loiret (Nangeville) selon des résumés d'annuaires. Je n'ai ouvert aucun site officiel. Rien ne place une brasserie à Brouy (91). À relancer seulement si Cédric veut vérifier le lieu.\n- node/3515412159 (Parisis, Épinay-sous-Sénart) : adresse périmée. J'ai lu directement brasserie-parisis.com via un résumé : la brasserie a déménagé de son site historique d'Epinay-sous-Sénart (91) vers le 3 rue René Dumont, 77380 Combs-la-Ville. La boutique et la taproom y sont ouvertes depuis l'été 2023. Hors du département 91, donc rien proposé. Ni horaires ni Untappd sur la page.\n\nQuestions à choix :\n1. Parisis : (a) écarter le point d'Épinay ; (b) le renvoyer à la campagne du 77 (Combs-la-Ville, catégorie 1 possible d'après le site).\n2. Brasserie de Marcoussis : (a) la rattacher au candidat OX BIER du paquet 1 (une seule fiche) ; (b) les traiter séparément."
+ },
+ "91-3": {
+  "lus": [
+   {
+    "cle": "node/7804876931",
+    "n": "La Bouledogue",
+    "c": "Villebon-sur-Yvette",
+    "adresse": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie indépendante lancée en 2015. Son site dit qu'elle ouvre ses portes aux visiteurs en semaine, mais ne dit pas si l'on peut y acheter ou y boire. Le point OpenStreetMap la place à Saulx-les-Chartreux, le site à Villebon-sur-Yvette.",
+    "src": "http://www.labouledogue.fr/",
+    "extrait": "la brasserie vous ouvre ses portes du lundi au vendredi de 9h à 18h00, sans interruption.",
+    "beers": [],
+    "choix": "Commune : le site officiel donne « 91140 VILLEBON-SUR-YVETTE » et le point OSM (Saulx-les-Chartreux) n'est pas la même commune ; j'ai suivi le site. Les deux communes sont voisines, à toi de dire si la position OSM sert. Catégorie 0 : le site ne parle ni de vente sur place ni de dégustation (« Commander en ligne » via easybeer.shop, livraison), donc je ne classe pas en 1 ou 2. Téléphone : le site publie deux portables, un par fondateur (06 98 98 19 84 et 06 83 11 81 27). Aucun n'est la ligne de la brasserie, donc je n'en retiens aucun. Horaires : le bloc « accueil » ne couvre que lundi à vendredi, comme écrit. Samedi et dimanche restent absents, rien n'est déduit. Untappd : aucune page de la brasserie trouvée, aucun lien sur le site, donc aucun lien proposé. Bières : le site cite Coco Pale Ale, Blonde et DDH Double IPA, mais sans fiche détaillée ni source de dates, donc beers vide. La page easybeer.shop n'a rendu que son titre. Les recherches sur Untappd et le web n'ont rien donné de plus.",
+    "contact": {
+     "site": "http://www.labouledogue.fr/",
+     "source": "http://www.labouledogue.fr/"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Visite de la brasserie, sans interruption.",
+      "source": "http://www.labouledogue.fr/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet n°3 : `node/7804876931` (La Bouledogue) et `node/7859264371` (Le spot).\n\nLa Bouledogue existe, mais elle est à Villebon-sur-Yvette et non à Saulx-les-Chartreux. J'ai lu directement la page du site officiel, sans passer par un résumé. L'outil de lecture me l'a rendue en extraits, et la phrase de l'extrait m'est revenue coupée en deux morceaux.\n\n```json\n[\n  {\n    \"cle\": \"node/7804876931\",\n    \"n\": \"La Bouledogue\",\n    \"c\": \"Villebon-sur-Yvette\",\n    \"adresse\": \"Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette\",\n    \"cat\": 0,\n    \"conf\": \"\",\n    \"note\": \"Brasserie indépendante lancée en 2015. Son site dit qu'elle ouvre ses portes aux visiteurs en semaine, mais ne dit pas si l'on peut y acheter ou y boire. Le point OpenStreetMap la place à Saulx-les-Chartreux, le site à Villebon-sur-Yvette.\",\n    \"src\": \"http://www.labouledogue.fr/\",\n    \"extrait\": \"la brasserie vous ouvre ses portes du lundi au vendredi de 9h à 18h00, sans interruption.\",\n    \"beers\": [],\n    \"choix\": \"Commune : le site officiel donne « 91140 VILLEBON-SUR-YVETTE » et le point OSM (Saulx-les-Chartreux) n'est pas la même commune ; j'ai suivi le site. Les deux communes sont voisines, à toi de dire si la position OSM sert. Catégorie 0 : le site ne parle ni de vente sur place ni de dégustation (« Commander en ligne » via easybeer.shop, livraison), donc je ne classe pas en 1 ou 2. Téléphone : le site publie deux portables, un par fondateur (06 98 98 19 84 et 06 83 11 81 27). Aucun n'est la ligne de la brasserie, donc je n'en retiens aucun. Horaires : le bloc « accueil » ne couvre que lundi à vendredi, comme écrit. Samedi et dimanche restent absents, rien n'est déduit. Untappd : aucune page de la brasserie trouvée, aucun lien sur le site, donc aucun lien proposé. Bières : le site cite Coco Pale Ale, Blonde et DDH Double IPA, mais sans fiche détaillée ni source de dates, donc beers vide. La page easybeer.shop n'a rendu que son titre. Les recherches sur Untappd et le web n'ont rien donné de plus.\",\n    \"contact\": {\n      \"site\": \"http://www.labouledogue.fr/\",\n      \"source\": \"http://www.labouledogue.fr/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"lun\": [[\"09:00\", \"18:00\"]],\n        \"mar\": [[\"09:00\", \"18:00\"]],\n        \"mer\": [[\"09:00\", \"18:00\"]],\n        \"jeu\": [[\"09:00\", \"18:00\"]],\n        \"ven\": [[\"09:00\", \"18:00\"]],\n        \"remarque\": \"Visite de la brasserie, sans interruption.\",\n        \"source\": \"http://www.labouledogue.fr/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\n**Sans lecture**\n- `node/7859264371` (Le spot, Évry-Courcouronnes) : ce n'est pas une brasserie. Le point OSM porte `craft=brewery` mais aussi `operator=CROUS` et `opening_hours=11:30-14:00`, ce qui correspond à une restauration universitaire. J'ai lu les tags via l'API OSM. Deux recherches web n'ont trouvé aucun bar, aucune brasserie ni aucune page Untappd de ce nom à Évry. Le seul « Le Spot » trouvé sur place est un centre commercial. Écarté.\n\n**Questions à choix**\n1. La commune de La Bouledogue :\n   - a. Villebon-sur-Yvette, comme sur le site (ma proposition) ;\n   - b. Saulx-les-Chartreux, comme le point OSM ;\n   - c. ne pas créer la fiche tant que la position n'est pas vérifiée.\n2. Les deux portables des fondateurs, les seuls numéros publiés :\n   - a. n'en garder aucun (ma proposition) ;\n   - b. garder le 06 98 98 19 84 ;\n   - c. garder le 06 83 11 81 27."
+ },
+ "78-5": {
+  "lus": [
+   {
+    "cle": "node/7203823199",
+    "n": "Brasserie Volcelest",
+    "c": "Le Perray-en-Yvelines",
+    "adresse": "28 Rue du Roseau, 78610 Le Perray-en-Yvelines",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique ouverte aux particuliers sur les créneaux publiés par la brasserie ; aucune dégustation ni consommation sur place n'est mentionnée.",
+    "src": "https://www.brasserievolcelest.fr/contact/",
+    "extrait": "HORAIRES D'OUVERTURE DE LA BOUTIQUE POUR LA VENTE AUX PARTICULIERS",
+    "beers": [],
+    "choix": "Même brasserie que la fiche SIRENE sirene:503705006 (28 rue du Roseau, Le Perray) : à fusionner côté paquet 0. Nom d'usage Volcelest ; l'enseigne OSM et Gault&Millau disent « Brasserie de la vallée de Chevreuse ». Téléphone 09 (pas un 08), seul numéro de la page contact du site officiel. Pas d'Untappd retenu : seules des pages de bières individuelles ont été vues, pas la page de la brasserie. Types de bière lus sur le site (blanche, blonde, pale ale, ambrée, triple, IPA, stout...) mais beers laissé vide, faute du format lien par bière. Catégorie 2 : vente en boutique lue, rien sur le sur-place. Un panneau « location tireuse » existe, sans rapport avec un accueil.",
+    "contact": {
+     "tel": "09 62 35 27 83",
+     "site": "https://www.brasserievolcelest.fr/",
+     "source": "https://www.brasserievolcelest.fr/contact/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Jusqu'à 18h00 en janvier et février.",
+      "source": "https://www.brasserievolcelest.fr/contact/"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés de mon paquet (n° 5) : node/7203823199, node/9280921450, way/63158105. Aucune des trois n'est déjà dans data/breweries.json (recherché sur Chevreuse, Volcelest, Véranda, Sporting, Roseau : zéro résultat).\n\n```json\n[\n  {\n    \"cle\": \"node/7203823199\",\n    \"n\": \"Brasserie Volcelest\",\n    \"c\": \"Le Perray-en-Yvelines\",\n    \"adresse\": \"28 Rue du Roseau, 78610 Le Perray-en-Yvelines\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Boutique ouverte aux particuliers sur les créneaux publiés par la brasserie ; aucune dégustation ni consommation sur place n'est mentionnée.\",\n    \"src\": \"https://www.brasserievolcelest.fr/contact/\",\n    \"extrait\": \"HORAIRES D'OUVERTURE DE LA BOUTIQUE POUR LA VENTE AUX PARTICULIERS\",\n    \"beers\": [],\n    \"choix\": \"Même brasserie que la fiche SIRENE sirene:503705006 (28 rue du Roseau, Le Perray) : à fusionner côté paquet 0. Nom d'usage Volcelest ; l'enseigne OSM et Gault&Millau disent « Brasserie de la vallée de Chevreuse ». Téléphone 09 (pas un 08), seul numéro de la page contact du site officiel. Pas d'Untappd retenu : seules des pages de bières individuelles ont été vues, pas la page de la brasserie. Types de bière lus sur le site (blanche, blonde, pale ale, ambrée, triple, IPA, stout...) mais beers laissé vide, faute du format lien par bière. Catégorie 2 : vente en boutique lue, rien sur le sur-place. Un panneau « location tireuse » existe, sans rapport avec un accueil.\",\n    \"contact\": {\n      \"tel\": \"09 62 35 27 83\",\n      \"site\": \"https://www.brasserievolcelest.fr/\",\n      \"source\": \"https://www.brasserievolcelest.fr/contact/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"mar\": [[\"16:00\", \"19:00\"]],\n        \"mer\": [[\"16:00\", \"19:00\"]],\n        \"jeu\": [[\"16:00\", \"19:00\"]],\n        \"ven\": [[\"16:00\", \"19:00\"]],\n        \"remarque\": \"Jusqu'à 18h00 en janvier et février.\",\n        \"source\": \"https://www.brasserievolcelest.fr/contact/\"\n      }\n    ]\n  }\n]\n```\n\n**Mode de lecture.** Toutes les lectures sont « via un résumé » (WebFetch ne rend qu'un résumé). L'`extrait`, le téléphone « 09 62 35 27 83 » (écrit avec espaces) et la phrase des horaires « Du Mardi au Vendredi de 16h00 à 19h00 (18h00 en Janvier et Février) » viennent de la page contact, citée par le résumé. L'orthographe exacte, la casse et la présence des espaces dans le téléphone sont à contrôler avant d'appliquer. Les mots-clés de la page d'accueil (https://www.brasserievolcelest.fr/) ne donnaient ni adresse, ni téléphone, ni horaires.\n\n**Établi sans autre source.** Le site officiel porte l'adresse, le téléphone et les horaires, d'où la confiance « moyenne » (pas de dégustation lue). Rambouillet Tourisme, Gault&Millau et l'annuaire 118712 confirment l'existence et l'adresse. Le 118712 donne les mêmes horaires, mais il n'est pas une source de la fiche.\n\n**Sans lecture :**\n- **node/9280921450, La Véranda (Le Chesnay-Rocquencourt)** : une seule recherche, mais deux angles. Aucun lieu de ce nom n'y est trouvé, ni bière, ni brasserie. Le seul « La Véranda » trouvé est le restaurant-brasserie de l'hôtel Waldorf Astoria Versailles Trianon Palace, à Versailles. Un restaurant d'hôtel n'est pas une brasserie qui brasse. Aucune adresse dans le candidat, aucun site. Écarté.\n- **way/63158105, Le Sporting (Trappes)** : une seule recherche, l'adresse est donnée. Aucun résultat sur Trappes, seulement des homonymes ailleurs en France (Pouilly-en-Auxois, Saint-Tropez, Le Mans). Pas de site ni d'Untappd trouvé, rien qui dise que ce lieu brasse. Probablement un bar ou une brasserie au sens « restaurant », non établi. Écarté, sans « à relancer » : l'information n'existe pas en ligne.\n\nRien n'a été modifié dans le dépôt. Les pages lues ne contenaient aucune instruction à signaler."
+ },
+ "95-2": {
+  "lus": [
+   {
+    "cle": "node/10287680510",
+    "n": "Brasserie d'Orville",
+    "c": "Louvres",
+    "adresse": "29 rue de Paris, 95380 Louvres",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie à la ferme, avec bar et restaurant sur place : le site dit qu'on y déguste une bière « au comptoir ou dans le jardin ». Il ne parle d'aucune vente à emporter sur place : les bouteilles se commandent dans la boutique en ligne (livraison). Classée « acheter et consommer sur place » par défaut, sans preuve de la vente sur place : appelez avant de venir pour acheter.",
+    "src": "https://brasseriedorville.com",
+    "extrait": "déguster une bière locale au comptoir ou dans le jardin",
+    "beers": [],
+    "choix": "Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on boit sur place et ne dit rien de la vente à emporter. Pas de lien Untappd : le site n'en porte pas, et la recherche n'a trouvé que des pages de bières (« Back in Black », « Onacommed'habpasfoutugrandgose »), aucune page de la brasserie. Les types de bière lus sur le site (lager, APA, white IPA, triple, berliner weisse) ne sont pas repris : `beers` reste vide. Horaires : ceux du « bar et resto » (nature accueil), lus sur la page d'accueil. L'office de tourisme Grand Roissy n'a pas pu être lu (404).",
+    "contact": {
+     "tel": "01 85 52 11 11",
+     "site": "https://brasseriedorville.com",
+     "source": "https://brasseriedorville.com"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "16:00",
+        "00:00"
+       ]
+      ],
+      "remarque": "Horaires du bar et du restaurant ; fermé le lundi et le dimanche.",
+      "source": "https://brasseriedorville.com",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   {
+    "cle": "sirene:433674967",
+    "n": "Ferme Brasserie du Vexin",
+    "c": "Théméricourt",
+    "adresse": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Ferme-brasserie dont la boutique est ouverte le samedi et le dimanche. Le site dit qu'on n'y fait que de la vente à emporter « dans le contexte actuel » et que les dégustations ne sont pas possibles : formule peut-être ancienne, à confirmer par téléphone.",
+    "src": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+    "extrait": "Dans le contexte actuel, nous ne faisons que de la vente à emporter,",
+    "beers": [],
+    "choix": "Téléphone : la page contact donne « 01 30 39 24 43 » (étiqueté « téléphone fax ») et un portable « 07 86 31 81 44 (plus simple et plus rapide) ». Je retiens le portable, que la brasserie met en avant pour la joindre ; le fixe est ambigu (fax ?). Cédric peut préférer le fixe. Horaires : bloc vente samedi et dimanche 10h30-12h30 et 14h30-18h, fermé les jours fériés (remarque). La fermeture du dimanche 1er novembre 2026 est dite sur la page, non reprise dans les créneaux. Pas de lien Untappd (aucun sur le site, aucun trouvé). Bières lues (blonde, blanche, ambrée, brune, Véliocasse au miel, Vexin IPA) non reprises : `beers` vide. Le brassage à la ferme n'est pas dit en toutes lettres sur la page de présentation (texte de remplissage) : il ressort du nom et des titres du site (« ferme brasserie du vexin », « du champ à la chope »).",
+    "contact": {
+     "tel": "07 86 31 81 44",
+     "site": "https://biere-du-vexin.com",
+     "source": "https://biere-du-vexin.com/contact/"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "remarque": "Samedi et dimanche uniquement ; fermé les jours fériés, même un week-end (fermeture annoncée le dimanche 1er novembre).",
+      "source": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "rapport": "Clés du paquet n° 2 : sirene:944776392 (HAKE BREW), sirene:917874539 (FRANCS BUVEURS), sirene:800191124 (HESPEBAY), sirene:433674967 (FERME BRASSERIE DU VEXIN), node/10287680510 (Brasserie d'Orville). Aucune n'est déjà dans data/breweries.json (recherche sur les noms : rien, hors un « Shake! » sans rapport).\n\nLectures : pages ouvertes avec l'outil de lecture web, qui renvoie un résumé avec des citations. Chaque lecture est donc « via un résumé ». Les horaires des deux fiches ont été relus deux fois, avec le même résultat.\n\n```json\n[\n  {\n    \"cle\": \"node/10287680510\",\n    \"n\": \"Brasserie d'Orville\",\n    \"c\": \"Louvres\",\n    \"adresse\": \"29 rue de Paris, 95380 Louvres\",\n    \"cat\": 1,\n    \"conf\": \"faible\",\n    \"note\": \"Brasserie à la ferme, avec bar et restaurant sur place : le site dit qu'on y déguste une bière « au comptoir ou dans le jardin ». Il ne parle d'aucune vente à emporter sur place : les bouteilles se commandent dans la boutique en ligne (livraison). Classée « acheter et consommer sur place » par défaut, sans preuve de la vente sur place : appelez avant de venir pour acheter.\",\n    \"src\": \"https://brasseriedorville.com\",\n    \"extrait\": \"déguster une bière locale au comptoir ou dans le jardin\",\n    \"beers\": [],\n    \"choix\": \"Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on boit sur place et ne dit rien de la vente à emporter. Pas de lien Untappd : le site n'en porte pas, et la recherche n'a trouvé que des pages de bières (« Back in Black », « Onacommed'habpasfoutugrandgose »), aucune page de la brasserie. Les types de bière lus sur le site (lager, APA, white IPA, triple, berliner weisse) ne sont pas repris : `beers` reste vide. Horaires : ceux du « bar et resto » (nature accueil), lus sur la page d'accueil. L'office de tourisme Grand Roissy n'a pas pu être lu (404).\",\n    \"contact\": {\n      \"tel\": \"01 85 52 11 11\",\n      \"site\": \"https://brasseriedorville.com\",\n      \"source\": \"https://brasseriedorville.com\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"accueil\",\n        \"mar\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"mer\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"jeu\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"ven\": [[\"12:00\", \"14:00\"], [\"17:00\", \"23:00\"]],\n        \"sam\": [[\"12:00\", \"14:00\"], [\"16:00\", \"00:00\"]],\n        \"remarque\": \"Horaires du bar et du restaurant ; fermé le lundi et le dimanche.\",\n        \"source\": \"https://brasseriedorville.com\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  },\n  {\n    \"cle\": \"sirene:433674967\",\n    \"n\": \"Ferme Brasserie du Vexin\",\n    \"c\": \"Théméricourt\",\n    \"adresse\": \"3 rue de la Croix des Ruelles, 95450 Théméricourt\",\n    \"cat\": 2,\n    \"conf\": \"moyenne\",\n    \"note\": \"Ferme-brasserie dont la boutique est ouverte le samedi et le dimanche. Le site dit qu'on n'y fait que de la vente à emporter « dans le contexte actuel » et que les dégustations ne sont pas possibles : formule peut-être ancienne, à confirmer par téléphone.\",\n    \"src\": \"https://biere-du-vexin.com/la-boutique-les-horaires/\",\n    \"extrait\": \"Dans le contexte actuel, nous ne faisons que de la vente à emporter,\",\n    \"beers\": [],\n    \"choix\": \"Téléphone : la page contact donne « 01 30 39 24 43 » (étiqueté « téléphone fax ») et un portable « 07 86 31 81 44 (plus simple et plus rapide) ». Je retiens le portable, que la brasserie met en avant pour la joindre ; le fixe est ambigu (fax ?). Cédric peut préférer le fixe. Horaires : bloc vente samedi et dimanche 10h30-12h30 et 14h30-18h, fermé les jours fériés (remarque). La fermeture du dimanche 1er novembre 2026 est dite sur la page, non reprise dans les créneaux. Pas de lien Untappd (aucun sur le site, aucun trouvé). Bières lues (blonde, blanche, ambrée, brune, Véliocasse au miel, Vexin IPA) non reprises : `beers` vide. Le brassage à la ferme n'est pas dit en toutes lettres sur la page de présentation (texte de remplissage) : il ressort du nom et des titres du site (« ferme brasserie du vexin », « du champ à la chope »).\",\n    \"contact\": {\n      \"tel\": \"07 86 31 81 44\",\n      \"site\": \"https://biere-du-vexin.com\",\n      \"source\": \"https://biere-du-vexin.com/contact/\"\n    },\n    \"horaires\": [\n      {\n        \"nature\": \"vente\",\n        \"sam\": [[\"10:30\", \"12:30\"], [\"14:30\", \"18:00\"]],\n        \"dim\": [[\"10:30\", \"12:30\"], [\"14:30\", \"18:00\"]],\n        \"remarque\": \"Samedi et dimanche uniquement ; fermé les jours fériés, même un week-end (fermeture annoncée le dimanche 1er novembre).\",\n        \"source\": \"https://biere-du-vexin.com/la-boutique-les-horaires/\",\n        \"verifieLe\": \"2026-10-29\"\n      }\n    ]\n  }\n]\n```\n\nSans lecture :\n- sirene:944776392, HAKE BREW (Cergy) : deux recherches web (nom seul, nom avec Untappd/Instagram/Facebook) ne donnent aucune page de ce nom : ni site, ni Untappd, ni office de tourisme. Existence non établie, rien n'est proposé.\n- sirene:917874539, FRANCS BUVEURS (Bernes-sur-Oise) : deux recherches (commune, département) ne trouvent aucune source sur ce nom. Rien n'est proposé.\n- sirene:800191124, HESPEBAY (Groslay) : les recherches ne trouvent que des bières de cette marque vendues par un caviste (Brume Kong, Dada Dorée), décrites comme « importée et distribuée en France par LMDW », et une page Untappd de la bière « Monster Pineau » (pas de page de brasserie). Aucun site officiel ni lieu à Groslay établi. hespebay.com ne se résout pas depuis cette session : à autoriser dans les réglages réseau si on veut le retenter. À relancer seulement avec ce domaine autorisé.\n\nAucune instruction n'a été trouvée dans les pages lues. Une réponse de l'outil de lecture a signalé que mes propres consignes de recopie figuraient dans la page ; je l'ai prise pour une donnée.\n\nQuestions à choix\n1. Ferme Brasserie du Vexin, quel téléphone garder ? a) le portable 07 86 31 81 44, que la brasserie dit « plus simple et plus rapide » (proposé) ; b) le fixe 01 30 39 24 43, étiqueté « fax » ; c) aucun.\n2. Ferme Brasserie du Vexin, la formule « dans le contexte actuel, que de la vente à emporter » est-elle encore valable ? a) catégorie 2 en confiance moyenne (proposé) ; b) catégorie 0 jusqu'à confirmation par téléphone."
+ }
+}

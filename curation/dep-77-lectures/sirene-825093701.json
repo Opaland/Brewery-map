@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:825093701",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Rabourdin",
+   "c": "Courpalay",
+   "d": "77",
+   "lat": 48.65062,
+   "lon": 2.95668,
+   "km": 357.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel annonce un magasin ouvert du mardi au samedi, sans dire ce qu'on y achète ni si l'on peut boire sur place.",
+   "addr": "22 rue Lafayette, 77540 Courpalay",
+   "src": "https://www.brasserierabourdin.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserierabourdin.com/",
+     "mar": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserierabourdin.com/",
+   "https://data.geopf.fr/geocodage/search?q=22+rue+Lafayette%2C+77540+Courpalay&limit=5"
+  ],
+  "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+  "choix": "Deux numéros sur la page : « + 33 7 77 99 54 49 » en tête de page, et « + 33 1 64 25 76 05 » dans le bloc contact, avec l'adresse et le mail de la brasserie. Je retiens le fixe, listé sous « téléphone ». Je n'écris pas le mobile. Les bières lues sont La Briarde, La Bière de Brie et La Terrano, sans style indiqué : beers vide. La page propose aussi « réserver une tireuse » et des visites de groupe (plus de 15 personnes), sans en dire plus. Pas de page Untappd trouvée de la brasserie : le seul résultat Untappd est une collaboration brassée par un autre. Source rouverte à la main le 29/10. Téléphone non repris : écrit « + 33 » sur la page, l'outil de contrôle ne le relit pas."
+ }
+}

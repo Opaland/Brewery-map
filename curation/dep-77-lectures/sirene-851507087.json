@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:851507087",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Grottes",
+   "c": "Boissise-la-Bertrand",
+   "d": "77",
+   "lat": 48.53605,
+   "lon": 2.56224,
+   "km": 358.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale installée dans une ancienne carrière au bord de la Seine. L'office de tourisme annonce une dégustation sur place, une boutique et la possibilité de repartir avec quelques bouteilles. Ouverte le vendredi soir et le samedi après-midi.",
+   "addr": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+   "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+   "https://data.geopf.fr/geocodage/search?q=1806+rue+de+Seine%2C+77350+Boissise-la-Bertrand&limit=5"
+  ],
+  "extrait": "Au bord de la Seine, une brasserie artisanale étonnante vous invite à découvrir des bières locales brassées sous terre.",
+  "choix": "Source d'office de tourisme seul (confiance au plus moyenne). La page parle d'une « Boutique » et de « quelques bouteilles en souvenir » sans dire explicitement « vente à emporter » : catégorie 1 à confiance moyenne, à Cédric de trancher. Aucun téléphone retenu : le seul numéro lu (01 64 52 64 52) est celui de l'office de tourisme. Aucun site officiel trouvé, seulement une page Facebook (https://www.facebook.com/brasseriedesgrottes/), illisible sans connexion, donc non retenue. Pas de page Untappd trouvée, donc pas de bières. Existence appuyée aussi par le registre SIRENE (code 11.05Z, source du candidat). Horaires de l'office non saisis. Source rouverte à la main le 29/10."
+ }
+}

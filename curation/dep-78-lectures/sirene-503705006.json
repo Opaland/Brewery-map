@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:503705006",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Vallée de Chevreuse",
+   "c": "Le Perray-en-Yvelines",
+   "d": "78",
+   "lat": 48.6954,
+   "lon": 1.8411,
+   "km": 401.6,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Boutique de la brasserie ouverte aux particuliers, du mardi au vendredi de 16h à 19h (18h en janvier et février). Bières vendues sous la marque Volcelest. Le site ne parle pas de consommation sur place.",
+   "addr": "28 Rue du Roseau, 78610 Le Perray-en-Yvelines",
+   "src": "https://www.brasserievolcelest.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 62 35 27 83",
+    "site": "https://www.brasserievolcelest.fr/",
+    "source": "https://www.brasserievolcelest.fr/contact/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserievolcelest.fr/contact/",
+     "mar": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Jusqu'à 18h00 en janvier et février.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasserievolcelest.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=28+Rue+du+Roseau%2C+78610+Le+Perray-en-Yvelines&limit=5"
+  ],
+  "extrait": "Du Mardi au Vendredi de 16h00 à 19h00 (18h00 en Janvier et Février)",
+  "choix": "Catégorie 2 : la page contact parle de « OUVERTURE DE LA BOUTIQUE POUR LA VENTE AUX PARTICULIERS » et ne dit rien de la dégustation sur place. Les types de bière viennent de la page d'accueil du même site (via un résumé), pas de la page contact. Le numéro 01 41 40 99 80 vu sur Gault&Millau est celui de l'annuaire, écarté. Pas de page Untappd trouvée. Horaires saisonniers en deux blocs : janvier-février jusqu'à 18h, le reste de l'année jusqu'à 19h. Types de bière non repris : lus sur le site, pas sur Untappd (docs/DONNEES.md). Source rouverte à la main le 29/10. Horaires ramenés à un bloc, la fermeture à 18h de janvier et février en remarque."
+ }
+}

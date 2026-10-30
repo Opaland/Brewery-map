@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:753691773",
+ "ajout": {
+  "fiche": {
+   "n": "La P'tite Sœur",
+   "c": "Sartrouville",
+   "d": "78",
+   "lat": 48.93235,
+   "lon": 2.14869,
+   "km": 412.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie à Sartrouville (SIRENE : Les Brasseurs du Val de Seine, même adresse). Le site de l'office de tourisme Seine-Saint-Germain, repris par Destination Yvelines, cite la boutique avec vente directe et dégustation le vendredi et le samedi. Les horaires du site de la brasserie (Le Relais, jeudi à samedi en soirée) diffèrent de ceux de l'office : aucun horaire retenu.",
+   "addr": "165 avenue de la République, 78500 Sartrouville",
+   "src": "https://www.destination-yvelines.fr/en/farms-pick-your-own-and-gourmet-shops/la-ptite-soeur-2",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 28 40 12 52",
+    "site": "http://www.laptitesoeur.com/",
+    "source": "http://www.laptitesoeur.com/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.destination-yvelines.fr/en/farms-pick-your-own-and-gourmet-shops/la-ptite-soeur-2",
+   "http://www.laptitesoeur.com/",
+   "https://data.geopf.fr/geocodage/search?q=165+avenue+de+la+R%C3%A9publique%2C+78500+Sartrouville&limit=5"
+  ],
+  "extrait": "tasting session, brewery tour and direct sales",
+  "choix": "Lecture faite via un résumé de la page (WebFetch), pas en direct : l'extrait est la citation que ce résumé donne, à reverifier. Confiance moyenne : la vente et la dégustation viennent d'une page d'office (en anglais), et le site officiel, lu aussi via un résumé, ne parle que de l'espace Le Relais (événements, dégustations) sans dire explicitement qu'on achète à emporter. Téléphone : le site officiel publie un seul numéro, un mobile (06 28 40 12 52), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Écarté : 01 75 93 77 29, vu dans un résumé de recherche attribué à des pages d'office, non confirmé sur le site de la brasserie ; 01 30 09 39 89, qui est l'office de tourisme. Horaires non proposés : le site officiel annonce jeudi et vendredi 17h-21h, samedi 14h-21h (Le Relais) ; l'office annonce vendredi 14h-19h, samedi 11h-19h (boutique) ; contradictoires. Aucune page Untappd trouvée, aucune bière listée. Le site de Sartrouville (SIRENE) porte l'enseigne « Les Brasseurs du Val de Seine » ; le nom d'usage retenu est La P'tite Sœur, d'après le site officiel. Source rouverte à la main le 29/10."
+ }
+}

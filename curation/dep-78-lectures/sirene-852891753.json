@@ -1,0 +1,58 @@
+{
+ "candidat": "sirene:852891753",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Voisine",
+   "c": "Villiers-Saint-Frédéric",
+   "d": "78",
+   "lat": 48.81558,
+   "lon": 1.87868,
+   "km": 411.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale bio avec une boutique ouverte trois demi-journées par semaine. Le site mentionne une guinguette les vendredis soir, sans dire ce qu'on y consomme.",
+   "addr": "13 rue de la Gare, 78640 Villiers-Saint-Frédéric",
+   "src": "https://brasserielavoisine.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 77 32 84",
+    "site": "https://brasserielavoisine.com",
+    "source": "https://brasserielavoisine.com",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserielavoisine.com",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasserielavoisine.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+de+la+Gare%2C+78640+Villiers-Saint-Fr%C3%A9d%C3%A9ric&limit=5"
+  ],
+  "extrait": "Jeudi & vendredi 16h – 19h",
+  "choix": "Lu via un résumé de WebFetch. Le site dit seulement qu'une boutique existe, avec ses horaires, et qu'on peut commander en ligne. Rien sur la dégustation sur place. La guinguette est citée sans détail : catégorie 2 plutôt que 1, faute de lecture. Téléphone 06 84 77 32 84 : un mobile, mais la seule ligne publiée par la brasserie (règle du 21/10). Je n'ai trouvé aucune page Untappd. Le site ne cite aucun nom ni style de bière : beers reste vide. Source rouverte à la main le 29/10."
+ }
+}

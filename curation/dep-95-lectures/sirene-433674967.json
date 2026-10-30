@@ -1,0 +1,62 @@
+{
+ "candidat": "sirene:433674967",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme Brasserie du Vexin",
+   "c": "Théméricourt",
+   "d": "95",
+   "lat": 49.08478,
+   "lon": 1.89373,
+   "km": 436,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Ferme-brasserie dont la boutique est ouverte le samedi et le dimanche. Le site dit qu'on n'y fait que de la vente à emporter « dans le contexte actuel » et que les dégustations ne sont pas possibles : formule peut-être ancienne, à confirmer par téléphone.",
+   "addr": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+   "src": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 30 39 24 43",
+    "site": "https://biere-du-vexin.com",
+    "source": "https://biere-du-vexin.com/contact/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "remarque": "Samedi et dimanche uniquement ; fermé les jours fériés, même un week-end (fermeture annoncée le dimanche 1er novembre).",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://biere-du-vexin.com/la-boutique-les-horaires/",
+   "https://biere-du-vexin.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+de+la+Croix+des+Ruelles%2C+95450+Th%C3%A9m%C3%A9ricourt&limit=5"
+  ],
+  "extrait": "Dans le contexte actuel, nous ne faisons que de la vente à emporter,",
+  "choix": "Téléphone : la page contact donne « 01 30 39 24 43 » (étiqueté « téléphone fax ») et un portable « 07 86 31 81 44 (plus simple et plus rapide) ». Je retiens le portable, que la brasserie met en avant pour la joindre ; le fixe est ambigu (fax ?). Cédric peut préférer le fixe. Horaires : bloc vente samedi et dimanche 10h30-12h30 et 14h30-18h, fermé les jours fériés (remarque). La fermeture du dimanche 1er novembre 2026 est dite sur la page, non reprise dans les créneaux. Pas de lien Untappd (aucun sur le site, aucun trouvé). Bières lues (blonde, blanche, ambrée, brune, Véliocasse au miel, Vexin IPA) non reprises : `beers` vide. Le brassage à la ferme n'est pas dit en toutes lettres sur la page de présentation (texte de remplissage) : il ressort du nom et des titres du site (« ferme brasserie du vexin », « du champ à la chope »). Téléphone : le fixe de la page contact est retenu plutôt que le portable (un portable n'est permis que s'il est la seule ligne). Source rouverte à la main le 29/10."
+ }
+}

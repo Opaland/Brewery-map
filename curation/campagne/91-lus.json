@@ -1,0 +1,114 @@
+[
+  {
+    "cle": "sirene:788908853",
+    "n": "Brasserie Artisanale de Marcoussis",
+    "c": "Marcoussis",
+    "adresse": "50 route d'Orsay, 91460 Marcoussis",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bar et vente sur place aux horaires publiés par la brasserie sur son site.",
+    "src": "https://brasserie-ox.fr/contact",
+    "extrait": "Horaires du bar et de la vente sur place :",
+    "beers": [],
+    "choix": "Pas de types de bière retenus : le site officiel dit seulement « Fabrique de bières bio artisanales ». Les styles (blonde, IPA…) ne sont lus que sur Open Food Facts et Beertasting, pas sur le site, donc écartés. Aucune page Untappd trouvée. Le bloc d'horaires est classé accueil car la source réunit bar et vente sur place. La fermeture estivale « du 11 au 22 août 2026 inclus » est sur la page d'accueil, pas sur la page contact, donc non reprise. L'enseigne SIRENE est OX BIER. Un point OSM « Brasserie de Marcoussis » (node/11987264719) est dans le paquet n° 2 : probable doublon de cette fiche. Source rouverte à la main le 29/10.",
+    "contact": {
+      "tel": "01 69 63 45 54",
+      "site": "https://brasserie-ox.fr/",
+      "source": "https://brasserie-ox.fr/contact"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "13:00"
+          ],
+          [
+            "15:00",
+            "20:00"
+          ]
+        ],
+        "source": "https://brasserie-ox.fr/contact"
+      }
+    ]
+  },
+  {
+    "cle": "node/7804876931",
+    "n": "La Bouledogue",
+    "c": "Villebon-sur-Yvette",
+    "adresse": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie indépendante lancée en 2015. Son site dit qu'elle ouvre ses portes aux visiteurs en semaine, mais ne dit pas si l'on peut y acheter ou y boire. Le point OpenStreetMap la place à Saulx-les-Chartreux, le site à Villebon-sur-Yvette.",
+    "src": "http://www.labouledogue.fr/",
+    "extrait": "la brasserie vous ouvre ses portes du lundi au vendredi de 9h à 18h00",
+    "beers": [],
+    "choix": "Commune : le site officiel donne « 91140 VILLEBON-SUR-YVETTE » et le point OSM (Saulx-les-Chartreux) n'est pas la même commune ; j'ai suivi le site. Les deux communes sont voisines, à toi de dire si la position OSM sert. Catégorie 0 : le site ne parle ni de vente sur place ni de dégustation (« Commander en ligne » via easybeer.shop, livraison), donc je ne classe pas en 1 ou 2. Téléphone : le site publie deux portables, un par fondateur (06 98 98 19 84 et 06 83 11 81 27). Aucun n'est la ligne de la brasserie, donc je n'en retiens aucun. Horaires : le bloc « accueil » ne couvre que lundi à vendredi, comme écrit. Samedi et dimanche restent absents, rien n'est déduit. Untappd : aucune page de la brasserie trouvée, aucun lien sur le site, donc aucun lien proposé. Bières : le site cite Coco Pale Ale, Blonde et DDH Double IPA, mais sans fiche détaillée ni source de dates, donc beers vide. La page easybeer.shop n'a rendu que son titre. Les recherches sur Untappd et le web n'ont rien donné de plus. Source rouverte à la main le 29/10.",
+    "contact": {
+      "site": "http://www.labouledogue.fr/",
+      "source": "http://www.labouledogue.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "remarque": "Visite de la brasserie, sans interruption.",
+        "source": "http://www.labouledogue.fr/"
+      }
+    ]
+  }
+]

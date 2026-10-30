@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:810362798",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Meaux",
+   "c": "Meaux",
+   "d": "77",
+   "lat": 48.95853,
+   "lon": 2.90771,
+   "km": 390.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale ; boutique et vente directe à la brasserie le vendredi et le samedi matin, click & collect ; visites guidées avec dégustation, d'après l'office de tourisme de Seine-et-Marne. Pas de consommation sur place hors visite.",
+   "addr": "11 rue des Buttes Blanches, 77100 Meaux",
+   "src": "https://www.brasseriedemeaux.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 51 38 33 01",
+    "site": "https://www.brasseriedemeaux.com/",
+    "source": "https://www.brasseriedemeaux.com/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriedemeaux.com/",
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:30"
+      ]
+     ],
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://www.brasseriedemeaux.com/",
+   "https://data.geopf.fr/geocodage/search?q=11+rue+des+Buttes+Blanches%2C+77100+Meaux&limit=5"
+  ],
+  "extrait": "le vendredi de 14h à 18h et le samedi de 9h30 à 12h30",
+  "choix": "Pages lues via un résumé (site officiel et office de tourisme). Téléphone : le seul publié par la brasserie sur son site est un portable (06 51 38 33 01), retenu comme seule ligne publiée (règle du 21/10) ; l'office de tourisme ne le publie qu'en lien tel:, non utilisé comme source. Horaires de vente : ceux du site officiel (ven 14h-18h, sam 9h30-12h30) ; l'office de tourisme et 118712 donnent aussi le samedi après-midi en mars-décembre (14h-18h), non repris car contradictoires avec le site officiel. Catégorie 2 et non 1 : la dégustation n'est décrite que pendant les visites. Bières du site : blanche, blonde, ambrée, brune, triple au miel, IPA, rouge, d'hiver, de Noël ; non recopiées en beers, format à ta décision. Untappd : non trouvé. Source rouverte à la main le 29/10."
+ }
+}

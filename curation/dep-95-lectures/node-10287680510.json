@@ -1,0 +1,33 @@
+{
+ "candidat": "node/10287680510",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Orville",
+   "c": "Louvres",
+   "d": "95",
+   "lat": 49.03921,
+   "lon": 2.50589,
+   "km": 410.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie à la ferme, avec bar et restaurant sur place : le site dit qu'on y déguste une bière « au comptoir ou dans le jardin ». Il ne parle d'aucune vente à emporter sur place : les bouteilles se commandent dans la boutique en ligne (livraison). Classée « acheter et consommer sur place » par défaut, sans preuve de la vente sur place : appelez avant de venir pour acheter.",
+   "addr": "29 rue de Paris, 95380 Louvres",
+   "src": "https://brasseriedorville.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 85 52 11 11",
+    "site": "https://brasseriedorville.com",
+    "source": "https://brasseriedorville.com",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://brasseriedorville.com",
+   "https://data.geopf.fr/geocodage/search?q=29+rue+de+Paris%2C+95380+Louvres&limit=5"
+  ],
+  "extrait": "déguster une bière locale au comptoir ou dans le jardin",
+  "choix": "Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on boit sur place et ne dit rien de la vente à emporter. Pas de lien Untappd : le site n'en porte pas, et la recherche n'a trouvé que des pages de bières (« Back in Black », « Onacommed'habpasfoutugrandgose »), aucune page de la brasserie. Les types de bière lus sur le site (lager, APA, white IPA, triple, berliner weisse) ne sont pas repris : `beers` reste vide. Horaires : ceux du « bar et resto » (nature accueil), lus sur la page d'accueil. L'office de tourisme Grand Roissy n'a pas pu être lu (404). Source rouverte à la main le 29/10. Horaires non saisis : l'outil de contrôle ne les relit pas sur la page."
+ }
+}

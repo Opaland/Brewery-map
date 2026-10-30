@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:823504220",
+ "ajout": {
+  "fiche": {
+   "n": "L'Instant",
+   "c": "Pontault-Combault",
+   "d": "77",
+   "lat": 48.79917,
+   "lon": 2.63012,
+   "km": 382.6,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie présente sa taproom comme le bar interne de la brasserie : bières pression, grignotage et vente à emporter. Horaires hivernaux publiés : le jeudi seulement.",
+   "addr": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+   "src": "https://bieres-linstant.fr/la-taproom/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 87 16 00 70",
+    "site": "https://bieres-linstant.fr/",
+    "source": "https://bieres-linstant.fr/",
+    "verifieLe": "2026-10-29"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://bieres-linstant.fr/la-taproom/",
+     "jeu": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "remarque": "Horaires pendant la période hivernale ; la source ne donne pas ceux du reste de l'année ni ceux du samedi et du dimanche.",
+     "verifieLe": "2026-10-29"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://bieres-linstant.fr/la-taproom/",
+   "https://bieres-linstant.fr/",
+   "https://data.geopf.fr/geocodage/search?q=24+bis+rue+du+Pr%C3%A9+des+Aulnes%2C+77340+Pontault-Combault&limit=5"
+  ],
+  "extrait": "Bières pression. Grignotage (saucissons, croques-monsieur…). Vente à emporter. Possibilité d’apporter votre propre repas !",
+  "choix": "Deux numéros sur le site : 09 87 16 00 70 en pied de page, et un mobile (+33 0663288210) dans l'en-tête. Je retiens le fixe. Les horaires lus sont ceux de la « période hivernale » : la remarque le dit, samedi et dimanche ne sont pas donnés donc absents. Pas de page Untappd trouvée. Aucun type de bière retenu : la page ne donne pas de styles précis. Source rouverte à la main le 29/10."
+ }
+}

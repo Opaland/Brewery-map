@@ -1,0 +1,33 @@
+{
+ "candidat": "node/12327046734",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Roi",
+   "c": "Saint-Cyr-l'École",
+   "d": "78",
+   "lat": 48.81158,
+   "lon": 2.07736,
+   "km": 403.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie avec bar (La Ménagerie, bières brassées sur place) et vente en boutique, d'après le site officiel. Le site ne dit pas explicitement si la dégustation et la vente à emporter se font aux horaires indiqués.",
+   "addr": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+   "src": "https://labrasserieduroi.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 83 65 63 85",
+    "site": "https://labrasserieduroi.com/",
+    "source": "https://labrasserieduroi.com/",
+    "verifieLe": "2026-10-29"
+   }
+  },
+  "verifieLe": "2026-10-29",
+  "sources": [
+   "https://labrasserieduroi.com/",
+   "https://data.geopf.fr/geocodage/search?q=75+rue+du+Docteur+Vaillant%2C+78210+Saint-Cyr-l%27%C3%89cole&limit=5"
+  ],
+  "extrait": "Plongez dans La Ménagerie : bières brassées sous vos yeux",
+  "choix": "Deux numéros apparaissent : « Tél. : 09 83 65 63 85 », écrit dans le texte de la page à côté de l'adresse (retenu), et 09 87 36 09 97, que je n'ai vu que dans le lien « appeler » du site (écarté). Catégorie 1 en confiance moyenne : « Divine creation/dispo en boutique » (vente) et La Ménagerie (bar). La page ne précise pas la vente à emporter en toutes lettres. Les horaires sont ceux que la page donne sous « Horaires d'ouvertures », sans dire s'ils valent pour le bar ou pour la boutique. Je les classe en accueil et je le signale dans la remarque. Il existe aussi un candidat SIRENE du même nom (sirene:840301055, Versailles et Saint-Cyr) dans un autre paquet : probablement la même brasserie, à dédoublonner. Horaires non saisis : la page les range sous « le bar restaurant » sans dire s'ils valent pour la brasserie (relecture du 29/10). Source rouverte à la main le 29/10."
+ }
+}

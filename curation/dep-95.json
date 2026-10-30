@@ -1,0 +1,163 @@
+{
+ "lot": "dep-95",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie d'Orville",
+    "c": "Louvres",
+    "d": "95",
+    "lat": 49.03921,
+    "lon": 2.50589,
+    "km": 410.6,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie à la ferme, avec bar et restaurant sur place : le site dit qu'on y déguste une bière « au comptoir ou dans le jardin ». Il ne parle d'aucune vente à emporter sur place : les bouteilles se commandent dans la boutique en ligne (livraison). Classée « acheter et consommer sur place » par défaut, sans preuve de la vente sur place : appelez avant de venir pour acheter.",
+    "addr": "29 rue de Paris, 95380 Louvres",
+    "src": "https://brasseriedorville.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 85 52 11 11",
+     "site": "https://brasseriedorville.com",
+     "source": "https://brasseriedorville.com",
+     "verifieLe": "2026-10-29"
+    }
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://brasseriedorville.com",
+    "https://data.geopf.fr/geocodage/search?q=29+rue+de+Paris%2C+95380+Louvres&limit=5"
+   ],
+   "extrait": "déguster une bière locale au comptoir ou dans le jardin",
+   "choix": "Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on boit sur place et ne dit rien de la vente à emporter. Pas de lien Untappd : le site n'en porte pas, et la recherche n'a trouvé que des pages de bières (« Back in Black », « Onacommed'habpasfoutugrandgose »), aucune page de la brasserie. Les types de bière lus sur le site (lager, APA, white IPA, triple, berliner weisse) ne sont pas repris : `beers` reste vide. Horaires : ceux du « bar et resto » (nature accueil), lus sur la page d'accueil. L'office de tourisme Grand Roissy n'a pas pu être lu (404). Source rouverte à la main le 29/10. Horaires non saisis : l'outil de contrôle ne les relit pas sur la page."
+  },
+  {
+   "fiche": {
+    "n": "Ferme Brasserie du Vexin",
+    "c": "Théméricourt",
+    "d": "95",
+    "lat": 49.08478,
+    "lon": 1.89373,
+    "km": 436,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Ferme-brasserie dont la boutique est ouverte le samedi et le dimanche. Le site dit qu'on n'y fait que de la vente à emporter « dans le contexte actuel » et que les dégustations ne sont pas possibles : formule peut-être ancienne, à confirmer par téléphone.",
+    "addr": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+    "src": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 30 39 24 43",
+     "site": "https://biere-du-vexin.com",
+     "source": "https://biere-du-vexin.com/contact/",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "remarque": "Samedi et dimanche uniquement ; fermé les jours fériés, même un week-end (fermeture annoncée le dimanche 1er novembre).",
+      "source": "https://biere-du-vexin.com/la-boutique-les-horaires/",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://biere-du-vexin.com/la-boutique-les-horaires/",
+    "https://biere-du-vexin.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+de+la+Croix+des+Ruelles%2C+95450+Th%C3%A9m%C3%A9ricourt&limit=5"
+   ],
+   "extrait": "Dans le contexte actuel, nous ne faisons que de la vente à emporter,",
+   "choix": "Téléphone : la page contact donne « 01 30 39 24 43 » (étiqueté « téléphone fax ») et un portable « 07 86 31 81 44 (plus simple et plus rapide) ». Je retiens le portable, que la brasserie met en avant pour la joindre ; le fixe est ambigu (fax ?). Cédric peut préférer le fixe. Horaires : bloc vente samedi et dimanche 10h30-12h30 et 14h30-18h, fermé les jours fériés (remarque). La fermeture du dimanche 1er novembre 2026 est dite sur la page, non reprise dans les créneaux. Pas de lien Untappd (aucun sur le site, aucun trouvé). Bières lues (blonde, blanche, ambrée, brune, Véliocasse au miel, Vexin IPA) non reprises : `beers` vide. Le brassage à la ferme n'est pas dit en toutes lettres sur la page de présentation (texte de remplissage) : il ressort du nom et des titres du site (« ferme brasserie du vexin », « du champ à la chope »). Téléphone : le fixe de la page contact est retenu plutôt que le portable (un portable n'est permis que s'il est la seule ligne). Source rouverte à la main le 29/10."
+  },
+  {
+   "fiche": {
+    "n": "Terrabière",
+    "c": "Deuil-la-Barre",
+    "d": "95",
+    "lat": 48.97594,
+    "lon": 2.32709,
+    "km": 410.1,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie bio avec boutique, bar et salon de dégustation ; vente directe à emporter et dégustation sur place.",
+    "addr": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+    "src": "https://brasserie-terrabiere.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 51 55 42 15",
+     "site": "https://brasserie-terrabiere.com",
+     "source": "https://brasserie-terrabiere.com",
+     "verifieLe": "2026-10-29"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "Terrasse d'hiver selon météo.",
+      "source": "https://brasserie-terrabiere.com",
+      "verifieLe": "2026-10-29"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-29",
+   "sources": [
+    "https://brasserie-terrabiere.com",
+    "https://data.geopf.fr/geocodage/search?q=13+rue+Charles+de+Gaulle%2C+95170+Deuil-la-Barre&limit=5"
+   ],
+   "extrait": "Bar – Dégustation sur place",
+   "choix": "Deux autres lignes du pied de page du même site : « Vente directe à emporter » (vente à emporter) et « Boutique, bar et terrasse : du mardi au vendredi (17h/23h) et samedi (11h/23h) ». Elles justifient la catégorie 1. Brassage sur place lu sur la page : « Production de bières artisanales ». Types de bière (blonde, ambrée, brune, blanche, scotch ale) lus mais non repris : la page ne donne pas de nom de bière ni de lien par bière, donc beers reste vide. Untappd : introuvable (page du site sans mention, deux recherches sans résultat). Le site publie un seul numéro, celui de la brasserie. La seconde adresse SIRENE (Enghien-les-Bains) n'est pas celle du site : écartée. Source rouverte à la main le 29/10."
+  }
+ ]
+}
