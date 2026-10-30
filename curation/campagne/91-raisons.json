@@ -1,5 +1,18 @@
 {
  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
- "personne:5": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:5": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:924943566": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "personne:1": "annuaire de prestataires de mariage seul",
+ "sirene:989267950": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "personne:3": "une seule recherche faite, rien trouvé : à relancer",
+ "sirene:810361386": "certificat du site en erreur, annuaire seul : à relancer",
+ "sirene:897825873": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "sirene:991210873": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "node/11668938625": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "node/11987264719": "même brasserie que sirene:788908853",
+ "node/13098373138": "nom de personne ; la brasserie de cette adresse s'est installée en Seine-et-Marne, hors de ce département",
+ "node/13872612566": "site illisible, agrégateur seul, rien sur la commune : à relancer",
+ "node/3515412159": "établissement fermé ; la brasserie est à Combs-la-Ville (sirene:509184214)",
+ "node/7859264371": "centre commercial et bars, aucune brasserie"
 }

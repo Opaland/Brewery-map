@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:823504220",
+ "ajout": {
+  "fiche": {
+   "n": "L'Instant",
+   "c": "Pontault-Combault",
+   "d": "77",
+   "lat": 48.79917,
+   "lon": 2.63012,
+   "km": 382.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "La Taproom, bar interne de la brasserie, est ouverte en fin de semaine ; on peut aussi y acheter des bières à emporter. Le site ne donne pas les heures sur cette page.",
+   "addr": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+   "src": "https://bieres-linstant.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 87 16 00 70",
+    "site": "https://bieres-linstant.fr/",
+    "source": "https://bieres-linstant.fr/",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://bieres-linstant.fr/",
+   "https://data.geopf.fr/geocodage/search?q=24+bis+rue+du+Pr%C3%A9+des+Aulnes%2C+77340+Pontault-Combault&limit=5"
+  ],
+  "extrait": "Vous pouvez venir vous y détendre en fin de semaine ou faire vos courses",
+  "choix": "Le fixe du pied de page est retenu, le portable du haut de page écarté. Source rouverte à la main le 30/10."
+ }
+}

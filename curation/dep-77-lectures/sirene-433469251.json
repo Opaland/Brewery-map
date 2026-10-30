@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:433469251",
+ "ajout": {
+  "fiche": {
+   "n": "La Gâtine",
+   "c": "Mondreville",
+   "d": "77",
+   "lat": 48.15193,
+   "lon": 2.56637,
+   "km": 321.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de ferme. L'office de tourisme indique une vente sur place et un magasin à la ferme ouvert sur rendez-vous.",
+   "addr": "6 hameau de Pilvernier, 77570 Mondreville",
+   "src": "https://www.fontainebleau-tourisme.com/en/file/730231/la-gatine-beer",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.fontainebleau-tourisme.com/en/file/730231/la-gatine-beer",
+   "https://data.geopf.fr/geocodage/search?q=6+hameau+de+Pilvernier%2C+77570+Mondreville&limit=5"
+  ],
+  "extrait": "Shop at the farm open by appointment",
+  "choix": "Office de tourisme seul, donc confiance moyenne au plus. Aucun téléphone repris : les numéros ne se lisent que sur la page de l'office. Source rouverte à la main le 30/10."
+ }
+}

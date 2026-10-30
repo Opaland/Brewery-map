@@ -1,0 +1,209 @@
+{
+ "lot": "dep-95",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie d'Orville",
+    "c": "Louvres",
+    "d": "95",
+    "lat": 49.03921,
+    "lon": 2.50589,
+    "km": 410.6,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bar et restaurant sur place ; les bières s'achètent sur place aux horaires d'ouverture. Le samedi n'est pas repris : la page donne deux horaires différents pour ce jour.",
+    "addr": "29 rue de Paris, 95380 Louvres",
+    "src": "https://brasseriedorville.com/contact/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 85 52 11 11",
+     "site": "https://brasseriedorville.com",
+     "source": "https://brasseriedorville.com/contact/",
+     "verifieLe": "2026-10-30"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "14:00"
+       ],
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "source": "https://brasseriedorville.com/contact/",
+      "verifieLe": "2026-10-30"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-30",
+   "sources": [
+    "https://brasseriedorville.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=29+rue+de+Paris%2C+95380+Louvres&limit=5"
+   ],
+   "extrait": "Vous pouvez les acheter sur place à Louvres, aux horaires d'ouverture",
+   "choix": "Lu aussi sur la page : « le bar et resto, du mardi au samedi ». Samedi : 17h-23h dans le texte, 16h-00h dans le tableau de la même page, donc retiré. Source rouverte à la main le 30/10."
+  },
+  {
+   "fiche": {
+    "n": "Ferme Brasserie du Vexin",
+    "c": "Théméricourt",
+    "d": "95",
+    "lat": 49.08478,
+    "lon": 1.89373,
+    "km": 436,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de la ferme ouverte le week-end, sauf jours fériés. « Dans le contexte actuel », dit le site, la vente est à emporter seulement, sans dégustation.",
+    "addr": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+    "src": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "01 30 39 24 43",
+     "site": "https://www.biere-du-vexin.com",
+     "source": "https://www.biere-du-vexin.com/contact/",
+     "verifieLe": "2026-10-30"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "dim": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "remarque": "Fermé les jours fériés, même tombant un week-end.",
+      "source": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+      "verifieLe": "2026-10-30"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-30",
+   "sources": [
+    "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+    "https://www.biere-du-vexin.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+de+la+Croix+des+Ruelles%2C+95450+Th%C3%A9m%C3%A9ricourt&limit=5"
+   ],
+   "extrait": "nous ne faisons que de la vente à emporter",
+   "choix": "Fixe retenu ; le site met aussi en avant un portable. Adresse du registre. Source rouverte à la main le 30/10."
+  },
+  {
+   "fiche": {
+    "n": "Terrabière",
+    "c": "Deuil-la-Barre",
+    "d": "95",
+    "lat": 48.97594,
+    "lon": 2.32709,
+    "km": 410.1,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Microbrasserie avec vente directe à emporter, salon de dégustation et terrasse, selon son site.",
+    "addr": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+    "src": "https://brasserie-terrabiere.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 51 55 42 15",
+     "site": "https://brasserie-terrabiere.com",
+     "source": "https://brasserie-terrabiere.com",
+     "verifieLe": "2026-10-30"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "source": "https://brasserie-terrabiere.com",
+      "verifieLe": "2026-10-30"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-30",
+   "sources": [
+    "https://brasserie-terrabiere.com",
+    "https://data.geopf.fr/geocodage/search?q=13+rue+Charles+de+Gaulle%2C+95170+Deuil-la-Barre&limit=5"
+   ],
+   "extrait": "Vente directe à emporter",
+   "choix": "Lu aussi sur le site : « Le salon de dégustation ». Horaires du site seuls, ceux des annuaires diffèrent. Source rouverte à la main le 30/10."
+  }
+ ]
+}

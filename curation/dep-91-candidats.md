@@ -28,7 +28,7 @@
 - `sirene:991210873` — BRASSERIE DU TREFLE DORE (MAROLLES-EN-HUREPOIX) — sirene
 - `node/11668938625` — Mets et Pierre (Orsay) — osm
 - `node/11987264719` — Brasserie de Marcoussis (Marcoussis) — osm
-- `node/13098373138` — Bories Jarnouen de Villartay (Brunoy) — osm
+- `node/13098373138` — Point OSM au nom de personne (Brunoy) — osm
 - `node/13872612566` — La Brasserie Fondamentale (Brouy) — osm
 - `node/3515412159` — Parisis (Épinay-sous-Sénart) (Épinay-sous-Sénart) — osm
 - `node/7804876931` — La Bouledogue (Saulx-les-Chartreux) — osm

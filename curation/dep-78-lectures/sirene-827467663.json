@@ -1,0 +1,77 @@
+{
+ "candidat": "sirene:827467663",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie 2 L'Équipage",
+   "c": "Bonnelles",
+   "d": "78",
+   "lat": 48.62509,
+   "lon": 2.02626,
+   "km": 387.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "L'office de tourisme de Rambouillet annonce une boutique, le click & collect et des horaires ; le site de la brasserie n'en dit rien.",
+   "addr": "8 rue des Jacinthes Sauvages, 78830 Bonnelles",
+   "src": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 78 46 91 98",
+    "site": "https://brasserie2lequipage.fr",
+    "source": "https://brasserie2lequipage.fr",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+     "lun": [
+      [
+       "18:00",
+       "19:30"
+      ]
+     ],
+     "mar": [
+      [
+       "18:00",
+       "19:30"
+      ]
+     ],
+     "mer": [
+      [
+       "18:00",
+       "19:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "19:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "18:00",
+       "19:30"
+      ]
+     ],
+     "sam": [
+      [
+       "13:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+   "https://brasserie2lequipage.fr",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+des+Jacinthes+Sauvages%2C+78830+Bonnelles&limit=5"
+  ],
+  "extrait": "le lundi, mardi, mercredi et vendredi de 18h à 19h30. Le jeudi de 19h à 20h. Le samedi de 13h à 20h.",
+  "choix": "Portable : seule ligne publiée, sur le site et sur l'office (règle du 21/10). Source rouverte à la main le 30/10."
+ }
+}

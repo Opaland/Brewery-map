@@ -1,0 +1,74 @@
+{
+ "candidat": "sirene:788908853",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale de Marcoussis (OX)",
+   "c": "Marcoussis",
+   "d": "91",
+   "lat": 48.65939,
+   "lon": 2.20718,
+   "km": 383.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site donne les horaires du bar et de la vente sur place.",
+   "addr": "50 route d'Orsay, 91460 Marcoussis",
+   "src": "https://brasserie-ox.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 69 63 45 54",
+    "site": "https://brasserie-ox.fr/",
+    "source": "https://brasserie-ox.fr/contact/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-ox.fr/contact/",
+     "mar": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://brasserie-ox.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=50+route+d%27Orsay%2C+91460+Marcoussis&limit=5"
+  ],
+  "extrait": "Horaires du bar et de la vente sur place",
+  "choix": "Même brasserie que le point OSM node/11987264719. Source rouverte à la main le 30/10."
+ }
+}

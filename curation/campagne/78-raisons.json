@@ -1,3 +1,24 @@
 {
- "personne:1": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:793900473": "site sans réponse (DNS), annuaires seuls : à relancer",
+ "sirene:823426978": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "sirene:979896842": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "sirene:799277090": "fermé depuis 2014 d'après le registre, aucune autre trace",
+ "sirene:913341061": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:920046893": "revendeurs et annuaires seuls, aucun lien avec la commune : à relancer",
+ "sirene:911410322": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:924932825": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:902798065": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:907918957": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:890481096": "site derrière une vérification de l'âge, agrégateurs seuls : à relancer",
+ "sirene:893014662": "site de la ville en erreur de certificat, boutique citée seulement : à relancer",
+ "sirene:852696525": "fiche de vente en gros seule, rien sur la commune",
+ "node/12327046734": "même lieu que sirene:840301055",
+ "node/1854003295": "bar sur un annuaire, rien sur une brasserie",
+ "node/3512397640": "même brasserie que sirene:793900473 : à relancer avec elle",
+ "node/3752510374": "aucune trace de ce lieu",
+ "node/4155657290": "bar-restaurant sur un guide local, aucune brasserie",
+ "node/7203823199": "même établissement que sirene:503705006",
+ "node/9280921450": "aucune brasserie de ce nom dans la commune",
+ "way/63158105": "aucune page, rien sur une brasserie"
 }

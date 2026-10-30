@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:825093701",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Rabourdin",
+   "c": "Courpalay",
+   "d": "77",
+   "lat": 48.65062,
+   "lon": 2.95668,
+   "km": 357.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Ferme-brasserie (bière de Brie). Le site annonce un magasin ouvert du mardi au samedi ; il ne détaille ni la vente ni une dégustation sur place.",
+   "addr": "22 rue Lafayette, 77540 Courpalay",
+   "src": "https://www.brasserierabourdin.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserierabourdin.com/",
+    "source": "https://www.brasserierabourdin.com/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserierabourdin.com/",
+     "mar": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.brasserierabourdin.com/",
+   "https://data.geopf.fr/geocodage/search?q=22+rue+Lafayette%2C+77540+Courpalay&limit=5"
+  ],
+  "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+  "choix": "Aucun téléphone repris : le fixe s'écrit « + 33 1 64 25 76 05 », que le contrôle ne relit pas, et le portable de l'en-tête n'est pas la seule ligne. Le point OSM node/4464504894 est la même brasserie. Source rouverte à la main le 30/10."
+ }
+}

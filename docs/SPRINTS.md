@@ -3040,6 +3040,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S345.md`, issue #186. 82 candidats de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne lus par 19 agents ; 11 fiches par la règle de Cédric du 21/10 (75 : 3, 92 : 3, 93 : 3, 94 : 2), sources rouvertes à la main, `controler` sans écart, relecture de la persona Cédric traitée. Un premier `appliquer` a laissé deux lectures de côté sans le dire : défait, corrigé, réappliqué. 620 fiches dans 56 départements, OSM à 734. La grande couronne (77, 78, 91, 95) suit.
 
+## S345, seconde partie — la grande couronne *(30/10, epic E36)*
+
+`docs/stories/S345.md`, issue #186. 96 candidats de Seine-et-Marne, des Yvelines, de l'Essonne et du Val-d'Oise lus par 21 agents ; 23 fiches par la règle de Cédric du 21/10 (77 : 9, 78 : 7, 91 : 4, 95 : 3), chaque source rouverte à la main sur la page brute, `controler` sans écart, relecture de la persona Cédric traitée. Un premier `appliquer` a tourné sur les lectures non corrigées (un alias PowerShell avait avalé les corrections) : défait avant tout commit, corrigé, réappliqué. 643 fiches dans 60 départements, OSM à 716. L'Île-de-France est couverte.
+
 ## S369 — La porte tourne sous Windows sans le mode développeur *(30/10)*
 
 `docs/stories/S369.md`. Les deux tests de liens symboliques de S360 échouaient en EPERM sous Windows et bloquaient le crochet : sautés sur `win32` seulement, la CI sous Linux les joue toujours.

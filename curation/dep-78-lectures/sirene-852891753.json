@@ -1,0 +1,58 @@
+{
+ "candidat": "sirene:852891753",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Voisine",
+   "c": "Villiers-Saint-Frédéric",
+   "d": "78",
+   "lat": 48.81558,
+   "lon": 1.87868,
+   "km": 411.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio avec une boutique ouverte jeudi, vendredi et samedi. Le site cite des soirées guinguette, sans dire ce qui se passe le reste du temps.",
+   "addr": "13 rue de la Gare, 78640 Villiers-Saint-Frédéric",
+   "src": "https://brasserielavoisine.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 77 32 84",
+    "site": "https://brasserielavoisine.com",
+    "source": "https://brasserielavoisine.com",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserielavoisine.com",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://brasserielavoisine.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+de+la+Gare%2C+78640+Villiers-Saint-Fr%C3%A9d%C3%A9ric&limit=5"
+  ],
+  "extrait": "Jeudi & vendredi 16h – 19h",
+  "choix": "Portable : seule ligne publiée (règle du 21/10). Source rouverte à la main le 30/10."
+ }
+}

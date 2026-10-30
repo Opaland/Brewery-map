@@ -1,0 +1,300 @@
+[
+  {
+    "cle": "sirene:952833952",
+    "n": "La Magicienne",
+    "c": "La Houssaye-en-Brie",
+    "adresse": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie avec boutique et tap room. Son site dit accueillir le public les jeudis, vendredis et samedis jusqu'à 22h, sans heure d'ouverture.",
+    "src": "https://untappd.com/LaMagicienne",
+    "extrait": "La Magicienne c'est une microbrasserie une boutique et une tap room située à la Houssaye-en-Brie en Seine-et-Marne.",
+    "beers": [],
+    "choix": "Pas de téléphone publié. Rue lue sur le site, le siège d'Ozoir-la-Ferrière écarté (le site dit la brasserie à La Houssaye depuis avril 2026). Bières non reprises, le lien Untappd les donne. Source rouverte à la main le 30/10.",
+    "contact": {
+      "site": "https://lamagicienne.beer/",
+      "untappd": "https://untappd.com/LaMagicienne",
+      "source": "https://untappd.com/LaMagicienne"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "jeu": "heures-non-precisees",
+        "ven": "heures-non-precisees",
+        "sam": "heures-non-precisees",
+        "remarque": "Jusqu'à 22h.",
+        "source": "https://lamagicienne.beer/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:949538128",
+    "n": "Les Bières de Papa",
+    "c": "Moret-Loing-et-Orvanne",
+    "adresse": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bières brassées sur place, à boire sur place ou à acheter à emporter, selon le site de la brasserie.",
+    "src": "https://lesbieresdepapa.com",
+    "extrait": "nos bières brassées sur place sont aussi disponibles à l'achat à emporter",
+    "beers": [],
+    "choix": "Deux portables publiés, chacun avec un prénom : aucun n'est retenu. Source rouverte à la main le 30/10.",
+    "contact": {
+      "site": "https://lesbieresdepapa.com",
+      "source": "https://lesbieresdepapa.com"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "jeu": [
+          [
+            "17:00",
+            "00:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "00:00"
+          ]
+        ],
+        "sam": [
+          [
+            "17:00",
+            "00:00"
+          ]
+        ],
+        "source": "https://lesbieresdepapa.com",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:910541879",
+    "n": "La Bière de Provins",
+    "c": "Provins",
+    "adresse": "3 place du Maréchal Leclerc, 77160 Provins",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Micro-brasserie ouverte au public : bières à déguster sur place ou à emporter, selon son site.",
+    "src": "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+    "extrait": "la déguster sur place ou à emporter",
+    "beers": [],
+    "choix": "Pas de page Untappd trouvée. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 64 08 65 92",
+      "site": "https://www.labieredeprovins.com/",
+      "source": "https://labieredeprovins.com/contact"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "16:00",
+            "21:30"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "21:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "23:30"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "23:30"
+          ]
+        ],
+        "sam": [
+          [
+            "11:00",
+            "22:00"
+          ]
+        ],
+        "source": "https://labieredeprovins.com/contact",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:810362798",
+    "n": "Brasserie de Meaux",
+    "c": "Meaux",
+    "adresse": "11 rue des Buttes Blanches, 77100 Meaux",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique ouverte le vendredi et le samedi matin, click & collect, fûts et visites guidées. Le site ne décrit pas de dégustation ouverte à tous.",
+    "src": "http://www.brasseriedemeaux.com/",
+    "extrait": "le vendredi de 14h à 18h et le samedi de 9h30 à 12h30",
+    "beers": [],
+    "choix": "Portable : seule ligne publiée (règle du 21/10). Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "06 51 38 33 01",
+      "site": "http://www.brasseriedemeaux.com/",
+      "source": "http://www.brasseriedemeaux.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "ven": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "09:30",
+            "12:30"
+          ]
+        ],
+        "source": "http://www.brasseriedemeaux.com/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:825093701",
+    "n": "Brasserie Rabourdin",
+    "c": "Courpalay",
+    "adresse": "22 rue Lafayette, 77540 Courpalay",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Ferme-brasserie (bière de Brie). Le site annonce un magasin ouvert du mardi au samedi ; il ne détaille ni la vente ni une dégustation sur place.",
+    "src": "https://www.brasserierabourdin.com/",
+    "extrait": "MAGASIN OUVERT DU MARDI AU SAMEDI DE 10:00 À 19:00",
+    "beers": [],
+    "choix": "Aucun téléphone repris : le fixe s'écrit « + 33 1 64 25 76 05 », que le contrôle ne relit pas, et le portable de l'en-tête n'est pas la seule ligne. Le point OSM node/4464504894 est la même brasserie. Source rouverte à la main le 30/10.",
+    "contact": {
+      "site": "https://www.brasserierabourdin.com/",
+      "source": "https://www.brasserierabourdin.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mar": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "19:00"
+          ]
+        ],
+        "source": "https://www.brasserierabourdin.com/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:433469251",
+    "n": "La Gâtine",
+    "c": "Mondreville",
+    "adresse": "6 hameau de Pilvernier, 77570 Mondreville",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de ferme. L'office de tourisme indique une vente sur place et un magasin à la ferme ouvert sur rendez-vous.",
+    "src": "https://www.fontainebleau-tourisme.com/en/file/730231/la-gatine-beer",
+    "extrait": "Shop at the farm open by appointment",
+    "beers": [],
+    "choix": "Office de tourisme seul, donc confiance moyenne au plus. Aucun téléphone repris : les numéros ne se lisent que sur la page de l'office. Source rouverte à la main le 30/10."
+  },
+  {
+    "cle": "sirene:823504220",
+    "n": "L'Instant",
+    "c": "Pontault-Combault",
+    "adresse": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "La Taproom, bar interne de la brasserie, est ouverte en fin de semaine ; on peut aussi y acheter des bières à emporter. Le site ne donne pas les heures sur cette page.",
+    "src": "https://bieres-linstant.fr/",
+    "extrait": "Vous pouvez venir vous y détendre en fin de semaine ou faire vos courses",
+    "beers": [],
+    "choix": "Le fixe du pied de page est retenu, le portable du haut de page écarté. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "09 87 16 00 70",
+      "site": "https://bieres-linstant.fr/",
+      "source": "https://bieres-linstant.fr/"
+    }
+  },
+  {
+    "cle": "sirene:851507087",
+    "n": "Brasserie des Grottes",
+    "c": "Boissise-la-Bertrand",
+    "adresse": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie dans une grotte, au bord de la Seine. La fiche de l'office de tourisme cite une boutique et une dégustation après la visite, avant de repartir avec quelques bouteilles.",
+    "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+    "extrait": "avant de repartir avec quelques bouteilles en souvenir",
+    "beers": [],
+    "choix": "Source unique : office de tourisme, donc confiance moyenne au plus. Pas de téléphone sur cette page. Source rouverte à la main le 30/10.",
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "18:00",
+            "01:00"
+          ]
+        ],
+        "sam": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "source": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:509184214",
+    "n": "Brasserie Parisis",
+    "c": "Combs-la-Ville",
+    "adresse": "3 rue René Dumont, 77380 Combs-la-Ville",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Une boutique et une taproom sont ouvertes dans la brasserie depuis l'été 2023. Aucun horaire sur le site.",
+    "src": "https://brasserie-parisis.com/",
+    "extrait": "une boutique et une taproom (un bar quoi) ont ouvert leurs portes dans la brasserie même",
+    "beers": [],
+    "choix": "Même brasserie que le point OSM node/10024333612, et que l'ancien établissement d'Épinay-sous-Sénart (91). Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 60 46 62 33",
+      "site": "https://brasserie-parisis.com/",
+      "source": "https://brasserie-parisis.com/"
+    }
+  }
+]

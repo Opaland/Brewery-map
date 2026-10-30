@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:949538128",
+ "ajout": {
+  "fiche": {
+   "n": "Les Bières de Papa",
+   "c": "Moret-Loing-et-Orvanne",
+   "d": "77",
+   "lat": 48.36895,
+   "lon": 2.83451,
+   "km": 333.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Bières brassées sur place, à boire sur place ou à acheter à emporter, selon le site de la brasserie.",
+   "addr": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+   "src": "https://lesbieresdepapa.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lesbieresdepapa.com",
+    "source": "https://lesbieresdepapa.com",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lesbieresdepapa.com",
+     "jeu": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "00:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://lesbieresdepapa.com",
+   "https://data.geopf.fr/geocodage/search?q=89+avenue+de+Sens%2C+77250+Moret-Loing-et-Orvanne&limit=5"
+  ],
+  "extrait": "nos bières brassées sur place sont aussi disponibles à l'achat à emporter",
+  "choix": "Deux portables publiés, chacun avec un prénom : aucun n'est retenu. Source rouverte à la main le 30/10."
+ }
+}

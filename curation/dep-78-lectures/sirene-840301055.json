@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:840301055",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Roi",
+   "c": "Saint-Cyr-l'École",
+   "d": "78",
+   "lat": 48.81158,
+   "lon": 2.07736,
+   "km": 403.1,
+   "cat": 1,
+   "conf": "faible",
+   "note": "La Ménagerie, le restaurant et bar à bières de la brasserie, sert ses bières brassées sur place ; le site cite une boutique sans dire la vente à emporter. Horaires non repris : les deux sites de la brasserie ne donnent pas les mêmes le soir.",
+   "addr": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+   "src": "https://labrasserieduroi.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 83 65 63 85",
+    "site": "https://labrasserieduroi.com/",
+    "source": "https://labrasserieduroi.com/contact/",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://labrasserieduroi.com/",
+   "https://labrasserieduroi.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=75+rue+du+Docteur+Vaillant%2C+78210+Saint-Cyr-l%27%C3%89cole&limit=5"
+  ],
+  "extrait": "Plongez dans La Ménagerie : bières brassées sous vos yeux, burgers maison savoureux et une ambiance qui ne ressemble à aucune autre.",
+  "choix": "Réponse de Cédric du 29/10 : catégorie 1, confiance faible. Numéro affiché par la brasserie sur ses pages retenu ; celui du restaurant et le lien tel: de la même page diffèrent. Même lieu que node/12327046734. Source rouverte à la main le 30/10."
+ }
+}

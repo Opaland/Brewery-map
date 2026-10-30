@@ -1,1 +1,17 @@
-{}
+{
+ "sirene:894337799": "registre seul, ce qui ne suffit pas (méthode du 19/10)",
+ "sirene:841277262": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:902093616": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:840712657": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:878788587": "déjà une fiche : entrepôt de 1989 Brewing, siège ailleurs",
+ "sirene:903711273": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:949092811": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:852417443": "association au registre seul, aucun lieu où venir",
+ "sirene:980941991": "annuaire seul, le site supposé n'existe pas",
+ "sirene:944776392": "un check-in d'utilisateur seul",
+ "sirene:917874539": "introuvable : aucun site, aucun Untappd, aucun office de tourisme",
+ "sirene:800191124": "marque vue chez des revendeurs, rien sur la commune ni sur un accueil",
+ "node/9719196078": "aucune trace de ce café, rien sur une brasserie",
+ "way/146734234": "brasserie-restaurant sur des annuaires seuls, rien ne dit qu'on y brasse : à relancer",
+ "way/63796844": "site sans réponse (DNS), une page intercommunale seule : à relancer"
+}

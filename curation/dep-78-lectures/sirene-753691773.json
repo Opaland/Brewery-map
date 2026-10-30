@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:753691773",
+ "ajout": {
+  "fiche": {
+   "n": "La P'tite Sœur",
+   "c": "Sartrouville",
+   "d": "78",
+   "lat": 48.93235,
+   "lon": 2.14869,
+   "km": 412.1,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le Relais, l'espace ouvert au public, sert les bières de la brasserie, d'après son site. La boutique n'est citée que par l'office de tourisme, dont la fiche date de 2024.",
+   "addr": "165 avenue de la République, 78500 Sartrouville",
+   "src": "https://www.seine-saintgermain.fr/en/touristic_sheet/la-ptite-soeur-sartrouville-en-5356430/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 28 40 12 52",
+    "site": "https://www.laptitesoeur.com/",
+    "source": "https://www.laptitesoeur.com/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.laptitesoeur.com/",
+     "jeu": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.seine-saintgermain.fr/en/touristic_sheet/la-ptite-soeur-sartrouville-en-5356430/",
+   "https://www.laptitesoeur.com/",
+   "https://data.geopf.fr/geocodage/search?q=165+avenue+de+la+R%C3%A9publique%2C+78500+Sartrouville&limit=5"
+  ],
+  "extrait": "Product tasting",
+  "choix": "Horaires du site repris, ceux de l'office diffèrent et sont plus anciens. Portable : seule ligne publiée par la brasserie, le fixe n'étant que sur l'office. Source rouverte à la main le 30/10."
+ }
+}

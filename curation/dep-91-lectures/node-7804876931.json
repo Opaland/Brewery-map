@@ -1,0 +1,32 @@
+{
+ "candidat": "node/7804876931",
+ "ajout": {
+  "fiche": {
+   "n": "La Bouledogue",
+   "c": "Villebon-sur-Yvette",
+   "d": "91",
+   "lat": 48.69789,
+   "lon": 2.23543,
+   "km": 386.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie indépendante qui ouvre ses portes aux visites du lundi au vendredi, sans parler de vente ni de dégustation sur place.",
+   "addr": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+   "src": "http://www.labouledogue.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "http://www.labouledogue.fr/",
+    "source": "http://www.labouledogue.fr/",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "http://www.labouledogue.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Villebon-sur-Yvette&type=municipality&limit=5"
+  ],
+  "extrait": "la brasserie vous ouvre ses portes du lundi au vendredi",
+  "choix": "OSM disait Saulx-les-Chartreux, le site Villebon-sur-Yvette. Deux portables, chacun attaché à un nom de personne : aucun n'est retenu. Source rouverte à la main le 30/10."
+ }
+}

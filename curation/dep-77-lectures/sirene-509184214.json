@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:509184214",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Parisis",
+   "c": "Combs-la-Ville",
+   "d": "77",
+   "lat": 48.64882,
+   "lon": 2.56834,
+   "km": 369.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Une boutique et une taproom sont ouvertes dans la brasserie depuis l'été 2023. Aucun horaire sur le site.",
+   "addr": "3 rue René Dumont, 77380 Combs-la-Ville",
+   "src": "https://brasserie-parisis.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 60 46 62 33",
+    "site": "https://brasserie-parisis.com/",
+    "source": "https://brasserie-parisis.com/",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://brasserie-parisis.com/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+Ren%C3%A9+Dumont%2C+77380+Combs-la-Ville&limit=5"
+  ],
+  "extrait": "une boutique et une taproom (un bar quoi) ont ouvert leurs portes dans la brasserie même",
+  "choix": "Même brasserie que le point OSM node/10024333612, et que l'ancien établissement d'Épinay-sous-Sénart (91). Source rouverte à la main le 30/10."
+ }
+}

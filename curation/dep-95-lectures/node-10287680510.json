@@ -1,0 +1,80 @@
+{
+ "candidat": "node/10287680510",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Orville",
+   "c": "Louvres",
+   "d": "95",
+   "lat": 49.03921,
+   "lon": 2.50589,
+   "km": 410.6,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Bar et restaurant sur place ; les bières s'achètent sur place aux horaires d'ouverture. Le samedi n'est pas repris : la page donne deux horaires différents pour ce jour.",
+   "addr": "29 rue de Paris, 95380 Louvres",
+   "src": "https://brasseriedorville.com/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 85 52 11 11",
+    "site": "https://brasseriedorville.com",
+    "source": "https://brasseriedorville.com/contact/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedorville.com/contact/",
+     "mar": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "14:00"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://brasseriedorville.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=29+rue+de+Paris%2C+95380+Louvres&limit=5"
+  ],
+  "extrait": "Vous pouvez les acheter sur place à Louvres, aux horaires d'ouverture",
+  "choix": "Lu aussi sur la page : « le bar et resto, du mardi au samedi ». Samedi : 17h-23h dans le texte, 16h-00h dans le tableau de la même page, donc retiré. Source rouverte à la main le 30/10."
+ }
+}

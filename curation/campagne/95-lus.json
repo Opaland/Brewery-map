@@ -1,0 +1,168 @@
+[
+  {
+    "cle": "sirene:832276513",
+    "n": "Terrabière",
+    "c": "Deuil-la-Barre",
+    "adresse": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Microbrasserie avec vente directe à emporter, salon de dégustation et terrasse, selon son site.",
+    "src": "https://brasserie-terrabiere.com",
+    "extrait": "Vente directe à emporter",
+    "beers": [],
+    "choix": "Lu aussi sur le site : « Le salon de dégustation ». Horaires du site seuls, ceux des annuaires diffèrent. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "09 51 55 42 15",
+      "site": "https://brasserie-terrabiere.com",
+      "source": "https://brasserie-terrabiere.com"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "mer": [
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "sam": [
+          [
+            "11:00",
+            "23:00"
+          ]
+        ],
+        "source": "https://brasserie-terrabiere.com",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "node/10287680510",
+    "n": "Brasserie d'Orville",
+    "c": "Louvres",
+    "adresse": "29 rue de Paris, 95380 Louvres",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Bar et restaurant sur place ; les bières s'achètent sur place aux horaires d'ouverture. Le samedi n'est pas repris : la page donne deux horaires différents pour ce jour.",
+    "src": "https://brasseriedorville.com/contact/",
+    "extrait": "Vous pouvez les acheter sur place à Louvres, aux horaires d'ouverture",
+    "beers": [],
+    "choix": "Lu aussi sur la page : « le bar et resto, du mardi au samedi ». Samedi : 17h-23h dans le texte, 16h-00h dans le tableau de la même page, donc retiré. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 85 52 11 11",
+      "site": "https://brasseriedorville.com",
+      "source": "https://brasseriedorville.com/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "12:00",
+            "14:00"
+          ],
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "mer": [
+          [
+            "12:00",
+            "14:00"
+          ],
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "12:00",
+            "14:00"
+          ],
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "ven": [
+          [
+            "12:00",
+            "14:00"
+          ],
+          [
+            "17:00",
+            "23:00"
+          ]
+        ],
+        "source": "https://brasseriedorville.com/contact/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:433674967",
+    "n": "Ferme Brasserie du Vexin",
+    "c": "Théméricourt",
+    "adresse": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de la ferme ouverte le week-end, sauf jours fériés. « Dans le contexte actuel », dit le site, la vente est à emporter seulement, sans dégustation.",
+    "src": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+    "extrait": "nous ne faisons que de la vente à emporter",
+    "beers": [],
+    "choix": "Fixe retenu ; le site met aussi en avant un portable. Adresse du registre. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 30 39 24 43",
+      "site": "https://www.biere-du-vexin.com",
+      "source": "https://www.biere-du-vexin.com/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "sam": [
+          [
+            "10:30",
+            "12:30"
+          ],
+          [
+            "14:30",
+            "18:00"
+          ]
+        ],
+        "dim": [
+          [
+            "10:30",
+            "12:30"
+          ],
+          [
+            "14:30",
+            "18:00"
+          ]
+        ],
+        "remarque": "Fermé les jours fériés, même tombant un week-end.",
+        "source": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  }
+]
