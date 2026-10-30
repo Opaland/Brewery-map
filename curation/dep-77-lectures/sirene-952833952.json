@@ -1,0 +1,45 @@
+{
+ "candidat": "sirene:952833952",
+ "ajout": {
+  "fiche": {
+   "n": "La Magicienne",
+   "c": "La Houssaye-en-Brie",
+   "d": "77",
+   "lat": 48.75374,
+   "lon": 2.87381,
+   "km": 370.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie avec boutique et tap room. Son site dit accueillir le public les jeudis, vendredis et samedis jusqu'à 22h, sans heure d'ouverture.",
+   "addr": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+   "src": "https://untappd.com/LaMagicienne",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lamagicienne.beer/",
+    "untappd": "https://untappd.com/LaMagicienne",
+    "source": "https://untappd.com/LaMagicienne",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lamagicienne.beer/",
+     "jeu": "heures-non-precisees",
+     "ven": "heures-non-precisees",
+     "sam": "heures-non-precisees",
+     "remarque": "Jusqu'à 22h.",
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://untappd.com/LaMagicienne",
+   "https://lamagicienne.beer/",
+   "https://data.geopf.fr/geocodage/search?q=30+place+du+Mar%C3%A9chal+Augereau%2C+77610+La+Houssaye-en-Brie&limit=5"
+  ],
+  "extrait": "La Magicienne c'est une microbrasserie une boutique et une tap room située à la Houssaye-en-Brie en Seine-et-Marne.",
+  "choix": "Pas de téléphone publié. Rue lue sur le site, le siège d'Ozoir-la-Ferrière écarté (le site dit la brasserie à La Houssaye depuis avril 2026). Bières non reprises, le lien Untappd les donne. Source rouverte à la main le 30/10."
+ }
+}

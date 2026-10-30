@@ -15,7 +15,7 @@ sait pas**. C'est la promesse, et elle tient parce que chaque fiche cite sa
 source. L'honnêteté est l'argument, pas une contrainte.
 
 Les trois preuves à montrer partout :
-1. **Toute la France** en un geste : 620 fiches vérifiées et 734 brasseries
+1. **Toute la France** en un geste : 643 fiches vérifiées et 716 brasseries
    repérées sur OpenStreetMap.
 2. **Zéro compte, zéro pub, zéro traceur** ; la position reste dans le
    téléphone.
@@ -63,7 +63,7 @@ juste a intérêt à la partager. Chacune qui le fait apporte ses clients.
   une erreur ? un clic pour la corriger. » La fiche juste est le cadeau.
 - **Un QR code imprimable** par brasserie (« Retrouvez-nous sur Mousse de
   Poche »), pour le comptoir. À fabriquer depuis le lien par fiche.
-- **Les offices de tourisme** des 56 départements vérifiés : leur proposer
+- **Les offices de tourisme** des 60 départements vérifiés : leur proposer
   l'outil pour leurs pages « route de la bière ».
 
 ### Ensuite — l'événement

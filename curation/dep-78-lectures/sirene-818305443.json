@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:818305443",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Toussaint",
+   "c": "Noisy-le-Roi",
+   "d": "78",
+   "lat": 48.84357,
+   "lon": 2.05737,
+   "km": 406.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Boutique au pied des cuves, et un brewpub où l'on déguste sur place, selon le site. Le samedi, la boutique affiche « fermé jusqu'au 24 août », sans année : ce jour n'est pas repris.",
+   "addr": "2 avenue de l'Europe, 78590 Noisy-le-Roi",
+   "src": "https://www.brasserietoussaint.com/restaurant-3/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 87 66 67 45",
+    "site": "https://www.brasserietoussaint.com",
+    "source": "https://www.brasserietoussaint.com/contact-2/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserietoussaint.com/restaurant-3/",
+     "mar": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.brasserietoussaint.com/restaurant-3/",
+   "https://www.brasserietoussaint.com/contact-2/",
+   "https://data.geopf.fr/geocodage/search?q=2+avenue+de+l%27Europe%2C+78590+Noisy-le-Roi&limit=5"
+  ],
+  "extrait": "Vous pouvez désormais acheter nos bouteilles directement au pieds des cuves.",
+  "choix": "Lu aussi sur la page du restaurant : « déguster des bières fraîches, au pied même des cuves ». Fixe retenu ; le portable est réservé aux groupes. Source rouverte à la main le 30/10."
+ }
+}

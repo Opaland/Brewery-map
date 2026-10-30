@@ -1,0 +1,167 @@
+[
+  {
+    "cle": "sirene:788908853",
+    "n": "Brasserie artisanale de Marcoussis (OX)",
+    "c": "Marcoussis",
+    "adresse": "50 route d'Orsay, 91460 Marcoussis",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site donne les horaires du bar et de la vente sur place.",
+    "src": "https://brasserie-ox.fr/contact/",
+    "extrait": "Horaires du bar et de la vente sur place",
+    "beers": [],
+    "choix": "Même brasserie que le point OSM node/11987264719. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 69 63 45 54",
+      "site": "https://brasserie-ox.fr/",
+      "source": "https://brasserie-ox.fr/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "13:00"
+          ],
+          [
+            "15:00",
+            "20:00"
+          ]
+        ],
+        "source": "https://brasserie-ox.fr/contact/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:828711895",
+    "n": "Brasserie de la Juine",
+    "c": "Ballancourt-sur-Essonne",
+    "adresse": "3 bis rue des Bernaches, 91610 Ballancourt-sur-Essonne",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Un brewpub sert à la pression les bières brassées sur place. Le site ne cite qu'une boutique en ligne : il ne dit pas la vente à emporter sur place.",
+    "src": "http://www.brasseriedelajuine.fr",
+    "extrait": "Bienvenue à la Brasserie de la Juine, brasserie artisanale et Brewpub à Ballancourt-sur-Essonne.",
+    "beers": [],
+    "choix": "Réponse de Cédric du 29/10 : un bar dont la source ne dit pas la vente à emporter, catégorie 1, confiance faible. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 86 10 04 61",
+      "site": "http://www.brasseriedelajuine.fr",
+      "source": "http://www.brasseriedelajuine.fr"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "20:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "20:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "21:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "11:00",
+            "23:00"
+          ]
+        ],
+        "source": "http://www.brasseriedelajuine.fr",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:882589708",
+    "n": "Kings of Nawak Brewery",
+    "c": "Étampes",
+    "adresse": "25 avenue des Grenots, 91150 Étampes",
+    "cat": 0,
+    "conf": "",
+    "note": "Le site donne des horaires, le vendredi et le samedi de 14h à 18h ou sur rendez-vous, sans dire ce qu'on peut y acheter ou y boire.",
+    "src": "https://www.kingsofnawakbrewery.com",
+    "extrait": "Vendredi : 14H à 18H",
+    "beers": [],
+    "choix": "Deux portables publiés, aucun fixe, aucun nom attaché sur cette page : le premier est retenu. Adresse du registre, le site ne la donne pas sur cette page. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "07 49 86 50 04",
+      "site": "https://www.kingsofnawakbrewery.com",
+      "source": "https://www.kingsofnawakbrewery.com"
+    }
+  },
+  {
+    "cle": "node/7804876931",
+    "n": "La Bouledogue",
+    "c": "Villebon-sur-Yvette",
+    "adresse": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie indépendante qui ouvre ses portes aux visites du lundi au vendredi, sans parler de vente ni de dégustation sur place.",
+    "src": "http://www.labouledogue.fr/",
+    "extrait": "la brasserie vous ouvre ses portes du lundi au vendredi",
+    "beers": [],
+    "choix": "OSM disait Saulx-les-Chartreux, le site Villebon-sur-Yvette. Deux portables, chacun attaché à un nom de personne : aucun n'est retenu. Source rouverte à la main le 30/10.",
+    "contact": {
+      "site": "http://www.labouledogue.fr/",
+      "source": "http://www.labouledogue.fr/"
+    }
+  }
+]

@@ -23895,5 +23895,1006 @@
     "verifieLe": "2026-10-29"
    }
   ]
+ },
+ {
+  "n": "La Gâtine",
+  "c": "Mondreville",
+  "d": "77",
+  "lat": 48.15193,
+  "lon": 2.56637,
+  "km": 321.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de ferme. L'office de tourisme indique une vente sur place et un magasin à la ferme ouvert sur rendez-vous.",
+  "addr": "6 hameau de Pilvernier, 77570 Mondreville",
+  "src": "https://www.fontainebleau-tourisme.com/en/file/730231/la-gatine-beer",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30"
+ },
+ {
+  "n": "Brasserie Parisis",
+  "c": "Combs-la-Ville",
+  "d": "77",
+  "lat": 48.64882,
+  "lon": 2.56834,
+  "km": 369.7,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Une boutique et une taproom sont ouvertes dans la brasserie depuis l'été 2023. Aucun horaire sur le site.",
+  "addr": "3 rue René Dumont, 77380 Combs-la-Ville",
+  "src": "https://brasserie-parisis.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 60 46 62 33",
+   "site": "https://brasserie-parisis.com/",
+   "source": "https://brasserie-parisis.com/",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie de Meaux",
+  "c": "Meaux",
+  "d": "77",
+  "lat": 48.95853,
+  "lon": 2.90771,
+  "km": 390.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique ouverte le vendredi et le samedi matin, click & collect, fûts et visites guidées. Le site ne décrit pas de dégustation ouverte à tous.",
+  "addr": "11 rue des Buttes Blanches, 77100 Meaux",
+  "src": "http://www.brasseriedemeaux.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "06 51 38 33 01",
+   "site": "http://www.brasseriedemeaux.com/",
+   "source": "http://www.brasseriedemeaux.com/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ]
+    ],
+    "source": "http://www.brasseriedemeaux.com/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "L'Instant",
+  "c": "Pontault-Combault",
+  "d": "77",
+  "lat": 48.79917,
+  "lon": 2.63012,
+  "km": 382.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "La Taproom, bar interne de la brasserie, est ouverte en fin de semaine ; on peut aussi y acheter des bières à emporter. Le site ne donne pas les heures sur cette page.",
+  "addr": "24 bis rue du Pré des Aulnes, 77340 Pontault-Combault",
+  "src": "https://bieres-linstant.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "09 87 16 00 70",
+   "site": "https://bieres-linstant.fr/",
+   "source": "https://bieres-linstant.fr/",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie Rabourdin",
+  "c": "Courpalay",
+  "d": "77",
+  "lat": 48.65062,
+  "lon": 2.95668,
+  "km": 357.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Ferme-brasserie (bière de Brie). Le site annonce un magasin ouvert du mardi au samedi ; il ne détaille ni la vente ni une dégustation sur place.",
+  "addr": "22 rue Lafayette, 77540 Courpalay",
+  "src": "https://www.brasserierabourdin.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "site": "https://www.brasserierabourdin.com/",
+   "source": "https://www.brasserierabourdin.com/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasserierabourdin.com/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie des Grottes",
+  "c": "Boissise-la-Bertrand",
+  "d": "77",
+  "lat": 48.53605,
+  "lon": 2.56224,
+  "km": 358.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie dans une grotte, au bord de la Seine. La fiche de l'office de tourisme cite une boutique et une dégustation après la visite, avant de repartir avec quelques bouteilles.",
+  "addr": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+  "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "18:00",
+      "01:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "La Bière de Provins",
+  "c": "Provins",
+  "d": "77",
+  "lat": 48.56037,
+  "lon": 3.2993,
+  "km": 339.2,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Micro-brasserie ouverte au public : bières à déguster sur place ou à emporter, selon son site.",
+  "addr": "3 place du Maréchal Leclerc, 77160 Provins",
+  "src": "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 64 08 65 92",
+   "site": "https://www.labieredeprovins.com/",
+   "source": "https://labieredeprovins.com/contact",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "16:00",
+      "21:30"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "21:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "23:30"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://labieredeprovins.com/contact",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Les Bières de Papa",
+  "c": "Moret-Loing-et-Orvanne",
+  "d": "77",
+  "lat": 48.36895,
+  "lon": 2.83451,
+  "km": 333.1,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Bières brassées sur place, à boire sur place ou à acheter à emporter, selon le site de la brasserie.",
+  "addr": "89 avenue de Sens, 77250 Moret-Loing-et-Orvanne",
+  "src": "https://lesbieresdepapa.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "site": "https://lesbieresdepapa.com",
+   "source": "https://lesbieresdepapa.com",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "00:00"
+     ]
+    ],
+    "source": "https://lesbieresdepapa.com",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "La Magicienne",
+  "c": "La Houssaye-en-Brie",
+  "d": "77",
+  "lat": 48.75374,
+  "lon": 2.87381,
+  "km": 370.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie avec boutique et tap room. Son site dit accueillir le public les jeudis, vendredis et samedis jusqu'à 22h, sans heure d'ouverture.",
+  "addr": "30 place du Maréchal Augereau, 77610 La Houssaye-en-Brie",
+  "src": "https://untappd.com/LaMagicienne",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "site": "https://lamagicienne.beer/",
+   "untappd": "https://untappd.com/LaMagicienne",
+   "source": "https://untappd.com/LaMagicienne",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": "heures-non-precisees",
+    "ven": "heures-non-precisees",
+    "sam": "heures-non-precisees",
+    "remarque": "Jusqu'à 22h.",
+    "source": "https://lamagicienne.beer/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Volcelest",
+  "c": "Le Perray-en-Yvelines",
+  "d": "78",
+  "lat": 48.6954,
+  "lon": 1.8411,
+  "km": 401.6,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie bio. Le site donne les horaires de sa boutique pour la vente aux particuliers ; il ne parle pas de dégustation.",
+  "addr": "28 rue du Roseau, 78610 Le Perray-en-Yvelines",
+  "src": "https://www.brasserievolcelest.fr/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "09 62 35 27 83",
+   "site": "https://www.brasserievolcelest.fr/",
+   "source": "https://www.brasserievolcelest.fr/contact/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Fermeture à 18h en janvier et février.",
+    "source": "https://www.brasserievolcelest.fr/contact/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "La P'tite Sœur",
+  "c": "Sartrouville",
+  "d": "78",
+  "lat": 48.93235,
+  "lon": 2.14869,
+  "km": 412.1,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le Relais, l'espace ouvert au public, sert les bières de la brasserie, d'après son site. La boutique n'est citée que par l'office de tourisme, dont la fiche date de 2024.",
+  "addr": "165 avenue de la République, 78500 Sartrouville",
+  "src": "https://www.seine-saintgermain.fr/en/touristic_sheet/la-ptite-soeur-sartrouville-en-5356430/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "06 28 40 12 52",
+   "site": "https://www.laptitesoeur.com/",
+   "source": "https://www.laptitesoeur.com/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.laptitesoeur.com/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie O'Clock Brewing",
+  "c": "Bois-d'Arcy",
+  "d": "78",
+  "lat": 48.80095,
+  "lon": 2.0089,
+  "km": 404.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site invite à passer à la brasserie et vend en ligne ; il ne dit pas si l'on peut acheter ou boire sur place. Horaires affichés sans dire de quoi : non repris.",
+  "addr": "3 rue Georges Méliès, 78390 Bois-d'Arcy",
+  "src": "https://oclockbrewing.fr/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "09 51 53 11 22",
+   "site": "https://oclockbrewing.fr/",
+   "source": "https://oclockbrewing.fr/contact/",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie Toussaint",
+  "c": "Noisy-le-Roi",
+  "d": "78",
+  "lat": 48.84357,
+  "lon": 2.05737,
+  "km": 406.9,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Boutique au pied des cuves, et un brewpub où l'on déguste sur place, selon le site. Le samedi, la boutique affiche « fermé jusqu'au 24 août », sans année : ce jour n'est pas repris.",
+  "addr": "2 avenue de l'Europe, 78590 Noisy-le-Roi",
+  "src": "https://www.brasserietoussaint.com/restaurant-3/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 87 66 67 45",
+   "site": "https://www.brasserietoussaint.com",
+   "source": "https://www.brasserietoussaint.com/contact-2/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasserietoussaint.com/restaurant-3/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie 2 L'Équipage",
+  "c": "Bonnelles",
+  "d": "78",
+  "lat": 48.62509,
+  "lon": 2.02626,
+  "km": 387.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "L'office de tourisme de Rambouillet annonce une boutique, le click & collect et des horaires ; le site de la brasserie n'en dit rien.",
+  "addr": "8 rue des Jacinthes Sauvages, 78830 Bonnelles",
+  "src": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "06 78 46 91 98",
+   "site": "https://brasserie2lequipage.fr",
+   "source": "https://brasserie2lequipage.fr",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "18:00",
+      "19:30"
+     ]
+    ],
+    "mar": [
+     [
+      "18:00",
+      "19:30"
+     ]
+    ],
+    "mer": [
+     [
+      "18:00",
+      "19:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "19:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "18:00",
+      "19:30"
+     ]
+    ],
+    "sam": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie du Roi",
+  "c": "Saint-Cyr-l'École",
+  "d": "78",
+  "lat": 48.81158,
+  "lon": 2.07736,
+  "km": 403.1,
+  "cat": 1,
+  "conf": "faible",
+  "note": "La Ménagerie, le restaurant et bar à bières de la brasserie, sert ses bières brassées sur place ; le site cite une boutique sans dire la vente à emporter. Horaires non repris : les deux sites de la brasserie ne donnent pas les mêmes le soir.",
+  "addr": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+  "src": "https://labrasserieduroi.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "09 83 65 63 85",
+   "site": "https://labrasserieduroi.com/",
+   "source": "https://labrasserieduroi.com/contact/",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie La Voisine",
+  "c": "Villiers-Saint-Frédéric",
+  "d": "78",
+  "lat": 48.81558,
+  "lon": 1.87868,
+  "km": 411.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio avec une boutique ouverte jeudi, vendredi et samedi. Le site cite des soirées guinguette, sans dire ce qui se passe le reste du temps.",
+  "addr": "13 rue de la Gare, 78640 Villiers-Saint-Frédéric",
+  "src": "https://brasserielavoisine.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "06 84 77 32 84",
+   "site": "https://brasserielavoisine.com",
+   "source": "https://brasserielavoisine.com",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ]
+    ],
+    "source": "https://brasserielavoisine.com",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "La Bouledogue",
+  "c": "Villebon-sur-Yvette",
+  "d": "91",
+  "lat": 48.69789,
+  "lon": 2.23543,
+  "km": 386.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie indépendante qui ouvre ses portes aux visites du lundi au vendredi, sans parler de vente ni de dégustation sur place.",
+  "addr": "Complexe industriel de la Prairie, rue de la Prairie, 91140 Villebon-sur-Yvette",
+  "src": "http://www.labouledogue.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "site": "http://www.labouledogue.fr/",
+   "source": "http://www.labouledogue.fr/",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie artisanale de Marcoussis (OX)",
+  "c": "Marcoussis",
+  "d": "91",
+  "lat": 48.65939,
+  "lon": 2.20718,
+  "km": 383.7,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site donne les horaires du bar et de la vente sur place.",
+  "addr": "50 route d'Orsay, 91460 Marcoussis",
+  "src": "https://brasserie-ox.fr/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 69 63 45 54",
+   "site": "https://brasserie-ox.fr/",
+   "source": "https://brasserie-ox.fr/contact/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://brasserie-ox.fr/contact/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de la Juine",
+  "c": "Ballancourt-sur-Essonne",
+  "d": "91",
+  "lat": 48.52977,
+  "lon": 2.38767,
+  "km": 364.5,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Un brewpub sert à la pression les bières brassées sur place. Le site ne cite qu'une boutique en ligne : il ne dit pas la vente à emporter sur place.",
+  "addr": "3 bis rue des Bernaches, 91610 Ballancourt-sur-Essonne",
+  "src": "http://www.brasseriedelajuine.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 86 10 04 61",
+   "site": "http://www.brasseriedelajuine.fr",
+   "source": "http://www.brasseriedelajuine.fr",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "20:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "source": "http://www.brasseriedelajuine.fr",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Kings of Nawak Brewery",
+  "c": "Étampes",
+  "d": "91",
+  "lat": 48.45151,
+  "lon": 2.15441,
+  "km": 366.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site donne des horaires, le vendredi et le samedi de 14h à 18h ou sur rendez-vous, sans dire ce qu'on peut y acheter ou y boire.",
+  "addr": "25 avenue des Grenots, 91150 Étampes",
+  "src": "https://www.kingsofnawakbrewery.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "07 49 86 50 04",
+   "site": "https://www.kingsofnawakbrewery.com",
+   "source": "https://www.kingsofnawakbrewery.com",
+   "verifieLe": "2026-10-30"
+  }
+ },
+ {
+  "n": "Brasserie d'Orville",
+  "c": "Louvres",
+  "d": "95",
+  "lat": 49.03921,
+  "lon": 2.50589,
+  "km": 410.6,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Bar et restaurant sur place ; les bières s'achètent sur place aux horaires d'ouverture. Le samedi n'est pas repris : la page donne deux horaires différents pour ce jour.",
+  "addr": "29 rue de Paris, 95380 Louvres",
+  "src": "https://brasseriedorville.com/contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 85 52 11 11",
+   "site": "https://brasseriedorville.com",
+   "source": "https://brasseriedorville.com/contact/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "source": "https://brasseriedorville.com/contact/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Ferme Brasserie du Vexin",
+  "c": "Théméricourt",
+  "d": "95",
+  "lat": 49.08478,
+  "lon": 1.89373,
+  "km": 436.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la ferme ouverte le week-end, sauf jours fériés. « Dans le contexte actuel », dit le site, la vente est à emporter seulement, sans dégustation.",
+  "addr": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+  "src": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "01 30 39 24 43",
+   "site": "https://www.biere-du-vexin.com",
+   "source": "https://www.biere-du-vexin.com/contact/",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "sam": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "remarque": "Fermé les jours fériés, même tombant un week-end.",
+    "source": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+    "verifieLe": "2026-10-30"
+   }
+  ]
+ },
+ {
+  "n": "Terrabière",
+  "c": "Deuil-la-Barre",
+  "d": "95",
+  "lat": 48.97594,
+  "lon": 2.32709,
+  "km": 410.1,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Microbrasserie avec vente directe à emporter, salon de dégustation et terrasse, selon son site.",
+  "addr": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+  "src": "https://brasserie-terrabiere.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-30",
+  "contact": {
+   "tel": "09 51 55 42 15",
+   "site": "https://brasserie-terrabiere.com",
+   "source": "https://brasserie-terrabiere.com",
+   "verifieLe": "2026-10-30"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "source": "https://brasserie-terrabiere.com",
+    "verifieLe": "2026-10-30"
+   }
+  ]
  }
 ]

@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:832276513",
+ "ajout": {
+  "fiche": {
+   "n": "Terrabière",
+   "c": "Deuil-la-Barre",
+   "d": "95",
+   "lat": 48.97594,
+   "lon": 2.32709,
+   "km": 410.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Microbrasserie avec vente directe à emporter, salon de dégustation et terrasse, selon son site.",
+   "addr": "13 rue Charles de Gaulle, 95170 Deuil-la-Barre",
+   "src": "https://brasserie-terrabiere.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 55 42 15",
+    "site": "https://brasserie-terrabiere.com",
+    "source": "https://brasserie-terrabiere.com",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-terrabiere.com",
+     "mar": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://brasserie-terrabiere.com",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+Charles+de+Gaulle%2C+95170+Deuil-la-Barre&limit=5"
+  ],
+  "extrait": "Vente directe à emporter",
+  "choix": "Lu aussi sur le site : « Le salon de dégustation ». Horaires du site seuls, ceux des annuaires diffèrent. Source rouverte à la main le 30/10."
+ }
+}

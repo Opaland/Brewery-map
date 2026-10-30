@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:882589708",
+ "ajout": {
+  "fiche": {
+   "n": "Kings of Nawak Brewery",
+   "c": "Étampes",
+   "d": "91",
+   "lat": 48.45151,
+   "lon": 2.15441,
+   "km": 366.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site donne des horaires, le vendredi et le samedi de 14h à 18h ou sur rendez-vous, sans dire ce qu'on peut y acheter ou y boire.",
+   "addr": "25 avenue des Grenots, 91150 Étampes",
+   "src": "https://www.kingsofnawakbrewery.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 49 86 50 04",
+    "site": "https://www.kingsofnawakbrewery.com",
+    "source": "https://www.kingsofnawakbrewery.com",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.kingsofnawakbrewery.com",
+   "https://data.geopf.fr/geocodage/search?q=25+avenue+des+Grenots%2C+91150+%C3%89tampes&limit=5"
+  ],
+  "extrait": "Vendredi : 14H à 18H",
+  "choix": "Deux portables publiés, aucun fixe, aucun nom attaché sur cette page : le premier est retenu. Adresse du registre, le site ne la donne pas sur cette page. Source rouverte à la main le 30/10."
+ }
+}

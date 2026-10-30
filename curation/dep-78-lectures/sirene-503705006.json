@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:503705006",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Volcelest",
+   "c": "Le Perray-en-Yvelines",
+   "d": "78",
+   "lat": 48.6954,
+   "lon": 1.8411,
+   "km": 401.6,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Brasserie bio. Le site donne les horaires de sa boutique pour la vente aux particuliers ; il ne parle pas de dégustation.",
+   "addr": "28 rue du Roseau, 78610 Le Perray-en-Yvelines",
+   "src": "https://www.brasserievolcelest.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 62 35 27 83",
+    "site": "https://www.brasserievolcelest.fr/",
+    "source": "https://www.brasserievolcelest.fr/contact/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserievolcelest.fr/contact/",
+     "mar": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Fermeture à 18h en janvier et février.",
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.brasserievolcelest.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=28+rue+du+Roseau%2C+78610+Le+Perray-en-Yvelines&limit=5"
+  ],
+  "extrait": "Du Mardi au Vendredi de 16h00 à 19h00",
+  "choix": "Même établissement que le point OSM node/7203823199. Source rouverte à la main le 30/10."
+ }
+}

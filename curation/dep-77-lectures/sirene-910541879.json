@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:910541879",
+ "ajout": {
+  "fiche": {
+   "n": "La Bière de Provins",
+   "c": "Provins",
+   "d": "77",
+   "lat": 48.56037,
+   "lon": 3.2993,
+   "km": 339.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Micro-brasserie ouverte au public : bières à déguster sur place ou à emporter, selon son site.",
+   "addr": "3 place du Maréchal Leclerc, 77160 Provins",
+   "src": "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 64 08 65 92",
+    "site": "https://www.labieredeprovins.com/",
+    "source": "https://labieredeprovins.com/contact",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://labieredeprovins.com/contact",
+     "mar": [
+      [
+       "16:00",
+       "21:30"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "21:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:30"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:30"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.labieredeprovins.com/histoire-micro-brasserie-artisanale-provins/",
+   "https://labieredeprovins.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=3+place+du+Mar%C3%A9chal+Leclerc%2C+77160+Provins&limit=5"
+  ],
+  "extrait": "la déguster sur place ou à emporter",
+  "choix": "Pas de page Untappd trouvée. Source rouverte à la main le 30/10."
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:851507087",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Grottes",
+   "c": "Boissise-la-Bertrand",
+   "d": "77",
+   "lat": 48.53605,
+   "lon": 2.56224,
+   "km": 358.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie dans une grotte, au bord de la Seine. La fiche de l'office de tourisme cite une boutique et une dégustation après la visite, avant de repartir avec quelques bouteilles.",
+   "addr": "1806 rue de Seine, 77350 Boissise-la-Bertrand",
+   "src": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+     "ven": [
+      [
+       "18:00",
+       "01:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.visitparisregion.com/fr/brasserie-des-grottes",
+   "https://data.geopf.fr/geocodage/search?q=1806+rue+de+Seine%2C+77350+Boissise-la-Bertrand&limit=5"
+  ],
+  "extrait": "avant de repartir avec quelques bouteilles en souvenir",
+  "choix": "Source unique : office de tourisme, donc confiance moyenne au plus. Pas de téléphone sur cette page. Source rouverte à la main le 30/10."
+ }
+}

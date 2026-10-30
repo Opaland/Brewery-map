@@ -1,0 +1,86 @@
+{
+ "candidat": "sirene:828711895",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Juine",
+   "c": "Ballancourt-sur-Essonne",
+   "d": "91",
+   "lat": 48.52977,
+   "lon": 2.38767,
+   "km": 364.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Un brewpub sert à la pression les bières brassées sur place. Le site ne cite qu'une boutique en ligne : il ne dit pas la vente à emporter sur place.",
+   "addr": "3 bis rue des Bernaches, 91610 Ballancourt-sur-Essonne",
+   "src": "http://www.brasseriedelajuine.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 86 10 04 61",
+    "site": "http://www.brasseriedelajuine.fr",
+    "source": "http://www.brasseriedelajuine.fr",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.brasseriedelajuine.fr",
+     "mar": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "20:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "20:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "http://www.brasseriedelajuine.fr",
+   "https://data.geopf.fr/geocodage/search?q=3+bis+rue+des+Bernaches%2C+91610+Ballancourt-sur-Essonne&limit=5"
+  ],
+  "extrait": "Bienvenue à la Brasserie de la Juine, brasserie artisanale et Brewpub à Ballancourt-sur-Essonne.",
+  "choix": "Réponse de Cédric du 29/10 : un bar dont la source ne dit pas la vente à emporter, catégorie 1, confiance faible. Source rouverte à la main le 30/10."
+ }
+}

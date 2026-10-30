@@ -1,0 +1,62 @@
+{
+ "candidat": "sirene:433674967",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme Brasserie du Vexin",
+   "c": "Théméricourt",
+   "d": "95",
+   "lat": 49.08478,
+   "lon": 1.89373,
+   "km": 436,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la ferme ouverte le week-end, sauf jours fériés. « Dans le contexte actuel », dit le site, la vente est à emporter seulement, sans dégustation.",
+   "addr": "3 rue de la Croix des Ruelles, 95450 Théméricourt",
+   "src": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "01 30 39 24 43",
+    "site": "https://www.biere-du-vexin.com",
+    "source": "https://www.biere-du-vexin.com/contact/",
+    "verifieLe": "2026-10-30"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "dim": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "14:30",
+       "18:00"
+      ]
+     ],
+     "remarque": "Fermé les jours fériés, même tombant un week-end.",
+     "verifieLe": "2026-10-30"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://www.biere-du-vexin.com/la-boutique-les-horaires/",
+   "https://www.biere-du-vexin.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+de+la+Croix+des+Ruelles%2C+95450+Th%C3%A9m%C3%A9ricourt&limit=5"
+  ],
+  "extrait": "nous ne faisons que de la vente à emporter",
+  "choix": "Fixe retenu ; le site met aussi en avant un portable. Adresse du registre. Source rouverte à la main le 30/10."
+ }
+}

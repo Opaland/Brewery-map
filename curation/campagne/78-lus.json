@@ -1,0 +1,284 @@
+[
+  {
+    "cle": "sirene:840301055",
+    "n": "Brasserie du Roi",
+    "c": "Saint-Cyr-l'École",
+    "adresse": "75 rue du Docteur Vaillant, 78210 Saint-Cyr-l'École",
+    "cat": 1,
+    "conf": "faible",
+    "note": "La Ménagerie, le restaurant et bar à bières de la brasserie, sert ses bières brassées sur place ; le site cite une boutique sans dire la vente à emporter. Horaires non repris : les deux sites de la brasserie ne donnent pas les mêmes le soir.",
+    "src": "https://labrasserieduroi.com/",
+    "extrait": "Plongez dans La Ménagerie : bières brassées sous vos yeux, burgers maison savoureux et une ambiance qui ne ressemble à aucune autre.",
+    "beers": [],
+    "choix": "Réponse de Cédric du 29/10 : catégorie 1, confiance faible. Numéro affiché par la brasserie sur ses pages retenu ; celui du restaurant et le lien tel: de la même page diffèrent. Même lieu que node/12327046734. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "09 83 65 63 85",
+      "site": "https://labrasserieduroi.com/",
+      "source": "https://labrasserieduroi.com/contact/"
+    }
+  },
+  {
+    "cle": "sirene:503705006",
+    "n": "Brasserie Volcelest",
+    "c": "Le Perray-en-Yvelines",
+    "adresse": "28 rue du Roseau, 78610 Le Perray-en-Yvelines",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie bio. Le site donne les horaires de sa boutique pour la vente aux particuliers ; il ne parle pas de dégustation.",
+    "src": "https://www.brasserievolcelest.fr/contact/",
+    "extrait": "Du Mardi au Vendredi de 16h00 à 19h00",
+    "beers": [],
+    "choix": "Même établissement que le point OSM node/7203823199. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "09 62 35 27 83",
+      "site": "https://www.brasserievolcelest.fr/",
+      "source": "https://www.brasserievolcelest.fr/contact/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mar": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "remarque": "Fermeture à 18h en janvier et février.",
+        "source": "https://www.brasserievolcelest.fr/contact/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:811394626",
+    "n": "Brasserie O'Clock Brewing",
+    "c": "Bois-d'Arcy",
+    "adresse": "3 rue Georges Méliès, 78390 Bois-d'Arcy",
+    "cat": 0,
+    "conf": "",
+    "note": "Le site invite à passer à la brasserie et vend en ligne ; il ne dit pas si l'on peut acheter ou boire sur place. Horaires affichés sans dire de quoi : non repris.",
+    "src": "https://oclockbrewing.fr/contact/",
+    "extrait": "Passez nous voir à la brasserie",
+    "beers": [],
+    "choix": "Adresse publiée « 3 d Rue Georges Méliès », écrite comme SIRENE. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "09 51 53 11 22",
+      "site": "https://oclockbrewing.fr/",
+      "source": "https://oclockbrewing.fr/contact/"
+    }
+  },
+  {
+    "cle": "sirene:827467663",
+    "n": "Brasserie 2 L'Équipage",
+    "c": "Bonnelles",
+    "adresse": "8 rue des Jacinthes Sauvages, 78830 Bonnelles",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "L'office de tourisme de Rambouillet annonce une boutique, le click & collect et des horaires ; le site de la brasserie n'en dit rien.",
+    "src": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+    "extrait": "le lundi, mardi, mercredi et vendredi de 18h à 19h30. Le jeudi de 19h à 20h. Le samedi de 13h à 20h.",
+    "beers": [],
+    "choix": "Portable : seule ligne publiée, sur le site et sur l'office (règle du 21/10). Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "06 78 46 91 98",
+      "site": "https://brasserie2lequipage.fr",
+      "source": "https://brasserie2lequipage.fr"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "lun": [
+          [
+            "18:00",
+            "19:30"
+          ]
+        ],
+        "mar": [
+          [
+            "18:00",
+            "19:30"
+          ]
+        ],
+        "mer": [
+          [
+            "18:00",
+            "19:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "19:00",
+            "20:00"
+          ]
+        ],
+        "ven": [
+          [
+            "18:00",
+            "19:30"
+          ]
+        ],
+        "sam": [
+          [
+            "13:00",
+            "20:00"
+          ]
+        ],
+        "source": "https://www.rambouillet-tourisme.fr/brasserie-2-lequipage/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:753691773",
+    "n": "La P'tite Sœur",
+    "c": "Sartrouville",
+    "adresse": "165 avenue de la République, 78500 Sartrouville",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le Relais, l'espace ouvert au public, sert les bières de la brasserie, d'après son site. La boutique n'est citée que par l'office de tourisme, dont la fiche date de 2024.",
+    "src": "https://www.seine-saintgermain.fr/en/touristic_sheet/la-ptite-soeur-sartrouville-en-5356430/",
+    "extrait": "Product tasting",
+    "beers": [],
+    "choix": "Horaires du site repris, ceux de l'office diffèrent et sont plus anciens. Portable : seule ligne publiée par la brasserie, le fixe n'étant que sur l'office. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "06 28 40 12 52",
+      "site": "https://www.laptitesoeur.com/",
+      "source": "https://www.laptitesoeur.com/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "jeu": [
+          [
+            "17:00",
+            "21:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "21:00"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "21:00"
+          ]
+        ],
+        "source": "https://www.laptitesoeur.com/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:818305443",
+    "n": "Brasserie Toussaint",
+    "c": "Noisy-le-Roi",
+    "adresse": "2 avenue de l'Europe, 78590 Noisy-le-Roi",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Boutique au pied des cuves, et un brewpub où l'on déguste sur place, selon le site. Le samedi, la boutique affiche « fermé jusqu'au 24 août », sans année : ce jour n'est pas repris.",
+    "src": "https://www.brasserietoussaint.com/restaurant-3/",
+    "extrait": "Vous pouvez désormais acheter nos bouteilles directement au pieds des cuves.",
+    "beers": [],
+    "choix": "Lu aussi sur la page du restaurant : « déguster des bières fraîches, au pied même des cuves ». Fixe retenu ; le portable est réservé aux groupes. Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "01 87 66 67 45",
+      "site": "https://www.brasserietoussaint.com",
+      "source": "https://www.brasserietoussaint.com/contact-2/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mar": [
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "mer": [
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "ven": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "source": "https://www.brasserietoussaint.com/restaurant-3/",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:852891753",
+    "n": "Brasserie La Voisine",
+    "c": "Villiers-Saint-Frédéric",
+    "adresse": "13 rue de la Gare, 78640 Villiers-Saint-Frédéric",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie bio avec une boutique ouverte jeudi, vendredi et samedi. Le site cite des soirées guinguette, sans dire ce qui se passe le reste du temps.",
+    "src": "https://brasserielavoisine.com",
+    "extrait": "Jeudi & vendredi 16h – 19h",
+    "beers": [],
+    "choix": "Portable : seule ligne publiée (règle du 21/10). Source rouverte à la main le 30/10.",
+    "contact": {
+      "tel": "06 84 77 32 84",
+      "site": "https://brasserielavoisine.com",
+      "source": "https://brasserielavoisine.com"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "jeu": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:00",
+            "13:00"
+          ]
+        ],
+        "source": "https://brasserielavoisine.com",
+        "verifieLe": "2026-10-30"
+      }
+    ]
+  }
+]

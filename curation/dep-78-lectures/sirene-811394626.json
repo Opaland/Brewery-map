@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:811394626",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie O'Clock Brewing",
+   "c": "Bois-d'Arcy",
+   "d": "78",
+   "lat": 48.80095,
+   "lon": 2.0089,
+   "km": 404.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site invite à passer à la brasserie et vend en ligne ; il ne dit pas si l'on peut acheter ou boire sur place. Horaires affichés sans dire de quoi : non repris.",
+   "addr": "3 rue Georges Méliès, 78390 Bois-d'Arcy",
+   "src": "https://oclockbrewing.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 53 11 22",
+    "site": "https://oclockbrewing.fr/",
+    "source": "https://oclockbrewing.fr/contact/",
+    "verifieLe": "2026-10-30"
+   }
+  },
+  "verifieLe": "2026-10-30",
+  "sources": [
+   "https://oclockbrewing.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+Georges+M%C3%A9li%C3%A8s%2C+78390+Bois-d%27Arcy&limit=5"
+  ],
+  "extrait": "Passez nous voir à la brasserie",
+  "choix": "Adresse publiée « 3 d Rue Georges Méliès », écrite comme SIRENE. Source rouverte à la main le 30/10."
+ }
+}
