@@ -4,7 +4,22 @@ Story S229 (revue d'architecture du 17/10, risque R3), remesurée en S364.
 À refaire à chaque revue globale (un test le vérifie :
 `tests/unit/contribuer.test.ts`).
 
-Dernière mesure : 2026-10-27
+Dernière mesure : 2026-10-30
+
+## Local, 30/10 (PC fixe sous Windows, un seul exécutant Playwright, chaque étape chronométrée à part)
+
+| Étape | Commande | Durée |
+|---|---|---:|
+| Lint | `npm run lint` | 10 s |
+| Typecheck | `npx tsc -b --noEmit` | 1 s (cache incrémental chaud) |
+| Unitaires | `npx vitest run` (967 tests, 100 fichiers) | 9 s |
+| Garde de `data/` | `npx tsx outils/garde-donnees.ts` | 2 s |
+| Build | `npm run build` | 2 s |
+| E2E | `npx playwright test` (259 tests, 8 ignorés) | 189 s |
+| **Total** | | **≈ 213 s** |
+
+Lint et unitaires ont été chronométrés sur un état où chacun avait un seul
+rouge, corrigé ensuite : l'ordre de grandeur tient, pas la seconde.
 
 ## Local, 27/10 (conteneur cloud, 4 cœurs, un seul exécutant Playwright — AGENTS.md §6)
 
@@ -19,8 +34,7 @@ Dernière mesure : 2026-10-27
 | **Total** | | **≈ 390 s** |
 
 390 s, c'est 87 % du budget de 450 s fixé plus bas, et 65 % du délai du
-crochet (600 s). Sous Windows (le PC fixe de Cédric), la durée n'est **pas
-mesurée**.
+crochet (600 s).
 
 ## Local, 17/10 (première mesure ; la garde de `data/`, ajoutée en S306, mesurée le 20/10)
 

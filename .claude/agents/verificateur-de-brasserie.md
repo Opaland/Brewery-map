@@ -28,7 +28,7 @@ dans `docs/DONNEES.md`.
    la source déjà citée (`src`), puis le **site officiel** de
    la brasserie s'il existe. Une page d'annuaire, d'agrégateur ou de réseau
    social n'est qu'une piste : dis-le si c'est tout ce que tu trouves.
-2. Cherche ce qui établit **ce qu'on peut y faire** (catégorie 0 à 3,
+2. Cherche ce qui établit **ce qu'on peut y faire** (catégorie 0 à 4,
    `src/core/categories.ts`), un **téléphone**, un **site**, une page
    **Untappd** (seulement `untappd.com`), des **horaires** et des **types de
    bière**.
@@ -51,7 +51,7 @@ dans `docs/DONNEES.md`.
   bloc par nature (`accueil` ou `vente`), seulement si la source les donne.
   Ce que les créneaux ne savent pas dire (« fermé d'octobre à mai ») va dans
   `remarque`.
-- **Catégorie** : une catégorie de 1 à 3 exige une source (`src`) et une
+- **Catégorie** : une catégorie de 1 à 4 exige une source (`src`) et une
   confiance (`conf`) ; la catégorie 0 a une confiance vide. Ne monte pas la
   confiance au-delà de ce que la source montre (`docs/DONNEES.md`).
 - **Untappd** : un lien vers la page de la brasserie, vérifié ouvert ; on ne

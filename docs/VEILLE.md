@@ -20,7 +20,7 @@ action hors de la session, qu'il doit choisir.
 ## Ce qui est prêt
 
 - Le skill `.claude/skills/veille/SKILL.md`.
-- `npx tsx outils/curation.ts lot 10 --veille` : les catégories 1 à 3,
+- `npx tsx outils/curation.ts lot 10 --veille` : les catégories 1 à 4,
   jamais vérifiées d'abord (catégorie 1 en tête), puis les plus anciennes ;
   `lot 10` : les « À confirmer » jamais revus. Les deux sont testés et ne se
   recoupent pas.
@@ -33,9 +33,9 @@ action hors de la session, qu'il doit choisir.
   attend la décision de Cédric. Sans veille armée, il n'est lu que quand
   Cédric lance une curation à la main : l'écran dit déjà « Aucun délai
   n'est garanti ».
-- **Une fiche vendue** (catégories 1 à 3, 65 fiches au 16/10) est revue au
-  plus tard 7 mois après l'armement (10 par mois), puis revient à son tour,
-  la plus anciennement vérifiée d'abord.
+- **Une fiche à catégorie établie** (catégories 1 à 4, 398 fiches au 30/10)
+  revient à son tour, la plus anciennement vérifiée d'abord. À 10 fiches par
+  mois, un tour complet prend environ 40 mois : aucun délai n'est promis.
 - **Limite connue** : une fiche revue sans résultat et restée sans date
   n'est plus reprise d'elle-même ; seul un signalement la ramène.
 

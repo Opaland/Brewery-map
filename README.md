@@ -84,6 +84,8 @@ Node 22 (`.nvmrc`). Il faut un clone complet, pas `--depth 1` : la garde de
 
 ```bash
 # bash ; sous PowerShell, voir plus bas
+git clone https://github.com/Opaland/Brewery-map.git
+cd Brewery-map
 npm ci
 npm run lint && npx tsc -b --noEmit && npx vitest run
 npm run build                    # les e2e servent dist/ : rebuild d'abord

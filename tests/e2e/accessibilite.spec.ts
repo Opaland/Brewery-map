@@ -1,6 +1,7 @@
 import AxeBuilder from '@axe-core/playwright'
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
+import { CATEGORIES } from '../../src/core/categories'
 import { sansTuiles, versLaCarte } from './reseau'
 
 /**
@@ -84,15 +85,17 @@ test('les marqueurs de la carte ont un nom lisible au lecteur d’écran', async
   // Un nom non vide ne suffit pas : MapLibre pose « Map marker » sur tout
   // marqueur qui n'en a pas (vu au test de mutation, §1). Chaque marqueur dit
   // la brasserie et sa catégorie, le nombre d'un groupe, ou le point de départ.
-  const muets = await marqueurs.evaluateAll((els) =>
-    els
-      .map((e) => e.getAttribute('aria-label') ?? '')
-      .filter(
-        (nom) =>
-          !/^.+ — (À confirmer|Acheter et consommer sur place|Acheter seulement|Pas de vente)$/.test(nom) &&
-          !/^\d+ brasseries ici, voir le détail$/.test(nom) &&
-          !/^Point de départ : .+$/.test(nom),
-      ),
+  const muets = await marqueurs.evaluateAll(
+    (els, libelles) =>
+      els
+        .map((e) => e.getAttribute('aria-label') ?? '')
+        .filter(
+          (nom) =>
+            !libelles.some((l) => nom.length > l.length + 3 && nom.endsWith(` — ${l}`)) &&
+            !/^\d+ brasseries ici, voir le détail$/.test(nom) &&
+            !/^Point de départ : .+$/.test(nom),
+        ),
+    Object.values(CATEGORIES),
   )
   expect(muets).toEqual([])
 })
