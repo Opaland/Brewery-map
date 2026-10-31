@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:921420923",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale du Der",
+   "c": "La Porte du Der",
+   "d": "52",
+   "lat": 48.4764,
+   "lon": 4.77877,
+   "km": 311.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce une vente en direct, ouverte le mercredi, le jeudi et le vendredi de 14h à 18h. L'office du lac du Der cite aussi la dégustation, sans jours ni détail : on ne retient que l'achat.",
+   "addr": "7 avenue d'Alsace, 52220 La Porte du Der",
+   "src": "https://www.brasserieartisanaleduder.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 25 55 99 19",
+    "site": "https://www.brasserieartisanaleduder.fr",
+    "source": "https://www.brasserieartisanaleduder.fr/contact-2/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserieartisanaleduder.fr/",
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasserieartisanaleduder.fr/",
+   "https://www.brasserieartisanaleduder.fr/contact-2/",
+   "https://data.geopf.fr/geocodage/search?q=7+avenue+d%27Alsace%2C+52220+La+Porte+du+Der&limit=5"
+  ],
+  "extrait": "La Brasserie est ouverte : mercredi // 14h – 18h",
+  "choix": "Catégorie 2 et non 1 : la consommation sur place n'est écrite que comme projet, et comme rubrique par l'office. Téléphone : le fixe de la page de contact, le portable écarté (un fixe existe). Types de bière sans lien par bière ni page Untappd : laissés vides."
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:792529281",
+ "ajout": {
+  "fiche": {
+   "n": "La Grenouille Assoiffée",
+   "c": "Vahl-lès-Bénestroff",
+   "d": "57",
+   "lat": 48.91358,
+   "lon": 6.78387,
+   "km": 391.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Son site vend en ligne ; l'office de Sarreguemines parle de visites finies par une dégustation. Rien ne dit qu'on achète ou qu'on boit à la brasserie hors d'une visite. L'adresse varie selon les sources (2 rue de l'église sur le site, 26 Grande rue pour l'office) : point au centre de la commune.",
+   "addr": "Vahl-lès-Bénestroff",
+   "src": "https://sarreguemines-tourisme.com/en/fiches/947003297-la-grenouille-assoiffee",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 37 29 17 58",
+    "site": "http://la-grenouille-assoiffee.fr",
+    "source": "http://la-grenouille-assoiffee.fr",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://sarreguemines-tourisme.com/en/fiches/947003297-la-grenouille-assoiffee",
+   "http://la-grenouille-assoiffee.fr",
+   "https://data.geopf.fr/geocodage/search?q=Vahl-l%C3%A8s-B%C3%A9nestroff&type=municipality&limit=5"
+  ],
+  "extrait": "At the end of the visit, they also offer a tasting session.",
+  "choix": "Catégorie 0, redescendue à la relecture : une dégustation en fin de visite n'est pas une vente au comptoir (même choix que Chablis et Quiotte). Téléphone : le portable publié par la brasserie sur son site ; le fixe et l'autre portable de l'office, en désaccord avec lui, écartés. Horaires des offices contradictoires, écartés."
+ }
+}

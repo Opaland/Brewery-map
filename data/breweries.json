@@ -24942,5 +24942,1659 @@
     "verifieLe": "2026-10-30"
    }
   ]
+ },
+ {
+  "n": "Ardwen",
+  "c": "Launois-sur-Vence",
+  "d": "08",
+  "lat": 49.6569,
+  "lon": 4.54041,
+  "km": 443.1,
+  "cat": 0,
+  "conf": "",
+  "note": "L'agence de tourisme des Ardennes dit des visites sur rendez-vous, finies par une dégustation de 25 cl, et liste en rubriques un bar, une boutique et la vente à la propriété, sans phrase qui les décrive ni horaire. Rien de plus sur le site de la brasserie.",
+  "addr": "20 avenue Roger Ponsart, 08430 Launois-sur-Vence",
+  "src": "https://www.ardennes.com/producteur/ardwen-bieres-artisanales-des-ardennes/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 24 35 46 50",
+   "site": "https://www.ardwen.fr",
+   "source": "https://www.ardwen.fr/contact/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie d'Arthur",
+  "c": "Charleville-Mézières",
+  "d": "08",
+  "lat": 49.74315,
+  "lon": 4.73015,
+  "km": 452.4,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Fiche de l'agence de développement touristique des Ardennes : bières à déguster sur place, avec une planche de charcuterie, et nouveautés en boutique. Source de type office de tourisme seule. Aucun horaire publié.",
+  "addr": "2 rue Jean-Baptiste Lefort, 08000 Charleville-Mézières",
+  "src": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 24 59 52 10",
+   "site": "http://brasseriedarthur.fr/",
+   "source": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie de Monthermé",
+  "c": "Monthermé",
+  "d": "08",
+  "lat": 49.88447,
+  "lon": 4.73979,
+  "km": 468.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Fiche de l'agence de développement touristique des Ardennes : la brasserie privilégie la vente directe, et propose des visites sur demande. La page dit vendredi 17h-19h et samedi 10h-12h et 14h-18h, mais son calendrier marque tous les jours ouverts : à vérifier avant de venir.",
+  "addr": "6 rue du Docteur Lemaire, 08800 Monthermé",
+  "src": "https://www.ardennes.com/producteur/brasserie-de-montherme/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "Brasserie Chinco",
+  "c": "Neuflize",
+  "d": "08",
+  "lat": 49.41077,
+  "lon": 4.30789,
+  "km": 416.8,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe : son site la décrit et l'agence de tourisme des Ardennes la liste. Aucune vente ni dégustation sur place n'est annoncée : les commandes sont remises en main propre à Reims et à Paris. Ni horaires ni téléphone publiés.",
+  "addr": "3 rue des Lavandières, 08300 Neuflize",
+  "src": "https://www.chinco.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.chinco.fr",
+   "source": "https://www.chinco.fr",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Micro-Brasserie Forge",
+  "c": "Givet",
+  "d": "08",
+  "lat": 50.14087,
+  "lon": 4.82578,
+  "km": 496.7,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie-bar : son site décrit une visite, la dégustation de ses bières brassées sur place et une carte d'autres boissons. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+  "addr": "Route de Philippeville, 08600 Givet",
+  "src": "https://www.microbrasserieforge.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.microbrasserieforge.fr",
+   "source": "https://www.microbrasserieforge.fr",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "dim": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "La source dit « 23h le week-end » : lu comme samedi et dimanche. Fermé lundi et mardi.",
+    "source": "https://www.valdardennetourisme.com/commerce-service/micro-brasserie-forge/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Les Coulous",
+  "c": "Messincourt",
+  "d": "08",
+  "lat": 49.67878,
+  "lon": 5.15726,
+  "km": 446.3,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe : une fiche de l'agence de développement touristique des Ardennes la décrit et dit qu'elle « ouvre ses portes les weekends », sans citer ni vente, ni boutique, ni dégustation. Rien n'établit donc ce qu'on peut y faire.",
+  "addr": "4 rue de la Pierreuse, 08110 Messincourt",
+  "src": "https://www.ardennes.com/producteur/brasserie-les-coulous/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "L'Once Troy",
+  "c": "Saint-Germain",
+  "d": "10",
+  "lat": 48.25325,
+  "lon": 4.02877,
+  "km": 292.0,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site de la brasserie présente un bar de dégustation (bières à la pression ou en bouteille) et une zone de vente à emporter à l'unité ou en pack.",
+  "addr": "4 rue Paul Cézanne, 10120 Saint-Germain",
+  "src": "https://lonce-troy.fr/notre-etablissement",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 25 78 05 18",
+   "site": "https://lonce-troy.fr/",
+   "source": "https://lonce-troy.fr/contact",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.aube-champagne.com/en/poi/l-once-troy/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Roof",
+  "c": "Fouchères",
+  "d": "10",
+  "lat": 48.15021,
+  "lon": 4.26872,
+  "km": 277.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie familiale citée par l'office de tourisme Aube en Champagne (bières de fermentation haute, non pasteurisées, non filtrées). La page de l'office ne donne ni la vente, ni l'accueil, ni horaires, ni téléphone.",
+  "addr": "8 Le Paty, 10260 Fouchères",
+  "src": "https://www.aube-champagne.com/en/?p=51925",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "http://commandelareservedupaty.over-blog.com/",
+   "source": "https://www.aube-champagne.com/en/?p=51925",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie Thibord",
+  "c": "Aix-Villemaur-Pâlis",
+  "d": "10",
+  "lat": 48.28658,
+  "lon": 3.71099,
+  "km": 301.0,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le site de la brasserie annonce « La boutique & le bar », ouverts le jeudi et le vendredi de 17h à 20h : on y choisit ses bières et on retire sa commande. Le bar est nommé, la dégustation n'est pas détaillée : à confirmer.",
+  "addr": "27 rue de la République, 10190 Aix-Villemaur-Pâlis",
+  "src": "https://brasseriethibord.fr/venir/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 87 11 86 09",
+   "site": "https://brasseriethibord.fr",
+   "source": "https://brasseriethibord.fr/contact",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://brasseriethibord.fr/venir/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Les Anges Déchus",
+  "c": "Villenauxe-la-Grande",
+  "d": "10",
+  "lat": 48.59469,
+  "lon": 3.56018,
+  "km": 337.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale bio décrite par l'office de tourisme de l'Aube en Champagne, qui dit aussi qu'elle reçoit le public dans un petit bar deux soirs par semaine. Les jours et heures, la vente à emporter, un site, un téléphone et une page Untappd ne sont pas publiés sur cette page : catégorie laissée à confirmer.",
+  "addr": "Villenauxe-la-Grande",
+  "src": "https://www.aube-champagne.com/en/portfolio-post/the-7-craft-breweries-of-the-aube/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "La Branche",
+  "c": "Charmont-sous-Barbuise",
+  "d": "10",
+  "lat": 48.41025,
+  "lon": 4.16859,
+  "km": 307.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Bière artisanale bio brassée sur place, lue sur le site officiel de la Maison Branche. La page ne dit ni la vente à emporter, ni la consommation sur place, ni les horaires. Le fixe est le numéro général de la société, publié sous « Contact & Adresse ».",
+  "addr": "15 rue des écoles, 10150 Charmont-sous-Barbuise",
+  "src": "https://maisonbranche.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 25 76 00 68",
+   "site": "https://maisonbranche.fr/",
+   "source": "https://maisonbranche.fr/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie Jumie",
+  "c": "Buchères",
+  "d": "10",
+  "lat": 48.23238,
+  "lon": 4.11085,
+  "km": 288.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Existence établie par la fiche de l'office de tourisme Aube en Champagne (fondée en 2022, bières brassées sur place, accueil mercredi à samedi). La page ne dit pas explicitement la vente ni la consommation sur place : catégorie laissée à 0. Aucun site propre.",
+  "addr": "24 bis route de Maisons Blanches, 10800 Buchères",
+  "src": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ]
+    ],
+    "remarque": "Horaires d'accueil publiés par l'office de tourisme pour 2026.",
+    "source": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Senses Brewing",
+  "c": "Reims",
+  "d": "51",
+  "lat": 49.25095,
+  "lon": 4.0556,
+  "km": 401.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie de Reims : le site officiel présente sa gamme et une boutique en ligne, il ne dit pas si l'on peut acheter ou boire à la brasserie même. Un bar-restaurant, Le Shed, occupe le même lieu (49 rue Gosset, lu sur Untappd) ; le site le décrit comme « un lieu distinct » de la brasserie, sans horaires. Aucun téléphone publié par la brasserie.",
+  "addr": "Reims",
+  "src": "https://www.sensesbrewing.com/nos-bieres/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.sensesbrewing.com",
+   "source": "https://www.sensesbrewing.com",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Bières et Tentations",
+  "c": "Juvigny",
+  "d": "51",
+  "lat": 49.01799,
+  "lon": 4.26802,
+  "km": 373.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site officiel invite à déguster sur place ou à repartir avec sa bière ; l'office de tourisme précise que la vente à emporter se fait selon les disponibilités, en contactant la brasserie avant. Bière ORJY.",
+  "addr": "1 ruelle de la Gravière, 51150 Juvigny",
+  "src": "https://bieresettentations.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 70 74 54 91",
+   "site": "https://bieresettentations.com/",
+   "source": "https://bieresettentations.com/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Happy hour de 16h30 à 18h30. Le site donne aussi une restauration le lundi et le jeudi de 12h à 14h30. Vente à emporter selon les disponibilités, à demander à la brasserie avant (office de tourisme de Châlons).",
+    "source": "https://bieresettentations.com/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Tête de Chou",
+  "c": "Épernay",
+  "d": "51",
+  "lat": 49.0407,
+  "lon": 3.95021,
+  "km": 379.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Fiche de l'office de tourisme d'Épernay : une boutique, et une taproom (bar de la brasserie) pour déguster sur place l'ensemble de ses bières. Le site de la brasserie n'a pas été lu.",
+  "addr": "1 avenue du Maréchal Foch, 51200 Épernay",
+  "src": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "source": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Distillerie de Vauclair",
+  "c": "Giey-sur-Aujon",
+  "d": "52",
+  "lat": 47.90705,
+  "lon": 5.06872,
+  "km": 249.4,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site annonce « Vente à emporter et Caveau Bar » avec ses horaires, sans détailler le service au bar. Visites de groupe sur rendez-vous, 15 personnes au moins. Fermé les jours fériés.",
+  "addr": "Lieu-dit Vauclair, 52210 Giey-sur-Aujon",
+  "src": "https://bd-vauclair.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 25 01 00 40",
+   "site": "https://bd-vauclair.fr/",
+   "source": "https://bd-vauclair.fr/contact/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "15:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "15:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "15:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "15:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "15:00"
+     ]
+    ],
+    "remarque": "Fermé le week-end et les jours fériés.",
+    "periode": {
+     "du": "09-01",
+     "au": "04-30"
+    },
+    "source": "https://bd-vauclair.fr/contact/",
+    "verifieLe": "2026-10-31"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "13:00",
+      "16:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "dim": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "remarque": "Fermé les jours fériés.",
+    "periode": {
+     "du": "05-01",
+     "au": "08-31"
+    },
+    "source": "https://bd-vauclair.fr/contact/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie artisanale du Der",
+  "c": "La Porte du Der",
+  "d": "52",
+  "lat": 48.4764,
+  "lon": 4.77877,
+  "km": 311.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce une vente en direct, ouverte le mercredi, le jeudi et le vendredi de 14h à 18h. L'office du lac du Der cite aussi la dégustation, sans jours ni détail : on ne retient que l'achat.",
+  "addr": "7 avenue d'Alsace, 52220 La Porte du Der",
+  "src": "https://www.brasserieartisanaleduder.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 25 55 99 19",
+   "site": "https://www.brasserieartisanaleduder.fr",
+   "source": "https://www.brasserieartisanaleduder.fr/contact-2/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasserieartisanaleduder.fr/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Barnei",
+  "c": "Benney",
+  "d": "54",
+  "lat": 48.51482,
+  "lon": 6.22258,
+  "km": 334.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie donne les horaires de sa boutique, à Benney. Il ne parle ni de bar ni de dégustation sur place. Pas de téléphone publié.",
+  "addr": "Ménil Saint-Martin, 54740 Benney",
+  "src": "https://www.brasseriebarnei.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.brasseriebarnei.com/",
+   "source": "https://www.brasseriebarnei.com/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasseriebarnei.com/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "La Lorraine Perdue",
+  "c": "Vézelise",
+  "d": "54",
+  "lat": 48.488,
+  "lon": 6.09173,
+  "km": 328.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "L'office de tourisme de Meurthe-et-Moselle dit que la brasserie privilégie la vente directe, au magasin de la brasserie. Pas d'horaires publiés.",
+  "addr": "22 rue du Maréchal Foch, 54330 Vézelise",
+  "src": "https://tourisme-meurtheetmoselle.fr/en/decouvrir-la-meurthe-et-moselle/lessentiel/gastronomie/boutique-et-degustation/759000146-brasserie-artisanale-la-paumee",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "Brasserie Cheval",
+  "c": "Toul",
+  "d": "54",
+  "lat": 48.68014,
+  "lon": 5.88771,
+  "km": 345.0,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie coopérative à L'Atelier, espace de création, à Toul : les mardis et vendredis soir, on consomme au bar ou on prend à emporter. Le bar est fermé en janvier et en août, pas la brasserie.",
+  "addr": "146 rue Pierre-Aimé Bouge, 54200 Toul",
+  "src": "https://www.brasseriecheval.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 95 03 15 29",
+   "site": "https://www.brasseriecheval.fr/",
+   "source": "https://www.brasseriecheval.fr/contact/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://www.brasseriecheval.fr/nos-points-de-vente/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "The Piggy Brewing Company",
+  "c": "Liverdun",
+  "d": "54",
+  "lat": 48.76412,
+  "lon": 6.06059,
+  "km": 357.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie invite à acheter les bières sur place, du lundi au vendredi. Il ne parle ni de bar ni de dégustation.",
+  "addr": "40 avenue du Gard, 54460 Liverdun",
+  "src": "https://www.thepiggybrewingcompany.com/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "07 69 14 13 26",
+   "site": "https://www.thepiggybrewingcompany.com/",
+   "source": "https://www.thepiggybrewingcompany.com/contact",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.thepiggybrewingcompany.com/contact",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Hoppy Road",
+  "c": "Maxéville",
+  "d": "54",
+  "lat": 48.70933,
+  "lon": 6.17643,
+  "km": 354.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce une boutique ouverte du lundi au vendredi. Il ne parle ni de bar ni de dégustation. Pas de téléphone publié.",
+  "addr": "25 avenue de la Meurthe, 54320 Maxéville",
+  "src": "https://hoppyroad.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://hoppyroad.com/",
+   "source": "https://hoppyroad.com/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "source": "https://hoppyroad.com/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie des Papi'lles",
+  "c": "Anthelupt",
+  "d": "54",
+  "lat": 48.60519,
+  "lon": 6.40819,
+  "km": 349.0,
+  "cat": 0,
+  "conf": "",
+  "note": "La fiche de l'office de tourisme dit qu'on peut commander et venir à la brasserie, et que des visites avec dégustation se font sur réservation. Pas d'horaires publiés.",
+  "addr": "45 rue de la Chapelle, 54110 Anthelupt",
+  "src": "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/gastronomie/et-pour-accompagner/742002421-brasserie-des-papilles",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "La Châouette",
+  "c": "Saizerais",
+  "d": "54",
+  "lat": 48.79278,
+  "lon": 6.05692,
+  "km": 360.4,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie invite à lui rendre visite le vendredi de 14h à 19h et le samedi de 9h à 12h, sans dire si l'on y achète ou si l'on y boit.",
+  "addr": "24 rue des Vergers, 54380 Saizerais",
+  "src": "https://www.chaouette.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 56 66 05 21",
+   "site": "https://www.chaouette.fr/",
+   "source": "https://www.chaouette.fr/contact",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie Tumulte",
+  "c": "Magnières",
+  "d": "54",
+  "lat": 48.44733,
+  "lon": 6.56351,
+  "km": 337.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site de la brasserie dit qu'elle est ouverte le mercredi et le vendredi de 17h à 19h, et dès que la porte est ouverte, et que toutes ses ventes se font en circuit court. Il ne dit pas en toutes lettres qu'on y achète, ni qu'on y boit.",
+  "addr": "19 Grande Rue, 54129 Magnières",
+  "src": "https://brasserietumulte.fr/brasserie/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 84 77 33 89",
+   "site": "https://brasserietumulte.fr/",
+   "source": "https://brasserietumulte.fr/contact/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "remarque": "Et dès que la porte est ouverte.",
+    "source": "https://brasserietumulte.fr/brasserie/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Zythomaniacs La Doncourt",
+  "c": "Doncourt-lès-Longuyon",
+  "d": "54",
+  "lat": 49.43893,
+  "lon": 5.71039,
+  "km": 424.7,
+  "cat": 0,
+  "conf": "",
+  "note": "La fiche de l'agence de tourisme parle de visites sur réservation le dimanche, à partir de 5 personnes. Elle ne dit rien de la vente ni d'un bar.",
+  "addr": "17 Rue des Moissonneurs, 54620 Doncourt-lès-Longuyon",
+  "src": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "09 61 34 39 01",
+   "source": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie d'Austrasie",
+  "c": "Vandœuvre-lès-Nancy",
+  "d": "54",
+  "lat": 48.65403,
+  "lon": 6.13719,
+  "km": 347.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie le jeudi, le vendredi et le samedi matin, ou sur rendez-vous, d'après son site. Ni bar ni dégustation sur place.",
+  "addr": "1 allée de Chantilly, 54500 Vandœuvre-lès-Nancy",
+  "src": "https://www.brasserie-austrasie.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 61 77 97 80",
+   "site": "https://www.brasserie-austrasie.fr/",
+   "source": "https://www.brasserie-austrasie.fr/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "remarque": "Ou sur rendez-vous.",
+    "source": "https://www.brasserie-austrasie.fr/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "La Fabrique des GrÔ",
+  "c": "Maxéville",
+  "d": "54",
+  "lat": 48.70741,
+  "lon": 6.16469,
+  "km": 353.7,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site de la brasserie annonce un bar pour consommer sur place et un point de vente pour les achats à emporter, chacun avec ses horaires. Le vendredi, le bar ouvre à 16h ; l'heure de fin varie selon les pages.",
+  "addr": "151 rue des Brasseries, 54320 Maxéville",
+  "src": "https://www.lafabriquedesgros.fr/reservation-contact/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 20 27 95 83",
+   "site": "https://www.lafabriquedesgros.fr/",
+   "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+    "verifieLe": "2026-10-31"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de Clémery",
+  "c": "Lesménils",
+  "d": "54",
+  "lat": 48.93434,
+  "lon": 6.10532,
+  "km": 376.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce la vente en direct à la brasserie le mercredi, le jeudi et le vendredi de 14h à 18h. Ni bar ni dégustation. Pas de téléphone publié.",
+  "addr": "289B rue des Hauts de Feye, 54700 Lesménils",
+  "src": "https://www.brasseriedeclemery.com/accueil",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.brasseriedeclemery.com",
+   "source": "https://www.brasseriedeclemery.com/accueil",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasseriedeclemery.com/accueil",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Coincoin",
+  "c": "Ménil-la-Tour",
+  "d": "54",
+  "lat": 48.76622,
+  "lon": 5.86458,
+  "km": 353.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce la production et la vente sur place depuis 2013. Ouverture sur rendez-vous, en semaine comme le week-end.",
+  "addr": "5 Rue Saint Laurent, 54200 Ménil-la-Tour",
+  "src": "http://www.brasseriecoincoin.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 20 02 04 00",
+   "site": "http://www.brasseriecoincoin.fr/",
+   "source": "http://www.brasseriecoincoin.fr/contact.html",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie Grenaille",
+  "c": "Rosières-aux-Salines",
+  "d": "54",
+  "lat": 48.59615,
+  "lon": 6.33526,
+  "km": 346.2,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie coopérative : boutique et bar ouverts tous les vendredis de 16h à 20h, d'après son site.",
+  "addr": "39 rue du Capitaine Malhorty, 54110 Rosières-aux-Salines",
+  "src": "https://grenaille.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 49 92 89 83",
+   "source": "https://grenaille.blogspot.com/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://grenaille.fr",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Okabeer",
+  "c": "Praye",
+  "d": "54",
+  "lat": 48.43203,
+  "lon": 6.1012,
+  "km": 323.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie dit que ses bières sont en vente directe à la brasserie. Pas d'horaires publiés ; la consommation sur place n'est pas établie.",
+  "addr": "6 Rue des Nids, 54116 Praye",
+  "src": "https://www.okabeer.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://www.okabeer.com/",
+   "source": "https://www.okabeer.com/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie de la Saulx",
+  "c": "Morley",
+  "d": "55",
+  "lat": 48.58006,
+  "lon": 5.24631,
+  "km": 325.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site officiel dit que les bières s'achètent directement à la brasserie, et conseille d'appeler avant de venir pour s'assurer que le brasseur soit présent. Ni bar, ni dégustation, ni horaires.",
+  "addr": "10 bis Rue du Fourneau, 55290 Morley",
+  "src": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Moro Sphinx",
+    "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Demoiselle",
+    "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Feuille Morte du Chêne",
+    "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+   },
+   {
+    "type": "stout",
+    "libelle": "Abeille Charpentière",
+    "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+   }
+  ],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 71 68 99 71",
+   "site": "https://www.brasseriedelasaulx.fr",
+   "source": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Hop Farmer",
+  "c": "Grimaucourt-près-Sampigny",
+  "d": "55",
+  "lat": 48.79925,
+  "lon": 5.49097,
+  "km": 351.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie invite à la visiter et à y déguster ses bières, parle d'une restauration sur place et d'une boutique à la ferme avec toute la gamme. Ouverte en semaine, fermée le week-end.",
+  "addr": "1 bis Ferme de Girouet, 55500 Grimaucourt-Près-Sampigny",
+  "src": "https://brasserie-hopfarmer.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 82 99 40 14",
+   "site": "https://brasserie-hopfarmer.fr",
+   "source": "https://brasserie-hopfarmer.fr",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "source": "https://brasserie-hopfarmer.fr",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "La Bière de Metz",
+  "c": "Jury",
+  "d": "57",
+  "lat": 49.0727,
+  "lon": 6.25503,
+  "km": 394.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie dit vendre directement à ses clients dans son établissement, et publie ses horaires d'ouverture. Il ne parle ni de bar ni de dégustation sur place.",
+  "addr": "Rue de la Fontaine à l'Auge, 57245 Jury",
+  "src": "https://www.labieredemetz.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "03 87 63 83 41",
+   "site": "https://www.labieredemetz.fr",
+   "source": "https://www.labieredemetz.fr/contact",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "13:30",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.labieredemetz.fr/contact",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "La Grenouille Assoiffée",
+  "c": "Vahl-lès-Bénestroff",
+  "d": "57",
+  "lat": 48.91358,
+  "lon": 6.78387,
+  "km": 391.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Son site vend en ligne ; l'office de Sarreguemines parle de visites finies par une dégustation. Rien ne dit qu'on achète ou qu'on boit à la brasserie hors d'une visite. L'adresse varie selon les sources (2 rue de l'église sur le site, 26 Grande rue pour l'office) : point au centre de la commune.",
+  "addr": "Vahl-lès-Bénestroff",
+  "src": "https://sarreguemines-tourisme.com/en/fiches/947003297-la-grenouille-assoiffee",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 37 29 17 58",
+   "site": "http://la-grenouille-assoiffee.fr",
+   "source": "http://la-grenouille-assoiffee.fr",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie des 200 Brasses",
+  "c": "Ay-sur-Moselle",
+  "d": "57",
+  "lat": 49.24083,
+  "lon": 6.20923,
+  "km": 411.3,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe d'après l'office de tourisme de Metz (projet communal, en activité depuis 2015, dans le bâtiment d'une boutique de producteurs), mais la page ne dit pas si l'on peut y acheter ou boire sur place.",
+  "addr": "2 rue Jean Auguste Schleiter, 57300 Ay-sur-Moselle",
+  "src": "https://www.tourisme-metz.com/en/page/1368001829-brasserie-des-200-brasses",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31"
+ },
+ {
+  "n": "Brasserie Bon Poison",
+  "c": "Metz",
+  "d": "57",
+  "lat": 49.10379,
+  "lon": 6.16531,
+  "km": 395.8,
+  "cat": 1,
+  "conf": "solide",
+  "note": "La brasserie tient un bar et un shop à Metz : bouteilles à emporter, ou pression et bouteille sur place, avec une terrasse.",
+  "addr": "13A rue du XXe Corps Américain, 57000 Metz",
+  "src": "https://bonpoison.com/le-shop-le-bar/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "site": "https://bonpoison.com/",
+   "source": "https://bonpoison.com/le-shop-le-bar/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:30",
+      "12:30"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://bonpoison.com/le-shop-le-bar/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Tuilerie",
+  "c": "Augny",
+  "d": "57",
+  "lat": 49.07453,
+  "lon": 6.12587,
+  "km": 391.9,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe : son site publie ses bières et son contact. Il ne dit ni vente à emporter ni dégustation ouverte, ni horaires ; il annonce seulement une soirée à son taproom. Rien n'établit ce qu'on peut y faire d'ordinaire.",
+  "addr": "332 rue du Lieutenant colonel Dagnaux, 57685 Augny",
+  "src": "https://www.brasserielatuilerie.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 51 09 90 89",
+   "site": "https://www.brasserielatuilerie.fr/",
+   "source": "https://www.brasserielatuilerie.fr/",
+   "verifieLe": "2026-10-31"
+  }
+ },
+ {
+  "n": "Brasserie Papyllon",
+  "c": "Sierck-les-Bains",
+  "d": "57",
+  "lat": 49.44481,
+  "lon": 6.36527,
+  "km": 436.3,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Le site de la brasserie propose le retrait à la boutique des bières commandées en ligne, avec ses horaires. La buvette du jeudi et du vendredi est au Parc Valette, ailleurs qu'à la brasserie. La page ne dit pas qu'on peut acheter sans commande : à confirmer.",
+  "addr": "13 rue de l'Europe, 57480 Sierck-les-Bains",
+  "src": "https://brasseriepapyllon.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 49 27 75 10",
+   "site": "https://brasseriepapyllon.com/",
+   "source": "https://brasseriepapyllon.com/clickcollect/",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "remarque": "Et le samedi de 9h à 12h.",
+    "source": "https://brasseriepapyllon.com/clickcollect/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Galibot",
+  "c": "Forbach",
+  "d": "57",
+  "lat": 49.20624,
+  "lon": 6.90442,
+  "km": 424.6,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le site du taproom de la brasserie donne ses heures d'ouverture ; le samedi, une semaine sur deux, des visites sur réservation et une ouverture au public de 17h à 23h. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+  "addr": "5 Rue Jules Verne, 57600 Forbach",
+  "src": "https://galibot-taproom.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 47 29 59 66",
+   "site": "https://galibot-taproom.com",
+   "source": "https://galibot-taproom.com",
+   "verifieLe": "2026-10-31"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://galibot-taproom.com",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Régal Potes",
+  "c": "Bibiche",
+  "d": "57",
+  "lat": 49.32221,
+  "lon": 6.45569,
+  "km": 425.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "On peut acheter à la brasserie du lundi au vendredi, sur rendez-vous ou l'après-midi, d'après son site. Il ne parle ni de bar ni de dégustation ouverte sur place.",
+  "addr": "11 rue des Lilas, 57320 Bibiche",
+  "src": "https://www.brasserie-regal-potes.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-10-31",
+  "contact": {
+   "tel": "06 66 50 79 83",
+   "site": "https://www.brasserie-regal-potes.com/",
+   "source": "https://www.brasserie-regal-potes.com/",
+   "verifieLe": "2026-10-31"
+  }
  }
 ]

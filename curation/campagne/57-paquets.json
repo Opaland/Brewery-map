@@ -1,0 +1,406 @@
+[
+ [
+  {
+   "cle": "sirene:598500643",
+   "enseigne": "BRASSERIE METEOR",
+   "dep": "57",
+   "communes": [
+    "FREYMING-MERLEBACH",
+    "PUTTELANGE-AUX-LACS"
+   ],
+   "adresses": [
+    "8 PLACE DE LA GARE 57800 FREYMING-MERLEBACH",
+    "2 RUE DE NANCY 57510 PUTTELANGE-AUX-LACS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830548079",
+   "enseigne": "BRASSERIE ST AVOLD",
+   "dep": "57",
+   "communes": [
+    "SAINT-AVOLD",
+    "FAULQUEMONT"
+   ],
+   "adresses": [
+    "9 IMPASSE DE LA BASILIQUE 57500 SAINT-AVOLD",
+    "3 AVENUE ANDRE VIAUD 57380 FAULQUEMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:815335575",
+   "enseigne": "BRASSERIE LA TUILERIE",
+   "dep": "57",
+   "communes": [
+    "METZ",
+    "AUGNY"
+   ],
+   "adresses": [
+    "30 RUE DU PONT DES ROCHES 57000 METZ",
+    "332 RUE LIEUTENANT COLONEL DAGNAUX 57685 AUGNY"
+   ],
+   "osm": [
+    "node/12104672114"
+   ],
+   "site": "https://www.brasserielatuilerie.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792529281",
+   "enseigne": "LA GRENOUILLE ASSOIFFEE",
+   "dep": "57",
+   "communes": [
+    "VAHL-LES-BENESTROFF"
+   ],
+   "adresses": [
+    "26 RUE PRINCIPALE 57670 VAHL-LES-BENESTROFF"
+   ],
+   "osm": [
+    "node/9212474016"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914425376",
+   "enseigne": "BRASSERIE OVATA",
+   "dep": "57",
+   "communes": [
+    "BOUZONVILLE"
+   ],
+   "adresses": [
+    "ZI ST ELOI 57320 BOUZONVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:881603724",
+   "enseigne": "L'AME HARELLE",
+   "dep": "57",
+   "communes": [
+    "METZ"
+   ],
+   "adresses": [
+    "6 RUE HARELLE 57000 METZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910841543",
+   "enseigne": "BRASSERIE DE LA FENSCH",
+   "dep": "57",
+   "communes": [
+    "HAYANGE"
+   ],
+   "adresses": [
+    "6 RUE DE LA FENDERIE 57700 HAYANGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:804396356",
+   "enseigne": "BAR",
+   "dep": "57",
+   "communes": [
+    "RODEMACK"
+   ],
+   "adresses": [
+    "65 RUE DU GENERAL SIMMER 57570 RODEMACK"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:920887726",
+   "enseigne": "RICHEMENT BIERE",
+   "dep": "57",
+   "communes": [
+    "RICHEMONT"
+   ],
+   "adresses": [
+    "12 PLACE DE L'EGLISE 57270 RICHEMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978196780",
+   "enseigne": "BRASSERIE SAINT REMI",
+   "dep": "57",
+   "communes": [
+    "KEDANGE-SUR-CANNER"
+   ],
+   "adresses": [
+    "9 RUE DE L'EGLISE 57920 KEDANGE-SUR-CANNER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:802847046",
+   "enseigne": "BRASSERIE DES 200 BRASSES",
+   "dep": "57",
+   "communes": [
+    "AY-SUR-MOSELLE"
+   ],
+   "adresses": [
+    "2 RUE JEAN AUGUSTE SCHLEITER 57300 AY-SUR-MOSELLE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:810181115",
+   "enseigne": "BRASSERIE BON POISON",
+   "dep": "57",
+   "communes": [
+    "MARLY"
+   ],
+   "adresses": [
+    "12 RUE DES VANNEAUX 57155 MARLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922624036",
+   "enseigne": "REGAL POTES",
+   "dep": "57",
+   "communes": [
+    "BIBICHE"
+   ],
+   "adresses": [
+    "11 RUE DES LILAS 57320 BIBICHE"
+   ],
+   "osm": [
+    "way/285570943"
+   ],
+   "site": "https://www.brasserie-regal-potes.com/#",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814398814",
+   "enseigne": "SARL MALACURIA",
+   "dep": "57",
+   "communes": [
+    "MALAUCOURT-SUR-SEILLE"
+   ],
+   "adresses": [
+    "8 RUE PRINCIPALE 57590 MALAUCOURT-SUR-SEILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978854487",
+   "enseigne": "LA BRASSERIE DES PARAIGES",
+   "dep": "57",
+   "communes": [
+    "METZ"
+   ],
+   "adresses": [
+    "21 RUE LAFAYETTE 57000 METZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:880420096",
+   "enseigne": "BRASSERIE GALIBOT",
+   "dep": "57",
+   "communes": [
+    "FORBACH"
+   ],
+   "adresses": [
+    "5 RUE JULES VERNE 57600 FORBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889704912",
+   "enseigne": "NEEDLES BEE'R",
+   "dep": "57",
+   "communes": [
+    "LINDRE-BASSE"
+   ],
+   "adresses": [
+    "4 RUE PRINCIPALE 57260 LINDRE-BASSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977605088",
+   "enseigne": "BRASSERIE BTB",
+   "dep": "57",
+   "communes": [
+    "PETIT-REDERCHING"
+   ],
+   "adresses": [
+    "18 RUE DE LA GARE 57410 PETIT-REDERCHING"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:5",
+   "enseigne": "BMF - BRASSERIE MULLER ET FILS (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "57",
+   "communes": [
+    "HAMBACH"
+   ],
+   "adresses": [
+    "2 IMPASSE WOOG 57910 HAMBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902397843",
+   "enseigne": "BRASSERIE RICH'MOUSSE",
+   "dep": "57",
+   "communes": [
+    "RICHEMONT"
+   ],
+   "adresses": [
+    "11 RUE DES FLEURS 57270 RICHEMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:908449259",
+   "enseigne": "HOP GANG",
+   "dep": "57",
+   "communes": [
+    "FORBACH"
+   ],
+   "adresses": [
+    "27 RUE NATIONALE 57600 FORBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:6",
+   "enseigne": "YOOK BEER (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "57",
+   "communes": [
+    "VATIMONT"
+   ],
+   "adresses": [
+    "29 RUE PRINCIPALE 57580 VATIMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953298452",
+   "enseigne": "TOLAS HELANOSS S.A.S.",
+   "dep": "57",
+   "communes": [
+    "FOLSCHVILLER"
+   ],
+   "adresses": [
+    "CHATEAU DE FURST RUE DU PARC 57730 FOLSCHVILLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852528611",
+   "enseigne": "NOLLYPAP",
+   "dep": "57",
+   "communes": [
+    "SIERCK-LES-BAINS"
+   ],
+   "adresses": [
+    "13 RUE DE L'EUROPE 57480 SIERCK-LES-BAINS"
+   ],
+   "osm": [
+    "node/10855708905"
+   ],
+   "site": "https://brasseriepapyllon.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11543788229",
+   "enseigne": "Brasserie Galibot",
+   "dep": "57",
+   "communes": [
+    "Stiring-Wendel"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11543788229"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/4935952224",
+   "enseigne": "Brasserie Artisanale de Rodemack",
+   "dep": "57",
+   "communes": [
+    "Rodemack"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4935952224"
+   ],
+   "site": "http://www.b-a-r.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5670534585",
+   "enseigne": "La Bière de Metz",
+   "dep": "57",
+   "communes": [
+    "Jury"
+   ],
+   "adresses": [
+    "2 Rue de la Fontaine à l'Auge"
+   ],
+   "osm": [
+    "node/5670534585"
+   ],
+   "site": "https://www.labieredemetz.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/123772677",
+   "enseigne": "La Taverne - Table de caractère",
+   "dep": "57",
+   "communes": [
+    "Amnéville"
+   ],
+   "adresses": [
+    "Rue du Bois de Clouange, 57360 Amnéville"
+   ],
+   "osm": [
+    "way/123772677"
+   ],
+   "site": "https://www.lestavernes.com/amneville/",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:851478016",
+ "ajout": {
+  "fiche": {
+   "n": "Les Anges Déchus",
+   "c": "Villenauxe-la-Grande",
+   "d": "10",
+   "lat": 48.59469,
+   "lon": 3.56018,
+   "km": 337,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale bio décrite par l'office de tourisme de l'Aube en Champagne, qui dit aussi qu'elle reçoit le public dans un petit bar deux soirs par semaine. Les jours et heures, la vente à emporter, un site, un téléphone et une page Untappd ne sont pas publiés sur cette page : catégorie laissée à confirmer.",
+   "addr": "Villenauxe-la-Grande",
+   "src": "https://www.aube-champagne.com/en/portfolio-post/the-7-craft-breweries-of-the-aube/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.aube-champagne.com/en/portfolio-post/the-7-craft-breweries-of-the-aube/",
+   "https://data.geopf.fr/geocodage/search?q=Villenauxe-la-Grande&type=municipality&limit=5"
+  ],
+  "extrait": "The organic craft brewery Les Anges Déchus is directly inspired by the origins of beer, the Sumerians.",
+  "choix": "Point au centre de la commune : le registre donne une adresse de siège, la page de l'office n'en porte pas. Existence établie par l'office de tourisme (page de la brasserie) et par l'annuaire des entreprises (SAS créée le 14/05/2019, fabrication de bière, un seul établissement) : l'annuaire seul ne suffirait pas. Catégorie 0 : le « petit bar » deux soirs par semaine montre qu'on peut y boire, mais rien ne dit si l'on peut acheter à emporter, donc ni 1 ni 4. Horaires non proposés : « deux soirs par semaine » sans les jours. Bières : une seule nommée par le texte (« Sumer »), sans type lu, donc beers vide. La page française de l'office et l'anglaise renvoient 404 ; aucun site officiel, aucune page Untappd, aucun Facebook trouvé en trois recherches."
+ }
+}

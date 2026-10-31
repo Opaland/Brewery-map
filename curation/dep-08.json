@@ -1,0 +1,212 @@
+{
+ "lot": "dep-08",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Ardwen",
+    "c": "Launois-sur-Vence",
+    "d": "08",
+    "lat": 49.6569,
+    "lon": 4.54041,
+    "km": 443.1,
+    "cat": 0,
+    "conf": "",
+    "note": "L'agence de tourisme des Ardennes dit des visites sur rendez-vous, finies par une dégustation de 25 cl, et liste en rubriques un bar, une boutique et la vente à la propriété, sans phrase qui les décrive ni horaire. Rien de plus sur le site de la brasserie.",
+    "addr": "20 avenue Roger Ponsart, 08430 Launois-sur-Vence",
+    "src": "https://www.ardennes.com/producteur/ardwen-bieres-artisanales-des-ardennes/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 24 35 46 50",
+     "site": "https://www.ardwen.fr",
+     "source": "https://www.ardwen.fr/contact/",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.ardennes.com/producteur/ardwen-bieres-artisanales-des-ardennes/",
+    "https://www.ardwen.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=20+avenue+Roger+Ponsart%2C+08430+Launois-sur-Vence&limit=5"
+   ],
+   "extrait": "sur rendez-vous uniquement",
+   "choix": "Catégorie 0 : la vente et le bar ne sont que des rubriques, sans phrase à citer (même choix qu'en S356). Fixe lu sur la page de contact de la brasserie ; le portable de la seule fiche touristique écarté. Pas d'Untappd trouvé."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie d'Arthur",
+    "c": "Charleville-Mézières",
+    "d": "08",
+    "lat": 49.74315,
+    "lon": 4.73015,
+    "km": 452.4,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Fiche de l'agence de développement touristique des Ardennes : bières à déguster sur place, avec une planche de charcuterie, et nouveautés en boutique. Source de type office de tourisme seule. Aucun horaire publié.",
+    "addr": "2 rue Jean-Baptiste Lefort, 08000 Charleville-Mézières",
+    "src": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 24 59 52 10",
+     "site": "http://brasseriedarthur.fr/",
+     "source": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+Jean-Baptiste+Lefort%2C+08000+Charleville-M%C3%A9zi%C3%A8res&limit=5"
+   ],
+   "extrait": "to be enjoyed on-site with a platter of artisanal charcuterie",
+   "choix": "Fixe publié dans le bloc de la brasserie sur la fiche touristique (règle de Cédric du 31/10). Le site répond « en maintenance » le 31/10 ; le lien vient de la fiche. Siège du registre à Warcq ; la fiche donne le nouveau site à Charleville-Mézières, retenu. Page française en 404. Pas d'Untappd trouvé."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Monthermé",
+    "c": "Monthermé",
+    "d": "08",
+    "lat": 49.88447,
+    "lon": 4.73979,
+    "km": 468.1,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Fiche de l'agence de développement touristique des Ardennes : la brasserie privilégie la vente directe, et propose des visites sur demande. La page dit vendredi 17h-19h et samedi 10h-12h et 14h-18h, mais son calendrier marque tous les jours ouverts : à vérifier avant de venir.",
+    "addr": "6 rue du Docteur Lemaire, 08800 Monthermé",
+    "src": "https://www.ardennes.com/producteur/brasserie-de-montherme/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.ardennes.com/producteur/brasserie-de-montherme/",
+    "https://data.geopf.fr/geocodage/search?q=6+rue+du+Docteur+Lemaire%2C+08800+Montherm%C3%A9&limit=5"
+   ],
+   "extrait": "Nous privilégions la vente directe à la brasserie",
+   "choix": "Catégorie 2 : la dégustation sur place n'est écrite nulle part dans le texte de la page, seule la vente directe. Portable lu sur la fiche touristique seule, non repris (règle du 31/10). Horaires laissés dans la note : le calendrier de la page les contredit. Noms de bière sans style ni lien Untappd : laissés vides."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Chinco",
+    "c": "Neuflize",
+    "d": "08",
+    "lat": 49.41077,
+    "lon": 4.30789,
+    "km": 416.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : son site la décrit et l'agence de tourisme des Ardennes la liste. Aucune vente ni dégustation sur place n'est annoncée : les commandes sont remises en main propre à Reims et à Paris. Ni horaires ni téléphone publiés.",
+    "addr": "3 rue des Lavandières, 08300 Neuflize",
+    "src": "https://www.chinco.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.chinco.fr",
+     "source": "https://www.chinco.fr",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.chinco.fr",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+des+Lavandi%C3%A8res%2C+08300+Neuflize&limit=5"
+   ],
+   "extrait": "Toutes nos bières sont brassées et embouteillées dans notre local, dans les Ardennes.",
+   "choix": "Catégorie 0, pas 3 : le site ne dit pas qu'on ne vend rien à la brasserie. Types de bière sans lien Untappd : non retenus."
+  },
+  {
+   "fiche": {
+    "n": "Micro-Brasserie Forge",
+    "c": "Givet",
+    "d": "08",
+    "lat": 50.14087,
+    "lon": 4.82578,
+    "km": 496.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie-bar : son site décrit une visite, la dégustation de ses bières brassées sur place et une carte d'autres boissons. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+    "addr": "Route de Philippeville, 08600 Givet",
+    "src": "https://www.microbrasserieforge.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.microbrasserieforge.fr",
+     "source": "https://www.microbrasserieforge.fr",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "11:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "dim": [
+       [
+        "11:00",
+        "23:00"
+       ]
+      ],
+      "remarque": "La source dit « 23h le week-end » : lu comme samedi et dimanche. Fermé lundi et mardi.",
+      "source": "https://www.valdardennetourisme.com/commerce-service/micro-brasserie-forge/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.microbrasserieforge.fr",
+    "https://www.valdardennetourisme.com/commerce-service/micro-brasserie-forge/",
+    "https://data.geopf.fr/geocodage/search?q=Givet&type=municipality&limit=5"
+   ],
+   "extrait": "dégustez les bières créées sur place par le brasseur",
+   "choix": "Aucun téléphone repris : le numéro n'est pas lisible sur les pages rouvertes. Horaires et adresse de la fiche de Val d'Ardenne Tourisme ; ceux des annuaires, discordants, écartés. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Coulous",
+    "c": "Messincourt",
+    "d": "08",
+    "lat": 49.67878,
+    "lon": 5.15726,
+    "km": 446.3,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : une fiche de l'agence de développement touristique des Ardennes la décrit et dit qu'elle « ouvre ses portes les weekends », sans citer ni vente, ni boutique, ni dégustation. Rien n'établit donc ce qu'on peut y faire.",
+    "addr": "4 rue de la Pierreuse, 08110 Messincourt",
+    "src": "https://www.ardennes.com/producteur/brasserie-les-coulous/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.ardennes.com/producteur/brasserie-les-coulous/",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+de+la+Pierreuse%2C+08110+Messincourt&limit=5"
+   ],
+   "extrait": "vous ouvre ses portes les weekends !",
+   "choix": "Pas de téléphone : la page n'en publie aucun. Pas de site : le lien de la page (labelmousse.fr) répond en erreur. Pas d'horaires : créneaux de semaine incompatibles avec « les weekends ». Pas de page Untappd trouvée. Types de bière de la page laissés de côté, sans lien Untappd."
+  }
+ ]
+}

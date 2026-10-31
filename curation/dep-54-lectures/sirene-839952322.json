@@ -1,0 +1,57 @@
+{
+ "candidat": "sirene:839952322",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Clémery",
+   "c": "Lesménils",
+   "d": "54",
+   "lat": 48.93434,
+   "lon": 6.10532,
+   "km": 376.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce la vente en direct à la brasserie le mercredi, le jeudi et le vendredi de 14h à 18h. Ni bar ni dégustation. Pas de téléphone publié.",
+   "addr": "289B rue des Hauts de Feye, 54700 Lesménils",
+   "src": "https://www.brasseriedeclemery.com/accueil",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriedeclemery.com",
+    "source": "https://www.brasseriedeclemery.com/accueil",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriedeclemery.com/accueil",
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasseriedeclemery.com/accueil",
+   "https://data.geopf.fr/geocodage/search?q=Lesm%C3%A9nils&type=municipality&limit=5"
+  ],
+  "extrait": "achetez vos bières directement à la source !",
+  "choix": "Pas de page Untappd lue."
+ }
+}

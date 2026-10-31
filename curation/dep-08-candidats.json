@@ -1,0 +1,432 @@
+[
+ {
+  "cle": "sirene:982105462",
+  "nom": "BRASSERIE LES COULOUS",
+  "communes": [
+   "MESSINCOURT"
+  ],
+  "departement": "08",
+  "adresses": [
+   "4 RUE DE LA PIERREUSE 08110 MESSINCOURT",
+   "MESSINCOURT 6 RUE DE LA PIERREUSE 08110 MESSINCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "982105462",
+  "sirets": [
+   "98210546200013",
+   "98210546200021"
+  ],
+  "osm": [],
+  "lat": 49.678759755,
+  "lon": 5.1571863869,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "BERGNICOURT"
+  ],
+  "departement": "08",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:499985166",
+  "nom": "BRASSERIE D'ARTHUR",
+  "communes": [
+   "WARCQ",
+   "CHARLEVILLE-MEZIERES"
+  ],
+  "departement": "08",
+  "adresses": [
+   "9 PROMENADE DES REMPARTS 08000 WARCQ",
+   "2 RUE JEAN-BAPTISTE LEFORT 08000 CHARLEVILLE-MEZIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "499985166",
+  "sirets": [
+   "49998516600028",
+   "49998516600036"
+  ],
+  "osm": [],
+  "lat": 49.769066385922,
+  "lon": 4.67902683075807,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905151866",
+  "nom": "BRASSERIE ARTISANALE DE MONTHERME",
+  "communes": [
+   "MONTHERME"
+  ],
+  "departement": "08",
+  "adresses": [
+   "6 RUE DU DOCTEUR LEMAIRE 08800 MONTHERME"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "905151866",
+  "sirets": [
+   "90515186600019"
+  ],
+  "osm": [
+   "node/13104039484"
+  ],
+  "lat": 49.884486442,
+  "lon": 4.7396579313,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:940295348",
+  "nom": "MICRO BRASSERIE FORGE",
+  "communes": [
+   "GIVET"
+  ],
+  "departement": "08",
+  "adresses": [
+   "ROUTE DE PHILIPPEVILLE 08600 GIVET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "940295348",
+  "sirets": [
+   "94029534800012"
+  ],
+  "osm": [],
+  "lat": 50.147522002003,
+  "lon": 4.80087775244682,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830321832",
+  "nom": "BIERE DE L'ABBAYE DE SIGNY",
+  "communes": [
+   "SIGNY-L'ABBAYE"
+  ],
+  "departement": "08",
+  "adresses": [
+   "44 RUE DE L'ABBAYE 08460 SIGNY-L'ABBAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830321832",
+  "sirets": [
+   "83032183200016"
+  ],
+  "osm": [],
+  "lat": 49.700586846,
+  "lon": 4.42099774,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894877844",
+  "nom": "BRASSERIE 90",
+  "communes": [
+   "VILLERS-SEMEUSE"
+  ],
+  "departement": "08",
+  "adresses": [
+   "5 RUE JULES LOBET 08000 VILLERS-SEMEUSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894877844",
+  "sirets": [
+   "89487784400023"
+  ],
+  "osm": [],
+  "lat": 49.747323763,
+  "lon": 4.7403393023,
+  "statut": "ambigu",
+  "fiche": "90 BPM Brewing Co."
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "NEUFLIZE"
+  ],
+  "departement": "08",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:445037807",
+  "nom": "ARDWEN",
+  "communes": [
+   "LAUNOIS-SUR-VENCE"
+  ],
+  "departement": "08",
+  "adresses": [
+   "20 AVENUE ROGER PONSART 08430 LAUNOIS-SUR-VENCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "445037807",
+  "sirets": [
+   "44503780700010"
+  ],
+  "osm": [],
+  "lat": 49.656749306,
+  "lon": 4.5399532222,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "GLAIRE"
+  ],
+  "departement": "08",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:951968742",
+  "nom": "BRASSERIE 3 BLAISE",
+  "communes": [
+   "BOGNY SUR MEUSE"
+  ],
+  "departement": "08",
+  "adresses": [
+   "ZONE D'ACTIVITE DE BRAUX AV DES MARGUERITES 08120 BOGNY SUR MEUSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951968742",
+  "sirets": [
+   "95196874200019"
+  ],
+  "osm": [],
+  "lat": 49.844248408,
+  "lon": 4.7735030919,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905176343",
+  "nom": "BRASSERIE CHINCO",
+  "communes": [
+   "NEUFLIZE"
+  ],
+  "departement": "08",
+  "adresses": [
+   "3 RUE DES LAVANDIERES 08300 NEUFLIZE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "905176343",
+  "sirets": [
+   "90517634300010"
+  ],
+  "osm": [],
+  "lat": 49.41053087,
+  "lon": 4.3077212619,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "WARCQ"
+  ],
+  "departement": "08",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "VILLERS-DEVANT-LE-THOUR"
+  ],
+  "departement": "08",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:911692556",
+  "nom": "L'ASSOCIATION DES BRASSEURS ARDENNAIS DE HAYBES",
+  "communes": [
+   "HAYBES"
+  ],
+  "departement": "08",
+  "adresses": [
+   "3 PLACE DE LA CHARITE 08170 HAYBES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911692556",
+  "sirets": [
+   "91169255600010"
+  ],
+  "osm": [],
+  "lat": 50.010551509,
+  "lon": 4.7087393654,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/10237903301",
+  "nom": "Brasserie d'Yvois",
+  "communes": [
+   "Carignan"
+  ],
+  "departement": "08",
+  "adresses": [
+   "1 Bis rue du Faubourg\n08101 Carignan\nFrance"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10237903301"
+  ],
+  "lat": 49.63054,
+  "lon": 5.16404,
+  "site": "http://www.brasseriedyvois.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/3716835480",
+  "nom": "La Petite Brasserie Ardennaise",
+  "communes": [
+   "Montcy-Notre-Dame"
+  ],
+  "departement": "08",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/3716835480"
+  ],
+  "lat": 49.76183,
+  "lon": 4.74778,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4497355209",
+  "nom": "Brasserie Frédéric Gillet",
+  "communes": [
+   "Donchery"
+  ],
+  "departement": "08",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4497355209"
+  ],
+  "lat": 49.6991,
+  "lon": 4.87178,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5859650075",
+  "nom": "Micro-Brasserie du Clos Belle Rose",
+  "communes": [
+   "Haybes"
+  ],
+  "departement": "08",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5859650075"
+  ],
+  "lat": 50.01029,
+  "lon": 4.70906,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/559069640",
+  "nom": "La Margoulette",
+  "communes": [
+   "Bergnicourt"
+  ],
+  "departement": "08",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/559069640"
+  ],
+  "lat": 49.4215,
+  "lon": 4.25666,
+  "statut": "nouveau"
+ }
+]

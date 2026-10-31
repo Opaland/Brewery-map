@@ -1,0 +1,692 @@
+[
+ [
+  {
+   "cle": "sirene:598500643",
+   "enseigne": "BRASSERIE METEOR",
+   "dep": "68",
+   "communes": [
+    "MULHOUSE",
+    "UNGERSHEIM"
+   ],
+   "adresses": [
+    "2 RUE DU CHATEAU ZU-RHEIN 68200 MULHOUSE",
+    "2 PLACE DE LA MAIRIE 68190 UNGERSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:810773275",
+   "enseigne": "BRASSERIE DU VIGNOBLE",
+   "dep": "68",
+   "communes": [
+    "RIQUEWIHR",
+    "RIBEAUVILLE"
+   ],
+   "adresses": [
+    "8 AVENUE JACQUES PREISS 68340 RIQUEWIHR",
+    "15 RUE DE L'INDUSTRIE 68150 RIBEAUVILLE"
+   ],
+   "osm": [
+    "node/4547590640"
+   ],
+   "site": "https://www.brasserie-vignoble.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:799933122",
+   "enseigne": "BRASSEUR DE LA DIOLLER",
+   "dep": "68",
+   "communes": [
+    "DOLLEREN",
+    "OBERBRUCK"
+   ],
+   "adresses": [
+    "19 RUE DU MOULIN 68290 DOLLEREN",
+    "RDC 28 RUE PRINCIPALE 68290 OBERBRUCK"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978015915",
+   "enseigne": "LA-LOUIA",
+   "dep": "68",
+   "communes": [
+    "BERRWILLER",
+    "WATTWILLER"
+   ],
+   "adresses": [
+    "122 A 122 RUE PRINCIPALE 68500 BERRWILLER",
+    "DOMAINE DU HIRTZ RUE DU HIRTZENSTEIN 68700 WATTWILLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:503679094",
+   "enseigne": "BRASSERIE CABRIO",
+   "dep": "68",
+   "communes": [
+    "GEISHOUSE",
+    "FELLERING"
+   ],
+   "adresses": [
+    "(21 A) RUE DES CHAMPS 68690 GEISHOUSE",
+    "4 RUE DES FABRIQUES 68470 FELLERING"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:879170058",
+   "enseigne": "BRASSERIE SUFF'BIER",
+   "dep": "68",
+   "communes": [
+    "OBERSAASHEIM"
+   ],
+   "adresses": [
+    "13 B RUE DES PRIMEURS 68600 OBERSAASHEIM"
+   ],
+   "osm": [
+    "way/552594545"
+   ],
+   "site": "https://brasserie-suffbier.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:104105986",
+   "enseigne": "APOTEO",
+   "dep": "68",
+   "communes": [
+    "SEPPOIS-LE-BAS"
+   ],
+   "adresses": [
+    "1 RUE DES PINSONS 68580 SEPPOIS-LE-BAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "KIRCHBERGER (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "68",
+   "communes": [
+    "KIRCHBERG"
+   ],
+   "adresses": [
+    "16 RUE GASSEL 68290 KIRCHBERG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921703740",
+   "enseigne": "BRASSERIE JUST'UNE",
+   "dep": "68",
+   "communes": [
+    "BLODELSHEIM"
+   ],
+   "adresses": [
+    "8 RUE DE L'ARTISANAT 68740 BLODELSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802355305",
+   "enseigne": "BRASSERIE DU RHIN",
+   "dep": "68",
+   "communes": [
+    "MORSCHWILLER-LE-BAS"
+   ],
+   "adresses": [
+    "2 RUE DE LA SOURCE 68790 MORSCHWILLER-LE-BAS"
+   ],
+   "osm": [
+    "node/8252503683"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:922793500",
+   "enseigne": "BANZ",
+   "dep": "68",
+   "communes": [
+    "LAUTENBACH"
+   ],
+   "adresses": [
+    "3 RUE DU PRESBYTERE 68610 LAUTENBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:825014327",
+   "enseigne": "BRASSERIE ARTISANALE DES QUATRE PAYS",
+   "dep": "68",
+   "communes": [
+    "HIRTZBACH"
+   ],
+   "adresses": [
+    "26 RUE DU MAL DE LATTRE DE TASSIGNY 68118 HIRTZBACH"
+   ],
+   "osm": [
+    "node/5983901622"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802827774",
+   "enseigne": "BRASSEURS-FLOTTEURS",
+   "dep": "68",
+   "communes": [
+    "OBERMORSCHWIHR"
+   ],
+   "adresses": [
+    "(44 A) 44 RUE PRINCIPALE 68420 OBERMORSCHWIHR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840476477",
+   "enseigne": "TAAL",
+   "dep": "68",
+   "communes": [
+    "WIHR-AU-VAL"
+   ],
+   "adresses": [
+    "NOUVELLE AUBERGE 4 RUE DE SOULTZBACH 68230 WIHR-AU-VAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848158002",
+   "enseigne": "BRASSERIE DU GRILLEN",
+   "dep": "68",
+   "communes": [
+    "COLMAR"
+   ],
+   "adresses": [
+    "31 RUE DES JARDINS 68000 COLMAR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:522754985",
+   "enseigne": "BRASSERIE DE SAINT LOUIS",
+   "dep": "68",
+   "communes": [
+    "SAINT-LOUIS"
+   ],
+   "adresses": [
+    "123 RUE DE MULHOUSE 68300 SAINT-LOUIS"
+   ],
+   "osm": [
+    "node/4690227192"
+   ],
+   "site": "http://www.saint-louis.biz/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:108290016",
+   "enseigne": "SARL BRASSERIE LA VADROUILLE",
+   "dep": "68",
+   "communes": [
+    "GUEMAR"
+   ],
+   "adresses": [
+    "42 FAUBOURG DES VOSGES 68970 GUEMAR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895343960",
+   "enseigne": "BRASSERIE DU RESERVOIR",
+   "dep": "68",
+   "communes": [
+    "OLTINGUE"
+   ],
+   "adresses": [
+    "50 RUE PRINCIPALE 68480 OLTINGUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:8",
+   "enseigne": "MICRO BRASSERIE DE LA PLAINE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "68",
+   "communes": [
+    "SAINTE-CROIX-EN-PLAINE"
+   ],
+   "adresses": [
+    "16 ROUTE DE BALE 68127 SAINTE-CROIX-EN-PLAINE"
+   ],
+   "osm": [
+    "node/11305472874"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:9",
+   "enseigne": "MICROBRASSERIE LA B'RIC (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "68",
+   "communes": [
+    "SOULTZ-HAUT-RHIN"
+   ],
+   "adresses": [
+    "3 RUE JOSEPH VOGT 68360 SOULTZ-HAUT-RHIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:920367612",
+   "enseigne": "BRASSERIE DU VALLON",
+   "dep": "68",
+   "communes": [
+    "BOLLWILLER"
+   ],
+   "adresses": [
+    "2 RUE DE SOULTZ 68540 BOLLWILLER"
+   ],
+   "osm": [
+    "node/12110786783"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:789344900",
+   "enseigne": "ASSOCIATION BRASSERIE MUSICALE DE BREITENBACH",
+   "dep": "68",
+   "communes": [
+    "BREITENBACH-HAUT-RHIN"
+   ],
+   "adresses": [
+    "41 RUE BRECHENMACHER 68380 BREITENBACH-HAUT-RHIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934567496",
+   "enseigne": "SAS JEAN LA TEMPETE",
+   "dep": "68",
+   "communes": [
+    "ESCHENTZWILLER"
+   ],
+   "adresses": [
+    "2 A RUE DE MULHOUSE 68440 ESCHENTZWILLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877743187",
+   "enseigne": "LA BICEPHALE - FABRIQUE DE BIERES",
+   "dep": "68",
+   "communes": [
+    "BLOTZHEIM"
+   ],
+   "adresses": [
+    "14 RUE DE L'ARTISANAT 68730 BLOTZHEIM"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:751460742",
+   "enseigne": "SAS BRASSERIE SAINTE CRU",
+   "dep": "68",
+   "communes": [
+    "COLMAR"
+   ],
+   "adresses": [
+    "14 RUE DENIS PAPIN 68000 COLMAR"
+   ],
+   "osm": [
+    "node/4552780132"
+   ],
+   "site": "https://sainte-cru.com",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:434324323",
+   "enseigne": "L'ALSACIENNE SANS CULOTTE",
+   "dep": "68",
+   "communes": [
+    "MULHOUSE"
+   ],
+   "adresses": [
+    "45 RUE DU CHATEAU ZU-RHEIN 68200 MULHOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792237331",
+   "enseigne": "BRASSERIE SAINT ALPHONSE",
+   "dep": "68",
+   "communes": [
+    "VOGELGRUN"
+   ],
+   "adresses": [
+    "2 RUE DU ROTHGERN 68600 VOGELGRUN"
+   ],
+   "osm": [
+    "way/45852219"
+   ],
+   "site": "https://brasseriesaintalphonse.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808832976",
+   "enseigne": "BRASSERIE DU MARCAIRE",
+   "dep": "68",
+   "communes": [
+    "MUHLBACH-SUR-MUNSTER"
+   ],
+   "adresses": [
+    "8 RUE DE LA GARE 68380 MUHLBACH-SUR-MUNSTER"
+   ],
+   "osm": [
+    "node/6586226505"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:918286006",
+   "enseigne": "BRASSERIE NAGALA",
+   "dep": "68",
+   "communes": [
+    "BOURBACH-LE-BAS"
+   ],
+   "adresses": [
+    "2 RUE DE MASEVAUX 68290 BOURBACH-LE-BAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948338330",
+   "enseigne": "BLT",
+   "dep": "68",
+   "communes": [
+    "ASPACH-LE-BAS"
+   ],
+   "adresses": [
+    "40 RUE DE LA STATION 68700 ASPACH-LE-BAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:838087963",
+   "enseigne": "BISAIGUE",
+   "dep": "68",
+   "communes": [
+    "KAYSERSBERG VIGNOBLE"
+   ],
+   "adresses": [
+    "56 RUE DU GENERAL DE GAULLE 68240 KAYSERSBERG VIGNOBLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:837473792",
+   "enseigne": "S'HUMPALOCH",
+   "dep": "68",
+   "communes": [
+    "LAUTENBACH"
+   ],
+   "adresses": [
+    "(21A) 21 RUE DE LA VALLEE  SCHWEIGHOUSE 68610 LAUTENBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821562816",
+   "enseigne": "BOUM'R",
+   "dep": "68",
+   "communes": [
+    "MULHOUSE"
+   ],
+   "adresses": [
+    "RUE DE PFASTATT 68200 MULHOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:832320519",
+   "enseigne": "BRASSERIE KS",
+   "dep": "68",
+   "communes": [
+    "COLMAR"
+   ],
+   "adresses": [
+    "5 RUE BERTHOLLET 68000 COLMAR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848236816",
+   "enseigne": "LA GUILDE DES BRASSEURS UTOPIQUES DE MULHOUSE",
+   "dep": "68",
+   "communes": [
+    "MULHOUSE"
+   ],
+   "adresses": [
+    "16 RUE DE L'AGRICULTURE 68200 MULHOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:13",
+   "enseigne": "LES BREUVAGES DES ANGES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "68",
+   "communes": [
+    "HEIMERSDORF"
+   ],
+   "adresses": [
+    "17 RUE PRINCIPALE 68560 HEIMERSDORF"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:992911487",
+   "enseigne": "LA BRASSERIE DU CHIC TYPE",
+   "dep": "68",
+   "communes": [
+    "LAPOUTROIE"
+   ],
+   "adresses": [
+    "104 RAIN DE L'AUTEL 68650 LAPOUTROIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851114769",
+   "enseigne": "MALT E MOI",
+   "dep": "68",
+   "communes": [
+    "RIMBACH-PRES-MASEVAUX"
+   ],
+   "adresses": [
+    "17 RUE DES SAPINS 68290 RIMBACH-PRES-MASEVAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11051096104",
+   "enseigne": "Timothy's Le Brasseur du Pape",
+   "dep": "68",
+   "communes": [
+    "Eguisheim"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11051096104"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11955596068",
+   "enseigne": "Brasserie du Vignoble (Ribeauvillé)",
+   "dep": "68",
+   "communes": [
+    "Ribeauvillé"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11955596068"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/14041652501",
+   "enseigne": "Brasserie RS (Rempart Sud)",
+   "dep": "68",
+   "communes": [
+    "Eguisheim"
+   ],
+   "adresses": [
+    "5 Rue du Rempart Sud"
+   ],
+   "osm": [
+    "node/14041652501"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4546189348",
+   "enseigne": "Brasserie du Pays Welche",
+   "dep": "68",
+   "communes": [
+    "Lapoutroie"
+   ],
+   "adresses": [
+    "86 Rue du Général Dufieux, 68650 Lapoutroie"
+   ],
+   "osm": [
+    "node/4546189348"
+   ],
+   "site": "http://www.brasseriedupayswelche.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4690227193",
+   "enseigne": "Microbrasserie G'Sundgo",
+   "dep": "68",
+   "communes": [
+    "Eschentzwiller"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4690227193"
+   ],
+   "site": "http://brasseriegsundgo.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7543738929",
+   "enseigne": "Brasserie de Lutterbach",
+   "dep": "68",
+   "communes": [
+    "Lutterbach"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7543738929"
+   ],
+   "site": "https://brasserielutterbach.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8069402085",
+   "enseigne": "Brasserie de Munster TAAL",
+   "dep": "68",
+   "communes": [
+    "Soultzbach-les-Bains"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8069402085"
+   ],
+   "site": "https://www.biere-taal.alsace/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/9169561387",
+   "enseigne": "Cabrio",
+   "dep": "68",
+   "communes": [
+    "Husseren-Wesserling"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9169561387"
+   ],
+   "site": "https://www.brasseriecabrio.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9294356642",
+   "enseigne": "La Passerelle",
+   "dep": "68",
+   "communes": [
+    "Ensisheim"
+   ],
+   "adresses": [
+    "2A Rue Marin La Meslée, 68190 Ensisheim"
+   ],
+   "osm": [
+    "node/9294356642"
+   ],
+   "site": "https://www.restaurant-la-flamme.fr/notre-microbrasserie/",
+   "statut": "nouveau"
+  }
+ ]
+]

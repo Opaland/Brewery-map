@@ -1,0 +1,67 @@
+{
+ "candidat": "sirene:810181115",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bon Poison",
+   "c": "Metz",
+   "d": "57",
+   "lat": 49.10379,
+   "lon": 6.16531,
+   "km": 395.8,
+   "cat": 1,
+   "conf": "solide",
+   "note": "La brasserie tient un bar et un shop à Metz : bouteilles à emporter, ou pression et bouteille sur place, avec une terrasse.",
+   "addr": "13A rue du XXe Corps Américain, 57000 Metz",
+   "src": "https://bonpoison.com/le-shop-le-bar/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://bonpoison.com/",
+    "source": "https://bonpoison.com/le-shop-le-bar/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://bonpoison.com/le-shop-le-bar/",
+     "mer": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://bonpoison.com/le-shop-le-bar/",
+   "https://data.geopf.fr/geocodage/search?q=13A+rue+du+XXe+Corps+Am%C3%A9ricain%2C+57000+Metz&limit=5"
+  ],
+  "extrait": "Bière bouteille à emporter ou pression/bouteille sur place",
+  "choix": "Confiance relevée à la relecture : la page le dit en toutes lettres. Adresse du bar, publiée par le site ; le registre donne la production à Marly. Téléphone non repris : le seul numéro est dit « Contact pro (uniquement) ». Pas de lien Untappd sur la page."
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "candidat": "sirene:833550130",
+ "ajout": {
+  "fiche": {
+   "n": "La Fabrique des GrÔ",
+   "c": "Maxéville",
+   "d": "54",
+   "lat": 48.70741,
+   "lon": 6.16469,
+   "km": 353.7,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie annonce un bar pour consommer sur place et un point de vente pour les achats à emporter, chacun avec ses horaires. Le vendredi, le bar ouvre à 16h ; l'heure de fin varie selon les pages.",
+   "addr": "151 rue des Brasseries, 54320 Maxéville",
+   "src": "https://www.lafabriquedesgros.fr/reservation-contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 20 27 95 83",
+    "site": "https://www.lafabriquedesgros.fr/",
+    "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+     "lun": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+     "lun": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.lafabriquedesgros.fr/reservation-contact/",
+   "https://data.geopf.fr/geocodage/search?q=151+rue+des+Brasseries%2C+54320+Max%C3%A9ville&limit=5"
+  ],
+  "extrait": "Pour consommer sur place et vos achats à emporter",
+  "choix": "Vendredi soir laissé dans la note : le site écrit 1h et 1h30. Seul numéro publié : un portable. Le point OSM node/4762462372 est le même lieu."
+ }
+}

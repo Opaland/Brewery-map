@@ -1,0 +1,278 @@
+[
+ {
+  "cle": "sirene:828481572",
+  "nom": "BRASSERIE LA MANDALE",
+  "communes": [
+   "CHAILLON",
+   "DOMPCEVRIN"
+  ],
+  "departement": "55",
+  "adresses": [
+   "2 GRAND RUE 55210 CHAILLON",
+   "17 RUE DES FOURS A CHAUX 55300 DOMPCEVRIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828481572",
+  "sirets": [
+   "82848157200018",
+   "82848157200026"
+  ],
+  "osm": [],
+  "lat": 48.944719345,
+  "lon": 5.6375966566,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828710574",
+  "nom": "BOMBARDE",
+  "communes": [
+   "DUN-SUR-MEUSE",
+   "MILLY-SUR-BRADON"
+  ],
+  "departement": "55",
+  "adresses": [
+   "14 RUE DE L'HOTEL DE VILLE 55110 DUN-SUR-MEUSE",
+   "RUE DE DUN 55110 MILLY-SUR-BRADON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828710574",
+  "sirets": [
+   "82871057400017",
+   "82871057400033"
+  ],
+  "osm": [],
+  "lat": 49.384837816,
+  "lon": 5.1834319918,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:895161024",
+  "nom": "LA CABOUROTTE",
+  "communes": [
+   "TROUSSEY"
+  ],
+  "departement": "55",
+  "adresses": [
+   "32 RUE DE LA ROUCHOTTE 55190 TROUSSEY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "895161024",
+  "sirets": [
+   "89516102400016"
+  ],
+  "osm": [],
+  "lat": 48.703269676,
+  "lon": 5.6935766925,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907847495",
+  "nom": "AQUA AMARA",
+  "communes": [
+   "VIGNEULLES-LES-HATTONCHATEL"
+  ],
+  "departement": "55",
+  "adresses": [
+   "39 RUE RAYMOND POINCARE 55210 VIGNEULLES-LES-HATTONCHATEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907847495",
+  "sirets": [
+   "90784749500013"
+  ],
+  "osm": [],
+  "lat": 48.981124789,
+  "lon": 5.7053951231,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815320643",
+  "nom": "BRASSERIE DE LA SAULX",
+  "communes": [
+   "MORLEY"
+  ],
+  "departement": "55",
+  "adresses": [
+   "10 B RUE DU FOURNEAU 55290 MORLEY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "815320643",
+  "sirets": [
+   "81532064300019"
+  ],
+  "osm": [
+   "node/5250142772"
+  ],
+  "lat": 48.580090482,
+  "lon": 5.2467575765,
+  "site": "http://brasseriedelasaulx.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "BAR-LE-DUC"
+  ],
+  "departement": "55",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:820718146",
+  "nom": "BRASSERIE DE LA DIEUE",
+  "communes": [
+   "DIEUE"
+  ],
+  "departement": "55",
+  "adresses": [
+   "21 B RUE DU MOULIN 55320 DIEUE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820718146",
+  "sirets": [
+   "82071814600013"
+  ],
+  "osm": [],
+  "lat": 49.072581652,
+  "lon": 5.4215736066,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "VAUBECOURT"
+  ],
+  "departement": "55",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:999226863",
+  "nom": "BRASSERIE DE VERDUN",
+  "communes": [
+   "VERDUN"
+  ],
+  "departement": "55",
+  "adresses": [
+   "31 RUE DE CLERMONT 55100 VERDUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "999226863",
+  "sirets": [
+   "99922686300010"
+  ],
+  "osm": [],
+  "lat": 49.147017201409,
+  "lon": 5.34149765630718,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:789163086",
+  "nom": "BRASSERIE DE NETTANCOURT",
+  "communes": [
+   "REVIGNY-SUR-ORNAIN"
+  ],
+  "departement": "55",
+  "adresses": [
+   "15 RUE DE LA TRESSE 55800 REVIGNY-SUR-ORNAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "789163086",
+  "sirets": [
+   "78916308600026"
+  ],
+  "osm": [],
+  "lat": 48.825656919,
+  "lon": 4.9909546564,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882065360",
+  "nom": "HOP FARMER",
+  "communes": [
+   "GRIMAUCOURT-PRES-SAMPIGNY"
+  ],
+  "departement": "55",
+  "adresses": [
+   "1 FERME DE GIROUET 55500 GRIMAUCOURT-PRES-SAMPIGNY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "882065360",
+  "sirets": [
+   "88206536000019"
+  ],
+  "osm": [
+   "node/9374669717"
+  ],
+  "lat": 48.797520854,
+  "lon": 5.4880385872,
+  "site": "https://brasserie-hopfarmer.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/97729953",
+  "nom": "Brasserie de Nettancourt",
+  "communes": [
+   "Nettancourt"
+  ],
+  "departement": "55",
+  "adresses": [
+   "7 Rue de Leurande"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/97729953"
+  ],
+  "lat": 48.87598,
+  "lon": 4.94196,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DE NETTANCOURT"
+ }
+]

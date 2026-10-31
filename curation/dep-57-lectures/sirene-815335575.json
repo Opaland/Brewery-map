@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:815335575",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Tuilerie",
+   "c": "Augny",
+   "d": "57",
+   "lat": 49.07453,
+   "lon": 6.12587,
+   "km": 391.9,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : son site publie ses bières et son contact. Il ne dit ni vente à emporter ni dégustation ouverte, ni horaires ; il annonce seulement une soirée à son taproom. Rien n'établit ce qu'on peut y faire d'ordinaire.",
+   "addr": "332 rue du Lieutenant colonel Dagnaux, 57685 Augny",
+   "src": "https://www.brasserielatuilerie.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 51 09 90 89",
+    "site": "https://www.brasserielatuilerie.fr/",
+    "source": "https://www.brasserielatuilerie.fr/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasserielatuilerie.fr/",
+   "https://data.geopf.fr/geocodage/search?q=332+rue+du+Lieutenant+colonel+Dagnaux%2C+57685+Augny&limit=5"
+  ],
+  "extrait": "Soirée Taproom & DJ set",
+  "choix": "Seul numéro publié : un portable, sur le site de la brasserie. Taproom cité pour un événement, pas comme un accueil permanent : catégorie 0."
+ }
+}

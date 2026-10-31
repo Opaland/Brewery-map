@@ -1,0 +1,369 @@
+{
+ "lot": "dep-57",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "La Bière de Metz",
+    "c": "Jury",
+    "d": "57",
+    "lat": 49.0727,
+    "lon": 6.25503,
+    "km": 394.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie dit vendre directement à ses clients dans son établissement, et publie ses horaires d'ouverture. Il ne parle ni de bar ni de dégustation sur place.",
+    "addr": "Rue de la Fontaine à l'Auge, 57245 Jury",
+    "src": "https://www.labieredemetz.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "03 87 63 83 41",
+     "site": "https://www.labieredemetz.fr",
+     "source": "https://www.labieredemetz.fr/contact",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.labieredemetz.fr/contact",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.labieredemetz.fr",
+    "https://www.labieredemetz.fr/contact",
+    "https://data.geopf.fr/geocodage/search?q=Jury&type=municipality&limit=5"
+   ],
+   "extrait": "nous vendons directement à nos clients dans notre établissement",
+   "choix": "Rouverte à la relecture : l'agent n'avait qu'un résumé. Fixe publié par la brasserie. Types de bière sans lien par bière : laissés vides."
+  },
+  {
+   "fiche": {
+    "n": "La Grenouille Assoiffée",
+    "c": "Vahl-lès-Bénestroff",
+    "d": "57",
+    "lat": 48.91358,
+    "lon": 6.78387,
+    "km": 391.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Son site vend en ligne ; l'office de Sarreguemines parle de visites finies par une dégustation. Rien ne dit qu'on achète ou qu'on boit à la brasserie hors d'une visite. L'adresse varie selon les sources (2 rue de l'église sur le site, 26 Grande rue pour l'office) : point au centre de la commune.",
+    "addr": "Vahl-lès-Bénestroff",
+    "src": "https://sarreguemines-tourisme.com/en/fiches/947003297-la-grenouille-assoiffee",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 37 29 17 58",
+     "site": "http://la-grenouille-assoiffee.fr",
+     "source": "http://la-grenouille-assoiffee.fr",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://sarreguemines-tourisme.com/en/fiches/947003297-la-grenouille-assoiffee",
+    "http://la-grenouille-assoiffee.fr",
+    "https://data.geopf.fr/geocodage/search?q=Vahl-l%C3%A8s-B%C3%A9nestroff&type=municipality&limit=5"
+   ],
+   "extrait": "At the end of the visit, they also offer a tasting session.",
+   "choix": "Catégorie 0, redescendue à la relecture : une dégustation en fin de visite n'est pas une vente au comptoir (même choix que Chablis et Quiotte). Téléphone : le portable publié par la brasserie sur son site ; le fixe et l'autre portable de l'office, en désaccord avec lui, écartés. Horaires des offices contradictoires, écartés."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des 200 Brasses",
+    "c": "Ay-sur-Moselle",
+    "d": "57",
+    "lat": 49.24083,
+    "lon": 6.20923,
+    "km": 411.3,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe d'après l'office de tourisme de Metz (projet communal, en activité depuis 2015, dans le bâtiment d'une boutique de producteurs), mais la page ne dit pas si l'on peut y acheter ou boire sur place.",
+    "addr": "2 rue Jean Auguste Schleiter, 57300 Ay-sur-Moselle",
+    "src": "https://www.tourisme-metz.com/en/page/1368001829-brasserie-des-200-brasses",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.tourisme-metz.com/en/page/1368001829-brasserie-des-200-brasses",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+Jean+Auguste+Schleiter%2C+57300+Ay-sur-Moselle&limit=5"
+   ],
+   "extrait": "Wishing to revive its brewing past, the municipality launched a brewery project at the end of 2012.",
+   "choix": "Pas de site officiel lu. Le portable de la page de l'office n'est pas repris (règle du 31/10). Aucun horaire de la brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bon Poison",
+    "c": "Metz",
+    "d": "57",
+    "lat": 49.10379,
+    "lon": 6.16531,
+    "km": 395.8,
+    "cat": 1,
+    "conf": "solide",
+    "note": "La brasserie tient un bar et un shop à Metz : bouteilles à emporter, ou pression et bouteille sur place, avec une terrasse.",
+    "addr": "13A rue du XXe Corps Américain, 57000 Metz",
+    "src": "https://bonpoison.com/le-shop-le-bar/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://bonpoison.com/",
+     "source": "https://bonpoison.com/le-shop-le-bar/",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "22:00"
+       ]
+      ],
+      "source": "https://bonpoison.com/le-shop-le-bar/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://bonpoison.com/le-shop-le-bar/",
+    "https://data.geopf.fr/geocodage/search?q=13A+rue+du+XXe+Corps+Am%C3%A9ricain%2C+57000+Metz&limit=5"
+   ],
+   "extrait": "Bière bouteille à emporter ou pression/bouteille sur place",
+   "choix": "Confiance relevée à la relecture : la page le dit en toutes lettres. Adresse du bar, publiée par le site ; le registre donne la production à Marly. Téléphone non repris : le seul numéro est dit « Contact pro (uniquement) ». Pas de lien Untappd sur la page."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Tuilerie",
+    "c": "Augny",
+    "d": "57",
+    "lat": 49.07453,
+    "lon": 6.12587,
+    "km": 391.9,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe : son site publie ses bières et son contact. Il ne dit ni vente à emporter ni dégustation ouverte, ni horaires ; il annonce seulement une soirée à son taproom. Rien n'établit ce qu'on peut y faire d'ordinaire.",
+    "addr": "332 rue du Lieutenant colonel Dagnaux, 57685 Augny",
+    "src": "https://www.brasserielatuilerie.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 51 09 90 89",
+     "site": "https://www.brasserielatuilerie.fr/",
+     "source": "https://www.brasserielatuilerie.fr/",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.brasserielatuilerie.fr/",
+    "https://data.geopf.fr/geocodage/search?q=332+rue+du+Lieutenant+colonel+Dagnaux%2C+57685+Augny&limit=5"
+   ],
+   "extrait": "Soirée Taproom & DJ set",
+   "choix": "Seul numéro publié : un portable, sur le site de la brasserie. Taproom cité pour un événement, pas comme un accueil permanent : catégorie 0."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Papyllon",
+    "c": "Sierck-les-Bains",
+    "d": "57",
+    "lat": 49.44481,
+    "lon": 6.36527,
+    "km": 436.3,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Le site de la brasserie propose le retrait à la boutique des bières commandées en ligne, avec ses horaires. La buvette du jeudi et du vendredi est au Parc Valette, ailleurs qu'à la brasserie. La page ne dit pas qu'on peut acheter sans commande : à confirmer.",
+    "addr": "13 rue de l'Europe, 57480 Sierck-les-Bains",
+    "src": "https://brasseriepapyllon.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 49 27 75 10",
+     "site": "https://brasseriepapyllon.com/",
+     "source": "https://brasseriepapyllon.com/clickcollect/",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "18:30"
+       ]
+      ],
+      "remarque": "Et le samedi de 9h à 12h.",
+      "source": "https://brasseriepapyllon.com/clickcollect/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://brasseriepapyllon.com/",
+    "https://brasseriepapyllon.com/clickcollect/",
+    "https://data.geopf.fr/geocodage/search?q=13+rue+de+l%27Europe%2C+57480+Sierck-les-Bains&limit=5"
+   ],
+   "extrait": "Achetez vos bières en ligne et venez les chercher à la boutique !",
+   "choix": "Catégorie 2 : aucune dégustation libre à la brasserie n'est citée. Confiance moyenne : la page ne dit pas qu'on peut acheter sans commande. Seul numéro publié : un portable, sur le site. Enseigne du registre différente du nom d'usage ; même adresse. Samedi laissé dans la remarque : la page écrit « 12h00 13 Rue… », que le contrôle ne relit pas comme une heure, et cette garde reste."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Galibot",
+    "c": "Forbach",
+    "d": "57",
+    "lat": 49.20624,
+    "lon": 6.90442,
+    "km": 424.6,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site du taproom de la brasserie donne ses heures d'ouverture ; le samedi, une semaine sur deux, des visites sur réservation et une ouverture au public de 17h à 23h. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+    "addr": "5 Rue Jules Verne, 57600 Forbach",
+    "src": "https://galibot-taproom.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 47 29 59 66",
+     "site": "https://galibot-taproom.com",
+     "source": "https://galibot-taproom.com",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "17:00",
+        "21:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "21:00"
+       ]
+      ],
+      "source": "https://galibot-taproom.com",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://galibot-taproom.com",
+    "https://data.geopf.fr/geocodage/search?q=5+Rue+Jules+Verne%2C+57600+Forbach&limit=5"
+   ],
+   "extrait": "Jeudi et Vendredi de 17h à 21h.",
+   "choix": "Seule ligne publiée : un portable, sur le site. Samedi laissé dans la note : une semaine sur deux. Le point OSM node/11543788229, à Stiring-Wendel, est le même nom : aucune source ne l'y place, une seule fiche."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Régal Potes",
+    "c": "Bibiche",
+    "d": "57",
+    "lat": 49.32221,
+    "lon": 6.45569,
+    "km": 425.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "On peut acheter à la brasserie du lundi au vendredi, sur rendez-vous ou l'après-midi, d'après son site. Il ne parle ni de bar ni de dégustation ouverte sur place.",
+    "addr": "11 rue des Lilas, 57320 Bibiche",
+    "src": "https://www.brasserie-regal-potes.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 66 50 79 83",
+     "site": "https://www.brasserie-regal-potes.com/",
+     "source": "https://www.brasserie-regal-potes.com/",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.brasserie-regal-potes.com/",
+    "https://data.geopf.fr/geocodage/search?q=11+rue+des+Lilas%2C+57320+Bibiche&limit=5"
+   ],
+   "extrait": "directement à la brasserie du lundi au vendredi sur rendez-vous ou l'après-midi : la boutique est ouverte de 14 h à 17 h",
+   "choix": "Seule ligne publiée : un portable, sur le site. Horaires non repris : la même page dit 14h-17h et, en pied de page, 9h30-16h. Pas de lien Untappd."
+  }
+ ]
+}

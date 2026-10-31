@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:885332619",
+ "ajout": {
+  "fiche": {
+   "n": "La Branche",
+   "c": "Charmont-sous-Barbuise",
+   "d": "10",
+   "lat": 48.41025,
+   "lon": 4.16859,
+   "km": 307.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Bière artisanale bio brassée sur place, lue sur le site officiel de la Maison Branche. La page ne dit ni la vente à emporter, ni la consommation sur place, ni les horaires. Le fixe est le numéro général de la société, publié sous « Contact & Adresse ».",
+   "addr": "15 rue des écoles, 10150 Charmont-sous-Barbuise",
+   "src": "https://maisonbranche.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 25 76 00 68",
+    "site": "https://maisonbranche.fr/",
+    "source": "https://maisonbranche.fr/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://maisonbranche.fr/",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+des+%C3%A9coles%2C+10150+Charmont-sous-Barbuise&limit=5"
+  ],
+  "extrait": "une bière artisanale Bio de dégustation brassée chez nous, à Charmont-sous-Barbuise, dans l’Aube",
+  "choix": "Téléphone : 03 25 76 00 68 est le seul numéro publié, un fixe, sous « Contact & Adresse » du site officiel (retenu) ; l'office classe la Maison Branche comme traiteur. Catégorie 0 : aucune mention de vente ou d'accueil."
+ }
+}

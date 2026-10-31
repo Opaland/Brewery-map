@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:830783742",
+ "ajout": {
+  "fiche": {
+   "n": "Zythomaniacs La Doncourt",
+   "c": "Doncourt-lès-Longuyon",
+   "d": "54",
+   "lat": 49.43893,
+   "lon": 5.71039,
+   "km": 424.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La fiche de l'agence de tourisme parle de visites sur réservation le dimanche, à partir de 5 personnes. Elle ne dit rien de la vente ni d'un bar.",
+   "addr": "17 Rue des Moissonneurs, 54620 Doncourt-lès-Longuyon",
+   "src": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 61 34 39 01",
+    "source": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+   "https://data.geopf.fr/geocodage/search?q=17+Rue+des+Moissonneurs%2C+54620+Doncourt-l%C3%A8s-Longuyon&limit=5"
+  ],
+  "extrait": "La brasserie propose des visites, sur réservation, les dimanches à partir de 5 personnes.",
+  "choix": "Fixe lu dans le bloc de la brasserie sur la fiche de tourisme (règle du 31/10). Site annoncé illisible le 31/10 : non repris."
+ }
+}

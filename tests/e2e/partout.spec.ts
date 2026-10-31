@@ -26,12 +26,14 @@ test.describe('chercher une commune de départ, partout en France', () => {
     expect(demandes.some((p) => p.endsWith('/communes/69.json'))).toBe(true)
   })
 
-  test('toute la France : depuis Porcelette (57), des brasseries, à confirmer (S25)', async ({ page }) => {
+  test('toute la France : depuis Perpignan (66), des brasseries, à confirmer (S25)', async ({ page }) => {
     // Le cas de Cédric du 16/10 : « Aucune brasserie à moins de 30 km de
     // Porcelette ». Depuis S25, la couche OpenStreetMap répond.
+    // Porcelette a des fiches depuis S346 : le test passe à Perpignan, dans la dernière région
+    // de la campagne (S348). À déplacer quand l'Occitanie entrera.
     await page.goto('/')
-    await choisirCommune(page, 'porcelette', 'Porcelette (57)')
-    await expect(page.getByTestId('compte')).toContainText('brasseries à moins de 30 km de Porcelette (57)')
+    await choisirCommune(page, 'perpignan', 'Perpignan (66)')
+    await expect(page.getByTestId('compte')).toContainText('brasseries à moins de 30 km de Perpignan (66)')
     await page.locator('button.ligne').first().click()
     const fiche = page.getByTestId('fiche')
     await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveText('openstreetmap.org (nouvel onglet)')
@@ -47,12 +49,12 @@ test.describe('chercher une commune de départ, partout en France', () => {
     page,
   }) => {
     await page.goto('/')
-    await choisirCommune(page, 'porcelette', 'Porcelette (57)')
+    await choisirCommune(page, 'perpignan', 'Perpignan (66)')
     await expect(page.getByTestId('badge-osm').first()).toBeVisible()
     await ouvrirFiltres(page)
     await page.getByTestId('avec-osm').uncheck()
     await expect(page.getByTestId('badge-osm')).toHaveCount(0)
-    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Porcelette (57).')
+    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Perpignan (66).')
     await attendreGarde(page, { avecOsm: false })
     await page.reload()
     await expect(page.getByTestId('avec-osm')).not.toBeChecked()

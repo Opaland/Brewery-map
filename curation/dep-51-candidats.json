@@ -1,0 +1,534 @@
+[
+ {
+  "cle": "sirene:817860687",
+  "nom": "BRASSERIE ARTISANALE  DE REIMS",
+  "communes": [
+   "CORMONTREUIL",
+   "REIMS"
+  ],
+  "departement": "51",
+  "adresses": [
+   "7 B RUE DES COMPAGNONS 51350 CORMONTREUIL",
+   "16 BOULEVARD DU VAL DE VESLE 51100 REIMS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "817860687",
+  "sirets": [
+   "81786068700034",
+   "81786068700042"
+  ],
+  "osm": [],
+  "lat": 49.215810686,
+  "lon": 4.0661156587,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848387726",
+  "nom": "BRASSERIE TETE DE CHOU",
+  "communes": [
+   "EPERNAY"
+  ],
+  "departement": "51",
+  "adresses": [
+   "1 B AVENUE DU MARECHAL FOCH 51200 EPERNAY",
+   "1 AVENUE DU MARECHAL FOCH 51200 EPERNAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848387726",
+  "sirets": [
+   "84838772600021",
+   "84838772600039"
+  ],
+  "osm": [],
+  "lat": 49.040608321,
+  "lon": 3.9502677584,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897417168",
+  "nom": "LA PATTE D'OIE",
+  "communes": [
+   "DORMANS"
+  ],
+  "departement": "51",
+  "adresses": [
+   "3 RUE DE LA BEAUCHARDERIE 51700 DORMANS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897417168",
+  "sirets": [
+   "89741716800019"
+  ],
+  "osm": [],
+  "lat": 49.066385888,
+  "lon": 3.6675692453,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900628421",
+  "nom": "SASU BRASSERIE QUI EN BRASSE",
+  "communes": [
+   "SUIPPES"
+  ],
+  "departement": "51",
+  "adresses": [
+   "19 ROUTE DE CHALONS 51600 SUIPPES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900628421",
+  "sirets": [
+   "90062842100019"
+  ],
+  "osm": [],
+  "lat": 49.127042199,
+  "lon": 4.5253253192,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "CORMONTREUIL"
+  ],
+  "departement": "51",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914676739",
+  "nom": "BRASSERIE XD",
+  "communes": [
+   "VERZENAY"
+  ],
+  "departement": "51",
+  "adresses": [
+   "RUE DUCHATEL-OHAUSS 51360 VERZENAY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "914676739",
+  "sirets": [
+   "91467673900016"
+  ],
+  "osm": [
+   "node/13357960352"
+  ],
+  "lat": 49.160573866,
+  "lon": 4.1440428247,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922697032",
+  "nom": "BRASSERIE NUCLEO",
+  "communes": [
+   "CORMONTREUIL"
+  ],
+  "departement": "51",
+  "adresses": [
+   "4 RUE DES ARTISANS 51350 CORMONTREUIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "922697032",
+  "sirets": [
+   "92269703200022"
+  ],
+  "osm": [],
+  "lat": 49.217119691107,
+  "lon": 4.06866229025558,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833803919",
+  "nom": "LE SHED",
+  "communes": [
+   "REIMS"
+  ],
+  "departement": "51",
+  "adresses": [
+   "49 RUE GOSSET 51100 REIMS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833803919",
+  "sirets": [
+   "83380391900020"
+  ],
+  "osm": [],
+  "lat": 49.2663960024243,
+  "lon": 4.04177195082547,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952179331",
+  "nom": "L'AGAME BARBU",
+  "communes": [
+   "SAINT-HILAIRE-LE-GRAND"
+  ],
+  "departement": "51",
+  "adresses": [
+   "2 RUE JEAN GILLET 51600 SAINT-HILAIRE-LE-GRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952179331",
+  "sirets": [
+   "95217933100014"
+  ],
+  "osm": [],
+  "lat": 49.17198995,
+  "lon": 4.4615664568,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:837778042",
+  "nom": "LUCIDA",
+  "communes": [
+   "LUDES"
+  ],
+  "departement": "51",
+  "adresses": [
+   "2 RUE 2 RUE NATIONALE 51500 LUDES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "837778042",
+  "sirets": [
+   "83777804200015"
+  ],
+  "osm": [],
+  "lat": 49.154246948,
+  "lon": 4.0796840992,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:985025360",
+  "nom": "LA BRASSERIE BACHOTAINE",
+  "communes": [
+   "BASSUET"
+  ],
+  "departement": "51",
+  "adresses": [
+   "42 RUE DE VAVRAY 51300 BASSUET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "985025360",
+  "sirets": [
+   "98502536000019"
+  ],
+  "osm": [],
+  "lat": 48.7989197847853,
+  "lon": 4.67203114403981,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:890290828",
+  "nom": "BRASSERIE DIAGONALE",
+  "communes": [
+   "BROUSSY-LE-GRAND"
+  ],
+  "departement": "51",
+  "adresses": [
+   "1 RUE DES PETITES VIGNES 51230 BROUSSY-LE-GRAND"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "890290828",
+  "sirets": [
+   "89029082800015"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:903627032",
+  "nom": "B51",
+  "communes": [
+   "LUDES"
+  ],
+  "departement": "51",
+  "adresses": [
+   "3 IMPASSE CARNOT 51500 LUDES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "903627032",
+  "sirets": [
+   "90362703200019"
+  ],
+  "osm": [],
+  "lat": 49.15379899,
+  "lon": 4.0789320431,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811282086",
+  "nom": "BIERES ET TENTATIONS",
+  "communes": [
+   "JUVIGNY"
+  ],
+  "departement": "51",
+  "adresses": [
+   "1 RUELLE DE LA GRAVIERE 51150 JUVIGNY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "811282086",
+  "sirets": [
+   "81128208600016"
+  ],
+  "osm": [
+   "way/381272627"
+  ],
+  "lat": 49.018033535,
+  "lon": 4.2679527922,
+  "site": "https://bieresettentations.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:817895709",
+  "nom": "JHP",
+  "communes": [
+   "AY-CHAMPAGNE"
+  ],
+  "departement": "51",
+  "adresses": [
+   "16 RUE LEON BOURGEOIS 51150 AY-CHAMPAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "817895709",
+  "sirets": [
+   "81789570900019"
+  ],
+  "osm": [],
+  "lat": 49.055022173,
+  "lon": 4.0029467738,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "ORBAIS"
+  ],
+  "departement": "51",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "REIMS"
+  ],
+  "departement": "51",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:824591341",
+  "nom": "BRASSERIE MADAME NATURE",
+  "communes": [
+   "SOMMEPY-TAHURE"
+  ],
+  "departement": "51",
+  "adresses": [
+   "10 RUE DE L'HOTEL-DIEU 51600 SOMMEPY-TAHURE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824591341",
+  "sirets": [
+   "82459134100014"
+  ],
+  "osm": [],
+  "lat": 49.251731493,
+  "lon": 4.5599036407,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921820510",
+  "nom": "ATOM CRAFT BEER",
+  "communes": [
+   "JONCHERY-SUR-VESLE"
+  ],
+  "departement": "51",
+  "adresses": [
+   "1 CHEMIN DE REIMS 51140 JONCHERY-SUR-VESLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921820510",
+  "sirets": [
+   "92182051000011"
+  ],
+  "osm": [],
+  "lat": 49.283734791,
+  "lon": 3.8244421382,
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "LA GOUNASSE",
+  "communes": [
+   "VERDON"
+  ],
+  "departement": "51",
+  "adresses": [
+   "7 RUE DE LA SOURCE SAINT MALO 51210 VERDON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:751561044",
+  "nom": "SARL 1896",
+  "communes": [
+   "VERZENAY"
+  ],
+  "departement": "51",
+  "adresses": [
+   "8 RUE DES TUILERIES 51360 VERZENAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "751561044",
+  "sirets": [
+   "75156104400015"
+  ],
+  "osm": [],
+  "lat": 49.157661926,
+  "lon": 4.1439786308,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:509874020",
+  "nom": "BRASSERIE ARTISANALE MASCLAUX",
+  "communes": [
+   "BERMERICOURT"
+  ],
+  "departement": "51",
+  "adresses": [
+   "15 RUE DU GENERAL DE GAULLE 51220 BERMERICOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "509874020",
+  "sirets": [
+   "50987402000035"
+  ],
+  "osm": [],
+  "lat": 49.356784066,
+  "lon": 3.990727077,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "ECLAIRES"
+  ],
+  "departement": "51",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/7905575381",
+  "nom": "Senses Brewing",
+  "communes": [
+   "Reims"
+  ],
+  "departement": "51",
+  "adresses": [
+   "49"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7905575381"
+  ],
+  "lat": 49.26669,
+  "lon": 4.04093,
+  "site": "https://www.sensesbrewing.com",
+  "statut": "nouveau"
+ }
+]

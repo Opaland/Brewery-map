@@ -1,0 +1,54 @@
+{
+ "candidat": "sirene:815320643",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Saulx",
+   "c": "Morley",
+   "d": "55",
+   "lat": 48.58006,
+   "lon": 5.24631,
+   "km": 325.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel dit que les bières s'achètent directement à la brasserie, et conseille d'appeler avant de venir pour s'assurer que le brasseur soit présent. Ni bar, ni dégustation, ni horaires.",
+   "addr": "10 bis Rue du Fourneau, 55290 Morley",
+   "src": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde",
+     "libelle": "Moro Sphinx",
+     "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Demoiselle",
+     "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+    },
+    {
+     "type": "ambree",
+     "libelle": "Feuille Morte du Chêne",
+     "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+    },
+    {
+     "type": "stout",
+     "libelle": "Abeille Charpentière",
+     "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+    }
+   ],
+   "contact": {
+    "tel": "06 71 68 99 71",
+    "site": "https://www.brasseriedelasaulx.fr",
+    "source": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasseriedelasaulx.fr/points-de-vente/",
+   "https://data.geopf.fr/geocodage/search?q=10+bis+Rue+du+Fourneau%2C+55290+Morley&limit=5"
+  ],
+  "extrait": "Les bières peuvent être achetées directement à la brasserie",
+  "choix": "Portable : seule ligne publiée, par la brasserie sur son site. Styles lus sur la page des bières du site. Le point OSM node/5250142772 est le même lieu : une seule fiche."
+ }
+}

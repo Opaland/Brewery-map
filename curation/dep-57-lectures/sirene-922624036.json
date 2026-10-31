@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:922624036",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Régal Potes",
+   "c": "Bibiche",
+   "d": "57",
+   "lat": 49.32221,
+   "lon": 6.45569,
+   "km": 425.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "On peut acheter à la brasserie du lundi au vendredi, sur rendez-vous ou l'après-midi, d'après son site. Il ne parle ni de bar ni de dégustation ouverte sur place.",
+   "addr": "11 rue des Lilas, 57320 Bibiche",
+   "src": "https://www.brasserie-regal-potes.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 66 50 79 83",
+    "site": "https://www.brasserie-regal-potes.com/",
+    "source": "https://www.brasserie-regal-potes.com/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasserie-regal-potes.com/",
+   "https://data.geopf.fr/geocodage/search?q=11+rue+des+Lilas%2C+57320+Bibiche&limit=5"
+  ],
+  "extrait": "directement à la brasserie du lundi au vendredi sur rendez-vous ou l'après-midi : la boutique est ouverte de 14 h à 17 h",
+  "choix": "Seule ligne publiée : un portable, sur le site. Horaires non repris : la même page dit 14h-17h et, en pied de page, 9h30-16h. Pas de lien Untappd."
+ }
+}
