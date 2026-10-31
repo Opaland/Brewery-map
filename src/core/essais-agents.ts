@@ -57,3 +57,29 @@ export function referencesIntrouvables(refs: readonly Reference[], lire: (chemin
     })
     .map((r) => `${r.chemin}:${String(r.ligne)}`)
 }
+
+/**
+ * Ce qu'un essai a changé dans le dépôt : les lignes de `git status --porcelain`
+ * apparues ou disparues entre avant et après (S375, #216). Les relecteurs ont
+ * `Bash`, qui peut écrire : seule la consigne les retient.
+ */
+export function ecartsDuDepot(avant: string, apres: string): string[] {
+  const lignes = (t: string) => t.split(/\r?\n/).filter((l) => l !== '')
+  const a = lignes(avant)
+  const b = lignes(apres)
+  return [...a.filter((l) => !b.includes(l)), ...b.filter((l) => !a.includes(l))]
+}
+
+/** Le coût cumulé a-t-il atteint le plafond ? Alors on ne lance pas l'essai suivant (S375). */
+export function coutAtteint(couts: readonly number[], plafond: number): boolean {
+  return couts.reduce((total, c) => total + c, 0) >= plafond
+}
+
+/**
+ * Un argument pour `spawnSync` avec `shell: true` : sous Windows, `claude` est un
+ * `.cmd`, le shell y est obligatoire et il coupe aux espaces. La première campagne
+ * (31/10) n'a envoyé aux agents que le premier mot de leur question.
+ */
+export function argumentShell(argument: string, plateforme: string): string {
+  return plateforme === 'win32' ? `"${argument}"` : argument
+}

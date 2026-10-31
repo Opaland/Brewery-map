@@ -9,7 +9,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Ce qui est fait
 
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
-  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S374).
+  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S375).
 - 643 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
   Bretagne, Pays de la Loire, Centre-Val de Loire, Provence-Alpes-Côte d'Azur,
   Corse, Hauts-de-France et Île-de-France), et 715 points OpenStreetMap « À confirmer ».
