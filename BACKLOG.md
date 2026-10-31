@@ -504,3 +504,8 @@ Le détail et les preuves sont dans `docs/REVUE-ENSEMBLE.md`.
   préférences.** `nbCarnetSansOsm` vaut 0 tant que la couche n'est pas là :
   « Votre carnet est vide » peut s'afficher un instant. Antérieur à S357,
   non reproduit.
+
+## Reste de S379 (31/10)
+
+- En mode navigation d'un lecteur d'écran sous Firefox (flèches, H), le focus ne passe pas par Tab : une ligne peut rester sous la barre. Non mesuré : à juger avec une vraie personne (#58).
+- Sans `ResizeObserver`, ni la marge ni ce défilement ne s'installent.

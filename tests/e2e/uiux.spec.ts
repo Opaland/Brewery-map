@@ -105,8 +105,9 @@ test.describe('le compte collant ne cache aucun focus (WCAG 2.4.11, revue advers
     test(`au clavier, ${String(viewport.width)}×${String(viewport.height)}`, async ({ page }) => {
       await page.setViewportSize(viewport)
       const caches: string[] = []
-      for (let i = 0; i < 40; i++) {
-        await page.keyboard.press('Tab')
+      // Dans les deux sens (revue d'Inès, S379).
+      for (const touche of [...Array<string>(40).fill('Tab'), ...Array<string>(40).fill('Shift+Tab')]) {
+        await page.keyboard.press(touche)
         // Mesure une fois le défilement fini (CLAUDE.md §1bis).
         await page.waitForTimeout(30)
         const cache = await page.evaluate(() => {
@@ -117,7 +118,10 @@ test.describe('le compte collant ne cache aucun focus (WCAG 2.4.11, revue advers
           const r = f.getBoundingClientRect()
           if (r.bottom <= 0 || r.top >= window.innerHeight) return null
           const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
-          return vu !== null && c.contains(vu) ? (f.dataset['testid'] ?? f.tagName) : null
+          // Ce qui tient au-dessus de la barre s'y voit en entier, pas seulement son centre (S379).
+          const barre = c.getBoundingClientRect().top
+          const tient = r.height <= barre
+          return (vu !== null && c.contains(vu)) || (tient && r.bottom > barre + 1) ? (f.dataset['testid'] ?? f.tagName) : null
         })
         if (cache !== null) caches.push(cache)
       }
@@ -363,5 +367,40 @@ test.describe('barre décollée (320 × 568, texte à 200 %)', () => {
     await expect
       .poll(() => page.evaluate(() => { const t = document.activeElement?.getBoundingClientRect().top ?? -9; return t > -1 && t < window.innerHeight }))
       .toBe(true)
+  })
+})
+
+// S379 : Firefox ne défile pas vers un élément déjà en partie visible ; Tab le demande, un clic non.
+test.describe('le défilement vers le focus (S379)', () => {
+  const espionner = (page: Page) =>
+    page.addInitScript(() => {
+      const appels: string[] = []
+      ;(window as unknown as { appels: string[] }).appels = appels
+      const origine = Object.getOwnPropertyDescriptor(Element.prototype, 'scrollIntoView')?.value as (o?: boolean | ScrollIntoViewOptions) => void
+      Element.prototype.scrollIntoView = function (this: Element, o?: boolean | ScrollIntoViewOptions) {
+        appels.push(this.closest('.maplibregl-map') === null ? 'page' : 'carte')
+        origine.call(this, o)
+      }
+    })
+  const appels = (page: Page) => page.evaluate(() => (window as unknown as { appels: string[] }).appels)
+
+  test('Tab le demande ; un clic dans la recherche, non', async ({ page }) => {
+    await espionner(page)
+    await page.goto('/')
+    await page.getByTestId('recherche').click()
+    await expect.poll(() => appels(page)).toEqual([])
+    await page.keyboard.press('Tab')
+    await expect.poll(async () => (await appels(page)).length).toBeGreaterThan(0)
+  })
+
+  test('un marqueur pris au clavier ne fait pas défiler sa carte', async ({ page }) => {
+    await espionner(page)
+    await page.setViewportSize({ width: 1280, height: 800 })
+    await page.goto('/')
+    await expect(page.locator('.marqueur').first()).toBeVisible()
+    await page.locator('.marqueur').first().focus()
+    await page.keyboard.press('Tab')
+    await expect.poll(() => page.evaluate(() => document.activeElement?.className ?? '')).toContain('marqueur')
+    expect(await appels(page)).not.toContain('carte')
   })
 })
