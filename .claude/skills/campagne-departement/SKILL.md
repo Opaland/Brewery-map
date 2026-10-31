@@ -34,7 +34,9 @@ vagues de dix au plus. Le prompt, à recopier en changeant le fichier :
 > Applique la méthode d'existence de Cédric du 19/10 et la décision #37
 > (`docs/DECISIONS.md`) : un annuaire seul, un article de presse seul ou
 > un réseau social seul ne suffisent pas ; un office de tourisme vaut au
-> plus une confiance moyenne. Cherche le site officiel d'abord, puis
+> plus une confiance moyenne. Pour le téléphone : un fixe publié par un office de
+> tourisme seul est repris, s'il est dans le bloc de la brasserie, jamais le
+> numéro de l’office lui-même ; un portable vient de la brasserie. Cherche le site officiel d'abord, puis
 > Untappd (qui est aussi la source des bières), puis l'office de tourisme ;
 > fais au moins deux recherches par candidat. Lis `docs/DONNEES.md` et
 > `src/core/categories.ts`. Vérifie qu'aucun n'est déjà une fiche de
