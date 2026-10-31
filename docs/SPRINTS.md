@@ -3075,3 +3075,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S346, première partie — le Grand Est : Ardennes, Aube, Marne, Haute-Marne, Meurthe-et-Moselle, Meuse, Moselle *(31/10, epic E36)*
 
 `docs/stories/S346.md`, issue #187. 30 paquets lus par 31 agents ; 42 fiches par la règle de Cédric du 21/10 (08 : 6, 10 : 6, 51 : 3, 52 : 2, 54 : 15, 55 : 2, 57 : 8) ; 685 fiches dans 67 départements, OSM à 690. Chaque source rouverte en direct : les agents n'avaient que des résumés, ce qui a changé une dizaine de catégories. Le contrôle des horaires lit « 14:00 19:00 » en tableau. Rodemack reste « à relancer » : son certificat invalide empêche le contrôle de relire sa page. Suite : 67, 68, 88 avec un quota neuf.
+
+## S376 — La doc et le CSS tenus contre CATEGORIES *(31/10)*
+
+`docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
