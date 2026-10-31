@@ -1,3 +1,4 @@
+import { CATEGORIES } from '../../src/core/categories'
 import { readdirSync, readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { hotesTiers, POLITIQUE } from '../../build/csp'
@@ -94,5 +95,22 @@ describe('les règles jumelles', () => {
       (f) => !['src/core/schema.ts', 'tests/unit/jumeaux.test.ts'].includes(f) && /2\[AB\]|2\[A-B\]|2A\|2B/.test(readFileSync(f, 'utf8')),
     )
     expect(copies, 'reprendre MOTIF_DEPARTEMENT de src/core/schema.ts').toEqual([])
+  })
+})
+
+/** S376 (#249) : la doc et le CSS tenus contre `CATEGORIES` ; S368 aurait pu en oublier une sans rougir. */
+describe('les catégories : la doc et les couleurs', () => {
+  const codes = Object.keys(CATEGORIES)
+
+  it('docs/DONNEES.md a une ligne par catégorie, avec son libellé, et rien de plus', () => {
+    const doc = readFileSync('docs/DONNEES.md', 'utf8').replace(/\r\n/g, '\n')
+    const lignes = [...doc.matchAll(/^\| (\d) \| ([^|]+?) \|/gm)].map((m) => [m[1], m[2]])
+    expect(lignes.map(([c]) => c).sort()).toEqual([...codes].sort())
+    for (const [c, libelle] of lignes) expect(libelle).toBe(CATEGORIES[Number(c) as keyof typeof CATEGORIES])
+  })
+
+  it.each(codes)('src/index.css colore la catégorie %s partout où elle se montre', (c) => {
+    const css = readFileSync('src/index.css', 'utf8')
+    for (const regle of [`.cat-${c} .pastille`, `.marqueur.cat-${c}`, `.ligne.cat-${c}`]) expect(css).toContain(`${regle} {`)
   })
 })
