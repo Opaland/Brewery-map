@@ -189,7 +189,7 @@ une option ; son choix est recopié tel qu'il l'a coché.
 | Question | Son choix | Ce qui en suit |
 |---|---|---|
 | A26 : le carnet n'a pas d'écran à lui, le seul accès est un filtre inverse. | « Case « Mon carnet » » | Une case dans les filtres ne garde que les brasseries visitées ou notées (S350). |
-| Dependabot pour les dépendances npm ? | « Mensuel, groupé, sans majeures » | `.github/dependabot.yml` : une PR par mois, mineures et correctifs groupés, majeures à la main (S351). Une version majeure n’est **jamais** proposée : il faut la chercher soi-même (`npm outdated`). Les alertes et les mises à jour de sécurité de Dependabot sont **désactivées** sur le dépôt (constaté le 22/10 : `automated-security-fixes` répond `enabled: false`) : la seule garde des failles reste `npm audit` (bloquant pour ce que la page embarque, sans bloquer pour l’arbre entier dans la porte et dans la sonde lancée à la main, S283 ; sa planification de nuit est retirée depuis le 25/10). Les activer est un réglage du dépôt, à Cédric. |
+| Dependabot pour les dépendances npm ? | « Mensuel, groupé, sans majeures » | `.github/dependabot.yml` : une PR par mois, mineures et correctifs groupés, majeures à la main (S351). Une version majeure n’est **jamais** proposée : il faut la chercher soi-même (`npm outdated`). Les alertes et les mises à jour de sécurité de Dependabot sont **désactivées** sur le dépôt (constaté le 22/10 : `automated-security-fixes` répond `enabled: false`) : la seule garde des failles reste `npm audit` (bloquant pour ce que la page embarque, sans bloquer pour l’arbre entier dans la porte et dans la sonde lancée à la main, S283 ; sa planification de nuit est retirée depuis le 25/10 ; l'audit repart chaque semaine depuis le 31/10, voir plus bas). Les activer est un réglage du dépôt, à Cédric. |
 | #38, un canal hors GitHub pour signaler une erreur ? | « Toujours indécis » | L'issue reste ouverte. Elle n'est plus rappelée à chaque reprise. |
 | Projet Amertume : écrire à son auteur ? | « Je préparerai un brouillon » | Brouillon Gmail du 22/10, adressé à projet.amertume@free.fr (l'adresse publiée sur la page d'accueil du site), **non envoyé** : Cédric le relit et l'envoie. Rien de ses données n'est utilisé avant une réponse écrite. |
 
@@ -218,3 +218,20 @@ bar de brasserie dont la source dit qu'on y boit, sans parler de vente à
 emporter, se classe en 1 avec une confiance faible (la première option
 proposée) ; le 4 reste réservé à une source qui dit qu'on ne vend pas à
 emporter.
+
+## Réponses de Cédric du 31/10
+
+Neuf questions posées à la reprise du 31/10. Il a répondu en choisissant une
+option ; son choix est recopié tel qu'il l'a coché.
+
+| Question | Son choix | Ce qui en suit |
+|---|---|---|
+| #247 : un point OpenStreetMap porte le nom d'une personne | « Écarter et chercher » | Le point est écarté de la couche, et les autres cas sont cherchés (S372) |
+| #209 : protéger `main` | « Checks obligatoires » | `porte` et `visuel` requis, sans revue obligatoire : son autonomie du 15/10 reste (S371) |
+| #214 : sept fiches « solide » sur un office de tourisme | « Redescendre à moyenne » | Un lot (S373) |
+| #216 : première campagne d'essais des agents | « Oui, lancer » | Après le contrôle de `git status` (S375) ; le verdict reste le sien |
+| #226 : l'audit de l'arbre npm entier | « Hebdomadaire » | Le job `audit` seul, le lundi (S371) |
+| S364 : le signalement privé des failles | « Ouvrir » | Ouvert, `SECURITY.md` corrigé (S371) |
+| S343 : un téléphone publié seulement par un office de tourisme | « Fixes seulement » | Un fixe lu et daté sur l'office est repris ; un portable doit venir de la brasserie (S374) |
+| Popihn (Vaumort, 89) : Untappd et registre, sans site | « Garder » | Elle reste en « À confirmer », `data/` ne change pas |
+| Lavigney (70) : une enseigne qui est le nom de famille d'un entrepreneur individuel | « Laisser dehors » | Pas de fiche ; la règle tient sans exception |

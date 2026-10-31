@@ -29,7 +29,7 @@ confirmer ».
 dans git, empreinte fixée), auquel on rejoue les accords écrits de Cédric
 (`curation/accords/`). `outils/garde-donnees.ts` le vérifie en CI à chaque
 push et chaque PR ; `.github/CODEOWNERS` désigne Cédric pour `data/` et les
-accords.
+accords, sans imposer sa revue (sa décision du 31/10, #209).
 
 ## 3. Le code
 

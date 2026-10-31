@@ -42,7 +42,7 @@ ses requêtes par hôte en finissant (S280).
 - **« Signaler une erreur »** ouvre une issue préremplie sur GitHub
   (`src/core/signalement.ts`) : GitHub en panne, le signalement attend.
 - **GitHub Actions** : la porte, le déploiement, la sonde et la mutation
-  (ces deux-là lancées à la main depuis le 25/10). En panne, rien ne se publie ; la page en ligne reste celle d'avant.
+  (ces deux-là lancées à la main depuis le 25/10 ; l'audit de l'arbre npm entier, seul, repart chaque semaine depuis le 31/10). En panne, rien ne se publie ; la page en ligne reste celle d'avant, et rien ne se merge non plus : la protection de `main` exige `porte` et `visuel`, administrateur compris (31/10, #209). Si elle doit être levée pour un correctif urgent, c'est un réglage du dépôt, à Cédric.
 - **Les sites des brasseries** lus par `curation.ts controler` : un site en
   panne est dit « injoignable » pour sa ligne seule, et la ligne reste à
   montrer à Cédric (S265).

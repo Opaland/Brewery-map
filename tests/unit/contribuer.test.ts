@@ -61,8 +61,8 @@ describe('contribuer : une faille, une PR, qui décide, ce que coûte la porte (
   it('SECURITY.md dit comment signaler une faille sans la publier', () => {
     expect(existsSync('SECURITY.md'), 'SECURITY.md manquant').toBe(true)
     const securite = readFileSync('SECURITY.md', 'utf8')
-    expect(securite).toMatch(/sans détail exploitable/)
-    expect(securite).toContain('docs/stories/S364.md')
+    expect(securite).toContain('Report a vulnerability')
+    expect(securite).toMatch(/Ne publiez/)
     for (const doc of ['README.md', 'CONTRIBUTING.md']) {
       expect(readFileSync(doc, 'utf8'), `${doc} : renvoyer à SECURITY.md`).toContain('(SECURITY.md)')
     }

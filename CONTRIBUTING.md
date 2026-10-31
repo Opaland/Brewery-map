@@ -72,6 +72,13 @@ Pas dans une issue détaillée : voir [`SECURITY.md`](SECURITY.md).
    la page embarque (une faille haute publiée entre-temps peut la rougir
    sans rapport avec votre PR : le dire suffit).
 
+### Le merge
+
+`main` n'accepte qu'une PR à jour de `main`, avec `porte` et `visuel` verts sur
+son dernier commit (réglage du 31/10, #209) ; la revue n'est pas imposée. Le
+commit de références que pousse `visuel-references` ne relance pas la CI : le
+mainteneur lance `gh workflow run ci.yml --ref <branche>`.
+
 ### Sous Windows (PowerShell)
 
 PowerShell 5.1 refuse `&&` et `VAR=valeur commande` : un pas par ligne.
