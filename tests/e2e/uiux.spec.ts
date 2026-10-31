@@ -397,6 +397,8 @@ test.describe('le défilement vers le focus (S379)', () => {
     await espionner(page)
     await page.setViewportSize({ width: 1280, height: 800 })
     await page.goto('/')
+    // Sans WebGL (Firefox et WebKit en CI), versLaCarte saute le test.
+    await versLaCarte(page)
     await expect(page.locator('.marqueur').first()).toBeVisible()
     await page.locator('.marqueur').first().focus()
     await page.keyboard.press('Tab')
