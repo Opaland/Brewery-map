@@ -1,6 +1,6 @@
 import { type Page } from '@playwright/test'
 import { expect, test } from './position'
-import { sansTuiles } from './reseau'
+import { sansTuiles, versLaCarte } from './reseau'
 
 /**
  * S50 — l'interface en anglais, pour une visiteuse étrangère (epic E10).
@@ -59,7 +59,8 @@ test.describe('navigateur en anglais', () => {
   })
 
   test('l’attribution de la carte suit la langue (revue adverse S50)', async ({ page }) => {
-    await page.getByTestId('carte-en-attente').scrollIntoViewIfNeeded()
+    // Sans WebGL (Firefox en CI), versLaCarte saute le test (S380, #250).
+    await versLaCarte(page)
     await expect(page.locator('.maplibregl-ctrl-attrib')).toContainText('OpenStreetMap contributors')
   })
 })
