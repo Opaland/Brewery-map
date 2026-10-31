@@ -3083,3 +3083,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S377 — Le jeton hors du dépôt *(31/10)*
 
 `docs/stories/S377.md`, #251. `persist-credentials: false` sur chaque checkout, sauf le job qui pousse ; un test le tient. Stryker reste hors de `package.json`, à versions fixées (`docs/MUTATION.md`).
+
+## S378 — Sous Firefox, ouvrir une fiche ne fait plus déborder la page *(31/10)*
+
+`docs/stories/S378.md`, #250. À 320 et 412 px, texte à 200 %, le champ « Ma note » imposait 491 px à la page. Corrigé et vérifié sous Firefox ; les autres rouges de Firefox et WebKit restent dans #250, avec leur tri.

@@ -117,7 +117,7 @@ Par quoi commencer :
    #38 (canal hors GitHub) reste indécis : ne le rappelle pas.
 4. À partir du 03/11 : relève les runs de main et ferme #221 si l'installation
    de Chromium tient.
-5. Puis, sur mon go : #187 (S346, Grand Est, avec un quota de recherches
-   neuf), #188 (S347), #189 (S348), les « à relancer » de S345 notés au
-   BACKLOG, et les issues techniques #249, #250, #251.
+5. Mon go général du 31/10 vaut pour la suite : S346 seconde partie (67, 68, 88,
+   avec un quota de recherches neuf), #188 (S347), #189 (S348), les « à relancer »
+   de S345 et S346, et le tri de #250.
 ````
