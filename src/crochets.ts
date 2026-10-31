@@ -106,9 +106,30 @@ export function useHauteurBarre(): RefObject<HTMLDivElement> {
     const suivre = new ResizeObserver(mesurer)
     suivre.observe(p)
     window.addEventListener('resize', mesurer)
+    // S379 : Firefox ne défile pas vers un élément déjà en partie visible, et
+    // laissait une ligne sous la barre. Seule la touche Tab demande ce
+    // défilement : ni un clic, ni un toucher. Un marqueur reste à sa carte :
+    // le faire défiler décalerait le conteneur de la carte.
+    let tabulation = false
+    const noterTouche = (e: KeyboardEvent) => {
+      tabulation = e.key === 'Tab'
+    }
+    const noterPointeur = () => {
+      tabulation = false
+    }
+    const montrerFocus = (e: FocusEvent) => {
+      if (!tabulation || !(e.target instanceof Element) || e.target.closest('.maplibregl-map') !== null) return
+      e.target.scrollIntoView({ block: 'nearest' })
+    }
+    document.addEventListener('keydown', noterTouche, true)
+    document.addEventListener('pointerdown', noterPointeur, true)
+    document.addEventListener('focusin', montrerFocus)
     return () => {
       suivre.disconnect()
       window.removeEventListener('resize', mesurer)
+      document.removeEventListener('keydown', noterTouche, true)
+      document.removeEventListener('pointerdown', noterPointeur, true)
+      document.removeEventListener('focusin', montrerFocus)
     }
   }, [])
   return barre
