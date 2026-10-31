@@ -984,11 +984,14 @@ input[type='range'], input[type='checkbox'] { accent-color: var(--cuivre); }
   background: var(--blanc-carte);
   color: var(--encre);
   resize: vertical;
-  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 .fiche-note textarea::placeholder { color: var(--encre-douce); opacity: 1; }
 .fiche-note textarea:focus { outline: 3px solid var(--cuivre-vif); outline-offset: 2px; border-color: var(--cuivre); }
-.fiche-note { margin-bottom: var(--espace-6); }
+/* S378 : sous Firefox, la largeur naturelle du champ faisait déborder la page à 200 % de texte. */
+.fiche-note { margin-bottom: var(--espace-6); min-width: 0; grid-template-columns: minmax(0, 1fr); }
 
 /* ── S38 : l'affichette de comptoir ───────────────────────────────────── */
 
