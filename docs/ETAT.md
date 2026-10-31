@@ -9,10 +9,10 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Ce qui est fait
 
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
-  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S371).
+  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S372).
 - 643 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
   Bretagne, Pays de la Loire, Centre-Val de Loire, Provence-Alpes-Côte d'Azur,
-  Corse, Hauts-de-France et Île-de-France), et 716 points OpenStreetMap « À confirmer ».
+  Corse, Hauts-de-France et Île-de-France), et 715 points OpenStreetMap « À confirmer ».
 - La règle du 18/10 (« site officiel + contrôlé ») appliquée :
   `docs/DECISIONS.md`.
 

@@ -55,7 +55,7 @@ Restent 3, 4 et 5.
 - À relancer : Crazy Hops (site lu, ni la vente régulière ni l'accueil établis), La Mousse de Bleau (domaine en vente), Second Degré (429), Microbrasserie du Saule (certificat expiré), Brew for Fun, Distrikt et Sapeur Brasseur (DNS), Respekt (vérification de l'âge), Tricyclhop (certificat du site de la ville), The Chubby Brewing Company, Inkraft (certificat), Brasserie Fondamentale, Brasserie Gus, Brasserie du Château à Montmorency.
 - La Fabrique à Pression : a quitté Brunoy pour Évry-Grégy-sur-Yerres (77) d'après son site, vente sur rendez-vous. Absente des candidats du 77 : à ajouter à une relance.
 - Rabourdin : le fixe s'écrit « + 33 1 64 25 76 05 » sur son site, `controler` ne relit pas ce « + 33 » détaché, et la fiche reste sans téléphone. L'outil est à élargir, puis le numéro à reprendre. Même cas pour le lien Untappd d'Orville, absent de la page contact, à lire sur une autre page.
-- `src/donnees-osm/brasseries-osm.json` : le point `node/13098373138` porte un nom de personne en guise de nom, affiché sur la carte : issue #247.
+- `src/donnees-osm/brasseries-osm.json` : le point `node/13098373138` portait un nom de personne ; écarté le 31/10 (S372).
 ## Restes de S345, première partie (29/10, issue #186)
 
 - `campagne.ts rendre` écrit le compte rendu même quand `assembler` refuse une lecture (téléphone hors format, commune qui ne se géocode pas) : le lot annonce alors plus de fiches qu'il n'en porte, et `appliquer` n'en écrit qu'une partie, sans erreur. Vu le 29/10 (Soquee, Frogbeer). `rendre` devrait s'arrêter sur toute lecture refusée.
