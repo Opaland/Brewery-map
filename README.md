@@ -16,7 +16,7 @@ consultable hors connexion.
 
 - **Toute la France** : 643 fiches vérifiées dans 60 départements (01, 02, 03, 04, 05,
   06, 07, 13, 14, 15, 18, 21, 22, 25, 26, 27, 28, 29, 2A, 2B, 35, 36, 37, 38, 39, 41, 42, 43,
-  44, 45, 49, 50, 53, 56, 58, 59, 60, 61, 62, 63, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 83, 84, 85, 89, 91, 92, 93, 94, 95), et 716 brasseries repérées sur OpenStreetMap
+  44, 45, 49, 50, 53, 56, 58, 59, 60, 61, 62, 63, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 83, 84, 85, 89, 91, 92, 93, 94, 95), et 715 brasseries repérées sur OpenStreetMap
   ailleurs,
   affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi

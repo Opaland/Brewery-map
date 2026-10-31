@@ -3055,3 +3055,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S371 — Les réglages du dépôt que Cédric a tranchés *(31/10)*
 
 `docs/stories/S371.md`, #209, #226. `main` protégée (`porte` et `visuel` exigés, sans revue), audit de l'arbre npm entier le lundi, signalement privé ouvert, Popihn gardée, Lavigney dehors (`docs/DECISIONS.md`, « Réponses de Cédric du 31/10 »). Coût écrit : sans revue imposée, une PR peut retirer la garde de `data/`.
+
+## S372 — Le point OSM au nom de personne *(31/10)*
+
+`docs/stories/S372.md`, #247. `OSM_ECARTES` tient le point hors de la couche, à la réextraction comme au retrait ; 265 noms sans mot de métier relus, aucun autre cas manifeste ; couche à 715.

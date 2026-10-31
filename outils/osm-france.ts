@@ -26,6 +26,7 @@ import {
   dejaDansLeFichier,
   lireElementOverpass,
   nomsUniques,
+  OSM_ECARTES,
   raisonDEcarter,
   rattacher,
   type BrasserieOsmBrute,
@@ -69,7 +70,7 @@ for (const [quoi, rect] of Object.entries(RECTANGLES_REQUETE)) {
       sansNom++
       continue
     }
-    const raison = raisonDEcarter(b.nom, e.tags ?? {})
+    const raison = OSM_ECARTES.has(b.osm) ? 'nom de personne (S372)' : raisonDEcarter(b.nom, e.tags ?? {})
     if (raison !== undefined) {
       ecartesAuNom.set(raison, (ecartesAuNom.get(raison) ?? 0) + 1)
       continue
