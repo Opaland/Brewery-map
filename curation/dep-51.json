@@ -1,0 +1,129 @@
+{
+ "lot": "dep-51",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Senses Brewing",
+    "c": "Reims",
+    "d": "51",
+    "lat": 49.25095,
+    "lon": 4.0556,
+    "km": 401.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie de Reims : le site officiel présente sa gamme et une boutique en ligne, il ne dit pas si l'on peut acheter ou boire à la brasserie même. Un bar-restaurant, Le Shed, occupe le même lieu (49 rue Gosset, lu sur Untappd) ; le site le décrit comme « un lieu distinct » de la brasserie, sans horaires. Aucun téléphone publié par la brasserie.",
+    "addr": "Reims",
+    "src": "https://www.sensesbrewing.com/nos-bieres/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.sensesbrewing.com",
+     "source": "https://www.sensesbrewing.com",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.sensesbrewing.com/nos-bieres/",
+    "https://www.sensesbrewing.com",
+    "https://data.geopf.fr/geocodage/search?q=Reims&type=municipality&limit=5"
+   ],
+   "extrait": "Berliner Classique, Longboard Dream, Ocean of Night, Saison du Bosquet, JAH, Concombre Libre... elles sont toutes ici !",
+   "choix": "Catégorie laissée à 0 : le site officiel ne montre ni vente à emporter ni dégustation sur place, seulement une boutique en ligne et un lien vers le bar Le Shed. Le portable lu sur des annuaires concerne Le Shed, pas la brasserie : écarté. Horaires d'annuaire écartés. Bières laissées vides : les noms lus ne sont pas des types. Le candidat sirene:833803919 « LE SHED », même adresse, n'en fait pas une seconde fiche. L'adresse est lue sur la page Untappd, pas sur le site. La page Untappd n'est pas citée par le site : lien non repris. Point au centre de la commune : l'adresse n'est pas sur le site."
+  },
+  {
+   "fiche": {
+    "n": "Bières et Tentations",
+    "c": "Juvigny",
+    "d": "51",
+    "lat": 49.01799,
+    "lon": 4.26802,
+    "km": 373.6,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site officiel invite à déguster sur place ou à repartir avec sa bière ; l'office de tourisme précise que la vente à emporter se fait selon les disponibilités, en contactant la brasserie avant. Bière ORJY.",
+    "addr": "1 ruelle de la Gravière, 51150 Juvigny",
+    "src": "https://bieresettentations.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 70 74 54 91",
+     "site": "https://bieresettentations.com/",
+     "source": "https://bieresettentations.com/",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "remarque": "Happy hour de 16h30 à 18h30. Le site donne aussi une restauration le lundi et le jeudi de 12h à 14h30. Vente à emporter selon les disponibilités, à demander à la brasserie avant (office de tourisme de Châlons).",
+      "source": "https://bieresettentations.com/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://bieresettentations.com/",
+    "https://data.geopf.fr/geocodage/search?q=1+ruelle+de+la+Gravi%C3%A8re%2C+51150+Juvigny&limit=5"
+   ],
+   "extrait": "Venez déguster nos créations sur place ou repartez avec votre bière préférée !",
+   "choix": "Un seul numéro, un portable, publié par la brasserie sur son site (en-tête et pied de page identiques) : retenu. Horaires : lundi et jeudi sont marqués « restauration », vendredi est le créneau bar ; tout est repris en bloc accueil, avec une remarque, sans déduire de vente. Types de bière : le site cite « Blonde, ambrée, Cascade… » sans type précis, donc beers laissé vide. Untappd : aucune page trouvée. Confiance moyenne : la vente à emporter dépend, selon l'office de tourisme de Châlons, des disponibilités."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Tête de Chou",
+    "c": "Épernay",
+    "d": "51",
+    "lat": 49.0407,
+    "lon": 3.95021,
+    "km": 379.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Fiche de l'office de tourisme d'Épernay : une boutique, et une taproom (bar de la brasserie) pour déguster sur place l'ensemble de ses bières. Le site de la brasserie n'a pas été lu.",
+    "addr": "1 avenue du Maréchal Foch, 51200 Épernay",
+    "src": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "12:30"
+       ]
+      ],
+      "source": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+    "https://data.geopf.fr/geocodage/search?q=1+avenue+du+Mar%C3%A9chal+Foch%2C+51200+%C3%89pernay&limit=5"
+   ],
+   "extrait": "Une taproom (bar de la brasserie) permet de déguster sur place l'ensemble de nos bières.",
+   "choix": "Office seul : confiance moyenne (décision #37). Portable de la seule fiche de l'office non repris (règle du 31/10). Horaires de la boutique lus sur cette fiche ; un annuaire la dit fermée sans date, la fiche de l'office fait foi. Rouverte à la relecture : l'agent n'avait eu que son titre."
+  }
+ ]
+}

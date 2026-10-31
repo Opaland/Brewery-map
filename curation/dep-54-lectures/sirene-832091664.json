@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:832091664",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Austrasie",
+   "c": "Vandœuvre-lès-Nancy",
+   "d": "54",
+   "lat": 48.65403,
+   "lon": 6.13719,
+   "km": 347.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à la brasserie le jeudi, le vendredi et le samedi matin, ou sur rendez-vous, d'après son site. Ni bar ni dégustation sur place.",
+   "addr": "1 allée de Chantilly, 54500 Vandœuvre-lès-Nancy",
+   "src": "https://www.brasserie-austrasie.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 61 77 97 80",
+    "site": "https://www.brasserie-austrasie.fr/",
+    "source": "https://www.brasserie-austrasie.fr/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-austrasie.fr/",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31",
+     "remarque": "Ou sur rendez-vous."
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasserie-austrasie.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1+all%C3%A9e+de+Chantilly%2C+54500+Vand%C5%93uvre-l%C3%A8s-Nancy&limit=5"
+  ],
+  "extrait": "Les bières sont disponibles directement à la brasserie, 1 allée de Chantilly, 54500 Vandœuvre-lès-Nancy.",
+  "choix": "Seul numéro publié : un portable, donné par la brasserie pour le rendez-vous. Le registre écrit 3 allée de Chantilly, la page 1 : page gardée."
+ }
+}

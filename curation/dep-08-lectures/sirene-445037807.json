@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:445037807",
+ "ajout": {
+  "fiche": {
+   "n": "Ardwen",
+   "c": "Launois-sur-Vence",
+   "d": "08",
+   "lat": 49.6569,
+   "lon": 4.54041,
+   "km": 443.1,
+   "cat": 0,
+   "conf": "",
+   "note": "L'agence de tourisme des Ardennes dit des visites sur rendez-vous, finies par une dégustation de 25 cl, et liste en rubriques un bar, une boutique et la vente à la propriété, sans phrase qui les décrive ni horaire. Rien de plus sur le site de la brasserie.",
+   "addr": "20 avenue Roger Ponsart, 08430 Launois-sur-Vence",
+   "src": "https://www.ardennes.com/producteur/ardwen-bieres-artisanales-des-ardennes/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 24 35 46 50",
+    "site": "https://www.ardwen.fr",
+    "source": "https://www.ardwen.fr/contact/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.ardennes.com/producteur/ardwen-bieres-artisanales-des-ardennes/",
+   "https://www.ardwen.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=20+avenue+Roger+Ponsart%2C+08430+Launois-sur-Vence&limit=5"
+  ],
+  "extrait": "sur rendez-vous uniquement",
+  "choix": "Catégorie 0 : la vente et le bar ne sont que des rubriques, sans phrase à citer (même choix qu'en S356). Fixe lu sur la page de contact de la brasserie ; le portable de la seule fiche touristique écarté. Pas d'Untappd trouvé."
+ }
+}

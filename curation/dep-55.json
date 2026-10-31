@@ -1,0 +1,144 @@
+{
+ "lot": "dep-55",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de la Saulx",
+    "c": "Morley",
+    "d": "55",
+    "lat": 48.58006,
+    "lon": 5.24631,
+    "km": 325.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel dit que les bières s'achètent directement à la brasserie, et conseille d'appeler avant de venir pour s'assurer que le brasseur soit présent. Ni bar, ni dégustation, ni horaires.",
+    "addr": "10 bis Rue du Fourneau, 55290 Morley",
+    "src": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde",
+      "libelle": "Moro Sphinx",
+      "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Demoiselle",
+      "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+     },
+     {
+      "type": "ambree",
+      "libelle": "Feuille Morte du Chêne",
+      "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+     },
+     {
+      "type": "stout",
+      "libelle": "Abeille Charpentière",
+      "url": "https://www.brasseriedelasaulx.fr/les-bieres/"
+     }
+    ],
+    "contact": {
+     "tel": "06 71 68 99 71",
+     "site": "https://www.brasseriedelasaulx.fr",
+     "source": "https://www.brasseriedelasaulx.fr/points-de-vente/",
+     "verifieLe": "2026-10-31"
+    }
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.brasseriedelasaulx.fr/points-de-vente/",
+    "https://data.geopf.fr/geocodage/search?q=10+bis+Rue+du+Fourneau%2C+55290+Morley&limit=5"
+   ],
+   "extrait": "Les bières peuvent être achetées directement à la brasserie",
+   "choix": "Portable : seule ligne publiée, par la brasserie sur son site. Styles lus sur la page des bières du site. Le point OSM node/5250142772 est le même lieu : une seule fiche."
+  },
+  {
+   "fiche": {
+    "n": "Hop Farmer",
+    "c": "Grimaucourt-près-Sampigny",
+    "d": "55",
+    "lat": 48.79925,
+    "lon": 5.49097,
+    "km": 351.9,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie invite à la visiter et à y déguster ses bières, parle d'une restauration sur place et d'une boutique à la ferme avec toute la gamme. Ouverte en semaine, fermée le week-end.",
+    "addr": "1 bis Ferme de Girouet, 55500 Grimaucourt-Près-Sampigny",
+    "src": "https://brasserie-hopfarmer.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 82 99 40 14",
+     "site": "https://brasserie-hopfarmer.fr",
+     "source": "https://brasserie-hopfarmer.fr",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "source": "https://brasserie-hopfarmer.fr",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://brasserie-hopfarmer.fr",
+    "https://data.geopf.fr/geocodage/search?q=1+bis+Ferme+de+Girouet%2C+55500+Grimaucourt-Pr%C3%A8s-Sampigny&limit=5"
+   ],
+   "extrait": "venez visiter la brasserie, déguster nos bières",
+   "choix": "Catégorie 1, relevée à la relecture : la page dit « venez visiter la brasserie, déguster nos bières », et non une visite réservée. Horaires d'ouverture repris en accueil. Téléphone : le portable « production & commande », seule ligne pour les clients ; celui du brassage à façon écarté. Pas de lien Untappd."
+  }
+ ]
+}

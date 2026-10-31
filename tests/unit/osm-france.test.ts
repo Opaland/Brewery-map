@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import type { CommuneFrance, Rectangle } from '../../src/core/communes'
 import {
@@ -9,6 +10,7 @@ import {
   siteOsm,
   lireElementOverpass,
   nomsUniques,
+  OSM_ECARTES,
   raisonDEcarter,
   rattacher,
   retirerCeQuiADesFiches,
@@ -255,6 +257,24 @@ describe('dejaDansLeFichier (S25 : un même lieu sous deux noms voisins)', () =>
 
   it('« Chez Georges » à 400 km de « Brasserie Georges » : une autre', () => {
     expect(dejaDansLeFichier({ nom: 'Chez Georges', lat: 48.2, lon: 7.8 }, fichier)).toBeUndefined()
+  })
+})
+
+describe('les points écartés de la couche (S372, #247)', () => {
+  const couche = { source: 's', licence: 'l', extrait: 'e', brasseries: [
+    ['Garde', 'node/1', 'X', '91', 48, 2, '', '', 1],
+    ['Écarté', [...OSM_ECARTES][0], 'X', '91', 48, 2, '', '', 1],
+  ] } as unknown as Parameters<typeof retirerCeQuiADesFiches>[0]
+
+  it('le retrait sans requête les enlève aussi, sans les compter comme des fiches', () => {
+    const { couche: c, retirees } = retirerCeQuiADesFiches(couche, [])
+    expect(c.brasseries.map((b) => b[0])).toEqual(['Garde'])
+    expect(retirees).toEqual([])
+  })
+
+  it('la couche publiée n’en contient aucun', () => {
+    const publiee = JSON.parse(readFileSync('src/donnees-osm/brasseries-osm.json', 'utf8')) as { brasseries: unknown[][] }
+    expect(publiee.brasseries.filter((b) => OSM_ECARTES.has(b[1] as string))).toEqual([])
   })
 })
 

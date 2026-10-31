@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'c440db97b158f0d1',
+  empreinte: 'e7892c9aaf13fe21',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 273 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 487 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France et en Île-de-France.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 281 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 529 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France et dans le Grand Est.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-10-31', texte: '42 brasseries ajoutées dans le Grand Est : les Ardennes, l’Aube, la Marne, la Haute-Marne, la Meurthe-et-Moselle, la Meuse et la Moselle, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-30', texte: '23 brasseries de plus en Île-de-France : la Seine-et-Marne, les Yvelines, l’Essonne et le Val-d’Oise, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-29', texte: '11 brasseries de plus en Île-de-France : Paris, les Hauts-de-Seine, la Seine-Saint-Denis et le Val-de-Marne, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-29', texte: '35 brasseries de plus dans les Hauts-de-France : 34 dans le Nord, et une relue dans le Pas-de-Calais. La première « Consommer sur place seulement » y entre.' },

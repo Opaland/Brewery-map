@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:819747007",
+ "ajout": {
+  "fiche": {
+   "n": "The Piggy Brewing Company",
+   "c": "Liverdun",
+   "d": "54",
+   "lat": 48.76412,
+   "lon": 6.06059,
+   "km": 357.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie invite à acheter les bières sur place, du lundi au vendredi. Il ne parle ni de bar ni de dégustation.",
+   "addr": "40 avenue du Gard, 54460 Liverdun",
+   "src": "https://www.thepiggybrewingcompany.com/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 69 14 13 26",
+    "site": "https://www.thepiggybrewingcompany.com/",
+    "source": "https://www.thepiggybrewingcompany.com/contact",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.thepiggybrewingcompany.com/contact",
+     "lun": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.thepiggybrewingcompany.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=40+avenue+du+Gard%2C+54460+Liverdun&limit=5"
+  ],
+  "extrait": "Venez directement acheter vos bières sur place, à la brasserie :",
+  "choix": "Seul numéro publié par la brasserie : un portable ; un autre, lu sur un forum, écarté. Lien Untappd absent de la page : non repris."
+ }
+}

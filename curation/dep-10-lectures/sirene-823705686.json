@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:823705686",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Roof",
+   "c": "Fouchères",
+   "d": "10",
+   "lat": 48.15021,
+   "lon": 4.26872,
+   "km": 277.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie familiale citée par l'office de tourisme Aube en Champagne (bières de fermentation haute, non pasteurisées, non filtrées). La page de l'office ne donne ni la vente, ni l'accueil, ni horaires, ni téléphone.",
+   "addr": "8 Le Paty, 10260 Fouchères",
+   "src": "https://www.aube-champagne.com/en/?p=51925",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://commandelareservedupaty.over-blog.com/",
+    "source": "https://www.aube-champagne.com/en/?p=51925",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.aube-champagne.com/en/?p=51925",
+   "https://data.geopf.fr/geocodage/search?q=8+Le+Paty%2C+10260+Fouch%C3%A8res&limit=5"
+  ],
+  "extrait": "top-fermented, unpasteurised, unfiltered beers",
+  "choix": "Le portable lu seulement sur un annuaire n'est pas repris. Horaires de l'annuaire écartés (versions contradictoires). Aucune page Untappd trouvée. Le site de la brasserie est le lien « DISCOVER THE BREWERY » de la page de l'office. Adresse du registre."
+ }
+}

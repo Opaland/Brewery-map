@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:499985166",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Arthur",
+   "c": "Charleville-Mézières",
+   "d": "08",
+   "lat": 49.74315,
+   "lon": 4.73015,
+   "km": 452.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Fiche de l'agence de développement touristique des Ardennes : bières à déguster sur place, avec une planche de charcuterie, et nouveautés en boutique. Source de type office de tourisme seule. Aucun horaire publié.",
+   "addr": "2 rue Jean-Baptiste Lefort, 08000 Charleville-Mézières",
+   "src": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 24 59 52 10",
+    "site": "http://brasseriedarthur.fr/",
+    "source": "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.ardennes.com/en/producer/Arthur%27s-Brewery/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+Jean-Baptiste+Lefort%2C+08000+Charleville-M%C3%A9zi%C3%A8res&limit=5"
+  ],
+  "extrait": "to be enjoyed on-site with a platter of artisanal charcuterie",
+  "choix": "Fixe publié dans le bloc de la brasserie sur la fiche touristique (règle de Cédric du 31/10). Le site répond « en maintenance » le 31/10 ; le lien vient de la fiche. Siège du registre à Warcq ; la fiche donne le nouveau site à Charleville-Mézières, retenu. Page française en 404. Pas d'Untappd trouvé."
+ }
+}

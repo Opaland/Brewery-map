@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:825182116",
+ "ajout": {
+  "fiche": {
+   "n": "La Châouette",
+   "c": "Saizerais",
+   "d": "54",
+   "lat": 48.79278,
+   "lon": 6.05692,
+   "km": 360.4,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie invite à lui rendre visite le vendredi de 14h à 19h et le samedi de 9h à 12h, sans dire si l'on y achète ou si l'on y boit.",
+   "addr": "24 rue des Vergers, 54380 Saizerais",
+   "src": "https://www.chaouette.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 56 66 05 21",
+    "site": "https://www.chaouette.fr/",
+    "source": "https://www.chaouette.fr/contact",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.chaouette.fr/",
+   "https://www.chaouette.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=24+rue+des+Vergers%2C+54380+Saizerais&limit=5"
+  ],
+  "extrait": "Venez nous rendre visite à la brasserie, les vendredis de 14h à 19h & les samedis de 9h à 12h00.",
+  "choix": "Catégorie 0 : le site ne parle que de visite. Créneaux laissés dans la note : leur nature n'est pas dite. Seul numéro publié : un portable, sur la page de contact. Le point OSM node/7452541100 est le même lieu."
+ }
+}

@@ -3055,3 +3055,23 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S371 — Les réglages du dépôt que Cédric a tranchés *(31/10)*
 
 `docs/stories/S371.md`, #209, #226. `main` protégée (`porte` et `visuel` exigés, sans revue), audit de l'arbre npm entier le lundi, signalement privé ouvert, Popihn gardée, Lavigney dehors (`docs/DECISIONS.md`, « Réponses de Cédric du 31/10 »). Coût écrit : sans revue imposée, une PR peut retirer la garde de `data/`.
+
+## S372 — Le point OSM au nom de personne *(31/10)*
+
+`docs/stories/S372.md`, #247. `OSM_ECARTES` tient le point hors de la couche, à la réextraction comme au retrait ; 265 noms sans mot de métier relus, aucun autre cas manifeste ; couche à 715.
+
+## S373 — Sept fiches à la confiance que leur source permet *(31/10)*
+
+`docs/stories/S373.md`, #214. Caribrew, La Bière des Loups, La Soyeuse, Amalthée, Saint-Clair, L’Attract’Yves et Pleine Lune passent de « solide » à « moyenne » : leur seule source est un office de tourisme (décision #37). Quatre des sept n’avaient pas de date, et un lot en impose une : les pages ont été relues le 31/10, et un test tient la règle.
+
+## S374 — Un numéro à appeler, quand seul l’office le publie *(31/10)*
+
+`docs/stories/S374.md`. Le vérificateur et la campagne disent la règle de Cédric du 31/10 (un fixe de la brasserie lu sur l’office est repris, un portable vient de la brasserie) ; 10 fixes repris, lus un par un dans le bloc de la brasserie ; Piolit écartée, le seul fixe de sa page est celui de l’office. Deux portables déjà en place d’après un office : question à Cédric.
+
+## S375 — La première campagne d'essais des agents *(31/10)*
+
+`docs/stories/S375.md`, #216. Le harnais voit ce qu'un essai change dans le dépôt, et plafonne le coût à chaque essai. Trois essais, 1,332 $ dont 0,694 $ perdus sur un premier passage aux questions coupées par le shell de Windows. Relecteur et vérificateur tiennent leurs contrôles ; Marie cite trois renvois sans dossier. Verdict de Cédric attendu dans `docs/ESSAIS-AGENTS.md`.
+
+## S346, première partie — le Grand Est : Ardennes, Aube, Marne, Haute-Marne, Meurthe-et-Moselle, Meuse, Moselle *(31/10, epic E36)*
+
+`docs/stories/S346.md`, issue #187. 30 paquets lus par 31 agents ; 42 fiches par la règle de Cédric du 21/10 (08 : 6, 10 : 6, 51 : 3, 52 : 2, 54 : 15, 55 : 2, 57 : 8) ; 685 fiches dans 67 départements, OSM à 690. Chaque source rouverte en direct : les agents n'avaient que des résumés, ce qui a changé une dizaine de catégories. Le contrôle des horaires lit « 14:00 19:00 » en tableau. Rodemack reste « à relancer » : son certificat invalide empêche le contrôle de relire sa page. Suite : 67, 68, 88 avec un quota neuf.

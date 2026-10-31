@@ -14,24 +14,26 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 643 | 21 (3 %) | 42 | 245 | 218 | 284 | 383 | 426 | 479 |
+| **Total** | 685 | 21 (3 %) | 42 | 260 | 228 | 292 | 390 | 446 | 520 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
-| 05 · Hautes-Alpes | 12 | 0 (0 %) | 0 | 3 | 7 | 3 | 8 | 10 | 12 |
-| 06 · Alpes-Maritimes | 10 | 0 (0 %) | 0 | 2 | 1 | 2 | 3 | 6 | 10 |
+| 05 · Hautes-Alpes | 12 | 0 (0 %) | 0 | 3 | 7 | 3 | 5 | 10 | 12 |
+| 06 · Alpes-Maritimes | 10 | 0 (0 %) | 0 | 2 | 1 | 2 | 2 | 6 | 10 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
-| 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 10 | 10 | 18 |
+| 08 · Ardennes | 6 | 0 (0 %) | 0 | 3 | 2 | 1 | 4 | 5 | 6 |
+| 10 · Aube | 6 | 0 (0 %) | 0 | 4 | 2 | 1 | 3 | 3 | 6 |
+| 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 9 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
 | 21 · Côte-d'Or | 14 | 0 (0 %) | 0 | 5 | 3 | 3 | 6 | 8 | 14 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
-| 25 · Doubs | 19 | 0 (0 %) | 0 | 8 | 5 | 2 | 8 | 11 | 19 |
+| 25 · Doubs | 19 | 0 (0 %) | 0 | 8 | 5 | 2 | 7 | 11 | 19 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
-| 28 · Eure-et-Loir | 4 | 0 (0 %) | 0 | 3 | 2 | 0 | 2 | 2 | 4 |
+| 28 · Eure-et-Loir | 4 | 0 (0 %) | 0 | 3 | 2 | 0 | 1 | 2 | 4 |
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 2A · Corse-du-Sud | 1 | 0 (0 %) | 0 | 1 | 0 | 1 | 0 | 1 | 1 |
 | 2B · Haute-Corse | 4 | 0 (0 %) | 0 | 0 | 4 | 4 | 4 | 4 | 4 |
@@ -39,7 +41,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
 | 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
 | 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 17 | 30 | 26 | 28 | 24 |
-| 39 · Jura | 14 | 0 (0 %) | 0 | 9 | 10 | 2 | 9 | 11 | 13 |
+| 39 · Jura | 14 | 0 (0 %) | 0 | 9 | 10 | 2 | 8 | 11 | 13 |
 | 41 · Loir-et-Cher | 1 | 0 (0 %) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 6 | 6 | 7 | 6 |
@@ -47,8 +49,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 8 | 6 | 8 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
 | 50 · Manche | 9 | 0 (0 %) | 0 | 4 | 4 | 4 | 9 | 6 | 5 |
+| 51 · Marne | 3 | 0 (0 %) | 0 | 1 | 1 | 1 | 2 | 1 | 3 |
+| 52 · Haute-Marne | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 0 | 2 |
 | 53 · Mayenne | 4 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 3 | 2 |
+| 54 · Meurthe-et-Moselle | 15 | 0 (0 %) | 0 | 4 | 4 | 2 | 6 | 6 | 15 |
+| 55 · Meuse | 2 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | 56 · Morbihan | 25 | 1 (4 %) | 0 | 13 | 9 | 11 | 22 | 18 | 14 |
+| 57 · Moselle | 8 | 0 (0 %) | 0 | 3 | 1 | 2 | 2 | 4 | 8 |
 | 58 · Nièvre | 1 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 0 |
 | 59 · Nord | 34 | 2 (6 %) | 0 | 5 | 3 | 7 | 9 | 15 | 31 |
 | 60 · Oise | 2 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 1 | 2 |
@@ -66,8 +73,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 77 · Seine-et-Marne | 9 | 0 (0 %) | 0 | 0 | 2 | 0 | 5 | 3 | 9 |
 | 78 · Yvelines | 7 | 0 (0 %) | 0 | 1 | 0 | 0 | 0 | 2 | 7 |
 | 80 · Somme | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
-| 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 4 | 7 | 15 |
-| 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 14 | 15 | 21 |
+| 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
+| 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 | 91 · Essonne | 4 | 0 (0 %) | 0 | 2 | 0 | 1 | 1 | 2 | 4 |
@@ -78,7 +85,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-245 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+260 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -114,6 +121,19 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Haarddrëch (Alboussière) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Kan Mêm (Colombier-le-Jeune) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans bières
 - Brasserie Longue Vie (Saint-Victor) : sans adresse vérifiée, sans téléphone, sans horaires
+
+### 08 · Ardennes
+
+- Brasserie Les Coulous (Messincourt) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Chinco (Neuflize) : sans téléphone, sans horaires, sans bières
+- Ardwen (Launois-sur-Vence) : sans horaires, sans bières
+
+### 10 · Aube
+
+- Brasserie Jumie (Buchères) : sans site, sans téléphone, sans bières
+- Les Anges Déchus (Villenauxe-la-Grande) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie La Roof (Fouchères) : sans téléphone, sans horaires, sans bières
+- La Branche (Charmont-sous-Barbuise) : sans horaires, sans bières
 
 ### 13 · Bouches-du-Rhône
 
@@ -162,7 +182,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 25 · Doubs
 
-- Brasserie Entre 2 Mondes (Mouthier-Haute-Pierre) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Entre 2 Mondes (Mouthier-Haute-Pierre) : sans site, sans horaires, sans bières
 - Brasserie Les Petites Bulles (Loray) : sans site, sans téléphone, sans horaires, sans bières
 - La Chauffouillarde (Villers-le-Lac) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Terra Comtix (Mamirolle) : sans adresse vérifiée, sans horaires, sans bières
@@ -183,7 +203,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ### 28 · Eure-et-Loir
 
-- Brasserie Bacquet et Cie (Pierres) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Bacquet et Cie (Pierres) : sans site, sans horaires, sans bières
 - Micro Brasserie Funk (Bouglainval) : sans site, sans téléphone, sans bières
 - Brasserie delabonne (Gellainville) : sans horaires, sans bières
 
@@ -250,7 +270,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie des Trois Épis (Orgelet) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Doloise (Jouhe) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- Brasserie du Lizon (Lavans-lès-Saint-Claude) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie du Lizon (Lavans-lès-Saint-Claude) : sans site, sans horaires, sans bières
 - Brasserie l’Origine du Monde (Orgelet) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie La Nocturne (Brainans) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Plume Jurassienne (Cramans) : sans site, sans téléphone, sans horaires, sans bières
@@ -309,11 +329,22 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Fée d'Orge (Bréhal) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - La Moussette (Hauteville-sur-Mer) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
+### 51 · Marne
+
+- Senses Brewing (Reims) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
 ### 53 · Mayenne
 
 - Brasserie associative de Montflours (BAM) (Montflours) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Cousin (Pré-en-Pail-Saint-Samson) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie des Nico (Lassay-les-Châteaux) : sans site, sans adresse vérifiée, sans téléphone, sans horaires
+
+### 54 · Meurthe-et-Moselle
+
+- Brasserie des Papi'lles (Anthelupt) : sans site, sans téléphone, sans horaires, sans bières
+- Zythomaniacs La Doncourt (Doncourt-lès-Longuyon) : sans site, sans horaires, sans bières
+- La Châouette (Saizerais) : sans horaires, sans bières
+- Brasserie Tumulte (Magnières) : sans bières
 
 ### 56 · Morbihan
 
@@ -330,6 +361,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - L'âne Brasseur (Saint-Aignan) : sans adresse vérifiée, sans horaires, sans bières
 - Microbrasserie VOL 56 (Sarzeau) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Microbrasserie Barque (Malestroit) : sans horaires, sans bières
+
+### 57 · Moselle
+
+- Brasserie des 200 Brasses (Ay-sur-Moselle) : sans site, sans téléphone, sans horaires, sans bières
+- La Grenouille Assoiffée (Vahl-lès-Bénestroff) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie La Tuilerie (Augny) : sans horaires, sans bières
 
 ### 59 · Nord
 

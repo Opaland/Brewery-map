@@ -1,0 +1,81 @@
+{
+ "candidat": "node/5670534585",
+ "ajout": {
+  "fiche": {
+   "n": "La Bière de Metz",
+   "c": "Jury",
+   "d": "57",
+   "lat": 49.0727,
+   "lon": 6.25503,
+   "km": 394.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie dit vendre directement à ses clients dans son établissement, et publie ses horaires d'ouverture. Il ne parle ni de bar ni de dégustation sur place.",
+   "addr": "Rue de la Fontaine à l'Auge, 57245 Jury",
+   "src": "https://www.labieredemetz.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 87 63 83 41",
+    "site": "https://www.labieredemetz.fr",
+    "source": "https://www.labieredemetz.fr/contact",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.labieredemetz.fr/contact",
+     "mer": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.labieredemetz.fr",
+   "https://www.labieredemetz.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=Jury&type=municipality&limit=5"
+  ],
+  "extrait": "nous vendons directement à nos clients dans notre établissement",
+  "choix": "Rouverte à la relecture : l'agent n'avait qu'un résumé. Fixe publié par la brasserie. Types de bière sans lien par bière : laissés vides."
+ }
+}

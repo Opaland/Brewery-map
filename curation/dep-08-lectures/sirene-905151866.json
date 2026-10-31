@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:905151866",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Monthermé",
+   "c": "Monthermé",
+   "d": "08",
+   "lat": 49.88447,
+   "lon": 4.73979,
+   "km": 468.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Fiche de l'agence de développement touristique des Ardennes : la brasserie privilégie la vente directe, et propose des visites sur demande. La page dit vendredi 17h-19h et samedi 10h-12h et 14h-18h, mais son calendrier marque tous les jours ouverts : à vérifier avant de venir.",
+   "addr": "6 rue du Docteur Lemaire, 08800 Monthermé",
+   "src": "https://www.ardennes.com/producteur/brasserie-de-montherme/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.ardennes.com/producteur/brasserie-de-montherme/",
+   "https://data.geopf.fr/geocodage/search?q=6+rue+du+Docteur+Lemaire%2C+08800+Montherm%C3%A9&limit=5"
+  ],
+  "extrait": "Nous privilégions la vente directe à la brasserie",
+  "choix": "Catégorie 2 : la dégustation sur place n'est écrite nulle part dans le texte de la page, seule la vente directe. Portable lu sur la fiche touristique seule, non repris (règle du 31/10). Horaires laissés dans la note : le calendrier de la page les contredit. Noms de bière sans style ni lien Untappd : laissés vides."
+ }
+}

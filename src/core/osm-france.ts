@@ -301,6 +301,15 @@ const AMENITES_REPAS = new Set(['restaurant', 'cafe', 'fast_food', 'bar', 'pub',
 const MOTS_FERMEE = /\b(ancienne?|incertaine?|fermee?|desaffectee?)\b/
 
 /**
+ * S372 (#247, décision de Cédric du 31/10) : les objets OSM qu'on ne publie pas,
+ * même si OSM les redonne, parce que leur nom est celui d'une personne et non
+ * une enseigne. Relecture un par un : aucune règle ne sait reconnaître un nom de
+ * personne d'une enseigne (« Chez Isa », « Cidrerie Benoit » restent). L'identifiant
+ * seul est écrit ici, jamais le nom.
+ */
+export const OSM_ECARTES: ReadonlySet<string> = new Set(['node/13098373138'])
+
+/**
  * Pourquoi écarter un objet `craft=brewery`, ou `undefined` (revue persona
  * S25 : « brasserie » est aussi un restaurant, et « Tutti Pizza » envoyait
  * Hugo vers une pizzeria). Mesuré le 16/10 sur les 1 071 gardées avant ce filtre :
@@ -387,6 +396,7 @@ export function retirerCeQuiADesFiches(
   }
   const retirees: { osm: string; nom: string; fiche: string }[] = []
   const gardees = couche.brasseries.filter(([nom, osm, , , lat, lon, , site]) => {
+    if (OSM_ECARTES.has(osm)) return false
     const dite = memes.get(osm)
     const fiche = noms.has(nom)
       ? nom

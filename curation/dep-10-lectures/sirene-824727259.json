@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:824727259",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Thibord",
+   "c": "Aix-Villemaur-Pâlis",
+   "d": "10",
+   "lat": 48.28658,
+   "lon": 3.71099,
+   "km": 301,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site de la brasserie annonce « La boutique & le bar », ouverts le jeudi et le vendredi de 17h à 20h : on y choisit ses bières et on retire sa commande. Le bar est nommé, la dégustation n'est pas détaillée : à confirmer.",
+   "addr": "27 rue de la République, 10190 Aix-Villemaur-Pâlis",
+   "src": "https://brasseriethibord.fr/venir/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 87 11 86 09",
+    "site": "https://brasseriethibord.fr",
+    "source": "https://brasseriethibord.fr/contact",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriethibord.fr/venir/",
+     "jeu": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://brasseriethibord.fr/venir/",
+   "https://brasseriethibord.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=27+rue+de+la+R%C3%A9publique%2C+10190+Aix-Villemaur-P%C3%A2lis&limit=5"
+  ],
+  "extrait": "Pour choisir vos bières, retirer votre commande et rencontrer celles et ceux qui les brassent.",
+  "choix": "Portable : celui de la page Contact du site, sa seule ligne ; celui de la seule fiche de l'office écarté. Horaires du site (17h-20h) ; l'office dit 17h-19h, le site fait foi. Pas de page Untappd de brasserie trouvée."
+ }
+}

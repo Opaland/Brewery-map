@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:802847046",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des 200 Brasses",
+   "c": "Ay-sur-Moselle",
+   "d": "57",
+   "lat": 49.24083,
+   "lon": 6.20923,
+   "km": 411.3,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe d'après l'office de tourisme de Metz (projet communal, en activité depuis 2015, dans le bâtiment d'une boutique de producteurs), mais la page ne dit pas si l'on peut y acheter ou boire sur place.",
+   "addr": "2 rue Jean Auguste Schleiter, 57300 Ay-sur-Moselle",
+   "src": "https://www.tourisme-metz.com/en/page/1368001829-brasserie-des-200-brasses",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.tourisme-metz.com/en/page/1368001829-brasserie-des-200-brasses",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+Jean+Auguste+Schleiter%2C+57300+Ay-sur-Moselle&limit=5"
+  ],
+  "extrait": "Wishing to revive its brewing past, the municipality launched a brewery project at the end of 2012.",
+  "choix": "Pas de site officiel lu. Le portable de la page de l'office n'est pas repris (règle du 31/10). Aucun horaire de la brasserie."
+ }
+}

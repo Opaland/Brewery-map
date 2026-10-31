@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:892968611",
+ "ajout": {
+  "fiche": {
+   "n": "Okabeer",
+   "c": "Praye",
+   "d": "54",
+   "lat": 48.43203,
+   "lon": 6.1012,
+   "km": 323.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie dit que ses bières sont en vente directe à la brasserie. Pas d'horaires publiés ; la consommation sur place n'est pas établie.",
+   "addr": "6 Rue des Nids, 54116 Praye",
+   "src": "https://www.okabeer.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.okabeer.com/",
+    "source": "https://www.okabeer.com/",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.okabeer.com/",
+   "https://data.geopf.fr/geocodage/search?q=6+Rue+des+Nids%2C+54116+Praye&limit=5"
+  ],
+  "extrait": "Nos bières artisanales sont disponibles en vente directe à la brasserie",
+  "choix": "Portable de l'office seul, non repris. Le point OSM node/9280992163 est le même lieu."
+ }
+}

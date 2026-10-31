@@ -1,0 +1,148 @@
+[
+ [
+  {
+   "cle": "sirene:828481572",
+   "enseigne": "BRASSERIE LA MANDALE",
+   "dep": "55",
+   "communes": [
+    "CHAILLON",
+    "DOMPCEVRIN"
+   ],
+   "adresses": [
+    "2 GRAND RUE 55210 CHAILLON",
+    "17 RUE DES FOURS A CHAUX 55300 DOMPCEVRIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828710574",
+   "enseigne": "BOMBARDE",
+   "dep": "55",
+   "communes": [
+    "DUN-SUR-MEUSE",
+    "MILLY-SUR-BRADON"
+   ],
+   "adresses": [
+    "14 RUE DE L'HOTEL DE VILLE 55110 DUN-SUR-MEUSE",
+    "RUE DE DUN 55110 MILLY-SUR-BRADON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895161024",
+   "enseigne": "LA CABOUROTTE",
+   "dep": "55",
+   "communes": [
+    "TROUSSEY"
+   ],
+   "adresses": [
+    "32 RUE DE LA ROUCHOTTE 55190 TROUSSEY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907847495",
+   "enseigne": "AQUA AMARA",
+   "dep": "55",
+   "communes": [
+    "VIGNEULLES-LES-HATTONCHATEL"
+   ],
+   "adresses": [
+    "39 RUE RAYMOND POINCARE 55210 VIGNEULLES-LES-HATTONCHATEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:815320643",
+   "enseigne": "BRASSERIE DE LA SAULX",
+   "dep": "55",
+   "communes": [
+    "MORLEY"
+   ],
+   "adresses": [
+    "10 B RUE DU FOURNEAU 55290 MORLEY"
+   ],
+   "osm": [
+    "node/5250142772"
+   ],
+   "site": "http://brasseriedelasaulx.fr",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:820718146",
+   "enseigne": "BRASSERIE DE LA DIEUE",
+   "dep": "55",
+   "communes": [
+    "DIEUE"
+   ],
+   "adresses": [
+    "21 B RUE DU MOULIN 55320 DIEUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:999226863",
+   "enseigne": "BRASSERIE DE VERDUN",
+   "dep": "55",
+   "communes": [
+    "VERDUN"
+   ],
+   "adresses": [
+    "31 RUE DE CLERMONT 55100 VERDUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:789163086",
+   "enseigne": "BRASSERIE DE NETTANCOURT",
+   "dep": "55",
+   "communes": [
+    "REVIGNY-SUR-ORNAIN"
+   ],
+   "adresses": [
+    "15 RUE DE LA TRESSE 55800 REVIGNY-SUR-ORNAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882065360",
+   "enseigne": "HOP FARMER",
+   "dep": "55",
+   "communes": [
+    "GRIMAUCOURT-PRES-SAMPIGNY"
+   ],
+   "adresses": [
+    "1 FERME DE GIROUET 55500 GRIMAUCOURT-PRES-SAMPIGNY"
+   ],
+   "osm": [
+    "node/9374669717"
+   ],
+   "site": "https://brasserie-hopfarmer.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/97729953",
+   "enseigne": "Brasserie de Nettancourt",
+   "dep": "55",
+   "communes": [
+    "Nettancourt"
+   ],
+   "adresses": [
+    "7 Rue de Leurande"
+   ],
+   "osm": [
+    "way/97729953"
+   ],
+   "statut": "ambigu"
+  }
+ ]
+]

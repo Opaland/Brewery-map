@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:820870665",
+ "ajout": {
+  "fiche": {
+   "n": "Hoppy Road",
+   "c": "Maxéville",
+   "d": "54",
+   "lat": 48.70933,
+   "lon": 6.17643,
+   "km": 354.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce une boutique ouverte du lundi au vendredi. Il ne parle ni de bar ni de dégustation. Pas de téléphone publié.",
+   "addr": "25 avenue de la Meurthe, 54320 Maxéville",
+   "src": "https://hoppyroad.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://hoppyroad.com/",
+    "source": "https://hoppyroad.com/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://hoppyroad.com/",
+     "lun": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://hoppyroad.com/",
+   "https://data.geopf.fr/geocodage/search?q=25+avenue+de+la+Meurthe%2C+54320+Max%C3%A9ville&limit=5"
+  ],
+  "extrait": "Notre boutique est ouverte du lundi au vendredi de 10h à 16h30 !",
+  "choix": "Le point OSM way/113948286 est le même lieu. Lien Untappd absent de la page : non repris."
+ }
+}

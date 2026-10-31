@@ -1,0 +1,47 @@
+{
+ "candidat": "sirene:811282086",
+ "ajout": {
+  "fiche": {
+   "n": "Bières et Tentations",
+   "c": "Juvigny",
+   "d": "51",
+   "lat": 49.01799,
+   "lon": 4.26802,
+   "km": 373.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel invite à déguster sur place ou à repartir avec sa bière ; l'office de tourisme précise que la vente à emporter se fait selon les disponibilités, en contactant la brasserie avant. Bière ORJY.",
+   "addr": "1 ruelle de la Gravière, 51150 Juvigny",
+   "src": "https://bieresettentations.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 70 74 54 91",
+    "site": "https://bieresettentations.com/",
+    "source": "https://bieresettentations.com/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://bieresettentations.com/",
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Happy hour de 16h30 à 18h30. Le site donne aussi une restauration le lundi et le jeudi de 12h à 14h30. Vente à emporter selon les disponibilités, à demander à la brasserie avant (office de tourisme de Châlons).",
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://bieresettentations.com/",
+   "https://data.geopf.fr/geocodage/search?q=1+ruelle+de+la+Gravi%C3%A8re%2C+51150+Juvigny&limit=5"
+  ],
+  "extrait": "Venez déguster nos créations sur place ou repartez avec votre bière préférée !",
+  "choix": "Un seul numéro, un portable, publié par la brasserie sur son site (en-tête et pied de page identiques) : retenu. Horaires : lundi et jeudi sont marqués « restauration », vendredi est le créneau bar ; tout est repris en bloc accueil, avec une remarque, sans déduire de vente. Types de bière : le site cite « Blonde, ambrée, Cascade… » sans type précis, donc beers laissé vide. Untappd : aucune page trouvée. Confiance moyenne : la vente à emporter dépend, selon l'office de tourisme de Châlons, des disponibilités."
+ }
+}

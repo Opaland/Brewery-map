@@ -16,7 +16,8 @@ async function estPeint(page: Page, testId: string): Promise<boolean> {
   const el = page.getByTestId(testId)
   await el.scrollIntoViewIfNeeded()
   return el.evaluate((cible) => {
-    const r = cible.getBoundingClientRect()
+    // La première ligne peinte : le centre de la boîte d'un texte coupé sur deux lignes peut tomber dans un blanc (S373).
+    const r = cible.getClientRects().item(0) ?? cible.getBoundingClientRect()
     const vu = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
     return vu !== null && cible.contains(vu)
   })
@@ -42,7 +43,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     // Suivi de « (nouvel onglet) », dit au seul lecteur d'écran (S295).
     await expect(lien).toHaveText('montsdulyonnaistourisme.fr (nouvel onglet)')
     // S308 : la provenance tient en une phrase.
-    await expect(fiche.getByTestId('fiche-source')).toHaveText('Source : montsdulyonnaistourisme.fr (nouvel onglet).')
+    await expect(fiche.getByTestId('fiche-source')).toHaveText('Lu sur montsdulyonnaistourisme.fr (nouvel onglet) le 31 octobre 2026.')
     await expect(lien.locator('.lecteur-seul')).toHaveText(' (nouvel onglet)')
     await expect(lien).toHaveAttribute(
       'href',
@@ -51,7 +52,7 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await expect(lien).toHaveAttribute('rel', 'noopener noreferrer')
 
     await expect.poll(() => estPeint(page, 'fiche-source')).toBe(true)
-    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('La source décrit précisément ce qu’on peut faire sur place.')
+    await expect(fiche.getByTestId('fiche-confiance')).toHaveText('La source cite la vente ou l’accueil, avec des réserves ou des manques.')
     // Pas d'horaires : rien à prévenir sur eux (S308).
     await expect(fiche.getByTestId('fiche-avertissement')).toHaveCount(0)
     // S268 : sans position à l'adresse, au centre IGN de sa commune ; dit en

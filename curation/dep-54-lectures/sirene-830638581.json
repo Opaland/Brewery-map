@@ -1,0 +1,54 @@
+{
+ "candidat": "sirene:830638581",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tumulte",
+   "c": "Magnières",
+   "d": "54",
+   "lat": 48.44733,
+   "lon": 6.56351,
+   "km": 337.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie dit qu'elle est ouverte le mercredi et le vendredi de 17h à 19h, et dès que la porte est ouverte, et que toutes ses ventes se font en circuit court. Il ne dit pas en toutes lettres qu'on y achète, ni qu'on y boit.",
+   "addr": "19 Grande Rue, 54129 Magnières",
+   "src": "https://brasserietumulte.fr/brasserie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 77 33 89",
+    "site": "https://brasserietumulte.fr/",
+    "source": "https://brasserietumulte.fr/contact/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserietumulte.fr/brasserie/",
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31",
+     "remarque": "Et dès que la porte est ouverte."
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://brasserietumulte.fr/brasserie/",
+   "https://brasserietumulte.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=19+Grande+Rue%2C+54129+Magni%C3%A8res&limit=5"
+  ],
+  "extrait": "Ouvert les mercredis et vendredis de 17 h à 19 h",
+  "choix": "Catégorie 0 : la vente sur place n'est pas écrite (même cas que Les Coulous). Seule ligne publiée : un portable."
+ }
+}
