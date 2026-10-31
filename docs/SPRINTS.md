@@ -3063,3 +3063,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S373 — Sept fiches à la confiance que leur source permet *(31/10)*
 
 `docs/stories/S373.md`, #214. Caribrew, La Bière des Loups, La Soyeuse, Amalthée, Saint-Clair, L’Attract’Yves et Pleine Lune passent de « solide » à « moyenne » : leur seule source est un office de tourisme (décision #37). Quatre des sept n’avaient pas de date, et un lot en impose une : les pages ont été relues le 31/10, et un test tient la règle.
+
+## S374 — Un numéro à appeler, quand seul l’office le publie *(31/10)*
+
+`docs/stories/S374.md`. Le vérificateur et la campagne disent la règle de Cédric du 31/10 (un fixe de la brasserie lu sur l’office est repris, un portable vient de la brasserie) ; 10 fixes repris, lus un par un dans le bloc de la brasserie ; Piolit écartée, le seul fixe de sa page est celui de l’office. Deux portables déjà en place d’après un office : question à Cédric.

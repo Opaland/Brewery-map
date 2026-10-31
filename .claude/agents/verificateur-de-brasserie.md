@@ -40,8 +40,11 @@ dans `docs/DONNEES.md`.
 - **Rien d'inventé, rien de déduit.** Un horaire « probable », un téléphone
   « sans doute », une catégorie supposée d'après le nom : non. Ce qui n'est
   pas lu reste comme il est, et tu dis pourquoi dans ton compte rendu.
-- **Téléphone** : seulement un numéro que **la brasserie publie elle-même
-  pour ses clients**, au format « 04 72 50 88 53 », jamais un 08. Si la page
+- **Téléphone** : un numéro que **la brasserie publie elle-même pour ses
+  clients**, au format « 04 72 50 88 53 », jamais un 08 ; ou bien, règle de
+  Cédric du 31/10 : un fixe publié par un office de tourisme seul est repris,
+  s'il est dans le bloc de la brasserie, jamais le numéro de l’office lui-même
+  (le pied de page, l'en-tête) ; un portable vient de la brasserie. Si la page
   en porte plusieurs (un food truck, un traiteur, des mobiles), dis lequel tu
   retiens et pourquoi **dans le champ `choix`** de la proposition — c'est ce
   que Cédric lit —, ou n'en retiens aucun. Un mobile seul publié se dit aussi

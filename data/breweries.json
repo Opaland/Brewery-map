@@ -14614,7 +14614,12 @@
   "src": "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-21"
+  "verifieLe": "2026-10-21",
+  "contact": {
+   "tel": "02 37 20 92 94",
+   "source": "https://www.chartres-tourisme.com/en/live-the-city/shopping/local-specialities/where-to-find-our-specialities/brasserie-bacquet-et-cie-3678543",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "Brasserie delabonne",
@@ -17683,7 +17688,12 @@
   "src": "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-26"
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "03 81 60 07 15",
+   "source": "https://www.doubs.travel/savoir-faire-produits-regionaux/brasserie-entre-2-mondes",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "Brasserie La Brelok'",
@@ -17784,7 +17794,12 @@
   "src": "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
   "coordPrecision": "address",
   "beers": [],
-  "verifieLe": "2026-10-26"
+  "verifieLe": "2026-10-26",
+  "contact": {
+   "tel": "09 53 94 02 29",
+   "source": "https://www.jura-tourism.com/produit-regional/brasserie-du-lizon/",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "Brasserie Hoptimalt",
@@ -18436,7 +18451,12 @@
   "src": "https://www.champsaur-valgaudemar.com/offres/brasserie-dancelle-ancelle-fr-2686805",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-27"
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 92 52 31 62",
+   "source": "https://www.champsaur-valgaudemar.com/offres/brasserie-dancelle-ancelle-fr-2686805",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "Brasserie des Gaillards",
@@ -18530,9 +18550,10 @@
   "beers": [],
   "verifieLe": "2026-10-27",
   "contact": {
+   "tel": "04 92 46 13 73",
    "site": "https://brasserie-butchers.com",
    "source": "https://provence-alpes-cotedazur.com/en/plan-your-stay/useful-information/all-practical-services/brasserie-butchers-guillestre-en-4094643/",
-   "verifieLe": "2026-10-27"
+   "verifieLe": "2026-10-31"
   }
  },
  {
@@ -18922,9 +18943,10 @@
   "beers": [],
   "verifieLe": "2026-10-27",
   "contact": {
+   "tel": "04 93 53 96 95",
    "site": "https://brasseriedesligures.com/",
-   "source": "https://brasseriedesligures.com/",
-   "verifieLe": "2026-10-27"
+   "source": "https://cotedazurfrance.fr/offres/brasserie-des-ligures-peille-fr-4709527",
+   "verifieLe": "2026-10-31"
   }
  },
  {
@@ -20151,7 +20173,12 @@
   "src": "https://cotedazurfrance.fr/offres/le-brassitorium-callian-fr-6095019/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-27"
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 84 11 40 98",
+   "source": "https://cotedazurfrance.fr/offres/le-brassitorium-callian-fr-6095019/",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "La Tchouc",
@@ -20838,6 +20865,11 @@
   "coordPrecision": "centre",
   "beers": [],
   "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 90 74 43 99",
+   "source": "https://www.provenceguide.com/producteurs/luberon/brasserie-lub/provence-4930578-1.html",
+   "verifieLe": "2026-10-31"
+  },
   "horaires": [
    {
     "nature": "vente",
@@ -20911,7 +20943,12 @@
   "src": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-ll-alphand-vallouise-pelvoux-fr-2879108/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-27"
+  "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "04 92 23 20 00",
+   "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-ll-alphand-vallouise-pelvoux-fr-2879108/",
+   "verifieLe": "2026-10-31"
+  }
  },
  {
   "n": "Walpine",
@@ -20989,6 +21026,11 @@
   "coordPrecision": "centre",
   "beers": [],
   "verifieLe": "2026-10-27",
+  "contact": {
+   "tel": "09 71 72 65 91",
+   "source": "https://provence-alpes-cotedazur.com/que-faire/vin-et-gastronomie/toutes-les-activites-vin-et-gastronomie/brasserie-de-sulauze-istres-fr-2886893/",
+   "verifieLe": "2026-10-31"
+  },
   "horaires": [
    {
     "nature": "vente",

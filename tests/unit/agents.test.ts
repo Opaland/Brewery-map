@@ -66,6 +66,16 @@ describe('les en-têtes des agents (S353)', () => {
     for (const o of [...ECRITURE, 'WebSearch', 'WebFetch']) expect(outils(champs.disallowedTools).has(o), o).toBe(true)
   })
 
+  // Réponse de Cédric du 31/10 (S374) : un fixe lu sur l'office est repris, un portable vient de la brasserie.
+  it('le vérificateur et la campagne disent la règle du téléphone lu sur un office', () => {
+    const skill = readFileSync('.claude/skills/campagne-departement/SKILL.md', 'utf8').replace(/\n> /g, ' ')
+    for (const texte of [lire('verificateur-de-brasserie').corps.replace(/\s+/g, ' '), skill]) {
+      expect(texte).toContain('un fixe publié par un office de tourisme seul est repris')
+      expect(texte).toContain('jamais le numéro de l’office lui-même')
+      expect(texte).toContain('un portable vient de la brasserie')
+    }
+  })
+
   it('verificateur-de-brasserie lit le web, sans shell ni écriture', () => {
     const { champs } = lire('verificateur-de-brasserie')
     expect([...outils(champs.tools)].sort()).toEqual(['Glob', 'Grep', 'Read', 'WebFetch', 'WebSearch'])
