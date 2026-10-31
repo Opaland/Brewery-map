@@ -3059,3 +3059,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S372 — Le point OSM au nom de personne *(31/10)*
 
 `docs/stories/S372.md`, #247. `OSM_ECARTES` tient le point hors de la couche, à la réextraction comme au retrait ; 265 noms sans mot de métier relus, aucun autre cas manifeste ; couche à 715.
+
+## S373 — Sept fiches à la confiance que leur source permet *(31/10)*
+
+`docs/stories/S373.md`, #214. Caribrew, La Bière des Loups, La Soyeuse, Amalthée, Saint-Clair, L’Attract’Yves et Pleine Lune passent de « solide » à « moyenne » : leur seule source est un office de tourisme (décision #37). Quatre des sept n’avaient pas de date, et un lot en impose une : les pages ont été relues le 31/10, et un test tient la règle.

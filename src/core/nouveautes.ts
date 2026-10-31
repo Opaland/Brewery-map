@@ -10,7 +10,7 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'c440db97b158f0d1',
+  empreinte: '534d5d63f8db93e2',
   phrase:
     'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 273 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 487 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France et en Île-de-France.',
 } as const

@@ -15,4 +15,10 @@ describe('data/breweries.json', () => {
     const verdict = validerBrasseries(contenu)
     expect(verdict.ok ? [] : verdict.erreurs).toEqual([])
   })
+
+  // Décision #37 (docs/DECISIONS.md) : un office de tourisme vaut « moyenne » au plus (S373, #214).
+  it('aucune fiche « solide » n’a pour source un office de tourisme', () => {
+    const fiches = JSON.parse(readFileSync('data/breweries.json', 'utf8')) as { n: string; conf: string; src: string }[]
+    expect(fiches.filter((b) => b.conf === 'solide' && /tourisme|tourism/i.test(b.src)).map((b) => b.n)).toEqual([])
+  })
 })
