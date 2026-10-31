@@ -62,7 +62,7 @@ PowerShell, avec un accès web non bloqué.
 Avant tout, lis dans cet ordre :
 1. AGENTS.md : les règles du projet (§0 à §12). Respecte-les strictement, en
    particulier §0, §1, §1bis, §6, §7bis, §9, §10bis et §12.
-2. CLAUDE.md : l'état de reprise (dernière entrée : 30/10).
+2. CLAUDE.md : l'état de reprise (dernière entrée : 31/10).
 3. docs/REVUE-GLOBALE-2026-10-30.md : la dernière revue globale et ses
    issues (#249, #250, #251).
 4. docs/DECISIONS.md : mes décisions, dont mes règles du 18/10 et du 21/10
@@ -112,8 +112,9 @@ Par quoi commencer :
 2. npm run porte, et dis-moi ce qu'elle donne.
 3. Mes décisions du 31/10 sont dans docs/DECISIONS.md : ne me les redemande
    pas. Rappelle-moi seulement ce qui attend encore : le verdict sur la
-   campagne d'essais des agents (#216). #38 (canal hors GitHub) reste
-   indécis : ne le rappelle pas.
+   campagne d'essais des agents (#216), #257 (dire qu'un numéro vient d'un
+   office), les portables de Flavigny et La Bistraille lus sur un office.
+   #38 (canal hors GitHub) reste indécis : ne le rappelle pas.
 4. À partir du 03/11 : relève les runs de main et ferme #221 si l'installation
    de Chromium tient.
 5. Puis, sur mon go : #187 (S346, Grand Est, avec un quota de recherches

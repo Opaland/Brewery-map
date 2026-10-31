@@ -17,6 +17,9 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 import {
+  argumentShell,
+  coutAtteint,
+  ecartsDuDepot,
   type Evenement,
   outilsEmployes,
   outilsInterdits,
@@ -24,6 +27,7 @@ import {
   referencesIntrouvables,
   rubriquesManquantes,
 } from '../src/core/essais-agents'
+import { etatDuDepot } from './etat-depot'
 
 interface Essai {
   id: string
@@ -56,23 +60,30 @@ function transcript(session: string): Evenement[] {
   return []
 }
 
+/** Le haut du coût annoncé à Cédric pour cette campagne (S354, #216). */
+const PLAFOND_USD = 1.5
+/** Ce qu'une partie déjà lancée de la campagne a coûté : il compte dans le plafond. */
+const DEJA_DEPENSE = Number(process.env.ESSAIS_DEJA_DEPENSE_USD ?? 0)
+
 const lireDepot = (chemin: string) => (existsSync(chemin) ? readFileSync(chemin, 'utf8') : undefined)
 
-function lancer(e: Essai, dossier: string) {
+function lancer(e: Essai, dossier: string, budget: number) {
   const session = randomUUID()
+  const avant = etatDuDepot()
   const env = { ...process.env }
   delete env.CLAUDE_CODE_SESSION_ID
   delete env.CLAUDE_CODE_CHILD_SESSION
   const r = spawnSync(
     'claude',
-    ['--agent', e.agent, '-p', e.question, '--output-format', 'json', '--session-id', session, '--allowedTools', ...OUTILS],
-    { encoding: 'utf8', env, timeout: 900_000, shell: process.platform === 'win32' },
+    // La question passe par l'entrée standard : aucun shell ne la coupe ni ne l'interprète.
+    ['--agent', e.agent, '-p', '--output-format', 'json', '--session-id', session, '--max-budget-usd', budget.toFixed(2), '--allowedTools', ...OUTILS.map((o) => argumentShell(o, process.platform))],
+    { encoding: 'utf8', env, input: e.question, timeout: 900_000, shell: process.platform === 'win32' },
   )
   let res: { result?: string; num_turns?: number; total_cost_usd?: number }
   try {
     res = JSON.parse(r.stdout) as typeof res
   } catch {
-    return { id: e.id, erreur: (r.stderr || r.stdout).slice(-800) }
+    return { id: e.id, erreur: (r.stderr || r.stdout).slice(-800), depotChange: ecartsDuDepot(avant, etatDuDepot()) }
   }
   const reponse = res.result ?? ''
   const evts = transcript(session)
@@ -87,8 +98,9 @@ function lancer(e: Essai, dossier: string) {
     absents: e.attendu.contient.filter((c) => !reponse.includes(c)),
     referencesIntrouvables: referencesIntrouvables(referencesFichiers(reponse), lireDepot),
     transcriptLu: evts.length > 0,
+    depotChange: ecartsDuDepot(avant, etatDuDepot()),
   }
-  const ok = bilan.outilsInterdits.length === 0 && bilan.rubriquesManquantes.length === 0 && bilan.absents.length === 0 && bilan.referencesIntrouvables.length === 0
+  const ok = bilan.outilsInterdits.length === 0 && bilan.rubriquesManquantes.length === 0 && bilan.absents.length === 0 && bilan.referencesIntrouvables.length === 0 && bilan.depotChange.length === 0
   writeFileSync(
     join(dossier, `${e.id}.md`),
     `# ${e.id} — ${e.agent}\n\n**Question** : ${e.question}\n\n` +
@@ -96,6 +108,8 @@ function lancer(e: Essai, dossier: string) {
       `- outils interdits employés : ${bilan.outilsInterdits.join(', ') || 'aucun'}${bilan.transcriptLu ? '' : ' (transcript introuvable : non vérifié)'}\n` +
       `- rubriques manquantes : ${bilan.rubriquesManquantes.join(', ') || 'aucune'}\n` +
       `- attendus absents : ${bilan.absents.join(', ') || 'aucun'}\n` +
+      `- dépôt changé par l'essai : ${bilan.depotChange.join(', ') || 'non'}
+` +
       `- références fichier:ligne introuvables : ${bilan.referencesIntrouvables.join(', ') || 'aucune'}\n\n` +
       `## Réponse\n\n${reponse}\n\n## Outils employés\n\n${bilan.outils.map((o) => `- ${o}`).join('\n')}\n`,
   )
@@ -107,11 +121,23 @@ const choisis = process.argv.slice(2)
 const dossier = join('eval', 'essais-resultats', new Date().toISOString().slice(0, 10))
 mkdirSync(dossier, { recursive: true })
 const bilans = []
+const couts: number[] = [DEJA_DEPENSE]
 for (const e of essais.filter((x) => choisis.length === 0 || choisis.includes(x.id))) {
+  // Sous un centime, `--max-budget-usd 0.00` n'a pas de sens connu : on s'arrête.
+  if (coutAtteint(couts, PLAFOND_USD - 0.01)) {
+    console.log(`Arrêt : plafond de ${String(PLAFOND_USD)} $ atteint, ${e.id} non lancé.`)
+    break
+  }
   console.log(`… ${e.id} (${e.agent})`)
-  const b = lancer(e, dossier)
+  const b = lancer(e, dossier, PLAFOND_USD - couts.reduce((t, c) => t + c, 0))
   bilans.push(b)
-  console.log('erreur' in b ? `  ERREUR : ${b.erreur}` : `  ${b.ok ? 'tenu' : 'ÉCART'} · ${String(b.tours)} tours · ${String(b.coutUsd)} $`)
+  if (!('coutUsd' in b)) {
+    // Un essai en erreur a pu dépenser sans le dire : on ne continue pas à l'aveugle.
+    console.log(`  ERREUR : ${b.erreur}\nArrêt : coût de cet essai inconnu.`)
+    break
+  }
+  couts.push(b.coutUsd)
+  console.log(`  ${b.ok ? 'tenu' : 'ÉCART'} · ${String(b.tours)} tours · ${String(b.coutUsd)} $`)
 }
 writeFileSync(join(dossier, 'bilan.json'), `${JSON.stringify(bilans, null, 1)}\n`)
 console.log(`Résultats : ${dossier}`)

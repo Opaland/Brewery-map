@@ -3067,3 +3067,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S374 — Un numéro à appeler, quand seul l’office le publie *(31/10)*
 
 `docs/stories/S374.md`. Le vérificateur et la campagne disent la règle de Cédric du 31/10 (un fixe de la brasserie lu sur l’office est repris, un portable vient de la brasserie) ; 10 fixes repris, lus un par un dans le bloc de la brasserie ; Piolit écartée, le seul fixe de sa page est celui de l’office. Deux portables déjà en place d’après un office : question à Cédric.
+
+## S375 — La première campagne d'essais des agents *(31/10)*
+
+`docs/stories/S375.md`, #216. Le harnais voit ce qu'un essai change dans le dépôt, et plafonne le coût à chaque essai. Trois essais, 1,332 $ dont 0,694 $ perdus sur un premier passage aux questions coupées par le shell de Windows. Relecteur et vérificateur tiennent leurs contrôles ; Marie cite trois renvois sans dossier. Verdict de Cédric attendu dans `docs/ESSAIS-AGENTS.md`.

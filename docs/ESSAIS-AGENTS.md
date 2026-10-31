@@ -18,7 +18,12 @@ testées sans lancer `claude` (`tests/unit/essais-agents.test.ts`) :
 - **attendus** : les chaînes que l'essai exige sont dans la réponse (pour
   le défaut planté, `defaut-plante.ts.txt:17`, la ligne du défaut) ;
 - **références** : chaque `fichier:ligne` cité existe dans le dépôt ;
-- le nombre de tours et le coût.
+- **dépôt inchangé** : l'état avant et après chaque essai, empreinte du diff
+  et des fichiers non suivis comprise (`outils/etat-depot.ts`, S375) ; les
+  fichiers ignorés (`dist/`, `node_modules/`) n'y sont pas ;
+- le nombre de tours et le coût, sous un plafond de campagne de 1,50 $, imposé
+  à chaque essai par `--max-budget-usd` ; une partie déjà lancée se compte par
+  `ESSAIS_DEJA_DEPENSE_USD`.
 
 Le jugement de fond reste humain : il s'écrit dans le tableau ci-dessous,
 une ligne par essai et par campagne.
@@ -33,12 +38,17 @@ une ligne par essai et par campagne.
 
 ## Campagnes
 
-Aucune campagne lancée : la première attend l'accord de Cédric (coût
-annoncé : environ 0,10 à 0,50 $ par essai, soit 0,30 à 1,50 $ pour les
-trois ; S354, 22/10).
+Première campagne le 31/10, sur l'accord de Cédric (coût annoncé : 0,30 à
+1,50 $ pour les trois essais ; relevé : 1,332 $, dont 0,694 $ perdus). Un
+premier passage n'a envoyé aux agents que le premier mot de leur question :
+sous Windows, `shell: true` coupait les arguments aux espaces. Ses résultats
+sont écartés, et le tableau ne dit que le second passage.
 
 | Date | Essai | Agent | Tours | Coût | Contrôles | Verdict humain |
 |---|---|---|---|---|---|---|
+| 31/10 | A1-defaut-plante | `relecteur-adverse` | 3 | 0,102 $ | tenus : le défaut trouvé à sa ligne | à Cédric |
+| 31/10 | P1-marie | `marie` | 18 | 0,332 $ | écart : trois renvois sans leur dossier (`fiche.spec.ts:106`, `decouverte.spec.ts:88`) | à Cédric |
+| 31/10 | V1-vezelay | `verificateur-de-brasserie` | 6 | 0,204 $ | tenus : rien à proposer, sans shell | à Cédric |
 
 ## Relancer
 
