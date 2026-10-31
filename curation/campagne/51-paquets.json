@@ -1,0 +1,281 @@
+[
+ [
+  {
+   "cle": "sirene:817860687",
+   "enseigne": "BRASSERIE ARTISANALE  DE REIMS",
+   "dep": "51",
+   "communes": [
+    "CORMONTREUIL",
+    "REIMS"
+   ],
+   "adresses": [
+    "7 B RUE DES COMPAGNONS 51350 CORMONTREUIL",
+    "16 BOULEVARD DU VAL DE VESLE 51100 REIMS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848387726",
+   "enseigne": "BRASSERIE TETE DE CHOU",
+   "dep": "51",
+   "communes": [
+    "EPERNAY"
+   ],
+   "adresses": [
+    "1 B AVENUE DU MARECHAL FOCH 51200 EPERNAY",
+    "1 AVENUE DU MARECHAL FOCH 51200 EPERNAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897417168",
+   "enseigne": "LA PATTE D'OIE",
+   "dep": "51",
+   "communes": [
+    "DORMANS"
+   ],
+   "adresses": [
+    "3 RUE DE LA BEAUCHARDERIE 51700 DORMANS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900628421",
+   "enseigne": "SASU BRASSERIE QUI EN BRASSE",
+   "dep": "51",
+   "communes": [
+    "SUIPPES"
+   ],
+   "adresses": [
+    "19 ROUTE DE CHALONS 51600 SUIPPES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914676739",
+   "enseigne": "BRASSERIE XD",
+   "dep": "51",
+   "communes": [
+    "VERZENAY"
+   ],
+   "adresses": [
+    "RUE DUCHATEL-OHAUSS 51360 VERZENAY"
+   ],
+   "osm": [
+    "node/13357960352"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:922697032",
+   "enseigne": "BRASSERIE NUCLEO",
+   "dep": "51",
+   "communes": [
+    "CORMONTREUIL"
+   ],
+   "adresses": [
+    "4 RUE DES ARTISANS 51350 CORMONTREUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833803919",
+   "enseigne": "LE SHED",
+   "dep": "51",
+   "communes": [
+    "REIMS"
+   ],
+   "adresses": [
+    "49 RUE GOSSET 51100 REIMS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:952179331",
+   "enseigne": "L'AGAME BARBU",
+   "dep": "51",
+   "communes": [
+    "SAINT-HILAIRE-LE-GRAND"
+   ],
+   "adresses": [
+    "2 RUE JEAN GILLET 51600 SAINT-HILAIRE-LE-GRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:837778042",
+   "enseigne": "LUCIDA",
+   "dep": "51",
+   "communes": [
+    "LUDES"
+   ],
+   "adresses": [
+    "2 RUE 2 RUE NATIONALE 51500 LUDES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:985025360",
+   "enseigne": "LA BRASSERIE BACHOTAINE",
+   "dep": "51",
+   "communes": [
+    "BASSUET"
+   ],
+   "adresses": [
+    "42 RUE DE VAVRAY 51300 BASSUET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:890290828",
+   "enseigne": "BRASSERIE DIAGONALE",
+   "dep": "51",
+   "communes": [
+    "BROUSSY-LE-GRAND"
+   ],
+   "adresses": [
+    "1 RUE DES PETITES VIGNES 51230 BROUSSY-LE-GRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:903627032",
+   "enseigne": "B51",
+   "dep": "51",
+   "communes": [
+    "LUDES"
+   ],
+   "adresses": [
+    "3 IMPASSE CARNOT 51500 LUDES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811282086",
+   "enseigne": "BIERES ET TENTATIONS",
+   "dep": "51",
+   "communes": [
+    "JUVIGNY"
+   ],
+   "adresses": [
+    "1 RUELLE DE LA GRAVIERE 51150 JUVIGNY"
+   ],
+   "osm": [
+    "way/381272627"
+   ],
+   "site": "https://bieresettentations.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:817895709",
+   "enseigne": "JHP",
+   "dep": "51",
+   "communes": [
+    "AY-CHAMPAGNE"
+   ],
+   "adresses": [
+    "16 RUE LEON BOURGEOIS 51150 AY-CHAMPAGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824591341",
+   "enseigne": "BRASSERIE MADAME NATURE",
+   "dep": "51",
+   "communes": [
+    "SOMMEPY-TAHURE"
+   ],
+   "adresses": [
+    "10 RUE DE L'HOTEL-DIEU 51600 SOMMEPY-TAHURE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:921820510",
+   "enseigne": "ATOM CRAFT BEER",
+   "dep": "51",
+   "communes": [
+    "JONCHERY-SUR-VESLE"
+   ],
+   "adresses": [
+    "1 CHEMIN DE REIMS 51140 JONCHERY-SUR-VESLE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "LA GOUNASSE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "51",
+   "communes": [
+    "VERDON"
+   ],
+   "adresses": [
+    "7 RUE DE LA SOURCE SAINT MALO 51210 VERDON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:751561044",
+   "enseigne": "SARL 1896",
+   "dep": "51",
+   "communes": [
+    "VERZENAY"
+   ],
+   "adresses": [
+    "8 RUE DES TUILERIES 51360 VERZENAY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:509874020",
+   "enseigne": "BRASSERIE ARTISANALE MASCLAUX",
+   "dep": "51",
+   "communes": [
+    "BERMERICOURT"
+   ],
+   "adresses": [
+    "15 RUE DU GENERAL DE GAULLE 51220 BERMERICOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7905575381",
+   "enseigne": "Senses Brewing",
+   "dep": "51",
+   "communes": [
+    "Reims"
+   ],
+   "adresses": [
+    "49"
+   ],
+   "osm": [
+    "node/7905575381"
+   ],
+   "site": "https://www.sensesbrewing.com",
+   "statut": "nouveau"
+  }
+ ]
+]

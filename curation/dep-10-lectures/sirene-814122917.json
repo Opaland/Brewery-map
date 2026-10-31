@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:814122917",
+ "ajout": {
+  "fiche": {
+   "n": "L'Once Troy",
+   "c": "Saint-Germain",
+   "d": "10",
+   "lat": 48.25325,
+   "lon": 4.02877,
+   "km": 292,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie présente un bar de dégustation (bières à la pression ou en bouteille) et une zone de vente à emporter à l'unité ou en pack.",
+   "addr": "4 rue Paul Cézanne, 10120 Saint-Germain",
+   "src": "https://lonce-troy.fr/notre-etablissement",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 25 78 05 18",
+    "site": "https://lonce-troy.fr/",
+    "source": "https://lonce-troy.fr/contact",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.aube-champagne.com/en/poi/l-once-troy/",
+     "mar": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://lonce-troy.fr/notre-etablissement",
+   "https://lonce-troy.fr/contact",
+   "https://www.aube-champagne.com/en/poi/l-once-troy/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+Paul+C%C3%A9zanne%2C+10120+Saint-Germain&limit=5"
+  ],
+  "extrait": "un lieu convivial aménagé en bar de dégustation de nos bières à la pression ou à la bouteille",
+  "choix": "Adresse et horaires lus sur la fiche de l'office Aube en Champagne (valables du 01/01 au 31/12/2026) ; le siège du registre, à Géraudot, n'est pas le bar. La page d'horaires du site répond 404. Pas d'Untappd trouvé."
+ }
+}

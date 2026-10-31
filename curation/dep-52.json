@@ -1,0 +1,227 @@
+{
+ "lot": "dep-52",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Distillerie de Vauclair",
+    "c": "Giey-sur-Aujon",
+    "d": "52",
+    "lat": 47.90705,
+    "lon": 5.06872,
+    "km": 249.4,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le site annonce « Vente à emporter et Caveau Bar » avec ses horaires, sans détailler le service au bar. Visites de groupe sur rendez-vous, 15 personnes au moins. Fermé les jours fériés.",
+    "addr": "Lieu-dit Vauclair, 52210 Giey-sur-Aujon",
+    "src": "https://bd-vauclair.fr/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "03 25 01 00 40",
+     "site": "https://bd-vauclair.fr/",
+     "source": "https://bd-vauclair.fr/contact/",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "15:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "15:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "15:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "15:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "15:00"
+       ]
+      ],
+      "remarque": "Fermé le week-end et les jours fériés.",
+      "periode": {
+       "du": "09-01",
+       "au": "04-30"
+      },
+      "source": "https://bd-vauclair.fr/contact/",
+      "verifieLe": "2026-10-31"
+     },
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "16:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "16:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "16:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "16:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "16:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "20:00"
+       ]
+      ],
+      "dim": [
+       [
+        "17:00",
+        "20:00"
+       ]
+      ],
+      "remarque": "Fermé les jours fériés.",
+      "periode": {
+       "du": "05-01",
+       "au": "08-31"
+      },
+      "source": "https://bd-vauclair.fr/contact/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://bd-vauclair.fr/",
+    "https://bd-vauclair.fr/contact/",
+    "https://data.geopf.fr/geocodage/search?q=Giey-sur-Aujon&type=municipality&limit=5"
+   ],
+   "extrait": "Vente à emporter et Caveau Bar",
+   "choix": "Téléphone : le fixe de la page de contact ; le portable y est dit « uniquement en cas d’urgence », non repris. Bières : noms du site sans page Untappd lue, laissés vides. Deux saisons, reprises telles que le site les écrit."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie artisanale du Der",
+    "c": "La Porte du Der",
+    "d": "52",
+    "lat": 48.4764,
+    "lon": 4.77877,
+    "km": 311.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce une vente en direct, ouverte le mercredi, le jeudi et le vendredi de 14h à 18h. L'office du lac du Der cite aussi la dégustation, sans jours ni détail : on ne retient que l'achat.",
+    "addr": "7 avenue d'Alsace, 52220 La Porte du Der",
+    "src": "https://www.brasserieartisanaleduder.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 25 55 99 19",
+     "site": "https://www.brasserieartisanaleduder.fr",
+     "source": "https://www.brasserieartisanaleduder.fr/contact-2/",
+     "verifieLe": "2026-10-31"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://www.brasserieartisanaleduder.fr/",
+      "verifieLe": "2026-10-31"
+     }
+    ]
+   },
+   "verifieLe": "2026-10-31",
+   "sources": [
+    "https://www.brasserieartisanaleduder.fr/",
+    "https://www.brasserieartisanaleduder.fr/contact-2/",
+    "https://data.geopf.fr/geocodage/search?q=7+avenue+d%27Alsace%2C+52220+La+Porte+du+Der&limit=5"
+   ],
+   "extrait": "La Brasserie est ouverte : mercredi // 14h – 18h",
+   "choix": "Catégorie 2 et non 1 : la consommation sur place n'est écrite que comme projet, et comme rubrique par l'office. Téléphone : le fixe de la page de contact, le portable écarté (un fixe existe). Types de bière sans lien par bière ni page Untappd : laissés vides."
+  }
+ ]
+}

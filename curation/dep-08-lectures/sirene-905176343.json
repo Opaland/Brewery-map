@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:905176343",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Chinco",
+   "c": "Neuflize",
+   "d": "08",
+   "lat": 49.41077,
+   "lon": 4.30789,
+   "km": 416.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : son site la décrit et l'agence de tourisme des Ardennes la liste. Aucune vente ni dégustation sur place n'est annoncée : les commandes sont remises en main propre à Reims et à Paris. Ni horaires ni téléphone publiés.",
+   "addr": "3 rue des Lavandières, 08300 Neuflize",
+   "src": "https://www.chinco.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.chinco.fr",
+    "source": "https://www.chinco.fr",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.chinco.fr",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+des+Lavandi%C3%A8res%2C+08300+Neuflize&limit=5"
+  ],
+  "extrait": "Toutes nos bières sont brassées et embouteillées dans notre local, dans les Ardennes.",
+  "choix": "Catégorie 0, pas 3 : le site ne dit pas qu'on ne vend rien à la brasserie. Types de bière sans lien Untappd : non retenus."
+ }
+}

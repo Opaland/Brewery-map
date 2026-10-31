@@ -308,8 +308,8 @@ test.describe('sauvegarder et transférer (S37)', () => {
 
 // S357 (#208) : un carnet que seule la couche OSM décochée cache n'est pas vide.
 test('carnet caché par la couche OSM : le compte ne le dit pas vide (S357)', async ({ page }) => {
-  // Porcelette (57) : seules les brasseries de la couche OSM sont proches.
-  await choisirCommune(page, 'porcelette', 'Porcelette (57)')
+  // Perpignan (66) : seules les brasseries de la couche OSM sont proches.
+  await choisirCommune(page, 'perpignan', 'Perpignan (66)')
   const ligne = page.locator('button.ligne').first()
   await expect(ligne.getByTestId('badge-osm')).toBeVisible()
   await ligne.click()

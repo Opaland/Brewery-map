@@ -1,0 +1,168 @@
+{
+ "candidat": "sirene:429558380",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Distillerie de Vauclair",
+   "c": "Giey-sur-Aujon",
+   "d": "52",
+   "lat": 47.90705,
+   "lon": 5.06872,
+   "km": 249.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site annonce « Vente à emporter et Caveau Bar » avec ses horaires, sans détailler le service au bar. Visites de groupe sur rendez-vous, 15 personnes au moins. Fermé les jours fériés.",
+   "addr": "Lieu-dit Vauclair, 52210 Giey-sur-Aujon",
+   "src": "https://bd-vauclair.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 25 01 00 40",
+    "site": "https://bd-vauclair.fr/",
+    "source": "https://bd-vauclair.fr/contact/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://bd-vauclair.fr/contact/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "15:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "15:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "15:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "15:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "15:00"
+      ]
+     ],
+     "periode": {
+      "du": "09-01",
+      "au": "04-30"
+     },
+     "remarque": "Fermé le week-end et les jours fériés.",
+     "verifieLe": "2026-10-31"
+    },
+    {
+     "nature": "vente",
+     "source": "https://bd-vauclair.fr/contact/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "16:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "16:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "16:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "16:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "dim": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "periode": {
+      "du": "05-01",
+      "au": "08-31"
+     },
+     "remarque": "Fermé les jours fériés.",
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://bd-vauclair.fr/",
+   "https://bd-vauclair.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=Giey-sur-Aujon&type=municipality&limit=5"
+  ],
+  "extrait": "Vente à emporter et Caveau Bar",
+  "choix": "Téléphone : le fixe de la page de contact ; le portable y est dit « uniquement en cas d’urgence », non repris. Bières : noms du site sans page Untappd lue, laissés vides. Deux saisons, reprises telles que le site les écrit."
+ }
+}

@@ -1,0 +1,168 @@
+[
+ [
+  {
+   "cle": "sirene:885332619",
+   "enseigne": "LA BRANCHE",
+   "dep": "10",
+   "communes": [
+    "CHARMONT-SOUS-BARBUISE"
+   ],
+   "adresses": [
+    "15 RUE DES ECOLES 10150 CHARMONT-SOUS-BARBUISE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909392458",
+   "enseigne": "BRASSERIE JUMIE",
+   "dep": "10",
+   "communes": [
+    "BUCHERES"
+   ],
+   "adresses": [
+    "24 B ROUTE DE MAISONS-BLANCHES 10800 BUCHERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833829930",
+   "enseigne": "LES COMTES MALTES",
+   "dep": "10",
+   "communes": [
+    "ROSIERES-PRES-TROYES"
+   ],
+   "adresses": [
+    "7 RUE DU DOCTEUR SCHWEITZER 10430 ROSIERES-PRES-TROYES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849867445",
+   "enseigne": "BRASSERIE DE L'ARMANCE",
+   "dep": "10",
+   "communes": [
+    "ERVY-LE-CHATEL"
+   ],
+   "adresses": [
+    "42 AVENUE DE LA GARE 10130 ERVY-LE-CHATEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823705686",
+   "enseigne": "BRASSERIE LA ROOF",
+   "dep": "10",
+   "communes": [
+    "FOUCHERES"
+   ],
+   "adresses": [
+    "8 LE PATY 10260 FOUCHERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:880170782",
+   "enseigne": "CLAIRVAUX EN CHAMPAGNE",
+   "dep": "10",
+   "communes": [
+    "BAR-SUR-AUBE"
+   ],
+   "adresses": [
+    "1ER ETAGE 34 RUE NATIONALE 10200 BAR-SUR-AUBE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977755362",
+   "enseigne": "BRASSERIE DE LA LOGE",
+   "dep": "10",
+   "communes": [
+    "LA LOGE-POMBLIN"
+   ],
+   "adresses": [
+    "1 ROUTE DE SAINT PHAL 10210 LA LOGE-POMBLIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814122917",
+   "enseigne": "MICRO-BRASSERIE L'ONCE TROY",
+   "dep": "10",
+   "communes": [
+    "GERAUDOT"
+   ],
+   "adresses": [
+    "FERME DE L'HOPITAU 10220 GERAUDOT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987544590",
+   "enseigne": "MALTERIE BRASSERIE DE LA VALLEE DE L'AUBE",
+   "dep": "10",
+   "communes": [
+    "NOGENT-SUR-AUBE"
+   ],
+   "adresses": [
+    "82 GRANDE RUE 10240 NOGENT-SUR-AUBE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824727259",
+   "enseigne": "BRASSERIE THIBORD",
+   "dep": "10",
+   "communes": [
+    "AIX-VILLEMAUR-PALIS"
+   ],
+   "adresses": [
+    "27 RUE DE LA REPUBLIQUE 10160 AIX-VILLEMAUR-PALIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:851478016",
+   "enseigne": "LES ANGES DECHUS",
+   "dep": "10",
+   "communes": [
+    "VILLENAUXE-LA-GRANDE"
+   ],
+   "adresses": [
+    "21 PLACE GEORGES CLEMENCEAU 10370 VILLENAUXE-LA-GRANDE"
+   ],
+   "osm": [
+    "way/225205516"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/353018894",
+   "enseigne": "L'écluse n°8",
+   "dep": "10",
+   "communes": [
+    "Rilly-Sainte-Syre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/353018894"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

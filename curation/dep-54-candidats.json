@@ -1,0 +1,1031 @@
+[
+ {
+  "cle": "sirene:521584128",
+  "nom": "AUBERGE LA LORRAINE PERDUE",
+  "communes": [
+   "GOVILLER",
+   "VEZELISE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "56 GRANDE RUE 54330 GOVILLER",
+   "22 RUE DU MARECHAL FOCH 54330 VEZELISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "521584128",
+  "sirets": [
+   "52158412800016",
+   "52158412800024"
+  ],
+  "osm": [],
+  "lat": 48.498402912,
+  "lon": 6.0108844703,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:885041574",
+  "nom": "C'EST DE LA BAL",
+  "communes": [
+   "CHAVIGNY",
+   "NEUVES-MAISONS"
+  ],
+  "departement": "54",
+  "adresses": [
+   "37 RUE DU COTTAGE BEAUSEJOUR 54230 CHAVIGNY",
+   "78 RUE ROGER SALENGRO 54230 NEUVES-MAISONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "885041574",
+  "sirets": [
+   "88504157400017",
+   "88504157400025"
+  ],
+  "osm": [],
+  "lat": 48.6341570036863,
+  "lon": 6.12849503330764,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820870665",
+  "nom": "HOPPY ROAD",
+  "communes": [
+   "MAXEVILLE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "25 AVENUE DE LA MEURTHE 54320 MAXEVILLE",
+   "21 AVENUE DE LA MEURTHE 54320 MAXEVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820870665",
+  "sirets": [
+   "82087066500016",
+   "82087066500024"
+  ],
+  "osm": [],
+  "lat": 48.709557768,
+  "lon": 6.1764846662,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:442021663",
+  "nom": "LES BRASSEURS DE LORRAINE",
+  "communes": [
+   "PONT-A-MOUSSON"
+  ],
+  "departement": "54",
+  "adresses": [
+   "3 RUE DU BOIS LE PRETRE 54700 PONT-A-MOUSSON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "442021663",
+  "sirets": [
+   "44202166300012"
+  ],
+  "osm": [
+   "way/144925140"
+  ],
+  "lat": 48.906552499,
+  "lon": 6.0501938155,
+  "site": "https://www.brasseurs-lorraine.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818021222",
+  "nom": "BRASSERIE DU TREBOIS",
+  "communes": [
+   "PIENNES"
+  ],
+  "departement": "54",
+  "adresses": [
+   "7 RUE DU TREBOIS 54490 PIENNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818021222",
+  "sirets": [
+   "81802122200018"
+  ],
+  "osm": [],
+  "lat": 49.306335142,
+  "lon": 5.7834364855,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:825182116",
+  "nom": "BRASSERIE LA CHAOUETTE SARL",
+  "communes": [
+   "SAIZERAIS"
+  ],
+  "departement": "54",
+  "adresses": [
+   "ZA DE LA HAUTE EPINE 24 RUE DES VERGERS 54380 SAIZERAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "825182116",
+  "sirets": [
+   "82518211600020"
+  ],
+  "osm": [],
+  "lat": 48.7933031417154,
+  "lon": 6.05740986668312,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831316708",
+  "nom": "MICRO BRASSERIE MATHUR",
+  "communes": [
+   "NOMENY"
+  ],
+  "departement": "54",
+  "adresses": [
+   "1 B RUE FOURRIER D'HINCOURT 54610 NOMENY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831316708",
+  "sirets": [
+   "83131670800013"
+  ],
+  "osm": [],
+  "lat": 48.888993277,
+  "lon": 6.2262466026,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "JAULNY"
+  ],
+  "departement": "54",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:832091664",
+  "nom": "BRASSERIE D'AUSTRASIE",
+  "communes": [
+   "VANDŒUVRE-LES-NANCY"
+  ],
+  "departement": "54",
+  "adresses": [
+   "3 ALLEE DE CHANTILLY 54500 VANDŒUVRE-LES-NANCY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832091664",
+  "sirets": [
+   "83209166400033"
+  ],
+  "osm": [
+   "node/11119444703"
+  ],
+  "lat": 48.654059268,
+  "lon": 6.137278088,
+  "site": "https://www.brasserie-austrasie.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "ELEOS",
+  "communes": [
+   "OGEVILLER"
+  ],
+  "departement": "54",
+  "adresses": [
+   "47 RUE DU CHATEAU 54450 OGEVILLER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "way/180170889"
+  ],
+  "site": "http://brasserie.eleos.free.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888568896",
+  "nom": "CEZARD COMPAGNIE",
+  "communes": [
+   "HEILLECOURT"
+  ],
+  "departement": "54",
+  "adresses": [
+   "161 GRANDE RUE 54180 HEILLECOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888568896",
+  "sirets": [
+   "88856889600011"
+  ],
+  "osm": [],
+  "lat": 48.652287299,
+  "lon": 6.1851593356,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883387235",
+  "nom": "LA DELICATESSE",
+  "communes": [
+   "NANCY"
+  ],
+  "departement": "54",
+  "adresses": [
+   "45 RUE EMILE COUE 54000 NANCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883387235",
+  "sirets": [
+   "88338723500012"
+  ],
+  "osm": [],
+  "lat": 48.677309401,
+  "lon": 6.177026738,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892968611",
+  "nom": "OKA CRAFT BEER",
+  "communes": [
+   "PRAYE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "6 RUE DES NIDS 54116 PRAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892968611",
+  "sirets": [
+   "89296861100012"
+  ],
+  "osm": [],
+  "lat": 48.4320197399615,
+  "lon": 6.10090528107856,
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "sirene:813237252",
+  "nom": "BRASSERIE CHEVAL - ARTISANALE & ASSOCIATIVE",
+  "communes": [
+   "CHAUDENEY-SUR-MOSELLE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "73 RUE DU CAPITAINE PATURAUD 54200 CHAUDENEY-SUR-MOSELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813237252",
+  "sirets": [
+   "81323725200024"
+  ],
+  "osm": [],
+  "lat": 48.651687468,
+  "lon": 5.9050881704,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:492958269",
+  "nom": "BRASSERIE CHAMPIGNEULLES",
+  "communes": [
+   "CHAMPIGNEULLES"
+  ],
+  "departement": "54",
+  "adresses": [
+   "2 RUE GABRIEL BOUR 54250 CHAMPIGNEULLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "492958269",
+  "sirets": [
+   "49295826900010"
+  ],
+  "osm": [],
+  "lat": 48.737812444,
+  "lon": 6.1688508963,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981174964",
+  "nom": "BRASSERIE VINYLE",
+  "communes": [
+   "VILLACOURT"
+  ],
+  "departement": "54",
+  "adresses": [
+   "36 RUE DU MONT 54290 VILLACOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981174964",
+  "sirets": [
+   "98117496400016"
+  ],
+  "osm": [],
+  "lat": 48.45427164,
+  "lon": 6.3476262975,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE LE PETIT LOTHAR",
+  "communes": [
+   "SAULXURES-LES-NANCY"
+  ],
+  "departement": "54",
+  "adresses": [
+   "1 PLACE DE LA FONTAINE 54420 SAULXURES-LES-NANCY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830638581",
+  "nom": "BRASSERIE TUMULTE",
+  "communes": [
+   "MAGNIERES"
+  ],
+  "departement": "54",
+  "adresses": [
+   "19 GRANDE RUE 54129 MAGNIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830638581",
+  "sirets": [
+   "83063858100025"
+  ],
+  "osm": [
+   "node/7364577884"
+  ],
+  "lat": 48.447251161,
+  "lon": 6.5633430528,
+  "site": "https://www.brasserietumulte.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "CHAUDENEY-SUR-MOSELLE"
+  ],
+  "departement": "54",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:948643804",
+  "nom": "BRASSERIE DE LA BONNE DAME",
+  "communes": [
+   "BACCARAT"
+  ],
+  "departement": "54",
+  "adresses": [
+   "27 RUE DE LA DIVISION LECLERC 54120 BACCARAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948643804",
+  "sirets": [
+   "94864380400016"
+  ],
+  "osm": [],
+  "lat": 48.450527878,
+  "lon": 6.7394971501,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847837184",
+  "nom": "BRASSERIE CHEVAL - ARTISANALE ET ASSOCIATIVE",
+  "communes": [
+   "CHAUDENEY-SUR-MOSELLE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "73 RUE DU CAPITAINE PATURAUD 54200 CHAUDENEY-SUR-MOSELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847837184",
+  "sirets": [
+   "84783718400013"
+  ],
+  "osm": [],
+  "lat": 48.651687468,
+  "lon": 5.9050881704,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:883574295",
+  "nom": "BRASSERIE GRENAILLE",
+  "communes": [
+   "ROSIERES-AUX-SALINES"
+  ],
+  "departement": "54",
+  "adresses": [
+   "39 RUE DU CAPITAINE MALHORTY 54110 ROSIERES-AUX-SALINES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "883574295",
+  "sirets": [
+   "88357429500019"
+  ],
+  "osm": [
+   "node/2049873481"
+  ],
+  "lat": 48.596106046,
+  "lon": 6.3352739652,
+  "site": "http://grenaille.blogspot.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "BRASSERIE PICOTI PICOTA",
+  "communes": [
+   "SAULXURES-LES-VANNES"
+  ],
+  "departement": "54",
+  "adresses": [
+   "12 RUE DE MERIGNY 54170 SAULXURES-LES-VANNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880154166",
+  "nom": "BRASSERIE COIN COIN",
+  "communes": [
+   "MENIL-LA-TOUR"
+  ],
+  "departement": "54",
+  "adresses": [
+   "5 RUE SAINT-LAURENT 54200 MENIL-LA-TOUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880154166",
+  "sirets": [
+   "88015416600016"
+  ],
+  "osm": [],
+  "lat": 48.766521635,
+  "lon": 5.8644617099,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833550130",
+  "nom": "LA BRASS'",
+  "communes": [
+   "MAXEVILLE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "HALLE DES QUAIS 151 RUE DES BRASSERIES 54320 MAXEVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833550130",
+  "sirets": [
+   "83355013000011"
+  ],
+  "osm": [],
+  "lat": 48.707386882,
+  "lon": 6.1649492411,
+  "statut": "ambigu",
+  "fiche": "Le Brass'in"
+ },
+ {
+  "cle": "sirene:830783742",
+  "nom": "ZYTHOMANIACS",
+  "communes": [
+   "DONCOURT-LES-LONGUYON"
+  ],
+  "departement": "54",
+  "adresses": [
+   "17 RUE DES MOISSONNEURS 54620 DONCOURT-LES-LONGUYON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830783742",
+  "sirets": [
+   "83078374200018"
+  ],
+  "osm": [],
+  "lat": 49.438676547,
+  "lon": 5.7104283641,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "BLAINVILLE-SUR-L'EAU"
+  ],
+  "departement": "54",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:940581150",
+  "nom": "LA BRASSERIE KIBELL",
+  "communes": [
+   "BAGNEUX"
+  ],
+  "departement": "54",
+  "adresses": [
+   "9 CHEMIN DES FOURRIERES 54170 BAGNEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "940581150",
+  "sirets": [
+   "94058115000015"
+  ],
+  "osm": [],
+  "lat": 48.5601460056837,
+  "lon": 5.88324003846468,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:451954341",
+  "nom": "BRASSERIE DU PAYS LORRAIN",
+  "communes": [
+   "MONT-SAINT-MARTIN"
+  ],
+  "departement": "54",
+  "adresses": [
+   "94 ROUTE DE LONGWY 54350 MONT-SAINT-MARTIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "451954341",
+  "sirets": [
+   "45195434100025"
+  ],
+  "osm": [],
+  "lat": 49.534025536,
+  "lon": 5.7645171615,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:819747007",
+  "nom": "THE PIGGY BREWING COMPANY",
+  "communes": [
+   "LIVERDUN"
+  ],
+  "departement": "54",
+  "adresses": [
+   "40 AVENUE DU GARD 54460 LIVERDUN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "819747007",
+  "sirets": [
+   "81974700700022"
+  ],
+  "osm": [
+   "node/1295457131"
+  ],
+  "lat": 48.7655065571695,
+  "lon": 6.05927667652845,
+  "site": "https://www.thepiggybrewingcompany.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:432412161",
+  "nom": "B C D",
+  "communes": [
+   "PONT-A-MOUSSON"
+  ],
+  "departement": "54",
+  "adresses": [
+   "3 RUE DU BOIS LE PRETRE 54700 PONT-A-MOUSSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "432412161",
+  "sirets": [
+   "43241216100023"
+  ],
+  "osm": [],
+  "lat": 48.906552499,
+  "lon": 6.0501938155,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "MARS-LA-TOUR"
+  ],
+  "departement": "54",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:823849302",
+  "nom": "BRASSERIE DES PAPI'LLES",
+  "communes": [
+   "ANTHELUPT"
+  ],
+  "departement": "54",
+  "adresses": [
+   "45 RUE DE LA CHAPELLE 54110 ANTHELUPT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823849302",
+  "sirets": [
+   "82384930200018"
+  ],
+  "osm": [],
+  "lat": 48.6048021286172,
+  "lon": 6.40858211923949,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839952322",
+  "nom": "BRASSERIE DE CLEMERY",
+  "communes": [
+   "LESMENILS"
+  ],
+  "departement": "54",
+  "adresses": [
+   "ZONE INDUSTRIELLE LA LOUVIERE 289 B RUE DES HAUTS DE FEYE 54700 LESMENILS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "839952322",
+  "sirets": [
+   "83995232200023"
+  ],
+  "osm": [
+   "node/12081626755"
+  ],
+  "lat": 48.931289106,
+  "lon": 6.1089933394,
+  "site": "https://brasseriedeclemery.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851557686",
+  "nom": "BRASSERIE VINGT TROIS",
+  "communes": [
+   "SAINTE-GENEVIEVE"
+  ],
+  "departement": "54",
+  "adresses": [
+   "4 RUE DU CAPITAINE DELMAS 54700 SAINTE-GENEVIEVE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851557686",
+  "sirets": [
+   "85155768600017"
+  ],
+  "osm": [],
+  "lat": 48.870439345,
+  "lon": 6.1146672533,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13183323795",
+  "nom": "Barnei",
+  "communes": [
+   "Crévéchamps"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13183323795"
+  ],
+  "lat": 48.53423,
+  "lon": 6.25993,
+  "site": "https://www.brasseriebarnei.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/1432918673",
+  "nom": "La Fabrique",
+  "communes": [
+   "Pompey"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/1432918673"
+  ],
+  "lat": 48.76925,
+  "lon": 6.12881,
+  "site": "https://la-fabrique-pompey.business.site/",
+  "statut": "ambigu",
+  "fiche": "La Beer Fabrique"
+ },
+ {
+  "cle": "node/4762462372",
+  "nom": "La BrÂss' - La Fabrique des GrÔ",
+  "communes": [
+   "Maxéville"
+  ],
+  "departement": "54",
+  "adresses": [
+   "151 Rue des Brasseries"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4762462372"
+  ],
+  "lat": 48.70725,
+  "lon": 6.16461,
+  "site": "https://lafabriquedesgros.fr",
+  "statut": "ambigu",
+  "fiche": "La Beer Fabrique"
+ },
+ {
+  "cle": "node/5115954707",
+  "nom": "Brasserie Cheval",
+  "communes": [
+   "Toul"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5115954707"
+  ],
+  "lat": 48.68004,
+  "lon": 5.88687,
+  "site": "http://www.brasseriecheval.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5425376404",
+  "nom": "Brasserie Coincoin",
+  "communes": [
+   "Ménil-la-Tour"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5425376404"
+  ],
+  "lat": 48.76626,
+  "lon": 5.86452,
+  "site": "http://www.brasseriecoincoin.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7447307581",
+  "nom": "Microbrasserie du Chaudron",
+  "communes": [
+   "Chaudeney-sur-Moselle"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7447307581"
+  ],
+  "lat": 48.65173,
+  "lon": 5.9066,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7452541100",
+  "nom": "La Châouette",
+  "communes": [
+   "Saizerais"
+  ],
+  "departement": "54",
+  "adresses": [
+   "24 Rue des Vergers"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7452541100"
+  ],
+  "lat": 48.79272,
+  "lon": 6.057,
+  "site": "https://www.chaouette.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7485822506",
+  "nom": "La Lorraine Perdue",
+  "communes": [
+   "Vézelise"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7485822506"
+  ],
+  "lat": 48.48799,
+  "lon": 6.09168,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9280992163",
+  "nom": "Oka",
+  "communes": [
+   "Praye"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9280992163"
+  ],
+  "lat": 48.43194,
+  "lon": 6.10107,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/113948286",
+  "nom": "Hoppy Road",
+  "communes": [
+   "Malzéville"
+  ],
+  "departement": "54",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/113948286"
+  ],
+  "lat": 48.70956,
+  "lon": 6.17648,
+  "statut": "ambigu",
+  "fiche": "HOPPY ROAD"
+ }
+]

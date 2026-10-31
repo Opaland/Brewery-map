@@ -1,0 +1,516 @@
+[
+ {
+  "cle": "sirene:832091664",
+  "n": "Brasserie d'Austrasie",
+  "c": "Vandœuvre-lès-Nancy",
+  "adresse": "1 allée de Chantilly, 54500 Vandœuvre-lès-Nancy",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à la brasserie le jeudi, le vendredi et le samedi matin, ou sur rendez-vous, d'après son site. Ni bar ni dégustation sur place.",
+  "src": "https://www.brasserie-austrasie.fr/",
+  "extrait": "Les bières sont disponibles directement à la brasserie, 1 allée de Chantilly, 54500 Vandœuvre-lès-Nancy.",
+  "beers": [],
+  "choix": "Seul numéro publié : un portable, donné par la brasserie pour le rendez-vous. Le registre écrit 3 allée de Chantilly, la page 1 : page gardée.",
+  "contact": {
+   "tel": "06 61 77 97 80",
+   "site": "https://www.brasserie-austrasie.fr/",
+   "source": "https://www.brasserie-austrasie.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://www.brasserie-austrasie.fr/",
+    "verifieLe": "2026-10-31",
+    "remarque": "Ou sur rendez-vous."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:825182116",
+  "n": "La Châouette",
+  "c": "Saizerais",
+  "adresse": "24 rue des Vergers, 54380 Saizerais",
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie invite à lui rendre visite le vendredi de 14h à 19h et le samedi de 9h à 12h, sans dire si l'on y achète ou si l'on y boit.",
+  "src": "https://www.chaouette.fr/",
+  "extrait": "Venez nous rendre visite à la brasserie, les vendredis de 14h à 19h & les samedis de 9h à 12h00.",
+  "beers": [],
+  "choix": "Catégorie 0 : le site ne parle que de visite. Créneaux laissés dans la note : leur nature n'est pas dite. Seul numéro publié : un portable, sur la page de contact. Le point OSM node/7452541100 est le même lieu.",
+  "contact": {
+   "tel": "06 56 66 05 21",
+   "site": "https://www.chaouette.fr/",
+   "source": "https://www.chaouette.fr/contact"
+  }
+ },
+ {
+  "cle": "node/13183323795",
+  "n": "Brasserie Barnei",
+  "c": "Benney",
+  "adresse": "Ménil Saint-Martin, 54740 Benney",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie donne les horaires de sa boutique, à Benney. Il ne parle ni de bar ni de dégustation sur place. Pas de téléphone publié.",
+  "src": "https://www.brasseriebarnei.com/",
+  "extrait": "Disponible uniquement au magasin à Benney",
+  "beers": [],
+  "choix": "Commune du site (Benney) et non d'OSM (Crévéchamps). Types de bière sans lien par bière : non retenus.",
+  "contact": {
+   "site": "https://www.brasseriebarnei.com/",
+   "source": "https://www.brasseriebarnei.com/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasseriebarnei.com/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:813237252",
+  "n": "Brasserie Cheval",
+  "c": "Toul",
+  "adresse": "146 rue Pierre-Aimé Bouge, 54200 Toul",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie coopérative à L'Atelier, espace de création, à Toul : les mardis et vendredis soir, on consomme au bar ou on prend à emporter. Le bar est fermé en janvier et en août, pas la brasserie.",
+  "src": "https://www.brasseriecheval.fr/",
+  "extrait": "Tous les mardis & vendredis soir vous avez la possibilité de consommer au bar ou prendre à emporter.",
+  "beers": [],
+  "choix": "Une seule fiche pour sirene:813237252, sirene:847837184 et node/5115954707 : le siège du registre est à Chaudeney, le lieu publié à Toul. Seul numéro publié : un portable, sur la page de contact.",
+  "contact": {
+   "tel": "06 95 03 15 29",
+   "site": "https://www.brasseriecheval.fr/",
+   "source": "https://www.brasseriecheval.fr/contact/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mar": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://www.brasseriecheval.fr/nos-points-de-vente/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:833550130",
+  "n": "La Fabrique des GrÔ",
+  "c": "Maxéville",
+  "adresse": "151 rue des Brasseries, 54320 Maxéville",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site de la brasserie annonce un bar pour consommer sur place et un point de vente pour les achats à emporter, chacun avec ses horaires. Le vendredi, le bar ouvre à 16h ; l'heure de fin varie selon les pages.",
+  "src": "https://www.lafabriquedesgros.fr/reservation-contact/",
+  "extrait": "Pour consommer sur place et vos achats à emporter",
+  "beers": [],
+  "choix": "Vendredi soir laissé dans la note : le site écrit 1h et 1h30. Seul numéro publié : un portable. Le point OSM node/4762462372 est le même lieu.",
+  "contact": {
+   "tel": "06 20 27 95 83",
+   "site": "https://www.lafabriquedesgros.fr/",
+   "source": "https://www.lafabriquedesgros.fr/reservation-contact/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+    "verifieLe": "2026-10-31"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.lafabriquedesgros.fr/reservation-contact/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:880154166",
+  "n": "Brasserie Coincoin",
+  "c": "Ménil-la-Tour",
+  "adresse": "5 Rue Saint Laurent, 54200 Ménil-la-Tour",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce la production et la vente sur place depuis 2013. Ouverture sur rendez-vous, en semaine comme le week-end.",
+  "src": "http://www.brasseriecoincoin.fr/",
+  "extrait": "Production et vente sur place de bières artisanales depuis 2013",
+  "beers": [],
+  "choix": "Portable : la seule ligne de téléphone de la page de contact, l'autre numéro y est le fax. Horaires non repris : tous sont sur rendez-vous. Le point OSM node/5425376404 est le même lieu.",
+  "contact": {
+   "tel": "06 20 02 04 00",
+   "site": "http://www.brasseriecoincoin.fr/",
+   "source": "http://www.brasseriecoincoin.fr/contact.html"
+  }
+ },
+ {
+  "cle": "sirene:819747007",
+  "n": "The Piggy Brewing Company",
+  "c": "Liverdun",
+  "adresse": "40 avenue du Gard, 54460 Liverdun",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie invite à acheter les bières sur place, du lundi au vendredi. Il ne parle ni de bar ni de dégustation.",
+  "src": "https://www.thepiggybrewingcompany.com/contact",
+  "extrait": "Venez directement acheter vos bières sur place, à la brasserie :",
+  "beers": [],
+  "choix": "Seul numéro publié par la brasserie : un portable ; un autre, lu sur un forum, écarté. Lien Untappd absent de la page : non repris.",
+  "contact": {
+   "tel": "07 69 14 13 26",
+   "site": "https://www.thepiggybrewingcompany.com/",
+   "source": "https://www.thepiggybrewingcompany.com/contact"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://www.thepiggybrewingcompany.com/contact",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:839952322",
+  "n": "Brasserie de Clémery",
+  "c": "Lesménils",
+  "adresse": "289B rue des Hauts de Feye, 54700 Lesménils",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce la vente en direct à la brasserie le mercredi, le jeudi et le vendredi de 14h à 18h. Ni bar ni dégustation. Pas de téléphone publié.",
+  "src": "https://www.brasseriedeclemery.com/accueil",
+  "extrait": "achetez vos bières directement à la source !",
+  "beers": [],
+  "choix": "Pas de page Untappd lue.",
+  "contact": {
+   "site": "https://www.brasseriedeclemery.com",
+   "source": "https://www.brasseriedeclemery.com/accueil"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasseriedeclemery.com/accueil",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:823849302",
+  "n": "Brasserie des Papi'lles",
+  "c": "Anthelupt",
+  "adresse": "45 rue de la Chapelle, 54110 Anthelupt",
+  "cat": 0,
+  "conf": "",
+  "note": "La fiche de l'office de tourisme dit qu'on peut commander et venir à la brasserie, et que des visites avec dégustation se font sur réservation. Pas d'horaires publiés.",
+  "src": "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/gastronomie/et-pour-accompagner/742002421-brasserie-des-papilles",
+  "extrait": "It is also possible to place an order and come to the brewery!!",
+  "beers": [],
+  "choix": "Office seul. Portable de l'office non repris (règle du 31/10). Site annoncé injoignable le 31/10. Catégorie 0 : un retrait de commande n'est pas une vente au comptoir (même choix que Doloise)."
+ },
+ {
+  "cle": "sirene:820870665",
+  "n": "Hoppy Road",
+  "c": "Maxéville",
+  "adresse": "25 avenue de la Meurthe, 54320 Maxéville",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie annonce une boutique ouverte du lundi au vendredi. Il ne parle ni de bar ni de dégustation. Pas de téléphone publié.",
+  "src": "https://hoppyroad.com/",
+  "extrait": "Notre boutique est ouverte du lundi au vendredi de 10h à 16h30 !",
+  "beers": [],
+  "choix": "Le point OSM way/113948286 est le même lieu. Lien Untappd absent de la page : non repris.",
+  "contact": {
+   "site": "https://hoppyroad.com/",
+   "source": "https://hoppyroad.com/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "source": "https://hoppyroad.com/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:521584128",
+  "n": "La Lorraine Perdue",
+  "c": "Vézelise",
+  "adresse": "22 rue du Maréchal Foch, 54330 Vézelise",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "L'office de tourisme de Meurthe-et-Moselle dit que la brasserie privilégie la vente directe, au magasin de la brasserie. Pas d'horaires publiés.",
+  "src": "https://tourisme-meurtheetmoselle.fr/en/decouvrir-la-meurthe-et-moselle/lessentiel/gastronomie/boutique-et-degustation/759000146-brasserie-artisanale-la-paumee",
+  "extrait": "We favor direct sales; today, 80% of our production is sold locally at the brewery's store",
+  "beers": [],
+  "choix": "Office seul. Portable de l'office non repris. Le bar n'est cité que par des annuaires. Le point OSM node/7485822506 est le même lieu."
+ },
+ {
+  "cle": "sirene:892968611",
+  "n": "Okabeer",
+  "c": "Praye",
+  "adresse": "6 Rue des Nids, 54116 Praye",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site de la brasserie dit que ses bières sont en vente directe à la brasserie. Pas d'horaires publiés ; la consommation sur place n'est pas établie.",
+  "src": "https://www.okabeer.com/",
+  "extrait": "Nos bières artisanales sont disponibles en vente directe à la brasserie",
+  "beers": [],
+  "choix": "Portable de l'office seul, non repris. Le point OSM node/9280992163 est le même lieu.",
+  "contact": {
+   "site": "https://www.okabeer.com/",
+   "source": "https://www.okabeer.com/"
+  }
+ },
+ {
+  "cle": "sirene:830638581",
+  "n": "Brasserie Tumulte",
+  "c": "Magnières",
+  "adresse": "19 Grande Rue, 54129 Magnières",
+  "cat": 0,
+  "conf": "",
+  "note": "Le site de la brasserie dit qu'elle est ouverte le mercredi et le vendredi de 17h à 19h, et dès que la porte est ouverte, et que toutes ses ventes se font en circuit court. Il ne dit pas en toutes lettres qu'on y achète, ni qu'on y boit.",
+  "src": "https://brasserietumulte.fr/brasserie/",
+  "extrait": "Ouvert les mercredis et vendredis de 17 h à 19 h",
+  "beers": [],
+  "choix": "Catégorie 0 : la vente sur place n'est pas écrite (même cas que Les Coulous). Seule ligne publiée : un portable.",
+  "contact": {
+   "tel": "06 84 77 33 89",
+   "site": "https://brasserietumulte.fr/",
+   "source": "https://brasserietumulte.fr/contact/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://brasserietumulte.fr/brasserie/",
+    "verifieLe": "2026-10-31",
+    "remarque": "Et dès que la porte est ouverte."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:883574295",
+  "n": "Brasserie Grenaille",
+  "c": "Rosières-aux-Salines",
+  "adresse": "39 rue du Capitaine Malhorty, 54110 Rosières-aux-Salines",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie coopérative : boutique et bar ouverts tous les vendredis de 16h à 20h, d'après son site.",
+  "src": "https://grenaille.fr",
+  "extrait": "BOUTIQUE & BAR OUVERTS TOUS LES VENDREDIS DE 16H à 20H",
+  "beers": [],
+  "choix": "Seule ligne publiée : un portable, lu sur le blog de la brasserie.",
+  "contact": {
+   "tel": "06 49 92 89 83",
+   "source": "https://grenaille.blogspot.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://grenaille.fr",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:830783742",
+  "n": "Zythomaniacs La Doncourt",
+  "c": "Doncourt-lès-Longuyon",
+  "adresse": "17 Rue des Moissonneurs, 54620 Doncourt-lès-Longuyon",
+  "cat": 0,
+  "conf": "",
+  "note": "La fiche de l'agence de tourisme parle de visites sur réservation le dimanche, à partir de 5 personnes. Elle ne dit rien de la vente ni d'un bar.",
+  "src": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt",
+  "extrait": "La brasserie propose des visites, sur réservation, les dimanches à partir de 5 personnes.",
+  "beers": [],
+  "choix": "Fixe lu dans le bloc de la brasserie sur la fiche de tourisme (règle du 31/10). Site annoncé illisible le 31/10 : non repris.",
+  "contact": {
+   "tel": "09 61 34 39 01",
+   "source": "https://www.tourisme-meurtheetmoselle.fr/accueil/lessentiel/gastronomie/et-pour-accompagner/1286000322-micro-brasserie-zythomaniac-la-doncourt"
+  }
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "cle": "sirene:885332619",
+  "nom": "LA BRANCHE",
+  "communes": [
+   "CHARMONT-SOUS-BARBUISE"
+  ],
+  "departement": "10",
+  "adresses": [
+   "15 RUE DES ECOLES 10150 CHARMONT-SOUS-BARBUISE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "885332619",
+  "sirets": [
+   "88533261900018"
+  ],
+  "osm": [],
+  "lat": 48.409825226,
+  "lon": 4.1680661543,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VERRIERES"
+  ],
+  "departement": "10",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BRIENNE-LE-CHATEAU"
+  ],
+  "departement": "10",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:909392458",
+  "nom": "BRASSERIE JUMIE",
+  "communes": [
+   "BUCHERES"
+  ],
+  "departement": "10",
+  "adresses": [
+   "24 B ROUTE DE MAISONS-BLANCHES 10800 BUCHERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909392458",
+  "sirets": [
+   "90939245800016"
+  ],
+  "osm": [],
+  "lat": 48.232262537,
+  "lon": 4.1103176048,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833829930",
+  "nom": "LES COMTES MALTES",
+  "communes": [
+   "ROSIERES-PRES-TROYES"
+  ],
+  "departement": "10",
+  "adresses": [
+   "7 RUE DU DOCTEUR SCHWEITZER 10430 ROSIERES-PRES-TROYES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833829930",
+  "sirets": [
+   "83382993000027"
+  ],
+  "osm": [],
+  "lat": 48.267274773,
+  "lon": 4.0816536988,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849867445",
+  "nom": "BRASSERIE DE L'ARMANCE",
+  "communes": [
+   "ERVY-LE-CHATEL"
+  ],
+  "departement": "10",
+  "adresses": [
+   "42 AVENUE DE LA GARE 10130 ERVY-LE-CHATEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849867445",
+  "sirets": [
+   "84986744500017"
+  ],
+  "osm": [],
+  "lat": 48.045080984,
+  "lon": 3.9220223331,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823705686",
+  "nom": "BRASSERIE LA ROOF",
+  "communes": [
+   "FOUCHERES"
+  ],
+  "departement": "10",
+  "adresses": [
+   "8 LE PATY 10260 FOUCHERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823705686",
+  "sirets": [
+   "82370568600017"
+  ],
+  "osm": [],
+  "lat": 48.1501008681174,
+  "lon": 4.26865172205879,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:880170782",
+  "nom": "CLAIRVAUX EN CHAMPAGNE",
+  "communes": [
+   "BAR-SUR-AUBE"
+  ],
+  "departement": "10",
+  "adresses": [
+   "1ER ETAGE 34 RUE NATIONALE 10200 BAR-SUR-AUBE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880170782",
+  "sirets": [
+   "88017078200010"
+  ],
+  "osm": [],
+  "lat": 48.2319850871315,
+  "lon": 4.70880810836785,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:977755362",
+  "nom": "BRASSERIE DE LA LOGE",
+  "communes": [
+   "LA LOGE-POMBLIN"
+  ],
+  "departement": "10",
+  "adresses": [
+   "1 ROUTE DE SAINT PHAL 10210 LA LOGE-POMBLIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977755362",
+  "sirets": [
+   "97775536200018"
+  ],
+  "osm": [],
+  "lat": 48.0621858365174,
+  "lon": 4.04586918895579,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814122917",
+  "nom": "MICRO-BRASSERIE L'ONCE TROY",
+  "communes": [
+   "GERAUDOT"
+  ],
+  "departement": "10",
+  "adresses": [
+   "FERME DE L'HOPITAU 10220 GERAUDOT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814122917",
+  "sirets": [
+   "81412291700028"
+  ],
+  "osm": [],
+  "lat": 48.323899291,
+  "lon": 4.3267378172,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987544590",
+  "nom": "MALTERIE BRASSERIE DE LA VALLEE DE L'AUBE",
+  "communes": [
+   "NOGENT-SUR-AUBE"
+  ],
+  "departement": "10",
+  "adresses": [
+   "82 GRANDE RUE 10240 NOGENT-SUR-AUBE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987544590",
+  "sirets": [
+   "98754459000019"
+  ],
+  "osm": [],
+  "lat": 48.491478957,
+  "lon": 4.3143122487,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824727259",
+  "nom": "BRASSERIE THIBORD",
+  "communes": [
+   "AIX-VILLEMAUR-PALIS"
+  ],
+  "departement": "10",
+  "adresses": [
+   "27 RUE DE LA REPUBLIQUE 10160 AIX-VILLEMAUR-PALIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824727259",
+  "sirets": [
+   "82472725900015"
+  ],
+  "osm": [],
+  "lat": 48.286291613,
+  "lon": 3.7105747567,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851478016",
+  "nom": "LES ANGES DECHUS",
+  "communes": [
+   "VILLENAUXE-LA-GRANDE"
+  ],
+  "departement": "10",
+  "adresses": [
+   "21 PLACE GEORGES CLEMENCEAU 10370 VILLENAUXE-LA-GRANDE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "851478016",
+  "sirets": [
+   "85147801600013"
+  ],
+  "osm": [
+   "way/225205516"
+  ],
+  "lat": 48.589506334,
+  "lon": 3.5545957413,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/353018894",
+  "nom": "L'écluse n°8",
+  "communes": [
+   "Rilly-Sainte-Syre"
+  ],
+  "departement": "10",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/353018894"
+  ],
+  "lat": 48.44546,
+  "lon": 3.94356,
+  "statut": "nouveau"
+ }
+]

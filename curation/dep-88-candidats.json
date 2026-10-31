@@ -1,0 +1,1032 @@
+[
+ {
+  "cle": "sirene:914126644",
+  "nom": "BRASSERIE DU MORI",
+  "communes": [
+   "MORIVILLE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1 LA COTE 88330 MORIVILLE",
+   "10 GRANDE RUE 88330 MORIVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914126644",
+  "sirets": [
+   "91412664400014",
+   "91412664400022"
+  ],
+  "osm": [],
+  "lat": 48.338957877,
+  "lon": 6.4329017882,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VAGNEY",
+   "LE SYNDICAT"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:898167572",
+  "nom": "ATELIER DES FERMENTEURS",
+  "communes": [
+   "CLEURIE",
+   "LE SYNDICAT"
+  ],
+  "departement": "88",
+  "adresses": [
+   "7 B CHEMIN DU PRE VIXOT 88120 CLEURIE",
+   "PECCAVILLERS 24 RUE DE LA GARE 88120 LE SYNDICAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898167572",
+  "sirets": [
+   "89816757200020",
+   "89816757200038"
+  ],
+  "osm": [],
+  "lat": 48.056179379,
+  "lon": 6.6850250708,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE DU ROULIER",
+  "communes": [
+   "LE VAL-D'AJOL",
+   "PLOMBIERES-LES-BAINS"
+  ],
+  "departement": "88",
+  "adresses": [
+   "5 LE ROULIER 88340 LE VAL-D'AJOL",
+   "4 RUE GRILLOT 88370 PLOMBIERES-LES-BAINS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803101880",
+  "nom": "SAS DU PAS DE L ANE",
+  "communes": [
+   "REMIREMONT",
+   "SAINT-NABORD"
+  ],
+  "departement": "88",
+  "adresses": [
+   "LIEU DIT LES GENETS 583 CHEMIN DU PAS DE L'ANE 88200 REMIREMONT",
+   "23 CHEMIN DE RIBEAUGOUTTE 88200 SAINT-NABORD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "803101880",
+  "sirets": [
+   "80310188000026",
+   "80310188000034"
+  ],
+  "osm": [],
+  "lat": 48.004331313,
+  "lon": 6.5782327557,
+  "statut": "ambigu",
+  "fiche": "L'âne Brasseur"
+ },
+ {
+  "cle": "sirene:937952166",
+  "nom": "BREW YIN",
+  "communes": [
+   "GOLBEY",
+   "EPINAL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "14 RUE DU VALLON 88190 GOLBEY",
+   "24 RUE GENERAL DE REFFYE 88000 EPINAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "937952166",
+  "sirets": [
+   "93795216600018",
+   "93795216600026"
+  ],
+  "osm": [],
+  "lat": 48.1828992410239,
+  "lon": 6.42761787519937,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987431798",
+  "nom": "SMJ-BREWINGS",
+  "communes": [
+   "MARTINVELLE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "16 B CC PETITE RUE 88410 MARTINVELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987431798",
+  "sirets": [
+   "98743179800014"
+  ],
+  "osm": [],
+  "lat": 47.975025401,
+  "lon": 5.9983707665,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881927016",
+  "nom": "BRASSERIE LA BOURLINGUEUSE",
+  "communes": [
+   "BERTRIMOUTIER"
+  ],
+  "departement": "88",
+  "adresses": [
+   "30 LAYEGOUTTE 88520 BERTRIMOUTIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881927016",
+  "sirets": [
+   "88192701600025"
+  ],
+  "osm": [],
+  "lat": 48.255314274,
+  "lon": 7.0603253654,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100843408",
+  "nom": "BRASSERIE DU GIRMONT",
+  "communes": [
+   "GIRMONT-VAL-D'AJOL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "19 LE VILLAGE 88340 GIRMONT-VAL-D'AJOL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100843408",
+  "sirets": [
+   "10084340800012"
+  ],
+  "osm": [],
+  "lat": 47.9549482283241,
+  "lon": 6.55787237183561,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828018275",
+  "nom": "L'OPERCULE",
+  "communes": [
+   "SENONES"
+  ],
+  "departement": "88",
+  "adresses": [
+   "16 B AV DE SALM 88210 SENONES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "828018275",
+  "sirets": [
+   "82801827500036"
+  ],
+  "osm": [
+   "node/5953022875"
+  ],
+  "lat": 48.392236815,
+  "lon": 6.9752613919,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811357425",
+  "nom": "BRASSERIE DU PAYS DES LACS",
+  "communes": [
+   "CELLES-SUR-PLAINE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1 LIEU DIT LAJUS 88110 CELLES-SUR-PLAINE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "811357425",
+  "sirets": [
+   "81135742500016"
+  ],
+  "osm": [
+   "node/14161386749"
+  ],
+  "lat": 48.436033272,
+  "lon": 6.9234971098,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813755675",
+  "nom": "LA GOLAYE COOPERATIVE",
+  "communes": [
+   "XERTIGNY"
+  ],
+  "departement": "88",
+  "adresses": [
+   "FROMAGERIE DE LA CENSE 1110 RUE JULES BOUGEL 88220 XERTIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813755675",
+  "sirets": [
+   "81375567500028"
+  ],
+  "osm": [],
+  "lat": 48.0511114605277,
+  "lon": 6.41859620820715,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "LA BRESSE"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "LA MOUSSIERE",
+  "communes": [
+   "LA HOUSSIERE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "625 ROUTE DE L'EPAXE 88430 LA HOUSSIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "LA RAZETTE",
+  "communes": [
+   "XERTIGNY"
+  ],
+  "departement": "88",
+  "adresses": [
+   "385 RUE DE L'EGLISE RASEY 88220 XERTIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LA BOURGONCE"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "EPINAL"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:8",
+  "nom": "BRASSERIE L'ANONYMAT",
+  "communes": [
+   "LA GRANDE-FOSSE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1 LE CENTRE 88490 LA GRANDE-FOSSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": "MICRO BRASSERIE DU CHAJOUX",
+  "communes": [
+   "LA BRESSE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "59 ROUTE DU CHAJOUX 88250 LA BRESSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:431297019",
+  "nom": "BRASSERIE ARTISANALE DES VOSGES",
+  "communes": [
+   "SAINT-ETIENNE-LES-REMIREMONT"
+  ],
+  "departement": "88",
+  "adresses": [
+   "21 RUE DU VELODROME 88200 SAINT-ETIENNE-LES-REMIREMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "431297019",
+  "sirets": [
+   "43129701900025"
+  ],
+  "osm": [],
+  "lat": 48.013424901,
+  "lon": 6.6079655888,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820332070",
+  "nom": "BRASSERIE LA FOUILLOTTE",
+  "communes": [
+   "EPINAL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "8 RUE CHRISTOPHE DENIS 88000 EPINAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820332070",
+  "sirets": [
+   "82033207000029"
+  ],
+  "osm": [],
+  "lat": 48.1637048035313,
+  "lon": 6.45290955939582,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "LUVIGNY"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "CHARMOIS-DEVANT-BRUYERES"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:502174246",
+  "nom": "BURVAL",
+  "communes": [
+   "LE VAL-D'AJOL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "24 AVENUE DE MEREILLE 88340 LE VAL-D'AJOL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "502174246",
+  "sirets": [
+   "50217424600020"
+  ],
+  "osm": [],
+  "lat": 47.927896122,
+  "lon": 6.489891455,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949580955",
+  "nom": "LA BRASS'POTES",
+  "communes": [
+   "LAVELINE-DEVANT-BRUYERES"
+  ],
+  "departement": "88",
+  "adresses": [
+   "8 RUE DE LA VOLOGNE 88600 LAVELINE-DEVANT-BRUYERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949580955",
+  "sirets": [
+   "94958095500035"
+  ],
+  "osm": [],
+  "lat": 48.182745177142,
+  "lon": 6.75460007753168,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892137860",
+  "nom": "SAS PIKADILI",
+  "communes": [
+   "MANDRAY"
+  ],
+  "departement": "88",
+  "adresses": [
+   "235 ROUTE DE CHAUDFOUR 88650 MANDRAY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892137860",
+  "sirets": [
+   "89213786000011"
+  ],
+  "osm": [],
+  "lat": 48.214690913,
+  "lon": 7.0074914729,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "BAUDRICOURT"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:13",
+  "nom": "LA BRASSERIE DES BUISSONS",
+  "communes": [
+   "RUPT-SUR-MOSELLE"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1 RUE DES BUISSONS 88360 RUPT-SUR-MOSELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:14",
+  "nom": "BRASSERIE MARCELLOU",
+  "communes": [
+   "SAPOIS"
+  ],
+  "departement": "88",
+  "adresses": [
+   "12 ROUTE DU DROIT 88120 SAPOIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:131648339",
+  "nom": "ANOZEL",
+  "communes": [
+   "SAINT-DIE-DES-VOSGES"
+  ],
+  "departement": "88",
+  "adresses": [
+   "10 RUE DE LA PRAIRIE 88100 SAINT-DIE-DES-VOSGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "131648339",
+  "sirets": [
+   "13164833900011"
+  ],
+  "osm": [],
+  "lat": 48.28381799188995,
+  "lon": 6.950433991252138,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:15",
+  "nom": null,
+  "communes": [
+   "UZEMAIN"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:16",
+  "nom": null,
+  "communes": [
+   "LES VOIVRES"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914782388",
+  "nom": "BRASSERIE LA BONLOHI",
+  "communes": [
+   "GERARDMER"
+  ],
+  "departement": "88",
+  "adresses": [
+   "15 CHEMIN DU BEILLARD 88400 GERARDMER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914782388",
+  "sirets": [
+   "91478238800013"
+  ],
+  "osm": [],
+  "lat": 48.081154948,
+  "lon": 6.7791803519,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:485183560",
+  "nom": "BRASSERIE LA GEROMOISE",
+  "communes": [
+   "GERARDMER"
+  ],
+  "departement": "88",
+  "adresses": [
+   "2 AVENUE MORAND 88400 GERARDMER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "485183560",
+  "sirets": [
+   "48518356000013"
+  ],
+  "osm": [
+   "node/5282687454"
+  ],
+  "lat": 48.067683737,
+  "lon": 6.8682090406,
+  "site": "https://www.lageromoise.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:17",
+  "nom": null,
+  "communes": [
+   "SAINT-REMY"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:994058717",
+  "nom": "LA VAL HEUREUSE",
+  "communes": [
+   "LE VAL-D'AJOL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "24 AVENUE DE MEREILLE 88340 LE VAL-D'AJOL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "994058717",
+  "sirets": [
+   "99405871700012"
+  ],
+  "osm": [],
+  "lat": 47.927895403851,
+  "lon": 6.48989137421895,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:18",
+  "nom": "LA BRASSERIE DU GIRMONT",
+  "communes": [
+   "GIRMONT-VAL-D'AJOL"
+  ],
+  "departement": "88",
+  "adresses": [
+   "19 LE VILLAGE 88340 GIRMONT-VAL-D'AJOL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:19",
+  "nom": null,
+  "communes": [
+   "VENTRON"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:938291341",
+  "nom": "BRASSERIE DES RACINES - CAMPING LES COLLIEURES",
+  "communes": [
+   "ARRENTES-DE-CORCIEUX"
+  ],
+  "departement": "88",
+  "adresses": [
+   "2260 ROUTE DES COLLIEURES 88430 ARRENTES-DE-CORCIEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938291341",
+  "sirets": [
+   "93829134100015"
+  ],
+  "osm": [],
+  "lat": 48.14192003198461,
+  "lon": 6.893792981054577,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:20",
+  "nom": null,
+  "communes": [
+   "DOMPIERRE"
+  ],
+  "departement": "88",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/10703720341",
+  "nom": "La Brasserie des Buissons",
+  "communes": [
+   "Vecoux"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1 Rue des Buissons"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10703720341"
+  ],
+  "lat": 47.965,
+  "lon": 6.628,
+  "site": "https://labrasseriedesbuissons.wordpress.com/",
+  "statut": "ambigu",
+  "fiche": "LA BRASSERIE DES BUISSONS"
+ },
+ {
+  "cle": "node/11043945605",
+  "nom": "La pimbêche",
+  "communes": [
+   "Vagney"
+  ],
+  "departement": "88",
+  "adresses": [
+   "Rue de la Gare Nol"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11043945605"
+  ],
+  "lat": 48.00683,
+  "lon": 6.7051,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11047993690",
+  "nom": "La Fouillotte",
+  "communes": [
+   "Chantraine"
+  ],
+  "departement": "88",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11047993690"
+  ],
+  "lat": 48.16312,
+  "lon": 6.45281,
+  "site": "https://lafouillotte.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12309547371",
+  "nom": "La Brass'Potes",
+  "communes": [
+   "Bruyères"
+  ],
+  "departement": "88",
+  "adresses": [
+   "6 Place du Commandant Paul Flesch, 88600 Bruyères"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12309547371"
+  ],
+  "lat": 48.20744,
+  "lon": 6.72311,
+  "statut": "ambigu",
+  "fiche": "LA BRASS'POTES"
+ },
+ {
+  "cle": "node/12825759716",
+  "nom": "La Golaye",
+  "communes": [
+   "Xertigny"
+  ],
+  "departement": "88",
+  "adresses": [
+   "1110 Rue Jules Bougel"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12825759716"
+  ],
+  "lat": 48.05103,
+  "lon": 6.41793,
+  "site": "https://www.lagolaye.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13365499837",
+  "nom": "Brasserie La Bourlingueuse",
+  "communes": [
+   "Raves"
+  ],
+  "departement": "88",
+  "adresses": [
+   "30 Layegoutte"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13365499837"
+  ],
+  "lat": 48.25632,
+  "lon": 7.06248,
+  "site": "https://brasserielabourlingueuse.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LA BOURLINGUEUSE"
+ },
+ {
+  "cle": "node/13812002857",
+  "nom": "Le Van à Bières",
+  "communes": [
+   "Dinozé"
+  ],
+  "departement": "88",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13812002857"
+  ],
+  "lat": 48.14877,
+  "lon": 6.45188,
+  "site": "https://levanabieres.sumupstore.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5283396917",
+  "nom": "Brasserie du Pas de l'Âne",
+  "communes": [
+   "Remiremont"
+  ],
+  "departement": "88",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5283396917"
+  ],
+  "lat": 48.00289,
+  "lon": 6.57532,
+  "site": "https://www.facebook.com/brasserieartisanale.remiremont/",
+  "statut": "ambigu",
+  "fiche": "L'âne Brasseur"
+ },
+ {
+  "cle": "node/6618022288",
+  "nom": "Val Heureuse",
+  "communes": [
+   "Fougerolles"
+  ],
+  "departement": "88",
+  "adresses": [
+   "26 Avenue de Méreilles, 88340 Fougerolles"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6618022288"
+  ],
+  "lat": 47.9281,
+  "lon": 6.48977,
+  "site": "https://www.val-heureuse.com/?lang=fr",
+  "statut": "nouveau"
+ }
+]

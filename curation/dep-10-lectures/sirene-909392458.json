@@ -1,0 +1,59 @@
+{
+ "candidat": "sirene:909392458",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Jumie",
+   "c": "Buchères",
+   "d": "10",
+   "lat": 48.23238,
+   "lon": 4.11085,
+   "km": 288.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Existence établie par la fiche de l'office de tourisme Aube en Champagne (fondée en 2022, bières brassées sur place, accueil mercredi à samedi). La page ne dit pas explicitement la vente ni la consommation sur place : catégorie laissée à 0. Aucun site propre.",
+   "addr": "24 bis route de Maisons Blanches, 10800 Buchères",
+   "src": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+     "mer": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:30",
+       "12:30"
+      ]
+     ],
+     "remarque": "Horaires d'accueil publiés par l'office de tourisme pour 2026.",
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+   "https://data.geopf.fr/geocodage/search?q=24+bis+route+de+Maisons+Blanches%2C+10800+Buch%C3%A8res&limit=5"
+  ],
+  "extrait": "a craft brewery in the Aube department that was founded in 2022",
+  "choix": "Téléphone écarté : un portable lu seulement sur l'office et un article, pas publié par la brasserie. Catégorie 1 écartée : la vente et la consommation sur place ne sont lues que sur un article de presse seul. Horaires de l'office repris comme accueil, avec leur source."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "candidat": "node/13183323795",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Barnei",
+   "c": "Benney",
+   "d": "54",
+   "lat": 48.51482,
+   "lon": 6.22258,
+   "km": 334.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie donne les horaires de sa boutique, à Benney. Il ne parle ni de bar ni de dégustation sur place. Pas de téléphone publié.",
+   "addr": "Ménil Saint-Martin, 54740 Benney",
+   "src": "https://www.brasseriebarnei.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriebarnei.com/",
+    "source": "https://www.brasseriebarnei.com/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriebarnei.com/",
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasseriebarnei.com/",
+   "https://data.geopf.fr/geocodage/search?q=Benney&type=municipality&limit=5"
+  ],
+  "extrait": "Disponible uniquement au magasin à Benney",
+  "choix": "Commune du site (Benney) et non d'OSM (Crévéchamps). Types de bière sans lien par bière : non retenus."
+ }
+}

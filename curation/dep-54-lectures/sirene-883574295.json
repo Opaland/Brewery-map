@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:883574295",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Grenaille",
+   "c": "Rosières-aux-Salines",
+   "d": "54",
+   "lat": 48.59615,
+   "lon": 6.33526,
+   "km": 346.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie coopérative : boutique et bar ouverts tous les vendredis de 16h à 20h, d'après son site.",
+   "addr": "39 rue du Capitaine Malhorty, 54110 Rosières-aux-Salines",
+   "src": "https://grenaille.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 49 92 89 83",
+    "source": "https://grenaille.blogspot.com/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://grenaille.fr",
+     "ven": [
+      [
+       "16:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://grenaille.fr",
+   "https://grenaille.blogspot.com/",
+   "https://data.geopf.fr/geocodage/search?q=39+rue+du+Capitaine+Malhorty%2C+54110+Rosi%C3%A8res-aux-Salines&limit=5"
+  ],
+  "extrait": "BOUTIQUE & BAR OUVERTS TOUS LES VENDREDIS DE 16H à 20H",
+  "choix": "Seule ligne publiée : un portable, lu sur le blog de la brasserie."
+ }
+}

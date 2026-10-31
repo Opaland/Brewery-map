@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:940295348",
+ "ajout": {
+  "fiche": {
+   "n": "Micro-Brasserie Forge",
+   "c": "Givet",
+   "d": "08",
+   "lat": 50.14087,
+   "lon": 4.82578,
+   "km": 496.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie-bar : son site décrit une visite, la dégustation de ses bières brassées sur place et une carte d'autres boissons. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+   "addr": "Route de Philippeville, 08600 Givet",
+   "src": "https://www.microbrasserieforge.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.microbrasserieforge.fr",
+    "source": "https://www.microbrasserieforge.fr",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.valdardennetourisme.com/commerce-service/micro-brasserie-forge/",
+     "mer": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "11:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "11:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "La source dit « 23h le week-end » : lu comme samedi et dimanche. Fermé lundi et mardi.",
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.microbrasserieforge.fr",
+   "https://www.valdardennetourisme.com/commerce-service/micro-brasserie-forge/",
+   "https://data.geopf.fr/geocodage/search?q=Givet&type=municipality&limit=5"
+  ],
+  "extrait": "dégustez les bières créées sur place par le brasseur",
+  "choix": "Aucun téléphone repris : le numéro n'est pas lisible sur les pages rouvertes. Horaires et adresse de la fiche de Val d'Ardenne Tourisme ; ceux des annuaires, discordants, écartés. Pas de page Untappd trouvée."
+ }
+}

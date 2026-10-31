@@ -1,0 +1,33 @@
+{
+ "candidat": "node/7905575381",
+ "ajout": {
+  "fiche": {
+   "n": "Senses Brewing",
+   "c": "Reims",
+   "d": "51",
+   "lat": 49.25095,
+   "lon": 4.0556,
+   "km": 401.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie de Reims : le site officiel présente sa gamme et une boutique en ligne, il ne dit pas si l'on peut acheter ou boire à la brasserie même. Un bar-restaurant, Le Shed, occupe le même lieu (49 rue Gosset, lu sur Untappd) ; le site le décrit comme « un lieu distinct » de la brasserie, sans horaires. Aucun téléphone publié par la brasserie.",
+   "addr": "Reims",
+   "src": "https://www.sensesbrewing.com/nos-bieres/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.sensesbrewing.com",
+    "source": "https://www.sensesbrewing.com",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.sensesbrewing.com/nos-bieres/",
+   "https://www.sensesbrewing.com",
+   "https://data.geopf.fr/geocodage/search?q=Reims&type=municipality&limit=5"
+  ],
+  "extrait": "Berliner Classique, Longboard Dream, Ocean of Night, Saison du Bosquet, JAH, Concombre Libre... elles sont toutes ici !",
+  "choix": "Catégorie laissée à 0 : le site officiel ne montre ni vente à emporter ni dégustation sur place, seulement une boutique en ligne et un lien vers le bar Le Shed. Le portable lu sur des annuaires concerne Le Shed, pas la brasserie : écarté. Horaires d'annuaire écartés. Bières laissées vides : les noms lus ne sont pas des types. Le candidat sirene:833803919 « LE SHED », même adresse, n'en fait pas une seconde fiche. L'adresse est lue sur la page Untappd, pas sur le site. La page Untappd n'est pas citée par le site : lien non repris. Point au centre de la commune : l'adresse n'est pas sur le site."
+ }
+}

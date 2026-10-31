@@ -1,0 +1,187 @@
+[
+ {
+  "cle": "sirene:851478016",
+  "n": "Les Anges Déchus",
+  "c": "Villenauxe-la-Grande",
+  "adresse": null,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale bio décrite par l'office de tourisme de l'Aube en Champagne, qui dit aussi qu'elle reçoit le public dans un petit bar deux soirs par semaine. Les jours et heures, la vente à emporter, un site, un téléphone et une page Untappd ne sont pas publiés sur cette page : catégorie laissée à confirmer.",
+  "src": "https://www.aube-champagne.com/en/portfolio-post/the-7-craft-breweries-of-the-aube/",
+  "extrait": "The organic craft brewery Les Anges Déchus is directly inspired by the origins of beer, the Sumerians.",
+  "beers": [],
+  "choix": "Point au centre de la commune : le registre donne une adresse de siège, la page de l'office n'en porte pas. Existence établie par l'office de tourisme (page de la brasserie) et par l'annuaire des entreprises (SAS créée le 14/05/2019, fabrication de bière, un seul établissement) : l'annuaire seul ne suffirait pas. Catégorie 0 : le « petit bar » deux soirs par semaine montre qu'on peut y boire, mais rien ne dit si l'on peut acheter à emporter, donc ni 1 ni 4. Horaires non proposés : « deux soirs par semaine » sans les jours. Bières : une seule nommée par le texte (« Sumer »), sans type lu, donc beers vide. La page française de l'office et l'anglaise renvoient 404 ; aucun site officiel, aucune page Untappd, aucun Facebook trouvé en trois recherches."
+ },
+ {
+  "cle": "sirene:885332619",
+  "n": "La Branche",
+  "c": "Charmont-sous-Barbuise",
+  "adresse": "15 rue des écoles, 10150 Charmont-sous-Barbuise",
+  "cat": 0,
+  "conf": "",
+  "note": "Bière artisanale bio brassée sur place, lue sur le site officiel de la Maison Branche. La page ne dit ni la vente à emporter, ni la consommation sur place, ni les horaires. Le fixe est le numéro général de la société, publié sous « Contact & Adresse ».",
+  "src": "https://maisonbranche.fr/",
+  "extrait": "une bière artisanale Bio de dégustation brassée chez nous, à Charmont-sous-Barbuise, dans l’Aube",
+  "beers": [],
+  "choix": "Téléphone : 03 25 76 00 68 est le seul numéro publié, un fixe, sous « Contact & Adresse » du site officiel (retenu) ; l'office classe la Maison Branche comme traiteur. Catégorie 0 : aucune mention de vente ou d'accueil.",
+  "contact": {
+   "tel": "03 25 76 00 68",
+   "site": "https://maisonbranche.fr/",
+   "source": "https://maisonbranche.fr/"
+  }
+ },
+ {
+  "cle": "sirene:909392458",
+  "n": "Brasserie Jumie",
+  "c": "Buchères",
+  "adresse": "24 bis route de Maisons Blanches, 10800 Buchères",
+  "cat": 0,
+  "conf": "",
+  "note": "Existence établie par la fiche de l'office de tourisme Aube en Champagne (fondée en 2022, bières brassées sur place, accueil mercredi à samedi). La page ne dit pas explicitement la vente ni la consommation sur place : catégorie laissée à 0. Aucun site propre.",
+  "src": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+  "extrait": "a craft brewery in the Aube department that was founded in 2022",
+  "beers": [],
+  "choix": "Téléphone écarté : un portable lu seulement sur l'office et un article, pas publié par la brasserie. Catégorie 1 écartée : la vente et la consommation sur place ne sont lues que sur un article de presse seul. Horaires de l'office repris comme accueil, avec leur source.",
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:30",
+      "12:30"
+     ]
+    ],
+    "remarque": "Horaires d'accueil publiés par l'office de tourisme pour 2026.",
+    "source": "https://www.aube-champagne.com/en/poi/brasserie-jumie/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:823705686",
+  "n": "Brasserie La Roof",
+  "c": "Fouchères",
+  "adresse": "8 Le Paty, 10260 Fouchères",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie familiale citée par l'office de tourisme Aube en Champagne (bières de fermentation haute, non pasteurisées, non filtrées). La page de l'office ne donne ni la vente, ni l'accueil, ni horaires, ni téléphone.",
+  "src": "https://www.aube-champagne.com/en/?p=51925",
+  "extrait": "top-fermented, unpasteurised, unfiltered beers",
+  "beers": [],
+  "choix": "Le portable lu seulement sur un annuaire n'est pas repris. Horaires de l'annuaire écartés (versions contradictoires). Aucune page Untappd trouvée. Le site de la brasserie est le lien « DISCOVER THE BREWERY » de la page de l'office. Adresse du registre.",
+  "contact": {
+   "site": "http://commandelareservedupaty.over-blog.com/",
+   "source": "https://www.aube-champagne.com/en/?p=51925"
+  }
+ },
+ {
+  "cle": "sirene:814122917",
+  "n": "L'Once Troy",
+  "c": "Saint-Germain",
+  "adresse": "4 rue Paul Cézanne, 10120 Saint-Germain",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Le site de la brasserie présente un bar de dégustation (bières à la pression ou en bouteille) et une zone de vente à emporter à l'unité ou en pack.",
+  "src": "https://lonce-troy.fr/notre-etablissement",
+  "extrait": "un lieu convivial aménagé en bar de dégustation de nos bières à la pression ou à la bouteille",
+  "beers": [],
+  "choix": "Adresse et horaires lus sur la fiche de l'office Aube en Champagne (valables du 01/01 au 31/12/2026) ; le siège du registre, à Géraudot, n'est pas le bar. La page d'horaires du site répond 404. Pas d'Untappd trouvé.",
+  "contact": {
+   "tel": "03 25 78 05 18",
+   "site": "https://lonce-troy.fr/",
+   "source": "https://lonce-troy.fr/contact"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.aube-champagne.com/en/poi/l-once-troy/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "cle": "sirene:824727259",
+  "n": "Brasserie Thibord",
+  "c": "Aix-Villemaur-Pâlis",
+  "adresse": "27 rue de la République, 10190 Aix-Villemaur-Pâlis",
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le site de la brasserie annonce « La boutique & le bar », ouverts le jeudi et le vendredi de 17h à 20h : on y choisit ses bières et on retire sa commande. Le bar est nommé, la dégustation n'est pas détaillée : à confirmer.",
+  "src": "https://brasseriethibord.fr/venir/",
+  "extrait": "Pour choisir vos bières, retirer votre commande et rencontrer celles et ceux qui les brassent.",
+  "beers": [],
+  "choix": "Portable : celui de la page Contact du site, sa seule ligne ; celui de la seule fiche de l'office écarté. Horaires du site (17h-20h) ; l'office dit 17h-19h, le site fait foi. Pas de page Untappd de brasserie trouvée.",
+  "contact": {
+   "tel": "06 87 11 86 09",
+   "site": "https://brasseriethibord.fr",
+   "source": "https://brasseriethibord.fr/contact"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "source": "https://brasseriethibord.fr/venir/",
+    "verifieLe": "2026-10-31"
+   }
+  ]
+ }
+]

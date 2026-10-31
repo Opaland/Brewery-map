@@ -1,0 +1,219 @@
+[
+ [
+  {
+   "cle": "sirene:982105462",
+   "enseigne": "BRASSERIE LES COULOUS",
+   "dep": "08",
+   "communes": [
+    "MESSINCOURT"
+   ],
+   "adresses": [
+    "4 RUE DE LA PIERREUSE 08110 MESSINCOURT",
+    "MESSINCOURT 6 RUE DE LA PIERREUSE 08110 MESSINCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:499985166",
+   "enseigne": "BRASSERIE D'ARTHUR",
+   "dep": "08",
+   "communes": [
+    "WARCQ",
+    "CHARLEVILLE-MEZIERES"
+   ],
+   "adresses": [
+    "9 PROMENADE DES REMPARTS 08000 WARCQ",
+    "2 RUE JEAN-BAPTISTE LEFORT 08000 CHARLEVILLE-MEZIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:905151866",
+   "enseigne": "BRASSERIE ARTISANALE DE MONTHERME",
+   "dep": "08",
+   "communes": [
+    "MONTHERME"
+   ],
+   "adresses": [
+    "6 RUE DU DOCTEUR LEMAIRE 08800 MONTHERME"
+   ],
+   "osm": [
+    "node/13104039484"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:940295348",
+   "enseigne": "MICRO BRASSERIE FORGE",
+   "dep": "08",
+   "communes": [
+    "GIVET"
+   ],
+   "adresses": [
+    "ROUTE DE PHILIPPEVILLE 08600 GIVET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830321832",
+   "enseigne": "BIERE DE L'ABBAYE DE SIGNY",
+   "dep": "08",
+   "communes": [
+    "SIGNY-L'ABBAYE"
+   ],
+   "adresses": [
+    "44 RUE DE L'ABBAYE 08460 SIGNY-L'ABBAYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:894877844",
+   "enseigne": "BRASSERIE 90",
+   "dep": "08",
+   "communes": [
+    "VILLERS-SEMEUSE"
+   ],
+   "adresses": [
+    "5 RUE JULES LOBET 08000 VILLERS-SEMEUSE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:445037807",
+   "enseigne": "ARDWEN",
+   "dep": "08",
+   "communes": [
+    "LAUNOIS-SUR-VENCE"
+   ],
+   "adresses": [
+    "20 AVENUE ROGER PONSART 08430 LAUNOIS-SUR-VENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:951968742",
+   "enseigne": "BRASSERIE 3 BLAISE",
+   "dep": "08",
+   "communes": [
+    "BOGNY SUR MEUSE"
+   ],
+   "adresses": [
+    "ZONE D'ACTIVITE DE BRAUX AV DES MARGUERITES 08120 BOGNY SUR MEUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:905176343",
+   "enseigne": "BRASSERIE CHINCO",
+   "dep": "08",
+   "communes": [
+    "NEUFLIZE"
+   ],
+   "adresses": [
+    "3 RUE DES LAVANDIERES 08300 NEUFLIZE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911692556",
+   "enseigne": "L'ASSOCIATION DES BRASSEURS ARDENNAIS DE HAYBES",
+   "dep": "08",
+   "communes": [
+    "HAYBES"
+   ],
+   "adresses": [
+    "3 PLACE DE LA CHARITE 08170 HAYBES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/10237903301",
+   "enseigne": "Brasserie d'Yvois",
+   "dep": "08",
+   "communes": [
+    "Carignan"
+   ],
+   "adresses": [
+    "1 Bis rue du Faubourg\n08101 Carignan\nFrance"
+   ],
+   "osm": [
+    "node/10237903301"
+   ],
+   "site": "http://www.brasseriedyvois.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3716835480",
+   "enseigne": "La Petite Brasserie Ardennaise",
+   "dep": "08",
+   "communes": [
+    "Montcy-Notre-Dame"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3716835480"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4497355209",
+   "enseigne": "Brasserie Frédéric Gillet",
+   "dep": "08",
+   "communes": [
+    "Donchery"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4497355209"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5859650075",
+   "enseigne": "Micro-Brasserie du Clos Belle Rose",
+   "dep": "08",
+   "communes": [
+    "Haybes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5859650075"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/559069640",
+   "enseigne": "La Margoulette",
+   "dep": "08",
+   "communes": [
+    "Bergnicourt"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/559069640"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

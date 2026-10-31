@@ -1,0 +1,54 @@
+{
+ "candidat": "sirene:813237252",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cheval",
+   "c": "Toul",
+   "d": "54",
+   "lat": 48.68014,
+   "lon": 5.88771,
+   "km": 345,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie coopérative à L'Atelier, espace de création, à Toul : les mardis et vendredis soir, on consomme au bar ou on prend à emporter. Le bar est fermé en janvier et en août, pas la brasserie.",
+   "addr": "146 rue Pierre-Aimé Bouge, 54200 Toul",
+   "src": "https://www.brasseriecheval.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 95 03 15 29",
+    "site": "https://www.brasseriecheval.fr/",
+    "source": "https://www.brasseriecheval.fr/contact/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriecheval.fr/nos-points-de-vente/",
+     "mar": [
+      [
+       "17:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.brasseriecheval.fr/",
+   "https://www.brasseriecheval.fr/contact/",
+   "https://www.brasseriecheval.fr/nos-points-de-vente/",
+   "https://data.geopf.fr/geocodage/search?q=146+rue+Pierre-Aim%C3%A9+Bouge%2C+54200+Toul&limit=5"
+  ],
+  "extrait": "Tous les mardis & vendredis soir vous avez la possibilité de consommer au bar ou prendre à emporter.",
+  "choix": "Une seule fiche pour sirene:813237252, sirene:847837184 et node/5115954707 : le siège du registre est à Chaudeney, le lieu publié à Toul. Seul numéro publié : un portable, sur la page de contact."
+ }
+}

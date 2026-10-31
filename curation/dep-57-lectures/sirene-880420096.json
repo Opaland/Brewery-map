@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:880420096",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Galibot",
+   "c": "Forbach",
+   "d": "57",
+   "lat": 49.20624,
+   "lon": 6.90442,
+   "km": 424.6,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site du taproom de la brasserie donne ses heures d'ouverture ; le samedi, une semaine sur deux, des visites sur réservation et une ouverture au public de 17h à 23h. La vente à emporter n'est pas écrite (réponse de Cédric du 29/10 : catégorie 1, confiance faible).",
+   "addr": "5 Rue Jules Verne, 57600 Forbach",
+   "src": "https://galibot-taproom.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 47 29 59 66",
+    "site": "https://galibot-taproom.com",
+    "source": "https://galibot-taproom.com",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://galibot-taproom.com",
+     "jeu": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://galibot-taproom.com",
+   "https://data.geopf.fr/geocodage/search?q=5+Rue+Jules+Verne%2C+57600+Forbach&limit=5"
+  ],
+  "extrait": "Jeudi et Vendredi de 17h à 21h.",
+  "choix": "Seule ligne publiée : un portable, sur le site. Samedi laissé dans la note : une semaine sur deux. Le point OSM node/11543788229, à Stiring-Wendel, est le même nom : aucune source ne l'y place, une seule fiche."
+ }
+}

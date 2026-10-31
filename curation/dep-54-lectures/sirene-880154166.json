@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:880154166",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Coincoin",
+   "c": "Ménil-la-Tour",
+   "d": "54",
+   "lat": 48.76622,
+   "lon": 5.86458,
+   "km": 353.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce la production et la vente sur place depuis 2013. Ouverture sur rendez-vous, en semaine comme le week-end.",
+   "addr": "5 Rue Saint Laurent, 54200 Ménil-la-Tour",
+   "src": "http://www.brasseriecoincoin.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 20 02 04 00",
+    "site": "http://www.brasseriecoincoin.fr/",
+    "source": "http://www.brasseriecoincoin.fr/contact.html",
+    "verifieLe": "2026-10-31"
+   }
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "http://www.brasseriecoincoin.fr/",
+   "http://www.brasseriecoincoin.fr/contact.html",
+   "https://data.geopf.fr/geocodage/search?q=5+Rue+Saint+Laurent%2C+54200+M%C3%A9nil-la-Tour&limit=5"
+  ],
+  "extrait": "Production et vente sur place de bières artisanales depuis 2013",
+  "choix": "Portable : la seule ligne de téléphone de la page de contact, l'autre numéro y est le fax. Horaires non repris : tous sont sur rendez-vous. Le point OSM node/5425376404 est le même lieu."
+ }
+}

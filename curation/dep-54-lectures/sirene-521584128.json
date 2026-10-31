@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:521584128",
+ "ajout": {
+  "fiche": {
+   "n": "La Lorraine Perdue",
+   "c": "Vézelise",
+   "d": "54",
+   "lat": 48.488,
+   "lon": 6.09173,
+   "km": 328.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "L'office de tourisme de Meurthe-et-Moselle dit que la brasserie privilégie la vente directe, au magasin de la brasserie. Pas d'horaires publiés.",
+   "addr": "22 rue du Maréchal Foch, 54330 Vézelise",
+   "src": "https://tourisme-meurtheetmoselle.fr/en/decouvrir-la-meurthe-et-moselle/lessentiel/gastronomie/boutique-et-degustation/759000146-brasserie-artisanale-la-paumee",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://tourisme-meurtheetmoselle.fr/en/decouvrir-la-meurthe-et-moselle/lessentiel/gastronomie/boutique-et-degustation/759000146-brasserie-artisanale-la-paumee",
+   "https://data.geopf.fr/geocodage/search?q=22+rue+du+Mar%C3%A9chal+Foch%2C+54330+V%C3%A9zelise&limit=5"
+  ],
+  "extrait": "We favor direct sales; today, 80% of our production is sold locally at the brewery's store",
+  "choix": "Office seul. Portable de l'office non repris. Le bar n'est cité que par des annuaires. Le point OSM node/7485822506 est le même lieu."
+ }
+}

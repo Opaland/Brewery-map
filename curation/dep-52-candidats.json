@@ -1,0 +1,242 @@
+[
+ {
+  "cle": "sirene:882457500",
+  "nom": "MICROBRASSERIE LES ARANNES",
+  "communes": [
+   "VIGNORY",
+   "VOUECOURT"
+  ],
+  "departement": "52",
+  "adresses": [
+   "11 RUE DU PETIT MOULIN 52320 VIGNORY",
+   "3 RUE DES MOULINIERES 52320 VOUECOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882457500",
+  "sirets": [
+   "88245750000016",
+   "88245750000024"
+  ],
+  "osm": [],
+  "lat": 48.278572297,
+  "lon": 5.1118516741,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE TAB'Z",
+  "communes": [
+   "CHAUMONT"
+  ],
+  "departement": "52",
+  "adresses": [
+   "RUE DU 8 MAI 1945 52000 CHAUMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "LA BDB",
+  "communes": [
+   "ROCHES-BETTAINCOURT"
+  ],
+  "departement": "52",
+  "adresses": [
+   "49 RUE DE VERDUN 52270 ROCHES-BETTAINCOURT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921420923",
+  "nom": "BRASSERIE ARTISANALE DU DER",
+  "communes": [
+   "LA PORTE DU DER"
+  ],
+  "departement": "52",
+  "adresses": [
+   "MONTIER EN DER 7 AV D ALSACE 52220 LA PORTE DU DER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921420923",
+  "sirets": [
+   "92142092300010"
+  ],
+  "osm": [],
+  "lat": 48.476121524,
+  "lon": 4.7786107809,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:911004661",
+  "nom": "BRASSERIE DU BASSIGNY",
+  "communes": [
+   "PARNOY-EN-BASSIGNY"
+  ],
+  "departement": "52",
+  "adresses": [
+   "8 PETITE RUE DES SAULES 52400 PARNOY-EN-BASSIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911004661",
+  "sirets": [
+   "91100466100011"
+  ],
+  "osm": [],
+  "lat": 48.007862386,
+  "lon": 5.6467770186,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "MICROBRASSERIE DU VAL MOIRON",
+  "communes": [
+   "BIESLES"
+  ],
+  "departement": "52",
+  "adresses": [
+   "4 RUE FORT MAISON 52340 BIESLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:990497851",
+  "nom": "BRASSERIE DU VALLAGE",
+  "communes": [
+   "CUREL"
+  ],
+  "departement": "52",
+  "adresses": [
+   "3 ROUTE D'AUTIGNY 52300 CUREL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "990497851",
+  "sirets": [
+   "99049785100016"
+  ],
+  "osm": [],
+  "lat": 48.4890510003425,
+  "lon": 5.13897345871189,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:878138544",
+  "nom": "LES ARANNES",
+  "communes": [
+   "VIGNORY"
+  ],
+  "departement": "52",
+  "adresses": [
+   "11 RUE DU PETIT MOULIN 52320 VIGNORY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878138544",
+  "sirets": [
+   "87813854400019"
+  ],
+  "osm": [],
+  "lat": 48.278572297,
+  "lon": 5.1118516741,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:879207017",
+  "nom": "LINGONE",
+  "communes": [
+   "RIVIERE-LES-FOSSES"
+  ],
+  "departement": "52",
+  "adresses": [
+   "LD LAVAU 52190 RIVIERE-LES-FOSSES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879207017",
+  "sirets": [
+   "87920701700010"
+  ],
+  "osm": [],
+  "lat": 47.65401801,
+  "lon": 5.2382073326,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:429558380",
+  "nom": "LA BRASSERIE DE VAUCLAIR",
+  "communes": [
+   "GIEY-SUR-AUJON"
+  ],
+  "departement": "52",
+  "adresses": [
+   "LIEU DIT VAUCLAIR 52210 GIEY-SUR-AUJON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "429558380",
+  "sirets": [
+   "42955838000011"
+  ],
+  "osm": [],
+  "lat": 47.92080312,
+  "lon": 5.0532142081,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5281986902",
+  "nom": "Le Bien et le Malt",
+  "communes": [
+   "Saint-Dizier"
+  ],
+  "departement": "52",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5281986902"
+  ],
+  "lat": 48.6364,
+  "lon": 4.9504,
+  "statut": "nouveau"
+ }
+]

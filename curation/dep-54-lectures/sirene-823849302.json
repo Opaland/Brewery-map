@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:823849302",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Papi'lles",
+   "c": "Anthelupt",
+   "d": "54",
+   "lat": 48.60519,
+   "lon": 6.40819,
+   "km": 349,
+   "cat": 0,
+   "conf": "",
+   "note": "La fiche de l'office de tourisme dit qu'on peut commander et venir à la brasserie, et que des visites avec dégustation se font sur réservation. Pas d'horaires publiés.",
+   "addr": "45 rue de la Chapelle, 54110 Anthelupt",
+   "src": "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/gastronomie/et-pour-accompagner/742002421-brasserie-des-papilles",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/gastronomie/et-pour-accompagner/742002421-brasserie-des-papilles",
+   "https://data.geopf.fr/geocodage/search?q=45+rue+de+la+Chapelle%2C+54110+Anthelupt&limit=5"
+  ],
+  "extrait": "It is also possible to place an order and come to the brewery!!",
+  "choix": "Office seul. Portable de l'office non repris (règle du 31/10). Site annoncé injoignable le 31/10. Catégorie 0 : un retrait de commande n'est pas une vente au comptoir (même choix que Doloise)."
+ }
+}

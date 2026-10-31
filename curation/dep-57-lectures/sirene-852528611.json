@@ -1,0 +1,60 @@
+{
+ "candidat": "sirene:852528611",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Papyllon",
+   "c": "Sierck-les-Bains",
+   "d": "57",
+   "lat": 49.44481,
+   "lon": 6.36527,
+   "km": 436.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Le site de la brasserie propose le retrait à la boutique des bières commandées en ligne, avec ses horaires. La buvette du jeudi et du vendredi est au Parc Valette, ailleurs qu'à la brasserie. La page ne dit pas qu'on peut acheter sans commande : à confirmer.",
+   "addr": "13 rue de l'Europe, 57480 Sierck-les-Bains",
+   "src": "https://brasseriepapyllon.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 49 27 75 10",
+    "site": "https://brasseriepapyllon.com/",
+    "source": "https://brasseriepapyllon.com/clickcollect/",
+    "verifieLe": "2026-10-31"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriepapyllon.com/clickcollect/",
+     "mer": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "verifieLe": "2026-10-31",
+     "remarque": "Et le samedi de 9h à 12h."
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://brasseriepapyllon.com/",
+   "https://brasseriepapyllon.com/clickcollect/",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+de+l%27Europe%2C+57480+Sierck-les-Bains&limit=5"
+  ],
+  "extrait": "Achetez vos bières en ligne et venez les chercher à la boutique !",
+  "choix": "Catégorie 2 : aucune dégustation libre à la brasserie n'est citée. Confiance moyenne : la page ne dit pas qu'on peut acheter sans commande. Seul numéro publié : un portable, sur le site. Enseigne du registre différente du nom d'usage ; même adresse. Samedi laissé dans la remarque : la page écrit « 12h00 13 Rue… », que le contrôle ne relit pas comme une heure, et cette garde reste."
+ }
+}

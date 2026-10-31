@@ -1,0 +1,952 @@
+[
+ [
+  {
+   "cle": "sirene:598500643",
+   "enseigne": "STAMMTISCH METEOR",
+   "dep": "67",
+   "communes": [
+    "HOCHFELDEN",
+    "ILLKIRCH-GRAFFENSTADEN",
+    "SELESTAT",
+    "STRASBOURG",
+    "REICHSHOFFEN",
+    "SCHILTIGHEIM",
+    "HAGUENAU"
+   ],
+   "adresses": [
+    "6 RUE DU GENERAL LEBOCQ 67270 HOCHFELDEN",
+    "81 AVENUE DE STRASBOURG 67400 ILLKIRCH-GRAFFENSTADEN",
+    "20 ROUTE DE STRASBOURG 67600 SELESTAT",
+    "77 AVENUE DES VOSGES 67000 STRASBOURG",
+    "8 RUE DES VOSGES NEHWILLER 67110 REICHSHOFFEN",
+    "159 ROUTE DU GENERAL DE GAULLE 67300 SCHILTIGHEIM",
+    "1 B RUE DU GENERAL GOURAUD 67270 HOCHFELDEN",
+    "13 RUE DU GENERAL LEBOCQ 67270 HOCHFELDEN",
+    "4 PLACE D'ARMES 67500 HAGUENAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:414842062",
+   "enseigne": "HEINEKEN ENTREPRISE",
+   "dep": "67",
+   "communes": [
+    "SCHILTIGHEIM"
+   ],
+   "adresses": [
+    "12 RUE SAINT-CHARLES 67300 SCHILTIGHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:528365125",
+   "enseigne": "KRONENBOURG SUPPLY COMPANY",
+   "dep": "67",
+   "communes": [
+    "OBERNAI"
+   ],
+   "adresses": [
+    "BOULEVARD DE L'EUROPE 67210 OBERNAI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:947473286",
+   "enseigne": "BRASSERIE LA FONDATION",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG",
+    "GEISPOLSHEIM"
+   ],
+   "adresses": [
+    "2 RUE DIETTERLIN 67100 STRASBOURG",
+    "81 RUE DU RHIN NAPOLEON 67000 STRASBOURG",
+    "06 RUE DE L'ILL 67118 GEISPOLSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822846135",
+   "enseigne": "FRAMONT",
+   "dep": "67",
+   "communes": [
+    "GRANDFONTAINE"
+   ],
+   "adresses": [
+    "6 RUE DU HAUT FOURNEAU 67130 GRANDFONTAINE",
+    "1 ET 2 1 RUE DU HAUT FOURNEAU 67130 GRANDFONTAINE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:980787139",
+   "enseigne": "BRASSERIE PITSTOP",
+   "dep": "67",
+   "communes": [
+    "HAGUENAU",
+    "BETSCHDORF"
+   ],
+   "adresses": [
+    "4 RUE SAINT ARBOGAST 67500 HAGUENAU",
+    "32 GRAND'RUE 67660 BETSCHDORF"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:381077783",
+   "enseigne": "BRASSERIE LICORNE",
+   "dep": "67",
+   "communes": [
+    "SAVERNE",
+    "STEINBOURG"
+   ],
+   "adresses": [
+    "60 RUE DE DETTWILLER 67700 SAVERNE",
+    "RUE ROHAN 67790 STEINBOURG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839120722",
+   "enseigne": "MICRO-BRASSERIE GUTH",
+   "dep": "67",
+   "communes": [
+    "SAINT-MAURICE",
+    "SELESTAT"
+   ],
+   "adresses": [
+    "10 RUE PRINCIPALE 67220 SAINT-MAURICE",
+    "42 ROUTE DE BERGHEIM 67600 SELESTAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898369616",
+   "enseigne": "LA PETITE BRASSERIE",
+   "dep": "67",
+   "communes": [
+    "BENFELD"
+   ],
+   "adresses": [
+    "3 RUE D'OBERNAI 67230 BENFELD"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:912751138",
+   "enseigne": "MICROBRASSERIE DU SEPTENAIRE",
+   "dep": "67",
+   "communes": [
+    "NIEDERMODERN"
+   ],
+   "adresses": [
+    "HALL 1 10 RUE DE L'ARTISANAT 67350 NIEDERMODERN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:911405991",
+   "enseigne": "MOGWAI BEER COMPANY",
+   "dep": "67",
+   "communes": [
+    "MUNDOLSHEIM"
+   ],
+   "adresses": [
+    "3 RUE DU GENERAL RAPP 67450 MUNDOLSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902435429",
+   "enseigne": "BROBREW",
+   "dep": "67",
+   "communes": [
+    "RUSS"
+   ],
+   "adresses": [
+    "1 RUE DES CHAMPS 67130 RUSS"
+   ],
+   "osm": [
+    "node/13872061602"
+   ],
+   "site": "https://brobrew.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820503050",
+   "enseigne": "BOLDBREW",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "50 QUAI JACOUTOT 67000 STRASBOURG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901332098",
+   "enseigne": "SKILDEN",
+   "dep": "67",
+   "communes": [
+    "SCHILTIGHEIM"
+   ],
+   "adresses": [
+    "2 RUE JEAN JAURES 67300 SCHILTIGHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:788693596",
+   "enseigne": "BRASSERIE LA MERCIERE",
+   "dep": "67",
+   "communes": [
+    "COSSWILLER"
+   ],
+   "adresses": [
+    "17 RUE PRINCIPALE 67310 COSSWILLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:492100094",
+   "enseigne": "L'ABREUVOIR",
+   "dep": "67",
+   "communes": [
+    "BREITENBACH"
+   ],
+   "adresses": [
+    "21 RUE DU MONT SAINTE ODILE 67220 BREITENBACH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:492936661",
+   "enseigne": "BRASSERIE STORIG",
+   "dep": "67",
+   "communes": [
+    "SCHILTIGHEIM"
+   ],
+   "adresses": [
+    "85 ROUTE DE BISCHWILLER 67300 SCHILTIGHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922183728",
+   "enseigne": "CHOP'LA",
+   "dep": "67",
+   "communes": [
+    "VAL-DE-MODER"
+   ],
+   "adresses": [
+    "VAL DE MODER 10 RUE DES VOSGES 67350 VAL-DE-MODER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:927793083",
+   "enseigne": "MICRO BRASSERIE CRYM",
+   "dep": "67",
+   "communes": [
+    "LUTZELHOUSE"
+   ],
+   "adresses": [
+    "4 RUE PRINCIPALE 67130 LUTZELHOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:939273900",
+   "enseigne": "BRASSERIE DE SCHILICK",
+   "dep": "67",
+   "communes": [
+    "SCHILTIGHEIM"
+   ],
+   "adresses": [
+    "85 ROUTE DE BISCHWILLER 67300 SCHILTIGHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:838802684",
+   "enseigne": "LA BRASSERIE DES POULES",
+   "dep": "67",
+   "communes": [
+    "HANGENBIETEN"
+   ],
+   "adresses": [
+    "9 RUE DE LA GARE 67980 HANGENBIETEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:979769791",
+   "enseigne": "BRASSERIE L'OURS",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "11 RUE DE L'ARDECHE 67100 STRASBOURG"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:842623043",
+   "enseigne": "BRASSERIE BUCHER BERNARDSWILLER",
+   "dep": "67",
+   "communes": [
+    "BERNARDSWILLER"
+   ],
+   "adresses": [
+    "6 PLACE DE L'EGLISE 67210 BERNARDSWILLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851616383",
+   "enseigne": "BRASSERIE DU CHAT ROND",
+   "dep": "67",
+   "communes": [
+    "MATZENHEIM"
+   ],
+   "adresses": [
+    "9 RUE D ERSTEIN 67150 MATZENHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852678689",
+   "enseigne": "BRASSERIE BLUEME",
+   "dep": "67",
+   "communes": [
+    "ALTECKENDORF"
+   ],
+   "adresses": [
+    "3 RUE DES CATHERINETTES 67270 ALTECKENDORF"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:558503827",
+   "enseigne": "GRANDE BRASSERIE PATRIE SCHUTZENBERGER",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "17 RUE DU VIEUX MARCHE AUX GRAINS 67000 STRASBOURG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889080693",
+   "enseigne": "BRASSERIE LE REFUGE",
+   "dep": "67",
+   "communes": [
+    "HAGUENAU"
+   ],
+   "adresses": [
+    "1 RUE MAURICE KOECHLIN 67500 HAGUENAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881048128",
+   "enseigne": "GUILHEON",
+   "dep": "67",
+   "communes": [
+    "BLIENSCHWILLER"
+   ],
+   "adresses": [
+    "7 RUE DE L'UNGERSBERG 67650 BLIENSCHWILLER"
+   ],
+   "osm": [
+    "node/9149988606"
+   ],
+   "site": "https://brasserieguilheon.wixsite.com/website",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910012418",
+   "enseigne": "BAM",
+   "dep": "67",
+   "communes": [
+    "HAGUENAU"
+   ],
+   "adresses": [
+    "4 PLACE DE LA BASILIQUE MARIENTHAL 67500 HAGUENAU"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:813137551",
+   "enseigne": "BRASSERIE LA NARCOSE",
+   "dep": "67",
+   "communes": [
+    "SCHARRACHBERGHEIM-IRMSTETT"
+   ],
+   "adresses": [
+    "88 RUE PRINCIPALE 67310 SCHARRACHBERGHEIM-IRMSTETT"
+   ],
+   "osm": [
+    "node/2570243608"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:899753073",
+   "enseigne": "BRASSERIE ELLIPSYS",
+   "dep": "67",
+   "communes": [
+    "INNENHEIM"
+   ],
+   "adresses": [
+    "(A) 2 RUE 2A RUE DU STADE 67880 INNENHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:498226331",
+   "enseigne": "BRASSERIE LOBSANN",
+   "dep": "67",
+   "communes": [
+    "LOBSANN"
+   ],
+   "adresses": [
+    "4 B RUE PRINCIPALE 67250 LOBSANN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:994374155",
+   "enseigne": "GOLWOS",
+   "dep": "67",
+   "communes": [
+    "HERRLISHEIM"
+   ],
+   "adresses": [
+    "27 RUE DU SABLE 67850 HERRLISHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901427914",
+   "enseigne": "BRASSERIE LA HOUBLONNIERE",
+   "dep": "67",
+   "communes": [
+    "WINGERSHEIM LES QUATRE BANS"
+   ],
+   "adresses": [
+    "1 RUE DES JARDINS 67170 WINGERSHEIM LES QUATRE BANS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "L'ALTENBIERE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "67",
+   "communes": [
+    "DORLISHEIM"
+   ],
+   "adresses": [
+    "21 RUE DE L'ALTENBERG 67120 DORLISHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:422473710",
+   "enseigne": "BRASSERIE D'UBERACH",
+   "dep": "67",
+   "communes": [
+    "VAL-DE-MODER"
+   ],
+   "adresses": [
+    "5 RUE DU CERF 67350 VAL-DE-MODER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:885367888",
+   "enseigne": "BENDORF",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "114 RUE JEAN JAURES 67100 STRASBOURG"
+   ],
+   "osm": [
+    "node/4382759721"
+   ],
+   "site": "https://www.brasserie-bendorf.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:797477213",
+   "enseigne": "LES BRASSEURS DU BRUCH",
+   "dep": "67",
+   "communes": [
+    "WISSEMBOURG"
+   ],
+   "adresses": [
+    "WEILER 43 A RUE DE LA VALLEE 67160 WISSEMBOURG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:903739860",
+   "enseigne": "BRASSERIE CHAUVE QUI BRASSE",
+   "dep": "67",
+   "communes": [
+    "CLEEBOURG"
+   ],
+   "adresses": [
+    "42 RUE PRINCIPALE 67160 CLEEBOURG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:800598898",
+   "enseigne": "BRASSERIE BLESSING",
+   "dep": "67",
+   "communes": [
+    "WALDHAMBACH"
+   ],
+   "adresses": [
+    "6 A RUE DE LA PROMENADE 67430 WALDHAMBACH"
+   ],
+   "osm": [
+    "node/4547619503"
+   ],
+   "site": "http://brasserieblessing.blogspot.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:903793446",
+   "enseigne": "BRASSERIE LES SEMBLABLES",
+   "dep": "67",
+   "communes": [
+    "MIETESHEIM"
+   ],
+   "adresses": [
+    "3 RUE DE L'ETANG 67580 MIETESHEIM"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:880298419",
+   "enseigne": "BRASSERIE LE CENTIEME SINGE",
+   "dep": "67",
+   "communes": [
+    "ALTWILLER"
+   ],
+   "adresses": [
+    "16 A RUE PRINCIPALE 67260 ALTWILLER"
+   ],
+   "osm": [
+    "node/11096764625"
+   ],
+   "site": "https://brasserie-centieme-singe.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:880582804",
+   "enseigne": "BIERE DES INTENABLES",
+   "dep": "67",
+   "communes": [
+    "ROSHEIM"
+   ],
+   "adresses": [
+    "8 RUE JEAN MARIE LEHN 67560 ROSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:419261169",
+   "enseigne": "CRITERION",
+   "dep": "67",
+   "communes": [
+    "SAALES"
+   ],
+   "adresses": [
+    "8 RUE DE L'EGLISE 67420 SAALES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:330894106",
+   "enseigne": "RESTAURANT LAUTH ET FILS",
+   "dep": "67",
+   "communes": [
+    "SCHARRACHBERGHEIM-IRMSTETT"
+   ],
+   "adresses": [
+    "63 RUE PRINCIPALE 67310 SCHARRACHBERGHEIM-IRMSTETT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:814444279",
+   "enseigne": "LES BRASSEURS DU RIED",
+   "dep": "67",
+   "communes": [
+    "MUTTERSHOLTZ"
+   ],
+   "adresses": [
+    "32 RUE EHNWIHR 67600 MUTTERSHOLTZ"
+   ],
+   "osm": [
+    "node/5386621145"
+   ],
+   "site": "https://brasseurs-du-ried.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:334926086",
+   "enseigne": "BRASSERIE DE SAINT-PIERRE",
+   "dep": "67",
+   "communes": [
+    "SAINT-PIERRE"
+   ],
+   "adresses": [
+    "30 RUE PRINCIPALE 67140 SAINT-PIERRE"
+   ],
+   "osm": [
+    "node/14057989128"
+   ],
+   "site": "https://www.lasaintpierre.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:15",
+   "enseigne": "BRASSERIE LA PASTEL (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "67",
+   "communes": [
+    "DOSSENHEIM-SUR-ZINSEL"
+   ],
+   "adresses": [
+    "11 RUE DU PRINTEMPS 67330 DOSSENHEIM-SUR-ZINSEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:942875105",
+   "enseigne": "BRASSERIE ARTISANALE ALSACIENNE DE LA ZORN",
+   "dep": "67",
+   "communes": [
+    "MOMMENHEIM"
+   ],
+   "adresses": [
+    "6 RUE DES PRES 67670 MOMMENHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829236587",
+   "enseigne": "ASSOCIATION DES BRASSEURS ET BIEROLOGUES AMATEURS DE KINTZHEIM ET ENVIRONS",
+   "dep": "67",
+   "communes": [
+    "KINTZHEIM"
+   ],
+   "adresses": [
+    "3 RUE DU CHEMIN VIEUX 67600 KINTZHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:818823239",
+   "enseigne": "BRASSERIE 3 MATS",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "PARC D'ACTIVITE ARTISANALE 8 RUE JEAN-HENRI LAMBERT 67100 STRASBOURG"
+   ],
+   "osm": [
+    "node/13644756121"
+   ],
+   "site": "https://www.brasserie3mats.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977628007",
+   "enseigne": "BRASSERIE ROHMER",
+   "dep": "67",
+   "communes": [
+    "FEGERSHEIM"
+   ],
+   "adresses": [
+    "59 RUE DE LYON 67640 FEGERSHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:515060317",
+   "enseigne": "MATTEN",
+   "dep": "67",
+   "communes": [
+    "MATZENHEIM"
+   ],
+   "adresses": [
+    "5 RUE DE WERDE 67150 MATZENHEIM"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:513083147",
+   "enseigne": "BRASSERIE LA PERLE",
+   "dep": "67",
+   "communes": [
+    "STRASBOURG"
+   ],
+   "adresses": [
+    "10 PLACE DE L'ABATTOIR 67200 STRASBOURG"
+   ],
+   "osm": [
+    "way/1103210412"
+   ],
+   "site": "https://www.biere-perle.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852923408",
+   "enseigne": "MAISON GAUFILLET",
+   "dep": "67",
+   "communes": [
+    "PLOBSHEIM"
+   ],
+   "adresses": [
+    "7 RUE DE LA MESANGE 67115 PLOBSHEIM"
+   ],
+   "osm": [
+    "node/9963847419"
+   ],
+   "site": "https://brassindesfrangins.fr",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12222676725",
+   "enseigne": "Uberach",
+   "dep": "67",
+   "communes": [
+    "Niedermodern"
+   ],
+   "adresses": [
+    "5 rue du cerf"
+   ],
+   "osm": [
+    "node/12222676725"
+   ],
+   "site": "https://www.brasserie-uberach.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12734070223",
+   "enseigne": "Micro Brasserie",
+   "dep": "67",
+   "communes": [
+    "Strasbourg"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12734070223"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13874565227",
+   "enseigne": "Brasserie du Coin",
+   "dep": "67",
+   "communes": [
+    "Saverne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13874565227"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/3195474124",
+   "enseigne": "Matten",
+   "dep": "67",
+   "communes": [
+    "Sand"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3195474124"
+   ],
+   "site": "http://www.matten.fr",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/3419542697",
+   "enseigne": "Météor",
+   "dep": "67",
+   "communes": [
+    "Hochfelden"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/3419542697"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/3771834276",
+   "enseigne": "Overground Brewing",
+   "dep": "67",
+   "communes": [
+    "Strasbourg"
+   ],
+   "adresses": [
+    "8 Rue de la Tour, 67200 Strasbourg"
+   ],
+   "osm": [
+    "node/3771834276"
+   ],
+   "site": "https://www.instagram.com/overgroundbrewing/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4546174323",
+   "enseigne": "Bières artisanales Artzner",
+   "dep": "67",
+   "communes": [
+    "Ostwald"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4546174323"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/179126442",
+   "enseigne": "Chez Georges",
+   "dep": "67",
+   "communes": [
+    "Soultz-sous-Forêts"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/179126442"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/48806975",
+   "enseigne": "Bio Brasseurs",
+   "dep": "67",
+   "communes": [
+    "Strasbourg"
+   ],
+   "adresses": [
+    "13 Rue de Boulogne, 67100 Strasbourg"
+   ],
+   "osm": [
+    "way/48806975"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/797236212",
+   "enseigne": "Brasserie des Châteaux",
+   "dep": "67",
+   "communes": [
+    "Monswiller"
+   ],
+   "adresses": [
+    "18 Rue des Rustauds, 67700 Monswiller"
+   ],
+   "osm": [
+    "way/797236212"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:848387726",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tête de Chou",
+   "c": "Épernay",
+   "d": "51",
+   "lat": 49.0407,
+   "lon": 3.95021,
+   "km": 379.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Fiche de l'office de tourisme d'Épernay : une boutique, et une taproom (bar de la brasserie) pour déguster sur place l'ensemble de ses bières. Le site de la brasserie n'a pas été lu.",
+   "addr": "1 avenue du Maréchal Foch, 51200 Épernay",
+   "src": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "verifieLe": "2026-10-31"
+    }
+   ]
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.epernay-tourisme.com/commerce/brasserie-de-la-tete-de-chou/",
+   "https://data.geopf.fr/geocodage/search?q=1+avenue+du+Mar%C3%A9chal+Foch%2C+51200+%C3%89pernay&limit=5"
+  ],
+  "extrait": "Une taproom (bar de la brasserie) permet de déguster sur place l'ensemble de nos bières.",
+  "choix": "Office seul : confiance moyenne (décision #37). Portable de la seule fiche de l'office non repris (règle du 31/10). Horaires de la boutique lus sur cette fiche ; un annuaire la dit fermée sans date, la fiche de l'office fait foi. Rouverte à la relecture : l'agent n'avait eu que son titre."
+ }
+}

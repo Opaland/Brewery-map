@@ -720,6 +720,14 @@ describe('les contacts d’une fiche nouvelle (S261)', () => {
 })
 
 describe('les horaires d’une fiche nouvelle se relisent sur leur page (S262)', () => {
+  it('une heure suivie d’une autre heure, en tableau : « 14:00 19:00 » (S346, L’Once Troy)', () => {
+    expect(horairesSurLaPage({ mar: [['14:00', '19:00']] }, 'Mardi 14:00 19:00')).toEqual([])
+    // Des minutes, elles, restent refusées.
+    expect(horairesSurLaPage({ mar: [['14:00', '19:00']] }, 'Mardi 14h 30 19:00')).toEqual(['mar 14:00'])
+    // Des secondes (schema.org) : 14:30:00 n'est pas 14:00 (revue adverse S346).
+    expect(horairesSurLaPage({ mar: [['14:00', '19:00']] }, 'Mardi 14:30:00 19:00:00')).toEqual(['mar 14:00'])
+  })
+
   const bloc = (jours: Record<string, unknown>) => ({ nature: 'vente' as const, ...jours, source: 'https://exemple.fr/', verifieLe: '2026-10-17' })
 
   it('CA2 : chaque heure de chaque créneau est cherchée, sous ses écritures courantes', () => {

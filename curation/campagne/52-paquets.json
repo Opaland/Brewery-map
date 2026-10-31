@@ -1,0 +1,155 @@
+[
+ [
+  {
+   "cle": "sirene:882457500",
+   "enseigne": "MICROBRASSERIE LES ARANNES",
+   "dep": "52",
+   "communes": [
+    "VIGNORY",
+    "VOUECOURT"
+   ],
+   "adresses": [
+    "11 RUE DU PETIT MOULIN 52320 VIGNORY",
+    "3 RUE DES MOULINIERES 52320 VOUECOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE TAB'Z (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "52",
+   "communes": [
+    "CHAUMONT"
+   ],
+   "adresses": [
+    "RUE DU 8 MAI 1945 52000 CHAUMONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "LA BDB (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "52",
+   "communes": [
+    "ROCHES-BETTAINCOURT"
+   ],
+   "adresses": [
+    "49 RUE DE VERDUN 52270 ROCHES-BETTAINCOURT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921420923",
+   "enseigne": "BRASSERIE ARTISANALE DU DER",
+   "dep": "52",
+   "communes": [
+    "LA PORTE DU DER"
+   ],
+   "adresses": [
+    "MONTIER EN DER 7 AV D ALSACE 52220 LA PORTE DU DER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911004661",
+   "enseigne": "BRASSERIE DU BASSIGNY",
+   "dep": "52",
+   "communes": [
+    "PARNOY-EN-BASSIGNY"
+   ],
+   "adresses": [
+    "8 PETITE RUE DES SAULES 52400 PARNOY-EN-BASSIGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:3",
+   "enseigne": "MICROBRASSERIE DU VAL MOIRON (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "52",
+   "communes": [
+    "BIESLES"
+   ],
+   "adresses": [
+    "4 RUE FORT MAISON 52340 BIESLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:990497851",
+   "enseigne": "BRASSERIE DU VALLAGE",
+   "dep": "52",
+   "communes": [
+    "CUREL"
+   ],
+   "adresses": [
+    "3 ROUTE D'AUTIGNY 52300 CUREL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:878138544",
+   "enseigne": "LES ARANNES",
+   "dep": "52",
+   "communes": [
+    "VIGNORY"
+   ],
+   "adresses": [
+    "11 RUE DU PETIT MOULIN 52320 VIGNORY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:879207017",
+   "enseigne": "LINGONE",
+   "dep": "52",
+   "communes": [
+    "RIVIERE-LES-FOSSES"
+   ],
+   "adresses": [
+    "LD LAVAU 52190 RIVIERE-LES-FOSSES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:429558380",
+   "enseigne": "LA BRASSERIE DE VAUCLAIR",
+   "dep": "52",
+   "communes": [
+    "GIEY-SUR-AUJON"
+   ],
+   "adresses": [
+    "LIEU DIT VAUCLAIR 52210 GIEY-SUR-AUJON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/5281986902",
+   "enseigne": "Le Bien et le Malt",
+   "dep": "52",
+   "communes": [
+    "Saint-Dizier"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5281986902"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

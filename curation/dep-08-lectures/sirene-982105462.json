@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:982105462",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Coulous",
+   "c": "Messincourt",
+   "d": "08",
+   "lat": 49.67878,
+   "lon": 5.15726,
+   "km": 446.3,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe : une fiche de l'agence de développement touristique des Ardennes la décrit et dit qu'elle « ouvre ses portes les weekends », sans citer ni vente, ni boutique, ni dégustation. Rien n'établit donc ce qu'on peut y faire.",
+   "addr": "4 rue de la Pierreuse, 08110 Messincourt",
+   "src": "https://www.ardennes.com/producteur/brasserie-les-coulous/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-10-31",
+  "sources": [
+   "https://www.ardennes.com/producteur/brasserie-les-coulous/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+de+la+Pierreuse%2C+08110+Messincourt&limit=5"
+  ],
+  "extrait": "vous ouvre ses portes les weekends !",
+  "choix": "Pas de téléphone : la page n'en publie aucun. Pas de site : le lien de la page (labelmousse.fr) répond en erreur. Pas d'horaires : créneaux de semaine incompatibles avec « les weekends ». Pas de page Untappd trouvée. Types de bière de la page laissés de côté, sans lien Untappd."
+ }
+}
