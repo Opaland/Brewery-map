@@ -7,15 +7,10 @@ workflows qui publient le site.
 
 ## Comment la signaler
 
-**Le signalement privé de GitHub n'est pas encore ouvert sur ce dépôt**
-(lu le 27/10/2026 ; son ouverture est une décision du mainteneur,
-`docs/stories/S364.md`). En attendant :
-
-1. Ouvrez une issue **sans détail exploitable** : un titre comme « Faille :
-   demande de contact », et le domaine touché (vie privée, lien, workflow),
-   rien de plus.
-2. Le mainteneur, Cédric (@Opaland), lit les issues et proposera un moyen
-   d'échanger en privé. Aucun délai de réponse n'est promis.
+Par le **signalement privé de GitHub** (ouvert le 31/10/2026) : onglet
+« Security » du dépôt, puis « Report a vulnerability ». Seul le mainteneur,
+Cédric (@Opaland), lit ce que vous y écrivez. Aucun délai de réponse n'est
+promis.
 
 Ne publiez ni preuve de concept, ni étapes pour reproduire, ni adresse de
 page piégée dans une issue ou une PR.

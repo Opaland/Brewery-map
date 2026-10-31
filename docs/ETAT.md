@@ -9,7 +9,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 ## Ce qui est fait
 
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
-  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S370).
+  hors connexion, anglais, accessibilité mesurée, carnet (S1 → S371).
 - 643 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
   Bretagne, Pays de la Loire, Centre-Val de Loire, Provence-Alpes-Côte d'Azur,
   Corse, Hauts-de-France et Île-de-France), et 716 points OpenStreetMap « À confirmer ».
@@ -48,8 +48,7 @@ autre commune).
 
 1. **Les décisions en issues** (revue globale du 22/10) : la protection de
    `main` (#209), sept fiches d'origine « solide » sur un office de tourisme
-   (#214), la première campagne d'essais des agents (#216), Popihn et
-   Lavigney (#217). Tous les lots de propositions sont appliqués (le 20, le
+   (#214), la première campagne d'essais des agents (#216). Tous les lots de propositions sont appliqués (le 20, le
    21 et le 22/10) ; seules restent, exprès, les notes périmées de s311 et
    s314 sur des fiches fermées ou déménagées.
 2. `curation/A-MONTRER.md` : onze groupes, une réponse par groupe (le

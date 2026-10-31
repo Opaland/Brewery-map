@@ -10,7 +10,9 @@ import { validerBrasseries } from './schema'
  * échouer la CI. Elle vit là où le fichier entre dans `main` (§6quater).
  *
  * Elle prouve que chaque ligne vient d'un accord enregistré ; que l'accord
- * vienne de Cédric, c'est CODEOWNERS et la revue de la PR qui le garantissent.
+ * vienne de Cédric, rien ne le garantit mécaniquement : CODEOWNERS demande sa
+ * revue sans l'imposer (sa décision du 31/10, #209), et une PR exécute sa propre
+ * version de cette garde.
  */
 export const accordSchema = z
   .object({

@@ -9,15 +9,21 @@ name: Sonde des services (nuit)
 # (« désactiver les workflows de nuit »). La sonde se lance à la main :
 # Actions → « Sonde des services (nuit) » → Run workflow, ou
 # `gh workflow run sonde-nuit.yml`.
+#
+# 31/10 (#226, décision de Cédric) : le job `audit`, et lui seul, repart
+# chaque semaine, le lundi à 6 h UTC ; le job `sonde` reste à la main.
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
 
 permissions:
   contents: read
 
 jobs:
   sonde:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -31,8 +37,9 @@ jobs:
       - name: Sonder les services
         run: npx tsx outils/sonde-services.ts
 
-  # S283 : un avis nouveau sur une dépendance (outils compris) rougit ce job,
-  # le seul qui audite l’arbre entier : à lancer à la main depuis le 25/10.
+  # S283 : un avis nouveau sur une dépendance (outils compris) rougit ce job.
+  # `ci.yml` audite aussi l'arbre entier, mais sans rougir : c'est ici que
+  # l'avis se voit. Chaque semaine depuis le 31/10 (#226).
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 10

@@ -1,6 +1,9 @@
-# Les données et les accords de Cédric (S230, CLAUDE.md §0) : une PR qui les
-# touche attend sa revue. Effectif quand la protection de `main` exige la
-# revue des propriétaires de code (réglage du dépôt, à activer par Cédric).
+# Les données et les accords de Cédric (S230, CLAUDE.md §0). Ce fichier nomme
+# les propriétaires et les demande en revue ; il n'impose rien : la protection
+# de `main` exige `porte` et `visuel`, pas leur revue (décision de Cédric du
+# 31/10, #209). Ce qui garde `data/`, c'est la garde qui rejoue les accords ;
+# une PR exécute sa propre version de `ci.yml` et de la garde : sans revue
+# imposée, rien de mécanique n'empêche une PR de la retirer. Le coût est connu.
 /data/ @Opaland
 /curation/accords/ @Opaland
 # Ce qui fait tourner la garde : la changer, c'est pouvoir la désactiver
@@ -21,3 +24,7 @@
 /.claude/settings.json @Opaland
 /playwright.config.ts @Opaland
 /vite.config.ts @Opaland
+# Ce qui pilote les agents (revue globale du 22/10, #209).
+/AGENTS.md @Opaland
+/.claude/agents/ @Opaland
+/.claude/skills/ @Opaland

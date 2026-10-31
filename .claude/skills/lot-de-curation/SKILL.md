@@ -77,8 +77,8 @@ PAROLE_DE_CEDRIC="<ses mots, recopiés>" \
 L'outil écrit aussi `curation/accords/<date>-<lot>.json` (lot, empreinte,
 numéros, date, ses mots). La CI rejoue ces accords sur le fichier du 15/10 et
 refuse toute ligne de `data/` qui n'en vient pas (S230,
-`outils/garde-donnees.ts`). Une PR qui touche `data/` ou
-`curation/accords/` attend la revue de Cédric (CODEOWNERS), même verte.
+`outils/garde-donnees.ts`). CODEOWNERS demande la revue de Cédric sur `data/`
+et `curation/accords/`, sans l'imposer (sa décision du 31/10, #209).
 
 Les numéros sont **ceux de sa réponse écrite**, recopiés ; rien n'est
 ajouté « parce que c'était évident ». L'empreinte est celle du diff qu'il a

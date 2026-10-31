@@ -50,9 +50,23 @@ describe('npm audit dans la CI', () => {
     expect(ci.indexOf('npm audit --omit=dev --audit-level=high')).toBeLessThan(ci.indexOf('npm run build'))
   })
 
-  it('l’arbre entier est audité dans la porte sans la bloquer, et dans la sonde lancée à la main', () => {
+  it('l’arbre entier est audité dans la porte sans la bloquer, et dans le job qui peut rougir', () => {
     expect(etape(ci, 'npm audit --audit-level=high\n')).toContain('continue-on-error: true')
     expect(nuit).toContain('npm audit --audit-level=high')
+  })
+
+  // Décision de Cédric du 31/10 (#226) : l'audit tourne seul chaque semaine, la sonde reste à la main.
+  it('la planification est hebdomadaire et ne lance que le job audit', () => {
+    const texte = nuit.replace(/\r\n/g, '\n')
+    const crons = [...texte.matchAll(/cron: '([^']+)'/g)].map((m) => m[1])
+    expect(crons).toHaveLength(1)
+    expect((crons[0] ?? '').split(' ').slice(2, 4)).toEqual(['*', '*'])
+    expect((crons[0] ?? '').split(' ')[4]).toMatch(/^[0-6]$/)
+    // L'en-tête de chaque job, jusqu'à ses étapes : l'ordre des clés n'y compte pas.
+    const entete = (nom: string): string => texte.split(new RegExp(`^ {2}${nom}:\n`, 'm'))[1]?.split('steps:')[0] ?? ''
+    expect(entete('sonde')).toContain("if: github.event_name != 'schedule'")
+    expect(entete('audit')).toContain('runs-on')
+    expect(entete('audit')).not.toContain('if:')
   })
 })
 
@@ -60,13 +74,18 @@ describe('npm audit dans la CI', () => {
  * Revue globale du 26/10 : la PR #222 a retiré la planification de nuit,
  * mais six textes promettaient encore « chaque nuit » (§3). Les deux
  * workflows ne se lancent qu'à la main, et leurs commentaires le disent.
+ * Depuis le 31/10 (#226), `sonde-nuit.yml` a aussi sa planification
+ * hebdomadaire, pour son seul job d'audit.
  */
-describe('les workflows de nuit, à la main depuis le 25/10', () => {
-  it.each(['sonde-nuit.yml', 'mutation.yml'])('%s : workflow_dispatch seul, sans « chaque nuit »', (f) => {
+describe('les workflows de nuit, plus de planification de nuit depuis le 25/10', () => {
+  it.each([
+    ['sonde-nuit.yml', ['workflow_dispatch', 'schedule']],
+    ['mutation.yml', ['workflow_dispatch']],
+  ])('%s : les déclencheurs attendus, sans « chaque nuit »', (f, attendus) => {
     const texte = readFileSync(`.github/workflows/${f}`, 'utf8').replace(/\r\n/g, '\n')
     // Les clés du bloc `on:` (revue adverse : un `push:` ajouté passait).
     const bloc = /^on:\n((?: {2}.*\n|\n)*)/m.exec(texte)?.[1] ?? ''
-    expect([...bloc.matchAll(/^ {2}(\w+):/gm)].map((m) => m[1])).toEqual(['workflow_dispatch'])
+    expect([...bloc.matchAll(/^ {2}(\w+):/gm)].map((m) => m[1])).toEqual(attendus)
     expect(texte).not.toMatch(/chaque nuit|le matin/)
   })
 })

@@ -110,13 +110,10 @@ Par quoi commencer :
 1. git switch main ; git pull ; gh run list --workflow ci.yml --branch main.
    Rouge = arrêt (§9) : corrige d'abord.
 2. npm run porte, et dis-moi ce qu'elle donne.
-3. Rappelle-moi ce qui attend ma décision : #247 (le point OSM au nom de
-   personne), #209 (protéger main), #214 (sept fiches « solide » sur un
-   office de tourisme), #216 (première campagne d'essais des agents, 0,30 à
-   1,50 $), #226 (l'audit de l'arbre entier ne tourne plus tout seul), le
-   signalement privé des failles (S364), les téléphones lus sur un office
-   seulement (S343), Popihn et Lavigney (PR #204). #38 (canal hors GitHub)
-   reste indécis : ne le rappelle pas.
+3. Mes décisions du 31/10 sont dans docs/DECISIONS.md : ne me les redemande
+   pas. Rappelle-moi seulement ce qui attend encore : le verdict sur la
+   campagne d'essais des agents (#216). #38 (canal hors GitHub) reste
+   indécis : ne le rappelle pas.
 4. À partir du 03/11 : relève les runs de main et ferme #221 si l'installation
    de Chromium tient.
 5. Puis, sur mon go : #187 (S346, Grand Est, avec un quota de recherches

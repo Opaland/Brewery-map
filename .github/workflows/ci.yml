@@ -117,8 +117,9 @@ jobs:
           retention-days: 7
 
   # S240 : cinq écrans figés, comparés à des références produites dans le
-  # conteneur de développement. Informatif tant que la première mesure n'a
-  # pas dit si le rendu du runner est le même (docs/stories/S240.md).
+  # conteneur de développement (docs/stories/S240.md). Le run reste vert si ce
+  # job échoue, mais sa ligne ressort rouge, et la protection de `main`
+  # l'exige depuis le 31/10 (#209, S371) : elle bloque le merge d'une PR.
   visuel:
     runs-on: ubuntu-latest
     timeout-minutes: 30

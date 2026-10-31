@@ -3051,3 +3051,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S370 — Ce que la revue globale du 30/10 a trouvé après S368 *(30/10)*
 
 `docs/stories/S370.md`, `docs/REVUE-GLOBALE-2026-10-30.md`. Le vérificateur et la veille disent « 1 à 4 » ; la veille ne promet plus un tour en 7 mois (40 mois à 398 fiches) ; le test des marqueurs lit `CATEGORIES` (vu rouge) ; le bloc bash du README clone. Issues #249, #250, #251.
+
+## S371 — Les réglages du dépôt que Cédric a tranchés *(31/10)*
+
+`docs/stories/S371.md`, #209, #226. `main` protégée (`porte` et `visuel` exigés, sans revue), audit de l'arbre npm entier le lundi, signalement privé ouvert, Popihn gardée, Lavigney dehors (`docs/DECISIONS.md`, « Réponses de Cédric du 31/10 »). Coût écrit : sans revue imposée, une PR peut retirer la garde de `data/`.
