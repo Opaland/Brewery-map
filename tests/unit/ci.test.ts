@@ -89,3 +89,22 @@ describe('les workflows de nuit, plus de planification de nuit depuis le 25/10',
     expect(texte).not.toMatch(/chaque nuit|le matin/)
   })
 })
+
+/** S377 (#251) : le jeton ne reste pas dans `.git/config` pendant que le code de la branche tourne. */
+describe('persist-credentials', () => {
+  it.each(['ci.yml', 'sonde-nuit.yml', 'mutation.yml', 'visuel-references.yml'])('%s : chaque checkout l’écarte, sauf dans le job qui pousse', (f) => {
+    const texte = readFileSync(`.github/workflows/${f}`, 'utf8').replace(/\r\n/g, '\n')
+    const jobs = texte.split(/^ {2}(?=[\w-]+:\n)/m).slice(1)
+    let vus = 0
+    for (const job of jobs) {
+      for (const m of job.matchAll(/actions\/checkout@[^\n]*\n((?: {8,}\S.*\n)*)/g)) {
+        vus++
+        if (/^\s+run: .*git push|^\s+git push/m.test(job)) continue
+        expect(m[1], `${f} : ${job.split('\n')[0] ?? ''}`).toMatch(/^\s+persist-credentials: false$/m)
+      }
+    }
+    // Tous les checkouts du fichier sont passés par la boucle, quelle que soit leur écriture.
+    expect(vus).toBe(texte.match(/actions\/checkout@/g)?.length)
+    expect(vus).toBeGreaterThan(0)
+  })
+})

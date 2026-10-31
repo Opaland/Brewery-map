@@ -3079,3 +3079,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S376 — La doc et le CSS tenus contre CATEGORIES *(31/10)*
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
+
+## S377 — Le jeton hors du dépôt *(31/10)*
+
+`docs/stories/S377.md`, #251. `persist-credentials: false` sur chaque checkout, sauf le job qui pousse ; un test le tient. Stryker reste hors de `package.json`, à versions fixées (`docs/MUTATION.md`).
