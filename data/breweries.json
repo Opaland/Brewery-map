@@ -5038,9 +5038,10 @@
   ],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "06 73 52 99 56",
    "site": "https://www.brasserie-letincelle.fr/",
-   "source": "https://www.brasserie-letincelle.fr/bieres/",
-   "verifieLe": "2026-10-17"
+   "source": "https://www.brasserie-letincelle.fr/contact/",
+   "verifieLe": "2026-11-01"
   },
   "horaires": [
    {
@@ -12771,9 +12772,10 @@
   "beers": [],
   "verifieLe": "2026-10-17",
   "contact": {
+   "tel": "07 68 17 63 95",
    "site": "https://www.brasserieseptantedeux.com/",
    "source": "https://www.brasserieseptantedeux.com/",
-   "verifieLe": "2026-10-17"
+   "verifieLe": "2026-11-01"
   }
  },
  {
@@ -12907,7 +12909,12 @@
   "src": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-10-17"
+  "verifieLe": "2026-10-17",
+  "contact": {
+   "site": "https://brasseriebizarre.fr/",
+   "source": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre",
+   "verifieLe": "2026-11-01"
+  }
  },
  {
   "n": "La Chaloupe Brasserie",
@@ -13938,8 +13945,9 @@
   "contact": {
    "tel": "09 54 63 45 92",
    "site": "https://www.artisanalebrewing.fr",
+   "untappd": "https://untappd.com/ARTISANALEBREWING",
    "source": "https://www.artisanalebrewing.fr",
-   "verifieLe": "2026-10-19"
+   "verifieLe": "2026-11-01"
   }
  },
  {
@@ -14034,9 +14042,10 @@
   "beers": [],
   "verifieLe": "2026-10-21",
   "contact": {
+   "tel": "06 81 26 27 59",
    "site": "https://labrasseriedesecluses.fr/",
    "source": "https://labrasseriedesecluses.fr/contact",
-   "verifieLe": "2026-10-21"
+   "verifieLe": "2026-11-01"
   }
  },
  {

@@ -14,8 +14,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 685 | 21 (3 %) | 42 | 260 | 228 | 292 | 390 | 446 | 520 |
-| 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 11 | 13 | 11 |
+| **Total** | 685 | 21 (3 %) | 42 | 260 | 227 | 292 | 387 | 446 | 520 |
+| 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
 | 04 · Alpes-de-Haute-Provence | 8 | 0 (0 %) | 0 | 3 | 3 | 3 | 3 | 6 | 8 |
@@ -46,7 +46,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 6 | 6 | 7 | 6 |
 | 44 · Loire-Atlantique | 32 | 3 (9 %) | 0 | 12 | 10 | 9 | 20 | 21 | 11 |
-| 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 8 | 6 | 8 |
+| 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 7 | 6 | 8 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
 | 50 · Manche | 9 | 0 (0 %) | 0 | 4 | 4 | 4 | 9 | 6 | 5 |
 | 51 · Marne | 3 | 0 (0 %) | 0 | 1 | 1 | 1 | 2 | 1 | 3 |
@@ -65,7 +65,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
 | 70 · Haute-Saône | 4 | 0 (0 %) | 0 | 3 | 2 | 1 | 2 | 2 | 4 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 7 | 7 | 8 | 6 |
-| 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 1 | 3 | 6 | 3 | 3 |
+| 72 · Sarthe | 7 | 1 (14 %) | 0 | 1 | 0 | 3 | 5 | 3 | 3 |
 | 73 · Savoie | 15 | 0 (0 %) | 3 | 6 | 6 | 14 | 10 | 8 | 8 |
 | 74 · Haute-Savoie | 22 | 0 (0 %) | 0 | 4 | 1 | 1 | 9 | 15 | 22 |
 | 75 · Paris | 3 | 0 (0 %) | 0 | 2 | 0 | 0 | 0 | 1 | 3 |
@@ -314,7 +314,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 45 · Loiret
 
 - La Riole (La Ferté-Saint-Aubin) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
-- La Brasserie des Écluses (Saint-Hilaire-Saint-Mesmin) : sans téléphone, sans horaires, sans bières
+- La Brasserie des Écluses (Saint-Hilaire-Saint-Mesmin) : sans horaires, sans bières
 
 ### 49 · Maine-et-Loire
 
