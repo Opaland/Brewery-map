@@ -20,7 +20,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
 par un test. Au 30/10, après S345 :
-**21 fiches complètes sur 685** ; 260 « À confirmer » ; 520 sans bières, 390 sans téléphone, 446 sans horaires.
+**21 fiches complètes sur 685** ; 260 « À confirmer » ; 520 sans bières, 387 sans téléphone, 446 sans horaires.
 Le 19/10, 10 fiches sans aucune trace ont été retirées (S298, méthode de Cédric).
 Le 19/10, les 348 fiches ont été cherchées au registre des entreprises :
 `curation/registre-2026-10-19.md` (une fermée sur Untappd, six à décider,

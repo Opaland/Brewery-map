@@ -1,0 +1,112 @@
+{
+ "lot": "veille-2026-11",
+ "propositions": [
+  {
+   "n": "La Brasserie des Écluses",
+   "changements": {
+    "contact": {
+     "site": "https://labrasseriedesecluses.fr/",
+     "tel": "06 81 26 27 59",
+     "source": "https://labrasseriedesecluses.fr/contact",
+     "verifieLe": "2026-11-01"
+    }
+   },
+   "verifieLe": "2026-11-01",
+   "sources": [
+    "https://labrasseriedesecluses.fr/contact"
+   ],
+   "extrait": "06 81 26 27 59 - 06 13 18 52 40",
+   "choix": "Deux portables publiés par la brasserie sur sa page contact, sans libellé ; je retiens le premier (seul repris seul dans « Nous retrouver »). Horaires « mardi, jeudi, vendredi 10h-18h » non repris : la page ne dit pas accueil ou vente."
+  },
+  {
+   "n": "L'Etincelle",
+   "changements": {
+    "contact": {
+     "tel": "06 73 52 99 56",
+     "site": "https://www.brasserie-letincelle.fr/",
+     "source": "https://www.brasserie-letincelle.fr/contact/",
+     "verifieLe": "2026-11-01"
+    }
+   },
+   "verifieLe": "2026-11-01",
+   "sources": [
+    "https://www.brasserie-letincelle.fr/contact/"
+   ],
+   "extrait": "06 73 52 99 56 — Vente directe à la brasserie, Mercredi : 16h-19h, Vendredi : 16h-19h — 9002 route de Genève 01130 NANTUA",
+   "choix": "Seul numéro de la page de contact : un mobile publié par la brasserie. Horaires déjà conformes à la fiche."
+  },
+  {
+   "n": "Art Is An Ale Brewing",
+   "changements": {
+    "contact": {
+     "tel": "09 54 63 45 92",
+     "site": "https://www.artisanalebrewing.fr",
+     "untappd": "https://untappd.com/ARTISANALEBREWING",
+     "source": "https://www.artisanalebrewing.fr",
+     "verifieLe": "2026-11-01"
+    }
+   },
+   "verifieLe": "2026-11-01",
+   "sources": [
+    "https://www.artisanalebrewing.fr"
+   ],
+   "extrait": "Taproom : « 09 54 63 45 92 » ; Untappd : untappd.com/ARTISANALEBREWING ; « 10 bières pression au choix accompagnées de street food authentique. »",
+   "choix": "Untappd ouvert et vérifié (Amboise). Écarté : le 07 56 93 70 82 (brasserie, non ouverte au public). Horaires du taproom non repris : la page se contredit (17h-23h / 17h-minuit face à « Ven 5pm - 7pm »)."
+  },
+  {
+   "n": "Brasserie Septante-Deux",
+   "changements": {
+    "contact": {
+     "tel": "07 68 17 63 95",
+     "site": "https://www.brasserieseptantedeux.com/",
+     "source": "https://www.brasserieseptantedeux.com/",
+     "verifieLe": "2026-11-01"
+    }
+   },
+   "verifieLe": "2026-11-01",
+   "sources": [
+    "https://www.brasserieseptantedeux.com/"
+   ],
+   "extrait": "07.68.17.63.95 (numéro cliquable sur la page) ; « Ouvert du lundi au samedi à partir de 17h »",
+   "choix": "Mobile publié par la brasserie sur son site, seul numéro de la page. Horaires non repris : « à partir de 17h » sans heure de fin."
+  },
+  {
+   "n": "Brasserie Bizarre",
+   "changements": {
+    "contact": {
+     "site": "https://brasseriebizarre.fr/",
+     "source": "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre",
+     "verifieLe": "2026-11-01"
+    }
+   },
+   "verifieLe": "2026-11-01",
+   "sources": [
+    "https://www.atlantic-loire-valley.com/activities/tastings-and-local-products/brasserie-bizarre"
+   ],
+   "extrait": "Lien « Visit the website » : https://brasseriebizarre.fr/",
+   "choix": "Site repris de l'office de tourisme. Horaires de l'office (bar le vendredi, vente à emporter lun-ven 8h-18h) écartés : en anglais (am/pm), `controler` ne peut pas les retrouver, et le site de la brasserie est « en création »."
+  }
+ ],
+ "revues": [
+  "Brasserie des Ursulines",
+  "Brasserie Stéphanoise",
+  "La Canaille",
+  "L'Etincelle",
+  "Art Is An Ale Brewing",
+  "La Piautre",
+  "Brasserie Septante-Deux",
+  "Brasserie La Cibulle",
+  "Brasserie Bizarre",
+  "Mage Malte",
+  "Les Brasseurs Savoyards",
+  "Brasserie Maelström",
+  "Brasserie Bombardos",
+  "Big Mountain Brewing Company",
+  "Brasserie des Montagnes",
+  "Brasserie de l'Arnon",
+  "La Riole",
+  "La Brasserie des Écluses",
+  "Brasserie Kapsyl",
+  "Brasserie delabonne"
+ ]
+}
