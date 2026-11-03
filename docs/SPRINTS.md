@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S346, seconde partie — le Bas-Rhin, le Haut-Rhin et les Vosges *(03/11, epic E36)*
+
+`docs/stories/S346.md`, issue #187. 31 paquets ; 50 fiches par la règle de Cédric du 21/10 (67 : 24, 68 : 19, 88 : 7) ; 735 fiches dans 70 départements, OSM à 660 ; le Grand Est est couvert. Sources retéléchargées et relues ; quatre sites qui refusent la lecture restent « à relancer ». Revue de la persona Cédric traitée avant l'application. Suite : S347 (Nouvelle-Aquitaine, #188) avec un quota neuf.
+
 ## S377 — Le jeton hors du dépôt *(31/10)*
 
 `docs/stories/S377.md`, #251. `persist-credentials: false` sur chaque checkout, sauf le job qui pousse ; un test le tient. Stryker reste hors de `package.json`, à versions fixées (`docs/MUTATION.md`).

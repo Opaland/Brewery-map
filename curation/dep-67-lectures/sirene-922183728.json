@@ -8,9 +8,9 @@
    "lat": 48.84953,
    "lon": 7.6115,
    "km": 413.6,
-   "cat": 2,
+   "cat": 1,
    "conf": "moyenne",
-   "note": "Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord).",
+   "note": "Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord). Le site dit qu'on y déguste et qu'on y achète en direct.",
    "addr": "10 rue des Vosges, 67350 Val-de-Moder",
    "src": "https://chopla.fr",
    "coordPrecision": "address",
@@ -27,7 +27,7 @@
    "https://chopla.fr",
    "https://data.geopf.fr/geocodage/search?q=10+rue+des+Vosges%2C+67350+Val-de-Moder&limit=5"
   ],
-  "extrait": "Ouvert le deuxième jeudi du mois de 16h à 20h ou sur RDV",
+  "extrait": "DEGUSTATIONS/ ACHATS en direct Notre Microbrasserie artisanale vous fait déguster ses bières.",
   "choix": "Site officiel chopla.fr lu via un résumé (passages recopiés entre guillemets par l'outil de lecture). Téléphone 06 07 22 04 34 : publié par la brasserie sur son site, seul numéro, mobile (règle du 21/10). Mêmes numéro et adresse sur l'office de tourisme de Haguenau. Pas de bloc d'horaires : « deuxième jeudi du mois » ne tient pas dans le schéma et l'office dit tous les jeudis (désaccord) ; remarque dans la note. Catégorie 2 : le site dit bienvenue au 10 rue des Vosges sur RDV et achats directs sur place, sans dégustation établie. Untappd non trouvé. Bières tirées de la page « Nos bières » (via un résumé) ; bière du moment et bière de Noël non retenues."
  }
 }

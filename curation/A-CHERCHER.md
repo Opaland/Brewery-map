@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 685 | 21 (3 %) | 42 | 260 | 227 | 292 | 387 | 446 | 520 |
+| **Total** | 735 | 21 (3 %) | 42 | 275 | 237 | 296 | 404 | 479 | 570 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -62,6 +62,8 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 62 · Pas-de-Calais | 11 | 0 (0 %) | 0 | 4 | 3 | 2 | 5 | 8 | 11 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
+| 67 · Bas-Rhin | 24 | 0 (0 %) | 0 | 7 | 4 | 1 | 9 | 18 | 24 |
+| 68 · Haut-Rhin | 19 | 0 (0 %) | 0 | 6 | 6 | 3 | 8 | 11 | 19 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
 | 70 · Haute-Saône | 4 | 0 (0 %) | 0 | 3 | 2 | 1 | 2 | 2 | 4 |
 | 71 · Saône-et-Loire | 8 | 0 (0 %) | 4 | 6 | 6 | 7 | 7 | 8 | 6 |
@@ -76,6 +78,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
+| 88 · Vosges | 7 | 0 (0 %) | 0 | 2 | 0 | 0 | 0 | 4 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 | 91 · Essonne | 4 | 0 (0 %) | 0 | 2 | 0 | 1 | 1 | 2 | 4 |
 | 92 · Hauts-de-Seine | 3 | 0 (0 %) | 0 | 1 | 1 | 2 | 2 | 1 | 3 |
@@ -85,7 +88,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-260 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+275 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -392,6 +395,25 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie des Montagnes (Gelles) : sans horaires, sans bières
 
+### 67 · Bas-Rhin
+
+- Brasserie de Framont (Grandfontaine) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie La Fondation (Geispolsheim) : sans téléphone, sans horaires, sans bières
+- Brasserie Guilhéon (Blienschwiller) : sans horaires, sans bières
+- Brasserie La Pastel (Dossenheim-sur-Zinsel) : sans horaires, sans bières
+- Brasserie Licorne (Saverne) : sans horaires, sans bières
+- Brassin des Frangins (Plobsheim) : sans horaires, sans bières
+- BroBrew (Russ) : sans horaires, sans bières
+
+### 68 · Haut-Rhin
+
+- Brasserie artisanale des Quatre Pays (Hirtzbach) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie du Marcaire (Muhlbach-sur-Munster) : sans site, sans téléphone, sans horaires, sans bières
+- Micro-brasserie La B'ric (Soultz-Haut-Rhin) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Cabrio (Fellering) : sans téléphone, sans horaires, sans bières
+- Brasserie Saint Alphonse (Vogelgrun) : sans horaires, sans bières
+- S'Humpaloch (Lautenbach) : sans horaires, sans bières
+
 ### 69 · Rhône
 
 - Autour de la Bière (Chaussan) : sans source, sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -485,6 +507,11 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie Plume (Châteauneuf) : sans site, sans téléphone, sans horaires, sans bières
 - Opé Brewery (Les Sables-d'Olonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
+### 88 · Vosges
+
+- La Golaye (Xertigny) : sans horaires, sans bières
+- La Val Heureuse (Le Val-d'Ajol) : sans horaires, sans bières
 
 ### 89 · Yonne
 

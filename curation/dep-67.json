@@ -400,7 +400,7 @@
     "http://www.brasserie-distillerie-guth-ggc.com",
     "https://data.geopf.fr/geocodage/search?q=10+rue+Principale%2C+67220+Saint-Maurice&limit=5"
    ],
-   "extrait": "En plus de sa brasserie, Charly propose un espace boutique et un bar chaleureux ouverts chaque vendredi et samedi.",
+   "extrait": "propose un espace boutique et un bar chaleureux ouverts chaque vendredi et samedi.",
    "choix": "Téléphone : le site officiel publie le 06 22 75 39 12 sous « Microbrasserie distillerie ». Je le retiens parce que c'est la seule ligne de la brasserie ; c'est un mobile. J'écarte 03 72 91 47 38 (bar/restaurant de Saint-Maurice) et 03 69 27 68 93 (bar/restaurant de Sélestat), qui sont d'autres établissements. Horaires non repris : l'office de Colmar parle d'un « drive » le vendredi et le samedi de 10h à 23h, ce que visit.alsace ne dit pas, et je n'ai pas trouvé la page « Contact & horaires » du site officiel. Bières non reprises : l'office ne donne que des styles, sans noms ; le site ne liste que « Bières 33cl ». Pas de page Untappd trouvée. Les ouvertures annoncées vont du 02/11 au 31/12/2026. Le nom ressemble à celui de l'Auberge Chez Guth de Steige, qui est un autre établissement."
   },
   {
@@ -505,7 +505,7 @@
     "km": 383.7,
     "cat": 0,
     "conf": "",
-    "note": "Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place. SIRENE l'enregistre sous « Maison Gaufillet » ; le nom Gaufillet n'est pas sur le site.",
+    "note": "Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place.",
     "addr": "7 rue de la Mésange 67115 Plobsheim",
     "src": "https://brassindesfrangins.fr",
     "coordPrecision": "address",
@@ -523,7 +523,7 @@
     "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+M%C3%A9sange+67115+Plobsheim&limit=5"
    ],
    "extrait": "Une brasserie artisanale familiale basée en Alsace à proximité de Strasbourg",
-   "choix": "Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien Gaufillet n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé."
+   "choix": "Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien avec la raison sociale enregistrée n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé."
   },
   {
    "fiche": {
@@ -801,7 +801,7 @@
     "lon": 7.63982,
     "km": 414.2,
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "Le site officiel annonce un pub à sept becs à bières et une boutique. Il ne donne pas d'horaires (il affiche seulement « Actuellement fermé »).",
     "addr": "10 rue de l'Artisanat, 67350 Niedermodern",
     "src": "https://www.microbrasserie-septenaire.fr",
@@ -830,9 +830,9 @@
     "lat": 48.84953,
     "lon": 7.6115,
     "km": 413.6,
-    "cat": 2,
+    "cat": 1,
     "conf": "moyenne",
-    "note": "Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord).",
+    "note": "Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord). Le site dit qu'on y déguste et qu'on y achète en direct.",
     "addr": "10 rue des Vosges, 67350 Val-de-Moder",
     "src": "https://chopla.fr",
     "coordPrecision": "address",
@@ -849,7 +849,7 @@
     "https://chopla.fr",
     "https://data.geopf.fr/geocodage/search?q=10+rue+des+Vosges%2C+67350+Val-de-Moder&limit=5"
    ],
-   "extrait": "Ouvert le deuxième jeudi du mois de 16h à 20h ou sur RDV",
+   "extrait": "DEGUSTATIONS/ ACHATS en direct Notre Microbrasserie artisanale vous fait déguster ses bières.",
    "choix": "Site officiel chopla.fr lu via un résumé (passages recopiés entre guillemets par l'outil de lecture). Téléphone 06 07 22 04 34 : publié par la brasserie sur son site, seul numéro, mobile (règle du 21/10). Mêmes numéro et adresse sur l'office de tourisme de Haguenau. Pas de bloc d'horaires : « deuxième jeudi du mois » ne tient pas dans le schéma et l'office dit tous les jeudis (désaccord) ; remarque dans la note. Catégorie 2 : le site dit bienvenue au 10 rue des Vosges sur RDV et achats directs sur place, sans dégustation établie. Untappd non trouvé. Bières tirées de la page « Nos bières » (via un résumé) ; bière du moment et bière de Noël non retenues."
   },
   {

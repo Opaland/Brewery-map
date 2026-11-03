@@ -10,7 +10,7 @@
    "km": 383.7,
    "cat": 0,
    "conf": "",
-   "note": "Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place. SIRENE l'enregistre sous « Maison Gaufillet » ; le nom Gaufillet n'est pas sur le site.",
+   "note": "Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place.",
    "addr": "7 rue de la Mésange 67115 Plobsheim",
    "src": "https://brassindesfrangins.fr",
    "coordPrecision": "address",
@@ -28,6 +28,6 @@
    "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+M%C3%A9sange+67115+Plobsheim&limit=5"
   ],
   "extrait": "Une brasserie artisanale familiale basée en Alsace à proximité de Strasbourg",
-  "choix": "Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien Gaufillet n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé."
+  "choix": "Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien avec la raison sociale enregistrée n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé."
  }
 }

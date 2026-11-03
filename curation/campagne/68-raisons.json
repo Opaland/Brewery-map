@@ -11,7 +11,7 @@
   "personne:14": "entreprise sans nom ni adresse : rien à chercher",
   "node/11955596068": "même lieu que sirene:810773275 (Brasserie du Vignoble, Ribeauvillé), lue sous cette clé",
   "node/8069402085": "même lieu que sirene:840476477 (TAAL, Wihr-au-Val), lecture fondue dans celle-ci",
-  "sirene:598500643": "Météor : aucun lieu ouvert dans le Haut-Rhin ; le siège est à Hochfelden (67)",
+  "sirene:598500643": "Météor (ce SIREN) : aucun lieu ouvert lu dans le Haut-Rhin ; la brasserie de Hochfelden (67) est lue sous node/3419542697",
   "sirene:799933122": "Brasseur de la Dioller : annuaires seuls, pas de site officiel établi",
   "sirene:978015915": "La-Louia : rien sous ce nom (deux recherches)",
   "sirene:503679094": "Brasserie Cabrio : même lieu que node/9169561387, lu sous cette clé",

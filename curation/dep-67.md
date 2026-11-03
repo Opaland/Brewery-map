@@ -3,7 +3,7 @@
 Ce lot ajoute **24 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 79 candidats = 24 proposés + 55 non proposés (tableau ci-dessous).
-Catégories proposées : 5 « acheter et consommer », 12 « acheter seulement », 0 « pas de vente », 7 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 6 « acheter et consommer », 11 « acheter seulement », 0 « pas de vente », 7 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -13,8 +13,8 @@ Catégories proposées : 5 « acheter et consommer », 12 « acheter seulement �
 
 | Candidat | Raison |
 |---|---|
-| STAMMTISCH METEOR (`sirene:598500643`) | Stammtisch Météor : restaurant de la brasserie Météor, qui ne brasse pas lui-même ; pas une brasserie |
-| HEINEKEN ENTREPRISE (`sirene:414842062`) | Heineken Schiltigheim : production arrêtée fin 2025, aucune page de visite ni de vente ; presse seule |
+| STAMMTISCH METEOR (`sirene:598500643`) | Météor (ce SIREN, sept établissements) : aucun établissement lu comme lieu ouvert ; la brasserie de Hochfelden est lue sous node/3419542697 |
+| HEINEKEN ENTREPRISE (`sirene:414842062`) | Heineken Schiltigheim : aucune page de visite ni de vente lue |
 | KRONENBOURG SUPPLY COMPANY (`sirene:528365125`) | Kronenbourg Supply Company : entité logistique d'un groupe ; aucune page officielle de visite ni de vente |
 | BRASSERIE PITSTOP (`sirene:980787139`) | Pitstop : rien sous ce nom (deux recherches), existence non établie |
 | Entreprise individuelle (`personne:1`) | entreprise sans nom ni adresse : rien à chercher |
@@ -109,12 +109,12 @@ Extrait lu : « Horaires d'ouverture de la boutique, du lundi au vendredi de 8h3
 
 Choix du vérificateur : Catégorie 2 en confiance faible : la page ne dit pas noir sur blanc quels produits la boutique vend. La dégustation fait partie de la visite payante, ce qui ne prouve pas qu'on puisse boire sur place en dehors d'elle. Téléphone 03 88 07 07 77 : le numéro du contact, également donné pour les groupes. Les horaires de visite, juillet-août le jeudi et le vendredi à 10h30 et 16h00 et le reste de l'année sur rendez-vous, vont dans la remarque de la fiche.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement (à vérifier)
 > - Maintenant
-> - À 12 h 14 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h, sous réserve.
+> - À 12 h 39 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h, sous réserve.
 > - Adresse
 > - 5 rue du Cerf
 > - Pas encore dans la fiche : ses bières.
@@ -162,7 +162,7 @@ Extrait lu : « passer commande auprès de votre brasseur »
 
 Choix du vérificateur : Site officiel bierelapastel.fr lu via un résumé. L'adresse (11 rue du printemps, Dossenheim-sur-Zinsel) y est la même que sur la fiche de l'office de tourisme de Hanau-La Petite Pierre (visite du 24/10/2026, terminée). Gault&Millau donne une autre adresse (Geiswiller-Zœbersdorf), non retenue. Le seul numéro publié est un mobile (06 08 05 18 30), repris car c'est la seule ligne de la brasserie. Horaire « le soir en semaine de 19h à 20h » non repris : le résumé ne dit pas à quoi il s'applique. Pas de page Untappd trouvée.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -199,7 +199,7 @@ Extrait lu : « On-site consumption of alcohol is not permitted. »
 
 Choix du vérificateur : Téléphone non retenu : 06 15 97 27 07 est un mobile lu sur l'office, rien ne dit que la brasserie le publie elle-même. Site altenbiere.fr (lié depuis l'office) renvoyé en 503 à deux reprises, donc non repris. Pas de page Untappd trouvée. Une autre fiche d'office (Pays de Barr, vue seulement dans un résumé de recherche) donne les mêmes horaires.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -237,7 +237,7 @@ Extrait lu : « BRASSERIE LICORNE 60 rue de Dettwiller CS40019 67700 SAVERNE »
 
 Choix du vérificateur : Le 03 88 02 19 99 est celui de la page contact officielle, la même pour le siège, la livraison professionnelle et la logistique. Je le retiens faute d'autre ligne ; Cédric peut l'écarter, car il s'adresse peut-être plus aux professionnels qu'aux clients. Le site dit « Nous vous ouvrons les portes de notre brasserie » (rubrique magazine), sans aucun détail : je n'en tire pas de catégorie. Steinbourg est une adresse de logistique, pas un lieu d'accueil.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -277,7 +277,7 @@ Extrait lu : « Rendez-vous directement à la brasserie, nous sommes présents u
 
 Choix du vérificateur : Site officiel lu via un résumé (passage cité tel que rendu entre guillemets). Aucun téléphone publié par la brasserie : le mobile du lien d'appel Gault&Millau n'est pas retenu (annuaire). Types de bière : la page « Des bières » n'en nomme aucun ; Gault&Millau cite blonde, blanche, ambrée, brune, mais annuaire seul, non retenu. Pas de dégustation sur place mentionnée, donc pas de catégorie 1. Pas d'horaires : « un samedi matin sur 2 en moyenne » n'est pas un créneau.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -324,12 +324,12 @@ Extrait lu : « BIERSTUB, BIERGARTEN & BOUTIQUE »
 
 Choix du vérificateur : Page lue via un résumé. La page cite aussi « NOS BIÈRES À EMPORTER » et « Click & Collect ». Aucun style de bière n'est donné, donc beers vide. Horaires : je ne sais pas si les créneaux lus sont ceux de la boutique ou du bierstub, je les ai mis en accueil ; Cédric tranche. Les autres jours ne sont pas écrits. Visit Alsace dit que les bières sont brassées sur place ; Visit Strasbourg donne une autre adresse (11 rue de l'Ardèche), non retenue.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 12 h 14 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 12 h 39 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 10 place de l'Abattoir 67200 Strasbourg
 > - Pas encore dans la fiche : ses bières.
@@ -372,7 +372,7 @@ Extrait lu : « There is a shop on site, allowing visitors to discover, taste an
 
 Choix du vérificateur : Page lue via un résumé. Le site officiel (matten.fr redirige vers https://www.bieres-matten.fr/) donne le même fixe, mais aucune boutique ni aucun horaire, et une autre adresse (5 rue des Merisiers) à côté du 5 rue de Werde : l'adresse reste celle de SIRENE et de Visit Alsace. Aucun horaire écrit (Visit Alsace n'en donne pas). Bières citées sur le site (Psaïkodéclic, Red Fox, White Fox) : laissées de côté, faute de page Untappd lue.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -409,7 +409,7 @@ Extrait lu : « Vente de bière aux particuliers et professionnels à la boutiqu
 
 Choix du vérificateur : Page du site officiel lue via un résumé (WebFetch). Téléphone : 09 52 68 67 41, lu sur la fiche de l'office visit.alsace (lien « Call us » dans le bloc « BRASSERIE LA MERCIÈRE, 17 rue Principale, 67310 Cosswiller »). C'est le fixe de la brasserie, pas celui de l'office, et il n'apparaît pas sur le site officiel lu. Un fixe lu sur un office est permis (réponse de Cédric du 31/10). Catégorie 2 et non 1 : la dégustation n'est offerte qu'aux groupes sur réservation. Confiance moyenne : horaires absents. Page Untappd non trouvée.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -449,7 +449,7 @@ Extrait lu : « Brasserie Alsacienne et Bierstub à MUTTERSHOLTZ »
 
 Choix du vérificateur : Page d'accueil du site officiel lue via un résumé : titre « Brasserie Alsacienne et Bierstub » et téléphone 09 67 23 31 83, ni horaires ni bières ni Untappd. Classé en 1 avec une confiance faible (règle de Cédric du 29/10 pour un lieu où l'on boit). Le téléphone vient du site de la brasserie ; une fiche de l'office de tourisme de Sélestat donne un autre numéro (03 88 58 87 20), écarté. Des annuaires donnent vendredi à dimanche 17 h à 23 h, non repris car aucune source officielle. Pas de page Untappd trouvée en deux recherches.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
@@ -486,7 +486,7 @@ Extrait lu : « la Brasserie de Framont est implantée dans l'ancienne demeure d
 
 Choix du vérificateur : Pages lues via un résumé (WebFetch) : fiche de l'office de la vallée de la Bruche et fiche visit.alsace (mêmes informations). Page Facebook derrière une connexion, illisible. Ni site officiel ni Untappd trouvés. Existence appuyée par SIRENE et deux fiches d'office (confiance moyenne au plus), d'où cat 0. Téléphone écarté : l'office publie le 06 63 07 64 94 (portable), rien ne montre que la brasserie le publie elle-même. Adresse retenue : 1 rue du Haut Fourneau (fiche de l'office) ; l'autre adresse SIRENE (6 rue du Haut Fourneau) non reprise.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -520,11 +520,11 @@ Choix du vérificateur : Pages lues via un résumé (WebFetch) : fiche de l'offi
 
 Sources (vérifiée le 2026-11-03) : https://visit.alsace/fr/224003870-microbrasserie-guth ; http://www.brasserie-distillerie-guth-ggc.com ; https://data.geopf.fr/geocodage/search?q=10+rue+Principale%2C+67220+Saint-Maurice&limit=5
 
-Extrait lu : « En plus de sa brasserie, Charly propose un espace boutique et un bar chaleureux ouverts chaque vendredi et samedi. »
+Extrait lu : « propose un espace boutique et un bar chaleureux ouverts chaque vendredi et samedi. »
 
 Choix du vérificateur : Téléphone : le site officiel publie le 06 22 75 39 12 sous « Microbrasserie distillerie ». Je le retiens parce que c'est la seule ligne de la brasserie ; c'est un mobile. J'écarte 03 72 91 47 38 (bar/restaurant de Saint-Maurice) et 03 69 27 68 93 (bar/restaurant de Sélestat), qui sont d'autres établissements. Horaires non repris : l'office de Colmar parle d'un « drive » le vendredi et le samedi de 10h à 23h, ce que visit.alsace ne dit pas, et je n'ai pas trouvé la page « Contact & horaires » du site officiel. Bières non reprises : l'office ne donne que des styles, sans noms ; le site ne liste que « Bières 33cl ». Pas de page Untappd trouvée. Les ouvertures annoncées vont du 02/11 au 31/12/2026. Le nom ressemble à celui de l'Auberge Chez Guth de Steige, qui est un autre établissement.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -570,12 +570,12 @@ Extrait lu : « POUR DECOUVRIR LES BBIERES IL Y A LA BBBOUTIQUE 6 PLACE DE L'EGL
 
 Choix du vérificateur : Catégorie 2 et non 1 : la page ne décrit pas de consommation sur place ouverte au public, seulement une visite de groupe avec dégustation. Le numéro est un portable (07), seule ligne publiée par la brasserie sur son site (règle du 21/10) ; il est aussi sur la fiche visit.alsace. Les noms des bières sont dans des images, donc non lus : beers vide. Untappd non trouvé sur la page. Les horaires sont ceux de la boutique, donc de la vente. Page lue via un résumé, passages entre guillemets rapportés par ce résumé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 12 h 14 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 12 h 39 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 6 place de l'Église, 67210 Bernardswiller
 > - Pas encore dans la fiche : ses bières.
@@ -626,12 +626,12 @@ Extrait lu : « Vente sur place tous les 1er samedis du mois (14h30-17h) »
 
 Choix du vérificateur : Le seul numéro trouvé est un portable (06 82 93 05 48) sur la fiche visit.alsace (office de tourisme, https://www.visit.alsace/?p=988448) ; il n'est pas publié sur le site de la brasserie, donc écarté (un portable doit venir de la brasserie). L'office donne une adresse différente (route de Pfaffenhoffen) ; je garde celle du site de la brasserie, qui est aussi celle de SIRENE. Horaires : créneau valable seulement le premier samedi du mois, dit dans `remarque`. Noms de bières lus seulement dans des textes alternatifs d'images : non retenus. Untappd non trouvé. Page lue via un résumé, passage rapporté par ce résumé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 12 h 14 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 12 h 39 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 3 rue des Catherinettes, 67270 Alteckendorf
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -662,7 +662,7 @@ Choix du vérificateur : Le seul numéro trouvé est un portable (06 82 93 05 48
 - km : (vide) → 383.7
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place. SIRENE l'enregistre sous « Maison Gaufillet » ; le nom Gaufillet n'est pas sur le site.
+- note : (vide) → Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place.
 - addr : (vide) → 7 rue de la Mésange 67115 Plobsheim
 - src : (vide) → https://brassindesfrangins.fr
 - coordPrecision : (vide) → address
@@ -677,9 +677,9 @@ Sources (vérifiée le 2026-11-03) : https://brassindesfrangins.fr ; https://dat
 
 Extrait lu : « Une brasserie artisanale familiale basée en Alsace à proximité de Strasbourg »
 
-Choix du vérificateur : Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien Gaufillet n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé.
+Choix du vérificateur : Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien avec la raison sociale enregistrée n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -725,12 +725,12 @@ Extrait lu : « Horaires de la boutique: Vendredi: 18h-20h / Samedi: 9h-12h »
 
 Choix du vérificateur : Le seul numéro de la page (07 67 82 51 46) est un portable : retenu comme seule ligne publiée. L'adresse vient de SIRENE ; la page ne donne que le village. Aucune page Untappd trouvée. Catégorie 2 en moyenne et non en solide, car « boutique » laisse penser à une vente sur place sans l'écrire.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 12 h 14 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 12 h 39 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 16 A rue Principale, 67260 Altwiller
 > - Pas encore dans la fiche : ses bières.
@@ -786,12 +786,12 @@ Extrait lu : « Boutique ouverte du lundi au vendredi de 9h à 17h. »
 
 Choix du vérificateur : Le seul numéro publié est un portable (+33(0)6 46 39 96 65), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Les visites et dégustations ne sont pas détaillées, donc catégorie 2 et non 1. Le nom commercial est « Les Intenables » ; SIRENE écrit « Bière des Intenables ». Page Untappd ouverte : fiche « Les Intenables - Craft Beer », Rosheim. Je ne propose aucune bière : seules les gammes (éphémères, régulières, Cuvées 31, softs) sont citées, sans lecture bière par bière sur Untappd.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 12 h 14 (heure de Paris), vente : ouvert jusqu’à 17 h, d’après les horaires publiés.
+> - À 12 h 39 (heure de Paris), vente : ouvert jusqu’à 17 h, d’après les horaires publiés.
 > - Adresse
 > - 8 rue Jean Marie Lehn, 67560 Rosheim
 > - Pas encore dans la fiche : ses bières.
@@ -838,7 +838,7 @@ Extrait lu : « Il est fortement recommandé de nous contacter avant de venir. �
 
 Choix du vérificateur : Page lue via un résumé. Le créneau du samedi n'est pas proposé en horaires, car le site ne dit pas de quelle nature il est (accueil ou vente). Portable retenu car c'est le seul numéro publié.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -879,7 +879,7 @@ Extrait lu : « À la brasserie, on remplit vos growlers de 0.50L, 0.65L, 0.75cl
 
 Choix du vérificateur : Existence : site officiel, plus fiches Gault&Millau et office de Strasbourg (visitstrasbourg, 403 à l'ouverture, vue seulement dans les résultats de recherche) et un nœud OSM. Catégorie 2 car seule la vente à emporter (growlers) est écrite ; rien sur la consommation sur place. Horaires non repris : seuls des annuaires (118712) en donnent, et ils se contredisent. Un autre mobile (06 70 55 72 08) vu sur Gault&Millau est écarté (annuaire, source ancienne). Aucun lien Untappd trouvé. Bières : styles cités par le site (houblonnées, acides, fruitées, etc.) non transcrits en types faute de lecture directe de la liste. Lecture du site via un résumé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -920,7 +920,7 @@ Extrait lu : « Chez nous, vous n'entrez pas dans une brasserie : vous entrez da
 
 Choix du vérificateur : Page lue via un résumé (WebFetch). Téléphone retenu : 06 46 40 75 39, un mobile, seul numéro publié par la brasserie sur son site (règle du 21/10). Catégorie 0 : la phrase citée n'établit ni vente ni accueil. Le site ne donne ni boutique ni horaires.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -960,7 +960,7 @@ Extrait lu : « Bières et softs »
 
 Choix du vérificateur : Source de catégorie : un office de tourisme, donc moyenne au plus. Le site officiel brasserie-semblables.fr confirme l'adresse mais ni la vente sur place, ni les horaires, ni un téléphone. J'ai écarté le 06 68 44 53 45 et les horaires du mercredi au samedi, vus seulement sur des fiches « halte gourde » du Parc des Vosges du Nord et non publiés par la brasserie. Le numéro +33 (0)3 88 80 89 70 est celui de l'office, écarté. Pas d'Untappd trouvé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -999,7 +999,7 @@ Extrait lu : « Vous pouvez venir sur place pour acheter nos bières selon nos d
 
 Choix du vérificateur : Page lue via un résumé (WebFetch). Aucun téléphone publié, donc aucun retenu. Page Untappd ouverte (untappd.com/MogwaiBeerCompany, lue via un résumé, brasserie de Mundolsheim, bières éphémères en gose, saison, IPA). Les bières ne sont pas proposées : les types du schéma n'ont pas été croisés avec la liste Untappd. Rien lu sur une consommation sur place, donc pas de catégorie 1.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -1021,7 +1021,7 @@ Choix du vérificateur : Page lue via un résumé (WebFetch). Aucun téléphone 
 - lon : (vide) → 7.63982
 - km : (vide) → 414.2
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Le site officiel annonce un pub à sept becs à bières et une boutique. Il ne donne pas d'horaires (il affiche seulement « Actuellement fermé »).
 - addr : (vide) → 10 rue de l'Artisanat, 67350 Niedermodern
 - src : (vide) → https://www.microbrasserie-septenaire.fr
@@ -1039,10 +1039,10 @@ Extrait lu : « Pub avec 7 becs à bières »
 
 Choix du vérificateur : Horaires non repris : l'office de Haguenau écrit « Jeu et ven : 16h30-22h30, sam : 10h30-12h-30 et 18h00-22h30 ». Le « 12h-30 » du samedi est illisible et le site officiel n'a pas d'horaires. Le site dit onze variétés et n'en montre que quatre, ce sont celles que je reprends. Pas de lien Untappd sur le site (seulement Facebook et Instagram). Je n'ai pas cherché la page Untappd.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Adresse
 > - 10 rue de l'Artisanat, 67350 Niedermodern
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -1051,7 +1051,7 @@ Choix du vérificateur : Horaires non repris : l'office de Haguenau écrit « Je
 > - Joindre la brasserie
 > - [Appeler le 03 68 03 82 99](tel:+33368038299)
 > - [Site de la brasserie](https://www.microbrasserie-septenaire.fr)
-> - Lu sur [microbrasserie-septenaire.fr](https://www.microbrasserie-septenaire.fr) le 3 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [microbrasserie-septenaire.fr](https://www.microbrasserie-septenaire.fr) le 3 novembre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
 ### 23. Microbrasserie Chop'la — fiche nouvelle
 
@@ -1061,9 +1061,9 @@ Choix du vérificateur : Horaires non repris : l'office de Haguenau écrit « Je
 - lat : (vide) → 48.84953
 - lon : (vide) → 7.6115
 - km : (vide) → 413.6
-- cat : (vide) → 2 (Acheter seulement)
+- cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord).
+- note : (vide) → Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord). Le site dit qu'on y déguste et qu'on y achète en direct.
 - addr : (vide) → 10 rue des Vosges, 67350 Val-de-Moder
 - src : (vide) → https://chopla.fr
 - coordPrecision : (vide) → address
@@ -1076,14 +1076,14 @@ Choix du vérificateur : Horaires non repris : l'office de Haguenau écrit « Je
 
 Sources (vérifiée le 2026-11-03) : https://chopla.fr ; https://data.geopf.fr/geocodage/search?q=10+rue+des+Vosges%2C+67350+Val-de-Moder&limit=5
 
-Extrait lu : « Ouvert le deuxième jeudi du mois de 16h à 20h ou sur RDV »
+Extrait lu : « DEGUSTATIONS/ ACHATS en direct Notre Microbrasserie artisanale vous fait déguster ses bières. »
 
 Choix du vérificateur : Site officiel chopla.fr lu via un résumé (passages recopiés entre guillemets par l'outil de lecture). Téléphone 06 07 22 04 34 : publié par la brasserie sur son site, seul numéro, mobile (règle du 21/10). Mêmes numéro et adresse sur l'office de tourisme de Haguenau. Pas de bloc d'horaires : « deuxième jeudi du mois » ne tient pas dans le schéma et l'office dit tous les jeudis (désaccord) ; remarque dans la note. Catégorie 2 : le site dit bienvenue au 10 rue des Vosges sur RDV et achats directs sur place, sans dégustation établie. Untappd non trouvé. Bières tirées de la page « Nos bières » (via un résumé) ; bière du moment et bière de Noël non retenues.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter seulement
+> - Acheter et consommer sur place
 > - Adresse
 > - 10 rue des Vosges, 67350 Val-de-Moder
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -1121,7 +1121,7 @@ Extrait lu : « Ouverture prévue au printemps 2027. »
 
 Choix du vérificateur : Page lue via un résumé (WebFetch). Catégorie 0 : taproom pas ouvert, aucune vente à emporter écrite ; boutique en ligne et livraison ne disent pas qu'on peut acheter sur place. Horaires « Du lundi au vendredi 9h–12h & 14h–18h » de /contact non retenus : rien ne dit que ce soit un accueil du public. Horaires prévus du taproom (mer-ven 16h-20h) non retenus : lieu pas encore ouvert. Aucun téléphone publié (e-mail ou formulaire). Aucune bière reprise, faute de règle de date lue. Adresse du siège SIRENE (Strasbourg, 2 rue Dietterlin, 81 rue du Rhin Napoléon) écartée : Geispolsheim est lu sur le site de la brasserie. Existence : site officiel et page Untappd (installée depuis 2023, 36 bières), plus SIRENE.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:14, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:39, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -1134,4 +1134,4 @@ Choix du vérificateur : Page lue via un résumé (WebFetch). Catégorie 0 : tap
 > - [Site de la brasserie](http://www.brasserie-lafondation.com)[Untappd (avis sur les bières)](https://untappd.com/BrasserieLaFondation)
 > - Lu sur [brasserie-lafondation.com](http://www.brasserie-lafondation.com/taproom) le 3 novembre 2026. Lu sur [untappd.com](https://untappd.com/BrasserieLaFondation) le 3 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 53209e0e9d42
+Empreinte du lot : e1a928868a25

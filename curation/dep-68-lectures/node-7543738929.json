@@ -9,7 +9,7 @@
    "lon": 7.2794,
    "km": 301.3,
    "cat": 1,
-   "conf": "moyenne",
+   "conf": "faible",
    "note": "Le site officiel présente une micro-brasserie avec visite des caves et dégustation sur réservation, un restaurant et une grande terrasse d'été ouverte d'avril à octobre. Il ne parle pas de vente de bière à emporter et ne donne pas d'horaires.",
    "addr": "2 rue du Houblon, 68460 Lutterbach",
    "src": "https://brasserielutterbach.fr/",
@@ -28,7 +28,7 @@
    "https://brasserielutterbach.fr/CONTACT/",
    "https://data.geopf.fr/geocodage/search?q=2+rue+du+Houblon%2C+68460+Lutterbach&limit=5"
   ],
-  "extrait": "Visite de la Micro-Brasserie et des caves datant de 1861 avec dégustation de nos bières.",
+  "extrait": "Le Restaurant Cadre chaleureux dans une belle salle voûtée, lieu historique et emblématique de Lutterbach",
   "choix": "Catégorie 1 en confiance moyenne : on consomme sur place (dégustation sur réservation, restaurant, terrasse), mais la vente à emporter n'est pas lue. Pas d'horaires proposés : le site n'en donne pas. Le téléphone, un 09, est publié par la brasserie sur sa page Contact. Les quatre bières (Pilsner, Weizen, Porter, IPA) viennent de la page « Nos Bières » du site officiel, pas d'Untappd ; Pilsner est rangée en lager et Weizen en blanche. Pas de page Untappd trouvée."
  }
 }

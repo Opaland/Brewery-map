@@ -52,7 +52,7 @@ Catégories proposées : 4 « acheter et consommer », 1 « acheter seulement »
 | La Brass'Potes (`node/12309547371`) | La Brass'Potes : même lieu que sirene:949580955 : à relancer avec lui |
 | La Golaye (`node/12825759716`) | même lieu que sirene:813755675 (La Golaye), lue sous cette clé |
 | Brasserie La Bourlingueuse (`node/13365499837`) | même lieu que sirene:881927016 (La Bourlingueuse), lue sous cette clé |
-| Le Van à Bières (`node/13812002857`) | Le Van à Bières : boutique en ligne seule (403), pas une brasserie établie |
+| Le Van à Bières (`node/13812002857`) | Le Van à Bières : seule une boutique en ligne, qui refuse la lecture (403) : à relancer |
 | Brasserie du Pas de l'Âne (`node/5283396917`) | Brasserie du Pas de l'Âne : réseau social illisible et registre seuls |
 | Val Heureuse (`node/6618022288`) | Val Heureuse : même lieu que sirene:994058717, lu sous cette clé |
 
@@ -93,12 +93,12 @@ Extrait lu : « Nous proposons nos bières en vente directe depuis la Brasserie,
 
 Choix du vérificateur : Page du site officiel lue via un résumé (WebFetch), pas en direct. La commune est Rupt-sur-Moselle (site officiel et fiche de l'office de tourisme), pas Vecoux comme dans le point OSM : l'adresse est la même (1 rue des Buissons), la commune de la fiche doit suivre la source, d'où le statut « ambigu ». Le numéro 06 36 82 36 66 est un portable, mais c'est la seule ligne que la brasserie publie, et il est sur son site (règle du 21/10). Types de bière non renseignés : la page ne donne que des noms (La Mos'Ale, La Rousse Gazon, L'appel des Neiges, L'IPA des Buissons), sans style. Aucun Untappd trouvé : le site n'en porte aucun lien et la recherche n'a rien donné.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 12 h 09 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 12 h 40 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 1 rue des Buissons, 88360 Rupt-sur-Moselle
 > - Pas encore dans la fiche : ses bières.
@@ -142,11 +142,11 @@ Choix du vérificateur : Page du site officiel lue via un résumé (WebFetch), p
 
 Sources (vérifiée le 2026-11-03) : https://www.lageromoise.fr/ ; https://data.geopf.fr/geocodage/search?q=2+avenue+Morand%2C+88400+G%C3%A9rardmer&limit=5
 
-Extrait lu : « 4 bières sont proposées, soit à la pression, soit en bouteilles. »
+Extrait lu : « La Gérômoise BRASSERIE ARTISANALE »
 
 Choix du vérificateur : Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 (on boit sur place, aucune mention de vente à emporter). Horaires non repris : le site dit seulement « ouvert tous les jours », avec un lundi possiblement fermé, ce qui n'est pas un créneau. Bières lues (blonde, ambrée, brune, blanche) non reprises : pas de lien par bière. Untappd non trouvé.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
@@ -187,7 +187,7 @@ Extrait lu : « Brasserie fermée le Week-end ! »
 
 Choix du vérificateur : Catégorie 0 : le site officiel parle de visite sur appel préalable et de revendeurs, jamais de vente ni de consommation à la brasserie. Téléphone 06 49 87 41 83 : portable, mais seule ligne publiée par la brasserie sur sa page Contact (règle du 21/10). E-mail jaisoif@lagolaye.fr non repris. Horaires accueil « de 9h à 16h30 » du lundi au vendredi (page Contact) ; « sur appel préalable » vient de la page Trouvez nos bières (non citée en source). Bières vides : le site dit seulement « Classiques, éphémères ou à façon » ; seule indication de style (Columbia, blonde IPA) vient d'un site tiers. Untappd : aucune page de brasserie trouvée, seulement un check-in d'utilisateur ; rien proposé. info-lux (annuaire tiers) confirme « Visite sur rendez-vous, merci de nous appeler au préalable », non repris comme source. Doublon : le candidat node/12825759716 « La Golaye » est le même lieu, à ne créer qu'une fois. Absent de data/breweries.json.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -236,12 +236,12 @@ Extrait lu : « C'est le lieu idéal pour découvrir notre gamme de bières que 
 
 Choix du vérificateur : Page lue via un résumé : les horaires, « vous pouvez déguster directement à la pression », « Nos tarifs des ventes à emporter » et le téléphone viennent de la même page. Lundi et dimanche non écrits, donc absents. Un seul bloc d'horaires (accueil), la page ne distinguant pas vente et accueil. Beers vide : la page d'accueil cite des noms (NEIPA, DIPA, Saison, Honey Tree) mais aucun passage exact utilisable. Pas d'Untappd vérifié. Le téléphone est celui de la brasserie, publié sur son site (pages contact et taproom).
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 12 h 09 (heure de Paris), accueil du public : ouvert jusqu’à 18 h, d’après les horaires publiés.
+> - À 12 h 40 (heure de Paris), accueil du public : ouvert jusqu’à 18 h, d’après les horaires publiés.
 > - Adresse
 > - 8 rue Christophe Denis, 88000 Épinal
 > - Pas encore dans la fiche : ses bières.
@@ -296,12 +296,12 @@ Extrait lu : « Horaires du bar - boutique »
 
 Choix du vérificateur : Le téléphone du site est 07 52 05 22 08, un mobile et le seul numéro de la brasserie. La fiche de l'office de la vallée de la Bruche donne 07 44 75 23 20, différent : écarté. Les horaires sont ceux du « bar-boutique », rangés en « accueil », lus sur la page de visite. Aucun lien Untappd trouvé. Styles de bière non écrits.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 12 h 09 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 12 h 40 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 16b avenue de Salm, 88210 Senones
 > - Pas encore dans la fiche : ses bières.
@@ -349,7 +349,7 @@ Extrait lu : « Vente et degustation de notre gamme des bières artisanales et v
 
 Choix du vérificateur : Deux numéros sur le site : 06 98 57 69 56 (« Brasserie ») et 06 25 28 77 42 (« Réservations »). Je retiens le premier, celui de la brasserie ; c'est un mobile, le seul numéro d'accueil. Le site écrit « 326 Layegoutte » alors que SIRENE et OSM écrivent « 30 Layegoutte » (même commune) : j'ai pris l'adresse du site. Page Untappd https://untappd.com/w/brasserie-la-bourlingueuse/478845 vue ouverte (nano-brasserie en France, 12 bières). Le site officiel n'y renvoie pas, donc je ne l'ai pas mise dans le contact, et je n'ai pas rempli les types de bière.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -390,7 +390,7 @@ Extrait lu : « Sie können unsere Biere auch in den Restaurants von Val d'Ajol 
 
 Choix du vérificateur : Page lue via un résumé (WebFetch), pas en direct. Seule source de la brasserie trouvée : une fiche d'office de tourisme (SIT Vosges), plus le registre SIRENE ; pas de fiche d'annuaire seule. Le site officiel val-heureuse.com n'a pas pu être ouvert (hôte non résolu dans cette session : il faut l'autoriser dans les réglages réseau, puis à relancer). Catégorie 0, non montée : la vente sur place n'est pas lue. Le fixe 03 29 65 18 17 est celui publié dans le bloc de la brasserie sur la fiche de l'office, pas celui de l'office. Aucun Untappd trouvé. Aucun horaire sur la page.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 3 novembre 2026 à 12:40, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -404,4 +404,4 @@ Choix du vérificateur : Page lue via un résumé (WebFetch), pas en direct. Seu
 > - [Site de la brasserie](https://www.val-heureuse.com/)
 > - Lu sur [vogesenmassiv.de](https://www.vogesenmassiv.de/sit/degbfc088327004123-brasserie-la-val-heureuse/) le 3 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : c7be566efb01
+Empreinte du lot : c305680b5919
