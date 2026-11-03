@@ -3010,7 +3010,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 ## S363 — L'installation de Chromium a le temps de finir *(27/10, issue #221)*
 
-`docs/stories/S363.md`, écrite avant le code, avec ses mesures sur les 100 derniers runs : apt télécharge parfois ses paquets à 44 ko/s (environ 590 s pour 24,9 Mo) ; le navigateur se télécharge en 9 s. L'installation de Chromium passe de 10 à 15 minutes partout (`porte`, `visuel`, `page-publiee`, `captures`), et les délais des jobs suivent. `tests/unit/workflows.test.ts` tient les deux, vus rouges. Verdict avec réserves : la semaine sans rouge se relève le 03/11, et #221 reste ouverte jusque-là.
+`docs/stories/S363.md`, écrite avant le code, avec ses mesures sur les 100 derniers runs : apt télécharge parfois ses paquets à 44 ko/s (environ 590 s pour 24,9 Mo) ; le navigateur se télécharge en 9 s. L'installation de Chromium passe de 10 à 15 minutes partout (`porte`, `visuel`, `page-publiee`, `captures`), et les délais des jobs suivent. `tests/unit/workflows.test.ts` tient les deux, vus rouges. Verdict avec réserves : la semaine sans rouge se relève le 03/11, et #221 reste ouverte jusque-là. Relevé du 03/11 : 25 runs de `main`, 75 installations, aucun échec, maximum 303 s ; verdict PASSE, #221 fermée.
 
 ## S364 — Contribuer : une faille, une PR, qui décide, ce que coûte la porte *(27/10, issue #227)*
 
