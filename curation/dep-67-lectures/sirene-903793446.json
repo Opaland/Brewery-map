@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:903793446",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Semblables",
+   "c": "Mietesheim",
+   "d": "67",
+   "lat": 48.87785,
+   "lon": 7.64052,
+   "km": 417.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La fiche de l'office de tourisme Alsace Verte indique « Vente à la propriété : Bières et softs » et des visites guidées pour groupes sur rendez-vous. Aucune dégustation ouverte n'est annoncée.",
+   "addr": "3 rue de l'étang, 67580 Mietesheim",
+   "src": "https://www.alsace-verte.com/fr/commerces-et-services/brasserie-les-semblables/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-semblables.fr/",
+    "source": "https://brasserie-semblables.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.alsace-verte.com/fr/commerces-et-services/brasserie-les-semblables/",
+   "https://brasserie-semblables.fr/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+de+l%27%C3%A9tang%2C+67580+Mietesheim&limit=5"
+  ],
+  "extrait": "Bières et softs",
+  "choix": "Source de catégorie : un office de tourisme, donc moyenne au plus. Le site officiel brasserie-semblables.fr confirme l'adresse mais ni la vente sur place, ni les horaires, ni un téléphone. J'ai écarté le 06 68 44 53 45 et les horaires du mercredi au samedi, vus seulement sur des fiches « halte gourde » du Parc des Vosges du Nord et non publiés par la brasserie. Le numéro +33 (0)3 88 80 89 70 est celui de l'office, écarté. Pas d'Untappd trouvé."
+ }
+}

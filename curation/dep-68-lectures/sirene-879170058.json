@@ -1,0 +1,60 @@
+{
+ "candidat": "sirene:879170058",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Suff'Bier",
+   "c": "Obersaasheim",
+   "d": "68",
+   "lat": 47.98964,
+   "lon": 7.55764,
+   "km": 334.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie invite à venir déguster sur place et à repartir avec ses bières. Il donne des horaires d'accueil du jeudi au samedi.",
+   "addr": "39 rue du Maréchal Leclerc, 68600 Obersaasheim",
+   "src": "https://brasserie-suffbier.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 24 90 87 57",
+    "site": "https://brasserie-suffbier.com/",
+    "source": "https://brasserie-suffbier.com/contact/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-suffbier.com/contact/",
+     "jeu": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "ven": [
+      [
+       "08:00",
+       "16:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Biergarten le samedi de 18h à 22h en été, selon programme ; soirée privée sur réservation.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserie-suffbier.com/",
+   "https://brasserie-suffbier.com/contact/",
+   "https://data.geopf.fr/geocodage/search?q=39+rue+du+Mar%C3%A9chal+Leclerc%2C+68600+Obersaasheim&limit=5"
+  ],
+  "extrait": "Possibilité de venir déguster les différentes bières, visiter la brasserie, et repartir avec vos bières préférées.",
+  "choix": "Conflit d'adresse : le site officiel (page d'accueil et page contact) écrit « 39, rue du Maréchal Leclerc, 68600 OBERSAASHEIM ». SIRENE écrit 13 B rue des Primeurs. Un résultat de recherche attribué à l'office de tourisme de Colmar donne aussi 13b rue des Primeurs, mais cette page est en 404 pour moi. J'ai gardé l'adresse de SIRENE, celle du candidat, et je laisse Cédric trancher. Le téléphone et les horaires sont ceux publiés par la brasserie sur son site, et ce site les rattache à 39 rue du Maréchal Leclerc. Le téléphone est un portable, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). Je n'ai trouvé aucun Untappd (recherche web, aucune page). Horaires de la page contact : « Jeudi et vendredi : 8h à 16h », « Samedi : 14h à 17h ». Le biergarten du samedi en été, de 18h à 22h « selon programme », et les soirées privées sur réservation ne sont pas repris."
+ }
+}

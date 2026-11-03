@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:842623043",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bucher Bernardswiller",
+   "c": "Bernardswiller",
+   "d": "67",
+   "lat": 48.4525,
+   "lon": 7.46393,
+   "km": 370.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Petite brasserie artisanale de village : le site de la brasserie annonce une vente sur place à la boutique, du mercredi et du samedi, avec livraison et retrait. Une dégustation de 3 bières n'est décrite que pour les visites de groupe de 4 à 8 adultes, pas comme un bar ouvert à tous.",
+   "addr": "6 place de l'Église, 67210 Bernardswiller",
+   "src": "https://www.labbb.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 81 21 69 23",
+    "site": "https://www.labbb.fr",
+    "source": "https://www.labbb.fr",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.labbb.fr",
+     "mer": [
+      [
+       "16:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.labbb.fr",
+   "https://data.geopf.fr/geocodage/search?q=6+place+de+l%27%C3%89glise%2C+67210+Bernardswiller&limit=5"
+  ],
+  "extrait": "POUR DECOUVRIR LES BBIERES IL Y A LA BBBOUTIQUE 6 PLACE DE L'EGLISE, BERNARDSWILLER MERCREDI DE 16H à 20H ET SAMEDI DE 14H A 17H",
+  "choix": "Catégorie 2 et non 1 : la page ne décrit pas de consommation sur place ouverte au public, seulement une visite de groupe avec dégustation. Le numéro est un portable (07), seule ligne publiée par la brasserie sur son site (règle du 21/10) ; il est aussi sur la fiche visit.alsace. Les noms des bières sont dans des images, donc non lus : beers vide. Untappd non trouvé sur la page. Les horaires sont ceux de la boutique, donc de la vente. Page lue via un résumé, passages entre guillemets rapportés par ce résumé."
+ }
+}

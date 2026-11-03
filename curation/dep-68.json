@@ -1,0 +1,913 @@
+{
+ "lot": "dep-68",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Timothy's Le Brasseur du Pape",
+    "c": "Eguisheim",
+    "d": "68",
+    "lat": 48.04229,
+    "lon": 7.30473,
+    "km": 326.9,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site de la brasserie dit qu'elle brasse sur place et qu'on est accueilli dans son taproom. Il ne dit rien de la vente à emporter.",
+    "addr": "13 Place de l'Église, 68420 Eguisheim",
+    "src": "https://www.brasserie-timothys.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-timothys.com",
+     "source": "https://www.brasserie-timothys.com",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "12:00",
+        "20:00"
+       ]
+      ],
+      "mar": [
+       [
+        "12:00",
+        "20:00"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "22:00"
+       ]
+      ],
+      "dim": [
+       [
+        "12:00",
+        "20:00"
+       ]
+      ],
+      "source": "https://www.brasserie-timothys.com",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasserie-timothys.com",
+    "https://data.geopf.fr/geocodage/search?q=13+Place+de+l%27%C3%89glise%2C+68420+Eguisheim&limit=5"
+   ],
+   "extrait": "the mother welcomes guests in the taproom.",
+   "choix": "Catégorie 1 en confiance faible, d'après la réponse de Cédric du 29/10 : on boit sur place, aucune vente à emporter n'est mentionnée. Téléphone écarté : le seul numéro lu est un portable (06 38 99 59 24) sur la page de l'office de tourisme d'Eguisheim-Rouffach (tourisme-eguisheim-rouffach.com, f253003754). Le site de la brasserie n'en publie aucun, donc le portable ne vient pas de la brasserie. Pas de page Untappd trouvée. Types de bière non lus, donc beers reste vide."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Pays Welche",
+    "c": "Lapoutroie",
+    "d": "68",
+    "lat": 48.15627,
+    "lon": 7.16634,
+    "km": 331.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le magasin de la brasserie est ouvert tous les jours, sauf le 25 décembre. La dégustation n'a lieu qu'avec la visite : la brasserie n'a pas de bar.",
+    "addr": "85 rue du Général Dufieux, 68650 Lapoutroie",
+    "src": "http://www.brasseriedupayswelche.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 89 47 28 13",
+     "site": "http://www.brasseriedupayswelche.fr",
+     "source": "http://www.brasseriedupayswelche.fr",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "dim": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Fermé le 25 décembre.",
+      "source": "http://www.brasseriedupayswelche.fr",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "http://www.brasseriedupayswelche.fr",
+    "https://data.geopf.fr/geocodage/search?q=85+rue+du+G%C3%A9n%C3%A9ral+Dufieux%2C+68650+Lapoutroie&limit=5"
+   ],
+   "extrait": "Magasin ouvert 7j / 7 (sauf le 25 décembre) 9h -12h et 14h - 18h",
+   "choix": "Catégorie 1 en confiance moyenne : la vente (magasin « ouvert 7j / 7 (sauf le 25 décembre) 9h -12h et 14h - 18h ») et la dégustation en visite sont lues sur la même page d'accueil, mais il n'y a ni bar ni consommation libre. L'adresse est celle du site (85 rue du Général Dufieux) ; OSM dit 86. Écartées : les bières de saison, au pain et à la framboise, dont le style est trop vague, et la contradiction du site sur les visites (« Ouverte du lundi au vendredi » contre un magasin 7 j sur 7), non reprise dans les horaires d'accueil. Le fixe est publié par la brasserie. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Lutterbach",
+    "c": "Lutterbach",
+    "d": "68",
+    "lat": 47.76006,
+    "lon": 7.2794,
+    "km": 301.3,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site officiel présente une micro-brasserie avec visite des caves et dégustation sur réservation, un restaurant et une grande terrasse d'été ouverte d'avril à octobre. Il ne parle pas de vente de bière à emporter et ne donne pas d'horaires.",
+    "addr": "2 rue du Houblon, 68460 Lutterbach",
+    "src": "https://brasserielutterbach.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 62 50 08 69",
+     "site": "https://brasserielutterbach.fr/",
+     "source": "https://brasserielutterbach.fr/CONTACT/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserielutterbach.fr/",
+    "https://brasserielutterbach.fr/CONTACT/",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+du+Houblon%2C+68460+Lutterbach&limit=5"
+   ],
+   "extrait": "Le Restaurant Cadre chaleureux dans une belle salle voûtée, lieu historique et emblématique de Lutterbach",
+   "choix": "Catégorie 1 en confiance moyenne : on consomme sur place (dégustation sur réservation, restaurant, terrasse), mais la vente à emporter n'est pas lue. Pas d'horaires proposés : le site n'en donne pas. Le téléphone, un 09, est publié par la brasserie sur sa page Contact. Les quatre bières (Pilsner, Weizen, Porter, IPA) viennent de la page « Nos Bières » du site officiel, pas d'Untappd ; Pilsner est rangée en lager et Weizen en blanche. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Cabrio",
+    "c": "Fellering",
+    "d": "68",
+    "lat": 47.88667,
+    "lon": 6.99384,
+    "km": 299.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale qui existe (site officiel). Le site ne dit pas si l'on peut acheter ou boire sur place ; il parle de vente « au plus près du consommateur » et de visites dégustations sur rendez-vous pour des groupes.",
+    "addr": "4 Rue des Fabriques, 68470 Fellering",
+    "src": "https://www.brasseriecabrio.fr/la-brasserie/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriecabrio.fr/",
+     "source": "https://www.brasseriecabrio.fr/la-brasserie/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasseriecabrio.fr/la-brasserie/",
+    "https://data.geopf.fr/geocodage/search?q=4+Rue+des+Fabriques%2C+68470+Fellering&limit=5"
+   ],
+   "extrait": "Des visites dégustations peuvent être organisées sur rendez vous pour des groupes.",
+   "choix": "Lu via un résumé (WebFetch), pas la page brute. Commune : le site et Gault&Millau disent Fellering (68470), alors que le candidat OSM dit Husseren-Wesserling ; l'adresse vient de l'URL du lien « Plan d'accès », pas d'un texte visible. Catégorie 0 : seul Gault&Millau (annuaire) parle d'achat sur place, ce qui ne suffit pas. Le seul numéro publié est un portable, retenu parce qu'il est la seule ligne de la brasserie. Untappd : aucune page trouvée. Pas d'horaires publiés."
+  },
+  {
+   "fiche": {
+    "n": "Micro-brasserie La B'ric",
+    "c": "Soultz-Haut-Rhin",
+    "d": "68",
+    "lat": 47.88757,
+    "lon": 7.22637,
+    "km": 309.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Micro-brasserie de Soultz-Haut-Rhin, en activité depuis janvier 2016 d'après l'office de tourisme de Guebwiller. Ce qu'on peut y faire n'est pas établi : l'office ne dit rien de la vente ni de la dégustation, et Gault&Millau (annuaire seul) conseille de prendre rendez-vous.",
+    "addr": "Soultz-Haut-Rhin",
+    "src": "https://tourisme-guebwiller.fr/en/what-to-see-what-to-do-alsace/tasting-food-local-alsace-gastronomy-guebwiller/local-products-and-food",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://tourisme-guebwiller.fr/en/what-to-see-what-to-do-alsace/tasting-food-local-alsace-gastronomy-guebwiller/local-products-and-food",
+    "https://data.geopf.fr/geocodage/search?q=Soultz-Haut-Rhin&type=municipality&limit=5"
+   ],
+   "extrait": "Micro-brasserie La B'RIC",
+   "choix": "Page de l'office de Guebwiller lue via un résumé de WebFetch (mon extrait vient donc d'un résumé, à recontrôler). Je n'ai trouvé ni site, ni Untappd, ni Facebook. Aucune catégorie 1 à 4 : rien n'est lu sur la vente. Téléphone écarté : le seul numéro vu est un mobile lu sur Gault&Millau (annuaire), pas publié par la brasserie. Adresse laissée vide : la rue vient de SIRENE et de Gault&Millau pour un entrepreneur individuel, donc peut-être un domicile (question à Cédric). Le nom des exploitants n'est pas recopié."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Saint-Louis",
+    "c": "Saint-Louis",
+    "d": "68",
+    "lat": 47.59704,
+    "lon": 7.55319,
+    "km": 302.2,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Fiche d'un site de tourisme régional (Pays de Barr) : des bières de spécialité y sont brassées, vendues à la boutique de la brasserie. Ni dégustation ni consommation sur place citées sur cette page. Le site officiel (saint-louis.biz) répondait 503 le 03/11 : à relire.",
+    "addr": "123 rue de Mulhouse, 68300 Saint-Louis",
+    "src": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 89 91 04 58",
+     "source": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "16:00"
+       ]
+      ],
+      "source": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+    "https://data.geopf.fr/geocodage/search?q=123+rue+de+Mulhouse%2C+68300+Saint-Louis&limit=5"
+   ],
+   "extrait": "The beers can be purchased in the brewery shop as well as local produce and Alsatian souvenirs.",
+   "choix": "Page lue directement (fiche d'un site de tourisme, pas le site de la brasserie). Une confiance 'moyenne' au plus, faute du site officiel et d'Untappd. Catégorie 2 : la vente à la boutique est citée, la consommation sur place ne l'est pas. Téléphone : 03 89 91 04 58 est donné dans le bloc de la brasserie de cette fiche, et un autre annuaire donne contact@saint-louis.biz, donc je le retiens comme fixe de la brasserie. Cédric peut vérifier qu'il n'est pas celui de l'office. Je ne propose pas le site saint-louis.biz : il n'est pas lisible sur la page source. Les horaires viennent de cette même fiche (2026), 'vente' seulement. Les autres annuaires qui donnent d'autres horaires sont écartés."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Sainte Cru",
+    "c": "Colmar",
+    "d": "68",
+    "lat": 48.11206,
+    "lon": 7.37737,
+    "km": 336.4,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie avec taproom : bières à la pression sur place et à emporter, horaires d'ouverture publiés par la brasserie.",
+    "addr": "14 rue Denis Papin, 68000 Colmar",
+    "src": "https://sainte-cru.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 66 78 45 16",
+     "site": "https://sainte-cru.com",
+     "untappd": "https://untappd.com/MicrobrasserieSainteCrucienne",
+     "source": "https://sainte-cru.com/contact",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ],
+       [
+        "15:00",
+        "20:30"
+       ]
+      ],
+      "source": "https://sainte-cru.com",
+      "verifieLe": "2026-11-03"
+     },
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "22:30"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "13:00"
+       ],
+       [
+        "15:00",
+        "20:30"
+       ]
+      ],
+      "source": "https://sainte-cru.com",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://sainte-cru.com",
+    "https://sainte-cru.com/contact",
+    "https://data.geopf.fr/geocodage/search?q=14+rue+Denis+Papin%2C+68000+Colmar&limit=5"
+   ],
+   "extrait": "notre bar offre un cadre parfait pour se détendre et profiter de bières de qualité. Challenge tes amis au baby-foot ou emporte tes bières préférées.",
+   "choix": "Lecture via un résumé. Deux portables sont publiés sur /contact : 07 66 78 45 16 (bar/bureau) et 06 74 10 67 81 (logistique, commandes professionnelles, 9 rue Denis Papin). Je retiens le premier, celui du bar, et j'écarte le second. C'est un portable publié par la brasserie. Untappd : la page https://untappd.com/MicrobrasserieSainteCrucienne s'ouvre. Elle liste des IPA, une Belgian Tripel, une Smoked Beer, une Red Ale et d'autres. Je ne propose pas de bières, car je ne connais pas le format attendu de `beers` et je n'ai pas copié les notes."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Saint Alphonse",
+    "c": "Vogelgrun",
+    "d": "68",
+    "lat": 48.01124,
+    "lon": 7.57396,
+    "km": 336.8,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, page Untappd). Le site parle de visites le samedi avec dégustation, mais ne dit ni qu'on achète à emporter ni qu'on boit sur place : catégorie à confirmer.",
+    "addr": "2 rue du Rothgern, 68600 Vogelgrun",
+    "src": "https://brasseriesaintalphonse.com/nous-trouver",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 89 72 70 07",
+     "site": "https://brasseriesaintalphonse.com",
+     "source": "https://brasseriesaintalphonse.com/nous-trouver",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasseriesaintalphonse.com/nous-trouver",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+du+Rothgern%2C+68600+Vogelgrun&limit=5"
+   ],
+   "extrait": "Brasserie Artisanale Saint Alphonse 2 rue du Rothgern",
+   "choix": "Lu directement sur le site officiel, page « Nous trouver » (la page d'accueil, « Visites » et « Contact » ne donnent ni vente ni horaires). Horaires d'hiver non repris : la page les appelle « Horaires d'ouverture (horaires d'hiver) » sans dire s'il s'agit d'accueil ou de vente, et il n'y a pas de créneaux d'été. Page Untappd https://untappd.com/w/brasserie-saint-alphonse/71826 : ouverte, nom et lieu (Vogelgrun) concordent. Elle n'est pas dans contact, car la page source du contact ne la porte pas. À ajouter si Cédric le veut. Bières non reprises : je n'ai pas lu la liste complète sur Untappd. La visite à 6 € avec dégustation (samedi 10 h, inscription obligatoire) n'est pas assez pour la catégorie 1. L'adresse 2 rue du Rothgern est celle de la page ; la page conseille « 1 rue du Merle » pour le GPS."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Rhin",
+    "c": "Morschwiller-le-Bas",
+    "d": "68",
+    "lat": 47.73664,
+    "lon": 7.28413,
+    "km": 299.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La brasserie vend ses bières en bouteilles de 33, 50 et 75 cl, à l'unité. La dégustation n'a lieu qu'avec la visite, pour un groupe de six personnes au moins et sur réservation.",
+    "addr": "2 rue de la Source, 68790 Morschwiller-le-Bas",
+    "src": "http://bieredurhin.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 89 77 23 83",
+     "site": "http://bieredurhin.com",
+     "source": "http://bieredurhin.com",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "http://bieredurhin.com",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+de+la+Source%2C+68790+Morschwiller-le-Bas&limit=5"
+   ],
+   "extrait": "Et chaque bière est vendu à l'unité.",
+   "choix": "Confiance moyenne et non solide : le site ne parle de dégustation que dans le cadre d'une visite de groupe (6 personnes minimum, réservation obligatoire). La phrase sur la vente (« Et chaque bière est vendu à l'unité ») est citée par le résumé du site, mais elle est absente de l'extrait. Gault&Millau (fr.gaultmillau.com/fr/artisans/brasserie-du-rhin) écrit « La maison propose la dégustation sur place » et « visites sur réservation, ou bien le samedi à partir de onze heures ». Cette page est une source secondaire. Le téléphone « 06 89 77 23 83 » est un portable, seule ligne publiée par la brasserie sur son site (règle du 21/10). Aucun horaire d'ouverture n'est publié, donc aucun bloc d'horaires. Je n'ai trouvé aucun Untappd (aucune page). L'annuaire Cylex donne des horaires (vendredi 17h-19h30, samedi 10h-19h) : je ne les reprends pas, un annuaire seul ne suffit pas. Gault&Millau dit que la brasserie a deux sites. Le site officiel ne cite que Morschwiller-le-Bas. Types retirés : bière de printemps, de Noël et d'Oktober, saisonnières sans type fixe."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Marcaire",
+    "c": "Muhlbach-sur-Munster",
+    "d": "68",
+    "lat": 48.02462,
+    "lon": 7.08675,
+    "km": 315.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale lue sur la fiche de l'office de tourisme Visit Alsace : visites en semaine sur rendez-vous, dégustation incluse dans la visite payante. Vente à emporter ou sur place non dite : catégorie à confirmer.",
+    "addr": "8 rue de la Gare, 68380 Muhlbach-sur-Munster",
+    "src": "https://visit.alsace/en/231008719-la-brasserie-du-marcaire",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://visit.alsace/en/231008719-la-brasserie-du-marcaire",
+    "https://data.geopf.fr/geocodage/search?q=8+rue+de+la+Gare%2C+68380+Muhlbach-sur-Munster&limit=5"
+   ],
+   "extrait": "Une dégustation est incluse dans la visite payante.",
+   "choix": "Lu via un résumé de la page Visit Alsace (office de tourisme régional). Pas de site officiel trouvé (seulement un lien Facebook, écarté). Pas de page Untappd trouvée. Gault&Millau et les pages de l'office de Colmar confirment l'existence, mais ce sont des annuaires et un office : confiance vide. Téléphone non repris : la fiche de l'office donne un seul numéro, un portable (06 74 67 23 04), publié par l'office et non par la brasserie. Horaires non repris : « visites en semaine sur rendez-vous », pas de créneaux."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Vignoble",
+    "c": "Ribeauvillé",
+    "d": "68",
+    "lat": 48.18913,
+    "lon": 7.33845,
+    "km": 341.5,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site officiel dit que les bières se dégustent sur place au bar ; il ne décrit pas de vente à emporter en magasin (vente en ligne seulement).",
+    "addr": "15 rue de l'Industrie, 68150 Ribeauvillé",
+    "src": "https://www.brasserie-vignoble.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 89 73 60 97",
+     "site": "https://www.brasserie-vignoble.fr/",
+     "source": "https://www.brasserie-vignoble.fr/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasserie-vignoble.fr/",
+    "https://data.geopf.fr/geocodage/search?q=15+rue+de+l%27Industrie%2C+68150+Ribeauvill%C3%A9&limit=5"
+   ],
+   "extrait": "Toutes nos bières peuvent être dégustées sur place au bar et en période estivale sur le biergarten de Riquewihr.",
+   "choix": "Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : on boit sur place, la vente à emporter n'est pas dite. Pas d'horaires : ceux de deux pages d'office se contredisent, et aucun n'est sur le site. Pas de lien Untappd : le site n'en porte aucun et aucune page n'a été trouvée. Pas de types de bière : les 8 produits du site ne sont pas classés par style. Le site cite aussi le biergarten de Riquewihr, mais l'adresse retenue est celle de Ribeauvillé, la seule que le site donne."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie artisanale des Quatre Pays",
+    "c": "Hirtzbach",
+    "d": "68",
+    "lat": 47.59829,
+    "lon": 7.22384,
+    "km": 285.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie ouverte en 2017. L'office de tourisme du Sundgau propose une visite guidée gratuite (2 h, sur inscription) du parc Reinach et de la brasserie, départ de la mairie. Vente et horaires non publiés sur les pages lues.",
+    "addr": "26 rue de Lattre de Tassigny, 68118 Hirtzbach",
+    "src": "https://www.sundgau-sud-alsace.fr/en/detail/35/2424/242019035/visite-du-parc-reinach-et-de-la-brasserie-des-4-pays-hirtzbach/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.sundgau-sud-alsace.fr/en/detail/35/2424/242019035/visite-du-parc-reinach-et-de-la-brasserie-des-4-pays-hirtzbach/",
+    "https://data.geopf.fr/geocodage/search?q=Hirtzbach&type=municipality&limit=5"
+   ],
+   "extrait": "the authenticity of the Brasserie des 4 Pays",
+   "choix": "Existence : ligne SIRENE (26 rue du Mal de Lattre de Tassigny) + fiche de visite de l'office du Sundgau (+ un annuaire de sociétés, qui ne compte pas). Pas de site officiel ni d'Untappd trouvés. Ce qu'on peut y faire n'est pas établi : catégorie 0. Téléphone non repris : le +33 3 89 40 02 90 de la page est celui de l'office, pas celui de la brasserie. Adresse laissée vide : la page ne la donne pas. La seule adresse du lieu est la mairie, point de départ de la visite. Un point OSM existe (node/5983901622)."
+  },
+  {
+   "fiche": {
+    "n": "S'Humpaloch",
+    "c": "Lautenbach",
+    "d": "68",
+    "lat": 47.93804,
+    "lon": 7.17826,
+    "km": 312,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio artisanale (blonde, blanche, ambrée, noire). Le site officiel est « en construction » et ne dit pas si on peut acheter sur place. La bière est vendue à l'office de tourisme de Guebwiller et sur des marchés.",
+    "addr": "21 A rue de la Vallée, 68610 Lautenbach",
+    "src": "https://paysdebarr.fr/en/our-favourites/detail/232007118",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 50 17 69 97",
+     "site": "https://www.humpaloch.fr/",
+     "source": "https://www.humpaloch.fr/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://paysdebarr.fr/en/our-favourites/detail/232007118",
+    "https://www.humpaloch.fr/",
+    "https://data.geopf.fr/geocodage/search?q=21+A+rue+de+la+Vall%C3%A9e%2C+68610+Lautenbach&limit=5"
+   ],
+   "extrait": "Beers on sale at the Guebwiller Tourist Office.",
+   "choix": "Lecture via un résumé (WebFetch) de l'office et du site humpaloch.fr. La page de l'office et le site officiel donnent la même adresse (21 A rue de la Vallée, Lautenbach) et le même portable. Ce portable est la seule ligne publiée par la brasserie sur son site : repris (règle du 21/10). Gault&Millau place la brasserie à Guebwiller (2 chemin du Peternit, fixe 03 89 76 84 08) : annuaire seul, écarté, d'où la catégorie 0. Aucun horaire n'est donné. Aucun passage lu ne dit qu'on achète ou qu'on boit sur place."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bisaiguë",
+    "c": "Kaysersberg Vignoble",
+    "d": "68",
+    "lat": 48.13896,
+    "lon": 7.26181,
+    "km": 333.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie artisanale avec un bar de dégustation, d'après deux offices de tourisme. Aucune source ne parle de vente à emporter.",
+    "addr": "56 rue du Général de Gaulle, 68240 Kaysersberg Vignoble",
+    "src": "https://www.tourisme-eguisheim-rouffach.com/EN/Brewery-Bisaigue-f230110511.html",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.tourisme-eguisheim-rouffach.com/EN/Brewery-Bisaigue-f230110511.html",
+    "https://data.geopf.fr/geocodage/search?q=56+rue+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+68240+Kaysersberg+Vignoble&limit=5"
+   ],
+   "extrait": "I have created a tasting bar with a vintage atmosphere, inspired by my travels.",
+   "choix": "Lecture via un résumé (WebFetch) des deux pages d'office : tourisme-eguisheim-rouffach.com et paysdebarr.fr/…/230110511, qui disent la même chose. Le site officiel bisaigue.alsace n'a pas répondu (délai dépassé), donc la confiance reste faible. Le mobile 06 17 31 03 48 est publié sur ces offices seulement, pas par la brasserie : non repris. Horaires de l'office (« Janvier à fin mars vendredi 16h-22h et samedi 16h-20h », plus des périodes saisonnières) non repris, car ils sont saisonniers et lus sans le texte exact. Site non repris, faute de page lue ouverte. Les noms de bières cités ne sont pas lus sur une page de brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie TAAL",
+    "c": "Wihr-au-Val",
+    "d": "68",
+    "lat": 48.04536,
+    "lon": 7.20728,
+    "km": 322.9,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le brewpub de la brasserie sert les bières à la pression au bar, du mardi au samedi ; une boutique vend la bière, des coffrets et des verres. La boutique n'a pas d'horaires publiés.",
+    "addr": "4 route de Soultzbach, 68230 Wihr-au-Val",
+    "src": "https://www.biere-taal.alsace/fr/bistro",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 89 73 17 68",
+     "site": "https://www.biere-taal.alsace/",
+     "source": "https://www.biere-taal.alsace/visites",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mar": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:00",
+        "21:00"
+       ]
+      ],
+      "remarque": "Ouvertures ponctuelles lors de fêtes, jours fériés ou animations, annoncées sur la page du brewpub.",
+      "source": "https://www.biere-taal.alsace/fr/bistro",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.biere-taal.alsace/fr/bistro",
+    "https://www.biere-taal.alsace/visites",
+    "https://data.geopf.fr/geocodage/search?q=4+route+de+Soultzbach%2C+68230+Wihr-au-Val&limit=5"
+   ],
+   "extrait": "en les dégustant à la pression, accoudé au bar, confortablement installé dans nos sofas",
+   "choix": "Cat 1 en confiance moyenne : le site officiel montre une boutique qui vend de la bière et une dégustation après visite (sur place), mais ne dit pas qu'on peut y boire hors visite. Un lien « Brewpub » existe dans le menu (page lue : 404), donc rien de plus. Les pages Boutique, Contact et Vente en ligne ne donnent ni horaires ni retrait sur place. Fixe lu sur la page Visites (réservations « par e-mail ou par téléphone »), écrit « 0389731768 » sur la page. L'adresse de la page Contact (« 4 route de Soultzbach 68230 WIHR AU VAL ») correspond à celle de SIRENE. Un point OSM « Brasserie de Munster TAAL » est rangé à Soultzbach-les-Bains (node/8069402085) : probablement la même brasserie, à rapprocher (autre paquet). Fondue avec la lecture du point OSM node/8069402085 : bar et horaires lus sur la page du brewpub, téléphone sur la page des visites."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Grillen",
+    "c": "Colmar",
+    "d": "68",
+    "lat": 48.07569,
+    "lon": 7.37242,
+    "km": 333,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Fabrique de bière et brewpub du quartier du Grillenbreit : bières à la pression sur place et « Boutique de la Brasserie ». Vente à emporter non détaillée sur la page.",
+    "addr": "31 rue des Jardins, 68000 Colmar",
+    "src": "https://brasseriedugrillen.com",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 68 61 03 80",
+     "site": "https://brasseriedugrillen.com",
+     "source": "https://brasseriedugrillen.com",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mar": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "mer": [
+       [
+        "17:00",
+        "22:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "source": "https://brasseriedugrillen.com",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasseriedugrillen.com",
+    "https://data.geopf.fr/geocodage/search?q=31+rue+des+Jardins%2C+68000+Colmar&limit=5"
+   ],
+   "extrait": "En plus des 9 bières on tap (à la pression) d'ici et d'ailleurs",
+   "choix": "Cat 1 en confiance moyenne : le site officiel montre un bar (pression) et une Boutique, mais ne dit pas noir sur blanc ce qui s'emporte. La fabrique de bière est confirmée par la même page : « La Brasserie du Grillen est une fabrique de bière située dans le quartier du Grillenbreit à Colmar, en Alsace. » (autre passage, même page). Horaires recopiés de la page d'accueil du site, lus dans le résumé. Le même planning est donné par l'office de Colmar. Untappd : aucune page trouvée, rien proposé."
+  },
+  {
+   "fiche": {
+    "n": "La Bicéphale",
+    "c": "Blotzheim",
+    "d": "68",
+    "lat": 47.60535,
+    "lon": 7.50662,
+    "km": 300.4,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie bio ; sa taproom accueille sur place (pression, bouteilles). La vente à emporter n'est pas mentionnée sur la page du bar. Les sites de tourisme la disent à Sierentz, la fiche garde l'adresse du registre SIRENE et de visit.alsace.",
+    "addr": "14 rue de l'Artisanat, 68730 Blotzheim",
+    "src": "https://labicephale.fr/le-bar/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://labicephale.fr",
+     "source": "https://labicephale.fr",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "18:00"
+       ]
+      ],
+      "source": "https://labicephale.fr/le-bar/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://labicephale.fr/le-bar/",
+    "https://labicephale.fr",
+    "https://data.geopf.fr/geocodage/search?q=14+rue+de+l%27Artisanat%2C+68730+Blotzheim&limit=5"
+   ],
+   "extrait": "La Taproom (bar) de la brasserie vous accueille dans un espace chaleureux et cosy",
+   "choix": "Lecture via un résumé. Catégorie 1 avec confiance faible, selon la réponse de Cédric du 29/10 (on boit sur place, la vente à emporter n'est pas dite). La page du bar ne donne ni adresse ni téléphone. L'adresse vient de visit.alsace.com (un office) et du registre SIRENE. Les sites de tourisme parlent aussi de Sierentz (9 rue du Capitaine Dreyfus), ce qui est contradictoire. Je n'ai pas repris le portable 06 18 49 43 50, lu seulement sur un office. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Suff'Bier",
+    "c": "Obersaasheim",
+    "d": "68",
+    "lat": 47.98964,
+    "lon": 7.55764,
+    "km": 334.2,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Le site de la brasserie invite à venir déguster sur place et à repartir avec ses bières. Il donne des horaires d'accueil du jeudi au samedi.",
+    "addr": "39 rue du Maréchal Leclerc, 68600 Obersaasheim",
+    "src": "https://brasserie-suffbier.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 24 90 87 57",
+     "site": "https://brasserie-suffbier.com/",
+     "source": "https://brasserie-suffbier.com/contact/",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "08:00",
+        "16:00"
+       ]
+      ],
+      "ven": [
+       [
+        "08:00",
+        "16:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "remarque": "Biergarten le samedi de 18h à 22h en été, selon programme ; soirée privée sur réservation.",
+      "source": "https://brasserie-suffbier.com/contact/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserie-suffbier.com/",
+    "https://brasserie-suffbier.com/contact/",
+    "https://data.geopf.fr/geocodage/search?q=39+rue+du+Mar%C3%A9chal+Leclerc%2C+68600+Obersaasheim&limit=5"
+   ],
+   "extrait": "Possibilité de venir déguster les différentes bières, visiter la brasserie, et repartir avec vos bières préférées.",
+   "choix": "Conflit d'adresse : le site officiel (page d'accueil et page contact) écrit « 39, rue du Maréchal Leclerc, 68600 OBERSAASHEIM ». SIRENE écrit 13 B rue des Primeurs. Un résultat de recherche attribué à l'office de tourisme de Colmar donne aussi 13b rue des Primeurs, mais cette page est en 404 pour moi. J'ai gardé l'adresse de SIRENE, celle du candidat, et je laisse Cédric trancher. Le téléphone et les horaires sont ceux publiés par la brasserie sur son site, et ce site les rattache à 39 rue du Maréchal Leclerc. Le téléphone est un portable, mais c'est la seule ligne publiée par la brasserie (règle du 21/10). Je n'ai trouvé aucun Untappd (recherche web, aucune page). Horaires de la page contact : « Jeudi et vendredi : 8h à 16h », « Samedi : 14h à 17h ». Le biergarten du samedi en été, de 18h à 22h « selon programme », et les soirées privées sur réservation ne sont pas repris."
+  },
+  {
+   "fiche": {
+    "n": "Banz",
+    "c": "Lautenbach",
+    "d": "68",
+    "lat": 47.94091,
+    "lon": 7.16488,
+    "km": 311.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie associative créée en 2023 par 13 amis. Bouteilles de 75 cl vendues sur place seulement, de septembre à mars ; le reste de l'année, surtout des fûts pour des événements d'été.",
+    "addr": "Lautenbach",
+    "src": "https://www.tourisme-guebwiller.fr/?p=444041",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.tourisme-guebwiller.fr/?p=444041",
+    "https://data.geopf.fr/geocodage/search?q=Lautenbach&type=municipality&limit=5"
+   ],
+   "extrait": "Created in 2023, the brewery offers 75cl bottles of its production from September to March.",
+   "choix": "Seule source : la fiche de l'office de tourisme de Guebwiller (confiance au plus moyenne), plus la ligne SIRENE (3 rue du Presbytère, Lautenbach). Aucun site ni Untappd trouvé. Le passage est celui de la version anglaise lue dans le résumé : à contrôler. Adresse laissée vide : la fiche de l'office n'a ni rue ni numéro, et celle de SIRENE n'est pas sur la source. Cat 2 parce que la fiche ne parle que de vente sur place, jamais de boisson. Téléphone non repris : le seul numéro (06 28 21 49 11) est un portable lu sur un office, pas publié par la brasserie. Cédric a une règle pour ce cas, qu'on peut appliquer s'il le veut. Horaires non publiés. Une autre brasserie, S'Humpaloch (sirene:837473792, autre paquet), est dans le même annuaire."
+  }
+ ]
+}

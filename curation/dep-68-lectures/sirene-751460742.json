@@ -1,0 +1,115 @@
+{
+ "candidat": "sirene:751460742",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sainte Cru",
+   "c": "Colmar",
+   "d": "68",
+   "lat": 48.11206,
+   "lon": 7.37737,
+   "km": 336.4,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie avec taproom : bières à la pression sur place et à emporter, horaires d'ouverture publiés par la brasserie.",
+   "addr": "14 rue Denis Papin, 68000 Colmar",
+   "src": "https://sainte-cru.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 66 78 45 16",
+    "site": "https://sainte-cru.com",
+    "untappd": "https://untappd.com/MicrobrasserieSainteCrucienne",
+    "source": "https://sainte-cru.com/contact",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://sainte-cru.com",
+     "mar": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "20:30"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    },
+    {
+     "nature": "vente",
+     "source": "https://sainte-cru.com",
+     "mar": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "20:30"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://sainte-cru.com",
+   "https://sainte-cru.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+Denis+Papin%2C+68000+Colmar&limit=5"
+  ],
+  "extrait": "notre bar offre un cadre parfait pour se détendre et profiter de bières de qualité. Challenge tes amis au baby-foot ou emporte tes bières préférées.",
+  "choix": "Lecture via un résumé. Deux portables sont publiés sur /contact : 07 66 78 45 16 (bar/bureau) et 06 74 10 67 81 (logistique, commandes professionnelles, 9 rue Denis Papin). Je retiens le premier, celui du bar, et j'écarte le second. C'est un portable publié par la brasserie. Untappd : la page https://untappd.com/MicrobrasserieSainteCrucienne s'ouvre. Elle liste des IPA, une Belgian Tripel, une Smoked Beer, une Red Ale et d'autres. Je ne propose pas de bières, car je ne connais pas le format attendu de `beers` et je n'ai pas copié les notes."
+ }
+}

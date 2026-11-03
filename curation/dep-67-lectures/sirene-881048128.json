@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:881048128",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Guilhéon",
+   "c": "Blienschwiller",
+   "d": "67",
+   "lat": 48.34186,
+   "lon": 7.41657,
+   "km": 358.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site officiel présente des bières artisanales maison, non filtrées et non pasteurisées, et un créneau le samedi de 10 h à 12 h. Il ne dit ni si l'on peut acheter ni si l'on peut boire sur place. Il recommande de contacter la brasserie avant de venir. Le portable est le seul numéro publié.",
+   "addr": "7 rue de l'Ungersberg, 67650 Blienschwiller",
+   "src": "https://brasserieguilheon.wixsite.com/website",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 58 52 67 14",
+    "site": "https://brasserieguilheon.wixsite.com/website",
+    "source": "https://brasserieguilheon.wixsite.com/website",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserieguilheon.wixsite.com/website",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+de+l%27Ungersberg%2C+67650+Blienschwiller&limit=5"
+  ],
+  "extrait": "Il est fortement recommandé de nous contacter avant de venir.",
+  "choix": "Page lue via un résumé. Le créneau du samedi n'est pas proposé en horaires, car le site ne dit pas de quelle nature il est (accueil ou vente). Portable retenu car c'est le seul numéro publié."
+ }
+}

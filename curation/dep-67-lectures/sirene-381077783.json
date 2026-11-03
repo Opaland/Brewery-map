@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:381077783",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Licorne",
+   "c": "Saverne",
+   "d": "67",
+   "lat": 48.74113,
+   "lon": 7.379,
+   "km": 394.4,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, siège à Saverne, logistique à Steinbourg). Aucune vente ni accueil sur place n'est établi : le site renvoie vers « Où acheter ? » et ne donne ni boutique, ni visite, ni horaires.",
+   "addr": "60 rue de Dettwiller, 67700 Saverne",
+   "src": "https://brasserielicorne.com/brasserie-licorne/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 88 02 19 99",
+    "site": "https://www.brasserielicorne.com/",
+    "source": "https://brasserielicorne.com/brasserie-licorne/contact/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserielicorne.com/brasserie-licorne/contact/",
+   "https://data.geopf.fr/geocodage/search?q=60+rue+de+Dettwiller%2C+67700+Saverne&limit=5"
+  ],
+  "extrait": "BRASSERIE LICORNE 60 rue de Dettwiller CS40019 67700 SAVERNE",
+  "choix": "Le 03 88 02 19 99 est celui de la page contact officielle, la même pour le siège, la livraison professionnelle et la logistique. Je le retiens faute d'autre ligne ; Cédric peut l'écarter, car il s'adresse peut-être plus aux professionnels qu'aux clients. Le site dit « Nous vous ouvrons les portes de notre brasserie » (rubrique magazine), sans aucun détail : je n'en tire pas de catégorie. Steinbourg est une adresse de logistique, pas un lieu d'accueil."
+ }
+}

@@ -1,0 +1,887 @@
+{
+ "lot": "dep-67",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Uberach",
+    "c": "Val-de-Moder",
+    "d": "67",
+    "lat": 48.84036,
+    "lon": 7.61337,
+    "km": 412.8,
+    "cat": 2,
+    "conf": "faible",
+    "note": "Brasserie de Val de Moder. Boutique ouverte du lundi au vendredi ; visites avec dégustation l'été et sur rendez-vous.",
+    "addr": "5 rue du Cerf",
+    "src": "https://www.brasserie-uberach.fr/?page=visiter",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "03 88 07 07 77",
+     "site": "https://www.brasserie-uberach.fr/",
+     "source": "https://www.brasserie-uberach.fr/?page=contact",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "08:30",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "17:30"
+       ]
+      ],
+      "mar": [
+       [
+        "08:30",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "17:30"
+       ]
+      ],
+      "mer": [
+       [
+        "08:30",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "17:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "08:30",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "17:30"
+       ]
+      ],
+      "ven": [
+       [
+        "08:30",
+        "12:00"
+       ],
+       [
+        "13:00",
+        "17:30"
+       ]
+      ],
+      "remarque": "Visites avec dégustation : jeudi et vendredi à 10h30 et 16h00 en juillet-août ; toute l'année sur rendez-vous.",
+      "source": "https://www.brasserie-uberach.fr/?page=visiter",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasserie-uberach.fr/?page=visiter",
+    "https://www.brasserie-uberach.fr/?page=contact",
+    "https://data.geopf.fr/geocodage/search?q=Val-de-Moder&type=municipality&limit=5"
+   ],
+   "extrait": "Horaires d'ouverture de la boutique, du lundi au vendredi de 8h30 à 12h00 et de 13h00 à 17h30.",
+   "choix": "Catégorie 2 en confiance faible : la page ne dit pas noir sur blanc quels produits la boutique vend. La dégustation fait partie de la visite payante, ce qui ne prouve pas qu'on puisse boire sur place en dehors d'elle. Téléphone 03 88 07 07 77 : le numéro du contact, également donné pour les groupes. Les horaires de visite, juillet-août le jeudi et le vendredi à 10h30 et 16h00 et le reste de l'année sur rendez-vous, vont dans la remarque de la fiche."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Pastel",
+    "c": "Dossenheim-sur-Zinsel",
+    "d": "67",
+    "lat": 48.80997,
+    "lon": 7.40623,
+    "km": 402,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale (bières traditionnelles, fruitées, au pain), site officiel à la même adresse. Le site ne dit pas qu'on peut acheter sur place : commande auprès du brasseur ou points de vente habituels. Visites sur rendez-vous.",
+    "addr": "11 rue du Printemps 67330 Dossenheim-sur-Zinsel",
+    "src": "https://bierelapastel.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 08 05 18 30",
+     "site": "https://bierelapastel.fr",
+     "source": "https://bierelapastel.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://bierelapastel.fr",
+    "https://data.geopf.fr/geocodage/search?q=11+rue+du+Printemps+67330+Dossenheim-sur-Zinsel&limit=5"
+   ],
+   "extrait": "passer commande auprès de votre brasseur",
+   "choix": "Site officiel bierelapastel.fr lu via un résumé. L'adresse (11 rue du printemps, Dossenheim-sur-Zinsel) y est la même que sur la fiche de l'office de tourisme de Hanau-La Petite Pierre (visite du 24/10/2026, terminée). Gault&Millau donne une autre adresse (Geiswiller-Zœbersdorf), non retenue. Le seul numéro publié est un mobile (06 08 05 18 30), repris car c'est la seule ligne de la brasserie. Horaire « le soir en semaine de 19h à 20h » non repris : le résumé ne dit pas à quoi il s'applique. Pas de page Untappd trouvée."
+  },
+  {
+   "fiche": {
+    "n": "L'Altenbière",
+    "c": "Dorlisheim",
+    "d": "67",
+    "lat": 48.52441,
+    "lon": 7.47494,
+    "km": 377.9,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie : vente à emporter aux heures d'ouverture, consommation d'alcool sur place non permise, d'après la fiche de l'office de tourisme de Molsheim-Mutzig. L'office de tourisme écrit les heures de vente à l'anglaise (« Thu-Fri 4-7pm, Sa 9 am-12 pm ») : jeudi et vendredi de 16 h à 19 h, samedi de 9 h à midi ; le contrôle ne relit pas cette écriture, elles restent dans cette note.",
+    "addr": "21 rue de l'Altenberg, 67120 Dorlisheim",
+    "src": "https://ot-molsheim-mutzig.com/en/fiche-sit/F218008992_micro-brasserie-laltenbiere-dorlisheim-en",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://ot-molsheim-mutzig.com/en/fiche-sit/F218008992_micro-brasserie-laltenbiere-dorlisheim-en",
+    "https://data.geopf.fr/geocodage/search?q=21+rue+de+l%27Altenberg%2C+67120+Dorlisheim&limit=5"
+   ],
+   "extrait": "On-site consumption of alcohol is not permitted.",
+   "choix": "Téléphone non retenu : 06 15 97 27 07 est un mobile lu sur l'office, rien ne dit que la brasserie le publie elle-même. Site altenbiere.fr (lié depuis l'office) renvoyé en 503 à deux reprises, donc non repris. Pas de page Untappd trouvée. Une autre fiche d'office (Pays de Barr, vue seulement dans un résumé de recherche) donne les mêmes horaires."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Licorne",
+    "c": "Saverne",
+    "d": "67",
+    "lat": 48.74113,
+    "lon": 7.379,
+    "km": 394.4,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, siège à Saverne, logistique à Steinbourg). Aucune vente ni accueil sur place n'est établi : le site renvoie vers « Où acheter ? » et ne donne ni boutique, ni visite, ni horaires.",
+    "addr": "60 rue de Dettwiller, 67700 Saverne",
+    "src": "https://brasserielicorne.com/brasserie-licorne/contact/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 88 02 19 99",
+     "site": "https://www.brasserielicorne.com/",
+     "source": "https://brasserielicorne.com/brasserie-licorne/contact/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserielicorne.com/brasserie-licorne/contact/",
+    "https://data.geopf.fr/geocodage/search?q=60+rue+de+Dettwiller%2C+67700+Saverne&limit=5"
+   ],
+   "extrait": "BRASSERIE LICORNE 60 rue de Dettwiller CS40019 67700 SAVERNE",
+   "choix": "Le 03 88 02 19 99 est celui de la page contact officielle, la même pour le siège, la livraison professionnelle et la logistique. Je le retiens faute d'autre ligne ; Cédric peut l'écarter, car il s'adresse peut-être plus aux professionnels qu'aux clients. Le site dit « Nous vous ouvrons les portes de notre brasserie » (rubrique magazine), sans aucun détail : je n'en tire pas de catégorie. Steinbourg est une adresse de logistique, pas un lieu d'accueil."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie l'Abreuvoir",
+    "c": "Breitenbach",
+    "d": "67",
+    "lat": 48.36418,
+    "lon": 7.28774,
+    "km": 355.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Petite brasserie associative. Vente directe à la brasserie environ un samedi matin sur deux, sans jours précis publiés : suivre la newsletter ou le site avant de venir.",
+    "addr": "21 rue du Mont Sainte-Odile, 67220 Breitenbach",
+    "src": "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-abreuvoir.com/",
+     "source": "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+    "https://data.geopf.fr/geocodage/search?q=21+rue+du+Mont+Sainte-Odile%2C+67220+Breitenbach&limit=5"
+   ],
+   "extrait": "Rendez-vous directement à la brasserie, nous sommes présents un samedi matin sur 2 en moyenne.",
+   "choix": "Site officiel lu via un résumé (passage cité tel que rendu entre guillemets). Aucun téléphone publié par la brasserie : le mobile du lien d'appel Gault&Millau n'est pas retenu (annuaire). Types de bière : la page « Des bières » n'en nomme aucun ; Gault&Millau cite blonde, blanche, ambrée, brune, mais annuaire seul, non retenu. Pas de dégustation sur place mentionnée, donc pas de catégorie 1. Pas d'horaires : « un samedi matin sur 2 en moyenne » n'est pas un créneau."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Perle",
+    "c": "Strasbourg",
+    "d": "67",
+    "lat": 48.59944,
+    "lon": 7.73498,
+    "km": 395.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Site officiel : bierstub, biergarten et boutique, bières à emporter. Lu via un résumé de la page, d'où la confiance moyenne.",
+    "addr": "10 place de l'Abattoir 67200 Strasbourg",
+    "src": "https://www.biere-perle.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 69 25 77 68",
+     "site": "https://www.biere-perle.com/",
+     "source": "https://www.biere-perle.com/",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "17:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:00",
+        "23:00"
+       ]
+      ],
+      "source": "https://www.biere-perle.com/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.biere-perle.com/",
+    "https://data.geopf.fr/geocodage/search?q=10+place+de+l%27Abattoir+67200+Strasbourg&limit=5"
+   ],
+   "extrait": "BIERSTUB, BIERGARTEN & BOUTIQUE",
+   "choix": "Page lue via un résumé. La page cite aussi « NOS BIÈRES À EMPORTER » et « Click & Collect ». Aucun style de bière n'est donné, donc beers vide. Horaires : je ne sais pas si les créneaux lus sont ceux de la boutique ou du bierstub, je les ai mis en accueil ; Cédric tranche. Les autres jours ne sont pas écrits. Visit Alsace dit que les bières sont brassées sur place ; Visit Strasbourg donne une autre adresse (11 rue de l'Ardèche), non retenue."
+  },
+  {
+   "fiche": {
+    "n": "Matten",
+    "c": "Matzenheim",
+    "d": "67",
+    "lat": 48.3885,
+    "lon": 7.63022,
+    "km": 372.2,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Fiche de Visit Alsace (agence de tourisme) : boutique sur place où l'on goûte et achète. Une source touristique vaut au plus une confiance moyenne.",
+    "addr": "5 rue de Werde 67150 Matzenheim",
+    "src": "https://visit.alsace/en/261002284-matten-craft-brewery-of-matzenheim",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://visit.alsace/en/261002284-matten-craft-brewery-of-matzenheim",
+    "https://data.geopf.fr/geocodage/search?q=5+rue+de+Werde+67150+Matzenheim&limit=5"
+   ],
+   "extrait": "There is a shop on site, allowing visitors to discover, taste and purchase the brewery's creations.",
+   "choix": "Page lue via un résumé. Le site officiel (matten.fr redirige vers https://www.bieres-matten.fr/) donne le même fixe, mais aucune boutique ni aucun horaire, et une autre adresse (5 rue des Merisiers) à côté du 5 rue de Werde : l'adresse reste celle de SIRENE et de Visit Alsace. Aucun horaire écrit (Visit Alsace n'en donne pas). Bières citées sur le site (Psaïkodéclic, Red Fox, White Fox) : laissées de côté, faute de page Untappd lue."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Mercière",
+    "c": "Cosswiller",
+    "d": "67",
+    "lat": 48.63033,
+    "lon": 7.39914,
+    "km": 384.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel annonce la vente de bière aux particuliers à la boutique. Les visites avec dégustation se font en groupe et sur réservation seulement. Aucun horaire publié.",
+    "addr": "17 rue Principale, 67310 Cosswiller",
+    "src": "https://www.la-merciere.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.la-merciere.fr",
+     "source": "https://www.la-merciere.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.la-merciere.fr",
+    "https://data.geopf.fr/geocodage/search?q=17+rue+Principale%2C+67310+Cosswiller&limit=5"
+   ],
+   "extrait": "Vente de bière aux particuliers et professionnels à la boutique ou en point de vente.",
+   "choix": "Page du site officiel lue via un résumé (WebFetch). Téléphone : 09 52 68 67 41, lu sur la fiche de l'office visit.alsace (lien « Call us » dans le bloc « BRASSERIE LA MERCIÈRE, 17 rue Principale, 67310 Cosswiller »). C'est le fixe de la brasserie, pas celui de l'office, et il n'apparaît pas sur le site officiel lu. Un fixe lu sur un office est permis (réponse de Cédric du 31/10). Catégorie 2 et non 1 : la dégustation n'est offerte qu'aux groupes sur réservation. Confiance moyenne : horaires absents. Page Untappd non trouvée."
+  },
+  {
+   "fiche": {
+    "n": "Les Brasseurs du Ried",
+    "c": "Muttersholtz",
+    "d": "67",
+    "lat": 48.26924,
+    "lon": 7.52106,
+    "km": 356.7,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie alsacienne et Bierstub (le site officiel dit qu'on boit sur place). Vente à emporter non confirmée par le site officiel : Gault&Millau dit « toutes disponibles à la dégustation et à la vente », mais c'est un annuaire.",
+    "addr": "32 rue Ehnwihr 67600 Muttersholtz",
+    "src": "https://brasseurs-du-ried.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 67 23 31 83",
+     "site": "https://brasseurs-du-ried.fr/",
+     "source": "https://brasseurs-du-ried.fr/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasseurs-du-ried.fr/",
+    "https://data.geopf.fr/geocodage/search?q=32+rue+Ehnwihr+67600+Muttersholtz&limit=5"
+   ],
+   "extrait": "Brasserie Alsacienne et Bierstub à MUTTERSHOLTZ",
+   "choix": "Page d'accueil du site officiel lue via un résumé : titre « Brasserie Alsacienne et Bierstub » et téléphone 09 67 23 31 83, ni horaires ni bières ni Untappd. Classé en 1 avec une confiance faible (règle de Cédric du 29/10 pour un lieu où l'on boit). Le téléphone vient du site de la brasserie ; une fiche de l'office de tourisme de Sélestat donne un autre numéro (03 88 58 87 20), écarté. Des annuaires donnent vendredi à dimanche 17 h à 23 h, non repris car aucune source officielle. Pas de page Untappd trouvée en deux recherches."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de Framont",
+    "c": "Grandfontaine",
+    "d": "67",
+    "lat": 48.48519,
+    "lon": 7.16559,
+    "km": 361.9,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale installée dans l'ancienne demeure du maître des forges, d'après la fiche de l'office de tourisme de la vallée de la Bruche. Ni vente, ni visite, ni horaires ne sont écrits : ce qu'on peut y faire n'est pas établi.",
+    "addr": "1 rue du Haut Fourneau, 67130 Grandfontaine",
+    "src": "https://www.valleedelabruche.fr/fiche-sit/F215002936_brasserie-de-framont-grandfontaine/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.valleedelabruche.fr/fiche-sit/F215002936_brasserie-de-framont-grandfontaine/",
+    "https://data.geopf.fr/geocodage/search?q=1+rue+du+Haut+Fourneau%2C+67130+Grandfontaine&limit=5"
+   ],
+   "extrait": "la Brasserie de Framont est implantée dans l'ancienne demeure du maître des forges à Grandfontaine.",
+   "choix": "Pages lues via un résumé (WebFetch) : fiche de l'office de la vallée de la Bruche et fiche visit.alsace (mêmes informations). Page Facebook derrière une connexion, illisible. Ni site officiel ni Untappd trouvés. Existence appuyée par SIRENE et deux fiches d'office (confiance moyenne au plus), d'où cat 0. Téléphone écarté : l'office publie le 06 63 07 64 94 (portable), rien ne montre que la brasserie le publie elle-même. Adresse retenue : 1 rue du Haut Fourneau (fiche de l'office) ; l'autre adresse SIRENE (6 rue du Haut Fourneau) non reprise."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Guth",
+    "c": "Saint-Maurice",
+    "d": "67",
+    "lat": 48.32593,
+    "lon": 7.33587,
+    "km": 353.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "L'office de tourisme d'Alsace (visit.alsace) annonce un espace boutique et un bar ouverts chaque vendredi et samedi. Il ne donne pas d'heures. Le site officiel confirme une boutique en ligne et un bar-restaurant à Saint-Maurice.",
+    "addr": "10 rue Principale, 67220 Saint-Maurice",
+    "src": "https://visit.alsace/fr/224003870-microbrasserie-guth",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 22 75 39 12",
+     "site": "http://www.brasserie-distillerie-guth-ggc.com",
+     "source": "http://www.brasserie-distillerie-guth-ggc.com",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://visit.alsace/fr/224003870-microbrasserie-guth",
+    "http://www.brasserie-distillerie-guth-ggc.com",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+Principale%2C+67220+Saint-Maurice&limit=5"
+   ],
+   "extrait": "propose un espace boutique et un bar chaleureux ouverts chaque vendredi et samedi.",
+   "choix": "Téléphone : le site officiel publie le 06 22 75 39 12 sous « Microbrasserie distillerie ». Je le retiens parce que c'est la seule ligne de la brasserie ; c'est un mobile. J'écarte 03 72 91 47 38 (bar/restaurant de Saint-Maurice) et 03 69 27 68 93 (bar/restaurant de Sélestat), qui sont d'autres établissements. Horaires non repris : l'office de Colmar parle d'un « drive » le vendredi et le samedi de 10h à 23h, ce que visit.alsace ne dit pas, et je n'ai pas trouvé la page « Contact & horaires » du site officiel. Bières non reprises : l'office ne donne que des styles, sans noms ; le site ne liste que « Bières 33cl ». Pas de page Untappd trouvée. Les ouvertures annoncées vont du 02/11 au 31/12/2026. Le nom ressemble à celui de l'Auberge Chez Guth de Steige, qui est un autre établissement."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bucher Bernardswiller",
+    "c": "Bernardswiller",
+    "d": "67",
+    "lat": 48.4525,
+    "lon": 7.46393,
+    "km": 370.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Petite brasserie artisanale de village : le site de la brasserie annonce une vente sur place à la boutique, du mercredi et du samedi, avec livraison et retrait. Une dégustation de 3 bières n'est décrite que pour les visites de groupe de 4 à 8 adultes, pas comme un bar ouvert à tous.",
+    "addr": "6 place de l'Église, 67210 Bernardswiller",
+    "src": "https://www.labbb.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 81 21 69 23",
+     "site": "https://www.labbb.fr",
+     "source": "https://www.labbb.fr",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "16:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "14:00",
+        "17:00"
+       ]
+      ],
+      "source": "https://www.labbb.fr",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.labbb.fr",
+    "https://data.geopf.fr/geocodage/search?q=6+place+de+l%27%C3%89glise%2C+67210+Bernardswiller&limit=5"
+   ],
+   "extrait": "POUR DECOUVRIR LES BBIERES IL Y A LA BBBOUTIQUE 6 PLACE DE L'EGLISE, BERNARDSWILLER MERCREDI DE 16H à 20H ET SAMEDI DE 14H A 17H",
+   "choix": "Catégorie 2 et non 1 : la page ne décrit pas de consommation sur place ouverte au public, seulement une visite de groupe avec dégustation. Le numéro est un portable (07), seule ligne publiée par la brasserie sur son site (règle du 21/10) ; il est aussi sur la fiche visit.alsace. Les noms des bières sont dans des images, donc non lus : beers vide. Untappd non trouvé sur la page. Les horaires sont ceux de la boutique, donc de la vente. Page lue via un résumé, passages entre guillemets rapportés par ce résumé."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Blüeme",
+    "c": "Alteckendorf",
+    "d": "67",
+    "lat": 48.79368,
+    "lon": 7.58853,
+    "km": 407.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale fondée en 2019 : le site de la brasserie annonce une vente sur place le premier samedi de chaque mois, de 14h30 à 17h. Pas de consommation sur place décrite. La fiche de l'office de tourisme dit aussi que la vente se fait sur rendez-vous.",
+    "addr": "3 rue des Catherinettes, 67270 Alteckendorf",
+    "src": "https://brasserie.blueme.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie.blueme.fr/",
+     "source": "https://brasserie.blueme.fr/",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "sam": [
+       [
+        "14:30",
+        "17:00"
+       ]
+      ],
+      "remarque": "Seulement le premier samedi de chaque mois ; sur rendez-vous les autres jours (office de tourisme).",
+      "source": "https://brasserie.blueme.fr/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserie.blueme.fr/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+des+Catherinettes%2C+67270+Alteckendorf&limit=5"
+   ],
+   "extrait": "Vente sur place tous les 1er samedis du mois (14h30-17h)",
+   "choix": "Le seul numéro trouvé est un portable (06 82 93 05 48) sur la fiche visit.alsace (office de tourisme, https://www.visit.alsace/?p=988448) ; il n'est pas publié sur le site de la brasserie, donc écarté (un portable doit venir de la brasserie). L'office donne une adresse différente (route de Pfaffenhoffen) ; je garde celle du site de la brasserie, qui est aussi celle de SIRENE. Horaires : créneau valable seulement le premier samedi du mois, dit dans `remarque`. Noms de bières lus seulement dans des textes alternatifs d'images : non retenus. Untappd non trouvé. Page lue via un résumé, passage rapporté par ce résumé."
+  },
+  {
+   "fiche": {
+    "n": "Brassin des Frangins",
+    "c": "Plobsheim",
+    "d": "67",
+    "lat": 48.46823,
+    "lon": 7.73075,
+    "km": 383.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Existe d'après son site officiel (vente en ligne, livraison en point relais). Rien ne dit qu'on peut acheter ou boire sur place.",
+    "addr": "7 rue de la Mésange 67115 Plobsheim",
+    "src": "https://brassindesfrangins.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 77 84 02 89",
+     "site": "https://brassindesfrangins.fr",
+     "source": "https://brassindesfrangins.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brassindesfrangins.fr",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+M%C3%A9sange+67115+Plobsheim&limit=5"
+   ],
+   "extrait": "Une brasserie artisanale familiale basée en Alsace à proximité de Strasbourg",
+   "choix": "Page lue via un résumé. L'adresse du site (7 rue de la Mésange, 67115 Plobsheim) est celle de SIRENE, mais le lien avec la raison sociale enregistrée n'est pas lu sur la page : à décider par Cédric. Le 09 est repris car c'est le numéro publié par la brasserie (pas un 08). Aucun horaire ni style de bière nommé."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Le Centième Singe",
+    "c": "Altwiller",
+    "d": "67",
+    "lat": 48.92924,
+    "lon": 6.97988,
+    "km": 398.9,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie du site officiel : bouteilles, packs et fût de 20 L en boutique, horaires de boutique le vendredi soir et le samedi matin. Le site ne dit pas explicitement qu'on achète sur place ; aucun bar ni dégustation annoncés.",
+    "addr": "16 A rue Principale, 67260 Altwiller",
+    "src": "https://brasserie-centieme-singe.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 67 82 51 46",
+     "site": "https://brasserie-centieme-singe.fr/",
+     "source": "https://brasserie-centieme-singe.fr/",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "12:00"
+       ]
+      ],
+      "source": "https://brasserie-centieme-singe.fr/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserie-centieme-singe.fr/",
+    "https://data.geopf.fr/geocodage/search?q=16+A+rue+Principale%2C+67260+Altwiller&limit=5"
+   ],
+   "extrait": "Horaires de la boutique: Vendredi: 18h-20h / Samedi: 9h-12h",
+   "choix": "Le seul numéro de la page (07 67 82 51 46) est un portable : retenu comme seule ligne publiée. L'adresse vient de SIRENE ; la page ne donne que le village. Aucune page Untappd trouvée. Catégorie 2 en moyenne et non en solide, car « boutique » laisse penser à une vente sur place sans l'écrire."
+  },
+  {
+   "fiche": {
+    "n": "Les Intenables",
+    "c": "Rosheim",
+    "d": "67",
+    "lat": 48.50337,
+    "lon": 7.49403,
+    "km": 376.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce une boutique ouverte du lundi au vendredi de 9h à 17h ; il propose aussi « Visites & dégustations » sur contact, sans dire si on boit sur place.",
+    "addr": "8 rue Jean Marie Lehn, 67560 Rosheim",
+    "src": "https://www.lesintenables.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 46 39 96 65",
+     "site": "https://www.lesintenables.com/",
+     "untappd": "https://untappd.com/LesIntenablesCraftBeer",
+     "source": "https://www.lesintenables.com/",
+     "verifieLe": "2026-11-03"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "source": "https://www.lesintenables.com/",
+      "verifieLe": "2026-11-03"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.lesintenables.com/",
+    "https://data.geopf.fr/geocodage/search?q=8+rue+Jean+Marie+Lehn%2C+67560+Rosheim&limit=5"
+   ],
+   "extrait": "Boutique ouverte du lundi au vendredi de 9h à 17h.",
+   "choix": "Le seul numéro publié est un portable (+33(0)6 46 39 96 65), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Les visites et dégustations ne sont pas détaillées, donc catégorie 2 et non 1. Le nom commercial est « Les Intenables » ; SIRENE écrit « Bière des Intenables ». Page Untappd ouverte : fiche « Les Intenables - Craft Beer », Rosheim. Je ne propose aucune bière : seules les gammes (éphémères, régulières, Cuvées 31, softs) sont citées, sans lecture bière par bière sur Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Guilhéon",
+    "c": "Blienschwiller",
+    "d": "67",
+    "lat": 48.34186,
+    "lon": 7.41657,
+    "km": 358.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Le site officiel présente des bières artisanales maison, non filtrées et non pasteurisées, et un créneau le samedi de 10 h à 12 h. Il ne dit ni si l'on peut acheter ni si l'on peut boire sur place. Il recommande de contacter la brasserie avant de venir. Le portable est le seul numéro publié.",
+    "addr": "7 rue de l'Ungersberg, 67650 Blienschwiller",
+    "src": "https://brasserieguilheon.wixsite.com/website",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 58 52 67 14",
+     "site": "https://brasserieguilheon.wixsite.com/website",
+     "source": "https://brasserieguilheon.wixsite.com/website",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brasserieguilheon.wixsite.com/website",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+l%27Ungersberg%2C+67650+Blienschwiller&limit=5"
+   ],
+   "extrait": "Il est fortement recommandé de nous contacter avant de venir.",
+   "choix": "Page lue via un résumé. Le créneau du samedi n'est pas proposé en horaires, car le site ne dit pas de quelle nature il est (accueil ou vente). Portable retenu car c'est le seul numéro publié."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Bendorf",
+    "c": "Strasbourg",
+    "d": "67",
+    "lat": 48.56651,
+    "lon": 7.77546,
+    "km": 394.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site de la brasserie annonce le remplissage de growlers à la brasserie ; aucune dégustation sur place n'y est mentionnée.",
+    "addr": "114 rue Jean Jaurès, 67100 Strasbourg",
+    "src": "https://www.brasserie-bendorf.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 53 79 76 70",
+     "site": "https://www.brasserie-bendorf.fr",
+     "source": "https://www.brasserie-bendorf.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.brasserie-bendorf.fr",
+    "https://data.geopf.fr/geocodage/search?q=114+rue+Jean+Jaur%C3%A8s%2C+67100+Strasbourg&limit=5"
+   ],
+   "extrait": "À la brasserie, on remplit vos growlers de 0.50L, 0.65L, 0.75cl, 1L ou de 2L !",
+   "choix": "Existence : site officiel, plus fiches Gault&Millau et office de Strasbourg (visitstrasbourg, 403 à l'ouverture, vue seulement dans les résultats de recherche) et un nœud OSM. Catégorie 2 car seule la vente à emporter (growlers) est écrite ; rien sur la consommation sur place. Horaires non repris : seuls des annuaires (118712) en donnent, et ils se contredisent. Un autre mobile (06 70 55 72 08) vu sur Gault&Millau est écarté (annuaire, source ancienne). Aucun lien Untappd trouvé. Bières : styles cités par le site (houblonnées, acides, fruitées, etc.) non transcrits en types faute de lecture directe de la liste. Lecture du site via un résumé."
+  },
+  {
+   "fiche": {
+    "n": "BroBrew",
+    "c": "Russ",
+    "d": "67",
+    "lat": 48.4967,
+    "lon": 7.25477,
+    "km": 366.4,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie familiale existante (site officiel, cinq bières). Le site ne dit rien de la vente, de la dégustation ni des horaires : on ne sait pas encore ce qu'on peut y faire.",
+    "addr": "1 rue des Champs, 67130 Russ",
+    "src": "https://brobrew.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 46 40 75 39",
+     "site": "https://brobrew.fr/",
+     "source": "https://brobrew.fr/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://brobrew.fr/",
+    "https://data.geopf.fr/geocodage/search?q=1+rue+des+Champs%2C+67130+Russ&limit=5"
+   ],
+   "extrait": "Chez nous, vous n'entrez pas dans une brasserie : vous entrez dans notre maison.",
+   "choix": "Page lue via un résumé (WebFetch). Téléphone retenu : 06 46 40 75 39, un mobile, seul numéro publié par la brasserie sur son site (règle du 21/10). Catégorie 0 : la phrase citée n'établit ni vente ni accueil. Le site ne donne ni boutique ni horaires."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Semblables",
+    "c": "Mietesheim",
+    "d": "67",
+    "lat": 48.87785,
+    "lon": 7.64052,
+    "km": 417.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La fiche de l'office de tourisme Alsace Verte indique « Vente à la propriété : Bières et softs » et des visites guidées pour groupes sur rendez-vous. Aucune dégustation ouverte n'est annoncée.",
+    "addr": "3 rue de l'étang, 67580 Mietesheim",
+    "src": "https://www.alsace-verte.com/fr/commerces-et-services/brasserie-les-semblables/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie-semblables.fr/",
+     "source": "https://brasserie-semblables.fr/",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.alsace-verte.com/fr/commerces-et-services/brasserie-les-semblables/",
+    "https://brasserie-semblables.fr/",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+de+l%27%C3%A9tang%2C+67580+Mietesheim&limit=5"
+   ],
+   "extrait": "Bières et softs",
+   "choix": "Source de catégorie : un office de tourisme, donc moyenne au plus. Le site officiel brasserie-semblables.fr confirme l'adresse mais ni la vente sur place, ni les horaires, ni un téléphone. J'ai écarté le 06 68 44 53 45 et les horaires du mercredi au samedi, vus seulement sur des fiches « halte gourde » du Parc des Vosges du Nord et non publiés par la brasserie. Le numéro +33 (0)3 88 80 89 70 est celui de l'office, écarté. Pas d'Untappd trouvé."
+  },
+  {
+   "fiche": {
+    "n": "Mogwaï Beer Company",
+    "c": "Mundolsheim",
+    "d": "67",
+    "lat": 48.63185,
+    "lon": 7.71838,
+    "km": 397.9,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "La brasserie dit qu'on peut venir acheter ses bières sur place selon les disponibilités, avec un contact préalable conseillé par e-mail. Aucun horaire ni téléphone publiés, pas de taproom mentionné.",
+    "addr": "3 rue du Général Rapp, 67450 Mundolsheim",
+    "src": "https://www.mogwaibeercompany.fr/nous-trouver-irl-et-en-2-0/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "untappd": "https://untappd.com/MogwaiBeerCompany",
+     "source": "https://untappd.com/MogwaiBeerCompany",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.mogwaibeercompany.fr/nous-trouver-irl-et-en-2-0/",
+    "https://untappd.com/MogwaiBeerCompany",
+    "https://data.geopf.fr/geocodage/search?q=3+rue+du+G%C3%A9n%C3%A9ral+Rapp%2C+67450+Mundolsheim&limit=5"
+   ],
+   "extrait": "Vous pouvez venir sur place pour acheter nos bières selon nos disponibilités.",
+   "choix": "Page lue via un résumé (WebFetch). Aucun téléphone publié, donc aucun retenu. Page Untappd ouverte (untappd.com/MogwaiBeerCompany, lue via un résumé, brasserie de Mundolsheim, bières éphémères en gose, saison, IPA). Les bières ne sont pas proposées : les types du schéma n'ont pas été croisés avec la liste Untappd. Rien lu sur une consommation sur place, donc pas de catégorie 1."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie du Septénaire",
+    "c": "Niedermodern",
+    "d": "67",
+    "lat": 48.8445,
+    "lon": 7.63982,
+    "km": 414.2,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site officiel annonce un pub à sept becs à bières et une boutique. Il ne donne pas d'horaires (il affiche seulement « Actuellement fermé »).",
+    "addr": "10 rue de l'Artisanat, 67350 Niedermodern",
+    "src": "https://www.microbrasserie-septenaire.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "03 68 03 82 99",
+     "site": "https://www.microbrasserie-septenaire.fr",
+     "source": "https://www.microbrasserie-septenaire.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://www.microbrasserie-septenaire.fr",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27Artisanat%2C+67350+Niedermodern&limit=5"
+   ],
+   "extrait": "Pub avec 7 becs à bières",
+   "choix": "Horaires non repris : l'office de Haguenau écrit « Jeu et ven : 16h30-22h30, sam : 10h30-12h-30 et 18h00-22h30 ». Le « 12h-30 » du samedi est illisible et le site officiel n'a pas d'horaires. Le site dit onze variétés et n'en montre que quatre, ce sont celles que je reprends. Pas de lien Untappd sur le site (seulement Facebook et Instagram). Je n'ai pas cherché la page Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Microbrasserie Chop'la",
+    "c": "Val-de-Moder",
+    "d": "67",
+    "lat": 48.84953,
+    "lon": 7.6115,
+    "km": 413.6,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie de La Walck. Ouverte le deuxième jeudi du mois de 16 h à 20 h ou sur rendez-vous ; l'office de tourisme de Haguenau écrit « jeudis 16 h à 19 h 30 » (désaccord). Le site dit qu'on y déguste et qu'on y achète en direct.",
+    "addr": "10 rue des Vosges, 67350 Val-de-Moder",
+    "src": "https://chopla.fr",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 07 22 04 34",
+     "site": "https://chopla.fr",
+     "source": "https://chopla.fr",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "https://chopla.fr",
+    "https://data.geopf.fr/geocodage/search?q=10+rue+des+Vosges%2C+67350+Val-de-Moder&limit=5"
+   ],
+   "extrait": "DEGUSTATIONS/ ACHATS en direct Notre Microbrasserie artisanale vous fait déguster ses bières.",
+   "choix": "Site officiel chopla.fr lu via un résumé (passages recopiés entre guillemets par l'outil de lecture). Téléphone 06 07 22 04 34 : publié par la brasserie sur son site, seul numéro, mobile (règle du 21/10). Mêmes numéro et adresse sur l'office de tourisme de Haguenau. Pas de bloc d'horaires : « deuxième jeudi du mois » ne tient pas dans le schéma et l'office dit tous les jeudis (désaccord) ; remarque dans la note. Catégorie 2 : le site dit bienvenue au 10 rue des Vosges sur RDV et achats directs sur place, sans dégustation établie. Untappd non trouvé. Bières tirées de la page « Nos bières » (via un résumé) ; bière du moment et bière de Noël non retenues."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Fondation",
+    "c": "Geispolsheim",
+    "d": "67",
+    "lat": 48.51811,
+    "lon": 7.6849,
+    "km": 386.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie installée à Geispolsheim, avec boutique en ligne et livraison. Son taproom n'est pas ouvert (ouverture annoncée au printemps 2027) et le site ne dit rien d'une vente à emporter : ce qu'on peut y faire sur place n'est pas établi.",
+    "addr": "6 rue de l'Ill, 67118 Geispolsheim",
+    "src": "http://www.brasserie-lafondation.com/taproom",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "http://www.brasserie-lafondation.com",
+     "untappd": "https://untappd.com/BrasserieLaFondation",
+     "source": "https://untappd.com/BrasserieLaFondation",
+     "verifieLe": "2026-11-03"
+    }
+   },
+   "verifieLe": "2026-11-03",
+   "sources": [
+    "http://www.brasserie-lafondation.com/taproom",
+    "https://untappd.com/BrasserieLaFondation",
+    "https://data.geopf.fr/geocodage/search?q=6+rue+de+l%27Ill%2C+67118+Geispolsheim&limit=5"
+   ],
+   "extrait": "Ouverture prévue au printemps 2027.",
+   "choix": "Page lue via un résumé (WebFetch). Catégorie 0 : taproom pas ouvert, aucune vente à emporter écrite ; boutique en ligne et livraison ne disent pas qu'on peut acheter sur place. Horaires « Du lundi au vendredi 9h–12h & 14h–18h » de /contact non retenus : rien ne dit que ce soit un accueil du public. Horaires prévus du taproom (mer-ven 16h-20h) non retenus : lieu pas encore ouvert. Aucun téléphone publié (e-mail ou formulaire). Aucune bière reprise, faute de règle de date lue. Adresse du siège SIRENE (Strasbourg, 2 rue Dietterlin, 81 rue du Rhin Napoléon) écartée : Geispolsheim est lu sur le site de la brasserie. Existence : site officiel et page Untappd (installée depuis 2023, 36 bières), plus SIRENE."
+  }
+ ]
+}

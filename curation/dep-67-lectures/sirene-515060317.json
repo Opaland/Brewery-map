@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:515060317",
+ "ajout": {
+  "fiche": {
+   "n": "Matten",
+   "c": "Matzenheim",
+   "d": "67",
+   "lat": 48.3885,
+   "lon": 7.63022,
+   "km": 372.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Fiche de Visit Alsace (agence de tourisme) : boutique sur place où l'on goûte et achète. Une source touristique vaut au plus une confiance moyenne.",
+   "addr": "5 rue de Werde 67150 Matzenheim",
+   "src": "https://visit.alsace/en/261002284-matten-craft-brewery-of-matzenheim",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://visit.alsace/en/261002284-matten-craft-brewery-of-matzenheim",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+de+Werde+67150+Matzenheim&limit=5"
+  ],
+  "extrait": "There is a shop on site, allowing visitors to discover, taste and purchase the brewery's creations.",
+  "choix": "Page lue via un résumé. Le site officiel (matten.fr redirige vers https://www.bieres-matten.fr/) donne le même fixe, mais aucune boutique ni aucun horaire, et une autre adresse (5 rue des Merisiers) à côté du 5 rue de Werde : l'adresse reste celle de SIRENE et de Visit Alsace. Aucun horaire écrit (Visit Alsace n'en donne pas). Bières citées sur le site (Psaïkodéclic, Red Fox, White Fox) : laissées de côté, faute de page Untappd lue."
+ }
+}

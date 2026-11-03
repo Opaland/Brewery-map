@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:994058717",
+ "ajout": {
+  "fiche": {
+   "n": "La Val Heureuse",
+   "c": "Le Val-d'Ajol",
+   "d": "88",
+   "lat": 47.92765,
+   "lon": 6.4902,
+   "km": 283.2,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (fiche de l'office de tourisme des Vosges, établissement enregistré sous le code SIRENE 11.05Z). Aucune source lue ne dit si l'on peut acheter ou boire à la brasserie, ni à quelles heures : la page évoque seulement « si la porte est fermée », sans rien établir.",
+   "addr": "24 avenue de Méreille, 88340 Le Val-d'Ajol",
+   "src": "https://www.vogesenmassiv.de/sit/degbfc088327004123-brasserie-la-val-heureuse/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 29 65 18 17",
+    "site": "https://www.val-heureuse.com/",
+    "source": "https://www.vogesenmassiv.de/sit/degbfc088327004123-brasserie-la-val-heureuse/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.vogesenmassiv.de/sit/degbfc088327004123-brasserie-la-val-heureuse/",
+   "https://data.geopf.fr/geocodage/search?q=24+avenue+de+M%C3%A9reille%2C+88340+Le+Val-d%27Ajol&limit=5"
+  ],
+  "extrait": "Sie können unsere Biere auch in den Restaurants von Val d'Ajol und Girmont probieren",
+  "choix": "Page lue via un résumé (WebFetch), pas en direct. Seule source de la brasserie trouvée : une fiche d'office de tourisme (SIT Vosges), plus le registre SIRENE ; pas de fiche d'annuaire seule. Le site officiel val-heureuse.com n'a pas pu être ouvert (hôte non résolu dans cette session : il faut l'autoriser dans les réglages réseau, puis à relancer). Catégorie 0, non montée : la vente sur place n'est pas lue. Le fixe 03 29 65 18 17 est celui publié dans le bloc de la brasserie sur la fiche de l'office, pas celui de l'office. Aucun Untappd trouvé. Aucun horaire sur la page."
+ }
+}

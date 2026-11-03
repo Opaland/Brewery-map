@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:9",
+ "ajout": {
+  "fiche": {
+   "n": "Micro-brasserie La B'ric",
+   "c": "Soultz-Haut-Rhin",
+   "d": "68",
+   "lat": 47.88757,
+   "lon": 7.22637,
+   "km": 309.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie de Soultz-Haut-Rhin, en activité depuis janvier 2016 d'après l'office de tourisme de Guebwiller. Ce qu'on peut y faire n'est pas établi : l'office ne dit rien de la vente ni de la dégustation, et Gault&Millau (annuaire seul) conseille de prendre rendez-vous.",
+   "addr": "Soultz-Haut-Rhin",
+   "src": "https://tourisme-guebwiller.fr/en/what-to-see-what-to-do-alsace/tasting-food-local-alsace-gastronomy-guebwiller/local-products-and-food",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://tourisme-guebwiller.fr/en/what-to-see-what-to-do-alsace/tasting-food-local-alsace-gastronomy-guebwiller/local-products-and-food",
+   "https://data.geopf.fr/geocodage/search?q=Soultz-Haut-Rhin&type=municipality&limit=5"
+  ],
+  "extrait": "Micro-brasserie La B'RIC",
+  "choix": "Page de l'office de Guebwiller lue via un résumé de WebFetch (mon extrait vient donc d'un résumé, à recontrôler). Je n'ai trouvé ni site, ni Untappd, ni Facebook. Aucune catégorie 1 à 4 : rien n'est lu sur la vente. Téléphone écarté : le seul numéro vu est un mobile lu sur Gault&Millau (annuaire), pas publié par la brasserie. Adresse laissée vide : la rue vient de SIRENE et de Gault&Millau pour un entrepreneur individuel, donc peut-être un domicile (question à Cédric). Le nom des exploitants n'est pas recopié."
+ }
+}

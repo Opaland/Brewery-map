@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:852678689",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Blüeme",
+   "c": "Alteckendorf",
+   "d": "67",
+   "lat": 48.79368,
+   "lon": 7.58853,
+   "km": 407.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale fondée en 2019 : le site de la brasserie annonce une vente sur place le premier samedi de chaque mois, de 14h30 à 17h. Pas de consommation sur place décrite. La fiche de l'office de tourisme dit aussi que la vente se fait sur rendez-vous.",
+   "addr": "3 rue des Catherinettes, 67270 Alteckendorf",
+   "src": "https://brasserie.blueme.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie.blueme.fr/",
+    "source": "https://brasserie.blueme.fr/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie.blueme.fr/",
+     "sam": [
+      [
+       "14:30",
+       "17:00"
+      ]
+     ],
+     "remarque": "Seulement le premier samedi de chaque mois ; sur rendez-vous les autres jours (office de tourisme).",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserie.blueme.fr/",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+des+Catherinettes%2C+67270+Alteckendorf&limit=5"
+  ],
+  "extrait": "Vente sur place tous les 1er samedis du mois (14h30-17h)",
+  "choix": "Le seul numéro trouvé est un portable (06 82 93 05 48) sur la fiche visit.alsace (office de tourisme, https://www.visit.alsace/?p=988448) ; il n'est pas publié sur le site de la brasserie, donc écarté (un portable doit venir de la brasserie). L'office donne une adresse différente (route de Pfaffenhoffen) ; je garde celle du site de la brasserie, qui est aussi celle de SIRENE. Horaires : créneau valable seulement le premier samedi du mois, dit dans `remarque`. Noms de bières lus seulement dans des textes alternatifs d'images : non retenus. Untappd non trouvé. Page lue via un résumé, passage rapporté par ce résumé."
+ }
+}

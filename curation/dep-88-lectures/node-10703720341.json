@@ -1,0 +1,53 @@
+{
+ "candidat": "node/10703720341",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie des Buissons",
+   "c": "Rupt-sur-Moselle",
+   "d": "88",
+   "lat": 47.9648,
+   "lon": 6.62802,
+   "km": 291.8,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Vente directe à la brasserie en bouteilles de 50 cl ou 33 cl, jeudi et vendredi de 10 h à 19 h, mercredi et samedi sur rendez-vous. Aucune dégustation ni consommation sur place n'est mentionnée.",
+   "addr": "1 rue des Buissons, 88360 Rupt-sur-Moselle",
+   "src": "https://labrasseriedesbuissons.wordpress.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 36 82 36 66",
+    "site": "https://labrasseriedesbuissons.wordpress.com/",
+    "source": "https://labrasseriedesbuissons.wordpress.com/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://labrasseriedesbuissons.wordpress.com/",
+     "jeu": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Mercredi et samedi sur rendez-vous, à prendre par téléphone.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://labrasseriedesbuissons.wordpress.com/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+des+Buissons%2C+88360+Rupt-sur-Moselle&limit=5"
+  ],
+  "extrait": "Nous proposons nos bières en vente directe depuis la Brasserie, en format 50cl ou 33cl.",
+  "choix": "Page du site officiel lue via un résumé (WebFetch), pas en direct. La commune est Rupt-sur-Moselle (site officiel et fiche de l'office de tourisme), pas Vecoux comme dans le point OSM : l'adresse est la même (1 rue des Buissons), la commune de la fiche doit suivre la source, d'où le statut « ambigu ». Le numéro 06 36 82 36 66 est un portable, mais c'est la seule ligne que la brasserie publie, et il est sur son site (règle du 21/10). Types de bière non renseignés : la page ne donne que des noms (La Mos'Ale, La Rousse Gazon, L'appel des Neiges, L'IPA des Buissons), sans style. Aucun Untappd trouvé : le site n'en porte aucun lien et la recherche n'a rien donné."
+ }
+}

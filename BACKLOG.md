@@ -50,6 +50,14 @@ Restent 3, 4 et 5.
 - Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
 - Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
 
+## Restes de S346, seconde partie (03/11, issue #187)
+
+- À relancer (`campagne.ts relancer 67-r2`, `68-r2`, `88-r2`) : Météor (Hochfelden) et la Brasserie de Saint-Pierre, dont les sites refusent la connexion depuis le conteneur ; La Narcose (429), Le Refuge (403), 3 Mâts ; La Houblonnière (page d'office en 500) ; Brasserie du Réservoir (502), Brasserie du Vallon (404), Nagala ; Brasserie du Pays des Lacs, La Bonlohi (pages d'office en 404), La Brass'Potes, Le Van à Bières (403).
+- Bicéphale (Blotzheim) : les sites de tourisme la placent à Sierentz ; la fiche reste à Blotzheim en confiance « faible », adresse à établir (persona Cédric).
+- Saint-Louis : fixe et horaires lus sur la fiche de l'office du Pays de Barr, repris par la règle du 31/10.
+- L'Altenbière : l'office écrit ses heures à l'anglaise (« Thu-Fri 4-7pm »), que `controler` ne relit pas ; elles restent dans la note.
+- Réécrire un lot après `appliquer` le vide (il voit ses fiches dans `data/`) : vu le 03/11 sur dep-67 et dep-68, réparé en défaisant l'application. L'outil pourrait refuser `rendre` sur un lot déjà appliqué.
+
 ## Restes de S345, seconde partie (30/10, issue #186)
 
 - À relancer : Crazy Hops (site lu, ni la vente régulière ni l'accueil établis), La Mousse de Bleau (domaine en vente), Second Degré (429), Microbrasserie du Saule (certificat expiré), Brew for Fun, Distrikt et Sapeur Brasseur (DNS), Respekt (vérification de l'âge), Tricyclhop (certificat du site de la ville), The Chubby Brewing Company, Inkraft (certificat), Brasserie Fondamentale, Brasserie Gus, Brasserie du Château à Montmorency.

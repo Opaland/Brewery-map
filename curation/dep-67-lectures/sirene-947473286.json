@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:947473286",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Fondation",
+   "c": "Geispolsheim",
+   "d": "67",
+   "lat": 48.51811,
+   "lon": 7.6849,
+   "km": 386.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie installée à Geispolsheim, avec boutique en ligne et livraison. Son taproom n'est pas ouvert (ouverture annoncée au printemps 2027) et le site ne dit rien d'une vente à emporter : ce qu'on peut y faire sur place n'est pas établi.",
+   "addr": "6 rue de l'Ill, 67118 Geispolsheim",
+   "src": "http://www.brasserie-lafondation.com/taproom",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.brasserie-lafondation.com",
+    "untappd": "https://untappd.com/BrasserieLaFondation",
+    "source": "https://untappd.com/BrasserieLaFondation",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "http://www.brasserie-lafondation.com/taproom",
+   "https://untappd.com/BrasserieLaFondation",
+   "https://data.geopf.fr/geocodage/search?q=6+rue+de+l%27Ill%2C+67118+Geispolsheim&limit=5"
+  ],
+  "extrait": "Ouverture prévue au printemps 2027.",
+  "choix": "Page lue via un résumé (WebFetch). Catégorie 0 : taproom pas ouvert, aucune vente à emporter écrite ; boutique en ligne et livraison ne disent pas qu'on peut acheter sur place. Horaires « Du lundi au vendredi 9h–12h & 14h–18h » de /contact non retenus : rien ne dit que ce soit un accueil du public. Horaires prévus du taproom (mer-ven 16h-20h) non retenus : lieu pas encore ouvert. Aucun téléphone publié (e-mail ou formulaire). Aucune bière reprise, faute de règle de date lue. Adresse du siège SIRENE (Strasbourg, 2 rue Dietterlin, 81 rue du Rhin Napoléon) écartée : Geispolsheim est lu sur le site de la brasserie. Existence : site officiel et page Untappd (installée depuis 2023, 36 bières), plus SIRENE."
+ }
+}

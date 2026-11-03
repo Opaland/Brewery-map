@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:922793500",
+ "ajout": {
+  "fiche": {
+   "n": "Banz",
+   "c": "Lautenbach",
+   "d": "68",
+   "lat": 47.94091,
+   "lon": 7.16488,
+   "km": 311.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie associative créée en 2023 par 13 amis. Bouteilles de 75 cl vendues sur place seulement, de septembre à mars ; le reste de l'année, surtout des fûts pour des événements d'été.",
+   "addr": "Lautenbach",
+   "src": "https://www.tourisme-guebwiller.fr/?p=444041",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.tourisme-guebwiller.fr/?p=444041",
+   "https://data.geopf.fr/geocodage/search?q=Lautenbach&type=municipality&limit=5"
+  ],
+  "extrait": "Created in 2023, the brewery offers 75cl bottles of its production from September to March.",
+  "choix": "Seule source : la fiche de l'office de tourisme de Guebwiller (confiance au plus moyenne), plus la ligne SIRENE (3 rue du Presbytère, Lautenbach). Aucun site ni Untappd trouvé. Le passage est celui de la version anglaise lue dans le résumé : à contrôler. Adresse laissée vide : la fiche de l'office n'a ni rue ni numéro, et celle de SIRENE n'est pas sur la source. Cat 2 parce que la fiche ne parle que de vente sur place, jamais de boisson. Téléphone non repris : le seul numéro (06 28 21 49 11) est un portable lu sur un office, pas publié par la brasserie. Cédric a une règle pour ce cas, qu'on peut appliquer s'il le veut. Horaires non publiés. Une autre brasserie, S'Humpaloch (sirene:837473792, autre paquet), est dans le même annuaire."
+ }
+}

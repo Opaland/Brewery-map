@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:513083147",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Perle",
+   "c": "Strasbourg",
+   "d": "67",
+   "lat": 48.59944,
+   "lon": 7.73498,
+   "km": 395.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Site officiel : bierstub, biergarten et boutique, bières à emporter. Lu via un résumé de la page, d'où la confiance moyenne.",
+   "addr": "10 place de l'Abattoir 67200 Strasbourg",
+   "src": "https://www.biere-perle.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 69 25 77 68",
+    "site": "https://www.biere-perle.com/",
+    "source": "https://www.biere-perle.com/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.biere-perle.com/",
+     "mer": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.biere-perle.com/",
+   "https://data.geopf.fr/geocodage/search?q=10+place+de+l%27Abattoir+67200+Strasbourg&limit=5"
+  ],
+  "extrait": "BIERSTUB, BIERGARTEN & BOUTIQUE",
+  "choix": "Page lue via un résumé. La page cite aussi « NOS BIÈRES À EMPORTER » et « Click & Collect ». Aucun style de bière n'est donné, donc beers vide. Horaires : je ne sais pas si les créneaux lus sont ceux de la boutique ou du bierstub, je les ai mis en accueil ; Cédric tranche. Les autres jours ne sont pas écrits. Visit Alsace dit que les bières sont brassées sur place ; Visit Strasbourg donne une autre adresse (11 rue de l'Ardèche), non retenue."
+ }
+}

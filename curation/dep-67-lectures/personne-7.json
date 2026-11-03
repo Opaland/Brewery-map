@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:7",
+ "ajout": {
+  "fiche": {
+   "n": "L'Altenbière",
+   "c": "Dorlisheim",
+   "d": "67",
+   "lat": 48.52441,
+   "lon": 7.47494,
+   "km": 377.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Micro-brasserie : vente à emporter aux heures d'ouverture, consommation d'alcool sur place non permise, d'après la fiche de l'office de tourisme de Molsheim-Mutzig. L'office de tourisme écrit les heures de vente à l'anglaise (« Thu-Fri 4-7pm, Sa 9 am-12 pm ») : jeudi et vendredi de 16 h à 19 h, samedi de 9 h à midi ; le contrôle ne relit pas cette écriture, elles restent dans cette note.",
+   "addr": "21 rue de l'Altenberg, 67120 Dorlisheim",
+   "src": "https://ot-molsheim-mutzig.com/en/fiche-sit/F218008992_micro-brasserie-laltenbiere-dorlisheim-en",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://ot-molsheim-mutzig.com/en/fiche-sit/F218008992_micro-brasserie-laltenbiere-dorlisheim-en",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+de+l%27Altenberg%2C+67120+Dorlisheim&limit=5"
+  ],
+  "extrait": "On-site consumption of alcohol is not permitted.",
+  "choix": "Téléphone non retenu : 06 15 97 27 07 est un mobile lu sur l'office, rien ne dit que la brasserie le publie elle-même. Site altenbiere.fr (lié depuis l'office) renvoyé en 503 à deux reprises, donc non repris. Pas de page Untappd trouvée. Une autre fiche d'office (Pays de Barr, vue seulement dans un résumé de recherche) donne les mêmes horaires."
+ }
+}

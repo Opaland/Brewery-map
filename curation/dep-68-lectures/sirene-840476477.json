@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:840476477",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie TAAL",
+   "c": "Wihr-au-Val",
+   "d": "68",
+   "lat": 48.04536,
+   "lon": 7.20728,
+   "km": 322.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le brewpub de la brasserie sert les bières à la pression au bar, du mardi au samedi ; une boutique vend la bière, des coffrets et des verres. La boutique n'a pas d'horaires publiés.",
+   "addr": "4 route de Soultzbach, 68230 Wihr-au-Val",
+   "src": "https://www.biere-taal.alsace/fr/bistro",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 89 73 17 68",
+    "site": "https://www.biere-taal.alsace/",
+    "source": "https://www.biere-taal.alsace/visites",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.biere-taal.alsace/fr/bistro",
+     "mar": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "21:00"
+      ]
+     ],
+     "remarque": "Ouvertures ponctuelles lors de fêtes, jours fériés ou animations, annoncées sur la page du brewpub.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.biere-taal.alsace/fr/bistro",
+   "https://www.biere-taal.alsace/visites",
+   "https://data.geopf.fr/geocodage/search?q=4+route+de+Soultzbach%2C+68230+Wihr-au-Val&limit=5"
+  ],
+  "extrait": "en les dégustant à la pression, accoudé au bar, confortablement installé dans nos sofas",
+  "choix": "Cat 1 en confiance moyenne : le site officiel montre une boutique qui vend de la bière et une dégustation après visite (sur place), mais ne dit pas qu'on peut y boire hors visite. Un lien « Brewpub » existe dans le menu (page lue : 404), donc rien de plus. Les pages Boutique, Contact et Vente en ligne ne donnent ni horaires ni retrait sur place. Fixe lu sur la page Visites (réservations « par e-mail ou par téléphone »), écrit « 0389731768 » sur la page. L'adresse de la page Contact (« 4 route de Soultzbach 68230 WIHR AU VAL ») correspond à celle de SIRENE. Un point OSM « Brasserie de Munster TAAL » est rangé à Soultzbach-les-Bains (node/8069402085) : probablement la même brasserie, à rapprocher (autre paquet). Fondue avec la lecture du point OSM node/8069402085 : bar et horaires lus sur la page du brewpub, téléphone sur la page des visites."
+ }
+}

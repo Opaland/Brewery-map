@@ -1,0 +1,58 @@
+{
+ "candidat": "sirene:877743187",
+ "ajout": {
+  "fiche": {
+   "n": "La Bicéphale",
+   "c": "Blotzheim",
+   "d": "68",
+   "lat": 47.60535,
+   "lon": 7.50662,
+   "km": 300.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie bio ; sa taproom accueille sur place (pression, bouteilles). La vente à emporter n'est pas mentionnée sur la page du bar. Les sites de tourisme la disent à Sierentz, la fiche garde l'adresse du registre SIRENE et de visit.alsace.",
+   "addr": "14 rue de l'Artisanat, 68730 Blotzheim",
+   "src": "https://labicephale.fr/le-bar/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://labicephale.fr",
+    "source": "https://labicephale.fr",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://labicephale.fr/le-bar/",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://labicephale.fr/le-bar/",
+   "https://labicephale.fr",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+de+l%27Artisanat%2C+68730+Blotzheim&limit=5"
+  ],
+  "extrait": "La Taproom (bar) de la brasserie vous accueille dans un espace chaleureux et cosy",
+  "choix": "Lecture via un résumé. Catégorie 1 avec confiance faible, selon la réponse de Cédric du 29/10 (on boit sur place, la vente à emporter n'est pas dite). La page du bar ne donne ni adresse ni téléphone. L'adresse vient de visit.alsace.com (un office) et du registre SIRENE. Les sites de tourisme parlent aussi de Sierentz (9 rue du Capitaine Dreyfus), ce qui est contradictoire. Je n'ai pas repris le portable 06 18 49 43 50, lu seulement sur un office. Pas de page Untappd trouvée."
+ }
+}

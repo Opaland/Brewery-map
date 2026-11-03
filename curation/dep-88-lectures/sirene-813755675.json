@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:813755675",
+ "ajout": {
+  "fiche": {
+   "n": "La Golaye",
+   "c": "Xertigny",
+   "d": "88",
+   "lat": 48.05159,
+   "lon": 6.4176,
+   "km": 293,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie coopérative créée en 2014 dans la Vôge, installée dans la fromagerie de la Cense. Le site officiel invite à rendre visite à la brasserie après un appel préalable, du lundi au vendredi, et ne dit pas si l'on peut y acheter ou y boire. Les bières sont vendues chez des revendeurs et livrées par la brasserie. Fermée le week-end.",
+   "addr": "1110 rue Jules Bougel, 88220 Xertigny",
+   "src": "https://www.lagolaye.fr/contact/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 49 87 41 83",
+    "site": "https://www.lagolaye.fr/",
+    "source": "https://www.lagolaye.fr/contact/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.lagolaye.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=1110+rue+Jules+Bougel%2C+88220+Xertigny&limit=5"
+  ],
+  "extrait": "Brasserie fermée le Week-end !",
+  "choix": "Catégorie 0 : le site officiel parle de visite sur appel préalable et de revendeurs, jamais de vente ni de consommation à la brasserie. Téléphone 06 49 87 41 83 : portable, mais seule ligne publiée par la brasserie sur sa page Contact (règle du 21/10). E-mail jaisoif@lagolaye.fr non repris. Horaires accueil « de 9h à 16h30 » du lundi au vendredi (page Contact) ; « sur appel préalable » vient de la page Trouvez nos bières (non citée en source). Bières vides : le site dit seulement « Classiques, éphémères ou à façon » ; seule indication de style (Columbia, blonde IPA) vient d'un site tiers. Untappd : aucune page de brasserie trouvée, seulement un check-in d'utilisateur ; rien proposé. info-lux (annuaire tiers) confirme « Visite sur rendez-vous, merci de nous appeler au préalable », non repris comme source. Doublon : le candidat node/12825759716 « La Golaye » est le même lieu, à ne créer qu'une fois. Absent de data/breweries.json."
+ }
+}

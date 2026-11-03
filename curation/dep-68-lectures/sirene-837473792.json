@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:837473792",
+ "ajout": {
+  "fiche": {
+   "n": "S'Humpaloch",
+   "c": "Lautenbach",
+   "d": "68",
+   "lat": 47.93804,
+   "lon": 7.17826,
+   "km": 312,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio artisanale (blonde, blanche, ambrée, noire). Le site officiel est « en construction » et ne dit pas si on peut acheter sur place. La bière est vendue à l'office de tourisme de Guebwiller et sur des marchés.",
+   "addr": "21 A rue de la Vallée, 68610 Lautenbach",
+   "src": "https://paysdebarr.fr/en/our-favourites/detail/232007118",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 50 17 69 97",
+    "site": "https://www.humpaloch.fr/",
+    "source": "https://www.humpaloch.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://paysdebarr.fr/en/our-favourites/detail/232007118",
+   "https://www.humpaloch.fr/",
+   "https://data.geopf.fr/geocodage/search?q=21+A+rue+de+la+Vall%C3%A9e%2C+68610+Lautenbach&limit=5"
+  ],
+  "extrait": "Beers on sale at the Guebwiller Tourist Office.",
+  "choix": "Lecture via un résumé (WebFetch) de l'office et du site humpaloch.fr. La page de l'office et le site officiel donnent la même adresse (21 A rue de la Vallée, Lautenbach) et le même portable. Ce portable est la seule ligne publiée par la brasserie sur son site : repris (règle du 21/10). Gault&Millau place la brasserie à Guebwiller (2 chemin du Peternit, fixe 03 89 76 84 08) : annuaire seul, écarté, d'où la catégorie 0. Aucun horaire n'est donné. Aucun passage lu ne dit qu'on achète ou qu'on boit sur place."
+ }
+}

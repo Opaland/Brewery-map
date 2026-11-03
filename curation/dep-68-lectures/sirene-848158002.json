@@ -1,0 +1,76 @@
+{
+ "candidat": "sirene:848158002",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Grillen",
+   "c": "Colmar",
+   "d": "68",
+   "lat": 48.07569,
+   "lon": 7.37242,
+   "km": 333,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Fabrique de bière et brewpub du quartier du Grillenbreit : bières à la pression sur place et « Boutique de la Brasserie ». Vente à emporter non détaillée sur la page.",
+   "addr": "31 rue des Jardins, 68000 Colmar",
+   "src": "https://brasseriedugrillen.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 68 61 03 80",
+    "site": "https://brasseriedugrillen.com",
+    "source": "https://brasseriedugrillen.com",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriedugrillen.com",
+     "lun": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasseriedugrillen.com",
+   "https://data.geopf.fr/geocodage/search?q=31+rue+des+Jardins%2C+68000+Colmar&limit=5"
+  ],
+  "extrait": "En plus des 9 bières on tap (à la pression) d'ici et d'ailleurs",
+  "choix": "Cat 1 en confiance moyenne : le site officiel montre un bar (pression) et une Boutique, mais ne dit pas noir sur blanc ce qui s'emporte. La fabrique de bière est confirmée par la même page : « La Brasserie du Grillen est une fabrique de bière située dans le quartier du Grillenbreit à Colmar, en Alsace. » (autre passage, même page). Horaires recopiés de la page d'accueil du site, lus dans le résumé. Le même planning est donné par l'office de Colmar. Untappd : aucune page trouvée, rien proposé."
+ }
+}

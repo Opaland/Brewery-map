@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:522754985",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Saint-Louis",
+   "c": "Saint-Louis",
+   "d": "68",
+   "lat": 47.59704,
+   "lon": 7.55319,
+   "km": 302.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Fiche d'un site de tourisme régional (Pays de Barr) : des bières de spécialité y sont brassées, vendues à la boutique de la brasserie. Ni dégustation ni consommation sur place citées sur cette page. Le site officiel (saint-louis.biz) répondait 503 le 03/11 : à relire.",
+   "addr": "123 rue de Mulhouse, 68300 Saint-Louis",
+   "src": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 89 91 04 58",
+    "source": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+     "mar": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://paysdebarr.fr/en/our-favourites/detail/252002056",
+   "https://data.geopf.fr/geocodage/search?q=123+rue+de+Mulhouse%2C+68300+Saint-Louis&limit=5"
+  ],
+  "extrait": "The beers can be purchased in the brewery shop as well as local produce and Alsatian souvenirs.",
+  "choix": "Page lue directement (fiche d'un site de tourisme, pas le site de la brasserie). Une confiance 'moyenne' au plus, faute du site officiel et d'Untappd. Catégorie 2 : la vente à la boutique est citée, la consommation sur place ne l'est pas. Téléphone : 03 89 91 04 58 est donné dans le bloc de la brasserie de cette fiche, et un autre annuaire donne contact@saint-louis.biz, donc je le retiens comme fixe de la brasserie. Cédric peut vérifier qu'il n'est pas celui de l'office. Je ne propose pas le site saint-louis.biz : il n'est pas lisible sur la page source. Les horaires viennent de cette même fiche (2026), 'vente' seulement. Les autres annuaires qui donnent d'autres horaires sont écartés."
+ }
+}

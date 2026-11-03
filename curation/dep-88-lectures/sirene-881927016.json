@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:881927016",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Bourlingueuse",
+   "c": "Bertrimoutier",
+   "d": "88",
+   "lat": 48.25653,
+   "lon": 7.06269,
+   "km": 336.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site de la brasserie annonce « Vente et degustation de notre gamme des bières artisanales et visite a la brasserie » et une tap-room où l'on déguste des bières produites sur place. Aucun horaire n'est publié.",
+   "addr": "326 Layegoutte, 88520 Bertrimoutier",
+   "src": "https://brasserielabourlingueuse.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 98 57 69 56",
+    "site": "https://brasserielabourlingueuse.fr/",
+    "source": "https://brasserielabourlingueuse.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserielabourlingueuse.fr/",
+   "https://data.geopf.fr/geocodage/search?q=326+Layegoutte%2C+88520+Bertrimoutier&limit=5"
+  ],
+  "extrait": "Vente et degustation de notre gamme des bières artisanales et visite a la brasserie.",
+  "choix": "Deux numéros sur le site : 06 98 57 69 56 (« Brasserie ») et 06 25 28 77 42 (« Réservations »). Je retiens le premier, celui de la brasserie ; c'est un mobile, le seul numéro d'accueil. Le site écrit « 326 Layegoutte » alors que SIRENE et OSM écrivent « 30 Layegoutte » (même commune) : j'ai pris l'adresse du site. Page Untappd https://untappd.com/w/brasserie-la-bourlingueuse/478845 vue ouverte (nano-brasserie en France, 12 bières). Le site officiel n'y renvoie pas, donc je ne l'ai pas mise dans le contact, et je n'ai pas rempli les types de bière."
+ }
+}

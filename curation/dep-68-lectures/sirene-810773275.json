@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:810773275",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Vignoble",
+   "c": "Ribeauvillé",
+   "d": "68",
+   "lat": 48.18913,
+   "lon": 7.33845,
+   "km": 341.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site officiel dit que les bières se dégustent sur place au bar ; il ne décrit pas de vente à emporter en magasin (vente en ligne seulement).",
+   "addr": "15 rue de l'Industrie, 68150 Ribeauvillé",
+   "src": "https://www.brasserie-vignoble.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 89 73 60 97",
+    "site": "https://www.brasserie-vignoble.fr/",
+    "source": "https://www.brasserie-vignoble.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasserie-vignoble.fr/",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+de+l%27Industrie%2C+68150+Ribeauvill%C3%A9&limit=5"
+  ],
+  "extrait": "Toutes nos bières peuvent être dégustées sur place au bar et en période estivale sur le biergarten de Riquewihr.",
+  "choix": "Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : on boit sur place, la vente à emporter n'est pas dite. Pas d'horaires : ceux de deux pages d'office se contredisent, et aucun n'est sur le site. Pas de lien Untappd : le site n'en porte aucun et aucune page n'a été trouvée. Pas de types de bière : les 8 produits du site ne sont pas classés par style. Le site cite aussi le biergarten de Riquewihr, mais l'adresse retenue est celle de Ribeauvillé, la seule que le site donne."
+ }
+}

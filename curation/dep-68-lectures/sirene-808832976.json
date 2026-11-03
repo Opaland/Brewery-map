@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:808832976",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Marcaire",
+   "c": "Muhlbach-sur-Munster",
+   "d": "68",
+   "lat": 48.02462,
+   "lon": 7.08675,
+   "km": 315.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale lue sur la fiche de l'office de tourisme Visit Alsace : visites en semaine sur rendez-vous, dégustation incluse dans la visite payante. Vente à emporter ou sur place non dite : catégorie à confirmer.",
+   "addr": "8 rue de la Gare, 68380 Muhlbach-sur-Munster",
+   "src": "https://visit.alsace/en/231008719-la-brasserie-du-marcaire",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://visit.alsace/en/231008719-la-brasserie-du-marcaire",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+de+la+Gare%2C+68380+Muhlbach-sur-Munster&limit=5"
+  ],
+  "extrait": "Une dégustation est incluse dans la visite payante.",
+  "choix": "Lu via un résumé de la page Visit Alsace (office de tourisme régional). Pas de site officiel trouvé (seulement un lien Facebook, écarté). Pas de page Untappd trouvée. Gault&Millau et les pages de l'office de Colmar confirment l'existence, mais ce sont des annuaires et un office : confiance vide. Téléphone non repris : la fiche de l'office donne un seul numéro, un portable (06 74 67 23 04), publié par l'office et non par la brasserie. Horaires non repris : « visites en semaine sur rendez-vous », pas de créneaux."
+ }
+}

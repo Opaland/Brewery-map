@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:838087963",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bisaiguë",
+   "c": "Kaysersberg Vignoble",
+   "d": "68",
+   "lat": 48.13896,
+   "lon": 7.26181,
+   "km": 333.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie artisanale avec un bar de dégustation, d'après deux offices de tourisme. Aucune source ne parle de vente à emporter.",
+   "addr": "56 rue du Général de Gaulle, 68240 Kaysersberg Vignoble",
+   "src": "https://www.tourisme-eguisheim-rouffach.com/EN/Brewery-Bisaigue-f230110511.html",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.tourisme-eguisheim-rouffach.com/EN/Brewery-Bisaigue-f230110511.html",
+   "https://data.geopf.fr/geocodage/search?q=56+rue+du+G%C3%A9n%C3%A9ral+de+Gaulle%2C+68240+Kaysersberg+Vignoble&limit=5"
+  ],
+  "extrait": "I have created a tasting bar with a vintage atmosphere, inspired by my travels.",
+  "choix": "Lecture via un résumé (WebFetch) des deux pages d'office : tourisme-eguisheim-rouffach.com et paysdebarr.fr/…/230110511, qui disent la même chose. Le site officiel bisaigue.alsace n'a pas répondu (délai dépassé), donc la confiance reste faible. Le mobile 06 17 31 03 48 est publié sur ces offices seulement, pas par la brasserie : non repris. Horaires de l'office (« Janvier à fin mars vendredi 16h-22h et samedi 16h-20h », plus des périodes saisonnières) non repris, car ils sont saisonniers et lus sans le texte exact. Site non repris, faute de page lue ouverte. Les noms de bières cités ne sont pas lus sur une page de brasserie."
+ }
+}
