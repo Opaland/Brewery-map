@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:911405991",
+ "ajout": {
+  "fiche": {
+   "n": "Mogwaï Beer Company",
+   "c": "Mundolsheim",
+   "d": "67",
+   "lat": 48.63185,
+   "lon": 7.71838,
+   "km": 397.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "La brasserie dit qu'on peut venir acheter ses bières sur place selon les disponibilités, avec un contact préalable conseillé par e-mail. Aucun horaire ni téléphone publiés, pas de taproom mentionné.",
+   "addr": "3 rue du Général Rapp, 67450 Mundolsheim",
+   "src": "https://www.mogwaibeercompany.fr/nous-trouver-irl-et-en-2-0/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "untappd": "https://untappd.com/MogwaiBeerCompany",
+    "source": "https://untappd.com/MogwaiBeerCompany",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.mogwaibeercompany.fr/nous-trouver-irl-et-en-2-0/",
+   "https://untappd.com/MogwaiBeerCompany",
+   "https://data.geopf.fr/geocodage/search?q=3+rue+du+G%C3%A9n%C3%A9ral+Rapp%2C+67450+Mundolsheim&limit=5"
+  ],
+  "extrait": "Vous pouvez venir sur place pour acheter nos bières selon nos disponibilités.",
+  "choix": "Page lue via un résumé (WebFetch). Aucun téléphone publié, donc aucun retenu. Page Untappd ouverte (untappd.com/MogwaiBeerCompany, lue via un résumé, brasserie de Mundolsheim, bières éphémères en gose, saison, IPA). Les bières ne sont pas proposées : les types du schéma n'ont pas été croisés avec la liste Untappd. Rien lu sur une consommation sur place, donc pas de catégorie 1."
+ }
+}

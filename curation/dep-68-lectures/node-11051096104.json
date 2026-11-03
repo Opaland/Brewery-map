@@ -1,0 +1,69 @@
+{
+ "candidat": "node/11051096104",
+ "ajout": {
+  "fiche": {
+   "n": "Timothy's Le Brasseur du Pape",
+   "c": "Eguisheim",
+   "d": "68",
+   "lat": 48.04229,
+   "lon": 7.30473,
+   "km": 326.9,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site de la brasserie dit qu'elle brasse sur place et qu'on est accueilli dans son taproom. Il ne dit rien de la vente à emporter.",
+   "addr": "13 Place de l'Église, 68420 Eguisheim",
+   "src": "https://www.brasserie-timothys.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-timothys.com",
+    "source": "https://www.brasserie-timothys.com",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-timothys.com",
+     "lun": [
+      [
+       "12:00",
+       "20:00"
+      ]
+     ],
+     "mar": [
+      [
+       "12:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "dim": [
+      [
+       "12:00",
+       "20:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasserie-timothys.com",
+   "https://data.geopf.fr/geocodage/search?q=13+Place+de+l%27%C3%89glise%2C+68420+Eguisheim&limit=5"
+  ],
+  "extrait": "the mother welcomes guests in the taproom.",
+  "choix": "Catégorie 1 en confiance faible, d'après la réponse de Cédric du 29/10 : on boit sur place, aucune vente à emporter n'est mentionnée. Téléphone écarté : le seul numéro lu est un portable (06 38 99 59 24) sur la page de l'office de tourisme d'Eguisheim-Rouffach (tourisme-eguisheim-rouffach.com, f253003754). Le site de la brasserie n'en publie aucun, donc le portable ne vient pas de la brasserie. Pas de page Untappd trouvée. Types de bière non lus, donc beers reste vide."
+ }
+}

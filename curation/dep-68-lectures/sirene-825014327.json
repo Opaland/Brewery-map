@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:825014327",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale des Quatre Pays",
+   "c": "Hirtzbach",
+   "d": "68",
+   "lat": 47.59829,
+   "lon": 7.22384,
+   "km": 285.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie ouverte en 2017. L'office de tourisme du Sundgau propose une visite guidée gratuite (2 h, sur inscription) du parc Reinach et de la brasserie, départ de la mairie. Vente et horaires non publiés sur les pages lues.",
+   "addr": "Hirtzbach",
+   "src": "https://www.sundgau-sud-alsace.fr/en/detail/35/2424/242019035/visite-du-parc-reinach-et-de-la-brasserie-des-4-pays-hirtzbach/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.sundgau-sud-alsace.fr/en/detail/35/2424/242019035/visite-du-parc-reinach-et-de-la-brasserie-des-4-pays-hirtzbach/",
+   "https://data.geopf.fr/geocodage/search?q=Hirtzbach&type=municipality&limit=5"
+  ],
+  "extrait": "the authenticity of the Brasserie des 4 Pays",
+  "choix": "Existence : ligne SIRENE (26 rue du Mal de Lattre de Tassigny) + fiche de visite de l'office du Sundgau (+ un annuaire de sociétés, qui ne compte pas). Pas de site officiel ni d'Untappd trouvés. Ce qu'on peut y faire n'est pas établi : catégorie 0. Téléphone non repris : le +33 3 89 40 02 90 de la page est celui de l'office, pas celui de la brasserie. Adresse laissée vide : la page ne la donne pas. La seule adresse du lieu est la mairie, point de départ de la visite. Un point OSM existe (node/5983901622)."
+ }
+}

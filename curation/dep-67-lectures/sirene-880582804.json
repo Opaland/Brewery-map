@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:880582804",
+ "ajout": {
+  "fiche": {
+   "n": "Les Intenables",
+   "c": "Rosheim",
+   "d": "67",
+   "lat": 48.50337,
+   "lon": 7.49403,
+   "km": 376.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce une boutique ouverte du lundi au vendredi de 9h à 17h ; il propose aussi « Visites & dégustations » sur contact, sans dire si on boit sur place.",
+   "addr": "8 rue Jean Marie Lehn, 67560 Rosheim",
+   "src": "https://www.lesintenables.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 46 39 96 65",
+    "site": "https://www.lesintenables.com/",
+    "untappd": "https://untappd.com/LesIntenablesCraftBeer",
+    "source": "https://www.lesintenables.com/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.lesintenables.com/",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.lesintenables.com/",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+Jean+Marie+Lehn%2C+67560+Rosheim&limit=5"
+  ],
+  "extrait": "Boutique ouverte du lundi au vendredi de 9h à 17h.",
+  "choix": "Le seul numéro publié est un portable (+33(0)6 46 39 96 65), retenu comme seule ligne publiée par la brasserie (règle du 21/10). Les visites et dégustations ne sont pas détaillées, donc catégorie 2 et non 1. Le nom commercial est « Les Intenables » ; SIRENE écrit « Bière des Intenables ». Page Untappd ouverte : fiche « Les Intenables - Craft Beer », Rosheim. Je ne propose aucune bière : seules les gammes (éphémères, régulières, Cuvées 31, softs) sont citées, sans lecture bière par bière sur Untappd."
+ }
+}

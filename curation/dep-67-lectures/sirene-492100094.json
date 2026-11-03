@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:492100094",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie l'Abreuvoir",
+   "c": "Breitenbach",
+   "d": "67",
+   "lat": 48.36418,
+   "lon": 7.28774,
+   "km": 355.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Petite brasserie associative. Vente directe à la brasserie environ un samedi matin sur deux, sans jours précis publiés : suivre la newsletter ou le site avant de venir.",
+   "addr": "21 rue du Mont Sainte-Odile, 67220 Breitenbach",
+   "src": "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-abreuvoir.com/",
+    "source": "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasserie-abreuvoir.com/trouver-nos-bieres/",
+   "https://data.geopf.fr/geocodage/search?q=21+rue+du+Mont+Sainte-Odile%2C+67220+Breitenbach&limit=5"
+  ],
+  "extrait": "Rendez-vous directement à la brasserie, nous sommes présents un samedi matin sur 2 en moyenne.",
+  "choix": "Site officiel lu via un résumé (passage cité tel que rendu entre guillemets). Aucun téléphone publié par la brasserie : le mobile du lien d'appel Gault&Millau n'est pas retenu (annuaire). Types de bière : la page « Des bières » n'en nomme aucun ; Gault&Millau cite blonde, blanche, ambrée, brune, mais annuaire seul, non retenu. Pas de dégustation sur place mentionnée, donc pas de catégorie 1. Pas d'horaires : « un samedi matin sur 2 en moyenne » n'est pas un créneau."
+ }
+}

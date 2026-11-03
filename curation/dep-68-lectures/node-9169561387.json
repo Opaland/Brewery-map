@@ -1,0 +1,32 @@
+{
+ "candidat": "node/9169561387",
+ "ajout": {
+  "fiche": {
+   "n": "Cabrio",
+   "c": "Fellering",
+   "d": "68",
+   "lat": 47.88667,
+   "lon": 6.99384,
+   "km": 299.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale qui existe (site officiel). Le site ne dit pas si l'on peut acheter ou boire sur place ; il parle de vente « au plus près du consommateur » et de visites dégustations sur rendez-vous pour des groupes.",
+   "addr": "4 Rue des Fabriques, 68470 Fellering",
+   "src": "https://www.brasseriecabrio.fr/la-brasserie/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriecabrio.fr/",
+    "source": "https://www.brasseriecabrio.fr/la-brasserie/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasseriecabrio.fr/la-brasserie/",
+   "https://data.geopf.fr/geocodage/search?q=4+Rue+des+Fabriques%2C+68470+Fellering&limit=5"
+  ],
+  "extrait": "Des visites dégustations peuvent être organisées sur rendez vous pour des groupes.",
+  "choix": "Lu via un résumé (WebFetch), pas la page brute. Commune : le site et Gault&Millau disent Fellering (68470), alors que le candidat OSM dit Husseren-Wesserling ; l'adresse vient de l'URL du lien « Plan d'accès », pas d'un texte visible. Catégorie 0 : seul Gault&Millau (annuaire) parle d'achat sur place, ce qui ne suffit pas. Le seul numéro publié est un portable, retenu parce qu'il est la seule ligne de la brasserie. Untappd : aucune page trouvée. Pas d'horaires publiés."
+ }
+}

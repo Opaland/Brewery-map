@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:902435429",
+ "ajout": {
+  "fiche": {
+   "n": "BroBrew",
+   "c": "Russ",
+   "d": "67",
+   "lat": 48.4967,
+   "lon": 7.25477,
+   "km": 366.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie familiale existante (site officiel, cinq bières). Le site ne dit rien de la vente, de la dégustation ni des horaires : on ne sait pas encore ce qu'on peut y faire.",
+   "addr": "1 rue des Champs, 67130 Russ",
+   "src": "https://brobrew.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 46 40 75 39",
+    "site": "https://brobrew.fr/",
+    "source": "https://brobrew.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brobrew.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+des+Champs%2C+67130+Russ&limit=5"
+  ],
+  "extrait": "Chez nous, vous n'entrez pas dans une brasserie : vous entrez dans notre maison.",
+  "choix": "Page lue via un résumé (WebFetch). Téléphone retenu : 06 46 40 75 39, un mobile, seul numéro publié par la brasserie sur son site (règle du 21/10). Catégorie 0 : la phrase citée n'établit ni vente ni accueil. Le site ne donne ni boutique ni horaires."
+ }
+}

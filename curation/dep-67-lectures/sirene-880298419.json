@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:880298419",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Le Centième Singe",
+   "c": "Altwiller",
+   "d": "67",
+   "lat": 48.92924,
+   "lon": 6.97988,
+   "km": 398.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Micro-brasserie du site officiel : bouteilles, packs et fût de 20 L en boutique, horaires de boutique le vendredi soir et le samedi matin. Le site ne dit pas explicitement qu'on achète sur place ; aucun bar ni dégustation annoncés.",
+   "addr": "16 A rue Principale, 67260 Altwiller",
+   "src": "https://brasserie-centieme-singe.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 67 82 51 46",
+    "site": "https://brasserie-centieme-singe.fr/",
+    "source": "https://brasserie-centieme-singe.fr/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie-centieme-singe.fr/",
+     "ven": [
+      [
+       "18:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasserie-centieme-singe.fr/",
+   "https://data.geopf.fr/geocodage/search?q=16+A+rue+Principale%2C+67260+Altwiller&limit=5"
+  ],
+  "extrait": "Horaires de la boutique: Vendredi: 18h-20h / Samedi: 9h-12h",
+  "choix": "Le seul numéro de la page (07 67 82 51 46) est un portable : retenu comme seule ligne publiée. L'adresse vient de SIRENE ; la page ne donne que le village. Aucune page Untappd trouvée. Catégorie 2 en moyenne et non en solide, car « boutique » laisse penser à une vente sur place sans l'écrire."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:15",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Pastel",
+   "c": "Dossenheim-sur-Zinsel",
+   "d": "67",
+   "lat": 48.80997,
+   "lon": 7.40623,
+   "km": 402,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale (bières traditionnelles, fruitées, au pain), site officiel à la même adresse. Le site ne dit pas qu'on peut acheter sur place : commande auprès du brasseur ou points de vente habituels. Visites sur rendez-vous.",
+   "addr": "11 rue du Printemps 67330 Dossenheim-sur-Zinsel",
+   "src": "https://bierelapastel.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 08 05 18 30",
+    "site": "https://bierelapastel.fr",
+    "source": "https://bierelapastel.fr",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://bierelapastel.fr",
+   "https://data.geopf.fr/geocodage/search?q=11+rue+du+Printemps+67330+Dossenheim-sur-Zinsel&limit=5"
+  ],
+  "extrait": "passer commande auprès de votre brasseur",
+  "choix": "Site officiel bierelapastel.fr lu via un résumé. L'adresse (11 rue du printemps, Dossenheim-sur-Zinsel) y est la même que sur la fiche de l'office de tourisme de Hanau-La Petite Pierre (visite du 24/10/2026, terminée). Gault&Millau donne une autre adresse (Geiswiller-Zœbersdorf), non retenue. Le seul numéro publié est un mobile (06 08 05 18 30), repris car c'est la seule ligne de la brasserie. Horaire « le soir en semaine de 19h à 20h » non repris : le résumé ne dit pas à quoi il s'applique. Pas de page Untappd trouvée."
+ }
+}

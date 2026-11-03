@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:788693596",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Mercière",
+   "c": "Cosswiller",
+   "d": "67",
+   "lat": 48.63033,
+   "lon": 7.39914,
+   "km": 384.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel annonce la vente de bière aux particuliers à la boutique. Les visites avec dégustation se font en groupe et sur réservation seulement. Aucun horaire publié.",
+   "addr": "17 rue Principale, 67310 Cosswiller",
+   "src": "https://www.la-merciere.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.la-merciere.fr",
+    "source": "https://www.la-merciere.fr",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.la-merciere.fr",
+   "https://data.geopf.fr/geocodage/search?q=17+rue+Principale%2C+67310+Cosswiller&limit=5"
+  ],
+  "extrait": "Vente de bière aux particuliers et professionnels à la boutique ou en point de vente.",
+  "choix": "Page du site officiel lue via un résumé (WebFetch). Téléphone : 09 52 68 67 41, lu sur la fiche de l'office visit.alsace (lien « Call us » dans le bloc « BRASSERIE LA MERCIÈRE, 17 rue Principale, 67310 Cosswiller »). C'est le fixe de la brasserie, pas celui de l'office, et il n'apparaît pas sur le site officiel lu. Un fixe lu sur un office est permis (réponse de Cédric du 31/10). Catégorie 2 et non 1 : la dégustation n'est offerte qu'aux groupes sur réservation. Confiance moyenne : horaires absents. Page Untappd non trouvée."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:912751138",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie du Septénaire",
+   "c": "Niedermodern",
+   "d": "67",
+   "lat": 48.8445,
+   "lon": 7.63982,
+   "km": 414.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel annonce un pub à sept becs à bières et une boutique. Il ne donne pas d'horaires (il affiche seulement « Actuellement fermé »).",
+   "addr": "10 rue de l'Artisanat, 67350 Niedermodern",
+   "src": "https://www.microbrasserie-septenaire.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 68 03 82 99",
+    "site": "https://www.microbrasserie-septenaire.fr",
+    "source": "https://www.microbrasserie-septenaire.fr",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.microbrasserie-septenaire.fr",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+de+l%27Artisanat%2C+67350+Niedermodern&limit=5"
+  ],
+  "extrait": "Pub avec 7 becs à bières",
+  "choix": "Horaires non repris : l'office de Haguenau écrit « Jeu et ven : 16h30-22h30, sam : 10h30-12h-30 et 18h00-22h30 ». Le « 12h-30 » du samedi est illisible et le site officiel n'a pas d'horaires. Le site dit onze variétés et n'en montre que quatre, ce sont celles que je reprends. Pas de lien Untappd sur le site (seulement Facebook et Instagram). Je n'ai pas cherché la page Untappd."
+ }
+}

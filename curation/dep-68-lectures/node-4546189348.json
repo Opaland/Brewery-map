@@ -1,0 +1,111 @@
+{
+ "candidat": "node/4546189348",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pays Welche",
+   "c": "Lapoutroie",
+   "d": "68",
+   "lat": 48.15627,
+   "lon": 7.16634,
+   "km": 331.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site officiel annonce un magasin ouvert tous les jours et une visite où l'on déguste les bières. Il n'y a pas de bar, et le passage cité ne dit pas ce qui se boit sur place en dehors de la visite.",
+   "addr": "85 rue du Général Dufieux, 68650 Lapoutroie",
+   "src": "http://www.brasseriedupayswelche.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 89 47 28 13",
+    "site": "http://www.brasseriedupayswelche.fr",
+    "source": "http://www.brasseriedupayswelche.fr",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "http://www.brasseriedupayswelche.fr",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "dim": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Fermé le 25 décembre.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "http://www.brasseriedupayswelche.fr",
+   "https://data.geopf.fr/geocodage/search?q=85+rue+du+G%C3%A9n%C3%A9ral+Dufieux%2C+68650+Lapoutroie&limit=5"
+  ],
+  "extrait": "rencontrer le brasseur, voir nos installations, déguster les bières",
+  "choix": "Catégorie 1 en confiance moyenne : la vente (magasin « ouvert 7j / 7 (sauf le 25 décembre) 9h -12h et 14h - 18h ») et la dégustation en visite sont lues sur la même page d'accueil, mais il n'y a ni bar ni consommation libre. L'adresse est celle du site (85 rue du Général Dufieux) ; OSM dit 86. Écartées : les bières de saison, au pain et à la framboise, dont le style est trop vague, et la contradiction du site sur les visites (« Ouverte du lundi au vendredi » contre un magasin 7 j sur 7), non reprise dans les horaires d'accueil. Le fixe est publié par la brasserie. Pas de page Untappd trouvée."
+ }
+}

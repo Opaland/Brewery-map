@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:814444279",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs du Ried",
+   "c": "Muttersholtz",
+   "d": "67",
+   "lat": 48.26924,
+   "lon": 7.52106,
+   "km": 356.7,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie alsacienne et Bierstub (le site officiel dit qu'on boit sur place). Vente à emporter non confirmée par le site officiel : Gault&Millau dit « toutes disponibles à la dégustation et à la vente », mais c'est un annuaire.",
+   "addr": "32 rue Ehnwihr 67600 Muttersholtz",
+   "src": "https://brasseurs-du-ried.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 67 23 31 83",
+    "site": "https://brasseurs-du-ried.fr/",
+    "source": "https://brasseurs-du-ried.fr/",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasseurs-du-ried.fr/",
+   "https://data.geopf.fr/geocodage/search?q=32+rue+Ehnwihr+67600+Muttersholtz&limit=5"
+  ],
+  "extrait": "Brasserie Alsacienne et Bierstub à MUTTERSHOLTZ",
+  "choix": "Page d'accueil du site officiel lue via un résumé : titre « Brasserie Alsacienne et Bierstub » et téléphone 09 67 23 31 83, ni horaires ni bières ni Untappd. Classé en 1 avec une confiance faible (règle de Cédric du 29/10 pour un lieu où l'on boit). Le téléphone vient du site de la brasserie ; une fiche de l'office de tourisme de Sélestat donne un autre numéro (03 88 58 87 20), écarté. Des annuaires donnent vendredi à dimanche 17 h à 23 h, non repris car aucune source officielle. Pas de page Untappd trouvée en deux recherches."
+ }
+}

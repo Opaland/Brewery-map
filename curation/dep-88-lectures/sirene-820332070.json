@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:820332070",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Fouillotte",
+   "c": "Épinal",
+   "d": "88",
+   "lat": 48.16316,
+   "lon": 6.45271,
+   "km": 305.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Le site officiel de la brasserie annonce une taproom à l'entrée de la brasserie, où l'on déguste à la pression, avec des horaires du mardi au samedi, et des tarifs de ventes à emporter.",
+   "addr": "8 rue Christophe Denis, 88000 Épinal",
+   "src": "https://lafouillotte.fr/taproom/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 29 33 03 74",
+    "site": "https://lafouillotte.fr",
+    "source": "https://lafouillotte.fr/taproom/",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lafouillotte.fr/taproom/",
+     "mar": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://lafouillotte.fr/taproom/",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+Christophe+Denis%2C+88000+%C3%89pinal&limit=5"
+  ],
+  "extrait": "C'est le lieu idéal pour découvrir notre gamme de bières que vous pouvez déguster directement à la pression tout en échangeant avec nous.",
+  "choix": "Page lue via un résumé : les horaires, « vous pouvez déguster directement à la pression », « Nos tarifs des ventes à emporter » et le téléphone viennent de la même page. Lundi et dimanche non écrits, donc absents. Un seul bloc d'horaires (accueil), la page ne distinguant pas vente et accueil. Beers vide : la page d'accueil cite des noms (NEIPA, DIPA, Saison, Honey Tree) mais aucun passage exact utilisable. Pas d'Untappd vérifié. Le téléphone est celui de la brasserie, publié sur son site (pages contact et taproom)."
+ }
+}

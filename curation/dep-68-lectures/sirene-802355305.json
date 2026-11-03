@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:802355305",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Rhin",
+   "c": "Morschwiller-le-Bas",
+   "d": "68",
+   "lat": 47.73664,
+   "lon": 7.28413,
+   "km": 299.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie vend ses bières en bouteilles et propose des visites avec dégustation sur place, en groupe et sur réservation. Gault&Millau confirme la dégustation sur place.",
+   "addr": "2 rue de la Source, 68790 Morschwiller-le-Bas",
+   "src": "http://bieredurhin.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 89 77 23 83",
+    "site": "http://bieredurhin.com",
+    "source": "http://bieredurhin.com",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "http://bieredurhin.com",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+de+la+Source%2C+68790+Morschwiller-le-Bas&limit=5"
+  ],
+  "extrait": "Visite brasserie : uniquement à partir de 6 personnes, réservation obligatoire, visite+dégustation 5€/personne.",
+  "choix": "Confiance moyenne et non solide : le site ne parle de dégustation que dans le cadre d'une visite de groupe (6 personnes minimum, réservation obligatoire). La phrase sur la vente (« Et chaque bière est vendu à l'unité ») est citée par le résumé du site, mais elle est absente de l'extrait. Gault&Millau (fr.gaultmillau.com/fr/artisans/brasserie-du-rhin) écrit « La maison propose la dégustation sur place » et « visites sur réservation, ou bien le samedi à partir de onze heures ». Cette page est une source secondaire. Le téléphone « 06 89 77 23 83 » est un portable, seule ligne publiée par la brasserie sur son site (règle du 21/10). Aucun horaire d'ouverture n'est publié, donc aucun bloc d'horaires. Je n'ai trouvé aucun Untappd (aucune page). L'annuaire Cylex donne des horaires (vendredi 17h-19h30, samedi 10h-19h) : je ne les reprends pas, un annuaire seul ne suffit pas. Gault&Millau dit que la brasserie a deux sites. Le site officiel ne cite que Morschwiller-le-Bas. Types retirés : bière de printemps, de Noël et d'Oktober, saisonnières sans type fixe."
+ }
+}

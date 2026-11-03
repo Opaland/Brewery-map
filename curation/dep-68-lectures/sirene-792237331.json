@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:792237331",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Saint Alphonse",
+   "c": "Vogelgrun",
+   "d": "68",
+   "lat": 48.01124,
+   "lon": 7.57396,
+   "km": 336.8,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, page Untappd). Le site parle de visites le samedi avec dégustation, mais ne dit ni qu'on achète à emporter ni qu'on boit sur place : catégorie à confirmer.",
+   "addr": "2 rue du Rothgern, 68600 Vogelgrun",
+   "src": "https://brasseriesaintalphonse.com/nous-trouver",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "03 89 72 70 07",
+    "site": "https://brasseriesaintalphonse.com",
+    "source": "https://brasseriesaintalphonse.com/nous-trouver",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://brasseriesaintalphonse.com/nous-trouver",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+du+Rothgern%2C+68600+Vogelgrun&limit=5"
+  ],
+  "extrait": "Tél : 03 89 72 70 07",
+  "choix": "Lu directement sur le site officiel, page « Nous trouver » (la page d'accueil, « Visites » et « Contact » ne donnent ni vente ni horaires). Horaires d'hiver non repris : la page les appelle « Horaires d'ouverture (horaires d'hiver) » sans dire s'il s'agit d'accueil ou de vente, et il n'y a pas de créneaux d'été. Page Untappd https://untappd.com/w/brasserie-saint-alphonse/71826 : ouverte, nom et lieu (Vogelgrun) concordent. Elle n'est pas dans contact, car la page source du contact ne la porte pas. À ajouter si Cédric le veut. Bières non reprises : je n'ai pas lu la liste complète sur Untappd. La visite à 6 € avec dégustation (samedi 10 h, inscription obligatoire) n'est pas assez pour la catégorie 1. L'adresse 2 rue du Rothgern est celle de la page ; la page conseille « 1 rue du Merle » pour le GPS."
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "candidat": "node/12222676725",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Uberach",
+   "c": "Val-de-Moder",
+   "d": "67",
+   "lat": 48.84036,
+   "lon": 7.61337,
+   "km": 412.8,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Brasserie de Val de Moder. Boutique ouverte du lundi au vendredi ; visites avec dégustation l'été et sur rendez-vous.",
+   "addr": "5 rue du Cerf",
+   "src": "https://www.brasserie-uberach.fr/?page=visiter",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "03 88 07 07 77",
+    "site": "https://www.brasserie-uberach.fr/",
+    "source": "https://www.brasserie-uberach.fr/?page=contact",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-uberach.fr/?page=visiter",
+     "lun": [
+      [
+       "08:30",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "08:30",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "08:30",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "08:30",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "08:30",
+       "12:00"
+      ],
+      [
+       "13:00",
+       "17:30"
+      ]
+     ],
+     "remarque": "Visites avec dégustation : jeudi et vendredi à 10h30 et 16h00 en juillet-août ; toute l'année sur rendez-vous.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasserie-uberach.fr/?page=visiter",
+   "https://www.brasserie-uberach.fr/?page=contact",
+   "https://data.geopf.fr/geocodage/search?q=Val-de-Moder&type=municipality&limit=5"
+  ],
+  "extrait": "Horaires d'ouverture de la boutique, du lundi au vendredi de 8h30 à 12h00 et de 13h00 à 17h30.",
+  "choix": "Catégorie 2 en confiance faible : la page ne dit pas noir sur blanc quels produits la boutique vend. La dégustation fait partie de la visite payante, ce qui ne prouve pas qu'on puisse boire sur place en dehors d'elle. Téléphone 03 88 07 07 77 : le numéro du contact, également donné pour les groupes. Les horaires de visite, juillet-août le jeudi et le vendredi à 10h30 et 16h00 et le reste de l'année sur rendez-vous, vont dans la remarque de la fiche."
+ }
+}

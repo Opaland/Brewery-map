@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:828018275",
+ "ajout": {
+  "fiche": {
+   "n": "L'Opercule",
+   "c": "Senones",
+   "d": "88",
+   "lat": 48.39263,
+   "lon": 6.97479,
+   "km": 345.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie bio fondée en 2017. Sur son site, le bar-boutique a des horaires, et la visite guidée comprend la dégustation de plusieurs bières. La vente à emporter n'est pas écrite noir sur blanc : la page parle d'une boutique de produits locaux et bio et renvoie à une page « Livraison ».",
+   "addr": "16b avenue de Salm, 88210 Senones",
+   "src": "https://www.lopercule.fr/content/12-visiter-la-brasserie",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 52 05 22 08",
+    "site": "https://www.lopercule.fr",
+    "source": "https://www.lopercule.fr/content/12-visiter-la-brasserie",
+    "verifieLe": "2026-11-03"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.lopercule.fr/content/12-visiter-la-brasserie",
+     "mer": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "11:00",
+       "13:30"
+      ],
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Horaires du bar-boutique.",
+     "verifieLe": "2026-11-03"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.lopercule.fr/content/12-visiter-la-brasserie",
+   "https://data.geopf.fr/geocodage/search?q=16b+avenue+de+Salm%2C+88210+Senones&limit=5"
+  ],
+  "extrait": "Horaires du bar - boutique",
+  "choix": "Le téléphone du site est 07 52 05 22 08, un mobile et le seul numéro de la brasserie. La fiche de l'office de la vallée de la Bruche donne 07 44 75 23 20, différent : écarté. Les horaires sont ceux du « bar-boutique », rangés en « accueil », lus sur la page de visite. Aucun lien Untappd trouvé. Styles de bière non écrits."
+ }
+}

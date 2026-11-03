@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:822846135",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Framont",
+   "c": "Grandfontaine",
+   "d": "67",
+   "lat": 48.48519,
+   "lon": 7.16559,
+   "km": 361.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale installée dans l'ancienne demeure du maître des forges, d'après la fiche de l'office de tourisme de la vallée de la Bruche. Ni vente, ni visite, ni horaires ne sont écrits : ce qu'on peut y faire n'est pas établi.",
+   "addr": "1 rue du Haut Fourneau, 67130 Grandfontaine",
+   "src": "https://www.valleedelabruche.fr/fiche-sit/F215002936_brasserie-de-framont-grandfontaine/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.valleedelabruche.fr/fiche-sit/F215002936_brasserie-de-framont-grandfontaine/",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+du+Haut+Fourneau%2C+67130+Grandfontaine&limit=5"
+  ],
+  "extrait": "la Brasserie de Framont est implantée dans l'ancienne demeure du maître des forges à Grandfontaine.",
+  "choix": "Pages lues via un résumé (WebFetch) : fiche de l'office de la vallée de la Bruche et fiche visit.alsace (mêmes informations). Page Facebook derrière une connexion, illisible. Ni site officiel ni Untappd trouvés. Existence appuyée par SIRENE et deux fiches d'office (confiance moyenne au plus), d'où cat 0. Téléphone écarté : l'office publie le 06 63 07 64 94 (portable), rien ne montre que la brasserie le publie elle-même. Adresse retenue : 1 rue du Haut Fourneau (fiche de l'office) ; l'autre adresse SIRENE (6 rue du Haut Fourneau) non reprise."
+ }
+}

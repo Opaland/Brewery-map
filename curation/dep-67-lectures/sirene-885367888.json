@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:885367888",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bendorf",
+   "c": "Strasbourg",
+   "d": "67",
+   "lat": 48.56651,
+   "lon": 7.77546,
+   "km": 394.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie annonce le remplissage de growlers à la brasserie ; aucune dégustation sur place n'y est mentionnée.",
+   "addr": "114 rue Jean Jaurès, 67100 Strasbourg",
+   "src": "https://www.brasserie-bendorf.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 53 79 76 70",
+    "site": "https://www.brasserie-bendorf.fr",
+    "source": "https://www.brasserie-bendorf.fr",
+    "verifieLe": "2026-11-03"
+   }
+  },
+  "verifieLe": "2026-11-03",
+  "sources": [
+   "https://www.brasserie-bendorf.fr",
+   "https://data.geopf.fr/geocodage/search?q=114+rue+Jean+Jaur%C3%A8s%2C+67100+Strasbourg&limit=5"
+  ],
+  "extrait": "À la brasserie, on remplit vos growlers de 0.50L, 0.65L, 0.75cl, 1L ou de 2L !",
+  "choix": "Existence : site officiel, plus fiches Gault&Millau et office de Strasbourg (visitstrasbourg, 403 à l'ouverture, vue seulement dans les résultats de recherche) et un nœud OSM. Catégorie 2 car seule la vente à emporter (growlers) est écrite ; rien sur la consommation sur place. Horaires non repris : seuls des annuaires (118712) en donnent, et ils se contredisent. Un autre mobile (06 70 55 72 08) vu sur Gault&Millau est écarté (annuaire, source ancienne). Aucun lien Untappd trouvé. Bières : styles cités par le site (houblonnées, acides, fruitées, etc.) non transcrits en types faute de lecture directe de la liste. Lecture du site via un résumé."
+ }
+}
