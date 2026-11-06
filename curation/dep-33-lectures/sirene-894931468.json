@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:894931468",
+ "ajout": {
+  "fiche": {
+   "n": "Laca Boiates",
+   "c": "La Teste-de-Buch",
+   "d": "33",
+   "lat": 44.61231,
+   "lon": -1.13192,
+   "km": 476.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale en activité d'après son site officiel (brassée sur place depuis 2021). Le site a un lien « Visite et dégustation » sans contenu lu et une boutique en ligne : on ne sait pas si l'on peut y acheter ou boire sur place. Aucun horaire publié.",
+   "addr": "160 avenue André Ampère, 33260 La Teste de Buch",
+   "src": "https://www.lacaboiates.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 83 39 28 98",
+    "site": "https://www.lacaboiates.fr/",
+    "source": "https://www.lacaboiates.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.lacaboiates.fr/",
+   "https://data.geopf.fr/geocodage/search?q=160+avenue+Andr%C3%A9+Amp%C3%A8re%2C+33260+La+Teste+de+Buch&limit=5"
+  ],
+  "extrait": "Toutes nos bières sont brassées dans notre Brasserie à La Teste-de-Buch par nos équipes depuis 2021.",
+  "choix": "Catégorie 0 : le site ne dit pas si l'on vend ou boit sur place. Un seul numéro publié, un portable, retenu parce que c'est la seule ligne de la brasserie sur son site. Pas d'Untappd trouvé."
+ }
+}

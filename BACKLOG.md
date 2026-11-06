@@ -50,6 +50,18 @@ Restent 3, 4 et 5.
 - Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
 - Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
 
+## Routine quotidienne — restes
+
+Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 h 47, heure de Paris) traite d'abord les lignes de cette section, puis la région suivante, puis vérifie la mission avec les personas. Une ligne par point, datée ; une ligne faite est barrée.
+
+- 06/11 : Mash Pit Brewpub (Seignosse) a la même adresse que La Séquère : savoir si c'est le même lieu avant de créer une fiche.
+- 06/11 : Brasserie Lalune, Winterholer et Maison PIP ont été lues via des résumés : rouvrir leurs pages et confirmer les extraits.
+- 06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.
+
+## Restes de S347, deuxième partie (06/11, issue #188)
+
+- À relancer : Azimut (429), Bon Voyage (injoignable), Brasserie du Bahus et Brasserie Naturelle des Landes (pages de l'office des Landes en 403), Aguiana (guide seul), La Ménagerie (brewpub sans adresse), le Centre de brassothérapie (vérification d'âge), Mad Occ', Cabestan, Les 3 Tertres, Mira, Tribu Zytha, « Y'a une sorcière dans ma bière » (plateforme seule), Natural Mystick (503), Zebull'in.
+
 ## Restes de S347, première partie (06/11, issue #188)
 
 - À relancer (`campagne.ts relancer 16-r2` … `87-r2`) : Brasserie des Gabariers (son bar de Cognac), Big Hop, La Rainette, Fort Boyard, Garvoul, Science Infuse, Thiéfine, La Rieuse, Brasserie Autrement, Georgette, Petit Monde, La 23, La Chavagn', Les 3 Croquants, FAB, Grung, Bière de la Bastide, Champdoré, Michard.

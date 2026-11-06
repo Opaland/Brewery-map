@@ -1,0 +1,60 @@
+{
+ "candidat": "sirene:824016158",
+ "ajout": {
+  "fiche": {
+   "n": "Naùera",
+   "c": "Saint-Laurent-Médoc",
+   "d": "33",
+   "lat": 45.1309,
+   "lon": -0.85694,
+   "km": 442.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Magasin de vente sur place et bar, d'après la page visite du site de la brasserie ; visites sur rendez-vous du lundi au vendredi, fermée le lundi et le mardi. Page marquée « © 2020 » : à recontrôler.",
+   "addr": "ZA Le Treytin, 33112 Saint-Laurent-Médoc",
+   "src": "https://nauera.com/visite-magasin-food-trucks/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 56 41 10 13",
+    "site": "https://nauera.com",
+    "source": "https://nauera.com",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://nauera.com/visite-magasin-food-trucks/",
+     "mer": [
+      [
+       "10:00",
+       "19:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "19:30"
+      ]
+     ],
+     "remarque": "Un bar est ouvert de 11h à 19h30 (jours non précisés par la source) ; visites sur rendez-vous du lundi au vendredi.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://nauera.com/visite-magasin-food-trucks/",
+   "https://nauera.com",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Laurent-M%C3%A9doc&type=municipality&limit=5"
+  ],
+  "extrait": "Sur place un magasin de vente de nos bières, de nos vins, et de produits réalisés par des artisans locaux.",
+  "choix": "Conf. moyenne : site officiel clair mais pied de page 2020. Horaires en bloc « vente » (mercredi 10h-19h30, jeudi 10h-21h, vendredi 10h-19h30, lundi et mardi fermés) ; le bar « ouvert de 11H00 A 19H30 » et les visites sur RDV vont en remarque car leurs jours ne sont pas dits. Le résumé ne précise pas que ces horaires sont ceux du magasin. Téléphone 05 56 41 10 13 lu sur l'accueil. Untappd non trouvé sur le site."
+ }
+}

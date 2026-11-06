@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:812987444",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lalune",
+   "c": "Bordeaux",
+   "d": "33",
+   "lat": 44.84953,
+   "lon": -0.56147,
+   "km": 426,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio sur la rive droite de Bordeaux d'après son site (enseigne Lalune) ; le site renvoie à une boutique en ligne et ne dit rien de la vente ni de l'accueil sur place.",
+   "addr": "87 quai des Queyries, 33100 Bordeaux",
+   "src": "https://brasseurs-lalune.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 57 97 14 66",
+    "site": "https://brasseurs-lalune.fr",
+    "source": "https://brasseurs-lalune.fr/contact/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseurs-lalune.fr",
+   "https://brasseurs-lalune.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=87+quai+des+Queyries%2C+33100+Bordeaux&limit=5"
+  ],
+  "extrait": "La brasserie Lalune est ancrée en bord de Garonne sur la rive droite de Bordeaux, au plein cœur du Port de la Lune.",
+  "choix": "Cat. 0 : Gault&Millau et tablejourney (annuaires) parlent de dégustation sur place et d'horaires mer-sam 17h-23h ; un annuaire seul ne suffit pas, écarté. Le site officiel n'a ni horaires ni mention de vente sur place. Le rattachement SIRENE (« La Brasserie de la Lune », 87 quai des Queyries) à l'enseigne Lalune repose sur l'adresse identique lue sur la page contact. Téléphone fixe 05 57 97 14 66 publié sur la page contact. Untappd non trouvé."
+ }
+}

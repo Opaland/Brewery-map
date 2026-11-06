@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:814190674",
+ "ajout": {
+  "fiche": {
+   "n": "Kanaha Beer",
+   "c": "Biscarrosse",
+   "d": "40",
+   "lat": 44.38403,
+   "lon": -1.14313,
+   "km": 485,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie annonce « Suite à l'incendie, la brasserie est fermée jusqu'à nouvel ordre » et, plus bas, « Brasserie ouverte au public et vente directe » : ce qu'on peut y faire n'est pas établi tant que la réouverture n'est pas annoncée. Horaires de boutique non repris pour cette raison.",
+   "addr": "143 Rue de la Ferronnerie, 40600 Biscarrosse",
+   "src": "https://www.kanahabeer.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 58 04 64 78",
+    "site": "https://www.kanahabeer.com/",
+    "source": "https://www.kanahabeer.com/contact",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.kanahabeer.com/",
+   "https://www.kanahabeer.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=143+Rue+de+la+Ferronnerie%2C+40600+Biscarrosse&limit=5"
+  ],
+  "extrait": "Suite à l'incendie, la brasserie est fermée jusqu'à nouvel ordre",
+  "choix": "Catégorie laissée à 0 : la vente directe est écrite sur la page mais la brasserie est dite fermée jusqu'à nouvel ordre. Horaires de boutique (mercredi à samedi, 10h30-12h30 et 15h00-18h00) écartés : ils précèdent l'incendie ou ne sont plus valables. Aucune page Untappd trouvée (deux recherches), donc aucune bière reprise. Le fetch a résumé la page : la date de l'incendie n'est pas lue."
+ }
+}

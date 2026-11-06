@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:789986288",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Garona",
+   "c": "Saint-Médard-en-Jalles",
+   "d": "33",
+   "lat": 44.89163,
+   "lon": -0.76171,
+   "km": 440.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio qui brasse et embouteille sur place (site officiel). Le site ne dit pas si l'on peut y acheter ni y boire ; à confirmer.",
+   "addr": "17 rue de Belfort, 33160 Saint-Médard-en-Jalles",
+   "src": "https://www.bieregarona.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 70 71 92 45",
+    "site": "https://www.bieregarona.fr/",
+    "source": "https://www.bieregarona.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.bieregarona.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-M%C3%A9dard-en-Jalles&type=municipality&limit=5"
+  ],
+  "extrait": "Le brassage, l'embouteillage, l'étiquetage et le conditionnement sont fait sur place à la brasserie.",
+  "choix": "Page lue directement sur le site officiel. Catégorie laissée à 0 : la page n'écrit rien sur la vente à emporter ni sur la dégustation. Horaires non repris : la page les affiche sans dire s'il s'agit d'un accueil ou d'une vente, et le samedi « 10h00 / 15h00 » est ambigu. Téléphone : 06 70 71 92 45 est un portable, mais c'est la seule ligne publiée par la brasserie sur son site (règle du 21/10). Aucune page Untappd ni office de tourisme trouvés ; l'existence repose sur le site officiel, avec un point OSM (node/9163317608) et la ligne SIRENE du paquet. Les bières ne sont pas nommées sur le site, donc beers est vide."
+ }
+}

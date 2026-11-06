@@ -1,0 +1,77 @@
+{
+ "candidat": "sirene:828206144",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Effet Papillon",
+   "c": "Mérignac",
+   "d": "33",
+   "lat": 44.85738,
+   "lon": -0.66748,
+   "km": 433.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie artisanale bio. Boutique avec vente à emporter, et bar avec terrasse en face du lieu de production (seize bières pression), d'après le site officiel.",
+   "addr": "35 avenue Gustave Eiffel, 33700 Mérignac",
+   "src": "https://brasserieffetpapillon.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 35 65 52 82",
+    "site": "https://brasserieffetpapillon.com",
+    "source": "https://brasserieffetpapillon.com",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserieffetpapillon.com",
+     "lun": [
+      [
+       "12:00",
+       "21:00"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "21:00"
+      ]
+     ],
+     "remarque": "Horaires du bar et de la boutique. Dimanche : fermé.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasserieffetpapillon.com",
+   "https://data.geopf.fr/geocodage/search?q=35+avenue+Gustave+Eiffel%2C+33700+M%C3%A9rignac&limit=5"
+  ],
+  "extrait": "La boutique – vente à emporter et livraison de bouteilles et fûts ainsi que location de tireuse",
+  "choix": "Deux numéros fixes sont publiés : LA BRASSERIE 05 35 65 52 82 et LE BAR 05 56 05 17 74. Je retiens celui de la brasserie. Écartés : le 06 99 23 07 77, qui est un mobile réservé aux professionnels, et le numéro du bar, qui est une exploitation voisine. Dimanche : la source dit « fermé », donc le jour est laissé absent. Les horaires sont ceux du bar et de la boutique réunis, d'où la nature « accueil ». La page Untappd https://untappd.com/EffetPapillon a été ouverte et s'affiche (brasserie en activité), mais elle ne donne aucune adresse. Je la retiens comme lien, sans en copier les notes. Aucune bière n'est saisie : les styles lus viennent de beertasting.com et birrapedia.com, qui sont des agrégateurs."
+ }
+}

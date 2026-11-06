@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S347, deuxième partie — la Gironde, les Landes et le Lot-et-Garonne *(06/11, epic E36)*
+
+`docs/stories/S347.md`, issue #188. 23 paquets ; 25 fiches par la règle de Cédric du 21/10 (33 : 16, 40 : 9 ; aucune dans le Lot-et-Garonne) ; 797 fiches dans 78 départements, OSM à 612. Revue de la persona Cédric traitée avant l'application. Le même jour, à la demande de Cédric, la tâche planifiée « Région du jour » (7 h 47) prend la suite chaque matin. Suite : 64, 79, 86.
+
 ## S347, première partie — la Charente, la Charente-Maritime, la Corrèze, la Creuse, la Dordogne et la Haute-Vienne *(06/11, epic E36)*
 
 `docs/stories/S347.md`, issue #188, demande de Cédric du 06/11 (« c'est tous les récupérations des fichiers des datas que tu dois mettre en place aujourd'hui »). 28 paquets ; 37 fiches par la règle de Cédric du 21/10 ; 772 fiches dans 76 départements, OSM à 634. Revue de la persona Cédric traitée avant l'application. Suite : 33, 40, 47, puis 64, 79, 86.

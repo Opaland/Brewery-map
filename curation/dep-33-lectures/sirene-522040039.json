@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:522040039",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Mascaret",
+   "c": "Le Bouscat",
+   "d": "33",
+   "lat": 44.8711,
+   "lon": -0.60824,
+   "km": 429,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site de la brasserie annonce une visite gratuite suivie d'une dégustation ; il ne dit pas si l'on peut acheter ou boire hors visite.",
+   "addr": "20 rue Charles Cante, 33110 Le Bouscat",
+   "src": "https://www.bieremascaret.com/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.bieremascaret.com/",
+    "source": "https://www.bieremascaret.com/contact",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.bieremascaret.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=20+rue+Charles+Cante%2C+33110+Le+Bouscat&limit=5"
+  ],
+  "extrait": "1h00 de visite gratuite, ensuite vous pouvez déguster ce qui vous plait au prix de la brasserie.",
+  "choix": "Catégorie 1 en confiance faible : la source dit qu'on boit sur place, sans parler de vente à emporter (réponse de Cédric du 29/10). Écarté : les horaires « Du lundi au vendredi : 9h00 -18h00 » et « Samedi : 10h00 – 13h00 » de la page contact, car la page ne dit pas s'il s'agit de l'accueil du public ou du bureau. Écarté : le mobile 07 60 59 20 09 donné par Gault&Millau (annuaire, ne suffit pas seul), le site ne publiant son numéro que sous forme d'image. Adresse : le site et Gault&Millau disent 20 rue Charles Cante, SIRENE dit 16 : j'ai pris celle du site. Aucune page Untappd trouvée. La page n'est pas datée : la visite du « vendredi 17 janvier » est peut-être une annonce périmée."
+ }
+}

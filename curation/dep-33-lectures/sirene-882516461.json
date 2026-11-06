@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:882516461",
+ "ajout": {
+  "fiche": {
+   "n": "La Plagiste",
+   "c": "Vensac",
+   "d": "33",
+   "lat": 45.39801,
+   "lon": -1.03979,
+   "km": 452.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale listée par l'office Médoc Atlantique. La page ne dit ni horaires, ni vente, ni dégustation.",
+   "addr": "2 rue du Cimetière, 33590 Vensac",
+   "src": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserielaplagiste.fr/la-plagiste/",
+    "source": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+du+Cimeti%C3%A8re%2C+33590+Vensac&limit=5"
+  ],
+  "extrait": "Brasserie la Plagiste, 2 rue du cimetière, 33590 Vensac",
+  "choix": "Catégorie 0 : la page de l'office ne dit rien de ce qu'on peut y faire. Un résumé de recherche donnait des horaires (mardi-samedi 17h30-19h30), mais la page ouverte ne les contient pas : écartés. Portable 06 69 00 12 08 présent dans le bloc de la brasserie sur l'office, mais un portable doit venir de la brasserie : non repris, à trancher. Le site officiel brasserielaplagiste.fr répond 403 : non lu."
+ }
+}

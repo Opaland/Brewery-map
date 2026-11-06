@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:824767396",
+ "ajout": {
+  "fiche": {
+   "n": "Maison PIP",
+   "c": "Bègles",
+   "d": "33",
+   "lat": 44.80236,
+   "lon": -0.55798,
+   "km": 427,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie bio avec un atelier-bar (taproom) ouvert du mardi au samedi : on y déguste les créations de la maison, et la boutique voisine vend toute la gamme à emporter, d'après le site de la brasserie.",
+   "addr": "48 rue Ferdinand Buisson, 33130 Bègles",
+   "src": "https://maisonpip.com/atelier-bar",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 47 74 87 05",
+    "site": "https://maisonpip.com/",
+    "source": "https://maisonpip.com/contact",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://maisonpip.com/atelier-bar",
+   "https://maisonpip.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=48+rue+Ferdinand+Buisson%2C+33130+B%C3%A8gles&limit=5"
+  ],
+  "extrait": "déguster l'ensemble de nos créations",
+  "choix": "Lu via un résumé de la page https://maisonpip.com/atelier-bar. La page dit aussi, d'après ce résumé, « l'ensemble de notre gamme de bières en vente à emporter » et que la boutique ouvre en même temps que l'atelier-bar : d'où la catégorie 1. Horaires non proposés : l'atelier-bar dit « Ouvert du Mardi au Samedi » (mardi-vendredi 17h-22h, samedi 16h-22h), mais l'accueil et le contact disent mercredi-samedi 17h-00h. Les deux pages du site se contredisent, donc rien n'est écrit. La brasserie annonce aussi « lun. au ven. de 9h à 18h » et « Visite : sur réservation », sans que la vente soit précisée sur ces créneaux. Téléphone : un seul numéro, celui de la brasserie, lu sur la page contact. Untappd : https://untappd.com/maisonpip existe (micro-brasserie, 35 bières), mais je n'ai pas lu ce lien sur le site de la brasserie. Je ne l'ai donc pas mis dans contact, à ajouter si Cédric le veut. Les styles de bière sont lus sur Untappd, sans date de relevé : beers laissé vide."
+ }
+}

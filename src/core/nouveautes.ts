@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'e15e245a14a672bc',
+  empreinte: '55f39a0a36f49a4b',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 295 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 616 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est et en Nouvelle-Aquitaine.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 299 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 641 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est et en Nouvelle-Aquitaine.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-11-06', texte: '25 brasseries de plus en Nouvelle-Aquitaine : la Gironde et les Landes, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-06', texte: '37 brasseries ajoutées en Nouvelle-Aquitaine : la Charente, la Charente-Maritime, la Corrèze, la Creuse, la Dordogne et la Haute-Vienne, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-03', texte: '50 brasseries de plus dans le Grand Est : le Bas-Rhin, le Haut-Rhin et les Vosges, d’après leur site ou un office de tourisme.' },
   { date: '2026-10-31', texte: '42 brasseries ajoutées dans le Grand Est : les Ardennes, l’Aube, la Marne, la Haute-Marne, la Meurthe-et-Moselle, la Meuse et la Moselle, d’après leur site ou un office de tourisme.' },

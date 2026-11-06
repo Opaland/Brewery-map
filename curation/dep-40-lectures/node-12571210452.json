@@ -1,0 +1,33 @@
+{
+ "candidat": "node/12571210452",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cath'",
+   "c": "Labenne",
+   "d": "40",
+   "lat": 43.59729,
+   "lon": -1.43513,
+   "km": 541.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale qui brasse à Labenne ; une page propose de réserver une visite. Vente sur place, dégustation et horaires non lus sur le site.",
+   "addr": "7 Allée Artiguenave, 40530 Labenne",
+   "src": "https://www.brasserie-cath.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 58 49 24 69",
+    "site": "https://www.brasserie-cath.com/",
+    "source": "https://www.brasserie-cath.com/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-cath.com/",
+   "https://data.geopf.fr/geocodage/search?q=Labenne&type=municipality&limit=5"
+  ],
+  "extrait": "Toutes les étapes de fabrication de nos bières artisanales sont réalisées dans notre brasserie,",
+  "choix": "Site officiel lu via un résumé. Fixe 05 58 49 24 69 publié par la brasserie : retenu. Un avis Google dit qu'on peut acheter sur place : écarté (pas la brasserie). Catégorie 0 : « Réservez votre visite » ne dit pas ce qu'on peut y faire. Gammes Tradition, Prestige, Evasion, Gouf, Dégustation lues, non reprises. Pas d'Untappd trouvé. Aucun doublon dans data/."
+ }
+}
