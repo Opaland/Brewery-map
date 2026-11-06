@@ -1,0 +1,79 @@
+[
+  {
+    "cle": "sirene:883833618",
+    "n": "Brasserie La Stour",
+    "c": "Rilhac-Lastours",
+    "adresse": "15 route de Nexon, 87800 Rilhac-Lastours",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Microbrasserie ; boutique sur place avec bières en bouteille et location de tireuses. Source : fiche d'un office de tourisme seul (hors SIRENE) ; horaires non publiés (« non sécurisés »).",
+    "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+    "extrait": "On-site, discover the boutique, bottled beers (33 cl and 75 cl) and taps for hire for your events.",
+    "beers": [],
+    "choix": "Deux numéros sur la fiche : le fixe 09 54 42 75 23 et un portable 06 09 57 39 42. Je retiens le fixe, car un portable lu sur un office ne vient pas de la brasserie. Catégorie 2 : la source parle de boutique et de bouteilles, pas de consommation sur place. Confiance moyenne, plafond d'un office. Lecture via un résumé de la page (WebFetch), pas page brute. Le site officiel et Untappd sont introuvables ; la page Facebook demande une connexion.",
+    "contact": {
+      "tel": "09 54 42 75 23",
+      "source": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/"
+    }
+  },
+  {
+    "cle": "sirene:910424464",
+    "n": "Brasserie L'Obrador",
+    "c": "Compreignac",
+    "adresse": "1024 route de Vieilleville, 87140 Compreignac",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe sur rendez-vous, d'après la fiche de l'office de tourisme (Visit Limousin). Pas de site officiel trouvé (Facebook et Instagram seulement).",
+    "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-lobrador-compreignac-en-6126544",
+    "extrait": "Direct sales by appointment.",
+    "beers": [],
+    "choix": "Portable +33 6 56 68 84 85 lu sur l'office seulement : non repris (un portable doit venir de la brasserie). Horaires marqués « non sécurisés » : non repris. Lu via un résumé de la page."
+  },
+  {
+    "cle": "sirene:820178028",
+    "n": "Brasserie BRÂM",
+    "c": "Saint-Laurent-les-Églises",
+    "adresse": "Leycuras, 26 route du Bassin, 87240 Saint-Laurent-les-Églises",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie rurale artisanale existante (site officiel). Le site ne donne ni adresse, ni téléphone, ni horaires ; ce qu'on peut y faire n'est pas établi (le site invite à passer sur place, sans dire la vente).",
+    "src": "https://brasseriebram.org",
+    "extrait": "Brasserie BRÂM Qui veut la paix prépare la bière",
+    "beers": [],
+    "contact": {
+      "site": "https://brasseriebram.org",
+      "source": "https://brasseriebram.org"
+    },
+    "choix": "Page « nous contacter » (brasseriebram.org/nous-contacter/) : e-mail seulement, aucun numéro. Adresse venue de SIRENE (non lue sur le site). Extrait lu sur la page nous-contacter, pas sur la page d'accueil citée en source : à vérifier par Cédric. Lu via un résumé."
+  },
+  {
+    "cle": "sirene:808814131",
+    "n": "Brasserie de Bel Air (La Bergère)",
+    "c": "Saint-Bonnet-de-Bellac",
+    "adresse": "RN 147, Bel Air, 87300 Saint-Bonnet-de-Bellac",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières bio non filtrées La Bergère ; vente à emporter d'après la fiche de l'office de tourisme (Visit Limousin). Site officiel biere-la-bergere.fr non lisible depuis la session.",
+    "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+    "extrait": "Drive/Vente à emporter",
+    "beers": [],
+    "contact": {
+      "tel": "05 55 68 26 93",
+      "source": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/"
+    },
+    "choix": "Deux numéros sur la fiche de l'office : fixe +33 5 55 68 26 93 (retenu, règle du 31/10) et portable +33 6 31 61 99 31 (non repris). Horaires absents (« non sécurisés »). Lu via un résumé."
+  },
+  {
+    "cle": "node/9022692882",
+    "n": "Brasserie artisanale Lémovice",
+    "c": "Razès",
+    "adresse": "19 rue de Limoges, 87640 Razès",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières artisanales non filtrées La Lémovice ; vente directe sur rendez-vous, camion-restaurant et boutique sur le parking de mi-juin à mi-septembre (office de tourisme). Pas de site officiel trouvé (Facebook, Instagram).",
+    "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/brasserie-lemovice-razes-razes-en-4447683",
+    "extrait": "Direct sales by appointment.",
+    "beers": [],
+    "choix": "Adresse 19 rue de Limoges (office, forum, accès libre) et non 12 comme dans OSM. Portable 06 87 94 21 65 lu sur l'office seulement : non repris. Horaires de l'office marqués « non sécurisés » : non repris. Gamme lue sur un forum, non reprise. Lu via un résumé."
+  }
+]

@@ -1,3 +1,12 @@
 {
- "personne:6": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:6": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:1": "même enseigne et même adresse que sirene:921547220, lue sous cette clé",
+  "personne:2": "entreprise individuelle : rien de public trouvé",
+  "sirene:900769761": "Brasserie La 23 : pages d'office illisibles (inscription, 404) : à relancer",
+  "sirene:814149795": "La Bière en chantier : rien de public (deux recherches)",
+  "sirene:815294780": "Barn Owl : rien sous ce nom en Creuse",
+  "sirene:930171558": "Le Bar N'Août : un bar, rien ne dit qu'il brasse",
+  "node/10973918535": "Brasserie La 23 : même nom que sirene:900769761 : à relancer avec lui",
+  "node/12824213201": "Le Compas : une distillerie, pas une brasserie",
+  "node/5770424879": "La Bière en chantier : même lieu que sirene:814149795"
 }

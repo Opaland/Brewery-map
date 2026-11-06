@@ -1,0 +1,149 @@
+{
+ "lot": "dep-19",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie de la Vézère",
+    "c": "Uzerche",
+    "d": "19",
+    "lat": 45.42749,
+    "lon": 1.56443,
+    "km": 249.9,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Boutique de vente directe de toutes les bières et dégustation à la pression sur place, d'après le site de la brasserie.",
+    "addr": "2 allée de la Papeterie, 19140 Uzerche",
+    "src": "http://www.brasserie-vezere.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 55 73 11 56",
+     "site": "http://www.brasserie-vezere.fr/",
+     "source": "http://www.brasserie-vezere.fr/",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "http://www.brasserie-vezere.fr/",
+    "https://data.geopf.fr/geocodage/search?q=2+all%C3%A9e+de+la+Papeterie%2C+19140+Uzerche&limit=5"
+   ],
+   "extrait": "déguster sur place nos bières directement à la pression, au comptoir au pied des cuves ou en terrasse au bord de la rivière.",
+   "choix": "Lu via un résumé du site officiel (WebFetch). Horaires non proposés : le site donne un tableau d'été (avril à septembre) et un d'hiver (octobre à avril) dont les périodes se chevauchent en avril. Le résumé n'en garantit pas la lecture exacte, donc aucun bloc d'horaires. Le doublon sirene:922571773 (même adresse) est fondu ici. Aucune page Untappd trouvée sur le site (seulement Facebook et Instagram). Le site cite aussi un food-truck et un traiteur, mais le seul numéro lu est celui de la brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Anges",
+    "c": "Chamboulive",
+    "d": "19",
+    "lat": 45.42427,
+    "lon": 1.7104,
+    "km": 238.7,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale. Visites sur rendez-vous, avec dégustation à la fin. Aucune vente sur place n'est dite par la source : catégorie à confirmer.",
+    "addr": "Place de la Chapelle, 19450 Chamboulive",
+    "src": "https://brasseriedesanges.com/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "07 77 05 72 17",
+     "site": "https://brasseriedesanges.com/",
+     "source": "https://brasseriedesanges.com/",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://brasseriedesanges.com/",
+    "https://data.geopf.fr/geocodage/search?q=Chamboulive&type=municipality&limit=5"
+   ],
+   "extrait": "Les visites se font sur rendez-vous, durent approximativement une heure",
+   "choix": "Catégorie 0 : le site parle de visite et de dégustation, pas de vente à la brasserie (les bières sont vendues dans plus de 30 magasins et en boutique en ligne). Le téléphone 07 77 05 72 17 est un portable, mais c'est la seule ligne publiée par la brasserie sur son site (règle du 21/10). L'office (guide-de-la-correze.com) donne « 3 place de la Chapelle », alors que le site donne « Place de la Chapelle » : j'ai gardé le site. Pas d'horaires publiés. Pas de page Untappd trouvée. Types de bière lus (blondes, brunes, ambrée, blanche, rousse, fruitée) mais sans liste détaillée au format attendu : beers laissé vide."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Corrézienne",
+    "c": "Marcillac-la-Croze",
+    "d": "19",
+    "lat": 45.03063,
+    "lon": 1.74033,
+    "km": 246.2,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de Marcillac-la-Croze, établie par son site. Seul un guide commercial parle d'un bar : ce qu'on peut y faire reste à confirmer.",
+    "addr": "Marcillac-la-Croze",
+    "src": "https://www.brasserie-correzienne.com/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.brasserie-correzienne.com/",
+    "https://data.geopf.fr/geocodage/search?q=Marcillac-la-Croze&type=municipality&limit=5"
+   ],
+   "extrait": "Bienvenue à la Brasserie Corrézienne !",
+   "choix": "Le Guide de la Corrèze est un guide commercial, pas un office de tourisme : il ne suffit pas pour la catégorie (décision #37). Adresse non retenue : le registre et le guide se contredisent."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Causse",
+    "c": "Larche",
+    "d": "19",
+    "lat": 45.12292,
+    "lon": 1.41453,
+    "km": 267.9,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Petite brasserie artisanale sur le Causse corrézien, avec un bar et une vente à emporter du lundi au samedi (site officiel). Le site donne la vente à emporter du lundi au samedi, de 10 h à 12 h et de 15 h à 19 h, et le bar jusqu'à 19 h (23 h le vendredi) ; le contrôle ne relit pas l'écriture « 10H - 12H », ces heures restent dans cette note.",
+    "addr": "2 rue du Four, 19600 Larche",
+    "src": "https://www.brasserieducausse.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 07 88 66 88",
+     "site": "https://www.brasserieducausse.fr/",
+     "source": "https://www.brasserieducausse.fr/",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.brasserieducausse.fr/",
+    "https://data.geopf.fr/geocodage/search?q=2+rue+du+Four%2C+19600+Larche&limit=5"
+   ],
+   "extrait": "Petite brasserie artisanale en pleine effervescence située sur le Causse Corrézien",
+   "choix": "Le site officiel montre un bar et une section « VENTE A EMPORTER », mais ne dit pas explicitement que la bière est brassée sur place : confiance moyenne, pas solide. Deux mobiles publiés (06 07 88 66 88 et 06 71 39 61 39), je retiens le premier (celui qui est listé en premier). Les horaires du bar (« jusqu'à 19h », « jusqu'à 23h le vendredi ») n'ont pas d'heure d'ouverture, donc non repris. Dimanche non renseigné. Les bières sont citées par leur nom sans style, donc aucun type retenu. Aucune page Untappd trouvée. Lecture du site via un résumé (outil WebFetch), les passages ne sont pas confirmés mot pour mot."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie TNT",
+    "c": "Brive-la-Gaillarde",
+    "d": "19",
+    "lat": 45.14662,
+    "lon": 1.47251,
+    "km": 262.8,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.",
+    "addr": "5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde",
+    "src": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 87 49 55 48",
+     "source": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+    "https://data.geopf.fr/geocodage/search?q=5+rue+Robert+Margerit%2C+Zone+Ouest%2C+19100+Brive-la-Gaillarde&limit=5"
+   ],
+   "extrait": "Come and discover the Factory and the different production processes, as well as the Boutique and its beer bar.",
+   "choix": "Office de tourisme seul : confiance faible, pas plus. La page dit « Shop » (équipement) et « and its beer bar » sans détail : je classe en 1 par la réponse du 29/10 (bar), à confirmer. Téléphone : fixe « +33 5 87 49 55 48 » lu dans le bloc de la brasserie, pas celui de l'office. Horaires non repris : la page dit seulement « Fermé le Monday, Tuesday, Sunday », sans heures. Aucun site ni Untappd trouvé. Lecture via un résumé (WebFetch)."
+  }
+ ]
+}

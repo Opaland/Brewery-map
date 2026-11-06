@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:890770282",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Libellule",
+   "c": "Bergerac",
+   "d": "24",
+   "lat": 44.87379,
+   "lon": 0.50898,
+   "km": 343.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel indique que la gamme se découvre aussi sur place, en vente directe ; il ne dit rien d'une consommation sur place, d'où la catégorie 2 et une confiance moyenne. Aucun horaire publié.",
+   "addr": "4 route de Corbiac, 24100 Bergerac",
+   "src": "https://brasserielalibellule.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 55 63 59 24",
+    "site": "https://brasserielalibellule.fr/",
+    "source": "https://brasserielalibellule.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasserielalibellule.fr/",
+   "https://data.geopf.fr/geocodage/search?q=4+route+de+Corbiac%2C+24100+Bergerac&limit=5"
+  ],
+  "extrait": "la gamme se découvre aussi sur place, en vente directe.",
+  "choix": "Lecture via un résumé. Le site nomme des bières (Summertime, Arctique, Freez beer, Charly's beer, Limonade, éphémères) mais pas leurs types : aucune bière proposée. Seul numéro publié : 07 55 63 59 24, un portable donné par la brasserie, donc retenu (règle du 21/10). La fiche OSM node/8980037448 « Brasserie La Libellule » (Eyraud-Crempse-Maurens, même site) est un autre candidat du lot, à rapprocher : la page lue donne l'adresse de Bergerac, pas celle d'Eyraud."
+ }
+}

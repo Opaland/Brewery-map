@@ -1,0 +1,34 @@
+{
+ "candidat": "personne:5",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Plateau",
+   "c": "Aubusson",
+   "d": "23",
+   "lat": 45.9586,
+   "lon": 2.17319,
+   "km": 202.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale d'Aubusson ; sa boutique s'appelle « La Capsule ». Vente de bouteilles à la boutique d'après l'office de tourisme, qui ne parle pas de consommation sur place.",
+   "addr": "13 A rue Jules Sandeau, 23200 Aubusson",
+   "src": "https://www.tourisme-creuse.com/fr/offres/la-brasserie-du-plateau-aubusson-fr-2808034",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 55 67 51 37",
+    "site": "https://www.brasserieduplateau.fr",
+    "source": "https://www.brasserieduplateau.fr",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.tourisme-creuse.com/fr/offres/la-brasserie-du-plateau-aubusson-fr-2808034",
+   "https://www.brasserieduplateau.fr",
+   "https://data.geopf.fr/geocodage/search?q=13+A+rue+Jules+Sandeau%2C+23200+Aubusson&limit=5"
+  ],
+  "extrait": "Vous pourrez y acheter leurs bières bouteilles et limonade aux agrumes frais ou louer des tireuses avec fûts ou vous inscrire au stage individuel brassicole.",
+  "choix": "Pages lues via un résumé de WebFetch : l'extrait vient de la page de l'office. Le site officiel donne « 05 55 67 51 37 / 06 66 37 1000 » ; je retiens le fixe et j'écarte le portable (format différent entre le site, 06 66 37 1000, et l'office, 06 66 37 10 00). Confiance moyenne au plus : l'office est la seule source qui parle de vente ; le site officiel dit seulement « Boutique « La Capsule » ». Catégorie 2 et non 1 : aucune page lue ne dit qu'on boit sur place (la dégustation vue vient d'avis clients, écartée). Horaires non repris : l'office dit seulement « ouverte de mi avril au 25 août ». Pas d'Untappd trouvé. Types de bière (blonde, blanche, ambrée, rousse, brune) lus sur le site, hors beers. Le candidat SIRENE « La Capsule » est l'enseigne de la boutique de cette brasserie."
+ }
+}

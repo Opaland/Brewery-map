@@ -1,0 +1,86 @@
+{
+ "candidat": "sirene:908582943",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Jukebox",
+   "c": "Cognac",
+   "d": "16",
+   "lat": 45.68671,
+   "lon": -0.32598,
+   "km": 394.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie créée en 2022 ; on peut venir acheter ses bières à la brasserie en semaine. Des afterworks où l'on boit sur place ont lieu tous les deux mois seulement, ce n'est donc pas un lieu où boire en permanence.",
+   "addr": "48 rue Armand Simard, 16100 Cognac",
+   "src": "https://brasseriejukebox.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 82 41 35 23",
+    "site": "https://brasseriejukebox.com/",
+    "source": "https://brasseriejukebox.com/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriejukebox.com/",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseriejukebox.com/",
+   "https://data.geopf.fr/geocodage/search?q=48+rue+Armand+Simard%2C+16100+Cognac&limit=5"
+  ],
+  "extrait": "Nous vous accueillons du lundi au jeudi de 9h à 12h et de 14h à 17h et le vendredi de 9h à 12h.",
+  "choix": "Page lue via un résumé (WebFetch), non directement. Catégorie 2 et non 1 : la source ne donne qu'un afterwork bimestriel pour boire sur place, pas d'ouverture régulière en bar. Confiance moyenne à cause de la lecture par résumé. Bières non reprises : la page Untappd de la brasserie elle-même n'a pas été ouverte (seules des pages de bières isolées sont apparues), donc pas de lien Untappd. Téléphone : mobile, seule ligne publiée par la brasserie sur son site."
+ }
+}

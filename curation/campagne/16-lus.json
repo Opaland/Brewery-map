@@ -1,0 +1,206 @@
+[
+  {
+    "cle": "sirene:792514853",
+    "n": "Brasserie La Débauche",
+    "c": "Angoulême",
+    "adresse": "13 Rue des Lignes, 16000 Angoulême",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Taproom « Boutique & bar » dans la brasserie, avec dégustation et visite. Le site ne dit pas si l'on peut acheter à emporter sur place (un e-shop existe).",
+    "src": "https://www.brasserie-ladebauche.com/",
+    "extrait": "Au coeur de la brasserie, dans un lieu décalé, découvrez nos bières, notre programmation d'événements et visitez la brasserie.",
+    "beers": [],
+    "choix": "Site lu via un résumé de l'outil de lecture, deux fois ; les passages cités sont ceux qu'il a rendus entre guillemets. Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on découvre les bières sur place, sans parler de vente à emporter. Pas de téléphone : la page n'en publie aucun. Pas de page Untappd vérifiée. Le site donne 13 Rue des Lignes ; SIRENE donne « Rue des Lignes » sans numéro. Le deuxième établissement SIRENE (Gond-Pontouvre) est écarté. Bières laissées vides : la page cite des gammes (Collection, Eisbocks, Oak Chronicles) mais aucun style n'y est lu.",
+    "contact": {
+      "site": "https://www.brasserie-ladebauche.com/",
+      "source": "https://www.brasserie-ladebauche.com/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "mar": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "mer": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "22:00"
+          ]
+        ],
+        "remarque": "Fermeture le dimanche et le lundi.",
+        "source": "https://www.brasserie-ladebauche.com/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:908582943",
+    "n": "Brasserie Jukebox",
+    "c": "Cognac",
+    "adresse": "48 rue Armand Simard, 16100 Cognac",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie créée en 2022 ; on peut venir acheter ses bières à la brasserie en semaine. Des afterworks où l'on boit sur place ont lieu tous les deux mois seulement, ce n'est donc pas un lieu où boire en permanence.",
+    "src": "https://brasseriejukebox.com/",
+    "extrait": "Nous vous accueillons du lundi au jeudi de 9h à 12h et de 14h à 17h et le vendredi de 9h à 12h.",
+    "beers": [],
+    "choix": "Page lue via un résumé (WebFetch), non directement. Catégorie 2 et non 1 : la source ne donne qu'un afterwork bimestriel pour boire sur place, pas d'ouverture régulière en bar. Confiance moyenne à cause de la lecture par résumé. Bières non reprises : la page Untappd de la brasserie elle-même n'a pas été ouverte (seules des pages de bières isolées sont apparues), donc pas de lien Untappd. Téléphone : mobile, seule ligne publiée par la brasserie sur son site.",
+    "contact": {
+      "tel": "06 82 41 35 23",
+      "site": "https://brasseriejukebox.com/",
+      "source": "https://brasseriejukebox.com/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "12:00"
+          ]
+        ],
+        "source": "https://brasseriejukebox.com/",
+        "verifieLe": "2026-11-06"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:807881966",
+    "n": "CharentAles",
+    "c": "Paizay-Naudouin-Embourie",
+    "adresse": "1 Chemin des Fayolles, 16240 Paizay-Naudouin-Embourie",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie qui existe (site officiel). Le site cite des visites et un bar lors d'un événement, mais ne dit ni vente à emporter ni dégustation régulière sur place : à confirmer.",
+    "src": "https://www.charentales.fr/fr/nos-services",
+    "extrait": "Vous serez invité à la brasserie pour rencontrer notre brasseur",
+    "beers": [],
+    "choix": "Pas de téléphone, d'horaires ni de lien Untappd publiés sur le site (accueil, nos-services, contactez-nous) : rien proposé. Types vus sur l'accueil (Dark Ale, Best Bitter, IPA) non repris faute de source Untappd. Catégorie 0 : aucune phrase ne dit qu'on achète ou qu'on boit sur place en dehors d'un événement. Une page Trip.com parle de visites à 5 euros, écartée (agrégateur).",
+    "contact": {
+      "site": "https://www.charentales.fr",
+      "source": "https://www.charentales.fr/fr/contactez-nous"
+    }
+  },
+  {
+    "cle": "way/128988244",
+    "n": "La Nouge",
+    "c": "Salles-Lavalette",
+    "adresse": "Nougerede, 16190 Salles-Lavalette",
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, bières présentées) et est ouverte le vendredi de 10h à 18h30, sur rendez-vous les autres jours. Le site parle de vente directe sans dire si l'on peut acheter ou boire sur place : la page « Magasin » n'a pas pu être lue.",
+    "src": "https://lanouge.fr/",
+    "extrait": "Ouvert le vendredi de 10h – 18h30",
+    "beers": [],
+    "choix": "Pages lues via un résumé (accueil, bières, où nous trouver). Deux portables publiés par la brasserie, 06 62 83 04 95 et 07 67 74 65 69 : je retiens le premier (repris aussi par le guide de la Charente) ; c'est un mobile publié par la brasserie. Aucun fixe. Catégorie 1 ou 2 écartée : « vente directe » et l'entrée « Magasin » ne disent pas ce qu'on peut faire sur place. Sept autres bières omises (type non précisé ou hors liste). Pas d'Untappd trouvé.",
+    "contact": {
+      "tel": "06 62 83 04 95",
+      "site": "https://lanouge.fr/",
+      "source": "https://lanouge.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "ven": [
+          [
+            "10:00",
+            "18:30"
+          ]
+        ],
+        "remarque": "Vous êtes les bienvenus à tout autre moment sur rendez-vous.",
+        "source": "https://lanouge.fr/"
+      }
+    ]
+  },
+  {
+    "cle": "node/7809995244",
+    "n": "La Goule",
+    "c": "Foussignac",
+    "adresse": "8 rue de l'église, 16200 Foussignac",
+    "cat": 0,
+    "conf": "",
+    "note": "Bière biologique brassée sur le domaine Pinard à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
+    "src": "https://destination-cognac.com/?p=8861",
+    "extrait": "La Goule, a traditional organic beer, is brewed on the estate.",
+    "beers": [],
+    "choix": "Source unique : page de l'office de tourisme (en anglais, via un résumé) ; http://la-goule.com/ a répondu 503 deux fois (à relancer). Je n'ai repris ni le 05 45 35 87 57 ni les horaires lundi-vendredi : ce sont ceux de la visite du domaine de cognac, pas de la brasserie. Pas d'Untappd trouvé. Office seul, aucune catégorie lue."
+  },
+  {
+    "cle": "way/88434184",
+    "n": "Brasserie des Gabariers",
+    "c": "Rouillac",
+    "adresse": "1 rue du Sabotier, Plaizac, 16170 Rouillac",
+    "cat": 0,
+    "conf": "",
+    "note": "Site officiel : l'outil de production est à Plaizac. Le site place la boutique et le bar (taproom « La Gabare ») au 39 rue de Bellefonds à Cognac, qui n'est pas cette adresse. Aucune page ne dit si l'on achète ou si l'on boit à Plaizac, donc catégorie 0. Aucun horaire publié. Le fichier SIRENE (sirene:502676323) liste aussi Cognac et Rouillac pour la même enseigne : à rapprocher de cette lecture.",
+    "src": "https://www.brasserie-des-gabariers.fr",
+    "extrait": "TEL : 05 45 32 42 70",
+    "beers": [],
+    "choix": "Catégorie 1 écartée : la page « La Gabare » dit « à boire sur place ou à emporter », mais pour le bar de Cognac. Rien n'établit la vente à Plaizac. Les huit bières de la page boutique ne sont pas reprises, sans Untappd ni types lus. Aucun Untappd trouvé.",
+    "contact": {
+      "tel": "05 45 32 42 70",
+      "site": "https://www.brasserie-des-gabariers.fr",
+      "source": "https://www.brasserie-des-gabariers.fr"
+    }
+  }
+]

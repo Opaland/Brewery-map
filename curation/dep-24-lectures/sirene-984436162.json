@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:984436162",
+ "ajout": {
+  "fiche": {
+   "n": "Atelier Epic",
+   "c": "Boulazac Isle Manoire",
+   "d": "24",
+   "lat": 45.18397,
+   "lon": 0.78148,
+   "km": 314.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "L'office de tourisme Dordogne-Périgord annonce une visite-dégustation et un achat sur place à la boutique. Le site officiel mentionne des « ventes de bières », sans parler de dégustation. La confiance reste moyenne. Les horaires, contradictoires entre les annuaires, ne sont pas repris.",
+   "addr": "4 avenue Lucien Dutard, 24750 Boulazac Isle Manoire",
+   "src": "https://www.dordogne-perigord-tourisme.fr/offres/atelier-brasserie-epic-boulazac-isle-manoire-fr-5876701/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 64 13 98 05",
+    "site": "https://epic-brasserie.fr",
+    "source": "https://epic-brasserie.fr",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.dordogne-perigord-tourisme.fr/offres/atelier-brasserie-epic-boulazac-isle-manoire-fr-5876701/",
+   "https://epic-brasserie.fr",
+   "https://data.geopf.fr/geocodage/search?q=4+avenue+Lucien+Dutard%2C+24750+Boulazac+Isle+Manoire&limit=5"
+  ],
+  "extrait": "Bienvenue dans le monde de la bière artisanale, où se mêlent la création et le goût pour un produit convivial.",
+  "choix": "Lecture via un résumé. Téléphone : le site officiel epic-brasserie.fr affiche 05.64.13.98.05, un fixe, écrit « 05 64 13 98 05 » ici et retenu ; le lien téléphonique de la page pointe vers un portable (06 80 89 16 94), écarté. Horaires : l'office donne mar-mer 13h-18h et jeu-sam 14h-20h, un autre annuaire donne d'autres créneaux, et le site officiel n'en publie pas ; rien n'est proposé. Bières : aucun type publié. Le résumé de l'office ne cite pas de phrase sur la vente ou la dégustation ; l'extrait est la seule phrase citée, et la catégorie repose sur les rubriques « Visite-dégustation » et « Achat sur place à la boutique » rapportées par le résumé : à vérifier par Cédric."
+ }
+}

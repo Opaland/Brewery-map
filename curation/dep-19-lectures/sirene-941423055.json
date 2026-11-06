@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:941423055",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie TNT",
+   "c": "Brive-la-Gaillarde",
+   "d": "19",
+   "lat": 45.14662,
+   "lon": 1.47251,
+   "km": 262.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.",
+   "addr": "5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde",
+   "src": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 87 49 55 48",
+    "source": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+   "https://data.geopf.fr/geocodage/search?q=5+rue+Robert+Margerit%2C+Zone+Ouest%2C+19100+Brive-la-Gaillarde&limit=5"
+  ],
+  "extrait": "Come and discover the Factory and the different production processes, as well as the Boutique and its beer bar.",
+  "choix": "Office de tourisme seul : confiance faible, pas plus. La page dit « Shop » (équipement) et « and its beer bar » sans détail : je classe en 1 par la réponse du 29/10 (bar), à confirmer. Téléphone : fixe « +33 5 87 49 55 48 » lu dans le bloc de la brasserie, pas celui de l'office. Horaires non repris : la page dit seulement « Fermé le Monday, Tuesday, Sunday », sans heures. Aucun site ni Untappd trouvé. Lecture via un résumé (WebFetch)."
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:921547220",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Monts de Guéret",
+   "c": "Guéret",
+   "d": "23",
+   "lat": 46.17578,
+   "lon": 1.89277,
+   "km": 228.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de Guéret. Espace de vente sur le site de production avec un coin dégustation, selon l'office de tourisme de la Creuse.",
+   "addr": "26 avenue du Bourbonnais 23000 Guéret",
+   "src": "https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 83 41 17 76",
+    "site": "https://www.brasseriemdg.com",
+    "source": "https://www.brasseriemdg.com",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893",
+   "https://www.brasseriemdg.com",
+   "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Bourbonnais+23000+Gu%C3%A9ret&limit=5"
+  ],
+  "extrait": "Store area on the production site, tasting corner",
+  "choix": "Pages lues via un résumé. L'office de tourisme donne la vente et la dégustation (confiance moyenne au plus). Le site officiel www.brasseriemdg.com ne dit rien de la vente ni des horaires. Les adresses se contredisent : l'office dit 4 rue Johannes Gutenberg ; le site officiel dit « 26 Avenue du Bourbonnais » (nouvelle adresse du site de production), et le siège SIRENE est 3 B allée de Chermentoux. J'ai retenu l'adresse du site officiel, à confirmer par Cédric. Le portable 07 83 41 17 76 est publié par la brasserie (« Service client ») sur son site, et c'est la seule ligne. Pas d'horaires (l'office les dit non vérifiés). Pas d'Untappd trouvé."
+ }
+}

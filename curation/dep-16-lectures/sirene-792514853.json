@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:792514853",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Débauche",
+   "c": "Angoulême",
+   "d": "16",
+   "lat": 45.65845,
+   "lon": 0.16831,
+   "km": 356.3,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Taproom « Boutique & bar » dans la brasserie, avec dégustation et visite. Le site ne dit pas si l'on peut acheter à emporter sur place (un e-shop existe).",
+   "addr": "13 Rue des Lignes, 16000 Angoulême",
+   "src": "https://www.brasserie-ladebauche.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-ladebauche.com/",
+    "source": "https://www.brasserie-ladebauche.com/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-ladebauche.com/",
+     "mar": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Fermeture le dimanche et le lundi.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-ladebauche.com/",
+   "https://data.geopf.fr/geocodage/search?q=13+Rue+des+Lignes%2C+16000+Angoul%C3%AAme&limit=5"
+  ],
+  "extrait": "Au coeur de la brasserie, dans un lieu décalé, découvrez nos bières, notre programmation d'événements et visitez la brasserie.",
+  "choix": "Site lu via un résumé de l'outil de lecture, deux fois ; les passages cités sont ceux qu'il a rendus entre guillemets. Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on découvre les bières sur place, sans parler de vente à emporter. Pas de téléphone : la page n'en publie aucun. Pas de page Untappd vérifiée. Le site donne 13 Rue des Lignes ; SIRENE donne « Rue des Lignes » sans numéro. Le deuxième établissement SIRENE (Gond-Pontouvre) est écarté. Bières laissées vides : la page cite des gammes (Collection, Eisbocks, Oak Chronicles) mais aucun style n'y est lu."
+ }
+}

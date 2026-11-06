@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:504624560",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Corrézienne",
+   "c": "Marcillac-la-Croze",
+   "d": "19",
+   "lat": 45.03063,
+   "lon": 1.74033,
+   "km": 246.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale de Marcillac-la-Croze, établie par son site. Seul un guide commercial parle d'un bar : ce qu'on peut y faire reste à confirmer.",
+   "addr": "Marcillac-la-Croze",
+   "src": "https://www.brasserie-correzienne.com/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-correzienne.com/",
+   "https://data.geopf.fr/geocodage/search?q=Marcillac-la-Croze&type=municipality&limit=5"
+  ],
+  "extrait": "Bienvenue à la Brasserie Corrézienne !",
+  "choix": "Le Guide de la Corrèze est un guide commercial, pas un office de tourisme : il ne suffit pas pour la catégorie (décision #37). Adresse non retenue : le registre et le guide se contredisent."
+ }
+}

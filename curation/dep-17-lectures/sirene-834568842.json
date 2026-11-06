@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:834568842",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie de l'Île d'Aix",
+   "c": "Île-d'Aix",
+   "d": "17",
+   "lat": 46.02041,
+   "lon": -1.16769,
+   "km": 460.2,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Boutique et espace de dégustation de bières artisanales de l'île, d'après la fiche de l'office de tourisme Rochefort Océan (une seconde fiche du même office parle d'un bar avec brunch le dimanche). Le brassage sur place n'est pas dit en toutes lettres ; le registre SIRENE classe l'entreprise en brasserie. Horaires saisonniers publiés par l'office avec la mention « Unsecured hours » : non repris. Pas de site officiel ni de page Untappd trouvés.",
+   "addr": "Rue Quai aux Vivres, 17123 Île-d'Aix",
+   "src": "https://www.rochefort-ocean.com/en/plan-your-stay/made-in-rochefort-ocean/shopping/la-brasserie-de-l-ile-d-aix-3647513",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.rochefort-ocean.com/en/plan-your-stay/made-in-rochefort-ocean/shopping/la-brasserie-de-l-ile-d-aix-3647513",
+   "https://data.geopf.fr/geocodage/search?q=%C3%8Ele-d%27Aix&type=municipality&limit=5"
+  ],
+  "extrait": "Tasting area, sale of hand-crafted beers made on the Aix Island. Snacks and refreshments available.",
+  "choix": "Téléphone 06 65 15 59 38 écarté : portable publié par l'office seul, pas par la brasserie. Horaires écartés : saisonniers, signalés « Unsecured hours » par l'office. Confiance moyenne = plafond d'un office. Lecture via un résumé de la page (WebFetch). Une bière citée par beertasting.com (d'Aix Aix'Ale) non reprise : annuaire seul."
+ }
+}

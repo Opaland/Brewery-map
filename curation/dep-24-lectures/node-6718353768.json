@@ -1,0 +1,75 @@
+{
+ "candidat": "node/6718353768",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Le Père l'Amer",
+   "c": "Thiviers",
+   "d": "24",
+   "lat": 45.41338,
+   "lon": 0.91405,
+   "km": 300.5,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Brasserie familiale qui brasse sur place ; boutique ouverte en semaine et le samedi matin, visite sur rendez-vous. Le bar rouvre seulement de temps en temps, surtout l'été.",
+   "addr": "16 rue Bertrand de Born, 24800 Thiviers",
+   "src": "https://leperelamer.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://leperelamer.fr/",
+    "source": "https://leperelamer.fr/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://leperelamer.fr/",
+     "lun": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ]
+     ],
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://leperelamer.fr/",
+   "https://data.geopf.fr/geocodage/search?q=16+rue+Bertrand+de+Born%2C+24800+Thiviers&limit=5"
+  ],
+  "extrait": "Boutique ouverte du lundi au vendredi de 16h à 18h, et le samedi de 10h30 à 12h30.",
+  "choix": "Site officiel lu directement pour la catégorie et les horaires. Le site ne publie aucun téléphone ; l'office de tourisme donne un mobile (06 28 09 05 32). Je ne le retiens pas, car il ne vient pas de la brasserie. Contact limité à la page Untappd, ouverte et vérifiée (micro-brasserie, Thiviers). Le bar rouvre « occasionnellement », sans horaires : pas de catégorie 1. Adresse du site (16 rue Bertrand de Born) ; OSM et Gault&Millau disent 23. Le candidat sirene:818... « LPLA », 16 rue Bertran de Born à Thiviers (paquet 2), est probablement la même entreprise : à dédoublonner par Cédric."
+ }
+}

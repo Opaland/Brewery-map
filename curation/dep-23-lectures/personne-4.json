@@ -1,0 +1,32 @@
+{
+ "candidat": "personne:4",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Sostra",
+   "c": "La Souterraine",
+   "d": "23",
+   "lat": 46.23862,
+   "lon": 1.49046,
+   "km": 260,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, bières listées, commande en ligne, location de fûts et de tireuses). Le site ne dit ni vente à emporter, ni dégustation, ni horaires : rien n'établit encore ce qu'on peut y faire.",
+   "addr": "7 rue de la Font aux Moines, 23300 La Souterraine",
+   "src": "https://www.brasserie-sostra.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-sostra.com/",
+    "source": "https://www.brasserie-sostra.com/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-sostra.com/",
+   "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Font+aux+Moines%2C+23300+La+Souterraine&limit=5"
+  ],
+  "extrait": "La bière artisanale de la Souterraine",
+  "choix": "Page lue via un résumé de WebFetch. Icône de téléphone sans numéro : aucun téléphone retenu. Pas d'Untappd (le site renvoie vers Facebook, qui ne vaut pas source). Catégorie 0 : « Passer commande » et la location de fûts ne disent pas qu'on peut acheter sur place. Types de bière lus (blonde, ambrée, IPA, noire, blanche, piment, framboise, triple), laissés hors de beers."
+ }
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "cle": "sirene:533628905",
+    "n": "La Lutine de Limeuil",
+    "c": "Limeuil",
+    "adresse": "1535 route de Saint Martin, 24510 Limeuil",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie bio indépendante. L'office de tourisme indique « Vente à la propriété » et une « Visite dégustation individuelle gratuite » (sur rendez-vous pour la visite guidée). Le site officiel confirme les bières.",
+    "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+    "extrait": "Vente à la propriété",
+    "beers": [],
+    "choix": "Deux numéros publiés sur la fiche de l'office : le fixe 05 53 57 47 80 (retenu, c'est celui de la brasserie) et un mobile 06 84 99 52 49 (écarté, un fixe existe). Horaires non repris : la fiche donne des créneaux différents selon les périodes de l'année, avec la mention « Horaires non garantis aujourd'hui ». Catégorie 1 en confiance moyenne : vente sur place et dégustation lues sur un office seul ; le site officiel (lalutine.com) ne dit que les types de bière. Lecture via un résumé (WebFetch), pas la page brute : l'extrait est celui rapporté entre guillemets par le résumé, à recontrôler avant d'appliquer. Untappd non trouvé.",
+    "contact": {
+      "tel": "05 53 57 47 80",
+      "site": "https://www.lalutine.com",
+      "source": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/"
+    }
+  },
+  {
+    "cle": "sirene:837668359",
+    "n": "Brasserie Dobla",
+    "c": "Servanches",
+    "adresse": "635 route de la Dobla, Le Breuil, 24410 Servanches",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale bio dans une ancienne ferme : visites, dégustations et vente directe uniquement sur rendez-vous (2026), d'après l'office de tourisme. Le site de la brasserie indique « A la brasserie » et « Sur rendez-vous » comme points de vente ; pas de bar ni d'horaires écrits.",
+    "src": "https://www.dordogne-perigord-tourisme.fr/offres/sas-brasserie-dobla-servanches-fr-2941635/",
+    "extrait": "Visites, dégustations et vente directe sur rendez-vous.",
+    "beers": [],
+    "choix": "Confiance moyenne : la vente et la dégustation ne sont dites que par l'office, et sur rendez-vous ; le site officiel ne les confirme qu'en deux mots (« A la brasserie », « Sur rendez-vous »). Téléphone : dobla.fr publie deux portables (07 82 28 02 98 et 06 22 97 34 32), sans étiquette. Je retiens le premier, aussi présent dans le bloc de la brasserie sur l'office ; le second est écarté. Les deux sont des portables publiés par la brasserie. Pas d'horaires : seulement « Uniquement sur rendez-vous » toute l'année 2026. Bières citées par le site (La Blonda, Ambrée, Blancha, Fumée, Auberons, Nadau, Lo Canton) non reprises : types non lus. Untappd cherché, aucune page trouvée.",
+    "contact": {
+      "tel": "07 82 28 02 98",
+      "site": "https://dobla.fr/",
+      "source": "https://dobla.fr/"
+    }
+  },
+  {
+    "cle": "sirene:890770282",
+    "n": "Brasserie La Libellule",
+    "c": "Bergerac",
+    "adresse": "4 route de Corbiac, 24100 Bergerac",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel indique que la gamme se découvre aussi sur place, en vente directe ; il ne dit rien d'une consommation sur place, d'où la catégorie 2 et une confiance moyenne. Aucun horaire publié.",
+    "src": "https://brasserielalibellule.fr/",
+    "extrait": "la gamme se découvre aussi sur place, en vente directe.",
+    "beers": [],
+    "choix": "Lecture via un résumé. Le site nomme des bières (Summertime, Arctique, Freez beer, Charly's beer, Limonade, éphémères) mais pas leurs types : aucune bière proposée. Seul numéro publié : 07 55 63 59 24, un portable donné par la brasserie, donc retenu (règle du 21/10). La fiche OSM node/8980037448 « Brasserie La Libellule » (Eyraud-Crempse-Maurens, même site) est un autre candidat du lot, à rapprocher : la page lue donne l'adresse de Bergerac, pas celle d'Eyraud.",
+    "contact": {
+      "tel": "07 55 63 59 24",
+      "site": "https://brasserielalibellule.fr/",
+      "source": "https://brasserielalibellule.fr/"
+    }
+  },
+  {
+    "cle": "sirene:984436162",
+    "n": "Atelier Epic",
+    "c": "Boulazac Isle Manoire",
+    "adresse": "4 avenue Lucien Dutard, 24750 Boulazac Isle Manoire",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "L'office de tourisme Dordogne-Périgord annonce une visite-dégustation et un achat sur place à la boutique. Le site officiel mentionne des « ventes de bières », sans parler de dégustation. La confiance reste moyenne. Les horaires, contradictoires entre les annuaires, ne sont pas repris.",
+    "src": "https://www.dordogne-perigord-tourisme.fr/offres/atelier-brasserie-epic-boulazac-isle-manoire-fr-5876701/",
+    "extrait": "Bienvenue dans le monde de la bière artisanale, où se mêlent la création et le goût pour un produit convivial.",
+    "beers": [],
+    "choix": "Lecture via un résumé. Téléphone : le site officiel epic-brasserie.fr affiche 05.64.13.98.05, un fixe, écrit « 05 64 13 98 05 » ici et retenu ; le lien téléphonique de la page pointe vers un portable (06 80 89 16 94), écarté. Horaires : l'office donne mar-mer 13h-18h et jeu-sam 14h-20h, un autre annuaire donne d'autres créneaux, et le site officiel n'en publie pas ; rien n'est proposé. Bières : aucun type publié. Le résumé de l'office ne cite pas de phrase sur la vente ou la dégustation ; l'extrait est la seule phrase citée, et la catégorie repose sur les rubriques « Visite-dégustation » et « Achat sur place à la boutique » rapportées par le résumé : à vérifier par Cédric.",
+    "contact": {
+      "tel": "05 64 13 98 05",
+      "site": "https://epic-brasserie.fr",
+      "source": "https://epic-brasserie.fr"
+    }
+  },
+  {
+    "cle": "sirene:798722922",
+    "n": "BAM Brasserie Artisanale du Périgord",
+    "c": "Périgueux",
+    "adresse": "105 rue Pierre Magne, 24000 Périgueux",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Site officiel : une boutique ouverte du lundi au samedi et une taproom (espace de dégustation sur place) ouverte du mercredi au samedi en fin de journée.",
+    "src": "https://www.bam-brasserie.fr/",
+    "extrait": "du lundi au samedi de 14h à 18h.",
+    "beers": [],
+    "choix": "Lu via un résumé de la page d'accueil. Les sections Boutique (vente) et Taproom (sur place) y sont distinctes, d'où la catégorie 1. Le téléphone vient de la page de contact du site officiel (« Brasserie BAM TAPROOM, 105 Rue Pierre Magne »). Aucun lien Untappd n'est publié sur le site, et la recherche n'en a pas trouvé. Les types de bière ne sont pas nommés (« gamme permanente » et « éphémères » seulement), donc beers est vide.",
+    "contact": {
+      "tel": "05 33 82 01 57",
+      "site": "https://www.bam-brasserie.fr/",
+      "source": "https://www.bam-brasserie.fr/contact"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "lun": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "source": "https://www.bam-brasserie.fr/"
+      },
+      {
+        "nature": "accueil",
+        "mer": [
+          [
+            "17:00",
+            "21:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "21:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "source": "https://www.bam-brasserie.fr/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:817873144",
+    "n": "La Brasserie Artisanale de Saint Saud (Périgord Beers)",
+    "c": "Saint-Saud-Lacoussière",
+    "adresse": "668 route de la Brasserie, 24470 Saint-Saud-Lacoussière",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Site officiel : un coin dégustation dans la grange, à côté de la brasserie. La vente à emporter n'y est pas dite, d'où la confiance faible (réponse de Cédric du 29/10).",
+    "src": "https://perigordbeers.com/fr/",
+    "extrait": "avec un coin dégustation confortable, et, tout au cœur, elle contient la brasserie où nous créons nos bières.",
+    "beers": [],
+    "choix": "Lu via un résumé. Le numéro 07 81 16 59 59 est un portable. C'est la seule ligne publiée par la brasserie, dans le pied de page « Nous Contacter » de son site : « Nous Contacter 0033 (0)7 81 16 59 59 ». Je l'ai réécrit avec des espaces. L'adresse vient du Guide du Périgord (un annuaire, pas la page officielle), qui la donne ainsi : Moulin de Mazieras, 668 route de la Brasserie. Écartés : l'horaire « vendredi 10h-17h » (annuaire seul), la boutique en ligne, et les numéros de L'Odyssée (un bar-brasserie de Saint-Saud, sans rapport). Aucun lien Untappd n'a été trouvé.",
+    "contact": {
+      "tel": "07 81 16 59 59",
+      "site": "https://perigordbeers.com/fr/",
+      "source": "https://perigordbeers.com/fr/"
+    }
+  },
+  {
+    "cle": "sirene:830553459",
+    "n": "Brasserie Les 2 Ours",
+    "c": "Saint-Médard-de-Mussidan",
+    "adresse": "24 rue Marcel Janet, 24400 Saint-Médard-de-Mussidan",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie avec boutique et vente à emporter d'après l'office de tourisme Dordogne-Périgord. Visites guidées sur rendez-vous seulement. Rien n'indique qu'on y boive sur place.",
+    "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-les-2-ours-saint-medard-de-mussidan-fr-3452540",
+    "extrait": "Boutique Vente à emporter",
+    "beers": [],
+    "choix": "Lu via un résumé de l'office de tourisme : l'extrait est la formule rendue par le résumé, à vérifier sur la page. Office de tourisme : confiance moyenne au plus. Le téléphone de l'office pour cette fiche est un portable (06 63 86 51 00) donné par l'office, pas lu sur une page de la brasserie : écarté. Aucun horaire détaillé (la page dit « Horaires non garantis aujourd'hui »). Le site officiel (shop.brasserie-les2ours.com) n'a rendu que son titre « Beershop - Boutique en ligne de bières artisanales » : je ne le mets comme site que sur ce titre. brasserie-les2ours.com redirige vers un blog WordPress privé. Pas de page Untappd trouvée.",
+    "contact": {
+      "site": "https://shop.brasserie-les2ours.com/shop",
+      "source": "https://shop.brasserie-les2ours.com/shop"
+    }
+  },
+  {
+    "cle": "sirene:877577965",
+    "n": "La NÒVÉ",
+    "c": "Bergerac",
+    "adresse": "129 avenue Aristide Briand, Bâtiment 5, 24100 Bergerac",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio de Bergerac, en coopérative, établie par son site. Seul un guide commercial parle de vente à la brasserie : ce qu'on peut y faire reste à confirmer.",
+    "src": "https://www.brasserielanove.fr/",
+    "extrait": "Brasserie artisanale de bière bio et location en Dordogne",
+    "beers": [],
+    "choix": "Lu via un résumé, en anglais : l'extrait est celui rendu par le résumé, pas vérifié mot à mot. Le guide du Périgord est un annuaire, d'où la confiance faible. Le site officiel confirme l'adresse et le portable 06 82 87 99 62 (seule ligne publiée par la brasserie, règle du 21/10), mais ne dit rien de la vente. Horaires non repris : deux pages du même guide se contredisent (lundi au vendredi 9 h à 17 h, contre mardi, mercredi 9 h à 17 h et vendredi 14 h à 17 h). Pas de page Untappd sur le site officiel.",
+    "contact": {
+      "tel": "06 82 87 99 62",
+      "site": "https://www.brasserielanove.fr/",
+      "source": "https://www.brasserielanove.fr/"
+    }
+  },
+  {
+    "cle": "node/6718353768",
+    "n": "Brasserie Le Père l'Amer",
+    "c": "Thiviers",
+    "adresse": "16 rue Bertrand de Born, 24800 Thiviers",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie familiale qui brasse sur place ; boutique ouverte en semaine et le samedi matin, visite sur rendez-vous. Le bar rouvre seulement de temps en temps, surtout l'été.",
+    "src": "https://leperelamer.fr/",
+    "extrait": "Boutique ouverte du lundi au vendredi de 16h à 18h, et le samedi de 10h30 à 12h30.",
+    "beers": [],
+    "choix": "Site officiel lu directement pour la catégorie et les horaires. Le site ne publie aucun téléphone ; l'office de tourisme donne un mobile (06 28 09 05 32). Je ne le retiens pas, car il ne vient pas de la brasserie. Contact limité à la page Untappd, ouverte et vérifiée (micro-brasserie, Thiviers). Le bar rouvre « occasionnellement », sans horaires : pas de catégorie 1. Adresse du site (16 rue Bertrand de Born) ; OSM et Gault&Millau disent 23. Le candidat sirene:818... « LPLA », 16 rue Bertran de Born à Thiviers (paquet 2), est probablement la même entreprise : à dédoublonner par Cédric.",
+    "contact": {
+      "site": "https://leperelamer.fr/",
+      "source": "https://leperelamer.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "lun": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "10:30",
+            "12:30"
+          ]
+        ],
+        "source": "https://leperelamer.fr/"
+      }
+    ]
+  },
+  {
+    "cle": "way/443249876",
+    "n": "La Plume et l'Épi",
+    "c": "Grignols",
+    "adresse": "153 route Saint-Front de Bruc, 24110 Grignols",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Ferme-brasserie de bières paysannes biologiques. Le site officiel dit qu'on y déguste les bières et qu'on y achète en vente directe. Accueil le samedi de 14 h à 23 h, visites sur rendez-vous. Les horaires de la vente directe ne sont pas donnés.",
+    "src": "https://www.plumepi.com/",
+    "extrait": "La plume et l’épi vous accueille pour déguster les bières paysannes et pour découvrir les étapes de leur fabrication.",
+    "beers": [],
+    "choix": "Le seul numéro publié est un portable (06 98 41 35 83), sur la page de la brasserie elle-même : repris selon la règle du 21/10. Il est aussi sur la fiche de l'office de tourisme Dordogne-Périgord, qui le donne en +33. Confiance moyenne : l'accueil du samedi est daté, mais la page ne dit pas les horaires de la vente à emporter et la dégustation à d'autres moments se fait sur rendez-vous. Bières saisonnières non listées en types. Aucune page Untappd trouvée.",
+    "contact": {
+      "tel": "06 98 41 35 83",
+      "site": "https://www.plumepi.com/",
+      "source": "https://www.plumepi.com/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "sam": [
+          [
+            "14:00",
+            "23:00"
+          ]
+        ],
+        "remarque": "Visites sur rendez-vous.",
+        "source": "https://www.plumepi.com/",
+        "verifieLe": "2026-11-06"
+      }
+    ]
+  }
+]

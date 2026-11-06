@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:808814131",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Bel Air (La Bergère)",
+   "c": "Saint-Bonnet-de-Bellac",
+   "d": "87",
+   "lat": 46.16086,
+   "lon": 0.93606,
+   "km": 300.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières bio non filtrées La Bergère ; vente à emporter d'après la fiche de l'office de tourisme (Visit Limousin). Site officiel biere-la-bergere.fr non lisible depuis la session.",
+   "addr": "RN 147, Bel Air, 87300 Saint-Bonnet-de-Bellac",
+   "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 55 68 26 93",
+    "source": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Bonnet-de-Bellac&type=municipality&limit=5"
+  ],
+  "extrait": "Drive/Vente à emporter",
+  "choix": "Deux numéros sur la fiche de l'office : fixe +33 5 55 68 26 93 (retenu, règle du 31/10) et portable +33 6 31 61 99 31 (non repris). Horaires absents (« non sécurisés »). Lu via un résumé."
+ }
+}

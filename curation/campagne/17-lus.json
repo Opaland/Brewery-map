@@ -1,0 +1,116 @@
+[
+  {
+    "cle": "sirene:809680200",
+    "n": "La Beun'aise",
+    "c": "Aytré",
+    "adresse": "13 rue Thalès, 17440 Aytré",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Microbrasserie ; le site cite un shop à La Rochelle (19 rue de l'Archimède). Dégustation sur place non mentionnée.",
+    "src": "https://labeunaise.fr/",
+    "extrait": "La Beun'aise, une microbrasserie à taille humaine",
+    "beers": [],
+    "choix": "Horaires non repris : le site donne « mardi-jeudi : 9h30-12h30 / 14h-18h … » sans dire s'ils valent pour Aytré ou pour le shop de La Rochelle (qui varie selon la saison). Adresse de la fiche = Aytré (13 rue Thalès), le site la lie aux horaires habituels sans la nommer brasserie. Le téléphone est celui que la brasserie publie (« Appelez-nous au 05 17 81 05 15 »). Pas de lien Untappd sur le site. Absent de data/.",
+    "contact": {
+      "tel": "05 17 81 05 15",
+      "site": "https://labeunaise.fr/",
+      "source": "https://labeunaise.fr/"
+    }
+  },
+  {
+    "cle": "sirene:481055846",
+    "n": "Bières de Ré",
+    "c": "Sainte-Marie-de-Ré",
+    "adresse": "RD 201, Les Hauts des Peux Bertaud, 17740 Sainte-Marie-de-Ré",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale de l'île de Ré avec boutique sur place. Dégustation et horaires non publiés sur la page lue.",
+    "src": "https://www.bieresdere.fr/home/",
+    "extrait": "Rendez-vous en boutique pour découvrir ces bières, et bien d'autres nouveautés.",
+    "beers": [],
+    "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Lampée Baumgartner, Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie (fondateur Baumgartner) : non créé à part. Absent de data/.",
+    "contact": {
+      "tel": "05 46 43 82 63",
+      "site": "https://www.bieresdere.fr/home/",
+      "source": "https://www.bieresdere.fr/home/"
+    }
+  },
+  {
+    "cle": "sirene:849239215",
+    "n": "Brasserie des 3 Phares",
+    "c": "Royan",
+    "adresse": "37 boulevard de la République, 17200 Royan",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bières brassées sur place, dégustation au milieu des cuves et boutique d'une quarantaine de références (fiche de l'office de tourisme Royan Atlantique).",
+    "src": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
+    "extrait": "Sample our beers produced on site",
+    "beers": [],
+    "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265.",
+    "contact": {
+      "tel": "05 86 08 01 44",
+      "source": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/"
+    }
+  },
+  {
+    "cle": "sirene:819453358",
+    "n": "Les Brasseurs Cueilleurs",
+    "c": "Landrais",
+    "adresse": "ZA, Le Fief de la Pointe, 17290 Landrais",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie en activité d'après son site officiel (gammes Plouf, BC, Brett et barriques, éphémères), qui renvoie vers une e-boutique et des bars partenaires. Aucune mention de vente à emporter, de dégustation ni de visite à la brasserie : ce qu'on peut y faire reste à confirmer.",
+    "src": "https://brasseurscueilleurs.fr/",
+    "extrait": "ZA, Le Fief de la Pointe, 17290 Landrais",
+    "beers": [],
+    "choix": "Lecture via un résumé du site officiel. Les horaires « Du lundi au vendredi 09h30 - 18h00 » ne disent pas s'ils sont ceux d'un accueil du public : non repris. Téléphone non retenu : la page n'affiche que des portables rattachés à des personnes nommées (commercial, production, gestion), aucun numéro de la brasserie seule. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières, par exemple Marée Iodée), donc pas de lien Untappd.",
+    "contact": {
+      "site": "https://brasseurscueilleurs.fr/",
+      "source": "https://brasseurscueilleurs.fr/"
+    }
+  },
+  {
+    "cle": "sirene:994736130",
+    "n": "Brasserie de la Presqu'île d'Arvert",
+    "c": "Arvert",
+    "adresse": "1 rue des Bouleaux, 17530 Arvert",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "BDLP dans SIRENE. Boutique de vente directe de bières et limonades, et bar où l'on déguste les produits, d'après l'office de tourisme Royan Atlantique (même adresse que SIRENE). Pas de site officiel ni de page Untappd trouvés. L'office écrit les heures de vente à l'anglaise (« Monday, Tuesday, Wednesday and Thursday from 9am to 12pm and from 14:30pm to 20pm ») ; le contrôle ne relit pas cette écriture, elles ne sont pas reprises dans les horaires.",
+    "src": "https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/",
+    "extrait": "On site you will find a shop for the direct sale of beers and lemonades",
+    "beers": [],
+    "choix": "Lecture via un résumé de la page de l'office. Le passage sur le bar est « a bar, in which you can also taste our products, accompanied by appetizer platters or sausages. ». Rapprochement BDLP et « Brasserie de la Presqu'île d'Arvert » : même adresse (1 rue des Bouleaux) et sigle plausible. Aucune source ne les relie par écrit. Téléphone non retenu. La page affiche « +06 28 04 16 42 », un portable lu sur un office (non repris : un portable doit venir de la brasserie), et « +05 17 82 49 36 », un fixe au format malformé que le résumé juge à vérifier. Horaires de vente de la page, valables du 01/01/2025 au 31/12/2026. La page renvoie aussi à Google pour les jours fériés, ce que le champ remarque dit."
+  },
+  {
+    "cle": "sirene:834568842",
+    "n": "La Brasserie de l'Île d'Aix",
+    "c": "Île-d'Aix",
+    "adresse": "Rue Quai aux Vivres, 17123 Île-d'Aix",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Boutique et espace de dégustation de bières artisanales de l'île, d'après la fiche de l'office de tourisme Rochefort Océan (une seconde fiche du même office parle d'un bar avec brunch le dimanche). Le brassage sur place n'est pas dit en toutes lettres ; le registre SIRENE classe l'entreprise en brasserie. Horaires saisonniers publiés par l'office avec la mention « Unsecured hours » : non repris. Pas de site officiel ni de page Untappd trouvés.",
+    "src": "https://www.rochefort-ocean.com/en/plan-your-stay/made-in-rochefort-ocean/shopping/la-brasserie-de-l-ile-d-aix-3647513",
+    "extrait": "Tasting area, sale of hand-crafted beers made on the Aix Island. Snacks and refreshments available.",
+    "beers": [],
+    "choix": "Téléphone 06 65 15 59 38 écarté : portable publié par l'office seul, pas par la brasserie. Horaires écartés : saisonniers, signalés « Unsecured hours » par l'office. Confiance moyenne = plafond d'un office. Lecture via un résumé de la page (WebFetch). Une bière citée par beertasting.com (d'Aix Aix'Ale) non reprise : annuaire seul."
+  },
+  {
+    "cle": "sirene:829775477",
+    "n": "La Chafouineuse",
+    "c": "Surgères",
+    "adresse": "4 rue Gaston Migaud, 17700 Surgères",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale à Surgères. Le site de la brasserie parle de visite de la brasserie et de location de tireuse, mais ne dit pas si l'on y achète ou boit sur place : catégorie à confirmer.",
+    "src": "https://lachafouineuse.fr",
+    "extrait": "La Chafouineuse est bien plus qu'une simple brasserie",
+    "beers": [],
+    "choix": "Seule ligne publiée par la brasserie sur son site : un portable (06 74 51 65 30), repris selon la règle du 21/10. Site lu via un résumé (outil WebFetch) : les accents du texte source étaient altérés à l'affichage, donc l'extrait est à confronter à la page avant d'appliquer. La page cite « la visite de la brasserie, la location de tireuse à bière » et « cave à bières », mais ni vente à emporter ni dégustation : catégorie 0, rien de déduit. Aucun horaire sur la page, aucun lien Untappd. Le Bottin, annuaire seul, porte un « FERMÉ » probablement lié à l'heure de lecture : écarté.",
+    "contact": {
+      "tel": "06 74 51 65 30",
+      "site": "https://lachafouineuse.fr",
+      "source": "https://lachafouineuse.fr"
+    }
+  }
+]

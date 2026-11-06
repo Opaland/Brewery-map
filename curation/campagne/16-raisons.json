@@ -1,4 +1,22 @@
 {
- "personne:2": "entreprise sans nom ni adresse : rien à chercher",
- "personne:3": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:502676323": "Brasserie des Gabariers : lue sous way/88434184 (Plaizac, adresse du site officiel)",
+  "sirene:949014369": "Brasserie Rocheloise : aucune page sous ce nom ; même siège que les Gabariers",
+  "sirene:824784169": "SAS Brunack : annuaires seuls, sans site ni office",
+  "personne:1": "entreprise individuelle : registre seul",
+  "sirene:903405298": "Brasserie Artisanale Cognacaise : rien sous ce nom (deux recherches)",
+  "sirene:909165912": "La Burette : un annuaire seul",
+  "sirene:835282492": "SARL du Moulin (Chazelles) : annuaires seuls, lien avec La Rainette non établi",
+  "sirene:843229626": "Big Hop : son site ne se laisse pas lire (rendu dynamique), annuaires seuls : à relancer",
+  "sirene:904485901": "Captain Coeur de Boeuf : rien sous ce nom (deux recherches)",
+  "sirene:942499542": "Brasserie Dazzle : rien sous ce nom (deux recherches)",
+  "sirene:953167244": "Nakha Beer : rien sous ce nom (deux recherches)",
+  "sirene:940645898": "B-Bière : un annuaire seul",
+  "node/7809498717": "La Biouss : un réseau social seul",
+  "node/7809959098": "Metal Snail : rien sous ce nom (deux recherches)",
+  "way/58903884": "La Rainette : son site répond 503 : à relancer",
+  "way/65788299": "Big Hop (Saint-Brice) : rien ne la place à Saint-Brice ; même nom que sirene:843229626",
+  "way/92100525": "L'Ogre : rien sous ce nom (deux recherches)",
+  "node/7809857531": "CharentAles : même lieu que sirene:807881966, lue sous cette clé"
 }

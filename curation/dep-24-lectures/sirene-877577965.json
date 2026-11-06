@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:877577965",
+ "ajout": {
+  "fiche": {
+   "n": "La NÒVÉ",
+   "c": "Bergerac",
+   "d": "24",
+   "lat": 44.84885,
+   "lon": 0.46313,
+   "km": 348.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio de Bergerac, en coopérative, établie par son site. Seul un guide commercial parle de vente à la brasserie : ce qu'on peut y faire reste à confirmer.",
+   "addr": "129 avenue Aristide Briand, Bâtiment 5, 24100 Bergerac",
+   "src": "https://www.brasserielanove.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 82 87 99 62",
+    "site": "https://www.brasserielanove.fr/",
+    "source": "https://www.brasserielanove.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserielanove.fr/",
+   "https://data.geopf.fr/geocodage/search?q=129+avenue+Aristide+Briand%2C+B%C3%A2timent+5%2C+24100+Bergerac&limit=5"
+  ],
+  "extrait": "Brasserie artisanale de bière bio et location en Dordogne",
+  "choix": "Lu via un résumé, en anglais : l'extrait est celui rendu par le résumé, pas vérifié mot à mot. Le guide du Périgord est un annuaire, d'où la confiance faible. Le site officiel confirme l'adresse et le portable 06 82 87 99 62 (seule ligne publiée par la brasserie, règle du 21/10), mais ne dit rien de la vente. Horaires non repris : deux pages du même guide se contredisent (lundi au vendredi 9 h à 17 h, contre mardi, mercredi 9 h à 17 h et vendredi 14 h à 17 h). Pas de page Untappd sur le site officiel."
+ }
+}

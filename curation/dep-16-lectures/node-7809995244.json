@@ -1,0 +1,27 @@
+{
+ "candidat": "node/7809995244",
+ "ajout": {
+  "fiche": {
+   "n": "La Goule",
+   "c": "Foussignac",
+   "d": "16",
+   "lat": 45.7138,
+   "lon": -0.12518,
+   "km": 379,
+   "cat": 0,
+   "conf": "",
+   "note": "Bière biologique brassée sur le domaine Pinard à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
+   "addr": "8 rue de l'église, 16200 Foussignac",
+   "src": "https://destination-cognac.com/?p=8861",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://destination-cognac.com/?p=8861",
+   "https://data.geopf.fr/geocodage/search?q=8+rue+de+l%27%C3%A9glise%2C+16200+Foussignac&limit=5"
+  ],
+  "extrait": "La Goule, a traditional organic beer, is brewed on the estate.",
+  "choix": "Source unique : page de l'office de tourisme (en anglais, via un résumé) ; http://la-goule.com/ a répondu 503 deux fois (à relancer). Je n'ai repris ni le 05 45 35 87 57 ni les horaires lundi-vendredi : ce sont ceux de la visite du domaine de cognac, pas de la brasserie. Pas d'Untappd trouvé. Office seul, aucune catégorie lue."
+ }
+}

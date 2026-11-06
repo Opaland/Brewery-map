@@ -1,0 +1,59 @@
+{
+ "candidat": "personne:3",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Kreuze",
+   "c": "Anzême",
+   "d": "23",
+   "lat": 46.23681,
+   "lon": 1.83159,
+   "km": 234.4,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Microbrasserie avec son espace de vente et de dégustation ; bar et vente à emporter le jeudi, le vendredi et le samedi ; visites sur rendez-vous.",
+   "addr": "2 Forges 23000 Anzême",
+   "src": "https://www.brasserielakreuze.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 50 14 01 48",
+    "site": "https://www.brasserielakreuze.fr/",
+    "source": "https://www.brasserielakreuze.fr/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserielakreuze.fr/",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Visites guidées uniquement sur rendez-vous.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserielakreuze.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+Forges+23000+Anz%C3%AAme&limit=5"
+  ],
+  "extrait": "La Microbrasserie dispose de son propre espace de vente & de dégustation.",
+  "choix": "Site officiel lu via un résumé de la page. Types de bière non repris : Pale Ale (Ze Kreuze) et IPA (Ze KPA) sont cités sur le site, mais je n'ai pas vérifié la liste des types admis, donc beers reste vide. Aucun lien Untappd sur le site. Les horaires sont ceux du « Bar & Vente à emporter » ; je les range en accueil. Le portable 06 50 14 01 48 est la seule ligne publiée par la brasserie."
+ }
+}
