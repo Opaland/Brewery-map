@@ -1,0 +1,316 @@
+[
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE DE BELOUSIE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "79",
+   "communes": [
+    "SAINTE-OUENNE",
+    "SURIN"
+   ],
+   "adresses": [
+    "24 ROUTE DES ECOLES 79220 SAINTE-OUENNE",
+    "18 CHEMIN DES BIRONNIERES 79220 SURIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813698214",
+   "enseigne": "LAPC",
+   "dep": "79",
+   "communes": [
+    "FORS"
+   ],
+   "adresses": [
+    "23 RUE DE LA MAIRIE 79230 FORS",
+    "41 ROUTE DE BEL AIR 79230 FORS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:803819416",
+   "enseigne": "LBC",
+   "dep": "79",
+   "communes": [
+    "COULON"
+   ],
+   "adresses": [
+    "2 RUE DU PORT DU BROUILLAC 79510 COULON",
+    "5 HAMEAU DE BAUDICHET 79510 COULON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893832972",
+   "enseigne": "HAPPY MOUSSE",
+   "dep": "79",
+   "communes": [
+    "CLESSE"
+   ],
+   "adresses": [
+    "LIEU-DIT MONGAZON 21 ROUTE DE MONCOUTANT 79350 CLESSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DU VAL DE SEVRE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "79",
+   "communes": [
+    "SALLES"
+   ],
+   "adresses": [
+    "10 IMPASSE FORTRANCHE 79800 SALLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:914736459",
+   "enseigne": "QUATRE FILS",
+   "dep": "79",
+   "communes": [
+    "NIORT"
+   ],
+   "adresses": [
+    "39 RUE DE CASTEL PARC 79000 NIORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:883337875",
+   "enseigne": "STARMUST",
+   "dep": "79",
+   "communes": [
+    "MAULEON"
+   ],
+   "adresses": [
+    "6 RUE SAINT-MARTIN 79700 MAULEON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:5",
+   "enseigne": "LA CHATOUNETTE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "79",
+   "communes": [
+    "PRAILLES-LA COUARDE"
+   ],
+   "adresses": [
+    "PRAILLES LES CHAUMES EST 79370 PRAILLES-LA COUARDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:6",
+   "enseigne": "LA CHAMOISE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "79",
+   "communes": [
+    "BESSINES"
+   ],
+   "adresses": [
+    "23 RUE DES CHARMES 79000 BESSINES"
+   ],
+   "osm": [
+    "node/7809030137"
+   ],
+   "site": "http://www.lachamoise.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:952859924",
+   "enseigne": "BRASSERIE ZONE B",
+   "dep": "79",
+   "communes": [
+    "BRESSUIRE"
+   ],
+   "adresses": [
+    "10 RUE DU MOULIN JACQUET 79300 BRESSUIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:7",
+   "enseigne": "BRASSERIE SUBPTIL (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "79",
+   "communes": [
+    "MENIGOUTE"
+   ],
+   "adresses": [
+    "11 RUE GASTON METOIS 79340 MENIGOUTE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:106246861",
+   "enseigne": "EURL LA BELOUSIE",
+   "dep": "79",
+   "communes": [
+    "NIORT"
+   ],
+   "adresses": [
+    "9 RUE SAINTE CLAIRE DEVILLE 79000 NIORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808534374",
+   "enseigne": "LA GABARDE",
+   "dep": "79",
+   "communes": [
+    "CLESSE"
+   ],
+   "adresses": [
+    "LA ROCHE GABARD 79350 CLESSE"
+   ],
+   "osm": [
+    "node/7809052902"
+   ],
+   "site": "https://www.lagabarde.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2080309629",
+   "enseigne": "La minute blonde",
+   "dep": "79",
+   "communes": [
+    "Mauléon"
+   ],
+   "adresses": [
+    "Rue de Poitiers, 79700 Mauléon"
+   ],
+   "osm": [
+    "node/2080309629"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7809107709",
+   "enseigne": "La Saint Aubinaise",
+   "dep": "79",
+   "communes": [
+    "Saint-Aubin-de-Baubigné"
+   ],
+   "adresses": [
+    "41 Les Touches, 79700 Saint-Aubin-de-Baubigné"
+   ],
+   "osm": [
+    "node/7809107709"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7809242017",
+   "enseigne": "La Brasserie Pelboise",
+   "dep": "79",
+   "communes": [
+    "MELLE"
+   ],
+   "adresses": [
+    "1 quater c Chemin de la Reine, 79500 MELLE"
+   ],
+   "osm": [
+    "node/7809242017"
+   ],
+   "site": "https://labrasseriepelboise.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8211273096",
+   "enseigne": "La Thouarsaise",
+   "dep": "79",
+   "communes": [
+    "Sainte-Verge"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8211273096"
+   ],
+   "site": "http://www.lathouarsaise.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/102985744",
+   "enseigne": "Brasserie du Val de Sèvre",
+   "dep": "79",
+   "communes": [
+    "Pamproux"
+   ],
+   "adresses": [
+    "1 Chemin de la Croix d'Hervault, 79800 Pamproux"
+   ],
+   "osm": [
+    "way/102985744"
+   ],
+   "site": "http://www.brasserie-du-val-de-sevre.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/182423463",
+   "enseigne": "La Brasserie du Marais Poitevin",
+   "dep": "79",
+   "communes": [
+    "Coulon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/182423463"
+   ],
+   "site": "http://www.brasseriedumarais.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/64333936",
+   "enseigne": "Le Relais",
+   "dep": "79",
+   "communes": [
+    "Parthenay"
+   ],
+   "adresses": [
+    "97"
+   ],
+   "osm": [
+    "way/64333936"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/75474082",
+   "enseigne": "Brouette",
+   "dep": "79",
+   "communes": [
+    "Chanteloup"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/75474082"
+   ],
+   "site": "http://www.brouette.eu",
+   "statut": "nouveau"
+  }
+ ]
+]

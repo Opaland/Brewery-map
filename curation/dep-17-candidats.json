@@ -1,0 +1,963 @@
+[
+ {
+  "cle": "sirene:809680200",
+  "nom": "LE SHOP DES BIERES LA BEUN'AISE",
+  "communes": [
+   "AYTRE",
+   "LA ROCHELLE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "13 RUE THALES 17440 AYTRE",
+   "BAT D 19 RUE DE L ARCHIMEDE 17000 LA ROCHELLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "809680200",
+  "sirets": [
+   "80968020000015",
+   "80968020000023"
+  ],
+  "osm": [
+   "way/71919084"
+  ],
+  "lat": 46.128491243,
+  "lon": -1.092516963,
+  "site": "https://labeunaise.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:481055846",
+  "nom": "BIERES DE RE",
+  "communes": [
+   "SAINTE-MARIE-DE-RE",
+   "RIVEDOUX-PLAGE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "HAUT DES PEUX BERTAUD 17740 SAINTE-MARIE-DE-RE",
+   "ZONE ARTISANALE FOND DU MARAIS 464 AVENUE DE SAINTE MARIE 17940 RIVEDOUX-PLAGE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "481055846",
+  "sirets": [
+   "48105584600036",
+   "48105584600044"
+  ],
+  "osm": [
+   "node/12178902877"
+  ],
+  "lat": 46.158332547,
+  "lon": -1.32461863,
+  "site": "https://www.bieresdere.fr/home/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LA ROCHELLE",
+   "PERIGNY"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:848285607",
+  "nom": "BRASSERIE ILE ET ELLE",
+  "communes": [
+   "SAINT-PIERRE-D'OLERON"
+  ],
+  "departement": "17",
+  "adresses": [
+   "LOT ARTISANAL LE PERROTIN 140 ROUTE DES CHATELIERS 17310 SAINT-PIERRE-D'OLERON",
+   "59 RUE NORMAND D'AUTHON 17310 SAINT-PIERRE-D'OLERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848285607",
+  "sirets": [
+   "84828560700018",
+   "84828560700034"
+  ],
+  "osm": [],
+  "lat": 45.939554382,
+  "lon": -1.315785248,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:405112764",
+  "nom": "BRASSERIE LAMPEE BAUMGARTNER",
+  "communes": [
+   "LE BOIS-PLAGE-EN-RE",
+   "SAINTE-MARIE-DE-RE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "ZONE ARTISANALE 17580 LE BOIS-PLAGE-EN-RE",
+   "ZAC DES CLEMORINANTS 17740 SAINTE-MARIE-DE-RE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "405112764",
+  "sirets": [
+   "40511276400023",
+   "40511276400031"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:985135797",
+  "nom": "L'ALMANACH",
+  "communes": [
+   "SAINT-MEDARD-D'AUNIS",
+   "LAGORD"
+  ],
+  "departement": "17",
+  "adresses": [
+   "ZA DE CROIX FORT 22 RUE DES RATONNIERES 17220 SAINT-MEDARD-D'AUNIS",
+   "MAISON DU PARC CHARIER 172 RUE DU PARC 17140 LAGORD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "985135797",
+  "sirets": [
+   "98513579700019",
+   "98513579700027"
+  ],
+  "osm": [],
+  "lat": 46.137429763,
+  "lon": -1.008168141,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:949014369",
+  "nom": "BRASSERIE ROCHELOISE",
+  "communes": [
+   "PERIGNY"
+  ],
+  "departement": "17",
+  "adresses": [
+   "1 RUE ANDRE AMPERE 17180 PERIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949014369",
+  "sirets": [
+   "94901436900027"
+  ],
+  "osm": [],
+  "lat": 46.162684068,
+  "lon": -1.099445465,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820387025",
+  "nom": "CHEZ AUGUSTE",
+  "communes": [
+   "LA ROCHELLE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "9 PL DE LA PETITE SIRENE 17000 LA ROCHELLE",
+   "LE GABUT 10 PASSAGE DU DRAKKAR 17000 LA ROCHELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820387025",
+  "sirets": [
+   "82038702500019",
+   "82038702500027"
+  ],
+  "osm": [],
+  "lat": 46.155296563,
+  "lon": -1.1509338,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849239215",
+  "nom": "BRASSERIE DES 3 PHARES",
+  "communes": [
+   "ROYAN",
+   "CHEVANCEAUX"
+  ],
+  "departement": "17",
+  "adresses": [
+   "37 BOULEVARD DE LA REPUBLIQUE 17200 ROYAN",
+   "LE FEYNARD 17210 CHEVANCEAUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "849239215",
+  "sirets": [
+   "84923921500023",
+   "84923921500031"
+  ],
+  "osm": [
+   "node/7357375265"
+  ],
+  "lat": 45.624523867,
+  "lon": -1.026639832,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:848976999",
+  "nom": "LES PETITES RETHAISES",
+  "communes": [
+   "RIVEDOUX-PLAGE",
+   "SAINTE-MARIE-DE-RE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "ZA DU FONDS DES MARAIS 191 RUE DES VARENNES 17940 RIVEDOUX-PLAGE",
+   "HAUT DES PEUX BERTAUD 17740 SAINTE-MARIE-DE-RE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "848976999",
+  "sirets": [
+   "84897699900039",
+   "84897699900047"
+  ],
+  "osm": [],
+  "lat": 46.158478606,
+  "lon": -1.284383802,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "PUILBOREAU"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:814069076",
+  "nom": "SOMA",
+  "communes": [
+   "CHEVANCEAUX"
+  ],
+  "departement": "17",
+  "adresses": [
+   "LE FEYNARD 17210 CHEVANCEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814069076",
+  "sirets": [
+   "81406907600036"
+  ],
+  "osm": [],
+  "lat": 45.288996922,
+  "lon": -0.239863008,
+  "statut": "ambigu",
+  "fiche": "Brasserie Soma"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "SAINTE-SOULLE"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LA CLOTTE"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:931046437",
+  "nom": "LA BRASSERIE WINTHER DAHL",
+  "communes": [
+   "SAINT-PALAIS-DE-PHIOLIN"
+  ],
+  "departement": "17",
+  "adresses": [
+   "5 RUE DE MONTGARNI 17800 SAINT-PALAIS-DE-PHIOLIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931046437",
+  "sirets": [
+   "93104643700014"
+  ],
+  "osm": [],
+  "lat": 45.519897857,
+  "lon": -0.567969282,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:819453358",
+  "nom": "BRASSEURS CUEILLEURS",
+  "communes": [
+   "LANDRAIS"
+  ],
+  "departement": "17",
+  "adresses": [
+   "ZONE FIEF DE LA POINTE 17290 LANDRAIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "819453358",
+  "sirets": [
+   "81945335800023"
+  ],
+  "osm": [
+   "node/7419565007"
+  ],
+  "lat": 46.077224853,
+  "lon": -0.875980201,
+  "site": "https://brasseurscueilleurs.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849414610",
+  "nom": "BRASSERIE GEORGETTE",
+  "communes": [
+   "SAINT-GEORGES-DE-DIDONNE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "6 RUE AMPERE 17110 SAINT-GEORGES-DE-DIDONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849414610",
+  "sirets": [
+   "84941461000014"
+  ],
+  "osm": [],
+  "lat": 45.60697179,
+  "lon": -0.973108754,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:994736130",
+  "nom": "BDLP",
+  "communes": [
+   "ARVERT"
+  ],
+  "departement": "17",
+  "adresses": [
+   "1 RUE DES BOULEAUX 17530 ARVERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "994736130",
+  "sirets": [
+   "99473613000018"
+  ],
+  "osm": [],
+  "lat": 45.7538207362661,
+  "lon": -1.14450434131722,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901346163",
+  "nom": "LA RIBOTERIE",
+  "communes": [
+   "SAINT-VIVIEN"
+  ],
+  "departement": "17",
+  "adresses": [
+   "31 RUE DES TERRIERS 17220 SAINT-VIVIEN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901346163",
+  "sirets": [
+   "90134616300016"
+  ],
+  "osm": [],
+  "lat": 46.083943115,
+  "lon": -1.071377508,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834568842",
+  "nom": "LA BRASSERIE DE L'ILE D'AIX",
+  "communes": [
+   "ILE-D AIX (L )"
+  ],
+  "departement": "17",
+  "adresses": [
+   "CENTRE ARMAND FALLIERES 17123 ILE-D AIX (L )"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834568842",
+  "sirets": [
+   "83456884200019"
+  ],
+  "osm": [],
+  "lat": 46.02076245,
+  "lon": -1.16265906,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882753411",
+  "nom": "BRASSEURS AMATEURS ROCHELAIS",
+  "communes": [
+   "LA ROCHELLE"
+  ],
+  "departement": "17",
+  "adresses": [
+   "BAT 4. APP 963 12 PLACE DE L'EUROPE 17000 LA ROCHELLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882753411",
+  "sirets": [
+   "88275341100017"
+  ],
+  "osm": [],
+  "lat": 46.1670016972662,
+  "lon": -1.17954300023625,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815309836",
+  "nom": "BOC17 BIERE ORIGINALE CHARENTAISE",
+  "communes": [
+   "PONT L'ABBE D'ARNOULT"
+  ],
+  "departement": "17",
+  "adresses": [
+   "ZAC DE LIAUSE 1 IMP NICOLAS APPERT 17250 PONT L'ABBE D'ARNOULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "815309836",
+  "sirets": [
+   "81530983600014"
+  ],
+  "osm": [],
+  "lat": 45.831269909,
+  "lon": -0.857634463,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SAINTE-SOULLE"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "MARINADIET",
+  "communes": [
+   "SAINT-GEORGES-ANTIGNAC"
+  ],
+  "departement": "17",
+  "adresses": [
+   "13 CHEMIN DE CHEZ PETREAU 17240 SAINT-GEORGES-ANTIGNAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:833209646",
+  "nom": "MICRO BRASSERIE OLERONNAISE SOIT MBO",
+  "communes": [
+   "LE CHATEAU-D'OLERON"
+  ],
+  "departement": "17",
+  "adresses": [
+   "4 RUE OMER CHARLET 17480 LE CHATEAU-D'OLERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "833209646",
+  "sirets": [
+   "83320964600037"
+  ],
+  "osm": [],
+  "lat": 45.886356789,
+  "lon": -1.196285898,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "LES ESSARDS"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:888886694",
+  "nom": "LES 3 PROMISES",
+  "communes": [
+   "NEUVICQ"
+  ],
+  "departement": "17",
+  "adresses": [
+   "3 PLACE DE L'EGLISE 17270 NEUVICQ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888886694",
+  "sirets": [
+   "88888669400015"
+  ],
+  "osm": [],
+  "lat": 45.243999786,
+  "lon": -0.185152281,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BREUIL-MAGNE"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "PERIGNY"
+  ],
+  "departement": "17",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:928521749",
+  "nom": "ARCATOS",
+  "communes": [
+   "CHANIERS"
+  ],
+  "departement": "17",
+  "adresses": [
+   "10-12 IMPASSE DE LA TONNELLE 17610 CHANIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928521749",
+  "sirets": [
+   "92852174900012"
+  ],
+  "osm": [],
+  "lat": 45.7225189932759,
+  "lon": -0.566537024161911,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829775477",
+  "nom": "BRASSERIE LA CHAFOUINEUSE",
+  "communes": [
+   "SURGERES"
+  ],
+  "departement": "17",
+  "adresses": [
+   "4 RUE GASTON MIGAUD 17700 SURGERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829775477",
+  "sirets": [
+   "82977547700039"
+  ],
+  "osm": [],
+  "lat": 46.111400968,
+  "lon": -0.77896297,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:513362657",
+  "nom": "BRASSERIE FORT BOYARD",
+  "communes": [
+   "DOLUS-D'OLERON"
+  ],
+  "departement": "17",
+  "adresses": [
+   "LA JARRIE 6 RUE THOMAS EDISON 17550 DOLUS-D'OLERON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "513362657",
+  "sirets": [
+   "51336265700050"
+  ],
+  "osm": [],
+  "lat": 45.905282093,
+  "lon": -1.261052349,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12101944206",
+  "nom": "Garvoul",
+  "communes": [
+   "Chamouillac"
+  ],
+  "departement": "17",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12101944206"
+  ],
+  "lat": 45.30462,
+  "lon": -0.4498,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12102009047",
+  "nom": "Petr'hops",
+  "communes": [
+   "Clion"
+  ],
+  "departement": "17",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12102009047"
+  ],
+  "lat": 45.48533,
+  "lon": -0.48437,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12102016907",
+  "nom": "La Tumult'tueuse",
+  "communes": [
+   "Plassac"
+  ],
+  "departement": "17",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12102016907"
+  ],
+  "lat": 45.46821,
+  "lon": -0.56875,
+  "site": "https://www.facebook.com/profile.php?id=100088266777537",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7389055917",
+  "nom": "Science Infuse",
+  "communes": [
+   "La Rochelle"
+  ],
+  "departement": "17",
+  "adresses": [
+   "Avenue Michel Crépeau, 17000 La Rochelle"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7389055917"
+  ],
+  "lat": 46.1469,
+  "lon": -1.15549,
+  "site": "https://science-infuse.univ-lr.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7410540248",
+  "nom": "Brasserie Thiéfine",
+  "communes": [
+   "Breuil-la-Réorte"
+  ],
+  "departement": "17",
+  "adresses": [
+   "91 Rue des Cytises, 17700 Breuil-la-Réorte"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7410540248"
+  ],
+  "lat": 46.06374,
+  "lon": -0.72225,
+  "site": "https://www.bieres-thiefine.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7410599794",
+  "nom": "Casse cou",
+  "communes": [
+   "Charron"
+  ],
+  "departement": "17",
+  "adresses": [
+   "2B ZA du Peu Relevé, 17230 Charron"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7410599794"
+  ],
+  "lat": 46.29991,
+  "lon": -1.08809,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7947592803",
+  "nom": "La Rieuse",
+  "communes": [
+   "Nuaillé-d'Aunis"
+  ],
+  "departement": "17",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7947592803"
+  ],
+  "lat": 46.25032,
+  "lon": -0.93274,
+  "site": "http://brasserie-larieuse.net",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9201769201",
+  "nom": "Brasserie Autrement",
+  "communes": [
+   "La Jarrie"
+  ],
+  "departement": "17",
+  "adresses": [
+   "22 Rue des Ratonnières"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9201769201"
+  ],
+  "lat": 46.13728,
+  "lon": -1.00832,
+  "site": "https://biereautrement.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9924713309",
+  "nom": "La Barbette",
+  "communes": [
+   "Saint-Martin-de-Ré"
+  ],
+  "departement": "17",
+  "adresses": [
+   "29 Avenue Victor Bouthillier, 17410 Saint-Martin-de-Ré"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9924713309"
+  ],
+  "lat": 46.20533,
+  "lon": -1.36612,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/121610617",
+  "nom": "BOC 17",
+  "communes": [
+   "Pont-l'Abbé-d'Arnoult"
+  ],
+  "departement": "17",
+  "adresses": [
+   "1 Rue Nicolas Appert, 17250 Pont-l'Abbé-d'Arnoult"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/121610617"
+  ],
+  "lat": 45.83118,
+  "lon": -0.85178,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/67100059",
+  "nom": "Le Rive Droite",
+  "communes": [
+   "Saintes"
+  ],
+  "departement": "17",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/67100059"
+  ],
+  "lat": 45.74649,
+  "lon": -0.62452,
+  "statut": "nouveau"
+ }
+]

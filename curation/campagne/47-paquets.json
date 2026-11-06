@@ -1,0 +1,186 @@
+[
+ [
+  {
+   "cle": "sirene:520939216",
+   "enseigne": "BRASSERIE MALTEO",
+   "dep": "47",
+   "communes": [
+    "LUSIGNAN-PETIT",
+    "COLAYRAC-SAINT-CIRQ"
+   ],
+   "adresses": [
+    "LD SOUS ROUQUETTE 47360 LUSIGNAN-PETIT",
+    "1337 AVENUE DE LA LIBERATION 47450 COLAYRAC-SAINT-CIRQ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:429261167",
+   "enseigne": "BRASSERIE NATURAL",
+   "dep": "47",
+   "communes": [
+    "PORT-SAINTE-MARIE"
+   ],
+   "adresses": [
+    "546 ROUTE DE LAGARRIGUE 47130 PORT-SAINTE-MARIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891813859",
+   "enseigne": "LA BDZ",
+   "dep": "47",
+   "communes": [
+    "MIRAMONT-DE-GUYENNE"
+   ],
+   "adresses": [
+    "9 PLACE DE LA REPUBLIQUE 47800 MIRAMONT-DE-GUYENNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813114923",
+   "enseigne": "4.7 BRASSERIE",
+   "dep": "47",
+   "communes": [
+    "BOE"
+   ],
+   "adresses": [
+    "16 AV JEAN JAURES 47550 BOE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "SISIWAK (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "47",
+   "communes": [
+    "ESPIENS"
+   ],
+   "adresses": [
+    "1326 ROUTE DE CALIGNAC 47600 ESPIENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:2",
+   "enseigne": "ALBRET ALES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "47",
+   "communes": [
+    "NERAC"
+   ],
+   "adresses": [
+    "LA TUILERIE 3040 ROUTE DE CONDOM 47600 NERAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:919904805",
+   "enseigne": "NEVER WORK",
+   "dep": "47",
+   "communes": [
+    "MIRAMONT-DE-GUYENNE"
+   ],
+   "adresses": [
+    "7 PLACE DE LA REPUBLIQUE 47800 MIRAMONT-DE-GUYENNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850073958",
+   "enseigne": "ZEBULL'IN BRASSERIE",
+   "dep": "47",
+   "communes": [
+    "PENNE-D'AGENAIS"
+   ],
+   "adresses": [
+    "1 BOULEVARD DE L'HORIZON 47140 PENNE-D'AGENAIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914871223",
+   "enseigne": "BRASSERIE BON VOYAGE",
+   "dep": "47",
+   "communes": [
+    "FOULAYRONNES"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE LE ROUGE 47510 FOULAYRONNES"
+   ],
+   "osm": [
+    "way/1095635179"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818799496",
+   "enseigne": "HOPALE",
+   "dep": "47",
+   "communes": [
+    "FUMEL"
+   ],
+   "adresses": [
+    "2 AVENUE DE L'USINE 47500 FUMEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:924383573",
+   "enseigne": "LA BRASSERIE DES 3 CEDRES",
+   "dep": "47",
+   "communes": [
+    "LACAUSSADE"
+   ],
+   "adresses": [
+    "LIEU-DIT VENDEGE 913 ROUTE DE VILLENEUVE 47150 LACAUSSADE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8202331297",
+   "enseigne": "4.7 Brasserie",
+   "dep": "47",
+   "communes": [
+    "Estillac"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8202331297"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/9136083023",
+   "enseigne": "Natural Mystick",
+   "dep": "47",
+   "communes": [
+    "Bazens"
+   ],
+   "adresses": [
+    "Bourret"
+   ],
+   "osm": [
+    "node/9136083023"
+   ],
+   "site": "http://brasserienaturalmystick.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

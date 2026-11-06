@@ -1,0 +1,302 @@
+[
+ {
+  "cle": "sirene:921547220",
+  "nom": "BRASSERIE DES MONTS DE GUERET",
+  "communes": [
+   "GUERET"
+  ],
+  "departement": "23",
+  "adresses": [
+   "3 B ALLEE DE CHERMENTOUX 23000 GUERET",
+   "26 AVENUE DU BOURBONNAIS 23000 GUERET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921547220",
+  "sirets": [
+   "92154722000019",
+   "92154722000050"
+  ],
+  "osm": [],
+  "lat": 46.155207964,
+  "lon": 1.8710036552,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE DES MONTS DE GUERET",
+  "communes": [
+   "GUERET",
+   "LA SOUTERRAINE"
+  ],
+  "departement": "23",
+  "adresses": [
+   "3 B ALLEE DE CHERMENTOUX 23000 GUERET",
+   "PEPINIERE D'ENTREPRISES LE CHEIX 23300 LA SOUTERRAINE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "doublon",
+  "fiche": "BRASSERIE DES MONTS DE GUERET"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "L'ATELIER DE LA MOUSSE",
+  "communes": [
+   "MOUTIER-MALCARD"
+  ],
+  "departement": "23",
+  "adresses": [
+   "1 RUE DES ECOLES 23220 MOUTIER-MALCARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "BRASSERIE LA KREUZE",
+  "communes": [
+   "ANZEME"
+  ],
+  "departement": "23",
+  "adresses": [
+   "2 FORGES 23000 ANZEME"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/9022793654"
+  ],
+  "site": "https://www.brasserielakreuze.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900769761",
+  "nom": "BRASSERIE LA 23",
+  "communes": [
+   "VALLIERE"
+  ],
+  "departement": "23",
+  "adresses": [
+   "MURAT 23120 VALLIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900769761",
+  "sirets": [
+   "90076976100017"
+  ],
+  "osm": [],
+  "lat": 45.882421218,
+  "lon": 2.0606845327,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814149795",
+  "nom": "ASSOCIATION LA BIERE EN CHANTIER",
+  "communes": [
+   "GENTIOUX PIGEROLLES"
+  ],
+  "departement": "23",
+  "adresses": [
+   "LA RENOUEE LE BOURG 23340 GENTIOUX PIGEROLLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814149795",
+  "sirets": [
+   "81414979500019"
+  ],
+  "osm": [],
+  "lat": 45.785522465,
+  "lon": 1.9979727538,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LA SOUTERRAINE"
+  ],
+  "departement": "23",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/11375506782"
+  ],
+  "site": "https://www.brasserie-sostra.com/",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:815294780",
+  "nom": "LA BRASSERIE BARN OWL",
+  "communes": [
+   "SAINT-MOREIL"
+  ],
+  "departement": "23",
+  "adresses": [
+   "8 ROUTE DE BUJALEUF 23400 SAINT-MOREIL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "815294780",
+  "sirets": [
+   "81529478000037"
+  ],
+  "osm": [],
+  "lat": 45.8537264506316,
+  "lon": 1.68638424359621,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "LA CAPSULE",
+  "communes": [
+   "AUBUSSON"
+  ],
+  "departement": "23",
+  "adresses": [
+   "13 RUE JULES SANDEAU 23200 AUBUSSON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:930171558",
+  "nom": "LE BAR N'AOUT",
+  "communes": [
+   "MAINSAT"
+  ],
+  "departement": "23",
+  "adresses": [
+   "3 COURTIAT 23700 MAINSAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "930171558",
+  "sirets": [
+   "93017155800016"
+  ],
+  "osm": [],
+  "lat": 46.02899312,
+  "lon": 2.3415957471,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "GOUZON"
+  ],
+  "departement": "23",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/10973918535",
+  "nom": "Brasserie La 23",
+  "communes": [
+   "Saint-Yrieix-la-Montagne"
+  ],
+  "departement": "23",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10973918535"
+  ],
+  "lat": 45.88468,
+  "lon": 2.05865,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LA 23"
+ },
+ {
+  "cle": "node/12824213201",
+  "nom": "Distillerie Le Compas",
+  "communes": [
+   "Bussière-Nouvelle"
+  ],
+  "departement": "23",
+  "adresses": [
+   "4, 23700"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12824213201"
+  ],
+  "lat": 46.01752,
+  "lon": 2.45296,
+  "site": "https://www.distillerielecompas.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5770424879",
+  "nom": "La Bière en chantier",
+  "communes": [
+   "Gentioux-Pigerolles"
+  ],
+  "departement": "23",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5770424879"
+  ],
+  "lat": 45.78455,
+  "lon": 1.994,
+  "statut": "nouveau"
+ }
+]

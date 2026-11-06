@@ -1,0 +1,1284 @@
+[
+ {
+  "cle": "sirene:804689594",
+  "nom": "BRASSERIE DES PYRENEES",
+  "communes": [
+   "OGEU-LES-BAINS",
+   "BAYONNE",
+   "GAN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "5 AVENUE DES FONTAINES 64680 OGEU-LES-BAINS",
+   "10 IMPASSE DES JONCS 64100 BAYONNE",
+   "4 ROUTE DE GELOS 64290 GAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "804689594",
+  "sirets": [
+   "80468959400039",
+   "80468959400054",
+   "80468959400070"
+  ],
+  "osm": [],
+  "lat": 43.168916443,
+  "lon": -0.498205472,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:984340216",
+  "nom": "BRASSERIE LA CHILLOSSA",
+  "communes": [
+   "BESCAT",
+   "ARUDY"
+  ],
+  "departement": "64",
+  "adresses": [
+   "29 CHEMIN HERRELORE 64260 BESCAT",
+   "RUE DES FOURS A CHAUX 64260 ARUDY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984340216",
+  "sirets": [
+   "98434021600014",
+   "98434021600022"
+  ],
+  "osm": [],
+  "lat": 43.132818043,
+  "lon": -0.424909262,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901942334",
+  "nom": "BRASSERIE PONTACUS",
+  "communes": [
+   "PONTACQ"
+  ],
+  "departement": "64",
+  "adresses": [
+   "6 PLACE SAINT-LAURENT 64530 PONTACQ",
+   "1 CHEMIN DE TITOU 64530 PONTACQ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901942334",
+  "sirets": [
+   "90194233400011",
+   "90194233400029"
+  ],
+  "osm": [],
+  "lat": 43.184443024,
+  "lon": -0.114666976,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841385198",
+  "nom": "ORIGIN'ALE",
+  "communes": [
+   "BILLERE",
+   "PAU"
+  ],
+  "departement": "64",
+  "adresses": [
+   "4 RUE DU FRONTON 64140 BILLERE",
+   "17 PLACE LAHERRERE 64000 PAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841385198",
+  "sirets": [
+   "84138519800020",
+   "84138519800038"
+  ],
+  "osm": [],
+  "lat": 43.312974572,
+  "lon": -0.385330717,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "ASCARAT"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:792411621",
+  "nom": "PRESSION PALOISE",
+  "communes": [
+   "LESCAR",
+   "POEY-DE-LESCAR"
+  ],
+  "departement": "64",
+  "adresses": [
+   "RUE DES FRERES WRIGHT 64230 LESCAR",
+   "22 CHEMIN D'ASPE 64230 POEY-DE-LESCAR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "792411621",
+  "sirets": [
+   "79241162100016",
+   "79241162100024"
+  ],
+  "osm": [],
+  "lat": 43.317408074,
+  "lon": -0.439064368,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "SHAKESPEARE BIERE ARTISANALE ANGLAI",
+  "communes": [
+   "LAY-LAMIDOU",
+   "NAVARRENX"
+  ],
+  "departement": "64",
+  "adresses": [
+   "4 RUE DE LA HOUNT 64190 LAY-LAMIDOU",
+   "30 RUE SAINT-ANTOINE 64190 NAVARRENX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:938078664",
+  "nom": "KOSTALDEKO LOREAK",
+  "communes": [
+   "HENDAYE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "RESIDENCE LA ESPERANZA 17 RUE DE LA LIBERATION 64700 HENDAYE",
+   "25 RUE DE L'INDUSTRIE 64700 HENDAYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938078664",
+  "sirets": [
+   "93807866400019",
+   "93807866400027"
+  ],
+  "osm": [],
+  "lat": 43.356016470466,
+  "lon": -1.7773001761527,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "SAINTE-COLOME"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:918170481",
+  "nom": "BRASPERIE",
+  "communes": [
+   "CETTE-EYGUN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "6 RUE DU CRESTET 64490 CETTE-EYGUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "918170481",
+  "sirets": [
+   "91817048100017"
+  ],
+  "osm": [],
+  "lat": 42.937507978987,
+  "lon": -0.583448953414501,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:794218222",
+  "nom": "BRASSERIE BEARNAISE",
+  "communes": [
+   "PAU"
+  ],
+  "departement": "64",
+  "adresses": [
+   "12 RUE DU BALAITOUS 64000 PAU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "794218222",
+  "sirets": [
+   "79421822200014"
+  ],
+  "osm": [
+   "way/62881977"
+  ],
+  "lat": 43.312845778,
+  "lon": -0.372086865,
+  "site": "https://brasserie-bearnaise.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:934640970",
+  "nom": "ETABLISSEMENT CLAVE",
+  "communes": [
+   "MONEIN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "ZONE LOUPIEN 24 RUE DES ARTISANS 64360 MONEIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "934640970",
+  "sirets": [
+   "93464097000026"
+  ],
+  "osm": [],
+  "lat": 43.3359671462023,
+  "lon": -0.58157401212087,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822655304",
+  "nom": "PRODUCTION DE BIERES ARTISANALES FERRAND ET FILS",
+  "communes": [
+   "BILLERE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "61 ROUTE DE BAYONNE 64140 BILLERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822655304",
+  "sirets": [
+   "82265530400019"
+  ],
+  "osm": [],
+  "lat": 43.304428471,
+  "lon": -0.40281807,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "ANGLET"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:891403750",
+  "nom": "LA GRANGE",
+  "communes": [
+   "NOUSTY"
+  ],
+  "departement": "64",
+  "adresses": [
+   "13 RUE DE L'OUSSE 64420 NOUSTY"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "891403750",
+  "sirets": [
+   "89140375000013"
+  ],
+  "osm": [
+   "node/10221392554"
+  ],
+  "lat": 43.265210492,
+  "lon": -0.224907334,
+  "site": "http://www.bieres-lagrange.fr/",
+  "statut": "ambigu",
+  "fiche": "La Grange du Seigneur"
+ },
+ {
+  "cle": "sirene:879818219",
+  "nom": "BRASSERIE GREENWITCH",
+  "communes": [
+   "NARCASTET"
+  ],
+  "departement": "64",
+  "adresses": [
+   "15 RUE DU PIC DU MIDI 64510 NARCASTET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "879818219",
+  "sirets": [
+   "87981821900021"
+  ],
+  "osm": [],
+  "lat": 43.2462054549519,
+  "lon": -0.310860423157794,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "OLORON-SAINTE-MARIE"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:929969277",
+  "nom": "MENDITSASO",
+  "communes": [
+   "LAHONCE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "CENTRE HIRU-KASKO - ZAC DE LAHONCE 45 RUE GAILLAT 64990 LAHONCE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929969277",
+  "sirets": [
+   "92996927700029"
+  ],
+  "osm": [],
+  "lat": 43.4897426836382,
+  "lon": -1.42968857693546,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814528725",
+  "nom": "LA BRASSERIE DU PAYS BASQUE",
+  "communes": [
+   "BARDOS"
+  ],
+  "departement": "64",
+  "adresses": [
+   "ZONE ETXECOLU 57 ROUTE DU MOULIN DE LA FERRERIE 64520 BARDOS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814528725",
+  "sirets": [
+   "81452872500025"
+  ],
+  "osm": [
+   "way/891958877"
+  ],
+  "lat": 43.4631919775901,
+  "lon": -1.26747295785263,
+  "site": "https://brasseriedupaysbasque.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818339434",
+  "nom": "KIXKIL OSTATUA",
+  "communes": [
+   "BAYONNE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "42 RUE PANNECAU 64100 BAYONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818339434",
+  "sirets": [
+   "81833943400016"
+  ],
+  "osm": [],
+  "lat": 43.4897585677654,
+  "lon": -1.47272888491977,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820111953",
+  "nom": "LA SUPERBE",
+  "communes": [
+   "ANGLET"
+  ],
+  "departement": "64",
+  "adresses": [
+   "11 AVENUE DE L' ADOUR 64600 ANGLET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "820111953",
+  "sirets": [
+   "82011195300049"
+  ],
+  "osm": [],
+  "lat": 43.504575376,
+  "lon": -1.495672913,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:492891130",
+  "nom": "ETXEKO BOB S BEER",
+  "communes": [
+   "HASPARREN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "69 RUE FRANCIS JAMMES 64240 HASPARREN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "492891130",
+  "sirets": [
+   "49289113000014"
+  ],
+  "osm": [],
+  "lat": 43.38734657,
+  "lon": -1.304093134,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841916786",
+  "nom": "BIPIL AGUERRIA",
+  "communes": [
+   "ESPELETTE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "FERME AGUERRIA 640 KAMINOKO PATARRA 64250 ESPELETTE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "841916786",
+  "sirets": [
+   "84191678600012"
+  ],
+  "osm": [
+   "node/8676561636"
+  ],
+  "lat": 43.342509978,
+  "lon": -1.439978974,
+  "site": "https://www.bipil-aguerria.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901194167",
+  "nom": "ZIRTZIL",
+  "communes": [
+   "ANGLET"
+  ],
+  "departement": "64",
+  "adresses": [
+   "170 RUE DE HAUSQUETTE 64600 ANGLET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "901194167",
+  "sirets": [
+   "90119416700010"
+  ],
+  "osm": [
+   "node/11739431015"
+  ],
+  "lat": 43.502670126,
+  "lon": -1.502991529,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929569473",
+  "nom": "BADEIGTS",
+  "communes": [
+   "SAUVETERRE-DE-BEARN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "1215 ROUTE D'ANDREIN 64390 SAUVETERRE-DE-BEARN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929569473",
+  "sirets": [
+   "92956947300010"
+  ],
+  "osm": [],
+  "lat": 43.394922028,
+  "lon": -0.922497982,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:837839976",
+  "nom": "POTTIOK",
+  "communes": [
+   "SAINT-JEAN-PIED-DE-PORT"
+  ],
+  "departement": "64",
+  "adresses": [
+   "31 RUE SAINTE-EULALIE 64220 SAINT-JEAN-PIED-DE-PORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "837839976",
+  "sirets": [
+   "83783997600029"
+  ],
+  "osm": [],
+  "lat": 43.1655640341742,
+  "lon": -1.23545796362867,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "AYHERRE"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINT-VINCENT"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:421566530",
+  "nom": "BRASSERIE AKERBELTZ",
+  "communes": [
+   "ASCAIN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "ZONE ARTISANALE DE LARRE LORE 64310 ASCAIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "421566530",
+  "sirets": [
+   "42156653000026"
+  ],
+  "osm": [],
+  "lat": 43.357733045,
+  "lon": -1.631242591,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:130066863",
+  "nom": "EZPEL GARAGARDOTEGIA",
+  "communes": [
+   "BIDART"
+  ],
+  "departement": "64",
+  "adresses": [
+   "RESIDENCE CAPERA 131 RUE DE LA CHAPELLE 64210 BIDART"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "130066863",
+  "sirets": [
+   "13006686300015"
+  ],
+  "osm": [],
+  "lat": 43.43404198270988,
+  "lon": -1.5934350372589807,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884566167",
+  "nom": "GERETX",
+  "communes": [
+   "LOUHOSSOA"
+  ],
+  "departement": "64",
+  "adresses": [
+   "MAISON CONDIAENIA 64250 LOUHOSSOA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "884566167",
+  "sirets": [
+   "88456616700018"
+  ],
+  "osm": [],
+  "lat": 43.31814356,
+  "lon": -1.364400247,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BOSDARROS"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:898997093",
+  "nom": "LUMA",
+  "communes": [
+   "SAINT-PALAIS"
+  ],
+  "departement": "64",
+  "adresses": [
+   "ZONE INDUSTRIELLE ORDOKIAN 64120 SAINT-PALAIS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "898997093",
+  "sirets": [
+   "89899709300023"
+  ],
+  "osm": [
+   "node/12643108386"
+  ],
+  "lat": 43.321127587,
+  "lon": -1.046069685,
+  "site": "https://brasserieluma.sumupstore.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "OLORON-SAINTE-MARIE"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:913091534",
+  "nom": "LES TETES BLANCHES",
+  "communes": [
+   "HIGUERES-SOUYE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "IMPASSE MATOT 64160 HIGUERES-SOUYE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "913091534",
+  "sirets": [
+   "91309153400010"
+  ],
+  "osm": [],
+  "lat": 43.383606384,
+  "lon": -0.261545376,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904614500",
+  "nom": "LALOKA",
+  "communes": [
+   "BAYONNE"
+  ],
+  "departement": "64",
+  "adresses": [
+   "18 AVENUE DUBROCQ 64100 BAYONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904614500",
+  "sirets": [
+   "90461450000018"
+  ],
+  "osm": [],
+  "lat": 43.4958368439519,
+  "lon": -1.48537034142611,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:939579462",
+  "nom": "BRASSERIE INDEPENDANTE L'INSOLENTE",
+  "communes": [
+   "GER"
+  ],
+  "departement": "64",
+  "adresses": [
+   "180 CHEMIN DE LA BACHE 64530 GER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "939579462",
+  "sirets": [
+   "93957946200010"
+  ],
+  "osm": [],
+  "lat": 43.2485520895258,
+  "lon": -0.0374037469111657,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:928113430",
+  "nom": "MCD BRASSERIE 1400",
+  "communes": [
+   "HAGETAUBIN"
+  ],
+  "departement": "64",
+  "adresses": [
+   "190 CHEMIN DE L'EGLISE DU BOURG 64370 HAGETAUBIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "928113430",
+  "sirets": [
+   "92811343000013"
+  ],
+  "osm": [],
+  "lat": 43.51877698,
+  "lon": -0.623936962,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": "BRASSERIE KIPETT",
+  "communes": [
+   "BRISCOUS"
+  ],
+  "departement": "64",
+  "adresses": [
+   "ZA MENDIKO BORDA ROUTE D' HASPARREN 64240 BRISCOUS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/10004193960"
+  ],
+  "site": "http://www.brasseriekipett.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827987371",
+  "nom": "B-U",
+  "communes": [
+   "PAU"
+  ],
+  "departement": "64",
+  "adresses": [
+   "9 RUE ADA BYRON 64000 PAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827987371",
+  "sirets": [
+   "82798737100024"
+  ],
+  "osm": [],
+  "lat": 43.3259287581002,
+  "lon": -0.329555633941991,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:950929026",
+  "nom": "BRASSERIE ARTZA",
+  "communes": [
+   "URCUIT"
+  ],
+  "departement": "64",
+  "adresses": [
+   "1044 ROUTE D' URT 64990 URCUIT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "950929026",
+  "sirets": [
+   "95092902600025"
+  ],
+  "osm": [],
+  "lat": 43.48416863,
+  "lon": -1.322050247,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828792309",
+  "nom": "SARLU DE L'ARREC",
+  "communes": [
+   "ESTIALESCQ"
+  ],
+  "departement": "64",
+  "adresses": [
+   "68 CHEMIN CARRERE 64290 ESTIALESCQ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828792309",
+  "sirets": [
+   "82879230900019"
+  ],
+  "osm": [],
+  "lat": 43.225174976,
+  "lon": -0.548287023,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "BORCE"
+  ],
+  "departement": "64",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/11825322720",
+  "nom": "Belharra",
+  "communes": [
+   "Bayonne"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11825322720"
+  ],
+  "lat": 43.49678,
+  "lon": -1.4928,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12231286488",
+  "nom": "La Clouque",
+  "communes": [
+   "Salies de Béarn"
+  ],
+  "departement": "64",
+  "adresses": [
+   "Chemin de Lagisquet, 64270 Salies de Béarn"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12231286488"
+  ],
+  "lat": 43.45284,
+  "lon": -0.92017,
+  "site": "https://clouque.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13204320712",
+  "nom": "La Superbe",
+  "communes": [
+   "Bayonne"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13204320712"
+  ],
+  "lat": 43.50114,
+  "lon": -1.49394,
+  "statut": "ambigu",
+  "fiche": "LA SUPERBE"
+ },
+ {
+  "cle": "node/13739909896",
+  "nom": "Naba",
+  "communes": [
+   "Oloron-Sainte-Marie"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13739909896"
+  ],
+  "lat": 43.19365,
+  "lon": -0.61202,
+  "site": "https://microbrasseries-françaises.fr/Brasserie%20Naba.html",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14119220135",
+  "nom": "Landberry Crew",
+  "communes": [
+   "Boucau"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14119220135"
+  ],
+  "lat": 43.52118,
+  "lon": -1.50226,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5101396406",
+  "nom": "DC Beer Factory",
+  "communes": [
+   "Arudy"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5101396406"
+  ],
+  "lat": 43.10883,
+  "lon": -0.4357,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5443350701",
+  "nom": "Taulèr",
+  "communes": [
+   "Arzacq-Arraziguet"
+  ],
+  "departement": "64",
+  "adresses": [
+   "18 Chemin des Écoles, 64410 Arzacq-Arraziguet"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5443350701"
+  ],
+  "lat": 43.53387,
+  "lon": -0.40775,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6123880119",
+  "nom": "Brasserie La Fabbrica",
+  "communes": [
+   "Lescar"
+  ],
+  "departement": "64",
+  "adresses": [
+   "8 Rue Jean Jaurès, 64230 Lescar"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6123880119"
+  ],
+  "lat": 43.3166,
+  "lon": -0.42743,
+  "site": "https://www.carrefour-lescar.fr/boutique/brasserie-la-fabbrica/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6124679053",
+  "nom": "Les 3 Brasseurs",
+  "communes": [
+   "Lescar"
+  ],
+  "departement": "64",
+  "adresses": [
+   "180 Boulevard de l'Europe, 64230 Lescar"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6124679053"
+  ],
+  "lat": 43.31817,
+  "lon": -0.43464,
+  "site": "https://restaurants.3brasseurs.com/fr/s/brasseurs/pau-lescar/847",
+  "statut": "ambigu",
+  "fiche": "3 Brasseurs La Roche-sur-Yon"
+ },
+ {
+  "cle": "node/7359998794",
+  "nom": "Brasserie Greenwitch",
+  "communes": [
+   "Mazères-Lezons"
+  ],
+  "departement": "64",
+  "adresses": [
+   "8 Rue de l'Amitié"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7359998794"
+  ],
+  "lat": 43.28254,
+  "lon": -0.35683,
+  "site": "https://www.brasserie-greenwitch.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE GREENWITCH"
+ },
+ {
+  "cle": "node/8429026898",
+  "nom": "La Clique",
+  "communes": [
+   "Bidart"
+  ],
+  "departement": "64",
+  "adresses": [
+   "5 Rue Bazter, 64210 Bidart"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8429026898"
+  ],
+  "lat": 43.44668,
+  "lon": -1.54447,
+  "site": "https://brasserie-laclique.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/228272983",
+  "nom": "Le Mayabor",
+  "communes": [
+   "Bedous"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/228272983"
+  ],
+  "lat": 43.00003,
+  "lon": -0.60124,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/232511958",
+  "nom": "Brasserie de l'Arrec",
+  "communes": [
+   "Estialescq"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/232511958"
+  ],
+  "lat": 43.22512,
+  "lon": -0.54845,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/233511771",
+  "nom": "Akerbeltz",
+  "communes": [
+   "Licq-Athérey"
+  ],
+  "departement": "64",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/233511771"
+  ],
+  "lat": 43.06722,
+  "lon": -0.87776,
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,360 @@
+[
+ [
+  {
+   "cle": "sirene:502676323",
+   "enseigne": "BRASSERIE DES GABARIERS",
+   "dep": "16",
+   "communes": [
+    "GOND-PONTOUVRE",
+    "COGNAC",
+    "ROUILLAC"
+   ],
+   "adresses": [
+    "156 ROUTE DES FOURS A CHAUX 16160 GOND-PONTOUVRE",
+    "39 RUE DE BELLEFONDS 16100 COGNAC",
+    "1 RUE DU SABOTIER 16170 ROUILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792514853",
+   "enseigne": "LA DEBAUCHE",
+   "dep": "16",
+   "communes": [
+    "ANGOULEME",
+    "GOND-PONTOUVRE"
+   ],
+   "adresses": [
+    "RUE DES LIGNES 16000 ANGOULEME",
+    "ZI N 3 PLANTIER DE BREBONZAC 16160 GOND-PONTOUVRE"
+   ],
+   "osm": [
+    "way/64576852"
+   ],
+   "site": "https://www.brasserie-ladebauche.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949014369",
+   "enseigne": "BRASSERIE ROCHELOISE",
+   "dep": "16",
+   "communes": [
+    "GOND-PONTOUVRE"
+   ],
+   "adresses": [
+    "156 ROUTE DES FOURS A CHAUX 16160 GOND-PONTOUVRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824784169",
+   "enseigne": "SAS BRUNACK",
+   "dep": "16",
+   "communes": [
+    "ANSAC-SUR-VIENNE"
+   ],
+   "adresses": [
+    "ZI LES TROUILLAUDS ROUTE DE MANOT 16500 ANSAC-SUR-VIENNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE BARRICADE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "16",
+   "communes": [
+    "BREVILLE"
+   ],
+   "adresses": [
+    "LIEU DIT LA VOUTE 1 RUE DU NORD 16370 BREVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:903405298",
+   "enseigne": "BRASSERIE ARTISANALE COGNACAISE",
+   "dep": "16",
+   "communes": [
+    "SAINT-SORNIN"
+   ],
+   "adresses": [
+    "1 ROUTE DE MONTBRON 16220 SAINT-SORNIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909165912",
+   "enseigne": "BRASSERIE LA BURETTE",
+   "dep": "16",
+   "communes": [
+    "BERNEUIL"
+   ],
+   "adresses": [
+    "2602 ROUTE DE CHATIGNAC 16480 BERNEUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835282492",
+   "enseigne": "SARL DU MOULIN",
+   "dep": "16",
+   "communes": [
+    "CHAZELLES"
+   ],
+   "adresses": [
+    "MOULIN DE CHAZELLES 2 RUE DU MOULIN 16380 CHAZELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843229626",
+   "enseigne": "BRASSERIE BIG HOP",
+   "dep": "16",
+   "communes": [
+    "CHATEAUBERNARD"
+   ],
+   "adresses": [
+    "4 RUE DE LA GRANGE 16100 CHATEAUBERNARD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908582943",
+   "enseigne": "JUKEBOX",
+   "dep": "16",
+   "communes": [
+    "COGNAC"
+   ],
+   "adresses": [
+    "48 RUE ARMAND SIMARD 16100 COGNAC"
+   ],
+   "osm": [
+    "way/65531730"
+   ],
+   "site": "https://brasseriejukebox.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:904485901",
+   "enseigne": "CAPTAIN COEUR DE BOEUF",
+   "dep": "16",
+   "communes": [
+    "CHASSENEUIL-SUR-BONNIEURE"
+   ],
+   "adresses": [
+    "BOX 5 28 ROUTE D'ANGOULEME 16260 CHASSENEUIL-SUR-BONNIEURE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:807881966",
+   "enseigne": "CHARENTALES",
+   "dep": "16",
+   "communes": [
+    "PAIZAY-NAUDOUIN-EMBOURIE"
+   ],
+   "adresses": [
+    "RUE DE FAYOLLES TOURTON 16240 PAIZAY-NAUDOUIN-EMBOURIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:942499542",
+   "enseigne": "BRASSERIE DAZZLE",
+   "dep": "16",
+   "communes": [
+    "SAINT-SULPICE-DE-RUFFEC"
+   ],
+   "adresses": [
+    "1 CHEMIN DU ROULE 16460 SAINT-SULPICE-DE-RUFFEC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953167244",
+   "enseigne": "NAKHA BEER",
+   "dep": "16",
+   "communes": [
+    "SEGONZAC"
+   ],
+   "adresses": [
+    "42 RUE GASTON BRIAND 16130 SEGONZAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:940645898",
+   "enseigne": "B-BIERE",
+   "dep": "16",
+   "communes": [
+    "GENTE"
+   ],
+   "adresses": [
+    "8 ROUTE DES GRANDS CHAMPS 16130 GENTE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/7809498717",
+   "enseigne": "Brasserie La Biouss",
+   "dep": "16",
+   "communes": [
+    "Bioussac"
+   ],
+   "adresses": [
+    "Chez Brisard, 16700 Bioussac"
+   ],
+   "osm": [
+    "node/7809498717"
+   ],
+   "site": "https://www.facebook.com/Brasserie-La-Biouss-1257635114399804/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7809857531",
+   "enseigne": "CharentAles",
+   "dep": "16",
+   "communes": [
+    "Paizay-Naudouin"
+   ],
+   "adresses": [
+    "Chemin des Fayolles, 16240 Paizay-Naudouin"
+   ],
+   "osm": [
+    "node/7809857531"
+   ],
+   "site": "https://www.charentales.fr",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/7809959098",
+   "enseigne": "Brasserie Metal Snail",
+   "dep": "16",
+   "communes": [
+    "Vouzan"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7809959098"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7809995244",
+   "enseigne": "La Goule",
+   "dep": "16",
+   "communes": [
+    "Foussignac"
+   ],
+   "adresses": [
+    "Rue de l'Église, 16800 Foussignac"
+   ],
+   "osm": [
+    "node/7809995244"
+   ],
+   "site": "http://la-goule.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/128988244",
+   "enseigne": "La Nouge",
+   "dep": "16",
+   "communes": [
+    "Salles-Lavalette"
+   ],
+   "adresses": [
+    "16190 Salles-Lavalette"
+   ],
+   "osm": [
+    "way/128988244"
+   ],
+   "site": "https://lanouge.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/58903884",
+   "enseigne": "Brasserie la Rainette",
+   "dep": "16",
+   "communes": [
+    "Chazelles"
+   ],
+   "adresses": [
+    "Rue du Moulin, 16380 Chazelles"
+   ],
+   "osm": [
+    "way/58903884"
+   ],
+   "site": "https://brasserie-larainette.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/65788299",
+   "enseigne": "Brasserie Big Hop",
+   "dep": "16",
+   "communes": [
+    "Saint-Brice"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/65788299"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/88434184",
+   "enseigne": "Brasserie des Gabariers",
+   "dep": "16",
+   "communes": [
+    "Plaizac"
+   ],
+   "adresses": [
+    "1 Rue du Sabotier, Plaizac"
+   ],
+   "osm": [
+    "way/88434184"
+   ],
+   "site": "https://www.brasserie-des-gabariers.fr",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/92100525",
+   "enseigne": "L'Ogre",
+   "dep": "16",
+   "communes": [
+    "Saint-Saturnin"
+   ],
+   "adresses": [
+    "8 Impasse du Trieur, 16290 Saint-Saturnin"
+   ],
+   "osm": [
+    "way/92100525"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

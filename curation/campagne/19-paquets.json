@@ -1,0 +1,176 @@
+[
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "BRASSERIE LA GOUGOUT'TE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "19",
+   "communes": [
+    "LIGINIAC"
+   ],
+   "adresses": [
+    "29 THEIL 19160 LIGINIAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910448067",
+   "enseigne": "L'ERMITE",
+   "dep": "19",
+   "communes": [
+    "SOURSAC"
+   ],
+   "adresses": [
+    "LIEU DIT ENGLAND RTE DE LAPLEAU 19550 SOURSAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:804522274",
+   "enseigne": "FONSECA FABRIQUE DE BIERES",
+   "dep": "19",
+   "communes": [
+    "OBJAT"
+   ],
+   "adresses": [
+    "AVENUE DU CONSEILLER COUDERT 19130 OBJAT"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:941423055",
+   "enseigne": "BRASSERIE TNT",
+   "dep": "19",
+   "communes": [
+    "BRIVE-LA-GAILLARDE"
+   ],
+   "adresses": [
+    "5 RUE ROBERT MARGERIT 19100 BRIVE-LA-GAILLARDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841568348",
+   "enseigne": "BRASSERIE DU CAUSSE",
+   "dep": "19",
+   "communes": [
+    "LARCHE"
+   ],
+   "adresses": [
+    "2 RUE DU FOUR 19600 LARCHE"
+   ],
+   "osm": [
+    "way/166604292"
+   ],
+   "site": "https://www.brasserieducausse.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:3",
+   "enseigne": "BRASSERIE DE LA VEZERE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "19",
+   "communes": [
+    "UZERCHE"
+   ],
+   "adresses": [
+    "2 ALLEE DE LA PAPETERIE 19140 UZERCHE"
+   ],
+   "osm": [
+    "node/8088298517"
+   ],
+   "site": "https://brasserie-vezere.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:520767187",
+   "enseigne": "GAILLARDE DIFFUSION",
+   "dep": "19",
+   "communes": [
+    "CHASTEAUX"
+   ],
+   "adresses": [
+    "475 ROUTE DE L'EPINGLE 19600 CHASTEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901658203",
+   "enseigne": "BRASSERIE DE LA BUSE",
+   "dep": "19",
+   "communes": [
+    "CHAMBERET"
+   ],
+   "adresses": [
+    "5 PLACE DU MARCHE 19370 CHAMBERET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:933952731",
+   "enseigne": "BRASSERIE PETIT MONDE",
+   "dep": "19",
+   "communes": [
+    "BASSIGNAC-LE-BAS"
+   ],
+   "adresses": [
+    "RUE DE BRETTE 19430 BASSIGNAC-LE-BAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922571773",
+   "enseigne": "BRASSERIE DE LA VEZERE",
+   "dep": "19",
+   "communes": [
+    "UZERCHE"
+   ],
+   "adresses": [
+    "2 ALLEE DE LA PAPETERIE 19140 UZERCHE"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  }
+ ],
+ [
+  {
+   "cle": "personne:6",
+   "enseigne": "BRASSERIE DES ANGES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "19",
+   "communes": [
+    "CHAMBOULIVE"
+   ],
+   "adresses": [
+    "PLACE DE LA CHAPELLE 19450 CHAMBOULIVE"
+   ],
+   "osm": [
+    "node/9361027139"
+   ],
+   "site": "https://brasseriedesanges.com/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:504624560",
+   "enseigne": "BRASSERIE CORREZIENNE",
+   "dep": "19",
+   "communes": [
+    "MARCILLAC-LA-CROZE"
+   ],
+   "adresses": [
+    "AU ROCH 19500 MARCILLAC-LA-CROZE"
+   ],
+   "osm": [
+    "node/5861421328"
+   ],
+   "site": "http://www.brasserie-correzienne.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

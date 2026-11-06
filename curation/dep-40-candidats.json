@@ -1,0 +1,777 @@
+[
+ {
+  "cle": "sirene:804689594",
+  "nom": "BRASSERIE DES PYRENEES",
+  "communes": [
+   "SOORTS-HOSSEGOR"
+  ],
+  "departement": "40",
+  "adresses": [
+   "ZONE ARTISANALE DE PEDEBERT 96 AVENUE DES COUTELIERS 40150 SOORTS-HOSSEGOR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "804689594",
+  "sirets": [
+   "80468959400021"
+  ],
+  "osm": [],
+  "lat": 43.671614924,
+  "lon": -1.385486308,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811120518",
+  "nom": "ROSNY BEER",
+  "communes": [
+   "SEIGNOSSE",
+   "CAPBRETON"
+  ],
+  "departement": "40",
+  "adresses": [
+   "BAT B LOCAL 3 705 ZA DE LARRIGAN 40510 SEIGNOSSE",
+   "AV DES BRUYERES HALLES DU PENON 40510 SEIGNOSSE",
+   "MARCHECOUVERT 2405 ALLEES MARINES 40130 CAPBRETON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "811120518",
+  "sirets": [
+   "81112051800014",
+   "81112051800022",
+   "81112051800030"
+  ],
+  "osm": [
+   "node/8589568892"
+  ],
+  "lat": 43.680881065,
+  "lon": -1.359893437,
+  "site": "https://www.rosny-beer.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830479812",
+  "nom": "BRASSERIE BRUEL",
+  "communes": [
+   "TARNOS"
+  ],
+  "departement": "40",
+  "adresses": [
+   "3 RUE DU HAMEAU DU CAMPOT 40220 TARNOS",
+   "79 AVENUE DU 1ER MAI 40220 TARNOS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830479812",
+  "sirets": [
+   "83047981200018",
+   "83047981200026"
+  ],
+  "osm": [
+   "node/6473153122"
+  ],
+  "lat": 43.548555995,
+  "lon": -1.484435639,
+  "site": "https://brasseriebruel.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:993235340",
+  "nom": "CALLIPYGE BREWING",
+  "communes": [
+   "LABASTIDE-D'ARMAGNAC"
+  ],
+  "departement": "40",
+  "adresses": [
+   "4 RUE DU PORTAIL 40240 LABASTIDE-D'ARMAGNAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "993235340",
+  "sirets": [
+   "99323534000011"
+  ],
+  "osm": [],
+  "lat": 43.970064429161,
+  "lon": -0.186377344212345,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:919284463",
+  "nom": "BRASSERIE LE PANDALCHIMISTE",
+  "communes": [
+   "PONTONX-SUR-L'ADOUR"
+  ],
+  "departement": "40",
+  "adresses": [
+   "3 RUE DE PION 40465 PONTONX-SUR-L'ADOUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "919284463",
+  "sirets": [
+   "91928446300016"
+  ],
+  "osm": [],
+  "lat": 43.801632585,
+  "lon": -0.91675932,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:978962041",
+  "nom": "LA MENAGERIE MICROBRASSERIE",
+  "communes": [
+   "SAINT-MARTIN-DE-SEIGNANX"
+  ],
+  "departement": "40",
+  "adresses": [
+   "NUMERO 25 RUE DE SOUSPESSE 40390 SAINT-MARTIN-DE-SEIGNANX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "978962041",
+  "sirets": [
+   "97896204100023"
+  ],
+  "osm": [
+   "node/13161763000"
+  ],
+  "lat": 43.5505268747565,
+  "lon": -1.41292862666748,
+  "site": "https://lamenageriemicrobrasserie.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "PIMBO"
+  ],
+  "departement": "40",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:814190674",
+  "nom": "KANAHA BEER",
+  "communes": [
+   "BISCARROSSE"
+  ],
+  "departement": "40",
+  "adresses": [
+   "143 RUE DE LA FERRONNERIE 40600 BISCARROSSE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814190674",
+  "sirets": [
+   "81419067400022"
+  ],
+  "osm": [
+   "node/12571154780"
+  ],
+  "lat": 44.3840307153494,
+  "lon": -1.143130227531,
+  "site": "https://www.kanahabeer.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830133393",
+  "nom": "BRASSERIE NATURELLE DES LANDES",
+  "communes": [
+   "LIT-ET-MIXE"
+  ],
+  "departement": "40",
+  "adresses": [
+   "85 RUE DU MOULIN 40170 LIT-ET-MIXE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830133393",
+  "sirets": [
+   "83013339300017"
+  ],
+  "osm": [
+   "node/12571199969"
+  ],
+  "lat": 44.030882508,
+  "lon": -1.255410933,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953338241",
+  "nom": "BRASSERIE UNE PETITE DERNIERE",
+  "communes": [
+   "SAINT-MARTIN-D'ONEY"
+  ],
+  "departement": "40",
+  "adresses": [
+   "291 ROUTE DE MONT DE MARSAN 40090 SAINT-MARTIN-D'ONEY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953338241",
+  "sirets": [
+   "95333824100011"
+  ],
+  "osm": [],
+  "lat": 43.930198979,
+  "lon": -0.649554009,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LABENNE"
+  ],
+  "departement": "40",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "LA VACHE A BIERE",
+  "communes": [
+   "SOUSTONS"
+  ],
+  "departement": "40",
+  "adresses": [
+   "QUARTIER LAUDOUAR AVENUE DE TRESBARATS 40140 SOUSTONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:992098772",
+  "nom": "KV BOISSONS",
+  "communes": [
+   "PONTONX-SUR-L'ADOUR"
+  ],
+  "departement": "40",
+  "adresses": [
+   "25 RUE DE PETCHE 40465 PONTONX-SUR-L'ADOUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "992098772",
+  "sirets": [
+   "99209877200013"
+  ],
+  "osm": [],
+  "lat": 43.7973418002089,
+  "lon": -0.929619773409154,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894850379",
+  "nom": "L'AGE DE BIERE",
+  "communes": [
+   "MONT-DE-MARSAN"
+  ],
+  "departement": "40",
+  "adresses": [
+   "1453 RUE DE LA FERME DE LARROUQUERE 40000 MONT-DE-MARSAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894850379",
+  "sirets": [
+   "89485037900013"
+  ],
+  "osm": [],
+  "lat": 43.9092736,
+  "lon": -0.462430268,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910193721",
+  "nom": "BRASSERIE DE BAHUS",
+  "communes": [
+   "BAHUS-SOUBIRAN"
+  ],
+  "departement": "40",
+  "adresses": [
+   "1 ROUTE D'EUGENIE 40320 BAHUS-SOUBIRAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "910193721",
+  "sirets": [
+   "91019372100016"
+  ],
+  "osm": [
+   "node/13031044491"
+  ],
+  "lat": 43.674259487,
+  "lon": -0.356915337,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951240035",
+  "nom": "MICROMEGAS MICROBRASSERIE",
+  "communes": [
+   "SAINT-PIERRE-DU-MONT"
+  ],
+  "departement": "40",
+  "adresses": [
+   "CENTRE COMMERCIAL GRAND MOUN 200 BOULEVARD OSCAR NIEMEYER 40280 SAINT-PIERRE-DU-MONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951240035",
+  "sirets": [
+   "95124003500018"
+  ],
+  "osm": [],
+  "lat": 43.8635180591401,
+  "lon": -0.479428730964617,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:514426576",
+  "nom": "SARL BRASSERIE AGUIANA",
+  "communes": [
+   "CAUNEILLE"
+  ],
+  "departement": "40",
+  "adresses": [
+   "LD LAREGLE 640 CHEMIN DE LAREGLE 40300 CAUNEILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "514426576",
+  "sirets": [
+   "51442657600021"
+  ],
+  "osm": [],
+  "lat": 43.544149327,
+  "lon": -1.072155675,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850234097",
+  "nom": "BRASSERIE ARTISANALE DE L ARMAGNAC",
+  "communes": [
+   "VILLENEUVE-DE-MARSAN"
+  ],
+  "departement": "40",
+  "adresses": [
+   "52 GRAND RUE 40190 VILLENEUVE-DE-MARSAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850234097",
+  "sirets": [
+   "85023409700028"
+  ],
+  "osm": [],
+  "lat": 43.892475066,
+  "lon": -0.305080755,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "TALLER"
+  ],
+  "departement": "40",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:993112556",
+  "nom": "CORNER BREWING",
+  "communes": [
+   "MESSANGES"
+  ],
+  "departement": "40",
+  "adresses": [
+   "LOCAL ZA9 101 CHEMIN DU PEY DE L'ANCRE 40660 MESSANGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "993112556",
+  "sirets": [
+   "99311255600010"
+  ],
+  "osm": [],
+  "lat": 43.7965390778186,
+  "lon": -1.38865513669719,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SAINT-ETIENNE-D'ORTHE"
+  ],
+  "departement": "40",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:980373419",
+  "nom": "LA GANG",
+  "communes": [
+   "BISCARROSSE"
+  ],
+  "departement": "40",
+  "adresses": [
+   "668 RUE DE LA FERRONNERIE 40600 BISCARROSSE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "980373419",
+  "sirets": [
+   "98037341900020"
+  ],
+  "osm": [
+   "node/12726113797"
+  ],
+  "lat": 44.381364087,
+  "lon": -1.139241389,
+  "site": "https://lagang.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:990528465",
+  "nom": "MASH PIT",
+  "communes": [
+   "SEIGNOSSE"
+  ],
+  "departement": "40",
+  "adresses": [
+   "ZAE DE LAUBIAN II 2 RUE DE L'ARROUN 40510 SEIGNOSSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "990528465",
+  "sirets": [
+   "99052846500018"
+  ],
+  "osm": [],
+  "lat": 43.6867736176263,
+  "lon": -1.35130311048754,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:513480491",
+  "nom": "VERTS CANYONS",
+  "communes": [
+   "VIELLE-SOUBIRAN"
+  ],
+  "departement": "40",
+  "adresses": [
+   "DOMAINE DE LUGAZAUT ROUTE DE PIJO 40240 VIELLE-SOUBIRAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "513480491",
+  "sirets": [
+   "51348049100028"
+  ],
+  "osm": [],
+  "lat": 44.0365778759151,
+  "lon": -0.155363726573745,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "ESCOURCE"
+  ],
+  "departement": "40",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:899131841",
+  "nom": "BRASSERIE DU BORN",
+  "communes": [
+   "MIMIZAN"
+  ],
+  "departement": "40",
+  "adresses": [
+   "4 PLACE DES ORMES 40200 MIMIZAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899131841",
+  "sirets": [
+   "89913184100012"
+  ],
+  "osm": [],
+  "lat": 44.203563076,
+  "lon": -1.228463646,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:827627944",
+  "nom": "MICROMEGAS MICROBRASSERIE",
+  "communes": [
+   "SAINT-SEVER"
+  ],
+  "departement": "40",
+  "adresses": [
+   "26 AVENUE DU GENERAL DE GAULLE 40500 SAINT-SEVER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "827627944",
+  "sirets": [
+   "82762794400016"
+  ],
+  "osm": [],
+  "lat": 43.765793579,
+  "lon": -0.570822011,
+  "statut": "doublon",
+  "fiche": "MICROMEGAS MICROBRASSERIE"
+ },
+ {
+  "cle": "node/12098838389",
+  "nom": "La Petite Landaise",
+  "communes": [
+   "Saint-Julien-en-Born"
+  ],
+  "departement": "40",
+  "adresses": [
+   "729 Route des Lacs, 40170 Saint-Julien-en-Born"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12098838389"
+  ],
+  "lat": 44.06774,
+  "lon": -1.2292,
+  "site": "https://lapetitelandaise.com/pages/la-brasserie/la-brasserie-msii4aup",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12551335591",
+  "nom": "Brasserie de Lugazaut",
+  "communes": [
+   "Vielle-Soubiran"
+  ],
+  "departement": "40",
+  "adresses": [
+   "Route de Losse, 40240 Vielle-Soubiran"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12551335591"
+  ],
+  "lat": 44.07841,
+  "lon": -0.15842,
+  "site": "https://www.brasseriedelugazaut.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12571210452",
+  "nom": "Brasserie Cath'",
+  "communes": [
+   "Labenne"
+  ],
+  "departement": "40",
+  "adresses": [
+   "7 Allée Artiguenave, 40530 Labenne"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12571210452"
+  ],
+  "lat": 43.61579,
+  "lon": -1.39564,
+  "site": "https://www.brasserie-cath.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7962427802",
+  "nom": "Brasserie Aguiana",
+  "communes": [
+   "Cauneille"
+  ],
+  "departement": "40",
+  "adresses": [
+   "640 Chemin de Laregle, 40300 Cauneille"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7962427802"
+  ],
+  "lat": 43.54428,
+  "lon": -1.07236,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8589568891",
+  "nom": "Brasserie La Séquère",
+  "communes": [
+   "Seignosse"
+  ],
+  "departement": "40",
+  "adresses": [
+   "2 Rue de l'Arroun, 40510 Seignosse"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8589568891"
+  ],
+  "lat": 43.68692,
+  "lon": -1.35129,
+  "site": "https://lasequere.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8752472171",
+  "nom": "L'Escource",
+  "communes": [
+   "Escource"
+  ],
+  "departement": "40",
+  "adresses": [
+   "7 Zone Artisanale Moulin de Haut, 40210 Escource"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8752472171"
+  ],
+  "lat": 44.16164,
+  "lon": -1.02451,
+  "site": "https://www.facebook.com/Brasserielescource/?__xts__[0]=68.ARCqcJTdQgEPEv4EyAPIoH34H9ubWldB-ZJAYzewOOzZSnZia8wF18BROvmJGHNVO9K7FKzeKK0_S4tCk0sdXsJASytRGVNcaUw5Vq4T4fqrCzqLHqH4FRJbrLSSf_1KAYiti_ecy1KH3mMMDpunc51Y7v2sUY8soxJ4yeehnHhUcq5U8tXpk90AlzfOOnoTz007",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9840854891",
+  "nom": "Centre de brassotherapie",
+  "communes": [
+   "Saint-Vincent-de-Tyrosse"
+  ],
+  "departement": "40",
+  "adresses": [
+   "28 Rue de Casablanca, 40230 Saint-Vincent-de-Tyrosse"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9840854891"
+  ],
+  "lat": 43.66766,
+  "lon": -1.27986,
+  "site": "https://brassotherapie.com/",
+  "statut": "nouveau"
+ }
+]

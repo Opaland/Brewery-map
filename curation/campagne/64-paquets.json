@@ -1,0 +1,714 @@
+[
+ [
+  {
+   "cle": "sirene:804689594",
+   "enseigne": "BRASSERIE DES PYRENEES",
+   "dep": "64",
+   "communes": [
+    "OGEU-LES-BAINS",
+    "BAYONNE",
+    "GAN"
+   ],
+   "adresses": [
+    "5 AVENUE DES FONTAINES 64680 OGEU-LES-BAINS",
+    "10 IMPASSE DES JONCS 64100 BAYONNE",
+    "4 ROUTE DE GELOS 64290 GAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984340216",
+   "enseigne": "BRASSERIE LA CHILLOSSA",
+   "dep": "64",
+   "communes": [
+    "BESCAT",
+    "ARUDY"
+   ],
+   "adresses": [
+    "29 CHEMIN HERRELORE 64260 BESCAT",
+    "RUE DES FOURS A CHAUX 64260 ARUDY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901942334",
+   "enseigne": "BRASSERIE PONTACUS",
+   "dep": "64",
+   "communes": [
+    "PONTACQ"
+   ],
+   "adresses": [
+    "6 PLACE SAINT-LAURENT 64530 PONTACQ",
+    "1 CHEMIN DE TITOU 64530 PONTACQ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841385198",
+   "enseigne": "ORIGIN'ALE",
+   "dep": "64",
+   "communes": [
+    "BILLERE",
+    "PAU"
+   ],
+   "adresses": [
+    "4 RUE DU FRONTON 64140 BILLERE",
+    "17 PLACE LAHERRERE 64000 PAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792411621",
+   "enseigne": "PRESSION PALOISE",
+   "dep": "64",
+   "communes": [
+    "LESCAR",
+    "POEY-DE-LESCAR"
+   ],
+   "adresses": [
+    "RUE DES FRERES WRIGHT 64230 LESCAR",
+    "22 CHEMIN D'ASPE 64230 POEY-DE-LESCAR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:2",
+   "enseigne": "SHAKESPEARE BIERE ARTISANALE ANGLAI (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "64",
+   "communes": [
+    "LAY-LAMIDOU",
+    "NAVARRENX"
+   ],
+   "adresses": [
+    "4 RUE DE LA HOUNT 64190 LAY-LAMIDOU",
+    "30 RUE SAINT-ANTOINE 64190 NAVARRENX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:938078664",
+   "enseigne": "KOSTALDEKO LOREAK",
+   "dep": "64",
+   "communes": [
+    "HENDAYE"
+   ],
+   "adresses": [
+    "RESIDENCE LA ESPERANZA 17 RUE DE LA LIBERATION 64700 HENDAYE",
+    "25 RUE DE L'INDUSTRIE 64700 HENDAYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:918170481",
+   "enseigne": "BRASPERIE",
+   "dep": "64",
+   "communes": [
+    "CETTE-EYGUN"
+   ],
+   "adresses": [
+    "6 RUE DU CRESTET 64490 CETTE-EYGUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:794218222",
+   "enseigne": "BRASSERIE BEARNAISE",
+   "dep": "64",
+   "communes": [
+    "PAU"
+   ],
+   "adresses": [
+    "12 RUE DU BALAITOUS 64000 PAU"
+   ],
+   "osm": [
+    "way/62881977"
+   ],
+   "site": "https://brasserie-bearnaise.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934640970",
+   "enseigne": "ETABLISSEMENT CLAVE",
+   "dep": "64",
+   "communes": [
+    "MONEIN"
+   ],
+   "adresses": [
+    "ZONE LOUPIEN 24 RUE DES ARTISANS 64360 MONEIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:822655304",
+   "enseigne": "PRODUCTION DE BIERES ARTISANALES FERRAND ET FILS",
+   "dep": "64",
+   "communes": [
+    "BILLERE"
+   ],
+   "adresses": [
+    "61 ROUTE DE BAYONNE 64140 BILLERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891403750",
+   "enseigne": "LA GRANGE",
+   "dep": "64",
+   "communes": [
+    "NOUSTY"
+   ],
+   "adresses": [
+    "13 RUE DE L'OUSSE 64420 NOUSTY"
+   ],
+   "osm": [
+    "node/10221392554"
+   ],
+   "site": "http://www.bieres-lagrange.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:879818219",
+   "enseigne": "BRASSERIE GREENWITCH",
+   "dep": "64",
+   "communes": [
+    "NARCASTET"
+   ],
+   "adresses": [
+    "15 RUE DU PIC DU MIDI 64510 NARCASTET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:929969277",
+   "enseigne": "MENDITSASO",
+   "dep": "64",
+   "communes": [
+    "LAHONCE"
+   ],
+   "adresses": [
+    "CENTRE HIRU-KASKO - ZAC DE LAHONCE 45 RUE GAILLAT 64990 LAHONCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814528725",
+   "enseigne": "LA BRASSERIE DU PAYS BASQUE",
+   "dep": "64",
+   "communes": [
+    "BARDOS"
+   ],
+   "adresses": [
+    "ZONE ETXECOLU 57 ROUTE DU MOULIN DE LA FERRERIE 64520 BARDOS"
+   ],
+   "osm": [
+    "way/891958877"
+   ],
+   "site": "https://brasseriedupaysbasque.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:818339434",
+   "enseigne": "KIXKIL OSTATUA",
+   "dep": "64",
+   "communes": [
+    "BAYONNE"
+   ],
+   "adresses": [
+    "42 RUE PANNECAU 64100 BAYONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820111953",
+   "enseigne": "LA SUPERBE",
+   "dep": "64",
+   "communes": [
+    "ANGLET"
+   ],
+   "adresses": [
+    "11 AVENUE DE L' ADOUR 64600 ANGLET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:492891130",
+   "enseigne": "ETXEKO BOB S BEER",
+   "dep": "64",
+   "communes": [
+    "HASPARREN"
+   ],
+   "adresses": [
+    "69 RUE FRANCIS JAMMES 64240 HASPARREN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841916786",
+   "enseigne": "BIPIL AGUERRIA",
+   "dep": "64",
+   "communes": [
+    "ESPELETTE"
+   ],
+   "adresses": [
+    "FERME AGUERRIA 640 KAMINOKO PATARRA 64250 ESPELETTE"
+   ],
+   "osm": [
+    "node/8676561636"
+   ],
+   "site": "https://www.bipil-aguerria.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901194167",
+   "enseigne": "ZIRTZIL",
+   "dep": "64",
+   "communes": [
+    "ANGLET"
+   ],
+   "adresses": [
+    "170 RUE DE HAUSQUETTE 64600 ANGLET"
+   ],
+   "osm": [
+    "node/11739431015"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:929569473",
+   "enseigne": "BADEIGTS",
+   "dep": "64",
+   "communes": [
+    "SAUVETERRE-DE-BEARN"
+   ],
+   "adresses": [
+    "1215 ROUTE D'ANDREIN 64390 SAUVETERRE-DE-BEARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:837839976",
+   "enseigne": "POTTIOK",
+   "dep": "64",
+   "communes": [
+    "SAINT-JEAN-PIED-DE-PORT"
+   ],
+   "adresses": [
+    "31 RUE SAINTE-EULALIE 64220 SAINT-JEAN-PIED-DE-PORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:421566530",
+   "enseigne": "BRASSERIE AKERBELTZ",
+   "dep": "64",
+   "communes": [
+    "ASCAIN"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE DE LARRE LORE 64310 ASCAIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:130066863",
+   "enseigne": "EZPEL GARAGARDOTEGIA",
+   "dep": "64",
+   "communes": [
+    "BIDART"
+   ],
+   "adresses": [
+    "RESIDENCE CAPERA 131 RUE DE LA CHAPELLE 64210 BIDART"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884566167",
+   "enseigne": "GERETX",
+   "dep": "64",
+   "communes": [
+    "LOUHOSSOA"
+   ],
+   "adresses": [
+    "MAISON CONDIAENIA 64250 LOUHOSSOA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:898997093",
+   "enseigne": "LUMA",
+   "dep": "64",
+   "communes": [
+    "SAINT-PALAIS"
+   ],
+   "adresses": [
+    "ZONE INDUSTRIELLE ORDOKIAN 64120 SAINT-PALAIS"
+   ],
+   "osm": [
+    "node/12643108386"
+   ],
+   "site": "https://brasserieluma.sumupstore.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:913091534",
+   "enseigne": "LES TETES BLANCHES",
+   "dep": "64",
+   "communes": [
+    "HIGUERES-SOUYE"
+   ],
+   "adresses": [
+    "IMPASSE MATOT 64160 HIGUERES-SOUYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:904614500",
+   "enseigne": "LALOKA",
+   "dep": "64",
+   "communes": [
+    "BAYONNE"
+   ],
+   "adresses": [
+    "18 AVENUE DUBROCQ 64100 BAYONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:939579462",
+   "enseigne": "BRASSERIE INDEPENDANTE L'INSOLENTE",
+   "dep": "64",
+   "communes": [
+    "GER"
+   ],
+   "adresses": [
+    "180 CHEMIN DE LA BACHE 64530 GER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:928113430",
+   "enseigne": "MCD BRASSERIE 1400",
+   "dep": "64",
+   "communes": [
+    "HAGETAUBIN"
+   ],
+   "adresses": [
+    "190 CHEMIN DE L'EGLISE DU BOURG 64370 HAGETAUBIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "personne:10",
+   "enseigne": "BRASSERIE KIPETT (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "64",
+   "communes": [
+    "BRISCOUS"
+   ],
+   "adresses": [
+    "ZA MENDIKO BORDA ROUTE D' HASPARREN 64240 BRISCOUS"
+   ],
+   "osm": [
+    "node/10004193960"
+   ],
+   "site": "http://www.brasseriekipett.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:827987371",
+   "enseigne": "B-U",
+   "dep": "64",
+   "communes": [
+    "PAU"
+   ],
+   "adresses": [
+    "9 RUE ADA BYRON 64000 PAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:950929026",
+   "enseigne": "BRASSERIE ARTZA",
+   "dep": "64",
+   "communes": [
+    "URCUIT"
+   ],
+   "adresses": [
+    "1044 ROUTE D' URT 64990 URCUIT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828792309",
+   "enseigne": "SARLU DE L'ARREC",
+   "dep": "64",
+   "communes": [
+    "ESTIALESCQ"
+   ],
+   "adresses": [
+    "68 CHEMIN CARRERE 64290 ESTIALESCQ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11825322720",
+   "enseigne": "Belharra",
+   "dep": "64",
+   "communes": [
+    "Bayonne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11825322720"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12231286488",
+   "enseigne": "La Clouque",
+   "dep": "64",
+   "communes": [
+    "Salies de Béarn"
+   ],
+   "adresses": [
+    "Chemin de Lagisquet, 64270 Salies de Béarn"
+   ],
+   "osm": [
+    "node/12231286488"
+   ],
+   "site": "https://clouque.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13204320712",
+   "enseigne": "La Superbe",
+   "dep": "64",
+   "communes": [
+    "Bayonne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13204320712"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/13739909896",
+   "enseigne": "Naba",
+   "dep": "64",
+   "communes": [
+    "Oloron-Sainte-Marie"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13739909896"
+   ],
+   "site": "https://microbrasseries-françaises.fr/Brasserie%20Naba.html",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/14119220135",
+   "enseigne": "Landberry Crew",
+   "dep": "64",
+   "communes": [
+    "Boucau"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/14119220135"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5101396406",
+   "enseigne": "DC Beer Factory",
+   "dep": "64",
+   "communes": [
+    "Arudy"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5101396406"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/5443350701",
+   "enseigne": "Taulèr",
+   "dep": "64",
+   "communes": [
+    "Arzacq-Arraziguet"
+   ],
+   "adresses": [
+    "18 Chemin des Écoles, 64410 Arzacq-Arraziguet"
+   ],
+   "osm": [
+    "node/5443350701"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6123880119",
+   "enseigne": "Brasserie La Fabbrica",
+   "dep": "64",
+   "communes": [
+    "Lescar"
+   ],
+   "adresses": [
+    "8 Rue Jean Jaurès, 64230 Lescar"
+   ],
+   "osm": [
+    "node/6123880119"
+   ],
+   "site": "https://www.carrefour-lescar.fr/boutique/brasserie-la-fabbrica/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6124679053",
+   "enseigne": "Les 3 Brasseurs",
+   "dep": "64",
+   "communes": [
+    "Lescar"
+   ],
+   "adresses": [
+    "180 Boulevard de l'Europe, 64230 Lescar"
+   ],
+   "osm": [
+    "node/6124679053"
+   ],
+   "site": "https://restaurants.3brasseurs.com/fr/s/brasseurs/pau-lescar/847",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/7359998794",
+   "enseigne": "Brasserie Greenwitch",
+   "dep": "64",
+   "communes": [
+    "Mazères-Lezons"
+   ],
+   "adresses": [
+    "8 Rue de l'Amitié"
+   ],
+   "osm": [
+    "node/7359998794"
+   ],
+   "site": "https://www.brasserie-greenwitch.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/8429026898",
+   "enseigne": "La Clique",
+   "dep": "64",
+   "communes": [
+    "Bidart"
+   ],
+   "adresses": [
+    "5 Rue Bazter, 64210 Bidart"
+   ],
+   "osm": [
+    "node/8429026898"
+   ],
+   "site": "https://brasserie-laclique.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/228272983",
+   "enseigne": "Le Mayabor",
+   "dep": "64",
+   "communes": [
+    "Bedous"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/228272983"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/232511958",
+   "enseigne": "Brasserie de l'Arrec",
+   "dep": "64",
+   "communes": [
+    "Estialescq"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/232511958"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/233511771",
+   "enseigne": "Akerbeltz",
+   "dep": "64",
+   "communes": [
+    "Licq-Athérey"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/233511771"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

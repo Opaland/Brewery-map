@@ -1,0 +1,372 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "ORADOUR-SUR-VAYRES"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:348394602",
+  "nom": "LE BRASSEUR",
+  "communes": [
+   "LIMOGES"
+  ],
+  "departement": "87",
+  "adresses": [
+   "8 PLACE DENIS DUSSOUBS 87000 LIMOGES",
+   "39 ALLEE DE FAUGERAS 87100 LIMOGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "348394602",
+  "sirets": [
+   "34839460200034",
+   "34839460200059"
+  ],
+  "osm": [],
+  "lat": 45.833210866,
+  "lon": 1.2559766903,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-SULPICE-LES-FEUILLES"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:883833618",
+  "nom": "BRASSERIE LA STOUR",
+  "communes": [
+   "RILHAC-LASTOURS"
+  ],
+  "departement": "87",
+  "adresses": [
+   "15 ROUTE DE NEXON 87800 RILHAC-LASTOURS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883833618",
+  "sirets": [
+   "88383361800019"
+  ],
+  "osm": [],
+  "lat": 45.671622692,
+  "lon": 1.124167511,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:930809116",
+  "nom": "BRASSERIE CHAT ROUX",
+  "communes": [
+   "BOSMIE-L AIGUILLE"
+  ],
+  "departement": "87",
+  "adresses": [
+   "4 RUE DE NEXON 87110 BOSMIE-L AIGUILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "930809116",
+  "sirets": [
+   "93080911600013"
+  ],
+  "osm": [],
+  "lat": 45.760348884,
+  "lon": 1.2115898866,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": "ARTI BRASSAGE 87",
+  "communes": [
+   "SAINT-SULPICE-LAURIERE"
+  ],
+  "departement": "87",
+  "adresses": [
+   "23 RUE DE LATHIERE 87370 SAINT-SULPICE-LAURIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "EYMOUTIERS"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "COUSSAC-BONNEVAL"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LA PORCHERIE"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINT JUNIEN"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:938017977",
+  "nom": "CRAFT BEER 87",
+  "communes": [
+   "RAZES"
+  ],
+  "departement": "87",
+  "adresses": [
+   "19 RUE DE LIMOGES 87640 RAZES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "938017977",
+  "sirets": [
+   "93801797700019"
+  ],
+  "osm": [],
+  "lat": 46.0284980176326,
+  "lon": 1.34466001648023,
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "sirene:910424464",
+  "nom": "BRASSERIE L'OBRADOR",
+  "communes": [
+   "COMPREIGNAC"
+  ],
+  "departement": "87",
+  "adresses": [
+   "1024 RTE DE VIEILLEVILLE 87140 COMPREIGNAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910424464",
+  "sirets": [
+   "91042446400014"
+  ],
+  "osm": [],
+  "lat": 45.983041012,
+  "lon": 1.2551010268,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:820178028",
+  "nom": "BRASSERIE BRAM",
+  "communes": [
+   "SAINT-LAURENT-LES-EGLISES"
+  ],
+  "departement": "87",
+  "adresses": [
+   "LEYCURAS 26 RTE DU BASSIN 87240 SAINT-LAURENT-LES-EGLISES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "820178028",
+  "sirets": [
+   "82017802800016"
+  ],
+  "osm": [
+   "node/8580585987"
+  ],
+  "lat": 0,
+  "lon": 0,
+  "site": "https://brasseriebram.org",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812050227",
+  "nom": "CERVA D OC",
+  "communes": [
+   "GORRE"
+  ],
+  "departement": "87",
+  "adresses": [
+   "LE MAS BUISSON 87310 GORRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812050227",
+  "sirets": [
+   "81205022700014"
+  ],
+  "osm": [],
+  "lat": 45.740154638,
+  "lon": 1.0079889255,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:808814131",
+  "nom": "BRASSERIE DE BEL AIR",
+  "communes": [
+   "SAINT-BONNET-DE-BELLAC"
+  ],
+  "departement": "87",
+  "adresses": [
+   "RN 147 BEL AIR 87300 SAINT-BONNET-DE-BELLAC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "808814131",
+  "sirets": [
+   "80881413100013"
+  ],
+  "osm": [
+   "node/9022756684"
+  ],
+  "lat": 46.151660725,
+  "lon": 0.9634315385,
+  "site": "http://www.biere-la-bergere.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "VAULRY"
+  ],
+  "departement": "87",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/9022692882",
+  "nom": "Bières Lémovice",
+  "communes": [
+   "Razès"
+  ],
+  "departement": "87",
+  "adresses": [
+   "12 Rue de Limoges, 87640 Razès"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9022692882"
+  ],
+  "lat": 46.02855,
+  "lon": 1.34476,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/70373966",
+  "nom": "Brasserie Michard",
+  "communes": [
+   "Panazol"
+  ],
+  "departement": "87",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/70373966"
+  ],
+  "lat": 45.85469,
+  "lon": 1.28763,
+  "site": "http://www.bieres-michard.com",
+  "statut": "nouveau"
+ }
+]

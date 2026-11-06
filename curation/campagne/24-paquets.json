@@ -1,0 +1,491 @@
+[
+ [
+  {
+   "cle": "sirene:812164135",
+   "enseigne": "LA CHAVAGN'",
+   "dep": "24",
+   "communes": [
+    "LES COTEAUX PERIGOURDINS",
+    "COLY-SAINT-AMAND"
+   ],
+   "adresses": [
+    "LA FAUCONNIE BASSE 24120 LES COTEAUX PERIGOURDINS",
+    "LE BOURG 24120 COLY-SAINT-AMAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818722746",
+   "enseigne": "BRASSERIE DES 3 CROQUANTS",
+   "dep": "24",
+   "communes": [
+    "BOULAZAC ISLE MANOIRE"
+   ],
+   "adresses": [
+    "PIARROT 14 IMP PIERRE CORNEILLE 24330 BOULAZAC ISLE MANOIRE",
+    "ZAE DE LANDRY 1499 ALL JACQUES DUCLOS 24330 BOULAZAC ISLE MANOIRE"
+   ],
+   "osm": [
+    "node/5063410058"
+   ],
+   "site": "https://www.brasseriedes3croquants.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:533628905",
+   "enseigne": "LA LUTINE DE LIMEUIL",
+   "dep": "24",
+   "communes": [
+    "LIMEUIL"
+   ],
+   "adresses": [
+    "RTE DU BUGUE 24510 LIMEUIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "EI PAPILLON VINCENT (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "24",
+   "communes": [
+    "MONTCARET"
+   ],
+   "adresses": [
+    "LE PINADA 16 ROUTE DU FAURE SOURD 24230 MONTCARET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978174761",
+   "enseigne": "BRASSERIE ARTISANALE PERIGORD VERT",
+   "dep": "24",
+   "communes": [
+    "TEYJAT"
+   ],
+   "adresses": [
+    "1287 ROUTE DU DOLMEN 24300 TEYJAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:841069636",
+   "enseigne": "FAB",
+   "dep": "24",
+   "communes": [
+    "SIORAC-DE-RIBERAC"
+   ],
+   "adresses": [
+    "RUE LE GRAND BOST 24600 SIORAC-DE-RIBERAC"
+   ],
+   "osm": [
+    "node/9827042984"
+   ],
+   "site": "https://www.fab-perigord.fr/fr/bieres-locales/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987848801",
+   "enseigne": "HAMM BRASSICOLE",
+   "dep": "24",
+   "communes": [
+    "EYMET"
+   ],
+   "adresses": [
+    "25 ROUTE DE BERGERAC 24500 EYMET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:929979581",
+   "enseigne": "KORMANN BIERES",
+   "dep": "24",
+   "communes": [
+    "LES EYZIES"
+   ],
+   "adresses": [
+    "582 ROUTE DE LA COMBE 24620 LES EYZIES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:837668359",
+   "enseigne": "DOBLA",
+   "dep": "24",
+   "communes": [
+    "SERVANCHES"
+   ],
+   "adresses": [
+    "LE BREUIL 24410 SERVANCHES"
+   ],
+   "osm": [
+    "node/7171939000"
+   ],
+   "site": "https://dobla.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833802168",
+   "enseigne": "BRASSERIE ARTISANALE L'EFFRONTEE",
+   "dep": "24",
+   "communes": [
+    "JUMILHAC-LE-GRAND"
+   ],
+   "adresses": [
+    "LD LE BOST 24630 JUMILHAC-LE-GRAND"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:890770282",
+   "enseigne": "BRASSERIE LA LIBELLULE",
+   "dep": "24",
+   "communes": [
+    "BERGERAC"
+   ],
+   "adresses": [
+    "4 ROUTE DE CORBIAC 24100 BERGERAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:817975659",
+   "enseigne": "SAS JYX",
+   "dep": "24",
+   "communes": [
+    "SARLAT-LA-CANEDA"
+   ],
+   "adresses": [
+    "ZI DE MADRAZES RUE BLAISE PASCAL 24200 SARLAT-LA-CANEDA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:817828544",
+   "enseigne": "LPLA",
+   "dep": "24",
+   "communes": [
+    "THIVIERS"
+   ],
+   "adresses": [
+    "16 RUE BERTRAN DE BORN 24800 THIVIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818316457",
+   "enseigne": "BRASSERIE CHAMPDORE",
+   "dep": "24",
+   "communes": [
+    "SARRAZAC"
+   ],
+   "adresses": [
+    "MOULIN DE BETOULE 24800 SARRAZAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984436162",
+   "enseigne": "ATELIER EPIC",
+   "dep": "24",
+   "communes": [
+    "BOULAZAC ISLE MANOIRE"
+   ],
+   "adresses": [
+    "4 AVENUE LUCIEN DUTARD 24750 BOULAZAC ISLE MANOIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:797611514",
+   "enseigne": "SARL BRASSERIE LAPEPIE",
+   "dep": "24",
+   "communes": [
+    "PLAISANCE"
+   ],
+   "adresses": [
+    "LES VALADES 24560 PLAISANCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:798722922",
+   "enseigne": "BAM",
+   "dep": "24",
+   "communes": [
+    "PERIGUEUX"
+   ],
+   "adresses": [
+    "105 RUE PIERRE MAGNE 24000 PERIGUEUX"
+   ],
+   "osm": [
+    "node/9161909200"
+   ],
+   "site": "https://www.bam-brasserie.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:12",
+   "enseigne": "BRASSERIE GRUNG (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "24",
+   "communes": [
+    "GRUN-BORDAS"
+   ],
+   "adresses": [
+    "IMPASSE DU CHATENET 24380 GRUN-BORDAS"
+   ],
+   "osm": [
+    "node/11716283969"
+   ],
+   "site": "http://grung-beer.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:815069950",
+   "enseigne": "BRASSERIE DU CHANOINE",
+   "dep": "24",
+   "communes": [
+    "HAUTEFORT"
+   ],
+   "adresses": [
+    "RUE DU CHANOINE GOUMET 24390 HAUTEFORT"
+   ],
+   "osm": [
+    "node/9025234745"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:817873144",
+   "enseigne": "LA BRASSERIE ARTISANALE DE SAINT SAUD",
+   "dep": "24",
+   "communes": [
+    "ST-SAUD-LACOUSSIERE"
+   ],
+   "adresses": [
+    "MOULIN DE MAZIERAS 24470 ST-SAUD-LACOUSSIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:830553459",
+   "enseigne": "LES 2 OURS",
+   "dep": "24",
+   "communes": [
+    "SAINT-MEDARD-DE-MUSSIDAN"
+   ],
+   "adresses": [
+    "ZI LES MAURIES RUE MARCEL JANET 24400 SAINT-MEDARD-DE-MUSSIDAN"
+   ],
+   "osm": [
+    "node/9826983413"
+   ],
+   "site": "https://shop.brasserie-les2ours.com/shop",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978451961",
+   "enseigne": "BERGERAC CRAFT BEERS",
+   "dep": "24",
+   "communes": [
+    "BERGERAC"
+   ],
+   "adresses": [
+    "BATIMENT 15 129 AVENUE ARISTIDE BRIAND 24100 BERGERAC"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:13",
+   "enseigne": "LA FRAICH (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "24",
+   "communes": [
+    "RIBAGNAC"
+   ],
+   "adresses": [
+    "CLAPIER HAUT 24240 RIBAGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877577965",
+   "enseigne": "BRASSERIE LA NOVE",
+   "dep": "24",
+   "communes": [
+    "BERGERAC"
+   ],
+   "adresses": [
+    "LE PONT ROUX EST BAT 5 SECTION CH NUM2 AVENUE ARISTIDE BRIAND 24100 BERGERAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10998481738",
+   "enseigne": "Biere de la Bastide",
+   "dep": "24",
+   "communes": [
+    "Monpazier"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/10998481738"
+   ],
+   "site": "https://bierebastide.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/13006964025",
+   "enseigne": "La Lutine",
+   "dep": "24",
+   "communes": [
+    "Limeuil"
+   ],
+   "adresses": [
+    "Route du Bugue, 24510 Limeuil"
+   ],
+   "osm": [
+    "node/13006964025"
+   ],
+   "site": "https://lalutine.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13742573701",
+   "enseigne": "La Croix du Rat",
+   "dep": "24",
+   "communes": [
+    "Saint-Cyprien"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13742573701"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2323337723",
+   "enseigne": "Brasseur",
+   "dep": "24",
+   "communes": [
+    "Le Bugue"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/2323337723"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6718353768",
+   "enseigne": "Brasserie Le Père l'Amer",
+   "dep": "24",
+   "communes": [
+    "Thiviers"
+   ],
+   "adresses": [
+    "23 Rue Bertrand de Born, 24800 Thiviers"
+   ],
+   "osm": [
+    "node/6718353768"
+   ],
+   "site": "https://leperelamer.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8980037448",
+   "enseigne": "Brasserie La Libellule",
+   "dep": "24",
+   "communes": [
+    "Eyraud-Crempse-Maurens"
+   ],
+   "adresses": [
+    "Rue des forgerons, 24140 Eyraud-Crempse-Maurens"
+   ],
+   "osm": [
+    "node/8980037448"
+   ],
+   "site": "https://brasserielalibellule.fr/",
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/9658108613",
+   "enseigne": "Brasserie Bière Artisanale",
+   "dep": "24",
+   "communes": [
+    "Sarlat-la-Canéda"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9658108613"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9826994939",
+   "enseigne": "Microbrasserie La Vagabonde",
+   "dep": "24",
+   "communes": [
+    "Villefranche-de-Lonchat"
+   ],
+   "adresses": [
+    "Le Montarut, 24610 Villefranche-de-Lonchat"
+   ],
+   "osm": [
+    "node/9826994939"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/443249876",
+   "enseigne": "La Plume et l'Épi",
+   "dep": "24",
+   "communes": [
+    "Grignols"
+   ],
+   "adresses": [
+    "Route Saint-Front de Bruc, 24110 Grignols"
+   ],
+   "osm": [
+    "way/443249876"
+   ],
+   "site": "https://www.plumepi.com/",
+   "statut": "ambigu"
+  }
+ ]
+]
