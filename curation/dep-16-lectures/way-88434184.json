@@ -1,0 +1,33 @@
+{
+ "candidat": "way/88434184",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Gabariers",
+   "c": "Rouillac",
+   "d": "16",
+   "lat": 45.75332,
+   "lon": -0.12332,
+   "km": 378.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Site officiel : l'outil de production est à Plaizac. Le site place la boutique et le bar (taproom « La Gabare ») au 39 rue de Bellefonds à Cognac, qui n'est pas cette adresse. Aucune page ne dit si l'on achète ou si l'on boit à Plaizac, donc catégorie 0. Aucun horaire publié. Le fichier SIRENE (sirene:502676323) liste aussi Cognac et Rouillac pour la même enseigne : à rapprocher de cette lecture.",
+   "addr": "1 rue du Sabotier, Plaizac, 16170 Rouillac",
+   "src": "https://www.brasserie-des-gabariers.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 45 32 42 70",
+    "site": "https://www.brasserie-des-gabariers.fr",
+    "source": "https://www.brasserie-des-gabariers.fr",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-des-gabariers.fr",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+du+Sabotier%2C+Plaizac%2C+16170+Rouillac&limit=5"
+  ],
+  "extrait": "BRASSERIE DES GABARIERS 1 rue du Sabotier 16170 Plaizac",
+  "choix": "Catégorie 1 écartée : la page « La Gabare » dit « à boire sur place ou à emporter », mais pour le bar de Cognac. Rien n'établit la vente à Plaizac. Les huit bières de la page boutique ne sont pas reprises, sans Untappd ni types lus. Aucun Untappd trouvé."
+ }
+}

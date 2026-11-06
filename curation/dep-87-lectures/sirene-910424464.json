@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:910424464",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie L'Obrador",
+   "c": "Compreignac",
+   "d": "87",
+   "lat": 45.98304,
+   "lon": 1.2551,
+   "km": 273.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe sur rendez-vous, d'après la fiche de l'office de tourisme (Visit Limousin). Pas de site officiel trouvé (Facebook et Instagram seulement).",
+   "addr": "1024 route de Vieilleville, 87140 Compreignac",
+   "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-lobrador-compreignac-en-6126544",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://en.visitlimousin.com/touristic_sheet/brasserie-lobrador-compreignac-en-6126544",
+   "https://data.geopf.fr/geocodage/search?q=1024+route+de+Vieilleville%2C+87140+Compreignac&limit=5"
+  ],
+  "extrait": "Direct sales by appointment.",
+  "choix": "Portable +33 6 56 68 84 85 lu sur l'office seulement : non repris (un portable doit venir de la brasserie). Horaires marqués « non sécurisés » : non repris. Lu via un résumé de la page."
+ }
+}

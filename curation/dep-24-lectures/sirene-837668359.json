@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:837668359",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Dobla",
+   "c": "Servanches",
+   "d": "24",
+   "lat": 45.13459,
+   "lon": 0.17037,
+   "km": 362.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale bio dans une ancienne ferme : vente directe à la brasserie, sur rendez-vous, d'après l'office de tourisme et le site. La dégustation n'a lieu qu'avec la visite.",
+   "addr": "635 route de la Dobla, Le Breuil, 24410 Servanches",
+   "src": "https://www.dordogne-perigord-tourisme.fr/offres/sas-brasserie-dobla-servanches-fr-2941635/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 82 28 02 98",
+    "site": "https://dobla.fr/",
+    "source": "https://dobla.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.dordogne-perigord-tourisme.fr/offres/sas-brasserie-dobla-servanches-fr-2941635/",
+   "https://dobla.fr/",
+   "https://data.geopf.fr/geocodage/search?q=635+route+de+la+Dobla%2C+Le+Breuil%2C+24410+Servanches&limit=5"
+  ],
+  "extrait": "Visites, dégustations et vente directe sur rendez-vous.",
+  "choix": "Confiance moyenne : la vente et la dégustation ne sont dites que par l'office, et sur rendez-vous ; le site officiel ne les confirme qu'en deux mots (« A la brasserie », « Sur rendez-vous »). Téléphone : dobla.fr publie deux portables (07 82 28 02 98 et 06 22 97 34 32), sans étiquette. Je retiens le premier, aussi présent dans le bloc de la brasserie sur l'office ; le second est écarté. Les deux sont des portables publiés par la brasserie. Pas d'horaires : seulement « Uniquement sur rendez-vous » toute l'année 2026. Bières citées par le site (La Blonda, Ambrée, Blancha, Fumée, Auberons, Nadau, Lo Canton) non reprises : types non lus. Untappd cherché, aucune page trouvée."
+ }
+}

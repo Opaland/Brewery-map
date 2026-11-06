@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:883833618",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Stour",
+   "c": "Rilhac-Lastours",
+   "d": "87",
+   "lat": 45.67164,
+   "lon": 1.12428,
+   "km": 282,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie ; boutique sur place avec bières en bouteille et location de tireuses. Source : fiche d'un office de tourisme seul (hors SIRENE) ; horaires non publiés (« non sécurisés »).",
+   "addr": "15 route de Nexon, 87800 Rilhac-Lastours",
+   "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 54 42 75 23",
+    "source": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+   "https://data.geopf.fr/geocodage/search?q=15+route+de+Nexon%2C+87800+Rilhac-Lastours&limit=5"
+  ],
+  "extrait": "On-site, discover the boutique, bottled beers (33 cl and 75 cl) and taps for hire for your events.",
+  "choix": "Deux numéros sur la fiche : le fixe 09 54 42 75 23 et un portable 06 09 57 39 42. Je retiens le fixe, car un portable lu sur un office ne vient pas de la brasserie. Catégorie 2 : la source parle de boutique et de bouteilles, pas de consommation sur place. Confiance moyenne, plafond d'un office. Lecture via un résumé de la page (WebFetch), pas page brute. Le site officiel et Untappd sont introuvables ; la page Facebook demande une connexion."
+ }
+}

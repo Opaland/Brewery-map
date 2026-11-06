@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:841568348",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Causse",
+   "c": "Larche",
+   "d": "19",
+   "lat": 45.12292,
+   "lon": 1.41453,
+   "km": 267.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Petite brasserie artisanale sur le Causse corrézien, avec un bar et une vente à emporter du lundi au samedi (site officiel). Le site donne la vente à emporter du lundi au samedi, de 10 h à 12 h et de 15 h à 19 h, et le bar jusqu'à 19 h (23 h le vendredi) ; le contrôle ne relit pas l'écriture « 10H - 12H », ces heures restent dans cette note.",
+   "addr": "2 rue du Four, 19600 Larche",
+   "src": "https://www.brasserieducausse.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 07 88 66 88",
+    "site": "https://www.brasserieducausse.fr/",
+    "source": "https://www.brasserieducausse.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserieducausse.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+du+Four%2C+19600+Larche&limit=5"
+  ],
+  "extrait": "Ouverture BAR LUNDI-JEUDI jusqu'à 19h VENDREDI jusqu'à 23h VENTE A EMPORTER",
+  "choix": "Le site officiel montre un bar et une section « VENTE A EMPORTER », mais ne dit pas explicitement que la bière est brassée sur place : confiance moyenne, pas solide. Deux mobiles publiés (06 07 88 66 88 et 06 71 39 61 39), je retiens le premier (celui qui est listé en premier). Les horaires du bar (« jusqu'à 19h », « jusqu'à 23h le vendredi ») n'ont pas d'heure d'ouverture, donc non repris. Dimanche non renseigné. Les bières sont citées par leur nom sans style, donc aucun type retenu. Aucune page Untappd trouvée. Lecture du site via un résumé (outil WebFetch), les passages ne sont pas confirmés mot pour mot."
+ }
+}

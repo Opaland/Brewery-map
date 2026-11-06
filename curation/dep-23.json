@@ -1,0 +1,153 @@
+{
+ "lot": "dep-23",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie La Kreuze",
+    "c": "Anzême",
+    "d": "23",
+    "lat": 46.23681,
+    "lon": 1.83159,
+    "km": 234.4,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Microbrasserie avec son espace de vente et de dégustation ; bar et vente à emporter le jeudi, le vendredi et le samedi ; visites sur rendez-vous.",
+    "addr": "2 Forges 23000 Anzême",
+    "src": "https://www.brasserielakreuze.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 50 14 01 48",
+     "site": "https://www.brasserielakreuze.fr/",
+     "source": "https://www.brasserielakreuze.fr/",
+     "verifieLe": "2026-11-06"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "22:00"
+       ]
+      ],
+      "sam": [
+       [
+        "15:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Visites guidées uniquement sur rendez-vous.",
+      "source": "https://www.brasserielakreuze.fr/",
+      "verifieLe": "2026-11-06"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.brasserielakreuze.fr/",
+    "https://data.geopf.fr/geocodage/search?q=2+Forges+23000+Anz%C3%AAme&limit=5"
+   ],
+   "extrait": "La Microbrasserie dispose de son propre espace de vente & de dégustation.",
+   "choix": "Site officiel lu via un résumé de la page. Types de bière non repris : Pale Ale (Ze Kreuze) et IPA (Ze KPA) sont cités sur le site, mais je n'ai pas vérifié la liste des types admis, donc beers reste vide. Aucun lien Untappd sur le site. Les horaires sont ceux du « Bar & Vente à emporter » ; je les range en accueil. Le portable 06 50 14 01 48 est la seule ligne publiée par la brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Sostra",
+    "c": "La Souterraine",
+    "d": "23",
+    "lat": 46.23862,
+    "lon": 1.49046,
+    "km": 260,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie existe (site officiel, bières listées, commande en ligne, location de fûts et de tireuses). Le site ne dit ni vente à emporter, ni dégustation, ni horaires : rien n'établit encore ce qu'on peut y faire.",
+    "addr": "7 rue de la Font aux Moines, 23300 La Souterraine",
+    "src": "https://www.brasserie-sostra.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserie-sostra.com/",
+     "source": "https://www.brasserie-sostra.com/",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.brasserie-sostra.com/",
+    "https://data.geopf.fr/geocodage/search?q=7+rue+de+la+Font+aux+Moines%2C+23300+La+Souterraine&limit=5"
+   ],
+   "extrait": "La bière artisanale de la Souterraine",
+   "choix": "Page lue via un résumé de WebFetch. Icône de téléphone sans numéro : aucun téléphone retenu. Pas d'Untappd (le site renvoie vers Facebook, qui ne vaut pas source). Catégorie 0 : « Passer commande » et la location de fûts ne disent pas qu'on peut acheter sur place. Types de bière lus (blonde, ambrée, IPA, noire, blanche, piment, framboise, triple), laissés hors de beers."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie du Plateau",
+    "c": "Aubusson",
+    "d": "23",
+    "lat": 45.9586,
+    "lon": 2.17319,
+    "km": 202.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale d'Aubusson ; sa boutique s'appelle « La Capsule ». Vente de bouteilles à la boutique d'après l'office de tourisme, qui ne parle pas de consommation sur place.",
+    "addr": "13 A rue Jules Sandeau, 23200 Aubusson",
+    "src": "https://www.tourisme-creuse.com/fr/offres/la-brasserie-du-plateau-aubusson-fr-2808034",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 55 67 51 37",
+     "site": "https://www.brasserieduplateau.fr",
+     "source": "https://www.brasserieduplateau.fr",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.tourisme-creuse.com/fr/offres/la-brasserie-du-plateau-aubusson-fr-2808034",
+    "https://www.brasserieduplateau.fr",
+    "https://data.geopf.fr/geocodage/search?q=13+A+rue+Jules+Sandeau%2C+23200+Aubusson&limit=5"
+   ],
+   "extrait": "Vous pourrez y acheter leurs bières bouteilles et limonade aux agrumes frais ou louer des tireuses avec fûts ou vous inscrire au stage individuel brassicole.",
+   "choix": "Pages lues via un résumé de WebFetch : l'extrait vient de la page de l'office. Le site officiel donne « 05 55 67 51 37 / 06 66 37 1000 » ; je retiens le fixe et j'écarte le portable (format différent entre le site, 06 66 37 1000, et l'office, 06 66 37 10 00). Confiance moyenne au plus : l'office est la seule source qui parle de vente ; le site officiel dit seulement « Boutique « La Capsule » ». Catégorie 2 et non 1 : aucune page lue ne dit qu'on boit sur place (la dégustation vue vient d'avis clients, écartée). Horaires non repris : l'office dit seulement « ouverte de mi avril au 25 août ». Pas d'Untappd trouvé. Types de bière (blonde, blanche, ambrée, rousse, brune) lus sur le site, hors beers. Le candidat SIRENE « La Capsule » est l'enseigne de la boutique de cette brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie des Monts de Guéret",
+    "c": "Guéret",
+    "d": "23",
+    "lat": 46.17578,
+    "lon": 1.89277,
+    "km": 228.2,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brasserie artisanale de Guéret. Espace de vente sur le site de production avec un coin dégustation, selon l'office de tourisme de la Creuse.",
+    "addr": "26 avenue du Bourbonnais 23000 Guéret",
+    "src": "https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "07 83 41 17 76",
+     "site": "https://www.brasseriemdg.com",
+     "source": "https://www.brasseriemdg.com",
+     "verifieLe": "2026-11-06"
+    }
+   },
+   "verifieLe": "2026-11-06",
+   "sources": [
+    "https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893",
+    "https://www.brasseriemdg.com",
+    "https://data.geopf.fr/geocodage/search?q=26+avenue+du+Bourbonnais+23000+Gu%C3%A9ret&limit=5"
+   ],
+   "extrait": "Store area on the production site, tasting corner",
+   "choix": "Pages lues via un résumé. L'office de tourisme donne la vente et la dégustation (confiance moyenne au plus). Le site officiel www.brasseriemdg.com ne dit rien de la vente ni des horaires. Les adresses se contredisent : l'office dit 4 rue Johannes Gutenberg ; le site officiel dit « 26 Avenue du Bourbonnais » (nouvelle adresse du site de production), et le siège SIRENE est 3 B allée de Chermentoux. J'ai retenu l'adresse du site officiel, à confirmer par Cédric. Le portable 07 83 41 17 76 est publié par la brasserie (« Service client ») sur son site, et c'est la seule ligne. Pas d'horaires (l'office les dit non vérifiés). Pas d'Untappd trouvé."
+  }
+ ]
+}

@@ -1,0 +1,837 @@
+[
+ {
+  "cle": "sirene:915308175",
+  "nom": "L'ELIXIR",
+  "communes": [
+   "CURZAY-SUR-VONNE",
+   "BOIVRE-LA-VALLEE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "3 ROUTE DE POITIERS 86600 CURZAY-SUR-VONNE",
+   "LIEUDIT NESDES - BENASSAY RUE DE L'ANCIENNE ECOLE 86470 BOIVRE-LA-VALLEE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "915308175",
+  "sirets": [
+   "91530817500016",
+   "91530817500024"
+  ],
+  "osm": [],
+  "lat": 46.491553135,
+  "lon": 0.0456725928,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892304189",
+  "nom": "BRASSERIE X POITOU",
+  "communes": [
+   "CHERVES",
+   "VOUILLE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "3 CHEMIN DE SAINT-HILAIRE 86170 CHERVES",
+   "45 T RUE GAMBETTA 86190 VOUILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892304189",
+  "sirets": [
+   "89230418900012",
+   "89230418900020"
+  ],
+  "osm": [],
+  "lat": 46.67810286,
+  "lon": 0.0015749233,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821920477",
+  "nom": "LES BIERES DE MONTMORILLON",
+  "communes": [
+   "MONTMORILLON"
+  ],
+  "departement": "86",
+  "adresses": [
+   "23 B RUE DES METIERS 86500 MONTMORILLON"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "821920477",
+  "sirets": [
+   "82192047700022"
+  ],
+  "osm": [
+   "way/126573178"
+  ],
+  "lat": 46.431871571,
+  "lon": 0.8991493937,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LINIERS"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "MOUSSAC"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:903106227",
+  "nom": "BRASSERIE DE L'ENVIGNE",
+  "communes": [
+   "SCORBE-CLAIRVAUX"
+  ],
+  "departement": "86",
+  "adresses": [
+   "1 CHEMIN DE L'ALLEE 86140 SCORBE-CLAIRVAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "903106227",
+  "sirets": [
+   "90310622700015"
+  ],
+  "osm": [],
+  "lat": 46.799078674,
+  "lon": 0.4139012166,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921819504",
+  "nom": "SAS EPIKUR MICROBRASSERIE",
+  "communes": [
+   "SAINT-PIERRE-DE-MAILLE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "7 RUE DES HAUTES HERBES 86260 SAINT-PIERRE-DE-MAILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921819504",
+  "sirets": [
+   "92181950400017"
+  ],
+  "osm": [],
+  "lat": 46.679527003,
+  "lon": 0.8365120437,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931163950",
+  "nom": "CROSSROADS",
+  "communes": [
+   "LUSIGNAN"
+  ],
+  "departement": "86",
+  "adresses": [
+   "10 B RUE DE LA ROCHE GROLLEAU 86600 LUSIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931163950",
+  "sirets": [
+   "93116395000013"
+  ],
+  "osm": [],
+  "lat": 46.4357907794295,
+  "lon": 0.116563945515911,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980752869",
+  "nom": "DUDE BEERS",
+  "communes": [
+   "JAUNAY-MARIGNY"
+  ],
+  "departement": "86",
+  "adresses": [
+   "4 RUE SOPHIE GERMAIN 86130 JAUNAY-MARIGNY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980752869",
+  "sirets": [
+   "98075286900019"
+  ],
+  "osm": [],
+  "lat": 46.685215228,
+  "lon": 0.3690952086,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "VALDIVIENNE"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:881271035",
+  "nom": "LITTLE BELGIQUE",
+  "communes": [
+   "POUANT"
+  ],
+  "departement": "86",
+  "adresses": [
+   "4 RUE DES HIRONDELLES 86200 POUANT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881271035",
+  "sirets": [
+   "88127103500019"
+  ],
+  "osm": [],
+  "lat": 47.008283387,
+  "lon": 0.2724762005,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:102397742",
+  "nom": "BRASSERIE ARCANE",
+  "communes": [
+   "ROIFFE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "4 RUE DU SOUVENIR 86120 ROIFFE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "102397742",
+  "sirets": [
+   "10239774200010"
+  ],
+  "osm": [],
+  "lat": 47.1219540590692,
+  "lon": 0.0524029131348068,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "LA FERRIERE-AIROUX"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "way/90672982"
+  ],
+  "site": "https://www.facebook.com/microbrasserie.lachinchee/",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914272612",
+  "nom": "TRIMOUSS",
+  "communes": [
+   "VEZIERES"
+  ],
+  "departement": "86",
+  "adresses": [
+   "LES TROIS MOUTIERS TROIS-MOUTIERS 32 AV ARISTIDE GIGOT 86120 VEZIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914272612",
+  "sirets": [
+   "91427261200013"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "CHAUNAY"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:898262654",
+  "nom": "BRASSERIE DIFRE",
+  "communes": [
+   "VALDIVIENNE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "89 ROUTE DE LUSSAC 86300 VALDIVIENNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "898262654",
+  "sirets": [
+   "89826265400012"
+  ],
+  "osm": [
+   "node/9952337919"
+  ],
+  "lat": 46.502948973,
+  "lon": 0.6405323349,
+  "site": "https://www.brasseriedifre.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:445152390",
+  "nom": "LA BRASSERIE DE BELLEFOIS",
+  "communes": [
+   "NEUVILLE-DE-POITOU"
+  ],
+  "departement": "86",
+  "adresses": [
+   "51 ROUTE DE CLAN 86170 NEUVILLE-DE-POITOU"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "445152390",
+  "sirets": [
+   "44515239000024"
+  ],
+  "osm": [
+   "way/84376276"
+  ],
+  "lat": 46.6861181915446,
+  "lon": 0.267847850463435,
+  "site": "http://www.brasserie-de-bellefois.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "ASLONNES"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:818608184",
+  "nom": "LA MANUFACTURE DE BIERES",
+  "communes": [
+   "POITIERS"
+  ],
+  "departement": "86",
+  "adresses": [
+   "146 AVENUE DU 8 MAI 1945 86000 POITIERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "818608184",
+  "sirets": [
+   "81860818400029"
+  ],
+  "osm": [
+   "node/6945486169"
+  ],
+  "lat": 46.5566707485022,
+  "lon": 0.308463018022868,
+  "site": "http://www.lamanufacturedebieres.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:814753745",
+  "nom": "PIRATES DU CLAIN",
+  "communes": [
+   "LIGUGE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "LA FILATURE AVENUE DE LA PLAGE 86240 LIGUGE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "814753745",
+  "sirets": [
+   "81475374500011"
+  ],
+  "osm": [
+   "node/6948670803"
+  ],
+  "lat": 46.515069144,
+  "lon": 0.3365806907,
+  "site": "http://piratesduclain.org/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889422622",
+  "nom": "ASSOCIATION DES BRASSEURS AMATEURS DE SAINT MARTIN LA PALLU",
+  "communes": [
+   "SAINT-MARTIN-LA-PALLU"
+  ],
+  "departement": "86",
+  "adresses": [
+   "MAIRIE DE SAINT MARTIN LA PALLU 15 RTE DE LENCLOITRE 86110 SAINT-MARTIN-LA-PALLU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889422622",
+  "sirets": [
+   "88942262200015"
+  ],
+  "osm": [],
+  "lat": 46.737006487,
+  "lon": 0.3087293803,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921536504",
+  "nom": "ABRICADABRAC(ASSOCIATION BRASSICOLE ET RECYCLERIE D'INITIATIVE CITOYENNE. ATELIERS D'ARTISTES, BRICOLEUR(SE)S, REVEUR(S",
+  "communes": [
+   "SAVIGNY-LEVESCAULT"
+  ],
+  "departement": "86",
+  "adresses": [
+   "7 DE TERCE 86800 SAVIGNY-LEVESCAULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921536504",
+  "sirets": [
+   "92153650400019"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838651206",
+  "nom": "BRASSERIE MANDON",
+  "communes": [
+   "SMARVES"
+  ],
+  "departement": "86",
+  "adresses": [
+   "5 CROIX DE LA CADOUE 86240 SMARVES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838651206",
+  "sirets": [
+   "83865120600016"
+  ],
+  "osm": [],
+  "lat": 46.506796258,
+  "lon": 0.3580795144,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE DU XIII",
+  "communes": [
+   "SAINT-GEORGES-LES-BAILLARGEAUX"
+  ],
+  "departement": "86",
+  "adresses": [
+   "34 ROUTE DE LA GRANDE BATONNIERE 86130 SAINT-GEORGES-LES-BAILLARGEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:909571069",
+  "nom": "CRAFTY BREWPUB BRASSERIE",
+  "communes": [
+   "LOUDUN"
+  ],
+  "departement": "86",
+  "adresses": [
+   "16 AVENUE DE OUAGADOUGOU 86200 LOUDUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "909571069",
+  "sirets": [
+   "90957106900014"
+  ],
+  "osm": [],
+  "lat": 47.017859678,
+  "lon": 0.0898193413,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908506140",
+  "nom": "BRASSERIE LA MOUJASSE",
+  "communes": [
+   "VIVONNE"
+  ],
+  "departement": "86",
+  "adresses": [
+   "2 B RUE DES SABLONS 86370 VIVONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908506140",
+  "sirets": [
+   "90850614000015"
+  ],
+  "osm": [],
+  "lat": 46.423779217,
+  "lon": 0.2504511453,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "SAINT-BENOIT"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "SAINT-LEGER-DE-MONTBRILLAIS"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "SAINT-JEAN-DE-SAUVES"
+  ],
+  "departement": "86",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:980713747",
+  "nom": "BRASSERIE LUMI",
+  "communes": [
+   "ORCHES"
+  ],
+  "departement": "86",
+  "adresses": [
+   "13 LA CROIX VILVERT 86230 ORCHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980713747",
+  "sirets": [
+   "98071374700015"
+  ],
+  "osm": [],
+  "lat": 46.88437103,
+  "lon": 0.3115557534,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13125383665",
+  "nom": "Crafty Brewpub (Loudun)",
+  "communes": [
+   "Loudun"
+  ],
+  "departement": "86",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13125383665"
+  ],
+  "lat": 47.01822,
+  "lon": 0.09003,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7775039591",
+  "nom": "La Nobilienne",
+  "communes": [
+   "Nouaillé-Maupertuis"
+  ],
+  "departement": "86",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7775039591"
+  ],
+  "lat": 46.51003,
+  "lon": 0.4216,
+  "site": "https://www.lanobilienne.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7806983112",
+  "nom": "Brasserie CLANDO",
+  "communes": [
+   "Brux"
+  ],
+  "departement": "86",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7806983112"
+  ],
+  "lat": 46.22237,
+  "lon": 0.17848,
+  "site": "https://www.facebook.com/La-brasserie-clando-1815673268657454/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8165808470",
+  "nom": "Thirsty Steves",
+  "communes": [
+   "Basses"
+  ],
+  "departement": "86",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8165808470"
+  ],
+  "lat": 47.03687,
+  "lon": 0.08738,
+  "site": "https://fr.thirstysteves.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9870554692",
+  "nom": "La Vol'Bière",
+  "communes": [
+   "Vouneuil-sur-Vienne"
+  ],
+  "departement": "86",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9870554692"
+  ],
+  "lat": 46.73482,
+  "lon": 0.50369,
+  "statut": "ambigu",
+  "fiche": "Microbrasserie VOL 56"
+ },
+ {
+  "cle": "way/40028301",
+  "nom": "Cluricaume BEOIR BrùPub",
+  "communes": [
+   "Poitiers"
+  ],
+  "departement": "86",
+  "adresses": [
+   "86000"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/40028301"
+  ],
+  "lat": 46.58351,
+  "lon": 0.34538,
+  "site": "https://cluricaumcafe.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/64158382",
+  "nom": "The Ginger Cat Brewery",
+  "communes": [
+   "Availles-Limouzine"
+  ],
+  "departement": "86",
+  "adresses": [
+   "5 Chemin du Paradis, 86460 Availles-Limouzine"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/64158382"
+  ],
+  "lat": 46.11855,
+  "lon": 0.65281,
+  "site": "https://www.facebook.com/thegingercatbrewery/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/742123366",
+  "nom": "3 Brasseurs",
+  "communes": [
+   "Poitiers"
+  ],
+  "departement": "86",
+  "adresses": [
+   "208 Avenue de Paris, 86000 Poitiers"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/742123366"
+  ],
+  "lat": 46.61452,
+  "lon": 0.35037,
+  "site": "https://www.3brasseurs.com/",
+  "statut": "ambigu",
+  "fiche": "3 Brasseurs La Roche-sur-Yon"
+ }
+]

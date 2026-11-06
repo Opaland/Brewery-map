@@ -1,0 +1,47 @@
+{
+ "candidat": "way/443249876",
+ "ajout": {
+  "fiche": {
+   "n": "La Plume et l'Épi",
+   "c": "Grignols",
+   "d": "24",
+   "lat": 45.08753,
+   "lon": 0.54581,
+   "km": 335.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Ferme-brasserie de bières paysannes biologiques. Le site officiel dit qu'on y déguste les bières et qu'on y achète en vente directe. Accueil le samedi de 14 h à 23 h, visites sur rendez-vous. Les horaires de la vente directe ne sont pas donnés.",
+   "addr": "153 route Saint-Front de Bruc, 24110 Grignols",
+   "src": "https://www.plumepi.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 98 41 35 83",
+    "site": "https://www.plumepi.com/",
+    "source": "https://www.plumepi.com/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.plumepi.com/",
+     "sam": [
+      [
+       "14:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Visites sur rendez-vous.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.plumepi.com/",
+   "https://data.geopf.fr/geocodage/search?q=153+route+Saint-Front+de+Bruc%2C+24110+Grignols&limit=5"
+  ],
+  "extrait": "La plume et l’épi vous accueille pour déguster les bières paysannes et pour découvrir les étapes de leur fabrication.",
+  "choix": "Le seul numéro publié est un portable (06 98 41 35 83), sur la page de la brasserie elle-même : repris selon la règle du 21/10. Il est aussi sur la fiche de l'office de tourisme Dordogne-Périgord, qui le donne en +33. Confiance moyenne : l'accueil du samedi est daté, mais la page ne dit pas les horaires de la vente à emporter et la dégustation à d'autres moments se fait sur rendez-vous. Bières saisonnières non listées en types. Aucune page Untappd trouvée."
+ }
+}

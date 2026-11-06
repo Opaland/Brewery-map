@@ -1,0 +1,106 @@
+{
+ "candidat": "sirene:798722922",
+ "ajout": {
+  "fiche": {
+   "n": "BAM Brasserie Artisanale du Périgord",
+   "c": "Périgueux",
+   "d": "24",
+   "lat": 45.17927,
+   "lon": 0.73785,
+   "km": 318.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Site officiel : une boutique ouverte du lundi au samedi et une taproom (espace de dégustation sur place) ouverte du mercredi au samedi en fin de journée.",
+   "addr": "105 rue Pierre Magne, 24000 Périgueux",
+   "src": "https://www.bam-brasserie.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 33 82 01 57",
+    "site": "https://www.bam-brasserie.fr/",
+    "source": "https://www.bam-brasserie.fr/contact",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.bam-brasserie.fr/",
+     "lun": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-06"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.bam-brasserie.fr/",
+     "mer": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.bam-brasserie.fr/",
+   "https://www.bam-brasserie.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=105+rue+Pierre+Magne%2C+24000+P%C3%A9rigueux&limit=5"
+  ],
+  "extrait": "du lundi au samedi de 14h à 18h.",
+  "choix": "Lu via un résumé de la page d'accueil. Les sections Boutique (vente) et Taproom (sur place) y sont distinctes, d'où la catégorie 1. Le téléphone vient de la page de contact du site officiel (« Brasserie BAM TAPROOM, 105 Rue Pierre Magne »). Aucun lien Untappd n'est publié sur le site, et la recherche n'en a pas trouvé. Les types de bière ne sont pas nommés (« gamme permanente » et « éphémères » seulement), donc beers est vide."
+ }
+}

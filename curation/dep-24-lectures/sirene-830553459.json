@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:830553459",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les 2 Ours",
+   "c": "Saint-Médard-de-Mussidan",
+   "d": "24",
+   "lat": 45.02257,
+   "lon": 0.3305,
+   "km": 353.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie avec boutique et vente à emporter d'après l'office de tourisme Dordogne-Périgord. Visites guidées sur rendez-vous seulement. Rien n'indique qu'on y boive sur place.",
+   "addr": "24 rue Marcel Janet, 24400 Saint-Médard-de-Mussidan",
+   "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-les-2-ours-saint-medard-de-mussidan-fr-3452540",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://shop.brasserie-les2ours.com/shop",
+    "source": "https://shop.brasserie-les2ours.com/shop",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-les-2-ours-saint-medard-de-mussidan-fr-3452540",
+   "https://shop.brasserie-les2ours.com/shop",
+   "https://data.geopf.fr/geocodage/search?q=Saint-M%C3%A9dard-de-Mussidan&type=municipality&limit=5"
+  ],
+  "extrait": "Boutique Vente à emporter",
+  "choix": "Lu via un résumé de l'office de tourisme : l'extrait est la formule rendue par le résumé, à vérifier sur la page. Office de tourisme : confiance moyenne au plus. Le téléphone de l'office pour cette fiche est un portable (06 63 86 51 00) donné par l'office, pas lu sur une page de la brasserie : écarté. Aucun horaire détaillé (la page dit « Horaires non garantis aujourd'hui »). Le site officiel (shop.brasserie-les2ours.com) n'a rendu que son titre « Beershop - Boutique en ligne de bières artisanales » : je ne le mets comme site que sur ce titre. brasserie-les2ours.com redirige vers un blog WordPress privé. Pas de page Untappd trouvée."
+ }
+}

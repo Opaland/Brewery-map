@@ -1,0 +1,523 @@
+[
+ [
+  {
+   "cle": "sirene:809680200",
+   "enseigne": "LE SHOP DES BIERES LA BEUN'AISE",
+   "dep": "17",
+   "communes": [
+    "AYTRE",
+    "LA ROCHELLE"
+   ],
+   "adresses": [
+    "13 RUE THALES 17440 AYTRE",
+    "BAT D 19 RUE DE L ARCHIMEDE 17000 LA ROCHELLE"
+   ],
+   "osm": [
+    "way/71919084"
+   ],
+   "site": "https://labeunaise.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:481055846",
+   "enseigne": "BIERES DE RE",
+   "dep": "17",
+   "communes": [
+    "SAINTE-MARIE-DE-RE",
+    "RIVEDOUX-PLAGE"
+   ],
+   "adresses": [
+    "HAUT DES PEUX BERTAUD 17740 SAINTE-MARIE-DE-RE",
+    "ZONE ARTISANALE FOND DU MARAIS 464 AVENUE DE SAINTE MARIE 17940 RIVEDOUX-PLAGE"
+   ],
+   "osm": [
+    "node/12178902877"
+   ],
+   "site": "https://www.bieresdere.fr/home/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848285607",
+   "enseigne": "BRASSERIE ILE ET ELLE",
+   "dep": "17",
+   "communes": [
+    "SAINT-PIERRE-D'OLERON"
+   ],
+   "adresses": [
+    "LOT ARTISANAL LE PERROTIN 140 ROUTE DES CHATELIERS 17310 SAINT-PIERRE-D'OLERON",
+    "59 RUE NORMAND D'AUTHON 17310 SAINT-PIERRE-D'OLERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:405112764",
+   "enseigne": "BRASSERIE LAMPEE BAUMGARTNER",
+   "dep": "17",
+   "communes": [
+    "LE BOIS-PLAGE-EN-RE",
+    "SAINTE-MARIE-DE-RE"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE 17580 LE BOIS-PLAGE-EN-RE",
+    "ZAC DES CLEMORINANTS 17740 SAINTE-MARIE-DE-RE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:985135797",
+   "enseigne": "L'ALMANACH",
+   "dep": "17",
+   "communes": [
+    "SAINT-MEDARD-D'AUNIS",
+    "LAGORD"
+   ],
+   "adresses": [
+    "ZA DE CROIX FORT 22 RUE DES RATONNIERES 17220 SAINT-MEDARD-D'AUNIS",
+    "MAISON DU PARC CHARIER 172 RUE DU PARC 17140 LAGORD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:949014369",
+   "enseigne": "BRASSERIE ROCHELOISE",
+   "dep": "17",
+   "communes": [
+    "PERIGNY"
+   ],
+   "adresses": [
+    "1 RUE ANDRE AMPERE 17180 PERIGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820387025",
+   "enseigne": "CHEZ AUGUSTE",
+   "dep": "17",
+   "communes": [
+    "LA ROCHELLE"
+   ],
+   "adresses": [
+    "9 PL DE LA PETITE SIRENE 17000 LA ROCHELLE",
+    "LE GABUT 10 PASSAGE DU DRAKKAR 17000 LA ROCHELLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849239215",
+   "enseigne": "BRASSERIE DES 3 PHARES",
+   "dep": "17",
+   "communes": [
+    "ROYAN",
+    "CHEVANCEAUX"
+   ],
+   "adresses": [
+    "37 BOULEVARD DE LA REPUBLIQUE 17200 ROYAN",
+    "LE FEYNARD 17210 CHEVANCEAUX"
+   ],
+   "osm": [
+    "node/7357375265"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848976999",
+   "enseigne": "LES PETITES RETHAISES",
+   "dep": "17",
+   "communes": [
+    "RIVEDOUX-PLAGE",
+    "SAINTE-MARIE-DE-RE"
+   ],
+   "adresses": [
+    "ZA DU FONDS DES MARAIS 191 RUE DES VARENNES 17940 RIVEDOUX-PLAGE",
+    "HAUT DES PEUX BERTAUD 17740 SAINTE-MARIE-DE-RE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814069076",
+   "enseigne": "SOMA",
+   "dep": "17",
+   "communes": [
+    "CHEVANCEAUX"
+   ],
+   "adresses": [
+    "LE FEYNARD 17210 CHEVANCEAUX"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:931046437",
+   "enseigne": "LA BRASSERIE WINTHER DAHL",
+   "dep": "17",
+   "communes": [
+    "SAINT-PALAIS-DE-PHIOLIN"
+   ],
+   "adresses": [
+    "5 RUE DE MONTGARNI 17800 SAINT-PALAIS-DE-PHIOLIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:819453358",
+   "enseigne": "BRASSEURS CUEILLEURS",
+   "dep": "17",
+   "communes": [
+    "LANDRAIS"
+   ],
+   "adresses": [
+    "ZONE FIEF DE LA POINTE 17290 LANDRAIS"
+   ],
+   "osm": [
+    "node/7419565007"
+   ],
+   "site": "https://brasseurscueilleurs.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:849414610",
+   "enseigne": "BRASSERIE GEORGETTE",
+   "dep": "17",
+   "communes": [
+    "SAINT-GEORGES-DE-DIDONNE"
+   ],
+   "adresses": [
+    "6 RUE AMPERE 17110 SAINT-GEORGES-DE-DIDONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:994736130",
+   "enseigne": "BDLP",
+   "dep": "17",
+   "communes": [
+    "ARVERT"
+   ],
+   "adresses": [
+    "1 RUE DES BOULEAUX 17530 ARVERT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901346163",
+   "enseigne": "LA RIBOTERIE",
+   "dep": "17",
+   "communes": [
+    "SAINT-VIVIEN"
+   ],
+   "adresses": [
+    "31 RUE DES TERRIERS 17220 SAINT-VIVIEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:834568842",
+   "enseigne": "LA BRASSERIE DE L'ILE D'AIX",
+   "dep": "17",
+   "communes": [
+    "ILE-D AIX (L )"
+   ],
+   "adresses": [
+    "CENTRE ARMAND FALLIERES 17123 ILE-D AIX (L )"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882753411",
+   "enseigne": "BRASSEURS AMATEURS ROCHELAIS",
+   "dep": "17",
+   "communes": [
+    "LA ROCHELLE"
+   ],
+   "adresses": [
+    "BAT 4. APP 963 12 PLACE DE L'EUROPE 17000 LA ROCHELLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:815309836",
+   "enseigne": "BOC17 BIERE ORIGINALE CHARENTAISE",
+   "dep": "17",
+   "communes": [
+    "PONT L'ABBE D'ARNOULT"
+   ],
+   "adresses": [
+    "ZAC DE LIAUSE 1 IMP NICOLAS APPERT 17250 PONT L'ABBE D'ARNOULT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:6",
+   "enseigne": "MARINADIET (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "17",
+   "communes": [
+    "SAINT-GEORGES-ANTIGNAC"
+   ],
+   "adresses": [
+    "13 CHEMIN DE CHEZ PETREAU 17240 SAINT-GEORGES-ANTIGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833209646",
+   "enseigne": "MICRO BRASSERIE OLERONNAISE SOIT MBO",
+   "dep": "17",
+   "communes": [
+    "LE CHATEAU-D'OLERON"
+   ],
+   "adresses": [
+    "4 RUE OMER CHARLET 17480 LE CHATEAU-D'OLERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:888886694",
+   "enseigne": "LES 3 PROMISES",
+   "dep": "17",
+   "communes": [
+    "NEUVICQ"
+   ],
+   "adresses": [
+    "3 PLACE DE L'EGLISE 17270 NEUVICQ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:928521749",
+   "enseigne": "ARCATOS",
+   "dep": "17",
+   "communes": [
+    "CHANIERS"
+   ],
+   "adresses": [
+    "10-12 IMPASSE DE LA TONNELLE 17610 CHANIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829775477",
+   "enseigne": "BRASSERIE LA CHAFOUINEUSE",
+   "dep": "17",
+   "communes": [
+    "SURGERES"
+   ],
+   "adresses": [
+    "4 RUE GASTON MIGAUD 17700 SURGERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:513362657",
+   "enseigne": "BRASSERIE FORT BOYARD",
+   "dep": "17",
+   "communes": [
+    "DOLUS-D'OLERON"
+   ],
+   "adresses": [
+    "LA JARRIE 6 RUE THOMAS EDISON 17550 DOLUS-D'OLERON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12101944206",
+   "enseigne": "Garvoul",
+   "dep": "17",
+   "communes": [
+    "Chamouillac"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12101944206"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12102009047",
+   "enseigne": "Petr'hops",
+   "dep": "17",
+   "communes": [
+    "Clion"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12102009047"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12102016907",
+   "enseigne": "La Tumult'tueuse",
+   "dep": "17",
+   "communes": [
+    "Plassac"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12102016907"
+   ],
+   "site": "https://www.facebook.com/profile.php?id=100088266777537",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7389055917",
+   "enseigne": "Science Infuse",
+   "dep": "17",
+   "communes": [
+    "La Rochelle"
+   ],
+   "adresses": [
+    "Avenue Michel Crépeau, 17000 La Rochelle"
+   ],
+   "osm": [
+    "node/7389055917"
+   ],
+   "site": "https://science-infuse.univ-lr.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7410540248",
+   "enseigne": "Brasserie Thiéfine",
+   "dep": "17",
+   "communes": [
+    "Breuil-la-Réorte"
+   ],
+   "adresses": [
+    "91 Rue des Cytises, 17700 Breuil-la-Réorte"
+   ],
+   "osm": [
+    "node/7410540248"
+   ],
+   "site": "https://www.bieres-thiefine.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7410599794",
+   "enseigne": "Casse cou",
+   "dep": "17",
+   "communes": [
+    "Charron"
+   ],
+   "adresses": [
+    "2B ZA du Peu Relevé, 17230 Charron"
+   ],
+   "osm": [
+    "node/7410599794"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/7947592803",
+   "enseigne": "La Rieuse",
+   "dep": "17",
+   "communes": [
+    "Nuaillé-d'Aunis"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7947592803"
+   ],
+   "site": "http://brasserie-larieuse.net",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9201769201",
+   "enseigne": "Brasserie Autrement",
+   "dep": "17",
+   "communes": [
+    "La Jarrie"
+   ],
+   "adresses": [
+    "22 Rue des Ratonnières"
+   ],
+   "osm": [
+    "node/9201769201"
+   ],
+   "site": "https://biereautrement.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9924713309",
+   "enseigne": "La Barbette",
+   "dep": "17",
+   "communes": [
+    "Saint-Martin-de-Ré"
+   ],
+   "adresses": [
+    "29 Avenue Victor Bouthillier, 17410 Saint-Martin-de-Ré"
+   ],
+   "osm": [
+    "node/9924713309"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/121610617",
+   "enseigne": "BOC 17",
+   "dep": "17",
+   "communes": [
+    "Pont-l'Abbé-d'Arnoult"
+   ],
+   "adresses": [
+    "1 Rue Nicolas Appert, 17250 Pont-l'Abbé-d'Arnoult"
+   ],
+   "osm": [
+    "way/121610617"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/67100059",
+   "enseigne": "Le Rive Droite",
+   "dep": "17",
+   "communes": [
+    "Saintes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/67100059"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

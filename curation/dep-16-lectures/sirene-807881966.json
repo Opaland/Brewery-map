@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:807881966",
+ "ajout": {
+  "fiche": {
+   "n": "CharentAles",
+   "c": "Paizay-Naudouin-Embourie",
+   "d": "16",
+   "lat": 46.04339,
+   "lon": 0.0163,
+   "km": 369.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie qui existe (site officiel). Le site cite des visites et un bar lors d'un événement, mais ne dit ni vente à emporter ni dégustation régulière sur place : à confirmer.",
+   "addr": "1 Chemin des Fayolles, 16240 Paizay-Naudouin-Embourie",
+   "src": "https://www.charentales.fr/fr/nos-services",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.charentales.fr",
+    "source": "https://www.charentales.fr/fr/contactez-nous",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.charentales.fr/fr/nos-services",
+   "https://www.charentales.fr/fr/contactez-nous",
+   "https://data.geopf.fr/geocodage/search?q=1+Chemin+des+Fayolles%2C+16240+Paizay-Naudouin-Embourie&limit=5"
+  ],
+  "extrait": "Vous serez invité à la brasserie pour rencontrer notre brasseur",
+  "choix": "Pas de téléphone, d'horaires ni de lien Untappd publiés sur le site (accueil, nos-services, contactez-nous) : rien proposé. Types vus sur l'accueil (Dark Ale, Best Bitter, IPA) non repris faute de source Untappd. Catégorie 0 : aucune phrase ne dit qu'on achète ou qu'on boit sur place en dehors d'un événement. Une page Trip.com parle de visites à 5 euros, écartée (agrégateur)."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:984436162",
+ "ajout": {
+  "fiche": {
+   "n": "Atelier Epic",
+   "c": "Boulazac Isle Manoire",
+   "d": "24",
+   "lat": 45.18397,
+   "lon": 0.78148,
+   "km": 314.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale de Boulazac, établie par son site. L'office de tourisme cite une boutique, sans passage exact lu : ce qu'on peut y faire reste à confirmer.",
+   "addr": "4 avenue Lucien Dutard, 24750 Boulazac Isle Manoire",
+   "src": "https://epic-brasserie.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 64 13 98 05",
+    "site": "https://epic-brasserie.fr",
+    "source": "https://epic-brasserie.fr",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://epic-brasserie.fr",
+   "https://data.geopf.fr/geocodage/search?q=4+avenue+Lucien+Dutard%2C+24750+Boulazac+Isle+Manoire&limit=5"
+  ],
+  "extrait": "Pour toutes demandes de locations de tireuses, ventes de bières et ateliers de brassage merci, de nous contacter via ce formulaire.",
+  "choix": "Lecture via un résumé. Téléphone : le site officiel epic-brasserie.fr affiche 05.64.13.98.05, un fixe, écrit « 05 64 13 98 05 » ici et retenu ; le lien téléphonique de la page pointe vers un portable (06 80 89 16 94), écarté. Horaires : l'office donne mar-mer 13h-18h et jeu-sam 14h-20h, un autre annuaire donne d'autres créneaux, et le site officiel n'en publie pas ; rien n'est proposé. Bières : aucun type publié. Le résumé de l'office ne cite pas de phrase sur la vente ou la dégustation ; l'extrait est la seule phrase citée, et la catégorie repose sur les rubriques « Visite-dégustation » et « Achat sur place à la boutique » rapportées par le résumé : à vérifier par Cédric."
+ }
+}

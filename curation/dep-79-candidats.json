@@ -1,0 +1,601 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": "BRASSERIE DE BELOUSIE",
+  "communes": [
+   "SAINTE-OUENNE",
+   "SURIN"
+  ],
+  "departement": "79",
+  "adresses": [
+   "24 ROUTE DES ECOLES 79220 SAINTE-OUENNE",
+   "18 CHEMIN DES BIRONNIERES 79220 SURIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813698214",
+  "nom": "LAPC",
+  "communes": [
+   "FORS"
+  ],
+  "departement": "79",
+  "adresses": [
+   "23 RUE DE LA MAIRIE 79230 FORS",
+   "41 ROUTE DE BEL AIR 79230 FORS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813698214",
+  "sirets": [
+   "81369821400026",
+   "81369821400034"
+  ],
+  "osm": [],
+  "lat": 46.234663831,
+  "lon": -0.409860302,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:803819416",
+  "nom": "LBC",
+  "communes": [
+   "COULON"
+  ],
+  "departement": "79",
+  "adresses": [
+   "2 RUE DU PORT DU BROUILLAC 79510 COULON",
+   "5 HAMEAU DE BAUDICHET 79510 COULON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "803819416",
+  "sirets": [
+   "80381941600014",
+   "80381941600022"
+  ],
+  "osm": [],
+  "lat": 46.3211200666597,
+  "lon": -0.591807867674523,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893832972",
+  "nom": "HAPPY MOUSSE",
+  "communes": [
+   "CLESSE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "LIEU-DIT MONGAZON 21 ROUTE DE MONCOUTANT 79350 CLESSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893832972",
+  "sirets": [
+   "89383297200028"
+  ],
+  "osm": [],
+  "lat": 46.717249972,
+  "lon": -0.411580977,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE DU VAL DE SEVRE",
+  "communes": [
+   "SALLES"
+  ],
+  "departement": "79",
+  "adresses": [
+   "10 IMPASSE FORTRANCHE 79800 SALLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914736459",
+  "nom": "QUATRE FILS",
+  "communes": [
+   "NIORT"
+  ],
+  "departement": "79",
+  "adresses": [
+   "39 RUE DE CASTEL PARC 79000 NIORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914736459",
+  "sirets": [
+   "91473645900019"
+  ],
+  "osm": [],
+  "lat": 46.335168113,
+  "lon": -0.478327417,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "COURS"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "AIRVAULT"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:883337875",
+  "nom": "STARMUST",
+  "communes": [
+   "MAULEON"
+  ],
+  "departement": "79",
+  "adresses": [
+   "6 RUE SAINT-MARTIN 79700 MAULEON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "883337875",
+  "sirets": [
+   "88333787500016"
+  ],
+  "osm": [],
+  "lat": 46.927203103,
+  "lon": -0.756189523,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": "LA CHATOUNETTE",
+  "communes": [
+   "PRAILLES-LA COUARDE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "PRAILLES LES CHAUMES EST 79370 PRAILLES-LA COUARDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "LA CHAMOISE",
+  "communes": [
+   "BESSINES"
+  ],
+  "departement": "79",
+  "adresses": [
+   "23 RUE DES CHARMES 79000 BESSINES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/7809030137"
+  ],
+  "site": "http://www.lachamoise.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952859924",
+  "nom": "BRASSERIE ZONE B",
+  "communes": [
+   "BRESSUIRE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "10 RUE DU MOULIN JACQUET 79300 BRESSUIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952859924",
+  "sirets": [
+   "95285992400013"
+  ],
+  "osm": [],
+  "lat": 46.833235851,
+  "lon": -0.477130204,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE SUBPTIL",
+  "communes": [
+   "MENIGOUTE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "11 RUE GASTON METOIS 79340 MENIGOUTE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "SAINTE-VERGE"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:106246861",
+  "nom": "EURL LA BELOUSIE",
+  "communes": [
+   "NIORT"
+  ],
+  "departement": "79",
+  "adresses": [
+   "9 RUE SAINTE CLAIRE DEVILLE 79000 NIORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "106246861",
+  "sirets": [
+   "10624686100012"
+  ],
+  "osm": [],
+  "lat": 46.3147580511609,
+  "lon": -0.496017282718022,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:808534374",
+  "nom": "LA GABARDE",
+  "communes": [
+   "CLESSE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "LA ROCHE GABARD 79350 CLESSE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "808534374",
+  "sirets": [
+   "80853437400018"
+  ],
+  "osm": [
+   "node/7809052902"
+  ],
+  "lat": 46.731691185,
+  "lon": -0.409083529,
+  "site": "https://www.lagabarde.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "ARGENTONNAY"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "ARGENTONNAY"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "NIORT"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "VOUHE"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "LE BOURDET"
+  ],
+  "departement": "79",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/2080309629",
+  "nom": "La minute blonde",
+  "communes": [
+   "Mauléon"
+  ],
+  "departement": "79",
+  "adresses": [
+   "Rue de Poitiers, 79700 Mauléon"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/2080309629"
+  ],
+  "lat": 46.92277,
+  "lon": -0.73899,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7809107709",
+  "nom": "La Saint Aubinaise",
+  "communes": [
+   "Saint-Aubin-de-Baubigné"
+  ],
+  "departement": "79",
+  "adresses": [
+   "41 Les Touches, 79700 Saint-Aubin-de-Baubigné"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7809107709"
+  ],
+  "lat": 46.9576,
+  "lon": -0.6574,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7809242017",
+  "nom": "La Brasserie Pelboise",
+  "communes": [
+   "MELLE"
+  ],
+  "departement": "79",
+  "adresses": [
+   "1 quater c Chemin de la Reine, 79500 MELLE"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7809242017"
+  ],
+  "lat": 46.22012,
+  "lon": -0.14008,
+  "site": "https://labrasseriepelboise.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8211273096",
+  "nom": "La Thouarsaise",
+  "communes": [
+   "Sainte-Verge"
+  ],
+  "departement": "79",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8211273096"
+  ],
+  "lat": 47.0103,
+  "lon": -0.24757,
+  "site": "http://www.lathouarsaise.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/102985744",
+  "nom": "Brasserie du Val de Sèvre",
+  "communes": [
+   "Pamproux"
+  ],
+  "departement": "79",
+  "adresses": [
+   "1 Chemin de la Croix d'Hervault, 79800 Pamproux"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/102985744"
+  ],
+  "lat": 46.39502,
+  "lon": -0.048,
+  "site": "http://www.brasserie-du-val-de-sevre.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DU VAL DE SEVRE"
+ },
+ {
+  "cle": "way/182423463",
+  "nom": "La Brasserie du Marais Poitevin",
+  "communes": [
+   "Coulon"
+  ],
+  "departement": "79",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/182423463"
+  ],
+  "lat": 46.32125,
+  "lon": -0.59168,
+  "site": "http://www.brasseriedumarais.fr/",
+  "statut": "ambigu",
+  "fiche": "La brasserie des Marais"
+ },
+ {
+  "cle": "way/64333936",
+  "nom": "Le Relais",
+  "communes": [
+   "Parthenay"
+  ],
+  "departement": "79",
+  "adresses": [
+   "97"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/64333936"
+  ],
+  "lat": 46.64596,
+  "lon": -0.24178,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/75474082",
+  "nom": "Brouette",
+  "communes": [
+   "Chanteloup"
+  ],
+  "departement": "79",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/75474082"
+  ],
+  "lat": 46.76566,
+  "lon": -0.5391,
+  "site": "http://www.brouette.eu",
+  "statut": "nouveau"
+ }
+]

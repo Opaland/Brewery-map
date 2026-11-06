@@ -1,0 +1,27 @@
+{
+ "candidat": "node/9022692882",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale Lémovice",
+   "c": "Razès",
+   "d": "87",
+   "lat": 46.0287,
+   "lon": 1.34468,
+   "km": 267,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières artisanales non filtrées La Lémovice ; vente directe sur rendez-vous, camion-restaurant et boutique sur le parking de mi-juin à mi-septembre (office de tourisme). Pas de site officiel trouvé (Facebook, Instagram).",
+   "addr": "19 rue de Limoges, 87640 Razès",
+   "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/brasserie-lemovice-razes-razes-en-4447683",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/brasserie-lemovice-razes-razes-en-4447683",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+de+Limoges%2C+87640+Raz%C3%A8s&limit=5"
+  ],
+  "extrait": "Direct sales by appointment.",
+  "choix": "Adresse 19 rue de Limoges (office, forum, accès libre) et non 12 comme dans OSM. Portable 06 87 94 21 65 lu sur l'office seulement : non repris. Horaires de l'office marqués « non sécurisés » : non repris. Gamme lue sur un forum, non reprise. Lu via un résumé."
+ }
+}

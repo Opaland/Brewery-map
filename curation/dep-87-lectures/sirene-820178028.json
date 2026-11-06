@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:820178028",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie BRÂM",
+   "c": "Saint-Laurent-les-Églises",
+   "d": "87",
+   "lat": 45.96338,
+   "lon": 1.46636,
+   "km": 256.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie rurale artisanale existante (site officiel). Le site ne donne ni adresse, ni téléphone, ni horaires ; ce qu'on peut y faire n'est pas établi (le site invite à passer sur place, sans dire la vente).",
+   "addr": "Leycuras, 26 route du Bassin, 87240 Saint-Laurent-les-Églises",
+   "src": "https://brasseriebram.org",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriebram.org",
+    "source": "https://brasseriebram.org",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseriebram.org",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Laurent-les-%C3%89glises&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie BRÂM Qui veut la paix prépare la bière",
+  "choix": "Page « nous contacter » (brasseriebram.org/nous-contacter/) : e-mail seulement, aucun numéro. Adresse venue de SIRENE (non lue sur le site). Extrait lu sur la page nous-contacter, pas sur la page d'accueil citée en source : à vérifier par Cédric. Lu via un résumé."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:809680200",
+ "ajout": {
+  "fiche": {
+   "n": "La Beun'aise",
+   "c": "Aytré",
+   "d": "17",
+   "lat": 46.12851,
+   "lon": -1.09237,
+   "km": 455.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie d'Aytré, établie par son site. Le site cite aussi un shop à La Rochelle et des horaires sans dire à quelle adresse ils valent : ce qu'on peut faire à Aytré reste à confirmer.",
+   "addr": "13 rue Thalès, 17440 Aytré",
+   "src": "https://labeunaise.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 17 81 05 15",
+    "site": "https://labeunaise.fr/",
+    "source": "https://labeunaise.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://labeunaise.fr/",
+   "https://data.geopf.fr/geocodage/search?q=13+rue+Thal%C3%A8s%2C+17440+Aytr%C3%A9&limit=5"
+  ],
+  "extrait": "La Beun'aise, une microbrasserie à taille humaine",
+  "choix": "Horaires non repris : le site donne « mardi-jeudi : 9h30-12h30 / 14h-18h … » sans dire s'ils valent pour Aytré ou pour le shop de La Rochelle (qui varie selon la saison). Adresse de la fiche = Aytré (13 rue Thalès), le site la lie aux horaires habituels sans la nommer brasserie. Le téléphone est celui que la brasserie publie (« Appelez-nous au 05 17 81 05 15 »). Pas de lien Untappd sur le site. Absent de data/."
+ }
+}

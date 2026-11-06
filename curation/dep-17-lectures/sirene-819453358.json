@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:819453358",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs Cueilleurs",
+   "c": "Landrais",
+   "d": "17",
+   "lat": 46.07036,
+   "lon": -0.8657,
+   "km": 437.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie en activité d'après son site officiel (gammes Plouf, BC, Brett et barriques, éphémères), qui renvoie vers une e-boutique et des bars partenaires. Aucune mention de vente à emporter, de dégustation ni de visite à la brasserie : ce qu'on peut y faire reste à confirmer.",
+   "addr": "ZA, Le Fief de la Pointe, 17290 Landrais",
+   "src": "https://brasseurscueilleurs.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseurscueilleurs.fr/",
+    "source": "https://brasseurscueilleurs.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseurscueilleurs.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Landrais&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie artisanale Landrais | Brasseurs Cueilleurs",
+  "choix": "Lecture via un résumé du site officiel. Les horaires « Du lundi au vendredi 09h30 - 18h00 » ne disent pas s'ils sont ceux d'un accueil du public : non repris. Téléphone non retenu : la page n'affiche que des portables rattachés à des personnes nommées (commercial, production, gestion), aucun numéro de la brasserie seule. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières, par exemple Marée Iodée), donc pas de lien Untappd."
+ }
+}

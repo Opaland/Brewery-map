@@ -1,0 +1,1005 @@
+[
+ [
+  {
+   "cle": "sirene:838936987",
+   "enseigne": "L'AUSTRALIEN PUB",
+   "dep": "33",
+   "communes": [
+    "HOURTIN",
+    "BORDEAUX",
+    "LACANAU"
+   ],
+   "adresses": [
+    "15 AVENUE JEAN LAFITTE 33990 HOURTIN",
+    "46 RUE BORIE 33300 BORDEAUX",
+    "43 RUE DU GENERAL DE GAULLE 33680 LACANAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824973770",
+   "enseigne": "G2B",
+   "dep": "33",
+   "communes": [
+    "HOSTENS",
+    "LE BARP"
+   ],
+   "adresses": [
+    "14 RUE DES LACS 33125 HOSTENS",
+    "5 CHEMIN DES BOULANGERS 33114 LE BARP"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:522040039",
+   "enseigne": "LE MASCARET",
+   "dep": "33",
+   "communes": [
+    "RIONS",
+    "LE BOUSCAT"
+   ],
+   "adresses": [
+    "LD PASCAUD RD 10 33410 RIONS",
+    "16 RUE CHARLES CANTE 33110 LE BOUSCAT"
+   ],
+   "osm": [
+    "node/7282069392"
+   ],
+   "site": "https://www.bieremascaret.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:851151084",
+   "enseigne": "AMBIANCE BIERE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX",
+    "CESTAS"
+   ],
+   "adresses": [
+    "39 RUE GEORGES BAZIADOLY 33200 BORDEAUX",
+    "5 IMPASSE DE LA BILLAOUDE 33610 CESTAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953003043",
+   "enseigne": "LA BRASSERIE DU PAON",
+   "dep": "33",
+   "communes": [
+    "LA LANDE-DE-FRONSAC",
+    "SAINT-GERVAIS"
+   ],
+   "adresses": [
+    "1005 ROUTE DE LANDECOTTE 33240 LA LANDE-DE-FRONSAC",
+    "3 RUE DE CANTEMERLE 33240 SAINT-GERVAIS"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "personne:1",
+   "enseigne": "ADRIEN LAGNEAUX (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "33",
+   "communes": [
+    "SAINT-SEURIN-DE-CADOURNE"
+   ],
+   "adresses": [
+    "12 RUE ELOI BORDEAU 33180 SAINT-SEURIN-DE-CADOURNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:990613127",
+   "enseigne": "L'ATELIER BIERE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "14 RUE DE LEYBARDIE 33300 BORDEAUX",
+    "28 RUE DU MIRAIL 33000 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:537573461",
+   "enseigne": "BRASSERIE ALIENOR",
+   "dep": "33",
+   "communes": [
+    "SAINT-GERVAIS",
+    "AMBARES-ET-LAGRAVE"
+   ],
+   "adresses": [
+    "RUE DE CANTEMERLE 33240 SAINT-GERVAIS",
+    "BAT A - CELLULE 5 RUE DE CHANTE-ALOUETTE 33440 AMBARES-ET-LAGRAVE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831481155",
+   "enseigne": "L'ATELIER BIERE",
+   "dep": "33",
+   "communes": [
+    "CENON",
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "BAT A APPT 115 8 RUE PIERRE BEREGOVOY 33150 CENON",
+    "28 RUE DU MIRAIL 33000 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  },
+  {
+   "cle": "sirene:881551345",
+   "enseigne": "WH LAB",
+   "dep": "33",
+   "communes": [
+    "VILLENAVE-D'ORNON"
+   ],
+   "adresses": [
+    "90 CHEMIN DE LEYRAN 33140 VILLENAVE-D'ORNON"
+   ],
+   "osm": [
+    "node/8084606137"
+   ],
+   "site": "https://brasserie.bio/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:878086388",
+   "enseigne": "Y'A UNE SORCIERE DANS MA BIERE",
+   "dep": "33",
+   "communes": [
+    "BARIE",
+    "LA REOLE"
+   ],
+   "adresses": [
+    "10 PIGNOT NORD 33190 BARIE",
+    "92 RUE ARMAND CADUC 33190 LA REOLE"
+   ],
+   "osm": [
+    "node/11104119702"
+   ],
+   "site": "https://fairemescourses.fr/la-reole/y-a-une-sorciere-dans-ma-biere-microbrasserie",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:889900775",
+   "enseigne": "LA FINE GUEULE 33",
+   "dep": "33",
+   "communes": [
+    "SAINT-GERMAIN-DU-PUCH"
+   ],
+   "adresses": [
+    "4 ROUTE DU LAVOIR 33750 SAINT-GERMAIN-DU-PUCH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:887905669",
+   "enseigne": "LA MOUSSE DES SABLES",
+   "dep": "33",
+   "communes": [
+    "ANDERNOS-LES-BAINS"
+   ],
+   "adresses": [
+    "13 RUE NICEPHORE NIEPCE 33510 ANDERNOS-LES-BAINS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "LA DEZUT (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "33",
+   "communes": [
+    "SAINT-SULPICE-ET-CAMEYRAC"
+   ],
+   "adresses": [
+    "LES SIX CHEMINS 26 ROUTE DE BOUCLON 33450 SAINT-SULPICE-ET-CAMEYRAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:102893187",
+   "enseigne": "BRASSIN AQUITAIN",
+   "dep": "33",
+   "communes": [
+    "MARTILLAC"
+   ],
+   "adresses": [
+    "CHEMIN DE LAGRANGE 33650 MARTILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:103965174",
+   "enseigne": "LES SOURCES DE LA SAUVETE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "32 RUE MARCELIN JOURDAN 33200 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:899732002",
+   "enseigne": "DUPONT EN FRANCE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "175 RUE DU TONDU 33000 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:898797519",
+   "enseigne": "BRASSERIE DU MAMMOUTH",
+   "dep": "33",
+   "communes": [
+    "TEUILLAC"
+   ],
+   "adresses": [
+    "46 ROUTE DES VIGNOBLES 33710 TEUILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909301699",
+   "enseigne": "BRASSERIE LA GIRONDE",
+   "dep": "33",
+   "communes": [
+    "MARTILLAC"
+   ],
+   "adresses": [
+    "4 CHEMIN DE LAGRANGE 33650 MARTILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "BHC (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "33",
+   "communes": [
+    "FOURS"
+   ],
+   "adresses": [
+    "6 CHEMIN DE L'AMITIE 33390 FOURS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:821152444",
+   "enseigne": "AZIMUT BRASSERIE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "5 AVENUE DU DOCTEUR SCHINAZI 33300 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820596104",
+   "enseigne": "BRASSERIE BURDIGALA",
+   "dep": "33",
+   "communes": [
+    "GRADIGNAN"
+   ],
+   "adresses": [
+    "9 RUE EUGENE BUHAN 33170 GRADIGNAN"
+   ],
+   "osm": [
+    "node/8851304034"
+   ],
+   "site": "https://bieredebordeaux.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:5",
+   "enseigne": "KM5 BIERE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "33",
+   "communes": [
+    "GENISSAC"
+   ],
+   "adresses": [
+    "1316 ROUTE DE MOULON 33420 GENISSAC"
+   ],
+   "osm": [
+    "node/10920203822"
+   ],
+   "site": "https://km5biere.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812987444",
+   "enseigne": "LA BRASSERIE DE LA LUNE",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "87 QUAI DES QUEYRIES 33100 BORDEAUX"
+   ],
+   "osm": [
+    "way/687181276"
+   ],
+   "site": "https://brasseurs-lalune.fr",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:824016158",
+   "enseigne": "NAUERA BIERES ET VINS",
+   "dep": "33",
+   "communes": [
+    "SAINT-LAURENT-MEDOC"
+   ],
+   "adresses": [
+    "LE TREYTIN 33112 SAINT-LAURENT-MEDOC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:885123323",
+   "enseigne": "HOUN",
+   "dep": "33",
+   "communes": [
+    "PRECHAC"
+   ],
+   "adresses": [
+    "1 RUE DE LA FRATERNITE 33730 PRECHAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882676083",
+   "enseigne": "BRASSERIE PROCYON",
+   "dep": "33",
+   "communes": [
+    "BAZAS"
+   ],
+   "adresses": [
+    "10 RUE MARCEL COURREGELONGUE 33430 BAZAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:894931468",
+   "enseigne": "LACA BOIATES",
+   "dep": "33",
+   "communes": [
+    "LA TESTE DE BUCH"
+   ],
+   "adresses": [
+    "160 AVENUE ANDRE AMPERE 33260 LA TESTE DE BUCH"
+   ],
+   "osm": [
+    "node/9457524155"
+   ],
+   "site": "https://www.lacaboiates.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:752273409",
+   "enseigne": "ICI ON BRASSE",
+   "dep": "33",
+   "communes": [
+    "AURIOLLES"
+   ],
+   "adresses": [
+    "6 LE BOURG NORD 33790 AURIOLLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882516461",
+   "enseigne": "LA PLAGISTE",
+   "dep": "33",
+   "communes": [
+    "VENSAC"
+   ],
+   "adresses": [
+    "2 RUE DU CIMETIERE 33590 VENSAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:812205912",
+   "enseigne": "LA P'TITE MARTIAL",
+   "dep": "33",
+   "communes": [
+    "BORDEAUX"
+   ],
+   "adresses": [
+    "40 RUE SURSON 33300 BORDEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:931565733",
+   "enseigne": "ASSOCIATION BRASS' DE L'EYRE",
+   "dep": "33",
+   "communes": [
+    "MIOS"
+   ],
+   "adresses": [
+    "15 PLACE DU 8 MAI 1945 33380 MIOS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921351219",
+   "enseigne": "BRASSERIE DE RIPAILLE",
+   "dep": "33",
+   "communes": [
+    "SAINT-MAGNE"
+   ],
+   "adresses": [
+    "RIPAILLE 20 ROUTE DE JOUE 33125 SAINT-MAGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830900650",
+   "enseigne": "MAD OCC'",
+   "dep": "33",
+   "communes": [
+    "MACAU"
+   ],
+   "adresses": [
+    "30 AVENUE DE LA GARE 33460 MACAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814010641",
+   "enseigne": "BRASSERIE DISTILLERIE DU CABESTAN",
+   "dep": "33",
+   "communes": [
+    "SAINTE-CROIX-DU-MONT"
+   ],
+   "adresses": [
+    "9 MOUNET SUD 33410 SAINTE-CROIX-DU-MONT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:822102794",
+   "enseigne": "LA 3 TERTRES BRASSERIE ARTISANALE",
+   "dep": "33",
+   "communes": [
+    "FRONSAC"
+   ],
+   "adresses": [
+    "3 CHEMIN DE RICHELIEU 33126 FRONSAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824767396",
+   "enseigne": "PIP",
+   "dep": "33",
+   "communes": [
+    "BEGLES"
+   ],
+   "adresses": [
+    "48 RUE FERDINAND BUISSON 33130 BEGLES"
+   ],
+   "osm": [
+    "node/9161952831"
+   ],
+   "site": "https://maisonpip.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948724083",
+   "enseigne": "OBREW",
+   "dep": "33",
+   "communes": [
+    "TAURIAC"
+   ],
+   "adresses": [
+    "11 CHEMIN DE LA PIERRIERE 33710 TAURIAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848768255",
+   "enseigne": "ORGE & TERROIR",
+   "dep": "33",
+   "communes": [
+    "SAINT-EMILION"
+   ],
+   "adresses": [
+    "LE BOIS DE L'OR 1374 ROUTE DE CASTILLON 33330 SAINT-EMILION"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:999405111",
+   "enseigne": "BRASSERIE LA PIMPINE",
+   "dep": "33",
+   "communes": [
+    "SADIRAC"
+   ],
+   "adresses": [
+    "22 CHEMIN DE BLAYET 33670 SADIRAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:789986288",
+   "enseigne": "BRASSERIE GARONA",
+   "dep": "33",
+   "communes": [
+    "SAINT-MEDARD-EN-JALLES"
+   ],
+   "adresses": [
+    "17 RUE DE BELFORT 33160 SAINT-MEDARD-EN-JALLES"
+   ],
+   "osm": [
+    "node/9163317608"
+   ],
+   "site": "https://www.bieregarona.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:943336156",
+   "enseigne": "SAS BCAE",
+   "dep": "33",
+   "communes": [
+    "CREON"
+   ],
+   "adresses": [
+    "48 BOULEVARD DE VERDUN 33670 CREON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914730171",
+   "enseigne": "MBF",
+   "dep": "33",
+   "communes": [
+    "SAINT-LOUBES"
+   ],
+   "adresses": [
+    "12 CHEMIN DE PELIGON 33450 SAINT-LOUBES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813811569",
+   "enseigne": "L.B.B",
+   "dep": "33",
+   "communes": [
+    "LE TEICH"
+   ],
+   "adresses": [
+    "5 Q RUE DU PONT 33470 LE TEICH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823331285",
+   "enseigne": "MICRO BRASSERIE B'S BAR",
+   "dep": "33",
+   "communes": [
+    "SAINT-MARTIN-DU-PUY"
+   ],
+   "adresses": [
+    "4 LD PENIC 33540 SAINT-MARTIN-DU-PUY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892743618",
+   "enseigne": "BRASSERIE RAINON",
+   "dep": "33",
+   "communes": [
+    "TAURIAC"
+   ],
+   "adresses": [
+    "10 ROUTE DU MEINE BERNARD 33710 TAURIAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884866997",
+   "enseigne": "BRASSERIE DU SABOT",
+   "dep": "33",
+   "communes": [
+    "VILLENAVE-D'ORNON"
+   ],
+   "adresses": [
+    "92 AVENUE FERNAND GRANET 33140 VILLENAVE-D'ORNON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910802461",
+   "enseigne": "LA FRACASSE COQUILLE",
+   "dep": "33",
+   "communes": [
+    "TALENCE"
+   ],
+   "adresses": [
+    "16 COURS MARECHAL GALLIENI 33400 TALENCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908704935",
+   "enseigne": "BRASSERIE ZEBRA",
+   "dep": "33",
+   "communes": [
+    "PREIGNAC"
+   ],
+   "adresses": [
+    "1 LA FEUILLEE 33210 PREIGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902130525",
+   "enseigne": "BRASSERIE JULIENS",
+   "dep": "33",
+   "communes": [
+    "BLANQUEFORT"
+   ],
+   "adresses": [
+    "15 RUE PIERRE ET MARIE CURIE 33290 BLANQUEFORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:899055115",
+   "enseigne": "BRASSERIE LA BULLE ENDORMIE",
+   "dep": "33",
+   "communes": [
+    "EYSINES"
+   ],
+   "adresses": [
+    "4 RUE DU DOCTEUR ROUX 33320 EYSINES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911906931",
+   "enseigne": "BRASSERIE VICTOIRE",
+   "dep": "33",
+   "communes": [
+    "GALGON"
+   ],
+   "adresses": [
+    "31 AVENUE FRANCOIS MITTERAND 33133 GALGON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:929707099",
+   "enseigne": "ALREM BRASSERIE",
+   "dep": "33",
+   "communes": [
+    "LE BOUSCAT"
+   ],
+   "adresses": [
+    "32 BOULEVARD DU MARECHAL LYAUTEY 33110 LE BOUSCAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:819497942",
+   "enseigne": "BRASSERIE MIRA",
+   "dep": "33",
+   "communes": [
+    "LA TESTE-DE-BUCH"
+   ],
+   "adresses": [
+    "370 AVENUE VULCAIN 33260 LA TESTE-DE-BUCH"
+   ],
+   "osm": [
+    "way/623724742"
+   ],
+   "site": "https://brasseriemira.fr/pub",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828206144",
+   "enseigne": "BRASSERIE L'EFFET PAPILLON",
+   "dep": "33",
+   "communes": [
+    "MERIGNAC"
+   ],
+   "adresses": [
+    "35 AVENUE GUSTAVE EIFFEL 33700 MERIGNAC"
+   ],
+   "osm": [
+    "node/8843313037"
+   ],
+   "site": "https://www.brasserieffetpapillon.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:948879820",
+   "enseigne": "ASSEMBLAGE",
+   "dep": "33",
+   "communes": [
+    "BEGLES"
+   ],
+   "adresses": [
+    "8 RUE BOUTEILLEY 33130 BEGLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839008786",
+   "enseigne": "TRIBU ZYTHA",
+   "dep": "33",
+   "communes": [
+    "ASQUES"
+   ],
+   "adresses": [
+    "6 RUE DE L''ECOLE 33240 ASQUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:520756859",
+   "enseigne": "BRASSERIE  GASCONHA",
+   "dep": "33",
+   "communes": [
+    "PESSAC"
+   ],
+   "adresses": [
+    "5 AVENUE LOUIS DE BROGLIE 33600 PESSAC"
+   ],
+   "osm": [
+    "way/754253082"
+   ],
+   "site": "https://www.gasconha.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:850897307",
+   "enseigne": "BRASSERIE CHAPOTE",
+   "dep": "33",
+   "communes": [
+    "CIVRAC-DE-BLAYE"
+   ],
+   "adresses": [
+    "19 CHAPEAU SUD 33920 CIVRAC-DE-BLAYE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852874353",
+   "enseigne": "EKKO",
+   "dep": "33",
+   "communes": [
+    "BRUGES"
+   ],
+   "adresses": [
+    "15 AV PERIE 33520 BRUGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/10113687349",
+   "enseigne": "Brasserie Rainon",
+   "dep": "33",
+   "communes": [
+    "villegouge"
+   ],
+   "adresses": [
+    "795 Route de Thouil, 33141 villegouge"
+   ],
+   "osm": [
+    "node/10113687349"
+   ],
+   "site": "https://www.brasserie-rainon.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/13740966269",
+   "enseigne": "Brasserie des pins",
+   "dep": "33",
+   "communes": [
+    "Cabanac-et-Villagrains"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13740966269"
+   ],
+   "site": "https://www.facebook.com/people/Brasserie-des-pins/100091645340604/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/2821554439",
+   "enseigne": "Brasserie Saint-Léon",
+   "dep": "33",
+   "communes": [
+    "Créon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/2821554439"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4095936257",
+   "enseigne": "Paris-Niort",
+   "dep": "33",
+   "communes": [
+    "Fronsac"
+   ],
+   "adresses": [
+    "34 Lieu-dit Loiseau, 33126 Fronsac"
+   ],
+   "osm": [
+    "node/4095936257"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4848490921",
+   "enseigne": "La treille Pessacaise",
+   "dep": "33",
+   "communes": [
+    "Pessac"
+   ],
+   "adresses": [
+    "11 Avenue Jean Jaurès, 33600 Pessac"
+   ],
+   "osm": [
+    "node/4848490921"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6993448509",
+   "enseigne": "Brasserie Le Saint Vivien",
+   "dep": "33",
+   "communes": [
+    "Bruges"
+   ],
+   "adresses": [
+    "493 Route du Médoc, 33520 Bruges"
+   ],
+   "osm": [
+    "node/6993448509"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7282082685",
+   "enseigne": "Azimut",
+   "dep": "33",
+   "communes": [
+    "Lormont"
+   ],
+   "adresses": [
+    "5 Avenue du Docteur Schinazi, 33000"
+   ],
+   "osm": [
+    "node/7282082685"
+   ],
+   "site": "https://www.azimutbrasserie.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8392078751",
+   "enseigne": "Brasserie du Sabot",
+   "dep": "33",
+   "communes": [
+    "Cadaujac"
+   ],
+   "adresses": [
+    "92 Avenue Fernand Granet"
+   ],
+   "osm": [
+    "node/8392078751"
+   ],
+   "site": "https://sabot.beer/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/365331314",
+   "enseigne": "Nauera",
+   "dep": "33",
+   "communes": [
+    "Saint-Laurent-Médoc"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/365331314"
+   ],
+   "site": "https://nauera.com",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -1,0 +1,33 @@
+{
+ "candidat": "way/128988244",
+ "ajout": {
+  "fiche": {
+   "n": "La Nouge",
+   "c": "Salles-Lavalette",
+   "d": "16",
+   "lat": 45.38578,
+   "lon": 0.23252,
+   "km": 353.7,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, bières présentées). Le site dit qu'elle ouvre le vendredi et sur rendez-vous, sans dire si l'on peut y acheter ou y boire.",
+   "addr": "Nougerede, 16190 Salles-Lavalette",
+   "src": "https://lanouge.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 62 83 04 95",
+    "site": "https://lanouge.fr/",
+    "source": "https://lanouge.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://lanouge.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Salles-Lavalette&type=municipality&limit=5"
+  ],
+  "extrait": "Ouvert le vendredi de 10h – 18h30",
+  "choix": "Pages lues via un résumé (accueil, bières, où nous trouver). Deux portables publiés par la brasserie, 06 62 83 04 95 et 07 67 74 65 69 : je retiens le premier (repris aussi par le guide de la Charente) ; c'est un mobile publié par la brasserie. Aucun fixe. Catégorie 1 ou 2 écartée : « vente directe » et l'entrée « Magasin » ne disent pas ce qu'on peut faire sur place. Sept autres bières omises (type non précisé ou hors liste). Pas d'Untappd trouvé."
+ }
+}

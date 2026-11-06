@@ -1,0 +1,297 @@
+[
+ {
+  "cle": "sirene:520939216",
+  "nom": "BRASSERIE MALTEO",
+  "communes": [
+   "LUSIGNAN-PETIT",
+   "COLAYRAC-SAINT-CIRQ"
+  ],
+  "departement": "47",
+  "adresses": [
+   "LD SOUS ROUQUETTE 47360 LUSIGNAN-PETIT",
+   "1337 AVENUE DE LA LIBERATION 47450 COLAYRAC-SAINT-CIRQ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "520939216",
+  "sirets": [
+   "52093921600013",
+   "52093921600021"
+  ],
+  "osm": [],
+  "lat": 44.250996554,
+  "lon": 0.5118929864,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:429261167",
+  "nom": "BRASSERIE NATURAL",
+  "communes": [
+   "PORT-SAINTE-MARIE"
+  ],
+  "departement": "47",
+  "adresses": [
+   "546 ROUTE DE LAGARRIGUE 47130 PORT-SAINTE-MARIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "429261167",
+  "sirets": [
+   "42926116700028"
+  ],
+  "osm": [],
+  "lat": 44.275339484948,
+  "lon": 0.398787767334951,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:891813859",
+  "nom": "LA BDZ",
+  "communes": [
+   "MIRAMONT-DE-GUYENNE"
+  ],
+  "departement": "47",
+  "adresses": [
+   "9 PLACE DE LA REPUBLIQUE 47800 MIRAMONT-DE-GUYENNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "891813859",
+  "sirets": [
+   "89181385900032"
+  ],
+  "osm": [],
+  "lat": 44.600919755,
+  "lon": 0.3630201549,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813114923",
+  "nom": "4.7 BRASSERIE",
+  "communes": [
+   "BOE"
+  ],
+  "departement": "47",
+  "adresses": [
+   "16 AV JEAN JAURES 47550 BOE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813114923",
+  "sirets": [
+   "81311492300036"
+  ],
+  "osm": [],
+  "lat": 44.176936075,
+  "lon": 0.6380087853,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "SISIWAK",
+  "communes": [
+   "ESPIENS"
+  ],
+  "departement": "47",
+  "adresses": [
+   "1326 ROUTE DE CALIGNAC 47600 ESPIENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "ALBRET ALES",
+  "communes": [
+   "NERAC"
+  ],
+  "departement": "47",
+  "adresses": [
+   "LA TUILERIE 3040 ROUTE DE CONDOM 47600 NERAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:919904805",
+  "nom": "NEVER WORK",
+  "communes": [
+   "MIRAMONT-DE-GUYENNE"
+  ],
+  "departement": "47",
+  "adresses": [
+   "7 PLACE DE LA REPUBLIQUE 47800 MIRAMONT-DE-GUYENNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "919904805",
+  "sirets": [
+   "91990480500018"
+  ],
+  "osm": [],
+  "lat": 44.6008844126494,
+  "lon": 0.362969737635502,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850073958",
+  "nom": "ZEBULL'IN BRASSERIE",
+  "communes": [
+   "PENNE-D'AGENAIS"
+  ],
+  "departement": "47",
+  "adresses": [
+   "1 BOULEVARD DE L'HORIZON 47140 PENNE-D'AGENAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850073958",
+  "sirets": [
+   "85007395800017"
+  ],
+  "osm": [],
+  "lat": 44.388445208,
+  "lon": 0.8183735052,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:914871223",
+  "nom": "BRASSERIE BON VOYAGE",
+  "communes": [
+   "FOULAYRONNES"
+  ],
+  "departement": "47",
+  "adresses": [
+   "ZONE ARTISANALE LE ROUGE 47510 FOULAYRONNES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "914871223",
+  "sirets": [
+   "91487122300022"
+  ],
+  "osm": [
+   "way/1095635179"
+  ],
+  "lat": 44.244855617,
+  "lon": 0.6409098016,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:818799496",
+  "nom": "HOPALE",
+  "communes": [
+   "FUMEL"
+  ],
+  "departement": "47",
+  "adresses": [
+   "2 AVENUE DE L'USINE 47500 FUMEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818799496",
+  "sirets": [
+   "81879949600026"
+  ],
+  "osm": [],
+  "lat": 44.492420046,
+  "lon": 0.9614501292,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:924383573",
+  "nom": "LA BRASSERIE DES 3 CEDRES",
+  "communes": [
+   "LACAUSSADE"
+  ],
+  "departement": "47",
+  "adresses": [
+   "LIEU-DIT VENDEGE 913 ROUTE DE VILLENEUVE 47150 LACAUSSADE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924383573",
+  "sirets": [
+   "92438357300012"
+  ],
+  "osm": [],
+  "lat": 44.49634419,
+  "lon": 0.8318555198,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8202331297",
+  "nom": "4.7 Brasserie",
+  "communes": [
+   "Estillac"
+  ],
+  "departement": "47",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8202331297"
+  ],
+  "lat": 44.1673,
+  "lon": 0.5917,
+  "statut": "ambigu",
+  "fiche": "4.7 BRASSERIE"
+ },
+ {
+  "cle": "node/9136083023",
+  "nom": "Natural Mystick",
+  "communes": [
+   "Bazens"
+  ],
+  "departement": "47",
+  "adresses": [
+   "Bourret"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9136083023"
+  ],
+  "lat": 44.27564,
+  "lon": 0.39889,
+  "site": "http://brasserienaturalmystick.fr/",
+  "statut": "nouveau"
+ }
+]

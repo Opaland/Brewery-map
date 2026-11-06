@@ -50,6 +50,12 @@ Restent 3, 4 et 5.
 - Sur la carte, le marqueur du 4 (violet `#6a3d9a`) et celui du 2 (bleu `#1d5f9a`) ne diffèrent que par la teinte (luminance 1,15:1, revue adverse) ; le libellé et la légende les distinguent. Même régime que le 1 et le 2 : une forme ou un signe par catégorie le réglerait pour toutes.
 - Questions à Cédric (persona) : le libellé du 4, et la catégorie d'un bar de brasserie dont la source ne parle pas de vente à emporter.
 
+## Restes de S347, première partie (06/11, issue #188)
+
+- À relancer (`campagne.ts relancer 16-r2` … `87-r2`) : Brasserie des Gabariers (son bar de Cognac), Big Hop, La Rainette, Fort Boyard, Garvoul, Science Infuse, Thiéfine, La Rieuse, Brasserie Autrement, Georgette, Petit Monde, La 23, La Chavagn', Les 3 Croquants, FAB, Grung, Bière de la Bastide, Champdoré, Michard.
+- Les guides commerciaux (guide-du-perigord.com, guide-de-la-correze.com, guide-charente-maritime.com) ressemblent à des offices mais sont des annuaires : la consigne des agents ne les nomme pas. À ajouter à la consigne avant la deuxième partie.
+- `outils/campagne.ts preparer` recopie l'enseigne SIRENE d'une entreprise individuelle dans `curation/campagne/<dép>-paquets.json`, et cette enseigne est parfois un nom de personne (24, `personne:3`). Rien n'en passe dans `data/`, mais le fichier est public : question à Cédric.
+
 ## Restes de S346, seconde partie (03/11, issue #187)
 
 - À relancer (`campagne.ts relancer 67-r2`, `68-r2`, `88-r2`) : Météor (Hochfelden) et la Brasserie de Saint-Pierre, dont les sites refusent la connexion depuis le conteneur ; La Narcose (429), Le Refuge (403), 3 Mâts ; La Houblonnière (page d'office en 500) ; Brasserie du Réservoir (502), Brasserie du Vallon (404), Nagala ; Brasserie du Pays des Lacs, La Bonlohi (pages d'office en 404), La Brass'Potes, Le Van à Bières (403).

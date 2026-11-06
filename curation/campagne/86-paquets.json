@@ -1,0 +1,445 @@
+[
+ [
+  {
+   "cle": "sirene:915308175",
+   "enseigne": "L'ELIXIR",
+   "dep": "86",
+   "communes": [
+    "CURZAY-SUR-VONNE",
+    "BOIVRE-LA-VALLEE"
+   ],
+   "adresses": [
+    "3 ROUTE DE POITIERS 86600 CURZAY-SUR-VONNE",
+    "LIEUDIT NESDES - BENASSAY RUE DE L'ANCIENNE ECOLE 86470 BOIVRE-LA-VALLEE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892304189",
+   "enseigne": "BRASSERIE X POITOU",
+   "dep": "86",
+   "communes": [
+    "CHERVES",
+    "VOUILLE"
+   ],
+   "adresses": [
+    "3 CHEMIN DE SAINT-HILAIRE 86170 CHERVES",
+    "45 T RUE GAMBETTA 86190 VOUILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821920477",
+   "enseigne": "LES BIERES DE MONTMORILLON",
+   "dep": "86",
+   "communes": [
+    "MONTMORILLON"
+   ],
+   "adresses": [
+    "23 B RUE DES METIERS 86500 MONTMORILLON"
+   ],
+   "osm": [
+    "way/126573178"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:903106227",
+   "enseigne": "BRASSERIE DE L'ENVIGNE",
+   "dep": "86",
+   "communes": [
+    "SCORBE-CLAIRVAUX"
+   ],
+   "adresses": [
+    "1 CHEMIN DE L'ALLEE 86140 SCORBE-CLAIRVAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921819504",
+   "enseigne": "SAS EPIKUR MICROBRASSERIE",
+   "dep": "86",
+   "communes": [
+    "SAINT-PIERRE-DE-MAILLE"
+   ],
+   "adresses": [
+    "7 RUE DES HAUTES HERBES 86260 SAINT-PIERRE-DE-MAILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:931163950",
+   "enseigne": "CROSSROADS",
+   "dep": "86",
+   "communes": [
+    "LUSIGNAN"
+   ],
+   "adresses": [
+    "10 B RUE DE LA ROCHE GROLLEAU 86600 LUSIGNAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980752869",
+   "enseigne": "DUDE BEERS",
+   "dep": "86",
+   "communes": [
+    "JAUNAY-MARIGNY"
+   ],
+   "adresses": [
+    "4 RUE SOPHIE GERMAIN 86130 JAUNAY-MARIGNY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881271035",
+   "enseigne": "LITTLE BELGIQUE",
+   "dep": "86",
+   "communes": [
+    "POUANT"
+   ],
+   "adresses": [
+    "4 RUE DES HIRONDELLES 86200 POUANT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:102397742",
+   "enseigne": "BRASSERIE ARCANE",
+   "dep": "86",
+   "communes": [
+    "ROIFFE"
+   ],
+   "adresses": [
+    "4 RUE DU SOUVENIR 86120 ROIFFE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "entrepreneur individuel sans enseigne : cherche par l’adresse, ne recopie aucun nom de personne",
+   "dep": "86",
+   "communes": [
+    "LA FERRIERE-AIROUX"
+   ],
+   "adresses": [],
+   "osm": [
+    "way/90672982"
+   ],
+   "site": "https://www.facebook.com/microbrasserie.lachinchee/",
+   "statut": "nom-a-etablir"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:914272612",
+   "enseigne": "TRIMOUSS",
+   "dep": "86",
+   "communes": [
+    "VEZIERES"
+   ],
+   "adresses": [
+    "LES TROIS MOUTIERS TROIS-MOUTIERS 32 AV ARISTIDE GIGOT 86120 VEZIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898262654",
+   "enseigne": "BRASSERIE DIFRE",
+   "dep": "86",
+   "communes": [
+    "VALDIVIENNE"
+   ],
+   "adresses": [
+    "89 ROUTE DE LUSSAC 86300 VALDIVIENNE"
+   ],
+   "osm": [
+    "node/9952337919"
+   ],
+   "site": "https://www.brasseriedifre.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:445152390",
+   "enseigne": "LA BRASSERIE DE BELLEFOIS",
+   "dep": "86",
+   "communes": [
+    "NEUVILLE-DE-POITOU"
+   ],
+   "adresses": [
+    "51 ROUTE DE CLAN 86170 NEUVILLE-DE-POITOU"
+   ],
+   "osm": [
+    "way/84376276"
+   ],
+   "site": "http://www.brasserie-de-bellefois.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818608184",
+   "enseigne": "LA MANUFACTURE DE BIERES",
+   "dep": "86",
+   "communes": [
+    "POITIERS"
+   ],
+   "adresses": [
+    "146 AVENUE DU 8 MAI 1945 86000 POITIERS"
+   ],
+   "osm": [
+    "node/6945486169"
+   ],
+   "site": "http://www.lamanufacturedebieres.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814753745",
+   "enseigne": "PIRATES DU CLAIN",
+   "dep": "86",
+   "communes": [
+    "LIGUGE"
+   ],
+   "adresses": [
+    "LA FILATURE AVENUE DE LA PLAGE 86240 LIGUGE"
+   ],
+   "osm": [
+    "node/6948670803"
+   ],
+   "site": "http://piratesduclain.org/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:889422622",
+   "enseigne": "ASSOCIATION DES BRASSEURS AMATEURS DE SAINT MARTIN LA PALLU",
+   "dep": "86",
+   "communes": [
+    "SAINT-MARTIN-LA-PALLU"
+   ],
+   "adresses": [
+    "MAIRIE DE SAINT MARTIN LA PALLU 15 RTE DE LENCLOITRE 86110 SAINT-MARTIN-LA-PALLU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:921536504",
+   "enseigne": "ABRICADABRAC(ASSOCIATION BRASSICOLE ET RECYCLERIE D'INITIATIVE CITOYENNE. ATELIERS D'ARTISTES, BRICOLEUR(SE)S, REVEUR(S",
+   "dep": "86",
+   "communes": [
+    "SAVIGNY-LEVESCAULT"
+   ],
+   "adresses": [
+    "7 DE TERCE 86800 SAVIGNY-LEVESCAULT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838651206",
+   "enseigne": "BRASSERIE MANDON",
+   "dep": "86",
+   "communes": [
+    "SMARVES"
+   ],
+   "adresses": [
+    "5 CROIX DE LA CADOUE 86240 SMARVES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "BRASSERIE DU XIII (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "86",
+   "communes": [
+    "SAINT-GEORGES-LES-BAILLARGEAUX"
+   ],
+   "adresses": [
+    "34 ROUTE DE LA GRANDE BATONNIERE 86130 SAINT-GEORGES-LES-BAILLARGEAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909571069",
+   "enseigne": "CRAFTY BREWPUB BRASSERIE",
+   "dep": "86",
+   "communes": [
+    "LOUDUN"
+   ],
+   "adresses": [
+    "16 AVENUE DE OUAGADOUGOU 86200 LOUDUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:908506140",
+   "enseigne": "BRASSERIE LA MOUJASSE",
+   "dep": "86",
+   "communes": [
+    "VIVONNE"
+   ],
+   "adresses": [
+    "2 B RUE DES SABLONS 86370 VIVONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980713747",
+   "enseigne": "BRASSERIE LUMI",
+   "dep": "86",
+   "communes": [
+    "ORCHES"
+   ],
+   "adresses": [
+    "13 LA CROIX VILVERT 86230 ORCHES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13125383665",
+   "enseigne": "Crafty Brewpub (Loudun)",
+   "dep": "86",
+   "communes": [
+    "Loudun"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13125383665"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7775039591",
+   "enseigne": "La Nobilienne",
+   "dep": "86",
+   "communes": [
+    "Nouaillé-Maupertuis"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7775039591"
+   ],
+   "site": "https://www.lanobilienne.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7806983112",
+   "enseigne": "Brasserie CLANDO",
+   "dep": "86",
+   "communes": [
+    "Brux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7806983112"
+   ],
+   "site": "https://www.facebook.com/La-brasserie-clando-1815673268657454/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/8165808470",
+   "enseigne": "Thirsty Steves",
+   "dep": "86",
+   "communes": [
+    "Basses"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8165808470"
+   ],
+   "site": "https://fr.thirstysteves.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9870554692",
+   "enseigne": "La Vol'Bière",
+   "dep": "86",
+   "communes": [
+    "Vouneuil-sur-Vienne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9870554692"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/40028301",
+   "enseigne": "Cluricaume BEOIR BrùPub",
+   "dep": "86",
+   "communes": [
+    "Poitiers"
+   ],
+   "adresses": [
+    "86000"
+   ],
+   "osm": [
+    "way/40028301"
+   ],
+   "site": "https://cluricaumcafe.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/64158382",
+   "enseigne": "The Ginger Cat Brewery",
+   "dep": "86",
+   "communes": [
+    "Availles-Limouzine"
+   ],
+   "adresses": [
+    "5 Chemin du Paradis, 86460 Availles-Limouzine"
+   ],
+   "osm": [
+    "way/64158382"
+   ],
+   "site": "https://www.facebook.com/thegingercatbrewery/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/742123366",
+   "enseigne": "3 Brasseurs",
+   "dep": "86",
+   "communes": [
+    "Poitiers"
+   ],
+   "adresses": [
+    "208 Avenue de Paris, 86000 Poitiers"
+   ],
+   "osm": [
+    "way/742123366"
+   ],
+   "site": "https://www.3brasseurs.com/",
+   "statut": "ambigu"
+  }
+ ]
+]

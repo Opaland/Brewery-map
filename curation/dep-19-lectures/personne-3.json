@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:3",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Vézère",
+   "c": "Uzerche",
+   "d": "19",
+   "lat": 45.42749,
+   "lon": 1.56443,
+   "km": 249.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Boutique de vente directe de toutes les bières et dégustation à la pression sur place, d'après le site de la brasserie.",
+   "addr": "2 allée de la Papeterie, 19140 Uzerche",
+   "src": "http://www.brasserie-vezere.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 55 73 11 56",
+    "site": "http://www.brasserie-vezere.fr/",
+    "source": "http://www.brasserie-vezere.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "http://www.brasserie-vezere.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+all%C3%A9e+de+la+Papeterie%2C+19140+Uzerche&limit=5"
+  ],
+  "extrait": "déguster sur place nos bières directement à la pression, au comptoir au pied des cuves ou en terrasse au bord de la rivière.",
+  "choix": "Lu via un résumé du site officiel (WebFetch). Horaires non proposés : le site donne un tableau d'été (avril à septembre) et un d'hiver (octobre à avril) dont les périodes se chevauchent en avril. Le résumé n'en garantit pas la lecture exacte, donc aucun bloc d'horaires. Le doublon sirene:922571773 (même adresse) est fondu ici. Aucune page Untappd trouvée sur le site (seulement Facebook et Instagram). Le site cite aussi un food-truck et un traiteur, mais le seul numéro lu est celui de la brasserie."
+ }
+}

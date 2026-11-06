@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:817873144",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Artisanale de Saint Saud (Périgord Beers)",
+   "c": "Saint-Saud-Lacoussière",
+   "d": "24",
+   "lat": 45.53729,
+   "lon": 0.83296,
+   "km": 305.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Site officiel : un coin dégustation dans la grange, à côté de la brasserie. La vente à emporter n'y est pas dite, d'où la confiance faible (réponse de Cédric du 29/10).",
+   "addr": "Saint-Saud-Lacoussière",
+   "src": "https://perigordbeers.com/fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 81 16 59 59",
+    "site": "https://perigordbeers.com/fr/",
+    "source": "https://perigordbeers.com/fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://perigordbeers.com/fr/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Saud-Lacoussi%C3%A8re&type=municipality&limit=5"
+  ],
+  "extrait": "avec un coin dégustation confortable, et, tout au cœur, elle contient la brasserie où nous créons nos bières.",
+  "choix": "Lu via un résumé. Le numéro 07 81 16 59 59 est un portable. C'est la seule ligne publiée par la brasserie, dans le pied de page « Nous Contacter » de son site : « Nous Contacter 0033 (0)7 81 16 59 59 ». Je l'ai réécrit avec des espaces. L'adresse vient du Guide du Périgord (un annuaire, pas la page officielle), qui la donne ainsi : Moulin de Mazieras, 668 route de la Brasserie. Écartés : l'horaire « vendredi 10h-17h » (annuaire seul), la boutique en ligne, et les numéros de L'Odyssée (un bar-brasserie de Saint-Saud, sans rapport). Aucun lien Untappd n'a été trouvé."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:533628905",
+ "ajout": {
+  "fiche": {
+   "n": "La Lutine de Limeuil",
+   "c": "Limeuil",
+   "d": "24",
+   "lat": 44.89381,
+   "lon": 0.90278,
+   "km": 313.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio de Limeuil. L'office de tourisme indique la vente à la propriété ; la dégustation n'a lieu qu'avec la visite.",
+   "addr": "1535 route de Saint Martin, 24510 Limeuil",
+   "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 53 57 47 80",
+    "site": "https://www.lalutine.com",
+    "source": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+   "https://data.geopf.fr/geocodage/search?q=1535+route+de+Saint+Martin%2C+24510+Limeuil&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Deux numéros publiés sur la fiche de l'office : le fixe 05 53 57 47 80 (retenu, c'est celui de la brasserie) et un mobile 06 84 99 52 49 (écarté, un fixe existe). Horaires non repris : la fiche donne des créneaux différents selon les périodes de l'année, avec la mention « Horaires non garantis aujourd'hui ». Catégorie 1 en confiance moyenne : vente sur place et dégustation lues sur un office seul ; le site officiel (lalutine.com) ne dit que les types de bière. Lecture via un résumé (WebFetch), pas la page brute : l'extrait est celui rapporté entre guillemets par le résumé, à recontrôler avant d'appliquer. Untappd non trouvé."
+ }
+}

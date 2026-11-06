@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:849239215",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des 3 Phares",
+   "c": "Royan",
+   "d": "17",
+   "lat": 45.62452,
+   "lon": -1.02664,
+   "km": 449.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bières brassées sur place, dégustation au milieu des cuves et boutique d'une quarantaine de références (fiche de l'office de tourisme Royan Atlantique).",
+   "addr": "37 boulevard de la République, 17200 Royan",
+   "src": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
+   "https://data.geopf.fr/geocodage/search?q=37+boulevard+de+la+R%C3%A9publique%2C+17200+Royan&limit=5"
+  ],
+  "extrait": "Sample our beers produced on site",
+  "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265. Le numéro de la fiche de l'office est écrit « +05 86 08 01 44 », d'un format douteux : non repris."
+ }
+}

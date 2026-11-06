@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:6",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Anges",
+   "c": "Chamboulive",
+   "d": "19",
+   "lat": 45.42427,
+   "lon": 1.7104,
+   "km": 238.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale. Visites sur rendez-vous, avec dégustation à la fin. Aucune vente sur place n'est dite par la source : catégorie à confirmer.",
+   "addr": "Place de la Chapelle, 19450 Chamboulive",
+   "src": "https://brasseriedesanges.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 77 05 72 17",
+    "site": "https://brasseriedesanges.com/",
+    "source": "https://brasseriedesanges.com/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseriedesanges.com/",
+   "https://data.geopf.fr/geocodage/search?q=Chamboulive&type=municipality&limit=5"
+  ],
+  "extrait": "Les visites se font sur rendez-vous, durent approximativement une heure",
+  "choix": "Catégorie 0 : le site parle de visite et de dégustation, pas de vente à la brasserie (les bières sont vendues dans plus de 30 magasins et en boutique en ligne). Le téléphone 07 77 05 72 17 est un portable, mais c'est la seule ligne publiée par la brasserie sur son site (règle du 21/10). L'office (guide-de-la-correze.com) donne « 3 place de la Chapelle », alors que le site donne « Place de la Chapelle » : j'ai gardé le site. Pas d'horaires publiés. Pas de page Untappd trouvée. Types de bière lus (blondes, brunes, ambrée, blanche, rousse, fruitée) mais sans liste détaillée au format attendu : beers laissé vide."
+ }
+}

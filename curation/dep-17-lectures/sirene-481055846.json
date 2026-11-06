@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:481055846",
+ "ajout": {
+  "fiche": {
+   "n": "Bières de Ré",
+   "c": "Sainte-Marie-de-Ré",
+   "d": "17",
+   "lat": 46.15542,
+   "lon": -1.33026,
+   "km": 473.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de l'île de Ré avec boutique sur place. Dégustation et horaires non publiés sur la page lue.",
+   "addr": "RD 201, Les Hauts des Peux Bertaud, 17740 Sainte-Marie-de-Ré",
+   "src": "https://www.bieresdere.fr/home/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 46 43 82 63",
+    "site": "https://www.bieresdere.fr/home/",
+    "source": "https://www.bieresdere.fr/home/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.bieresdere.fr/home/",
+   "https://data.geopf.fr/geocodage/search?q=Sainte-Marie-de-R%C3%A9&type=municipality&limit=5"
+  ],
+  "extrait": "Rendez-vous en boutique pour découvrir ces bières, et bien d'autres nouveautés.",
+  "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie : non créé à part. Absent de data/."
+ }
+}

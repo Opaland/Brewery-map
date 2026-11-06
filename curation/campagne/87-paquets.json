@@ -1,0 +1,163 @@
+[
+ [
+  {
+   "cle": "sirene:348394602",
+   "enseigne": "LE BRASSEUR",
+   "dep": "87",
+   "communes": [
+    "LIMOGES"
+   ],
+   "adresses": [
+    "8 PLACE DENIS DUSSOUBS 87000 LIMOGES",
+    "39 ALLEE DE FAUGERAS 87100 LIMOGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:883833618",
+   "enseigne": "BRASSERIE LA STOUR",
+   "dep": "87",
+   "communes": [
+    "RILHAC-LASTOURS"
+   ],
+   "adresses": [
+    "15 ROUTE DE NEXON 87800 RILHAC-LASTOURS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:930809116",
+   "enseigne": "BRASSERIE CHAT ROUX",
+   "dep": "87",
+   "communes": [
+    "BOSMIE-L AIGUILLE"
+   ],
+   "adresses": [
+    "4 RUE DE NEXON 87110 BOSMIE-L AIGUILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "ARTI BRASSAGE 87 (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "87",
+   "communes": [
+    "SAINT-SULPICE-LAURIERE"
+   ],
+   "adresses": [
+    "23 RUE DE LATHIERE 87370 SAINT-SULPICE-LAURIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:938017977",
+   "enseigne": "CRAFT BEER 87",
+   "dep": "87",
+   "communes": [
+    "RAZES"
+   ],
+   "adresses": [
+    "19 RUE DE LIMOGES 87640 RAZES"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:910424464",
+   "enseigne": "BRASSERIE L'OBRADOR",
+   "dep": "87",
+   "communes": [
+    "COMPREIGNAC"
+   ],
+   "adresses": [
+    "1024 RTE DE VIEILLEVILLE 87140 COMPREIGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:820178028",
+   "enseigne": "BRASSERIE BRAM",
+   "dep": "87",
+   "communes": [
+    "SAINT-LAURENT-LES-EGLISES"
+   ],
+   "adresses": [
+    "LEYCURAS 26 RTE DU BASSIN 87240 SAINT-LAURENT-LES-EGLISES"
+   ],
+   "osm": [
+    "node/8580585987"
+   ],
+   "site": "https://brasseriebram.org",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812050227",
+   "enseigne": "CERVA D OC",
+   "dep": "87",
+   "communes": [
+    "GORRE"
+   ],
+   "adresses": [
+    "LE MAS BUISSON 87310 GORRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808814131",
+   "enseigne": "BRASSERIE DE BEL AIR",
+   "dep": "87",
+   "communes": [
+    "SAINT-BONNET-DE-BELLAC"
+   ],
+   "adresses": [
+    "RN 147 BEL AIR 87300 SAINT-BONNET-DE-BELLAC"
+   ],
+   "osm": [
+    "node/9022756684"
+   ],
+   "site": "http://www.biere-la-bergere.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9022692882",
+   "enseigne": "Bières Lémovice",
+   "dep": "87",
+   "communes": [
+    "Razès"
+   ],
+   "adresses": [
+    "12 Rue de Limoges, 87640 Razès"
+   ],
+   "osm": [
+    "node/9022692882"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/70373966",
+   "enseigne": "Brasserie Michard",
+   "dep": "87",
+   "communes": [
+    "Panazol"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/70373966"
+   ],
+   "site": "http://www.bieres-michard.com",
+   "statut": "nouveau"
+  }
+ ]
+]
