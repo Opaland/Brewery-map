@@ -12,7 +12,7 @@
     "km": 379,
     "cat": 0,
     "conf": "",
-    "note": "Bière biologique brassée sur le domaine Pinard à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
+    "note": "Bière biologique brassée sur le domaine à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
     "addr": "8 rue de l'église, 16200 Foussignac",
     "src": "https://destination-cognac.com/?p=8861",
     "coordPrecision": "address",
@@ -216,7 +216,7 @@
     "km": 353.7,
     "cat": 0,
     "conf": "",
-    "note": "La brasserie existe (site officiel, bières présentées) et est ouverte le vendredi de 10h à 18h30, sur rendez-vous les autres jours. Le site parle de vente directe sans dire si l'on peut acheter ou boire sur place : la page « Magasin » n'a pas pu être lue.",
+    "note": "La brasserie existe (site officiel, bières présentées). Le site dit qu'elle ouvre le vendredi et sur rendez-vous, sans dire si l'on peut y acheter ou y boire.",
     "addr": "Nougerede, 16190 Salles-Lavalette",
     "src": "https://lanouge.fr/",
     "coordPrecision": "centre",
@@ -226,21 +226,7 @@
      "site": "https://lanouge.fr/",
      "source": "https://lanouge.fr/",
      "verifieLe": "2026-11-06"
-    },
-    "horaires": [
-     {
-      "nature": "accueil",
-      "ven": [
-       [
-        "10:00",
-        "18:30"
-       ]
-      ],
-      "remarque": "Vous êtes les bienvenus à tout autre moment sur rendez-vous.",
-      "source": "https://lanouge.fr/",
-      "verifieLe": "2026-11-06"
-     }
-    ]
+    }
    },
    "verifieLe": "2026-11-06",
    "sources": [
@@ -277,7 +263,7 @@
     "https://www.brasserie-des-gabariers.fr",
     "https://data.geopf.fr/geocodage/search?q=1+rue+du+Sabotier%2C+Plaizac%2C+16170+Rouillac&limit=5"
    ],
-   "extrait": "TEL : 05 45 32 42 70",
+   "extrait": "BRASSERIE DES GABARIERS 1 rue du Sabotier 16170 Plaizac",
    "choix": "Catégorie 1 écartée : la page « La Gabare » dit « à boire sur place ou à emporter », mais pour le bar de Cognac. Rien n'établit la vente à Plaizac. Les huit bières de la page boutique ne sont pas reprises, sans Untappd ni types lus. Aucun Untappd trouvé."
   }
  ]

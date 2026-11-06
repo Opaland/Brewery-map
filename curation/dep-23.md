@@ -62,12 +62,12 @@ Extrait lu : « La Microbrasserie dispose de son propre espace de vente & de dé
 
 Choix du vérificateur : Site officiel lu via un résumé de la page. Types de bière non repris : Pale Ale (Ze Kreuze) et IPA (Ze KPA) sont cités sur le site, mais je n'ai pas vérifié la liste des types admis, donc beers reste vide. Aucun lien Untappd sur le site. Les horaires sont ceux du « Bar & Vente à emporter » ; je les range en accueil. Le portable 06 50 14 01 48 est la seule ligne publiée par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 14 h 17 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
+> - À 14 h 29 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
 > - Adresse
 > - 2 Forges 23000 Anzême
 > - Pas encore dans la fiche : ses bières.
@@ -114,7 +114,7 @@ Extrait lu : « La bière artisanale de la Souterraine »
 
 Choix du vérificateur : Page lue via un résumé de WebFetch. Icône de téléphone sans numéro : aucun téléphone retenu. Pas d'Untappd (le site renvoie vers Facebook, qui ne vaut pas source). Catégorie 0 : « Passer commande » et la location de fûts ne disent pas qu'on peut acheter sur place. Types de bière lus (blonde, ambrée, IPA, noire, blanche, piment, framboise, triple), laissés hors de beers.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -154,7 +154,7 @@ Extrait lu : « Vous pourrez y acheter leurs bières bouteilles et limonade aux 
 
 Choix du vérificateur : Pages lues via un résumé de WebFetch : l'extrait vient de la page de l'office. Le site officiel donne « 05 55 67 51 37 / 06 66 37 1000 » ; je retiens le fixe et j'écarte le portable (format différent entre le site, 06 66 37 1000, et l'office, 06 66 37 10 00). Confiance moyenne au plus : l'office est la seule source qui parle de vente ; le site officiel dit seulement « Boutique « La Capsule » ». Catégorie 2 et non 1 : aucune page lue ne dit qu'on boit sur place (la dégustation vue vient d'avis clients, écartée). Horaires non repris : l'office dit seulement « ouverte de mi avril au 25 août ». Pas d'Untappd trouvé. Types de bière (blonde, blanche, ambrée, rousse, brune) lus sur le site, hors beers. Le candidat SIRENE « La Capsule » est l'enseigne de la boutique de cette brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -177,7 +177,7 @@ Choix du vérificateur : Pages lues via un résumé de WebFetch : l'extrait vien
 - lon : (vide) → 1.89277
 - km : (vide) → 228.2
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Brasserie artisanale de Guéret. Espace de vente sur le site de production avec un coin dégustation, selon l'office de tourisme de la Creuse.
 - addr : (vide) → 26 avenue du Bourbonnais 23000 Guéret
 - src : (vide) → https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893
@@ -195,10 +195,10 @@ Extrait lu : « Store area on the production site, tasting corner »
 
 Choix du vérificateur : Pages lues via un résumé. L'office de tourisme donne la vente et la dégustation (confiance moyenne au plus). Le site officiel www.brasseriemdg.com ne dit rien de la vente ni des horaires. Les adresses se contredisent : l'office dit 4 rue Johannes Gutenberg ; le site officiel dit « 26 Avenue du Bourbonnais » (nouvelle adresse du site de production), et le siège SIRENE est 3 B allée de Chermentoux. J'ai retenu l'adresse du site officiel, à confirmer par Cédric. Le portable 07 83 41 17 76 est publié par la brasserie (« Service client ») sur son site, et c'est la seule ligne. Pas d'horaires (l'office les dit non vérifiés). Pas d'Untappd trouvé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Adresse
 > - 26 avenue du Bourbonnais 23000 Guéret
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -207,6 +207,6 @@ Choix du vérificateur : Pages lues via un résumé. L'office de tourisme donne 
 > - Joindre la brasserie
 > - [Appeler le 07 83 41 17 76](tel:+33783411776)
 > - [Site de la brasserie](https://www.brasseriemdg.com)
-> - Lu sur [tourisme-creuse.com](https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893) le 6 novembre 2026. Lu sur [brasseriemdg.com](https://www.brasseriemdg.com) le 6 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [tourisme-creuse.com](https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893) le 6 novembre 2026. Lu sur [brasseriemdg.com](https://www.brasseriemdg.com) le 6 novembre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
-Empreinte du lot : 06fce55fc858
+Empreinte du lot : dd981c91b784

@@ -13,7 +13,7 @@ Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement »
 
 | Candidat | Raison |
 |---|---|
-| BRASSERIE DES GABARIERS (`sirene:502676323`) | Brasserie des Gabariers : lue sous way/88434184 (Plaizac, adresse du site officiel) |
+| BRASSERIE DES GABARIERS (`sirene:502676323`) | Brasserie des Gabariers : lue sous way/88434184 (Plaizac). Son bar « La Gabare » à Cognac n'a qu'un annuaire pour adresse : à relancer |
 | BRASSERIE ROCHELOISE (`sirene:949014369`) | Brasserie Rocheloise : aucune page sous ce nom ; même siège que les Gabariers |
 | SAS BRUNACK (`sirene:824784169`) | SAS Brunack : annuaires seuls, sans site ni office |
 | Entreprise individuelle (`personne:1`) | entreprise individuelle : registre seul |
@@ -48,7 +48,7 @@ Catégories proposées : 1 « acheter et consommer », 1 « acheter seulement »
 - km : (vide) → 379
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Bière biologique brassée sur le domaine Pinard à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.
+- note : (vide) → Bière biologique brassée sur le domaine à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.
 - addr : (vide) → 8 rue de l'église, 16200 Foussignac
 - src : (vide) → https://destination-cognac.com/?p=8861
 - coordPrecision : (vide) → address
@@ -61,7 +61,7 @@ Extrait lu : « La Goule, a traditional organic beer, is brewed on the estate. �
 
 Choix du vérificateur : Source unique : page de l'office de tourisme (en anglais, via un résumé) ; http://la-goule.com/ a répondu 503 deux fois (à relancer). Je n'ai repris ni le 05 45 35 87 57 ni les horaires lundi-vendredi : ce sont ceux de la visite du domaine de cognac, pas de la brasserie. Pas d'Untappd trouvé. Office seul, aucune catégorie lue.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -107,12 +107,12 @@ Extrait lu : « Au coeur de la brasserie, dans un lieu décalé, découvrez nos 
 
 Choix du vérificateur : Site lu via un résumé de l'outil de lecture, deux fois ; les passages cités sont ceux qu'il a rendus entre guillemets. Catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10 : le site dit qu'on découvre les bières sur place, sans parler de vente à emporter. Pas de téléphone : la page n'en publie aucun. Pas de page Untappd vérifiée. Le site donne 13 Rue des Lignes ; SIRENE donne « Rue des Lignes » sans numéro. Le deuxième établissement SIRENE (Gond-Pontouvre) est écarté. Bières laissées vides : la page cite des gammes (Collection, Eisbocks, Oak Chronicles) mais aucun style n'y est lu.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
 > - Maintenant
-> - À 14 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
+> - À 14 h 28 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h, sous réserve.
 > - Adresse
 > - 13 Rue des Lignes, 16000 Angoulême
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -159,7 +159,7 @@ Extrait lu : « Vous serez invité à la brasserie pour rencontrer notre brasseu
 
 Choix du vérificateur : Pas de téléphone, d'horaires ni de lien Untappd publiés sur le site (accueil, nos-services, contactez-nous) : rien proposé. Types vus sur l'accueil (Dark Ale, Best Bitter, IPA) non repris faute de source Untappd. Catégorie 0 : aucune phrase ne dit qu'on achète ou qu'on boit sur place en dehors d'un événement. Une page Trip.com parle de visites à 5 euros, écartée (agrégateur).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -207,12 +207,12 @@ Extrait lu : « Nous vous accueillons du lundi au jeudi de 9h à 12h et de 14h �
 
 Choix du vérificateur : Page lue via un résumé (WebFetch), non directement. Catégorie 2 et non 1 : la source ne donne qu'un afterwork bimestriel pour boire sur place, pas d'ouverture régulière en bar. Confiance moyenne à cause de la lecture par résumé. Bières non reprises : la page Untappd de la brasserie elle-même n'a pas été ouverte (seules des pages de bières isolées sont apparues), donc pas de lien Untappd. Téléphone : mobile, seule ligne publiée par la brasserie sur son site.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 14 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. La source ne dit pas quand elle rouvre.
+> - À 14 h 28 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. La source ne dit pas quand elle rouvre.
 > - Adresse
 > - 48 rue Armand Simard, 16100 Cognac
 > - Pas encore dans la fiche : ses bières.
@@ -242,7 +242,7 @@ Choix du vérificateur : Page lue via un résumé (WebFetch), non directement. C
 - km : (vide) → 353.7
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → La brasserie existe (site officiel, bières présentées) et est ouverte le vendredi de 10h à 18h30, sur rendez-vous les autres jours. Le site parle de vente directe sans dire si l'on peut acheter ou boire sur place : la page « Magasin » n'a pas pu être lue.
+- note : (vide) → La brasserie existe (site officiel, bières présentées). Le site dit qu'elle ouvre le vendredi et sur rendez-vous, sans dire si l'on peut y acheter ou y boire.
 - addr : (vide) → Nougerede, 16190 Salles-Lavalette
 - src : (vide) → https://lanouge.fr/
 - coordPrecision : (vide) → centre
@@ -251,11 +251,6 @@ Choix du vérificateur : Page lue via un résumé (WebFetch), non directement. C
 - contact.site : (vide) → https://lanouge.fr/
 - contact.source : (vide) → https://lanouge.fr/
 - contact.verifieLe : (vide) → 2026-11-06
-- horaires.0.nature : (vide) → accueil
-- horaires.0.ven : (vide) → 10 h – 18 h 30
-- horaires.0.remarque : (vide) → Vous êtes les bienvenus à tout autre moment sur rendez-vous.
-- horaires.0.source : (vide) → https://lanouge.fr/
-- horaires.0.verifieLe : (vide) → 2026-11-06
 - verifieLe : (vide) → 2026-11-06
 
 Sources (vérifiée le 2026-11-06) : https://lanouge.fr/ ; https://data.geopf.fr/geocodage/search?q=Salles-Lavalette&type=municipality&limit=5
@@ -264,30 +259,18 @@ Extrait lu : « Ouvert le vendredi de 10h – 18h30 »
 
 Choix du vérificateur : Pages lues via un résumé (accueil, bières, où nous trouver). Deux portables publiés par la brasserie, 06 62 83 04 95 et 07 67 74 65 69 : je retiens le premier (repris aussi par le guide de la Charente) ; c'est un mobile publié par la brasserie. Aucun fixe. Catégorie 1 ou 2 écartée : « vente directe » et l'entrée « Magasin » ne disent pas ce qu'on peut faire sur place. Sept autres bières omises (type non précisé ou hors liste). Pas d'Untappd trouvé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
-> - Maintenant
-> - À 14 h 19 (heure de Paris), accueil du public : ouvert jusqu’à 18 h 30 selon les créneaux, sous réserve de la remarque ci-dessous.
 > - Adresse
 > - Nougerede, 16190 Salles-Lavalette
-> - Pas encore dans la fiche : ses bières.
-> - [Ses bières sur Untappd](https://untappd.com/search?q=La+Nouge&type=brewery)
+> - Pas encore dans la fiche : ses horaires et ses bières.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=La+Nouge+Salles-Lavalette)[Ses bières sur Untappd](https://untappd.com/search?q=La+Nouge&type=brewery)
+> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Appeler le 06 62 83 04 95](tel:+33662830495)
 > - [Site de la brasserie](https://lanouge.fr/)
-> - Horaires
-> - À savoir : Vous êtes les bienvenus à tout autre moment sur rendez-vous.
-> - Horaires d’accueil du public
-> - Lundi | non précisé
-> - Mardi | non précisé
-> - Mercredi | non précisé
-> - Jeudi | non précisé
-> - Vendredi | 10 h – 18 h 30
-> - Samedi | non précisé
-> - Dimanche | non précisé
-> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [lanouge.fr](https://lanouge.fr/) le 6 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
 ### 6. Brasserie des Gabariers — fiche nouvelle
@@ -313,11 +296,11 @@ Choix du vérificateur : Pages lues via un résumé (accueil, bières, où nous 
 
 Sources (vérifiée le 2026-11-06) : https://www.brasserie-des-gabariers.fr ; https://data.geopf.fr/geocodage/search?q=1+rue+du+Sabotier%2C+Plaizac%2C+16170+Rouillac&limit=5
 
-Extrait lu : « TEL : 05 45 32 42 70 »
+Extrait lu : « BRASSERIE DES GABARIERS 1 rue du Sabotier 16170 Plaizac »
 
 Choix du vérificateur : Catégorie 1 écartée : la page « La Gabare » dit « à boire sur place ou à emporter », mais pour le bar de Cognac. Rien n'établit la vente à Plaizac. Les huit bières de la page boutique ne sont pas reprises, sans Untappd ni types lus. Aucun Untappd trouvé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -331,4 +314,4 @@ Choix du vérificateur : Catégorie 1 écartée : la page « La Gabare » dit «
 > - [Site de la brasserie](https://www.brasserie-des-gabariers.fr)
 > - Lu sur [brasserie-des-gabariers.fr](https://www.brasserie-des-gabariers.fr) le 6 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 3092cd9cdc62
+Empreinte du lot : fa4435f6898c

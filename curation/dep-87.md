@@ -54,7 +54,7 @@ Extrait lu : « Direct sales by appointment. »
 
 Choix du vérificateur : Adresse 19 rue de Limoges (office, forum, accès libre) et non 12 comme dans OSM. Portable 06 87 94 21 65 lu sur l'office seulement : non repris. Horaires de l'office marqués « non sécurisés » : non repris. Gamme lue sur un forum, non reprise. Lu via un résumé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:18, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -91,7 +91,7 @@ Extrait lu : « Drive/Vente à emporter »
 
 Choix du vérificateur : Deux numéros sur la fiche de l'office : fixe +33 5 55 68 26 93 (retenu, règle du 31/10) et portable +33 6 31 61 99 31 (non repris). Horaires absents (« non sécurisés »). Lu via un résumé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:18, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -130,7 +130,7 @@ Extrait lu : « Brasserie BRÂM Qui veut la paix prépare la bière »
 
 Choix du vérificateur : Page « nous contacter » (brasseriebram.org/nous-contacter/) : e-mail seulement, aucun numéro. Adresse venue de SIRENE (non lue sur le site). Extrait lu sur la page nous-contacter, pas sur la page d'accueil citée en source : à vérifier par Cédric. Lu via un résumé.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:18, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -169,7 +169,7 @@ Extrait lu : « On-site, discover the boutique, bottled beers (33 cl and 75 cl) 
 
 Choix du vérificateur : Deux numéros sur la fiche : le fixe 09 54 42 75 23 et un portable 06 09 57 39 42. Je retiens le fixe, car un portable lu sur un office ne vient pas de la brasserie. Catégorie 2 : la source parle de boutique et de bouteilles, pas de consommation sur place. Confiance moyenne, plafond d'un office. Lecture via un résumé de la page (WebFetch), pas page brute. Le site officiel et Untappd sont introuvables ; la page Facebook demande une connexion.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:18, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -205,7 +205,7 @@ Extrait lu : « Direct sales by appointment. »
 
 Choix du vérificateur : Portable +33 6 56 68 84 85 lu sur l'office seulement : non repris (un portable doit venir de la brasserie). Horaires marqués « non sécurisés » : non repris. Lu via un résumé de la page.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:18, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement

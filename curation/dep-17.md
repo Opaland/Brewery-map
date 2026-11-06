@@ -3,7 +3,7 @@
 Ce lot ajoute **7 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 43 candidats = 7 proposés + 36 non proposés (tableau ci-dessous).
-Catégories proposées : 3 « acheter et consommer », 2 « acheter seulement », 0 « pas de vente », 2 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 3 « acheter et consommer », 1 « acheter seulement », 0 « pas de vente », 3 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -15,7 +15,7 @@ Catégories proposées : 3 « acheter et consommer », 2 « acheter seulement »
 |---|---|
 | Entreprise individuelle (`personne:1`) | entreprise sans nom ni adresse : rien à chercher |
 | BRASSERIE ILE ET ELLE (`sirene:848285607`) | Île et Elle : registre seul |
-| BRASSERIE LAMPEE BAUMGARTNER (`sirene:405112764`) | Lampée Baumgartner : raison sociale de Bières de Ré, lue sous sirene:481055846 |
+| BRASSERIE LAMPEE BAUMGARTNER (`sirene:405112764`) | Brasserie Lampée : probablement la raison sociale de Bières de Ré (sirene:481055846) ; aucune source ne la cite |
 | L'ALMANACH (`sirene:985135797`) | L'Almanach : rien sous ce nom (deux recherches) |
 | BRASSERIE ROCHELOISE (`sirene:949014369`) | Brasserie Rocheloise (Périgny) : aucune brasserie sous ce nom |
 | CHEZ AUGUSTE (`sirene:820387025`) | Chez Auguste : un bar et une boîte de nuit qui ne brassent pas |
@@ -79,9 +79,9 @@ Sources (vérifiée le 2026-11-06) : https://www.bieresdere.fr/home/ ; https://d
 
 Extrait lu : « Rendez-vous en boutique pour découvrir ces bières, et bien d'autres nouveautés. »
 
-Choix du vérificateur : Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Lampée Baumgartner, Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie (fondateur Baumgartner) : non créé à part. Absent de data/.
+Choix du vérificateur : Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie : non créé à part. Absent de data/.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -103,9 +103,9 @@ Choix du vérificateur : Pas d'horaires ni de lien Untappd sur la page. Page lue
 - lat : (vide) → 46.12851
 - lon : (vide) → -1.09237
 - km : (vide) → 455.1
-- cat : (vide) → 2 (Acheter seulement)
-- conf : (vide) → moyenne
-- note : (vide) → Microbrasserie ; le site cite un shop à La Rochelle (19 rue de l'Archimède). Dégustation sur place non mentionnée.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Microbrasserie d'Aytré, établie par son site. Le site cite aussi un shop à La Rochelle et des horaires sans dire à quelle adresse ils valent : ce qu'on peut faire à Aytré reste à confirmer.
 - addr : (vide) → 13 rue Thalès, 17440 Aytré
 - src : (vide) → https://labeunaise.fr/
 - coordPrecision : (vide) → address
@@ -122,10 +122,10 @@ Extrait lu : « La Beun'aise, une microbrasserie à taille humaine »
 
 Choix du vérificateur : Horaires non repris : le site donne « mardi-jeudi : 9h30-12h30 / 14h-18h … » sans dire s'ils valent pour Aytré ou pour le shop de La Rochelle (qui varie selon la saison). Adresse de la fiche = Aytré (13 rue Thalès), le site la lie aux horaires habituels sans la nommer brasserie. Le téléphone est celui que la brasserie publie (« Appelez-nous au 05 17 81 05 15 »). Pas de lien Untappd sur le site. Absent de data/.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter seulement
+> - À confirmer
 > - Adresse
 > - 13 rue Thalès, 17440 Aytré
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -134,7 +134,7 @@ Choix du vérificateur : Horaires non repris : le site donne « mardi-jeudi : 9h
 > - Joindre la brasserie
 > - [Appeler le 05 17 81 05 15](tel:+33517810515)
 > - [Site de la brasserie](https://labeunaise.fr/)
-> - Lu sur [labeunaise.fr](https://labeunaise.fr/) le 6 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [labeunaise.fr](https://labeunaise.fr/) le 6 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
 ### 3. Les Brasseurs Cueilleurs — fiche nouvelle
 
@@ -158,11 +158,11 @@ Choix du vérificateur : Horaires non repris : le site donne « mardi-jeudi : 9h
 
 Sources (vérifiée le 2026-11-06) : https://brasseurscueilleurs.fr/ ; https://data.geopf.fr/geocodage/search?q=Landrais&type=municipality&limit=5
 
-Extrait lu : « ZA, Le Fief de la Pointe, 17290 Landrais »
+Extrait lu : « Brasserie artisanale Landrais | Brasseurs Cueilleurs »
 
 Choix du vérificateur : Lecture via un résumé du site officiel. Les horaires « Du lundi au vendredi 09h30 - 18h00 » ne disent pas s'ils sont ceux d'un accueil du public : non repris. Téléphone non retenu : la page n'affiche que des portables rattachés à des personnes nommées (commercial, production, gestion), aucun numéro de la brasserie seule. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières, par exemple Marée Iodée), donc pas de lien Untappd.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -202,7 +202,7 @@ Extrait lu : « La Chafouineuse est bien plus qu'une simple brasserie »
 
 Choix du vérificateur : Seule ligne publiée par la brasserie sur son site : un portable (06 74 51 65 30), repris selon la règle du 21/10. Site lu via un résumé (outil WebFetch) : les accents du texte source étaient altérés à l'affichage, donc l'extrait est à confronter à la page avant d'appliquer. La page cite « la visite de la brasserie, la location de tireuse à bière » et « cave à bières », mais ni vente à emporter ni dégustation : catégorie 0, rien de déduit. Aucun horaire sur la page, aucun lien Untappd. Le Bottin, annuaire seul, porte un « FERMÉ » probablement lié à l'heure de lecture : écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -239,7 +239,7 @@ Extrait lu : « Tasting area, sale of hand-crafted beers made on the Aix Island.
 
 Choix du vérificateur : Téléphone 06 65 15 59 38 écarté : portable publié par l'office seul, pas par la brasserie. Horaires écartés : saisonniers, signalés « Unsecured hours » par l'office. Confiance moyenne = plafond d'un office. Lecture via un résumé de la page (WebFetch). Une bière citée par beertasting.com (d'Aix Aix'Ale) non reprise : annuaire seul.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -265,28 +265,23 @@ Choix du vérificateur : Téléphone 06 65 15 59 38 écarté : portable publié 
 - src : (vide) → https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/
 - coordPrecision : (vide) → address
 - beers : (vide) → []
-- contact.tel : (vide) → 05 86 08 01 44
-- contact.source : (vide) → https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/
-- contact.verifieLe : (vide) → 2026-11-06
 - verifieLe : (vide) → 2026-11-06
 
 Sources (vérifiée le 2026-11-06) : https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/ ; https://data.geopf.fr/geocodage/search?q=37+boulevard+de+la+R%C3%A9publique%2C+17200+Royan&limit=5
 
 Extrait lu : « Sample our beers produced on site »
 
-Choix du vérificateur : Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265.
+Choix du vérificateur : Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265. Le numéro de la fiche de l'office est écrit « +05 86 08 01 44 », d'un format douteux : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Adresse
 > - 37 boulevard de la République, 17200 Royan
-> - Pas encore dans la fiche : ses horaires et ses bières.
+> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+des+3+Phares+Royan)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+des+3+Phares&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
-> - Joindre la brasserie
-> - [Appeler le 05 86 08 01 44](tel:+33586080144)
 > - Lu sur [royanatlantique.fr](https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/) le 6 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 7. Brasserie de la Presqu'île d'Arvert — fiche nouvelle
@@ -298,7 +293,7 @@ Choix du vérificateur : Lecture via un résumé de la page (WebFetch), pas dire
 - lon : (vide) → -1.14457
 - km : (vide) → 458
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → BDLP dans SIRENE. Boutique de vente directe de bières et limonades, et bar où l'on déguste les produits, d'après l'office de tourisme Royan Atlantique (même adresse que SIRENE). Pas de site officiel ni de page Untappd trouvés. L'office écrit les heures de vente à l'anglaise (« Monday, Tuesday, Wednesday and Thursday from 9am to 12pm and from 14:30pm to 20pm ») ; le contrôle ne relit pas cette écriture, elles ne sont pas reprises dans les horaires.
 - addr : (vide) → 1 rue des Bouleaux, 17530 Arvert
 - src : (vide) → https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/
@@ -312,15 +307,15 @@ Extrait lu : « On site you will find a shop for the direct sale of beers and le
 
 Choix du vérificateur : Lecture via un résumé de la page de l'office. Le passage sur le bar est « a bar, in which you can also taste our products, accompanied by appetizer platters or sausages. ». Rapprochement BDLP et « Brasserie de la Presqu'île d'Arvert » : même adresse (1 rue des Bouleaux) et sigle plausible. Aucune source ne les relie par écrit. Téléphone non retenu. La page affiche « +06 28 04 16 42 », un portable lu sur un office (non repris : un portable doit venir de la brasserie), et « +05 17 82 49 36 », un fixe au format malformé que le résumé juge à vérifier. Horaires de vente de la page, valables du 01/01/2025 au 31/12/2026. La page renvoie aussi à Google pour les jours fériés, ce que le champ remarque dit.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:17, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Adresse
 > - 1 rue des Bouleaux, 17530 Arvert
 > - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+de+la+Presqu%27%C3%AEle+d%27Arvert+Arvert)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+de+la+Presqu%27%C3%AEle+d%27Arvert&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
-> - Lu sur [royanatlantique.fr](https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/) le 6 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [royanatlantique.fr](https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/) le 6 novembre 2026. Ce qu’on peut y faire est probable, pas établi par la source : lisez-la avant d’y aller.
 
-Empreinte du lot : 573ec2153ac4
+Empreinte du lot : 6bcd15f10f95

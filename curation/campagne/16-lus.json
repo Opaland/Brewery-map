@@ -148,7 +148,7 @@
     "adresse": "Nougerede, 16190 Salles-Lavalette",
     "cat": 0,
     "conf": "",
-    "note": "La brasserie existe (site officiel, bières présentées) et est ouverte le vendredi de 10h à 18h30, sur rendez-vous les autres jours. Le site parle de vente directe sans dire si l'on peut acheter ou boire sur place : la page « Magasin » n'a pas pu être lue.",
+    "note": "La brasserie existe (site officiel, bières présentées). Le site dit qu'elle ouvre le vendredi et sur rendez-vous, sans dire si l'on peut y acheter ou y boire.",
     "src": "https://lanouge.fr/",
     "extrait": "Ouvert le vendredi de 10h – 18h30",
     "beers": [],
@@ -157,20 +157,7 @@
       "tel": "06 62 83 04 95",
       "site": "https://lanouge.fr/",
       "source": "https://lanouge.fr/"
-    },
-    "horaires": [
-      {
-        "nature": "accueil",
-        "ven": [
-          [
-            "10:00",
-            "18:30"
-          ]
-        ],
-        "remarque": "Vous êtes les bienvenus à tout autre moment sur rendez-vous.",
-        "source": "https://lanouge.fr/"
-      }
-    ]
+    }
   },
   {
     "cle": "node/7809995244",
@@ -179,7 +166,7 @@
     "adresse": "8 rue de l'église, 16200 Foussignac",
     "cat": 0,
     "conf": "",
-    "note": "Bière biologique brassée sur le domaine Pinard à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
+    "note": "Bière biologique brassée sur le domaine à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
     "src": "https://destination-cognac.com/?p=8861",
     "extrait": "La Goule, a traditional organic beer, is brewed on the estate.",
     "beers": [],
@@ -194,7 +181,7 @@
     "conf": "",
     "note": "Site officiel : l'outil de production est à Plaizac. Le site place la boutique et le bar (taproom « La Gabare ») au 39 rue de Bellefonds à Cognac, qui n'est pas cette adresse. Aucune page ne dit si l'on achète ou si l'on boit à Plaizac, donc catégorie 0. Aucun horaire publié. Le fichier SIRENE (sirene:502676323) liste aussi Cognac et Rouillac pour la même enseigne : à rapprocher de cette lecture.",
     "src": "https://www.brasserie-des-gabariers.fr",
-    "extrait": "TEL : 05 45 32 42 70",
+    "extrait": "BRASSERIE DES GABARIERS 1 rue du Sabotier 16170 Plaizac",
     "beers": [],
     "choix": "Catégorie 1 écartée : la page « La Gabare » dit « à boire sur place ou à emporter », mais pour le bar de Cognac. Rien n'établit la vente à Plaizac. Les huit bières de la page boutique ne sont pas reprises, sans Untappd ni types lus. Aucun Untappd trouvé.",
     "contact": {

@@ -56,7 +56,7 @@ Extrait lu : « déguster sur place nos bières directement à la pression, au c
 
 Choix du vérificateur : Lu via un résumé du site officiel (WebFetch). Horaires non proposés : le site donne un tableau d'été (avril à septembre) et un d'hiver (octobre à avril) dont les périodes se chevauchent en avril. Le résumé n'en garantit pas la lecture exacte, donc aucun bloc d'horaires. Le doublon sirene:922571773 (même adresse) est fondu ici. Aucune page Untappd trouvée sur le site (seulement Facebook et Instagram). Le site cite aussi un food-truck et un traiteur, mais le seul numéro lu est celui de la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -97,7 +97,7 @@ Extrait lu : « Les visites se font sur rendez-vous, durent approximativement un
 
 Choix du vérificateur : Catégorie 0 : le site parle de visite et de dégustation, pas de vente à la brasserie (les bières sont vendues dans plus de 30 magasins et en boutique en ligne). Le téléphone 07 77 05 72 17 est un portable, mais c'est la seule ligne publiée par la brasserie sur son site (règle du 21/10). L'office (guide-de-la-correze.com) donne « 3 place de la Chapelle », alors que le site donne « Place de la Chapelle » : j'ai gardé le site. Pas d'horaires publiés. Pas de page Untappd trouvée. Types de bière lus (blondes, brunes, ambrée, blanche, rousse, fruitée) mais sans liste détaillée au format attendu : beers laissé vide.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -134,7 +134,7 @@ Extrait lu : « Bienvenue à la Brasserie Corrézienne ! »
 
 Choix du vérificateur : Le Guide de la Corrèze est un guide commercial, pas un office de tourisme : il ne suffit pas pour la catégorie (décision #37). Adresse non retenue : le registre et le guide se contredisent.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -166,11 +166,11 @@ Choix du vérificateur : Le Guide de la Corrèze est un guide commercial, pas un
 
 Sources (vérifiée le 2026-11-06) : https://www.brasserieducausse.fr/ ; https://data.geopf.fr/geocodage/search?q=2+rue+du+Four%2C+19600+Larche&limit=5
 
-Extrait lu : « Petite brasserie artisanale en pleine effervescence située sur le Causse Corrézien »
+Extrait lu : « Ouverture BAR LUNDI-JEUDI jusqu'à 19h VENDREDI jusqu'à 23h VENTE A EMPORTER »
 
 Choix du vérificateur : Le site officiel montre un bar et une section « VENTE A EMPORTER », mais ne dit pas explicitement que la bière est brassée sur place : confiance moyenne, pas solide. Deux mobiles publiés (06 07 88 66 88 et 06 71 39 61 39), je retiens le premier (celui qui est listé en premier). Les horaires du bar (« jusqu'à 19h », « jusqu'à 23h le vendredi ») n'ont pas d'heure d'ouverture, donc non repris. Dimanche non renseigné. Les bières sont citées par leur nom sans style, donc aucun type retenu. Aucune page Untappd trouvée. Lecture du site via un résumé (outil WebFetch), les passages ne sont pas confirmés mot pour mot.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -193,7 +193,7 @@ Choix du vérificateur : Le site officiel montre un bar et une section « VENTE 
 - lon : (vide) → 1.47251
 - km : (vide) → 262.8
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
+- conf : (vide) → faible
 - note : (vide) → Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.
 - addr : (vide) → 5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde
 - src : (vide) → https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8
@@ -210,10 +210,10 @@ Extrait lu : « Come and discover the Factory and the different production proce
 
 Choix du vérificateur : Office de tourisme seul : confiance faible, pas plus. La page dit « Shop » (équipement) et « and its beer bar » sans détail : je classe en 1 par la réponse du 29/10 (bar), à confirmer. Téléphone : fixe « +33 5 87 49 55 48 » lu dans le bloc de la brasserie, pas celui de l'office. Horaires non repris : la page dit seulement « Fermé le Monday, Tuesday, Sunday », sans heures. Aucun site ni Untappd trouvé. Lecture via un résumé (WebFetch).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 6 novembre 2026 à 14:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - Acheter et consommer sur place (à vérifier)
 > - Adresse
 > - 5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -221,6 +221,6 @@ Choix du vérificateur : Office de tourisme seul : confiance faible, pas plus. L
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Appeler le 05 87 49 55 48](tel:+33587495548)
-> - Lu sur [brive-tourisme.com](https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8) le 6 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [brive-tourisme.com](https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8) le 6 novembre 2026. Ce qu’on peut y faire est probable, pas établi par la source : appelez ou lisez-la avant d’y aller.
 
-Empreinte du lot : 02fe29d6aef2
+Empreinte du lot : 98de9a4073c7

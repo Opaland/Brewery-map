@@ -113,7 +113,7 @@
     "https://www.brasserieducausse.fr/",
     "https://data.geopf.fr/geocodage/search?q=2+rue+du+Four%2C+19600+Larche&limit=5"
    ],
-   "extrait": "Petite brasserie artisanale en pleine effervescence située sur le Causse Corrézien",
+   "extrait": "Ouverture BAR LUNDI-JEUDI jusqu'à 19h VENDREDI jusqu'à 23h VENTE A EMPORTER",
    "choix": "Le site officiel montre un bar et une section « VENTE A EMPORTER », mais ne dit pas explicitement que la bière est brassée sur place : confiance moyenne, pas solide. Deux mobiles publiés (06 07 88 66 88 et 06 71 39 61 39), je retiens le premier (celui qui est listé en premier). Les horaires du bar (« jusqu'à 19h », « jusqu'à 23h le vendredi ») n'ont pas d'heure d'ouverture, donc non repris. Dimanche non renseigné. Les bières sont citées par leur nom sans style, donc aucun type retenu. Aucune page Untappd trouvée. Lecture du site via un résumé (outil WebFetch), les passages ne sont pas confirmés mot pour mot."
   },
   {
@@ -125,7 +125,7 @@
     "lon": 1.47251,
     "km": 262.8,
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.",
     "addr": "5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde",
     "src": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",

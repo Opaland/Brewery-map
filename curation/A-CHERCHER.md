@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 735 | 21 (3 %) | 42 | 275 | 237 | 296 | 404 | 479 | 570 |
+| **Total** | 772 | 21 (3 %) | 42 | 288 | 247 | 306 | 418 | 510 | 607 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -27,9 +27,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 9 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
+| 16 · Charente | 6 | 0 (0 %) | 0 | 4 | 1 | 1 | 3 | 4 | 6 |
+| 17 · Charente-Maritime | 7 | 0 (0 %) | 0 | 3 | 3 | 3 | 4 | 7 | 7 |
 | 18 · Cher | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
+| 19 · Corrèze | 5 | 0 (0 %) | 0 | 2 | 2 | 2 | 1 | 5 | 5 |
 | 21 · Côte-d'Or | 14 | 0 (0 %) | 0 | 5 | 3 | 3 | 6 | 8 | 14 |
 | 22 · Côtes-d'Armor | 22 | 2 (9 %) | 0 | 11 | 6 | 16 | 17 | 14 | 6 |
+| 23 · Creuse | 4 | 0 (0 %) | 0 | 1 | 0 | 0 | 1 | 3 | 4 |
+| 24 · Dordogne | 10 | 0 (0 %) | 0 | 2 | 0 | 2 | 2 | 7 | 10 |
 | 25 · Doubs | 19 | 0 (0 %) | 0 | 8 | 5 | 2 | 7 | 11 | 19 |
 | 26 · Drôme | 7 | 0 (0 %) | 3 | 3 | 6 | 7 | 6 | 7 | 7 |
 | 27 · Eure | 4 | 1 (25 %) | 0 | 1 | 1 | 1 | 2 | 2 | 1 |
@@ -78,6 +83,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
+| 87 · Haute-Vienne | 5 | 0 (0 %) | 0 | 1 | 4 | 2 | 3 | 5 | 5 |
 | 88 · Vosges | 7 | 0 (0 %) | 0 | 2 | 0 | 0 | 0 | 4 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
 | 91 · Essonne | 4 | 0 (0 %) | 0 | 2 | 0 | 1 | 1 | 2 | 4 |
@@ -88,7 +94,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-275 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+288 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -157,9 +163,27 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie des 9 Mondes (Ranville) : sans adresse vérifiée, sans horaires
 - La JJAP – Les 2 Terres (Caen) : sans horaires
 
+### 16 · Charente
+
+- La Goule (Foussignac) : sans site, sans téléphone, sans horaires, sans bières
+- La Nouge (Salles-Lavalette) : sans adresse vérifiée, sans horaires, sans bières
+- CharentAles (Paizay-Naudouin-Embourie) : sans téléphone, sans horaires, sans bières
+- Brasserie des Gabariers (Rouillac) : sans horaires, sans bières
+
+### 17 · Charente-Maritime
+
+- Les Brasseurs Cueilleurs (Landrais) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- La Beun'aise (Aytré) : sans horaires, sans bières
+- La Chafouineuse (Surgères) : sans horaires, sans bières
+
 ### 18 · Cher
 
 - Brasserie de l'Arnon (Loye-sur-Arnon) : sans téléphone, sans horaires, sans bières
+
+### 19 · Corrèze
+
+- Brasserie Corrézienne (Marcillac-la-Croze) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie des Anges (Chamboulive) : sans adresse vérifiée, sans horaires, sans bières
 
 ### 21 · Côte-d'Or
 
@@ -182,6 +206,15 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Nautica (Plouasne) : sans téléphone, sans horaires
 - Brasserie Uncle (Binic-Étables-sur-Mer) : sans téléphone, sans horaires
 - L'Armateur (La Roche-Jaudy) : sans téléphone, sans horaires
+
+### 23 · Creuse
+
+- Brasserie Sostra (La Souterraine) : sans téléphone, sans horaires, sans bières
+
+### 24 · Dordogne
+
+- Atelier Epic (Boulazac Isle Manoire) : sans horaires, sans bières
+- La NÒVÉ (Bergerac) : sans horaires, sans bières
 
 ### 25 · Doubs
 
@@ -507,6 +540,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie Plume (Châteauneuf) : sans site, sans téléphone, sans horaires, sans bières
 - Opé Brewery (Les Sables-d'Olonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
+### 87 · Haute-Vienne
+
+- Brasserie BRÂM (Saint-Laurent-les-Églises) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
 ### 88 · Vosges
 

@@ -30,7 +30,7 @@
     "https://data.geopf.fr/geocodage/search?q=Sainte-Marie-de-R%C3%A9&type=municipality&limit=5"
    ],
    "extrait": "Rendez-vous en boutique pour découvrir ces bières, et bien d'autres nouveautés.",
-   "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Lampée Baumgartner, Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie (fondateur Baumgartner) : non créé à part. Absent de data/."
+   "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie : non créé à part. Absent de data/."
   },
   {
    "fiche": {
@@ -40,9 +40,9 @@
     "lat": 46.12851,
     "lon": -1.09237,
     "km": 455.1,
-    "cat": 2,
-    "conf": "moyenne",
-    "note": "Microbrasserie ; le site cite un shop à La Rochelle (19 rue de l'Archimède). Dégustation sur place non mentionnée.",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie d'Aytré, établie par son site. Le site cite aussi un shop à La Rochelle et des horaires sans dire à quelle adresse ils valent : ce qu'on peut faire à Aytré reste à confirmer.",
     "addr": "13 rue Thalès, 17440 Aytré",
     "src": "https://labeunaise.fr/",
     "coordPrecision": "address",
@@ -88,7 +88,7 @@
     "https://brasseurscueilleurs.fr/",
     "https://data.geopf.fr/geocodage/search?q=Landrais&type=municipality&limit=5"
    ],
-   "extrait": "ZA, Le Fief de la Pointe, 17290 Landrais",
+   "extrait": "Brasserie artisanale Landrais | Brasseurs Cueilleurs",
    "choix": "Lecture via un résumé du site officiel. Les horaires « Du lundi au vendredi 09h30 - 18h00 » ne disent pas s'ils sont ceux d'un accueil du public : non repris. Téléphone non retenu : la page n'affiche que des portables rattachés à des personnes nommées (commercial, production, gestion), aucun numéro de la brasserie seule. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières, par exemple Marée Iodée), donc pas de lien Untappd."
   },
   {
@@ -159,12 +159,7 @@
     "addr": "37 boulevard de la République, 17200 Royan",
     "src": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
     "coordPrecision": "address",
-    "beers": [],
-    "contact": {
-     "tel": "05 86 08 01 44",
-     "source": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
-     "verifieLe": "2026-11-06"
-    }
+    "beers": []
    },
    "verifieLe": "2026-11-06",
    "sources": [
@@ -172,7 +167,7 @@
     "https://data.geopf.fr/geocodage/search?q=37+boulevard+de+la+R%C3%A9publique%2C+17200+Royan&limit=5"
    ],
    "extrait": "Sample our beers produced on site",
-   "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265."
+   "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265. Le numéro de la fiche de l'office est écrit « +05 86 08 01 44 », d'un format douteux : non repris."
   },
   {
    "fiche": {
@@ -183,7 +178,7 @@
     "lon": -1.14457,
     "km": 458,
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "BDLP dans SIRENE. Boutique de vente directe de bières et limonades, et bar où l'on déguste les produits, d'après l'office de tourisme Royan Atlantique (même adresse que SIRENE). Pas de site officiel ni de page Untappd trouvés. L'office écrit les heures de vente à l'anglaise (« Monday, Tuesday, Wednesday and Thursday from 9am to 12pm and from 14:30pm to 20pm ») ; le contrôle ne relit pas cette écriture, elles ne sont pas reprises dans les horaires.",
     "addr": "1 rue des Bouleaux, 17530 Arvert",
     "src": "https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/",

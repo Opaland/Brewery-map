@@ -4,9 +4,9 @@
     "n": "La Beun'aise",
     "c": "Aytré",
     "adresse": "13 rue Thalès, 17440 Aytré",
-    "cat": 2,
-    "conf": "moyenne",
-    "note": "Microbrasserie ; le site cite un shop à La Rochelle (19 rue de l'Archimède). Dégustation sur place non mentionnée.",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie d'Aytré, établie par son site. Le site cite aussi un shop à La Rochelle et des horaires sans dire à quelle adresse ils valent : ce qu'on peut faire à Aytré reste à confirmer.",
     "src": "https://labeunaise.fr/",
     "extrait": "La Beun'aise, une microbrasserie à taille humaine",
     "beers": [],
@@ -28,7 +28,7 @@
     "src": "https://www.bieresdere.fr/home/",
     "extrait": "Rendez-vous en boutique pour découvrir ces bières, et bien d'autres nouveautés.",
     "beers": [],
-    "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Lampée Baumgartner, Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie (fondateur Baumgartner) : non créé à part. Absent de data/.",
+    "choix": "Pas d'horaires ni de lien Untappd sur la page. Page lue via un résumé de WebFetch. Le candidat sirene:405112764 (Bois-Plage) est vraisemblablement la raison sociale de cette même brasserie : non créé à part. Absent de data/.",
     "contact": {
       "tel": "05 46 43 82 63",
       "site": "https://www.bieresdere.fr/home/",
@@ -46,11 +46,7 @@
     "src": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
     "extrait": "Sample our beers produced on site",
     "beers": [],
-    "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265.",
-    "contact": {
-      "tel": "05 86 08 01 44",
-      "source": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/"
-    }
+    "choix": "Lecture via un résumé de la page (WebFetch), pas directe. Office de tourisme seul pour la catégorie, donc moyenne ; l'existence est aussi attestée par une page Untappd (https://untappd.com/w/brasserie-des-3-phares/436681, 22 bières) et l'annuaire du Guide Charente-Maritime, qui ne suffisent pas seuls. Téléphone : le bloc contact de la fiche de l'office affiche « +05 86 08 01 44 » (format inhabituel, à vérifier) ; le numéro de l'office (05 46 08 21 00) est écarté. Pas de site officiel (la page ne renvoie qu'à Facebook et Instagram). Horaires : « Information not communicated for 2025 », donc aucun. Bières non reprises : l'Untappd donne des styles, mais aucune page de la brasserie ne les publie avec un lien exploitable. Voir aussi osm node/7357375265. Le numéro de la fiche de l'office est écrit « +05 86 08 01 44 », d'un format douteux : non repris."
   },
   {
     "cle": "sirene:819453358",
@@ -61,7 +57,7 @@
     "conf": "",
     "note": "Brasserie en activité d'après son site officiel (gammes Plouf, BC, Brett et barriques, éphémères), qui renvoie vers une e-boutique et des bars partenaires. Aucune mention de vente à emporter, de dégustation ni de visite à la brasserie : ce qu'on peut y faire reste à confirmer.",
     "src": "https://brasseurscueilleurs.fr/",
-    "extrait": "ZA, Le Fief de la Pointe, 17290 Landrais",
+    "extrait": "Brasserie artisanale Landrais | Brasseurs Cueilleurs",
     "beers": [],
     "choix": "Lecture via un résumé du site officiel. Les horaires « Du lundi au vendredi 09h30 - 18h00 » ne disent pas s'ils sont ceux d'un accueil du public : non repris. Téléphone non retenu : la page n'affiche que des portables rattachés à des personnes nommées (commercial, production, gestion), aucun numéro de la brasserie seule. Pas de page Untappd de la brasserie trouvée (seulement des pages de bières, par exemple Marée Iodée), donc pas de lien Untappd.",
     "contact": {
@@ -75,7 +71,7 @@
     "c": "Arvert",
     "adresse": "1 rue des Bouleaux, 17530 Arvert",
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "BDLP dans SIRENE. Boutique de vente directe de bières et limonades, et bar où l'on déguste les produits, d'après l'office de tourisme Royan Atlantique (même adresse que SIRENE). Pas de site officiel ni de page Untappd trouvés. L'office écrit les heures de vente à l'anglaise (« Monday, Tuesday, Wednesday and Thursday from 9am to 12pm and from 14:30pm to 20pm ») ; le contrôle ne relit pas cette écriture, elles ne sont pas reprises dans les horaires.",
     "src": "https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/",
     "extrait": "On site you will find a shop for the direct sale of beers and lemonades",

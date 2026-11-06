@@ -82,9 +82,9 @@
     "lat": 44.89381,
     "lon": 0.90278,
     "km": 313.6,
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie bio indépendante. L'office de tourisme indique « Vente à la propriété » et une « Visite dégustation individuelle gratuite » (sur rendez-vous pour la visite guidée). Le site officiel confirme les bières.",
+    "note": "Brasserie bio de Limeuil. L'office de tourisme indique la vente à la propriété ; la dégustation n'a lieu qu'avec la visite.",
     "addr": "1535 route de Saint Martin, 24510 Limeuil",
     "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
     "coordPrecision": "address",
@@ -212,15 +212,15 @@
     "n": "La Brasserie Artisanale de Saint Saud (Périgord Beers)",
     "c": "Saint-Saud-Lacoussière",
     "d": "24",
-    "lat": 45.55169,
-    "lon": 0.80639,
-    "km": 307.4,
+    "lat": 45.53729,
+    "lon": 0.83296,
+    "km": 305.4,
     "cat": 1,
     "conf": "faible",
     "note": "Site officiel : un coin dégustation dans la grange, à côté de la brasserie. La vente à emporter n'y est pas dite, d'où la confiance faible (réponse de Cédric du 29/10).",
-    "addr": "668 route de la Brasserie, 24470 Saint-Saud-Lacoussière",
+    "addr": "Saint-Saud-Lacoussière",
     "src": "https://perigordbeers.com/fr/",
-    "coordPrecision": "address",
+    "coordPrecision": "centre",
     "beers": [],
     "contact": {
      "tel": "07 81 16 59 59",
@@ -232,7 +232,7 @@
    "verifieLe": "2026-11-06",
    "sources": [
     "https://perigordbeers.com/fr/",
-    "https://data.geopf.fr/geocodage/search?q=668+route+de+la+Brasserie%2C+24470+Saint-Saud-Lacoussi%C3%A8re&limit=5"
+    "https://data.geopf.fr/geocodage/search?q=Saint-Saud-Lacoussi%C3%A8re&type=municipality&limit=5"
    ],
    "extrait": "avec un coin dégustation confortable, et, tout au cœur, elle contient la brasserie où nous créons nos bières.",
    "choix": "Lu via un résumé. Le numéro 07 81 16 59 59 est un portable. C'est la seule ligne publiée par la brasserie, dans le pied de page « Nous Contacter » de son site : « Nous Contacter 0033 (0)7 81 16 59 59 ». Je l'ai réécrit avec des espaces. L'adresse vient du Guide du Périgord (un annuaire, pas la page officielle), qui la donne ainsi : Moulin de Mazieras, 668 route de la Brasserie. Écartés : l'horaire « vendredi 10h-17h » (annuaire seul), la boutique en ligne, et les numéros de L'Odyssée (un bar-brasserie de Saint-Saud, sans rapport). Aucun lien Untappd n'a été trouvé."
@@ -275,9 +275,9 @@
     "lat": 45.13459,
     "lon": 0.17037,
     "km": 362.8,
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie artisanale bio dans une ancienne ferme : visites, dégustations et vente directe uniquement sur rendez-vous (2026), d'après l'office de tourisme. Le site de la brasserie indique « A la brasserie » et « Sur rendez-vous » comme points de vente ; pas de bar ni d'horaires écrits.",
+    "note": "Brasserie artisanale bio dans une ancienne ferme : vente directe à la brasserie, sur rendez-vous, d'après l'office de tourisme et le site. La dégustation n'a lieu qu'avec la visite.",
     "addr": "635 route de la Dobla, Le Breuil, 24410 Servanches",
     "src": "https://www.dordogne-perigord-tourisme.fr/offres/sas-brasserie-dobla-servanches-fr-2941635/",
     "coordPrecision": "address",
@@ -366,11 +366,11 @@
     "lat": 45.18397,
     "lon": 0.78148,
     "km": 314.8,
-    "cat": 1,
-    "conf": "moyenne",
-    "note": "L'office de tourisme Dordogne-Périgord annonce une visite-dégustation et un achat sur place à la boutique. Le site officiel mentionne des « ventes de bières », sans parler de dégustation. La confiance reste moyenne. Les horaires, contradictoires entre les annuaires, ne sont pas repris.",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de Boulazac, établie par son site. L'office de tourisme cite une boutique, sans passage exact lu : ce qu'on peut y faire reste à confirmer.",
     "addr": "4 avenue Lucien Dutard, 24750 Boulazac Isle Manoire",
-    "src": "https://www.dordogne-perigord-tourisme.fr/offres/atelier-brasserie-epic-boulazac-isle-manoire-fr-5876701/",
+    "src": "https://epic-brasserie.fr",
     "coordPrecision": "address",
     "beers": [],
     "contact": {
@@ -382,11 +382,10 @@
    },
    "verifieLe": "2026-11-06",
    "sources": [
-    "https://www.dordogne-perigord-tourisme.fr/offres/atelier-brasserie-epic-boulazac-isle-manoire-fr-5876701/",
     "https://epic-brasserie.fr",
     "https://data.geopf.fr/geocodage/search?q=4+avenue+Lucien+Dutard%2C+24750+Boulazac+Isle+Manoire&limit=5"
    ],
-   "extrait": "Bienvenue dans le monde de la bière artisanale, où se mêlent la création et le goût pour un produit convivial.",
+   "extrait": "Pour toutes demandes de locations de tireuses, ventes de bières et ateliers de brassage merci, de nous contacter via ce formulaire.",
    "choix": "Lecture via un résumé. Téléphone : le site officiel epic-brasserie.fr affiche 05.64.13.98.05, un fixe, écrit « 05 64 13 98 05 » ici et retenu ; le lien téléphonique de la page pointe vers un portable (06 80 89 16 94), écarté. Horaires : l'office donne mar-mer 13h-18h et jeu-sam 14h-20h, un autre annuaire donne d'autres créneaux, et le site officiel n'en publie pas ; rien n'est proposé. Bières : aucun type publié. Le résumé de l'office ne cite pas de phrase sur la vente ou la dégustation ; l'extrait est la seule phrase citée, et la catégorie repose sur les rubriques « Visite-dégustation » et « Achat sur place à la boutique » rapportées par le résumé : à vérifier par Cédric."
   },
   {

@@ -28285,5 +28285,1013 @@
    "source": "https://www.vogesenmassiv.de/sit/degbfc088327004123-brasserie-la-val-heureuse/",
    "verifieLe": "2026-11-03"
   }
+ },
+ {
+  "n": "La Goule",
+  "c": "Foussignac",
+  "d": "16",
+  "lat": 45.7138,
+  "lon": -0.12518,
+  "km": 379.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Bière biologique brassée sur le domaine à Foussignac (page de l'office de tourisme Destination Cognac). Le site officiel n'a pas répondu (503) : on ne sait pas si l'on peut acheter ou boire sur place.",
+  "addr": "8 rue de l'église, 16200 Foussignac",
+  "src": "https://destination-cognac.com/?p=8861",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie La Débauche",
+  "c": "Angoulême",
+  "d": "16",
+  "lat": 45.65845,
+  "lon": 0.16831,
+  "km": 356.3,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Taproom « Boutique & bar » dans la brasserie, avec dégustation et visite. Le site ne dit pas si l'on peut acheter à emporter sur place (un e-shop existe).",
+  "addr": "13 Rue des Lignes, 16000 Angoulême",
+  "src": "https://www.brasserie-ladebauche.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://www.brasserie-ladebauche.com/",
+   "source": "https://www.brasserie-ladebauche.com/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Fermeture le dimanche et le lundi.",
+    "source": "https://www.brasserie-ladebauche.com/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "CharentAles",
+  "c": "Paizay-Naudouin-Embourie",
+  "d": "16",
+  "lat": 46.04339,
+  "lon": 0.0163,
+  "km": 369.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui existe (site officiel). Le site cite des visites et un bar lors d'un événement, mais ne dit ni vente à emporter ni dégustation régulière sur place : à confirmer.",
+  "addr": "1 Chemin des Fayolles, 16240 Paizay-Naudouin-Embourie",
+  "src": "https://www.charentales.fr/fr/nos-services",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://www.charentales.fr",
+   "source": "https://www.charentales.fr/fr/contactez-nous",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Jukebox",
+  "c": "Cognac",
+  "d": "16",
+  "lat": 45.68671,
+  "lon": -0.32598,
+  "km": 394.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie créée en 2022 ; on peut venir acheter ses bières à la brasserie en semaine. Des afterworks où l'on boit sur place ont lieu tous les deux mois seulement, ce n'est donc pas un lieu où boire en permanence.",
+  "addr": "48 rue Armand Simard, 16100 Cognac",
+  "src": "https://brasseriejukebox.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 82 41 35 23",
+   "site": "https://brasseriejukebox.com/",
+   "source": "https://brasseriejukebox.com/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://brasseriejukebox.com/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "La Nouge",
+  "c": "Salles-Lavalette",
+  "d": "16",
+  "lat": 45.38578,
+  "lon": 0.23252,
+  "km": 353.7,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe (site officiel, bières présentées). Le site dit qu'elle ouvre le vendredi et sur rendez-vous, sans dire si l'on peut y acheter ou y boire.",
+  "addr": "Nougerede, 16190 Salles-Lavalette",
+  "src": "https://lanouge.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 62 83 04 95",
+   "site": "https://lanouge.fr/",
+   "source": "https://lanouge.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie des Gabariers",
+  "c": "Rouillac",
+  "d": "16",
+  "lat": 45.75332,
+  "lon": -0.12332,
+  "km": 378.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Site officiel : l'outil de production est à Plaizac. Le site place la boutique et le bar (taproom « La Gabare ») au 39 rue de Bellefonds à Cognac, qui n'est pas cette adresse. Aucune page ne dit si l'on achète ou si l'on boit à Plaizac, donc catégorie 0. Aucun horaire publié. Le fichier SIRENE (sirene:502676323) liste aussi Cognac et Rouillac pour la même enseigne : à rapprocher de cette lecture.",
+  "addr": "1 rue du Sabotier, Plaizac, 16170 Rouillac",
+  "src": "https://www.brasserie-des-gabariers.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 45 32 42 70",
+   "site": "https://www.brasserie-des-gabariers.fr",
+   "source": "https://www.brasserie-des-gabariers.fr",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Bières de Ré",
+  "c": "Sainte-Marie-de-Ré",
+  "d": "17",
+  "lat": 46.15542,
+  "lon": -1.33026,
+  "km": 473.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale de l'île de Ré avec boutique sur place. Dégustation et horaires non publiés sur la page lue.",
+  "addr": "RD 201, Les Hauts des Peux Bertaud, 17740 Sainte-Marie-de-Ré",
+  "src": "https://www.bieresdere.fr/home/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 46 43 82 63",
+   "site": "https://www.bieresdere.fr/home/",
+   "source": "https://www.bieresdere.fr/home/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Beun'aise",
+  "c": "Aytré",
+  "d": "17",
+  "lat": 46.12851,
+  "lon": -1.09237,
+  "km": 455.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie d'Aytré, établie par son site. Le site cite aussi un shop à La Rochelle et des horaires sans dire à quelle adresse ils valent : ce qu'on peut faire à Aytré reste à confirmer.",
+  "addr": "13 rue Thalès, 17440 Aytré",
+  "src": "https://labeunaise.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 17 81 05 15",
+   "site": "https://labeunaise.fr/",
+   "source": "https://labeunaise.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Les Brasseurs Cueilleurs",
+  "c": "Landrais",
+  "d": "17",
+  "lat": 46.07036,
+  "lon": -0.8657,
+  "km": 437.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie en activité d'après son site officiel (gammes Plouf, BC, Brett et barriques, éphémères), qui renvoie vers une e-boutique et des bars partenaires. Aucune mention de vente à emporter, de dégustation ni de visite à la brasserie : ce qu'on peut y faire reste à confirmer.",
+  "addr": "ZA, Le Fief de la Pointe, 17290 Landrais",
+  "src": "https://brasseurscueilleurs.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://brasseurscueilleurs.fr/",
+   "source": "https://brasseurscueilleurs.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Chafouineuse",
+  "c": "Surgères",
+  "d": "17",
+  "lat": 46.1114,
+  "lon": -0.77896,
+  "km": 430.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale à Surgères. Le site de la brasserie parle de visite de la brasserie et de location de tireuse, mais ne dit pas si l'on y achète ou boit sur place : catégorie à confirmer.",
+  "addr": "4 rue Gaston Migaud, 17700 Surgères",
+  "src": "https://lachafouineuse.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 74 51 65 30",
+   "site": "https://lachafouineuse.fr",
+   "source": "https://lachafouineuse.fr",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Brasserie de l'Île d'Aix",
+  "c": "Île-d'Aix",
+  "d": "17",
+  "lat": 46.02041,
+  "lon": -1.16769,
+  "km": 460.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Boutique et espace de dégustation de bières artisanales de l'île, d'après la fiche de l'office de tourisme Rochefort Océan (une seconde fiche du même office parle d'un bar avec brunch le dimanche). Le brassage sur place n'est pas dit en toutes lettres ; le registre SIRENE classe l'entreprise en brasserie. Horaires saisonniers publiés par l'office avec la mention « Unsecured hours » : non repris. Pas de site officiel ni de page Untappd trouvés.",
+  "addr": "Rue Quai aux Vivres, 17123 Île-d'Aix",
+  "src": "https://www.rochefort-ocean.com/en/plan-your-stay/made-in-rochefort-ocean/shopping/la-brasserie-de-l-ile-d-aix-3647513",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie des 3 Phares",
+  "c": "Royan",
+  "d": "17",
+  "lat": 45.62452,
+  "lon": -1.02664,
+  "km": 449.3,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Bières brassées sur place, dégustation au milieu des cuves et boutique d'une quarantaine de références (fiche de l'office de tourisme Royan Atlantique).",
+  "addr": "37 boulevard de la République, 17200 Royan",
+  "src": "https://www.royanatlantique.fr/en/producteurs-locaux/brasserie-des-3-phares-royan/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie de la Presqu'île d'Arvert",
+  "c": "Arvert",
+  "d": "17",
+  "lat": 45.75369,
+  "lon": -1.14457,
+  "km": 458.0,
+  "cat": 1,
+  "conf": "faible",
+  "note": "BDLP dans SIRENE. Boutique de vente directe de bières et limonades, et bar où l'on déguste les produits, d'après l'office de tourisme Royan Atlantique (même adresse que SIRENE). Pas de site officiel ni de page Untappd trouvés. L'office écrit les heures de vente à l'anglaise (« Monday, Tuesday, Wednesday and Thursday from 9am to 12pm and from 14:30pm to 20pm ») ; le contrôle ne relit pas cette écriture, elles ne sont pas reprises dans les horaires.",
+  "addr": "1 rue des Bouleaux, 17530 Arvert",
+  "src": "https://www.royanatlantique.fr/en/local-producers/brasserie-of-the-presquile-darvert-arvert/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie de la Vézère",
+  "c": "Uzerche",
+  "d": "19",
+  "lat": 45.42749,
+  "lon": 1.56443,
+  "km": 249.9,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Boutique de vente directe de toutes les bières et dégustation à la pression sur place, d'après le site de la brasserie.",
+  "addr": "2 allée de la Papeterie, 19140 Uzerche",
+  "src": "http://www.brasserie-vezere.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 55 73 11 56",
+   "site": "http://www.brasserie-vezere.fr/",
+   "source": "http://www.brasserie-vezere.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie des Anges",
+  "c": "Chamboulive",
+  "d": "19",
+  "lat": 45.42427,
+  "lon": 1.7104,
+  "km": 238.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale. Visites sur rendez-vous, avec dégustation à la fin. Aucune vente sur place n'est dite par la source : catégorie à confirmer.",
+  "addr": "Place de la Chapelle, 19450 Chamboulive",
+  "src": "https://brasseriedesanges.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 77 05 72 17",
+   "site": "https://brasseriedesanges.com/",
+   "source": "https://brasseriedesanges.com/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Corrézienne",
+  "c": "Marcillac-la-Croze",
+  "d": "19",
+  "lat": 45.03063,
+  "lon": 1.74033,
+  "km": 246.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale de Marcillac-la-Croze, établie par son site. Seul un guide commercial parle d'un bar : ce qu'on peut y faire reste à confirmer.",
+  "addr": "Marcillac-la-Croze",
+  "src": "https://www.brasserie-correzienne.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie du Causse",
+  "c": "Larche",
+  "d": "19",
+  "lat": 45.12292,
+  "lon": 1.41453,
+  "km": 267.9,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Petite brasserie artisanale sur le Causse corrézien, avec un bar et une vente à emporter du lundi au samedi (site officiel). Le site donne la vente à emporter du lundi au samedi, de 10 h à 12 h et de 15 h à 19 h, et le bar jusqu'à 19 h (23 h le vendredi) ; le contrôle ne relit pas l'écriture « 10H - 12H », ces heures restent dans cette note.",
+  "addr": "2 rue du Four, 19600 Larche",
+  "src": "https://www.brasserieducausse.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 07 88 66 88",
+   "site": "https://www.brasserieducausse.fr/",
+   "source": "https://www.brasserieducausse.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie TNT",
+  "c": "Brive-la-Gaillarde",
+  "d": "19",
+  "lat": 45.14662,
+  "lon": 1.47251,
+  "km": 262.8,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.",
+  "addr": "5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde",
+  "src": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 87 49 55 48",
+   "source": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie La Kreuze",
+  "c": "Anzême",
+  "d": "23",
+  "lat": 46.23681,
+  "lon": 1.83159,
+  "km": 234.4,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Microbrasserie avec son espace de vente et de dégustation ; bar et vente à emporter le jeudi, le vendredi et le samedi ; visites sur rendez-vous.",
+  "addr": "2 Forges 23000 Anzême",
+  "src": "https://www.brasserielakreuze.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 50 14 01 48",
+   "site": "https://www.brasserielakreuze.fr/",
+   "source": "https://www.brasserielakreuze.fr/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Visites guidées uniquement sur rendez-vous.",
+    "source": "https://www.brasserielakreuze.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Sostra",
+  "c": "La Souterraine",
+  "d": "23",
+  "lat": 46.23862,
+  "lon": 1.49046,
+  "km": 260.0,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe (site officiel, bières listées, commande en ligne, location de fûts et de tireuses). Le site ne dit ni vente à emporter, ni dégustation, ni horaires : rien n'établit encore ce qu'on peut y faire.",
+  "addr": "7 rue de la Font aux Moines, 23300 La Souterraine",
+  "src": "https://www.brasserie-sostra.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://www.brasserie-sostra.com/",
+   "source": "https://www.brasserie-sostra.com/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie du Plateau",
+  "c": "Aubusson",
+  "d": "23",
+  "lat": 45.9586,
+  "lon": 2.17319,
+  "km": 202.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale d'Aubusson ; sa boutique s'appelle « La Capsule ». Vente de bouteilles à la boutique d'après l'office de tourisme, qui ne parle pas de consommation sur place.",
+  "addr": "13 A rue Jules Sandeau, 23200 Aubusson",
+  "src": "https://www.tourisme-creuse.com/fr/offres/la-brasserie-du-plateau-aubusson-fr-2808034",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 55 67 51 37",
+   "site": "https://www.brasserieduplateau.fr",
+   "source": "https://www.brasserieduplateau.fr",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie des Monts de Guéret",
+  "c": "Guéret",
+  "d": "23",
+  "lat": 46.17578,
+  "lon": 1.89277,
+  "km": 228.2,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie artisanale de Guéret. Espace de vente sur le site de production avec un coin dégustation, selon l'office de tourisme de la Creuse.",
+  "addr": "26 avenue du Bourbonnais 23000 Guéret",
+  "src": "https://www.tourisme-creuse.com/en/offers/brasserie-des-monts-de-gueret-gueret-en-3972893",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 83 41 17 76",
+   "site": "https://www.brasseriemdg.com",
+   "source": "https://www.brasseriemdg.com",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Le Père l'Amer",
+  "c": "Thiviers",
+  "d": "24",
+  "lat": 45.41338,
+  "lon": 0.91405,
+  "km": 300.5,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie familiale qui brasse sur place ; boutique ouverte en semaine et le samedi matin, visite sur rendez-vous. Le bar rouvre seulement de temps en temps, surtout l'été.",
+  "addr": "16 rue Bertrand de Born, 24800 Thiviers",
+  "src": "https://leperelamer.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://leperelamer.fr/",
+   "source": "https://leperelamer.fr/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:30",
+      "12:30"
+     ]
+    ],
+    "source": "https://leperelamer.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "La Lutine de Limeuil",
+  "c": "Limeuil",
+  "d": "24",
+  "lat": 44.89381,
+  "lon": 0.90278,
+  "km": 313.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio de Limeuil. L'office de tourisme indique la vente à la propriété ; la dégustation n'a lieu qu'avec la visite.",
+  "addr": "1535 route de Saint Martin, 24510 Limeuil",
+  "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 53 57 47 80",
+   "site": "https://www.lalutine.com",
+   "source": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-la-lutine-limeuil-fr-2941105/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "BAM Brasserie Artisanale du Périgord",
+  "c": "Périgueux",
+  "d": "24",
+  "lat": 45.17927,
+  "lon": 0.73785,
+  "km": 318.2,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Site officiel : une boutique ouverte du lundi au samedi et une taproom (espace de dégustation sur place) ouverte du mercredi au samedi en fin de journée.",
+  "addr": "105 rue Pierre Magne, 24000 Périgueux",
+  "src": "https://www.bam-brasserie.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 33 82 01 57",
+   "site": "https://www.bam-brasserie.fr/",
+   "source": "https://www.bam-brasserie.fr/contact",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.bam-brasserie.fr/",
+    "verifieLe": "2026-11-06"
+   },
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.bam-brasserie.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "La Brasserie Artisanale de Saint Saud (Périgord Beers)",
+  "c": "Saint-Saud-Lacoussière",
+  "d": "24",
+  "lat": 45.53729,
+  "lon": 0.83296,
+  "km": 305.4,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Site officiel : un coin dégustation dans la grange, à côté de la brasserie. La vente à emporter n'y est pas dite, d'où la confiance faible (réponse de Cédric du 29/10).",
+  "addr": "Saint-Saud-Lacoussière",
+  "src": "https://perigordbeers.com/fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 81 16 59 59",
+   "site": "https://perigordbeers.com/fr/",
+   "source": "https://perigordbeers.com/fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Les 2 Ours",
+  "c": "Saint-Médard-de-Mussidan",
+  "d": "24",
+  "lat": 45.02257,
+  "lon": 0.3305,
+  "km": 353.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie avec boutique et vente à emporter d'après l'office de tourisme Dordogne-Périgord. Visites guidées sur rendez-vous seulement. Rien n'indique qu'on y boive sur place.",
+  "addr": "24 rue Marcel Janet, 24400 Saint-Médard-de-Mussidan",
+  "src": "https://www.dordogne-perigord-tourisme.fr/offres/brasserie-les-2-ours-saint-medard-de-mussidan-fr-3452540",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://shop.brasserie-les2ours.com/shop",
+   "source": "https://shop.brasserie-les2ours.com/shop",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Dobla",
+  "c": "Servanches",
+  "d": "24",
+  "lat": 45.13459,
+  "lon": 0.17037,
+  "km": 362.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale bio dans une ancienne ferme : vente directe à la brasserie, sur rendez-vous, d'après l'office de tourisme et le site. La dégustation n'a lieu qu'avec la visite.",
+  "addr": "635 route de la Dobla, Le Breuil, 24410 Servanches",
+  "src": "https://www.dordogne-perigord-tourisme.fr/offres/sas-brasserie-dobla-servanches-fr-2941635/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 82 28 02 98",
+   "site": "https://dobla.fr/",
+   "source": "https://dobla.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La NÒVÉ",
+  "c": "Bergerac",
+  "d": "24",
+  "lat": 44.84885,
+  "lon": 0.46313,
+  "km": 348.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio de Bergerac, en coopérative, établie par son site. Seul un guide commercial parle de vente à la brasserie : ce qu'on peut y faire reste à confirmer.",
+  "addr": "129 avenue Aristide Briand, Bâtiment 5, 24100 Bergerac",
+  "src": "https://www.brasserielanove.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 82 87 99 62",
+   "site": "https://www.brasserielanove.fr/",
+   "source": "https://www.brasserielanove.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie La Libellule",
+  "c": "Bergerac",
+  "d": "24",
+  "lat": 44.87379,
+  "lon": 0.50898,
+  "km": 343.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site officiel indique que la gamme se découvre aussi sur place, en vente directe ; il ne dit rien d'une consommation sur place, d'où la catégorie 2 et une confiance moyenne. Aucun horaire publié.",
+  "addr": "4 route de Corbiac, 24100 Bergerac",
+  "src": "https://brasserielalibellule.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 55 63 59 24",
+   "site": "https://brasserielalibellule.fr/",
+   "source": "https://brasserielalibellule.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Atelier Epic",
+  "c": "Boulazac Isle Manoire",
+  "d": "24",
+  "lat": 45.18397,
+  "lon": 0.78148,
+  "km": 314.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale de Boulazac, établie par son site. L'office de tourisme cite une boutique, sans passage exact lu : ce qu'on peut y faire reste à confirmer.",
+  "addr": "4 avenue Lucien Dutard, 24750 Boulazac Isle Manoire",
+  "src": "https://epic-brasserie.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 64 13 98 05",
+   "site": "https://epic-brasserie.fr",
+   "source": "https://epic-brasserie.fr",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Plume et l'Épi",
+  "c": "Grignols",
+  "d": "24",
+  "lat": 45.08753,
+  "lon": 0.54581,
+  "km": 335.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Ferme-brasserie de bières paysannes biologiques. Le site officiel dit qu'on y déguste les bières et qu'on y achète en vente directe. Accueil le samedi de 14 h à 23 h, visites sur rendez-vous. Les horaires de la vente directe ne sont pas donnés.",
+  "addr": "153 route Saint-Front de Bruc, 24110 Grignols",
+  "src": "https://www.plumepi.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 98 41 35 83",
+   "site": "https://www.plumepi.com/",
+   "source": "https://www.plumepi.com/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "sam": [
+     [
+      "14:00",
+      "23:00"
+     ]
+    ],
+    "remarque": "Visites sur rendez-vous.",
+    "source": "https://www.plumepi.com/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie artisanale Lémovice",
+  "c": "Razès",
+  "d": "87",
+  "lat": 46.0287,
+  "lon": 1.34468,
+  "km": 267.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières artisanales non filtrées La Lémovice ; vente directe sur rendez-vous, camion-restaurant et boutique sur le parking de mi-juin à mi-septembre (office de tourisme). Pas de site officiel trouvé (Facebook, Instagram).",
+  "addr": "19 rue de Limoges, 87640 Razès",
+  "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/brasserie-lemovice-razes-razes-en-4447683",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie de Bel Air (La Bergère)",
+  "c": "Saint-Bonnet-de-Bellac",
+  "d": "87",
+  "lat": 46.16086,
+  "lon": 0.93606,
+  "km": 300.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières bio non filtrées La Bergère ; vente à emporter d'après la fiche de l'office de tourisme (Visit Limousin). Site officiel biere-la-bergere.fr non lisible depuis la session.",
+  "addr": "RN 147, Bel Air, 87300 Saint-Bonnet-de-Bellac",
+  "src": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 55 68 26 93",
+   "source": "https://en.visitlimousin.com/discover-en/tasty-limousin-specialities/biere-bio-brasserie-de-bel-air-saint-bonnet-de-bellac-en-4130739/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie BRÂM",
+  "c": "Saint-Laurent-les-Églises",
+  "d": "87",
+  "lat": 45.96338,
+  "lon": 1.46636,
+  "km": 256.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie rurale artisanale existante (site officiel). Le site ne donne ni adresse, ni téléphone, ni horaires ; ce qu'on peut y faire n'est pas établi (le site invite à passer sur place, sans dire la vente).",
+  "addr": "Leycuras, 26 route du Bassin, 87240 Saint-Laurent-les-Églises",
+  "src": "https://brasseriebram.org",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://brasseriebram.org",
+   "source": "https://brasseriebram.org",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie La Stour",
+  "c": "Rilhac-Lastours",
+  "d": "87",
+  "lat": 45.67164,
+  "lon": 1.12428,
+  "km": 282.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Microbrasserie ; boutique sur place avec bières en bouteille et location de tireuses. Source : fiche d'un office de tourisme seul (hors SIRENE) ; horaires non publiés (« non sécurisés »).",
+  "addr": "15 route de Nexon, 87800 Rilhac-Lastours",
+  "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "09 54 42 75 23",
+   "source": "https://en.visitlimousin.com/touristic_sheet/brasserie-la-stour-rilhac-lastours-en-6004130/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie L'Obrador",
+  "c": "Compreignac",
+  "d": "87",
+  "lat": 45.98304,
+  "lon": 1.2551,
+  "km": 273.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe sur rendez-vous, d'après la fiche de l'office de tourisme (Visit Limousin). Pas de site officiel trouvé (Facebook et Instagram seulement).",
+  "addr": "1024 route de Vieilleville, 87140 Compreignac",
+  "src": "https://en.visitlimousin.com/touristic_sheet/brasserie-lobrador-compreignac-en-6126544",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
  }
 ]

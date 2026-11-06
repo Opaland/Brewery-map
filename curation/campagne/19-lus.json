@@ -8,7 +8,7 @@
     "conf": "moyenne",
     "note": "Petite brasserie artisanale sur le Causse corrézien, avec un bar et une vente à emporter du lundi au samedi (site officiel). Le site donne la vente à emporter du lundi au samedi, de 10 h à 12 h et de 15 h à 19 h, et le bar jusqu'à 19 h (23 h le vendredi) ; le contrôle ne relit pas l'écriture « 10H - 12H », ces heures restent dans cette note.",
     "src": "https://www.brasserieducausse.fr/",
-    "extrait": "Petite brasserie artisanale en pleine effervescence située sur le Causse Corrézien",
+    "extrait": "Ouverture BAR LUNDI-JEUDI jusqu'à 19h VENDREDI jusqu'à 23h VENTE A EMPORTER",
     "beers": [],
     "choix": "Le site officiel montre un bar et une section « VENTE A EMPORTER », mais ne dit pas explicitement que la bière est brassée sur place : confiance moyenne, pas solide. Deux mobiles publiés (06 07 88 66 88 et 06 71 39 61 39), je retiens le premier (celui qui est listé en premier). Les horaires du bar (« jusqu'à 19h », « jusqu'à 23h le vendredi ») n'ont pas d'heure d'ouverture, donc non repris. Dimanche non renseigné. Les bières sont citées par leur nom sans style, donc aucun type retenu. Aucune page Untappd trouvée. Lecture du site via un résumé (outil WebFetch), les passages ne sont pas confirmés mot pour mot.",
     "contact": {
@@ -23,7 +23,7 @@
     "c": "Brive-la-Gaillarde",
     "adresse": "5 rue Robert Margerit, Zone Ouest, 19100 Brive-la-Gaillarde",
     "cat": 1,
-    "conf": "moyenne",
+    "conf": "faible",
     "note": "Brasserie artisanale de Brive depuis 2010 : la fiche de l'office de tourisme cite sa boutique et son bar à bières, et une visite guidée sur rendez-vous.",
     "src": "https://www.brive-tourisme.com/en/fiche/degustations-tous-produits/brasserie-tnt-brive-la-gaillarde_TFODEGAQU019V5001E8",
     "extrait": "Come and discover the Factory and the different production processes, as well as the Boutique and its beer bar.",
