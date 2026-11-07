@@ -1,0 +1,33 @@
+{
+ "candidat": "node/8589568891",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Séquère",
+   "c": "Seignosse",
+   "d": "40",
+   "lat": 43.68696,
+   "lon": -1.35129,
+   "km": 530.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale et restaurant, existence établie par son site officiel (adresse et téléphone). Le site ne dit ni vente sur place ni dégustation ni horaires : catégorie à confirmer.",
+   "addr": "2 rue de l'Arroun, ZAE de Laubian, 40510 Seignosse",
+   "src": "https://lasequere.com/pages/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 86 46 20 02",
+    "site": "https://lasequere.com",
+    "source": "https://lasequere.com/pages/contact",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://lasequere.com/pages/contact",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+de+l%27Arroun%2C+ZAE+de+Laubian%2C+40510+Seignosse&limit=5"
+  ],
+  "extrait": "Brasserie Artisanale & Restaurant La Séquère",
+  "choix": "Seule ligne publiée par la brasserie sur son site : 06 86 46 20 02 (portable, règle du 21/10). Écartés : le 06 07 55 37 55 de Gault&Millau (annuaire, numéro différent de celui du site) et la catégorie 1, qui se déduirait du mot « Restaurant » et d'une cave citée par un annuaire seul. Le site parle d'un panier en ligne et de livraison, rien de plus. Aucune page Untappd trouvée."
+ }
+}

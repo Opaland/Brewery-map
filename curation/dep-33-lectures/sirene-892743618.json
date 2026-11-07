@@ -1,0 +1,52 @@
+{
+ "candidat": "sirene:892743618",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Rainon",
+   "c": "Tauriac",
+   "d": "33",
+   "lat": 45.05803,
+   "lon": -0.51091,
+   "km": 416.9,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Le site officiel de la brasserie donne ses horaires d'ouverture (mercredi et vendredi) et dit qu'on peut venir chercher les bières à la brasserie. La dégustation sur place est seulement un projet (« un lieu convivial pour vous recevoir »), donc non retenue.",
+   "addr": "10 Route du Meine Bernard, 33710 Tauriac",
+   "src": "https://www.brasserie-rainon.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 81 90 00 72",
+    "site": "https://www.brasserie-rainon.fr/",
+    "source": "https://www.brasserie-rainon.fr/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-rainon.fr/",
+     "mer": [
+      [
+       "15:30",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasserie-rainon.fr/",
+   "https://data.geopf.fr/geocodage/search?q=10+Route+du+Meine+Bernard%2C+33710+Tauriac&limit=5"
+  ],
+  "extrait": "En plus de venir les chercher à la brasserie directement (voir le plan ci-dessous)",
+  "choix": "Le seul numéro publié est un portable (07 81 90 00 72), celui de la brasserie sur son site : retenu d'après la règle du 21/10. Horaires rangés en « vente » : la page parle d'horaires d'ouverture et de retrait à la brasserie, pas de bar. La page dit aussi « Le Mercredi de 15h30 à 19h » et « Le Vendredi de 15h à 19h ». Pas d'Untappd trouvé. Il existe un point OSM « Brasserie Rainon » à Villegouge (candidat node/10113687349, même site) : c'est un autre candidat, non traité ici, à rapprocher peut-être de celle-ci."
+ }
+}

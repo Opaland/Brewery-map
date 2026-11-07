@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:830479812",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Bruel",
+   "c": "Tarnos",
+   "d": "40",
+   "lat": 43.53865,
+   "lon": -1.49858,
+   "km": 548.8,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Dégustations sur rendez-vous à la brasserie ; vente en ligne. La vente à emporter sur place n'est pas dite.",
+   "addr": "79 avenue du 1er Mai, 40220 Tarnos",
+   "src": "https://brasseriebruel.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 72 19 15 43",
+    "site": "https://brasseriebruel.fr/",
+    "source": "https://brasseriebruel.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseriebruel.fr/",
+   "https://data.geopf.fr/geocodage/search?q=79+avenue+du+1er+Mai%2C+40220+Tarnos&limit=5"
+  ],
+  "extrait": "Nous organisons des dégustations sur rendez-vous à la brasserie, ouvertes aux particuliers comme aux professionnels.",
+  "choix": "Page lue directement. On y boit sur rendez-vous, sans mention de vente à emporter : catégorie 1 en confiance faible, selon la réponse de Cédric du 29/10. Je ne passe pas en catégorie 4, car la page ne dit pas qu'on ne vend pas à emporter. Le numéro est un portable : c'est la seule ligne publiée par la brasserie sur son site (« Visites sur rendez-vous, appellez-nous +33 (0)6 72 19 15 43 »), donc permis par la règle du 21/10. Aucun horaire sur la page. Aucun lien Untappd sur la page."
+ }
+}

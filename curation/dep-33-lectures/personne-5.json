@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:5",
+ "ajout": {
+  "fiche": {
+   "n": "KM5 Bière",
+   "c": "Génissac",
+   "d": "33",
+   "lat": 44.86243,
+   "lon": -0.23329,
+   "km": 400.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Le site se présente comme brasserie et bar à bière près de Libourne ; il ne dit pas que la bière est brassée sur place : ce qu'on peut y faire reste à confirmer.",
+   "addr": "1316 route de Moulon, 33420 Génissac",
+   "src": "https://km5biere.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 65 66 04 25",
+    "site": "https://km5biere.com/",
+    "source": "https://km5biere.com/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://km5biere.com/",
+   "https://data.geopf.fr/geocodage/search?q=1316+route+de+Moulon%2C+33420+G%C3%A9nissac&limit=5"
+  ],
+  "extrait": "Bar à bière artisanal près de Libourne et Saint Emilion",
+  "choix": "Cat. 1 faible : site officiel qui parle d'un bar à bière, de visites et d'after-work sur la terrasse, et d'une boutique sans modalités (règle de Cédric du 29/10). Portable 06 65 66 04 25 : seule ligne publiée par la brasserie (règle du 21/10). Horaires non repris : lundi-mercredi 9h-17h sans nature dite, et jeudi-vendredi contradictoires (17h-21h dans un encadré, 17h-23h dans « Retrouvez-nous »). Untappd non trouvé sur le site. Le nom de la personne n'est pas recopié."
+ }
+}

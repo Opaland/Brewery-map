@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:752273409",
+ "ajout": {
+  "fiche": {
+   "n": "Ici On Brasse",
+   "c": "Auriolles",
+   "d": "33",
+   "lat": 44.74142,
+   "lon": 0.04913,
+   "km": 382.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale d'Auriolles. L'office de tourisme du Pays Foyen parle de visites et d'une boutique sur rendez-vous, avec dégustation à la visite ; aucun passage exact sur la vente : ce qu'on peut y faire reste à confirmer.",
+   "addr": "6 le Bourg Nord, 33790 Auriolles",
+   "src": "https://www.tourisme-dordogne-paysfoyen.com/en/tasting/here-we-brew/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 87 71 63 12",
+    "site": "https://www.biereartisanalebordeaux.fr/",
+    "source": "https://www.biereartisanalebordeaux.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.tourisme-dordogne-paysfoyen.com/en/tasting/here-we-brew/",
+   "https://www.biereartisanalebordeaux.fr/",
+   "https://data.geopf.fr/geocodage/search?q=6+le+Bourg+Nord%2C+33790+Auriolles&limit=5"
+  ],
+  "extrait": "In the village of Auriolles, come and enjoy the calm and the view of the Bordeaux vineyards from our craft brewery.",
+  "choix": "Confiance moyenne : la vente et la dégustation sont lues sur des offices (Pays Foyen, Pays de Bergerac), pas sur le site de la brasserie. Le site de la brasserie (icionbrasse.fr, redirigé vers biereartisanalebordeaux.fr) confirme l'existence, l'adresse et le portable, mais pas les horaires ni la vente. Portable retenu : seule ligne publiée par la brasserie sur son site. Le numéro de l'office du Pays Foyen (05 57 46 03 00) est écarté. Les bières du site (Blanche Lager, Blonde Ale, IPA…) ne sont pas mises dans beers faute de page Untappd. Page Untappd non trouvée."
+ }
+}

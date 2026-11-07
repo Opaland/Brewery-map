@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 772 | 21 (3 %) | 42 | 288 | 247 | 306 | 418 | 510 | 607 |
+| **Total** | 797 | 21 (3 %) | 42 | 300 | 249 | 310 | 423 | 529 | 632 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -42,11 +42,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 29 · Finistère | 19 | 1 (5 %) | 0 | 8 | 4 | 8 | 14 | 11 | 4 |
 | 2A · Corse-du-Sud | 1 | 0 (0 %) | 0 | 1 | 0 | 1 | 0 | 1 | 1 |
 | 2B · Haute-Corse | 4 | 0 (0 %) | 0 | 0 | 4 | 4 | 4 | 4 | 4 |
+| 33 · Gironde | 16 | 0 (0 %) | 0 | 7 | 0 | 2 | 2 | 11 | 16 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
 | 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
 | 38 · Isère | 32 | 1 (3 %) | 7 | 22 | 17 | 30 | 26 | 28 | 24 |
 | 39 · Jura | 14 | 0 (0 %) | 0 | 9 | 10 | 2 | 8 | 11 | 13 |
+| 40 · Landes | 9 | 0 (0 %) | 0 | 5 | 2 | 2 | 3 | 8 | 9 |
 | 41 · Loir-et-Cher | 1 | 0 (0 %) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | 42 · Loire | 21 | 1 (5 %) | 4 | 9 | 10 | 16 | 14 | 17 | 15 |
 | 43 · Haute-Loire | 7 | 0 (0 %) | 3 | 3 | 5 | 6 | 6 | 7 | 6 |
@@ -94,7 +96,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-288 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+300 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -258,6 +260,16 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Filitosa A Biera Corsa (Sollacaro) : sans adresse vérifiée, sans horaires, sans bières
 
+### 33 · Gironde
+
+- Brasserie Garona (Saint-Médard-en-Jalles) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie Mascaret (Le Bouscat) : sans téléphone, sans horaires, sans bières
+- La Plagiste (Vensac) : sans téléphone, sans horaires, sans bières
+- Brasserie Lalune (Bordeaux) : sans horaires, sans bières
+- Ici On Brasse (Auriolles) : sans horaires, sans bières
+- KM5 Bière (Génissac) : sans horaires, sans bières
+- Laca Boiates (La Teste-de-Buch) : sans horaires, sans bières
+
 ### 35 · Ille-et-Vilaine
 
 - Brasserie Beltane (Rennes) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
@@ -313,6 +325,14 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - La Jurassique (Pupillin) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie La Cascade (Les Rousses) : sans horaires, sans bières
 - Brasserie Vachement Jura (Ivrey) : sans horaires, sans bières
+
+### 40 · Landes
+
+- L'Escource (Escource) : sans site, sans téléphone, sans horaires, sans bières
+- La Petite Landaise (Saint-Julien-en-Born) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie Cath' (Labenne) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie La Séquère (Seignosse) : sans horaires, sans bières
+- Kanaha Beer (Biscarrosse) : sans horaires, sans bières
 
 ### 42 · Loire
 

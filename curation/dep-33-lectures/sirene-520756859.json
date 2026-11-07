@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:520756859",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Gasconha",
+   "c": "Pessac",
+   "d": "33",
+   "lat": 44.78232,
+   "lon": -0.64505,
+   "km": 434.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brewpub (Gascopub) installé dans l'atelier de production, avec terrasse. La page ne dit rien de la vente à emporter.",
+   "addr": "5 avenue Louis de Broglie, 33600 Pessac",
+   "src": "https://www.gasconha.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 56 08 93 32",
+    "site": "https://www.gasconha.fr/",
+    "source": "https://www.gasconha.fr/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.gasconha.fr/",
+     "lun": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "mar": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:00"
+      ]
+     ],
+     "remarque": "Horaires du Gascopub (brewpub).",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.gasconha.fr/",
+   "https://data.geopf.fr/geocodage/search?q=5+avenue+Louis+de+Broglie%2C+33600+Pessac&limit=5"
+  ],
+  "extrait": "prolongé par une terrasse, est l'endroit parfait pour vos afterworks",
+  "choix": "Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, vente à emporter non mentionnée. Horaires : seuls ceux du Gascopub sont repris (accueil). Les horaires « Brasserie 8h30-17h30 » ne sont pas repris, car la page ne dit pas que c'est de la vente. Pas d'Untappd trouvé sur la page ni dans les recherches. Aucun type de bière précis n'est lisible (« bières artisanales »), donc beers est vide."
+ }
+}

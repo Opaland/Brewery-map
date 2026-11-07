@@ -1,0 +1,450 @@
+[
+  {
+    "cle": "sirene:522040039",
+    "n": "Brasserie Mascaret",
+    "c": "Le Bouscat",
+    "adresse": "20 rue Charles Cante, 33110 Le Bouscat",
+    "cat": 0,
+    "conf": "",
+    "note": "Le site de la brasserie annonce une visite gratuite suivie d'une dégustation ; il ne dit pas si l'on peut acheter ou boire hors visite.",
+    "src": "https://www.bieremascaret.com/contact",
+    "extrait": "1h00 de visite gratuite, ensuite vous pouvez déguster ce qui vous plait au prix de la brasserie.",
+    "beers": [],
+    "choix": "Catégorie 1 en confiance faible : la source dit qu'on boit sur place, sans parler de vente à emporter (réponse de Cédric du 29/10). Écarté : les horaires « Du lundi au vendredi : 9h00 -18h00 » et « Samedi : 10h00 – 13h00 » de la page contact, car la page ne dit pas s'il s'agit de l'accueil du public ou du bureau. Écarté : le mobile 07 60 59 20 09 donné par Gault&Millau (annuaire, ne suffit pas seul), le site ne publiant son numéro que sous forme d'image. Adresse : le site et Gault&Millau disent 20 rue Charles Cante, SIRENE dit 16 : j'ai pris celle du site. Aucune page Untappd trouvée. La page n'est pas datée : la visite du « vendredi 17 janvier » est peut-être une annonce périmée.",
+    "contact": {
+      "site": "https://www.bieremascaret.com/",
+      "source": "https://www.bieremascaret.com/contact"
+    }
+  },
+  {
+    "cle": "sirene:881551345",
+    "n": "Brasserie Winterholer",
+    "c": "Villenave-d'Ornon",
+    "adresse": "90 Chemin de Leyran, 33140 Villenave-d'Ornon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel de la brasserie dit qu'on accueille les clients du lundi au vendredi de 9 h à 17 h, pour des achats en direct. Il ne parle ni de dégustation sur place ni de bar. Il ne donne pas la rue. L'adresse 90 chemin de Leyran vient du répertoire SIRENE (WH LAB) et du point OpenStreetMap « Winterholer », qui porte la même adresse et le même site.",
+    "src": "https://brasserie.bio/",
+    "extrait": "Nous accueillons les clients du lundi au vendredi 9h-17h à la brasserie",
+    "beers": [],
+    "choix": "Page lue via un résumé de WebFetch (plusieurs demandes, mêmes phrases). L'extrait est assemblé de deux citations contiguës du résumé : à vérifier d'un coup d'œil. Confiance moyenne car le lien entre WH LAB (SIRENE) et Winterholer ne vient pas de la page elle-même : il vient de l'adresse commune dans OSM. Le portable 06 61 17 35 88 est la seule ligne publiée par la brasserie sur son site (règle du 21/10). Je ne reprends pas les horaires OSM (me 11:30-17:00, jeu-ven 11:30-19:00), qui contredisent le site. Types de bière lus (« De la bière blonde florale au style lambic élevée en barrique »), mais sans liste de bières, donc beers vide. Pas de page Untappd trouvée.",
+    "contact": {
+      "tel": "06 61 17 35 88",
+      "site": "https://brasserie.bio/",
+      "source": "https://brasserie.bio/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ],
+        "remarque": "Le site conseille de les contacter en amont pour s'assurer de leur présence.",
+        "source": "https://brasserie.bio/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:820596104",
+    "n": "Brasserie Burdigala",
+    "c": "Gradignan",
+    "adresse": "9 rue Eugène Buhan, 33170 Gradignan",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente de bières sur place au tarif producteur, d'après la page points de vente du site de la brasserie ; la brasserie propose aussi des visites avec dégustation et un bar à la même adresse (page « Bar » du site), non retenu en catégorie 1 faute de passage exact.",
+    "src": "https://www.bieredebordeaux.com/points-de-vente/",
+    "extrait": "VENTE DE BIÈRES SUR PLACE AU TARIF PRODUCTEUR",
+    "beers": [],
+    "choix": "Cat. 2 prudente : la page https://www.bieredebordeaux.com/points-de-vente-copy/ décrit un bar au 9 rue Eugène Buhan (dégustations, restauration, mardi 11h-20h30, mercredi-vendredi 11h-22h) ce qui ferait une cat. 1, mais je n'ai pas de passage exact (résumé paraphrasé). À relire par Cédric. Horaires : seul le bloc vente est repris, de la ligne « Ouverture : Lundi de 9h30 à 17h / Mardi de 9h30 à 20h30 / Mercredi au Vendredi de 9h30 à 22h » ; ceux du bar sont écartés. Téléphone 05 56 91 15 88 lu sur l'accueil (écrit en +33) et sur la page points de vente (format espacé). Untappd https://untappd.com/BrasserieBurdigala ouvert (Gradignan) ; lien lu sur l'accueil. Beers laissé vide : types non transcrits au schéma (Untappd montre IPA, witbier, saison, stout…).",
+    "contact": {
+      "tel": "05 56 91 15 88",
+      "site": "https://bieredebordeaux.com",
+      "untappd": "https://untappd.com/BrasserieBurdigala",
+      "source": "https://bieredebordeaux.com"
+    }
+  },
+  {
+    "cle": "personne:5",
+    "n": "KM5 Bière",
+    "c": "Génissac",
+    "adresse": "1316 route de Moulon, 33420 Génissac",
+    "cat": 0,
+    "conf": "",
+    "note": "Le site se présente comme brasserie et bar à bière près de Libourne ; il ne dit pas que la bière est brassée sur place : ce qu'on peut y faire reste à confirmer.",
+    "src": "https://km5biere.com/",
+    "extrait": "Bar à bière artisanal près de Libourne et Saint Emilion",
+    "beers": [],
+    "choix": "Cat. 1 faible : site officiel qui parle d'un bar à bière, de visites et d'after-work sur la terrasse, et d'une boutique sans modalités (règle de Cédric du 29/10). Portable 06 65 66 04 25 : seule ligne publiée par la brasserie (règle du 21/10). Horaires non repris : lundi-mercredi 9h-17h sans nature dite, et jeudi-vendredi contradictoires (17h-21h dans un encadré, 17h-23h dans « Retrouvez-nous »). Untappd non trouvé sur le site. Le nom de la personne n'est pas recopié.",
+    "contact": {
+      "tel": "06 65 66 04 25",
+      "site": "https://km5biere.com/",
+      "source": "https://km5biere.com/"
+    }
+  },
+  {
+    "cle": "sirene:812987444",
+    "n": "Brasserie Lalune",
+    "c": "Bordeaux",
+    "adresse": "87 quai des Queyries, 33100 Bordeaux",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio sur la rive droite de Bordeaux d'après son site (enseigne Lalune) ; le site renvoie à une boutique en ligne et ne dit rien de la vente ni de l'accueil sur place.",
+    "src": "https://brasseurs-lalune.fr",
+    "extrait": "La brasserie Lalune est ancrée en bord de Garonne sur la rive droite de Bordeaux, au plein cœur du Port de la Lune.",
+    "beers": [],
+    "choix": "Cat. 0 : Gault&Millau et tablejourney (annuaires) parlent de dégustation sur place et d'horaires mer-sam 17h-23h ; un annuaire seul ne suffit pas, écarté. Le site officiel n'a ni horaires ni mention de vente sur place. Le rattachement SIRENE (« La Brasserie de la Lune », 87 quai des Queyries) à l'enseigne Lalune repose sur l'adresse identique lue sur la page contact. Téléphone fixe 05 57 97 14 66 publié sur la page contact. Untappd non trouvé.",
+    "contact": {
+      "tel": "05 57 97 14 66",
+      "site": "https://brasseurs-lalune.fr",
+      "source": "https://brasseurs-lalune.fr/contact/"
+    }
+  },
+  {
+    "cle": "sirene:824016158",
+    "n": "Naùera",
+    "c": "Saint-Laurent-Médoc",
+    "adresse": "ZA Le Treytin, 33112 Saint-Laurent-Médoc",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Magasin de vente sur place et bar, d'après la page visite du site de la brasserie ; visites sur rendez-vous du lundi au vendredi, fermée le lundi et le mardi. Page marquée « © 2020 » : à recontrôler.",
+    "src": "https://nauera.com/visite-magasin-food-trucks/",
+    "extrait": "Sur place un magasin de vente de nos bières, de nos vins, et de produits réalisés par des artisans locaux.",
+    "beers": [],
+    "choix": "Conf. moyenne : site officiel clair mais pied de page 2020. Horaires en bloc « vente » (mercredi 10h-19h30, jeudi 10h-21h, vendredi 10h-19h30, lundi et mardi fermés) ; le bar « ouvert de 11H00 A 19H30 » et les visites sur RDV vont en remarque car leurs jours ne sont pas dits. Le résumé ne précise pas que ces horaires sont ceux du magasin. Téléphone 05 56 41 10 13 lu sur l'accueil. Untappd non trouvé sur le site.",
+    "contact": {
+      "tel": "05 56 41 10 13",
+      "site": "https://nauera.com",
+      "source": "https://nauera.com"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mer": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "21:00"
+          ]
+        ],
+        "ven": [
+          [
+            "10:00",
+            "19:30"
+          ]
+        ],
+        "remarque": "Un bar est ouvert de 11h à 19h30 (jours non précisés par la source) ; visites sur rendez-vous du lundi au vendredi.",
+        "source": "https://nauera.com/visite-magasin-food-trucks/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:894931468",
+    "n": "Laca Boiates",
+    "c": "La Teste-de-Buch",
+    "adresse": "160 avenue André Ampère, 33260 La Teste de Buch",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale en activité d'après son site officiel (brassée sur place depuis 2021). Le site a un lien « Visite et dégustation » sans contenu lu et une boutique en ligne : on ne sait pas si l'on peut y acheter ou boire sur place. Aucun horaire publié.",
+    "src": "https://www.lacaboiates.fr/",
+    "extrait": "Toutes nos bières sont brassées dans notre Brasserie à La Teste-de-Buch par nos équipes depuis 2021.",
+    "beers": [],
+    "choix": "Catégorie 0 : le site ne dit pas si l'on vend ou boit sur place. Un seul numéro publié, un portable, retenu parce que c'est la seule ligne de la brasserie sur son site. Pas d'Untappd trouvé.",
+    "contact": {
+      "tel": "07 83 39 28 98",
+      "site": "https://www.lacaboiates.fr/",
+      "source": "https://www.lacaboiates.fr/"
+    }
+  },
+  {
+    "cle": "sirene:752273409",
+    "n": "Ici On Brasse",
+    "c": "Auriolles",
+    "adresse": "6 le Bourg Nord, 33790 Auriolles",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale d'Auriolles. L'office de tourisme du Pays Foyen parle de visites et d'une boutique sur rendez-vous, avec dégustation à la visite ; aucun passage exact sur la vente : ce qu'on peut y faire reste à confirmer.",
+    "src": "https://www.tourisme-dordogne-paysfoyen.com/en/tasting/here-we-brew/",
+    "extrait": "In the village of Auriolles, come and enjoy the calm and the view of the Bordeaux vineyards from our craft brewery.",
+    "beers": [],
+    "choix": "Confiance moyenne : la vente et la dégustation sont lues sur des offices (Pays Foyen, Pays de Bergerac), pas sur le site de la brasserie. Le site de la brasserie (icionbrasse.fr, redirigé vers biereartisanalebordeaux.fr) confirme l'existence, l'adresse et le portable, mais pas les horaires ni la vente. Portable retenu : seule ligne publiée par la brasserie sur son site. Le numéro de l'office du Pays Foyen (05 57 46 03 00) est écarté. Les bières du site (Blanche Lager, Blonde Ale, IPA…) ne sont pas mises dans beers faute de page Untappd. Page Untappd non trouvée.",
+    "contact": {
+      "tel": "06 87 71 63 12",
+      "site": "https://www.biereartisanalebordeaux.fr/",
+      "source": "https://www.biereartisanalebordeaux.fr/"
+    }
+  },
+  {
+    "cle": "sirene:882516461",
+    "n": "La Plagiste",
+    "c": "Vensac",
+    "adresse": "2 rue du Cimetière, 33590 Vensac",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale listée par l'office Médoc Atlantique. La page ne dit ni horaires, ni vente, ni dégustation.",
+    "src": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+    "extrait": "Brasserie la Plagiste, 2 rue du cimetière, 33590 Vensac",
+    "beers": [],
+    "choix": "Catégorie 0 : la page de l'office ne dit rien de ce qu'on peut y faire. Un résumé de recherche donnait des horaires (mardi-samedi 17h30-19h30), mais la page ouverte ne les contient pas : écartés. Portable 06 69 00 12 08 présent dans le bloc de la brasserie sur l'office, mais un portable doit venir de la brasserie : non repris, à trancher. Le site officiel brasserielaplagiste.fr répond 403 : non lu.",
+    "contact": {
+      "site": "https://www.brasserielaplagiste.fr/la-plagiste/",
+      "source": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/"
+    }
+  },
+  {
+    "cle": "sirene:824767396",
+    "n": "Maison PIP",
+    "c": "Bègles",
+    "adresse": "48 rue Ferdinand Buisson, 33130 Bègles",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie bio avec un atelier-bar (taproom) ouvert du mardi au samedi : on y déguste les créations de la maison, et la boutique voisine vend toute la gamme à emporter, d'après le site de la brasserie.",
+    "src": "https://maisonpip.com/atelier-bar",
+    "extrait": "déguster l'ensemble de nos créations",
+    "beers": [],
+    "choix": "Lu via un résumé de la page https://maisonpip.com/atelier-bar. La page dit aussi, d'après ce résumé, « l'ensemble de notre gamme de bières en vente à emporter » et que la boutique ouvre en même temps que l'atelier-bar : d'où la catégorie 1. Horaires non proposés : l'atelier-bar dit « Ouvert du Mardi au Samedi » (mardi-vendredi 17h-22h, samedi 16h-22h), mais l'accueil et le contact disent mercredi-samedi 17h-00h. Les deux pages du site se contredisent, donc rien n'est écrit. La brasserie annonce aussi « lun. au ven. de 9h à 18h » et « Visite : sur réservation », sans que la vente soit précisée sur ces créneaux. Téléphone : un seul numéro, celui de la brasserie, lu sur la page contact. Untappd : https://untappd.com/maisonpip existe (micro-brasserie, 35 bières), mais je n'ai pas lu ce lien sur le site de la brasserie. Je ne l'ai donc pas mis dans contact, à ajouter si Cédric le veut. Les styles de bière sont lus sur Untappd, sans date de relevé : beers laissé vide.",
+    "contact": {
+      "tel": "05 47 74 87 05",
+      "site": "https://maisonpip.com/",
+      "source": "https://maisonpip.com/contact"
+    }
+  },
+  {
+    "cle": "sirene:789986288",
+    "n": "Brasserie Garona",
+    "c": "Saint-Médard-en-Jalles",
+    "adresse": "17 rue de Belfort, 33160 Saint-Médard-en-Jalles",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio qui brasse et embouteille sur place (site officiel). Le site ne dit pas si l'on peut y acheter ni y boire ; à confirmer.",
+    "src": "https://www.bieregarona.fr/",
+    "extrait": "Le brassage, l'embouteillage, l'étiquetage et le conditionnement sont fait sur place à la brasserie.",
+    "beers": [],
+    "choix": "Page lue directement sur le site officiel. Catégorie laissée à 0 : la page n'écrit rien sur la vente à emporter ni sur la dégustation. Horaires non repris : la page les affiche sans dire s'il s'agit d'un accueil ou d'une vente, et le samedi « 10h00 / 15h00 » est ambigu. Téléphone : 06 70 71 92 45 est un portable, mais c'est la seule ligne publiée par la brasserie sur son site (règle du 21/10). Aucune page Untappd ni office de tourisme trouvés ; l'existence repose sur le site officiel, avec un point OSM (node/9163317608) et la ligne SIRENE du paquet. Les bières ne sont pas nommées sur le site, donc beers est vide.",
+    "contact": {
+      "tel": "06 70 71 92 45",
+      "site": "https://www.bieregarona.fr/",
+      "source": "https://www.bieregarona.fr/"
+    }
+  },
+  {
+    "cle": "sirene:892743618",
+    "n": "Brasserie Rainon",
+    "c": "Tauriac",
+    "adresse": "10 Route du Meine Bernard, 33710 Tauriac",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Le site officiel de la brasserie donne ses horaires d'ouverture (mercredi et vendredi) et dit qu'on peut venir chercher les bières à la brasserie. La dégustation sur place est seulement un projet (« un lieu convivial pour vous recevoir »), donc non retenue.",
+    "src": "https://www.brasserie-rainon.fr/",
+    "extrait": "En plus de venir les chercher à la brasserie directement (voir le plan ci-dessous)",
+    "beers": [],
+    "choix": "Le seul numéro publié est un portable (07 81 90 00 72), celui de la brasserie sur son site : retenu d'après la règle du 21/10. Horaires rangés en « vente » : la page parle d'horaires d'ouverture et de retrait à la brasserie, pas de bar. La page dit aussi « Le Mercredi de 15h30 à 19h » et « Le Vendredi de 15h à 19h ». Pas d'Untappd trouvé. Il existe un point OSM « Brasserie Rainon » à Villegouge (candidat node/10113687349, même site) : c'est un autre candidat, non traité ici, à rapprocher peut-être de celle-ci.",
+    "contact": {
+      "tel": "07 81 90 00 72",
+      "site": "https://www.brasserie-rainon.fr/",
+      "source": "https://www.brasserie-rainon.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "mer": [
+          [
+            "15:30",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "source": "https://www.brasserie-rainon.fr/"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:884866997",
+    "n": "Brasserie du Sabot",
+    "c": "Villenave-d'Ornon",
+    "adresse": "92 Avenue Fernand Granet, 33140 Villenave-d'Ornon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Le site officiel propose de commander en ligne puis de retirer les bières à la brasserie ou de se les faire livrer à vélo. Pas d'horaires réguliers : il faut appeler avant de passer. Aucune dégustation sur place n'est mentionnée.",
+    "src": "https://sabot.beer/",
+    "extrait": "Le retrait direct à la brasserie",
+    "beers": [],
+    "choix": "Portable (06 38 04 13 29), seul numéro publié par la brasserie sur son site : retenu d'après la règle du 21/10. Aucun bloc d'horaires : la source ne donne aucun jour, seulement « appeler avant de passer » (dit dans la note). Aucun type de bière détaillé sur la page ; pas d'Untappd trouvé. Confiance moyenne : le retrait à la brasserie est dit, mais sans jours ni horaires. Le point OSM node/8392078751 (Cadaujac, même adresse et même site) désigne la même brasserie : le candidat OSM est un doublon de celui-ci.",
+    "contact": {
+      "tel": "06 38 04 13 29",
+      "site": "https://sabot.beer/",
+      "source": "https://sabot.beer/"
+    }
+  },
+  {
+    "cle": "sirene:908704935",
+    "n": "Brasserie Zebra",
+    "c": "Preignac",
+    "adresse": "310 Rue de la Feuillée, 33210 Preignac",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le site officiel présente une guinguette où l'on déguste les bières sur place. Il ne dit pas clairement si l'on peut acheter à emporter (la page « Boutique physique » est vide dans la lecture ; la boutique en ligne livre à domicile). La guinguette est saisonnière : les horaires cités sont d'un post Instagram, de mai à octobre.",
+    "src": "https://brasseriezebra.fr",
+    "extrait": "Un espace convivial à Preignac pour déguster nos bières sur place.",
+    "beers": [],
+    "choix": "Cédric 29/10 : on boit sur place, la vente à emporter n'est pas dite, donc catégorie 1 en confiance faible, pas 4. Adresse du site (310 rue de la Feuillée) différente de celle du registre (1 La Feuillée), même commune : j'ai pris celle du site. Portable (07 45 10 02 42), seul numéro, publié par la brasserie sur son site : retenu d'après la règle du 21/10. Horaires écartés : ils ne viennent que d'un post Instagram cité sur la page (« Jeudi 17h–23h · Vendredi et samedi 17h–00h », de mai à octobre), source possiblement ancienne ; à relancer si on veut les ajouter. Pas d'Untappd trouvé.",
+    "contact": {
+      "tel": "07 45 10 02 42",
+      "site": "https://brasseriezebra.fr",
+      "source": "https://brasseriezebra.fr"
+    }
+  },
+  {
+    "cle": "sirene:828206144",
+    "n": "Brasserie Effet Papillon",
+    "c": "Mérignac",
+    "adresse": "35 avenue Gustave Eiffel, 33700 Mérignac",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie artisanale bio. Boutique avec vente à emporter, et bar avec terrasse en face du lieu de production (seize bières pression), d'après le site officiel.",
+    "src": "https://brasserieffetpapillon.com",
+    "extrait": "La boutique – vente à emporter et livraison de bouteilles et fûts ainsi que location de tireuse",
+    "beers": [],
+    "choix": "Deux numéros fixes sont publiés : LA BRASSERIE 05 35 65 52 82 et LE BAR 05 56 05 17 74. Je retiens celui de la brasserie. Écartés : le 06 99 23 07 77, qui est un mobile réservé aux professionnels, et le numéro du bar, qui est une exploitation voisine. Dimanche : la source dit « fermé », donc le jour est laissé absent. Les horaires sont ceux du bar et de la boutique réunis, d'où la nature « accueil ». La page Untappd https://untappd.com/EffetPapillon a été ouverte et s'affiche (brasserie en activité), mais elle ne donne aucune adresse. Je la retiens comme lien, sans en copier les notes. Aucune bière n'est saisie : les styles lus viennent de beertasting.com et birrapedia.com, qui sont des agrégateurs.",
+    "contact": {
+      "tel": "05 35 65 52 82",
+      "site": "https://brasserieffetpapillon.com",
+      "source": "https://brasserieffetpapillon.com"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "mar": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "mer": [
+          [
+            "12:00",
+            "21:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "12:00",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "12:00",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "15:00",
+            "21:00"
+          ]
+        ],
+        "remarque": "Horaires du bar et de la boutique. Dimanche : fermé.",
+        "source": "https://brasserieffetpapillon.com",
+        "verifieLe": "2026-11-06"
+      }
+    ]
+  },
+  {
+    "cle": "sirene:520756859",
+    "n": "Brasserie Gasconha",
+    "c": "Pessac",
+    "adresse": "5 avenue Louis de Broglie, 33600 Pessac",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brewpub (Gascopub) installé dans l'atelier de production, avec terrasse. La page ne dit rien de la vente à emporter.",
+    "src": "https://www.gasconha.fr/",
+    "extrait": "prolongé par une terrasse, est l'endroit parfait pour vos afterworks",
+    "beers": [],
+    "choix": "Catégorie 1 en confiance faible (réponse de Cédric du 29/10) : on boit sur place, vente à emporter non mentionnée. Horaires : seuls ceux du Gascopub sont repris (accueil). Les horaires « Brasserie 8h30-17h30 » ne sont pas repris, car la page ne dit pas que c'est de la vente. Pas d'Untappd trouvé sur la page ni dans les recherches. Aucun type de bière précis n'est lisible (« bières artisanales »), donc beers est vide.",
+    "contact": {
+      "tel": "05 56 08 93 32",
+      "site": "https://www.gasconha.fr/",
+      "source": "https://www.gasconha.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "lun": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "mar": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "22:00"
+          ]
+        ],
+        "remarque": "Horaires du Gascopub (brewpub).",
+        "source": "https://www.gasconha.fr/"
+      }
+    ]
+  }
+]

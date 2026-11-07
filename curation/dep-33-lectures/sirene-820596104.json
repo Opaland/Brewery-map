@@ -1,0 +1,35 @@
+{
+ "candidat": "sirene:820596104",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Burdigala",
+   "c": "Gradignan",
+   "d": "33",
+   "lat": 44.78222,
+   "lon": -0.63077,
+   "km": 433.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente de bières sur place au tarif producteur, d'après la page points de vente du site de la brasserie ; la brasserie propose aussi des visites avec dégustation et un bar à la même adresse (page « Bar » du site), non retenu en catégorie 1 faute de passage exact.",
+   "addr": "9 rue Eugène Buhan, 33170 Gradignan",
+   "src": "https://www.bieredebordeaux.com/points-de-vente/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 56 91 15 88",
+    "site": "https://bieredebordeaux.com",
+    "untappd": "https://untappd.com/BrasserieBurdigala",
+    "source": "https://bieredebordeaux.com",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.bieredebordeaux.com/points-de-vente/",
+   "https://bieredebordeaux.com",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+Eug%C3%A8ne+Buhan%2C+33170+Gradignan&limit=5"
+  ],
+  "extrait": "VENTE DE BIÈRES SUR PLACE AU TARIF PRODUCTEUR",
+  "choix": "Cat. 2 prudente : la page https://www.bieredebordeaux.com/points-de-vente-copy/ décrit un bar au 9 rue Eugène Buhan (dégustations, restauration, mardi 11h-20h30, mercredi-vendredi 11h-22h) ce qui ferait une cat. 1, mais je n'ai pas de passage exact (résumé paraphrasé). À relire par Cédric. Horaires : seul le bloc vente est repris, de la ligne « Ouverture : Lundi de 9h30 à 17h / Mardi de 9h30 à 20h30 / Mercredi au Vendredi de 9h30 à 22h » ; ceux du bar sont écartés. Téléphone 05 56 91 15 88 lu sur l'accueil (écrit en +33) et sur la page points de vente (format espacé). Untappd https://untappd.com/BrasserieBurdigala ouvert (Gradignan) ; lien lu sur l'accueil. Beers laissé vide : types non transcrits au schéma (Untappd montre IPA, witbier, saison, stout…)."
+ }
+}

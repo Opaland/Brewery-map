@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:811120518",
+ "ajout": {
+  "fiche": {
+   "n": "Rosny Beer",
+   "c": "Seignosse",
+   "d": "40",
+   "lat": 43.68077,
+   "lon": -1.36007,
+   "km": 531.7,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Boutique de la brasserie ouverte en semaine ; la dégustation n'a lieu qu'avec la visite, sur réservation. Le bar de Capbreton n'est pas à cette adresse.",
+   "addr": "705 ZA de Larrigan, 40510 Seignosse",
+   "src": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 47 80 08 60",
+    "site": "https://www.rosny-beer.com/",
+    "source": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+     "lun": [
+      [
+       "09:00",
+       "12:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:30"
+      ]
+     ],
+     "remarque": "Il se peut que nous soyons absents aux horaires d'ouverture, car en livraison ou pour d'autres raisons… Visites sur réservation.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+   "https://data.geopf.fr/geocodage/search?q=705+ZA+de+Larrigan%2C+40510+Seignosse&limit=5"
+  ],
+  "extrait": "Visites sur réservation, boutique ouverte du lundi au vendredi.",
+  "choix": "Page lue directement. Dégustation lue (« Les visites se terminent toujours par une dégustation ») et boutique avec horaires : catégorie 1. Le téléphone est celui du pied de page du site de la brasserie. Les horaires sont ceux de la boutique, donc un bloc « vente ». Aucun lien Untappd sur le site : je n'en propose pas."
+ }
+}

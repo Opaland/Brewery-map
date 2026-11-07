@@ -1,0 +1,27 @@
+{
+ "candidat": "node/12098838389",
+ "ajout": {
+  "fiche": {
+   "n": "La Petite Landaise",
+   "c": "Saint-Julien-en-Born",
+   "d": "40",
+   "lat": 44.06773,
+   "lon": -1.22914,
+   "km": 504.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Bière artisanale brassée à Saint-Julien-en-Born ; le site du tourisme des Landes annonce une visite de la brasserie avec dégustation. Rien sur la vente ni sur un accueil hors visite.",
+   "addr": "729 Route des Lacs, 40170 Saint-Julien-en-Born",
+   "src": "https://www.landes-holidays.com/degustation/la-petite-landaise-degaqu040v50nnop",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.landes-holidays.com/degustation/la-petite-landaise-degaqu040v50nnop",
+   "https://data.geopf.fr/geocodage/search?q=729+Route+des+Lacs%2C+40170+Saint-Julien-en-Born&limit=5"
+  ],
+  "extrait": "Discover how a beer is made, visit the brewery and taste the full, varied range of beers, not forgetting the ephemera.",
+  "choix": "Via un résumé. Site officiel (lapetitelandaise.com) en erreur 503 aux deux essais : à relancer. Seule source lue : la fiche du site de tourisme des Landes, confiance plafonnée. Classée 1 faible d'après la règle de Cédric du 29/10 (on y goûte, vente à emporter non dite) ; la dégustation est celle d'une visite, à vérifier. Aucun téléphone sur la page ; le portable 06 09 24 34 95 vu sur guide-des-landes.com (annuaire) n'est pas repris. Aucun doublon dans data/."
+ }
+}

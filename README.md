@@ -14,9 +14,9 @@ consultable hors connexion.
 
 ## Ce qu'elle fait
 
-- **Toute la France** : 772 fiches vérifiées dans 76 départements (01, 02, 03, 04, 05,
-  06, 07, 08, 10, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 2A, 2B, 35, 36, 37, 38, 39, 41, 42, 43,
-  44, 45, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 83, 84, 85, 87, 88, 89, 91, 92, 93, 94, 95), et 634 brasseries repérées sur OpenStreetMap
+- **Toute la France** : 797 fiches vérifiées dans 78 départements (01, 02, 03, 04, 05,
+  06, 07, 08, 10, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 2A, 2B, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43,
+  44, 45, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 83, 84, 85, 87, 88, 89, 91, 92, 93, 94, 95), et 612 brasseries repérées sur OpenStreetMap
   ailleurs,
   affichées « À confirmer », sur une liste et une carte.
 - **Partir de n'importe où** : « Autour de moi », ou une commune tapée parmi
@@ -33,7 +33,7 @@ Rien n'est inventé : sans source, une fiche dit « À confirmer » et pourquoi.
 Depuis le 18/10, par la règle de Cédric (`docs/DECISIONS.md`) : 44 des 166
 fiches d'origine ont été complétées d'après leur propre site (19
 téléphones, 10 horaires, 17 listes de bières, 14 positions à l'adresse) ;
-295 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
+299 sont aujourd'hui placées au centre de leur commune selon l'IGN, faute
 d'adresse vérifiée ; 36 brasseries de Normandie, 81 de Bretagne et 75 des Pays de la Loire et
 d'Indre-et-Loire sont ajoutées, puis 22 du Centre-Val de Loire et de
 Bretagne (S327, S328), 37 de l'Allier, du Cantal, du Puy-de-Dôme et de la

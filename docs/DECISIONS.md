@@ -235,3 +235,15 @@ option ; son choix est recopié tel qu'il l'a coché.
 | S343 : un téléphone publié seulement par un office de tourisme | « Fixes seulement » | Un fixe lu et daté sur l'office est repris ; un portable doit venir de la brasserie (S374) |
 | Popihn (Vaumort, 89) : Untappd et registre, sans site | « Garder » | Elle reste en « À confirmer », `data/` ne change pas |
 | Lavigney (70) : une enseigne qui est le nom de famille d'un entrepreneur individuel | « Laisser dehors » | Pas de fiche ; la règle tient sans exception |
+
+## Demande de Cédric du 06/11 : une routine quotidienne
+
+Mot pour mot : « J'aurais bien aujourd'hui que tu te fasses une routine sans moi qui fait que chaque jour tu fais une nouvelle région par toi-même et que une fois que tu as fait région bah tu utilises des personnes à pour vérifier que mission est bien faite? C'est pas fait. Tu le mets dans la backlog et le lendemain. Avant de commencer ma vision. Tu corriges avant l'édition et tu te mets comme ça un crayon qui tourne tous les matins à 8h ».
+
+| Ce qu'il demande | Ce qui en suit |
+|---|---|
+| Une région par jour, sans lui | Tâche planifiée « Région du jour », chaque matin à 7 h 47 (heure de Paris) : la région suivante d'E36, par la règle du 21/10, en une PR |
+| Vérifier avec les personas | L'agent `cedric` sur chaque lot avant l'application, puis une autre persona sur la carte |
+| Ce qui n'est pas fait va au BACKLOG | Section « Routine quotidienne — restes » de `BACKLOG.md`, datée |
+| Le lendemain, corriger avant de commencer | La routine traite d'abord cette section, puis la région |
+

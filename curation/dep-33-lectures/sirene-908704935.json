@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:908704935",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Zebra",
+   "c": "Preignac",
+   "d": "33",
+   "lat": 44.58727,
+   "lon": -0.29917,
+   "km": 414.4,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Le site officiel présente une guinguette où l'on déguste les bières sur place. Il ne dit pas clairement si l'on peut acheter à emporter (la page « Boutique physique » est vide dans la lecture ; la boutique en ligne livre à domicile). La guinguette est saisonnière : les horaires cités sont d'un post Instagram, de mai à octobre.",
+   "addr": "310 Rue de la Feuillée, 33210 Preignac",
+   "src": "https://brasseriezebra.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 45 10 02 42",
+    "site": "https://brasseriezebra.fr",
+    "source": "https://brasseriezebra.fr",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasseriezebra.fr",
+   "https://data.geopf.fr/geocodage/search?q=310+Rue+de+la+Feuill%C3%A9e%2C+33210+Preignac&limit=5"
+  ],
+  "extrait": "Un espace convivial à Preignac pour déguster nos bières sur place.",
+  "choix": "Cédric 29/10 : on boit sur place, la vente à emporter n'est pas dite, donc catégorie 1 en confiance faible, pas 4. Adresse du site (310 rue de la Feuillée) différente de celle du registre (1 La Feuillée), même commune : j'ai pris celle du site. Portable (07 45 10 02 42), seul numéro, publié par la brasserie sur son site : retenu d'après la règle du 21/10. Horaires écartés : ils ne viennent que d'un post Instagram cité sur la page (« Jeudi 17h–23h · Vendredi et samedi 17h–00h », de mai à octobre), source possiblement ancienne ; à relancer si on veut les ajouter. Pas d'Untappd trouvé."
+ }
+}

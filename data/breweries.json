@@ -29293,5 +29293,744 @@
   "coordPrecision": "address",
   "beers": [],
   "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "KM5 Bière",
+  "c": "Génissac",
+  "d": "33",
+  "lat": 44.86243,
+  "lon": -0.23329,
+  "km": 400.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site se présente comme brasserie et bar à bière près de Libourne ; il ne dit pas que la bière est brassée sur place : ce qu'on peut y faire reste à confirmer.",
+  "addr": "1316 route de Moulon, 33420 Génissac",
+  "src": "https://km5biere.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 65 66 04 25",
+   "site": "https://km5biere.com/",
+   "source": "https://km5biere.com/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Gasconha",
+  "c": "Pessac",
+  "d": "33",
+  "lat": 44.78232,
+  "lon": -0.64505,
+  "km": 434.2,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brewpub (Gascopub) installé dans l'atelier de production, avec terrasse. La page ne dit rien de la vente à emporter.",
+  "addr": "5 avenue Louis de Broglie, 33600 Pessac",
+  "src": "https://www.gasconha.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 56 08 93 32",
+   "site": "https://www.gasconha.fr/",
+   "source": "https://www.gasconha.fr/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "remarque": "Horaires du Gascopub (brewpub).",
+    "source": "https://www.gasconha.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Mascaret",
+  "c": "Le Bouscat",
+  "d": "33",
+  "lat": 44.8711,
+  "lon": -0.60824,
+  "km": 429.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site de la brasserie annonce une visite gratuite suivie d'une dégustation ; il ne dit pas si l'on peut acheter ou boire hors visite.",
+  "addr": "20 rue Charles Cante, 33110 Le Bouscat",
+  "src": "https://www.bieremascaret.com/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://www.bieremascaret.com/",
+   "source": "https://www.bieremascaret.com/contact",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Ici On Brasse",
+  "c": "Auriolles",
+  "d": "33",
+  "lat": 44.74142,
+  "lon": 0.04913,
+  "km": 382.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale d'Auriolles. L'office de tourisme du Pays Foyen parle de visites et d'une boutique sur rendez-vous, avec dégustation à la visite ; aucun passage exact sur la vente : ce qu'on peut y faire reste à confirmer.",
+  "addr": "6 le Bourg Nord, 33790 Auriolles",
+  "src": "https://www.tourisme-dordogne-paysfoyen.com/en/tasting/here-we-brew/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 87 71 63 12",
+   "site": "https://www.biereartisanalebordeaux.fr/",
+   "source": "https://www.biereartisanalebordeaux.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Garona",
+  "c": "Saint-Médard-en-Jalles",
+  "d": "33",
+  "lat": 44.89163,
+  "lon": -0.76171,
+  "km": 440.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio qui brasse et embouteille sur place (site officiel). Le site ne dit pas si l'on peut y acheter ni y boire ; à confirmer.",
+  "addr": "17 rue de Belfort, 33160 Saint-Médard-en-Jalles",
+  "src": "https://www.bieregarona.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 70 71 92 45",
+   "site": "https://www.bieregarona.fr/",
+   "source": "https://www.bieregarona.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Lalune",
+  "c": "Bordeaux",
+  "d": "33",
+  "lat": 44.84953,
+  "lon": -0.56147,
+  "km": 426.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio sur la rive droite de Bordeaux d'après son site (enseigne Lalune) ; le site renvoie à une boutique en ligne et ne dit rien de la vente ni de l'accueil sur place.",
+  "addr": "87 quai des Queyries, 33100 Bordeaux",
+  "src": "https://brasseurs-lalune.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 57 97 14 66",
+   "site": "https://brasseurs-lalune.fr",
+   "source": "https://brasseurs-lalune.fr/contact/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Burdigala",
+  "c": "Gradignan",
+  "d": "33",
+  "lat": 44.78222,
+  "lon": -0.63077,
+  "km": 433.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente de bières sur place au tarif producteur, d'après la page points de vente du site de la brasserie ; la brasserie propose aussi des visites avec dégustation et un bar à la même adresse (page « Bar » du site), non retenu en catégorie 1 faute de passage exact.",
+  "addr": "9 rue Eugène Buhan, 33170 Gradignan",
+  "src": "https://www.bieredebordeaux.com/points-de-vente/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 56 91 15 88",
+   "site": "https://bieredebordeaux.com",
+   "untappd": "https://untappd.com/BrasserieBurdigala",
+   "source": "https://bieredebordeaux.com",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Naùera",
+  "c": "Saint-Laurent-Médoc",
+  "d": "33",
+  "lat": 45.1309,
+  "lon": -0.85694,
+  "km": 442.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Magasin de vente sur place et bar, d'après la page visite du site de la brasserie ; visites sur rendez-vous du lundi au vendredi, fermée le lundi et le mardi. Page marquée « © 2020 » : à recontrôler.",
+  "addr": "ZA Le Treytin, 33112 Saint-Laurent-Médoc",
+  "src": "https://nauera.com/visite-magasin-food-trucks/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 56 41 10 13",
+   "site": "https://nauera.com",
+   "source": "https://nauera.com",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "remarque": "Un bar est ouvert de 11h à 19h30 (jours non précisés par la source) ; visites sur rendez-vous du lundi au vendredi.",
+    "source": "https://nauera.com/visite-magasin-food-trucks/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Maison PIP",
+  "c": "Bègles",
+  "d": "33",
+  "lat": 44.80236,
+  "lon": -0.55798,
+  "km": 427.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie bio avec un atelier-bar (taproom) ouvert du mardi au samedi : on y déguste les créations de la maison, et la boutique voisine vend toute la gamme à emporter, d'après le site de la brasserie.",
+  "addr": "48 rue Ferdinand Buisson, 33130 Bègles",
+  "src": "https://maisonpip.com/atelier-bar",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 47 74 87 05",
+   "site": "https://maisonpip.com/",
+   "source": "https://maisonpip.com/contact",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Effet Papillon",
+  "c": "Mérignac",
+  "d": "33",
+  "lat": 44.85738,
+  "lon": -0.66748,
+  "km": 433.9,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie artisanale bio. Boutique avec vente à emporter, et bar avec terrasse en face du lieu de production (seize bières pression), d'après le site officiel.",
+  "addr": "35 avenue Gustave Eiffel, 33700 Mérignac",
+  "src": "https://brasserieffetpapillon.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 35 65 52 82",
+   "site": "https://brasserieffetpapillon.com",
+   "source": "https://brasserieffetpapillon.com",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "12:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "12:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "21:00"
+     ]
+    ],
+    "remarque": "Horaires du bar et de la boutique. Dimanche : fermé.",
+    "source": "https://brasserieffetpapillon.com",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Winterholer",
+  "c": "Villenave-d'Ornon",
+  "d": "33",
+  "lat": 44.77707,
+  "lon": -0.54737,
+  "km": 427.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site officiel de la brasserie dit qu'on accueille les clients du lundi au vendredi de 9 h à 17 h, pour des achats en direct. Il ne parle ni de dégustation sur place ni de bar. Il ne donne pas la rue. L'adresse 90 chemin de Leyran vient du répertoire SIRENE (WH LAB) et du point OpenStreetMap « Winterholer », qui porte la même adresse et le même site.",
+  "addr": "90 Chemin de Leyran, 33140 Villenave-d'Ornon",
+  "src": "https://brasserie.bio/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 61 17 35 88",
+   "site": "https://brasserie.bio/",
+   "source": "https://brasserie.bio/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Le site conseille de les contacter en amont pour s'assurer de leur présence.",
+    "source": "https://brasserie.bio/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "La Plagiste",
+  "c": "Vensac",
+  "d": "33",
+  "lat": 45.39801,
+  "lon": -1.03979,
+  "km": 452.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale listée par l'office Médoc Atlantique. La page ne dit ni horaires, ni vente, ni dégustation.",
+  "addr": "2 rue du Cimetière, 33590 Vensac",
+  "src": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://www.brasserielaplagiste.fr/la-plagiste/",
+   "source": "https://www.medoc-atlantique.co.uk/sit/brasserie-la-plagiste-7094455/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie du Sabot",
+  "c": "Villenave-d'Ornon",
+  "d": "33",
+  "lat": 44.76454,
+  "lon": -0.54957,
+  "km": 427.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Le site officiel propose de commander en ligne puis de retirer les bières à la brasserie ou de se les faire livrer à vélo. Pas d'horaires réguliers : il faut appeler avant de passer. Aucune dégustation sur place n'est mentionnée.",
+  "addr": "92 Avenue Fernand Granet, 33140 Villenave-d'Ornon",
+  "src": "https://sabot.beer/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 38 04 13 29",
+   "site": "https://sabot.beer/",
+   "source": "https://sabot.beer/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Rainon",
+  "c": "Tauriac",
+  "d": "33",
+  "lat": 45.05803,
+  "lon": -0.51091,
+  "km": 416.9,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Le site officiel de la brasserie donne ses horaires d'ouverture (mercredi et vendredi) et dit qu'on peut venir chercher les bières à la brasserie. La dégustation sur place est seulement un projet (« un lieu convivial pour vous recevoir »), donc non retenue.",
+  "addr": "10 Route du Meine Bernard, 33710 Tauriac",
+  "src": "https://www.brasserie-rainon.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 81 90 00 72",
+   "site": "https://www.brasserie-rainon.fr/",
+   "source": "https://www.brasserie-rainon.fr/",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "15:30",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.brasserie-rainon.fr/",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Laca Boiates",
+  "c": "La Teste-de-Buch",
+  "d": "33",
+  "lat": 44.61231,
+  "lon": -1.13192,
+  "km": 476.4,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale en activité d'après son site officiel (brassée sur place depuis 2021). Le site a un lien « Visite et dégustation » sans contenu lu et une boutique en ligne : on ne sait pas si l'on peut y acheter ou boire sur place. Aucun horaire publié.",
+  "addr": "160 avenue André Ampère, 33260 La Teste de Buch",
+  "src": "https://www.lacaboiates.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 83 39 28 98",
+   "site": "https://www.lacaboiates.fr/",
+   "source": "https://www.lacaboiates.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Zebra",
+  "c": "Preignac",
+  "d": "33",
+  "lat": 44.58727,
+  "lon": -0.29917,
+  "km": 414.4,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le site officiel présente une guinguette où l'on déguste les bières sur place. Il ne dit pas clairement si l'on peut acheter à emporter (la page « Boutique physique » est vide dans la lecture ; la boutique en ligne livre à domicile). La guinguette est saisonnière : les horaires cités sont d'un post Instagram, de mai à octobre.",
+  "addr": "310 Rue de la Feuillée, 33210 Preignac",
+  "src": "https://brasseriezebra.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "07 45 10 02 42",
+   "site": "https://brasseriezebra.fr",
+   "source": "https://brasseriezebra.fr",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Petite Landaise",
+  "c": "Saint-Julien-en-Born",
+  "d": "40",
+  "lat": 44.06773,
+  "lon": -1.22914,
+  "km": 504.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Bière artisanale brassée à Saint-Julien-en-Born ; le site du tourisme des Landes annonce une visite de la brasserie avec dégustation. Rien sur la vente ni sur un accueil hors visite.",
+  "addr": "729 Route des Lacs, 40170 Saint-Julien-en-Born",
+  "src": "https://www.landes-holidays.com/degustation/la-petite-landaise-degaqu040v50nnop",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Brasserie de Lugazaut",
+  "c": "Vielle-Soubiran",
+  "d": "40",
+  "lat": 44.05437,
+  "lon": -0.17556,
+  "km": 428.2,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Microbrasserie ; vente directe et accueil à la microbrasserie sur rendez-vous, du lundi au samedi toute l'année. Dégustation sur place non mentionnée.",
+  "addr": "Route de Losse, 40240 Vielle-Soubiran",
+  "src": "https://www.brasseriedelugazaut.com",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 50 53 34 26",
+   "site": "https://www.brasseriedelugazaut.com",
+   "source": "https://www.brasseriedelugazaut.com",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Cath'",
+  "c": "Labenne",
+  "d": "40",
+  "lat": 43.59729,
+  "lon": -1.43513,
+  "km": 541.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale qui brasse à Labenne ; une page propose de réserver une visite. Vente sur place, dégustation et horaires non lus sur le site.",
+  "addr": "7 Allée Artiguenave, 40530 Labenne",
+  "src": "https://www.brasserie-cath.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 58 49 24 69",
+   "site": "https://www.brasserie-cath.com/",
+   "source": "https://www.brasserie-cath.com/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie La Séquère",
+  "c": "Seignosse",
+  "d": "40",
+  "lat": 43.68696,
+  "lon": -1.35129,
+  "km": 530.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale et restaurant, existence établie par son site officiel (adresse et téléphone). Le site ne dit ni vente sur place ni dégustation ni horaires : catégorie à confirmer.",
+  "addr": "2 rue de l'Arroun, ZAE de Laubian, 40510 Seignosse",
+  "src": "https://lasequere.com/pages/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 86 46 20 02",
+   "site": "https://lasequere.com",
+   "source": "https://lasequere.com/pages/contact",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "L'Escource",
+  "c": "Escource",
+  "d": "40",
+  "lat": 44.16173,
+  "lon": -1.02486,
+  "km": 485.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie d'Escource, ouverte au public le jeudi d'après le site du tourisme des Landes, sans dire ce qu'on peut y faire. L'office écrit les heures à l'anglaise (le jeudi de 10 h à 12 h et de 14 h à 19 h 30) ; le contrôle ne relit pas cette écriture, elles restent dans cette note.",
+  "addr": "7 zone artisanale Moulin de Haut, 40210 Escource",
+  "src": "https://www.landes-holidays.com/?p=355324",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06"
+ },
+ {
+  "n": "Rosny Beer",
+  "c": "Seignosse",
+  "d": "40",
+  "lat": 43.68077,
+  "lon": -1.36007,
+  "km": 531.7,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Boutique de la brasserie ouverte en semaine ; la dégustation n'a lieu qu'avec la visite, sur réservation. Le bar de Capbreton n'est pas à cette adresse.",
+  "addr": "705 ZA de Larrigan, 40510 Seignosse",
+  "src": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 47 80 08 60",
+   "site": "https://www.rosny-beer.com/",
+   "source": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+   "verifieLe": "2026-11-06"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:30"
+     ]
+    ],
+    "remarque": "Il se peut que nous soyons absents aux horaires d'ouverture, car en livraison ou pour d'autres raisons… Visites sur réservation.",
+    "source": "https://www.rosny-beer.com/visite-brasserie-seignosse-landes",
+    "verifieLe": "2026-11-06"
+   }
+  ]
+ },
+ {
+  "n": "Kanaha Beer",
+  "c": "Biscarrosse",
+  "d": "40",
+  "lat": 44.38403,
+  "lon": -1.14313,
+  "km": 485.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Le site de la brasserie annonce « Suite à l'incendie, la brasserie est fermée jusqu'à nouvel ordre » et, plus bas, « Brasserie ouverte au public et vente directe » : ce qu'on peut y faire n'est pas établi tant que la réouverture n'est pas annoncée. Horaires de boutique non repris pour cette raison.",
+  "addr": "143 Rue de la Ferronnerie, 40600 Biscarrosse",
+  "src": "https://www.kanahabeer.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "05 58 04 64 78",
+   "site": "https://www.kanahabeer.com/",
+   "source": "https://www.kanahabeer.com/contact",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "Brasserie Bruel",
+  "c": "Tarnos",
+  "d": "40",
+  "lat": 43.53865,
+  "lon": -1.49858,
+  "km": 548.8,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Dégustations sur rendez-vous à la brasserie ; vente en ligne. La vente à emporter sur place n'est pas dite.",
+  "addr": "79 avenue du 1er Mai, 40220 Tarnos",
+  "src": "https://brasseriebruel.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "tel": "06 72 19 15 43",
+   "site": "https://brasseriebruel.fr/",
+   "source": "https://brasseriebruel.fr/",
+   "verifieLe": "2026-11-06"
+  }
+ },
+ {
+  "n": "La Gang",
+  "c": "Biscarrosse",
+  "d": "40",
+  "lat": 44.38133,
+  "lon": -1.13879,
+  "km": 484.8,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie avec taproom à côté des cuves de brassage, d'après son site ; la vente à emporter n'est lue que sur la légende d'une image. Ni horaires ni téléphone publiés.",
+  "addr": "668 rue de la Ferronnerie, 40600 Biscarrosse",
+  "src": "https://lagang.fr/notre-taproom/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-06",
+  "contact": {
+   "site": "https://lagang.fr/",
+   "source": "https://lagang.fr/notre-taproom/",
+   "verifieLe": "2026-11-06"
+  }
  }
 ]

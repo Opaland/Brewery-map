@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:980373419",
+ "ajout": {
+  "fiche": {
+   "n": "La Gang",
+   "c": "Biscarrosse",
+   "d": "40",
+   "lat": 44.38133,
+   "lon": -1.13879,
+   "km": 484.8,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie avec taproom à côté des cuves de brassage, d'après son site ; la vente à emporter n'est lue que sur la légende d'une image. Ni horaires ni téléphone publiés.",
+   "addr": "668 rue de la Ferronnerie, 40600 Biscarrosse",
+   "src": "https://lagang.fr/notre-taproom/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lagang.fr/",
+    "source": "https://lagang.fr/notre-taproom/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://lagang.fr/notre-taproom/",
+   "https://data.geopf.fr/geocodage/search?q=668+rue+de+la+Ferronnerie%2C+40600+Biscarrosse&limit=5"
+  ],
+  "extrait": "le bar est situé juste à côté des cuves de brassage, sans aucune séparation !",
+  "choix": "Lu via un résumé de la page (WebFetch), pas directement. Adresse reprise de SIRENE, absente du site (le site ne donne que « Biscarrosse »). Vente à emporter lue sur la légende d'une image : « Brasserie La Gang, Stand vente à emporter ». Confiance « moyenne » faute d'horaires et d'adresse publiée. Bières citées sur la page d'accueil (Captain Obvious, Allez Topette, Amitiés Amicales), non retenues faute d'Untappd. Aucun téléphone ni horaire sur le site ni sur /contact/. Pas de page Untappd trouvée."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:884866997",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Sabot",
+   "c": "Villenave-d'Ornon",
+   "d": "33",
+   "lat": 44.76454,
+   "lon": -0.54957,
+   "km": 427.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel propose de commander en ligne puis de retirer les bières à la brasserie ou de se les faire livrer à vélo. Pas d'horaires réguliers : il faut appeler avant de passer. Aucune dégustation sur place n'est mentionnée.",
+   "addr": "92 Avenue Fernand Granet, 33140 Villenave-d'Ornon",
+   "src": "https://sabot.beer/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 38 04 13 29",
+    "site": "https://sabot.beer/",
+    "source": "https://sabot.beer/",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://sabot.beer/",
+   "https://data.geopf.fr/geocodage/search?q=92+Avenue+Fernand+Granet%2C+33140+Villenave-d%27Ornon&limit=5"
+  ],
+  "extrait": "Le retrait direct à la brasserie",
+  "choix": "Portable (06 38 04 13 29), seul numéro publié par la brasserie sur son site : retenu d'après la règle du 21/10. Aucun bloc d'horaires : la source ne donne aucun jour, seulement « appeler avant de passer » (dit dans la note). Aucun type de bière détaillé sur la page ; pas d'Untappd trouvé. Confiance moyenne : le retrait à la brasserie est dit, mais sans jours ni horaires. Le point OSM node/8392078751 (Cadaujac, même adresse et même site) désigne la même brasserie : le candidat OSM est un doublon de celui-ci."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "node/12551335591",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Lugazaut",
+   "c": "Vielle-Soubiran",
+   "d": "40",
+   "lat": 44.05437,
+   "lon": -0.17556,
+   "km": 428.2,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Microbrasserie ; vente directe et accueil à la microbrasserie sur rendez-vous, du lundi au samedi toute l'année. Dégustation sur place non mentionnée.",
+   "addr": "Route de Losse, 40240 Vielle-Soubiran",
+   "src": "https://www.brasseriedelugazaut.com",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 50 53 34 26",
+    "site": "https://www.brasseriedelugazaut.com",
+    "source": "https://www.brasseriedelugazaut.com",
+    "verifieLe": "2026-11-06"
+   }
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.brasseriedelugazaut.com",
+   "https://data.geopf.fr/geocodage/search?q=Vielle-Soubiran&type=municipality&limit=5"
+  ],
+  "extrait": "en vente directe sur rendez-vous",
+  "choix": "Site officiel lu via un résumé de l'outil de lecture (citations de la page). Un seul téléphone publié par la brasserie, un portable (06 50 53 34 26) : retenu faute de fixe. Horaires non structurés : « du lundi au samedi (sur rendez-vous) » est un accueil sur rendez-vous, sans créneau ; dit dans la note. Types de bière lus sur le site (Pilsner, APA, Porter, Brut IPA, Wheat Ale, Irish Red Ale) mais non repris dans beers (pas de page Untappd trouvée). Adresse prise sur le site ; l'adresse SIRENE de Verts Canyons (Domaine de Lugazaut, route de Pijo) est une autre entreprise, écartée. Aucun doublon dans data/."
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:881551345",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Winterholer",
+   "c": "Villenave-d'Ornon",
+   "d": "33",
+   "lat": 44.77707,
+   "lon": -0.54737,
+   "km": 427,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Le site officiel de la brasserie dit qu'on accueille les clients du lundi au vendredi de 9 h à 17 h, pour des achats en direct. Il ne parle ni de dégustation sur place ni de bar. Il ne donne pas la rue. L'adresse 90 chemin de Leyran vient du répertoire SIRENE (WH LAB) et du point OpenStreetMap « Winterholer », qui porte la même adresse et le même site.",
+   "addr": "90 Chemin de Leyran, 33140 Villenave-d'Ornon",
+   "src": "https://brasserie.bio/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 61 17 35 88",
+    "site": "https://brasserie.bio/",
+    "source": "https://brasserie.bio/",
+    "verifieLe": "2026-11-06"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie.bio/",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Le site conseille de les contacter en amont pour s'assurer de leur présence.",
+     "verifieLe": "2026-11-06"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://brasserie.bio/",
+   "https://data.geopf.fr/geocodage/search?q=90+Chemin+de+Leyran%2C+33140+Villenave-d%27Ornon&limit=5"
+  ],
+  "extrait": "Nous accueillons les clients du lundi au vendredi 9h-17h à la brasserie",
+  "choix": "Page lue via un résumé de WebFetch (plusieurs demandes, mêmes phrases). L'extrait est assemblé de deux citations contiguës du résumé : à vérifier d'un coup d'œil. Confiance moyenne car le lien entre WH LAB (SIRENE) et Winterholer ne vient pas de la page elle-même : il vient de l'adresse commune dans OSM. Le portable 06 61 17 35 88 est la seule ligne publiée par la brasserie sur son site (règle du 21/10). Je ne reprends pas les horaires OSM (me 11:30-17:00, jeu-ven 11:30-19:00), qui contredisent le site. Types de bière lus (« De la bière blonde florale au style lambic élevée en barrique »), mais sans liste de bières, donc beers vide. Pas de page Untappd trouvée."
+ }
+}

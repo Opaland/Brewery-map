@@ -1,0 +1,27 @@
+{
+ "candidat": "node/8752472171",
+ "ajout": {
+  "fiche": {
+   "n": "L'Escource",
+   "c": "Escource",
+   "d": "40",
+   "lat": 44.16173,
+   "lon": -1.02486,
+   "km": 485,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie d'Escource, ouverte au public le jeudi d'après le site du tourisme des Landes, sans dire ce qu'on peut y faire. L'office écrit les heures à l'anglaise (le jeudi de 10 h à 12 h et de 14 h à 19 h 30) ; le contrôle ne relit pas cette écriture, elles restent dans cette note.",
+   "addr": "7 zone artisanale Moulin de Haut, 40210 Escource",
+   "src": "https://www.landes-holidays.com/?p=355324",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-06",
+  "sources": [
+   "https://www.landes-holidays.com/?p=355324",
+   "https://data.geopf.fr/geocodage/search?q=7+zone+artisanale+Moulin+de+Haut%2C+40210+Escource&limit=5"
+  ],
+  "extrait": "Open to the public on Thursdays from 10am to 12pm and from 2pm to 7:30pm",
+  "choix": "Catégorie 1 en confiance faible (règle du 29/10 : on y déguste sur place, vente à emporter non dite). Téléphone : la page propose seulement un lien « Contact by phone » sans numéro, donc aucun. Aucune page Untappd trouvée. Extrait en anglais car c'est la version lue ; la version française (tourismelandes.com/?p=501350, 403 pour moi) est citée par la recherche : « Ouverte au public le Jeudi de 10h à 12h et de 14h à 19h30. ». L'extrait est donc à recopier de la page ouverte par Cédric. Lu via un résumé."
+ }
+}
