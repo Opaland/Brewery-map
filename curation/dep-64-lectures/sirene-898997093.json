@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:898997093",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Luma",
+   "c": "Saint-Palais",
+   "d": "64",
+   "lat": 43.31714,
+   "lon": -1.03303,
+   "km": 528.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Micro-brasserie ; visite avec dégustation et vente de coffrets, bar ouvert du jeudi au samedi soir (source : office de tourisme, une seule source).",
+   "addr": "Zone industrielle Ordokian, 64120 Saint-Palais",
+   "src": "https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Palais&type=municipality&limit=5"
+  ],
+  "extrait": "Venez découvrir nos bières au bar de la brasserie, avec des tapas dans une ambiance chaleureuse !",
+  "choix": "Lu via un résumé sur la fiche tourisme64. Téléphone affiché : portable +33 6 13 65 66 53, non repris car publié par l'office. Site sumupstore.com (boutique) en 403, non lu. guide-du-paysbasque.com est un annuaire, ne suffit pas seul. Horaires de la fiche : jeudi à samedi 18h30-22h00 en 2026 ; on ne sait pas si c'est accueil ou vente, donc non repris. Pas d'Untappd trouvé."
+ }
+}

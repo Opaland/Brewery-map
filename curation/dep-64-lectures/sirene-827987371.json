@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:827987371",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Aussau",
+   "c": "Pau",
+   "d": "64",
+   "lat": 43.32616,
+   "lon": -0.32854,
+   "km": 480.2,
+   "cat": 3,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale bio. Le site dit qu'elle ne vend pas sur place : les bières se commandent sur sa boutique en ligne, commandes prêtes en un à deux jours. Le lieu de retrait n'est pas précisé.",
+   "addr": "9 rue Ada Byron, 64000 Pau",
+   "src": "https://aussau.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 57 92 14",
+    "site": "https://aussau.fr",
+    "source": "https://aussau.fr",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://aussau.fr",
+   "https://data.geopf.fr/geocodage/search?q=9+rue+Ada+Byron%2C+64000+Pau&limit=5"
+  ],
+  "extrait": "Nous n’avons pas de magasin sur place, si vous souhaitez acheter des bières",
+  "choix": "Le candidat SIRENE « B-U » est la SARL B-U, propriétaire du site selon les mentions légales de aussau.fr, à la même adresse (9 rue Ada Byron). Catégorie 3 d'après la phrase « NOUS NE VENDONS PAS SUR PLACE », confiance moyenne parce que la page ne dit pas si les commandes se retirent à la brasserie. Pas d'horaires publiés, pas de lien Untappd sur la page, aucune bière listée (seulement des familles de styles). Le numéro 06 est la seule ligne de la brasserie sur son site : portable repris sous la règle du 21/10."
+ }
+}

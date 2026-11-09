@@ -1,0 +1,46 @@
+{
+ "candidat": "way/232511958",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Arrec",
+   "c": "Estialescq",
+   "d": "64",
+   "lat": 43.22497,
+   "lon": -0.54856,
+   "km": 501.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente à la brasserie le vendredi de 16h à 19h ; visites sur rendez-vous. Le bar de l'Arrec, à La Friche à Oloron-Sainte-Marie, est une autre adresse.",
+   "addr": "68 chemin Carrère, 64290 Estialescq",
+   "src": "https://brasseriedelarrec.fr/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 88 90 29 17",
+    "site": "https://brasseriedelarrec.fr",
+    "source": "https://brasseriedelarrec.fr/contact",
+    "verifieLe": "2026-11-09"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedelarrec.fr/contact",
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-09"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://brasseriedelarrec.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=68+chemin+Carr%C3%A8re%2C+64290+Estialescq&limit=5"
+  ],
+  "extrait": "Vente à la brasserie le vendredi de 16h à 19h",
+  "choix": "Catégorie 2 : le site officiel donne la vente à la brasserie, rien sur une consommation sur place à Estialescq ; confiance moyenne pour cette raison. Téléphone : 07 88 90 29 17 est un portable, seule ligne publiée par la brasserie (règle du 21/10) ; il figure aussi sur la fiche tourisme64.com. Le bar d'Oloron (jeudi-samedi 18h-0h) est écarté : autre adresse. Pas de page Untappd trouvée, pas de liste de bières lue (page /nos-bieres en 404). Lecture via un résumé (WebFetch) des pages brasseriedelarrec.fr/contact et tourisme64.com."
+ }
+}

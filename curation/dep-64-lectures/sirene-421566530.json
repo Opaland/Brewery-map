@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:421566530",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Akerbeltz",
+   "c": "Ascain",
+   "d": "64",
+   "lat": 43.35756,
+   "lon": -1.63084,
+   "km": 567.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le site de la brasserie dit que toutes les bières sont en vente à la boutique et qu'on peut les déguster au bar et en terrasse. L'office de tourisme 64 confirme la boutique, la visite libre et la dégustation. Les visites guidées se font sur rendez-vous.",
+   "addr": "259 rue Larre Lore, ZA Larre Lore, 64310 Ascain",
+   "src": "http://www.akerbeltz.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 59 23 84 21",
+    "site": "http://www.akerbeltz.fr",
+    "source": "https://www.tourisme64.com/activites/ascain/DEGAQU064FS000BV-brasserie-akerbeltz/",
+    "verifieLe": "2026-11-09"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.tourisme64.com/activites/ascain/DEGAQU064FS000BV-brasserie-akerbeltz/",
+     "lun": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Ouvert toute l'année. Des impératifs de production ou des événements peuvent modifier ponctuellement les horaires. Visites guidées sur rendez-vous.",
+     "verifieLe": "2026-11-09"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "http://www.akerbeltz.fr",
+   "https://www.tourisme64.com/activites/ascain/DEGAQU064FS000BV-brasserie-akerbeltz/",
+   "https://data.geopf.fr/geocodage/search?q=259+rue+Larre+Lore%2C+ZA+Larre+Lore%2C+64310+Ascain&limit=5"
+  ],
+  "extrait": "Vous pourrez déguster les bières AKERBELTZ au bar et en terrasse.",
+  "choix": "Lu via un résumé (WebFetch), pas la page brute. Confiance « moyenne » pour cette raison. Le site ne donne pas d'adresse, de téléphone ni d'horaires généraux ; il cite des horaires de 2020 (mardi au samedi, 15h-19h), plus anciens et en désaccord avec ceux de l'office. Je retiens les horaires 2026 de l'office (tourisme64.com : lundi-jeudi 14h-18h, vendredi 14h-19h, ouvert toute l'année). Le fixe 05 59 23 84 21 est celui du bloc de la brasserie sur l'office, pas celui de l'office. Pas de page Untappd trouvée, aucun type de bière retenu."
+ }
+}

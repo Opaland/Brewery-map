@@ -1,0 +1,33 @@
+{
+ "candidat": "node/12231286488",
+ "ajout": {
+  "fiche": {
+   "n": "La Clouque",
+   "c": "Salies-de-Béarn",
+   "d": "64",
+   "lat": 43.47118,
+   "lon": -0.92013,
+   "km": 511.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie existante d'après son site officiel. Pas de bar ni de taproom : les bières se servent depuis un bar mobile (une Renault 4L) sur des marchés et événements. Aucune vente à emporter ni horaire de visite n'est lu sur la page d'accueil, donc catégorie à confirmer.",
+   "addr": "Chemin de Lagisquet, 64270 Salies de Béarn",
+   "src": "https://clouque.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 68 59 63 23",
+    "site": "https://clouque.com/",
+    "source": "https://clouque.com/",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://clouque.com/",
+   "https://data.geopf.fr/geocodage/search?q=Salies-de-B%C3%A9arn&type=municipality&limit=5"
+  ],
+  "extrait": "La Brasserie Clouque n'a pas (encore) de bar ou",
+  "choix": "Seule ligne publiée par la brasserie sur son site : un portable (règle du 21/10), repris sans le nom de la personne de contact. Catégorie 0 : la page renvoie à une page « Où acheter ? » que je n'ai pas ouverte, et ne dit pas si l'on peut acheter à la brasserie. Pas de page Untappd ni de types de bière lus, donc beers vide. Pas d'horaires."
+ }
+}

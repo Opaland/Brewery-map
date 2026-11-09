@@ -1,0 +1,155 @@
+{
+ "candidat": "sirene:814528725",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Pays Basque",
+   "c": "Bardos",
+   "d": "64",
+   "lat": 43.46319,
+   "lon": -1.26747,
+   "km": 536.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique ouverte aux horaires indiqués, achats en ligne avec retrait possible. Visite commentée et dégustation gratuites, sur réservation uniquement.",
+   "addr": "57 route du moulin de la Ferrerie, 64520 Bardos",
+   "src": "https://www.tourisme64.com/activites/bardos/DEGAQU064V5A4WVO-la-brasserie-du-pays-basque/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 59 56 81 86",
+    "site": "https://brasseriedupaysbasque.com/",
+    "source": "https://brasseriedupaysbasque.com/contact-us/",
+    "verifieLe": "2026-11-09"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme64.com/activites/bardos/DEGAQU064V5A4WVO-la-brasserie-du-pays-basque/",
+     "periode": {
+      "du": "01-05",
+      "au": "06-30"
+     },
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Visite et dégustation sur réservation uniquement, du lundi au vendredi. Fermé pendant les vacances de Noël.",
+     "verifieLe": "2026-11-09"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme64.com/activites/bardos/DEGAQU064V5A4WVO-la-brasserie-du-pays-basque/",
+     "periode": {
+      "du": "07-01",
+      "au": "08-29"
+     },
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-09"
+    },
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme64.com/activites/bardos/DEGAQU064V5A4WVO-la-brasserie-du-pays-basque/",
+     "periode": {
+      "du": "09-01",
+      "au": "12-19"
+     },
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Fermé pendant les vacances de Noël.",
+     "verifieLe": "2026-11-09"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://www.tourisme64.com/activites/bardos/DEGAQU064V5A4WVO-la-brasserie-du-pays-basque/",
+   "https://brasseriedupaysbasque.com/contact-us/",
+   "https://data.geopf.fr/geocodage/search?q=57+route+du+moulin+de+la+Ferrerie%2C+64520+Bardos&limit=5"
+  ],
+  "extrait": "Boutique : de janvier à juin, jeudi et vendredi de 9h à 12h et de 14h à 18h.",
+  "choix": "Lu via un résumé. Catégorie 2 et confiance moyenne : la boutique ouverte vient de l'office (CDT 64) ; la page officielle ne parle que de boutique en ligne et de visites sur rendez-vous. Aucune consommation sur place lue, donc ni 1 ni 4. Téléphone 05 59 56 81 86 : publié par la brasserie sur sa page contact (écrit 0559568186, mis en forme), identique à celui de l'office, donc retenu. Horaires de vente en trois saisons tirés de l'office ; je n'ai pas repris les horaires jeu-ven de la page contact officielle, le texte ne disant pas ce qu'ils couvrent. Aucune page Untappd trouvée. Types de bière d'après les intitulés du shop ; Eguzki Premium non classé, le shop ne le dit pas."
+ }
+}

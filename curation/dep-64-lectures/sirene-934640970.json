@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:934640970",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Clavé",
+   "c": "Monein",
+   "d": "64",
+   "lat": 43.33597,
+   "lon": -0.58157,
+   "km": 496.5,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel, office de tourisme 64). Visites avec dégustation et ateliers de brassage annoncés ; la vente à la brasserie n'est dite ni par le site officiel ni par l'office, donc catégorie à confirmer.",
+   "addr": "ZA de Loupien, 24 Rue des Artisans, 64360 Monein",
+   "src": "https://brasserie-clave.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 33 82 84 14",
+    "site": "https://brasserie-clave.fr",
+    "source": "https://brasserie-clave.fr",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://brasserie-clave.fr",
+   "https://data.geopf.fr/geocodage/search?q=ZA+de+Loupien%2C+24+Rue+des+Artisans%2C+64360+Monein&limit=5"
+  ],
+  "extrait": "Au-delà de la production, ma brasserie se veut un lieu de découverte.",
+  "choix": "Lu via un résumé (WebFetch). Le seul numéro publié par la brasserie est un portable (06 33 82 84 14), repris : règle du 21/10. La vente sur place figure seulement sur guide-bearn-pyrenees.com (annuaire), écartée. Horaires : visites ponctuelles de l'office, pas d'horaires d'ouverture, rien repris. Page Untappd : « untappd.com/BrasserieC » sortie par la recherche est une autre brasserie, écartée."
+ }
+}
