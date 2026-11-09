@@ -54,9 +54,10 @@ Restent 3, 4 et 5.
 
 Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 h 47, heure de Paris) traite d'abord les lignes de cette section, puis la région suivante, puis vérifie la mission avec les personas. Une ligne par point, datée ; une ligne faite est barrée.
 
-- 06/11 : Mash Pit Brewpub (Seignosse) a la même adresse que La Séquère : savoir si c'est le même lieu avant de créer une fiche.
-- 06/11 : Brasserie Lalune, Winterholer et Maison PIP ont été lues via des résumés : rouvrir leurs pages et confirmer les extraits.
-- 06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.
+- 06/11 : Mash Pit Brewpub (Seignosse) a la même adresse que La Séquère : savoir si c'est le même lieu avant de créer une fiche. *09/11 : non tranché. La fiche de l'office pour Mash Pit date de février 2026 ; le site de La Séquère tourne sur WordPress 5.6 (2020). Mash Pit a sans doute pris la place de La Séquère, mais rien ne le dit en toutes lettres : **question à Cédric** (le retrait d'une fiche est le sien).*
+- ~~06/11 : Brasserie Lalune, Winterholer et Maison PIP ont été lues via des résumés : rouvrir leurs pages et confirmer les extraits.~~ 09/11 : `controler` a trouvé les trois extraits sur leur page avant l'application (PR #272).
+- ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
+- 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
 ## Restes de S347, deuxième partie (06/11, issue #188)
 
