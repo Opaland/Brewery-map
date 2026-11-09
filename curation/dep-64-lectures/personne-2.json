@@ -1,0 +1,32 @@
+{
+ "candidat": "personne:2",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Shakespeare",
+   "c": "Lay-Lamidou",
+   "d": "64",
+   "lat": 43.29058,
+   "lon": -0.722,
+   "km": 508.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale proche de Navarrenx (office de tourisme 64, annuaire Gault&Millau). L'office ne mentionne pas de vente directe ; les bières se trouvent au Shakespeare Café/Bar de Navarrenx. Pas de site officiel trouvé.",
+   "addr": "4 Rue de la Hount, 64190 Lay-Lamidou",
+   "src": "https://www.tourisme64.com/activites/navarrenx/DEGAQU064V501SQE-biere-artisanale-shakespeare/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 59 66 52 14",
+    "source": "https://www.tourisme64.com/activites/navarrenx/DEGAQU064V501SQE-biere-artisanale-shakespeare/",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://www.tourisme64.com/activites/navarrenx/DEGAQU064V501SQE-biere-artisanale-shakespeare/",
+   "https://data.geopf.fr/geocodage/search?q=4+Rue+de+la+Hount%2C+64190+Lay-Lamidou&limit=5"
+  ],
+  "extrait": "la brasserie artisanale Shakespeare produit de la vraie bière conditionnée en bouteille",
+  "choix": "Lu via un résumé (WebFetch) : l'extrait est une courte citation, à relire. Deux numéros dans le bloc de la brasserie : un fixe (05 59 66 52 14) et un mobile (06 47 13 00 21). Je retiens le fixe, lu sur un office dans le bloc de la brasserie (règle du 31/10) ; le mobile ne vient pas de la brasserie, écarté."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "candidat": "node/6124679053",
+ "ajout": {
+  "fiche": {
+   "n": "Les 3 Brasseurs Lescar",
+   "c": "Lescar",
+   "d": "64",
+   "lat": 43.31736,
+   "lon": -0.43388,
+   "km": 487.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Restaurant de la chaîne 3 Brasseurs, avec bière brassée sur place et vente à emporter, d'après l'office de tourisme de Pau. L'office donne des horaires (12 h à 22 h 30) sans les garantir : ils ne sont pas repris.",
+   "addr": "180 Boulevard de l'Europe, 64230 Lescar",
+   "src": "https://en.tourismepau.com/offers/les-3-brasseurs-lescar-en-4904531",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 59 00 09 27",
+    "source": "https://en.tourismepau.com/offers/les-3-brasseurs-lescar-en-4904531",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://en.tourismepau.com/offers/les-3-brasseurs-lescar-en-4904531",
+   "https://data.geopf.fr/geocodage/search?q=180+Boulevard+de+l%27Europe%2C+64230+Lescar&limit=5"
+  ],
+  "extrait": "it is brewed on the spot and in front of your eyes",
+  "choix": "Source : office de tourisme (Tourisme Pau), donc confiance moyenne au plus. Le site de la chaîne (restaurants.3brasseurs.com/fr/s/brasseurs/pau-lescar/847) répond 404, il n'a donc pas pu confirmer. Horaires non repris : la page les marque « Unsecured hours » (12h00-22h30 tous les jours). Téléphone : fixe du bloc de l'offre, repris selon la règle du 31/10. Le mot « Takeouts » de la liste des services fonde la catégorie 1. Aucune page Untappd lue."
+ }
+}

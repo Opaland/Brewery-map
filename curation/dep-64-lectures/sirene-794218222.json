@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:794218222",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Béarnaise",
+   "c": "Pau",
+   "d": "64",
+   "lat": 43.31282,
+   "lon": -0.37188,
+   "km": 483.9,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Le site ne donne d'horaires que du lundi au vendredi (écriture que le contrôle ne relit pas : 9 h à 12 h et 14 h à 22 h) ; rien le samedi ni le dimanche.",
+   "addr": "12 Rue du Balaitous, 64000 Pau",
+   "src": "https://brasserie-bearnaise.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 84 14 23 75",
+    "site": "https://brasserie-bearnaise.fr",
+    "source": "https://brasserie-bearnaise.fr",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://brasserie-bearnaise.fr",
+   "https://data.geopf.fr/geocodage/search?q=12+Rue+du+Balaitous%2C+64000+Pau&limit=5"
+  ],
+  "extrait": "Vous pouvez acheter sur place toute notre gamme.",
+  "choix": "Lu via un résumé (WebFetch), pas directement. Horaires du bar non proposés : le texte rendu est « 9 h - 1 2 h / 1 4 h - 2 2 h », coupé de façon douteuse, et un annuaire (Cylex) donne 11:00-22:00. Les neuf bières (Shuc Hulante, etc.) sont listées sur le site mais sans type lu ni lien : non reprises. Aucune page Untappd trouvée sur deux recherches."
+ }
+}

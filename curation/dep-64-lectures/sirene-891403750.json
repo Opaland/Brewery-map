@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:891403750",
+ "ajout": {
+  "fiche": {
+   "n": "La Grange",
+   "c": "Nousty",
+   "d": "64",
+   "lat": 43.26517,
+   "lon": -0.22435,
+   "km": 477.2,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Ferme brassicole (bières La Tute). Le site officiel, en construction, dit que les bières sont disponibles à La Grange ; l'office la présente comme visite-dégustation sur rendez-vous. Le site annonce la ferme brassicole du lundi au vendredi, 9 h à 12 h et 14 h à 19 h, rien le week-end ; il ne dit pas si c'est l'accueil ou la vente.",
+   "addr": "11 rue de l'Ousse, 64420 Nousty",
+   "src": "http://www.bieres-lagrange.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.bieres-lagrange.fr/",
+    "source": "http://www.bieres-lagrange.fr/",
+    "verifieLe": "2026-11-09"
+   }
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "http://www.bieres-lagrange.fr/",
+   "https://data.geopf.fr/geocodage/search?q=11+rue+de+l%27Ousse%2C+64420+Nousty&limit=5"
+  ],
+  "extrait": "Les bières LA TUTE sont disponibles à LA GRANGE",
+  "choix": "Lu via un résumé. Site officiel « en construction » : vente non établie sans équivoque, d'où la confiance faible. L'office (tourisme64) dit « Espace dégustation » et visite sur rendez-vous, sans vente sur place. Horaires 9h-12h / 14h-19h « en semaine » du site non repris : jours non précisés. Téléphone +33 6 25 54 24 65 publié seulement par l'office et mobile : écarté. Aucune page Untappd trouvée, aucune bière nommée lue."
+ }
+}

@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 797 | 21 (3 %) | 42 | 300 | 249 | 310 | 423 | 529 | 632 |
+| **Total** | 810 | 21 (3 %) | 42 | 303 | 253 | 314 | 427 | 537 | 645 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -69,6 +69,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 61 · Orne | 3 | 0 (0 %) | 0 | 2 | 2 | 2 | 2 | 3 | 3 |
 | 62 · Pas-de-Calais | 11 | 0 (0 %) | 0 | 4 | 3 | 2 | 5 | 8 | 11 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
+| 64 · Pyrénées-Atlantiques | 13 | 0 (0 %) | 0 | 3 | 4 | 4 | 4 | 8 | 13 |
 | 67 · Bas-Rhin | 24 | 0 (0 %) | 0 | 7 | 4 | 1 | 9 | 18 | 24 |
 | 68 · Haut-Rhin | 19 | 0 (0 %) | 0 | 6 | 6 | 3 | 8 | 11 | 19 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
@@ -96,7 +97,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-300 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+303 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -447,6 +448,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 63 · Puy-de-Dôme
 
 - Brasserie des Montagnes (Gelles) : sans horaires, sans bières
+
+### 64 · Pyrénées-Atlantiques
+
+- Brasserie Shakespeare (Lay-Lamidou) : sans site, sans horaires, sans bières
+- La Clouque (Salies-de-Béarn) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie Clavé (Monein) : sans horaires, sans bières
 
 ### 67 · Bas-Rhin
 

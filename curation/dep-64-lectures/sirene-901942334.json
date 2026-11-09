@@ -1,0 +1,68 @@
+{
+ "candidat": "sirene:901942334",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Pontacus",
+   "c": "Pontacq",
+   "d": "64",
+   "lat": 43.18893,
+   "lon": -0.10987,
+   "km": 474.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie installée au centre de Pontacq, bières artisanales brassées sur place, vente à emporter sur place et accueil le soir (source : Comité départemental du tourisme des Pyrénées-Atlantiques). Le site de la brasserie confirme qu'elle brasse à cet endroit.",
+   "addr": "6 bis place Saint-Laurent, 64530 Pontacq",
+   "src": "https://www.tourisme64.com/activites/pontacq/DEGAQU064V5BB8JA-brasserie-pontacus/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.pontacus.com/",
+    "source": "https://www.tourisme64.com/activites/pontacq/DEGAQU064V5BB8JA-brasserie-pontacus/",
+    "verifieLe": "2026-11-09"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.tourisme64.com/activites/pontacq/DEGAQU064V5BB8JA-brasserie-pontacus/",
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "17:00",
+       "23:00"
+      ]
+     ],
+     "remarque": "Horaires 2026 de la page tourisme64.com ; rien n'est indiqué pour le dimanche, le lundi et le mardi.",
+     "verifieLe": "2026-11-09"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-09",
+  "sources": [
+   "https://www.tourisme64.com/activites/pontacq/DEGAQU064V5BB8JA-brasserie-pontacus/",
+   "https://data.geopf.fr/geocodage/search?q=Pontacq&type=municipality&limit=5"
+  ],
+  "extrait": "Vente à emporter sur place.",
+  "choix": "Téléphone non retenu : le seul numéro lu (06 67 14 43 07) est un portable publié par tourisme64.com, pas par la brasserie ; pontacus.com n'affiche aucun téléphone, seulement brasserie.pontacus@gmail.com. Aucune page Untappd trouvée, donc ni lien ni bières. Confiance moyenne car la catégorie vient d'un organisme de tourisme. Horaires : seulement les 4 jours écrits (dimanche, lundi, mardi non renseignés). Adresse de la page tourisme64 (6 bis) ; SIRENE donne 6 place Saint-Laurent. Autre passage lu sur la même page : « des bières artisanales brassées sur place » ; sur pontacus.com : « C'est ici que sont brassées avec passion nos différentes bières. »"
+ }
+}

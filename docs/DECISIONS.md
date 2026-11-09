@@ -247,3 +247,16 @@ Mot pour mot : « J'aurais bien aujourd'hui que tu te fasses une routine sans mo
 | Ce qui n'est pas fait va au BACKLOG | Section « Routine quotidienne — restes » de `BACKLOG.md`, datée |
 | Le lendemain, corriger avant de commencer | La routine traite d'abord cette section, puis la région |
 
+## Demande de Cédric du 09/11 : un département par jour, et un fichier d'apprentissage
+
+Mot pour mot : « Il faudrait faire une routine chaque jour : tu indexes un nouveau département ; tu vérifies ensuite via des personas que tout est bien implémenté ; tu crées des issues en fonction, que tu corriges, et tu lances le CI ; si tout est vert, le lendemain tu passes au département suivant, sinon tu reboucles ; tu ne passes jamais au département suivant sauf si tu as 10 échecs, mais là tu crées une issue ; pense à faire un fichier learning pour apprendre de tes erreurs, que tu liras en premier pour éviter de faire les erreurs. Améliore ce prompt avant de le lancer et sois autonome. » Le même jour : « tâche à créer : diffuser APK sur les stores (à faire que lorsque tout le projet sera terminé) ».
+
+| Ce qu'il demande | Ce qui en suit |
+|---|---|
+| Un département par jour | La routine du 06/11 (une région) devient « Département du jour », 7 h 47 ; son déroulé et son état sont dans `docs/ROUTINE.md` |
+| Vérifier avec les personas, une issue par défaut, corriger, CI | Chaque défaut est une case de l'issue du département, ou une issue à lui ; corrigé le jour même |
+| Vert : le suivant ; sinon on reboucle | Le département reste en cours tant que la CI n'est pas verte et qu'une case reste ouverte |
+| Dix échecs : une issue, puis le suivant | Au dixième essai raté, une issue « Département bloqué », et la file avance |
+| Un fichier d'apprentissage lu en premier | `docs/APPRENTISSAGES.md`, complété chaque jour |
+| Les stores | Issue #273, à ne commencer qu'au go de Cédric, une fois le projet terminé |
+
