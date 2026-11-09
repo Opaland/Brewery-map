@@ -11,7 +11,7 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 64 (Pyrénées-Atlantiques), S347 troisième partie |
+| Département en cours | 64 (Pyrénées-Atlantiques), S347 troisième partie : PR ouverte le 09/11 ; si elle est mergée, passer au 79 |
 | Essais sur ce département | 1 (09/11) |
 | Issue du département | #188 |
 | Dernier département terminé | 33 et 40 (06/11, PR #272) ; 47 sans fiche |

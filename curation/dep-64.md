@@ -89,7 +89,7 @@ Extrait lu : « La Brasserie Clouque n'a pas (encore) de bar ou »
 
 Choix du vérificateur : Seule ligne publiée par la brasserie sur son site : un portable (règle du 21/10), repris sans le nom de la personne de contact. Catégorie 0 : la page renvoie à une page « Où acheter ? » que je n'ai pas ouverte, et ne dit pas si l'on peut acheter à la brasserie. Pas de page Untappd ni de types de bière lus, donc beers vide. Pas d'horaires.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -113,7 +113,7 @@ Choix du vérificateur : Seule ligne publiée par la brasserie sur son site : un
 - km : (vide) → 487.7
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Restaurant de la chaîne 3 Brasseurs, avec bière brassée sur place et vente à emporter, d'après l'office de tourisme de Pau.
+- note : (vide) → Restaurant de la chaîne 3 Brasseurs, avec bière brassée sur place et vente à emporter, d'après l'office de tourisme de Pau. L'office donne des horaires (12 h à 22 h 30) sans les garantir : ils ne sont pas repris.
 - addr : (vide) → 180 Boulevard de l'Europe, 64230 Lescar
 - src : (vide) → https://en.tourismepau.com/offers/les-3-brasseurs-lescar-en-4904531
 - coordPrecision : (vide) → address
@@ -129,7 +129,7 @@ Extrait lu : « it is brewed on the spot and in front of your eyes »
 
 Choix du vérificateur : Source : office de tourisme (Tourisme Pau), donc confiance moyenne au plus. Le site de la chaîne (restaurants.3brasseurs.com/fr/s/brasseurs/pau-lescar/847) répond 404, il n'a donc pas pu confirmer. Horaires non repris : la page les marque « Unsecured hours » (12h00-22h30 tous les jours). Téléphone : fixe du bloc de l'offre, repris selon la règle du 31/10. Le mot « Takeouts » de la liste des services fonde la catégorie 1. Aucune page Untappd lue.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -164,11 +164,11 @@ Choix du vérificateur : Source : office de tourisme (Tourisme Pau), donc confia
 
 Sources (vérifiée le 2026-11-09) : https://www.tourisme64.com/activites/navarrenx/DEGAQU064V501SQE-biere-artisanale-shakespeare/ ; https://data.geopf.fr/geocodage/search?q=4+Rue+de+la+Hount%2C+64190+Lay-Lamidou&limit=5
 
-Extrait lu : « 4 Rue de la Hount »
+Extrait lu : « la brasserie artisanale Shakespeare produit de la vraie bière conditionnée en bouteille »
 
 Choix du vérificateur : Lu via un résumé (WebFetch) : l'extrait est une courte citation, à relire. Deux numéros dans le bloc de la brasserie : un fixe (05 59 66 52 14) et un mobile (06 47 13 00 21). Je retiens le fixe, lu sur un office dans le bloc de la brasserie (règle du 31/10) ; le mobile ne vient pas de la brasserie, écarté.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -217,12 +217,12 @@ Extrait lu : « Vous pourrez déguster les bières AKERBELTZ au bar et en terras
 
 Choix du vérificateur : Lu via un résumé (WebFetch), pas la page brute. Confiance « moyenne » pour cette raison. Le site ne donne pas d'adresse, de téléphone ni d'horaires généraux ; il cite des horaires de 2020 (mardi au samedi, 15h-19h), plus anciens et en désaccord avec ceux de l'office. Je retiens les horaires 2026 de l'office (tourisme64.com : lundi-jeudi 14h-18h, vendredi 14h-19h, ouvert toute l'année). Le fixe 05 59 23 84 21 est celui du bloc de la brasserie sur l'office, pas celui de l'office. Pas de page Untappd trouvée, aucun type de bière retenu.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 9 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 14 h, sous réserve.
+> - À 9 h 29 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 14 h, sous réserve.
 > - Adresse
 > - 259 rue Larre Lore, ZA Larre Lore, 64310 Ascain
 > - Pas encore dans la fiche : ses bières.
@@ -253,7 +253,7 @@ Choix du vérificateur : Lu via un résumé (WebFetch), pas la page brute. Confi
 - km : (vide) → 483.9
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → solide
-- note : (vide) → Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Horaires non retenus : le résumé de la page les donne de façon illisible.
+- note : (vide) → Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Le site ne donne d'horaires que du lundi au vendredi (écriture que le contrôle ne relit pas : 9 h à 12 h et 14 h à 22 h) ; rien le samedi ni le dimanche.
 - addr : (vide) → 12 Rue du Balaitous, 64000 Pau
 - src : (vide) → https://brasserie-bearnaise.fr
 - coordPrecision : (vide) → address
@@ -270,7 +270,7 @@ Extrait lu : « Vous pouvez acheter sur place toute notre gamme. »
 
 Choix du vérificateur : Lu via un résumé (WebFetch), pas directement. Horaires du bar non proposés : le texte rendu est « 9 h - 1 2 h / 1 4 h - 2 2 h », coupé de façon douteuse, et un annuaire (Cylex) donne 11:00-22:00. Les neuf bières (Shuc Hulante, etc.) sont listées sur le site mais sans type lu ni lien : non reprises. Aucune page Untappd trouvée sur deux recherches.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -337,12 +337,12 @@ Extrait lu : « Boutique : de janvier à juin, jeudi et vendredi de 9h à 12h et
 
 Choix du vérificateur : Lu via un résumé. Catégorie 2 et confiance moyenne : la boutique ouverte vient de l'office (CDT 64) ; la page officielle ne parle que de boutique en ligne et de visites sur rendez-vous. Aucune consommation sur place lue, donc ni 1 ni 4. Téléphone 05 59 56 81 86 : publié par la brasserie sur sa page contact (écrit 0559568186, mis en forme), identique à celui de l'office, donc retenu. Horaires de vente en trois saisons tirés de l'office ; je n'ai pas repris les horaires jeu-ven de la page contact officielle, le texte ne disant pas ce qu'ils couvrent. Aucune page Untappd trouvée. Types de bière d'après les intitulés du shop ; Eguzki Premium non classé, le shop ne le dit pas.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 9 h 20 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 9 h 29 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 57 route du moulin de la Ferrerie, 64520 Bardos
 > - Pas encore dans la fiche : ses bières.
@@ -409,7 +409,7 @@ Extrait lu : « Nous n’avons pas de magasin sur place, si vous souhaitez achet
 
 Choix du vérificateur : Le candidat SIRENE « B-U » est la SARL B-U, propriétaire du site selon les mentions légales de aussau.fr, à la même adresse (9 rue Ada Byron). Catégorie 3 d'après la phrase « NOUS NE VENDONS PAS SUR PLACE », confiance moyenne parce que la page ne dit pas si les commandes se retirent à la brasserie. Pas d'horaires publiés, pas de lien Untappd sur la page, aucune bière listée (seulement des familles de styles). Le numéro 06 est la seule ligne de la brasserie sur son site : portable repris sous la règle du 21/10.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Pas de vente
@@ -433,7 +433,7 @@ Choix du vérificateur : Le candidat SIRENE « B-U » est la SARL B-U, propriét
 - km : (vide) → 477.2
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → faible
-- note : (vide) → Ferme brassicole (bières La Tute). Le site officiel, en construction, dit que les bières sont disponibles à La Grange ; l'office la présente comme visite-dégustation sur rendez-vous.
+- note : (vide) → Ferme brassicole (bières La Tute). Le site officiel, en construction, dit que les bières sont disponibles à La Grange ; l'office la présente comme visite-dégustation sur rendez-vous. Le site annonce la ferme brassicole du lundi au vendredi, 9 h à 12 h et 14 h à 19 h, rien le week-end ; il ne dit pas si c'est l'accueil ou la vente.
 - addr : (vide) → 11 rue de l'Ousse, 64420 Nousty
 - src : (vide) → http://www.bieres-lagrange.fr/
 - coordPrecision : (vide) → address
@@ -449,7 +449,7 @@ Extrait lu : « Les bières LA TUTE sont disponibles à LA GRANGE »
 
 Choix du vérificateur : Lu via un résumé. Site officiel « en construction » : vente non établie sans équivoque, d'où la confiance faible. L'office (tourisme64) dit « Espace dégustation » et visite sur rendez-vous, sans vente sur place. Horaires 9h-12h / 14h-19h « en semaine » du site non repris : jours non précisés. Téléphone +33 6 25 54 24 65 publié seulement par l'office et mobile : écarté. Aucune page Untappd trouvée, aucune bière nommée lue.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement (à vérifier)
@@ -473,27 +473,47 @@ Choix du vérificateur : Lu via un résumé. Site officiel « en construction »
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
 - note : (vide) → Micro-brasserie ; visite avec dégustation et vente de coffrets, bar ouvert du jeudi au samedi soir (source : office de tourisme, une seule source).
-- addr : (vide) → Zone industrielle Ordokian, 64120 Saint-Palais
+- addr : (vide) → 95 Ainaren Karrika, 64120 Saint-Palais
 - src : (vide) → https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/
 - coordPrecision : (vide) → centre
 - beers : (vide) → []
+- horaires.0.nature : (vide) → accueil
+- horaires.0.jeu : (vide) → 18 h 30 – 22 h
+- horaires.0.ven : (vide) → 18 h 30 – 22 h
+- horaires.0.sam : (vide) → 18 h 30 – 22 h
+- horaires.0.remarque : (vide) → Ouverture 2026 annoncée par l'office, du 25 janvier au 31 décembre.
+- horaires.0.source : (vide) → https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/
+- horaires.0.verifieLe : (vide) → 2026-11-09
 - verifieLe : (vide) → 2026-11-09
 
 Sources (vérifiée le 2026-11-09) : https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/ ; https://data.geopf.fr/geocodage/search?q=Saint-Palais&type=municipality&limit=5
 
 Extrait lu : « Venez découvrir nos bières au bar de la brasserie, avec des tapas dans une ambiance chaleureuse ! »
 
-Choix du vérificateur : Lu via un résumé sur la fiche tourisme64. Téléphone affiché : portable +33 6 13 65 66 53, non repris car publié par l'office. Site sumupstore.com (boutique) en 403, non lu. guide-du-paysbasque.com est un annuaire, ne suffit pas seul. Horaires de la fiche : jeudi à samedi 18h30-22h00 en 2026 ; on ne sait pas si c'est accueil ou vente, donc non repris. Pas d'Untappd trouvé.
+Choix du vérificateur : Lu via un résumé sur la fiche tourisme64. Téléphone affiché : portable +33 6 13 65 66 53, non repris car publié par l'office. Site sumupstore.com (boutique) en 403, non lu. guide-du-paysbasque.com est un annuaire, ne suffit pas seul. Horaires de la fiche : jeudi à samedi 18h30-22h00 en 2026 ; on ne sait pas si c'est accueil ou vente, donc non repris. Pas d'Untappd trouvé. Adresse prise sur l'office (95 Ainaren Karrika, comme le point OSM), non celle du registre ; horaires du bar repris de l'office.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
+> - Maintenant
+> - À 9 h 29 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
-> - Zone industrielle Ordokian, 64120 Saint-Palais
-> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
+> - 95 Ainaren Karrika, 64120 Saint-Palais
+> - Pas encore dans la fiche : son téléphone et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+Luma+Saint-Palais)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+Luma&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
+> - Horaires
+> - À savoir : Ouverture 2026 annoncée par l'office, du 25 janvier au 31 décembre.
+> - Horaires d’accueil du public
+> - Lundi | non précisé
+> - Mardi | non précisé
+> - Mercredi | non précisé
+> - Jeudi | 18 h 30 – 22 h
+> - Vendredi | 18 h 30 – 22 h
+> - Samedi | 18 h 30 – 22 h
+> - Dimanche | non précisé
+> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [tourisme64.com](https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/) le 9 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 10. Brasserie Pontacus — fiche nouvelle
@@ -530,12 +550,12 @@ Extrait lu : « Vente à emporter sur place. »
 
 Choix du vérificateur : Téléphone non retenu : le seul numéro lu (06 67 14 43 07) est un portable publié par tourisme64.com, pas par la brasserie ; pontacus.com n'affiche aucun téléphone, seulement brasserie.pontacus@gmail.com. Aucune page Untappd trouvée, donc ni lien ni bières. Confiance moyenne car la catégorie vient d'un organisme de tourisme. Horaires : seulement les 4 jours écrits (dimanche, lundi, mardi non renseignés). Adresse de la page tourisme64 (6 bis) ; SIRENE donne 6 place Saint-Laurent. Autre passage lu sur la même page : « des bières artisanales brassées sur place » ; sur pontacus.com : « C'est ici que sont brassées avec passion nos différentes bières. »
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 9 h 20 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 9 h 29 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 6 bis place Saint-Laurent, 64530 Pontacq
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -566,7 +586,7 @@ Choix du vérificateur : Téléphone non retenu : le seul numéro lu (06 67 14 4
 - km : (vide) → 472.3
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brassée sur place ; vente toute l'année du lundi au samedi sur simple appel, guinguette le vendredi soir d'avril à octobre (source : office de tourisme, une seule source).
+- note : (vide) → Brassée sur place ; vente toute l'année du lundi au samedi sur simple appel, guinguette le vendredi soir d'avril à octobre (source : office de tourisme, une seule source). Pas de consommation sur place de novembre à mars d'après l'office. Le seul numéro publié par l'office est un portable : il n'est pas repris.
 - addr : (vide) → Impasse Matot, 64160 Higuères-Souye
 - src : (vide) → https://www.tourisme64.com/activites/higueres-souye/DEGAQU064V5BMAFX-brasserie-les-tetes-blanches/
 - coordPrecision : (vide) → centre
@@ -575,11 +595,11 @@ Choix du vérificateur : Téléphone non retenu : le seul numéro lu (06 67 14 4
 
 Sources (vérifiée le 2026-11-09) : https://www.tourisme64.com/activites/higueres-souye/DEGAQU064V5BMAFX-brasserie-les-tetes-blanches/ ; https://data.geopf.fr/geocodage/search?q=Higu%C3%A8res-Souye&type=municipality&limit=5
 
-Extrait lu : « ouverture de la guinguette pour restauration et consommation »
+Extrait lu : « ouverture de la guinguette pour restauration et consommation sur place »
 
 Choix du vérificateur : Lu via un résumé sur la fiche tourisme64. Portable +33 6 64 00 58 48 non repris (publié par l'office). Horaires « sur simple appel » et « vendredi à partir de 18h30 » sans fin : aucun créneau repris. brasserie-les-tetes-blanches.fr en 503 : site officiel non lu. Un autre guide dit que le producteur ne vend pas sur place : contradiction signalée. Types de bière vus seulement dans un résumé de recherche : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -617,7 +637,7 @@ Extrait lu : « Au-delà de la production, ma brasserie se veut un lieu de déco
 
 Choix du vérificateur : Lu via un résumé (WebFetch). Le seul numéro publié par la brasserie est un portable (06 33 82 84 14), repris : règle du 21/10. La vente sur place figure seulement sur guide-bearn-pyrenees.com (annuaire), écartée. Horaires : visites ponctuelles de l'office, pas d'horaires d'ouverture, rien repris. Page Untappd : « untappd.com/BrasserieC » sortie par la recherche est une autre brasserie, écartée.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -662,12 +682,12 @@ Extrait lu : « Vente à la brasserie le vendredi de 16h à 19h »
 
 Choix du vérificateur : Catégorie 2 : le site officiel donne la vente à la brasserie, rien sur une consommation sur place à Estialescq ; confiance moyenne pour cette raison. Téléphone : 07 88 90 29 17 est un portable, seule ligne publiée par la brasserie (règle du 21/10) ; il figure aussi sur la fiche tourisme64.com. Le bar d'Oloron (jeudi-samedi 18h-0h) est écarté : autre adresse. Pas de page Untappd trouvée, pas de liste de bières lue (page /nos-bieres en 404). Lecture via un résumé (WebFetch) des pages brasseriedelarrec.fr/contact et tourisme64.com.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 9 novembre 2026 à 09:29, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 9 h 20 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 9 h 29 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 68 chemin Carrère, 64290 Estialescq
 > - Pas encore dans la fiche : ses bières.
@@ -687,4 +707,4 @@ Choix du vérificateur : Catégorie 2 : le site officiel donne la vente à la br
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [brasseriedelarrec.fr](https://brasseriedelarrec.fr/contact) le 9 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : 10bdeb666008
+Empreinte du lot : 6390eb75da53

@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S347, troisième partie — les Pyrénées-Atlantiques *(09/11, routine « Département du jour »)*
+
+`docs/stories/S347.md`, issue #188. 10 paquets ; 13 fiches par la règle de Cédric du 21/10 ; 810 fiches dans 79 départements, OSM à 605. Revue de la persona Cédric traitée avant l'application ; issue #274 (position quand le géocodeur échoue). Le même jour, à la demande de Cédric : la routine devient « Département du jour » (`docs/ROUTINE.md`), avec `docs/APPRENTISSAGES.md` lu en premier ; issue #273 (les stores, après la fin du projet).
+
 ## S347, deuxième partie — la Gironde, les Landes et le Lot-et-Garonne *(06/11, epic E36)*
 
 `docs/stories/S347.md`, issue #188. 23 paquets ; 25 fiches par la règle de Cédric du 21/10 (33 : 16, 40 : 9 ; aucune dans le Lot-et-Garonne) ; 797 fiches dans 78 départements, OSM à 612. Revue de la persona Cédric traitée avant l'application. Le même jour, à la demande de Cédric, la tâche planifiée « Région du jour » (7 h 47) prend la suite chaque matin. Suite : 64, 79, 86.

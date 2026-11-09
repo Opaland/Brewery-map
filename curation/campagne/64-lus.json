@@ -59,7 +59,7 @@
     "adresse": "12 Rue du Balaitous, 64000 Pau",
     "cat": 1,
     "conf": "solide",
-    "note": "Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Horaires non retenus : le résumé de la page les donne de façon illisible.",
+    "note": "Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Le site ne donne d'horaires que du lundi au vendredi (écriture que le contrôle ne relit pas : 9 h à 12 h et 14 h à 22 h) ; rien le samedi ni le dimanche.",
     "src": "https://brasserie-bearnaise.fr",
     "extrait": "Vous pouvez acheter sur place toute notre gamme.",
     "beers": [],
@@ -97,7 +97,7 @@
     "conf": "",
     "note": "Brasserie artisanale proche de Navarrenx (office de tourisme 64, annuaire Gault&Millau). L'office ne mentionne pas de vente directe ; les bières se trouvent au Shakespeare Café/Bar de Navarrenx. Pas de site officiel trouvé.",
     "src": "https://www.tourisme64.com/activites/navarrenx/DEGAQU064V501SQE-biere-artisanale-shakespeare/",
-    "extrait": "4 Rue de la Hount",
+    "extrait": "la brasserie artisanale Shakespeare produit de la vraie bière conditionnée en bouteille",
     "beers": [],
     "choix": "Lu via un résumé (WebFetch) : l'extrait est une courte citation, à relire. Deux numéros dans le bloc de la brasserie : un fixe (05 59 66 52 14) et un mobile (06 47 13 00 21). Je retiens le fixe, lu sur un office dans le bloc de la brasserie (règle du 31/10) ; le mobile ne vient pas de la brasserie, écarté.",
     "contact": {
@@ -251,7 +251,7 @@
     "adresse": "11 rue de l'Ousse, 64420 Nousty",
     "cat": 2,
     "conf": "faible",
-    "note": "Ferme brassicole (bières La Tute). Le site officiel, en construction, dit que les bières sont disponibles à La Grange ; l'office la présente comme visite-dégustation sur rendez-vous.",
+    "note": "Ferme brassicole (bières La Tute). Le site officiel, en construction, dit que les bières sont disponibles à La Grange ; l'office la présente comme visite-dégustation sur rendez-vous. Le site annonce la ferme brassicole du lundi au vendredi, 9 h à 12 h et 14 h à 19 h, rien le week-end ; il ne dit pas si c'est l'accueil ou la vente.",
     "src": "http://www.bieres-lagrange.fr/",
     "extrait": "Les bières LA TUTE sont disponibles à LA GRANGE",
     "beers": [],
@@ -320,14 +320,39 @@
     "cle": "sirene:898997093",
     "n": "Brasserie Luma",
     "c": "Saint-Palais",
-    "adresse": "Zone industrielle Ordokian, 64120 Saint-Palais",
+    "adresse": "95 Ainaren Karrika, 64120 Saint-Palais",
     "cat": 1,
     "conf": "moyenne",
     "note": "Micro-brasserie ; visite avec dégustation et vente de coffrets, bar ouvert du jeudi au samedi soir (source : office de tourisme, une seule source).",
     "src": "https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/",
     "extrait": "Venez découvrir nos bières au bar de la brasserie, avec des tapas dans une ambiance chaleureuse !",
     "beers": [],
-    "choix": "Lu via un résumé sur la fiche tourisme64. Téléphone affiché : portable +33 6 13 65 66 53, non repris car publié par l'office. Site sumupstore.com (boutique) en 403, non lu. guide-du-paysbasque.com est un annuaire, ne suffit pas seul. Horaires de la fiche : jeudi à samedi 18h30-22h00 en 2026 ; on ne sait pas si c'est accueil ou vente, donc non repris. Pas d'Untappd trouvé."
+    "choix": "Lu via un résumé sur la fiche tourisme64. Téléphone affiché : portable +33 6 13 65 66 53, non repris car publié par l'office. Site sumupstore.com (boutique) en 403, non lu. guide-du-paysbasque.com est un annuaire, ne suffit pas seul. Horaires de la fiche : jeudi à samedi 18h30-22h00 en 2026 ; on ne sait pas si c'est accueil ou vente, donc non repris. Pas d'Untappd trouvé. Adresse prise sur l'office (95 Ainaren Karrika, comme le point OSM), non celle du registre ; horaires du bar repris de l'office.",
+    "horaires": [
+      {
+        "nature": "accueil",
+        "jeu": [
+          [
+            "18:30",
+            "22:00"
+          ]
+        ],
+        "ven": [
+          [
+            "18:30",
+            "22:00"
+          ]
+        ],
+        "sam": [
+          [
+            "18:30",
+            "22:00"
+          ]
+        ],
+        "remarque": "Ouverture 2026 annoncée par l'office, du 25 janvier au 31 décembre.",
+        "source": "https://www.tourisme64.com/activites/saint-palais/DEGAQU064V5C2A7Y-brasserie-luma/"
+      }
+    ]
   },
   {
     "cle": "sirene:913091534",
@@ -336,9 +361,9 @@
     "adresse": "Impasse Matot, 64160 Higuères-Souye",
     "cat": 1,
     "conf": "moyenne",
-    "note": "Brassée sur place ; vente toute l'année du lundi au samedi sur simple appel, guinguette le vendredi soir d'avril à octobre (source : office de tourisme, une seule source).",
+    "note": "Brassée sur place ; vente toute l'année du lundi au samedi sur simple appel, guinguette le vendredi soir d'avril à octobre (source : office de tourisme, une seule source). Pas de consommation sur place de novembre à mars d'après l'office. Le seul numéro publié par l'office est un portable : il n'est pas repris.",
     "src": "https://www.tourisme64.com/activites/higueres-souye/DEGAQU064V5BMAFX-brasserie-les-tetes-blanches/",
-    "extrait": "ouverture de la guinguette pour restauration et consommation",
+    "extrait": "ouverture de la guinguette pour restauration et consommation sur place",
     "beers": [],
     "choix": "Lu via un résumé sur la fiche tourisme64. Portable +33 6 64 00 58 48 non repris (publié par l'office). Horaires « sur simple appel » et « vendredi à partir de 18h30 » sans fin : aucun créneau repris. brasserie-les-tetes-blanches.fr en 503 : site officiel non lu. Un autre guide dit que le producteur ne vend pas sur place : contradiction signalée. Types de bière vus seulement dans un résumé de recherche : non repris."
   },
@@ -385,7 +410,7 @@
     "adresse": "180 Boulevard de l'Europe, 64230 Lescar",
     "cat": 1,
     "conf": "moyenne",
-    "note": "Restaurant de la chaîne 3 Brasseurs, avec bière brassée sur place et vente à emporter, d'après l'office de tourisme de Pau.",
+    "note": "Restaurant de la chaîne 3 Brasseurs, avec bière brassée sur place et vente à emporter, d'après l'office de tourisme de Pau. L'office donne des horaires (12 h à 22 h 30) sans les garantir : ils ne sont pas repris.",
     "src": "https://en.tourismepau.com/offers/les-3-brasseurs-lescar-en-4904531",
     "extrait": "it is brewed on the spot and in front of your eyes",
     "beers": [],

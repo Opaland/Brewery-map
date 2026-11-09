@@ -59,6 +59,11 @@ Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 
 - ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
 - 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
+## Restes de S347, Pyrénées-Atlantiques (09/11, issue #188)
+
+- À relancer : La Braspérie (adresse contradictoire), Greenwitch (adresse contradictoire), Etxeko Bob's Beer (503), Bipil, Kipett et La Clique (sites qui ne se résolvent pas), DC Beer Factory (404).
+- Luma et La Clouque restent au centre de leur commune tant que #274 n'est pas fait.
+
 ## Restes de S347, deuxième partie (06/11, issue #188)
 
 - À relancer : Azimut (429), Bon Voyage (injoignable), Brasserie du Bahus et Brasserie Naturelle des Landes (pages de l'office des Landes en 403), Aguiana (guide seul), La Ménagerie (brewpub sans adresse), le Centre de brassothérapie (vérification d'âge), Mad Occ', Cabestan, Les 3 Tertres, Mira, Tribu Zytha, « Y'a une sorcière dans ma bière » (plateforme seule), Natural Mystick (503), Zebull'in.

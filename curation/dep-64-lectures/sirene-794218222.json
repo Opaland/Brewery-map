@@ -10,7 +10,7 @@
    "km": 483.9,
    "cat": 1,
    "conf": "solide",
-   "note": "Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Horaires non retenus : le résumé de la page les donne de façon illisible.",
+   "note": "Brasserie en centre-ville de Pau avec bar à bières ; le site officiel dit qu'on peut acheter la gamme sur place et y boire. Le site ne donne d'horaires que du lundi au vendredi (écriture que le contrôle ne relit pas : 9 h à 12 h et 14 h à 22 h) ; rien le samedi ni le dimanche.",
    "addr": "12 Rue du Balaitous, 64000 Pau",
    "src": "https://brasserie-bearnaise.fr",
    "coordPrecision": "address",
