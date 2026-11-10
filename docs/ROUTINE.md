@@ -11,12 +11,12 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 79 (Deux-Sèvres), S347 quatrième partie : PR ouverte le 10/11 ; si elle est mergée, passer au 86 |
-| Essais sur ce département | 1 (10/11) |
+| Département en cours | 86 (Vienne), S347 cinquième partie : pas encore lu |
+| Essais sur ce département | 0 |
 | Issue du département | #188 |
-| Dernier département terminé | 64 (09/11, PR #275, 13 fiches) |
+| Dernier département terminé | 79 (10/11, PR #279, 3 fiches) |
 
-**File des départements** (dans l'ordre) : 79, 86 (fin de la
+**File des départements** (dans l'ordre) : 86 (fin de la
 Nouvelle-Aquitaine, #188) ; puis l'Occitanie (#189) : 09, 11, 12, 30, 31,
 32, 34, 46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
