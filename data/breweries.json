@@ -30536,5 +30536,201 @@
     "verifieLe": "2026-11-09"
    }
   ]
+ },
+ {
+  "n": "La Brasserie Pelboise",
+  "c": "Melle",
+  "d": "79",
+  "lat": 46.22044,
+  "lon": -0.14171,
+  "km": 383.3,
+  "cat": 2,
+  "conf": "faible",
+  "note": "Vente directe à la brasserie le vendredi en fin d'après-midi, d'après le site ; visite sur rendez-vous. Sa dernière nouvelle date de juillet 2023 (fermée les vendredis de l'été, plus de bouteilles en stock) : appeler avant de venir.",
+  "addr": "1 quater C Chemin de la Reine, 79500 Melle",
+  "src": "https://labrasseriepelboise.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-10",
+  "contact": {
+   "tel": "06 84 91 31 04",
+   "site": "https://labrasseriepelboise.fr/",
+   "source": "https://labrasseriepelboise.fr/contactez-nous/",
+   "verifieLe": "2026-11-10"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "16:30",
+      "19:00"
+     ]
+    ],
+    "remarque": "Nouvelle de la brasserie de juillet 2023 : fermée les vendredis de l'été.",
+    "source": "https://labrasseriepelboise.fr/",
+    "verifieLe": "2026-11-10"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Tête de Mule",
+  "c": "Coulon",
+  "d": "79",
+  "lat": 46.33608,
+  "lon": -0.58749,
+  "km": 419.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la brasserie, horaires selon la saison. Visites avec dégustation sur réservation (en juillet et août, ou pour les groupes le reste de l'année). Le site dit aussi que son site historique devient un lieu de rencontres « un verre à la main », sans heures ni adresse : consommation sur place non établie.",
+  "addr": "2 rue du Port de Brouillac, 79510 Coulon",
+  "src": "https://brasserietetedemule.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-10",
+  "contact": {
+   "tel": "05 49 24 35 94",
+   "site": "https://brasserietetedemule.fr",
+   "source": "https://brasserietetedemule.fr",
+   "verifieLe": "2026-11-10"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "periode": {
+     "du": "10-01",
+     "au": "03-31"
+    },
+    "source": "https://brasserietetedemule.fr",
+    "verifieLe": "2026-11-10"
+   },
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "periode": {
+     "du": "04-01",
+     "au": "06-30"
+    },
+    "source": "https://brasserietetedemule.fr",
+    "verifieLe": "2026-11-10"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "source": "https://brasserietetedemule.fr",
+    "verifieLe": "2026-11-10"
+   },
+   {
+    "nature": "vente",
+    "jeu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "periode": {
+     "du": "09-01",
+     "au": "09-30"
+    },
+    "source": "https://brasserietetedemule.fr",
+    "verifieLe": "2026-11-10"
+   }
+  ]
+ },
+ {
+  "n": "La Gabarde",
+  "c": "Clessé",
+  "d": "79",
+  "lat": 46.72234,
+  "lon": -0.40649,
+  "km": 413.9,
+  "cat": 0,
+  "conf": "",
+  "note": "La brasserie existe (site officiel). Visite avec dégustation sur réservation, pour des groupes à partir de 8 personnes (société ou association) ; la vente à la brasserie n'est pas dite en toutes lettres, donc catégorie à confirmer.",
+  "addr": "Roche Gabard, 79350 Clessé",
+  "src": "https://lagabarde.com/visite-brasserie/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-10",
+  "contact": {
+   "tel": "05 49 80 96 63",
+   "site": "https://www.lagabarde.com",
+   "source": "https://lagabarde.com/visite-brasserie/",
+   "verifieLe": "2026-11-10"
+  }
  }
 ]

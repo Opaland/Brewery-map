@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 810 | 21 (3 %) | 42 | 303 | 253 | 314 | 427 | 537 | 645 |
+| **Total** | 813 | 21 (3 %) | 42 | 304 | 253 | 316 | 427 | 538 | 648 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -82,6 +82,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 76 · Seine-Maritime | 10 | 0 (0 %) | 0 | 5 | 4 | 6 | 9 | 8 | 8 |
 | 77 · Seine-et-Marne | 9 | 0 (0 %) | 0 | 0 | 2 | 0 | 5 | 3 | 9 |
 | 78 · Yvelines | 7 | 0 (0 %) | 0 | 1 | 0 | 0 | 0 | 2 | 7 |
+| 79 · Deux-Sèvres | 3 | 0 (0 %) | 0 | 1 | 0 | 2 | 0 | 1 | 3 |
 | 80 · Somme | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
@@ -97,7 +98,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-303 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+304 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -544,6 +545,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 78 · Yvelines
 
 - Brasserie O'Clock Brewing (Bois-d'Arcy) : sans horaires, sans bières
+
+### 79 · Deux-Sèvres
+
+- La Gabarde (Clessé) : sans adresse vérifiée, sans horaires, sans bières
 
 ### 83 · Var
 

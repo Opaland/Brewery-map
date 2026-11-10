@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S347, quatrième partie — les Deux-Sèvres *(10/11, routine « Département du jour »)*
+
+`docs/stories/S347.md`, issue #188. 5 paquets ; 3 fiches par la règle de Cédric du 21/10 ; 813 fiches dans 80 départements, OSM à 603. Revue de la persona Cédric traitée avant l'application, persona Hugo après. Quatre candidats « à relancer ».
+
 ## S347, troisième partie — les Pyrénées-Atlantiques *(09/11, routine « Département du jour »)*
 
 `docs/stories/S347.md`, issue #188. 10 paquets ; 13 fiches par la règle de Cédric du 21/10 ; 810 fiches dans 79 départements, OSM à 605. Revue de la persona Cédric traitée avant l'application ; issue #274 (position quand le géocodeur échoue). Le même jour, à la demande de Cédric : la routine devient « Département du jour » (`docs/ROUTINE.md`), avec `docs/APPRENTISSAGES.md` lu en premier ; issue #273 (les stores, après la fin du projet).

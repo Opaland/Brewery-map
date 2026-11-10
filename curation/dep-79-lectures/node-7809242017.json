@@ -1,0 +1,48 @@
+{
+ "candidat": "node/7809242017",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie Pelboise",
+   "c": "Melle",
+   "d": "79",
+   "lat": 46.22044,
+   "lon": -0.14171,
+   "km": 383.3,
+   "cat": 2,
+   "conf": "faible",
+   "note": "Vente directe à la brasserie le vendredi en fin d'après-midi, d'après le site ; visite sur rendez-vous. Sa dernière nouvelle date de juillet 2023 (fermée les vendredis de l'été, plus de bouteilles en stock) : appeler avant de venir.",
+   "addr": "1 quater C Chemin de la Reine, 79500 Melle",
+   "src": "https://labrasseriepelboise.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 84 91 31 04",
+    "site": "https://labrasseriepelboise.fr/",
+    "source": "https://labrasseriepelboise.fr/contactez-nous/",
+    "verifieLe": "2026-11-10"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://labrasseriepelboise.fr/",
+     "ven": [
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "remarque": "Nouvelle de la brasserie de juillet 2023 : fermée les vendredis de l'été.",
+     "verifieLe": "2026-11-10"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-10",
+  "sources": [
+   "https://labrasseriepelboise.fr/",
+   "https://labrasseriepelboise.fr/contactez-nous/",
+   "https://data.geopf.fr/geocodage/search?q=1+quater+C+Chemin+de+la+Reine%2C+79500+Melle&limit=5"
+  ],
+  "extrait": "Tous les vendredis de 16h30 à 19h",
+  "choix": "Site officiel relu sur la page brute le 10/11 (« Vente direct à la Brasserie Pelboise », puis l'horaire). Confiance faible : la dernière nouvelle du site, du 25 juillet 2023, dit « Nous n’avons plus de stocks de bouteilles ». Le seul numéro publié par la brasserie est un portable, sur sa page de contact : repris (règle du 21/10). Pas de dégustation dite."
+ }
+}

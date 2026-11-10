@@ -1,6 +1,6 @@
 # Candidats du département 79 (S246)
 
-Établis le 2026-11-06 par `outils/departement.ts`. Rien n'est écrit dans `data/` : chaque candidat sera lu, puis décidé par Cédric ligne par ligne.
+Établis le 2026-11-10 par `outils/departement.ts`. Rien n'est écrit dans `data/` : chaque candidat sera lu, puis décidé par Cédric ligne par ligne.
 
 | Statut | Nombre |
 |---|---:|

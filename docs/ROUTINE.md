@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 79 (Deux-Sèvres), S347 quatrième partie : pas encore lu |
-| Essais sur ce département | 0 |
+| Département en cours | 79 (Deux-Sèvres), S347 quatrième partie : PR ouverte le 10/11 ; si elle est mergée, passer au 86 |
+| Essais sur ce département | 1 (10/11) |
 | Issue du département | #188 |
 | Dernier département terminé | 64 (09/11, PR #275, 13 fiches) |
 

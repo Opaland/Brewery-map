@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:808534374",
+ "ajout": {
+  "fiche": {
+   "n": "La Gabarde",
+   "c": "Clessé",
+   "d": "79",
+   "lat": 46.72234,
+   "lon": -0.40649,
+   "km": 413.9,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie existe (site officiel). Visite avec dégustation sur réservation, pour des groupes à partir de 8 personnes (société ou association) ; la vente à la brasserie n'est pas dite en toutes lettres, donc catégorie à confirmer.",
+   "addr": "Roche Gabard, 79350 Clessé",
+   "src": "https://lagabarde.com/visite-brasserie/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 49 80 96 63",
+    "site": "https://www.lagabarde.com",
+    "source": "https://lagabarde.com/visite-brasserie/",
+    "verifieLe": "2026-11-10"
+   }
+  },
+  "verifieLe": "2026-11-10",
+  "sources": [
+   "https://lagabarde.com/visite-brasserie/",
+   "https://data.geopf.fr/geocodage/search?q=Cless%C3%A9&type=municipality&limit=5"
+  ],
+  "extrait": "La visite se terminera par une dégustation afin de vous faire découvrir les saveurs subtiles des bières de La Gabarde.",
+  "choix": "Site officiel relu sur la page brute le 10/11. Une dégustation pendant une visite ne fait pas une catégorie 1 ; « repartir avec des souvenirs à déguster » ne dit pas une vente : catégorie 0. Téléphone : le fixe de la brasserie, écrit en pied de page (« Roche Gabard 79350 Clessé - Tél. 05 49 80 96 63 »). Les portables de la page, rattachés à des personnes, sont écartés."
+ }
+}
