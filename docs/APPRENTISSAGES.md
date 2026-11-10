@@ -46,6 +46,14 @@ pourquoi.
   d'âge, connexion refusée) ne se contourne pas : « à relancer ».
 - **Une raison contenant « à relancer » est reprise par `relancer`** : ne
   l'écrire que pour une cause passagère.
+- **Ne pas retélécharger avec `curl -A "Mozilla/5.0"` un site qui a déjà
+  répondu 503 à un agent** : le contrôle de la session le refuse comme un
+  contournement (10/11). Parade : ne retélécharger que les pages des lectures
+  retenues, sans en-tête de navigateur ; les autres restent « à relancer ».
+- **Le géocodeur IGN échoue sur une rue écrite autrement que dans la BAN**
+  (« rue du Port de Brouillac », 10/11) et sur un lieu-dit (« Roche
+  Gabard ») : la fiche part au centre de la commune ; le noter au BACKLOG
+  sous #274.
 
 ## Le dépôt et la CI
 

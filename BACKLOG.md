@@ -59,6 +59,12 @@ Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 
 - ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
 - 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
+## Restes de S347, Deux-Sèvres (10/11, issue #188)
+
+- À relancer : La Chamoise (503), La Thouarsaise (domaine qui ne se résout pas), Brasserie du Val de Sèvre à Pamproux (503), et brasseriedumarais.fr (503), peut-être l'ancien site de Tête de Mule.
+- Tête de Mule et La Gabarde restent au centre de leur commune tant que #274 n'est pas fait (l'IGN ne trouve pas « rue du Port de Brouillac » ni le lieu-dit « Roche Gabard »).
+- Pelboise : le site n'a rien publié depuis juillet 2023 (« plus de stocks de bouteilles ») ; confiance faible, à revoir à la prochaine veille.
+
 ## Restes de S347, Pyrénées-Atlantiques (09/11, issue #188)
 
 - À relancer : La Braspérie (adresse contradictoire), Greenwitch (adresse contradictoire), Etxeko Bob's Beer (503), Bipil, Kipett et La Clique (sites qui ne se résolvent pas), DC Beer Factory (404).

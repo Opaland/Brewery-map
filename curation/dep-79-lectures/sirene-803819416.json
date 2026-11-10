@@ -1,0 +1,149 @@
+{
+ "candidat": "sirene:803819416",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tête de Mule",
+   "c": "Coulon",
+   "d": "79",
+   "lat": 46.33608,
+   "lon": -0.58749,
+   "km": 419,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la brasserie, horaires selon la saison. Visites avec dégustation sur réservation (en juillet et août, ou pour les groupes le reste de l'année). Le site dit aussi que son site historique devient un lieu de rencontres « un verre à la main », sans heures ni adresse : consommation sur place non établie.",
+   "addr": "2 rue du Port de Brouillac, 79510 Coulon",
+   "src": "https://brasserietetedemule.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 49 24 35 94",
+    "site": "https://brasserietetedemule.fr",
+    "source": "https://brasserietetedemule.fr",
+    "verifieLe": "2026-11-10"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserietetedemule.fr",
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "periode": {
+      "du": "10-01",
+      "au": "03-31"
+     },
+     "verifieLe": "2026-11-10"
+    },
+    {
+     "nature": "vente",
+     "source": "https://brasserietetedemule.fr",
+     "jeu": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "periode": {
+      "du": "04-01",
+      "au": "06-30"
+     },
+     "verifieLe": "2026-11-10"
+    },
+    {
+     "nature": "vente",
+     "source": "https://brasserietetedemule.fr",
+     "lun": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "periode": {
+      "du": "07-01",
+      "au": "08-31"
+     },
+     "verifieLe": "2026-11-10"
+    },
+    {
+     "nature": "vente",
+     "source": "https://brasserietetedemule.fr",
+     "jeu": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "periode": {
+      "du": "09-01",
+      "au": "09-30"
+     },
+     "verifieLe": "2026-11-10"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-10",
+  "sources": [
+   "https://brasserietetedemule.fr",
+   "https://data.geopf.fr/geocodage/search?q=Coulon&type=municipality&limit=5"
+  ],
+  "extrait": "Disponible dans notre boutique et très prochainement chez nos distributeurs.",
+  "choix": "Site officiel, relu sur la page brute le 10/11 : boutique, horaires par saison, téléphone fixe et adresse (« 2 rue du Port de Brouillac, 79510 Coulon »), qui est celle de l'établissement SIRENE. Catégorie 2 : la dégustation n'a lieu que pendant les visites. Aucun lien Untappd sur la page."
+ }
+}
