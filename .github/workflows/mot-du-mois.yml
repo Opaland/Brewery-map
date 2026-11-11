@@ -1,0 +1,123 @@
+name: Mot du mois (Claude)
+
+# S380 (demande de Cédric du 11/11) : Claude rédige le « mot du mois » à
+# partir des faits calculés par le code (outils/mot-du-mois.ts) ; le texte
+# arrive comme une PR que Cédric accepte ou refuse.
+#
+# Moindre privilège (repris de Netatmo, revue-agents.yml) :
+# - à la main seulement (workflow_dispatch) : aucun passage planifié, comme
+#   les autres workflows depuis le 25/10 ;
+# - le job `rediger` ne peut que lire le dépôt ; son seul secret,
+#   ANTHROPIC_API_KEY, n'est donné qu'à l'étape qui appelle Claude ; il
+#   n'écrit qu'un fichier, gardé en artefact ;
+# - le job `proposer`, sans clé ni modèle, valide ce fichier par son schéma
+#   (motDuMoisSchema) avant d'ouvrir la PR ; il n'écrit que dans curation/ia/.
+# Sans clé, `rediger` s'arrête en le disant, et rien n'est proposé.
+# Une PR ouverte avec GITHUB_TOKEN ne déclenche pas la CI (règle de GitHub) :
+# `porte` et `visuel`, exigés sur main, n'y tournent qu'après que Cédric l'a
+# fermée puis rouverte, ou qu'il y a poussé un commit.
+# Le dépôt est public : le journal ne montre que des comptes, pas le texte.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mois:
+        description: 'Mois à raconter (AAAA-MM) ; vide = le mois en cours'
+        type: string
+        default: ''
+
+permissions: {}
+
+concurrency:
+  group: mot-du-mois
+  cancel-in-progress: false
+
+jobs:
+  rediger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    outputs:
+      ecrit: ${{ steps.redaction.outputs.ecrit }}
+      mois: ${{ steps.mois.outputs.mois }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances
+        run: npm ci
+      - name: Choisir le mois
+        id: mois
+        env:
+          MOIS: ${{ inputs.mois }}
+        run: |
+          if [ -z "$MOIS" ]; then MOIS="$(date -u +%Y-%m)"; fi
+          if ! printf '%s' "$MOIS" | grep -Eq '^[0-9]{4}-(0[1-9]|1[0-2])$'; then
+            echo "Mois illisible : attendu AAAA-MM." >&2; exit 1
+          fi
+          echo "mois=$MOIS" >> "$GITHUB_OUTPUT"
+      - name: Faire rédiger par Claude
+        id: redaction
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MOIS: ${{ steps.mois.outputs.mois }}
+        run: |
+          npx tsx outils/mot-du-mois.ts "$MOIS"
+          if [ -f "curation/ia/mot-du-mois-$MOIS.json" ]; then
+            echo "ecrit=oui" >> "$GITHUB_OUTPUT"
+          else
+            echo "ecrit=non" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Garder le fichier
+        if: steps.redaction.outputs.ecrit == 'oui'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: mot-du-mois
+          path: curation/ia/mot-du-mois-${{ steps.mois.outputs.mois }}.json
+          retention-days: 7
+
+  proposer:
+    needs: rediger
+    if: needs.rediger.outputs.ecrit == 'oui'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installer les dépendances (sans scripts : le jeton d'écriture est dans .git/config)
+        run: npm ci --ignore-scripts
+      - name: Reprendre le fichier
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: mot-du-mois
+          path: curation/ia
+      - name: Valider le fichier par son schéma
+        env:
+          MOIS: ${{ needs.rediger.outputs.mois }}
+        run: npx tsx outils/mot-du-mois.ts --valider "curation/ia/mot-du-mois-$MOIS.json"
+      - name: Ouvrir la PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MOIS: ${{ needs.rediger.outputs.mois }}
+        run: |
+          BRANCHE="ia/mot-du-mois-$MOIS-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCHE"
+          git add "curation/ia/mot-du-mois-$MOIS.json"
+          git commit -m "Mot du mois $MOIS, rédigé par Claude (à relire)"
+          git push origin "$BRANCHE"
+          gh pr create --base main --head "$BRANCHE" \
+            --title "Mot du mois $MOIS, rédigé par Claude (à relire)" \
+            --body "Texte rédigé par Claude à partir des faits calculés par outils/mot-du-mois.ts (S380). Chaque nombre et chaque nom de brasserie a été comparé aux faits, puis revérifié sans clé par ce workflow : voir les champs verifie et ecartsRestants du fichier. Cédric décide. La CI ne se lance pas d’elle-même sur une PR ouverte par GitHub Actions : la fermer puis la rouvrir pour la lancer."

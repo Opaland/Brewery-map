@@ -260,3 +260,13 @@ Mot pour mot : « Il faudrait faire une routine chaque jour : tu indexes un nouv
 | Un fichier d'apprentissage lu en premier | `docs/APPRENTISSAGES.md`, complété chaque jour |
 | Les stores | Issue #273, à ne commencer qu'au go de Cédric, une fois le projet terminé |
 
+
+## Demandes de Cédric du 10/11 et du 11/11 : s'inspirer de Netatmo, et Claude dans le logiciel
+
+Le 10/11, mot pour mot : « Pour demain, lis le projet que je te transmets. Lis bien le mode de fonctionnement, la façon dont il travaille, la gestion de sa CI, la gestion de ses data, etc. Vois s'il y a des choses dont tu pourrais t'inspirer pour améliorer le sujet, et faire en fait un super site qui va parler des brasseries. Regarde si on ne peut pas mettre du Claude dedans, ou des applis, ou ce que tu veux. S'il y a peut-être des variables d'environnement à installer, j'en sais rien. Je te laisse en autonomie sur le sujet, et me dire si c'est des choses qu'il faut renseigner ou pas. » Le 11/11 : « à faire en parallèle de la routine : regarde pour implémenter Claude API dans le logiciel ».
+
+| Ce qu'il demande | Ce qui en suit |
+|---|---|
+| Lire Netatmo et dire ce qui servirait | `docs/ETUDE-NETATMO.md` (PR #280) : idées classées, une seule chose à renseigner (la clé), trois questions |
+| Claude dans le logiciel | E38 (`docs/EPICS.md`), S380 : le mot du mois rédigé par Claude dans un workflow à la main, chaque nombre et chaque nom vérifiés, proposé en PR ; jamais d'appel depuis la page |
+| Ce qu'il faut renseigner | Le secret `ANTHROPIC_API_KEY` (et un plafond de dépense), et l'autorisation pour GitHub Actions d'ouvrir des PR ; sans eux, rien ne casse |
