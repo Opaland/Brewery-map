@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:814753745",
+ "ajout": {
+  "fiche": {
+   "n": "Pirates du Clain",
+   "c": "Ligugé",
+   "d": "86",
+   "lat": 46.52178,
+   "lon": 0.28556,
+   "km": 357.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie de Ligugé, d'après l'office de tourisme de la Vienne. On peut boire ses bières sur place pendant le marché des usines, le vendredi de 17 h à 19 h ; pas d'accueil ni de vente à emporter dits en dehors. Site officiel « en construction », adresse non publiée.",
+   "addr": "86240 Ligugé",
+   "src": "https://tourisme-vienne.com/en/prepare/made-in-vienna/Local-specialties/poitevine-breweries/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-11",
+  "sources": [
+   "https://tourisme-vienne.com/en/prepare/made-in-vienna/Local-specialties/poitevine-breweries/",
+   "https://data.geopf.fr/geocodage/search?q=Ligug%C3%A9&type=municipality&limit=5"
+  ],
+  "extrait": "You also have the possibility of enjoying them directly on site, in Ligugé, during the",
+  "choix": "Page de l'office de tourisme de la Vienne relue sur la page brute le 11/11 (existence : un office vaut « moyenne » au plus, décision #37). Une dégustation pendant un marché du vendredi n'est pas un accueil : catégorie 0, à confirmer (revue de la persona Cédric). L'heure, écrite « 17 p.m. to 19 p.m. », est dans la note. Aucune adresse lue : la fiche est au centre de Ligugé."
+ }
+}

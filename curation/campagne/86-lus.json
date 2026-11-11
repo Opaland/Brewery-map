@@ -1,0 +1,102 @@
+[
+  {
+    "cle": "sirene:908506140",
+    "n": "Brasserie La Moujasse",
+    "c": "Vivonne",
+    "adresse": "2 Bis Rue des Sablons, 86370 Vivonne",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente à la brasserie et visites, sur rendez-vous seulement, pendant les brassages (« toutes les 3 semaines, le week-end », d'après le site). Rien ne dit qu'on y boit sur place en dehors des fêtes annoncées.",
+    "src": "https://www.la-moujasse.fr",
+    "extrait": "La vente sur place est également sur RDV.",
+    "beers": [
+      {
+        "type": "ambree",
+        "libelle": "Ambrée"
+      },
+      {
+        "type": "blanche",
+        "libelle": "Blanche"
+      },
+      {
+        "type": "ipa",
+        "libelle": "IPA"
+      },
+      {
+        "type": "stout",
+        "libelle": "Imperial Stout"
+      },
+      {
+        "type": "autre",
+        "libelle": "De Noël"
+      },
+      {
+        "type": "autre",
+        "libelle": "Double Ambrée Épicée"
+      },
+      {
+        "type": "autre",
+        "libelle": "Pale Ale"
+      },
+      {
+        "type": "autre",
+        "libelle": "Triple"
+      }
+    ],
+    "choix": "Site officiel relu sur la page brute le 11/11 : la phrase de vente, l'adresse, le seul numéro publié (un portable, repris par la règle du 21/10) et la liste des bières (Ambrée, Blanche, De Noël, Double Ambrée Épicée, Imperial Stout, IPA, Pale Ale, Triple). « Sur rendez-vous » n'est pas un horaire : aucun repris.",
+    "contact": {
+      "tel": "06 95 26 12 30",
+      "site": "https://www.la-moujasse.fr",
+      "source": "https://www.la-moujasse.fr"
+    }
+  },
+  {
+    "cle": "sirene:818608184",
+    "n": "La Manufacture de Bières",
+    "c": "Poitiers",
+    "adresse": "146 avenue du 8 mai 1945, 86000 Poitiers",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bar et boutique de la brasserie : vente à emporter (bouteilles, growlers) et dégustation sur place. Horaires d'hiver d'après la page du bar : mercredi 16 h – 19 h, jeudi et vendredi 16 h – 21 h 30, samedi 15 h – 20 h ; fermé les jours fériés. La page d'accueil donne d'autres heures, sans dire pour quelle saison (samedi 16 h – 20 h).",
+    "src": "http://www.lamanufacturedebieres.fr/bar-et-boutique-dusine",
+    "extrait": "Vente à emporter de bouteilles, de growlers, et dégustation sur place avec vue sur les fermenteurs où dorment nos futurs brassins, ou en terrasse !",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 11/11. Catégorie 1 : vente à emporter et dégustation sur place sont écrites. Les horaires ne sont pas mis en créneaux : deux pages en donnent deux jeux, et l'écriture « 16-19h » n'est pas relue par controler ; ils passent dans la note, dits en clair. Aucun téléphone publié. Lien Untappd repris : il est écrit sur la page du bar.",
+    "contact": {
+      "site": "http://www.lamanufacturedebieres.fr/",
+      "untappd": "https://untappd.com/laManufPoitiers",
+      "source": "http://www.lamanufacturedebieres.fr/bar-et-boutique-dusine"
+    }
+  },
+  {
+    "cle": "sirene:445152390",
+    "n": "La Brasserie de Bellefois",
+    "c": "Neuville-de-Poitou",
+    "adresse": "1 Rue Robert Schuman, 86170 Neuville-de-Poitou",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Le « Beer Work Shop », bar et boutique de la brasserie : on y déguste les bières, vendues aussi à l'unité, en carton ou en coffret. La production est à une autre adresse de la commune (51 route de Clan). Aucun horaire publié sur la page.",
+    "src": "https://brasseriedebellefois.fr/",
+    "extrait": "Nos produits sont également disponibles à la vente à l’unité, en carton ou en coffret.",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 11/11. Adresse et téléphone du bar-boutique (« 1 Rue Robert Schuman », « 05 16 08 32 84 »), là où l'on déguste et achète ; le numéro du site de production est écarté.",
+    "contact": {
+      "tel": "05 16 08 32 84",
+      "site": "https://brasseriedebellefois.fr/",
+      "source": "https://brasseriedebellefois.fr/"
+    }
+  },
+  {
+    "cle": "sirene:814753745",
+    "n": "Pirates du Clain",
+    "c": "Ligugé",
+    "adresse": "86240 Ligugé",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie de Ligugé, d'après l'office de tourisme de la Vienne. On peut boire ses bières sur place pendant le marché des usines, le vendredi de 17 h à 19 h ; pas d'accueil ni de vente à emporter dits en dehors. Site officiel « en construction », adresse non publiée.",
+    "src": "https://tourisme-vienne.com/en/prepare/made-in-vienna/Local-specialties/poitevine-breweries/",
+    "extrait": "You also have the possibility of enjoying them directly on site, in Ligugé, during the",
+    "beers": [],
+    "choix": "Page de l'office de tourisme de la Vienne relue sur la page brute le 11/11 (existence : un office vaut « moyenne » au plus, décision #37). Une dégustation pendant un marché du vendredi n'est pas un accueil : catégorie 0, à confirmer (revue de la persona Cédric). L'heure, écrite « 17 p.m. to 19 p.m. », est dans la note. Aucune adresse lue : la fiche est au centre de Ligugé."
+  }
+]

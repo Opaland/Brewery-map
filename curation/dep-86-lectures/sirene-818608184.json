@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:818608184",
+ "ajout": {
+  "fiche": {
+   "n": "La Manufacture de Bières",
+   "c": "Poitiers",
+   "d": "86",
+   "lat": 46.55669,
+   "lon": 0.30866,
+   "km": 356.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Bar et boutique de la brasserie : vente à emporter (bouteilles, growlers) et dégustation sur place. Horaires d'hiver d'après la page du bar : mercredi 16 h – 19 h, jeudi et vendredi 16 h – 21 h 30, samedi 15 h – 20 h ; fermé les jours fériés. La page d'accueil donne d'autres heures, sans dire pour quelle saison (samedi 16 h – 20 h).",
+   "addr": "146 avenue du 8 mai 1945, 86000 Poitiers",
+   "src": "http://www.lamanufacturedebieres.fr/bar-et-boutique-dusine",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://www.lamanufacturedebieres.fr/",
+    "untappd": "https://untappd.com/laManufPoitiers",
+    "source": "http://www.lamanufacturedebieres.fr/bar-et-boutique-dusine",
+    "verifieLe": "2026-11-11"
+   }
+  },
+  "verifieLe": "2026-11-11",
+  "sources": [
+   "http://www.lamanufacturedebieres.fr/bar-et-boutique-dusine",
+   "https://data.geopf.fr/geocodage/search?q=146+avenue+du+8+mai+1945%2C+86000+Poitiers&limit=5"
+  ],
+  "extrait": "Vente à emporter de bouteilles, de growlers, et dégustation sur place avec vue sur les fermenteurs où dorment nos futurs brassins, ou en terrasse !",
+  "choix": "Site officiel relu sur la page brute le 11/11. Catégorie 1 : vente à emporter et dégustation sur place sont écrites. Les horaires ne sont pas mis en créneaux : deux pages en donnent deux jeux, et l'écriture « 16-19h » n'est pas relue par controler ; ils passent dans la note, dits en clair. Aucun téléphone publié. Lien Untappd repris : il est écrit sur la page du bar."
+ }
+}

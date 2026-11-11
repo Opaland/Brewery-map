@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 813 | 21 (3 %) | 42 | 304 | 253 | 316 | 427 | 538 | 648 |
+| **Total** | 817 | 21 (3 %) | 42 | 305 | 254 | 317 | 429 | 542 | 651 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -87,6 +87,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
+| 86 · Vienne | 4 | 0 (0 %) | 0 | 1 | 1 | 1 | 2 | 4 | 3 |
 | 87 · Haute-Vienne | 5 | 0 (0 %) | 0 | 1 | 4 | 2 | 3 | 5 | 5 |
 | 88 · Vosges | 7 | 0 (0 %) | 0 | 2 | 0 | 0 | 0 | 4 | 7 |
 | 89 · Yonne | 9 | 0 (0 %) | 0 | 4 | 1 | 2 | 1 | 6 | 7 |
@@ -98,7 +99,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-304 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+305 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -572,6 +573,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Brasserie Plume (Châteauneuf) : sans site, sans téléphone, sans horaires, sans bières
 - Opé Brewery (Les Sables-d'Olonne) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
+### 86 · Vienne
+
+- Pirates du Clain (Ligugé) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
 ### 87 · Haute-Vienne
 

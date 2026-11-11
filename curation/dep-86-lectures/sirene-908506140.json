@@ -1,0 +1,66 @@
+{
+ "candidat": "sirene:908506140",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Moujasse",
+   "c": "Vivonne",
+   "d": "86",
+   "lat": 46.42468,
+   "lon": 0.25251,
+   "km": 357.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente à la brasserie et visites, sur rendez-vous seulement, pendant les brassages (« toutes les 3 semaines, le week-end », d'après le site). Rien ne dit qu'on y boit sur place en dehors des fêtes annoncées.",
+   "addr": "2 Bis Rue des Sablons, 86370 Vivonne",
+   "src": "https://www.la-moujasse.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ambree",
+     "libelle": "Ambrée"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Blanche"
+    },
+    {
+     "type": "ipa",
+     "libelle": "IPA"
+    },
+    {
+     "type": "stout",
+     "libelle": "Imperial Stout"
+    },
+    {
+     "type": "autre",
+     "libelle": "De Noël"
+    },
+    {
+     "type": "autre",
+     "libelle": "Double Ambrée Épicée"
+    },
+    {
+     "type": "autre",
+     "libelle": "Pale Ale"
+    },
+    {
+     "type": "autre",
+     "libelle": "Triple"
+    }
+   ],
+   "contact": {
+    "tel": "06 95 26 12 30",
+    "site": "https://www.la-moujasse.fr",
+    "source": "https://www.la-moujasse.fr",
+    "verifieLe": "2026-11-11"
+   }
+  },
+  "verifieLe": "2026-11-11",
+  "sources": [
+   "https://www.la-moujasse.fr",
+   "https://data.geopf.fr/geocodage/search?q=2+Bis+Rue+des+Sablons%2C+86370+Vivonne&limit=5"
+  ],
+  "extrait": "La vente sur place est également sur RDV.",
+  "choix": "Site officiel relu sur la page brute le 11/11 : la phrase de vente, l'adresse, le seul numéro publié (un portable, repris par la règle du 21/10) et la liste des bières (Ambrée, Blanche, De Noël, Double Ambrée Épicée, Imperial Stout, IPA, Pale Ale, Triple). « Sur rendez-vous » n'est pas un horaire : aucun repris."
+ }
+}
