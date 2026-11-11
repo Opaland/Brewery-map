@@ -50,6 +50,9 @@ pourquoi.
   répondu 503 à un agent** : le contrôle de la session le refuse comme un
   contournement (10/11). Parade : ne retélécharger que les pages des lectures
   retenues, sans en-tête de navigateur ; les autres restent « à relancer ».
+- **Une lecture sans adresse fait tomber `rendre`** : le géocodeur reçoit
+  `q=` vide et répond 400 (11/11, Pirates du Clain). Parade : écrire au moins
+  « code postal + commune » dans `adresse` ; la fiche part au centre.
 - **Le géocodeur IGN échoue sur une rue écrite autrement que dans la BAN**
   (« rue du Port de Brouillac », 10/11) et sur un lieu-dit (« Roche
   Gabard ») : la fiche part au centre de la commune ; le noter au BACKLOG

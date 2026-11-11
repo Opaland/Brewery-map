@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 86 (Vienne), S347 cinquième partie : pas encore lu |
-| Essais sur ce département | 0 |
+| Département en cours | 86 (Vienne), S347 cinquième partie : PR ouverte le 11/11 ; si elle est mergée, passer au 09 (Occitanie, #189) |
+| Essais sur ce département | 1 (11/11) |
 | Issue du département | #188 |
 | Dernier département terminé | 79 (10/11, PR #279, 3 fiches) |
 

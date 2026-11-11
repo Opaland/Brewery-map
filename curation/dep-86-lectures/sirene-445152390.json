@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:445152390",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie de Bellefois",
+   "c": "Neuville-de-Poitou",
+   "d": "86",
+   "lat": 46.67939,
+   "lon": 0.26817,
+   "km": 363,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Le « Beer Work Shop », bar et boutique de la brasserie : on y déguste les bières, vendues aussi à l'unité, en carton ou en coffret. La production est à une autre adresse de la commune (51 route de Clan). Aucun horaire publié sur la page.",
+   "addr": "1 Rue Robert Schuman, 86170 Neuville-de-Poitou",
+   "src": "https://brasseriedebellefois.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 16 08 32 84",
+    "site": "https://brasseriedebellefois.fr/",
+    "source": "https://brasseriedebellefois.fr/",
+    "verifieLe": "2026-11-11"
+   }
+  },
+  "verifieLe": "2026-11-11",
+  "sources": [
+   "https://brasseriedebellefois.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1+Rue+Robert+Schuman%2C+86170+Neuville-de-Poitou&limit=5"
+  ],
+  "extrait": "Nos produits sont également disponibles à la vente à l’unité, en carton ou en coffret.",
+  "choix": "Site officiel relu sur la page brute le 11/11. Adresse et téléphone du bar-boutique (« 1 Rue Robert Schuman », « 05 16 08 32 84 »), là où l'on déguste et achète ; le numéro du site de production est écarté."
+ }
+}

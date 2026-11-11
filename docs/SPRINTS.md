@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S347, cinquième partie — la Vienne *(11/11, routine « Département du jour »)*
+
+`docs/stories/S347.md`, issue #188. 6 paquets ; 4 fiches par la règle de Cédric du 21/10 ; 817 fiches dans 81 départements, OSM à 600 ; la Nouvelle-Aquitaine est couverte. Revue de la persona Cédric traitée avant l'application, persona Hugo après. Suite : l'Occitanie (#189).
+
 ## S347, quatrième partie — les Deux-Sèvres *(10/11, routine « Département du jour »)*
 
 `docs/stories/S347.md`, issue #188. 5 paquets ; 3 fiches par la règle de Cédric du 21/10 ; 813 fiches dans 80 départements, OSM à 603. Revue de la persona Cédric traitée avant l'application, persona Hugo après. Quatre candidats « à relancer ».
