@@ -235,3 +235,15 @@ describe('S380 : le mot du mois rédigé par Claude', () => {
     expect(valider).toBeLessThan(proposer.indexOf('gh pr create'))
   })
 })
+
+describe('S380 (suite) : un workflow que GitHub refuse ne tourne jamais', () => {
+  it('aucun « name: » non cité ne contient « : » (YAML invalide, run à zéro job)', () => {
+    const mal = workflows.flatMap(({ f, texte }) =>
+      texte
+        .split('\n')
+        .filter((l) => /^\s*(?:-\s+)?name:\s+[^'"\s]/.test(l) && /:\s/.test(l.replace(/^\s*(?:-\s+)?name:\s+/, '')))
+        .map((l) => `${f} : ${l.trim()}`),
+    )
+    expect(mal).toEqual([])
+  })
+})

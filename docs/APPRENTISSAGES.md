@@ -75,6 +75,13 @@ pourquoi.
   `tests/unit/chiffres-ecrits.test.ts`, `nouveautes.test.ts` et
   `i18n.test.ts`, qui disent la valeur attendue.
 
+- **Un workflow que GitHub refuse ne rougit pas la PR** : il apparaît
+  seulement après le merge, comme un run « en échec » à zéro job, nommé par
+  son chemin (11/11, `mot-du-mois.yml` : un `name:` non cité contenait
+  « : »). Parade : `python3 -c "import yaml,sys;yaml.safe_load(open(sys.argv[1]))"`
+  sur chaque workflow touché avant le commit ; le test
+  `tests/unit/workflows.test.ts` garde ce cas-là.
+
 ## La routine elle-même
 
 - **Une routine lancée dans une session neuve n'a pas accès au dépôt** :
