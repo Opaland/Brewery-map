@@ -213,3 +213,25 @@ describe('CODEOWNERS', () => {
       ).toBe(true)
   })
 })
+
+describe('S380 : le mot du mois rédigé par Claude', () => {
+  const texte = readFileSync('.github/workflows/mot-du-mois.yml', 'utf8')
+  const [rediger = '', proposer = ''] = texte.split(/^ {2}proposer:$/m)
+
+  it('ne se lance qu’à la main', () => {
+    expect(texte).toMatch(/^on:\n {2}workflow_dispatch:/m)
+    expect(texte).not.toMatch(/^\s*(schedule|push|pull_request\w*):/m)
+  })
+
+  it('la clé n’est donnée qu’une fois, à l’étape qui appelle Claude, dans un job qui ne peut que lire', () => {
+    expect(texte.match(/secrets\.ANTHROPIC_API_KEY/g)).toHaveLength(1)
+    expect(rediger).toMatch(/permissions:\n {6}contents: read\n {4}outputs:/)
+    expect(proposer).not.toMatch(/secrets\./)
+  })
+
+  it('le job qui ouvre la PR valide le fichier par son schéma avant', () => {
+    const valider = proposer.indexOf('--valider')
+    expect(valider).toBeGreaterThan(-1)
+    expect(valider).toBeLessThan(proposer.indexOf('gh pr create'))
+  })
+})

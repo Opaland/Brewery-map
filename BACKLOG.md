@@ -59,6 +59,11 @@ Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 
 - ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
 - 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
+## E38 — Claude dans le logiciel (11/11)
+
+- S381 : afficher le mot du mois accepté par Cédric dans l'application (« Quoi de neuf »), avec la mention « rédigé par l'IA, relu par Cédric » et le volet « ce qui a été envoyé » ; en anglais aussi ; persona Inès. Attend un premier mot du mois accepté.
+- La routine « Département du jour » dans GitHub Actions (idée 3 de `docs/ETUDE-NETATMO.md`), en propositions seulement : après S381, sur go de Cédric.
+
 ## Restes de S347, Vienne (11/11, issue #188)
 
 - À relancer : Bières de Montmorillon (site en 403), Brasserie Difre, La Nobilienne, Thirsty Steves, Cluricaume et Crafty Brewpub (domaines qui ne se résolvent pas depuis la session), 3 Brasseurs Poitiers (page locale en 404), Epikur (annuaire seul).

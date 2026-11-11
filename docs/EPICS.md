@@ -584,11 +584,19 @@ Copilot, sans générateur) ; essais lancés à la main, sur son accord.
 | S353 | Un agent par persona de `docs/PERSONAS.md`, outils au plus juste, fiche tenue d'accord par un test ; `relecteur-de-persona` retiré ; en-têtes et phrases obligatoires de tous les agents testés | ISTQBFinder `.claude/agents/`, `tests/test_agents.py` |
 | S354 | Essais de bout en bout des agents (`claude -p --agent`), contrôles automatiques, résultats datés, tableau de verdicts ; première campagne sur l'accord de Cédric | ISTQBFinder `scripts/essais_agents.py`, `docs/essais-reponses.md` |
 
+### E38 — Claude dans le logiciel *(persona : Cédric ; demande du 11/11 : « regarde pour implémenter claudeAPI dans le logiciel »)*
+
+Les idées 3 et 4 de `docs/ETUDE-NETATMO.md`. Claude n'est appelé que depuis un outil ou un workflow, jamais depuis la page ; le code calcule les faits, Claude écrit, et ce qu'il écrit arrive en PR.
+
+| Sprint | Story | Origine |
+|---|---|---|
+| S380 | Le mot du mois, rédigé par Claude, chaque nombre et chaque nom vérifiés, proposé en PR | Netatmo `collector/insights.py`, `revue-agents.yml` |
+
 ## Compte
 
 E1 8 · E2 7 · E3 9 · E4 7 · E5 8 · E6 10 · E7 12 · E8 8 · E9 5 · E10 9 ·
 E11 7 · E12 10 = **100 stories**, S29 à S128 ; plus le plan v5 ci-dessous,
-S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35) ; S335 à S339, hors plan (règle de Cédric, points moins urgents) ; plus S340 à S348, la France entière (E36) ; S349 à S351, hors plan (réponses du 22/10) ; plus S352 à S354, le mode de développement d’ISTQBFinder (E37).
+S129 à S228 : **200 sprints** en tout ; plus S229 à S243, issues de la revue d'architecture ; plus S244 à S262, la France entière (E25) ; plus S264 à S272, la règle de Cédric (E26) ; plus S273 à S292, repris des dépôts frères (E27) ; plus S293 et S294, le premier écran quand le fichier grandit ; plus S295 et S296, la relecture d'ensemble ; S297 à S301, écrites hors de ce plan (`docs/stories/`) ; plus S302, la reprise sous Windows (E28) ; plus S303 à S306, les bugs de la revue du 19/10 (E29) ; S307 à S323, écrites hors de ce plan (`docs/stories/`, S321 sans fichier : ses données sont dans la PR #159) ; plus S324 à S328, ce que le PC connecté débloque (E30) ; plus S329 à S334, la suite de la revue de reprise du 21/10 (E31 à E35) ; S335 à S339, hors plan (règle de Cédric, points moins urgents) ; plus S340 à S348, la France entière (E36) ; S349 à S351, hors plan (réponses du 22/10) ; plus S352 à S354, le mode de développement d’ISTQBFinder (E37) ; plus S380, Claude dans le logiciel (E38).
 
 ## Ordre d'exécution
 

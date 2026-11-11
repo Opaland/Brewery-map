@@ -11,13 +11,12 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 86 (Vienne), S347 cinquième partie : PR ouverte le 11/11 ; si elle est mergée, passer au 09 (Occitanie, #189) |
-| Essais sur ce département | 1 (11/11) |
-| Issue du département | #188 |
-| Dernier département terminé | 79 (10/11, PR #279, 3 fiches) |
+| Département en cours | 09 (Ariège), S348 (Occitanie) : pas encore lu ; écrire d'abord `docs/stories/S348.md` (modèle : S347), et déplacer les tests de la « commune sans fiche », qui sont à Perpignan, quand le 66 entrera |
+| Essais sur ce département | 0 |
+| Issue du département | #189 |
+| Dernier département terminé | 86 (11/11, PR #282, 4 fiches) ; la Nouvelle-Aquitaine est couverte |
 
-**File des départements** (dans l'ordre) : 86 (fin de la
-Nouvelle-Aquitaine, #188) ; puis l'Occitanie (#189) : 09, 11, 12, 30, 31,
+**File des départements** (dans l'ordre) : l'Occitanie (#189) : 09, 11, 12, 30, 31,
 32, 34, 46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
