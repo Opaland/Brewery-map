@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 09 (Ariège), S348 (Occitanie) : pas encore lu ; écrire d'abord `docs/stories/S348.md` (modèle : S347), et déplacer les tests de la « commune sans fiche », qui sont à Perpignan, quand le 66 entrera |
-| Essais sur ce département | 0 |
+| Département en cours | 09 (Ariège), S348 (Occitanie) : lu le 12/11 (13 lectures relues sur la page brute, `curation/campagne/09-lus.json`) ; le rendu a échoué, le géocodeur IGN étant en panne (504 puis plus de réponse) : reprendre à `campagne.ts rendre 09`, sans relire. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (12/11, échoué : géocodeur IGN en panne) |
 | Issue du département | #189 |
 | Dernier département terminé | 86 (11/11, PR #282, 4 fiches) ; la Nouvelle-Aquitaine est couverte |
 
