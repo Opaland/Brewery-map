@@ -1,0 +1,789 @@
+{
+ "lot": "dep-09",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Globe Trotter Brasserie",
+    "c": "Pamiers",
+    "d": "09",
+    "lat": 43.12802,
+    "lon": 1.62678,
+    "km": 376.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie-restaurant : bières brassées sur place, service en salle et vente à emporter, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+    "addr": "Route de Toulouse, Zone de la Cavalerie, 09100 Pamiers",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/globe-trotter-brasserie-pamiers_TFOSITRA2_RES_6231128/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/restauration/globe-trotter-brasserie-pamiers_TFOSITRA2_RES_6231128/",
+    "https://data.geopf.fr/geocodage/search?q=Pamiers&type=municipality&limit=5"
+   ],
+   "extrait": "Service en salle. Vente à emporter.",
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 (« Bières artisanales brassées sur place. », « Service en salle. Vente à emporter. »). Le portable de la fiche est écarté (un portable doit venir de la brasserie). Pas de site officiel."
+  },
+  {
+   "fiche": {
+    "n": "Le Grand Bison",
+    "c": "Lavelanet",
+    "d": "09",
+    "lat": 42.93457,
+    "lon": 1.83763,
+    "km": 383,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie bio ; vente directe à la brasserie, en semaine. Depuis le 31 octobre 2026, ses bières se boivent aussi au Bar du Bison, chez L’Art d’Assembler à Lavelanet : un autre lieu, sans horaires publiés.",
+    "addr": "70 bis avenue du Maréchal Joffre, 09300 Lavelanet",
+    "src": "http://www.legrandbison.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "09 73 23 37 93",
+     "site": "http://www.legrandbison.fr/",
+     "source": "http://www.legrandbison.fr/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:30"
+       ],
+       [
+        "13:30",
+        "18:00"
+       ]
+      ],
+      "source": "http://www.legrandbison.fr/",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "http://www.legrandbison.fr/",
+    "https://data.geopf.fr/geocodage/search?q=70+bis+avenue+du+Mar%C3%A9chal+Joffre%2C+09300+Lavelanet&limit=5"
+   ],
+   "extrait": "Nous vous proposons la vente directe à la brasserie,",
+   "choix": "Site officiel relu sur la page brute le 12/11 : vente directe, horaires de semaine, fixe de la brasserie. Le portable du bar est écarté (celui du bar, un autre lieu). Pas de lien Untappd."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie La Boussole",
+    "c": "Taurignan-Vieux",
+    "d": "09",
+    "lat": 43.03608,
+    "lon": 1.10224,
+    "km": 412.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie coopérative bio. Le magasin est ouvert le vendredi ; de mi-mai à fin août, magasin, bar, terrasse et food truck le vendredi soir, avec dégustation sur place.",
+    "addr": "Camps de Bonin - Marbama, 09190 Taurignan-Vieux",
+    "src": "https://www.ariegepyrenees.com/?p=134157",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "09 53 18 98 32",
+     "site": "https://www.brasserie-laboussole.fr/fr/",
+     "source": "https://www.brasserie-laboussole.fr/fr/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "10:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "De mi-mai à fin août, bar et terrasse le vendredi de 17 h à 23 h, d'après l'office.",
+      "source": "https://www.brasserie-laboussole.fr/fr/",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.ariegepyrenees.com/?p=134157",
+    "https://www.brasserie-laboussole.fr/fr/",
+    "https://data.geopf.fr/geocodage/search?q=Taurignan-Vieux&type=municipality&limit=5"
+   ],
+   "extrait": "Possibilité de déguster sur place",
+   "choix": "Page de l'agence départementale du tourisme et site officiel relus sur la page brute le 12/11. Les horaires du magasin viennent du site ; ceux du bar d'été, de l'office, en remarque. Le fixe est celui du site de la brasserie (« Tel : +33 (0)9 53 18 98 32 »)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de la Fourche",
+    "c": "Foix",
+    "d": "09",
+    "lat": 42.96665,
+    "lon": 1.60797,
+    "km": 391.5,
+    "cat": 1,
+    "conf": "faible",
+    "note": "Brewpub et restaurant : la bière à la pression est brassée sur place et se boit sur place. La page ne parle pas de vente à emporter.",
+    "addr": "6 rue du Rival, 09000 Foix",
+    "src": "https://labrasseriedelafourche.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 61 05 91 81",
+     "site": "https://labrasseriedelafourche.fr/",
+     "source": "https://labrasseriedelafourche.fr/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "lun": [
+       [
+        "17:30",
+        "23:00"
+       ]
+      ],
+      "mar": [
+       [
+        "12:00",
+        "23:30"
+       ]
+      ],
+      "mer": [
+       [
+        "12:00",
+        "23:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "12:00",
+        "00:30"
+       ]
+      ],
+      "ven": [
+       [
+        "12:00",
+        "01:00"
+       ]
+      ],
+      "sam": [
+       [
+        "12:00",
+        "01:00"
+       ]
+      ],
+      "source": "https://labrasseriedelafourche.fr/",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://labrasseriedelafourche.fr/",
+    "https://data.geopf.fr/geocodage/search?q=6+rue+du+Rival%2C+09000+Foix&limit=5"
+   ],
+   "extrait": "un véritable BrewPub produit sur place la bière qu’il vend à la pression.",
+   "choix": "Site officiel relu sur la page brute le 12/11. Un bar où l'on boit, sans vente à emporter dite : catégorie 1, confiance faible (réponse de Cédric du 29/10). Fixe et horaires de la page ; dimanche non indiqué."
+  },
+  {
+   "fiche": {
+    "n": "La Brouche",
+    "c": "Saint-Girons",
+    "d": "09",
+    "lat": 42.98677,
+    "lon": 1.14498,
+    "km": 414.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio de Saint-Girons, depuis 2005. Ouverte toute l'année aux horaires ci-dessous ; la page propose aussi de visiter la brasserie. Elle ne dit pas en toutes lettres qu'on y achète ou qu'on y boit.",
+    "addr": "6 Ter Av. René Plaisant, 09200 Saint-Girons",
+    "src": "http://www.biere-ariege.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 61 96 60 01",
+     "site": "http://www.biere-ariege.com/",
+     "source": "http://www.biere-ariege.com/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "mer": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "10:30",
+        "12:30"
+       ],
+       [
+        "15:00",
+        "19:00"
+       ]
+      ],
+      "source": "http://www.biere-ariege.com/",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "http://www.biere-ariege.com/",
+    "https://data.geopf.fr/geocodage/search?q=6+Ter+Av.+Ren%C3%A9+Plaisant%2C+09200+Saint-Girons&limit=5"
+   ],
+   "extrait": "Installée au cœur du Couserans à Saint-Girons depuis 2005",
+   "choix": "Site officiel relu sur la page brute le 12/11 : adresse, fixe, « La brasserie est ouverte toute l’année » et ses horaires. Catégorie 0 : une visite ou une ouverture ne disent pas une vente. Le point OSM « La Brouche » est le même lieu : une seule fiche. Les avis Google de la page ne sont pas une source."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Co-Hop",
+    "c": "Pailhès",
+    "d": "09",
+    "lat": 43.09921,
+    "lon": 1.44543,
+    "km": 388.7,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie coopérative bio (SCOP) : visites, dégustations et vente à la brasserie du lundi au vendredi, d'après l'agence de tourisme de l'Ariège. Pendant les vacances scolaires, appeler avant de venir.",
+    "addr": "Lieu dit Darré Loustal, 09130 Pailhès",
+    "src": "https://www.ariegepyrenees.com/?p=74730",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 22 34 71 29",
+     "site": "https://www.brasserieco-hop.fr/accueil/",
+     "source": "https://www.brasserieco-hop.fr/accueil/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "remarque": "Pendant les vacances scolaires, appeler les brasseurs.",
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.ariegepyrenees.com/?p=74730",
+    "https://www.brasserieco-hop.fr/accueil/",
+    "https://data.geopf.fr/geocodage/search?q=Pailh%C3%A8s&type=municipality&limit=5"
+   ],
+   "extrait": "Pendant les vacances scolaires, appelez les brasseurs pour être sûrs des horaires",
+   "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente : ouvert du lundi au vendredi de 9h à 19h »). Le seul numéro publié par la brasserie est un portable, sur son site, rattaché à un prénom qui n'est pas repris (règle du 21/10). Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+  },
+  {
+   "fiche": {
+    "n": "Destral",
+    "c": "Tarascon-sur-Ariège",
+    "d": "09",
+    "lat": 42.8455,
+    "lon": 1.60487,
+    "km": 402.3,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale des vallées du Tarasconnais. D'après l'agence de tourisme de l'Ariège, elle n'est pas encore ouverte au public : ses bières se trouvent dans des boutiques partenaires de Haute-Ariège.",
+    "addr": "13 Avenue de la République, 09400 Tarascon-sur-Ariège",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-destral-tarascon-sur-ariege_TFOSITRA2_DEG_6492562/",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-destral-tarascon-sur-ariege_TFOSITRA2_DEG_6492562/",
+    "https://data.geopf.fr/geocodage/search?q=13+Avenue+de+la+R%C3%A9publique%2C+09400+Tarascon-sur-Ari%C3%A8ge&limit=5"
+   ],
+   "extrait": "Fondée dans les vallées du Tarasconnais, cette brasserie artisanale a vu le jour grâce à sa détermination et à son apprentissage de l’art brassicole.",
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11. Pas de site officiel. Un portable cité par un moteur de recherche n'est pas sur la page : écarté. L'agence départementale écrit : « la brasserie n’est pas encore ouverte au public mais ça ne saurait tarder » (revue de la persona Cédric)."
+  },
+  {
+   "fiche": {
+    "n": "SOS Bière",
+    "c": "Auzat",
+    "d": "09",
+    "lat": 42.73667,
+    "lon": 1.46042,
+    "km": 419,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale de la vallée de Vicdessos. Accueil du public le jeudi en fin d'après-midi pour des dégustations, des ateliers et des visites, d'après l'agence de tourisme de l'Ariège ; le site publie ses tarifs en direct, sans dire où ni quand on achète.",
+    "addr": "Box 5 Hôtel d'Entreprises, Rue du Montcalm, 09220 Auzat",
+    "src": "https://sos-biere.com",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://sos-biere.com",
+     "source": "https://sos-biere.com",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://sos-biere.com",
+    "https://www.ariegepyrenees.com/?p=74730",
+    "https://data.geopf.fr/geocodage/search?q=Auzat&type=municipality&limit=5"
+   ],
+   "extrait": "Nous commercialisons nos bières dans des bars, restaurants et épiceries.",
+   "choix": "Site officiel et page de l'agence départementale relus sur la page brute le 12/11. Catégorie 0 : visites et dégustations ne font pas une catégorie 1, et « Nos tarifs en direct » ne dit pas une vente à la brasserie. Pas de téléphone publié."
+  },
+  {
+   "fiche": {
+    "n": "L'Orge Folle",
+    "c": "Rimont",
+    "d": "09",
+    "lat": 42.9939,
+    "lon": 1.28107,
+    "km": 406.3,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Microbrasserie de Rimont : visites, dégustations et vente à la brasserie du mardi au samedi en fin de journée, d'après l'agence de tourisme de l'Ariège.",
+    "addr": "15 Avenue de la Résistance, 09420 Rimont",
+    "src": "https://www.ariegepyrenees.com/?p=74730",
+    "coordPrecision": "address",
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "mar": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.ariegepyrenees.com/?p=74730",
+    "https://data.geopf.fr/geocodage/search?q=15+Avenue+de+la+R%C3%A9sistance%2C+09420+Rimont&limit=5"
+   ],
+   "extrait": "ouvert du mardi au vendredi de 16h à 19h et le samedi de 17h à 19h.",
+   "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente »). Adresse de la fiche de l'office d'Occitanie. Le portable de l'office est écarté (un portable doit venir de la brasserie). La page nomme le brasseur : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Trois Clochers",
+    "c": "Pamiers",
+    "d": "09",
+    "lat": 43.11514,
+    "lon": 1.61493,
+    "km": 378.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie du centre de Pamiers, ouverte en 2023 : visites, dégustations et vente à la brasserie le jeudi, le vendredi et le samedi en fin d'après-midi, d'après l'agence de tourisme de l'Ariège. Ses bières se vendent aussi au marché de Pamiers le samedi matin.",
+    "addr": "1 place des Victimes de la Gestapo, 09100 Pamiers",
+    "src": "https://www.ariegepyrenees.com/?p=74730",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "ambree",
+      "libelle": "L’Affranchie"
+     },
+     {
+      "type": "blanche",
+      "libelle": "L’Amoureuse"
+     },
+     {
+      "type": "blonde",
+      "libelle": "L’Audacieuse"
+     },
+     {
+      "type": "ipa",
+      "libelle": "L’Arrogante"
+     }
+    ],
+    "horaires": [
+     {
+      "nature": "vente",
+      "jeu": [
+       [
+        "16:00",
+        "19:30"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "19:30"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "19:30"
+       ]
+      ],
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.ariegepyrenees.com/?p=74730",
+    "https://data.geopf.fr/geocodage/search?q=1+place+des+Victimes+de+la+Gestapo%2C+09100+Pamiers&limit=5"
+   ],
+   "extrait": "Visites, dégustations et points vente : le jeudi, vendredi et samedi de 16h à 19h30",
+   "choix": "Page de l'agence départementale du tourisme (Ariège Pyrénées) relue sur la page brute le 12/11. Pas de site officiel ni de téléphone publié. La page nomme la brasseuse : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie L'Excentrique",
+    "c": "Verniolle",
+    "d": "09",
+    "lat": 43.08075,
+    "lon": 1.6495,
+    "km": 379.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale : on peut acheter ses bières à la brasserie, sur le lieu de fabrication, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+    "addr": "1c rue Carabin, 09340 Verniolle",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-excentrique-verniolle_TFOSITRA2_DEG_6402844/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "stout"
+     },
+     {
+      "type": "ipa",
+      "libelle": "NEIPA"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-excentrique-verniolle_TFOSITRA2_DEG_6402844/",
+    "https://data.geopf.fr/geocodage/search?q=1c+rue+Carabin%2C+09340+Verniolle&limit=5"
+   ],
+   "extrait": "Vous pouvez venir acheter nos bières directement à la brasserie, sur le lieu de fabrication, ou chez nos partenaires, épiceries, caves et restaurants de la région.",
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 : vente à la brasserie, adresse, bières (blonde, stout, NEIPA). Pas de site officiel. Le portable de la fiche est écarté (un portable doit venir de la brasserie). Adresse de l'office, différente du siège SIRENE."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie de l'Éphémère (BIM)",
+    "c": "Massat",
+    "d": "09",
+    "lat": 42.8846,
+    "lon": 1.35858,
+    "km": 411.4,
+    "cat": 0,
+    "conf": "",
+    "note": "La brasserie qui fait la Bière Internationale de Massat. Son site, encore en construction, donne des jours d'« ouverture et commande » sans dire si l'on peut acheter ou boire sur place.",
+    "addr": "16 ter rue du Pont, 09320 Massat",
+    "src": "https://bim-brasserie.fr",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "06 80 40 37 91",
+     "site": "https://bim-brasserie.fr",
+     "source": "https://bim-brasserie.fr",
+     "verifieLe": "2026-11-12"
+    }
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://bim-brasserie.fr",
+    "https://data.geopf.fr/geocodage/search?q=Massat&type=municipality&limit=5"
+   ],
+   "extrait": "Issue de la Brasserie de l’Éphémère, la Bière Internationale de Massat [BIM pour les intimes] est une bière artisanale et écologique brassée à Massat en Ariège.",
+   "choix": "Site officiel relu sur la page brute le 12/11 ; le point OSM « Brasserie de l'éphémère » renvoie au même site et à la même adresse : une seule fiche. Deux portables publiés par la brasserie : le premier est repris. Horaires « Jeudi – Vendredi, 9h à 12h – 14h à 18h » non repris : la page ne dit pas ce qu'on y fait."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Kamris",
+    "c": "La Bastide-de-Sérou",
+    "d": "09",
+    "lat": 43.01671,
+    "lon": 1.42711,
+    "km": 396.6,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brewpub ouvert en février 2024 : on y boit les bières de la maison, avec des plats, sur place ou à emporter ; concerts au moins une fois par mois. D'après l'agence de tourisme de l'Ariège. Vente à emporter aussi le jeudi dès 10 h.",
+    "addr": "09240 La Bastide-de-Sérou",
+    "src": "https://www.ariegepyrenees.com/?p=74730",
+    "coordPrecision": "centre",
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "La Tétras (Session Pale Ale)"
+     },
+     {
+      "type": "autre",
+      "libelle": "La Lucky Loki (Pale Ale)"
+     },
+     {
+      "type": "stout",
+      "libelle": "La Charpentière"
+     },
+     {
+      "type": "autre",
+      "libelle": "Le Brame (Triple)"
+     }
+    ],
+    "horaires": [
+     {
+      "nature": "accueil",
+      "jeu": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "dim": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "periode": {
+       "du": "05-01",
+       "au": "12-31"
+      },
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     },
+     {
+      "nature": "accueil",
+      "ven": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "sam": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "dim": [
+       [
+        "16:00",
+        "23:00"
+       ]
+      ],
+      "periode": {
+       "du": "01-01",
+       "au": "04-30"
+      },
+      "source": "https://www.ariegepyrenees.com/?p=74730",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.ariegepyrenees.com/?p=74730",
+    "https://data.geopf.fr/geocodage/search?q=La+Bastide-de-S%C3%A9rou&type=municipality&limit=5"
+   ],
+   "extrait": "La brasserie est ouverte pour la vente à emporter (en plus des heures d’ouverture du bar) le jeudi à partir de 10h.",
+   "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (revue de la persona Cédric : la raison « aucune page » était fausse). Adresse non publiée : la fiche est au centre de la commune. Les prénoms des fondateurs ne sont pas repris. Pas de téléphone ni de site."
+  },
+  {
+   "fiche": {
+    "n": "La Bonne Foix",
+    "c": "Foix",
+    "d": "09",
+    "lat": 42.96878,
+    "lon": 1.60736,
+    "km": 391.3,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières bio brassées dans un atelier à Foix. Vente directe sur rendez-vous, d'après le site de la brasserie ; adresse non publiée.",
+    "addr": "09000 Foix",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-bonne-foix-foix_TFOSITRA2_DEG_7143532/",
+    "coordPrecision": "centre",
+    "beers": [
+     {
+      "type": "blonde"
+     },
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "ambree"
+     },
+     {
+      "type": "ipa"
+     },
+     {
+      "type": "autre",
+      "libelle": "Triple"
+     },
+     {
+      "type": "brune"
+     }
+    ],
+    "contact": {
+     "site": "https://labonnefoix.fr/",
+     "source": "https://labonnefoix.fr/",
+     "verifieLe": "2026-11-12"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "remarque": "Sur rendez-vous.",
+      "source": "https://labonnefoix.fr/",
+      "verifieLe": "2026-11-12"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-12",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-bonne-foix-foix_TFOSITRA2_DEG_7143532/",
+    "https://labonnefoix.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Foix&type=municipality&limit=5"
+   ],
+   "extrait": "Nos bières artisanales sont brassés par nos soins dans notre atelier de fabrication à Foix.",
+   "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 12/11. Le site porte « HORAIRES VENTE DIRECTE » puis « Sur rendez-vous, contactez nous ! » : catégorie 2. Le portable de la fiche de l'office est écarté (un portable doit venir de la brasserie)."
+  }
+ ]
+}

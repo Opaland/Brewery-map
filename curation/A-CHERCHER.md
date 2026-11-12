@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 817 | 21 (3 %) | 42 | 305 | 254 | 317 | 429 | 542 | 651 |
+| **Total** | 831 | 21 (3 %) | 42 | 309 | 260 | 324 | 437 | 546 | 661 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -23,6 +23,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 06 · Alpes-Maritimes | 10 | 0 (0 %) | 0 | 2 | 1 | 2 | 2 | 6 | 10 |
 | 07 · Ardèche | 9 | 0 (0 %) | 3 | 4 | 4 | 9 | 7 | 5 | 5 |
 | 08 · Ardennes | 6 | 0 (0 %) | 0 | 3 | 2 | 1 | 4 | 5 | 6 |
+| 09 · Ariège | 14 | 0 (0 %) | 0 | 4 | 6 | 7 | 8 | 4 | 10 |
 | 10 · Aube | 6 | 0 (0 %) | 0 | 4 | 2 | 1 | 3 | 3 | 6 |
 | 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 9 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
@@ -99,7 +100,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-305 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+309 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -141,6 +142,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Les Coulous (Messincourt) : sans site, sans téléphone, sans horaires, sans bières
 - Brasserie Chinco (Neuflize) : sans téléphone, sans horaires, sans bières
 - Ardwen (Launois-sur-Vence) : sans horaires, sans bières
+
+### 09 · Ariège
+
+- Destral (Tarascon-sur-Ariège) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie de l'Éphémère (BIM) (Massat) : sans adresse vérifiée, sans horaires, sans bières
+- SOS Bière (Auzat) : sans adresse vérifiée, sans téléphone, sans bières
+- La Brouche (Saint-Girons) : sans bières
 
 ### 10 · Aube
 

@@ -1,0 +1,617 @@
+[
+ {
+  "cle": "sirene:907752463",
+  "nom": "BRASSERIE DES TROIS SEIGNEURS",
+  "communes": [
+   "SOULAN"
+  ],
+  "departement": "09",
+  "adresses": [
+   "HAM DE BOUSSAN 09320 SOULAN",
+   "BULEIX LD LE PONT 09320 SOULAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "907752463",
+  "sirets": [
+   "90775246300014",
+   "90775246300022"
+  ],
+  "osm": [
+   "way/1162769421"
+  ],
+  "lat": 42.916849372,
+  "lon": 1.234914883,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921620845",
+  "nom": "L'EXCENTRIQUE",
+  "communes": [
+   "VERNIOLLE",
+   "VARILHES"
+  ],
+  "departement": "09",
+  "adresses": [
+   "2 PLACE DE LA REPUBLIQUE 09340 VERNIOLLE",
+   "20 B ROUTE DE PARIS 09120 VARILHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921620845",
+  "sirets": [
+   "92162084500021",
+   "92162084500039"
+  ],
+  "osm": [],
+  "lat": 43.0810787884876,
+  "lon": 1.64871809678627,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840814412",
+  "nom": "MICROBRASSERIE DE LA FOURCHE",
+  "communes": [
+   "SAINT-MARTIN-DE-CARALP",
+   "FOIX"
+  ],
+  "departement": "09",
+  "adresses": [
+   "LD PLANIES 09000 SAINT-MARTIN-DE-CARALP",
+   "6 RUE DU RIVAL 09000 FOIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840814412",
+  "sirets": [
+   "84081441200010",
+   "84081441200028"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:999694615",
+  "nom": "LA BONNE FOIX",
+  "communes": [
+   "FOIX"
+  ],
+  "departement": "09",
+  "adresses": [
+   "2 RUE JEAN NAYROU 09000 FOIX",
+   "10 B RUE AIME CESAIRE 09000 FOIX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "999694615",
+  "sirets": [
+   "99969461500017",
+   "99969461500025"
+  ],
+  "osm": [],
+  "lat": 42.9783764219004,
+  "lon": 1.61184495819589,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:798598454",
+  "nom": "LE GRAND BISON",
+  "communes": [
+   "LAVELANET"
+  ],
+  "departement": "09",
+  "adresses": [
+   "70 B RUE MARECHAL JOFFRE 09300 LAVELANET"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "798598454",
+  "sirets": [
+   "79859845400014"
+  ],
+  "osm": [
+   "node/7523800106"
+  ],
+  "lat": 42.934715324,
+  "lon": 1.8377026287,
+  "site": "http://www.legrandbison.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": "MICROBRASSERIE DU REFUGE",
+  "communes": [
+   "LA BASTIDE-DE-SEROU"
+  ],
+  "departement": "09",
+  "adresses": [
+   "7 CHEMIN DE COURONNES 09240 LA BASTIDE-DE-SEROU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "SAINT-QUENTIN-LA-TOUR"
+  ],
+  "departement": "09",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CARLA-DE-ROQUEFORT"
+  ],
+  "departement": "09",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:912735578",
+  "nom": "BRASSERIE LES TROIS CLOCHERS",
+  "communes": [
+   "PAMIERS"
+  ],
+  "departement": "09",
+  "adresses": [
+   "1 PLACE DES VICTIMES DE LA GESTAPO 09100 PAMIERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "912735578",
+  "sirets": [
+   "91273557800011"
+  ],
+  "osm": [
+   "node/12806454428"
+  ],
+  "lat": 43.115097215,
+  "lon": 1.6150428313,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:927839274",
+  "nom": "BIM (BRASSERIE INTERNATIONALE DE MASSAT)",
+  "communes": [
+   "MASSAT"
+  ],
+  "departement": "09",
+  "adresses": [
+   "16 B RUE DU PONT 09320 MASSAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "927839274",
+  "sirets": [
+   "92783927400010"
+  ],
+  "osm": [],
+  "lat": 42.890249453,
+  "lon": 1.3485675122,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:811075431",
+  "nom": "BIERES D'AX",
+  "communes": [
+   "AX-LES-THERMES"
+  ],
+  "departement": "09",
+  "adresses": [
+   "GALLOS TROISIEME BAZERQUE 09110 AX-LES-THERMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "811075431",
+  "sirets": [
+   "81107543100015"
+  ],
+  "osm": [],
+  "lat": 42.698172246,
+  "lon": 1.8281523382,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851731638",
+  "nom": "BRASSERIE ASSOCIATIVE DE LA BELLONGUE",
+  "communes": [
+   "SAINT-LARY"
+  ],
+  "departement": "09",
+  "adresses": [
+   "LIEU DIT LES ILLOUS 09800 SAINT-LARY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851731638",
+  "sirets": [
+   "85173163800017"
+  ],
+  "osm": [],
+  "lat": 42.916485266,
+  "lon": 0.8677579415,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100976968",
+  "nom": "MOUSSAOU",
+  "communes": [
+   "BONAC-IRAZEIN"
+  ],
+  "departement": "09",
+  "adresses": [
+   "34 CARRERA DE NAUT 09800 BONAC-IRAZEIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100976968",
+  "sirets": [
+   "10097696800014"
+  ],
+  "osm": [],
+  "lat": 42.8772004963579,
+  "lon": 0.972466797938168,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898256383",
+  "nom": "BRASSERIE DRYKK",
+  "communes": [
+   "SAVERDUN"
+  ],
+  "departement": "09",
+  "adresses": [
+   "17 GRANDE RUE 09700 SAVERDUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898256383",
+  "sirets": [
+   "89825638300016"
+  ],
+  "osm": [],
+  "lat": 43.234409081,
+  "lon": 1.5758500661,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "ALZEN"
+  ],
+  "departement": "09",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:849732706",
+  "nom": "CO-HOP",
+  "communes": [
+   "PAILHES"
+  ],
+  "departement": "09",
+  "adresses": [
+   "LD DARRE LOUSTAL 09130 PAILHES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849732706",
+  "sirets": [
+   "84973270600015"
+  ],
+  "osm": [],
+  "lat": 43.088475737,
+  "lon": 1.4567531085,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834999708",
+  "nom": "BRASSERIE LA BOUSSOLE",
+  "communes": [
+   "TAURIGNAN-VIEUX"
+  ],
+  "departement": "09",
+  "adresses": [
+   "CAMPS DE BONIN - MARBAMA AV DU SALAT 09190 TAURIGNAN-VIEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834999708",
+  "sirets": [
+   "83499970800011"
+  ],
+  "osm": [],
+  "lat": 43.022786285,
+  "lon": 1.116434011,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843999228",
+  "nom": "BRASSERIE ARTISANALE D'ARIEGE PYRENEES",
+  "communes": [
+   "SAINT-GIRONS"
+  ],
+  "departement": "09",
+  "adresses": [
+   "6 T AVENUE RENE PLAISANT 09200 SAINT-GIRONS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "843999228",
+  "sirets": [
+   "84399922800011"
+  ],
+  "osm": [
+   "node/7508683825"
+  ],
+  "lat": 42.9865314031882,
+  "lon": 1.14505322835347,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893096867",
+  "nom": "SOS BIERE",
+  "communes": [
+   "AUZAT"
+  ],
+  "departement": "09",
+  "adresses": [
+   "BOX 5 DE L'HOTEL D'ENTREPRISE RUE DU MONTCALM 09220 AUZAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893096867",
+  "sirets": [
+   "89309686700013"
+  ],
+  "osm": [],
+  "lat": 42.762575306,
+  "lon": 1.4782290123,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:889478491",
+  "nom": "DESTRAL",
+  "communes": [
+   "TARASCON-SUR-ARIEGE"
+  ],
+  "departement": "09",
+  "adresses": [
+   "13 AVENUE DE LA REPUBLIQUE 09400 TARASCON-SUR-ARIEGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "889478491",
+  "sirets": [
+   "88947849100026"
+  ],
+  "osm": [],
+  "lat": 42.845611232,
+  "lon": 1.604846441,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923764773",
+  "nom": "FENTO BRASSERIE",
+  "communes": [
+   "DURBAN-SUR-ARIZE"
+  ],
+  "departement": "09",
+  "adresses": [
+   "5 CHEMIN DES MOULINS 09240 DURBAN-SUR-ARIZE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923764773",
+  "sirets": [
+   "92376477300019"
+  ],
+  "osm": [],
+  "lat": 43.021077256,
+  "lon": 1.3433503079,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:902107275",
+  "nom": "L'ORGE FOLLE",
+  "communes": [
+   "RIMONT"
+  ],
+  "departement": "09",
+  "adresses": [
+   "15 AVENUE DE LA RESISTANCE 09420 RIMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "902107275",
+  "sirets": [
+   "90210727500015"
+  ],
+  "osm": [],
+  "lat": 42.9939113998047,
+  "lon": 1.2812205102361,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:953833829",
+  "nom": "KAMRIS",
+  "communes": [
+   "LA BASTIDE-DE-SEROU"
+  ],
+  "departement": "09",
+  "adresses": [
+   "CALVAIRE 09240 LA BASTIDE-DE-SEROU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953833829",
+  "sirets": [
+   "95383382900013"
+  ],
+  "osm": [],
+  "lat": 43.011635279,
+  "lon": 1.4306071034,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11383719966",
+  "nom": "Globe Trotter Brasserie",
+  "communes": [
+   "Pamiers"
+  ],
+  "departement": "09",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11383719966"
+  ],
+  "lat": 43.13282,
+  "lon": 1.60633,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13004048954",
+  "nom": "La Brouche",
+  "communes": [
+   "Saint-Girons"
+  ],
+  "departement": "09",
+  "adresses": [
+   "6 ter Avenue René Plaisant, 09200 Saint-Girons"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13004048954"
+  ],
+  "lat": 42.98681,
+  "lon": 1.14508,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13844691310",
+  "nom": "Limonade de Fontestorbes",
+  "communes": [
+   "Bélesta"
+  ],
+  "departement": "09",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13844691310"
+  ],
+  "lat": 42.90043,
+  "lon": 1.93089,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/168580816",
+  "nom": "Brasserie de l'éphémère",
+  "communes": [
+   "Massat"
+  ],
+  "departement": "09",
+  "adresses": [
+   "16 ter Rue du Pont, 09320 Massat"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/168580816"
+  ],
+  "lat": 42.89028,
+  "lon": 1.34846,
+  "site": "https://bim-brasserie.fr",
+  "statut": "nouveau"
+ }
+]

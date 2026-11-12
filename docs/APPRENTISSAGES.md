@@ -82,6 +82,13 @@ pourquoi.
   sur chaque workflow touché avant le commit ; le test
   `tests/unit/workflows.test.ts` garde ce cas-là.
 
+- **Le géocodeur IGN peut tomber** (12/11 : 504, puis plus de réponse) et
+  `rendre` s'arrête. Parade : committer `<dép>-lus.json` et les raisons
+  dès qu'ils sont écrits ; le lendemain, reprendre à `rendre` sans relire ;
+  vérifier avant avec `curl -s -o /dev/null -w "%{http_code}"
+  "https://data.geopf.fr/geocodage/search?q=Foix&limit=1"` ; borner `rendre`
+  par `timeout`.
+
 ## La routine elle-même
 
 - **Une routine lancée dans une session neuve n'a pas accès au dépôt** :

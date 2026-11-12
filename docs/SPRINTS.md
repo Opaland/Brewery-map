@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S348, première partie — l'Ariège *(12/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 5 paquets ; 14 fiches par la règle de Cédric du 21/10 ; 831 fiches dans 82 départements, OSM à 595 ; l'Occitanie entre sur la carte. Revue de la persona Cédric traitée avant l'application (six bloquants), persona Hugo après.
+
 ## S380 — Le mot du mois, rédigé par Claude *(11/11, epic E38)*
 
 `docs/stories/S380.md`, demande de Cédric du 11/11. Les faits du mois calculés par `src/core/mot-du-mois.ts` ; Claude (`claude-opus-5-5`, repli côté serveur) rédige dans `outils/mot-du-mois.ts` ; tout nombre ou nom de brasserie absent des faits déclenche une réécriture, puis `verifie: false`. Workflow `mot-du-mois.yml` à la main, en deux jobs (la clé seulement dans le premier, qui ne peut que lire ; le second valide le fichier puis ouvre la PR). `@anthropic-ai/sdk` en dépendance de développement, hors de la page. En attente de Cédric : la clé et l'autorisation d'ouvrir des PR.

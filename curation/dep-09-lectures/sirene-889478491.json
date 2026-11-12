@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:889478491",
+ "ajout": {
+  "fiche": {
+   "n": "Destral",
+   "c": "Tarascon-sur-Ariège",
+   "d": "09",
+   "lat": 42.8455,
+   "lon": 1.60487,
+   "km": 402.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale des vallées du Tarasconnais. D'après l'agence de tourisme de l'Ariège, elle n'est pas encore ouverte au public : ses bières se trouvent dans des boutiques partenaires de Haute-Ariège.",
+   "addr": "13 Avenue de la République, 09400 Tarascon-sur-Ariège",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-destral-tarascon-sur-ariege_TFOSITRA2_DEG_6492562/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-destral-tarascon-sur-ariege_TFOSITRA2_DEG_6492562/",
+   "https://data.geopf.fr/geocodage/search?q=13+Avenue+de+la+R%C3%A9publique%2C+09400+Tarascon-sur-Ari%C3%A8ge&limit=5"
+  ],
+  "extrait": "Fondée dans les vallées du Tarasconnais, cette brasserie artisanale a vu le jour grâce à sa détermination et à son apprentissage de l’art brassicole.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11. Pas de site officiel. Un portable cité par un moteur de recherche n'est pas sur la page : écarté. L'agence départementale écrit : « la brasserie n’est pas encore ouverte au public mais ça ne saurait tarder » (revue de la persona Cédric)."
+ }
+}

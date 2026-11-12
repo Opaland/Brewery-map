@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:902107275",
+ "ajout": {
+  "fiche": {
+   "n": "L'Orge Folle",
+   "c": "Rimont",
+   "d": "09",
+   "lat": 42.9939,
+   "lon": 1.28107,
+   "km": 406.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie de Rimont : visites, dégustations et vente à la brasserie du mardi au samedi en fin de journée, d'après l'agence de tourisme de l'Ariège.",
+   "addr": "15 Avenue de la Résistance, 09420 Rimont",
+   "src": "https://www.ariegepyrenees.com/?p=74730",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.ariegepyrenees.com/?p=74730",
+     "mar": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.ariegepyrenees.com/?p=74730",
+   "https://data.geopf.fr/geocodage/search?q=15+Avenue+de+la+R%C3%A9sistance%2C+09420+Rimont&limit=5"
+  ],
+  "extrait": "ouvert du mardi au vendredi de 16h à 19h et le samedi de 17h à 19h.",
+  "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente »). Adresse de la fiche de l'office d'Occitanie. Le portable de l'office est écarté (un portable doit venir de la brasserie). La page nomme le brasseur : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+ }
+}
