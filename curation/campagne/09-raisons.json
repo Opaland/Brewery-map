@@ -1,5 +1,16 @@
 {
- "personne:2": "entreprise sans nom ni adresse : rien à chercher",
- "personne:3": "entreprise sans nom ni adresse : rien à chercher",
- "personne:4": "entreprise sans nom ni adresse : rien à chercher"
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:907752463": "une fiche d'office sans description, téléphone ni horaire ; rien ne dit qu'elle brasse ni qu'elle vend (12/11)",
+  "personne:1": "seul le registre SIRENE la donne (12/11)",
+  "sirene:811075431": "aucune page de la brasserie (12/11)",
+  "sirene:851731638": "association ; rien ne dit qu'elle accueille du public (12/11)",
+  "sirene:100976968": "aucune page de la brasserie (12/11)",
+  "sirene:898256383": "aucune page de la brasserie (12/11)",
+  "sirene:923764773": "seul le registre SIRENE la donne (12/11)",
+  "sirene:953833829": "aucune page qui en fasse une brasserie (12/11)",
+  "node/13004048954": "même lieu que sirene:843999228 (La Brouche, Saint-Girons)",
+  "node/13844691310": "un fabricant de limonade ; rien ne dit qu'il brasse de la bière (12/11)",
+  "way/168580816": "même lieu que sirene:927839274 (BIM, Massat)"
 }
