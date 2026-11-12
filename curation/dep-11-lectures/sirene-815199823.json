@@ -1,0 +1,76 @@
+{
+ "candidat": "sirene:815199823",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Mer à Boire",
+   "c": "Gruissan",
+   "d": "11",
+   "lat": 43.10249,
+   "lon": 3.111,
+   "km": 314.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie familiale de Gruissan : boutique ouverte du mercredi au samedi ; on peut aussi visiter la brasserie et y déguster, sans horaire de bar publié.",
+   "addr": "21 Rue de l'Hippocampe, 11430 Gruissan",
+   "src": "https://brasserielameraboire.com/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager",
+     "libelle": "Oh Soleil"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Écume de mer"
+    },
+    {
+     "type": "ambree",
+     "libelle": "Barberousse"
+    }
+   ],
+   "contact": {
+    "site": "https://brasserielameraboire.com/",
+    "source": "https://brasserielameraboire.com/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserielameraboire.com/",
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "16:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://brasserielameraboire.com/",
+   "https://data.geopf.fr/geocodage/search?q=21+Rue+de+l%27Hippocampe%2C+11430+Gruissan&limit=5"
+  ],
+  "extrait": "Mercredi-Vendredi : 17h à 19h",
+  "choix": "Site officiel relu sur la page brute le 12/11 (« Il est possible de visiter la brasserie, de déguster, d’acheter nos bières dans la boutique », horaires, adresse, bières permanentes). Catégorie 2 : la dégustation est liée à la visite (revue de la persona Cédric). Aucun téléphone de la brasserie : le portable lu sur un office est écarté. La remarque d'hiver d'un office n'a pas été retrouvée sur une page brute : non reprise."
+ }
+}

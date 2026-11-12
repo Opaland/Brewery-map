@@ -1,0 +1,339 @@
+[
+  {
+    "cle": "sirene:830820197",
+    "n": "Brasserie du 5 bis",
+    "c": "La Palme",
+    "adresse": "5 bis avenue de la Mer, 11480 La Palme",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale bio avec boutique et espace de dégustation, terrasse aux beaux jours. Ouverte en mai, juin et septembre le jeudi soir et du vendredi au samedi soir ; en juillet et août du mardi au samedi, le matin et le soir ; sur rendez-vous le reste de l'année. Le site donne deux versions des heures : appeler avant de venir (06 48 29 14 19, numéro publié par la brasserie).",
+    "src": "https://www.brasserie5bis.com/nous-trouver",
+    "extrait": "La brasserie 5 BIS vous offre un espace boutique ainsi qu’un espace dégustation.",
+    "beers": [
+      {
+        "type": "blonde",
+        "libelle": "ZEF Blonde"
+      },
+      {
+        "type": "blanche",
+        "libelle": "ZEF Blanche"
+      },
+      {
+        "type": "ambree",
+        "libelle": "ZEF Ambrée"
+      },
+      {
+        "type": "brune",
+        "libelle": "ZEF Brune"
+      },
+      {
+        "type": "ipa",
+        "libelle": "ZEF I.P.A."
+      },
+      {
+        "type": "autre",
+        "libelle": "ZEF Sour Ale"
+      },
+      {
+        "type": "autre",
+        "libelle": "ZEF Black I.P.A."
+      },
+      {
+        "type": "autre",
+        "libelle": "ZEF Ginger"
+      },
+      {
+        "type": "autre",
+        "libelle": "ZEF Blanche Framboise"
+      }
+    ],
+    "choix": "Site officiel relu sur la page brute le 12/11 : boutique et dégustation, horaires par saison, liste des bières. Les horaires ne sont pas mis en créneaux : deux passages de la même page diffèrent (jeudi 17h/20h30 ou du jeudi au samedi 17h30/21h). Le seul numéro, un portable de la brasserie, est écrit « +33 (0)6.48.29.14.19 », que controler ne relit pas : il passe dans la note (règle du 21/10).",
+    "contact": {
+      "site": "https://www.brasserie5bis.com",
+      "source": "https://www.brasserie5bis.com/nous-trouver"
+    }
+  },
+  {
+    "cle": "sirene:809260714",
+    "n": "Les Brasseurs de la Cité",
+    "c": "Carcassonne",
+    "adresse": "240 rue Edouard Branly, 11000 Carcassonne",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Vente directe à l'atelier, par cartons complets seulement, pas de vente au détail. Visites et dégustations sur rendez-vous. Le mercredi et le samedi matin, sur rendez-vous aussi. Téléphone fixe de la brasserie : 04 30 34 14 21.",
+    "src": "https://brasseursdelacite.com/contact",
+    "extrait": "La vente directe est possible à l’atelier. Nous ne vendons que des cartons complets. Pas de vente au détail.",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 12/11 : adresse, vente directe, horaires. Le fixe est écrit « +33 4 30 34 14 21 », forme que controler ne relit pas : il passe dans la note ; le portable est écarté puisqu'un fixe existe (revue de la persona Cédric).",
+    "contact": {
+      "site": "https://brasseursdelacite.com",
+      "source": "https://brasseursdelacite.com/contact"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://brasseursdelacite.com/contact",
+        "lun": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "remarque": "Mercredi et samedi, 9 h – 12 h sur rendez-vous ; cartons complets seulement."
+      }
+    ]
+  },
+  {
+    "cle": "sirene:797614856",
+    "n": "Dona Carcas",
+    "c": "Peyriac-Minervois",
+    "adresse": "35 bis avenue Ernest Ferroul, 11160 Peyriac-Minervois",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Boutique de produits locaux où une partie des bières est brassée sur place ; dégustations de bière possibles toute l'année, d'après le comité départemental du tourisme de l'Aude.",
+    "src": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+    "extrait": "Some of our beers are brewed at the site and beer or honey tasting sessions can be arranged all year round.",
+    "beers": [],
+    "choix": "Fiche du comité départemental (Aude Tourisme) relue sur la page brute le 12/11 : adresse, horaires 2026. Catégorie 2 : la dégustation se fait « arranged », sur demande. Le portable de la fiche est écarté (un portable doit venir de la brasserie).",
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+        "lun": [],
+        "mar": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "16:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "12:00"
+          ],
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "09:00",
+            "12:00"
+          ]
+        ],
+        "dim": []
+      }
+    ]
+  },
+  {
+    "cle": "sirene:815199823",
+    "n": "Brasserie La Mer à Boire",
+    "c": "Gruissan",
+    "adresse": "21 Rue de l'Hippocampe, 11430 Gruissan",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Microbrasserie familiale de Gruissan : boutique ouverte du mercredi au samedi ; on peut aussi visiter la brasserie et y déguster, sans horaire de bar publié.",
+    "src": "https://brasserielameraboire.com/",
+    "extrait": "Mercredi-Vendredi : 17h à 19h",
+    "beers": [
+      {
+        "type": "lager",
+        "libelle": "Oh Soleil"
+      },
+      {
+        "type": "blanche",
+        "libelle": "Écume de mer"
+      },
+      {
+        "type": "ambree",
+        "libelle": "Barberousse"
+      }
+    ],
+    "choix": "Site officiel relu sur la page brute le 12/11 (« Il est possible de visiter la brasserie, de déguster, d’acheter nos bières dans la boutique », horaires, adresse, bières permanentes). Catégorie 2 : la dégustation est liée à la visite (revue de la persona Cédric). Aucun téléphone de la brasserie : le portable lu sur un office est écarté. La remarque d'hiver d'un office n'a pas été retrouvée sur une page brute : non reprise.",
+    "contact": {
+      "site": "https://brasserielameraboire.com/",
+      "source": "https://brasserielameraboire.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://brasserielameraboire.com/",
+        "mer": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "16:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:943144642",
+    "n": "Brasserie du Vertige",
+    "c": "Roubia",
+    "adresse": "16 avenue des Écoles, 11200 Roubia",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières brassées à Narbonne dans une brasserie partagée, vendues et dégustées à Roubia, au bord du canal du Midi, sur rendez-vous seulement, d'après l'office de tourisme Corbières-Minervois. Dégustation offerte pour tout achat.",
+    "src": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+    "extrait": "La dégustation est offerte pour tout achat (sans achat, dégustation à 2€).",
+    "beers": [],
+    "choix": "Fiche de l'office Corbières-Minervois relue sur la page brute le 12/11 (« Dégustation et vente à la propriété sur rendez-vous. »). Catégorie 2 : la dégustation accompagne la vente, sur rendez-vous. Le téléphone de la page est celui de l'office : écarté. La page nomme le brasseur : son nom n'est pas repris.",
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+        "remarque": "Sur rendez-vous seulement."
+      }
+    ]
+  },
+  {
+    "cle": "way/125881530",
+    "n": "BDQ Taproom & Kitchen",
+    "c": "Puivert",
+    "adresse": "4 Route Départementale, 11230 Puivert",
+    "cat": 1,
+    "conf": "faible",
+    "note": "Le bar de la brasserie BDQ Beer Co. : quatre bières à la pression, plus de vingt en bouteilles et canettes, terrasse avec vue. La bière est brassée à Chalabre. La page ne dit pas si l'on peut acheter à emporter. Téléphone (la seule ligne publiée par la brasserie) : 06 77 92 56 89.",
+    "src": "https://www.bdq.fr/taproom",
+    "extrait": "4 bières à la pression",
+    "beers": [],
+    "choix": "Pages officielles relues sur la page brute le 12/11 (« Taproom », « Infos pratiques »). Un bar où l'on boit, sans vente à emporter dite : catégorie 1, confiance faible (réponse de Cédric du 29/10). Le seul numéro publié par la brasserie, un portable écrit « 0677 92 56 89 », passe dans la note (règle du 21/10 ; forme non relue par controler).",
+    "contact": {
+      "site": "https://www.bdq.fr",
+      "source": "https://www.bdq.fr/infos-pratiques"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://www.bdq.fr/infos-pratiques",
+        "lun": [
+          [
+            "16:00",
+            "21:30"
+          ]
+        ],
+        "mar": [],
+        "mer": [
+          [
+            "16:00",
+            "21:30"
+          ]
+        ],
+        "jeu": [],
+        "ven": [
+          [
+            "12:30",
+            "21:30"
+          ]
+        ],
+        "sam": [
+          [
+            "12:30",
+            "21:30"
+          ]
+        ],
+        "dim": [
+          [
+            "12:30",
+            "21:30"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "way/286722500",
+    "n": "BDQ Beer Co.",
+    "c": "Chalabre",
+    "adresse": "1 Rue Capitaine Danjou, 11230 Chalabre",
+    "cat": 0,
+    "conf": "",
+    "note": "L'atelier de production de BDQ Beer Co., à Chalabre depuis 2018. Le site ne dit ni vente ni visite sur place : ses bières se boivent au taproom de Puivert.",
+    "src": "https://www.bdq.fr/infos-pratiques",
+    "extrait": "Fabrication de la bière à Chalabre",
+    "beers": [],
+    "choix": "Pages officielles relues sur la page brute le 12/11. Catégorie 0. Le taproom de Puivert a sa propre fiche.",
+    "contact": {
+      "site": "https://www.bdq.fr",
+      "source": "https://www.bdq.fr/infos-pratiques"
+    }
+  }
+]

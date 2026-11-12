@@ -59,6 +59,11 @@ Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 
 - ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
 - 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
+## Restes de S348, Aude (12/11, issue #189)
+
+- À relancer : la Brasserie des Voûtes (seule source : un PDF de l'office, que controler ne lit pas), Fute-Fûte (chercher sur un office), La Mandra, Blanque Fougasse, Saint-Christol (une seule recherche faite).
+- `controler` ne lit pas les PDF : une fiche dont la seule source est un PDF ne peut pas entrer. À voir si une source en PDF doit être lue (issue à ouvrir si le cas revient).
+
 ## Restes de S348, Ariège (12/11, issue #189)
 
 - À relancer : la brasserie d'Alzen (`personne:4`, nommée par l'agence de tourisme) ; Petite Sibérie, Les Paloufettes, La Fille de l'Orge / Les Terres de Solan, citées par l'agence mais absentes des candidats.

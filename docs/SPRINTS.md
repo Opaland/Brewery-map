@@ -3080,6 +3080,10 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 `docs/stories/S376.md`, #249. Un test compare le tableau de `docs/DONNEES.md` et les règles de couleur de `src/index.css` à `CATEGORIES` (vu rouge sur les deux).
 
+## S348, deuxième partie — l'Aude *(12/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 5 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 838 fiches dans 83 départements, OSM à 592. Revue de la persona Cédric traitée avant l'application, persona Marie après.
+
 ## S348, première partie — l'Ariège *(12/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 5 paquets ; 14 fiches par la règle de Cédric du 21/10 ; 831 fiches dans 82 départements, OSM à 595 ; l'Occitanie entre sur la carte. Revue de la persona Cédric traitée avant l'application (six bloquants), persona Hugo après.

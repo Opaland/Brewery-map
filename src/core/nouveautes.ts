@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'eee9c70759ed45c9',
+  empreinte: 'd323b75d647146f1',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 313 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 675 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 313 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 682 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-11-12', texte: '7 brasseries de plus dans l’Aude, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-12', texte: '14 brasseries ajoutées dans l’Ariège, d’après leur site ou un office de tourisme : l’Occitanie entre sur la carte.' },
   { date: '2026-11-11', texte: '4 brasseries de plus dans la Vienne, d’après leur site ou un office de tourisme : la Nouvelle-Aquitaine est couverte.' },
   { date: '2026-11-10', texte: '3 brasseries de plus dans les Deux-Sèvres, d’après leur propre site.' },

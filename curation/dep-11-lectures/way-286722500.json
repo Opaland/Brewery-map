@@ -1,0 +1,32 @@
+{
+ "candidat": "way/286722500",
+ "ajout": {
+  "fiche": {
+   "n": "BDQ Beer Co.",
+   "c": "Chalabre",
+   "d": "11",
+   "lat": 42.98267,
+   "lon": 2.00758,
+   "km": 370.5,
+   "cat": 0,
+   "conf": "",
+   "note": "L'atelier de production de BDQ Beer Co., à Chalabre depuis 2018. Le site ne dit ni vente ni visite sur place : ses bières se boivent au taproom de Puivert.",
+   "addr": "1 Rue Capitaine Danjou, 11230 Chalabre",
+   "src": "https://www.bdq.fr/infos-pratiques",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.bdq.fr",
+    "source": "https://www.bdq.fr/infos-pratiques",
+    "verifieLe": "2026-11-12"
+   }
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.bdq.fr/infos-pratiques",
+   "https://data.geopf.fr/geocodage/search?q=1+Rue+Capitaine+Danjou%2C+11230+Chalabre&limit=5"
+  ],
+  "extrait": "Fabrication de la bière à Chalabre",
+  "choix": "Pages officielles relues sur la page brute le 12/11. Catégorie 0. Le taproom de Puivert a sa propre fiche."
+ }
+}

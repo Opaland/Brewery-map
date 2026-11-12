@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 831 | 21 (3 %) | 42 | 309 | 260 | 324 | 437 | 546 | 661 |
+| **Total** | 838 | 21 (3 %) | 42 | 310 | 262 | 324 | 444 | 548 | 666 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -25,6 +25,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 08 · Ardennes | 6 | 0 (0 %) | 0 | 3 | 2 | 1 | 4 | 5 | 6 |
 | 09 · Ariège | 14 | 0 (0 %) | 0 | 4 | 6 | 7 | 8 | 4 | 10 |
 | 10 · Aube | 6 | 0 (0 %) | 0 | 4 | 2 | 1 | 3 | 3 | 6 |
+| 11 · Aude | 7 | 0 (0 %) | 0 | 1 | 2 | 0 | 7 | 2 | 5 |
 | 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 9 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
@@ -100,7 +101,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-309 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+310 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -156,6 +157,10 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Les Anges Déchus (Villenauxe-la-Grande) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie La Roof (Fouchères) : sans téléphone, sans horaires, sans bières
 - La Branche (Charmont-sous-Barbuise) : sans horaires, sans bières
+
+### 11 · Aude
+
+- BDQ Beer Co. (Chalabre) : sans téléphone, sans horaires, sans bières
 
 ### 13 · Bouches-du-Rhône
 

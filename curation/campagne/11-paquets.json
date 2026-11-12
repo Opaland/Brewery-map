@@ -1,0 +1,342 @@
+[
+ [
+  {
+   "cle": "sirene:878876218",
+   "enseigne": "COLLECTIF DE LA FONTAINE RONDE",
+   "dep": "11",
+   "communes": [
+    "COUNOZOULS"
+   ],
+   "adresses": [
+    "11 RUE DE LA FONTAINE 11140 COUNOZOULS",
+    "12 GRAND RUE 11140 COUNOZOULS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844409243",
+   "enseigne": "SARL ORTOLA FAMILY",
+   "dep": "11",
+   "communes": [
+    "NARBONNE"
+   ],
+   "adresses": [
+    "44 GRAND QUATOURZE 11100 NARBONNE",
+    "CHATEAU NOTRE DAME DU QUATOURZE GRAND QUATOURZE 11100 NARBONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:814069076",
+   "enseigne": "SOMA",
+   "dep": "11",
+   "communes": [
+    "ISSEL"
+   ],
+   "adresses": [
+    "15 RUE PROFONDE 11400 ISSEL"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:921889440",
+   "enseigne": "LA COUVEUSE",
+   "dep": "11",
+   "communes": [
+    "FLEURY"
+   ],
+   "adresses": [
+    "2 RUE DE LA COUVEUSE 11560 FLEURY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830820197",
+   "enseigne": "BRASSERIE DU 5 BIS",
+   "dep": "11",
+   "communes": [
+    "LA PALME"
+   ],
+   "adresses": [
+    "5 B AVENUE DE LA MER 11480 LA PALME"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:831090196",
+   "enseigne": "LA MANDRA",
+   "dep": "11",
+   "communes": [
+    "SOULATGE"
+   ],
+   "adresses": [
+    "1 RUE SAINT JOSEPH 11330 SOULATGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984778886",
+   "enseigne": "BRASSERIE BLANQUE FOUGASSE",
+   "dep": "11",
+   "communes": [
+    "CUXAC-D'AUDE"
+   ],
+   "adresses": [
+    "11 RUE NOTRE DAME 11590 CUXAC-D'AUDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:100467695",
+   "enseigne": "BRASSERIE SAINT-CHRISTOL",
+   "dep": "11",
+   "communes": [
+    "FONTERS-DU-RAZES"
+   ],
+   "adresses": [
+    "HENRIQUES 11400 FONTERS-DU-RAZES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:797614856",
+   "enseigne": "DONA CARCAS",
+   "dep": "11",
+   "communes": [
+    "PEYRIAC-MINERVOIS"
+   ],
+   "adresses": [
+    "35 B AVENUE ERNEST FERROUL 11160 PEYRIAC-MINERVOIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809260714",
+   "enseigne": "LES BRASSEURS DE LA CITE",
+   "dep": "11",
+   "communes": [
+    "CARCASSONNE"
+   ],
+   "adresses": [
+    "RUE EDOUARD BRANLY 11000 CARCASSONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:815199823",
+   "enseigne": "BRASSERIE LA MER A BOIRE",
+   "dep": "11",
+   "communes": [
+    "GRUISSAN"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE DES CHALETS 21 RUE DE L'HIPPOCAMPE 11430 GRUISSAN"
+   ],
+   "osm": [
+    "node/2990273292"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:822225967",
+   "enseigne": "BEN ET CLEM",
+   "dep": "11",
+   "communes": [
+    "NARBONNE"
+   ],
+   "adresses": [
+    "ROUTE DE PERPIGNAN FORUM SUD AVENUE DU QUATOURZE 11100 NARBONNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:943144642",
+   "enseigne": "BRASSERIE DU VERTIGE",
+   "dep": "11",
+   "communes": [
+    "ROUBIA"
+   ],
+   "adresses": [
+    "16 AVENUE DES ECOLES 11200 ROUBIA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829601855",
+   "enseigne": "BREWTECH EUROPE",
+   "dep": "11",
+   "communes": [
+    "PIEUSSE"
+   ],
+   "adresses": [
+    "ERECO PRAE CHARLES CROS RTE DE CARCASSONNE CD 118 11300 PIEUSSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:980708101",
+   "enseigne": "BRASSERIE APAL",
+   "dep": "11",
+   "communes": [
+    "LEZIGNAN-CORBIERES"
+   ],
+   "adresses": [
+    "6 RUE GUSTAVE EIFFEL 11200 LEZIGNAN-CORBIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:809458037",
+   "enseigne": "BRASSERIE ARTISANALE LA CATHARE",
+   "dep": "11",
+   "communes": [
+    "GRUISSAN"
+   ],
+   "adresses": [
+    "ZA MATEILLE 11430 GRUISSAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840463962",
+   "enseigne": "BRASSERIE DES VOUTES",
+   "dep": "11",
+   "communes": [
+    "VAL-DE-DAGNE"
+   ],
+   "adresses": [
+    "15 B LES COURTALS 11220 VAL-DE-DAGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:8",
+   "enseigne": "LA BRASSERIE DU PECH (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "11",
+   "communes": [
+    "CAMPS SUR AGLY"
+   ],
+   "adresses": [
+    "3 GR GRAND RUE 11190 CAMPS SUR AGLY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948237326",
+   "enseigne": "MICROBRASSERIE FUTE-FUTE",
+   "dep": "11",
+   "communes": [
+    "MONTREAL"
+   ],
+   "adresses": [
+    "FONTALES 11290 MONTREAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10959120963",
+   "enseigne": "Brasserie Parallèle 42",
+   "dep": "11",
+   "communes": [
+    "Leucate"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/10959120963"
+   ],
+   "site": "https://accentsduterroir.fr/producteurs/brasseurs/occitanie/leucate/brasserie-parallele-42/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/11676134525",
+   "enseigne": "Elixir de Fred",
+   "dep": "11",
+   "communes": [
+    "Bize-Minervois"
+   ],
+   "adresses": [
+    "33 Avenue de la Gare, 11120 Bize-Minervois"
+   ],
+   "osm": [
+    "node/11676134525"
+   ],
+   "site": "https://elixirdefred.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12833197537",
+   "enseigne": "Brasserie de Lagrasse",
+   "dep": "11",
+   "communes": [
+    "Lagrasse"
+   ],
+   "adresses": [
+    "Abbaye Sainte-Marie, 11220 Lagrasse"
+   ],
+   "osm": [
+    "node/12833197537"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/125881530",
+   "enseigne": "BDQ Taproom & Kitchen",
+   "dep": "11",
+   "communes": [
+    "Puivert"
+   ],
+   "adresses": [
+    "4 Route Départementale D117, 11230 Puivert"
+   ],
+   "osm": [
+    "way/125881530"
+   ],
+   "site": "http://www.bdq.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/286722500",
+   "enseigne": "BDQ Beer Co.",
+   "dep": "11",
+   "communes": [
+    "Chalabre"
+   ],
+   "adresses": [
+    "1 Rue du Capitaine Danjou, 11230 Chalabre"
+   ],
+   "osm": [
+    "way/286722500"
+   ],
+   "site": "https://www.bdq.fr",
+   "statut": "nouveau"
+  }
+ ]
+]

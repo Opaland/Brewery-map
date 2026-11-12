@@ -31514,5 +31514,373 @@
     "verifieLe": "2026-11-12"
    }
   ]
+ },
+ {
+  "n": "Dona Carcas",
+  "c": "Peyriac-Minervois",
+  "d": "11",
+  "lat": 43.28678,
+  "lon": 2.57099,
+  "km": 317.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de produits locaux où une partie des bières est brassée sur place ; dégustations de bière possibles toute l'année, d'après le comité départemental du tourisme de l'Aude.",
+  "addr": "35 bis avenue Ernest Ferroul, 11160 Peyriac-Minervois",
+  "src": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-12",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "16:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "15:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+    "verifieLe": "2026-11-12"
+   }
+  ]
+ },
+ {
+  "n": "Les Brasseurs de la Cité",
+  "c": "Carcassonne",
+  "d": "11",
+  "lat": 43.20539,
+  "lon": 2.31779,
+  "km": 335.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe à l'atelier, par cartons complets seulement, pas de vente au détail. Visites et dégustations sur rendez-vous. Le mercredi et le samedi matin, sur rendez-vous aussi. Téléphone fixe de la brasserie : 04 30 34 14 21.",
+  "addr": "240 rue Edouard Branly, 11000 Carcassonne",
+  "src": "https://brasseursdelacite.com/contact",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-12",
+  "contact": {
+   "site": "https://brasseursdelacite.com",
+   "source": "https://brasseursdelacite.com/contact",
+   "verifieLe": "2026-11-12"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Mercredi et samedi, 9 h – 12 h sur rendez-vous ; cartons complets seulement.",
+    "source": "https://brasseursdelacite.com/contact",
+    "verifieLe": "2026-11-12"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Mer à Boire",
+  "c": "Gruissan",
+  "d": "11",
+  "lat": 43.10249,
+  "lon": 3.111,
+  "km": 314.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Microbrasserie familiale de Gruissan : boutique ouverte du mercredi au samedi ; on peut aussi visiter la brasserie et y déguster, sans horaire de bar publié.",
+  "addr": "21 Rue de l'Hippocampe, 11430 Gruissan",
+  "src": "https://brasserielameraboire.com/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "lager",
+    "libelle": "Oh Soleil"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Écume de mer"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Barberousse"
+   }
+  ],
+  "verifieLe": "2026-11-12",
+  "contact": {
+   "site": "https://brasserielameraboire.com/",
+   "source": "https://brasserielameraboire.com/",
+   "verifieLe": "2026-11-12"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "14:00",
+      "16:00"
+     ]
+    ],
+    "source": "https://brasserielameraboire.com/",
+    "verifieLe": "2026-11-12"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie du 5 bis",
+  "c": "La Palme",
+  "d": "11",
+  "lat": 42.97497,
+  "lon": 2.99301,
+  "km": 331.2,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale bio avec boutique et espace de dégustation, terrasse aux beaux jours. Ouverte en mai, juin et septembre le jeudi soir et du vendredi au samedi soir ; en juillet et août du mardi au samedi, le matin et le soir ; sur rendez-vous le reste de l'année. Le site donne deux versions des heures : appeler avant de venir (06 48 29 14 19, numéro publié par la brasserie).",
+  "addr": "5 bis avenue de la Mer, 11480 La Palme",
+  "src": "https://www.brasserie5bis.com/nous-trouver",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "ZEF Blonde"
+   },
+   {
+    "type": "blanche",
+    "libelle": "ZEF Blanche"
+   },
+   {
+    "type": "ambree",
+    "libelle": "ZEF Ambrée"
+   },
+   {
+    "type": "brune",
+    "libelle": "ZEF Brune"
+   },
+   {
+    "type": "ipa",
+    "libelle": "ZEF I.P.A."
+   },
+   {
+    "type": "autre",
+    "libelle": "ZEF Sour Ale"
+   },
+   {
+    "type": "autre",
+    "libelle": "ZEF Black I.P.A."
+   },
+   {
+    "type": "autre",
+    "libelle": "ZEF Ginger"
+   },
+   {
+    "type": "autre",
+    "libelle": "ZEF Blanche Framboise"
+   }
+  ],
+  "verifieLe": "2026-11-12",
+  "contact": {
+   "site": "https://www.brasserie5bis.com",
+   "source": "https://www.brasserie5bis.com/nous-trouver",
+   "verifieLe": "2026-11-12"
+  }
+ },
+ {
+  "n": "Brasserie du Vertige",
+  "c": "Roubia",
+  "d": "11",
+  "lat": 43.24751,
+  "lon": 2.79911,
+  "km": 311.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières brassées à Narbonne dans une brasserie partagée, vendues et dégustées à Roubia, au bord du canal du Midi, sur rendez-vous seulement, d'après l'office de tourisme Corbières-Minervois. Dégustation offerte pour tout achat.",
+  "addr": "16 avenue des Écoles, 11200 Roubia",
+  "src": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-12",
+  "horaires": [
+   {
+    "nature": "vente",
+    "remarque": "Sur rendez-vous seulement.",
+    "source": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+    "verifieLe": "2026-11-12"
+   }
+  ]
+ },
+ {
+  "n": "BDQ Taproom & Kitchen",
+  "c": "Puivert",
+  "d": "11",
+  "lat": 42.91917,
+  "lon": 2.04872,
+  "km": 374.4,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Le bar de la brasserie BDQ Beer Co. : quatre bières à la pression, plus de vingt en bouteilles et canettes, terrasse avec vue. La bière est brassée à Chalabre. La page ne dit pas si l'on peut acheter à emporter. Téléphone (la seule ligne publiée par la brasserie) : 06 77 92 56 89.",
+  "addr": "4 Route Départementale, 11230 Puivert",
+  "src": "https://www.bdq.fr/taproom",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-12",
+  "contact": {
+   "site": "https://www.bdq.fr",
+   "source": "https://www.bdq.fr/infos-pratiques",
+   "verifieLe": "2026-11-12"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "16:00",
+      "21:30"
+     ]
+    ],
+    "mar": [],
+    "mer": [
+     [
+      "16:00",
+      "21:30"
+     ]
+    ],
+    "jeu": [],
+    "ven": [
+     [
+      "12:30",
+      "21:30"
+     ]
+    ],
+    "sam": [
+     [
+      "12:30",
+      "21:30"
+     ]
+    ],
+    "dim": [
+     [
+      "12:30",
+      "21:30"
+     ]
+    ],
+    "source": "https://www.bdq.fr/infos-pratiques",
+    "verifieLe": "2026-11-12"
+   }
+  ]
+ },
+ {
+  "n": "BDQ Beer Co.",
+  "c": "Chalabre",
+  "d": "11",
+  "lat": 42.98267,
+  "lon": 2.00758,
+  "km": 370.5,
+  "cat": 0,
+  "conf": "",
+  "note": "L'atelier de production de BDQ Beer Co., à Chalabre depuis 2018. Le site ne dit ni vente ni visite sur place : ses bières se boivent au taproom de Puivert.",
+  "addr": "1 Rue Capitaine Danjou, 11230 Chalabre",
+  "src": "https://www.bdq.fr/infos-pratiques",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-12",
+  "contact": {
+   "site": "https://www.bdq.fr",
+   "source": "https://www.bdq.fr/infos-pratiques",
+   "verifieLe": "2026-11-12"
+  }
  }
 ]
