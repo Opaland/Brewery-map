@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 11 (Aude), S348 (Occitanie) : pas encore lu. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 0 |
+| Département en cours | 11 (Aude), S348 (Occitanie) : PR ouverte le 12/11 ; si elle est mergée, passer au 12 (Aveyron). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (12/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 09 (12/11, PR #287, 14 fiches) |
 

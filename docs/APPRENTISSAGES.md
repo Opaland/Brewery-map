@@ -89,6 +89,13 @@ pourquoi.
   "https://data.geopf.fr/geocodage/search?q=Foix&limit=1"` ; borner `rendre`
   par `timeout`.
 
+- **`controler` ne lit pas les PDF** (12/11, Brasserie des Voûtes) : un
+  extrait pris dans un PDF ressort « ABSENT ». Parade : chercher une page
+  HTML de la même source ; sinon « à relancer ».
+- **Un numéro écrit « +33 4 … » échappe aussi au `grep` de relecture** (12/11,
+  Les Brasseurs de la Cité) : chercher `+33` et les chiffres sans espace
+  avant d'écrire « aucun téléphone ».
+
 ## La routine elle-même
 
 - **Une routine lancée dans une session neuve n'a pas accès au dépôt** :

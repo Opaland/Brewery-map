@@ -1,0 +1,35 @@
+{
+ "candidat": "sirene:943144642",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Vertige",
+   "c": "Roubia",
+   "d": "11",
+   "lat": 43.24751,
+   "lon": 2.79911,
+   "km": 311.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières brassées à Narbonne dans une brasserie partagée, vendues et dégustées à Roubia, au bord du canal du Midi, sur rendez-vous seulement, d'après l'office de tourisme Corbières-Minervois. Dégustation offerte pour tout achat.",
+   "addr": "16 avenue des Écoles, 11200 Roubia",
+   "src": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+     "remarque": "Sur rendez-vous seulement.",
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.tourisme-corbieres-minervois.com/fr/?p=63942",
+   "https://data.geopf.fr/geocodage/search?q=16+avenue+des+%C3%89coles%2C+11200+Roubia&limit=5"
+  ],
+  "extrait": "La dégustation est offerte pour tout achat (sans achat, dégustation à 2€).",
+  "choix": "Fiche de l'office Corbières-Minervois relue sur la page brute le 12/11 (« Dégustation et vente à la propriété sur rendez-vous. »). Catégorie 2 : la dégustation accompagne la vente, sur rendez-vous. Le téléphone de la page est celui de l'office : écarté. La page nomme le brasseur : son nom n'est pas repris."
+ }
+}

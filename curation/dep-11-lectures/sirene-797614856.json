@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:797614856",
+ "ajout": {
+  "fiche": {
+   "n": "Dona Carcas",
+   "c": "Peyriac-Minervois",
+   "d": "11",
+   "lat": 43.28678,
+   "lon": 2.57099,
+   "km": 317,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de produits locaux où une partie des bières est brassée sur place ; dégustations de bière possibles toute l'année, d'après le comité départemental du tourisme de l'Aude.",
+   "addr": "35 bis avenue Ernest Ferroul, 11160 Peyriac-Minervois",
+   "src": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+     "lun": [],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ]
+     ],
+     "dim": [],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.audetourisme.com/en/fiche/peyriac-minervois/dona-carcas_TFOL6613LAR011V50GO6U",
+   "https://data.geopf.fr/geocodage/search?q=35+bis+avenue+Ernest+Ferroul%2C+11160+Peyriac-Minervois&limit=5"
+  ],
+  "extrait": "Some of our beers are brewed at the site and beer or honey tasting sessions can be arranged all year round.",
+  "choix": "Fiche du comité départemental (Aude Tourisme) relue sur la page brute le 12/11 : adresse, horaires 2026. Catégorie 2 : la dégustation se fait « arranged », sur demande. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}

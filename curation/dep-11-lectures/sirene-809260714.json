@@ -1,0 +1,80 @@
+{
+ "candidat": "sirene:809260714",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs de la Cité",
+   "c": "Carcassonne",
+   "d": "11",
+   "lat": 43.20539,
+   "lon": 2.31779,
+   "km": 335.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente directe à l'atelier, par cartons complets seulement, pas de vente au détail. Visites et dégustations sur rendez-vous. Le mercredi et le samedi matin, sur rendez-vous aussi. Téléphone fixe de la brasserie : 04 30 34 14 21.",
+   "addr": "240 rue Edouard Branly, 11000 Carcassonne",
+   "src": "https://brasseursdelacite.com/contact",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseursdelacite.com",
+    "source": "https://brasseursdelacite.com/contact",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseursdelacite.com/contact",
+     "lun": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Mercredi et samedi, 9 h – 12 h sur rendez-vous ; cartons complets seulement.",
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://brasseursdelacite.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=240+rue+Edouard+Branly%2C+11000+Carcassonne&limit=5"
+  ],
+  "extrait": "La vente directe est possible à l’atelier. Nous ne vendons que des cartons complets. Pas de vente au détail.",
+  "choix": "Site officiel relu sur la page brute le 12/11 : adresse, vente directe, horaires. Le fixe est écrit « +33 4 30 34 14 21 », forme que controler ne relit pas : il passe dans la note ; le portable est écarté puisqu'un fixe existe (revue de la persona Cédric)."
+ }
+}
