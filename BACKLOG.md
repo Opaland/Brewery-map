@@ -59,6 +59,12 @@ Demande de Cédric du 06/11 : chaque matin, la routine « Région du jour » (7 
 - ~~06/11 : Brasserie Rainon : le point OSM est à Villegouge, le site dit Tauriac ; confirmer le lieu de vente.~~ 09/11 : le site écrit « 10 Route du Meine Bernard 33710 TAURIAC », relu par `controler` ; la fiche reste à Tauriac.
 - 08/11 : la routine ne s'est pas déroulée (la session a redémarré au moment du déclenchement) ; reprise le 09/11.
 
+## Restes de S348, Ariège (12/11, issue #189)
+
+- À relancer : la brasserie d'Alzen (`personne:4`, nommée par l'agence de tourisme) ; Petite Sibérie, Les Paloufettes, La Fille de l'Orge / Les Terres de Solan, citées par l'agence mais absentes des candidats.
+- Destral : « pas encore ouverte au public » d'après l'agence ; à revoir à la prochaine veille.
+- Globe Trotter, La Boussole, Co-Hop, SOS Bière, BIM, La Bonne Foix et Kamris restent au centre de leur commune (#274, ou adresse non publiée).
+
 ## E38 — Claude dans le logiciel (11/11)
 
 - S381 : afficher le mot du mois accepté par Cédric dans l'application (« Quoi de neuf »), avec la mention « rédigé par l'IA, relu par Cédric » et le volet « ce qui a été envoyé » ; en anglais aussi ; persona Inès. Attend un premier mot du mois accepté.

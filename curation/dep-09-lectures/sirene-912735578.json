@@ -1,0 +1,69 @@
+{
+ "candidat": "sirene:912735578",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Trois Clochers",
+   "c": "Pamiers",
+   "d": "09",
+   "lat": 43.11514,
+   "lon": 1.61493,
+   "km": 378.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie du centre de Pamiers, ouverte en 2023 : visites, dégustations et vente à la brasserie le jeudi, le vendredi et le samedi en fin d'après-midi, d'après l'agence de tourisme de l'Ariège. Ses bières se vendent aussi au marché de Pamiers le samedi matin.",
+   "addr": "1 place des Victimes de la Gestapo, 09100 Pamiers",
+   "src": "https://www.ariegepyrenees.com/?p=74730",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ambree",
+     "libelle": "L’Affranchie"
+    },
+    {
+     "type": "blanche",
+     "libelle": "L’Amoureuse"
+    },
+    {
+     "type": "blonde",
+     "libelle": "L’Audacieuse"
+    },
+    {
+     "type": "ipa",
+     "libelle": "L’Arrogante"
+    }
+   ],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.ariegepyrenees.com/?p=74730",
+     "jeu": [
+      [
+       "16:00",
+       "19:30"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:30"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "19:30"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.ariegepyrenees.com/?p=74730",
+   "https://data.geopf.fr/geocodage/search?q=1+place+des+Victimes+de+la+Gestapo%2C+09100+Pamiers&limit=5"
+  ],
+  "extrait": "Visites, dégustations et points vente : le jeudi, vendredi et samedi de 16h à 19h30",
+  "choix": "Page de l'agence départementale du tourisme (Ariège Pyrénées) relue sur la page brute le 12/11. Pas de site officiel ni de téléphone publié. La page nomme la brasseuse : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+ }
+}

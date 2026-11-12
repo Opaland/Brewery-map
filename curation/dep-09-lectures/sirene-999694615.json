@@ -1,0 +1,61 @@
+{
+ "candidat": "sirene:999694615",
+ "ajout": {
+  "fiche": {
+   "n": "La Bonne Foix",
+   "c": "Foix",
+   "d": "09",
+   "lat": 42.96878,
+   "lon": 1.60736,
+   "km": 391.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières bio brassées dans un atelier à Foix. Vente directe sur rendez-vous, d'après le site de la brasserie ; adresse non publiée.",
+   "addr": "09000 Foix",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-bonne-foix-foix_TFOSITRA2_DEG_7143532/",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "autre",
+     "libelle": "Triple"
+    },
+    {
+     "type": "brune"
+    }
+   ],
+   "contact": {
+    "site": "https://labonnefoix.fr/",
+    "source": "https://labonnefoix.fr/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://labonnefoix.fr/",
+     "remarque": "Sur rendez-vous.",
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-bonne-foix-foix_TFOSITRA2_DEG_7143532/",
+   "https://labonnefoix.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Foix&type=municipality&limit=5"
+  ],
+  "extrait": "Nos bières artisanales sont brassés par nos soins dans notre atelier de fabrication à Foix.",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 12/11. Le site porte « HORAIRES VENTE DIRECTE » puis « Sur rendez-vous, contactez nous ! » : catégorie 2. Le portable de la fiche de l'office est écarté (un portable doit venir de la brasserie)."
+ }
+}

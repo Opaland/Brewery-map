@@ -1,0 +1,76 @@
+{
+ "candidat": "sirene:840814412",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Fourche",
+   "c": "Foix",
+   "d": "09",
+   "lat": 42.96665,
+   "lon": 1.60797,
+   "km": 391.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brewpub et restaurant : la bière à la pression est brassée sur place et se boit sur place. La page ne parle pas de vente à emporter.",
+   "addr": "6 rue du Rival, 09000 Foix",
+   "src": "https://labrasseriedelafourche.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 61 05 91 81",
+    "site": "https://labrasseriedelafourche.fr/",
+    "source": "https://labrasseriedelafourche.fr/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://labrasseriedelafourche.fr/",
+     "lun": [
+      [
+       "17:30",
+       "23:00"
+      ]
+     ],
+     "mar": [
+      [
+       "12:00",
+       "23:30"
+      ]
+     ],
+     "mer": [
+      [
+       "12:00",
+       "23:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "12:00",
+       "00:30"
+      ]
+     ],
+     "ven": [
+      [
+       "12:00",
+       "01:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:00",
+       "01:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://labrasseriedelafourche.fr/",
+   "https://data.geopf.fr/geocodage/search?q=6+rue+du+Rival%2C+09000+Foix&limit=5"
+  ],
+  "extrait": "un véritable BrewPub produit sur place la bière qu’il vend à la pression.",
+  "choix": "Site officiel relu sur la page brute le 12/11. Un bar où l'on boit, sans vente à emporter dite : catégorie 1, confiance faible (réponse de Cédric du 29/10). Fixe et horaires de la page ; dimanche non indiqué."
+ }
+}

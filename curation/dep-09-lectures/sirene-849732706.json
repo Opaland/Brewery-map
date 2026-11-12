@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:849732706",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Co-Hop",
+   "c": "Pailhès",
+   "d": "09",
+   "lat": 43.09921,
+   "lon": 1.44543,
+   "km": 388.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie coopérative bio (SCOP) : visites, dégustations et vente à la brasserie du lundi au vendredi, d'après l'agence de tourisme de l'Ariège. Pendant les vacances scolaires, appeler avant de venir.",
+   "addr": "Lieu dit Darré Loustal, 09130 Pailhès",
+   "src": "https://www.ariegepyrenees.com/?p=74730",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 22 34 71 29",
+    "site": "https://www.brasserieco-hop.fr/accueil/",
+    "source": "https://www.brasserieco-hop.fr/accueil/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.ariegepyrenees.com/?p=74730",
+     "lun": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "Pendant les vacances scolaires, appeler les brasseurs.",
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.ariegepyrenees.com/?p=74730",
+   "https://www.brasserieco-hop.fr/accueil/",
+   "https://data.geopf.fr/geocodage/search?q=Pailh%C3%A8s&type=municipality&limit=5"
+  ],
+  "extrait": "Pendant les vacances scolaires, appelez les brasseurs pour être sûrs des horaires",
+  "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente : ouvert du lundi au vendredi de 9h à 19h »). Le seul numéro publié par la brasserie est un portable, sur son site, rattaché à un prénom qui n'est pas repris (règle du 21/10). Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric)."
+ }
+}

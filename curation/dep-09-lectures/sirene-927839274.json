@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:927839274",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de l'Éphémère (BIM)",
+   "c": "Massat",
+   "d": "09",
+   "lat": 42.8846,
+   "lon": 1.35858,
+   "km": 411.4,
+   "cat": 0,
+   "conf": "",
+   "note": "La brasserie qui fait la Bière Internationale de Massat. Son site, encore en construction, donne des jours d'« ouverture et commande » sans dire si l'on peut acheter ou boire sur place.",
+   "addr": "16 ter rue du Pont, 09320 Massat",
+   "src": "https://bim-brasserie.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 80 40 37 91",
+    "site": "https://bim-brasserie.fr",
+    "source": "https://bim-brasserie.fr",
+    "verifieLe": "2026-11-12"
+   }
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://bim-brasserie.fr",
+   "https://data.geopf.fr/geocodage/search?q=Massat&type=municipality&limit=5"
+  ],
+  "extrait": "Issue de la Brasserie de l’Éphémère, la Bière Internationale de Massat [BIM pour les intimes] est une bière artisanale et écologique brassée à Massat en Ariège.",
+  "choix": "Site officiel relu sur la page brute le 12/11 ; le point OSM « Brasserie de l'éphémère » renvoie au même site et à la même adresse : une seule fiche. Deux portables publiés par la brasserie : le premier est repris. Horaires « Jeudi – Vendredi, 9h à 12h – 14h à 18h » non repris : la page ne dit pas ce qu'on y fait."
+ }
+}

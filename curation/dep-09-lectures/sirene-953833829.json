@@ -1,0 +1,106 @@
+{
+ "candidat": "sirene:953833829",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Kamris",
+   "c": "La Bastide-de-Sérou",
+   "d": "09",
+   "lat": 43.01671,
+   "lon": 1.42711,
+   "km": 396.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brewpub ouvert en février 2024 : on y boit les bières de la maison, avec des plats, sur place ou à emporter ; concerts au moins une fois par mois. D'après l'agence de tourisme de l'Ariège. Vente à emporter aussi le jeudi dès 10 h.",
+   "addr": "09240 La Bastide-de-Sérou",
+   "src": "https://www.ariegepyrenees.com/?p=74730",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "autre",
+     "libelle": "La Tétras (Session Pale Ale)"
+    },
+    {
+     "type": "autre",
+     "libelle": "La Lucky Loki (Pale Ale)"
+    },
+    {
+     "type": "stout",
+     "libelle": "La Charpentière"
+    },
+    {
+     "type": "autre",
+     "libelle": "Le Brame (Triple)"
+    }
+   ],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.ariegepyrenees.com/?p=74730",
+     "periode": {
+      "du": "05-01",
+      "au": "12-31"
+     },
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.ariegepyrenees.com/?p=74730",
+     "periode": {
+      "du": "01-01",
+      "au": "04-30"
+     },
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "dim": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.ariegepyrenees.com/?p=74730",
+   "https://data.geopf.fr/geocodage/search?q=La+Bastide-de-S%C3%A9rou&type=municipality&limit=5"
+  ],
+  "extrait": "La brasserie est ouverte pour la vente à emporter (en plus des heures d’ouverture du bar) le jeudi à partir de 10h.",
+  "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (revue de la persona Cédric : la raison « aucune page » était fausse). Adresse non publiée : la fiche est au centre de la commune. Les prénoms des fondateurs ne sont pas repris. Pas de téléphone ni de site."
+ }
+}

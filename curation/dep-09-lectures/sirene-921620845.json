@@ -1,0 +1,38 @@
+{
+ "candidat": "sirene:921620845",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie L'Excentrique",
+   "c": "Verniolle",
+   "d": "09",
+   "lat": 43.08075,
+   "lon": 1.6495,
+   "km": 379.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale : on peut acheter ses bières à la brasserie, sur le lieu de fabrication, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+   "addr": "1c rue Carabin, 09340 Verniolle",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-excentrique-verniolle_TFOSITRA2_DEG_6402844/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "stout"
+    },
+    {
+     "type": "ipa",
+     "libelle": "NEIPA"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-excentrique-verniolle_TFOSITRA2_DEG_6402844/",
+   "https://data.geopf.fr/geocodage/search?q=1c+rue+Carabin%2C+09340+Verniolle&limit=5"
+  ],
+  "extrait": "Vous pouvez venir acheter nos bières directement à la brasserie, sur le lieu de fabrication, ou chez nos partenaires, épiceries, caves et restaurants de la région.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 : vente à la brasserie, adresse, bières (blonde, stout, NEIPA). Pas de site officiel. Le portable de la fiche est écarté (un portable doit venir de la brasserie). Adresse de l'office, différente du siège SIRENE."
+ }
+}

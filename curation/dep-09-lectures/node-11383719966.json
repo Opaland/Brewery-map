@@ -1,0 +1,27 @@
+{
+ "candidat": "node/11383719966",
+ "ajout": {
+  "fiche": {
+   "n": "Globe Trotter Brasserie",
+   "c": "Pamiers",
+   "d": "09",
+   "lat": 43.12802,
+   "lon": 1.62678,
+   "km": 376.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie-restaurant : bières brassées sur place, service en salle et vente à emporter, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+   "addr": "Route de Toulouse, Zone de la Cavalerie, 09100 Pamiers",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/globe-trotter-brasserie-pamiers_TFOSITRA2_RES_6231128/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/restauration/globe-trotter-brasserie-pamiers_TFOSITRA2_RES_6231128/",
+   "https://data.geopf.fr/geocodage/search?q=Pamiers&type=municipality&limit=5"
+  ],
+  "extrait": "Service en salle. Vente à emporter.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 (« Bières artisanales brassées sur place. », « Service en salle. Vente à emporter. »). Le portable de la fiche est écarté (un portable doit venir de la brasserie). Pas de site officiel."
+ }
+}

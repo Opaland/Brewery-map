@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 09 (Ariège), S348 (Occitanie) : lu le 12/11 (13 lectures relues sur la page brute, `curation/campagne/09-lus.json`) ; le rendu a échoué, le géocodeur IGN étant en panne (504 puis plus de réponse) : reprendre à `campagne.ts rendre 09`, sans relire. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 1 (12/11, échoué : géocodeur IGN en panne) |
+| Département en cours | 09 (Ariège), S348 (Occitanie) : PR ouverte le 12/11 ; si elle est mergée, passer au 11 (Aude). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (12/11 ; le géocodeur IGN est tombé deux fois, rendu repris le même jour) |
 | Issue du département | #189 |
 | Dernier département terminé | 86 (11/11, PR #282, 4 fiches) ; la Nouvelle-Aquitaine est couverte |
 

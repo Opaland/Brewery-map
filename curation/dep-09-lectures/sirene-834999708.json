@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:834999708",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Boussole",
+   "c": "Taurignan-Vieux",
+   "d": "09",
+   "lat": 43.03608,
+   "lon": 1.10224,
+   "km": 412.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie coopérative bio. Le magasin est ouvert le vendredi ; de mi-mai à fin août, magasin, bar, terrasse et food truck le vendredi soir, avec dégustation sur place.",
+   "addr": "Camps de Bonin - Marbama, 09190 Taurignan-Vieux",
+   "src": "https://www.ariegepyrenees.com/?p=134157",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "09 53 18 98 32",
+    "site": "https://www.brasserie-laboussole.fr/fr/",
+    "source": "https://www.brasserie-laboussole.fr/fr/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-laboussole.fr/fr/",
+     "ven": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "remarque": "De mi-mai à fin août, bar et terrasse le vendredi de 17 h à 23 h, d'après l'office.",
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "https://www.ariegepyrenees.com/?p=134157",
+   "https://www.brasserie-laboussole.fr/fr/",
+   "https://data.geopf.fr/geocodage/search?q=Taurignan-Vieux&type=municipality&limit=5"
+  ],
+  "extrait": "Possibilité de déguster sur place",
+  "choix": "Page de l'agence départementale du tourisme et site officiel relus sur la page brute le 12/11. Les horaires du magasin viennent du site ; ceux du bar d'été, de l'office, en remarque. Le fixe est celui du site de la brasserie (« Tel : +33 (0)9 53 18 98 32 »)."
+ }
+}

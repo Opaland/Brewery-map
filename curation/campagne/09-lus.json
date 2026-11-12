@@ -6,11 +6,11 @@
     "adresse": "70 bis avenue du Maréchal Joffre, 09300 Lavelanet",
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie bio ; vente directe à la brasserie, en semaine. Le site annonce aussi un « Bar du Bison », dont l'adresse et l'ouverture ne sont pas encore dites.",
+    "note": "Brasserie bio ; vente directe à la brasserie, en semaine. Depuis le 31 octobre 2026, ses bières se boivent aussi au Bar du Bison, chez L’Art d’Assembler à Lavelanet : un autre lieu, sans horaires publiés.",
     "src": "http://www.legrandbison.fr/",
     "extrait": "Nous vous proposons la vente directe à la brasserie,",
     "beers": [],
-    "choix": "Site officiel relu sur la page brute le 12/11 : vente directe, horaires de semaine, fixe de la brasserie. Le portable du bar est écarté (autre lieu, pas encore ouvert). Pas de lien Untappd.",
+    "choix": "Site officiel relu sur la page brute le 12/11 : vente directe, horaires de semaine, fixe de la brasserie. Le portable du bar est écarté (celui du bar, un autre lieu). Pas de lien Untappd.",
     "contact": {
       "tel": "09 73 23 37 93",
       "site": "http://www.legrandbison.fr/",
@@ -138,9 +138,9 @@
     "n": "La Bonne Foix",
     "c": "Foix",
     "adresse": "09000 Foix",
-    "cat": 0,
-    "conf": "",
-    "note": "Bières bio brassées dans un atelier à Foix, d'après l'office de tourisme d'Occitanie. Le site de la brasserie dit seulement « Sur rendez-vous » : la vente sur place n'est pas écrite. Adresse non publiée.",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières bio brassées dans un atelier à Foix. Vente directe sur rendez-vous, d'après le site de la brasserie ; adresse non publiée.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-bonne-foix-foix_TFOSITRA2_DEG_7143532/",
     "extrait": "Nos bières artisanales sont brassés par nos soins dans notre atelier de fabrication à Foix.",
     "beers": [
@@ -164,11 +164,18 @@
         "type": "brune"
       }
     ],
-    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 (« blonde, blanche, ambré, ipa, triple et brune »). Catégorie 0 : « Sur rendez-vous, contactez nous ! » ne dit pas une vente. Le portable de la fiche de l'office est écarté (un portable doit venir de la brasserie).",
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 12/11. Le site porte « HORAIRES VENTE DIRECTE » puis « Sur rendez-vous, contactez nous ! » : catégorie 2. Le portable de la fiche de l'office est écarté (un portable doit venir de la brasserie).",
     "contact": {
       "site": "https://labonnefoix.fr/",
       "source": "https://labonnefoix.fr/"
-    }
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://labonnefoix.fr/",
+        "remarque": "Sur rendez-vous."
+      }
+    ]
   },
   {
     "cle": "sirene:921620845",
@@ -199,7 +206,7 @@
     "n": "Brasserie Les Trois Clochers",
     "c": "Pamiers",
     "adresse": "1 place des Victimes de la Gestapo, 09100 Pamiers",
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
     "note": "Brasserie du centre de Pamiers, ouverte en 2023 : visites, dégustations et vente à la brasserie le jeudi, le vendredi et le samedi en fin d'après-midi, d'après l'agence de tourisme de l'Ariège. Ses bières se vendent aussi au marché de Pamiers le samedi matin.",
     "src": "https://www.ariegepyrenees.com/?p=74730",
@@ -222,10 +229,10 @@
         "libelle": "L’Arrogante"
       }
     ],
-    "choix": "Page de l'agence départementale du tourisme (Ariège Pyrénées) relue sur la page brute le 12/11. Pas de site officiel ni de téléphone publié. La page nomme la brasseuse : son nom n'est pas repris.",
+    "choix": "Page de l'agence départementale du tourisme (Ariège Pyrénées) relue sur la page brute le 12/11. Pas de site officiel ni de téléphone publié. La page nomme la brasseuse : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric).",
     "horaires": [
       {
-        "nature": "accueil",
+        "nature": "vente",
         "source": "https://www.ariegepyrenees.com/?p=74730",
         "jeu": [
           [
@@ -271,13 +278,13 @@
     "n": "Brasserie Co-Hop",
     "c": "Pailhès",
     "adresse": "Lieu dit Darré Loustal, 09130 Pailhès",
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie coopérative bio (SCOP) : visites, dégustations et vente du lundi au vendredi, d'après l'agence de tourisme de l'Ariège. Pendant les vacances scolaires, appeler avant de venir.",
+    "note": "Brasserie coopérative bio (SCOP) : visites, dégustations et vente à la brasserie du lundi au vendredi, d'après l'agence de tourisme de l'Ariège. Pendant les vacances scolaires, appeler avant de venir.",
     "src": "https://www.ariegepyrenees.com/?p=74730",
     "extrait": "Pendant les vacances scolaires, appelez les brasseurs pour être sûrs des horaires",
     "beers": [],
-    "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente : ouvert du lundi au vendredi de 9h à 19h »). Le seul numéro publié par la brasserie est un portable, sur son site, rattaché à un prénom qui n'est pas repris (règle du 21/10).",
+    "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente : ouvert du lundi au vendredi de 9h à 19h »). Le seul numéro publié par la brasserie est un portable, sur son site, rattaché à un prénom qui n'est pas repris (règle du 21/10). Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric).",
     "contact": {
       "tel": "06 22 34 71 29",
       "site": "https://www.brasserieco-hop.fr/accueil/",
@@ -285,7 +292,7 @@
     },
     "horaires": [
       {
-        "nature": "accueil",
+        "nature": "vente",
         "source": "https://www.ariegepyrenees.com/?p=74730",
         "lun": [
           [
@@ -332,10 +339,11 @@
     "src": "https://www.ariegepyrenees.com/?p=134157",
     "extrait": "Possibilité de déguster sur place",
     "beers": [],
-    "choix": "Page de l'agence départementale du tourisme et site officiel relus sur la page brute le 12/11. Les horaires du magasin viennent du site ; ceux du bar d'été, de l'office, en remarque. Aucun téléphone sur ces deux pages.",
+    "choix": "Page de l'agence départementale du tourisme et site officiel relus sur la page brute le 12/11. Les horaires du magasin viennent du site ; ceux du bar d'été, de l'office, en remarque. Le fixe est celui du site de la brasserie (« Tel : +33 (0)9 53 18 98 32 »).",
     "contact": {
       "site": "https://www.brasserie-laboussole.fr/fr/",
-      "source": "https://www.brasserie-laboussole.fr/fr/"
+      "source": "https://www.brasserie-laboussole.fr/fr/",
+      "tel": "09 53 18 98 32"
     },
     "horaires": [
       {
@@ -410,15 +418,27 @@
     "adresse": "Box 5 Hôtel d'Entreprises, Rue du Montcalm, 09220 Auzat",
     "cat": 0,
     "conf": "",
-    "note": "Brasserie artisanale de la vallée de Vicdessos. Son site dit qu'elle vend ses bières dans des bars, restaurants et épiceries ; rien sur une boutique ni une dégustation à la brasserie.",
+    "note": "Brasserie artisanale de la vallée de Vicdessos. Accueil du public le jeudi en fin d'après-midi pour des dégustations, des ateliers et des visites, d'après l'agence de tourisme de l'Ariège ; le site publie ses tarifs en direct, sans dire où ni quand on achète.",
     "src": "https://sos-biere.com",
     "extrait": "Nous commercialisons nos bières dans des bars, restaurants et épiceries.",
     "beers": [],
-    "choix": "Site officiel relu sur la page brute le 12/11. Ni téléphone ni horaires publiés.",
+    "choix": "Site officiel et page de l'agence départementale relus sur la page brute le 12/11. Catégorie 0 : visites et dégustations ne font pas une catégorie 1, et « Nos tarifs en direct » ne dit pas une vente à la brasserie. Pas de téléphone publié.",
     "contact": {
       "site": "https://sos-biere.com",
       "source": "https://sos-biere.com"
-    }
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://www.ariegepyrenees.com/?p=74730",
+        "jeu": [
+          [
+            "16:00",
+            "19:00"
+          ]
+        ]
+      }
+    ]
   },
   {
     "cle": "sirene:889478491",
@@ -427,27 +447,27 @@
     "adresse": "13 Avenue de la République, 09400 Tarascon-sur-Ariège",
     "cat": 0,
     "conf": "",
-    "note": "Brasserie artisanale des vallées du Tarasconnais, d'après l'office de tourisme d'Occitanie, qui lui donne une boutique sans dire ce qu'on y achète.",
+    "note": "Brasserie artisanale des vallées du Tarasconnais. D'après l'agence de tourisme de l'Ariège, elle n'est pas encore ouverte au public : ses bières se trouvent dans des boutiques partenaires de Haute-Ariège.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-destral-tarascon-sur-ariege_TFOSITRA2_DEG_6492562/",
     "extrait": "Fondée dans les vallées du Tarasconnais, cette brasserie artisanale a vu le jour grâce à sa détermination et à son apprentissage de l’art brassicole.",
     "beers": [],
-    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11. Pas de site officiel. Un portable cité par un moteur de recherche n'est pas sur la page : écarté."
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11. Pas de site officiel. Un portable cité par un moteur de recherche n'est pas sur la page : écarté. L'agence départementale écrit : « la brasserie n’est pas encore ouverte au public mais ça ne saurait tarder » (revue de la persona Cédric)."
   },
   {
     "cle": "sirene:902107275",
     "n": "L'Orge Folle",
     "c": "Rimont",
     "adresse": "15 Avenue de la Résistance, 09420 Rimont",
-    "cat": 1,
+    "cat": 2,
     "conf": "moyenne",
-    "note": "Microbrasserie de Rimont : visites, dégustations et vente du mardi au samedi en fin de journée, d'après l'agence de tourisme de l'Ariège.",
+    "note": "Microbrasserie de Rimont : visites, dégustations et vente à la brasserie du mardi au samedi en fin de journée, d'après l'agence de tourisme de l'Ariège.",
     "src": "https://www.ariegepyrenees.com/?p=74730",
     "extrait": "ouvert du mardi au vendredi de 16h à 19h et le samedi de 17h à 19h.",
     "beers": [],
-    "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente »). Adresse de la fiche de l'office d'Occitanie. Le portable de l'office est écarté (un portable doit venir de la brasserie). La page nomme le brasseur : son nom n'est pas repris.",
+    "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (« Visites & dégustations, points de vente »). Adresse de la fiche de l'office d'Occitanie. Le portable de l'office est écarté (un portable doit venir de la brasserie). La page nomme le brasseur : son nom n'est pas repris. Catégorie 2 et non 1 : la source dit « visites, dégustations, points de vente », et une dégustation liée à la visite ne fait pas une catégorie 1 (revue de la persona Cédric).",
     "horaires": [
       {
-        "nature": "accueil",
+        "nature": "vente",
         "source": "https://www.ariegepyrenees.com/?p=74730",
         "mar": [
           [
@@ -494,5 +514,95 @@
     "extrait": "Service en salle. Vente à emporter.",
     "beers": [],
     "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 12/11 (« Bières artisanales brassées sur place. », « Service en salle. Vente à emporter. »). Le portable de la fiche est écarté (un portable doit venir de la brasserie). Pas de site officiel."
+  },
+  {
+    "cle": "sirene:953833829",
+    "n": "Brasserie Kamris",
+    "c": "La Bastide-de-Sérou",
+    "adresse": "09240 La Bastide-de-Sérou",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brewpub ouvert en février 2024 : on y boit les bières de la maison, avec des plats, sur place ou à emporter ; concerts au moins une fois par mois. D'après l'agence de tourisme de l'Ariège. Vente à emporter aussi le jeudi dès 10 h.",
+    "src": "https://www.ariegepyrenees.com/?p=74730",
+    "extrait": "La brasserie est ouverte pour la vente à emporter (en plus des heures d’ouverture du bar) le jeudi à partir de 10h.",
+    "beers": [
+      {
+        "type": "autre",
+        "libelle": "La Tétras (Session Pale Ale)"
+      },
+      {
+        "type": "autre",
+        "libelle": "La Lucky Loki (Pale Ale)"
+      },
+      {
+        "type": "stout",
+        "libelle": "La Charpentière"
+      },
+      {
+        "type": "autre",
+        "libelle": "Le Brame (Triple)"
+      }
+    ],
+    "choix": "Page de l'agence départementale du tourisme relue sur la page brute le 12/11 (revue de la persona Cédric : la raison « aucune page » était fausse). Adresse non publiée : la fiche est au centre de la commune. Les prénoms des fondateurs ne sont pas repris. Pas de téléphone ni de site.",
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://www.ariegepyrenees.com/?p=74730",
+        "periode": {
+          "du": "05-01",
+          "au": "12-31"
+        },
+        "jeu": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "sam": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "dim": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ]
+      },
+      {
+        "nature": "accueil",
+        "source": "https://www.ariegepyrenees.com/?p=74730",
+        "periode": {
+          "du": "01-01",
+          "au": "04-30"
+        },
+        "ven": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "sam": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "dim": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ]
+      }
+    ]
   }
 ]

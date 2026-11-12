@@ -1,0 +1,68 @@
+{
+ "candidat": "sirene:843999228",
+ "ajout": {
+  "fiche": {
+   "n": "La Brouche",
+   "c": "Saint-Girons",
+   "d": "09",
+   "lat": 42.98677,
+   "lon": 1.14498,
+   "km": 414.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio de Saint-Girons, depuis 2005. Ouverte toute l'année aux horaires ci-dessous ; la page propose aussi de visiter la brasserie. Elle ne dit pas en toutes lettres qu'on y achète ou qu'on y boit.",
+   "addr": "6 Ter Av. René Plaisant, 09200 Saint-Girons",
+   "src": "http://www.biere-ariege.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 61 96 60 01",
+    "site": "http://www.biere-ariege.com/",
+    "source": "http://www.biere-ariege.com/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.biere-ariege.com/",
+     "mer": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:30",
+       "12:30"
+      ],
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "http://www.biere-ariege.com/",
+   "https://data.geopf.fr/geocodage/search?q=6+Ter+Av.+Ren%C3%A9+Plaisant%2C+09200+Saint-Girons&limit=5"
+  ],
+  "extrait": "Installée au cœur du Couserans à Saint-Girons depuis 2005",
+  "choix": "Site officiel relu sur la page brute le 12/11 : adresse, fixe, « La brasserie est ouverte toute l’année » et ses horaires. Catégorie 0 : une visite ou une ouverture ne disent pas une vente. Le point OSM « La Brouche » est le même lieu : une seule fiche. Les avis Google de la page ne sont pas une source."
+ }
+}

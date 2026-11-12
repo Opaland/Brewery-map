@@ -1,0 +1,90 @@
+{
+ "candidat": "sirene:798598454",
+ "ajout": {
+  "fiche": {
+   "n": "Le Grand Bison",
+   "c": "Lavelanet",
+   "d": "09",
+   "lat": 42.93457,
+   "lon": 1.83763,
+   "km": 383,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio ; vente directe à la brasserie, en semaine. Depuis le 31 octobre 2026, ses bières se boivent aussi au Bar du Bison, chez L’Art d’Assembler à Lavelanet : un autre lieu, sans horaires publiés.",
+   "addr": "70 bis avenue du Maréchal Joffre, 09300 Lavelanet",
+   "src": "http://www.legrandbison.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "09 73 23 37 93",
+    "site": "http://www.legrandbison.fr/",
+    "source": "http://www.legrandbison.fr/",
+    "verifieLe": "2026-11-12"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "http://www.legrandbison.fr/",
+     "lun": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "12:30"
+      ],
+      [
+       "13:30",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-12"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-12",
+  "sources": [
+   "http://www.legrandbison.fr/",
+   "https://data.geopf.fr/geocodage/search?q=70+bis+avenue+du+Mar%C3%A9chal+Joffre%2C+09300+Lavelanet&limit=5"
+  ],
+  "extrait": "Nous vous proposons la vente directe à la brasserie,",
+  "choix": "Site officiel relu sur la page brute le 12/11 : vente directe, horaires de semaine, fixe de la brasserie. Le portable du bar est écarté (celui du bar, un autre lieu). Pas de lien Untappd."
+ }
+}
