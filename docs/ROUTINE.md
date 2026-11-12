@@ -11,12 +11,12 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 11 (Aude), S348 (Occitanie) : PR ouverte le 12/11 ; si elle est mergée, passer au 12 (Aveyron). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 1 (12/11) |
+| Département en cours | 12 (Aveyron), S348 (Occitanie) : pas encore lu. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 0 |
 | Issue du département | #189 |
-| Dernier département terminé | 09 (12/11, PR #287, 14 fiches) |
+| Dernier département terminé | 11 (12/11, PR #289, 7 fiches) |
 
-**File des départements** (dans l'ordre) : l'Occitanie (#189) : 11, 12, 30, 31,
+**File des départements** (dans l'ordre) : l'Occitanie (#189) : 12, 30, 31,
 32, 34, 46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
