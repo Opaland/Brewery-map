@@ -1,0 +1,685 @@
+[
+ {
+  "cle": "sirene:878876218",
+  "nom": "COLLECTIF DE LA FONTAINE RONDE",
+  "communes": [
+   "COUNOZOULS"
+  ],
+  "departement": "11",
+  "adresses": [
+   "11 RUE DE LA FONTAINE 11140 COUNOZOULS",
+   "12 GRAND RUE 11140 COUNOZOULS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "878876218",
+  "sirets": [
+   "87887621800016",
+   "87887621800024"
+  ],
+  "osm": [],
+  "lat": 42.731735377,
+  "lon": 2.2280263904,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844409243",
+  "nom": "SARL ORTOLA FAMILY",
+  "communes": [
+   "NARBONNE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "44 GRAND QUATOURZE 11100 NARBONNE",
+   "CHATEAU NOTRE DAME DU QUATOURZE GRAND QUATOURZE 11100 NARBONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844409243",
+  "sirets": [
+   "84440924300020",
+   "84440924300012"
+  ],
+  "osm": [],
+  "lat": 43.1553099064082,
+  "lon": 3.00184691640573,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VINASSAN",
+   "NARBONNE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:814069076",
+  "nom": "SOMA",
+  "communes": [
+   "ISSEL"
+  ],
+  "departement": "11",
+  "adresses": [
+   "15 RUE PROFONDE 11400 ISSEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "814069076",
+  "sirets": [
+   "81406907600028"
+  ],
+  "osm": [],
+  "lat": 43.368688497,
+  "lon": 1.9955736436,
+  "statut": "ambigu",
+  "fiche": "Brasserie Soma"
+ },
+ {
+  "cle": "sirene:921889440",
+  "nom": "LA COUVEUSE",
+  "communes": [
+   "FLEURY"
+  ],
+  "departement": "11",
+  "adresses": [
+   "2 RUE DE LA COUVEUSE 11560 FLEURY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921889440",
+  "sirets": [
+   "92188944000019"
+  ],
+  "osm": [],
+  "lat": 43.229787816,
+  "lon": 3.1365948917,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "CAUNETTES-EN-VAL"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:830820197",
+  "nom": "BRASSERIE DU 5 BIS",
+  "communes": [
+   "LA PALME"
+  ],
+  "departement": "11",
+  "adresses": [
+   "5 B AVENUE DE LA MER 11480 LA PALME"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "830820197",
+  "sirets": [
+   "83082019700010"
+  ],
+  "osm": [],
+  "lat": 42.975084604,
+  "lon": 2.9929712466,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "LAGRASSE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "VERZEILLE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:831090196",
+  "nom": "LA MANDRA",
+  "communes": [
+   "SOULATGE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "1 RUE SAINT JOSEPH 11330 SOULATGE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "831090196",
+  "sirets": [
+   "83109019600013"
+  ],
+  "osm": [],
+  "lat": 42.879165802,
+  "lon": 2.5037785251,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:984778886",
+  "nom": "BRASSERIE BLANQUE FOUGASSE",
+  "communes": [
+   "CUXAC-D'AUDE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "11 RUE NOTRE DAME 11590 CUXAC-D'AUDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "984778886",
+  "sirets": [
+   "98477888600015"
+  ],
+  "osm": [],
+  "lat": 43.246306588,
+  "lon": 3.0011948267,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:100467695",
+  "nom": "BRASSERIE SAINT-CHRISTOL",
+  "communes": [
+   "FONTERS-DU-RAZES"
+  ],
+  "departement": "11",
+  "adresses": [
+   "HENRIQUES 11400 FONTERS-DU-RAZES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "100467695",
+  "sirets": [
+   "10046769500019"
+  ],
+  "osm": [],
+  "lat": 43.2434814244628,
+  "lon": 1.923936985702,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:797614856",
+  "nom": "DONA CARCAS",
+  "communes": [
+   "PEYRIAC-MINERVOIS"
+  ],
+  "departement": "11",
+  "adresses": [
+   "35 B AVENUE ERNEST FERROUL 11160 PEYRIAC-MINERVOIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "797614856",
+  "sirets": [
+   "79761485600012"
+  ],
+  "osm": [],
+  "lat": 43.287918757,
+  "lon": 2.5697765208,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809260714",
+  "nom": "LES BRASSEURS DE LA CITE",
+  "communes": [
+   "CARCASSONNE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "RUE EDOUARD BRANLY 11000 CARCASSONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809260714",
+  "sirets": [
+   "80926071400013"
+  ],
+  "osm": [],
+  "lat": 43.205337117,
+  "lon": 2.3175629886,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:815199823",
+  "nom": "BRASSERIE LA MER A BOIRE",
+  "communes": [
+   "GRUISSAN"
+  ],
+  "departement": "11",
+  "adresses": [
+   "ZONE ARTISANALE DES CHALETS 21 RUE DE L'HIPPOCAMPE 11430 GRUISSAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "815199823",
+  "sirets": [
+   "81519982300015"
+  ],
+  "osm": [
+   "node/2990273292"
+  ],
+  "lat": 43.102390627,
+  "lon": 3.1111436475,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:822225967",
+  "nom": "BEN ET CLEM",
+  "communes": [
+   "NARBONNE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "ROUTE DE PERPIGNAN FORUM SUD AVENUE DU QUATOURZE 11100 NARBONNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "822225967",
+  "sirets": [
+   "82222596700014"
+  ],
+  "osm": [],
+  "lat": 43.167885857,
+  "lon": 2.9895548425,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "LEUCATE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:943144642",
+  "nom": "BRASSERIE DU VERTIGE",
+  "communes": [
+   "ROUBIA"
+  ],
+  "departement": "11",
+  "adresses": [
+   "16 AVENUE DES ECOLES 11200 ROUBIA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "943144642",
+  "sirets": [
+   "94314464200015"
+  ],
+  "osm": [],
+  "lat": 43.247507059891,
+  "lon": 2.79911828230338,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829601855",
+  "nom": "BREWTECH EUROPE",
+  "communes": [
+   "PIEUSSE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "ERECO PRAE CHARLES CROS RTE DE CARCASSONNE CD 118 11300 PIEUSSE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829601855",
+  "sirets": [
+   "82960185500010"
+  ],
+  "osm": [],
+  "lat": 43.093733798,
+  "lon": 2.229853266,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:980708101",
+  "nom": "BRASSERIE APAL",
+  "communes": [
+   "LEZIGNAN-CORBIERES"
+  ],
+  "departement": "11",
+  "adresses": [
+   "6 RUE GUSTAVE EIFFEL 11200 LEZIGNAN-CORBIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "980708101",
+  "sirets": [
+   "98070810100020"
+  ],
+  "osm": [],
+  "lat": 43.185714664,
+  "lon": 2.7496778959,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "LACOMBE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "HOMPS"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:809458037",
+  "nom": "BRASSERIE ARTISANALE LA CATHARE",
+  "communes": [
+   "GRUISSAN"
+  ],
+  "departement": "11",
+  "adresses": [
+   "ZA MATEILLE 11430 GRUISSAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809458037",
+  "sirets": [
+   "80945803700011"
+  ],
+  "osm": [],
+  "lat": 43.13181632,
+  "lon": 3.1406147365,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840463962",
+  "nom": "BRASSERIE DES VOUTES",
+  "communes": [
+   "VAL-DE-DAGNE"
+  ],
+  "departement": "11",
+  "adresses": [
+   "15 B LES COURTALS 11220 VAL-DE-DAGNE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840463962",
+  "sirets": [
+   "84046396200018"
+  ],
+  "osm": [],
+  "lat": 43.130734961,
+  "lon": 2.5563221231,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": "LA BRASSERIE DU PECH",
+  "communes": [
+   "CAMPS SUR AGLY"
+  ],
+  "departement": "11",
+  "adresses": [
+   "3 GR GRAND RUE 11190 CAMPS SUR AGLY"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948237326",
+  "nom": "MICROBRASSERIE FUTE-FUTE",
+  "communes": [
+   "MONTREAL"
+  ],
+  "departement": "11",
+  "adresses": [
+   "FONTALES 11290 MONTREAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948237326",
+  "sirets": [
+   "94823732600012"
+  ],
+  "osm": [],
+  "lat": 43.213721869,
+  "lon": 2.1138980126,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "LUC-SUR-AUDE"
+  ],
+  "departement": "11",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/10959120963",
+  "nom": "Brasserie Parallèle 42",
+  "communes": [
+   "Leucate"
+  ],
+  "departement": "11",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/10959120963"
+  ],
+  "lat": 42.90398,
+  "lon": 3.03678,
+  "site": "https://accentsduterroir.fr/producteurs/brasseurs/occitanie/leucate/brasserie-parallele-42/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/11676134525",
+  "nom": "Elixir de Fred",
+  "communes": [
+   "Bize-Minervois"
+  ],
+  "departement": "11",
+  "adresses": [
+   "33 Avenue de la Gare, 11120 Bize-Minervois"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11676134525"
+  ],
+  "lat": 43.31427,
+  "lon": 2.87048,
+  "site": "https://elixirdefred.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12833197537",
+  "nom": "Brasserie de Lagrasse",
+  "communes": [
+   "Lagrasse"
+  ],
+  "departement": "11",
+  "adresses": [
+   "Abbaye Sainte-Marie, 11220 Lagrasse"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12833197537"
+  ],
+  "lat": 43.09076,
+  "lon": 2.61663,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/125881530",
+  "nom": "BDQ Taproom & Kitchen",
+  "communes": [
+   "Puivert"
+  ],
+  "departement": "11",
+  "adresses": [
+   "4 Route Départementale D117, 11230 Puivert"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/125881530"
+  ],
+  "lat": 42.91919,
+  "lon": 2.04878,
+  "site": "http://www.bdq.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/286722500",
+  "nom": "BDQ Beer Co.",
+  "communes": [
+   "Chalabre"
+  ],
+  "departement": "11",
+  "adresses": [
+   "1 Rue du Capitaine Danjou, 11230 Chalabre"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/286722500"
+  ],
+  "lat": 42.98252,
+  "lon": 2.00748,
+  "site": "https://www.bdq.fr",
+  "statut": "nouveau"
+ }
+]
