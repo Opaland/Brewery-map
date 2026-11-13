@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 838 | 21 (3 %) | 42 | 310 | 262 | 324 | 444 | 548 | 666 |
+| **Total** | 849 | 21 (2 %) | 42 | 313 | 267 | 328 | 452 | 556 | 676 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -26,6 +26,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 09 · Ariège | 14 | 0 (0 %) | 0 | 4 | 6 | 7 | 8 | 4 | 10 |
 | 10 · Aube | 6 | 0 (0 %) | 0 | 4 | 2 | 1 | 3 | 3 | 6 |
 | 11 · Aude | 7 | 0 (0 %) | 0 | 1 | 2 | 0 | 7 | 2 | 5 |
+| 12 · Aveyron | 11 | 0 (0 %) | 0 | 3 | 5 | 4 | 8 | 8 | 10 |
 | 13 · Bouches-du-Rhône | 18 | 0 (0 %) | 0 | 8 | 4 | 6 | 9 | 10 | 18 |
 | 14 · Calvados | 10 | 1 (10 %) | 0 | 5 | 3 | 4 | 5 | 8 | 2 |
 | 15 · Cantal | 2 | 0 (0 %) | 0 | 0 | 1 | 0 | 1 | 2 | 2 |
@@ -101,7 +102,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-310 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+313 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -161,6 +162,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 11 · Aude
 
 - BDQ Beer Co. (Chalabre) : sans téléphone, sans horaires, sans bières
+
+### 12 · Aveyron
+
+- Ferme de la Rousse – Brasserie Bel'Avey (La Fouillade) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie de la Muze (Castelnau-Pégayrols) : sans adresse vérifiée, sans téléphone, sans horaires
+- La Calmettoise (Arvieu) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 
 ### 13 · Bouches-du-Rhône
 

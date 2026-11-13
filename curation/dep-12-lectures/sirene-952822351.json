@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:952822351",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Cantou",
+   "c": "Curières",
+   "d": "12",
+   "lat": 44.65239,
+   "lon": 2.86686,
+   "km": 186.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de l'Aubrac : on y vient pour acheter, visiter et déguster, d'après son site ; visites et dégustations sur réservation, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+   "addr": "22 route du Devez, 12210 Curières",
+   "src": "https://www.brasserieducantou.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 88 08 72 31",
+    "site": "https://www.brasserieducantou.fr",
+    "source": "https://www.brasserieducantou.fr",
+    "verifieLe": "2026-11-13"
+   }
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.brasserieducantou.fr",
+   "https://data.geopf.fr/geocodage/search?q=22+route+du+Devez%2C+12210+Curi%C3%A8res&limit=5"
+  ],
+  "extrait": "Pour acheter, pour visiter, pour déguster il y a de nombreuses raisons de venir nous voir à la brasserie du Cantou.",
+  "choix": "Site officiel relu sur la page brute le 13/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 comme la Brasserie d'Olt : la dégustation passe par la visite, sur réservation (revue de la persona du 13/11)."
+ }
+}

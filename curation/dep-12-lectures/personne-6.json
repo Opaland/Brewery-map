@@ -1,0 +1,46 @@
+{
+ "candidat": "personne:6",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Muze",
+   "c": "Castelnau-Pégayrols",
+   "d": "12",
+   "lat": 44.14022,
+   "lon": 2.94199,
+   "km": 222.4,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale : blonde, ambrée, triple, IPA. Son site ne dit pas où ni quand on peut acheter ou boire. Téléphone publié par la brasserie : 06 03 46 13 95.",
+   "addr": "Castelmus, 12620 Castelnau-Pégayrols",
+   "src": "https://www.brasserie-muze.com/",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "autre",
+     "libelle": "Triple"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://www.brasserie-muze.com/",
+    "source": "https://www.brasserie-muze.com/",
+    "verifieLe": "2026-11-13"
+   }
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.brasserie-muze.com/",
+   "https://data.geopf.fr/geocodage/search?q=Castelnau-P%C3%A9gayrols&type=municipality&limit=5"
+  ],
+  "extrait": "Castelmus",
+  "choix": "Site officiel relu sur la page brute le 13/11. Le seul numéro, un portable de la brasserie, est écrit « +33(0)6 03 46 13 95 » : il passe dans la note (règle du 21/10). Entreprise individuelle : ni nom de personne ni SIREN repris. Pourquoi pas dans contact.tel, contrairement aux Mousses du Rouergue et au Cantou : l'outil de contrôle ne relit pas un numéro écrit « +33(0)6… » sur la page, et un numéro non relu n'entre pas en lien « Appeler »."
+ }
+}

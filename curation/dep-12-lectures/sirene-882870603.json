@@ -1,0 +1,98 @@
+{
+ "candidat": "sirene:882870603",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Larzac",
+   "c": "Millau",
+   "d": "12",
+   "lat": 44.10197,
+   "lon": 3.09318,
+   "km": 218.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie au hameau de La Blaquière, à 15 minutes de Millau : buvette, vente directe et visite sur réservation, d'après l'office de tourisme d'Occitanie. Ouverte le vendredi en fin d'après-midi au printemps et en septembre, du mardi au samedi l'après-midi en juillet et août.",
+   "addr": "La Blaquière, 12100 Millau",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+     "periode": {
+      "du": "04-01",
+      "au": "06-30"
+     },
+     "ven": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-13"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+     "periode": {
+      "du": "07-01",
+      "au": "08-31"
+     },
+     "mar": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "mer": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-13"
+    },
+    {
+     "nature": "accueil",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+     "periode": {
+      "du": "09-01",
+      "au": "09-30"
+     },
+     "ven": [
+      [
+       "16:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-13"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+   "https://data.geopf.fr/geocodage/search?q=Millau&type=municipality&limit=5"
+  ],
+  "extrait": "Buvette, vente directe et visite possible sur réservation.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Le point OSM « Brasserie Du Larzac » (La Cavalerie) porte le même SIREN : une seule fiche, à l'adresse de l'office. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}

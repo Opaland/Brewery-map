@@ -1,0 +1,72 @@
+{
+ "candidat": "sirene:813319001",
+ "ajout": {
+  "fiche": {
+   "n": "Les Mousses du Rouergue",
+   "c": "Decazeville",
+   "d": "12",
+   "lat": 44.56222,
+   "lon": 2.24778,
+   "km": 232.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio de Decazeville : boutique ouverte toute l'année du mardi au samedi l'après-midi ; visites et ateliers de dégustation sur rendez-vous.",
+   "addr": "1 bis impasse d'Iéna, 12300 Decazeville",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-les-mousses-du-rouergue-decazeville_TFO12089-TDE-20160210112617842/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 41 12 44 71",
+    "site": "https://www.moussesdurouergue.com",
+    "source": "https://www.moussesdurouergue.com",
+    "verifieLe": "2026-11-13"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-les-mousses-du-rouergue-decazeville_TFO12089-TDE-20160210112617842/",
+     "mar": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Visites et ateliers de dégustation sur rendez-vous.",
+     "verifieLe": "2026-11-13"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-les-mousses-du-rouergue-decazeville_TFO12089-TDE-20160210112617842/",
+   "https://www.moussesdurouergue.com",
+   "https://data.geopf.fr/geocodage/search?q=1+bis+impasse+d%27I%C3%A9na%2C+12300+Decazeville&limit=5"
+  ],
+  "extrait": "Boutique ouverte toute l’année, du mardi au samedi de 14h à 18h.",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 13/11. Le point OSM « Mousses du Rouergue » est le même lieu (même impasse d'Iéna) : une seule fiche. Le portable est le seul numéro publié par la brasserie sur son site (règle du 21/10). Bières du site non reprises (styles sans type sûr)."
+ }
+}

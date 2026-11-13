@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:951371764",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme Brasserie La Caussenarde",
+   "c": "Saint-Beaulize",
+   "d": "12",
+   "lat": 43.89641,
+   "lon": 3.10972,
+   "km": 236.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Ferme qui brasse sa bière ; vente directe à la ferme, et présence au marché de Saint-Affrique le samedi matin toute l'année, d'après l'office de tourisme d'Occitanie. Aucun horaire de la ferme publié.",
+   "addr": "Le Masandral, 12540 Saint-Beaulize",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-brasserie-la-caussenarde-saint-beaulize_TFO12212-TDE-20101026160059312/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-brasserie-la-caussenarde-saint-beaulize_TFO12212-TDE-20101026160059312/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Beaulize&type=municipality&limit=5"
+  ],
+  "extrait": "Même servies à la Halle aux Grains à Paris, les bières de la Caussenarde privilégient le circuit court et la vente directe à la ferme.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Adresse du lieu-dit d'après SIRENE. Le site officiel refuse la lecture automatique (403) : non contourné. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}

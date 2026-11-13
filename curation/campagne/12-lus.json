@@ -1,0 +1,309 @@
+[
+  {
+    "cle": "sirene:813319001",
+    "n": "Les Mousses du Rouergue",
+    "c": "Decazeville",
+    "adresse": "1 bis impasse d'Iéna, 12300 Decazeville",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie bio de Decazeville : boutique ouverte toute l'année du mardi au samedi l'après-midi ; visites et ateliers de dégustation sur rendez-vous.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-les-mousses-du-rouergue-decazeville_TFO12089-TDE-20160210112617842/",
+    "extrait": "Boutique ouverte toute l’année, du mardi au samedi de 14h à 18h.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 13/11. Le point OSM « Mousses du Rouergue » est le même lieu (même impasse d'Iéna) : une seule fiche. Le portable est le seul numéro publié par la brasserie sur son site (règle du 21/10). Bières du site non reprises (styles sans type sûr).",
+    "contact": {
+      "tel": "06 41 12 44 71",
+      "site": "https://www.moussesdurouergue.com",
+      "source": "https://www.moussesdurouergue.com"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-les-mousses-du-rouergue-decazeville_TFO12089-TDE-20160210112617842/",
+        "mar": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "remarque": "Visites et ateliers de dégustation sur rendez-vous."
+      }
+    ]
+  },
+  {
+    "cle": "sirene:901942540",
+    "n": "Microbrasserie Bibemus",
+    "c": "Gabriac",
+    "adresse": "199 rue du Riou, 12340 Gabriac",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Vente à emporter, et bières à la pression sur place en été, d'après l'office de tourisme d'Occitanie. Téléphone de la brasserie : 09 75 56 47 01.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-bibemus-gabriac_TFO12106-TDE-2021090710450257/",
+    "extrait": "Vente à emporter et service pression sur place en saison estivale.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 13/11. Le fixe, publié par la brasserie, est écrit « +33975564701 », forme que controler ne relit pas : il passe dans la note. Pas d'horaires par jour.",
+    "contact": {
+      "site": "http://microbrasseriebibemus.fr",
+      "source": "http://microbrasseriebibemus.fr"
+    }
+  },
+  {
+    "cle": "sirene:852553528",
+    "n": "Brasserie L'Astrolabe",
+    "c": "Saint-Affrique",
+    "adresse": "172 Route de Lapeyre, 12400 Saint-Affrique",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de bières bio ; boutique ouverte le mardi et le vendredi en fin d'après-midi, d'après l'office de tourisme de l'Aveyron. Aucune dégustation dite.",
+    "src": "https://www.tourisme-aveyron.com/en/diffusio/artisans-businesses/brasserie-l-astrolabe-saint-affrique_TFO403009529162",
+    "extrait": "Inspired by the cosmos and mythology, the Astrolabe brewery offers organic beers with heavenly and innovative flavors.",
+    "beers": [],
+    "choix": "Fiche de l'office de l'Aveyron relue sur la page brute le 13/11 (« Shop », « Tuesday / Friday : from 16h30 to 19h00 »). Le portable de la fiche est écarté (un portable doit venir de la brasserie).",
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.tourisme-aveyron.com/en/diffusio/artisans-businesses/brasserie-l-astrolabe-saint-affrique_TFO403009529162",
+        "mar": [
+          [
+            "16:30",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:30",
+            "19:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:951371764",
+    "n": "Ferme Brasserie La Caussenarde",
+    "c": "Saint-Beaulize",
+    "adresse": "Le Masandral, 12540 Saint-Beaulize",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Ferme qui brasse sa bière ; vente directe à la ferme, et présence au marché de Saint-Affrique le samedi matin toute l'année, d'après l'office de tourisme d'Occitanie. Aucun horaire de la ferme publié.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-brasserie-la-caussenarde-saint-beaulize_TFO12212-TDE-20101026160059312/",
+    "extrait": "Même servies à la Halle aux Grains à Paris, les bières de la Caussenarde privilégient le circuit court et la vente directe à la ferme.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Adresse du lieu-dit d'après SIRENE. Le site officiel refuse la lecture automatique (403) : non contourné. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+  },
+  {
+    "cle": "personne:6",
+    "n": "Brasserie de la Muze",
+    "c": "Castelnau-Pégayrols",
+    "adresse": "Castelmus, 12620 Castelnau-Pégayrols",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie artisanale : blonde, ambrée, triple, IPA. Son site ne dit pas où ni quand on peut acheter ou boire. Téléphone publié par la brasserie : 06 03 46 13 95.",
+    "src": "https://www.brasserie-muze.com/",
+    "extrait": "Castelmus",
+    "beers": [
+      {
+        "type": "blonde"
+      },
+      {
+        "type": "ambree"
+      },
+      {
+        "type": "autre",
+        "libelle": "Triple"
+      },
+      {
+        "type": "ipa"
+      }
+    ],
+    "choix": "Site officiel relu sur la page brute le 13/11. Le seul numéro, un portable de la brasserie, est écrit « +33(0)6 03 46 13 95 » : il passe dans la note (règle du 21/10). Entreprise individuelle : ni nom de personne ni SIREN repris. Pourquoi pas dans contact.tel, contrairement aux Mousses du Rouergue et au Cantou : l'outil de contrôle ne relit pas un numéro écrit « +33(0)6… » sur la page, et un numéro non relu n'entre pas en lien « Appeler ».",
+    "contact": {
+      "site": "https://www.brasserie-muze.com/",
+      "source": "https://www.brasserie-muze.com/"
+    }
+  },
+  {
+    "cle": "sirene:882870603",
+    "n": "La Brasserie du Larzac",
+    "c": "Millau",
+    "adresse": "La Blaquière, 12100 Millau",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie au hameau de La Blaquière, à 15 minutes de Millau : buvette, vente directe et visite sur réservation, d'après l'office de tourisme d'Occitanie. Ouverte le vendredi en fin d'après-midi au printemps et en septembre, du mardi au samedi l'après-midi en juillet et août.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+    "extrait": "Buvette, vente directe et visite possible sur réservation.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Le point OSM « Brasserie Du Larzac » (La Cavalerie) porte le même SIREN : une seule fiche, à l'adresse de l'office. Le portable de la fiche est écarté (un portable doit venir de la brasserie).",
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+        "periode": {
+          "du": "04-01",
+          "au": "06-30"
+        },
+        "ven": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ]
+      },
+      {
+        "nature": "accueil",
+        "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+        "periode": {
+          "du": "07-01",
+          "au": "08-31"
+        },
+        "mar": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "15:00",
+            "19:00"
+          ]
+        ]
+      },
+      {
+        "nature": "accueil",
+        "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-du-larzac-millau_TFO12145-TDE-20200630174640811/",
+        "periode": {
+          "du": "09-01",
+          "au": "09-30"
+        },
+        "ven": [
+          [
+            "16:00",
+            "18:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:500463237",
+    "n": "Brasserie d'Olt",
+    "c": "Saint-Geniez-d'Olt-et-d'Aubrac",
+    "adresse": "16 ZA de la Salle, 12130 Saint-Geniez-d'Olt-et-d'Aubrac",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Magasin dans la brasserie, ouvert toute l'année du lundi au vendredi et le samedi matin (en juillet et août, le samedi de 10 h à 12 h) ; visites sur rendez-vous, avec dégustation gratuite en fin de visite. D'après l'office de tourisme d'Occitanie.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-d-olt-saint-geniez-d-olt_TFO12224-TDE-20130127201235528/",
+    "extrait": "Magasin situé au sein de la brasserie ouvert toute l’année, du lundi au vendredi, de 8h30 à 12h et de 13h30 à 17h et le samedi de 9h à 12h",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 13/11. Catégorie 2 : la dégustation est liée à la visite. Fixe de la brasserie lu sur son site. Les horaires restent dans la note : deux saisons, l'une écrite « de 8h à 12 ».",
+    "contact": {
+      "tel": "05 65 52 75 03",
+      "site": "https://brasseriedolt.fr/",
+      "source": "https://brasseriedolt.fr/"
+    }
+  },
+  {
+    "cle": "sirene:838266385",
+    "n": "Ferme de la Rousse – Brasserie Bel'Avey",
+    "c": "La Fouillade",
+    "adresse": "464 impasse de la Rousse, 12270 La Fouillade",
+    "cat": 0,
+    "conf": "",
+    "note": "Ferme d'élevage près de Najac qui brasse aussi, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-de-la-rousse-et-brasserie-bel-avey-la-fouillade_TFO12105-TDE-20250110112223903/",
+    "extrait": "Nous avons toujours été éleveurs et, aujourd’hui, nous sommes aussi brasseurs.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+  },
+  {
+    "cle": "sirene:952822351",
+    "n": "Brasserie du Cantou",
+    "c": "Curières",
+    "adresse": "22 route du Devez, 12210 Curières",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de l'Aubrac : on y vient pour acheter, visiter et déguster, d'après son site ; visites et dégustations sur réservation, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+    "src": "https://www.brasserieducantou.fr",
+    "extrait": "Pour acheter, pour visiter, pour déguster il y a de nombreuses raisons de venir nous voir à la brasserie du Cantou.",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 13/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 comme la Brasserie d'Olt : la dégustation passe par la visite, sur réservation (revue de la persona du 13/11).",
+    "contact": {
+      "tel": "07 88 08 72 31",
+      "site": "https://www.brasserieducantou.fr",
+      "source": "https://www.brasserieducantou.fr"
+    }
+  },
+  {
+    "cle": "sirene:914145719",
+    "n": "Microbrasserie Origine",
+    "c": "Baraqueville",
+    "adresse": "71 impasse du Sablas, 12160 Baraqueville",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Microbrasserie avec un espace bar (bières à la pression, tapas) et une boutique à emporter, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/microbrasserie-origine-baraqueville_TFO12056-RES-20240907102937941/",
+    "extrait": "Espace bar avec bières à la pression, vin, alcool, soft et tapas locaux et artisanaux.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11 (« Fabrication et vente de bières artisanales. », « Boutique : Tout est disponible en épicerie à emporter. »). Adresse de l'office, différente du siège SIRENE. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+  },
+  {
+    "cle": "node/11919904531",
+    "n": "La Calmettoise",
+    "c": "Arvieu",
+    "adresse": "La Calmette, 12120 Arvieu",
+    "cat": 0,
+    "conf": "",
+    "note": "Ferme, brasserie bio et restaurant à La Calmette. Sept bières en bouteilles, vendues dans des commerces de la région ; fûts sur réservation pour les événements. Vente ou dégustation à la ferme non dites.",
+    "src": "https://lacalmette-arvieu.fr/",
+    "extrait": "la brasserie Calmettoise vous propose une gamme de 7 bières différentes en 33 cl ou 75 cl.",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 13/11. Catégorie 0 : la vente de fûts se fait sur réservation pour des événements, et aucune vente ni dégustation à la brasserie n'est dite (revue de la persona du 13/11). Le site nomme le fondateur : son nom n'est pas repris. Les deux portables (restaurant, office) ne sont pas repris.",
+    "contact": {
+      "site": "https://lacalmette-arvieu.fr/",
+      "source": "https://lacalmette-arvieu.fr/"
+    }
+  }
+]

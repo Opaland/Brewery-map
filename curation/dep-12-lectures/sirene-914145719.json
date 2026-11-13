@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:914145719",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Origine",
+   "c": "Baraqueville",
+   "d": "12",
+   "lat": 44.27732,
+   "lon": 2.44922,
+   "km": 238.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie avec un espace bar (bières à la pression, tapas) et une boutique à emporter, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+   "addr": "71 impasse du Sablas, 12160 Baraqueville",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/microbrasserie-origine-baraqueville_TFO12056-RES-20240907102937941/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/restauration/microbrasserie-origine-baraqueville_TFO12056-RES-20240907102937941/",
+   "https://data.geopf.fr/geocodage/search?q=71+impasse+du+Sablas%2C+12160+Baraqueville&limit=5"
+  ],
+  "extrait": "Espace bar avec bières à la pression, vin, alcool, soft et tapas locaux et artisanaux.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11 (« Fabrication et vente de bières artisanales. », « Boutique : Tout est disponible en épicerie à emporter. »). Adresse de l'office, différente du siège SIRENE. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}

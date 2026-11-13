@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:852553528",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie L'Astrolabe",
+   "c": "Saint-Affrique",
+   "d": "12",
+   "lat": 43.94578,
+   "lon": 2.89759,
+   "km": 241.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de bières bio ; boutique ouverte le mardi et le vendredi en fin d'après-midi, d'après l'office de tourisme de l'Aveyron. Aucune dégustation dite.",
+   "addr": "172 Route de Lapeyre, 12400 Saint-Affrique",
+   "src": "https://www.tourisme-aveyron.com/en/diffusio/artisans-businesses/brasserie-l-astrolabe-saint-affrique_TFO403009529162",
+   "coordPrecision": "address",
+   "beers": [],
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme-aveyron.com/en/diffusio/artisans-businesses/brasserie-l-astrolabe-saint-affrique_TFO403009529162",
+     "mar": [
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:30",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-13"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-aveyron.com/en/diffusio/artisans-businesses/brasserie-l-astrolabe-saint-affrique_TFO403009529162",
+   "https://data.geopf.fr/geocodage/search?q=172+Route+de+Lapeyre%2C+12400+Saint-Affrique&limit=5"
+  ],
+  "extrait": "Inspired by the cosmos and mythology, the Astrolabe brewery offers organic beers with heavenly and innovative flavors.",
+  "choix": "Fiche de l'office de l'Aveyron relue sur la page brute le 13/11 (« Shop », « Tuesday / Friday : from 16h30 to 19h00 »). Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}
