@@ -1,0 +1,315 @@
+[
+ [
+  {
+   "cle": "sirene:850305236",
+   "enseigne": "LVZ",
+   "dep": "12",
+   "communes": [
+    "ALRANCE",
+    "REQUISTA"
+   ],
+   "adresses": [
+    "5045 LA CAILLOLIE 12430 ALRANCE",
+    "35 AVENUE DE RODEZ 12170 REQUISTA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:887867547",
+   "enseigne": "THE BEER GEEKS",
+   "dep": "12",
+   "communes": [
+    "REQUISTA"
+   ],
+   "adresses": [
+    "35 RTE DE RODEZ 12170 REQUISTA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813319001",
+   "enseigne": "MOUSSE DU ROUERGUE",
+   "dep": "12",
+   "communes": [
+    "DECAZEVILLE"
+   ],
+   "adresses": [
+    "1 IMPASSE IENA 12300 DECAZEVILLE",
+    "18 B AVENUE VICTOR HUGO 12300 DECAZEVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:101378826",
+   "enseigne": "CAMIROUMIEU",
+   "dep": "12",
+   "communes": [
+    "MONTSALES"
+   ],
+   "adresses": [
+    "475 ROUTE DE COMBELS 12260 MONTSALES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:901942540",
+   "enseigne": "BIBEMUS",
+   "dep": "12",
+   "communes": [
+    "GABRIAC"
+   ],
+   "adresses": [
+    "LD LA CROIX 12340 GABRIAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:900533100",
+   "enseigne": "STATION LIQUIDE",
+   "dep": "12",
+   "communes": [
+    "RODEZ"
+   ],
+   "adresses": [
+    "19 AVENUE AMANS RODAT 12000 RODEZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882870603",
+   "enseigne": "BRASSERIE DU LARZAC",
+   "dep": "12",
+   "communes": [
+    "MILLAU"
+   ],
+   "adresses": [
+    "6251 LA BLAQUIERE 12100 MILLAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:920201829",
+   "enseigne": "L'ATELIER CRAFT BEER",
+   "dep": "12",
+   "communes": [
+    "REQUISTA"
+   ],
+   "adresses": [
+    "35 AVENUE DE RODEZ 12170 REQUISTA"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:803701622",
+   "enseigne": "LA BRASSERIE DE L'AVEYRON",
+   "dep": "12",
+   "communes": [
+    "ONET-LE-CHATEAU"
+   ],
+   "adresses": [
+    "ROUTE DE BEL AIR AVENUE DU CAUSSE 12850 ONET-LE-CHATEAU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:500463237",
+   "enseigne": "BRASSERIE D'OLT",
+   "dep": "12",
+   "communes": [
+    "SAINT GENIEZ D'OLT ET D'AUBRAC"
+   ],
+   "adresses": [
+    "ZA DE LA SALLE 12130 SAINT GENIEZ D'OLT ET D'AUBRAC"
+   ],
+   "osm": [
+    "way/186966872"
+   ],
+   "site": "https://brasseriedolt.com/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:852553528",
+   "enseigne": "BRASSERIE L'ASTROLABE",
+   "dep": "12",
+   "communes": [
+    "SAINT-AFFRIQUE"
+   ],
+   "adresses": [
+    "172 ROUTE DE LAPEYRE 12400 SAINT-AFFRIQUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:951371764",
+   "enseigne": "BRASSERIE LA CAUSSENARDE",
+   "dep": "12",
+   "communes": [
+    "SAINT-BEAULIZE"
+   ],
+   "adresses": [
+    "LOU PELENC LE MASANDRAL 12540 SAINT-BEAULIZE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:6",
+   "enseigne": "BRASSERIE DE LA MUZE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "12",
+   "communes": [
+    "CASTELNAU-PEGAYROLS"
+   ],
+   "adresses": [
+    "CASTELMUS 12620 CASTELNAU-PEGAYROLS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882148505",
+   "enseigne": "PEYRELADE",
+   "dep": "12",
+   "communes": [
+    "RIVIERE-SUR-TARN"
+   ],
+   "adresses": [
+    "BOYNE 12640 RIVIERE-SUR-TARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:920445459",
+   "enseigne": "BS",
+   "dep": "12",
+   "communes": [
+    "SALVAGNAC-CAJARC"
+   ],
+   "adresses": [
+    "LACOMBE LE MAS DE JACQUELINE ET HENRI 12260 SALVAGNAC-CAJARC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:838266385",
+   "enseigne": "BRASSERIE FERME DE LA ROUSSE",
+   "dep": "12",
+   "communes": [
+    "LA FOUILLADE"
+   ],
+   "adresses": [
+    "464 IMPASSE DE LA ROUSSE 12270 LA FOUILLADE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:952822351",
+   "enseigne": "BRASSERIE DU CANTOU",
+   "dep": "12",
+   "communes": [
+    "CURIERES"
+   ],
+   "adresses": [
+    "22 ROUTE DU DEVEZ 12210 CURIERES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914145719",
+   "enseigne": "MICROBRASSERIE ORIGINE",
+   "dep": "12",
+   "communes": [
+    "BARAQUEVILLE"
+   ],
+   "adresses": [
+    "AVENUE DE RODEZ 12160 BARAQUEVILLE"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/11919904531",
+   "enseigne": "La Calmettoise",
+   "dep": "12",
+   "communes": [
+    "Arvieu"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11919904531"
+   ],
+   "site": "https://lacalmette-arvieu.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12146254551",
+   "enseigne": "Brasserie Du Larzac",
+   "dep": "12",
+   "communes": [
+    "La Cavalerie"
+   ],
+   "adresses": [
+    "249 Impasse Sainte-Catherine, 12100"
+   ],
+   "osm": [
+    "node/12146254551"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/14269886229",
+   "enseigne": "Zygomatik",
+   "dep": "12",
+   "communes": [
+    "Fondamente"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/14269886229"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5965884379",
+   "enseigne": "Mousses du Rouergue",
+   "dep": "12",
+   "communes": [
+    "Decazeville"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5965884379",
+    "way/69736833"
+   ],
+   "site": "http://www.moussesdurouergue.com",
+   "statut": "nouveau"
+  }
+ ]
+]
