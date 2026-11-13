@@ -1,0 +1,32 @@
+{
+ "candidat": "node/11919904531",
+ "ajout": {
+  "fiche": {
+   "n": "La Calmettoise",
+   "c": "Arvieu",
+   "d": "12",
+   "lat": 44.19507,
+   "lon": 2.66981,
+   "km": 232.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Ferme, brasserie bio et restaurant à La Calmette. Sept bières en bouteilles, vendues dans des commerces de la région ; fûts sur réservation pour les événements. Vente ou dégustation à la ferme non dites.",
+   "addr": "La Calmette, 12120 Arvieu",
+   "src": "https://lacalmette-arvieu.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://lacalmette-arvieu.fr/",
+    "source": "https://lacalmette-arvieu.fr/",
+    "verifieLe": "2026-11-13"
+   }
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://lacalmette-arvieu.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Arvieu&type=municipality&limit=5"
+  ],
+  "extrait": "la brasserie Calmettoise vous propose une gamme de 7 bières différentes en 33 cl ou 75 cl.",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 13/11. Catégorie 0 : la vente de fûts se fait sur réservation pour des événements, et aucune vente ni dégustation à la brasserie n'est dite (revue de la persona du 13/11). Le site nomme le fondateur : son nom n'est pas repris. Les deux portables (restaurant, office) ne sont pas repris."
+ }
+}

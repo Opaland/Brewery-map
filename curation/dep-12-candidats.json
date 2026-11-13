@@ -1,0 +1,610 @@
+[
+ {
+  "cle": "sirene:850305236",
+  "nom": "LVZ",
+  "communes": [
+   "ALRANCE",
+   "REQUISTA"
+  ],
+  "departement": "12",
+  "adresses": [
+   "5045 LA CAILLOLIE 12430 ALRANCE",
+   "35 AVENUE DE RODEZ 12170 REQUISTA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "850305236",
+  "sirets": [
+   "85030523600018",
+   "85030523600026"
+  ],
+  "osm": [],
+  "lat": 44.130897386,
+  "lon": 2.6807269589,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:887867547",
+  "nom": "THE BEER GEEKS",
+  "communes": [
+   "REQUISTA"
+  ],
+  "departement": "12",
+  "adresses": [
+   "35 RTE DE RODEZ 12170 REQUISTA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "887867547",
+  "sirets": [
+   "88786754700028"
+  ],
+  "osm": [],
+  "lat": 44.037032565,
+  "lon": 2.5341769865,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MARCILLAC-VALLON"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:813319001",
+  "nom": "MOUSSE DU ROUERGUE",
+  "communes": [
+   "DECAZEVILLE"
+  ],
+  "departement": "12",
+  "adresses": [
+   "1 IMPASSE IENA 12300 DECAZEVILLE",
+   "18 B AVENUE VICTOR HUGO 12300 DECAZEVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813319001",
+  "sirets": [
+   "81331900100018",
+   "81331900100026"
+  ],
+  "osm": [],
+  "lat": 44.562050655,
+  "lon": 2.2478684197,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:101378826",
+  "nom": "CAMIROUMIEU",
+  "communes": [
+   "MONTSALES"
+  ],
+  "departement": "12",
+  "adresses": [
+   "475 ROUTE DE COMBELS 12260 MONTSALES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "101378826",
+  "sirets": [
+   "10137882600016"
+  ],
+  "osm": [],
+  "lat": 44.4865301850108,
+  "lon": 1.96268986028013,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:901942540",
+  "nom": "BIBEMUS",
+  "communes": [
+   "GABRIAC"
+  ],
+  "departement": "12",
+  "adresses": [
+   "LD LA CROIX 12340 GABRIAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "901942540",
+  "sirets": [
+   "90194254000013"
+  ],
+  "osm": [],
+  "lat": 44.450004543,
+  "lon": 2.7920147523,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900533100",
+  "nom": "STATION LIQUIDE",
+  "communes": [
+   "RODEZ"
+  ],
+  "departement": "12",
+  "adresses": [
+   "19 AVENUE AMANS RODAT 12000 RODEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900533100",
+  "sirets": [
+   "90053310000021"
+  ],
+  "osm": [],
+  "lat": 44.3494007977781,
+  "lon": 2.56890199893811,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "BRASC"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:882870603",
+  "nom": "BRASSERIE DU LARZAC",
+  "communes": [
+   "MILLAU"
+  ],
+  "departement": "12",
+  "adresses": [
+   "6251 LA BLAQUIERE 12100 MILLAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882870603",
+  "sirets": [
+   "88287060300017"
+  ],
+  "osm": [],
+  "lat": 44.053577542,
+  "lon": 3.1538512959,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920201829",
+  "nom": "L'ATELIER CRAFT BEER",
+  "communes": [
+   "REQUISTA"
+  ],
+  "departement": "12",
+  "adresses": [
+   "35 AVENUE DE RODEZ 12170 REQUISTA"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920201829",
+  "sirets": [
+   "92020182900016"
+  ],
+  "osm": [],
+  "lat": 44.0370325654722,
+  "lon": 2.5341769865445,
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "sirene:803701622",
+  "nom": "LA BRASSERIE DE L'AVEYRON",
+  "communes": [
+   "ONET-LE-CHATEAU"
+  ],
+  "departement": "12",
+  "adresses": [
+   "ROUTE DE BEL AIR AVENUE DU CAUSSE 12850 ONET-LE-CHATEAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "803701622",
+  "sirets": [
+   "80370162200026"
+  ],
+  "osm": [],
+  "lat": 44.378933781,
+  "lon": 2.5444587519,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "LA CAPELLE-BLEYS"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "FONDAMENTE"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:500463237",
+  "nom": "BRASSERIE D'OLT",
+  "communes": [
+   "SAINT GENIEZ D'OLT ET D'AUBRAC"
+  ],
+  "departement": "12",
+  "adresses": [
+   "ZA DE LA SALLE 12130 SAINT GENIEZ D'OLT ET D'AUBRAC"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "500463237",
+  "sirets": [
+   "50046323700015"
+  ],
+  "osm": [
+   "way/186966872"
+  ],
+  "lat": 44.460996467,
+  "lon": 2.961662985,
+  "site": "https://brasseriedolt.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852553528",
+  "nom": "BRASSERIE L'ASTROLABE",
+  "communes": [
+   "SAINT-AFFRIQUE"
+  ],
+  "departement": "12",
+  "adresses": [
+   "172 ROUTE DE LAPEYRE 12400 SAINT-AFFRIQUE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852553528",
+  "sirets": [
+   "85255352800021"
+  ],
+  "osm": [],
+  "lat": 43.945665,
+  "lon": 2.8980960136,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:951371764",
+  "nom": "BRASSERIE LA CAUSSENARDE",
+  "communes": [
+   "SAINT-BEAULIZE"
+  ],
+  "departement": "12",
+  "adresses": [
+   "LOU PELENC LE MASANDRAL 12540 SAINT-BEAULIZE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "951371764",
+  "sirets": [
+   "95137176400014"
+  ],
+  "osm": [],
+  "lat": 43.90383114,
+  "lon": 3.0728141656,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SEVERAC D'AVEYRON"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "BRASSERIE DE LA MUZE",
+  "communes": [
+   "CASTELNAU-PEGAYROLS"
+  ],
+  "departement": "12",
+  "adresses": [
+   "CASTELMUS 12620 CASTELNAU-PEGAYROLS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882148505",
+  "nom": "PEYRELADE",
+  "communes": [
+   "RIVIERE-SUR-TARN"
+  ],
+  "departement": "12",
+  "adresses": [
+   "BOYNE 12640 RIVIERE-SUR-TARN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882148505",
+  "sirets": [
+   "88214850500010"
+  ],
+  "osm": [],
+  "lat": 44.2016486274445,
+  "lon": 3.15702730499477,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:920445459",
+  "nom": "BS",
+  "communes": [
+   "SALVAGNAC-CAJARC"
+  ],
+  "departement": "12",
+  "adresses": [
+   "LACOMBE LE MAS DE JACQUELINE ET HENRI 12260 SALVAGNAC-CAJARC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "920445459",
+  "sirets": [
+   "92044545900018"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:838266385",
+  "nom": "BRASSERIE FERME DE LA ROUSSE",
+  "communes": [
+   "LA FOUILLADE"
+  ],
+  "departement": "12",
+  "adresses": [
+   "464 IMPASSE DE LA ROUSSE 12270 LA FOUILLADE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "838266385",
+  "sirets": [
+   "83826638500015"
+  ],
+  "osm": [],
+  "lat": 44.2304800466619,
+  "lon": 2.08085277188856,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952822351",
+  "nom": "BRASSERIE DU CANTOU",
+  "communes": [
+   "CURIERES"
+  ],
+  "departement": "12",
+  "adresses": [
+   "22 ROUTE DU DEVEZ 12210 CURIERES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952822351",
+  "sirets": [
+   "95282235100013"
+  ],
+  "osm": [],
+  "lat": 44.652501344,
+  "lon": 2.8668978725,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "BOUILLAC"
+  ],
+  "departement": "12",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:914145719",
+  "nom": "MICROBRASSERIE ORIGINE",
+  "communes": [
+   "BARAQUEVILLE"
+  ],
+  "departement": "12",
+  "adresses": [
+   "AVENUE DE RODEZ 12160 BARAQUEVILLE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "914145719",
+  "sirets": [
+   "91414571900011"
+  ],
+  "osm": [],
+  "lat": 44.276859099,
+  "lon": 2.4430939617,
+  "statut": "ambigu",
+  "fiche": "Brasserie l’Origine du Monde"
+ },
+ {
+  "cle": "node/11919904531",
+  "nom": "La Calmettoise",
+  "communes": [
+   "Arvieu"
+  ],
+  "departement": "12",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11919904531"
+  ],
+  "lat": 44.18324,
+  "lon": 2.63741,
+  "site": "https://lacalmette-arvieu.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12146254551",
+  "nom": "Brasserie Du Larzac",
+  "communes": [
+   "La Cavalerie"
+  ],
+  "departement": "12",
+  "adresses": [
+   "249 Impasse Sainte-Catherine, 12100"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12146254551"
+  ],
+  "lat": 44.05371,
+  "lon": 3.15372,
+  "statut": "ambigu",
+  "fiche": "BRASSERIE DU LARZAC"
+ },
+ {
+  "cle": "node/14269886229",
+  "nom": "Zygomatik",
+  "communes": [
+   "Fondamente"
+  ],
+  "departement": "12",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14269886229"
+  ],
+  "lat": 43.86417,
+  "lon": 3.09287,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5965884379",
+  "nom": "Mousses du Rouergue",
+  "communes": [
+   "Decazeville"
+  ],
+  "departement": "12",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5965884379",
+   "way/69736833"
+  ],
+  "lat": 44.56199,
+  "lon": 2.24773,
+  "site": "http://www.moussesdurouergue.com",
+  "statut": "nouveau"
+ }
+]

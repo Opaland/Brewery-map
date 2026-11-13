@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:838266385",
+ "ajout": {
+  "fiche": {
+   "n": "Ferme de la Rousse – Brasserie Bel'Avey",
+   "c": "La Fouillade",
+   "d": "12",
+   "lat": 44.23048,
+   "lon": 2.08085,
+   "km": 264.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Ferme d'élevage près de Najac qui brasse aussi, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire.",
+   "addr": "464 impasse de la Rousse, 12270 La Fouillade",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-de-la-rousse-et-brasserie-bel-avey-la-fouillade_TFO12105-TDE-20250110112223903/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/ferme-de-la-rousse-et-brasserie-bel-avey-la-fouillade_TFO12105-TDE-20250110112223903/",
+   "https://data.geopf.fr/geocodage/search?q=464+impasse+de+la+Rousse%2C+12270+La+Fouillade&limit=5"
+  ],
+  "extrait": "Nous avons toujours été éleveurs et, aujourd’hui, nous sommes aussi brasseurs.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 13/11. Le portable de la fiche est écarté (un portable doit venir de la brasserie)."
+ }
+}

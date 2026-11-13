@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:901942540",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Bibemus",
+   "c": "Gabriac",
+   "d": "12",
+   "lat": 44.45066,
+   "lon": 2.79235,
+   "km": 205.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Vente à emporter, et bières à la pression sur place en été, d'après l'office de tourisme d'Occitanie. Téléphone de la brasserie : 09 75 56 47 01.",
+   "addr": "199 rue du Riou, 12340 Gabriac",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-bibemus-gabriac_TFO12106-TDE-2021090710450257/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://microbrasseriebibemus.fr",
+    "source": "http://microbrasseriebibemus.fr",
+    "verifieLe": "2026-11-13"
+   }
+  },
+  "verifieLe": "2026-11-13",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-bibemus-gabriac_TFO12106-TDE-2021090710450257/",
+   "http://microbrasseriebibemus.fr",
+   "https://data.geopf.fr/geocodage/search?q=199+rue+du+Riou%2C+12340+Gabriac&limit=5"
+  ],
+  "extrait": "Vente à emporter et service pression sur place en saison estivale.",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 13/11. Le fixe, publié par la brasserie, est écrit « +33975564701 », forme que controler ne relit pas : il passe dans la note. Pas d'horaires par jour."
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "personne:1": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:4": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:5": "entreprise sans nom ni adresse : rien à chercher",
+  "personne:7": "entreprise sans nom ni adresse : rien à chercher",
+  "sirene:850305236": "un annuaire de vente en gros seulement (13/11)",
+  "sirene:887867547": "aucune page à ce nom (13/11)",
+  "sirene:101378826": "aucune page d'une brasserie (13/11)",
+  "sirene:900533100": "l'adresse est celle d'une salle de concerts et restaurant ; rien ne dit qu'on y brasse (13/11)",
+  "sirene:920201829": "aucune page ; rien ne dit qu'on y brasse (13/11)",
+  "sirene:803701622": "seul le registre SIRENE la donne (13/11)",
+  "sirene:882148505": "le seul « Peyrelade » de Rivière-sur-Tarn est une cave d'affinage de fromage (13/11)",
+  "sirene:920445459": "aucune page à ce nom (13/11)",
+  "node/12146254551": "même lieu que sirene:882870603 (La Brasserie du Larzac, même SIREN)",
+  "node/14269886229": "à relancer : la seule source est une fiche PDF d'office (404 à la lecture) ; chercher une page HTML (13/11)",
+  "node/5965884379": "même lieu que sirene:813319001 (Les Mousses du Rouergue)"
+}
