@@ -300,8 +300,6 @@
         "18:00"
        ]
       ],
-      "sam": [],
-      "dim": [],
       "source": "https://meduz.fr",
       "verifieLe": "2026-11-16"
      }
@@ -314,7 +312,7 @@
     "https://data.geopf.fr/geocodage/search?q=341+avenue+Emile+Antoine%2C+30340+M%C3%A9jannes-l%C3%A8s-Al%C3%A8s&limit=5"
    ],
    "extrait": "Plus qu’une simple boutique, vous pourrez déguster ou savourer une bière au bar.",
-   "choix": "Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté."
+   "choix": "Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté. Le samedi et le dimanche ne sont pas nommés par le site : ils restent inconnus (#286)."
   },
   {
    "fiche": {

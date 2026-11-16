@@ -85,12 +85,12 @@ Extrait lu : « Toutes les bières sont disponibles à la vente directement à l
 
 Choix du vérificateur : Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Catégorie 1 : bar et pression sur place (« Partant pour une pression, un petit tour de brasserie ou une dégustation personnalisée ? »), revue de la persona du 16/11. Horaires du jeudi au dimanche : les deux pages du site disent les mêmes ; le mercredi (« 10:00-18:00 » puis « 14:00-19:00 ») n'est pas repris ; l'office dit le vendredi et le samedi jusqu'à 23 h, le site 22 h : le site est retenu. Adresse de l'office. Le seul numéro publié par la brasserie est un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 19 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 8 h 27 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 38-39 Route de Barjac, 30630 Cornillon
 > - Pas encore dans la fiche : ses bières.
@@ -137,7 +137,7 @@ Extrait lu : « Venez découvrir nos bières artisanales directement à la brass
 
 Choix du vérificateur : Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Les horaires de l'office (« le jeudi et les week-ends ») restent dans la note : controler ne relit pas cette forme. Entreprise individuelle : ni nom de personne ni SIREN repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -207,12 +207,12 @@ Extrait lu : « VENTE SUR PLACE »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 16/11 (accueil, contact, page des bières : « Bière Blonde style Lager », « Double IPA », « Bière Ambrée », « Bière Blanche », « Double Stout », « Berliner Weisse houblonnée », « Bière sans alcool »). Une bière par type. Le point OSM de Sommières est le même lieu. Le dimanche n'est pas nommé : il reste inconnu.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 19 (heure de Paris), vente : ouvert jusqu’à 12 h, d’après les horaires publiés.
+> - À 8 h 27 (heure de Paris), vente : ouvert jusqu’à 12 h, d’après les horaires publiés.
 > - Adresse
 > - 40 rue des Cardes, ZA de l'Arnède, 30250 Sommières
 > - Joindre la brasserie
@@ -270,12 +270,12 @@ Extrait lu : « Boutique et bar ouverts du lundi au Samedi de 10 h à 18 h »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 16/11. Seul le samedi est repris en horaire (« Samedi: 10h – 18 h », et « du lundi au Samedi de 10 h à 18 h ») ; la semaine, non : le site dit aussi « Lundi au Vendredi : 09 h à 18 h ». Le point OSM de Nîmes est l'ancien lieu de la brasserie : même brasserie, une seule fiche. Fixe publié par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 19 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 8 h 27 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 2 avenue Philippe Lamour, 30230 Bouillargues
 > - Pas encore dans la fiche : ses bières.
@@ -320,8 +320,6 @@ Choix du vérificateur : Site officiel relu sur la page brute le 16/11. Seul le 
 - horaires.0.mer : (vide) → 10 h – 18 h
 - horaires.0.jeu : (vide) → 10 h – 18 h
 - horaires.0.ven : (vide) → 10 h – 18 h
-- horaires.0.sam : (vide) → fermé
-- horaires.0.dim : (vide) → fermé
 - horaires.0.source : (vide) → https://meduz.fr
 - horaires.0.verifieLe : (vide) → 2026-11-16
 - verifieLe : (vide) → 2026-11-16
@@ -330,14 +328,14 @@ Sources (vérifiée le 2026-11-16) : https://www.tourismegard.com/fr/fiche/degus
 
 Extrait lu : « Plus qu’une simple boutique, vous pourrez déguster ou savourer une bière au bar. »
 
-Choix du vérificateur : Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté.
+Choix du vérificateur : Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté. Le samedi et le dimanche ne sont pas nommés par le site : ils restent inconnus (#286).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
+> - À 8 h 27 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
 > - Adresse
 > - 341 avenue Emile Antoine, 30340 Méjannes-lès-Alès
 > - Pas encore dans la fiche : ses bières.
@@ -352,8 +350,8 @@ Choix du vérificateur : Fiche de l'office du Gard et site officiel relus sur la
 > - Mercredi | 10 h – 18 h
 > - Jeudi | 10 h – 18 h
 > - Vendredi | 10 h – 18 h
-> - Samedi | fermé
-> - Dimanche | fermé
+> - Samedi | non précisé
+> - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [tourismegard.com](https://www.tourismegard.com/fr/fiche/degustation/brasserie-artisanale-meduz-mejannes-les-ales_TFO5158984/) le 16 novembre 2026. Lu sur [meduz.fr](https://meduz.fr) le 16 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
@@ -384,7 +382,7 @@ Extrait lu : « Le reste du temps : sur RDV »
 
 Choix du vérificateur : Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Catégorie 0 : ni vente de bouteilles ni dégustation à la brasserie ne sont dites. L'office donne d'autres horaires (tous les jours de 10 h à 16 h) : aucun horaire retenu. Fixe publié par la brasserie ; le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -424,7 +422,7 @@ Extrait lu : « notre boutique installée dans la salle de brassage »
 
 Choix du vérificateur : Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Le seul numéro de la brasserie est un portable, que son site ne donne qu'en lien d'appel (tel:+33662880371) : controler ne le relit pas, il passe dans la note. Les horaires de l'office restent dans la note : une ligne « 17 h – 20 h » sans jour s'y ajoute à l'été. Adresse de l'office. Catégorie 1 : la terrasse sert les bières hors de toute visite (revue de la persona du 16/11).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -464,7 +462,7 @@ Extrait lu : « Nous proposons une gamme classique ainsi que des bières éphém
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 16/11. Adresse de l'office. Le portable de l'office est écarté (un portable doit venir de la brasserie).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -509,12 +507,12 @@ Extrait lu : « dégustation et visite accompagnée »
 
 Choix du vérificateur : Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. La phrase du site nomme les brasseurs : seul le passage sans nom est repris. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 19 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 8 h 27 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 12 Hameau de Rochebelle, 30120 Avèze
 > - Pas encore dans la fiche : ses bières.
@@ -564,12 +562,12 @@ Extrait lu : « Notre boutique est ouverte tous les vendredi de 17h00 à 19h30. 
 
 Choix du vérificateur : Site officiel relu sur la page brute le 16/11. Le site ne dit pas si la boutique ouvre d'autres jours : les autres jours restent inconnus.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 19 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 8 h 27 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 19 rue Marcel Paul, 30100 Alès
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -625,12 +623,12 @@ Extrait lu : « Vente directe à la brasserie, dans un de nos points de vente ou
 
 Choix du vérificateur : Site officiel relu sur la page brute le 16/11 (« Samedi fermé », « Dimanche fermé »). Le portable de l'office est écarté (un portable doit venir de la brasserie).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
+> - À 8 h 27 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
 > - Adresse
 > - 731 allée de la Baraquette, 30390 Domazan
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -673,7 +671,7 @@ Extrait lu : « Restauration et bar sur place »
 
 Choix du vérificateur : Fiche de l'office du Gard relue sur la page brute le 16/11. Confiance faible : office seul, et un des deux passages sur la boutique est au futur. Horaires bornés à 2026 : laissés dans la note. Le portable de l'office est écarté. La page de l'office nomme les brasseurs : aucun nom repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
@@ -711,7 +709,7 @@ Extrait lu : « Visite, vente directe et dégustation sur rendez-vous. »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 16/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -752,7 +750,7 @@ Extrait lu : « En 2024, le Château de Bastet célèbre une nouvelle étape de 
 
 Choix du vérificateur : Site du domaine et fiche de l'office du Gard relus sur la page brute le 16/11. Le caveau du domaine est décrit pour le vin : ses horaires ne sont pas repris. Le fixe du domaine, écrit « +33 (0)4 66 39 33 36 » sur son site, est lu sous la forme « 04 66 39 33 36 » sur la fiche de l'office (règle du 31/10 : fixe de la brasserie lu sur un office).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:19, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 16 novembre 2026 à 08:27, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -766,4 +764,4 @@ Choix du vérificateur : Site du domaine et fiche de l'office du Gard relus sur 
 > - [Site de la brasserie](https://chateaudebastet.fr/)
 > - Lu sur [chateaudebastet.fr](https://chateaudebastet.fr/) le 16 novembre 2026. Lu sur [tourismegard.com](https://www.tourismegard.com/fr/fiche/degustation/chateau-de-bastet-brasserie-basty-sabran_TFO7738657/) le 16 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 01f12fe0278b
+Empreinte du lot : f0921fe50507

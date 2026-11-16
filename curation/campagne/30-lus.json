@@ -10,7 +10,7 @@
     "src": "https://www.tourismegard.com/fr/fiche/degustation/brasserie-artisanale-meduz-mejannes-les-ales_TFO5158984/",
     "extrait": "Plus qu’une simple boutique, vous pourrez déguster ou savourer une bière au bar.",
     "beers": [],
-    "choix": "Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté.",
+    "choix": "Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté. Le samedi et le dimanche ne sont pas nommés par le site : ils restent inconnus (#286).",
     "contact": {
       "tel": "04 66 86 58 09",
       "site": "https://meduz.fr",
@@ -49,9 +49,7 @@
             "10:00",
             "18:00"
           ]
-        ],
-        "sam": [],
-        "dim": []
+        ]
       }
     ]
   },
