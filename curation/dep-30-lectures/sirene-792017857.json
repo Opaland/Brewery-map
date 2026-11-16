@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:792017857",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Triple A",
+   "c": "Ribaute-les-Tavernes",
+   "d": "30",
+   "lat": 44.04374,
+   "lon": 4.08406,
+   "km": 188.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie qui vend des fûts et loue des tireuses, d'après l'office de tourisme du Gard. Son site donne des horaires d'ouverture (lundi, mercredi et vendredi en fin de journée, sinon sur rendez-vous) sans dire ce qu'on peut y faire ; il demande d'appeler avant de venir.",
+   "addr": "Chemin des Rouvières, 30720 Ribaute-les-Tavernes",
+   "src": "https://www.brasserie-triplea.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 65 84 54 05",
+    "site": "https://www.brasserie-triplea.com/",
+    "source": "https://www.brasserie-triplea.com/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasserie-triplea.com/",
+   "https://data.geopf.fr/geocodage/search?q=Ribaute-les-Tavernes&type=municipality&limit=5"
+  ],
+  "extrait": "Le reste du temps : sur RDV",
+  "choix": "Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Catégorie 0 : ni vente de bouteilles ni dégustation à la brasserie ne sont dites. L'office donne d'autres horaires (tous les jours de 10 h à 16 h) : aucun horaire retenu. Fixe publié par la brasserie ; le portable de l'office est écarté."
+ }
+}

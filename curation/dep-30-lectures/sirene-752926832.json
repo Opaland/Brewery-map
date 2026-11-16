@@ -1,0 +1,73 @@
+{
+ "candidat": "sirene:752926832",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale Meduz",
+   "c": "Méjannes-lès-Alès",
+   "d": "30",
+   "lat": 44.10058,
+   "lon": 4.14452,
+   "km": 181.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie de bières de garde : boutique et bar sur place, d'après l'office de tourisme du Gard ; ouverte du lundi au vendredi de 10 h à 18 h, d'après son site ; visites proposées.",
+   "addr": "341 avenue Emile Antoine, 30340 Méjannes-lès-Alès",
+   "src": "https://www.tourismegard.com/fr/fiche/degustation/brasserie-artisanale-meduz-mejannes-les-ales_TFO5158984/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 66 86 58 09",
+    "site": "https://meduz.fr",
+    "source": "https://meduz.fr",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://meduz.fr",
+     "lun": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "sam": [],
+     "dim": [],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.tourismegard.com/fr/fiche/degustation/brasserie-artisanale-meduz-mejannes-les-ales_TFO5158984/",
+   "https://meduz.fr",
+   "https://data.geopf.fr/geocodage/search?q=341+avenue+Emile+Antoine%2C+30340+M%C3%A9jannes-l%C3%A8s-Al%C3%A8s&limit=5"
+  ],
+  "extrait": "Plus qu’une simple boutique, vous pourrez déguster ou savourer une bière au bar.",
+  "choix": "Fiche de l'office du Gard et site officiel relus sur la page brute le 16/11. Le bar n'est dit que par l'office : confiance moyenne. Fixe et horaires lus sur le site de la brasserie ; le portable de l'office est écarté."
+ }
+}

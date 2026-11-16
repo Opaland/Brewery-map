@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:808730899",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Étienne",
+   "c": "Saint-Gervais",
+   "d": "30",
+   "lat": 44.1823,
+   "lon": 4.58726,
+   "km": 166.4,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de la vallée de la Cèze, depuis 1987 : terrasse abritée et chauffée, ouverte tous les jours d'après son site, boutique dans la salle de brassage, visites guidées et dégustations. D'après l'office de tourisme du Gard : du lundi au samedi de 16 h 30 à 19 h du 16 septembre au 14 juin, de 10 h 30 à 12 h 30 du 15 juin au 15 septembre. Téléphone publié par la brasserie : 06 62 88 03 71.",
+   "addr": "11 impasse le Peyron, 30200 Saint-Gervais",
+   "src": "https://www.brasserieetienne.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserieetienne.com/",
+    "source": "https://www.brasserieetienne.com/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasserieetienne.com/",
+   "https://data.geopf.fr/geocodage/search?q=11+impasse+le+Peyron%2C+30200+Saint-Gervais&limit=5"
+  ],
+  "extrait": "notre boutique installée dans la salle de brassage",
+  "choix": "Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Le seul numéro de la brasserie est un portable, que son site ne donne qu'en lien d'appel (tel:+33662880371) : controler ne le relit pas, il passe dans la note. Les horaires de l'office restent dans la note : une ligne « 17 h – 20 h » sans jour s'y ajoute à l'été. Adresse de l'office. Catégorie 1 : la terrasse sert les bières hors de toute visite (revue de la persona du 16/11)."
+ }
+}

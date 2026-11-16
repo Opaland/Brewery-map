@@ -1,0 +1,113 @@
+{
+ "candidat": "sirene:494569510",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Garrigues",
+   "c": "Sommières",
+   "d": "30",
+   "lat": 43.78223,
+   "lon": 4.0816,
+   "km": 217,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de bières bio et sans gluten : vente sur place, accueil et visite de la brasserie pendant les heures d'ouverture, d'après son site. Aucun bar ni dégustation dits.",
+   "addr": "40 rue des Cardes, ZA de l'Arnède, 30250 Sommières",
+   "src": "https://www.brasseriedesgarrigues.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager",
+     "libelle": "La Lager-igue",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "ipa",
+     "libelle": "La Frappadingue",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "ambree",
+     "libelle": "La Saison des Amours",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "blanche",
+     "libelle": "La Ribouldingue",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "stout",
+     "libelle": "Nuit Délicatula",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "sour",
+     "libelle": "Pas Piquée des Vers",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    },
+    {
+     "type": "sans-alcool",
+     "libelle": "Degré Z",
+     "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+    }
+   ],
+   "contact": {
+    "tel": "04 66 71 05 53",
+    "site": "https://www.brasseriedesgarrigues.fr",
+    "source": "https://brasseriedesgarrigues.fr/contact",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedesgarrigues.fr/contact",
+     "lun": [
+      [
+       "08:00",
+       "12:00"
+      ]
+     ],
+     "mar": [
+      [
+       "08:00",
+       "12:00"
+      ]
+     ],
+     "mer": [
+      [
+       "08:00",
+       "12:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:30"
+      ]
+     ],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasseriedesgarrigues.fr",
+   "https://brasseriedesgarrigues.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=40+rue+des+Cardes%2C+ZA+de+l%27Arn%C3%A8de%2C+30250+Sommi%C3%A8res&limit=5"
+  ],
+  "extrait": "VENTE SUR PLACE",
+  "choix": "Site officiel relu sur la page brute le 16/11 (accueil, contact, page des bières : « Bière Blonde style Lager », « Double IPA », « Bière Ambrée », « Bière Blanche », « Double Stout », « Berliner Weisse houblonnée », « Bière sans alcool »). Une bière par type. Le point OSM de Sommières est le même lieu. Le dimanche n'est pas nommé : il reste inconnu."
+ }
+}

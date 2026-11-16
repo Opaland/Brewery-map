@@ -3131,3 +3131,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S379 — Au clavier, sous Firefox, ce qui a le focus se voit en entier *(31/10)*
 
 `docs/stories/S379.md`, #250. Firefox ne défile pas vers un élément déjà en partie visible : une ligne pouvait rester sous la barre collée. La touche Tab demande maintenant ce défilement ; ni un clic, ni un marqueur de la carte.
+
+## S348, quatrième partie — le Gard *(16/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 8 paquets ; 14 fiches par la règle de Cédric du 21/10 ; 863 fiches dans 85 départements, OSM à 581. Revue de la persona Cédric traitée avant l'application (deux catégories, deux horaires du samedi, une note), persona Hugo après.

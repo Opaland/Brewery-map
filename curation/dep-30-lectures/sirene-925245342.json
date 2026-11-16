@@ -1,0 +1,71 @@
+{
+ "candidat": "sirene:925245342",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Chimantá",
+   "c": "Domazan",
+   "d": "30",
+   "lat": 43.94051,
+   "lon": 4.66467,
+   "km": 192.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie bio franco-vénézuélienne : vente directe à la brasserie, du lundi au vendredi, d'après son site. Rien n'y dit qu'on y boit sur place ou qu'on la visite.",
+   "addr": "731 allée de la Baraquette, 30390 Domazan",
+   "src": "https://www.brasserie-chimanta.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserie-chimanta.com/",
+    "source": "https://www.brasserie-chimanta.com/",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-chimanta.com/",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "sam": [],
+     "dim": [],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasserie-chimanta.com/",
+   "https://data.geopf.fr/geocodage/search?q=Domazan&type=municipality&limit=5"
+  ],
+  "extrait": "Vente directe à la brasserie, dans un de nos points de vente ou sur notre boutique en ligne.",
+  "choix": "Site officiel relu sur la page brute le 16/11 (« Samedi fermé », « Dimanche fermé »). Le portable de l'office est écarté (un portable doit venir de la brasserie)."
+ }
+}

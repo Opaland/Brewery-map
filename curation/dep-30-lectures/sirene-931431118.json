@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:931431118",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Frénétik'",
+   "c": "La Grand-Combe",
+   "d": "30",
+   "lat": 44.22283,
+   "lon": 4.01829,
+   "km": 171.5,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie et restaurant : bar sur place, boutique, visite de la brasserie sur réservation et dégustation gratuite, d'après l'office de tourisme du Gard, qui la dit ouverte du lundi au samedi de 8 h à 17 h jusqu'au 31 décembre 2026. Aucun site de la brasserie lu.",
+   "addr": "9004 avenue Nelson Mandela, 30110 La Grand-Combe",
+   "src": "https://www.tourismegard.com/fr/fiche/degustation/brasserie-la-frenetik-la-grand-combe_TFO6820153/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.tourismegard.com/fr/fiche/degustation/brasserie-la-frenetik-la-grand-combe_TFO6820153/",
+   "https://data.geopf.fr/geocodage/search?q=La+Grand-Combe&type=municipality&limit=5"
+  ],
+  "extrait": "Restauration et bar sur place",
+  "choix": "Fiche de l'office du Gard relue sur la page brute le 16/11. Confiance faible : office seul, et un des deux passages sur la boutique est au futur. Horaires bornés à 2026 : laissés dans la note. Le portable de l'office est écarté. La page de l'office nomme les brasseurs : aucun nom repris."
+ }
+}

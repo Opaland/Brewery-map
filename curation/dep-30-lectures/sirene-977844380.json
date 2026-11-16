@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:977844380",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Borgne",
+   "c": "Saint-Jean-du-Gard",
+   "d": "30",
+   "lat": 44.10696,
+   "lon": 3.88205,
+   "km": 187.4,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Visite, vente directe et dégustation sur rendez-vous seulement, d'après son site, qui conseille d'appeler la brasserie. Aucun horaire publié.",
+   "addr": "Les Fournels, 30270 Saint-Jean-du-Gard",
+   "src": "https://www.brasserieborgne.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 61 15 14 34",
+    "site": "https://www.brasserieborgne.fr/",
+    "source": "https://www.brasserieborgne.fr/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasserieborgne.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Jean-du-Gard&type=municipality&limit=5"
+  ],
+  "extrait": "Visite, vente directe et dégustation sur rendez-vous.",
+  "choix": "Site officiel relu sur la page brute le 16/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite."
+ }
+}
