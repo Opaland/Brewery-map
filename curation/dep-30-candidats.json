@@ -1,0 +1,1039 @@
+[
+ {
+  "cle": "sirene:533222238",
+  "nom": "LE PISTOU",
+  "communes": [
+   "AIGUES-MORTES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "228 RUE JACQUES COEUR 30220 AIGUES-MORTES",
+   "AVENUE DES ARTISANS 30220 AIGUES-MORTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "533222238",
+  "sirets": [
+   "53322223800032",
+   "53322223800057"
+  ],
+  "osm": [],
+  "lat": 43.574732164,
+  "lon": 4.1838377944,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:752926832",
+  "nom": "BRASSERIE ARTISANALE MEDUZ",
+  "communes": [
+   "MEJANNES-LES-ALES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "341 AVENUE EMILE ANTOINE 30340 MEJANNES-LES-ALES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "752926832",
+  "sirets": [
+   "75292683200037"
+  ],
+  "osm": [],
+  "lat": 44.100625795,
+  "lon": 4.1431889494,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:907520985",
+  "nom": "BRASSERIE WHEELS'N BEER",
+  "communes": [
+   "LIRAC"
+  ],
+  "departement": "30",
+  "adresses": [
+   "173 IMPASSE DES OLIVIERS 30126 LIRAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "907520985",
+  "sirets": [
+   "90752098500017"
+  ],
+  "osm": [],
+  "lat": 44.036546109,
+  "lon": 4.6880255446,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:792017857",
+  "nom": "TRIPLE A",
+  "communes": [
+   "RIBAUTE-LES-TAVERNES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "CHEMIN DES ROUVIERES 30720 RIBAUTE-LES-TAVERNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "792017857",
+  "sirets": [
+   "79201785700030"
+  ],
+  "osm": [],
+  "lat": 44.053163001,
+  "lon": 4.0963597079,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:922650114",
+  "nom": "BRASSERIE CELESTE",
+  "communes": [
+   "ALES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "19 RUE MARCEL PAUL 30100 ALES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "922650114",
+  "sirets": [
+   "92265011400015"
+  ],
+  "osm": [
+   "node/11742753944"
+  ],
+  "lat": 44.130471709,
+  "lon": 4.0793467467,
+  "site": "https://brasserienovaceleste.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813494093",
+  "nom": "BRASSERIE DE LA CAVE",
+  "communes": [
+   "NIMES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "9035 ROUTE DE MONTPELLIER 30900 NIMES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813494093",
+  "sirets": [
+   "81349409300038"
+  ],
+  "osm": [],
+  "lat": 43.806319659,
+  "lon": 4.3242608813,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "SAINT-COME-ET-MARUEJOLS"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:933428971",
+  "nom": "EBS BREWING COMPANY",
+  "communes": [
+   "BOUILLARGUES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "14 RUE DE LA CONDAMINE 30230 BOUILLARGUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "933428971",
+  "sirets": [
+   "93342897100016"
+  ],
+  "osm": [],
+  "lat": 43.8026385842663,
+  "lon": 4.42107198548221,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828505255",
+  "nom": "GLOBULLES",
+  "communes": [
+   "MARGUERITTES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "6 RUE XAVIER BICHAT 30320 MARGUERITTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828505255",
+  "sirets": [
+   "82850525500012"
+  ],
+  "osm": [],
+  "lat": 43.863044245,
+  "lon": 4.4458677808,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:952863322",
+  "nom": "GOUTTES D'OC",
+  "communes": [
+   "CONQUEYRAC"
+  ],
+  "departement": "30",
+  "adresses": [
+   "NOTRE-DAME DE LA GARDIOLLE 30170 CONQUEYRAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "952863322",
+  "sirets": [
+   "95286332200014"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:494569510",
+  "nom": "BRASSERIE DES GARRIGUES",
+  "communes": [
+   "SOMMIERES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "LOCAL A RUE DE L'ARNEDE 30250 SOMMIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "494569510",
+  "sirets": [
+   "49456951000014"
+  ],
+  "osm": [
+   "node/8000830085"
+  ],
+  "lat": 43.783303827,
+  "lon": 4.0812506611,
+  "site": "https://www.brasseriedesgarrigues.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:979129285",
+  "nom": "BASTET BOISSONS",
+  "communes": [
+   "SABRAN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "DOMAINE DE BASTET ROUTE D'ALES 30200 SABRAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "979129285",
+  "sirets": [
+   "97912928500016"
+  ],
+  "osm": [],
+  "lat": 44.159432511,
+  "lon": 4.5410722991,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "BRASSERIE DE BEAUCAIRE",
+  "communes": [
+   "BEAUCAIRE"
+  ],
+  "departement": "30",
+  "adresses": [
+   "1600 ROUTE DE COMPS 30300 BEAUCAIRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "SANILHAC-SAGRIES"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:530517374",
+  "nom": "LA BARBAUDE",
+  "communes": [
+   "BOUILLARGUES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "2 AVENUE PHILIPPE LAMOUR 30230 BOUILLARGUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "530517374",
+  "sirets": [
+   "53051737400027"
+  ],
+  "osm": [
+   "way/1279288018"
+  ],
+  "lat": 43.808751019,
+  "lon": 4.41164601,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "FONS-SUR-LUSSAN"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:479084527",
+  "nom": "LE BRASSEUR DE SERIGNAC",
+  "communes": [
+   "ORTHOUX-SERIGNAC-QUILHAN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "34 RUE CHEMIN DE LOUMAREDE SERIGNAC 30260 ORTHOUX-SERIGNAC-QUILHAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "479084527",
+  "sirets": [
+   "47908452700031"
+  ],
+  "osm": [],
+  "lat": 43.893652975,
+  "lon": 4.0532090127,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "AIGUES-VIVES"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "MOLIERES-SUR-CEZE"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:977844380",
+  "nom": "BRASSERIE BORGNE",
+  "communes": [
+   "SAINT-JEAN-DU-GARD"
+  ],
+  "departement": "30",
+  "adresses": [
+   "LES FOURNELS RTE DES PLAINES - LD LES FOURNELS 30270 SAINT-JEAN-DU-GARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "977844380",
+  "sirets": [
+   "97784438000013"
+  ],
+  "osm": [],
+  "lat": 44.099129890511,
+  "lon": 3.89115086791733,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:988091047",
+  "nom": "MICROBRASSERIE VOLQ",
+  "communes": [
+   "CONGENIES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "6 LE PEYRON 30111 CONGENIES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "988091047",
+  "sirets": [
+   "98809104700015"
+  ],
+  "osm": [],
+  "lat": 43.7781873444754,
+  "lon": 4.15979837795556,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:843713686",
+  "nom": "BRASSERIE DES CANAUX",
+  "communes": [
+   "MILHAUD"
+  ],
+  "departement": "30",
+  "adresses": [
+   "CHEMIN DES CANAUX 30540 MILHAUD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "843713686",
+  "sirets": [
+   "84371368600015"
+  ],
+  "osm": [],
+  "lat": 43.770674434,
+  "lon": 4.3281570752,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINT-ALEXANDRE"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:927499566",
+  "nom": "LA BRASSERIE DES 13 VENTS",
+  "communes": [
+   "MONTFRIN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "CHATEAU DE MONTFRIN 30490 MONTFRIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "927499566",
+  "sirets": [
+   "92749956600010"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:832852602",
+  "nom": "SAS LES CHOPINS D'ABORD",
+  "communes": [
+   "SAINT-FLORENT-SUR-AUZONNET"
+  ],
+  "departement": "30",
+  "adresses": [
+   "AVENUE RENE BOUQUET 30960 SAINT-FLORENT-SUR-AUZONNET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "832852602",
+  "sirets": [
+   "83285260200016"
+  ],
+  "osm": [],
+  "lat": 44.238377805,
+  "lon": 4.1124079124,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:839659950",
+  "nom": "LA CASA'BIERES",
+  "communes": [
+   "BESSEGES"
+  ],
+  "departement": "30",
+  "adresses": [
+   "33 RUE DR PAUL VERMALE 30160 BESSEGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839659950",
+  "sirets": [
+   "83965995000027"
+  ],
+  "osm": [],
+  "lat": 44.288208279,
+  "lon": 4.1010009667,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:930932165",
+  "nom": "BRASSERIE MAISON ARSENE",
+  "communes": [
+   "VAUVERT"
+  ],
+  "departement": "30",
+  "adresses": [
+   "623 AVENUE COTE SOLEIL 30600 VAUVERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "930932165",
+  "sirets": [
+   "93093216500036"
+  ],
+  "osm": [],
+  "lat": 43.7089749852597,
+  "lon": 4.26994004364339,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:895093961",
+  "nom": "BRASSERIE LA VIEILLE GISELE",
+  "communes": [
+   "LASALLE"
+  ],
+  "departement": "30",
+  "adresses": [
+   "61 RUE DE LA CROIX 30460 LASALLE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "895093961",
+  "sirets": [
+   "89509396100012"
+  ],
+  "osm": [
+   "node/13786539064"
+  ],
+  "lat": 44.044316497,
+  "lon": 3.8546079452,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897527438",
+  "nom": "BRASSERIE ARTISANALE D'AVEZE",
+  "communes": [
+   "AVEZE"
+  ],
+  "departement": "30",
+  "adresses": [
+   "12 HAMEAU DE ROCHEBELLE 30120 AVEZE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "897527438",
+  "sirets": [
+   "89752743800013"
+  ],
+  "osm": [
+   "node/8354640447"
+  ],
+  "lat": 43.981259818,
+  "lon": 3.5986222793,
+  "site": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "BEAUCAIRE"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "AIGUES-VIVES"
+  ],
+  "departement": "30",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:105551485",
+  "nom": "FOURNEZE",
+  "communes": [
+   "VERS-PONT-DU-GARD"
+  ],
+  "departement": "30",
+  "adresses": [
+   "291 ROUTE DE CASTILLON 30210 VERS-PONT-DU-GARD"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "105551485",
+  "sirets": [
+   "10555148500011"
+  ],
+  "osm": [],
+  "lat": 43.9687525909852,
+  "lon": 4.52733589670894,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908352131",
+  "nom": "VAUNAGE ASSOCIATION BRASSICOLE",
+  "communes": [
+   "CAVEIRAC"
+  ],
+  "departement": "30",
+  "adresses": [
+   "20 RUE DES ECOLES 30820 CAVEIRAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908352131",
+  "sirets": [
+   "90835213100019"
+  ],
+  "osm": [],
+  "lat": 43.824065238,
+  "lon": 4.2613046161,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:929540029",
+  "nom": "BRASSERIE MAS BAUDIN",
+  "communes": [
+   "MONTFRIN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "251 ROUTE DE JONQUIERES 30490 MONTFRIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929540029",
+  "sirets": [
+   "92954002900014"
+  ],
+  "osm": [],
+  "lat": 43.855626669,
+  "lon": 4.5733320783,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:931431118",
+  "nom": "BRASSERIE LA FRENETIK'",
+  "communes": [
+   "LA GRAND-COMBE"
+  ],
+  "departement": "30",
+  "adresses": [
+   "AVENUE NELSON MANDELA 9004 AVENUE NELSON MANDELA 30110 LA GRAND-COMBE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "931431118",
+  "sirets": [
+   "93143111800013"
+  ],
+  "osm": [],
+  "lat": 44.209501737,
+  "lon": 4.0330484182,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:925245342",
+  "nom": "BRASSERIE CHIMANTA",
+  "communes": [
+   "DOMAZAN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "731 ALLEE DE LA BARAQUETTE 30390 DOMAZAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "925245342",
+  "sirets": [
+   "92524534200017"
+  ],
+  "osm": [],
+  "lat": 43.955582262563,
+  "lon": 4.65781620632462,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:935110585",
+  "nom": "OKAMI BIRU",
+  "communes": [
+   "CORNILLON"
+  ],
+  "departement": "30",
+  "adresses": [
+   "CAIRADE ROUTE DE BARJAC 30630 CORNILLON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "935110585",
+  "sirets": [
+   "93511058500012"
+  ],
+  "osm": [],
+  "lat": 44.2223878969364,
+  "lon": 4.48018616518422,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:808730899",
+  "nom": "BRASSERIE ETIENNE",
+  "communes": [
+   "SAINT-GERVAIS"
+  ],
+  "departement": "30",
+  "adresses": [
+   "QUA LE PEYRON 30200 SAINT-GERVAIS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "808730899",
+  "sirets": [
+   "80873089900016"
+  ],
+  "osm": [],
+  "lat": 44.181909615,
+  "lon": 4.5805772696,
+  "statut": "ambigu",
+  "fiche": "Ninkasi Saint-Étienne"
+ },
+ {
+  "cle": "sirene:839137619",
+  "nom": "BRASSERIE LASKAR",
+  "communes": [
+   "ST-JEAN-DE-MARUEJOLS-ET-AVEJAN"
+  ],
+  "departement": "30",
+  "adresses": [
+   "1120 CHE DES BLACHES 30430 ST-JEAN-DE-MARUEJOLS-ET-AVEJAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "839137619",
+  "sirets": [
+   "83913761900012"
+  ],
+  "osm": [],
+  "lat": 44.260677964,
+  "lon": 4.3045329823,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823619184",
+  "nom": "BELLEGARD'ELFE BRASSERIE ARTISANALE DE BELLEGARDE",
+  "communes": [
+   "BELLEGARDE"
+  ],
+  "departement": "30",
+  "adresses": [
+   "71 CHEMIN DES CHENES BLANCS 30127 BELLEGARDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823619184",
+  "sirets": [
+   "82361918400018"
+  ],
+  "osm": [],
+  "lat": 43.761709519,
+  "lon": 4.5127742947,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12247918088",
+  "nom": "Brasserie le Lodge",
+  "communes": [
+   "Saint-Jean-du-Gard"
+  ],
+  "departement": "30",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12247918088"
+  ],
+  "lat": 44.10525,
+  "lon": 3.8835,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14131506107",
+  "nom": "la grande casserole",
+  "communes": [
+   "Cornillon"
+  ],
+  "departement": "30",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14131506107"
+  ],
+  "lat": 44.22409,
+  "lon": 4.47563,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/579956113",
+  "nom": "Brasserie des Antonins",
+  "communes": [
+   "Nîmes"
+  ],
+  "departement": "30",
+  "adresses": [
+   "10 Boulevard des Arènes, 30000 Nîmes"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/579956113"
+  ],
+  "lat": 43.83444,
+  "lon": 4.35857,
+  "site": "https://fr-fr.facebook.com/brasseriedesantonins/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6934568586",
+  "nom": "La Barbaude (Nîmes)",
+  "communes": [
+   "Nîmes"
+  ],
+  "departement": "30",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6934568586"
+  ],
+  "lat": 43.82962,
+  "lon": 4.3627,
+  "site": "http://brasserielabarbaude.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7231983299",
+  "nom": "Le Gambrinus",
+  "communes": [
+   "Nîmes"
+  ],
+  "departement": "30",
+  "adresses": [
+   "18 Avenue Jean Jaurès, 30000 Nîmes"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7231983299"
+  ],
+  "lat": 43.83655,
+  "lon": 4.35003,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9371209877",
+  "nom": "Brasserie Des Costieres",
+  "communes": [
+   "Nîmes"
+  ],
+  "departement": "30",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9371209877"
+  ],
+  "lat": 43.81447,
+  "lon": 4.35251,
+  "site": "https://www.brasserie-les-costieres.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/52492804",
+  "nom": "La Fiesta",
+  "communes": [
+   "Milhaud"
+  ],
+  "departement": "30",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/52492804"
+  ],
+  "lat": 43.8074,
+  "lon": 4.32409,
+  "statut": "nouveau"
+ }
+]
