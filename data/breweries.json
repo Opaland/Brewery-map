@@ -32233,5 +32233,534 @@
    "source": "https://www.brasserieducantou.fr",
    "verifieLe": "2026-11-13"
   }
+ },
+ {
+  "n": "La Grande Casserole",
+  "c": "Cornillon",
+  "d": "30",
+  "lat": 44.21618,
+  "lon": 4.49358,
+  "km": 163.5,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Micro-brasserie au pied des remparts de Cornillon : bar et beergarden (bières à la pression), vente de toutes ses bières à la brasserie, visite et dégustation, d'après son site. Lundi et mardi sur rendez-vous ; le mercredi, le site donne deux horaires différents.",
+  "addr": "38-39 Route de Barjac, 30630 Cornillon",
+  "src": "https://brasseriecasserole.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "06 32 04 63 93",
+   "site": "https://brasseriecasserole.fr/",
+   "source": "https://brasseriecasserole.fr/",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "dim": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasseriecasserole.fr/",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Artisanale de Beaucaire",
+  "c": "Beaucaire",
+  "d": "30",
+  "lat": 43.83191,
+  "lon": 4.619,
+  "km": 205.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente de bouteilles à la brasserie, d'après son site. Visites guidées sur demande et dégustation gratuite pour les groupes, d'après l'office de tourisme du Gard, qui la dit ouverte toute l'année le jeudi et le week-end de 10 h à 18 h.",
+  "addr": "1600 route de Comps, 30300 Beaucaire",
+  "src": "https://www.brasserieartisanaledebeaucaire.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "06 78 07 34 31",
+   "site": "https://www.brasserieartisanaledebeaucaire.fr/",
+   "source": "https://www.brasserieartisanaledebeaucaire.fr/",
+   "verifieLe": "2026-11-16"
+  }
+ },
+ {
+  "n": "Brasserie des Garrigues",
+  "c": "Sommières",
+  "d": "30",
+  "lat": 43.78223,
+  "lon": 4.0816,
+  "km": 217.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de bières bio et sans gluten : vente sur place, accueil et visite de la brasserie pendant les heures d'ouverture, d'après son site. Aucun bar ni dégustation dits.",
+  "addr": "40 rue des Cardes, ZA de l'Arnède, 30250 Sommières",
+  "src": "https://www.brasseriedesgarrigues.fr",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "lager",
+    "libelle": "La Lager-igue",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "ipa",
+    "libelle": "La Frappadingue",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Saison des Amours",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "blanche",
+    "libelle": "La Ribouldingue",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "stout",
+    "libelle": "Nuit Délicatula",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "sour",
+    "libelle": "Pas Piquée des Vers",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Degré Z",
+    "url": "https://brasseriedesgarrigues.fr/bieres-artisanales-de-la-brasserie-des-garrigues/"
+   }
+  ],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "04 66 71 05 53",
+   "site": "https://www.brasseriedesgarrigues.fr",
+   "source": "https://brasseriedesgarrigues.fr/contact",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "08:00",
+      "12:00"
+     ]
+    ],
+    "mar": [
+     [
+      "08:00",
+      "12:00"
+     ]
+    ],
+    "mer": [
+     [
+      "08:00",
+      "12:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:30"
+     ]
+    ],
+    "source": "https://brasseriedesgarrigues.fr/contact",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "La Barbaude",
+  "c": "Bouillargues",
+  "d": "30",
+  "lat": 43.80875,
+  "lon": 4.41165,
+  "km": 209.2,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie bio née à Nîmes, à Bouillargues depuis 2020 : boutique et bar, bières pression et bouteilles, et visite de la brasserie, d'après son site. Ouverte du lundi au samedi ; le samedi de 10 h à 18 h ; en semaine, le site donne deux heures d'ouverture différentes.",
+  "addr": "2 avenue Philippe Lamour, 30230 Bouillargues",
+  "src": "https://brasserielabarbaude.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "04 66 05 72 17",
+   "site": "https://brasserielabarbaude.com/",
+   "source": "https://brasserielabarbaude.com/",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "sam": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasserielabarbaude.com/",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie artisanale Meduz",
+  "c": "Méjannes-lès-Alès",
+  "d": "30",
+  "lat": 44.10058,
+  "lon": 4.14452,
+  "km": 181.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de bières de garde : boutique et bar sur place, d'après l'office de tourisme du Gard ; ouverte du lundi au vendredi de 10 h à 18 h, d'après son site ; visites proposées.",
+  "addr": "341 avenue Emile Antoine, 30340 Méjannes-lès-Alès",
+  "src": "https://www.tourismegard.com/fr/fiche/degustation/brasserie-artisanale-meduz-mejannes-les-ales_TFO5158984/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "04 66 86 58 09",
+   "site": "https://meduz.fr",
+   "source": "https://meduz.fr",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://meduz.fr",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Triple A",
+  "c": "Ribaute-les-Tavernes",
+  "d": "30",
+  "lat": 44.04374,
+  "lon": 4.08406,
+  "km": 188.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie qui vend des fûts et loue des tireuses, d'après l'office de tourisme du Gard. Son site donne des horaires d'ouverture (lundi, mercredi et vendredi en fin de journée, sinon sur rendez-vous) sans dire ce qu'on peut y faire ; il demande d'appeler avant de venir.",
+  "addr": "Chemin des Rouvières, 30720 Ribaute-les-Tavernes",
+  "src": "https://www.brasserie-triplea.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "04 65 84 54 05",
+   "site": "https://www.brasserie-triplea.com/",
+   "source": "https://www.brasserie-triplea.com/",
+   "verifieLe": "2026-11-16"
+  }
+ },
+ {
+  "n": "Brasserie Étienne",
+  "c": "Saint-Gervais",
+  "d": "30",
+  "lat": 44.1823,
+  "lon": 4.58726,
+  "km": 166.4,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale de la vallée de la Cèze, depuis 1987 : terrasse abritée et chauffée, ouverte tous les jours d'après son site, boutique dans la salle de brassage, visites guidées et dégustations. D'après l'office de tourisme du Gard : du lundi au samedi de 16 h 30 à 19 h du 16 septembre au 14 juin, de 10 h 30 à 12 h 30 du 15 juin au 15 septembre. Téléphone publié par la brasserie : 06 62 88 03 71.",
+  "addr": "11 impasse le Peyron, 30200 Saint-Gervais",
+  "src": "https://www.brasserieetienne.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "site": "https://www.brasserieetienne.com/",
+   "source": "https://www.brasserieetienne.com/",
+   "verifieLe": "2026-11-16"
+  }
+ },
+ {
+  "n": "La Casa'Bières",
+  "c": "Bessèges",
+  "d": "30",
+  "lat": 44.28719,
+  "lon": 4.10496,
+  "km": 162.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie cévenole installée à Bessèges depuis 2020, d'après son site. Seule la vente sur les marchés est dite, par l'office de tourisme d'Occitanie : rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "addr": "33 rue du Docteur Paul Vermale, 30160 Bessèges",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-casa-bieres-besseges_TFOSITRA2_DEG_7235619/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "site": "https://lacasabieres.fr/",
+   "source": "https://lacasabieres.fr/",
+   "verifieLe": "2026-11-16"
+  }
+ },
+ {
+  "n": "Brasserie artisanale d'Avèze",
+  "c": "Avèze",
+  "d": "30",
+  "lat": 43.98166,
+  "lon": 3.59867,
+  "km": 209.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie indépendante au pied des Cévennes : dégustation et visite accompagnée, d'après son site ; vente à la propriété, d'après l'office de tourisme du Gard. Accueil du public le jeudi et le vendredi de 16 h à 19 h.",
+  "addr": "12 Hameau de Rochebelle, 30120 Avèze",
+  "src": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "06 09 81 18 98",
+   "site": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+   "source": "https://www.labaaz-brasserieartisanaledaveze.fr/pages/contact",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://www.labaaz-brasserieartisanaledaveze.fr/pages/contact",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Nova Céleste",
+  "c": "Alès",
+  "d": "30",
+  "lat": 44.13038,
+  "lon": 4.07952,
+  "km": 179.7,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de bières bio : la boutique ouvre le vendredi en fin de journée, d'après son site. Aucun bar ni dégustation dits ; aucun téléphone publié.",
+  "addr": "19 rue Marcel Paul, 30100 Alès",
+  "src": "https://brasserienovaceleste.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "site": "https://brasserienovaceleste.fr/",
+   "source": "https://brasserienovaceleste.fr/",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "ven": [
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "source": "https://brasserienovaceleste.fr/",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Chimantá",
+  "c": "Domazan",
+  "d": "30",
+  "lat": 43.94051,
+  "lon": 4.66467,
+  "km": 192.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Microbrasserie bio franco-vénézuélienne : vente directe à la brasserie, du lundi au vendredi, d'après son site. Rien n'y dit qu'on y boit sur place ou qu'on la visite.",
+  "addr": "731 allée de la Baraquette, 30390 Domazan",
+  "src": "https://www.brasserie-chimanta.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "site": "https://www.brasserie-chimanta.com/",
+   "source": "https://www.brasserie-chimanta.com/",
+   "verifieLe": "2026-11-16"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "source": "https://www.brasserie-chimanta.com/",
+    "verifieLe": "2026-11-16"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Frénétik'",
+  "c": "La Grand-Combe",
+  "d": "30",
+  "lat": 44.22283,
+  "lon": 4.01829,
+  "km": 171.5,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie et restaurant : bar sur place, boutique, visite de la brasserie sur réservation et dégustation gratuite, d'après l'office de tourisme du Gard, qui la dit ouverte du lundi au samedi de 8 h à 17 h jusqu'au 31 décembre 2026. Aucun site de la brasserie lu.",
+  "addr": "9004 avenue Nelson Mandela, 30110 La Grand-Combe",
+  "src": "https://www.tourismegard.com/fr/fiche/degustation/brasserie-la-frenetik-la-grand-combe_TFO6820153/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-16"
+ },
+ {
+  "n": "Brasserie Borgne",
+  "c": "Saint-Jean-du-Gard",
+  "d": "30",
+  "lat": 44.10696,
+  "lon": 3.88205,
+  "km": 187.4,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Visite, vente directe et dégustation sur rendez-vous seulement, d'après son site, qui conseille d'appeler la brasserie. Aucun horaire publié.",
+  "addr": "Les Fournels, 30270 Saint-Jean-du-Gard",
+  "src": "https://www.brasserieborgne.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "06 61 15 14 34",
+   "site": "https://www.brasserieborgne.fr/",
+   "source": "https://www.brasserieborgne.fr/",
+   "verifieLe": "2026-11-16"
+  }
+ },
+ {
+  "n": "Brasserie Basty",
+  "c": "Sabran",
+  "d": "30",
+  "lat": 44.1626,
+  "lon": 4.56118,
+  "km": 168.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie lancée en 2024 au Château de Bastet, domaine viticole bio, d'après le site du domaine. Rien ne dit où ni quand on peut acheter ou boire ses bières.",
+  "addr": "510 route d'Alès, 30200 Sabran",
+  "src": "https://chateaudebastet.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-16",
+  "contact": {
+   "tel": "04 66 39 33 36",
+   "site": "https://chateaudebastet.fr/",
+   "source": "https://www.tourismegard.com/fr/fiche/degustation/chateau-de-bastet-brasserie-basty-sabran_TFO7738657/",
+   "verifieLe": "2026-11-16"
+  }
  }
 ]

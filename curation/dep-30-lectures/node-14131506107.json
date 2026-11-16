@@ -1,0 +1,64 @@
+{
+ "candidat": "node/14131506107",
+ "ajout": {
+  "fiche": {
+   "n": "La Grande Casserole",
+   "c": "Cornillon",
+   "d": "30",
+   "lat": 44.21618,
+   "lon": 4.49358,
+   "km": 163.5,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Micro-brasserie au pied des remparts de Cornillon : bar et beergarden (bières à la pression), vente de toutes ses bières à la brasserie, visite et dégustation, d'après son site. Lundi et mardi sur rendez-vous ; le mercredi, le site donne deux horaires différents.",
+   "addr": "38-39 Route de Barjac, 30630 Cornillon",
+   "src": "https://brasseriecasserole.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 32 04 63 93",
+    "site": "https://brasseriecasserole.fr/",
+    "source": "https://brasseriecasserole.fr/",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasseriecasserole.fr/",
+     "jeu": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ],
+     "dim": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://brasseriecasserole.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Cornillon&type=municipality&limit=5"
+  ],
+  "extrait": "Toutes les bières sont disponibles à la vente directement à la Brasserie.",
+  "choix": "Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Catégorie 1 : bar et pression sur place (« Partant pour une pression, un petit tour de brasserie ou une dégustation personnalisée ? »), revue de la persona du 16/11. Horaires du jeudi au dimanche : les deux pages du site disent les mêmes ; le mercredi (« 10:00-18:00 » puis « 14:00-19:00 ») n'est pas repris ; l'office dit le vendredi et le samedi jusqu'à 23 h, le site 22 h : le site est retenu. Adresse de l'office. Le seul numéro publié par la brasserie est un portable (règle du 21/10)."
+ }
+}

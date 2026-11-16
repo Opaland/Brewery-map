@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:839659950",
+ "ajout": {
+  "fiche": {
+   "n": "La Casa'Bières",
+   "c": "Bessèges",
+   "d": "30",
+   "lat": 44.28719,
+   "lon": 4.10496,
+   "km": 162.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie cévenole installée à Bessèges depuis 2020, d'après son site. Seule la vente sur les marchés est dite, par l'office de tourisme d'Occitanie : rien ne dit qu'on peut acheter ou boire à la brasserie.",
+   "addr": "33 rue du Docteur Paul Vermale, 30160 Bessèges",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-casa-bieres-besseges_TFOSITRA2_DEG_7235619/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lacasabieres.fr/",
+    "source": "https://lacasabieres.fr/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-casa-bieres-besseges_TFOSITRA2_DEG_7235619/",
+   "https://lacasabieres.fr/",
+   "https://data.geopf.fr/geocodage/search?q=33+rue+du+Docteur+Paul+Vermale%2C+30160+Bess%C3%A8ges&limit=5"
+  ],
+  "extrait": "Nous proposons une gamme classique ainsi que des bières éphémères.",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 16/11. Adresse de l'office. Le portable de l'office est écarté (un portable doit venir de la brasserie)."
+ }
+}

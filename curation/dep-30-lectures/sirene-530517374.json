@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:530517374",
+ "ajout": {
+  "fiche": {
+   "n": "La Barbaude",
+   "c": "Bouillargues",
+   "d": "30",
+   "lat": 43.80875,
+   "lon": 4.41165,
+   "km": 209.2,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie bio née à Nîmes, à Bouillargues depuis 2020 : boutique et bar, bières pression et bouteilles, et visite de la brasserie, d'après son site. Ouverte du lundi au samedi ; le samedi de 10 h à 18 h ; en semaine, le site donne deux heures d'ouverture différentes.",
+   "addr": "2 avenue Philippe Lamour, 30230 Bouillargues",
+   "src": "https://brasserielabarbaude.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 66 05 72 17",
+    "site": "https://brasserielabarbaude.com/",
+    "source": "https://brasserielabarbaude.com/",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserielabarbaude.com/",
+     "sam": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://brasserielabarbaude.com/",
+   "https://data.geopf.fr/geocodage/search?q=2+avenue+Philippe+Lamour%2C+30230+Bouillargues&limit=5"
+  ],
+  "extrait": "Boutique et bar ouverts du lundi au Samedi de 10 h à 18 h",
+  "choix": "Site officiel relu sur la page brute le 16/11. Seul le samedi est repris en horaire (« Samedi: 10h – 18 h », et « du lundi au Samedi de 10 h à 18 h ») ; la semaine, non : le site dit aussi « Lundi au Vendredi : 09 h à 18 h ». Le point OSM de Nîmes est l'ancien lieu de la brasserie : même brasserie, une seule fiche. Fixe publié par la brasserie."
+ }
+}

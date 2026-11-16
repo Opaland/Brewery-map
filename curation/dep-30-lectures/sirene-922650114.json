@@ -1,0 +1,45 @@
+{
+ "candidat": "sirene:922650114",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Nova Céleste",
+   "c": "Alès",
+   "d": "30",
+   "lat": 44.13038,
+   "lon": 4.07952,
+   "km": 179.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de bières bio : la boutique ouvre le vendredi en fin de journée, d'après son site. Aucun bar ni dégustation dits ; aucun téléphone publié.",
+   "addr": "19 rue Marcel Paul, 30100 Alès",
+   "src": "https://brasserienovaceleste.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserienovaceleste.fr/",
+    "source": "https://brasserienovaceleste.fr/",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserienovaceleste.fr/",
+     "ven": [
+      [
+       "17:00",
+       "19:30"
+      ]
+     ],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://brasserienovaceleste.fr/",
+   "https://data.geopf.fr/geocodage/search?q=19+rue+Marcel+Paul%2C+30100+Al%C3%A8s&limit=5"
+  ],
+  "extrait": "Notre boutique est ouverte tous les vendredi de 17h00 à 19h30.",
+  "choix": "Site officiel relu sur la page brute le 16/11. Le site ne dit pas si la boutique ouvre d'autres jours : les autres jours restent inconnus."
+ }
+}

@@ -1,0 +1,556 @@
+[
+ [
+  {
+   "cle": "sirene:533222238",
+   "enseigne": "LE PISTOU",
+   "dep": "30",
+   "communes": [
+    "AIGUES-MORTES"
+   ],
+   "adresses": [
+    "228 RUE JACQUES COEUR 30220 AIGUES-MORTES",
+    "AVENUE DES ARTISANS 30220 AIGUES-MORTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:752926832",
+   "enseigne": "BRASSERIE ARTISANALE MEDUZ",
+   "dep": "30",
+   "communes": [
+    "MEJANNES-LES-ALES"
+   ],
+   "adresses": [
+    "341 AVENUE EMILE ANTOINE 30340 MEJANNES-LES-ALES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:907520985",
+   "enseigne": "BRASSERIE WHEELS'N BEER",
+   "dep": "30",
+   "communes": [
+    "LIRAC"
+   ],
+   "adresses": [
+    "173 IMPASSE DES OLIVIERS 30126 LIRAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792017857",
+   "enseigne": "TRIPLE A",
+   "dep": "30",
+   "communes": [
+    "RIBAUTE-LES-TAVERNES"
+   ],
+   "adresses": [
+    "CHEMIN DES ROUVIERES 30720 RIBAUTE-LES-TAVERNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922650114",
+   "enseigne": "BRASSERIE CELESTE",
+   "dep": "30",
+   "communes": [
+    "ALES"
+   ],
+   "adresses": [
+    "19 RUE MARCEL PAUL 30100 ALES"
+   ],
+   "osm": [
+    "node/11742753944"
+   ],
+   "site": "https://brasserienovaceleste.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:813494093",
+   "enseigne": "BRASSERIE DE LA CAVE",
+   "dep": "30",
+   "communes": [
+    "NIMES"
+   ],
+   "adresses": [
+    "9035 ROUTE DE MONTPELLIER 30900 NIMES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:933428971",
+   "enseigne": "EBS BREWING COMPANY",
+   "dep": "30",
+   "communes": [
+    "BOUILLARGUES"
+   ],
+   "adresses": [
+    "14 RUE DE LA CONDAMINE 30230 BOUILLARGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828505255",
+   "enseigne": "GLOBULLES",
+   "dep": "30",
+   "communes": [
+    "MARGUERITTES"
+   ],
+   "adresses": [
+    "6 RUE XAVIER BICHAT 30320 MARGUERITTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:952863322",
+   "enseigne": "GOUTTES D'OC",
+   "dep": "30",
+   "communes": [
+    "CONQUEYRAC"
+   ],
+   "adresses": [
+    "NOTRE-DAME DE LA GARDIOLLE 30170 CONQUEYRAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:494569510",
+   "enseigne": "BRASSERIE DES GARRIGUES",
+   "dep": "30",
+   "communes": [
+    "SOMMIERES"
+   ],
+   "adresses": [
+    "LOCAL A RUE DE L'ARNEDE 30250 SOMMIERES"
+   ],
+   "osm": [
+    "node/8000830085"
+   ],
+   "site": "https://www.brasseriedesgarrigues.fr",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:979129285",
+   "enseigne": "BASTET BOISSONS",
+   "dep": "30",
+   "communes": [
+    "SABRAN"
+   ],
+   "adresses": [
+    "DOMAINE DE BASTET ROUTE D'ALES 30200 SABRAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRASSERIE DE BEAUCAIRE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "30",
+   "communes": [
+    "BEAUCAIRE"
+   ],
+   "adresses": [
+    "1600 ROUTE DE COMPS 30300 BEAUCAIRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:530517374",
+   "enseigne": "LA BARBAUDE",
+   "dep": "30",
+   "communes": [
+    "BOUILLARGUES"
+   ],
+   "adresses": [
+    "2 AVENUE PHILIPPE LAMOUR 30230 BOUILLARGUES"
+   ],
+   "osm": [
+    "way/1279288018"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:479084527",
+   "enseigne": "LE BRASSEUR DE SERIGNAC",
+   "dep": "30",
+   "communes": [
+    "ORTHOUX-SERIGNAC-QUILHAN"
+   ],
+   "adresses": [
+    "34 RUE CHEMIN DE LOUMAREDE SERIGNAC 30260 ORTHOUX-SERIGNAC-QUILHAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:977844380",
+   "enseigne": "BRASSERIE BORGNE",
+   "dep": "30",
+   "communes": [
+    "SAINT-JEAN-DU-GARD"
+   ],
+   "adresses": [
+    "LES FOURNELS RTE DES PLAINES - LD LES FOURNELS 30270 SAINT-JEAN-DU-GARD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:988091047",
+   "enseigne": "MICROBRASSERIE VOLQ",
+   "dep": "30",
+   "communes": [
+    "CONGENIES"
+   ],
+   "adresses": [
+    "6 LE PEYRON 30111 CONGENIES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:843713686",
+   "enseigne": "BRASSERIE DES CANAUX",
+   "dep": "30",
+   "communes": [
+    "MILHAUD"
+   ],
+   "adresses": [
+    "CHEMIN DES CANAUX 30540 MILHAUD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:927499566",
+   "enseigne": "LA BRASSERIE DES 13 VENTS",
+   "dep": "30",
+   "communes": [
+    "MONTFRIN"
+   ],
+   "adresses": [
+    "CHATEAU DE MONTFRIN 30490 MONTFRIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:832852602",
+   "enseigne": "SAS LES CHOPINS D'ABORD",
+   "dep": "30",
+   "communes": [
+    "SAINT-FLORENT-SUR-AUZONNET"
+   ],
+   "adresses": [
+    "AVENUE RENE BOUQUET 30960 SAINT-FLORENT-SUR-AUZONNET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839659950",
+   "enseigne": "LA CASA'BIERES",
+   "dep": "30",
+   "communes": [
+    "BESSEGES"
+   ],
+   "adresses": [
+    "33 RUE DR PAUL VERMALE 30160 BESSEGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:930932165",
+   "enseigne": "BRASSERIE MAISON ARSENE",
+   "dep": "30",
+   "communes": [
+    "VAUVERT"
+   ],
+   "adresses": [
+    "623 AVENUE COTE SOLEIL 30600 VAUVERT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895093961",
+   "enseigne": "BRASSERIE LA VIEILLE GISELE",
+   "dep": "30",
+   "communes": [
+    "LASALLE"
+   ],
+   "adresses": [
+    "61 RUE DE LA CROIX 30460 LASALLE"
+   ],
+   "osm": [
+    "node/13786539064"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897527438",
+   "enseigne": "BRASSERIE ARTISANALE D'AVEZE",
+   "dep": "30",
+   "communes": [
+    "AVEZE"
+   ],
+   "adresses": [
+    "12 HAMEAU DE ROCHEBELLE 30120 AVEZE"
+   ],
+   "osm": [
+    "node/8354640447"
+   ],
+   "site": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:105551485",
+   "enseigne": "FOURNEZE",
+   "dep": "30",
+   "communes": [
+    "VERS-PONT-DU-GARD"
+   ],
+   "adresses": [
+    "291 ROUTE DE CASTILLON 30210 VERS-PONT-DU-GARD"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908352131",
+   "enseigne": "VAUNAGE ASSOCIATION BRASSICOLE",
+   "dep": "30",
+   "communes": [
+    "CAVEIRAC"
+   ],
+   "adresses": [
+    "20 RUE DES ECOLES 30820 CAVEIRAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:929540029",
+   "enseigne": "BRASSERIE MAS BAUDIN",
+   "dep": "30",
+   "communes": [
+    "MONTFRIN"
+   ],
+   "adresses": [
+    "251 ROUTE DE JONQUIERES 30490 MONTFRIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:931431118",
+   "enseigne": "BRASSERIE LA FRENETIK'",
+   "dep": "30",
+   "communes": [
+    "LA GRAND-COMBE"
+   ],
+   "adresses": [
+    "AVENUE NELSON MANDELA 9004 AVENUE NELSON MANDELA 30110 LA GRAND-COMBE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:925245342",
+   "enseigne": "BRASSERIE CHIMANTA",
+   "dep": "30",
+   "communes": [
+    "DOMAZAN"
+   ],
+   "adresses": [
+    "731 ALLEE DE LA BARAQUETTE 30390 DOMAZAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:935110585",
+   "enseigne": "OKAMI BIRU",
+   "dep": "30",
+   "communes": [
+    "CORNILLON"
+   ],
+   "adresses": [
+    "CAIRADE ROUTE DE BARJAC 30630 CORNILLON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808730899",
+   "enseigne": "BRASSERIE ETIENNE",
+   "dep": "30",
+   "communes": [
+    "SAINT-GERVAIS"
+   ],
+   "adresses": [
+    "QUA LE PEYRON 30200 SAINT-GERVAIS"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:839137619",
+   "enseigne": "BRASSERIE LASKAR",
+   "dep": "30",
+   "communes": [
+    "ST-JEAN-DE-MARUEJOLS-ET-AVEJAN"
+   ],
+   "adresses": [
+    "1120 CHE DES BLACHES 30430 ST-JEAN-DE-MARUEJOLS-ET-AVEJAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823619184",
+   "enseigne": "BELLEGARD'ELFE BRASSERIE ARTISANALE DE BELLEGARDE",
+   "dep": "30",
+   "communes": [
+    "BELLEGARDE"
+   ],
+   "adresses": [
+    "71 CHEMIN DES CHENES BLANCS 30127 BELLEGARDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12247918088",
+   "enseigne": "Brasserie le Lodge",
+   "dep": "30",
+   "communes": [
+    "Saint-Jean-du-Gard"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12247918088"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/14131506107",
+   "enseigne": "la grande casserole",
+   "dep": "30",
+   "communes": [
+    "Cornillon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/14131506107"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/579956113",
+   "enseigne": "Brasserie des Antonins",
+   "dep": "30",
+   "communes": [
+    "Nîmes"
+   ],
+   "adresses": [
+    "10 Boulevard des Arènes, 30000 Nîmes"
+   ],
+   "osm": [
+    "node/579956113"
+   ],
+   "site": "https://fr-fr.facebook.com/brasseriedesantonins/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/6934568586",
+   "enseigne": "La Barbaude (Nîmes)",
+   "dep": "30",
+   "communes": [
+    "Nîmes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6934568586"
+   ],
+   "site": "http://brasserielabarbaude.com",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7231983299",
+   "enseigne": "Le Gambrinus",
+   "dep": "30",
+   "communes": [
+    "Nîmes"
+   ],
+   "adresses": [
+    "18 Avenue Jean Jaurès, 30000 Nîmes"
+   ],
+   "osm": [
+    "node/7231983299"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9371209877",
+   "enseigne": "Brasserie Des Costieres",
+   "dep": "30",
+   "communes": [
+    "Nîmes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9371209877"
+   ],
+   "site": "https://www.brasserie-les-costieres.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/52492804",
+   "enseigne": "La Fiesta",
+   "dep": "30",
+   "communes": [
+    "Milhaud"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/52492804"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]

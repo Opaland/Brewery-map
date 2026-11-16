@@ -1,0 +1,53 @@
+{
+ "candidat": "sirene:897527438",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie artisanale d'Avèze",
+   "c": "Avèze",
+   "d": "30",
+   "lat": 43.98166,
+   "lon": 3.59867,
+   "km": 209.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie indépendante au pied des Cévennes : dégustation et visite accompagnée, d'après son site ; vente à la propriété, d'après l'office de tourisme du Gard. Accueil du public le jeudi et le vendredi de 16 h à 19 h.",
+   "addr": "12 Hameau de Rochebelle, 30120 Avèze",
+   "src": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 09 81 18 98",
+    "site": "https://www.labaaz-brasserieartisanaledaveze.fr/",
+    "source": "https://www.labaaz-brasserieartisanaledaveze.fr/pages/contact",
+    "verifieLe": "2026-11-16"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.labaaz-brasserieartisanaledaveze.fr/pages/contact",
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-16"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.labaaz-brasserieartisanaledaveze.fr/",
+   "https://www.labaaz-brasserieartisanaledaveze.fr/pages/contact",
+   "https://data.geopf.fr/geocodage/search?q=12+Hameau+de+Rochebelle%2C+30120+Av%C3%A8ze&limit=5"
+  ],
+  "extrait": "dégustation et visite accompagnée",
+  "choix": "Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. La phrase du site nomme les brasseurs : seul le passage sans nom est repris. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite."
+ }
+}

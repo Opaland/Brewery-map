@@ -1,0 +1,33 @@
+{
+ "candidat": "personne:2",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Artisanale de Beaucaire",
+   "c": "Beaucaire",
+   "d": "30",
+   "lat": 43.83191,
+   "lon": 4.619,
+   "km": 205.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Vente de bouteilles à la brasserie, d'après son site. Visites guidées sur demande et dégustation gratuite pour les groupes, d'après l'office de tourisme du Gard, qui la dit ouverte toute l'année le jeudi et le week-end de 10 h à 18 h.",
+   "addr": "1600 route de Comps, 30300 Beaucaire",
+   "src": "https://www.brasserieartisanaledebeaucaire.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 78 07 34 31",
+    "site": "https://www.brasserieartisanaledebeaucaire.fr/",
+    "source": "https://www.brasserieartisanaledebeaucaire.fr/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://www.brasserieartisanaledebeaucaire.fr/",
+   "https://data.geopf.fr/geocodage/search?q=1600+route+de+Comps%2C+30300+Beaucaire&limit=5"
+  ],
+  "extrait": "Venez découvrir nos bières artisanales directement à la brasserie, nous proposons des bouteilles 33cl et des bouteilles 75cl.",
+  "choix": "Site officiel et fiche de l'office du Gard relus sur la page brute le 16/11. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Les horaires de l'office (« le jeudi et les week-ends ») restent dans la note : controler ne relit pas cette forme. Entreprise individuelle : ni nom de personne ni SIREN repris."
+ }
+}

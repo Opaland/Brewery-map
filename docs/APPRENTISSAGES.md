@@ -92,6 +92,10 @@ pourquoi.
 - **`controler` ne lit pas les PDF** (12/11, Brasserie des Voûtes) : un
   extrait pris dans un PDF ressort « ABSENT ». Parade : chercher une page
   HTML de la même source ; sinon « à relancer ».
+- **`controler` ne décode pas toutes les entités HTML** (16/11, Brasserie
+  Étienne : « c&oelig;ur ») : un extrait juste sur la page nettoyée ressort
+  « ABSENT ». Parade : choisir un passage sans « œ » ni lettre rare, ou
+  vérifier l'extrait dans le HTML brut avant `rendre`.
 - **Un numéro écrit « +33 4 … » échappe aussi au `grep` de relecture** (12/11,
   Les Brasseurs de la Cité) : chercher `+33` et les chiffres sans espace
   avant d'écrire « aucun téléphone ».
@@ -104,3 +108,9 @@ pourquoi.
 - **Une session qui redémarre au moment du déclenchement perd la routine du
   jour** (08/11). Parade : le lendemain, le noter dans `docs/ROUTINE.md` et
   reprendre où l'état le dit.
+- **Une session endormie reçoit plusieurs déclenchements d'un coup** (16/11 :
+  ceux du 14, du 15 et du 16/11 livrés ensemble, conteneur redémarré,
+  `node_modules` et le carnet de travail vidés). Parade : un seul département
+  ce jour-là, comme la routine le dit ; `npm ci` avant le premier outil
+  (`tsx` introuvable sinon) ; retélécharger les pages à relire, le carnet
+  d'avant ne survit pas au redémarrage.

@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:979129285",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Basty",
+   "c": "Sabran",
+   "d": "30",
+   "lat": 44.1626,
+   "lon": 4.56118,
+   "km": 168.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie lancée en 2024 au Château de Bastet, domaine viticole bio, d'après le site du domaine. Rien ne dit où ni quand on peut acheter ou boire ses bières.",
+   "addr": "510 route d'Alès, 30200 Sabran",
+   "src": "https://chateaudebastet.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 66 39 33 36",
+    "site": "https://chateaudebastet.fr/",
+    "source": "https://www.tourismegard.com/fr/fiche/degustation/chateau-de-bastet-brasserie-basty-sabran_TFO7738657/",
+    "verifieLe": "2026-11-16"
+   }
+  },
+  "verifieLe": "2026-11-16",
+  "sources": [
+   "https://chateaudebastet.fr/",
+   "https://www.tourismegard.com/fr/fiche/degustation/chateau-de-bastet-brasserie-basty-sabran_TFO7738657/",
+   "https://data.geopf.fr/geocodage/search?q=510+route+d%27Al%C3%A8s%2C+30200+Sabran&limit=5"
+  ],
+  "extrait": "En 2024, le Château de Bastet célèbre une nouvelle étape de son riche héritage avec le lancement de la Brasserie Basty.",
+  "choix": "Site du domaine et fiche de l'office du Gard relus sur la page brute le 16/11. Le caveau du domaine est décrit pour le vin : ses horaires ne sont pas repris. Le fixe du domaine, écrit « +33 (0)4 66 39 33 36 » sur son site, est lu sous la forme « 04 66 39 33 36 » sur la fiche de l'office (règle du 31/10 : fixe de la brasserie lu sur un office)."
+ }
+}
