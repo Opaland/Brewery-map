@@ -104,3 +104,9 @@ pourquoi.
 - **Une session qui redémarre au moment du déclenchement perd la routine du
   jour** (08/11). Parade : le lendemain, le noter dans `docs/ROUTINE.md` et
   reprendre où l'état le dit.
+- **Une session endormie reçoit plusieurs déclenchements d'un coup** (16/11 :
+  ceux du 14, du 15 et du 16/11 livrés ensemble, conteneur redémarré,
+  `node_modules` et le carnet de travail vidés). Parade : un seul département
+  ce jour-là, comme la routine le dit ; `npm ci` avant le premier outil
+  (`tsx` introuvable sinon) ; retélécharger les pages à relire, le carnet
+  d'avant ne survit pas au redémarrage.
