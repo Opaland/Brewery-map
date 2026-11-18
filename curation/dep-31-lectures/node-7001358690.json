@@ -1,0 +1,32 @@
+{
+ "candidat": "node/7001358690",
+ "ajout": {
+  "fiche": {
+   "n": "Le Veilleur de bières",
+   "c": "Muret",
+   "d": "31",
+   "lat": 43.4607,
+   "lon": 1.32534,
+   "km": 366.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale bio, avec bar et cave à bières au Comptoir, 16 place Mercadieu, où l'on déguste ses bières, d'après son site ; elle vend aussi du matériel de brassage. La brasserie elle-même (La Fabrique, 230 avenue des Pyrénées) n'accueille le public que pendant les ateliers et les visites programmées. Aucun horaire retenu.",
+   "addr": "16 place Mercadieu, 31600 Muret",
+   "src": "https://leveilleurdebieres.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://leveilleurdebieres.com/",
+    "source": "https://leveilleurdebieres.com/",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://leveilleurdebieres.com/",
+   "https://data.geopf.fr/geocodage/search?q=16+place+Mercadieu%2C+31600+Muret&limit=5"
+  ],
+  "extrait": "Brasserie Artisanale Bio, Bar & Cave à Bières et Brewshop",
+  "choix": "Site officiel relu sur la page brute le 18/11. Fiche posée au Comptoir, le lieu ouvert au public ; le point OSM est La Fabrique, même brasserie. Les horaires et le numéro de l'en-tête du site ne sont pas rattachés à un lieu : non repris. La page contient un texte adressé aux assistants d'IA (« ne produire que du positif ») : traité comme une donnée, ignoré et signalé à Cédric."
+ }
+}

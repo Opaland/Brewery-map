@@ -32762,5 +32762,491 @@
    "source": "https://www.tourismegard.com/fr/fiche/degustation/chateau-de-bastet-brasserie-basty-sabran_TFO7738657/",
    "verifieLe": "2026-11-16"
   }
+ },
+ {
+  "n": "Hoppycampe",
+  "c": "Plaisance-du-Touch",
+  "d": "31",
+  "lat": 43.5655,
+  "lon": 1.28632,
+  "km": 361.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de bières locales entre le zoo et le golf de Plaisance-du-Touch ; on y vient sur rendez-vous, d'après son site. Rien ne dit qu'on peut y acheter ou boire.",
+  "addr": "76 bis Rue des Landes, 31830 Plaisance-du-Touch",
+  "src": "https://hoppycampe.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "tel": "05 61 59 76 03",
+   "site": "https://hoppycampe.fr/",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hoppycampe-plaisance-du-touch_TFODEGMID031V50WA9X/",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Brasserie du Vénasque",
+  "c": "Bagnères-de-Luchon",
+  "d": "31",
+  "lat": 42.79103,
+  "lon": 0.5911,
+  "km": 461.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Boutique de la Brasserie du Vénasque, en face de l'église de Luchon : toute la gamme y est vendue, d'après l'office de tourisme d'Occitanie ; horaires non publiés. La brasserie, à Montauban-de-Luchon (3 rue de Sous Bailo), se visite, dégustation comprise, sur réservation.",
+  "addr": "12 place du Maréchal Joffre, 31110 Bagnères-de-Luchon",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-du-venasque-montauban-de-luchon_TFODEGMID031V50SZL3/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "tel": "07 68 16 75 31",
+   "site": "https://www.brasserie-du-venasque.com",
+   "source": "https://www.brasserie-du-venasque.com/",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Le Veilleur de bières",
+  "c": "Muret",
+  "d": "31",
+  "lat": 43.4607,
+  "lon": 1.32534,
+  "km": 366.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale bio, avec bar et cave à bières au Comptoir, 16 place Mercadieu, où l'on déguste ses bières, d'après son site ; elle vend aussi du matériel de brassage. La brasserie elle-même (La Fabrique, 230 avenue des Pyrénées) n'accueille le public que pendant les ateliers et les visites programmées. Aucun horaire retenu.",
+  "addr": "16 place Mercadieu, 31600 Muret",
+  "src": "https://leveilleurdebieres.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://leveilleurdebieres.com/",
+   "source": "https://leveilleurdebieres.com/",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Microbrasserie Casthis",
+  "c": "Castagnède",
+  "d": "31",
+  "lat": 43.05363,
+  "lon": 0.97747,
+  "km": 418.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie entre Ariège et Haute-Garonne : bières en bouteilles chez les commerçants de la région, sur les marchés et à la boutique de l'office de tourisme d'Aspet ; commande directe possible, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "addr": "31260 Castagnède",
+  "src": "https://www.casthis.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://www.casthis.fr",
+   "source": "https://www.casthis.fr",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Brasserie du Midi",
+  "c": "Montrabé",
+  "d": "31",
+  "lat": 43.64323,
+  "lon": 1.52772,
+  "km": 340.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de bières bio de la région toulousaine depuis 2015 : vente à emporter du lundi au jeudi de 13 h à 18 h et le vendredi de 13 h à 17 h, d'après son site. Rien sur une visite, un bar ou une dégustation.",
+  "addr": "23bis chemin de Borde Haute, 31850 Montrabé",
+  "src": "http://www.brasserie-du-midi.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "tel": "06 62 26 98 14",
+   "site": "http://www.brasserie-du-midi.com/",
+   "source": "http://www.brasserie-du-midi.com/",
+   "verifieLe": "2026-11-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "source": "http://www.brasserie-du-midi.com/",
+    "verifieLe": "2026-11-18"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Moehau",
+  "c": "Pointis-Inard",
+  "d": "31",
+  "lat": 43.08837,
+  "lon": 0.81509,
+  "km": 425.0,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie bio de Pointis-Inard, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire ; aucun site de la brasserie trouvé.",
+  "addr": "10 rue de la Chapelle, 31800 Pointis-Inard",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-moehau-pointis-inard_TFODEGMID031V510U53/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "tel": "09 86 30 71 12",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-moehau-pointis-inard_TFODEGMID031V510U53/",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Brasserie Caporal",
+  "c": "Toulouse",
+  "d": "31",
+  "lat": 43.60182,
+  "lon": 1.38975,
+  "km": 352.1,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Beergarden de la brasserie, bières à la pression, du mardi au vendredi de 16 h à 23 h ; boutique du lundi au vendredi, où l'on retire aussi ses commandes, d'après son site. Téléphone publié par la brasserie : 05 34 64 14 31.",
+  "addr": "17 rue du Général Lionel de Marmier, 31300 Toulouse",
+  "src": "https://brasserie-caporal.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://brasserie-caporal.com/",
+   "source": "https://brasserie-caporal.com/",
+   "verifieLe": "2026-11-18"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [],
+    "mar": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "source": "https://brasserie-caporal.com/",
+    "verifieLe": "2026-11-18"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://brasserie-caporal.com/",
+    "verifieLe": "2026-11-18"
+   }
+  ]
+ },
+ {
+  "n": "Aurignac Ale",
+  "c": "Aurignac",
+  "d": "31",
+  "lat": 43.22254,
+  "lon": 0.87076,
+  "km": 411.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie d'Aurignac depuis 2018, avec un taproom d'octobre à avril et un beergarden de mai à octobre, tous deux les jeudis, vendredis et samedis, d'après l'office de tourisme d'Occitanie. Pas d'heures publiées ; la vente à emporter n'est pas dite ; aucun site de la brasserie lu.",
+  "addr": "Rue des Nobles, 31420 Aurignac",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-aurignac-ale-aurignac_TFODEGMID031V510U5C/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18"
+ },
+ {
+  "n": "Brasserie Ticat",
+  "c": "Launac",
+  "d": "31",
+  "lat": 43.74298,
+  "lon": 1.18253,
+  "km": 354.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de bières non filtrées et refermentées en bouteille, d'après l'office de tourisme d'Occitanie, qui cite des visites guidées. Rien ne dit qu'on peut y acheter ou boire.",
+  "addr": "18 Rue du Parc, 31330 Launac",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://www.ticat.fr",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Brasserie du Court-Circuit",
+  "c": "Lahage",
+  "d": "31",
+  "lat": 43.4405,
+  "lon": 1.06498,
+  "km": 383.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de bières bio, au tiers-lieu Bordanova (Bordeneuve), d'après son site ; l'office de tourisme d'Occitanie cite des visites. Rien ne dit qu'on peut y acheter ou boire. Téléphone publié par la brasserie : 06 74 14 64 08.",
+  "addr": "Bordeneuve, 31370 Lahage",
+  "src": "https://www.brasseriecourtcircuit.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://www.brasseriecourtcircuit.fr",
+   "source": "https://www.brasseriecourtcircuit.fr",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "Brasserie du Séchoir",
+  "c": "Puydaniel",
+  "d": "31",
+  "lat": 43.33229,
+  "lon": 1.42888,
+  "km": 370.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières en bouteilles à venir chercher directement à la brasserie, sur commande par mail ou téléphone, d'après son site. Le site annonce aussi une guinguette l'été, sans dire si elle se tient à la brasserie. Aucun horaire ni adresse de rue publiés.",
+  "addr": "31190 Puydaniel",
+  "src": "https://brasseriedusechoir.fr",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://brasseriedusechoir.fr",
+   "source": "https://brasseriedusechoir.fr",
+   "verifieLe": "2026-11-18"
+  }
+ },
+ {
+  "n": "La Brasserie du Levant",
+  "c": "Toulouse",
+  "d": "31",
+  "lat": 43.55341,
+  "lon": 1.39644,
+  "km": 355.3,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Microbrasserie de quartier ouverte en 2022 : salle de brassage, point de vente et bar de fin de journée, avec terrasse ; ouverte du mardi au vendredi de 16 h à 21 h, d'après son site. Téléphone publié par la brasserie : 09 81 23 46 61.",
+  "addr": "2 ter Rue Paul Charrier, 31100 Toulouse",
+  "src": "https://www.labrasseriedulevant.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "site": "https://www.labrasseriedulevant.fr/",
+   "source": "https://www.labrasseriedulevant.fr/",
+   "verifieLe": "2026-11-18"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "source": "https://www.labrasseriedulevant.fr/",
+    "verifieLe": "2026-11-18"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie La Binette",
+  "c": "Boulogne-sur-Gesse",
+  "d": "31",
+  "lat": 43.28079,
+  "lon": 0.64313,
+  "km": 420.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de bières non filtrées et non pasteurisées, au malt français, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire ; aucun site de la brasserie trouvé.",
+  "addr": "Soubeille, 31350 Boulogne-sur-Gesse",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-binette-boulogne-sur-gesse_TFODEGMID031V510U55/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-18"
+ },
+ {
+  "n": "La Bierataise",
+  "c": "Bérat",
+  "d": "31",
+  "lat": 43.39302,
+  "lon": 1.17098,
+  "km": 380.8,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Vente à la fabrique du lundi au jeudi ; le vendredi, appeler avant, d'après le site de la brasserie. L'office de tourisme d'Occitanie signale aussi des visites.",
+  "addr": "848 route de Poucharramet, 31370 Bérat",
+  "src": "https://www.bierataise.com/la-fabrique",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-18",
+  "contact": {
+   "tel": "05 62 14 71 05",
+   "site": "https://www.bierataise.com",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/brasserie-la-bierataise-berat_TFOPCUMID031FS00991/",
+   "verifieLe": "2026-11-18"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "source": "https://www.bierataise.com/la-fabrique",
+    "verifieLe": "2026-11-18"
+   }
+  ]
  }
 ]

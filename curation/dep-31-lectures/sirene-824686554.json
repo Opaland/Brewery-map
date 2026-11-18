@@ -1,0 +1,121 @@
+{
+ "candidat": "sirene:824686554",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Caporal",
+   "c": "Toulouse",
+   "d": "31",
+   "lat": 43.60182,
+   "lon": 1.38975,
+   "km": 352.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Beergarden de la brasserie, bières à la pression, du mardi au vendredi de 16 h à 23 h ; boutique du lundi au vendredi, où l'on retire aussi ses commandes, d'après son site. Téléphone publié par la brasserie : 05 34 64 14 31.",
+   "addr": "17 rue du Général Lionel de Marmier, 31300 Toulouse",
+   "src": "https://brasserie-caporal.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-caporal.com/",
+    "source": "https://brasserie-caporal.com/",
+    "verifieLe": "2026-11-18"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://brasserie-caporal.com/",
+     "lun": [],
+     "mar": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "23:00"
+      ]
+     ],
+     "sam": [],
+     "dim": [],
+     "verifieLe": "2026-11-18"
+    },
+    {
+     "nature": "vente",
+     "source": "https://brasserie-caporal.com/",
+     "lun": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-18"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://brasserie-caporal.com/",
+   "https://data.geopf.fr/geocodage/search?q=17+rue+du+G%C3%A9n%C3%A9ral+Lionel+de+Marmier%2C+31300+Toulouse&limit=5"
+  ],
+  "extrait": "Pour déguster nos bières artisanales à la pression mais sans pression…",
+  "choix": "Site officiel relu sur la page brute le 18/11 (« BOUTIQUE : du Lundi au Vendredi de 9h00 à 13h00 et de 14h à 18h », « BEERGARDEN : Mardi - Vendredi, 16h00 - 23h00, Samedi - Dimanche - Lundi, fermé »). Le samedi, le dimanche et le lundi du beergarden sont écrits fermés ; ceux de la boutique ne sont pas nommés. Le fixe est écrit « 0534641431 », sans espace, forme que controler ne relit pas : il passe dans la note."
+ }
+}

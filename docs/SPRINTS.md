@@ -3135,3 +3135,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, quatrième partie — le Gard *(16/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 8 paquets ; 14 fiches par la règle de Cédric du 21/10 ; 863 fiches dans 85 départements, OSM à 581. Revue de la persona Cédric traitée avant l'application (deux catégories, deux horaires du samedi, une note), persona Hugo après.
+
+## S348, cinquième partie — la Haute-Garonne *(18/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 12 paquets ; 14 fiches par la règle de Cédric du 21/10 ; 877 fiches dans 86 départements, OSM à 573. Revue de la persona Cédric traitée avant l'application (une fiche déplacée à sa boutique, une confiance, trois notes), persona La Brasserie après.

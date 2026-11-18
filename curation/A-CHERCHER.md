@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 863 | 22 (3 %) | 42 | 316 | 268 | 333 | 457 | 563 | 689 |
+| **Total** | 877 | 22 (3 %) | 42 | 323 | 271 | 340 | 466 | 573 | 702 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -46,6 +46,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 2A · Corse-du-Sud | 1 | 0 (0 %) | 0 | 1 | 0 | 1 | 0 | 1 | 1 |
 | 2B · Haute-Corse | 4 | 0 (0 %) | 0 | 0 | 4 | 4 | 4 | 4 | 4 |
 | 30 · Gard | 14 | 1 (7 %) | 0 | 3 | 1 | 5 | 5 | 7 | 13 |
+| 31 · Haute-Garonne | 14 | 0 (0 %) | 0 | 7 | 3 | 7 | 9 | 10 | 13 |
 | 33 · Gironde | 16 | 0 (0 %) | 0 | 7 | 0 | 2 | 2 | 11 | 16 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
@@ -103,7 +104,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-316 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+323 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -289,6 +290,16 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Triple A (Ribaute-les-Tavernes) : sans adresse vérifiée, sans horaires, sans bières
 - La Casa'Bières (Bessèges) : sans téléphone, sans horaires, sans bières
 - Brasserie Basty (Sabran) : sans horaires, sans bières
+
+### 31 · Haute-Garonne
+
+- Aurignac Ale (Aurignac) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie La Binette (Boulogne-sur-Gesse) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Moehau (Pointis-Inard) : sans site, sans horaires, sans bières
+- Brasserie du Court-Circuit (Lahage) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Hoppycampe (Plaisance-du-Touch) : sans adresse vérifiée, sans horaires, sans bières
+- Microbrasserie Casthis (Castagnède) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie Ticat (Launac) : sans téléphone, sans horaires, sans bières
 
 ### 33 · Gironde
 

@@ -1,0 +1,48 @@
+{
+ "candidat": "sirene:895162402",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Séchoir",
+   "c": "Puydaniel",
+   "d": "31",
+   "lat": 43.33229,
+   "lon": 1.42888,
+   "km": 370.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières en bouteilles à venir chercher directement à la brasserie, sur commande par mail ou téléphone, d'après son site. Le site annonce aussi une guinguette l'été, sans dire si elle se tient à la brasserie. Aucun horaire ni adresse de rue publiés.",
+   "addr": "31190 Puydaniel",
+   "src": "https://brasseriedusechoir.fr",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://brasseriedusechoir.fr",
+    "source": "https://brasseriedusechoir.fr",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://brasseriedusechoir.fr",
+   "https://data.geopf.fr/geocodage/search?q=Puydaniel&type=municipality&limit=5"
+  ],
+  "extrait": "Venez chercher vos bières 33cl et 75cl directement à la brasserie.",
+  "choix": "Site officiel relu sur la page brute le 18/11 (« BLONDE - 5% », « AMBRÉE - 6% », « BLANCHE - 3.5% », « BRUNE - 5.8% », « Bière blonde type IPA »). D'autres recettes ne sont pas reprises. Confiance moyenne : ni horaire ni adresse, et la guinguette n'est pas située (revue de la persona du 18/11). Pas d'adresse de rue : la fiche part au centre de la commune. Le portable de l'office est écarté ; le site n'en publie aucun."
+ }
+}

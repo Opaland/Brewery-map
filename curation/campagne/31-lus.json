@@ -48,17 +48,17 @@
     ]
   },
   {
-    "cle": "node/10655463024",
+    "cle": "node/14071105661",
     "n": "Brasserie du Vénasque",
-    "c": "Montauban-de-Luchon",
-    "adresse": "3 Rue de Sous Bailo, 31110 Montauban-de-Luchon",
+    "c": "Bagnères-de-Luchon",
+    "adresse": "12 place du Maréchal Joffre, 31110 Bagnères-de-Luchon",
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie du pays de Luchon : elle se visite, dégustation comprise, sur réservation ; toute la gamme est vendue à la boutique de la brasserie, 12 place du Maréchal Joffre à Bagnères-de-Luchon (en face de l'église). D'après l'office de tourisme d'Occitanie.",
+    "note": "Boutique de la Brasserie du Vénasque, en face de l'église de Luchon : toute la gamme y est vendue, d'après l'office de tourisme d'Occitanie ; horaires non publiés. La brasserie, à Montauban-de-Luchon (3 rue de Sous Bailo), se visite, dégustation comprise, sur réservation.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-du-venasque-montauban-de-luchon_TFODEGMID031V50SZL3/",
     "extrait": "La brasserie se visite, dégustation comprise (environ 45 minutes, sur réservation au 07 68 16 75 31).",
     "beers": [],
-    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 18/11. Une seule fiche pour la brasserie, sa boutique de Luchon et son entreprise (trois candidats) : posée au lieu de brassage, que l'office décrit. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite. Les horaires de la boutique (mai seulement) ne sont pas repris.",
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 18/11. Une seule fiche pour la brasserie, sa boutique et son entreprise (trois candidats) : posée à la boutique, là où l'on achète (revue de la persona du 18/11). Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Le site ne cite que le mois de mai pour la boutique : aucun horaire repris.",
     "contact": {
       "tel": "07 68 16 75 31",
       "site": "https://www.brasserie-du-venasque.com",
@@ -88,8 +88,8 @@
     "c": "Puydaniel",
     "adresse": "31190 Puydaniel",
     "cat": 2,
-    "conf": "solide",
-    "note": "Bières en bouteilles à venir chercher directement à la brasserie, sur commande par mail ou téléphone, d'après son site ; guinguette en plein air l'été. Aucun horaire ni adresse de rue publiés.",
+    "conf": "moyenne",
+    "note": "Bières en bouteilles à venir chercher directement à la brasserie, sur commande par mail ou téléphone, d'après son site. Le site annonce aussi une guinguette l'été, sans dire si elle se tient à la brasserie. Aucun horaire ni adresse de rue publiés.",
     "src": "https://brasseriedusechoir.fr",
     "extrait": "Venez chercher vos bières 33cl et 75cl directement à la brasserie.",
     "beers": [
@@ -104,9 +104,12 @@
       },
       {
         "type": "brune"
+      },
+      {
+        "type": "ipa"
       }
     ],
-    "choix": "Site officiel relu sur la page brute le 18/11 (« BLONDE - 5% », « AMBRÉE - 6% », « BLANCHE - 3.5% », « BRUNE - 5.8% »). Pas d'adresse de rue : la fiche part au centre de la commune. Le portable de l'office est écarté ; le site n'en publie aucun.",
+    "choix": "Site officiel relu sur la page brute le 18/11 (« BLONDE - 5% », « AMBRÉE - 6% », « BLANCHE - 3.5% », « BRUNE - 5.8% », « Bière blonde type IPA »). D'autres recettes ne sont pas reprises. Confiance moyenne : ni horaire ni adresse, et la guinguette n'est pas située (revue de la persona du 18/11). Pas d'adresse de rue : la fiche part au centre de la commune. Le portable de l'office est écarté ; le site n'en publie aucun.",
     "contact": {
       "site": "https://brasseriedusechoir.fr",
       "source": "https://brasseriedusechoir.fr"
@@ -119,7 +122,7 @@
     "adresse": "Bordeneuve, 31370 Lahage",
     "cat": 0,
     "conf": "",
-    "note": "Brasserie de bières bio, au tiers-lieu de Bordeneuve, d'après son site ; l'office de tourisme d'Occitanie cite des visites. Rien ne dit qu'on peut y acheter ou boire. Téléphone publié par la brasserie : 06 74 14 64 08.",
+    "note": "Brasserie de bières bio, au tiers-lieu Bordanova (Bordeneuve), d'après son site ; l'office de tourisme d'Occitanie cite des visites. Rien ne dit qu'on peut y acheter ou boire. Téléphone publié par la brasserie : 06 74 14 64 08.",
     "src": "https://www.brasseriecourtcircuit.fr",
     "extrait": "Nous brassons des bières bio aux saveurs délicates que nous souhaitons accessibles à tous.",
     "beers": [],
@@ -136,7 +139,7 @@
     "adresse": "Rue des Nobles, 31420 Aurignac",
     "cat": 0,
     "conf": "",
-    "note": "Microbrasserie d'Aurignac depuis 2018, avec un taproom les jeudis, vendredis et samedis d'octobre à avril et un beergarden de mai à octobre, d'après l'office de tourisme d'Occitanie. La vente à emporter n'est pas dite ; aucun site de la brasserie lu.",
+    "note": "Microbrasserie d'Aurignac depuis 2018, avec un taproom d'octobre à avril et un beergarden de mai à octobre, tous deux les jeudis, vendredis et samedis, d'après l'office de tourisme d'Occitanie. Pas d'heures publiées ; la vente à emporter n'est pas dite ; aucun site de la brasserie lu.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-aurignac-ale-aurignac_TFODEGMID031V510U5C/",
     "extrait": "Micro brasserie artisanale basée à Aurignac depuis 2018",
     "beers": [],
@@ -149,11 +152,11 @@
     "adresse": "23bis chemin de Borde Haute, 31850 Montrabé",
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie de bières bio de la région toulousaine depuis 2015 : vente à emporter du lundi au vendredi l'après-midi, d'après son site. Rien sur une visite, un bar ou une dégustation.",
+    "note": "Brasserie de bières bio de la région toulousaine depuis 2015 : vente à emporter du lundi au jeudi de 13 h à 18 h et le vendredi de 13 h à 17 h, d'après son site. Rien sur une visite, un bar ou une dégustation.",
     "src": "http://www.brasserie-du-midi.com/",
     "extrait": "vente à emporter",
     "beers": [],
-    "choix": "Site officiel relu sur la page brute le 18/11 (« du Lundi au Jeudi de 13h à 18h », « Vendredi de 13h à 17h »). Le seul numéro publié par la brasserie est un portable (règle du 21/10).",
+    "choix": "Site officiel relu sur la page brute le 18/11 (« du Lundi au Jeudi de 13h à 18h », « Vendredi de 13h à 17h »). Le seul numéro publié par la brasserie est un portable (règle du 21/10). Le vendredi passe dans la note : controler ne relit pas cette ligne.",
     "contact": {
       "tel": "06 62 26 98 14",
       "site": "http://www.brasserie-du-midi.com/",
@@ -185,12 +188,6 @@
           [
             "13:00",
             "18:00"
-          ]
-        ],
-        "ven": [
-          [
-            "13:00",
-            "17:00"
           ]
         ]
       }
@@ -419,7 +416,7 @@
     "adresse": "16 place Mercadieu, 31600 Muret",
     "cat": 1,
     "conf": "moyenne",
-    "note": "Brasserie artisanale bio, avec bar, cave à bières et magasin pour brasseurs amateurs au Comptoir, 16 place Mercadieu, d'après son site. La brasserie elle-même (La Fabrique, 230 avenue des Pyrénées) n'accueille le public que pendant les ateliers et les visites programmées. Aucun horaire retenu.",
+    "note": "Brasserie artisanale bio, avec bar et cave à bières au Comptoir, 16 place Mercadieu, où l'on déguste ses bières, d'après son site ; elle vend aussi du matériel de brassage. La brasserie elle-même (La Fabrique, 230 avenue des Pyrénées) n'accueille le public que pendant les ateliers et les visites programmées. Aucun horaire retenu.",
     "src": "https://leveilleurdebieres.com/",
     "extrait": "Brasserie Artisanale Bio, Bar & Cave à Bières et Brewshop",
     "beers": [],

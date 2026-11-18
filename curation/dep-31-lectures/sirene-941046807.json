@@ -1,0 +1,65 @@
+{
+ "candidat": "sirene:941046807",
+ "ajout": {
+  "fiche": {
+   "n": "La Bierataise",
+   "c": "Bérat",
+   "d": "31",
+   "lat": 43.39302,
+   "lon": 1.17098,
+   "km": 380.8,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Vente à la fabrique du lundi au jeudi ; le vendredi, appeler avant, d'après le site de la brasserie. L'office de tourisme d'Occitanie signale aussi des visites.",
+   "addr": "848 route de Poucharramet, 31370 Bérat",
+   "src": "https://www.bierataise.com/la-fabrique",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 62 14 71 05",
+    "site": "https://www.bierataise.com",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/brasserie-la-bierataise-berat_TFOPCUMID031FS00991/",
+    "verifieLe": "2026-11-18"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.bierataise.com/la-fabrique",
+     "lun": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "verifieLe": "2026-11-18"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.bierataise.com/la-fabrique",
+   "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/brasserie-la-bierataise-berat_TFOPCUMID031FS00991/",
+   "https://data.geopf.fr/geocodage/search?q=848+route+de+Poucharramet%2C+31370+B%C3%A9rat&limit=5"
+  ],
+  "extrait": "Vente à la fabrique : lundi au jeudi 10 h–17 h, le vendredi appeler avant",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le fixe est lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable de l'office est écarté. Le site ne publie aucun numéro."
+ }
+}

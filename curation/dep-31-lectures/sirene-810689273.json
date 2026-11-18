@@ -1,0 +1,64 @@
+{
+ "candidat": "sirene:810689273",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Midi",
+   "c": "Montrabé",
+   "d": "31",
+   "lat": 43.64323,
+   "lon": 1.52772,
+   "km": 340.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de bières bio de la région toulousaine depuis 2015 : vente à emporter du lundi au jeudi de 13 h à 18 h et le vendredi de 13 h à 17 h, d'après son site. Rien sur une visite, un bar ou une dégustation.",
+   "addr": "23bis chemin de Borde Haute, 31850 Montrabé",
+   "src": "http://www.brasserie-du-midi.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 62 26 98 14",
+    "site": "http://www.brasserie-du-midi.com/",
+    "source": "http://www.brasserie-du-midi.com/",
+    "verifieLe": "2026-11-18"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "http://www.brasserie-du-midi.com/",
+     "lun": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-18"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "http://www.brasserie-du-midi.com/",
+   "https://data.geopf.fr/geocodage/search?q=Montrab%C3%A9&type=municipality&limit=5"
+  ],
+  "extrait": "vente à emporter",
+  "choix": "Site officiel relu sur la page brute le 18/11 (« du Lundi au Jeudi de 13h à 18h », « Vendredi de 13h à 17h »). Le seul numéro publié par la brasserie est un portable (règle du 21/10). Le vendredi passe dans la note : controler ne relit pas cette ligne."
+ }
+}
