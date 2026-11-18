@@ -11,12 +11,12 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 31 (Haute-Garonne), S348 (Occitanie) : PR ouverte le 18/11 ; si elle est mergée, passer au 32 (Gers). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 1 (18/11) |
+| Département en cours | 32 (Gers), S348 (Occitanie) : pas encore lu. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 0 |
 | Issue du département | #189 |
-| Dernier département terminé | 30 (16/11, PR #291, 14 fiches) |
+| Dernier département terminé | 31 (18/11, PR #293, 14 fiches) |
 
-**File des départements** (dans l'ordre) : l'Occitanie (#189) : 31,
+**File des départements** (dans l'ordre) : l'Occitanie (#189) :
 32, 34, 46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
