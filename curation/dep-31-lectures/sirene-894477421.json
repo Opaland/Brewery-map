@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:894477421",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Court-Circuit",
+   "c": "Lahage",
+   "d": "31",
+   "lat": 43.4405,
+   "lon": 1.06498,
+   "km": 383.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de bières bio, au tiers-lieu Bordanova (Bordeneuve), d'après son site ; l'office de tourisme d'Occitanie cite des visites. Rien ne dit qu'on peut y acheter ou boire. Téléphone publié par la brasserie : 06 74 14 64 08.",
+   "addr": "Bordeneuve, 31370 Lahage",
+   "src": "https://www.brasseriecourtcircuit.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriecourtcircuit.fr",
+    "source": "https://www.brasseriecourtcircuit.fr",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.brasseriecourtcircuit.fr",
+   "https://data.geopf.fr/geocodage/search?q=Lahage&type=municipality&limit=5"
+  ],
+  "extrait": "Nous brassons des bières bio aux saveurs délicates que nous souhaitons accessibles à tous.",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le seul numéro de la brasserie, un portable, n'est sur son site qu'en lien d'appel (tel:+33674146408) : controler ne le relit pas, il passe dans la note."
+ }
+}

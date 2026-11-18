@@ -1,0 +1,32 @@
+{
+ "candidat": "personne:3",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie Casthis",
+   "c": "Castagnède",
+   "d": "31",
+   "lat": 43.05363,
+   "lon": 0.97747,
+   "km": 418.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie entre Ariège et Haute-Garonne : bières en bouteilles chez les commerçants de la région, sur les marchés et à la boutique de l'office de tourisme d'Aspet ; commande directe possible, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+   "addr": "31260 Castagnède",
+   "src": "https://www.casthis.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.casthis.fr",
+    "source": "https://www.casthis.fr",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.casthis.fr",
+   "https://data.geopf.fr/geocodage/search?q=Castagn%C3%A8de&type=municipality&limit=5"
+  ],
+  "extrait": "Microbrasserie artisanale, entre Ariège et Haute Garonne.",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Aucune adresse de rue publiée : la fiche part au centre de la commune ; l'adresse du registre, celle d'un entrepreneur individuel, n'est pas reprise. Ni nom de personne ni SIREN repris. Le portable de l'office est écarté."
+ }
+}

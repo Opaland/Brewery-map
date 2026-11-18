@@ -1,0 +1,63 @@
+{
+ "candidat": "sirene:909990954",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Levant",
+   "c": "Toulouse",
+   "d": "31",
+   "lat": 43.55341,
+   "lon": 1.39644,
+   "km": 355.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Microbrasserie de quartier ouverte en 2022 : salle de brassage, point de vente et bar de fin de journée, avec terrasse ; ouverte du mardi au vendredi de 16 h à 21 h, d'après son site. Téléphone publié par la brasserie : 09 81 23 46 61.",
+   "addr": "2 ter Rue Paul Charrier, 31100 Toulouse",
+   "src": "https://www.labrasseriedulevant.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.labrasseriedulevant.fr/",
+    "source": "https://www.labrasseriedulevant.fr/",
+    "verifieLe": "2026-11-18"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.labrasseriedulevant.fr/",
+     "mar": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "21:00"
+      ]
+     ],
+     "verifieLe": "2026-11-18"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.labrasseriedulevant.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+ter+Rue+Paul+Charrier%2C+31100+Toulouse&limit=5"
+  ],
+  "extrait": "Ouverte en juin 2022, notre microbrasserie est tout à la fois : salle de brassage, point de vente et bar de fin de journée.",
+  "choix": "Site officiel relu sur la page brute le 18/11 (« Du mardi au vendredi », « Ouvert de 16h à 21h »). Le fixe est coupé sur deux lignes de la page (« 09 81 23 46 » puis « 61 ») : controler ne le relit pas, il passe dans la note. Le point OSM de Portet-sur-Garonne est la même brasserie (même site, qui ne donne que Toulouse)."
+ }
+}

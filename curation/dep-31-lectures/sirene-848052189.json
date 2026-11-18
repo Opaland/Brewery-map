@@ -1,0 +1,42 @@
+{
+ "candidat": "sirene:848052189",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Ticat",
+   "c": "Launac",
+   "d": "31",
+   "lat": 43.74298,
+   "lon": 1.18253,
+   "km": 354.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de bières bio non filtrées, refermentées en bouteille : sur place, quatre bières permanentes et des éphémères, avec des prix à la bouteille, et des visites guidées, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+   "addr": "18 Rue du Parc, 31330 Launac",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "brune"
+    }
+   ],
+   "contact": {
+    "site": "https://www.ticat.fr",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+   "https://data.geopf.fr/geocodage/search?q=18+Rue+du+Parc%2C+31330+Launac&limit=5"
+  ],
+  "extrait": "Sur place, retrouvez donc quatre types de bières, et diverses bières éphémères :",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11 (« La Ouiche Bohemian Blonde Ale », « La Bakshi India Pale Ale », « La Bunk Porter, une bière brune maltée » ; « tarif individuel sans réduction 2026 – bière ouiche 33cl »). Catégorie 2, confiance moyenne : l'office seul dit la vente sur place (revue de la persona La Brasserie du 18/11). Le site de la brasserie ne se lit pas sans JavaScript. La page de l'office nomme le brasseur : aucun nom repris. Le portable de l'office est écarté."
+ }
+}

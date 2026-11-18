@@ -1,0 +1,34 @@
+{
+ "candidat": "node/14071105661",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Vénasque",
+   "c": "Bagnères-de-Luchon",
+   "d": "31",
+   "lat": 42.79103,
+   "lon": 0.5911,
+   "km": 461.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Boutique de la Brasserie du Vénasque, en face de l'église de Luchon : toute la gamme y est vendue, d'après l'office de tourisme d'Occitanie ; horaires non publiés. La brasserie, à Montauban-de-Luchon (3 rue de Sous Bailo), se visite, dégustation comprise, sur réservation.",
+   "addr": "12 place du Maréchal Joffre, 31110 Bagnères-de-Luchon",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-du-venasque-montauban-de-luchon_TFODEGMID031V50SZL3/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 68 16 75 31",
+    "site": "https://www.brasserie-du-venasque.com",
+    "source": "https://www.brasserie-du-venasque.com/",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-du-venasque-montauban-de-luchon_TFODEGMID031V50SZL3/",
+   "https://www.brasserie-du-venasque.com/",
+   "https://data.geopf.fr/geocodage/search?q=12+place+du+Mar%C3%A9chal+Joffre%2C+31110+Bagn%C3%A8res-de-Luchon&limit=5"
+  ],
+  "extrait": "La brasserie se visite, dégustation comprise (environ 45 minutes, sur réservation au 07 68 16 75 31).",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 18/11. Une seule fiche pour la brasserie, sa boutique et son entreprise (trois candidats) : posée à la boutique, là où l'on achète (revue de la persona du 18/11). Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Le site ne cite que le mois de mai pour la boutique : aucun horaire repris."
+ }
+}

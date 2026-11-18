@@ -1,0 +1,34 @@
+{
+ "candidat": "node/14049394906",
+ "ajout": {
+  "fiche": {
+   "n": "Hoppycampe",
+   "c": "Plaisance-du-Touch",
+   "d": "31",
+   "lat": 43.5655,
+   "lon": 1.28632,
+   "km": 361,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de bières locales entre le zoo et le golf de Plaisance-du-Touch ; on y vient sur rendez-vous, d'après son site. Rien ne dit qu'on peut y acheter ou boire.",
+   "addr": "76 bis Rue des Landes, 31830 Plaisance-du-Touch",
+   "src": "https://hoppycampe.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "05 61 59 76 03",
+    "site": "https://hoppycampe.fr/",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hoppycampe-plaisance-du-touch_TFODEGMID031V50WA9X/",
+    "verifieLe": "2026-11-18"
+   }
+  },
+  "verifieLe": "2026-11-18",
+  "sources": [
+   "https://hoppycampe.fr/",
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hoppycampe-plaisance-du-touch_TFODEGMID031V50WA9X/",
+   "https://data.geopf.fr/geocodage/search?q=Plaisance-du-Touch&type=municipality&limit=5"
+  ],
+  "extrait": "Appelez-nous pour prendre rendez-vous et venir à la brasserie",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Fixe lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable, écrit avec des points sur le site, n'est pas repris puisqu'un fixe existe."
+ }
+}

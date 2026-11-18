@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: 'a3b778f57082d50b',
+  empreinte: '452bd8415b549c6e',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 322 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 707 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 329 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 721 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-11-18', texte: '14 brasseries de plus en Haute-Garonne, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-16', texte: '14 brasseries de plus dans le Gard, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-13', texte: '11 brasseries de plus dans l’Aveyron, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-12', texte: '7 brasseries de plus dans l’Aude, d’après leur site ou un office de tourisme.' },

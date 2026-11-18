@@ -1,0 +1,842 @@
+[
+ [
+  {
+   "cle": "sirene:941046807",
+   "enseigne": "LA BIERATAISE",
+   "dep": "31",
+   "communes": [
+    "CARBONNE",
+    "BERAT"
+   ],
+   "adresses": [
+    "6 PLACE DES HALLES 31390 CARBONNE",
+    "848 ROUTE DE POUCHARRAMET 31370 BERAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:937840395",
+   "enseigne": "BRASSERIE SOIF DE LOUP",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE",
+    "VERNET"
+   ],
+   "adresses": [
+    "MAISON 16 6 AVENUE DU DOCTEUR MAURICE GRYNFOGEL 31100 TOULOUSE",
+    "LOCAL 1 300 RUE DE L'ORATOIRE 31810 VERNET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813184561",
+   "enseigne": "BRASSERIE DU VENASQUE",
+   "dep": "31",
+   "communes": [
+    "MONTAUBAN-DE-LUCHON",
+    "BAGNERES-DE-LUCHON"
+   ],
+   "adresses": [
+    "RUE SOUS BAYLO 31110 MONTAUBAN-DE-LUCHON",
+    "12 PLACE MARECHAL JOFFRE 31110 BAGNERES-DE-LUCHON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900344029",
+   "enseigne": "B 126",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE",
+    "PLAISANCE-DU-TOUCH"
+   ],
+   "adresses": [
+    "126 RUE DE CUGNAUX 31300 TOULOUSE",
+    "BATIMENT NORD 76 RUE DES LANDES 31830 PLAISANCE-DU-TOUCH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:435093281",
+   "enseigne": "BRASSERIE ARTISANALE RATZ",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "58 CHEMIN DU CHAPITRE 31100 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:907983753",
+   "enseigne": "EXPERIMENTAL BREWERY",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE",
+    "LABEGE"
+   ],
+   "adresses": [
+    "14-16 14 RUE DE PERIOLE 31500 TOULOUSE",
+    "BATIMENT LA RUE   QUARTIER BOUYSSET 227 RUE PIERRE GILLES DE GENNES 31670 LABEGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:978139517",
+   "enseigne": "BRASSERIE BLACK SWALLOW",
+   "dep": "31",
+   "communes": [
+    "SAINT-GERMIER",
+    "CARAMAN"
+   ],
+   "adresses": [
+    "LE MOULIN 31290 SAINT-GERMIER",
+    "LIEU DIT GRIMONDES 31460 CARAMAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:848052189",
+   "enseigne": "BRASSERIE TICAT",
+   "dep": "31",
+   "communes": [
+    "LAUNAC"
+   ],
+   "adresses": [
+    "18 RUE DU PARC 31330 LAUNAC",
+    "20 RUE DU PARC 31330 LAUNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:992676197",
+   "enseigne": "BRASSERIE LA SENTA GABELA",
+   "dep": "31",
+   "communes": [
+    "CINTEGABELLE"
+   ],
+   "adresses": [
+    "8 AVENUE DU MARECHAL CLAUSEL 31550 CINTEGABELLE",
+    "59 CHEMIN DE CAPVERT 31550 CINTEGABELLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:440790319",
+   "enseigne": "LES FRERES BRASSEURS",
+   "dep": "31",
+   "communes": [
+    "AUCAMVILLE",
+    "CORNEBARRIEU"
+   ],
+   "adresses": [
+    "49 ROUTE DE PARIS 31140 AUCAMVILLE",
+    "51 ROUTE DE BOUCONNE 31700 CORNEBARRIEU"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:940479298",
+   "enseigne": "BRASSERIE L'OURS BLANC",
+   "dep": "31",
+   "communes": [
+    "SAINT-JORY"
+   ],
+   "adresses": [
+    "84 ROUTE METROPOLITAINE 820 31790 SAINT-JORY"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835292186",
+   "enseigne": "AURIGNAC BREWERY",
+   "dep": "31",
+   "communes": [
+    "AURIGNAC"
+   ],
+   "adresses": [
+    "ROUTE DE SAINT MARTORY 31420 AURIGNAC",
+    "RUE DES NOBLES 31420 AURIGNAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:894477421",
+   "enseigne": "LA BRASSERIE DU COURT CIRCUIT",
+   "dep": "31",
+   "communes": [
+    "LAHAGE"
+   ],
+   "adresses": [
+    "BORDENEUVE 31370 LAHAGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895162402",
+   "enseigne": "BRASSERIE DU SECHOIR",
+   "dep": "31",
+   "communes": [
+    "PUYDANIEL"
+   ],
+   "adresses": [
+    "24 AVENUE DES PYRENEES 31190 PUYDANIEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888722485",
+   "enseigne": "FLAMIN'GO BEERS",
+   "dep": "31",
+   "communes": [
+    "LAPEYROUSE-FOSSAT"
+   ],
+   "adresses": [
+    "2 RUE DU FOSSAT 31180 LAPEYROUSE-FOSSAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:909282279",
+   "enseigne": "BRASSERIE TERRE FAUVE",
+   "dep": "31",
+   "communes": [
+    "FRONTON"
+   ],
+   "adresses": [
+    "2650 ROUTE DE CAMPSAS 31620 FRONTON"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:903947596",
+   "enseigne": "URBADRINK",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "69 RUE DE LA CONCORDE 31000 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:910090794",
+   "enseigne": "LA KAVAI",
+   "dep": "31",
+   "communes": [
+    "VILLEMUR-SUR-TARN"
+   ],
+   "adresses": [
+    "Z.A. DE PECHNAUQUIE 28 AVENUE MICHEL ROCARD 31340 VILLEMUR-SUR-TARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:810689273",
+   "enseigne": "BRASSERIE DU MIDI",
+   "dep": "31",
+   "communes": [
+    "MONTRABE"
+   ],
+   "adresses": [
+    "23 CHEMIN DE BORDE HAUTE 31850 MONTRABE"
+   ],
+   "osm": [
+    "node/4130601014"
+   ],
+   "site": "http://www.brasserie-du-midi.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891040453",
+   "enseigne": "BRASSERIE VIEILLEDENT",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "30 AVENUE JULES JULIEN 31400 TOULOUSE"
+   ],
+   "osm": [
+    "node/1856738753"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:798133427",
+   "enseigne": "ELECTRIC BLUE MONKEYS BREWERY",
+   "dep": "31",
+   "communes": [
+    "FLOURENS"
+   ],
+   "adresses": [
+    "8 CHEMIN DE VIGNALIS 31130 FLOURENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:914765045",
+   "enseigne": "LE LOCAL - MINI BRASSERIE",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "14 AVENUE PAUL SEJOURNE 31000 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:899946362",
+   "enseigne": "LBF",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "12 AVENUE ETIENNE BILLIERES 31300 TOULOUSE"
+   ],
+   "osm": [
+    "node/12358244433"
+   ],
+   "site": "https://www.labeerfabrique.com/toulouse/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:912714938",
+   "enseigne": "A FLEUR DE MOUSSE",
+   "dep": "31",
+   "communes": [
+    "SEPX"
+   ],
+   "adresses": [
+    "RTE DE LA GRANGETTE 31360 SEPX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809295553",
+   "enseigne": "BRASSERIE DU GUE DES MOINES",
+   "dep": "31",
+   "communes": [
+    "BRUGUIERES"
+   ],
+   "adresses": [
+    "ZI DE LA BRIQUETERIE 31 RUE DE LA BRIQUETERIE 31150 BRUGUIERES"
+   ],
+   "osm": [
+    "node/7467534974"
+   ],
+   "site": "https://www.leguedesmoines.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:928321017",
+   "enseigne": "LA CERBIERE",
+   "dep": "31",
+   "communes": [
+    "MONTESQUIEU-VOLVESTRE"
+   ],
+   "adresses": [
+    "CAMP DE COMPAGNON 60 ROUTE DE TOULOUSE 31310 MONTESQUIEU-VOLVESTRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:811830157",
+   "enseigne": "NB ET COMPAGNIE",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "20 RUE THERON DE MONTAUGE 31200 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:3",
+   "enseigne": "CASTHIS (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "31",
+   "communes": [
+    "CASTAGNEDE"
+   ],
+   "adresses": [
+    "2 CHEMIN DES HAJOLES 31260 CASTAGNEDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:984786376",
+   "enseigne": "BRASSERIE ISATIS",
+   "dep": "31",
+   "communes": [
+    "TOURNEFEUILLE"
+   ],
+   "adresses": [
+    "3 IMPASSE MARCEL PAUL 31170 TOURNEFEUILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831302393",
+   "enseigne": "LA GARONNETTE",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "3 RUE HENRI MAYER 31100 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:907750244",
+   "enseigne": "L'ORSET - BRASSERIE OCCITANE",
+   "dep": "31",
+   "communes": [
+    "VILLEFRANCHE-DE-LAURAGAIS"
+   ],
+   "adresses": [
+    "11 AVENUE DE BORDE BLANCHE 31290 VILLEFRANCHE-DE-LAURAGAIS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911248938",
+   "enseigne": "LA BINETTE",
+   "dep": "31",
+   "communes": [
+    "BOULOGNE-SUR-GESSE"
+   ],
+   "adresses": [
+    "ZONE INDUSTRIELLE DU SOUBEILLE 31350 BOULOGNE-SUR-GESSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:931713028",
+   "enseigne": "WEITAM",
+   "dep": "31",
+   "communes": [
+    "CUGNAUX"
+   ],
+   "adresses": [
+    "162 ROUTE DE TOULOUSE 31270 CUGNAUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892415498",
+   "enseigne": "LE MINISTERE DES BRASSEURS",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "11 RUE HUMBERT TOMATIS 31200 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824686554",
+   "enseigne": "BRASSERIE CAPORAL",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "17 RUE DU GENERAL LIONEL DE MARMIER 31300 TOULOUSE"
+   ],
+   "osm": [
+    "way/479497918"
+   ],
+   "site": "https://brasseriecaporal.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:848866406",
+   "enseigne": "BIERE TOULOUSAINE PIN UP",
+   "dep": "31",
+   "communes": [
+    "AYGUESVIVES"
+   ],
+   "adresses": [
+    "2 CHEMIN DE LA VAL PRIOUT 31450 AYGUESVIVES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:880875372",
+   "enseigne": "SAS ICE BREAKER",
+   "dep": "31",
+   "communes": [
+    "MONTRABE"
+   ],
+   "adresses": [
+    "26 RUE DE L'EUROPE 31850 MONTRABE"
+   ],
+   "osm": [
+    "way/100469643"
+   ],
+   "site": "https://icebreakerbrewingco.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891982902",
+   "enseigne": "PEPOUZE",
+   "dep": "31",
+   "communes": [
+    "BUZET-SUR-TARN"
+   ],
+   "adresses": [
+    "PARC D'ACTIVITE AL CROS 12 IMPASSE PARC 31660 BUZET-SUR-TARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:909990954",
+   "enseigne": "LA BRASSERIE DU LEVANT",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "2 T RUE PAUL CHARRIER 31100 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:808513733",
+   "enseigne": "BRASSERIE DE LA SEILLONNE",
+   "dep": "31",
+   "communes": [
+    "DREMIL-LAFAGE"
+   ],
+   "adresses": [
+    "1 RUE MATIS 31280 DREMIL-LAFAGE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:915121750",
+   "enseigne": "GAME OVER BREWING CO.",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "26 CHEMIN DE LA GLACIERE 31200 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:922422514",
+   "enseigne": "1826 BEER FACTORY",
+   "dep": "31",
+   "communes": [
+    "MERVILLE"
+   ],
+   "adresses": [
+    "2 RUE DU LANGUEDOC - ZAC DE LA PATTE D 31330 MERVILLE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813010402",
+   "enseigne": "LA BRASSERIE DU BEC",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "1 RUE ANDRE MERCADIER 31000 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:819219460",
+   "enseigne": "BRASSERIE MOEHAU",
+   "dep": "31",
+   "communes": [
+    "POINTIS-INARD"
+   ],
+   "adresses": [
+    "10 RUE DE LA CHAPELLE SAINT-SERNIN 31800 POINTIS-INARD"
+   ],
+   "osm": [
+    "way/194074935"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831651740",
+   "enseigne": "BRASSERIE BREGUET BIERES VINS ET SP",
+   "dep": "31",
+   "communes": [
+    "REVEL"
+   ],
+   "adresses": [
+    "CHEMIN DE LA POTERIE 31250 REVEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:841409824",
+   "enseigne": "LES FORCES DU MALT",
+   "dep": "31",
+   "communes": [
+    "TOULOUSE"
+   ],
+   "adresses": [
+    "47 AVENUE JEAN RIEUX 31500 TOULOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:841508971",
+   "enseigne": "ASTRADA",
+   "dep": "31",
+   "communes": [
+    "BOUZIN"
+   ],
+   "adresses": [
+    "CENTRE DE BOUZIN 31420 BOUZIN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877518522",
+   "enseigne": "AVIATEUR",
+   "dep": "31",
+   "communes": [
+    "L'UNION"
+   ],
+   "adresses": [
+    "51 ROUTE DE BESSIERES 31240 L'UNION"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10655463024",
+   "enseigne": "Brasserie du Vénasque (Montauban-de-Luchon)",
+   "dep": "31",
+   "communes": [
+    "Montauban-de-Luchon"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/10655463024"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/14049394906",
+   "enseigne": "Hoppycampe",
+   "dep": "31",
+   "communes": [
+    "Plaisance-du-Touch"
+   ],
+   "adresses": [
+    "76 bis Rue des Landes, 31830 Plaisance-du-Touch"
+   ],
+   "osm": [
+    "node/14049394906"
+   ],
+   "site": "https://hoppycampe.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/14071105661",
+   "enseigne": "Brasserie du Vénasque (Bagnères-de-Luchon)",
+   "dep": "31",
+   "communes": [
+    "Bagnères-de-Luchon"
+   ],
+   "adresses": [
+    "12 Place du Maréchal Joffre, 31110 Bagnères-de-Luchon"
+   ],
+   "osm": [
+    "node/14071105661"
+   ],
+   "site": "https://easybeer.shop/boutique/brasserie-du-venasque/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/4567378399",
+   "enseigne": "La buvette",
+   "dep": "31",
+   "communes": [
+    "Grenade"
+   ],
+   "adresses": [
+    "35 Rue Gambetta"
+   ],
+   "osm": [
+    "node/4567378399"
+   ],
+   "site": "http://www.pratic-info.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6752697860",
+   "enseigne": "l'Eden",
+   "dep": "31",
+   "communes": [
+    "Capens"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/6752697860"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7001358690",
+   "enseigne": "Le Veilleur de bières - La Fabrique",
+   "dep": "31",
+   "communes": [
+    "Muret"
+   ],
+   "adresses": [
+    "230 Avenue des Pyrénées, 31600 Muret"
+   ],
+   "osm": [
+    "node/7001358690"
+   ],
+   "site": "https://leveilleurdebieres.com/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/1266764787",
+   "enseigne": "Brasserie chez Tite",
+   "dep": "31",
+   "communes": [
+    "Miremont"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/1266764787"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/134771536",
+   "enseigne": "Straw Bale Distillery",
+   "dep": "31",
+   "communes": [
+    "Vacquiers"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/134771536"
+   ],
+   "site": "https://www.strawbaledistillery.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/64162156",
+   "enseigne": "Bière Séraphine",
+   "dep": "31",
+   "communes": [
+    "Baziège"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/64162156"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/74249221",
+   "enseigne": "La Brasserie du Levant",
+   "dep": "31",
+   "communes": [
+    "Portet-sur-Garonne"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/74249221"
+   ],
+   "site": "https://www.labrasseriedulevant.fr/",
+   "statut": "ambigu"
+  }
+ ]
+]
