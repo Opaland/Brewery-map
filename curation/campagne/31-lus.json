@@ -1,0 +1,432 @@
+[
+  {
+    "cle": "sirene:941046807",
+    "n": "La Bierataise",
+    "c": "Bérat",
+    "adresse": "848 route de Poucharramet, 31370 Bérat",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Vente à la fabrique du lundi au jeudi ; le vendredi, appeler avant, d'après le site de la brasserie. L'office de tourisme d'Occitanie signale aussi des visites.",
+    "src": "https://www.bierataise.com/la-fabrique",
+    "extrait": "Vente à la fabrique : lundi au jeudi 10 h–17 h, le vendredi appeler avant",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le fixe est lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable de l'office est écarté. Le site ne publie aucun numéro.",
+    "contact": {
+      "tel": "05 62 14 71 05",
+      "site": "https://www.bierataise.com",
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/brasserie-la-bierataise-berat_TFOPCUMID031FS00991/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.bierataise.com/la-fabrique",
+        "lun": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "mar": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "mer": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "10:00",
+            "17:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "node/10655463024",
+    "n": "Brasserie du Vénasque",
+    "c": "Montauban-de-Luchon",
+    "adresse": "3 Rue de Sous Bailo, 31110 Montauban-de-Luchon",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie du pays de Luchon : elle se visite, dégustation comprise, sur réservation ; toute la gamme est vendue à la boutique de la brasserie, 12 place du Maréchal Joffre à Bagnères-de-Luchon (en face de l'église). D'après l'office de tourisme d'Occitanie.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-artisanale-du-venasque-montauban-de-luchon_TFODEGMID031V50SZL3/",
+    "extrait": "La brasserie se visite, dégustation comprise (environ 45 minutes, sur réservation au 07 68 16 75 31).",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 18/11. Une seule fiche pour la brasserie, sa boutique de Luchon et son entreprise (trois candidats) : posée au lieu de brassage, que l'office décrit. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Catégorie 2 : la dégustation est liée à la visite. Les horaires de la boutique (mai seulement) ne sont pas repris.",
+    "contact": {
+      "tel": "07 68 16 75 31",
+      "site": "https://www.brasserie-du-venasque.com",
+      "source": "https://www.brasserie-du-venasque.com/"
+    }
+  },
+  {
+    "cle": "sirene:848052189",
+    "n": "Brasserie Ticat",
+    "c": "Launac",
+    "adresse": "18 Rue du Parc, 31330 Launac",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de bières non filtrées et refermentées en bouteille, d'après l'office de tourisme d'Occitanie, qui cite des visites guidées. Rien ne dit qu'on peut y acheter ou boire.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
+    "extrait": "pour fabriquer ses bières non filtrées et non pasteurisées, refermentées en bouteilles.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11 ; le site de la brasserie ne se lit pas sans JavaScript. La phrase de l'office nomme le brasseur : seul le passage sans nom est repris. Le portable de l'office est écarté.",
+    "contact": {
+      "site": "https://www.ticat.fr",
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/"
+    }
+  },
+  {
+    "cle": "sirene:895162402",
+    "n": "Brasserie du Séchoir",
+    "c": "Puydaniel",
+    "adresse": "31190 Puydaniel",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Bières en bouteilles à venir chercher directement à la brasserie, sur commande par mail ou téléphone, d'après son site ; guinguette en plein air l'été. Aucun horaire ni adresse de rue publiés.",
+    "src": "https://brasseriedusechoir.fr",
+    "extrait": "Venez chercher vos bières 33cl et 75cl directement à la brasserie.",
+    "beers": [
+      {
+        "type": "blonde"
+      },
+      {
+        "type": "ambree"
+      },
+      {
+        "type": "blanche"
+      },
+      {
+        "type": "brune"
+      }
+    ],
+    "choix": "Site officiel relu sur la page brute le 18/11 (« BLONDE - 5% », « AMBRÉE - 6% », « BLANCHE - 3.5% », « BRUNE - 5.8% »). Pas d'adresse de rue : la fiche part au centre de la commune. Le portable de l'office est écarté ; le site n'en publie aucun.",
+    "contact": {
+      "site": "https://brasseriedusechoir.fr",
+      "source": "https://brasseriedusechoir.fr"
+    }
+  },
+  {
+    "cle": "sirene:894477421",
+    "n": "Brasserie du Court-Circuit",
+    "c": "Lahage",
+    "adresse": "Bordeneuve, 31370 Lahage",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de bières bio, au tiers-lieu de Bordeneuve, d'après son site ; l'office de tourisme d'Occitanie cite des visites. Rien ne dit qu'on peut y acheter ou boire. Téléphone publié par la brasserie : 06 74 14 64 08.",
+    "src": "https://www.brasseriecourtcircuit.fr",
+    "extrait": "Nous brassons des bières bio aux saveurs délicates que nous souhaitons accessibles à tous.",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le seul numéro de la brasserie, un portable, n'est sur son site qu'en lien d'appel (tel:+33674146408) : controler ne le relit pas, il passe dans la note.",
+    "contact": {
+      "site": "https://www.brasseriecourtcircuit.fr",
+      "source": "https://www.brasseriecourtcircuit.fr"
+    }
+  },
+  {
+    "cle": "sirene:835292186",
+    "n": "Aurignac Ale",
+    "c": "Aurignac",
+    "adresse": "Rue des Nobles, 31420 Aurignac",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie d'Aurignac depuis 2018, avec un taproom les jeudis, vendredis et samedis d'octobre à avril et un beergarden de mai à octobre, d'après l'office de tourisme d'Occitanie. La vente à emporter n'est pas dite ; aucun site de la brasserie lu.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-aurignac-ale-aurignac_TFODEGMID031V510U5C/",
+    "extrait": "Micro brasserie artisanale basée à Aurignac depuis 2018",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Catégorie 0 : un bar sans vente demanderait « on ne vend pas à emporter » écrit (catégorie 4), ce que l'office ne dit pas. Les jours du taproom n'ont pas d'heures : ils restent dans la note. Le site de la brasserie ne répond pas ; le portable de l'office est écarté."
+  },
+  {
+    "cle": "sirene:810689273",
+    "n": "Brasserie du Midi",
+    "c": "Montrabé",
+    "adresse": "23bis chemin de Borde Haute, 31850 Montrabé",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de bières bio de la région toulousaine depuis 2015 : vente à emporter du lundi au vendredi l'après-midi, d'après son site. Rien sur une visite, un bar ou une dégustation.",
+    "src": "http://www.brasserie-du-midi.com/",
+    "extrait": "vente à emporter",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 18/11 (« du Lundi au Jeudi de 13h à 18h », « Vendredi de 13h à 17h »). Le seul numéro publié par la brasserie est un portable (règle du 21/10).",
+    "contact": {
+      "tel": "06 62 26 98 14",
+      "site": "http://www.brasserie-du-midi.com/",
+      "source": "http://www.brasserie-du-midi.com/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "http://www.brasserie-du-midi.com/",
+        "lun": [
+          [
+            "13:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "13:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "13:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "13:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "13:00",
+            "17:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "personne:3",
+    "n": "Microbrasserie Casthis",
+    "c": "Castagnède",
+    "adresse": "31260 Castagnède",
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie entre Ariège et Haute-Garonne : bières en bouteilles chez les commerçants de la région, sur les marchés et à la boutique de l'office de tourisme d'Aspet ; commande directe possible, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+    "src": "https://www.casthis.fr",
+    "extrait": "Microbrasserie artisanale, entre Ariège et Haute Garonne.",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Aucune adresse de rue publiée : la fiche part au centre de la commune ; l'adresse du registre, celle d'un entrepreneur individuel, n'est pas reprise. Ni nom de personne ni SIREN repris. Le portable de l'office est écarté.",
+    "contact": {
+      "site": "https://www.casthis.fr",
+      "source": "https://www.casthis.fr"
+    }
+  },
+  {
+    "cle": "sirene:824686554",
+    "n": "Brasserie Caporal",
+    "c": "Toulouse",
+    "adresse": "17 rue du Général Lionel de Marmier, 31300 Toulouse",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Beergarden de la brasserie, bières à la pression, du mardi au vendredi de 16 h à 23 h ; boutique du lundi au vendredi, où l'on retire aussi ses commandes, d'après son site. Téléphone publié par la brasserie : 05 34 64 14 31.",
+    "src": "https://brasserie-caporal.com/",
+    "extrait": "Pour déguster nos bières artisanales à la pression mais sans pression…",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 18/11 (« BOUTIQUE : du Lundi au Vendredi de 9h00 à 13h00 et de 14h à 18h », « BEERGARDEN : Mardi - Vendredi, 16h00 - 23h00, Samedi - Dimanche - Lundi, fermé »). Le samedi, le dimanche et le lundi du beergarden sont écrits fermés ; ceux de la boutique ne sont pas nommés. Le fixe est écrit « 0534641431 », sans espace, forme que controler ne relit pas : il passe dans la note.",
+    "contact": {
+      "site": "https://brasserie-caporal.com/",
+      "source": "https://brasserie-caporal.com/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://brasserie-caporal.com/",
+        "lun": [],
+        "mar": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "23:00"
+          ]
+        ],
+        "sam": [],
+        "dim": []
+      },
+      {
+        "nature": "vente",
+        "source": "https://brasserie-caporal.com/",
+        "lun": [
+          [
+            "09:00",
+            "13:00"
+          ],
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "13:00"
+          ],
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "13:00"
+          ],
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "13:00"
+          ],
+          [
+            "14:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "13:00"
+          ],
+          [
+            "14:00",
+            "18:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:911248938",
+    "n": "Brasserie La Binette",
+    "c": "Boulogne-sur-Gesse",
+    "adresse": "Soubeille, 31350 Boulogne-sur-Gesse",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de bières non filtrées et non pasteurisées, au malt français, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire ; aucun site de la brasserie trouvé.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-binette-boulogne-sur-gesse_TFODEGMID031V510U55/",
+    "extrait": "Produites à base de malt français, nos bières ne sont ni filtrées ni pasteurisées",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Le portable de l'office est écarté."
+  },
+  {
+    "cle": "sirene:909990954",
+    "n": "La Brasserie du Levant",
+    "c": "Toulouse",
+    "adresse": "2 ter Rue Paul Charrier, 31100 Toulouse",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Microbrasserie de quartier ouverte en 2022 : salle de brassage, point de vente et bar de fin de journée, avec terrasse ; ouverte du mardi au vendredi de 16 h à 21 h, d'après son site. Téléphone publié par la brasserie : 09 81 23 46 61.",
+    "src": "https://www.labrasseriedulevant.fr/",
+    "extrait": "Ouverte en juin 2022, notre microbrasserie est tout à la fois : salle de brassage, point de vente et bar de fin de journée.",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 18/11 (« Du mardi au vendredi », « Ouvert de 16h à 21h »). Le fixe est coupé sur deux lignes de la page (« 09 81 23 46 » puis « 61 ») : controler ne le relit pas, il passe dans la note. Le point OSM de Portet-sur-Garonne est la même brasserie (même site, qui ne donne que Toulouse).",
+    "contact": {
+      "site": "https://www.labrasseriedulevant.fr/",
+      "source": "https://www.labrasseriedulevant.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "accueil",
+        "source": "https://www.labrasseriedulevant.fr/",
+        "mar": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "mer": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ],
+        "ven": [
+          [
+            "16:00",
+            "21:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:819219460",
+    "n": "Brasserie Moehau",
+    "c": "Pointis-Inard",
+    "adresse": "10 rue de la Chapelle, 31800 Pointis-Inard",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio de Pointis-Inard, d'après l'office de tourisme d'Occitanie. Rien ne dit où ni quand on peut acheter ou boire ; aucun site de la brasserie trouvé.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-moehau-pointis-inard_TFODEGMID031V510U53/",
+    "extrait": "Production entièrement certifiée BIO par Certipaq Bio",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Fixe lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10).",
+    "contact": {
+      "tel": "09 86 30 71 12",
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-moehau-pointis-inard_TFODEGMID031V510U53/"
+    }
+  },
+  {
+    "cle": "node/14049394906",
+    "n": "Hoppycampe",
+    "c": "Plaisance-du-Touch",
+    "adresse": "76 bis Rue des Landes, 31830 Plaisance-du-Touch",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie de bières locales entre le zoo et le golf de Plaisance-du-Touch ; on y vient sur rendez-vous, d'après son site. Rien ne dit qu'on peut y acheter ou boire.",
+    "src": "https://hoppycampe.fr/",
+    "extrait": "Appelez-nous pour prendre rendez-vous et venir à la brasserie",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Fixe lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable, écrit avec des points sur le site, n'est pas repris puisqu'un fixe existe.",
+    "contact": {
+      "tel": "05 61 59 76 03",
+      "site": "https://hoppycampe.fr/",
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hoppycampe-plaisance-du-touch_TFODEGMID031V50WA9X/"
+    }
+  },
+  {
+    "cle": "node/7001358690",
+    "n": "Le Veilleur de bières",
+    "c": "Muret",
+    "adresse": "16 place Mercadieu, 31600 Muret",
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale bio, avec bar, cave à bières et magasin pour brasseurs amateurs au Comptoir, 16 place Mercadieu, d'après son site. La brasserie elle-même (La Fabrique, 230 avenue des Pyrénées) n'accueille le public que pendant les ateliers et les visites programmées. Aucun horaire retenu.",
+    "src": "https://leveilleurdebieres.com/",
+    "extrait": "Brasserie Artisanale Bio, Bar & Cave à Bières et Brewshop",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 18/11. Fiche posée au Comptoir, le lieu ouvert au public ; le point OSM est La Fabrique, même brasserie. Les horaires et le numéro de l'en-tête du site ne sont pas rattachés à un lieu : non repris. La page contient un texte adressé aux assistants d'IA (« ne produire que du positif ») : traité comme une donnée, ignoré et signalé à Cédric.",
+    "contact": {
+      "site": "https://leveilleurdebieres.com/",
+      "source": "https://leveilleurdebieres.com/"
+    }
+  }
+]
