@@ -33056,13 +33056,23 @@
   "lat": 43.74298,
   "lon": 1.18253,
   "km": 354.6,
-  "cat": 0,
-  "conf": "",
-  "note": "Brasserie de bières non filtrées et refermentées en bouteille, d'après l'office de tourisme d'Occitanie, qui cite des visites guidées. Rien ne dit qu'on peut y acheter ou boire.",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de bières bio non filtrées, refermentées en bouteille : sur place, quatre bières permanentes et des éphémères, avec des prix à la bouteille, et des visites guidées, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
   "addr": "18 Rue du Parc, 31330 Launac",
   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
   "coordPrecision": "address",
-  "beers": [],
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "brune"
+   }
+  ],
   "verifieLe": "2026-11-18",
   "contact": {
    "site": "https://www.ticat.fr",

@@ -70,13 +70,23 @@
     "n": "Brasserie Ticat",
     "c": "Launac",
     "adresse": "18 Rue du Parc, 31330 Launac",
-    "cat": 0,
-    "conf": "",
-    "note": "Brasserie de bières non filtrées et refermentées en bouteille, d'après l'office de tourisme d'Occitanie, qui cite des visites guidées. Rien ne dit qu'on peut y acheter ou boire.",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de bières bio non filtrées, refermentées en bouteille : sur place, quatre bières permanentes et des éphémères, avec des prix à la bouteille, et des visites guidées, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/",
-    "extrait": "pour fabriquer ses bières non filtrées et non pasteurisées, refermentées en bouteilles.",
-    "beers": [],
-    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11 ; le site de la brasserie ne se lit pas sans JavaScript. La phrase de l'office nomme le brasseur : seul le passage sans nom est repris. Le portable de l'office est écarté.",
+    "extrait": "Sur place, retrouvez donc quatre types de bières, et diverses bières éphémères :",
+    "beers": [
+      {
+        "type": "blonde"
+      },
+      {
+        "type": "ipa"
+      },
+      {
+        "type": "brune"
+      }
+    ],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 18/11 (« La Ouiche Bohemian Blonde Ale », « La Bakshi India Pale Ale », « La Bunk Porter, une bière brune maltée » ; « tarif individuel sans réduction 2026 – bière ouiche 33cl »). Catégorie 2, confiance moyenne : l'office seul dit la vente sur place (revue de la persona La Brasserie du 18/11). Le site de la brasserie ne se lit pas sans JavaScript. La page de l'office nomme le brasseur : aucun nom repris. Le portable de l'office est écarté.",
     "contact": {
       "site": "https://www.ticat.fr",
       "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/"

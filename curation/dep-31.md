@@ -3,7 +3,7 @@
 Ce lot ajoute **14 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 64 candidats = 14 proposés + 50 non proposés (tableau ci-dessous).
-Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement », 0 « pas de vente », 7 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 3 « acheter et consommer », 5 « acheter seulement », 0 « pas de vente », 6 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -95,7 +95,7 @@ Extrait lu : « Appelez-nous pour prendre rendez-vous et venir à la brasserie �
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Fixe lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable, écrit avec des points sur le site, n'est pas repris puisqu'un fixe existe.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -136,7 +136,7 @@ Extrait lu : « La brasserie se visite, dégustation comprise (environ 45 minute
 
 Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 18/11. Une seule fiche pour la brasserie, sa boutique et son entreprise (trois candidats) : posée à la boutique, là où l'on achète (revue de la persona du 18/11). Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Le site ne cite que le mois de mai pour la boutique : aucun horaire repris.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -176,7 +176,7 @@ Extrait lu : « Brasserie Artisanale Bio, Bar & Cave à Bières et Brewshop »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 18/11. Fiche posée au Comptoir, le lieu ouvert au public ; le point OSM est La Fabrique, même brasserie. Les horaires et le numéro de l'en-tête du site ne sont pas rattachés à un lieu : non repris. La page contient un texte adressé aux assistants d'IA (« ne produire que du positif ») : traité comme une donnée, ignoré et signalé à Cédric.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -215,7 +215,7 @@ Extrait lu : « Microbrasserie artisanale, entre Ariège et Haute Garonne. »
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Aucune adresse de rue publiée : la fiche part au centre de la commune ; l'adresse du registre, celle d'un entrepreneur individuel, n'est pas reprise. Ni nom de personne ni SIREN repris. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -260,12 +260,12 @@ Extrait lu : « vente à emporter »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 18/11 (« du Lundi au Jeudi de 13h à 18h », « Vendredi de 13h à 17h »). Le seul numéro publié par la brasserie est un portable (règle du 21/10). Le vendredi passe dans la note : controler ne relit pas cette ligne.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 12 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h.
+> - À 8 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h.
 > - Adresse
 > - 23bis chemin de Borde Haute, 31850 Montrabé
 > - Pas encore dans la fiche : ses bières.
@@ -311,7 +311,7 @@ Extrait lu : « Production entièrement certifiée BIO par Certipaq Bio »
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Fixe lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10).
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -368,12 +368,12 @@ Extrait lu : « Pour déguster nos bières artisanales à la pression mais sans 
 
 Choix du vérificateur : Site officiel relu sur la page brute le 18/11 (« BOUTIQUE : du Lundi au Vendredi de 9h00 à 13h00 et de 14h à 18h », « BEERGARDEN : Mardi - Vendredi, 16h00 - 23h00, Samedi - Dimanche - Lundi, fermé »). Le samedi, le dimanche et le lundi du beergarden sont écrits fermés ; ceux de la boutique ne sont pas nommés. Le fixe est écrit « 0534641431 », sans espace, forme que controler ne relit pas : il passe dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 12 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
+> - À 8 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
 > - Adresse
 > - 17 rue du Général Lionel de Marmier, 31300 Toulouse
 > - Pas encore dans la fiche : ses bières.
@@ -391,7 +391,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 18/11 (« BOUTI
 > - Samedi | fermé
 > - Dimanche | fermé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - À 8 h 12 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
+> - À 8 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
 > - Horaires de vente
 > - Lundi | 9 h – 13 h, 14 h – 18 h
 > - Mardi | 9 h – 13 h, 14 h – 18 h
@@ -426,7 +426,7 @@ Extrait lu : « Micro brasserie artisanale basée à Aurignac depuis 2018 »
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Catégorie 0 : un bar sans vente demanderait « on ne vend pas à emporter » écrit (catégorie 4), ce que l'office ne dit pas. Les jours du taproom n'ont pas d'heures : ils restent dans la note. Le site de la brasserie ne répond pas ; le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -445,13 +445,15 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 - lat : (vide) → 43.74298
 - lon : (vide) → 1.18253
 - km : (vide) → 354.6
-- cat : (vide) → 0 (À confirmer)
-- conf : (vide) → (vide)
-- note : (vide) → Brasserie de bières non filtrées et refermentées en bouteille, d'après l'office de tourisme d'Occitanie, qui cite des visites guidées. Rien ne dit qu'on peut y acheter ou boire.
+- cat : (vide) → 2 (Acheter seulement)
+- conf : (vide) → moyenne
+- note : (vide) → Brasserie de bières bio non filtrées, refermentées en bouteille : sur place, quatre bières permanentes et des éphémères, avec des prix à la bouteille, et des visites guidées, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.
 - addr : (vide) → 18 Rue du Parc, 31330 Launac
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/
 - coordPrecision : (vide) → address
-- beers : (vide) → []
+- beers.0.type : (vide) → blonde
+- beers.1.type : (vide) → ipa
+- beers.2.type : (vide) → brune
 - contact.site : (vide) → https://www.ticat.fr
 - contact.source : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/
 - contact.verifieLe : (vide) → 2026-11-18
@@ -459,22 +461,27 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 
 Sources (vérifiée le 2026-11-18) : https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/ ; https://data.geopf.fr/geocodage/search?q=18+Rue+du+Parc%2C+31330+Launac&limit=5
 
-Extrait lu : « pour fabriquer ses bières non filtrées et non pasteurisées, refermentées en bouteilles. »
+Extrait lu : « Sur place, retrouvez donc quatre types de bières, et diverses bières éphémères : »
 
-Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 18/11 ; le site de la brasserie ne se lit pas sans JavaScript. La phrase de l'office nomme le brasseur : seul le passage sans nom est repris. Le portable de l'office est écarté.
+Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 18/11 (« La Ouiche Bohemian Blonde Ale », « La Bakshi India Pale Ale », « La Bunk Porter, une bière brune maltée » ; « tarif individuel sans réduction 2026 – bière ouiche 33cl »). Catégorie 2, confiance moyenne : l'office seul dit la vente sur place (revue de la persona La Brasserie du 18/11). Le site de la brasserie ne se lit pas sans JavaScript. La page de l'office nomme le brasseur : aucun nom repris. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - À confirmer
+> - Acheter seulement
 > - Adresse
 > - 18 Rue du Parc, 31330 Launac
-> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
-> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+Ticat+Launac)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+Ticat&type=brewery)
+> - Pas encore dans la fiche : son téléphone et ses horaires.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+Ticat+Launac)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Site de la brasserie](https://www.ticat.fr)
-> - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/) le 18 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
+> - Ses bières
+> - Blonde (non référencé) — claire et légère
+> - IPA (non référencé) — très houblonnée, souvent amère
+> - Brune (non référencé) — foncée, notes torréfiées
+> - [Chercher ses bières sur Untappd](https://untappd.com/search?q=Brasserie+Ticat&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
+> - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-ticat-launac_TFODEGMID031V50IPEC/) le 18 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 10. Brasserie du Court-Circuit — fiche nouvelle
 
@@ -502,7 +509,7 @@ Extrait lu : « Nous brassons des bières bio aux saveurs délicates que nous so
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le seul numéro de la brasserie, un portable, n'est sur son site qu'en lien d'appel (tel:+33674146408) : controler ne le relit pas, il passe dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -546,7 +553,7 @@ Extrait lu : « Venez chercher vos bières 33cl et 75cl directement à la brasse
 
 Choix du vérificateur : Site officiel relu sur la page brute le 18/11 (« BLONDE - 5% », « AMBRÉE - 6% », « BLANCHE - 3.5% », « BRUNE - 5.8% », « Bière blonde type IPA »). D'autres recettes ne sont pas reprises. Confiance moyenne : ni horaire ni adresse, et la guinguette n'est pas située (revue de la persona du 18/11). Pas d'adresse de rue : la fiche part au centre de la commune. Le portable de l'office est écarté ; le site n'en publie aucun.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -597,12 +604,12 @@ Extrait lu : « Ouverte en juin 2022, notre microbrasserie est tout à la fois :
 
 Choix du vérificateur : Site officiel relu sur la page brute le 18/11 (« Du mardi au vendredi », « Ouvert de 16h à 21h »). Le fixe est coupé sur deux lignes de la page (« 09 81 23 46 » puis « 61 ») : controler ne le relit pas, il passe dans la note. Le point OSM de Portet-sur-Garonne est la même brasserie (même site, qui ne donne que Toulouse).
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 12 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
+> - À 8 h 19 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 16 h.
 > - Adresse
 > - 2 ter Rue Paul Charrier, 31100 Toulouse
 > - Pas encore dans la fiche : ses bières.
@@ -645,7 +652,7 @@ Extrait lu : « Produites à base de malt français, nos bières ne sont ni filt
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 18/11. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -690,12 +697,12 @@ Extrait lu : « Vente à la fabrique : lundi au jeudi 10 h–17 h, le vendredi a
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 18/11. Le fixe est lu dans le bloc de la brasserie sur la fiche de l'office (règle du 31/10) ; le portable de l'office est écarté. Le site ne publie aucun numéro.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:12, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 18 novembre 2026 à 08:19, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 12 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
+> - À 8 h 19 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h.
 > - Adresse
 > - 848 route de Poucharramet, 31370 Bérat
 > - Pas encore dans la fiche : ses bières.
@@ -715,4 +722,4 @@ Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus su
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [bierataise.com](https://www.bierataise.com/la-fabrique) le 18 novembre 2026. Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/patrimoine-culturel/brasserie-la-bierataise-berat_TFOPCUMID031FS00991/) le 18 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
-Empreinte du lot : f77b5af5bff5
+Empreinte du lot : 209d453b1e23
