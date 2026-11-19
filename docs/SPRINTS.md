@@ -3082,7 +3082,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 ## S348, deuxième partie — l'Aude *(12/11, routine « Département du jour »)*
 
-`docs/stories/S348.md`, issue #189. 5 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 838 fiches dans 83 départements, OSM à 592. Revue de la persona Cédric traitée avant l'application, persona Marie après.
+`docs/stories/S348.md`, issue #189. 5 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 838 fiches dans 83 départements, OSM à 592. Revue de la persona Cédric traitée avant l'application, persona Marie après (issue #294 pour la recherche).
 
 ## S348, troisième partie — l'Aveyron *(13/11, routine « Département du jour »)*
 
@@ -3142,4 +3142,4 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 
 ## S348, sixième partie — le Gers *(19/11, routine « Département du jour »)*
 
-`docs/stories/S348.md`, issue #189. 3 paquets ; 3 fiches par la règle de Cédric du 21/10 ; 880 fiches dans 87 départements, OSM à 571. Revue de la persona Cédric traitée avant l'application (une grille d'horaires retirée, un choix précisé), persona Marie après.
+`docs/stories/S348.md`, issue #189. 3 paquets ; 3 fiches par la règle de Cédric du 21/10 ; 880 fiches dans 87 départements, OSM à 571. Revue de la persona Cédric traitée avant l'application (une grille d'horaires retirée, un choix précisé), persona Marie après (issue #294 pour la recherche).
