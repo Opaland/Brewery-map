@@ -1,0 +1,331 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "AUCH",
+   "MIRADOUX"
+  ],
+  "departement": "32",
+  "adresses": [],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [
+   "node/11862637484"
+  ],
+  "site": "https://www.facebook.com/brasseriedaugusta/?locale=fr_FR",
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:821466471",
+  "nom": "LA BRASSERIE DU PEPERE",
+  "communes": [
+   "CONDOM"
+  ],
+  "departement": "32",
+  "adresses": [
+   "5 AVENUE DE LA GARE 32100 CONDOM",
+   "QUARTIER FOURESTE ROUTE DE NERAC 32100 CONDOM"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821466471",
+  "sirets": [
+   "82146647100041",
+   "82146647100058"
+  ],
+  "osm": [],
+  "lat": 43.9605187462755,
+  "lon": 0.366549220866056,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:993235340",
+  "nom": "CALLIPYGE BREWING",
+  "communes": [
+   "MAUVEZIN"
+  ],
+  "departement": "32",
+  "adresses": [
+   "A EN BURRET 239 ROUTE DE GIMONT 32120 MAUVEZIN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "993235340",
+  "sirets": [
+   "99323534000029"
+  ],
+  "osm": [],
+  "lat": 43.7253479569271,
+  "lon": 0.884803690670934,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:800458952",
+  "nom": "MICROBRASSERIE LA BRAXEENNE",
+  "communes": [
+   "PUJAUDRAN"
+  ],
+  "departement": "32",
+  "adresses": [
+   "920 AVENUE DU ROULAGE 32600 PUJAUDRAN"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "800458952",
+  "sirets": [
+   "80045895200036"
+  ],
+  "osm": [
+   "node/12912754859"
+  ],
+  "lat": 43.589418348,
+  "lon": 1.177078878,
+  "site": "http://labraxeenne.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:752225656",
+  "nom": "BRASSERIE DU VAILLANT FOURQUET",
+  "communes": [
+   "MIRADOUX"
+  ],
+  "departement": "32",
+  "adresses": [
+   "ZA ROUTE DE POUPAS PETIT ROUNAC 32340 MIRADOUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "752225656",
+  "sirets": [
+   "75222565600012"
+  ],
+  "osm": [],
+  "lat": 43.988216066,
+  "lon": 0.7617662322,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:923355168",
+  "nom": "LES VEILLEURS DE LA SAVE",
+  "communes": [
+   "SAMATAN"
+  ],
+  "departement": "32",
+  "adresses": [
+   "939 ROUTE DE SAINT-SOULAN 32130 SAMATAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "923355168",
+  "sirets": [
+   "92335516800017"
+  ],
+  "osm": [],
+  "lat": 43.493838011,
+  "lon": 0.9188210591,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989016241",
+  "nom": "MADAME MADAME",
+  "communes": [
+   "SEISSAN"
+  ],
+  "departement": "32",
+  "adresses": [
+   "2353 ROUTE D'ARTIGUEDIEU 32260 SEISSAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989016241",
+  "sirets": [
+   "98901624100014"
+  ],
+  "osm": [],
+  "lat": 43.4939299806734,
+  "lon": 0.550603964627588,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "LA GUENILLE BRASSERIE",
+  "communes": [
+   "NOGARO"
+  ],
+  "departement": "32",
+  "adresses": [
+   "1112 ROUTE DE SION 32110 NOGARO"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "ROQUEFORT"
+  ],
+  "departement": "32",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:930618475",
+  "nom": "LA BRASCOGNE",
+  "communes": [
+   "LAURAET"
+  ],
+  "departement": "32",
+  "adresses": [
+   "CHEMIN DE CAMBOS 32330 LAURAET"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "930618475",
+  "sirets": [
+   "93061847500014"
+  ],
+  "osm": [],
+  "lat": 43.92320688,
+  "lon": 0.2845046618,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "AUCH"
+  ],
+  "departement": "32",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:809527070",
+  "nom": "JEAN BRASSE",
+  "communes": [
+   "GIMONT"
+  ],
+  "departement": "32",
+  "adresses": [
+   "7 AVENUE DE LA GARE 32200 GIMONT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809527070",
+  "sirets": [
+   "80952707000027"
+  ],
+  "osm": [],
+  "lat": 43.6333339551314,
+  "lon": 0.868192990747581,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849526777",
+  "nom": "BORDES ENTREPRISE",
+  "communes": [
+   "MONTAUT-LES-CRENEAUX"
+  ],
+  "departement": "32",
+  "adresses": [
+   "LD LE PETIT GUILHEM 32810 MONTAUT-LES-CRENEAUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849526777",
+  "sirets": [
+   "84952677700016"
+  ],
+  "osm": [],
+  "lat": 43.701568151,
+  "lon": 0.6251027814,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/12728665345",
+  "nom": "Brasserie l'Excuse",
+  "communes": [
+   "Mauvezin"
+  ],
+  "departement": "32",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/12728665345"
+  ],
+  "lat": 43.72547,
+  "lon": 0.88574,
+  "site": "https://brasserie-lexcuse.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/4995298558",
+  "nom": "Les Canards d'Ariane",
+  "communes": [
+   "Termes-d'Armagnac"
+  ],
+  "departement": "32",
+  "adresses": [
+   "Rue de la Coline, 32400 Termes-d'Armagnac"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4995298558"
+  ],
+  "lat": 43.66796,
+  "lon": -0.00626,
+  "statut": "nouveau"
+ }
+]

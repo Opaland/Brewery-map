@@ -33258,5 +33258,65 @@
     "verifieLe": "2026-11-18"
    }
   ]
+ },
+ {
+  "n": "Brasserie d'Augusta",
+  "c": "Auch",
+  "d": "32",
+  "lat": 43.69592,
+  "lon": 0.60788,
+  "km": 394.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie bio à quelques minutes du centre d'Auch : bar et terrasse, concerts l'été, soirées stand-up l'hiver ; dégustations aux heures du bar d'avril à octobre, sur réservation le reste de l'année ; boutique, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+  "addr": "414 rue Claude Chappe, 32000 Auch",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-d-augusta-auch_TFOSITRA2_DEG_6929266/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-19"
+ },
+ {
+  "n": "La Braxéenne",
+  "c": "Pujaudran",
+  "d": "32",
+  "lat": 43.59024,
+  "lon": 1.17017,
+  "km": 366.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Microbrasserie avec boutique dans la zone du Roulage ; visite et dégustation sur réservation, d'après son site, qui donne aussi des heures (du lundi au vendredi de 9 h à 17 h 30, le samedi de 10 h à 12 h) sans dire si elles sont celles de la boutique.",
+  "addr": "920 avenue du Roulage, 32600 Pujaudran",
+  "src": "http://labraxeenne.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-19",
+  "contact": {
+   "tel": "06 89 27 22 67",
+   "site": "http://labraxeenne.com/",
+   "source": "http://labraxeenne.com/",
+   "verifieLe": "2026-11-19"
+  }
+ },
+ {
+  "n": "Jean Brasse",
+  "c": "Gimont",
+  "d": "32",
+  "lat": 43.63333,
+  "lon": 0.86819,
+  "km": 382.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio de Gimont depuis 2015 : visites (gratuites) et ateliers sur rendez-vous d'après l'office de tourisme d'Occitanie ; son site les annonce du mardi au vendredi de 10 h à 12 h 30 et de 15 h à 17 h 30, et le samedi de 10 h à 12 h 30. Dégustations et vente directe, d'après l'office.",
+  "addr": "7 avenue de la Gare, 32200 Gimont",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/jean-brasse-gimont_TFOSITRA2_DEG_6932483/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-19",
+  "contact": {
+   "tel": "06 28 93 85 84",
+   "site": "http://www.jeanbrasse.fr/",
+   "source": "http://www.jeanbrasse.fr/",
+   "verifieLe": "2026-11-19"
+  }
  }
 ]

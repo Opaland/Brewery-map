@@ -38,6 +38,10 @@ pourquoi.
   choix (Charly, Benjamin & Elisabeth, Hugh et Denise, Gaufillet, 03-06/11).
   Les enseignes SIRENE d'entrepreneurs individuels peuvent être des noms :
   ne jamais les recopier.
+- **Des heures de visite ne font pas une grille d'accueil** (19/11, Jean Brasse) :
+  quand une source dit « sur rendez-vous », une grille « accueil » affiche
+  « ouvert » ou « fermé maintenant », une promesse que la source ne fait pas.
+  Parade : les heures vont dans la note, avec « sur rendez-vous » en tête.
 - **Doublons SIRENE / OSM** : même site ou même adresse = une seule fiche ;
   l'autre clé va aux raisons « même lieu que … ».
 - **Un agent peut lire le mauvais paquet** (29/10) : lui faire lister ses
