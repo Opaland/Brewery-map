@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:809527070",
+ "ajout": {
+  "fiche": {
+   "n": "Jean Brasse",
+   "c": "Gimont",
+   "d": "32",
+   "lat": 43.63333,
+   "lon": 0.86819,
+   "km": 382,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio de Gimont depuis 2015 : visites (gratuites) et ateliers sur rendez-vous d'après l'office de tourisme d'Occitanie ; son site les annonce du mardi au vendredi de 10 h à 12 h 30 et de 15 h à 17 h 30, et le samedi de 10 h à 12 h 30. Dégustations et vente directe, d'après l'office.",
+   "addr": "7 avenue de la Gare, 32200 Gimont",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/jean-brasse-gimont_TFOSITRA2_DEG_6932483/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 28 93 85 84",
+    "site": "http://www.jeanbrasse.fr/",
+    "source": "http://www.jeanbrasse.fr/",
+    "verifieLe": "2026-11-19"
+   }
+  },
+  "verifieLe": "2026-11-19",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/jean-brasse-gimont_TFOSITRA2_DEG_6932483/",
+   "http://www.jeanbrasse.fr/",
+   "https://data.geopf.fr/geocodage/search?q=7+avenue+de+la+Gare%2C+32200+Gimont&limit=5"
+  ],
+  "extrait": "Visites sur rendez-vous, dégustations et vente directe des produits.",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 19/11. La vente n'est dite que par l'office : confiance moyenne. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Les heures de visite restent dans la note : l'office dit « sur rendez-vous », et une grille laisserait croire à un accueil libre (revue de la persona du 19/11). Catégorie 2 : la dégustation est liée à la visite."
+ }
+}

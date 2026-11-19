@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:800458952",
+ "ajout": {
+  "fiche": {
+   "n": "La Braxéenne",
+   "c": "Pujaudran",
+   "d": "32",
+   "lat": 43.59024,
+   "lon": 1.17017,
+   "km": 366.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Microbrasserie avec boutique dans la zone du Roulage ; visite et dégustation sur réservation, d'après son site, qui donne aussi des heures (du lundi au vendredi de 9 h à 17 h 30, le samedi de 10 h à 12 h) sans dire si elles sont celles de la boutique.",
+   "addr": "920 avenue du Roulage, 32600 Pujaudran",
+   "src": "http://labraxeenne.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 89 27 22 67",
+    "site": "http://labraxeenne.com/",
+    "source": "http://labraxeenne.com/",
+    "verifieLe": "2026-11-19"
+   }
+  },
+  "verifieLe": "2026-11-19",
+  "sources": [
+   "http://labraxeenne.com/",
+   "https://data.geopf.fr/geocodage/search?q=Pujaudran&type=municipality&limit=5"
+  ],
+  "extrait": "Vous pouvez également réserver votre visite dégustation sur place à la brasserie.",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 19/11 (« Brasserie / Boutique »). La brasserie publie deux portables et aucun fixe : le premier, aussi donné par l'office, est repris : la règle du 21/10 est lue ici comme « aucun fixe publié par la brasserie » (revue de la persona du 19/11). Les heures restent dans la note : le site ne dit pas à quoi elles s'appliquent. Catégorie 2 : la dégustation est liée à la visite."
+ }
+}

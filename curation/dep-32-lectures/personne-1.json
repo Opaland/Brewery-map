@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:1",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie d'Augusta",
+   "c": "Auch",
+   "d": "32",
+   "lat": 43.69592,
+   "lon": 0.60788,
+   "km": 394.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie bio à quelques minutes du centre d'Auch : bar et terrasse, concerts l'été, soirées stand-up l'hiver ; dégustations aux heures du bar d'avril à octobre, sur réservation le reste de l'année ; boutique, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+   "addr": "414 rue Claude Chappe, 32000 Auch",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-d-augusta-auch_TFOSITRA2_DEG_6929266/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-19",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-d-augusta-auch_TFOSITRA2_DEG_6929266/",
+   "https://data.geopf.fr/geocodage/search?q=414+rue+Claude+Chappe%2C+32000+Auch&limit=5"
+  ],
+  "extrait": "Les dégustations sont proposées sur les horaires d’ouverture du bar (d’avril à octobre) et sur réservation le reste de l’année.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 19/11 (« Boutique » dans ses services). Rattachée au candidat par sa page Facebook, la même que celle de l'office. Pas de site propre. Entreprise individuelle : ni nom de personne ni SIREN repris. Le portable de l'office est écarté."
+ }
+}

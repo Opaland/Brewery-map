@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 32 (Gers), S348 (Occitanie) : pas encore lu. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 0 |
+| Département en cours | 32 (Gers), S348 (Occitanie) : PR ouverte le 19/11 ; si elle est mergée, passer au 34 (Hérault). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (19/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 31 (18/11, PR #293, 14 fiches) |
 

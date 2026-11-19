@@ -23,7 +23,7 @@
     "src": "http://labraxeenne.com/",
     "extrait": "Vous pouvez également réserver votre visite dégustation sur place à la brasserie.",
     "beers": [],
-    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 19/11 (« Brasserie / Boutique »). La brasserie publie deux portables et aucun fixe : le premier, aussi donné par l'office, est repris (règle du 21/10). Les heures restent dans la note : le site ne dit pas à quoi elles s'appliquent. Catégorie 2 : la dégustation est liée à la visite.",
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 19/11 (« Brasserie / Boutique »). La brasserie publie deux portables et aucun fixe : le premier, aussi donné par l'office, est repris : la règle du 21/10 est lue ici comme « aucun fixe publié par la brasserie » (revue de la persona du 19/11). Les heures restent dans la note : le site ne dit pas à quoi elles s'appliquent. Catégorie 2 : la dégustation est liée à la visite.",
     "contact": {
       "tel": "06 89 27 22 67",
       "site": "http://labraxeenne.com/",
@@ -37,68 +37,15 @@
     "adresse": "7 avenue de la Gare, 32200 Gimont",
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie bio de Gimont depuis 2015 : visite gratuite et ateliers, du mardi au samedi, d'après son site ; dégustations et vente directe, d'après l'office de tourisme d'Occitanie, qui parle de visites sur rendez-vous.",
+    "note": "Brasserie bio de Gimont depuis 2015 : visites (gratuites) et ateliers sur rendez-vous d'après l'office de tourisme d'Occitanie ; son site les annonce du mardi au vendredi de 10 h à 12 h 30 et de 15 h à 17 h 30, et le samedi de 10 h à 12 h 30. Dégustations et vente directe, d'après l'office.",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/jean-brasse-gimont_TFOSITRA2_DEG_6932483/",
     "extrait": "Visites sur rendez-vous, dégustations et vente directe des produits.",
     "beers": [],
-    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 19/11. La vente n'est dite que par l'office : confiance moyenne. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Horaires de visite lus sur le site, avec la remarque de l'office. Catégorie 2 : la dégustation est liée à la visite.",
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 19/11. La vente n'est dite que par l'office : confiance moyenne. Le seul numéro publié par la brasserie sur son site est un portable (règle du 21/10). Les heures de visite restent dans la note : l'office dit « sur rendez-vous », et une grille laisserait croire à un accueil libre (revue de la persona du 19/11). Catégorie 2 : la dégustation est liée à la visite.",
     "contact": {
       "tel": "06 28 93 85 84",
       "site": "http://www.jeanbrasse.fr/",
       "source": "http://www.jeanbrasse.fr/"
-    },
-    "horaires": [
-      {
-        "nature": "accueil",
-        "source": "http://www.jeanbrasse.fr/",
-        "mar": [
-          [
-            "10:00",
-            "12:30"
-          ],
-          [
-            "15:00",
-            "17:30"
-          ]
-        ],
-        "mer": [
-          [
-            "10:00",
-            "12:30"
-          ],
-          [
-            "15:00",
-            "17:30"
-          ]
-        ],
-        "jeu": [
-          [
-            "10:00",
-            "12:30"
-          ],
-          [
-            "15:00",
-            "17:30"
-          ]
-        ],
-        "ven": [
-          [
-            "10:00",
-            "12:30"
-          ],
-          [
-            "15:00",
-            "17:30"
-          ]
-        ],
-        "sam": [
-          [
-            "10:00",
-            "12:30"
-          ]
-        ],
-        "remarque": "Visites et ateliers ; l'office de tourisme parle de visites sur rendez-vous."
-      }
-    ]
+    }
   }
 ]
