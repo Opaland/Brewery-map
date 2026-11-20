@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:881595185",
+ "ajout": {
+  "fiche": {
+   "n": "La Bière du Docteur",
+   "c": "Vendémian",
+   "d": "34",
+   "lat": 43.5812,
+   "lon": 3.56041,
+   "km": 251.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian ; on y vient sur rendez-vous, d'après son site. Ni vente ni dégustation ne sont dites.",
+   "addr": "2592 route de Saint-Jean, 34230 Vendémian",
+   "src": "https://docteur.beer",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 65 10 40 39",
+    "site": "https://docteur.beer",
+    "source": "https://docteur.beer",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://docteur.beer",
+   "https://data.geopf.fr/geocodage/search?q=Vend%C3%A9mian&type=municipality&limit=5"
+  ],
+  "extrait": "Vous pouvez venir à la brasserie sur rendez-vous",
+  "choix": "Site officiel relu sur la page brute le 20/11. La brasserie ne publie que des portables ; le premier est repris (règle du 21/10), le second, rattaché à un prénom, est écarté."
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "candidat": "sirene:828536177",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Petit Caboulot",
+   "c": "Entre-Vignes",
+   "d": "34",
+   "lat": 43.72912,
+   "lon": 4.08103,
+   "km": 222.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "On commande ses bières et on les récupère à la brasserie le mercredi, le vendredi et le samedi ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes, d'après son site.",
+   "addr": "25 chemin des Cigales, 34400 Entre-Vignes",
+   "src": "https://brasseriepetitcaboulot.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "07 49 07 01 23",
+    "source": "https://brasseriepetitcaboulot.com",
+    "verifieLe": "2026-11-20"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriepetitcaboulot.com",
+     "mer": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-20"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://brasseriepetitcaboulot.com",
+   "https://data.geopf.fr/geocodage/search?q=25+chemin+des+Cigales%2C+34400+Entre-Vignes&limit=5"
+  ],
+  "extrait": "Commander et récupérer vos bières directement à la brasserie !",
+  "choix": "Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris."
+ }
+}

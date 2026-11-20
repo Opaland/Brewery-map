@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:910640887",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Làsarde",
+   "c": "Saint-Guilhem-le-Désert",
+   "d": "34",
+   "lat": 43.73482,
+   "lon": 3.54815,
+   "km": 235.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie de Saint-Guilhem-le-Désert : bar et patio, bières au verre et à la pression, boutique pour emporter ses bouteilles, visite du laboratoire, d'après l'office de tourisme d'Occitanie. Ouverte toute l'année ; aucun horaire par jour publié.",
+   "addr": "20 Chemin du Bout du Monde, 34150 Saint-Guilhem-le-Désert",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/brasserie-lasarde-saint-guilhem-le-desert_TFORESLAR034V52E2ZY/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/restauration/brasserie-lasarde-saint-guilhem-le-desert_TFORESLAR034V52E2ZY/",
+   "https://data.geopf.fr/geocodage/search?q=20+Chemin+du+Bout+du+Monde%2C+34150+Saint-Guilhem-le-D%C3%A9sert&limit=5"
+  ],
+  "extrait": "la boutique LÀSARDE vous permet de vous offrir à emporter les bouteilles de la production aux deux formats 33cl ou 75cl.",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Pas de site propre trouvé. Le portable de l'office est écarté."
+ }
+}

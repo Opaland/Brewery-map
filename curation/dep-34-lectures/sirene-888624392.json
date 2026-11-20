@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:888624392",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Oppidum",
+   "c": "Capestang",
+   "d": "34",
+   "lat": 43.32537,
+   "lon": 3.04492,
+   "km": 294.3,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.",
+   "addr": "46 Cours Belfort, 34310 Capestang",
+   "src": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-oppidum-capestang_TFODEGLAR034V523ZA3/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-oppidum-capestang_TFODEGLAR034V523ZA3/",
+   "https://data.geopf.fr/geocodage/search?q=46+Cours+Belfort%2C+34310+Capestang&limit=5"
+  ],
+  "extrait": "Vente des produits de l’exploitation",
+  "choix": "Fiche de l'office de l'Hérault relue sur la page brute le 20/11 (« Terrasse », « Bar », « Dégustation »). Pas de site propre. Le fixe, lu dans le bloc de la brasserie (règle du 31/10), est écrit « +33 » : il passe dans la note. Les horaires de l'office ne disent pas s'ils sont ceux du bar ou de la boutique."
+ }
+}

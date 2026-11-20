@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:812719979",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Le Détour",
+   "c": "Montpellier",
+   "d": "34",
+   "lat": 43.58275,
+   "lon": 3.87717,
+   "km": 242.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Montpellier qui livre les bars et loue des tireuses, avec une boutique en ligne, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie. Téléphone publié par la brasserie : 09 52 67 73 75.",
+   "addr": "53 Rue du Pasteur Jean Cadier, 34000 Montpellier",
+   "src": "https://ledetour.beer",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://ledetour.beer",
+    "source": "https://ledetour.beer",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://ledetour.beer",
+   "https://data.geopf.fr/geocodage/search?q=53+Rue+du+Pasteur+Jean+Cadier%2C+34000+Montpellier&limit=5"
+  ],
+  "extrait": "Livraison, entretien des lignes, location de tireuses, assistance événementielle",
+  "choix": "Site officiel relu sur la page brute le 20/11. Le fixe est écrit « +33 (0)952677375 », forme que controler ne relit pas : il passe dans la note. Le point OSM de Lattes est la même brasserie."
+ }
+}

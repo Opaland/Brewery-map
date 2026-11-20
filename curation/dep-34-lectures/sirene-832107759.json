@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:832107759",
+ "ajout": {
+  "fiche": {
+   "n": "La Brasserie du Lez",
+   "c": "Saint-Clément-de-Rivière",
+   "d": "34",
+   "lat": 43.6812,
+   "lon": 3.84296,
+   "km": 233.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Saint-Clément-de-Rivière qui vend en ligne, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+   "addr": "Route de Montferrier, 34980 Saint-Clément-de-Rivière",
+   "src": "https://www.brasserie-du-lez.beer",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 69 02 30 02",
+    "site": "https://www.brasserie-du-lez.beer",
+    "source": "https://www.brasserie-du-lez.beer/contact/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.brasserie-du-lez.beer",
+   "https://www.brasserie-du-lez.beer/contact/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Cl%C3%A9ment-de-Rivi%C3%A8re&type=municipality&limit=5"
+  ],
+  "extrait": "brassée et embouteillée dans l’Hérault à Saint Clément de Rivière",
+  "choix": "Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10)."
+ }
+}

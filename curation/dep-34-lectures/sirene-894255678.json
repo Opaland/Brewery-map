@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:894255678",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Lodèva",
+   "c": "Lodève",
+   "d": "34",
+   "lat": 43.73011,
+   "lon": 3.32407,
+   "km": 244,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie et bar-restaurant Le Jardin : bières à la pression, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.",
+   "addr": "9 avenue Denfert, 34700 Lodève",
+   "src": "https://www.herault-tourisme.com/fr/fiche/restauration/le-jardin-brasserie-lodeva-lodeve_TFORESLAR034V51XC3E/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.herault-tourisme.com/fr/fiche/restauration/le-jardin-brasserie-lodeva-lodeve_TFORESLAR034V51XC3E/",
+   "https://data.geopf.fr/geocodage/search?q=9+avenue+Denfert%2C+34700+Lod%C3%A8ve&limit=5"
+  ],
+  "extrait": "une microbrasserie dédiée au brassage de bières artisanales bio et non bio",
+  "choix": "Fiche de l'office de l'Hérault relue sur la page brute le 20/11. Les horaires restent dans la note : le samedi passe minuit. Les tarifs à la bouteille de l'office disent une vente. Le portable de l'office est écarté ; le site de la brasserie n'a pas été lu."
+ }
+}

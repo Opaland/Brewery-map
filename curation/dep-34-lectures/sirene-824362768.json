@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:824362768",
+ "ajout": {
+  "fiche": {
+   "n": "ZooBrew",
+   "c": "Castelnau-le-Lez",
+   "d": "34",
+   "lat": 43.64236,
+   "lon": 3.91773,
+   "km": 235.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale fondée en 2017 à Castelnau-le-Lez, d'après son site. Rien ne dit qu'on peut y acheter ou boire.",
+   "addr": "185 avenue Blaise Pascal, 34170 Castelnau-le-Lez",
+   "src": "https://www.zoobrew.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 40 69 74",
+    "site": "https://www.zoobrew.fr/",
+    "source": "https://www.zoobrew.fr/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.zoobrew.fr/",
+   "https://data.geopf.fr/geocodage/search?q=185+avenue+Blaise+Pascal%2C+34170+Castelnau-le-Lez&limit=5"
+  ],
+  "extrait": "une brasserie artisanale fondée en 2017 sur Castelnau le lez",
+  "choix": "Site officiel relu sur la page brute le 20/11. Le bar cité par une page générale de l'office et les horaires d'annuaires ne sont pas repris. Fixe lu sur le site."
+ }
+}

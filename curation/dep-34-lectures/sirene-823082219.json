@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:823082219",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Kiss'Wing",
+   "c": "Montblanc",
+   "d": "34",
+   "lat": 43.38857,
+   "lon": 3.36992,
+   "km": 276.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Visite d'une heure avec dégustation de trois bières, sur réservation, d'après son site ; vente des produits de l'exploitation, d'après l'office de tourisme de l'Hérault.",
+   "addr": "269 rue Nicolas Copernic, 34290 Montblanc",
+   "src": "https://www.kisswing.fr/visite-brasserie",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 32 16 75",
+    "site": "https://www.kisswing.fr",
+    "source": "https://www.kisswing.fr/contact",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.kisswing.fr/visite-brasserie",
+   "https://www.kisswing.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=Montblanc&type=municipality&limit=5"
+  ],
+  "extrait": "Dégustation de 3 bières de la brasserie",
+  "choix": "Site officiel et fiche de l'office de l'Hérault relus sur la page brute le 20/11. La vente n'est dite que par l'office : confiance moyenne. Les horaires de la page contact ne disent pas à quoi ils s'appliquent. Catégorie 2 : la dégustation est liée à la visite."
+ }
+}
