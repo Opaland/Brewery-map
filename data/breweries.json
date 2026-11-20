@@ -33587,7 +33587,7 @@
   },
   "horaires": [
    {
-    "nature": "accueil",
+    "nature": "vente",
     "mer": [
      [
       "17:00",
@@ -33610,6 +33610,7 @@
       "19:00"
      ]
     ],
+    "remarque": "Heures d'ouverture du site ; on y récupère les bières commandées.",
     "source": "https://brasseriepetitcaboulot.com",
     "verifieLe": "2026-11-20"
    }
@@ -33762,6 +33763,7 @@
       "17:30"
      ]
     ],
+    "remarque": "Le soir, la boutique ouvre aussi aux heures de la guinguette.",
     "source": "https://lamalpolon.fr/guinguette/",
     "verifieLe": "2026-11-20"
    }

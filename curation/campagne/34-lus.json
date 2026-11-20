@@ -142,7 +142,8 @@
             "09:00",
             "17:30"
           ]
-        ]
+        ],
+        "remarque": "Le soir, la boutique ouvre aussi aux heures de la guinguette."
       }
     ]
   },
@@ -237,14 +238,14 @@
     "src": "https://brasseriepetitcaboulot.com",
     "extrait": "Commander et récupérer vos bières directement à la brasserie !",
     "beers": [],
-    "choix": "Site officiel relu sur la page brute le 20/11. Les heures sont celles que le site appelle « Horaires d'ouvertures » : grille d'accueil, pas de vente (revue de la persona du 20/11). Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris.",
+    "choix": "Site officiel relu sur la page brute le 20/11. Les heures sont celles que le site appelle « Horaires d'ouvertures » : grille de vente avec une remarque : on y récupère des commandes, sans bar ni dégustation dits (revues des personas Cédric et Hugo du 20/11). Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris.",
     "contact": {
       "tel": "07 49 07 01 23",
       "source": "https://brasseriepetitcaboulot.com"
     },
     "horaires": [
       {
-        "nature": "accueil",
+        "nature": "vente",
         "source": "https://brasseriepetitcaboulot.com",
         "mer": [
           [
@@ -267,7 +268,8 @@
             "17:00",
             "19:00"
           ]
-        ]
+        ],
+        "remarque": "Heures d'ouverture du site ; on y récupère les bières commandées."
       }
     ]
   },
