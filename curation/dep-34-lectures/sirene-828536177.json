@@ -10,7 +10,7 @@
    "km": 222.8,
    "cat": 2,
    "conf": "moyenne",
-   "note": "On commande ses bières et on les récupère à la brasserie le mercredi, le vendredi et le samedi ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes, d'après son site.",
+   "note": "Brasserie dont le site donne des heures d'ouverture le mercredi, le vendredi et le samedi ; on y récupère les bières commandées, d'après une actualité du site ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes.",
    "addr": "25 chemin des Cigales, 34400 Entre-Vignes",
    "src": "https://brasseriepetitcaboulot.com",
    "coordPrecision": "address",
@@ -22,7 +22,7 @@
    },
    "horaires": [
     {
-     "nature": "vente",
+     "nature": "accueil",
      "source": "https://brasseriepetitcaboulot.com",
      "mer": [
       [
@@ -56,6 +56,6 @@
    "https://data.geopf.fr/geocodage/search?q=25+chemin+des+Cigales%2C+34400+Entre-Vignes&limit=5"
   ],
   "extrait": "Commander et récupérer vos bières directement à la brasserie !",
-  "choix": "Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris."
+  "choix": "Site officiel relu sur la page brute le 20/11. Les heures sont celles que le site appelle « Horaires d'ouvertures » : grille d'accueil, pas de vente (revue de la persona du 20/11). Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris."
  }
 }

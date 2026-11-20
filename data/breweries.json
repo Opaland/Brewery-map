@@ -33318,5 +33318,739 @@
    "source": "http://www.jeanbrasse.fr/",
    "verifieLe": "2026-11-19"
   }
+ },
+ {
+  "n": "Fauve Craft Bière",
+  "c": "Vendargues",
+  "d": "34",
+  "lat": 43.65371,
+  "lon": 3.95194,
+  "km": 233.5,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Taproom de la microbrasserie : bières à la pression et en canettes, à boire sur place ou à emporter, du lundi au vendredi de 17 h à 22 h, d'après son site.",
+  "addr": "140 rue de Massacan, 34740 Vendargues",
+  "src": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://fauvebiere.com",
+   "source": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+   "verifieLe": "2026-11-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "mar": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "source": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+    "verifieLe": "2026-11-20"
+   }
+  ]
+ },
+ {
+  "n": "La MatCé",
+  "c": "Montpellier",
+  "d": "34",
+  "lat": 43.61879,
+  "lon": 3.89062,
+  "km": 238.6,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie du quartier des Aubes, à horaires variables, présente le mercredi au marché paysan des Aubes, d'après son site. Ce qu'on peut faire à la brasserie n'est pas dit clairement ; aucun téléphone publié.",
+  "addr": "11 boulevard Mounié, 34000 Montpellier",
+  "src": "https://www.la-matce.fr",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://www.la-matce.fr",
+   "source": "https://www.la-matce.fr",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "La Gorge Fraîche",
+  "c": "Béziers",
+  "d": "34",
+  "lat": 43.33429,
+  "lon": 3.22222,
+  "km": 287.2,
+  "cat": 1,
+  "conf": "faible",
+  "note": "Brasserie artisanale, bar et boutique (« Canal du demi », dit son en-tête), d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.",
+  "addr": "2 avenue Joseph Lazare, 34500 Béziers",
+  "src": "http://www.lagorgefraiche.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 37 06 97",
+   "site": "http://www.lagorgefraiche.fr/",
+   "source": "http://www.lagorgefraiche.fr/contact",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie Le Détour",
+  "c": "Montpellier",
+  "d": "34",
+  "lat": 43.58275,
+  "lon": 3.87717,
+  "km": 242.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Montpellier qui livre les bars et loue des tireuses, avec une boutique en ligne, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie. Téléphone publié par la brasserie : 09 52 67 73 75.",
+  "addr": "53 Rue du Pasteur Jean Cadier, 34000 Montpellier",
+  "src": "https://ledetour.beer",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://ledetour.beer",
+   "source": "https://ledetour.beer",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie Kiss'Wing",
+  "c": "Montblanc",
+  "d": "34",
+  "lat": 43.38857,
+  "lon": 3.36992,
+  "km": 276.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Visite d'une heure avec dégustation de trois bières, sur réservation, d'après son site ; vente des produits de l'exploitation, d'après l'office de tourisme de l'Hérault.",
+  "addr": "269 rue Nicolas Copernic, 34290 Montblanc",
+  "src": "https://www.kisswing.fr/visite-brasserie",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 32 16 75",
+   "site": "https://www.kisswing.fr",
+   "source": "https://www.kisswing.fr/contact",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie Brescou",
+  "c": "Agde",
+  "d": "34",
+  "lat": 43.30894,
+  "lon": 3.49591,
+  "km": 281.3,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières brassées et embouteillées à Agde, en vente directe à la brasserie, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+  "addr": "17 rue Pierre Paul Riquet, 34300 Agde",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-brescou-agde_TFOSITRA2_DEG_7569946/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 37 64 04",
+   "site": "https://brasserie-brescou.com",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-brescou-agde_TFOSITRA2_DEG_7569946/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "ZooBrew",
+  "c": "Castelnau-le-Lez",
+  "d": "34",
+  "lat": 43.64236,
+  "lon": 3.91773,
+  "km": 235.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale fondée en 2017 à Castelnau-le-Lez, d'après son site. Rien ne dit qu'on peut y acheter ou boire.",
+  "addr": "185 avenue Blaise Pascal, 34170 Castelnau-le-Lez",
+  "src": "https://www.zoobrew.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 40 69 74",
+   "site": "https://www.zoobrew.fr/",
+   "source": "https://www.zoobrew.fr/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie La Singulière",
+  "c": "Sète",
+  "d": "34",
+  "lat": 43.40732,
+  "lon": 3.69577,
+  "km": 265.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie et bar sur les quais de Sète, ouvert du mardi au samedi de 17 h à 23 h 30, d'après son site. La vente à emporter n'est pas dite. Téléphone publié par la brasserie : 09 86 54 00 60.",
+  "addr": "35 quai de Bosc, 34200 Sète",
+  "src": "https://site.lasinguliere7.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://site.lasinguliere7.fr/",
+   "source": "https://site.lasinguliere7.fr/",
+   "verifieLe": "2026-11-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mar": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "mer": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sam": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "source": "https://site.lasinguliere7.fr/",
+    "verifieLe": "2026-11-20"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie du Petit Caboulot",
+  "c": "Entre-Vignes",
+  "d": "34",
+  "lat": 43.72912,
+  "lon": 4.08103,
+  "km": 222.8,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie dont le site donne des heures d'ouverture le mercredi, le vendredi et le samedi ; on y récupère les bières commandées, d'après une actualité du site ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes.",
+  "addr": "25 chemin des Cigales, 34400 Entre-Vignes",
+  "src": "https://brasseriepetitcaboulot.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "07 49 07 01 23",
+   "source": "https://brasseriepetitcaboulot.com",
+   "verifieLe": "2026-11-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "source": "https://brasseriepetitcaboulot.com",
+    "verifieLe": "2026-11-20"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de Raspailhac",
+  "c": "Saint-Vincent-d'Olargues",
+  "d": "34",
+  "lat": 43.56566,
+  "lon": 2.89241,
+  "km": 276.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Bières naturelles labellisées Nature & Progrès, brassées depuis 2017 ; vente à la propriété et visites, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+  "addr": "2 rue de la Croix, 34390 Saint-Vincent-d'Olargues",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-raspailhac-saint-vincent-d-olargues_TFODEGLAR034V525BTD/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://brasseriederaspailhac.eu/",
+   "source": "https://brasseriederaspailhac.eu/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "La Brasserie du Lez",
+  "c": "Saint-Clément-de-Rivière",
+  "d": "34",
+  "lat": 43.6812,
+  "lon": 3.84296,
+  "km": 233.1,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Saint-Clément-de-Rivière qui vend en ligne, d'après son site. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "addr": "Route de Montferrier, 34980 Saint-Clément-de-Rivière",
+  "src": "https://www.brasserie-du-lez.beer",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "06 69 02 30 02",
+   "site": "https://www.brasserie-du-lez.beer",
+   "source": "https://www.brasserie-du-lez.beer/contact/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "La Brasserie des Aucels",
+  "c": "Bédarieux",
+  "d": "34",
+  "lat": 43.6112,
+  "lon": 3.15167,
+  "km": 262.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Vente directe au magasin, ouvert à l'année, d'après l'office de tourisme d'Occitanie ; son site donne des heures du mardi au samedi (10 h-12 h 30 et 14 h-18 h 30) sans dire si ce sont celles du magasin.",
+  "addr": "84 avenue Jean Jaurès, 34600 Bédarieux",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-des-aucels-bedarieux_TFODEGLAR034V51KQ4L/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 30 40 64 85",
+   "site": "https://brasseriedesaucels.fr",
+   "source": "https://brasseriedesaucels.fr",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie La Malpolon",
+  "c": "Lavérune",
+  "d": "34",
+  "lat": 43.58202,
+  "lon": 3.81309,
+  "km": 244.3,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée ; boutique à l'accueil de la brasserie du lundi au vendredi de 9 h à 17 h 30, et le soir à la guinguette, d'après son site. Aucun téléphone publié.",
+  "addr": "10 rue de la Prade, ZI Sud, 34880 Lavérune",
+  "src": "https://lamalpolon.fr/guinguette/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "site": "https://lamalpolon.fr/",
+   "source": "https://lamalpolon.fr/guinguette/",
+   "verifieLe": "2026-11-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "mer": [
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sam": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "source": "https://lamalpolon.fr/guinguette/",
+    "verifieLe": "2026-11-20"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "17:30"
+     ]
+    ],
+    "source": "https://lamalpolon.fr/guinguette/",
+    "verifieLe": "2026-11-20"
+   }
+  ]
+ },
+ {
+  "n": "Toria",
+  "c": "Béziers",
+  "d": "34",
+  "lat": 43.3316,
+  "lon": 3.25841,
+  "km": 286.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie avec bar et restaurant, où l'on vient déguster ses bières, d'après son site. La vente à emporter n'est pas dite (boutique en ligne). Aucun horaire publié.",
+  "addr": "24 avenue Jean Foucault, 34500 Béziers",
+  "src": "https://www.toria.beer/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 48 20 10 50",
+   "site": "https://www.toria.beer/",
+   "source": "https://www.toria.beer/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie La Vacqueroise",
+  "c": "La Vacquerie-et-Saint-Martin-de-Castries",
+  "d": "34",
+  "lat": 43.79082,
+  "lon": 3.4578,
+  "km": 233.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Restaurant et terrasse où l'on déguste les bières de la brasserie et des tartines de produits locaux, d'après l'office de tourisme d'Occitanie, qui le dit ouvert du 14 septembre au 31 décembre 2026, sans jours ni heures. La vente à emporter n'est pas dite.",
+  "addr": "47 Grand Rue, 34520 La Vacquerie-et-Saint-Martin-de-Castries",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20"
+ },
+ {
+  "n": "La Bière du Docteur",
+  "c": "Vendémian",
+  "d": "34",
+  "lat": 43.5812,
+  "lon": 3.56041,
+  "km": 251.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian : visite sur rendez-vous, avec dégustation d'une bière, d'après son site. La vente n'est pas dite.",
+  "addr": "2592 route de Saint-Jean, 34230 Vendémian",
+  "src": "https://docteur.beer",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "06 65 10 40 39",
+   "site": "https://docteur.beer",
+   "source": "https://docteur.beer",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie de la Séranne",
+  "c": "Brissac",
+  "d": "34",
+  "lat": 43.886,
+  "lon": 3.70374,
+  "km": 215.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières ; une actualité de saison annonce un verre en terrasse les jours de semaine jusqu'à 19 h, d'après son site. Le samedi et la vente ne sont pas dits.",
+  "addr": "Bât 4 La Papeterie, 34190 Brissac",
+  "src": "https://brasseriedelaseranne.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "06 07 66 89 76",
+   "site": "https://brasseriedelaseranne.fr",
+   "source": "https://brasseriedelaseranne.fr",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie Baudille",
+  "c": "Montpeyroux",
+  "d": "34",
+  "lat": 43.68505,
+  "lon": 3.51558,
+  "km": 241.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. La page contact donne des horaires (samedi et dimanche fermés) sans les rattacher au taproom. Téléphone des ventes pro, publié par la brasserie : 06 47 64 44 35.",
+  "addr": "965 Route de Lagamas, 34150 Montpeyroux",
+  "src": "https://brasseriebaudille.com/bar-scene-cantine/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20"
+ },
+ {
+  "n": "Brasserie Oppidum",
+  "c": "Capestang",
+  "d": "34",
+  "lat": 43.32537,
+  "lon": 3.04492,
+  "km": 294.3,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault ; la table n'ouvre que d'avril à octobre. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.",
+  "addr": "46 Cours Belfort, 34310 Capestang",
+  "src": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-oppidum-capestang_TFODEGLAR034V523ZA3/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20"
+ },
+ {
+  "n": "Brasserie Lodèva",
+  "c": "Lodève",
+  "d": "34",
+  "lat": 43.73011,
+  "lon": 3.32407,
+  "km": 244.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie et bar-restaurant Le Jardin : bières à la pression, sur place ou à emporter, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.",
+  "addr": "9 avenue Denfert, 34700 Lodève",
+  "src": "https://www.herault-tourisme.com/fr/fiche/restauration/le-jardin-brasserie-lodeva-lodeve_TFORESLAR034V51XC3E/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20"
+ },
+ {
+  "n": "SOMI",
+  "c": "Montpellier",
+  "d": "34",
+  "lat": 43.57768,
+  "lon": 3.85526,
+  "km": 243.8,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Bar de la microbrasserie, avec terrasse perchée, le jeudi et le vendredi de 17 h à 22 h 30 ; achat de canettes et de fûts à la brasserie du lundi au vendredi, d'après son site.",
+  "addr": "200 allée Jean-François Lesueur, 34070 Montpellier",
+  "src": "https://somi.beer/bar-a-biere/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "06 68 19 27 63",
+   "site": "https://somi.beer/",
+   "source": "https://somi.beer/",
+   "verifieLe": "2026-11-20"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "jeu": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "ven": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "source": "https://somi.beer/bar-a-biere/",
+    "verifieLe": "2026-11-20"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "13:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://somi.beer/bar-a-biere/",
+    "verifieLe": "2026-11-20"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Làsarde",
+  "c": "Saint-Guilhem-le-Désert",
+  "d": "34",
+  "lat": 43.73482,
+  "lon": 3.54815,
+  "km": 235.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de Saint-Guilhem-le-Désert : bar et patio, bières au verre et à la pression, boutique pour emporter ses bouteilles, visite du laboratoire, d'après l'office de tourisme d'Occitanie. Ouverte toute l'année ; aucun horaire par jour publié.",
+  "addr": "20 Chemin du Bout du Monde, 34150 Saint-Guilhem-le-Désert",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/brasserie-lasarde-saint-guilhem-le-desert_TFORESLAR034V52E2ZY/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20"
+ },
+ {
+  "n": "Brasserie Alaryk",
+  "c": "Béziers",
+  "d": "34",
+  "lat": 43.33989,
+  "lon": 3.19216,
+  "km": 287.6,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie bio avec un caveau de vente, ouvert du mardi au samedi jusqu'au 31 décembre 2026 (le matin de 9 h 30 à 12 h 30, l'après-midi jusqu'à 19 h), d'après l'office de tourisme de l'Hérault ; visite de la brasserie sur rendez-vous.",
+  "addr": "2 rue des Poiriers, 34500 Béziers",
+  "src": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-alaryk-beziers_TFODEGLAR034V52TZ7P/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 80 12 76",
+   "site": "https://maisonalaryk.fr/",
+   "source": "https://maisonalaryk.fr/",
+   "verifieLe": "2026-11-20"
+  }
+ },
+ {
+  "n": "Brasserie des Ruffes",
+  "c": "Le Puech",
+  "d": "34",
+  "lat": 43.69074,
+  "lon": 3.33499,
+  "km": 247.5,
+  "cat": 1,
+  "conf": "solide",
+  "note": "Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h), samedi, dimanche et lundi fermés, sans dire s'ils sont ceux de la vente.",
+  "addr": "71 rue de l'Aire, Hameau de Rabejac, 34700 Le Puech",
+  "src": "https://brasseriedesruffes.fr",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-20",
+  "contact": {
+   "tel": "04 67 44 66 67",
+   "site": "https://brasseriedesruffes.fr",
+   "source": "https://brasseriedesruffes.fr/contact-brasserie",
+   "verifieLe": "2026-11-20"
+  }
  }
 ]

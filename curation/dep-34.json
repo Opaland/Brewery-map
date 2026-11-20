@@ -107,7 +107,7 @@
     "km": 287.2,
     "cat": 1,
     "conf": "faible",
-    "note": "Brasserie artisanale, bar et boutique au bord du canal du Midi, d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.",
+    "note": "Brasserie artisanale, bar et boutique (« Canal du demi », dit son en-tête), d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.",
     "addr": "2 avenue Joseph Lazare, 34500 Béziers",
     "src": "http://www.lagorgefraiche.fr/",
     "coordPrecision": "address",
@@ -324,7 +324,7 @@
     "km": 222.8,
     "cat": 2,
     "conf": "moyenne",
-    "note": "On commande ses bières et on les récupère à la brasserie le mercredi, le vendredi et le samedi ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes, d'après son site.",
+    "note": "Brasserie dont le site donne des heures d'ouverture le mercredi, le vendredi et le samedi ; on y récupère les bières commandées, d'après une actualité du site ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes.",
     "addr": "25 chemin des Cigales, 34400 Entre-Vignes",
     "src": "https://brasseriepetitcaboulot.com",
     "coordPrecision": "address",
@@ -336,7 +336,7 @@
     },
     "horaires": [
      {
-      "nature": "vente",
+      "nature": "accueil",
       "mer": [
        [
         "17:00",
@@ -370,7 +370,7 @@
     "https://data.geopf.fr/geocodage/search?q=25+chemin+des+Cigales%2C+34400+Entre-Vignes&limit=5"
    ],
    "extrait": "Commander et récupérer vos bières directement à la brasserie !",
-   "choix": "Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris."
+   "choix": "Site officiel relu sur la page brute le 20/11. Les heures sont celles que le site appelle « Horaires d'ouvertures » : grille d'accueil, pas de vente (revue de la persona du 20/11). Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris."
   },
   {
    "fiche": {
@@ -469,15 +469,15 @@
     "n": "Brasserie La Malpolon",
     "c": "Lavérune",
     "d": "34",
-    "lat": 43.5862,
-    "lon": 3.80488,
-    "km": 244.1,
+    "lat": 43.58202,
+    "lon": 3.81309,
+    "km": 244.3,
     "cat": 1,
-    "conf": "moyenne",
-    "note": "Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée, et une boutique, d'après son site. Aucun téléphone publié.",
-    "addr": "ZI Sud, 34880 Lavérune",
+    "conf": "solide",
+    "note": "Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée ; boutique à l'accueil de la brasserie du lundi au vendredi de 9 h à 17 h 30, et le soir à la guinguette, d'après son site. Aucun téléphone publié.",
+    "addr": "10 rue de la Prade, ZI Sud, 34880 Lavérune",
     "src": "https://lamalpolon.fr/guinguette/",
-    "coordPrecision": "centre",
+    "coordPrecision": "address",
     "beers": [],
     "contact": {
      "site": "https://lamalpolon.fr/",
@@ -513,16 +513,51 @@
       ],
       "source": "https://lamalpolon.fr/guinguette/",
       "verifieLe": "2026-11-20"
+     },
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:30"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "17:30"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "17:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "17:30"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "17:30"
+       ]
+      ],
+      "source": "https://lamalpolon.fr/guinguette/",
+      "verifieLe": "2026-11-20"
      }
     ]
    },
    "verifieLe": "2026-11-20",
    "sources": [
     "https://lamalpolon.fr/guinguette/",
-    "https://data.geopf.fr/geocodage/search?q=Lav%C3%A9rune&type=municipality&limit=5"
+    "https://data.geopf.fr/geocodage/search?q=10+rue+de+la+Prade%2C+ZI+Sud%2C+34880+Lav%C3%A9rune&limit=5"
    ],
    "extrait": "la Guinguette de la Malpolon vous propose toute l'année nos bières à la pression ou en bouteille",
-   "choix": "Site officiel relu sur la page brute le 20/11 (« Mercredi : 17h30 - 22h30 », « Jeudi - Samedi : 17h30 - 23h30 », « BOUTIQUE »). Les heures de la boutique ne sont pas publiées : confiance moyenne."
+   "choix": "Site officiel relu sur la page brute le 20/11 (« Mercredi : 17h30 - 22h30 », « Jeudi - Samedi : 17h30 - 23h30 », « Du lundi au vendredi : 9h à 17h30 »). Adresse complète de la page (revue de la persona du 20/11)."
   },
   {
    "fiche": {
@@ -562,9 +597,9 @@
     "lat": 43.79082,
     "lon": 3.4578,
     "km": 233.2,
-    "cat": 1,
-    "conf": "moyenne",
-    "note": "Restaurant et terrasse où l'on déguste les bières de la brasserie, avec un prix à la bouteille, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+    "cat": 0,
+    "conf": "",
+    "note": "Restaurant et terrasse où l'on déguste les bières de la brasserie et des tartines de produits locaux, d'après l'office de tourisme d'Occitanie, qui le dit ouvert du 14 septembre au 31 décembre 2026, sans jours ni heures. La vente à emporter n'est pas dite.",
     "addr": "47 Grand Rue, 34520 La Vacquerie-et-Saint-Martin-de-Castries",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/",
     "coordPrecision": "address",
@@ -576,7 +611,7 @@
     "https://data.geopf.fr/geocodage/search?q=47+Grand+Rue%2C+34520+La+Vacquerie-et-Saint-Martin-de-Castries&limit=5"
    ],
    "extrait": "déguster leurs bières et manger des spécialités de tartines gourmandes à base de produits locaux",
-   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté."
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Catégorie 0 : un prix à la bouteille dans un restaurant n'est pas une vente à emporter (revue de la persona du 20/11). Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté."
   },
   {
    "fiche": {
@@ -588,7 +623,7 @@
     "km": 251.2,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian ; on y vient sur rendez-vous, d'après son site. Ni vente ni dégustation ne sont dites.",
+    "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian : visite sur rendez-vous, avec dégustation d'une bière, d'après son site. La vente n'est pas dite.",
     "addr": "2592 route de Saint-Jean, 34230 Vendémian",
     "src": "https://docteur.beer",
     "coordPrecision": "centre",
@@ -606,7 +641,7 @@
     "https://data.geopf.fr/geocodage/search?q=Vend%C3%A9mian&type=municipality&limit=5"
    ],
    "extrait": "Vous pouvez venir à la brasserie sur rendez-vous",
-   "choix": "Site officiel relu sur la page brute le 20/11. La brasserie ne publie que des portables ; le premier est repris (règle du 21/10), le second, rattaché à un prénom, est écarté."
+   "choix": "Site officiel relu sur la page brute le 20/11. La brasserie ne publie que deux portables, chacun à côté d'un prénom (non repris) ; le premier, aussi donné par l'office, est retenu (règle du 21/10). Catégorie 0 : la dégustation se fait pendant une visite, mais aucune vente n'est dite."
   },
   {
    "fiche": {
@@ -618,7 +653,7 @@
     "km": 215.5,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières, avec une terrasse ouverte jusqu'à 19 h, d'après son site. La vente n'est pas dite.",
+    "note": "Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières ; une actualité de saison annonce un verre en terrasse les jours de semaine jusqu'à 19 h, d'après son site. Le samedi et la vente ne sont pas dits.",
     "addr": "Bât 4 La Papeterie, 34190 Brissac",
     "src": "https://brasseriedelaseranne.fr",
     "coordPrecision": "centre",
@@ -648,7 +683,7 @@
     "km": 241.9,
     "cat": 0,
     "conf": "",
-    "note": "Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. Téléphone publié par la brasserie : 06 47 64 44 35.",
+    "note": "Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. La page contact donne des horaires (samedi et dimanche fermés) sans les rattacher au taproom. Téléphone des ventes pro, publié par la brasserie : 06 47 64 44 35.",
     "addr": "965 Route de Lagamas, 34150 Montpeyroux",
     "src": "https://brasseriebaudille.com/bar-scene-cantine/",
     "coordPrecision": "address",
@@ -672,7 +707,7 @@
     "km": 294.3,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.",
+    "note": "Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault ; la table n'ouvre que d'avril à octobre. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.",
     "addr": "46 Cours Belfort, 34310 Capestang",
     "src": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-oppidum-capestang_TFODEGLAR034V523ZA3/",
     "coordPrecision": "address",
@@ -696,7 +731,7 @@
     "km": 244,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Microbrasserie et bar-restaurant Le Jardin : bières à la pression, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.",
+    "note": "Microbrasserie et bar-restaurant Le Jardin : bières à la pression, sur place ou à emporter, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.",
     "addr": "9 avenue Denfert, 34700 Lodève",
     "src": "https://www.herault-tourisme.com/fr/fiche/restauration/le-jardin-brasserie-lodeva-lodeve_TFORESLAR034V51XC3E/",
     "coordPrecision": "address",
@@ -880,7 +915,7 @@
     "km": 247.5,
     "cat": 1,
     "conf": "solide",
-    "note": "Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h) sans dire s'ils sont ceux de la vente.",
+    "note": "Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h), samedi, dimanche et lundi fermés, sans dire s'ils sont ceux de la vente.",
     "addr": "71 rue de l'Aire, Hameau de Rabejac, 34700 Le Puech",
     "src": "https://brasseriedesruffes.fr",
     "coordPrecision": "centre",

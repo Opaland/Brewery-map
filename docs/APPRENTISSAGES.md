@@ -42,6 +42,13 @@ pourquoi.
   quand une source dit « sur rendez-vous », une grille « accueil » affiche
   « ouvert » ou « fermé maintenant », une promesse que la source ne fait pas.
   Parade : les heures vont dans la note, avec « sur rendez-vous » en tête.
+- **Un prix à la bouteille dans un restaurant n'est pas une vente à emporter**
+  (20/11, La Vacqueroise) ; un bar sans vente dite reste en catégorie 0, faute
+  de « pas de vente à emporter » écrit (catégorie 4). Parade : chercher une
+  phrase qui dit « à emporter », « boutique » ou « vente » avant la catégorie 1.
+- **Un agent peut inventer un lieu à partir d'un jeu de mots** (20/11, « Canal
+  du demi » devenu « au bord du canal du Midi »). Parade : chaque mot de lieu de
+  la note se retrouve dans la page brute.
 - **Doublons SIRENE / OSM** : même site ou même adresse = une seule fiche ;
   l'autre clé va aux raisons « même lieu que … ».
 - **Un agent peut lire le mauvais paquet** (29/10) : lui faire lister ses

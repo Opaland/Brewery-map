@@ -8,9 +8,9 @@
    "lat": 43.79082,
    "lon": 3.4578,
    "km": 233.2,
-   "cat": 1,
-   "conf": "moyenne",
-   "note": "Restaurant et terrasse où l'on déguste les bières de la brasserie, avec un prix à la bouteille, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+   "cat": 0,
+   "conf": "",
+   "note": "Restaurant et terrasse où l'on déguste les bières de la brasserie et des tartines de produits locaux, d'après l'office de tourisme d'Occitanie, qui le dit ouvert du 14 septembre au 31 décembre 2026, sans jours ni heures. La vente à emporter n'est pas dite.",
    "addr": "47 Grand Rue, 34520 La Vacquerie-et-Saint-Martin-de-Castries",
    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/",
    "coordPrecision": "address",
@@ -22,6 +22,6 @@
    "https://data.geopf.fr/geocodage/search?q=47+Grand+Rue%2C+34520+La+Vacquerie-et-Saint-Martin-de-Castries&limit=5"
   ],
   "extrait": "déguster leurs bières et manger des spécialités de tartines gourmandes à base de produits locaux",
-  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté."
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Catégorie 0 : un prix à la bouteille dans un restaurant n'est pas une vente à emporter (revue de la persona du 20/11). Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté."
  }
 }

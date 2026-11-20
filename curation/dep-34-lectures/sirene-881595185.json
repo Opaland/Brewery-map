@@ -10,7 +10,7 @@
    "km": 251.2,
    "cat": 0,
    "conf": "",
-   "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian ; on y vient sur rendez-vous, d'après son site. Ni vente ni dégustation ne sont dites.",
+   "note": "Brasserie installée dans l'ancienne cave coopérative de Vendémian : visite sur rendez-vous, avec dégustation d'une bière, d'après son site. La vente n'est pas dite.",
    "addr": "2592 route de Saint-Jean, 34230 Vendémian",
    "src": "https://docteur.beer",
    "coordPrecision": "centre",
@@ -28,6 +28,6 @@
    "https://data.geopf.fr/geocodage/search?q=Vend%C3%A9mian&type=municipality&limit=5"
   ],
   "extrait": "Vous pouvez venir à la brasserie sur rendez-vous",
-  "choix": "Site officiel relu sur la page brute le 20/11. La brasserie ne publie que des portables ; le premier est repris (règle du 21/10), le second, rattaché à un prénom, est écarté."
+  "choix": "Site officiel relu sur la page brute le 20/11. La brasserie ne publie que deux portables, chacun à côté d'un prénom (non repris) ; le premier, aussi donné par l'office, est retenu (règle du 21/10). Catégorie 0 : la dégustation se fait pendant une visite, mais aucune vente n'est dite."
  }
 }

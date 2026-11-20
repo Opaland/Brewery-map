@@ -3,7 +3,7 @@
 Ce lot ajoute **24 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 75 candidats = 24 proposés + 51 non proposés (tableau ci-dessous).
-Catégories proposées : 9 « acheter et consommer », 6 « acheter seulement », 0 « pas de vente », 9 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 8 « acheter et consommer », 6 « acheter seulement », 0 « pas de vente », 10 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -103,12 +103,12 @@ Extrait lu : « à déguster sur place ou à emporter pour remplir votre frigo �
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Du Lundi au Vendredi, de 17h à 22h. »). Le point OSM est au Crès ; l'adresse publiée est à Vendargues. Le seul numéro de la page est celui d'un restaurant à Paris : écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 11 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 140 rue de Massacan, 34740 Vendargues
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -154,7 +154,7 @@ Extrait lu : « Venez découvrir mes bières sur place ou dans les différents p
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Horaires Variables ! »). Horaires non repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -177,7 +177,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Horai
 - km : (vide) → 287.2
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → faible
-- note : (vide) → Brasserie artisanale, bar et boutique au bord du canal du Midi, d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.
+- note : (vide) → Brasserie artisanale, bar et boutique (« Canal du demi », dit son en-tête), d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.
 - addr : (vide) → 2 avenue Joseph Lazare, 34500 Béziers
 - src : (vide) → http://www.lagorgefraiche.fr/
 - coordPrecision : (vide) → address
@@ -194,7 +194,7 @@ Extrait lu : « BRASSERIE ARTISANALE BAR BOUTIQUE CANAL DU DEMI »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Confiance faible : le bar n'est dit que dans l'en-tête. Fixe lu sur la page contact.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place (à vérifier)
@@ -234,7 +234,7 @@ Extrait lu : « Livraison, entretien des lignes, location de tireuses, assistanc
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Le fixe est écrit « +33 (0)952677375 », forme que controler ne relit pas : il passe dans la note. Le point OSM de Lattes est la même brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -275,7 +275,7 @@ Extrait lu : « Dégustation de 3 bières de la brasserie »
 
 Choix du vérificateur : Site officiel et fiche de l'office de l'Hérault relus sur la page brute le 20/11. La vente n'est dite que par l'office : confiance moyenne. Les horaires de la page contact ne disent pas à quoi ils s'appliquent. Catégorie 2 : la dégustation est liée à la visite.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -316,7 +316,7 @@ Extrait lu : « Cette spécialité locale est disponible en vente directe à la 
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Fixe lu dans le bloc de la brasserie (règle du 31/10) ; le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -357,7 +357,7 @@ Extrait lu : « une brasserie artisanale fondée en 2017 sur Castelnau le lez »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Le bar cité par une page générale de l'office et les horaires d'annuaires ne sont pas repris. Fixe lu sur le site.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -405,12 +405,12 @@ Extrait lu : « Une microbrasserie et un bar dans un même lieux. »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégorie 0 : un bar sans vente demanderait « pas de vente à emporter » écrit (catégorie 4), comme pour Aurignac Ale le 18/11. Adresse du registre SIRENE, le site dit « sur les quais de Sète ». Le fixe est écrit « +33 », forme que controler ne relit pas : il passe dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 8 h 11 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 35 quai de Bosc, 34200 Sète
 > - Pas encore dans la fiche : ses bières.
@@ -440,7 +440,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégor
 - km : (vide) → 222.8
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → On commande ses bières et on les récupère à la brasserie le mercredi, le vendredi et le samedi ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes, d'après son site.
+- note : (vide) → Brasserie dont le site donne des heures d'ouverture le mercredi, le vendredi et le samedi ; on y récupère les bières commandées, d'après une actualité du site ; visites le dimanche sur réservation, pour des groupes de 6 à 20 personnes.
 - addr : (vide) → 25 chemin des Cigales, 34400 Entre-Vignes
 - src : (vide) → https://brasseriepetitcaboulot.com
 - coordPrecision : (vide) → address
@@ -448,7 +448,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégor
 - contact.tel : (vide) → 07 49 07 01 23
 - contact.source : (vide) → https://brasseriepetitcaboulot.com
 - contact.verifieLe : (vide) → 2026-11-20
-- horaires.0.nature : (vide) → vente
+- horaires.0.nature : (vide) → accueil
 - horaires.0.mer : (vide) → 17 h – 19 h
 - horaires.0.ven : (vide) → 17 h – 19 h
 - horaires.0.sam : (vide) → 10 h – 13 h, 17 h – 19 h
@@ -460,14 +460,14 @@ Sources (vérifiée le 2026-11-20) : https://brasseriepetitcaboulot.com ; https:
 
 Extrait lu : « Commander et récupérer vos bières directement à la brasserie ! »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris.
+Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Les heures sont celles que le site appelle « Horaires d'ouvertures » : grille d'accueil, pas de vente (revue de la persona du 20/11). Le seul numéro publié par la brasserie est un portable (règle du 21/10) ; celui de l'office, différent, est écarté. Les horaires de l'office, différents de ceux du site, ne sont pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 11 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 25 chemin des Cigales, 34400 Entre-Vignes
 > - Pas encore dans la fiche : ses bières.
@@ -475,7 +475,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Le seul 
 > - Joindre la brasserie
 > - [Appeler le 07 49 07 01 23](tel:+33749070123)
 > - Horaires
-> - Horaires de vente
+> - Horaires d’accueil du public
 > - Lundi | non précisé
 > - Mardi | non précisé
 > - Mercredi | 17 h – 19 h
@@ -512,7 +512,7 @@ Extrait lu : « Vente à la propriété »
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Adresse de l'office. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -552,7 +552,7 @@ Extrait lu : « brassée et embouteillée dans l’Hérault à Saint Clément de
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Le seul numéro publié par la brasserie est un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -593,7 +593,7 @@ Extrait lu : « vente directe de la production de bières au magasin ouvert à l
 
 Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 20/11. Fixe publié par la brasserie sur son site. Les heures restent dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -612,15 +612,15 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - n : (vide) → Brasserie La Malpolon
 - c : (vide) → Lavérune
 - d : (vide) → 34
-- lat : (vide) → 43.5862
-- lon : (vide) → 3.80488
-- km : (vide) → 244.1
+- lat : (vide) → 43.58202
+- lon : (vide) → 3.81309
+- km : (vide) → 244.3
 - cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
-- note : (vide) → Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée, et une boutique, d'après son site. Aucun téléphone publié.
-- addr : (vide) → ZI Sud, 34880 Lavérune
+- conf : (vide) → solide
+- note : (vide) → Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée ; boutique à l'accueil de la brasserie du lundi au vendredi de 9 h à 17 h 30, et le soir à la guinguette, d'après son site. Aucun téléphone publié.
+- addr : (vide) → 10 rue de la Prade, ZI Sud, 34880 Lavérune
 - src : (vide) → https://lamalpolon.fr/guinguette/
-- coordPrecision : (vide) → centre
+- coordPrecision : (vide) → address
 - beers : (vide) → []
 - contact.site : (vide) → https://lamalpolon.fr/
 - contact.source : (vide) → https://lamalpolon.fr/guinguette/
@@ -632,22 +632,30 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - horaires.0.sam : (vide) → 17 h 30 – 23 h 30
 - horaires.0.source : (vide) → https://lamalpolon.fr/guinguette/
 - horaires.0.verifieLe : (vide) → 2026-11-20
+- horaires.1.nature : (vide) → vente
+- horaires.1.lun : (vide) → 9 h – 17 h 30
+- horaires.1.mar : (vide) → 9 h – 17 h 30
+- horaires.1.mer : (vide) → 9 h – 17 h 30
+- horaires.1.jeu : (vide) → 9 h – 17 h 30
+- horaires.1.ven : (vide) → 9 h – 17 h 30
+- horaires.1.source : (vide) → https://lamalpolon.fr/guinguette/
+- horaires.1.verifieLe : (vide) → 2026-11-20
 - verifieLe : (vide) → 2026-11-20
 
-Sources (vérifiée le 2026-11-20) : https://lamalpolon.fr/guinguette/ ; https://data.geopf.fr/geocodage/search?q=Lav%C3%A9rune&type=municipality&limit=5
+Sources (vérifiée le 2026-11-20) : https://lamalpolon.fr/guinguette/ ; https://data.geopf.fr/geocodage/search?q=10+rue+de+la+Prade%2C+ZI+Sud%2C+34880+Lav%C3%A9rune&limit=5
 
 Extrait lu : « la Guinguette de la Malpolon vous propose toute l'année nos bières à la pression ou en bouteille »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Mercredi : 17h30 - 22h30 », « Jeudi - Samedi : 17h30 - 23h30 », « BOUTIQUE »). Les heures de la boutique ne sont pas publiées : confiance moyenne.
+Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Mercredi : 17h30 - 22h30 », « Jeudi - Samedi : 17h30 - 23h30 », « Du lundi au vendredi : 9h à 17h30 »). Adresse complète de la page (revue de la persona du 20/11).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 11 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h 30.
+> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h 30.
 > - Adresse
-> - ZI Sud, 34880 Lavérune
+> - 10 rue de la Prade, ZI Sud, 34880 Lavérune
 > - Pas encore dans la fiche : son téléphone et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+La+Malpolon+Lav%C3%A9rune)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+La+Malpolon&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
@@ -663,7 +671,17 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Mercr
 > - Samedi | 17 h 30 – 23 h 30
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Lu sur [lamalpolon.fr](https://lamalpolon.fr/guinguette/) le 20 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - À 8 h 20 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
+> - Horaires de vente
+> - Lundi | 9 h – 17 h 30
+> - Mardi | 9 h – 17 h 30
+> - Mercredi | 9 h – 17 h 30
+> - Jeudi | 9 h – 17 h 30
+> - Vendredi | 9 h – 17 h 30
+> - Samedi | non précisé
+> - Dimanche | non précisé
+> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
+> - Lu sur [lamalpolon.fr](https://lamalpolon.fr/guinguette/) le 20 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
 ### 14. Toria — fiche nouvelle
 
@@ -692,7 +710,7 @@ Extrait lu : « Venez déguster nos bières directement à la brasserie ou vous 
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. Fixe lu sur le site.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -714,9 +732,9 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégor
 - lat : (vide) → 43.79082
 - lon : (vide) → 3.4578
 - km : (vide) → 233.2
-- cat : (vide) → 1 (Acheter et consommer sur place)
-- conf : (vide) → moyenne
-- note : (vide) → Restaurant et terrasse où l'on déguste les bières de la brasserie, avec un prix à la bouteille, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.
+- cat : (vide) → 0 (À confirmer)
+- conf : (vide) → (vide)
+- note : (vide) → Restaurant et terrasse où l'on déguste les bières de la brasserie et des tartines de produits locaux, d'après l'office de tourisme d'Occitanie, qui le dit ouvert du 14 septembre au 31 décembre 2026, sans jours ni heures. La vente à emporter n'est pas dite.
 - addr : (vide) → 47 Grand Rue, 34520 La Vacquerie-et-Saint-Martin-de-Castries
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/
 - coordPrecision : (vide) → address
@@ -727,18 +745,18 @@ Sources (vérifiée le 2026-11-20) : https://www.tourisme-occitanie.com/fr/fiche
 
 Extrait lu : « déguster leurs bières et manger des spécialités de tartines gourmandes à base de produits locaux »
 
-Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté.
+Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Catégorie 0 : un prix à la bouteille dans un restaurant n'est pas une vente à emporter (revue de la persona du 20/11). Le domaine annoncé comme site de la brasserie sert un contenu sans rapport : non repris. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter et consommer sur place
+> - À confirmer
 > - Adresse
 > - 47 Grand Rue, 34520 La Vacquerie-et-Saint-Martin-de-Castries
 > - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+La+Vacqueroise+La+Vacquerie-et-Saint-Martin-de-Castries)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+La+Vacqueroise&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
-> - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/) le 20 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-la-vacqueroise-la-vacquerie-et-saint-martin-de-castries_TFODEGLAR034V523LSA/) le 20 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
 ### 16. La Bière du Docteur — fiche nouvelle
 
@@ -750,7 +768,7 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 - km : (vide) → 251.2
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie installée dans l'ancienne cave coopérative de Vendémian ; on y vient sur rendez-vous, d'après son site. Ni vente ni dégustation ne sont dites.
+- note : (vide) → Brasserie installée dans l'ancienne cave coopérative de Vendémian : visite sur rendez-vous, avec dégustation d'une bière, d'après son site. La vente n'est pas dite.
 - addr : (vide) → 2592 route de Saint-Jean, 34230 Vendémian
 - src : (vide) → https://docteur.beer
 - coordPrecision : (vide) → centre
@@ -765,9 +783,9 @@ Sources (vérifiée le 2026-11-20) : https://docteur.beer ; https://data.geopf.f
 
 Extrait lu : « Vous pouvez venir à la brasserie sur rendez-vous »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 20/11. La brasserie ne publie que des portables ; le premier est repris (règle du 21/10), le second, rattaché à un prénom, est écarté.
+Choix du vérificateur : Site officiel relu sur la page brute le 20/11. La brasserie ne publie que deux portables, chacun à côté d'un prénom (non repris) ; le premier, aussi donné par l'office, est retenu (règle du 21/10). Catégorie 0 : la dégustation se fait pendant une visite, mais aucune vente n'est dite.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -791,7 +809,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. La brass
 - km : (vide) → 215.5
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières, avec une terrasse ouverte jusqu'à 19 h, d'après son site. La vente n'est pas dite.
+- note : (vide) → Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières ; une actualité de saison annonce un verre en terrasse les jours de semaine jusqu'à 19 h, d'après son site. Le samedi et la vente ne sont pas dits.
 - addr : (vide) → Bât 4 La Papeterie, 34190 Brissac
 - src : (vide) → https://brasseriedelaseranne.fr
 - coordPrecision : (vide) → centre
@@ -808,7 +826,7 @@ Extrait lu : « c’est ici que vous pouvez venir les déguster »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les points OSM de Causse-de-la-Selle sont la même brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -832,7 +850,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégor
 - km : (vide) → 241.9
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. Téléphone publié par la brasserie : 06 47 64 44 35.
+- note : (vide) → Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. La page contact donne des horaires (samedi et dimanche fermés) sans les rattacher au taproom. Téléphone des ventes pro, publié par la brasserie : 06 47 64 44 35.
 - addr : (vide) → 965 Route de Lagamas, 34150 Montpeyroux
 - src : (vide) → https://brasseriebaudille.com/bar-scene-cantine/
 - coordPrecision : (vide) → address
@@ -845,7 +863,7 @@ Extrait lu : « pour déguster toute la gamme Baudille en pression sur pas moins
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. La brasserie ne publie que deux portables ; celui des ventes est écrit sans espaces, forme que controler ne relit pas : il passe dans la note ; l'autre, rattaché à un prénom, est écarté. Les horaires de la page contact ne disent pas s'ils sont ceux du taproom. Le point OSM de Saint-Jean-de-Fos est la même brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -868,7 +886,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11. Catégor
 - km : (vide) → 294.3
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.
+- note : (vide) → Brasserie, boutique et restaurant : vente des produits de l'exploitation, bar, terrasse et dégustation, d'après l'office de tourisme de l'Hérault ; la table n'ouvre que d'avril à octobre. Téléphone de la brasserie, lu sur l'office : 04 67 00 50 09.
 - addr : (vide) → 46 Cours Belfort, 34310 Capestang
 - src : (vide) → https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-oppidum-capestang_TFODEGLAR034V523ZA3/
 - coordPrecision : (vide) → address
@@ -881,7 +899,7 @@ Extrait lu : « Vente des produits de l’exploitation »
 
 Choix du vérificateur : Fiche de l'office de l'Hérault relue sur la page brute le 20/11 (« Terrasse », « Bar », « Dégustation »). Pas de site propre. Le fixe, lu dans le bloc de la brasserie (règle du 31/10), est écrit « +33 » : il passe dans la note. Les horaires de l'office ne disent pas s'ils sont ceux du bar ou de la boutique.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -904,7 +922,7 @@ Choix du vérificateur : Fiche de l'office de l'Hérault relue sur la page brute
 - km : (vide) → 244
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Microbrasserie et bar-restaurant Le Jardin : bières à la pression, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.
+- note : (vide) → Microbrasserie et bar-restaurant Le Jardin : bières à la pression, sur place ou à emporter, dégustation, concerts l'été, d'après l'office de tourisme de l'Hérault, qui la dit ouverte du mardi au samedi de 18 h à 23 h (1 h du matin le samedi), fermée entre Noël et le Nouvel An.
 - addr : (vide) → 9 avenue Denfert, 34700 Lodève
 - src : (vide) → https://www.herault-tourisme.com/fr/fiche/restauration/le-jardin-brasserie-lodeva-lodeve_TFORESLAR034V51XC3E/
 - coordPrecision : (vide) → address
@@ -917,7 +935,7 @@ Extrait lu : « une microbrasserie dédiée au brassage de bières artisanales b
 
 Choix du vérificateur : Fiche de l'office de l'Hérault relue sur la page brute le 20/11. Les horaires restent dans la note : le samedi passe minuit. Les tarifs à la bouteille de l'office disent une vente. Le portable de l'office est écarté ; le site de la brasserie n'a pas été lu.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -968,12 +986,12 @@ Extrait lu : « afterworks tous les jeudis et vendredis, de 17h à 22h30 »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Jeudi : 17h – 22h30 », « Du lundi au vendredi : 9h–13h et 14h–18h »). La brasserie ne publie que deux portables ; le premier, aussi repris par l'office, est retenu (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 11 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
+> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 200 allée Jean-François Lesueur, 34070 Montpellier
 > - Pas encore dans la fiche : ses bières.
@@ -991,7 +1009,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Jeudi
 > - Samedi | non précisé
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - À 8 h 11 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
+> - À 8 h 20 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
 > - Horaires de vente
 > - Lundi | 9 h – 13 h, 14 h – 18 h
 > - Mardi | 9 h – 13 h, 14 h – 18 h
@@ -1026,7 +1044,7 @@ Extrait lu : « la boutique LÀSARDE vous permet de vous offrir à emporter les 
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Pas de site propre trouvé. Le portable de l'office est écarté.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -1064,7 +1082,7 @@ Extrait lu : « Vente des produits de l’exploitation »
 
 Choix du vérificateur : Fiche de l'office de l'Hérault et site officiel relus sur la page brute le 20/11. Horaires de l'office (« Du 01/09 au 31/12/2026 le mardi de 9h30 à 12h30 et de 15h à 19h… ») dans la note : ils sont bornés à 2026. Fixe lu sur le site de la brasserie. Le point OSM de Sérignan est la même brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -1088,7 +1106,7 @@ Choix du vérificateur : Fiche de l'office de l'Hérault et site officiel relus 
 - km : (vide) → 247.5
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → solide
-- note : (vide) → Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h) sans dire s'ils sont ceux de la vente.
+- note : (vide) → Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h), samedi, dimanche et lundi fermés, sans dire s'ils sont ceux de la vente.
 - addr : (vide) → 71 rue de l'Aire, Hameau de Rabejac, 34700 Le Puech
 - src : (vide) → https://brasseriedesruffes.fr
 - coordPrecision : (vide) → centre
@@ -1105,7 +1123,7 @@ Extrait lu : « Découvrez notre espace bar à bières pour une dégustation con
 
 Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Vente directe sur place, à emporter & coffrets cadeaux »). Le fixe du pied de page de la page contact est repris ; le portable de la même page est écarté, puisqu'un fixe existe. Les heures restent dans la note : leur écriture (« 10H00 - 12H00 - 14H00 - 18H00 ») n'est pas relue par controler.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:11, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 20 novembre 2026 à 08:20, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -1119,4 +1137,4 @@ Choix du vérificateur : Site officiel relu sur la page brute le 20/11 (« Vente
 > - [Site de la brasserie](https://brasseriedesruffes.fr)
 > - Lu sur [brasseriedesruffes.fr](https://brasseriedesruffes.fr) le 20 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
-Empreinte du lot : 33b6905bb1b4
+Empreinte du lot : 8af72bf841f0
