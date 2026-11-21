@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 34 (Hérault), S348 (Occitanie) : PR ouverte le 20/11 ; si elle est mergée, passer au 46 (Lot). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 1 (20/11) |
+| Département en cours | 34 (Hérault), S348 (Occitanie) : PR ouverte le 21/11 ; si elle est mergée, passer au 46 (Lot). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 2 (20/11 : lot appliqué, PR non ouverte ; 21/11 : PR ouverte) |
 | Issue du département | #189 |
 | Dernier département terminé | 32 (19/11, PR #295, 3 fiches) |
 

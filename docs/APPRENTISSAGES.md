@@ -132,3 +132,8 @@ pourquoi.
   ce jour-là, comme la routine le dit ; `npm ci` avant le premier outil
   (`tsx` introuvable sinon) ; retélécharger les pages à relire, le carnet
   d'avant ne survit pas au redémarrage.
+- **Une session peut s'arrêter entre le dernier push et l'ouverture de la PR**
+  (20/11, Hérault : lot appliqué et poussé, aucune PR). Parade : le matin,
+  comparer `origin/main` à la branche de travail ; des commits d'un
+  département non mergé veulent dire « ouvrir sa PR d'abord ». Ouvrir la PR
+  dès le premier commit de données, et pousser ensuite les corrections dessus.
