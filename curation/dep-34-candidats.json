@@ -1,0 +1,1673 @@
+[
+ {
+  "cle": "sirene:880571617",
+  "nom": "LIQUID ART BREWING",
+  "communes": [
+   "VENDARGUES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "280 RUE DE LA MARBRERIE 34740 VENDARGUES",
+   "155 AVENUE DES BIGOS 34740 VENDARGUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "880571617",
+  "sirets": [
+   "88057161700013",
+   "88057161700021"
+  ],
+  "osm": [],
+  "lat": 43.6524006233104,
+  "lon": 3.95188218812548,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:884575770",
+  "nom": "SACRILEGE",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "1 RUE DES DEUX PONTS 34000 MONTPELLIER",
+   "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "884575770",
+  "sirets": [
+   "88457577000018",
+   "88457577000034"
+  ],
+  "osm": [
+   "node/11368680033"
+  ],
+  "lat": 43.6051659435425,
+  "lon": 3.88225187163486,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:888842887",
+  "nom": "TER-C",
+  "communes": [
+   "CANET",
+   "NEBIAN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "195 CHEMIN DU GALON BAS 34800 CANET",
+   "2 ROUTE DE FOUSCAIS 34800 NEBIAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888842887",
+  "sirets": [
+   "88884288700026",
+   "88884288700042"
+  ],
+  "osm": [],
+  "lat": 43.603042645,
+  "lon": 3.4942954201,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897455721",
+  "nom": "BREWING BEARS",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "103 IMPASSE CARAVELLE 34000 MONTPELLIER",
+   "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "897455721",
+  "sirets": [
+   "89745572100018",
+   "89745572100026"
+  ],
+  "osm": [
+   "node/11368680035"
+  ],
+  "lat": 43.6140443506014,
+  "lon": 3.8930695107541,
+  "statut": "ambigu",
+  "fiche": "Bears' Tavern"
+ },
+ {
+  "cle": "sirene:910640887",
+  "nom": "BRASSERIE LASARDE",
+  "communes": [
+   "SAINT-GUILHEM-LE-DESERT"
+  ],
+  "departement": "34",
+  "adresses": [
+   "20 RUE DU BOUT DU MONDE 34150 SAINT-GUILHEM-LE-DESERT",
+   "11 PLACE DE LA LIBERTE 34150 SAINT-GUILHEM-LE-DESERT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910640887",
+  "sirets": [
+   "91064088700014",
+   "91064088700022"
+  ],
+  "osm": [],
+  "lat": 43.734858878,
+  "lon": 3.5481894937,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828210179",
+  "nom": "BRASSERIE LA SINGULIERE",
+  "communes": [
+   "SETE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "35 QUAI DE BOSC 34200 SETE",
+   "79 RUE DES CHARBONNIERS 34200 SETE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828210179",
+  "sirets": [
+   "82821017900010",
+   "82821017900028"
+  ],
+  "osm": [],
+  "lat": 43.4073286047066,
+  "lon": 3.69575273235779,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:835309345",
+  "nom": "GUINGUETTE LA MALPOLON",
+  "communes": [
+   "LAVERUNE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "ZI SUD 10 RUE DE LA PRADE 34880 LAVERUNE",
+   "10 RUE DE LA PRADE 34880 LAVERUNE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "835309345",
+  "sirets": [
+   "83530934500014",
+   "83530934500022"
+  ],
+  "osm": [
+   "node/4674732267"
+  ],
+  "lat": 43.5817980111834,
+  "lon": 3.8130344697499,
+  "site": "https://lamalpolon.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "VILLENEUVE-LES-MAGUELONE"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:882565260",
+  "nom": "BRASSERIE BAUDILLE",
+  "communes": [
+   "MONTPEYROUX"
+  ],
+  "departement": "34",
+  "adresses": [
+   "965 ROUTE DE LAGAMAS 34150 MONTPEYROUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882565260",
+  "sirets": [
+   "88256526000032"
+  ],
+  "osm": [],
+  "lat": 43.68505101300235,
+  "lon": 3.515583959268823,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:989055181",
+  "nom": "UTOPIC",
+  "communes": [
+   "SAINT-CLEMENT-DE-RIVIERE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "26 RUE DU ROUND DU BIOU 34980 SAINT-CLEMENT-DE-RIVIERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "989055181",
+  "sirets": [
+   "98905518100014"
+  ],
+  "osm": [],
+  "lat": 43.6989352811351,
+  "lon": 3.84434965291289,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": "NON",
+  "communes": [
+   "CLERMONT-L'HERAULT"
+  ],
+  "departement": "34",
+  "adresses": [
+   "8 BOULEVARD LEDRU ROLLIN 34800 CLERMONT-L'HERAULT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "FELINES-MINERVOIS"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:832107759",
+  "nom": "LA BRASSERIE DU LEZ",
+  "communes": [
+   "SAINT-CLEMENT-DE-RIVIERE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "RTE DE MONTFERRIER 34980 SAINT-CLEMENT-DE-RIVIERE"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "832107759",
+  "sirets": [
+   "83210775900025"
+  ],
+  "osm": [
+   "node/8677581396"
+  ],
+  "lat": 43.6845157762412,
+  "lon": 3.85618360404616,
+  "site": "https://www.brasserie-du-lez.beer",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "COMBAILLAUX"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:943161547",
+  "nom": "BRASSERIE DES RUFFES",
+  "communes": [
+   "LE PUECH"
+  ],
+  "departement": "34",
+  "adresses": [
+   "HAMEAU DE RABEJAC 71 RUE DE L'AIRE RABEJAC 34700 LE PUECH"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "943161547",
+  "sirets": [
+   "94316154700014"
+  ],
+  "osm": [],
+  "lat": 43.6918203696393,
+  "lon": 3.33693774562949,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824210280",
+  "nom": "L'ATELIER BRASSICOLE",
+  "communes": [
+   "ROQUEBRUN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "CHEMIN DU GARRIGAS 34460 ROQUEBRUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824210280",
+  "sirets": [
+   "82421028000015"
+  ],
+  "osm": [],
+  "lat": 43.502531713,
+  "lon": 3.0203939583,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "RIOLS"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:7",
+  "nom": null,
+  "communes": [
+   "SAINT-MARTIN-DE-LONDRES"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:888624392",
+  "nom": "BRASSERIE OPPIDUM",
+  "communes": [
+   "CAPESTANG"
+  ],
+  "departement": "34",
+  "adresses": [
+   "46 COURS BELFORT 34310 CAPESTANG"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "888624392",
+  "sirets": [
+   "88862439200013"
+  ],
+  "osm": [],
+  "lat": 43.3253689848439,
+  "lon": 3.04491600612799,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893992933",
+  "nom": "BLACSTAR",
+  "communes": [
+   "GANGES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "RUE DU MENESTREL 34190 GANGES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "893992933",
+  "sirets": [
+   "89399293300018"
+  ],
+  "osm": [
+   "node/13734734201"
+  ],
+  "lat": 43.933035715,
+  "lon": 3.7117119816,
+  "site": "https://blacstar.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:910446889",
+  "nom": "NOOTKA",
+  "communes": [
+   "VILLENEUVE-LES-BEZIERS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "10 AVENUE DU ROMARIN 34420 VILLENEUVE-LES-BEZIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "910446889",
+  "sirets": [
+   "91044688900016"
+  ],
+  "osm": [],
+  "lat": 43.3280465872506,
+  "lon": 3.28455405281783,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823082219",
+  "nom": "BRASSERIE KISS'WING",
+  "communes": [
+   "MONTBLANC"
+  ],
+  "departement": "34",
+  "adresses": [
+   "QUA DE L'EUROPE 34290 MONTBLANC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823082219",
+  "sirets": [
+   "82308221900010"
+  ],
+  "osm": [],
+  "lat": 43.393178022,
+  "lon": 3.3788201815,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:844539221",
+  "nom": "POPULAR BREWING",
+  "communes": [
+   "SAINT-GEORGES-D'ORQUES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "4 CHEMIN EUGENE BLANCHET 34680 SAINT-GEORGES-D'ORQUES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "844539221",
+  "sirets": [
+   "84453922100029"
+  ],
+  "osm": [],
+  "lat": 43.6187977103345,
+  "lon": 3.77239903950511,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828536177",
+  "nom": "BRASSERIE DU PETIT CABOULOT",
+  "communes": [
+   "ENTRE-VIGNES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "25 CHE DES CIGALES 34400 ENTRE-VIGNES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828536177",
+  "sirets": [
+   "82853617700011"
+  ],
+  "osm": [],
+  "lat": 43.729174508,
+  "lon": 4.0809132741,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:801048000",
+  "nom": "SARL CASTIGNO",
+  "communes": [
+   "ASSIGNAN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "CARRIERA DALS CAMPS 34360 ASSIGNAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "801048000",
+  "sirets": [
+   "80104800000013"
+  ],
+  "osm": [],
+  "lat": 43.398115837,
+  "lon": 2.8895787923,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:921294567",
+  "nom": "SUPERBEER",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "137 RUE MAURICE LE BOUCHER 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "921294567",
+  "sirets": [
+   "92129456700034"
+  ],
+  "osm": [],
+  "lat": 43.58042398491242,
+  "lon": 3.8750890544754792,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:8",
+  "nom": null,
+  "communes": [
+   "LA SALVETAT-SUR-AGOUT"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:9",
+  "nom": null,
+  "communes": [
+   "CASTRIES"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:812538239",
+  "nom": "MACA",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "1 RUE DES DEUX PONTS 34000 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812538239",
+  "sirets": [
+   "81253823900011"
+  ],
+  "osm": [],
+  "lat": 43.6051659435425,
+  "lon": 3.88225187163486,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:812719979",
+  "nom": "BRASSERIE LE DETOUR",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "ZAC DE TOURNEZY 53 RUE DU PASTEUR JEAN CADIER 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "812719979",
+  "sirets": [
+   "81271997900021"
+  ],
+  "osm": [],
+  "lat": 43.582691213,
+  "lon": 3.8774334783,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:948932108",
+  "nom": "S.A.S BRASSERIE OCCIBIERE",
+  "communes": [
+   "AGDE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "42 CHEMIN TERRE ET SABLE 34300 AGDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "948932108",
+  "sirets": [
+   "94893210800012"
+  ],
+  "osm": [],
+  "lat": 43.28475102,
+  "lon": 3.4821013501,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:828826644",
+  "nom": "L'ATELIER BRASSICOLE",
+  "communes": [
+   "ROQUEBRUN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "87 AVENUE DES ORANGERS 34460 ROQUEBRUN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "828826644",
+  "sirets": [
+   "82882664400019"
+  ],
+  "osm": [],
+  "lat": 43.499475234,
+  "lon": 3.019985758,
+  "statut": "doublon",
+  "fiche": "L'ATELIER BRASSICOLE"
+ },
+ {
+  "cle": "sirene:894255678",
+  "nom": "BRASSERIE LODEVA",
+  "communes": [
+   "LODEVE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "9 AV DENFERT 34700 LODEVE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894255678",
+  "sirets": [
+   "89425567800019"
+  ],
+  "osm": [],
+  "lat": 43.729976481,
+  "lon": 3.3239318527,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:10",
+  "nom": null,
+  "communes": [
+   "SAINT-CLEMENT-DE-RIVIERE"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:911472736",
+  "nom": "PAIN LIQUIDE",
+  "communes": [
+   "NEBIAN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "3 RUE MONTESQUIEU 34800 NEBIAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "911472736",
+  "sirets": [
+   "91147273600022"
+  ],
+  "osm": [],
+  "lat": 43.60680403,
+  "lon": 3.4307458887,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:11",
+  "nom": null,
+  "communes": [
+   "AZILLANET"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:919599258",
+  "nom": "BRASSERIE ALARYK",
+  "communes": [
+   "BEZIERS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "2 RUE DES POIRIERS 34500 BEZIERS"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "919599258",
+  "sirets": [
+   "91959925800010"
+  ],
+  "osm": [
+   "node/9625720891"
+  ],
+  "lat": 43.3398913797561,
+  "lon": 3.19190195452787,
+  "site": "https://www.alaryk.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:927528711",
+  "nom": "BRASSERIE ARTISANALE MARSEILLANAISE",
+  "communes": [
+   "MARSEILLAN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "18 RUE VEDEL 34340 MARSEILLAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "927528711",
+  "sirets": [
+   "92752871100017"
+  ],
+  "osm": [],
+  "lat": 43.356304339,
+  "lon": 3.5274270848,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813666682",
+  "nom": "LA BAF",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "1 RUE DE CLARET 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813666682",
+  "sirets": [
+   "81366668200022"
+  ],
+  "osm": [],
+  "lat": 43.6056571908339,
+  "lon": 3.86253339332715,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824221865",
+  "nom": "BRASSERIE ARTISANALE BRESCOU",
+  "communes": [
+   "AGDE"
+  ],
+  "departement": "34",
+  "adresses": [
+   "17 RUE PIERRE PAUL RIQUET 34300 AGDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "824221865",
+  "sirets": [
+   "82422186500010"
+  ],
+  "osm": [],
+  "lat": 43.3091549021558,
+  "lon": 3.49640452062179,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:824362768",
+  "nom": "ZOOBREW",
+  "communes": [
+   "CASTELNAU-LE-LEZ"
+  ],
+  "departement": "34",
+  "adresses": [
+   "185 AVENUE BLAISE PASCAL 34170 CASTELNAU-LE-LEZ"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "824362768",
+  "sirets": [
+   "82436276800015"
+  ],
+  "osm": [
+   "node/6151883427"
+  ],
+  "lat": 43.642382633,
+  "lon": 3.9179609137,
+  "site": "https://www.zoobrew.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:830782512",
+  "nom": "BRASSERIE DE RASPAILHAC",
+  "communes": [
+   "SAINT-VINCENT-D OLARGUES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "HAMEAU DE RASPAILLAC 34390 SAINT-VINCENT-D OLARGUES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "830782512",
+  "sirets": [
+   "83078251200016"
+  ],
+  "osm": [
+   "node/10931864555"
+  ],
+  "lat": 43.565461446,
+  "lon": 2.8929690067,
+  "site": "https://brasseriederaspailhac.eu/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834105629",
+  "nom": "BRASSERIE LPS",
+  "communes": [
+   "BEZIERS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "12 RUE MAURICE DE VLAMINCK 34500 BEZIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834105629",
+  "sirets": [
+   "83410562900010"
+  ],
+  "osm": [],
+  "lat": 43.35886149,
+  "lon": 3.2347117108,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:834665689",
+  "nom": "LA BRASSERIE DES AUCELS",
+  "communes": [
+   "BEDARIEUX"
+  ],
+  "departement": "34",
+  "adresses": [
+   "84 AVENUE JEAN JAURES 34600 BEDARIEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "834665689",
+  "sirets": [
+   "83466568900024"
+  ],
+  "osm": [],
+  "lat": 43.6111743339886,
+  "lon": 3.15177002818241,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:847770948",
+  "nom": "TORIA",
+  "communes": [
+   "BEZIERS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "24 AVENUE JEAN FOUCAULT 34500 BEZIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847770948",
+  "sirets": [
+   "84777094800028"
+  ],
+  "osm": [],
+  "lat": 43.331489226,
+  "lon": 3.2571847844,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:877917245",
+  "nom": "LA VACQUEROISE",
+  "communes": [
+   "LA VACQUERIE-ET-SAINT-MARTIN-DE-CASTRIES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "47 GRAND RUE 34520 LA VACQUERIE-ET-SAINT-MARTIN-DE-CASTRIES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "877917245",
+  "sirets": [
+   "87791724500012"
+  ],
+  "osm": [
+   "node/13800822371"
+  ],
+  "lat": 43.790835427,
+  "lon": 3.4578749106,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:993866672",
+  "nom": "BREW BEACHES",
+  "communes": [
+   "COURNONTERRAL"
+  ],
+  "departement": "34",
+  "adresses": [
+   "19 T RUE DU MOULIN 34660 COURNONTERRAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "993866672",
+  "sirets": [
+   "99386667200021"
+  ],
+  "osm": [],
+  "lat": 43.5580949902038,
+  "lon": 3.71492353021476,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:881595185",
+  "nom": "LA BIERE DU DOCTEUR",
+  "communes": [
+   "VENDEMIAN"
+  ],
+  "departement": "34",
+  "adresses": [
+   "2592 RTE DE ST JEAN 34230 VENDEMIAN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "881595185",
+  "sirets": [
+   "88159518500011"
+  ],
+  "osm": [],
+  "lat": 43.580511144,
+  "lon": 3.5558874585,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892971391",
+  "nom": "BRASSERIE VIC",
+  "communes": [
+   "VIAS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "PREIGNES LE VIEUX 34450 VIAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892971391",
+  "sirets": [
+   "89297139100016"
+  ],
+  "osm": [],
+  "lat": 43.326299023,
+  "lon": 3.3779906983,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:894764943",
+  "nom": "SOMI",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "200 ALLEE JEAN-FRANCOIS LESUEUR 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894764943",
+  "sirets": [
+   "89476494300037"
+  ],
+  "osm": [],
+  "lat": 43.5778989725563,
+  "lon": 3.85558205972364,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:882097058",
+  "nom": "BRASSERIE DE LA SERANNE",
+  "communes": [
+   "BRISSAC"
+  ],
+  "departement": "34",
+  "adresses": [
+   "BATIMENT 4 LA PAPETERIE 34190 BRISSAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "882097058",
+  "sirets": [
+   "88209705800029"
+  ],
+  "osm": [],
+  "lat": 43.8700828898167,
+  "lon": 3.70470764258507,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:908648967",
+  "nom": "BDL BEER",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "10 RUE DU CARRE DU ROI 34000 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "908648967",
+  "sirets": [
+   "90864896700010"
+  ],
+  "osm": [],
+  "lat": 43.6129123424862,
+  "lon": 3.87056096734715,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:897907804",
+  "nom": "TAPROOM",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "897907804",
+  "sirets": [
+   "89790780400016"
+  ],
+  "osm": [],
+  "lat": 43.585508536,
+  "lon": 3.8752003698,
+  "statut": "ambigu",
+  "fiche": "BDQ Taproom & Kitchen"
+ },
+ {
+  "cle": "personne:12",
+  "nom": null,
+  "communes": [
+   "MONTOULIEU"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:801469628",
+  "nom": "LA GORGE FRAICHE",
+  "communes": [
+   "BEZIERS"
+  ],
+  "departement": "34",
+  "adresses": [
+   "2 AVENUE JOSEPH LAZARE 34500 BEZIERS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "801469628",
+  "sirets": [
+   "80146962800037"
+  ],
+  "osm": [],
+  "lat": 43.333987964,
+  "lon": 3.2222187567,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:917812778",
+  "nom": "BRASSERIE PARDELL",
+  "communes": [
+   "LATTES"
+  ],
+  "departement": "34",
+  "adresses": [
+   "16 RUE DU PUECH RADIER 34970 LATTES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "917812778",
+  "sirets": [
+   "91781277800012"
+  ],
+  "osm": [],
+  "lat": 43.578248274,
+  "lon": 3.8801421082,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:13",
+  "nom": null,
+  "communes": [
+   "PAILHES"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:847874872",
+  "nom": "BRASSERIE LANGUEDOCIENNE ARTISANALE",
+  "communes": [
+   "MONTOULIEU"
+  ],
+  "departement": "34",
+  "adresses": [
+   "LE MAS NEUF 34190 MONTOULIEU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "847874872",
+  "sirets": [
+   "84787487200017"
+  ],
+  "osm": [],
+  "lat": 0,
+  "lon": 0,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821954716",
+  "nom": "L'HECTARE",
+  "communes": [
+   "MONTPELLIER"
+  ],
+  "departement": "34",
+  "adresses": [
+   "119 RUE DE PUECH VILLA 34090 MONTPELLIER"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821954716",
+  "sirets": [
+   "82195471600014"
+  ],
+  "osm": [],
+  "lat": 43.639379494,
+  "lon": 3.8341823639,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:823152137",
+  "nom": "LES AMALTEURS DU PIC",
+  "communes": [
+   "VIOLS-LE-FORT"
+  ],
+  "departement": "34",
+  "adresses": [
+   "37 ANCIEN CHEMIN DE MURLES 34380 VIOLS-LE-FORT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "823152137",
+  "sirets": [
+   "82315213700019"
+  ],
+  "osm": [],
+  "lat": 43.741342759,
+  "lon": 3.7057049995,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:14",
+  "nom": null,
+  "communes": [
+   "CAMPLONG"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:15",
+  "nom": null,
+  "communes": [
+   "LE POUGET"
+  ],
+  "departement": "34",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "node/11984233644",
+  "nom": "Pain-Liquide",
+  "communes": [
+   "Pézenas"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/11984233644"
+  ],
+  "lat": 43.46065,
+  "lon": 3.42363,
+  "statut": "ambigu",
+  "fiche": "PAIN LIQUIDE"
+ },
+ {
+  "cle": "node/13238899978",
+  "nom": "Fauve Craft Bière",
+  "communes": [
+   "Le Crès"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13238899978"
+  ],
+  "lat": 43.65394,
+  "lon": 3.95166,
+  "site": "https://fauvebiere.com/pages/micro-brasserie-fauve-craft-biere",
+  "statut": "ambigu",
+  "fiche": "Le Craft"
+ },
+ {
+  "cle": "node/4674787578",
+  "nom": "Brasserie le BBM",
+  "communes": [
+   "Montferrier-sur-Lez"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/4674787578"
+  ],
+  "lat": 43.67637,
+  "lon": 3.86787,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/5167906015",
+  "nom": "Brasserie Saint-Jean (Saint-Jean-de-Védas)",
+  "communes": [
+   "Saint-Jean-de-Védas"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/5167906015"
+  ],
+  "lat": 43.58195,
+  "lon": 3.84462,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7134332662",
+  "nom": "La MatCé",
+  "communes": [
+   "Montpellier"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7134332662"
+  ],
+  "lat": 43.6188,
+  "lon": 3.8905,
+  "site": "https://www.la-matce.fr",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/8000704194",
+  "nom": "Brasserie Le Détour",
+  "communes": [
+   "Lattes"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8000704194"
+  ],
+  "lat": 43.58269,
+  "lon": 3.87733,
+  "site": "https://ledetour.beer",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE LE DETOUR"
+ },
+ {
+  "cle": "node/8138374021",
+  "nom": "La Petite Brasserie",
+  "communes": [
+   "Balaruc-le-Vieux"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/8138374021"
+  ],
+  "lat": 43.46312,
+  "lon": 3.69097,
+  "statut": "ambigu",
+  "fiche": "La Petite Aixoise"
+ },
+ {
+  "cle": "node/9021035903",
+  "nom": "Alaryk",
+  "communes": [
+   "Sérignan"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9021035903"
+  ],
+  "lat": 43.28117,
+  "lon": 3.28013,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9891259517",
+  "nom": "Brasserie de la Serrane",
+  "communes": [
+   "Causse-de-la-Selle"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9891259517"
+  ],
+  "lat": 43.8019,
+  "lon": 3.64059,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/174840300",
+  "nom": "Brasserie Baudille",
+  "communes": [
+   "Saint-Jean-de-Fos"
+  ],
+  "departement": "34",
+  "adresses": [
+   "16 Rue Tras Mayous"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/174840300"
+  ],
+  "lat": 43.7008,
+  "lon": 3.55027,
+  "site": "https://brasseriebaudille.com/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE BAUDILLE"
+ },
+ {
+  "cle": "way/279569100",
+  "nom": "Solea",
+  "communes": [
+   "La Grande-Motte"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/279569100"
+  ],
+  "lat": 43.56332,
+  "lon": 4.10516,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/705088594",
+  "nom": "BB Kombucha",
+  "communes": [
+   "Vailhauquès"
+  ],
+  "departement": "34",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/705088594"
+  ],
+  "lat": 43.6479,
+  "lon": 3.74064,
+  "site": "https://bbkombucha.fr/",
+  "statut": "nouveau"
+ }
+]

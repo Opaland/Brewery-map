@@ -3143,3 +3143,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, sixième partie — le Gers *(19/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 3 paquets ; 3 fiches par la règle de Cédric du 21/10 ; 880 fiches dans 87 départements, OSM à 571. Revue de la persona Cédric traitée avant l'application (une grille d'horaires retirée, un choix précisé), persona Marie après (issue #294 pour la recherche).
+
+## S348, septième partie — l'Hérault *(20/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 13 paquets ; 24 fiches par la règle de Cédric du 21/10 ; 904 fiches dans 88 départements, OSM à 560. Revue de la persona Cédric traitée avant l'application (une catégorie, une adresse, une grille, six notes), persona Hugo après.

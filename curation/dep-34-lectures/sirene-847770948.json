@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:847770948",
+ "ajout": {
+  "fiche": {
+   "n": "Toria",
+   "c": "Béziers",
+   "d": "34",
+   "lat": 43.3316,
+   "lon": 3.25841,
+   "km": 286.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie avec bar et restaurant, où l'on vient déguster ses bières, d'après son site. La vente à emporter n'est pas dite (boutique en ligne). Aucun horaire publié.",
+   "addr": "24 avenue Jean Foucault, 34500 Béziers",
+   "src": "https://www.toria.beer/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 48 20 10 50",
+    "site": "https://www.toria.beer/",
+    "source": "https://www.toria.beer/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.toria.beer/",
+   "https://data.geopf.fr/geocodage/search?q=24+avenue+Jean+Foucault%2C+34500+B%C3%A9ziers&limit=5"
+  ],
+  "extrait": "Venez déguster nos bières directement à la brasserie ou vous pourrez profiter d'un bar et de l'ensemble de nos produits.",
+  "choix": "Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. Fixe lu sur le site."
+ }
+}

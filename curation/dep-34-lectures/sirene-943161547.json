@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:943161547",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Ruffes",
+   "c": "Le Puech",
+   "d": "34",
+   "lat": 43.69074,
+   "lon": 3.33499,
+   "km": 247.5,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Vente directe sur place, à emporter, et espace bar à bières pour déguster sur place, d'après son site, qui donne des horaires du mardi au vendredi (10 h-12 h et 14 h-18 h), samedi, dimanche et lundi fermés, sans dire s'ils sont ceux de la vente.",
+   "addr": "71 rue de l'Aire, Hameau de Rabejac, 34700 Le Puech",
+   "src": "https://brasseriedesruffes.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 44 66 67",
+    "site": "https://brasseriedesruffes.fr",
+    "source": "https://brasseriedesruffes.fr/contact-brasserie",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://brasseriedesruffes.fr",
+   "https://brasseriedesruffes.fr/contact-brasserie",
+   "https://data.geopf.fr/geocodage/search?q=Le+Puech&type=municipality&limit=5"
+  ],
+  "extrait": "Découvrez notre espace bar à bières pour une dégustation conviviale sur place",
+  "choix": "Site officiel relu sur la page brute le 20/11 (« Vente directe sur place, à emporter & coffrets cadeaux »). Le fixe du pied de page de la page contact est repris ; le portable de la même page est écarté, puisqu'un fixe existe. Les heures restent dans la note : leur écriture (« 10H00 - 12H00 - 14H00 - 18H00 ») n'est pas relue par controler."
+ }
+}

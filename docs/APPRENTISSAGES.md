@@ -42,6 +42,13 @@ pourquoi.
   quand une source dit « sur rendez-vous », une grille « accueil » affiche
   « ouvert » ou « fermé maintenant », une promesse que la source ne fait pas.
   Parade : les heures vont dans la note, avec « sur rendez-vous » en tête.
+- **Un prix à la bouteille dans un restaurant n'est pas une vente à emporter**
+  (20/11, La Vacqueroise) ; un bar sans vente dite reste en catégorie 0, faute
+  de « pas de vente à emporter » écrit (catégorie 4). Parade : chercher une
+  phrase qui dit « à emporter », « boutique » ou « vente » avant la catégorie 1.
+- **Un agent peut inventer un lieu à partir d'un jeu de mots** (20/11, « Canal
+  du demi » devenu « au bord du canal du Midi »). Parade : chaque mot de lieu de
+  la note se retrouve dans la page brute.
 - **Doublons SIRENE / OSM** : même site ou même adresse = une seule fiche ;
   l'autre clé va aux raisons « même lieu que … ».
 - **Un agent peut lire le mauvais paquet** (29/10) : lui faire lister ses
@@ -125,3 +132,8 @@ pourquoi.
   ce jour-là, comme la routine le dit ; `npm ci` avant le premier outil
   (`tsx` introuvable sinon) ; retélécharger les pages à relire, le carnet
   d'avant ne survit pas au redémarrage.
+- **Une session peut s'arrêter entre le dernier push et l'ouverture de la PR**
+  (20/11, Hérault : lot appliqué et poussé, aucune PR). Parade : le matin,
+  comparer `origin/main` à la branche de travail ; des commits d'un
+  département non mergé veulent dire « ouvrir sa PR d'abord ». Ouvrir la PR
+  dès le premier commit de données, et pousser ensuite les corrections dessus.

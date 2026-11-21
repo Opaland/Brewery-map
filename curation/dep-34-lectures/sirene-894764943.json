@@ -1,0 +1,108 @@
+{
+ "candidat": "sirene:894764943",
+ "ajout": {
+  "fiche": {
+   "n": "SOMI",
+   "c": "Montpellier",
+   "d": "34",
+   "lat": 43.57768,
+   "lon": 3.85526,
+   "km": 243.8,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Bar de la microbrasserie, avec terrasse perchée, le jeudi et le vendredi de 17 h à 22 h 30 ; achat de canettes et de fûts à la brasserie du lundi au vendredi, d'après son site.",
+   "addr": "200 allée Jean-François Lesueur, 34070 Montpellier",
+   "src": "https://somi.beer/bar-a-biere/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 68 19 27 63",
+    "site": "https://somi.beer/",
+    "source": "https://somi.beer/",
+    "verifieLe": "2026-11-20"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://somi.beer/bar-a-biere/",
+     "jeu": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "verifieLe": "2026-11-20"
+    },
+    {
+     "nature": "vente",
+     "source": "https://somi.beer/bar-a-biere/",
+     "lun": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "13:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-20"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://somi.beer/bar-a-biere/",
+   "https://somi.beer/",
+   "https://data.geopf.fr/geocodage/search?q=200+all%C3%A9e+Jean-Fran%C3%A7ois+Lesueur%2C+34070+Montpellier&limit=5"
+  ],
+  "extrait": "afterworks tous les jeudis et vendredis, de 17h à 22h30",
+  "choix": "Site officiel relu sur la page brute le 20/11 (« Jeudi : 17h – 22h30 », « Du lundi au vendredi : 9h–13h et 14h–18h »). La brasserie ne publie que deux portables ; le premier, aussi repris par l'office, est retenu (règle du 21/10)."
+ }
+}

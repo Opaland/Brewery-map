@@ -1,0 +1,99 @@
+{
+ "candidat": "sirene:835309345",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie La Malpolon",
+   "c": "Lavérune",
+   "d": "34",
+   "lat": 43.58202,
+   "lon": 3.81309,
+   "km": 244.3,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie avec une guinguette ouverte toute l'année (bières à la pression ou en bouteille), le mercredi et du jeudi au samedi en soirée ; boutique à l'accueil de la brasserie du lundi au vendredi de 9 h à 17 h 30, et le soir à la guinguette, d'après son site. Aucun téléphone publié.",
+   "addr": "10 rue de la Prade, ZI Sud, 34880 Lavérune",
+   "src": "https://lamalpolon.fr/guinguette/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://lamalpolon.fr/",
+    "source": "https://lamalpolon.fr/guinguette/",
+    "verifieLe": "2026-11-20"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lamalpolon.fr/guinguette/",
+     "mer": [
+      [
+       "17:30",
+       "22:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:30",
+       "23:30"
+      ]
+     ],
+     "ven": [
+      [
+       "17:30",
+       "23:30"
+      ]
+     ],
+     "sam": [
+      [
+       "17:30",
+       "23:30"
+      ]
+     ],
+     "verifieLe": "2026-11-20"
+    },
+    {
+     "nature": "vente",
+     "source": "https://lamalpolon.fr/guinguette/",
+     "lun": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "remarque": "Le soir, la boutique ouvre aussi aux heures de la guinguette.",
+     "verifieLe": "2026-11-20"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://lamalpolon.fr/guinguette/",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+de+la+Prade%2C+ZI+Sud%2C+34880+Lav%C3%A9rune&limit=5"
+  ],
+  "extrait": "la Guinguette de la Malpolon vous propose toute l'année nos bières à la pression ou en bouteille",
+  "choix": "Site officiel relu sur la page brute le 20/11 (« Mercredi : 17h30 - 22h30 », « Jeudi - Samedi : 17h30 - 23h30 », « Du lundi au vendredi : 9h à 17h30 »). Adresse complète de la page (revue de la persona du 20/11)."
+ }
+}

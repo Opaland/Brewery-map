@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:919599258",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Alaryk",
+   "c": "Béziers",
+   "d": "34",
+   "lat": 43.33989,
+   "lon": 3.19216,
+   "km": 287.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie bio avec un caveau de vente, ouvert du mardi au samedi jusqu'au 31 décembre 2026 (le matin de 9 h 30 à 12 h 30, l'après-midi jusqu'à 19 h), d'après l'office de tourisme de l'Hérault ; visite de la brasserie sur rendez-vous.",
+   "addr": "2 rue des Poiriers, 34500 Béziers",
+   "src": "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-alaryk-beziers_TFODEGLAR034V52TZ7P/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 80 12 76",
+    "site": "https://maisonalaryk.fr/",
+    "source": "https://maisonalaryk.fr/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.herault-tourisme.com/fr/fiche/producteurs-du-terroir/brasserie-alaryk-beziers_TFODEGLAR034V52TZ7P/",
+   "https://maisonalaryk.fr/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+des+Poiriers%2C+34500+B%C3%A9ziers&limit=5"
+  ],
+  "extrait": "Vente des produits de l’exploitation",
+  "choix": "Fiche de l'office de l'Hérault et site officiel relus sur la page brute le 20/11. Horaires de l'office (« Du 01/09 au 31/12/2026 le mardi de 9h30 à 12h30 et de 15h à 19h… ») dans la note : ils sont bornés à 2026. Fixe lu sur le site de la brasserie. Le point OSM de Sérignan est la même brasserie."
+ }
+}

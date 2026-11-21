@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:882565260",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Baudille",
+   "c": "Montpeyroux",
+   "d": "34",
+   "lat": 43.68505,
+   "lon": 3.51558,
+   "km": 241.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Taproom dans l'entrepôt de la brasserie : toute la gamme à la pression, d'après son site. La vente à emporter n'est pas dite. La page contact donne des horaires (samedi et dimanche fermés) sans les rattacher au taproom. Téléphone des ventes pro, publié par la brasserie : 06 47 64 44 35.",
+   "addr": "965 Route de Lagamas, 34150 Montpeyroux",
+   "src": "https://brasseriebaudille.com/bar-scene-cantine/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://brasseriebaudille.com/bar-scene-cantine/",
+   "https://data.geopf.fr/geocodage/search?q=965+Route+de+Lagamas%2C+34150+Montpeyroux&limit=5"
+  ],
+  "extrait": "pour déguster toute la gamme Baudille en pression sur pas moins de 10 becs.",
+  "choix": "Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. La brasserie ne publie que deux portables ; celui des ventes est écrit sans espaces, forme que controler ne relit pas : il passe dans la note ; l'autre, rattaché à un prénom, est écarté. Les horaires de la page contact ne disent pas s'ils sont ceux du taproom. Le point OSM de Saint-Jean-de-Fos est la même brasserie."
+ }
+}

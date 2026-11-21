@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:882097058",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Séranne",
+   "c": "Brissac",
+   "d": "34",
+   "lat": 43.886,
+   "lon": 3.70374,
+   "km": 215.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de la papeterie de Brissac, où l'on peut venir déguster ses bières ; une actualité de saison annonce un verre en terrasse les jours de semaine jusqu'à 19 h, d'après son site. Le samedi et la vente ne sont pas dits.",
+   "addr": "Bât 4 La Papeterie, 34190 Brissac",
+   "src": "https://brasseriedelaseranne.fr",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 07 66 89 76",
+    "site": "https://brasseriedelaseranne.fr",
+    "source": "https://brasseriedelaseranne.fr",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://brasseriedelaseranne.fr",
+   "https://data.geopf.fr/geocodage/search?q=Brissac&type=municipality&limit=5"
+  ],
+  "extrait": "c’est ici que vous pouvez venir les déguster",
+  "choix": "Site officiel relu sur la page brute le 20/11. Catégorie 0 pour la même raison que La Singulière. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les points OSM de Causse-de-la-Selle sont la même brasserie."
+ }
+}

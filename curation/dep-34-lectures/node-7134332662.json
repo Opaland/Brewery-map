@@ -1,0 +1,32 @@
+{
+ "candidat": "node/7134332662",
+ "ajout": {
+  "fiche": {
+   "n": "La MatCé",
+   "c": "Montpellier",
+   "d": "34",
+   "lat": 43.61879,
+   "lon": 3.89062,
+   "km": 238.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie du quartier des Aubes, à horaires variables, présente le mercredi au marché paysan des Aubes, d'après son site. Ce qu'on peut faire à la brasserie n'est pas dit clairement ; aucun téléphone publié.",
+   "addr": "11 boulevard Mounié, 34000 Montpellier",
+   "src": "https://www.la-matce.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.la-matce.fr",
+    "source": "https://www.la-matce.fr",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.la-matce.fr",
+   "https://data.geopf.fr/geocodage/search?q=11+boulevard+Mouni%C3%A9%2C+34000+Montpellier&limit=5"
+  ],
+  "extrait": "Venez découvrir mes bières sur place ou dans les différents points de vente de la ville sélectionnés pour vous.",
+  "choix": "Site officiel relu sur la page brute le 20/11 (« Horaires Variables ! »). Horaires non repris."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:830782512",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Raspailhac",
+   "c": "Saint-Vincent-d'Olargues",
+   "d": "34",
+   "lat": 43.56566,
+   "lon": 2.89241,
+   "km": 276.9,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières naturelles labellisées Nature & Progrès, brassées depuis 2017 ; vente à la propriété et visites, d'après l'office de tourisme d'Occitanie. Aucun horaire publié.",
+   "addr": "2 rue de la Croix, 34390 Saint-Vincent-d'Olargues",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-raspailhac-saint-vincent-d-olargues_TFODEGLAR034V525BTD/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasseriederaspailhac.eu/",
+    "source": "https://brasseriederaspailhac.eu/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-raspailhac-saint-vincent-d-olargues_TFODEGLAR034V525BTD/",
+   "https://brasseriederaspailhac.eu/",
+   "https://data.geopf.fr/geocodage/search?q=2+rue+de+la+Croix%2C+34390+Saint-Vincent-d%27Olargues&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Adresse de l'office. Le portable de l'office est écarté."
+ }
+}

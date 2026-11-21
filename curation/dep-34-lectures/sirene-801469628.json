@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:801469628",
+ "ajout": {
+  "fiche": {
+   "n": "La Gorge Fraîche",
+   "c": "Béziers",
+   "d": "34",
+   "lat": 43.33429,
+   "lon": 3.22222,
+   "km": 287.2,
+   "cat": 1,
+   "conf": "faible",
+   "note": "Brasserie artisanale, bar et boutique (« Canal du demi », dit son en-tête), d'après son site, qui donne « du lundi au samedi de 10 h à 20 h » sans dire si c'est le bar ou la boutique.",
+   "addr": "2 avenue Joseph Lazare, 34500 Béziers",
+   "src": "http://www.lagorgefraiche.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 37 06 97",
+    "site": "http://www.lagorgefraiche.fr/",
+    "source": "http://www.lagorgefraiche.fr/contact",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "http://www.lagorgefraiche.fr/",
+   "http://www.lagorgefraiche.fr/contact",
+   "https://data.geopf.fr/geocodage/search?q=2+avenue+Joseph+Lazare%2C+34500+B%C3%A9ziers&limit=5"
+  ],
+  "extrait": "BRASSERIE ARTISANALE BAR BOUTIQUE CANAL DU DEMI",
+  "choix": "Site officiel relu sur la page brute le 20/11. Confiance faible : le bar n'est dit que dans l'en-tête. Fixe lu sur la page contact."
+ }
+}

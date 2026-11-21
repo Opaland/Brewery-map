@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:824221865",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Brescou",
+   "c": "Agde",
+   "d": "34",
+   "lat": 43.30894,
+   "lon": 3.49591,
+   "km": 281.3,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières brassées et embouteillées à Agde, en vente directe à la brasserie, d'après l'office de tourisme d'Occitanie. Aucun horaire par jour publié.",
+   "addr": "17 rue Pierre Paul Riquet, 34300 Agde",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-brescou-agde_TFOSITRA2_DEG_7569946/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "04 67 37 64 04",
+    "site": "https://brasserie-brescou.com",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-brescou-agde_TFOSITRA2_DEG_7569946/",
+    "verifieLe": "2026-11-20"
+   }
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/la-brasserie-brescou-agde_TFOSITRA2_DEG_7569946/",
+   "https://data.geopf.fr/geocodage/search?q=17+rue+Pierre+Paul+Riquet%2C+34300+Agde&limit=5"
+  ],
+  "extrait": "Cette spécialité locale est disponible en vente directe à la brasserie",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 20/11. Fixe lu dans le bloc de la brasserie (règle du 31/10) ; le portable de l'office est écarté."
+ }
+}

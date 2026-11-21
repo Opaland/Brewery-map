@@ -1,0 +1,882 @@
+[
+ [
+  {
+   "cle": "sirene:880571617",
+   "enseigne": "LIQUID ART BREWING",
+   "dep": "34",
+   "communes": [
+    "VENDARGUES"
+   ],
+   "adresses": [
+    "280 RUE DE LA MARBRERIE 34740 VENDARGUES",
+    "155 AVENUE DES BIGOS 34740 VENDARGUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:884575770",
+   "enseigne": "SACRILEGE",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "1 RUE DES DEUX PONTS 34000 MONTPELLIER",
+    "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+   ],
+   "osm": [
+    "node/11368680033"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888842887",
+   "enseigne": "TER-C",
+   "dep": "34",
+   "communes": [
+    "CANET",
+    "NEBIAN"
+   ],
+   "adresses": [
+    "195 CHEMIN DU GALON BAS 34800 CANET",
+    "2 ROUTE DE FOUSCAIS 34800 NEBIAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897455721",
+   "enseigne": "BREWING BEARS",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "103 IMPASSE CARAVELLE 34000 MONTPELLIER",
+    "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+   ],
+   "osm": [
+    "node/11368680035"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:910640887",
+   "enseigne": "BRASSERIE LASARDE",
+   "dep": "34",
+   "communes": [
+    "SAINT-GUILHEM-LE-DESERT"
+   ],
+   "adresses": [
+    "20 RUE DU BOUT DU MONDE 34150 SAINT-GUILHEM-LE-DESERT",
+    "11 PLACE DE LA LIBERTE 34150 SAINT-GUILHEM-LE-DESERT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:828210179",
+   "enseigne": "BRASSERIE LA SINGULIERE",
+   "dep": "34",
+   "communes": [
+    "SETE"
+   ],
+   "adresses": [
+    "35 QUAI DE BOSC 34200 SETE",
+    "79 RUE DES CHARBONNIERS 34200 SETE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:835309345",
+   "enseigne": "GUINGUETTE LA MALPOLON",
+   "dep": "34",
+   "communes": [
+    "LAVERUNE"
+   ],
+   "adresses": [
+    "ZI SUD 10 RUE DE LA PRADE 34880 LAVERUNE",
+    "10 RUE DE LA PRADE 34880 LAVERUNE"
+   ],
+   "osm": [
+    "node/4674732267"
+   ],
+   "site": "https://lamalpolon.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882565260",
+   "enseigne": "BRASSERIE BAUDILLE",
+   "dep": "34",
+   "communes": [
+    "MONTPEYROUX"
+   ],
+   "adresses": [
+    "965 ROUTE DE LAGAMAS 34150 MONTPEYROUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:989055181",
+   "enseigne": "UTOPIC",
+   "dep": "34",
+   "communes": [
+    "SAINT-CLEMENT-DE-RIVIERE"
+   ],
+   "adresses": [
+    "26 RUE DU ROUND DU BIOU 34980 SAINT-CLEMENT-DE-RIVIERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "NON (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "34",
+   "communes": [
+    "CLERMONT-L'HERAULT"
+   ],
+   "adresses": [
+    "8 BOULEVARD LEDRU ROLLIN 34800 CLERMONT-L'HERAULT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:832107759",
+   "enseigne": "LA BRASSERIE DU LEZ",
+   "dep": "34",
+   "communes": [
+    "SAINT-CLEMENT-DE-RIVIERE"
+   ],
+   "adresses": [
+    "RTE DE MONTFERRIER 34980 SAINT-CLEMENT-DE-RIVIERE"
+   ],
+   "osm": [
+    "node/8677581396"
+   ],
+   "site": "https://www.brasserie-du-lez.beer",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:943161547",
+   "enseigne": "BRASSERIE DES RUFFES",
+   "dep": "34",
+   "communes": [
+    "LE PUECH"
+   ],
+   "adresses": [
+    "HAMEAU DE RABEJAC 71 RUE DE L'AIRE RABEJAC 34700 LE PUECH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824210280",
+   "enseigne": "L'ATELIER BRASSICOLE",
+   "dep": "34",
+   "communes": [
+    "ROQUEBRUN"
+   ],
+   "adresses": [
+    "CHEMIN DU GARRIGAS 34460 ROQUEBRUN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:888624392",
+   "enseigne": "BRASSERIE OPPIDUM",
+   "dep": "34",
+   "communes": [
+    "CAPESTANG"
+   ],
+   "adresses": [
+    "46 COURS BELFORT 34310 CAPESTANG"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893992933",
+   "enseigne": "BLACSTAR",
+   "dep": "34",
+   "communes": [
+    "GANGES"
+   ],
+   "adresses": [
+    "RUE DU MENESTREL 34190 GANGES"
+   ],
+   "osm": [
+    "node/13734734201"
+   ],
+   "site": "https://blacstar.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:910446889",
+   "enseigne": "NOOTKA",
+   "dep": "34",
+   "communes": [
+    "VILLENEUVE-LES-BEZIERS"
+   ],
+   "adresses": [
+    "10 AVENUE DU ROMARIN 34420 VILLENEUVE-LES-BEZIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823082219",
+   "enseigne": "BRASSERIE KISS'WING",
+   "dep": "34",
+   "communes": [
+    "MONTBLANC"
+   ],
+   "adresses": [
+    "QUA DE L'EUROPE 34290 MONTBLANC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:844539221",
+   "enseigne": "POPULAR BREWING",
+   "dep": "34",
+   "communes": [
+    "SAINT-GEORGES-D'ORQUES"
+   ],
+   "adresses": [
+    "4 CHEMIN EUGENE BLANCHET 34680 SAINT-GEORGES-D'ORQUES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828536177",
+   "enseigne": "BRASSERIE DU PETIT CABOULOT",
+   "dep": "34",
+   "communes": [
+    "ENTRE-VIGNES"
+   ],
+   "adresses": [
+    "25 CHE DES CIGALES 34400 ENTRE-VIGNES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:801048000",
+   "enseigne": "SARL CASTIGNO",
+   "dep": "34",
+   "communes": [
+    "ASSIGNAN"
+   ],
+   "adresses": [
+    "CARRIERA DALS CAMPS 34360 ASSIGNAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:921294567",
+   "enseigne": "SUPERBEER",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "137 RUE MAURICE LE BOUCHER 34070 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812538239",
+   "enseigne": "MACA",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "1 RUE DES DEUX PONTS 34000 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812719979",
+   "enseigne": "BRASSERIE LE DETOUR",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "ZAC DE TOURNEZY 53 RUE DU PASTEUR JEAN CADIER 34070 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:948932108",
+   "enseigne": "S.A.S BRASSERIE OCCIBIERE",
+   "dep": "34",
+   "communes": [
+    "AGDE"
+   ],
+   "adresses": [
+    "42 CHEMIN TERRE ET SABLE 34300 AGDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:828826644",
+   "enseigne": "L'ATELIER BRASSICOLE",
+   "dep": "34",
+   "communes": [
+    "ROQUEBRUN"
+   ],
+   "adresses": [
+    "87 AVENUE DES ORANGERS 34460 ROQUEBRUN"
+   ],
+   "osm": [],
+   "statut": "doublon"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:894255678",
+   "enseigne": "BRASSERIE LODEVA",
+   "dep": "34",
+   "communes": [
+    "LODEVE"
+   ],
+   "adresses": [
+    "9 AV DENFERT 34700 LODEVE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:911472736",
+   "enseigne": "PAIN LIQUIDE",
+   "dep": "34",
+   "communes": [
+    "NEBIAN"
+   ],
+   "adresses": [
+    "3 RUE MONTESQUIEU 34800 NEBIAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:919599258",
+   "enseigne": "BRASSERIE ALARYK",
+   "dep": "34",
+   "communes": [
+    "BEZIERS"
+   ],
+   "adresses": [
+    "2 RUE DES POIRIERS 34500 BEZIERS"
+   ],
+   "osm": [
+    "node/9625720891"
+   ],
+   "site": "https://www.alaryk.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:927528711",
+   "enseigne": "BRASSERIE ARTISANALE MARSEILLANAISE",
+   "dep": "34",
+   "communes": [
+    "MARSEILLAN"
+   ],
+   "adresses": [
+    "18 RUE VEDEL 34340 MARSEILLAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:813666682",
+   "enseigne": "LA BAF",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "1 RUE DE CLARET 34070 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:824221865",
+   "enseigne": "BRASSERIE ARTISANALE BRESCOU",
+   "dep": "34",
+   "communes": [
+    "AGDE"
+   ],
+   "adresses": [
+    "17 RUE PIERRE PAUL RIQUET 34300 AGDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:824362768",
+   "enseigne": "ZOOBREW",
+   "dep": "34",
+   "communes": [
+    "CASTELNAU-LE-LEZ"
+   ],
+   "adresses": [
+    "185 AVENUE BLAISE PASCAL 34170 CASTELNAU-LE-LEZ"
+   ],
+   "osm": [
+    "node/6151883427"
+   ],
+   "site": "https://www.zoobrew.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:830782512",
+   "enseigne": "BRASSERIE DE RASPAILHAC",
+   "dep": "34",
+   "communes": [
+    "SAINT-VINCENT-D OLARGUES"
+   ],
+   "adresses": [
+    "HAMEAU DE RASPAILLAC 34390 SAINT-VINCENT-D OLARGUES"
+   ],
+   "osm": [
+    "node/10931864555"
+   ],
+   "site": "https://brasseriederaspailhac.eu/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:834105629",
+   "enseigne": "BRASSERIE LPS",
+   "dep": "34",
+   "communes": [
+    "BEZIERS"
+   ],
+   "adresses": [
+    "12 RUE MAURICE DE VLAMINCK 34500 BEZIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:834665689",
+   "enseigne": "LA BRASSERIE DES AUCELS",
+   "dep": "34",
+   "communes": [
+    "BEDARIEUX"
+   ],
+   "adresses": [
+    "84 AVENUE JEAN JAURES 34600 BEDARIEUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:847770948",
+   "enseigne": "TORIA",
+   "dep": "34",
+   "communes": [
+    "BEZIERS"
+   ],
+   "adresses": [
+    "24 AVENUE JEAN FOUCAULT 34500 BEZIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877917245",
+   "enseigne": "LA VACQUEROISE",
+   "dep": "34",
+   "communes": [
+    "LA VACQUERIE-ET-SAINT-MARTIN-DE-CASTRIES"
+   ],
+   "adresses": [
+    "47 GRAND RUE 34520 LA VACQUERIE-ET-SAINT-MARTIN-DE-CASTRIES"
+   ],
+   "osm": [
+    "node/13800822371"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:993866672",
+   "enseigne": "BREW BEACHES",
+   "dep": "34",
+   "communes": [
+    "COURNONTERRAL"
+   ],
+   "adresses": [
+    "19 T RUE DU MOULIN 34660 COURNONTERRAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881595185",
+   "enseigne": "LA BIERE DU DOCTEUR",
+   "dep": "34",
+   "communes": [
+    "VENDEMIAN"
+   ],
+   "adresses": [
+    "2592 RTE DE ST JEAN 34230 VENDEMIAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892971391",
+   "enseigne": "BRASSERIE VIC",
+   "dep": "34",
+   "communes": [
+    "VIAS"
+   ],
+   "adresses": [
+    "PREIGNES LE VIEUX 34450 VIAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:894764943",
+   "enseigne": "SOMI",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "200 ALLEE JEAN-FRANCOIS LESUEUR 34070 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:882097058",
+   "enseigne": "BRASSERIE DE LA SERANNE",
+   "dep": "34",
+   "communes": [
+    "BRISSAC"
+   ],
+   "adresses": [
+    "BATIMENT 4 LA PAPETERIE 34190 BRISSAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:908648967",
+   "enseigne": "BDL BEER",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "10 RUE DU CARRE DU ROI 34000 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897907804",
+   "enseigne": "TAPROOM",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "55 RUE MONTELS SAINT PIERRE 34070 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:801469628",
+   "enseigne": "LA GORGE FRAICHE",
+   "dep": "34",
+   "communes": [
+    "BEZIERS"
+   ],
+   "adresses": [
+    "2 AVENUE JOSEPH LAZARE 34500 BEZIERS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:917812778",
+   "enseigne": "BRASSERIE PARDELL",
+   "dep": "34",
+   "communes": [
+    "LATTES"
+   ],
+   "adresses": [
+    "16 RUE DU PUECH RADIER 34970 LATTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:847874872",
+   "enseigne": "BRASSERIE LANGUEDOCIENNE ARTISANALE",
+   "dep": "34",
+   "communes": [
+    "MONTOULIEU"
+   ],
+   "adresses": [
+    "LE MAS NEUF 34190 MONTOULIEU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821954716",
+   "enseigne": "L'HECTARE",
+   "dep": "34",
+   "communes": [
+    "MONTPELLIER"
+   ],
+   "adresses": [
+    "119 RUE DE PUECH VILLA 34090 MONTPELLIER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:823152137",
+   "enseigne": "LES AMALTEURS DU PIC",
+   "dep": "34",
+   "communes": [
+    "VIOLS-LE-FORT"
+   ],
+   "adresses": [
+    "37 ANCIEN CHEMIN DE MURLES 34380 VIOLS-LE-FORT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/11984233644",
+   "enseigne": "Pain-Liquide",
+   "dep": "34",
+   "communes": [
+    "Pézenas"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11984233644"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/13238899978",
+   "enseigne": "Fauve Craft Bière",
+   "dep": "34",
+   "communes": [
+    "Le Crès"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13238899978"
+   ],
+   "site": "https://fauvebiere.com/pages/micro-brasserie-fauve-craft-biere",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/4674787578",
+   "enseigne": "Brasserie le BBM",
+   "dep": "34",
+   "communes": [
+    "Montferrier-sur-Lez"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/4674787578"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5167906015",
+   "enseigne": "Brasserie Saint-Jean (Saint-Jean-de-Védas)",
+   "dep": "34",
+   "communes": [
+    "Saint-Jean-de-Védas"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5167906015"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7134332662",
+   "enseigne": "La MatCé",
+   "dep": "34",
+   "communes": [
+    "Montpellier"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7134332662"
+   ],
+   "site": "https://www.la-matce.fr",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/8000704194",
+   "enseigne": "Brasserie Le Détour",
+   "dep": "34",
+   "communes": [
+    "Lattes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8000704194"
+   ],
+   "site": "https://ledetour.beer",
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/8138374021",
+   "enseigne": "La Petite Brasserie",
+   "dep": "34",
+   "communes": [
+    "Balaruc-le-Vieux"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/8138374021"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/9021035903",
+   "enseigne": "Alaryk",
+   "dep": "34",
+   "communes": [
+    "Sérignan"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9021035903"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9891259517",
+   "enseigne": "Brasserie de la Serrane",
+   "dep": "34",
+   "communes": [
+    "Causse-de-la-Selle"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9891259517"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/174840300",
+   "enseigne": "Brasserie Baudille",
+   "dep": "34",
+   "communes": [
+    "Saint-Jean-de-Fos"
+   ],
+   "adresses": [
+    "16 Rue Tras Mayous"
+   ],
+   "osm": [
+    "way/174840300"
+   ],
+   "site": "https://brasseriebaudille.com/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/279569100",
+   "enseigne": "Solea",
+   "dep": "34",
+   "communes": [
+    "La Grande-Motte"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/279569100"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/705088594",
+   "enseigne": "BB Kombucha",
+   "dep": "34",
+   "communes": [
+    "Vailhauquès"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/705088594"
+   ],
+   "site": "https://bbkombucha.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]

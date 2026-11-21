@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 880 | 22 (3 %) | 42 | 322 | 272 | 341 | 467 | 576 | 704 |
+| **Total** | 904 | 22 (2 %) | 42 | 332 | 278 | 346 | 478 | 595 | 728 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -49,6 +49,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 31 · Haute-Garonne | 14 | 0 (0 %) | 0 | 6 | 3 | 7 | 9 | 10 | 12 |
 | 32 · Gers | 3 | 0 (0 %) | 0 | 0 | 1 | 1 | 1 | 3 | 3 |
 | 33 · Gironde | 16 | 0 (0 %) | 0 | 7 | 0 | 2 | 2 | 11 | 16 |
+| 34 · Hérault | 24 | 0 (0 %) | 0 | 10 | 6 | 5 | 11 | 19 | 24 |
 | 35 · Ille-et-Vilaine | 17 | 2 (12 %) | 0 | 10 | 5 | 8 | 13 | 11 | 6 |
 | 36 · Indre | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 1 | 2 |
 | 37 · Indre-et-Loire | 5 | 0 (0 %) | 0 | 3 | 2 | 0 | 3 | 5 | 2 |
@@ -105,7 +106,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-322 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+332 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -310,6 +311,19 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Ici On Brasse (Auriolles) : sans horaires, sans bières
 - KM5 Bière (Génissac) : sans horaires, sans bières
 - Laca Boiates (La Teste-de-Buch) : sans horaires, sans bières
+
+### 34 · Hérault
+
+- Brasserie Baudille (Montpeyroux) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie La Vacqueroise (La Vacquerie-et-Saint-Martin-de-Castries) : sans site, sans téléphone, sans horaires, sans bières
+- Brasserie de la Séranne (Brissac) : sans adresse vérifiée, sans horaires, sans bières
+- La Bière du Docteur (Vendémian) : sans adresse vérifiée, sans horaires, sans bières
+- La Brasserie du Lez (Saint-Clément-de-Rivière) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie La Singulière (Sète) : sans téléphone, sans bières
+- Brasserie Le Détour (Montpellier) : sans téléphone, sans horaires, sans bières
+- La MatCé (Montpellier) : sans téléphone, sans horaires, sans bières
+- Toria (Béziers) : sans horaires, sans bières
+- ZooBrew (Castelnau-le-Lez) : sans horaires, sans bières
 
 ### 35 · Ille-et-Vilaine
 

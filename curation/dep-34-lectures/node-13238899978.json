@@ -1,0 +1,69 @@
+{
+ "candidat": "node/13238899978",
+ "ajout": {
+  "fiche": {
+   "n": "Fauve Craft Bière",
+   "c": "Vendargues",
+   "d": "34",
+   "lat": 43.65371,
+   "lon": 3.95194,
+   "km": 233.5,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Taproom de la microbrasserie : bières à la pression et en canettes, à boire sur place ou à emporter, du lundi au vendredi de 17 h à 22 h, d'après son site.",
+   "addr": "140 rue de Massacan, 34740 Vendargues",
+   "src": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://fauvebiere.com",
+    "source": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+    "verifieLe": "2026-11-20"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+     "lun": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mar": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "17:00",
+       "22:00"
+      ]
+     ],
+     "verifieLe": "2026-11-20"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-20",
+  "sources": [
+   "https://fauvebiere.com/pages/la-taproom-fauve-montpellier",
+   "https://data.geopf.fr/geocodage/search?q=140+rue+de+Massacan%2C+34740+Vendargues&limit=5"
+  ],
+  "extrait": "à déguster sur place ou à emporter pour remplir votre frigo",
+  "choix": "Site officiel relu sur la page brute le 20/11 (« Du Lundi au Vendredi, de 17h à 22h. »). Le point OSM est au Crès ; l'adresse publiée est à Vendargues. Le seul numéro de la page est celui d'un restaurant à Paris : écarté."
+ }
+}
