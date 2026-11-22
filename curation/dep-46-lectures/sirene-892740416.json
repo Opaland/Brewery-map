@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:892740416",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Malt'O'Vadrouille",
+   "c": "Concorès",
+   "d": "46",
+   "lat": 44.65692,
+   "lon": 1.39467,
+   "km": 286.7,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Bières vendues sur place et sur les marchés, d'après son site ; visite sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).",
+   "addr": "75 Route de Cahors, 46310 Concorès",
+   "src": "https://www.maltovadrouille.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 64 56 12 30",
+    "site": "https://www.maltovadrouille.fr/",
+    "source": "https://www.maltovadrouille.fr/",
+    "verifieLe": "2026-11-22"
+   }
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.maltovadrouille.fr/",
+   "https://data.geopf.fr/geocodage/search?q=75+Route+de+Cahors%2C+46310+Concor%C3%A8s&limit=5"
+  ],
+  "extrait": "disponibles à la vente sur place",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les heures de visite, sur réservation, restent dans la note."
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:893926279",
+ "ajout": {
+  "fiche": {
+   "n": "Bière KOS – Mas du Verdier",
+   "c": "Cajarc",
+   "d": "46",
+   "lat": 44.49508,
+   "lon": 1.83361,
+   "km": 264.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie et miellerie bio : visites d'environ une heure pour les groupes, terminées par une dégustation, d'après son site. La vente sur place et les horaires ne sont pas dits.",
+   "addr": "Lieu-dit Le Verdier, 46160 Cajarc",
+   "src": "https://www.masduverdier.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 76 96 16 53",
+    "site": "https://www.masduverdier.fr/",
+    "source": "https://www.masduverdier.fr/",
+    "verifieLe": "2026-11-22"
+   }
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.masduverdier.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Cajarc&type=municipality&limit=5"
+  ],
+  "extrait": "nous organisons des visites de notre brasserie",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse de l'office."
+ }
+}

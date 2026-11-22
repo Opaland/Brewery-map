@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:529097552",
+ "ajout": {
+  "fiche": {
+   "n": "Les Bières de Julien",
+   "c": "Martel",
+   "d": "46",
+   "lat": 44.93655,
+   "lon": 1.60708,
+   "km": 259.4,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Vente sur le lieu de production, à Layrac, tous les vendredis après-midi de 14 h à 18 h, d'après son site. Ni bar ni dégustation dits.",
+   "addr": "Layrac, 46600 Martel",
+   "src": "https://www.lesbieresdejulien.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "09 51 46 04 61",
+    "site": "https://www.lesbieresdejulien.fr/",
+    "source": "https://www.lesbieresdejulien.fr/",
+    "verifieLe": "2026-11-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.lesbieresdejulien.fr/",
+     "ven": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.lesbieresdejulien.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Martel&type=municipality&limit=5"
+  ],
+  "extrait": "Tous les vendredi après-midi de 14 h à 18 h.",
+  "choix": "Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise."
+ }
+}
