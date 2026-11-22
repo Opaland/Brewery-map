@@ -1,0 +1,451 @@
+[
+ {
+  "cle": "sirene:948094495",
+  "nom": "BUVETT",
+  "communes": [
+   "ASSIER"
+  ],
+  "departement": "46",
+  "adresses": [
+   "271 CHEMIN DU PARC 46320 ASSIER",
+   "350 ROUTE GALIOT DE GENOUILLAC 46320 ASSIER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "948094495",
+  "sirets": [
+   "94809449500017",
+   "94809449500025"
+  ],
+  "osm": [
+   "way/161314345"
+  ],
+  "lat": 44.69193704,
+  "lon": 1.8950259825,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:435093281",
+  "nom": "BIERES RATZ",
+  "communes": [
+   "FONTANES"
+  ],
+  "departement": "46",
+  "adresses": [
+   "PARC D'ACTIVITES DE CAHORS SUD 725 AV DE SAINT EXUPERY 46230 FONTANES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "435093281",
+  "sirets": [
+   "43509328100028"
+  ],
+  "osm": [],
+  "lat": 44.348194943,
+  "lon": 1.4747910104,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:877660480",
+  "nom": "KEG & MALT SOCIETY",
+  "communes": [
+   "AYNAC",
+   "LATOUILLE-LENTILLAC"
+  ],
+  "departement": "46",
+  "adresses": [
+   "LE BOURG 46120 AYNAC",
+   "LD LES PRADES 46400 LATOUILLE-LENTILLAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "877660480",
+  "sirets": [
+   "87766048000014",
+   "87766048000030"
+  ],
+  "osm": [],
+  "lat": 44.782762432,
+  "lon": 1.852749375,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:900297219",
+  "nom": "LA KALOT",
+  "communes": [
+   "BIARS-SUR-CERE"
+  ],
+  "departement": "46",
+  "adresses": [
+   "19 AVENUE DE LA REPUBLIQUE 46130 BIARS-SUR-CERE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "900297219",
+  "sirets": [
+   "90029721900025"
+  ],
+  "osm": [],
+  "lat": 44.9303116026032,
+  "lon": 1.84840659893501,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "MONTCUQ-EN-QUERCY-BLANC"
+  ],
+  "departement": "46",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:817668999",
+  "nom": "LES ACOLYTES",
+  "communes": [
+   "LUZECH"
+  ],
+  "departement": "46",
+  "adresses": [
+   "FAGES LD LE CLOUP 46140 LUZECH"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "817668999",
+  "sirets": [
+   "81766899900011"
+  ],
+  "osm": [],
+  "lat": 44.498971843,
+  "lon": 1.2463613388,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LUGAGNAC"
+  ],
+  "departement": "46",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:892740416",
+  "nom": "BRASSERIE MALT'O'VADROUILLE",
+  "communes": [
+   "CONCORES"
+  ],
+  "departement": "46",
+  "adresses": [
+   "65 ROUTE DE CAHORS 46310 CONCORES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "892740416",
+  "sirets": [
+   "89274041600011"
+  ],
+  "osm": [
+   "node/8958881592"
+  ],
+  "lat": 44.656968729,
+  "lon": 1.394515997,
+  "site": "https://www.maltovadrouille.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:898906177",
+  "nom": "BRASSERIE DU SOL DE L'OSTE",
+  "communes": [
+   "SOUILLAC"
+  ],
+  "departement": "46",
+  "adresses": [
+   "RUE DU PONT D AILLAN 46200 SOUILLAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "898906177",
+  "sirets": [
+   "89890617700024"
+  ],
+  "osm": [],
+  "lat": 44.9013897075348,
+  "lon": 1.46135489873498,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:895392306",
+  "nom": "BRASSERIE DUNE",
+  "communes": [
+   "CAJARC"
+  ],
+  "departement": "46",
+  "adresses": [
+   "LD ANDRESSAC 46160 CAJARC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "895392306",
+  "sirets": [
+   "89539230600018"
+  ],
+  "osm": [],
+  "lat": 44.466620695,
+  "lon": 1.841562652,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:527722037",
+  "nom": "ZYMOTIK",
+  "communes": [
+   "CAHORS"
+  ],
+  "departement": "46",
+  "adresses": [
+   "585 CHEMIN DE RODE LIMAU 46000 CAHORS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "527722037",
+  "sirets": [
+   "52772203700035"
+  ],
+  "osm": [],
+  "lat": 44.441388775,
+  "lon": 1.4054374207,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "CIEURAC"
+  ],
+  "departement": "46",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:893926279",
+  "nom": "MAS DU VERDIER - CAJARC",
+  "communes": [
+   "CAJARC"
+  ],
+  "departement": "46",
+  "adresses": [
+   "LD LE VERDIER 46160 CAJARC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893926279",
+  "sirets": [
+   "89392627900017"
+  ],
+  "osm": [],
+  "lat": 44.516297664,
+  "lon": 1.8569020748,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:841374960",
+  "nom": "MICRO BRASSERIE MENEKET",
+  "communes": [
+   "SAINT-BRESSOU"
+  ],
+  "departement": "46",
+  "adresses": [
+   "LD LES TESSONNIERES 46120 SAINT-BRESSOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "841374960",
+  "sirets": [
+   "84137496000026"
+  ],
+  "osm": [],
+  "lat": 44.705608696,
+  "lon": 1.9729992503,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:529097552",
+  "nom": "LES BIERES DE JULIEN",
+  "communes": [
+   "MARTEL"
+  ],
+  "departement": "46",
+  "adresses": [
+   "LIEU DIT LAYRAC 46600 MARTEL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "529097552",
+  "sirets": [
+   "52909755200036"
+  ],
+  "osm": [],
+  "lat": 44.966857557,
+  "lon": 1.5762613918,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13401912380",
+  "nom": "La cuvée des Dracs",
+  "communes": [
+   "Aynac"
+  ],
+  "departement": "46",
+  "adresses": [
+   "785 route de Cahuac, 46120 Aynac"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13401912380"
+  ],
+  "lat": 44.76382,
+  "lon": 1.87885,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/6617820661",
+  "nom": "Brasserie Artisanale Ratz",
+  "communes": [
+   "Cieurac"
+  ],
+  "departement": "46",
+  "adresses": [
+   "725 Avenue Saint-Exupéry"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/6617820661"
+  ],
+  "lat": 44.34796,
+  "lon": 1.47458,
+  "site": "https://biereratz.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/7761735285",
+  "nom": "Brasserie du Matou",
+  "communes": [
+   "Lacapelle-Marival"
+  ],
+  "departement": "46",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/7761735285"
+  ],
+  "lat": 44.72815,
+  "lon": 1.91977,
+  "site": "https://www.brasseriedumatou.com",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/1385648157",
+  "nom": "Brasserie Les Bartas",
+  "communes": [
+   "Barguelonne en Quercy"
+  ],
+  "departement": "46",
+  "adresses": [
+   "180 Chemin de Laboissière, 46800 Barguelonne en Quercy"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/1385648157"
+  ],
+  "lat": 44.36111,
+  "lon": 1.26649,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/618503204",
+  "nom": "Brasserie La Boheme",
+  "communes": [
+   "Mayrinhac-Lentour"
+  ],
+  "departement": "46",
+  "adresses": [
+   "46500 Mayrinhac-Lentour"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/618503204"
+  ],
+  "lat": 44.82377,
+  "lon": 1.79844,
+  "site": "http://www.brasserie-laboheme.fr/",
+  "statut": "nouveau"
+ }
+]

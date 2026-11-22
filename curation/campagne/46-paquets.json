@@ -1,0 +1,252 @@
+[
+ [
+  {
+   "cle": "sirene:948094495",
+   "enseigne": "BUVETT",
+   "dep": "46",
+   "communes": [
+    "ASSIER"
+   ],
+   "adresses": [
+    "271 CHEMIN DU PARC 46320 ASSIER",
+    "350 ROUTE GALIOT DE GENOUILLAC 46320 ASSIER"
+   ],
+   "osm": [
+    "way/161314345"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:435093281",
+   "enseigne": "BIERES RATZ",
+   "dep": "46",
+   "communes": [
+    "FONTANES"
+   ],
+   "adresses": [
+    "PARC D'ACTIVITES DE CAHORS SUD 725 AV DE SAINT EXUPERY 46230 FONTANES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:877660480",
+   "enseigne": "KEG & MALT SOCIETY",
+   "dep": "46",
+   "communes": [
+    "AYNAC",
+    "LATOUILLE-LENTILLAC"
+   ],
+   "adresses": [
+    "LE BOURG 46120 AYNAC",
+    "LD LES PRADES 46400 LATOUILLE-LENTILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:900297219",
+   "enseigne": "LA KALOT",
+   "dep": "46",
+   "communes": [
+    "BIARS-SUR-CERE"
+   ],
+   "adresses": [
+    "19 AVENUE DE LA REPUBLIQUE 46130 BIARS-SUR-CERE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:817668999",
+   "enseigne": "LES ACOLYTES",
+   "dep": "46",
+   "communes": [
+    "LUZECH"
+   ],
+   "adresses": [
+    "FAGES LD LE CLOUP 46140 LUZECH"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:892740416",
+   "enseigne": "BRASSERIE MALT'O'VADROUILLE",
+   "dep": "46",
+   "communes": [
+    "CONCORES"
+   ],
+   "adresses": [
+    "65 ROUTE DE CAHORS 46310 CONCORES"
+   ],
+   "osm": [
+    "node/8958881592"
+   ],
+   "site": "https://www.maltovadrouille.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898906177",
+   "enseigne": "BRASSERIE DU SOL DE L'OSTE",
+   "dep": "46",
+   "communes": [
+    "SOUILLAC"
+   ],
+   "adresses": [
+    "RUE DU PONT D AILLAN 46200 SOUILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:895392306",
+   "enseigne": "BRASSERIE DUNE",
+   "dep": "46",
+   "communes": [
+    "CAJARC"
+   ],
+   "adresses": [
+    "LD ANDRESSAC 46160 CAJARC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:527722037",
+   "enseigne": "ZYMOTIK",
+   "dep": "46",
+   "communes": [
+    "CAHORS"
+   ],
+   "adresses": [
+    "585 CHEMIN DE RODE LIMAU 46000 CAHORS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893926279",
+   "enseigne": "MAS DU VERDIER - CAJARC",
+   "dep": "46",
+   "communes": [
+    "CAJARC"
+   ],
+   "adresses": [
+    "LD LE VERDIER 46160 CAJARC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:841374960",
+   "enseigne": "MICRO BRASSERIE MENEKET",
+   "dep": "46",
+   "communes": [
+    "SAINT-BRESSOU"
+   ],
+   "adresses": [
+    "LD LES TESSONNIERES 46120 SAINT-BRESSOU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:529097552",
+   "enseigne": "LES BIERES DE JULIEN",
+   "dep": "46",
+   "communes": [
+    "MARTEL"
+   ],
+   "adresses": [
+    "LIEU DIT LAYRAC 46600 MARTEL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13401912380",
+   "enseigne": "La cuvée des Dracs",
+   "dep": "46",
+   "communes": [
+    "Aynac"
+   ],
+   "adresses": [
+    "785 route de Cahuac, 46120 Aynac"
+   ],
+   "osm": [
+    "node/13401912380"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/6617820661",
+   "enseigne": "Brasserie Artisanale Ratz",
+   "dep": "46",
+   "communes": [
+    "Cieurac"
+   ],
+   "adresses": [
+    "725 Avenue Saint-Exupéry"
+   ],
+   "osm": [
+    "node/6617820661"
+   ],
+   "site": "https://biereratz.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/7761735285",
+   "enseigne": "Brasserie du Matou",
+   "dep": "46",
+   "communes": [
+    "Lacapelle-Marival"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/7761735285"
+   ],
+   "site": "https://www.brasseriedumatou.com",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/1385648157",
+   "enseigne": "Brasserie Les Bartas",
+   "dep": "46",
+   "communes": [
+    "Barguelonne en Quercy"
+   ],
+   "adresses": [
+    "180 Chemin de Laboissière, 46800 Barguelonne en Quercy"
+   ],
+   "osm": [
+    "way/1385648157"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/618503204",
+   "enseigne": "Brasserie La Boheme",
+   "dep": "46",
+   "communes": [
+    "Mayrinhac-Lentour"
+   ],
+   "adresses": [
+    "46500 Mayrinhac-Lentour"
+   ],
+   "osm": [
+    "way/618503204"
+   ],
+   "site": "http://www.brasserie-laboheme.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]
