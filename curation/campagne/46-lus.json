@@ -1,0 +1,237 @@
+[
+  {
+    "cle": "sirene:435093281",
+    "n": "Brasserie Artisanale Ratz",
+    "c": "Fontanes",
+    "adresse": "725 route de Saint-Exupéry, 46230 Fontanes",
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie près de Cahors : boutique, bar et terrasse (beer garden), du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés, d'après son site ; visites sur rendez-vous.",
+    "src": "https://biereratz.fr/la-boutique-et-le-bar/",
+    "extrait": "Retrouvez nos bières artisanales en vente dans la boutique de la Brasserie",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11 (« Avril - Octobre : Du lundi au samedi 9H - 19H », « Novembre - Mars : Du lundi au samedi 9H - 18H », « Fermeture le dimanche et les jours fériés. »). Le point OSM de Fontanes est la même brasserie. Fixe publié par la brasserie.",
+    "contact": {
+      "tel": "05 65 53 05 63",
+      "site": "https://www.biereratz.fr",
+      "source": "https://www.biereratz.fr"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://biereratz.fr/la-boutique-et-le-bar/",
+        "periode": {
+          "du": "04-01",
+          "au": "10-31"
+        },
+        "lun": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "sam": [
+          [
+            "09:00",
+            "19:00"
+          ]
+        ],
+        "dim": []
+      },
+      {
+        "nature": "vente",
+        "source": "https://biereratz.fr/la-boutique-et-le-bar/",
+        "periode": {
+          "du": "11-01",
+          "au": "03-31"
+        },
+        "lun": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "mar": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "mer": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "jeu": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "ven": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "sam": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "dim": []
+      }
+    ]
+  },
+  {
+    "cle": "sirene:948094495",
+    "n": "Buvett",
+    "c": "Assier",
+    "adresse": "46320 Assier",
+    "cat": 0,
+    "conf": "",
+    "note": "Bar d'Assier inspiré des pubs, qui brasse ses bières sur place, ouvert les jeudis, vendredis et samedis soir, d'après l'office de tourisme d'Occitanie. La vente à emporter n'est pas dite ; aucun horaire précis publié.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/",
+    "extrait": "L’activité principale reste la production de bières artisanales, brassées sur place avec des ingrédients locaux",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 22/11. Catégorie 0 : un bar sans vente dite (règle du 18/11). Les adresses du registre et d'un annuaire diffèrent : la fiche part au centre de la commune. La page de l'office nomme les gérants : aucun nom repris. Le fixe de l'office n'est pas rattaché à la brasserie avec certitude : non repris."
+  },
+  {
+    "cle": "sirene:817668999",
+    "n": "Brasserie Les Acolytes",
+    "c": "Luzech",
+    "adresse": "Fages, 46140 Luzech",
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio au château Les Croisille, à Fages : visites couplées du château et de la brasserie, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-les-acolytes-luzech_TFODEGMIP046V51KLQ1/",
+    "extrait": "Visite couplée du château Les Croisille et de la brasserie Les Acolytes.",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11. Le portable de l'office est écarté ; le site n'en publie aucun.",
+    "contact": {
+      "site": "https://www.brasserielesacolytes.fr/",
+      "source": "https://www.brasserielesacolytes.fr/"
+    }
+  },
+  {
+    "cle": "sirene:892740416",
+    "n": "Brasserie Malt'O'Vadrouille",
+    "c": "Concorès",
+    "adresse": "75 Route de Cahors, 46310 Concorès",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Bières vendues sur place et sur les marchés, d'après son site ; visite sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).",
+    "src": "https://www.maltovadrouille.fr/",
+    "extrait": "disponibles à la vente sur place",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les heures de visite, sur réservation, restent dans la note.",
+    "contact": {
+      "tel": "06 64 56 12 30",
+      "site": "https://www.maltovadrouille.fr/",
+      "source": "https://www.maltovadrouille.fr/"
+    }
+  },
+  {
+    "cle": "sirene:527722037",
+    "n": "Zymotik",
+    "c": "Cahors",
+    "adresse": "585 chemin de Rode Limau, 46000 Cahors",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie école : vente à la brasserie tous les vendredis de 17 h à 19 h et sur les marchés, stages de brassage, d'après l'office de tourisme d'Occitanie et son site. Aucun bar ni dégustation dits.",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+    "extrait": "Vente directement à la brasserie tous les vendredis de 17h à 19h",
+    "beers": [],
+    "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11 (« Zymotik est ouvert tous les vendredis de 17h à 19h »). Le portable de l'office est écarté ; le site n'en publie aucun.",
+    "contact": {
+      "site": "https://www.zymotik.fr/",
+      "source": "https://www.zymotik.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+        "ven": [
+          [
+            "17:00",
+            "19:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cle": "sirene:893926279",
+    "n": "Bière KOS – Mas du Verdier",
+    "c": "Cajarc",
+    "adresse": "Lieu-dit Le Verdier, 46160 Cajarc",
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie et miellerie bio : visites d'environ une heure pour les groupes, terminées par une dégustation, d'après son site. La vente sur place et les horaires ne sont pas dits.",
+    "src": "https://www.masduverdier.fr/",
+    "extrait": "nous organisons des visites de notre brasserie",
+    "beers": [],
+    "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse de l'office.",
+    "contact": {
+      "tel": "06 76 96 16 53",
+      "site": "https://www.masduverdier.fr/",
+      "source": "https://www.masduverdier.fr/"
+    }
+  },
+  {
+    "cle": "sirene:529097552",
+    "n": "Les Bières de Julien",
+    "c": "Martel",
+    "adresse": "Layrac, 46600 Martel",
+    "cat": 2,
+    "conf": "solide",
+    "note": "Vente sur le lieu de production, à Layrac, tous les vendredis après-midi de 14 h à 18 h, d'après son site. Ni bar ni dégustation dits.",
+    "src": "https://www.lesbieresdejulien.fr/",
+    "extrait": "Tous les vendredi après-midi de 14 h à 18 h.",
+    "beers": [],
+    "choix": "Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise.",
+    "contact": {
+      "tel": "09 51 46 04 61",
+      "site": "https://www.lesbieresdejulien.fr/",
+      "source": "https://www.lesbieresdejulien.fr/"
+    },
+    "horaires": [
+      {
+        "nature": "vente",
+        "source": "https://www.lesbieresdejulien.fr/",
+        "ven": [
+          [
+            "14:00",
+            "18:00"
+          ]
+        ]
+      }
+    ]
+  }
+]
