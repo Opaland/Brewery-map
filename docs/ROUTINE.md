@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 46 (Lot), S348 (Occitanie) : pas encore lu. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 0 |
+| Département en cours | 46 (Lot), S348 (Occitanie) : PR #297 ouverte le 22/11 ; si elle est mergée, passer au 48 (Lozère). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (22/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 34 (21/11, PR #296, 24 fiches) |
 
