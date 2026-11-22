@@ -11,13 +11,13 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 34 (Hérault), S348 (Occitanie) : PR ouverte le 21/11 ; si elle est mergée, passer au 46 (Lot). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 2 (20/11 : lot appliqué, PR non ouverte ; 21/11 : PR ouverte) |
+| Département en cours | 46 (Lot), S348 (Occitanie) : PR #297 ouverte le 22/11 ; si elle est mergée, passer au 48 (Lozère). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (22/11) |
 | Issue du département | #189 |
-| Dernier département terminé | 32 (19/11, PR #295, 3 fiches) |
+| Dernier département terminé | 34 (21/11, PR #296, 24 fiches) |
 
 **File des départements** (dans l'ordre) : l'Occitanie (#189) :
-34, 46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
+46, 48, 65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
 

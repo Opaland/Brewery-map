@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:817668999",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Les Acolytes",
+   "c": "Luzech",
+   "d": "46",
+   "lat": 44.48158,
+   "lon": 1.27682,
+   "km": 303.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie bio au château Les Croisille, à Fages : visites couplées du château et de la brasserie, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+   "addr": "Fages, 46140 Luzech",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-les-acolytes-luzech_TFODEGMIP046V51KLQ1/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasserielesacolytes.fr/",
+    "source": "https://www.brasserielesacolytes.fr/",
+    "verifieLe": "2026-11-22"
+   }
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-les-acolytes-luzech_TFODEGMIP046V51KLQ1/",
+   "https://www.brasserielesacolytes.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Luzech&type=municipality&limit=5"
+  ],
+  "extrait": "Visite couplée du château Les Croisille et de la brasserie Les Acolytes.",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11. Le portable de l'office est écarté ; le site n'en publie aucun."
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "lot": "dep-46",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "Brasserie Artisanale Ratz",
+    "c": "Fontanes",
+    "d": "46",
+    "lat": 44.34763,
+    "lon": 1.47429,
+    "km": 297.1,
+    "cat": 1,
+    "conf": "solide",
+    "note": "Brasserie près de Cahors : boutique ouverte du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés ; bar à l'intérieur ou terrasse (beer garden) selon la saison, sans heures dites ; visites sur rendez-vous, d'après son site.",
+    "addr": "725 route de Saint-Exupéry, 46230 Fontanes",
+    "src": "https://biereratz.fr/la-boutique-et-le-bar/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 65 53 05 63",
+     "site": "https://www.biereratz.fr",
+     "source": "https://www.biereratz.fr",
+     "verifieLe": "2026-11-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "19:00"
+       ]
+      ],
+      "dim": [],
+      "periode": {
+       "du": "04-01",
+       "au": "10-31"
+      },
+      "source": "https://biereratz.fr/la-boutique-et-le-bar/",
+      "verifieLe": "2026-11-22"
+     },
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "dim": [],
+      "periode": {
+       "du": "11-01",
+       "au": "03-31"
+      },
+      "source": "https://biereratz.fr/la-boutique-et-le-bar/",
+      "verifieLe": "2026-11-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://biereratz.fr/la-boutique-et-le-bar/",
+    "https://www.biereratz.fr",
+    "https://data.geopf.fr/geocodage/search?q=725+route+de+Saint-Exup%C3%A9ry%2C+46230+Fontanes&limit=5"
+   ],
+   "extrait": "Retrouvez nos bières artisanales en vente dans la boutique de la Brasserie",
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11 (« Avril - Octobre : Du lundi au samedi 9H - 19H », « Novembre - Mars : Du lundi au samedi 9H - 18H », « Fermeture le dimanche et les jours fériés. »). Le point OSM de Fontanes est la même brasserie. Fixe publié par la brasserie."
+  },
+  {
+   "fiche": {
+    "n": "Zymotik",
+    "c": "Cahors",
+    "d": "46",
+    "lat": 44.44131,
+    "lon": 1.40549,
+    "km": 296.6,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie école : vente à la brasserie tous les vendredis de 17 h à 19 h et sur les marchés, stages de brassage, d'après l'office de tourisme d'Occitanie et son site. Aucun bar ni dégustation dits.",
+    "addr": "585 chemin de Rode Limau, 46000 Cahors",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.zymotik.fr/",
+     "source": "https://www.zymotik.fr/",
+     "verifieLe": "2026-11-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ],
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+      "verifieLe": "2026-11-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+    "https://www.zymotik.fr/",
+    "https://data.geopf.fr/geocodage/search?q=585+chemin+de+Rode+Limau%2C+46000+Cahors&limit=5"
+   ],
+   "extrait": "Vente directement à la brasserie tous les vendredis de 17h à 19h",
+   "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11 (« Zymotik est ouvert tous les vendredis de 17h à 19h »). Le portable de l'office est écarté ; le site n'en publie aucun."
+  },
+  {
+   "fiche": {
+    "n": "Les Bières de Julien",
+    "c": "Martel",
+    "d": "46",
+    "lat": 44.93655,
+    "lon": 1.60708,
+    "km": 259.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Rendez-vous tous les vendredis après-midi de 14 h à 18 h sur le lieu de production, à Layrac, d'après son site, qui donne un numéro pour les commandes de bouteilles ; le mot « vente » n'y est pas, ni bar ni dégustation. Pas de carte bancaire.",
+    "addr": "Layrac, 46600 Martel",
+    "src": "https://www.lesbieresdejulien.fr/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "09 51 46 04 61",
+     "site": "https://www.lesbieresdejulien.fr/",
+     "source": "https://www.lesbieresdejulien.fr/",
+     "verifieLe": "2026-11-22"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "ven": [
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Rendez-vous au lieu de production ; le site parle de commandes de bouteilles.",
+      "source": "https://www.lesbieresdejulien.fr/",
+      "verifieLe": "2026-11-22"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.lesbieresdejulien.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Martel&type=municipality&limit=5"
+   ],
+   "extrait": "Tous les vendredi après-midi de 14 h à 18 h.",
+   "choix": "Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise. Confiance moyenne : le site ne dit pas « vente » en toutes lettres (revue de la persona du 22/11)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Les Acolytes",
+    "c": "Luzech",
+    "d": "46",
+    "lat": 44.48158,
+    "lon": 1.27682,
+    "km": 303.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Brasserie bio au château Les Croisille, à Fages : visites couplées du château et de la brasserie, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+    "addr": "Fages, 46140 Luzech",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-les-acolytes-luzech_TFODEGMIP046V51KLQ1/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasserielesacolytes.fr/",
+     "source": "https://www.brasserielesacolytes.fr/",
+     "verifieLe": "2026-11-22"
+    }
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-les-acolytes-luzech_TFODEGMIP046V51KLQ1/",
+    "https://www.brasserielesacolytes.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Luzech&type=municipality&limit=5"
+   ],
+   "extrait": "Visite couplée du château Les Croisille et de la brasserie Les Acolytes.",
+   "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11. Le portable de l'office est écarté ; le site n'en publie aucun."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Malt'O'Vadrouille",
+    "c": "Concorès",
+    "d": "46",
+    "lat": 44.65692,
+    "lon": 1.39467,
+    "km": 286.7,
+    "cat": 1,
+    "conf": "moyenne",
+    "note": "Bières brassées et vendues sur place, à boire sur place ou à emporter, et sur les marchés, d'après son site ; heures d'ouverture non dites. Visite payante avec dégustation, sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).",
+    "addr": "75 Route de Cahors, 46310 Concorès",
+    "src": "https://www.maltovadrouille.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 64 56 12 30",
+     "site": "https://www.maltovadrouille.fr/",
+     "source": "https://www.maltovadrouille.fr/",
+     "verifieLe": "2026-11-22"
+    }
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.maltovadrouille.fr/",
+    "https://data.geopf.fr/geocodage/search?q=75+Route+de+Cahors%2C+46310+Concor%C3%A8s&limit=5"
+   ],
+   "extrait": "disponibles à la vente sur place",
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 1 : le site dit « boire un verre sur place » et la vente sur place (revue de la persona du 22/11). Les heures de visite, sur réservation, restent dans la note."
+  },
+  {
+   "fiche": {
+    "n": "Bière KOS – Mas du Verdier",
+    "c": "Cajarc",
+    "d": "46",
+    "lat": 44.51656,
+    "lon": 1.85665,
+    "km": 261.4,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie et miellerie bio qui se visite : visite d'environ une heure, terminée par une dégustation, sur contact, d'après son site. La vente sur place et les horaires ne sont pas dits.",
+    "addr": "725 chemin du Pigeonnier, Le Verdier, 46160 Cajarc",
+    "src": "https://www.masduverdier.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "06 76 96 16 53",
+     "site": "https://www.masduverdier.fr/",
+     "source": "https://www.masduverdier.fr/",
+     "verifieLe": "2026-11-22"
+    }
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.masduverdier.fr/",
+    "https://data.geopf.fr/geocodage/search?q=725+chemin+du+Pigeonnier%2C+Le+Verdier%2C+46160+Cajarc&limit=5"
+   ],
+   "extrait": "nous organisons des visites de notre brasserie",
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse du site (revue de la persona du 22/11)."
+  },
+  {
+   "fiche": {
+    "n": "Buvett",
+    "c": "Assier",
+    "d": "46",
+    "lat": 44.67958,
+    "lon": 1.87905,
+    "km": 251.1,
+    "cat": 0,
+    "conf": "",
+    "note": "Bar d'Assier inspiré des pubs, qui brasse ses bières sur place, ouvert les jeudis, vendredis et samedis soir, d'après l'office de tourisme d'Occitanie. La vente à emporter n'est pas dite ; aucun horaire précis publié.",
+    "addr": "46320 Assier",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-22",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/",
+    "https://data.geopf.fr/geocodage/search?q=Assier&type=municipality&limit=5"
+   ],
+   "extrait": "L’activité principale reste la production de bières artisanales, brassées sur place avec des ingrédients locaux",
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 22/11. Catégorie 0 : un bar sans vente dite (règle du 18/11). Les adresses du registre et d'un annuaire diffèrent : la fiche part au centre de la commune. La page de l'office nomme les gérants : aucun nom repris. Le fixe de l'office n'est pas rattaché à la brasserie avec certitude : non repris."
+  }
+ ]
+}

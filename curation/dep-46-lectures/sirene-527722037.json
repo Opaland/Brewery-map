@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:527722037",
+ "ajout": {
+  "fiche": {
+   "n": "Zymotik",
+   "c": "Cahors",
+   "d": "46",
+   "lat": 44.44131,
+   "lon": 1.40549,
+   "km": 296.6,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Micro-brasserie école : vente à la brasserie tous les vendredis de 17 h à 19 h et sur les marchés, stages de brassage, d'après l'office de tourisme d'Occitanie et son site. Aucun bar ni dégustation dits.",
+   "addr": "585 chemin de Rode Limau, 46000 Cahors",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.zymotik.fr/",
+    "source": "https://www.zymotik.fr/",
+    "verifieLe": "2026-11-22"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-22"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/micro-brasserie-ecole-zymotik-cahors_TFODEGMIP046V51D2AX/",
+   "https://www.zymotik.fr/",
+   "https://data.geopf.fr/geocodage/search?q=585+chemin+de+Rode+Limau%2C+46000+Cahors&limit=5"
+  ],
+  "extrait": "Vente directement à la brasserie tous les vendredis de 17h à 19h",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11 (« Zymotik est ouvert tous les vendredis de 17h à 19h »). Le portable de l'office est écarté ; le site n'en publie aucun."
+ }
+}

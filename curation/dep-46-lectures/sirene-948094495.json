@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:948094495",
+ "ajout": {
+  "fiche": {
+   "n": "Buvett",
+   "c": "Assier",
+   "d": "46",
+   "lat": 44.67958,
+   "lon": 1.87905,
+   "km": 251.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Bar d'Assier inspiré des pubs, qui brasse ses bières sur place, ouvert les jeudis, vendredis et samedis soir, d'après l'office de tourisme d'Occitanie. La vente à emporter n'est pas dite ; aucun horaire précis publié.",
+   "addr": "46320 Assier",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-22",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/",
+   "https://data.geopf.fr/geocodage/search?q=Assier&type=municipality&limit=5"
+  ],
+  "extrait": "L’activité principale reste la production de bières artisanales, brassées sur place avec des ingrédients locaux",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 22/11. Catégorie 0 : un bar sans vente dite (règle du 18/11). Les adresses du registre et d'un annuaire diffèrent : la fiche part au centre de la commune. La page de l'office nomme les gérants : aucun nom repris. Le fixe de l'office n'est pas rattaché à la brasserie avec certitude : non repris."
+ }
+}
