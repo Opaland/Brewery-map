@@ -5,15 +5,15 @@
    "n": "Bière KOS – Mas du Verdier",
    "c": "Cajarc",
    "d": "46",
-   "lat": 44.49508,
-   "lon": 1.83361,
-   "km": 264.1,
+   "lat": 44.51656,
+   "lon": 1.85665,
+   "km": 261.4,
    "cat": 2,
    "conf": "moyenne",
-   "note": "Brasserie et miellerie bio : visites d'environ une heure pour les groupes, terminées par une dégustation, d'après son site. La vente sur place et les horaires ne sont pas dits.",
-   "addr": "Lieu-dit Le Verdier, 46160 Cajarc",
+   "note": "Brasserie et miellerie bio qui se visite : visite d'environ une heure, terminée par une dégustation, sur contact, d'après son site. La vente sur place et les horaires ne sont pas dits.",
+   "addr": "725 chemin du Pigeonnier, Le Verdier, 46160 Cajarc",
    "src": "https://www.masduverdier.fr/",
-   "coordPrecision": "centre",
+   "coordPrecision": "address",
    "beers": [],
    "contact": {
     "tel": "06 76 96 16 53",
@@ -25,9 +25,9 @@
   "verifieLe": "2026-11-22",
   "sources": [
    "https://www.masduverdier.fr/",
-   "https://data.geopf.fr/geocodage/search?q=Cajarc&type=municipality&limit=5"
+   "https://data.geopf.fr/geocodage/search?q=725+chemin+du+Pigeonnier%2C+Le+Verdier%2C+46160+Cajarc&limit=5"
   ],
   "extrait": "nous organisons des visites de notre brasserie",
-  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse de l'office."
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse du site (revue de la persona du 22/11)."
  }
 }

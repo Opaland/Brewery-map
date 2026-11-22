@@ -3,7 +3,7 @@
 Ce lot ajoute **7 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 20 candidats = 7 proposés + 13 non proposés (tableau ci-dessous).
-Catégories proposées : 1 « acheter et consommer », 4 « acheter seulement », 0 « pas de vente », 2 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 2 « acheter et consommer », 3 « acheter seulement », 0 « pas de vente », 2 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -41,7 +41,7 @@ Catégories proposées : 1 « acheter et consommer », 4 « acheter seulement »
 - km : (vide) → 297.1
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → solide
-- note : (vide) → Brasserie près de Cahors : boutique, bar et terrasse (beer garden), du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés, d'après son site ; visites sur rendez-vous.
+- note : (vide) → Brasserie près de Cahors : boutique ouverte du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés ; bar à l'intérieur ou terrasse (beer garden) selon la saison, sans heures dites ; visites sur rendez-vous, d'après son site.
 - addr : (vide) → 725 route de Saint-Exupéry, 46230 Fontanes
 - src : (vide) → https://biereratz.fr/la-boutique-et-le-bar/
 - coordPrecision : (vide) → address
@@ -82,12 +82,12 @@ Extrait lu : « Retrouvez nos bières artisanales en vente dans la boutique de l
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11 (« Avril - Octobre : Du lundi au samedi 9H - 19H », « Novembre - Mars : Du lundi au samedi 9H - 18H », « Fermeture le dimanche et les jours fériés. »). Le point OSM de Fontanes est la même brasserie. Fixe publié par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 06 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
+> - À 8 h 14 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
 > - Adresse
 > - 725 route de Saint-Exupéry, 46230 Fontanes
 > - Pas encore dans la fiche : ses bières.
@@ -146,12 +146,12 @@ Extrait lu : « Vente directement à la brasserie tous les vendredis de 17h à 1
 
 Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11 (« Zymotik est ouvert tous les vendredis de 17h à 19h »). Le portable de l'office est écarté ; le site n'en publie aucun.
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 06 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 8 h 14 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 585 chemin de Rode Limau, 46000 Cahors
 > - Pas encore dans la fiche : son téléphone et ses bières.
@@ -180,8 +180,8 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - lon : (vide) → 1.60708
 - km : (vide) → 259.4
 - cat : (vide) → 2 (Acheter seulement)
-- conf : (vide) → solide
-- note : (vide) → Vente sur le lieu de production, à Layrac, tous les vendredis après-midi de 14 h à 18 h, d'après son site. Ni bar ni dégustation dits.
+- conf : (vide) → moyenne
+- note : (vide) → Rendez-vous tous les vendredis après-midi de 14 h à 18 h sur le lieu de production, à Layrac, d'après son site, qui donne un numéro pour les commandes de bouteilles ; le mot « vente » n'y est pas, ni bar ni dégustation. Pas de carte bancaire.
 - addr : (vide) → Layrac, 46600 Martel
 - src : (vide) → https://www.lesbieresdejulien.fr/
 - coordPrecision : (vide) → centre
@@ -192,6 +192,7 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - contact.verifieLe : (vide) → 2026-11-22
 - horaires.0.nature : (vide) → vente
 - horaires.0.ven : (vide) → 14 h – 18 h
+- horaires.0.remarque : (vide) → Rendez-vous au lieu de production ; le site parle de commandes de bouteilles.
 - horaires.0.source : (vide) → https://www.lesbieresdejulien.fr/
 - horaires.0.verifieLe : (vide) → 2026-11-22
 - verifieLe : (vide) → 2026-11-22
@@ -200,14 +201,14 @@ Sources (vérifiée le 2026-11-22) : https://www.lesbieresdejulien.fr/ ; https:/
 
 Extrait lu : « Tous les vendredi après-midi de 14 h à 18 h. »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise.
+Choix du vérificateur : Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise. Confiance moyenne : le site ne dit pas « vente » en toutes lettres (revue de la persona du 22/11).
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 06 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 8 h 14 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - Layrac, 46600 Martel
 > - Pas encore dans la fiche : ses bières.
@@ -216,6 +217,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 22/11. Fixe pub
 > - [Appeler le 09 51 46 04 61](tel:+33951460461)
 > - [Site de la brasserie](https://www.lesbieresdejulien.fr/)
 > - Horaires
+> - À savoir : Rendez-vous au lieu de production ; le site parle de commandes de bouteilles.
 > - Horaires de vente
 > - Lundi | non précisé
 > - Mardi | non précisé
@@ -225,7 +227,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 22/11. Fixe pub
 > - Samedi | non précisé
 > - Dimanche | non précisé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Lu sur [lesbieresdejulien.fr](https://www.lesbieresdejulien.fr/) le 22 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
+> - Lu sur [lesbieresdejulien.fr](https://www.lesbieresdejulien.fr/) le 22 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 4. Brasserie Les Acolytes — fiche nouvelle
 
@@ -253,7 +255,7 @@ Extrait lu : « Visite couplée du château Les Croisille et de la brasserie Les
 
 Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 22/11. Le portable de l'office est écarté ; le site n'en publie aucun.
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -274,9 +276,9 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - lat : (vide) → 44.65692
 - lon : (vide) → 1.39467
 - km : (vide) → 286.7
-- cat : (vide) → 2 (Acheter seulement)
+- cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Bières vendues sur place et sur les marchés, d'après son site ; visite sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).
+- note : (vide) → Bières brassées et vendues sur place, à boire sur place ou à emporter, et sur les marchés, d'après son site ; heures d'ouverture non dites. Visite payante avec dégustation, sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).
 - addr : (vide) → 75 Route de Cahors, 46310 Concorès
 - src : (vide) → https://www.maltovadrouille.fr/
 - coordPrecision : (vide) → address
@@ -291,12 +293,12 @@ Sources (vérifiée le 2026-11-22) : https://www.maltovadrouille.fr/ ; https://d
 
 Extrait lu : « disponibles à la vente sur place »
 
-Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les heures de visite, sur réservation, restent dans la note.
+Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 1 : le site dit « boire un verre sur place » et la vente sur place (revue de la persona du 22/11). Les heures de visite, sur réservation, restent dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - Acheter seulement
+> - Acheter et consommer sur place
 > - Adresse
 > - 75 Route de Cahors, 46310 Concorès
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -312,15 +314,15 @@ Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus su
 - n : (vide) → Bière KOS – Mas du Verdier
 - c : (vide) → Cajarc
 - d : (vide) → 46
-- lat : (vide) → 44.49508
-- lon : (vide) → 1.83361
-- km : (vide) → 264.1
+- lat : (vide) → 44.51656
+- lon : (vide) → 1.85665
+- km : (vide) → 261.4
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie et miellerie bio : visites d'environ une heure pour les groupes, terminées par une dégustation, d'après son site. La vente sur place et les horaires ne sont pas dits.
-- addr : (vide) → Lieu-dit Le Verdier, 46160 Cajarc
+- note : (vide) → Brasserie et miellerie bio qui se visite : visite d'environ une heure, terminée par une dégustation, sur contact, d'après son site. La vente sur place et les horaires ne sont pas dits.
+- addr : (vide) → 725 chemin du Pigeonnier, Le Verdier, 46160 Cajarc
 - src : (vide) → https://www.masduverdier.fr/
-- coordPrecision : (vide) → centre
+- coordPrecision : (vide) → address
 - beers : (vide) → []
 - contact.tel : (vide) → 06 76 96 16 53
 - contact.site : (vide) → https://www.masduverdier.fr/
@@ -328,18 +330,18 @@ Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus su
 - contact.verifieLe : (vide) → 2026-11-22
 - verifieLe : (vide) → 2026-11-22
 
-Sources (vérifiée le 2026-11-22) : https://www.masduverdier.fr/ ; https://data.geopf.fr/geocodage/search?q=Cajarc&type=municipality&limit=5
+Sources (vérifiée le 2026-11-22) : https://www.masduverdier.fr/ ; https://data.geopf.fr/geocodage/search?q=725+chemin+du+Pigeonnier%2C+Le+Verdier%2C+46160+Cajarc&limit=5
 
 Extrait lu : « nous organisons des visites de notre brasserie »
 
-Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse de l'office.
+Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse du site (revue de la persona du 22/11).
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Adresse
-> - Lieu-dit Le Verdier, 46160 Cajarc
+> - 725 chemin du Pigeonnier, Le Verdier, 46160 Cajarc
 > - Pas encore dans la fiche : ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Bi%C3%A8re+KOS+%E2%80%93+Mas+du+Verdier+Cajarc)[Ses bières sur Untappd](https://untappd.com/search?q=Bi%C3%A8re+KOS+%E2%80%93+Mas+du+Verdier&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
@@ -371,7 +373,7 @@ Extrait lu : « L’activité principale reste la production de bières artisana
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 22/11. Catégorie 0 : un bar sans vente dite (règle du 18/11). Les adresses du registre et d'un annuaire diffèrent : la fiche part au centre de la commune. La page de l'office nomme les gérants : aucun nom repris. Le fixe de l'office n'est pas rattaché à la brasserie avec certitude : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:06, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le dimanche 22 novembre 2026 à 08:14, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -380,4 +382,4 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/restauration/buvett-assier_TFORESMIP046V52KYJZ/) le 22 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 25bfe13771c2
+Empreinte du lot : 8c8b8e692899

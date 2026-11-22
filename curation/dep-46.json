@@ -12,7 +12,7 @@
     "km": 297.1,
     "cat": 1,
     "conf": "solide",
-    "note": "Brasserie près de Cahors : boutique, bar et terrasse (beer garden), du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés, d'après son site ; visites sur rendez-vous.",
+    "note": "Brasserie près de Cahors : boutique ouverte du lundi au samedi de 9 h à 19 h d'avril à octobre et de 9 h à 18 h de novembre à mars, fermée le dimanche et les jours fériés ; bar à l'intérieur ou terrasse (beer garden) selon la saison, sans heures dites ; visites sur rendez-vous, d'après son site.",
     "addr": "725 route de Saint-Exupéry, 46230 Fontanes",
     "src": "https://biereratz.fr/la-boutique-et-le-bar/",
     "coordPrecision": "address",
@@ -179,8 +179,8 @@
     "lon": 1.60708,
     "km": 259.4,
     "cat": 2,
-    "conf": "solide",
-    "note": "Vente sur le lieu de production, à Layrac, tous les vendredis après-midi de 14 h à 18 h, d'après son site. Ni bar ni dégustation dits.",
+    "conf": "moyenne",
+    "note": "Rendez-vous tous les vendredis après-midi de 14 h à 18 h sur le lieu de production, à Layrac, d'après son site, qui donne un numéro pour les commandes de bouteilles ; le mot « vente » n'y est pas, ni bar ni dégustation. Pas de carte bancaire.",
     "addr": "Layrac, 46600 Martel",
     "src": "https://www.lesbieresdejulien.fr/",
     "coordPrecision": "centre",
@@ -200,6 +200,7 @@
         "18:00"
        ]
       ],
+      "remarque": "Rendez-vous au lieu de production ; le site parle de commandes de bouteilles.",
       "source": "https://www.lesbieresdejulien.fr/",
       "verifieLe": "2026-11-22"
      }
@@ -211,7 +212,7 @@
     "https://data.geopf.fr/geocodage/search?q=Martel&type=municipality&limit=5"
    ],
    "extrait": "Tous les vendredi après-midi de 14 h à 18 h.",
-   "choix": "Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise."
+   "choix": "Site officiel relu sur la page brute le 22/11. Fixe publié par la brasserie ; son portable est écarté, puisqu'un fixe existe. L'office donne une autre heure de fermeture : le site est retenu. Une fermeture exceptionnelle sans année n'est pas reprise. Confiance moyenne : le site ne dit pas « vente » en toutes lettres (revue de la persona du 22/11)."
   },
   {
    "fiche": {
@@ -251,9 +252,9 @@
     "lat": 44.65692,
     "lon": 1.39467,
     "km": 286.7,
-    "cat": 2,
+    "cat": 1,
     "conf": "moyenne",
-    "note": "Bières vendues sur place et sur les marchés, d'après son site ; visite sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).",
+    "note": "Bières brassées et vendues sur place, à boire sur place ou à emporter, et sur les marchés, d'après son site ; heures d'ouverture non dites. Visite payante avec dégustation, sur réservation, les samedis après-midi de juin à septembre (14 h-17 h).",
     "addr": "75 Route de Cahors, 46310 Concorès",
     "src": "https://www.maltovadrouille.fr/",
     "coordPrecision": "address",
@@ -271,22 +272,22 @@
     "https://data.geopf.fr/geocodage/search?q=75+Route+de+Cahors%2C+46310+Concor%C3%A8s&limit=5"
    ],
    "extrait": "disponibles à la vente sur place",
-   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Les heures de visite, sur réservation, restent dans la note."
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Adresse de l'office et du registre (Concorès), comme le titre du site. Le seul numéro publié par la brasserie est un portable (règle du 21/10). Catégorie 1 : le site dit « boire un verre sur place » et la vente sur place (revue de la persona du 22/11). Les heures de visite, sur réservation, restent dans la note."
   },
   {
    "fiche": {
     "n": "Bière KOS – Mas du Verdier",
     "c": "Cajarc",
     "d": "46",
-    "lat": 44.49508,
-    "lon": 1.83361,
-    "km": 264.1,
+    "lat": 44.51656,
+    "lon": 1.85665,
+    "km": 261.4,
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie et miellerie bio : visites d'environ une heure pour les groupes, terminées par une dégustation, d'après son site. La vente sur place et les horaires ne sont pas dits.",
-    "addr": "Lieu-dit Le Verdier, 46160 Cajarc",
+    "note": "Brasserie et miellerie bio qui se visite : visite d'environ une heure, terminée par une dégustation, sur contact, d'après son site. La vente sur place et les horaires ne sont pas dits.",
+    "addr": "725 chemin du Pigeonnier, Le Verdier, 46160 Cajarc",
     "src": "https://www.masduverdier.fr/",
-    "coordPrecision": "centre",
+    "coordPrecision": "address",
     "beers": [],
     "contact": {
      "tel": "06 76 96 16 53",
@@ -298,10 +299,10 @@
    "verifieLe": "2026-11-22",
    "sources": [
     "https://www.masduverdier.fr/",
-    "https://data.geopf.fr/geocodage/search?q=Cajarc&type=municipality&limit=5"
+    "https://data.geopf.fr/geocodage/search?q=725+chemin+du+Pigeonnier%2C+Le+Verdier%2C+46160+Cajarc&limit=5"
    ],
    "extrait": "nous organisons des visites de notre brasserie",
-   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse de l'office."
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 22/11. Catégorie 2 : la dégustation est liée à la visite. La brasserie ne publie que deux portables ; le premier, aussi donné par l'office, est repris (règle du 21/10). Adresse du site (revue de la persona du 22/11)."
   },
   {
    "fiche": {
