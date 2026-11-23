@@ -53,7 +53,7 @@ Extrait lu : « la Brasserie du Pépère vous propose une gamme de bières produ
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM. Le domaine que l'office donne pour site publie aujourd'hui des articles sans rapport (casinos) : non repris. Seul un portable est publié, par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -79,23 +79,43 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/
 - coordPrecision : (vide) → centre
 - beers : (vide) → []
+- horaires.0.nature : (vide) → vente
+- horaires.0.lun : (vide) → 10 h – 12 h, 14 h – 16 h 30
+- horaires.0.mar : (vide) → 10 h – 12 h, 14 h – 16 h 30
+- horaires.0.mer : (vide) → 10 h – 12 h, 14 h – 16 h 30
+- horaires.0.jeu : (vide) → 10 h – 12 h, 14 h – 16 h 30
+- horaires.0.ven : (vide) → 10 h – 12 h, 14 h – 16 h 30
+- horaires.0.source : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/
+- horaires.0.verifieLe : (vide) → 2026-11-23
 - verifieLe : (vide) → 2026-11-23
 
 Sources (vérifiée le 2026-11-23) : https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/ ; https://data.geopf.fr/geocodage/search?q=Arreau&type=municipality&limit=5
 
 Extrait lu : « Notre boutique est ouverte du lundi au vendredi »
 
-Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures sont écrites « 10h à 12h/14h à16h30 », que le contrôle ne relit pas : dites dans la note. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne ».
+Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures de la boutique (« du lundi au vendredi de 10h à 12h/14h à16h30 ») sont structurées en « vente » (persona Hugo, 23/11) ; samedi et dimanche ne sont pas écrits et restent inconnus. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne ».
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
+> - Maintenant
+> - À 17 h 58 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 10 h.
 > - Adresse
 > - Place de la gare, 65240 Arreau
-> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
+> - Pas encore dans la fiche : son téléphone et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+L%27Aoucataise+Arreau)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+L%27Aoucataise&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
+> - Horaires
+> - Horaires de vente
+> - Lundi | 10 h – 12 h, 14 h – 16 h 30
+> - Mardi | 10 h – 12 h, 14 h – 16 h 30
+> - Mercredi | 10 h – 12 h, 14 h – 16 h 30
+> - Jeudi | 10 h – 12 h, 14 h – 16 h 30
+> - Vendredi | 10 h – 12 h, 14 h – 16 h 30
+> - Samedi | non précisé
+> - Dimanche | non précisé
+> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/) le 23 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 3. Brasserie des Pics — fiche nouvelle
@@ -126,39 +146,26 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 - contact.site : (vide) → http://www.brasserie-des-pics.fr
 - contact.source : (vide) → http://www.brasserie-des-pics.fr
 - contact.verifieLe : (vide) → 2026-11-23
-- horaires.0.nature : (vide) → accueil
-- horaires.0.ven : (vide) → 17 h – 19 h
-- horaires.0.source : (vide) → http://www.brasserie-des-pics.fr
-- horaires.0.verifieLe : (vide) → 2026-11-23
 - verifieLe : (vide) → 2026-11-23
 
 Sources (vérifiée le 2026-11-23) : http://www.brasserie-des-pics.fr ; https://data.geopf.fr/geocodage/search?q=4+route+de+Tarbes-Toulouse%2C+65150+Saint-Laurent-de-Neste&limit=5
 
 Extrait lu : « Le magasin et le bar sont ouverts »
 
-Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : seule la phrase « Le magasin et le bar sont ouverts le vendredi de 17h à 19h » est structurée, les autres jours restent inconnus. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie.
+Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : aucun horaire n'est structuré : une grille au vendredi 17 h – 19 h dirait « fermé » un vendredi d'été à 20 h, alors que l'office annonce 22 h (persona Hugo, 23/11) ; les heures sont dites dans la note. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
-> - Maintenant
-> - À 17 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste
+> - Pas encore dans la fiche : ses horaires.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+des+Pics+Saint-Laurent-de-Neste)
+> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Appeler le 05 62 39 30 95](tel:+33562393095)
 > - [Site de la brasserie](http://www.brasserie-des-pics.fr)
-> - Horaires
-> - Horaires d’accueil du public
-> - Lundi | non précisé
-> - Mardi | non précisé
-> - Mercredi | non précisé
-> - Jeudi | non précisé
-> - Vendredi | 17 h – 19 h
-> - Samedi | non précisé
-> - Dimanche | non précisé
-> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Ses bières
 > - Nestoise Blonde · Blonde (non référencé) — claire et légère
 > - Nestoise Ambrée · Ambrée (non référencé) — cuivrée, notes de caramel
@@ -205,12 +212,12 @@ Extrait lu : « Nos produits sont disponibles à la vente directe dans notre bou
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 : « Vous pouvez vous installer tranquillement sur notre terrasse pour déguster votre bière préférée » et la boutique de vente directe, sur la même page. Horaires d'accueil de la même page. Fixe publié par la brasserie ; le portable de l'office n'est pas repris. L'adresse SIRENE est à Esquièze-Sère ; le site dit Argelès-Gazost, retenue.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 17 h 49 (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.
+> - À 17 h 58 (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.
 > - Adresse
 > - 4 chemin de l'Herbe, 65400 Argelès-Gazost
 > - Pas encore dans la fiche : ses bières.
@@ -259,7 +266,7 @@ Extrait lu : « bar à bières artisanales »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (« vous accueille dans son Brewpub, un véritable bar à bières artisanales » ; « Directement à la boutique au 14 rue des Pyrénées »). Catégorie 1 en confiance moyenne : la vente à emporter n'est pas écrite en ces mots. Le seul numéro publié est un portable écrit sans espaces (« 0625690895 »), que le contrôle ne relit pas : il passe dans la note (règle du 21/10). L'office écrit « La Meridenne », même adresse.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -325,12 +332,12 @@ Extrait lu : « artisanale. Nous vous y recevons de façon simple et conviviale.
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 0 : la brasserie reçoit, mais ni boutique ni vente sur place ne sont écrites (« vendues à l'unité » sans lieu). Horaires d'ouverture de la page (« Du mardi au samedi : 09h00 - 18h00 », « Fermé le dimanche et lundi »). Fixe publié par la brasserie. Le candidat SIRENE « Brewpub » de Sassis n'est pas rattaché : aucune page ne le relie.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 17 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
+> - À 17 h 58 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
 > - Adresse
 > - 2 chemin des Ardouneres, 65120 Sassis
 > - Joindre la brasserie
@@ -391,12 +398,12 @@ Extrait lu : « Nous ne faisons pas de visite mais nous avons un bar avec nos bi
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10), le second est dit dans la note. Le candidat SIRENE « Les Compagnons » est ce même bar.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:58, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 17 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 17 h 58 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 10 rue des Thermes, 65200 Bagnères-de-Bigorre
 > - Pas encore dans la fiche : ses bières.
@@ -417,4 +424,4 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [lesbrasseursdeladour.fr](https://lesbrasseursdeladour.fr) le 23 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 4a6ee2ece1fc
+Empreinte du lot : 3b40f779f6de

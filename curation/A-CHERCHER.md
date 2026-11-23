@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 925 | 25 (3 %) | 42 | 341 | 283 | 354 | 488 | 606 | 742 |
+| **Total** | 925 | 24 (3 %) | 42 | 341 | 283 | 354 | 488 | 606 | 742 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -79,7 +79,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 62 · Pas-de-Calais | 11 | 0 (0 %) | 0 | 4 | 3 | 2 | 5 | 8 | 11 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
 | 64 · Pyrénées-Atlantiques | 13 | 0 (0 %) | 0 | 3 | 4 | 4 | 4 | 8 | 13 |
-| 65 · Hautes-Pyrénées | 7 | 1 (14 %) | 0 | 3 | 2 | 1 | 3 | 3 | 4 |
+| 65 · Hautes-Pyrénées | 7 | 0 (0 %) | 0 | 3 | 2 | 1 | 3 | 3 | 4 |
 | 67 · Bas-Rhin | 24 | 0 (0 %) | 0 | 7 | 4 | 1 | 9 | 18 | 24 |
 | 68 · Haut-Rhin | 19 | 0 (0 %) | 0 | 6 | 6 | 3 | 8 | 11 | 19 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |

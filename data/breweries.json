@@ -34744,7 +34744,64 @@
   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
   "coordPrecision": "centre",
   "beers": [],
-  "verifieLe": "2026-11-23"
+  "verifieLe": "2026-11-23",
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+    "verifieLe": "2026-11-23"
+   }
+  ]
  },
  {
   "n": "Brasserie des Pics",
@@ -34787,20 +34844,7 @@
    "site": "http://www.brasserie-des-pics.fr",
    "source": "http://www.brasserie-des-pics.fr",
    "verifieLe": "2026-11-23"
-  },
-  "horaires": [
-   {
-    "nature": "accueil",
-    "ven": [
-     [
-      "17:00",
-      "19:00"
-     ]
-    ],
-    "source": "http://www.brasserie-des-pics.fr",
-    "verifieLe": "2026-11-23"
-   }
-  ]
+  }
  },
  {
   "n": "Brasserie du Pays des Gaves",

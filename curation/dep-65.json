@@ -40,7 +40,64 @@
     "addr": "Place de la gare, 65240 Arreau",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
     "coordPrecision": "centre",
-    "beers": []
+    "beers": [],
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "16:30"
+       ]
+      ],
+      "mar": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "16:30"
+       ]
+      ],
+      "mer": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "16:30"
+       ]
+      ],
+      "jeu": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "16:30"
+       ]
+      ],
+      "ven": [
+       [
+        "10:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "16:30"
+       ]
+      ],
+      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+      "verifieLe": "2026-11-23"
+     }
+    ]
    },
    "verifieLe": "2026-11-23",
    "sources": [
@@ -48,7 +105,7 @@
     "https://data.geopf.fr/geocodage/search?q=Arreau&type=municipality&limit=5"
    ],
    "extrait": "Notre boutique est ouverte du lundi au vendredi",
-   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures sont écrites « 10h à 12h/14h à16h30 », que le contrôle ne relit pas : dites dans la note. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne »."
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures de la boutique (« du lundi au vendredi de 10h à 12h/14h à16h30 ») sont structurées en « vente » (persona Hugo, 23/11) ; samedi et dimanche ne sont pas écrits et restent inconnus. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne »."
   },
   {
    "fiche": {
@@ -91,20 +148,7 @@
      "site": "http://www.brasserie-des-pics.fr",
      "source": "http://www.brasserie-des-pics.fr",
      "verifieLe": "2026-11-23"
-    },
-    "horaires": [
-     {
-      "nature": "accueil",
-      "ven": [
-       [
-        "17:00",
-        "19:00"
-       ]
-      ],
-      "source": "http://www.brasserie-des-pics.fr",
-      "verifieLe": "2026-11-23"
-     }
-    ]
+    }
    },
    "verifieLe": "2026-11-23",
    "sources": [
@@ -112,7 +156,7 @@
     "https://data.geopf.fr/geocodage/search?q=4+route+de+Tarbes-Toulouse%2C+65150+Saint-Laurent-de-Neste&limit=5"
    ],
    "extrait": "Le magasin et le bar sont ouverts",
-   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : seule la phrase « Le magasin et le bar sont ouverts le vendredi de 17h à 19h » est structurée, les autres jours restent inconnus. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie."
+   "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : aucun horaire n'est structuré : une grille au vendredi 17 h – 19 h dirait « fermé » un vendredi d'été à 20 h, alors que l'office annonce 22 h (persona Hugo, 23/11) ; les heures sont dites dans la note. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie."
   },
   {
    "fiche": {

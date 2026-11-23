@@ -76,6 +76,11 @@ pourquoi.
 - **`tests/unit/fins-de-ligne.test.ts` dépasse 5 s quand la machine est
   chargée** (agents en parallèle) : relancer le commit, ce n'est pas un
   défaut.
+- **Une grille partielle peut dire « fermé » à tort** (23/11, Brasserie des Pics :
+  « vendredi 17h-19h » sur le site, « jeudi et vendredi 17h-22h en saison
+  estivale » sur l'office). Un vendredi d'été à 20 h, la grille dit « fermé »
+  sans réserve (persona Hugo). Parade : quand une autre source donne des heures
+  plus larges pour les mêmes jours, ne pas structurer ; tout dire dans la note.
 - **Un test e2e peut supposer qu'une commune n'a pas de brasserie** (23/11 :
   « rien dans le rayon, Mende 10 km » rougit quand la Lozère entre). Parade :
   avant d'appliquer un département, `grep` ses communes dans `tests/e2e/` ;
