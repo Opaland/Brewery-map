@@ -1,0 +1,67 @@
+{
+ "candidat": "sirene:809171978",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie des Pics",
+   "c": "Saint-Laurent-de-Neste",
+   "d": "65",
+   "lat": 43.10217,
+   "lon": 0.46913,
+   "km": 444.6,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie bio de la Nestoise, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.",
+   "addr": "4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste",
+   "src": "http://www.brasserie-des-pics.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde",
+     "libelle": "Nestoise Blonde"
+    },
+    {
+     "type": "ambree",
+     "libelle": "Nestoise Ambrée"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Nestoise Blanche"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Nestoise IPA"
+    },
+    {
+     "type": "stout",
+     "libelle": "Nestoise Stout"
+    }
+   ],
+   "contact": {
+    "tel": "05 62 39 30 95",
+    "site": "http://www.brasserie-des-pics.fr",
+    "source": "http://www.brasserie-des-pics.fr",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "http://www.brasserie-des-pics.fr",
+     "ven": [
+      [
+       "17:00",
+       "19:00"
+      ]
+     ],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "http://www.brasserie-des-pics.fr",
+   "https://data.geopf.fr/geocodage/search?q=4+route+de+Tarbes-Toulouse%2C+65150+Saint-Laurent-de-Neste&limit=5"
+  ],
+  "extrait": "Le magasin et le bar sont ouverts",
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : seule la phrase « Le magasin et le bar sont ouverts le vendredi de 17h à 19h » est structurée, les autres jours restent inconnus. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie."
+ }
+}

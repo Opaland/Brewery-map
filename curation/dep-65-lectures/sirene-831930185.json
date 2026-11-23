@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:831930185",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pays des Gaves",
+   "c": "Argelès-Gazost",
+   "d": "65",
+   "lat": 43.00727,
+   "lon": -0.09087,
+   "km": 486.1,
+   "cat": 1,
+   "conf": "solide",
+   "note": "Brasserie d'Argelès-Gazost avec un intérieur et une terrasse où déguster ses bières, et une boutique de vente directe, d'après son site. Visites suivies d'une dégustation gratuite.",
+   "addr": "4 chemin de l'Herbe, 65400 Argelès-Gazost",
+   "src": "https://www.brasseriedesgaves.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 62 32 76 61",
+    "site": "https://www.brasseriedesgaves.com/",
+    "source": "https://www.brasseriedesgaves.com/",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasseriedesgaves.com/",
+     "lun": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "mar": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "mer": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "sam": [
+      [
+       "12:30",
+       "22:30"
+      ]
+     ],
+     "dim": [
+      [
+       "17:00",
+       "21:30"
+      ]
+     ],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.brasseriedesgaves.com/",
+   "https://data.geopf.fr/geocodage/search?q=4+chemin+de+l%27Herbe%2C+65400+Argel%C3%A8s-Gazost&limit=5"
+  ],
+  "extrait": "Nos produits sont disponibles à la vente directe dans notre boutique",
+  "choix": "Site officiel relu sur la page brute le 23/11 : « Vous pouvez vous installer tranquillement sur notre terrasse pour déguster votre bière préférée » et la boutique de vente directe, sur la même page. Horaires d'accueil de la même page. Fixe publié par la brasserie ; le portable de l'office n'est pas repris. L'adresse SIRENE est à Esquièze-Sère ; le site dit Argelès-Gazost, retenue."
+ }
+}
