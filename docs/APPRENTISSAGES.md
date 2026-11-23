@@ -76,6 +76,11 @@ pourquoi.
 - **`tests/unit/fins-de-ligne.test.ts` dépasse 5 s quand la machine est
   chargée** (agents en parallèle) : relancer le commit, ce n'est pas un
   défaut.
+- **Un test e2e peut supposer qu'une commune n'a pas de brasserie** (23/11 :
+  « rien dans le rayon, Mende 10 km » rougit quand la Lozère entre). Parade :
+  avant d'appliquer un département, `grep` ses communes dans `tests/e2e/` ;
+  une commune de remplacement se choisit en calculant sa distance à toutes
+  les fiches et à tous les points OSM, pas au jugé.
 - **Une PR a deux runs** : attendre les deux lignes `porte` et les deux
   `visuel` avant de merger (§7bis). `navigateurs (firefox)` et
   `navigateurs (webkit)` sont informatifs et rouges partout (#250).

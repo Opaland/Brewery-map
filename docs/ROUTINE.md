@@ -11,7 +11,7 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 48 (Lozère), S348 (Occitanie) : PR ouverte le 23/11 ; si elle est mergée, passer au 65 (Hautes-Pyrénées). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Département en cours | 48 (Lozère), S348 (Occitanie) : PR #299 ouverte le 23/11 ; si elle est mergée, passer au 65 (Hautes-Pyrénées). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
 | Essais sur ce département | 1 (23/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 46 (22/11, PR #297, 7 fiches) |
