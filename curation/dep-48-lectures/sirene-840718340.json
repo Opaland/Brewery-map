@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:840718340",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Cévenole PBC",
+   "c": "Saint-Julien-des-Points",
+   "d": "48",
+   "lat": 44.25665,
+   "lon": 3.96341,
+   "km": 169.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie artisanale des Cévennes, mention Nature & Progrès depuis 2021, d'après son site. Ni la vente ni l'accueil à la brasserie ne sont dits : le site renvoie à des points de vente.",
+   "addr": "48160 Saint-Julien-des-Points",
+   "src": "https://pbc-brasserie-cevenole.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://pbc-brasserie-cevenole.com/",
+    "source": "https://pbc-brasserie-cevenole.com/",
+    "verifieLe": "2026-11-23"
+   }
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://pbc-brasserie-cevenole.com/",
+   "https://data.geopf.fr/geocodage/search?q=Saint-Julien-des-Points&type=municipality&limit=5"
+  ],
+  "extrait": "Nous avons obtenu en 2021 notre mention Nature",
+  "choix": "Site officiel et fiche de l'office relus sur la page brute le 23/11. Adresse SIRENE non confirmée par une page lue : code postal et commune seulement. Seul un portable est publié, par l'office : non repris."
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "candidat": "sirene:905136909",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Rocles",
+   "c": "Langogne",
+   "d": "48",
+   "lat": 44.72895,
+   "lon": 3.85716,
+   "km": 126.5,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Brasserie bio née à Rocles en 2019, à Langogne depuis 2022 : vente à emporter le jeudi et le samedi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+   "addr": "1 rue du Boulodrome, 48300 Langogne",
+   "src": "https://www.brasseriederocles.com/contact",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "autre",
+     "libelle": "Pacific (American Pale Ale)"
+    },
+    {
+     "type": "blonde",
+     "libelle": "Blonde Anglaise"
+    },
+    {
+     "type": "ambree",
+     "libelle": "Ambrée"
+    },
+    {
+     "type": "ipa",
+     "libelle": "IPA"
+    },
+    {
+     "type": "lager",
+     "libelle": "Session Pils"
+    },
+    {
+     "type": "brune",
+     "libelle": "London Porter"
+    }
+   ],
+   "contact": {
+    "tel": "06 27 64 43 36",
+    "site": "https://www.brasseriederocles.com/",
+    "source": "https://www.brasseriederocles.com/contact",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasseriederocles.com/contact",
+     "lun": [],
+     "mar": [],
+     "mer": [],
+     "jeu": [
+      [
+       "16:00",
+       "19:00"
+      ]
+     ],
+     "ven": [],
+     "sam": [
+      [
+       "10:00",
+       "12:30"
+      ]
+     ],
+     "dim": [],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.brasseriederocles.com/contact",
+   "https://data.geopf.fr/geocodage/search?q=1+rue+du+Boulodrome%2C+48300+Langogne&limit=5"
+  ],
+  "extrait": "Vente à emporter",
+  "choix": "Site officiel relu sur la page brute le 23/11 (contact, À propos, Nos bières). La clé SIRENE est une entreprise de Rocles, commune où la brasserie est née dans un local loué à la mairie ; elle a déménagé à Langogne en 2022 (page À propos) : adresse actuelle retenue. « Fermé les autres jours de la semaine » est écrit. Le seul numéro publié par la brasserie est un portable (règle du 21/10)."
+ }
+}

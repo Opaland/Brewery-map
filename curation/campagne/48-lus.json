@@ -23,7 +23,7 @@
     "libelle": "Minim'ale"
    }
   ],
-  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »), en quatre saisons. Fixe publié par la brasserie. Le lien Untappd n'est pas écrit sur le site : non repris.",
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »), en deux saisons comme le site les écrit ; les heures longues de juillet et août (jusqu'à 21 h) sont dites dans la remarque, car le contrôle ne relit qu'une saison écrite telle quelle. Fixe publié par la brasserie. Le lien Untappd n'est pas écrit sur le site : non repris.",
   "contact": {
    "tel": "04 48 50 00 80",
    "site": "http://lesbrasseursdelajonte.fr/",
@@ -96,106 +96,6 @@
     "source": "http://lesbrasseursdelajonte.fr/",
     "periode": {
      "du": "05-01",
-     "au": "06-30"
-    },
-    "lun": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "mar": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "mer": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "jeu": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "ven": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "sam": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ],
-    "dim": [
-     [
-      "10:00",
-      "19:00"
-     ]
-    ]
-   },
-   {
-    "nature": "vente",
-    "source": "http://lesbrasseursdelajonte.fr/",
-    "periode": {
-     "du": "07-01",
-     "au": "08-31"
-    },
-    "lun": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "mar": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "mer": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "jeu": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "ven": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "sam": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ],
-    "dim": [
-     [
-      "10:00",
-      "21:00"
-     ]
-    ]
-   },
-   {
-    "nature": "vente",
-    "source": "http://lesbrasseursdelajonte.fr/",
-    "periode": {
-     "du": "09-01",
      "au": "09-30"
     },
     "lun": [
@@ -239,7 +139,8 @@
       "10:00",
       "19:00"
      ]
-    ]
+    ],
+    "remarque": "En juillet et août, ouvert 7 jours sur 7 jusqu'à 21 h."
    }
   ]
  },
