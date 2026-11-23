@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:108415225",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie L'Aoucataise",
+   "c": "Arreau",
+   "d": "65",
+   "lat": 42.9051,
+   "lon": 0.36097,
+   "km": 465.8,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie artisanale de montagne, à l'eau de source : boutique ouverte du lundi au vendredi, de 10 h à 12 h et de 14 h à 16 h 30, et visite suivie d'une dégustation, sur inscription, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire un verre hors de la visite.",
+   "addr": "Place de la gare, 65240 Arreau",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+   "https://data.geopf.fr/geocodage/search?q=Arreau&type=municipality&limit=5"
+  ],
+  "extrait": "Notre boutique est ouverte du lundi au vendredi",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures sont écrites « 10h à 12h/14h à16h30 », que le contrôle ne relit pas : dites dans la note. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne »."
+ }
+}

@@ -12,7 +12,7 @@
     "km": 459.2,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie dont les bières sont fabriquées à Pouyastruc, en fermentation isobar, d'après l'office de tourisme d'Occitanie. Ni vente, ni dégustation, ni horaires ne sont dits.",
+    "note": "Brasserie dont les bières sont fabriquées à Pouyastruc, en fermentation isobar, d'après l'office de tourisme d'Occitanie. L'adresse de Séméac est celle que donne l'office ; rien ne dit qu'on y est reçu, ni vente, ni dégustation, ni horaires.",
     "addr": "49 bis rue du Docteur Guinier, 65600 Séméac",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-pepere-semeac_TFODEGMIP065V502XH6/",
     "coordPrecision": "address",
@@ -28,6 +28,30 @@
   },
   {
    "fiche": {
+    "n": "Brasserie L'Aoucataise",
+    "c": "Arreau",
+    "d": "65",
+    "lat": 42.9051,
+    "lon": 0.36097,
+    "km": 465.8,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie artisanale de montagne, à l'eau de source : boutique ouverte du lundi au vendredi, de 10 h à 12 h et de 14 h à 16 h 30, et visite suivie d'une dégustation, sur inscription, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire un verre hors de la visite.",
+    "addr": "Place de la gare, 65240 Arreau",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-23",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+    "https://data.geopf.fr/geocodage/search?q=Arreau&type=municipality&limit=5"
+   ],
+   "extrait": "Notre boutique est ouverte du lundi au vendredi",
+   "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures sont écrites « 10h à 12h/14h à16h30 », que le contrôle ne relit pas : dites dans la note. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne »."
+  },
+  {
+   "fiche": {
     "n": "Brasserie des Pics",
     "c": "Saint-Laurent-de-Neste",
     "d": "65",
@@ -36,7 +60,7 @@
     "km": 444.6,
     "cat": 1,
     "conf": "solide",
-    "note": "Brasserie bio de la Nestoise, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.",
+    "note": "Brasserie qui fait la Nestoise, bière bio, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.",
     "addr": "4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste",
     "src": "http://www.brasserie-des-pics.fr",
     "coordPrecision": "address",
@@ -179,7 +203,7 @@
     "km": 464.9,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Microbrasserie d'Ibos avec un brewpub, bar à bières artisanales, et une boutique au 14 rue des Pyrénées, d'après son site ; bières en bouteilles de 33 et 75 cl. Ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.",
+    "note": "Microbrasserie qui accueille dans son brewpub, bar à bières artisanales, d'après son site ; le site situe sa boutique au 14 rue des Pyrénées, à Ibos, sans dire que le bar y est aussi. Bières en bouteilles de 33 et 75 cl, ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.",
     "addr": "14 rue des Pyrénées, 65420 Ibos",
     "src": "https://lameridienneibos.fr",
     "coordPrecision": "address",
@@ -221,7 +245,7 @@
     "km": 490.9,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie familiale de Sassis, qui invite à venir découvrir la brasserie du mardi au samedi, d'après son site ; ses bières sont vendues à l'unité ou en packs, sans que le site dise où. Visites guidées sur demande.",
+    "note": "Brasserie familiale de Sassis, qui invite à venir la découvrir, d'après son site ; ses heures d'ouverture vont du mardi au samedi. Ses bières sont vendues à l'unité ou en packs, sans que le site dise où.",
     "addr": "2 chemin des Ardouneres, 65120 Sassis",
     "src": "https://www.brasserie-paystoy.com",
     "coordPrecision": "address",
@@ -311,12 +335,13 @@
     "km": 467.1,
     "cat": 0,
     "conf": "",
-    "note": "Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite.",
+    "note": "Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite. Deuxième numéro publié par la brasserie : 06 28 90 77 84.",
     "addr": "10 rue des Thermes, 65200 Bagnères-de-Bigorre",
     "src": "https://lesbrasseursdeladour.fr",
     "coordPrecision": "address",
     "beers": [],
     "contact": {
+     "tel": "06 25 01 88 10",
      "site": "https://lesbrasseursdeladour.fr",
      "source": "https://lesbrasseursdeladour.fr",
      "verifieLe": "2026-11-23"
@@ -370,7 +395,7 @@
     "https://data.geopf.fr/geocodage/search?q=10+rue+des+Thermes%2C+65200+Bagn%C3%A8res-de-Bigorre&limit=5"
    ],
    "extrait": "Nous ne faisons pas de visite mais nous avons un bar avec nos bières à la pression",
-   "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés : aucun n'est la seule ligne, non repris. Le candidat SIRENE « Les Compagnons » est ce même bar."
+   "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10), le second est dit dans la note. Le candidat SIRENE « Les Compagnons » est ce même bar."
   }
  ]
 }

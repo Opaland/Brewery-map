@@ -1,9 +1,9 @@
 # Lot dep-65 — les Hautes-Pyrénées (S348)
 
-Ce lot ajoute **6 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
+Ce lot ajoute **7 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
-**Décompte** : 19 candidats = 6 proposés + 13 non proposés (tableau ci-dessous).
-Catégories proposées : 3 « acheter et consommer », 0 « acheter seulement », 0 « pas de vente », 3 « à confirmer », 0 « consommer sur place seulement ».
+**Décompte** : 19 candidats = 7 proposés + 12 non proposés (tableau ci-dessous).
+Catégories proposées : 3 « acheter et consommer », 1 « acheter seulement », 0 « pas de vente », 3 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -16,9 +16,8 @@ Catégories proposées : 3 « acheter et consommer », 0 « acheter seulement »
 | Entreprise individuelle (`personne:1`) | entreprise sans nom ni adresse : rien à chercher |
 | Entreprise individuelle (`personne:2`) | entreprise sans nom ni adresse : rien à chercher |
 | LES COMPAGNONS (`sirene:821892940`) | même lieu que way/70838592 (le bar Les Compagnons des Brasseurs de l'Adour) |
-| BREWPUB (`sirene:829293596`) | aucune page ne relie cette entreprise à la Brasserie du Pays Toy, lue à Sassis sous way/200358687 |
+| BREWPUB (`sirene:829293596`) | le site de la Brasserie du Pays Toy (lue à Sassis sous way/200358687) a un onglet « Brew Pub » sans contenu lisible ; aucune page lue ne relie cette entreprise à la brasserie ni ne dit son adresse |
 | L' O D' HEAS (`sirene:924238082`) | aucune page ne cite ce nom (ni site, ni office, ni Untappd) : existence non établie |
-| BRASSERIE DES VALLEES (`sirene:108415225`) | aucune page ne porte ce nom ; une brasserie d'Arreau à la même adresse (L'Aoucataise) a un site qui ne répond pas depuis cette session : à relancer |
 | Entreprise individuelle (`personne:3`) | entreprise sans nom ni adresse : rien à chercher |
 | Entreprise individuelle (`personne:4`) | entreprise sans nom ni adresse : rien à chercher |
 | Entreprise individuelle (`personne:5`) | entreprise sans nom ni adresse : rien à chercher |
@@ -29,7 +28,7 @@ Catégories proposées : 3 « acheter et consommer », 0 « acheter seulement »
 
 ## Les fiches proposées
 
-## Lot dep-65 — 0 proposition(s), 6 fiche(s) nouvelle(s)
+## Lot dep-65 — 0 proposition(s), 7 fiche(s) nouvelle(s)
 
 ### 1. La Brasserie du Pépère — fiche nouvelle
 
@@ -41,7 +40,7 @@ Catégories proposées : 3 « acheter et consommer », 0 « acheter seulement »
 - km : (vide) → 459.2
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie dont les bières sont fabriquées à Pouyastruc, en fermentation isobar, d'après l'office de tourisme d'Occitanie. Ni vente, ni dégustation, ni horaires ne sont dits.
+- note : (vide) → Brasserie dont les bières sont fabriquées à Pouyastruc, en fermentation isobar, d'après l'office de tourisme d'Occitanie. L'adresse de Séméac est celle que donne l'office ; rien ne dit qu'on y est reçu, ni vente, ni dégustation, ni horaires.
 - addr : (vide) → 49 bis rue du Docteur Guinier, 65600 Séméac
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-pepere-semeac_TFODEGMIP065V502XH6/
 - coordPrecision : (vide) → address
@@ -54,7 +53,7 @@ Extrait lu : « la Brasserie du Pépère vous propose une gamme de bières produ
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM. Le domaine que l'office donne pour site publie aujourd'hui des articles sans rapport (casinos) : non repris. Seul un portable est publié, par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -65,7 +64,41 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-pepere-semeac_TFODEGMIP065V502XH6/) le 23 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-### 2. Brasserie des Pics — fiche nouvelle
+### 2. Brasserie L'Aoucataise — fiche nouvelle
+
+- n : (vide) → Brasserie L'Aoucataise
+- c : (vide) → Arreau
+- d : (vide) → 65
+- lat : (vide) → 42.9051
+- lon : (vide) → 0.36097
+- km : (vide) → 465.8
+- cat : (vide) → 2 (Acheter seulement)
+- conf : (vide) → moyenne
+- note : (vide) → Brasserie artisanale de montagne, à l'eau de source : boutique ouverte du lundi au vendredi, de 10 h à 12 h et de 14 h à 16 h 30, et visite suivie d'une dégustation, sur inscription, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire un verre hors de la visite.
+- addr : (vide) → Place de la gare, 65240 Arreau
+- src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/
+- coordPrecision : (vide) → centre
+- beers : (vide) → []
+- verifieLe : (vide) → 2026-11-23
+
+Sources (vérifiée le 2026-11-23) : https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/ ; https://data.geopf.fr/geocodage/search?q=Arreau&type=municipality&limit=5
+
+Extrait lu : « Notre boutique est ouverte du lundi au vendredi »
+
+Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures sont écrites « 10h à 12h/14h à16h30 », que le contrôle ne relit pas : dites dans la note. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne ».
+
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
+
+> - Ce qu’on peut y faire
+> - Acheter seulement
+> - Adresse
+> - Place de la gare, 65240 Arreau
+> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
+> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Brasserie+L%27Aoucataise+Arreau)[Ses bières sur Untappd](https://untappd.com/search?q=Brasserie+L%27Aoucataise&type=brewery)
+> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
+> - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/) le 23 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+
+### 3. Brasserie des Pics — fiche nouvelle
 
 - n : (vide) → Brasserie des Pics
 - c : (vide) → Saint-Laurent-de-Neste
@@ -75,7 +108,7 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 - km : (vide) → 444.6
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → solide
-- note : (vide) → Brasserie bio de la Nestoise, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.
+- note : (vide) → Brasserie qui fait la Nestoise, bière bio, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.
 - addr : (vide) → 4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste
 - src : (vide) → http://www.brasserie-des-pics.fr
 - coordPrecision : (vide) → address
@@ -105,12 +138,12 @@ Extrait lu : « Le magasin et le bar sont ouverts »
 
 Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : seule la phrase « Le magasin et le bar sont ouverts le vendredi de 17h à 19h » est structurée, les autres jours restent inconnus. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 17 h 42 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 17 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste
 > - Joindre la brasserie
@@ -135,7 +168,7 @@ Choix du vérificateur : Site officiel et fiche de l'office d'Occitanie relus su
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=Brasserie+des+Pics&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [brasserie-des-pics.fr](http://www.brasserie-des-pics.fr) le 23 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
-### 3. Brasserie du Pays des Gaves — fiche nouvelle
+### 4. Brasserie du Pays des Gaves — fiche nouvelle
 
 - n : (vide) → Brasserie du Pays des Gaves
 - c : (vide) → Argelès-Gazost
@@ -172,12 +205,12 @@ Extrait lu : « Nos produits sont disponibles à la vente directe dans notre bou
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 : « Vous pouvez vous installer tranquillement sur notre terrasse pour déguster votre bière préférée » et la boutique de vente directe, sur la même page. Horaires d'accueil de la même page. Fixe publié par la brasserie ; le portable de l'office n'est pas repris. L'adresse SIRENE est à Esquièze-Sère ; le site dit Argelès-Gazost, retenue.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 17 h 42 (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.
+> - À 17 h 49 (heure de Paris), accueil du public : ouvert jusqu’à 22 h, d’après les horaires publiés.
 > - Adresse
 > - 4 chemin de l'Herbe, 65400 Argelès-Gazost
 > - Pas encore dans la fiche : ses bières.
@@ -197,7 +230,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 : « Vous
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [brasseriedesgaves.com](https://www.brasseriedesgaves.com/) le 23 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
-### 4. La Méridienne — fiche nouvelle
+### 5. La Méridienne — fiche nouvelle
 
 - n : (vide) → La Méridienne
 - c : (vide) → Ibos
@@ -207,7 +240,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 : « Vous
 - km : (vide) → 464.9
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Microbrasserie d'Ibos avec un brewpub, bar à bières artisanales, et une boutique au 14 rue des Pyrénées, d'après son site ; bières en bouteilles de 33 et 75 cl. Ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.
+- note : (vide) → Microbrasserie qui accueille dans son brewpub, bar à bières artisanales, d'après son site ; le site situe sa boutique au 14 rue des Pyrénées, à Ibos, sans dire que le bar y est aussi. Bières en bouteilles de 33 et 75 cl, ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.
 - addr : (vide) → 14 rue des Pyrénées, 65420 Ibos
 - src : (vide) → https://lameridienneibos.fr
 - coordPrecision : (vide) → address
@@ -226,7 +259,7 @@ Extrait lu : « bar à bières artisanales »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (« vous accueille dans son Brewpub, un véritable bar à bières artisanales » ; « Directement à la boutique au 14 rue des Pyrénées »). Catégorie 1 en confiance moyenne : la vente à emporter n'est pas écrite en ces mots. Le seul numéro publié est un portable écrit sans espaces (« 0625690895 »), que le contrôle ne relit pas : il passe dans la note (règle du 21/10). L'office écrit « La Meridenne », même adresse.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -246,7 +279,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (« vous 
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=La+M%C3%A9ridienne&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [lameridienneibos.fr](https://lameridienneibos.fr) le 23 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-### 5. Brasserie du Pays Toy — fiche nouvelle
+### 6. Brasserie du Pays Toy — fiche nouvelle
 
 - n : (vide) → Brasserie du Pays Toy
 - c : (vide) → Sassis
@@ -256,7 +289,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (« vous 
 - km : (vide) → 490.9
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie familiale de Sassis, qui invite à venir découvrir la brasserie du mardi au samedi, d'après son site ; ses bières sont vendues à l'unité ou en packs, sans que le site dise où. Visites guidées sur demande.
+- note : (vide) → Brasserie familiale de Sassis, qui invite à venir la découvrir, d'après son site ; ses heures d'ouverture vont du mardi au samedi. Ses bières sont vendues à l'unité ou en packs, sans que le site dise où.
 - addr : (vide) → 2 chemin des Ardouneres, 65120 Sassis
 - src : (vide) → https://www.brasserie-paystoy.com
 - coordPrecision : (vide) → address
@@ -292,12 +325,12 @@ Extrait lu : « artisanale. Nous vous y recevons de façon simple et conviviale.
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 0 : la brasserie reçoit, mais ni boutique ni vente sur place ne sont écrites (« vendues à l'unité » sans lieu). Horaires d'ouverture de la page (« Du mardi au samedi : 09h00 - 18h00 », « Fermé le dimanche et lundi »). Fixe publié par la brasserie. Le candidat SIRENE « Brewpub » de Sassis n'est pas rattaché : aucune page ne le relie.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 17 h 42 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
+> - À 17 h 49 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 9 h.
 > - Adresse
 > - 2 chemin des Ardouneres, 65120 Sassis
 > - Joindre la brasserie
@@ -322,7 +355,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=Brasserie+du+Pays+Toy&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [brasserie-paystoy.com](https://www.brasserie-paystoy.com) le 23 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-### 6. Les Brasseurs de l'Adour — fiche nouvelle
+### 7. Les Brasseurs de l'Adour — fiche nouvelle
 
 - n : (vide) → Les Brasseurs de l'Adour
 - c : (vide) → Bagnères-de-Bigorre
@@ -332,11 +365,12 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 - km : (vide) → 467.1
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite.
+- note : (vide) → Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite. Deuxième numéro publié par la brasserie : 06 28 90 77 84.
 - addr : (vide) → 10 rue des Thermes, 65200 Bagnères-de-Bigorre
 - src : (vide) → https://lesbrasseursdeladour.fr
 - coordPrecision : (vide) → address
 - beers : (vide) → []
+- contact.tel : (vide) → 06 25 01 88 10
 - contact.site : (vide) → https://lesbrasseursdeladour.fr
 - contact.source : (vide) → https://lesbrasseursdeladour.fr
 - contact.verifieLe : (vide) → 2026-11-23
@@ -355,20 +389,20 @@ Sources (vérifiée le 2026-11-23) : https://lesbrasseursdeladour.fr ; https://d
 
 Extrait lu : « Nous ne faisons pas de visite mais nous avons un bar avec nos bières à la pression »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés : aucun n'est la seule ligne, non repris. Le candidat SIRENE « Les Compagnons » est ce même bar.
+Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10), le second est dit dans la note. Le candidat SIRENE « Les Compagnons » est ce même bar.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:42, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 17:49, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
 > - Maintenant
-> - À 17 h 42 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
+> - À 17 h 49 (heure de Paris), accueil du public : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 10 rue des Thermes, 65200 Bagnères-de-Bigorre
-> - Pas encore dans la fiche : son téléphone et ses bières.
-> - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Les+Brasseurs+de+l%27Adour+Bagn%C3%A8res-de-Bigorre)[Ses bières sur Untappd](https://untappd.com/search?q=Les+Brasseurs+de+l%27Adour&type=brewery)
-> - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
+> - Pas encore dans la fiche : ses bières.
+> - [Ses bières sur Untappd](https://untappd.com/search?q=Les+Brasseurs+de+l%27Adour&type=brewery)
 > - Joindre la brasserie
+> - [Appeler le 06 25 01 88 10](tel:+33625018810)
 > - [Site de la brasserie](https://lesbrasseursdeladour.fr)
 > - Horaires
 > - À savoir : Heures du bar, le pub des Compagnons.
@@ -383,4 +417,4 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Lu sur [lesbrasseursdeladour.fr](https://lesbrasseursdeladour.fr) le 23 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : a1716fb485ad
+Empreinte du lot : 4a6ee2ece1fc

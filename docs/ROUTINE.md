@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 65 (Hautes-Pyrénées), S348 (Occitanie), à faire. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 0 |
+| Département en cours | 65 (Hautes-Pyrénées), S348 (Occitanie) : PR ouverte le 23/11 (reprise demandée par Cédric) ; si elle est mergée, passer au 66 (Pyrénées-Orientales). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 1 (23/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 48 (23/11, PR #299, 7 fiches) |
 
