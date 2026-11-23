@@ -1,0 +1,413 @@
+[
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "IBOS"
+  ],
+  "departement": "65",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "LUZ-SAINT-SAUVEUR"
+  ],
+  "departement": "65",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:941645087",
+  "nom": "LA MERIDIENNE",
+  "communes": [
+   "IBOS"
+  ],
+  "departement": "65",
+  "adresses": [
+   "7 RUE DE LA GALETE 65420 IBOS",
+   "14 RUE DES PYRENEES 65420 IBOS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "941645087",
+  "sirets": [
+   "94164508700011",
+   "94164508700029"
+  ],
+  "osm": [],
+  "lat": 43.2316510589238,
+  "lon": -0.00986958852312633,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:821892940",
+  "nom": "LES COMPAGNONS",
+  "communes": [
+   "BAGNERES-DE-BIGORRE"
+  ],
+  "departement": "65",
+  "adresses": [
+   "ZONE D'ACTIVITE DOMINIQUE SOULE 33 AVENUE DU GENERAL LECLERC 65200 BAGNERES-DE-BIGORRE",
+   "2 PLACE RAMOND 65200 BAGNERES-DE-BIGORRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "821892940",
+  "sirets": [
+   "82189294000015",
+   "82189294000023"
+  ],
+  "osm": [],
+  "lat": 43.071553585,
+  "lon": 0.1434248222,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:829293596",
+  "nom": "BREWPUB",
+  "communes": [
+   "SASSIS",
+   "LUZ-SAINT-SAUVEUR"
+  ],
+  "departement": "65",
+  "adresses": [
+   "LE VILLAGE 65120 SASSIS",
+   "8 RUE D 'OSSUN 65120 LUZ-SAINT-SAUVEUR"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "829293596",
+  "sirets": [
+   "82929359600013",
+   "82929359600021"
+  ],
+  "osm": [],
+  "lat": 42.877286259,
+  "lon": -0.01650786,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:831930185",
+  "nom": "BRASSERIE DU PAYS DES GAVES",
+  "communes": [
+   "ESQUIEZE-SERE",
+   "ARGELES-GAZOST"
+  ],
+  "departement": "65",
+  "adresses": [
+   "21 AVENUE DU BAREGE 65120 ESQUIEZE-SERE",
+   "4 CHEMIN DE L'HERBE 65400 ARGELES-GAZOST"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "831930185",
+  "sirets": [
+   "83193018500010",
+   "83193018500028"
+  ],
+  "osm": [
+   "way/194170809"
+  ],
+  "lat": 42.874946712,
+  "lon": -0.004163307,
+  "site": "https://www.brasseriedesgaves.com/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:924238082",
+  "nom": "L' O D' HEAS",
+  "communes": [
+   "GAVARNIE-GEDRE"
+  ],
+  "departement": "65",
+  "adresses": [
+   "32 ROUTE DES TROIS CIRQUES 65120 GAVARNIE-GEDRE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "924238082",
+  "sirets": [
+   "92423808200011"
+  ],
+  "osm": [],
+  "lat": 42.7870277810395,
+  "lon": 0.0209019590806515,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:108415225",
+  "nom": "BRASSERIE DES VALLEES",
+  "communes": [
+   "ARREAU"
+  ],
+  "departement": "65",
+  "adresses": [
+   "3 PLACE DE LA GARE 65240 ARREAU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "108415225",
+  "sirets": [
+   "10841522500011"
+  ],
+  "osm": [],
+  "lat": 42.9075301146059,
+  "lon": 0.360220922086594,
+  "statut": "ambigu",
+  "fiche": "La Sauvage (Brasserie des Hautes Vallées)"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "IBOS"
+  ],
+  "departement": "65",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": null,
+  "communes": [
+   "TARBES"
+  ],
+  "departement": "65",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "SIRADAN"
+  ],
+  "departement": "65",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:6",
+  "nom": "BRASSERIE LE PIC DE MINUIT",
+  "communes": [
+   "PIERREFITTE-NESTALAS"
+  ],
+  "departement": "65",
+  "adresses": [
+   "49 AVENUE JEAN MOULIN 65260 PIERREFITTE-NESTALAS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:809171978",
+  "nom": "BRASSERIE DES PICS",
+  "communes": [
+   "SAINT-LAURENT DE NESTE"
+  ],
+  "departement": "65",
+  "adresses": [
+   "4 RTE TARBES TOULOUSE 65150 SAINT-LAURENT DE NESTE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "809171978",
+  "sirets": [
+   "80917197800012"
+  ],
+  "osm": [],
+  "lat": 43.101839818,
+  "lon": 0.4682400163,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840720197",
+  "nom": "EURL BRASSERIE WALBREW",
+  "communes": [
+   "TARBES"
+  ],
+  "departement": "65",
+  "adresses": [
+   "38 RUE D'URAC 65000 TARBES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840720197",
+  "sirets": [
+   "84072019700010"
+  ],
+  "osm": [],
+  "lat": 43.241791261,
+  "lon": 0.0549105901,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:983267402",
+  "nom": "SIBOIRE PYRENEES",
+  "communes": [
+   "ESTAING"
+  ],
+  "departement": "65",
+  "adresses": [
+   "17 CHEMIN DE L' EGLISE 65400 ESTAING"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "983267402",
+  "sirets": [
+   "98326740200011"
+  ],
+  "osm": [],
+  "lat": 42.9483668820907,
+  "lon": -0.172141922525702,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:851062513",
+  "nom": "SARL IN'OC",
+  "communes": [
+   "LALANNE-TRIE"
+  ],
+  "departement": "65",
+  "adresses": [
+   "206 CHEMIN DE LANTONIES 65220 LALANNE-TRIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "851062513",
+  "sirets": [
+   "85106251300011"
+  ],
+  "osm": [],
+  "lat": 43.3155240386513,
+  "lon": 0.361758957459535,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9218351216",
+  "nom": "La Brasserie du Pépère",
+  "communes": [
+   "Séméac"
+  ],
+  "departement": "65",
+  "adresses": [
+   "49B Rue du Docteur Guinier, 65600 Séméac"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9218351216"
+  ],
+  "lat": 43.22657,
+  "lon": 0.09373,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/200358687",
+  "nom": "Brasserie du Pays Toy",
+  "communes": [
+   "Sassis"
+  ],
+  "departement": "65",
+  "adresses": [
+   "Route de Gavarnie, 65120 Sassis"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/200358687"
+  ],
+  "lat": 42.87586,
+  "lon": -0.01638,
+  "site": "https://shop.easybeer.fr/brasseriedupaystoy",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "way/70838592",
+  "nom": "Les Brasseurs de l'Adour",
+  "communes": [
+   "Bagnères-de-Bigorre"
+  ],
+  "departement": "65",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/70838592"
+  ],
+  "lat": 43.07199,
+  "lon": 0.14383,
+  "site": "https://lesbrasseursdeladour.fr",
+  "statut": "nouveau"
+ }
+]

@@ -1,0 +1,355 @@
+[
+ {
+  "cle": "sirene:831930185",
+  "n": "Brasserie du Pays des Gaves",
+  "c": "Argelès-Gazost",
+  "adresse": "4 chemin de l'Herbe, 65400 Argelès-Gazost",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie d'Argelès-Gazost avec un intérieur et une terrasse où déguster ses bières, et une boutique de vente directe, d'après son site. Visites suivies d'une dégustation gratuite.",
+  "src": "https://www.brasseriedesgaves.com/",
+  "extrait": "Nos produits sont disponibles à la vente directe dans notre boutique",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 23/11 : « Vous pouvez vous installer tranquillement sur notre terrasse pour déguster votre bière préférée » et la boutique de vente directe, sur la même page. Horaires d'accueil de la même page. Fixe publié par la brasserie ; le portable de l'office n'est pas repris. L'adresse SIRENE est à Esquièze-Sère ; le site dit Argelès-Gazost, retenue.",
+  "contact": {
+   "tel": "05 62 32 76 61",
+   "site": "https://www.brasseriedesgaves.com/",
+   "source": "https://www.brasseriedesgaves.com/"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "source": "https://www.brasseriedesgaves.com/",
+    "lun": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "mar": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "mer": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sam": [
+     [
+      "12:30",
+      "22:30"
+     ]
+    ],
+    "dim": [
+     [
+      "17:00",
+      "21:30"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "sirene:941645087",
+  "n": "La Méridienne",
+  "c": "Ibos",
+  "adresse": "14 rue des Pyrénées, 65420 Ibos",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Microbrasserie qui accueille dans son brewpub, bar à bières artisanales, d'après son site ; le site situe sa boutique au 14 rue des Pyrénées, à Ibos, sans dire que le bar y est aussi. Bières en bouteilles de 33 et 75 cl, ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.",
+  "src": "https://lameridienneibos.fr",
+  "extrait": "bar à bières artisanales",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Site officiel relu sur la page brute le 23/11 (« vous accueille dans son Brewpub, un véritable bar à bières artisanales » ; « Directement à la boutique au 14 rue des Pyrénées »). Catégorie 1 en confiance moyenne : la vente à emporter n'est pas écrite en ces mots. Le seul numéro publié est un portable écrit sans espaces (« 0625690895 »), que le contrôle ne relit pas : il passe dans la note (règle du 21/10). L'office écrit « La Meridenne », même adresse.",
+  "contact": {
+   "site": "https://lameridienneibos.fr",
+   "source": "https://lameridienneibos.fr"
+  }
+ },
+ {
+  "cle": "sirene:809171978",
+  "n": "Brasserie des Pics",
+  "c": "Saint-Laurent-de-Neste",
+  "adresse": "4 route de Tarbes-Toulouse, 65150 Saint-Laurent-de-Neste",
+  "cat": 1,
+  "conf": "solide",
+  "note": "Brasserie qui fait la Nestoise, bière bio, depuis 2012 : magasin et bar ouverts le vendredi de 17 h à 19 h, d'après son site. L'office de tourisme ajoute le jeudi et le vendredi de 17 h à 22 h en saison estivale, avec petite restauration, et des concerts.",
+  "src": "http://www.brasserie-des-pics.fr",
+  "extrait": "Le magasin et le bar sont ouverts",
+  "beers": [
+   {
+    "type": "blonde",
+    "libelle": "Nestoise Blonde"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Nestoise Ambrée"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Nestoise Blanche"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Nestoise IPA"
+   },
+   {
+    "type": "stout",
+    "libelle": "Nestoise Stout"
+   }
+  ],
+  "choix": "Site officiel et fiche de l'office d'Occitanie relus sur la page brute le 23/11. Le site écrit aussi une liste d'heures qui se contredit (mercredi, jeudi, deux vendredis) : aucun horaire n'est structuré : une grille au vendredi 17 h – 19 h dirait « fermé » un vendredi d'été à 20 h, alors que l'office annonce 22 h (persona Hugo, 23/11) ; les heures sont dites dans la note. La saison estivale de l'office n'a pas de dates : dite dans la note. Fixe publié par la brasserie.",
+  "contact": {
+   "tel": "05 62 39 30 95",
+   "site": "http://www.brasserie-des-pics.fr",
+   "source": "http://www.brasserie-des-pics.fr"
+  }
+ },
+ {
+  "cle": "way/200358687",
+  "n": "Brasserie du Pays Toy",
+  "c": "Sassis",
+  "adresse": "2 chemin des Ardouneres, 65120 Sassis",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie familiale de Sassis, qui invite à venir la découvrir, d'après son site ; ses heures d'ouverture vont du mardi au samedi. Ses bières sont vendues à l'unité ou en packs, sans que le site dise où.",
+  "src": "https://www.brasserie-paystoy.com",
+  "extrait": "artisanale. Nous vous y recevons de façon simple et conviviale.",
+  "beers": [
+   {
+    "type": "ambree",
+    "libelle": "Col du Tourmalet"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Aneto (blonde triple)"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Néouvielle"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Pic du Midi de Bigorre"
+   },
+   {
+    "type": "brune",
+    "libelle": "Pont d'Espagne"
+   }
+  ],
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : la brasserie reçoit, mais ni boutique ni vente sur place ne sont écrites (« vendues à l'unité » sans lieu). Horaires d'ouverture de la page (« Du mardi au samedi : 09h00 - 18h00 », « Fermé le dimanche et lundi »). Fixe publié par la brasserie. Le candidat SIRENE « Brewpub » de Sassis n'est pas rattaché : aucune page ne le relie.",
+  "contact": {
+   "tel": "05 62 41 45 13",
+   "site": "https://www.brasserie-paystoy.com",
+   "source": "https://www.brasserie-paystoy.com"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "source": "https://www.brasserie-paystoy.com",
+    "lun": [],
+    "mar": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "dim": []
+   }
+  ]
+ },
+ {
+  "cle": "way/70838592",
+  "n": "Les Brasseurs de l'Adour",
+  "c": "Bagnères-de-Bigorre",
+  "adresse": "10 rue des Thermes, 65200 Bagnères-de-Bigorre",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite. Deuxième numéro publié par la brasserie : 06 28 90 77 84.",
+  "src": "https://lesbrasseursdeladour.fr",
+  "extrait": "Nous ne faisons pas de visite mais nous avons un bar avec nos bières à la pression",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10), le second est dit dans la note. Le candidat SIRENE « Les Compagnons » est ce même bar.",
+  "contact": {
+   "site": "https://lesbrasseursdeladour.fr",
+   "source": "https://lesbrasseursdeladour.fr",
+   "tel": "06 25 01 88 10"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "source": "https://lesbrasseursdeladour.fr",
+    "remarque": "Heures du bar, le pub des Compagnons.",
+    "mar": [
+     [
+      "16:00",
+      "22:30"
+     ]
+    ],
+    "mer": [
+     [
+      "16:00",
+      "22:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "16:00",
+      "22:30"
+     ]
+    ],
+    "ven": [
+     [
+      "16:00",
+      "22:30"
+     ]
+    ],
+    "sam": [
+     [
+      "08:30",
+      "13:30"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "node/9218351216",
+  "n": "La Brasserie du Pépère",
+  "c": "Séméac",
+  "adresse": "49 bis rue du Docteur Guinier, 65600 Séméac",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie dont les bières sont fabriquées à Pouyastruc, en fermentation isobar, d'après l'office de tourisme d'Occitanie. L'adresse de Séméac est celle que donne l'office ; rien ne dit qu'on y est reçu, ni vente, ni dégustation, ni horaires.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-pepere-semeac_TFODEGMIP065V502XH6/",
+  "extrait": "la Brasserie du Pépère vous propose une gamme de bières produites selon des recettes originales",
+  "beers": [],
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM. Le domaine que l'office donne pour site publie aujourd'hui des articles sans rapport (casinos) : non repris. Seul un portable est publié, par l'office : non repris."
+ },
+ {
+  "cle": "sirene:108415225",
+  "n": "Brasserie L'Aoucataise",
+  "c": "Arreau",
+  "adresse": "Place de la gare, 65240 Arreau",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie artisanale de montagne, à l'eau de source : boutique ouverte du lundi au vendredi, de 10 h à 12 h et de 14 h à 16 h 30, et visite suivie d'une dégustation, sur inscription, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire un verre hors de la visite.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+  "extrait": "Notre boutique est ouverte du lundi au vendredi",
+  "beers": [],
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 (persona Cédric : traitement cohérent avec les autres fiches d'office). La clé SIRENE porte un autre nom mais la même adresse (3 place de la gare, Arreau). Le site de la brasserie ne répond pas depuis cette session. Les heures de la boutique (« du lundi au vendredi de 10h à 12h/14h à16h30 ») sont structurées en « vente » (persona Hugo, 23/11) ; samedi et dimanche ne sont pas écrits et restent inconnus. Seul un portable est publié, par l'office : non repris. Un annuaire la dit fermée : non repris, l'office la présente ouverte, d'où « moyenne ».",
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-l-aoucataise-sarl-nafar-arreau_TFODEGMIP065V500262/",
+    "lun": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "16:30"
+     ]
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,93 @@
+{
+ "candidat": "way/200358687",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Pays Toy",
+   "c": "Sassis",
+   "d": "65",
+   "lat": 42.87578,
+   "lon": -0.01638,
+   "km": 490.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie familiale de Sassis, qui invite à venir la découvrir, d'après son site ; ses heures d'ouverture vont du mardi au samedi. Ses bières sont vendues à l'unité ou en packs, sans que le site dise où.",
+   "addr": "2 chemin des Ardouneres, 65120 Sassis",
+   "src": "https://www.brasserie-paystoy.com",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "ambree",
+     "libelle": "Col du Tourmalet"
+    },
+    {
+     "type": "blonde",
+     "libelle": "Aneto (blonde triple)"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Néouvielle"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Pic du Midi de Bigorre"
+    },
+    {
+     "type": "brune",
+     "libelle": "Pont d'Espagne"
+    }
+   ],
+   "contact": {
+    "tel": "05 62 41 45 13",
+    "site": "https://www.brasserie-paystoy.com",
+    "source": "https://www.brasserie-paystoy.com",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.brasserie-paystoy.com",
+     "lun": [],
+     "mar": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "dim": [],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.brasserie-paystoy.com",
+   "https://data.geopf.fr/geocodage/search?q=2+chemin+des+Ardouneres%2C+65120+Sassis&limit=5"
+  ],
+  "extrait": "artisanale. Nous vous y recevons de façon simple et conviviale.",
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : la brasserie reçoit, mais ni boutique ni vente sur place ne sont écrites (« vendues à l'unité » sans lieu). Horaires d'ouverture de la page (« Du mardi au samedi : 09h00 - 18h00 », « Fermé le dimanche et lundi »). Fixe publié par la brasserie. Le candidat SIRENE « Brewpub » de Sassis n'est pas rattaché : aucune page ne le relie."
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "candidat": "sirene:941645087",
+ "ajout": {
+  "fiche": {
+   "n": "La Méridienne",
+   "c": "Ibos",
+   "d": "65",
+   "lat": 43.23121,
+   "lon": 0.00019,
+   "km": 464.9,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Microbrasserie qui accueille dans son brewpub, bar à bières artisanales, d'après son site ; le site situe sa boutique au 14 rue des Pyrénées, à Ibos, sans dire que le bar y est aussi. Bières en bouteilles de 33 et 75 cl, ateliers de brassage. Aucun horaire publié. Téléphone publié par la brasserie : 06 25 69 08 95.",
+   "addr": "14 rue des Pyrénées, 65420 Ibos",
+   "src": "https://lameridienneibos.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "site": "https://lameridienneibos.fr",
+    "source": "https://lameridienneibos.fr",
+    "verifieLe": "2026-11-23"
+   }
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://lameridienneibos.fr",
+   "https://data.geopf.fr/geocodage/search?q=14+rue+des+Pyr%C3%A9n%C3%A9es%2C+65420+Ibos&limit=5"
+  ],
+  "extrait": "bar à bières artisanales",
+  "choix": "Site officiel relu sur la page brute le 23/11 (« vous accueille dans son Brewpub, un véritable bar à bières artisanales » ; « Directement à la boutique au 14 rue des Pyrénées »). Catégorie 1 en confiance moyenne : la vente à emporter n'est pas écrite en ces mots. Le seul numéro publié est un portable écrit sans espaces (« 0625690895 »), que le contrôle ne relit pas : il passe dans la note (règle du 21/10). L'office écrit « La Meridenne », même adresse."
+ }
+}

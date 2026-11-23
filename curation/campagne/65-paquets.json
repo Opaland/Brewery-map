@@ -1,0 +1,207 @@
+[
+ [
+  {
+   "cle": "sirene:941645087",
+   "enseigne": "LA MERIDIENNE",
+   "dep": "65",
+   "communes": [
+    "IBOS"
+   ],
+   "adresses": [
+    "7 RUE DE LA GALETE 65420 IBOS",
+    "14 RUE DES PYRENEES 65420 IBOS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:821892940",
+   "enseigne": "LES COMPAGNONS",
+   "dep": "65",
+   "communes": [
+    "BAGNERES-DE-BIGORRE"
+   ],
+   "adresses": [
+    "ZONE D'ACTIVITE DOMINIQUE SOULE 33 AVENUE DU GENERAL LECLERC 65200 BAGNERES-DE-BIGORRE",
+    "2 PLACE RAMOND 65200 BAGNERES-DE-BIGORRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829293596",
+   "enseigne": "BREWPUB",
+   "dep": "65",
+   "communes": [
+    "SASSIS",
+    "LUZ-SAINT-SAUVEUR"
+   ],
+   "adresses": [
+    "LE VILLAGE 65120 SASSIS",
+    "8 RUE D 'OSSUN 65120 LUZ-SAINT-SAUVEUR"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:831930185",
+   "enseigne": "BRASSERIE DU PAYS DES GAVES",
+   "dep": "65",
+   "communes": [
+    "ESQUIEZE-SERE",
+    "ARGELES-GAZOST"
+   ],
+   "adresses": [
+    "21 AVENUE DU BAREGE 65120 ESQUIEZE-SERE",
+    "4 CHEMIN DE L'HERBE 65400 ARGELES-GAZOST"
+   ],
+   "osm": [
+    "way/194170809"
+   ],
+   "site": "https://www.brasseriedesgaves.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924238082",
+   "enseigne": "L' O D' HEAS",
+   "dep": "65",
+   "communes": [
+    "GAVARNIE-GEDRE"
+   ],
+   "adresses": [
+    "32 ROUTE DES TROIS CIRQUES 65120 GAVARNIE-GEDRE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:108415225",
+   "enseigne": "BRASSERIE DES VALLEES",
+   "dep": "65",
+   "communes": [
+    "ARREAU"
+   ],
+   "adresses": [
+    "3 PLACE DE LA GARE 65240 ARREAU"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "personne:6",
+   "enseigne": "BRASSERIE LE PIC DE MINUIT (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "65",
+   "communes": [
+    "PIERREFITTE-NESTALAS"
+   ],
+   "adresses": [
+    "49 AVENUE JEAN MOULIN 65260 PIERREFITTE-NESTALAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:809171978",
+   "enseigne": "BRASSERIE DES PICS",
+   "dep": "65",
+   "communes": [
+    "SAINT-LAURENT DE NESTE"
+   ],
+   "adresses": [
+    "4 RTE TARBES TOULOUSE 65150 SAINT-LAURENT DE NESTE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840720197",
+   "enseigne": "EURL BRASSERIE WALBREW",
+   "dep": "65",
+   "communes": [
+    "TARBES"
+   ],
+   "adresses": [
+    "38 RUE D'URAC 65000 TARBES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:983267402",
+   "enseigne": "SIBOIRE PYRENEES",
+   "dep": "65",
+   "communes": [
+    "ESTAING"
+   ],
+   "adresses": [
+    "17 CHEMIN DE L' EGLISE 65400 ESTAING"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:851062513",
+   "enseigne": "SARL IN'OC",
+   "dep": "65",
+   "communes": [
+    "LALANNE-TRIE"
+   ],
+   "adresses": [
+    "206 CHEMIN DE LANTONIES 65220 LALANNE-TRIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9218351216",
+   "enseigne": "La Brasserie du Pépère",
+   "dep": "65",
+   "communes": [
+    "Séméac"
+   ],
+   "adresses": [
+    "49B Rue du Docteur Guinier, 65600 Séméac"
+   ],
+   "osm": [
+    "node/9218351216"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/200358687",
+   "enseigne": "Brasserie du Pays Toy",
+   "dep": "65",
+   "communes": [
+    "Sassis"
+   ],
+   "adresses": [
+    "Route de Gavarnie, 65120 Sassis"
+   ],
+   "osm": [
+    "way/200358687"
+   ],
+   "site": "https://shop.easybeer.fr/brasseriedupaystoy",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/70838592",
+   "enseigne": "Les Brasseurs de l'Adour",
+   "dep": "65",
+   "communes": [
+    "Bagnères-de-Bigorre"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/70838592"
+   ],
+   "site": "https://lesbrasseursdeladour.fr",
+   "statut": "nouveau"
+  }
+ ]
+]

@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 918 | 24 (3 %) | 42 | 338 | 281 | 353 | 485 | 603 | 738 |
+| **Total** | 925 | 24 (3 %) | 42 | 341 | 283 | 354 | 488 | 606 | 742 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -79,6 +79,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 62 · Pas-de-Calais | 11 | 0 (0 %) | 0 | 4 | 3 | 2 | 5 | 8 | 11 |
 | 63 · Puy-de-Dôme | 9 | 0 (0 %) | 0 | 1 | 1 | 4 | 1 | 5 | 9 |
 | 64 · Pyrénées-Atlantiques | 13 | 0 (0 %) | 0 | 3 | 4 | 4 | 4 | 8 | 13 |
+| 65 · Hautes-Pyrénées | 7 | 0 (0 %) | 0 | 3 | 2 | 1 | 3 | 3 | 4 |
 | 67 · Bas-Rhin | 24 | 0 (0 %) | 0 | 7 | 4 | 1 | 9 | 18 | 24 |
 | 68 · Haut-Rhin | 19 | 0 (0 %) | 0 | 6 | 6 | 3 | 8 | 11 | 19 |
 | 69 · Rhône | 43 | 1 (2 %) | 10 | 16 | 24 | 30 | 32 | 33 | 33 |
@@ -108,7 +109,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-338 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+341 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -522,6 +523,12 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 - Brasserie Shakespeare (Lay-Lamidou) : sans site, sans horaires, sans bières
 - La Clouque (Salies-de-Béarn) : sans adresse vérifiée, sans horaires, sans bières
 - Brasserie Clavé (Monein) : sans horaires, sans bières
+
+### 65 · Hautes-Pyrénées
+
+- Brasserie du Pays Toy (Sassis) : tout est là, sauf ce qu’on peut y faire
+- La Brasserie du Pépère (Séméac) : sans site, sans téléphone, sans horaires, sans bières
+- Les Brasseurs de l'Adour (Bagnères-de-Bigorre) : sans bières
 
 ### 67 · Bas-Rhin
 

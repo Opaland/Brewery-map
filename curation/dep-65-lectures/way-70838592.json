@@ -1,0 +1,75 @@
+{
+ "candidat": "way/70838592",
+ "ajout": {
+  "fiche": {
+   "n": "Les Brasseurs de l'Adour",
+   "c": "Bagnères-de-Bigorre",
+   "d": "65",
+   "lat": 43.06334,
+   "lon": 0.14889,
+   "km": 467.1,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Bagnères-de-Bigorre, sans visite : ses bières se boivent à la pression au pub des Compagnons, son bar à côté des halles, d'après son site. La vente à emporter n'est pas dite. Deuxième numéro publié par la brasserie : 06 28 90 77 84.",
+   "addr": "10 rue des Thermes, 65200 Bagnères-de-Bigorre",
+   "src": "https://lesbrasseursdeladour.fr",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 25 01 88 10",
+    "site": "https://lesbrasseursdeladour.fr",
+    "source": "https://lesbrasseursdeladour.fr",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://lesbrasseursdeladour.fr",
+     "remarque": "Heures du bar, le pub des Compagnons.",
+     "mar": [
+      [
+       "16:00",
+       "22:30"
+      ]
+     ],
+     "mer": [
+      [
+       "16:00",
+       "22:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "16:00",
+       "22:30"
+      ]
+     ],
+     "ven": [
+      [
+       "16:00",
+       "22:30"
+      ]
+     ],
+     "sam": [
+      [
+       "08:30",
+       "13:30"
+      ],
+      [
+       "17:00",
+       "22:30"
+      ]
+     ],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://lesbrasseursdeladour.fr",
+   "https://data.geopf.fr/geocodage/search?q=10+rue+des+Thermes%2C+65200+Bagn%C3%A8res-de-Bigorre&limit=5"
+  ],
+  "extrait": "Nous ne faisons pas de visite mais nous avons un bar avec nos bières à la pression",
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 0 : un bar sans vente dite (catégorie 4 seulement si « pas de vente à emporter » est écrit). L'adresse est celle du bar, où l'on va ; la brasserie est dans la zone Dominique Soulé. Les heures sont celles du bar, « toute l'année » ; dimanche et lundi ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10), le second est dit dans la note. Le candidat SIRENE « Les Compagnons » est ce même bar."
+ }
+}
