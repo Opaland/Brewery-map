@@ -1,0 +1,268 @@
+[
+ {
+  "cle": "sirene:925364218",
+  "nom": "BRASSERIE LIMONADERIE DE L'AUBRAC",
+  "communes": [
+   "NASBINALS"
+  ],
+  "departement": "48",
+  "adresses": [
+   "LA DEVEZETTE 48260 NASBINALS",
+   "5 RUE PRINCIPALE 48260 NASBINALS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "925364218",
+  "sirets": [
+   "92536421800014",
+   "92536421800022"
+  ],
+  "osm": [],
+  "lat": 44.65904247,
+  "lon": 3.0536081643,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:942341280",
+  "nom": "LA BESTIA",
+  "communes": [
+   "LANUEJOLS",
+   "CHANAC"
+  ],
+  "departement": "48",
+  "adresses": [
+   "15 RUE DU MAUSOLEE 48000 LANUEJOLS",
+   "ZA LES PLAINES 14 ROUTE DE MARIJOULET 48230 CHANAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "942341280",
+  "sirets": [
+   "94234128000017",
+   "94234128000025"
+  ],
+  "osm": [],
+  "lat": 44.500200998959,
+  "lon": 3.57234502916515,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:905136909",
+  "nom": "M&A BIERE DE LOZERE",
+  "communes": [
+   "ROCLES"
+  ],
+  "departement": "48",
+  "adresses": [
+   "PL LUDOVIC MARTIN 48300 ROCLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "905136909",
+  "sirets": [
+   "90513690900017"
+  ],
+  "osm": [],
+  "lat": 44.713911149,
+  "lon": 3.7821920684,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "CANS ET CEVENNES"
+  ],
+  "departement": "48",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:838818581",
+  "nom": "BRASSERIE DE LA NAINE",
+  "communes": [
+   "SAINT-CHELY-D'APCHER"
+  ],
+  "departement": "48",
+  "adresses": [
+   "3 AVENUE DES ENTREPRENEURS 48200 SAINT-CHELY-D'APCHER"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "838818581",
+  "sirets": [
+   "83881858100012"
+  ],
+  "osm": [
+   "node/13311754451"
+  ],
+  "lat": 44.809117001,
+  "lon": 3.2856620449,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "VENTALON EN CEVENNES"
+  ],
+  "departement": "48",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:818831851",
+  "nom": "GROUPEMENT DES OEUVRES LIQUIDES (GOL)",
+  "communes": [
+   "LES BONDONS"
+  ],
+  "departement": "48",
+  "adresses": [
+   "COLOBRIERES 48400 LES BONDONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "818831851",
+  "sirets": [
+   "81883185100030"
+  ],
+  "osm": [],
+  "lat": 44.406026521,
+  "lon": 3.6410575267,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "LES SALCES"
+  ],
+  "departement": "48",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:812826576",
+  "nom": "LES BRASSEURS DE LA JONTE",
+  "communes": [
+   "GATUZIERES"
+  ],
+  "departement": "48",
+  "adresses": [
+   "LOU CASTEL 48150 GATUZIERES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "812826576",
+  "sirets": [
+   "81282657600017"
+  ],
+  "osm": [
+   "way/1007057796"
+  ],
+  "lat": 44.197670973,
+  "lon": 3.4835648952,
+  "site": "http://lesbrasseursdelajonte.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:807617170",
+  "nom": "LA BRASSERIE DE LOZERE - LA 48",
+  "communes": [
+   "MENDE"
+  ],
+  "departement": "48",
+  "adresses": [
+   "ZAE DU CAUSSE D'AUGE 18 RUE DE LA DRAINE 48000 MENDE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "807617170",
+  "sirets": [
+   "80761717000020"
+  ],
+  "osm": [],
+  "lat": 44.537602315,
+  "lon": 3.5088560894,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:840718340",
+  "nom": "SARL PBC BRASSERIE CEVENOLE",
+  "communes": [
+   "SAINT-JULIEN-DES-POINTS"
+  ],
+  "departement": "48",
+  "adresses": [
+   "RN 106 ZONE ARTISANALE LE BRUC 48160 SAINT-JULIEN-DES-POINTS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "840718340",
+  "sirets": [
+   "84071834000028"
+  ],
+  "osm": [],
+  "lat": 44.252495236,
+  "lon": 3.9574326117,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/9900294170",
+  "nom": "Brasserie du Tarnon",
+  "communes": [
+   "Cans et Cévennes"
+  ],
+  "departement": "48",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/9900294170"
+  ],
+  "lat": 44.27122,
+  "lon": 3.6054,
+  "statut": "nouveau"
+ }
+]

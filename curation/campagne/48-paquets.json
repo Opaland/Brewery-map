@@ -1,0 +1,133 @@
+[
+ [
+  {
+   "cle": "sirene:925364218",
+   "enseigne": "BRASSERIE LIMONADERIE DE L'AUBRAC",
+   "dep": "48",
+   "communes": [
+    "NASBINALS"
+   ],
+   "adresses": [
+    "LA DEVEZETTE 48260 NASBINALS",
+    "5 RUE PRINCIPALE 48260 NASBINALS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:942341280",
+   "enseigne": "LA BESTIA",
+   "dep": "48",
+   "communes": [
+    "LANUEJOLS",
+    "CHANAC"
+   ],
+   "adresses": [
+    "15 RUE DU MAUSOLEE 48000 LANUEJOLS",
+    "ZA LES PLAINES 14 ROUTE DE MARIJOULET 48230 CHANAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:905136909",
+   "enseigne": "M&A BIERE DE LOZERE",
+   "dep": "48",
+   "communes": [
+    "ROCLES"
+   ],
+   "adresses": [
+    "PL LUDOVIC MARTIN 48300 ROCLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:838818581",
+   "enseigne": "BRASSERIE DE LA NAINE",
+   "dep": "48",
+   "communes": [
+    "SAINT-CHELY-D'APCHER"
+   ],
+   "adresses": [
+    "3 AVENUE DES ENTREPRENEURS 48200 SAINT-CHELY-D'APCHER"
+   ],
+   "osm": [
+    "node/13311754451"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818831851",
+   "enseigne": "GROUPEMENT DES OEUVRES LIQUIDES (GOL)",
+   "dep": "48",
+   "communes": [
+    "LES BONDONS"
+   ],
+   "adresses": [
+    "COLOBRIERES 48400 LES BONDONS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:812826576",
+   "enseigne": "LES BRASSEURS DE LA JONTE",
+   "dep": "48",
+   "communes": [
+    "GATUZIERES"
+   ],
+   "adresses": [
+    "LOU CASTEL 48150 GATUZIERES"
+   ],
+   "osm": [
+    "way/1007057796"
+   ],
+   "site": "http://lesbrasseursdelajonte.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:807617170",
+   "enseigne": "LA BRASSERIE DE LOZERE - LA 48",
+   "dep": "48",
+   "communes": [
+    "MENDE"
+   ],
+   "adresses": [
+    "ZAE DU CAUSSE D'AUGE 18 RUE DE LA DRAINE 48000 MENDE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:840718340",
+   "enseigne": "SARL PBC BRASSERIE CEVENOLE",
+   "dep": "48",
+   "communes": [
+    "SAINT-JULIEN-DES-POINTS"
+   ],
+   "adresses": [
+    "RN 106 ZONE ARTISANALE LE BRUC 48160 SAINT-JULIEN-DES-POINTS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9900294170",
+   "enseigne": "Brasserie du Tarnon",
+   "dep": "48",
+   "communes": [
+    "Cans et Cévennes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9900294170"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
