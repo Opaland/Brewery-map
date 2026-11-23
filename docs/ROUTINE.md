@@ -11,13 +11,13 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 65 (Hautes-Pyrénées), S348 (Occitanie) : PR ouverte le 23/11 (reprise demandée par Cédric) ; si elle est mergée, passer au 66 (Pyrénées-Orientales). Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
-| Essais sur ce département | 1 (23/11) |
+| Département en cours | 66 (Pyrénées-Orientales), S348 (Occitanie), à faire. Quand le 66 entrera, déplacer les tests de la « commune sans fiche », qui sont à Perpignan |
+| Essais sur ce département | 0 |
 | Issue du département | #189 |
-| Dernier département terminé | 48 (23/11, PR #299, 7 fiches) |
+| Dernier département terminé | 65 (23/11, PR #300, 7 fiches) |
 
 **File des départements** (dans l'ordre) : l'Occitanie (#189) :
-65, 66, 81, 82 ; puis 90 (Territoire de Belfort, à
+66, 81, 82 ; puis 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
 

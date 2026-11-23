@@ -270,3 +270,13 @@ Le 10/11, mot pour mot : « Pour demain, lis le projet que je te transmets. Lis 
 | Lire Netatmo et dire ce qui servirait | `docs/ETUDE-NETATMO.md` (PR #280) : idées classées, une seule chose à renseigner (la clé), trois questions |
 | Claude dans le logiciel | E38 (`docs/EPICS.md`), S380 : le mot du mois rédigé par Claude dans un workflow à la main, chaque nombre et chaque nom vérifiés, proposé en PR ; jamais d'appel depuis la page |
 | Ce qu'il faut renseigner | Le secret `ANTHROPIC_API_KEY` (et un plafond de dépense), et l'autorisation pour GitHub Actions d'ouvrir des PR ; sans eux, rien ne casse |
+
+## Demande de Cédric du 23/11 : un backlog autonome, un jour sur deux
+
+Mot pour mot : « met en place un backlog autonome complete tout les 2 jours (comme Sentier) ». Le même jour : « Reprends les routines ».
+
+| Ce qu'il demande | Ce qui en suit |
+|---|---|
+| Un backlog autonome, comme Sentiers | Tâche planifiée « Backlog autonome (1 jour sur 2) », à 13 h 23 (heure de Paris), dans la même session que la routine du matin ; son déroulé et son état sont dans `docs/BACKLOG-AUTONOME.md` |
+| Un item à la fois | Un seul item strictement codable par déclenchement (ni décision de Cédric, ni séance humaine), story d'abord, revue adverse et persona, PR mergée verte, déploiement vérifié |
+| Rien à faire | Le dire en une phrase, sans committer ; pas d'audit ni de veille relancés de soi-même |
