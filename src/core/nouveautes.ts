@@ -10,9 +10,9 @@
  */
 export const DONNEES = {
   /** Les 16 premiers caractères du SHA-256 de `data/breweries.json`. */
-  empreinte: '23dd4fe42ea80954',
+  empreinte: '76abfdde4622f044',
   phrase:
-    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 338 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 755 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
+    'Fiches vérifiées : 151 complétées les 18 et 19 octobre 2026, d’après leur propre site ; 342 placées au centre de leur commune selon l’IGN, faute d’adresse vérifiée ; 762 brasseries ajoutées en Normandie, en Bretagne, dans les Pays de la Loire, en Centre-Val de Loire, en Auvergne-Rhône-Alpes, en Bourgogne-Franche-Comté, en Provence-Alpes-Côte d’Azur, en Corse, dans les Hauts-de-France, en Île-de-France, dans le Grand Est, en Nouvelle-Aquitaine et en Occitanie.',
 } as const
 
 export interface Nouveaute {
@@ -23,6 +23,7 @@ export interface Nouveaute {
 
 /** Les plus récentes d'abord. */
 export const NOUVEAUTES: readonly Nouveaute[] = [
+  { date: '2026-11-23', texte: '7 brasseries de plus en Lozère, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-22', texte: '7 brasseries de plus dans le Lot, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-20', texte: '24 brasseries de plus dans l’Hérault, d’après leur site ou un office de tourisme.' },
   { date: '2026-11-19', texte: '3 brasseries de plus dans le Gers, d’après leur site ou un office de tourisme.' },

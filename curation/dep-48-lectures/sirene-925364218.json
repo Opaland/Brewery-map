@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:925364218",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Nasbinals",
+   "c": "Nasbinals",
+   "d": "48",
+   "lat": 44.66855,
+   "lon": 3.05672,
+   "km": 173.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Nasbinals, qui propose des visites guidées de ses installations, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+   "addr": "Lotissement La Devezette, 48260 Nasbinals",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/",
+   "https://data.geopf.fr/geocodage/search?q=Nasbinals&type=municipality&limit=5"
+  ],
+  "extrait": "vous invite à découvrir ses installations à l'occasion de visites guidées",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 ; ni site, ni Untappd trouvés. La clé SIRENE (une brasserie-limonaderie de Nasbinals) a la même adresse, La Devezette. Seul un portable est publié, par l'office : non repris."
+ }
+}

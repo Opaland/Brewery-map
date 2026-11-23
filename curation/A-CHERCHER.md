@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 911 | 22 (2 %) | 42 | 334 | 279 | 349 | 481 | 599 | 735 |
+| **Total** | 918 | 24 (3 %) | 42 | 338 | 281 | 353 | 485 | 603 | 738 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -62,6 +62,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 44 · Loire-Atlantique | 32 | 3 (9 %) | 0 | 12 | 10 | 9 | 20 | 21 | 11 |
 | 45 · Loiret | 8 | 0 (0 %) | 0 | 2 | 0 | 1 | 7 | 6 | 8 |
 | 46 · Lot | 7 | 0 (0 %) | 0 | 2 | 1 | 3 | 3 | 4 | 7 |
+| 48 · Lozère | 7 | 2 (29 %) | 0 | 4 | 2 | 4 | 4 | 4 | 3 |
 | 49 · Maine-et-Loire | 11 | 0 (0 %) | 0 | 3 | 4 | 8 | 7 | 7 | 5 |
 | 50 · Manche | 9 | 0 (0 %) | 0 | 4 | 4 | 4 | 9 | 6 | 5 |
 | 51 · Marne | 3 | 0 (0 %) | 0 | 1 | 1 | 1 | 2 | 1 | 3 |
@@ -107,7 +108,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-334 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+338 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -432,6 +433,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 - Buvett (Assier) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
 - Brasserie Les Acolytes (Luzech) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+
+### 48 · Lozère
+
+- Brasserie de Nasbinals (Nasbinals) : sans site, sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie du Tarnon (Cans et Cévennes) : sans site, sans adresse vérifiée, sans téléphone, sans horaires
+- Brasserie Cévenole PBC (Saint-Julien-des-Points) : sans adresse vérifiée, sans téléphone, sans horaires, sans bières
+- Brasserie de Lozère - La 48 (Mende) : sans téléphone, sans horaires, sans bières
 
 ### 49 · Maine-et-Loire
 

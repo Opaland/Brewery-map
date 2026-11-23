@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:807617170",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de Lozère - La 48",
+   "c": "Mende",
+   "d": "48",
+   "lat": 44.53793,
+   "lon": 3.50892,
+   "km": 159.8,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie de Mende, née en 2014. Visite avec dégustation sur demande pour les petits groupes ; vente par correspondance ou dans des points de vente de Mende, d'après l'office de tourisme. Le site dit « sur rendez-vous ». Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+   "addr": "18 rue de la Draine, ZAE du Causse d'Auge, 48000 Mende",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-lozere-la-48-mende_TFODEGLAR048V50DWN2/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "http://brasseriedelozere-la48.fr/",
+    "source": "http://brasseriedelozere-la48.fr/",
+    "verifieLe": "2026-11-23"
+   }
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-lozere-la-48-mende_TFODEGLAR048V50DWN2/",
+   "http://brasseriedelozere-la48.fr/",
+   "https://data.geopf.fr/geocodage/search?q=18+rue+de+la+Draine%2C+ZAE+du+Causse+d%27Auge%2C+48000+Mende&limit=5"
+  ],
+  "extrait": "Visite avec dégustation sur demande pour petits groupes",
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 23/11. Catégorie 0 : la vente se fait ailleurs. Le site ne publie aucun téléphone ; le portable de l'office n'est pas repris."
+ }
+}

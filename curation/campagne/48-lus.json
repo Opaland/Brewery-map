@@ -1,0 +1,364 @@
+[
+ {
+  "cle": "sirene:812826576",
+  "n": "Les Brasseurs de la Jonte",
+  "c": "Gatuzières",
+  "adresse": "Mas Pradès, 48150 Gatuzières",
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de Gatuzières avec point de vente, tap room et petite restauration sur place, d'après son site. De mai à septembre, ouvert tous les jours de 10 h à 19 h, jusqu'à 21 h en juillet et août. Téléphone du lundi au vendredi, de 10 h à 17 h. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.",
+  "src": "http://lesbrasseursdelajonte.fr/",
+  "extrait": "Point de vente . Tap room . Petite restauration . Évènements",
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Brimbelle (blanche à la myrtille)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Tantaravel (single hop IPA)"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Minim'ale"
+   }
+  ],
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »). Le site écrit une saison de mai à septembre (10 h – 19 h) qui contient celle de juillet-août (10 h – 21 h) : deux saisons ne peuvent pas se chevaucher, et le contrôle ne relit pas une saison découpée ; seuls l'hiver et juillet-août sont structurés, mai-juin et septembre sont dits dans la note (persona Cédric du 23/11). Fixe publié par la brasserie. Le lien Untappd est sur la page d'accueil du site (persona « une brasserie », 23/11).",
+  "contact": {
+   "tel": "04 48 50 00 80",
+   "site": "http://lesbrasseursdelajonte.fr/",
+   "source": "http://lesbrasseursdelajonte.fr/",
+   "untappd": "https://untappd.com/LesBrasseursDeLaJonte"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "http://lesbrasseursdelajonte.fr/",
+    "periode": {
+     "du": "10-01",
+     "au": "04-30"
+    },
+    "remarque": "Fermé pendant les vacances de Noël.",
+    "lun": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "sam": [],
+    "dim": []
+   },
+   {
+    "nature": "vente",
+    "source": "http://lesbrasseursdelajonte.fr/",
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "lun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "sirene:838818581",
+  "n": "Brasserie de la Naine",
+  "c": "Saint-Chély-d'Apcher",
+  "adresse": "3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher",
+  "cat": 2,
+  "conf": "solide",
+  "note": "Vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "src": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+  "extrait": "A la boutique sur notre lieu de production dans la zone artisanale de Saint Chély",
+  "beers": [
+   {
+    "type": "stout",
+    "libelle": "La Naine Futée (bière d'hiver)"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Naine Sauvage (triple ambrée fumée, bière d'hiver)"
+   }
+  ],
+  "choix": "Site officiel relu sur la page brute le 23/11 (boutique, horaires, contact). Fixe et portable publiés ensemble : le fixe est repris. Les congés annuels diffèrent d'une page à l'autre (janvier, et l'automne) : dits dans la remarque sans dates. Deux bières d'hiver seulement ont un type net.",
+  "contact": {
+   "tel": "04 66 31 94 84",
+   "site": "https://brasseriedelanaine.fr/",
+   "source": "https://brasseriedelanaine.fr/contact/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+    "remarque": "Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.",
+    "lun": [],
+    "mar": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "dim": []
+   }
+  ]
+ },
+ {
+  "cle": "sirene:905136909",
+  "n": "Brasserie de Rocles",
+  "c": "Langogne",
+  "adresse": "1 rue du Boulodrome, 48300 Langogne",
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie bio née à Rocles en 2019, à Langogne depuis 2022 : vente à emporter le jeudi et le samedi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "src": "https://www.brasseriederocles.com/contact",
+  "extrait": "Vente à emporter",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Pacific (American Pale Ale)"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde Anglaise"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA"
+   },
+   {
+    "type": "lager",
+    "libelle": "Session Pils"
+   },
+   {
+    "type": "brune",
+    "libelle": "London Porter"
+   }
+  ],
+  "choix": "Site officiel relu sur la page brute le 23/11 (contact, À propos, Nos bières). La clé SIRENE est une entreprise de Rocles, commune où la brasserie est née dans un local loué à la mairie ; elle a déménagé à Langogne en 2022 (page À propos) : adresse actuelle retenue. « Fermé les autres jours de la semaine » est écrit. Le seul numéro publié par la brasserie est un portable (règle du 21/10).",
+  "contact": {
+   "tel": "06 27 64 43 36",
+   "site": "https://www.brasseriederocles.com/",
+   "source": "https://www.brasseriederocles.com/contact"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://www.brasseriederocles.com/contact",
+    "lun": [],
+    "mar": [],
+    "mer": [],
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "dim": []
+   }
+  ]
+ },
+ {
+  "cle": "sirene:807617170",
+  "n": "Brasserie de Lozère - La 48",
+  "c": "Mende",
+  "adresse": "18 rue de la Draine, ZAE du Causse d'Auge, 48000 Mende",
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie de Mende, née en 2014. Visite avec dégustation sur demande pour les petits groupes ; vente par correspondance ou dans des points de vente de Mende, d'après l'office de tourisme. Le site dit « sur rendez-vous ». Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-lozere-la-48-mende_TFODEGLAR048V50DWN2/",
+  "extrait": "Visite avec dégustation sur demande pour petits groupes",
+  "beers": [],
+  "choix": "Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 23/11. Catégorie 0 : la vente se fait ailleurs. Le site ne publie aucun téléphone ; le portable de l'office n'est pas repris.",
+  "contact": {
+   "site": "http://brasseriedelozere-la48.fr/",
+   "source": "http://brasseriedelozere-la48.fr/"
+  }
+ },
+ {
+  "cle": "sirene:840718340",
+  "n": "Brasserie Cévenole PBC",
+  "c": "Saint-Julien-des-Points",
+  "adresse": "48160 Saint-Julien-des-Points",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale des Cévennes, mention Nature & Progrès depuis 2021, d'après son site. Ni la vente ni l'accueil à la brasserie ne sont dits : le site renvoie à des points de vente.",
+  "src": "https://pbc-brasserie-cevenole.com/",
+  "extrait": "Nous avons obtenu en 2021 notre mention Nature",
+  "beers": [],
+  "choix": "Site officiel et fiche de l'office relus sur la page brute le 23/11. Adresse SIRENE non confirmée par une page lue : code postal et commune seulement. Seul un portable est publié, par l'office : non repris.",
+  "contact": {
+   "site": "https://pbc-brasserie-cevenole.com/",
+   "source": "https://pbc-brasserie-cevenole.com/"
+  }
+ },
+ {
+  "cle": "node/9900294170",
+  "n": "Brasserie du Tarnon",
+  "c": "Cans et Cévennes",
+  "adresse": "Le Fajas, 48400 Cans et Cévennes",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de la vallée du Tarnon, qui fait la Tarnonaise : bière non filtrée, refermentée en bouteille, en blonde, blanche, rousse, brune, IPA, à la châtaigne et en éphémère, d'après l'office de tourisme d'Occitanie. Ni visite, ni dégustation, ni vente sur place ne sont dites. Téléphone publié par l'office : 04 66 48 03 68.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-tarnon-cans-et-cevennes_TFODEGLAR048V50COQ6/",
+  "extrait": "non filtrée, non pasteurisée, refermentée en bouteille",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Châtaigne"
+   }
+  ],
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM ; pas de site officiel. Le fixe est écrit « +33 4 66 48 03 68 », que le contrôle ne relit pas : il passe dans la note. Le portable n'est pas repris. Le nom du brasseur, écrit sur la page, n'est pas recopié."
+ },
+ {
+  "cle": "sirene:925364218",
+  "n": "Brasserie de Nasbinals",
+  "c": "Nasbinals",
+  "adresse": "Lotissement La Devezette, 48260 Nasbinals",
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Nasbinals, qui propose des visites guidées de ses installations, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/",
+  "extrait": "vous invite à découvrir ses installations à l'occasion de visites guidées",
+  "beers": [],
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11 ; ni site, ni Untappd trouvés. La clé SIRENE (une brasserie-limonaderie de Nasbinals) a la même adresse, La Devezette. Seul un portable est publié, par l'office : non repris."
+ }
+]

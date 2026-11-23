@@ -34321,5 +34321,397 @@
   "coordPrecision": "centre",
   "beers": [],
   "verifieLe": "2026-11-22"
+ },
+ {
+  "n": "Brasserie du Tarnon",
+  "c": "Cans et Cévennes",
+  "d": "48",
+  "lat": 44.27603,
+  "lon": 3.63542,
+  "km": 178.7,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de la vallée du Tarnon, qui fait la Tarnonaise : bière non filtrée, refermentée en bouteille, en blonde, blanche, rousse, brune, IPA, à la châtaigne et en éphémère, d'après l'office de tourisme d'Occitanie. Ni visite, ni dégustation, ni vente sur place ne sont dites. Téléphone publié par l'office : 04 66 48 03 68.",
+  "addr": "Le Fajas, 48400 Cans et Cévennes",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-tarnon-cans-et-cevennes_TFODEGLAR048V50COQ6/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "autre",
+    "libelle": "Châtaigne"
+   }
+  ],
+  "verifieLe": "2026-11-23"
+ },
+ {
+  "n": "Brasserie de Lozère - La 48",
+  "c": "Mende",
+  "d": "48",
+  "lat": 44.53793,
+  "lon": 3.50892,
+  "km": 159.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie de Mende, née en 2014. Visite avec dégustation sur demande pour les petits groupes ; vente par correspondance ou dans des points de vente de Mende, d'après l'office de tourisme. Le site dit « sur rendez-vous ». Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "addr": "18 rue de la Draine, ZAE du Causse d'Auge, 48000 Mende",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-lozere-la-48-mende_TFODEGLAR048V50DWN2/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-23",
+  "contact": {
+   "site": "http://brasseriedelozere-la48.fr/",
+   "source": "http://brasseriedelozere-la48.fr/",
+   "verifieLe": "2026-11-23"
+  }
+ },
+ {
+  "n": "Les Brasseurs de la Jonte",
+  "c": "Gatuzières",
+  "d": "48",
+  "lat": 44.19868,
+  "lon": 3.48811,
+  "km": 192.0,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de Gatuzières avec point de vente, tap room et petite restauration sur place, d'après son site. De mai à septembre, ouvert tous les jours de 10 h à 19 h, jusqu'à 21 h en juillet et août. Téléphone du lundi au vendredi, de 10 h à 17 h. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.",
+  "addr": "Mas Pradès, 48150 Gatuzières",
+  "src": "http://lesbrasseursdelajonte.fr/",
+  "coordPrecision": "centre",
+  "beers": [
+   {
+    "type": "blanche",
+    "libelle": "Brimbelle (blanche à la myrtille)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Tantaravel (single hop IPA)"
+   },
+   {
+    "type": "sans-alcool",
+    "libelle": "Minim'ale"
+   }
+  ],
+  "verifieLe": "2026-11-23",
+  "contact": {
+   "tel": "04 48 50 00 80",
+   "site": "http://lesbrasseursdelajonte.fr/",
+   "untappd": "https://untappd.com/LesBrasseursDeLaJonte",
+   "source": "http://lesbrasseursdelajonte.fr/",
+   "verifieLe": "2026-11-23"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "17:00"
+     ]
+    ],
+    "sam": [],
+    "dim": [],
+    "remarque": "Fermé pendant les vacances de Noël.",
+    "periode": {
+     "du": "10-01",
+     "au": "04-30"
+    },
+    "source": "http://lesbrasseursdelajonte.fr/",
+    "verifieLe": "2026-11-23"
+   },
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "dim": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "periode": {
+     "du": "07-01",
+     "au": "08-31"
+    },
+    "source": "http://lesbrasseursdelajonte.fr/",
+    "verifieLe": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de la Naine",
+  "c": "Saint-Chély-d'Apcher",
+  "d": "48",
+  "lat": 44.80912,
+  "lon": 3.28566,
+  "km": 149.9,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "addr": "3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher",
+  "src": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "stout",
+    "libelle": "La Naine Futée (bière d'hiver)"
+   },
+   {
+    "type": "ambree",
+    "libelle": "La Naine Sauvage (triple ambrée fumée, bière d'hiver)"
+   }
+  ],
+  "verifieLe": "2026-11-23",
+  "contact": {
+   "tel": "04 66 31 94 84",
+   "site": "https://brasseriedelanaine.fr/",
+   "source": "https://brasseriedelanaine.fr/contact/",
+   "verifieLe": "2026-11-23"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "ven": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "sam": [
+     [
+      "15:00",
+      "18:30"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.",
+    "source": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+    "verifieLe": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Cévenole PBC",
+  "c": "Saint-Julien-des-Points",
+  "d": "48",
+  "lat": 44.25665,
+  "lon": 3.96341,
+  "km": 169.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie artisanale des Cévennes, mention Nature & Progrès depuis 2021, d'après son site. Ni la vente ni l'accueil à la brasserie ne sont dits : le site renvoie à des points de vente.",
+  "addr": "48160 Saint-Julien-des-Points",
+  "src": "https://pbc-brasserie-cevenole.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-23",
+  "contact": {
+   "site": "https://pbc-brasserie-cevenole.com/",
+   "source": "https://pbc-brasserie-cevenole.com/",
+   "verifieLe": "2026-11-23"
+  }
+ },
+ {
+  "n": "Brasserie de Rocles",
+  "c": "Langogne",
+  "d": "48",
+  "lat": 44.72895,
+  "lon": 3.85716,
+  "km": 126.5,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie bio née à Rocles en 2019, à Langogne depuis 2022 : vente à emporter le jeudi et le samedi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "addr": "1 rue du Boulodrome, 48300 Langogne",
+  "src": "https://www.brasseriederocles.com/contact",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Pacific (American Pale Ale)"
+   },
+   {
+    "type": "blonde",
+    "libelle": "Blonde Anglaise"
+   },
+   {
+    "type": "ambree",
+    "libelle": "Ambrée"
+   },
+   {
+    "type": "ipa",
+    "libelle": "IPA"
+   },
+   {
+    "type": "lager",
+    "libelle": "Session Pils"
+   },
+   {
+    "type": "brune",
+    "libelle": "London Porter"
+   }
+  ],
+  "verifieLe": "2026-11-23",
+  "contact": {
+   "tel": "06 27 64 43 36",
+   "site": "https://www.brasseriederocles.com/",
+   "source": "https://www.brasseriederocles.com/contact",
+   "verifieLe": "2026-11-23"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [],
+    "mar": [],
+    "mer": [],
+    "jeu": [
+     [
+      "16:00",
+      "19:00"
+     ]
+    ],
+    "ven": [],
+    "sam": [
+     [
+      "10:00",
+      "12:30"
+     ]
+    ],
+    "dim": [],
+    "source": "https://www.brasseriederocles.com/contact",
+    "verifieLe": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie de Nasbinals",
+  "c": "Nasbinals",
+  "d": "48",
+  "lat": 44.66855,
+  "lon": 3.05672,
+  "km": 173.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Nasbinals, qui propose des visites guidées de ses installations, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.",
+  "addr": "Lotissement La Devezette, 48260 Nasbinals",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-23"
  }
 ]

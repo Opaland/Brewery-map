@@ -1,0 +1,91 @@
+{
+ "candidat": "sirene:838818581",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie de la Naine",
+   "c": "Saint-Chély-d'Apcher",
+   "d": "48",
+   "lat": 44.80912,
+   "lon": 3.28566,
+   "km": 149.9,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+   "addr": "3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher",
+   "src": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "stout",
+     "libelle": "La Naine Futée (bière d'hiver)"
+    },
+    {
+     "type": "ambree",
+     "libelle": "La Naine Sauvage (triple ambrée fumée, bière d'hiver)"
+    }
+   ],
+   "contact": {
+    "tel": "04 66 31 94 84",
+    "site": "https://brasseriedelanaine.fr/",
+    "source": "https://brasseriedelanaine.fr/contact/",
+    "verifieLe": "2026-11-23"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+     "remarque": "Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.",
+     "lun": [],
+     "mar": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "18:30"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "ven": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "sam": [
+      [
+       "15:00",
+       "18:30"
+      ]
+     ],
+     "dim": [],
+     "verifieLe": "2026-11-23"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
+   "https://brasseriedelanaine.fr/contact/",
+   "https://data.geopf.fr/geocodage/search?q=3+avenue+des+Entrepreneurs%2C+48200+Saint-Ch%C3%A9ly-d%27Apcher&limit=5"
+  ],
+  "extrait": "A la boutique sur notre lieu de production dans la zone artisanale de Saint Chély",
+  "choix": "Site officiel relu sur la page brute le 23/11 (boutique, horaires, contact). Fixe et portable publiés ensemble : le fixe est repris. Les congés annuels diffèrent d'une page à l'autre (janvier, et l'automne) : dits dans la remarque sans dates. Deux bières d'hiver seulement ont un type net."
+ }
+}

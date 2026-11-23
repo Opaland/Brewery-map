@@ -1,0 +1,44 @@
+{
+ "candidat": "node/9900294170",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Tarnon",
+   "c": "Cans et Cévennes",
+   "d": "48",
+   "lat": 44.27603,
+   "lon": 3.63542,
+   "km": 178.7,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de la vallée du Tarnon, qui fait la Tarnonaise : bière non filtrée, refermentée en bouteille, en blonde, blanche, rousse, brune, IPA, à la châtaigne et en éphémère, d'après l'office de tourisme d'Occitanie. Ni visite, ni dégustation, ni vente sur place ne sont dites. Téléphone publié par l'office : 04 66 48 03 68.",
+   "addr": "Le Fajas, 48400 Cans et Cévennes",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-tarnon-cans-et-cevennes_TFODEGLAR048V50COQ6/",
+   "coordPrecision": "centre",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "autre",
+     "libelle": "Châtaigne"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-23",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-tarnon-cans-et-cevennes_TFODEGLAR048V50COQ6/",
+   "https://data.geopf.fr/geocodage/search?q=Cans+et+C%C3%A9vennes&type=municipality&limit=5"
+  ],
+  "extrait": "non filtrée, non pasteurisée, refermentée en bouteille",
+  "choix": "Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM ; pas de site officiel. Le fixe est écrit « +33 4 66 48 03 68 », que le contrôle ne relit pas : il passe dans la note. Le portable n'est pas repris. Le nom du brasseur, écrit sur la page, n'est pas recopié."
+ }
+}
