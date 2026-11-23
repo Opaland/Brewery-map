@@ -3151,3 +3151,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, huitième partie — le Lot *(22/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 4 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 911 fiches dans 89 départements, OSM à 557. Revue de la persona Cédric traitée avant l'application (une catégorie, une confiance, une note, une adresse), persona Hugo après (issue #298).
+
+## S348, neuvième partie — la Lozère *(23/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 2 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 918 fiches dans 90 départements, OSM à 554. Revue de la persona Cédric traitée avant l'application (trois mots absents des pages retirés des notes, les heures d'été de la Jonte), persona « une brasserie » après (le lien Untappd de la Jonte, les bières d'hiver de la Naine). Le test e2e de la commune sans brasserie à 10 km passe de Mende à Montluçon.

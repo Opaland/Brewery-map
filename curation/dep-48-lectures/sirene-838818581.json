@@ -10,18 +10,18 @@
    "km": 149.9,
    "cat": 2,
    "conf": "solide",
-   "note": "Brasserie bio : vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+   "note": "Vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.",
    "addr": "3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher",
    "src": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
    "coordPrecision": "address",
    "beers": [
     {
      "type": "stout",
-     "libelle": "La Naine Futée"
+     "libelle": "La Naine Futée (bière d'hiver)"
     },
     {
      "type": "ambree",
-     "libelle": "La Naine Sauvage (triple ambrée fumée)"
+     "libelle": "La Naine Sauvage (triple ambrée fumée, bière d'hiver)"
     }
    ],
    "contact": {
@@ -34,7 +34,7 @@
     {
      "nature": "vente",
      "source": "https://brasseriedelanaine.fr/partenaires-et-revendeurs/",
-     "remarque": "Congés annuels en janvier et à l'automne ; la porte peut être fermée pendant une livraison, d'après le site.",
+     "remarque": "Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.",
      "lun": [],
      "mar": [
       [

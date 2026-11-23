@@ -51,7 +51,7 @@ Extrait lu : « non filtrée, non pasteurisée, refermentée en bouteille »
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11, avec un point OSM ; pas de site officiel. Le fixe est écrit « +33 4 66 48 03 68 », que le contrôle ne relit pas : il passe dans la note. Le portable n'est pas repris. Le nom du brasseur, écrit sur la page, n'est pas recopié.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -97,7 +97,7 @@ Extrait lu : « Visite avec dégustation sur demande pour petits groupes »
 
 Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus sur la page brute le 23/11. Catégorie 0 : la vente se fait ailleurs. Le site ne publie aucun téléphone ; le portable de l'office n'est pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -120,7 +120,7 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - km : (vide) → 192
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie des gorges de la Jonte avec point de vente, tap room et petite restauration sur place, d'après son site. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.
+- note : (vide) → Brasserie de Gatuzières avec point de vente, tap room et petite restauration sur place, d'après son site. De mai à septembre, ouvert tous les jours de 10 h à 19 h, jusqu'à 21 h en juillet et août. Téléphone du lundi au vendredi, de 10 h à 17 h. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.
 - addr : (vide) → Mas Pradès, 48150 Gatuzières
 - src : (vide) → http://lesbrasseursdelajonte.fr/
 - coordPrecision : (vide) → centre
@@ -132,6 +132,7 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - beers.2.libelle : (vide) → Minim'ale
 - contact.tel : (vide) → 04 48 50 00 80
 - contact.site : (vide) → http://lesbrasseursdelajonte.fr/
+- contact.untappd : (vide) → https://untappd.com/LesBrasseursDeLaJonte
 - contact.source : (vide) → http://lesbrasseursdelajonte.fr/
 - contact.verifieLe : (vide) → 2026-11-23
 - horaires.0.nature : (vide) → vente
@@ -148,16 +149,15 @@ Choix du vérificateur : Fiche de l'office d'Occitanie et site officiel relus su
 - horaires.0.source : (vide) → http://lesbrasseursdelajonte.fr/
 - horaires.0.verifieLe : (vide) → 2026-11-23
 - horaires.1.nature : (vide) → vente
-- horaires.1.lun : (vide) → 10 h – 19 h
-- horaires.1.mar : (vide) → 10 h – 19 h
-- horaires.1.mer : (vide) → 10 h – 19 h
-- horaires.1.jeu : (vide) → 10 h – 19 h
-- horaires.1.ven : (vide) → 10 h – 19 h
-- horaires.1.sam : (vide) → 10 h – 19 h
-- horaires.1.dim : (vide) → 10 h – 19 h
-- horaires.1.remarque : (vide) → En juillet et août, ouvert 7 jours sur 7 jusqu'à 21 h.
-- horaires.1.periode.du : (vide) → 05-01
-- horaires.1.periode.au : (vide) → 09-30
+- horaires.1.lun : (vide) → 10 h – 21 h
+- horaires.1.mar : (vide) → 10 h – 21 h
+- horaires.1.mer : (vide) → 10 h – 21 h
+- horaires.1.jeu : (vide) → 10 h – 21 h
+- horaires.1.ven : (vide) → 10 h – 21 h
+- horaires.1.sam : (vide) → 10 h – 21 h
+- horaires.1.dim : (vide) → 10 h – 21 h
+- horaires.1.periode.du : (vide) → 07-01
+- horaires.1.periode.au : (vide) → 08-31
 - horaires.1.source : (vide) → http://lesbrasseursdelajonte.fr/
 - horaires.1.verifieLe : (vide) → 2026-11-23
 - verifieLe : (vide) → 2026-11-23
@@ -166,19 +166,19 @@ Sources (vérifiée le 2026-11-23) : http://lesbrasseursdelajonte.fr/ ; https://
 
 Extrait lu : « Point de vente . Tap room . Petite restauration . Évènements »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »), en deux saisons comme le site les écrit ; les heures longues de juillet et août (jusqu'à 21 h) sont dites dans la remarque, car le contrôle ne relit qu'une saison écrite telle quelle. Fixe publié par la brasserie. Le lien Untappd n'est pas écrit sur le site : non repris.
+Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »). Le site écrit une saison de mai à septembre (10 h – 19 h) qui contient celle de juillet-août (10 h – 21 h) : deux saisons ne peuvent pas se chevaucher, et le contrôle ne relit pas une saison découpée ; seuls l'hiver et juillet-août sont structurés, mai-juin et septembre sont dits dans la note (persona Cédric du 23/11). Fixe publié par la brasserie. Le lien Untappd est sur la page d'accueil du site (persona « une brasserie », 23/11).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 05 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
+> - À 8 h 22 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
 > - Adresse
 > - Mas Pradès, 48150 Gatuzières
 > - Joindre la brasserie
 > - [Appeler le 04 48 50 00 80](tel:+33448500080)
-> - [Site de la brasserie](http://lesbrasseursdelajonte.fr/)
+> - [Site de la brasserie](http://lesbrasseursdelajonte.fr/)[Untappd (avis sur les bières)](https://untappd.com/LesBrasseursDeLaJonte)
 > - Horaires
 > - À savoir : Fermé pendant les vacances de Noël.
 > - Horaires de vente, du 1er octobre au 30 avril
@@ -190,15 +190,14 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 > - Samedi | fermé
 > - Dimanche | fermé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - À savoir : En juillet et août, ouvert 7 jours sur 7 jusqu'à 21 h.
-> - Horaires de vente, du 1er mai au 30 septembre
-> - Lundi | 10 h – 19 h
-> - Mardi | 10 h – 19 h
-> - Mercredi | 10 h – 19 h
-> - Jeudi | 10 h – 19 h
-> - Vendredi | 10 h – 19 h
-> - Samedi | 10 h – 19 h
-> - Dimanche | 10 h – 19 h
+> - Horaires de vente, du 1er juillet au 31 août
+> - Lundi | 10 h – 21 h
+> - Mardi | 10 h – 21 h
+> - Mercredi | 10 h – 21 h
+> - Jeudi | 10 h – 21 h
+> - Vendredi | 10 h – 21 h
+> - Samedi | 10 h – 21 h
+> - Dimanche | 10 h – 21 h
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Ses bières
 > - Brimbelle (blanche à la myrtille) · Blanche (non référencé) — au blé, souvent trouble et rafraîchissante
@@ -217,14 +216,14 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 - km : (vide) → 149.9
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → solide
-- note : (vide) → Brasserie bio : vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.
+- note : (vide) → Vente directe à la boutique, sur le lieu de production, d'après son site. Rien ne dit qu'on peut y boire sur place.
 - addr : (vide) → 3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher
 - src : (vide) → https://brasseriedelanaine.fr/partenaires-et-revendeurs/
 - coordPrecision : (vide) → address
 - beers.0.type : (vide) → stout
-- beers.0.libelle : (vide) → La Naine Futée
+- beers.0.libelle : (vide) → La Naine Futée (bière d'hiver)
 - beers.1.type : (vide) → ambree
-- beers.1.libelle : (vide) → La Naine Sauvage (triple ambrée fumée)
+- beers.1.libelle : (vide) → La Naine Sauvage (triple ambrée fumée, bière d'hiver)
 - contact.tel : (vide) → 04 66 31 94 84
 - contact.site : (vide) → https://brasseriedelanaine.fr/
 - contact.source : (vide) → https://brasseriedelanaine.fr/contact/
@@ -237,7 +236,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11. Catégor
 - horaires.0.ven : (vide) → 15 h – 18 h 30
 - horaires.0.sam : (vide) → 15 h – 18 h 30
 - horaires.0.dim : (vide) → fermé
-- horaires.0.remarque : (vide) → Congés annuels en janvier et à l'automne ; la porte peut être fermée pendant une livraison, d'après le site.
+- horaires.0.remarque : (vide) → Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.
 - horaires.0.source : (vide) → https://brasseriedelanaine.fr/partenaires-et-revendeurs/
 - horaires.0.verifieLe : (vide) → 2026-11-23
 - verifieLe : (vide) → 2026-11-23
@@ -248,19 +247,19 @@ Extrait lu : « A la boutique sur notre lieu de production dans la zone artisana
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (boutique, horaires, contact). Fixe et portable publiés ensemble : le fixe est repris. Les congés annuels diffèrent d'une page à l'autre (janvier, et l'automne) : dits dans la remarque sans dates. Deux bières d'hiver seulement ont un type net.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 05 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 10 h, sous réserve.
+> - À 8 h 22 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : demain à 10 h, sous réserve.
 > - Adresse
 > - 3 avenue des Entrepreneurs, 48200 Saint-Chély-d'Apcher
 > - Joindre la brasserie
 > - [Appeler le 04 66 31 94 84](tel:+33466319484)
 > - [Site de la brasserie](https://brasseriedelanaine.fr/)
 > - Horaires
-> - À savoir : Congés annuels en janvier et à l'automne ; la porte peut être fermée pendant une livraison, d'après le site.
+> - À savoir : Congés annuels en janvier et à l'automne, à des dates que les pages du site ne disent pas de la même façon ; la porte peut être fermée pendant une livraison.
 > - Horaires de vente
 > - Lundi | fermé
 > - Mardi | 10 h – 13 h, 15 h – 18 h 30
@@ -271,8 +270,8 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (boutique
 > - Dimanche | fermé
 > - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
 > - Ses bières
-> - La Naine Futée · Stout (non référencé) — noire, café et chocolat
-> - La Naine Sauvage (triple ambrée fumée) · Ambrée (non référencé) — cuivrée, notes de caramel
+> - La Naine Futée (bière d'hiver) · Stout (non référencé) — noire, café et chocolat
+> - La Naine Sauvage (triple ambrée fumée, bière d'hiver) · Ambrée (non référencé) — cuivrée, notes de caramel
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=Brasserie+de+la+Naine&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [brasseriedelanaine.fr](https://brasseriedelanaine.fr/partenaires-et-revendeurs/) le 23 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
@@ -302,7 +301,7 @@ Extrait lu : « Nous avons obtenu en 2021 notre mention Nature »
 
 Choix du vérificateur : Site officiel et fiche de l'office relus sur la page brute le 23/11. Adresse SIRENE non confirmée par une page lue : code postal et commune seulement. Seul un portable est publié, par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -361,12 +360,12 @@ Extrait lu : « Vente à emporter »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (contact, À propos, Nos bières). La clé SIRENE est une entreprise de Rocles, commune où la brasserie est née dans un local loué à la mairie ; elle a déménagé à Langogne en 2022 (page À propos) : adresse actuelle retenue. « Fermé les autres jours de la semaine » est écrit. Le seul numéro publié par la brasserie est un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 05 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : jeudi à 16 h.
+> - À 8 h 22 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : jeudi à 16 h.
 > - Adresse
 > - 1 rue du Boulodrome, 48300 Langogne
 > - Joindre la brasserie
@@ -404,7 +403,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 23/11 (contact,
 - km : (vide) → 173.8
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Brasserie de l'Aubrac qui propose des visites guidées de ses installations, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.
+- note : (vide) → Brasserie de Nasbinals, qui propose des visites guidées de ses installations, d'après l'office de tourisme d'Occitanie. Ni vente ni dégustation ne sont dites.
 - addr : (vide) → Lotissement La Devezette, 48260 Nasbinals
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/
 - coordPrecision : (vide) → centre
@@ -417,7 +416,7 @@ Extrait lu : « vous invite à découvrir ses installations à l'occasion de vis
 
 Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute le 23/11 ; ni site, ni Untappd trouvés. La clé SIRENE (une brasserie-limonaderie de Nasbinals) a la même adresse, La Devezette. Seul un portable est publié, par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:05, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le lundi 23 novembre 2026 à 08:22, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -428,4 +427,4 @@ Choix du vérificateur : Fiche de l'office d'Occitanie relue sur la page brute l
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-nasbinals-nasbinals_TFODEGLAR048V50JSNK/) le 23 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 19edd5f2edca
+Empreinte du lot : 1e2976e1206f

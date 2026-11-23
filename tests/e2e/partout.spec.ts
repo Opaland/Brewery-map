@@ -60,11 +60,11 @@ test.describe('chercher une commune de départ, partout en France', () => {
     await expect(page.getByTestId('avec-osm')).not.toBeChecked()
   })
 
-  test('rien dans le rayon (Mende, 10 km) : la plus proche, et d’où viennent les fiches', async ({ page }) => {
+  test('rien dans le rayon (Montluçon, 10 km) : la plus proche, et d’où viennent les fiches', async ({ page }) => {
     await page.goto('/')
-    await choisirCommune(page, 'mende', 'Mende (48)')
+    await choisirCommune(page, 'montluçon', 'Montluçon (03)')
     await page.getByTestId('rayon').fill('10')
-    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 10 km de Mende (48).')
+    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 10 km de Montluçon (03).')
     const ailleurs = page.getByTestId('plus-proche')
     await expect(ailleurs).toContainText('La plus proche :')
     // La liste vient des données : écrite en dur, elle mentait à chaque lot accepté (§4ter, 21/10).

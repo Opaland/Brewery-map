@@ -10,7 +10,7 @@
    "km": 192,
    "cat": 1,
    "conf": "moyenne",
-   "note": "Brasserie des gorges de la Jonte avec point de vente, tap room et petite restauration sur place, d'après son site. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.",
+   "note": "Brasserie de Gatuzières avec point de vente, tap room et petite restauration sur place, d'après son site. De mai à septembre, ouvert tous les jours de 10 h à 19 h, jusqu'à 21 h en juillet et août. Téléphone du lundi au vendredi, de 10 h à 17 h. Visites en juillet et août seulement, du lundi au vendredi à 17 h, sans réservation.",
    "addr": "Mas Pradès, 48150 Gatuzières",
    "src": "http://lesbrasseursdelajonte.fr/",
    "coordPrecision": "centre",
@@ -31,6 +31,7 @@
    "contact": {
     "tel": "04 48 50 00 80",
     "site": "http://lesbrasseursdelajonte.fr/",
+    "untappd": "https://untappd.com/LesBrasseursDeLaJonte",
     "source": "http://lesbrasseursdelajonte.fr/",
     "verifieLe": "2026-11-23"
    },
@@ -101,52 +102,51 @@
      "nature": "vente",
      "source": "http://lesbrasseursdelajonte.fr/",
      "periode": {
-      "du": "05-01",
-      "au": "09-30"
+      "du": "07-01",
+      "au": "08-31"
      },
      "lun": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "mar": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "mer": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "jeu": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "ven": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "sam": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
      "dim": [
       [
        "10:00",
-       "19:00"
+       "21:00"
       ]
      ],
-     "remarque": "En juillet et août, ouvert 7 jours sur 7 jusqu'à 21 h.",
      "verifieLe": "2026-11-23"
     }
    ]
@@ -157,6 +157,6 @@
    "https://data.geopf.fr/geocodage/search?q=Gatuzi%C3%A8res&type=municipality&limit=5"
   ],
   "extrait": "Point de vente . Tap room . Petite restauration . Évènements",
-  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »), en deux saisons comme le site les écrit ; les heures longues de juillet et août (jusqu'à 21 h) sont dites dans la remarque, car le contrôle ne relit qu'une saison écrite telle quelle. Fixe publié par la brasserie. Le lien Untappd n'est pas écrit sur le site : non repris."
+  "choix": "Site officiel relu sur la page brute le 23/11. Catégorie 1 en confiance moyenne : « Point de vente » et « Tap room » sont écrits, la vente de bouteilles à emporter n'est pas détaillée. Les heures sont celles du point de vente (nature « vente »). Le site écrit une saison de mai à septembre (10 h – 19 h) qui contient celle de juillet-août (10 h – 21 h) : deux saisons ne peuvent pas se chevaucher, et le contrôle ne relit pas une saison découpée ; seuls l'hiver et juillet-août sont structurés, mai-juin et septembre sont dits dans la note (persona Cédric du 23/11). Fixe publié par la brasserie. Le lien Untappd est sur la page d'accueil du site (persona « une brasserie », 23/11)."
  }
 }
