@@ -102,12 +102,12 @@ Extrait lu : « Brasserie-Distillerie CERET et Bar Boutique »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 24/11. Catégorie 1 en confiance moyenne : bar et boutique sont écrits pour Céret, sans dire ce que vend la boutique. Les heures sont les « horaires du moment » de Céret (« FERMETURE Le Dimanche ») : remarque. Fixe publié par la brasserie. L'entreprise SIRENE « Brasserie artisanale des Albères » est à la même adresse.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
 > - Maintenant
-> - À 8 h 20 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
+> - À 8 h 28 (heure de Paris), accueil du public : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 10 h, sous réserve.
 > - Adresse
 > - 16 route de Saint-Jean, 66400 Céret
 > - Pas encore dans la fiche : ses bières.
@@ -151,7 +151,7 @@ Extrait lu : « Brasserie artisanale. Dégustation et Visite de la brasserie. »
 
 Choix du vérificateur : Fiche de l'office relue sur la page brute le 24/11. Catégorie 0 : une dégustation pendant une visite ne fait pas une catégorie 1, et la vente n'est pas écrite. Seul un portable est publié, par l'office : non repris. La clé SIRENE est celle d'un entrepreneur individuel : ni nom ni SIREN recopiés ; l'enseigne est celle que publie l'office.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -172,7 +172,7 @@ Choix du vérificateur : Fiche de l'office relue sur la page brute le 24/11. Cat
 - km : (vide) → 367.7
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie de la Bière du Canigou, au Soler : une boutique de bières et de coffrets, et un pub qui sert les bières pression de la brasserie, d'après son site. Pub de mars à octobre le jeudi de 17 h à 22 h et le vendredi de 17 h à 1 h ; d'octobre à mars, jeudi et vendredi de 17 h à 20 h. Le pied de la même page donne d'autres heures (du lundi au jeudi de 10 h à 18 h, le vendredi de 10 h à 2 h) ; le samedi n'est pas écrit.
+- note : (vide) → Brasserie de la Bière du Canigou, au Soler : une boutique de bières et de coffrets, et un pub qui sert les bières pression de la brasserie, d'après son site. Pub de mars à octobre le jeudi de 17 h à 22 h et le vendredi de 17 h à 1 h ; d'octobre à mars, jeudi et vendredi de 17 h à 20 h (les deux saisons du site se recouvrent en octobre). Le pied de la même page donne d'autres heures (du lundi au jeudi de 10 h à 18 h, le vendredi de 10 h à 2 h) ; le samedi n'est pas écrit.
 - addr : (vide) → Route de Perpignan, 66270 Le Soler
 - src : (vide) → https://www.biereducanigou.fr/la-boutique-amp-le-pub/
 - coordPrecision : (vide) → centre
@@ -189,7 +189,7 @@ Extrait lu : « Notre espace propose des bières pression tirées directement de
 
 Choix du vérificateur : Site officiel relu sur la page brute le 24/11. Catégorie 1 en confiance moyenne : boutique et pub sont écrits, « à emporter » non. Les deux saisons du pub se chevauchent en octobre, et le pied de page donne d'autres heures : rien n'est structuré, les heures sont dans la note. Seul numéro publié, un portable (règle du 21/10). Le point OSM de Villeneuve-la-Rivière porte le même site, mais le site ne cite que Le Soler.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -213,7 +213,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 24/11. Catégor
 - km : (vide) → 374.7
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie de bières et de spiritueux bio, avec un bar et une boutique : on y déguste les produits brassés sur place, avec de la charcuterie, d'après son site. Ouverte en ce moment de 15 h à 18 h 30, sans jours précisés ; la page contact donne aussi 10 h 30 – 12 h 30. Visite gratuite le samedi à 17 h sur rendez-vous, de mai à septembre. Téléphone publié par la brasserie : 06 70 07 73 61.
+- note : (vide) → Brasserie de bières et de spiritueux bio, avec un bar et une boutique : on y déguste les produits brassés sur place, avec de la charcuterie, d'après son site. Ouverte en ce moment de 15 h à 18 h 30, sans jours précisés ; la page contact donne aussi 10 h 30 – 12 h 30, et une autre ligne 14 h – 20 h. Visite gratuite le samedi à 17 h sur rendez-vous, de mai à septembre. Téléphone publié par la brasserie : 06 70 07 73 61.
 - addr : (vide) → 7 parc d'activités Albères Méditerranée, 66690 Saint-André
 - src : (vide) → https://brasserielacanya.fr/
 - coordPrecision : (vide) → address
@@ -226,7 +226,7 @@ Extrait lu : « dégustant les produits brassés sur place accompagnés de charc
 
 Choix du vérificateur : Site officiel relu sur la page brute le 24/11 (« Bar - Boutique », « En ce moment, nous sommes ouvert de 15h – 18h30 »). Catégorie 1 en confiance moyenne : la vente à emporter n'est pas écrite en ces mots. Heures sans jours, et autres heures sur la page contact : non structurées. Deux portables, aucun fixe, écrits avec des points que le contrôle ne relit pas : le premier passe dans la note (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -266,7 +266,7 @@ Extrait lu : « Bières Bouteilles 33cl, avec des nouveautés régulièrement »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 24/11 (« brewpub- CAFE-BAR », « Ouverture du Mardi au Samedi. », bouteilles et vrac consigné). Catégorie 0 (persona Cédric, 24/11) : le bloc du brewpub se termine par « A venir..... », qui peut dire qu'il n'est pas encore ouvert ; « sur place » et « à emporter » ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10). Les jours sans heures ne sont pas structurés. Les noms écrits sur la page ne sont pas recopiés.
 
-**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:20, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mardi 24 novembre 2026 à 08:28, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -280,4 +280,4 @@ Choix du vérificateur : Site officiel relu sur la page brute le 24/11 (« brewp
 > - [Site de la brasserie](https://pyreneiste.com)
 > - Lu sur [pyreneiste.com](https://pyreneiste.com) le 24 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 9d037f3bf0dc
+Empreinte du lot : 593992b44a8d

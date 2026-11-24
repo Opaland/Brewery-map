@@ -126,8 +126,8 @@ export const derniereCopie = (page: Page) =>
  * 30 km »), auquel la couche OSM répond. Calculée sur les données plutôt
  * qu'écrite en dur : Porcelette, puis Perpignan, ont reçu des fiches et ont
  * fait rougir les tests à leur tour (S346, puis les Pyrénées-Orientales le
- * 24/11). La première commune de la liste (les plus peuplées d'abord) dont le
- * nom est unique ; les marges de 5 km gardent le compte loin de la limite de
+ * 24/11). La première commune de métropole de la liste (les plus peuplées
+ * d'abord) dont le nom est unique ; les marges de 5 km gardent le compte loin de la limite de
  * 30 km.
  */
 export function communeSeulementOsm(): { texte: string; libelle: string } {
@@ -141,7 +141,9 @@ export function communeSeulementOsm(): { texte: string; libelle: string } {
   const fois = new Map<string, number>()
   for (const [nom] of communes) fois.set(nom.toLowerCase(), (fois.get(nom.toLowerCase()) ?? 0) + 1)
   for (const [nom, dep, lat, lon] of communes) {
-    if (fois.get(nom.toLowerCase()) !== 1) continue
+    // La métropole seulement : le cas de Cédric était en Moselle, et l'outre-mer,
+    // en tête du fichier et sans fiche, aurait toujours répondu (persona Hugo, 24/11).
+    if (dep.startsWith('97') || fois.get(nom.toLowerCase()) !== 1) continue
     const ici = { lat, lon }
     if (fiches.some((f) => distanceKm(ici, f) < 35)) continue
     if (!osm.some((p) => distanceKm(ici, p) < 25)) continue
