@@ -1,6 +1,6 @@
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
-import { choisirCommune, derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
+import { choisirCommune, communeSeulementOsm, derniereCopie, ouvrirFiltres, releverCopies, sansTuiles } from './reseau'
 
 /** S35 — mon carnet : les brasseries visitées, sur l'appareil. */
 test.beforeEach(async ({ page }) => {
@@ -308,8 +308,10 @@ test.describe('sauvegarder et transférer (S37)', () => {
 
 // S357 (#208) : un carnet que seule la couche OSM décochée cache n'est pas vide.
 test('carnet caché par la couche OSM : le compte ne le dit pas vide (S357)', async ({ page }) => {
-  // Perpignan (66) : seules les brasseries de la couche OSM sont proches.
-  await choisirCommune(page, 'perpignan', 'Perpignan (66)')
+  // Une commune où seules les brasseries de la couche OSM sont proches,
+  // calculée sur les données (Perpignan a reçu des fiches le 24/11).
+  const { texte, libelle } = communeSeulementOsm()
+  await choisirCommune(page, texte, libelle)
   const ligne = page.locator('button.ligne').first()
   await expect(ligne.getByTestId('badge-osm')).toBeVisible()
   await ligne.click()

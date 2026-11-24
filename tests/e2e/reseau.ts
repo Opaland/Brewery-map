@@ -1,4 +1,6 @@
+import { readFileSync } from 'node:fs'
 import { type Page } from '@playwright/test'
+import { distanceKm } from '../../src/core/distance'
 import { expect, test } from './position'
 
 /** Seul hôte tiers autorisé : les tuiles OpenStreetMap. */
@@ -117,3 +119,35 @@ export async function releverCopies(page: Page): Promise<void> {
 
 export const derniereCopie = (page: Page) =>
   page.evaluate(() => (window as unknown as { copies: string[] }).copies.at(-1) ?? '')
+
+/**
+ * Une commune sans fiche à moins de 35 km, mais avec un point OpenStreetMap à
+ * moins de 25 km : le cas de Cédric du 16/10 (« Aucune brasserie à moins de
+ * 30 km »), auquel la couche OSM répond. Calculée sur les données plutôt
+ * qu'écrite en dur : Porcelette, puis Perpignan, ont reçu des fiches et ont
+ * fait rougir les tests à leur tour (S346, puis les Pyrénées-Orientales le
+ * 24/11). La première commune de métropole de la liste (les plus peuplées
+ * d'abord) dont le nom est unique ; les marges de 5 km gardent le compte loin de la limite de
+ * 30 km.
+ */
+export function communeSeulementOsm(): { texte: string; libelle: string } {
+  const lire = (chemin: string): unknown => JSON.parse(readFileSync(chemin, 'utf8'))
+  const fiches = (lire('data/breweries.json') as { lat: number; lon: number }[]).map((b) => ({ lat: b.lat, lon: b.lon }))
+  const osm = (lire('src/donnees-osm/brasseries-osm.json') as { brasseries: unknown[][] }).brasseries.map((p) => ({
+    lat: Number(p[4]),
+    lon: Number(p[5]),
+  }))
+  const communes = lire('public/communes-france.json') as [string, string, number, number][]
+  const fois = new Map<string, number>()
+  for (const [nom] of communes) fois.set(nom.toLowerCase(), (fois.get(nom.toLowerCase()) ?? 0) + 1)
+  for (const [nom, dep, lat, lon] of communes) {
+    // La métropole seulement : le cas de Cédric était en Moselle, et l'outre-mer,
+    // en tête du fichier et sans fiche, aurait toujours répondu (persona Hugo, 24/11).
+    if (dep.startsWith('97') || fois.get(nom.toLowerCase()) !== 1) continue
+    const ici = { lat, lon }
+    if (fiches.some((f) => distanceKm(ici, f) < 35)) continue
+    if (!osm.some((p) => distanceKm(ici, p) < 25)) continue
+    return { texte: nom.toLowerCase(), libelle: `${nom} (${dep})` }
+  }
+  throw new Error('Aucune commune sans fiche avec un point OpenStreetMap proche : le test n’a plus de cas à montrer.')
+}

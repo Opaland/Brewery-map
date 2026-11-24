@@ -3159,3 +3159,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, dixième partie — les Hautes-Pyrénées *(23/11, routine « Département du jour », reprise demandée par Cédric)*
 
 `docs/stories/S348.md`, issue #189. 3 paquets ; 7 fiches par la règle de Cédric du 21/10 ; 925 fiches dans 91 départements, OSM à 550. Revue de la persona Cédric traitée avant l'application (L'Aoucataise créée sur l'office comme les autres fiches d'office, deux raisons d'écart corrigées, quatre notes resserrées, un portable de l'Adour repris), persona Hugo après (grille des Pics retirée, fausse un vendredi d'été ; heures de L'Aoucataise structurées).
+
+## S348, onzième partie — les Pyrénées-Orientales *(24/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 10 paquets, 51 candidats ; 5 fiches par la règle de Cédric du 21/10 ; 930 fiches dans 92 départements, OSM à 546. Les trois tests qui supposaient Perpignan sans fiche calculent leur commune sur les données (`communeSeulementOsm`, `tests/e2e/reseau.ts`). Revue de la persona Cédric avant l'application (Pyrénéiste en catégorie 0, son brewpub étant suivi de « A venir » ; heures complétées pour La Canya et Rull ; raison de Prats corrigée), persona Hugo après (commune des tests en métropole seulement, notes de La Canya et de Rull complétées, issue pour la fermeture saisonnière sans heures).

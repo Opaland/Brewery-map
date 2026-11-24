@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:8",
+ "ajout": {
+  "fiche": {
+   "n": "L'Atelier Gabriel",
+   "c": "Bages",
+   "d": "66",
+   "lat": 42.60271,
+   "lon": 2.8902,
+   "km": 372.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Micro-brasserie artisanale de Bages : dégustation et visite de la brasserie, d'après l'office de tourisme Pyrénées Méditerranée. Fermée hors saison, d'octobre à fin juin ; téléphoner avant de se déplacer. La vente n'est pas dite.",
+   "addr": "33 rue des Églantiers, 66670 Bages",
+   "src": "https://www.tourisme-pyrenees-mediterranee.com/fr/vin-produits-locaux/latelier-gabriel/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-24",
+  "sources": [
+   "https://www.tourisme-pyrenees-mediterranee.com/fr/vin-produits-locaux/latelier-gabriel/",
+   "https://data.geopf.fr/geocodage/search?q=33+rue+des+%C3%89glantiers%2C+66670+Bages&limit=5"
+  ],
+  "extrait": "Brasserie artisanale. Dégustation et Visite de la brasserie.",
+  "choix": "Fiche de l'office relue sur la page brute le 24/11. Catégorie 0 : une dégustation pendant une visite ne fait pas une catégorie 1, et la vente n'est pas écrite. Seul un portable est publié, par l'office : non repris. La clé SIRENE est celle d'un entrepreneur individuel : ni nom ni SIREN recopiés ; l'enseigne est celle que publie l'office."
+ }
+}

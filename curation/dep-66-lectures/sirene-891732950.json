@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:891732950",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Pyrénéiste",
+   "c": "Palau-de-Cerdagne",
+   "d": "66",
+   "lat": 42.41531,
+   "lon": 1.96873,
+   "km": 425.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Cerdagne : bières en bouteilles de 33 cl, en vrac dans des bouteilles consignées d'un litre, et en fûts, d'après son site. Le site annonce aussi un brewpub, café et bar, ouvert du mardi au samedi (heures non dites), suivi de « A venir » : il n'est pas sûr qu'il soit déjà ouvert. Téléphoner avant de venir.",
+   "addr": "15 rue du Marquis de Tilière, 66340 Palau-de-Cerdagne",
+   "src": "https://pyreneiste.com",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 40 28 85 18",
+    "site": "https://pyreneiste.com",
+    "source": "https://pyreneiste.com",
+    "verifieLe": "2026-11-24"
+   }
+  },
+  "verifieLe": "2026-11-24",
+  "sources": [
+   "https://pyreneiste.com",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+du+Marquis+de+Tili%C3%A8re%2C+66340+Palau-de-Cerdagne&limit=5"
+  ],
+  "extrait": "Bières Bouteilles 33cl, avec des nouveautés régulièrement",
+  "choix": "Site officiel relu sur la page brute le 24/11 (« brewpub- CAFE-BAR », « Ouverture du Mardi au Samedi. », bouteilles et vrac consigné). Catégorie 0 (persona Cédric, 24/11) : le bloc du brewpub se termine par « A venir..... », qui peut dire qu'il n'est pas encore ouvert ; « sur place » et « à emporter » ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10). Les jours sans heures ne sont pas structurés. Les noms écrits sur la page ne sont pas recopiés."
+ }
+}

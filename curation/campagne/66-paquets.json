@@ -1,0 +1,682 @@
+[
+ [
+  {
+   "cle": "sirene:878876218",
+   "enseigne": "BRASSERIE SYLVATICA SAILLAGOUSE",
+   "dep": "66",
+   "communes": [
+    "SAILLAGOUSE"
+   ],
+   "adresses": [
+    "7 RUE DES CHEVREUILS 66800 SAILLAGOUSE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:818036170",
+   "enseigne": "BRASSERIE L'ART DE LA JOIE",
+   "dep": "66",
+   "communes": [
+    "PERPIGNAN",
+    "RIVESALTES"
+   ],
+   "adresses": [
+    "6 RUE JEAN CRUVEILHIER 66100 PERPIGNAN",
+    "12 AVENUE GAMBETTA 66600 RIVESALTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:894554047",
+   "enseigne": "SARL LA BATTEUSE",
+   "dep": "66",
+   "communes": [
+    "SAINT-PAUL-DE-FENOUILLET",
+    "CAUDIES-DE-FENOUILLEDES"
+   ],
+   "adresses": [
+    "5 RUE ALFRED DE MUSSET 66220 SAINT-PAUL-DE-FENOUILLET",
+    "AVENUE DE L'ERMITAGE 66220 CAUDIES-DE-FENOUILLEDES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:902190693",
+   "enseigne": "LA TRABUC",
+   "dep": "66",
+   "communes": [
+    "BANYULS-SUR-MER"
+   ],
+   "adresses": [
+    "MAS ATXER 66650 BANYULS-SUR-MER",
+    "ROUTE DES MAS 66650 BANYULS-SUR-MER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:130271372",
+   "enseigne": "ILLIBIERIS",
+   "dep": "66",
+   "communes": [
+    "ELNE"
+   ],
+   "adresses": [
+    "2 RUE DE LAS PIPAS 66200 ELNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:885361097",
+   "enseigne": "BOACA",
+   "dep": "66",
+   "communes": [
+    "SAINT-CYPRIEN"
+   ],
+   "adresses": [
+    "4 RUE DU GARGAL 66750 SAINT-CYPRIEN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:891732950",
+   "enseigne": "BRASSERIE PYRENEISTE",
+   "dep": "66",
+   "communes": [
+    "PALAU-DE-CERDAGNE"
+   ],
+   "adresses": [
+    "15 RUE DU MARQUIS DE TILIERE 66340 PALAU-DE-CERDAGNE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:802035121",
+   "enseigne": "BRASSERIE ARTISANALE LA BOC",
+   "dep": "66",
+   "communes": [
+    "PERPIGNAN"
+   ],
+   "adresses": [
+    "3 RUE DESBORDES VALMORE 66000 PERPIGNAN"
+   ],
+   "osm": [
+    "node/5168009975"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:982049850",
+   "enseigne": "LA PRESSION D'ARCHIMEDE",
+   "dep": "66",
+   "communes": [
+    "SAINT-GENIS-DES-FONTAINES"
+   ],
+   "adresses": [
+    "13 ROUTE DE BROUILLA 66740 SAINT-GENIS-DES-FONTAINES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:881551212",
+   "enseigne": "BRASSERIE FORCA",
+   "dep": "66",
+   "communes": [
+    "MILLAS"
+   ],
+   "adresses": [
+    "6 ROUTE DE CORNEILLA 66170 MILLAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:823546734",
+   "enseigne": "BRASSERIE LA CANYA",
+   "dep": "66",
+   "communes": [
+    "SAINT-ANDRE"
+   ],
+   "adresses": [
+    "MEDITERRANEE 7 PARC ARTISANAL ALBERES 66690 SAINT-ANDRE"
+   ],
+   "osm": [
+    "node/9525343000"
+   ],
+   "site": "https://brasserielacanya.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:839497930",
+   "enseigne": "XOT BIERES",
+   "dep": "66",
+   "communes": [
+    "RIVESALTES"
+   ],
+   "adresses": [
+    "ESPACE ENTREPRISES MEDITERRANEE 2 RUE EDOUARD BELIN 66600 RIVESALTES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:1",
+   "enseigne": "LFTG (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "MILLAS"
+   ],
+   "adresses": [
+    "6 RUE EMILE ZOLA 66170 MILLAS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:2",
+   "enseigne": "BRUMA (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "CALCE"
+   ],
+   "adresses": [
+    "6 ROUTE D'ESTAGEL 66600 CALCE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:792510901",
+   "enseigne": "BRASSERIE RULL",
+   "dep": "66",
+   "communes": [
+    "LE SOLER"
+   ],
+   "adresses": [
+    "LIEU DIT SAINTE EUGENIE 916 ROUTE DE PERPIGNAN 66270 LE SOLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:919707158",
+   "enseigne": "ROSA",
+   "dep": "66",
+   "communes": [
+    "PERPIGNAN"
+   ],
+   "adresses": [
+    "11 RUE DUCHALMEAU 66000 PERPIGNAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:853876332",
+   "enseigne": "L'ALBERICAINE",
+   "dep": "66",
+   "communes": [
+    "LE BOULOU"
+   ],
+   "adresses": [
+    "4 IMPASSE DE LA PENSEE 66160 LE BOULOU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:103536355",
+   "enseigne": "BRASSERIE DES BLAIREAUX",
+   "dep": "66",
+   "communes": [
+    "LE SOLER"
+   ],
+   "adresses": [
+    "3 RUE PAUL VALERY 66270 LE SOLER"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:898348057",
+   "enseigne": "XIMAROT",
+   "dep": "66",
+   "communes": [
+    "SAINT-LAURENT-DE-LA-SALANQUE"
+   ],
+   "adresses": [
+    "12 BOULEVARD NICOLAS CANAL 66250 SAINT-LAURENT-DE-LA-SALANQUE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:880276456",
+   "enseigne": "BRASSERIE DE PRATS DE MOLLO",
+   "dep": "66",
+   "communes": [
+    "PRATS-DE-MOLLO-LA-PRESTE"
+   ],
+   "adresses": [
+    "9 AVENUE DU HAUT VALLESPIR 66230 PRATS-DE-MOLLO-LA-PRESTE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:919060897",
+   "enseigne": "TVB",
+   "dep": "66",
+   "communes": [
+    "SAINT-PAUL-DE-FENOUILLET"
+   ],
+   "adresses": [
+    "ZAC LE REAL RUE DE LA FOU 66220 SAINT-PAUL-DE-FENOUILLET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:913023669",
+   "enseigne": "GUIRLIGUIGUI",
+   "dep": "66",
+   "communes": [
+    "FILLOLS"
+   ],
+   "adresses": [
+    "4 CAMI VELL DE CORNEILLA 66820 FILLOLS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:5",
+   "enseigne": "MICRO BRASSERIE DES ASPRES (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "CASTELNOU"
+   ],
+   "adresses": [
+    "LIEU DIT L'AUXINEILL 10 VIEUX CHEMIN DE CAMELAS 66300 CASTELNOU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "LA TANC (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "RODES"
+   ],
+   "adresses": [
+    "15 CAMI RAL 66320 RODES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:8",
+   "enseigne": "BRASSERIE L'ATELIER GABRIEL (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "BAGES"
+   ],
+   "adresses": [
+    "33 RUE DES EGLANTIERS 66670 BAGES"
+   ],
+   "osm": [
+    "node/9525437312"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:502195647",
+   "enseigne": "BRASSERIE ARTISANALE DES ALBERES",
+   "dep": "66",
+   "communes": [
+    "CERET"
+   ],
+   "adresses": [
+    "LIEUDIT CHEMIN DE SAINTE MARGUERITE 16 ROUTE DE SAINT JEAN 66400 CERET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:993142835",
+   "enseigne": "BRASSERIE DU HAUT CANTON",
+   "dep": "66",
+   "communes": [
+    "LES ANGLES"
+   ],
+   "adresses": [
+    "7 B RUE DE JOUSVILLE 66210 LES ANGLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:9",
+   "enseigne": "BRASSERIE ARTISANALE L'ESPANTE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "BROUILLA"
+   ],
+   "adresses": [
+    "2 RUE DES ECOLES 66620 BROUILLA"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:752570978",
+   "enseigne": "MIL.LENARI",
+   "dep": "66",
+   "communes": [
+    "CANOHES"
+   ],
+   "adresses": [
+    "2 AVENUE CAMI DE LA VILA 66680 CANOHES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897786174",
+   "enseigne": "BRASSERIE DU CHOUCAS",
+   "dep": "66",
+   "communes": [
+    "EGAT"
+   ],
+   "adresses": [
+    "6 ROUTE DE LAS DEVESE 66120 EGAT"
+   ],
+   "osm": [
+    "node/13191307389"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:907816391",
+   "enseigne": "AMICALE DES PERSONNELS  DU CENTRE DE VOL EN MONTAGNE",
+   "dep": "66",
+   "communes": [
+    "SAINTE-LEOCADIE"
+   ],
+   "adresses": [
+    "COL DE LLOUS RN 116 66800 SAINTE-LEOCADIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:812908283",
+   "enseigne": "BRASSERIE SENGLAR",
+   "dep": "66",
+   "communes": [
+    "MANTET"
+   ],
+   "adresses": [
+    "LE VILLAGE 66360 MANTET"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:11",
+   "enseigne": "LA FRESCA (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "66",
+   "communes": [
+    "PERPIGNAN"
+   ],
+   "adresses": [
+    "LOCAL RDC DROITE 15 RUE DE LA BARRE 66000 PERPIGNAN"
+   ],
+   "osm": [
+    "node/13907898472"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10820687296",
+   "enseigne": "la brasserie au bord du lit",
+   "dep": "66",
+   "communes": [
+    "Fillols"
+   ],
+   "adresses": [
+    "4bis Camí Vell de Corneilla, 66820 Fillols"
+   ],
+   "osm": [
+    "node/10820687296"
+   ],
+   "site": "https://www.facebook.com/Brasserieauborddulit",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/10923709679",
+   "enseigne": "Brasserie du Château (Peyrestortes)",
+   "dep": "66",
+   "communes": [
+    "Peyrestortes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/10923709679"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/11476800352",
+   "enseigne": "Geck Eau",
+   "dep": "66",
+   "communes": [
+    "Vingrau"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/11476800352"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12625778905",
+   "enseigne": "Cap d'Ona",
+   "dep": "66",
+   "communes": [
+    "Céret"
+   ],
+   "adresses": [
+    "16 Route de Saint Jean, Céret"
+   ],
+   "osm": [
+    "node/12625778905"
+   ],
+   "site": "https://www.cap-dona.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/12878979338",
+   "enseigne": "Brasserie Prats-de-Mollo Senyor Voltor",
+   "dep": "66",
+   "communes": [
+    "Prats-de-Mollo-la-Preste"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/12878979338"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13330306917",
+   "enseigne": "Brasserie de l'Agly",
+   "dep": "66",
+   "communes": [
+    "Espira-de-l'Agly"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13330306917"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13372954195",
+   "enseigne": "La brasserie de l'Ours",
+   "dep": "66",
+   "communes": [
+    "Prats-de-Mollo-la-Preste"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13372954195"
+   ],
+   "site": "https://labrasseriedelours.fr/",
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/4713197789",
+   "enseigne": "blaoblank",
+   "dep": "66",
+   "communes": [
+    "Maureillas"
+   ],
+   "adresses": [
+    "11 Rue del Trouil, 66480 Maureillas"
+   ],
+   "osm": [
+    "node/4713197789"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/5841669785",
+   "enseigne": "Brasserie Artisanale La Vagabonde",
+   "dep": "66",
+   "communes": [
+    "Saint-Paul-de-Fenouillet"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/5841669785"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9525473517",
+   "enseigne": "Brasserie Rull",
+   "dep": "66",
+   "communes": [
+    "Villeneuve-la-Rivière"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9525473517"
+   ],
+   "site": "https://www.biereducanigou.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/9525487051",
+   "enseigne": "Le Traquenard",
+   "dep": "66",
+   "communes": [
+    "Céret"
+   ],
+   "adresses": [
+    "Allée du Château d'Aubiry, 66400 Céret"
+   ],
+   "osm": [
+    "node/9525487051"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9527146337",
+   "enseigne": "L'Albéricaine",
+   "dep": "66",
+   "communes": [
+    "Le Perthus"
+   ],
+   "adresses": [
+    "22 Avenue de France, 66480 Le Perthus"
+   ],
+   "osm": [
+    "node/9527146337"
+   ],
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "node/9847107383",
+   "enseigne": "Brasserie Tôa",
+   "dep": "66",
+   "communes": [
+    "Céret"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9847107383"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/159806858",
+   "enseigne": "L'alzina",
+   "dep": "66",
+   "communes": [
+    "Marquixanes"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/159806858"
+   ],
+   "site": "http://www.biere-alzina.com/",
+   "statut": "nouveau"
+  }
+ ]
+]

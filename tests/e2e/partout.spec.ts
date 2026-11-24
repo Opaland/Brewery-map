@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { DONNEES, NOUVEAUTES } from '../../src/core/nouveautes'
 import { attendreGarde } from './garde'
 import { expect, test } from './position'
-import { choisirCommune, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
+import { choisirCommune, communeSeulementOsm, sansTuiles, versLaCarte, ouvrirFiltres } from './reseau'
 
 /**
  * S21 — retours de Cédric du 16/10 : « Je veux pouvoir chercher partout »,
@@ -26,14 +26,15 @@ test.describe('chercher une commune de départ, partout en France', () => {
     expect(demandes.some((p) => p.endsWith('/communes/69.json'))).toBe(true)
   })
 
-  test('toute la France : depuis Perpignan (66), des brasseries, à confirmer (S25)', async ({ page }) => {
+  test('toute la France : loin de toute fiche, des brasseries, à confirmer (S25)', async ({ page }) => {
     // Le cas de Cédric du 16/10 : « Aucune brasserie à moins de 30 km de
-    // Porcelette ». Depuis S25, la couche OpenStreetMap répond.
-    // Porcelette a des fiches depuis S346 : le test passe à Perpignan, dans la dernière région
-    // de la campagne (S348). À déplacer quand l'Occitanie entrera.
+    // Porcelette ». Depuis S25, la couche OpenStreetMap répond. La commune
+    // est calculée sur les données (`communeSeulementOsm`) : Porcelette puis
+    // Perpignan ont reçu des fiches, et le test rougissait à chaque fois.
+    const { texte, libelle } = communeSeulementOsm()
     await page.goto('/')
-    await choisirCommune(page, 'perpignan', 'Perpignan (66)')
-    await expect(page.getByTestId('compte')).toContainText('brasseries à moins de 30 km de Perpignan (66)')
+    await choisirCommune(page, texte, libelle)
+    await expect(page.getByTestId('compte')).toContainText(`brasseries à moins de 30 km de ${libelle}`)
     await page.locator('button.ligne').first().click()
     const fiche = page.getByTestId('fiche')
     await expect(fiche.getByTestId('fiche-source').getByRole('link')).toHaveText('openstreetmap.org (nouvel onglet)')
@@ -48,13 +49,14 @@ test.describe('chercher une commune de départ, partout en France', () => {
   test('décocher la couche OpenStreetMap la retire, et le choix est gardé (revue persona S25)', async ({
     page,
   }) => {
+    const { texte, libelle } = communeSeulementOsm()
     await page.goto('/')
-    await choisirCommune(page, 'perpignan', 'Perpignan (66)')
+    await choisirCommune(page, texte, libelle)
     await expect(page.getByTestId('badge-osm').first()).toBeVisible()
     await ouvrirFiltres(page)
     await page.getByTestId('avec-osm').uncheck()
     await expect(page.getByTestId('badge-osm')).toHaveCount(0)
-    await expect(page.getByTestId('compte')).toHaveText('Aucune brasserie à moins de 30 km de Perpignan (66).')
+    await expect(page.getByTestId('compte')).toHaveText(`Aucune brasserie à moins de 30 km de ${libelle}.`)
     await attendreGarde(page, { avecOsm: false })
     await page.reload()
     await expect(page.getByTestId('avec-osm')).not.toBeChecked()

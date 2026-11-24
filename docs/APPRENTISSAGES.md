@@ -81,11 +81,19 @@ pourquoi.
   estivale » sur l'office). Un vendredi d'été à 20 h, la grille dit « fermé »
   sans réserve (persona Hugo). Parade : quand une autre source donne des heures
   plus larges pour les mêmes jours, ne pas structurer ; tout dire dans la note.
+- **Une page d'office peut reprendre l'avis d'un visiteur** (24/11, Brasserie de
+  Prats : « Félicitations à ses créateurs », « excellent endroit pour
+  déguster »). Ce n'est pas une description du lieu : ne pas en tirer de
+  catégorie ; la raison d'écart dit ce qui manque, pas « existence non établie ».
+- **« A venir » après un service** (24/11, brewpub de la Brasserie Pyrénéiste)
+  peut dire qu'il n'est pas encore ouvert : catégorie 0 tant qu'une autre source
+  ne le dit pas ouvert.
 - **Un test e2e peut supposer qu'une commune n'a pas de brasserie** (23/11 :
   « rien dans le rayon, Mende 10 km » rougit quand la Lozère entre). Parade :
   avant d'appliquer un département, `grep` ses communes dans `tests/e2e/` ;
   une commune de remplacement se choisit en calculant sa distance à toutes
-  les fiches et à tous les points OSM, pas au jugé.
+  les fiches et à tous les points OSM, pas au jugé ; mieux, le test la
+  calcule lui-même (`communeSeulementOsm`, 24/11).
 - **Une PR a deux runs** : attendre les deux lignes `porte` et les deux
   `visuel` avant de merger (§7bis). `navigateurs (firefox)` et
   `navigateurs (webkit)` sont informatifs et rouges partout (#250).

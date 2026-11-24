@@ -35096,5 +35096,172 @@
     "verifieLe": "2026-11-23"
    }
   ]
+ },
+ {
+  "n": "Cap d'Ona",
+  "c": "Céret",
+  "d": "66",
+  "lat": 42.49267,
+  "lon": 2.75694,
+  "km": 388.1,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie et distillerie de Céret, avec un bar et une boutique, d'après son site ; visites de la brasserie sur réservation. Une seconde boutique-bar est à Argelès-sur-Mer.",
+  "addr": "16 route de Saint-Jean, 66400 Céret",
+  "src": "https://www.cap-dona.com/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-24",
+  "contact": {
+   "tel": "04 68 95 79 09",
+   "site": "https://www.cap-dona.com/",
+   "source": "https://www.cap-dona.com/",
+   "verifieLe": "2026-11-24"
+  },
+  "horaires": [
+   {
+    "nature": "accueil",
+    "lun": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:30",
+      "20:00"
+     ]
+    ],
+    "mar": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:30",
+      "20:00"
+     ]
+    ],
+    "mer": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:30",
+      "20:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "ven": [
+     [
+      "10:00",
+      "12:30"
+     ],
+     [
+      "15:30",
+      "23:00"
+     ]
+    ],
+    "sam": [
+     [
+      "10:00",
+      "13:00"
+     ],
+     [
+      "15:30",
+      "22:00"
+     ]
+    ],
+    "dim": [],
+    "remarque": "Horaires du moment, d'après le site.",
+    "source": "https://www.cap-dona.com/",
+    "verifieLe": "2026-11-24"
+   }
+  ]
+ },
+ {
+  "n": "L'Atelier Gabriel",
+  "c": "Bages",
+  "d": "66",
+  "lat": 42.60271,
+  "lon": 2.8902,
+  "km": 372.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Micro-brasserie artisanale de Bages : dégustation et visite de la brasserie, d'après l'office de tourisme Pyrénées Méditerranée. Fermée hors saison, d'octobre à fin juin ; téléphoner avant de se déplacer. La vente n'est pas dite.",
+  "addr": "33 rue des Églantiers, 66670 Bages",
+  "src": "https://www.tourisme-pyrenees-mediterranee.com/fr/vin-produits-locaux/latelier-gabriel/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-24"
+ },
+ {
+  "n": "Brasserie Rull (La Bière du Canigou)",
+  "c": "Le Soler",
+  "d": "66",
+  "lat": 42.67935,
+  "lon": 2.79893,
+  "km": 367.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de la Bière du Canigou, au Soler : une boutique de bières et de coffrets, et un pub qui sert les bières pression de la brasserie, d'après son site. Pub de mars à octobre le jeudi de 17 h à 22 h et le vendredi de 17 h à 1 h ; d'octobre à mars, jeudi et vendredi de 17 h à 20 h (les deux saisons du site se recouvrent en octobre). Le pied de la même page donne d'autres heures (du lundi au jeudi de 10 h à 18 h, le vendredi de 10 h à 2 h) ; le samedi n'est pas écrit.",
+  "addr": "Route de Perpignan, 66270 Le Soler",
+  "src": "https://www.biereducanigou.fr/la-boutique-amp-le-pub/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-24",
+  "contact": {
+   "tel": "06 67 36 28 68",
+   "site": "https://www.biereducanigou.fr/",
+   "source": "https://www.biereducanigou.fr/la-boutique-amp-le-pub/",
+   "verifieLe": "2026-11-24"
+  }
+ },
+ {
+  "n": "Brasserie La Canya",
+  "c": "Saint-André",
+  "d": "66",
+  "lat": 42.55015,
+  "lon": 2.9943,
+  "km": 374.7,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de bières et de spiritueux bio, avec un bar et une boutique : on y déguste les produits brassés sur place, avec de la charcuterie, d'après son site. Ouverte en ce moment de 15 h à 18 h 30, sans jours précisés ; la page contact donne aussi 10 h 30 – 12 h 30, et une autre ligne 14 h – 20 h. Visite gratuite le samedi à 17 h sur rendez-vous, de mai à septembre. Téléphone publié par la brasserie : 06 70 07 73 61.",
+  "addr": "7 parc d'activités Albères Méditerranée, 66690 Saint-André",
+  "src": "https://brasserielacanya.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-24"
+ },
+ {
+  "n": "Brasserie Pyrénéiste",
+  "c": "Palau-de-Cerdagne",
+  "d": "66",
+  "lat": 42.41531,
+  "lon": 1.96873,
+  "km": 425.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Cerdagne : bières en bouteilles de 33 cl, en vrac dans des bouteilles consignées d'un litre, et en fûts, d'après son site. Le site annonce aussi un brewpub, café et bar, ouvert du mardi au samedi (heures non dites), suivi de « A venir » : il n'est pas sûr qu'il soit déjà ouvert. Téléphoner avant de venir.",
+  "addr": "15 rue du Marquis de Tilière, 66340 Palau-de-Cerdagne",
+  "src": "https://pyreneiste.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-24",
+  "contact": {
+   "tel": "06 40 28 85 18",
+   "site": "https://pyreneiste.com",
+   "source": "https://pyreneiste.com",
+   "verifieLe": "2026-11-24"
+  }
  }
 ]

@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:792510901",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Rull (La Bière du Canigou)",
+   "c": "Le Soler",
+   "d": "66",
+   "lat": 42.67935,
+   "lon": 2.79893,
+   "km": 367.7,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie de la Bière du Canigou, au Soler : une boutique de bières et de coffrets, et un pub qui sert les bières pression de la brasserie, d'après son site. Pub de mars à octobre le jeudi de 17 h à 22 h et le vendredi de 17 h à 1 h ; d'octobre à mars, jeudi et vendredi de 17 h à 20 h (les deux saisons du site se recouvrent en octobre). Le pied de la même page donne d'autres heures (du lundi au jeudi de 10 h à 18 h, le vendredi de 10 h à 2 h) ; le samedi n'est pas écrit.",
+   "addr": "Route de Perpignan, 66270 Le Soler",
+   "src": "https://www.biereducanigou.fr/la-boutique-amp-le-pub/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 67 36 28 68",
+    "site": "https://www.biereducanigou.fr/",
+    "source": "https://www.biereducanigou.fr/la-boutique-amp-le-pub/",
+    "verifieLe": "2026-11-24"
+   }
+  },
+  "verifieLe": "2026-11-24",
+  "sources": [
+   "https://www.biereducanigou.fr/la-boutique-amp-le-pub/",
+   "https://data.geopf.fr/geocodage/search?q=Le+Soler&type=municipality&limit=5"
+  ],
+  "extrait": "Notre espace propose des bières pression tirées directement de notre brasserie",
+  "choix": "Site officiel relu sur la page brute le 24/11. Catégorie 1 en confiance moyenne : boutique et pub sont écrits, « à emporter » non. Les deux saisons du pub se chevauchent en octobre, et le pied de page donne d'autres heures : rien n'est structuré, les heures sont dans la note. Seul numéro publié, un portable (règle du 21/10). Le point OSM de Villeneuve-la-Rivière porte le même site, mais le site ne cite que Le Soler."
+ }
+}
