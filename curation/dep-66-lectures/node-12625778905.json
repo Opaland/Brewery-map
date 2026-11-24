@@ -1,0 +1,102 @@
+{
+ "candidat": "node/12625778905",
+ "ajout": {
+  "fiche": {
+   "n": "Cap d'Ona",
+   "c": "Céret",
+   "d": "66",
+   "lat": 42.49267,
+   "lon": 2.75694,
+   "km": 388.1,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie et distillerie de Céret, avec un bar et une boutique, d'après son site ; visites de la brasserie sur réservation. Une seconde boutique-bar est à Argelès-sur-Mer.",
+   "addr": "16 route de Saint-Jean, 66400 Céret",
+   "src": "https://www.cap-dona.com/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "04 68 95 79 09",
+    "site": "https://www.cap-dona.com/",
+    "source": "https://www.cap-dona.com/",
+    "verifieLe": "2026-11-24"
+   },
+   "horaires": [
+    {
+     "nature": "accueil",
+     "source": "https://www.cap-dona.com/",
+     "lun": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:30",
+       "20:00"
+      ]
+     ],
+     "mar": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:30",
+       "20:00"
+      ]
+     ],
+     "mer": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:30",
+       "20:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:30",
+       "22:00"
+      ]
+     ],
+     "ven": [
+      [
+       "10:00",
+       "12:30"
+      ],
+      [
+       "15:30",
+       "23:00"
+      ]
+     ],
+     "sam": [
+      [
+       "10:00",
+       "13:00"
+      ],
+      [
+       "15:30",
+       "22:00"
+      ]
+     ],
+     "dim": [],
+     "remarque": "Horaires du moment, d'après le site.",
+     "verifieLe": "2026-11-24"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-24",
+  "sources": [
+   "https://www.cap-dona.com/",
+   "https://data.geopf.fr/geocodage/search?q=C%C3%A9ret&type=municipality&limit=5"
+  ],
+  "extrait": "Brasserie-Distillerie CERET et Bar Boutique",
+  "choix": "Site officiel relu sur la page brute le 24/11. Catégorie 1 en confiance moyenne : bar et boutique sont écrits pour Céret, sans dire ce que vend la boutique. Les heures sont les « horaires du moment » de Céret (« FERMETURE Le Dimanche ») : remarque. Fixe publié par la brasserie. L'entreprise SIRENE « Brasserie artisanale des Albères » est à la même adresse."
+ }
+}
