@@ -8,9 +8,9 @@
    "lat": 42.41531,
    "lon": 1.96873,
    "km": 425.3,
-   "cat": 1,
-   "conf": "moyenne",
-   "note": "Brasserie de Cerdagne, avec un brewpub, café et bar, ouvert du mardi au samedi (heures non dites), d'après son site ; bières en bouteilles de 33 cl, en vrac dans des bouteilles consignées d'un litre, et en fûts.",
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Cerdagne : bières en bouteilles de 33 cl, en vrac dans des bouteilles consignées d'un litre, et en fûts, d'après son site. Le site annonce aussi un brewpub, café et bar, ouvert du mardi au samedi (heures non dites), suivi de « A venir » : il n'est pas sûr qu'il soit déjà ouvert. Téléphoner avant de venir.",
    "addr": "15 rue du Marquis de Tilière, 66340 Palau-de-Cerdagne",
    "src": "https://pyreneiste.com",
    "coordPrecision": "address",
@@ -28,6 +28,6 @@
    "https://data.geopf.fr/geocodage/search?q=15+rue+du+Marquis+de+Tili%C3%A8re%2C+66340+Palau-de-Cerdagne&limit=5"
   ],
   "extrait": "Bières Bouteilles 33cl, avec des nouveautés régulièrement",
-  "choix": "Site officiel relu sur la page brute le 24/11 (« brewpub- CAFE-BAR », « Ouverture du Mardi au Samedi. », bouteilles et vrac consigné). Catégorie 1 en confiance moyenne : « sur place » et « à emporter » ne sont pas écrits en ces mots. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10). Les jours sans heures ne sont pas structurés. Les noms écrits sur la page ne sont pas recopiés."
+  "choix": "Site officiel relu sur la page brute le 24/11 (« brewpub- CAFE-BAR », « Ouverture du Mardi au Samedi. », bouteilles et vrac consigné). Catégorie 0 (persona Cédric, 24/11) : le bloc du brewpub se termine par « A venir..... », qui peut dire qu'il n'est pas encore ouvert ; « sur place » et « à emporter » ne sont pas écrits. Deux portables publiés par la brasserie, aucun fixe : le premier est repris (règle du 21/10). Les jours sans heures ne sont pas structurés. Les noms écrits sur la page ne sont pas recopiés."
  }
 }
