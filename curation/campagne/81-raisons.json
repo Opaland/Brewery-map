@@ -3,5 +3,20 @@
  "personne:2": "entreprise sans nom ni adresse : rien à chercher",
  "personne:3": "entreprise sans nom ni adresse : rien à chercher",
  "personne:5": "entreprise sans nom ni adresse : rien à chercher",
- "personne:6": "entreprise sans nom ni adresse : rien à chercher"
+ "personne:6": "entreprise sans nom ni adresse : rien à chercher",
+ "sirene:932131576": "aucune page ne cite ce nom : existence non établie",
+ "sirene:934849670": "aucune page ne cite ce nom : existence non établie",
+ "sirene:953257094": "seule une fiche d'office le décrit comme un bar-restaurant ; rien ne dit que la bière y est brassée : existence de la brasserie non établie",
+ "sirene:852471135": "aucune page ne cite ce nom : existence non établie",
+ "sirene:987854114": "seuls des registres et des annuaires la citent : existence non établie",
+ "sirene:894708817": "seuls des registres la citent : existence non établie",
+ "personne:7": "aucune brasserie trouvée à cette adresse : existence non établie",
+ "node/13108769750": "même brasserie que sirene:813181674 (Brasserie Margot), dont le site la place à Albi",
+ "node/14286890801": "même brasserie que sirene:981899230 (La Travée), dont le site la place à Albi",
+ "sirene:899129803": "aucune page ne cite ce nom : existence non établie",
+ "sirene:893717728": "seul le registre SIRENE la cite : existence non établie",
+ "sirene:904732237": "aucune page ne cite ce nom : existence non établie",
+ "sirene:929103471": "aucune page ne cite ce nom : existence non établie",
+ "way/368753383": "le site de la brasserie refuse la lecture automatique (403) : à relancer",
+ "sirene:994736791": "le site ne dit que « Fûts et tireuses » ; les fiches de l'office ne s'ouvrent pas : à relancer"
 }
