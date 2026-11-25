@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:949565402",
+ "ajout": {
+  "fiche": {
+   "n": "Microbrasserie La Planque",
+   "c": "Montredon-Labessonnié",
+   "d": "81",
+   "lat": 43.72705,
+   "lon": 2.33531,
+   "km": 288.9,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie ouverte le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche invite à venir, sans heures ni vente dites.",
+   "addr": "1120 route de Saint-Pierre-de-Trivisy, 81360 Montredon-Labessonnié",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-la-planque-montredon-labessonnie_TFOSITRA2_DEG_6865768/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-la-planque-montredon-labessonnie_TFOSITRA2_DEG_6865768/",
+   "https://data.geopf.fr/geocodage/search?q=1120+route+de+Saint-Pierre-de-Trivisy%2C+81360+Montredon-Labessonni%C3%A9&limit=5"
+  ],
+  "extrait": "le 15 août 2023, notre microbrasserie a vu le jour.",
+  "choix": "Fiche de l'office relue sur la page brute le 25/11. Catégorie 0 : ni vente ni horaires écrits (la fiche annonce des horaires « ci-dessous » qu'elle ne donne pas). Deux portables publiés par l'office seulement : non repris."
+ }
+}

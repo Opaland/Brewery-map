@@ -1,0 +1,50 @@
+{
+ "candidat": "node/13817936452",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Tanis",
+   "c": "Garrigues",
+   "d": "81",
+   "lat": 43.7188,
+   "lon": 1.71231,
+   "km": 324.2,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie.",
+   "addr": "522 route de Préliès, 81500 Garrigues",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blonde"
+    },
+    {
+     "type": "ipa"
+    },
+    {
+     "type": "ambree"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "blanche"
+    }
+   ],
+   "contact": {
+    "tel": "06 33 82 56 59",
+    "site": "https://tanis-paysanbrasseur.fr/",
+    "source": "https://tanis-paysanbrasseur.fr/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/",
+   "https://tanis-paysanbrasseur.fr/",
+   "https://data.geopf.fr/geocodage/search?q=522+route+de+Pr%C3%A9li%C3%A8s%2C+81500+Garrigues&limit=5"
+  ],
+  "extrait": "Nous les vendons localement, sur place à la brasserie.",
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés."
+ }
+}

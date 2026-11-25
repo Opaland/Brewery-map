@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:488092941",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Oxit",
+   "c": "Beauvais-sur-Tescou",
+   "d": "81",
+   "lat": 43.91331,
+   "lon": 1.57012,
+   "km": 318.5,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis » ; sur rendez-vous pour les autres créneaux. Téléphone publié par la brasserie : 05 63 40 81 01.",
+   "addr": "1199 route d'Albi, 81630 Beauvais-sur-Tescou",
+   "src": "https://www.oxit.fr/notre-boutique/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://www.oxit.fr/",
+    "source": "https://www.oxit.fr/notre-boutique/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.oxit.fr/notre-boutique/",
+   "https://data.geopf.fr/geocodage/search?q=1199+route+d%27Albi%2C+81630+Beauvais-sur-Tescou&limit=5"
+  ],
+  "extrait": "Un espace de vente et de dégustation vous accueille",
+  "choix": "Site officiel relu sur la page brute le 25/11. Catégorie 1 en confiance moyenne : vente, dégustation et bar sont écrits, « à emporter » non. Les heures se contredisent sur le lundi : rien n'est structuré. Le fixe de la brasserie est écrit avec des points, que le contrôle ne relit pas : il passe dans la note."
+ }
+}
