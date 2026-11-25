@@ -88,6 +88,13 @@ pourquoi.
 - **« A venir » après un service** (24/11, brewpub de la Brasserie Pyrénéiste)
   peut dire qu'il n'est pas encore ouvert : catégorie 0 tant qu'une autre source
   ne le dit pas ouvert.
+- **Un agent a encore lu le paquet voisin** (25/11, Tarn : les lecteurs des paquets 4
+  et 5 ont lu les paquets 3 et 4 ; le 5 n'a pas été lu). Parade : comparer les
+  clés que chaque agent liste aux clés de son paquet dès son retour, et relancer
+  un lecteur pour le paquet oublié.
+- **Le menu d'une page d'office n'est pas sa fiche** (25/11, Burtonian : « savoir-faire »
+  pris dans l'entrée de menu « Entreprises et savoir-faire » est devenu « visites »).
+  Parade : ne citer que le bloc « À propos » et la liste de la fiche.
 - **Un test e2e peut supposer qu'une commune n'a pas de brasserie** (23/11 :
   « rien dans le rayon, Mende 10 km » rougit quand la Lozère entre). Parade :
   avant d'appliquer un département, `grep` ses communes dans `tests/e2e/` ;

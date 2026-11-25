@@ -12,7 +12,7 @@
     "km": 324.2,
     "cat": 2,
     "conf": "moyenne",
-    "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie.",
+    "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie. Le site annonce aussi, dans un billet d'août 2025, une soirée bière pression et petite restauration le deuxième vendredi de chaque mois.",
     "addr": "522 route de Préliès, 81500 Garrigues",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/",
     "coordPrecision": "address",
@@ -47,7 +47,7 @@
     "https://data.geopf.fr/geocodage/search?q=522+route+de+Pr%C3%A9li%C3%A8s%2C+81500+Garrigues&limit=5"
    ],
    "extrait": "Nous les vendons localement, sur place à la brasserie.",
-   "choix": "Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés."
+   "choix": "Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés. L'office écrit « 640 Route de Préliès », le site « 522 » : l'adresse du site est retenue."
   },
   {
    "fiche": {
@@ -83,7 +83,7 @@
     "km": 318.5,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis » ; sur rendez-vous pour les autres créneaux. Téléphone publié par la brasserie : 05 63 40 81 01.",
+    "note": "Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis et les jours fériés » ; sur rendez-vous pour les autres créneaux. Les heures de l'espace bar ne sont pas écrites. Téléphone publié par la brasserie : 05 63 40 81 01.",
     "addr": "1199 route d'Albi, 81630 Beauvais-sur-Tescou",
     "src": "https://www.oxit.fr/notre-boutique/",
     "coordPrecision": "address",
@@ -184,7 +184,7 @@
     "km": 298.6,
     "cat": 1,
     "conf": "moyenne",
-    "note": "Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site ; l'office de tourisme donne la boutique de 17 h à 19 h, avec possibilité de dégustation.",
+    "note": "Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site, sans heures ; l'office de tourisme donne la boutique le mercredi de 17 h à 19 h, avec possibilité de dégustation. Les heures du bar ne sont pas écrites.",
     "addr": "328 chemin de Laroque, 81440 Peyregoux",
     "src": "https://sabotagecraftbeer.com/",
     "coordPrecision": "address",
@@ -193,29 +193,15 @@
      "site": "https://sabotagecraftbeer.com/",
      "source": "https://sabotagecraftbeer.com/",
      "verifieLe": "2026-11-25"
-    },
-    "horaires": [
-     {
-      "nature": "vente",
-      "mer": [
-       [
-        "17:00",
-        "19:00"
-       ]
-      ],
-      "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/sabotage-craftbeer-peyregoux_TFOSITRA2_DEG_7251534/",
-      "verifieLe": "2026-11-25"
-     }
-    ]
+    }
    },
    "verifieLe": "2026-11-25",
    "sources": [
     "https://sabotagecraftbeer.com/",
-    "https://www.tourisme-occitanie.com/fr/fiche/degustation/sabotage-craftbeer-peyregoux_TFOSITRA2_DEG_7251534/",
     "https://data.geopf.fr/geocodage/search?q=328+chemin+de+Laroque%2C+81440+Peyregoux&limit=5"
    ],
    "extrait": "Retrouvez nos produits à la ferme, tous les mercredis de l",
-   "choix": "Site officiel et fiche de l'office relus sur la page brute le 25/11. Deux lecteurs ont lu ce paquet ; catégorie 1 en confiance moyenne : le site écrit « espace Bar-Boutique-Restauration », l'office la vente à la boutique et la dégustation. Heure du mercredi tirée de l'office. Le seul numéro est un portable publié par l'office : non repris."
+   "choix": "Site officiel et fiche de l'office relus sur la page brute le 25/11. Deux lecteurs ont lu ce paquet ; catégorie 1 en confiance moyenne : le site écrit « espace Bar-Boutique-Restauration », l'office la vente à la boutique et la dégustation. Rien n'est structuré : une grille au mercredi 17 h – 19 h, tirée de l'office pour la boutique, dirait « fermé » au bar le mercredi soir (persona Cédric, 25/11). Le seul numéro est un portable publié par l'office : non repris."
   },
   {
    "fiche": {
@@ -227,7 +213,7 @@
     "km": 303.9,
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie de Castres aux recettes d'ales anglaises : ses bières s'achètent à la brasserie sur rendez-vous, et chez des cavistes de Castres et de Mazamet, d'après l'office de tourisme d'Occitanie. Visites de savoir-faire annoncées par l'office.",
+    "note": "Brasserie de Castres aux recettes d'ales anglaises : ses bières s'achètent à la brasserie sur rendez-vous, et chez des cavistes de Castres et de Mazamet, d'après l'office de tourisme d'Occitanie.",
     "addr": "21 impasse de Sicardens Bas, 81100 Castres",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-burtonian-beers-castres_TFOSITRA2_DEG_5706930/",
     "coordPrecision": "address",
@@ -358,7 +344,7 @@
     "km": 288.9,
     "cat": 0,
     "conf": "",
-    "note": "Microbrasserie ouverte le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche invite à venir, sans heures ni vente dites.",
+    "note": "Microbrasserie née le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche cite dégustation de produits et concerts, mais dit le lieu « non visitable ». Ni heures ni vente dites.",
     "addr": "1120 route de Saint-Pierre-de-Trivisy, 81360 Montredon-Labessonnié",
     "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-la-planque-montredon-labessonnie_TFOSITRA2_DEG_6865768/",
     "coordPrecision": "address",

@@ -35263,5 +35263,301 @@
    "source": "https://pyreneiste.com",
    "verifieLe": "2026-11-24"
   }
+ },
+ {
+  "n": "Brasserie Tanis",
+  "c": "Garrigues",
+  "d": "81",
+  "lat": 43.7188,
+  "lon": 1.71231,
+  "km": 324.2,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie. Le site annonce aussi, dans un billet d'août 2025, une soirée bière pression et petite restauration le deuxième vendredi de chaque mois.",
+  "addr": "522 route de Préliès, 81500 Garrigues",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blonde"
+   },
+   {
+    "type": "ipa"
+   },
+   {
+    "type": "ambree"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "blanche"
+   }
+  ],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "tel": "06 33 82 56 59",
+   "site": "https://tanis-paysanbrasseur.fr/",
+   "source": "https://tanis-paysanbrasseur.fr/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "Brasserie du Sidobre",
+  "c": "Le Bez",
+  "d": "81",
+  "lat": 43.632,
+  "lon": 2.41179,
+  "km": 293.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Petite brasserie familiale du Sidobre, depuis 2017 : vente directe à la brasserie, en bouteilles ou en fûts, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire sur place.",
+  "addr": "39 route de Cabroulet, Vialavert, 81260 Le Bez",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-sidobre-le-bez_TFOSITRA2_DEG_6037255/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25"
+ },
+ {
+  "n": "Brasserie Oxit",
+  "c": "Beauvais-sur-Tescou",
+  "d": "81",
+  "lat": 43.91331,
+  "lon": 1.57012,
+  "km": 318.5,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis et les jours fériés » ; sur rendez-vous pour les autres créneaux. Les heures de l'espace bar ne sont pas écrites. Téléphone publié par la brasserie : 05 63 40 81 01.",
+  "addr": "1199 route d'Albi, 81630 Beauvais-sur-Tescou",
+  "src": "https://www.oxit.fr/notre-boutique/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "site": "https://www.oxit.fr/",
+   "source": "https://www.oxit.fr/notre-boutique/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "Brasserie Margot",
+  "c": "Albi",
+  "d": "81",
+  "lat": 43.93612,
+  "lon": 2.19451,
+  "km": 279.5,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie d'Albi qui fournit les caves à bières, les caves à vin et des épiceries de produits locaux, d'après son site ; on la trouve aussi sur des marchés. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+  "addr": "15 rue Jean le Rond d'Alembert, 81000 Albi",
+  "src": "https://brasserie-margot-albi.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "site": "https://brasserie-margot-albi.fr/",
+   "source": "https://brasserie-margot-albi.fr/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "Eighty One Brewing",
+  "c": "Soual",
+  "d": "81",
+  "lat": 43.56113,
+  "lon": 2.1184,
+  "km": 314.2,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie de Soual, dont le site présente les bières, Lager, Wheat IPA et Triple entre autres. Ce qu'on peut faire à la brasserie n'y est pas écrit.",
+  "addr": "662 chemin de Soulet, 81580 Soual",
+  "src": "https://eightyonebrewing.fr/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "lager",
+    "libelle": "Lager"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Wheat IPA"
+   },
+   {
+    "type": "autre",
+    "libelle": "Triple"
+   }
+  ],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "tel": "06 89 28 71 91",
+   "site": "https://eightyonebrewing.fr/",
+   "source": "https://eightyonebrewing.fr/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "Sabotage",
+  "c": "Peyregoux",
+  "d": "81",
+  "lat": 43.69953,
+  "lon": 2.19426,
+  "km": 298.6,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site, sans heures ; l'office de tourisme donne la boutique le mercredi de 17 h à 19 h, avec possibilité de dégustation. Les heures du bar ne sont pas écrites.",
+  "addr": "328 chemin de Laroque, 81440 Peyregoux",
+  "src": "https://sabotagecraftbeer.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "site": "https://sabotagecraftbeer.com/",
+   "source": "https://sabotagecraftbeer.com/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "Burtonian Beers",
+  "c": "Castres",
+  "d": "81",
+  "lat": 43.61637,
+  "lon": 2.22581,
+  "km": 303.9,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de Castres aux recettes d'ales anglaises : ses bières s'achètent à la brasserie sur rendez-vous, et chez des cavistes de Castres et de Mazamet, d'après l'office de tourisme d'Occitanie.",
+  "addr": "21 impasse de Sicardens Bas, 81100 Castres",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-burtonian-beers-castres_TFOSITRA2_DEG_5706930/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Summer Ale"
+   },
+   {
+    "type": "autre",
+    "libelle": "English Porter"
+   }
+  ],
+  "verifieLe": "2026-11-25"
+ },
+ {
+  "n": "Brasserie Auros",
+  "c": "Livers-Cazelles",
+  "d": "81",
+  "lat": 44.05918,
+  "lon": 1.96507,
+  "km": 283.8,
+  "cat": 1,
+  "conf": "moyenne",
+  "note": "Brasserie près de Cordes, dans un cadre de guinguette : on y déguste ses bières, avec restauration par un food truck, et une boutique, d'après l'office de tourisme d'Occitanie. Bar ouvert du mercredi au dimanche de 12 h à 23 h, tous les jours en juillet et août ; fermé de novembre à mars.",
+  "addr": "10 route d'Albi, 81170 Livers-Cazelles",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-l-auros-fabrique-de-biere-livers-cazelles_TFOSITRA2_DEG_5885248/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "tel": "06 82 96 14 76",
+   "site": "https://brasserieauros.com/",
+   "source": "https://brasserieauros.com/",
+   "verifieLe": "2026-11-25"
+  }
+ },
+ {
+  "n": "La Berlue",
+  "c": "Gaillac",
+  "d": "81",
+  "lat": 43.90253,
+  "lon": 1.87234,
+  "km": 300.9,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasseurs et limonadiers bio de Gaillac : vente à emporter à la boutique, du lundi au vendredi de 13 h à 18 h, d'après leur site. On les trouve aussi en pression à la guinguette de Gaillac en juillet et août.",
+  "addr": "6 rue de Bezelle, 81600 Gaillac",
+  "src": "https://www.brasserie-laberlue.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "tel": "05 63 81 88 87",
+   "site": "https://www.brasserie-laberlue.com/",
+   "source": "https://www.brasserie-laberlue.com/",
+   "verifieLe": "2026-11-25"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "13:00",
+      "18:00"
+     ]
+    ],
+    "source": "https://www.brasserie-laberlue.com/",
+    "verifieLe": "2026-11-25"
+   }
+  ]
+ },
+ {
+  "n": "Microbrasserie La Planque",
+  "c": "Montredon-Labessonnié",
+  "d": "81",
+  "lat": 43.72705,
+  "lon": 2.33531,
+  "km": 288.9,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie née le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche cite dégustation de produits et concerts, mais dit le lieu « non visitable ». Ni heures ni vente dites.",
+  "addr": "1120 route de Saint-Pierre-de-Trivisy, 81360 Montredon-Labessonnié",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-la-planque-montredon-labessonnie_TFOSITRA2_DEG_6865768/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-25"
+ },
+ {
+  "n": "La Travée",
+  "c": "Albi",
+  "d": "81",
+  "lat": 43.93037,
+  "lon": 2.13631,
+  "km": 283.3,
+  "cat": 0,
+  "conf": "",
+  "note": "Brasserie d'Albi tournée vers les événements : fûts, tireuses et matériel à retirer à la brasserie, d'après son site. Rien ne dit qu'on peut y acheter des bouteilles ou y boire sur place.",
+  "addr": "2 bis rue Claude Bourgelat, 81000 Albi",
+  "src": "https://www.latravee.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-25",
+  "contact": {
+   "tel": "06 02 47 37 58",
+   "site": "https://www.latravee.fr/",
+   "source": "https://www.latravee.fr/",
+   "verifieLe": "2026-11-25"
+  }
  }
 ]

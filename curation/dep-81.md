@@ -48,7 +48,7 @@ Catégories proposées : 3 « acheter et consommer », 4 « acheter seulement »
 - km : (vide) → 324.2
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie.
+- note : (vide) → Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie. Le site annonce aussi, dans un billet d'août 2025, une soirée bière pression et petite restauration le deuxième vendredi de chaque mois.
 - addr : (vide) → 522 route de Préliès, 81500 Garrigues
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/
 - coordPrecision : (vide) → address
@@ -67,9 +67,9 @@ Sources (vérifiée le 2026-11-25) : https://www.tourisme-occitanie.com/fr/fiche
 
 Extrait lu : « Nous les vendons localement, sur place à la brasserie. »
 
-Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés.
+Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés. L'office écrit « 640 Route de Préliès », le site « 522 » : l'adresse du site est retenue.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -113,7 +113,7 @@ Extrait lu : « Vente directe à la brasserie »
 
 Choix du vérificateur : Fiche de l'office relue sur la page brute le 25/11 : confiance moyenne au plus. Seul un portable est publié, par l'office : non repris. Clé d'entrepreneur individuel : ni nom ni SIREN recopiés.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -134,7 +134,7 @@ Choix du vérificateur : Fiche de l'office relue sur la page brute le 25/11 : co
 - km : (vide) → 318.5
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis » ; sur rendez-vous pour les autres créneaux. Téléphone publié par la brasserie : 05 63 40 81 01.
+- note : (vide) → Brasserie avec un espace de vente et de dégustation et un espace bar, d'après son site. D'octobre à mars, du mardi au vendredi, 9 h 30 – 12 h 30 et 14 h 30 – 18 h 30 (et les samedis de décembre) ; d'avril à septembre, le lundi jusqu'à 17 h 30, du mardi au vendredi jusqu'à 19 h, le samedi 9 h 30 – 12 h 30 et 14 h – 18 h. La page dit aussi « Fermeture les Dimanches, Lundis et les jours fériés » ; sur rendez-vous pour les autres créneaux. Les heures de l'espace bar ne sont pas écrites. Téléphone publié par la brasserie : 05 63 40 81 01.
 - addr : (vide) → 1199 route d'Albi, 81630 Beauvais-sur-Tescou
 - src : (vide) → https://www.oxit.fr/notre-boutique/
 - coordPrecision : (vide) → address
@@ -150,7 +150,7 @@ Extrait lu : « Un espace de vente et de dégustation vous accueille »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 25/11. Catégorie 1 en confiance moyenne : vente, dégustation et bar sont écrits, « à emporter » non. Les heures se contredisent sur le lundi : rien n'est structuré. Le fixe de la brasserie est écrit avec des points, que le contrôle ne relit pas : il passe dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -190,7 +190,7 @@ Extrait lu : « fournit les caves à bières, les caves à vin, certaines épice
 
 Choix du vérificateur : Site officiel relu sur la page brute le 25/11. Le point OSM de Saint-Juéry est la même brasserie, que le site place à Albi. Aucun téléphone sur le site ; le portable de l'office n'est pas repris. Le prénom écrit sur la page n'est pas recopié.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -235,7 +235,7 @@ Extrait lu : « Wheat IPA - 5,5% vol. »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 25/11. Deux portables publiés, aucun fixe : le premier (« Commercialisation ») est repris (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -266,7 +266,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 25/11. Deux por
 - km : (vide) → 298.6
 - cat : (vide) → 1 (Acheter et consommer sur place)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site ; l'office de tourisme donne la boutique de 17 h à 19 h, avec possibilité de dégustation.
+- note : (vide) → Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site, sans heures ; l'office de tourisme donne la boutique le mercredi de 17 h à 19 h, avec possibilité de dégustation. Les heures du bar ne sont pas écrites.
 - addr : (vide) → 328 chemin de Laroque, 81440 Peyregoux
 - src : (vide) → https://sabotagecraftbeer.com/
 - coordPrecision : (vide) → address
@@ -274,42 +274,26 @@ Choix du vérificateur : Site officiel relu sur la page brute le 25/11. Deux por
 - contact.site : (vide) → https://sabotagecraftbeer.com/
 - contact.source : (vide) → https://sabotagecraftbeer.com/
 - contact.verifieLe : (vide) → 2026-11-25
-- horaires.0.nature : (vide) → vente
-- horaires.0.mer : (vide) → 17 h – 19 h
-- horaires.0.source : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/sabotage-craftbeer-peyregoux_TFOSITRA2_DEG_7251534/
-- horaires.0.verifieLe : (vide) → 2026-11-25
 - verifieLe : (vide) → 2026-11-25
 
-Sources (vérifiée le 2026-11-25) : https://sabotagecraftbeer.com/ ; https://www.tourisme-occitanie.com/fr/fiche/degustation/sabotage-craftbeer-peyregoux_TFOSITRA2_DEG_7251534/ ; https://data.geopf.fr/geocodage/search?q=328+chemin+de+Laroque%2C+81440+Peyregoux&limit=5
+Sources (vérifiée le 2026-11-25) : https://sabotagecraftbeer.com/ ; https://data.geopf.fr/geocodage/search?q=328+chemin+de+Laroque%2C+81440+Peyregoux&limit=5
 
 Extrait lu : « Retrouvez nos produits à la ferme, tous les mercredis de l »
 
-Choix du vérificateur : Site officiel et fiche de l'office relus sur la page brute le 25/11. Deux lecteurs ont lu ce paquet ; catégorie 1 en confiance moyenne : le site écrit « espace Bar-Boutique-Restauration », l'office la vente à la boutique et la dégustation. Heure du mercredi tirée de l'office. Le seul numéro est un portable publié par l'office : non repris.
+Choix du vérificateur : Site officiel et fiche de l'office relus sur la page brute le 25/11. Deux lecteurs ont lu ce paquet ; catégorie 1 en confiance moyenne : le site écrit « espace Bar-Boutique-Restauration », l'office la vente à la boutique et la dégustation. Rien n'est structuré : une grille au mercredi 17 h – 19 h, tirée de l'office pour la boutique, dirait « fermé » au bar le mercredi soir (persona Cédric, 25/11). Le seul numéro est un portable publié par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
-> - Maintenant
-> - À 8 h 09 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 17 h.
 > - Adresse
 > - 328 chemin de Laroque, 81440 Peyregoux
-> - Pas encore dans la fiche : son téléphone et ses bières.
+> - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=Sabotage+Peyregoux)[Ses bières sur Untappd](https://untappd.com/search?q=Sabotage&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
 > - Joindre la brasserie
 > - [Site de la brasserie](https://sabotagecraftbeer.com/)
-> - Horaires
-> - Horaires de vente
-> - Lundi | non précisé
-> - Mardi | non précisé
-> - Mercredi | 17 h – 19 h
-> - Jeudi | non précisé
-> - Vendredi | non précisé
-> - Samedi | non précisé
-> - Dimanche | non précisé
-> - Ils peuvent avoir changé depuis : la source ne dit pas jusqu’à quand ils valent.
-> - Lu sur [sabotagecraftbeer.com](https://sabotagecraftbeer.com/) le 25 novembre 2026. Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/sabotage-craftbeer-peyregoux_TFOSITRA2_DEG_7251534/) le 25 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
+> - Lu sur [sabotagecraftbeer.com](https://sabotagecraftbeer.com/) le 25 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 7. Burtonian Beers — fiche nouvelle
 
@@ -321,7 +305,7 @@ Choix du vérificateur : Site officiel et fiche de l'office relus sur la page br
 - km : (vide) → 303.9
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie de Castres aux recettes d'ales anglaises : ses bières s'achètent à la brasserie sur rendez-vous, et chez des cavistes de Castres et de Mazamet, d'après l'office de tourisme d'Occitanie. Visites de savoir-faire annoncées par l'office.
+- note : (vide) → Brasserie de Castres aux recettes d'ales anglaises : ses bières s'achètent à la brasserie sur rendez-vous, et chez des cavistes de Castres et de Mazamet, d'après l'office de tourisme d'Occitanie.
 - addr : (vide) → 21 impasse de Sicardens Bas, 81100 Castres
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-burtonian-beers-castres_TFOSITRA2_DEG_5706930/
 - coordPrecision : (vide) → address
@@ -337,7 +321,7 @@ Extrait lu : « Nous à la brasserie (contactez nous pour prendre rdv) »
 
 Choix du vérificateur : Fiche de l'office relue sur la page brute le 25/11 (liste « Où acheter » : « Nous à la brasserie (contactez nous pour prendre rdv) ») : catégorie 2, confiance moyenne. Pas de site ni d'Untappd. Seul un portable, publié par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -381,7 +365,7 @@ Extrait lu : « dégustez nos bières artisanales, vins de Gaillac, whisky local
 
 Choix du vérificateur : Fiche de l'office relue sur la page brute le 25/11 (« Vente à la propriété », « Boutique ») : confiance moyenne au plus. Les saisons ne sont écrites qu'en mois (« hors juillet/aout ») : heures dans la note. Seul numéro du site, un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter et consommer sur place
@@ -430,12 +414,12 @@ Extrait lu : « Boutique du lundi au vendredi de »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 25/11. La clé SIRENE (La Fameuse Fabrique) est à la même adresse, et lafameuse.fr redirige vers ce site. Rien ne dit qu'on boit sur place à la boutique. Fixe publié par la brasserie.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 09 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h.
+> - À 8 h 17 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 13 h.
 > - Adresse
 > - 6 rue de Bezelle, 81600 Gaillac
 > - Pas encore dans la fiche : ses bières.
@@ -465,7 +449,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 25/11. La clé 
 - km : (vide) → 288.9
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Microbrasserie ouverte le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche invite à venir, sans heures ni vente dites.
+- note : (vide) → Microbrasserie née le 15 août 2023, trois styles de bière, tenue en activité secondaire, d'après l'office de tourisme d'Occitanie ; la fiche cite dégustation de produits et concerts, mais dit le lieu « non visitable ». Ni heures ni vente dites.
 - addr : (vide) → 1120 route de Saint-Pierre-de-Trivisy, 81360 Montredon-Labessonnié
 - src : (vide) → https://www.tourisme-occitanie.com/fr/fiche/degustation/microbrasserie-la-planque-montredon-labessonnie_TFOSITRA2_DEG_6865768/
 - coordPrecision : (vide) → address
@@ -478,7 +462,7 @@ Extrait lu : « le 15 août 2023, notre microbrasserie a vu le jour. »
 
 Choix du vérificateur : Fiche de l'office relue sur la page brute le 25/11. Catégorie 0 : ni vente ni horaires écrits (la fiche annonce des horaires « ci-dessous » qu'elle ne donne pas). Deux portables publiés par l'office seulement : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -516,7 +500,7 @@ Extrait lu : « Choisissez vos fûts et récupérez votre matériel directement 
 
 Choix du vérificateur : Site officiel relu sur la page brute le 25/11 (il écrit « Rue Claude Borgelat »). Le point OSM de Saliès est la même brasserie. Seul numéro publié, un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:09, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le mercredi 25 novembre 2026 à 08:17, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -530,4 +514,4 @@ Choix du vérificateur : Site officiel relu sur la page brute le 25/11 (il écri
 > - [Site de la brasserie](https://www.latravee.fr/)
 > - Lu sur [latravee.fr](https://www.latravee.fr/) le 25 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
 
-Empreinte du lot : 5d77fd91ca70
+Empreinte du lot : 50bea974aab2

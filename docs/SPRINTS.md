@@ -3163,3 +3163,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, onzième partie — les Pyrénées-Orientales *(24/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 10 paquets, 51 candidats ; 5 fiches par la règle de Cédric du 21/10 ; 930 fiches dans 92 départements, OSM à 546. Les trois tests qui supposaient Perpignan sans fiche calculent leur commune sur les données (`communeSeulementOsm`, `tests/e2e/reseau.ts`). Revue de la persona Cédric avant l'application (Pyrénéiste en catégorie 0, son brewpub étant suivi de « A venir » ; heures complétées pour La Canya et Rull ; raison de Prats corrigée), persona Hugo après (commune des tests en métropole seulement, notes de La Canya et de Rull complétées, issue pour la fermeture saisonnière sans heures).
+
+## S348, douzième partie — le Tarn *(25/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 6 paquets, 31 candidats ; 11 fiches par la règle de Cédric du 21/10 ; 941 fiches dans 93 départements, OSM à 542. Deux lecteurs ont lu un autre paquet que le leur (le paquet 3 l'a été deux fois, le 5 pas du tout) : Garland relue à part. Revue de la persona Cédric traitée avant l'application (une visite inventée retirée chez Burtonian, la grille de Sabotage retirée, les notes de La Planque, d'Oxit et de Tanis complétées), persona Hugo après.

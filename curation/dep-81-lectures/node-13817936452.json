@@ -10,7 +10,7 @@
    "km": 324.2,
    "cat": 2,
    "conf": "moyenne",
-   "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie.",
+   "note": "Ferme brasserie familiale de Garrigues, aux céréales bio cultivées sur place : blonde, IPA, ambrée, brune et blanche, vendues sur place à la brasserie, d'après l'office de tourisme d'Occitanie. Le site annonce aussi, dans un billet d'août 2025, une soirée bière pression et petite restauration le deuxième vendredi de chaque mois.",
    "addr": "522 route de Préliès, 81500 Garrigues",
    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/tanis-paysan-brasseur-garrigues_TFOSITRA2_DEG_5308807/",
    "coordPrecision": "address",
@@ -45,6 +45,6 @@
    "https://data.geopf.fr/geocodage/search?q=522+route+de+Pr%C3%A9li%C3%A8s%2C+81500+Garrigues&limit=5"
   ],
   "extrait": "Nous les vendons localement, sur place à la brasserie.",
-  "choix": "Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés."
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 25/11. Deux portables sur le site, aucun fixe : le premier est repris (règle du 21/10). Les prénoms écrits sur la fiche ne sont pas recopiés. L'office écrit « 640 Route de Préliès », le site « 522 » : l'adresse du site est retenue."
  }
 }
