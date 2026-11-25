@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:813181674",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Margot",
+   "c": "Albi",
+   "d": "81",
+   "lat": 43.93612,
+   "lon": 2.19451,
+   "km": 279.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie d'Albi qui fournit les caves à bières, les caves à vin et des épiceries de produits locaux, d'après son site ; on la trouve aussi sur des marchés. Rien ne dit qu'on peut acheter ou boire à la brasserie.",
+   "addr": "15 rue Jean le Rond d'Alembert, 81000 Albi",
+   "src": "https://brasserie-margot-albi.fr/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-margot-albi.fr/",
+    "source": "https://brasserie-margot-albi.fr/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://brasserie-margot-albi.fr/",
+   "https://data.geopf.fr/geocodage/search?q=15+rue+Jean+le+Rond+d%27Alembert%2C+81000+Albi&limit=5"
+  ],
+  "extrait": "fournit les caves à bières, les caves à vin, certaines épiceries",
+  "choix": "Site officiel relu sur la page brute le 25/11. Le point OSM de Saint-Juéry est la même brasserie, que le site place à Albi. Aucun téléphone sur le site ; le portable de l'office n'est pas repris. Le prénom écrit sur la page n'est pas recopié."
+ }
+}

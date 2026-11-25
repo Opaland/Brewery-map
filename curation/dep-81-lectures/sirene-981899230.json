@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:981899230",
+ "ajout": {
+  "fiche": {
+   "n": "La Travée",
+   "c": "Albi",
+   "d": "81",
+   "lat": 43.93037,
+   "lon": 2.13631,
+   "km": 283.3,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie d'Albi tournée vers les événements : fûts, tireuses et matériel à retirer à la brasserie, d'après son site. Rien ne dit qu'on peut y acheter des bouteilles ou y boire sur place.",
+   "addr": "2 bis rue Claude Bourgelat, 81000 Albi",
+   "src": "https://www.latravee.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "06 02 47 37 58",
+    "site": "https://www.latravee.fr/",
+    "source": "https://www.latravee.fr/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.latravee.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Albi&type=municipality&limit=5"
+  ],
+  "extrait": "Choisissez vos fûts et récupérez votre matériel directement à la brasserie.",
+  "choix": "Site officiel relu sur la page brute le 25/11 (il écrit « Rue Claude Borgelat »). Le point OSM de Saliès est la même brasserie. Seul numéro publié, un portable (règle du 21/10)."
+ }
+}

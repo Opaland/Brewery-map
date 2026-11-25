@@ -1,0 +1,46 @@
+{
+ "candidat": "sirene:849546015",
+ "ajout": {
+  "fiche": {
+   "n": "Eighty One Brewing",
+   "c": "Soual",
+   "d": "81",
+   "lat": 43.56113,
+   "lon": 2.1184,
+   "km": 314.2,
+   "cat": 0,
+   "conf": "",
+   "note": "Brasserie de Soual, dont le site présente les bières, Lager, Wheat IPA et Triple entre autres. Ce qu'on peut faire à la brasserie n'y est pas écrit.",
+   "addr": "662 chemin de Soulet, 81580 Soual",
+   "src": "https://eightyonebrewing.fr/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "lager",
+     "libelle": "Lager"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Wheat IPA"
+    },
+    {
+     "type": "autre",
+     "libelle": "Triple"
+    }
+   ],
+   "contact": {
+    "tel": "06 89 28 71 91",
+    "site": "https://eightyonebrewing.fr/",
+    "source": "https://eightyonebrewing.fr/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://eightyonebrewing.fr/",
+   "https://data.geopf.fr/geocodage/search?q=662+chemin+de+Soulet%2C+81580+Soual&limit=5"
+  ],
+  "extrait": "Wheat IPA - 5,5% vol.",
+  "choix": "Site officiel relu sur la page brute le 25/11. Deux portables publiés, aucun fixe : le premier (« Commercialisation ») est repris (règle du 21/10)."
+ }
+}

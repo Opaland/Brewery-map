@@ -1,0 +1,27 @@
+{
+ "candidat": "personne:4",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie du Sidobre",
+   "c": "Le Bez",
+   "d": "81",
+   "lat": 43.632,
+   "lon": 2.41179,
+   "km": 293.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Petite brasserie familiale du Sidobre, depuis 2017 : vente directe à la brasserie, en bouteilles ou en fûts, d'après l'office de tourisme d'Occitanie. Rien ne dit qu'on peut y boire sur place.",
+   "addr": "39 route de Cabroulet, Vialavert, 81260 Le Bez",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-sidobre-le-bez_TFOSITRA2_DEG_6037255/",
+   "coordPrecision": "address",
+   "beers": []
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-du-sidobre-le-bez_TFOSITRA2_DEG_6037255/",
+   "https://data.geopf.fr/geocodage/search?q=39+route+de+Cabroulet%2C+Vialavert%2C+81260+Le+Bez&limit=5"
+  ],
+  "extrait": "Vente directe à la brasserie",
+  "choix": "Fiche de l'office relue sur la page brute le 25/11 : confiance moyenne au plus. Seul un portable est publié, par l'office : non repris. Clé d'entrepreneur individuel : ni nom ni SIREN recopiés."
+ }
+}

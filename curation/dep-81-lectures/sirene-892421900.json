@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:892421900",
+ "ajout": {
+  "fiche": {
+   "n": "La Berlue",
+   "c": "Gaillac",
+   "d": "81",
+   "lat": 43.90253,
+   "lon": 1.87234,
+   "km": 300.9,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Brasseurs et limonadiers bio de Gaillac : vente à emporter à la boutique, du lundi au vendredi de 13 h à 18 h, d'après leur site. On les trouve aussi en pression à la guinguette de Gaillac en juillet et août.",
+   "addr": "6 rue de Bezelle, 81600 Gaillac",
+   "src": "https://www.brasserie-laberlue.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 63 81 88 87",
+    "site": "https://www.brasserie-laberlue.com/",
+    "source": "https://www.brasserie-laberlue.com/",
+    "verifieLe": "2026-11-25"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.brasserie-laberlue.com/",
+     "lun": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "mar": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "mer": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "ven": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "verifieLe": "2026-11-25"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.brasserie-laberlue.com/",
+   "https://data.geopf.fr/geocodage/search?q=6+rue+de+Bezelle%2C+81600+Gaillac&limit=5"
+  ],
+  "extrait": "Boutique du lundi au vendredi de",
+  "choix": "Site officiel relu sur la page brute le 25/11. La clé SIRENE (La Fameuse Fabrique) est à la même adresse, et lafameuse.fr redirige vers ce site. Rien ne dit qu'on boit sur place à la boutique. Fixe publié par la brasserie."
+ }
+}

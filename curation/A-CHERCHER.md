@@ -14,7 +14,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 | | Fiches | Complètes | Sans source | À confirmer | Sans site | Sans adresse vérifiée | Sans téléphone | Sans horaires | Sans bières |
 |---|---|---|---|---|---|---|---|---|---|
-| **Total** | 930 | 24 (3 %) | 42 | 343 | 285 | 356 | 490 | 610 | 747 |
+| **Total** | 941 | 24 (3 %) | 42 | 347 | 288 | 357 | 496 | 620 | 755 |
 | 01 · Ain | 14 | 0 (0 %) | 5 | 8 | 9 | 14 | 10 | 13 | 11 |
 | 02 · Aisne | 3 | 0 (0 %) | 0 | 0 | 0 | 1 | 0 | 2 | 3 |
 | 03 · Allier | 4 | 0 (0 %) | 0 | 0 | 0 | 0 | 0 | 2 | 4 |
@@ -95,6 +95,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 | 78 · Yvelines | 7 | 0 (0 %) | 0 | 1 | 0 | 0 | 0 | 2 | 7 |
 | 79 · Deux-Sèvres | 3 | 0 (0 %) | 0 | 1 | 0 | 2 | 0 | 1 | 3 |
 | 80 · Somme | 2 | 0 (0 %) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
+| 81 · Tarn | 11 | 0 (0 %) | 0 | 4 | 3 | 1 | 6 | 10 | 8 |
 | 83 · Var | 15 | 0 (0 %) | 0 | 2 | 3 | 4 | 3 | 7 | 15 |
 | 84 · Vaucluse | 21 | 0 (0 %) | 0 | 10 | 9 | 8 | 13 | 15 | 21 |
 | 85 · Vendée | 17 | 4 (24 %) | 0 | 2 | 7 | 5 | 8 | 11 | 7 |
@@ -110,7 +111,7 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 
 ## Les « À confirmer » à chercher
 
-343 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
+347 fiches, par département, puis par ce qui manque en premier. Chacune manque de ce qu’on peut y faire ; la ligne dit le reste.
 
 ### 01 · Ain
 
@@ -629,6 +630,13 @@ d’accueil. La définition revient à Cédric (`docs/DECISIONS.md`).
 ### 79 · Deux-Sèvres
 
 - La Gabarde (Clessé) : sans adresse vérifiée, sans horaires, sans bières
+
+### 81 · Tarn
+
+- Microbrasserie La Planque (Montredon-Labessonnié) : sans site, sans téléphone, sans horaires, sans bières
+- La Travée (Albi) : sans adresse vérifiée, sans horaires, sans bières
+- Brasserie Margot (Albi) : sans téléphone, sans horaires, sans bières
+- Eighty One Brewing (Soual) : sans horaires
 
 ### 83 · Var
 

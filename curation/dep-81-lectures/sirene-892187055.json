@@ -1,0 +1,34 @@
+{
+ "candidat": "sirene:892187055",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Auros",
+   "c": "Livers-Cazelles",
+   "d": "81",
+   "lat": 44.05918,
+   "lon": 1.96507,
+   "km": 283.8,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie près de Cordes, dans un cadre de guinguette : on y déguste ses bières, avec restauration par un food truck, et une boutique, d'après l'office de tourisme d'Occitanie. Bar ouvert du mercredi au dimanche de 12 h à 23 h, tous les jours en juillet et août ; fermé de novembre à mars.",
+   "addr": "10 route d'Albi, 81170 Livers-Cazelles",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-l-auros-fabrique-de-biere-livers-cazelles_TFOSITRA2_DEG_5885248/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "06 82 96 14 76",
+    "site": "https://brasserieauros.com/",
+    "source": "https://brasserieauros.com/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-de-l-auros-fabrique-de-biere-livers-cazelles_TFOSITRA2_DEG_5885248/",
+   "https://brasserieauros.com/",
+   "https://data.geopf.fr/geocodage/search?q=10+route+d%27Albi%2C+81170+Livers-Cazelles&limit=5"
+  ],
+  "extrait": "dégustez nos bières artisanales, vins de Gaillac, whisky local",
+  "choix": "Fiche de l'office relue sur la page brute le 25/11 (« Vente à la propriété », « Boutique ») : confiance moyenne au plus. Les saisons ne sont écrites qu'en mois (« hors juillet/aout ») : heures dans la note. Seul numéro du site, un portable (règle du 21/10)."
+ }
+}

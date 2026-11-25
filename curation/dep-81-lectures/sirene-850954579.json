@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:850954579",
+ "ajout": {
+  "fiche": {
+   "n": "Sabotage",
+   "c": "Peyregoux",
+   "d": "81",
+   "lat": 43.69953,
+   "lon": 2.19426,
+   "km": 298.6,
+   "cat": 1,
+   "conf": "moyenne",
+   "note": "Brasserie de Peyregoux, dans un écolieu : ses produits se retrouvent à la ferme tous les mercredis, dans son espace bar, boutique et restauration, d'après son site, sans heures ; l'office de tourisme donne la boutique le mercredi de 17 h à 19 h, avec possibilité de dégustation. Les heures du bar ne sont pas écrites.",
+   "addr": "328 chemin de Laroque, 81440 Peyregoux",
+   "src": "https://sabotagecraftbeer.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://sabotagecraftbeer.com/",
+    "source": "https://sabotagecraftbeer.com/",
+    "verifieLe": "2026-11-25"
+   }
+  },
+  "verifieLe": "2026-11-25",
+  "sources": [
+   "https://sabotagecraftbeer.com/",
+   "https://data.geopf.fr/geocodage/search?q=328+chemin+de+Laroque%2C+81440+Peyregoux&limit=5"
+  ],
+  "extrait": "Retrouvez nos produits à la ferme, tous les mercredis de l",
+  "choix": "Site officiel et fiche de l'office relus sur la page brute le 25/11. Deux lecteurs ont lu ce paquet ; catégorie 1 en confiance moyenne : le site écrit « espace Bar-Boutique-Restauration », l'office la vente à la boutique et la dégustation. Rien n'est structuré : une grille au mercredi 17 h – 19 h, tirée de l'office pour la boutique, dirait « fermé » au bar le mercredi soir (persona Cédric, 25/11). Le seul numéro est un portable publié par l'office : non repris."
+ }
+}
