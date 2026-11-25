@@ -1,0 +1,687 @@
+[
+ {
+  "cle": "sirene:932131576",
+  "nom": "D'HOUBLON LA MISE",
+  "communes": [
+   "CASTELNAU-DE-LEVIS",
+   "MARSSAC-SUR-TARN"
+  ],
+  "departement": "81",
+  "adresses": [
+   "14 ROUTE DE MARSSAC 81150 CASTELNAU-DE-LEVIS",
+   "110 AVENUE D'ALBI 81150 MARSSAC-SUR-TARN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "932131576",
+  "sirets": [
+   "93213157600013",
+   "93213157600021"
+  ],
+  "osm": [],
+  "lat": 43.939716884,
+  "lon": 2.0634889078,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:934849670",
+  "nom": "BRA'16",
+  "communes": [
+   "LABASTIDE-ROUAIROUX"
+  ],
+  "departement": "81",
+  "adresses": [
+   "20 RUE DE LA PEYRIERE 81270 LABASTIDE-ROUAIROUX",
+   "154 T BOULEVARD CARNOT 81270 LABASTIDE-ROUAIROUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "934849670",
+  "sirets": [
+   "93484967000013",
+   "93484967000021"
+  ],
+  "osm": [],
+  "lat": 43.473982998516,
+  "lon": 2.63470903358997,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:1",
+  "nom": null,
+  "communes": [
+   "LAMONTELARIE",
+   "LACAUNE"
+  ],
+  "departement": "81",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:949565402",
+  "nom": "LA PLANQUE",
+  "communes": [
+   "MONTREDON-LABESSONNIE"
+  ],
+  "departement": "81",
+  "adresses": [
+   "72 CHEMIN DE LA CLAUZELIE 81360 MONTREDON-LABESSONNIE",
+   "LA SAULE 1120 ROUTE DE SAINT-PIERRE 81360 MONTREDON-LABESSONNIE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "949565402",
+  "sirets": [
+   "94956540200011",
+   "94956540200029"
+  ],
+  "osm": [],
+  "lat": 43.711949959,
+  "lon": 2.317443972,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:2",
+  "nom": null,
+  "communes": [
+   "RABASTENS"
+  ],
+  "departement": "81",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:953257094",
+  "nom": "MOJO",
+  "communes": [
+   "SAINT-SULPICE-LA-POINTE"
+  ],
+  "departement": "81",
+  "adresses": [
+   "1273 AVENUE DES TERRES NOIRES 81370 SAINT-SULPICE-LA-POINTE"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "953257094",
+  "sirets": [
+   "95325709400011"
+  ],
+  "osm": [],
+  "lat": 43.766782629,
+  "lon": 1.6661582614,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:852471135",
+  "nom": "MOUSTACHES OCCITANE",
+  "communes": [
+   "ARFONS"
+  ],
+  "departement": "81",
+  "adresses": [
+   "1 LIEU DIT LES BASTOULS 81110 ARFONS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "852471135",
+  "sirets": [
+   "85247113500016"
+  ],
+  "osm": [],
+  "lat": 43.431747373,
+  "lon": 2.1512517214,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:899129803",
+  "nom": "BRASSERIE DES SAGES",
+  "communes": [
+   "BOISSEZON"
+  ],
+  "departement": "81",
+  "adresses": [
+   "14 LA LAURIE 81490 BOISSEZON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "899129803",
+  "sirets": [
+   "89912980300016"
+  ],
+  "osm": [],
+  "lat": 43.580026928,
+  "lon": 2.3953941979,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:893717728",
+  "nom": "QUE D'ALE",
+  "communes": [
+   "MARSSAC-SUR-TARN"
+  ],
+  "departement": "81",
+  "adresses": [
+   "6 RUE JEAN PERRIN 81150 MARSSAC-SUR-TARN"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "893717728",
+  "sirets": [
+   "89371772800024"
+  ],
+  "osm": [],
+  "lat": 43.916004236,
+  "lon": 2.0392692289,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892187055",
+  "nom": "BRASSERIE AUROS",
+  "communes": [
+   "LIVERS-CAZELLES"
+  ],
+  "departement": "81",
+  "adresses": [
+   "10 ROUTE D'ALBI 81170 LIVERS-CAZELLES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892187055",
+  "sirets": [
+   "89218705500025"
+  ],
+  "osm": [],
+  "lat": 44.059094093,
+  "lon": 1.9650035191,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:904732237",
+  "nom": "BRASSERIE DE LA BRUNAUDE",
+  "communes": [
+   "COUFOULEUX"
+  ],
+  "departement": "81",
+  "adresses": [
+   "2 RUE DE LA BRUNAUDE 81800 COUFOULEUX"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "904732237",
+  "sirets": [
+   "90473223700014"
+  ],
+  "osm": [],
+  "lat": 43.819302078,
+  "lon": 1.7332259662,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:488092941",
+  "nom": "BRASSERIE OXIT",
+  "communes": [
+   "BEAUVAIS-SUR-TESCOU"
+  ],
+  "departement": "81",
+  "adresses": [
+   "ZA LA RIVIERE 1199 ROUTE D'ALBI 81630 BEAUVAIS-SUR-TESCOU"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "488092941",
+  "sirets": [
+   "48809294100027"
+  ],
+  "osm": [],
+  "lat": 43.9133120402788,
+  "lon": 1.57012298693573,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:813181674",
+  "nom": "BRASSERIE MARGOT",
+  "communes": [
+   "ALBI"
+  ],
+  "departement": "81",
+  "adresses": [
+   "15 RUE JEAN LE ROND D'ALEMBERT 81000 ALBI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "813181674",
+  "sirets": [
+   "81318167400025"
+  ],
+  "osm": [],
+  "lat": 43.936526178,
+  "lon": 2.1950987352,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:3",
+  "nom": null,
+  "communes": [
+   "AIGUEFONDE"
+  ],
+  "departement": "81",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "personne:4",
+  "nom": "BRASSERIE DU SIDOBRE",
+  "communes": [
+   "LE BEZ"
+  ],
+  "departement": "81",
+  "adresses": [
+   "RUE VIALAVERT 81260 LE BEZ"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:987854114",
+  "nom": "BRASSERIE LA STABU",
+  "communes": [
+   "MONTIRAT"
+  ],
+  "departement": "81",
+  "adresses": [
+   "LE TELH 867 ROUTE DU ROUCAS 81190 MONTIRAT"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "987854114",
+  "sirets": [
+   "98785411400012"
+  ],
+  "osm": [],
+  "lat": 44.1627530369864,
+  "lon": 2.10018104011624,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:5",
+  "nom": null,
+  "communes": [
+   "TEYSSODE"
+  ],
+  "departement": "81",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:894708817",
+  "nom": "BRASSERIE KINE",
+  "communes": [
+   "NAGES"
+  ],
+  "departement": "81",
+  "adresses": [
+   "13 ROUTE DE LA MATHE 81320 NAGES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "894708817",
+  "sirets": [
+   "89470881700032"
+  ],
+  "osm": [],
+  "lat": 43.6656890351897,
+  "lon": 2.79653599078157,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:981899230",
+  "nom": "LA TRAVEE",
+  "communes": [
+   "ALBI"
+  ],
+  "departement": "81",
+  "adresses": [
+   "ZI DE RANTEIL 2 B RUE CLAUDE BOURGELAT 81000 ALBI"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "981899230",
+  "sirets": [
+   "98189923000016"
+  ],
+  "osm": [],
+  "lat": 43.900912047,
+  "lon": 2.1440449504,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:850954579",
+  "nom": "SABOTAGE",
+  "communes": [
+   "PEYREGOUX"
+  ],
+  "departement": "81",
+  "adresses": [
+   "328 CHEMIN DE LA ROQUE 81440 PEYREGOUX"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "850954579",
+  "sirets": [
+   "85095457900023"
+  ],
+  "osm": [
+   "node/10997305144"
+  ],
+  "lat": 43.699533007,
+  "lon": 2.1942560389,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:892421900",
+  "nom": "LA FAMEUSE FABRIQUE",
+  "communes": [
+   "GAILLAC"
+  ],
+  "departement": "81",
+  "adresses": [
+   "6 RUE DE BEZELLES 81600 GAILLAC"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "892421900",
+  "sirets": [
+   "89242190000028"
+  ],
+  "osm": [],
+  "lat": 43.902532994,
+  "lon": 1.8723409982,
+  "statut": "ambigu",
+  "fiche": "La Beer Fabrique"
+ },
+ {
+  "cle": "personne:6",
+  "nom": null,
+  "communes": [
+   "TREBAS"
+  ],
+  "departement": "81",
+  "adresses": [],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nom-a-etablir"
+ },
+ {
+  "cle": "sirene:929103471",
+  "nom": "ALE & HOP - SITE DE PRODUCTION",
+  "communes": [
+   "PUYGOUZON"
+  ],
+  "departement": "81",
+  "adresses": [
+   "LABASTIDE-DENAT CANDOZE 81120 PUYGOUZON"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "929103471",
+  "sirets": [
+   "92910347100025"
+  ],
+  "osm": [],
+  "lat": 43.868950978442,
+  "lon": 2.18497177049871,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:853805182",
+  "nom": "BURTONIAN BEERS",
+  "communes": [
+   "CASTRES"
+  ],
+  "departement": "81",
+  "adresses": [
+   "21 LES IMPASSES DE SICARDENS BAS 81100 CASTRES"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "853805182",
+  "sirets": [
+   "85380518200013"
+  ],
+  "osm": [],
+  "lat": 43.61634632,
+  "lon": 2.2255249403,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:994736791",
+  "nom": "BRASSERIE DU CASTEL",
+  "communes": [
+   "NAGES"
+  ],
+  "departement": "81",
+  "adresses": [
+   "PLACE DES COMTES DE THEZAN 81320 NAGES"
+  ],
+  "sources": [
+   "sirene",
+   "osm"
+  ],
+  "personne": false,
+  "siren": "994736791",
+  "sirets": [
+   "99473679100017"
+  ],
+  "osm": [
+   "way/246728818"
+  ],
+  "lat": 43.6750643518013,
+  "lon": 2.779949678228,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "sirene:849546015",
+  "nom": "EIGHTY ONE BREWING",
+  "communes": [
+   "SOUAL"
+  ],
+  "departement": "81",
+  "adresses": [
+   "CHE DE SOULET 81580 SOUAL"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": false,
+  "siren": "849546015",
+  "sirets": [
+   "84954601500017"
+  ],
+  "osm": [],
+  "lat": 43.561204519,
+  "lon": 2.1185381963,
+  "statut": "nouveau"
+ },
+ {
+  "cle": "personne:7",
+  "nom": "BRASSERIE",
+  "communes": [
+   "PUYLAURENS"
+  ],
+  "departement": "81",
+  "adresses": [
+   "140 CHEMIN DES IMBERTARIES 81700 PUYLAURENS"
+  ],
+  "sources": [
+   "sirene"
+  ],
+  "personne": true,
+  "sirets": [],
+  "osm": [],
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/13108769750",
+  "nom": "Brasserie Margot",
+  "communes": [
+   "Saint-Juéry"
+  ],
+  "departement": "81",
+  "adresses": [
+   ""
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13108769750"
+  ],
+  "lat": 43.93616,
+  "lon": 2.19465,
+  "site": "https://brasserie-margot-albi.fr/",
+  "statut": "ambigu",
+  "fiche": "BRASSERIE MARGOT"
+ },
+ {
+  "cle": "node/13817936452",
+  "nom": "Brasserie Tanis",
+  "communes": [
+   "Garrigues"
+  ],
+  "departement": "81",
+  "adresses": [
+   "522 Route de Préliès, 81500 Garrigues"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/13817936452"
+  ],
+  "lat": 43.71872,
+  "lon": 1.71234,
+  "site": "https://tanis-paysanbrasseur.fr/",
+  "statut": "nouveau"
+ },
+ {
+  "cle": "node/14286890801",
+  "nom": "La Travée",
+  "communes": [
+   "Saliès"
+  ],
+  "departement": "81",
+  "adresses": [
+   "2 bis Rue Claude Bourgelat, 81000"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "node/14286890801"
+  ],
+  "lat": 43.90065,
+  "lon": 2.14446,
+  "site": "https://www.latravee.fr/",
+  "statut": "ambigu",
+  "fiche": "LA TRAVEE"
+ },
+ {
+  "cle": "way/368753383",
+  "nom": "Brasserie Garland",
+  "communes": [
+   "Algans"
+  ],
+  "departement": "81",
+  "adresses": [
+   "En Kanette, Algans"
+  ],
+  "sources": [
+   "osm"
+  ],
+  "personne": false,
+  "sirets": [],
+  "osm": [
+   "way/368753383"
+  ],
+  "lat": 43.60394,
+  "lon": 1.90906,
+  "site": "https://www.brasseriegarland.fr/",
+  "statut": "nouveau"
+ }
+]

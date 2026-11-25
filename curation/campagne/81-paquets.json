@@ -1,0 +1,372 @@
+[
+ [
+  {
+   "cle": "sirene:932131576",
+   "enseigne": "D'HOUBLON LA MISE",
+   "dep": "81",
+   "communes": [
+    "CASTELNAU-DE-LEVIS",
+    "MARSSAC-SUR-TARN"
+   ],
+   "adresses": [
+    "14 ROUTE DE MARSSAC 81150 CASTELNAU-DE-LEVIS",
+    "110 AVENUE D'ALBI 81150 MARSSAC-SUR-TARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:934849670",
+   "enseigne": "BRA'16",
+   "dep": "81",
+   "communes": [
+    "LABASTIDE-ROUAIROUX"
+   ],
+   "adresses": [
+    "20 RUE DE LA PEYRIERE 81270 LABASTIDE-ROUAIROUX",
+    "154 T BOULEVARD CARNOT 81270 LABASTIDE-ROUAIROUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:949565402",
+   "enseigne": "LA PLANQUE",
+   "dep": "81",
+   "communes": [
+    "MONTREDON-LABESSONNIE"
+   ],
+   "adresses": [
+    "72 CHEMIN DE LA CLAUZELIE 81360 MONTREDON-LABESSONNIE",
+    "LA SAULE 1120 ROUTE DE SAINT-PIERRE 81360 MONTREDON-LABESSONNIE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:953257094",
+   "enseigne": "MOJO",
+   "dep": "81",
+   "communes": [
+    "SAINT-SULPICE-LA-POINTE"
+   ],
+   "adresses": [
+    "1273 AVENUE DES TERRES NOIRES 81370 SAINT-SULPICE-LA-POINTE"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:852471135",
+   "enseigne": "MOUSTACHES OCCITANE",
+   "dep": "81",
+   "communes": [
+    "ARFONS"
+   ],
+   "adresses": [
+    "1 LIEU DIT LES BASTOULS 81110 ARFONS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:899129803",
+   "enseigne": "BRASSERIE DES SAGES",
+   "dep": "81",
+   "communes": [
+    "BOISSEZON"
+   ],
+   "adresses": [
+    "14 LA LAURIE 81490 BOISSEZON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:893717728",
+   "enseigne": "QUE D'ALE",
+   "dep": "81",
+   "communes": [
+    "MARSSAC-SUR-TARN"
+   ],
+   "adresses": [
+    "6 RUE JEAN PERRIN 81150 MARSSAC-SUR-TARN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892187055",
+   "enseigne": "BRASSERIE AUROS",
+   "dep": "81",
+   "communes": [
+    "LIVERS-CAZELLES"
+   ],
+   "adresses": [
+    "10 ROUTE D'ALBI 81170 LIVERS-CAZELLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:904732237",
+   "enseigne": "BRASSERIE DE LA BRUNAUDE",
+   "dep": "81",
+   "communes": [
+    "COUFOULEUX"
+   ],
+   "adresses": [
+    "2 RUE DE LA BRUNAUDE 81800 COUFOULEUX"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:488092941",
+   "enseigne": "BRASSERIE OXIT",
+   "dep": "81",
+   "communes": [
+    "BEAUVAIS-SUR-TESCOU"
+   ],
+   "adresses": [
+    "ZA LA RIVIERE 1199 ROUTE D'ALBI 81630 BEAUVAIS-SUR-TESCOU"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:813181674",
+   "enseigne": "BRASSERIE MARGOT",
+   "dep": "81",
+   "communes": [
+    "ALBI"
+   ],
+   "adresses": [
+    "15 RUE JEAN LE ROND D'ALEMBERT 81000 ALBI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:4",
+   "enseigne": "BRASSERIE DU SIDOBRE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "81",
+   "communes": [
+    "LE BEZ"
+   ],
+   "adresses": [
+    "RUE VIALAVERT 81260 LE BEZ"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:987854114",
+   "enseigne": "BRASSERIE LA STABU",
+   "dep": "81",
+   "communes": [
+    "MONTIRAT"
+   ],
+   "adresses": [
+    "LE TELH 867 ROUTE DU ROUCAS 81190 MONTIRAT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:894708817",
+   "enseigne": "BRASSERIE KINE",
+   "dep": "81",
+   "communes": [
+    "NAGES"
+   ],
+   "adresses": [
+    "13 ROUTE DE LA MATHE 81320 NAGES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:981899230",
+   "enseigne": "LA TRAVEE",
+   "dep": "81",
+   "communes": [
+    "ALBI"
+   ],
+   "adresses": [
+    "ZI DE RANTEIL 2 B RUE CLAUDE BOURGELAT 81000 ALBI"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:850954579",
+   "enseigne": "SABOTAGE",
+   "dep": "81",
+   "communes": [
+    "PEYREGOUX"
+   ],
+   "adresses": [
+    "328 CHEMIN DE LA ROQUE 81440 PEYREGOUX"
+   ],
+   "osm": [
+    "node/10997305144"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892421900",
+   "enseigne": "LA FAMEUSE FABRIQUE",
+   "dep": "81",
+   "communes": [
+    "GAILLAC"
+   ],
+   "adresses": [
+    "6 RUE DE BEZELLES 81600 GAILLAC"
+   ],
+   "osm": [],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:929103471",
+   "enseigne": "ALE & HOP - SITE DE PRODUCTION",
+   "dep": "81",
+   "communes": [
+    "PUYGOUZON"
+   ],
+   "adresses": [
+    "LABASTIDE-DENAT CANDOZE 81120 PUYGOUZON"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:853805182",
+   "enseigne": "BURTONIAN BEERS",
+   "dep": "81",
+   "communes": [
+    "CASTRES"
+   ],
+   "adresses": [
+    "21 LES IMPASSES DE SICARDENS BAS 81100 CASTRES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:994736791",
+   "enseigne": "BRASSERIE DU CASTEL",
+   "dep": "81",
+   "communes": [
+    "NAGES"
+   ],
+   "adresses": [
+    "PLACE DES COMTES DE THEZAN 81320 NAGES"
+   ],
+   "osm": [
+    "way/246728818"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:849546015",
+   "enseigne": "EIGHTY ONE BREWING",
+   "dep": "81",
+   "communes": [
+    "SOUAL"
+   ],
+   "adresses": [
+    "CHE DE SOULET 81580 SOUAL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "personne:7",
+   "enseigne": "BRASSERIE (entrepreneur individuel : ne recopie jamais le nom de la personne ni son SIREN)",
+   "dep": "81",
+   "communes": [
+    "PUYLAURENS"
+   ],
+   "adresses": [
+    "140 CHEMIN DES IMBERTARIES 81700 PUYLAURENS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/13108769750",
+   "enseigne": "Brasserie Margot",
+   "dep": "81",
+   "communes": [
+    "Saint-Juéry"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/13108769750"
+   ],
+   "site": "https://brasserie-margot-albi.fr/",
+   "statut": "ambigu"
+  },
+  {
+   "cle": "node/13817936452",
+   "enseigne": "Brasserie Tanis",
+   "dep": "81",
+   "communes": [
+    "Garrigues"
+   ],
+   "adresses": [
+    "522 Route de Préliès, 81500 Garrigues"
+   ],
+   "osm": [
+    "node/13817936452"
+   ],
+   "site": "https://tanis-paysanbrasseur.fr/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/14286890801",
+   "enseigne": "La Travée",
+   "dep": "81",
+   "communes": [
+    "Saliès"
+   ],
+   "adresses": [
+    "2 bis Rue Claude Bourgelat, 81000"
+   ],
+   "osm": [
+    "node/14286890801"
+   ],
+   "site": "https://www.latravee.fr/",
+   "statut": "ambigu"
+  }
+ ],
+ [
+  {
+   "cle": "way/368753383",
+   "enseigne": "Brasserie Garland",
+   "dep": "81",
+   "communes": [
+    "Algans"
+   ],
+   "adresses": [
+    "En Kanette, Algans"
+   ],
+   "osm": [
+    "way/368753383"
+   ],
+   "site": "https://www.brasseriegarland.fr/",
+   "statut": "nouveau"
+  }
+ ]
+]
