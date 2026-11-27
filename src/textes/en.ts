@@ -426,6 +426,7 @@ export const EN: Readonly<Record<string, string>> = {
   "son adresse": "its address",
   "son téléphone": "its phone number",
   "ses horaires": "its opening hours",
+  "ses horaires en tableau (la note en cite)": "its opening hours as a table (the note quotes some)",
   "ses bières": "its beers",
   " et ": " and ",
   "Rien n’établit encore ce qu’on peut y faire.": "Nothing establishes yet what you can do there.",

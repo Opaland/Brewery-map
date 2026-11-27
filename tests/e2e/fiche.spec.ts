@@ -135,7 +135,8 @@ test.describe('la fiche détaillée (Cédric)', () => {
     await page.getByTestId('recherche').fill('chaussan')
     await ligne(page, /La Bière des Loups/).click()
     await expect(page.getByTestId('fiche').getByTestId('fiche-horaires')).toHaveCount(0)
-    await expect(page.getByTestId('fiche').getByTestId('fiche-manque')).toContainText('ses horaires')
+    // Sa note cite « Chaque vendredi 16h-21h » : il manque le tableau, pas les horaires (S383, #281).
+    await expect(page.getByTestId('fiche').getByTestId('fiche-manque')).toContainText('ses horaires en tableau (la note en cite)')
     await expect(page.getByTestId('fiche').locator('table')).toHaveCount(0)
   })
 
