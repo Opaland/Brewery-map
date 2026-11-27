@@ -1,4 +1,4 @@
-import { citeUnNumero, lienTelephone } from './core/fiche'
+import { lienTelephone, numerosAppelables } from './core/fiche'
 import type { Brasserie } from './core/schema'
 import { t } from './i18n'
 import { LienExterne } from './LienExterne'
@@ -11,10 +11,18 @@ import { LienExterne } from './LienExterne'
  */
 export function Contact({ brasserie }: { brasserie: Brasserie }) {
   const contact = brasserie.contact
-  // Un numéro cité par la source, sans téléphone vérifié (revue métier S4).
+  // Un numéro cité par la source, sans téléphone vérifié (revue métier S4) :
+  // un lien « Appeler », qui dit qu'il n'est pas revérifié (S382, #288).
+  const cites = contact?.tel === undefined ? numerosAppelables(brasserie.note) : []
   const numeroCite =
-    contact?.tel === undefined && citeUnNumero(brasserie.note) ? (
-      <p>{t('La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.')}</p>
+    cites.length > 0 ? (
+      <>
+        {cites.map((tel) => (
+          <a key={tel} className="bouton-appeler" href={lienTelephone(tel)}>
+            {t('Appeler le {tel} (numéro cité par la source, non revérifié)', { tel })}
+          </a>
+        ))}
+      </>
     ) : null
   // Le nom de la brasserie, pour qui écoute la liste des liens.
   const pour = <span className="lecteur-seul"> {brasserie.n}</span>

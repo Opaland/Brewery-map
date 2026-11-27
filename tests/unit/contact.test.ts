@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { lienTelephone } from '../../src/core/fiche'
+import { citeUnNumero, lienTelephone, numerosAppelables, numerosCites } from '../../src/core/fiche'
 import { validerBrasseries } from '../../src/core/schema'
 import { LIGNES_REELLES } from './lignes-reelles'
 
@@ -73,5 +73,37 @@ describe('lienTelephone', () => {
     // Métropole aux préfixes voisins : inchangée.
     expect(lienTelephone('02 61 12 34 56')).toBe('tel:+33261123456')
     expect(lienTelephone('05 56 12 34 56')).toBe('tel:+33556123456')
+  })
+})
+
+// S382 (#288, point 2) : le numéro que cite la note devient un lien « Appeler ».
+describe('numerosCites', () => {
+  it('trouve un numéro écrit en paires, avec des points ou collé, et le rend en paires', () => {
+    expect(numerosCites('Téléphone publié par l’office : 04 66 48 03 68.')).toEqual(['04 66 48 03 68'])
+    expect(numerosCites('Joindre au 06.70.07.73.61, ou par courriel.')).toEqual(['06 70 07 73 61'])
+    expect(numerosCites('Téléphone : 0625690895')).toEqual(['06 25 69 08 95'])
+    expect(numerosCites('Fixe 05 63 40 81 01 ; second numéro 06 28 90 77 84.')).toEqual(['05 63 40 81 01', '06 28 90 77 84'])
+  })
+
+  it('ne prend ni un nombre sans 0 en tête, ni un code postal suivi de chiffres', () => {
+    expect(numerosCites('Commande 1234567890 livrée.')).toEqual([])
+    expect(numerosCites('1932 route de Villefranche, 69480 Anse')).toEqual([])
+    expect(numerosCites('Ouvert depuis 2022, sam 15h-22h.')).toEqual([])
+    expect(numerosCites('Siret 81234567890123.')).toEqual([])
+  })
+
+  it('un numéro écrit deux fois n’en fait qu’un', () => {
+    expect(numerosCites('Tél. 04 72 00 00 00, ou 04.72.00.00.00')).toEqual(['04 72 00 00 00'])
+  })
+
+  it('un 08 (souvent surtaxé) est cité, mais n’est pas proposé à l’appel, comme contact.tel', () => {
+    expect(numerosCites('Appelez le 08 99 12 34 56')).toEqual(['08 99 12 34 56'])
+    expect(numerosAppelables('Appelez le 08 99 12 34 56 ou le 04 72 00 00 00')).toEqual(['04 72 00 00 00'])
+  })
+
+  it('citeUnNumero dit vrai exactement quand la liste n’est pas vide (une seule règle, §4)', () => {
+    for (const note of ['tél. 04 75 85 47 19', '06.70.07.73.61', 'aucun', '0625690895', '1932 route, 69480 Anse']) {
+      expect(citeUnNumero(note)).toBe(numerosCites(note).length > 0)
+    }
   })
 })

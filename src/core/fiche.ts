@@ -1,6 +1,6 @@
 import { langueCourante, t } from '../i18n'
 import { normaliser } from './recherche'
-import type { Brasserie } from './schema'
+import { TELEPHONE_APPELABLE, type Brasserie } from './schema'
 
 /**
  * Libellés de la fiche. Fonctions pures : tout ce que la fiche affiche passe
@@ -190,12 +190,38 @@ export function lienTelephone(tel: string): string {
 }
 
 /**
- * Un numéro français cité dans la justification (`note`). Deux lignes du
- * fichier en contiennent un (revue métier S4) : la fiche ne doit pas dire
- * « non renseigné » juste au-dessus.
+ * Les numéros français cités dans la justification (`note`), écrits en
+ * paires : « 06.70.07.73.61 » et « 0625690895 » deviennent « 06 70 07 73 61 ».
+ * Un lot y met le numéro qu'il ne peut pas reprendre dans `contact.tel`
+ * (écrit avec des points ou collé, que `controler` ne relit pas) ; la fiche
+ * en fait un lien « Appeler », dit non revérifié (S382, #288). Pas de chiffre
+ * juste avant ni juste après : un SIRET ou un code postal suivi de chiffres
+ * ne passe pas.
+ */
+export function numerosCites(texte: string): string[] {
+  const enPaires = [...texte.matchAll(/(?<!\d)0[1-9](?:[ .]?\d{2}){4}(?!\d)/g)].map((m) =>
+    m[0].replace(/[ .]/g, '').replace(/(\d{2})(?=\d)/g, '$1 '),
+  )
+  // Un numéro écrit deux fois n'en fait qu'un (revue adverse S382).
+  return [...new Set(enPaires)]
+}
+
+/**
+ * Les numéros cités qu'on peut proposer d'appeler : les mêmes, hors 08,
+ * comme `contact.tel` (revue adverse S382 : pas de lien vers un numéro
+ * surtaxé).
+ */
+export function numerosAppelables(texte: string): string[] {
+  return numerosCites(texte).filter((tel) => TELEPHONE_APPELABLE.test(tel))
+}
+
+/**
+ * Un numéro français cité dans la justification (`note`) : la fiche ne doit
+ * pas dire « non renseigné » juste au-dessus (revue métier S4). La même
+ * règle que `numerosCites`, une seule fois écrite (§4).
  */
 export function citeUnNumero(texte: string): boolean {
-  return /\b0[1-9](?:[ .]?\d{2}){4}\b/.test(texte)
+  return numerosCites(texte).length > 0
 }
 
 /**

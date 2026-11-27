@@ -417,7 +417,7 @@ export const EN: Readonly<Record<string, string>> = {
   "Le filtre « Ouvertes ce week-end », d’après les horaires publiés ; il dit combien de brasseries il peut juger.": "The “Open this weekend” filter, based on published hours; it says how many breweries it can judge.",
   "Un favori absent de la liste dit pourquoi : trop loin, catégorie décochée, déjà visitée…": "A favourite missing from the list says why: too far, category unticked, already visited…",
   "Les horaires d’une saison : un bar d’été montre ses horaires avec leur période, et ne se dit jamais « ouvert » hors saison (La Grange du Seigneur, Philomenn, Mélusine).": "Seasonal opening hours: a summer bar shows its hours with their period, and never says “open” out of season (La Grange du Seigneur, Philomenn, Mélusine).",
-  "La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.": "The source quotes a number, not rechecked: see “What the source says”, above.",
+  "Appeler le {tel} (numéro cité par la source, non revérifié)": "Call {tel} (number quoted by the source, not rechecked)",
   "Sur la carte, le point est le centre {deCommune}, pas la brasserie.": "On the map, the point is the centre of {deCommune}, not the brewery.",
   "Sur la carte, le point est approximatif, parfois à plusieurs kilomètres de la brasserie.": "On the map, the point is approximate, sometimes several kilometres from the brewery.",
   "L’itinéraire mène au centre {deCommune}, pas à la brasserie.": "Directions lead to the centre of {deCommune}, not to the brewery.",

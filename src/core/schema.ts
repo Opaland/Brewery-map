@@ -103,6 +103,13 @@ const lienUntappdSchema = lienSchema.refine(
  * date : un numéro sans origine ne passe pas. Seul un numéro que la
  * brasserie publie elle-même pour ses clients y entre (plan v2).
  */
+/**
+ * Un numéro qu'on peut proposer d'appeler : français, en paires, hors 08
+ * (numéros spéciaux, souvent surtaxés). Une seule règle pour `contact.tel`
+ * et pour les numéros cités dans la note (S382, §4ter).
+ */
+export const TELEPHONE_APPELABLE = /^0[1-79]( \d{2}){4}$/
+
 export const contactSchema = z
   .object({
     /**
@@ -113,7 +120,7 @@ export const contactSchema = z
      */
     tel: z
       .string()
-      .regex(/^0[1-79]( \d{2}){4}$/, 'numéro attendu au format « 04 72 50 88 53 », hors 08')
+      .regex(TELEPHONE_APPELABLE, 'numéro attendu au format « 04 72 50 88 53 », hors 08')
       .optional(),
     site: lienSchema.optional(),
     untappd: lienUntappdSchema.optional(),
