@@ -62,8 +62,9 @@ describe('le bloc contact', () => {
 
   it('un numéro cité dans la justification est signalé, pas ignoré', () => {
     const html = rendu({ ...base, note: 'Horaires non publiés (tél. 04 75 85 47 19).' })
-    expect(html).toContain('La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.')
-    expect(html).not.toContain('tel:')
+    expect(html).toContain('Appeler le 04 75 85 47 19 (numéro cité par la source, non revérifié)')
+    expect(html).toContain('href="tel:+33475854719"')
+    expect(html).not.toContain('plus haut')
   })
 
   it('un contact sans téléphone : ni bouton, ni phrase de vide (dite en tête de fiche, S308)', () => {

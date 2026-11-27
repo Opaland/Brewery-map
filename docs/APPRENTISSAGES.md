@@ -151,6 +151,13 @@ pourquoi.
   Les Brasseurs de la Cité) : chercher `+33` et les chiffres sans espace
   avant d'écrire « aucun téléphone ».
 
+- **Une poussée forcée attend une approbation que personne ne donne** (25–26/11 :
+  deux fois, la session a redémarré sur une commande `git push -f` en attente,
+  et le travail est resté non poussé un jour entier). Parade : ne jamais
+  forcer ; après un merge en squash, fusionner l'ancienne branche distante
+  (`git merge origin/<branche>`, conflits gardés « ours ») puis pousser
+  normalement. Committer et pousser dans deux commandes séparées.
+
 ## La routine elle-même
 
 - **Une routine lancée dans une session neuve n'a pas accès au dépôt** :

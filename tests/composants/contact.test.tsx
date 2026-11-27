@@ -17,9 +17,11 @@ afterEach(() => {
 describe('Contact', () => {
   const base = { n: 'Essai', c: 'Lyon', d: '69', src: 'https://exemple.fr/' }
 
-  it('une note qui cite un numéro, sans téléphone vérifié : la fiche renvoie à la source', () => {
+  it('une note qui cite un numéro, sans téléphone vérifié : un lien « Appeler », dit non revérifié (S382)', () => {
     render(<Contact brasserie={{ ...base, note: 'Contact : 04 72 00 00 00.' } as unknown as Brasserie} />)
-    expect(screen.getByText('La source cite un numéro, non revérifié : voyez « Ce que dit la source », plus haut.')).toBeTruthy()
+    const lien = screen.getByRole('link', { name: 'Appeler le 04 72 00 00 00 (numéro cité par la source, non revérifié)' })
+    expect(lien.getAttribute('href')).toBe('tel:+33472000000')
+    expect(screen.queryByText(/plus haut/)).toBeNull()
   })
 
   it('avec un téléphone vérifié, la phrase ne paraît pas', () => {
@@ -29,6 +31,7 @@ describe('Contact', () => {
       contact: { tel: '04 72 00 00 00', source: 'https://exemple.fr/', verifieLe: '2026-10-21' },
     } as unknown as Brasserie
     render(<Contact brasserie={b} />)
-    expect(screen.queryByText(/La source cite un numéro/)).toBeNull()
+    expect(screen.queryByText(/numéro cité par la source/)).toBeNull()
+    expect(screen.getAllByRole('link')).toHaveLength(1)
   })
 })

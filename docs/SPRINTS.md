@@ -3167,3 +3167,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, douzième partie — le Tarn *(25/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 6 paquets, 31 candidats ; 11 fiches par la règle de Cédric du 21/10 ; 941 fiches dans 93 départements, OSM à 542. Deux lecteurs ont lu un autre paquet que le leur (le paquet 3 l'a été deux fois, le 5 pas du tout) : Garland relue à part. Revue de la persona Cédric traitée avant l'application (une visite inventée retirée chez Burtonian, la grille de Sabotage retirée, les notes de La Planque, d'Oxit et de Tanis complétées), persona Hugo après.
+
+## S382 — Appeler le numéro que cite la source *(25–26/11, backlog autonome, #288 point 2)*
+
+`docs/stories/S382.md`. Premier passage du backlog autonome (`docs/BACKLOG-AUTONOME.md`). Quand une fiche n'a pas de téléphone vérifié et que sa note cite un numéro, « Joindre la brasserie » en fait un lien « Appeler le … (numéro cité par la source, non revérifié) » ; l'ancienne phrase renvoyait à un titre absent des fiches en catégorie 0 (#292). `numerosCites` (paires, points, chiffres collés ; dédoublonnés) et `numerosAppelables` (hors 08, la règle de `contact.tel`, partagée par `TELEPHONE_APPELABLE`) ; `citeUnNumero` s'appuie dessus. 17 fiches concernées. Revue adverse (doublon, 08) et persona Hugo traitées ; le libellé selon l'origine de la ligne reste à Cédric.
