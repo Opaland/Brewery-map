@@ -1,0 +1,236 @@
+[
+ [
+  {
+   "cle": "sirene:940479298",
+   "enseigne": "BRASSERIE L'OURS BLANC",
+   "dep": "82",
+   "communes": [
+    "ORGUEIL"
+   ],
+   "adresses": [
+    "1371 ROUTE DU STADE 82370 ORGUEIL"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:833813389",
+   "enseigne": "BRASSERIE OC'ALE",
+   "dep": "82",
+   "communes": [
+    "BRESSOLS"
+   ],
+   "adresses": [
+    "547 CHEMIN DU CHATEAU D'EAU 82710 BRESSOLS"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:378914782",
+   "enseigne": "DELICES SUN",
+   "dep": "82",
+   "communes": [
+    "MONTAUBAN"
+   ],
+   "adresses": [
+    "2115 CHEMIN DU RAMIEROU 82000 MONTAUBAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:897409017",
+   "enseigne": "LA TUCAYNE",
+   "dep": "82",
+   "communes": [
+    "BOUILLAC"
+   ],
+   "adresses": [
+    "LA TUCAYNE 5450 CHEMIN DES CRETES 82600 BOUILLAC"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:892174343",
+   "enseigne": "LA CABANE",
+   "dep": "82",
+   "communes": [
+    "CAYLUS"
+   ],
+   "adresses": [
+    "Z.A PECH DE RONDOLS 82160 CAYLUS"
+   ],
+   "osm": [
+    "node/8775971350"
+   ],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "sirene:878555606",
+   "enseigne": "BRASSERIE BALTRINGUE & BASILIC INST",
+   "dep": "82",
+   "communes": [
+    "PARISOT"
+   ],
+   "adresses": [
+    "876 ROUTE D'ALBI 82160 PARISOT"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:924885684",
+   "enseigne": "BRASSERIE BARBAROSSA",
+   "dep": "82",
+   "communes": [
+    "GRISOLLES"
+   ],
+   "adresses": [
+    "670 CHEMIN DES CRETES 82170 GRISOLLES"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:829515469",
+   "enseigne": "IRON",
+   "dep": "82",
+   "communes": [
+    "MONTAUBAN"
+   ],
+   "adresses": [
+    "5097 RTE DE ST NAUPHARY 82000 MONTAUBAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "sirene:890887011",
+   "enseigne": "BRASSERIE BELIER",
+   "dep": "82",
+   "communes": [
+    "SAINT-ANTONIN-NOBLE-VAL"
+   ],
+   "adresses": [
+    "ZONE ARTISANALE DE FONTALES 82140 SAINT-ANTONIN-NOBLE-VAL"
+   ],
+   "osm": [
+    "way/82478490"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "sirene:851462242",
+   "enseigne": "ABRACADA'BRASSERIE",
+   "dep": "82",
+   "communes": [
+    "MONTAUBAN"
+   ],
+   "adresses": [
+    "1620 AVENUE DE COS 82000 MONTAUBAN"
+   ],
+   "osm": [],
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "node/12619039255",
+   "enseigne": "Tasca Ti Celeste",
+   "dep": "82",
+   "communes": [
+    "Moissac"
+   ],
+   "adresses": [
+    "8 Rue de la République, 82200 Moissac"
+   ],
+   "osm": [
+    "node/12619039255"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "node/9812712905",
+   "enseigne": "Brasserie de la Halle",
+   "dep": "82",
+   "communes": [
+    "Montauban"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "node/9812712905"
+   ],
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/1058890481",
+   "enseigne": "HopDuck Brewery",
+   "dep": "82",
+   "communes": [
+    "Campsas"
+   ],
+   "adresses": [
+    "4 Rue Sépat, ZAC Sépat, 82370 Campsas"
+   ],
+   "osm": [
+    "way/1058890481"
+   ],
+   "site": "https://www.hopduk.com/",
+   "statut": "nouveau"
+  },
+  {
+   "cle": "way/127748637",
+   "enseigne": "Iron",
+   "dep": "82",
+   "communes": [
+    "Saint-Nauphary"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/127748637"
+   ],
+   "statut": "ambigu"
+  },
+  {
+   "cle": "way/427451690",
+   "enseigne": "Les Cabanes du Port",
+   "dep": "82",
+   "communes": [
+    "Montauban"
+   ],
+   "adresses": [
+    ""
+   ],
+   "osm": [
+    "way/427451690"
+   ],
+   "site": "https://lescabanesduport.fr/",
+   "statut": "nouveau"
+  }
+ ],
+ [
+  {
+   "cle": "way/59128182",
+   "enseigne": "Chez Isa",
+   "dep": "82",
+   "communes": [
+    "Moissac"
+   ],
+   "adresses": [
+    "19 Avenue du Chasselas"
+   ],
+   "osm": [
+    "way/59128182"
+   ],
+   "statut": "nouveau"
+  }
+ ]
+]
