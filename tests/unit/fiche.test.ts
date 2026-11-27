@@ -56,6 +56,16 @@ describe('citeDesHoraires', () => {
     expect(citeDesHoraires('Ouvert tous les jours de 10h à 18h')).toBe(true)
     expect(citeDesHoraires('Ouvert 7/7 en continu de 10h à 19h')).toBe(true)
   })
+  it('un jour abrégé suivi d’un jour ou d’une heure : vrai (revue S383)', () => {
+    expect(citeDesHoraires('Lun-mer 17h-0h, jeu-sam 17h-1h')).toBe(true)
+    expect(citeDesHoraires('Retrait sur place possible (lun-ven 9h-17h)')).toBe(true)
+    expect(citeDesHoraires('Mer 9h-18h, ven 17h-21h')).toBe(true)
+    expect(citeDesHoraires('Ven. au dim. de 15 h à 22 h')).toBe(true)
+  })
+  it('« mer » ou « mar » seuls ne sont pas des jours', () => {
+    expect(citeDesHoraires('Vue sur la mer, ouvert depuis 10 h de route')).toBe(false)
+    expect(citeDesHoraires('Une mar- brune, 12 h de brassage')).toBe(false)
+  })
   it('sans jour ou sans heure : faux', () => {
     expect(citeDesHoraires('Ouvert depuis 2022, brassée sur place.')).toBe(false)
     expect(citeDesHoraires('Ouvert le samedi matin.')).toBe(false)
