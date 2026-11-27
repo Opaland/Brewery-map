@@ -1,0 +1,70 @@
+{
+ "candidat": "sirene:829515469",
+ "ajout": {
+  "fiche": {
+   "n": "Iron",
+   "c": "Montauban",
+   "d": "82",
+   "lat": 43.97467,
+   "lon": 1.41329,
+   "km": 324.2,
+   "cat": 2,
+   "conf": "solide",
+   "note": "Brasserie et distillerie de Montauban, avec une boutique sur place, du lundi au vendredi de 9 h à 17 h, sur les horaires de production, d'après son site. Rien ne dit qu'on peut y boire sur place. Téléphone publié par la brasserie : 06 45 15 84 10.",
+   "addr": "4905 route de Saint-Nauphary, 82000 Montauban",
+   "src": "https://brasserie-iron.com/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "site": "https://brasserie-iron.com/",
+    "source": "https://brasserie-iron.com/",
+    "verifieLe": "2026-11-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://brasserie-iron.com/",
+     "lun": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mar": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "mer": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "jeu": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "ven": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "remarque": "Sur les horaires de production.",
+     "verifieLe": "2026-11-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://brasserie-iron.com/",
+   "https://data.geopf.fr/geocodage/search?q=4905+route+de+Saint-Nauphary%2C+82000+Montauban&limit=5"
+  ],
+  "extrait": "Boutique sur place",
+  "choix": "Site officiel relu sur la page brute le 27/11. Le point OSM de Saint-Nauphary est la même brasserie. Seul numéro publié, un portable écrit avec des points, que le contrôle ne relit pas : dans la note (règle du 21/10)."
+ }
+}

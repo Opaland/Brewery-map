@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:378914782",
+ "ajout": {
+  "fiche": {
+   "n": "La Sun Microbrasserie",
+   "c": "Montauban",
+   "d": "82",
+   "lat": 44.01984,
+   "lon": 1.36271,
+   "km": 324.5,
+   "cat": 3,
+   "conf": "moyenne",
+   "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+   "addr": "chemin du Ramierou, 82000 Montauban",
+   "src": "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
+   "https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5"
+  ],
+  "extrait": "Site not open to the public.",
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas."
+ }
+}

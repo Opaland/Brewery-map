@@ -10,9 +10,9 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 
 - L'application : liste, carte, fiche, filtres, favoris, carnet, notes,
   hors connexion, anglais, accessibilité mesurée, carnet (S1 → S382).
-- 941 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
+- 950 fiches dans `data/` (Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Normandie,
   Bretagne, Pays de la Loire, Centre-Val de Loire, Provence-Alpes-Côte d'Azur,
-  Corse, Hauts-de-France, Île-de-France, Grand Est, Nouvelle-Aquitaine et une partie de l'Occitanie), et 542 points OpenStreetMap « À confirmer ».
+  Corse, Hauts-de-France, Île-de-France, Grand Est, Nouvelle-Aquitaine et une partie de l'Occitanie), et 539 points OpenStreetMap « À confirmer ».
 - La règle du 18/10 (« site officiel + contrôlé ») appliquée :
   `docs/DECISIONS.md`.
 
@@ -20,7 +20,7 @@ chaque déploiement, `tests/e2e/page-deployee.spec.ts`).
 
 `curation/A-CHERCHER.md`, écrit par `outils/completude.ts` et tenu à jour
 par un test. Au 30/10, après S345 :
-**24 fiches complètes sur 941** ; 347 « À confirmer » ; 755 sans bières, 496 sans téléphone, 620 sans horaires.
+**24 fiches complètes sur 950** ; 348 « À confirmer » ; 762 sans bières, 501 sans téléphone, 626 sans horaires.
 Le 19/10, 10 fiches sans aucune trace ont été retirées (S298, méthode de Cédric).
 Le 19/10, les 348 fiches ont été cherchées au registre des entreprises :
 `curation/registre-2026-10-19.md` (une fermée sur Untappd, six à décider,

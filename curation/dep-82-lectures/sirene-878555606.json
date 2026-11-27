@@ -1,0 +1,32 @@
+{
+ "candidat": "sirene:878555606",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Baltringue",
+   "c": "Parisot",
+   "d": "82",
+   "lat": 44.253,
+   "lon": 1.86976,
+   "km": 276.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de Parisot : on réserve sur sa boutique en ligne et on retire les bières à la brasserie pendant les horaires d'ouverture, uniquement sur rendez-vous, du lundi au vendredi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+   "addr": "876 route d'Albi, 82160 Parisot",
+   "src": "https://www.brasseriebaltringue.fr/",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "site": "https://www.brasseriebaltringue.fr/",
+    "source": "https://www.brasseriebaltringue.fr/",
+    "verifieLe": "2026-11-27"
+   }
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.brasseriebaltringue.fr/",
+   "https://data.geopf.fr/geocodage/search?q=Parisot&type=municipality&limit=5"
+  ],
+  "extrait": "à la brasserie, pendant les horaires d",
+  "choix": "Site officiel relu sur la page brute le 27/11 (« passez les retirer à la brasserie, pendant les horaires d'ouverture (uniquement sur rendez-vous) »). Le retrait sur rendez-vous ne fait pas une grille. Aucun téléphone sur le site ; le portable de l'office n'est pas repris."
+ }
+}

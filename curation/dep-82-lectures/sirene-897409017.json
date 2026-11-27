@@ -1,0 +1,62 @@
+{
+ "candidat": "sirene:897409017",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Escumosa (Domaine de la Tucayne)",
+   "c": "Bouillac",
+   "d": "82",
+   "lat": 43.8543,
+   "lon": 1.1133,
+   "km": 351.5,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie créée par un vigneron brasseur au Domaine de la Tucayne, avec vente à la propriété, d'après l'office de tourisme d'Occitanie ; la cave du domaine est ouverte le mercredi et le samedi de 9 h à 12 h et de 14 h à 18 h, d'après son site.",
+   "addr": "5450 chemin des Crêtes, 82600 Bouillac",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+   "coordPrecision": "address",
+   "beers": [],
+   "contact": {
+    "tel": "05 63 27 70 43",
+    "site": "https://www.latucayne.fr/",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+    "verifieLe": "2026-11-27"
+   },
+   "horaires": [
+    {
+     "nature": "vente",
+     "source": "https://www.latucayne.fr/",
+     "mer": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "sam": [
+      [
+       "09:00",
+       "12:00"
+      ],
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "remarque": "Heures de la cave du domaine ; en dehors, contacter le domaine.",
+     "verifieLe": "2026-11-27"
+    }
+   ]
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+   "https://www.latucayne.fr/",
+   "https://data.geopf.fr/geocodage/search?q=5450+chemin+des+Cr%C3%AAtes%2C+82600+Bouillac&limit=5"
+  ],
+  "extrait": "Vente à la propriété",
+  "choix": "Fiche de l'office et site du domaine relus sur la page brute le 27/11. Confiance moyenne : la cave du site peut viser le vin autant que la bière. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10) ; les portables du site, associés à des prénoms, ne sont pas repris."
+ }
+}

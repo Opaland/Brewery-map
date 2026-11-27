@@ -1,0 +1,280 @@
+[
+ {
+  "cle": "way/1058890481",
+  "n": "HopDuck Brewery",
+  "c": "Campsas",
+  "adresse": "4 rue Sépat, ZAC Sépat, 82370 Campsas",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Micro-brasserie de Campsas, d'après son site ; l'office de tourisme d'Occitanie lui donne une boutique. Aucun horaire publié ; rien ne dit qu'on peut y boire sur place.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+  "extrait": "Brasserie locale, made in Campsas.",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Cansas City (pale ale)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session IPA"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Mellow Yellow"
+   },
+   {
+    "type": "stout",
+    "libelle": "All Day Stout"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Witbier"
+   }
+  ],
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11 (« Une gamme complète de bières artisanales produites dans notre micro brasserie de Campsas » ; les bières sur la page « Nos bières »). Catégorie 2 en confiance moyenne : la boutique n'est écrite que sur l'office. Seul numéro, un portable publié aussi par la brasserie (« 0668542920 » sur son site) : repris depuis l'office, où il est en paires (règle du 21/10).",
+  "contact": {
+   "tel": "06 68 54 29 20",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/"
+  }
+ },
+ {
+  "cle": "sirene:878555606",
+  "n": "Brasserie Baltringue",
+  "c": "Parisot",
+  "adresse": "876 route d'Albi, 82160 Parisot",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de Parisot : on réserve sur sa boutique en ligne et on retire les bières à la brasserie pendant les horaires d'ouverture, uniquement sur rendez-vous, du lundi au vendredi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "src": "https://www.brasseriebaltringue.fr/",
+  "extrait": "à la brasserie, pendant les horaires d",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 27/11 (« passez les retirer à la brasserie, pendant les horaires d'ouverture (uniquement sur rendez-vous) »). Le retrait sur rendez-vous ne fait pas une grille. Aucun téléphone sur le site ; le portable de l'office n'est pas repris.",
+  "contact": {
+   "site": "https://www.brasseriebaltringue.fr/",
+   "source": "https://www.brasseriebaltringue.fr/"
+  }
+ },
+ {
+  "cle": "sirene:924885684",
+  "n": "Brasserie Barbarossa",
+  "c": "Grisolles",
+  "adresse": "670 chemin des Crêtes, 82170 Grisolles",
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie de Grisolles avec un espace dégustation et une vente sur place à emporter, d'après son site ; une guinguette éphémère est annoncée « bientôt ». Le samedi et le dimanche, sur demande. Téléphone publié par la brasserie : 05 63 92 97 13.",
+  "src": "https://www.brasseriebarbarossa.fr/",
+  "extrait": "Espace dégustation - Vente sur place à emporter",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note. Le week-end « sur demande » reste dans la note, pas en remarque de la grille : une remarque met tous les jours « sous réserve » (persona Hugo, 27/11).",
+  "contact": {
+   "site": "https://www.brasseriebarbarossa.fr/",
+   "source": "https://www.brasseriebarbarossa.fr/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://www.brasseriebarbarossa.fr/",
+    "lun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "cle": "sirene:829515469",
+  "n": "Iron",
+  "c": "Montauban",
+  "adresse": "4905 route de Saint-Nauphary, 82000 Montauban",
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie et distillerie de Montauban, avec une boutique sur place, du lundi au vendredi de 9 h à 17 h, sur les horaires de production, d'après son site. Rien ne dit qu'on peut y boire sur place. Téléphone publié par la brasserie : 06 45 15 84 10.",
+  "src": "https://brasserie-iron.com/",
+  "extrait": "Boutique sur place",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 27/11. Le point OSM de Saint-Nauphary est la même brasserie. Seul numéro publié, un portable écrit avec des points, que le contrôle ne relit pas : dans la note (règle du 21/10).",
+  "contact": {
+   "site": "https://brasserie-iron.com/",
+   "source": "https://brasserie-iron.com/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://brasserie-iron.com/",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Sur les horaires de production."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:851462242",
+  "n": "Abracada'Brasserie",
+  "c": "Montauban",
+  "adresse": "1620 avenue de Cos, 82000 Montauban",
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.",
+  "src": "https://www.abracadabrasserie.com",
+  "extrait": "Ici ce sont les brasseurs qui servent votre bière.",
+  "beers": [],
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris."
+ },
+ {
+  "cle": "sirene:833813389",
+  "n": "Brasserie Oc'Ale",
+  "c": "Bressols",
+  "adresse": "547 chemin du Château d'Eau, 82710 Bressols",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; l'office de Montauban la dit fermée le samedi.",
+  "src": "https://www.bieres-ocale.fr",
+  "extrait": "Vente en ligne (paiement CB) / Vente directe",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10). L'avis de fermeture de fin d'année du site n'a pas d'année : non repris (persona Cédric, 27/11).",
+  "contact": {
+   "tel": "09 50 33 54 90",
+   "source": "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815"
+  }
+ },
+ {
+  "cle": "sirene:378914782",
+  "n": "La Sun Microbrasserie",
+  "c": "Montauban",
+  "adresse": "chemin du Ramierou, 82000 Montauban",
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+  "src": "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
+  "extrait": "Site not open to the public.",
+  "beers": [],
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas."
+ },
+ {
+  "cle": "sirene:897409017",
+  "n": "Brasserie Escumosa (Domaine de la Tucayne)",
+  "c": "Bouillac",
+  "adresse": "5450 chemin des Crêtes, 82600 Bouillac",
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie créée par un vigneron brasseur au Domaine de la Tucayne, avec vente à la propriété, d'après l'office de tourisme d'Occitanie ; la cave du domaine est ouverte le mercredi et le samedi de 9 h à 12 h et de 14 h à 18 h, d'après son site.",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+  "extrait": "Vente à la propriété",
+  "beers": [],
+  "choix": "Fiche de l'office et site du domaine relus sur la page brute le 27/11. Confiance moyenne : la cave du site peut viser le vin autant que la bière. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10) ; les portables du site, associés à des prénoms, ne sont pas repris.",
+  "contact": {
+   "tel": "05 63 27 70 43",
+   "site": "https://www.latucayne.fr/",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "source": "https://www.latucayne.fr/",
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Heures de la cave du domaine ; en dehors, contacter le domaine."
+   }
+  ]
+ },
+ {
+  "cle": "sirene:892174343",
+  "n": "La Cabane",
+  "c": "Caylus",
+  "adresse": "ZA Pech de Rondols, 82160 Caylus",
+  "cat": 3,
+  "conf": "solide",
+  "note": "Microbrasserie bio de Caylus : on ne passe pas à la brasserie, sauf lors de ses événements (autour du 1er mai), et elle ne livre pas les particuliers ; ses bières se trouvent chez des distributeurs et sur son e-shop, d'après son site.",
+  "src": "https://www.brasserielacabane.com/infos/",
+  "extrait": "Et non, sauf durant les",
+  "beers": [],
+  "choix": "Site officiel relu sur la page brute le 27/11 (FAQ : « Puis-je passer à la brasserie ? Et non, sauf durant les évènements. ») : catégorie 3 (persona Cédric, 27/11, qui a demandé de lire la page « Infos »). Seul numéro publié par la brasserie, un portable (règle du 21/10).",
+  "contact": {
+   "tel": "07 60 91 65 55",
+   "site": "https://www.brasserielacabane.com",
+   "source": "https://www.brasserielacabane.com"
+  }
+ }
+]

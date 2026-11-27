@@ -35559,5 +35559,320 @@
    "source": "https://www.latravee.fr/",
    "verifieLe": "2026-11-25"
   }
+ },
+ {
+  "n": "La Sun Microbrasserie",
+  "c": "Montauban",
+  "d": "82",
+  "lat": 44.01984,
+  "lon": 1.36271,
+  "km": 324.5,
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+  "addr": "chemin du Ramierou, 82000 Montauban",
+  "src": "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-27"
+ },
+ {
+  "n": "Iron",
+  "c": "Montauban",
+  "d": "82",
+  "lat": 43.97467,
+  "lon": 1.41329,
+  "km": 324.2,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie et distillerie de Montauban, avec une boutique sur place, du lundi au vendredi de 9 h à 17 h, sur les horaires de production, d'après son site. Rien ne dit qu'on peut y boire sur place. Téléphone publié par la brasserie : 06 45 15 84 10.",
+  "addr": "4905 route de Saint-Nauphary, 82000 Montauban",
+  "src": "https://brasserie-iron.com/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "site": "https://brasserie-iron.com/",
+   "source": "https://brasserie-iron.com/",
+   "verifieLe": "2026-11-27"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "mer": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "remarque": "Sur les horaires de production.",
+    "source": "https://brasserie-iron.com/",
+    "verifieLe": "2026-11-27"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Oc'Ale",
+  "c": "Bressols",
+  "d": "82",
+  "lat": 43.94343,
+  "lon": 1.30991,
+  "km": 333.0,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; l'office de Montauban la dit fermée le samedi.",
+  "addr": "547 chemin du Château d'Eau, 82710 Bressols",
+  "src": "https://www.bieres-ocale.fr",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "blanche"
+   },
+   {
+    "type": "brune"
+   },
+   {
+    "type": "ipa"
+   }
+  ],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "tel": "09 50 33 54 90",
+   "source": "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815",
+   "verifieLe": "2026-11-27"
+  }
+ },
+ {
+  "n": "Abracada'Brasserie",
+  "c": "Montauban",
+  "d": "82",
+  "lat": 44.04039,
+  "lon": 1.36935,
+  "km": 322.8,
+  "cat": 0,
+  "conf": "",
+  "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.",
+  "addr": "1620 avenue de Cos, 82000 Montauban",
+  "src": "https://www.abracadabrasserie.com",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-27"
+ },
+ {
+  "n": "Brasserie Baltringue",
+  "c": "Parisot",
+  "d": "82",
+  "lat": 44.253,
+  "lon": 1.86976,
+  "km": 276.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie de Parisot : on réserve sur sa boutique en ligne et on retire les bières à la brasserie pendant les horaires d'ouverture, uniquement sur rendez-vous, du lundi au vendredi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+  "addr": "876 route d'Albi, 82160 Parisot",
+  "src": "https://www.brasseriebaltringue.fr/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "site": "https://www.brasseriebaltringue.fr/",
+   "source": "https://www.brasseriebaltringue.fr/",
+   "verifieLe": "2026-11-27"
+  }
+ },
+ {
+  "n": "La Cabane",
+  "c": "Caylus",
+  "d": "82",
+  "lat": 44.22931,
+  "lon": 1.76855,
+  "km": 284.6,
+  "cat": 3,
+  "conf": "solide",
+  "note": "Microbrasserie bio de Caylus : on ne passe pas à la brasserie, sauf lors de ses événements (autour du 1er mai), et elle ne livre pas les particuliers ; ses bières se trouvent chez des distributeurs et sur son e-shop, d'après son site.",
+  "addr": "ZA Pech de Rondols, 82160 Caylus",
+  "src": "https://www.brasserielacabane.com/infos/",
+  "coordPrecision": "centre",
+  "beers": [],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "tel": "07 60 91 65 55",
+   "site": "https://www.brasserielacabane.com",
+   "source": "https://www.brasserielacabane.com",
+   "verifieLe": "2026-11-27"
+  }
+ },
+ {
+  "n": "Brasserie Escumosa (Domaine de la Tucayne)",
+  "c": "Bouillac",
+  "d": "82",
+  "lat": 43.8543,
+  "lon": 1.1133,
+  "km": 351.5,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Brasserie créée par un vigneron brasseur au Domaine de la Tucayne, avec vente à la propriété, d'après l'office de tourisme d'Occitanie ; la cave du domaine est ouverte le mercredi et le samedi de 9 h à 12 h et de 14 h à 18 h, d'après son site.",
+  "addr": "5450 chemin des Crêtes, 82600 Bouillac",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "tel": "05 63 27 70 43",
+   "site": "https://www.latucayne.fr/",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+   "verifieLe": "2026-11-27"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "mer": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "sam": [
+     [
+      "09:00",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "remarque": "Heures de la cave du domaine ; en dehors, contacter le domaine.",
+    "source": "https://www.latucayne.fr/",
+    "verifieLe": "2026-11-27"
+   }
+  ]
+ },
+ {
+  "n": "Brasserie Barbarossa",
+  "c": "Grisolles",
+  "d": "82",
+  "lat": 43.8283,
+  "lon": 1.31087,
+  "km": 340.7,
+  "cat": 2,
+  "conf": "solide",
+  "note": "Brasserie de Grisolles avec un espace dégustation et une vente sur place à emporter, d'après son site ; une guinguette éphémère est annoncée « bientôt ». Le samedi et le dimanche, sur demande. Téléphone publié par la brasserie : 05 63 92 97 13.",
+  "addr": "670 chemin des Crêtes, 82170 Grisolles",
+  "src": "https://www.brasseriebarbarossa.fr/",
+  "coordPrecision": "address",
+  "beers": [],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "site": "https://www.brasseriebarbarossa.fr/",
+   "source": "https://www.brasseriebarbarossa.fr/",
+   "verifieLe": "2026-11-27"
+  },
+  "horaires": [
+   {
+    "nature": "vente",
+    "lun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mar": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "mer": [
+     [
+      "14:30",
+      "18:00"
+     ]
+    ],
+    "jeu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "ven": [
+     [
+      "09:00",
+      "12:00"
+     ]
+    ],
+    "source": "https://www.brasseriebarbarossa.fr/",
+    "verifieLe": "2026-11-27"
+   }
+  ]
+ },
+ {
+  "n": "HopDuck Brewery",
+  "c": "Campsas",
+  "d": "82",
+  "lat": 43.89668,
+  "lon": 1.30948,
+  "km": 336.1,
+  "cat": 2,
+  "conf": "moyenne",
+  "note": "Micro-brasserie de Campsas, d'après son site ; l'office de tourisme d'Occitanie lui donne une boutique. Aucun horaire publié ; rien ne dit qu'on peut y boire sur place.",
+  "addr": "4 rue Sépat, ZAC Sépat, 82370 Campsas",
+  "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+  "coordPrecision": "address",
+  "beers": [
+   {
+    "type": "autre",
+    "libelle": "Cansas City (pale ale)"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Session IPA"
+   },
+   {
+    "type": "ipa",
+    "libelle": "Mellow Yellow"
+   },
+   {
+    "type": "stout",
+    "libelle": "All Day Stout"
+   },
+   {
+    "type": "blanche",
+    "libelle": "Witbier"
+   }
+  ],
+  "verifieLe": "2026-11-27",
+  "contact": {
+   "tel": "06 68 54 29 20",
+   "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+   "verifieLe": "2026-11-27"
+  }
  }
 ]
