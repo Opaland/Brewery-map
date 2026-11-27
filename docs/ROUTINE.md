@@ -11,13 +11,12 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 82 (Tarn-et-Garonne), S348 (Occitanie) : PR ouverte le 27/11 ; si elle est mergée, l'Occitanie est couverte et l'on passe au 90 (Territoire de Belfort, à revérifier). Les tests de la « commune sans fiche » calculent leur commune sur les données |
-| Essais sur ce département | 1 (27/11) |
-| Issue du département | #189 |
-| Dernier département terminé | 81 (25/11, PR #304, 11 fiches) |
+| Département en cours | 90 (Territoire de Belfort), à faire : aucune fiche aujourd'hui (le Lot-et-Garonne, 47, n'en a aucune non plus depuis le 06/11). Les tests de la « commune sans fiche » calculent leur commune sur les données |
+| Essais sur ce département | 0 |
+| Issue du département | à ouvrir (#189, l'Occitanie, est fermée par la PR #306) |
+| Dernier département terminé | 82 (27/11, PR #306, 9 fiches) ; l'Occitanie est couverte |
 
-**File des départements** (dans l'ordre) : l'Occitanie (#189) :
-82 ; puis 90 (Territoire de Belfort, à
+**File des départements** (dans l'ordre) : 90 (Territoire de Belfort, à
 revérifier). Ensuite les relances « à relancer », puis compléter les fiches
 existantes (téléphones, horaires, bières), un département par jour.
 

@@ -7,6 +7,7 @@ import {
   phraseConfiance,
   phraseDuManque,
   phrasePosition,
+  citeDesHoraires,
   citeUnNumero,
   hoteDeSource,
   libelleVerification,
@@ -45,6 +46,31 @@ describe('libelleVerification', () => {
 
   it('ne la remplace jamais par une date inventée', () => {
     expect(libelleVerification(undefined)).toBe('non renseignée')
+  })
+})
+
+describe('citeDesHoraires', () => {
+  it('un jour et une heure : vrai', () => {
+    expect(citeDesHoraires('mercredi 16 h – 19 h, jeudi et vendredi 16 h – 21 h 30')).toBe(true)
+    expect(citeDesHoraires('Chaque vendredi 16h-21h toute l’année')).toBe(true)
+    expect(citeDesHoraires('Ouvert tous les jours de 10h à 18h')).toBe(true)
+    expect(citeDesHoraires('Ouvert 7/7 en continu de 10h à 19h')).toBe(true)
+  })
+  it('un jour abrégé suivi d’un jour ou d’une heure : vrai (revue S383)', () => {
+    expect(citeDesHoraires('Lun-mer 17h-0h, jeu-sam 17h-1h')).toBe(true)
+    expect(citeDesHoraires('Retrait sur place possible (lun-ven 9h-17h)')).toBe(true)
+    expect(citeDesHoraires('Mer 9h-18h, ven 17h-21h')).toBe(true)
+    expect(citeDesHoraires('Ven. au dim. de 15 h à 22 h')).toBe(true)
+  })
+  it('« mer » ou « mar » seuls ne sont pas des jours', () => {
+    expect(citeDesHoraires('Vue sur la mer, ouvert depuis 10 h de route')).toBe(false)
+    expect(citeDesHoraires('Une mar- brune, 12 h de brassage')).toBe(false)
+  })
+  it('sans jour ou sans heure : faux', () => {
+    expect(citeDesHoraires('Ouvert depuis 2022, brassée sur place.')).toBe(false)
+    expect(citeDesHoraires('Ouvert le samedi matin.')).toBe(false)
+    expect(citeDesHoraires('1932 route de Villefranche, 69480 Anse')).toBe(false)
+    expect(citeDesHoraires('Bière à 5 % vol., de 10 à 12 hectolitres par an')).toBe(false)
   })
 })
 
@@ -97,6 +123,20 @@ describe('ceQuiManque et phraseDuManque', () => {
   })
   it('un numéro cité par la source n’est pas dit inconnu (revue métier S4)', () => {
     expect(ceQuiManque({ ...vide, note: 'Appeler au 04 72 00 00 00.' })).not.toContain('telephone')
+  })
+  // S383 (#281) : des horaires cités par la note ne sont pas « absents ».
+  it('une note qui cite des horaires : « ses horaires en tableau (la note en cite) »', () => {
+    const b = { ...vide, note: 'Horaires d’hiver : mercredi 16 h – 19 h, samedi 15 h – 19 h.' }
+    expect(ceQuiManque(b)).toContain('horairesEnNote')
+    expect(ceQuiManque(b)).not.toContain('horaires')
+    expect(phraseDuManque(['horairesEnNote'])).toBe('Pas encore dans la fiche : ses horaires en tableau (la note en cite).')
+  })
+  it('avec une grille, aucun manque d’horaires ; sans heure dans la note, « ses horaires » comme avant', () => {
+    const grille = [{ nature: 'vente', source: 'https://exemple.fr/', verifieLe: '2026-11-27' }] as unknown as NonNullable<Parameters<typeof ceQuiManque>[0]['horaires']>
+    const avec = ceQuiManque({ ...vide, note: 'mercredi 16 h – 19 h', horaires: grille })
+    expect(avec).not.toContain('horaires')
+    expect(avec).not.toContain('horairesEnNote')
+    expect(ceQuiManque({ ...vide, note: 'Ouvert depuis 2022, le samedi matin.' })).toContain('horaires')
   })
   it('une adresse de rue n’est plus un manque', () => {
     expect(ceQuiManque({ ...vide, addr: '2A route de Lyon, 69530 Brignais' })).not.toContain('adresse')

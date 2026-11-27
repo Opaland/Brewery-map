@@ -3175,3 +3175,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S348, treizième partie — le Tarn-et-Garonne *(27/11, routine « Département du jour »)*
 
 `docs/stories/S348.md`, issue #189. 4 paquets, 18 candidats ; 9 fiches par la règle de Cédric du 21/10 ; 950 fiches dans 94 départements, OSM à 539. L'Occitanie est couverte. Chaque lecteur a reçu la liste exacte de ses clés (leçon du 25/11) : aucun n'a lu le paquet voisin. Revue de la persona Cédric traitée avant l'application (La Cabane et La Sun en « pas de vente » d'après leur FAQ et l'office ; les heures non garanties d'Abracada'Brasserie dites ; une fermeture sans année retirée d'Oc'Ale), persona Hugo après (la remarque de week-end de Barbarossa retirée de la grille).
+
+## S383 — « ses horaires en tableau (la note en cite) » *(27/11, backlog autonome, #281)*
+
+`docs/stories/S383.md`. Deuxième passage du backlog autonome. Une fiche sans grille dont la note cite un jour (entier ou abrégé, « lun-ven ») et une heure ne dit plus « Pas encore dans la fiche : ses horaires » au-dessus de ces heures, mais « ses horaires en tableau (la note en cite) » (`citeDesHoraires`, manque `horairesEnNote`). 84 fiches sur 626 sans grille ; les comptes de complétude, qui comptent les grilles, ne changent pas. Revue adverse et persona Hugo : les jours abrégés, d'abord oubliés, sont lus.

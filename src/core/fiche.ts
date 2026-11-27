@@ -55,8 +55,27 @@ export function deLaCommune(c: string): string {
   return `de ${c}`
 }
 
+/**
+ * La note cite-t-elle des horaires : un jour et une heure (« mercredi 16 h –
+ * 19 h », « tous les jours de 10h à 18h ») ? Des lots y mettent les heures
+ * que `controler` ne relit pas, ou qu'une grille dirait à tort (S383, #281).
+ * Un jour abrégé (« lun-ven 9h-17h », « Mer 9h-18h ») compte quand il est
+ * suivi d'un autre jour ou d'une heure : seul, « mer » ou « mar » serait un
+ * mot (revue adverse et Hugo, S383). Une heure de visite compte aussi : la
+ * phrase qui s'en sert dit seulement que la note en cite, sans promettre une
+ * ouverture.
+ */
+const ABREGE = '(?:lun|mar|mer|jeu|ven|sam|dim)\\.?'
+const JOUR_ABREGE = new RegExp(`\\b${ABREGE} ?(?:[-–/] ?${ABREGE}\\b|au ${ABREGE}\\b|\\d)`, 'i')
+
+export function citeDesHoraires(texte: string): boolean {
+  const jour = /\b(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|tous les jours|7 ?jours sur 7)\b|\b7\/7\b/i
+  const heure = /\b(?:[01]?\d|2[0-4]) ?h(?: ?[0-5]\d)?\b/i
+  return (jour.test(texte) || JOUR_ABREGE.test(texte)) && heure.test(texte)
+}
+
 /** Ce que la fiche ne sait pas encore (S308), dit une fois, en tête. */
-export type Manque = 'adresse' | 'telephone' | 'horaires' | 'bieres'
+export type Manque = 'adresse' | 'telephone' | 'horaires' | 'horairesEnNote' | 'bieres'
 
 export function ceQuiManque(b: Pick<Brasserie, 'addr' | 'c' | 'contact' | 'note' | 'horaires' | 'beers'>): Manque[] {
   const manque: Manque[] = []
@@ -64,7 +83,9 @@ export function ceQuiManque(b: Pick<Brasserie, 'addr' | 'c' | 'contact' | 'note'
   // Un numéro cité par la source n'est pas « inconnu » : la partie « Joindre »
   // le dit, non revérifié (revue métier S4).
   if (b.contact?.tel === undefined && !citeUnNumero(b.note)) manque.push('telephone')
-  if (b.horaires === undefined) manque.push('horaires')
+  // Des horaires cités par la note ne sont pas « absents » : il leur manque
+  // le tableau (S383, #281).
+  if (b.horaires === undefined) manque.push(citeDesHoraires(b.note) ? 'horairesEnNote' : 'horaires')
   if (b.beers.length === 0) manque.push('bieres')
   return manque
 }
@@ -80,6 +101,7 @@ export function phraseDuManque(manque: readonly Manque[]): string {
     adresse: t('son adresse'),
     telephone: t('son téléphone'),
     horaires: t('ses horaires'),
+    horairesEnNote: t('ses horaires en tableau (la note en cite)'),
     bieres: t('ses bières'),
   }
   const liste = manque.map((m) => mots[m])

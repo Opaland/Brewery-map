@@ -91,6 +91,6 @@ Les mêmes règles que la routine du matin :
 
 | Champ | Valeur |
 |---|---|
-| Dernier déclenchement | 25/11 (repris le 26/11 après un redémarrage de la session) |
-| Dernier item traité | S382, #288 point 2 (le numéro de la note devient un lien « Appeler ») |
+| Dernier déclenchement | 27/11 |
+| Dernier item traité | S383, #281 (« ses horaires en tableau (la note en cite) ») |
 | Déclenchements sans item codable d'affilée | 0 |
