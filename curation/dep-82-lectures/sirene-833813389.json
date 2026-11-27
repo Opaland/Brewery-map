@@ -1,0 +1,43 @@
+{
+ "candidat": "sirene:833813389",
+ "ajout": {
+  "fiche": {
+   "n": "Brasserie Oc'Ale",
+   "c": "Bressols",
+   "d": "82",
+   "lat": 43.94343,
+   "lon": 1.30991,
+   "km": 333,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; fermée pendant les fêtes de fin d'année.",
+   "addr": "547 chemin du Château d'Eau, 82710 Bressols",
+   "src": "https://www.bieres-ocale.fr",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "blanche"
+    },
+    {
+     "type": "brune"
+    },
+    {
+     "type": "ipa"
+    }
+   ],
+   "contact": {
+    "tel": "09 50 33 54 90",
+    "source": "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815",
+    "verifieLe": "2026-11-27"
+   }
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.bieres-ocale.fr",
+   "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815",
+   "https://data.geopf.fr/geocodage/search?q=547+chemin+du+Ch%C3%A2teau+d%27Eau%2C+82710+Bressols&limit=5"
+  ],
+  "extrait": "Vente en ligne (paiement CB) / Vente directe",
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10)."
+ }
+}

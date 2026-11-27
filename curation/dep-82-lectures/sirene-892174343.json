@@ -1,0 +1,33 @@
+{
+ "candidat": "sirene:892174343",
+ "ajout": {
+  "fiche": {
+   "n": "La Cabane",
+   "c": "Caylus",
+   "d": "82",
+   "lat": 44.22931,
+   "lon": 1.76855,
+   "km": 284.6,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie de Caylus aux bières permanentes, éphémères, saisonnières ou vieillies en barriques, vendues sur son e-shop, d'après son site ; l'office cite une vente sur un point de vente collectif. Ni vente ni accueil à la brasserie ne sont dits.",
+   "addr": "ZA Pech de Rondols, 82160 Caylus",
+   "src": "https://www.brasserielacabane.com",
+   "coordPrecision": "centre",
+   "beers": [],
+   "contact": {
+    "tel": "07 60 91 65 55",
+    "site": "https://www.brasserielacabane.com",
+    "source": "https://www.brasserielacabane.com",
+    "verifieLe": "2026-11-27"
+   }
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.brasserielacabane.com",
+   "https://data.geopf.fr/geocodage/search?q=Caylus&type=municipality&limit=5"
+  ],
+  "extrait": "La Cabane vous propose un large choix de bières permanentes",
+  "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. Seul numéro publié par la brasserie, un portable (règle du 21/10)."
+ }
+}

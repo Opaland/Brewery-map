@@ -1,0 +1,396 @@
+{
+ "lot": "dep-82",
+ "propositions": [],
+ "ajouts": [
+  {
+   "fiche": {
+    "n": "La Sun Microbrasserie",
+    "c": "Montauban",
+    "d": "82",
+    "lat": 44.01984,
+    "lon": 1.36271,
+    "km": 324.5,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site ; l'office de Montauban dit le site « not open to the public », ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+    "addr": "chemin du Ramierou, 82000 Montauban",
+    "src": "https://lasun-biere.fr",
+    "coordPrecision": "centre",
+    "beers": []
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://lasun-biere.fr",
+    "https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5"
+   ],
+   "extrait": "nous proposons à la location des fûts de bières pour tireuses professionnelles",
+   "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. La clé SIRENE (Délices Sun) est à la même rue. Le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable du lien d'appel du site, aussi écrit sur l'office, n'est pas repris : le lieu n'accueille pas."
+  },
+  {
+   "fiche": {
+    "n": "Iron",
+    "c": "Montauban",
+    "d": "82",
+    "lat": 43.97467,
+    "lon": 1.41329,
+    "km": 324.2,
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie et distillerie de Montauban, avec une boutique sur place, du lundi au vendredi de 9 h à 17 h, sur les horaires de production, d'après son site. Rien ne dit qu'on peut y boire sur place. Téléphone publié par la brasserie : 06 45 15 84 10.",
+    "addr": "4905 route de Saint-Nauphary, 82000 Montauban",
+    "src": "https://brasserie-iron.com/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://brasserie-iron.com/",
+     "source": "https://brasserie-iron.com/",
+     "verifieLe": "2026-11-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "mer": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "17:00"
+       ]
+      ],
+      "remarque": "Sur les horaires de production.",
+      "source": "https://brasserie-iron.com/",
+      "verifieLe": "2026-11-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://brasserie-iron.com/",
+    "https://data.geopf.fr/geocodage/search?q=4905+route+de+Saint-Nauphary%2C+82000+Montauban&limit=5"
+   ],
+   "extrait": "Boutique sur place",
+   "choix": "Site officiel relu sur la page brute le 27/11. Le point OSM de Saint-Nauphary est la même brasserie. Seul numéro publié, un portable écrit avec des points, que le contrôle ne relit pas : dans la note (règle du 21/10)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Oc'Ale",
+    "c": "Bressols",
+    "d": "82",
+    "lat": 43.94343,
+    "lon": 1.30991,
+    "km": 333,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; fermée pendant les fêtes de fin d'année.",
+    "addr": "547 chemin du Château d'Eau, 82710 Bressols",
+    "src": "https://www.bieres-ocale.fr",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "blanche"
+     },
+     {
+      "type": "brune"
+     },
+     {
+      "type": "ipa"
+     }
+    ],
+    "contact": {
+     "tel": "09 50 33 54 90",
+     "source": "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815",
+     "verifieLe": "2026-11-27"
+    }
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.bieres-ocale.fr",
+    "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815",
+    "https://data.geopf.fr/geocodage/search?q=547+chemin+du+Ch%C3%A2teau+d%27Eau%2C+82710+Bressols&limit=5"
+   ],
+   "extrait": "Vente en ligne (paiement CB) / Vente directe",
+   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10)."
+  },
+  {
+   "fiche": {
+    "n": "Abracada'Brasserie",
+    "c": "Montauban",
+    "d": "82",
+    "lat": 44.04039,
+    "lon": 1.36935,
+    "km": 322.8,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. La vente à emporter n'y est pas dite.",
+    "addr": "1620 avenue de Cos, 82000 Montauban",
+    "src": "https://www.abracadabrasserie.com",
+    "coordPrecision": "address",
+    "beers": []
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.abracadabrasserie.com",
+    "https://data.geopf.fr/geocodage/search?q=1620+avenue+de+Cos%2C+82000+Montauban&limit=5"
+   ],
+   "extrait": "Ici ce sont les brasseurs qui servent votre bière.",
+   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : une taproom sans vente dite (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont données comme non vérifiées : non reprises. Seul un portable, publié par l'office : non repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Baltringue",
+    "c": "Parisot",
+    "d": "82",
+    "lat": 44.253,
+    "lon": 1.86976,
+    "km": 276.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie de Parisot : on réserve sur sa boutique en ligne et on retire les bières à la brasserie pendant les horaires d'ouverture, uniquement sur rendez-vous, du lundi au vendredi, d'après son site. Rien ne dit qu'on peut y boire sur place.",
+    "addr": "876 route d'Albi, 82160 Parisot",
+    "src": "https://www.brasseriebaltringue.fr/",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriebaltringue.fr/",
+     "source": "https://www.brasseriebaltringue.fr/",
+     "verifieLe": "2026-11-27"
+    }
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.brasseriebaltringue.fr/",
+    "https://data.geopf.fr/geocodage/search?q=Parisot&type=municipality&limit=5"
+   ],
+   "extrait": "à la brasserie, pendant les horaires d",
+   "choix": "Site officiel relu sur la page brute le 27/11 (« passez les retirer à la brasserie, pendant les horaires d'ouverture (uniquement sur rendez-vous) »). Le retrait sur rendez-vous ne fait pas une grille. Aucun téléphone sur le site ; le portable de l'office n'est pas repris."
+  },
+  {
+   "fiche": {
+    "n": "La Cabane",
+    "c": "Caylus",
+    "d": "82",
+    "lat": 44.22931,
+    "lon": 1.76855,
+    "km": 284.6,
+    "cat": 0,
+    "conf": "",
+    "note": "Microbrasserie de Caylus aux bières permanentes, éphémères, saisonnières ou vieillies en barriques, vendues sur son e-shop, d'après son site ; l'office cite une vente sur un point de vente collectif. Ni vente ni accueil à la brasserie ne sont dits.",
+    "addr": "ZA Pech de Rondols, 82160 Caylus",
+    "src": "https://www.brasserielacabane.com",
+    "coordPrecision": "centre",
+    "beers": [],
+    "contact": {
+     "tel": "07 60 91 65 55",
+     "site": "https://www.brasserielacabane.com",
+     "source": "https://www.brasserielacabane.com",
+     "verifieLe": "2026-11-27"
+    }
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.brasserielacabane.com",
+    "https://data.geopf.fr/geocodage/search?q=Caylus&type=municipality&limit=5"
+   ],
+   "extrait": "La Cabane vous propose un large choix de bières permanentes",
+   "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. Seul numéro publié par la brasserie, un portable (règle du 21/10)."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Escumosa (Domaine de la Tucayne)",
+    "c": "Bouillac",
+    "d": "82",
+    "lat": 43.8543,
+    "lon": 1.1133,
+    "km": 351.5,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Brasserie créée par un vigneron brasseur au Domaine de la Tucayne, avec vente à la propriété, d'après l'office de tourisme d'Occitanie ; la cave du domaine est ouverte le mercredi et le samedi de 9 h à 12 h et de 14 h à 18 h, d'après son site.",
+    "addr": "5450 chemin des Crêtes, 82600 Bouillac",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "tel": "05 63 27 70 43",
+     "site": "https://www.latucayne.fr/",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+     "verifieLe": "2026-11-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "mer": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "sam": [
+       [
+        "09:00",
+        "12:00"
+       ],
+       [
+        "14:00",
+        "18:00"
+       ]
+      ],
+      "remarque": "Heures de la cave du domaine ; en dehors, contacter le domaine.",
+      "source": "https://www.latucayne.fr/",
+      "verifieLe": "2026-11-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-escumosa-bouillac_TFOSITRA2_DEG_6597355/",
+    "https://www.latucayne.fr/",
+    "https://data.geopf.fr/geocodage/search?q=5450+chemin+des+Cr%C3%AAtes%2C+82600+Bouillac&limit=5"
+   ],
+   "extrait": "Vente à la propriété",
+   "choix": "Fiche de l'office et site du domaine relus sur la page brute le 27/11. Confiance moyenne : la cave du site peut viser le vin autant que la bière. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10) ; les portables du site, associés à des prénoms, ne sont pas repris."
+  },
+  {
+   "fiche": {
+    "n": "Brasserie Barbarossa",
+    "c": "Grisolles",
+    "d": "82",
+    "lat": 43.8283,
+    "lon": 1.31087,
+    "km": 340.7,
+    "cat": 2,
+    "conf": "solide",
+    "note": "Brasserie de Grisolles avec un espace dégustation et une vente sur place à emporter, d'après son site ; une guinguette éphémère est annoncée « bientôt ». Le samedi et le dimanche, sur demande. Téléphone publié par la brasserie : 05 63 92 97 13.",
+    "addr": "670 chemin des Crêtes, 82170 Grisolles",
+    "src": "https://www.brasseriebarbarossa.fr/",
+    "coordPrecision": "address",
+    "beers": [],
+    "contact": {
+     "site": "https://www.brasseriebarbarossa.fr/",
+     "source": "https://www.brasseriebarbarossa.fr/",
+     "verifieLe": "2026-11-27"
+    },
+    "horaires": [
+     {
+      "nature": "vente",
+      "lun": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mar": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "mer": [
+       [
+        "14:30",
+        "18:00"
+       ]
+      ],
+      "jeu": [
+       [
+        "09:00",
+        "18:00"
+       ]
+      ],
+      "ven": [
+       [
+        "09:00",
+        "12:00"
+       ]
+      ],
+      "remarque": "Samedi et dimanche : sur demande.",
+      "source": "https://www.brasseriebarbarossa.fr/",
+      "verifieLe": "2026-11-27"
+     }
+    ]
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.brasseriebarbarossa.fr/",
+    "https://data.geopf.fr/geocodage/search?q=670+chemin+des+Cr%C3%AAtes%2C+82170+Grisolles&limit=5"
+   ],
+   "extrait": "Espace dégustation - Vente sur place à emporter",
+   "choix": "Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note."
+  },
+  {
+   "fiche": {
+    "n": "HopDuck Brewery",
+    "c": "Campsas",
+    "d": "82",
+    "lat": 43.89668,
+    "lon": 1.30948,
+    "km": 336.1,
+    "cat": 2,
+    "conf": "moyenne",
+    "note": "Micro-brasserie de Campsas, d'après son site ; l'office de tourisme d'Occitanie lui donne une boutique. Aucun horaire publié ; rien ne dit qu'on peut y boire sur place.",
+    "addr": "4 rue Sépat, ZAC Sépat, 82370 Campsas",
+    "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+    "coordPrecision": "address",
+    "beers": [
+     {
+      "type": "autre",
+      "libelle": "Cansas City (pale ale)"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Session IPA"
+     },
+     {
+      "type": "ipa",
+      "libelle": "Mellow Yellow"
+     },
+     {
+      "type": "stout",
+      "libelle": "All Day Stout"
+     },
+     {
+      "type": "blanche",
+      "libelle": "Witbier"
+     }
+    ],
+    "contact": {
+     "tel": "06 68 54 29 20",
+     "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+     "verifieLe": "2026-11-27"
+    }
+   },
+   "verifieLe": "2026-11-27",
+   "sources": [
+    "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+    "https://data.geopf.fr/geocodage/search?q=4+rue+S%C3%A9pat%2C+ZAC+S%C3%A9pat%2C+82370+Campsas&limit=5"
+   ],
+   "extrait": "Brasserie locale, made in Campsas.",
+   "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11 (« Une gamme complète de bières artisanales produites dans notre micro brasserie de Campsas » ; les bières sur la page « Nos bières »). Catégorie 2 en confiance moyenne : la boutique n'est écrite que sur l'office. Seul numéro, un portable publié aussi par la brasserie (« 0668542920 » sur son site) : repris depuis l'office, où il est en paires (règle du 21/10)."
+  }
+ ]
+}

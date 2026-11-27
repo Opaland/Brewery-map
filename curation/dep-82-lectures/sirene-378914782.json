@@ -1,0 +1,27 @@
+{
+ "candidat": "sirene:378914782",
+ "ajout": {
+  "fiche": {
+   "n": "La Sun Microbrasserie",
+   "c": "Montauban",
+   "d": "82",
+   "lat": 44.01984,
+   "lon": 1.36271,
+   "km": 324.5,
+   "cat": 0,
+   "conf": "",
+   "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site ; l'office de Montauban dit le site « not open to the public », ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+   "addr": "chemin du Ramierou, 82000 Montauban",
+   "src": "https://lasun-biere.fr",
+   "coordPrecision": "centre",
+   "beers": []
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://lasun-biere.fr",
+   "https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5"
+  ],
+  "extrait": "nous proposons à la location des fûts de bières pour tireuses professionnelles",
+  "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. La clé SIRENE (Délices Sun) est à la même rue. Le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable du lien d'appel du site, aussi écrit sur l'office, n'est pas repris : le lieu n'accueille pas."
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "candidat": "way/1058890481",
+ "ajout": {
+  "fiche": {
+   "n": "HopDuck Brewery",
+   "c": "Campsas",
+   "d": "82",
+   "lat": 43.89668,
+   "lon": 1.30948,
+   "km": 336.1,
+   "cat": 2,
+   "conf": "moyenne",
+   "note": "Micro-brasserie de Campsas, d'après son site ; l'office de tourisme d'Occitanie lui donne une boutique. Aucun horaire publié ; rien ne dit qu'on peut y boire sur place.",
+   "addr": "4 rue Sépat, ZAC Sépat, 82370 Campsas",
+   "src": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+   "coordPrecision": "address",
+   "beers": [
+    {
+     "type": "autre",
+     "libelle": "Cansas City (pale ale)"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Session IPA"
+    },
+    {
+     "type": "ipa",
+     "libelle": "Mellow Yellow"
+    },
+    {
+     "type": "stout",
+     "libelle": "All Day Stout"
+    },
+    {
+     "type": "blanche",
+     "libelle": "Witbier"
+    }
+   ],
+   "contact": {
+    "tel": "06 68 54 29 20",
+    "source": "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+    "verifieLe": "2026-11-27"
+   }
+  },
+  "verifieLe": "2026-11-27",
+  "sources": [
+   "https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/",
+   "https://data.geopf.fr/geocodage/search?q=4+rue+S%C3%A9pat%2C+ZAC+S%C3%A9pat%2C+82370+Campsas&limit=5"
+  ],
+  "extrait": "Brasserie locale, made in Campsas.",
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11 (« Une gamme complète de bières artisanales produites dans notre micro brasserie de Campsas » ; les bières sur la page « Nos bières »). Catégorie 2 en confiance moyenne : la boutique n'est écrite que sur l'office. Seul numéro, un portable publié aussi par la brasserie (« 0668542920 » sur son site) : repris depuis l'office, où il est en paires (règle du 21/10)."
+ }
+}
