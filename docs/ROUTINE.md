@@ -11,8 +11,8 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 82 (Tarn-et-Garonne), S348 (Occitanie), à faire. Les tests de la « commune sans fiche » calculent leur commune sur les données |
-| Essais sur ce département | 0 |
+| Département en cours | 82 (Tarn-et-Garonne), S348 (Occitanie) : PR ouverte le 27/11 ; si elle est mergée, l'Occitanie est couverte et l'on passe au 90 (Territoire de Belfort, à revérifier). Les tests de la « commune sans fiche » calculent leur commune sur les données |
+| Essais sur ce département | 1 (27/11) |
 | Issue du département | #189 |
 | Dernier département terminé | 81 (25/11, PR #304, 11 fiches) |
 

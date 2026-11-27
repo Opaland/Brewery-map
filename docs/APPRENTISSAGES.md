@@ -92,6 +92,10 @@ pourquoi.
   et 5 ont lu les paquets 3 et 4 ; le 5 n'a pas été lu). Parade : comparer les
   clés que chaque agent liste aux clés de son paquet dès son retour, et relancer
   un lecteur pour le paquet oublié.
+- **Une FAQ peut trancher la catégorie** (27/11, La Cabane : « Puis-je passer à la
+  brasserie ? Et non, sauf durant les évènements »). Parade : avant d'écrire
+  « ni vente ni accueil ne sont dits », lire les pages « Infos », « FAQ » ou
+  « Contact » du site ; une réponse écrite non vaut catégorie 3.
 - **Le menu d'une page d'office n'est pas sa fiche** (25/11, Burtonian : « savoir-faire »
   pris dans l'entrée de menu « Entreprises et savoir-faire » est devenu « visites »).
   Parade : ne citer que le bloc « À propos » et la liste de la fiche.

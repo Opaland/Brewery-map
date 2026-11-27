@@ -3171,3 +3171,7 @@ Quota de recherches encore ouvert : quatre vagues de lecture (37 agents) sur les
 ## S382 — Appeler le numéro que cite la source *(25–26/11, backlog autonome, #288 point 2)*
 
 `docs/stories/S382.md`. Premier passage du backlog autonome (`docs/BACKLOG-AUTONOME.md`). Quand une fiche n'a pas de téléphone vérifié et que sa note cite un numéro, « Joindre la brasserie » en fait un lien « Appeler le … (numéro cité par la source, non revérifié) » ; l'ancienne phrase renvoyait à un titre absent des fiches en catégorie 0 (#292). `numerosCites` (paires, points, chiffres collés ; dédoublonnés) et `numerosAppelables` (hors 08, la règle de `contact.tel`, partagée par `TELEPHONE_APPELABLE`) ; `citeUnNumero` s'appuie dessus. 17 fiches concernées. Revue adverse (doublon, 08) et persona Hugo traitées ; le libellé selon l'origine de la ligne reste à Cédric.
+
+## S348, treizième partie — le Tarn-et-Garonne *(27/11, routine « Département du jour »)*
+
+`docs/stories/S348.md`, issue #189. 4 paquets, 18 candidats ; 9 fiches par la règle de Cédric du 21/10 ; 950 fiches dans 94 départements, OSM à 539. L'Occitanie est couverte. Chaque lecteur a reçu la liste exacte de ses clés (leçon du 25/11) : aucun n'a lu le paquet voisin. Revue de la persona Cédric traitée avant l'application (La Cabane et La Sun en « pas de vente » d'après leur FAQ et l'office ; les heures non garanties d'Abracada'Brasserie dites ; une fermeture sans année retirée d'Oc'Ale), persona Hugo après.

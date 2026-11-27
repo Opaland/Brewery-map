@@ -3,7 +3,7 @@
 Ce lot ajoute **9 fiches nouvelles**, par la règle de Cédric du 21/10 (`docs/DECISIONS.md`).
 
 **Décompte** : 18 candidats = 9 proposés + 9 non proposés (tableau ci-dessous).
-Catégories proposées : 0 « acheter et consommer », 6 « acheter seulement », 0 « pas de vente », 3 « à confirmer », 0 « consommer sur place seulement ».
+Catégories proposées : 0 « acheter et consommer », 6 « acheter seulement », 2 « pas de vente », 1 « à confirmer », 0 « consommer sur place seulement ».
 
 **Comment le lot a été fait** (`.claude/skills/campagne-departement/SKILL.md`) : candidats du registre SIRENE et de la couche OpenStreetMap ; lecture par les agents (site officiel, puis Untappd et office de tourisme, au moins deux recherches par candidat ; un annuaire, un article ou un réseau social seuls ne suffisent pas) ; chaque extrait contrôlé sur sa page par `controler` ; positions par le géocodeur de l’IGN.
 
@@ -35,31 +35,31 @@ Catégories proposées : 0 « acheter et consommer », 6 « acheter seulement »
 - lat : (vide) → 44.01984
 - lon : (vide) → 1.36271
 - km : (vide) → 324.5
-- cat : (vide) → 0 (À confirmer)
-- conf : (vide) → (vide)
-- note : (vide) → Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site ; l'office de Montauban dit le site « not open to the public », ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.
+- cat : (vide) → 3 (Pas de vente)
+- conf : (vide) → moyenne
+- note : (vide) → Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.
 - addr : (vide) → chemin du Ramierou, 82000 Montauban
-- src : (vide) → https://lasun-biere.fr
+- src : (vide) → https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840
 - coordPrecision : (vide) → centre
 - beers : (vide) → []
 - verifieLe : (vide) → 2026-11-27
 
-Sources (vérifiée le 2026-11-27) : https://lasun-biere.fr ; https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5
+Sources (vérifiée le 2026-11-27) : https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840 ; https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5
 
-Extrait lu : « nous proposons à la location des fûts de bières pour tireuses professionnelles »
+Extrait lu : « Site not open to the public. »
 
-Choix du vérificateur : Site officiel et fiche de l'office relus sur la page brute le 27/11. La clé SIRENE (Délices Sun) est à la même rue. Le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable du lien d'appel du site, aussi écrit sur l'office, n'est pas repris : le lieu n'accueille pas.
+Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - À confirmer
+> - Pas de vente
 > - Adresse
 > - chemin du Ramierou, 82000 Montauban
 > - Pas encore dans la fiche : son téléphone, ses horaires et ses bières.
 > - [Chercher sur Google Maps](https://www.google.com/maps/search/?api=1&query=La+Sun+Microbrasserie+Montauban)[Ses bières sur Untappd](https://untappd.com/search?q=La+Sun+Microbrasserie&type=brewery)
 > - Google Maps cherche par le nom et la commune : vérifiez que c’est la bonne brasserie.
-> - Lu sur [lasun-biere.fr](https://lasun-biere.fr) le 27 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
+> - Lu sur [montauban-tourisme.com](https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840) le 27 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
 ### 2. Iron — fiche nouvelle
 
@@ -96,12 +96,12 @@ Extrait lu : « Boutique sur place »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Le point OSM de Saint-Nauphary est la même brasserie. Seul numéro publié, un portable écrit avec des points, que le contrôle ne relit pas : dans la note (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 30 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 8 h 37 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
 > - Adresse
 > - 4905 route de Saint-Nauphary, 82000 Montauban
 > - Pas encore dans la fiche : ses bières.
@@ -132,7 +132,7 @@ Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Le point
 - km : (vide) → 333
 - cat : (vide) → 2 (Acheter seulement)
 - conf : (vide) → moyenne
-- note : (vide) → Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; fermée pendant les fêtes de fin d'année.
+- note : (vide) → Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; l'office de Montauban la dit fermée le samedi.
 - addr : (vide) → 547 chemin du Château d'Eau, 82710 Bressols
 - src : (vide) → https://www.bieres-ocale.fr
 - coordPrecision : (vide) → address
@@ -148,9 +148,9 @@ Sources (vérifiée le 2026-11-27) : https://www.bieres-ocale.fr ; https://www.m
 
 Extrait lu : « Vente en ligne (paiement CB) / Vente directe »
 
-Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10).
+Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10). L'avis de fermeture de fin d'année du site n'a pas d'année : non repris (persona Cédric, 27/11).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -178,7 +178,7 @@ Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus s
 - km : (vide) → 322.8
 - cat : (vide) → 0 (À confirmer)
 - conf : (vide) → (vide)
-- note : (vide) → Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. La vente à emporter n'y est pas dite.
+- note : (vide) → Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.
 - addr : (vide) → 1620 avenue de Cos, 82000 Montauban
 - src : (vide) → https://www.abracadabrasserie.com
 - coordPrecision : (vide) → address
@@ -189,9 +189,9 @@ Sources (vérifiée le 2026-11-27) : https://www.abracadabrasserie.com ; https:/
 
 Extrait lu : « Ici ce sont les brasseurs qui servent votre bière. »
 
-Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : une taproom sans vente dite (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont données comme non vérifiées : non reprises. Seul un portable, publié par l'office : non repris.
+Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -228,7 +228,7 @@ Extrait lu : « à la brasserie, pendant les horaires d »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (« passez les retirer à la brasserie, pendant les horaires d'ouverture (uniquement sur rendez-vous) »). Le retrait sur rendez-vous ne fait pas une grille. Aucun téléphone sur le site ; le portable de l'office n'est pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -249,11 +249,11 @@ Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (« passe
 - lat : (vide) → 44.22931
 - lon : (vide) → 1.76855
 - km : (vide) → 284.6
-- cat : (vide) → 0 (À confirmer)
-- conf : (vide) → (vide)
-- note : (vide) → Microbrasserie de Caylus aux bières permanentes, éphémères, saisonnières ou vieillies en barriques, vendues sur son e-shop, d'après son site ; l'office cite une vente sur un point de vente collectif. Ni vente ni accueil à la brasserie ne sont dits.
+- cat : (vide) → 3 (Pas de vente)
+- conf : (vide) → solide
+- note : (vide) → Microbrasserie bio de Caylus : on ne passe pas à la brasserie, sauf lors de ses événements (autour du 1er mai), et elle ne livre pas les particuliers ; ses bières se trouvent chez des distributeurs et sur son e-shop, d'après son site.
 - addr : (vide) → ZA Pech de Rondols, 82160 Caylus
-- src : (vide) → https://www.brasserielacabane.com
+- src : (vide) → https://www.brasserielacabane.com/infos/
 - coordPrecision : (vide) → centre
 - beers : (vide) → []
 - contact.tel : (vide) → 07 60 91 65 55
@@ -262,16 +262,16 @@ Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (« passe
 - contact.verifieLe : (vide) → 2026-11-27
 - verifieLe : (vide) → 2026-11-27
 
-Sources (vérifiée le 2026-11-27) : https://www.brasserielacabane.com ; https://data.geopf.fr/geocodage/search?q=Caylus&type=municipality&limit=5
+Sources (vérifiée le 2026-11-27) : https://www.brasserielacabane.com/infos/ ; https://www.brasserielacabane.com ; https://data.geopf.fr/geocodage/search?q=Caylus&type=municipality&limit=5
 
-Extrait lu : « La Cabane vous propose un large choix de bières permanentes »
+Extrait lu : « Et non, sauf durant les »
 
-Choix du vérificateur : Site officiel et fiche de l'office relus sur la page brute le 27/11. Seul numéro publié par la brasserie, un portable (règle du 21/10).
+Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (FAQ : « Puis-je passer à la brasserie ? Et non, sauf durant les évènements. ») : catégorie 3 (persona Cédric, 27/11, qui a demandé de lire la page « Infos »). Seul numéro publié par la brasserie, un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
-> - À confirmer
+> - Pas de vente
 > - Adresse
 > - ZA Pech de Rondols, 82160 Caylus
 > - Pas encore dans la fiche : ses horaires et ses bières.
@@ -280,7 +280,7 @@ Choix du vérificateur : Site officiel et fiche de l'office relus sur la page br
 > - Joindre la brasserie
 > - [Appeler le 07 60 91 65 55](tel:+33760916555)
 > - [Site de la brasserie](https://www.brasserielacabane.com)
-> - Lu sur [brasserielacabane.com](https://www.brasserielacabane.com) le 27 novembre 2026. Rien n’établit encore ce qu’on peut y faire.
+> - Lu sur [brasserielacabane.com](https://www.brasserielacabane.com/infos/) le 27 novembre 2026. La source décrit précisément ce qu’on peut faire sur place.
 
 ### 7. Brasserie Escumosa (Domaine de la Tucayne) — fiche nouvelle
 
@@ -315,12 +315,12 @@ Extrait lu : « Vente à la propriété »
 
 Choix du vérificateur : Fiche de l'office et site du domaine relus sur la page brute le 27/11. Confiance moyenne : la cave du site peut viser le vin autant que la bière. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10) ; les portables du site, associés à des prénoms, ne sont pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 30 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 8 h 37 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 5450 chemin des Crêtes, 82600 Bouillac
 > - Pas encore dans la fiche : ses bières.
@@ -376,12 +376,12 @@ Extrait lu : « Espace dégustation - Vente sur place à emporter »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 30 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 8 h 37 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
 > - Adresse
 > - 670 chemin des Crêtes, 82170 Grisolles
 > - Pas encore dans la fiche : ses bières.
@@ -437,7 +437,7 @@ Extrait lu : « Brasserie locale, made in Campsas. »
 
 Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 27/11 (« Une gamme complète de bières artisanales produites dans notre micro brasserie de Campsas » ; les bières sur la page « Nos bières »). Catégorie 2 en confiance moyenne : la boutique n'est écrite que sur l'office. Seul numéro, un portable publié aussi par la brasserie (« 0668542920 » sur son site) : repris depuis l'office, où il est en paires (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:30, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -459,4 +459,4 @@ Choix du vérificateur : Fiche de l'office et site officiel relus sur la page br
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=HopDuck+Brewery&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/) le 27 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : ceb05810f8ad
+Empreinte du lot : 6fd3724ac2b6

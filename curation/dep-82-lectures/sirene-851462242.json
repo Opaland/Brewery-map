@@ -10,7 +10,7 @@
    "km": 322.8,
    "cat": 0,
    "conf": "",
-   "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. La vente à emporter n'y est pas dite.",
+   "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.",
    "addr": "1620 avenue de Cos, 82000 Montauban",
    "src": "https://www.abracadabrasserie.com",
    "coordPrecision": "address",
@@ -22,6 +22,6 @@
    "https://data.geopf.fr/geocodage/search?q=1620+avenue+de+Cos%2C+82000+Montauban&limit=5"
   ],
   "extrait": "Ici ce sont les brasseurs qui servent votre bière.",
-  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : une taproom sans vente dite (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont données comme non vérifiées : non reprises. Seul un portable, publié par l'office : non repris."
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris."
  }
 }

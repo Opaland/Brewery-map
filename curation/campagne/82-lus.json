@@ -169,11 +169,11 @@
   "adresse": "1620 avenue de Cos, 82000 Montauban",
   "cat": 0,
   "conf": "",
-  "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. La vente à emporter n'y est pas dite.",
+  "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.",
   "src": "https://www.abracadabrasserie.com",
   "extrait": "Ici ce sont les brasseurs qui servent votre bière.",
   "beers": [],
-  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : une taproom sans vente dite (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont données comme non vérifiées : non reprises. Seul un portable, publié par l'office : non repris."
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris."
  },
  {
   "cle": "sirene:833813389",
@@ -182,7 +182,7 @@
   "adresse": "547 chemin du Château d'Eau, 82710 Bressols",
   "cat": 2,
   "conf": "moyenne",
-  "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; fermée pendant les fêtes de fin d'année.",
+  "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; l'office de Montauban la dit fermée le samedi.",
   "src": "https://www.bieres-ocale.fr",
   "extrait": "Vente en ligne (paiement CB) / Vente directe",
   "beers": [
@@ -196,7 +196,7 @@
     "type": "ipa"
    }
   ],
-  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10).",
+  "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10). L'avis de fermeture de fin d'année du site n'a pas d'année : non repris (persona Cédric, 27/11).",
   "contact": {
    "tel": "09 50 33 54 90",
    "source": "https://www.montauban-tourisme.com/en/offers/brasserie-ocale-bressols-en-3474815"
@@ -207,13 +207,13 @@
   "n": "La Sun Microbrasserie",
   "c": "Montauban",
   "adresse": "chemin du Ramierou, 82000 Montauban",
-  "cat": 0,
-  "conf": "",
-  "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site ; l'office de Montauban dit le site « not open to the public », ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
-  "src": "https://lasun-biere.fr",
-  "extrait": "nous proposons à la location des fûts de bières pour tireuses professionnelles",
+  "cat": 3,
+  "conf": "moyenne",
+  "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+  "src": "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
+  "extrait": "Site not open to the public.",
   "beers": [],
-  "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. La clé SIRENE (Délices Sun) est à la même rue. Le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable du lien d'appel du site, aussi écrit sur l'office, n'est pas repris : le lieu n'accueille pas."
+  "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas."
  },
  {
   "cle": "sirene:897409017",
@@ -265,13 +265,13 @@
   "n": "La Cabane",
   "c": "Caylus",
   "adresse": "ZA Pech de Rondols, 82160 Caylus",
-  "cat": 0,
-  "conf": "",
-  "note": "Microbrasserie de Caylus aux bières permanentes, éphémères, saisonnières ou vieillies en barriques, vendues sur son e-shop, d'après son site ; l'office cite une vente sur un point de vente collectif. Ni vente ni accueil à la brasserie ne sont dits.",
-  "src": "https://www.brasserielacabane.com",
-  "extrait": "La Cabane vous propose un large choix de bières permanentes",
+  "cat": 3,
+  "conf": "solide",
+  "note": "Microbrasserie bio de Caylus : on ne passe pas à la brasserie, sauf lors de ses événements (autour du 1er mai), et elle ne livre pas les particuliers ; ses bières se trouvent chez des distributeurs et sur son e-shop, d'après son site.",
+  "src": "https://www.brasserielacabane.com/infos/",
+  "extrait": "Et non, sauf durant les",
   "beers": [],
-  "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. Seul numéro publié par la brasserie, un portable (règle du 21/10).",
+  "choix": "Site officiel relu sur la page brute le 27/11 (FAQ : « Puis-je passer à la brasserie ? Et non, sauf durant les évènements. ») : catégorie 3 (persona Cédric, 27/11, qui a demandé de lire la page « Infos »). Seul numéro publié par la brasserie, un portable (règle du 21/10).",
   "contact": {
    "tel": "07 60 91 65 55",
    "site": "https://www.brasserielacabane.com",

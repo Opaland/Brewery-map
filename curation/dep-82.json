@@ -10,21 +10,21 @@
     "lat": 44.01984,
     "lon": 1.36271,
     "km": 324.5,
-    "cat": 0,
-    "conf": "",
-    "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site ; l'office de Montauban dit le site « not open to the public », ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
+    "cat": 3,
+    "conf": "moyenne",
+    "note": "Microbrasserie de Montauban qui loue des fûts pour tireuses, d'après son site. L'office de Montauban dit le lieu fermé au public, fermé le samedi et le dimanche, ouvert sur réservation, et ses bières en vente chez des cavistes de la ville.",
     "addr": "chemin du Ramierou, 82000 Montauban",
-    "src": "https://lasun-biere.fr",
+    "src": "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
     "coordPrecision": "centre",
     "beers": []
    },
    "verifieLe": "2026-11-27",
    "sources": [
-    "https://lasun-biere.fr",
+    "https://www.montauban-tourisme.com/en/offers/la-sun-microbrasserie-montauban-en-5659840",
     "https://data.geopf.fr/geocodage/search?q=Montauban&type=municipality&limit=5"
    ],
-   "extrait": "nous proposons à la location des fûts de bières pour tireuses professionnelles",
-   "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. La clé SIRENE (Délices Sun) est à la même rue. Le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable du lien d'appel du site, aussi écrit sur l'office, n'est pas repris : le lieu n'accueille pas."
+   "extrait": "Site not open to the public.",
+   "choix": "Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas."
   },
   {
    "fiche": {
@@ -103,7 +103,7 @@
     "km": 333,
     "cat": 2,
     "conf": "moyenne",
-    "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; fermée pendant les fêtes de fin d'année.",
+    "note": "Brasserie de Bressols, en vente directe, qui accueille du lundi au vendredi de 10 h à 18 h, de préférence sur rendez-vous, d'après son site ; l'office de Montauban la dit fermée le samedi.",
     "addr": "547 chemin du Château d'Eau, 82710 Bressols",
     "src": "https://www.bieres-ocale.fr",
     "coordPrecision": "address",
@@ -131,7 +131,7 @@
     "https://data.geopf.fr/geocodage/search?q=547+chemin+du+Ch%C3%A2teau+d%27Eau%2C+82710+Bressols&limit=5"
    ],
    "extrait": "Vente en ligne (paiement CB) / Vente directe",
-   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10)."
+   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10). L'avis de fermeture de fin d'année du site n'a pas d'année : non repris (persona Cédric, 27/11)."
   },
   {
    "fiche": {
@@ -143,7 +143,7 @@
     "km": 322.8,
     "cat": 0,
     "conf": "",
-    "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. La vente à emporter n'y est pas dite.",
+    "note": "Microbrasserie au nord de Montauban, avec une taproom où les brasseurs servent ses bières, neuf à la pression, et des soirées, d'après son site. L'office de Montauban cite une boutique et donne, sans les garantir, du mercredi au samedi de 17 h à 22 h.",
     "addr": "1620 avenue de Cos, 82000 Montauban",
     "src": "https://www.abracadabrasserie.com",
     "coordPrecision": "address",
@@ -155,7 +155,7 @@
     "https://data.geopf.fr/geocodage/search?q=1620+avenue+de+Cos%2C+82000+Montauban&limit=5"
    ],
    "extrait": "Ici ce sont les brasseurs qui servent votre bière.",
-   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : une taproom sans vente dite (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont données comme non vérifiées : non reprises. Seul un portable, publié par l'office : non repris."
+   "choix": "Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris."
   },
   {
    "fiche": {
@@ -194,11 +194,11 @@
     "lat": 44.22931,
     "lon": 1.76855,
     "km": 284.6,
-    "cat": 0,
-    "conf": "",
-    "note": "Microbrasserie de Caylus aux bières permanentes, éphémères, saisonnières ou vieillies en barriques, vendues sur son e-shop, d'après son site ; l'office cite une vente sur un point de vente collectif. Ni vente ni accueil à la brasserie ne sont dits.",
+    "cat": 3,
+    "conf": "solide",
+    "note": "Microbrasserie bio de Caylus : on ne passe pas à la brasserie, sauf lors de ses événements (autour du 1er mai), et elle ne livre pas les particuliers ; ses bières se trouvent chez des distributeurs et sur son e-shop, d'après son site.",
     "addr": "ZA Pech de Rondols, 82160 Caylus",
-    "src": "https://www.brasserielacabane.com",
+    "src": "https://www.brasserielacabane.com/infos/",
     "coordPrecision": "centre",
     "beers": [],
     "contact": {
@@ -210,11 +210,12 @@
    },
    "verifieLe": "2026-11-27",
    "sources": [
+    "https://www.brasserielacabane.com/infos/",
     "https://www.brasserielacabane.com",
     "https://data.geopf.fr/geocodage/search?q=Caylus&type=municipality&limit=5"
    ],
-   "extrait": "La Cabane vous propose un large choix de bières permanentes",
-   "choix": "Site officiel et fiche de l'office relus sur la page brute le 27/11. Seul numéro publié par la brasserie, un portable (règle du 21/10)."
+   "extrait": "Et non, sauf durant les",
+   "choix": "Site officiel relu sur la page brute le 27/11 (FAQ : « Puis-je passer à la brasserie ? Et non, sauf durant les évènements. ») : catégorie 3 (persona Cédric, 27/11, qui a demandé de lire la page « Infos »). Seul numéro publié par la brasserie, un portable (règle du 21/10)."
   },
   {
    "fiche": {
