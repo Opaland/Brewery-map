@@ -329,7 +329,6 @@
         "12:00"
        ]
       ],
-      "remarque": "Samedi et dimanche : sur demande.",
       "source": "https://www.brasseriebarbarossa.fr/",
       "verifieLe": "2026-11-27"
      }
@@ -341,7 +340,7 @@
     "https://data.geopf.fr/geocodage/search?q=670+chemin+des+Cr%C3%AAtes%2C+82170+Grisolles&limit=5"
    ],
    "extrait": "Espace dégustation - Vente sur place à emporter",
-   "choix": "Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note."
+   "choix": "Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note. Le week-end « sur demande » reste dans la note, pas en remarque de la grille : une remarque met tous les jours « sous réserve » (persona Hugo, 27/11)."
   },
   {
    "fiche": {

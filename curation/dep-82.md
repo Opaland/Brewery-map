@@ -50,7 +50,7 @@ Extrait lu : « Site not open to the public. »
 
 Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 27/11. Catégorie 3 en confiance moyenne : l'office écrit « Site not open to the public » (persona Cédric, 27/11). La clé SIRENE (Délices Sun) est à la même rue ; le site écrit 2215, l'office et SIRENE 2115 : numéro de voie omis. Le portable n'est pas repris : le lieu n'accueille pas.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Pas de vente
@@ -96,12 +96,12 @@ Extrait lu : « Boutique sur place »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Le point OSM de Saint-Nauphary est la même brasserie. Seul numéro publié, un portable écrit avec des points, que le contrôle ne relit pas : dans la note (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 37 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 8 h 45 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
 > - Adresse
 > - 4905 route de Saint-Nauphary, 82000 Montauban
 > - Pas encore dans la fiche : ses bières.
@@ -150,7 +150,7 @@ Extrait lu : « Vente en ligne (paiement CB) / Vente directe »
 
 Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. « De préférence sur rendez-vous » : pas de grille, heures dans la note. Le prénom écrit sur le site n'est pas recopié. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10). L'avis de fermeture de fin d'année du site n'a pas d'année : non repris (persona Cédric, 27/11).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -191,7 +191,7 @@ Extrait lu : « Ici ce sont les brasseurs qui servent votre bière. »
 
 Choix du vérificateur : Site officiel et fiche de l'office de Montauban relus sur la page brute le 27/11. Catégorie 0 : le site ne dit pas la vente à emporter, l'office cite seulement « Shop » (la catégorie 4 demande « pas de vente à emporter » écrit). Les heures de l'office sont dans la note, dites non garanties (persona Cédric, 27/11). Seul un portable, publié par l'office : non repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - À confirmer
@@ -228,7 +228,7 @@ Extrait lu : « à la brasserie, pendant les horaires d »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (« passez les retirer à la brasserie, pendant les horaires d'ouverture (uniquement sur rendez-vous) »). Le retrait sur rendez-vous ne fait pas une grille. Aucun téléphone sur le site ; le portable de l'office n'est pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -268,7 +268,7 @@ Extrait lu : « Et non, sauf durant les »
 
 Choix du vérificateur : Site officiel relu sur la page brute le 27/11 (FAQ : « Puis-je passer à la brasserie ? Et non, sauf durant les évènements. ») : catégorie 3 (persona Cédric, 27/11, qui a demandé de lire la page « Infos »). Seul numéro publié par la brasserie, un portable (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Pas de vente
@@ -315,12 +315,12 @@ Extrait lu : « Vente à la propriété »
 
 Choix du vérificateur : Fiche de l'office et site du domaine relus sur la page brute le 27/11. Confiance moyenne : la cave du site peut viser le vin autant que la bière. Fixe lu dans le bloc de la brasserie sur l'office (règle du 31/10) ; les portables du site, associés à des prénoms, ne sont pas repris.
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 37 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
+> - À 8 h 45 (heure de Paris), vente : la source ne dit pas les heures de ce jour.
 > - Adresse
 > - 5450 chemin des Crêtes, 82600 Bouillac
 > - Pas encore dans la fiche : ses bières.
@@ -365,7 +365,6 @@ Choix du vérificateur : Fiche de l'office et site du domaine relus sur la page 
 - horaires.0.mer : (vide) → 14 h 30 – 18 h
 - horaires.0.jeu : (vide) → 9 h – 18 h
 - horaires.0.ven : (vide) → 9 h – 12 h
-- horaires.0.remarque : (vide) → Samedi et dimanche : sur demande.
 - horaires.0.source : (vide) → https://www.brasseriebarbarossa.fr/
 - horaires.0.verifieLe : (vide) → 2026-11-27
 - verifieLe : (vide) → 2026-11-27
@@ -374,14 +373,14 @@ Sources (vérifiée le 2026-11-27) : https://www.brasseriebarbarossa.fr/ ; https
 
 Extrait lu : « Espace dégustation - Vente sur place à emporter »
 
-Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note.
+Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Catégorie 2 : « Espace dégustation » ne dit pas qu'on boit un verre en dehors d'une dégustation, et la guinguette n'est pas ouverte. Le fixe est écrit collé (« 0563929713 »), que le contrôle ne relit pas : dans la note. Le week-end « sur demande » reste dans la note, pas en remarque de la grille : une remarque met tous les jours « sous réserve » (persona Hugo, 27/11).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
 > - Maintenant
-> - À 8 h 37 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h, sous réserve.
+> - À 8 h 45 (heure de Paris), vente : fermé, d’après les horaires publiés. Prochaine ouverture : aujourd’hui à 9 h.
 > - Adresse
 > - 670 chemin des Crêtes, 82170 Grisolles
 > - Pas encore dans la fiche : ses bières.
@@ -390,7 +389,6 @@ Choix du vérificateur : Site officiel relu sur la page brute le 27/11. Catégor
 > - [Appeler le 05 63 92 97 13 (numéro cité par la source, non revérifié)](tel:+33563929713)
 > - [Site de la brasserie](https://www.brasseriebarbarossa.fr/)
 > - Horaires
-> - À savoir : Samedi et dimanche : sur demande.
 > - Horaires de vente
 > - Lundi | 9 h – 18 h
 > - Mardi | 9 h – 18 h
@@ -437,7 +435,7 @@ Extrait lu : « Brasserie locale, made in Campsas. »
 
 Choix du vérificateur : Fiche de l'office et site officiel relus sur la page brute le 27/11 (« Une gamme complète de bières artisanales produites dans notre micro brasserie de Campsas » ; les bières sur la page « Nos bières »). Catégorie 2 en confiance moyenne : la boutique n'est écrite que sur l'office. Seul numéro, un portable publié aussi par la brasserie (« 0668542920 » sur son site) : repris depuis l'office, où il est en paires (règle du 21/10).
 
-**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:37, heure de Paris) :
+**Aperçu de la fiche** (état du moment calculé le vendredi 27 novembre 2026 à 08:45, heure de Paris) :
 
 > - Ce qu’on peut y faire
 > - Acheter seulement
@@ -459,4 +457,4 @@ Choix du vérificateur : Fiche de l'office et site officiel relus sur la page br
 > - [Chercher ses bières sur Untappd](https://untappd.com/search?q=HopDuck+Brewery&type=brewery) (Untappd, une application d’avis sur les bières ; la recherche se fait par le nom de la brasserie)
 > - Lu sur [tourisme-occitanie.com](https://www.tourisme-occitanie.com/fr/fiche/degustation/brasserie-hopduk-campsas_TFOSITRA2_DEG_6599807/) le 27 novembre 2026. La source cite la vente ou l’accueil, avec des réserves ou des manques.
 
-Empreinte du lot : 6fd3724ac2b6
+Empreinte du lot : 1c1b26dadf68
