@@ -64,6 +64,11 @@ pourquoi.
 - **Une lecture sans adresse fait tomber `rendre`** : le géocodeur reçoit
   `q=` vide et répond 400 (11/11, Pirates du Clain). Parade : écrire au moins
   « code postal + commune » dans `adresse` ; la fiche part au centre.
+- **Une brasserie peut n'être ni dans SIRENE ni dans OSM** (28/11, Territoire de
+  Belfort : Microbrasserie & compagnie et Brasserie des Belles Filles, lues sur
+  l'office). `campagne.ts` n'a pas de candidat pour elles, et une fiche écrite à
+  la main contournerait l'outil et la garde. Parade : les consigner dans
+  l'issue du département avec la page lue, et demander à Cédric (#308).
 - **Le géocodeur IGN échoue sur une rue écrite autrement que dans la BAN**
   (« rue du Port de Brouillac », 10/11) et sur un lieu-dit (« Roche
   Gabard ») : la fiche part au centre de la commune ; le noter au BACKLOG
