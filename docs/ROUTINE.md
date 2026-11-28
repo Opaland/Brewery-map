@@ -11,14 +11,13 @@ où reprendre.
 
 | Champ | Valeur |
 |---|---|
-| Département en cours | 90 (Territoire de Belfort), à faire : aucune fiche aujourd'hui (le Lot-et-Garonne, 47, n'en a aucune non plus depuis le 06/11). Les tests de la « commune sans fiche » calculent leur commune sur les données |
+| Département en cours | aucun : la France métropolitaine est parcourue. Au tour des relances « à relancer » (`campagne.ts relancer <dép>-r2`), un département par jour, en commençant par le plus ancien |
 | Essais sur ce département | 0 |
-| Issue du département | à ouvrir (#189, l'Occitanie, est fermée par la PR #306) |
-| Dernier département terminé | 82 (27/11, PR #306, 9 fiches) ; l'Occitanie est couverte |
+| Issue du département | à ouvrir pour la première relance (#308, le 90, attend Cédric) |
+| Dernier département terminé | 90 (28/11, aucune fiche : trois candidats sans source ; deux brasseries trouvées sur l'office, hors SIRENE et OSM, dans #308) |
 
-**File des départements** (dans l'ordre) : 90 (Territoire de Belfort, à
-revérifier). Ensuite les relances « à relancer », puis compléter les fiches
-existantes (téléphones, horaires, bières), un département par jour.
+**File** : les relances « à relancer », un département par jour, puis
+compléter les fiches existantes (téléphones, horaires, bières).
 
 ## Le déroulé d'un jour
 
